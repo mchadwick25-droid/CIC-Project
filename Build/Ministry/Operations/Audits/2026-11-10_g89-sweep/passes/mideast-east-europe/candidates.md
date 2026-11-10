@@ -16,7 +16,33 @@ Scratch research for Mark's gate. Not census copy. Branch `claude/p2-g89-sweep`,
 
 ## 1. River by river
 
-(Filled in at the end of the pass; see §3.)
+| River | Roster has (region, 1650-1906) | Gap | Candidate |
+|---|---|---|---|
+| **Orthodox — Russian** | VII.21 (to 1815), VIII.31 (1815-1906), VII.8, VIII.11, VIII.47 (Alaska) | Missions inside the empire (Siberia, Volga) unnamed | ME-18 named lines in VII.21 / VIII.31 |
+| **Orthodox — Old Believers** | VII.7 (1666-1815) | **Break after 1815** (Belokrinitsa 1846, 1905) | **ME-5** era 9 row |
+| **Orthodox — Ottoman, Greek, Balkan** | VII.18, VII.8, VIII.12, VIII.28 | Paisii's Bulgarian revival, Karlovci, Montenegro, Sibiu unnamed | ME-13, ME-17 named lines |
+| **Orthodox — Antiochian (Arab)** | VII.23's Orthodox side (to 1815), via VII.18 | Nothing after 1815; the Arab patriarch | **ME-4** (with the Melkite Catholics) |
+| **Orthodox — Georgian** | IV.15 (to 1245), IX.40 (from 1917) | **Break 1245-1917**; 1650-1811 and the Exarchate in this window | **ME-3** era 8 row + named line in VIII.31 |
+| **Oriental Orthodox — Armenian** | VII.24a, VII.24, VIII.32 | Etchmiadzin under Russia (1836); the 1870 Catholic schism | ME-14, ME-15 named lines in VIII.32 |
+| **Oriental Orthodox — Syriac** | none after IV.21 (1300) until IX.19 (1915) | **Held break**; 1650-1906 in this window | **ME-7** hold, then era 9 row |
+| **Church of the East** | VI.30 (to 1650), VIII.40 (1815-1906) | **Break 1650-1815** | **ME-1** era 8 row |
+| **Eastern Catholic — Maronite** | IV.10, V.22 (to 1517) | **Break 1517-1900** | **ME-2** era 8 and era 9 rows |
+| **Eastern Catholic — Melkite** | VII.23 (1724-1815) | Nothing after 1815; 1650-1724 held | **ME-4** era 9 row; named line in VII.23 |
+| **Eastern Catholic — Chaldean** | VIII.40 (1830 consolidation) | the Josephite line 1681-1830 | in **ME-1** |
+| **Eastern Catholic — Syriac Catholic** | none | 1781 split, 1830 millet | in **ME-7** |
+| **Eastern Catholic — Armenian Catholic** | VII.24 (1742, Bzommar), VIII.32 (mention) | 1867-1870 schism | ME-15 |
+| **Eastern Catholic — Ruthenian** | VI.20, VII.28, VIII.38 | Carpathian union (Uzhhorod 1646, Mukachevo) unnamed | named line in VII.28 / VIII.38 (in ME-8) |
+| **Eastern Catholic — Romanian** | IX.73 (from 1948) only | **No parent**: 1698 union to 1906 | **ME-8** era 8 row (+ era 9) |
+| **Catholic — Latin, Poland and Lithuania** | VI.22, VII.19, VIII.29 (Rome-centered); IX.70 (from 1918) | **No row** for the partition-era church; IX.70 has no parent | **ME-10** era 9 row |
+| **Catholic — missions in the Ottoman lands** | none as a movement | Capuchins, Jesuits, Propaganda brokered most unions | not a row; told inside each church (see notes) |
+| **Catholic — Jerusalem** | IV.25 (to 1291) | Latin Patriarchate 1847; Holy Places | ME-16 gate note |
+| **Jesuits** | VI.11 (to 1650), VII.19 (suppression, restoration) | Russian survival 1773-1814 | **ME-12**: named line in a Jesuit home (Mark's test) |
+| **Protestant — Hungarian and Transylvanian** | VI.14 (Unitarians, to 1650) | **No row** for the Reformed and Lutherans | **ME-9** era 8 row (+ era 9) |
+| **Protestant — Russian evangelical** | VIII.51 (1860-1906) | none | — |
+| **Protestant — Middle East missions** | VIII.32 (Armenian Evangelicals), VIII.40 (Urmia) | **Arab Evangelicals** of Syria and Lebanon | **ME-11** wing in VIII.7 |
+| **Protestant — Anabaptist in Russia** | none after VI.3 | Mennonites, Hutterites | ME-22 → rivers pass |
+| **Independent / dissenting (Russia)** | none | Dukhobors, Molokans, Khlysty, Skoptsy; Tolstoyans | **ME-6** (Section A open); ME-20 out under A1 |
+| **Jewish-Christian** | IX.13 (from 1960) | Rabinowitz, Kishinev 1884 | ME-21 hold |
 
 ---
 
@@ -220,3 +246,166 @@ Scratch research for Mark's gate. Not census copy. Branch `claude/p2-g89-sweep`,
   - (b) An era 9 row now (c. 1650/1781-1906) on Badger and Fortescue, with the asymmetry named.
   - (c) A short named line in IX.19 pointing back, and no row.
 
+### ME-8. The Romanian Greek Catholic Church of Transylvania: the union of Alba Iulia to the metropolitanate of Blaj (1698-1906)
+
+- **Answers no logged break directly**, but it is the missing parent of IX.73 (which starts at the 1948 dissolution with no earlier entry).
+- **Kind:** church body (Eastern Catholic). **Era:** 8 and 9 (one row per era, or one era 8 row with an era 9 named line).
+- **Dates:** the union act of 7 October 1698 at Alba Iulia; Bishop Athanasius Anghel confirmed in 1701 (Nilles's section titles); to 1906. The see at Blaj (Balázsfalva), Inochentie Micu-Klein and the "Transylvanian School" (Școala Ardeleană) are [S] for their dates; the metropolitanate of 1853 is [S].
+- **Region / countries:** North Europe (the tag IX.73 uses); Romania (Transylvania: Alba Iulia, Blaj, Făgăraș). **Lane:** 3<->5 bridge (Greek East / Latin West), as IX.73.
+- **What it carries that no row does:** how most of Transylvania's Romanian Orthodox clergy entered communion with Rome under the Habsburgs, with the Jesuits of Alba Iulia as brokers; the church's role in Romanian national and scholarly life in the eighteenth and nineteenth centuries; and the Orthodox resistance to the union (the movement around the monk Visarion and Sofronie, [S]).
+- **Section A:** No floor question (Nicene; Byzantine rite; in communion with Rome). Dated own statement: the union act of 7 October 1698 (V).
+- **B1 Sourcing:** Moderate to strong. The union's own acts in Nilles's 1885 documentary edition (Latin and Romanian, V); a 1909 study for scale (Fortescue). Wanted: a Romanian study (for example Nicolae Iorga or Augustin Bunea, both pre-1930 [S]).
+- **B2 Ecology:** Strong: bishops, protopopes, village priests, Jesuit advisers, the Habsburg court and Transylvanian estates, schools and the press at Blaj, Orthodox resisters.
+- **B3 Uniqueness:** High. The roster has this church only from 1948 (IX.73). VI.14 is the Transylvanian Unitarians; the Ruthenian rows (VI.20, VII.28, VIII.38) are a different union.
+- **B4 User needs:** history learners, Romanian users, Eastern Catholics, academically minded users.
+- **B5 Scale:** large (Fortescue: "about a million and a half" Romanian Catholics in 1909).
+- **Tier:** 1 for an era 8 row on the union; 2 for era 9 until a Romanian study is opened.
+- **Evidence:**
+  1. Nicolaus Nilles, *Symbolae ad illustrandam historiam ecclesiae orientalis in terris coronae S. Stephani* (Innsbruck, 1885), archive.org item symbolaeadillus00nillgoog, raw djvu text — **V**. The act, in Latin beside its Romanian text: «Nos infrascripti Vladica, protopresbyteri ac presbyteri ecclesiarum Valachicarum ... libere cum Ecclesia Romano-Catholica unionem inimus, ejusdem Sanctae Romano-Catholicae Ecclesiae commembra nos per has literas testimoniales declaramus» ... «Datum Albae-Juliae anno Domini 1698 die 7. Octobris.» ("We the undersigned bishop, archpriests and priests of the Wallachian churches ... freely enter into union with the Roman Catholic Church, and by this letter of witness declare ourselves fellow members of the same holy Roman Catholic Church ... Given at Alba Iulia, 7 October 1698", my rendering; OCR damage silently read through, e.g. «inimus» from «i n i m u s»). Section headings: «Acta sub Athanasio nondum confirmato 1698—1701» and «Acta sub Athanasio rite confirmato 1701—1713». A synod text cited: «Octavus jam volvitur annus, quod opera ac solertia Patrum S. J., Albae-Juliae degentium, de unione cum Sancta Romano-catholica Ecclesia agere coepimus» ("The eighth year is now turning since, by the work and skill of the Jesuit Fathers living at Alba Iulia, we began to treat of union with the holy Roman Catholic Church", my rendering). Nilles was a Jesuit canonist; a Catholic documentary edition.
+  2. Fortescue, "Eastern Churches", *Catholic Encyclopedia* vol. 5 (1909) — **V** (study): "Rumanian Catholics (about a million and a half) in Rumania, but chiefly in Transylvania. They have bishops and use their own language in the liturgy."
+  3. Inochentie Micu-Klein, Blaj, the Transylvanian School, the 1853 metropolitanate — **[S]**.
+- **Living:** yes (IX.73 carries it to c. 2010).
+- **Mark's test — this is the closest case to his Jesuit example.** The Jesuits of Alba Iulia brokered the union, by the synod's own words. But the church that came out of it is a separate body with its own bishops, rite and language, alive today (IX.73), and the Jesuits' worldwide work is not its story. So: the Jesuits are a named line inside this row; the row is not part of a Jesuit row, and a Jesuit continuation row (if Mark wants one) would only point here.
+- **Overlap:** IX.73 (from 1948); VII.19 (the Catholic church of the ancien régime; does not name Transylvania); VIII.28 (Romania's Orthodox church from 1885; the Transylvanian Orthodox see at Sibiu, 1864, is named only in Fortescue's list).
+- **Recommendation:** **enter** an era 8 row (1698-1815), with the era 9 years (Blaj, the metropolitanate, the national revival) as an era 9 row once a Romanian study is opened, or as a named line until then. Name the **Carpathian Ruthenian union** (Uzhhorod, 1646; Mukachevo, a see by Nilles's "primus episcopus Munkacsiensis" entry, date [S]) as a **named line in VII.28 / VIII.38** (the Ruthenian rows), not here.
+- **Gate question G-ME8.** How should the Romanian Greek Catholic Church before 1948 enter?
+  - (a) An era 8 row from the 1698 union, and an era 9 row (or named line) to 1906, both linked to IX.73. **Recommended**: the union act is in hand in its own words, and IX.73 has no parent.
+  - (b) One composite row, "The Greek Catholic churches of the Hungarian crown" (Romanians and Carpathian Ruthenians), 1646/1698-1906. Tidier, but it joins two peoples with separate stories and separate era 10 heirs (IX.73, IX.21).
+  - (c) A named line in VII.19 only.
+
+### ME-9. Hungarian and Transylvanian Protestantism: the "decade of mourning" to the Patent of Toleration and 1848 (1650-1906)
+
+- **Answers no logged break.** A gap found by this pass.
+- **Kind:** church bodies (the Reformed Church in Hungary and Transylvania; the Lutheran Church of Hungary). **Era:** 8 and 9.
+- **Dates:** 1650-1906. Markers: the trials of Protestant preachers in the 1670s and their sale to the Naples galleys, freed by Admiral de Ruyter's fleet on 11 February 1676 (Bauhofer, V); Joseph II's toleration of 24 October 1781 (Bauhofer, V); the equality of confessions decreed by the Diet in 1848 (Catholic Encyclopedia, V).
+- **Region / countries:** North Europe (the tag VI.14 uses); Hungary, Romania (Transylvania), Slovakia. **Lane:** 6 Protestant & Evangelical.
+- **What it carries that no row does:** the largest Protestant churches of East-Central Europe, under Habsburg Counter-Reformation pressure and Ottoman retreat; the galley-slave preachers, a famous martyrology; Debrecen and Sárospatak as Reformed centers [S]; the 1781 toleration and the 1848 equality; the Lutheran Slovaks and Germans of Upper Hungary [S].
+- **Section A:** No floor question (Reformed and Lutheran confessions; the Second Helvetic and Augsburg confessions [S for the Hungarian adoption dates]).
+- **B1 Sourcing:** Moderate. A Hungarian Protestant church history of 1854 in English (Bauhofer, V), a 1910 Catholic study (CE "Hungary", V). Wanted: a Hungarian-language source and the galley-slaves' own narratives (for example the account of Bálint Kocsi Csergő, [S]).
+- **B2 Ecology:** Strong: nobles and towns, colleges, village pastors, Habsburg courts and Jesuits, Ottoman and Transylvanian princes, peasants.
+- **B3 Uniqueness:** High. The roster's only East-Central European Protestant rows are VI.14 (anti-Trinitarians, to 1650) and VI.24 (the Czech churches, to 1627).
+- **B4 User needs:** Reformed and Lutheran users, history learners, academically minded users.
+- **B5 Scale:** large.
+- **Tier:** 2 (1 once a Hungarian source is in hand).
+- **Evidence:**
+  1. [Johann] Bauhofer, *History of the Protestant Church in Hungary, from the Beginning of the Reformation to 1850; with special reference to Transylvania*, tr. J. Craig, intro. Merle d'Aubigné (Boston, 1854), archive.org item historyofprotest00bauh, raw djvu text — **V**. "On the 11th of February, 1676, the chaplain of the Dutch fleet, accompanied by several superior officers, went on board the boats, and, as in a dream, the prisoners forsook the place of their confinement, singing the 46th, the 114th, and 125th Psalms." Joseph II's edict reached the Protestants "on the 24th of October, 1781". A Protestant apologetic history; the author's name is [S] as the title page in this OCR shows only the translator.
+  2. "Hungary", *Catholic Encyclopedia* vol. 7 (1910), newadvent.org/cathen/07547a.htm — **V** (study, Catholic): "The Diet of 1848 decreed the equality and reciprocity of all recognized confessions."
+- **Living:** yes (the Reformed Church in Hungary; the Lutheran churches) [S]; no dated item read.
+- **Mark's test:** Unique. These are national churches of the Reformation, not part of the German Pietist or Moravian movements, though Halle shaped some Hungarian Lutherans [S].
+- **Overlap:** VI.14 (Transylvanian Unitarians, to 1650); VI.2 (the Reformed cities, the parent tradition); VIII.41 (German confessional Lutherans). None names Hungary's Protestants after 1650. This may also fall to the rivers pass (Protestant and Evangelical): flag it to the merge.
+- **Recommendation:** **enter** an era 8 row (1650-1815), with era 9 as a named line or a second row.
+- **Gate question G-ME9.** How should Hungarian Protestantism enter?
+  - (a) An era 8 row (1650-1815: persecution to toleration), with 1815-1906 (1848, the autonomy struggles) as an era 9 row once a Hungarian source is opened. **Recommended**: era 8 is where the galley-slave story and 1781 sit, and both are verified now.
+  - (b) A named line in VI.2's descendants (the Reformed) and VIII.41 (Lutherans). Not recommended: neither runs east of Germany.
+  - (c) Leave it to the rivers pass.
+
+### ME-10. Polish and Lithuanian Catholicism under the partitions (1772/1815-1906)
+
+- **Answers no logged break**, but IX.70 (Polish Catholicism, from 1918) has no parent, and no row carries the Catholic Church of the Polish-Lithuanian lands at all between VI.22 (to 1650) and IX.70.
+- **Kind:** church body (the Latin Catholic Church in the partitioned Polish and Lithuanian lands). **Era:** 9 (with the 1772-1795 partitions at the end of era 8).
+- **Dates:** 1815-1906 (the row); era 8 roots from the partitions of 1772, 1793 and 1795.
+- **Region / countries:** North Europe (the tag IX.70 uses); Poland, Lithuania, with Belarus and Ukraine for the dioceses Russia held. **Lane:** 5 Latin West & Catholicism.
+- **What it carries that no row does:** the church as the carrier of a nation without a state; Russian measures after 1831 and 1863 (convents suppressed, church property taken by the 1864 order, the clergy put under a St Petersburg commission in 1867); the Prussian Kulturkampf in Poznań and Gniezno (Archbishop Ledóchowski's imprisonment, [S]); the 1905 toleration; the Lithuanian press ban of 1864-1904 and the book-smugglers (*knygnešiai*), a defined movement of its own ([S] in this run).
+- **Section A:** No floor question (Catholic).
+- **B1 Sourcing:** Moderate. A 1911 study by a Polish Catholic author (Kołodziejczyk, CE "Poland", V); papal documents to the 1770s in the Library (Theiner, *Vetera monumenta Poloniae et Lithuaniae*, vol. 4, V as held, not read here). Wanted: Polish pastoral letters of the period and a Lithuanian source on the press ban.
+- **B2 Ecology:** Strong: bishops in exile, parish priests, convents, insurgents, peasants, pilgrimages (Częstochowa, [S] for this period), smugglers, three empires' police.
+- **B3 Uniqueness:** High. The only Polish Catholic row is IX.70 (from 1918). The Greek Catholic rows (VI.20, VII.28, VIII.38) are a different church.
+- **B4 User needs:** Catholics, Polish and Lithuanian users, history learners.
+- **B5 Scale:** large.
+- **Tier:** 1.
+- **Evidence:**
+  1. E. Kołodziejczyk, "Poland", *Catholic Encyclopedia* vol. 12 (1911), newadvent.org/cathen/12181a.htm — **V** (study). "After the three partitions (1773, 1793, 1795), the Government of Russia strove to extirpate, not only Polish nationality, but also the Catholic Church." "Even harsher measures were adopted after 1863: by a cabinet order of 1864, the property of the Church was confiscated, the convents still in existence suppressed; in 1867 the clergy were placed under the authority of a commission at St. Petersburg". "Not until after the war with Japan was an edict of toleration proclaimed in Russia". "Obstacles raised by the Government to hinder vocations were so effective that in the seven years immediately following 1863 not more than ten priests were ordained in Lithuania". On Prussia: "The Catholic clergy in Prussian Poland was subordinated to the temporal power." (The article dates the first partition 1773; 1772 is the usual date.)
+  2. Augustin Theiner, *Vetera monumenta Poloniae et Lithuaniae*, vol. 4 (Rome, 1864), Library — **V** as a held file; its coverage of the later eighteenth century was not checked.
+- **Living:** yes (IX.70).
+- **Mark's test:** Unique. VIII.29 (the Catholic world) and VIII.33 (Old Catholics, whose legacy line names Poland among its national churches) do not tell it. It belongs to no cross-world movement.
+- **Overlap:** VIII.38 (the Greek Catholic church the same Russian policy dissolved in 1839 and 1875; CE's "the Uniats were forced into apostasy" is that story); IX.70 (from 1918); VII.19 and VIII.29 (Rome-centered).
+- **Recommendation:** **enter** an era 9 row (1815-1906), with the partitions as its opening; the Commonwealth church of 1650-1772 (the 1655 defense of Jasna Góra, the Marian Fathers) as a **named line in VII.19** or a held era 8 row.
+- **Gate question G-ME10.** How should the Polish-Lithuanian Catholic church before 1918 enter?
+  - (a) An era 9 row, 1815-1906, parent of IX.70, with the Lithuanian book-smugglers as a named line once a source is opened. **Recommended**: the verified item covers exactly these years.
+  - (b) An era 8 row as well (1650-1815: the Commonwealth church to the partitions). Fuller, but its sources are not yet opened.
+  - (c) Named lines in VIII.29 only.
+
+### ME-11. The Arab Evangelical churches and the American mission in Syria and Lebanon (1819/1823-1906)
+
+- **Answers no logged break.** A gap found by this pass.
+- **Kind:** church body (the evangelical churches of Syria and Lebanon) with the mission that planted them. **Era:** 9.
+- **Dates:** missionaries instructed in November 1819; arrival at Beirut 10 July 1823; the first native evangelical church organized in Beirut in 1848; the Arabic Bible completed 10 March 1865; the Syrian Protestant College 1866 [S for its date in this run].
+- **Region / countries:** Middle East; Lebanon, Syria. **Lane:** 6 Protestant & Evangelical.
+- **What it carries that no row does:** the Arabic Protestant church and its Bible (the Smith-Van Dyck translation, with Butrus al-Bustānī and Nāṣīf al-Yāzijī [S for Bustānī's role, V for Yāzijī as "assisting"]), schools and press; converts from the Maronite, Melkite and Orthodox churches; the Ottoman Protestant millet of 1850 (VIII.32 names it for the Armenians).
+- **Section A:** No floor question (Reformed evangelical).
+- **B1 Sourcing:** Moderate. A missionary's own fifty-year history (Jessup 1910, V); Rufus Anderson's 1872 history of the ABCFM missions to the Oriental churches (archive.org; the text fetch failed in this run, [S]). Wanted: an Arabic source from the church itself (for example Bustānī's own writings).
+- **B2 Ecology:** Moderate to strong: missionaries, Arab teachers and translators, converts and their excommunication, the press, schools, the 1860 war.
+- **B3 Uniqueness:** High. No row carries Arab Protestants. VIII.32 carries the Armenian Evangelicals; VIII.40 carries Urmia; VIII.7 carries other mission churches but not the Middle East.
+- **B4 User needs:** evangelical users, Arab Christian users, history learners.
+- **B5 Scale:** small.
+- **Tier:** 2.
+- **Evidence:**
+  1. Henry Harris Jessup, *Fifty-three Years in Syria*, vol. 1 (New York, 1910), archive.org item fiftythreeyearsi011832mbp, raw djvu text — **V**. Pliny Fisk sailed "November 3, 1819"; "He arrived in Beirut July 10, 1823"; "Friday, March 10, 1865, a celebration took place at the American Press, in honour of the printing of the Old Testament, thus completing the new Arabic translation of the Bible"; Van Dyck's translation began in 1848, "assisted by Sheikh Nasif el Yazigy"; a chapter headed "Organization of a Native Evangelical Church (1848)". Jessup is a Presbyterian missionary, openly hostile to the Eastern churches ("Their reform hopeless").
+  2. Rufus Anderson, *History of the Missions of the American Board ... to the Oriental Churches* (Boston, 1872) — **[S]** (archive.org listing only).
+- **Living:** yes (the National Evangelical Synod of Syria and Lebanon) [S]; no dated item read.
+- **Mark's test:** It is part of one cross-world movement in a sense, the American Board's missions, which also made the Armenian Evangelical Church (VIII.32) and the Urmia work (VIII.40). But no row tells the American Board as a movement; VIII.7 is the mission-born native churches of India, Africa, the Pacific and China. **Option to weigh:** a single era 9 row, "The Protestant missions to the Oriental churches and the evangelical churches they made" (Beirut, Constantinople, Urmia), with VIII.32 and VIII.40 keeping their own pieces.
+- **Overlap:** VIII.32 (Armenian Evangelicals, 1846/1850); VIII.40 (Urmia mission); VIII.7 (other mission churches).
+- **Recommendation:** **enter** as an era 9 row for the Arab evangelical church, or as a new wing of VIII.7 (see the gate question).
+- **Gate question G-ME11.** Where do the Arab Protestant churches go?
+  - (a) A fifth wing in VIII.7, "Syria and Lebanon", beside its four. **Recommended**: VIII.7 is already the row for churches born of the Protestant missionary societies, and this is one, so the census keeps one story.
+  - (b) A new era 9 row for the Arab evangelical church alone.
+  - (c) A new era 9 cross-world row for the American missions to the Oriental churches, with the Armenian and Urmia pieces as named lines pointing to VIII.32 and VIII.40.
+
+### ME-12 to ME-22. Named lines, routings and smaller items
+
+Each is short: what it is, the row that should carry it, the evidence state, and a recommendation. None needs its own row on present evidence.
+
+- **ME-12. The Jesuits in Russia, 1773-1814 (Mark's Jesuit test).** After Clement XIV suppressed the Society in 1773, its members in the Russian Empire carried on. Pius VII's bull of 1814 recites that "Francis Kareu ... and other secular Priests resident for many years in the vast empire of Russia, and who had been members of the Company of Jesus" had asked to unite, and that "the then reigning Emperor Paul I. had recommended the said Priests in his gracious dispatch, dated the 11th of August, 1800" (`cic/texts/clement-xiv_bulls-suppression-and-restoration-of-the-jesuits-lat-eng_1814.txt`, file lines ~140-158 — **V**). This is the Jesuits' own story, one worldwide movement, exactly Mark's example. **Recommendation:** a named line in whatever Jesuit home Mark rules for the China break (a Society of Jesus era 8 continuation of VI.11), or in VII.19, which already tells the 1773 suppression and 1814 restoration. Not a regional row.
+- **ME-13. The Bulgarian church revival from Paisii of Hilendar (1762).** Paisii's *Istoriia slavianobolgarskaia* (*История славянобългарская*, "Slavo-Bulgarian History", 1762; ed. Ivanov 1914), `cic/texts/paisii-hilendarski_istoriia-slavianobolgarskaia-bul_ivanov1914.txt` — **V** (held; the registry says he complains "of Greek domination of their church"). The corpus map already lists it for VII.18 and VIII.28, but neither row's text names it. **Recommendation:** a named line in VII.18, running into VIII.28's Exarchate (1870).
+- **ME-14. The Armenian church in the Russian Empire: the Polozhenie of 1836.** Malachia Ormanian, *The Church of Armenia* (1912), Library, file line ~4758 — **V**: "the regulation (pologenia) which was specially enacted (1836) for the purpose of establishing connection with the patriarchal administration, opened very wide the door for the interference of the political authority." Ormanian was Armenian patriarch of Constantinople, a voice from inside the church. VIII.32 is Constantinople-centered and does not name Etchmiadzin under Russia (VII.24a ends with 1810). **Recommendation:** a named line in VIII.32.
+- **ME-15. The Armenian Catholic schism of 1870 and the bull *Reversurus* (1867).** Labourt, CE "Chaldean Christians" — **V** (study): "the Bull 'Reversurus' had provoked (1867) a schism in Armenia". VIII.32 names an Armenian Catholic patriarchate only "alongside". **Recommendation:** a named line in VIII.32; [S] for the details of Hassun and the Hassunite schism.
+- **ME-16. The Holy Places and the Latin Patriarchate of Jerusalem (1847).** Fortescue, CE "Jerusalem (After 1291)" (1910) — **V** (study): "It was the dispute between Catholics and Orthodox as to the keys of the Holy Sepulchre that immediately caused the Crimean War (1853)"; the Franciscan Custos was "till 1847 the supreme authority for Catholics in Palestine", until Pius IX made the titular patriarchate "a real see again at Jerusalem" (the article misprints "Pius III" once). A cross-church story with no row since IV.25 (Latin Outremer) and VII.18. **Recommendation:** hold as a gate note; it may be a named line in VIII.28 (the Orthodox side) and VIII.29 (the Catholic side). Not a movement by the four marks.
+- **ME-17. Orthodox church bodies the census lists nowhere: Karlovci, Montenegro, Sibiu.** Fortescue, CE "Eastern Churches" (1909) — **V** (study), in his list of autocephalous churches: "Carlovitz (1765), formed of Orthodox Serbs in Hungary"; "Czernagora (1765), with one independent diocese of the Black Mountain"; "Hermannstadt (Nagy-Szeben, 1864), the Church of the Vlachs in Hungary, with three sees" (Fortescue's dates are for their independence as he reckons it). VII.18 names Karlovci; nothing names Montenegro's prince-bishops or Andrei Șaguna's Transylvanian metropolis. **Recommendation:** named lines in VII.18 (Karlovci, Montenegro) and VIII.28 (Sibiu, 1864).
+- **ME-18. Russian Orthodox missions inside the empire: Siberia, the Volga and Il'minskii's schools; the Beijing mission (1715).** VII.21 names Valaam and Alaska; VIII.31 names the Altai and Japan. No source opened in this run — **[S]**. The Beijing mission falls to the Asia pass. **Recommendation:** named lines in VII.21 and VIII.31 once a source is opened (for example Mouravieff 1842, in the Library, for Siberia; not searched here).
+- **ME-19. Urmia: the Assyrian evangelical church and the Russian Orthodox mission of 1898.** VIII.40 names the American mission and the Canterbury mission. The Russian mission and the Assyrians' turn to Orthodoxy are **[S]** (Wigram 1929, in the Library, not read). **Recommendation:** a named line in VIII.40.
+- **ME-20. The Tolstoyans (1880s-1906).** A defined movement on its face (a beginning in the 1880s, carriers around Vladimir Chertkov, a name, and studies), tied to the Dukhobors by the 1899 migration. Section A is a floor question: Tolstoy denied Christ's divinity [S; his own words not opened]. **Recommendation:** out of scope under A1 unless Mark chooses a lane 8 "Beyond the Floor" entry; noted with ME-6.
+- **ME-21. The Hebrew Christians of Kishinev (Joseph Rabinowitz, 1884).** A small, named Jewish-Christian congregation in Bessarabia. **[S]** only. It would be the earliest parent of IX.13 (Messianic Judaism), which starts in 1960. **Recommendation:** hold for sources.
+- **ME-22. Mennonites and Hutterites in the Russian Empire (1789-1874).** The Anabaptist river after VI.3 (to 1650) has no Mennonite row in eras 8-9. The Russian colonies are named in VIII.51 only as the Stundists' German neighbors. The Library holds the Hutterite chronicles (V as held). **Recommendation:** route to the rivers pass (Anabaptist), as a single movement across Europe and Russia, not a regional row.
+
+---
+
+## 3. Ranked list (importance to the eras' global story)
+
+| Rank | ID | Candidate | Era | Tier | Recommendation |
+|---|---|---|---|---|---|
+| 1 | ME-5 | Old Believers, 1815-1906 | 9 | 1 | Enter |
+| 2 | ME-2 | Maronite Church, 1650-1906 | 8, 9 | 1 (era 9), 2 (era 8) | Enter era 9; era 8 after the 1736 acts |
+| 3 | ME-10 | Polish and Lithuanian Catholicism under the partitions | 9 | 1 | Enter |
+| 4 | ME-8 | Romanian Greek Catholic Church, 1698-1906 | 8 (+9) | 1 | Enter era 8; era 9 row or named line |
+| 5 | ME-4 | The two Melkite churches, 1815-1906 | 9 | 1-2 | Enter one row for both; 1650-1724 named line in VII.23 |
+| 6 | ME-1 | Church of the East, 1650-1815 | 8 | 2 | Enter |
+| 7 | ME-3 | Georgian church, 1650-1811 (+ Exarchate) | 8 | 2 | Enter era 8; Exarchate as named line in VIII.31 |
+| 8 | ME-9 | Hungarian and Transylvanian Protestantism | 8 (+9) | 2 | Enter era 8 |
+| 9 | ME-11 | Arab Evangelical churches of Syria and Lebanon | 9 | 2 | Fifth wing of VIII.7 |
+| 10 | ME-6 | Dukhobors, Molokans and other spiritual Christians | 9 | 2 | Hold for Section A, body by body |
+| 11 | ME-7 | Syriac Orthodox and the Syriac Catholic split | 9 | 2-3 | Hold for one in-region source |
+| — | ME-12 to ME-22 | Named lines and routings | 8, 9 | — | See §2 |
+
+## 4. How each logged break was answered
+
+| Break (Open-Gaps 135/142) | Unique, or part of another movement? | Answer |
+|---|---|---|
+| Church of the East, 1650-1815 | Unique: the middle of VI.30 → VIII.40. Capuchin and Propaganda work is a strand inside it, not a movement row. | ME-1, era 8 row (V: Badger, Malech, Labourt) |
+| Maronites, 1517-1900 | Unique: IV.10 and V.22 carried on. Rome is part of the story, as for every Eastern Catholic church. | ME-2, era 8 and era 9 rows; 1517-1650 flagged to the era 7 owner |
+| Georgian church, none after 1245 | Unique for 1650-1811. The Exarchate (1811-1917) sat inside the Russian Synod, so it is a named line in VIII.31 leading to IX.40. | ME-3; 1245-1650 flagged to the era 6 and 7 owners |
+| Melkites, 1009-1724 (held) | Only 1650-1724 falls here: Macarius III's world, the run-up to VII.23's 1724 split. Same church as VII.23. | Named line in VII.23 (V: Paul of Aleppo, Fortescue); 1009-1650 stays held. New finding: nothing after 1815 (ME-4). |
+| Syriac Orthodox after 1300 (held) | Unique. The Syriac Catholic split is its own strand. | ME-7, still held: both items opened are outsiders (Badger, Fortescue) |
+| Old Believers after 1815 | Unique: VII.7 carried on. VIII.31 names Belokrinitsa as "separate". | ME-5, era 9 row (V: Conybeare, Pinkerton) |
+
+---
+
+## 5. Notes
+
+1. **The Catholic Encyclopedia is the workhorse here, and it is one-sided.** Its Middle Eastern articles are by real scholars (Labourt, Fortescue, Charon) and are inside the era, but they call the other churches "schismatics". Every row that leans on one needs a second, non-Catholic study.
+2. **Propaganda Fide and the Capuchins brokered most of this region's unions** (Diyarbakır 1672/1681, Alba Iulia 1698, Damascus 1724, Mosul 1778, Aleppo 1781). Under Mark's test this could look like one movement. It is not one in the four-marks sense: it is a policy of one church, carried out by several orders, and each union made a separate living church. The policy belongs in VII.19 and VIII.29; each church gets its own row.
+3. **The Jesuits appear twice in this region**: as brokers of the Romanian union (ME-8, the synod's own words) and as survivors in Russia after 1773 (ME-12). Both support one Jesuit continuation home for era 8, if Mark rules one for the China break.
+4. **VII.23's corpus map already lists Charon's 1833-1855 volume**, and VII.18's lists Paisii (1762), but neither row's text uses them. Part of this region's gap is unused Library holdings, as CORPUS-USE.md expects.
+5. **Era 10 parents.** ME-8 would give IX.73 a parent, ME-10 gives IX.70 one, ME-2 would give the era 10 sweep's proposed Maronite row (E6, not on the roster) one, and ME-3 gives IX.40 one.
+6. **Section A is open only for ME-6 and ME-20.** All other candidates confess the Nicene Creed.
+7. **Not swept in this pass:** Kosmas the Aitolian and Greek itinerant preaching; Albanian and Bosnian Catholics (the Franciscans); the Czech lands after 1627 (the hidden Protestants, the 1781 toleration), which sit between this region and North Europe; Cossack and Ukrainian Orthodox under Russia after 1686 (VII.21 names the transfer).
+8. **Wanted list for the source-research thread:** the 1736 Maronite synod acts (Mansi 38); a clean Duwayhī; Assemani BO III for the Josephite years; a Syriac Orthodox chronicle after 1369 or Parry 1895; Brosset's modern Georgian volumes (1856-1858); a Belokrinitsa own-voice text; Anderson 1872; a Romanian pre-1930 study (Bunea, Iorga); a Hungarian Protestant source in Hungarian.

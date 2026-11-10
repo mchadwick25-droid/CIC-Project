@@ -9,3 +9,5 @@
 - [ ] candidates.json, summary.md.
 - [x] AP1 St Thomas 1665-1815 written to candidates.md.
 - [x] AP2 China, AP3 Japan, AP4 Vietnam written.
+- [x] AP5 VOC, AP6 Ceylon, AP7 Syro-Malabar era 9 written.
+- [x] AP8-AP15 written (named lines / holds / carried).

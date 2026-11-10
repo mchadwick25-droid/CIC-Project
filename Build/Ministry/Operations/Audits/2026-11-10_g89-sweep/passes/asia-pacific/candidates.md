@@ -233,8 +233,9 @@ Kangxi, Schall or Verbiest, the Russian mission in Peking, or the Missions Étra
 - **B3:** High. Survival of a church for two centuries with no priest is a case the world history of
   Christianity always cites; the roster says so in VI.13b and VIII.45 but gives the years no row.
 - **B4:** Broad: thoughtful believers (faith without clergy), pastors, learners, academic users.
-- **B5:** Small to mid (Marnas counts Urakami alone at about 1,300 households/people? — the line
-  reads "au nombre d'environ 1.300", line 22183; the unit was not checked) — **[S]** on size.
+- **B5:** Small to mid. Within weeks of 17 March 1865 the missionaries counted "3800 chrétiens":
+  about 1,300 at Urakami and 2,500 in the hills and nearby islands (Marnas I, lines 22180–22184, V).
+  VIII.45's figure of about 30,000 who came forward later was not checked here.
 - **Tier:** Tier 1 (a logged break with a strong story).
 - **Mark's test:** Unique. Not the Jesuits' story: the order had no priest in Japan after the 1640s
   [S], and the communities kept the faith on their own. Not VIII.45's story, which begins on
@@ -340,4 +341,297 @@ Kangxi, Schall or Verbiest, the Russian mission in Peking, or the Missions Étra
   - (c) A named line in an MEP row (see AP-X2).
   - **Recommended:** (b). It matches how the roster already handles the Philippines across the same
     eras, and the 1833 edicts make a natural era 9 story. (a) is fine if Mark prefers fewer rows.
+
+### G89-AP5 — The Protestant churches of the Dutch East India Company world: the Moluccas, Batavia and Ceylon, 1650–1815
+
+- **Kind:** church body (the Reformed church of the VOC settlements, with its native teachers and
+  congregations: Ambon and the Lease islands, Batavia, Makassar, Semarang, Kupang; the Dutch Reformed
+  church in Ceylon, 1658–1796).
+- **Era:** 8 (1650–1815), with era 7 roots from 1605 and an era 9 tail (the *Indische Kerk*, 1817,
+  until VIII.26 begins in 1861).
+- **Dates:** 1605, the VOC takes Ambon from the Portuguese (V, Aritonang & Steenbrink, lines
+  ~2431–3074). 1673, Ambon's teachers ordered to the central town (V, line ~6013). 1700, 95 of the
+  VOC's 18,117 personnel serve religious needs, not counting "the native teachers, evangelisers ...
+  and sacristans in East Indonesia (Ambon, Ternate, Kupang)" (V, lines 7054–7059). 1719–22, Werndly
+  at Makassar translates the Heidelberg Catechism and helps correct the Leijdecker Malay Bible (V,
+  lines 7060–7064). 1753, Semarang's congregation of 1,767 Christians (V, line ~7069). Ceylon:
+  plakaat of 19 September 1658 against harboring Catholic priests (V, Casie Chitty, line ~609).
+- **Region / countries:** Greater Asia — Indonesia (Moluccas, Java, Sulawesi, Timor), Sri Lanka.
+- **Lane:** Protestant & Evangelical.
+- **Section A:** Clears. School teachers "had to agree with the Heidelberg Catechism and the
+  Confession of Faith of the Dutch Reformed Churches" (V, Aritonang & Steenbrink, lines ~6918–6921):
+  a Reformed, Trinitarian confession binding the church's teachers in the window.
+- **B1:** Good: one major open-access study opened raw (Aritonang & Steenbrink 2008, ch. 5,
+  "The Arrival of Protestantism and the Consolidation of Christianity in the Moluccas 1605–1800").
+  Primary texts in Dutch (Valentijn, *Oud en Nieuw Oost-Indiën*, 1724–26; the Leijdecker Malay Bible,
+  1733) are [S], not opened. Malay-language own voice: wanted.
+- **B2:** Good: a church of Ambonese village teachers (*guru*), Malay liturgy and psalm-singing, a
+  company chaplaincy beside native congregations, Catholics forced underground in Ceylon.
+- **B3:** Mid-high. Before 1800 this was the largest Protestant community in Asia [S on rank]; the
+  Moluccan church (GPM) and the Indonesian Protestant Church descend from it [S]. VIII.26 mentions
+  the VOC only as background.
+- **B4:** Academic users, historically interested learners, Reformed believers.
+- **B5:** Mid [S on totals].
+- **Tier:** Tier 2.
+- **Evidence:**
+  - Jan Sihar Aritonang and Karel Steenbrink (eds.), *A History of Christianity in Indonesia*
+    (Leiden: Brill, 2008; open access) — archive.org `oapen-20.500.12657-45624`, ch. 5 (lines
+    5661–7100) — *scholarly study* — **V**.
+  - Simon Casie Chitty, *A Sketch of the Rise and Progress of the Catholic Church in Ceylon*
+    (Colombo, 1848) — archive.org `ASketchOfTheRiseAndProgress`, line ~609 (the 1658 plakaat) —
+    *pre-1930 study by a Ceylonese author* — **V**.
+  - William Campbell, *Formosa under the Dutch* (London 1903) — archive.org `cu31924023514403` —
+    located, not opened (Formosa's Dutch church ends in 1662, so it is era 7) — **[S]**.
+  - Valentijn (1724–26); Leijdecker Malay Bible (1733) — **[S]**.
+- **Living today:** the heirs live (e.g. the Protestant Church of the Moluccas) [S]; no dated item
+  graded.
+- **Overlap:** VIII.26 (from 1861; its text names the VOC as background). Nothing else.
+- **Recommendation:** enter, or a named line opening VIII.26 (see gate question).
+- **Gate question:** Where does the VOC-era Protestant church go?
+  - (a) An era 8 row, 1650–1815, Moluccas, Batavia and Ceylon.
+  - (b) A named line in VIII.26, extending its story back (its dates stay 1861–1906).
+  - (c) Hold for a Dutch or Malay primary text.
+  - **Recommended:** (a), since era 8 has only one Greater Asia row and this church was a society's
+    faith, not a mission's outpost. (b) if Mark wants fewer era 8 rows.
+
+### G89-AP6 — The Catholics of Ceylon under Dutch rule and the Goan Oratorians, 1658–1806
+
+- **Kind:** church body (the Catholic community of Sri Lanka, kept by Konkani priests of the Oratory
+  of St Philip Neri at Goa).
+- **Era:** 8 (1658–1806).
+- **Dates (V):** 19 September 1658, the Dutch plakaat forbids "harbouring or concealing Catholic
+  Priests on pain of DEATH"; a second plakaat of 11 January 1715 (Casie Chitty, lines 605–612).
+  Joseph Vaz of the Goa Oratory enters Jaffna "disguised as a mendicant" (OCR "J690"), is jailed at
+  Kandy for nearly two years, then makes Kandy his base, visiting Catholics in Dutch territory
+  "from house to house" (lines 750–815). He dies at Kandy on 17 January 1711 (line ~896). By 1717,
+  about 70,000 converts, more than 15,000 communicants in Jaffna alone, 15 large and over 400 small
+  churches (lines 905–911). 27 May 1806, the British regulation lifts the Dutch restraints (lines
+  1060–1075).
+- **Region / countries:** Greater Asia — Sri Lanka; India (Goa).
+- **Lane:** Latin West & Catholicism.
+- **Section A:** Clears: Catholic, Nicene.
+- **B1:** Adequate. Casie Chitty 1848 (opened raw) is a Ceylonese Catholic's own pre-1930 history.
+  Boudens, *The Catholic Church in Ceylon under Dutch Rule* (Rome 1957) is V-s. Portuguese-language
+  life of Vaz (Sebastião do Rego, 1745) [S]; Tamil and Sinhala Catholic texts of the period (e.g.
+  Jacome Gonçalves's Tamil and Sinhala works) [S] — wanted.
+- **B2:** Good: an Asian clergy (the Goa Oratorians were Indian priests) running a hidden church
+  under a Protestant power, protected by a Buddhist king.
+- **B3:** Mid-high. Unique in pattern: an Asian-led Catholic mission, not a European order. Nothing
+  on the roster names Sri Lanka in any era.
+- **B4:** Catholics, learners, academic users.
+- **B5:** Mid (70,000 by 1717, V).
+- **Tier:** Tier 2.
+- **Mark's test:** Unique: the Goa Oratory is a local Indian congregation, not a worldwide order,
+  and the story is the island church's own.
+- **Evidence:**
+  - Casie Chitty 1848 (as AP5), lines 600–1140 — **V**.
+  - Robrecht Boudens, *The Catholic Church in Ceylon under Dutch Rule* (Rome, 1957) — archive.org
+    `catholicchurchin0000robr` — **V-s**.
+- **Quote (V, English, 1848):** "he occasionally visited the Catholics in the Dutch territories, and
+  administered to them the sacraments privately, going from house to house" — Casie Chitty, lines
+  ~806–808.
+- **Living today:** yes (the Catholic Church in Sri Lanka); no dated item graded.
+- **Overlap:** none in any era.
+- **Recommendation:** enter as a row, or a named line in a wider South Asian Catholic row (see gate).
+- **Gate question:** How should South Asian Latin Catholicism (Goa, Ceylon, the Tamil coast) enter
+  eras 8–9?
+  - (a) A Ceylon row, 1658–1806, as assessed.
+  - (b) One wider row, "Catholicism in South Asia under the Padroado and Propaganda, 1650–1906"
+    (Goa and its Oratory, Ceylon, the Madurai and Tamil coast missions, the Goa schism of the
+    1830s–1886 [S]), with Ceylon as its first named line.
+  - (c) Hold until a Portuguese or Tamil primary is opened.
+  - **Recommended:** (b) if Mark wants South Asian Catholicism told once; (a) is the better-evidenced
+    single story today. The wider row's era 9 half (the double jurisdiction) is not yet sourced.
+
+### G89-AP7 — The Catholic St Thomas Christians and the Chaldean Syrian Church, 1815–1906
+
+- **Kind:** church body (the Romo-Syrian or Syro-Malabar community under Latin vicars apostolic; and
+  the small body at Thrissur that turned to the Church of the East).
+- **Era:** 9 (1815–1906).
+- **Dates:** 1896, "three Roman-Syrian priests were consecrated as bishops of titular sees, and sent
+  to Travancore and Cochin as Vicars-Apostolic directly subject to the Pope", ending foreign rule
+  after "a constant effort to obtain ... bishops of Syrian descent" (V, Richards 1908, lines
+  2636–2650). "A small body of about 8,000, mostly at Trichur ... who have left the Roman-Syrians",
+  called Nestorians (V, Richards, line 2630). 1861 and 1874 Chaldean bishops (Roccos, Mellus), 1887
+  separate vicariates, Kuriakose Elias Chavara and the first Indian religious congregation (1831)
+  — **[S]**.
+- **Region / countries:** Greater Asia — India (Kerala).
+- **Lane:** Syriac East & Asia (the Eastern Catholic line in the Syriac lane, as VI.18 sets it).
+- **Section A:** Clears: Catholic (Nicene); the Thrissur body holds the Church of the East's creed
+  (Nicene) — **[S]** for a dated text of either in the window.
+- **B1:** Thin-to-adequate: two pre-1930 Protestant studies opened raw (Richards 1908; Rae 1892, the
+  latter's relevant passage not read). No Catholic or Malayalam source opened.
+- **B2:** Good: the long fight for native bishops, Syriac kept in the liturgy, a schism to the
+  Church of the East.
+- **B3:** Mid-high. VIII.27 carries only the Mar Thoma and Malankara side; the larger Catholic
+  half of the same community has no era 9 row.
+- **B4:** Eastern Catholics, learners, academic users.
+- **B5:** Large within Kerala [S].
+- **Tier:** Tier 2.
+- **Evidence:**
+  - W. J. Richards, *The Indian Christians of St. Thomas, otherwise called the Syrian Christians of
+    Malabar* (London: Bemrose, 1908) — archive.org `cu31924029361379`, lines 2605–2660 —
+    *pre-1930 study by a CMS missionary* — **V**.
+  - G. Milne Rae, *The Syrian Church in India* (Edinburgh 1892) — archive.org `syrianchurchinin00raeg`
+    — opened, relevant passage not located — **[S]**.
+  - Chavara's own writings (Malayalam, the *Chronicles*); Syro-Malabar sources — **wanted**.
+- **Living today:** yes (Syro-Malabar Church; Chaldean Syrian Church) [S]; no dated item graded.
+- **Overlap:** VIII.27 (Mar Thoma and Malankara only); IX.39 (Malankara churches from 1912).
+- **Recommendation:** named line in AP1's row if Mark extends it to 1906, or hold for a Catholic
+  or Malayalam source.
+- **Gate question:** Where does the Catholic half of the St Thomas Christians go in era 9?
+  - (a) Extend AP1 into one St Thomas row, 1665–1906, both parties, beside VIII.27.
+  - (b) A named line in VIII.27, renamed to cover the whole community.
+  - (c) Hold for sources.
+  - **Recommended:** (c) for now, with (a) as the target once one Catholic source is opened.
+
+### G89-AP8 — The Tamil Lutheran church of Tranquebar and Tanjore, 1706–1815 (and on)
+
+- **Kind:** church body (the congregations the Danish-Halle mission gathered, with Tamil catechists
+  and, from 1733, Tamil pastors).
+- **Era:** 8.
+- **Dates (V):** 28 December 1733, the catechist Aaron is ordained, the first Indian Lutheran
+  pastor, before eleven clergymen; he then preached on Galatians 4:4 (Fenger 1863, lines 5753–5850).
+  Ziegenbalg's landing (1706) and Tamil New Testament are carried by VII.2.
+- **Region / countries:** Greater Asia — India (Tamil Nadu).
+- **Lane:** Protestant & Evangelical.
+- **Section A:** Clears (Lutheran confessions) — the mission's own texts are vendored
+  (`cic/texts/ziegenbalg_propagation-of-the-gospel-in-the-east_boehm1718.txt`), not re-read for a
+  creedal line this run — **[S]** for the dated statement.
+- **B1:** Adequate: Ziegenbalg 1718 (vendored); Fenger 1863 opened raw; Neill 1985 V-s.
+- **B2:** Good: the first Protestant church with native clergy in Asia; caste inside the church;
+  the poet Vedanayagam Sastri [S].
+- **B3:** Mid. VII.2 holds the founding as a Pietist mission story and ends at 1750.
+- **Tier:** Tier 3 (named line).
+- **Evidence:** J. Ferd. Fenger, *History of the Tranquebar Mission* (Eng. trans., Tranquebar 1863)
+  — archive.org `historyoftranque00fengrich`, lines 5753–5850 — **V**. Ziegenbalg 1718 (vendored) —
+  present. Neill 1985 — **V-s**.
+- **Living today:** the Tamil Evangelical Lutheran Church [S]; no dated item.
+- **Overlap:** VII.2 carries Ziegenbalg, Tranquebar and the Tamil New Testament (its story text
+  and voices line). VIII.7 starts in 1793 with Serampore.
+- **Recommendation:** named line in VII.2 (the Tamil church after Ziegenbalg).
+- **Gate question:** (a) named line in VII.2; (b) its own era 8 row; (c) leave as carried.
+  **Recommended:** (a): VII.2 already tells the founding, and one line keeps the Tamil church from
+  vanishing at 1750.
+
+### G89-AP9 — The Karen Baptist movement in Burma, 1828–1906
+
+- **Kind:** church body (Karen Baptist congregations; a people movement with its own evangelists).
+- **Era:** 9.
+- **Dates (V):** 16 May 1828, Boardman baptizes Ko Thah-byu at Tavoy, and "the baptism of Ko
+  Thah-byu, in 1828, was the commencement of the mission" (Mason, *The Karen Apostle*, lines
+  405–420, 2890–2900). Judson's mission from 1813 [S].
+- **Region / countries:** Greater Asia — Myanmar (Burma); Thailand [S].
+- **Lane:** Protestant & Evangelical.
+- **Section A:** Clears (Baptist, Trinitarian) [S on a dated statement].
+- **B1:** Adequate: Mason 1843/1847 (a missionary memoir, opened raw). A modern study was not
+  verified this run — wanted.
+- **B2:** Good: a minority people's mass turn, carried by Karen preachers; the "lost book" tradition
+  [S].
+- **B3:** Mid. Burma appears on the roster only as a country tag on the hill-revival rows.
+- **Tier:** Tier 3 (named line).
+- **Evidence:** Francis Mason, *The Karen Apostle: or, Memoir of Ko Thah-byu, the First Karen
+  Convert* (1843; ed. used: 1847, archive.org `karenapostleorme00maso`) — **V**.
+- **Overlap:** VIII.7 (the missionary movement's native churches) is the natural home; VIII.35
+  (nineteenth-century Baptists) is North Atlantic.
+- **Recommendation:** named line in VIII.7.
+- **Gate question:** (a) named line in VIII.7; (b) own row; (c) hold for a study.
+  **Recommended:** (a), and add one modern study before drafting.
+
+### G89-AP10 — The Cofradía de San José (Hermano Pule), 1832–1841
+
+- **Kind:** a movement inside a church body: a lay Catholic confraternity that the colonial church
+  refused and the state crushed. Not a cross-church movement.
+- **Era:** 9.
+- **Four marks:** beginning — founded by Apolinario de la Cruz, 1832 [S]; carriers — Tagalog
+  peasants of Tayabas, barred from Spanish orders [S]; name — Cofradía de San José [S];
+  recognition — Ileto 1979 (V-s), which reads it through the pasyon.
+- **Evidence:** Reynaldo C. Ileto, *Pasyon and Revolution: Popular Movements in the Philippines,
+  1840–1910* (Ateneo de Manila UP, 1979) — archive.org `pasyonrevolution00reyn` — **V-s**. Blair &
+  Robertson vols. vendored do not include the 1841 papers (vols. 7–50 partial; not searched for it)
+  — **[S]**.
+- **Overlap:** VIII.39 (Philippine Catholicism 1815–1906) does not name it; VII.29 carries the pasyon.
+- **Recommendation:** named line in VIII.39, after one primary is opened.
+- **Gate question:** (a) named line in VIII.39; (b) hold. **Recommended:** (b) now, (a) once a
+  dated primary is read. It is "a defined movement", but this run verified only the study's details.
+
+### G89-AP11 — The Russian Ecclesiastical Mission in Peking and the Albazinians, 1685/1715–1906
+
+- **Kind:** church body (the small Orthodox community of Beijing, descended from Albazin captives,
+  with the Russian mission; the Chinese Orthodox martyrs of 1900).
+- **Era:** 8 and 9.
+- **Evidence:** none opened this run. Studies wanted: Eric Widmer, *The Russian Ecclesiastical
+  Mission in Peking during the Eighteenth Century* (Harvard 1976) [S]. Searched archive.org; not
+  found.
+- **Overlap:** VII.21 and VIII.31 (Russian church; they name Siberia, Alaska and Japan, not China);
+  VIII.45 names Nikolai's Japan mission.
+- **Recommendation:** hold for sources; named line in VIII.31 once a source is opened.
+- **Gate question:** (a) named line in VII.21/VIII.31; (b) hold. **Recommended:** (b).
+
+### G89-AP12 — Christianity in colonial Australia and New Zealand, 1788–1906
+
+- **Kind:** church bodies (the Anglican establishment from the First Fleet chaplaincy; Irish
+  Catholicism and its hierarchy; Presbyterians and Methodists; missions to Aboriginal people and to
+  Māori).
+- **Era:** 9 (1788–1906, with era 8 roots).
+- **Evidence:** Ian Breward, *A History of the Churches in Australasia* (OUP, 2001) — archive.org
+  `historyofchurche0000brew` — **V-s**. T. L. Suttor, *Hierarchy and Democracy in Australia,
+  1788–1870: The Formation of Australian Catholicism* (Melbourne UP, 1965) — archive.org
+  `hierarchydemocra0000unse` — **V-s**. No primary opened.
+- **B3:** Mid. Most of it is transplanted British and Irish church life (VIII.30, VIII.29, VIII.34
+  carry the parents). The distinct pieces are Aboriginal missions, the Catholic school system, and
+  Māori Christianity, which is a separate candidate (AP13).
+- **Overlap:** VIII.41 (Old Lutherans to South Australia, 1838); VIII.30, VIII.29, VIII.34 (parent
+  churches).
+- **Recommendation:** hold for sources; then named lines in the parent rows rather than a new row.
+- **Gate question:** (a) named lines in VIII.29/VIII.30/VIII.34; (b) an Australasia row; (c) hold.
+  **Recommended:** (c), then (a).
+
+### G89-AP13 — Māori Christianity and the prophetic movements: Pai Mārire and Ringatū, 1862–1906
+
+- **Kind:** cross-church movements (Māori prophetic churches arising from mission Christianity).
+- **Era:** 9.
+- **Four marks:** beginning — Te Ua Haumēne's Pai Mārire, 1862 [S]; Te Kooti's Ringatū, 1868 [S];
+  carriers — Taranaki and East Coast iwi; Te Ua's "prophets" (Cowan names Patara Raukatauri sent
+  by Te Ua "to preach ... the Pai-marire among the East Coast tribes", V); name — Pai Mārire,
+  Ringatū [S for Ringatū]; recognition — Clark, *"Hauhau": The Pai Marire Search for Maori Identity*
+  (Auckland UP, 1975), V-s; Binney on Te Kooti — not found on archive.org, [S].
+- **Section A:** Not assessable; likely beyond the floor (as IX.26's Rātana is handled) [S].
+- **Evidence:** James Cowan, *The New Zealand Wars*, vol. 1 (Wellington, 1922) — archive.org
+  `newzealandwarshi01cowa`, lines 11845–11905 — *pre-1930 settler history, hostile ("fanatic
+  gospel")* — **V** for the passage. Clark 1975 — **V-s**. Māori-language texts (Te Ua's *Ua Rongopai*;
+  Ringatū's *Pukapuka*) — **wanted**.
+- **Living today:** Ringatū Church [S]; no dated item.
+- **Overlap:** IX.26 (Rātana and Pacific adjustment movements, from 1925) — none before 1906.
+- **Recommendation:** hold for sources (a Māori-language or Māori-authored source first).
+- **Gate question:** (a) an era 9 movement row (beyond-floor register); (b) a named line in IX.26,
+  which starts in 1925, so the line would sit before its own row's dates;
+  (c) hold. **Recommended:** (c), with (a) as the target.
+
+### G89-AP14 — The Pacific Christian kingdoms: Tahiti, Hawai'i, Tonga, Fiji, Samoa, 1797–1906
+
+- **Kind:** church bodies (LMS, Wesleyan and ABCFM churches that became national churches under
+  converted chiefs; the Free Church of Tonga, 1885 [S]).
+- **Era:** 9.
+- **Evidence:** none opened this run beyond the roster's own (VIII.7's voices name Ta'unga and
+  Joeli Bulu). Ellis, *Polynesian Researches* (1829–31) located on archive.org; the volume opened
+  (vol. 1, 2nd ed.) does not carry the conversions — **[S]**.
+- **Overlap:** **Carried** by VIII.7, whose name includes "Pacific Islands" and whose text tells the
+  Polynesian teachers' island-to-island work.
+- **Recommendation:** carried by VIII.7. Ask only whether the Pacific wing should become its own row.
+- **Gate question:** (a) leave in VIII.7; (b) split a Pacific row out of VIII.7 (a change order on
+  a frozen row). **Recommended:** (a) for this sweep.
+
+### G89-AP15 — Korea, 1884/1886–1906: the Protestant beginnings and the Catholic years after toleration
+
+- **Kind:** church bodies (Korean Protestant congregations; the Korean Catholic Church after 1886).
+- **Era:** 9.
+- **Evidence:** none opened this run. VIII.21's text says "Protestant missionaries came to Korea a
+  hundred years after it began, from 1884"; IX.64 opens at 1907 and IX.2 at 1904.
+- **Overlap:** VIII.21 (to 1886), IX.2 (1904–10), IX.64 (from 1907). The gap is 1886–1906 for
+  Catholics and 1884–1906 for Protestants (the Ross translation, the Nevius plan, the first
+  congregations) [S].
+- **Recommendation:** named lines (Catholic: end of VIII.21's story; Protestant: a line in VIII.7),
+  hold for sources.
+- **Gate question:** (a) named lines; (b) hold. **Recommended:** (b), then (a).
 

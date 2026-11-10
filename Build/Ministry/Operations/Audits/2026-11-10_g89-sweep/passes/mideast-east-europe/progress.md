@@ -10,3 +10,7 @@
 - [x] ME-4 Melkites written (Charon V, Fortescue CE V, Paul of Aleppo V)
 - [x] ME-5 Old Believers after 1815 (Conybeare V, Pinkerton V); ME-6 spiritual Christians (Pinkerton V, Conybeare V; Section A open)
 - [x] ME-7 Syriac Orthodox/Catholic written (Badger V, Fortescue CE V); hold
+- [x] ME-8 Romanian Greek Catholic (Nilles 1885 V; Jesuit tie analyzed); ME-9 Hungarian Protestants (Bauhofer 1854 V)
+- [x] ME-10 Polish-Lithuanian Catholicism (CE Poland V); ME-11 Arab Evangelicals (Jessup V)
+- [x] ME-12..ME-22 named lines/routings written
+- [x] River table, ranking, breaks, notes written. Next: candidates.json, summary.md

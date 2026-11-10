@@ -1,0 +1,726 @@
+{
+ "pass": "africa",
+ "sweep": "P2-G89",
+ "date": "2026-11-10",
+ "phase": "divergent",
+ "verification_states": {
+  "V": "opened and confirmed this run",
+  "V-s": "study details only",
+  "[S]": "snippet, summary or unopened"
+ },
+ "rivers": [
+  {
+   "river": "Oriental Orthodox",
+   "roster": [
+    "VI.25",
+    "VIII.49",
+    "VIII.13",
+    "IV.26",
+    "IX.10",
+    "IX.20"
+   ],
+   "gap": "Ethiopia 1650-1855; Copts c.1300-1854",
+   "candidates": [
+    "AF-1",
+    "AF-2"
+   ]
+  },
+  {
+   "river": "Eastern Catholic",
+   "roster": [],
+   "gap": "Coptic Catholics; Ge'ez-rite Catholics",
+   "candidates": [
+    "AF-7"
+   ]
+  },
+  {
+   "river": "Catholic (Latin)",
+   "roster": [
+    "VI.13a",
+    "VII.11",
+    "VIII.43",
+    "VIII.29",
+    "IX.59"
+   ],
+   "gap": "Kongo/Angola 1650-1880s; 19th-c. mission revival",
+   "candidates": [
+    "AF-3",
+    "AF-6"
+   ]
+  },
+  {
+   "river": "Protestant, Evangelical, Anglican",
+   "roster": [
+    "VIII.7",
+    "VII.16",
+    "VII.4",
+    "VIII.42",
+    "VIII.43",
+    "VIII.49",
+    "IX.60"
+   ],
+   "gap": "Southern Africa absent; Protestant Egypt; West Africa pre-1793",
+   "candidates": [
+    "AF-4",
+    "AF-5",
+    "AF-8",
+    "AF-9"
+   ]
+  },
+  {
+   "river": "Syriac and other Eastern",
+   "roster": [],
+   "gap": "none",
+   "candidates": []
+  },
+  {
+   "river": "Independent, indigenous, slave-born",
+   "roster": [
+    "VII.11",
+    "IX.4",
+    "VIII.42"
+   ],
+   "gap": "none beyond IX.4/VII.11/VIII.42; notes in AF-3, AF-5",
+   "candidates": []
+  }
+ ],
+ "breaks": [
+  {
+   "break": "Ethiopian church 1650-1855",
+   "answer": "unique; enter AF-1 as new row",
+   "not_tied_to": "Jesuits (end 1634, VI.25)"
+  },
+  {
+   "break": "Coptic church to 1854",
+   "answer": "unique; enter AF-2 from 1517; real gap from c.1300 (IV.26)",
+   "not_tied_to": "any cross-world row"
+  },
+  {
+   "break": "Kongo 1650-1880s (new)",
+   "answer": "unique; enter AF-3",
+   "not_tied_to": "Capuchins (no row; a Kongolese church)"
+  },
+  {
+   "break": "Southern Africa 1652-1906 (new)",
+   "answer": "DRC unique (AF-4); missions belong in VII.4 and VIII.7 (AF-5)"
+  },
+  {
+   "break": "Catholic Africa before 1906 (IX.59's predecessor)",
+   "answer": "tied to the worldwide Catholic mission revival; line in VIII.29 (AF-6)"
+  }
+ ],
+ "candidates": [
+  {
+   "rank": 1,
+   "id": "AF-1",
+   "name": "Ethiopian Christianity: Gondar to the Zemene Mesafint",
+   "kind": "church body",
+   "era": "8-9",
+   "dates": "1650-1855",
+   "start": 1650,
+   "end": 1855,
+   "region": "Africa",
+   "countries": [
+    "Ethiopia",
+    "Eritrea"
+   ],
+   "lane": "4 Africa",
+   "logged_break": "Ethiopian church 1650-1855 (Open-Gaps 142)",
+   "sectionA": "clear by precedent (same church as VI.25 and VIII.49); no dated own statement read",
+   "B": {
+    "B1": "moderate to good; chronicles exist (Guidi) but lending-only; outside witnesses read",
+    "B2": "full",
+    "B3": "high",
+    "B4": "Ethiopian/Eritrean Orthodox, historians of Oriental Orthodoxy",
+    "B5": "tiebreak"
+   },
+   "tier": "1",
+   "evidence": [
+    {
+     "item": "Bruce, Travels to Discover the Source of the Nile, vol. 3 (Edinburgh, 1790), archive.org travelstodiscov03bruc",
+     "state": "V",
+     "detail": "Abuna as patriarch, a Coptic monk of St Macarius who seldom understands the language; Itchege of Debra Libanos; Eustathian monks of Gojam 'the Low Church of Abyssinia'"
+    },
+    {
+     "item": "Bruce, vol. 2 (1790), archive.org travelstodiscov02bruc",
+     "state": "V",
+     "detail": "Reign of David 1714-19: clergy convocation; new Abuna from Egypt a reason for convocations; Catholic missionaries stoned behind the church of Abbo"
+    },
+    {
+     "item": "Gobat, Journal of a Three Years' Residence in Abyssinia (London, 1834), archive.org journalthreeyea01gobagoog",
+     "state": "V",
+     "detail": "'three births of Christ' dispute settled by decision of the Coptic Patriarch before Dejazmach Sebagadis, 28 September (year not on page)"
+    },
+    {
+     "item": "Ludolf, A New History of Ethiopia (1682), cic/texts/ludolf_new-history-of-ethiopia_jp1682.txt",
+     "state": "V",
+     "detail": "Basilides expelled the Jesuits; Europe knew little after; embassies 1660, 1661"
+    },
+    {
+     "item": "Guidi, Annales Iohannis I, Iyasu I, Bakaffa (CSCO 1903-05); Annales regum Iyasu II et Iyo'as",
+     "state": "V-s (metadata only; lending-only, content [S])"
+    },
+    {
+     "item": "Crummey, Priests and Politicians (Oxford, 1972)",
+     "state": "V-s (cited on VIII.49)"
+    },
+    {
+     "item": "Hastings, The Church in Africa 1450-1950 (Oxford, 1994)",
+     "state": "V-s"
+    },
+    {
+     "item": "Weld Blundell, The Royal Chronicle of Abyssinia 1769-1840 (1922)",
+     "state": "[S] wanted"
+    }
+   ],
+   "living": "yes (same church as IX.20)",
+   "overlap": [
+    "VI.25",
+    "VIII.49",
+    "VIII.13",
+    "AF-2"
+   ],
+   "marks_test": "unique; Jesuits end 1634 in VI.25; Capuchin/Franciscan attempts are Propaganda's story; tie to Copts is a link between church rows",
+   "recommendation": "enter, Tier 1, new row 1650-1855; named lines for Ge'ez-rite Catholics and CMS 1830",
+   "gate": {
+    "id": "G-AF89-1",
+    "question": "How should the break be filled?",
+    "options": {
+     "a": "new row 1650-1855",
+     "b": "stretch VI.25 and VIII.49 to meet at 1769",
+     "c": "hold for sources"
+    },
+    "recommend": "a"
+   }
+  },
+  {
+   "rank": 2,
+   "id": "AF-2",
+   "name": "The Coptic church under the Ottomans: the patriarchate and the archons",
+   "kind": "church body",
+   "era": "7-9 (this sweep 8-9)",
+   "dates": "1517-1854",
+   "start": 1517,
+   "end": 1854,
+   "region": "Africa",
+   "countries": [
+    "Egypt"
+   ],
+   "lane": "4 Africa",
+   "logged_break": "Coptic church to 1854 (Open-Gaps 142); real gap from c. 1300 (IV.26 ends)",
+   "sectionA": "clear by precedent (VIII.13 floorNote 'No question')",
+   "B": {
+    "B1": "moderate",
+    "B2": "good",
+    "B3": "high",
+    "B4": "Copts and diaspora; historians of Christians under Islam",
+    "B5": "tiebreak (Lane: c. 150,000 Copts, 1830s)"
+   },
+   "tier": "1 (whole break); 2 if 1650-1854 only",
+   "evidence": [
+    {
+     "item": "Volney, Travels through Syria and Egypt, vol. 1 (London, 1787), archive.org travelsthroughsy01voln",
+     "state": "V",
+     "detail": "Copt writers keep land registers, are intendants, secretaries and collectors of government"
+    },
+    {
+     "item": "Butcher, The Story of the Church of Egypt, vol. 2 (London, 1897), archive.org storyofchurchofe02butc",
+     "state": "V",
+     "detail": "first RC metropolitan with jurisdiction, Athanasius, 1741; Ibrahim el-Johari restored churches and endowed the national church"
+    },
+    {
+     "item": "Lane, Manners and Customs of the Modern Egyptians, 5th ed. (1860), archive.org accountofthemann031193mbp",
+     "state": "V",
+     "detail": "Copts c. 150,000; patriarch judges petty causes"
+    },
+    {
+     "item": "Bruce, vol. 3 (1790)",
+     "state": "V",
+     "detail": "Catholic missionaries among Copts report to Propaganda"
+    },
+    {
+     "item": "Watson, The American Mission in Egypt 1854-1896 (Pittsburgh, entered 1897)",
+     "state": "V",
+     "detail": "chapter on efforts 1752-1854: Moravians, CMS"
+    },
+    {
+     "item": "Guirguis and van Doorn-Harder, The Emergence of the Modern Coptic Papacy (AUC, 2011)",
+     "state": "V-s"
+    },
+    {
+     "item": "Meinardus, Two Thousand Years of Coptic Christianity (AUC, 1999)",
+     "state": "V-s"
+    },
+    {
+     "item": "History of the Patriarchs (Ottoman continuation); Vansleb 1677",
+     "state": "[S] wanted"
+    }
+   ],
+   "living": "yes (same church as IX.10)",
+   "overlap": [
+    "IV.26",
+    "VIII.13",
+    "VI.18",
+    "AF-1",
+    "VI.17",
+    "VII.18"
+   ],
+   "marks_test": "unique; only Propaganda's mission inside it (-> Coptic Catholic line)",
+   "recommendation": "enter as church row; named lines for archons and Coptic Catholics",
+   "gate": {
+    "id": "G-AF89-2",
+    "question": "Where should the Coptic row start?",
+    "options": {
+     "a": "1517 (as logged)",
+     "b": "1650 (era line)",
+     "c": "c. 1300 (IV.26's end)"
+    },
+    "recommend": "a, with 1300-1517 logged as its own break"
+   }
+  },
+  {
+   "rank": 3,
+   "id": "AF-3",
+   "name": "Kongo Christianity after 1650: the Capuchin century and the Kongolese lay church",
+   "kind": "church body (regional window of the Catholic Church)",
+   "era": "8-9",
+   "dates": "1650-c. 1880s",
+   "start": 1650,
+   "end": 1885,
+   "region": "Africa",
+   "countries": [
+    "Angola",
+    "DR Congo"
+   ],
+   "lane": "4 Africa or 4-5 bridge",
+   "logged_break": "new break found by this sweep (not in Open-Gaps 142)",
+   "sectionA": "clear (Catholic)",
+   "B": {
+    "B1": "good 1650-1720 (four vendored Capuchin texts), thin 1720-1870, good 1880s",
+    "B2": "full",
+    "B3": "high",
+    "B4": "Angolan/Congolese Christians; Atlantic historians",
+    "B5": "tiebreak"
+   },
+   "tier": "1 (1650-1720); 2 later on sources",
+   "evidence": [
+    {
+     "item": "Carli and Guattini, Viaggio nel regno del Congo (Reggio, 1671), cic/texts",
+     "state": "V",
+     "detail": "adults all baptized; children brought for baptism; Capuchin called Ngamga"
+    },
+    {
+     "item": "Cavazzi, Istorica descrizione (Bologna, 1687), cic/texts",
+     "state": "V",
+     "detail": "Queen Njinga cast off 'la vera Legge' for 28 years; her return [S]"
+    },
+    {
+     "item": "Merolla (Naples, 1692) and Zucchelli (Frankfurt, 1715), cic/texts",
+     "state": "V-s (Library notes)"
+    },
+    {
+     "item": "Bentley, Pioneering on the Congo (London, 1900), archive.org pioneeringoncong01bent_0",
+     "state": "V",
+     "detail": "San Salvador divided about equally between Portuguese priests and the Baptists"
+    },
+    {
+     "item": "Thornton, The Kongolese Saint Anthony (CUP, 1998)",
+     "state": "V-s"
+    },
+    {
+     "item": "Hastings 1994",
+     "state": "V-s"
+    }
+   ],
+   "living": "yes (as VI.13a)",
+   "overlap": [
+    "VI.13a",
+    "VII.11",
+    "IX.4",
+    "IX.59",
+    "VI.13"
+   ],
+   "marks_test": "unique; Capuchins served it but it is a Kongolese church; no Capuchin/Propaganda row exists",
+   "recommendation": "enter, Tier 1, new row 1650-1880s with VII.11 inside its span",
+   "gate": {
+    "id": "G-AF89-3",
+    "question": "How should the Kongo gap be filled?",
+    "options": {
+     "a": "new row 1650-1880s",
+     "b": "extend VI.13a to 1720, log the rest",
+     "c": "log in Open-Gaps only"
+    },
+    "recommend": "a, else b"
+   }
+  },
+  {
+   "rank": 4,
+   "id": "AF-4",
+   "name": "The Dutch Reformed Church at the Cape",
+   "kind": "church body",
+   "era": "8-9",
+   "dates": "1652-1906",
+   "start": 1652,
+   "end": 1906,
+   "region": "Africa",
+   "countries": [
+    "South Africa"
+   ],
+   "lane": "6 Protestant & Evangelical",
+   "logged_break": "regional absence (no South African row before IX.60 except IX.4's 1892 church)",
+   "sectionA": "clear: Heidelberg Catechism, Belgic Confession, Canons of Dort (McCarter 1869, V)",
+   "B": {
+    "B1": "moderate",
+    "B2": "good",
+    "B3": "high",
+    "B4": "Reformed; South Africans; readers of IX.60",
+    "B5": "tiebreak"
+   },
+   "tier": "1",
+   "evidence": [
+    {
+     "item": "McCarter, The Dutch Reformed Church in South Africa (Edinburgh/Cape Town, 1869), archive.org dutchreformedchu00mcar",
+     "state": "V",
+     "detail": "6 April 1652; van Arckel 1665 baptisms; 1121 slave children baptized 1665-1731; 1683 regulation (baptized slave ipso facto free); first synod 1824; Doppers and the hymnbook; Burgers case 26 May 1865, Andrew Murray jun. moderator; standards"
+    },
+    {
+     "item": "Elphick and Davenport, Christianity in South Africa (1997)",
+     "state": "V-s"
+    },
+    {
+     "item": "Hastings 1994",
+     "state": "V-s"
+    },
+    {
+     "item": "1857 synod resolution; Sendingkerk 1881",
+     "state": "[S] wanted"
+    }
+   ],
+   "living": "yes; CR at most pending a dated item",
+   "overlap": [
+    "VI.9",
+    "VI.26",
+    "VI.6",
+    "VIII.50",
+    "IX.60",
+    "AF-5"
+   ],
+   "marks_test": "unique; settler church, not a mission movement",
+   "recommendation": "enter, Tier 1, row 1652-1906; lines for Huguenots, Trek churches, 1857/1881",
+   "gate": {
+    "id": "G-AF89-4",
+    "question": "How should Southern Africa enter eras 8-9?",
+    "options": {
+     "a": "two: DRC row + VIII.7 wing",
+     "b": "one combined Southern Africa row",
+     "c": "DRC row only"
+    },
+    "recommend": "a"
+   }
+  },
+  {
+   "rank": 5,
+   "id": "AF-5",
+   "name": "Southern African mission churches: Khoikhoi, Xhosa and Sotho Christianity",
+   "kind": "regional set of mission-born church bodies",
+   "era": "8-9",
+   "dates": "1737-1906",
+   "start": 1737,
+   "end": 1906,
+   "region": "Africa",
+   "countries": [
+    "South Africa",
+    "Lesotho"
+   ],
+   "lane": "6 Protestant & Evangelical",
+   "logged_break": "regional absence",
+   "sectionA": "clear (mainline Protestant)",
+   "B": {
+    "B1": "good",
+    "B2": "full",
+    "B3": "high as region, moderate as kind",
+    "B4": "Southern African Christians; mission historians",
+    "B5": "tiebreak"
+   },
+   "tier": "2 as VIII.7 wing; 1 as own row",
+   "evidence": [
+    {
+     "item": "La Trobe, A Succinct View of the Missions (London, 1771), cic/texts",
+     "state": "V",
+     "detail": "Moravians five years among the Khoikhoi, a school, seven adults baptized, mission discontinued"
+    },
+    {
+     "item": "McCarter 1869",
+     "state": "V",
+     "detail": "Schmidt's 1740 letter: congregation of 32, 15 read the NT in Dutch"
+    },
+    {
+     "item": "Philip, Researches in South Africa, vol. 1 (London, 1828), archive.org 10432272bsb",
+     "state": "V",
+     "detail": "Vanderkemp; LMS stations sprang out of Bethelsdorp"
+    },
+    {
+     "item": "Casalis, The Basutos (London, 1861), archive.org basutosortwentyt00casa",
+     "state": "V",
+     "detail": "chapter 'Moshesh (in 1833)'"
+    },
+    {
+     "item": "Chalmers, Tiyo Soga (1877), archive.org tiyosogapageofso00chal",
+     "state": "V",
+     "detail": "Ntsikana kept services, died about the beginning of 1821; Soga's letter of 23 July 1861 opens with Ntsikana's 'great hymn'; Soga 'the first ordained preacher of his race'"
+    },
+    {
+     "item": "Elphick and Davenport 1997; Hastings 1994",
+     "state": "V-s"
+    }
+   ],
+   "living": "yes; CR at most",
+   "overlap": [
+    "VII.4",
+    "VIII.7",
+    "IX.4",
+    "AF-4"
+   ],
+   "marks_test": "missions are cross-world movements: Moravian Cape mission -> VII.4 line; LMS/Scottish/Paris/Wesleyan -> fifth wing of VIII.7",
+   "recommendation": "named lines: VIII.7 fifth wing (rename) and VII.4 Cape line",
+   "gate": {
+    "id": "G-AF89-5",
+    "question": "Where do the Southern African mission churches go?",
+    "options": {
+     "a": "VIII.7 fifth wing + VII.4 line",
+     "b": "new row",
+     "c": "wait for AF-4"
+    },
+    "recommend": "a"
+   }
+  },
+  {
+   "rank": 6,
+   "id": "AF-6",
+   "name": "The Catholic mission revival in nineteenth-century Africa",
+   "kind": "movement inside one church (missionary congregations)",
+   "era": "9",
+   "dates": "c. 1830-1906",
+   "start": 1830,
+   "end": 1906,
+   "region": "Africa",
+   "countries": [
+    "Algeria",
+    "Sudan",
+    "Uganda",
+    "Senegal",
+    "Gabon",
+    "Nigeria",
+    "Mauritius"
+   ],
+   "lane": "5 Latin West & Catholicism",
+   "logged_break": "none logged; IX.59 has only VIII.43 behind it",
+   "sectionA": "clear (Catholic)",
+   "four_marks": {
+    "beginning": "Lavigerie at Algiers 16 May 1867 (V); Comboni's Piano (V)",
+    "carriers": "White Fathers named (V); others [S]",
+    "name": "weak; no own name in sources read",
+    "recognition": "Hastings [S for chapter]"
+   },
+   "B": {
+    "B1": "good for leaders, thin for African voices",
+    "B2": "good",
+    "B3": "moderate",
+    "B4": "African Catholics; antislavery historians",
+    "B5": "tiebreak"
+   },
+   "tier": "2",
+   "evidence": [
+    {
+     "item": "Clarke, ed., Cardinal Lavigerie and the African Slave Trade (London, 1889), archive.org cardinallaviger01clargoog",
+     "state": "V",
+     "detail": "decree 12 Jan 1867; arrived Algiers 16 May 1867; famine of 1868"
+    },
+    {
+     "item": "Comboni, Piano per la rigenerazione dell'Africa (1867 printing), archive.org bub_gb_PmnxiMyev9UC",
+     "state": "V",
+     "detail": "'Rigenerazione dell'Africa coll'Africa'; conversion of Africa 'per mezzo dell'Africa'"
+    },
+    {
+     "item": "Hastings 1994",
+     "state": "V-s"
+    },
+    {
+     "item": "Laval, Libermann, Ohrwalder 1892",
+     "state": "[S]"
+    }
+   ],
+   "living": "yes (IX.59)",
+   "overlap": [
+    "VIII.29",
+    "VIII.43",
+    "IX.59",
+    "VIII.42"
+   ],
+   "marks_test": "a single worldwide movement like the Jesuits; belongs inside VIII.29",
+   "recommendation": "named line in VIII.29 + edge VIII.29 -> IX.59",
+   "gate": {
+    "id": "G-AF89-6",
+    "question": "Where does the Catholic mission revival in Africa go?",
+    "options": {
+     "a": "VIII.29 line + edge",
+     "b": "new era 9 row",
+     "c": "extend IX.59 back"
+    },
+    "recommend": "a"
+   }
+  },
+  {
+   "rank": 7,
+   "id": "AF-7",
+   "name": "Eastern Catholic lines: Coptic Catholics and Ge'ez-rite Catholics",
+   "kind": "two small Eastern Catholic bodies",
+   "era": "8-9",
+   "dates": "1741-1906",
+   "start": 1741,
+   "end": 1906,
+   "region": "Africa",
+   "countries": [
+    "Egypt",
+    "Ethiopia",
+    "Eritrea"
+   ],
+   "lane": "4-5 bridge",
+   "sectionA": "clear",
+   "tier": "3 as rows",
+   "evidence": [
+    {
+     "item": "Butcher 1897",
+     "state": "V",
+     "detail": "Athanasius, 1741"
+    },
+    {
+     "item": "Bruce vol. 3",
+     "state": "V",
+     "detail": "Propaganda missions among Copts"
+    },
+    {
+     "item": "Crummey 1972",
+     "state": "V-s"
+    },
+    {
+     "item": "de Jacobis, Ghebre Mikael, 1824/1895 patriarchate",
+     "state": "[S]"
+    }
+   ],
+   "living": "yes; CR at most",
+   "overlap": [
+    "AF-2",
+    "AF-1",
+    "VIII.49",
+    "VII.23 (precedent)"
+   ],
+   "marks_test": "fruit of Propaganda's worldwide mission; told inside their parent churches",
+   "recommendation": "named lines in AF-2 and AF-1/VIII.49",
+   "gate": {
+    "id": "G-AF89-7",
+    "options": {
+     "a": "named lines",
+     "b": "one Eastern Catholic Africa row",
+     "c": "hold"
+    },
+    "recommend": "a"
+   }
+  },
+  {
+   "rank": 8,
+   "id": "AF-8",
+   "name": "West Africa before the mission societies: forts, chaplains, first African clergy",
+   "kind": "set of figures and small congregations",
+   "era": "8",
+   "dates": "1650-1793",
+   "region": "Africa",
+   "countries": [
+    "Ghana",
+    "Sierra Leone",
+    "Liberia"
+   ],
+   "sectionA": "clear",
+   "tier": "hold",
+   "evidence": [
+    {
+     "item": "Capitein 1742; Quaque 1765-1816",
+     "state": "[S]"
+    }
+   ],
+   "overlap": [
+    "VII.4 (Protten)",
+    "VII.16 (David George)",
+    "VII.20 (SPG)",
+    "VIII.7 (Liberia)"
+   ],
+   "marks_test": "each figure belongs to a cross-world body already on the roster",
+   "recommendation": "hold as named lines for sources",
+   "gate": {
+    "id": "G-AF89-8",
+    "options": {
+     "a": "hold as lines",
+     "b": "West Africa era 8 row",
+     "c": "out of scope"
+    },
+    "recommend": "a"
+   }
+  },
+  {
+   "rank": 9,
+   "id": "AF-9",
+   "name": "Protestant missions in Egypt and Ethiopia",
+   "kind": "mission churches",
+   "era": "8-9",
+   "dates": "1752-1906",
+   "region": "Africa",
+   "countries": [
+    "Egypt",
+    "Ethiopia",
+    "Eritrea"
+   ],
+   "sectionA": "clear",
+   "tier": "lines",
+   "evidence": [
+    {
+     "item": "Watson 1898",
+     "state": "V"
+    },
+    {
+     "item": "La Trobe 1771",
+     "state": "V",
+     "detail": "three Brethren at Cairo for the Copts and Abyssinia; Richter to Algiers 1740"
+    },
+    {
+     "item": "Gobat 1834",
+     "state": "V"
+    },
+    {
+     "item": "Crummey 1972",
+     "state": "V-s"
+    },
+    {
+     "item": "Swedish mission 1866; Onesimos Nesib 1899",
+     "state": "[S]"
+    }
+   ],
+   "overlap": [
+    "VIII.13",
+    "VII.4",
+    "VIII.49",
+    "IX.20"
+   ],
+   "marks_test": "Moravians and CMS are cross-world movements; no separate story",
+   "recommendation": "named lines in VIII.13, VII.4, AF-1/VIII.49/IX.20",
+   "gate": {
+    "id": "G-AF89-9",
+    "options": {
+     "a": "named lines",
+     "b": "Evangelical Church of Egypt row",
+     "c": "out of scope"
+    },
+    "recommend": "a"
+   }
+  }
+ ]
+}
