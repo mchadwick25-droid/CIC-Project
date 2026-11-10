@@ -761,6 +761,41 @@ well-known facts, jurisdiction and page recordings the two agree.
 
 Full entry: Atlas World Map Decision-Log, same date.
 
+## 2026-11-09 — Cross-church movements get their own column (P2-E10d)
+
+**Decided (Mark, relayed from the era 1 thread).** Looking at the live map, Mark said the striped
+movement band "looks like it encompasses the entire river and they didn't". His choice: "A with a
+toggle on and off, starting off like connections".
+
+1. **The striped bands go.** Cross-church movements (census rows with `kind: "cross-church
+   movement"`) no longer draw over any river.
+2. **Their own column.** Each era band gets a narrow movements column at its edge. A movement is a
+   thin line there that runs only for its own dates, start to end, with its name at its start.
+3. **Ties on pick.** Hovering over or picking a movement draws faint ties to the churches its own
+   census links connect it to, from the existing edges data. The ties stay while its card is open,
+   the way links light up now. Nothing new is claimed: a tie appears only where a sourced link
+   exists, and a movement with no links shows none.
+4. **A Movements switch, off by default, like Connections.** It shows or hides the column, opens
+   off, is remembered on reload like the other switches, and the Key explains it in one plain
+   sentence.
+5. **Unchanged.** Cards and tree pages keep the "A movement across churches" label, and the census
+   `kind` data is not touched. Any Key row or code that only served the old band is removed.
+
+**How it was carried out.** The column sits to the right of the rivers in each era that holds a
+cross-church movement; an era with none shows no empty column, so the map does not suggest that
+era had none. A movement is now drawn only in its column: it no longer counts toward its river's
+width, sits on no river as a mark, and does not pull rivers together or apart. The switch is its
+own chip beside Stories and is remembered in the browser under `tree-movements`, the same way the
+Major links choice is kept. On 2026-11-09 none of the six cross-church movements has a census
+link, so no ties show yet; IX.50 names IX.33 and IX.24 in its text only. Screenshots:
+`Build/Ministry/Features/Church-Family-Tree/Screenshots/2026-11-09_P2-E10d/`. Stop point: Mark sees
+the screenshots.
+
+**Moved to the left (Mark, on the screenshots).** "lets put them on the left side as this is on the
+other side of the out of the niceen movements": the right edge holds the lane outside the Nicene
+floor, so the column now sits left of each era's first river, below the era's text, with names
+reading leftward. It fits in the space already there, so the rivers do not move.
+
 ## 2026-11-09 — Era 10 global completeness sweep, by region and by river
 
 **Decided (Mark: "1 and across the rivers too").** Era 10's roster leans American (29 of 56 entries
@@ -784,3 +819,22 @@ reviewed in three rounds and approved to proceed in Round 3. They are applied as
 322 movements, 578 links. The atlas gains the 4<->5 bridge lane (G-80 c). Held lines and open
 points are in Open-Gaps 139 and 140. Full entry: Atlas World Map Decision-Log, "P2-E10h carried
 out".
+
+---
+
+## 2026-11-10 — P2-E10d approved; four open calls answered
+
+**Decided (Mark: "take every recommendation").**
+- **The left-side movements column is approved as built.** Movements are drawn only in their own
+  column: no river width, no mark on a river and no river card. An era with no cross-church
+  movement shows no column. It ships after a merge with data release 25, whose new cross-church row
+  (IX.60, the church struggle against apartheid) appears in the column.
+- **IX.44 and the United States: not carried out, and returned to Mark.** On a closer reading, every
+  row whose place label says "N. America" lists no modern country (for example VIII.10, VIII.14 to
+  VIII.16 and IX.15). Adding the United States to IX.44 alone would break that pattern for one row.
+  What "N. America" should map to is a cross-row question for Mark.
+- **A lane's first dot sitting above its river, and "this map…" in participant copy.** No
+  recommendation had been given on either, so neither is treated as ruled. The recommendation now
+  put to Mark is to leave both as they are. That changes nothing, and both stay open in
+  Open-Gaps 140.
+

@@ -46,7 +46,8 @@ body{margin:0;background:var(--parchment);color:var(--iron-gall);
   color:var(--iron-gall);padding:.35rem .85rem;border:1px solid var(--rule);border-radius:999px}
 .chip:hover,.chip:focus-visible,.chip[aria-expanded="true"]{border-color:var(--gold-leaf);color:var(--gold-leaf)}
 .chip[aria-pressed="false"]{opacity:.45;text-decoration:line-through}
-@media (max-width:480px){.feature-bar.switches{gap:.35rem;padding:.4rem .6rem}.chip{padding:.35rem .5rem}}
+@media (max-width:480px){.feature-bar.switches{gap:.35rem;padding:.4rem .6rem}.chip{padding:.35rem .5rem}
+  .feature-bar .chip-group{position:static}.feature-bar .chip-panel{left:.6rem;right:.6rem;max-width:none}}
 .chip-panel{position:absolute;top:calc(100% + .35rem);left:0;z-index:25;min-width:15rem;max-width:min(22rem,calc(100vw - 1.6rem));
   max-height:60vh;overflow:auto;background:var(--vellum);border:1px solid var(--rule);border-radius:4px;
   padding:.5rem .6rem;font-size:.76rem;box-shadow:0 4px 14px rgba(0,0,0,.25)}
@@ -118,7 +119,22 @@ svg#world{display:block;overflow:visible}
 #panel .act:hover{background:var(--madder)}
 #panel .act:focus-visible{outline:2px solid var(--gold-leaf);outline-offset:2px}
 #panel .kindpill{border-style:dashed;text-transform:none;letter-spacing:.02em;font-size:.8rem}
-.current-band{pointer-events:none}
+.across-col{pointer-events:none}
+.across-cap{font-family:"Alegreya",Georgia,serif;font-style:italic;font-size:12px;fill:var(--ink-faded);
+  paint-order:stroke;stroke:var(--parchment);stroke-width:3px;stroke-linejoin:round}
+.across{cursor:pointer}
+.across:focus-visible{outline:none}
+.across-hit{pointer-events:stroke;stroke-width:12}
+.across-line{stroke:var(--iron-gall);stroke-opacity:.7}
+.across-dot{fill:var(--iron-gall)}
+.across:hover .across-line,.across:focus-visible .across-line,.across.is-lit .across-line{stroke:var(--gold-leaf);stroke-opacity:1}
+.across:hover .across-dot,.across:focus-visible .across-dot,.across.is-lit .across-dot{fill:var(--gold-leaf)}
+.across-lbl{display:none;font-family:"Alegreya",Georgia,serif;font-size:11px;fill:var(--iron-gall);
+  paint-order:stroke;stroke:var(--parchment);stroke-width:3px;stroke-linejoin:round;user-select:none}
+.across.is-off.is-lit{display:inline}
+.tie{display:none;cursor:pointer;pointer-events:stroke}
+.tie.is-lit{display:inline}
+.tie.is-lit.is-off{display:none}
 #panel .statusdesc{font-size:.82rem;color:var(--ink-faded);margin:-.35rem 0 .7rem}
 #panel .teaser{font-style:italic;font-size:.98rem;line-height:1.55;margin:.6rem 0;
   padding-left:.6rem;border-left:2px solid var(--gold-leaf)}
@@ -70731,6 +70747,11 @@ const eraLight=['#F6F6F2','#F6F6F2','#F6F6F2'], eraDark=['#241A0C','#1E1C16','#1
 function eraGround(i){return isDark()?eraDark[i%3]:eraLight[i%3];}
 
 const byId={}; DATA.movements.forEach(m=>byId[m.id]=m);
+const ACROSS_KIND='cross-church movement';
+const KIND_LABEL={[ACROSS_KIND]:'A movement across churches'};
+const isAcross=m=>!!m&&m.kind===ACROSS_KIND;
+const churchBodies=DATA.movements.filter(m=>!isAcross(m));
+const acrossMovements=DATA.movements.filter(isAcross);
 const eras=DATA.eras.slice().sort((a,b)=>a.num-b.num);
 
 function eraSpanYears(e){
@@ -70739,7 +70760,7 @@ function eraSpanYears(e){
   return Math.max(1, Math.max(...ms.map(m=>m.end))-Math.min(...ms.map(m=>m.start)));
 }
 const eraCounts=eras.map(e=>DATA.movements.filter(m=>m.era===e.num).length);
-const eraLaneCounts=eras.map(e=>new Set(DATA.movements.filter(m=>m.era===e.num).map(m=>m.laneOrder)).size);
+const eraLaneCounts=eras.map(e=>new Set(churchBodies.filter(m=>m.era===e.num).map(m=>m.laneOrder)).size);
 const eraSpans=eras.map(eraSpanYears);
 const TOTAL_H=8600, MIN_H=420;
 const rawScore=eras.map((e,i)=>Math.pow(eraCounts[i],0.85)*Math.pow(eraSpans[i],0.12));
@@ -70771,13 +70792,13 @@ function yearToY(year){
   return eraY0[eraY0.length-1]+eraH[eraH.length-1];
 }
 
-const laneKeys=[...new Set(DATA.movements.map(m=>m.laneOrder))].sort((a,b)=>a-b);
+const laneKeys=[...new Set(churchBodies.map(m=>m.laneOrder))].sort((a,b)=>a-b);
 const CANVAS_W=Math.max(1400, laneKeys.length*135);
 const laneX={}; laneKeys.forEach((k,i)=>{laneX[k]=70+(i+0.5)*((CANVAS_W-140)/laneKeys.length);});
 
 const laneGenesisYear={}, laneGenesisY={};
 laneKeys.forEach(k=>{
-  laneGenesisYear[k]=Math.min(...DATA.movements.filter(m=>m.laneOrder===k).map(m=>m.start));
+  laneGenesisYear[k]=Math.min(...churchBodies.filter(m=>m.laneOrder===k).map(m=>m.start));
   laneGenesisY[k]=yearToY(laneGenesisYear[k]);
 });
 
@@ -70785,8 +70806,8 @@ const LINEAGE_TYPES=new Set(['gave rise to','continued as','influenced']);
 const laneParent={};
 laneKeys.forEach(k=>{
   if(k===0)return;
-  const genesisId=DATA.movements.filter(m=>m.laneOrder===k).sort((a,b)=>a.start-b.start)[0].id;
-  const inbound=DATA.edges.find(e=>e.to===genesisId&&LINEAGE_TYPES.has(e.type)&&byId[e.from]);
+  const genesisId=churchBodies.filter(m=>m.laneOrder===k).sort((a,b)=>a.start-b.start)[0].id;
+  const inbound=DATA.edges.find(e=>e.to===genesisId&&LINEAGE_TYPES.has(e.type)&&byId[e.from]&&!isAcross(byId[e.from]));
   if(inbound)laneParent[k]=byId[inbound.from].laneOrder;
 });
 
@@ -70822,7 +70843,7 @@ const DRIFT_EXTRA_LINK=0.15, DRIFT_PAIR_CAP=1.6;
 const driftPairs={};
 DATA.edges.forEach(e=>{
   const a=byId[e.from], b=byId[e.to];
-  if(!a||!b||a.laneOrder===b.laneOrder)return;
+  if(!a||!b||isAcross(a)||isAcross(b)||a.laneOrder===b.laneOrder)return;
   const pull=DRIFT_PULL[e.type], weight=CONFIDENCE_WEIGHT[e.confidence];
   if(!pull||!weight)return;
   const settled=k=>k===0?0:laneGenesisY[k]+MERGE_WINDOW;
@@ -70859,7 +70880,7 @@ function driftOffset(k,y){
 
 const WIDTH_MIN=6, WIDTH_RANGE=84, WIDTH_EXP=0.7;
 const WIDTH_SMOOTH_SIGMA=18, WIDTH_SMOOTH_REACH=45, WIDTH_SMOOTH_STEP=5;
-const laneMembers={}; laneKeys.forEach(k=>{laneMembers[k]=DATA.movements.filter(m=>m.laneOrder===k);});
+const laneMembers={}; laneKeys.forEach(k=>{laneMembers[k]=churchBodies.filter(m=>m.laneOrder===k);});
 function concurrentCount(laneOrder, year){
   return laneMembers[laneOrder].filter(m=>m.start<=year && m.end>=year).length;
 }
@@ -71022,7 +71043,42 @@ function threadPath(k,amp){
   return d;
 }
 
-DATA.movements.forEach(m=>{ m._y=yearToY(m.start); m._x=laneCenterX(m.laneOrder,m._y); });
+churchBodies.forEach(m=>{ m._y=yearToY(m.start); m._x=laneCenterX(m.laneOrder,m._y); });
+
+const ACROSS_GAP=40, ACROSS_TRACK=12, ACROSS_LABEL_GAP=13;
+function acrossTracks(items){
+  const ends=[];
+  return items.map(it=>{
+    let top=-1;
+    ends.forEach((end,t)=>{if(end>=it.start)top=t;});
+    ends[top+1]=it.end;
+    return top+1;
+  });
+}
+const acrossColumns=eras.map((e,i)=>{
+  const ms=acrossMovements.filter(m=>m.era===e.num).sort((a,b)=>a.start-b.start||a.end-b.end||a.id.localeCompare(b.id));
+  if(!ms.length)return null;
+  const top=eraY0[i]+HEADER_GUTTER, bottom=eraY0[i]+eraH[i];
+  const s0=Math.max(0,Math.floor(eraY0[i]/STEP)), s1=Math.min(SAMPLE_COUNT-1,Math.ceil(bottom/STEP));
+  let left=Infinity;
+  laneKeys.forEach(k=>[0,1].forEach(amp=>{
+    const g=laneGeometry[amp];
+    for(let j=s0;j<=s1;j++)if(g.half[k][j]>0)left=Math.min(left,g.own[k][j]-g.half[k][j]);
+  }));
+  const x0=(Number.isFinite(left)?left:70)-ACROSS_GAP;
+  const tracks=acrossTracks(ms);
+  let lastLabel=-Infinity;
+  ms.forEach((m,j)=>{
+    m._x=x0-tracks[j]*ACROSS_TRACK;
+    m._y=yearToY(m.start);
+    m._y1=Math.max(yearToY(m.end),m._y+STEP);
+    m._labelY=Math.max(m._y+3.5,lastLabel+ACROSS_LABEL_GAP);
+    lastLabel=m._labelY;
+  });
+  return {x0,top,bottom,movements:ms};
+}).filter(Boolean);
+function acrossPoint(m,y){return {x:m._x,y:Math.max(m._y,Math.min(m._y1,y))};}
+function markPoint(m,toward){return isAcross(m)?acrossPoint(m,toward.y):{x:m._x,y:m._y};}
 
 const svg=document.getElementById('world');
 svg.setAttribute('viewBox',`0 0 ${CANVAS_W} ${CANVAS_H}`);
@@ -71046,9 +71102,9 @@ const LINK_FAMILY_LABEL={grow:'Grew out of, continued as',influence:'Influenced'
 }
 const gBands=el('g',{id:'bands'}); gRoot.appendChild(gBands);
 const gRivers=el('g',{id:'rivers'}); gRoot.appendChild(gRivers);
-const gCurrents=el('g',{id:'currents','aria-hidden':'true'}); gRoot.appendChild(gCurrents);
 const gBandFade=el('g',{id:'band-fade'}); gRoot.appendChild(gBandFade);
 const gEdges=el('g',{id:'edges'}); gRoot.appendChild(gEdges);
+const gAcross=el('g',{id:'across'}); gRoot.appendChild(gAcross);
 const gNodes=el('g',{id:'nodes'}); gRoot.appendChild(gNodes);
 const gStories=el('g',{id:'stories'}); gRoot.appendChild(gStories);
 const gLabels=el('g',{id:'era-labels'}); gRoot.appendChild(gLabels);
@@ -71071,12 +71127,6 @@ const defs=el('defs',{});
 const portraitClip=el('clipPath',{id:'portraitClip'});
 portraitClip.appendChild(el('circle',{cx:0,cy:0,r:PORTRAIT_R}));
 defs.appendChild(portraitClip);
-{
-  const hatch=el('pattern',{id:'current-hatch',patternUnits:'userSpaceOnUse',width:7,height:7,patternTransform:'rotate(45)'});
-  hatch.appendChild(el('rect',{width:7,height:7,fill:'var(--iron-gall)',opacity:0.07}));
-  hatch.appendChild(el('rect',{width:2.2,height:7,fill:'var(--iron-gall)',opacity:0.3}));
-  defs.appendChild(hatch);
-}
 svg.appendChild(defs);
 
 const WORLD_CONTEXT={
@@ -71095,41 +71145,6 @@ const ERA_CONTEXT_WRAP=65;
 const ERA_CLOSE={
   10:"The tree's history runs to 2010. Movements since then will be added as they become history."
 };
-const KIND_LABEL={'cross-church movement':'A movement across churches'};
-const CURRENT_PAD=9;
-function currentLanes(m){
-  const lanes=new Set([m.laneOrder]);
-  DATA.edges.forEach(e=>{
-    const other=e.from===m.id?byId[e.to]:e.to===m.id?byId[e.from]:null;
-    if(other)lanes.add(other.laneOrder);
-  });
-  return [...lanes];
-}
-function sampleAt(arr,y){
-  const f=Math.max(0,Math.min(arr.length-1,y/STEP)), i=Math.floor(f), j=Math.min(arr.length-1,i+1), t=f-i;
-  return arr[i]*(1-t)+arr[j]*t;
-}
-function currentPath(m,amp){
-  const geo=laneGeometry[amp], lanes=currentLanes(m);
-  const y0=yearToY(m.start), y1=Math.max(yearToY(m.end),y0+STEP);
-  const ys=[y0];
-  for(let y=Math.ceil(y0/STEP)*STEP;y<y1;y+=STEP)if(y>y0)ys.push(y);
-  ys.push(y1);
-  const left=[], right=[];
-  ys.forEach(y=>{
-    let lo=Infinity, hi=-Infinity;
-    lanes.forEach(k=>{
-      const x=sampleAt(geo.own[k],y), h=sampleAt(geo.half[k],y);
-      lo=Math.min(lo,x-h); hi=Math.max(hi,x+h);
-    });
-    left.push({x:lo-CURRENT_PAD,y}); right.push({x:hi+CURRENT_PAD,y});
-  });
-  let d=smoothPath(left);
-  d+=` L ${right[right.length-1].x.toFixed(1)} ${right[right.length-1].y.toFixed(1)} `;
-  d+=smoothPath(right.slice().reverse()).replace(/^M [\d.-]+ [\d.-]+ /,'')+' Z';
-  return d;
-}
-
 const RIVER_LORE={
   "Origin": {
     "originStory": "This river begins in the generation after the apostles, when the churches of Antioch, Asia Minor and Rome had to carry on without eyewitnesses. The Temple had fallen in 70 CE, the break with the synagogue was widening, and there was as yet no fixed New Testament, no ecumenical creed and no emperor's favor, only letters, house assemblies, and a leadership settling from itinerant apostles and prophets toward resident bishops (Ignatius of Antioch, c. 110). Pressure from outside produced the Apologists after c. 124; pressure from within produced the arguments this river holds: Jewish followers who kept the Law, Phrygian prophets who said the Spirit still spoke, and a Roman presbyter who in 251 refused to readmit those who had lapsed under Decius.",
@@ -71258,7 +71273,7 @@ function rectsOverlap(a,ax,ay,b,bx,by){
 }
 function layoutMarks(){
   const items=[];
-  DATA.movements.forEach(m=>{const y=yearToY(m.start);items.push({m,ix:laneCenterX(m.laneOrder,y),iy:y});});
+  churchBodies.forEach(m=>{const y=yearToY(m.start);items.push({m,ix:laneCenterX(m.laneOrder,y),iy:y});});
   (DATA.stories||[]).forEach(s=>{const y=yearToY(s.year);items.push({s,story:true,ix:laneCenterX(s.laneOrder,y),iy:y});});
   items.sort((a,b)=>a.iy-b.iy||a.ix-b.ix||String((a.m||a.s).id).localeCompare(String((b.m||b.s).id)));
   items.forEach(it=>{it.x=it.ix;it.y=it.iy;it.rects=markRects(it);});
@@ -71324,7 +71339,7 @@ function wrapText(str,maxChars){
 
 function render(){
   layoutMarks();
-  gBands.innerHTML=''; gRivers.innerHTML=''; gCurrents.innerHTML=''; gBandFade.innerHTML=''; gEdges.innerHTML=''; gNodes.innerHTML=''; gStories.innerHTML=''; gLabels.innerHTML='';
+  gBands.innerHTML=''; gRivers.innerHTML=''; gBandFade.innerHTML=''; gEdges.innerHTML=''; gAcross.innerHTML=''; gNodes.innerHTML=''; gStories.innerHTML=''; gLabels.innerHTML='';
   lastOrganic=null;
 
   eras.forEach((e,i)=>{
@@ -71363,7 +71378,7 @@ function render(){
     const calm=el('path',{d:riverPath(k,0), fill:col, opacity:RIVER_CALM_OP, class:'river-calm'});
     const organic=el('path',{d:riverPath(k,1), fill:col, opacity:RIVER_ORGANIC_OP, class:'river-organic'});
     calm.dataset.lane=k; organic.dataset.lane=k;
-    const members=DATA.movements.filter(m=>m.laneOrder===k).sort((a,b)=>a.start-b.start);
+    const members=churchBodies.filter(m=>m.laneOrder===k).sort((a,b)=>a.start-b.start);
     const years=members.map(m=>m.start);
     const riverTip=tipForRiver(f,members.length,Math.min(...years),Math.max(...years));
     const group=el('g',{class:'river-group',tabindex:'0',role:'button',
@@ -71392,17 +71407,6 @@ function render(){
     gRivers.appendChild(group);
   });
 
-  DATA.movements.filter(m=>KIND_LABEL[m.kind]).forEach(m=>{
-    const band=el('g',{class:'current-band'});
-    band.dataset.lane=m.laneOrder;
-    [['current-calm',0],['current-organic',1]].forEach(([cls,amp])=>{
-      band.appendChild(el('path',{d:currentPath(m,amp),class:cls,fill:'url(#current-hatch)',
-        stroke:'var(--iron-gall)','stroke-width':1.2,'stroke-dasharray':'5 4','stroke-linejoin':'round',
-        'vector-effect':'non-scaling-stroke','stroke-opacity':0.55,opacity:amp?0:1}));
-    });
-    gCurrents.appendChild(band);
-  });
-
   const ARC_CLEARANCE=22;
   function sameRiverArc(a,b){
     const k=a.laneOrder, half=laneGeometry[1].half[k], own=laneGeometry[1].own[k];
@@ -71428,7 +71432,7 @@ function render(){
   }
 
   DATA.edges.forEach(edg=>{
-    const a=byId[edg.from], b=byId[edg.to]; if(!a||!b)return;
+    const a=byId[edg.from], b=byId[edg.to]; if(!a||!b||isAcross(a)||isAcross(b))return;
     const dash = EDGE_DASH[edg.confidence] || 'none';
     const d=a.laneOrder===b.laneOrder ? sameRiverArc(a,b) : `M ${a._x.toFixed(1)} ${a._y.toFixed(1)} Q ${((a._x+b._x)/2).toFixed(1)} ${((a._y+b._y)/2-14).toFixed(1)} ${b._x.toFixed(1)} ${b._y.toFixed(1)}`;
     const line=el('path',{
@@ -71470,16 +71474,16 @@ function render(){
   });
 
   const labelYById={}, portraitOffsetById={};
-  DATA.movements.forEach(m=>{
+  churchBodies.forEach(m=>{
     labelYById[m.id]=m._y+3.5;
     if(m.status==='Built & Live'&&PORTRAIT_DATA[m.id])portraitOffsetById[m.id]=PORTRAIT_OFFSET;
   });
 
-  DATA.movements.forEach(m=>{
+  churchBodies.forEach(m=>{
     const built = m.status==='Built & Live';
     const f=famOf(m.laneOrder), col=famColor(f);
     const g=el('g',{class:'node','data-id':m.id,'data-lane':m.laneOrder,tabindex:'0',role:'button',
-      'aria-label':`${m.shortName||m.name}, ${m.dates}, ${KIND_LABEL[m.kind]?KIND_LABEL[m.kind].toLowerCase()+', ':''}${statusLabel(m)}`});
+      'aria-label':`${m.shortName||m.name}, ${m.dates}, ${statusLabel(m)}`});
     const halo=el('circle',{class:'halo',cx:m._x,cy:m._y,r:9,fill:col,opacity:0});
     const focusRing=el('circle',{class:'focus-ring',cx:m._x,cy:m._y,r:10,
       fill:'none',stroke:'var(--gold-leaf)','stroke-width':2,opacity:0});
@@ -71536,7 +71540,7 @@ function render(){
     });
     gNodes.appendChild(g);
 
-    if(m.continuesAs && byId[m.continuesAs]){
+    if(m.continuesAs && byId[m.continuesAs] && !isAcross(byId[m.continuesAs])){
       const n=byId[m.continuesAs];
       const sameLane = n.laneOrder===m.laneOrder;
       if(!sameLane){
@@ -71565,6 +71569,8 @@ function render(){
     }
   });
 
+  renderAcross();
+
   (DATA.stories||[]).forEach(s=>{
     const g=el('g',{class:'story','data-lane':s.laneOrder,transform:`translate(${s._x.toFixed(1)},${s._y.toFixed(1)})`,
       tabindex:'0',role:'button','aria-label':`Story: ${s.title}, ${s.year}`});
@@ -71589,6 +71595,62 @@ function render(){
   });
 
   applyDetail();
+}
+function renderAcross(){
+  acrossColumns.forEach(col=>{
+    const frame=el('g',{class:'across-col','aria-hidden':'true'});
+    frame.appendChild(el('line',{x1:col.x0+10,y1:col.top,x2:col.x0+10,y2:col.bottom-8,
+      stroke:'var(--iron-gall)','stroke-width':1,'stroke-dasharray':'2 5','stroke-opacity':0.45,'vector-effect':'non-scaling-stroke'}));
+    const cx=col.x0+26, cy=col.top+2;
+    const cap=el('text',{class:'across-cap',x:cx,y:cy,'text-anchor':'end',transform:`rotate(-90 ${cx.toFixed(1)} ${cy.toFixed(1)})`});
+    cap.textContent='Movements across churches';
+    frame.appendChild(cap);
+    gAcross.appendChild(frame);
+  });
+  acrossMovements.forEach(m=>{
+    DATA.edges.forEach(edg=>{
+      if(edg.from!==m.id&&edg.to!==m.id)return;
+      const a=byId[edg.from], b=byId[edg.to]; if(!a||!b)return;
+      const other=a===m?b:a;
+      if(isAcross(other)&&other.id<m.id)return;
+      const pa=markPoint(a,{x:b._x,y:b._y}), pb=markPoint(b,pa);
+      const fam=LINK_FAMILY[edg.type]||'contact', bend=(pb.x-pa.x)*0.4;
+      const d=`M ${pa.x.toFixed(1)} ${pa.y.toFixed(1)} C ${(pa.x+bend).toFixed(1)} ${pa.y.toFixed(1)} ${(pb.x-bend).toFixed(1)} ${pb.y.toFixed(1)} ${pb.x.toFixed(1)} ${pb.y.toFixed(1)}`;
+      const tie=el('path',{d,fill:'none',class:'tie',stroke:`var(--link-${fam})`,'stroke-width':1.4,
+        'stroke-opacity':0.6,'stroke-dasharray':EDGE_DASH[edg.confidence]||'none','vector-effect':'non-scaling-stroke',
+        ...(SYMMETRIC_EDGE_TYPES.has(edg.type)?{}:{'marker-end':`url(#arrow-${fam})`}),
+        'aria-hidden':'true'});
+      tie.dataset.across=[a,b].filter(isAcross).map(x=>x.id).join(' ');
+      tie.dataset.lanes=[a,b].filter(x=>!isAcross(x)).map(x=>x.laneOrder).join('|');
+      tie.addEventListener('mouseenter',ev=>showTip(ev,tipForEdge(edg,a,b)));
+      tie.addEventListener('mousemove',ev=>positionTip(ev));
+      tie.addEventListener('mouseleave',hideTip);
+      tie.addEventListener('click',ev=>{ev.stopPropagation();openPanelEdge(edg,a,b);});
+      gAcross.appendChild(tie);
+    });
+  });
+  acrossMovements.forEach(m=>{
+    const name=m.shortName||m.name;
+    const g=el('g',{class:'across','data-id':m.id,tabindex:'0',role:'button',
+      'aria-label':`${name}, ${m.dates}, ${KIND_LABEL[m.kind].toLowerCase()}, ${statusLabel(m)}`});
+    const d=`M ${m._x.toFixed(1)} ${m._y.toFixed(1)} L ${m._x.toFixed(1)} ${m._y1.toFixed(1)}`;
+    g.appendChild(el('path',{d,class:'across-hit',fill:'none',stroke:'transparent'}));
+    g.appendChild(el('path',{d,class:'across-line',fill:'none','stroke-width':2,'stroke-linecap':'round','vector-effect':'non-scaling-stroke'}));
+    g.appendChild(el('circle',{class:'across-dot',cx:m._x,cy:m._y,r:3.2}));
+    const focusRing=el('circle',{cx:m._x,cy:m._y,r:8,fill:'none',stroke:'var(--gold-leaf)','stroke-width':2,opacity:0});
+    g.appendChild(focusRing);
+    const lbl=el('text',{class:'across-lbl',x:m._x-7,y:m._labelY,'text-anchor':'end'});
+    lbl.textContent=name;
+    g.appendChild(lbl);
+    g.addEventListener('mouseenter',ev=>{showTip(ev,tipFor(m));litMovement(m.id,true);});
+    g.addEventListener('mousemove',ev=>positionTip(ev));
+    g.addEventListener('mouseleave',()=>{hideTip();if(pinnedMovement!==m.id)litMovement(m.id,false);});
+    g.addEventListener('click',ev=>{ev.stopPropagation();openPanel(m);});
+    g.addEventListener('focus',()=>focusRing.setAttribute('opacity','1'));
+    g.addEventListener('blur',()=>focusRing.setAttribute('opacity','0'));
+    g.addEventListener('keydown',ev=>{if(ev.key==='Enter'||ev.key===' '){ev.preventDefault();openPanel(m);}});
+    gAcross.appendChild(g);
+  });
 }
 function esc(s){return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
 function statusLabel(m){const sm=DATA.statusMeta&&DATA.statusMeta[m.status];return (sm&&sm.shortWord)||m.status;}
@@ -71780,7 +71842,7 @@ async function loadBuiltWorldOrientation(censusId){
 }
 let pinnedMovement=null;
 function litMovement(id,on){
-  document.querySelectorAll(`.edge-line[data-from="${id}"],.edge-line[data-to="${id}"],.edge-hit[data-from="${id}"],.edge-hit[data-to="${id}"]`)
+  document.querySelectorAll(`.edge-line[data-from="${id}"],.edge-line[data-to="${id}"],.edge-hit[data-from="${id}"],.edge-hit[data-to="${id}"],.tie[data-across~="${id}"],.across[data-id="${id}"]`)
     .forEach(p=>p.classList.toggle('is-lit',on));
 }
 function pinMovement(id){
@@ -72034,13 +72096,14 @@ function buildLegend(){
   const builtSwatch=`conic-gradient(${famColor(FAM[1])} 0turn .25turn,${famColor(FAM[4])} .25turn .5turn,${famColor(FAM[6])} .5turn .75turn,${famColor(FAM[7])} .75turn 1turn)`;
   let key=`<div class="row"><i style="background:var(--graphite);opacity:.78"></i>Not yet built (graphite)</div>`;
   key+=`<div class="row"><i style="background:${builtSwatch};border:1px solid var(--iron-gall)"></i>Built &amp; Live (full pigment, in that world's own color)</div>`;
-  if(DATA.movements.some(m=>KIND_LABEL[m.kind]))key+=`<div class="row"><svg class="linekey" viewBox="0 0 26 10" aria-hidden="true"><rect x="1" y="1" width="24" height="8" rx="1" fill="url(#current-hatch)" stroke="var(--iron-gall)" stroke-opacity=".55" stroke-dasharray="3 2"/></svg>A movement across churches</div><div class="note">A striped band marks a movement that ran across churches, not a church of its own. It covers its own river and the rivers of the movements it is linked to.</div>`;
+  if(acrossMovements.length)key+=`<div class="row"><svg class="linekey" viewBox="0 0 26 10" aria-hidden="true"><line x1="4" y1="5" x2="25" y2="5" stroke="var(--iron-gall)" stroke-width="2" stroke-linecap="round" stroke-opacity=".7"/><circle cx="4" cy="5" r="3" fill="var(--iron-gall)"/></svg>A movement across churches</div><div class="note">The Movements switch shows movements that ran across churches as thin lines beside their era, for the years they lasted.</div>`;
   key+=`<div class="note">Width shows how many recorded movements were active then. A dashed thread marks years with none on record. Rivers lean together or apart where the record shows a link. Hiding a river does not move the others.</div>`;
   key+=`<div class="note">Places are given with the country they lie in today.</div>`;
   key+=`<div class="note">Tap a switch to hide or show it. Your choices stay for your next visit.</div>`;
   key+=`<div class="foot">A Faithways Studio project. The same team makes <a href="https://churchinconversation.com/">Church in Conversation</a>.<br><a href="about.html">About</a> · <a href="method.html">Method</a> · <a href="data.html">Data and citation</a> · <a href="privacy.html">Privacy</a> · <a href="https://churchinconversation.com/license">License</a> · <a href="support.html">Support the tree</a></div>`;
   const group=(id,label,body)=>`<div class="chip-group"><button type="button" class="chip" aria-expanded="false" aria-controls="sw-${id}">${label} &#9662;</button><div class="chip-panel" id="sw-${id}" hidden>${body}</div></div>`;
   let bar=group('rivers','Rivers',rivers)+group('links','Connections',links);
+  if(acrossMovements.length)bar+=`<button type="button" class="chip" data-toggle="movements" aria-pressed="false">Movements</button>`;
   if((DATA.stories||[]).length)bar+=`<button type="button" class="chip" data-toggle="stories" aria-pressed="true">Stories</button>`;
   bar+=group('key','Key',key);
   wrap.innerHTML=bar;
@@ -72049,6 +72112,8 @@ function buildLegend(){
   try{const saved=localStorage.getItem('tree-hidden');if(saved!==null){hidden.clear();JSON.parse(saved).forEach(k=>hidden.add(k));}}catch(e){}
   let majorOnly=false;
   try{majorOnly=localStorage.getItem('tree-major')==='1';}catch(e){}
+  let movementsOn=false;
+  try{movementsOn=localStorage.getItem('tree-movements')==='1';}catch(e){}
   const applyToggles=()=>{
     const hiddenConf=new Set();
     hidden.forEach(k=>{if(k.startsWith('conf:'))k.slice(5).split('|').forEach(c=>hiddenConf.add(c));});
@@ -72056,14 +72121,17 @@ function buildLegend(){
     document.querySelectorAll('.edge-line,.edge-hit').forEach(p=>{
       p.classList.toggle('is-off',hidden.has(`family:${p.dataset.family}`)||hiddenConf.has(p.dataset.conf)||(p.dataset.lanes||'').split('|').some(laneOff)||(majorOnly&&p.dataset.major!=='1'));
     });
-    document.querySelectorAll('.river-group,.current-band,.node,.story').forEach(g=>g.classList.toggle('is-off',laneOff(g.dataset.lane)));
+    document.querySelectorAll('.river-group,.node,.story').forEach(g=>g.classList.toggle('is-off',laneOff(g.dataset.lane)));
+    document.querySelectorAll('.across,.across-col').forEach(g=>g.classList.toggle('is-off',!movementsOn));
+    document.querySelectorAll('.tie').forEach(p=>p.classList.toggle('is-off',(p.dataset.lanes||'').split('|').filter(Boolean).some(laneOff)));
     document.querySelectorAll('.continues').forEach(g=>g.classList.toggle('is-off',g.dataset.lanes.split('|').some(laneOff)));
     gStories.classList.toggle('is-off',hidden.has('stories'));
     const laneButtons=[...wrap.querySelectorAll('button[data-toggle^="lane:"]')];
     wrap.querySelectorAll('button[data-toggle]').forEach(b=>{
       const on=b.dataset.toggle==='lanes-all'?laneButtons.some(x=>!hidden.has(x.dataset.toggle))
         :b.dataset.toggle==='links-all'?(!majorOnly&&familyKeys.some(k=>!hidden.has(k)))
-        :b.dataset.toggle==='major'?(majorOnly&&familyKeys.some(k=>!hidden.has(k))):!hidden.has(b.dataset.toggle);
+        :b.dataset.toggle==='major'?(majorOnly&&familyKeys.some(k=>!hidden.has(k)))
+        :b.dataset.toggle==='movements'?movementsOn:!hidden.has(b.dataset.toggle);
       b.setAttribute('aria-pressed',String(on));
     });
   };
@@ -72081,8 +72149,10 @@ function buildLegend(){
       const on=majorOnly&&familyKeys.some(f=>!hidden.has(f));
       majorOnly=!on;
       familyKeys.forEach(f=>on?hidden.add(f):hidden.delete(f));
+    } else if(k==='movements'){
+      movementsOn=!movementsOn;
     } else if(hidden.has(k))hidden.delete(k);else hidden.add(k);
-    try{localStorage.setItem('tree-hidden',JSON.stringify([...hidden]));localStorage.setItem('tree-major',majorOnly?'1':'0');}catch(e){}
+    try{localStorage.setItem('tree-hidden',JSON.stringify([...hidden]));localStorage.setItem('tree-major',majorOnly?'1':'0');localStorage.setItem('tree-movements',movementsOn?'1':'0');}catch(e){}
     applyToggles();
   }));
   applyToggles();
@@ -72126,9 +72196,7 @@ function applyDetail(){
   document.querySelectorAll('.river-organic').forEach(p=>{p.style.opacity=organic?RIVER_ORGANIC_OP:0;p.style.pointerEvents=organic?'auto':'none';});
   document.querySelectorAll('.thread-calm').forEach(p=>{p.style.opacity=organic?0:0.8;});
   document.querySelectorAll('.thread-organic').forEach(p=>{p.style.opacity=organic?0.8:0;});
-  document.querySelectorAll('.current-calm').forEach(p=>{p.style.opacity=organic?0:1;});
-  document.querySelectorAll('.current-organic').forEach(p=>{p.style.opacity=organic?1:0;});
-  document.querySelectorAll('#nodes .lbl').forEach(t=>t.style.display=organic?'block':'none');
+  document.querySelectorAll('#nodes .lbl,.across-lbl').forEach(t=>t.style.display=organic?'block':'none');
   document.querySelectorAll('#nodes .portrait-plate').forEach(t=>t.style.display=organic?'block':'none');
   document.querySelectorAll('.edge-line').forEach(p=>{
     const base=organic?(isDark()?EDGE_ORGANIC_OP_DARK:EDGE_ORGANIC_OP):EDGE_CALM_OP;

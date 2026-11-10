@@ -213,3 +213,46 @@ test('a cross-church movement shows its kind, and a church body shows none', () 
   assert.match(read(`tree/${movement.id}.html`), /<p class="kind-label">A movement across churches<\/p>/);
   assert.doesNotMatch(read(`tree/${body.id}.html`), /class="kind-label"/);
 });
+
+test('the map draws cross-church movements in their own column, not over a river', () => {
+  const map = fs.readFileSync(path.join(root, 'cft-website/index.html'), 'utf8');
+  assert.doesNotMatch(map, /current-hatch|current-band|currentPath|striped band/);
+  assert.match(map, /const churchBodies=DATA\.movements\.filter\(m=>!isAcross\(m\)\);/);
+  assert.match(map, /const laneKeys=\[\.\.\.new Set\(churchBodies\.map\(m=>m\.laneOrder\)\)\]/);
+  assert.match(map, /laneMembers\[k\]=churchBodies\.filter\(m=>m\.laneOrder===k\)/);
+  assert.match(map, /if\(!a\|\|!b\|\|isAcross\(a\)\|\|isAcross\(b\)\)return;/);
+});
+
+test('the movements column sits left of the era rivers, its names reading leftward', () => {
+  const map = fs.readFileSync(path.join(root, 'cft-website/index.html'), 'utf8');
+  assert.match(map, /left=Math\.min\(left,g\.own\[k\]\[j\]-g\.half\[k\]\[j\]\)/);
+  assert.match(map, /const x0=\(Number\.isFinite\(left\)\?left:70\)-ACROSS_GAP;/);
+  assert.match(map, /m\._x=x0-tracks\[j\]\*ACROSS_TRACK;/);
+  assert.match(map, /class:'across-lbl',x:m\._x-7,y:m\._labelY,'text-anchor':'end'/);
+});
+
+test('the Movements switch starts off and is remembered like the other switches', () => {
+  const map = fs.readFileSync(path.join(root, 'cft-website/index.html'), 'utf8');
+  assert.match(map, /<button type="button" class="chip" data-toggle="movements" aria-pressed="false">Movements<\/button>/);
+  assert.match(map, /let movementsOn=false;\n\s*try\{movementsOn=localStorage\.getItem\('tree-movements'\)==='1';\}catch\(e\)\{\}/);
+  assert.match(map, /localStorage\.setItem\('tree-movements',movementsOn\?'1':'0'\)/);
+  assert.ok(map.includes('The Movements switch shows movements that ran across churches as thin lines beside their era, for the years they lasted.'));
+});
+
+test('ties come only from census links, and a movement line never runs under a later name', () => {
+  const map = fs.readFileSync(path.join(root, 'cft-website/index.html'), 'utf8');
+  assert.match(map, /acrossMovements\.forEach\(m=>\{\n\s*DATA\.edges\.forEach\(edg=>\{\n\s*if\(edg\.from!==m\.id&&edg\.to!==m\.id\)return;/);
+  const src = map.match(/function acrossTracks\(items\)\{[\s\S]*?\n\}/)[0];
+  const acrossTracks = new Function(`${src}; return acrossTracks;`)();
+  const across = census.movements.filter(m => m.kind === 'cross-church movement');
+  for (const era of new Set(across.map(m => m.era))) {
+    const items = across.filter(m => m.era === era).sort((a, b) => a.start - b.start || a.end - b.end || a.id.localeCompare(b.id));
+    const tracks = acrossTracks(items);
+    items.forEach((m, i) => items.forEach((o, j) => {
+      if (j >= i || o.end < m.start) return;
+      assert.ok(tracks[j] < tracks[i], `${o.id} runs under the name of ${m.id}`);
+    }));
+  }
+  assert.deepEqual(acrossTracks([{ start: 1900, end: 2000 }, { start: 1910, end: 1920 }, { start: 1930, end: 1940 }]), [0, 1, 1]);
+  assert.deepEqual(acrossTracks([{ start: 1900, end: 1950 }, { start: 1910, end: 2000 }, { start: 1960, end: 1990 }]), [0, 1, 2]);
+});
