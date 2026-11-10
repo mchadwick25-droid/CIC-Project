@@ -1026,3 +1026,9 @@ it, never by deleting it.
     `Build/Ministry/Operations/Audits/2026-11-10_links-era-10-part-2/Drafting_Record.json`. Owner:
     Mark (the method question), then the census owner (whether a post-conciliar Catholic entry is
     needed).
+    - 2026-11-10: two part 2 links use the post-Vatican II parish entry for acts of Rome after 1962,
+      with flags on each saying why it fits the entry's own scope (the parish, the liturgy):
+      `the-tridentine-church--the-post-vatican-ii-parish-world` (Summorum Pontificum, 2007, Art. 5
+      §1 on parishes) and `the-post-vatican-ii-parish-world--latin-american-catholicism-twentieth-century`
+      (Paul VI's Bogotá homily, 1968). If a post-conciliar Catholic entry is made, both are re-checked.
+

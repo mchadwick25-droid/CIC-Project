@@ -238,26 +238,26 @@
    "to": "the-greek-church-and-the-ecumenical-patriarchate",
    "type": "continued as",
    "confidence": "Widely Accepted",
-   "note": "In 1850 a synod at Constantinople made the Church of Greece a church that ran itself. In 1928 the Patriarchate at Constantinople gave that church 35 of its dioceses in northern Greece to run. They still belonged to the Patriarchate.",
+   "note": "In 1850 the Patriarchate at Constantinople made the Church of Greece a church that ran itself. An act of 1928 brought the bishops of northern Greece into it. Their dioceses still belonged to the Patriarchate.",
    "sources": [
     {
      "kind": "primary",
      "source_id": null,
-     "work": "World Council of Churches, member church page: Church of Greece (oikoumene.org; the council's current, undated page)",
-     "url": "https://www.oikoumene.org/member-churches/church-of-greece",
+     "work": "Apostoliki Diakonia of the Church of Greece, 'History of the Church of Greece in the 20th century', signed Grigorios Papathomas (apostoliki-diakonia.gr, the church's own publishing body; posted 19 November 2018)",
+     "url": "https://apostoliki-diakonia.gr/?p=33931",
      "accessed": "2026-11-10",
-     "locus": "member church description, second paragraph",
-     "quote": "In 1850 the Endemousa Synod in Constantinople declared the Church of Greece autocephalous.",
+     "locus": "'The historical beginnings of the Autocephalous Church of Greece in the 19th century'",
+     "quote": "At this date, the Patriarchate of Constantinople published a Patriarchal and Synodal Tome proclaiming the Autocephaly of the Church of Greece, under certain canonical conditions.",
      "license": "rights reserved; short quotation"
     },
     {
      "kind": "primary",
      "source_id": null,
-     "work": "World Council of Churches, member church page: Church of Greece (oikoumene.org; the council's current, undated page)",
-     "url": "https://www.oikoumene.org/member-churches/church-of-greece",
+     "work": "Apostoliki Diakonia of the Church of Greece, 'History of the Church of Greece in the 20th century', signed Grigorios Papathomas (apostoliki-diakonia.gr, the church's own publishing body; posted 19 November 2018)",
+     "url": "https://apostoliki-diakonia.gr/?p=33931",
      "accessed": "2026-11-10",
-     "locus": "member church description, second paragraph",
-     "quote": "In 1928 the Ecumenical Patriarchate issued a tome by which it ceded to the Church of Greece on a temporary basis 35 of its metropolitan dioceses in northern Greece.",
+     "locus": "Appendix, 'I. The Church of Greece'",
+     "quote": "After law 3615 of 1928 and the Patriarchal Synodal Act of 1928, the Church of Greece included the Autocephalous Church of Greece and the Metropolises under the jurisdiction of the Ecumenical Patriarchate in the New Territories in Northern Greece.",
      "license": "rights reserved; short quotation"
     },
     {
@@ -289,14 +289,17 @@
     "orthodoxy-after-1821-balkan-autocephalies legacy ('the Church of Greece ... date their modern independence to this century')"
    ],
    "wants": [
-    "The Tomos of 1850 is in the Library (Gedeon, Kanonikai diataxeis I, 1888, about lines 14686-14687) but the OCR there is too damaged to quote cleanly; a clean Greek text, or the Tome of 1928 in the Library, would let this link rise toward Documented"
+    "The Tomos of 1850 is in the Library (Gedeon, Kanonikai diataxeis I, 1888, about lines 14686-14687) but the OCR there is too damaged to quote cleanly; a clean Greek text would let this link rise toward Documented",
+    "The Patriarchal and Synodal Act of 4 September 1928 on the dioceses of the New Territories, in a text held in the Library"
    ],
    "drafter_flags": [
-    "The quotes come from the WCC's member page for the Church of Greece, an undated current page that stands for the member church's own account. Part 1 used WCC pages the same way.",
-    "Frazee and Leustean are repo-cited and named, not re-read here. Frazee covers 1821-1852 and Leustean the Cold War; together they bracket the continuity. Neither was opened in this run.",
-    "The entry covers both the Church of Greece and the Ecumenical Patriarchate. The see of Constantinople's continuity across 1906 is carried by the same link, since the 1928 quote shows the Patriarchate acting in the new century."
+    "Revision round 1 (R1-1): the two WCC-profile quotes are removed. The facts now rest on the Church of Greece's own history page, published by its Apostoliki Diakonia and opened raw by curl in this run. Both quotes are verbatim there.",
+    "The page is dated 2018, after 2010. It supports the 1850 and 1928 facts only; nothing after 2010 is in the note.",
+    "The page is signed by Grigorios Papathomas and carries his bibliography. It is used here as the church's own published account, not as a second study; the consensus reading rests on Frazee and Leustean, repo-cited and named, not re-read.",
+    "The 1928 Act is described on the page as 'contemplating the integration of the Metropolitans of the New Territories to the Autocephalous Church of Greece'. The note says only that the bishops of northern Greece were brought in and their dioceses stayed under the Patriarchate. The earlier note's '35 dioceses' is dropped: the page does not give that number.",
+    "The entry covers both the Church of Greece and the Ecumenical Patriarchate. The see of Constantinople's continuity across 1906 is carried by the same link, since the 1928 Act shows the Patriarchate acting in the new century."
    ],
-   "change_reason": "New. The Greek church's own text names this continuation, and the era 9 entry has no outgoing link into era 10.",
+   "change_reason": "New. The Greek church's own text names this continuation, and the era 9 entry has no outgoing link into era 10. Round 1: re-sourced on the Church of Greece's own history page.",
    "group": "G"
   },
   {
@@ -429,7 +432,7 @@
    "to": "the-sayfo-and-the-syriac-diaspora",
    "type": "in contact with",
    "confidence": "Widely Accepted",
-   "note": "In 1912 the patriarch of Antioch, Abdul Messiah II, made Baselios Paulose I head of the church in India. The church then split. One side backed the new head, and the other backed the patriarch. In 1975 a later patriarch excommunicated the head of the church, and it split again.",
+   "note": "The Malankara Orthodox Church's own history says that in 1912 Patriarch Abdul Messiah II made Baselios Paulose I its head. The church then split, as one side backed the new head and the other the patriarch. In 1975 a later patriarch excommunicated the head of the church, and it split again.",
    "outcome": "In 1975 the patriarch of Antioch cut the head of the Malankara church off from communion, and the church split in two again.",
    "major": {
     "major": true,
@@ -497,8 +500,8 @@
     "Only the Malankara Orthodox side's page was read. The patriarchal side's record was not found online, so the link stands as 'in contact with' rather than 'broke with', which would need both sides' records.",
     "The Sayfo entry stands for the modern Syriac Orthodox patriarchate (it carries the patriarchate's moves to Homs and Damascus). It starts in 1915, three years after the 1912 consecration; the 1975 act falls inside its window, and the outcome rests on 1975.",
     "The census says the patriarch 'deposed' the Catholicos in 1975; the Malankara page says 'excommunication'. The note and outcome follow the page. The prose was not changed, since the two sides use different words and only one was read; the reviewer may want 'deposed and excommunicated' or a neutral verb.",
-    "Abdul Messiah II's own standing in 1912 is disputed in the wider literature; nothing on that was read here, so the note names him only as the page does.",
-    "The page is current (copyright 2024) and undated; it supports facts from 1912 and 1975."
+    "The page is current (copyright 2024) and undated; it supports facts from 1912 and 1975.",
+    "Revision round 1 (R1-7): Abdul Messiah II's standing in 1912 is disputed in the wider literature, and nothing on that was read. The note now says whose account it gives: the Malankara Orthodox Church's own history. The second and third sentences of the old note are joined, so the note keeps to three sentences."
    ],
    "change_reason": "New. The Malankara text alone names the patriarchate of Antioch.",
    "group": "G"
@@ -1092,12 +1095,12 @@
   },
   {
    "id": "the-optina-elders-and-russian-ascetic-renewal--the-russian-new-martyrs-and-the-catacomb-church",
-   "action": "keep",
+   "action": "rewrite",
    "from": "the-optina-elders-and-russian-ascetic-renewal",
    "to": "the-russian-new-martyrs-and-the-catacomb-church",
    "type": "continued as",
    "confidence": "Inferential-Thin",
-   "note": "Optina was a monastery of the Russian Church, and an Optina book of 1847 shows its elders guiding monks and lay visitors. That book stops long before 1917. It says nothing of the monastery under Soviet rule, so this line rests on a thin inference.",
+   "note": "Optina was a monastery of the Russian Church, and an Optina book of 1847 shows its elders guiding monks and lay visitors. That book stops long before 1917. It says nothing of the monastery under Soviet rule, so the tie rests on a thin inference.",
    "sources": [
     {
      "kind": "primary",
@@ -1137,7 +1140,7 @@
    ],
    "wants": [],
    "drafter_flags": [],
-   "change_reason": "Kept unchanged. It mirrors the Optina entry's own continuesAs field. The note says plainly that the 1847 book stops long before 1917, so the grade stays Inferential-Thin.",
+   "change_reason": "Rewritten in note only (revision round 1, R1-16): the map word 'this line' becomes 'the tie'. Id, from, to, type, grade and sources are unchanged from main. It mirrors the Optina entry's own continuesAs field, and the note says plainly that the 1847 book stops long before 1917, so the grade stays Inferential-Thin.",
    "group": "H"
   },
   {
@@ -1325,7 +1328,7 @@
    "to": "african-initiated-churches-harrist-aladura-zioni",
    "type": "gave rise to",
    "confidence": "Dominant Modern Reconstruction",
-   "note": "Reuben Spartas Mukasa grew up in the Anglican church of Uganda. Later he turned to the African Orthodox Church. In 1946 he went to Alexandria, and the patriarch made him trustee of the church in Uganda.",
+   "note": "Reuben Spartas Mukasa grew up in the Anglican church of Uganda. Later he turned to the African Orthodox Church. In 1946 he went to Alexandria, where the patriarch made him trustee of the church in Uganda.",
    "sources": [
     {
      "kind": "secondary",
@@ -1368,7 +1371,8 @@
    "drafter_flags": [
     "The census text says 'broke with'. That type needs a rupture both sides recorded; neither side's record was found, so the link is drawn as 'gave rise to' (a church founded by a man raised Anglican).",
     "Hayes's entry does not give the January 1929 date; that date rests on Welbourn as the census trace cites him. The note leaves it out.",
-    "Graded Dominant Modern Reconstruction: two modern secondary accounts, no primary opened."
+    "Graded Dominant Modern Reconstruction: two modern secondary accounts, no primary opened.",
+    "Revision round 1 (R1-11, fixed differently): the reviewer's text adds that Spartas 'brought Anglicans in Uganda into' the church, on the sentence 'Spartas, however, insisted that he wanted to be Orthodox when he welcomed the Ugandan Anglicans'. Read in context on the raw page, that sentence answers the patriarch's advice to wait for a union of the Orthodox and Anglican churches. It does not plainly say that Anglicans followed Spartas, so the note does not claim it and the sentence is not added as a quote. The note states what the source shows: a man raised Anglican who led the church's turn in Uganda."
    ],
    "change_reason": "New: the Anglican parent named by 'Reuben Spartas Mukasa broke with the Anglicans in January 1929'.",
    "group": "H"
@@ -1700,7 +1704,7 @@
    "type": "influenced",
    "confidence": "Widely Accepted",
    "note": "In December 1963 the Second Vatican Council took up the movement's aims in its text on worship. It said that zeal to renew the liturgy was a movement of the Holy Spirit in the Church.",
-   "outcome": "The council ordered the whole liturgy to be restored. It also let people use their own language more often in the Mass and the sacraments.",
+   "outcome": "The council called for a general restoration of the liturgy. It also let people use their own language more often in the Mass and the sacraments.",
    "sources": [
     {
      "kind": "primary",
@@ -1763,7 +1767,7 @@
      "locus": "art. 36, 2",
      "text": "But since the use of the mother tongue, whether in the Mass, the administration of the sacraments, or other parts of the liturgy, frequently may be of great advantage to the people, the limits of its employment may be extended."
     },
-    "reason": "A council changed the rule of worship: it ordered the rites restored and widened the use of the vernacular."
+    "reason": "A council changed the rule of worship: it called for a general restoration of the rites and widened the use of the vernacular."
    },
    "named_in_text": [
     "the-liturgical-movement relationsSummary ('The entry on the parish after the Council takes up what came of it')"
@@ -1771,7 +1775,8 @@
    "wants": [],
    "drafter_flags": [
     "Sacrosanctum Concilium does not name the liturgical movement by that phrase; art. 43 names 'zeal for the promotion and restoration of the liturgy' as 'a movement of the Holy Spirit'. The reading that this is the movement's influence is the consensus of Fenwick and Spinks and Pecklers, named only.",
-    "The post-council parish entry's text does not name the movement, so this is the movement entry's to draw."
+    "The post-council parish entry's text does not name the movement, so this is the movement entry's to draw.",
+    "Revision round 1 (R1-9): outcome now follows art. 21, which says the Church 'desires to undertake ... a general restoration of the liturgy'. It no longer says the council 'ordered' the whole liturgy restored."
    ],
    "change_reason": "New: the parish after the Council, named in the relationsSummary.",
    "group": "H"
@@ -1783,7 +1788,7 @@
    "to": "the-anglican-communion-twentieth-century",
    "type": "influenced",
    "confidence": "Dominant Modern Reconstruction",
-   "note": "John Fenwick and Bryan Spinks tell the liturgical movement's history across several churches. In their 1995 study the Anglican churches have a part of their own. This line rests on that study alone.",
+   "note": "John Fenwick and Bryan Spinks trace the liturgical movement through many churches in the twentieth century. Their study of 1995 gives the Anglican churches a chapter of their own. The tie rests on their study alone.",
    "sources": [
     {
      "kind": "secondary",
@@ -1815,7 +1820,8 @@
    "drafter_flags": [
     "Hebert's books exist on archive.org but only as lending copies whose text could not be opened; the Church Times piece the census trace cites returned 403. Neither is used. The note therefore names no Anglican writer.",
     "Fenwick and Spinks's table of contents (cited in the census trace) has an Anglican chapter; the book itself was not read. Dominant Modern Reconstruction on one modern study.",
-    "The Anglican Communion entry (part 1) does not name the movement, so the part 2 text alone names it."
+    "The Anglican Communion entry (part 1) does not name the movement, so the part 2 text alone names it.",
+    "Revision round 1 (R1-4): note replaced with the reviewer's text. The map word 'this line' is gone, and the note now states the influence the link claims. The chapter is known from the table of contents cited in the census trace; the book itself was not read."
    ],
    "change_reason": "New: the Anglican line named in the longDescription and legacy.",
    "group": "H"
@@ -1858,6 +1864,26 @@
      "locus": null,
      "quote": null,
      "license": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Michael Plekon, 'The Liturgy of Life: Alexander Schmemann', Religions 7, no. 11 (MDPI, 2016), art. 127, doi:10.3390/rel7110127 (open access)",
+     "url": "https://mdpi-res.com/d_attachment/religions/religions-07-00127/article_deploy/religions-07-00127.pdf",
+     "accessed": "2026-11-10",
+     "locus": "section 1, 'Transcending Borders', p. 2",
+     "quote": "There was a sense of frustration with an essentially ethnic definition of Orthodoxy that eventually led him, as well as John Meyendorff and others, to America.",
+     "license": "CC BY 4.0 (stated on the article); short quotation"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Michael Plekon, 'The Liturgy of Life: Alexander Schmemann', Religions 7, no. 11 (MDPI, 2016), art. 127, doi:10.3390/rel7110127 (open access)",
+     "url": "https://mdpi-res.com/d_attachment/religions/religions-07-00127/article_deploy/religions-07-00127.pdf",
+     "accessed": "2026-11-10",
+     "locus": "section 1, 'Transcending Borders', p. 2",
+     "quote": "Schmemann came with his family in 1951 and began what would be a long career as a professor and dean of St. Vladimir’s Theological Seminary.",
+     "license": "CC BY 4.0 (stated on the article); short quotation"
     }
    ],
    "citation_specificity": "B",
@@ -1868,16 +1894,17 @@
     "american-orthodoxy-autocephaly-and-the-convert-wave relationsSummary and legacy ('the institutional handoff from the Paris émigré generation')"
    ],
    "wants": [
-    "A modern study of St Vladimir's Seminary or of the Paris theologians in America, to stand beside the seminary's own history",
     "Alexander Schmemann, The Journals of Father Alexander Schmemann, 1973-1983 (SVS Press, 2000)"
    ],
    "drafter_flags": [
-    "American Orthodoxy (group I) names this pair too; group I may draft it. Resolve at merge.",
     "Type 'influenced', not 'gave rise to': the Orthodox Church in America came out of the Russian Metropolia, not out of Paris; the Paris teachers shaped its seminary.",
-    "Weakest point: Arjakovsky's study is named for the Paris thinkers, not read for their move to America. If the reviewer finds no study that carries the handoff, the grade should fall to Inferential-Thin.",
+    "Revision round 1 (R1-3): the handoff now rests on a study read at the passage. Michael Plekon's open-access article of 2016 tells how Schmemann, who had taught at St Sergius, went to America with Meyendorff and others, and joined St Vladimir's in 1951. The PDF was fetched raw by curl and read with pdftotext; both quotes are verbatim.",
+    "Plekon's article is dated 2016, after 2010. It supports the 1951 and 1959 moves only.",
+    "Arjakovsky's study covers the Paris thinkers from 1925 to 1940. It stays as named support for the Paris side only, not for the move to New York.",
+    "The note's dates for Schmemann (1951) and Meyendorff (1959) and Florovsky's deanship come from the seminary's own page; Plekon confirms 1951.",
     "The page quote keeps the page's stray space before the comma after 'Florovsky'."
    ],
-   "change_reason": "New: the American handoff named in the legacy and in American Orthodoxy's text.",
+   "change_reason": "New: the American handoff named in the legacy and in American Orthodoxy's text. Round 1: a study that covers the move (Plekon 2016) added, read at the passage.",
    "group": "H"
   },
   {
@@ -1965,13 +1992,13 @@
    "from": "the-russian-orthodox-church-council-patriarchate-and-reunion",
    "to": "the-ukrainian-greek-catholic-underground",
    "type": "argued against",
-   "confidence": "Widely Accepted",
-   "note": "In March 1946 a synod at Lviv folded the Ukrainian Greek Catholic Church into the Russian Orthodox Church. The Ukrainian church calls that meeting a false synod. It says the Moscow church was a tool of the attacks on it that came after.",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "In March 1946 a synod at Lviv, held under Soviet rule, folded the Ukrainian Greek Catholic Church into the Russian Orthodox Church. Bohdan Bociurkiw's study of the church and the Soviet state tells how it was done.",
    "sources": [
     {
      "kind": "primary",
      "source_id": null,
-     "work": "Ukrainian Greek Catholic Church, 'A Word to the Orthodox Brothers and Sisters Who Signed the Statement on the 70th Anniversary of the So-Called \"Lviv Sobor of 1946\"' (Kyiv, 17 March 2016), signed by Sviatoslav Shevchuk and others, on the church's archive site",
+     "work": "Statement of the participants of the International Conference 'The Power of Faith Against the Violence of Authorities' (Kyiv, 17 March 2016), 'A Word to the Orthodox Brothers and Sisters Who Signed the Statement on the 70th Anniversary of the So-Called \"Lviv Sobor of 1946\"', signed first by Sviatoslav Shevchuk, head of the Ukrainian Greek Catholic Church, on the church's archive site; a later source",
      "url": "https://archives.ugcc.ua/en/documents/a_word_to_the_orthodox_brothers_and_sisters_who_signed_the_statement_on_the_70th_anniversary_of_the_socalled_lviv_sobor_of_1946_76337.html",
      "accessed": "2026-11-10",
      "locus": "opening paragraph",
@@ -1981,7 +2008,7 @@
     {
      "kind": "primary",
      "source_id": null,
-     "work": "Ukrainian Greek Catholic Church, 'A Word to the Orthodox Brothers and Sisters Who Signed the Statement on the 70th Anniversary of the So-Called \"Lviv Sobor of 1946\"' (Kyiv, 17 March 2016), signed by Sviatoslav Shevchuk and others, on the church's archive site",
+     "work": "Statement of the participants of the International Conference 'The Power of Faith Against the Violence of Authorities' (Kyiv, 17 March 2016), 'A Word to the Orthodox Brothers and Sisters Who Signed the Statement on the 70th Anniversary of the So-Called \"Lviv Sobor of 1946\"', signed first by Sviatoslav Shevchuk, head of the Ukrainian Greek Catholic Church, on the church's archive site; a later source",
      "url": "https://archives.ugcc.ua/en/documents/a_word_to_the_orthodox_brothers_and_sisters_who_signed_the_statement_on_the_70th_anniversary_of_the_socalled_lviv_sobor_of_1946_76337.html",
      "accessed": "2026-11-10",
      "locus": "paragraph on the official position of the Moscow church",
@@ -1999,8 +2026,8 @@
      "license": null
     }
    ],
-   "citation_specificity": "B",
-   "verification_state": "verified-online",
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked",
    "major": {
     "major": false,
     "kind": null,
@@ -2016,12 +2043,14 @@
     "Bociurkiw (1996), read for the sobor; it would let the link be judged major"
    ],
    "drafter_flags": [
-    "The primary is dated 2016. It supports a 1946 fact; nothing after 2010 is in the note.",
-    "Only the Ukrainian side was opened. The Moscow Patriarchate counted 1946 as a reunion. If the reviewer reads this as a disputed relationship rather than a disputed framing, Contested is the alternative grade; the act itself (the 1946 synod) is not in dispute.",
-    "The note's first sentence repeats the census text's own fact (traced there to Bociurkiw); no listed source quotes the dissolution itself. That is why the major test is not met.",
+    "Revision round 1 (R1-5): regraded from Widely Accepted to Dominant Modern Reconstruction. The 1946 facts rest on Bociurkiw (repo-cited, named, not read). No listed source that was read states what the Lviv synod decided.",
+    "The 2016 statement is kept as a later source only. It is signed 'on behalf of the participants of the International Conference', with the head of the Ukrainian church first among the signers. It is not the Moscow church's text, and it carries nothing in the note.",
+    "The note no longer reports the Ukrainian church's 2016 stance, so nothing after 2010 is in it. 'The attacks on it that came after' is dropped: the statement says only that the Moscow church 'was an instrument of persecution'.",
+    "verification_state is named-not-rechecked because the link now rests on a study named, not read. The two 2016 quotes are still verbatim on the page (raw fetch, 2026-11-10).",
+    "Only the Ukrainian side was opened. The Moscow Patriarchate counted 1946 as a reunion. No Moscow text or act is on the link; the acts of the sobor and the Moscow account are on wants.",
     "The Russian Orthodox Church entry (group J) does not name this church, so this is the underground entry's to draw."
    ],
-   "change_reason": "New: the 1946 Lviv synod named in the longDescription and why.",
+   "change_reason": "New: the 1946 Lviv synod named in the longDescription and why. Round 1: regraded to Dominant Modern Reconstruction on Bociurkiw; the 2016 statement kept as a later source.",
    "group": "H"
   },
   {
@@ -2421,7 +2450,8 @@
     "Introvigne also says Silas baptized Eusebio with a Trinitarian formula, which Aarón had 'corrected' by rebaptism in Jesus' name in 1938. The baptizer's Oneness credentials are therefore not shown; the line runs through the I.E.C.E. contact and early converts.",
     "Both scholars' pages are dated after 2010 (2016/2023 and 2025); they support pre-2010 facts only. Bitter Winter is a CESNUR magazine; the piece is a conference paper by a named scholar. WRSP is an authored scholarly profile, not an encyclopedia mirror; the reviewer should confirm both count.",
     "The target is a three-body entry; the link concerns La Luz del Mundo only, as the note says.",
-    "Ramírez is repo-cited (Sources_E, oneness-pentecostalism) for 'the Apostolic-borderlands wing'; named only, not read."
+    "Ramírez is repo-cited (Sources_E, oneness-pentecostalism) for 'the Apostolic-borderlands wing'; named only, not read.",
+    "Revision round 1 (R1-13): the two Fortuny quotes are confirmed. The round 1 reviewer's plain curl on 2026-11-10 returned the article (109,565 bytes) with both quotes verbatim, and the reviser's own curl the same day returned the same page with both quotes and the post date (5 June 2016). The source and both quotes stay."
    ],
    "change_reason": "New link. Both texts name the descent; two scholars read online show the founder's entry through Oneness Pentecostal circles in 1925, and the church's own refusal of the label is recorded.",
    "group": "I"
@@ -2760,7 +2790,8 @@
    "drafter_flags": [
     "The Library quotes from the 1570 bull are kept; the 2007 texts are read online, so the link is capped at Widely Accepted. O'Malley is named, not read.",
     "The outcome and note name 2007, inside the window. Traditionis Custodes (2021) is after 2010 and stays out.",
-    "verification_state is verified-online because the 2007 quotes carry the relationship; the bull quotes were verified in the Library."
+    "verification_state is verified-online because the 2007 quotes carry the relationship; the bull quotes were verified in the Library.",
+    "Revision round 1 (R1-15): the parish entry fits this act on its own scope. Summorum Pontificum rules how the 1962 Missal is used in parishes: Art. 5, §1 asks the parish priest to accede to a stable group's request for it (read raw on vatican.va, 2026-11-10). That is the council's reform as lived in parishes. This differs from the two joint declarations held as no-entry under Open-Gaps 148 (no entry for Rome after 1962). The census owner's ruling on that gap covers this link too."
    ],
    "change_reason": "Regraded from Inferential-Thin to Widely Accepted and the note rewritten: the post-council church's own 2007 law names the Missal of Pius V and keeps it in use. Outcome added (rule-changed). From, to and type unchanged.",
    "group": "J"
@@ -2868,6 +2899,16 @@
      "url": "https://openlibrary.org/works/OL14865794W",
      "accessed": "2026-11-10",
      "locus": "Open Library record (author, title, publisher, years)"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Michael Plekon, 'The Liturgy of Life: Alexander Schmemann', Religions 7, no. 11 (MDPI, 2016), art. 127, doi:10.3390/rel7110127 (open access)",
+     "url": "https://mdpi-res.com/d_attachment/religions/religions-07-00127/article_deploy/religions-07-00127.pdf",
+     "accessed": "2026-11-10",
+     "locus": "section 1, 'Transcending Borders', p. 2",
+     "quote": "After much effort, against much resistance both internationally and at home, the Russian Church granted autocephaly or ecclesiastical autonomy to the former Russian Metropolia in America in 1970.",
+     "license": "CC BY 4.0 (stated on the article); short quotation"
     }
    ],
    "citation_specificity": "A",
@@ -2880,11 +2921,13 @@
    ],
    "drafter_flags": [
     "Only this entry's text names the pair: American Orthodoxy's own text names the Paris handoff, not the Russian church. So this group drafts it.",
-    "Erickson is confirmed only by an Open Library record; it supports nothing beyond its title and is named, not read. The grade rests on the Tomos and the church's own history page.",
+    "Revision round 1 (R1-2): the consensus reading now rests on a study read at the passage. Michael Plekon's open-access article of 2016 says the Russian Church granted autocephaly to 'the former Russian Metropolia in America in 1970'. The PDF was fetched raw by curl and read with pdftotext; the quote is verbatim.",
+    "Plekon's article is dated 2016, after 2010. It supports the 1970 fact only.",
+    "Erickson is still confirmed only by an Open Library record; it supports nothing beyond its title and is named, not read. The grade no longer rests on it.",
     "The OCA history page is undated and written after 2000; it supports the earlier facts only. The Metropolia had broken off ties with Moscow in the 1920s (same page); the note does not claim unbroken rule from Moscow.",
     "An existing link already traces American Orthodoxy to the Alaskan mission of the synodal century. This link is the twentieth-century act."
    ],
-   "change_reason": "New: the Moscow patriarchate's own Tomos grants self-rule to the American church that had been its diocese.",
+   "change_reason": "New: the Moscow patriarchate's own Tomos grants self-rule to the American church that had been its diocese. Round 1: a study read at the passage (Plekon 2016) added for the consensus reading.",
    "group": "J"
   },
   {
@@ -3059,7 +3102,7 @@
    "outcome": "In 1958 Pope Pius XII ruled on bishops made in China against Rome's orders. He said they had no power to teach or to rule.",
    "major": {
     "major": true,
-    "kind": "council-law",
+    "kind": "rule-changed",
     "evidence": {
      "url": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_29061958_ad-apostolorum-principis.html",
      "locus": "section 39",
@@ -3072,7 +3115,8 @@
    ],
    "drafter_flags": [
     "The entry names the popes of this period acting on the Chinese church, as an earlier link ties the nineteenth-century Roman church to Latin America's. Neither entry's text names the other by name; the named acts carry it.",
-    "Madsen is named, not read. The 1946 hierarchy is in the entry but not on the link: no text of it was opened."
+    "Madsen is named, not read. The 1946 hierarchy is in the entry but not on the link: no text of it was opened.",
+    "Revision round 1 (R1-8): major.kind set to 'rule-changed'. Ad Apostolorum Principis is a papal encyclical, not a council or canon."
    ],
    "change_reason": "New: the Roman see's own acts on the Chinese church, 1926 and 1958, in a papal text read online.",
    "group": "J"
@@ -3135,7 +3179,7 @@
    "to": "latin-american-catholicism-twentieth-century",
    "type": "influenced",
    "confidence": "Widely Accepted",
-   "note": "In August 1968 Pope Paul VI opened the Latin American bishops' general meeting at Bogotá. It went on to Medellín. He pointed the bishops to the council's teaching in Gaudium et Spes. He asked them to give priests' councils and pastoral councils the shape the council wanted.",
+   "note": "In August 1968 Pope Paul VI opened the Latin American bishops' meeting at Bogotá. He pointed them to the council's teaching in Gaudium et Spes. He asked them to give priests' councils and pastoral councils the shape the council wanted.",
    "sources": [
     {
      "kind": "primary",
@@ -3184,9 +3228,11 @@
    ],
    "drafter_flags": [
     "The council itself has no entry; this one is 'the Second Vatican Council as it was lived in parishes', and parish councils are part of it.",
-    "The quote is the pope's charge to the bishops, not the bishops' own document. The Medellín document's title (in the census sources, title verified) names the council, but its text could not be opened. González is named, not read."
+    "The quote is the pope's charge to the bishops, not the bishops' own document. The Medellín document's title (in the census sources, title verified) names the council, but its text could not be opened. González is named, not read.",
+    "Revision round 1 (R1-10): 'It went on to Medellín' removed. The Bogotá homily does not name Medellín.",
+    "Revision round 1 (R1-15): the parish entry fits this act on its own scope. It calls itself the Second Vatican Council as it was lived in parishes, and the homily charges the bishops to carry the council's teaching, and its priests' and pastoral councils, into their dioceses. This differs from the two joint declarations held as no-entry under Open-Gaps 148 (no entry for Rome after 1962), where the act belongs to the papacy, not to parish life. The census owner's ruling on that gap covers this link too."
    ],
-   "change_reason": "New: the council's teaching carried to the Latin American bishops at the opening of Medellín, in the Holy See's text.",
+   "change_reason": "New: the council's teaching carried to the Latin American bishops at the opening of their 1968 meeting, in the Holy See's text.",
    "group": "J"
   },
   {
@@ -3356,7 +3402,7 @@
    "disposition": "link",
    "link_id": "orthodoxy-after-1821-balkan-autocephalies--the-greek-church-and-the-ecumenical-patriarchate",
    "prose_change": null,
-   "reason": "New 'continued as', on the WCC's page for the Church of Greece (1850, 1928) with Frazee and Leustean named.",
+   "reason": "New 'continued as', on the Church of Greece's own history page (Apostoliki Diakonia; 1850, 1928), with Frazee and Leustean named.",
    "group": "G"
   },
   {
@@ -3895,7 +3941,7 @@
    "disposition": "link",
    "link_id": "the-russian-orthodox-church-council-patriarchate-and-reunion--the-ukrainian-greek-catholic-underground",
    "prose_change": null,
-   "reason": "'argued against' from the Moscow church, on the Ukrainian church's own statement; judged minor (the synod's decisions are not quoted in a listed source).",
+   "reason": "'argued against' from the Moscow church, Dominant Modern Reconstruction on Bociurkiw (named); the Ukrainian side's 2016 statement is kept as a later source. Judged minor (the synod's decisions are not quoted in a listed source).",
    "group": "H"
   },
   {
@@ -4071,7 +4117,7 @@
    "disposition": "link",
    "link_id": "the-optina-elders-and-russian-ascetic-renewal--the-russian-new-martyrs-and-the-catacomb-church",
    "prose_change": null,
-   "reason": "Existing continued-as link kept at Inferential-Thin; it mirrors Optina's continuesAs field.",
+   "reason": "Existing continued-as link kept at Inferential-Thin; it mirrors Optina's continuesAs field. Its note loses the map word 'this line' (round 1).",
    "group": "H"
   },
   {
@@ -4982,7 +5028,7 @@
    "sentence": "Deliberate heirs of monastic lines - Iona literally on Columba's island",
    "other_id": "insular-irish-monastic-christianity",
    "disposition": "qualify",
-   "link_id": null,
+   "link_id": "insular-irish-monastic-christianity--ecumenical-community-worlds-taize-and-iona",
    "prose_change": 2,
    "reason": "Existing Inferential-Thin link kept. No source read shows either community setting out to inherit a monastic line; Taizé's own history shows life vows (1949) and a Rule, not a lineage. Rewritten to say what is shown, with the gap stated.",
    "group": "J"
@@ -5041,6 +5087,61 @@
    "prose_change": null,
    "reason": "Missed by the inventory: the popes of the earlier Catholic entry acting on this church. New 'influenced' on Ad Apostolorum Principis (1958), read online; the 1958 ruling makes it major.",
    "group": "J"
+  },
+  {
+   "movement": "ecumenical-community-worlds-taize-and-iona",
+   "field": "longDescription",
+   "sentence": "Two communities, founded two years apart, that set out to be modern heirs of the old monastic ones.",
+   "other_id": "insular-irish-monastic-christianity",
+   "disposition": "qualify",
+   "link_id": "insular-irish-monastic-christianity--ecumenical-community-worlds-taize-and-iona",
+   "prose_change": 4,
+   "reason": "Added in revision round 1 (R1-6). The same unsupported claim as the relationsSummary: no source read shows either community setting out to inherit a monastic line. Replaced with what is shown, a shared life of work and prayer. The existing Inferential-Thin link is kept.",
+   "group": "J"
+  },
+  {
+   "movement": "global-south-pentecostal-christianity",
+   "field": "relationsSummary",
+   "sentence": "It grew from two roots: the revival that began at Azusa Street, and Africa's own prayer churches.",
+   "other_id": "african-initiated-churches-harrist-aladura-zioni",
+   "disposition": "out-of-scope",
+   "link_id": "african-initiated-churches-harrist-aladura-zioni--global-south-pentecostal-christianity",
+   "prose_change": null,
+   "reason": "Added in revision round 1 (R1-17). Part 1's text names it and part 1 drew the link; its disposition is in the part 1 record. Kept here unchanged.",
+   "group": "H"
+  },
+  {
+   "movement": "the-ukrainian-greek-catholic-underground",
+   "field": "relationsSummary",
+   "sentence": "The world's largest banned church - clandestine ordinations, bishops in the Gulag, emergence intact in 1989; a continuation of the Union of Brest.",
+   "other_id": "ruthenian-greek-catholic-polotsk-to-galicia",
+   "disposition": "link",
+   "link_id": "ruthenian-greek-catholic-polotsk-to-galicia--the-ukrainian-greek-catholic-underground",
+   "prose_change": null,
+   "reason": "Added in revision round 1 (R1-17). The last step of the continued-as chain that carries 'a continuation of the Union of Brest' (see the Union of Brest disposition on the same sentence). Kept unchanged.",
+   "group": "H"
+  },
+  {
+   "movement": "alaskan-mission-herman-veniaminov",
+   "field": "legacy",
+   "sentence": "The diocese Veniaminov founded moved its seat to San Francisco and then to New York, and is the ancestor of today's Orthodox Church in America.",
+   "other_id": "american-orthodoxy-autocephaly-and-the-convert-wave",
+   "disposition": "out-of-scope",
+   "link_id": "alaskan-mission-herman-veniaminov--american-orthodoxy-autocephaly-and-the-convert-wave",
+   "prose_change": null,
+   "reason": "Added in revision round 1 (R1-17). Only the era 9 text names it, so era 9 owns the link; kept as era 9 drew it.",
+   "group": "I"
+  },
+  {
+   "movement": "the-ecumenical-movement-and-the-wcc",
+   "field": "relationsSummary",
+   "sentence": "In 1928 Pope Pius XI ruled that Catholics could not take part.",
+   "other_id": "the-catholic-church-pius-x-to-the-council",
+   "disposition": "out-of-scope",
+   "link_id": "the-catholic-church-pius-x-to-the-council--the-ecumenical-movement-and-the-wcc",
+   "prose_change": null,
+   "reason": "Added in revision round 1 (R1-17). Part 1's text names it (also in its why and longDescription) and part 1 drew and merged the link. Kept here unchanged.",
+   "group": "J"
   }
  ],
  "prose_changes": [
@@ -5076,8 +5177,8 @@
    "movement": "catholic-lay-renewal-worlds-catholic-worker-foco",
    "field": "relationsSummary",
    "old": "Children of the long Catholic renewal line",
-   "new": "Lay Catholics started four movements in the 1900s. The Catholic Worker came first, in 1933, then Focolare in 1943. Next came L'Arche in 1964 and the Charismatic Renewal in 1967. Each one began on its own.",
-   "reason": "The old line named no movement and claimed a single 'renewal line' that the entry itself denies. The new text uses only the entry's own dates.",
+   "new": "Lay Catholics started four movements in the twentieth century. The Catholic Worker came first, in 1933, then Focolare in 1943. Next came L'Arche in 1964 and the Charismatic Renewal in 1967. Each one began on its own.",
+   "reason": "The old line named no movement and claimed a single 'renewal line' that the entry itself denies. The new text uses only the entry's own dates. Round 1 (R1-14): 'in the 1900s' changed to 'in the twentieth century', since all four dates fall from 1933 to 1967.",
    "group": "G"
   },
   {
@@ -5139,8 +5240,8 @@
    "movement": "american-orthodoxy-autocephaly-and-the-convert-wave",
    "field": "legacy",
    "old": "In 2010 this was a living edge of a very old church. It was jurisdictionally plural, with several overlapping jurisdictions on the same soil. That was an anomaly by Orthodoxy's own canons and a fact of North American life. It receives the Paris school's handoff: the autocephaly of 1970 is the institutional close of the émigré generation's story and the opening of this one, and St Vladimir's Seminary sits at the join. It was also one of the destinations named in the published accounts of people leaving evangelical churches, and this map wires that relation on those published accounts rather than on any guess about motives. The one dedicated scholarly study, Amy Slagle's fieldwork, was published later, in 2011.",
-   "new": "In 2010 this was a living edge of a very old church. Several jurisdictions overlapped on the same soil. That broke Orthodoxy's own canons, yet it was a fact of North American life. The self-rule of 1970 marks the close of the Paris emigrants' story and the start of this one. St Vladimir's Seminary stands where the two meet. The one dedicated scholarly study, Amy Slagle's fieldwork, came out later, in 2011.",
-   "reason": "The sentence on 'published accounts' and 'this map wires that relation' removed: the link it names belonged to a movement retired on 2026-11-08 and does not exist; it was map-process language. The rest kept and rewritten for reading level (FRE 39).",
+   "new": "In 2010 this was a living edge of a very old church. Several jurisdictions overlapped on the same soil. That broke Orthodoxy's own canons, yet it was a fact of North American life. The self-rule of 1970 owed much to teachers who had come from Paris. They taught at St Vladimir's Seminary in New York. The one dedicated scholarly study, Amy Slagle's fieldwork, came out later, in 2011.",
+   "reason": "The sentence on 'published accounts' and 'this map wires that relation' removed: the link it names belonged to a movement retired on 2026-11-08 and does not exist; it was map-process language. The rest kept and rewritten for reading level (FRE 39). Round 1 (R1-12): the 'close of the story ... start of this one' sentences, which describe the map's entries, replaced with the historical claim, on the seminary's own page and Plekon (2016).",
    "group": "I"
   },
   {
@@ -5195,6 +5296,15 @@
    "old": "Both communities were still going in 2010, and both took visitors. Taizé's European meetings were held every year from 1978. Iona's Wild Goose material, much of it by John Bell, found its way into hymnals across the English-speaking world. Their passage through the death of a founder is itself part of what they left. Taizé's continuation under Alois is one of the clearest documented cases on this map of a community outliving the person who began it.",
    "new": "Both communities were still going in 2010, and both took visitors. Taizé's European meetings were held every year from 1978. Iona's Wild Goose material, much of it by John Bell, found its way into hymnals across the English-speaking world. Their passage through the death of a founder is itself part of what they left. Taizé carried on under Brother Alois, so the community outlived the man who began it.",
    "reason": "Last sentence: 'on this map' and the unsourced 'one of the clearest documented cases' taken out; the plain fact kept.",
+   "group": "J"
+  },
+  {
+   "n": 4,
+   "movement": "ecumenical-community-worlds-taize-and-iona",
+   "field": "longDescription",
+   "old": "Two communities, founded two years apart, that set out to be modern heirs of the old monastic ones. George MacLeod founded the Iona Community in 1938 and set it to rebuilding the abbey on Columba's own island — a work that took until 1965 — on the conviction that worship and labor and politics belong together. Roger Schutz began the community at Taizé in France in 1940; its Rule was written in 1954, and from the 1970s young people began arriving in large numbers, with a Council of Youth in 1974 and European meetings held annually from 1978. Both are ecumenical by design, with members from many churches and none of the usual boundaries between them. Brother Roger was murdered on 16 August 2005, and the community continued under Brother Alois.",
+   "new": "Two communities, founded two years apart, built a shared life of work and prayer. George MacLeod founded the Iona Community in 1938. He set it to rebuilding the abbey on Columba's own island, a work that took until 1965. He held that worship, labor and politics belong together. Roger Schutz began the community at Taizé in France in 1940. Its Rule was written in 1954. From the 1970s young people came in large numbers. A Council of Youth met in 1974, and European meetings were held every year from 1978. Both communities are ecumenical by design. Their members come from many churches, with none of the usual boundaries between them. Brother Roger was murdered on 16 August 2005, and the community carried on under Brother Alois.",
+   "reason": "First sentence qualified: no source read shows either community setting out to be heirs of the old monastic houses (the same finding as the relationsSummary). The new first sentence says only what is shown. The rest of the field is cut into shorter sentences for the reading target, with every fact kept.",
    "group": "J"
   }
  ],
