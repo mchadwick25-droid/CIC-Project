@@ -1188,5 +1188,5 @@ them come back when Africa is restored. No page errors. Screenshots before and a
 the early centuries, close on 1517; dark and light; desktop and phone):
 `Screenshots/2026-11-10_river-origins/`.
 
-**Next action.** Mark judges the rivers by eye before merge, on the artifact "River Origins Review"
-(https://claude.ai/artifact/NNXYt18C89c21cMqTa56k3).
+**Approved (Mark, 2026-11-10, on the artifact "River Origins Review",
+https://claude.ai/artifact/NNXYt18C89c21cMqTa56k3).** "rivers look good, merge it".
