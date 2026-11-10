@@ -1267,3 +1267,23 @@ it, never by deleting it.
       used it as the last year, which let Theodoret and Eunomius pass on traditions that began in
       their lifetimes.
     - Ephrem appears in the alias list as "Ephraim the Syrian", unmatched to the shipped entry.
+166. **The later-worlds people held, with their reasons (2026-11-10).** Mark ruled "take every
+    recommendation" on the P2-G3b list (Decision-Log, "The later-worlds people ruled (P2-G3b)").
+    Each person below passes the clean count and is held; a change of rule or a new text in the
+    Library could bring them in. Owner: P2-P / the Library thread, as noted.
+    - **Founders (question A):** Priscillian (Priscillianist Asceticism; no work of his held),
+      Valentinus (the Valentinians), Mani (Manichaeism), Novatian (Novatianism; own works held),
+      Hilarion of Gaza (opens Early Palestinian Ascetic Monasticism), Apollinaris of Laodicea
+      (Apollinarian Christianity; own fragments held), Valdes (the Waldensians), Francis of Assisi
+      (the Franciscan movement; his own writings are not on the shelf), Zwingli (the Reformed
+      Cities; own works held). Each is told within that movement's entry.
+    - **Own words (question B):** Johannes Tauler. His sermons survive as his hearers' notes.
+    - **One witness (question C):** Constantius II (both later traditions rest on Nikodemos's
+      Synaxaristes); Basilides (Rome and Montanism rest on the same Hippolytus passages, and his
+      death date is unknown).
+    - **No words of their own in the Library:** Paul of Samosata (the council's letter and
+      Malchion's half of the debate only), Mesrop Mashtots (Koriun's Life of him, no work of
+      his), Maximilla (her sayings come through opponents), Kaleb (a prayer reported by others),
+      Heraclius (the Ekthesis is not held), Bonaventure (one quoted sentence in an editor's note).
+      Wanted texts for the Library thread: Paul of Samosata's fragments, a Mesrop text, the
+      Ekthesis, Bonaventure's Itinerarium and Life of Francis, Francis's own writings.

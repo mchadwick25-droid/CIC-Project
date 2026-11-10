@@ -1051,3 +1051,36 @@ them. Drafted by Sonnet researchers, reviewed by Opus in three rounds (approved 
 **Applied.** Data release 30: 353 movements, 689 links. Audit:
 `Build/Ministry/Operations/Audits/2026-11-10_living/`. Open items: Open-Gaps 157 to 163. The leaf
 itself waits for P2-K1 (Mark's pick).
+
+## 2026-11-10 — The later-worlds people ruled (P2-G3b)
+
+**How it was reached.** P2-G3b re-ran the later-worlds count that Mark held back in answer D a,
+with namesakes checked, editorial matter masked and every counted passage read in context and
+reviewed (audit: `Build/Ministry/Operations/Audits/2026-11-10_later-worlds-people/`). The clean
+list went to Mark as the artifact "Later-Worlds People"
+(https://claude.ai/artifact/AGVVFoi57c6gNtDtVoyADC): 32 people passing, 14 recommended, 18 held,
+and three questions, each with options and a recommendation. Mark answered "take every
+recommendation" (2026-11-10).
+
+**Decided (Mark).**
+- **A. Founders who pass by this route are held.** Ruling 14's test stands as worded ("founded no
+  lasting movement"); change order 10c's exception for founders stays tied to the own-works count.
+  Held: Priscillian, Valentinus, Mani, Novatian, Hilarion of Gaza, Apollinaris of Laodicea, Valdes,
+  Francis of Assisi, Zwingli. Each is told within their movement's entry. Shown with: take the
+  founders whose own words the Library holds; take all nine.
+- **B. Answer C applies as written.** A letter issued in a person's name and a jointly written work
+  count as their own words; sermons taken down by hearers do not. Paula and Pamphilus get entries;
+  Tauler is held. Pamphilus is told within the catechetical school, where the Library shelves his
+  work. Shown with: hold all three; take all three.
+- **C. Two later traditions need two different witnesses.** One author's book shelved twice does
+  not make two traditions. Constantius II and Basilides are held. Shown with: count shelves as
+  written.
+- **The 14 entries:** Polycarp of Smyrna, Methodius of Olympus, Pamphilus, Lactantius,
+  Constantine, Paula, Basil of Caesarea, Gregory of Nazianzus, Patrick, Justinian, Bede, Gregory
+  VII, Innocent III, Hugo Grotius. Built as person entries in the shape of release 29's, hidden
+  from the map until P2-P like the others.
+
+**Also held, under the rules as written (no question):** Paul of Samosata, Mesrop Mashtots,
+Maximilla, Kaleb, Heraclius and Bonaventure: the Library holds no words of their own and no
+recorded position that answer C counts. Reasons, one per person: Open-Gaps, "The later-worlds
+people held, with their reasons" (2026-11-10).
