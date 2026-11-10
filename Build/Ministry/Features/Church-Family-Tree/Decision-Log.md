@@ -1144,6 +1144,76 @@ free to override.
 Francis of Assisi and Priscillian, whose own words the Library now also holds, stay held as
 founders (question A).
 
+## 2026-11-10 — Where each river leaves its parent
+
+**The defect (Mark, 2026-11-10).** "why does the reformation and protestent river come out of greek
+east, thats wrong". The map drew each river out of the river of whichever link into its first
+movement came first in the data, with "influenced" counted as descent. Wittenberg's first such link
+was an influence from Chrysostom's Antiochene tradition, so the Protestant river rose from Greek
+East. The parent had moved by accident as the Phase 2 link work added links. A second fault: two
+Protestant movements start in 1517, and data order chose which one was first. A fallback table
+covered only five lanes.
+
+**Ruled (coordinator, under Mark's standing instruction to decide routine calls).** A river's
+origin is a claim about descent, so neither an influence nor data order may decide it.
+- A river's first movements are all its church bodies tied at its earliest start.
+- Its parent is the river of the strongest descent link into them. The order is: "gave rise to"
+  or "continued as" (lineage) before "broke with" (a break, counted only from a movement that
+  started earlier); then major before minor; then confidence; then the parent's earlier start;
+  then its ID.
+- With no such link, the page's record declares the parent, with a reason, a confidence on the
+  five-level scale and a source. Lane 0 is the origin trunk.
+
+**Built.**
+- `cft-website/index.html`: `RIVER_ORIGINS`, one entry per river, from which the map draws. The
+  inference code and the old fallback table are gone.
+- `tools/validate-census.mjs` holds the rule and fails when the record and the census disagree, in
+  these cases: a river with no entry; a lineage entry that is not the rule's pick; a declared entry
+  where a descent link exists; a missing reason, confidence or source; a quote not found verbatim
+  in its Library lines; a chain of parents that never reaches the trunk; or a parent that starts
+  later than its child. A new census link that would move a river now fails CI until the record is
+  changed on purpose.
+- `tools/tests/validate_census_river_origins.test.mjs`: nine cases.
+
+**Each river, before and after.**
+
+| River | Before | After | Basis |
+|---|---|---|---|
+| Syriac East | Non-Nicene (Bardaisanite influence) | origin trunk | declared, Contested: Eusebius, *Church History* 1.13 (the Thaddeus story, a legend) |
+| Syriac/Prot. bridge | Syriac East | Syriac East | lineage: St Thomas Christians gave rise to the Mar Thoma reform |
+| Caucasus | Syriac East (influence listed first) | Greek East | declared, Contested: Gregory consecrated at Caesarea; Ormanian (1912) gives the dispute |
+| Greek East | Africa (Alexandria influence) | origin trunk | declared, Widely Accepted: Eusebius, *Church History* 4.5 (Jerusalem's bishops from James) |
+| Greek/Latin bridge | Greek East (influence) | Greek East | declared, Inferential-Thin: its first voice Eusebius of Caesarea; Nicaea (*Life of Constantine* 3.6) |
+| Africa | origin trunk (Greek-apologist influence) | origin trunk | declared, Widely Accepted: Eusebius, *Church History* 2.16 (the Mark tradition, as reported) |
+| Africa/Latin bridge | Africa | Africa | lineage: Uganda martyrs continued as |
+| Latin West | origin trunk (influence) | origin trunk | declared, Widely Accepted: Tertullian, *Prescription* 36 |
+| Latin/Prot. bridge | Latin West | Latin West | lineage: Philippine Catholicism gave rise to the Philippine Independent Church |
+| Protestant & Evangelical | Greek East (Chrysostom influence) | Latin West | lineage: the Hussites "continued as" the Czech churches (Documented), one of the river's two 1517 first movements |
+| Global Revival & Pentecostal | none | Protestant & Evangelical | declared, Widely Accepted: the census record's own works (Tudur Jones, Oak, CHC 9) |
+| Cross-Family | Protestant & Evangelical | Protestant & Evangelical | lineage: the mainline gave rise to progressive Christianity |
+| Non-Nicene | none | origin trunk | declared, Widely Accepted: Tertullian, *Against the Valentinians* 4 |
+
+The plain parents were built directly. Five went to the coordinator as options with
+recommendations: Syriac East, Caucasus, Greek East, Africa and the Greek/Latin bridge. The
+coordinator took every recommendation. Shown with them: Syriac East from Greek East (via the Antioch
+tradition) or unattached; Caucasus from Syriac East or the trunk; Greek East from Africa; Africa from
+Greek East; the bridge from Latin West or the trunk.
+
+**Wanted, not added.** A sourced break link from the late-medieval Latin church to Wittenberg, and
+a "gave rise to" link from Caesarea to Armenia. Both are census changes under the link evidence
+standard (Open-Gaps 173).
+
+**Checked.** `validate-census.mjs` with `--atlas` and `--tree` gives 0 errors. All 53 census tests
+pass. `atlas-check --edges-only` passes. The commentary and spelling checks are clean. The gap
+between neighboring rivers is at least 18 px at both zooms, the same before and after. The switch
+check is unchanged: with Africa hidden, 13 of 14 rivers and 297 of 323 dots stay on, and all of
+them come back when Africa is restored. No page errors. Screenshots before and after (full map,
+the early centuries, close on 1517; dark and light; desktop and phone):
+`Screenshots/2026-11-10_river-origins/`.
+
+**Approved (Mark, 2026-11-10, on the artifact "River Origins Review",
+https://claude.ai/artifact/NNXYt18C89c21cMqTa56k3).** "rivers look good, merge it".
+
 ---
 
 ## 2026-11-10 — P2-G89b carried out: data release 33 adds the eras 8 and 9 sweep's 26 rows

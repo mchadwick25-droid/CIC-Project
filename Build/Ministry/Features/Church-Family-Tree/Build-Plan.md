@@ -63,6 +63,7 @@ applied to every shared file, not only the census.
 | # | Goal | Stop point | Status |
 |---|---|---|---|
 | R1–R3 | The rivers, one PR | Mark judges by eye on the preview | merged (#1526) |
+| RO | River origins: each river leaves its parent by descent, never by influence or data order | Mark judges by eye on the screenshots | merged (#1580) |
 | P1a | Tree Worker and build script; full addresses for cross-site links | none | merged (#1527) |
 | C1 | Public site carries code only; notes moved to `Build/Ministry` | none | merged (#1528) |
 | PL1 | Place labels from each movement's and gap story's own region text | none | merged (#1529) |
