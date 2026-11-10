@@ -1,6 +1,11 @@
 {
- "method": "Web pages: raw download (curl, no model), HTML tags stripped, whitespace and quote-mark forms squashed, exact substring. Scanned PDFs (ifphc.org): checked against the rendered page images by a separate agent, since their OCR layer cannot be matched by script.",
- "web_and_text": [
+ "method": "Web pages and text files: raw download (curl, no model); tags stripped from HTML only; quote marks, dashes, whitespace and OCR line-break hyphens normalized; exact substring. Every quote the script could not match has a second check, recorded per row.",
+ "totals": {
+  "quotes": 78,
+  "script_verbatim": 64,
+  "second_check": 14
+ },
+ "rows": [
   {
    "file": "Draft_GroupA.json",
    "link": "the-student-volunteer-movement-and-edinburgh-191--the-ecumenical-movement-and-the-wcc",
@@ -8,7 +13,8 @@
    "url": "https://www.oikoumene.org/about-the-wcc/history",
    "ok": true,
    "page_chars": 12697,
-   "quote": "The historical roots of the World Council of Churches are found in student and lay movements of the 19th century, the 1910 Edinburgh world missionary conference"
+   "quote": "The historical roots of the World Council of Churches are found in student and lay movements of the 19th century, the 1910 Edinburgh world missionary conference",
+   "second_check": null
   },
   {
    "file": "Draft_GroupA.json",
@@ -17,7 +23,8 @@
    "url": "https://edizionicafoscari.it/media/pdf/article/journal-of-modern-and-contemporary-christianity/2024/1/art-10.30687-JoMaCC-2785-6046-2024-01-007.pdf",
    "ok": true,
    "page_chars": 111971,
-   "quote": "It is true, however, that this event was the impetus that led some of the participants, notably the American Episcopalian Charles Brent, to convene another worl"
+   "quote": "It is true, however, that this event was the impetus that led some of the participants, notably the American Episcopalian Charles Brent, to convene another worl",
+   "second_check": null
   },
   {
    "file": "Draft_GroupA.json",
@@ -26,7 +33,8 @@
    "url": "https://www.oikoumene.org/resources/documents/unto-the-churches-of-christ-everywhere-encyclical-of-the-ecumenical-patriarchate-1920",
    "ok": true,
    "page_chars": 13436,
-   "quote": "Our own church holds that rapprochement between the various Christian churches and fellowship between them is not excluded by the doctrinal differences which ex"
+   "quote": "Our own church holds that rapprochement between the various Christian churches and fellowship between them is not excluded by the doctrinal differences which ex",
+   "second_check": null
   },
   {
    "file": "Draft_GroupA.json",
@@ -35,16 +43,18 @@
    "url": "https://www.oikoumene.org/about-the-wcc/history",
    "ok": true,
    "page_chars": 12697,
-   "quote": "The historical roots of the World Council of Churches are found in student and lay movements of the 19th century, the 1910 Edinburgh world missionary conference"
+   "quote": "The historical roots of the World Council of Churches are found in student and lay movements of the 19th century, the 1910 Edinburgh world missionary conference",
+   "second_check": null
   },
   {
    "file": "Draft_GroupA.json",
    "link": "the-greek-church-and-the-ecumenical-patriarchate--the-ecumenical-movement-and-the-wcc",
    "source": 2,
    "url": "https://rprt.northwestern.edu/people/research-scholars/anglican-orders-and-orthodox-politics.pdf",
-   "ok": false,
+   "ok": true,
    "page_chars": 119549,
-   "quote": "In January of 1920 – the same year as The Christian East began publication – the Ecumenical Patriarchate issued possibly the most famous encyclical from Constan"
+   "quote": "In January of 1920 – the same year as The Christian East began publication – the Ecumenical Patriarchate issued possibly the most famous encyclical from Constan",
+   "second_check": null
   },
   {
    "file": "Draft_GroupA.json",
@@ -53,7 +63,8 @@
    "url": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_19280106_mortalium-animos.html",
    "ok": true,
    "page_chars": 30818,
-   "quote": "This being so, it is clear that the Apostolic See cannot on any terms take part in their assemblies, nor is it anyway lawful for Catholics either to support or "
+   "quote": "This being so, it is clear that the Apostolic See cannot on any terms take part in their assemblies, nor is it anyway lawful for Catholics either to support or ",
+   "second_check": null
   },
   {
    "file": "Draft_GroupA.json",
@@ -62,7 +73,8 @@
    "url": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_19280106_mortalium-animos.html",
    "ok": true,
    "page_chars": 30818,
-   "quote": "And here it seems opportune to expound and to refute a certain false opinion, on which this whole question, as well as that complex movement by which non-Cathol"
+   "quote": "And here it seems opportune to expound and to refute a certain false opinion, on which this whole question, as well as that complex movement by which non-Cathol",
+   "second_check": null
   },
   {
    "file": "Draft_GroupA.json",
@@ -71,7 +83,8 @@
    "url": "https://edizionicafoscari.it/media/pdf/article/journal-of-modern-and-contemporary-christianity/2024/1/art-10.30687-JoMaCC-2785-6046-2024-01-007.pdf",
    "ok": true,
    "page_chars": 111971,
-   "quote": "Despite the fact that Pius XI’s 1928 encyclical Mortalium animos seemed to have put a definitive end to the question of Catholic participation in movements for "
+   "quote": "Despite the fact that Pius XI’s 1928 encyclical Mortalium animos seemed to have put a definitive end to the question of Catholic participation in movements for ",
+   "second_check": null
   },
   {
    "file": "Draft_GroupA.json",
@@ -80,7 +93,8 @@
    "url": "https://www.oikoumene.org/about-the-wcc/history",
    "ok": true,
    "page_chars": 12697,
-   "quote": "Predominately Protestant and Western in its earliest years, the WCC's profile and identity evolved during the 1960s with the influx of many Orthodox churches fr"
+   "quote": "Predominately Protestant and Western in its earliest years, the WCC's profile and identity evolved during the 1960s with the influx of many Orthodox churches fr",
+   "second_check": null
   },
   {
    "file": "Draft_GroupA.json",
@@ -89,7 +103,8 @@
    "url": "https://nationalcouncilofchurches.us/?p=3863",
    "ok": true,
    "page_chars": 12183,
-   "quote": "We deem it the duty of all Christian people to concern themselves directly with certain practical industrial problems."
+   "quote": "We deem it the duty of all Christian people to concern themselves directly with certain practical industrial problems.",
+   "second_check": null
   },
   {
    "file": "Draft_GroupA.json",
@@ -98,7 +113,8 @@
    "url": "https://nationalcouncilofchurches.us/about-us/history/",
    "ok": true,
    "page_chars": 25798,
-   "quote": "In May 1908, 32 Christian communions met in Philadelphia to form the Federal Council of Churches."
+   "quote": "In May 1908, 32 Christian communions met in Philadelphia to form the Federal Council of Churches.",
+   "second_check": null
   },
   {
    "file": "Draft_GroupA.json",
@@ -107,7 +123,8 @@
    "url": "https://nationalcouncilofchurches.us/about-us/history/",
    "ok": true,
    "page_chars": 25798,
-   "quote": "in November 1950 the US churches that formed the Federal Council of Churches joined with additional ecumenical bodies to establish the National Council of Churc"
+   "quote": "in November 1950 the US churches that formed the Federal Council of Churches joined with additional ecumenical bodies to establish the National Council of Churc",
+   "second_check": null
   },
   {
    "file": "Draft_GroupA.json",
@@ -116,7 +133,8 @@
    "url": "https://uccj.org/history",
    "ok": true,
    "page_chars": 5196,
-   "quote": "Protestant Christianity in our country originated from the work of foreign missionaries who came to Japan in 1859."
+   "quote": "Protestant Christianity in our country originated from the work of foreign missionaries who came to Japan in 1859.",
+   "second_check": null
   },
   {
    "file": "Draft_GroupA.json",
@@ -125,7 +143,8 @@
    "url": "https://uccj.org/history",
    "ok": true,
    "page_chars": 5196,
-   "quote": "On the basis of this declaration, over thirty Protestant denominations achieved unity at a Founding General Assembly held at the Fujimichio Church on June 24-25"
+   "quote": "On the basis of this declaration, over thirty Protestant denominations achieved unity at a Founding General Assembly held at the Fujimichio Church on June 24-25",
+   "second_check": null
   },
   {
    "file": "Draft_GroupA.json",
@@ -134,7 +153,8 @@
    "url": "https://uccj.org/confession",
    "ok": true,
    "page_chars": 5597,
-   "quote": "From the opening of Christian mission early in the Meiji Era (1868-1912), most Japanese Protestants had long desired to dissolve the various denominations and t"
+   "quote": "From the opening of Christian mission early in the Meiji Era (1868-1912), most Japanese Protestants had long desired to dissolve the various denominations and t",
+   "second_check": null
   },
   {
    "file": "Draft_GroupA.json",
@@ -143,7 +163,8 @@
    "url": "https://documents.adventistarchives.org/Yearbooks/YB1931.pdf",
    "ok": false,
    "page_chars": 1298,
-   "quote": "the longest one, the 2300 days of Dan. 8:14, terminated in 1844, and brought us to an event called the cleansing of the sanctuary."
+   "quote": "the longest one, the 2300 days of Dan. 8:14, terminated in 1844, and brought us to an event called the cleansing of the sanctuary.",
+   "second_check": "The site returns a Cloudflare check to a plain download. Verbatim in the drafter's saved copy of the 1931 Year Book PDF (pdftotext, whitespace squashed), checked by the coordinator."
   },
   {
    "file": "Draft_GroupA.json",
@@ -152,7 +173,8 @@
    "url": "https://documents.adventistarchives.org/Yearbooks/YB1931.pdf",
    "ok": false,
    "page_chars": 1298,
-   "quote": "That the Godhead, or Trinity, consists of the Eternal Father, a personal, spiritual Being, omnipotent, omnipresent, omniscient, infinite in wisdom and love;"
+   "quote": "That the Godhead, or Trinity, consists of the Eternal Father, a personal, spiritual Being, omnipotent, omnipresent, omniscient, infinite in wisdom and love;",
+   "second_check": "The site returns a Cloudflare check to a plain download. Verbatim in the drafter's saved copy of the 1931 Year Book PDF (pdftotext, whitespace squashed), checked by the coordinator."
   },
   {
    "file": "Draft_GroupA.json",
@@ -160,8 +182,9 @@
    "source": 0,
    "url": "https://vineyardusa.org/what-is-the-vineyard-our-history/",
    "ok": true,
-   "page_chars": 17918,
-   "quote": "In 1977, John re-entered pastoral ministry to plant Calvary Chapel of Yorba Linda."
+   "page_chars": 17921,
+   "quote": "In 1977, John re-entered pastoral ministry to plant Calvary Chapel of Yorba Linda.",
+   "second_check": null
   },
   {
    "file": "Draft_GroupA.json",
@@ -170,7 +193,8 @@
    "url": "https://vineyardusa.org/what-is-the-vineyard-our-history/",
    "ok": true,
    "page_chars": 17918,
-   "quote": "Since it soon became clear that the church’s emphasis on the experience of the Holy Spirit was not shared by some leaders in the Calvary Chapel movement, John’s"
+   "quote": "Since it soon became clear that the church’s emphasis on the experience of the Holy Spirit was not shared by some leaders in the Calvary Chapel movement, John’s",
+   "second_check": null
   },
   {
    "file": "Draft_GroupA.json",
@@ -179,7 +203,8 @@
    "url": "https://dacb.org/histories/uganda-tukutendereza-yesu",
    "ok": true,
    "page_chars": 85199,
-   "quote": "The origins of the Revival lie in the life of the Anglican Church of Uganda, and particularly the situation in Buganda."
+   "quote": "The origins of the Revival lie in the life of the Anglican Church of Uganda, and particularly the situation in Buganda.",
+   "second_check": null
   },
   {
    "file": "Draft_GroupA.json",
@@ -188,7 +213,8 @@
    "url": "https://dacb.org/histories/uganda-tukutendereza-yesu",
    "ok": true,
    "page_chars": 85199,
-   "quote": "The Church Missionary Society mission hospital at Gabini was an outpost of the Anglican diocese of Uganda, on the frontiers of the cultural and religious influe"
+   "quote": "The Church Missionary Society mission hospital at Gabini was an outpost of the Anglican diocese of Uganda, on the frontiers of the cultural and religious influe",
+   "second_check": null
   },
   {
    "file": "Draft_GroupA.json",
@@ -197,7 +223,8 @@
    "url": "https://dacb.org/histories/uganda-tukutendereza-yesu",
    "ok": false,
    "page_chars": 85199,
-   "quote": "But the Bishop hoped to get beyond a repetition of these sterile conflicts and in 1943 he issued a compromise formula which he entitled The New Way,"
+   "quote": "But the Bishop hoped to get beyond a repetition of these sterile conflicts and in 1943 he issued a compromise formula which he entitled The New Way,",
+   "second_check": "Verbatim except a space the page markup puts before the comma after \"New Way\" (a footnote link follows)."
   },
   {
    "file": "Draft_GroupA.json",
@@ -206,7 +233,8 @@
    "url": "https://dacb.org/histories/uganda-tukutendereza-yesu",
    "ok": true,
    "page_chars": 85199,
-   "quote": "And even the Ugandan Balokole, suspicious as they were of any sell-out, had no real inclination to form schismatic Church."
+   "quote": "And even the Ugandan Balokole, suspicious as they were of any sell-out, had no real inclination to form schismatic Church.",
+   "second_check": null
   },
   {
    "file": "Draft_GroupA.json",
@@ -215,7 +243,8 @@
    "url": "https://dacb.org/histories/uganda-tukutendereza-yesu",
    "ok": true,
    "page_chars": 85199,
-   "quote": "For the mainstream of the Balokole the years since Independence have seen increasing integration into the life of the Church. The Archbishops, Bishops and the m"
+   "quote": "For the mainstream of the Balokole the years since Independence have seen increasing integration into the life of the Church. The Archbishops, Bishops and the m",
+   "second_check": null
   },
   {
    "file": "Draft_GroupB.json",
@@ -223,8 +252,9 @@
    "source": 0,
    "url": "https://pcahistory.org/documents/auburn/auburntext.html",
    "ok": true,
-   "page_chars": 22680,
-   "quote": "we are opposed to any attempt to elevate these five doctrinal statements, or any of them, to the position of tests for ordination or for good standing in our ch"
+   "page_chars": 23151,
+   "quote": "we are opposed to any attempt to elevate these five doctrinal statements, or any of them, to the position of tests for ordination or for good standing in our ch",
+   "second_check": null
   },
   {
    "file": "Draft_GroupB.json",
@@ -232,8 +262,9 @@
    "source": 1,
    "url": "https://opc.org/books/FirstTenYears.html",
    "ok": true,
-   "page_chars": 76810,
-   "quote": "The new church was necessary because the denomination had officially sanctioned a grave departure from the biblical doctrine of the final authority of the Word "
+   "page_chars": 77000,
+   "quote": "The new church was necessary because the denomination had officially sanctioned a grave departure from the biblical doctrine of the final authority of the Word ",
+   "second_check": null
   },
   {
    "file": "Draft_GroupC.json",
@@ -242,7 +273,8 @@
    "url": "https://pcahistory.org/documents/auburn/auburntext.html",
    "ok": true,
    "page_chars": 22680,
-   "quote": "We, the undersigned, ministers of the Presbyterian Church in the United States of America, feel bound, in view of certain actions of the General Assembly of 192"
+   "quote": "We, the undersigned, ministers of the Presbyterian Church in the United States of America, feel bound, in view of certain actions of the General Assembly of 192",
+   "second_check": null
   },
   {
    "file": "Draft_GroupC.json",
@@ -251,7 +283,8 @@
    "url": "https://archive.org/details/conferenceofbish00lamb",
    "ok": true,
    "page_chars": 37987,
-   "quote": "At the date of the first Lambeth Conference, 1867, this Communion had taken the form of a federation of self-governing Churches"
+   "quote": "At the date of the first Lambeth Conference, 1867, this Communion had taken the form of a federation of self-governing Churches",
+   "second_check": null
   },
   {
    "file": "Draft_GroupC.json",
@@ -260,7 +293,8 @@
    "url": "https://anglicanhistory.org/usa/congress/6/01.html",
    "ok": true,
    "page_chars": 3284,
-   "quote": "THE SIXTH CATHOLIC CONGRESS of the Episcopal Church was held October 22d through 26th, 1933, in Philadelphia, to celebrate the Centenary of the beginnings of th"
+   "quote": "THE SIXTH CATHOLIC CONGRESS of the Episcopal Church was held October 22d through 26th, 1933, in Philadelphia, to celebrate the Centenary of the beginnings of th",
+   "second_check": null
   },
   {
    "file": "Draft_GroupC.json",
@@ -269,7 +303,8 @@
    "url": "https://anglicanhistory.org/usa/congress/6/01.html",
    "ok": true,
    "page_chars": 3284,
-   "quote": "The purpose of this Centenary Congress is to give thanks to Almighty God for the Catholic Revival in the Episcopal Church and throughout the Anglican communion"
+   "quote": "The purpose of this Centenary Congress is to give thanks to Almighty God for the Catholic Revival in the Episcopal Church and throughout the Anglican communion",
+   "second_check": null
   },
   {
    "file": "Draft_GroupC.json",
@@ -277,8 +312,9 @@
    "source": 0,
    "url": "https://archives.ifphc.org/DigitalPublications/USA/Independent/Apostolic%20Faith%20(Azusa%20Street)/Unregistered/1907/FPHC/1907_02.pdf",
    "ok": false,
-   "page_chars": 115267,
-   "quote": "I had a great desire in my heart to come to Los Angeles. I had preached the Pentecost to my people and they were hungry for it."
+   "page_chars": 261512,
+   "quote": "I had a great desire in my heart to come to Los Angeles. I had preached the Pentecost to my people and they were hungry for it.",
+   "second_check": "Scanned page: verbatim against the rendered page image (separate agent; see scanned_pdf_image_check)."
   },
   {
    "file": "Draft_GroupC.json",
@@ -286,8 +322,9 @@
    "source": 1,
    "url": "https://archives.ifphc.org/DigitalPublications/USA/Independent/Apostolic%20Faith%20(Azusa%20Street)/Unregistered/1908/FPHC/1908_01.pdf",
    "ok": false,
-   "page_chars": 163652,
-   "quote": "I was put out, becauses I believed that God did baptize me with the Holy Ghost among you all."
+   "page_chars": 241552,
+   "quote": "I was put out, becauses I believed that God did baptize me with the Holy Ghost among you all.",
+   "second_check": "Scanned page: verbatim against the rendered page image (separate agent; see scanned_pdf_image_check)."
   },
   {
    "file": "Draft_GroupD.json",
@@ -295,8 +332,9 @@
    "source": 0,
    "url": "https://vineyardusa.org/about/history/",
    "ok": true,
-   "page_chars": 22187,
-   "quote": "Kenn Gulliksen, a soft-spoken, unassuming leader with a passion to know and walk with God, started a church in West LA in 1974, sent out by Calvary Chapel."
+   "page_chars": 22190,
+   "quote": "Kenn Gulliksen, a soft-spoken, unassuming leader with a passion to know and walk with God, started a church in West LA in 1974, sent out by Calvary Chapel.",
+   "second_check": null
   },
   {
    "file": "Draft_GroupD.json",
@@ -305,7 +343,8 @@
    "url": "https://vineyardusa.org/about/history/",
    "ok": true,
    "page_chars": 22187,
-   "quote": "Since it soon became clear that the church’s emphasis on the experience of the Holy Spirit was not shared by some leaders in the Calvary Chapel movement, John’s"
+   "quote": "Since it soon became clear that the church’s emphasis on the experience of the Holy Spirit was not shared by some leaders in the Calvary Chapel movement, John’s",
+   "second_check": null
   },
   {
    "file": "Draft_GroupD.json",
@@ -313,8 +352,9 @@
    "source": 2,
    "url": "https://www.ucpress.edu/books/reinventing-american-protestantism/paper",
    "ok": true,
-   "page_chars": 7664,
-   "quote": "Drawing on over five years of research and hundreds of interviews, Miller explores three of the movements that have created new paradigm churches: Calvary Chape"
+   "page_chars": 7663,
+   "quote": "Drawing on over five years of research and hundreds of interviews, Miller explores three of the movements that have created new paradigm churches: Calvary Chape",
+   "second_check": null
   },
   {
    "file": "Draft_GroupD.json",
@@ -323,7 +363,8 @@
    "url": "https://pcusa.org/sites/default/files/the_work_of_the_holy_spirit.pdf",
    "ok": true,
    "page_chars": 175209,
-   "quote": "We note, also, the fact that within the mainstream of Christianity in the United States, both Protestant and Roman Catholic, there is a small but growing moveme"
+   "quote": "We note, also, the fact that within the mainstream of Christianity in the United States, both Protestant and Roman Catholic, there is a small but growing moveme",
+   "second_check": null
   },
   {
    "file": "Draft_GroupD.json",
@@ -332,7 +373,8 @@
    "url": "https://pcusa.org/sites/default/files/the_work_of_the_holy_spirit.pdf",
    "ok": false,
    "page_chars": 175209,
-   "quote": "By NEO-PENTECOSTALISM we mean the phenomenon of \"Pentecostal\" experiences within the traditional Churches."
+   "quote": "By NEO-PENTECOSTALISM we mean the phenomenon of \"Pentecostal\" experiences within the traditional Churches.",
+   "second_check": "Two-column PDF: the layout extraction interleaves columns. Verbatim in plain pdftotext output (whitespace squashed), checked by the coordinator; case differs only (small capitals)."
   },
   {
    "file": "Draft_GroupD.json",
@@ -341,7 +383,8 @@
    "url": "https://pcusa.org/sites/default/files/the_work_of_the_holy_spirit.pdf",
    "ok": true,
    "page_chars": 175209,
-   "quote": "This is the second period of rapid growth by Pentecostalism within less than one hundred years."
+   "quote": "This is the second period of rapid growth by Pentecostalism within less than one hundred years.",
+   "second_check": null
   },
   {
    "file": "Draft_GroupD.json",
@@ -350,7 +393,8 @@
    "url": "https://pcusa.org/sites/default/files/the_work_of_the_holy_spirit.pdf",
    "ok": false,
    "page_chars": 175209,
-   "quote": "By NEO-PENTECOSTALISM we mean the phenomenon of \"Pentecostal\" experiences within the traditional Churches."
+   "quote": "By NEO-PENTECOSTALISM we mean the phenomenon of \"Pentecostal\" experiences within the traditional Churches.",
+   "second_check": "Two-column PDF: the layout extraction interleaves columns. Verbatim in plain pdftotext output (whitespace squashed), checked by the coordinator; case differs only (small capitals)."
   },
   {
    "file": "Draft_GroupD.json",
@@ -359,7 +403,8 @@
    "url": "https://www2.census.gov/library/publications/1910/demographics/religious-bodies-1906/1906-religious-bodies-part-2-sect01.pdf",
    "ok": false,
    "page_chars": 3517218,
-   "quote": "Certain churches which in the report for 1890 were included with the Disciples of Christ have since 1900 withdrawn and class themselves as independent Churches "
+   "quote": "Certain churches which in the report for 1890 were included with the Disciples of Christ have since 1900 withdrawn and class themselves as independent Churches ",
+   "second_check": "Two-column PDF: the layout extraction interleaves columns. Verbatim in plain pdftotext output (whitespace squashed), checked by the coordinator; case differs only (small capitals)."
   },
   {
    "file": "Draft_GroupD.json",
@@ -368,7 +413,8 @@
    "url": "https://christianstandard.com/?p=331",
    "ok": true,
    "page_chars": 21136,
-   "quote": "Lipscomb agreed it was accurate to list the bodies separately; Garrison did not."
+   "quote": "Lipscomb agreed it was accurate to list the bodies separately; Garrison did not.",
+   "second_check": null
   },
   {
    "file": "Draft_GroupD.json",
@@ -377,7 +423,8 @@
    "url": "https://www2.census.gov/library/publications/1910/demographics/religious-bodies-1906/1906-religious-bodies-part-2-sect01.pdf",
    "ok": false,
    "page_chars": 3517218,
-   "quote": "Certain churches which in the report for 1890 were included with the Disciples of Christ have since 1900 withdrawn and class themselves as independent Churches "
+   "quote": "Certain churches which in the report for 1890 were included with the Disciples of Christ have since 1900 withdrawn and class themselves as independent Churches ",
+   "second_check": "Two-column PDF: the layout extraction interleaves columns. Verbatim in plain pdftotext output (whitespace squashed), checked by the coordinator; case differs only (small capitals)."
   },
   {
    "file": "Draft_GroupD.json",
@@ -386,7 +433,8 @@
    "url": "https://christianstandard.com/?p=331",
    "ok": true,
    "page_chars": 21136,
-   "quote": "The division did not begin or happen in 1906—it was nearing its end."
+   "quote": "The division did not begin or happen in 1906—it was nearing its end.",
+   "second_check": null
   },
   {
    "file": "Draft_GroupD.json",
@@ -395,7 +443,8 @@
    "url": "https://zondervanacademic.com/products/becoming-conversant-with-the-emerging-church",
    "ok": true,
    "page_chars": 34881,
-   "quote": "Carson addresses some troubling weaknesses of the movement frankly and thoughtfully, while at the same time recognizing that it has important things to say to t"
+   "quote": "Carson addresses some troubling weaknesses of the movement frankly and thoughtfully, while at the same time recognizing that it has important things to say to t",
+   "second_check": null
   },
   {
    "file": "Draft_GroupD.json",
@@ -403,8 +452,9 @@
    "source": 1,
    "url": "https://www.christianitytoday.com/2006/07/men-are-from-mars-hill",
    "ok": true,
-   "page_chars": 18125,
-   "quote": "Emerging theology offers obscurity, with a neutered God who would not say an unkind word to us, did not crush Jesus for our sins, and would not send anyone to h"
+   "page_chars": 18126,
+   "quote": "Emerging theology offers obscurity, with a neutered God who would not say an unkind word to us, did not crush Jesus for our sins, and would not send anyone to h",
+   "second_check": null
   },
   {
    "file": "Draft_GroupD.json",
@@ -413,7 +463,8 @@
    "url": "https://www.christianitytoday.com/2006/07/men-are-from-mars-hill",
    "ok": true,
    "page_chars": 18125,
-   "quote": "As pastor of Mars Hill Church in Seattle, Driscoll is a leader among “emerging” churches."
+   "quote": "As pastor of Mars Hill Church in Seattle, Driscoll is a leader among “emerging” churches.",
+   "second_check": null
   },
   {
    "file": "Draft_GroupD.json",
@@ -421,8 +472,9 @@
    "source": 0,
    "url": "https://tikvatisrael.com/one-law-movement.html",
    "ok": true,
-   "page_chars": 33649,
-   "quote": "In so doing, these One Law movements not only misinterpret a great body of Scripture, but they also miss the unique calling of Jews and Gentiles within the Body"
+   "page_chars": 33682,
+   "quote": "In so doing, these One Law movements not only misinterpret a great body of Scripture, but they also miss the unique calling of Jews and Gentiles within the Body",
+   "second_check": null
   },
   {
    "file": "Draft_GroupD.json",
@@ -431,7 +483,8 @@
    "url": "https://tikvatisrael.com/one-law-movement.html",
    "ok": true,
    "page_chars": 33649,
-   "quote": "Perhaps the best-known proponents of this view are the writers of First Fruits of Zion, including Tim Hegg."
+   "quote": "Perhaps the best-known proponents of this view are the writers of First Fruits of Zion, including Tim Hegg.",
+   "second_check": null
   },
   {
    "file": "Draft_GroupD.json",
@@ -439,26 +492,29 @@
    "source": 0,
    "url": "https://archive.org/download/koreanrevivalacc00jone/koreanrevivalacc00jone_djvu.txt",
    "ok": true,
-   "page_chars": 79407,
-   "quote": "Second, there was an organized effort to send the stronger men who had experienced the cleansing power in Pyongyang to other churches and localities to carry on"
+   "page_chars": 95101,
+   "quote": "Second, there was an organized effort to send the stronger men who had experienced the cleansing power in Pyongyang to other churches and localities to carry on",
+   "second_check": null
   },
   {
    "file": "Draft_GroupE.json",
    "link": "the-stone-campbell-restoration-movement--disciples-of-christ-and-independent-christian-churches",
    "source": 0,
    "url": "https://archive.org/download/religiousbodies01huntgoog/religiousbodies01huntgoog_djvu.txt",
-   "ok": false,
-   "page_chars": 2220081,
-   "quote": "The Disciples of Christ trace their origin to the revival movement in the early part of the nineteenth century, when a number of leaders arose who pleaded for t"
+   "ok": true,
+   "page_chars": 3635301,
+   "quote": "The Disciples of Christ trace their origin to the revival movement in the early part of the nineteenth century, when a number of leaders arose who pleaded for t",
+   "second_check": null
   },
   {
    "file": "Draft_GroupE.json",
    "link": "the-stone-campbell-restoration-movement--disciples-of-christ-and-independent-christian-churches",
    "source": 1,
    "url": "https://archive.org/download/religiousbodies01huntgoog/religiousbodies01huntgoog_djvu.txt",
-   "ok": false,
-   "page_chars": 2220081,
-   "quote": "Mr. Stone favored \"Christians,\" as the name given in the beginning by divine authority."
+   "ok": true,
+   "page_chars": 3635301,
+   "quote": "Mr. Stone favored \"Christians,\" as the name given in the beginning by divine authority.",
+   "second_check": null
   },
   {
    "file": "Draft_GroupE.json",
@@ -466,8 +522,9 @@
    "source": 2,
    "url": "https://archive.org/download/religiousbodies01huntgoog/religiousbodies01huntgoog_djvu.txt",
    "ok": true,
-   "page_chars": 2220081,
-   "quote": "Certain churches which in the report for 1890 were included with the Disciples of Christ have since 1900 withdrawn and class themselves as independent Churches "
+   "page_chars": 3635301,
+   "quote": "Certain churches which in the report for 1890 were included with the Disciples of Christ have since 1900 withdrawn and class themselves as independent Churches ",
+   "second_check": null
   },
   {
    "file": "Draft_GroupE.json",
@@ -475,17 +532,19 @@
    "source": 0,
    "url": "https://archive.org/download/religiousbodies01huntgoog/religiousbodies01huntgoog_djvu.txt",
    "ok": true,
-   "page_chars": 2220081,
-   "quote": "Certain churches which in the report for 1890 were included with the Disciples of Christ have since 1900 withdrawn and class themselves as independent Churches "
+   "page_chars": 3635301,
+   "quote": "Certain churches which in the report for 1890 were included with the Disciples of Christ have since 1900 withdrawn and class themselves as independent Churches ",
+   "second_check": null
   },
   {
    "file": "Draft_GroupE.json",
    "link": "churches-of-christ-twentieth-century--disciples-of-christ-and-independent-christian-churches",
    "source": 1,
    "url": "https://archive.org/download/religiousbodies01huntgoog/religiousbodies01huntgoog_djvu.txt",
-   "ok": false,
-   "page_chars": 2220081,
-   "quote": "It was inevitable that such divergencies of opinion should result in the formation of opposing parties, and these parties were variously called \"Conservatives\" "
+   "ok": true,
+   "page_chars": 3635301,
+   "quote": "It was inevitable that such divergencies of opinion should result in the formation of opposing parties, and these parties were variously called \"Conservatives\" ",
+   "second_check": null
   },
   {
    "file": "Draft_GroupE.json",
@@ -494,7 +553,8 @@
    "url": "https://www.oikoumene.org/member-churches/christian-church-disciples-of-christ-in-the-united-states",
    "ok": true,
    "page_chars": 10555,
-   "quote": "WCC Member Since 1948"
+   "quote": "WCC Member Since 1948",
+   "second_check": null
   },
   {
    "file": "Draft_GroupE.json",
@@ -502,8 +562,9 @@
    "source": 0,
    "url": "https://ntwrightpage.com/2016/07/12/farewell-to-the-rapture/",
    "ok": true,
-   "page_chars": 8645,
-   "quote": "Seen from my side of the Atlantic, the phenomenal success of the Left Behind books appears puzzling, even bizarre"
+   "page_chars": 8660,
+   "quote": "Seen from my side of the Atlantic, the phenomenal success of the Left Behind books appears puzzling, even bizarre",
+   "second_check": null
   },
   {
    "file": "Draft_GroupE.json",
@@ -512,7 +573,8 @@
    "url": "https://theratanachurch.org.nz/history.html",
    "ok": true,
    "page_chars": 191235,
-   "quote": "He was baptised into the Methodist church at one month old."
+   "quote": "He was baptised into the Methodist church at one month old.",
+   "second_check": null
   },
   {
    "file": "Draft_GroupE.json",
@@ -521,7 +583,8 @@
    "url": "https://theratanachurch.org.nz/history.html",
    "ok": true,
    "page_chars": 191235,
-   "quote": "Although they became his follower Mr Ratana always encouraged them to remain loyal to their own respective Churches. Problems began to surface as he noticed, as"
+   "quote": "Although they became his follower Mr Ratana always encouraged them to remain loyal to their own respective Churches. Problems began to surface as he noticed, as",
+   "second_check": null
   },
   {
    "file": "Draft_GroupE.json",
@@ -530,7 +593,8 @@
    "url": "https://theratanachurch.org.nz/history.html",
    "ok": true,
    "page_chars": 191235,
-   "quote": "On July the 15th, 1925, the Ratana Established Church of New Zealand was registered with the Registrar General of Marriages, Births and Deaths in Wellington;"
+   "quote": "On July the 15th, 1925, the Ratana Established Church of New Zealand was registered with the Registrar General of Marriages, Births and Deaths in Wellington;",
+   "second_check": null
   },
   {
    "file": "Draft_GroupE.json",
@@ -538,8 +602,9 @@
    "source": 0,
    "url": "https://lausanne.org/content/evangelism-and-the-world",
    "ok": true,
-   "page_chars": 56187,
-   "quote": "I am merely asking that we take seriously the relevance of the Gospel to the totality of man’s life in the world."
+   "page_chars": 56189,
+   "quote": "I am merely asking that we take seriously the relevance of the Gospel to the totality of man’s life in the world.",
+   "second_check": null
   },
   {
    "file": "Draft_GroupE.json",
@@ -547,8 +612,9 @@
    "source": 1,
    "url": "https://lausanne.org/statement/lausanne-covenant",
    "ok": true,
-   "page_chars": 45856,
-   "quote": "Here too we express penitence both for our neglect and for having sometimes regarded evangelism and social concern as mutually exclusive."
+   "page_chars": 45858,
+   "quote": "Here too we express penitence both for our neglect and for having sometimes regarded evangelism and social concern as mutually exclusive.",
+   "second_check": null
   },
   {
    "file": "Draft_GroupE.json",
@@ -557,7 +623,8 @@
    "url": "https://www.cambridge.org/core/journals/journal-of-ecclesiastical-history/article/abs/lausanne-1974-the-challenge-from-the-majority-world-to-northernhemisphere-evangelicalism/9158C31B75F72327815F9EE28AF9DC22",
    "ok": true,
    "page_chars": 41163,
-   "quote": "These challenges demanded that Christian mission should be defined as a broader process than evangelism alone, and made their mark on the ‘Lausanne Covenant’, a"
+   "quote": "These challenges demanded that Christian mission should be defined as a broader process than evangelism alone, and made their mark on the ‘Lausanne Covenant’, a",
+   "second_check": null
   },
   {
    "file": "Draft_GroupE.json",
@@ -565,17 +632,19 @@
    "source": 0,
    "url": "https://archive.org/download/christianworkinl01cong/christianworkinl01cong_djvu.txt",
    "ok": true,
-   "page_chars": 541995,
-   "quote": "A group of these missionaries assembled one noon at luncheon, in order to discuss together the needs of their fields."
+   "page_chars": 1412234,
+   "quote": "A group of these missionaries assembled one noon at luncheon, in order to discuss together the needs of their fields.",
+   "second_check": null
   },
   {
    "file": "Draft_GroupE.json",
    "link": "the-student-volunteer-movement-and-edinburgh-191--protestantism-in-latin-america",
    "source": 1,
    "url": "https://archive.org/download/christianworkinl01cong/christianworkinl01cong_djvu.txt",
-   "ok": false,
-   "page_chars": 541995,
-   "quote": "At this second meeting all agreed that, at some time in the future, Latin America should have a conference to do for all its mission inter- ests what the Edinbu"
+   "ok": true,
+   "page_chars": 1412234,
+   "quote": "At this second meeting all agreed that, at some time in the future, Latin America should have a conference to do for all its mission inter- ests what the Edinbu",
+   "second_check": null
   },
   {
    "file": "Draft_GroupF.json",
@@ -583,8 +652,9 @@
    "source": 0,
    "url": "https://archives.ifphc.org/DigitalPublications/USA/Independent/Apostolic%20Faith%20(Azusa%20Street)/Unregistered/1906/FPHC/1906_09.pdf",
    "ok": false,
-   "page_chars": 232128,
-   "quote": "afterwards got Bro. Roberts, the president of the Holiness Association, to come down and settle the doctrine of the Baptism with the Holy Ghost, that it was sim"
+   "page_chars": 377808,
+   "quote": "afterwards got Bro. Roberts, the president of the Holiness Association, to come down and settle the doctrine of the Baptism with the Holy Ghost, that it was sim",
+   "second_check": "Scanned page: verbatim against the rendered page image (separate agent; see scanned_pdf_image_check)."
   },
   {
    "file": "Draft_GroupF.json",
@@ -592,8 +662,9 @@
    "source": 1,
    "url": "https://archives.ifphc.org/DigitalPublications/USA/Independent/Apostolic%20Faith%20(Azusa%20Street)/Unregistered/1906/FPHC/1906_10.pdf",
    "ok": false,
-   "page_chars": 95714,
-   "quote": "Four of the Holiness preachers have received the baptism with the Holy Ghost."
+   "page_chars": 143348,
+   "quote": "Four of the Holiness preachers have received the baptism with the Holy Ghost.",
+   "second_check": "Scanned page: verbatim against the rendered page image (separate agent; see scanned_pdf_image_check)."
   },
   {
    "file": "Draft_GroupF.json",
@@ -601,8 +672,9 @@
    "source": 0,
    "url": "https://archives.ifphc.org/DigitalPublications/USA/Independent/Apostolic%20Faith%20(Azusa%20Street)/Unregistered/1906/FPHC/1906_12.pdf",
    "ok": false,
-   "page_chars": 93442,
-   "quote": "Workers are constantly going out trusting God alone for their support. A Band of six missionaries left for Africa."
+   "page_chars": 229494,
+   "quote": "Workers are constantly going out trusting God alone for their support. A Band of six missionaries left for Africa.",
+   "second_check": "Scanned page: verbatim against the rendered page image (separate agent; see scanned_pdf_image_check)."
   },
   {
    "file": "Draft_GroupF.json",
@@ -611,7 +683,8 @@
    "url": "https://www.cambridge.org/core/books/an-introduction-to-pentecostalism/subsaharan-africa/0D92DE132F0A2EF53BBB78B60C252099",
    "ok": true,
    "page_chars": 25612,
-   "quote": "It has a long history of independent African churches emphasizing spiritual gifts, dating back to the time of the great influenza epidemic of 1918."
+   "quote": "It has a long history of independent African churches emphasizing spiritual gifts, dating back to the time of the great influenza epidemic of 1918.",
+   "second_check": null
   },
   {
    "file": "Draft_GroupF.json",
@@ -619,8 +692,9 @@
    "source": 0,
    "url": "https://www.rccg.org/our-history/",
    "ok": true,
-   "page_chars": 6197,
-   "quote": "Still spiritually unfulfilled, he joined the Cherubim and Seraphim church in 1931."
+   "page_chars": 6199,
+   "quote": "Still spiritually unfulfilled, he joined the Cherubim and Seraphim church in 1931.",
+   "second_check": null
   },
   {
    "file": "Draft_GroupF.json",
@@ -629,7 +703,8 @@
    "url": "https://www.rccg.org/our-history/",
    "ok": true,
    "page_chars": 6197,
-   "quote": "By 1952, he felt totally persuaded to leave the church."
+   "quote": "By 1952, he felt totally persuaded to leave the church.",
+   "second_check": null
   },
   {
    "file": "Draft_GroupF.json",
@@ -638,7 +713,8 @@
    "url": "https://www.cambridge.org/core/books/an-introduction-to-pentecostalism/subsaharan-africa/0D92DE132F0A2EF53BBB78B60C252099",
    "ok": true,
    "page_chars": 25612,
-   "quote": "One that is managing to do so is the Christ Apostolic Church (CAC), the biggest of Nigeria’s older Pentecostal churches, sitting somewhat half way between Aladu"
+   "quote": "One that is managing to do so is the Christ Apostolic Church (CAC), the biggest of Nigeria’s older Pentecostal churches, sitting somewhat half way between Aladu",
+   "second_check": null
   },
   {
    "file": "Draft_GroupF.json",
@@ -647,7 +723,8 @@
    "url": "https://www.rccg.org/our-history/",
    "ok": true,
    "page_chars": 6197,
-   "quote": "In Europe the church is spread in England, Germany, and France."
+   "quote": "In Europe the church is spread in England, Germany, and France.",
+   "second_check": null
   },
   {
    "file": "Draft_GroupF.json",
@@ -656,7 +733,8 @@
    "url": "https://www.rccg.org/our-history/",
    "ok": true,
    "page_chars": 6197,
-   "quote": "By 1952, he felt totally persuaded to leave the church."
+   "quote": "By 1952, he felt totally persuaded to leave the church.",
+   "second_check": null
   },
   {
    "file": "Draft_GroupF.json",
@@ -664,8 +742,9 @@
    "source": 0,
    "url": "https://archives.ifphc.org/DigitalPublications/USA/Assemblies%20of%20God%20USA/Minutes%20General%20Council/Unregistered/1916/FPHC/1916.pdf",
    "ok": false,
-   "page_chars": 17646,
-   "quote": "That we recognize ourselves as a GENERAL COUNCIL of Pentecostal (Spirit Baptized) saints from local Churches of God in Christ, Assemblies of God, and various Ap"
+   "page_chars": 80436,
+   "quote": "That we recognize ourselves as a GENERAL COUNCIL of Pentecostal (Spirit Baptized) saints from local Churches of God in Christ, Assemblies of God, and various Ap",
+   "second_check": "Scanned page: verbatim against the rendered page image (separate agent; see scanned_pdf_image_check)."
   },
   {
    "file": "Draft_GroupF.json",
@@ -673,8 +752,9 @@
    "source": 1,
    "url": "https://archives.ifphc.org/DigitalPublications/USA/Assemblies%20of%20God%20USA/Minutes%20General%20Council/Unregistered/1916/FPHC/1916.pdf",
    "ok": false,
-   "page_chars": 17646,
-   "quote": "RESOLVED, That since the words in Matth. 28:19 and the words in Acts 2:38 were both inspired of God, we hereby disapprove of contending for the one to the exclu"
+   "page_chars": 80436,
+   "quote": "RESOLVED, That since the words in Matth. 28:19 and the words in Acts 2:38 were both inspired of God, we hereby disapprove of contending for the one to the exclu",
+   "second_check": "Scanned page: verbatim against the rendered page image (separate agent; see scanned_pdf_image_check)."
   },
   {
    "file": "Draft_GroupF.json",
@@ -682,8 +762,9 @@
    "source": 0,
    "url": "https://lausanne.org/content/a-statement-on-the-prosperity-gospel",
    "ok": true,
-   "page_chars": 30877,
-   "quote": "Prosperity teaching can be found in varying degrees in mainstream Protestant, Pentecostal as well as Charismatic Churches. It is the phenomenon of prosperity te"
+   "page_chars": 30879,
+   "quote": "Prosperity teaching can be found in varying degrees in mainstream Protestant, Pentecostal as well as Charismatic Churches. It is the phenomenon of prosperity te",
+   "second_check": null
   },
   {
    "file": "Draft_GroupF.json",
@@ -692,7 +773,8 @@
    "url": "https://lausanne.org/content/a-statement-on-the-prosperity-gospel",
    "ok": true,
    "page_chars": 30877,
-   "quote": "In such dimensions, it can be soberly described as a false gospel."
+   "quote": "In such dimensions, it can be soberly described as a false gospel.",
+   "second_check": null
   },
   {
    "file": "Draft_GroupF.json",
@@ -700,8 +782,9 @@
    "source": 2,
    "url": "https://lausanne.org/statement/ctcommitment",
    "ok": true,
-   "page_chars": 168065,
-   "quote": "We therefore reject the excesses of prosperity teaching as incompatible with balanced biblical Christianity."
+   "page_chars": 168067,
+   "quote": "We therefore reject the excesses of prosperity teaching as incompatible with balanced biblical Christianity.",
+   "second_check": null
   }
  ],
  "scanned_pdf_image_check": "# Image check of ifphc.org quotes (Draft_GroupC.json, Draft_GroupF.json)\n\n| link id | url (archives.ifphc.org/DigitalPublications/USA/...) | page | verdict | exact page text read |\n|---|---|---|---|---|\n| azusa-street-and-early-pentecostalism--the-black-church-in-the-twentieth-century (Mason testimony) | Independent/Apostolic%20Faith%20(Azusa%20Street)/Unregistered/1907/FPHC/1907_02.pdf | PDF p.7 (printed p.7; C. H. Mason, 609 Stephens Ave., Memphis) | VERBATIM | \"I had a great desire in my heart to come to Los Angeles. I had preached the Pente-cost to my people and they were hungry for it.\" |\n| azusa-street-and-early-pentecostalism--the-black-church-in-the-twentieth-century (Mason letter) | Independent/Apostolic%20Faith%20(Azusa%20Street)/Unregistered/1908/FPHC/1908_01.pdf | PDF p.4 (printed p.4; letter signed C. H. Mason, Lexington, Miss., Nov. 28) | VERBATIM | \"I was put out, be-causes I believed that God did baptize me with the Holy Ghost among you all.\" (the \"becauses\" is the printed spelling, split across a line break) |\n| the-holiness-movement--azusa-street-and-early-pentecostalism (Bro. Seymour's Call) | Independent/Apostolic%20Faith%20(Azusa%20Street)/Unregistered/1906/FPHC/1906_09.pdf | PDF p.1 (col. 1, \"Bro. Seymour's Call\") | VERBATIM | \"...and afterwards got Bro. Roberts, the president of the Holi-ness Association, to come down and settle the doctrine of the Baptism with the Holy Ghost, that it was simply sanctification. He came down and a good many holiness preachers with him...\" (first letter of \"simply\" is damaged but reads \"simply\") |\n| the-holiness-movement--azusa-street-and-early-pentecostalism (Oct 1906) | Independent/Apostolic%20Faith%20(Azusa%20Street)/Unregistered/1906/FPHC/1906_10.pdf | PDF p.1 (col. 2, top) | VERBATIM | \"Four of the Holiness preachers have received the baptism with the Holy Ghost.\" |\n| azusa-street-and-early-pentecostalism--global-south-pentecostal-christianity | Independent/Apostolic%20Faith%20(Azusa%20Street)/Unregistered/1906/FPHC/1906_12.pdf | PDF p.4 (\"From Los Angeles to Home and Foreign Fields\") | VERBATIM | \"Workers are constantly going out trusting God alone for their support. A Band of six missionaries left for Africa.\" |\n| azusa-street-and-early-pentecostalism--oneness-pentecostalism (Preamble) | Assemblies%20of%20God%20USA/Minutes%20General%20Council/Unregistered/1916/FPHC/1916.pdf | PDF p.2 (Preamble and Resolution of Constitution) | VERBATIM | \"THEREFORE, BE IT RESOLVED, FIRST, That we recognize ourselves as a GENERAL COUNCIL of Pentecostal (Spirit Baptized) saints from local Churches of God in Christ, Assemblies of God, and various Apostolic Faith Missions and Churches, and Full Gospel Pentecostal Missions...\" The quote is a clean excerpt that stops mid-sentence at \"Churches\"; it carries no closing ellipsis. |\n| azusa-street-and-early-pentecostalism--oneness-pentecostalism (Baptismal Formula) | Assemblies%20of%20God%20USA/Minutes%20General%20Council/Unregistered/1916/FPHC/1916.pdf | PDF p.8 (printed \"Page Eight\", \"Resolution on Baptismal Formula\") | VERBATIM | \"RESOLVED, That since the words in Matth. 28:19 and the words in Acts 2:38 were both inspired of God, we hereby disapprove of contending for the one to the exclusion of or as against the other, because confusion and a party spirit are sure to follow such unscriptural conduct.\" (the resolution continues: \"This Council therefore recommends...\") |\n\nNotes: all 7 checked against rendered page images (150 dpi, crops enlarged for the newspaper pages). No DIFFERS or NOT FOUND. The 1916 Preamble quote ends mid-sentence and the Mason 1908 quote keeps the printed \"becauses\".\n"
