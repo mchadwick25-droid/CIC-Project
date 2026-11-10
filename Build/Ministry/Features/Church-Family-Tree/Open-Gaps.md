@@ -1243,3 +1243,27 @@ it, never by deleting it.
     as the same entry, it would be living through that ecumenical entry.
     For the method page's owner: "What is still to come" still says the tenth era is not yet
     linked, though P2-L10 has linked it.
+164. **The later-worlds people at Mark's gate (2026-11-10).** P2-G3b re-ran the count held by
+    "The people the later-worlds count found, held for a follow-up" (2026-11-10) with namesakes
+    checked, editorial matter masked and every counted passage read in context and reviewed (audit:
+    `Build/Ministry/Operations/Audits/2026-11-10_later-worlds-people/`). 32 people pass the clean
+    count; 14 are recommended for entries and 18 held, with three questions (founders, words
+    written for or with a person, two traditions resting on one book). The list is the artifact
+    https://claude.ai/artifact/AGVVFoi57c6gNtDtVoyADC. No census change until Mark picks. Owner:
+    P2-G3b.
+165. **Shelf and data defects the clean count found (2026-11-10).** For the Library thread and the
+    census owner; nothing was edited:
+    - `cic/corpus-map/montanism-the-new-prophecy.yaml` holds Hippolytus's Refutation, an opponent's
+      book, as the tradition's own voice.
+    - The 1453-1650 Ottoman parish-millet shelf holds Nikodemos's Synaxaristes (about 1805).
+    - `john-ephesus_lives-eastern-saints-po17_brooks1923.txt` is described on the Palaiologan shelf
+      as Petit's Florence documents; the file opens as John of Ephesus's Lives.
+    - The Brosset file on the Georgian Golden Age shelf holds only Brosset's introduction, charters,
+      notes and index.
+    - Many rows give "whole file" for a volume that binds several works (anf05's Hippolytus with
+      Cyprian, Langlois's Moses of Khoren with Koriun and Elishe, PO fascicules with synaxaries), so
+      a whole-file count reads works the shelf did not mean.
+    - The people rows' `year` is an active or accession year, not a death; the later-worlds count
+      used it as the last year, which let Theodoret and Eunomius pass on traditions that began in
+      their lifetimes.
+    - Ephrem appears in the alias list as "Ephraim the Syrian", unmatched to the shipped entry.

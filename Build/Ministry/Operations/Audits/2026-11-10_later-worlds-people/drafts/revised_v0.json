@@ -1,0 +1,927 @@
+[
+ {
+  "cid": "C001",
+  "name": "Paul of Samosata",
+  "home": {
+   "id": "antiochene-church-third-century",
+   "name": "The Church of Antioch in the Third Century"
+  },
+  "dates": "bishop of Antioch, deposed about 268; held the church building until Aurelian retook the city in 272. No birth or death date given.",
+  "dates_source": "census movement antiochene-church-third-century, longDescription",
+  "own_words": "none held. The Library holds Malchion's synodal letter against him and Malchion's own side of the disputation (anf06 vi.x.ii and vi.x.iv, the second headed 'From the Acts of the Disputation Conducted by Malchion Against Paul of Samosata'); the disputation fragment is Malchion speaking to Paul ('You, however, appear to me to decline...'), not Paul. The census itself says he survives 'only in his enemies' minutes'.",
+  "party_in_own_right": "Yes. He is the bishop whose deposition the whole Antiochene shelf is built around, and later sources use him as a standing example of a condemned teaching.",
+  "founder_of": null,
+  "counted_traditions": [
+   {
+    "id": "imperial-juridical-christianity",
+    "name": "Imperial and Juridical Christianity",
+    "clean": 6,
+    "quote": {
+     "file": "npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+     "line": 5426,
+     "text": "Finding that he entertained Paul of Samosata’s sentiments, they required him to retract his"
+    }
+   },
+   {
+    "id": "antiochene-exegetical-christianity-chrysostom-ce",
+    "name": "Antiochene Exegetical Christianity (Chrysostom-centered)",
+    "clean": 7,
+    "quote": {
+     "file": "npnf113_chrysostom-homilies-galatians-philemon.xml",
+     "line": 22041,
+     "text": "Paul of Samosata? for what did he affirm? The very same."
+    }
+   }
+  ],
+  "home_citation": {
+   "file": "anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml",
+   "line": 17306,
+   "text": "The Epistle Written by Malchion, In Name of the Synod of Antioch, Against Paul of Samosata."
+  },
+  "why": "Paul of Samosata was bishop of Antioch and was deposed by a council in about 268 for teaching that Christ was a man the Word came to dwell in. Later worlds, from Chrysostom's sermons to Socrates's history and Leo's letters, name him as the standard example of that teaching.",
+  "recommendation": "hold",
+  "reason": "The Library holds no words of his own. What survives is the council's letter and Malchion's half of the debate, so he fails the own-words test (Answer C). Both counts pass (6 and 7).",
+  "doubts": "The line numbers in the input 'refs' do not match line numbers in the files, so I re-found each passage by searching the name. The reviewer's recount is 6 for Imperial and Juridical Christianity and 7 for the Chrysostom tradition. One Imperial leg is weak: the Collectio Avellana hit at line 14742 sits in the 'Ad Petrum Fullonem epistulae spuriae', forged letters written after 451. The reviewer added Leo's letter to Turribius (npnf212 line 3360, written in 447), which names him in Leo's own text. Chrysostom on Ephesians, line 11714: the sentence 'This strikes at Paul of Samosata and his school' is Chrysostom's; the dates on the next line are an endnote. Some other Chrysostom hits are editor's footnotes, not his text. Epiphanius, Panarion heresy 65 (a whole chapter on Paul, in the Palestinian shelf file at line 29244) is a further later source that I did not count. If Mark rules that the condemnation itself is a recorded position, this would flip to include.",
+  "passes": true,
+  "question": null,
+  "revision_log": [
+   "MINOR (Avellana 14742 is a forged-letter leg): added Leo's letter, npnf212:3360, as a sixth Imperial passage; set Imperial clean to 6; named the weak leg in doubts.",
+   "MINOR (Chrysostom Eph. 11714 prints an endnote beside the sentence): no change needed to the count; the doubts now say the sentence is Chrysostom's and the dates are an endnote.",
+   "Recount: Imperial 6 (one Socrates paragraph at 5442 merged with 5427), Chrysostom 7; passes true. Recommendation stays hold: no words of his own held."
+  ]
+ },
+ {
+  "cid": "C008",
+  "name": "Mesrop Mashtots",
+  "home": {
+   "id": "armenian-christianity-conversion-era",
+   "name": "Armenian Christianity (conversion era)"
+  },
+  "dates": "alphabet devised c. 405 (census); 406 in Issaverdens. Death year not confirmed by me; the input file gives 440.",
+  "dates_source": "cic-website/data/world-census.json armenian-christianity-conversion-era longDescription; issaverdens_armenian-ritual-parts1-4_1876.txt:15672-15673",
+  "own_words": "none held. The Library has Koriun's Life of Mesrop (langlois_collection-historiens-armenie-tome2-fra_1869.txt, Koriun section), written by his pupil about him, and Moses of Khoren's account of the alphabet. No letter, creed or signed act of his own. The Ritual is called 'Mashdotz' after him as compiler (Ritual line 9925-9927), but that is a later tradition's attribution, not a text the Library holds as his.",
+  "party_in_own_right": "Yes. The conversion-era sources treat him as the actor who made the Armenian alphabet and led the missions to the Albanians and Iberians.",
+  "founder_of": null,
+  "counted_traditions": [
+   {
+    "id": "armenian-christianity-era-8",
+    "name": "Armenian Christianity — the Mekhitarists and the Catholic Patriarchate",
+    "clean": 9,
+    "quote": {
+     "file": "issaverdens_armenian-ritual-parts1-4_1876.txt",
+     "line": 9926,
+     "text": "name of its compiler St. Mesrob surnamed Mashdotz. This eminent man, as we have"
+    }
+   },
+   {
+    "id": "armenian-christianity-zartonk",
+    "name": "Armenian Christianity — the Zartonk Century",
+    "clean": 11,
+    "quote": {
+     "file": "issaverdens_armenia-and-the-armenians-v2-ecclesiastical-history_1875.txt",
+     "line": 2117,
+     "text": "At this time St. Mesrob became famous for sanctity and wisdom. He was the son"
+    }
+   }
+  ],
+  "home_citation": {
+   "file": "langlois_collection-historiens-armenie-tome2-fra_1869.txt",
+   "line": 3439,
+   "text": "Cet Iioinme s'appelait Mesrob; il était fils de Vartan"
+  },
+  "why": "Mesrop Mashtots was the monk who devised the Armenian alphabet around 405. That let the church put the Bible and liturgy into Armenian. Later Armenian writers, mostly Mekhitarist authors, name him again and again as the maker of the nation's letters and of its church books.",
+  "recommendation": "hold",
+  "reason": "The Library holds no writing of his own and no recorded position, so the second part of the test fails under answer C. The count is sound and he founded no movement.",
+  "doubts": "Both counted traditions lean on one author (Issaverdens), and five Ritual passages sit on both shelves, because the Ritual (1876) is shelved on both the era-8 (1700-1815) and Zartonk shelves. Without the Ritual, era-8 rests on Nurikhan alone (3 passages: lines 18330, 18367 and 18511). The count passes under the shelf rule as written, but the two traditions are not fully independent witnesses. Zartonk is 11, not 13: two pairs of refs (Issaverdens v2 lines 2258 and 2310) sit in the same paragraph as others. The Ritual's 'Mashdotz' attribution is worth a look if Mark thinks a compiled ritual could count as his recorded work; I judge it does not. The quote at 9926 spans line breaks (joined with single spaces). The input notes say Koriun's Life holds many more Mesrob lines than the sample; I did not count them.",
+  "passes": true,
+  "question": null,
+  "revision_log": [
+   "MINOR (Zartonk is 11 not 13): set Zartonk clean to 11 and corrected the doubts.",
+   "MINOR (the two counts share five Ritual passages): kept the doubt and made it explicit that era-8 without the Ritual rests on Nurikhan alone (3); no change to the count under the strict rule.",
+   "Recount: era-8 9 (Nurikhan 18511 added), Zartonk 11; passes true. Recommendation stays hold: no own writing or recorded position."
+  ]
+ },
+ {
+  "cid": "C015",
+  "name": "Polycarp of Smyrna",
+  "home": {
+   "id": "post-apostolic-house-church",
+   "name": "Post-Apostolic Household-Church Christianity"
+  },
+  "dates": "bishop of Smyrna; put to death at Smyrna around 155. The Library's introduction marks him 'a.d. 65-100-155'.",
+  "dates_source": "census post-apostolic-house-church voices; anf01_apostolic-fathers-justin-irenaeus.xml:3118",
+  "own_words": "Epistle to the Philippians (Polycarp), anf01_apostolic-fathers-justin-irenaeus.xml, shelf role tradition. The file's introduction says its authenticity 'can on no fair grounds be questioned' (line 3163).",
+  "party_in_own_right": "Yes. He is a bishop who writes to a church in his own name, and Eusebius and Socrates treat him as one side of the Easter dispute, which he took up with Anicetus of Rome.",
+  "founder_of": null,
+  "counted_traditions": [
+   {
+    "id": "imperial-juridical-christianity",
+    "name": "Imperial and Juridical Christianity",
+    "clean": 5,
+    "quote": {
+     "file": "npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+     "line": 41769,
+     "text": "It appears to me that Victor, bishop of Rome, and Polycarp, bishop of"
+    }
+   },
+   {
+    "id": "the-anabaptist-movements",
+    "name": "The Anabaptist Movements",
+    "clean": 11,
+    "quote": {
+     "file": "van-braght_martyrs-mirror_sohm1886.txt",
+     "line": 14811,
+     "text": "Polycarp gave the following candid reply, \"I have now served my Lord Christ Jesus eighty-six years,"
+    }
+   }
+  ],
+  "home_citation": {
+   "file": "anf01_apostolic-fathers-justin-irenaeus.xml",
+   "line": 3166,
+   "text": "There is extant an Epistle of Polycarp written"
+  },
+  "why": "Polycarp led the church at Smyrna and wrote a letter to the Philippians that the Library holds. Irenaeus, who knew him as a boy, made him the link back to the apostles. Later worlds name him for his martyrdom and for his part in the Easter dispute.",
+  "recommendation": "include",
+  "reason": "He has a letter of his own on his home shelf, founded nothing, and is named in two later traditions well past the threshold.",
+  "doubts": "Input 'refs' line numbers do not match file lines; I re-found the passages by searching. The Imperial count is 5 on the reviewer's recount, which adds Eusebius's own narrative (npnf201 lines 19680 and 23074) and Socrates V.22 (npnf202 line 16243). The quote at line 41769 is Sozomen VII.19, which sits on the same shelf; it is not Socrates. Some Eusebius hits are Eusebius quoting Irenaeus or the Smyrnaean letter, and some are Schaff's editorial notes. On the Easter dispute, Eusebius (HE V.24) and Socrates (V.22) both name Anicetus; only Sozomen says Victor, and the edition's note marks that as an error. In the Martyrs' Mirror the long martyrdom account is counted by paragraph, which gives 11 distinct passages (the earlier count of 8 treated the whole account as one). Census already lists him under the home movement's people list, not as a person entry.",
+  "passes": true,
+  "question": null,
+  "revision_log": [
+   "SUBSTANTIAL (Victor/Anicetus error): party_in_own_right now says the Easter dispute was with Anicetus of Rome (Eusebius HE V.24; Socrates V.22); doubts note that only Sozomen says Victor and the edition marks it an error.",
+   "MINOR (imperial quote credited to Socrates V.22): corrected in doubts; line 41769 is Sozomen VII.19 on the same shelf; the quote itself is unchanged and valid.",
+   "MINOR (three imperial refs are Eusebius quoting others): recount adopts the reviewer's swap-ins of Eusebius's own sentences (19680, 23074) and Socrates 16243; Imperial stays 5.",
+   "MINOR (Anabaptist counted as 8): reported 11 by paragraph.",
+   "Recount: Imperial 5, Anabaptist 11; passes true; recommendation stays include."
+  ]
+ },
+ {
+  "cid": "C019",
+  "name": "Valentinus",
+  "home": {
+   "id": "valentinian-and-other-gnostic-christianities",
+   "name": "Valentinian & other Gnostic Christianities"
+  },
+  "dates": "taught in Rome from about 136; census voices list him as Alexandrian teacher. Death year not given in the sources I read.",
+  "dates_source": "cic-website/data/world-census.json valentinian-and-other-gnostic-christianities longDescription (came to Rome around 136); input people_row year 140",
+  "own_words": "none held under his own author id. Fragments reach us only as quotations in his opponents: Clement quotes 'a letter to certain people' (anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml, lines 34289-34297) and Hippolytus quotes a psalm (anf05 line 9787). Under answer C these are reported or quoted material, and the Gospel of Truth is of disputed authorship.",
+  "party_in_own_right": "Yes. Tertullian, Hippolytus and the others treat him as a teacher with his own system, not as a name in a list.",
+  "founder_of": {
+   "id": "valentinian-and-other-gnostic-christianities",
+   "name": "Valentinian & other Gnostic Christianities"
+  },
+  "counted_traditions": [
+   {
+    "id": "latin-apologists",
+    "name": "The Latin Apologists",
+    "clean": 8,
+    "quote": {
+     "file": "anf03_tertullian.xml",
+     "line": 21807,
+     "text": "For although Valentinus seems to use the entire volume,"
+    }
+   },
+   {
+    "id": "roman-church-third-century",
+    "name": "The Roman Church in the Third Century",
+    "clean": 8,
+    "quote": {
+     "file": "anf05_hippolytus-cyprian-caius-novatian.xml",
+     "line": 15119,
+     "text": "however, (to uphold the doctrine,) determines that the flesh is not saved, and styles it"
+    }
+   }
+  ],
+  "home_citation": {
+   "file": "anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+   "line": 34289,
+   "text": "Valentinus too, in a letter to certain people, writes in these very words respecting the appendages"
+  },
+  "why": "Valentinus was a teacher who came to Rome around 136 and taught that a lesser craftsman made the visible world. His students carried his name. Tertullian and Hippolytus both write at length against him.",
+  "recommendation": "hold",
+  "reason": "The census movement is the Valentinians, named for him, so this is a founder question for Mark. The Library also holds no work of his as his own, only quotations in opponents. Both counts pass after the recount (8 and 8).",
+  "doubts": "The home citation is Clement's report, not the Library's own text of his letter. Counted passages are hostile summaries by Tertullian and Hippolytus. The Latin-apologists count is 8: the Adversus Valentinianos refs at Kroymann 9659 and 9663 are one paragraph, so the recount replaces 9663 with Tertullian passages in anf03_tertullian.xml (lines 17083, 21332, 21807, 46103, which the reviewer checked as body text in De Anima, the Prescription against Heretics and De Carne Christi). The Roman-church count is 8 with Hippolytus lines 8687, 9227 and 9720 added; the earlier line 9151 is dropped because it names him only in the translator's bracket. The input notes list namesakes (bishops of Valencia, Numidia, Hadrumetum) which I did not find in the counted refs. The Roman-church count depends on Hippolytus's Refutation being on that shelf (input note says div2 3.3). The anf03 line 16096 (De Anima 12, 'Valentinus' only-begotten of his father Bythus') is Tertullian's own text and is not a weak hit.",
+  "passes": true,
+  "question": "founder",
+  "revision_log": [
+   "SUBSTANTIAL (Latin apologists 5 does not hold): replaced Kroymann 9663 with the added anf03_tertullian.xml refs; Latin apologists clean is now 8; the quote now comes from anf03:21807.",
+   "MINOR (Roman-church quote at 9151 rests on a bracket): replaced the quote with the reviewer's 15119 passage; Roman-church clean is 8.",
+   "MINOR (anf03 16096 called an endnote): dropped the 'weak' caveat from doubts; it is Tertullian's text.",
+   "Recommendation stays hold; question set to founder because the Valentinians are named for him."
+  ]
+ },
+ {
+  "cid": "C038",
+  "name": "Mani",
+  "home": {
+   "id": "manichaeism",
+   "name": "Manichaeism"
+  },
+  "dates": "born 216 in Mesopotamia; died in Persian custody in the 270s",
+  "dates_source": "census movement manichaeism, longDescription",
+  "own_words": "none held as a work. The Library has his Fundamental Epistle only as quotations inside Augustine, Against the Epistle of Manichaeus called Fundamental (npnf104, role context), and a letter to Marcellus, which is printed both in the Acta Archelai (role context, not of his own authorship) and in Epiphanius's Panarion (tradition shelf). All are preserved by opponents.",
+  "party_in_own_right": "Yes. He is the prophet and author of a faith the corpus treats as a rival church, argued with at length by Augustine, Epiphanius and Gregory of Nyssa.",
+  "founder_of": {
+   "id": "manichaeism",
+   "name": "Manichaeism"
+  },
+  "counted_traditions": [
+   {
+    "id": "palestinian-ascetic-monasticism-early",
+    "name": "Early Palestinian Ascetic Monasticism",
+    "clean": 8,
+    "quote": {
+     "file": "epiphanius_panarion-haer-48-69-corpus-haereseologicum-t2-pars-posterior-grc-lat_oehler1860.txt",
+     "line": 30306,
+     "text": "Μάνης δὲ οὗτος ἀπὸ τῆς τῶν Περσῶν ὁρμᾶτο γῆς,"
+    }
+   },
+   {
+    "id": "cappadocian-nicene-pastoral-monastic-tradition",
+    "name": "Cappadocian Christianity",
+    "clean": 6,
+    "quote": {
+     "file": "npnf205_gregory-nyssa-dogmatic-treatises.txt",
+     "line": 20561,
+     "text": "enemy of Christ wishes to press the conception of the Only-begotten, becoming thereby to the Church another Manes or Bardesanes."
+    }
+   }
+  ],
+  "home_citation": {
+   "file": "npnf104_augustine-anti-manichaean-anti-donatist.xml",
+   "line": 3675,
+   "text": "\"Manichæus, an apostle of Jesus Christ, by the providence of God the Father."
+  },
+  "why": "Mani founded the Manichaean church and wrote its scriptures himself. Later worlds name him as the standard heretic to argue against, and Gregory of Nyssa uses him as a charge to throw at Eunomius.",
+  "recommendation": "hold",
+  "reason": "He founded Manichaeism (census id manichaeism), so whether a founder gets a person entry is Mark's question. His own words also survive only inside opponents' books.",
+  "doubts": "The Epiphanius count is 8: Latin line 31753 and Greek line 31651 are the same passage in two languages and count once, while the other Greek and Latin refs fall on non-facing pages (pp. 398, 405, 421, 441, 502, 512, 529) and are distinct. Cappadocian is 6 and safely above 5: Against Eunomius line 20491 ('Eunomius, the imitator of Manichaeus and Bardesanes') is a separate paragraph from line 20562, so the earlier worry about two close passages no longer applies. The input notes disagree on Cappadocian; I found the lines (Against Eunomius lines 7207-7228, 20491-20562, 21100, 21204 and On the Soul and the Resurrection 40066). Mani is already named in the census as the first voice of the Manichaeism entry.",
+  "passes": true,
+  "question": "founder",
+  "revision_log": [
+   "MINOR (Panarion Greek and Latin double a passage): Palestinian clean set to 8; 31753 rejected as the same passage as 31651.",
+   "MINOR (Cappadocian margin): added npnf205 line 20491, Cappadocian clean 6, and dropped the 'close together' doubt.",
+   "MINOR (letter to Marcellus also in the Panarion): own_words now says so.",
+   "Recommendation stays hold; question set to founder."
+  ]
+ },
+ {
+  "cid": "C043",
+  "name": "Methodius of Olympus",
+  "home": {
+   "id": "anatolian-church-third-century",
+   "name": "The Anatolian Church in the Third Century"
+  },
+  "dates": "bishop of Olympus and Patara in Lycia; martyred about 312 (the ANF introduction) or around 311 (census). Birth not given.",
+  "dates_source": "anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml:29754-29770 (about the year 312); census anatolian-church-third-century longDescription (died around 311)",
+  "own_words": "held: The Banquet of the Ten Virgins (Symposium), Fragments of Methodius, and Concerning Free-Will, all in anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml (the Banquet and Fragments shelved as role tradition on anatolian-church-third-century). The Oration on the Palms and the Oration Concerning Simeon and Anna are also shelved there but are also on the pseudepigrapha shelf, so I do not count them as his.",
+  "party_in_own_right": "Yes. He is a bishop who wrote against Origen and Porphyry, and later writers cite him as an authority in his own right.",
+  "founder_of": null,
+  "counted_traditions": [
+   {
+    "id": "russian-church-nikon-to-holy-synod",
+    "name": "The Russian Church — Nikon to the Holy Synod",
+    "clean": 5,
+    "quote": {
+     "file": "nikon_replies-against-streshnev-and-ligarides_palmer1871.txt",
+     "line": 21582,
+     "text": "It will be well to recite the very words of St. Methodius, which are these: “The woman clothed with the sun is the Church"
+    }
+   },
+   {
+    "id": "catholic-church-ancien-regime",
+    "name": "The Catholic Church of the Ancien Régime",
+    "clean": 8,
+    "quote": {
+     "file": "liguori_glories-of-mary_1852.txt",
+     "line": 4252,
+     "text": "Wherefore, St. Methodius the martyr exclaims: Rejoice, oh Mary, that a Son has fallen to thy lot as thy debtor"
+    }
+   }
+  ],
+  "home_citation": {
+   "file": "anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml",
+   "line": 29762,
+   "text": "and at the end of the latest of the great persecutions of the Church, about the year 312, he suffered martyrdom at Chalcis in Greece."
+  },
+  "why": "Methodius was bishop of Olympus in Lycia and wrote the Banquet of the Ten Virgins, a Christian answer to Plato's Symposium that praises virginity. He also argued against Origen. Later Russian and Catholic writers quote him as an early authority on the Church and on Mary.",
+  "recommendation": "include",
+  "reason": "Every part of the test holds: his own works are held, he founded no movement, and his home shelf is the Anatolian church. Both later traditions reach 5 under the rule as written, but the Russian count is thin; see the doubts.",
+  "doubts": "The Russian count is exactly 5 and depends on two things. First, Nikon lines 21582 and 21617 are one paragraph of a quoted gloss on Revelation 12:1, so they count once. The recount makes it up with Nikon line 5360 ('the treatise of Methodius, bishop of Patara, on Antichrist'). Nikon means Methodius of Olympus and Patara, but Palmer's appendix (line 34884) notes that work is pseudo-Methodius, so the count passes only if a pseudonymous attribution counts as naming him. Second, all the Nikon passages at lines 21582-21732 sit inside 'The gloss', a Greek commentary on the Apocalypse that Nikon quotes; they are not Nikon's own sentences. The rule as written allows them, but Mark should know the Russian case leans on a quoted gloss. Nikon 7950 repeats the gloss of 21732 and counts once with it; Nikon 2691 ('St. Methodius says') cannot be identified. The Ligarides passage (8321) cites a work by Methodius 'bishop and martyr'. Liguori's citations (8 counted) include sayings now ascribed to pseudo-Methodius, so they prove the name is cited, not that the words are his. Nikon quote contains curly quotation marks as in the file.",
+  "passes": true,
+  "question": null,
+  "revision_log": [
+   "SUBSTANTIAL (Russian count falls to 4): dropped 21617 (same paragraph as 21582), added Nikon 5360; Russian clean is 5 (the reviewer's valid 4 plus the added ref); pseudo-Methodius caveat written into doubts.",
+   "MINOR (all four Nikon passages are inside a quoted gloss): stated in doubts.",
+   "Recommendation stays include: the count passes on the rules as written."
+  ]
+ },
+ {
+  "cid": "C046",
+  "name": "Lactantius",
+  "home": {
+   "id": "latin-apologists",
+   "name": "The Latin Apologists"
+  },
+  "dates": "active about 303 (census people row); died about 325 (editor's note in the Library). The Brandt edition header gives c. 250 to c. 325.",
+  "dates_source": "census latin-apologists people row; npnf203_theodoret-jerome-gennadius-rufinus.xml:41033; lactantius_de-opificio-de-ira-carmina-lat_brandt-csel27-1.txt:2",
+  "own_words": "The Divine Institutes, On the Workmanship of God, A Treatise on the Anger of God and Fragments, all on the latin-apologists shelf as role tradition (anf07_lactantius-apostolic-constitutions-didache-liturgies.xml; lactantius_divinae-institutiones-lat_brandt1890-csel19.txt; lactantius_de-opificio-de-ira-carmina-lat_brandt-csel27-1.txt). Of the Manner in Which the Persecutors Died sits on the imperial-juridical shelf.",
+  "party_in_own_right": "Yes. The census names him the writer of the fullest Latin defence of the faith, and Jerome and Calvin both cite him as an authority.",
+  "founder_of": null,
+  "counted_traditions": [
+   {
+    "id": "hieronymian-ascetic-literary",
+    "name": "Hieronymian Ascetic-Literary Christianity",
+    "clean": 8,
+    "quote": {
+     "file": "npnf206_jerome-principal-works.xml",
+     "line": 14112,
+     "text": "Lactantius has a flow of eloquence worthy of Tully: would that he had been as ready to teach our doctrines"
+    }
+   },
+   {
+    "id": "the-reformed-cities-zurich-and-geneva",
+    "name": "The Reformed Cities - Zurich & Geneva",
+    "clean": 6,
+    "quote": {
+     "file": "calvin_letters-vol1_bonnet1858.txt",
+     "line": 16669,
+     "text": "Lactantius also, an ancient doctor of the Church, and St, Augustine, demonstrate that in their time all"
+    }
+   }
+  ],
+  "home_citation": {
+   "file": "anf07_lactantius-apostolic-constitutions-didache-liturgies.xml",
+   "line": 569,
+   "text": "We undertake, therefore, to discuss religion and divine things."
+  },
+  "why": "Lactantius was a rhetoric teacher who became a Christian writer under Diocletian and wrote the Divine Institutes. Jerome weighs his style against the Fathers, and Calvin cites him on idols and on the nature of religion.",
+  "recommendation": "include",
+  "reason": "Several works of his own are on his home shelf, he founded nothing, and two later traditions name him well over five times.",
+  "doubts": "Input 'refs' line numbers do not match file lines; I re-found the passages by searching. Hieronymian is 8: Jerome names him in his Letters (npnf206 lines 9770, 10189, 14112, 14546), the Apology against Rufinus (npnf203 lines 50366, 53194), De viris illustribus (npnf203 lines 41033 and 41034) and the Chronicle (line 44983 of the Fotheringham file). Reformed is 6, all in Book First of Calvin's Institutes (lines 7254 and 10123, the latter 'let Lactantius and Eusebius be read on this subject'), the Genesis commentary (13394) and the Letters vol1 (16669); the Institutes footnote at 9435 is editorial and was not counted, and the hit at 22552 is Book II, outside the shelf row's 'Book First', so it is left out. 'Lactance Regnyn' in Calvin Opera 8 is a different man and was excluded. The home citation is now a line of his own Divine Institutes, Book I, in the Coxe translation. Dates: the census gives only 303, so the death date comes from an editor's footnote.",
+  "passes": true,
+  "question": null,
+  "revision_log": [
+   "MINOR (home citation was Coxe's editorial introduction): replaced with Divine Institutes Book I, anf07 line 569.",
+   "MINOR (Reformed at exactly 5; 22552 is Book II): added Institutes I.11.6 at calvin_institutes vol1 line 10123, Reformed clean 6; dropped 22552 from doubts and explained why.",
+   "Recount: Hieronymian 8 (npnf203:41033 added), Reformed 6; recommendation stays include."
+  ]
+ },
+ {
+  "cid": "C051",
+  "name": "Hilarion of Gaza",
+  "home": {
+   "id": "palestinian-ascetic-monasticism-early",
+   "name": "Early Palestinian Ascetic Monasticism"
+  },
+  "dates": "returned to Gaza from Egypt in about 306 (census). Birth and death years not confirmed by me; the input file gives last year 371.",
+  "dates_source": "cic-website/data/world-census.json palestinian-ascetic-monasticism-early longDescription",
+  "own_words": "none held. The Library holds Jerome's Life of Hilarion (npnf206_jerome-principal-works.xml, div2 6.2), written about him. No letter or recorded position of his own.",
+  "party_in_own_right": "Yes. Jerome's Life, and later writers, treat him as the monk who brought Egyptian anchoritism to the Palestinian coast.",
+  "founder_of": {
+   "id": "palestinian-ascetic-monasticism-early",
+   "name": "Early Palestinian Ascetic Monasticism"
+  },
+  "counted_traditions": [
+   {
+    "id": "hieronymian-ascetic-literary",
+    "name": "Hieronymian Ascetic-Literary Christianity",
+    "clean": 9,
+    "quote": {
+     "file": "npnf206_jerome-principal-works.xml",
+     "line": 30297,
+     "text": "The first person bold enough to break into the presence of the blessed Hilarion was a certain woman of Eleutheropolis"
+    }
+   },
+   {
+    "id": "the-tridentine-church",
+    "name": "The Tridentine Church",
+    "clean": 6,
+    "quote": {
+     "file": "bellarmine_eternal-happiness-of-the-saints_dalton.txt",
+     "line": 7022,
+     "text": "This St. Jerome relates of the body of St. Hilarion, for he affirms that ten months after his burial his body was found perfect"
+    }
+   }
+  ],
+  "home_citation": {
+   "file": "npnf206_jerome-principal-works.xml",
+   "line": 30297,
+   "text": "The first person bold enough to break into the presence of the blessed Hilarion was a certain woman of Eleutheropolis"
+  },
+  "why": "Hilarion was a disciple of Antony who brought the desert life to the coast near Gaza. What we know of him comes mostly from Jerome's Life of him. Later Catholic writers cite that Life and the Roman Breviary keeps his feast.",
+  "recommendation": "hold",
+  "reason": "The Library holds nothing written by him and no recorded position, so the second part of the test fails. The census also opens his home movement with him, so he may be its founder; that question goes to Mark.",
+  "doubts": "Founder question: the census opens Early Palestinian Ascetic Monasticism with Hilarion (its first voice is 'Antony's disciple, who brought Egyptian anchoritism to the Palestinian coast'), and Jerome says 'It was he who originated this mode of life ... in that province' (npnf206 lines 30347-30351). He may be treated as the founder of that movement. The Hieronymian count of 9 is verified: all nine name Hilarion of Gaza and are distinct, in shelved works. They are Letter 58 (npnf206 line 13896); De viris illustribus 134 and 135 (npnf203 lines 41776 and 41809), which are bare work-title mentions; and the Life of Hilarion (npnf206 lines 30111, 30298, 30348, 30451, 30534, 30593), separate paragraphs. Without the two title mentions the count is 7, which still passes. Those Life passages are in a work also shelved on his own home shelf, so the Hieronymian count is not wholly independent of the home tradition. The home citation is the same Life, since the home shelf holds no text of his own. The input notes also flag a Hilarion monachus (Allatius) and several Russian Hilarions as other people. The Tridentine refs (Bacci 11597, Bellarmine 7023, Granada 20436, Breviary 75069/80570/80822) all name Hilarion of Gaza as far as I could read; Breviary 80806/80822 are one lesson.",
+  "passes": true,
+  "question": "founder",
+  "revision_log": [
+   "SUBSTANTIAL (founder question missed): set founder_of to palestinian-ascetic-monasticism-early, rewrote the reason, and set question to founder.",
+   "SUBSTANTIAL (doubts said the Hieronymian refs do not name Hilarion): replaced the doubt with the reviewer's verified count of 9, listing the refs and noting that 41776 and 41809 are title mentions (7 without them).",
+   "Recount: Hieronymian 9, Tridentine 6; passes true; recommendation stays hold."
+  ]
+ },
+ {
+  "cid": "C059",
+  "name": "Eunomius of Cyzicus",
+  "home": {
+   "id": "anomoean-eunomian-christianity",
+   "name": "Anomoean (Eunomian) Christianity"
+  },
+  "dates": "bishop of Cyzicus from 360 (editor's note: 'Bishop 360, died before 396'). Jerome's De viris illustribus, written in 392, says he 'is said to be still living in Cappadocia'. Michael the Syrian says the emperor Theodosius sent him into exile and that he died there. No birth date given.",
+  "dates_source": "npnf203_theodoret-jerome-gennadius-rufinus.xml:41613-41617 (editor's note and De viris illustribus); michael-the-syrian_chronique-tome1-livres-i-vii-fra_chabot1899.txt:62176; census anomoean-eunomian-christianity, longDescription",
+  "own_words": "The First Apology (Liber Apologeticus), eunomius_first-apology_whiston1711.txt, shelf role tradition (Whiston's 1711 translation, reedited by Pearse).",
+  "party_in_own_right": "Yes. He is the author of the Apology, the target of Basil's and Gregory of Nyssa's books Against Eunomius, and a party named in canon 1 of Constantinople 381.",
+  "founder_of": {
+   "id": "anomoean-eunomian-christianity",
+   "name": "Anomoean (Eunomian) Christianity (informal name 'The Eunomians')"
+  },
+  "counted_traditions": [
+   {
+    "id": "syriac-orthodox-west-syriac-christianity",
+    "name": "Syriac Orthodox (West Syriac) Christianity",
+    "clean": 5,
+    "quote": {
+     "file": "zachariah-rhetor_chronicle_hamiltonbrooks1899.txt",
+     "line": 1861,
+     "text": "and from the rashness of Eunomius, who limited beneath his science the incomprehensible nature;"
+    }
+   },
+   {
+    "id": "hieronymian-ascetic-literary",
+    "name": "Hieronymian Ascetic-Literary Christianity",
+    "clean": 0,
+    "quote": null
+   }
+  ],
+  "home_citation": {
+   "file": "philostorgius_ecclesiastical-history_walford1855.txt",
+   "line": 188,
+   "text": "Upon hearing the report of Aetius's wisdom, Eunomius came from Cappadocia to Antioch,"
+  },
+  "why": "Eunomius was Aetius's pupil and secretary and became the sharpest voice of the Anomoean case that God's essence can be known. Syriac chroniclers and Jerome name him as the standing example of the Arian extreme.",
+  "recommendation": "out",
+  "reason": "He fails the count: the Hieronymian tradition starts in 382 while he was still living, so only the Syriac tradition is later than him, and two are needed. The Eunomians are also named for him, so the founder question would go to Mark anyway.",
+  "doubts": "Input 'refs' line numbers do not match file lines; I re-found the passages by searching. The Hieronymian tradition does not count: all 11 refs are rejected because he was alive and active in 392 (Jerome's own text on that shelf) and went into exile under Theodosius, which overlaps the tradition's start in 382. The input's last_year of 360 is only the year he became bishop. The Syriac count of 5 stands. Namesakes excluded as the input says: Eunomius of Nicomedia, of Resaina and of Amida. In Michael the Syrian, tome 1, lines 58418, 59640, 60145, 60330 and 62176 are Eunomius of Cyzicus; line 59870 ('cet évêque, qui s'appelait Eunomius') I could not place and did not rely on. The Apology is on the home shelf. A recount would need a second tradition that starts clearly after his death (a Justinianic or Palaiologan shelf, say) with five strict passages. If Mark rules that a movement's second figure is not its founder, the founder question would fall away.",
+  "passes": false,
+  "question": "founder",
+  "revision_log": [
+   "BLOCKING (Hieronymian is not later than him): counted it as 0 and dropped its quote; passes is false and the recommendation is out, since only the Syriac tradition is later.",
+   "SUBSTANTIAL (dates and last_year wrong): dates now say bishop from 360, still living in 392 (Jerome), exiled under Theodosius and died in exile (Michael the Syrian), with an editor's note 'died before 396'; dates_source updated.",
+   "Question set to founder because the Eunomians are named for him."
+  ]
+ },
+ {
+  "cid": "C062",
+  "name": "Basil of Caesarea (Basil the Great)",
+  "home": {
+   "id": "cappadocian-nicene-pastoral-monastic-tradition",
+   "name": "Cappadocian Christianity"
+  },
+  "dates": "born 329 or 330, died 1 January 379; bishop of Caesarea from about 370.",
+  "dates_source": "npnf208_basil-letters-select-works.xml:556 (329 or 330 born), :776 (379 death), :880 (no reason to question the date 329 or 330)",
+  "own_words": "held, many works: De Spiritu Sancto, the Hexaemeron, the Letters, the Ascetic Works (Longer and Shorter Rules), Address to Young Men, and Against Eunomius, among others (e.g. npnf208_basil-letters-select-works.xml; basil_opera-omnia-pg29-grc-lat_migne1857.txt; basil_ascetic-works-longer-shorter-rules_clarke1925.txt), shelved as role tradition on the Cappadocian shelf.",
+  "party_in_own_right": "Yes. He is a bishop and theologian who acted in his own right in the Trinitarian fight over the Spirit and in building communal monastic life.",
+  "founder_of": null,
+  "counted_traditions": [
+   {
+    "id": "byzantine-church-palaiologan",
+    "name": "The Byzantine Church, Palaiologan Era",
+    "clean": 7,
+    "quote": {
+     "file": "patrologia-orientalis-tomus15_petit-documents-concile-de-florence-purgatoire-grc-fra_graffin-nau1927.txt",
+     "line": 2932,
+     "text": "tum etiam quae Basilius Magnus in oratio- nibus suis ad Pentecosten pro more recitandis"
+    }
+   },
+   {
+    "id": "orthodoxy-under-the-ottomans-1650-1821",
+    "name": "Orthodoxy under the Ottomans — the Second Act",
+    "clean": 6,
+    "quote": {
+     "file": "dositheus_acts-and-decrees-synod-jerusalem_robertson1899.txt",
+     "line": 2951,
+     "text": "he should have written a short treatise against his enemies, as was the case with Basil the Great, when calumniated"
+    }
+   }
+  ],
+  "home_citation": {
+   "file": "npnf208_basil-letters-select-works.xml",
+   "line": 8839,
+   "text": "They have an old sophism, invented by Aetius, the champion of this heresy"
+  },
+  "why": "Basil was bishop of Caesarea in Cappadocia. His On the Holy Spirit defended the Spirit's full divinity from how the church already prayed and baptized. His rules shaped Eastern monastic life. Later Byzantine and Orthodox writers call him 'the Great' and quote him as a standing authority.",
+  "recommendation": "include",
+  "reason": "All parts of the test hold: his own works are held on his home shelf, no census movement is named for him, and both later traditions cite him clearly as Basil the Great.",
+  "doubts": "The bare name 'Basil' is full of namesakes (Basel, Basil of Seleucia, the sebastos Basil), but the passages I read in both traditions say 'ho megas Basileios', 'Basilius Magnus' or 'Basil the Great'. The Byzantine count is 7, not 8: line 2260 of the Florence documents is the Latins' cedula, not Mark of Ephesus or Bessarion. It includes two Philotheos Kokkinos passages (Palamas PG 151, lines 17467, 18102) that sit under 'PHILOTHEI CP. PATRIARCHAE' running heads and so are valid; without them the count would be 5. The quote at 2932 is in Mark's Confutatio (Latin, from line 2802). The second counted tradition is now the 1650-1821 shelf: the same six works (Mogila 1640, Dositheus 1672, Nikodemos c. 1805) are shelved there, and only two of the six passages (Mogila) are in-period for the 1453-1650 row, so the 1650-1821 label fits. The Ottoman count treats a Mogila citation printed in two Kimmel editions as one. The Pneumatomachian and Anomoean shelves also hold his name, but are his opponents, not his home. The Byzantine quote has a line-break hyphen (oratio- nibus) kept as in the file. Basil's rule is also behind the 'Basilian' monastic orders, which are not a census movement.",
+  "passes": true,
+  "question": null,
+  "revision_log": [
+   "SUBSTANTIAL (Ottoman count mostly out of period): re-labelled the second counted tradition as orthodoxy-under-the-ottomans-1650-1821 (census name 'Orthodoxy under the Ottomans — the Second Act'); the same six refs carry it; clean 6.",
+   "MINOR (Byzantine is 7 not 8): set clean to 7; rejected PO15 2260; the doubts state that without the Kokkinos passages it would be 5.",
+   "Recommendation stays include."
+  ]
+ },
+ {
+  "cid": "C081",
+  "name": "Theodoret of Cyrrhus",
+  "home": {
+   "id": "antiochene-exegetical-christianity-chrysostom-ce",
+   "name": "Antiochene Exegetical Christianity (Chrysostom-centered)"
+  },
+  "dates": "born about 393, bishop of Cyrrhus from 423, died 457 (editor's note); the same volume's table says 'probable date of the death' 458.",
+  "dates_source": "npnf203_theodoret-jerome-gennadius-rufinus.xml:43760 and :2315",
+  "own_words": "Dialogues (Eranistes), Letters of the Blessed Theodoret, The Anathemas of Cyril with the Counter-statements of Theodoret, and The Ecclesiastical History of Theodoret, all in npnf203_theodoret-jerome-gennadius-rufinus.xml; the first four on this home shelf as role tradition.",
+  "party_in_own_right": "Yes. He was a bishop whom Evagrius says was deposed and later reinstated, and he wrote the counter-statements to Cyril's anathemas.",
+  "founder_of": null,
+  "counted_traditions": [
+   {
+    "id": "byzantine-imperial-church-justinianic",
+    "name": "The Byzantine Imperial Church (Justinianic)",
+    "clean": 0,
+    "quote": null
+   },
+   {
+    "id": "syriac-orthodox-west-syriac-christianity",
+    "name": "Syriac Orthodox (West Syriac) Christianity",
+    "clean": 0,
+    "quote": null
+   }
+  ],
+  "home_citation": {
+   "file": "npnf203_theodoret-jerome-gennadius-rufinus.xml",
+   "line": 36151,
+   "text": "Letter or Address of Theodoret to the Monks of the Euphratensian, the Osrhoene, Syria, Phœnicia, and Cilicia."
+  },
+  "why": "Theodoret was bishop of Cyrrhus, a church historian and the last great voice of the Antiochene reading. He wrote counter-statements to Cyril's anathemas, was deposed and was later reinstated. The later worlds name him in the Three Chapters quarrel.",
+  "recommendation": "out",
+  "reason": "He fails the count: both counted traditions start in 451, while he was alive and took part in the Council of Chalcedon, so neither is later than him.",
+  "doubts": "Input 'refs' line numbers do not match file lines; I re-found the passages by searching. Both counted traditions (Justinianic, Syriac Orthodox) start in 451, and Theodoret lived to about 457 or 458 and was active at Chalcedon (Evagrius lines 4378 and 5242), so neither counts. The input's last_year of 423 is the year he became bishop, not his last year. Apart from the timing, the refs check out: they are in-shelf and name Theodoret of Cyrrhus, and the Syriac refs are distinct. A recount would need two traditions starting after about 458. Latin Africa under Byzantium (533) is a likely one, since Facundus names him about 26 times in separate places (lines 41800-74073), but I have not checked those strictly, and a second tradition would still be needed. Namesake: Theodoretus of Alabanda (Codex Encyclius list) excluded. Evagrius gives six in his own narrative (lines 1109, 1786, 1962, 3350, 4378, 5242). The home movement is dated c. 350-430 while he was active from 423 to 457; the census already lists him under it. Date source is an editor's footnote and the table gives 458; I give both.",
+  "passes": false,
+  "question": null,
+  "revision_log": [
+   "BLOCKING (neither counted tradition is later than him): counted both as 0, dropped their quotes, set passes false and the recommendation to out; reason says why the count fails; doubts note Latin Africa (Facundus) as an unchecked lead.",
+   "MINOR (refs otherwise check out): no change needed; the doubts say so."
+  ]
+ },
+ {
+  "cid": "C095",
+  "name": "Kaleb",
+  "home": {
+   "id": "aksumite-christianity",
+   "name": "Aksumite Christianity"
+  },
+  "dates": "c. 520-523. Mendes says he lived in 521 (fifth year of Justin); Almeida says he reigned about 523.",
+  "dates_source": "mendes_expeditio-aethiopica-liber-1-2-lat_beccari1908.txt:6676-6678; almeida_historia-aethiopiae-liber-5-8-por_beccari1907.txt:7573",
+  "own_words": "none held. The Library has a prayer ascribed to King Kaleb inside the Book of the Himyarites ('the closest surviving thing to the king's own words', per the shelf row, around line 2072 of book-of-the-himyarites-syr-eng_moberg1924.txt), but it is reported by a Syriac author. Under answer C reported speech does not count. No letter, inscription or signed act of his is held.",
+  "party_in_own_right": "Yes. Procopius, Cosmas, the Himyarite book and the Ethiopian lives treat him as the king who led the war against Himyar after Najran.",
+  "founder_of": null,
+  "counted_traditions": [
+   {
+    "id": "the-ethiopian-monastic-flowering",
+    "name": "The Ethiopian Monastic Flowering",
+    "clean": 8,
+    "quote": {
+     "file": "gadla-pantalewon-yared_vitae-sanctorum-antiquiorum-lat_conti-rossini1904.txt",
+     "line": 2288,
+     "text": "Rex vero noster Kaleb strenuus fuit et prudens et ortho- doxus."
+    }
+   },
+   {
+    "id": "the-society-of-jesus",
+    "name": "The Society of Jesus",
+    "clean": 5,
+    "quote": {
+     "file": "mendes_expeditio-aethiopica-liber-1-2-lat_beccari1908.txt",
+     "line": 6676,
+     "text": "XLVI Caleb, a nostris dictus sanctus Elesbaan. Vivebat anno quin- gentesimo vigesimo primo"
+    }
+   }
+  ],
+  "home_citation": {
+   "file": "book-of-the-himyarites-syr-eng_moberg1924.txt",
+   "line": 3724,
+   "text": "divine vengeance befell the persecutors and a new state of things was established through Kaleb, the liberator sent by God."
+  },
+  "why": "Kaleb, also called Elesbaan, was the Aksumite king who sent an army across the Red Sea against the Himyarite persecutors after the Najran martyrdoms. Later Ethiopian lives and Jesuit writers on Ethiopia remember him as a saint-king.",
+  "recommendation": "hold",
+  "reason": "The Library holds no document in his name, only a prayer reported by others, so the second part of the test fails under answer C.",
+  "doubts": "The Jesuit count is exactly 5 and one passage (Mendes 6353) is garbled by a marginal gloss; spellings vary (Caleb, Elesbaan). The Ethiopian count rests mostly on the Gadla Pantalewon, a single Life. Lines 2288 and 2296 are one paragraph, so the recount counts them once and adds Gadla Yared line 539, Pantalewon line 1919 and Caput X line 2428, giving 8 distinct passages. The home citation is the editor's summary in Moberg's translation of the Book of the Himyarites, not an ancient narrator's text; it is not counted, and I found no better text naming him on the shelf. Input notes record an uncounted Synaxarium notice (20 Genbot) that would add a passage.",
+  "passes": true,
+  "question": null,
+  "revision_log": [
+   "MINOR (2288 and 2296 are one paragraph): counted once; the added refs 539, 1919 and 2428 restore the margin; Ethiopian clean is 8 (the reviewer's 5 valid plus 3 added), and the quote at 2288 is kept.",
+   "MINOR (home citation is the editor's summary): the doubts now label it the editor's summary and say it is not counted.",
+   "Recommendation stays hold: only a prayer reported by others."
+  ]
+ },
+ {
+  "cid": "C103",
+  "name": "Mar Aba I",
+  "home": {
+   "id": "the-church-of-the-east-under-persia",
+   "name": "The Church of the East under Persia"
+  },
+  "dates": "catholicos from 540; synod held 544; died in prison in 552 (Malech, a modern voice).",
+  "dates_source": "census the-church-of-the-east-under-persia voices; synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt:20902; malech_history-of-the-syrian-nation-and-old-evangelical-apostolic-church-of-the-east_1910.txt:10473",
+  "own_words": "The Synod of Mar Aba I (544), issued in his name, and his letters and canons, in the Synodicon Orientale (Chabot's French, synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt from line 20901; letters at about line 36535; also the German Braun edition). These count as documents issued in his name (Answer C). The census people row cites his Second Letter (line 36583).",
+  "party_in_own_right": "Yes. He is the catholicos who called the 544 synod, reorganised the church's law and was imprisoned by the king.",
+  "founder_of": null,
+  "counted_traditions": [
+   {
+    "id": "church-of-the-east-timur-to-hakkari",
+    "name": "The Church of the East - Timur's Catastrophe and the Northern Remnant",
+    "clean": 3,
+    "quote": {
+     "file": "mai_scriptorum-veterum-nova-collectio-tomus10-ebedjesu-synodus-timothei-lat_mai1838.txt",
+     "line": 15426,
+     "text": "Similiter Mar-Aba catholicus ab ec- clesiae Nuhadrensis (5) iurisdictione monasterium Abunae (0) exemptum decrevit."
+    }
+   },
+   {
+    "id": "church-of-the-east-chaldean-consolidation",
+    "name": "The Church of the East & the Chaldean Consolidation",
+    "clean": 5,
+    "quote": {
+     "file": "badger_nestorians-and-their-rituals-v2_1852.txt",
+     "line": 17689,
+     "text": "Mar Awa the Great translated the entire Old Testament from the Greek into this Syriac tongue"
+    }
+   }
+  ],
+  "home_citation": {
+   "file": "synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt",
+   "line": 20916,
+   "text": "du gouvernement catholique du palriareat du saint archevêque Mar Aba,"
+  },
+  "why": "Mar Aba I was a Persian convert from Zoroastrianism who became head of the Church of the East in 540. He held a synod in 544, rewrote its canon law and died after being jailed by the Persian king. Later Church of the East writers name him as an early lawgiver.",
+  "recommendation": "out",
+  "reason": "He fails the count: only one later tradition (the Chaldean consolidation, via Badger) reaches five passages. The Timur-to-Hakkari tradition has three.",
+  "doubts": "The input's sixteen Malech refs (file lines 10364-13001) are all rejected: they lie in the Persia-period chapter, outside the loci of both later shelf rows (Timur from line 16390; Chaldean from line 16773). Timur's other shelved work (Mai X, Ebedjesu's collection with Timothy II's synod) names Mar Aba in only 3 distinct passages (lines 7351, 15426, 17716). The rest are Mai/Assemani notes, an index, a source heading, and Aba's own words quoted in the same passage as 17716. The Chaldean count of 5 comes from Badger vol. 2, where he appears as 'Mar Awa' (lines 8407, 17529, 17689, 17718, 18255): four in Ebedjesu's catalogue in Appendix A and one quoted synodal extract ('the great and holy synod convened by Mar Awa'). Possible confusion with other Abas: Mar Abba the archdeacon (c. 607), Mar Aba vice-patriarch after 607, Mar Abba II (741-751). Chabot's note (Synodicon line 1202) is unsure whether one commentary is Aba I or II. The Synodicon letter at line 36583 carries a header 'MAR ABA 1er, Ann. 544'. He meets every other part of the test (documents issued in his name, no movement founded).",
+  "passes": false,
+  "question": null,
+  "revision_log": [
+   "BLOCKING (count fails): set passes false and the recommendation to out; Timur clean is 3 (Mai lines 7351, 15426, 17716); all sixteen Malech refs rejected as outside the shelf loci.",
+   "SUBSTANTIAL (Chaldean given 0 but Badger names him five times): Chaldean clean is 5 via Badger vol. 2, with a new quote from line 17689; the reason now says only one later tradition reaches 5."
+  ]
+ },
+ {
+  "cid": "C115",
+  "name": "Bede",
+  "home": {
+   "id": "anglo-saxon-christianity",
+   "name": "Anglo-Saxon Christianity"
+  },
+  "dates": "c. 672/3-735 CE.",
+  "dates_source": "bede_ecclesiastical-history-english-people_giles1903.txt:4 (Creator header)",
+  "own_words": "held: The Ecclesiastical History of the English Nation (bede_ecclesiastical-history-english-people_giles1903.txt), shelved as role tradition on anglo-saxon-christianity and as context on the Irish and Welsh shelves.",
+  "party_in_own_right": "Yes. He is the monk and historian of Jarrow whose own History is the main record of the English church, and later churches treat him as an authority and a saint.",
+  "founder_of": null,
+  "counted_traditions": [
+   {
+    "id": "lollardy",
+    "name": "Lollardy",
+    "clean": 6,
+    "quote": {
+     "file": "wyclif_select-english-works-v3_arnold1871.txt",
+     "line": 17672,
+     "text": "Seynt Bede seij?, We sellen Crist whanne we forsaken treufe, and taken falsnesse and meyntene it."
+    }
+   },
+   {
+    "id": "the-tridentine-church",
+    "name": "The Tridentine Church",
+    "clean": 8,
+    "quote": {
+     "file": "roman-breviary_bute1908.txt",
+     "line": 71002,
+     "text": "the Venerable Bede saith that brighter times never shone upon England than those wherein Theodore administered her"
+    }
+   }
+  ],
+  "home_citation": {
+   "file": "bede_ecclesiastical-history-english-people_giles1903.txt",
+   "line": 115,
+   "text": "To the most glorious king Ceolwulph, Bede, the servant of Christ and Priest."
+  },
+  "why": "Bede was a monk of Jarrow who wrote the Ecclesiastical History of the English Nation. Wycliffite writers cite him against clerical greed and abuses. Tridentine texts give him a feast, a collect and many Breviary lessons.",
+  "recommendation": "include",
+  "reason": "His own History is held on his home shelf, he founded no movement, and both later traditions name him clearly and often.",
+  "doubts": "The Tridentine count is 8. Five are the Breviary's 'Homily by the Venerable Bede' lesson rubrics, which carry Bute's bracketed additions (such as '[at Jarrow ...]'); the rubrics are the Breviary's own, so they count. To remove doubt, the main-text passages are cited first: Bellarmine 7654, the Missal collect 34728, and Breviary lines 61623 ('In this man, saith Bede'), 71003 and 71076 ('Concerning him blessed Bede beareth witness'). That gives 5 without the rubrics. Lollardy's passages are citations by Wyclif and by the Apology for Lollard Doctrines; each said 'Bede' without a first name, but the content (commentary on Luke, Gregory, the Fathers) fits the Venerable Bede. The Wycliffite quote carries the OCR '?' in 'seij?'. Namesakes in the input notes (Dutch 'bede' = prayer, Bede-roll) were excluded.",
+  "passes": true,
+  "question": null,
+  "revision_log": [
+   "MINOR (rubrics and Bute's bracket): added Breviary lines 61623 and 71076 and cited the five non-rubric passages first in doubts; Tridentine clean 8, Lollardy 6.",
+   "Recommendation stays include."
+  ]
+ },
+ {
+  "cid": "C144",
+  "name": "Valdes of Lyon",
+  "home": {
+   "id": "the-waldensians",
+   "name": "The Waldensians"
+  },
+  "dates": "began about 1173 (gave away his property); condemned with his followers by the bull Ad abolendam in 1184. No birth or death date in the census; the input's end year 1205 I could not verify.",
+  "dates_source": "census the-waldensians, longDescription",
+  "own_words": "none held. The Waldensian shelf holds Bernard Gui, Crespin, Gilles, Leger, Perrin, Morland and the Waldensian poem and Gospel of John, none of them his own writing. The census says his confession of faith was orthodox, but no text of it is held.",
+  "party_in_own_right": "Yes. He is the named founder of the movement and the man the inquisitors, Perrin and the Martyrs' Mirror all tell the story around.",
+  "founder_of": {
+   "id": "the-waldensians",
+   "name": "The Waldensians"
+  },
+  "counted_traditions": [
+   {
+    "id": "waldensians-in-the-alps",
+    "name": "The Waldensians in the Alps",
+    "clean": 6,
+    "quote": {
+     "file": "perrin_history-ancient-christians-valleys-alps_1847.txt",
+     "line": 1567,
+     "text": "Waldo was heard with more attention, because he was greatly esteemed for his learning and piety"
+    }
+   },
+   {
+    "id": "the-anabaptist-movements",
+    "name": "The Anabaptist Movements",
+    "clean": 7,
+    "quote": {
+     "file": "van-braght_martyrs-mirror_sohm1886.txt",
+     "line": 38258,
+     "text": "This was first commenced chiefly by Peter Waldo at Lyons, in France, and carried out by his suc-"
+    }
+   }
+  ],
+  "home_citation": {
+   "file": "bernard-gui_manuel-inquisiteur-t1-lat-fra_mollat1926.txt",
+   "line": 4814,
+   "text": "fuit quidam civis Lugdunensis, nomine Valdesius seu Valdensis, a quo sectatores ejus fuerunt taliter nomi-"
+  },
+  "why": "Valdes was a rich merchant of Lyon who gave away his goods about 1173, had Scripture put into the spoken language and preached in the streets. The Waldensian movement grew from him. Later Protestant and Anabaptist writers use him as proof that their faith was older than the Reformation.",
+  "recommendation": "hold",
+  "reason": "He founded the Waldensians (census id the-waldensians), so the founder question goes to Mark, and the Library holds no writing of his own.",
+  "doubts": "The Alps tradition is a later phase of the same movement, which comes close to the rule that a counted tradition is not the person's home; the census treats them as two movements, so it passes as written, and Mark should rule on that along with the founder question. The Anabaptist count is 7: refs 38259 and 38263 are one paragraph, and many more Martyrs' Mirror paragraphs exist (also the Hutterite Geschicht-Buch line 5101). The Perrin file has double spaces between words, so the quote matches only when spacing is ignored. Perrin lines 1651-1719 argue that Waldo did NOT found the Valley churches, which is also worth knowing. Not Juan de Valdes; 'Waldes' in German is the genitive of 'Wald'. Input 'refs' line numbers do not match file lines.",
+  "passes": true,
+  "question": "founder",
+  "revision_log": [
+   "MINOR (Anabaptist 38259 and 38263 are one paragraph): Anabaptist clean set to 7.",
+   "MINOR (Alps tradition is his own movement's later life): kept in doubts, and noted that Mark should rule on it with the founder question.",
+   "Recommendation stays hold; question set to founder."
+  ]
+ },
+ {
+  "cid": "C148",
+  "name": "Francis of Assisi",
+  "home": {
+   "id": "the-franciscan-movement",
+   "name": "The Franciscan Movement"
+  },
+  "dates": "born about 1182, died 3 October 1226.",
+  "dates_source": "editor's introduction (Heywood, 1906) in fioretti_little-flowers-of-st-francis_heywood1906.txt:618-620 and :938",
+  "own_words": "none held under his own author id. The census says his Testament, Rules and Canticle survive in his own words, but the Library's Franciscan shelf holds works about him (Actus beati Francisci, Fioretti, Speculum perfectionis, the Bullarium Franciscanum). I found no file with his Testament or Canticle as such; the Speculum and Fioretti contain no 'Canticle of the Sun' or 'Creatures' string.",
+  "party_in_own_right": "Yes. Every source treats him as the actor.",
+  "founder_of": {
+   "id": "the-franciscan-movement",
+   "name": "The Franciscan Movement"
+  },
+  "counted_traditions": [
+   {
+    "id": "observant-reform-and-popular-preaching",
+    "name": "Observant Reform & Popular Preaching",
+    "clean": 6,
+    "quote": {
+     "file": "bernardino-of-siena_sermons_orlandi-robins1920.txt",
+     "line": 8177,
+     "text": "we have it that once a hare fleeing before the dogs, sought safety in the bosom of Saint Francis"
+    }
+   },
+   {
+    "id": "the-tridentine-church",
+    "name": "The Tridentine Church",
+    "clean": 7,
+    "quote": {
+     "file": "bellarmine_minds-ascent-to-god_1925.txt",
+     "line": 5115,
+     "text": "Saint Bonaventura reports that Saint Francis was unlearned, and that he had not given great atten- tion to rhetoric"
+    }
+   }
+  ],
+  "home_citation": {
+   "file": "fioretti_little-flowers-of-st-francis_heywood1906.txt",
+   "line": 1394,
+   "text": "Messer St. Francis in all the acts of his life was conformed to Christ the blessed"
+  },
+  "why": "Francis was a cloth merchant's son who gave up his inheritance and began a life of poverty and preaching. The friars who followed him became the Franciscan order. Bernardino of Siena and Bellarmine both cite him as the model of holiness and preaching.",
+  "recommendation": "hold",
+  "reason": "He founded the Franciscan movement, a census entry, so this is a founder question for Mark. The Library also holds none of his own writings by author id.",
+  "doubts": "The Observant count is 6: Bernardino lines 8105 and 8179 (the hare story, which the quote uses) are one paragraph. The Tridentine count is 7: Bellarmine's Mind's Ascent gives 5, two of them only through Bonaventure's Life, and Luis de Granada (also on the Tridentine shelf) names him in lines 10564 and 30808 of his own text. 'Saint Francis Xavier' and 'Order of Saint Francis' hits were excluded by the input notes. Quote at 8179 spans line breaks. The dates come from the editor's introduction, not a source text. The home citation is now Fioretti chapter I, which has double spaces in the file, so the quote matches when spacing is ignored.",
+  "passes": true,
+  "question": "founder",
+  "revision_log": [
+   "MINOR (Observant is 6): clean set to 6.",
+   "MINOR (Tridentine at exactly 5 on one book): added Luis de Granada lines 10564 and 30808; Tridentine clean 7.",
+   "MINOR (home citation and dates from an editor's introduction): dates_source now says editor's introduction; home citation is now Fioretti chapter I, line 1394.",
+   "Recommendation stays hold; question set to founder."
+  ]
+ },
+ {
+  "cid": "C154",
+  "name": "Johannes Tauler",
+  "home": {
+   "id": "rhineland-mysticism-and-the-friends-of-god",
+   "name": "Rhineland Mysticism & the Friends of God"
+  },
+  "dates": "about 1300 to 1361 as the host catalogue gives him; census people row dates him 1330.",
+  "dates_source": "tauler_history-and-life-with-sermons_winkworth1907.txt:2; census rhineland-mysticism-and-the-friends-of-god people row",
+  "own_words": "none that counts under Answer C. The Library holds Winkworth's Life of Tauler and twenty-five sermons, but the file itself says he did not write his sermons down: they 'were compiled from notes taken by his hearers' (lines 907-909) and 'nearly all' derive from 'mere notes taken by his hearers' (line 7035). That is speech others report, not his own writing or verbatim minutes.",
+  "party_in_own_right": "Yes. He is the preacher of Strasbourg whom the Schwenckfelder and Spiritualist writers quote as an authority by name.",
+  "founder_of": null,
+  "counted_traditions": [
+   {
+    "id": "schwenckfelders",
+    "name": "Schwenckfelders",
+    "clean": 25,
+    "quote": {
+     "file": "sudermann_hohe-geistreiche-lehren-hohes-lied-deu_heyden1622.txt",
+     "line": 9778,
+     "text": "Taulerus / vber die wort Johan. 6 Wer mein Fleisch jsset vnd mein Blut trincket / der hat das"
+    }
+   },
+   {
+    "id": "family-of-love-and-spiritualists-franck-niclaes",
+    "name": "Family of Love & Spiritualists (Franck, Niclaes)",
+    "clean": 11,
+    "quote": {
+     "file": "franck_paradoxa-deu_rab1559.txt",
+     "line": 1360,
+     "text": "Damit stimpt Taulerus in einer Predig de Trinit-vnnd fpzicht: Alles das man von"
+    }
+   }
+  ],
+  "home_citation": {
+   "file": "tauler_history-and-life-with-sermons_winkworth1907.txt",
+   "line": 907,
+   "text": "Tauler did not himself write down his discourses, but they were compiled from notes taken by his hearers"
+  },
+  "why": "Tauler was a preacher of Strasbourg, named with the Rhineland mystics. Sudermann's Schwenckfelder collection and Sebastian Franck's Paradoxa quote him by name as an authority.",
+  "recommendation": "hold",
+  "reason": "The only 'writing' held is sermons taken down by hearers, which Answer C excludes. Both counted traditions are otherwise sound.",
+  "doubts": "Schwenckfelder passages are mostly marginal source tags ('Taulerus.') in Sudermann; these are the 1622 author's own printed source notes, not a modern editor's, and each marks a separate quoted section. At least five Sudermann mentions are in running text (lines 9778, 15947, 11603, 12979, 14479). The shelf row calls the Schwenckfelder link provisional because the file itself does not name it. Franck gives 11 in his running text (lines 21455 and 21460 are one passage), so the count survives without Sudermann; paragraph breaks in the Fraktur OCR are uncertain (1360 and 1404 may also be one), but the count stays well above 5. Franck's Fraktur OCR is garbled, but the name reads clearly. The home citation (Winkworth, line 907) is the editor's introduction, not Tauler's text; it is evidence about how the sermons were handed down, not a home-tradition passage. Input 'refs' line numbers do not match file lines. If Mark rules the Strasbourg sermon manuscripts count as his own (the file says it is 'highly probable' the eighty-four Strasbourg sermons were published in his life and corrected by him, line 914), this would flip to include.",
+  "passes": true,
+  "question": "own_words",
+  "revision_log": [
+   "MINOR (Franck 21455 and 21460 are one passage): Family of Love clean set to 11; noted the Sudermann tags are the 1622 author's own source notes and that five running-text mentions exist.",
+   "MINOR (home citation is the editor's introduction): doubts now say so and why it is still used.",
+   "Recommendation stays hold; question set to own_words (sermons taken down by hearers)."
+  ]
+ },
+ {
+  "cid": "C164",
+  "name": "Hugo Grotius",
+  "home": {
+   "id": "the-remonstrants-and-dort",
+   "name": "The Remonstrants and Dort"
+  },
+  "dates": "1583-1645.",
+  "dates_source": "grotius_defence-of-the-catholic-faith-satisfaction-of-christ_foster1889.txt:2 (Creator header)",
+  "own_words": "held: A Defence of the Catholic Faith concerning the Satisfaction of Christ, against Faustus Socinus (Leiden 1617, Foster's English 1889), in grotius_defence-of-the-catholic-faith-satisfaction-of-christ_foster1889.txt, shelved as role tradition on the-remonstrants-and-dort and as context on the anti-Trinitarian shelf. Note the Library holds Grotius's text only within Foster's translation, with Foster's introduction and notes in the same file.",
+  "party_in_own_right": "Yes. Jurist and Remonstrant sympathizer, imprisoned for his part in the affair; later English writers treat him as a party in the argument over Antichrist, the Church of Rome and obedience.",
+  "founder_of": null,
+  "counted_traditions": [
+   {
+    "id": "restoration-georgian-church-of-england",
+    "name": "The Restoration and Georgian Church of England",
+    "clean": 7,
+    "quote": {
+     "file": "burnet_discourse-of-the-pastoral-care_1692.txt",
+     "line": 7263,
+     "text": "Grotius his Book of the truth of the Chrifiian Religion, with his Notes up- on it , ought to be read and almoft"
+    }
+   },
+   {
+    "id": "english-old-dissent",
+    "name": "English Old Dissent — Presbyterians and Congregationalists",
+    "clean": 6,
+    "quote": {
+     "file": "baxter_reliquiae-baxterianae_sylvester1696.txt",
+     "line": 51478,
+     "text": "nor<lo 1 believe Lying lawful after all that Grotius de Jure Belli"
+    }
+   }
+  ],
+  "home_citation": {
+   "file": "grotius_defence-of-the-catholic-faith-satisfaction-of-christ_foster1889.txt",
+   "line": 2489,
+   "text": "will first state that doctrine which the church of Christ has hitherto defended with unshaken faith, as derived from the sacred Scriptures"
+  },
+  "why": "Hugo Grotius was a Dutch jurist who sided with the Remonstrants. In 1617 he wrote a defence of the doctrine that Christ's death satisfied divine justice. English Anglican and Dissenting writers after 1660 cite him, for and against, on Scripture, Antichrist and the Church of Rome.",
+  "recommendation": "include",
+  "reason": "His own treatise is held on his home shelf, he founded no movement, and both later English traditions name him repeatedly.",
+  "doubts": "The OCR in the 1681-1696 files is poor (long s, stray marks), so quotes carry noise exactly as in the file. The Restoration and Georgian count is 7: Burnet's 3 passages and Barlow's (lines 18865, 19267 and 20757 among them) make 7 after the recount. Barlow line 19340 is the margin citation for 19267 and counts with it, so it is dropped as a separate passage; Barlow line 19182 is a bare margin reference, in the locus but weak. The Baxter count is 6 after removing disputed hits; 44728 is a fresh passage not in the supplied contexts, without which it is 5 (still enough). 'Grotian' hits in Baxter name the man's followers but also him. Foster's translation is in 1889 English; the Library holds the 1617 treatise only through it.",
+  "passes": true,
+  "question": null,
+  "revision_log": [
+   "MINOR (Barlow 19340 is the margin citation for 19267): dropped it; Restoration and Georgian clean is 7.",
+   "Recommendation stays include."
+  ]
+ }
+]
