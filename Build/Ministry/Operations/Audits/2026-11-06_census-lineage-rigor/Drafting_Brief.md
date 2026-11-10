@@ -149,4 +149,7 @@ joined a council or fellowship of churches, on that body's own record (for examp
 list, or the minutes that admitted it). The direction runs from the member to the council.
 Membership claims no descent and no influence. It is never major, and never carries `outcome`.
 Do not use "in contact with" or "gave rise to" for membership.
+A "member of" link may be graded Widely Accepted on the council's, or the member church's, own
+dated membership record alone, with no secondary work (Mark, 2026-11-10). It is still never
+Documented unless that record is held in the Library.
 

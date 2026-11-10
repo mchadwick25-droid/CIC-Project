@@ -993,3 +993,7 @@ it, never by deleting it.
     run. It joins the tree's other stale recordings, which get their own sample for Mark first (see
     "176 story recordings wait for the ElevenLabs quota to reset", 2026-11-09). Owner: this thread,
     on Mark's approval.
+146. **Open-Gaps 143 is settled (2026-11-10).** Mark ruled that a "member of" link may be Widely
+    Accepted on the council's or member church's own dated membership record alone. See the
+    Decision-Log, "A 'member of' link may be Widely Accepted on the membership record alone".
+

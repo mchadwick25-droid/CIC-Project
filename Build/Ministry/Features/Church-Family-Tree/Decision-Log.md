@@ -877,3 +877,11 @@ after review.
 was reviewed in two rounds and approved to proceed. Full entry: Atlas World Map Decision-Log, "Data
 release 26".
 
+---
+
+## 2026-11-10 — A "member of" link may be Widely Accepted on the membership record alone
+
+Mark chose Widely Accepted. A council's or member church's own dated membership record carries a
+"member of" link to Widely Accepted with no study beside it. This settles Open-Gaps 143. Full entry:
+Atlas World Map Decision-Log, same date.
+
