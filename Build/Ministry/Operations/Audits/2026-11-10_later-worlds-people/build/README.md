@@ -72,3 +72,29 @@ final draft.
 
 The tree narration dry run counts 13 new pages, 11,077 characters, for the one recording batch.
 No sample was prepared and no paid call made.
+
+# Data release 32 — 2026-11-10
+
+The Library's first wants batch (PR #1577) vendored the words three held people lacked, and the
+coordinator brought them in under Mark's ruling (Decision-Log, "Three held people come in once the
+Library holds their words").
+
+| atlasId | id | told within | own words now held |
+|---|---|---|---|
+| I.65 | `pamphilus-of-caesarea` | alexandria-catechetical | the Apology for Origen, Book I, in Rufinus's Latin (joint with Eusebius; Jerome's denial named) |
+| III.27 | `heraclius` | byzantine-imperial-church-heraclian-iconoclast | the Ecthesis, issued and signed in his name (Mansi X) |
+| IV.30 | `bonaventure` | the-franciscan-movement | the Legenda maior (Salter 1904) and the Tria opuscula (Quaracchi 1911) |
+
+Also: one link gains `concerns` (`canons-regular-victorine-school--the-franciscan-movement`, to
+Bonaventure); Pamphilus and Heraclius are added to their homes' people rows and Bonaventure's row
+item points at his entry; Nikodemos the Hagiorite leaves the 1453-1650 Ottoman row (out of window;
+he stays in the Kollyvades row). `decisions_r32.json` holds the row drop and one field override:
+Bonaventure's place label becomes "Italy · Paris and beyond", since the validator requires every
+modern-country place on a label of at most two places.
+
+Drafted on Sonnet (`p5/Draft_r0.json`), reviewed by Opus: round 1, 0 blocking, 4 substantial, 11
+minor (`reviews/R32_Review_Round1.json`), revised (`p5/Draft_r1.json`); round 2, approve with no
+findings (`reviews/R32_Review_Round2.json`). The review judged that the Ecthesis still counts as
+Heraclius's own words under answer C: the Lateran acts and his own later letter both say it went out
+in his name with his signature. `check_draft.py` ran clean against main's texts after #1577 merged.
+Apply log: `apply_log_r32.json`. Checks as for release 31.

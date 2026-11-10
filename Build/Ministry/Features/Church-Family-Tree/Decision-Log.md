@@ -1092,3 +1092,31 @@ epilogue to his Latin version, and the only other words of Pamphilus held, the f
 `anf06`, are of disputed authorship. Ruling B was put as "Pamphilus wrote the Apology with
 Eusebius". Pamphilus is held by the standard every other held person met (no undisputed words of
 his own in the Library), and the Apology is wanted. The release carries 13 entries.
+
+**Cap ruling (data release 31, round 3).** The build's third Opus round (`Build/Ministry/Operations/Audits/2026-11-10_later-worlds-people/build/reviews/Review_Round3.json`)
+left one substantial finding: two swapped sentence fields in Basil of Caesarea's fact table, the
+drafting record. The coordinator closed it under Mark's standing instruction (2026-11-10) not to
+bring him every decision. The reviewer's exact text was applied (`build/p2/Draft_r3.json`) and
+checked against the source lines, and no census field depended on it.
+
+## 2026-11-10 — Three held people come in once the Library holds their words (P2-G3b, second release)
+
+**How it was reached.** The Library thread filled three of the held people's wants (PR #1577,
+`Build/Ministry/Features/Source-Library/CFT-Wants.md`). The coordinator ruled, under Mark's
+"take every recommendation" (2026-11-10), that each now passes the test the hold rested on; Mark is
+free to override.
+- **Pamphilus of Caesarea.** The Apology for Origen, Book I, in Rufinus's Latin, is now vendored
+  (`pamphilus_apologia-pro-origene-rufinus-lat_lommatzsch1846.txt`; PG 17 as a second witness).
+  The correction to ruling B's premise held him only for the missing text; ruling B counts the
+  jointly written Apology as his own words. He gets an entry, told within the catechetical school.
+- **Bonaventure.** His own works are now vendored: the Legenda maior in Salter's English (1904)
+  and the Tria opuscula (Quaracchi 1911). He was held only for having no words of his own held.
+- **Heraclius.** The Ecthesis (638), a document issued and signed in his name, is in Mansi X and
+  now shelved on his home tradition. The review judged it still counts under answer C, though a
+  later letter has him say Sergius wrote it; the entry names both.
+- **Nikodemos the Hagiorite** (1782) leaves the people row of the 1453-1650 Ottoman tradition, out
+  of its window; he stays in the Kollyvades row. The Pedalion shelf row moves under the Library's
+  fix.
+
+Francis of Assisi and Priscillian, whose own words the Library now also holds, stay held as
+founders (question A).

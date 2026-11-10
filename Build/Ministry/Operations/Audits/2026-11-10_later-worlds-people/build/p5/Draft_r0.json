@@ -1,0 +1,1464 @@
+{
+ "entries": [
+  {
+   "id": "pamphilus-of-caesarea",
+   "atlasId": "TBD",
+   "era": 1,
+   "kind": "person",
+   "toldWithin": "alexandria-catechetical",
+   "name": "Pamphilus of Caesarea",
+   "shortName": "Pamphilus",
+   "informalName": "Pamphilus the Martyr",
+   "dates": "307-310",
+   "start": 307,
+   "end": 310,
+   "region": "Caesarea Maritima",
+   "placeLabel": "Caesarea Maritima",
+   "modernCountries": [
+    {
+     "country": "Israel",
+     "countryId": "Q801",
+     "place": "Caesarea Maritima",
+     "placeId": "Q319242",
+     "pleiadesId": "678401"
+    }
+   ],
+   "regions": [
+    "Middle East",
+    "Mediterranean"
+   ],
+   "lane": "4 Africa",
+   "laneLabel": "Africa",
+   "laneOrder": 4,
+   "beyondFloor": false,
+   "status": "Within Another World (A5)",
+   "chip": "exc",
+   "glyph": "a5",
+   "statusWord": "Named within another tradition's story",
+   "statusDescription": "Not counted as a candidate tradition of its own — its story is told plainly inside another tradition's, rather than standing alone.",
+   "living": false,
+   "overlayCurrent": false,
+   "c2": null,
+   "sourcing": "Moderate. The Library holds Book I of his Apology for Origen, in the Latin of Rufinus. It has two printings, Lommatzsch of 1846 and Migne of 1857. Only that one book survives. Both scans are rough OCR, so every quote needs checking against the page.\n\nWho wrote the Apology is disputed. Eusebius says he and Pamphilus wrote it together. Jerome, in his book against Rufinus, says Pamphilus wrote nothing but some short letters. Years earlier Jerome had listed the Apology under Pamphilus's name. The Library counts a jointly written work as the person's own words, so it counts this one.\n\nFragments on the Acts of the Apostles are also ascribed to him. Others give them to Euthalius, so they are not counted. His dates are the years of his prison term and death. The Library's sources give no birth year.",
+   "floorNote": "Not in question.",
+   "relationsSummary": "Told within the Alexandrian teachers. He is said to have studied at Alexandria. He lived and died at Caesarea. There he kept Origen's books. The Library shelves his Apology with them.",
+   "why": "Pamphilus was a presbyter at Caesarea in Palestine. He gathered a library of sacred books and copied Origen's works by hand. He was jailed in 307 and put to death for his faith in 309 or 310. Eusebius, the church historian, took the surname Pamphili from their friendship.",
+   "entry": null,
+   "teaser": "Caesarea in Palestine, c. 307 to 310 CE: a presbyter and book collector, put to death for his faith, whose defence of Origen Eusebius calls joint work and Jerome denies him.",
+   "longDescription": "By the common account, Pamphilus studied at Alexandria under Pierius, the head of the catechetical school. Later he became a presbyter at Caesarea. Eusebius says he gave his goods to the needy and excelled all in his time in devotion to the Scriptures. Jerome says he copied most of Origen's works with his own hand. He also built a library of sacred books and gave it to the church at Caesarea.\n\nIn the persecution under Diocletian, the governor Urbanus jailed him near the end of 307. Eusebius says he and his friends lay in prison two full years. Then Firmilianus, the next governor, had him put to death. The usual date is 309. The English editor of Eusebius argues for February 310.\n\nRufinus put the first book of an Apology for Origen into Latin. He gave it Pamphilus's name alone. Eusebius says the two wrote it together. Jerome later said Eusebius wrote it all. He said Pamphilus wrote only letters. Yet he had once listed it as Pamphilus's. Editors of Eusebius and Jerome say Pamphilus shared in it.",
+   "voices": [
+    "Pamphilus — presbyter and martyr, whose Apology for Origen the Library holds in the Latin of Rufinus",
+    "Eusebius of Caesarea — his friend, who says the two wrote the Apology together",
+    "Jerome — who kept twenty-five volumes in Pamphilus's hand, and later denied that Pamphilus wrote the Apology",
+    "Rufinus — who put Book I into Latin and gave it under Pamphilus's name"
+   ],
+   "legacy": "Two later worlds in the Library name him. Eusebius, on the Imperial and Juridical shelf, calls him \"the great glory of the parish of Cæsarea.\" Eusebius was his friend, so this voice stands close to Pamphilus's own circle.\n\nIn the Hieronymian world, Jerome calls him a copyist. He also calls him the founder of the library at Caesarea. Jerome says he found six volumes of Eusebius's Apology there. Against Rufinus he writes: \"Pamphilus wrote nothing except some short letters to his friends.\" The quarrel is why he has an entry.",
+   "reviewStatus": "AI-checked"
+  },
+  {
+   "id": "bonaventure",
+   "atlasId": "TBD",
+   "era": 5,
+   "kind": "person",
+   "toldWithin": "the-franciscan-movement",
+   "name": "Bonaventure",
+   "shortName": "Bonaventure",
+   "informalName": "Bonaventure of Bagnoregio",
+   "dates": "1257-1274",
+   "start": 1257,
+   "end": 1274,
+   "region": "Italy, Paris, Lyon",
+   "placeLabel": "Paris · Lyon",
+   "modernCountries": [
+    {
+     "country": "Italy",
+     "countryId": "Q38",
+     "place": "Italy",
+     "placeId": "Q38"
+    },
+    {
+     "country": "France",
+     "countryId": "Q142",
+     "place": "Paris",
+     "placeId": "Q90"
+    },
+    {
+     "country": "France",
+     "countryId": "Q142",
+     "place": "Lyon",
+     "placeId": "Q456"
+    }
+   ],
+   "regions": [
+    "Mediterranean",
+    "North Europe"
+   ],
+   "lane": "5 Latin West & Catholicism",
+   "laneLabel": "Latin West & Catholicism",
+   "laneOrder": 5,
+   "beyondFloor": false,
+   "status": "Within Another World (A5)",
+   "chip": "exc",
+   "glyph": "a5",
+   "statusWord": "Named within another tradition's story",
+   "statusDescription": "Not counted as a candidate tradition of its own — its story is told plainly inside another tradition's, rather than standing alone.",
+   "living": false,
+   "overlayCurrent": false,
+   "c2": null,
+   "sourcing": "Moderate. The Library holds his Life of Saint Francis, the Legenda maior, in Salter's English of 1904. It also holds three Latin works from the Quaracchi edition of 1911. They are the Breviloquium, the Itinerarium mentis in Deum and the De reductione artium ad theologiam. The Latin scan has OCR slips, so check any quote against the page.\n\nHis dates are the years he led the Franciscans. They come from Glassberger's chronicle, an Observant work in Latin. The Library holds no source for his birth year.",
+   "floorNote": "Not in question.",
+   "relationsSummary": "Told within the Franciscan movement. He did not found it. His own Life of Francis gives the founding of the Religion to Francis. He led the order as minister general, and the Life he wrote was meant to be its standard account of Francis.",
+   "why": "Bonaventure was a friar and a master of theology. He was elected minister general of the Franciscans in 1257 and led them until his death in 1274. He wrote the Life of Francis that the order meant to be its standard Life.",
+   "entry": null,
+   "teaser": "Paris and Lyon, 1257 to 1274 CE: the Franciscan leader who wrote the life of Francis that the order meant to be its standard.",
+   "longDescription": "Glassberger writes that the chapter at Rome elected Bonaventure minister general while he was away. He gives the year as 1256. The Quaracchi editors say that is the old count, and that by ours it was 1257. In 1274 Pope Gregory X called him to the council at Lyon and made him a cardinal and bishop of Albano. Glassberger says he fell ill during the council and died there. The friars buried him in their church at Lyon.\n\nIn the prologue to his Life of Francis, Bonaventure says the urging of the Chapter General moved him to write it. He says Francis's prayer saved his life when he was a child. To learn the true story, he went to the place of Francis's birth and talked with friends of his who were still alive. Salter's note says he wrote it between 1260 and 1263, and meant it to replace earlier Lives. She adds that another general chapter ordered the earlier Lives suppressed.\n\nHe did not found the movement. The third chapter of his Life treats the founding of Francis's Religion. In the prologue to the Itinerarium, he writes of going up Mount Alverna, where Francis saw the vision of the seraph. The Quaracchi editors date that visit to 1259.",
+   "voices": [
+    "Bonaventure — friar, master of theology and minister general, whose Life of Francis and three Latin works the Library holds",
+    "Francis of Assisi — the founder, whose life Bonaventure wrote at the Chapter General's urging",
+    "Nicolaus Glassberger — the Observant chronicler who records Bonaventure's chapters and orders"
+   ],
+   "legacy": "Later Catholic writers name him. Liguori, in The Glories of Mary, writes that \"St. Bonaventure declares\" that those who publish Mary's glories are sure of paradise. The sentence names no work of his.\n\nGlassberger, a friar, tells of his chapters. In 1269, he says, Bonaventure held a general chapter at Assisi. It ordered a sung Mass of the Virgin each Saturday.\n\nEnglish editors of the mystics name him too. In 1924 Justin McCann called him \"a disciple of Richard\" in his mystical teaching. This is Richard of St Victor. In 1914 Evelyn Underhill named him among three masters of Rolle. In 1923 she said Hilton depends on Bernard and Bonaventura, too.",
+   "reviewStatus": "AI-checked"
+  },
+  {
+   "id": "heraclius",
+   "atlasId": "TBD",
+   "era": 4,
+   "kind": "person",
+   "toldWithin": "byzantine-imperial-church-heraclian-iconoclast",
+   "name": "Heraclius",
+   "shortName": "Heraclius",
+   "informalName": "Emperor Heraclius",
+   "dates": "610-641",
+   "start": 610,
+   "end": 641,
+   "region": "Constantinople",
+   "placeLabel": "Constantinople",
+   "modernCountries": [
+    {
+     "country": "Turkey",
+     "countryId": "Q43",
+     "place": "Constantinople",
+     "placeId": "Q16869",
+     "pleiadesId": "520998"
+    }
+   ],
+   "regions": [
+    "Asia Minor"
+   ],
+   "lane": "3 Greek East & Orthodoxy",
+   "laneLabel": "Greek East & Orthodoxy",
+   "laneOrder": 3,
+   "beyondFloor": false,
+   "status": "Within Another World (A5)",
+   "chip": "exc",
+   "glyph": "a5",
+   "statusWord": "Named within another tradition's story",
+   "statusDescription": "Not counted as a candidate tradition of its own — its story is told plainly inside another tradition's, rather than standing alone.",
+   "living": false,
+   "overlayCurrent": false,
+   "c2": null,
+   "sourcing": "Moderate. The Library holds the Ecthesis, a statement of faith issued in his name in 638. It stands in the Latin acts of the Lateran Council of 649, in Mansi's tenth volume. The scan is rough OCR, with a garbled Greek text beside the Latin. The Library counts a document issued in his name as his own words.\n\nWho wrote the Ecthesis is disputed. The Lateran fathers say Sergius, the patriarch, urged it on the emperor. A letter quoted in the volume's notes has Heraclius say it was not his own, and that Sergius composed it. His dates are the years of his reign. They come from two notes in the Library's texts.",
+   "floorNote": "Not in question.",
+   "relationsSummary": "Told within the Byzantine imperial church of the Heraclian and iconoclast eras. He ruled it from 610 to 641. A statement of faith was issued in his name in 638, and the Lateran council of 649 condemned it.",
+   "why": "Heraclius was emperor from 610 to 641. The Armenian bishop Sebeos says he took the Cross back to Jerusalem. In 638 a statement of faith, the Ecthesis, was issued in his name. It forbids speaking of one or of two operations in Christ. It also calls the confession of two wills at odds in him impious. A Roman council condemned it in 649.",
+   "entry": null,
+   "teaser": "Constantinople, 610 to 641 CE: the emperor who brought the Cross home. A statement of faith issued in his name was condemned by Rome.",
+   "longDescription": "Macler's note to Sebeos says the patriarch Sergius crowned Heraclius on 6 October 610. A note in Mansi says he died on 11 February 641. Sebeos writes that the king received the holy Cross and took it to Jerusalem with all the church's honors. There he set it back in its place. He says it stayed in the holy city until the sons of Ishmael took Jerusalem the second time.\n\nThe Ecthesis opens as a statement of faith made by Heraclius, because a dispute had arisen over the question of operation. It says it agrees with the five holy councils. It forbids anyone to say one operation or two. It also calls it impious to confess two wills in Christ that come against each other.\n\nThe Lateran fathers of 649 say the Ecthesis was written in the name of Heraclius, then emperor, by enemies of the faith. They say Sergius urged it on him. A letter quoted in the Mansi notes has Heraclius say that Sergius wrote it five years before he came home from the East. Sergius asked him to publish it under his name, and he agreed. He says he did not say it or order it written. The Lateran council anathematized the Ecthesis.",
+   "voices": [
+    "Heraclius — emperor, in whose name the Ecthesis was issued; the Library holds it in the Lateran acts",
+    "Sergius — the patriarch who, the sources say, urged the Ecthesis on him",
+    "Sebeos — the Armenian bishop whose history tells of Heraclius and the Cross",
+    "Martin I — the pope whose Lateran council of 649 condemned the Ecthesis"
+   ],
+   "legacy": "Armenian writers of the Mekhitarist age name him. Giovanni de Serpos, in his history of 1786, says the Armenian patriarch Yezr held the council at Karin to please the emperor Heraclius. He also gives the answer of the nation's learned clergy. They say it came from a wish for peace, from respect for Heraclius, and from joy at his victories.\n\nThe Church of the East names him too. The Chronicle of Seert tells how Heraclius, whom it calls son of the master of Egypt, sailed to Constantinople, and how Phocas fell. It also records his death. The editor, Addai Scher, notes that the printed year should read 952 of Alexander. These writers name Heraclius for his war and his church policy.",
+   "reviewStatus": "AI-checked"
+  }
+ ],
+ "fact_table": [
+  {
+   "entry": "pamphilus-of-caesarea",
+   "field": "sourcing",
+   "sentence": "The Library holds Book I of the Apology in Rufinus's Latin (Lommatzsch 1846); only that book survives.",
+   "file": "cic/texts/pamphilus_apologia-pro-origene-rufinus-lat_lommatzsch1846.txt",
+   "lines": "9",
+   "quote": "Only Book I survives, and only in Rufinus's Latin.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "pamphilus-of-caesarea",
+   "field": "sourcing",
+   "sentence": "A second printing is Migne, PG 17 (1857).",
+   "file": "cic/texts/origen_opera-omnia-t7-pamphilus-apologia-pg17-grc-lat_migne1857.txt",
+   "lines": "2",
+   "quote": "Pamphilus of Caesarea's Apology for Origen in Rufinus's Latin",
+   "grade": "Documented"
+  },
+  {
+   "entry": "pamphilus-of-caesarea",
+   "field": "sourcing",
+   "sentence": "Both scans are rough OCR and need checking against the page (Lommatzsch header).",
+   "file": "cic/texts/pamphilus_apologia-pro-origene-rufinus-lat_lommatzsch1846.txt",
+   "lines": "8",
+   "quote": "Quote only after checking the passage against the scanned page or the Migne PG 17 witness.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "pamphilus-of-caesarea",
+   "field": "sourcing",
+   "sentence": "Same caution for the Migne scan.",
+   "file": "cic/texts/origen_opera-omnia-t7-pamphilus-apologia-pg17-grc-lat_migne1857.txt",
+   "lines": "8",
+   "quote": "Quote only after checking the passage against the scanned page.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "pamphilus-of-caesarea",
+   "field": "sourcing",
+   "sentence": "Eusebius says the Apology was written by himself and Pamphilus, done jointly.",
+   "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+   "lines": "36974-36976",
+   "quote": "written by us and Pamphilus, the holy martyr of our day. We prepared this carefully and did the work jointly on account of faultfinders",
+   "grade": "Contested"
+  },
+  {
+   "entry": "pamphilus-of-caesarea",
+   "field": "sourcing",
+   "sentence": "Jerome, against Rufinus, says Pamphilus wrote nothing but some short letters.",
+   "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+   "lines": "53982",
+   "quote": "Pamphilus wrote nothing except some short letters to his friends",
+   "grade": "Contested"
+  },
+  {
+   "entry": "pamphilus-of-caesarea",
+   "field": "sourcing",
+   "sentence": "Years earlier Jerome had listed the book under Pamphilus's name (he says he did so in the catalogue he made for Dexter).",
+   "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+   "lines": "53978-53979",
+   "quote": "placed among the various treatises assigned to various authors this book as composed by Pamphilus",
+   "grade": "Contested"
+  },
+  {
+   "entry": "pamphilus-of-caesarea",
+   "field": "sourcing",
+   "sentence": "Jerome's catalogue entry says Pamphilus wrote an Apology for Origen.",
+   "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+   "lines": "40969-40970",
+   "quote": "before Eusebius had written his and was put to death at Cæsarea in Palestine",
+   "grade": "Contested"
+  },
+  {
+   "entry": "pamphilus-of-caesarea",
+   "field": "sourcing",
+   "sentence": "Mark's ruling B (2026-11-10): a jointly written work counts as the person's own words.",
+   "file": null,
+   "lines": null,
+   "quote": null,
+   "grade": "Documented",
+   "source": "Mark's ruling B on the later-worlds count, 2026-11-10 (task brief for this draft)"
+  },
+  {
+   "entry": "pamphilus-of-caesarea",
+   "field": "sourcing",
+   "sentence": "Fragments on the Acts are ascribed to him by many, to Euthalius by others.",
+   "file": "cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml",
+   "lines": "16916-16917",
+   "quote": "which is attributed by many to him, although others ascribe it to Euthalius, bishop of Sulce",
+   "grade": "Contested"
+  },
+  {
+   "entry": "pamphilus-of-caesarea",
+   "field": "sourcing",
+   "sentence": "His prison term began late in 307 (dates field).",
+   "file": "cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml",
+   "lines": "16885",
+   "quote": "This took place towards the end of the year 307",
+   "grade": "Documented"
+  },
+  {
+   "entry": "pamphilus-of-caesarea",
+   "field": "sourcing",
+   "sentence": "The sources give no birth year (absence claim, checked in the notice and in Jerome's chapter).",
+   "file": null,
+   "lines": null,
+   "quote": null,
+   "grade": "Documented",
+   "source": "Absence: the anf06 notice (16876-16940) and Jerome, De viris illustribus 75, give no birth year."
+  },
+  {
+   "entry": "pamphilus-of-caesarea",
+   "field": "relationsSummary",
+   "sentence": "By the common account he studied at Alexandria.",
+   "file": "cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml",
+   "lines": "16879-16881",
+   "quote": "he repaired to Alexandria and studied under Pierius, the well-known head of the Catechetical school there",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "pamphilus-of-caesarea",
+   "field": "relationsSummary",
+   "sentence": "He lived and died at Caesarea in Palestine.",
+   "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+   "lines": "40969-40970",
+   "quote": "was put to death at Cæsarea in Palestine in the persecution of Maximinus",
+   "grade": "Documented"
+  },
+  {
+   "entry": "pamphilus-of-caesarea",
+   "field": "relationsSummary",
+   "sentence": "He kept a library of Origen's books there.",
+   "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+   "lines": "49616-49618",
+   "quote": "he acquired at great expense all the books written by Origen, and gave them to the church at Cæsarea",
+   "grade": "Documented"
+  },
+  {
+   "entry": "pamphilus-of-caesarea",
+   "field": "relationsSummary",
+   "sentence": "The Library shelves the Apology with the Alexandrian teachers (shelf decision of the Library thread).",
+   "file": null,
+   "lines": null,
+   "quote": null,
+   "grade": "Documented",
+   "source": "Later-worlds count, reviewed row C045: doubts say the only shelf holding a Pamphilus work as role tradition is alexandria-catechetical."
+  },
+  {
+   "entry": "pamphilus-of-caesarea",
+   "field": "why",
+   "sentence": "He was a presbyter at Caesarea in Palestine.",
+   "file": "cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml",
+   "lines": "16882",
+   "quote": "was made a presbyter of the Church there",
+   "grade": "Documented"
+  },
+  {
+   "entry": "pamphilus-of-caesarea",
+   "field": "why",
+   "sentence": "He copied Origen's works by hand.",
+   "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+   "lines": "40960-40961",
+   "quote": "he transcribed the greater part of the works of Origen with his own hand",
+   "grade": "Documented"
+  },
+  {
+   "entry": "pamphilus-of-caesarea",
+   "field": "why",
+   "sentence": "He was jailed (307) and put to death for his faith (309 or 310).",
+   "file": "cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml",
+   "lines": "16886",
+   "quote": "he suffered martyrdom by order of Firmilianus",
+   "grade": "Documented"
+  },
+  {
+   "entry": "pamphilus-of-caesarea",
+   "field": "why",
+   "sentence": "Eusebius took the surname Pamphili from the friendship.",
+   "file": "cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml",
+   "lines": "16891",
+   "quote": "Eusebius took the surname of Pamphili",
+   "grade": "Documented"
+  },
+  {
+   "entry": "pamphilus-of-caesarea",
+   "field": "why",
+   "sentence": "Jerome also says the surname came from the friendship.",
+   "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+   "lines": "41076-41077",
+   "quote": "His surname Pamphilus arose from his friendship for Pamphilus the martyr",
+   "grade": "Documented"
+  },
+  {
+   "entry": "pamphilus-of-caesarea",
+   "field": "longDescription",
+   "sentence": "He became a presbyter at Caesarea; Eusebius says he gave his goods to the needy.",
+   "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+   "lines": "47075-47076",
+   "quote": "for sharing his possessions with the needy",
+   "grade": "Documented"
+  },
+  {
+   "entry": "pamphilus-of-caesarea",
+   "field": "longDescription",
+   "sentence": "Eusebius says he excelled all in devotion to the Scriptures.",
+   "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+   "lines": "47077-47078",
+   "quote": "He especially excelled all in our time in most sincere devotion to the Divine Scriptures",
+   "grade": "Documented"
+  },
+  {
+   "entry": "pamphilus-of-caesarea",
+   "field": "longDescription",
+   "sentence": "Jerome says he copied most of Origen's works by hand.",
+   "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+   "lines": "40960-40961",
+   "quote": "he transcribed the greater part of the works of Origen with his own hand",
+   "grade": "Documented"
+  },
+  {
+   "entry": "pamphilus-of-caesarea",
+   "field": "longDescription",
+   "sentence": "He gave a library of sacred books to the church at Caesarea.",
+   "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+   "lines": "49613-49614",
+   "quote": "wished to rival Demetrius Phalereus and Pisistratus, in his zeal to establish a library of sacred books",
+   "grade": "Documented"
+  },
+  {
+   "entry": "pamphilus-of-caesarea",
+   "field": "longDescription",
+   "sentence": "He gave the books to the church at Caesarea.",
+   "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+   "lines": "49617-49618",
+   "quote": "gave them to the church at Cæsarea",
+   "grade": "Documented"
+  },
+  {
+   "entry": "pamphilus-of-caesarea",
+   "field": "longDescription",
+   "sentence": "The governor Urbanus jailed him in the persecution of Diocletian, near the end of 307.",
+   "file": "cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml",
+   "lines": "16884",
+   "quote": "he was thrown into prison by Urbanus, the governor of Palestine",
+   "grade": "Documented"
+  },
+  {
+   "entry": "pamphilus-of-caesarea",
+   "field": "longDescription",
+   "sentence": "Eusebius says the prisoners lay two full years.",
+   "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+   "lines": "47106-47107",
+   "quote": "After these persons had continued in prison for two entire years",
+   "grade": "Documented"
+  },
+  {
+   "entry": "pamphilus-of-caesarea",
+   "field": "longDescription",
+   "sentence": "Firmilianus, the next governor, had him put to death.",
+   "file": "cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml",
+   "lines": "16886",
+   "quote": "he suffered martyrdom by order of Firmilianus, who had",
+   "grade": "Documented"
+  },
+  {
+   "entry": "pamphilus-of-caesarea",
+   "field": "longDescription",
+   "sentence": "The usual date is 309 but the English editor of Eusebius argues for February 310.",
+   "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+   "lines": "47126-47127",
+   "quote": "the date referred to in the present passage must be February of the year 310",
+   "grade": "Contested"
+  },
+  {
+   "entry": "pamphilus-of-caesarea",
+   "field": "longDescription",
+   "sentence": "The usual date is 309.",
+   "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+   "lines": "47127-47129",
+   "quote": "The martyrdom of Pamphilus is commonly, for aught I know to the contrary, uniformly put in the year 309",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "pamphilus-of-caesarea",
+   "field": "longDescription",
+   "sentence": "Rufinus translated the first book into Latin.",
+   "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+   "lines": "3661-3662",
+   "quote": "with the exception of the first book, which was translated by Rufinus",
+   "grade": "Documented"
+  },
+  {
+   "entry": "pamphilus-of-caesarea",
+   "field": "longDescription",
+   "sentence": "Rufinus gave it Pamphilus's name alone.",
+   "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+   "lines": "3664-3665",
+   "quote": "Rufinus ascribed this book expressly to Pamphilus, and Pamphilus’ name alone appears in the translation",
+   "grade": "Documented"
+  },
+  {
+   "entry": "pamphilus-of-caesarea",
+   "field": "longDescription",
+   "sentence": "Jerome later said the whole work was Eusebius's.",
+   "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+   "lines": "3666-3667",
+   "quote": "maintains that the whole work was written by Eusebius, not by Pamphilus",
+   "grade": "Contested"
+  },
+  {
+   "entry": "pamphilus-of-caesarea",
+   "field": "longDescription",
+   "sentence": "Jerome says Pamphilus wrote only letters.",
+   "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+   "lines": "53982",
+   "quote": "Pamphilus wrote nothing except some short letters to his friends",
+   "grade": "Contested"
+  },
+  {
+   "entry": "pamphilus-of-caesarea",
+   "field": "longDescription",
+   "sentence": "Jerome had earlier listed the Apology among Pamphilus's works.",
+   "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+   "lines": "40969-40970",
+   "quote": "before Eusebius had written his and was put to death at Cæsarea in Palestine",
+   "grade": "Contested"
+  },
+  {
+   "entry": "pamphilus-of-caesarea",
+   "field": "longDescription",
+   "sentence": "English editor of Eusebius: Pamphilus was a joint author.",
+   "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+   "lines": "3673-3674",
+   "quote": "it is certain that Pamphilus was a joint author of it",
+   "grade": "Contested"
+  },
+  {
+   "entry": "pamphilus-of-caesarea",
+   "field": "longDescription",
+   "sentence": "English editor of Jerome and Rufinus: Pamphilus was associated with Eusebius in the work.",
+   "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+   "lines": "45131",
+   "quote": "that Pamphilus was associated with Eusebius throughout the work",
+   "grade": "Contested"
+  },
+  {
+   "entry": "pamphilus-of-caesarea",
+   "field": "voices",
+   "sentence": "Jerome says he has twenty-five volumes in Pamphilus's hand.",
+   "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+   "lines": "40962",
+   "quote": "I have twenty-five volumes",
+   "grade": "Documented"
+  },
+  {
+   "entry": "pamphilus-of-caesarea",
+   "field": "voices",
+   "sentence": "Rufinus says the book is said to have been written by Pamphilus in Greek; he put it into Latin.",
+   "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+   "lines": "45146-45147",
+   "quote": "the book which he is said to have written in his defence in Greek translated for you into Latin",
+   "grade": "Documented"
+  },
+  {
+   "entry": "pamphilus-of-caesarea",
+   "field": "legacy",
+   "sentence": "Eusebius: the great glory of the parish of Caesarea.",
+   "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+   "lines": "44791-44792",
+   "quote": "Pamphilus, a presbyter, who was the great glory of the parish of Cæsarea",
+   "grade": "Documented"
+  },
+  {
+   "entry": "pamphilus-of-caesarea",
+   "field": "legacy",
+   "sentence": "Eusebius was his friend (translator's notice).",
+   "file": "cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml",
+   "lines": "16889-16890",
+   "quote": "the tender friendship which subsisted long between the two is well known",
+   "grade": "Documented"
+  },
+  {
+   "entry": "pamphilus-of-caesarea",
+   "field": "legacy",
+   "sentence": "Jerome: he found the six volumes of Eusebius's Apology for Origen in the Caesarea library.",
+   "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+   "lines": "54980",
+   "quote": "found the six volumes of Eusebius’ Apology for Origen",
+   "grade": "Documented"
+  },
+  {
+   "entry": "pamphilus-of-caesarea",
+   "field": "legacy",
+   "sentence": "Jerome: Pamphilus wrote nothing except some short letters to his friends.",
+   "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+   "lines": "53982",
+   "quote": "Pamphilus wrote nothing except some short letters to his friends",
+   "grade": "Contested"
+  },
+  {
+   "entry": "pamphilus-of-caesarea",
+   "field": "legacy",
+   "sentence": "Jerome names him as a copyist.",
+   "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+   "lines": "40959-40961",
+   "quote": "so inflamed with love of sacred literature, that he transcribed the greater part of the works of Origen with his own hand",
+   "grade": "Documented"
+  },
+  {
+   "entry": "pamphilus-of-caesarea",
+   "field": "legacy",
+   "sentence": "Jerome names him as the founder of the Caesarea library.",
+   "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+   "lines": "49614",
+   "quote": "in his zeal to establish a library of sacred books",
+   "grade": "Documented"
+  },
+  {
+   "entry": "pamphilus-of-caesarea",
+   "field": "legacy",
+   "sentence": "Shelves of the two witnesses (Imperial and Juridical; Hieronymian) come from the reviewed count row.",
+   "file": null,
+   "lines": null,
+   "quote": null,
+   "grade": "Documented",
+   "source": "Later-worlds count, reviewed row C045, counted_traditions: imperial-juridical-christianity (Eusebius line 44791) and hieronymian-ascetic-literary (Jerome line 53982)."
+  },
+  {
+   "entry": "bonaventure",
+   "field": "sourcing",
+   "sentence": "The Library holds the Legenda maior in Salter's English of 1904.",
+   "file": "cic/texts/bonaventure_life-of-saint-francis-legenda-maior_salter1904.txt",
+   "lines": "1",
+   "quote": "The Life of Saint Francis by Saint Bonaventura (The Temple Classics), translated by Miss B. Gurney Salter",
+   "grade": "Documented"
+  },
+  {
+   "entry": "bonaventure",
+   "field": "sourcing",
+   "sentence": "It holds the Breviloquium, Itinerarium and De reductione in Latin (Quaracchi 1911).",
+   "file": "cic/texts/bonaventure_tria-opuscula-breviloquium-itinerarium-de-reductione-lat_quaracchi1911.txt",
+   "lines": "1",
+   "quote": "Breviloquium, Itinerarium mentis in Deum et De reductione artium ad theologiam",
+   "grade": "Documented"
+  },
+  {
+   "entry": "bonaventure",
+   "field": "sourcing",
+   "sentence": "The Latin scan has OCR slips; quote after checking the page.",
+   "file": "cic/texts/bonaventure_tria-opuscula-breviloquium-itinerarium-de-reductione-lat_quaracchi1911.txt",
+   "lines": "8",
+   "quote": "readable Latin with OCR slips in headings and notes; quote after checking the passage against the scanned page",
+   "grade": "Documented"
+  },
+  {
+   "entry": "bonaventure",
+   "field": "sourcing",
+   "sentence": "Glassberger's chronicle is an Observant work in Latin.",
+   "file": "cic/texts/glassberger_chronica-analecta-franciscana-v2-lat_1887.txt",
+   "lines": "10",
+   "quote": "The chronicle of an Observant friar, a year-by-year account of the Order from Francis into the author's own time",
+   "grade": "Documented"
+  },
+  {
+   "entry": "bonaventure",
+   "field": "sourcing",
+   "sentence": "The Library holds no source for his birth year (absence claim; the Library headers give c. 1217 but no text line does).",
+   "file": null,
+   "lines": null,
+   "quote": null,
+   "grade": "Inferential-Thin",
+   "source": "Absence: file headers of the Library give 'c. 1217-1274' as the catalogue's own date; no vendored text line gives a birth year."
+  },
+  {
+   "entry": "bonaventure",
+   "field": "relationsSummary",
+   "sentence": "His own Life gives the founding of Francis's Religion to Francis (chapter three).",
+   "file": "cic/texts/bonaventure_life-of-saint-francis-legenda-maior_salter1904.txt",
+   "lines": "450-451",
+   "quote": "The third, of the founding of his Religion, and sanction of the Rule.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "bonaventure",
+   "field": "relationsSummary",
+   "sentence": "The Life was meant to be the official and standard biography.",
+   "file": "cic/texts/bonaventure_life-of-saint-francis-legenda-maior_salter1904.txt",
+   "lines": "9915-9916",
+   "quote": "to become the official and standard biography of the Saint",
+   "grade": "Documented"
+  },
+  {
+   "entry": "bonaventure",
+   "field": "why",
+   "sentence": "He was elected minister general; Glassberger calls him master of theology.",
+   "file": "cic/texts/glassberger_chronica-analecta-franciscana-v2-lat_1887.txt",
+   "lines": "6418",
+   "quote": "electus est absens in Generalem Ministrum",
+   "grade": "Documented",
+   "source": "Latin; prose gives a plain gloss."
+  },
+  {
+   "entry": "bonaventure",
+   "field": "why",
+   "sentence": "He is called master of theology.",
+   "file": "cic/texts/glassberger_chronica-analecta-franciscana-v2-lat_1887.txt",
+   "lines": "6420",
+   "quote": "magister theologiae",
+   "grade": "Documented"
+  },
+  {
+   "entry": "bonaventure",
+   "field": "why",
+   "sentence": "Salimbene, in the editors' note: he led them for seventeen years (1257-1274).",
+   "file": "cic/texts/glassberger_chronica-analecta-franciscana-v2-lat_1887.txt",
+   "lines": "6458",
+   "quote": "qui praefuit XVII annis",
+   "grade": "Documented"
+  },
+  {
+   "entry": "bonaventure",
+   "field": "why",
+   "sentence": "The order meant it to be its standard Life: Salter says another general chapter ordered the earlier Lives suppressed.",
+   "file": "cic/texts/bonaventure_life-of-saint-francis-legenda-maior_salter1904.txt",
+   "lines": "9917-9918",
+   "quote": "another Chapter-General ordered the suppression of the earlier Lives",
+   "grade": "Documented"
+  },
+  {
+   "entry": "bonaventure",
+   "field": "longDescription",
+   "sentence": "The chapter at Rome elected him while he was away; year given as 1256.",
+   "file": "cic/texts/glassberger_chronica-analecta-franciscana-v2-lat_1887.txt",
+   "lines": "6417",
+   "quote": "Anno Domini 1256 in capitulo, Romae in festo Purificationis",
+   "grade": "Documented"
+  },
+  {
+   "entry": "bonaventure",
+   "field": "longDescription",
+   "sentence": "Elected in his absence.",
+   "file": "cic/texts/glassberger_chronica-analecta-franciscana-v2-lat_1887.txt",
+   "lines": "6418",
+   "quote": "electus est absens in Generalem Ministrum",
+   "grade": "Documented"
+  },
+  {
+   "entry": "bonaventure",
+   "field": "longDescription",
+   "sentence": "The Quaracchi editors: 1256 is the old count; by ours it was 1257.",
+   "file": "cic/texts/glassberger_chronica-analecta-franciscana-v2-lat_1887.txt",
+   "lines": "6454",
+   "quote": "secundum computum nunc consuetum erat 1257",
+   "grade": "Documented"
+  },
+  {
+   "entry": "bonaventure",
+   "field": "longDescription",
+   "sentence": "Pope Gregory X called him to Lyon and made him cardinal and bishop of Albano.",
+   "file": "cic/texts/glassberger_chronica-analecta-franciscana-v2-lat_1887.txt",
+   "lines": "7152",
+   "quote": "Episcopus Albanensis ordinatus",
+   "grade": "Documented"
+  },
+  {
+   "entry": "bonaventure",
+   "field": "longDescription",
+   "sentence": "He was called to Lyon in 1274 and made to take the cardinalate.",
+   "file": "cic/texts/glassberger_chronica-analecta-franciscana-v2-lat_1887.txt",
+   "lines": "7154",
+   "quote": "coactus recipere cardinalatum",
+   "grade": "Documented"
+  },
+  {
+   "entry": "bonaventure",
+   "field": "longDescription",
+   "sentence": "He fell ill during the council and died.",
+   "file": "cic/texts/glassberger_chronica-analecta-franciscana-v2-lat_1887.txt",
+   "lines": "7282-7283",
+   "quote": "immatura morte obiit cum consternatione totius concilii",
+   "grade": "Documented"
+  },
+  {
+   "entry": "bonaventure",
+   "field": "longDescription",
+   "sentence": "He was buried in the friars' church at Lyon.",
+   "file": "cic/texts/glassberger_chronica-analecta-franciscana-v2-lat_1887.txt",
+   "lines": "7287-7288",
+   "quote": "in Lugdunensi Fratrum Minorum ecclesia recondendum",
+   "grade": "Documented"
+  },
+  {
+   "entry": "bonaventure",
+   "field": "longDescription",
+   "sentence": "The Chapter General's urging moved him to write the Life.",
+   "file": "cic/texts/bonaventure_life-of-saint-francis-legenda-maior_salter1904.txt",
+   "lines": "383-384",
+   "quote": "the unanimous importunity of the Chapter General incited me",
+   "grade": "Documented"
+  },
+  {
+   "entry": "bonaventure",
+   "field": "longDescription",
+   "sentence": "Francis's prayer saved his life when he was a child.",
+   "file": "cic/texts/bonaventure_life-of-saint-francis-legenda-maior_salter1904.txt",
+   "lines": "388-389",
+   "quote": "how I was snatched from the jaws of death, while yet a child, by his invocation and merits",
+   "grade": "Documented"
+  },
+  {
+   "entry": "bonaventure",
+   "field": "longDescription",
+   "sentence": "He went to the place of Francis's birth and spoke with friends still alive.",
+   "file": "cic/texts/bonaventure_life-of-saint-francis-legenda-maior_salter1904.txt",
+   "lines": "418",
+   "quote": "familiar friends that were yet living",
+   "grade": "Documented"
+  },
+  {
+   "entry": "bonaventure",
+   "field": "longDescription",
+   "sentence": "He went to the place of Francis's birth.",
+   "file": "cic/texts/bonaventure_life-of-saint-francis-legenda-maior_salter1904.txt",
+   "lines": "405",
+   "quote": "I betook me unto the",
+   "grade": "Documented"
+  },
+  {
+   "entry": "bonaventure",
+   "field": "longDescription",
+   "sentence": "Salter: composed 1260-1263 at the bidding of a Chapter-General, to supersede former Lives.",
+   "file": "cic/texts/bonaventure_life-of-saint-francis-legenda-maior_salter1904.txt",
+   "lines": "9912-9914",
+   "quote": "composed between 1 260 and 1263, at the bidding of a Chapter-General of the Order",
+   "grade": "Documented"
+  },
+  {
+   "entry": "bonaventure",
+   "field": "longDescription",
+   "sentence": "Salter: meant to supersede earlier Lives.",
+   "file": "cic/texts/bonaventure_life-of-saint-francis-legenda-maior_salter1904.txt",
+   "lines": "9914-9915",
+   "quote": "It was intended to supersede former Lives or Legends",
+   "grade": "Documented"
+  },
+  {
+   "entry": "bonaventure",
+   "field": "longDescription",
+   "sentence": "Salter: another Chapter-General ordered the suppression of the earlier Lives.",
+   "file": "cic/texts/bonaventure_life-of-saint-francis-legenda-maior_salter1904.txt",
+   "lines": "9917-9918",
+   "quote": "another Chapter-General ordered the suppression of the earlier Lives",
+   "grade": "Documented"
+  },
+  {
+   "entry": "bonaventure",
+   "field": "longDescription",
+   "sentence": "The third chapter of the Life treats the founding of Francis's Religion.",
+   "file": "cic/texts/bonaventure_life-of-saint-francis-legenda-maior_salter1904.txt",
+   "lines": "450-451",
+   "quote": "The third, of the founding of his Religion, and sanction of the Rule.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "bonaventure",
+   "field": "longDescription",
+   "sentence": "Itinerarium prologue: he went up Mount La Verna (Alverna) in the 33rd year after Francis's passing; Francis saw the seraph there.",
+   "file": "cic/texts/bonaventure_tria-opuscula-breviloquium-itinerarium-de-reductione-lat_quaracchi1911.txt",
+   "lines": "12307-12309",
+   "quote": "ad montem Alvernae tanquam. ad. loeum quietum amore quaercndi pacem spiritus declinarem",
+   "grade": "Documented",
+   "source": "Latin; prose gives a plain gloss."
+  },
+  {
+   "entry": "bonaventure",
+   "field": "longDescription",
+   "sentence": "The vision of the seraph is named in the same passage.",
+   "file": "cic/texts/bonaventure_tria-opuscula-breviloquium-itinerarium-de-reductione-lat_quaracchi1911.txt",
+   "lines": "12312-12313",
+   "quote": "de visione scilieet Seraph alati ad instar Crucifixi",
+   "grade": "Documented"
+  },
+  {
+   "entry": "bonaventure",
+   "field": "longDescription",
+   "sentence": "The Quaracchi editors date the visit to 1259.",
+   "file": "cic/texts/bonaventure_tria-opuscula-breviloquium-itinerarium-de-reductione-lat_quaracchi1911.txt",
+   "lines": "12324",
+   "quote": "Scilicet 1259, et circa. initium Octobris",
+   "grade": "Documented"
+  },
+  {
+   "entry": "bonaventure",
+   "field": "voices",
+   "sentence": "Glassberger records his chapters and orders.",
+   "file": "cic/texts/glassberger_chronica-analecta-franciscana-v2-lat_1887.txt",
+   "lines": "6502",
+   "quote": "Anno Domini 1260 beatus Bonaventura, Generalis Minister, celebravit",
+   "grade": "Documented"
+  },
+  {
+   "entry": "bonaventure",
+   "field": "voices",
+   "sentence": "Francis's life written by Bonaventure at the Chapter General's urging.",
+   "file": "cic/texts/bonaventure_life-of-saint-francis-legenda-maior_salter1904.txt",
+   "lines": "383-384",
+   "quote": "the unanimous importunity of the Chapter General incited me",
+   "grade": "Documented"
+  },
+  {
+   "entry": "bonaventure",
+   "field": "legacy",
+   "sentence": "Liguori: St. Bonaventure declares that those devoted to publishing the glories of Mary are secure of paradise.",
+   "file": "cic/texts/liguori_glories-of-mary_1852.txt",
+   "lines": "511-512",
+   "quote": "St. Bonaventure declares that those who are devoted to publishing the glories of Mary, are secure of paradise",
+   "grade": "Documented"
+  },
+  {
+   "entry": "bonaventure",
+   "field": "legacy",
+   "sentence": "The Liguori sentence names no work.",
+   "file": "cic/texts/liguori_glories-of-mary_1852.txt",
+   "lines": "510-511",
+   "quote": "let us hear what the Fathers say of it",
+   "grade": "Documented",
+   "source": "Absence claim for the sentence at line 511: no work is named in it."
+  },
+  {
+   "entry": "bonaventure",
+   "field": "legacy",
+   "sentence": "Glassberger: in 1269 Bonaventure held the general chapter at Assisi.",
+   "file": "cic/texts/glassberger_chronica-analecta-franciscana-v2-lat_1887.txt",
+   "lines": "6888",
+   "quote": "Anno Domini 1269 frater Bonaventura, Generalis Minister, celebravit generale",
+   "grade": "Documented"
+  },
+  {
+   "entry": "bonaventure",
+   "field": "legacy",
+   "sentence": "The chapter of 1269 ordered a solemn Mass of the Virgin every Saturday.",
+   "file": "cic/texts/glassberger_chronica-analecta-franciscana-v2-lat_1887.txt",
+   "lines": "6890",
+   "quote": "sabbato solemniter cantaretur una Missa",
+   "grade": "Documented",
+   "source": "Latin; prose gives a plain gloss."
+  },
+  {
+   "entry": "bonaventure",
+   "field": "legacy",
+   "sentence": "McCann (1924): Bonaventure in his mystical teaching is a disciple of Richard.",
+   "file": "cic/texts/cloud-of-unknowing_cloud-and-other-treatises_mccann1924.txt",
+   "lines": "3996-3998",
+   "quote": "St Bonaventure in his mystical teaching is a disciple of Richard",
+   "grade": "Documented"
+  },
+  {
+   "entry": "bonaventure",
+   "field": "legacy",
+   "sentence": "Richard here is Richard of St Victor (McCann's note cites his Benjamin Minor beside the Itinerarium).",
+   "file": "cic/texts/cloud-of-unknowing_cloud-and-other-treatises_mccann1924.txt",
+   "lines": "546",
+   "quote": "Benjamin Minor",
+   "grade": "Documented"
+  },
+  {
+   "entry": "bonaventure",
+   "field": "legacy",
+   "sentence": "Liguori's sentence is about Mary's glories and paradise.",
+   "file": "cic/texts/liguori_glories-of-mary_1852.txt",
+   "lines": "511-512",
+   "quote": "St. Bonaventure declares that those who are devoted to publishing the glories of Mary, are secure of paradise",
+   "grade": "Documented"
+  },
+  {
+   "entry": "bonaventure",
+   "field": "legacy",
+   "sentence": "Underhill (1914 edition of Rolle): three masters, Bernard, Richard of St Victor and Bonaventura.",
+   "file": "cic/texts/rolle_fire-of-love-and-mending-of-life_comper1914.txt",
+   "lines": "754",
+   "quote": "St. Bernard, Richard of St, Victor, and St. Bonaventura",
+   "grade": "Documented"
+  },
+  {
+   "entry": "bonaventure",
+   "field": "legacy",
+   "sentence": "Underhill (1923 edition of Hilton): depends on Bernard and Bonaventura.",
+   "file": "cic/texts/hilton_scale-of-perfection_underhill1923.txt",
+   "lines": "601-603",
+   "quote": "as regards his mystical teaching further depends on St. Bernard and St. Bonaventura",
+   "grade": "Documented"
+  },
+  {
+   "entry": "bonaventure",
+   "field": "legacy",
+   "sentence": "The 1914 Rolle edition is by Comper, with Underhill's introduction (link note says Underhill named him in 1914).",
+   "file": null,
+   "lines": null,
+   "quote": null,
+   "grade": "Documented",
+   "source": "Census link cistercian-monasticism--the-english-mystics-and-devout, note: 'In 1914 Evelyn Underhill named Bernard as one of the three masters who shaped Rolle most.'"
+  },
+  {
+   "entry": "heraclius",
+   "field": "sourcing",
+   "sentence": "The Ecthesis is held in the Lateran acts in Mansi X; it is headed as an exposition of the faith made in the emperor's name.",
+   "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-10-lat_welter-facsimile1901.txt",
+   "lines": "100115",
+   "quote": "Exthefis quondam Heraclii imperatoris",
+   "grade": "Documented"
+  },
+  {
+   "entry": "heraclius",
+   "field": "sourcing",
+   "sentence": "The Lateran fathers say Sergius urged the Ecthesis on the emperor.",
+   "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-10-lat_welter-facsimile1901.txt",
+   "lines": "99689",
+   "quote": "quam ecthefim fuafit intempore fuo nomini Heraclium",
+   "grade": "Contested",
+   "source": "Latin; prose gives a plain gloss."
+  },
+  {
+   "entry": "heraclius",
+   "field": "sourcing",
+   "sentence": "A later passage of the Latin acts says the Ecthesis was made by the emperor on Sergius's persuasion.",
+   "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-10-lat_welter-facsimile1901.txt",
+   "lines": "114499-114501",
+   "quote": "gue perfuafione ejufdem Ser- gii faéta eft ab Heraclio quondam impe- ratore",
+   "grade": "Contested",
+   "source": "Latin; prose gives a plain gloss. OCR as printed."
+  },
+  {
+   "entry": "heraclius",
+   "field": "sourcing",
+   "sentence": "A note in Mansi quotes a letter in which Heraclius says Sergius composed it and he did not say or order it.",
+   "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-10-lat_welter-facsimile1901.txt",
+   "lines": "73368",
+   "quote": "Sed cum hance Sergius patriarcha compofui fet",
+   "grade": "Contested",
+   "source": "Latin; prose gives a plain gloss. The note says the text comes from a version different from the one Baronius used."
+  },
+  {
+   "entry": "heraclius",
+   "field": "sourcing",
+   "sentence": "Same note: the emperor says he did not say it or order it written.",
+   "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-10-lat_welter-facsimile1901.txt",
+   "lines": "73367",
+   "quote": "neque enim ego vel difavt, vel juff",
+   "grade": "Contested",
+   "source": "Latin; prose gives a plain gloss. OCR as printed ('difavt' for 'dixi')."
+  },
+  {
+   "entry": "heraclius",
+   "field": "sourcing",
+   "sentence": "The Library counts a document issued in his name as his own words (task brief).",
+   "file": null,
+   "lines": null,
+   "quote": null,
+   "grade": "Documented",
+   "source": "Task brief for this draft: 'the Ecthesis (638), a document issued in his name'."
+  },
+  {
+   "entry": "heraclius",
+   "field": "sourcing",
+   "sentence": "Coronation date 6 October 610 (Macler's note to Sebeos).",
+   "file": "cic/texts/sebeos_histoire-d-heraclius-fra_macler1904.txt",
+   "lines": "4565",
+   "quote": "triarcbe Serge le 6 octobre 610",
+   "grade": "Documented"
+  },
+  {
+   "entry": "heraclius",
+   "field": "sourcing",
+   "sentence": "He died on 11 February 641 (note in Mansi X).",
+   "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-10-lat_welter-facsimile1901.txt",
+   "lines": "73455",
+   "quote": "die xt. Februarii anni 641. e vivis abierit",
+   "grade": "Documented",
+   "source": "OCR as printed ('xt.' for 'xi.')."
+  },
+  {
+   "entry": "heraclius",
+   "field": "relationsSummary",
+   "sentence": "A statement of faith was issued in his name in 638.",
+   "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-10-lat_welter-facsimile1901.txt",
+   "lines": "63221",
+   "quote": "Habica an. 638. in qua eonfirmata fuit Heraclij",
+   "grade": "Documented",
+   "source": "Mansi note on the year 638 (OCR as printed)."
+  },
+  {
+   "entry": "heraclius",
+   "field": "relationsSummary",
+   "sentence": "The Lateran council anathematized the Ecthesis.",
+   "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-10-lat_welter-facsimile1901.txt",
+   "lines": "115954",
+   "quote": "impiam ecthefin vel impiifimum",
+   "grade": "Documented",
+   "source": "Latin; the council's synodical letter says it anathematized the 'impious ecthesis' and the Typus. Prose gives a plain gloss."
+  },
+  {
+   "entry": "heraclius",
+   "field": "why",
+   "sentence": "Sebeos says he took the Cross back to Jerusalem.",
+   "file": "cic/texts/sebeos_histoire-d-heraclius-fra_macler1904.txt",
+   "lines": "6119-6120",
+   "quote": "il la fait parvenir k la ville sainte",
+   "grade": "Documented",
+   "source": "French; prose gives a plain gloss."
+  },
+  {
+   "entry": "heraclius",
+   "field": "why",
+   "sentence": "The Ecthesis forbids saying one or two operations.",
+   "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-10-lat_welter-facsimile1901.txt",
+   "lines": "100475-100476",
+   "quote": "unam vel duas dicere five dacere operationes",
+   "grade": "Documented",
+   "source": "Latin; prose gives a plain gloss."
+  },
+  {
+   "entry": "heraclius",
+   "field": "why",
+   "sentence": "The Ecthesis rejects two wills in Christ.",
+   "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-10-lat_welter-facsimile1901.txt",
+   "lines": "100526",
+   "quote": "ut duas confiteamur voluntates",
+   "grade": "Documented",
+   "source": "Latin; the clause rejects the confession of two wills. Prose gives a plain gloss."
+  },
+  {
+   "entry": "heraclius",
+   "field": "longDescription",
+   "sentence": "The patriarch Sergius crowned Heraclius on 6 October 610.",
+   "file": "cic/texts/sebeos_histoire-d-heraclius-fra_macler1904.txt",
+   "lines": "4565",
+   "quote": "triarcbe Serge le 6 octobre 610",
+   "grade": "Documented"
+  },
+  {
+   "entry": "heraclius",
+   "field": "longDescription",
+   "sentence": "He died on 11 February 641.",
+   "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-10-lat_welter-facsimile1901.txt",
+   "lines": "73455",
+   "quote": "die xt. Februarii anni 641. e vivis abierit",
+   "grade": "Documented"
+  },
+  {
+   "entry": "heraclius",
+   "field": "longDescription",
+   "sentence": "Sebeos: the king received the holy Cross.",
+   "file": "cic/texts/sebeos_histoire-d-heraclius-fra_macler1904.txt",
+   "lines": "6116",
+   "quote": "Apres avoir re$u la sainte Croix du Seigneur",
+   "grade": "Documented",
+   "source": "French; plain gloss."
+  },
+  {
+   "entry": "heraclius",
+   "field": "longDescription",
+   "sentence": "There was great joy the day they entered Jerusalem.",
+   "file": "cic/texts/sebeos_histoire-d-heraclius-fra_macler1904.txt",
+   "lines": "6148",
+   "quote": "ce jour-la a leur entree a Jerusalem",
+   "grade": "Documented",
+   "source": "French; plain gloss."
+  },
+  {
+   "entry": "heraclius",
+   "field": "longDescription",
+   "sentence": "He took it to Jerusalem with the church's apparatus.",
+   "file": "cic/texts/sebeos_histoire-d-heraclius-fra_macler1904.txt",
+   "lines": "6119-6120",
+   "quote": "il la fait parvenir k la ville sainte avec tout l'appareil eccl£siastique",
+   "grade": "Documented",
+   "source": "French; plain gloss."
+  },
+  {
+   "entry": "heraclius",
+   "field": "longDescription",
+   "sentence": "He set the Cross back in its place.",
+   "file": "cic/texts/sebeos_histoire-d-heraclius-fra_macler1904.txt",
+   "lines": "6153-6154",
+   "quote": "II r£ta~ blit [la croix] en son lieu",
+   "grade": "Documented",
+   "source": "French; plain gloss."
+  },
+  {
+   "entry": "heraclius",
+   "field": "longDescription",
+   "sentence": "The Cross stayed there until the sons of Ishmael took Jerusalem the second time.",
+   "file": "cic/texts/sebeos_histoire-d-heraclius-fra_macler1904.txt",
+   "lines": "6161",
+   "quote": "La croix du Seigneur resta dans la ville sainte jusqu'A la seconde",
+   "grade": "Documented",
+   "source": "French; plain gloss."
+  },
+  {
+   "entry": "heraclius",
+   "field": "longDescription",
+   "sentence": "The Ecthesis opens as an exposition of the faith made by Heraclius.",
+   "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-10-lat_welter-facsimile1901.txt",
+   "lines": "100125-100126",
+   "quote": "Expofitio orthodoxe fidei, fafa a Deo confervando",
+   "grade": "Documented",
+   "source": "Latin; plain gloss."
+  },
+  {
+   "entry": "heraclius",
+   "field": "longDescription",
+   "sentence": "It was made because of a dispute over the question of operation.",
+   "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-10-lat_welter-facsimile1901.txt",
+   "lines": "100151",
+   "quote": "aliquibus altercationem pro requifitione ope-",
+   "grade": "Documented",
+   "source": "Latin; plain gloss."
+  },
+  {
+   "entry": "heraclius",
+   "field": "longDescription",
+   "sentence": "It says it agrees with the five holy councils.",
+   "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-10-lat_welter-facsimile1901.txt",
+   "lines": "100152-100153",
+   "quote": "confonans in omnibus fanéis & univerfalibus quinque conciliis",
+   "grade": "Documented",
+   "source": "Latin; plain gloss."
+  },
+  {
+   "entry": "heraclius",
+   "field": "longDescription",
+   "sentence": "It forbids saying one operation or two.",
+   "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-10-lat_welter-facsimile1901.txt",
+   "lines": "100475-100476",
+   "quote": "unam vel duas dicere five dacere operationes",
+   "grade": "Documented",
+   "source": "Latin; plain gloss."
+  },
+  {
+   "entry": "heraclius",
+   "field": "longDescription",
+   "sentence": "It rejects confessing two wills.",
+   "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-10-lat_welter-facsimile1901.txt",
+   "lines": "100526",
+   "quote": "ut duas confiteamur voluntates",
+   "grade": "Documented",
+   "source": "Latin; plain gloss."
+  },
+  {
+   "entry": "heraclius",
+   "field": "longDescription",
+   "sentence": "The Lateran fathers: written in the name of Heraclius, then emperor, by adversaries against the faith.",
+   "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-10-lat_welter-facsimile1901.txt",
+   "lines": "100067-100069",
+   "quote": "que in nomine tunc im- perantis Heraclii perfcripta eft ab adverfariis contra fidem orthodoxam",
+   "grade": "Contested",
+   "source": "Latin; plain gloss."
+  },
+  {
+   "entry": "heraclius",
+   "field": "longDescription",
+   "sentence": "They say Sergius urged it on him.",
+   "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-10-lat_welter-facsimile1901.txt",
+   "lines": "99689",
+   "quote": "quam ecthefim fuafit intempore fuo nomini Heraclium",
+   "grade": "Contested",
+   "source": "Latin; plain gloss."
+  },
+  {
+   "entry": "heraclius",
+   "field": "longDescription",
+   "sentence": "Letter in the notes: Sergius composed it five years before Heraclius came back from the East.",
+   "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-10-lat_welter-facsimile1901.txt",
+   "lines": "73369",
+   "quote": "ab Oriente repedafjem",
+   "grade": "Contested",
+   "source": "Latin; plain gloss; OCR as printed."
+  },
+  {
+   "entry": "heraclius",
+   "field": "longDescription",
+   "sentence": "Letter in the notes: Sergius composed it five years before and asked him to publish it in his name.",
+   "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-10-lat_welter-facsimile1901.txt",
+   "lines": "73369",
+   "quote": "anie quingue anos",
+   "grade": "Contested",
+   "source": "Latin; plain gloss; OCR 'quingue' for 'quinque'."
+  },
+  {
+   "entry": "heraclius",
+   "field": "longDescription",
+   "sentence": "Letter in the notes: Sergius composed it five years before Heraclius came back from the East.",
+   "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-10-lat_welter-facsimile1901.txt",
+   "lines": "73369",
+   "quote": "ab Oriente repedafjem",
+   "grade": "Contested",
+   "source": "Latin; plain gloss; OCR as printed."
+  },
+  {
+   "entry": "heraclius",
+   "field": "longDescription",
+   "sentence": "Letter in the notes: he did not say it or order it written.",
+   "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-10-lat_welter-facsimile1901.txt",
+   "lines": "73367",
+   "quote": "neque enim ego vel difavt, vel juff",
+   "grade": "Contested",
+   "source": "Latin; plain gloss."
+  },
+  {
+   "entry": "heraclius",
+   "field": "longDescription",
+   "sentence": "Letter in the notes: he agreed to Sergius's request.",
+   "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-10-lat_welter-facsimile1901.txt",
+   "lines": "27865",
+   "quote": "& fufcept",
+   "grade": "Contested",
+   "source": "Latin; plain gloss ('suscepi deprecationem illius')."
+  },
+  {
+   "entry": "heraclius",
+   "field": "longDescription",
+   "sentence": "The Lateran council anathematized the Ecthesis.",
+   "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-10-lat_welter-facsimile1901.txt",
+   "lines": "115954",
+   "quote": "impiam ecthefin vel impiifimum",
+   "grade": "Documented",
+   "source": "Latin; plain gloss."
+  },
+  {
+   "entry": "heraclius",
+   "field": "voices",
+   "sentence": "Martin I presided at the Lateran council (the Latin acts name him as speaker).",
+   "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-10-lat_welter-facsimile1901.txt",
+   "lines": "93389",
+   "quote": "Martinus fanétifimus ac beatiffimus epifcopus",
+   "grade": "Documented"
+  },
+  {
+   "entry": "heraclius",
+   "field": "voices",
+   "sentence": "Sebeos is an Armenian bishop (Library header: bishop, fl. c. 660).",
+   "file": "cic/texts/sebeos_histoire-d-heraclius-fra_macler1904.txt",
+   "lines": "2",
+   "quote": "Sebeos (bishop, fl. c. 660)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "heraclius",
+   "field": "legacy",
+   "sentence": "Serpos (1786): the Armenian patriarch held the council at Karin to please Heraclius.",
+   "file": "cic/texts/serpos_compendio-storico-nazione-armena-t2-ita_1786.txt",
+   "lines": "16119-16120",
+   "quote": "per far piacere all' imperator Eraclio",
+   "grade": "Documented",
+   "source": "Italian; plain gloss."
+  },
+  {
+   "entry": "heraclius",
+   "field": "legacy",
+   "sentence": "Serpos: the clergy's answer: peace, respect for Heraclius, joy at his victories.",
+   "file": "cic/texts/serpos_compendio-storico-nazione-armena-t2-ita_1786.txt",
+   "lines": "13735-13736",
+   "quote": "da rispetto verso il presente Eraclio",
+   "grade": "Documented",
+   "source": "Italian; plain gloss."
+  },
+  {
+   "entry": "heraclius",
+   "field": "legacy",
+   "sentence": "Serpos: joy at his victories.",
+   "file": "cic/texts/serpos_compendio-storico-nazione-armena-t2-ita_1786.txt",
+   "lines": "13736",
+   "quote": "da esultazione e gaudio",
+   "grade": "Documented",
+   "source": "Italian; plain gloss."
+  },
+  {
+   "entry": "heraclius",
+   "field": "legacy",
+   "sentence": "Serpos: a wish for peace.",
+   "file": "cic/texts/serpos_compendio-storico-nazione-armena-t2-ita_1786.txt",
+   "lines": "13735",
+   "quote": "desiderio di pace",
+   "grade": "Documented",
+   "source": "Italian; plain gloss."
+  },
+  {
+   "entry": "heraclius",
+   "field": "legacy",
+   "sentence": "Chronicle of Seert: Heraclius, son of the master of Egypt, sailed to Constantinople.",
+   "file": "cic/texts/chronicle-of-seert_histoire-nestorienne-seconde-partie-po13-ara-fra_scher1919.txt",
+   "lines": "29471",
+   "quote": "Heraclius, fils du maitre",
+   "grade": "Documented",
+   "source": "French; plain gloss (OCR)."
+  },
+  {
+   "entry": "heraclius",
+   "field": "legacy",
+   "sentence": "Phocas fell.",
+   "file": "cic/texts/chronicle-of-seert_histoire-nestorienne-seconde-partie-po13-ara-fra_scher1919.txt",
+   "lines": "29475",
+   "quote": "Phocas ecrivit qu'il se retirerait du trone",
+   "grade": "Documented",
+   "source": "French; plain gloss (OCR)."
+  },
+  {
+   "entry": "heraclius",
+   "field": "legacy",
+   "sentence": "The Chronicle records his death.",
+   "file": "cic/texts/chronicle-of-seert_histoire-nestorienne-seconde-partie-po13-ara-fra_scher1919.txt",
+   "lines": "34144",
+   "quote": "Heraclius mourut en la 992",
+   "grade": "Documented",
+   "source": "French; plain gloss (OCR)."
+  },
+  {
+   "entry": "heraclius",
+   "field": "legacy",
+   "sentence": "The editor says the year should read 952.",
+   "file": "cic/texts/chronicle-of-seert_histoire-nestorienne-seconde-partie-po13-ara-fra_scher1919.txt",
+   "lines": "34149",
+   "quote": "plutot 952; Heraclius mourut le 11 fevrier",
+   "grade": "Documented",
+   "source": "French; plain gloss (OCR). 952 of Alexander is 640-41."
+  },
+  {
+   "entry": "heraclius",
+   "field": "legacy",
+   "sentence": "Armenian and Church of the East are the two counted traditions (reviewed row C111).",
+   "file": null,
+   "lines": null,
+   "quote": null,
+   "grade": "Documented",
+   "source": "Later-worlds count, reviewed row C111: armenian-christianity-era-8 (5 passages), church-of-the-east-under-the-abbasids (10)."
+  }
+ ],
+ "concerns": [
+  {
+   "link_id": "canons-regular-victorine-school--the-franciscan-movement",
+   "concerns": "bonaventure"
+  }
+ ],
+ "rows": [
+  {
+   "movement": "alexandria-catechetical",
+   "replace_name": null,
+   "person": "pamphilus-of-caesarea"
+  },
+  {
+   "movement": "the-franciscan-movement",
+   "replace_name": "Bonaventure",
+   "person": "bonaventure"
+  },
+  {
+   "movement": "byzantine-imperial-church-heraclian-iconoclast",
+   "replace_name": null,
+   "person": "heraclius"
+  }
+ ],
+ "links": [],
+ "wants": [
+  "English rendering of Pamphilus's Apology for Origen, Book I (Rufinus's Latin): the Library has only the Latin, so the entry quotes no word of the Apology itself and cannot show his own voice in English.",
+  "A clean Latin edition of the Ecthesis, or a Greek text, in place of the OCR in Mansi X: the Lateran acts give it with long s read as f and a garbled Greek column, so every Latin quote carries the OCR noise.",
+  "A primary source for the letter in which Heraclius says the Ecthesis was not his (Baronius or Pagi's own text, or the letter itself): the Library has it only as a Latin quotation inside Mansi's notes.",
+  "A source for Bonaventure's birth year and for his own dates that is not a later chronicle (the Library headers say c. 1217-1274 but no text line gives a birth year)."
+ ],
+ "flags": [
+  "LINKS NOT CHANGED, already set: alexandria-catechetical--palestinian-church-pre-constantinian has concerns 'origen' and palestinian-church-pre-constantinian--hieronymian-ascetic-literary has concerns 'jerome'. Both notes name Pamphilus (his library and his copies of Origen), so each link also fits Pamphilus, but each stays with its present person. No concerns written for Pamphilus.",
+  "BONAVENTURE concerns: set on canons-regular-victorine-school--the-franciscan-movement (its note and sources are about his Itinerarium and McCann's remark on him). Not set on cistercian-monasticism--the-english-mystics-and-devout: two of its quoted sources name St. Bonaventura (Underhill, Rolle 1914 and Hilton 1923) but its note and main subject are Bernard, and Bernard has no entry; left null for the coordinator to decide. The entry's legacy uses those two Underhill lines.",
+  "HERACLIUS concerns: none set. byzantine-imperial-church-justinianic--byzantine-imperial-church-heraclian-iconoclast names him only to date the patriarchate's run (Sergius crowned him in 610); its quotes are the 681 council on Sergius and Macler's coronation note, so it is about Sergius and the patriarchate, not his own words or acts.",
+  "PEOPLE ROWS: alexandria-catechetical and byzantine-imperial-church-heraclian-iconoclast have no item for these two, so the items are added (replace_name null). Suggested order: Pamphilus after Dionysius of Alexandria (year about 307) and before Athanasius; Heraclius before Maximus the Confessor (year 610). Bonaventure replaces the existing row item named 'Bonaventure' (the McCann note citation).",
+  "LATIN, FRENCH AND ITALIAN: no English rendering of my own is quoted. Where the prose states what a Latin, French or Italian line says (Glassberger on his election, death and the 1269 chapter; the Itinerarium prologue; the Ecthesis and the Lateran council's words; Sebeos on the Cross; Serpos; the Chronicle of Seert), it is a plain statement of the line in the fact table, and each such row is marked 'plain gloss'. A Latin reader should check those rows before release.",
+  "PAMPHILUS dates: 307-310 are the prison years and the two dates given for his death (309 by Jerome's note and the anf06 notice; February 310 by the English editor of Eusebius, NPNF, from Martyrs of Palestine 11). start 307, end 310. The Library's sources give no birth year, so these are working years, not life years. The Lommatzsch file header also dates him d. 310.",
+  "PAMPHILUS lane: kept at the home tradition's lane (4 Africa), as origen does, though his life was at Caesarea (the Palestinian pre-Constantinian entry sits in lane 3). regions are Middle East and Mediterranean; modernCountries is Caesarea Maritima, copied from origen.",
+  "PAMPHILUS authorship (Mark's ruling B): the entry says plainly that the Library counts the jointly written Apology as his own words and names Jerome's denial. It also records that Jerome's own catalogue entry (De viris illustribus 75) gives Pamphilus an Apology for Origen, and that the English editors of Eusebius (McGiffert) and of Jerome and Rufinus (Freemantle) both hold that Pamphilus was a joint author. Jerome's catalogue line has italics tags inside the XML, so its fact row quotes the plain text before the tag. The passage about him copying Origen is Jerome too (De viris illustribus 75).",
+  "PAMPHILUS: the Apology's preface is headed 'Praefatio ad Confessores ad metalla Palaestinae damnatos' (Lommatzsch line 14112; Migne line 41939). I left it out of the prose because stating it needs my own English rendering of a Latin heading. It could be added if Mark accepts a plain gloss.",
+  "HERACLIUS dates: the brief said 610-641 was unsourced. Both ends are now tied to Library lines: coronation on 6 October 610 (Macler's note, Sebeos file line 4565) and death on 11 February 641 (a Latin note in Mansi X, line 73454-73455, OCR 'xt.' for 'xi.'). The earlier doubt about the Chronicle of Seert's printed year 992 of Alexander is settled by Scher's own footnote on the same page, which reads (OCR) 'plutot 952; Heraclius mourut le 11 fevrier'; 952 of Alexander is 640-41, so the Seert passage agrees with 641.",
+  "HERACLIUS Ecthesis: the year 638 rests on two Latin notes in Mansi X (line 63221 and lines 71322-71325), not on the document itself. The Ecthesis text in the Lateran acts begins about line 100116 of the Mansi file. The 'one operation or two' and 'two wills' sentences are the document's own words (Latin, OCR); the entry says the Ecthesis calls the confession of two wills in conflict impious, which follows the Latin ('duas confiteamur voluntates, contrarie adinvicem venientes ... impium').",
+  "HERACLIUS authorship: the entry gives both sides (Lateran fathers: Sergius urged it; a letter quoted in Mansi's notes, in which Heraclius says Sergius composed it and he agreed to put his name to it). Mark may want to rule whether a document the emperor says he neither said nor ordered written still counts as 'issued in his name' for the own-words test; the entry counts it, per the task brief.",
+  "HERACLIUS legacy: Serpos line 16119-16120 and lines 13733-13738 are Italian OCR. The Chronicle of Seert passages are French OCR with garbled letters (for example 'tautiuople'); the quotes are verbatim to that OCR. Scher's death passage also appears in the Library's file with OCR damage.",
+  "NO NEW LINKS: none of the three entries' prose states a relationship between two traditions that the census lacks. The Armenian and Church of the East 'names him' relations are legacy statements only, not links.",
+  "BONAVENTURE legacy and sourcing: Liguori's sentence names no work (checked in the sentence at line 511); I did not check what Liguori cites elsewhere. The Underhill lines are from the introductions in the 1914 Rolle (Comper) and 1923 Hilton volumes, as the existing link note says.",
+  "BONAVENTURE dates: 1257 is Glassberger's 1256 corrected by the Quaracchi editors' note (new-year count) and Salimbene's 'seventeen years'; 1274 is Glassberger's year for his call to Lyon and death at the council. Glassberger's own text says 1256."
+ ]
+}

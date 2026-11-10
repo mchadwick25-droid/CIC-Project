@@ -1,0 +1,143 @@
+{
+  "round": 1,
+  "scope": ["pamphilus-of-caesarea", "bonaventure", "heraclius", "fact_table", "concerns", "rows", "wants", "flags"],
+  "verdict": "revise",
+  "findings": [
+    {
+      "id": "R5-01",
+      "target": "bonaventure",
+      "field": "longDescription",
+      "severity": "substantial",
+      "problem": "The prose says that in 1274 Gregory X called him to the council at Lyon and made him cardinal and bishop of Albano. Glassberger gives two chronicles that disagree here, and the Quaracchi editors' note on the passage says both are wrong. Gregory X named him cardinal and bishop of Albano on 3 June 1273. He took the insignia at Mugello and reached Lyon with the pope in November 1273. The draft follows the editors on 1256/1257 but ignores their correction here, so it gives a date its own source rejects.",
+      "evidence": "glassberger_chronica-analecta-franciscana-v2-lat_1887.txt:7150-7155 (Saxon chronicle 'eodem anno' [1272 heading at ~7102] vs Order chronicle 'anno 1274 de urbe Parisiensi Lugdunum ... vocatus'); editors' note 2 at 7194-7203: 'Utrumque chronicon aliquo modo errat ... Papa enim Gregorius X. tertio Iunii eum Cardinalem et Episcopum Albanensem designavit ... recepit in conventu fratrum in Mugello ... profectus est una cum Papa Lugdunum ad celebrandum concilium, ubi in mense Novembris 1273 pervenerunt.'",
+      "fix": "Replace the sentence with: \"In 1273 Pope Gregory X named him a cardinal and bishop of Albano. The editors say he then went with the pope to Lyon for the council.\" Add fact rows at 7198-7199 ('tertio Iunii eum Cardinalem et Episcopum Albanensem designavit') and 7202-7203 ('profectus est una cum Papa Lugdunum ad celebrandum concilium'), and correct rows 61-62. In sourcing, add one sentence: \"Glassberger's two chronicles disagree on the year he became a cardinal; the editors give 1273.\""
+    },
+    {
+      "id": "R5-02",
+      "target": "heraclius",
+      "field": "longDescription (and sourcing)",
+      "severity": "substantial",
+      "problem": "The gloss of the letter in Mansi's note gets three things wrong. (1) 'ante quinque annos, priusquam ab Oriente repedassem' means 'five years ago, before I came back from the East'. The draft reads it as 'five years before he came home', which changes the dates. (2) 'neque ego vel dictavi, vel iussi ut fieret' means he neither dictated it nor ordered it made. 'He did not say it' gives a misleading modern sense. (3) It drops 'cum subscriptione': Sergius asked for it to be set out in his name with his signature, once he had come to the city. Point (3) is the evidence that it was signed in his name, which answer C counts.",
+      "evidence": "mansi_sacrorum-conciliorum-collectio-tomus-10-lat_welter-facsimile1901.txt:73365-73373 'Ecthesis inquit non est mea; neque enim ego vel dic[t]avi, vel iuss[i] ut fieret. Sed cum hanc Sergius patriarcha composuisset ante quinque annos, priusquam ab Oriente repedassem, deprecatus est me, cum ad hanc felicem pervenissem urbem, ut nomine meo proponeretur cum subscriptione: & suscepi deprecationem illius. Nunc vero cognoscens, quod quidam super ea altercarentur, cunctis facio manifestum, quia non est mea.'",
+      "fix": "Replace with: \"A letter quoted in the Mansi notes has Heraclius say the Ecthesis is not his. He says he did not dictate it or order it made. Sergius wrote it five years earlier, before Heraclius came back from the East. When the emperor reached the city, Sergius asked him to set it out in his name, with his signature, and he agreed.\" In sourcing, change 'and that Sergius composed it' to 'that Sergius composed it, and that he agreed to set it out in his name with his signature.'"
+    },
+    {
+      "id": "R5-03",
+      "target": "heraclius",
+      "field": "fact_table[119]",
+      "severity": "substantial",
+      "problem": "This row supports 'he agreed to Sergius's request' with line 27865 and the quote '& fufcept'. Line 27865 is in a letter of Gregory the Great about a sick bishop ('hospitalitatemque & susceptiones possit exhibere'), not the Heraclius letter. The quote only matches by chance, so the mechanical check passes a wrong citation.",
+      "evidence": "mansi...txt:27850-27866 (Gregory's letter: 'que & fufceptiones poffit exhibere'); the real words are at 73370-73371: '& fufcept Beprecationem sMius' (suscepi deprecationem illius).",
+      "fix": "Set lines to \"73370-73371\" and quote to \"& fufcept Beprecationem sMius\". Add a row for 'cum [ubjcriptione' at 73370 to support 'with his signature' (see R5-02)."
+    },
+    {
+      "id": "R5-04",
+      "target": "pamphilus-of-caesarea",
+      "field": "legacy, longDescription, sourcing",
+      "severity": "substantial",
+      "problem": "Jerome does not state on his own word that Pamphilus wrote only letters. He rests it on Eusebius: 'since Eusebius himself says that Pamphilus wrote nothing except some short letters'. The anf06 notice gives the Latin, from Eusebius's Life of Pamphilus as Jerome cites it. The legacy quote cuts off 'since Eusebius himself says that' and presents the rest as Jerome's own claim. The longDescription ('He said Pamphilus wrote only letters') and sourcing repeat this. That misstates one side of the contested claim. Jerome turns Eusebius against Eusebius, and the reader is not told.",
+      "evidence": "npnf203_theodoret-jerome-gennadius-rufinus.xml:53981-53982 'But, since Eusebius himself says that Pamphilus wrote nothing except some short letters to his friends'; anf06...xml:16912-16916 'There is a statement in Jerome to the effect that ... Pamphilus, through an excess of modesty, wrote no work of his own, with exception of some letters to his friends' (note: 'Proprii operis nihil omnino scripsit, exceptis epistolis quas ad amicos forte mittebat').",
+      "fix": "legacy: \"Against Rufinus he writes that Eusebius himself says 'Pamphilus wrote nothing except some short letters to his friends.'\" longDescription: \"He said Eusebius himself had written that Pamphilus wrote only letters.\" sourcing: \"Jerome, in his book against Rufinus, cites Eusebius as saying Pamphilus wrote nothing but some short letters.\" Widen fact rows 5, 34 and 43 to lines 53981-53982 with the full clause."
+    },
+    {
+      "id": "R5-05",
+      "target": "bonaventure",
+      "field": "longDescription",
+      "severity": "minor",
+      "problem": "'He says Francis's prayer saved his life when he was a child.' The source says 'by his invocation and merits', which means by calling on Francis and by Francis's merits. It does not say Francis prayed. 'Prayer' adds a sense the text does not have.",
+      "evidence": "bonaventure_life-of-saint-francis-legenda-maior_salter1904.txt:387-389 'how I was snatched from the jaws of death, while yet a child, by his invocation and merits'",
+      "fix": "\"He says that as a child he was snatched from death by calling on Francis, and by Francis's merits.\""
+    },
+    {
+      "id": "R5-06",
+      "target": "bonaventure",
+      "field": "legacy",
+      "severity": "minor",
+      "problem": "The 1269 chapter gloss drops a clause. The chapter ordered the Mass sung each Saturday 'quando fieri poterit bono modo', that is, where it could fittingly be done. It also leaves out 'ob reverentiam Virginis gloriosae'. The gloss reads as an order without that condition.",
+      "evidence": "glassberger...txt:6888-6890 'in quo fuit definitum, quod ob reverentiam Virginis gloriosae quolibet sabbato solemniter cantaretur una Missa, quando fieri poterit bono modo'",
+      "fix": "\"It ordered that, out of reverence for the Virgin, a Mass be sung solemnly each Saturday, where this could fittingly be done.\""
+    },
+    {
+      "id": "R5-07",
+      "target": "bonaventure",
+      "field": "longDescription",
+      "severity": "minor",
+      "problem": "In the Itinerarium gloss, 'going up Mount Alverna' does not render 'ad montem Alvernae tanquam ad locum quietum amore quaerendi pacem spiritus declinarem'. That says he turned aside to the mountain as a quiet place, out of love for seeking peace of spirit. It also drops the time ('near the anniversary of Francis's passing, in the thirty-third year').",
+      "evidence": "bonaventure_tria-opuscula...quaracchi1911.txt:12305-12309",
+      "fix": "\"In the prologue to the Itinerarium, he writes that he withdrew to Mount Alverna, near the day of Francis's death, to seek peace of spirit in a quiet place. There Francis had seen the vision of the seraph.\""
+    },
+    {
+      "id": "R5-08",
+      "target": "heraclius",
+      "field": "longDescription",
+      "severity": "minor",
+      "problem": "'with all the church's honors' misrenders 'avec tout l'appareil ecclésiastique qui avait échappé aux mains des ennemis dans la ville de Byzance'. 'Appareil' here means the church's vessels and furnishings, as the same passage confirms ('remit tous les objets ecclésiastiques'). 'Honors' suggests a ceremony.",
+      "evidence": "sebeos_histoire-d-heraclius-fra_macler1904.txt:6119-6130, 6153-6155",
+      "fix": "\"Sebeos writes that the king received the holy Cross and brought it to Jerusalem, with all the church vessels that had escaped the enemy in Byzantium. There he set it back in its place, and put the church's objects back where they belonged.\""
+    },
+    {
+      "id": "R5-09",
+      "target": "heraclius",
+      "field": "legacy",
+      "severity": "minor",
+      "problem": "The Serpos gloss leaves out one of the clergy's reasons ('da brama di renderlosi propizio, e difensore contro i Persiani'). Its 'it' never says what came from these motives: the Armenians' yielding to the Greeks. The council clause also drops 'ed a' Greci Curopalati'.",
+      "evidence": "serpos_compendio-storico-nazione-armena-t2-ita_1786.txt:13729-13737; 16117-16120 'tenuto del patriarca Jezr per far piacere all' imperator Eraclio, ed a' Greci Curopalati'",
+      "fix": "\"...held the council at Karin to please the emperor Heraclius and the Greek curopalates. He also gives the answer of the nation's learned clergy. They say the Armenians gave way from a wish for peace, from respect for Heraclius, from joy at his victories, and from a wish to win him as their defender against the Persians.\""
+    },
+    {
+      "id": "R5-10",
+      "target": "heraclius",
+      "field": "sourcing, longDescription",
+      "severity": "minor",
+      "problem": "'The Lateran fathers say Sergius urged it on the emperor' loses what the Latin says. Sergius persuaded Heraclius to put his own name on it ('suasit ... nomini Heraclium ... titulare'). That is the point that bears on its counting as issued in his name. Also, 'forbids anyone to say one operation or two' drops 'or teach' ('dicere sive docere').",
+      "evidence": "mansi...txt:99689 'quam ecthesim suasit in tempore suo nomini Heraclium quondam imperatorem titulare'; 100474-100476 'nullo modo concedentes alicui ex omnibus unam vel duas dicere sive docere operationes'",
+      "fix": "\"The Lateran fathers say Sergius persuaded Heraclius, then emperor, to put his name to it.\" and \"It forbids anyone to speak of or teach one operation or two.\" (Apply the same change in why.)"
+    },
+    {
+      "id": "R5-11",
+      "target": "heraclius",
+      "field": "sourcing, why, relationsSummary",
+      "severity": "minor",
+      "problem": "The draft says the Ecthesis was issued in 638 and cites Mansi's note at 63221. That note says a synod held in 638 confirmed Heraclius's Ecthesis ('Habita an. 638. in qua confirmata fuit Heraclii [Ecthesis]'), and 71322-71325 says the same. The line dates the confirmation, not the issue. The letter's 'five years' (R5-02) also points earlier.",
+      "evidence": "mansi...txt:63221; 71322-71325 'Heraclii Ecthesim fuisse confirmatam a pseudo-synodo Sergii anno 638'",
+      "fix": "Say \"In 638 a synod under Sergius confirmed a statement of faith issued in his name, the Ecthesis\", or keep '638' and tie it in the fact table to the confirmation note, worded so."
+    },
+    {
+      "id": "R5-12",
+      "target": "pamphilus-of-caesarea",
+      "field": "legacy",
+      "severity": "minor",
+      "problem": "Library jargon and process narration in a participant-facing field. 'on the Imperial and Juridical shelf' and 'In the Hieronymian world' use internal shelf language. The shipped entries name the tradition instead ('In the Russian church', 'In the Catholic Church of the old regime'). 'The quarrel is why he has an entry' is meta-commentary.",
+      "evidence": "Draft legacy; compare census legacy of methodius-of-olympus and justinian-i.",
+      "fix": "\"Eusebius, writing in the church of the Constantinian empire, calls him...\"; \"Jerome, in his ascetic and literary circle, calls him a copyist...\"; drop the last sentence, or replace it with \"Later readers know him through this quarrel.\""
+    },
+    {
+      "id": "R5-13",
+      "target": "bonaventure, heraclius",
+      "field": "fact_table",
+      "severity": "minor",
+      "problem": "Two facts in the prose have no fact-table row, though both have sources. Paris (region, placeLabel, teaser, modernCountries) rests on Glassberger 'de urbe Parisiensi Lugdunum ... vocatus' and the editors' note on his preaching at Paris. The council's year 649 (why, longDescription, voices) has no row either.",
+      "evidence": "glassberger...txt:7153; 7195-7196 'reversus est Lutetiam Parisiorum ... coram magistris Universitatis'; mansi...txt:63586 '(2) Habita anno 649.' and 82249 'Anno Christi 649'",
+      "fix": "Add the rows: Paris at glassberger 7153 ('de urbe Parisiensi Lugdunum'); 649 at mansi 63586 ('Habita anno 649')."
+    },
+    {
+      "id": "R5-14",
+      "target": "pamphilus-of-caesarea, heraclius",
+      "field": "fact_table[8], fact_table[93]",
+      "severity": "minor",
+      "problem": "The counting rule is sourced to 'the task brief'. It should cite Mark's rulings.",
+      "evidence": "Build/Ministry/Features/Church-Family-Tree/Decision-Log.md, 'The people list ruled; P2-G3 applied as data release 29', answer C; 'The later-worlds people ruled (P2-G3b)', B.",
+      "fix": "source: \"Decision-Log 2026-11-10, answer C (a document issued or signed in their name counts) and P2-G3b B (a jointly written work counts)\"."
+    },
+    {
+      "id": "R5-15",
+      "target": "heraclius",
+      "field": "relationsSummary",
+      "severity": "minor",
+      "problem": "'He ruled it from 610 to 641' says the emperor ruled the church. The sources say he was emperor.",
+      "evidence": "Draft relationsSummary.",
+      "fix": "\"He was emperor from 610 to 641, as this church's age began.\""
+    }
+  ],
+  "checked": "Read the brief, the release 29 review brief, the drafting brief and both Decision-Log rulings (release 29 answer C; P2-G3b A-C and the coordinator's correction). Read the lib1577 commit: the Apology, Bonaventure texts and Ecthesis shelf, and Open-Gaps 166. Ran check_draft.py from lib1577; it prints only 'check done', so all 132 quotes match and every paragraph passes FRE/FK. Opened the cited lines for every factual sentence: npnf201 3655-3676, 36968-36980, 44788-44793, 47066-47130; npnf203 40955-40972, 45125-45150, 49595-49619, 53970-53990, 54975-54982; anf06 16874-16920; the Lommatzsch and Migne headers; Glassberger 6414-6460, 6500-6504, 6884-6894, 7100-7204, 7276-7292; Salter 378-420, 446-452, 9905-9922; Quaracchi 12298-12326; Liguori 505-514; McCann 540-548 and 3988-3999; Underhill/Comper 750-756 and Hilton 598-604; Mansi 27850-27872, 63216-63224, 71318-71327, 73350-73400, 73448-73457, 82245-82252, 93385-93391, 99682-99692, 100060-100160, 100462-100535, 114494-114503, 115948-115958; Sebeos 4560-4567, 6110-6165; Serpos 13725-13740, 16110-16124; Seert 29466-29478, 34140-34150. Shape: all three records have origen's exact field set and order. Status fields match origen. The ids are not in movements or retiredMovements. Every modernCountries object exactly matches one already in the census (Caesarea Maritima from origen and palestinian-church; Italy, Paris and Lyon from the-franciscan-movement, canons-regular-victorine-school and irenaeus-of-lyon; Constantinople from 17 entries). Dates: Pamphilus 307-310 (anf06 16885; NPNF note 47126-47129), Bonaventure 1257-1274 (Glassberger and editors' note 6454-6458; 7282), Heraclius 610-641 (Macler 4565; Mansi 73455). Every start year is sourced, and they order the rows correctly: Pamphilus after Dionysius (247), Heraclius (610) before Maximus (628). Ruling B: the Pamphilus entry counts the Apology as his own words, names Jerome's denial, and holds no 'no words of his own' claim; R5-04 is about how Jerome's denial is attributed, not about the ruling. Heraclius and answer C: the Ecthesis still counts as a document issued and signed in his name. The Lateran acts head it as his exposition and say it was made by him at Sergius's persuasion (114499-114501). His own disavowal admits he agreed that Sergius's text go out in his name with his signature (73369-73371). Answer C covers documents drafted by others, as Paula's Letter 46 shows, so this is not a blocking point. The entry states both sides fairly once R5-02 and R5-10 are applied. Concerns: the victorine-franciscan link is about Bonaventure (note and McCann quotes); no set value is overwritten; the flags on the Cistercian-English mystics link, the two Pamphilus links (origen, jerome) and the Justinianic-Heraclian link are sound. Rows: the-franciscan-movement item 'Bonaventure' (year 1257, McCann source) is the same man; the other two rows are additions. Legacy names the counted traditions without claiming influence; the Underhill and McCann lines are attributed. Glosses: each Latin, French and Italian 'plain gloss' row checked against the original; corrected renderings are in R5-02 and R5-05 to R5-10. No 'could be stronger' findings."
+}
