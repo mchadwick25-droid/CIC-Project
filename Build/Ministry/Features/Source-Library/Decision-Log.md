@@ -90,7 +90,8 @@ the world can point to it.
   come from the same desert. No desert package went stale (`engine.m2.cli staleness-check`).
 - **The Pedalion.** It leaves the 1453-1650 shelf once the census person row for Nikodemos the
   Hagiorite stops pointing at that shelf's row. The people worker moves the pointer to the
-  1650-1821 row; the shelf row is removed after that lands on main.
+  1650-1821 row; the shelf row is removed after that lands on main. Done in batch 2: data release
+  32 (#1578) points the census row at the Philokalia rows, so nothing names the 1453-1650 row.
 
 **Flagged, not done.** The desert voice_craft record mentions Bell as "a newly-registered source".
 That phrase sits inside a long namesake rationale (five men named Paphnutius) whose other clauses

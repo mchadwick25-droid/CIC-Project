@@ -41,7 +41,7 @@ Located, not vendored: Bonaventure, Opera omnia VIII (Quaracchi 1898), the Latin
 | defect | fix |
 |---|---|
 | Hippolytus's Refutation shelved as Montanism's own voice | Role set to `context` on `montanism-the-new-prophecy` and on `ebionite-nazoraean-current`, which had the same fault. It stays `tradition` on `roman-church-third-century`, Hippolytus's own church. |
-| Nikodemos's Synaxaristes on the 1453-1650 shelf | Removed from `orthodoxy-under-the-ottomans-parish-millet-and-n`; it stays on the 1650-1821 and Kollyvades shelves. The Pedalion (1800) sits on the same shelf for the same reason. It is not moved yet: see the open questions. |
+| Nikodemos's Synaxaristes on the 1453-1650 shelf | Removed from `orthodoxy-under-the-ottomans-parish-millet-and-n`; it stays on the 1650-1821 and Kollyvades shelves. The Pedalion (1800) had the same fault; it was moved in batch 2. |
 | PO17 described as Petit's Florence documents | The row was right but named the whole volume. Loci now give line ranges: the Lives at 156-17448, Petit's Mark of Ephesus at 17449-49934, the Arabic Synaxary from 49935. |
 | The Brosset file is the Introduction volume | The file header now says so. The two chronicle-voice rows are replaced by one `context` row for Brosset's study. The chronicle text itself is a new want (batch 2). |
 | "Whole file" loci on multi-work volumes | Fixed for PO17. The general pass (707 staging files say "whole") is batch 2: Langlois's sections, the anf volumes, the PO fascicules. |
@@ -58,8 +58,9 @@ Located, not vendored: Bonaventure, Opera omnia VIII (Quaracchi 1898), the Latin
    row stays `tradition` (batch 2). The M9 gate keeps every desert source record on desert's own
    shelf, and Mark's rule allows it: "if the source is consurant of past and they could likcly know it
    they can point to it".
-2. The Pedalion (1800): it leaves the 1453-1650 shelf once the census person row for Nikodemos
-   points at the 1650-1821 row. That is the people worker's change.
+2. The Pedalion (1800): off the 1453-1650 shelf (batch 2), once data release 32 (#1578) had moved
+   the census person row for Nikodemos onto the Philokalia rows. It stays on the 1650-1821 and
+   Kollyvades shelves.
 
 ## Batch 2 — the eras 8-9 holds (`CiC_Step0_Eras8-9_GlobalSweep_V1_0.md`)
 
