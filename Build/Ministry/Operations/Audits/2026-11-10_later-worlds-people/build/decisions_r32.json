@@ -1,0 +1,32 @@
+{
+ "rows_drop": [
+  {
+   "movement": "orthodoxy-under-the-ottomans-parish-millet-and-n",
+   "name": "Nikodemos the Hagiorite",
+   "reason": "Out of window: a man of 1782 in a 1453-1650 tradition, held on a Pedalion row the Library moves to the 1650-1821 shelf (#1577). He stays in the Kollyvades row."
+  }
+ ],
+ "field_overrides": [
+  {
+   "id": "bonaventure",
+   "set": {
+    "placeLabel": "Italy · Paris and beyond",
+    "modernCountries": [
+     {
+      "country": "Italy",
+      "countryId": "Q38",
+      "place": "Italy",
+      "placeId": "Q38"
+     },
+     {
+      "country": "France",
+      "countryId": "Q142",
+      "place": "Paris",
+      "placeId": "Q90"
+     }
+    ]
+   },
+   "reason": "The validator requires every modern-country place on the place label, and a label names at most two places from region. Italy (minister general) and Paris (master) stay; Lyon, where he died at the council, is carried by 'and beyond'. IDs unchanged from the draft, which copied them from existing entries."
+  }
+ ]
+}
