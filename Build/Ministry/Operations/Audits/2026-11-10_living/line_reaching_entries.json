@@ -1,0 +1,541 @@
+[
+ {
+  "id": "syriac-edessa-nisibis",
+  "atlasId": "I.7",
+  "name": "Syriac Christianity (Edessa/Nisibis)",
+  "dates": "200–410 CE",
+  "carriedBy": [
+   "IX.19"
+  ]
+ },
+ {
+  "id": "armenian-christianity-conversion-era",
+  "atlasId": "I.10",
+  "name": "Armenian Christianity (conversion era)",
+  "dates": "c. 314-451",
+  "carriedBy": [
+   "IX.27"
+  ]
+ },
+ {
+  "id": "persian-church-of-the-east-early",
+  "atlasId": "I.12",
+  "name": "Persian Church of the East (early)",
+  "dates": "c. 300-451",
+  "carriedBy": [
+   "IX.19"
+  ]
+ },
+ {
+  "id": "cyrilline-miaphysite-egyptian-christianity",
+  "atlasId": "II.1",
+  "name": "The Church of Alexandria and Miaphysite Egypt",
+  "dates": "328-642",
+  "carriedBy": [
+   "IX.10"
+  ]
+ },
+ {
+  "id": "the-church-of-the-east-under-persia",
+  "atlasId": "II.3",
+  "name": "The Church of the East under Persia",
+  "dates": "424-651",
+  "carriedBy": [
+   "IX.19"
+  ]
+ },
+ {
+  "id": "armenian-christianity-after-avarayr",
+  "atlasId": "II.4",
+  "name": "Armenian Christianity after Avarayr",
+  "dates": "451-554",
+  "carriedBy": [
+   "IX.27"
+  ]
+ },
+ {
+  "id": "armenian-christianity-before-the-bagratids",
+  "atlasId": "II.19",
+  "name": "Armenian Christianity before the Bagratids",
+  "dates": "c. 554-884",
+  "carriedBy": [
+   "IX.27"
+  ]
+ },
+ {
+  "id": "byzantine-imperial-church-justinianic",
+  "atlasId": "II.13",
+  "name": "The Byzantine Imperial Church (Justinianic)",
+  "dates": "451-622",
+  "carriedBy": [
+   "IX.72",
+   "IX.71"
+  ]
+ },
+ {
+  "id": "the-church-of-the-east-on-the-silk-road",
+  "atlasId": "III.1",
+  "name": "The Church of the East on the Silk Road",
+  "dates": "c. 635-845",
+  "carriedBy": [
+   "IX.19"
+  ]
+ },
+ {
+  "id": "church-of-the-east-under-the-abbasids",
+  "atlasId": "III.25",
+  "name": "The Church of the East under the Abbasids",
+  "dates": "c. 845-1220",
+  "carriedBy": [
+   "IX.19"
+  ]
+ },
+ {
+  "id": "coptic-christianity-under-early-islam",
+  "atlasId": "III.3",
+  "name": "Coptic Christianity under Early Islam",
+  "dates": "642-1013",
+  "carriedBy": [
+   "IX.10"
+  ]
+ },
+ {
+  "id": "byzantine-imperial-church-heraclian-iconoclast",
+  "atlasId": "III.15",
+  "name": "The Byzantine Imperial Church (Heraclian & Iconoclast Eras)",
+  "dates": "622-843",
+  "carriedBy": [
+   "IX.72",
+   "IX.71"
+  ]
+ },
+ {
+  "id": "byzantine-imperial-church-macedonian",
+  "atlasId": "III.22",
+  "name": "The Byzantine Imperial Church (Macedonian Era)",
+  "dates": "843-1054",
+  "carriedBy": [
+   "IX.72",
+   "IX.71"
+  ]
+ },
+ {
+  "id": "bagratid-armenian-christianity",
+  "atlasId": "III.16",
+  "name": "Bagratid Armenian Christianity",
+  "dates": "c. 884-1045",
+  "carriedBy": [
+   "IX.27"
+  ]
+ },
+ {
+  "id": "byzantine-church-after-1054",
+  "atlasId": "IV.17",
+  "name": "The Byzantine Church after the Schism",
+  "dates": "1054-1300",
+  "carriedBy": [
+   "IX.72",
+   "IX.71"
+  ]
+ },
+ {
+  "id": "latin-papal-church-gregorian",
+  "atlasId": "IV.18",
+  "name": "The Latin Papal Church (Gregorian Reform to Innocent III)",
+  "dates": "c. 1049-1300",
+  "carriedBy": [
+   "IX.23"
+  ]
+ },
+ {
+  "id": "armenian-cilicia",
+  "atlasId": "IV.20",
+  "name": "Armenian Christianity in Cilicia",
+  "dates": "c. 1080-1300",
+  "carriedBy": [
+   "IX.27"
+  ]
+ },
+ {
+  "id": "church-of-the-east-under-the-mongols",
+  "atlasId": "IV.22",
+  "name": "The Church of the East under the Mongols",
+  "dates": "c. 1220-1317",
+  "carriedBy": [
+   "IX.19"
+  ]
+ },
+ {
+  "id": "coptic-christianity-fatimid-to-mamluk",
+  "atlasId": "IV.26",
+  "name": "Coptic Christianity, Fatimid to Mamluk",
+  "dates": "c. 1054-1300",
+  "carriedBy": [
+   "IX.10"
+  ]
+ },
+ {
+  "id": "muscovite-monastic-christianity",
+  "atlasId": "V.8",
+  "name": "Muscovite Monastic Christianity",
+  "dates": "c. 1340-1517",
+  "carriedBy": [
+   "IX.69"
+  ]
+ },
+ {
+  "id": "latin-papal-church-avignon-to-lateran-v",
+  "atlasId": "V.14",
+  "name": "The Latin Papal Church (Avignon to Fifth Lateran)",
+  "dates": "1300-1517",
+  "carriedBy": [
+   "IX.23"
+  ]
+ },
+ {
+  "id": "byzantine-church-palaiologan",
+  "atlasId": "V.15",
+  "name": "The Byzantine Church, Palaiologan Era",
+  "dates": "1300-1453",
+  "carriedBy": [
+   "IX.72",
+   "IX.71"
+  ]
+ },
+ {
+  "id": "church-of-the-east-timur-to-hakkari",
+  "atlasId": "V.17",
+  "name": "The Church of the East — Timur's Catastrophe and the Northern Remnant",
+  "dates": "1317-1517",
+  "carriedBy": [
+   "IX.19"
+  ]
+ },
+ {
+  "id": "armenian-cilicia-after-the-kingdom",
+  "atlasId": "V.21",
+  "name": "Armenian Christianity after the Kingdom (Sis to Etchmiadzin)",
+  "dates": "1300-1441",
+  "carriedBy": [
+   "IX.27"
+  ]
+ },
+ {
+  "id": "the-english-reformation-and-elizabethan-settleme",
+  "atlasId": "VI.4",
+  "name": "The English Reformation & Elizabethan Settlement",
+  "dates": "1530s-1650",
+  "carriedBy": [
+   "IX.52"
+  ]
+ },
+ {
+  "id": "new-spain-and-andes-mission-born-christianity",
+  "atlasId": "VI.13d",
+  "name": "Mission-Born Christianity in New Spain and the Andes",
+  "dates": "1524-1650",
+  "carriedBy": [
+   "IX.62"
+  ]
+ },
+ {
+  "id": "orthodoxy-under-the-ottomans-parish-millet-and-n",
+  "atlasId": "VI.17",
+  "name": "Orthodoxy under the Ottomans - Parish, Millet & Neomartyrs",
+  "dates": "1453-1650",
+  "carriedBy": [
+   "IX.72",
+   "IX.71"
+  ]
+ },
+ {
+  "id": "philippine-catholicism",
+  "atlasId": "VI.19",
+  "name": "Philippine Catholicism",
+  "dates": "1565-1650",
+  "carriedBy": [
+   "IX.66"
+  ]
+ },
+ {
+  "id": "the-union-of-brest-and-ruthenian-greek-catholic-",
+  "atlasId": "VI.20",
+  "name": "The Union of Brest & Ruthenian Greek Catholic Christianity",
+  "dates": "1596-c. 1700",
+  "carriedBy": [
+   "IX.21"
+  ]
+ },
+ {
+  "id": "the-tridentine-church",
+  "atlasId": "VI.22",
+  "name": "The Tridentine Church",
+  "dates": "1517-1650",
+  "carriedBy": [
+   "IX.23"
+  ]
+ },
+ {
+  "id": "russian-church-stoglav-to-nikon",
+  "atlasId": "VI.23",
+  "name": "The Russian Church, Stoglav to the Eve of Nikon",
+  "dates": "1517-1650",
+  "carriedBy": [
+   "IX.69"
+  ]
+ },
+ {
+  "id": "armenian-christianity-new-julfa",
+  "atlasId": "VI.28",
+  "name": "Armenian Christianity — Etchmiadzin and New Julfa",
+  "dates": "1517-1650",
+  "carriedBy": [
+   "IX.27"
+  ]
+ },
+ {
+  "id": "church-of-the-east-schism-of-1552",
+  "atlasId": "VI.30",
+  "name": "The Church of the East — the Schism of 1552",
+  "dates": "1517-1650",
+  "carriedBy": [
+   "IX.19"
+  ]
+ },
+ {
+  "id": "colonial-latin-american-devotional-catholicism",
+  "atlasId": "VII.17",
+  "name": "Colonial Latin American Devotional Catholicism",
+  "dates": "c. 1600-1810",
+  "carriedBy": [
+   "IX.62"
+  ]
+ },
+ {
+  "id": "orthodoxy-under-the-ottomans-1650-1821",
+  "atlasId": "VII.18",
+  "name": "Orthodoxy under the Ottomans — the Second Act",
+  "dates": "1650-1821",
+  "carriedBy": [
+   "IX.72",
+   "IX.71"
+  ]
+ },
+ {
+  "id": "catholic-church-ancien-regime",
+  "atlasId": "VII.19",
+  "name": "The Catholic Church of the Ancien Régime",
+  "dates": "1650-1815",
+  "carriedBy": [
+   "IX.23"
+  ]
+ },
+ {
+  "id": "restoration-georgian-church-of-england",
+  "atlasId": "VII.20",
+  "name": "The Restoration and Georgian Church of England",
+  "dates": "1660-1815",
+  "carriedBy": [
+   "IX.52"
+  ]
+ },
+ {
+  "id": "russian-church-nikon-to-holy-synod",
+  "atlasId": "VII.21",
+  "name": "The Russian Church — Nikon to the Holy Synod",
+  "dates": "1652-1815",
+  "carriedBy": [
+   "IX.69"
+  ]
+ },
+ {
+  "id": "armenian-apostolic-church-era-8",
+  "atlasId": "VII.24a",
+  "name": "Armenian Apostolic Church — Etchmiadzin and Constantinople",
+  "dates": "1650-1815",
+  "carriedBy": [
+   "IX.27"
+  ]
+ },
+ {
+  "id": "ruthenian-uniate-18th-century",
+  "atlasId": "VII.28",
+  "name": "The Ruthenian Uniate Church — Zamość to the Partitions",
+  "dates": "1700-1815",
+  "carriedBy": [
+   "IX.21"
+  ]
+ },
+ {
+  "id": "philippine-catholicism-era-8",
+  "atlasId": "VII.29",
+  "name": "Philippine Catholicism — Era-8 Segment",
+  "dates": "1650-1815",
+  "carriedBy": [
+   "IX.66"
+  ]
+ },
+ {
+  "id": "the-black-church-in-america",
+  "atlasId": "VIII.1",
+  "name": "The Black Church in America",
+  "dates": "c. 1770s-1906",
+  "carriedBy": [
+   "IX.43"
+  ]
+ },
+ {
+  "id": "restorationist-apocalyptic-ferment-and-adventism",
+  "atlasId": "VIII.10",
+  "name": "Restorationist-Apocalyptic Ferment & Adventism",
+  "dates": "1831-1906",
+  "carriedBy": [
+   "IX.44"
+  ]
+ },
+ {
+  "id": "the-optina-elders-and-russian-ascetic-renewal",
+  "atlasId": "VIII.11",
+  "name": "The Optina Elders & Russian Ascetic Renewal",
+  "dates": "1821-1906",
+  "carriedBy": [
+   "IX.22"
+  ]
+ },
+ {
+  "id": "coptic-revival-under-cyril-iv",
+  "atlasId": "VIII.13",
+  "name": "The Coptic Revival — Cyril IV and After",
+  "dates": "1854-1906",
+  "carriedBy": [
+   "IX.10"
+  ]
+ },
+ {
+  "id": "indonesian-christianity",
+  "atlasId": "VIII.26",
+  "name": "Indonesian Christianity",
+  "dates": "1861-1906",
+  "carriedBy": [
+   "IX.37"
+  ]
+ },
+ {
+  "id": "northeast-india-revivals-and-the-mar-thoma-refor",
+  "atlasId": "VIII.27",
+  "name": "Northeast India Revivals & the Mar Thoma Reform",
+  "dates": "1836-1906",
+  "carriedBy": [
+   "IX.38"
+  ]
+ },
+ {
+  "id": "orthodoxy-after-1821-balkan-autocephalies",
+  "atlasId": "VIII.28",
+  "name": "Orthodoxy after 1821 — the National Churches",
+  "dates": "1821-1906",
+  "carriedBy": [
+   "IX.72",
+   "IX.71"
+  ]
+ },
+ {
+  "id": "catholic-church-long-nineteenth-century",
+  "atlasId": "VIII.29",
+  "name": "The Catholic Church of the Long Nineteenth Century",
+  "dates": "1815-1906",
+  "carriedBy": [
+   "IX.23"
+  ]
+ },
+ {
+  "id": "victorian-church-of-england",
+  "atlasId": "VIII.30",
+  "name": "The Victorian Church of England",
+  "dates": "1815-1906",
+  "carriedBy": [
+   "IX.52"
+  ]
+ },
+ {
+  "id": "russian-church-synodal-century",
+  "atlasId": "VIII.31",
+  "name": "The Russian Church — the Synodal Century",
+  "dates": "1815-1906",
+  "carriedBy": [
+   "IX.69"
+  ]
+ },
+ {
+  "id": "armenian-christianity-zartonk",
+  "atlasId": "VIII.32",
+  "name": "Armenian Christianity — the Zartonk Century",
+  "dates": "1815-1906",
+  "carriedBy": [
+   "IX.27"
+  ]
+ },
+ {
+  "id": "ruthenian-greek-catholic-polotsk-to-galicia",
+  "atlasId": "VIII.38",
+  "name": "The Ruthenian Greek Catholic Church — Polotsk to Galicia",
+  "dates": "1815-1906",
+  "carriedBy": [
+   "IX.21"
+  ]
+ },
+ {
+  "id": "philippine-catholicism-gomburza-to-aglipay",
+  "atlasId": "VIII.39",
+  "name": "Philippine Catholicism — Gomburza to the Aglipayan Schism",
+  "dates": "1815-1906",
+  "carriedBy": [
+   "IX.66"
+  ]
+ },
+ {
+  "id": "church-of-the-east-chaldean-consolidation",
+  "atlasId": "VIII.40",
+  "name": "The Church of the East & the Chaldean Consolidation",
+  "dates": "1815-1906",
+  "carriedBy": [
+   "IX.19"
+  ]
+ },
+ {
+  "id": "east-african-christianity-uganda-martyrs",
+  "atlasId": "VIII.43",
+  "name": "East African Christianity & the Uganda Martyrs",
+  "dates": "1844-1906",
+  "carriedBy": [
+   "IX.59"
+  ]
+ },
+ {
+  "id": "japanese-christianity-hidden-emergence-meiji",
+  "atlasId": "VIII.45",
+  "name": "Japanese Christianity — the Hidden Christians’ Emergence & the Meiji Church",
+  "dates": "1865-1906",
+  "carriedBy": [
+   "IX.68"
+  ]
+ },
+ {
+  "id": "nineteenth-century-latin-american-catholicism",
+  "atlasId": "VIII.48",
+  "name": "Nineteenth-Century Latin American Catholicism",
+  "dates": "1815-1906",
+  "carriedBy": [
+   "IX.62"
+  ]
+ },
+ {
+  "id": "ethiopian-christianity-tewodros-to-menelik",
+  "atlasId": "VIII.49",
+  "name": "Ethiopian Christianity — Tewodros to Menelik",
+  "dates": "1855-1900",
+  "carriedBy": [
+   "IX.20"
+  ]
+ }
+]

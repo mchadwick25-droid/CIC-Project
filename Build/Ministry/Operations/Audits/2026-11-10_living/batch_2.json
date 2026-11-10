@@ -1,0 +1,1151 @@
+[
+ {
+  "id": "syriac-orthodox-west-syriac-christianity",
+  "atlasId": "II.2",
+  "era": 3,
+  "name": "Syriac Orthodox (West Syriac) Christianity",
+  "dates": "451-636",
+  "lane": "Syriac East & Asia",
+  "currentFlag": true,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [
+   {
+    "id": "syriac-orthodox-under-islam",
+    "atlasId": "III.17",
+    "living": false,
+    "confidence": "Documented"
+   }
+  ],
+  "lineTerminals": [
+   {
+    "atlasId": "IV.21",
+    "id": "syriac-renaissance",
+    "era": 5,
+    "living": false,
+    "end": 1300,
+    "weakestLink": "Documented"
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "I.7 gave rise to this [Inferential-Thin] (I.7 = Syriac Christianity (Edessa/Nisibis), 200–410 CE)",
+   "this influenced II.1 [Documented] (II.1 = The Church of Alexandria and Miaphysite Egypt, 328-642)",
+   "II.1 in contact with this [Documented] (II.1 = The Church of Alexandria and Miaphysite Egypt, 328-642)",
+   "II.3 argued against this [Documented] (II.3 = The Church of the East under Persia, 424-651)",
+   "this argued against II.3 [Documented] (II.3 = The Church of the East under Persia, 424-651)",
+   "II.9 in contact with this [Widely Accepted] (II.9 = Aksumite Christianity, 451-615)"
+  ],
+  "statusDescription": "Tiered Strong (Tier 1), with John of Ephesus's Lives as its inside-voice strength. Its miaphysite dissent, like Egypt's, rejects Chalcedon's formula, not the Creed's content — a distinction that must be disclosed in any account of it.",
+  "relationsSummary": "It grew up on the Roman side of the Syriac tradition, around Ephrem's Edessa, though few texts trace that line of descent. Its bishops lived on because the Ghassanid Arab king Harith asked for new ones. Jacob Baradaeus was one of them.",
+  "why": "Under Justinian, this church had no legal right to exist. Jacob Baradaeus was made its bishop when the Ghassanid Arab king Harith asked, and the empress Theodora backed it. For decades he crossed Syria and Mesopotamia, ordaining priests and bishops one step ahead of the bishops hunting him. When Byzantine power fell at Yarmouk in 636, its clergy stood on their own. They had never stopped their work, though for long years they had no legal standing at all.",
+  "legacy": "The same institution is still here. It continued under Muslim rule and is today the Syriac Orthodox Church of Antioch, with congregations across the Middle East, in India and in a wide diaspora. It kept Syriac alive as a living liturgical language, and its translators preserved Greek theological works whose originals were lost. Including most of Severus's own writing, which survives only in Syriac. Several of its monasteries in the Tur Abdin, in what is now south-eastern Turkey, were founded before or during this period and are still occupied."
+ },
+ {
+  "id": "chalcedonian-monasticism-judean-desert-and-gaza",
+  "atlasId": "II.5",
+  "era": 3,
+  "name": "Chalcedonian Monasticism - Judean Desert & Gaza",
+  "dates": "c. 450-614",
+  "lane": "Greek East & Orthodoxy",
+  "currentFlag": true,
+  "existingLivingEvidence": null,
+  "predecessors": [
+   {
+    "id": "palestinian-ascetic-monasticism-early",
+    "atlasId": "I.34",
+    "confidence": "Inferential-Thin"
+   }
+  ],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "II.5",
+    "id": "chalcedonian-monasticism-judean-desert-and-gaza",
+    "era": 3,
+    "living": true,
+    "end": 614,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "I.3 influenced this [Documented] (I.3 = Desert Monasticism, c. 320–430 CE)",
+   "this gave rise to III.2 [Dominant Modern Reconstruction] (III.2 = Melkite Arabic Christianity, c. 700-1009)"
+  ],
+  "statusDescription": "Tiered Strong (Tier 1) — the era's richest inside voice, on Cyril of Scythopolis's dated Lives and Barsanuphius and John's roughly 850 letters of direction to ordinary people. Sinai sits inside this entry rather than as its own row. The window ends in 614, the Persian sack the sources themselves mourn.",
+  "relationsSummary": "It drew on Desert Monasticism, and its writers quoted the elders of Egypt by name. Its monks went back and forth to Sinai, where John Climacus later wrote the Ladder. Its services and teaching passed on into later Orthodox practice.",
+  "why": "Hermits in scattered cells and monks in shared houses lived in the ravines of the Judean desert and the villages near Gaza. What they left behind is rare. Two recluses, Barsanuphius and John, wrote roughly 850 letters. In them they gave answers to ordinary monks, married couples and sick people one question at a time. Most of these houses backed Chalcedon, yet the empire still pulled them into its fights over doctrine. The Persian army tore their houses apart when it sacked Jerusalem in 614.",
+  "legacy": "Much of what Eastern Orthodox monks still do draws on these houses. A book of services named after Sabas, the Typikon of Saint Sabas, was printed at Venice from 1515. Parts of it entered the Orthodox service books. The Ladder of Divine Ascent was written at Sinai just after this period. Orthodox monks still read it aloud every Lent, and Dorotheus of Gaza is still standard reading for the spiritual life. Two of the houses from this period still have monks living in them: Mar Saba in the Judean desert and Saint Catherine's at Sinai. They are among the oldest Christian houses anywhere to have been lived in without a break."
+ },
+ {
+  "id": "early-benedictine-italian-monasticism",
+  "atlasId": "II.6",
+  "era": 3,
+  "name": "Early Benedictine / Italian Monasticism",
+  "dates": "c. 500-604",
+  "lane": "Latin West & Catholicism",
+  "currentFlag": true,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "II.6",
+    "id": "early-benedictine-italian-monasticism",
+    "era": 3,
+    "living": true,
+    "end": 604,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "I.3 influenced this [Widely Accepted] (I.3 = Desert Monasticism, c. 320–430 CE)",
+   "I.27 influenced this [Widely Accepted] (I.27 = Gallic Monastic-Ascetic Christianity, c. 360-450)",
+   "this influenced IV.1 [Inferential-Thin] (IV.1 = Cistercian Monasticism, 1098-1300)"
+  ],
+  "statusDescription": "Tiered Strong (Tier 1), on the Rule and Gregory the Great's 850-plus letters; the Dialogues need careful handling as a source. The Three Chapters dissent belongs with the Byzantine Imperial entry, its actual opponent, rather than here.",
+  "relationsSummary": "Receives the desert via Cassian; most later Latin monks came to live by its Rule",
+  "why": "Benedict of Nursia left Rome for a cave at Subiaco, and around 529 he founded a monastery at Monte Cassino. Italy was being torn apart by the Gothic wars and then the Lombard invasions. His Rule ran to seventy-three short chapters on prayer, work, food and the election of an abbot. Most scholars think it cut down and softened an older, harsher text, with an eye for what ordinary people could actually keep up.",
+  "legacy": "The Rule became the standard for monks in the West. Carolingian reformers made it the norm across the Frankish empire. It stands behind the Cluniacs, the Cistercians and the Benedictine congregations that keep it today. Its language of stability, obedience and moderation reached far beyond the cloister. So did the way it built the day around fixed hours of prayer, and both passed into the West's habits of work and time. Monte Cassino itself was destroyed again and again, and rebuilt every time. Paul the Deacon tells how the Lombards sacked it. The abbey's own medieval chronicle tells of a Saracen attack. An earthquake later brought it down, and Allied bombing in 1944 is reported to have destroyed it. Monks live there now."
+ },
+ {
+  "id": "roman-church-gregorian",
+  "atlasId": "II.18",
+  "era": 3,
+  "name": "The Roman Church in the Age of Gregory the Great",
+  "dates": "c. 560-604",
+  "lane": "Latin West & Catholicism",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "II.18",
+    "id": "roman-church-gregorian",
+    "era": 3,
+    "living": false,
+    "end": 604,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "II.6 influenced this [Documented] (II.6 = Early Benedictine / Italian Monasticism, c. 500-604)",
+   "I.3 influenced this [Inferential-Thin] (I.3 = Desert Monasticism, c. 320–430 CE)",
+   "II.8 argued against this [Documented] (II.8 = Insular / Irish Monastic Christianity, c. 450-664)"
+  ],
+  "statusDescription": "Named as a live future candidate for survey, or a dropped voice, with reasoning given either way - not yet chosen, not forgotten.",
+  "relationsSummary": "Gregory was a monk and wrote the only life of Benedict there is. But his own work was a bishop's: the Pastoral Rule is a manual for bishops, and the Register is the paperwork of a government. His letters also tell us about the early English church, the Frankish church of Gaul and the imperial church at Constantinople.",
+  "why": "Gregory the Great became bishop of Rome in 590, during a plague, in a city whose Roman government had already collapsed under the Gothic wars and the Lombard invasions. He ran the papal estates in Sicily as the city's food supply, negotiated directly with Lombard dukes when the imperial governor at Ravenna would not, and in 596 sent his own monks to Kent to begin a mission whose questions and his answers still survive in his letters.",
+  "legacy": "The Pastoral Rule became the standard book on the bishop's office in the West, and it stayed in use for a thousand years. Carolingian councils told all bishops to study it. Hincmar of Rheims reports that new bishops were handed a copy at their consecration. Alfred had it translated into English, meaning, he said, to send a copy to every bishop in his kingdom. The mission to Kent is why there is an English church in communion with Rome at all. It is also why the early English church has a Roman half. Then there is the working model of the bishop of Rome as the practical government of central Italy. He fed the city from church estates, dealt with invaders and paid troops. That is where the temporal power of the papacy really begins, whatever later documents claimed for it."
+ },
+ {
+  "id": "merovingian-gallic-christianity",
+  "atlasId": "II.7",
+  "era": 3,
+  "name": "Merovingian Gallic Christianity",
+  "dates": "c. 480-620",
+  "lane": "Latin West & Catholicism",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [
+   {
+    "id": "carolingian-reform-christianity",
+    "atlasId": "III.5",
+    "living": false,
+    "confidence": "Widely Accepted"
+   }
+  ],
+  "lineTerminals": [
+   {
+    "atlasId": "III.5",
+    "id": "carolingian-reform-christianity",
+    "era": 4,
+    "living": false,
+    "end": 888,
+    "weakestLink": "Widely Accepted"
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "I.27 influenced this [Widely Accepted] (I.27 = Gallic Monastic-Ascetic Christianity, c. 360-450)",
+   "II.8 influenced this [Documented] (II.8 = Insular / Irish Monastic Christianity, c. 450-664)"
+  ],
+  "statusDescription": "Tiered Strong (Tier 1), the era's only ordinary-parish window: Caesarius's sermons to half-pagan congregations and Gregory of Tours's shrine-world. Its window ends around 620, a soft date; the Edict of Paris (614) is the nearby alternative.",
+  "relationsSummary": "Receives Martin of Tours's line; continues into Carolingian Christianity",
+  "why": "When the Frankish king Clovis accepted Nicene baptism around 500, his bishops preached to congregations who still consulted soothsayers and slipped out before the sermon. Caesarius of Arles complained about this bluntly from the pulpit, while Gregory of Tours filled his histories with the shrines, relics and cures that structured everyday devotion far more than doctrine did.",
+  "legacy": "The same institution continued directly into Carolingian Christianity, which reformed and reorganized it rather than replacing it. Its shrine culture set the pattern for Western pilgrimage, and its partnership of Frankish crown and Gallic bishops became a working model for church and kingdom across medieval Europe. Venantius Fortunatus's Vexilla Regis and Pange Lingua Gloriosi are still sung in Holy Week. Most of its buildings are gone, but a few survive — the baptistery at Poitiers, and sarcophagi and crypts scattered across France."
+ },
+ {
+  "id": "insular-irish-monastic-christianity",
+  "atlasId": "II.8",
+  "era": 3,
+  "name": "Insular / Irish Monastic Christianity",
+  "dates": "c. 450-664",
+  "lane": "Latin West & Catholicism",
+  "currentFlag": true,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [
+   {
+    "id": "medieval-irish-christianity",
+    "atlasId": "III.24",
+    "living": false,
+    "confidence": "Documented"
+   }
+  ],
+  "lineTerminals": [
+   {
+    "atlasId": "III.24",
+    "id": "medieval-irish-christianity",
+    "era": 4,
+    "living": false,
+    "end": 1169,
+    "weakestLink": "Documented"
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "I.3 influenced this [Inferential-Thin] (I.3 = Desert Monasticism, c. 320–430 CE)",
+   "I.27 influenced this [Inferential-Thin] (I.27 = Gallic Monastic-Ascetic Christianity, c. 360-450)",
+   "this influenced IX.14 [Inferential-Thin] (IX.14 = Ecumenical Community Traditions - Taize & Iona, 1938/1940-c. 2010)"
+  ],
+  "statusDescription": "Tiered Viable, secondary (Tier 2) — Patrick's own two writings are the anchor; the later hagiography needs careful handling as a source. Its start, c. 450, falls a year before the era boundary - ordinary rounding on a 'c.'-dated start, not an anomaly.",
+  "relationsSummary": "A thinly documented line from Gallic asceticism, and through Gaul from that of the East. One of the two roots of Anglo-Saxon Christianity.",
+  "why": "Ireland was never part of the Roman Empire, and its church grew up organized around monasteries and abbots rather than city bishops. Patrick's own two surviving letters, a defense of his life and a protest against the enslavement of his converts, are strikingly personal, and the practice of permanent voluntary exile it produced sent Columba to Iona and Columbanus deep into Gaul and Italy.",
+  "legacy": "Irish monks left their mark far beyond Ireland. Columbanus founded Luxeuil in Gaul and Bobbio in Italy, and nobles in Gaul set up many more houses under his rule. While on the Continent he also wrote a handbook of penances, and it set the model for a long line of Frankish ones. Monks trained at Iona carried the faith into Northumbria and beyond. Irish scribes made the insular style of manuscript, which reaches its height in the Book of Kells. The high crosses and round towers of Irish monastic sites rank among the best-known Christian landmarks in the world. People still come to Iona, Clonmacnoise and Glendalough, and on Iona a religious community lives and works once more."
+ },
+ {
+  "id": "medieval-irish-christianity",
+  "atlasId": "III.24",
+  "era": 4,
+  "name": "Medieval Irish Christianity",
+  "dates": "c. 664-1169",
+  "lane": "Latin West & Catholicism",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [
+   {
+    "id": "insular-irish-monastic-christianity",
+    "atlasId": "II.8",
+    "confidence": "Documented"
+   }
+  ],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "III.24",
+    "id": "medieval-irish-christianity",
+    "era": 4,
+    "living": false,
+    "end": 1169,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [],
+  "statusDescription": "Not yet researched or tiered; added so that works in the Library have a place on the Atlas.",
+  "relationsSummary": "",
+  "why": "The church in Ireland from 664, the year of the Synod of Whitby, to 1169, when the Anglo-Norman invasion began.",
+  "legacy": ""
+ },
+ {
+  "id": "aksumite-christianity",
+  "atlasId": "II.9",
+  "era": 3,
+  "name": "Aksumite Christianity",
+  "dates": "451-615",
+  "lane": "Africa",
+  "currentFlag": true,
+  "existingLivingEvidence": null,
+  "predecessors": [
+   {
+    "id": "aksumite-christianity-conversion-era",
+    "atlasId": "I.11",
+    "confidence": "Documented"
+   }
+  ],
+  "successors": [
+   {
+    "id": "post-aksumite-ethiopian-christianity",
+    "atlasId": "III.21",
+    "living": false,
+    "confidence": "Widely Accepted"
+   }
+  ],
+  "lineTerminals": [
+   {
+    "atlasId": "VI.25",
+    "id": "ethiopian-christianity-gragn-to-fasilides",
+    "era": 7,
+    "living": true,
+    "end": 1650,
+    "weakestLink": "Widely Accepted"
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "this in contact with II.1 [Inferential-Thin] (II.1 = The Church of Alexandria and Miaphysite Egypt, 328-642)",
+   "this in contact with II.2 [Widely Accepted] (II.2 = Syriac Orthodox (West Syriac) Christianity, 451-636)"
+  ],
+  "statusDescription": "Tiered Marginal/deferred (Tier 3) — real and important, but thin for interior texture in this window, with the richer Ethiopian centuries coming later. The window runs from 451 to 615, the weaker of the candidate end dates, disclosed as such. The Najran martyrs and Kaleb's Himyar intervention belong inside this entry's own story; pre-Islamic Arabian Christianity remains an open completeness question.",
+  "relationsSummary": "Aksum was the parent of the later medieval Ethiopian church. Evidence for its ties to Alexandria in these years is thin, but a Miaphysite historian of the time counted its king a fellow believer. The Najran martyrs of 523 and King Kaleb's campaign in Himyar around 525 are part of its own story.",
+  "why": "Aksum was already a Christian kingdom, set astride the trade routes of the Red Sea. Around 525 its king Kaleb crossed the water to avenge the slaughter of Christians at Najran. For a time after that, southern Arabia paid Aksum tribute. A Miaphysite historian counted its king as one who shared his faith. But direct evidence from this time is thin, and most of it comes from inscriptions, early manuscripts and archaeology.",
+  "legacy": "The same institution continued without interruption and is today the Ethiopian Orthodox Tewahedo Church, one of the largest of the Oriental Orthodox communions, alongside its Eritrean counterpart. Ge'ez, the language its Bible was translated into in this period, is still its liturgical language, and its scriptural canon preserves books — Enoch, Jubilees — that no other church kept. The Garima Gospels, radiocarbon-dated to roughly these centuries and still held at a monastery in Tigray, are among the oldest illustrated Christian manuscripts to survive anywhere."
+ },
+ {
+  "id": "georgian-christianity",
+  "atlasId": "II.10",
+  "era": 3,
+  "name": "Georgian Christianity",
+  "dates": "c. 330-609",
+  "lane": "Caucasus",
+  "currentFlag": true,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [
+   {
+    "id": "georgian-revival-tao-klarjeti",
+    "atlasId": "III.20",
+    "living": false,
+    "confidence": "Widely Accepted"
+   }
+  ],
+  "lineTerminals": [
+   {
+    "atlasId": "IV.15",
+    "id": "the-georgian-golden-age",
+    "era": 5,
+    "living": true,
+    "end": 1245,
+    "weakestLink": "Inferential-Thin"
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "II.4 in contact with this [Widely Accepted] (II.4 = Armenian Christianity after Avarayr, 451-554)"
+  ],
+  "statusDescription": "Tiered Marginal/deferred (Tier 3) — thin-to-moderate overall, though its Jerusalem-linked lectionary is an unusual liturgical strength. Its window ends in 609, Dvin III and the break with Armenia; sources split between 607 and 609-10, a disagreement disclosed here rather than smoothed over.",
+  "relationsSummary": "Jerusalem and Armenian lines; takes the Chalcedonian side (c. 600)",
+  "why": "The kingdom of Kartli turned Christian in the fourth century through the preaching of a woman its tradition calls Nino. It then held on to its faith for centuries on a contested Persian frontier. Its oldest surviving book tells of Queen Shushanik, beaten to death in the 470s because she would not follow her husband out of the faith. Around 600 its church broke from Armenia to take the Chalcedonian side.",
+  "legacy": "The Georgian Orthodox Church that came out of this is still the church of Georgia. The same body has carried on through the centuries of medieval revival to the present. Its choice around 600 set it for good in the Eastern Orthodox family, and not with its Armenian neighbor. Its greatest gift to everyone else came almost by accident. Georgian scribes translated and kept the books of worship used in Jerusalem. So scholars can now work out how the holy city really worshipped in late antiquity, and they do it largely from Georgian manuscripts. And churches built at the very end of this period, like Jvari above Mtskheta, still stand almost as they were."
+ },
+ {
+  "id": "nubian-christianity",
+  "atlasId": "II.11",
+  "era": 3,
+  "name": "Nubian Christianity",
+  "dates": "543-652",
+  "lane": "Africa",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [
+   {
+    "id": "makurian-nubian-christianity",
+    "atlasId": "III.18",
+    "living": false,
+    "confidence": "Widely Accepted"
+   }
+  ],
+  "lineTerminals": [
+   {
+    "atlasId": "V.18",
+    "id": "terminal-christian-nubia",
+    "era": 6,
+    "living": false,
+    "end": 1484,
+    "weakestLink": "Widely Accepted"
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "II.1 gave rise to this [Documented] (II.1 = The Church of Alexandria and Miaphysite Egypt, 328-642)"
+  ],
+  "statusDescription": "Tiered Marginal/deferred (Tier 3) and an honest hard case: substantially archaeological, with its one narrative conversion source an outside Syrian voice rather than its own. The window ends in 652, the Baqt treaty that fixed Christian Nubia's terms under Islam.",
+  "relationsSummary": "Two rival missions sent from Constantinople brought the faith here in the 540s. Nobadia took the faith of the Miaphysite patriarch of Alexandria, then in exile. It turned down the faith that Justinian's envoys brought. A chronicle written on the other side of the split says that Makuria too became Christian, around 569.",
+  "why": "Christianity reached the Nubian kingdoms south of Egypt through rival missions in the 540s, one Miaphysite and one Chalcedonian, and the story survives only because a Syrian bishop wrote it down from the winning side. Nubia itself left walls rather than words: the painted bishops, kings and saints of the cathedral at Faras, and the archers who held an invading Arab army at Dongola until both sides signed the Baqt treaty in 652.",
+  "legacy": "Christian Nubia outlasted this window by many centuries and only faded in the later Middle Ages; no Nubian church continues today. What survives is largely visual, and it is remarkable: the Faras murals, rescued from the rising waters of Lake Nasser in the 1960s and now divided between museums in Warsaw and Khartoum, are one of the great surviving bodies of medieval African painting. Documents from the fortress-cathedral at Qasr Ibrim show a church writing in Greek, Coptic and Old Nubian at once. And the Baqt held, in one form or another, for centuries — an unusually durable settlement between a Christian state and its Muslim neighbor."
+ },
+ {
+  "id": "gothic-and-vandal-homoian-christianity",
+  "atlasId": "II.12",
+  "era": 3,
+  "name": "Gothic, Vandal & Lombard Homoian Christianity",
+  "dates": "451-c. 680",
+  "lane": "Non-Nicene Traditions",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "II.12",
+    "id": "gothic-and-vandal-homoian-christianity",
+    "era": 3,
+    "living": false,
+    "end": 680,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [],
+  "statusDescription": "Carries a named creedal question for a future survey to answer - stated as a question, not a verdict.",
+  "relationsSummary": "Descended from Ulfila's missionary church, this tradition covers the churches of the post-Roman barbarian kingdoms, including the Lombard Arian church that lasted from 568 to about 680.",
+  "why": "Most of the peoples who took over the western Roman provinces, Goths, Vandals and later the Lombards, were already Christian, but held that the Son is like the Father rather than of one being with him, a creed going back to the missionary bishop Ulfila who translated the Bible into Gothic. In Vandal Africa this church exiled and maimed Nicene bishops; in Ostrogothic Italy it worshipped alongside them in separate buildings, until conquest and conversion ended it in Spain and among the Lombards by the seventh century.",
+  "legacy": "Nothing continues this tradition today: it ended in conversion, and its buildings were reconsecrated rather than destroyed. What it left is physical and textual. The Gothic Bible, surviving mainly in the silver-and-purple Codex Argenteus at Uppsala, is by far the largest body of text in any early Germanic language and the foundation of Germanic philology. Historians of English and German still work from it. In Ravenna the Arian Baptistery and Theodoric's palace church survive with their mosaics, including a panel where the Gothic court figures were later scrubbed out of the picture. And the crossing of Visigothic Spain at Toledo in 589 set the shape of Iberian Christianity for the next century."
+ },
+ {
+  "id": "church-of-caucasian-albania",
+  "atlasId": "II.14",
+  "era": 3,
+  "name": "The Church of Caucasian Albania",
+  "dates": "c. 451-705",
+  "lane": "Caucasus",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "II.14",
+    "id": "church-of-caucasian-albania",
+    "era": 3,
+    "living": false,
+    "end": 705,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "II.4 in contact with this [Widely Accepted] (II.4 = Armenian Christianity after Avarayr, 451-554)"
+  ],
+  "statusDescription": "",
+  "relationsSummary": "The Caucasus had a third church, beside Armenia and Georgia. From the early 700s its head, the catholicos, had to answer to the Armenian church.",
+  "why": "Beside Armenia and Georgia stood a third Christian kingdom in the Caucasus, Albania. It kept its own royal line, its own bishops and its own alphabet. Its council at Aghuen made rules for the clergy and for marriage. In the early 700s its catholicos came under the authority of the Armenian church. For over a thousand years no one could read its written language. Then, in 1996, palimpsests at Saint Catherine's Monastery on Sinai were found to hold its scripture.",
+  "legacy": "No church carries on under this name. From the early 700s its catholicos had to answer to the Armenian church. But the see itself lived on inside that church, and a new catholicos of Albania took office around 1701. Over time its people merged with the Armenians, and the see was done away with early in the nineteenth century. The Udi people of Azerbaijan are generally seen as descended from its Christians. Its most striking survival stayed hidden until recently. In 1996, palimpsests at Sinai were found to keep its alphabet and its scripture. With them, scholars have begun to rebuild its way of worship and a language nobody could read for over a thousand years."
+ },
+ {
+  "id": "latin-africa-under-byzantium",
+  "atlasId": "II.15",
+  "era": 3,
+  "name": "Latin African Christianity under Byzantium",
+  "dates": "533-c. 698",
+  "lane": "Africa",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "II.15",
+    "id": "latin-africa-under-byzantium",
+    "era": 3,
+    "living": false,
+    "end": 698,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "I.8 influenced this [Documented] (I.8 = Latin Pastoral-Congregational Christianity, c. 240s-430)"
+  ],
+  "statusDescription": "",
+  "relationsSummary": "The Nicene church of Roman Africa, back on its feet after nearly a hundred years of Vandal rule and waves of persecution. Its bishops still quoted Cyprian and Augustine. Both were great teachers of the old church of Africa, which Tertullian also came from. It was one of the main voices that stood against Justinian when he condemned the Three Chapters.",
+  "why": "When Belisarius destroyed the Vandal kingdom in 533, the Nicene church of Roman Africa got back its buildings. It had lived through nearly a hundred years of Vandal rule. Within twenty years it was saying no to Justinian's own compromise on the faith, over the Three Chapters. Bishops like Reparatus of Carthage lost their sees and were sent into exile for that stand. Arab armies reached Carthage in the 690s, and within a few generations the church of Tertullian, Cyprian and Augustine came to an end.",
+  "legacy": "This church left no successor. Latin Christianity in North Africa dwindled after the conquest and had all but disappeared by the later Middle Ages. It is the only major region of the ancient Christian world to vanish so completely. But it handed on its refusal. Its bishops wrote to the emperor to defend three sets of writings that they believed the council of Chalcedon had cleared. They would not condemn them. In 646 its councils wrote to Rome against the teaching of a single will in Christ. Their letters were read out at the Roman synod of 649, and the council of 680-681 later condemned that teaching. Its earlier centuries had already given the Latin church Tertullian, Cyprian and Augustine. What this last century added was proof that a church in the provinces could tell an empire no. The ruins of Carthage and of dozens of African basilicas remain."
+ },
+ {
+  "id": "nicene-visigothic-iberia",
+  "atlasId": "II.16",
+  "era": 3,
+  "name": "Nicene Visigothic Iberia",
+  "dates": "c. 560-711",
+  "lane": "Latin West & Catholicism",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [
+   {
+    "id": "mozarabic-christianity",
+    "atlasId": "III.9",
+    "living": false,
+    "confidence": "Documented"
+   }
+  ],
+  "lineTerminals": [
+   {
+    "atlasId": "III.9",
+    "id": "mozarabic-christianity",
+    "era": 4,
+    "living": false,
+    "end": 1031,
+    "weakestLink": "Documented"
+   }
+  ],
+  "otherLinksToLivingEntries": [],
+  "statusDescription": "",
+  "relationsSummary": "The Homoian kingdom that crossed to Nicaea from inside; Isidore's church; ends at 711",
+  "why": "The Visigoths ruled Spain as Homoian Christians for over a century until King Reccared announced his own conversion, and at the third council of Toledo in 589 brought his bishops with him into the Nicene church of his subjects. What followed included Isidore of Seville's attempt to gather all of surviving classical learning into a single encyclopedia, and councils at Toledo that worked as something between a synod and a parliament, legislating for church and kingdom together.",
+  "legacy": "The same institution continued under Muslim rule as the Mozarabic Christianity of al-Andalus. Its liturgy went with it: the Mozarabic rite, formed in this period, is still celebrated in a chapel of Toledo Cathedral. Isidore's Etymologiae became one of the most copied books of the Middle Ages and served for centuries as the standard reference work of the Latin West. He is sometimes called the last scholar of the ancient world. The councils of Toledo left a large body of canon law that shaped later Western practice, and it was in Visigothic Spain that the Filioque clause first entered official use in the Creed. Several of its churches — small, sharply cut, horseshoe-arched — still stand in northern Spain."
+ },
+ {
+  "id": "british-welsh-christianity",
+  "atlasId": "II.17",
+  "era": 3,
+  "name": "British and Welsh Christianity",
+  "dates": "c. 451-768",
+  "lane": "Latin West & Catholicism",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [
+   {
+    "id": "medieval-welsh-christianity",
+    "atlasId": "III.23",
+    "living": false,
+    "confidence": "Documented"
+   }
+  ],
+  "lineTerminals": [
+   {
+    "atlasId": "III.23",
+    "id": "medieval-welsh-christianity",
+    "era": 4,
+    "living": false,
+    "end": 1282,
+    "weakestLink": "Documented"
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "this influenced II.8 [Documented] (II.8 = Insular / Irish Monastic Christianity, c. 450-664)"
+  ],
+  "statusDescription": "",
+  "relationsSummary": "The older church of Roman Britain, pushed west when the Anglo-Saxons invaded. Like the Irish church, it kept its own customs, which the Roman mission in Kent called errors. The Irish monk Columbanus cited its writer Gildas. It met Augustine's mission around 603 and refused to submit to him, and it kept its own Easter long after Whitby (664).",
+  "why": "When Anglo-Saxon settlers took eastern Britain, the older British church survived in the west, in Wales, Cornwall and Brittany, running through monastic schools and founder-saints like David, Illtud and Teilo. Its monk Gildas delivered a furious denunciation of British kings around the 540s, and its bishops refused to recognize Augustine of Canterbury's authority in 603, keeping their own dating of Easter until the Welsh church adopted Rome's calendar on its own around 768.",
+  "legacy": "There is no separately continuing British church. The Welsh church carried on under its own bishops after 768, and was gradually drawn into the wider Western church. What it left is written across the landscape. The llan- place names of Wales mark its churchyards, and its founder-saints are still the dedications of Welsh and Cornish parishes. Its inscribed memorial stones survive in numbers. Gildas's account, for all its fury, reached Bede, who cited him as the Britons' own historian. And Brittany, settled from Britain in these centuries, kept both a Celtic language and a cluster of British saints' cults that are still there."
+ },
+ {
+  "id": "medieval-welsh-christianity",
+  "atlasId": "III.23",
+  "era": 4,
+  "name": "Medieval Welsh Christianity",
+  "dates": "c. 768-1282",
+  "lane": "Latin West & Catholicism",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [
+   {
+    "id": "british-welsh-christianity",
+    "atlasId": "II.17",
+    "confidence": "Documented"
+   }
+  ],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "III.23",
+    "id": "medieval-welsh-christianity",
+    "era": 4,
+    "living": false,
+    "end": 1282,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [],
+  "statusDescription": "Not yet researched or tiered; added so that works in the Library have a place on the Atlas.",
+  "relationsSummary": "",
+  "why": "The church in Wales from 768, when the Britons took up the Roman Easter, to the English conquest of 1282.",
+  "legacy": ""
+ },
+ {
+  "id": "melkite-arabic-christianity",
+  "atlasId": "III.2",
+  "era": 4,
+  "name": "Melkite Arabic Christianity",
+  "dates": "c. 700-1009",
+  "lane": "Greek East & Orthodoxy",
+  "currentFlag": true,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "III.2",
+    "id": "melkite-arabic-christianity",
+    "era": 4,
+    "living": true,
+    "end": 1009,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "II.5 gave rise to this [Dominant Modern Reconstruction] (II.5 = Chalcedonian Monasticism - Judean Desert & Gaza, c. 450-614)",
+   "this gave rise to VII.23 [Dominant Modern Reconstruction] (VII.23 = The Melkite Greek Catholic Split, 1724-1815)"
+  ],
+  "statusDescription": "Tiered Strong (Tier 1) — John of Damascus, Abu Qurrah and On the Triune Nature of God give it a moderate-to-rich base. It is unique as the first church to think in Arabic. The window ends in 1009, al-Hakim's razing of the Holy Sepulchre in the entry's own heartland.",
+  "relationsSummary": "Heir to the Judean Desert monastic tradition; the first church to think in Arabic.",
+  "why": "Cut off from Constantinople by the Arab conquests, the Chalcedonian Christians of Palestine and Syria became the first church to pray and argue theology in Arabic. From the monastery of Mar Saba, John of Damascus wrote his defense of religious images beyond the reach of the Byzantine emperors trying to suppress them, and a generation later Theodore Abu Qurrah was writing Arabic theology for an audience of Christians and Muslims alike.",
+  "legacy": "Arabic-speaking Chalcedonian Christianity did not stop here. The same communion lives on in the Greek Orthodox churches of Antioch and Jerusalem. After a split in the 1700s, it also lives on in the Melkite Greek Catholic Church. John of Damascus's case for images became the settled teaching on icons in the Orthodox world. A council in 754 cursed him by name. The council of 787 that brought back the icons undid its work. His Exposition of the Orthodox Faith was put into Latin, and Western scholars read it for centuries. Mar Saba, where he wrote, is still a working monastery."
+ },
+ {
+  "id": "anglo-saxon-christianity",
+  "atlasId": "III.4",
+  "era": 4,
+  "name": "Anglo-Saxon Christianity",
+  "dates": "597-793",
+  "lane": "Latin West & Catholicism",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [
+   {
+    "id": "late-anglo-saxon-christianity",
+    "atlasId": "III.19",
+    "living": false,
+    "confidence": "Documented"
+   }
+  ],
+  "lineTerminals": [
+   {
+    "atlasId": "III.19",
+    "id": "late-anglo-saxon-christianity",
+    "era": 4,
+    "living": false,
+    "end": 1066,
+    "weakestLink": "Documented"
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "II.8 gave rise to this [Documented] (II.8 = Insular / Irish Monastic Christianity, c. 450-664)",
+   "this argued against II.8 [Documented] (II.8 = Insular / Irish Monastic Christianity, c. 450-664)"
+  ],
+  "statusDescription": "Tiered Strong (Tier 1), the era's best-documented conversion-to-mission arc, with the Boniface circle's letters - Leoba's among them - carrying women's own correspondence. Its window ends in 793, Lindisfarne, the break its own sources mourn; its start, 597, precedes the era, which a standing rule allows where the record itself runs that early.",
+  "relationsSummary": "Born of two missions, one from Rome and one from Ireland, which settled their quarrel over Easter at Whitby in 664. Its churchmen later helped lead the Carolingian reform.",
+  "why": "Christianity reached the English twice, from Rome through Augustine in 597 and from Ireland through the monks of Iona who founded Lindisfarne, and the two traditions settled their differences publicly at the Synod of Whitby in 664. Within a century a church that had itself just been converted was sending its own missionaries back across the Channel, among them Boniface into Germany and the abbess Leoba, whose one surviving letter is a rare case of a woman's own words reaching us directly from the period.",
+  "legacy": "The same church continued. Its story runs straight on into the late Anglo-Saxon church. That church survived the Viking wars and was rebuilt under Alfred and the reforming bishops. Beyond that succession, it left the books. The Lindisfarne Gospels and the Codex Amiatinus came out of these monasteries. Bede's history shaped how the English told their own story for a thousand years. It also gave the Western world the habit of dating years from the Incarnation. And its missionaries in Germany, Boniface above all, helped the Carolingian kings reform the Frankish church."
+ },
+ {
+  "id": "carolingian-reform-christianity",
+  "atlasId": "III.5",
+  "era": 4,
+  "name": "Carolingian Reform Christianity",
+  "dates": "751-888",
+  "lane": "Latin West & Catholicism",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [
+   {
+    "id": "merovingian-gallic-christianity",
+    "atlasId": "II.7",
+    "confidence": "Widely Accepted"
+   }
+  ],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "III.5",
+    "id": "carolingian-reform-christianity",
+    "era": 4,
+    "living": false,
+    "end": 888,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "II.6 influenced this [Documented] (II.6 = Early Benedictine / Italian Monasticism, c. 500-604)",
+   "this gave rise to III.14 [Documented] (III.14 = Scandinavian Conversion Christianity, c. 826-1104)"
+  ],
+  "statusDescription": "Tiered Strong (Tier 1) on its institutional richness. Its ordinary voice is mostly inferred, though Dhuoda's Handbook stands as a genuine lay voice, an aristocratic one. The window runs from 751, Pippin's anointing, to 888, when the reform's imperial carrier fragments.",
+  "relationsSummary": "A reform of the old Frankish church, led in part by English churchmen. Cluny later kept the Rule of Benedict that the reform had pressed on the monasteries of the realm.",
+  "why": "When Pippin was anointed king in 751 and Charlemagne built an empire across western Europe, they treated the state of the church as a matter of government, correcting the texts of Scripture and the liturgy and ordering that every priest be able to explain the Creed to his people in words they understood. Almost everything that survives records what people were told rather than what they thought, though one noblewoman, Dhuoda, wrote a handbook of faith for her absent son in the 840s that lets a lay voice through.",
+  "legacy": "Its church law ran on into the papal reform of the eleventh century. In 1081 Pope Gregory VII still quoted papal letters forged in the Frankish lands two centuries before. Through that reform, such texts passed into the law of the Latin church for the rest of the Middle Ages. Its most lasting gifts are practical. Carolingian minuscule, the clear round script of its copyists, became the model for Renaissance humanists, and so stands behind modern printed type. Its corrected texts of the Bible and the Roman liturgy stayed standard for centuries. And its cathedral and monastic schools were the seed-bed of the medieval universities. The chapel Charlemagne built at Aachen still stands and is still in use."
+ },
+ {
+  "id": "iconophile-byzantine-monasticism",
+  "atlasId": "III.6",
+  "era": 4,
+  "name": "Iconophile Byzantine Monasticism",
+  "dates": "726-843",
+  "lane": "Greek East & Orthodoxy",
+  "currentFlag": true,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [
+   {
+    "id": "athonite-and-comnenian-byzantine-monasticism",
+    "atlasId": "IV.6",
+    "living": true,
+    "confidence": "Inferential-Thin"
+   }
+  ],
+  "lineTerminals": [
+   {
+    "atlasId": "IV.6",
+    "id": "athonite-and-comnenian-byzantine-monasticism",
+    "era": 5,
+    "living": true,
+    "end": 1300,
+    "weakestLink": "Inferential-Thin"
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "I.3 influenced this [Inferential-Thin] (I.3 = Desert Monasticism, c. 320–430 CE)"
+  ],
+  "statusDescription": "Tiered Strong (Tier 1) — the era's defining theological struggle seen from inside, on Theodore the Studite's corpus and the Nicaea II acta. An access limit: Theodore's roughly 550 letters have no complete English translation. Iconoclast Christianity, the rival that ran the palace, sits as a rival inside the imperial entry, leaving this entry its own hostile-quotation problem.",
+  "relationsSummary": "Heir of Greek monastic lines; forerunner of Athonite monasticism",
+  "why": "Twice over a century, Byzantine emperors tried to purge Christian worship of images. Both times monks led the resistance. They argued that a God who had become visible in a human being could rightly be painted. Stephen the Younger's Life says he was killed for the argument in 765. Theodore of Stoudios, by his own letters' account, was beaten, imprisoned and exiled more than once. Icons were restored for good in 843, a day still kept as the Triumph of Orthodoxy.",
+  "legacy": "The monks' way of life carried on after 843, and Stoudios still had its monks two centuries later. Athonite monks are usually counted their heirs, and through them the wider Orthodox monastic world, though little survives to show the handover. The monks' theology of the image became settled Orthodox teaching. It is why icons look the way they do in Orthodox churches today, and why people treat them as they do. The Sunday of Orthodoxy, kept each year on the first Sunday of Lent, still marks how the argument ended. Theodore's rule for Stoudios also shaped later Byzantine and Slavic rules for monks, well beyond his own house."
+ },
+ {
+  "id": "cyrillo-methodian-slavic-christianity",
+  "atlasId": "III.7",
+  "era": 4,
+  "name": "Cyrillo-Methodian Slavic Christianity",
+  "dates": "c. 863-916",
+  "lane": "Greek East & Orthodoxy",
+  "currentFlag": true,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "III.7",
+    "id": "cyrillo-methodian-slavic-christianity",
+    "era": 4,
+    "living": true,
+    "end": 916,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "this influenced III.8 [Inferential-Thin] (III.8 = Kievan Rus' Christianity, 988-1054)"
+  ],
+  "statusDescription": "Tiered Viable, secondary (Tier 2). Its vernacular-scripture argument is what makes it distinct — the translations themselves stand as evidence, alongside the vitas and Hrabar's defense. The window ends in 916, the death of Clement of Ohrid, last of the mission's own generation.",
+  "relationsSummary": "Sent out from Byzantium; its Slavonic books and letters passed to Kievan Rus'.",
+  "why": "In 863 the brothers Cyril and Methodius were sent from Constantinople to Moravia and, rather than teach in Greek or Latin, devised an alphabet for the Slavic language and translated Scripture and the liturgy into it, over objections from clergy who held that God could only properly be worshipped in Hebrew, Greek and Latin. After Methodius died and their disciples were driven out of Moravia, Clement and Naum carried the work south to Ohrid and Preslav, and a monk named Hrabar wrote a treatise defending the new Slavonic letters as fit for worship.",
+  "legacy": "Almost everything that came after it in the Slavic Orthodox world begins here. Its Slavonic books and letters passed to Kievan Rus', and on to the Russian, Ukrainian, Serbian and Bulgarian churches. Church Slavonic is still the language of worship in much of the Orthodox world. The Cyrillic alphabet is named for one brother, though their followers gave it its shape, and hundreds of millions of people use it today. Cyril and Methodius are honored as saints in both East and West. In 1980 the Catholic Church named them co-patrons of Europe."
+ },
+ {
+  "id": "kievan-rus-christianity",
+  "atlasId": "III.8",
+  "era": 4,
+  "name": "Kievan Rus' Christianity",
+  "dates": "988-1054",
+  "lane": "Greek East & Orthodoxy",
+  "currentFlag": true,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [
+   {
+    "id": "kievan-rus-christianity-1054-1240",
+    "atlasId": "IV.19",
+    "living": false,
+    "confidence": "Inferential-Thin"
+   }
+  ],
+  "lineTerminals": [
+   {
+    "atlasId": "IV.19",
+    "id": "kievan-rus-christianity-1054-1240",
+    "era": 5,
+    "living": false,
+    "end": 1240,
+    "weakestLink": "Inferential-Thin"
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "III.7 influenced this [Inferential-Thin] (III.7 = Cyrillo-Methodian Slavic Christianity, c. 863-916)"
+  ],
+  "statusDescription": "Tiered Viable, secondary (Tier 2) — the Primary Chronicle and the Paterik are later compilations that need careful handling as sources, with Hilarion's Sermon (c. 1049) the in-window native voice. The window ends in 1054, the death of Yaroslav the Wise.",
+  "relationsSummary": "It took its faith from Constantinople and its books from the mission of Cyril and Methodius. It is the parent of the whole Russian line.",
+  "why": "In 988 Prince Vladimir of Kyiv was baptized and had his people baptized with him, an act the Rus' chronicle later wrapped in the story of envoys who, standing in Hagia Sophia at Constantinople, could not tell whether they were in heaven or on earth. Within two generations his son Yaroslav had built his own St Sophia in Kyiv, a monastery had risen above the Dnieper, and the native churchman Ilarion preached the first substantial theology written by a Rus' author.",
+  "legacy": "The same church continued without a break into the Kievan Rus' of the following two centuries and, through it, into the Russian, Ukrainian and Belarusian Orthodox churches — the largest body of Orthodox Christians in the world traces its founding to these two generations. It also left things you can still stand in front of. St Sophia in Kyiv keeps its eleventh-century mosaics and frescoes, the Caves Monastery is still a monastery, and Boris and Gleb, venerated as 'passion-bearers' who would not raise a hand against their own brother, became a model of holiness distinctive to the Slavic churches."
+ },
+ {
+  "id": "mozarabic-christianity",
+  "atlasId": "III.9",
+  "era": 4,
+  "name": "Mozarabic Christianity",
+  "dates": "711-1031",
+  "lane": "Latin West & Catholicism",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [
+   {
+    "id": "nicene-visigothic-iberia",
+    "atlasId": "II.16",
+    "confidence": "Documented"
+   }
+  ],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "III.9",
+    "id": "mozarabic-christianity",
+    "era": 4,
+    "living": false,
+    "end": 1031,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [],
+  "statusDescription": "Tiered Strong (Tier 1) — moderate in sourcing but vivid at the martyrs' crisis, where Eulogius and Alvarus speak inside a live communal argument about assimilation and provoked martyrdom. It is distinct as a church arguing with itself under Islam. Its window ends in 1031, when its whole political frame ended with the Caliphate of Córdoba.",
+  "relationsSummary": "Heir of post-589 Iberia; a community arguing with itself about provoked martyrdom",
+  "why": "After 711 most Christians in Iberia lived under Muslim rule, kept their old Visigothic liturgy, and increasingly spoke and wrote in Arabic, until in the 850s a group in Córdoba began publicly denouncing Islam, some going out of their way to provoke execution. The community argued fiercely over what to make of them: the priest Eulogius defended the martyrs and was executed himself in 859, while his friend Paulus Alvarus lamented that young Christians preferred Arabic poetry to their own Latin, and other Christians, including bishops, judged that the martyrs had simply thrown their lives away.",
+  "legacy": "Only a small community at Toledo kept the name into modern times. Mozarabic Christianity was worn away from two sides. Almoravid and Almohad rule pressed hard on it, and the Latin church of the northern kingdoms took it in as they advanced. Its liturgy, though, outlasted most of the people who had kept it. The Mozarabs held on to the old Hispanic rite when the rest of the Latin West took up Roman usage. Around 1500 Cardinal Cisneros rescued it at Toledo. He had its books printed and endowed a chapel to keep it in use. Mass in the Hispano-Mozarabic rite is still said there every day."
+ },
+ {
+  "id": "cluniac-reform-monasticism",
+  "atlasId": "III.10",
+  "era": 4,
+  "name": "Cluniac Reform Monasticism",
+  "dates": "909-1109",
+  "lane": "Latin West & Catholicism",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "III.10",
+    "id": "cluniac-reform-monasticism",
+    "era": 4,
+    "living": false,
+    "end": 1109,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "II.6 influenced this [Inferential-Thin] (II.6 = Early Benedictine / Italian Monasticism, c. 500-604)"
+  ],
+  "statusDescription": "Tiered Strong (Tier 1) — institutionally rich and immense in scale. Its customaries are Latin-only, an access limit. The window ends in 1109, closing the reform's carrying arc whole, rather than at the earlier alternative of 1049. Its twelfth-century peak still wants a later entry to carry it forward.",
+  "relationsSummary": "Cluny kept the Rule of Benedict. The Carolingian reform had pressed that Rule on Frankish monks. Cluny may have become the establishment that the next century's new orders, the Cistercians above all, set themselves against. It reached its peak in the twelfth century under Peter the Venerable. He led the house until 1156. He had the Qur'an put into Latin for the first time, and he took in Peter Abelard.",
+  "why": "In 909 or 910 a duke of Aquitaine endowed the monastery of Cluny and renounced all rights over it, placing it directly under the pope so that no local lord could control its abbot or its money. Freed from that grip, Cluny grew into a network of hundreds of houses across Europe built around a liturgy sung at a length no earlier Western monastery had attempted, and its abbot Odilo spread the commemoration of the dead on All Souls' Day and worked to limit private warfare.",
+  "legacy": "The order itself dwindled. Its great church was quarried away after the French Revolution, and only a fragment of what was once the largest church in Europe still stands at Cluny. What it left behind is larger than what survives of it. Its rule that a monastery answer to Rome, not to the local lord, may have fed into the papal reform of the eleventh century. Its abbot Hugh was at Canossa in 1077 when Pope Gregory VII lifted his ban on King Henry IV. The feast of All Souls on 2 November, which Odilo did most to spread, is still kept across Western Christianity. And the next century's new orders, the Cistercians above all, may have defined themselves against Cluny's wealth and its long liturgy."
+ },
+ {
+  "id": "st-thomas-christians-of-india",
+  "atlasId": "III.11",
+  "era": 4,
+  "name": "St. Thomas Christians of India",
+  "dates": "849-1054",
+  "lane": "Syriac East & Asia",
+  "currentFlag": true,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [
+   {
+    "id": "st-thomas-christians-1300-1517",
+    "atlasId": "V.23",
+    "living": false,
+    "confidence": "Widely Accepted"
+   }
+  ],
+  "lineTerminals": [
+   {
+    "atlasId": "VI.18",
+    "id": "st-thomas-christians-under-portuguese-pressure-d",
+    "era": 7,
+    "living": true,
+    "end": 1665,
+    "weakestLink": "Widely Accepted"
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "II.3 influenced this [Inferential-Thin] (II.3 = The Church of the East under Persia, 424-651)"
+  ],
+  "statusDescription": "Tiered Marginal/deferred (Tier 3) — real, ancient and distinct; its inside voice stays thin in every pre-1500 window, stated here plainly rather than softened. Its window starts in 849, the Tarisappalli/Quilon copper plates, the era's one dated document to anchor it.",
+  "relationsSummary": "Part of the Church of the East, whose leader in Mesopotamia sent its bishops.",
+  "why": "On India's Malabar coast, a Christian community that traced itself to the apostle Thomas worshipped in Syriac and received its bishops from the patriarch of the Church of the East in Mesopotamia. What survives from this period is not writing in their own words but objects made by and for them — granite crosses carved with Persian inscriptions, and a set of copper plates from around 849 recording a local ruler's grant of land and standing to the church at Kollam.",
+  "legacy": "The community never stopped existing. Its descendants are the St Thomas Christians of Kerala. Today divided among several churches, after Portuguese pressure in the sixteenth century and the ruptures that followed, but continuous with this one, and still using Syriac liturgical traditions. The objects survive as well: the ninth-century copper plates are preserved in Kerala, and the Pahlavi-inscribed stone crosses still stand in churches at Kottayam and on St Thomas Mount in Chennai."
+ },
+ {
+  "id": "paulicians",
+  "atlasId": "III.12",
+  "era": 4,
+  "name": "Paulicians",
+  "dates": "c. 650-878",
+  "lane": "Caucasus",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "III.12",
+    "id": "paulicians",
+    "era": 4,
+    "living": false,
+    "end": 878,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [],
+  "statusDescription": "The record is genuinely disputed. This entry carries the question, not a verdict.",
+  "relationsSummary": "The Byzantine emperors moved them from their homes in large numbers. Most of what we know of them comes from their enemies.",
+  "why": "Byzantine heresy hunters say the Paulicians rejected the Old Testament, the cross and the sacraments. Whether they truly believed that, or their enemies needed them to, cannot now be settled. No account of their faith in their own words survives. What is certain is what happened to them. The empire persecuted them and condemned them to the flames. The survivors built a fortified state at Tephrike on the frontier. By Byzantine accounts they raided the empire's lands until the town fell in 878.",
+  "legacy": "Nothing institutional survived: the Paulician state ended with Tephrike in 878, and the communities deported into Thrace were absorbed or converted over the following centuries. Their most argued-over legacy is a claim rather than an inheritance. Medieval and modern writers have repeatedly linked them to the Bogomils of Bulgaria and through them to the Cathars of the West, but that chain rests on the same hostile heresy-catalogs that describe the Paulicians themselves, and it cannot be demonstrated. An Armenian text called The Key of Truth, published in 1898, was presented as a Paulician manual. Its surviving manuscript is centuries later than the movement, and what it proves about these centuries is disputed."
+ },
+ {
+  "id": "bogomils",
+  "atlasId": "III.13",
+  "era": 4,
+  "name": "Bogomils",
+  "dates": "c. 950–1054",
+  "lane": "Non-Nicene Traditions",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [
+   {
+    "id": "balkan-bogomil-continuation",
+    "atlasId": "IV.24",
+    "living": false,
+    "confidence": "Dominant Modern Reconstruction"
+   }
+  ],
+  "lineTerminals": [
+   {
+    "atlasId": "IV.24",
+    "id": "balkan-bogomil-continuation",
+    "era": 5,
+    "living": false,
+    "end": 1300,
+    "weakestLink": "Dominant Modern Reconstruction"
+   }
+  ],
+  "otherLinksToLivingEntries": [],
+  "statusDescription": "Carries a named creedal question for a future survey to answer - stated as a question, not a verdict.",
+  "relationsSummary": "Lives on after 1054 as Balkan Bogomilism. Some say it came from the Paulicians, but this is debated.",
+  "why": "The Bogomils are named for a Bulgarian priest of the mid-tenth century. They are known almost entirely through a sermon that a rival priest, Cosmas, wrote against them. He describes ascetics who rejected church buildings, icons, the sacraments and infant baptism. They held, he says, that the material world was made not by God but by a fallen power. The movement spread through the Balkans into Byzantium.",
+  "legacy": "Historians trace the movement on after 1054 into the Bogomils of the Balkans. Their later story continues as Balkan Bogomilism. That page also takes up the claim that they shaped the Cathars of the West. The Bogomils left no text of their own. Every account of their belief that survives was written by someone who opposed it."
+ },
+ {
+  "id": "scandinavian-conversion-christianity",
+  "atlasId": "III.14",
+  "era": 4,
+  "name": "Scandinavian Conversion Christianity",
+  "dates": "c. 826-1104",
+  "lane": "Latin West & Catholicism",
+  "currentFlag": true,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [
+   {
+    "id": "scandinavian-reformation-kingdoms",
+    "atlasId": "VI.27",
+    "living": false,
+    "confidence": "Inferential-Thin"
+   }
+  ],
+  "lineTerminals": [
+   {
+    "atlasId": "VI.27",
+    "id": "scandinavian-reformation-kingdoms",
+    "era": 7,
+    "living": false,
+    "end": 1650,
+    "weakestLink": "Inferential-Thin"
+   }
+  ],
+  "otherLinksToLivingEntries": [],
+  "statusDescription": "Tiered Viable, secondary (Tier 2): rune stones and Adam of Bremen are contemporary witnesses, while the vivid sagas are thirteenth-century retrospectives that need careful handling as sources. Its window runs 826-1104, crossing the era boundary once, which the standing rule on such crossings allows.",
+  "relationsSummary": "Frankish missions came first, led from Hamburg and then Bremen. Missions from England probably came later. In the year 1000 Iceland chose to become Christian by a public vote at its assembly, the Althing.",
+  "why": "Christianity came to Scandinavia through kings as much as missionaries. Harald Bluetooth raised a stone at Jelling claiming he had made the Danes Christian. The Norwegian king Olaf Haraldsson was killed in battle. He was honored as a saint almost at once, and later writers made him a martyr for the faith. Iceland took a different road. In the year 1000 the pagan law-speaker Þorgeir thought it over for a night. Then he ruled at the island's own assembly that all Icelanders would be baptized. A whole people changed its faith by public decision rather than by force.",
+  "legacy": "These conversions founded what became the national churches of Denmark, Norway, Sweden and Iceland. In Sweden the Reformation often kept the old sees and cathedrals and reformed them. Denmark broke more sharply. In 1536 it jailed its bishops and handed their work to new men. The period left a physical record too. The Jelling stones still stand in Denmark, and hundreds of Christian rune stones survive across Sweden. St Olaf's shrine at Nidaros made Trondheim the great goal of pilgrims in the medieval north. Iceland's later saga writers also kept the memory of the conversion. They told it in the words of the converted, not of the missionaries."
+ },
+ {
+  "id": "syriac-orthodox-under-islam",
+  "atlasId": "III.17",
+  "era": 4,
+  "name": "Syriac Orthodox Christianity under Islam",
+  "dates": "c. 650-1054",
+  "lane": "Syriac East & Asia",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [
+   {
+    "id": "syriac-orthodox-west-syriac-christianity",
+    "atlasId": "II.2",
+    "confidence": "Documented"
+   }
+  ],
+  "successors": [
+   {
+    "id": "syriac-renaissance",
+    "atlasId": "IV.21",
+    "living": false,
+    "confidence": "Documented"
+   }
+  ],
+  "lineTerminals": [
+   {
+    "atlasId": "IV.21",
+    "id": "syriac-renaissance",
+    "era": 5,
+    "living": false,
+    "end": 1300,
+    "weakestLink": "Documented"
+   }
+  ],
+  "otherLinksToLivingEntries": [],
+  "statusDescription": "Proposed for a future survey; not yet reviewed.",
+  "relationsSummary": "The West Syriac church, living as a protected people under the caliphs. Its patriarch, the historian Dionysius of Tel Mahre, went on a journey with the caliph al-Ma'mun. Its monks kept its learning alive.",
+  "why": "Having been the losing side under Byzantine emperors who wanted Chalcedon enforced, the West Syriac church found under the caliphs the room to become one protected community among others, and used it productively: Jacob of Edessa revised the Syriac Bible and wrote the first grammar of his own language, while the patriarch Dionysius of Tel Mahre traveled to Egypt in the caliph al-Ma'mun's own company and wrote a chronicle later writers drew on for centuries. Its monasteries, from Mor Gabriel in the Tur Abdin to the Syrian monastery in the Egyptian desert, preserved a manuscript culture that is now one of the world's great collections of early Syriac literature.",
+  "legacy": "The same church continued directly into the Syriac Renaissance of the following centuries and exists today as the Syriac Orthodox Church of Antioch, with its own patriarch and a large worldwide diaspora. Its monasteries preserved what would otherwise be lost. The manuscripts gathered at the Syrian monastery in the Egyptian desert are the backbone of the world's collections of early Syriac literature, including some of the oldest surviving Syriac gospel books. Mor Gabriel in the Tur Abdin, founded in 397, is still a working monastery and the seat of a bishop."
+ },
+ {
+  "id": "makurian-nubian-christianity",
+  "atlasId": "III.18",
+  "era": 4,
+  "name": "Makurian Nubian Christianity",
+  "dates": "697-1054",
+  "lane": "Africa",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [
+   {
+    "id": "nubian-christianity",
+    "atlasId": "II.11",
+    "confidence": "Widely Accepted"
+   }
+  ],
+  "successors": [
+   {
+    "id": "terminal-christian-nubia",
+    "atlasId": "V.18",
+    "living": false,
+    "confidence": "Documented"
+   }
+  ],
+  "lineTerminals": [
+   {
+    "atlasId": "V.18",
+    "id": "terminal-christian-nubia",
+    "era": 6,
+    "living": false,
+    "end": 1484,
+    "weakestLink": "Documented"
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "III.3 influenced this [Inferential-Thin] (III.3 = Coptic Christianity under Early Islam, 642-1013)",
+   "III.3 in contact with this [Documented] (III.3 = Coptic Christianity under Early Islam, 642-1013)"
+  ],
+  "statusDescription": "Proposed for a future survey; not yet reviewed.",
+  "relationsSummary": "Unified Christian Nubia after Merkurios (crowned 697, the 'New Constantine'); Faras cathedral rebuilt 707; the fresco golden age flourished under the peace secured by the 652 Baqt treaty.",
+  "why": "The Christian kingdom of Makuria held together for centuries under the Baqt, a treaty struck with Muslim Egypt in 652 that was honored for roughly six hundred years, and after Merkurios — called a new Constantine by an Egyptian writer — took the throne in 697, Nubia rebuilt its cathedral at Faras and covered its walls with paintings of saints, archangels and the bishops themselves. Nubian Christians wrote their own language, Old Nubian, in a script adapted from Coptic, though this is a Christianity known mainly by what it built and painted rather than by what it said about itself.",
+  "legacy": "Christian Nubia lasted far longer than most people expect, into the fifteenth century in places, before it was worn down and its churches vanished; no Nubian Christian community survives today. What survives is the painting. When the Aswan High Dam was built in the 1960s the cathedral at Faras was about to go under the reservoir, and a Polish archaeological team lifted the murals off its walls. They were divided between Warsaw and Khartoum, and the Warsaw gallery is arranged to reproduce the layout of the church they came from — the only permanent exhibition of medieval Nubian painting in Europe."
+ },
+ {
+  "id": "late-anglo-saxon-christianity",
+  "atlasId": "III.19",
+  "era": 4,
+  "name": "Late Anglo-Saxon Christianity",
+  "dates": "c. 793-1066",
+  "lane": "Latin West & Catholicism",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [
+   {
+    "id": "anglo-saxon-christianity",
+    "atlasId": "III.4",
+    "confidence": "Documented"
+   }
+  ],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "III.19",
+    "id": "late-anglo-saxon-christianity",
+    "era": 4,
+    "living": false,
+    "end": 1066,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "this gave rise to III.14 [Inferential-Thin] (III.14 = Scandinavian Conversion Christianity, c. 826-1104)"
+  ],
+  "statusDescription": "Proposed for a future survey; not yet reviewed.",
+  "relationsSummary": "It came through the Viking age and revived under Alfred. The bishops Dunstan, Aethelwold and Oswald are known for rebuilding its monasteries on the Rule of Benedict. This was England's own reform, in the same century as Cluny's. It ends at the Norman Conquest of 1066.",
+  "why": "In the Viking wars, by Alfred of Wessex's own account, England's churches were ravaged and burned. When he set out to rebuild, he wrote, he could not think of one man south of the Thames who could translate a Latin letter. So he set out to put the books the clergy most needed into English. A century later the bishops Dunstan, Æthelwold and Oswald refounded the monasteries on the Rule of Benedict. Ælfric wrote English sermons, well over a hundred by his editors' count, so that ordinary people could hear sound teaching in their own tongue. Archbishop Wulfstan preached in 1014, as Danish invasions closed in. He told the English that their own sins had brought the disaster on them.",
+  "legacy": "The institutions did not vanish at the Conquest. The dioceses, the cathedral communities and the parish network built in these centuries carried straight on into the Norman and later medieval English church, and many English cathedrals still stand where these bishops put them. What is distinctive here is the language. For two centuries England produced Christian literature in the vernacular on a scale unmatched anywhere else in western Europe, from Alfred's translations to Ælfric's sermons to the Anglo-Saxon Chronicle. Buildings survive too — late Anglo-Saxon towers and churches, like the decorated tower at Earls Barton, are among the oldest working parish churches in England."
+ },
+ {
+  "id": "georgian-revival-tao-klarjeti",
+  "atlasId": "III.20",
+  "era": 4,
+  "name": "Georgian Revival — Tao-Klarjeti and Athos",
+  "dates": "c. 780-1000",
+  "lane": "Caucasus",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [
+   {
+    "id": "georgian-christianity",
+    "atlasId": "II.10",
+    "confidence": "Widely Accepted"
+   }
+  ],
+  "successors": [
+   {
+    "id": "the-georgian-golden-age",
+    "atlasId": "IV.15",
+    "living": true,
+    "confidence": "Inferential-Thin"
+   }
+  ],
+  "lineTerminals": [
+   {
+    "atlasId": "IV.15",
+    "id": "the-georgian-golden-age",
+    "era": 5,
+    "living": true,
+    "end": 1245,
+    "weakestLink": "Inferential-Thin"
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "IV.6 in contact with this [Dominant Modern Reconstruction] (IV.6 = Athonite & Comnenian Byzantine Monasticism, c. 963-1300)"
+  ],
+  "statusDescription": "Proposed for a future survey; not yet reviewed.",
+  "relationsSummary": "Grigol Khandzteli rebuilt Georgian monasticism from Khandzta starting around 782, and Georgian monks founded Iviron on Mount Athos between 980 and 983. This revival leads directly into the Georgian Golden Age that follows it.",
+  "why": "The Arab conquests left the Georgian kingdoms as a few small mountain states. Then, around 782, a monk named Grigol founded the monastery of Khandzta and seeded the whole district with monasteries. We can see this work from inside, because his biographer, Giorgi Merchule, wrote about it in 951. Georgia, he wrote, was above all the land where the liturgy was sung in the Georgian tongue. Georgian monks later took the movement to Mount Athos. Between 980 and 983 they founded Iviron there, a house that turned Greek books into Georgian. Its monks may also have carried a story from India out of Georgian into Greek. As Barlaam and Josaphat, it passed into most of the languages of Europe.",
+  "legacy": "The same tradition runs straight on into the Georgian Golden Age of the following centuries and into the Georgian Orthodox Church of today. Its most visible legacy is Iviron itself, still one of the twenty ruling monasteries of Mount Athos, and the body of translated literature its monks produced, which gave the Georgian church a full library in its own language. In Tao-Klarjeti many of the churches these monks built still stand, ruined or converted, in what is now north-eastern Turkey."
+ },
+ {
+  "id": "post-aksumite-ethiopian-christianity",
+  "atlasId": "III.21",
+  "era": 4,
+  "name": "Post-Aksumite Ethiopian Christianity",
+  "dates": "c. 615-1137",
+  "lane": "Africa",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [
+   {
+    "id": "aksumite-christianity",
+    "atlasId": "II.9",
+    "confidence": "Widely Accepted"
+   }
+  ],
+  "successors": [
+   {
+    "id": "zagwe-and-early-solomonic-ethiopian-christianity",
+    "atlasId": "IV.9",
+    "living": true,
+    "confidence": "Documented"
+   }
+  ],
+  "lineTerminals": [
+   {
+    "atlasId": "VI.25",
+    "id": "ethiopian-christianity-gragn-to-fasilides",
+    "era": 7,
+    "living": true,
+    "end": 1650,
+    "weakestLink": "Documented"
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "III.3 in contact with this [Documented] (III.3 = Coptic Christianity under Early Islam, 642-1013)"
+  ],
+  "statusDescription": "Proposed for a future survey; its window is honestly thin, on the same pattern as the St. Thomas Christians entry. Not yet reviewed.",
+  "relationsSummary": "This is the church of the period between Aksum's decline and the rise of the Zagwe dynasty. It survived in isolation, continuing to receive its bishops from the Coptic patriarchate in Alexandria.",
+  "why": "Aksum had been a great Christian power, minting its own coins, but when the trade that sustained it moved away the coinage stopped and Ethiopian Christianity went nearly silent for close to five hundred years, one of the least documented stretches in the history of any ancient church. What can be said with confidence is that the church survived, moved its center into the highlands, and kept receiving its chief bishop from the Coptic patriarch in Alexandria, a link that lasted into the twentieth century, so that when a functioning church reappears under the Zagwe kings, it already has monasteries, a Ge'ez liturgy and its own saints.",
+  "legacy": "Everything later Ethiopian Christianity is rests on the fact that this church did not die. The same institution continues directly into the Zagwe period — the age of the rock-hewn churches of Lalibela — and on into the Ethiopian Orthodox Tewahedo Church of today, one of the largest ancient churches in the world. The link with Alexandria that these centuries kept alive held until 1959, when the Ethiopian church finally received a patriarch of its own. And what was carried through the silence — worship in Ge'ez, a distinctive monasticism, a liturgical calendar unlike anyone else's — is still what marks Ethiopian Christianity out."
+ }
+]

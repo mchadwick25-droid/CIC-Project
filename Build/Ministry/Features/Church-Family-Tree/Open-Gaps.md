@@ -1099,3 +1099,147 @@ it, never by deleting it.
     adds 31 new tree pages (38,112 characters), 3 pages whose text changed (3,898) and 6 stories
     (3,508): 45,518 characters in all. No sample was prepared and no paid call made. Owner: this
     thread, at the batch.
+157. **What P2-V settles (2026-11-10).** Data release 30 carries the written definition of "living"
+    and the check of every living flag (Decision-Log, "What 'living' means: P2-V applied as data
+    release 30", same date; audit `Build/Ministry/Operations/Audits/2026-11-10_living/`). Ruling 15's
+    condition before the leaf appears is met; the drawn marks are P2-K1. Flags: 192 true before, 264
+    after (of the 127 true in eras 1 to 9: 117 kept, 9 graded, 1 dropped; 73 added; era 10 as
+    ruled at its gate).
+158. **Living traditions with no entry after a date: the named gaps (2026-11-10).** Under principle 3
+    of the gap sweep ruling, each is told only to the year shown, and the gap is named on its living
+    flag (`decisions_final.json`, field `namedGap`). Filling any of them adds a row to a frozen
+    era, so each is a change order with its sources found first. Some overlap "Breaks in the
+    timeline" (2026-11-10). 79 gaps:
+    the Church of Antioch after 312; the Church of Jerusalem after 450; the island monastery of
+    Lérins between about 450 and today; the Georgian church from 1245 to 1917; Judean desert and
+    Sinai monasticism from 614 to today; the Irish church from 1169 to today; the Syriac Orthodox
+    Church between 1300 and 1915; the Welsh church from 1282 to today; the Latin church in the
+    Frankish lands from 888 to about 1049; Benedictine monasticism after 604; the Roman Church from
+    604 to about 1049; Arabic-speaking Chalcedonian Christians between 1009 and 1724; the Mozarabic
+    community from 1031 to today; the Latin church from 888 to about 1049; the St Thomas Christians
+    from 1665 to 1836; Athonite monasticism after 1300, apart from the hesychast entries; the
+    Carthusians after 1534; the Cistercians after 1300; the Maronites after 1517; the canons regular
+    after 1246; the Order of Malta after 1291; the Carmelites after 1300, apart from the reform of
+    1562-1622; the Franciscans after 1517; the Dominicans after 1300; the Kongo church after 1650;
+    the Lutheran churches after 1906; the Unitarian church of Transylvania after 1650; the Reformed
+    churches after 1906; the Mennonites and Amish after 1890; the Nordic Lutheran churches after
+    1650, apart from the Haugean and Laestadian entries; the Hutterites after 1785; the Waldensian
+    church after 1655; the Jesuits after 1650; the Schwenkfelders after 1650; Japanese Christians
+    between 1650 and 1865; the French Reformed churches after 1787; English and Welsh Catholicism
+    after 1650; the Church of Scotland after 1650; the Discalced Carmelites after 1622; Chinese
+    Catholics between 1650 and 1906; the Remonstrants after 1650; the church in New France after
+    1650; Ukrainian Orthodoxy between 1700 and today; the Delaware Swedish congregations after 1786;
+    English Dissent after 1815; the Old Believers after 1815; French Protestantism after 1787; the
+    Brethren after 1815; Armenian Catholics and the Mekhitarists after 1815; the Moravian Church
+    after 1815; New England's Congregational churches after about 1760; the Welsh chapel tradition
+    after 1815; the Shakers after 1815; English Unitarianism after 1813; the New Church after 1815;
+    Sunday school and Bible institutes after c. 1900; Korean Catholicism after 1886; the Pacific
+    island and South Indian mission churches after 1906; the Haitian Catholic Church after 1860; the
+    Inner Mission and Diakonie after 1880; the Old Catholic Churches after 1906; Methodism after
+    1906; Baptists after 1906; the Quakers after 1906; the Melkite Church after 1911; Confessional
+    Lutheranism after 1906; Malagasy churches after 1895; Unitarianism and Universalism after 1906
+    (the entry's 1961 merger is told only inside it); the Plymouth Brethren after 1906; the
+    Latter-day Saints after 1906; Dutch Neo-Calvinism after 1906; the Holiness denominations after
+    1906; Laestadianism after 1906; the Christadelphians after 1906; Spiritualism and New Thought
+    after 1906; Russian evangelicals after 1906, apart from the Soviet-era Baptists told only to
+    1991; the Salvation Army after 1906; Jehovah's Witnesses after 1906; Christian Science after
+    1906.
+159. **Present-day families the tree does not reach (2026-11-10).** The backward check
+    (`research/backward_check.json`) traced 58 present-day families. 24 reach about 2010 through a
+    living entry; 29 stop earlier (the gaps above); 5 have no entry at all: the Greek Orthodox
+    Patriarchate of Alexandria, the Church of Cyprus, the Polish Orthodox Church, the Orthodox
+    Church of the Czech Lands and Slovakia, and the Macedonian Orthodox Church. Eastern Catholic
+    churches the tree never names: the Syriac, Coptic, Ethiopian and Eritrean, Hungarian, Slovak,
+    Italo-Albanian, Bulgarian, Greek and Croatian Greek Catholic churches. For a later completeness
+    pass; adding any is a change order.
+160. **The Lérins entry says the abbey has stood since about 410 (2026-11-10).** The abbey's own
+    history page speaks of a "reopening", which suggests a break in the community. No dated source
+    in hand settles when or for how long. The living flag stands with no descent grade. For the
+    entry's owner: the "stood since about 410" line, once a source is found.
+161. **Link grades that reflect sources, not a break in the church (2026-11-10).** On some lines (the
+    Coptic and the Latin American among them), a "continued as" link is graded low because the tree
+    lacks entries or sources for a period, not because the church broke. P2-V's descent grades no
+    longer copy those link grades. For P2-L11: re-check them.
+162. **Living marks that wait for a dated source (2026-11-10).** Four living flags have no dated item
+    after 2010: Kongo Christianity to 1650, the Anti-Trinitarian currents (the Transylvanian church),
+    the Schwenkfelders and the New France mission. They stay living, graded none, as the era 10 gate
+    ruled for the same case. Wanted: a dated own-voice item for each. Also weak: about 30 own-voice
+    items are rotating home pages, and every CR mark could reach CD with a verified independent
+    source. For the source-research thread.
+163. **Open questions the check left, and one line for another owner (2026-11-10).** Each verdict
+    below was applied under the rule; the question is recorded here, not decided:
+    - Post-Apostolic Household-Church Christianity: Is a period before the churches divided an
+    episode of one living tradition, or only a root they all claim?
+    - Alexandrian Catechetical / Christian-Platonist Tradition: Does the later catechetical teaching
+    of the Coptic Orthodox Church of Alexandria count as descent, or only as a claim of heritage?
+    - The Church of Antioch in the Third Century: Which of the patriarchates of Antioch should the
+    tree name as the carrier of the third-century church?
+    - The Anatolian Church in the Third Century: Is this the Greek church of Anatolia in one period,
+    which the Orthodox churches carry, or a circle of writers?
+    - Cappadocian Christianity: Did the Greek Orthodox community of Cappadocia end in the population
+    exchange of 1923 to 1924? If a dated source shows it did, this local church is ended under the
+    local-church rule.
+    - The Church of Aquileia: Is this the local church of Aquileia, which present dioceses might
+    carry, or the work of one writer?
+    - The Church of Caucasian Albania: The entry says the Udi people of Azerbaijan are generally
+    seen as descended from its Christians; does a documented Udi church community today count as
+    descent?
+    - British and Welsh Christianity: The entry says no separately continuing British church exists;
+    does the Church in Wales count as the same tradition?
+    - Nicene Visigothic Iberia: Does the Visigothic church count as alive through the Mozarabic rite
+    alone, or through the whole Catholic Church in Spain?
+    - The Latin Church of Outremer: The Latin Patriarchate of Jerusalem was revived in 1847, but the
+    entry treats that as a later see, not a continuation of this church.
+    - Canons Regular / Victorine School: The Victorine school itself ended with its abbey; the entry
+    names the canons regular family, which continues.
+    - Military-Religious Orders (Templars, Hospitallers): The entry names two orders; the Templars
+    were suppressed, while the Hospitallers continue as the Order of Malta. I treated the entry as
+    living through the Hospitallers.
+    - The Humiliati: The entry says some houses of Humiliati nuns lived on; it gives no date for
+    their end.
+    - The Beguines: The entry's own text names no last member; the end rests on two dated reports of
+    the death of the last traditional beguine in 2013.
+    - Rhineland Mysticism & the Friends of God: The entry does not state an end for the circle; it
+    describes only how the writings spread.
+    - The English Mystics and Devout: The entry does not state an end for the circle; it describes
+    only the later fate of the writings.
+    - Lollardy: The entry gives no final date or merger for the Lollard households; their end as a
+    community is inferred from the entry's closing date.
+    - Mission-Born Christianities (Kirishitan Japan; Kongo; China; New Spain/Andes): This is a label
+    entry for four churches, so it is living only through its four regional entries.
+    - Anti-Trinitarian Currents (Servetus; Polish Brethren/Socinians; Transylvanian Unitarians): The
+    Polish Brethren wing of this entry did not continue; only the Transylvanian church is alive.
+    - The Czech Churches' Last Century (Utraquists and Unitas): The entry is flagged not living, but
+    its Unity of the Brethren wing continues through the Moravian Church; the Utraquist wing ended.
+    - Mission-Born Christianity in New France: The Huron Christians who reached Quebec in 1650 may
+    be the ancestors of today's Wendake community, but no source in hand shows it.
+    - The Kyiv-Mohyla Orthodox Revival: Two Orthodox bodies in Ukraine both claim this Kyiv
+    heritage, so the present body is disputed.
+    - The Swedish Lutherans of New Sweden: Does a congregation that changed church body and language
+    still carry the Swedish Lutheran tradition, or does the tradition end with the pastors'
+    departure in 1786?
+    - English Old Dissent — Presbyterians and Congregationalists: Only the United Reformed Church
+    was fetched; the Congregational Federation and the Unitarian half rest on the entry's own text
+    and the English Unitarianism entry.
+    - The Church of the Desert: The fetched page does not say that the Eglise protestante unie de
+    France continues the Reformed Church of France; that link rests on the entry's own text.
+    - Armenian Christianity — the Mekhitarists and the Catholic Patriarchate: Only the Armenian
+    Catholic Church could be fetched with a dated item; the Mekhitarists rest on the entry's own
+    text.
+    - The Hesychast Revival - Paisius & the Philokalia: The carrier is the Romanian church entry
+    because Neamt lies in Romania; the Russian line has no entry holding present-day evidence.
+    - The Sunday School & Bible-Institute Movement: The entry itself asks whether this is a
+    tradition or a set of methods inside other traditions; I answered on the Bible-institute and
+    Sunday-school bodies it names.
+    - The Reveil & Inner-Mission Awakening: The census flag is false, but the tradition the entry
+    names is alive; the flag looks like a mismatch for the gate.
+    - Catholic Apostolic Church (Irvingites): The entry names the New Apostolic Church as a
+    breakaway daughter; if that church counts as the same tradition this entry would be living.
+    - Spiritualism / New Thought: The census flag is false because the entry sits outside the
+    Christian frame, but the living flag asks only whether the tradition is alive; I answered that
+    question.
+    - The Student Volunteer Movement & Edinburgh 1910: The Edinburgh 1910 strand continues through
+    the International Missionary Council's merger into the World Council of Churches; if that counts
+    as the same entry, it would be living through that ecumenical entry.
+    For the method page's owner: "What is still to come" still says the tenth era is not yet
+    linked, though P2-L10 has linked it.

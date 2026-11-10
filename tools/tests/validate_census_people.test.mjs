@@ -91,7 +91,23 @@ test("concerns must name a person entry its note or a quote names", () => {
 test("the descent grade takes the five confidence levels, on a living tradition", () => {
   const living = census.movements.find(m => m.living && m.livingEvidence).id;
   assert.deepEqual(errorsFor((c, m) => { m(living).livingEvidence.descentConfidence = "Contested"; }), []);
-  assert.equal(errorsFor((c, m) => { m(living).livingEvidence = { descentConfidence: "Contested" }; }).length, 1);
+  // No basis: the descent grade and the living mark each need one.
+  assert.equal(errorsFor((c, m) => { m(living).livingEvidence = { descentConfidence: "Contested" }; }).length, 2);
   assert.equal(errorsFor((c, m) => { m(living).livingEvidence.descentConfidence = "Likely"; }).length, 1);
   assert.equal(errorsFor((c, m) => { m(HOME).livingEvidence = { basis: "A stated basis.", descentConfidence: "Contested" }; }).length, 1);
+});
+
+test("a living tradition says what its mark rests on (Decision-Log 2026-11-10, \"What 'living' means\")", () => {
+  const carried = census.movements.find(m => m.living && m.livingEvidence?.carrier).id;
+  const named = new Set(census.movements.flatMap(m => m.livingEvidence?.carrier ?? []));
+  const own = census.movements.find(m => m.living && !m.livingEvidence?.carrier && m.livingEvidence?.grade && !named.has(m.id)).id;
+  const ended = census.movements.find(m => m.kind !== "person" && m.living === false).id;
+  assert.equal(errorsFor((c, m) => { delete m(own).livingEvidence; }).length, 1);
+  assert.equal(errorsFor((c, m) => { delete m(own).livingEvidence.grade; }).length, 1);
+  assert.equal(errorsFor((c, m) => { m(carried).livingEvidence.carrier = ["no-such-movement"]; }).length, 1);
+  assert.equal(errorsFor((c, m) => { m(carried).livingEvidence.carrier = [ended]; }).length, 1);
+  assert.equal(errorsFor((c, m) => { m(carried).livingEvidence.carrier = [carried]; }).length, 1);
+  assert.equal(errorsFor((c, m) => { m(carried).livingEvidence.carrier = []; }).length, 1);
+  assert.equal(errorsFor((c, m) => { m(own).livingEvidence.carrier = [carried]; }).length, 1);
+  assert.equal(errorsFor((c, m) => { m(ended).livingEvidence = { basis: "A stated basis.", carrier: [own] }; }).length, 1);
 });

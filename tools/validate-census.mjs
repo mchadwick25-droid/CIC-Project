@@ -199,6 +199,25 @@ function shelfAuthor(movementId, rowId) {
     if (m.living !== true) errs.push(`${m.id}: livingEvidence.descentConfidence grades a living tradition, but living is not true`);
     if (typeof m.livingEvidence.basis !== "string" || !m.livingEvidence.basis.trim()) errs.push(`${m.id}: livingEvidence.descentConfidence needs livingEvidence.basis, what the grade rests on`);
   }
+  // The living mark (Decision-Log 2026-11-10, "What 'living' means"): every living tradition says what
+  // the mark rests on, and either names the entries that carry it today or holds its own graded evidence.
+  if (m.living === true && !isPerson(m)) {
+    const ev = m.livingEvidence;
+    if (typeof ev?.basis !== "string" || !ev.basis.trim()) errs.push(`${m.id}: living, so it needs livingEvidence.basis, what the mark rests on`);
+    else if (ev.carrier === undefined && !/^(CD|CR|none)\b/.test(ev.grade ?? "")) errs.push(`${m.id}: living, so livingEvidence needs a carrier or its own grade (CD, CR or none)`);
+  }
+  if (m.livingEvidence?.carrier !== undefined) {
+    const carrier = m.livingEvidence.carrier;
+    if (!Array.isArray(carrier) || !carrier.length) errs.push(`${m.id}: livingEvidence.carrier must be a list of movement IDs`);
+    else carrier.forEach(id => {
+      const c = byId.get(id);
+      if (!c || isPerson(c)) errs.push(`${m.id}: livingEvidence.carrier ${id} is not a movement`);
+      else if (id === m.id) errs.push(`${m.id}: livingEvidence.carrier names the entry itself`);
+      else if (c.living !== true) errs.push(`${m.id}: livingEvidence.carrier ${id} is not living`);
+      else if (c.livingEvidence?.carrier !== undefined) errs.push(`${m.id}: livingEvidence.carrier ${id} is carried by another entry; name the entry that holds the evidence`);
+    });
+    if (m.living !== true) errs.push(`${m.id}: livingEvidence.carrier is only for a living tradition`);
+  }
   const seen = new Set();
   let last = -Infinity;
   (Array.isArray(m.people) ? m.people : []).forEach((p, j) => {
