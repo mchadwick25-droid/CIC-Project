@@ -237,6 +237,8 @@ its own notes cite publications of 1909. Its header gives the evidence and dates
 
 ### Next action
 
-Batch 6: Europe 1650-1815 (the Transylvanian Unitarians, the Nordic Lutherans, the Hutterites,
+Batch 6, in a fresh session after the weekly reset (Mark, 2026-11-10: stop after the handover).
+The handover, with the candidates batch 5's session already found: `HANDOVER-batch6.md`. Batch 6 covers
+Europe 1650-1815 (the Transylvanian Unitarians, the Nordic Lutherans, the Hutterites,
 Waldensians and Schwenkfelders, the French Reformed, English Catholics, the Church of Scotland, the
 Remonstrants, the Delaware Swedes).
