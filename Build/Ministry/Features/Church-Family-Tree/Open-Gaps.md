@@ -1287,3 +1287,8 @@ it, never by deleting it.
       Heraclius (the Ekthesis is not held), Bonaventure (one quoted sentence in an editor's note).
       Wanted texts for the Library thread: Paul of Samosata's fragments, a Mesrop text, the
       Ekthesis, Bonaventure's Itinerarium and Life of Francis, Francis's own writings.
+    - **Pamphilus of Caesarea**, held after Mark's ruling by the correction in the Decision-Log
+      ("The later-worlds people ruled (P2-G3b)"): the Library holds only Rufinus's preface and
+      epilogue to the Apology for Origen, and the fragments on Acts are of disputed authorship.
+      Wanted for the Library thread: the Apology for Origen, Book I, in Rufinus's Latin (PG 17) or
+      an English translation. He comes in when the text does.

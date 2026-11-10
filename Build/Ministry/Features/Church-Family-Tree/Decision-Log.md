@@ -1084,3 +1084,11 @@ recommendation" (2026-11-10).
 Maximilla, Kaleb, Heraclius and Bonaventure: the Library holds no words of their own and no
 recorded position that answer C counts. Reasons, one per person: Open-Gaps, "The later-worlds
 people held, with their reasons" (2026-11-10).
+
+**Correction to ruling B's premise (decided by the coordinator under Mark's "take every
+recommendation", 2026-11-10; Mark free to override).** The build's review found that the Library
+does not hold the text of Pamphilus's Apology for Origen: `npnf203` has only Rufinus's preface and
+epilogue to his Latin version, and the only other words of Pamphilus held, the fragments on Acts in
+`anf06`, are of disputed authorship. Ruling B was put as "Pamphilus wrote the Apology with
+Eusebius". Pamphilus is held by the standard every other held person met (no undisputed words of
+his own in the Library), and the Apology is wanted. The release carries 13 entries.
