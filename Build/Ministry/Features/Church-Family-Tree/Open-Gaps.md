@@ -1102,8 +1102,8 @@ it, never by deleting it.
 157. **What P2-V settles (2026-11-10).** Data release 30 carries the written definition of "living"
     and the check of every living flag (Decision-Log, "What 'living' means: P2-V applied as data
     release 30", same date; audit `Build/Ministry/Operations/Audits/2026-11-10_living/`). Ruling 15's
-    condition before the leaf appears is met; the drawn marks are P2-K1. Flags: 192 true before, 263
-    after (of the 127 true in eras 1 to 9: 116 kept, 9 graded, 2 dropped; 73 added; era 10 as
+    condition before the leaf appears is met; the drawn marks are P2-K1. Flags: 192 true before, 264
+    after (of the 127 true in eras 1 to 9: 117 kept, 9 graded, 1 dropped; 73 added; era 10 as
     ruled at its gate).
 158. **Living traditions with no entry after a date: the named gaps (2026-11-10).** Under principle 3
     of the gap sweep ruling, each is told only to the year shown, and the gap is named on its living

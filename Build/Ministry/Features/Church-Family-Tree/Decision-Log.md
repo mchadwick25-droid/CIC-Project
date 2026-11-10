@@ -1023,13 +1023,15 @@ them now cite dated evidence they lacked. Every flag in eras 1 to 9 was checked 
 from each flag to its evidence; backward, from 58 present-day families to the entries that carry
 them. Drafted by Sonnet researchers, reviewed by Opus in three rounds (approved in round 3).
 
-- Of the 127 true flags in eras 1 to 9: 116 kept, 9 kept with a new descent grade, 2 dropped (the
-  Alexandrian catechetical school, a school whose community did not continue; Latin
+- Of the 127 true flags in eras 1 to 9: 117 kept, 9 kept with a new descent grade, 1 dropped (Latin
   Pastoral-Congregational Christianity, the North African church, whose end its own text records).
+  The Alexandrian catechetical school stays living: its world's own record (Article 29, confirmed
+  by Mark 2026-07-17) names the Coptic Orthodox Church as its primary living heir, and a built
+  world's confirmed status governs its census flag.
 - 73 flags move from false to true: mostly middle periods of living churches on their own
   "continued as" lines (the Armenian, Byzantine, Church of the East, Latin, Russian lines), and
   orders the flag had missed (the Carmelites, the later Carthusians). 59 stay false.
-- After: 263 living (era 10: 65). Every living flag now carries `livingEvidence.basis`, and either
+- After: 264 living (era 10: 65). Every living flag now carries `livingEvidence.basis`, and either
   `carrier` (the entries that carry the same tradition today) or its own dated evidence and grade:
   in eras 1 to 9, 6 CD, 62 CR and 4 none. 23 carry a descent grade.
 - Every quote was found verbatim by two methods: in the page saved when it was taken, and in a

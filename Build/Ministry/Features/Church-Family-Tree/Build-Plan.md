@@ -107,7 +107,7 @@ applied to every shared file, not only the census.
 | P2-G3b | The later-worlds people: the count re-run with namesakes checked and editors' notes left out; Mark picks from the clean list (Mark, answer D a) | Mark's pick | todo |
 | P2-P | People layer: Traditions \| People switch, rows, gap placement, links by view; removes the map's hold on person entries (Decision-Log 2026-11-10) | none | todo |
 | P2-PL | Likenesses: rights and date check per image | none | todo |
-| P2-V | "Living" definition and every living flag (192 on main, not 169) | none | done (data release 30; the definition on the method page; 263 living after; Opus review approved in round 3; audit `2026-11-10_living`) |
+| P2-V | "Living" definition and every living flag (192 on main, not 169) | none | done (data release 30; the definition on the method page; 264 living after; Opus review approved in round 3; audit `2026-11-10_living`) |
 | P2-K1 | Drawn marks, 2 to 4 options | Mark's pick | todo |
 | P2-K2 | Marks, floor, tap areas; phone, light and color-vision test | none | todo |
 | P2-Z | Launch gates, numbered release, announcement draft | gates 5 and 6 belong to other threads | todo |

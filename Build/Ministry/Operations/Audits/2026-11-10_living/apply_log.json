@@ -104,16 +104,19 @@
  {
   "id": "alexandria-catechetical",
   "atlasId": "I.2",
-  "outcome": "dropped",
+  "outcome": "kept",
   "before": {
    "living": true,
    "livingEvidence": null
   },
   "after": {
-   "living": false,
+   "living": true,
    "livingEvidence": {
-    "basis": "A school and a way of reading Scripture. The method shaped later readers, but the entry names no community that kept the school going as its own body.",
-    "group": "influence"
+    "basis": "An episode of the church of Alexandria, which lives on today. The world built from this entry names the Coptic Orthodox Church as its main living heir.",
+    "carrier": [
+     "the-coptic-monastic-and-sunday-school-revival"
+    ],
+    "group": "episode"
    }
   }
  },

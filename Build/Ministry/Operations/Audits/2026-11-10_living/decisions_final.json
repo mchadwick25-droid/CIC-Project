@@ -140,23 +140,28 @@
   "id": "alexandria-catechetical",
   "atlasId": "I.2",
   "currentFlag": true,
-  "verdict": "not living",
-  "group": "influence",
+  "verdict": "living",
+  "group": "episode",
   "tradition": "The Alexandrian catechetical school and its Christian-Platonist method",
-  "presentBody": null,
+  "presentBody": "the Coptic Orthodox Church",
   "namedGap": null,
-  "carrier": [],
+  "carrier": [
+   "the-coptic-monastic-and-sunday-school-revival"
+  ],
   "evidenceItems": [],
   "evidence": null,
   "grade": "n/a",
   "descentConfidence": null,
   "descentBasis": null,
-  "basis": "A school and a way of reading Scripture. The method shaped later readers, but the entry names no community that kept the school going as its own body.",
+  "basis": "An episode of the church of Alexandria, which lives on today. The world built from this entry names the Coptic Orthodox Church as its main living heir.",
   "endQuote": null,
   "wanted": "A dated source showing an unbroken school or community, not a later refounding or a claim of heritage.",
-  "openQuestion": "Does the later catechetical teaching of the Coptic Orthodox Church of Alexandria count as descent, or only as a claim of heritage?",
+  "openQuestion": null,
   "agentGrade": "n/a",
-  "outcome": "dropped"
+  "outcome": "kept",
+  "revisedBy": [
+   "alx-article-29"
+  ]
  },
  {
   "id": "montanism-the-new-prophecy",

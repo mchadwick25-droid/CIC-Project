@@ -30650,7 +30650,7 @@
    "glyph": null,
    "statusWord": "Open for conversation",
    "statusDescription": "You can sit down with this tradition now.",
-   "living": false,
+   "living": true,
    "overlayCurrent": false,
    "c2": null,
    "sourcing": "Rich (Clement, Origen); school-institution question is live scholarship. One real gap: Clement's fullest surviving treatment of marriage and the body exists only in his own Greek — no public-domain English translation has ever been made of it.",
@@ -30859,8 +30859,11 @@
    ],
    "reviewStatus": "AI-checked",
    "livingEvidence": {
-    "basis": "A school and a way of reading Scripture. The method shaped later readers, but the entry names no community that kept the school going as its own body.",
-    "group": "influence"
+    "basis": "An episode of the church of Alexandria, which lives on today. The world built from this entry names the Coptic Orthodox Church as its main living heir.",
+    "carrier": [
+     "the-coptic-monastic-and-sunday-school-revival"
+    ],
+    "group": "episode"
    }
   },
   {

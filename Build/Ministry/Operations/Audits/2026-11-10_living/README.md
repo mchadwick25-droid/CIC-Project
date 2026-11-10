@@ -2,7 +2,7 @@
 
 The Church Family Tree's written definition of "living" and the check of every living flag
 against it (Build-Plan, P2-V; Decision-Log, "What 'living' means: P2-V applied as data release
-30", same date). One data release: 353 movements and 689 links, unchanged; 263 living flags (192
+30", same date). One data release: 353 movements and 689 links, unchanged; 264 living flags (192
 before).
 
 ## What was ruled before, and what this applies
@@ -39,6 +39,13 @@ before).
    paraphrase; a quoted title kept as written). `era10_evidence_final.json` is round 2's era 10
    file. `apply_living.mjs` applied both to main's census (`apply_log.json`).
 8. `open_gaps_text.mjs` drafted Open-Gaps 157 to 163.
+9. After merge with main, CI's fleet check (`engine/m1/tests/test_cross_world.py`) found the census
+   flag for `alx` (the Alexandrian catechetical school) disagreed with its world registry. The
+   world's own construction record confirms its Article 29 Living Tradition Status (Mark,
+   2026-07-17), naming the Coptic Orthodox Church as its primary living heir. That ruling governs,
+   so I.2 was restored as living, an episode carried by the Coptic line (`revisedBy`:
+   `alx-article-29`). The research brief had not told researchers to read a built world's own
+   status; the fleet check now catches it. Fleet check rerun: 0 new defects.
 
 The lead's rulings on round 1's four change orders: CO-1 (era 10 evidence) is not a change order,
 since grading a flag is this chunk's job, and was done; CO-2 (link grades) goes to P2-L11, and
@@ -54,12 +61,12 @@ citations are in `era10_evidence_final.json`, which is what the census carries (
 | | count |
 |---|---|
 | living before (eras 1 to 10) | 192 (era 10: 65) |
-| eras 1 to 9, true flags kept | 116 |
+| eras 1 to 9, true flags kept | 117 |
 | kept with a new descent grade | 9 |
-| dropped | 2 (Alexandrian catechetical school; the North African Latin church) |
+| dropped | 1 (the North African Latin church) |
 | added (false to true) | 73 |
 | stay not living | 59 |
-| living after | 263 (era 10: 65, unchanged; 12 gain dated evidence) |
+| living after | 264 (era 10: 65, unchanged; 12 gain dated evidence) |
 | own grades in eras 1 to 9 | 6 CD, 62 CR, 4 none |
 | descent grades | 23 |
 
