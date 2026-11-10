@@ -1,0 +1,434 @@
+{
+ "entries": [
+  {
+   "id": "church-of-the-east-three-patriarchates",
+   "atlasId": "TBD",
+   "era": 8,
+   "name": "The Church of the East — Three Patriarchates",
+   "shortName": "CoE: 3 Patriarchates",
+   "informalName": "The Three Patriarchal Lines",
+   "dates": "1650-1815",
+   "start": 1650,
+   "end": 1815,
+   "region": "Diyarbakır, Mosul, Hakkari",
+   "placeLabel": "Diyarbakır · Mosul and beyond",
+   "modernCountries": [
+    {
+     "country": "Turkey",
+     "countryId": "Q43",
+     "place": "Hakkari-Van-Urmia triangle",
+     "placeId": "Q93209"
+    },
+    {
+     "country": "Iraq",
+     "countryId": "Q796",
+     "place": "Jazira",
+     "placeId": "Q311819"
+    }
+   ],
+   "regions": [
+    "Middle East"
+   ],
+   "lane": "1 Syriac East & Asia",
+   "laneLabel": "Syriac East & Asia",
+   "laneOrder": 1,
+   "beyondFloor": false,
+   "status": "Pre-Survey Candidate",
+   "chip": "psc",
+   "glyph": "psc",
+   "statusWord": "Researched — viable, secondary",
+   "statusDescription": "Tiered Viable, secondary (Tier 2): the sources are mostly outside witnesses. Its window runs from 1650 to 1815, the years between the two entries on either side of it. Not yet reviewed.",
+   "living": false,
+   "overlayCurrent": false,
+   "c2": null,
+   "sourcing": "The evidence is thin. Most texts come from outside the mountain church.\n\nBadger was an English churchman who disliked Rome's work. Wigram led a church mission to the Assyrians. Labourt wrote for a Catholic reference work.\n\nMalech was an Assyrian Protestant from Urmia. He gives the mountain side in a few lines. Labourt says few documents survive for these years.",
+   "floorNote": "No question",
+   "relationsSummary": "This entry carries the Church of the East from 1650 to 1815. It follows the Schism of 1552 and leads on to the Chaldean Consolidation. Popes and missionaries shaped these years, and the entry on the Catholic Church of the Ancien Régime tells their side.",
+   "why": "The Church of the East had two patriarchs in 1650, one in the mountains and one on the plain. In 1681 the pope named a third, at Diyarbakır. In 1778 the patriarch of the plain turned to Rome, and his nephew wrote down the date: 30 April.",
+   "entry": null,
+   "streams": [
+    "eastern-catholic-uniate"
+   ],
+   "longDescription": "The Church of the East began these years with two rival patriarchs. One lived in the mountains of Hakkari, at the village of Qudshanis. The other lived on the plain, at Alqosh and Mosul.\n\nEach patriarch of the plain held an order from the Sultan, called a firman. It confirmed his power over his people in the empire. The mountain patriarchs had no such order. Badger writes that the Kurdish emirs tolerated and protected them.\n\nRome then added a third line. In 1672 Joseph, the church's archbishop at Diyarbakır, broke with the patriarch Elias. Labourt says he followed the advice of Capuchin missionaries. In 1681 Pope Innocent XI gave him the pallium and the title of patriarch. Wigram dates the new line to 1680.\n\nFive men named Joseph held this see in turn. Badger says neither the old bishops nor the Ottoman government recognized the line at first. It did not reach beyond Diyarbakır.\n\nIn 1778 the patriarch of the plain turned to Rome. Elia died of plague at Alqosh on 29 April. His nephew Hormizd wrote the next part himself: “So on the 30th of April I embraced all that the holy Church believes.” After this, Wigram says, the Joseph line at Diyarbakır was allowed to lapse.",
+   "teaser": "Diyarbakır, Mosul and the Hakkari mountains, 1650 to 1815. An ancient church with three patriarchs at once. In 1778 the patriarch of the plain turned to Rome.",
+   "voices": [
+    "Yohannan Hormizd — nephew of the patriarch Elia, who tells in his own account how he turned to Rome on 30 April 1778",
+    "Joseph — archbishop of Diyarbakır, who broke with the patriarch Elias in 1672 and became the first of the Catholic patriarchs named Joseph",
+    "Elia — patriarch of the East at Alqosh and Mosul, who died of plague on 29 April 1778",
+    "Denkha Shimon — patriarch of the mountain line, whose seat moved to Qudshanis in Ottoman territory"
+   ],
+   "legacy": "By 1815 the church stood divided. The line of the plain had joined Rome. The line of the mountains stayed outside Rome's obedience. Its later story is told in the entry on the Church of the East and the Chaldean Consolidation.",
+   "people": [
+    {
+     "name": "Yohannan Hormizd",
+     "year": 1778,
+     "voice": 0,
+     "source": {
+      "work": "Autobiography of Mutran Hanna (Yohannan Hormizd), translated from a Syriac manuscript by G. P. Badger, in The Nestorians and their Rituals, vol. 1 (1852)",
+      "file": "cic/texts/badger_nestorians-and-their-rituals-v1_1852.txt",
+      "lines": "8059-8060",
+      "quote": "So on the 30th of April I embraced all that the holy Church believes, and rejected all that she rejects"
+     }
+    }
+   ],
+   "reviewStatus": "AI-checked",
+   "continuesAs": "church-of-the-east-chaldean-consolidation"
+  }
+ ],
+ "fact_table": [
+  {
+   "entry": "church-of-the-east-three-patriarchates",
+   "field": "longDescription",
+   "sentence": "The Church of the East began these years with two rival patriarchs.",
+   "file": "cic/texts/wigram_assyrians-and-their-neighbours_1929.txt",
+   "lines": "7459-7461",
+   "quote": "Thereafter, there were two lines of Patriarchs of the East, the ‘“‘Shimun” line in the mountains, and the ‘‘Elia” line in the plain."
+  },
+  {
+   "entry": "church-of-the-east-three-patriarchates",
+   "field": "longDescription",
+   "sentence": "One lived in the mountains of Hakkari, at the village of Qudshanis.",
+   "file": "cic/texts/badger_nestorians-and-their-rituals-v1_1852.txt",
+   "lines": "7970-7972",
+   "quote": "one of whom held his seat at Mosul or Alkosh, and the other at Kochanes in central Coor- distau"
+  },
+  {
+   "entry": "church-of-the-east-three-patriarchates",
+   "field": "longDescription",
+   "sentence": "One lived in the mountains of Hakkari, at the village of Qudshanis.",
+   "file": "cic/texts/malech_history-of-the-syrian-nation-and-old-evangelical-apostolic-church-of-the-east_1910.txt",
+   "lines": "16806-16808",
+   "quote": "Denkah Shimon XV transferred (removed) the patriarchal residence from the village of Raban Dadishu to Kudchanis, in the Turkish terri- tory where it has been for more than 200 years"
+  },
+  {
+   "entry": "church-of-the-east-three-patriarchates",
+   "field": "longDescription",
+   "sentence": "The other lived on the plain, at Alqosh and Mosul.",
+   "file": "cic/texts/badger_nestorians-and-their-rituals-v1_1852.txt",
+   "lines": "7970-7972",
+   "quote": "one of whom held his seat at Mosul or Alkosh, and the other at Kochanes in central Coor- distau"
+  },
+  {
+   "entry": "church-of-the-east-three-patriarchates",
+   "field": "longDescription",
+   "sentence": "The other lived on the plain, at Alqosh and Mosul.",
+   "file": "cic/texts/wigram_assyrians-and-their-neighbours_1929.txt",
+   "lines": "7459-7461",
+   "quote": "Thereafter, there were two lines of Patriarchs of the East, the ‘“‘Shimun” line in the mountains, and the ‘‘Elia” line in the plain."
+  },
+  {
+   "entry": "church-of-the-east-three-patriarchates",
+   "field": "longDescription",
+   "sentence": "Each patriarch of the plain held an order from the Sultan, called a firman.",
+   "file": "cic/texts/badger_nestorians-and-their-rituals-v1_1852.txt",
+   "lines": "7955-7958",
+   "quote": "The Nestorian patriarchs of the plains, however, enjoyed great political superiority over their rivals, inasmuch as they were recognized by the Sublime Porte, and each successive occupant of the see received an imperial firman"
+  },
+  {
+   "entry": "church-of-the-east-three-patriarchates",
+   "field": "longDescription",
+   "sentence": "It confirmed his power over his people in the empire.",
+   "file": "cic/texts/badger_nestorians-and-their-rituals-v1_1852.txt",
+   "lines": "7955-7958",
+   "quote": "The Nestorian patriarchs of the plains, however, enjoyed great political superiority over their rivals, inasmuch as they were recognized by the Sublime Porte, and each successive occupant of the see received an imperial firman"
+  },
+  {
+   "entry": "church-of-the-east-three-patriarchates",
+   "field": "longDescription",
+   "sentence": "The mountain patriarchs had no such order.",
+   "file": "cic/texts/badger_nestorians-and-their-rituals-v1_1852.txt",
+   "lines": "7965-7967",
+   "quote": "nized by the Turkish government, and exercised their jurisdiction with the concurrence of their own people, being tolerated and protected therein by the Coordish Emeers."
+  },
+  {
+   "entry": "church-of-the-east-three-patriarchates",
+   "field": "longDescription",
+   "sentence": "Badger writes that the Kurdish emirs tolerated and protected them.",
+   "file": "cic/texts/badger_nestorians-and-their-rituals-v1_1852.txt",
+   "lines": "7965-7967",
+   "quote": "nized by the Turkish government, and exercised their jurisdiction with the concurrence of their own people, being tolerated and protected therein by the Coordish Emeers."
+  },
+  {
+   "entry": "church-of-the-east-three-patriarchates",
+   "field": "longDescription",
+   "sentence": "Rome then added a third line.",
+   "file": "cic/texts/wigram_assyrians-and-their-neighbours_1929.txt",
+   "lines": "7474-7478",
+   "quote": "At last Innocent XI, seeming to despair of his protegés, established in the year 1680 a third line, that of “Joseph,” the holder of which should have his residence at Diar- bekr"
+  },
+  {
+   "entry": "church-of-the-east-three-patriarchates",
+   "field": "longDescription",
+   "sentence": "In 1672 Joseph, the church's archbishop at Diyarbakır, broke with the patriarch Elias.",
+   "url": "https://www.newadvent.org/cathen/03559a.htm",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/cathen_03559a.txt",
+   "quote": "In 1672, Joseph, the Nestorian Archbishop of Diarbekir, following the advice of the Capuchin missionaries, withdrew from communion with the Patriarch Elias IV."
+  },
+  {
+   "entry": "church-of-the-east-three-patriarchates",
+   "field": "longDescription",
+   "sentence": "Labourt says he followed the advice of Capuchin missionaries.",
+   "url": "https://www.newadvent.org/cathen/03559a.htm",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/cathen_03559a.txt",
+   "quote": "In 1672, Joseph, the Nestorian Archbishop of Diarbekir, following the advice of the Capuchin missionaries, withdrew from communion with the Patriarch Elias IV."
+  },
+  {
+   "entry": "church-of-the-east-three-patriarchates",
+   "field": "longDescription",
+   "sentence": "In 1681 Pope Innocent XI gave him the pallium and the title of patriarch.",
+   "url": "https://www.newadvent.org/cathen/03559a.htm",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/cathen_03559a.txt",
+   "quote": "Innocent XI granted him the pallium (1681) and the title of patriarch."
+  },
+  {
+   "entry": "church-of-the-east-three-patriarchates",
+   "field": "longDescription",
+   "sentence": "In 1681 Pope Innocent XI gave him the pallium and the title of patriarch.",
+   "file": "cic/texts/badger_nestorians-and-their-rituals-v1_1852.txt",
+   "lines": "7989-7991",
+   "quote": "proceeded to effect a new schism : which he did by appointing Yoosef, the first of that name, as Patriarch of the Chaldeans at Diarbekir, a.d. 1681."
+  },
+  {
+   "entry": "church-of-the-east-three-patriarchates",
+   "field": "longDescription",
+   "sentence": "Wigram dates the new line to 1680.",
+   "file": "cic/texts/wigram_assyrians-and-their-neighbours_1929.txt",
+   "lines": "7474-7478",
+   "quote": "At last Innocent XI, seeming to despair of his protegés, established in the year 1680 a third line, that of “Joseph,” the holder of which should have his residence at Diar- bekr"
+  },
+  {
+   "entry": "church-of-the-east-three-patriarchates",
+   "field": "longDescription",
+   "sentence": "Five men named Joseph held this see in turn.",
+   "file": "cic/texts/badger_nestorians-and-their-rituals-v1_1852.txt",
+   "lines": "8005-8007",
+   "quote": "after five successive Yoosefs had occupied the See of Diarbekir it was declared abolished by the submission of Mar Elia"
+  },
+  {
+   "entry": "church-of-the-east-three-patriarchates",
+   "field": "longDescription",
+   "sentence": "Badger says neither the old bishops nor the Ottoman government recognized the line at first.",
+   "file": "cic/texts/badger_nestorians-and-their-rituals-v1_1852.txt",
+   "lines": "7996-7997",
+   "quote": "nor by the Sublime Porte, did not at first extend beyond the city of Diarbekir"
+  },
+  {
+   "entry": "church-of-the-east-three-patriarchates",
+   "field": "longDescription",
+   "sentence": "It did not reach beyond Diyarbakır.",
+   "file": "cic/texts/badger_nestorians-and-their-rituals-v1_1852.txt",
+   "lines": "7996-7997",
+   "quote": "nor by the Sublime Porte, did not at first extend beyond the city of Diarbekir"
+  },
+  {
+   "entry": "church-of-the-east-three-patriarchates",
+   "field": "longDescription",
+   "sentence": "In 1778 the patriarch of the plain turned to Rome.",
+   "file": "cic/texts/wigram_assyrians-and-their-neighbours_1929.txt",
+   "lines": "7498-7501",
+   "quote": "in 1778, the Elia line in Mosul made a final and definite sub- mission to the Holy Father. After that, the “Joseph” line at Diarbekr was allowed to lapse"
+  },
+  {
+   "entry": "church-of-the-east-three-patriarchates",
+   "field": "longDescription",
+   "sentence": "Elia died of plague at Alqosh on 29 April.",
+   "file": "cic/texts/badger_nestorians-and-their-rituals-v1_1852.txt",
+   "lines": "8048-8050",
+   "quote": "a plague broke out in the village of Alkosh, and many persons died, among whom was my uncle, who departed this life on the 29th of April."
+  },
+  {
+   "entry": "church-of-the-east-three-patriarchates",
+   "field": "longDescription",
+   "sentence": "His nephew Hormizd wrote the next part himself: “So on the 30th of April I embraced all that the holy Church believes.”",
+   "file": "cic/texts/badger_nestorians-and-their-rituals-v1_1852.txt",
+   "lines": "8059-8060",
+   "quote": "So on the 30th of April I embraced all that the holy Church believes, and rejected all that she rejects"
+  },
+  {
+   "entry": "church-of-the-east-three-patriarchates",
+   "field": "longDescription",
+   "sentence": "After this, Wigram says, the Joseph line at Diyarbakır was allowed to lapse.",
+   "file": "cic/texts/wigram_assyrians-and-their-neighbours_1929.txt",
+   "lines": "7498-7501",
+   "quote": "in 1778, the Elia line in Mosul made a final and definite sub- mission to the Holy Father. After that, the “Joseph” line at Diarbekr was allowed to lapse"
+  },
+  {
+   "entry": "church-of-the-east-three-patriarchates",
+   "field": "why",
+   "sentence": "The Church of the East had two patriarchs in 1650, one in the mountains and one on the plain.",
+   "file": "cic/texts/wigram_assyrians-and-their-neighbours_1929.txt",
+   "lines": "7459-7461",
+   "quote": "Thereafter, there were two lines of Patriarchs of the East, the ‘“‘Shimun” line in the mountains, and the ‘‘Elia” line in the plain."
+  },
+  {
+   "entry": "church-of-the-east-three-patriarchates",
+   "field": "why",
+   "sentence": "In 1681 the pope named a third, at Diyarbakır.",
+   "file": "cic/texts/badger_nestorians-and-their-rituals-v1_1852.txt",
+   "lines": "7989-7991",
+   "quote": "proceeded to effect a new schism : which he did by appointing Yoosef, the first of that name, as Patriarch of the Chaldeans at Diarbekir, a.d. 1681."
+  },
+  {
+   "entry": "church-of-the-east-three-patriarchates",
+   "field": "why",
+   "sentence": "In 1778 the patriarch of the plain turned to Rome, and his nephew wrote down the date: 30 April.",
+   "file": "cic/texts/badger_nestorians-and-their-rituals-v1_1852.txt",
+   "lines": "8059-8060",
+   "quote": "So on the 30th of April I embraced all that the holy Church believes, and rejected all that she rejects"
+  },
+  {
+   "entry": "church-of-the-east-three-patriarchates",
+   "field": "why",
+   "sentence": "In 1778 the patriarch of the plain turned to Rome, and his nephew wrote down the date: 30 April.",
+   "file": "cic/texts/wigram_assyrians-and-their-neighbours_1929.txt",
+   "lines": "7498-7501",
+   "quote": "in 1778, the Elia line in Mosul made a final and definite sub- mission to the Holy Father. After that, the “Joseph” line at Diarbekr was allowed to lapse"
+  },
+  {
+   "entry": "church-of-the-east-three-patriarchates",
+   "field": "teaser",
+   "sentence": "An ancient church with three patriarchs at once.",
+   "file": "cic/texts/wigram_assyrians-and-their-neighbours_1929.txt",
+   "lines": "7459-7461",
+   "quote": "Thereafter, there were two lines of Patriarchs of the East, the ‘“‘Shimun” line in the mountains, and the ‘‘Elia” line in the plain."
+  },
+  {
+   "entry": "church-of-the-east-three-patriarchates",
+   "field": "teaser",
+   "sentence": "An ancient church with three patriarchs at once.",
+   "file": "cic/texts/wigram_assyrians-and-their-neighbours_1929.txt",
+   "lines": "7474-7478",
+   "quote": "At last Innocent XI, seeming to despair of his protegés, established in the year 1680 a third line, that of “Joseph,” the holder of which should have his residence at Diar- bekr"
+  },
+  {
+   "entry": "church-of-the-east-three-patriarchates",
+   "field": "teaser",
+   "sentence": "In 1778 the patriarch of the plain turned to Rome.",
+   "file": "cic/texts/wigram_assyrians-and-their-neighbours_1929.txt",
+   "lines": "7498-7501",
+   "quote": "in 1778, the Elia line in Mosul made a final and definite sub- mission to the Holy Father. After that, the “Joseph” line at Diarbekr was allowed to lapse"
+  },
+  {
+   "entry": "church-of-the-east-three-patriarchates",
+   "field": "relationsSummary",
+   "sentence": "It follows the Schism of 1552 and leads on to the Chaldean Consolidation.",
+   "record": "census VI.30 and VIII.40",
+   "note": "the two neighbors' own records; links drafted below"
+  },
+  {
+   "entry": "church-of-the-east-three-patriarchates",
+   "field": "relationsSummary",
+   "sentence": "Popes and missionaries shaped these years.",
+   "file": "cic/texts/badger_nestorians-and-their-rituals-v1_1852.txt",
+   "lines": "7989-7991",
+   "quote": "proceeded to effect a new schism : which he did by appointing Yoosef, the first of that name, as Patriarch of the Chaldeans at Diarbekir, a.d. 1681."
+  },
+  {
+   "entry": "church-of-the-east-three-patriarchates",
+   "field": "relationsSummary",
+   "sentence": "Popes and missionaries shaped these years.",
+   "url": "https://www.newadvent.org/cathen/03559a.htm",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/cathen_03559a.txt",
+   "quote": "In 1672, Joseph, the Nestorian Archbishop of Diarbekir, following the advice of the Capuchin missionaries, withdrew from communion with the Patriarch Elias IV."
+  },
+  {
+   "entry": "church-of-the-east-three-patriarchates",
+   "field": "sourcing",
+   "sentence": "Labourt says few documents survive for these years.",
+   "url": "https://www.newadvent.org/cathen/03559a.htm",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/cathen_03559a.txt",
+   "quote": "Owing to the scarcity of documents the history of this period is little known."
+  },
+  {
+   "entry": "church-of-the-east-three-patriarchates",
+   "field": "sourcing",
+   "sentence": "Badger was an Anglican; Wigram led the Archbishop of Canterbury's mission; Malech an Assyrian Protestant from Urmia",
+   "record": "cic/texts file headers (Wigram, Malech) and Badger's own title page, as the sweep record notes",
+   "note": "who the witnesses are, not a historical claim"
+  },
+  {
+   "entry": "church-of-the-east-three-patriarchates",
+   "field": "legacy",
+   "sentence": "The line of the plain had joined Rome.",
+   "file": "cic/texts/wigram_assyrians-and-their-neighbours_1929.txt",
+   "lines": "7498-7501",
+   "quote": "in 1778, the Elia line in Mosul made a final and definite sub- mission to the Holy Father. After that, the “Joseph” line at Diarbekr was allowed to lapse"
+  },
+  {
+   "entry": "church-of-the-east-three-patriarchates",
+   "field": "legacy",
+   "sentence": "The line of the mountains stayed outside Rome's obedience.",
+   "file": "cic/texts/badger_nestorians-and-their-rituals-v1_1852.txt",
+   "lines": "7969-7975",
+   "quote": "The frequent attempts made by Romish missionaries to induce these two Nestorian patriarchs, one of whom held his seat at Mosul or Alkosh, and the other at Kochanes in central Coor- distau, to acknowledge the supremacy of the Pope, are fully recorded in the above quotations. The partial success of these machinations was ever and anon thwarted and destroyed by the attachment of the Nestorians to their own rituals and discipline."
+  },
+  {
+   "entry": "church-of-the-east-three-patriarchates",
+   "field": "voices",
+   "sentence": "Yohannan Hormizd tells in his own account how he turned to Rome on 30 April 1778.",
+   "file": "cic/texts/badger_nestorians-and-their-rituals-v1_1852.txt",
+   "lines": "8059-8060",
+   "quote": "So on the 30th of April I embraced all that the holy Church believes, and rejected all that she rejects"
+  },
+  {
+   "entry": "church-of-the-east-three-patriarchates",
+   "field": "voices",
+   "sentence": "Yohannan Hormizd tells in his own account how he turned to Rome on 30 April 1778.",
+   "file": "cic/texts/badger_nestorians-and-their-rituals-v1_1852.txt",
+   "lines": "8020-8021",
+   "quote": "I Hormuzd, son of deacon Hanna, the brother of Mar Elia the Patriarch of the East, was born a.d. 1760"
+  },
+  {
+   "entry": "church-of-the-east-three-patriarchates",
+   "field": "voices",
+   "sentence": "Elia died of plague on 29 April 1778.",
+   "file": "cic/texts/badger_nestorians-and-their-rituals-v1_1852.txt",
+   "lines": "8048-8050",
+   "quote": "a plague broke out in the village of Alkosh, and many persons died, among whom was my uncle, who departed this life on the 29th of April."
+  },
+  {
+   "entry": "church-of-the-east-three-patriarchates",
+   "field": "voices",
+   "sentence": "Joseph broke with the patriarch Elias in 1672 and became the first of the Catholic patriarchs named Joseph.",
+   "url": "https://www.newadvent.org/cathen/03559a.htm",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/cathen_03559a.txt",
+   "quote": "In 1672, Joseph, the Nestorian Archbishop of Diarbekir, following the advice of the Capuchin missionaries, withdrew from communion with the Patriarch Elias IV."
+  },
+  {
+   "entry": "church-of-the-east-three-patriarchates",
+   "field": "voices",
+   "sentence": "Joseph broke with the patriarch Elias in 1672 and became the first of the Catholic patriarchs named Joseph.",
+   "file": "cic/texts/badger_nestorians-and-their-rituals-v1_1852.txt",
+   "lines": "7989-7991",
+   "quote": "proceeded to effect a new schism : which he did by appointing Yoosef, the first of that name, as Patriarch of the Chaldeans at Diarbekir, a.d. 1681."
+  },
+  {
+   "entry": "church-of-the-east-three-patriarchates",
+   "field": "voices",
+   "sentence": "Denkha Shimon's seat moved to Qudshanis in Ottoman territory.",
+   "file": "cic/texts/malech_history-of-the-syrian-nation-and-old-evangelical-apostolic-church-of-the-east_1910.txt",
+   "lines": "16806-16808",
+   "quote": "Denkah Shimon XV transferred (removed) the patriarchal residence from the village of Raban Dadishu to Kudchanis, in the Turkish terri- tory where it has been for more than 200 years"
+  },
+  {
+   "entry": "church-of-the-east-three-patriarchates",
+   "field": "voices",
+   "sentence": "Hormizd, Hanna and Yohannan are one man.",
+   "file": "cic/texts/badger_nestorians-and-their-rituals-v1_1852.txt",
+   "lines": "8024-8025",
+   "quote": "Mar or Mutran Hanna or Yohannan, (John,) is the name by which the last of the Nestorian patriarchs is generally known."
+  }
+ ],
+ "neighbor_changes": [],
+ "links": [],
+ "retire_links": [],
+ "holds": [],
+ "wants": [],
+ "flags": []
+}

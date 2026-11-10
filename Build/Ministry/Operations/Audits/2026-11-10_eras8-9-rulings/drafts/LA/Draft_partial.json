@@ -1,0 +1,1313 @@
+{
+ "entries": [
+  {
+   "id": "caribbean-churches-of-slavery-and-emancipation",
+   "atlasId": "TBD",
+   "era": 9,
+   "name": "The Caribbean Churches of Slavery and Emancipation",
+   "shortName": "Caribbean churches",
+   "informalName": "The Churches of Slavery and Freedom",
+   "dates": "1815-1906",
+   "start": 1815,
+   "end": 1906,
+   "region": "Jamaica, Demerara",
+   "placeLabel": "Jamaica · Demerara",
+   "modernCountries": [],
+   "regions": [
+    "Latin America"
+   ],
+   "lane": "6 Protestant & Evangelical",
+   "laneLabel": "Protestant & Evangelical",
+   "laneOrder": 6,
+   "beyondFloor": false,
+   "status": "Pre-Survey Candidate",
+   "chip": "psc",
+   "glyph": "psc",
+   "statusWord": "Researched — strong candidate",
+   "statusDescription": "Tiered Strong (Tier 1). One story of the Baptist, Wesleyan, Native Baptist and mission churches of Jamaica and Demerara. Its window opens in 1815, where the entries on the Moravians and the Baptists end. It closes with the era in 1906.",
+   "living": false,
+   "overlayCurrent": false,
+   "c2": null,
+   "sourcing": "Rich on the missionary side and thin on the side of the enslaved. Almost every text is a missionary's or a mission supporter's. Sharpe's words reach us only through Bleby. The Native Baptists have no words of their own here. This entry does not yet tell the revival of 1860 and 1861 or the rising at Morant Bay in 1865, because no text of those years has been read.",
+   "floorNote": "No question for the mission churches. The Native Baptists are not yet assessed, so they enter as a line only.",
+   "relationsSummary": "George Liele began Baptist work in Kingston before this story. The Moravians have their own entry after 1815. This entry tells the other churches of the islands as one story.",
+   "why": "Jamaican Baptists lived through the end of slavery. Samuel Sharpe, a Baptist, promoted a plan to refuse work and was executed in 1832. On the night of 31 July 1838 a Baptist congregation at Falmouth waited for midnight, and next morning it buried a chain, a whip and an iron collar.",
+   "entry": null,
+   "teaser": "Jamaica and Demerara, 1815 to 1906. Churches among the enslaved, and the night in 1838 when a church buried a whip and a chain.",
+   "longDescription": "George Liele was a Black man. He was the slave of a British officer and had pastored a Baptist church in Georgia. In 1782 his master brought him to Kingston. Several members of his church followed. In 1813 the Baptist Missionary Society sent John Rowe to work with one of them, Moses Baker, near Falmouth. The Wesleyans had begun work on the island in 1789.\n\nIn 1843 a missionary named James Phillippo counted the churches of Jamaica. He found 226 places of worship. Native Baptists held eight or nine of them. They had fourteen ministers.\n\nSamuel Sharpe was a Baptist. The missionary Henry Bleby talked with him in jail. Bleby writes that Sharpe learned from his Bible that whites had no more right to hold Black people in slavery than Black people had to hold whites. Sharpe used prayer meetings on the estates to spread his plan. Those who joined swore not to work again after the Christmas holidays unless they were free. The rising broke out a day or two after Christmas Day, 1831. Bleby writes that once it began, it was beyond Sharpe's control. Sharpe was executed at Montego Bay on 23 May 1832.\n\nOn 31 July 1838 the Baptist chapel at Falmouth filled for a night of prayer. The missionary William Knibb pointed to the clock. At the last stroke of midnight he cried, “The monster is dead: the negro is free.” Early next morning a crowd buried a chain, a whip and an iron collar in a coffin, as at a funeral. On 30 November 1838 Knibb wrote to Mr. Sturge about buying land for a village, which he called Birmingham.\n\nIn Demerara, now part of Guyana, enslaved people rose in revolt in August 1823. Many in the colony blamed John Smith, who served the London Missionary Society. The court sentenced him to death on 24 November 1823. His memoirist, Edwin Wallbridge, said the charge rested on lies. Smith died on 6 February 1824. The King lifted the sentence, but word of it reached the colony only on 30 March 1824.",
+   "voices": [
+    "Samuel Sharpe — a Baptist of Jamaica, executed at Montego Bay on 23 May 1832 for his part in the rising of Christmas 1831",
+    "William Knibb — the missionary at Falmouth who cried at midnight on 31 July 1838, “The monster is dead: the negro is free”",
+    "George Liele — a Black Baptist pastor who came from Georgia to Kingston in 1782",
+    "John Smith — the London Missionary Society's missionary in Demerara, sentenced to death on 24 November 1823",
+    "Henry Bleby — a missionary who lived in Jamaica for seventeen years and wrote of Sharpe from his own talks with him"
+   ],
+   "legacy": "In 1843 Phillippo counted 226 places of worship in Jamaica. This entry stops in 1906 and reads no text from later years, so it says nothing about the churches today.",
+   "sources": [
+    {
+     "work": "James M. Phillippo, Jamaica: Its Past and Present State (Philadelphia: Campbell; New York: Saxton & Miles, 1843)",
+     "type": "primary",
+     "note": "A Baptist missionary's account of the island. Read in full text online; it counts the chapels of each church and tells the Baptists' beginnings."
+    },
+    {
+     "work": "Henry Bleby, Death Struggles of Slavery, 3rd ed. (London, 1868)",
+     "type": "primary",
+     "note": "A missionary's account of Sharpe and the rising of 1831. Read in full text online. The print is noisy and its wording should be checked against the page images."
+    },
+    {
+     "work": "John Howard Hinton, Memoir of William Knibb, Missionary in Jamaica, 2nd ed. (London: Houlston and Stoneman, 1849)",
+     "type": "primary",
+     "note": "The memoir of the Falmouth missionary, with his own letters. Read in full text online."
+    },
+    {
+     "work": "Edwin Angel Wallbridge, The Demerara Martyr: Memoirs of the Rev. John Smith, Missionary to Demerara (London: Gilpin, 1848)",
+     "type": "primary",
+     "note": "A memoir that argues for Smith's innocence. Read in full text online. It is the case for one side."
+    },
+    {
+     "work": "Arthur Charles Dayfoot, The Shaping of the West Indian Church, 1492-1962 (University of the West Indies Press, 1999)",
+     "type": "secondary",
+     "note": "Author, title, press and year confirmed from a catalog record. The contents were not opened."
+    },
+    {
+     "work": "Mary Turner, Slaves and Missionaries: The Disintegration of Jamaican Slave Society, 1787-1834 (University of Illinois Press, 1982)",
+     "type": "secondary",
+     "note": "Author, title, press and year confirmed from a catalog record. The contents were not opened."
+    },
+    {
+     "work": "Emilia Viotti da Costa, Crowns of Glory, Tears of Blood: The Demerara Slave Rebellion of 1823 (Oxford University Press, 1994)",
+     "type": "secondary",
+     "note": "Author, title, press and year confirmed from a catalog record. By a Brazilian historian. The contents were not opened."
+    }
+   ],
+   "documentedStories": [],
+   "people": [],
+   "peopleNote": "The Library holds no words from the people this story names that are fit to quote. Liele's letters are on its shelf, but their print is too rough.",
+   "reviewStatus": "AI-checked",
+   "ruling": "G89-14 (a)"
+  },
+  {
+   "id": "canudos-belo-monte",
+   "atlasId": "TBD",
+   "era": 9,
+   "name": "Canudos (Belo Monte)",
+   "shortName": "Canudos",
+   "informalName": "The Holy Town of the Bahia Backlands",
+   "dates": "1893-1897",
+   "start": 1893,
+   "end": 1897,
+   "region": "Bahia, Brazil",
+   "placeLabel": "Bahia · Brazil",
+   "modernCountries": [
+    {
+     "country": "Brazil",
+     "countryId": "Q155",
+     "place": "Brazil",
+     "placeId": "Q155"
+    }
+   ],
+   "regions": [
+    "Latin America"
+   ],
+   "lane": "5 Latin West & Catholicism",
+   "laneLabel": "Latin West & Catholicism",
+   "laneOrder": 5,
+   "beyondFloor": false,
+   "status": "Pre-Survey Candidate",
+   "chip": "psc",
+   "glyph": "psc",
+   "statusWord": "Researched — viable, secondary",
+   "statusDescription": "Tiered Viable, secondary (Tier 2). It is a movement inside popular Catholicism, not a church, so it was tested on four marks. They are a beginning at Canudos in 1893, carriers, a name, and a study. Its window runs from 1893 to the fall of the town in 1897.",
+   "living": false,
+   "overlayCurrent": false,
+   "c2": null,
+   "sourcing": "Moderate, and hostile. The main account is Euclides da Cunha's Os Sertões, in its third edition of 1905. The backlanders speak through a writer who calls the Conselheiro a crude gnostic. The Conselheiro's own sermons were not opened.",
+   "floorNote": "No question on the record read. Euclides reports litanies and an image of Christ. He also says the Conselheiro attacked the Roman Church, so the community's own words matter, and none were read.",
+   "relationsSummary": "It grew out of everyday Catholic life in the backlands of Brazil. A larger entry, on the Catholic church in Latin America, tells that life. It also names Tomóchic in Mexico, a popular movement of the 1890s. This entry claims no link between the two.",
+   "why": "In 1893 a lay preacher, Antônio Conselheiro, settled his followers in the ruined hamlet of Canudos in Bahia. In 1897 the army besieged it, and it fell. What we know comes mostly from one hostile book.",
+   "entry": null,
+   "teaser": "Bahia, Brazil, 1893 to 1897 — a lay preacher's holy town, known mostly through one hostile book.",
+   "longDescription": "Antônio Conselheiro was a lay preacher of the Bahia backlands. In 1876 he came to Itapicuru de Cima. His followers carried a rough cedar oratory with an image of Christ. At each stop they knelt to pray. They entered the villages singing litanies. Euclides da Cunha wrote the best-known account of him. He was a hostile witness.\n\nIn 1893 the Conselheiro was in Bom Conselho when the new town councils posted tax notices. He had the notices burned in the square and preached open rebellion against the laws. That year he reached Canudos, a hamlet in decay. Euclides says it grew fast from then on. A witness says families sold their goods and gave the money to «o Santo Conselheiro».\n\nEuclides prints prophecies that he says were written in many small notebooks found at Canudos. One reads: «Em 1896 hade rebanhos mil correr da praia para o certão; então o certão virará praia e a praia virará certão.» In English: “In 1896 a thousand flocks will run from the coast to the backlands; then the backlands will become coast and the coast will become backlands” (a rendering). Euclides also says the Conselheiro attacked the Roman Church. He says the Conselheiro claimed that it had lost its glory and obeyed Satan. He compares him to ancient heretics and calls him «um gnostico bronco», a crude gnostic (a rendering). So his account is not neutral.\n\nAn army order dated 6 September 1897 still tells of shelling the church towers. Euclides says Canudos fell on the 5th, at dusk. He writes that four defenders were left, an old man, two grown men and a child, with five thousand soldiers raging before them.",
+   "voices": [
+    "Antônio Conselheiro — the lay preacher who led his followers to Canudos in 1893",
+    "Euclides da Cunha — the author of Os Sertões, whose hostile account is the main source"
+   ],
+   "legacy": "The town was destroyed, and this entry reads no text after 1905. A study named for this movement is Robert M. Levine, Vale of Tears (University of California Press, 1992). It was not opened.",
+   "sources": [
+    {
+     "work": "Euclydes da Cunha, Os Sertões (Campanha de Canudos), 3rd corrected ed. (Rio de Janeiro: Laemmert, 1905)",
+     "type": "primary",
+     "note": "A hostile contemporary account. Read in full text online. The print is noisy and its wording should be checked against the page images."
+    },
+    {
+     "work": "Robert M. Levine, Vale of Tears: Revisiting the Canudos Massacre in Northeastern Brazil, 1893-1897 (University of California Press, 1992)",
+     "type": "secondary",
+     "note": "Author, title, press and year confirmed from a catalog record; the subtitle was not. The contents were not opened. It is the study that names this as a movement."
+    }
+   ],
+   "documentedStories": [],
+   "people": [],
+   "peopleNote": "The Library holds no words from the people this story names. The Conselheiro is known here only through Euclides da Cunha.",
+   "reviewStatus": "AI-checked",
+   "ruling": "G89-15 (a)"
+  }
+ ],
+ "fact_table": [
+  {
+   "entry": "caribbean-churches-of-slavery-and-emancipation",
+   "field": "longDescription",
+   "sentence": "George Liele was a Black man. He was the slave of a British officer and had pastored a Baptist church in Georgia. In 1782 his master brought him to Kingston.",
+   "url": "https://archive.org/download/jamaicaitspastpr00phil/jamaicaitspastpr00phil_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/phillippo.txt",
+   "quote": "In 1782, Mr. George Lisle, a black man, the slave of a British officer, and who had been the pastor of a Baptist church in Georgia, in the United States, was brought over by his master to Kingston"
+  },
+  {
+   "entry": "caribbean-churches-of-slavery-and-emancipation",
+   "field": "longDescription",
+   "sentence": "Several members of his church followed.",
+   "url": "https://archive.org/download/jamaicaitspastpr00phil/jamaicaitspastpr00phil_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/phillippo.txt",
+   "quote": "He was shortly followed by several members of his church, among whom were Moses Baker, and Messrs. Gibbs and Robinson."
+  },
+  {
+   "entry": "caribbean-churches-of-slavery-and-emancipation",
+   "field": "longDescription",
+   "sentence": "In 1813 the Baptist Missionary Society sent John Rowe to work with one of them, Moses Baker, at Flamstead, near Falmouth.",
+   "url": "https://archive.org/download/jamaicaitspastpr00phil/jamaicaitspastpr00phil_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/phillippo.txt",
+   "quote": "The Baptist Mis- sionary Society directed its efforts to the island in 1813. Their first missionary was Mr. John Rowe, who was sent to co- operate with Moses Baker, at a station called Flamstead, near Falmouth"
+  },
+  {
+   "entry": "caribbean-churches-of-slavery-and-emancipation",
+   "field": "longDescription",
+   "sentence": "In 1843 a missionary named James Phillippo counted the churches of Jamaica. He found 226 places of worship.",
+   "url": "https://archive.org/download/jamaicaitspastpr00phil/jamaicaitspastpr00phil_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/phillippo.txt",
+   "quote": "making a total of two hundred and twenty-six regular places of worship"
+  },
+  {
+   "entry": "caribbean-churches-of-slavery-and-emancipation",
+   "field": "longDescription",
+   "sentence": "The Wesleyans had begun work on the island in 1789.",
+   "url": "https://archive.org/download/jamaicaitspastpr00phil/jamaicaitspastpr00phil_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/phillippo.txt",
+   "quote": "The Wesleyans began their operations in Jamaica in 1789, under Dr. Coke"
+  },
+  {
+   "entry": "caribbean-churches-of-slavery-and-emancipation",
+   "field": "longDescription",
+   "sentence": "Native Baptists held eight or nine of them.",
+   "url": "https://archive.org/download/jamaicaitspastpr00phil/jamaicaitspastpr00phil_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/phillippo.txt",
+   "quote": "eight or nine with native Baptists;"
+  },
+  {
+   "entry": "caribbean-churches-of-slavery-and-emancipation",
+   "field": "longDescription",
+   "sentence": "They had fourteen ministers.",
+   "url": "https://archive.org/download/jamaicaitspastpr00phil/jamaicaitspastpr00phil_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/phillippo.txt",
+   "quote": "Native Baptists, 14 ; Baptist Missionaries, 31. Total 116"
+  },
+  {
+   "entry": "caribbean-churches-of-slavery-and-emancipation",
+   "field": "longDescription",
+   "sentence": "Samuel Sharpe was a Baptist.",
+   "url": "https://archive.org/download/b24870109/b24870109_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/bleby.txt",
+   "quote": "It has been observed that Sharpe was a Baptist ;"
+  },
+  {
+   "entry": "caribbean-churches-of-slavery-and-emancipation",
+   "field": "longDescription",
+   "sentence": "The missionary Henry Bleby talked with him in jail.",
+   "url": "https://archive.org/download/b24870109/b24870109_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/bleby.txt",
+   "quote": "the last time I conversed with Sharpe, he repeated his expres- sions of sorrow that he had been the cause of so much mischief."
+  },
+  {
+   "entry": "caribbean-churches-of-slavery-and-emancipation",
+   "field": "longDescription",
+   "sentence": "(Bleby lived in the colony; his title page)",
+   "url": "https://archive.org/download/b24870109/b24870109_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/bleby.txt",
+   "quote": "A RESIDENT IN THE COLONY SEVENTEEN YEARS"
+  },
+  {
+   "entry": "caribbean-churches-of-slavery-and-emancipation",
+   "field": "longDescription",
+   "sentence": "Bleby writes that Sharpe learned from his Bible that whites had no more right to hold Black people in slavery than Black people had to hold whites.",
+   "url": "https://archive.org/download/b24870109/b24870109_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/bleby.txt",
+   "quote": "But he thought, and he learnt from his Bible, that the whites had no niore right to hold black people in slavery, than the black people had"
+  },
+  {
+   "entry": "caribbean-churches-of-slavery-and-emancipation",
+   "field": "longDescription",
+   "sentence": "Sharpe used prayer meetings on the estates to spread his plan.",
+   "url": "https://archive.org/download/b24870109/b24870109_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/bleby.txt",
+   "quote": "He availed himself of meetings for prayer, held on different estates amongst the negroes themselves, to spread his views"
+  },
+  {
+   "entry": "caribbean-churches-of-slavery-and-emancipation",
+   "field": "longDescription",
+   "sentence": "Those who joined swore not to work again after the Christmas holidays unless they were free.",
+   "url": "https://archive.org/download/b24870109/b24870109_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/bleby.txt",
+   "quote": "All who consented to join in it w^ere sworn to secrecy, to be faithful to each other, and also to refuse to go out to work again, after the Christmas holidays, in any other capacity than as free-men;"
+  },
+  {
+   "entry": "caribbean-churches-of-slavery-and-emancipation",
+   "field": "longDescription",
+   "sentence": "The rising broke out a day or two after Christmas Day, 1831.",
+   "url": "https://archive.org/download/b24870109/b24870109_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/bleby.txt",
+   "quote": "on the morning of Christmas-day, 1831, a day or two before the insurrection broke out"
+  },
+  {
+   "entry": "caribbean-churches-of-slavery-and-emancipation",
+   "field": "longDescription",
+   "sentence": "Bleby writes that once it began, it was beyond Sharpe's control.",
+   "url": "https://archive.org/download/b24870109/b24870109_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/bleby.txt",
+   "quote": "the spirit of revolt, once evoked, was not susceptible of control"
+  },
+  {
+   "entry": "caribbean-churches-of-slavery-and-emancipation",
+   "field": "longDescription",
+   "sentence": "Sharpe was executed at Montego Bay on 23 May 1832.",
+   "url": "https://archive.org/download/b24870109/b24870109_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/bleby.txt",
+   "quote": "Sharpe was the last victim that was put to death for taking part in the insurrection. He was executed at Mon- tego Bay on the 23rd of May, 1832."
+  },
+  {
+   "entry": "caribbean-churches-of-slavery-and-emancipation",
+   "field": "longDescription",
+   "sentence": "On 31 July 1838 the Baptist chapel at Falmouth filled for a night of prayer.",
+   "url": "https://archive.org/download/memoirofwilliamk00hint/memoirofwilliamk00hint_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/hinton.txt",
+   "quote": "On the evening of the 31st of July the baptist chapel was opened for worship, a transparency, with the word freedom, having been placed over the front MEMOIR OF WILLIAM KNIBI3. 261 entrance to the chapel-yard. Of course it was crowded."
+  },
+  {
+   "entry": "caribbean-churches-of-slavery-and-emancipation",
+   "field": "longDescription",
+   "sentence": "(Falmouth)",
+   "url": "https://archive.org/download/memoirofwilliamk00hint/memoirofwilliamk00hint_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/hinton.txt",
+   "quote": "nowhere in Jamaica were the demonstrations of gladness more energetic or more characteristic than in Falmouth"
+  },
+  {
+   "entry": "caribbean-churches-of-slavery-and-emancipation",
+   "field": "longDescription",
+   "sentence": "The missionary William Knibb pointed to the clock. At the last stroke of midnight he cried, \"The monster is dead: the negro is free.\"",
+   "url": "https://archive.org/download/memoirofwilliamk00hint/memoirofwilliamk00hint_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/hinton.txt",
+   "quote": "He pointed to the face of the clock, and said, \" The hour is at hand, the monster is dying.\" Having heard its first note, he exclaimed, \" The clock is striking;\" and having waited for its last note, he cried out, \" The monster is dead : the negro is free."
+  },
+  {
+   "entry": "caribbean-churches-of-slavery-and-emancipation",
+   "field": "longDescription",
+   "sentence": "Early next morning a crowd buried a chain, a whip and an iron collar in a coffin, as at a funeral.",
+   "url": "https://archive.org/download/memoirofwilliamk00hint/memoirofwilliamk00hint_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/hinton.txt",
+   "quote": "At an early hour in the morning further proceedings took place, intended to be emblematical of the ex- tinction of slavery. A hole having been dug in the ground attached to the Suffield school-room, a coffin also having been prepared, and the ordinary instru- ments of slavery — a chain, a whip, an iron collar, &c. — having been deposited in it, a large concourse of persons assembled between five and six o'clock, as for the purpose of celebrating a funeral."
+  },
+  {
+   "entry": "caribbean-churches-of-slavery-and-emancipation",
+   "field": "longDescription",
+   "sentence": "On 30 November 1838 Knibb wrote to Mr. Sturge about buying land for a village, which he called Birmingham.",
+   "url": "https://archive.org/download/memoirofwilliamk00hint/memoirofwilliamk00hint_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/hinton.txt",
+   "quote": "and calls the intended village Birmingham. He then pro- ceeds as follows : — TO MR. STURGE. \"Falmouth, November 30, 1838."
+  },
+  {
+   "entry": "caribbean-churches-of-slavery-and-emancipation",
+   "field": "longDescription",
+   "sentence": "In Demerara, now part of Guyana, enslaved people revolted in August 1823.",
+   "url": "https://archive.org/download/demeraramartyrme00wall/demeraramartyrme00wall_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/wallbridge.txt",
+   "quote": "unhappy revolt among the negroes on the east coast of Demerara, which occurred in August, 1823"
+  },
+  {
+   "entry": "caribbean-churches-of-slavery-and-emancipation",
+   "field": "longDescription",
+   "sentence": "Many in the colony blamed John Smith, who served the London Missionary Society.",
+   "url": "https://archive.org/download/demeraramartyrme00wall/demeraramartyrme00wall_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/wallbridge.txt",
+   "quote": "That he in some way or other caused the insurrection amongst the slaves in 1823, is stated and pro- bably believed by very many"
+  },
+  {
+   "entry": "caribbean-churches-of-slavery-and-emancipation",
+   "field": "longDescription",
+   "sentence": "(Smith was the London Missionary Society's missionary)",
+   "url": "https://archive.org/download/demeraramartyrme00wall/demeraramartyrme00wall_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/wallbridge.txt",
+   "quote": "Directors of the London Missionary Society in the usual way, by whom, after due deliberation, his services were accepted."
+  },
+  {
+   "entry": "caribbean-churches-of-slavery-and-emancipation",
+   "field": "longDescription",
+   "sentence": "The court sentenced him to death on 24 November 1823.",
+   "url": "https://archive.org/download/demeraramartyrme00wall/demeraramartyrme00wall_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/wallbridge.txt",
+   "quote": "on the 24th of November, 1823, was passed upon the Rev. John Smith."
+  },
+  {
+   "entry": "caribbean-churches-of-slavery-and-emancipation",
+   "field": "longDescription",
+   "sentence": "His memoirist, Edwin Wallbridge, said the charge rested on lies. (malicious falsehoods)",
+   "url": "https://archive.org/download/demeraramartyrme00wall/demeraramartyrme00wall_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/wallbridge.txt",
+   "quote": "whose opinions about him have been gathered from the malicious falsehoods industriously circulated concerning him"
+  },
+  {
+   "entry": "caribbean-churches-of-slavery-and-emancipation",
+   "field": "longDescription",
+   "sentence": "Smith died on 6 February 1824.",
+   "url": "https://archive.org/download/demeraramartyrme00wall/demeraramartyrme00wall_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/wallbridge.txt",
+   "quote": "on the morning of February 6th, in the most happy manner"
+  },
+  {
+   "entry": "caribbean-churches-of-slavery-and-emancipation",
+   "field": "longDescription",
+   "sentence": "The King lifted the sentence, but word of it reached the colony only on 30 March 1824.",
+   "url": "https://archive.org/download/demeraramartyrme00wall/demeraramartyrme00wall_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/wallbridge.txt",
+   "quote": "did not reach Demerara until the 30th of March, 1824"
+  },
+  {
+   "entry": "caribbean-churches-of-slavery-and-emancipation",
+   "field": "statusWord/statusDescription",
+   "sentence": "Tiered Strong (Tier 1); window opens 1815 where VII.4 and VII.16 end; closes 1906",
+   "record": "record §4 LA8-1 (Tier 1; Era 9; Overlap line)",
+   "note": "The record's tier and placement; G89-14 (a) rules the row."
+  },
+  {
+   "entry": "caribbean-churches-of-slavery-and-emancipation",
+   "field": "floorNote",
+   "sentence": "No question for the mission churches. The Native Baptists are not yet assessed.",
+   "record": "record §4 LA8-1 Section A",
+   "note": "The record: no question for the mission churches; Native Baptists \"not yet assessable (line only)\"."
+  },
+  {
+   "entry": "caribbean-churches-of-slavery-and-emancipation",
+   "field": "sourcing",
+   "sentence": "Rich on the missionary side and thin on the side of the enslaved.",
+   "record": "record §4 LA8-1 B1",
+   "note": "The record's own B1 finding; the remaining sentences are drawn from the four texts read."
+  },
+  {
+   "entry": "caribbean-churches-of-slavery-and-emancipation",
+   "field": "sourcing",
+   "sentence": "This entry does not yet tell the revival of 1860 and 1861 or the rising at Morant Bay in 1865",
+   "record": "record §4 LA8-1 Dates line ([S] items)",
+   "note": "Both items are [S] in the record, so neither carries a sentence. They go to holds."
+  },
+  {
+   "entry": "caribbean-churches-of-slavery-and-emancipation",
+   "field": "relationsSummary",
+   "sentence": "The Moravians, whose island missions began before 1815, are told after that year in their own entry.",
+   "record": "record §7 RV-5 and G89-4",
+   "note": "Placement only; the link from this row to RV-5 is the RV-B slice's."
+  },
+  {
+   "entry": "caribbean-churches-of-slavery-and-emancipation",
+   "field": "why",
+   "sentence": "Jamaican Baptists lived through the end of slavery.",
+   "record": "the facts above",
+   "note": "Restates the Sharpe and Falmouth sentences; no new fact."
+  },
+  {
+   "entry": "caribbean-churches-of-slavery-and-emancipation",
+   "field": "legacy",
+   "sentence": "In 1843 Phillippo counted 226 places of worship in Jamaica.",
+   "record": "facts above (Phillippo)",
+   "note": "Same count as in longDescription."
+  },
+  {
+   "entry": "canudos-belo-monte",
+   "field": "longDescription",
+   "sentence": "Antônio Conselheiro ... In 1876 he came to the town of Itapicuru de Cima.",
+   "url": "https://archive.org/download/004518-completo/004518_COMPLETO_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/euclides.txt",
+   "quote": "Assim se apresentou o Conselheiro, em 1876, na villa do Itapicurú de Cima."
+  },
+  {
+   "entry": "canudos-belo-monte",
+   "field": "longDescription",
+   "sentence": "Antônio Conselheiro was a lay preacher of the Bahia backlands.",
+   "record": "record §4 LA8-3 (Four marks 2; Dates; Kind)",
+   "note": "The record calls him a lay beato and places the movement in the Bahia backlands (Euclides, V). \"Lay\" is the record's own word. Euclides's text names no ordination."
+  },
+  {
+   "entry": "canudos-belo-monte",
+   "field": "longDescription",
+   "sentence": "His followers carried a rough cedar oratory that held an image of Christ.",
+   "url": "https://archive.org/download/004518-completo/004518_COMPLETO_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/euclides.txt",
+   "quote": "um oratorio tosco, de cedro, en- cerrando a imagem do Christo."
+  },
+  {
+   "entry": "canudos-belo-monte",
+   "field": "longDescription",
+   "sentence": "At each stop they knelt to pray, and they entered the villages singing litanies.",
+   "url": "https://archive.org/download/004518-completo/004518_COMPLETO_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/euclides.txt",
+   "quote": "Nas paradas pelos caminhos prendiam-no a um galho de arvore; e, genuflexos, rezavam. Entravam com elle, triumphal- mente alteado, pelos villarejos, e povoados, num côro de la- dainhas."
+  },
+  {
+   "entry": "canudos-belo-monte",
+   "field": "longDescription",
+   "sentence": "He called the movement a small and newborn religion.",
+   "url": "https://archive.org/download/004518-completo/004518_COMPLETO_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/euclides.txt",
+   "quote": "o templo unico, então, da reli- gião minuscula e nascente"
+  },
+  {
+   "entry": "canudos-belo-monte",
+   "field": "longDescription",
+   "sentence": "Euclides da Cunha ... was a hostile witness; he calls him a crude gnostic.",
+   "url": "https://archive.org/download/004518-completo/004518_COMPLETO_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/euclides.txt",
+   "quote": "Antonio Conselheiro foi um gnostico bronco."
+  },
+  {
+   "entry": "canudos-belo-monte",
+   "field": "longDescription",
+   "sentence": "In 1893 the Conselheiro was in Bom Conselho when the new town councils posted tax notices.",
+   "url": "https://archive.org/download/004518-completo/004518_COMPLETO_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/euclides.txt",
+   "quote": "Decretada a autonomia dos municipios, as Camaras das localidades do interior da Bahia tinham affixado nas taboas tradicionaes, que substituem a imprensa, editaes para a co- brança de impostos, etc. Ao surgir esta novidade Antonio Conselheiro estava em Bom Conselho."
+  },
+  {
+   "entry": "canudos-belo-monte",
+   "field": "longDescription",
+   "sentence": "He had the notices burned in the square and preached open rebellion against the laws.",
+   "url": "https://archive.org/download/004518-completo/004518_COMPLETO_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/euclides.txt",
+   "quote": "mandou queimar as taboas numa fogueira, no largo. Levantou a voz sobre o «auto de fé», que a fraqueza das auctoridades não impedira, e pregou abertamente a insurreição contra as leis."
+  },
+  {
+   "entry": "canudos-belo-monte",
+   "field": "longDescription",
+   "sentence": "(the year 1893 for this conduct)",
+   "url": "https://archive.org/download/004518-completo/004518_COMPLETO_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/euclides.txt",
+   "quote": "Assumiu desde 1893 uma feição combatente inteiramente nova."
+  },
+  {
+   "entry": "canudos-belo-monte",
+   "field": "longDescription",
+   "sentence": "That year he reached Canudos, a hamlet in decay.",
+   "url": "https://archive.org/download/004518-completo/004518_COMPLETO_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/euclides.txt",
+   "quote": "Estava, porém, em plena decadencia quando lá chegou aquelle em 1893"
+  },
+  {
+   "entry": "canudos-belo-monte",
+   "field": "longDescription",
+   "sentence": "Euclides says it grew fast from then on.",
+   "url": "https://archive.org/download/004518-completo/004518_COMPLETO_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/euclides.txt",
+   "quote": "Data daquelle anno a sua reviviscencia e crescimento ra- pido."
+  },
+  {
+   "entry": "canudos-belo-monte",
+   "field": "longDescription",
+   "sentence": "A witness whom Euclides quotes, the Baron of Geremoabo, says families sold their goods to share the money with the Santo Conselheiro.",
+   "url": "https://archive.org/download/004518-completo/004518_COMPLETO_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/euclides.txt",
+   "quote": "O anhelo extremo era vender, apurar algum dinheiro e ir repartil-o com o Santo Conselheiro."
+  },
+  {
+   "entry": "canudos-belo-monte",
+   "field": "longDescription",
+   "sentence": "(the witness is the Baron of Geremoabo)",
+   "url": "https://archive.org/download/004518-completo/004518_COMPLETO_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/euclides.txt",
+   "quote": "Barão de Geremoabo."
+  },
+  {
+   "entry": "canudos-belo-monte",
+   "field": "longDescription",
+   "sentence": "(Euclides names the town Bello Monte once; not used in the text, see flags)",
+   "url": "https://archive.org/download/004518-completo/004518_COMPLETO_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/euclides.txt",
+   "quote": "Volta para «Bello Monte»"
+  },
+  {
+   "entry": "canudos-belo-monte",
+   "field": "longDescription",
+   "sentence": "Euclides prints prophecies that he says were written in many small notebooks found at Canudos.",
+   "url": "https://archive.org/download/004518-completo/004518_COMPLETO_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/euclides.txt",
+   "quote": "Os dizeres destas prophecias estavam escriptos em grande numero de pequenos quadernos encontrados em Canudos."
+  },
+  {
+   "entry": "canudos-belo-monte",
+   "field": "longDescription",
+   "sentence": "One reads: Em 1896 hade rebanhos mil ...",
+   "url": "https://archive.org/download/004518-completo/004518_COMPLETO_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/euclides.txt",
+   "quote": "Em 1896 hade rebanhos mil correr da praia para o certão; então o certão virará praia e a praia virará certão."
+  },
+  {
+   "entry": "canudos-belo-monte",
+   "field": "longDescription",
+   "sentence": "Euclides also says the Conselheiro attacked the Roman Church ... lost its glory and obeyed Satan.",
+   "url": "https://archive.org/download/004518-completo/004518_COMPLETO_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/euclides.txt",
+   "quote": "Insurge-se contra a igreja romana, e vibra-lhe objurgatorias, estadeiando o mesmo argumento que aquelle: ella perdeu a sua gloria e obedece a Satanaz."
+  },
+  {
+   "entry": "canudos-belo-monte",
+   "field": "longDescription",
+   "sentence": "He compares him to ancient heretics.",
+   "url": "https://archive.org/download/004518-completo/004518_COMPLETO_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/euclides.txt",
+   "quote": "E* um dissidente do molde exacto de Themison."
+  },
+  {
+   "entry": "canudos-belo-monte",
+   "field": "longDescription",
+   "sentence": "An army order dated 6 September 1897 still tells of shelling the church towers.",
+   "url": "https://archive.org/download/004518-completo/004518_COMPLETO_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/euclides.txt",
+   "quote": "Canudos, 6 de Setembro de 1897. Ordem do dia n. 18. Para conhecimento das forças sob meu commando pnblico o seguinte: «Determinando hoje aos commandantes das boccas de fogo que bom- bardeassem as torres da igreja nova"
+  },
+  {
+   "entry": "canudos-belo-monte",
+   "field": "longDescription",
+   "sentence": "Euclides says Canudos fell on the 5th, at dusk.",
+   "url": "https://archive.org/download/004518-completo/004518_COMPLETO_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/euclides.txt",
+   "quote": "cahiu no dia 5, ao entardecer, quando cahiram os seus ultimos defensores, que todos morreram."
+  },
+  {
+   "entry": "canudos-belo-monte",
+   "field": "longDescription",
+   "sentence": "He writes that four defenders were left, an old man, two grown men and a child, with five thousand soldiers raging before them.",
+   "url": "https://archive.org/download/004518-completo/004518_COMPLETO_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/euclides.txt",
+   "quote": "Eram quatro apenas: um velho, dous homens feitos e uma creança, na frente dos quaes rugiam raivosa- mente cinco mil soldados."
+  },
+  {
+   "entry": "canudos-belo-monte",
+   "field": "statusDescription",
+   "sentence": "Tier 2; four marks; 1893 to 1897",
+   "record": "record §4 LA8-3 (Tier; Four marks; Dates)",
+   "note": "Beginning 1893 (V), carriers (V), name Canudos (V), study Levine 1992 (V bib; contents not opened). The row's end year 1897 is the record's Dates line; the siege order of 6 September 1897 is V, the day \"the 5th\" is V, the month and year of the fall are not stated in the passage read."
+  },
+  {
+   "entry": "canudos-belo-monte",
+   "field": "sourcing",
+   "sentence": "Moderate, and hostile.",
+   "record": "record §4 LA8-3 B1",
+   "note": "The record's own B1; the third edition of 1905 is title page line 64 of the raw text."
+  },
+  {
+   "entry": "canudos-belo-monte",
+   "field": "sourcing",
+   "sentence": "The Conselheiro's own sermons were not opened.",
+   "record": "record §4 LA8-3 B1 ([S] on the manuscripts)",
+   "note": "A statement of absence."
+  },
+  {
+   "entry": "canudos-belo-monte",
+   "field": "floorNote",
+   "sentence": "No question on the record read.",
+   "record": "record §4 LA8-3 Section A",
+   "note": "The record says no question (litanies V). The raw text also holds Euclides's statement that the Conselheiro attacked the Roman Church; the floorNote says so. See flags."
+  },
+  {
+   "entry": "canudos-belo-monte",
+   "field": "relationsSummary",
+   "sentence": "It grew out of the ordinary Catholic life of the Brazilian backlands",
+   "record": "record §4 LA8-3 Overlap; Section A",
+   "note": "Placement by the record (\"movement within popular Catholicism\"). No link type fits; no link is drafted."
+  },
+  {
+   "entry": "canudos-belo-monte",
+   "field": "why",
+   "sentence": "In 1893 a lay preacher ... settled his followers in the ruined hamlet of Canudos in Bahia. In 1897 the army besieged it, and it fell.",
+   "record": "facts above",
+   "note": "Restates longDescription. The year 1897 for the siege rests on the army order of 6 September 1897 (V)."
+  },
+  {
+   "entry": "canudos-belo-monte",
+   "field": "legacy",
+   "sentence": "Robert M. Levine, Vale of Tears (University of California Press, 1992). It was not opened.",
+   "record": "record §4 LA8-3 evidence 2 (V bib)",
+   "note": "Title, press and year only."
+  },
+  {
+   "entry": "nineteenth-century-latin-american-catholicism",
+   "field": "longDescription",
+   "sentence": "A history printed in 1843 says he began the revolution on 15 September 1810.",
+   "url": "https://archive.org/metadata/cuadrohistorico01bustgoog",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/bustamante_meta.txt",
+   "quote": "Cuadro historico de la revolucion mexicana : comenzada en 15 de septiembre de 1810 por el ciudadano Miguel Hidalgo y Costilla"
+  },
+  {
+   "entry": "nineteenth-century-latin-american-catholicism",
+   "field": "longDescription",
+   "sentence": "The rising of 1810 in Mexico began with a priest, Miguel Hidalgo (the Inquisition calls him Cura de Dolores; Bustamante, el cura Hidalgo).",
+   "url": "https://archive.org/download/cuadrohistorico01bustgoog/cuadrohistorico01bustgoog_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/bustamante.txt",
+   "quote": "cuando de allí partió Calleja á atacar al cura Hidalgo á Acúleo"
+  },
+  {
+   "entry": "nineteenth-century-latin-american-catholicism",
+   "field": "longDescription",
+   "sentence": "José María Morelos, the priest of Carácuaro, left his parish on 25 October 1810. The Inquisition later charged that Hidalgo had sent him to raise troops in the south.",
+   "url": "https://archive.org/download/autografosindit00moregoog/autografosindit00moregoog_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/morelos.txt",
+   "quote": "abandonando el Cu- rato, en veinticinco de octubre de mil ochocientos diez, salió para el pueblo de San Gerónimo, comi- sionado por el rebelde Cura de Dolores, Miguel Hidalgo, para levantar tropas en la tierra calien- te y costa del Sur"
+  },
+  {
+   "entry": "nineteenth-century-latin-american-catholicism",
+   "field": "longDescription",
+   "sentence": "In November 1815 the Inquisition tried Morelos.",
+   "url": "https://archive.org/download/autografosindit00moregoog/autografosindit00moregoog_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/morelos.txt",
+   "quote": "á veinte y dos días del mes de noviembre del año de mil ochocientos y quince, estando en su audiencia de la mañana el Sr. Inquisidor Dr. don Manuel de Flores, habiendo visto el antecedente pedimento del Sr. Promotor Fiscal, en razón de que al Cura de Carácuaro, don José María More- los, se le forme causa de fe"
+  },
+  {
+   "entry": "nineteenth-century-latin-american-catholicism",
+   "field": "longDescription",
+   "sentence": "The Inquisition called him a degraded priest.",
+   "url": "https://archive.org/download/autografosindit00moregoog/autografosindit00moregoog_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/morelos.txt",
+   "quote": "Presbítero degradado José María Morelos."
+  },
+  {
+   "entry": "nineteenth-century-latin-american-catholicism",
+   "field": "longDescription",
+   "sentence": "It said that by joining el hereje Cura de Dolores, Morelos had fallen under the excommunications of some bishops and chapters, and under its own edicts of 13 October 1810 and 26 January 1811.",
+   "url": "https://archive.org/download/autografosindit00moregoog/autografosindit00moregoog_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/morelos.txt",
+   "quote": "alistándose bajo las ban- deras del hereje Cura de Dolores, Miguel Hidalgo, incurría en las excomuniones fulminadas por al- gunos Sres. Obispos y Cabildos, y especialmente por los edictos de este Santo Oficio de 13 de octu- bue de 18 10 y 26 de enero de 181 1"
+  },
+  {
+   "entry": "nineteenth-century-latin-american-catholicism",
+   "field": "longDescription",
+   "sentence": "Heriberto Frías's Tomóchic ... spoke the name of the Santa de Cabora with veneration.",
+   "url": "https://archive.org/download/tomchicnovelahi00frgoog/tomchicnovelahi00frgoog_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/frias.txt",
+   "quote": "el nombre de la Santa de Cabora es pronunciado con veneración, y sus milagros narrados de mil maneras, con una exageración medioeval."
+  },
+  {
+   "entry": "nineteenth-century-latin-american-catholicism",
+   "field": "longDescription",
+   "sentence": "(the village is in Chihuahua; the novel's edition of 1906)",
+   "url": "https://archive.org/download/tomchicnovelahi00frgoog/tomchicnovelahi00frgoog_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/frias.txt",
+   "quote": "Aquel pueblo perdido en la República, ignorado y obscuro, fué abandonado, por su aparente insignificancia, por el Gobierno del Estado de Chihuahua"
+  },
+  {
+   "entry": "nineteenth-century-latin-american-catholicism",
+   "field": "longDescription",
+   "sentence": "It tells how soldiers were sent against them in 1892.",
+   "url": "https://archive.org/download/tomchicnovelahi00frgoog/tomchicnovelahi00frgoog_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/frias.txt",
+   "quote": "Un día triste, el 3 de Octubre de 1892"
+  },
+  {
+   "entry": "nineteenth-century-latin-american-catholicism",
+   "field": "longDescription",
+   "sentence": "A novel is not a record of events.",
+   "record": "archive.org metadata of the item",
+   "note": "The item's own title reads \"Tomóchic: Novela histórica mexicana\" (1906, Editorial de Valades). The plain caveat is the drafter's."
+  },
+  {
+   "entry": "nineteenth-century-latin-american-catholicism",
+   "field": "dates/start/teaser",
+   "sentence": "1810-1906; start 1810; teaser \"1810 to 1906\"",
+   "record": "G89-17 (a)",
+   "note": "Mark's ruling moves VIII.48's start to 1810; the teaser carried the old year and is changed with it."
+  },
+  {
+   "entry": "colonial-latin-american-devotional-catholicism",
+   "field": "longDescription",
+   "sentence": "In Bahia a sermon of 1633 is headed as preached to the brotherhood of the Blacks of a sugar mill, on the feast of St John the Evangelist.",
+   "url": "https://archive.org/download/mariarosamystica00viei/mariarosamystica00viei_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/vieira.txt",
+   "quote": "SERMAM XIV- NA BAHIA, A IRMANDADE DOS Pretos de hum Engenho em dia de São João Evangelifta,Annode 1633."
+  },
+  {
+   "entry": "colonial-latin-american-devotional-catholicism",
+   "field": "longDescription",
+   "sentence": "It is by the Jesuit António Vieira, in his Maria Rosa Mystica of 1686.",
+   "url": "https://archive.org/download/mariarosamystica00viei/mariarosamystica00viei_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/vieira.txt",
+   "quote": "de Fevereiro de 1686."
+  },
+  {
+   "entry": "colonial-latin-american-devotional-catholicism",
+   "field": "longDescription",
+   "sentence": "He tells the enslaved workers of a sugar mill that no labor in the world is more like the Cross and Passion of Christ than theirs (a rendering).",
+   "url": "https://archive.org/download/mariarosamystica00viei/mariarosamystica00viei_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/vieira.txt",
+   "quote": "do Brafil. N aó ha trabalho* nem género de vida no mun- do mais parecido á Cruz, & Payxaõde Chrifto , que o voífo em hum deites Enge- nhos."
+  },
+  {
+   "entry": "colonial-latin-american-devotional-catholicism",
+   "field": "longDescription",
+   "sentence": "He says some masters keep enslaved people for a long time in the cane fields or the mill without baptism.",
+   "url": "https://archive.org/download/culturaeopulenci00anto/culturaeopulenci00anto_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/antonil.txt",
+   "quote": "tem por \"muito tempo no Cannaveal , ou no Engenho fem Bautifmo"
+  },
+  {
+   "entry": "colonial-latin-american-devotional-catholicism",
+   "field": "longDescription",
+   "sentence": "He tells masters not to object when the enslaved choose their own kings.",
+   "url": "https://archive.org/download/culturaeopulenci00anto/culturaeopulenci00anto_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/antonil.txt",
+   "quote": "naõ lhes eítranhem os Senhores o crearem feus Reys"
+  },
+  {
+   "entry": "colonial-latin-american-devotional-catholicism",
+   "field": "longDescription",
+   "sentence": "He tells them to let the enslaved keep their morning feasts of Our Lady of the Rosary, of St Benedict and of the patron of the mill chapel.",
+   "url": "https://archive.org/download/culturaeopulenci00anto/culturaeopulenci00anto_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/antonil.txt",
+   "quote": "fuás feftas de Nofla Senhora do Rofario , de Saõ Bene- dito, & do Orago da Capella do Engenho"
+  },
+  {
+   "entry": "colonial-latin-american-devotional-catholicism",
+   "field": "longDescription",
+   "sentence": "In 1741 Benedict XIV wrote to the bishops of Brazil, Paraguay and the Río de la Plata.",
+   "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+   "lines": "22856-22857",
+   "quote": "20.  Dez.  1741,  an  die  Bischöfe  von  Brasilien,  Paraguay und  am  La  Plata"
+  },
+  {
+   "entry": "colonial-latin-american-devotional-catholicism",
+   "field": "longDescription",
+   "sentence": "His bull Immensa pastorum principis condemned those who enslaved or sold Indians, even baptized ones.",
+   "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+   "lines": "22870-22872",
+   "quote": "verum  etiam  sacro  regenerationis  lavacro  ablutos"
+  },
+  {
+   "entry": "colonial-latin-american-devotional-catholicism",
+   "field": "longDescription",
+   "sentence": "(the same bull: enslaving or selling Indians)",
+   "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+   "lines": "22872",
+   "quote": "aut  in  Servituten!  redigere  aut  veluti  mancipia  aliis  vendere"
+  },
+  {
+   "entry": "colonial-latin-american-devotional-catholicism",
+   "field": "longDescription",
+   "sentence": "(the title Mirbt gives the bull: condemnation of the harsh treatment of the Indians)",
+   "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+   "lines": "22854",
+   "quote": "Verurteilung  der  harten  Behandlung  der  Indianer."
+  },
+  {
+   "entry": "colonial-latin-american-devotional-catholicism",
+   "field": "region/placeLabel/modernCountries",
+   "sentence": "Brazil added to region, place label and countries",
+   "record": "G89-16 (a); record §4 LA8-4 Recommendation",
+   "note": "Mark's ruling: \"Brazil added to its text, voices, place and countries\". Brazil's IDs (Q155, Q155) are copied from the census entry on twentieth-century Latin American Catholicism."
+  },
+  {
+   "entry": "protestantism-in-latin-america",
+   "field": "longDescription",
+   "sentence": "James Thomson, an agent of the British and Foreign Bible Society, arrived at Buenos Aires on 6 October 1818.",
+   "url": "https://archive.org/download/lettersonmorala00thomgoog/lettersonmorala00thomgoog_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/thomson.txt",
+   "quote": "I arrived on the 6th October, 1818"
+  },
+  {
+   "entry": "protestantism-in-latin-america",
+   "field": "longDescription",
+   "sentence": "(agent of the Society)",
+   "url": "https://archive.org/download/lettersonmorala00thomgoog/lettersonmorala00thomgoog_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/thomson.txt",
+   "quote": "I embark for Mexico, as the agent of the British and Foreign Bible So- ciety."
+  },
+  {
+   "entry": "protestantism-in-latin-america",
+   "field": "longDescription",
+   "sentence": "By 1820 the magistrates had engaged him to put the schools of the city and its neighborhood on that plan.",
+   "url": "https://archive.org/download/lettersonmorala00thomgoog/lettersonmorala00thomgoog_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/thomson.txt",
+   "quote": "I was engaged by the magistrates to put their schoob^ in this city and neighbourhood^ upon this plan."
+  },
+  {
+   "entry": "protestantism-in-latin-america",
+   "field": "longDescription",
+   "sentence": "Soon after, he proposed the Lancasterian system of schools to the government.",
+   "url": "https://archive.org/download/lettersonmorala00thomgoog/lettersonmorala00thomgoog_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/thomson.txt",
+   "quote": "Soon after my arrival, I made proposals to the Government, regarding the in- troduction of the Lancasterian System of education"
+  },
+  {
+   "entry": "protestantism-in-latin-america",
+   "field": "longDescription",
+   "sentence": "In 1821 he reached Chile, and he wrote that he was in every way the servant of the Society.",
+   "url": "https://archive.org/download/lettersonmorala00thomgoog/lettersonmorala00thomgoog_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/thomson.txt",
+   "quote": "I consider myself in all respects as the servant of the British and Foreign Bible Society"
+  },
+  {
+   "entry": "protestantism-in-latin-america",
+   "field": "longDescription",
+   "sentence": "(the letter is dated Santiago de Chile, 8th October 1821)",
+   "url": "https://archive.org/download/lettersonmorala00thomgoog/lettersonmorala00thomgoog_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/thomson.txt",
+   "quote": "Santiago de Chile, Sth October, 1821."
+  },
+  {
+   "entry": "protestantism-in-latin-america",
+   "field": "longDescription",
+   "sentence": "In 1821 he sailed round Cape Horn to Chile.",
+   "url": "https://archive.org/download/lettersonmorala00thomgoog/lettersonmorala00thomgoog_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/thomson.txt",
+   "quote": "I left Buenos Aires on the 30th May, and sailing round Cape Horn, arrived safely at Valparaiso"
+  },
+  {
+   "entry": "protestantism-in-latin-america",
+   "field": "longDescription",
+   "sentence": "His letters were printed in London in 1827.",
+   "url": "https://archive.org/download/lettersonmorala00thomgoog/lettersonmorala00thomgoog_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/thomson.txt",
+   "quote": "LETTERS ON THE MORAL AND REU6IOUS STATE OF SOUTH AMERICA"
+  },
+  {
+   "entry": "protestantism-in-latin-america",
+   "field": "longDescription",
+   "sentence": "His letters were printed in London in 1827.",
+   "record": "archive.org metadata of the item",
+   "note": "The item's date is 1827 and the preface is dated \"London, 13th February, 1827\"."
+  },
+  {
+   "entry": "caribbean-churches-of-slavery-and-emancipation",
+   "field": "longDescription",
+   "sentence": "(the same thought, second half of the sentence, after a page break)",
+   "url": "https://archive.org/download/b24870109/b24870109_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/bleby.txt",
+   "quote": "to make the white people slaves ; and, for his own part, he would rather die than live in slavery."
+  },
+  {
+   "entry": "caribbean-churches-of-slavery-and-emancipation",
+   "field": "longDescription",
+   "sentence": "The King lifted the sentence, but word of it reached the colony only on 30 March 1824. (remission and its late arrival)",
+   "url": "https://archive.org/download/demeraramartyrme00wall/demeraramartyrme00wall_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/wallbridge.txt",
+   "quote": "did not reach Demerara in time to cheer the heart of the suffering Mis- sionary in his last moments"
+  },
+  {
+   "entry": "caribbean-churches-of-slavery-and-emancipation",
+   "field": "longDescription",
+   "sentence": "The King lifted the sentence (remit the sentence of death)",
+   "url": "https://archive.org/download/demeraramartyrme00wall/demeraramartyrme00wall_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/wallbridge.txt",
+   "quote": "pleased to remit the sentence of death against John Smith"
+  },
+  {
+   "entry": "caribbean-churches-of-slavery-and-emancipation",
+   "field": "link note",
+   "sentence": "In 1782 George Liele ... came from Georgia to Kingston. In 1813 the Baptist Missionary Society sent John Rowe to work with Moses Baker, one of his church.",
+   "url": "https://archive.org/download/jamaicaitspastpr00phil/jamaicaitspastpr00phil_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/phillippo.txt",
+   "quote": "He was shortly followed by several members of his church, among whom were Moses Baker, and Messrs. Gibbs and Robinson."
+  }
+ ],
+ "neighbor_changes": [
+  {
+   "id": "nineteenth-century-latin-american-catholicism",
+   "set": {
+    "dates": "1810-1906",
+    "start": 1810,
+    "teaser": "Spanish America and Brazil, 1810 to 1906 — a church that lost its king, waited a generation for Rome to recognize its bishops, and was fought over by every new republic.",
+    "longDescription": "The Spanish crown had run the church in its American empire under a papal grant, appointing the bishops and collecting the tithes. When the colonies won independence the new republics claimed exactly the same right, and Rome — which had backed the crown — took decades to recognize either the governments or their nominees, leaving dioceses vacant and seminaries shut for a generation. What followed was a long fight between liberals and clericals over land, schools, cemeteries and marriage. Sharpest in Mexico, where the Reform laws of the 1850s stripped the church of its property and drove it out of public life, and loudest in Brazil, where two bishops were tried and imprisoned in the 1870s. Rome answered by tightening its grip, importing European clergy and religious orders, rebuilding seminaries on Roman lines, and in 1899 summoning the bishops of the whole continent to Rome for a first Latin American Plenary Council. Underneath all of it the devotional life of ordinary Catholics — confraternities, patronal feasts, pilgrimage shrines, household saints — carried on much as before, often with very few priests.\n\nThe rising of 1810 in Mexico began with a priest. He was Miguel Hidalgo, the priest of Dolores. A history printed in 1843 says he began the revolution on 15 September 1810. José María Morelos was the priest of Carácuaro. He left his parish on 25 October 1810. The Inquisition of Mexico later charged that the rebel priest of Dolores, Hidalgo, had sent him to raise troops in the south.\n\nIn November 1815 the Inquisition tried Morelos. It called him a degraded priest. It said he had joined «el hereje Cura de Dolores», the heretic priest of Dolores. It said this brought on him the excommunications of some bishops, and its own edicts of 1810 and 1811.\n\nAnother popular movement of these years is known from a novel. Heriberto Frías's Tomóchic, in its edition of 1906, tells of a village in Chihuahua. Its people said the name of the Santa de Cabora with veneration. Soldiers were sent against them in 1892. A novel is not a record of events.",
+    "sources": [
+     {
+      "work": "Carlos María de Bustamante, Cuadro histórico de la revolución mexicana (Mexico: J. Mariano Lara, 1843)",
+      "type": "primary",
+      "note": "A history of the rising of 1810. Only the catalog record and one volume were opened. Its title is cited; its words of Hidalgo and Calleja come from that volume."
+     },
+     {
+      "work": "Genaro García, ed., Documentos inéditos ó muy raros para la historia de México, tomo XII: Autógrafos inéditos de Morelos y causa que se le instruyó (México: Bouret, 1907), the Inquisition's case of 1815",
+      "type": "primary",
+      "note": "The Inquisition of Mexico's papers in the case against Morelos, 1815, read in full text online. It is a hostile court's account. This edition was printed in 1907."
+     },
+     {
+      "work": "Heriberto Frías, Tomóchic: Novela histórica mexicana (1906 edition; Editorial de Valades)",
+      "type": "primary",
+      "note": "A historical novel about the village, read in full text online. It is fiction and is not used as a record of events."
+     }
+    ]
+   },
+   "ruling": "G89-17 (a), G89-15 (a)",
+   "reason": "G89-17 (a): VIII.48 starts in 1810 and gains a named line on the priests of the rising (Hidalgo and Morelos). G89-15 (a): a named line on Tomóchic. The teaser carried the old start year, so it moves with the dates. `sources` is a new field here, added so the new lines are sourced. Nothing else in the row changes. The Juazeiro line waits (see holds)."
+  },
+  {
+   "id": "colonial-latin-american-devotional-catholicism",
+   "set": {
+    "region": "New Spain, Peru, Brazil",
+    "placeLabel": "Peru · Brazil and beyond",
+    "modernCountries": [
+     {
+      "country": "Peru",
+      "countryId": "Q419",
+      "place": "Peru",
+      "placeId": "Q419"
+     },
+     {
+      "country": "Brazil",
+      "countryId": "Q155",
+      "place": "Brazil",
+      "placeId": "Q155"
+     }
+    ],
+    "longDescription": "Once the first missionary generation had passed, Catholicism in Spanish America settled into being the ordinary religion of whole societies, and its real institutions were local: the cofradías, lay confraternities that maintained an altar or an image, buried their members and paid for their funerals, organized by trade, by parish and often by race — with indigenous confraternities and Black brotherhoods running their own devotional life. Its saints were homegrown: Rose of Lima, canonized in 1671 as the first saint of the Americas, and Martín de Porres, the mixed-race Dominican lay brother of the same city. Its convents produced writers of the first rank, among them Sor Juana Inés de la Cruz in Mexico, who defended a woman's right to study, and Úrsula de Jesús in Lima, an enslaved woman later freed, whose spiritual diary survives in her own dictated words. Above all it produced Our Lady of Guadalupe, whose shrine at Tepeyac became the devotional center of Mexico and eventually a symbol of Mexican identity itself.\n\nPortuguese America had its own brotherhoods. In Bahia a sermon of 1633 is headed as preached to the brotherhood of the Blacks of a sugar mill, on the feast of St John the Evangelist. It is by the Jesuit António Vieira, in his Maria Rosa Mystica of 1686. In the same book he tells the enslaved workers of a sugar mill that no labor in the world is more like the Cross and Passion of Christ than theirs (a rendering). In 1711 André João Antonil wrote of the mills. He says some masters keep enslaved people for a long time in the cane fields or the mill without baptism. He tells masters not to object when the enslaved choose their own kings. He tells them to let the enslaved keep their morning feasts of Our Lady of the Rosary, of St Benedict and of the patron of the mill chapel. In 1741 Benedict XIV wrote to the bishops of Brazil, Paraguay and the Río de la Plata. His bull Immensa pastorum principis condemned those who enslaved or sold Indians, even baptized ones.",
+    "voices": [
+     "Rose of Lima — canonized in 1671, the first saint of the Americas",
+     "Martín de Porres — Dominican lay brother of Lima, son of a Spanish nobleman and a free Black woman, remembered for his care of the poor and the sick",
+     "Sor Juana Inés de la Cruz — Mexican nun, poet and scholar, whose Respuesta a Sor Filotea (1691) defended a woman's right to learn",
+     "Úrsula de Jesús — an enslaved and later freed woman in a Lima convent, whose dictated spiritual diary survives",
+     "Juan Diego — the indigenous man to whom Our Lady of Guadalupe is said to have appeared at Tepeyac in 1531; canonized in 2002",
+     "António Vieira — Jesuit preacher, whose sermon of 1633 to the Black brotherhood of a Bahia sugar mill is printed in his Maria Rosa Mystica (1686)"
+    ],
+    "sources": [
+     {
+      "work": "The cofradia books: confraternity records across New Spain and Peru, incl. indigenous confraternities' books and Black brotherhoods' records (Afro-Peruvian and Afro-Brazilian rosary confraternities)",
+      "type": "primary",
+      "note": "A lay-run devotional economy that was the ordinary institutional life of the piety; the records themselves were kept under clerical oversight."
+     },
+     {
+      "work": "Convent writings, women's: Sor Juana, Respuesta a Sor Filotea (1691; trans. Arenal & Powell); Madre Maria de San Jose's autobiography (ed. Myers & Powell); Ursula de Jesus, The Souls of Purgatory (ed./trans. van Deusen, UNM, 2004)",
+      "type": "primary",
+      "note": "An enslaved-then-freed convent servant's dictated spiritual diary, begun in 1650 - an enslaved woman's own religious voice, though filtered through the confessor who took her dictation. The convent's racial hierarchy is visible within it."
+     },
+     {
+      "work": "The canonization processes: Rose of Lima (canonized 1671), Martin de Porres (process testimony from the 1660s, ordinary witnesses incl. Afro-Peruvians), Mariana de Quito",
+      "type": "primary",
+      "note": "Canonization-process testimony is structured and led by the questioners, but it remains the era's densest record of ordinary devotees speaking for themselves."
+     },
+     {
+      "work": "The devotional-practice layer: the Guadalupan corpus (Nican Mopohua, published 1649 in Huei tlamahuicoltica; its dating and authorship are still debated), shrine and pilgrimage records, novena imprints; Inquisition and extirpation records that policed popular devotion",
+      "type": "primary",
+      "note": "The records that policed popular devotion come from a hostile administrative source."
+     },
+     {
+      "work": "William B. Taylor, Magistrates of the Sacred (Stanford, 1996), with Asuncion Lavrin, Brides of Christ (Stanford, 2008)",
+      "type": "secondary"
+     },
+     {
+      "work": "Cambridge History of Christianity vol. 7, ch. 19 'Christianity in Iberian America' (Riley)",
+      "type": "reference",
+      "note": "A direct fit for this movement, with the chapter number confirmed."
+     },
+     {
+      "work": "António Vieira, Maria Rosa Mystica (Lisbon: Miguel Deslandes, 1686)",
+      "type": "primary",
+      "note": "Thirty sermons on the Rosary. Sermon XIV is headed as preached in Bahia to the Blacks' brotherhood of a sugar mill. Read in full text online. The print is noisy (the long s) and its wording should be checked against the page images."
+     },
+     {
+      "work": "André João Antonil, Cultura e opulencia do Brasil (Lisbon: Officina Real Deslandesiana, 1711)",
+      "type": "primary",
+      "note": "A Jesuit's manual of the sugar mills of Brazil, with advice to masters on the feasts of the enslaved. Read in full text online. The print is noisy."
+     },
+     {
+      "work": "Benedict XIV, bull Immensa pastorum principis (20 December 1741), in Mirbt, Quellen zur Geschichte des Papsttums, 3rd ed. (1911), no. 454",
+      "type": "primary",
+      "note": "A letter to the bishops of Brazil, Paraguay and the Río de la Plata against the enslaving of Indians. Held in the Library."
+     },
+     {
+      "work": "Eduardo Hoornaert and others, História da Igreja no Brasil (Petrópolis: Vozes, 1977)",
+      "type": "secondary",
+      "note": "First author, title, publisher and year confirmed from a catalog record. The contents were not opened."
+     },
+     {
+      "work": "C. R. Boxer, The Golden Age of Brazil, 1695-1750 (University of California Press, 1962)",
+      "type": "secondary",
+      "note": "Author, title, press and year confirmed from a catalog record. The contents were not opened."
+     }
+    ]
+   },
+   "ruling": "G89-16 (a)",
+   "reason": "G89-16 (a): Brazil added to VII.17's text, voices, place and countries, as a named strand. `sources` gains the items the new sentences rest on. The place label now names Peru and Brazil because each country's place must stand on the label (at most two places); see flags."
+  },
+  {
+   "id": "protestantism-in-latin-america",
+   "set": {
+    "longDescription": "The story starts before the Panama congress. James Thomson, an agent of the British and Foreign Bible Society, arrived at Buenos Aires on 6 October 1818. Soon after, he proposed the Lancasterian system of schools to the government. By 1820 the magistrates had engaged him to put the schools of the city and its neighborhood on that plan. In 1821 he sailed round Cape Horn to Chile. There he wrote that he was in every way the servant of the Society. His letters were printed in London in 1827.\n\nThe Panama congress met from 10 to 20 February 1916. A committee formed in 1913 organized it. It drew 304 delegates and visitors from 21 nations. Few of them were Latin Americans. Its reports came out in three volumes in 1917. In November 1969 the first Latin American Congress on Evangelization, called CLADE, met in Bogotá. In 1970 the Latin American Theological Fraternity met for the first time, at Cochabamba in Bolivia. Churches met at Huampaní in Peru in 1977 and at Oaxtepec in Mexico in 1978. They meant to form a council of their own. That council, CLAI, was set up at Huampaní in 1982. One source gives 1983. A more conservative body, CONELA, formed as its alternative. Virginia Garrard-Burnett found that Protestants in Guatemala won few converts until the 1960s. Then military power and violence spread. They weakened people's old ties. Indigenous evangelicals in Ecuador organized themselves too. Julián Guamán is an Indigenous author from Ecuador. He dates the start of that organizing to Chimborazo in 1966. The national council of these evangelicals, FEINE, was founded in 1980. Guamán counts more than 1,500 local congregations among them. Susana Andrade studied why Indigenous people in Chimborazo became Protestants. Her book of 2004 sets out to show how Pentecostalism there took on a Quichua form. It took back themes from Indigenous religion. The themes include prayer, the interpretation of dreams and baptism in lagoons.",
+    "sources": [
+     {
+      "work": "Congress on Christian Work in Latin America, Panama, 10-20 February 1916: Reports, 3 vols. (New York, 1917)",
+      "type": "primary",
+      "note": "Organized by the Committee on Cooperation in Latin America (formed 1913); 304 delegates and visitors from 21 nations. A Princeton Theological Seminary copy is listed."
+     },
+     {
+      "work": "Christianity Today, 'Bogotá: Latin Liaison' (December 1969), on CLADE I (21-30 November 1969)",
+      "type": "reference"
+     },
+     {
+      "work": "UNAM thesis on the Latin American Theological Fraternity (first consultation, Cochabamba, 1970)",
+      "type": "reference",
+      "note": "Month given as November in one source, December in another."
+     },
+     {
+      "work": "Christianity Today (February 1979; 12 June 1981) and the Union of International Associations, on CLAI and CONELA",
+      "type": "reference",
+      "note": "Huampaní 1977, Oaxtepec 1978, constituted at Huampaní 1982 (one source gives 1983)."
+     },
+     {
+      "work": "Jean-Pierre Bastian, Historia del protestantismo en América Latina (México: CUPSA, 1990); Protestantismos y modernidad latinoamericana (México: FCE, 1994)",
+      "type": "secondary"
+     },
+     {
+      "work": "Virginia Garrard-Burnett, Protestantism in Guatemala: Living in the New Jerusalem (Austin: University of Texas Press, 1998)",
+      "type": "secondary"
+     },
+     {
+      "work": "Paul Freston, Evangelicals and Politics in Asia, Africa and Latin America (Cambridge University Press, 2001)",
+      "type": "secondary"
+     },
+     {
+      "work": "Julián Guamán, 'Panorama de la Iglesia Evangélica en el Ecuador' ('Overview of the Evangelical Church in Ecuador') (Quito, September 2008)",
+      "type": "secondary",
+      "note": "By an Indigenous Ecuadorian author. Gives FEINE's founding as 1980, the start of Indigenous evangelical organizing in Chimborazo as 1966, and more than 1,500 local congregations. Cites his own FEINE, la organización de los indígenas evangélicos en Ecuador (Quito: Universidad Andina Simón Bolívar / Abya-Yala / Corporación Editora Nacional, 2006), which was not opened."
+     },
+     {
+      "work": "Susana Andrade, Protestantismo indígena: procesos de conversión religiosa en la provincia de Chimborazo, Ecuador ('Indigenous Protestantism: processes of religious conversion in Chimborazo province, Ecuador') (Quito: Abya-Yala / FLACSO Ecuador / IFEA, Travaux de l'IFEA 182, 2004)",
+      "type": "secondary",
+      "note": "Publisher page and abstract read on OpenEdition Books (doi 10.4000/books.ifea.4554)."
+     },
+     {
+      "work": "James Thomson, Letters on the Moral and Religious State of South America (London, 1827)",
+      "type": "primary",
+      "note": "Letters of a Bible Society agent in Buenos Aires and Santiago, 1818-1821. Read in full text online."
+     }
+    ]
+   },
+   "ruling": "G89-19 (a)",
+   "reason": "G89-19 (a): a line before 1916 in IX.63 on the Bible Society and school beginnings (Thomson). The line is placed before the Panama paragraph. `sources` gains Thomson. The Brazil Lutheran line for VIII.41 waits (see holds)."
+  }
+ ],
+ "links": [
+  {
+   "id": "the-baptists--caribbean-churches-of-slavery-and-emancipation",
+   "from": "the-baptists",
+   "to": "caribbean-churches-of-slavery-and-emancipation",
+   "type": "gave rise to",
+   "confidence": "Inferential-Thin",
+   "note": "In 1782 George Liele, a Black Baptist pastor, came from Georgia to Kingston. In 1813 the Baptist Missionary Society sent John Rowe to work with Moses Baker, one of his church. This rests on one account of 1843 and one letter of 1793. No modern study was opened.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "James M. Phillippo, Jamaica: Its Past and Present State (Philadelphia: Campbell; New York: Saxton & Miles, 1843)",
+     "url": "https://archive.org/download/jamaicaitspastpr00phil/jamaicaitspastpr00phil_djvu.txt",
+     "accessed": "2026-11-10",
+     "raw_file": "raw/phillippo.txt",
+     "locus": "ch. XV, 'Religious State', pp. 106-107",
+     "quote": "In 1782, Mr. George Lisle, a black man, the slave of a British officer, and who had been the pastor of a Baptist church in Georgia, in the United States, was brought over by his master to Kingston",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "James M. Phillippo, Jamaica: Its Past and Present State (Philadelphia: Campbell; New York: Saxton & Miles, 1843)",
+     "url": "https://archive.org/download/jamaicaitspastpr00phil/jamaicaitspastpr00phil_djvu.txt",
+     "accessed": "2026-11-10",
+     "raw_file": "raw/phillippo.txt",
+     "locus": "ch. XV, 'Religious State', pp. 106-107",
+     "quote": "The Baptist Mis- sionary Society directed its efforts to the island in 1813. Their first missionary was Mr. John Rowe, who was sent to co- operate with Moses Baker, at a station called Flamstead, near Falmouth",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "George Liele, letter from Kingston, Jamaica, 12 January 1793, in Rippon, Baptist Annual Register 1790-1793",
+     "file": "cic/texts/rippon_baptist-annual-register-1790-1793_1793.txt",
+     "lines": "41610-41611",
+     "locus": "Liele's letter of January 1793",
+     "quote": "remember the poor Ethiopian Baptiiis of Jamaica in their prayers.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "work": "Mary Turner, Slaves and Missionaries: The Disintegration of Jamaican Slave Society, 1787-1834 (University of Illinois Press, 1982)",
+     "file": null,
+     "lines": null,
+     "quote": null
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-online",
+   "ruling": "G89-14 (a)"
+  }
+ ],
+ "retire_links": [],
+ "holds": [
+  {
+   "item": "LA8-6: Haiti before 1804 and after 1860 (the concordat church; Holly's Episcopal mission)",
+   "g89": "G89-18 (a)",
+   "reason": "Two studies (Greene 1993; Dean 1978) were seen only as catalog records, and no primary was opened. No Library file covers Haiti.",
+   "waits_for": "The Code Noir (1685); a French account of the concordat church; James Theodore Holly's own writings. Then Holly as a named line in VIII.46 (its end moved to 1906) or in VIII.1, and Saint-Domingue as a line in VII.17 or VII.19."
+  },
+  {
+   "item": "LA8-8: Cuba and Puerto Rico under Spain, 1815-1898 (a line in VIII.48)",
+   "g89": "G89-20 (a)",
+   "reason": "Nothing was opened. The record's items are all [S].",
+   "waits_for": "A source for the church under the patronato in the two colonies; Claret's Autobiografía is a lead, but its first printing may be after 1930."
+  },
+  {
+   "item": "LA8-9: the Bethlemites, Guatemala, 1650s-1820 (a line in VII.17)",
+   "g89": "G89-21 (a)",
+   "reason": "Nothing was opened. The record's items are all [S].",
+   "waits_for": "A pre-1930 source on Pedro de San José de Betancur and the order of 1687."
+  },
+  {
+   "item": "LA8-10: the Virgin of Cancuc (1712) and the Talking Cross (1850-1901)",
+   "g89": "G89-22 (a)",
+   "reason": "No primary for either was opened and no Maya-language source is in the Library. The Talking Cross raises a real Section A question that no dated statement answers.",
+   "waits_for": "Francisco Ximénez's chronicle for Cancuc; a dated Cruzob text for the Talking Cross; a Section A ruling on the Cross."
+  },
+  {
+   "item": "LA8-1 part: the 1860-61 revival and Morant Bay (1865) as lines in the Caribbean row",
+   "g89": "G89-14 (a)",
+   "reason": "Both are [S] in the record. Phillippo (1843) and Bleby (1868) cannot speak to 1860-65, and the raw text of Underhill (1862) was searched and holds no account of the revival.",
+   "waits_for": "A pre-1930 source on the revival of 1860-61 and on Morant Bay. The sourcing line of the row says plainly that these are not yet told."
+  },
+  {
+   "item": "LA8-3 part: the Juazeiro line (Padre Cícero; the 1889 miracle) in VIII.48",
+   "g89": "G89-15 (a)",
+   "reason": "The record's only items are Della Cava's study (a catalog record, in copyright) and [S] notes. No primary was opened and none was found online.",
+   "waits_for": "A pre-1930 source on Juazeiro, or a reading of Della Cava, Miracle at Joaseiro. The Tomóchic line, from Frías's novel, enters now."
+  },
+  {
+   "item": "LA8-7 part: Brazil's German Lutherans, from 1824, as a line in VIII.41",
+   "g89": "G89-19 (a)",
+   "reason": "The record's item is [S]. No Library file covers it and none was found online.",
+   "waits_for": "A pre-1930 source on the Lutheran colonists in Brazil. Then VIII.41 gains Brazil in its text and regions."
+  },
+  {
+   "item": "LA8-7 part: Kalley (1855-), Simonton (1859), the Waldensians in Uruguay (1857) and Gardiner (1851) in IX.63's pre-1916 line",
+   "g89": "G89-19 (a)",
+   "reason": "All are [S] in the record. Only Thomson (1818-21) was read, so only he enters.",
+   "waits_for": "Kalley's and Simonton's own journals, and a source for the Waldensian colonies and Gardiner's mission."
+  },
+  {
+   "item": "LA8-1: the Moravians in the Caribbean after 1815",
+   "g89": "G89-4 (a); G89-14",
+   "reason": "Not a hold on this slice's text: the Moravians are RV-5's lines. The link from this row to the Moravian row after 1815 is the RV-B slice's.",
+   "waits_for": "The RV-B slice's link."
+  }
+ ],
+ "wants": [
+  "Phillippo (1843), Bleby (1868), Hinton (1849), Wallbridge (1848), Euclides da Cunha (1905), Vieira (1686), Antonil (1711) and Thomson (1827) were read raw online. The record calls them ready to vendor. The Library holds nothing yet for the region between 1815 and 1906.",
+  "A pre-1930 source for the revival of 1860-61 and for Morant Bay, 1865, in Jamaica.",
+  "A modern study to ground the Baptist link (Turner 1982; Dayfoot 1999), to lift it above Inferential-Thin.",
+  "The Conselheiro's own sermons and notebooks, and a dated statement of the community's own faith, for the Section A question Euclides raises.",
+  "Hernández y Dávalos, Colección de documentos para la historia de la guerra de independencia de México (1877-82), and Morelos's Sentimientos de la Nación (1813), for the rising of 1810-15. The archive.org search did not find them.",
+  "A reading of Levine, Vale of Tears (1992), and Della Cava, Miracle at Joaseiro, if a lawful copy can be reached."
+ ],
+ "flags": [
+  "LIVING: none. Both new rows are set living: false. The Caribbean row names churches that probably exist today, but no dated item after 2010 was read, so R2 to R4 are not met. The Canudos town was destroyed. Mark may want a living flag on the Caribbean row once a dated source is found.",
+  "RECORD vs RAW TEXT: the record calls Sharpe a Baptist deacon. Bleby's raw text says Sharpe was a Baptist and a leader of the plan but never uses the word deacon; the row says only 'a Baptist'. The record's remark that Bleby was a Methodist missionary is not stated on the pages read; the row says 'a missionary who lived in Jamaica for seventeen years'.",
+  "RECORD vs RAW TEXT: the record gives Canudos's Section A as 'no question' on the litanies. Euclides also writes that the Conselheiro attacked the Roman Church ('ella perdeu a sua gloria e obedece a Satanaz'). The floorNote of the Canudos row says so plainly. Mark should rule whether Section A stays 'no question'.",
+  "RECORD vs RAW TEXT: the record says Euclides took the prophecies from a footnote 'not checked'. The footnote was read: it says the prophecies were written in many small notebooks found at Canudos, copied from one belonging to the commander-in-chief's secretary. The row says only that they were in notebooks found there.",
+  "RECORD vs RAW TEXT: the record's Hidalgo and Morelos evidence (Bustamante) holds nothing on Morelos and little on Hidalgo's acts. The line instead rests on the Inquisition's case papers of 1815 in G. García's edition (Documentos inumeros, tomo XII; 1907), a public-domain text opened raw, which the record does not cite. The edition is dated 1907 although the documents are of 1815; Mark may want to rule that a 1907 edition of 1815 papers is acceptable evidence in an era 9 row. The Inquisition is a hostile source and the row says so.",
+  "RECORD vs RAW TEXT: Bustamante's title page is garbled in the raw text, so the title is cited from the archive.org catalog record (saved as raw/bustamante_meta.txt). The volume read is a second-edition volume of 1843-44; the words 'el cura Hidalgo' at Aculco are Bustamante's own. The record's wording 'a later volume' is borne out.",
+  "RECORD vs RAW TEXT: the record names Teresa Urrea as the Santa de Cabora. Frías's novel (1906 edition) says 'la Santa de Cabora' and 'Teresita' and never 'Urrea'. The line uses the novel's own words only. Tomóchic is told from a novel, which the line says. The record's dates 1891-92 are not used; the novel's own dated scene (3 October 1892) is.",
+  "NOT USED: the record's fall date '5 October 1897'. Euclides's passage gives 'no dia 5, ao entardecer' with no month; the year 1897 rests on the army order of 6 September 1897 in the same book. The row says 'the 5th' only. The Canudos row's end year 1897 stays as the record's Dates line.",
+  "NOT USED: the record's 'Antonio Conselheiro... a beato' and 'prophecies against the Republic from 1893 on taxes' as separate items; the tax burning is told from Euclides's own words (Bom Conselho, 1893). The record's 'rejection of civil marriage' is [S] and is not used.",
+  "NOT USED: Demerara 1823 is [S] in the record. It is drafted here from Wallbridge (1848), a public-domain text the record lists as wanted and I opened raw. Wallbridge argues for Smith's innocence, and the row says that both sides exist. Smith's death year (1824) is read from the King's remission reaching the colony on 30 March 1824 after his death on 6 February.",
+  "NOT USED: Native Baptists. The record has them [S]. They enter through Phillippo's own count (1843) of chapels and ministers. Nothing about their beliefs or their link to Liele's church is claimed, and no Section A finding is made.",
+  "NOT USED: the Rippon letters. Liele's letters are in the Library but their OCR (long s) is too rough to quote as a voice; one clause is used as a source of the Baptist link (a verbatim OCR quote, 'Baptiiis'). Phillippo spells the name 'Lisle'; the rows use 'Liele' as the record and Rippon do.",
+  "OCR: every quote from a raw text keeps its OCR slips and line-end hyphens (for example 'Mon- tego', 'niore' for 'more', 'Bellos', 'Rofario', 'deites'). They should be checked against page images before any census use. In the participant text the quotations are normalized to modern spelling only where a rendering is given beside the original; no word was changed.",
+  "modernCountries: the Caribbean row's list is empty. Jamaica and Guyana are on no census entry, so no ID was typed from memory. The coordinator may add them. The Canudos row and VII.17's Brazil use Q155 as in the census entry on twentieth-century Latin American Catholicism.",
+  "kind: the Caribbean row and the Canudos row carry no `kind`, as the Black Church in America and the Oxford Movement rows carry none. 'cross-church movement' would fit a regional cross-church row only loosely. Mark may want it on the Caribbean row.",
+  "VII.17's place label: the validator needs each country's place on the label, and a label names at most two places. With Brazil added the label is 'Peru · Brazil and beyond', so New Spain leaves the label but stays in the region text. The alternative is to leave Brazil out of the label and the countries list, which the ruling does not allow. Mark may prefer another label.",
+  "VII.17: the shortName 'New Spain & Peru' and informalName name no Brazil. The ruling names text, voices, place and countries only, so they are unchanged.",
+  "VIII.34 and VIII.35: no edit and no link. The Caribbean row's own text names no relationship to nineteenth-century Methodism or Baptists in Britain that a source supports beyond the Baptist link drafted (Liele and the Missionary Society, drawn from the earlier Baptists row). If Mark wants the British rows linked, that is a new link item.",
+  "VIII.41: unchanged. The Brazil Lutherans are [S] and held. Its `regions` would gain Latin America when the line enters.",
+  "LA8-2 and LA8-M are not in this slice (RV-1 and RV-5). The Caribbean row's text points to the Moravian entry; its link is the RV-B slice's. VII.17's Vieira voice is a Jesuit and the RV-1 slice may link VII.17 to the Society of Jesus row.",
+  "Metered model spend: none. All reading was raw text fetched with curl from archive.org, plus the Library."
+ ]
+}

@@ -1,0 +1,1683 @@
+{
+ "entries": [
+  {
+   "id": "arab-evangelical-churches",
+   "atlasId": "TBD",
+   "era": 9,
+   "name": "The Arab Evangelical Churches of Syria, Lebanon and Egypt",
+   "shortName": "Arab Evangelicals",
+   "informalName": "The Arab Protestant churches",
+   "dates": "1823-1906",
+   "start": 1823,
+   "end": 1906,
+   "region": "Lebanon, Syria, Egypt",
+   "placeLabel": "Lebanon · Egypt",
+   "modernCountries": [
+    {
+     "country": "Lebanon",
+     "countryId": "Q822",
+     "place": "Mount Lebanon",
+     "placeId": "Q333711",
+     "pleiadesId": "678267"
+    },
+    {
+     "country": "Syria",
+     "countryId": "Q858",
+     "place": "Syria",
+     "placeId": "Q858"
+    },
+    {
+     "country": "Egypt",
+     "countryId": "Q79",
+     "place": "Egypt",
+     "placeId": "Q79"
+    }
+   ],
+   "regions": [
+    "Middle East",
+    "Africa"
+   ],
+   "lane": "6 Protestant & Evangelical",
+   "laneLabel": "Protestant & Evangelical",
+   "laneOrder": 6,
+   "beyondFloor": false,
+   "status": "Pre-Survey Candidate",
+   "chip": "psc",
+   "glyph": "psc",
+   "statusWord": "Researched — viable, secondary",
+   "statusDescription": "Tiered Viable, secondary (Tier 2). Missionaries wrote most of the record. The window runs from 1823 to 1906.",
+   "living": false,
+   "overlayCurrent": false,
+   "c2": null,
+   "sourcing": "Moderate. The record leans toward the missions. Two missionaries wrote the main books. Henry Jessup told the Syria mission in 1910. Andrew Watson told the Egypt mission in 1897. The converts speak only as the missionaries report them. Jessup openly dislikes the old churches. No Arabic text from the churches themselves is read here.",
+   "floorNote": "No question. These are Reformed and Presbyterian churches.",
+   "relationsSummary": "These churches grew out of American missions to the Eastern Christians of Syria, Lebanon and Egypt. In Egypt, some of the first members left the Coptic Church. In 1867, on the mission's own account, the Coptic patriarch moved against them.",
+   "why": "On 10 July 1823 the missionary Pliny Fisk reached Beirut. His board had not sent him to found a church. It hoped the old Eastern churches would reform. In the missionaries' telling, that failed. In 1848 converts formed the first Protestant Native Syrian Church. On 10 March 1865 the missionaries marked the printing of a new Arabic Bible.",
+   "entry": null,
+   "teaser": "Syria, Lebanon and Egypt, 1823 to 1906. Missions from America hoped to mend the old churches. They made new churches and a new Arabic Bible.",
+   "sources": [
+    {
+     "work": "Henry Harris Jessup, Fifty-three Years in Syria, vol. 1 (New York, 1910)",
+     "type": "secondary",
+     "note": "A Presbyterian missionary's history of the Syria mission. It is openly hostile to the Eastern churches."
+    },
+    {
+     "work": "Andrew Watson, The American Mission in Egypt, 1854 to 1896 (Pittsburgh: United Presbyterian Board of Publication, 1897)",
+     "type": "secondary",
+     "note": "A missionary's history of his own mission. It prints mission reports and some letters."
+    }
+   ],
+   "longDescription": "The American mission came to Syria hoping to reform the old churches, not to found a new one. Pliny Fisk reached Beirut on 10 July 1823. Henry Jessup wrote the mission's history in 1910. He says the mission board hoped that the heads of the Eastern churches could be led to reform them. Instead, he says, the missionaries were cursed and reviled, and Bibles and tracts were burned.\n\nIn 1835 the missionaries ruled that they would not seek members from the native churches. But they would not refuse the sacraments to a member who asked for them. Converts then asked for a church of their own. Jessup says the first Protestant Native Syrian Church was organized in 1848. He writes as a partisan, and he calls the attempt to reform the old churches a failure. The Eastern churches' own side is not told in anything read here.\n\nThe missionaries also made a new Arabic Bible. Dr. Smith began it in 1848. Butrus el Bistany made a first Arabic text from the Hebrew and Greek. Sheikh Nasif el Yazigy, who knew only Arabic, rewrote it and sifted out foreign idioms. Dr. Van Dyck reported the Old Testament finished on 22 August 1864. On Friday 10 March 1865 the missionaries held a celebration at the American Press for the printed book.\n\nEgypt had its own mission. Andrew Watson, who served in it, wrote its history in 1897. Thomas McCague and James Barnett began work in Cairo in 1854. On 15 February 1863 the converts there formed the first native congregation. It chose four elders and three deacons.\n\nSome converts came from the Coptic Church. Watson names Wasif Khayat of Asyut, who had dared to join the Evangelical church. The patriarch offered to win him the title of bey if he would return to the Coptic Church. In 1867, Watson writes, the viceroy and the patriarchate united to drive out the Protestants and the missionaries. In one report he prints, the patriarch had a priest beaten and removed from his priesthood. The priest had let his brother, a Protestant student, hold evangelistic services in his church after Mass.\n\nNo Coptic voice on these events is read here, and no Arabic text from the churches themselves.",
+   "voices": [
+    "Pliny Fisk — the American missionary who reached Beirut on 10 July 1823, remembered by Jessup as the pioneer missionary of Beirut",
+    "Butrus el Bistany and Sheikh Nasif el Yazigy — the two Arab scholars who worked with the American missionaries on the Arabic Bible",
+    "Asaad es Shidiak — an Arab convert whom Jessup calls the first convert and the proto-martyr of modern Syria"
+   ],
+   "legacy": "Jessup says that by his time twenty-eight more churches had been organized in the Syria mission. Watson counts 248,386 volumes of Scripture given out by the Egypt mission between 1854 and 1896. Whether these churches carry on today is not shown by any dated source read here.",
+   "people": [],
+   "peopleNote": "The Library does not yet hold words of their own from the people this story names.",
+   "reviewStatus": "AI-checked",
+   "ruling": "G89-50 (a)"
+  },
+  {
+   "id": "moravian-church-after-1815",
+   "atlasId": "TBD",
+   "era": 9,
+   "name": "The Moravian Church after 1815",
+   "shortName": "Moravians after 1815",
+   "informalName": "The Moravians in the world mission",
+   "dates": "1815-1906",
+   "start": 1815,
+   "end": 1906,
+   "region": "Jamaica, Cape Colony, Suriname, Labrador, Nyasa, Germany",
+   "placeLabel": "Jamaica · Cape Colony and beyond",
+   "modernCountries": [
+    {
+     "country": "Jamaica",
+     "countryId": "Q766",
+     "place": "Jamaica",
+     "placeId": "Q766"
+    },
+    {
+     "country": "South Africa",
+     "countryId": "Q258",
+     "place": "Genadendal",
+     "placeId": "Q1501295"
+    },
+    {
+     "country": "Germany",
+     "countryId": "Q183",
+     "place": "Saxony",
+     "placeId": "Q1202"
+    }
+   ],
+   "regions": [
+    "North Europe",
+    "North America",
+    "Latin America",
+    "Africa"
+   ],
+   "lane": "6 Protestant & Evangelical",
+   "laneLabel": "Protestant & Evangelical",
+   "laneOrder": 6,
+   "beyondFloor": false,
+   "status": "Pre-Survey Candidate",
+   "chip": "psc",
+   "glyph": "psc",
+   "statusWord": "Researched — strong candidate",
+   "statusDescription": "Tiered Strong (Tier 1). It carries the Moravian Church on from 1815, where the entry on Herrnhut stops. Its window runs from 1815 to 1906.",
+   "living": false,
+   "overlayCurrent": false,
+   "c2": null,
+   "sourcing": "Rich for the missions, and told from the Moravian side. J. Taylor Hamilton's history of 1901 is by a member of the church's own executive board. The converts speak only as the missionaries report them. Nothing Moravian after 1815 is yet held in the Library.",
+   "floorNote": "No question. It is the same church as the entry on Herrnhut.",
+   "relationsSummary": "This is the same church as the one at Herrnhut, carried on past 1815. Its Caribbean congregations were one strand of the churches of slavery and emancipation.",
+   "why": "When slavery ended in the British colonies on 1 August 1834, the Moravian chapels of Jamaica filled. The church's own historian, J. Taylor Hamilton, wrote that 'The thankful people thronged the churches'. The Moravians had been in the West Indies for a century by then. After 1815 they carried the same mission on in the Cape, in Suriname, in Labrador and, from 1890, north of Lake Nyasa.",
+   "entry": null,
+   "teaser": "Jamaica to Lake Nyasa, 1815 to 1906. The Moravian missions after Herrnhut. Chapels were full on the day slavery ended. A first baptism came beside an African lake.",
+   "sources": [
+    {
+     "work": "J. Taylor Hamilton, A History of the Missions of the Moravian Church during the Eighteenth and Nineteenth Centuries (Bethlehem, Pa.: Times Publishing Co., 1901)",
+     "type": "secondary",
+     "note": "By a member of the Moravian Church's executive board, who was also a professor at its seminary. Each mission is told from the Moravian side."
+    }
+   ],
+   "longDescription": "The Moravian Church did not stop in 1815. Its mission fields went on, and new ones opened. J. Taylor Hamilton wrote its mission history in 1901. He sat on the church's executive board and taught at its seminary. His book covers the eighteenth and nineteenth centuries in one account.\n\nIn Jamaica the church ran twenty-six schools by March 1834. Slavery ended throughout the British colonies on 1 August 1834. Hamilton says the freed crowds spent Emancipation Day 'in a manner worthy of its significance'. By the end of 1835 the church had 8,521 members on the island. That was 1,339 more than a year before.\n\nAt the Cape the Moravian mission began again in 1792. Hamilton says it had 2,386 members when slavery ended there on 1 December 1834. At Genadendal alone, four hundred and fifty people were received in one year. Each case was decided on its own merits.\n\nIn Suriname slavery ended by royal proclamation on 1 July 1863. Hamilton says about two-thirds of all the slaves had already been in touch with the Moravian Church. By 1869 he counts 24,330 members in the colony.\n\nIn Labrador the winter of 1836 to 1837 brought a famine. Its misery was worst, Hamilton says, at Nain, Okak and Hebron. The church at Hebron was dedicated in October 1837.\n\nIn the spring of 1890 four missionaries set out for the country north of Lake Nyasa. They founded Rungwe that August. On 7 February 1897 a woman named Fiabarema stood up after a farewell sermon at Rungwe. She said, 'I have risen to say that I belong to God.' She was baptized that evening. Within nine years the church manned four stations there and counted more than one hundred converts.",
+   "voices": [
+    "J. Taylor Hamilton — the church's own historian of its missions, writing in 1901 as a member of its executive board",
+    "Fiabarema — the woman at Rungwe, by Lake Nyasa, who rose after a sermon on 7 February 1897 to say she belonged to God, as the missionary's account reports her"
+   ],
+   "legacy": "Hamilton closes his account at the end of the nineteenth century. The church's later story is not told here. The entry on Herrnhut says most Moravians now live in Tanzania and the Caribbean. No dated count of today is read here, so that claim is not tested.",
+   "people": [],
+   "peopleNote": "The Library does not yet hold words of their own from the people this story names.",
+   "reviewStatus": "AI-checked",
+   "ruling": "G89-4 (a)"
+  }
+ ],
+ "fact_table": [
+  {
+   "entry": "arab-evangelical-churches",
+   "field": "why",
+   "sentence": "On 10 July 1823 the American missionary Pliny Fisk reached Beirut.",
+   "url": "https://archive.org/download/fiftythreeyearsi011832mbp/fiftythreeyearsi011832mbp_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/jessup1910.txt",
+   "quote": "He arrived in Beirut July 10, 1823"
+  },
+  {
+   "entry": "arab-evangelical-churches",
+   "field": "why",
+   "sentence": "His mission board had not sent him to found a church; it hoped the heads of the old Eastern churches could be led to reform them.",
+   "url": "https://archive.org/download/fiftythreeyearsi011832mbp/fiftythreeyearsi011832mbp_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/jessup1910.txt",
+   "quote": "It was hoped that the heads of the Oriental Churches might be induced to reform their churches*"
+  },
+  {
+   "entry": "arab-evangelical-churches",
+   "field": "why",
+   "sentence": "In the missionaries' telling, that attempt failed.",
+   "url": "https://archive.org/download/fiftythreeyearsi011832mbp/fiftythreeyearsi011832mbp_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/jessup1910.txt",
+   "quote": "An honest attempt to reform the Oriental Churches was made and failed."
+  },
+  {
+   "entry": "arab-evangelical-churches",
+   "field": "why",
+   "sentence": "In 1848 converts were organized into the first Protestant Native Syrian Church.",
+   "url": "https://archive.org/download/fiftythreeyearsi011832mbp/fiftythreeyearsi011832mbp_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/jessup1910.txt",
+   "quote": "and the first Protestant Native Syrian Church was organized in 1848."
+  },
+  {
+   "entry": "arab-evangelical-churches",
+   "field": "why",
+   "sentence": "On 10 March 1865 the missionaries marked the printing of a new Arabic Bible.",
+   "url": "https://archive.org/download/fiftythreeyearsi011832mbp/fiftythreeyearsi011832mbp_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/jessup1910.txt",
+   "quote": "March 10, 1865, a celebration took place at the American Press, in honour of the printing of the Old Testament, thus completing the new Arabic translation of the Bible."
+  },
+  {
+   "entry": "arab-evangelical-churches",
+   "field": "longDescription",
+   "sentence": "The mission board did not mean to set up a new church.",
+   "url": "https://archive.org/download/fiftythreeyearsi011832mbp/fiftythreeyearsi011832mbp_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/jessup1910.txt",
+   "quote": "nor was it the policy of the Board of Missions* to set up a new church organization in the East"
+  },
+  {
+   "entry": "arab-evangelical-churches",
+   "field": "longDescription",
+   "sentence": "Pliny Fisk was the pioneer missionary of Beirut.",
+   "url": "https://archive.org/download/fiftythreeyearsi011832mbp/fiftythreeyearsi011832mbp_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/jessup1910.txt",
+   "quote": "Fisk was the pioneer missionary of Beirut"
+  },
+  {
+   "entry": "arab-evangelical-churches",
+   "field": "longDescription",
+   "sentence": "The missionaries were cursed and reviled.",
+   "url": "https://archive.org/download/fiftythreeyearsi011832mbp/fiftythreeyearsi011832mbp_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/jessup1910.txt",
+   "quote": "They were excommunicated, cursed, reviled."
+  },
+  {
+   "entry": "arab-evangelical-churches",
+   "field": "longDescription",
+   "sentence": "Bibles and tracts were burned.",
+   "url": "https://archive.org/download/fiftythreeyearsi011832mbp/fiftythreeyearsi011832mbp_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/jessup1910.txt",
+   "quote": "Bonfires were made of Bibles and tracts."
+  },
+  {
+   "entry": "arab-evangelical-churches",
+   "field": "longDescription",
+   "sentence": "In 1835 the missionaries ruled they would not seek members from the native churches.",
+   "url": "https://archive.org/download/fiftythreeyearsi011832mbp/fiftythreeyearsi011832mbp_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/jessup1910.txt",
+   "quote": "It is not an object with us to draw individuals from other native Christian sects and thereby increase our own denomination.",
+   "note": "The minutes are of September 1835 (Eli Smith, William M. Thomson and others), as Jessup prints them."
+  },
+  {
+   "entry": "arab-evangelical-churches",
+   "field": "longDescription",
+   "sentence": "But they would not refuse the sacraments to a member who asked.",
+   "url": "https://archive.org/download/fiftythreeyearsi011832mbp/fiftythreeyearsi011832mbp_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/jessup1910.txt",
+   "quote": "when a member of any native sect, giving satisfactory evidence of piety, desires the sacraments of us, we cannot refuse his request"
+  },
+  {
+   "entry": "arab-evangelical-churches",
+   "field": "longDescription",
+   "sentence": "Converts then asked for a church of their own.",
+   "url": "https://archive.org/download/fiftythreeyearsi011832mbp/fiftythreeyearsi011832mbp_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/jessup1910.txt",
+   "quote": "they demanded the right to be organized Into a distinct Evangelical Protestant Church of their own."
+  },
+  {
+   "entry": "arab-evangelical-churches",
+   "field": "longDescription",
+   "sentence": "The first Protestant Native Syrian Church was organized in 1848.",
+   "url": "https://archive.org/download/fiftythreeyearsi011832mbp/fiftythreeyearsi011832mbp_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/jessup1910.txt",
+   "quote": "and the first Protestant Native Syrian Church was organized in 1848."
+  },
+  {
+   "entry": "arab-evangelical-churches",
+   "field": "longDescription",
+   "sentence": "He calls the attempt to reform the old churches a failure.",
+   "url": "https://archive.org/download/fiftythreeyearsi011832mbp/fiftythreeyearsi011832mbp_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/jessup1910.txt",
+   "quote": "An honest attempt to reform the Oriental Churches was made and failed."
+  },
+  {
+   "entry": "arab-evangelical-churches",
+   "field": "longDescription",
+   "sentence": "Jessup writes as a partisan.",
+   "url": "https://archive.org/download/fiftythreeyearsi011832mbp/fiftythreeyearsi011832mbp_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/jessup1910.txt",
+   "quote": "is a living rebuke to ignorance l superstition and ecclesiastical assumption.",
+   "note": "Jessup is speaking of the Protestant element of the population. The sentence shows the partisan stance."
+  },
+  {
+   "entry": "arab-evangelical-churches",
+   "field": "longDescription",
+   "sentence": "Dr. Smith began the Arabic Bible in 1848, with Yazigy and Bistany.",
+   "url": "https://archive.org/download/fiftythreeyearsi011832mbp/fiftythreeyearsi011832mbp_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/jessup1910.txt",
+   "quote": "Dr. Smith began to work on the translation in 1848, assisted by Sheikh Nasif el Yazigy, and Mr. Butrus el Bistany First*"
+  },
+  {
+   "entry": "arab-evangelical-churches",
+   "field": "longDescription",
+   "sentence": "Bistany made a first Arabic text from the Hebrew and Greek.",
+   "url": "https://archive.org/download/fiftythreeyearsi011832mbp/fiftythreeyearsi011832mbp_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/jessup1910.txt",
+   "quote": "Mr. Bistany made a translation Into Arabic from the Hebrew or Greek with the aid of the Syriac."
+  },
+  {
+   "entry": "arab-evangelical-churches",
+   "field": "longDescription",
+   "sentence": "Yazigy, who knew only Arabic, rewrote it and sifted out foreign idioms.",
+   "url": "https://archive.org/download/fiftythreeyearsi011832mbp/fiftythreeyearsi011832mbp_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/jessup1910.txt",
+   "quote": "Then Sheikh Nasif, who knew no language but Arabic, rewrote what had been translated, carefully sifting out all foreign idioms."
+  },
+  {
+   "entry": "arab-evangelical-churches",
+   "field": "longDescription",
+   "sentence": "Dr. Van Dyck reported the Old Testament finished on 22 August 1864.",
+   "url": "https://archive.org/download/fiftythreeyearsi011832mbp/fiftythreeyearsi011832mbp_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/jessup1910.txt",
+   "quote": "on August 22, 1864, Dr. Van Dyck reported the completion of the translation of the Old Testament"
+  },
+  {
+   "entry": "arab-evangelical-churches",
+   "field": "longDescription",
+   "sentence": "On Friday 10 March 1865 the missionaries held a celebration at the American Press for the printed book.",
+   "url": "https://archive.org/download/fiftythreeyearsi011832mbp/fiftythreeyearsi011832mbp_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/jessup1910.txt",
+   "quote": "March 10, 1865, a celebration took place at the American Press, in honour of the printing of the Old Testament, thus completing the new Arabic translation of the Bible."
+  },
+  {
+   "entry": "arab-evangelical-churches",
+   "field": "longDescription",
+   "sentence": "Dr. Smith is the Eli Smith of the 1835 minutes (identity check).",
+   "url": "https://archive.org/download/fiftythreeyearsi011832mbp/fiftythreeyearsi011832mbp_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/jessup1910.txt",
+   "quote": "where the Bible was translated into Arabic by Drs. Eli Smith and Van Dyck",
+   "note": "Ties \"Dr. Smith\" to Eli Smith; the prose says only \"Dr. Smith\"."
+  },
+  {
+   "entry": "arab-evangelical-churches",
+   "field": "longDescription",
+   "sentence": "Watson, a missionary in the Egypt mission, wrote its history in 1897.",
+   "url": "https://archive.org/download/americanmission00wats/americanmission00wats_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/watson1898.txt",
+   "quote": "Rev. Messrs. Ewing and Watson go to America",
+   "note": "Ties the author to the mission. The date 1897 is the copyright entry: \"Entered according to Act of Congress, in the year 1897\"."
+  },
+  {
+   "entry": "arab-evangelical-churches",
+   "field": "longDescription",
+   "sentence": "McCague and Barnett began work at Cairo in 1854.",
+   "url": "https://archive.org/download/americanmission00wats/americanmission00wats_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/watson1898.txt",
+   "quote": "the very year in which Brothers McCague and Barnett entered Egypt and commenced mission work in Cairo."
+  },
+  {
+   "entry": "arab-evangelical-churches",
+   "field": "longDescription",
+   "sentence": "Egyptian converts were organized into the first native congregation at Cairo; it chose four elders and three deacons.",
+   "url": "https://archive.org/download/americanmission00wats/americanmission00wats_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/watson1898.txt",
+   "quote": "Girgis Bishetly as elders, and Girgis Hanna, Spiro Toma and Awad Hanna, as deacons."
+  },
+  {
+   "entry": "arab-evangelical-churches",
+   "field": "longDescription",
+   "sentence": "The first native congregation was organized (15 February).",
+   "url": "https://archive.org/download/americanmission00wats/americanmission00wats_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/watson1898.txt",
+   "quote": "Thus the first native congregation of the United Presbyterian Church in Egypt was organized in faith and hope."
+  },
+  {
+   "entry": "arab-evangelical-churches",
+   "field": "longDescription",
+   "sentence": "The date was 15 February.",
+   "url": "https://archive.org/download/americanmission00wats/americanmission00wats_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/watson1898.txt",
+   "quote": "On the 15th of February, these persons were solemnly set apart"
+  },
+  {
+   "entry": "arab-evangelical-churches",
+   "field": "longDescription",
+   "sentence": "The year was 1863.",
+   "url": "https://archive.org/download/americanmission00wats/americanmission00wats_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/watson1898.txt",
+   "quote": "1863 — Sickness among the missionaries",
+   "note": "Chapter IX heading; the chapter also holds \"Organization of the Cairo congregation\"."
+  },
+  {
+   "entry": "arab-evangelical-churches",
+   "field": "longDescription",
+   "sentence": "Wasif Khayat of Asyut had dared to join the Evangelical church.",
+   "url": "https://archive.org/download/americanmission00wats/americanmission00wats_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/watson1898.txt",
+   "quote": "only one in the town had dared, up to that time, to make an open profession of his faith by joining the Evangelical church."
+  },
+  {
+   "entry": "arab-evangelical-churches",
+   "field": "longDescription",
+   "sentence": "The patriarch offered him the title of bey if he would return to the Coptic Church.",
+   "url": "https://archive.org/download/americanmission00wats/americanmission00wats_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/watson1898.txt",
+   "quote": "he offered to secure for him the title of bey from the viceroy if he would return to the Coptic Church."
+  },
+  {
+   "entry": "arab-evangelical-churches",
+   "field": "longDescription",
+   "sentence": "In 1867 the viceroy and the patriarchate united to drive out the Protestants and the missionaries.",
+   "url": "https://archive.org/download/americanmission00wats/americanmission00wats_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/watson1898.txt",
+   "quote": "Viceroy and patriarchate unite in a determination to exterminate Protestants and drive out of Egypt the missionaries",
+   "note": "Watson's own chapter summary; his reading of the events, not a Coptic text."
+  },
+  {
+   "entry": "arab-evangelical-churches",
+   "field": "longDescription",
+   "sentence": "The year is 1867.",
+   "url": "https://archive.org/download/americanmission00wats/americanmission00wats_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/watson1898.txt",
+   "quote": "The year 1867 began with Rev. E. Currie in Asyut"
+  },
+  {
+   "entry": "arab-evangelical-churches",
+   "field": "longDescription",
+   "sentence": "The patriarch had a priest beaten and removed from his priesthood.",
+   "url": "https://archive.org/download/americanmission00wats/americanmission00wats_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/watson1898.txt",
+   "quote": "beaten, by one of the government soldiers, he degraded him from his priesthood and drove him out of his presence.",
+   "note": "OCR garbles one word just before this quote (\"se\\-crely\"); the quote starts after it."
+  },
+  {
+   "entry": "arab-evangelical-churches",
+   "field": "longDescription",
+   "sentence": "The priest had let his brother, a Protestant student, hold evangelistic services in his church after Mass.",
+   "url": "https://archive.org/download/americanmission00wats/americanmission00wats_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/watson1898.txt",
+   "quote": "who had been in the habit of permitting his brother, one of our theological students, to conduct the evangelistic service in his church at the close of the Coptic mass on Sabbaths"
+  },
+  {
+   "entry": "arab-evangelical-churches",
+   "field": "legacy",
+   "sentence": "Jessup says that by his time twenty-eight more churches had been organized.",
+   "url": "https://archive.org/download/fiftythreeyearsi011832mbp/fiftythreeyearsi011832mbp_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/jessup1910.txt",
+   "quote": "Since that time twenty-eight other churches have been organized in this mission"
+  },
+  {
+   "entry": "arab-evangelical-churches",
+   "field": "legacy",
+   "sentence": "Watson counts 248,386 volumes of Scripture given out between 1854 and 1896.",
+   "url": "https://archive.org/download/americanmission00wats/americanmission00wats_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/watson1898.txt",
+   "quote": "The number of volumes of the Scriptures, or parts thereof, distributed through the mission from November 20, 1854, to November 30, 1896, was 248,386"
+  },
+  {
+   "entry": "arab-evangelical-churches",
+   "field": "voices",
+   "sentence": "Asaad es Shidiak is called the first convert and the proto-martyr of modern Syria.",
+   "url": "https://archive.org/download/fiftythreeyearsi011832mbp/fiftythreeyearsi011832mbp_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/jessup1910.txt",
+   "quote": "Asaad es Shidiak, the first convert, and the proto-martyr of modern Syria."
+  },
+  {
+   "entry": "arab-evangelical-churches",
+   "field": "relationsSummary",
+   "sentence": "In Egypt some of the first members left the Coptic Church; in 1867 the Coptic patriarch moved against them, on the mission's own account.",
+   "record": "§7 RV-4 Overlap (VIII.13: \"the Coptic church the Egyptian converts left; a link\"); Watson 1898 (Wasif Khayat; chapter XIII)"
+  },
+  {
+   "entry": "arab-evangelical-churches",
+   "field": "statusDescription",
+   "sentence": "Tier 2; window 1823 to 1906.",
+   "record": "§7 RV-4 Era/Dates and Tier lines"
+  },
+  {
+   "entry": "arab-evangelical-churches",
+   "field": "sourcing",
+   "sentence": "Moderate, weighted toward the missions; no Arabic voice yet.",
+   "record": "§7 RV-4 B1 (\"mission-weighted (Jessup 1910, Watson 1898 ...). Wanted: an Arabic own voice (Bustānī) and Anderson 1872\")"
+  },
+  {
+   "entry": "arab-evangelical-churches",
+   "field": "sourcing",
+   "sentence": "Jessup is open in his dislike of the Eastern churches.",
+   "record": "§6 ME-11 e1 (\"openly hostile to the Eastern churches\")",
+   "note": "Also shown by the fact-table quote on the longDescription partisan sentence."
+  },
+  {
+   "entry": "arab-evangelical-churches",
+   "field": "teaser",
+   "sentence": "Syria, Lebanon and Egypt, 1823 to 1906.",
+   "record": "§7 RV-4 Dates, countries"
+  },
+  {
+   "entry": "arab-evangelical-churches",
+   "field": "floorNote",
+   "sentence": "No question; Reformed and Presbyterian.",
+   "record": "§7 RV-4 Section A (\"no question (Reformed)\"); Watson names the United Presbyterian Church"
+  },
+  {
+   "entry": "moravian-church-after-1815",
+   "field": "why",
+   "sentence": "The thankful people thronged the churches (Emancipation Day, 1 August 1834).",
+   "url": "https://archive.org/download/historyofmission00hami/historyofmission00hami_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/hamilton1901.txt",
+   "quote": "The thankful people thronged the churches, and with devout hallelujahs ascribed their dehverance to Almighty God."
+  },
+  {
+   "entry": "moravian-church-after-1815",
+   "field": "why",
+   "sentence": "Emancipation Day was 1 August 1834.",
+   "url": "https://archive.org/download/historyofmission00hami/historyofmission00hami_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/hamilton1901.txt",
+   "quote": "Emancipation Day, August i, 1834, a public holiday by Act of Assembly, was spent by the"
+  },
+  {
+   "entry": "moravian-church-after-1815",
+   "field": "why",
+   "sentence": "The Moravians had been in the West Indies for a century by 1834.",
+   "record": "Census VII.4 longDescription (\"From 1732 they sent missionaries to the enslaved people of St Thomas\"); Hamilton 1901 for 1834"
+  },
+  {
+   "entry": "moravian-church-after-1815",
+   "field": "why",
+   "sentence": "After 1815 they carried the same mission on in the Cape.",
+   "url": "https://archive.org/download/historyofmission00hami/historyofmission00hami_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/hamilton1901.txt",
+   "quote": "Meanwhile at Genadendal a remarkable revival of religion blessed the year 1833."
+  },
+  {
+   "entry": "moravian-church-after-1815",
+   "field": "why",
+   "sentence": "... in Suriname.",
+   "url": "https://archive.org/download/historyofmission00hami/historyofmission00hami_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/hamilton1901.txt",
+   "quote": "On July I, 1863, by royal proclamation the emancipation of the slaves became an accomplished fact throughout Surinam."
+  },
+  {
+   "entry": "moravian-church-after-1815",
+   "field": "why",
+   "sentence": "... in Labrador.",
+   "url": "https://archive.org/download/historyofmission00hami/historyofmission00hami_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/hamilton1901.txt",
+   "quote": "The new station at Hebron was completed with the dedica- tion of its church in October, 1837."
+  },
+  {
+   "entry": "moravian-church-after-1815",
+   "field": "why",
+   "sentence": "... and, from 1890, north of Lake Nyasa.",
+   "url": "https://archive.org/download/historyofmission00hami/historyofmission00hami_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/hamilton1901.txt",
+   "quote": "Accordingly in the spring of 1890 Theodore Meyer, Theophil Richard, George Martin and John Hiifner set out for the country to the north of Lake Nyasa"
+  },
+  {
+   "entry": "moravian-church-after-1815",
+   "field": "longDescription",
+   "sentence": "Hamilton sat on the church's executive board and taught at its seminary.",
+   "url": "https://archive.org/download/historyofmission00hami/historyofmission00hami_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/hamilton1901.txt",
+   "quote": "a member of the Executive Board of the"
+  },
+  {
+   "entry": "moravian-church-after-1815",
+   "field": "longDescription",
+   "sentence": "Hamilton taught at the church's seminary; his book covers the eighteenth and nineteenth centuries in one account.",
+   "record": "Hamilton 1901, title page (read raw): \"Professor of Church History in the Moravian Theological Seminary\" (OCR-garbled) and the title \"during the Eighteenth and Nineteenth Centuries\""
+  },
+  {
+   "entry": "moravian-church-after-1815",
+   "field": "longDescription",
+   "sentence": "In Jamaica the church ran twenty-six schools by March 1834.",
+   "url": "https://archive.org/download/historyofmission00hami/historyofmission00hami_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/hamilton1901.txt",
+   "quote": "By March, 1834, no less than twenty-six JMoravian schools were in operation."
+  },
+  {
+   "entry": "moravian-church-after-1815",
+   "field": "longDescription",
+   "sentence": "Slavery ended throughout the British colonies on 1 August 1834.",
+   "url": "https://archive.org/download/historyofmission00hami/historyofmission00hami_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/hamilton1901.txt",
+   "quote": "By Act of Parliament on and after the first of August, 1834, slavery be- came impossible throughout the British colonies."
+  },
+  {
+   "entry": "moravian-church-after-1815",
+   "field": "longDescription",
+   "sentence": "The freed crowds spent Emancipation Day in a manner worthy of its significance.",
+   "url": "https://archive.org/download/historyofmission00hami/historyofmission00hami_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/hamilton1901.txt",
+   "quote": "liberated multitudes in a manner worthy of its significance."
+  },
+  {
+   "entry": "moravian-church-after-1815",
+   "field": "longDescription",
+   "sentence": "By the end of 1835 the church had 8,521 members on the island, 1,339 more than a year before.",
+   "url": "https://archive.org/download/historyofmission00hami/historyofmission00hami_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/hamilton1901.txt",
+   "quote": "At the end of the year 1835 the total membership on the island was 8,521, an increase of 1,339"
+  },
+  {
+   "entry": "moravian-church-after-1815",
+   "field": "longDescription",
+   "sentence": "At the Cape the Moravian mission had been renewed in 1792.",
+   "file": "cic/texts/moravian-church_periodical-accounts-missions-v1_1790.txt",
+   "lines": "9908-9909",
+   "quote": "arrived there on the 21ſt of November, 1792, ſafe and well"
+  },
+  {
+   "entry": "moravian-church-after-1815",
+   "field": "longDescription",
+   "sentence": "The Colony's mission had 2,386 members when slavery ended there on 1 December 1834.",
+   "url": "https://archive.org/download/historyofmission00hami/historyofmission00hami_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/hamilton1901.txt",
+   "quote": "When slavery was abolished, on Decem- ber I, 1834, the mission in the Colony had reached a member- ship of 2,386."
+  },
+  {
+   "entry": "moravian-church-after-1815",
+   "field": "longDescription",
+   "sentence": "At Genadendal alone four hundred and fifty were received within one year after emancipation.",
+   "url": "https://archive.org/download/historyofmission00hami/historyofmission00hami_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/hamilton1901.txt",
+   "quote": "At Genadendal alone four hundred and fifty were re- received within one year"
+  },
+  {
+   "entry": "moravian-church-after-1815",
+   "field": "longDescription",
+   "sentence": "Each case was decided on its own merits.",
+   "url": "https://archive.org/download/historyofmission00hami/historyofmission00hami_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/hamilton1901.txt",
+   "quote": "after each case had been carefully de- cided on its own merits."
+  },
+  {
+   "entry": "moravian-church-after-1815",
+   "field": "longDescription",
+   "sentence": "In Suriname slavery ended by royal proclamation on 1 July 1863.",
+   "url": "https://archive.org/download/historyofmission00hami/historyofmission00hami_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/hamilton1901.txt",
+   "quote": "On July I, 1863, by royal proclamation the emancipation of the slaves became an accomplished fact throughout Surinam."
+  },
+  {
+   "entry": "moravian-church-after-1815",
+   "field": "longDescription",
+   "sentence": "About two-thirds of all the slaves had already been in touch with the Moravian Church.",
+   "url": "https://archive.org/download/historyofmission00hami/historyofmission00hami_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/hamilton1901.txt",
+   "quote": "About two-thirds of the entire slave popula- tion had already been in connection with the Moravian Church."
+  },
+  {
+   "entry": "moravian-church-after-1815",
+   "field": "longDescription",
+   "sentence": "By 1869 he counts 24,330 members in the colony.",
+   "url": "https://archive.org/download/historyofmission00hami/historyofmission00hami_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/hamilton1901.txt",
+   "quote": "in the entire colony it reached a total of 24,330 by the year 1869."
+  },
+  {
+   "entry": "moravian-church-after-1815",
+   "field": "longDescription",
+   "sentence": "The winter of 1836 to 1837 brought a famine in Labrador, especially at Nain, Okak and Hebron.",
+   "url": "https://archive.org/download/historyofmission00hami/historyofmission00hami_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/hamilton1901.txt",
+   "quote": "Labrador likewise had its years of leanness, the winter of 1836 to 1837 being memorable for its misery, especially at Nain, Okak and Hebron. A famine raged."
+  },
+  {
+   "entry": "moravian-church-after-1815",
+   "field": "longDescription",
+   "sentence": "The church at Hebron was dedicated in October 1837.",
+   "url": "https://archive.org/download/historyofmission00hami/historyofmission00hami_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/hamilton1901.txt",
+   "quote": "The new station at Hebron was completed with the dedica- tion of its church in October, 1837."
+  },
+  {
+   "entry": "moravian-church-after-1815",
+   "field": "longDescription",
+   "sentence": "In the spring of 1890 four missionaries set out for the country north of Lake Nyasa.",
+   "url": "https://archive.org/download/historyofmission00hami/historyofmission00hami_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/hamilton1901.txt",
+   "quote": "Accordingly in the spring of 1890 Theodore Meyer, Theophil Richard, George Martin and John Hiifner set out for the country to the north of Lake Nyasa"
+  },
+  {
+   "entry": "moravian-church-after-1815",
+   "field": "longDescription",
+   "sentence": "They founded Rungwe that August.",
+   "url": "https://archive.org/download/historyofmission00hami/historyofmission00hami_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/hamilton1901.txt",
+   "quote": "But Rungwe was founded among the Konde people in August."
+  },
+  {
+   "entry": "moravian-church-after-1815",
+   "field": "longDescription",
+   "sentence": "On 7 February 1897 a woman named Fiabarema stood up after a farewell sermon at Rungwe.",
+   "url": "https://archive.org/download/historyofmission00hami/historyofmission00hami_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/hamilton1901.txt",
+   "quote": "On February 7, 1897, he preached his farewell sermon"
+  },
+  {
+   "entry": "moravian-church-after-1815",
+   "field": "longDescription",
+   "sentence": "She said, I have risen to say that I belong to God.",
+   "url": "https://archive.org/download/historyofmission00hami/historyofmission00hami_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/hamilton1901.txt",
+   "quote": "I have risen to say that I belong to God."
+  },
+  {
+   "entry": "moravian-church-after-1815",
+   "field": "longDescription",
+   "sentence": "She was baptized that evening.",
+   "url": "https://archive.org/download/historyofmission00hami/historyofmission00hami_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/hamilton1901.txt",
+   "quote": "That evening she was baptized in the church"
+  },
+  {
+   "entry": "moravian-church-after-1815",
+   "field": "longDescription",
+   "sentence": "Within nine years the church manned four stations there.",
+   "url": "https://archive.org/download/historyofmission00hami/historyofmission00hami_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/hamilton1901.txt",
+   "quote": "four stations were manned in the Nyasa country, Rungwe, Ipiana, Rutengania and Utengule"
+  },
+  {
+   "entry": "moravian-church-after-1815",
+   "field": "longDescription",
+   "sentence": "... and counted more than one hundred converts.",
+   "url": "https://archive.org/download/historyofmission00hami/historyofmission00hami_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/hamilton1901.txt",
+   "quote": "More than one hundred converts formed the membership of the Christian church in their care."
+  },
+  {
+   "entry": "moravian-church-after-1815",
+   "field": "voices",
+   "sentence": "Hamilton is the church's own historian, a member of its executive board.",
+   "url": "https://archive.org/download/historyofmission00hami/historyofmission00hami_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/hamilton1901.txt",
+   "quote": "a member of the Executive Board of the"
+  },
+  {
+   "entry": "moravian-church-after-1815",
+   "field": "relationsSummary",
+   "sentence": "Same church as the Herrnhut entry, carried on past 1815.",
+   "record": "§7 RV-5 Kind (\"church body (the Unity of the Brethren), continuing VII.4\"); G89-4 (a)"
+  },
+  {
+   "entry": "moravian-church-after-1815",
+   "field": "relationsSummary",
+   "sentence": "Its Caribbean congregations were one strand of the churches of slavery and emancipation.",
+   "record": "§7 RV-5 Overlap (LA8-1: \"Moravians as one of them, by link\"); G89-4 (a)"
+  },
+  {
+   "entry": "moravian-church-after-1815",
+   "field": "legacy",
+   "sentence": "The entry on Herrnhut says most Moravians now live in Tanzania and the Caribbean.",
+   "record": "Census VII.4 legacy (\"Most of its members are in Tanzania and the Caribbean\")",
+   "note": "A claim in the existing census text, not tested here; the sentence says so."
+  },
+  {
+   "entry": "moravian-church-after-1815",
+   "field": "statusDescription",
+   "sentence": "Tier 1; window 1815 to 1906.",
+   "record": "§7 RV-5 Tier and Dates lines"
+  },
+  {
+   "entry": "moravian-church-after-1815",
+   "field": "sourcing",
+   "sentence": "Rich for the missions, Moravian side; Hamilton on the executive board.",
+   "record": "§7 RV-5 B1 (\"good, inside-voiced\"), e1"
+  },
+  {
+   "entry": "moravian-church-after-1815",
+   "field": "sourcing",
+   "sentence": "Nothing Moravian after 1815 is yet held in the Library.",
+   "record": "§7 RV-5 e2 (\"nothing is vendored after 1815\")"
+  },
+  {
+   "entry": "moravian-church-after-1815",
+   "field": "floorNote",
+   "sentence": "No question; same church as VII.4.",
+   "record": "§7 RV-5 Section A (\"no question (VII.4's floor)\")"
+  },
+  {
+   "entry": "moravian-church-after-1815",
+   "field": "teaser",
+   "sentence": "Jamaica to Lake Nyasa, 1815 to 1906.",
+   "record": "§7 RV-5 Region and lines (Caribbean, Cape, Suriname, Labrador, Nyasa)"
+  },
+  {
+   "entry": "the-moravian-church-at-herrnhut",
+   "field": "longDescription",
+   "sentence": "George Schmidt landed at the Cape on 9 July 1737.",
+   "file": "cic/texts/moravian-church_periodical-accounts-missions-v1_1790.txt",
+   "lines": "7259",
+   "quote": "having landed at the Cape, July gth, 1737"
+  },
+  {
+   "entry": "the-moravian-church-at-herrnhut",
+   "field": "longDescription",
+   "sentence": "He taught Khoikhoi children to read.",
+   "file": "cic/texts/moravian-church_periodical-accounts-missions-v1_1790.txt",
+   "lines": "7266-7267",
+   "quote": "he taught them to read the Scriptures"
+  },
+  {
+   "entry": "the-moravian-church-at-herrnhut",
+   "field": "longDescription",
+   "sentence": "He baptized seven people.",
+   "file": "cic/texts/moravian-church_periodical-accounts-missions-v1_1790.txt",
+   "lines": "7270",
+   "quote": "baptized ſeven perſons, in whom he perceived a work of the"
+  },
+  {
+   "entry": "the-moravian-church-at-herrnhut",
+   "field": "longDescription",
+   "sentence": "The Brethren had to leave in 1745.",
+   "file": "cic/texts/moravian-church_periodical-accounts-missions-v1_1790.txt",
+   "lines": "140-141",
+   "quote": "the Miſſion, begun in 1737 among the Hottentots, was in a promiſing condition"
+  },
+  {
+   "entry": "the-moravian-church-at-herrnhut",
+   "field": "longDescription",
+   "sentence": "The Brethren had to leave in 1745 (the year).",
+   "file": "cic/texts/moravian-church_periodical-accounts-missions-v1_1790.txt",
+   "lines": "142",
+   "quote": "neceſſity of abandoning it in 1745."
+  },
+  {
+   "entry": "the-moravian-church-at-herrnhut",
+   "field": "longDescription",
+   "sentence": "In 1786 some of them met a woman Schmidt had baptized.",
+   "file": "cic/texts/moravian-church_periodical-accounts-missions-v1_1790.txt",
+   "lines": "7475-7477",
+   "quote": "ſaw an Hottentot woman baptized by Brother Schmidt, who expreſſed a great deſire for the renewal of the"
+  },
+  {
+   "entry": "the-moravian-church-at-herrnhut",
+   "field": "longDescription",
+   "sentence": "The year was 1786.",
+   "file": "cic/texts/moravian-church_periodical-accounts-missions-v1_1790.txt",
+   "lines": "7475",
+   "quote": "in the year 1786"
+  },
+  {
+   "entry": "the-moravian-church-at-herrnhut",
+   "field": "longDescription",
+   "sentence": "She still prized the Dutch Bible he had given her.",
+   "file": "cic/texts/moravian-church_periodical-accounts-missions-v1_1790.txt",
+   "lines": "7477-7479",
+   "quote": "She had a Dutch Bible given to her by Brother Schmidr, which ſhe valued above all things."
+  },
+  {
+   "entry": "the-moravian-church-at-herrnhut",
+   "field": "longDescription",
+   "sentence": "The Herrnhut synod of 1789 renewed the plan.",
+   "file": "cic/texts/moravian-church_periodical-accounts-missions-v1_1790.txt",
+   "lines": "7483",
+   "quote": "ſynod of the Brethren, met at Herrnhut in 1789"
+  },
+  {
+   "entry": "the-moravian-church-at-herrnhut",
+   "field": "longDescription",
+   "sentence": "Three missionaries reached the Cape on 21 November 1792.",
+   "file": "cic/texts/moravian-church_periodical-accounts-missions-v1_1790.txt",
+   "lines": "9908-9909",
+   "quote": "arrived there on the 21ſt of November, 1792, ſafe and well"
+  },
+  {
+   "entry": "the-moravian-church-at-herrnhut",
+   "field": "longDescription",
+   "sentence": "La Trobe wrote in 1771 that three Brethren lived at Cairo, with the Copts of Egypt and Abyssinia as their special aim.",
+   "file": "cic/texts/latrobe-benjamin_succinct-view-of-the-missions_1771.txt",
+   "lines": "929-932",
+   "quote": "One of thefe Attempts has the Copts in Egypt and Ahyflinia for its fpecial objeid ; and three Brethren are now refident at Cairo in Egypt, for that purpofe.",
+   "note": "OCR: long s read as f; \"objeid\" for object; \"Ahyflinia\" for Abyssinia. Kept verbatim."
+  },
+  {
+   "entry": "the-moravian-church-at-herrnhut",
+   "field": "longDescription",
+   "sentence": "In 1752 Dr. Frederick William Hooker went to Cairo for this work.",
+   "url": "https://archive.org/download/americanmission00wats/americanmission00wats_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/watson1898.txt",
+   "quote": "At his earnest initiative the Brethren appointed Frederick William Hooker, M. D., with the primary object of opening up missionary communication with Abyssinian Christians."
+  },
+  {
+   "entry": "the-moravian-church-at-herrnhut",
+   "field": "longDescription",
+   "sentence": "The year 1752: he embarked in May 1752.",
+   "url": "https://archive.org/download/americanmission00wats/americanmission00wats_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/watson1898.txt",
+   "quote": "On the 8th of May, 1752, he embarked at London for Genoa"
+  },
+  {
+   "entry": "the-moravian-church-at-herrnhut",
+   "field": "longDescription",
+   "sentence": "Watson says he met the Coptic patriarch, who gave him a letter in reply to one from Zinzendorf.",
+   "url": "https://archive.org/download/americanmission00wats/americanmission00wats_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/watson1898.txt",
+   "quote": "The Patriarch also gave him, a few days later, a letter in reply to the one he had delivered him from Count Zinzendorf."
+  },
+  {
+   "entry": "the-moravian-church-at-herrnhut",
+   "field": "longDescription",
+   "sentence": "He met the Coptic patriarch.",
+   "url": "https://archive.org/download/americanmission00wats/americanmission00wats_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/watson1898.txt",
+   "quote": "He made the acquaintance of the Coptic Patriarch, who received him kindly"
+  },
+  {
+   "entry": "the-moravian-church-at-herrnhut",
+   "field": "longDescription",
+   "sentence": "Brother Richter went to Algiers in 1740 to the Christian slaves.",
+   "file": "cic/texts/latrobe-benjamin_succinct-view-of-the-missions_1771.txt",
+   "lines": "935-936",
+   "quote": "Our Brother Richter went thither in the year 1740"
+  },
+  {
+   "entry": "the-moravian-church-at-herrnhut",
+   "field": "longDescription",
+   "sentence": "He died of the plague.",
+   "file": "cic/texts/latrobe-benjamin_succinct-view-of-the-missions_1771.txt",
+   "lines": "937",
+   "quote": "while preaching to the Haves fick of the plague, got",
+   "note": "OCR: \"Haves\" for slaves, \"fick\" for sick. The next lines say he caught the same disorder, \"which proved the means of his diHblution\" (dissolution)."
+  },
+  {
+   "entry": "the-moravian-church-at-herrnhut",
+   "field": "longDescription",
+   "sentence": "Another Brother stayed there from 1744 to 1748.",
+   "file": "cic/texts/latrobe-benjamin_succinct-view-of-the-missions_1771.txt",
+   "lines": "939-941",
+   "quote": "Another Brother Hayed there from the year 1744 to 1748, ferving, and preaching to the Haves."
+  },
+  {
+   "entry": "the-moravian-church-at-herrnhut",
+   "field": "longDescription",
+   "sentence": "The aim in Algiers was the Christian slaves.",
+   "file": "cic/texts/latrobe-benjamin_succinct-view-of-the-missions_1771.txt",
+   "lines": "934-935",
+   "quote": "the falvation of the poor Chritlian Haves in Algiers."
+  },
+  {
+   "entry": "the-moravian-church-at-herrnhut",
+   "field": "longDescription",
+   "sentence": "The Patent freed the Lutherans and Calvinists.",
+   "file": "cic/texts/lutzow_bohemia-historical-sketch_1920.txt",
+   "lines": "17184-17185",
+   "quote": "a description which included Lutherans and Calvinists."
+  },
+  {
+   "entry": "the-moravian-church-at-herrnhut",
+   "field": "longDescription",
+   "sentence": "The Patent was issued in 1781.",
+   "file": "cic/texts/lutzow_bohemia-historical-sketch_1920.txt",
+   "lines": "17181-17183",
+   "quote": "He proved this by issuing in 1781, the first year in which he became sole ruler, the famed \"decree of tolerance \" (Toleranz Patent)."
+  },
+  {
+   "entry": "the-moravian-church-at-herrnhut",
+   "field": "longDescription",
+   "sentence": "It left out even the Unity of the Bohemian Brethren.",
+   "file": "cic/texts/lutzow_bohemia-historical-sketch_1920.txt",
+   "lines": "17185-17189",
+   "quote": "Ail other Christian creeds, even the unity of the Bohemian Brethren, which had in the last years before the battle of the White Mountain almost become the national Church, were excluded.",
+   "note": "OCR \"Ail\" for All."
+  },
+  {
+   "entry": "the-moravian-church-at-herrnhut",
+   "field": "longDescription",
+   "sentence": "Lützow says many people in Bohemia had secretly remained Protestants, and were very grateful.",
+   "file": "cic/texts/lutzow_bohemia-historical-sketch_1920.txt",
+   "lines": "17193-17194",
+   "quote": "many of whom had secretly re- mained Protestants"
+  },
+  {
+   "entry": "the-moravian-church-at-herrnhut",
+   "field": "longDescription",
+   "sentence": "... and were very grateful.",
+   "file": "cic/texts/lutzow_bohemia-historical-sketch_1920.txt",
+   "lines": "17194",
+   "quote": "were very grateful to their otherwise"
+  },
+  {
+   "entry": "the-moravian-church-at-herrnhut",
+   "field": "longDescription",
+   "sentence": "What became of the Toleration churches after 1781 is not told here.",
+   "record": "§7 RV-8 Recommendation (\"the Toleration churches of 1781-1906 go to a North Europe pass\")"
+  },
+  {
+   "entry": "the-moravian-church-at-herrnhut",
+   "field": "longDescription",
+   "sentence": "Not every Czech Protestant had left.",
+   "record": "§7 RV-8 \"What the roster carries\" (VII.4 tells the hidden Unity); Lützow 1920 (secret Protestants)"
+  },
+  {
+   "entry": "the-moravian-church-at-herrnhut",
+   "field": "continuesAs",
+   "sentence": "VII.4 continues as the new row.",
+   "record": "§7 RV-5 Kind; G89-4 (a)"
+  },
+  {
+   "entry": "mennonites-and-amish-after-1650",
+   "field": "longDescription",
+   "sentence": "Gerhard Wiebe was an elder of Bergthal and told it in 1900.",
+   "url": "https://archive.org/download/P002546/P002546_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/wiebe1900.txt",
+   "quote": "aleueſter der Gemeinde zu Bergthal, Rußland",
+   "note": "OCR for \"Aeltester der Gemeinde zu Bergthal, Rußland\" (elder of the Bergthal congregation); the title page also gives his death, 5 May 1900, at Chortitz, Man."
+  },
+  {
+   "entry": "mennonites-and-amish-after-1650",
+   "field": "longDescription",
+   "sentence": "A call came from Russia.",
+   "url": "https://archive.org/download/P002546/P002546_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/wiebe1900.txt",
+   "quote": "daß ein Ruf aus Rußland an unſere Väter erging"
+  },
+  {
+   "entry": "mennonites-and-amish-after-1650",
+   "field": "longDescription",
+   "sentence": "The first families left Prussia in 1788 or 1789; by 1790 eight villages had been settled.",
+   "url": "https://archive.org/download/P002546/P002546_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/wiebe1900.txt",
+   "quote": "und zogen die erſten anno 1788 oder 89 von Preußen, anno 1790. waren ſchon 8. Dörfer angeſiedelt"
+  },
+  {
+   "entry": "mennonites-and-amish-after-1650",
+   "field": "longDescription",
+   "sentence": "In the Molotschna colony thirty-nine villages were settled between 1804 and 1824.",
+   "url": "https://archive.org/download/P002546/P002546_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/wiebe1900.txt",
+   "quote": "In der Molotſchnaer Kolonie -ſiedelten von 1804 bis 1824 39 Dörfer an"
+  },
+  {
+   "entry": "mennonites-and-amish-after-1650",
+   "field": "longDescription",
+   "sentence": "In the early 1870s the Mennonites read in the newspapers that they would be drafted.",
+   "url": "https://archive.org/download/P002546/P002546_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/wiebe1900.txt",
+   "quote": "Es war anfangs der 70er Jahre, als man anfing, in den Zeitungen zu leſen, daß die Mennoniten zur Wehrpflicht gezogen werden ſollten"
+  },
+  {
+   "entry": "mennonites-and-amish-after-1650",
+   "field": "longDescription",
+   "sentence": "They sent men to St Petersburg.",
+   "url": "https://archive.org/download/P002546/P002546_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/wiebe1900.txt",
+   "quote": "Männer aus unſerer Mitte nach Petersburg zu fenden"
+  },
+  {
+   "entry": "mennonites-and-amish-after-1650",
+   "field": "longDescription",
+   "sentence": "Many then left for America.",
+   "url": "https://archive.org/download/P002546/P002546_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/wiebe1900.txt",
+   "quote": "Mitte September anno 1874 zogen abermals 28. Familien von Ruß",
+   "note": "Wiebe's text tells of departures in 1874 (and the delegations of 1873 to America). The sentence is the summary the book as a whole supports; the quote is one concrete instance."
+  },
+  {
+   "entry": "mennonites-and-amish-after-1650",
+   "field": "longDescription",
+   "sentence": "Wiebe says his last brethren came from Russia in 1876.",
+   "url": "https://archive.org/download/P002546/P002546_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/wiebe1900.txt",
+   "quote": "Anno 1876 famen unſere letzten Brüder von Rußland an",
+   "note": "OCR \"famen\" for \"kamen\"."
+  },
+  {
+   "entry": "mennonites-and-amish-after-1650",
+   "field": "longDescription",
+   "sentence": "The Hutterites went to Wischenka in Russia.",
+   "file": "cic/texts/hutterite-brethren_geschichts-buecher-oesterreich-ungarn-deu_beck1883.txt",
+   "lines": "971-972",
+   "quote": "Einzelne Familien , die den Glauben ihrer Väter nicht aufgeben wollten , zogen nach Wischenka in Kussland.",
+   "note": "OCR \"Kussland\" for \"Russland\". Rendering: \"Single families who would not give up their fathers' faith went to Wischenka in Russia.\""
+  },
+  {
+   "entry": "mennonites-and-amish-after-1650",
+   "field": "longDescription",
+   "sentence": "In 1784 part of the new converts fled to join them.",
+   "file": "cic/texts/hutterite-brethren_geschichts-buecher-oesterreich-ungarn-deu_beck1883.txt",
+   "lines": "972-973",
+   "quote": "Zu diesen floh 1784 ein Theil der Neubekehrten",
+   "note": "Rendering: \"To these a part of the new converts fled in 1784\"."
+  },
+  {
+   "entry": "mennonites-and-amish-after-1650",
+   "field": "longDescription",
+   "sentence": "The emigrants later moved from Little Russia to the Crimea; in 1855 their community stood under a grandson of the last bishop.",
+   "file": "cic/texts/hutterite-brethren_geschichts-buecher-oesterreich-ungarn-deu_beck1883.txt",
+   "lines": "978-981",
+   "quote": "zogen die Auswanderer später aus Kleinrussland in die Krim, wo sie dermalen eine Gemeinde bilden, die anno 1855 unter der Leitung eines Enkels des letzten Bisehofs stand",
+   "note": "OCR \"Bisehofs\" for \"Bischofs\". Rendering: \"the emigrants later moved from Little Russia to the Crimea, where they now form a community, which in 1855 stood under the leadership of a grandson of the last bishop\". Beck's preface says Crimea; the existing VI.32 text says near the Sea of Azov by 1852. Not reconciled here."
+  },
+  {
+   "entry": "mennonites-and-amish-after-1650",
+   "field": "longDescription",
+   "sentence": "In 1749 Sporer, a Mennonite preacher, wrote to the Hutterite Brethren at Levar in Hungary.",
+   "file": "cic/texts/hutterite-brethren_geschichts-buecher-oesterreich-ungarn-deu_beck1883.txt",
+   "lines": "32704-32706",
+   "quote": "Sendschreiben des Franz Simon Sporer, (Mennoniten Prädicanten) dto. Herrenhag 17*0D Aug. 1749 an die Br. in Levar und deren Vorsteher: Heinrich Müller",
+   "note": "OCR \"17*0D\" within \"dto. Herrenhag 17*0D Aug. 1749\". Rendering: \"Letter of Franz Simon Sporer (Mennonite preacher), Herrnhaag, August 1749, to the Brethren at Levar and their head Heinrich Müller\"."
+  },
+  {
+   "entry": "mennonites-and-amish-after-1650",
+   "field": "longDescription",
+   "sentence": "In 1757 Peter Weber, a Mennonite preacher, wrote to Zacharias Walter.",
+   "file": "cic/texts/hutterite-brethren_geschichts-buecher-oesterreich-ungarn-deu_beck1883.txt",
+   "lines": "32779-32781",
+   "quote": "Schreiben des Mennonit. Prädicanten Peter Weber in Hartenberg an Zach. Walter, in Form einer Exhorte mit Gruss an die Brüeder im Lande",
+   "note": "Rendering: \"Letter of the Mennonite preacher Peter Weber at Hartenberg to Zach. Walter, in the form of an exhortation, with greetings to the Brethren in the land\". The entry is headed 1757."
+  },
+  {
+   "entry": "mennonites-and-amish-after-1650",
+   "field": "longDescription",
+   "sentence": "Weber offered to send Menno's catechism and writings.",
+   "file": "cic/texts/hutterite-brethren_geschichts-buecher-oesterreich-ungarn-deu_beck1883.txt",
+   "lines": "32784-32785",
+   "quote": "ob er ihnen nicht den Kate- chismus und die Schriften S. Mennos senden soll",
+   "note": "Rendering: \"whether he should not send them the catechism and the writings of S. Menno\"."
+  },
+  {
+   "entry": "mennonites-and-amish-after-1650",
+   "field": "longDescription",
+   "sentence": "The Hutterites are a church of their own (VI.32 ends in 1785).",
+   "record": "Census VI.32 (hutterite-brethren, 1528-1785); §7 RV-2 Overlap"
+  },
+  {
+   "entry": "mennonites-and-amish-after-1650",
+   "field": "modernCountries",
+   "sentence": "Russia and Ukraine added.",
+   "record": "§7 RV-2 Region, countries (\"Ukraine (Chortitza, Molotschna), Russia (the Volga)\"); G89-49 (a)"
+  },
+  {
+   "entry": "the-missionary-movement-s-native-churches-seramp",
+   "field": "longDescription",
+   "sentence": "Lott Cary was born a slave near Richmond, about 1780.",
+   "url": "https://archive.org/download/biographyofelder00tay/biographyofelder00tay_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/taylor1837.txt",
+   "quote": "Lott Cary was born a slave about the year 1780"
+  },
+  {
+   "entry": "the-missionary-movement-s-native-churches-seramp",
+   "field": "longDescription",
+   "sentence": "Richmond, Virginia; Taylor is pastor at Richmond.",
+   "url": "https://archive.org/download/biographyofelder00tay/biographyofelder00tay_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/taylor1837.txt",
+   "quote": "Pastor of the Second Baptist Church, Richmond, Va."
+  },
+  {
+   "entry": "the-missionary-movement-s-native-churches-seramp",
+   "field": "longDescription",
+   "sentence": "The church there encouraged him to preach.",
+   "url": "https://archive.org/download/biographyofelder00tay/biographyofelder00tay_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/taylor1837.txt",
+   "quote": "the church encouraged him to ex- ercise his gifts in preaching the gospel."
+  },
+  {
+   "entry": "the-missionary-movement-s-native-churches-seramp",
+   "field": "longDescription",
+   "sentence": "About 1815 he helped rouse the Black Christians of Richmond to take an interest in Africa.",
+   "url": "https://archive.org/download/biographyofelder00tay/biographyofelder00tay_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/taylor1837.txt",
+   "quote": "Some time about the year 1815, he was, to a"
+  },
+  {
+   "entry": "the-missionary-movement-s-native-churches-seramp",
+   "field": "longDescription",
+   "sentence": "... an interest in Africa.",
+   "url": "https://archive.org/download/biographyofelder00tay/biographyofelder00tay_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/taylor1837.txt",
+   "quote": "great extent, instrumental in awakening among his colored brethren in the city of Richmond, a lively interest on behalf of the spiritual condition of Africa.",
+   "note": "\"colored brethren\" is the book's period term; the census text says Black Christians."
+  },
+  {
+   "entry": "the-missionary-movement-s-native-churches-seramp",
+   "field": "longDescription",
+   "sentence": "The Richmond African Missionary Society gave between one hundred and one hundred and fifty dollars to the African mission for several years.",
+   "url": "https://archive.org/download/biographyofelder00tay/biographyofelder00tay_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/taylor1837.txt",
+   "quote": "which for several years contributed from one hundred to one hundred and fifty dollars for the African mission."
+  },
+  {
+   "entry": "the-missionary-movement-s-native-churches-seramp",
+   "field": "longDescription",
+   "sentence": "In 1821 Cary sailed for West Africa (letter from Free Town, 13 March 1821).",
+   "url": "https://archive.org/download/biographyofelder00tay/biographyofelder00tay_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/taylor1837.txt",
+   "quote": "Free Town, March 13th, 1821."
+  },
+  {
+   "entry": "the-missionary-movement-s-native-churches-seramp",
+   "field": "longDescription",
+   "sentence": "The voyage was forty-four days.",
+   "url": "https://archive.org/download/biographyofelder00tay/biographyofelder00tay_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/taylor1837.txt",
+   "quote": "We had a long passage of forty-four days"
+  },
+  {
+   "entry": "the-missionary-movement-s-native-churches-seramp",
+   "field": "longDescription",
+   "sentence": "Before we left the United States, we formed ourselves into a church.",
+   "url": "https://archive.org/download/biographyofelder00tay/biographyofelder00tay_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/taylor1837.txt",
+   "quote": "Before we left the United States, we formed ourselves into a church,"
+  },
+  {
+   "entry": "the-missionary-movement-s-native-churches-seramp",
+   "field": "longDescription",
+   "sentence": "On 16 August 1823 he wrote from Monrovia.",
+   "url": "https://archive.org/download/biographyofelder00tay/biographyofelder00tay_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/taylor1837.txt",
+   "quote": "Monrovia, August 16th, 1823."
+  },
+  {
+   "entry": "the-missionary-movement-s-native-churches-seramp",
+   "field": "longDescription",
+   "sentence": "Our little church has been wonderfully blessed of late.",
+   "url": "https://archive.org/download/biographyofelder00tay/biographyofelder00tay_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/taylor1837.txt",
+   "quote": "Our little church has been wonderfully blessed of late. I baptized two yesterday;"
+  },
+  {
+   "entry": "the-missionary-movement-s-native-churches-seramp",
+   "field": "longDescription",
+   "sentence": "Cary's words reach us through a biography by J. B. Taylor, printed in 1837.",
+   "url": "https://archive.org/download/biographyofelder00tay/biographyofelder00tay_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/taylor1837.txt",
+   "quote": "Pastor of the Second Baptist Church, Richmond, Va.",
+   "note": "The year 1837 is the date in the record and the archive.org catalog entry (\"Baltimore, 1837\"); not shown by the OCR title page read."
+  }
+ ],
+ "neighbor_changes": [
+  {
+   "id": "the-moravian-church-at-herrnhut",
+   "set": {
+    "longDescription": "In 1722 a handful of families slipped over the Bohemian border into Saxony. They were the remnant of the Unity of the Brethren, the Czech reform church. It had survived in hiding for nearly a century after the Habsburgs outlawed it. Count Nikolaus von Zinzendorf let them settle on his estate, and they built a village called Herrnhut. Years of quarreling followed, among the refugees and the other seekers who joined them. Then on 13 August 1727 they shared the Lord's Supper, and they always dated their renewal from that day. What followed was remarkable for a settlement of a few hundred people. They kept a prayer watch in shifts around the clock. They sorted the church into 'choirs' by age and state of life. They wrote up a diary every single day, and thousands of ordinary members set down their own life stories. From 1732 they sent missionaries to the enslaved people of St Thomas, and to Greenland and Suriname. Others went to the Native congregations of Pennsylvania and New York. They were not the first, for Lutherans trained at Halle had reached India in 1706.\n\nThe Brethren tried the Cape early. George Schmidt landed there on 9 July 1737. He taught Khoikhoi children to read, and he baptized seven people. The Brethren had to leave in 1745. In 1786 some of them met a woman Schmidt had baptized, and she still prized the Dutch Bible he had given her. The Herrnhut synod of 1789 renewed the plan. Three missionaries reached the Cape on 21 November 1792.\n\nThe Brethren also looked to North Africa. La Trobe wrote in 1771 that three Brethren lived at Cairo, with the Copts of Egypt and Abyssinia as their special aim. In 1752 Dr. Frederick William Hooker went to Cairo for this work. Watson's history says he met the Coptic patriarch, who gave him a letter in reply to one from Count Zinzendorf. In Algiers, Brother Richter went in 1740 to the Christian slaves. He died of the plague. Another Brother stayed there from 1744 to 1748.\n\nNot every Czech Protestant had left. In 1781 the emperor Joseph II issued a Patent of Toleration. It freed the Lutherans and Calvinists. It left out even the Unity of the Brethren. Count Lützow wrote in 1920 that many Bohemians had secretly stayed Protestant. They were glad of the Patent. The Toleration churches after 1781 are not told here.",
+    "continuesAs": "moravian-church-after-1815"
+   },
+   "ruling": "G89-4 (a), G89-5 (a), G89-13 (a), G89-54 (a)",
+   "reason": "Named lines in VII.4: the Moravian Cape mission before 1815 (G89-4, G89-5); the Moravians at Cairo and Algiers (G89-13); the Czech lands after 1627 (RV-8, G89-54). continuesAs set to the new era 9 row (G89-4 a). Nothing else in the row changes."
+  },
+  {
+   "id": "mennonites-and-amish-after-1650",
+   "set": {
+    "longDescription": "After 1650 the heirs of the Swiss and Dutch Anabaptists lived on as settled churches. Many were called Mennonites, after Menno Simons. Their Dordrecht Confession of 1632 stayed their rule of faith. In 1660 Thieleman van Braght of Dordrecht published the Martyrs Mirror. It told of those \"Who Baptized Only Upon Confession of Faith\". In a prayer dated at Dort in 1659, he asked to be like \"my slain fellow brethren and sisters\".\n\nIn Pennsylvania the Mennonites wanted their great martyr book in German, not Dutch. The Ephrata community in Lancaster County did the work. Fifteen of its brothers were set to it, and the job took three years. The edition ran to 1300 copies.\n\nThe old hymn book of the Swiss Brethren, the Ausbund, was printed again and again in Pennsylvania. Its songs, the title says, were written in the prison at Passau. A Lancaster printing of 1856 calls itself the seventh in Pennsylvania. In 1886 Mennonite publishers brought out the Martyrs Mirror in English. English was spreading \"year by year\" among \"our Mennonite people\", its preface says.\n\nIn 1890 a manual from Elkhart set out the church's forms. A minister was chosen by lot. A slip with a verse from Proverbs went into one of several like books. The man whose book held it was ordained. Some congregations, \"especially among the Amish and Russian Mennonites\", chose by the members' vote instead.\n\nThe Mennonites also had a Russian chapter. Gerhard Wiebe, an elder of Bergthal, told it in 1900. A call came from Russia, he writes, and the first families left Prussia in 1788 or 1789. By 1790 eight villages had been settled. In the Molotschna colony thirty-nine villages were settled between 1804 and 1824. In the early 1870s the Mennonites read in the newspapers that they would be drafted. They sent men to St Petersburg. Many then left for America. Wiebe says his last brethren came from Russia in 1876.\n\nThe Hutterites, a church of their own, have a Russian chapter too. Josef Beck, who edited their chronicles, wrote in 1883 that single families who would not give up their fathers' faith went to Wischenka in Russia. In 1784, he says, part of the new converts fled to join them. The emigrants later moved from Little Russia to the Crimea. There, in 1855, their community stood under a grandson of the last bishop.\n\nThe two churches had met before, in Hungary. In 1749 a Mennonite preacher, Franz Simon Sporer, wrote to the Brethren at Levar. In 1757 another, Peter Weber, wrote to Zacharias Walter. He offered to send Menno's books.",
+    "modernCountries": [
+     {
+      "country": "Netherlands",
+      "countryId": "Q55",
+      "place": "Netherlands",
+      "placeId": "Q55"
+     },
+     {
+      "country": "United States",
+      "countryId": "Q30",
+      "place": "Pennsylvania",
+      "placeId": "Q1400"
+     },
+     {
+      "country": "Russia",
+      "countryId": "Q159",
+      "place": "Russia",
+      "placeId": "Q159"
+     },
+     {
+      "country": "Ukraine",
+      "countryId": "Q212",
+      "place": "Ukraine",
+      "placeId": "Q212"
+     }
+    ]
+   },
+   "ruling": "G89-49 (a)",
+   "reason": "The Russian colonies as a named chapter: Russia and Ukraine added to the countries and the text, with the Hutterites' Russian years as a line in it (G89-49 a). The end date (1890) is kept: see holds and flags. Nothing else in the row changes."
+  },
+  {
+   "id": "the-missionary-movement-s-native-churches-seramp",
+   "set": {
+    "longDescription": "Between 1793 and 1906 European and American missionary societies planted churches across India, West Africa, the Pacific and the China coast. And almost immediately those churches began to be run, staffed and spread by local Christians the societies had not planned for. Samuel Ajayi Crowther, enslaved as a boy in Yorubaland and freed by an anti-slavery patrol, translated the Bible into Yoruba and in 1864 became the first African Anglican bishop, only for the next generation of the same society to force him aside in 1890. In the Pacific it was hundreds of Polynesian teachers, not Europeans, who carried Christianity from island to island, often at the cost of their lives. In China the preacher Liang Fa wrote a tract in 1832 whose stray reading by Hong Xiuquan helped set the Taiping upheaval in motion, and the former opium addict known as Pastor Xi built a network of his own converts inland. What holds these four wings together is a single problem. Nearly everything written about them was written from the mission's side, and the native voices that do survive are what any honest telling has to be built on.\n\nLiberia's settler church is a line of the West African wing. It came from America. Lott Cary was born a slave near Richmond, Virginia, about 1780, and the church there encouraged him to preach. About 1815 he helped rouse the Black Christians of Richmond to take an interest in Africa. The Richmond African Missionary Society that followed gave between one hundred and one hundred and fifty dollars to the African mission for several years. In 1821 Cary sailed for West Africa. In a letter from Free Town he wrote, 'Before we left the United States, we formed ourselves into a church'. On 16 August 1823 he wrote from Monrovia, 'Our little church has been wonderfully blessed of late.' He had baptized two the day before. Cary's words reach us through a biography by J. B. Taylor, a Richmond Baptist pastor, printed in 1837."
+   },
+   "ruling": "G89-52 (a)",
+   "reason": "A named line in the West Africa wing: Liberia's settler church (RV-6, G89-52 a). The row's name, wings and status text do not change."
+  }
+ ],
+ "links": [
+  {
+   "id": "the-moravian-church-at-herrnhut--moravian-church-after-1815",
+   "from": "the-moravian-church-at-herrnhut",
+   "to": "moravian-church-after-1815",
+   "type": "continued as",
+   "confidence": "Widely Accepted",
+   "note": "The Moravian Church kept the same missions after 1815. A report of 1790 lists its missions in Greenland, Labrador and the West Indies. Hamilton's 1901 history follows those fields on past 1815.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Periodical Accounts relating to the Missions of the Church of the United Brethren, vol. 1 (London, 1790)",
+     "file": "cic/texts/moravian-church_periodical-accounts-missions-v1_1790.txt",
+     "lines": "130-132",
+     "locus": "Introduction, list of missions",
+     "quote": "There are at preſent one or more Miſſions eſtabliſhed in Greenland, in Labradore, in North America, among the Indians;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "J. Taylor Hamilton, A History of the Missions of the Moravian Church during the Eighteenth and Nineteenth Centuries (Bethlehem, Pa.: Times Publishing Co., 1901), archive.org historyofmission00hami",
+     "url": "https://archive.org/download/historyofmission00hami/historyofmission00hami_djvu.txt",
+     "accessed": "2026-11-10",
+     "locus": "Chapter XI, The Foreign Missions, from 1818 to 1836",
+     "quote": "On the restoration of peace in Europe communication with Greenland via Copenhagen could again be regularly maintained.",
+     "license": "public-domain",
+     "raw_file": "raw/hamilton1901.txt"
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-online",
+   "ruling": "G89-4 (a)",
+   "drafter_flags": [
+    "Widely Accepted at most: Hamilton is read online, so the link cannot be Documented. The 1790 Library text shows the fields before; Hamilton shows them after. No modern study is cited."
+   ]
+  },
+  {
+   "id": "moravian-church-after-1815--caribbean-churches-of-slavery-and-emancipation",
+   "from": "moravian-church-after-1815",
+   "to": "caribbean-churches-of-slavery-and-emancipation",
+   "type": "gave rise to",
+   "confidence": "Inferential-Thin",
+   "note": "Hamilton, the church's own historian, says freed people in Jamaica crowded Moravian churches the day slavery ended in 1834. They were one strand of the Caribbean churches of slavery and freedom. This rests on one early book.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "J. Taylor Hamilton, A History of the Missions of the Moravian Church during the Eighteenth and Nineteenth Centuries (Bethlehem, Pa.: Times Publishing Co., 1901), archive.org historyofmission00hami",
+     "url": "https://archive.org/download/historyofmission00hami/historyofmission00hami_djvu.txt",
+     "accessed": "2026-11-10",
+     "locus": "Chapter XI, Jamaica, Emancipation Day 1834",
+     "quote": "The thankful people thronged the churches, and with devout hallelujahs ascribed their dehverance to Almighty God.",
+     "license": "public-domain",
+     "raw_file": "raw/hamilton1901.txt"
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-online",
+   "ruling": "G89-4 (a), G89-14 (a)",
+   "drafter_flags": [
+    "Type fits partly: LA8-1 is a regional cross-church row that includes the Moravian congregations, so \"gave rise to\" claims the congregations as one root of it. \"influenced\" is the alternative. The LA drafter's text must name the Moravians for the two-way check. Direction and type for the reviewer."
+   ]
+  },
+  {
+   "id": "the-coptic-church-under-the-ottomans--the-moravian-church-at-herrnhut",
+   "from": "the-coptic-church-under-the-ottomans",
+   "to": "the-moravian-church-at-herrnhut",
+   "type": "in contact with",
+   "confidence": "Widely Accepted",
+   "note": "In 1752 the Moravian physician Frederick William Hooker went to Cairo to reach Abyssinian Christians through the Copts. Watson's history says he met the Coptic patriarch, who gave him a letter in reply to one from Zinzendorf. La Trobe, in 1771, lists three Brethren at Cairo with the Copts as their special aim.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Benjamin La Trobe, A Succinct View of the Missions Established among the Heathens by the Church of the Brethren (London, 1771)",
+     "file": "cic/texts/latrobe-benjamin_succinct-view-of-the-missions_1771.txt",
+     "lines": "929-932",
+     "locus": "Section on attempts in Africa",
+     "quote": "One of thefe Attempts has the Copts in Egypt and Ahyflinia for its fpecial objeid ; and three Brethren are now refident at Cairo in Egypt, for that purpofe.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Andrew Watson, The American Mission in Egypt, 1854 to 1896 (Pittsburgh: United Presbyterian Board of Publication; entered 1897, host date 1898), archive.org americanmission00wats",
+     "url": "https://archive.org/download/americanmission00wats/americanmission00wats_djvu.txt",
+     "accessed": "2026-11-10",
+     "locus": "Chapter II",
+     "quote": "The Patriarch also gave him, a few days later, a letter in reply to the one he had delivered him from Count Zinzendorf.",
+     "license": "public-domain",
+     "raw_file": "raw/watson1898.txt"
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-online",
+   "ruling": "G89-13 (a)",
+   "drafter_flags": [
+    "The Coptic row is the AF slice's new row (AF-2). This link is drafted here because VII.4's new Cairo line names the Copts; if the AF drafter also drafts it, keep one. Widely Accepted at most: the meeting is read online in a mission history."
+   ]
+  },
+  {
+   "id": "coptic-revival-under-cyril-iv--arab-evangelical-churches",
+   "from": "coptic-revival-under-cyril-iv",
+   "to": "arab-evangelical-churches",
+   "type": "gave rise to",
+   "confidence": "Inferential-Thin",
+   "note": "Watson, a missionary, names Wasif Khayat of Asyut. He joined the Evangelical church. The Coptic patriarch offered him a title if he would go back to the Coptic Church. This rests on one missionary's account.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Andrew Watson, The American Mission in Egypt, 1854 to 1896 (Pittsburgh: United Presbyterian Board of Publication; entered 1897, host date 1898), archive.org americanmission00wats",
+     "url": "https://archive.org/download/americanmission00wats/americanmission00wats_djvu.txt",
+     "accessed": "2026-11-10",
+     "locus": "Chapter XIII, Asyut",
+     "quote": "only one in the town had dared, up to that time, to make an open profession of his faith by joining the Evangelical church.",
+     "license": "public-domain",
+     "raw_file": "raw/watson1898.txt"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Andrew Watson, The American Mission in Egypt, 1854 to 1896 (Pittsburgh: United Presbyterian Board of Publication; entered 1897, host date 1898), archive.org americanmission00wats",
+     "url": "https://archive.org/download/americanmission00wats/americanmission00wats_djvu.txt",
+     "accessed": "2026-11-10",
+     "locus": "Chapter XIII, Asyut",
+     "quote": "he offered to secure for him the title of bey from the viceroy if he would return to the Coptic Church.",
+     "license": "public-domain",
+     "raw_file": "raw/watson1898.txt"
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-online",
+   "ruling": "G89-50 (a)",
+   "drafter_flags": [
+    "Graded Inferential-Thin: one missionary witness read online; no repo-cited modern study (Guirguis and van Doorn-Harder 2011, cited at VIII.13, was not opened). The record asks for \"a link\" from VIII.13; this and the next link are its two separately evidenced readings."
+   ]
+  },
+  {
+   "id": "coptic-revival-under-cyril-iv--arab-evangelical-churches--2",
+   "from": "coptic-revival-under-cyril-iv",
+   "to": "arab-evangelical-churches",
+   "type": "argued against",
+   "confidence": "Inferential-Thin",
+   "note": "Watson's chapter for 1867 says the viceroy and the patriarchate joined to drive out Egypt's Protestants. In a report he prints, the patriarch had a priest at Asyut beaten and removed from his priesthood. The priest had let a Protestant student hold services in his church.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Andrew Watson, The American Mission in Egypt, 1854 to 1896 (Pittsburgh: United Presbyterian Board of Publication; entered 1897, host date 1898), archive.org americanmission00wats",
+     "url": "https://archive.org/download/americanmission00wats/americanmission00wats_djvu.txt",
+     "accessed": "2026-11-10",
+     "locus": "Chapter XIII, contents",
+     "quote": "Viceroy and patriarchate unite in a determination to exterminate Protestants and drive out of Egypt the missionaries",
+     "license": "public-domain",
+     "raw_file": "raw/watson1898.txt"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Andrew Watson, The American Mission in Egypt, 1854 to 1896 (Pittsburgh: United Presbyterian Board of Publication; entered 1897, host date 1898), archive.org americanmission00wats",
+     "url": "https://archive.org/download/americanmission00wats/americanmission00wats_djvu.txt",
+     "accessed": "2026-11-10",
+     "locus": "Chapter XIII, Asyut",
+     "quote": "beaten, by one of the government soldiers, he degraded him from his priesthood and drove him out of his presence.",
+     "license": "public-domain",
+     "raw_file": "raw/watson1898.txt"
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-online",
+   "ruling": "G89-50 (a)",
+   "outcome": "In 1867, by the mission's account, the Coptic patriarch removed a priest from his priesthood. The priest had let a Protestant student hold services.",
+   "drafter_flags": [
+    "Major by outcome: a patriarch's removal of a priest from his priesthood is a church act. The only witness is the mission. The Coptic side is not read. Reviewer: confirm the outcome test."
+   ]
+  },
+  {
+   "id": "hutterite-brethren--mennonites-and-amish-after-1650",
+   "from": "hutterite-brethren",
+   "to": "mennonites-and-amish-after-1650",
+   "type": "in contact with",
+   "confidence": "Documented",
+   "note": "Mennonite preachers wrote to the Hutterite Brethren in Hungary, in 1749 and again in 1757. One offered to send them Menno's books.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Josef Beck, ed., Die Geschichts-Bücher der Wiedertäufer in Oesterreich-Ungarn (Vienna, 1883)",
+     "file": "cic/texts/hutterite-brethren_geschichts-buecher-oesterreich-ungarn-deu_beck1883.txt",
+     "lines": "32704-32706",
+     "locus": "Beck 1883, document list, 1749",
+     "quote": "Sendschreiben des Franz Simon Sporer, (Mennoniten Prädicanten) dto. Herrenhag 17*0D Aug. 1749 an die Br. in Levar und deren Vorsteher: Heinrich Müller",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Josef Beck, ed., Die Geschichts-Bücher der Wiedertäufer in Oesterreich-Ungarn (Vienna, 1883)",
+     "file": "cic/texts/hutterite-brethren_geschichts-buecher-oesterreich-ungarn-deu_beck1883.txt",
+     "lines": "32779-32781",
+     "locus": "Beck 1883, document list, 1757",
+     "quote": "Schreiben des Mennonit. Prädicanten Peter Weber in Hartenberg an Zach. Walter, in Form einer Exhorte mit Gruss an die Brüeder im Lande",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "ruling": "G89-49 (a)",
+   "drafter_flags": [
+    "Beck prints a list of archive documents, so these are the editor's entries for the letters, not the letters. The contact shown is of 1749 and 1757, in Hungary, not the Russian years: no source read shows Mennonites and Hutterites meeting in Russia."
+   ]
+  },
+  {
+   "id": "the-black-church-in-america--the-missionary-movement-s-native-churches-seramp",
+   "from": "the-black-church-in-america",
+   "to": "the-missionary-movement-s-native-churches-seramp",
+   "type": "in contact with",
+   "confidence": "Inferential-Thin",
+   "note": "About 1815 Black Christians in Richmond formed a society to help the African mission. Taylor's biography of 1837 says it gave money for several years. Its best-known missionary, Lott Cary, sailed to West Africa in 1821. This rests on one pastor's book.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "J. B. Taylor, Biography of Elder Lott Cary, Late Missionary to Africa (Baltimore, 1837), archive.org biographyofelder00tay",
+     "url": "https://archive.org/download/biographyofelder00tay/biographyofelder00tay_djvu.txt",
+     "accessed": "2026-11-10",
+     "locus": "Chapter 1",
+     "quote": "great extent, instrumental in awakening among his colored brethren in the city of Richmond, a lively interest on behalf of the spiritual condition of Africa.",
+     "license": "public-domain",
+     "raw_file": "raw/taylor1837.txt"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "J. B. Taylor, Biography of Elder Lott Cary, Late Missionary to Africa (Baltimore, 1837), archive.org biographyofelder00tay",
+     "url": "https://archive.org/download/biographyofelder00tay/biographyofelder00tay_djvu.txt",
+     "accessed": "2026-11-10",
+     "locus": "Chapter 1",
+     "quote": "which for several years contributed from one hundred to one hundred and fifty dollars for the African mission.",
+     "license": "public-domain",
+     "raw_file": "raw/taylor1837.txt"
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-online",
+   "ruling": "G89-52 (a)",
+   "drafter_flags": [
+    "Inferential-Thin: a single book by a white-led church's pastor [Second Baptist, Richmond], read online. The census row VIII.1 names no African tie; the link is named in the VIII.7 line. \"Best-known missionary\" is the drafter's wording for the book's subject; the book calls him \"missionary to Africa\"."
+   ]
+  }
+ ],
+ "retire_links": [],
+ "holds": [
+  {
+   "item": "RV-7: The Transylvanian Unitarians after the Polish exile, 1660-1906",
+   "g89": "G89-53 (a)",
+   "reason": "Held. Section A lane 8 question; sources thin. The only verified item is Rees's 1818 introduction to the Racovian Catechism, a Unitarian study.",
+   "waits_for": "A Transylvanian Unitarian source for 1660-1906, in Hungarian or Latin; then a lane 8 row or a named line closing VI.14."
+  },
+  {
+   "item": "RV-9: Kosmas the Aitolian (1714-1779)",
+   "g89": "G89-55 (a)",
+   "reason": "Held. Not a movement by the four marks on present evidence. Nothing in the Library; archive.org holds only modern studies (Cavarnos 1971, a search record only).",
+   "waits_for": "A pre-1930 text on Kosmas, read raw or vendored; then a named line in VII.18."
+  },
+  {
+   "item": "RV-8, the rest: the Toleration churches of Bohemia and Moravia, 1781-1906",
+   "g89": "G89-54 (a)",
+   "reason": "The hidden Unity before 1722 and the Patent of 1781 are told in VII.4. The Lutheran and Reformed Toleration congregations of 1781-1906 are outside this sweep's North Europe scope.",
+   "waits_for": "A North Europe pass."
+  },
+  {
+   "item": "RV-6, the rest: the AME Church and South Africa's Ethiopian Church (1896); Daniel Coker (1820); a link VIII.1 to IX.4",
+   "g89": "G89-52 (a)",
+   "reason": "Both items are [S] in the record. No verified source was read, so no sentence or link is drafted.",
+   "waits_for": "A pre-1930 text on the AME union of 1896 and on Coker's 1820 voyage, read raw or vendored."
+  },
+  {
+   "item": "VII.32's end date (1890) checked against 1906",
+   "g89": "G89-49 (a)",
+   "reason": "The record asks for the check. The row's 1890 end rests on an 1890 manual. Wiebe (1900) tells the Russian years to 1876. No inside Mennonite text dated 1891 to 1906 was read, so the end is not moved.",
+   "waits_for": "An inside Mennonite source dated 1891-1906."
+  },
+  {
+   "item": "RV-5, other Moravian fields: Greenland, Nicaragua (the Moskito Coast), Ladakh, Alaska, Australia",
+   "g89": "G89-4 (a)",
+   "reason": "The record names five lines (the Caribbean, the Cape, Suriname, Labrador, Nyasa) and draws only these. The others are [S] in the record. Hamilton covers some of them; they are left for a later pass, not drafted.",
+   "waits_for": "A decision to widen the lines, then a read of the matching chapters of Hamilton (1901)."
+  },
+  {
+   "item": "RV-4: the Egypt synod date and the Evangelical Church of Egypt's later history",
+   "g89": "G89-50 (a)",
+   "reason": "The record marks the synod date [S]. No sentence uses it.",
+   "waits_for": "A dated Egypt church source after 1863, and an Arabic own voice (for example Bustani) for Syria."
+  }
+ ],
+ "wants": [
+  "RV-4: an Arabic text from the evangelical churches themselves (for example Butrus al-Bustani), and Rufus Anderson, History of the Missions of the American Board ... to the Oriental Churches (1872), listed but not opened.",
+  "RV-4: a Coptic voice on the 1867 events; Guirguis and van Doorn-Harder, The Emergence of the Modern Coptic Papacy (2011), cited at VIII.13, would test the Watson-only links.",
+  "RV-5: J. Taylor Hamilton (1901) is a vendoring candidate; every RV-5 quote rests on the online copy. Nothing Moravian after 1815 is in cic/texts/.",
+  "VII.32: P. M. Friesen, Die Alt-Evangelische Mennonitische Bruderschaft in Russland (1789-1910) (1911), and the 1800 charter of privileges, for the Russian chapter from the Mennonite side after 1876.",
+  "VIII.7 line: a Liberian or Black American own voice in the Library (a published letter or church minute) so that Lott Cary can be a people row; Taylor 1837 is a vendoring candidate.",
+  "Cranz and La Trobe (1780), already in the Library, cover Greenland; a later pass can use them for a Greenland line."
+ ],
+ "flags": [
+  "LIVING: none marked. Both new rows are living: false. R2 to R4 need a dated present-day source graded CD or CR; the record has none for the Arab evangelical churches or the Moravians after 1815 (\"Grade: none (no dated item after 2010)\"), and VII.4 carries no livingEvidence to cite. Set living: true only when a dated source is read. The prose avoids present-tense claims about the churches.",
+  "Online quotes (watson1898, jessup1910, hamilton1901, taylor1837, wiebe1900): all five public-domain texts were fetched raw from archive.org (_djvu.txt) and saved under raw/, listed in raw/SOURCES.json. Every quote was re-found verbatim in them by the checker. OCR errors are kept (examples: \"dehverance\", \"Hiifner\", \"famen\", \"aleueſter\", \"re- received\", \"Bisehofs\", \"Kussland\"). Check each against the page image before the census uses it.",
+  "Read myself beyond the record's cited items, all inside the cited books: Jessup on the 1835 minutes, the 1848 church and Bistany's part in the Bible; Watson on McCague and Barnett, the Cairo congregation of 1863 and the Asyut priest; Hamilton on Jamaica, the Cape, Suriname, Labrador and the 1890 Nyasa start. The record marks Bustani's role, the Egypt synod date and the Nyasa year (1891) [S]; Hamilton says spring 1890 and the founding of Rungwe that August, so the row uses 1890.",
+  "Library text found for the Cape line: Periodical Accounts vol. 1 (1790) gives Schmidt's landing (9 July 1737), the seven baptisms, the departure in 1745, the woman and Bible of 1786, the synod of 1789 and the arrival of 21 November 1792. The record gives the Cape start as [S]; the Library text now carries it. The sources say \"Hottentots\" (a period term, now a slur); the prose says Khoikhoi and no quote in a link or participant copy uses the old word.",
+  "Hooker 1752 (VII.4 line and the VII.4 / AF-2 link): Watson 1898 chapter II gives the physician's name, the 1752 voyage and the patriarch's letter. The record does not list this; it is read raw and cited as such. Whether the meeting fell in 1752 or 1753 is not stated; the text says only that he embarked in May 1752.",
+  "VII.32: Wiebe is read in raw OCR of a German Fraktur book, so quotes carry long-s letters. His 1788 or 89 date is the first families; \"eight villages by 1790\" and \"39 villages in Molotschna 1804-1824\" are his counts. I did not read the 1860 Mennonite Brethren split ([S] in the record) or 1873-74 in detail; the \"many left for America\" sentence rests on the book as a whole and one concrete passage (September 1874, 28 families). VII.32's regions field is left as it is (\"North Europe\" already stands for Ukraine and Russia at VIII.51).",
+  "VII.32 and Beck: his preface places the Hutterite community in the Crimea in 1855; the existing VI.32 text says \"near the Sea of Azov, by 1852\". Both are Beck's; the sentences are not reconciled. The new Hutterite line follows the preface.",
+  "The contact link VI.32 / VII.32 documents letters of 1749 and 1757 in Hungary, not Russia. The record asks for the Hutterites' Russian years \"linked from VI.32\"; no read source shows the two churches meeting in Russia, so the edge rests on the earlier contact, which the VII.32 text also names.",
+  "modernCountries: only places with an ID in the census or in the repo's place-label audit (Build/Ministry/Operations/Audits/2026-11-07_place-labels/countries-by-place.json) are used. RV-5 omits Suriname, Tanzania and Canada (Labrador) because the repo holds no ID for them; RV-4 and VII.32 are complete. Jamaica Q766 and Genadendal/South Africa Q1501295 / Q258 come from that audit file.",
+  "streams: not set on either new row (VII.4 carries none; the Arab churches are Presbyterian and Congregational missions with no neighbor stream to copy).",
+  "RV-5 dates 1815-1906: Hamilton ends at about 1900, so nothing read dates 1901-1906. The window is the record's.",
+  "No people rows: no voice's own words are quoted from a cic/texts/ file (the Cary letters are read online only).",
+  "Cross-slice dependencies: LA8-1 (caribbean-churches-of-slavery-and-emancipation) and AF-2 (the-coptic-church-under-the-ottomans) are the other slices' rows; their text must name the Moravians (LA8-1) and the VII.4 contact (AF-2) for the two-way check, or these links go. The VIII.1 / VIII.7 link is named in the new VIII.7 line; VIII.1 text is not changed.",
+  "Readability: the checker scores the whole new value of each neighbor longDescription, including the existing frozen paragraphs; any failure there that is in old text is reported, not fixed."
+ ]
+}
