@@ -1328,7 +1328,29 @@ it, never by deleting it.
     - Not the Library's: the people rows' `year` and the Ephrem alias (census owner); the Theophilus
       row (a census question).
     - Queued: the general loci pass for multi-work volumes, and the Georgian chronicle text volumes.
-170. **Descent links the river origins want (2026-11-10).** From "Where each river leaves its parent"
+170. **The held people the Library's first batch brings in (2026-11-10).** PR #1577 filled the wants
+    ("What the Library's first wants batch filled", 2026-11-10) in "The later-worlds people held, with their reasons" (2026-11-10) for Pamphilus, Bonaventure
+    and Heraclius, who now have entries (Decision-Log, "Three held people come in once the Library
+    holds their words"). Francis and Priscillian's own words are now held too; they stay held as
+    founders. The rest of that list stands: the Library found no own text for Mani, Kaleb or Valdes,
+    and none survives for the others (`Build/Ministry/Features/Source-Library/CFT-Wants.md`).
+    Wanted, from the drafts: an English rendering of the Apology, a clean text of the Ecthesis, a
+    primary source for Heraclius's letter disowning it, and a source for Bonaventure's birth year.
+171. **What the Library's second wants batch filled (2026-11-10).** For the eras 8-9 rows held for
+    sources (`CiC_Step0_Eras8-9_GlobalSweep_V1_0.md`). Full list:
+    `Build/Ministry/Features/Source-Library/CFT-Wants.md`.
+    - Filled: ME-20 (Tolstoy 1885, 1894), ME-6 for the Dukhobors (their Living Book, 1909), RV-7
+      (Bishop Ferencz 1875, 1907), AP7 (Mackenzie 1901, and Whitehouse 1873 shelved), AP15 (Dallet
+      1874, the Korean Repository 1896, Underwood 1908), AP12 in part (Marsden's letters, 1913), AP11 to
+      1808 (Adoratskii 1887), LA8-6 (Moreau 1797, Holly's report of 1874), LA8-8 (Claret 1863), LA8-9
+      (Montalvo 1683, the Historia Bethlehemitica 1723).
+    - The church's side only: LA8-10 (Juarros 1809, Garcia Pelaez 1852). The Cancuc and Cruzob texts
+      themselves are still wanted.
+    - Not found: AF-8, ME-4, ME-7, RV-9, AP10, AP13 and the Molokans. ME-21 is located but not
+      fetched.
+    - The Bell Part II ruling, as carried out: the row stays on the desert shelf as context, and on
+      the Melitian shelf as tradition (Source-Library Decision-Log, 2026-11-10).
+172. **Descent links the river origins want (2026-11-10).** From "Where each river leaves its parent"
     (Decision-Log, 2026-11-10). Each would let a census link, not a declared record, place a river.
     Each is a census change under the link evidence standard: sourced, reviewed, and given a data
     release. None is invented here.
@@ -1342,7 +1364,7 @@ it, never by deleting it.
       declared from Greek East as Contested until then.
     - The start of Syriac East, Greek East and Africa, each declared from the origin trunk. A census
       link from a first-century trunk movement would place them by lineage, if a source supports one.
-171. **The river record's declared reasons are not shown to visitors (2026-11-10).** Each declared
+173. **The river record's declared reasons are not shown to visitors (2026-11-10).** Each declared
     river origin carries a reason, a confidence and a source, kept as data in the page. The map does
     not yet show them, for example in the Rivers key. Whether it should is a front-end question for
     Mark.

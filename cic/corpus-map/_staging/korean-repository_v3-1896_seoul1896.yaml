@@ -1,0 +1,13 @@
+source_file: korean-repository_v3-1896_seoul1896.txt
+assignments:
+- row_id: korean-repository_v3-1896_seoul1896--the-korean-repository-vol-iii-seoul-1896
+  work: The Korean Repository, vol. III (Seoul 1896)
+  author: korean-repository
+  locus: the whole volume; add 11 to OCR line numbers for this file's own
+  atlas_ids:
+  - the-missionary-movement-s-native-churches-seramp
+  role: tradition
+  confidence: needs-ruling
+  note: The missionaries' own monthly, dated issue by issue, from the first decade of the Protestant mission.
+    Its own voice. Korea is not named in this entry, and the eras 8-9 sweep holds Korea 1884-1906 (AP15)
+    for named lines, so the shelf waits on that.

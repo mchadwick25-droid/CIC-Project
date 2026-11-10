@@ -22926,3 +22926,315 @@ queue:
     verified_by: "Library thread worker, 2026-11-10: metadata read, title page read, Legenda located at OCR line 94566, djvu.txt byte count 6,206,733 equal to listed size"
     status: not-yet-downloaded
 
+
+  - title: What I Believe, by Leon Tolstoi, translated from the Russian by Constantine Popoff
+    author: Leo Tolstoy; Constantine Popoff (translator)
+    translator: Leo Tolstoy; Constantine Popoff (translator)
+    year: '1885'
+    world: russian-church-synodal-century
+    why: 'ME-20, the Tolstoyans: a dated text of Tolstoy''s own before 1906.'
+    url: https://archive.org/details/whatibelieve00tolsuoft
+    rights_basis: 'Public Domain (pd-us-by-date: published 1885); the archive.org record carries no rights
+      field, so the imprint date is the basis'
+    verified_by: 'Library thread, 2026-11-10: archive.org metadata read, title page read, the wanted passages
+      located, djvu.txt fetched, byte count 456,785 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: tolstoy_what-i-believe_popoff1885.txt
+  - title: The Kingdom of God is Within You, translated from the Russian of Count Leo Tolstoy by Constance
+      Garnett, in two volumes, vol. I
+    author: Leo Tolstoy; Constance Garnett (translator)
+    translator: Leo Tolstoy; Constance Garnett (translator)
+    year: '1894'
+    world: russian-church-synodal-century
+    why: ME-20, the Tolstoyans.
+    url: https://archive.org/details/kingdomgodiswit00tolsgoog
+    rights_basis: 'Public Domain (pd-us-by-date: published 1894); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread, 2026-11-10: archive.org metadata read, title page read, the wanted passages
+      located, djvu.txt fetched, byte count 398,663 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: tolstoy_kingdom-of-god-is-within-you-v1_garnett1894.txt
+  - title: Zhivotnaia kniga dukhobortsev (Materialy k istorii i izucheniiu russkogo sektantstva i raskola,
+      vypusk II), zapisal i sobral Vladimir Bonch-Bruevich
+    author: The Dukhobors (oral psalms and catechism); Vladimir Bonch-Bruevich (recorder and editor)
+    translator: The Dukhobors (oral psalms and catechism); Vladimir Bonch-Bruevich (recorder and editor)
+    year: '1909'
+    world: russian-church-synodal-century
+    why: 'ME-6, the spiritual Christians: the Dukhobors'' own texts.'
+    url: https://archive.org/details/zhivotnaya_kniga_dukhobortsev
+    rights_basis: 'Public Domain (pd-us-by-date: published 1909); the archive.org record carries the Creative
+      Commons Public Domain Mark 1.0 (creativecommons.org/publicdomain/mark/1.0/)'
+    verified_by: 'Library thread, 2026-11-10: archive.org metadata read, title page read, the wanted passages
+      located, djvu.txt fetched, byte count 1,352,050 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: dukhobors_zhivotnaia-kniga-dukhobortsev-rus_bonch-bruevich1909.txt
+  - title: A Short Account of the Unitarian Church of Hungary, compiled under the auspices of Right Rev.
+      Bishop Ferencz
+    author: The Unitarian Church of Hungary, under its bishop, Jozsef Ferencz
+    translator: The Unitarian Church of Hungary, under its bishop, Jozsef Ferencz
+    year: '1907'
+    world: anti-trinitarian-currents-servetus-polish-brethr
+    why: RV-7, the Transylvanian Unitarians 1660-1906; and the living mark graded none (Open-Gaps 162).
+    url: https://archive.org/details/ashortaccountun00feregoog
+    rights_basis: 'Public Domain (pd-us-by-date: published 1907); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread, 2026-11-10: archive.org metadata read, title page read, the wanted passages
+      located, djvu.txt fetched, byte count 54,641 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: ferencz_short-account-of-the-unitarian-church-of-hungary_1907.txt
+  - title: 'Unitarius kis tukor, vagyis az Unitarius egyhaz tortenete, hitelvei ... irta Ferencz Jozsef,
+      a kolozsvari unitarius egyhazkozseg lelkesze s foiskolai hittanar (ket fuggelek: az unitarius egyhaz
+      puspokeinek nevsora es tiszti nevtara 1875-re)'
+    author: Jozsef Ferencz, pastor of the Unitarian congregation of Kolozsvar and professor at its college
+    translator: Jozsef Ferencz, pastor of the Unitarian congregation of Kolozsvar and professor at its college
+    year: '1875'
+    world: anti-trinitarian-currents-servetus-polish-brethr
+    why: RV-7, the Transylvanian Unitarians.
+    url: https://archive.org/details/unitriuskistkrv00feregoog
+    rights_basis: 'Public Domain (pd-us-by-date: published 1875); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread, 2026-11-10: archive.org metadata read, title page read, the wanted passages
+      located, djvu.txt fetched, byte count 196,288 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: ferencz_unitarius-kis-tukor-hun_1875.txt
+  - title: 'Histoire de la Georgie depuis l''antiquite jusqu''au XIXe siecle, traduite du georgien par M.
+      Brosset, Ire partie: Histoire ancienne, jusqu''en 1469 de J.-C.'
+    author: The Georgian chronicles (Kartlis Tskhovreba); Marie-Felicite Brosset (translator)
+    translator: The Georgian chronicles (Kartlis Tskhovreba); Marie-Felicite Brosset (translator)
+    year: '1849'
+    world: georgian-christianity
+    why: 'The Georgian chronicle text (batch 1: the Brosset file on the Golden Age shelf was only the Introduction
+      volume).'
+    url: https://archive.org/details/histoiredelagor01fgoog
+    rights_basis: 'Public Domain (pd-us-by-date: published 1849); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread, 2026-11-10: archive.org metadata read, title page read, the wanted passages
+      located, djvu.txt fetched, byte count 2,851,980 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: kartlis-tskhovreba_histoire-de-la-georgie-pt1-histoire-ancienne-fra_brosset1849.txt
+  - title: Christianity in Travancore, by G. T. Mackenzie
+    author: G. T. Mackenzie
+    translator: G. T. Mackenzie
+    year: '1901'
+    world: church-of-the-east-chaldean-consolidation
+    why: AP7, the Catholic St Thomas Christians and the Chaldean body at Thrissur, 1815-1906.
+    url: https://archive.org/details/ChristianityInTravancore
+    rights_basis: 'Public Domain (pd-us-by-date: published 1901); the archive.org record carries the Creative
+      Commons Public Domain Mark 1.0 (creativecommons.org/publicdomain/mark/1.0/)'
+    verified_by: 'Library thread, 2026-11-10: archive.org metadata read, title page read, the wanted passages
+      located, djvu.txt fetched, byte count 310,405 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: mackenzie_christianity-in-travancore_1901.txt
+  - title: Histoire de l'Eglise de Coree, precedee d'une introduction sur l'histoire, les institutions,
+      la langue, les moeurs et coutumes coreennes, par Ch. Dallet, de la Societe des Missions-Etrangeres,
+      tome premier
+    author: Charles Dallet, of the Society of Foreign Missions (Missions-Etrangeres), from the letters and
+      memoirs of the Korea mission
+    translator: Charles Dallet, of the Society of Foreign Missions (Missions-Etrangeres), from the letters
+      and memoirs of the Korea mission
+    year: '1874'
+    world: korean-catholic-origins
+    why: AP15, Korea 1884/1886-1906 (Catholic side).
+    url: https://archive.org/details/histoiredelgli01dall
+    rights_basis: 'Public Domain (pd-us-by-date: published 1874); the archive.org record carries no rights
+      field, so the imprint date is the basis'
+    verified_by: 'Library thread, 2026-11-10: archive.org metadata read, title page read, the wanted passages
+      located, djvu.txt fetched, byte count 1,782,688 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: dallet_histoire-de-l-eglise-de-coree-t1-fra_1874.txt
+  - title: Histoire de l'Eglise de Coree, precedee d'une introduction sur l'histoire, les institutions,
+      la langue, les moeurs et coutumes coreennes, par Ch. Dallet, de la Societe des Missions-Etrangeres,
+      tome second
+    author: Charles Dallet, of the Society of Foreign Missions (Missions-Etrangeres), from the letters and
+      memoirs of the Korea mission
+    translator: Charles Dallet, of the Society of Foreign Missions (Missions-Etrangeres), from the letters
+      and memoirs of the Korea mission
+    year: '1874'
+    world: korean-catholic-origins
+    why: AP15, Korea 1884/1886-1906 (Catholic side).
+    url: https://archive.org/details/histoiredelgli02dall
+    rights_basis: 'Public Domain (pd-us-by-date: published 1874); the archive.org record carries no rights
+      field, so the imprint date is the basis'
+    verified_by: 'Library thread, 2026-11-10: archive.org metadata read, title page read, the wanted passages
+      located, djvu.txt fetched, byte count 1,831,611 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: dallet_histoire-de-l-eglise-de-coree-t2-fra_1874.txt
+  - title: The Korean Repository, volume III, January-December 1896
+    author: Edited by F. Ohlinger, H. G. Appenzeller and G. H. Jones (the host record); many pieces by J.
+      S. Gale
+    translator: Edited by F. Ohlinger, H. G. Appenzeller and G. H. Jones (the host record); many pieces
+      by J. S. Gale
+    year: '1896'
+    world: the-missionary-movement-s-native-churches-seramp
+    why: AP15, Korea 1884/1886-1906 (Protestant side).
+    url: https://archive.org/details/koreanrepositor00unkngoog
+    rights_basis: 'Public Domain (pd-us-by-date: published 1896); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread, 2026-11-10: archive.org metadata read, title page read, the wanted passages
+      located, djvu.txt fetched, byte count 1,565,263 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: korean-repository_v3-1896_seoul1896.txt
+  - title: 'The Call of Korea: Political, Social, Religious, by Horace G. Underwood'
+    author: Horace G. Underwood, Presbyterian missionary in Korea
+    translator: Horace G. Underwood, Presbyterian missionary in Korea
+    year: '1908'
+    world: the-missionary-movement-s-native-churches-seramp
+    why: AP15, Korea (Protestant side).
+    url: https://archive.org/details/callofkoreapolit00unde
+    rights_basis: 'Public Domain (pd-us-by-date: published 1908); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread, 2026-11-10: archive.org metadata read, title page read, the wanted passages
+      located, djvu.txt fetched, byte count 357,884 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: underwood_call-of-korea_1908.txt
+  - title: Life and Work of Samuel Marsden (born July 28th, 1764; died May 12th, 1838)
+    author: J. B. Marsden (biographer), printing Samuel Marsden's letters and journals
+    translator: J. B. Marsden (biographer), printing Samuel Marsden's letters and journals
+    year: '1913'
+    world: restoration-georgian-church-of-england
+    why: AP12, Christianity in colonial Australia and New Zealand.
+    url: https://archive.org/details/lifeworkofsamuel00mars
+    rights_basis: 'Public Domain (pd-us-by-date: published 1913); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread, 2026-11-10: archive.org metadata read, title page read, the wanted passages
+      located, djvu.txt fetched, byte count 447,994 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: marsden_life-and-work-of-samuel-marsden_jb-marsden1913.txt
+  - title: 'Pravoslavnaia missiia v Kitae za 200 let ee sushchestvovaniia: opyt tserkovno-istoricheskogo
+      issledovaniia po arkhivnym dokumentam, vypusk 1 (1685-1745)'
+    author: Hieromonk Nikolai (Adoratskii), inspector of the Kherson theological school
+    translator: Hieromonk Nikolai (Adoratskii), inspector of the Kherson theological school
+    year: '1887'
+    world: russian-church-synodal-century
+    why: AP11, the Russian Ecclesiastical Mission in Peking.
+    url: https://archive.org/details/pravoslavnajamissijavkitaeza200leteesusc7
+    rights_basis: 'Public Domain (pd-us-by-date: published 1887); the archive.org record carries no rights
+      field, so the imprint date is the basis'
+    verified_by: 'Library thread, 2026-11-10: archive.org metadata read, title page read, the wanted passages
+      located, djvu.txt fetched, byte count 528,525 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: adoratskii_pravoslavnaia-missiia-v-kitae-vyp1-1685-1745-rus_1887.txt
+  - title: 'Pravoslavnaia missiia v Kitae za 200 let ee sushchestvovaniia: opyt tserkovno-istoricheskogo
+      issledovaniia po arkhivnym dokumentam, vypusk 2 (1745-1808)'
+    author: Hieromonk Nikolai (Adoratskii), inspector of the Kherson theological school
+    translator: Hieromonk Nikolai (Adoratskii), inspector of the Kherson theological school
+    year: '1887'
+    world: russian-church-synodal-century
+    why: AP11, the Russian Ecclesiastical Mission in Peking.
+    url: https://archive.org/details/pravoslavnajamissijavkitaeza200leteesusc22
+    rights_basis: 'Public Domain (pd-us-by-date: published 1887); the archive.org record carries no rights
+      field, so the imprint date is the basis'
+    verified_by: 'Library thread, 2026-11-10: archive.org metadata read, title page read, the wanted passages
+      located, djvu.txt fetched, byte count 689,167 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: adoratskii_pravoslavnaia-missiia-v-kitae-vyp2-1745-1808-rus_1887.txt
+  - title: Description topographique, physique, civile, politique et historique de la partie francaise de
+      l'isle Saint-Domingue, par M. L. E. Moreau de Saint-Mery, tome premier
+    author: M. L. E. Moreau de Saint-Mery
+    translator: M. L. E. Moreau de Saint-Mery
+    year: '1797'
+    world: colonial-latin-american-devotional-catholicism
+    why: LA8-6, Haiti before 1804.
+    url: https://archive.org/details/descriptiontopog00more
+    rights_basis: 'Public Domain (pd-us-by-date: published 1797); the archive.org record carries no rights
+      field, so the imprint date is the basis'
+    verified_by: 'Library thread, 2026-11-10: archive.org metadata read, title page read, the wanted passages
+      located, djvu.txt fetched, byte count 2,550,505 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: moreau-de-saint-mery_description-partie-francaise-saint-domingue-t1-fra_1797.txt
+  - title: Description topographique, physique, civile, politique et historique de la partie francaise de
+      l'isle Saint-Domingue, par M. L. E. Moreau de Saint-Mery, tome second
+    author: M. L. E. Moreau de Saint-Mery
+    translator: M. L. E. Moreau de Saint-Mery
+    year: '1797'
+    world: colonial-latin-american-devotional-catholicism
+    why: LA8-6, Haiti before 1804.
+    url: https://archive.org/details/descriptiontopog01more
+    rights_basis: 'Public Domain (pd-us-by-date: published 1797); the archive.org record carries no rights
+      field, so the imprint date is the basis'
+    verified_by: 'Library thread, 2026-11-10: archive.org metadata read, title page read, the wanted passages
+      located, djvu.txt fetched, byte count 2,620,111 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: moreau-de-saint-mery_description-partie-francaise-saint-domingue-t2-fra_1797.txt
+  - title: The Spirit of Missions, vol. XXXIX, December 1874 (the Domestic and Foreign Missionary Society
+      of the Protestant Episcopal Church)
+    author: The Board of Missions of the Protestant Episcopal Church; J. Theodore Holly, for the Haiti report
+    translator: The Board of Missions of the Protestant Episcopal Church; J. Theodore Holly, for the Haiti
+      report
+    year: December
+    world: the-missionary-movement-s-native-churches-seramp
+    why: LA8-6, Haiti after 1860 (Holly).
+    url: https://archive.org/details/episcopalian_1874-12_39
+    rights_basis: 'Public Domain (pd-us-by-date: published 1874); the archive.org record carries no rights
+      field, so the imprint date is the basis'
+    verified_by: 'Library thread, 2026-11-10: archive.org metadata read, title page read, the wanted passages
+      located, djvu.txt fetched, byte count 252,606 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: spirit-of-missions_v39-1874-12-haiti-triennial-report_1874.txt
+  - title: Apuntes que para su uso personal y para el regimen de la diocesis escribio y tenia siempre a
+      la vista el arzobispo de Santiago de Cuba (hoy de Trajanopolis) D. Antonio Maria Claret y Clara, with
+      an appendix of the replies of the prelates to whom a copy was sent
+    author: Antonio Maria Claret y Clara, archbishop of Santiago de Cuba
+    translator: Antonio Maria Claret y Clara, archbishop of Santiago de Cuba
+    year: '1863'
+    world: nineteenth-century-latin-american-catholicism
+    why: LA8-8, Cuba and Puerto Rico under Spain.
+    url: https://archive.org/details/bub_gb_OdyB3c1jmuUC
+    rights_basis: 'Public Domain (pd-us-by-date: published 1863); the archive.org record carries the Creative
+      Commons Public Domain Mark 1.0 (creativecommons.org/publicdomain/mark/1.0/)'
+    verified_by: 'Library thread, 2026-11-10: archive.org metadata read, title page read, the wanted passages
+      located, djvu.txt fetched, byte count 377,521 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: claret_apuntes-regimen-de-la-diocesis-santiago-de-cuba-spa_1863.txt
+  - title: Vida admirable y muerte preciosa del venerable hermano Pedro de S. Joseph Betancur, fundador
+      de la Compania Bethlemitica en las Yndias Occidentales, compuesta por el doctor D. Francisco Antonio
+      de Montalvo
+    author: Francisco Antonio de Montalvo, of Seville, of the Order of St Anthony of Vienne (the title page)
+    translator: Francisco Antonio de Montalvo, of Seville, of the Order of St Anthony of Vienne (the title
+      page)
+    year: '1683'
+    world: colonial-latin-american-devotional-catholicism
+    why: LA8-9, the Bethlemites.
+    url: https://archive.org/details/bub_gb_L_RJmewk6jMC
+    rights_basis: 'Public Domain (pd-us-by-date: published 1683); the archive.org record carries the Creative
+      Commons Public Domain Mark 1.0 (creativecommons.org/publicdomain/mark/1.0/)'
+    verified_by: 'Library thread, 2026-11-10: archive.org metadata read, title page read, the wanted passages
+      located, djvu.txt fetched, byte count 797,503 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: montalvo_vida-admirable-pedro-de-san-jose-betancur-spa_1683.txt
+  - title: 'Historia Bethlehemitica: vida exemplar y admirable del venerable siervo de Dios Pedro de San
+      Joseph Betancur, fundador del regular instituto de Bethlehen en las Indias Occidentales, escrita por
+      el P. Fr. Joseph Garcia de la Concepcion'
+    author: Joseph Garcia de la Concepcion, Discalced Franciscan, for the Bethlemite procurator general
+      Fr. Miguel de la Concepcion
+    translator: Joseph Garcia de la Concepcion, Discalced Franciscan, for the Bethlemite procurator general
+      Fr. Miguel de la Concepcion
+    year: '1723'
+    world: colonial-latin-american-devotional-catholicism
+    why: LA8-9, the Bethlemites.
+    url: https://archive.org/details/historiabethlehe00guat
+    rights_basis: 'Public Domain (pd-us-by-date: published 1723); the archive.org record reads ''NOT IN
+      COPYRIGHT'''
+    verified_by: 'Library thread, 2026-11-10: archive.org metadata read, title page read, the wanted passages
+      located, djvu.txt fetched, byte count 2,152,977 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: garcia-de-la-concepcion_historia-bethlehemitica-spa_1723.txt
+  - title: Compendio de la historia de la ciudad de Guatemala, tomo II, escrito por el br. D. Domingo Juarros
+    author: Domingo Juarros, presbyter (the title page)
+    translator: Domingo Juarros, presbyter (the title page)
+    year: '1809'
+    world: colonial-latin-american-devotional-catholicism
+    why: LA8-10 (Cancuc, 1712) and LA8-9 (the Bethlemites).
+    url: https://archive.org/details/compendiodelahis00juar
+    rights_basis: 'Public Domain (pd-us-by-date: published 1809); the archive.org record carries no rights
+      field, so the imprint date is the basis'
+    verified_by: 'Library thread, 2026-11-10: archive.org metadata read, title page read, the wanted passages
+      located, djvu.txt fetched, byte count 1,566,648 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: juarros_compendio-historia-ciudad-de-guatemala-t2-spa_1809.txt
+  - title: Memorias para la historia del antiguo Reyno de Guatemala, tomo segundo
+    author: Francisco de Paula Garcia Pelaez, archbishop of Guatemala
+    translator: Francisco de Paula Garcia Pelaez, archbishop of Guatemala
+    year: '1852'
+    world: colonial-latin-american-devotional-catholicism
+    why: LA8-10, Cancuc.
+    url: https://archive.org/details/memoriasparalahi02drfr
+    rights_basis: 'Public Domain (pd-us-by-date: published 1852); the archive.org record reads ''NOT IN
+      COPYRIGHT'''
+    verified_by: 'Library thread, 2026-11-10: archive.org metadata read, title page read, the wanted passages
+      located, djvu.txt fetched, byte count 897,700 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: garcia-pelaez_memorias-historia-reyno-de-guatemala-t2-spa_1852.txt

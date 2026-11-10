@@ -1,0 +1,15 @@
+source_file: mackenzie_christianity-in-travancore_1901.txt
+assignments:
+- row_id: mackenzie_christianity-in-travancore_1901--mackenzie-christianity-in-travancore-1901
+  work: Mackenzie, Christianity in Travancore (1901)
+  author: mackenzie
+  locus: the Rokos episode at OCR lines 6096-6116 and the Mellus mission at 6158-6182; add 11 to OCR line
+    numbers for this file's own
+  atlas_ids:
+  - church-of-the-east-chaldean-consolidation
+  role: context
+  confidence: provisional
+  note: A survey printed by the Travancore government press, near-contemporary for the Chaldean bishops
+    sent to Malabar in 1861 and 1874; it quotes Rokos's own signed letter. The view from outside. The
+    eras 8-9 sweep holds the Thrissur Chaldean body (AP7) for a dated text, with a link to this entry
+    for the bishops it sent. Clean English OCR.

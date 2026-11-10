@@ -64,6 +64,26 @@ works:
 
     '
   source_file: gage_english-american-new-survey-of-the-west-indias_1648.txt
+- row_id: garcia-de-la-concepcion_historia-bethlehemitica-spa_1723--garcia-de-la-concepcion-historia-bethlehemitica-1723
+  work: Garcia de la Concepcion, Historia Bethlehemitica (1723)
+  author: garcia-de-la-concepcion
+  locus: the three books from OCR line 1913; add 12 to OCR line numbers for this file's own
+  role: tradition
+  confidence: assigned
+  note: The Bethlemites' official history, commissioned by their procurator general, with
+    the order's Constitutions and their approval told in it. The order's own voice.
+  source_file: garcia-de-la-concepcion_historia-bethlehemitica-spa_1723.txt
+- row_id: garcia-pelaez_memorias-historia-reyno-de-guatemala-t2-spa_1852--garcia-pelaez-memorias-para-la-historia-del-antiguo-reyno-de-guatemala
+  work: Garcia Pelaez, Memorias para la historia del antiguo Reyno de Guatemala, tomo II (1852)
+  author: garcia-pelaez
+  locus: Chapter LXVIII at OCR lines 6955-7142; add 12 to OCR line numbers for this file's
+    own
+  role: context
+  confidence: provisional
+  note: The archbishop of Guatemala's archival history of the colonial kingdom, written 140
+    years after Cancuc. A later witness for this entry; the Spanish church's side of the rising,
+    not the movement's own voice.
+  source_file: garcia-pelaez_memorias-historia-reyno-de-guatemala-t2-spa_1852.txt
 - row_id: hansen_vita-mirabilis-et-mors-pretiosa-rosae-de-s-maria-lat_1664--vita-mirabilis-et-mors-pretiosa-rosae-de-s-maria-limensis
   work: Vita mirabilis et mors pretiosa Rosae de S. Maria Limensis (1664)
   author: hansen
@@ -89,6 +109,49 @@ works:
 
     '
   source_file: juana-ines-de-la-cruz_fama-y-obras-posthumas-spa_castorena1700.txt
+- row_id: juarros_compendio-historia-ciudad-de-guatemala-t2-spa_1809--juarros-compendio-de-la-historia-de-la-ciudad-de-guatemala-tomo-ii-180
+  work: Juarros, Compendio de la historia de la ciudad de Guatemala, tomo II (1809)
+  author: juarros
+  locus: the Bethlemites at OCR 10208-10485; Cancuc at 25115-25200; add 12 to OCR line numbers
+    for this file's own
+  role: tradition
+  confidence: provisional
+  note: A Guatemalan priest's history of his city and church, within this entry's window.
+    The church's own record, and the Spanish side's account of the Cancuc rising of 1712 (LA8-10,
+    held for sources), not the movement's own voice.
+  source_file: juarros_compendio-historia-ciudad-de-guatemala-t2-spa_1809.txt
+- row_id: montalvo_vida-admirable-pedro-de-san-jose-betancur-spa_1683--montalvo-vida-admirable-del-hermano-pedro-de-san-joseph-betancur-rome-
+  work: Montalvo, Vida admirable del hermano Pedro de San Joseph Betancur (Rome 1683)
+  author: montalvo
+  locus: the Life from about OCR line 87; add 12 to OCR line numbers for this file's own
+  role: tradition
+  confidence: assigned
+  note: The earliest Life of Pedro de San Jose Betancur, founder of the Bethlemite company
+    at Guatemala, written sixteen years after his death. Colonial devotional Catholicism's
+    own hagiography. The eras 8-9 sweep holds the Bethlemites (LA8-9) for a line in this entry.
+  source_file: montalvo_vida-admirable-pedro-de-san-jose-betancur-spa_1683.txt
+- row_id: moreau-de-saint-mery_description-partie-francaise-saint-domingue-t1-fra_1797--moreau-de-saint-mery-description-de-la-partie-francaise-de-saint-domin
+  work: Moreau de Saint-Mery, Description de la partie francaise de Saint-Domingue, tome 1
+    (1797)
+  author: moreau-de-saint-mery
+  locus: the parish-by-parish description; add 12 to OCR line numbers for this file's own
+  role: context
+  confidence: provisional
+  note: A colonial jurist's parish-by-parish description of French Saint-Domingue, with the
+    Capuchin, Jesuit and Dominican missions. The view from outside the church, written just
+    before 1804. The eras 8-9 sweep holds Haiti before 1804 (LA8-6) as a line in this entry.
+  source_file: moreau-de-saint-mery_description-partie-francaise-saint-domingue-t1-fra_1797.txt
+- row_id: moreau-de-saint-mery_description-partie-francaise-saint-domingue-t2-fra_1797--moreau-de-saint-mery-description-de-la-partie-francaise-de-saint-domin
+  work: Moreau de Saint-Mery, Description de la partie francaise de Saint-Domingue, tome 2
+    (1797)
+  author: moreau-de-saint-mery
+  locus: the parish-by-parish description; add 12 to OCR line numbers for this file's own
+  role: context
+  confidence: provisional
+  note: A colonial jurist's parish-by-parish description of French Saint-Domingue, with the
+    Capuchin, Jesuit and Dominican missions. The view from outside the church, written just
+    before 1804. The eras 8-9 sweep holds Haiti before 1804 (LA8-6) as a line in this entry.
+  source_file: moreau-de-saint-mery_description-partie-francaise-saint-domingue-t2-fra_1797.txt
 - row_id: motolinia_historia-de-los-indios-de-la-nueva-espana-spa_sanchez-garcia1914--historia-de-los-indios-de-la-nueva-espana-2
   work: Historia de los indios de la Nueva Espana (written 1536-1541)
   author: motolinia

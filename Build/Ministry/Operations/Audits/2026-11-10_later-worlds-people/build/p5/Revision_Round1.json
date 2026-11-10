@@ -1,0 +1,77 @@
+[
+ {
+  "id": "R5-01",
+  "action": "fixed",
+  "what": "Replaced the 1274 sentence with the given 1273 text; rows 61-62 replaced with rows at 7199 and 7202 (and 7202-7203); sourcing sentence added; Paris rows added (R5-13)."
+ },
+ {
+  "id": "R5-02",
+  "action": "fixed",
+  "what": "Replaced the letter gloss with the given text; sourcing changed as given; rows added for dictate/order, five years, before returning, city, in his name, signature, agreed."
+ },
+ {
+  "id": "R5-03",
+  "action": "fixed",
+  "what": "Row on 'he agreed' now cites lines 73371-73372 with '& fufcept Beprecationem sMius' (the real lines; the review's 73370-73371 are off by one); signature row at 73371 added."
+ },
+ {
+  "id": "R5-04",
+  "action": "fixed",
+  "what": "Jerome's line now attributed to Eusebius in sourcing, longDescription and legacy; rows 5, 34, 43 widened to 53981-53982 with the full clause."
+ },
+ {
+  "id": "R5-05",
+  "action": "fixed",
+  "what": "Replaced with the given text; row 66 sentence and lines updated."
+ },
+ {
+  "id": "R5-06",
+  "action": "fixed",
+  "what": "Replaced with the given text; row quote widened to the full clause at 6889-6890."
+ },
+ {
+  "id": "R5-07",
+  "action": "fixed",
+  "what": "Replaced with the given text; row quote widened to 12307-12309."
+ },
+ {
+  "id": "R5-08",
+  "action": "fixed",
+  "what": "Replaced with the given text; rows added at 6147 and 6153-6154."
+ },
+ {
+  "id": "R5-09",
+  "action": "fixed",
+  "what": "Legacy replaced with the given text; rows added for respect, defender against the Persians, and the curopalates."
+ },
+ {
+  "id": "R5-10",
+  "action": "fixed",
+  "what": "Persuaded/put his name text applied in longDescription and sourcing; 'speak of or teach' in longDescription and why; rows replaced."
+ },
+ {
+  "id": "R5-11",
+  "action": "fixed",
+  "what": "Entry now says a synod under Sergius confirmed the Ecthesis in 638 (relationsSummary, why, sourcing; relationsSummary split into short sentences for readability); rows tied to 63221 and 71325."
+ },
+ {
+  "id": "R5-12",
+  "action": "fixed",
+  "what": "Shelf jargon replaced with the given wording; last sentence replaced with the given alternative; shelf row reworded."
+ },
+ {
+  "id": "R5-13",
+  "action": "fixed",
+  "what": "Added Paris rows (7153, 7196) and the 649 row (63586)."
+ },
+ {
+  "id": "R5-14",
+  "action": "fixed",
+  "what": "Counting-rule row now cites the Decision-Log rulings as given."
+ },
+ {
+  "id": "R5-15",
+  "action": "fixed",
+  "what": "relationsSummary now reads 'He was emperor from 610 to 641, as this church's age began.'"
+ }
+]

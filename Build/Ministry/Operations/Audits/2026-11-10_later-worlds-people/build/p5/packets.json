@@ -1,0 +1,443 @@
+[
+ {
+  "name": "Pamphilus",
+  "aliases": [
+   "Pamphile",
+   "Pamphili",
+   "Pamphilus",
+   "Πάμφιλος"
+  ],
+  "final_row": {
+   "cid": "C045",
+   "name": "Pamphilus",
+   "home": {
+    "id": "alexandria-catechetical",
+    "name": "Alexandrian Catechetical / Christian-Platonist Tradition"
+   },
+   "dates": "died 309 (martyred at Caesarea). The translator's notice also says he was jailed from late 307.",
+   "dates_source": "anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml:16876-16886",
+   "own_words": "Two works held. (a) 'Fragments of Pamphilus (exposition on the Acts)' (anf06 div2 6.9); the anf06 notice says many ascribe it to him and others to Euthalius, so it is of disputed authorship and does not count under Answer C. (b) Rufinus's Latin of the 'Apology for Origen' (npnf203, Book 1 only survives). Eusebius calls it a work 'written by us and Pamphilus' (npnf201 line 36974), a jointly written work, which Answer C counts; Jerome, writing against Rufinus, says Pamphilus wrote nothing except some short letters to friends (npnf203 lines 53978-53986) and admits he earlier accepted the Apology.",
+   "party_in_own_right": "Yes. The sources treat him as a presbyter of Caesarea, founder of its library, Origen's defender and a martyr.",
+   "founder_of": null,
+   "counted_traditions": [
+    {
+     "id": "imperial-juridical-christianity",
+     "name": "Imperial and Juridical Christianity",
+     "clean": 6,
+     "quote": {
+      "file": "npnf201_eusebius-church-history-life-of-constantine.xml",
+      "line": 44791,
+      "text": "Pamphilus, a presbyter, who was the great glory of the parish of Cæsarea"
+     },
+     "census_name": "Imperial and Juridical Christianity",
+     "start": 312
+    },
+    {
+     "id": "hieronymian-ascetic-literary",
+     "name": "Hieronymian Ascetic-Literary Christianity",
+     "clean": 6,
+     "quote": {
+      "file": "npnf203_theodoret-jerome-gennadius-rufinus.xml",
+      "line": 53982,
+      "text": "Pamphilus wrote nothing except some short letters to his friends"
+     },
+     "census_name": "Hieronymian Ascetic-Literary Christianity",
+     "start": 382
+    }
+   ],
+   "home_citation": {
+    "file": "npnf201_eusebius-church-history-life-of-constantine.xml",
+    "line": 47068,
+    "text": "is time to describe the great and celebrated spectacle of Pamphilus,"
+   },
+   "why": "Pamphilus was a presbyter at Caesarea in Palestine who built a great Christian library and copied Origen's works. He was imprisoned in 307 and martyred in 309. Eusebius took his surname 'Pamphili' from him. Later worlds name him mainly in the quarrel between Jerome and Rufinus over whether he really wrote the defence of Origen.",
+   "recommendation": "include",
+   "reason": "The count passes. Whether the jointly written Apology for Origen counts as his own words is Mark's call: Eusebius says it was written with Pamphilus, and only Jerome, as Rufinus's opponent, denies it. The Acts fragments are of disputed authorship and do not count. Hold until Mark rules.",
+   "doubts": "Home: the only shelf holding a Pamphilus work as role tradition is alexandria-catechetical (provisional, 'assigned to the entry whose tradition he carried'). His life was in Caesarea, and the Palestinian pre-Constantinian entry (c. 185-312) fits his dates; Mark should choose. The Palestine shelf holds Eusebius's Martyrs of Palestine, which I used for the home citation. Counted traditions: the Eusebius passages sit on the imperial-juridical shelf (c. 312-451) though written by his disciple Eusebius, so they are close to the home voice. The Hieronymian passage is Jerome (Apology) repeating Eusebius's remark that Pamphilus wrote only letters. Namesakes: 'Eusebius Pamphili' is Eusebius, and Pamphilus is also a pseudonym in the Zurich Letters; the input notes say these were excluded. All twelve consolidated refs name Pamphilus of Caesarea, lie inside shelved loci and are distinct. Four of the six Imperial passages are Eusebius, his pupil and fellow-writer, close to the home voice; the count is valid under the census-date rule.",
+   "passes": true,
+   "question": "own_words",
+   "revision_log": [
+    "Reason rewritten to put the Apology question to Mark (joint work per Eusebius, denied by Jerome) and to name both works, the Acts fragments and the Apology, instead of 'his one named work'; own_words rewritten the same way.",
+    "No change needed to the Imperial passages; doubts now note that four of six are Eusebius and close to the home voice, which is valid under the census-date rule.",
+    "Remark about unused candidates.json refs dropped; doubts now say all twelve consolidated refs were checked."
+   ]
+  },
+  "home_record": {
+   "id": "alexandria-catechetical",
+   "atlasId": "I.2",
+   "era": 1,
+   "name": "Alexandrian Catechetical / Christian-Platonist Tradition",
+   "dates": "c. 150–400 CE",
+   "start": 150,
+   "end": 400,
+   "region": "Alexandria, Egypt",
+   "placeLabel": "Alexandria · Egypt",
+   "modernCountries": [
+    {
+     "country": "Egypt",
+     "countryId": "Q79",
+     "place": "Alexandria",
+     "placeId": "Q87",
+     "pleiadesId": "727070"
+    },
+    {
+     "country": "Egypt",
+     "countryId": "Q79",
+     "place": "Egypt",
+     "placeId": "Q79"
+    }
+   ],
+   "regions": [
+    "Africa",
+    "Mediterranean"
+   ],
+   "lane": "4 Africa",
+   "laneLabel": "Africa",
+   "laneOrder": 4,
+   "longDescription": "Alexandria was the ancient world's great city of libraries and lecture halls, and Christianity there took the same shape: a school. Teachers received inquirers, catechumens preparing for baptism, and educated pagans curious about this new philosophy, and walked them through Scripture as a text with a surface and a depth: the letter first, then the moral sense, then the spiritual meaning that opens onto the Logos himself.\n\nClement wrote for cultivated Greeks who wanted to know whether a Christian could keep his learning. Origen, who succeeded him, wrote commentaries across most of Scripture and produced the Hexapla, a six-column parallel edition of the Old Testament assembled to see what the Hebrew actually said — before falling out with his bishop and moving his teaching to Caesarea around 231. Historians still argue about how formal the whole thing was — whether Alexandria had one continuous institution with a succession of appointed heads, as Eusebius later described it, or a looser sequence of private Christian schools whose teachers happened to be remembered together. That tidy succession comes almost entirely from Eusebius: Clement's own writings never once describe a formal school that he headed.\n\nThe allegorical way of reading Scripture is this tradition's best-known signature, but it was never uncontested even at home. Nepos, a bishop out in the Egyptian countryside at Arsinoe, wrote a book refuting the allegorists and won real support for a plainer, literal reading — until Dionysius, by then bishop of Alexandria, spent three days in patient public conversation with Nepos's own community and brought them back around.",
+   "voices": [
+    "Pantaenus was the earliest teacher named in the tradition, remembered as a philosopher who had converted from Stoicism. Clement later paid tribute to a beloved teacher as 'the true, the Sicilian bee,' though Clement himself never names him, and the identification with Pantaenus comes only from Eusebius.",
+    "Clement of Alexandria wrote for educated Greeks, arguing that philosophy had been a tutor leading them toward Christ.",
+    "Origen dominates the surviving record here: a commentator, a textual scholar, and the first Christian to attempt a systematic account of the faith.",
+    "Dionysius of Alexandria studied under Origen and later became bishop, steering the Egyptian church through persecution and plague. Of Christians who nursed the dying while an epidemic emptied the city, he wrote: they 'held fast to each other and visited the sick fearlessly... and died with them most joyfully, taking the affliction of others, and drawing the sickness from their neighbors to themselves.'",
+    "Didymus the Blind lost his sight at four, yet taught in Alexandria for decades — later tradition remembers him as heading the school in its final generation, though no surviving primary account actually says so. Jerome studied under him. Didymus's own books vanished for over fifteen centuries, until a cache of them turned up by chance in the Egyptian sand near Tura in 1941; none has yet been translated into English, so his voice here comes only through his students.",
+    "Most of the ordinary people who filled these classrooms and congregations left no words of their own. Potamiaena, a young woman the church remembered by name for her courage under execution, is typical of what survives: her story, never her own words. Everything that survives here was written by the literate few — teachers, bishops, and their own students."
+   ],
+   "legacy": "The Alexandrian way of reading Scripture — that the text has depths beneath its surface, and that reading it is a lifelong formation rather than an act of information-gathering — became one of Christianity's most influential approaches, shaping how the East and West alike read Scripture for centuries.\n\nOrigen worked closely on texts. He set the standard for taking seriously the languages they were first written in. Basil of Caesarea and Gregory of Nazianzus studied his books. The two are credited with a book of pieces from his work, the Philocalia. Ambrose and Jerome read him closely too, even when they were careful about saying so.\n\nWhether the tradition also fed Egypt's monks is still argued. One modern reading finds Origen's ideas in Antony's letters. But Athanasius shows him as a boy raised at home by Christian parents, a boy who would not be taught to read.\n\nThe church of Alexandria later remembered the school in two minds. Its History of the Patriarchs was put together much later, and it condemns the books of Origen. Yet the same book honors Dionysius as patriarch.",
+   "people": [
+    {
+     "name": "Clement of Alexandria",
+     "year": 190,
+     "voice": 1,
+     "author": "clement_alex",
+     "held": "anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria--exhortation-to-the-heathen-protrepticus"
+    },
+    {
+     "person": "origen"
+    },
+    {
+     "name": "Dionysius of Alexandria",
+     "year": 247,
+     "voice": 3,
+     "author": "dionysius_gr",
+     "held": "anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--exegetical-fragments-of-dionysius-of-alexandria"
+    },
+    {
+     "person": "athanasius-of-alexandria"
+    },
+    {
+     "name": "Didymus the Blind",
+     "year": 350,
+     "voice": 4,
+     "author": "didymus-alexandria",
+     "held": "didymus-alexandria_de-trinitate-lat-grc_mingarelli1769--de-trinitate-on-the-trinity-three-books"
+    }
+   ]
+  },
+  "people_row_items": [],
+  "links_naming_person": [
+   {
+    "id": "alexandria-catechetical--palestinian-church-pre-constantinian",
+    "type": "influenced",
+    "concerns": "origen",
+    "matched": [
+     "Pamphilus"
+    ],
+    "note": "Eusebius says that Origen left Alexandria for Caesarea about 231. He left his school in the hands of Heraclas. Eusebius adds that Pamphilus, a martyr of his own day, built up a store of Origen's books."
+   },
+   {
+    "id": "palestinian-church-pre-constantinian--hieronymian-ascetic-literary",
+    "type": "influenced",
+    "concerns": "jerome",
+    "matched": [
+     "Pamphilus"
+    ],
+    "note": "Jerome says Pamphilus copied most of Origen's works by hand. The copies were still kept at Caesarea, in its library. Jerome owned twenty-five books in Pamphilus's own hand. In his book against Rufinus, he says he found the Apology for Origen by Eusebius in that same library."
+   }
+  ]
+ },
+ {
+  "name": "Bonaventure",
+  "aliases": [
+   "Bonaventura",
+   "Bonaventure",
+   "Bonaventure de Bagnoregio",
+   "Doctor Seraphicus",
+   "Giovanni di Fidanza"
+  ],
+  "final_row": {
+   "cid": "C151",
+   "name": "Bonaventure",
+   "home": {
+    "id": "the-franciscan-movement",
+    "name": "The Franciscan Movement"
+   },
+   "dates": "minister general of the Franciscans 1257-1274 (1257 from the census people row; 1274 from candidates.json last_year and Glassberger's note on his successor).",
+   "dates_source": "census the-franciscan-movement people row; glassberger_chronica-analecta-franciscana-v2-lat_1887.txt:7193",
+   "own_words": "none held. No corpus-map row names Bonaventure as an author. The census people row cites only a Latin sentence of his Itinerarium V quoted in McCann's note to the Cloud treatises (cloud-of-unknowing_cloud-and-other-treatises_mccann1924.txt:3990-3991), which is a quotation, not a held work. Glassberger reports letters and chapters under him, but that is the chronicler's report.",
+   "party_in_own_right": "Yes. Glassberger's chronicle records him as minister general who held chapters and issued orders, and later Franciscan sources treat him as a main figure.",
+   "founder_of": null,
+   "counted_traditions": [
+    {
+     "id": "catholic-church-ancien-regime",
+     "name": "The Catholic Church of the Ancien Régime",
+     "clean": 5,
+     "quote": {
+      "file": "liguori_glories-of-mary_1852.txt",
+      "line": 511,
+      "text": "St. Bonaventure declares that those who are devoted to publishing the glories of Mary, are secure of paradise"
+     },
+     "census_name": "The Catholic Church of the Ancien Régime",
+     "start": 1650
+    },
+    {
+     "id": "observant-reform-and-popular-preaching",
+     "name": "Observant Reform & Popular Preaching",
+     "clean": 11,
+     "quote": {
+      "file": "glassberger_chronica-analecta-franciscana-v2-lat_1887.txt",
+      "line": 6888,
+      "text": "Anno Domini 1269 frater Bonaventura, Generalis Minister, celebravit generale capitulum Assisii"
+     },
+     "census_name": "Observant Reform & Popular Preaching",
+     "start": 1368
+    }
+   ],
+   "home_citation": {
+    "file": "glassberger_chronica-analecta-franciscana-v2-lat_1887.txt",
+    "line": 6702,
+    "text": "ter Bonaventura, Generalis Minister, litteras de Lugduno domino Decano et toti Capi-"
+   },
+   "why": "Bonaventure was a Franciscan theologian who became minister general in 1257 and wrote the standard life of Francis. Liguori quotes him on Mary. Glassberger's Observant chronicle records his chapters and rulings.",
+   "recommendation": "hold",
+   "reason": "The Library holds none of his own writing, only a one-sentence Latin quotation in an editor's note and other men's reports of him. That fails Answer C.",
+   "doubts": "Home is clear (the Franciscan movement, 1209-1300), but Glassberger's text is mostly chronicler's prose and editorial notes from the Quaracchi editors, whose college is named for him. Liguori's 'St. Bonaventure declares' may cite works not by Bonaventure; I did not check what Liguori cites, so the passage names the person but may not match his own words. Input notes call the Fraticelli, Ancien-regime and some Scholz passages weak. If Mark counts Bullarium or other held documents issued in his name, I found none. The home quote is Glassberger's report of a letter he sent from Lyon, which is not his own words. No namesake found beyond Bonaventura Costacciaro and Bonaventura de Castro-Franco (Trent attendees), excluded in the notes.",
+   "passes": true,
+   "question": null,
+   "revision_log": [
+    "The reviewer raised no findings for this row; passes stays true and counts (5 and 11) are unchanged. The hold rests on the own-words test: no work of his is held anywhere in cic/texts."
+   ]
+  },
+  "home_record": {
+   "id": "the-franciscan-movement",
+   "atlasId": "IV.4",
+   "era": 5,
+   "name": "The Franciscan Movement",
+   "dates": "1209-1300",
+   "start": 1209,
+   "end": 1300,
+   "region": "Italy, then everywhere",
+   "placeLabel": "Italy and beyond",
+   "modernCountries": [
+    {
+     "country": "Italy",
+     "countryId": "Q38",
+     "place": "Italy",
+     "placeId": "Q38"
+    }
+   ],
+   "regions": [
+    "Mediterranean"
+   ],
+   "lane": "5 Latin West & Catholicism",
+   "laneLabel": "Latin West & Catholicism",
+   "laneOrder": 5,
+   "longDescription": "Francis of Assisi was a cloth merchant's son who gave away his inheritance, took the gospel's instructions to the apostles as a literal rule of life, and began preaching and caring for lepers in the towns of central Italy. By 1209 others had joined him and Pope Innocent III gave the group verbal approval. What made the movement new was that it did not withdraw behind walls — the friars owned nothing, begged, worked, and preached in the streets of the fast-growing commercial towns. Clare of Assisi built the movement's women's branch and wrote her own Form of Life, the first monastic rule known to have been composed by a woman, and a third order let married lay people live a version of the same discipline without leaving ordinary life. Within a generation of Francis's death in 1226 the order was quarreling bitterly over how literally his poverty had been meant. A fight that eventually split it into Spirituals and Conventuals, and that also produced repeated rewritings of his own life story, by his own brothers, within living memory of him.",
+   "voices": [
+    "Francis of Assisi — the founder, whose Testament, Rules and Canticle of the Creatures survive in his own words",
+    "Clare of Assisi — founder of the movement's women's branch and author of the first monastic rule known to be written by a woman",
+    "Brother Leo — Francis's companion and secretary, whose recollections preserve a counter-memory to the order's official portrait",
+    "Thomas of Celano — the first biographer, commissioned to write Francis's life and then commissioned to write it again",
+    "Bonaventure — minister general and theologian, whose authorized life of Francis was meant to settle the quarrel over him"
+   ],
+   "legacy": "The Franciscans are still one of the largest religious families in the world, in several branches, with a lay third order alongside them. Beyond the order, the movement changed the ordinary furniture of Western devotion: the Christmas crib, which Francis is credited with staging at Greccio in 1223. The Stations of the Cross, spread through Europe largely by Franciscans; an affectionate attention to Christ's humanity and to the poor; and a strand of Christian language about creation — the Canticle of the Creatures, with its brother sun and sister moon. That is quoted constantly to this day. The basilica raised over Francis's tomb at Assisi carries some of the most famous fresco cycles in European art.",
+   "people": [
+    {
+     "name": "Bonaventure",
+     "year": 1257,
+     "voice": 4,
+     "source": {
+      "work": "Bonaventure, Itinerarium mentis in Deum V, quoted in McCann's note to the Cloud treatises",
+      "file": "cic/texts/cloud-of-unknowing_cloud-and-other-treatises_mccann1924.txt",
+      "lines": "3990-3991",
+      "quote": "Quoniam autem contingit contemplari Deum non solum extra nos et intra nos"
+     }
+    }
+   ]
+  },
+  "people_row_items": [
+   {
+    "name": "Bonaventure",
+    "year": 1257,
+    "voice": 4,
+    "source": {
+     "work": "Bonaventure, Itinerarium mentis in Deum V, quoted in McCann's note to the Cloud treatises",
+     "file": "cic/texts/cloud-of-unknowing_cloud-and-other-treatises_mccann1924.txt",
+     "lines": "3990-3991",
+     "quote": "Quoniam autem contingit contemplari Deum non solum extra nos et intra nos"
+    }
+   }
+  ],
+  "links_naming_person": [
+   {
+    "id": "cistercian-monasticism--the-english-mystics-and-devout",
+    "type": "influenced",
+    "concerns": null,
+    "matched": [
+     "Bonaventura"
+    ],
+    "note": "Richard Rolle, the Yorkshire hermit who died in 1349, quotes 'S. Bernard' on fasting and keeping watch. Walter Hilton's Scale of Perfection quotes Bernard too. In 1914 Evelyn Underhill named Bernard as one of the three masters who shaped Rolle most."
+   },
+   {
+    "id": "canons-regular-victorine-school--the-franciscan-movement",
+    "type": "influenced",
+    "concerns": null,
+    "matched": [
+     "Bonaventure"
+    ],
+    "note": "Bonaventure, the Franciscan friar and teacher, wrote a Journey of the Mind into God. It turns on a pattern of three that Richard of St Victor had used: outside us, within us and above us. In 1924 Justin McCann, who edited The Cloud of Unknowing, called Bonaventure 'a disciple of Richard' in his teaching on prayer."
+   }
+  ]
+ },
+ {
+  "name": "Heraclius",
+  "aliases": [
+   "Eraclio",
+   "Heraclius",
+   "Heraclius Augustus",
+   "Herakleios",
+   "Héraclius"
+  ],
+  "final_row": {
+   "cid": "C111",
+   "name": "Heraclius",
+   "home": {
+    "id": "byzantine-imperial-church-heraclian-iconoclast",
+    "name": "The Byzantine Imperial Church (Heraclian & Iconoclast Eras)"
+   },
+   "dates": "610-641 (emperor). The Chronicle of Seert says he died in the year 992 of Alexander (OCR as printed; the reviewer reads it as 641)",
+   "dates_source": "candidates.json (year 610, last_year 641); chronicle-of-seert_histoire-nestorienne-seconde-partie-po13-ara-fra_scher1919.txt:34144",
+   "own_words": "none held. No work or issued document of his is on any shelf. The Ekthesis (638) is not held; the Library holds no text of it.",
+   "party_in_own_right": "The corpus treats the emperor as an actor: Maximus's Relatio and the Chronicle of Seert describe what he did in the Persian war and in church policy.",
+   "founder_of": null,
+   "counted_traditions": [
+    {
+     "id": "armenian-christianity-era-8",
+     "name": "Armenian Christianity - the Mekhitarists and the Catholic Patriarchate",
+     "clean": 5,
+     "quote": {
+      "file": "serpos_compendio-storico-nazione-armena-t2-ita_1786.txt",
+      "line": 16120,
+      "text": "per far piacere all' imperator Eraclio , ed a' Greci Curopalati . Questo in"
+     },
+     "census_name": "Armenian Christianity — the Mekhitarists and the Catholic Patriarchate",
+     "start": 1700
+    },
+    {
+     "id": "church-of-the-east-under-the-abbasids",
+     "name": "The Church of the East under the Abbasids",
+     "clean": 10,
+     "quote": {
+      "file": "chronicle-of-seert_histoire-nestorienne-seconde-partie-po13-ara-fra_scher1919.txt",
+      "line": 29471,
+      "text": "tautiuople et aurait la victoire, serait reconnu roi. Heraclius, fils du maitre"
+     },
+     "census_name": "The Church of the East under the Abbasids",
+     "start": 845
+    }
+   ],
+   "home_citation": {
+    "file": "maximus-confessor_relatio-motionis-disputatio-bizyae-grc-lat_migne-pg90.txt",
+    "line": 4338,
+    "text": "Heraclius imperalor in aurem ubi accepit, in metum"
+   },
+   "why": "Heraclius defeated Persia, brought the True Cross back to Jerusalem and promoted the Monothelite compromise. Armenian, Coptic and East Syrian writers all remember him, mostly for the war and for his church policy in Egypt.",
+   "recommendation": "hold",
+   "reason": "No writing or issued document of his is held, and the Library has no text of the Ekthesis, so the own-words test fails. The count itself passes on Armenian (5) and Church of the East (10); the Coptic count fails at 2 and is not used.",
+   "doubts": "(1) Armenian is 5 distinct passages after review. Issaverdens line 3831 is outside the shelf's locus (the shelf takes only the last third of that volume) and is dropped; Serpos 13744 is the same paragraph as 13736. The passages are Serpos 992, 13550, 13736, 13906 and 16120; Serpos 13833 and 14093 ('nipote di Eraclio') are further mentions. (2) Coptic fails at 2 distinct passages: lines 40635 and 40692 are in the Andronicus notice, and 40773, 40777 and 40826 are in the Benjamin notice. It is dropped from counted_traditions. (3) Church of the East under the Abbasids (10 passages in the Chronicle of Seert) looks sound and I read 29471, 30030 and 34034. (4) The home-citation line is from Maximus's Relatio in Latin. (5) The home movement 'Heraclian & Iconoclast Eras' is an era label, not a movement he founded. The Chronicle of Seert's year 992 of Alexander works out to 680/81, so that line does not support 641; the reign 610-641 is not sourced from a Library line.",
+   "passes": true,
+   "question": null,
+   "revision_log": [
+    "Reason rewritten: he passes the count on Armenian (5) and Church of the East (10) and fails on Coptic (2); the hold rests on the own-words ground alone.",
+    "Coptic description corrected in doubts: lines 40635 and 40692 are in the Andronicus notice and 40773, 40777 and 40826 in the Benjamin notice, so 2 passages; Coptic is dropped from counted_traditions.",
+    "Issaverdens 3831 dropped (outside the shelf's locus); Armenian quote replaced with Serpos 16120 (reviewer-added passage, the patriarch acting to please the emperor Heraclius).",
+    "Dates now cite the Chronicle of Seert line 34144; the printed year reads 992 of Alexander, and I state that as OCR with the reviewer's reading of 641, not as fact."
+   ]
+  },
+  "home_record": {
+   "id": "byzantine-imperial-church-heraclian-iconoclast",
+   "atlasId": "III.15",
+   "era": 4,
+   "name": "The Byzantine Imperial Church (Heraclian & Iconoclast Eras)",
+   "dates": "622-843",
+   "start": 622,
+   "end": 843,
+   "region": "Constantinople, Anatolia, the Greek East",
+   "placeLabel": "Constantinople · Anatolia and beyond",
+   "modernCountries": [
+    {
+     "country": "Turkey",
+     "countryId": "Q43",
+     "place": "Constantinople",
+     "placeId": "Q16869",
+     "pleiadesId": "520998"
+    },
+    {
+     "country": "Turkey",
+     "countryId": "Q43",
+     "place": "Anatolia",
+     "placeId": "Q51614",
+     "pleiadesId": "837"
+    }
+   ],
+   "regions": [
+    "Asia Minor"
+   ],
+   "lane": "3 Greek East & Orthodoxy",
+   "laneLabel": "Greek East & Orthodoxy",
+   "laneOrder": 3,
+   "longDescription": "This is the imperial church of the empire's worst century and a half. Heraclius recovered the True Cross from Persia in 630 and within a decade had lost Syria, Palestine and Egypt to the Arab armies. His government's attempt to hold the remaining eastern Christians together with a compromise formula — that Christ had two natures but only one will — was pushed as state policy and resisted by a monk, Maximus, who was tried, had his tongue and right hand cut off, and died in exile. Twenty years later a council at Constantinople condemned the formula and vindicated him. Then came iconoclasm: emperors from Leo III onward removed and destroyed religious images, a council of 338 bishops endorsed the policy in 754, the Council of Nicaea reversed it in 787, a second imperial iconoclasm followed, and only in 843 was the matter closed for good. Through all of it the same institution — palace, patriarchate, councils — kept running, which is why this era looks so different depending on whether you stand with the court or with the monasteries.",
+   "voices": [
+    "Heraclius — the emperor whose reign opened with the recovery of the True Cross and closed with the loss of the eastern provinces",
+    "Maximus the Confessor — the monk who refused the imperial compromise on Christ's will, was mutilated for it, and was vindicated by a council twenty years after his death",
+    "Pope Martin I — the bishop of Rome arrested for the same refusal and exiled to the Crimea, where he died",
+    "Leo III and Constantine V — the emperors who made the destruction of religious images imperial policy",
+    "Patriarch Tarasios — under whom the Council of Nicaea restored the icons in 787",
+    "Patriarch Methodios — who, with the empress Theodora, ended iconoclasm for good in 843"
+   ],
+   "legacy": "The same institution continued as the Byzantine church of the Macedonian era and through that into the Orthodox churches of today. Its decisions are still binding for most of Christianity. The ruling of the Third Council of Constantinople that Christ has a human will as well as a divine one, and the Second Council of Nicaea's defense of religious images, are both counted among the seven ecumenical councils by Orthodox and Catholics alike, and the canons issued at Constantinople in 692 still shape Orthodox church law. The argument is also still visible in the buildings. In Hagia Eirene in Istanbul the apse carries the plain cross that iconoclast-era decorators set where a figure would otherwise have gone.",
+   "people": [
+    {
+     "name": "Maximus the Confessor",
+     "year": 628,
+     "voice": 1,
+     "author": "maximus-confessor",
+     "held": "maximus-confessor_relatio-motionis-disputatio-bizyae-grc-lat_migne-pg90--relatio-motionis-and-disputatio-bizyae"
+    },
+    {
+     "name": "Patriarch Tarasios",
+     "year": 784,
+     "voice": 4,
+     "source": {
+      "work": "Acts of the Second Council of Nicaea, session I (NPNF 2.14)",
+      "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+      "lines": "38659-38660",
+      "quote": "whole sacred gathering yields glory and thanks to God for this confession of yours"
+     }
+    }
+   ]
+  },
+  "people_row_items": [],
+  "links_naming_person": [
+   {
+    "id": "byzantine-imperial-church-justinianic--byzantine-imperial-church-heraclian-iconoclast",
+    "type": "continued as",
+    "concerns": null,
+    "matched": [
+     "Heraclius"
+    ],
+    "note": "The patriarchate of Constantinople ran on through the reign of Heraclius. Sergius was its patriarch when Heraclius was crowned in 610. The council of 681 names Sergius, and after him Pyrrhus, Paul and Peter, 'who died bishops of this God-preserved city'."
+   }
+  ]
+ }
+]

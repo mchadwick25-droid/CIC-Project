@@ -1,0 +1,14 @@
+source_file: ferencz_short-account-of-the-unitarian-church-of-hungary_1907.txt
+assignments:
+- row_id: ferencz_short-account-of-the-unitarian-church-of-hungary_1907--bishop-ferencz-a-short-account-of-the-unitarian-church-of-hungary-1907
+  work: Bishop Ferencz, A Short Account of the Unitarian Church of Hungary (1907)
+  author: ferencz
+  locus: the whole booklet; add 11 to OCR line numbers for this file's own
+  atlas_ids:
+  - anti-trinitarian-currents-servetus-polish-brethr
+  role: tradition
+  confidence: needs-ruling
+  note: 'The Transylvanian Unitarian church''s own account of itself, issued under its bishop. Its own
+    voice, but written in 1907, after this entry''s window (1517-1650): the eras 8-9 sweep holds the church
+    after the Polish exile (RV-7) as a lane 8 row or a named line closing this entry, so the shelf waits
+    on that ruling.'
