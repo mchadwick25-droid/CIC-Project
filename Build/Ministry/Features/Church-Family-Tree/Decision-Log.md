@@ -1178,7 +1178,7 @@ Greek East; the bridge from Latin West or the trunk.
 
 **Wanted, not added.** A sourced break link from the late-medieval Latin church to Wittenberg, and
 a "gave rise to" link from Caesarea to Armenia. Both are census changes under the link evidence
-standard (Open-Gaps 172).
+standard (Open-Gaps 173).
 
 **Checked.** `validate-census.mjs` with `--atlas` and `--tree` gives 0 errors. All 53 census tests
 pass. `atlas-check --edges-only` passes. The commentary and spelling checks are clean. The gap

@@ -282,6 +282,18 @@ works:
     the Slav flocks; provisional because his book is also the founding text of a national
     revival that belongs partly to later Balkan worlds.
   source_file: paisii-hilendarski_istoriia-slavianobolgarskaia-bul_ivanov1914.txt
+- row_id: papadopoulos-kerameus_analekta-hierosolymitikes-stachyologias-t4-grc_1897--papadopoulos-kerameus-analekta-iv-1897-the-jerusalem-patriarchate-s-ac
+  work: 'Papadopoulos-Kerameus, Analekta IV (1897): the Jerusalem patriarchate''s acts, 1670
+    on'
+  author: papadopoulos-kerameus
+  locus: Nektarios at about OCR line 592; the Brotherhood's acts from about 1139; add 12 to
+    OCR line numbers for this file's own
+  role: tradition
+  confidence: provisional
+  note: The Jerusalem patriarchate's and the Holy Sepulchre Brotherhood's own records under
+    Ottoman rule, dated from 1670. Within this entry's window. It also answers the Jerusalem
+    church after 450 (Open-Gaps 158). Second witness only.
+  source_file: papadopoulos-kerameus_analekta-hierosolymitikes-stachyologias-t4-grc_1897.txt
 - row_id: gedeon_kanonikai-diataxeis-v1-grc_1888--patriarchal-ordinances-letters-and-synodal-rulings-of
   work: Patriarchal ordinances, letters and synodal rulings of Constantinople, 1650-1821 (Gedeon,
     Kanonikai diataxeis I)

@@ -1350,7 +1350,24 @@ it, never by deleting it.
       fetched.
     - The Bell Part II ruling, as carried out: the row stays on the desert shelf as context, and on
       the Melitian shelf as tradition (Source-Library Decision-Log, 2026-11-10).
-172. **Descent links the river origins want (2026-11-10).** From "Where each river leaves its parent"
+172. **What the Library's third wants batch filled (2026-11-10).** For the earliest named gaps in
+    "Living traditions with no entry after a date" (2026-11-10). Each gap still needs a change order
+    to add its row; the Library supplies the sources. Full list:
+    `Build/Ministry/Features/Source-Library/CFT-Wants.md`.
+    - Sources now held: Rome 604-1049 (Liber Pontificalis, Duchesne); the Frankish church 888-1049
+      (Regino about 906, Flodoard 919-966); Benedictines after 604 (Cluny charters); Ireland after
+      1169 (the Four Masters 1172-1378, Thurles 1850); Wales after 1282 (the Welsh Bible 1588 and the
+      Prayer Book 1664); the Mozarabs after 1031 (the liturgy; Toledo deeds of the 12th-13th
+      centuries); Lerins (its charters from the 11th century; Barralis 1613); Antioch after 312 and the
+      Arabic Melkites (Paul of Aleppo, held); Jerusalem after 450 (Sophronius 634; the patriarchate's
+      acts from 1670; Dositheus, held); Georgia 1245-1917 (Brosset part II, 1857); the Judean desert
+      after 614 (Antiochus Strategos; George of Choziba, held).
+    - Not found: the Syriac Orthodox Church 1300-1915.
+    - Bears on "The Lerins entry says the abbey has stood since about 410" (2026-11-10): the
+      cartulary and Barralis date the house's life after 450.
+    - AP10 (Hermano Pule): Montero y Vidal 1895 summarises Apolinario's sworn declaration. ME-21
+      (Rabinowitz): six full-view Google Books items need a browser download.
+173. **Descent links the river origins want (2026-11-10).** From "Where each river leaves its parent"
     (Decision-Log, 2026-11-10). Each would let a census link, not a declared record, place a river.
     Each is a census change under the link evidence standard: sourced, reviewed, and given a data
     release. None is invented here.
@@ -1364,7 +1381,7 @@ it, never by deleting it.
       declared from Greek East as Contested until then.
     - The start of Syriac East, Greek East and Africa, each declared from the origin trunk. A census
       link from a first-century trunk movement would place them by lineage, if a source supports one.
-173. **The river record's declared reasons are not shown to visitors (2026-11-10).** Each declared
+174. **The river record's declared reasons are not shown to visitors (2026-11-10).** Each declared
     river origin carries a reason, a confidence and a source, kept as data in the page. The map does
     not yet show them, for example in the Rivers key. Whether it should is a front-end question for
     Mark.

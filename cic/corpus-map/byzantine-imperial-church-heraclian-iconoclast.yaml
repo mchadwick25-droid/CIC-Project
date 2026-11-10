@@ -64,6 +64,18 @@ works:
 
     '
   source_file: mansi_sacrorum-conciliorum-collectio-tomus-10-lat_welter-facsimile1901.txt
+- row_id: mansi_sacrorum-conciliorum-collectio-tomus-11-lat_welter-facsimile1901--sophronius-of-jerusalem-synodical-letter-634-as-read-at-constantinople
+  work: Sophronius of Jerusalem, Synodical Letter (634), as read at Constantinople III (Mansi
+    XI)
+  author: mansi
+  locus: OCR lines 44625-44660 and following; add 12 to OCR line numbers for this file's own
+  role: tradition
+  confidence: provisional
+  note: The patriarch of Jerusalem's own letter on taking office, 634, setting out the two
+    operations in Christ against the imperial compromise, read and accepted at the council
+    of 680-681. A document issued in his name, inside this entry's window. It also answers
+    the Jerusalem church after 450 (Open-Gaps 158). Second witness only.
+  source_file: mansi_sacrorum-conciliorum-collectio-tomus-11-lat_welter-facsimile1901.txt
 - row_id: maximus-confessor_relatio-motionis-disputatio-bizyae-grc-lat_migne-pg90--relatio-motionis-and-disputatio-bizyae
   work: Relatio Motionis and Disputatio Bizyae
   author: maximus-confessor

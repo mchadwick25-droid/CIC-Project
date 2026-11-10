@@ -123,3 +123,33 @@ does not give.
 
 Batch 3: ME-21 (Rabinowitz) by another route, the AP10 Spanish pass, and the first eras of
 Open-Gaps 158. Then remove the Pedalion row once the census pointer has moved.
+
+## 2026-11-10 — Church Family Tree wants, batch 3: the earliest named gaps
+
+**Done.** Twenty files vendored for thirteen of Open-Gaps 158's named gaps (the earliest, eras 3-6)
+and for AP10 (Hermano Pule). Four gaps are answered by texts already held: Paul of Aleppo for
+Antioch and the Arabic Melkites, Dositheus for Jerusalem, and George of Choziba for the Judean
+desert. Each host record was re-read and the title page read, and the byte count was matched to
+the host. Truncation was checked two ways: the full host text follows each header, and each
+volume's end was read where the OCR has one. File by file, with what each unblocks:
+`CFT-Wants.md`, batch 3.
+
+**Decided here.** A text that fills a named gap is shelved only where an existing entry covers
+its date of writing. Otherwise it is vendored and listed, and the shelf waits for the new entry.
+Putting it on the entry that ends before it would repeat the out-of-window fault found in
+Nikodemos. By that rule the two Ferencz rows from batch 2 (on the anti-Trinitarian entry,
+1517-1650) were wrong, and they are removed rather than patched. Batch 2's other `needs-ruling`
+rows (the Korean Repository, Underwood and Holly on the missionary-movement entry, 1793-1906;
+Marsden on the Restoration Church of England, 1660-1815) fall within their entries' windows and
+stay.
+
+**ME-21.** The six Google Books items are full view, but Google refuses this host's downloads (the
+Books API quota is zero, and the PDF and text routes return its "sorry" page). The ids are
+-L8pAAAAYAAJ, DBkHAAAAQAAJ and klEWGBQiW44C (Delitzsch, Documente, 1884-85), u5YtAAAAYAAJ (Neue
+Documente, with Rabinowitz's autobiography and sermons, 1887), r5YtAAAAYAAJ (Zwei Predigten, 1885)
+and nYotAAAAYAAJ (Bikure ta'anah, the Hebrew letters, 1885). Mark could download them in a browser
+and push them to `cic/texts/_intake/`.
+
+### Next action
+
+Batch 4, in a fresh session (handover: `HANDOVER-batch4.md` in this folder).
