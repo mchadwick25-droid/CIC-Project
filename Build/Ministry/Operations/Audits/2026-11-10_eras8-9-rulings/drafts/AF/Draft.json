@@ -1,0 +1,2407 @@
+{
+ "entries": [
+  {
+   "atlasId": "TBD",
+   "beyondFloor": false,
+   "status": "Pre-Survey Candidate",
+   "chip": "psc",
+   "glyph": "psc",
+   "overlayCurrent": false,
+   "c2": null,
+   "entry": null,
+   "documentedStories": [],
+   "people": [],
+   "reviewStatus": "AI-checked",
+   "id": "ethiopian-christianity-gondar-to-the-zemene-mesafint",
+   "era": 8,
+   "name": "Ethiopian Christianity — Gondar to the Zemene Mesafint",
+   "shortName": "Ethiopia at Gondar",
+   "informalName": "The Church under the Gondar Kings",
+   "dates": "1650-1855",
+   "start": 1650,
+   "end": 1855,
+   "region": "Ethiopia, Eritrea",
+   "placeLabel": "Ethiopia · Eritrea",
+   "modernCountries": [
+    {
+     "country": "Ethiopia",
+     "countryId": "Q115",
+     "place": "Ethiopia",
+     "placeId": "Q115"
+    },
+    {
+     "country": "Eritrea",
+     "countryId": "Q986",
+     "place": "Eritrea",
+     "placeId": "Q986"
+    }
+   ],
+   "regions": [
+    "Africa"
+   ],
+   "lane": "4 Africa",
+   "laneLabel": "Africa",
+   "laneOrder": 4,
+   "statusWord": "Researched — strong candidate",
+   "statusDescription": "Tiered Strong (Tier 1). It fills the two centuries between the end of the Jesuit mission and the rise of Tewodros II. Its window runs from 1650 to 1855. Not yet reviewed.",
+   "living": true,
+   "sourcing": "Almost every text read here is an outsider's. Ludolf wrote in 1682, Bruce in 1790 and Gobat in 1834. The royal chronicles in Ge'ez are the church's own court voice, but the copies found could not be opened. The voices of monks and lay people are thin.",
+   "floorNote": "No question. It is the same church as the entries on either side of it. No dated statement of its own from these years was read.",
+   "relationsSummary": "It carries on the church of the entry before it, which ends with the Jesuits gone. It carries into the church of Tewodros II. The abun came from the Coptic church in Egypt, as the Coptic entry of these years also shows.",
+   "why": "After the Jesuits left, Ethiopia gave up dealings with Europe. The church went on under its abun, who came from Egypt. Its monks quarrelled, and their chiefs often held more weight than the abun did.",
+   "teaser": "Ethiopia, 1650 to 1855 — a church that turned from Europe after the Jesuits left. It went on under its abuns, its monks and its councils.",
+   "longDescription": "By 1650 the Jesuits were gone. Hiob Ludolf, writing in 1682, says that Fasilides drove them out of all his lands, together with their patriarch. Ludolf adds that Europeans knew little more of the emperor after that, because he would have no more dealings with them.\n\nThe head of the church was the abun, and he came from Egypt. James Bruce, who was in Ethiopia in the early 1770s, calls him a Coptic monk raised in the desert of St Macarius. Bruce says people looked on the abun as the patriarch of their church, and that they knew little of the Coptic patriarch of Alexandria. He adds that the abun seldom understood the language of the country.\n\nThe monks held great weight. Bruce says the Itchege, the chief of the monks of Debra Libanos, mattered more than the abun in troubled times. He names the monks of Gojam, who followed St Eustathius, as the low church of Ethiopia, and says they leaned toward turmoil in matters of religion. Bruce was a hostile witness, and scholars debate how far to trust him.\n\nCouncils of clergy met when a new king took the throne or a new abun came from Egypt. Bruce tells of one in the reign of David. The head of the monks of Debra Libanos brought a complaint against three Catholic priests and their Ethiopian interpreter, Abba Gregorius. The council asked whether they accepted the Council of Chalcedon and the authority of Pope Leo. They said that they did, and the crowd cried out, \"Stone them.\" The missionaries were dragged to a place behind the church of Abbo and stoned to death.\n\nThe Catholic Encyclopedia tells of more stonings. It says three missionaries died this way in a public square at Gondar in 1752.\n\nThe article also says that in 1846 Rome made Abyssinia a vicariate. Rome gave it to the Lazarists. It says one of them, de Jacobus, stirred the jealousy of the clergy. These accounts are Catholic. They speak for the missionaries.\n\nThe Church Missionary Society had long turned its eyes toward Ethiopia. It sent Samuel Gobat and Christian Kugler into Egypt in 1826 to seek a way in. On 26 February 1830 Gobat left Adigrate, in Tigray, and set out for Gondar.\n\nGobat's journal also shows how the church settled a quarrel in Tigray. A letter of Kugler's tells that Girgis and the chief priest of Tigray, Guebra Mariam, came from Cairo. They brought the decision of the Coptic patriarch on the priests' quarrels. One priest, Guebra Messih, held that Christ had three births. On 28 September the dispute was settled in the presence of the Tigray ruler Sebagadis.\n\nIn its last decades this window is called the Zemene Mesafint, the era of the princes, when regional lords ruled and the kings of Gondar had little power. No source read for this entry describes those years.",
+   "voices": [
+    "Hiob Ludolf — a German scholar who wrote his history of Ethiopia in 1682 from the words of an Ethiopian, Abba Gregorius",
+    "James Bruce — a Scottish traveler at Gondar in the early 1770s, an outside witness whose reliability is debated",
+    "Samuel Gobat — the Church Missionary Society man whose journal of three years in Abyssinia came out in 1834",
+    "The Ethiopian clergy of these years speak only through outsiders: the council that tried the Catholic priests, and the priests of Tigray in Gobat's journal"
+   ],
+   "legacy": "The Ethiopian Orthodox Tewahedo Church of today is the same church, on the usual reading. The church of the next window still took its abun from Egypt.\n\nMuch of these two centuries is still untold here. The royal chronicles and the monks' own words are not yet read.",
+   "streams": [
+    "oriental-orthodox"
+   ],
+   "continuesAs": "ethiopian-christianity-tewodros-to-menelik",
+   "livingEvidence": {
+    "basis": "The same church, carried through the next two entries to the last of them. Its newest dated evidence sits on that last entry. It is graded CR (Contemporary-Reported) there, and none of it was read for this record.",
+    "descentConfidence": "Widely Accepted"
+   },
+   "peopleNote": "No one is shown. The Library holds no words of their own from the Ethiopian people this entry names."
+  },
+  {
+   "atlasId": "TBD",
+   "beyondFloor": false,
+   "status": "Pre-Survey Candidate",
+   "chip": "psc",
+   "glyph": "psc",
+   "overlayCurrent": false,
+   "c2": null,
+   "entry": null,
+   "documentedStories": [],
+   "people": [],
+   "reviewStatus": "AI-checked",
+   "id": "the-coptic-church-under-the-ottomans",
+   "era": 8,
+   "name": "The Coptic Church under the Ottomans: the Patriarchate and the Archons",
+   "shortName": "Copts under Ottomans",
+   "informalName": "The Patriarchate and the Archons",
+   "dates": "1517-1854",
+   "start": 1517,
+   "end": 1854,
+   "region": "Egypt",
+   "placeLabel": "Egypt",
+   "modernCountries": [
+    {
+     "country": "Egypt",
+     "countryId": "Q79",
+     "place": "Egypt",
+     "placeId": "Q79"
+    }
+   ],
+   "regions": [
+    "Africa"
+   ],
+   "lane": "4 Africa",
+   "laneLabel": "Africa",
+   "laneOrder": 4,
+   "statusWord": "Researched — strong candidate",
+   "statusDescription": "Tiered Strong (Tier 1). Its window runs from 1517, the Ottoman conquest, to 1854, where the entry on the Coptic revival begins. It starts in the era before the one it sits in. The years 1300 to 1517 are not yet told in any entry.",
+   "living": true,
+   "sourcing": "Moderate, and mostly from outsiders. Volney wrote in the 1780s and Lane in the 1830s. Butcher's study of 1897 tells the church's history. The Arabic History of the Patriarchs and the archons' own letters and deeds are not in the Library.",
+   "floorNote": "No question. It is the same church as the entries before and after it, which hold the ancient miaphysite confession. No dated statement of its own from these centuries was read.",
+   "relationsSummary": "It is the same Coptic church that the entries before and after it follow. Its patriarchs run in one numbered line through the Ottoman conquest of 1517. Its patriarch's rulings reached Ethiopia, and Rome set up a Catholic line among the Copts in 1741.",
+   "why": "Under Ottoman rule the Copts were a minority. Lay notables kept the land books and the money. They paid for churches and monasteries. The patriarch judged small cases.",
+   "teaser": "Egypt, 1517 to 1854 — a church under Ottoman rule, led by its patriarchs and by lay notables. They kept the government's books and paid for its churches.",
+   "longDescription": "In 1517 the Ottomans took Egypt. A list of the Coptic patriarchs, compiled by E. A. Wallis Budge and printed in 1928, runs on without a break through that year. It shows John XIII in office to 1524, and Gabriel VII from 1526 to 1569.\n\nVolney traveled in Egypt and Syria from 1783 to 1785. He says the Copts had become the keepers of the registers of the lands and tribes. He says that at Cairo they served as the government's stewards, secretaries and tax collectors. He writes that the Turks they served despised them, and the peasants they pressed hated them. Volney was no friend of the Copts.\n\nThese lay leaders are called archons. One was Ibrahim al-Jawhari, chief clerk of the finance office. Butcher says he was so well liked by Muslim and Christian that he escaped a persecution under Hassan Pasha in the 1780s. Through his influence the churches and monasteries could be restored, and he gave much land and money to the church.\n\nEdward Lane wrote his account of Egypt in the years 1833 to 1835. He reckoned the Copts at about 150,000. He writes that the Coptic patriarch judged small cases among his people in Cairo.\n\nRome built a Catholic line among the Copts. In 1741 the pope made a Copt named Athanasius a metropolitan.\n\nHe lived in Jerusalem. Butcher calls him the first with real power in Egypt. He named a priest as his vicar there. Butcher wrote in 1897 and did not favor Rome's claim.\n\nThe patriarch also sent the abun to Ethiopia. A decision of his reached Tigray, as Gobat's journal shows.",
+   "voices": [
+    "Ibrahim al-Jawhari — chief clerk of the finance office, known only through Butcher's account",
+    "Athanasius — a Copt of Jerusalem, made the first Catholic metropolitan with real power in Egypt in 1741",
+    "The Coptic patriarchs — a numbered line in Budge's list, with none speaking here in his own words"
+   ],
+   "legacy": "The Coptic Orthodox Church of today is the same church, on the usual reading. The next entry begins with the patriarch Cyril IV in 1854.\n\nMuch of these centuries is still untold here. The Arabic History of the Patriarchs is not yet in the Library.",
+   "streams": [
+    "oriental-orthodox"
+   ],
+   "continuesAs": "coptic-revival-under-cyril-iv",
+   "livingEvidence": {
+    "basis": "The same church, carried into the next entry and on to the twentieth-century revival. Its newest dated evidence sits on that revival's entry. It is graded CR (Contemporary-Reported) there. Only one item of it was read: a study of Habib Girgis, published in 2017.",
+    "descentConfidence": "Widely Accepted"
+   },
+   "peopleNote": "No one is shown. The Library holds no words of their own from the people this entry names."
+  },
+  {
+   "atlasId": "TBD",
+   "beyondFloor": false,
+   "status": "Pre-Survey Candidate",
+   "chip": "psc",
+   "glyph": "psc",
+   "overlayCurrent": false,
+   "c2": null,
+   "entry": null,
+   "documentedStories": [],
+   "people": [],
+   "reviewStatus": "AI-checked",
+   "id": "kongo-christianity-after-1650",
+   "era": 8,
+   "name": "Kongo Christianity after 1650",
+   "shortName": "Kongo after 1650",
+   "informalName": "The Capuchin Century and the Kongolese Lay Church",
+   "dates": "1650-1881",
+   "start": 1650,
+   "end": 1881,
+   "region": "Kingdom of Kongo",
+   "placeLabel": "Kingdom of Kongo",
+   "modernCountries": [],
+   "regions": [
+    "Africa"
+   ],
+   "lane": "4<->5 bridge (Africa / Latin West)",
+   "laneLabel": "Africa / Latin West — bridge",
+   "laneOrder": 4.5,
+   "statusWord": "Researched — strong candidate",
+   "statusDescription": "Tiered Strong (Tier 1) for about 1650 to 1720, where Capuchin eyewitnesses are in the Library. Later years rest on thinner sources, and the entry says so. Its window runs from 1650 to 1881. Not yet reviewed.",
+   "living": false,
+   "sourcing": "Good for the first half and thin for the middle. Two Capuchins are read here: Carli in 1671 and Cavazzi in 1687. Two more, Merolla and Zucchelli, are in the Library but were not read for this entry. Almost every text is a missionary's. Bentley, a Baptist writing in 1900, covers the end. Kongolese letters of the period are not in the Library.",
+   "floorNote": "No question. It is the Catholic Church in Kongo, as in the entry before it.",
+   "relationsSummary": "It carries on the church of King Afonso I, which the entry before it follows to 1650. The Antonian movement of 1704 to 1706 falls inside it. A Baptist station came to San Salvador in 1879 and Portuguese priests in 1881.",
+   "why": "Kongo had been Christian for well over a century in 1650. Capuchin friars came to serve it. Their own books show baptized adults and children brought for baptism, and places that priests rarely reached.",
+   "teaser": "The Kingdom of Kongo, 1650 to 1881 — a Christian people served by Capuchin friars. Priests were few in many places. Baptists and Portuguese priests came to the old capital in 1879 and 1881.",
+   "longDescription": "In the late 1660s two Capuchin friars, Dionigi Carli and Michelangelo Guattini, served in Bamba, in Kongo. Carli's book came out in 1671. He writes that a headman sent word through the village to bring the children for baptism, because the adults were all baptized. The people called the friar \"Ngamga,\" and Carli adds that they put a word after it to honor him.\n\nGiovanni Antonio Cavazzi was a Capuchin. He printed his history of Kongo, Matamba and Angola in 1687. He writes that priests rarely came to remote places to keep the law of Christ in force. The people there still took pride in it.\n\nCavazzi tells of the queen Njinga, whom he calls queen of the Jaga. He says she turned her back on the true law and joined the Jaga. He says that for twenty-eight years she followed a way of life he calls the most beastly of all. Her later return to the church is not shown in the text read here.\n\nThe Antonian movement of Dona Beatriz Kimpa Vita, from 1704 to 1706, falls inside this window. John Thornton's study of 1998 treats it, and how far it grew from the older church rests on that one study.\n\nAlmost nothing was read for the years from about 1720 to 1879. Many Kongolese Christians then had few or no priests, on the usual account.\n\nBentley's list dates the Baptist station at San Salvador to 1879. The Portuguese priests there first came in 1881. Bentley judged from what he heard that the people were about evenly split between the priests and the Baptists.",
+   "voices": [
+    "Dionigi Carli — a Capuchin whose book of 1671 tells of baptisms in Bamba",
+    "Giovanni Antonio Cavazzi — a Capuchin whose history of 1687 tells of Kongo, Matamba and Angola",
+    "Njinga — whom Cavazzi calls queen of the Jaga, known only through his hostile account",
+    "W. Holman Bentley — a Baptist whose book of 1900 tells of San Salvador"
+   ],
+   "legacy": "The people of San Salvador were split between two missions, as Bentley shows.\n\nThis entry holds no recent evidence about Kongo's Christians today.",
+   "peopleNote": "No one is shown. The Library holds the friars' books, but no words of their own from Kongo's Christians in these years."
+  },
+  {
+   "atlasId": "TBD",
+   "beyondFloor": false,
+   "status": "Pre-Survey Candidate",
+   "chip": "psc",
+   "glyph": "psc",
+   "overlayCurrent": false,
+   "c2": null,
+   "entry": null,
+   "documentedStories": [],
+   "people": [],
+   "reviewStatus": "AI-checked",
+   "id": "the-dutch-reformed-church-at-the-cape",
+   "era": 8,
+   "name": "The Dutch Reformed Church at the Cape",
+   "shortName": "Dutch Reformed Cape",
+   "informalName": "The Settlers' Church of the Cape",
+   "dates": "1652-1906",
+   "start": 1652,
+   "end": 1906,
+   "region": "South Africa",
+   "placeLabel": "South Africa",
+   "modernCountries": [],
+   "regions": [
+    "Africa"
+   ],
+   "lane": "6 Protestant & Evangelical",
+   "laneLabel": "Protestant & Evangelical",
+   "laneOrder": 6,
+   "statusWord": "Researched — strong candidate",
+   "statusDescription": "Tiered Strong (Tier 1). Its window runs from the settlers' landing in 1652 to 1906. South Africa has no other entry before 1960. Not yet reviewed.",
+   "living": false,
+   "sourcing": "Moderate. The main source read is John McCarter's history of 1869, a friendly account. Synod acts, Andrew Murray's own works and Dutch and Afrikaans church histories were not read. The voices of slaves and Khoikhoi members are thin.",
+   "floorNote": "No question. McCarter lists its standards as the Heidelberg Catechism, the Belgic Confession and the Canons of Dort.",
+   "relationsSummary": "Its standards came from the Netherlands, among them the Canons of Dort. It began as the Company's church at Table Bay. The Trek of the 1830s took many of its people inland, and new churches grew beyond the colony.",
+   "why": "The Dutch East India Company's settlers landed at Table Bay in 1652. Slaves were baptized in the church from the 1660s. It held its first synod in 1824, under the eye of the government. It grew through the Trek and the Burgers case in the civil court.",
+   "teaser": "South Africa, 1652 to 1906 — the settlers' church of the Cape, from slave baptisms at Table Bay to the synod of 1824 and the courtroom of 1865.",
+   "longDescription": "On 6 April 1652 three Dutch ships dropped anchor in Table Bay with a small band of settlers. John McCarter, writing in 1869, says the Company that sent them did not mean to found a colony in the modern sense.\n\nMcCarter names van Arckel as the first minister. On his arrival in 1665 he baptized eight children, on their owners' promise to bring them up in the fear of the Lord. The church books record the baptisms of 1,121 slave children and forty-six adults between 1665 and 1731.\n\nMcCarter reports a rule of 1683 that a slave received into the church was free at once, and says many were freed this way. He names no source for the rule, and this entry has not checked it.\n\nIn 1688, McCarter says, about 150 French refugees came to the Cape. He says their descendants now number at least 200,000.\n\nThe church held its first synod in 1824. By then it had thirteen congregations.\n\nThe government sent two men to sit in. Every decision went to the governor to approve.\n\nSome ministers wanted a book of hymns sung beside the Psalms, and part of the people opposed it. McCarter says a group called the Doppers formed a kind of sect inside the church, and has since become a separate body.\n\nMcCarter says a frontier war in 1835 brought long-growing discontent to a crisis, and many farmers decided to leave the colony. In the Transvaal, he counts three religious parties.\n\nIn the 1860s the church's commission suspended a minister, T. F. Burgers. His case came before the Supreme Court of the Cape on 26 May 1865. Andrew Murray the younger was summoned as moderator of the synod.\n\nThis entry does not yet tell how the church came to divide into white and coloured churches. That story waits on sources not yet read.",
+   "voices": [
+    "John McCarter — a friendly historian of the church, writing in 1869",
+    "Van Arckel — the first minister, who baptized eight children in 1665",
+    "Andrew Murray the younger — summoned as moderator of the synod in the Burgers case of 1865",
+    "T. F. Burgers — the minister suspended by the church's commission"
+   ],
+   "legacy": "The Dutch Reformed Church exists today. This entry holds no recent evidence of it, and it stops at 1906.",
+   "streams": [
+    "reformed-calvinist"
+   ],
+   "peopleNote": "No one is shown. The Library holds no words of their own from the people this entry names."
+  },
+  {
+   "atlasId": "TBD",
+   "beyondFloor": false,
+   "status": "Pre-Survey Candidate",
+   "chip": "psc",
+   "glyph": "psc",
+   "overlayCurrent": false,
+   "c2": null,
+   "entry": null,
+   "documentedStories": [],
+   "people": [],
+   "reviewStatus": "AI-checked",
+   "id": "southern-african-mission-churches",
+   "era": 9,
+   "name": "Southern African Mission Churches",
+   "shortName": "S. African missions",
+   "informalName": "Khoikhoi, Xhosa and Sotho Christianity",
+   "dates": "1737-1906",
+   "start": 1737,
+   "end": 1906,
+   "region": "South Africa, Lesotho",
+   "placeLabel": "South Africa · Lesotho",
+   "modernCountries": [],
+   "regions": [
+    "Africa"
+   ],
+   "lane": "6 Protestant & Evangelical",
+   "laneLabel": "Protestant & Evangelical",
+   "laneOrder": 6,
+   "statusWord": "Researched — strong candidate",
+   "statusDescription": "Tiered Strong (Tier 1) as an entry of its own. It gathers several mission societies' churches. Its window runs from 1737 to 1906. Not yet reviewed.",
+   "living": false,
+   "sourcing": "Good for the mission side and thin for the African side. Philip, Casalis and Chalmers all wrote as missionaries or as their friends. Tiyo Soga's letter reaches us only through Chalmers, and Ntsikana's hymn is not in the Library.",
+   "floorNote": "No question for the mainline mission churches named here. No dated statement of each sending church was read.",
+   "relationsSummary": "Missionaries of four societies worked here. This entry follows Schmidt's Moravian mission of 1737. It also follows the Xhosa and Sotho Christians. The settlers' Dutch Reformed Church is told in its own entry.",
+   "why": "The first Protestant mission in South Africa began with Georg Schmidt among the Khoikhoi in 1737. It was dropped for nearly fifty years and then taken up again. Xhosa and Sotho Christians such as Ntsikana and Tiyo Soga then took their place beside the missionaries.",
+   "teaser": "Southern Africa, 1737 to 1906. Mission churches grew among the Khoikhoi, the Xhosa and the Sotho.",
+   "longDescription": "McCarter calls the Moravians' work at the Cape the earliest South African mission. George Schmidt sailed for the Cape in 1737 and by September lived at Baviaans Kloof, now Genadendal. He could not learn the Khoikhoi language and spoke through an interpreter. At the end of 1740 he wrote that his congregation had thirty-two people, and that fifteen of them read the New Testament in Dutch. In 1742, McCarter says, he baptized the first of them.\n\nThe Moravians' own account of 1771 says the brethren lived five years there. They opened a school. They baptized seven adults. Then \"certain circumstances\" ended the mission.\n\nMcCarter says the work lapsed for nearly fifty years. Then three Germans took it up again.\n\nJohn Philip wrote in 1828 about Dr Vanderkemp. He began his work among people who had risen against the farmers.\n\nHe says the other stations of his London mission grew out of Bethelsdorp.\n\nEugène Casalis was a missionary of the Paris Evangelical mission. He wrote of his first meeting with Moshoeshoe, whom he calls Moshesh, in 1833. He says the first days went to explaining why the missionaries had come. He writes that the people had long called their chief the Chief of the Mountain.\n\nJohn Chalmers wrote of Ntsikana in 1877. Ntsikana was the head man of a village. After the missionary Williams died, Chalmers says, Ntsikana kept up religious services with his people. Before his death, about the beginning of 1821, he told them to move to the station on the Gwali.\n\nChalmers also tells of Tiyo Soga, whom he calls the first ordained preacher of his race. On 23 July 1861 Soga wrote that he opened the service for the first stone of the Mgwali mission church with the great hymn of Ntsikana. Chalmers says the missionaries named in this part of his book were, with one exception, sent by the Glasgow Missionary Society.\n\nNtsikana's hymn is not yet in the Library, and Soga's own letters reach us only through Chalmers.",
+   "voices": [
+    "Georg Schmidt — the Moravian missionary whose letter of 1740 McCarter quotes",
+    "Ntsikana — a Xhosa village head man, known only through Chalmers",
+    "Tiyo Soga — the first ordained Xhosa minister, whose letter of 1861 survives in Chalmers's book",
+    "Moshoeshoe — the chief of the Basotho, whom Casalis calls Moshesh"
+   ],
+   "legacy": "Tiyo Soga's hymn of Ntsikana, sung at Mgwali in 1861, shows an African Christian song carried into a mission church. This entry stops at 1906 and holds no recent evidence of these churches.",
+   "peopleNote": "No one is shown. The Library holds none of their own words, apart from Soga's letter as Chalmers prints it."
+  }
+ ],
+ "fact_table": [
+  {
+   "entry": "ethiopian-christianity-gondar-to-the-zemene-mesafint",
+   "field": "longDescription",
+   "sentence": "By 1650 the Jesuits were gone. Hiob Ludolf, writing in 1682, says that Fasilides drove them out of all his lands, together with their patriarch.",
+   "file": "cic/texts/ludolf_new-history-of-ethiopia_jp1682.txt",
+   "lines": "10779-10780",
+   "quote": "Exterminated the Jesus, be cogether wich their Patriarch, our of all his Dominions"
+  },
+  {
+   "entry": "ethiopian-christianity-gondar-to-the-zemene-mesafint",
+   "field": "longDescription",
+   "sentence": "Ludolf adds that Europeans knew little more of the emperor after that, because he would have no more dealings with them.",
+   "file": "cic/texts/ludolf_new-history-of-ethiopia_jp1682.txt",
+   "lines": "10789",
+   "quote": "rainty concerning him, he refusing any farther Commerce"
+  },
+  {
+   "entry": "ethiopian-christianity-gondar-to-the-zemene-mesafint",
+   "field": "longDescription",
+   "sentence": "The head of the church was the abun, and he came from Egypt. James Bruce, who was in Ethiopia in the early 1770s, calls him a Coptic monk raised in the desert of St Macarius.",
+   "url": "https://archive.org/download/travelstodiscov03bruc/travelstodiscov03bruc_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/travelstodiscov03bruc.txt",
+   "quote": "a coptifh monk bred ia the defert of St Macarius"
+  },
+  {
+   "entry": "ethiopian-christianity-gondar-to-the-zemene-mesafint",
+   "field": "longDescription",
+   "sentence": "Bruce says people looked on the abun as the patriarch of their church, and that they knew little of the Coptic patriarch of Alexandria.",
+   "url": "https://archive.org/download/travelstodiscov03bruc/travelstodiscov03bruc_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/travelstodiscov03bruc.txt",
+   "quote": "looked upon as the patriarch of the Abyf-- finian church"
+  },
+  {
+   "entry": "ethiopian-christianity-gondar-to-the-zemene-mesafint",
+   "field": "longDescription",
+   "sentence": "He adds that the abun seldom understood the language of the country.",
+   "url": "https://archive.org/download/travelstodiscov03bruc/travelstodiscov03bruc_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/travelstodiscov03bruc.txt",
+   "quote": "As the Abuna very feldom underftands the language"
+  },
+  {
+   "entry": "ethiopian-christianity-gondar-to-the-zemene-mesafint",
+   "field": "longDescription",
+   "sentence": "The monks held great weight. Bruce says the Itchege, the chief of the monks of Debra Libanos, mattered more than the abun in troubled times.",
+   "url": "https://archive.org/download/travelstodiscov03bruc/travelstodiscov03bruc_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/travelstodiscov03bruc.txt",
+   "quote": "He is a man, in troublefome times, of much greater confequence than the Abuna."
+  },
+  {
+   "entry": "ethiopian-christianity-gondar-to-the-zemene-mesafint",
+   "field": "longDescription",
+   "sentence": "He names the monks of Gojam, who followed St Eustathius, as the low church of Ethiopia, and says they leaned toward turmoil in matters of religion.",
+   "url": "https://archive.org/download/travelstodiscov03bruc/travelstodiscov03bruc_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/travelstodiscov03bruc.txt",
+   "quote": "which may be called the Low Church of Abyfiinia."
+  },
+  {
+   "entry": "ethiopian-christianity-gondar-to-the-zemene-mesafint",
+   "field": "longDescription",
+   "sentence": "He names the monks of Gojam, who followed St Eustathius, as the low church of Ethiopia, and says they leaned toward turmoil in matters of religion.",
+   "url": "https://archive.org/download/travelstodiscov03bruc/travelstodiscov03bruc_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/travelstodiscov03bruc.txt",
+   "quote": "They are much inclined to tur- bulence in religious matters"
+  },
+  {
+   "entry": "ethiopian-christianity-gondar-to-the-zemene-mesafint",
+   "field": "longDescription",
+   "sentence": "Bruce was a hostile witness, and scholars debate how far to trust him.",
+   "record": "§3 AF-1 ev1 (V)",
+   "note": "the record says Bruce's reliability is itself debated [S]"
+  },
+  {
+   "entry": "ethiopian-christianity-gondar-to-the-zemene-mesafint",
+   "field": "longDescription",
+   "sentence": "Councils of clergy met when a new king took the throne or a new abun came from Egypt. Bruce tells of one in the reign of David.",
+   "url": "https://archive.org/download/travelstodiscov02bruc/travelstodiscov02bruc_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/travelstodiscov02bruc.txt",
+   "quote": "anew Abuna was come from Egypt"
+  },
+  {
+   "entry": "ethiopian-christianity-gondar-to-the-zemene-mesafint",
+   "field": "longDescription",
+   "sentence": "The head of the monks of Debra Libanos brought a complaint against three Catholic priests and their Ethiopian interpreter, Abba Gregorius.",
+   "url": "https://archive.org/download/travelstodiscov02bruc/travelstodiscov02bruc_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/travelstodiscov02bruc.txt",
+   "quote": "The It- chegué, or head of the monks of Debra Libanos, was ready with a complaint"
+  },
+  {
+   "entry": "ethiopian-christianity-gondar-to-the-zemene-mesafint",
+   "field": "longDescription",
+   "sentence": "The council asked whether they accepted the Council of Chalcedon and the authority of Pope Leo.",
+   "url": "https://archive.org/download/travelstodiscov02bruc/travelstodiscov02bruc_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/travelstodiscov02bruc.txt",
+   "quote": "Do you, or do you not, receive the council of * Chalcedon asa rule of faith"
+  },
+  {
+   "entry": "ethiopian-christianity-gondar-to-the-zemene-mesafint",
+   "field": "longDescription",
+   "sentence": "They said that they did, and the crowd cried out, \"Stone them.\"",
+   "url": "https://archive.org/download/travelstodiscov02bruc/travelstodiscov02bruc_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/travelstodiscov02bruc.txt",
+   "quote": "that they did believe pope Leo lawfully and > regularly pres fided at it"
+  },
+  {
+   "entry": "ethiopian-christianity-gondar-to-the-zemene-mesafint",
+   "field": "longDescription",
+   "sentence": "They said that they did, and the crowd cried out, \"Stone them.\"",
+   "url": "https://archive.org/download/travelstodiscov02bruc/travelstodiscov02bruc_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/travelstodiscov02bruc.txt",
+   "quote": "Stone them."
+  },
+  {
+   "entry": "ethiopian-christianity-gondar-to-the-zemene-mesafint",
+   "field": "longDescription",
+   "sentence": "The missionaries were dragged to a place behind the church of Abbo and stoned to death.",
+   "url": "https://archive.org/download/travelstodiscov02bruc/travelstodiscov02bruc_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/travelstodiscov02bruc.txt",
+   "quote": "dragged toa place behind-the church | of Abbo"
+  },
+  {
+   "entry": "ethiopian-christianity-gondar-to-the-zemene-mesafint",
+   "field": "longDescription",
+   "sentence": "The missionaries were dragged to a place behind the church of Abbo and stoned to death.",
+   "url": "https://archive.org/download/travelstodiscov02bruc/travelstodiscov02bruc_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/travelstodiscov02bruc.txt",
+   "quote": "where they were, according - to their fentence, ftoned to death"
+  },
+  {
+   "entry": "ethiopian-christianity-gondar-to-the-zemene-mesafint",
+   "field": "longDescription",
+   "sentence": "The Catholic Encyclopedia tells of more stonings. It says three missionaries died this way in a public square at Gondar in 1752.",
+   "url": "https://www.newadvent.org/cathen/01075e.htm",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/na_abyssinia.txt",
+   "quote": "More than a century later (1752), three other were stoned to death in a public square of Gondar."
+  },
+  {
+   "entry": "ethiopian-christianity-gondar-to-the-zemene-mesafint",
+   "field": "longDescription",
+   "sentence": "The article also says that in 1846 Rome made Abyssinia a vicariate. Rome gave it to the Lazarists.",
+   "url": "https://www.newadvent.org/cathen/01075e.htm",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/na_abyssinia.txt",
+   "quote": "In 1846, the Holy See divided Ethiopia into two Apostolic vicariates: that of Abyssinia, trusted to the Lazarists"
+  },
+  {
+   "entry": "ethiopian-christianity-gondar-to-the-zemene-mesafint",
+   "field": "longDescription",
+   "sentence": "It says one of them, de Jacobus, stirred the jealousy of the clergy.",
+   "url": "https://www.newadvent.org/cathen/01075e.htm",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/na_abyssinia.txt",
+   "quote": "the labors and successes of M. de Jacobus awakened the jealousy of the schismatic clergy"
+  },
+  {
+   "entry": "ethiopian-christianity-gondar-to-the-zemene-mesafint",
+   "field": "longDescription",
+   "sentence": "These accounts are Catholic. They speak for the missionaries.",
+   "record": "§3 AF-7",
+   "note": "record: no own-voice text read"
+  },
+  {
+   "entry": "ethiopian-christianity-gondar-to-the-zemene-mesafint",
+   "field": "longDescription",
+   "sentence": "The Church Missionary Society had long turned its eyes toward Ethiopia. It sent Samuel Gobat and Christian Kugler into Egypt in 1826 to seek a way in.",
+   "url": "https://archive.org/download/journalthreeyea01gobagoog/journalthreeyea01gobagoog_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/journalthreeyea01gobagoog.txt",
+   "quote": "The attention of the Church Missionary Society has for many years been directed toward that interesting country"
+  },
+  {
+   "entry": "ethiopian-christianity-gondar-to-the-zemene-mesafint",
+   "field": "longDescription",
+   "sentence": "The Church Missionary Society had long turned its eyes toward Ethiopia. It sent Samuel Gobat and Christian Kugler into Egypt in 1826 to seek a way in.",
+   "url": "https://archive.org/download/journalthreeyea01gobagoog/journalthreeyea01gobagoog_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/journalthreeyea01gobagoog.txt",
+   "quote": "were sent into Egypt in 1826, with the view of seeking the most convenient way of entering Abyssinia."
+  },
+  {
+   "entry": "ethiopian-christianity-gondar-to-the-zemene-mesafint",
+   "field": "longDescription",
+   "sentence": "On 26 February 1830 Gobat left Adigrate, in Tigray, and set out for Gondar.",
+   "url": "https://archive.org/download/journalthreeyea01gobagoog/journalthreeyea01gobagoog_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/journalthreeyea01gobagoog.txt",
+   "quote": "Feb. 26, 1830, I left Adigrate"
+  },
+  {
+   "entry": "ethiopian-christianity-gondar-to-the-zemene-mesafint",
+   "field": "longDescription",
+   "sentence": "Gobat's journal also shows how the church settled a quarrel in Tigray. A letter of Kugler's tells that Girgis and the chief priest of Tigray, Guebra Mariam, came from Cairo.",
+   "url": "https://archive.org/download/journalthreeyea01gobagoog/journalthreeyea01gobagoog_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/journalthreeyea01gobagoog.txt",
+   "quote": "They brought the decision of the Coptic Patriarch concerning their religious quarrels."
+  },
+  {
+   "entry": "ethiopian-christianity-gondar-to-the-zemene-mesafint",
+   "field": "longDescription",
+   "sentence": "They brought the decision of the Coptic patriarch on the priests' quarrels.",
+   "url": "https://archive.org/download/journalthreeyea01gobagoog/journalthreeyea01gobagoog_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/journalthreeyea01gobagoog.txt",
+   "quote": "They brought the decision of the Coptic Patriarch concerning their religious quarrels."
+  },
+  {
+   "entry": "ethiopian-christianity-gondar-to-the-zemene-mesafint",
+   "field": "longDescription",
+   "sentence": "One priest, Guebra Messih, held that Christ had three births.",
+   "url": "https://archive.org/download/journalthreeyea01gobagoog/journalthreeyea01gobagoog_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/journalthreeyea01gobagoog.txt",
+   "quote": "who held the opinion of three births of Christ"
+  },
+  {
+   "entry": "ethiopian-christianity-gondar-to-the-zemene-mesafint",
+   "field": "longDescription",
+   "sentence": "On 28 September the dispute was settled in the presence of the Tigray ruler Sebagadis.",
+   "url": "https://archive.org/download/journalthreeyea01gobagoog/journalthreeyea01gobagoog_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/journalthreeyea01gobagoog.txt",
+   "quote": "the dispute about Religion was regularly adjusted, in the presence of Dejasmat Sebagadis"
+  },
+  {
+   "entry": "ethiopian-christianity-gondar-to-the-zemene-mesafint",
+   "field": "longDescription",
+   "sentence": "In its last decades this window is called the Zemene Mesafint, the era of the princes, when regional lords ruled and the kings of Gondar had little power.",
+   "record": "§3 AF-1 What it holds",
+   "note": "the record names the Zemene Mesafint from 1769 [S]; the next window's text says the emperors were figureheads; no source read for this entry describes it"
+  },
+  {
+   "entry": "ethiopian-christianity-gondar-to-the-zemene-mesafint",
+   "field": "longDescription",
+   "sentence": "No source read for this entry describes those years.",
+   "record": "§3 AF-1 ev8",
+   "note": "Weld Blundell (1922) wanted, not found"
+  },
+  {
+   "entry": "ethiopian-christianity-gondar-to-the-zemene-mesafint",
+   "field": "sourcing",
+   "sentence": "Almost every text read here is an outsider's. Ludolf wrote in 1682, Bruce in 1790 and Gobat in 1834.",
+   "record": "§3 AF-1 ev1-4 (V)"
+  },
+  {
+   "entry": "ethiopian-christianity-gondar-to-the-zemene-mesafint",
+   "field": "sourcing",
+   "sentence": "The royal chronicles in Ge'ez are the church's own court voice, but the copies found could not be opened.",
+   "record": "§3 AF-1 ev5 (V-s)",
+   "note": "Guidi annals: lending-library copy only, not read"
+  },
+  {
+   "entry": "ethiopian-christianity-gondar-to-the-zemene-mesafint",
+   "field": "sourcing",
+   "sentence": "The voices of monks and lay people are thin.",
+   "record": "§3 AF-1 B1"
+  },
+  {
+   "entry": "ethiopian-christianity-gondar-to-the-zemene-mesafint",
+   "field": "relationsSummary",
+   "sentence": "It carries on the church of the entry before it, which ends with the Jesuits gone.",
+   "record": "§3 AF-1 overlap"
+  },
+  {
+   "entry": "ethiopian-christianity-gondar-to-the-zemene-mesafint",
+   "field": "relationsSummary",
+   "sentence": "It carries into the church of Tewodros II.",
+   "record": "§3 AF-1 overlap"
+  },
+  {
+   "entry": "ethiopian-christianity-gondar-to-the-zemene-mesafint",
+   "field": "relationsSummary",
+   "sentence": "The abun came from the Coptic church in Egypt, as the Coptic entry of these years also shows.",
+   "url": "https://archive.org/download/travelstodiscov03bruc/travelstodiscov03bruc_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/travelstodiscov03bruc.txt",
+   "quote": "a coptifh monk bred ia the defert of St Macarius"
+  },
+  {
+   "entry": "ethiopian-christianity-gondar-to-the-zemene-mesafint",
+   "field": "relationsSummary",
+   "sentence": "The abun came from the Coptic church in Egypt, as the Coptic entry of these years also shows.",
+   "url": "https://archive.org/download/journalthreeyea01gobagoog/journalthreeyea01gobagoog_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/journalthreeyea01gobagoog.txt",
+   "quote": "They brought the decision of the Coptic Patriarch concerning their religious quarrels."
+  },
+  {
+   "entry": "ethiopian-christianity-gondar-to-the-zemene-mesafint",
+   "field": "why",
+   "sentence": "After the Jesuits left, Ethiopia gave up dealings with Europe.",
+   "file": "cic/texts/ludolf_new-history-of-ethiopia_jp1682.txt",
+   "lines": "10789",
+   "quote": "rainty concerning him, he refusing any farther Commerce"
+  },
+  {
+   "entry": "ethiopian-christianity-gondar-to-the-zemene-mesafint",
+   "field": "why",
+   "sentence": "The church went on under its abun, who came from Egypt.",
+   "url": "https://archive.org/download/travelstodiscov03bruc/travelstodiscov03bruc_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/travelstodiscov03bruc.txt",
+   "quote": "a coptifh monk bred ia the defert of St Macarius"
+  },
+  {
+   "entry": "ethiopian-christianity-gondar-to-the-zemene-mesafint",
+   "field": "why",
+   "sentence": "Its monks quarrelled, and their chiefs often held more weight than the abun did.",
+   "url": "https://archive.org/download/travelstodiscov03bruc/travelstodiscov03bruc_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/travelstodiscov03bruc.txt",
+   "quote": "He is a man, in troublefome times, of much greater confequence than the Abuna."
+  },
+  {
+   "entry": "ethiopian-christianity-gondar-to-the-zemene-mesafint",
+   "field": "why",
+   "sentence": "Its monks quarrelled, and their chiefs often held more weight than the abun did.",
+   "url": "https://archive.org/download/travelstodiscov02bruc/travelstodiscov02bruc_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/travelstodiscov02bruc.txt",
+   "quote": "anew Abuna was come from Egypt"
+  },
+  {
+   "entry": "ethiopian-christianity-gondar-to-the-zemene-mesafint",
+   "field": "legacy",
+   "sentence": "The Ethiopian Orthodox Tewahedo Church of today is the same church, on the usual reading.",
+   "record": "§3 AF-1 Living"
+  },
+  {
+   "entry": "ethiopian-christianity-gondar-to-the-zemene-mesafint",
+   "field": "legacy",
+   "sentence": "The church of the next window still took its abun from Egypt.",
+   "file": "cic/texts/gadla-maba-seyon_lives-of-maba-seyon-and-gabra-krestos_budge1898.txt",
+   "lines": "534-536",
+   "quote": "thus it came to pass that for centuries the Abuna, or head of the Ethiopian church, was always appointed by the patriarch of the Coptic Church."
+  },
+  {
+   "entry": "ethiopian-christianity-gondar-to-the-zemene-mesafint",
+   "field": "legacy",
+   "sentence": "Much of these two centuries is still untold here. The royal chronicles and the monks' own words are not yet read.",
+   "record": "§3 AF-1 ev5, ev8"
+  },
+  {
+   "entry": "the-coptic-church-under-the-ottomans",
+   "field": "longDescription",
+   "sentence": "In 1517 the Ottomans took Egypt. A list of the Coptic patriarchs, compiled by E. A. Wallis Budge and printed in 1928, runs on without a break through that year.",
+   "record": "§3 AF-2",
+   "note": "Ottoman conquest 1517 is the record's dating; Budge list nos. 94-95"
+  },
+  {
+   "entry": "the-coptic-church-under-the-ottomans",
+   "field": "longDescription",
+   "sentence": "It shows John XIII in office to 1524, and Gabriel VII from 1526 to 1569.",
+   "file": "cic/texts/ethiopian-synaxarium_book-of-saints-ethiopian-church-v1-maskaram-khedar_budge1928.txt",
+   "lines": "2839-2840",
+   "quote": "94 John XIII 1484-1524 95 Gabriel VII 1526-1569"
+  },
+  {
+   "entry": "the-coptic-church-under-the-ottomans",
+   "field": "longDescription",
+   "sentence": "Volney traveled in Egypt and Syria from 1783 to 1785.",
+   "url": "https://archive.org/download/travelsthroughsy01voln/travelsthroughsy01voln_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/travelsthroughsy01voln.txt",
+   "quote": "IN THE YEARS J.783, I784, AND I785"
+  },
+  {
+   "entry": "the-coptic-church-under-the-ottomans",
+   "field": "longDescription",
+   "sentence": "He says the Copts had become the keepers of the registers of the lands and tribes.",
+   "url": "https://archive.org/download/travelsthroughsy01voln/travelsthroughsy01voln_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/travelsthroughsy01voln.txt",
+   "quote": "they are become the depofitaries of the regifters of the lands and tribes."
+  },
+  {
+   "entry": "the-coptic-church-under-the-ottomans",
+   "field": "longDescription",
+   "sentence": "He says that at Cairo they served as the government's stewards, secretaries and tax collectors.",
+   "url": "https://archive.org/download/travelsthroughsy01voln/travelsthroughsy01voln_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/travelsthroughsy01voln.txt",
+   "quote": "Under the name of writers, they are at Cairo the intendants, fecretaries, and colledors of go- vernment."
+  },
+  {
+   "entry": "the-coptic-church-under-the-ottomans",
+   "field": "longDescription",
+   "sentence": "He writes that the Turks they served despised them, and the peasants they pressed hated them.",
+   "url": "https://archive.org/download/travelsthroughsy01voln/travelsthroughsy01voln_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/travelsthroughsy01voln.txt",
+   "quote": "defpifed by the Turks, whom they ferve, and hated by the peafants, whom they opprefs"
+  },
+  {
+   "entry": "the-coptic-church-under-the-ottomans",
+   "field": "longDescription",
+   "sentence": "Volney was no friend of the Copts.",
+   "record": "§3 AF-2 ev1",
+   "note": "record: hostile outside witness"
+  },
+  {
+   "entry": "the-coptic-church-under-the-ottomans",
+   "field": "longDescription",
+   "sentence": "These lay leaders are called archons. One was Ibrahim al-Jawhari, chief clerk of the finance office.",
+   "url": "https://archive.org/download/storyofchurchofe02butc/storyofchurchofe02butc_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/storyofchurchofe02butc.txt",
+   "quote": "Moallem Ibrahim-el Johari, chief clerk of the finance department, had made himself so universally liked and respected by both Moslem and Christian that he was exempted from persecution"
+  },
+  {
+   "entry": "the-coptic-church-under-the-ottomans",
+   "field": "longDescription",
+   "sentence": "Butcher says he was so well liked by Muslim and Christian that he escaped a persecution under Hassan Pasha in the 1780s.",
+   "url": "https://archive.org/download/storyofchurchofe02butc/storyofchurchofe02butc_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/storyofchurchofe02butc.txt",
+   "quote": "Moallem Ibrahim-el Johari, chief clerk of the finance department, had made himself so universally liked and respected by both Moslem and Christian that he was exempted from persecution"
+  },
+  {
+   "entry": "the-coptic-church-under-the-ottomans",
+   "field": "longDescription",
+   "sentence": "Butcher says he was so well liked by Muslim and Christian that he escaped a persecution under Hassan Pasha in the 1780s.",
+   "url": "https://archive.org/download/storyofchurchofe02butc/storyofchurchofe02butc_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/storyofchurchofe02butc.txt",
+   "quote": "In addition to the old oppressions new insults were put upon them by Hassan Pasha."
+  },
+  {
+   "entry": "the-coptic-church-under-the-ottomans",
+   "field": "longDescription",
+   "sentence": "Through his influence the churches and monasteries could be restored, and he gave much land and money to the church.",
+   "url": "https://archive.org/download/storyofchurchofe02butc/storyofchurchofe02butc_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/storyofchurchofe02butc.txt",
+   "quote": "Through his influence the churches and monasteries were allowed a little later to be restored, and he gave a great deal of land and money for the support of the National Church."
+  },
+  {
+   "entry": "the-coptic-church-under-the-ottomans",
+   "field": "longDescription",
+   "sentence": "Edward Lane wrote his account of Egypt in the years 1833 to 1835.",
+   "url": "https://archive.org/download/accountofthemann031193mbp/accountofthemann031193mbp_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/accountofthemann031193mbp.txt",
+   "quote": "WRITTEN IN EGYPT DURING THE YEARS 1833, -34, AND -35"
+  },
+  {
+   "entry": "the-coptic-church-under-the-ottomans",
+   "field": "longDescription",
+   "sentence": "He reckoned the Copts at about 150,000.",
+   "url": "https://archive.org/download/accountofthemann031193mbp/accountofthemann031193mbp_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/accountofthemann031193mbp.txt",
+   "quote": "Christian Egyptians (Copts) . . . 150,000"
+  },
+  {
+   "entry": "the-coptic-church-under-the-ottomans",
+   "field": "longDescription",
+   "sentence": "He writes that the Coptic patriarch judged small cases among his people in Cairo.",
+   "url": "https://archive.org/download/accountofthemann031193mbp/accountofthemann031193mbp_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/accountofthemann031193mbp.txt",
+   "quote": "The Coptic Patriarch, who is the head of his church, judges petty causes among his people in the metropolis"
+  },
+  {
+   "entry": "the-coptic-church-under-the-ottomans",
+   "field": "longDescription",
+   "sentence": "Rome built a Catholic line among the Copts. In 1741 the pope made a Copt named Athanasius a metropolitan.",
+   "url": "https://archive.org/download/storyofchurchofe02butc/storyofchurchofe02butc_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/storyofchurchofe02butc.txt",
+   "quote": "consecrated the first Roman Catholic Metropolitan who owned any real jurisdiction in Egypt. This man was a Copt, resident in Jerusalem, by name Athanasius, and the date of his appointment is 1741."
+  },
+  {
+   "entry": "the-coptic-church-under-the-ottomans",
+   "field": "longDescription",
+   "sentence": "Rome built a Catholic line among the Copts. In 1741 the pope made a Copt named Athanasius a metropolitan.",
+   "url": "https://archive.org/download/storyofchurchofe02butc/storyofchurchofe02butc_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/storyofchurchofe02butc.txt",
+   "quote": "Benedict XIV., threw off all pretence"
+  },
+  {
+   "entry": "the-coptic-church-under-the-ottomans",
+   "field": "longDescription",
+   "sentence": "He lived in Jerusalem.",
+   "url": "https://archive.org/download/storyofchurchofe02butc/storyofchurchofe02butc_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/storyofchurchofe02butc.txt",
+   "quote": "consecrated the first Roman Catholic Metropolitan who owned any real jurisdiction in Egypt. This man was a Copt, resident in Jerusalem, by name Athanasius, and the date of his appointment is 1741."
+  },
+  {
+   "entry": "the-coptic-church-under-the-ottomans",
+   "field": "longDescription",
+   "sentence": "Butcher calls him the first with real power in Egypt.",
+   "url": "https://archive.org/download/storyofchurchofe02butc/storyofchurchofe02butc_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/storyofchurchofe02butc.txt",
+   "quote": "consecrated the first Roman Catholic Metropolitan who owned any real jurisdiction in Egypt. This man was a Copt, resident in Jerusalem, by name Athanasius, and the date of his appointment is 1741."
+  },
+  {
+   "entry": "the-coptic-church-under-the-ottomans",
+   "field": "longDescription",
+   "sentence": "He named a priest as his vicar there.",
+   "url": "https://archive.org/download/storyofchurchofe02butc/storyofchurchofe02butc_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/storyofchurchofe02butc.txt",
+   "quote": "Athanasius continued to reside in Jerusalem, and appointed a priest named Justus Maraglic his Vicar-General in Egypt"
+  },
+  {
+   "entry": "the-coptic-church-under-the-ottomans",
+   "field": "longDescription",
+   "sentence": "Butcher wrote in 1897 and did not favor Rome's claim.",
+   "record": "§3 AF-2 ev2",
+   "note": "Butcher: a nineteenth-century study; stance flagged"
+  },
+  {
+   "entry": "the-coptic-church-under-the-ottomans",
+   "field": "longDescription",
+   "sentence": "The patriarch also sent the abun to Ethiopia. A decision of his reached Tigray, as Gobat's journal shows.",
+   "url": "https://archive.org/download/journalthreeyea01gobagoog/journalthreeyea01gobagoog_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/journalthreeyea01gobagoog.txt",
+   "quote": "They brought the decision of the Coptic Patriarch concerning their religious quarrels."
+  },
+  {
+   "entry": "the-coptic-church-under-the-ottomans",
+   "field": "longDescription",
+   "sentence": "The patriarch also sent the abun to Ethiopia. A decision of his reached Tigray, as Gobat's journal shows.",
+   "url": "https://archive.org/download/travelstodiscov02bruc/travelstodiscov02bruc_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/travelstodiscov02bruc.txt",
+   "quote": "anew Abuna was come from Egypt"
+  },
+  {
+   "entry": "the-coptic-church-under-the-ottomans",
+   "field": "sourcing",
+   "sentence": "Moderate, and mostly from outsiders. Volney wrote in the 1780s and Lane in the 1830s.",
+   "url": "https://archive.org/download/travelsthroughsy01voln/travelsthroughsy01voln_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/travelsthroughsy01voln.txt",
+   "quote": "IN THE YEARS J.783, I784, AND I785"
+  },
+  {
+   "entry": "the-coptic-church-under-the-ottomans",
+   "field": "sourcing",
+   "sentence": "Moderate, and mostly from outsiders. Volney wrote in the 1780s and Lane in the 1830s.",
+   "url": "https://archive.org/download/accountofthemann031193mbp/accountofthemann031193mbp_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/accountofthemann031193mbp.txt",
+   "quote": "WRITTEN IN EGYPT DURING THE YEARS 1833, -34, AND -35"
+  },
+  {
+   "entry": "the-coptic-church-under-the-ottomans",
+   "field": "sourcing",
+   "sentence": "Butcher's study of 1897 tells the church's history.",
+   "record": "§3 AF-2 ev2"
+  },
+  {
+   "entry": "the-coptic-church-under-the-ottomans",
+   "field": "sourcing",
+   "sentence": "The Arabic History of the Patriarchs and the archons' own letters and deeds are not in the Library.",
+   "record": "§3 AF-2 ev8"
+  },
+  {
+   "entry": "the-coptic-church-under-the-ottomans",
+   "field": "relationsSummary",
+   "sentence": "It is the same Coptic church that the entries before and after it follow.",
+   "file": "cic/texts/ethiopian-synaxarium_book-of-saints-ethiopian-church-v1-maskaram-khedar_budge1928.txt",
+   "lines": "2839-2840",
+   "quote": "94 John XIII 1484-1524 95 Gabriel VII 1526-1569"
+  },
+  {
+   "entry": "the-coptic-church-under-the-ottomans",
+   "field": "relationsSummary",
+   "sentence": "Its patriarchs run in one numbered line through the Ottoman conquest of 1517.",
+   "file": "cic/texts/ethiopian-synaxarium_book-of-saints-ethiopian-church-v1-maskaram-khedar_budge1928.txt",
+   "lines": "2839-2840",
+   "quote": "94 John XIII 1484-1524 95 Gabriel VII 1526-1569"
+  },
+  {
+   "entry": "the-coptic-church-under-the-ottomans",
+   "field": "relationsSummary",
+   "sentence": "Its patriarch's rulings reached Ethiopia, and Rome set up a Catholic line among the Copts in 1741.",
+   "url": "https://archive.org/download/journalthreeyea01gobagoog/journalthreeyea01gobagoog_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/journalthreeyea01gobagoog.txt",
+   "quote": "They brought the decision of the Coptic Patriarch concerning their religious quarrels."
+  },
+  {
+   "entry": "the-coptic-church-under-the-ottomans",
+   "field": "relationsSummary",
+   "sentence": "Its patriarch's rulings reached Ethiopia, and Rome set up a Catholic line among the Copts in 1741.",
+   "url": "https://archive.org/download/storyofchurchofe02butc/storyofchurchofe02butc_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/storyofchurchofe02butc.txt",
+   "quote": "consecrated the first Roman Catholic Metropolitan who owned any real jurisdiction in Egypt. This man was a Copt, resident in Jerusalem, by name Athanasius, and the date of his appointment is 1741."
+  },
+  {
+   "entry": "the-coptic-church-under-the-ottomans",
+   "field": "why",
+   "sentence": "Under Ottoman rule the Copts were a minority.",
+   "url": "https://archive.org/download/accountofthemann031193mbp/accountofthemann031193mbp_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/accountofthemann031193mbp.txt",
+   "quote": "Christian Egyptians (Copts) . . . 150,000"
+  },
+  {
+   "entry": "the-coptic-church-under-the-ottomans",
+   "field": "why",
+   "sentence": "Lay notables kept the land books and the money.",
+   "url": "https://archive.org/download/travelsthroughsy01voln/travelsthroughsy01voln_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/travelsthroughsy01voln.txt",
+   "quote": "they are become the depofitaries of the regifters of the lands and tribes."
+  },
+  {
+   "entry": "the-coptic-church-under-the-ottomans",
+   "field": "why",
+   "sentence": "Lay notables kept the land books and the money.",
+   "url": "https://archive.org/download/travelsthroughsy01voln/travelsthroughsy01voln_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/travelsthroughsy01voln.txt",
+   "quote": "Under the name of writers, they are at Cairo the intendants, fecretaries, and colledors of go- vernment."
+  },
+  {
+   "entry": "the-coptic-church-under-the-ottomans",
+   "field": "why",
+   "sentence": "They paid for churches and monasteries.",
+   "url": "https://archive.org/download/storyofchurchofe02butc/storyofchurchofe02butc_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/storyofchurchofe02butc.txt",
+   "quote": "Through his influence the churches and monasteries were allowed a little later to be restored, and he gave a great deal of land and money for the support of the National Church."
+  },
+  {
+   "entry": "the-coptic-church-under-the-ottomans",
+   "field": "why",
+   "sentence": "The patriarch judged small cases.",
+   "url": "https://archive.org/download/accountofthemann031193mbp/accountofthemann031193mbp_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/accountofthemann031193mbp.txt",
+   "quote": "The Coptic Patriarch, who is the head of his church, judges petty causes among his people in the metropolis"
+  },
+  {
+   "entry": "the-coptic-church-under-the-ottomans",
+   "field": "legacy",
+   "sentence": "The Coptic Orthodox Church of today is the same church, on the usual reading.",
+   "record": "§3 AF-2 Living"
+  },
+  {
+   "entry": "the-coptic-church-under-the-ottomans",
+   "field": "legacy",
+   "sentence": "The next entry begins with the patriarch Cyril IV in 1854.",
+   "file": "cic/texts/ethiopian-synaxarium_book-of-saints-ethiopian-church-v1-maskaram-khedar_budge1928.txt",
+   "lines": "2855-2857",
+   "quote": "108 Mark VIII 1796-1809 tog Peter VII 1809-1852 110 Cyril V 1854-1861"
+  },
+  {
+   "entry": "the-coptic-church-under-the-ottomans",
+   "field": "legacy",
+   "sentence": "Much of these centuries is still untold here. The Arabic History of the Patriarchs is not yet in the Library.",
+   "record": "§3 AF-2 ev8"
+  },
+  {
+   "entry": "kongo-christianity-after-1650",
+   "field": "longDescription",
+   "sentence": "In the late 1660s two Capuchin friars, Dionigi Carli and Michelangelo Guattini, served in Bamba, in Kongo. Carli's book came out in 1671.",
+   "record": "Library header, carli_viaggio",
+   "note": "mission of 1666 to 1670; printed 1671"
+  },
+  {
+   "entry": "kongo-christianity-after-1650",
+   "field": "longDescription",
+   "sentence": "He writes that a headman sent word through the village to bring the children for baptism, because the adults were all baptized.",
+   "file": "cic/texts/carli_viaggio-nel-regno-del-congo-ita_guattini1671.txt",
+   "lines": "2946",
+   "quote": "perche 1* adulti iono tutti battezzati,"
+  },
+  {
+   "entry": "kongo-christianity-after-1650",
+   "field": "longDescription",
+   "sentence": "The people called the friar \"Ngamga,\" and Carli adds that they put a word after it to honor him.",
+   "file": "cic/texts/carli_viaggio-nel-regno-del-congo-ita_guattini1671.txt",
+   "lines": "2952-2953",
+   "quote": "dicono cornee arriuato ilCapuccino, che in loro lingua dicono » Ngamga"
+  },
+  {
+   "entry": "kongo-christianity-after-1650",
+   "field": "longDescription",
+   "sentence": "Giovanni Antonio Cavazzi was a Capuchin. He printed his history of Kongo, Matamba and Angola in 1687.",
+   "record": "Library header, cavazzi_istorica",
+   "note": "Capuchin, prefect of the mission; Bologna 1687"
+  },
+  {
+   "entry": "kongo-christianity-after-1650",
+   "field": "longDescription",
+   "sentence": "He writes that priests rarely came to remote places to keep the law of Christ in force. The people there still took pride in it.",
+   "file": "cic/texts/cavazzi_istorica-descrizione-tre-regni-congo-matamba-angola-ita_alamandini1687.txt",
+   "lines": "30001-30003",
+   "quote": "rare volte capitanano Sacerdoti , i quali mediante Tamminiltrazione de’Sacramenti poteflero foitenerui in vigo¬ re la Legge di Chrillo, di cui pregiauanfi quelle genti"
+  },
+  {
+   "entry": "kongo-christianity-after-1650",
+   "field": "longDescription",
+   "sentence": "Cavazzi tells of the queen Njinga, whom he calls queen of the Jaga.",
+   "file": "cic/texts/cavazzi_istorica-descrizione-tre-regni-congo-matamba-angola-ita_alamandini1687.txt",
+   "lines": "3942",
+   "quote": "la Zinga Reina de’Giaghi"
+  },
+  {
+   "entry": "kongo-christianity-after-1650",
+   "field": "longDescription",
+   "sentence": "He says she turned her back on the true law and joined the Jaga.",
+   "file": "cic/texts/cavazzi_istorica-descrizione-tre-regni-congo-matamba-angola-ita_alamandini1687.txt",
+   "lines": "36587",
+   "quote": "alla vera Legge, & abbracciando la Setta de Gia-"
+  },
+  {
+   "entry": "kongo-christianity-after-1650",
+   "field": "longDescription",
+   "sentence": "He says that for twenty-eight years she followed a way of life he calls the most beastly of all.",
+   "file": "cic/texts/cavazzi_istorica-descrizione-tre-regni-congo-matamba-angola-ita_alamandini1687.txt",
+   "lines": "36597-36598",
+   "quote": "da Zinga nello fpazio di ventotto Anni, ne3 quali profefsò vn’ Inlhtuto il più belliale"
+  },
+  {
+   "entry": "kongo-christianity-after-1650",
+   "field": "longDescription",
+   "sentence": "Her later return to the church is not shown in the text read here.",
+   "record": "§3 AF-3 ev2",
+   "note": "not located in the OCR this run"
+  },
+  {
+   "entry": "kongo-christianity-after-1650",
+   "field": "longDescription",
+   "sentence": "The Antonian movement of Dona Beatriz Kimpa Vita, from 1704 to 1706, falls inside this window.",
+   "record": "census VII.11 dates",
+   "note": "existing row; its own entry tells it"
+  },
+  {
+   "entry": "kongo-christianity-after-1650",
+   "field": "longDescription",
+   "sentence": "John Thornton's study of 1998 treats it, and how far it grew from the older church rests on that one study.",
+   "record": "§3 AF-3 ev5 (V-s)",
+   "note": "title and details only"
+  },
+  {
+   "entry": "kongo-christianity-after-1650",
+   "field": "longDescription",
+   "sentence": "Almost nothing was read for the years from about 1720 to 1879. Many Kongolese Christians then had few or no priests, on the usual account.",
+   "record": "§3 AF-3 What it holds",
+   "note": "life without priests after c. 1835 [S]; not asserted from a source here"
+  },
+  {
+   "entry": "kongo-christianity-after-1650",
+   "field": "longDescription",
+   "sentence": "Bentley's list dates the Baptist station at San Salvador to 1879.",
+   "url": "https://archive.org/download/pioneeringoncong01bent_0/pioneeringoncong01bent_0_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/pioneeringoncong01bent_0.txt",
+   "quote": "San Salvador 1879 170"
+  },
+  {
+   "entry": "kongo-christianity-after-1650",
+   "field": "longDescription",
+   "sentence": "The Portuguese priests there first came in 1881.",
+   "url": "https://archive.org/download/pioneeringoncong01bent_0/pioneeringoncong01bent_0_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/pioneeringoncong01bent_0.txt",
+   "quote": "The Portuguese priests at San Salvador are naval chaplains, and do not belong to a congregation. They first arrived in 1881."
+  },
+  {
+   "entry": "kongo-christianity-after-1650",
+   "field": "longDescription",
+   "sentence": "Bentley judged from what he heard that the people were about evenly split between the priests and the Baptists.",
+   "url": "https://archive.org/download/pioneeringoncong01bent_0/pioneeringoncong01bent_0_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/pioneeringoncong01bent_0.txt",
+   "quote": "From what I hear, I should think the support of the people is pretty equally divided, numerically, between the priests and ourselves"
+  },
+  {
+   "entry": "kongo-christianity-after-1650",
+   "field": "sourcing",
+   "sentence": "Good for the first half and thin for the middle. Two Capuchins are read here: Carli in 1671 and Cavazzi in 1687.",
+   "file": "cic/texts/carli_viaggio-nel-regno-del-congo-ita_guattini1671.txt",
+   "lines": "2946",
+   "quote": "perche 1* adulti iono tutti battezzati,"
+  },
+  {
+   "entry": "kongo-christianity-after-1650",
+   "field": "sourcing",
+   "sentence": "Good for the first half and thin for the middle. Two Capuchins are read here: Carli in 1671 and Cavazzi in 1687.",
+   "file": "cic/texts/cavazzi_istorica-descrizione-tre-regni-congo-matamba-angola-ita_alamandini1687.txt",
+   "lines": "30001-30003",
+   "quote": "rare volte capitanano Sacerdoti , i quali mediante Tamminiltrazione de’Sacramenti poteflero foitenerui in vigo¬ re la Legge di Chrillo, di cui pregiauanfi quelle genti"
+  },
+  {
+   "entry": "kongo-christianity-after-1650",
+   "field": "sourcing",
+   "sentence": "Two more, Merolla and Zucchelli, are in the Library but were not read for this entry.",
+   "record": "§3 AF-3 ev3",
+   "note": "held, not read"
+  },
+  {
+   "entry": "kongo-christianity-after-1650",
+   "field": "sourcing",
+   "sentence": "Almost every text is a missionary's. Bentley, a Baptist writing in 1900, covers the end.",
+   "url": "https://archive.org/download/pioneeringoncong01bent_0/pioneeringoncong01bent_0_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/pioneeringoncong01bent_0.txt",
+   "quote": "From what I hear, I should think the support of the people is pretty equally divided, numerically, between the priests and ourselves"
+  },
+  {
+   "entry": "kongo-christianity-after-1650",
+   "field": "sourcing",
+   "sentence": "Kongolese letters of the period are not in the Library.",
+   "record": "§3 AF-3 ev7"
+  },
+  {
+   "entry": "kongo-christianity-after-1650",
+   "field": "relationsSummary",
+   "sentence": "It carries on the church of King Afonso I, which the entry before it follows to 1650.",
+   "file": "cic/texts/lopes_report-of-the-kingdom-of-congo_hutchinson1881.txt",
+   "lines": "3511-3514",
+   "quote": "At laft, the fhips arrived with the expected means, which was in the year 1491 of our era, and anchored at the mouth of the Zaire."
+  },
+  {
+   "entry": "kongo-christianity-after-1650",
+   "field": "relationsSummary",
+   "sentence": "It carries on the church of King Afonso I, which the entry before it follows to 1650.",
+   "file": "cic/texts/carli_viaggio-nel-regno-del-congo-ita_guattini1671.txt",
+   "lines": "2946",
+   "quote": "perche 1* adulti iono tutti battezzati,"
+  },
+  {
+   "entry": "kongo-christianity-after-1650",
+   "field": "relationsSummary",
+   "sentence": "The Antonian movement of 1704 to 1706 falls inside it.",
+   "record": "census VII.11 dates"
+  },
+  {
+   "entry": "kongo-christianity-after-1650",
+   "field": "relationsSummary",
+   "sentence": "A Baptist station came to San Salvador in 1879 and Portuguese priests in 1881.",
+   "url": "https://archive.org/download/pioneeringoncong01bent_0/pioneeringoncong01bent_0_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/pioneeringoncong01bent_0.txt",
+   "quote": "San Salvador 1879 170"
+  },
+  {
+   "entry": "kongo-christianity-after-1650",
+   "field": "relationsSummary",
+   "sentence": "A Baptist station came to San Salvador in 1879 and Portuguese priests in 1881.",
+   "url": "https://archive.org/download/pioneeringoncong01bent_0/pioneeringoncong01bent_0_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/pioneeringoncong01bent_0.txt",
+   "quote": "The Portuguese priests at San Salvador are naval chaplains, and do not belong to a congregation. They first arrived in 1881."
+  },
+  {
+   "entry": "kongo-christianity-after-1650",
+   "field": "why",
+   "sentence": "Kongo had been Christian for well over a century in 1650.",
+   "file": "cic/texts/lopes_report-of-the-kingdom-of-congo_hutchinson1881.txt",
+   "lines": "3511-3514",
+   "quote": "At laft, the fhips arrived with the expected means, which was in the year 1491 of our era, and anchored at the mouth of the Zaire."
+  },
+  {
+   "entry": "kongo-christianity-after-1650",
+   "field": "why",
+   "sentence": "Capuchin friars came to serve it.",
+   "file": "cic/texts/carli_viaggio-nel-regno-del-congo-ita_guattini1671.txt",
+   "lines": "2946",
+   "quote": "perche 1* adulti iono tutti battezzati,"
+  },
+  {
+   "entry": "kongo-christianity-after-1650",
+   "field": "why",
+   "sentence": "Their own books show baptized adults and children brought for baptism, and places that priests rarely reached.",
+   "file": "cic/texts/carli_viaggio-nel-regno-del-congo-ita_guattini1671.txt",
+   "lines": "2946",
+   "quote": "perche 1* adulti iono tutti battezzati,"
+  },
+  {
+   "entry": "kongo-christianity-after-1650",
+   "field": "why",
+   "sentence": "Their own books show baptized adults and children brought for baptism, and places that priests rarely reached.",
+   "file": "cic/texts/cavazzi_istorica-descrizione-tre-regni-congo-matamba-angola-ita_alamandini1687.txt",
+   "lines": "30001-30003",
+   "quote": "rare volte capitanano Sacerdoti , i quali mediante Tamminiltrazione de’Sacramenti poteflero foitenerui in vigo¬ re la Legge di Chrillo, di cui pregiauanfi quelle genti"
+  },
+  {
+   "entry": "kongo-christianity-after-1650",
+   "field": "legacy",
+   "sentence": "The people of San Salvador were split between two missions, as Bentley shows.",
+   "url": "https://archive.org/download/pioneeringoncong01bent_0/pioneeringoncong01bent_0_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/pioneeringoncong01bent_0.txt",
+   "quote": "From what I hear, I should think the support of the people is pretty equally divided, numerically, between the priests and ourselves"
+  },
+  {
+   "entry": "kongo-christianity-after-1650",
+   "field": "legacy",
+   "sentence": "This entry holds no recent evidence about Kongo's Christians today.",
+   "record": "§3 AF-3 Living",
+   "note": "grade none"
+  },
+  {
+   "entry": "the-dutch-reformed-church-at-the-cape",
+   "field": "longDescription",
+   "sentence": "On 6 April 1652 three Dutch ships dropped anchor in Table Bay with a small band of settlers.",
+   "url": "https://archive.org/download/dutchreformedchu00mcar/dutchreformedchu00mcar_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/dutchreformedchu00mcar.txt",
+   "quote": "On the 6th of April 1652 three Dutch vessels, with a small body of settlers on board, came to anchor in Table Bay."
+  },
+  {
+   "entry": "the-dutch-reformed-church-at-the-cape",
+   "field": "longDescription",
+   "sentence": "John McCarter, writing in 1869, says the Company that sent them did not mean to found a colony in the modern sense.",
+   "url": "https://archive.org/download/dutchreformedchu00mcar/dutchreformedchu00mcar_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/dutchreformedchu00mcar.txt",
+   "quote": "The object of the Company in sending them was not to form a colony in the modern sense of the word."
+  },
+  {
+   "entry": "the-dutch-reformed-church-at-the-cape",
+   "field": "longDescription",
+   "sentence": "McCarter names van Arckel as the first minister. On his arrival in 1665 he baptized eight children, on their owners' promise to bring them up in the fear of the Lord.",
+   "url": "https://archive.org/download/dutchreformedchu00mcar/dutchreformedchu00mcar_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/dutchreformedchu00mcar.txt",
+   "quote": "on his arrival in 1665, he baptised eight heathen children"
+  },
+  {
+   "entry": "the-dutch-reformed-church-at-the-cape",
+   "field": "longDescription",
+   "sentence": "The church books record the baptisms of 1,121 slave children and forty-six adults between 1665 and 1731.",
+   "url": "https://archive.org/download/dutchreformedchu00mcar/dutchreformedchu00mcar_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/dutchreformedchu00mcar.txt",
+   "quote": "From 1665 to 1731, there stand recorded in the Church books the baptisms of 1121 slave children, and forty-six adults."
+  },
+  {
+   "entry": "the-dutch-reformed-church-at-the-cape",
+   "field": "longDescription",
+   "sentence": "McCarter reports a rule of 1683 that a slave received into the church was free at once, and says many were freed this way.",
+   "url": "https://archive.org/download/dutchreformedchu00mcar/dutchreformedchu00mcar_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/dutchreformedchu00mcar.txt",
+   "quote": "A Government regula- tion was passed in 1683, that whenever a THE PERIOD OF TEE DUTCH RULE. 15 slave was received into the Christian Church, he was ipso facto free."
+  },
+  {
+   "entry": "the-dutch-reformed-church-at-the-cape",
+   "field": "longDescription",
+   "sentence": "McCarter reports a rule of 1683 that a slave received into the church was free at once, and says many were freed this way.",
+   "url": "https://archive.org/download/dutchreformedchu00mcar/dutchreformedchu00mcar_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/dutchreformedchu00mcar.txt",
+   "quote": "Not a few were thus emancipated."
+  },
+  {
+   "entry": "the-dutch-reformed-church-at-the-cape",
+   "field": "longDescription",
+   "sentence": "He names no source for the rule, and this entry has not checked it.",
+   "record": "McCarter 1869",
+   "note": "no source given in the passage read; not checked against a modern study"
+  },
+  {
+   "entry": "the-dutch-reformed-church-at-the-cape",
+   "field": "longDescription",
+   "sentence": "In 1688, McCarter says, about 150 French refugees came to the Cape.",
+   "url": "https://archive.org/download/dutchreformedchu00mcar/dutchreformedchu00mcar_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/dutchreformedchu00mcar.txt",
+   "quote": "In 1688 came the French Refugees, numbering, it is said, 150."
+  },
+  {
+   "entry": "the-dutch-reformed-church-at-the-cape",
+   "field": "longDescription",
+   "sentence": "He says their descendants now number at least 200,000.",
+   "url": "https://archive.org/download/dutchreformedchu00mcar/dutchreformedchu00mcar_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/dutchreformedchu00mcar.txt",
+   "quote": "now their number cannot be less than 200,000"
+  },
+  {
+   "entry": "the-dutch-reformed-church-at-the-cape",
+   "field": "longDescription",
+   "sentence": "The church held its first synod in 1824. By then it had thirteen congregations.",
+   "url": "https://archive.org/download/dutchreformedchu00mcar/dutchreformedchu00mcar_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/dutchreformedchu00mcar.txt",
+   "quote": "the number of congregations having meantime risen to thirteen"
+  },
+  {
+   "entry": "the-dutch-reformed-church-at-the-cape",
+   "field": "longDescription",
+   "sentence": "The church held its first synod in 1824. By then it had thirteen congregations.",
+   "url": "https://archive.org/download/dutchreformedchu00mcar/dutchreformedchu00mcar_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/dutchreformedchu00mcar.txt",
+   "quote": "a Synod or General Assembly was held. The Govern- ment appointed two Political Commissioners to attend it. All its decisions were submitted to the Governor of the Colony for approval and publication."
+  },
+  {
+   "entry": "the-dutch-reformed-church-at-the-cape",
+   "field": "longDescription",
+   "sentence": "The government sent two men to sit in. Every decision went to the governor to approve.",
+   "url": "https://archive.org/download/dutchreformedchu00mcar/dutchreformedchu00mcar_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/dutchreformedchu00mcar.txt",
+   "quote": "a Synod or General Assembly was held. The Govern- ment appointed two Political Commissioners to attend it. All its decisions were submitted to the Governor of the Colony for approval and publication."
+  },
+  {
+   "entry": "the-dutch-reformed-church-at-the-cape",
+   "field": "longDescription",
+   "sentence": "Some ministers wanted a book of hymns sung beside the Psalms, and part of the people opposed it.",
+   "url": "https://archive.org/download/dutchreformedchu00mcar/dutchreformedchu00mcar_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/dutchreformedchu00mcar.txt",
+   "quote": "to introduce a book of evangelical h3rmns in addition to the Psalms in public worship."
+  },
+  {
+   "entry": "the-dutch-reformed-church-at-the-cape",
+   "field": "longDescription",
+   "sentence": "Some ministers wanted a book of hymns sung beside the Psalms, and part of the people opposed it.",
+   "url": "https://archive.org/download/dutchreformedchu00mcar/dutchreformedchu00mcar_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/dutchreformedchu00mcar.txt",
+   "quote": "was obstinately opposed by a por- tion of the people"
+  },
+  {
+   "entry": "the-dutch-reformed-church-at-the-cape",
+   "field": "longDescription",
+   "sentence": "McCarter says a group called the Doppers formed a kind of sect inside the church, and has since become a separate body.",
+   "url": "https://archive.org/download/dutchreformedchu00mcar/dutchreformedchu00mcar_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/dutchreformedchu00mcar.txt",
+   "quote": "They then formed a kind of sect within the Church, and have since been organised into a distinct religious community."
+  },
+  {
+   "entry": "the-dutch-reformed-church-at-the-cape",
+   "field": "longDescription",
+   "sentence": "McCarter says a frontier war in 1835 brought long-growing discontent to a crisis, and many farmers decided to leave the colony.",
+   "url": "https://archive.org/download/dutchreformedchu00mcar/dutchreformedchu00mcar_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/dutchreformedchu00mcar.txt",
+   "quote": "brought the long-growing discontent to a crisis, and a general determination was formed to leave the land of their fathers."
+  },
+  {
+   "entry": "the-dutch-reformed-church-at-the-cape",
+   "field": "longDescription",
+   "sentence": "In the Transvaal, he counts three religious parties.",
+   "url": "https://archive.org/download/dutchreformedchu00mcar/dutchreformedchu00mcar_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/dutchreformedchu00mcar.txt",
+   "quote": "In the Transvaal no less than three religious parties exist."
+  },
+  {
+   "entry": "the-dutch-reformed-church-at-the-cape",
+   "field": "longDescription",
+   "sentence": "In the 1860s the church's commission suspended a minister, T. F. Burgers.",
+   "url": "https://archive.org/download/dutchreformedchu00mcar/dutchreformedchu00mcar_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/dutchreformedchu00mcar.txt",
+   "quote": "found the first two counts proven, and suspended Mr Burgers from the ministry"
+  },
+  {
+   "entry": "the-dutch-reformed-church-at-the-cape",
+   "field": "longDescription",
+   "sentence": "His case came before the Supreme Court of the Cape on 26 May 1865.",
+   "url": "https://archive.org/download/dutchreformedchu00mcar/dutchreformedchu00mcar_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/dutchreformedchu00mcar.txt",
+   "quote": "On the 26th of May 1865 the trial of the case came on before the Supreme Court of the Cape of Good Hope"
+  },
+  {
+   "entry": "the-dutch-reformed-church-at-the-cape",
+   "field": "longDescription",
+   "sentence": "Andrew Murray the younger was summoned as moderator of the synod.",
+   "url": "https://archive.org/download/dutchreformedchu00mcar/dutchreformedchu00mcar_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/dutchreformedchu00mcar.txt",
+   "quote": "had been summoned as Moderator of the Synod"
+  },
+  {
+   "entry": "the-dutch-reformed-church-at-the-cape",
+   "field": "longDescription",
+   "sentence": "This entry does not yet tell how the church came to divide into white and coloured churches. That story waits on sources not yet read.",
+   "record": "§3 AF-4 ev4",
+   "note": "the 1857 synod resolution and the 1881 Mission Church are [S]; held"
+  },
+  {
+   "entry": "the-dutch-reformed-church-at-the-cape",
+   "field": "sourcing",
+   "sentence": "Moderate. The main source read is John McCarter's history of 1869, a friendly account.",
+   "url": "https://archive.org/download/dutchreformedchu00mcar/dutchreformedchu00mcar_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/dutchreformedchu00mcar.txt",
+   "quote": "On the 6th of April 1652 three Dutch vessels, with a small body of settlers on board, came to anchor in Table Bay."
+  },
+  {
+   "entry": "the-dutch-reformed-church-at-the-cape",
+   "field": "sourcing",
+   "sentence": "Synod acts, Andrew Murray's own works and Dutch and Afrikaans church histories were not read.",
+   "record": "§3 AF-4 B1"
+  },
+  {
+   "entry": "the-dutch-reformed-church-at-the-cape",
+   "field": "sourcing",
+   "sentence": "The voices of slaves and Khoikhoi members are thin.",
+   "record": "§3 AF-4 B1"
+  },
+  {
+   "entry": "the-dutch-reformed-church-at-the-cape",
+   "field": "relationsSummary",
+   "sentence": "Its standards came from the Netherlands, among them the Canons of Dort.",
+   "url": "https://archive.org/download/dutchreformedchu00mcar/dutchreformedchu00mcar_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/dutchreformedchu00mcar.txt",
+   "quote": "Its Standards are the Heidelberg Catechism, the Belgic Confession, and the Canons of the Synod of Dort."
+  },
+  {
+   "entry": "the-dutch-reformed-church-at-the-cape",
+   "field": "relationsSummary",
+   "sentence": "It began as the Company's church at Table Bay.",
+   "url": "https://archive.org/download/dutchreformedchu00mcar/dutchreformedchu00mcar_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/dutchreformedchu00mcar.txt",
+   "quote": "On the 6th of April 1652 three Dutch vessels, with a small body of settlers on board, came to anchor in Table Bay."
+  },
+  {
+   "entry": "the-dutch-reformed-church-at-the-cape",
+   "field": "relationsSummary",
+   "sentence": "The Trek of the 1830s took many of its people inland, and new churches grew beyond the colony.",
+   "url": "https://archive.org/download/dutchreformedchu00mcar/dutchreformedchu00mcar_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/dutchreformedchu00mcar.txt",
+   "quote": "brought the long-growing discontent to a crisis, and a general determination was formed to leave the land of their fathers."
+  },
+  {
+   "entry": "the-dutch-reformed-church-at-the-cape",
+   "field": "relationsSummary",
+   "sentence": "The Trek of the 1830s took many of its people inland, and new churches grew beyond the colony.",
+   "url": "https://archive.org/download/dutchreformedchu00mcar/dutchreformedchu00mcar_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/dutchreformedchu00mcar.txt",
+   "quote": "In the Transvaal no less than three religious parties exist."
+  },
+  {
+   "entry": "the-dutch-reformed-church-at-the-cape",
+   "field": "why",
+   "sentence": "The Dutch East India Company's settlers landed at Table Bay in 1652.",
+   "url": "https://archive.org/download/dutchreformedchu00mcar/dutchreformedchu00mcar_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/dutchreformedchu00mcar.txt",
+   "quote": "On the 6th of April 1652 three Dutch vessels, with a small body of settlers on board, came to anchor in Table Bay."
+  },
+  {
+   "entry": "the-dutch-reformed-church-at-the-cape",
+   "field": "why",
+   "sentence": "Slaves were baptized in the church from the 1660s.",
+   "url": "https://archive.org/download/dutchreformedchu00mcar/dutchreformedchu00mcar_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/dutchreformedchu00mcar.txt",
+   "quote": "From 1665 to 1731, there stand recorded in the Church books the baptisms of 1121 slave children, and forty-six adults."
+  },
+  {
+   "entry": "the-dutch-reformed-church-at-the-cape",
+   "field": "why",
+   "sentence": "It held its first synod in 1824, under the eye of the government.",
+   "url": "https://archive.org/download/dutchreformedchu00mcar/dutchreformedchu00mcar_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/dutchreformedchu00mcar.txt",
+   "quote": "a Synod or General Assembly was held. The Govern- ment appointed two Political Commissioners to attend it. All its decisions were submitted to the Governor of the Colony for approval and publication."
+  },
+  {
+   "entry": "the-dutch-reformed-church-at-the-cape",
+   "field": "why",
+   "sentence": "It grew through the Trek and the Burgers case in the civil court.",
+   "url": "https://archive.org/download/dutchreformedchu00mcar/dutchreformedchu00mcar_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/dutchreformedchu00mcar.txt",
+   "quote": "brought the long-growing discontent to a crisis, and a general determination was formed to leave the land of their fathers."
+  },
+  {
+   "entry": "the-dutch-reformed-church-at-the-cape",
+   "field": "why",
+   "sentence": "It grew through the Trek and the Burgers case in the civil court.",
+   "url": "https://archive.org/download/dutchreformedchu00mcar/dutchreformedchu00mcar_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/dutchreformedchu00mcar.txt",
+   "quote": "On the 26th of May 1865 the trial of the case came on before the Supreme Court of the Cape of Good Hope"
+  },
+  {
+   "entry": "the-dutch-reformed-church-at-the-cape",
+   "field": "legacy",
+   "sentence": "The Dutch Reformed Church exists today.",
+   "record": "§3 AF-4 Living"
+  },
+  {
+   "entry": "the-dutch-reformed-church-at-the-cape",
+   "field": "legacy",
+   "sentence": "This entry holds no recent evidence of it, and it stops at 1906.",
+   "record": "§3 AF-4 Living",
+   "note": "grade none"
+  },
+  {
+   "entry": "southern-african-mission-churches",
+   "field": "longDescription",
+   "sentence": "McCarter calls the Moravians' work at the Cape the earliest South African mission.",
+   "url": "https://archive.org/download/dutchreformedchu00mcar/dutchreformedchu00mcar_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/dutchreformedchu00mcar.txt",
+   "quote": "As this was the earliest South African mission"
+  },
+  {
+   "entry": "southern-african-mission-churches",
+   "field": "longDescription",
+   "sentence": "George Schmidt sailed for the Cape in 1737 and by September lived at Baviaans Kloof, now Genadendal.",
+   "url": "https://archive.org/download/dutchreformedchu00mcar/dutchreformedchu00mcar_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/dutchreformedchu00mcar.txt",
+   "quote": "George Schmidt sailed for the Cape in 1737."
+  },
+  {
+   "entry": "southern-african-mission-churches",
+   "field": "longDescription",
+   "sentence": "George Schmidt sailed for the Cape in 1737 and by September lived at Baviaans Kloof, now Genadendal.",
+   "url": "https://archive.org/download/dutchreformedchu00mcar/dutchreformedchu00mcar_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/dutchreformedchu00mcar.txt",
+   "quote": "In September the same year, he took up his residence at Baviaans Kloof, now Genadendal."
+  },
+  {
+   "entry": "southern-african-mission-churches",
+   "field": "longDescription",
+   "sentence": "He could not learn the Khoikhoi language and spoke through an interpreter.",
+   "url": "https://archive.org/download/dutchreformedchu00mcar/dutchreformedchu00mcar_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/dutchreformedchu00mcar.txt",
+   "quote": "could only address them through an inter- preter"
+  },
+  {
+   "entry": "southern-african-mission-churches",
+   "field": "longDescription",
+   "sentence": "At the end of 1740 he wrote that his congregation had thirty-two people, and that fifteen of them read the New Testament in Dutch.",
+   "url": "https://archive.org/download/dutchreformedchu00mcar/dutchreformedchu00mcar_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/dutchreformedchu00mcar.txt",
+   "quote": "The whole congregation consists of ten men, ten women, seven boys and five girls. Of these thirty-two, fifteen read the New Testament (in Dutch)."
+  },
+  {
+   "entry": "southern-african-mission-churches",
+   "field": "longDescription",
+   "sentence": "In 1742, McCarter says, he baptized the first of them.",
+   "url": "https://archive.org/download/dutchreformedchu00mcar/dutchreformedchu00mcar_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/dutchreformedchu00mcar.txt",
+   "quote": "in 1742 Schmidt had the joy of receiving the first fruits of the Hottentots into the Christian Church."
+  },
+  {
+   "entry": "southern-african-mission-churches",
+   "field": "longDescription",
+   "sentence": "The Moravians' own account of 1771 says the brethren lived five years there.",
+   "file": "cic/texts/latrobe-benjamin_succinct-view-of-the-missions_1771.txt",
+   "lines": "916-919",
+   "quote": "Our Brethren lived five years among them, begun a fchool with the children, and baptized alio feven adult Hottentots. But certain circumftances interfering, this Million could not be continued."
+  },
+  {
+   "entry": "southern-african-mission-churches",
+   "field": "longDescription",
+   "sentence": "They opened a school. They baptized seven adults. Then \"certain circumstances\" ended the mission.",
+   "file": "cic/texts/latrobe-benjamin_succinct-view-of-the-missions_1771.txt",
+   "lines": "916-919",
+   "quote": "Our Brethren lived five years among them, begun a fchool with the children, and baptized alio feven adult Hottentots. But certain circumftances interfering, this Million could not be continued."
+  },
+  {
+   "entry": "southern-african-mission-churches",
+   "field": "longDescription",
+   "sentence": "McCarter says the work lapsed for nearly fifty years. Then three Germans took it up again.",
+   "url": "https://archive.org/download/dutchreformedchu00mcar/dutchreformedchu00mcar_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/dutchreformedchu00mcar.txt",
+   "quote": "At Genadendal, three devoted Germans had resumed the w^ork, which, begun by George Schmidt in 1737, had been inter- rupted for nearly fifty years."
+  },
+  {
+   "entry": "southern-african-mission-churches",
+   "field": "longDescription",
+   "sentence": "John Philip wrote in 1828 about Dr Vanderkemp. He began his work among people who had risen against the farmers.",
+   "url": "https://archive.org/download/10432272bsb/10432272bsb_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/10432272bsb.txt",
+   "quote": "It was among the people that had been en- gaged in this insurrection against the farmers, that Dr. Vanderkemp began his labours"
+  },
+  {
+   "entry": "southern-african-mission-churches",
+   "field": "longDescription",
+   "sentence": "He says the other stations of his London mission grew out of Bethelsdorp.",
+   "url": "https://archive.org/download/10432272bsb/10432272bsb_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/10432272bsb.txt",
+   "quote": "the other mis- sionary stations of the London Missionary Society within the colony, sprang out of Bethelsdorp"
+  },
+  {
+   "entry": "southern-african-mission-churches",
+   "field": "longDescription",
+   "sentence": "Eugène Casalis was a missionary of the Paris Evangelical mission. He wrote of his first meeting with Moshoeshoe, whom he calls Moshesh, in 1833.",
+   "url": "https://archive.org/download/basutosortwentyt00casa/basutosortwentyt00casa_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/basutosortwentyt00casa.txt",
+   "quote": "LATE MISSIONARY, DIRECTOR OF THE PARIS EVANGELICAL MISSION-HOUSE"
+  },
+  {
+   "entry": "southern-african-mission-churches",
+   "field": "longDescription",
+   "sentence": "Eugène Casalis was a missionary of the Paris Evangelical mission. He wrote of his first meeting with Moshoeshoe, whom he calls Moshesh, in 1833.",
+   "url": "https://archive.org/download/basutosortwentyt00casa/basutosortwentyt00casa_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/basutosortwentyt00casa.txt",
+   "quote": "Moshesh (in 1833)"
+  },
+  {
+   "entry": "southern-african-mission-churches",
+   "field": "longDescription",
+   "sentence": "He says the first days went to explaining why the missionaries had come.",
+   "url": "https://archive.org/download/basutosortwentyt00casa/basutosortwentyt00casa_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/basutosortwentyt00casa.txt",
+   "quote": "the first few days were devoted to ex- plaining to our new acquaintances the object that we had in view"
+  },
+  {
+   "entry": "southern-african-mission-churches",
+   "field": "longDescription",
+   "sentence": "He writes that the people had long called their chief the Chief of the Mountain.",
+   "url": "https://archive.org/download/basutosortwentyt00casa/basutosortwentyt00casa_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/basutosortwentyt00casa.txt",
+   "quote": "Chief of the Mountain to the sovereign of the Basutos"
+  },
+  {
+   "entry": "southern-african-mission-churches",
+   "field": "longDescription",
+   "sentence": "John Chalmers wrote of Ntsikana in 1877. Ntsikana was the head man of a village.",
+   "url": "https://archive.org/download/tiyosogapageofso00chal/tiyosogapageofso00chal_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/tiyosogapageofso00chal.txt",
+   "quote": "he kept up religious services with his people"
+  },
+  {
+   "entry": "southern-african-mission-churches",
+   "field": "longDescription",
+   "sentence": "After the missionary Williams died, Chalmers says, Ntsikana kept up religious services with his people.",
+   "url": "https://archive.org/download/tiyosogapageofso00chal/tiyosogapageofso00chal_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/tiyosogapageofso00chal.txt",
+   "quote": "he kept up religious services with his people"
+  },
+  {
+   "entry": "southern-african-mission-churches",
+   "field": "longDescription",
+   "sentence": "Before his death, about the beginning of 1821, he told them to move to the station on the Gwali.",
+   "url": "https://archive.org/download/tiyosogapageofso00chal/tiyosogapageofso00chal_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/tiyosogapageofso00chal.txt",
+   "quote": "Before his death, about the beginning of 1821, he enjoined his people to remove to the station on the Gwali."
+  },
+  {
+   "entry": "southern-african-mission-churches",
+   "field": "longDescription",
+   "sentence": "Chalmers also tells of Tiyo Soga, whom he calls the first ordained preacher of his race.",
+   "url": "https://archive.org/download/tiyosogapageofso00chal/tiyosogapageofso00chal_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/tiyosogapageofso00chal.txt",
+   "quote": "the first ordained preacher of his race"
+  },
+  {
+   "entry": "southern-african-mission-churches",
+   "field": "longDescription",
+   "sentence": "On 23 July 1861 Soga wrote that he opened the service for the first stone of the Mgwali mission church with the great hymn of Ntsikana.",
+   "url": "https://archive.org/download/tiyosogapageofso00chal/tiyosogapageofso00chal_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/tiyosogapageofso00chal.txt",
+   "quote": "dated 23rd July, 1861"
+  },
+  {
+   "entry": "southern-african-mission-churches",
+   "field": "longDescription",
+   "sentence": "On 23 July 1861 Soga wrote that he opened the service for the first stone of the Mgwali mission church with the great hymn of Ntsikana.",
+   "url": "https://archive.org/download/tiyosogapageofso00chal/tiyosogapageofso00chal_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/tiyosogapageofso00chal.txt",
+   "quote": "the great hymn of the first notable Kafir convert Ntsikana"
+  },
+  {
+   "entry": "southern-african-mission-churches",
+   "field": "longDescription",
+   "sentence": "Chalmers says the missionaries named in this part of his book were, with one exception, sent by the Glasgow Missionary Society.",
+   "url": "https://archive.org/download/tiyosogapageofso00chal/tiyosogapageofso00chal_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/tiyosogapageofso00chal.txt",
+   "quote": "sent out by the Glasgow Missionary Society"
+  },
+  {
+   "entry": "southern-african-mission-churches",
+   "field": "longDescription",
+   "sentence": "Ntsikana's hymn is not yet in the Library, and Soga's own letters reach us only through Chalmers.",
+   "record": "§3 AF-5 ev7",
+   "note": "Ntsikana hymn and Soga journal wanted"
+  },
+  {
+   "entry": "southern-african-mission-churches",
+   "field": "sourcing",
+   "sentence": "Good for the mission side and thin for the African side.",
+   "record": "§3 AF-5 B1"
+  },
+  {
+   "entry": "southern-african-mission-churches",
+   "field": "sourcing",
+   "sentence": "Philip, Casalis and Chalmers all wrote as missionaries or as their friends.",
+   "url": "https://archive.org/download/10432272bsb/10432272bsb_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/10432272bsb.txt",
+   "quote": "It was among the people that had been en- gaged in this insurrection against the farmers, that Dr. Vanderkemp began his labours"
+  },
+  {
+   "entry": "southern-african-mission-churches",
+   "field": "sourcing",
+   "sentence": "Philip, Casalis and Chalmers all wrote as missionaries or as their friends.",
+   "url": "https://archive.org/download/basutosortwentyt00casa/basutosortwentyt00casa_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/basutosortwentyt00casa.txt",
+   "quote": "LATE MISSIONARY, DIRECTOR OF THE PARIS EVANGELICAL MISSION-HOUSE"
+  },
+  {
+   "entry": "southern-african-mission-churches",
+   "field": "sourcing",
+   "sentence": "Philip, Casalis and Chalmers all wrote as missionaries or as their friends.",
+   "url": "https://archive.org/download/tiyosogapageofso00chal/tiyosogapageofso00chal_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/tiyosogapageofso00chal.txt",
+   "quote": "sent out by the Glasgow Missionary Society"
+  },
+  {
+   "entry": "southern-african-mission-churches",
+   "field": "sourcing",
+   "sentence": "Tiyo Soga's letter reaches us only through Chalmers, and Ntsikana's hymn is not in the Library.",
+   "url": "https://archive.org/download/tiyosogapageofso00chal/tiyosogapageofso00chal_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/tiyosogapageofso00chal.txt",
+   "quote": "dated 23rd July, 1861"
+  },
+  {
+   "entry": "southern-african-mission-churches",
+   "field": "sourcing",
+   "sentence": "Tiyo Soga's letter reaches us only through Chalmers, and Ntsikana's hymn is not in the Library.",
+   "url": "https://archive.org/download/tiyosogapageofso00chal/tiyosogapageofso00chal_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/tiyosogapageofso00chal.txt",
+   "quote": "the great hymn of the first notable Kafir convert Ntsikana"
+  },
+  {
+   "entry": "southern-african-mission-churches",
+   "field": "relationsSummary",
+   "sentence": "Missionaries of four societies worked here.",
+   "url": "https://archive.org/download/dutchreformedchu00mcar/dutchreformedchu00mcar_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/dutchreformedchu00mcar.txt",
+   "quote": "As this was the earliest South African mission"
+  },
+  {
+   "entry": "southern-african-mission-churches",
+   "field": "relationsSummary",
+   "sentence": "Missionaries of four societies worked here.",
+   "url": "https://archive.org/download/10432272bsb/10432272bsb_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/10432272bsb.txt",
+   "quote": "the other mis- sionary stations of the London Missionary Society within the colony, sprang out of Bethelsdorp"
+  },
+  {
+   "entry": "southern-african-mission-churches",
+   "field": "relationsSummary",
+   "sentence": "Missionaries of four societies worked here.",
+   "url": "https://archive.org/download/tiyosogapageofso00chal/tiyosogapageofso00chal_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/tiyosogapageofso00chal.txt",
+   "quote": "sent out by the Glasgow Missionary Society"
+  },
+  {
+   "entry": "southern-african-mission-churches",
+   "field": "relationsSummary",
+   "sentence": "Missionaries of four societies worked here.",
+   "url": "https://archive.org/download/basutosortwentyt00casa/basutosortwentyt00casa_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/basutosortwentyt00casa.txt",
+   "quote": "LATE MISSIONARY, DIRECTOR OF THE PARIS EVANGELICAL MISSION-HOUSE"
+  },
+  {
+   "entry": "southern-african-mission-churches",
+   "field": "relationsSummary",
+   "sentence": "This entry follows Schmidt's Moravian mission of 1737. It also follows the Xhosa and Sotho Christians.",
+   "url": "https://archive.org/download/dutchreformedchu00mcar/dutchreformedchu00mcar_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/dutchreformedchu00mcar.txt",
+   "quote": "George Schmidt sailed for the Cape in 1737."
+  },
+  {
+   "entry": "southern-african-mission-churches",
+   "field": "relationsSummary",
+   "sentence": "This entry follows Schmidt's Moravian mission of 1737. It also follows the Xhosa and Sotho Christians.",
+   "url": "https://archive.org/download/tiyosogapageofso00chal/tiyosogapageofso00chal_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/tiyosogapageofso00chal.txt",
+   "quote": "he kept up religious services with his people"
+  },
+  {
+   "entry": "southern-african-mission-churches",
+   "field": "relationsSummary",
+   "sentence": "This entry follows Schmidt's Moravian mission of 1737. It also follows the Xhosa and Sotho Christians.",
+   "url": "https://archive.org/download/basutosortwentyt00casa/basutosortwentyt00casa_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/basutosortwentyt00casa.txt",
+   "quote": "Moshesh (in 1833)"
+  },
+  {
+   "entry": "southern-african-mission-churches",
+   "field": "relationsSummary",
+   "sentence": "The settlers' Dutch Reformed Church is told in its own entry.",
+   "record": "G89-5 a"
+  },
+  {
+   "entry": "southern-african-mission-churches",
+   "field": "why",
+   "sentence": "The first Protestant mission in South Africa began with Georg Schmidt among the Khoikhoi in 1737.",
+   "url": "https://archive.org/download/dutchreformedchu00mcar/dutchreformedchu00mcar_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/dutchreformedchu00mcar.txt",
+   "quote": "George Schmidt sailed for the Cape in 1737."
+  },
+  {
+   "entry": "southern-african-mission-churches",
+   "field": "why",
+   "sentence": "The first Protestant mission in South Africa began with Georg Schmidt among the Khoikhoi in 1737.",
+   "url": "https://archive.org/download/dutchreformedchu00mcar/dutchreformedchu00mcar_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/dutchreformedchu00mcar.txt",
+   "quote": "As this was the earliest South African mission"
+  },
+  {
+   "entry": "southern-african-mission-churches",
+   "field": "why",
+   "sentence": "It was dropped for nearly fifty years and then taken up again.",
+   "url": "https://archive.org/download/dutchreformedchu00mcar/dutchreformedchu00mcar_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/dutchreformedchu00mcar.txt",
+   "quote": "At Genadendal, three devoted Germans had resumed the w^ork, which, begun by George Schmidt in 1737, had been inter- rupted for nearly fifty years."
+  },
+  {
+   "entry": "southern-african-mission-churches",
+   "field": "why",
+   "sentence": "Xhosa and Sotho Christians such as Ntsikana and Tiyo Soga then took their place beside the missionaries.",
+   "url": "https://archive.org/download/tiyosogapageofso00chal/tiyosogapageofso00chal_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/tiyosogapageofso00chal.txt",
+   "quote": "he kept up religious services with his people"
+  },
+  {
+   "entry": "southern-african-mission-churches",
+   "field": "why",
+   "sentence": "Xhosa and Sotho Christians such as Ntsikana and Tiyo Soga then took their place beside the missionaries.",
+   "url": "https://archive.org/download/tiyosogapageofso00chal/tiyosogapageofso00chal_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/tiyosogapageofso00chal.txt",
+   "quote": "the first ordained preacher of his race"
+  },
+  {
+   "entry": "southern-african-mission-churches",
+   "field": "legacy",
+   "sentence": "Tiyo Soga's hymn of Ntsikana, sung at Mgwali in 1861, shows an African Christian song carried into a mission church.",
+   "url": "https://archive.org/download/tiyosogapageofso00chal/tiyosogapageofso00chal_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/tiyosogapageofso00chal.txt",
+   "quote": "the great hymn of the first notable Kafir convert Ntsikana"
+  },
+  {
+   "entry": "southern-african-mission-churches",
+   "field": "legacy",
+   "sentence": "Tiyo Soga's hymn of Ntsikana, sung at Mgwali in 1861, shows an African Christian song carried into a mission church.",
+   "url": "https://archive.org/download/tiyosogapageofso00chal/tiyosogapageofso00chal_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/tiyosogapageofso00chal.txt",
+   "quote": "dated 23rd July, 1861"
+  },
+  {
+   "entry": "southern-african-mission-churches",
+   "field": "legacy",
+   "sentence": "This entry stops at 1906 and holds no recent evidence of these churches.",
+   "record": "§3 AF-5 Living",
+   "note": "grade none"
+  },
+  {
+   "entry": "ethiopian-christianity-tewodros-to-menelik",
+   "field": "longDescription",
+   "sentence": "Missionaries kept coming. Donald Crummey wrote about them in a study of the missions from 1830 to 1868. It is called Priests and Politicians.",
+   "record": "§3 AF-1 ev6 (V-s)",
+   "note": "title and dates only"
+  },
+  {
+   "entry": "ethiopian-christianity-tewodros-to-menelik",
+   "field": "longDescription",
+   "sentence": "A Catholic source of 1907 says Tewodros made Catholics suffer.",
+   "url": "https://www.newadvent.org/cathen/01075e.htm",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/na_abyssinia.txt",
+   "quote": "joined forces to persecute the Catholics"
+  },
+  {
+   "entry": "ethiopian-christianity-tewodros-to-menelik",
+   "field": "longDescription",
+   "sentence": "It says Yohannes brought them twenty years of trouble.",
+   "url": "https://www.newadvent.org/cathen/01075e.htm",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/na_abyssinia.txt",
+   "quote": "His reign of twenty years was a time of trouble and suffering for the Catholics of Abyssinia."
+  },
+  {
+   "entry": "ethiopian-christianity-tewodros-to-menelik",
+   "field": "longDescription",
+   "sentence": "It says Menelik, crowned in March 1889, restored calm to the missions.",
+   "url": "https://www.newadvent.org/cathen/01075e.htm",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/na_abyssinia.txt",
+   "quote": "Menelik, the king of Shoa, who became Negus and was crowned in March, 1889, restored tranquility to the missions."
+  },
+  {
+   "entry": "ethiopian-christianity-tewodros-to-menelik",
+   "field": "longDescription",
+   "sentence": "This is a Catholic account, not the church's own.",
+   "record": "§3 AF-7",
+   "note": "Catholic stance named"
+  }
+ ],
+ "neighbor_changes": [
+  {
+   "id": "ethiopian-christianity-gragn-to-fasilides",
+   "set": {
+    "continuesAs": "ethiopian-christianity-gondar-to-the-zemene-mesafint"
+   },
+   "ruling": "G89-7 a",
+   "reason": "The new row for 1650 to 1855 follows this one. The Ethiopian church carries on from the end of this row into it."
+  },
+  {
+   "id": "kongo-christianity-afonso-to-1650",
+   "set": {
+    "continuesAs": "kongo-christianity-after-1650"
+   },
+   "ruling": "G89-9 a",
+   "reason": "The Kongo church of this row carries on into the new row from 1650."
+  },
+  {
+   "id": "ethiopian-christianity-tewodros-to-menelik",
+   "set": {
+    "longDescription": "For a century Ethiopia's emperors had been figureheads while regional lords ruled. Then in 1855 a soldier from the provinces took the throne as Tewodros II. He set out to remake the empire, and its church too. He seized church lands and tried to bring the clergy under his hand. His quarrel with Britain ended in 1868, when a British army stormed Magdala and he took his own life. Yohannes IV took the throne a few years later. He settled an argument that had split Ethiopian scholars for two centuries. At the Council of Boru Meda in 1878 he ruled for the Tewahedo teaching on how God and man are united in Christ. He then made it the one teaching of the empire. Menelik II did what no other African ruler managed in that century. At Adwa in 1896 he crushed an invading Italian army and kept his country free. Ethiopia entered the twentieth century as an ancient Christian state that had never been ruled by Europeans. Its church still took its head, the abun, from the Coptic patriarch in Egypt.\n\nMissionaries kept coming. Donald Crummey wrote about them in a study of the missions from 1830 to 1868. It is called Priests and Politicians.\n\nA Catholic source of 1907 says Tewodros made Catholics suffer. It says Yohannes brought them twenty years of trouble.\n\nIt says Menelik, crowned in March 1889, restored calm to the missions. This is a Catholic account, not the church's own."
+   },
+   "ruling": "G89-11 a; G89-13 a",
+   "reason": "Named lines for the Catholic and Protestant missions of 1830 to 1868 (AF-7's Ge'ez-rite Catholic line and AF-9's mission line). Only the first paragraph is old text, unchanged. The Swedish mission line is held."
+  }
+ ],
+ "links": [
+  {
+   "id": "ethiopian-christianity-gragn-to-fasilides--ethiopian-christianity-gondar-to-the-zemene-mesafint",
+   "from": "ethiopian-christianity-gragn-to-fasilides",
+   "to": "ethiopian-christianity-gondar-to-the-zemene-mesafint",
+   "type": "continued as",
+   "confidence": "Widely Accepted",
+   "note": "In the 1520s Francisco Alvares called the chief of the monks of Debra Libanos the greatest prelate in the kingdom after the abun. In the early 1770s Bruce wrote that this chief mattered more than the abun in troubled times. The same house and the same office run through both reports.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Francisco Alvares, Narrative of the Portuguese Embassy to Abyssinia, 1520-1527 (trans. Stanley, 1881), ch. 66",
+     "file": "cic/texts/alvares_narrative-of-the-portuguese-embassy-to-abyssinia_stanley1881.txt",
+     "lines": "7619-7621",
+     "locus": "ch. lxvi, the monastery of Debra Libanos",
+     "quote": "This Ichee of this monastery is the greatest prelate there is in these kingdoms, exclusive of the Abima Marcos, who is over all.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "James Bruce, Travels to Discover the Source of the Nile, vol. 3 (Edinburgh, 1790)",
+     "url": "https://archive.org/download/travelstodiscov03bruc/travelstodiscov03bruc_djvu.txt",
+     "accessed": "2026-11-10",
+     "raw_file": "raw/travelstodiscov03bruc.txt",
+     "locus": "on the Itchegue and the Abuna",
+     "quote": "He is a man, in troublefome times, of much greater confequence than the Abuna.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Adrian Hastings, The Church in Africa, 1450-1950 (Oxford, 1994)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-online",
+   "ruling": "G89-7 a"
+  },
+  {
+   "id": "ethiopian-christianity-gondar-to-the-zemene-mesafint--ethiopian-christianity-tewodros-to-menelik",
+   "from": "ethiopian-christianity-gondar-to-the-zemene-mesafint",
+   "to": "ethiopian-christianity-tewodros-to-menelik",
+   "type": "continued as",
+   "confidence": "Widely Accepted",
+   "note": "Bruce describes the abun in the 1770s as a Coptic monk from Egypt. Budge wrote in 1898 that for centuries the abun was always appointed by the Coptic patriarch. A study of the missions from 1830 to 1868 covers the years in between.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "James Bruce, Travels to Discover the Source of the Nile, vol. 3 (Edinburgh, 1790)",
+     "url": "https://archive.org/download/travelstodiscov03bruc/travelstodiscov03bruc_djvu.txt",
+     "accessed": "2026-11-10",
+     "raw_file": "raw/travelstodiscov03bruc.txt",
+     "locus": "on the Abuna",
+     "quote": "a coptifh monk bred ia the defert of St Macarius",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "E. A. Wallis Budge, introduction to The Lives of Maba' Seyon and Gabra Krestos (1898), on the abun",
+     "file": "cic/texts/gadla-maba-seyon_lives-of-maba-seyon-and-gabra-krestos_budge1898.txt",
+     "lines": "534-536",
+     "locus": "Introduction, on Frumentius and the abun",
+     "quote": "thus it came to pass that for centuries the Abuna, or head of the Ethiopian church, was always appointed by the patriarch of the Coptic Church.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Donald Crummey, Priests and Politicians: Protestant and Catholic Missions in Orthodox Ethiopia, 1830-1868 (Oxford, 1972)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-online",
+   "ruling": "G89-7 a"
+  },
+  {
+   "id": "ethiopian-christianity-gondar-to-the-zemene-mesafint--the-coptic-church-under-the-ottomans",
+   "from": "ethiopian-christianity-gondar-to-the-zemene-mesafint",
+   "to": "the-coptic-church-under-the-ottomans",
+   "type": "in contact with",
+   "confidence": "Widely Accepted",
+   "note": "Kugler wrote that Girgis and the chief priest of Tigray brought the Coptic patriarch's decision on their religious quarrels from Cairo. The dispute was settled before the ruler Sebagadis on 28 September. Bruce adds that a new abun came from Egypt when a new king took the throne.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Samuel Gobat, Journal of a Three Years' Residence in Abyssinia (London, 1834), preface quoting C. Kugler",
+     "url": "https://archive.org/download/journalthreeyea01gobagoog/journalthreeyea01gobagoog_djvu.txt",
+     "accessed": "2026-11-10",
+     "raw_file": "raw/journalthreeyea01gobagoog.txt",
+     "locus": "Preface, Kugler's letter",
+     "quote": "They brought the decision of the Coptic Patriarch concerning their religious quarrels.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Samuel Gobat, Journal of a Three Years' Residence in Abyssinia (London, 1834), preface quoting C. Kugler",
+     "url": "https://archive.org/download/journalthreeyea01gobagoog/journalthreeyea01gobagoog_djvu.txt",
+     "accessed": "2026-11-10",
+     "raw_file": "raw/journalthreeyea01gobagoog.txt",
+     "locus": "Preface, Kugler's letter",
+     "quote": "the dispute about Religion was regularly adjusted, in the presence of Dejasmat Sebagadis",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "James Bruce, Travels to Discover the Source of the Nile, vol. 2 (Edinburgh, 1790)",
+     "url": "https://archive.org/download/travelstodiscov02bruc/travelstodiscov02bruc_djvu.txt",
+     "accessed": "2026-11-10",
+     "raw_file": "raw/travelstodiscov02bruc.txt",
+     "locus": "reign of David",
+     "quote": "anew Abuna was come from Egypt",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "E. A. Wallis Budge, introduction to The Lives of Maba' Seyon and Gabra Krestos (1898), on the abun",
+     "file": "cic/texts/gadla-maba-seyon_lives-of-maba-seyon-and-gabra-krestos_budge1898.txt",
+     "lines": "534-536",
+     "locus": "Introduction, on Frumentius and the abun",
+     "quote": "thus it came to pass that for centuries the Abuna, or head of the Ethiopian church, was always appointed by the patriarch of the Coptic Church.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Magdi Guirguis and Nelly van Doorn-Harder, The Emergence of the Modern Coptic Papacy (AUC Press, 2011)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-online",
+   "ruling": "G89-7 a; G89-8 a",
+   "outcome": "The Coptic patriarch's ruling settled the priests' quarrel in Tigray."
+  },
+  {
+   "id": "coptic-christianity-fatimid-to-mamluk--the-coptic-church-under-the-ottomans",
+   "from": "coptic-christianity-fatimid-to-mamluk",
+   "to": "the-coptic-church-under-the-ottomans",
+   "type": "continued as",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "A list of Coptic patriarchs, printed by Budge in 1928, runs as one numbered line. It gives John X in 1363 to 1369 and Gabriel IV from 1370. It carries on past the Ottoman conquest of 1517. No entry tells the years from 1300 to 1517, so this line rests on modern lists.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "E. A. Wallis Budge, table of the Jacobite (Coptic) patriarchs of Alexandria, introduction to The Book of the Saints of the Ethiopian Church, vol. 1 (1928), nos. 85-86 (a modern compiled list)",
+     "file": "cic/texts/ethiopian-synaxarium_book-of-saints-ethiopian-church-v1-maskaram-khedar_budge1928.txt",
+     "lines": "2827-2831",
+     "locus": "Introduction, list of the Jacobite patriarchs, nos. 85-86",
+     "quote": "THE JACOBITE PATRIARCHS OF ALEXANDRIA 85 John X 1363-1369 86 Gabriel IV 1370-1378",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "E. A. Wallis Budge, table of the Jacobite (Coptic) patriarchs of Alexandria, introduction to The Book of the Saints of the Ethiopian Church, vol. 1 (1928), nos. 94-95 (a modern compiled list)",
+     "file": "cic/texts/ethiopian-synaxarium_book-of-saints-ethiopian-church-v1-maskaram-khedar_budge1928.txt",
+     "lines": "2839-2840",
+     "locus": "Introduction, list of the Jacobite patriarchs, nos. 94-95",
+     "quote": "94 John XIII 1484-1524 95 Gabriel VII 1526-1569",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Otto Meinardus, Two Thousand Years of Coptic Christianity (AUC Press, 1999)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Magdi Guirguis and Nelly van Doorn-Harder, The Emergence of the Modern Coptic Papacy (AUC Press, 2011)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "ruling": "G89-8 a"
+  },
+  {
+   "id": "the-coptic-church-under-the-ottomans--coptic-revival-under-cyril-iv",
+   "from": "the-coptic-church-under-the-ottomans",
+   "to": "coptic-revival-under-cyril-iv",
+   "type": "continued as",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "The same list of Coptic patriarchs, printed by Budge in 1928, runs on to 1854. It counts the reformer who took office that year as the 110th, naming him Cyril V, though most lists call him Cyril IV. It names Peter VII for 1809 to 1852. This line rests on a modern list.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "E. A. Wallis Budge, table of the Jacobite (Coptic) patriarchs of Alexandria, introduction to The Book of the Saints of the Ethiopian Church, vol. 1 (1928), nos. 108-110 (a modern compiled list)",
+     "file": "cic/texts/ethiopian-synaxarium_book-of-saints-ethiopian-church-v1-maskaram-khedar_budge1928.txt",
+     "lines": "2855-2857",
+     "locus": "Introduction, list of the Jacobite patriarchs, nos. 108-110",
+     "quote": "108 Mark VIII 1796-1809 tog Peter VII 1809-1852 110 Cyril V 1854-1861",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Otto Meinardus, Two Thousand Years of Coptic Christianity (AUC Press, 1999)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Magdi Guirguis and Nelly van Doorn-Harder, The Emergence of the Modern Coptic Papacy (AUC Press, 2011)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "ruling": "G89-8 a"
+  },
+  {
+   "id": "kongo-christianity-afonso-to-1650--kongo-christianity-after-1650",
+   "from": "kongo-christianity-afonso-to-1650",
+   "to": "kongo-christianity-after-1650",
+   "type": "continued as",
+   "confidence": "Widely Accepted",
+   "note": "A report of 1591 says the Portuguese ships reached the Zaire in 1491. In the late 1660s Carli wrote that the adults of a Kongo village were all baptized. The church of the first mission is the church the Capuchins served.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Duarte Lopes and Filippo Pigafetta, A Report of the Kingdom of Congo (1591), trans. Margarite Hutchinson (1881)",
+     "file": "cic/texts/lopes_report-of-the-kingdom-of-congo_hutchinson1881.txt",
+     "lines": "3511-3514",
+     "locus": "Book II",
+     "quote": "At laft, the fhips arrived with the expected means, which was in the year 1491 of our era, and anchored at the mouth of the Zaire.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Dionigi Carli and Michelangelo Guattini, Viaggio nel regno del Congo (1671)",
+     "file": "cic/texts/carli_viaggio-nel-regno-del-congo-ita_guattini1671.txt",
+     "lines": "2946",
+     "locus": "the village of Bamba",
+     "quote": "perche 1* adulti iono tutti battezzati,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Adrian Hastings, The Church in Africa, 1450-1950 (Oxford, 1994)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "ruling": "G89-9 a"
+  },
+  {
+   "id": "kongo-christianity-after-1650--the-antonian-movement-in-kongo",
+   "from": "kongo-christianity-after-1650",
+   "to": "the-antonian-movement-in-kongo",
+   "type": "gave rise to",
+   "confidence": "Inferential-Thin",
+   "note": "Carli wrote in 1671 of Kongo villages with baptized adults. Dona Beatriz's movement rose inside Kongo from 1704. How far it grew out of that church rests on one modern study, so the tie is thin.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "John Thornton, The Kongolese Saint Anthony: Dona Beatriz Kimpa Vita and the Antonian Movement, 1684-1706 (Cambridge, 1998)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Dionigi Carli and Michelangelo Guattini, Viaggio nel regno del Congo (1671)",
+     "file": "cic/texts/carli_viaggio-nel-regno-del-congo-ita_guattini1671.txt",
+     "lines": "2946",
+     "locus": "the village of Bamba",
+     "quote": "perche 1* adulti iono tutti battezzati,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "named-not-rechecked",
+   "ruling": "G89-9 a"
+  },
+  {
+   "id": "the-remonstrants-and-dort--the-dutch-reformed-church-at-the-cape",
+   "from": "the-remonstrants-and-dort",
+   "to": "the-dutch-reformed-church-at-the-cape",
+   "type": "influenced",
+   "confidence": "Widely Accepted",
+   "note": "In 1869 McCarter named the standards of the Dutch Reformed Church in South Africa. They are the Heidelberg Catechism, the Belgic Confession and the Canons of Dort.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John McCarter, The Dutch Reformed Church in South Africa (Edinburgh, 1869)",
+     "url": "https://archive.org/download/dutchreformedchu00mcar/dutchreformedchu00mcar_djvu.txt",
+     "accessed": "2026-11-10",
+     "raw_file": "raw/dutchreformedchu00mcar.txt",
+     "locus": "on the church's standards",
+     "quote": "Its Standards are the Heidelberg Catechism, the Belgic Confession, and the Canons of the Synod of Dort.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Richard Elphick and Rodney Davenport, eds., Christianity in South Africa: A Political, Social and Cultural History (1997)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-online",
+   "ruling": "G89-5 a"
+  }
+ ],
+ "retire_links": [
+  {
+   "id": "coptic-christianity-fatimid-to-mamluk--coptic-revival-under-cyril-iv",
+   "reason": "The Coptic row for 1517 to 1854 now stands between these two entries. The old line is replaced by two: one from the Fatimid-to-Mamluk entry to the new row, and one from the new row to the revival entry.",
+   "replacedBy": "coptic-christianity-fatimid-to-mamluk--the-coptic-church-under-the-ottomans",
+   "ruling": "G89-8 a; G89-6 a"
+  }
+ ],
+ "holds": [
+  {
+   "item": "AF-8: West Africa before the mission societies (Quaque in the Church of England row, Freetown in the Baptist row; Capitein waits on the Dutch Reformed row or a Dutch line)",
+   "g89": "G89-12 a",
+   "reason": "No item for Capitein, Quaque or Rebecca Protten was opened in the sweep. The only lead is a modern translation of Capitein (2001), not public domain.",
+   "waits_for": "A pre-1930 source for Quaque (SPG) and for the Freetown settlers' churches, opened raw."
+  },
+  {
+   "item": "AF-9: the Swedish mission in Eritrea from 1866 and Onesimos Nesib's Oromo Bible (1899), as lines in AF-1, VIII.49 and IX.20",
+   "g89": "G89-13 a",
+   "reason": "Only [S] in the record. No source for it was read, so no sentence is drafted. The CMS line (Gobat, Kugler) is drafted in AF-1, and a 1830-1868 line in VIII.49 rests on Crummey's title only.",
+   "waits_for": "A pre-1930 Swedish Evangelical Mission report or a life of Onesimos Nesib, opened raw; and a source for the date 1866."
+  },
+  {
+   "item": "AF-7 (Ge'ez-rite Catholics): the community by that name, de Jacobis from 1839, Ghebre Mikael (d. 1855), Halai and Akkele Guzay",
+   "g89": "G89-11 a",
+   "reason": "The Catholic Encyclopedia article read says only that Rome made Abyssinia a vicariate in 1846, that de Jacobus's work stirred the clergy, and that persecution followed. It does not name the rite, the date 1839 or Ghebre Mikael.",
+   "waits_for": "A source naming the Ge'ez rite and these men, for example Crummey (1972) or a pre-1930 life of de Jacobis, opened raw."
+  },
+  {
+   "item": "AF-7 (Coptic Catholics): the patriarchate named in 1824 and filled in 1895",
+   "g89": "G89-11 a",
+   "reason": "[S] in the record. Only Butcher's account of 1741 was read.",
+   "waits_for": "A source for 1824 and 1895, opened raw."
+  },
+  {
+   "item": "AF-4: the synod resolution of 1857 and the founding of the Dutch Reformed Mission Church in 1881, and the link from this row to the church struggle against apartheid",
+   "g89": "G89-5 a",
+   "reason": "Not in McCarter (1869). The record says to draft the 1857 line only once a pre-1930 source is read.",
+   "waits_for": "The Acta Synodi of 1857 in Dutch, and a pre-1930 history that prints the resolution and the Mission Church's founding."
+  },
+  {
+   "item": "AF-3: the years from about 1720 to 1879 (the lay church, Pedro IV, the faded Capuchin mission, Njinga's return to the church)",
+   "g89": "G89-9 a",
+   "reason": "Merolla (1692), Zucchelli (1715) and Proyart in Pinkerton vol. 16 (1814) are in the Library but were not read; Cavazzi's passage on Njinga's return was not located in the OCR.",
+   "waits_for": "A read of those Library texts for 1680-1760, and a source for 1720-1879."
+  },
+  {
+   "item": "AF-1: the Zemene Mesafint (its start in 1769 and its character)",
+   "g89": "G89-7 a",
+   "reason": "No item read for this sweep describes it; the sentence in the row rests on the record's own account.",
+   "waits_for": "Guidi's annals of Iyasu II and Iyo'as, or Weld Blundell's Royal Chronicle of Abyssinia, 1769-1840 (1922), opened raw."
+  }
+ ],
+ "wants": [
+  "Guidi, Annales Iohannis I, Iyasu I, Bakaffa (CSCO, 1903-05) and the annals of Iyasu II and Iyo'as, in Ge'ez with Latin: the royal chronicles of AF-1. Lending-only copies on archive.org.",
+  "H. Weld Blundell, The Royal Chronicle of Abyssinia, 1769-1840 (Cambridge, 1922): the Zemene Mesafint in the court's own words. Not found on archive.org by title.",
+  "The Arabic History of the Patriarchs for the Ottoman patriarchs, and J. M. Vansleb, Histoire de l'Eglise d'Alexandrie (Paris, 1677), for AF-2.",
+  "The archons' own letters and waqf deeds, and Magdi Guirguis's work on the Jawhari brothers, for the archon line in AF-2.",
+  "Kongolese letters to Rome and Lisbon, and the Capuchin manuscripts of Antonio de Teruel and Bernardo da Gallo, for AF-3.",
+  "Acta Synodi of 1857 and a pre-1930 history of the Dutch Reformed Mission Church (1881), for AF-4.",
+  "Ntsikana's hymn in Xhosa from a pre-1930 printing, for AF-5."
+ ],
+ "flags": [
+  "LIVING: ethiopian-christianity-gondar-to-the-zemene-mesafint — the same church as the entries on either side, carried to the last of them, whose own dated evidence is graded CR; every item of it is [S] (newest 2022, none verified). R2 is met only through that neighbor's own evidence, as the brief allows; the reviewer may prefer living:false.",
+  "LIVING: the-coptic-church-under-the-ottomans — the same church carried into the revival entry, whose own evidence is graded CR (newest dated 2019; one item verified, a 2017 study of Habib Girgis, which does not describe the present). Same caveat.",
+  "NOT LIVING: kongo-christianity-after-1650, the-dutch-reformed-church-at-the-cape and southern-african-mission-churches are set living:false and carry no livingEvidence. The record gives grade 'none (no dated item after 2010)' for each and no neighboring row carries evidence that reaches them, so R2 to R4 cannot be met. The traditions themselves continue; the reviewer may change this once a dated item is read.",
+  "ERA of AF-2 is set to 8, not 7: the row runs 1517 to 1854 and its middle lies in era 8. With era 7 the continuesAs to the revival row (era 9) would break the validator's one-era rule. IV.26 has no continuesAs field, so nothing is set on it; the 'continued as' link IV.26 to AF-2 crosses more than one era, which the validator allows for links.",
+  "AF-2 starts 1517 by Mark's ruling relayed by the coordinator; no variants key is given. The 1300-1517 years are logged for the era 6 owner and are not drafted here.",
+  "AF-2 name: the record's candidate title carries 'the patriarchate and the archons'; the row name keeps it, the informal name repeats it. The word 'archons' and the Arabic arakhina are the record's own terms and do not appear in the quoted texts; Butcher and Volney describe the lay notables without that word.",
+  "AF-3 dates run 1650-1881: the end rests on Bentley (Portuguese priests first at San Salvador in 1881; the Baptist station of 1879). The record says 'c. 1880s'. The date range, not the label, is the claim; change if Mark prefers 'c. 1880s'.",
+  "AF-3 lane is the 4<->5 bridge as IX.59 uses it (record: 4 Africa, or the bridge). The existing VI.13a, the Kongo row before it, is lane 5.",
+  "modernCountries is [] for AF-3, AF-4 and AF-5: Angola, DR Congo, South Africa and Lesotho have no countryId or placeId in any census row, and the brief forbids typing IDs from memory. Needs Wikidata IDs added at apply.",
+  "AF-4 and AF-5 have no link to each other, to VII.4 (the Moravian Cape mission, a named line in another slice) or to IX.60. McCarter reports that several coloured congregations began as home missions of Dutch colonists; that sentence is left out so that no relationship is named without a link. The AF-4 to IX.60 link is in holds.",
+  "AF-5 era is 9 (1737-1815 is 78 years, 1815-1906 is 91). VIII.7 is the precedent for an era 9 row starting earlier.",
+  "OCR: every raw quote keeps the OCR as read (long s read as f, 'ia' for 'in', 'asa', '|' and page-header words inside quotes, and 'Kafir' in Chalmers and McCarter, the sources' period word; it is a slur today and appears only in the fact table's quotes, never in the prose). Bruce, Volney, Ludolf, Carli and Cavazzi are the worst; check page images before any census use. Raw files are saved under raw/ with SOURCES.json.",
+  "SOURCE ADDED, public domain, opened raw: The Catholic Encyclopedia, 'Abyssinia' (1907), https://www.newadvent.org/cathen/01075e.htm, fetched with curl on 2026-11-10; its text is the page's HTML with tags stripped (raw/na_abyssinia.txt, so spaces sit before some commas). The record does not cite it. It supplies the vicariate of 1846, the stoning of 1752 and the 1860-1900 persecution lines. It is a Catholic study of 1907, and it spells de Jacobis 'de Jacobus'.",
+  "Volney: the copy opened is the second edition (London, 1788); the record gives 1787 for the first. The prose says only 'traveled from 1783 to 1785', from the title page.",
+  "Lane: the copy opened is the fifth edition (1860) of an account written 1833-35; the prose dates the reckoning from the writing years.",
+  "Record discrepancies mended: the record says Bruce was at Gondar in 1770-71; the prose says 'early 1770s' since no quote read here gives the years. Gobat's year for Kugler's letter is not on the page read, so the prose gives only '28 September'.",
+  "Hastings 1994, Crummey 1972, Elphick and Davenport 1997, Thornton 1998, Meinardus 1999 and Guirguis and van Doorn-Harder 2011 are named, not read (all repo-cited; Elphick and Davenport only in the era 10 sweep record). The links that rest partly on them are WA or DMR on the named secondary, as the validator needs.",
+  "The links with online sources (VI.25 to AF-1, AF-1 to VIII.49, AF-1 to AF-2, VI.26 to AF-4) are verified-online and Widely Accepted at most, as the brief caps them.",
+  "In-contact link AF-1 to AF-2 is major by its outcome: the Coptic patriarch's decision, an institutional act shown in Gobat's pages. The Budge 1898 note is a secondary source with a file, as in the existing VIII.13 to VIII.49 link.",
+  "AF-1: the Zemene Mesafint sentence rests on the record's own description [S] and is held (see holds). The two Ethiopian groups in AF-1's account are known only through outsiders.",
+  "VIII.49: only the appended paragraph is new. The existing paragraph is reproduced unchanged; the checker scores it as part of the new value.",
+  "IX.20, VIII.13, IV.26, VII.11 and IX.60 get no field change: the Swedish line is held, the Coptic Catholic line sits in AF-2 only, IV.26 has no continuesAs, VII.11 gets a link only, and IX.60's link is held.",
+  "Cavazzi's passage on Njinga is a rendering; the fact table keeps the Italian beside it. The word 'Ngamga' in Carli is the people's name for the Capuchin; Carli glosses a word they add as 'Sig.', rendered in the prose as a word of honor.",
+  "Not read: Merolla (1692), Zucchelli (1715) and Proyart in Pinkerton vol. 16 (1814), all in the Library. Not drafted: the Moravians in Cairo and Algiers and the Cape line in VII.4, and the American Mission in Egypt (RV-4), which belong to other slices."
+ ]
+}
