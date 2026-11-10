@@ -1092,3 +1092,9 @@ epilogue to his Latin version, and the only other words of Pamphilus held, the f
 `anf06`, are of disputed authorship. Ruling B was put as "Pamphilus wrote the Apology with
 Eusebius". Pamphilus is held by the standard every other held person met (no undisputed words of
 his own in the Library), and the Apology is wanted. The release carries 13 entries.
+
+**Cap ruling (data release 31, round 3).** The build's third Opus round (`Build/Ministry/Operations/Audits/2026-11-10_later-worlds-people/build/reviews/Review_Round3.json`)
+left one substantial finding: two swapped sentence fields in Basil of Caesarea's fact table, the
+drafting record. The coordinator closed it under Mark's standing instruction (2026-11-10) not to
+bring him every decision. The reviewer's exact text was applied (`build/p2/Draft_r3.json`) and
+checked against the source lines, and no census field depended on it.
