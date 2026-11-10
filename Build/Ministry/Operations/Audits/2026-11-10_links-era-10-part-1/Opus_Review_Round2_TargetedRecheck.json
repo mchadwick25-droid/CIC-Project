@@ -1,0 +1,55 @@
+{
+ "round": 2,
+ "verdict": "pass",
+ "scope": "Targeted recheck of the round 1 revision (e2e04b460) against 8badd1549: the diff, the 19 fixes, the Q1-Q3 rulings, the reviser's leftovers, and mechanics.",
+ "checks": {
+  "diff": "88 changed paths. Every one answers R1-1 to R1-19, Q1, Q2 or Q3, or is the Revision-round-1 escalation (Greek Church / WCC 'member of', not drafted) and the online_quote_check note. Nothing else slipped in. One link removed (mainline -> WCC, new in this PR, so nothing retires on main), one prose change added (F 7), one want added (Religious Bodies 1906, Part II).",
+  "quotes_refetched": {
+   "Religious Bodies 1906, Churches of Christ, p. 242 (archive.org djvu, 3,640,000 bytes = content-length; file ends in the back-matter index)": "verbatim, lines 164015-164018, under 'CHURCHES OF CHRIST. HISTORY.' (heading line 163919, page mark 242 at line 163954). The same section names the missionary society and instrumental music, which the CoC / Disciples note relies on.",
+   "Religious Bodies 1906, general statement, p. 235": "verbatim, lines 160590-160593, under 'GENERAL STATEMENT.'",
+   "Juster and Resnik (tikvatisrael.com)": "both quotes verbatim; 'January 28, 2005' and both signer lines verbatim; nothing on the page says the UMJC issued the paper (the only 'position paper ... jointly published by' wording is about 'The Ephraimite Error' in the bibliography).",
+   "WCC member page, Disciples of Christ": "'WCC Member Since 1948' verbatim."
+  },
+  "rulings": {
+   "Q1": "Disciples -> WCC is drawn correctly: type 'member of', from the member to the council, no major block, no outcome, on the council's own member record plus the repo-cited Stone-Campbell Encyclopedia. The Disciples entry itself says the row joined the WCC in 1948, so the row may carry the link. Withdrawing mainline -> WCC is right: its one source shows who joined, not descent, and the mainline row is a tradition across denominations that names no member church.",
+   "Q2": "New Calvinism -> emerging church: the New Calvinism entry names Driscoll as a carrier (relationsSummary; Acts 29 in longDescription and voices); Widely Accepted on Driscoll plus repo-cited secondaries fits. Narrative-kingdom -> dispensational: Wright is named in the entry's relationsSummary and voices, so his 2001 article counts, but with no secondary for the consensus reading Inferential-Thin is the grade the method brief gives. Messianic Judaism -> Hebrew Roots: the entry names neither Juster nor Resnik, and the UMJC is not shown to have issued the paper, so the paper is not admitted; Inferential-Thin with 'This rests on one paper' is correct (R1-7 fixed-differently accepted).",
+   "Q3": "All three Stone-Campbell links now rest on a denomination's own statement as primary (Disciples pp. 236-237; Churches of Christ p. 242); the bureau's p. 235 general statement is kind secondary and labelled context on all three. Grades hold."
+  },
+  "fixed_differently": {
+   "R1-5": "Accepted. 'became' -> 'was' changes no fact; Carpenter no longer carries content. One wording defect, R2-1.",
+   "R1-7": "Accepted (see Q2).",
+   "R1-8": "Accepted. Keeping 'the second half of the twentieth century' is more faithful than the reviewer's 'late'; no fact lost; the map remark is gone; FRE 60.4."
+  },
+  "mechanics": "Applied with my own code (10 census edge keys only): 33 added, 15 replaced, 41 prose changes with every 'old' matching the live text, 611 edges. validate-census.mjs: 1 error, the expected release-number error; 2 shortName warnings already on main. All 10 changed notes and 9 changed prose fields score FRE 60.3-76.6 on score_turn with no failures; the longest sentence is 25 words (E 1, F 6)."
+ },
+ "findings": [
+  {
+   "id": "R2-1",
+   "severity": "minor",
+   "link_or_field": "fundamentalism-1910-1970s--lausanne-era-global-evangelicalism (note)",
+   "problem": "The R1-5 rewrite left one author named in the note, so 'This rests on their books' no longer points to historians. The nearest plural is the evangelicals, or Graham and Stott. A reader can take it to mean the link rests on Graham's and Stott's own books.",
+   "evidence": "Note: '... Brian Stanley names their age after Graham and John Stott. This rests on their books.' In round 1 'their' covered Carpenter and Stanley, who were both named. The sources are Carpenter, Stanley and Wacker, all named and not re-checked.",
+   "fix": "Replace the last sentence with 'This rests on books by Stanley and others.' Whole note: 'Many fundamentalists later joined a wider group of evangelicals. Billy Graham was their best-known preacher. Brian Stanley names their age after Graham and John Stott. This rests on books by Stanley and others.' (FRE 61.4, FK 6.8, longest sentence 11 words)."
+  },
+  {
+   "id": "R2-2",
+   "severity": "minor",
+   "link_or_field": "Internal record: merge_dropped entry for churches-of-christ-twentieth-century--disciples-of-christ-and-independent-christian-churches; the Q3 drafter_flag on that link and on the-stone-campbell-restoration-movement--churches-of-christ-twentieth-century",
+   "problem": "After Q3, both links have one primary, the Churches of Christ's own statement (p. 242). The audit trail still says they rest on 'both bodies' own statements' and that 'the link's primaries are the bodies' own statements'. On the CoC / Disciples link, the round 1 flag 'the rupture is recorded from both sides' also now overstates. The Disciples' own statement is not quoted on that link, as the R1-2 flag itself says. The public text is unaffected.",
+   "evidence": "merge_dropped reason: 'kept group E's draft, on both bodies' own statements in Religious Bodies 1906.' Q3 flag: 'The link's primaries are the bodies' own statements, so Widely Accepted stands.' The sources on both links: one primary, the CoC statement, lines 164015-164018.",
+   "fix": "merge_dropped reason -> \"Drafted twice; kept group E's draft, on the Churches of Christ's own statement in Religious Bodies 1906, with the bureau's general statement as context.\" On both links, replace the Q3 flag's last sentence with: \"The link's primary is the Churches of Christ's own statement (p. 242), so Widely Accepted stands.\" On the CoC / Disciples link, append the flag: \"Round 2: the Disciples' side is not quoted on this link; the rupture is shown from the Churches of Christ's statement, with the bureau's general statement as context.\""
+  },
+  {
+   "id": "R2-3",
+   "severity": "minor",
+   "link_or_field": "Leftovers: the two dispositions on the-emerging-church-and-post-evangelical-movemen relationsSummary that cite Marti and Ganiel's publisher (prose change D 5)",
+   "problem": "This is the same defect as R1-18. A publisher's description is a summary and never counts. The prose is sound and can stay. 'Grew out of late evangelicalism' is the entry's own account. The new-monastic overlap was already in the entry's text. Marti and Ganiel (OUP, 2014) is on the entry's own source list, so it can stand as named, not re-checked.",
+   "evidence": "Reasons: \"Marti and Ganiel's publisher describes the movement 'disassociating from its roots ...'\" and \"Marti and Ganiel's fieldwork included 'neo-monastic communities' (publisher's description)\". The census entry's sources hold Marti & Ganiel, The Deconstructed Church (OUP, 2014), Tomlinson, The Post-Evangelical (1995), Rutba House, School(s) for Conversion (2005) and Markofski (2015).",
+   "fix": "Ruling: rest both dispositions on the entry's own text and its repo-cited sources, as in R1-18. Leave the prose unchanged. Reason 1 -> \"'Late evangelicalism' is no single census movement. The entry's own text has the movement begin among younger evangelical leaders, and its early book is Dave Tomlinson's The Post-Evangelical (1995). Gerardo Marti and Gladys Ganiel, The Deconstructed Church (Oxford University Press, 2014), on the entry's source list, is named, not re-checked. Kept, rewritten as a sentence. (Round 2: no longer rests on the publisher's description.)\" Reason 2 -> \"New monasticism has no census movement. The overlap was already in the entry's text and is kept. The entry's sources for the new monasticism are Rutba House, School(s) for Conversion (2005) and Markofski (2015); Marti and Ganiel (2014) is named, not re-checked. The Durham 2004 marks were not re-checked here. Kept. (Round 2: no longer rests on the publisher's description.)\""
+  }
+ ],
+ "notes_not_findings": [
+  "Greek Church / WCC 'member of' (Revision round 1 escalation): it was right not to draft it. What grade a 'member of' link takes on the council's own record alone, with no repo-cited secondary, is a method question for Mark. Under the brief as written it would be Inferential-Thin. Record it in the CFT Open_Gaps_Tracking so it does not go quiet before part 2.",
+  "Out of scope here, unchanged since main: the Stone-Campbell -> Disciples note still says 'census of churches', while its sibling links say 'survey of churches'. It can be aligned whenever that note is next touched."
+ ]
+}

@@ -852,7 +852,7 @@
    "to": "lausanne-era-global-evangelicalism",
    "type": "gave rise to",
    "confidence": "Dominant Modern Reconstruction",
-   "note": "Many fundamentalists later joined a wider group of evangelicals. Billy Graham was their best-known preacher. Brian Stanley names their age after Graham and John Stott. This rests on their books.",
+   "note": "Many fundamentalists later joined a wider group of evangelicals. Billy Graham was their best-known preacher. Brian Stanley names their age after Graham and John Stott. This rests on books by Stanley and others.",
    "sources": [
     {
      "kind": "secondary",
@@ -1546,7 +1546,7 @@
    "drafter_flags": [
     "Era 9 drafted this link; this era's text names it, so it is reviewed here as an existing link. from, to and type unchanged.",
     "Round 1 (R1-3): the General Statement on p. 235 is the bureau's own text, so it is kept as context (secondary), not as a primary. The link's primary is now the Churches of Christ's own statement (p. 242), the quote the Churches of Christ / Disciples link also uses, re-read by curl of the raw djvu text on 2026-11-10 (whitespace squashed). The grade rested on Q3, since ruled (a): see the next flag.",
-    "Revision round 1 (Q3 ruled (a)): each denomination's own statement in Religious Bodies 1906 counts as its own text; the bureau's general statements do not. The general statement on p. 235 is kept as context only (kind secondary). The link's primaries are the bodies' own statements, so Widely Accepted stands."
+    "Revision round 1 (Q3 ruled (a)): each denomination's own statement in Religious Bodies 1906 counts as its own text; the bureau's general statements do not. The general statement on p. 235 is kept as context only (kind secondary). The link's primary is the Churches of Christ's own statement (p. 242), so Widely Accepted stands."
    ],
    "change_reason": "Regraded from Dominant Modern Reconstruction to Widely Accepted: the 1910 government report, read online, records the churches' withdrawal, and Foster's article dates it. Note reworded to drop the word 'census'; facts unchanged. Round 1: the primary is now the Churches of Christ's own statement; the bureau's general statement is kept as context.",
    "group": "D"
@@ -1880,7 +1880,8 @@
     "The note calls the census of religious bodies a 'survey of churches', to keep the word census out of public text.",
     "Re-checked 2026-11-10 by plain curl of the same djvu text: every quote is there word for word. The OCR puts two spaces between words and breaks lines mid-sentence, so a raw grep for a single-spaced phrase finds nothing; squash whitespace first (e.g. tr -s ' \\n' ' '). Line numbers in the locus are in that text file.",
     "Round 1 (R1-2): the general statement on p. 235 is the bureau's own text, introducing both bodies; it is not the Disciples' statement. The note now says so. The Disciples' own statement (pp. 236-237) is not quoted.",
-    "Revision round 1 (Q3 ruled (a)): each denomination's own statement in Religious Bodies 1906 counts as its own text; the bureau's general statements do not. The general statement on p. 235 is kept as context only (kind secondary). The link's primaries are the bodies' own statements, so Widely Accepted stands."
+    "Revision round 1 (Q3 ruled (a)): each denomination's own statement in Religious Bodies 1906 counts as its own text; the bureau's general statements do not. The general statement on p. 235 is kept as context only (kind secondary). The link's primary is the Churches of Christ's own statement (p. 242), so Widely Accepted stands.",
+    "Round 2: the Disciples' side is not quoted on this link; the rupture is shown from the Churches of Christ's statement, with the bureau's general statement as context."
    ],
    "change_reason": "New: the 1906 division both texts name had no link.",
    "group": "E"
@@ -2936,7 +2937,7 @@
    "id": "churches-of-christ-twentieth-century--disciples-of-christ-and-independent-christian-churches",
    "group": "D",
    "kept_group": "E",
-   "reason": "Drafted twice; kept group E's draft, on both bodies' own statements in Religious Bodies 1906."
+   "reason": "Drafted twice; kept group E's draft, on the Churches of Christ's own statement in Religious Bodies 1906, with the bureau's general statement as context."
   }
  ],
  "dispositions": [
@@ -4829,7 +4830,7 @@
    "disposition": "no-entry",
    "link_id": null,
    "prose_change": 5,
-   "reason": "'Late evangelicalism' is no single census movement. Marti and Ganiel's publisher describes the movement 'disassociating from its roots in conservative, evangelical Christianity'; kept, rewritten as a sentence.",
+   "reason": "'Late evangelicalism' is no single census movement. The entry's own text has the movement begin among younger evangelical leaders, and its early book is Dave Tomlinson's The Post-Evangelical (1995). Gerardo Marti and Gladys Ganiel, The Deconstructed Church (Oxford University Press, 2014), on the entry's source list, is named, not re-checked. Kept, rewritten as a sentence. (Round 2: no longer rests on the publisher's description.)",
    "group": "D"
   },
   {
@@ -4840,7 +4841,7 @@
    "disposition": "no-entry",
    "link_id": null,
    "prose_change": 5,
-   "reason": "New monasticism has no census movement. Marti and Ganiel's fieldwork included 'neo-monastic communities' (publisher's description); the Durham 2004 marks were not re-checked here. Kept.",
+   "reason": "New monasticism has no census movement. The overlap was already in the entry's text and is kept. The entry's sources for the new monasticism are Rutba House, School(s) for Conversion (2005) and Markofski (2015); Marti and Ganiel (2014) is named, not re-checked. The Durham 2004 marks were not re-checked here. Kept. (Round 2: no longer rests on the publisher's description.)",
    "group": "D"
   },
   {
@@ -6502,5 +6503,8 @@
    "Not drafted, for the reviewer: a 'member of' link from the Greek Church and the Ecumenical Patriarchate to the World Council of Churches. The Greek entry says 'Orthodox membership of the World Council of Churches belongs to the entry on the ecumenical movement', and the WCC's own member pages (oikoumene.org/member-churches/ecumenical-patriarchate and /church-of-greece, read raw 2026-11-10) give 'WCC Member Since 1948' for both. No repo-cited secondary covers it, so under the brief it could not be Widely Accepted, and Inferential-Thin would misstate a membership the council itself records. The grade a 'member of' link takes when it rests on the council's own record alone is not yet ruled; the coordinator's Q1 instruction covered only the mainline and the Disciples."
   ]
  },
- "online_quote_check": "Every quote read online was checked against the page itself: web pages by a raw download and exact match (tags stripped, whitespace squashed), scanned PDFs against the page images by a separate agent (all 7 verbatim). Script: scratchpad l10-qc/check_online.py; results in Online_Quote_Check.json. Revision round 1: the Churches of Christ statement (p. 242) added to the Stone-Campbell link, and the Juster-Resnik paper's date, signers and both quotes, were re-read by raw curl on 2026-11-10 and match exactly (whitespace squashed)."
+ "online_quote_check": "Every quote read online was checked against the page itself: web pages by a raw download and exact match (tags stripped, whitespace squashed), scanned PDFs against the page images by a separate agent (all 7 verbatim). Script: scratchpad l10-qc/check_online.py; results in Online_Quote_Check.json. Revision round 1: the Churches of Christ statement (p. 242) added to the Stone-Campbell link, and the Juster-Resnik paper's date, signers and both quotes, were re-read by raw curl on 2026-11-10 and match exactly (whitespace squashed).",
+ "revision_round2": {
+  "note": "Round 2 minors R2-1 to R2-3 applied as the reviewer gave them."
+ }
 }
