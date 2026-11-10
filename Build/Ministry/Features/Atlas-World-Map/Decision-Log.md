@@ -13,6 +13,22 @@ actual world-selection flow is a future decision for the front-end thread, not t
 
 ---
 
+## 2026-11-10 — Data release 26: rows labeled "N. America" gain countries from their own text
+
+**Carried out under the change order of the same date (Mark: "c").**
+- 30 of the 31 rows gain countries: the United States on all 30, Canada on three (VIII.4, VIII.34,
+  IX.57) and Mexico on two (IX.15, IX.16). IX.32 names no place in the three countries and stays
+  empty.
+- Each country rests on a quoted sentence from that row's own text.
+- An independent review approved it to proceed in Round 2.
+- The tree pages now read, for example, "N. America, today in United States". This settles the IX.44
+  point in Open-Gaps 140. IX.48, labeled "North America", is outside the ruling and is logged as
+  Open-Gaps 141.
+- Records: `Design/StepZero-Eras/CiC_NAmerica_Countries_Proposed.json`, `_Review_Round1.md` and
+  `_Review_Round2.md`.
+
+---
+
 ## 2026-11-10 — Change order: modern countries for rows labeled "N. America"
 
 **Decided (Mark: "c").** A row whose place label includes "N. America" gets a modern country only

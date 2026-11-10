@@ -847,3 +847,11 @@ where its own text names that country or a place in it. Full entry: Atlas World 
 "Change order: modern countries for rows labeled 'N. America'". The work ships as data release 26
 after review.
 
+---
+
+## 2026-11-10 — Data release 26: "N. America" rows gain their countries
+
+30 rows gain the United States, Canada or Mexico, each from a sentence in the row's own text. It
+was reviewed in two rounds and approved to proceed. Full entry: Atlas World Map Decision-Log, "Data
+release 26".
+
