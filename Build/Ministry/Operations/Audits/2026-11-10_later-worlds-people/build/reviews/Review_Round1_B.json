@@ -1,0 +1,161 @@
+{
+ "round": 1,
+ "scope": [
+  "patrick-of-ireland",
+  "justinian-i",
+  "bede-of-jarrow",
+  "gregory-vii",
+  "innocent-iii",
+  "hugo-grotius",
+  "p3/Draft.json",
+  "p4/Draft.json"
+ ],
+ "verdict": "revise",
+ "findings": [
+  {
+   "id": "B1",
+   "target": "hugo-grotius",
+   "field": "dates/start/end/teaser",
+   "severity": "substantial",
+   "problem": "start 1583 is a birth year. The row item it replaces sits after Jacobus Arminius (1603) in the-remonstrants-and-dort people row. The validator orders a person item by its start (tools/validate-census.mjs line 159, 'yearOf'), so replacing the item in place fails 'the people list is not in date order'. Reordering the row would put Grotius before Arminius, which misleads. Every release 29 person entry uses sourced working years, not birth years (origen c. 203-253, john-calvin 1536-1564).",
+   "evidence": "cic/texts/grotius_defence-of-the-catholic-faith-satisfaction-of-christ_foster1889.txt:364 'one probably the first edition, Leyden, 1617'; line 2 gives 1583-1645 as life years. Census the-remonstrants-and-dort people: Arminius 1603, Hugo Grotius 1617.",
+   "fix": "Use working years from the 1617 Defence to his death: dates '1617-1645', start 1617, end 1645. The fact-table row cites Foster line 364 for 1617 and line 2 for 1645. Teaser: 'Leiden and the Netherlands, 1617 to 1645.' The row order then stays Arminius 1603, Grotius 1617."
+  },
+  {
+   "id": "B2",
+   "target": "hugo-grotius",
+   "field": "longDescription, why, sourcing (fact rows 48, 51)",
+   "severity": "substantial",
+   "problem": "'his one treatise on theology from the quarrel years' and 'the leading jurist on the Remonstrant side in the States of Holland' rest only on the Library thread's own header Content note (line 8). That is catalogue metadata the project wrote, not a source. Nothing in Foster's text supports 'one'. 'In 1617, at Leiden, he wrote' also turns the place of the first edition into the place of writing.",
+   "evidence": "Foster file line 8 (header Content note) is the only citation. Foster's own text gives only 'first edition, Leyden, 1617' (line 364). It gives no count of Grotius's theological works and no rank among the jurists.",
+   "fix": "longDescription paragraph 1: 'Grotius was a jurist of Holland on the Remonstrant side. In 1617 he published at Leiden a treatise on theology. It answers Faustus Socinus, who denied that Christ's death satisfied divine justice.' why: 'In 1617 he published at Leiden a defence of the doctrine that ...'. Cite Foster 364 and 756-757 ('his fellow-Arminians'). Drop 'one' and 'leading'."
+  },
+  {
+   "id": "B3",
+   "target": "hugo-grotius",
+   "field": "legacy, floorNote",
+   "severity": "substantial",
+   "problem": "The legacy says Baxter 'named him on both sides', and frames the lying passage with 'Yet he also'. In that passage Baxter rejects what Grotius wrote in De Jure Belli. That is a second criticism, not praise, so 'both sides' misleads. The floorNote sets 'Baxter said he had turned Papist' against 'His treatise defends the church's doctrine against Socinus' as if these were the two sides. They are not opposites. The real other side is in the same Baxter passage: Thomas Pierce defended Grotius as 'a judicious peaceable Protestant'.",
+   "evidence": "cic/texts/baxter_reliquiae-baxterianae_sylvester1696.txt:23646-23651 'having written somewhat in Defence of Grotius, as a judicious peaceable Protestant ... I did thereupon write a little Collection ... to prove him to have turned Papist'; line 51478 'nor do I believe Lying lawful after all that Grotius de Jure Belli ... have said for it'.",
+   "fix": "legacy: '... Baxter wrote against him twice. He warned the Episcopal party against \"Grotianism\". When Thomas Pierce defended Grotius as a peaceable Protestant, Baxter collected his late writings to prove he had turned Papist. He also rejected what Grotius had written in favour of lying.' The contested claim then names both sides (Pierce: Protestant; Baxter: Papist). For floorNote see B4."
+  },
+  {
+   "id": "B4",
+   "target": "patrick-of-ireland; justinian-i; bede-of-jarrow; hugo-grotius",
+   "field": "floorNote",
+   "severity": "substantial",
+   "problem": "floorNote is the doctrinal-floor note. It says whether the person stands within the faith the Nicene Creed states. Every release 29 person entry uses it that way ('Not in question.', or why a creed question is or is not raised: nestorius, peter-the-iberian). Four drafts put other caveats there instead. Patrick's is about his dates. Justinian's is about hostile sources. Bede's is about his bias. Grotius's is about the Papist charge. On the page this reads as a floor judgment, which misleads.",
+   "evidence": "Census person entries' floorNote values (augustine-of-hippo 'Not in question. He wrote On the Trinity ...', john-calvin 'Not in question.'); cft-website/index.html floorNote values for movements ('Nothing in this tradition's confession diverges from the doctrine the Nicene Creed states.').",
+   "fix": "Set floorNote to 'Not in question.' for all four. Move the caveats where they belong. Patrick's dates caveat goes into sourcing: '... His dates are not his own; they are the reckoning White's 1920 edition reports, and the old lives add details his letters never give.' Justinian's caveat about hostile sources goes into sourcing or the longDescription's last paragraph. Bede's caveat goes into sourcing; see also M7. Grotius's dispute is already in legacy (B3)."
+  },
+  {
+   "id": "B5",
+   "target": "innocent-iii",
+   "field": "sourcing",
+   "severity": "substantial",
+   "problem": "'Thin. The Library holds three of his letters' is wrong. Mirbt's source book alone gives him a run of numbered documents. They include letters of 1198 and 1199 on oaths and on Metz, the 1198 letter, the 1204 ruling on disputes between kingdoms, the canons of the Fourth Lateran Council (yearly confession among them) and his 1215 bull against Magna Carta. Theiner prints many more of his letters by pontifical year, 1204 to 1211. The facts about the Fourth Lateran Council are therefore in a vendored text, not only in the census.",
+   "evidence": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt:11797 'Papst Innocenz III. (1198-1216)', then nos. 267 (11804, Epist. I 38, March 1198), 268-270 (11826-11891, 1199), 272 (12059, 1204), 273 (12135, Sicut universitatis), 279 (12392, 'Die Osterbeichte'), 283 (12548, Bulle 'Etsi carissimus' v. 24. Aug. 1215). theiner_vetera-monumenta-slavorum-meridionalium-v1-lat_1863.txt year headings at 7227, 7298, 7366, 7433, 7508, 7573, 7640, 7713.",
+   "fix": "sourcing: 'Moderate. Mirbt's source book holds a run of his letters and bulls, from 1198 to 1215, and canons of his Fourth Lateran Council. Theiner's collection holds more of his letters to the Balkan churches, among them those of 1205 and 1209.' Cite the Mirbt canon on yearly confession (no. 279) for the 1215 sentence, in place of the census-only row 36."
+  },
+  {
+   "id": "B6",
+   "target": "gregory-vii",
+   "field": "longDescription, why, voices",
+   "severity": "substantial",
+   "problem": "The entry presents the Dictatus Papae as part of Gregory's own record ('In 1075 the Dictatus Papae set down ...'; voice line 'pope of the Dictatus Papae'). The flag says the prose treats it as his. Mirbt's own heading for the text cites Sackur's view that its author was Cardinal Deusdedit. Under answer C, a work of disputed authorship does not count as the person's own words. The contested authorship has to be named, with both sides.",
+   "evidence": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt:11186-11189 '255. Die Rechte des Papstes nach den Grundsätzen d. gregorian. Partei. Dictatus papae Gregorii VII., Registri II 55 a ... ESackur ...: Verfasser Kardinal Deusdedit (gest. c. 1099)'.",
+   "fix": "longDescription paragraph 2: 'A list of papal claims, the Dictatus Papae, is entered in his Register for 1075. One says the pope may depose emperors. Another says no one may judge him. Mirbt notes Sackur's view that Cardinal Deusdedit wrote it.' why: 'A list of papal claims in his Register for 1075 ...'. voices: 'Gregory VII — pope whose 1076 sentence on Henry IV and report on Canossa the Library holds'. Flag for the coordinator: the existing link latin-papal-church-gregorian--latin-papal-church-avignon-to-lateran-v, which this draft tags with gregory-vii, rests on the same attribution in its note ('Gregory VII's Dictatus Papae'). Its concerns tag stands or falls with that note. Flag it rather than edit it here."
+  },
+  {
+   "id": "B7",
+   "target": "justinian-i",
+   "field": "legacy",
+   "severity": "substantial",
+   "problem": "'His own preface speaks of priesthood and empire as God's gifts. The Coptic writers do not credit it.' No source shows the Coptic writers knew of this preface or answered it. The sentence states a relationship between two texts that the record does not hold.",
+   "evidence": "severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt:36140-36144 and 36467-36468 call him an evil man, a heretic and like Nestorius. They do not mention his Novels or this preface. Fact row 72 cites only the preface itself.",
+   "fix": "Delete the last two sentences of legacy, or replace them with: 'Neither side's picture is the whole of him; his own laws are held beside both.' The plain deletion is preferred."
+  },
+  {
+   "id": "M1",
+   "target": "justinian-i",
+   "field": "longDescription (rendering)",
+   "severity": "minor",
+   "problem": "The rendering of the Novel 6 preface leaves out 'a superna collata clementia' ('given by mercy from above'). It also folds 'praesidens ac diligentiam exhibens' ('presiding and taking care') into 'watches over'.",
+   "evidence": "justinian_novellae-...schoell-kroll1895.txt:10364-10369 'Maxima quidem in hominibus sunt dona dei a superna collata clementia sacerdotium et imperium, illud quidem divinis ministrans, hoc autem humanis praesidens ac diligentiam exhibens'.",
+   "fix": "'... he writes that the greatest gifts of God among men, given by mercy from above, are priesthood and empire. The one serves divine things. The other rules over human things and takes care of them.'"
+  },
+  {
+   "id": "M2",
+   "target": "gregory-vii",
+   "field": "longDescription (rendering)",
+   "severity": "minor",
+   "problem": "'than take Peter's seat for worldly glory' leaves out 'saeculari ingenio' ('by worldly cunning'), and 'take' weakens 'arripere' ('seize'). It also leaves out 'et ego non rapinam arbitratus sum ad sedem tuam ascendere'. The oath clause leaves out 'vel facient' ('or will make').",
+   "evidence": "mirbt_...1911.txt:10369-10372 'me invitum ad sua gubernacula traxit, et ego non rapinam arbitratus sum ad sedem tuam ascendere, potiusque volui vitam meam in peregrinatione finire, quam locum tuum pro gloria mundi saeculari ingenio arripere'; 10379-10380 'a vinculo iuramenti, quod sibi fecerunt vel facient, absolvo'.",
+   "fix": "'He says the Roman church dragged him to its helm against his will. He did not take the seat as a prize, he says. He would rather have ended his life as a pilgrim than seize Peter's place by worldly cunning, for the glory of the world.' And: 'He freed all Christians from the oaths they had sworn, or would swear, to the king.'"
+  },
+  {
+   "id": "M3",
+   "target": "innocent-iii",
+   "field": "longDescription (rendering)",
+   "severity": "minor",
+   "problem": "The 1198 letter is rendered without its key clauses. These are 'the greater to rule the day, the lesser the night', 'the greater over souls, as days, the lesser over bodies, as nights', and the moon 'truly less than [the sun] in size and quality, in place and in effect'. The hierarchy the letter argues is the point of the image, and the rendering drops it.",
+   "evidence": "mirbt_...1911.txt:12143-12149 (no. 273).",
+   "fix": "'God, the maker of all things, set two great lights in the sky, he says. The greater rules the day and the lesser the night. In the same way he set two great offices in the church. The greater rules souls, as if they were days. The lesser rules bodies, as if they were nights. These are the papal authority and the royal power.' Paragraph 2: 'The moon takes its light from the sun, he goes on, and is truly less than it in size and quality, in place and in effect. In the same way, royal power takes the splendour of its rank from the papal authority.'"
+  },
+  {
+   "id": "M4",
+   "target": "bede-of-jarrow",
+   "field": "legacy (rendering)",
+   "severity": "minor",
+   "problem": "The Middle English quotation is rendered without its last clause, 'and meyntene it'.",
+   "evidence": "wyclif_select-english-works-v3_arnold1871.txt:17672-17674 'We sellen Crist whanne we forsaken treuthe, and taken falsnesse and meyntene it.'",
+   "fix": "'... we sell Christ when we forsake truth, and take up falsehood and uphold it.'"
+  },
+  {
+   "id": "M5",
+   "target": "bede-of-jarrow",
+   "field": "longDescription",
+   "severity": "minor",
+   "problem": "'a deacon at nineteen and a priest at thirty' overstates both ages by one year. Bede's 'nineteenth year of my age' is age eighteen.",
+   "evidence": "bede_ecclesiastical-history-english-people_giles1903.txt:15429-15431 'In the nineteenth year of my age, I received deacon's orders; in the thirtieth, those of the priesthood'.",
+   "fix": "'He became a deacon in his nineteenth year and a priest in his thirtieth.'"
+  },
+  {
+   "id": "M6",
+   "target": "patrick-of-ireland",
+   "field": "legacy; modernCountries",
+   "severity": "minor",
+   "problem": "(a) 'the coming of Patrick among the Scots': to a modern reader 'Scots' means people of Scotland. Nennius means the Irish, as the same file glosses at line 1217. (b) 'Both accounts are told, and neither settles the other' gives a ninth-century legend the same weight as Patrick's own first-person count. (c) modernCountries copies only the Ireland row for the island (Q22890). The home record and the census map that island to both Ireland and the United Kingdom, and Patrick's letters name only 'Ireland'.",
+   "evidence": "nennius_history-of-the-britons-giles.txt:388 and 1216-1217 '(the Irish)'; insular-irish-monastic-christianity modernCountries (two rows for placeId Q22890).",
+   "fix": "(a) '... the coming of Patrick among the Scots, that is, the Irish.' (b) 'His own letter, the earlier witness, says six.' (c) Add the United Kingdom / Ireland row (countryId Q145, placeId Q22890) copied from the home record."
+  },
+  {
+   "id": "M7",
+   "target": "bede-of-jarrow",
+   "field": "floorNote/sourcing caveat text",
+   "severity": "minor",
+   "problem": "'what he says of its rivals rests on him alone' overclaims. The Library holds the Britons' own Gildas and Nennius, which Bede's own links cite. Jane's 1903 notice says the History is 'practically the only authority for the history of England from the Saxon invasion to the year 732'. It does not say 'the English church'.",
+   "evidence": "bede_...giles1903.txt:15636-15638; census edge british-welsh-christianity--anglo-saxon-christianity (Bede cites Gildas).",
+   "fix": "Where the caveat moves (B4): 'His History is practically the only record of England to 732, so much of what it says rests on him alone. He was not neutral about the Britons.'"
+  },
+  {
+   "id": "M8",
+   "target": "justinian-i",
+   "field": "why",
+   "severity": "minor",
+   "problem": "'Russian writers cite his laws' is the cited passage, and its author is Paisius Ligarides, a Greek metropolitan, writing in the Russian case. The draft's own flag says so. The legacy wording is accurate. The why wording is not.",
+   "evidence": "ligarides_history-of-the-condemnation-of-patriarch-nikon_palmer1873.txt:1-2 (Paisius Ligarides of Scio, ex-Metropolitan of Gaza), 5240.",
+   "fix": "'In Russia, the case against Patriarch Nikon cites his laws.'"
+  },
+  {
+   "id": "M9",
+   "target": "hugo-grotius",
+   "field": "relationsSummary; longDescription",
+   "severity": "minor",
+   "problem": "(a) 'English writers after 1660 name him, and their traditions carry that' is unclear. (b) 'Grotius was jailed for his part in their quarrel' rests only on the home record's voices line. The drafting brief asks that such a fact be tied to a vendored file or a source the census cites.",
+   "evidence": "Fact row 56 (census voices line only); draft flag on imprisonment.",
+   "fix": "(a) '... English writers after 1660 name him; his legacy below says how.' (b) Either keep the sentence with the census row and a wants entry (already filed), or recast as Foster's own words only: 'Foster, his translator, writes that he suffered under the ban on his fellow Arminians.'"
+  }
+ ],
+ "checked": "Ran check_draft.py on both drafts: 'check done', no lines printed. Compared each record's keys and order with origen: identical. Status, chip, glyph, statusWord, statusDescription, kind, toldWithin, living, overlayCurrent, c2, entry and reviewStatus all match release 29. New ids are absent from movements and retiredMovements. modernCountries IDs are each present in an existing census entry for the same place; one gap is noted in M6. Opened every vendored citation in both fact tables at its stated lines. These cover Patrick (White 1920: 1-25, 245-254, 728-738, 988-996, 1678-1692, 1955-1966, 2436-2446, 2836-2892, 3178-3186), Nennius 384-390 and 1205-1228, Lismore 16274-16284, and Rees 17750-17760 and 18660-18672. For Justinian they cover the Novellae (1-24, 10356-10372, 52630-52668, 56440-56458, 56670-56700), Procopius 2160-2198, the Coptic History (36136-36148, 36320-36330, 36464-36470) and Ligarides (1-2, 5215-5248). For Bede they cover Bede/Giles (1-8, 113-122, 15018-15025, 15415-15440, 15596-15640), Wyclif 17655-17676, the Breviary (536-540, 1933-1937, 70995-71006) and the Missal 34722-34730. For Gregory VII and Innocent III they cover Mirbt 10350-10396, 11170-11212, 11790-12152 and the Innocent III document headings, Calvin 10170-10176 and 10818-10832, Bengel 1306-1318 and 10214-10222, Barlow 3064-3072 and 18858-18870, the Catechism 14255-14288, the Martyrs Mirror 41818-41832, and Theiner's year headings and 7322-7332. For Grotius they cover Foster (1-12, 364, 748-760, 2486-2492; searched for 16xx years and imprisonment), Baxter 23644-23653 and 51472-51482, and Burnet 7258-7267. Checked the concerns tags against each link's note and quotes in the census. All eleven are about the person tagged, and none overwrote an existing value. The skipped links are sound: Facundus is an addressee only, the Armenian catholicos is a namesake, the 1054 link rests mainly on Humbert's bull, and the Calvin and Gregory the Great tags are left alone. The Avignon link's tag depends on the Dictatus attribution (B6). Checked rows: each replaced item is the person, and the date order holds except for Grotius (B1). Checked the legacy fields against final_row.counted_traditions: each names the two counted later traditions from different witnesses, and none claims influence. Ruling B (Paula, Pamphilus) does not apply to these six. No entry denies anyone's own words. Readability: the helper passed every paragraph. On a read for voice, I found no AI tells beyond the unclear sentences noted in M6 and M9."
+}

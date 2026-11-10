@@ -1,0 +1,2027 @@
+{
+ "entries": [
+  {
+   "id": "paula-of-rome",
+   "atlasId": "TBD",
+   "era": 2,
+   "kind": "person",
+   "toldWithin": "hieronymian-ascetic-literary",
+   "name": "Paula of Rome",
+   "shortName": "Paula",
+   "informalName": "Saint Paula",
+   "dates": "c. 386-404",
+   "start": 386,
+   "end": 404,
+   "region": "Rome, Bethlehem",
+   "placeLabel": "Rome · Bethlehem",
+   "modernCountries": [
+    {
+     "country": "Italy",
+     "countryId": "Q38",
+     "place": "Rome",
+     "placeId": "Q220",
+     "pleiadesId": "423025"
+    }
+   ],
+   "regions": [
+    "Mediterranean"
+   ],
+   "lane": "5 Latin West & Catholicism",
+   "laneLabel": "Latin West & Catholicism",
+   "laneOrder": 5,
+   "beyondFloor": false,
+   "status": "Within Another World (A5)",
+   "chip": "exc",
+   "glyph": "a5",
+   "statusWord": "Named within another tradition's story",
+   "statusDescription": "Not counted as a candidate tradition of its own — its story is told plainly inside another tradition's, rather than standing alone.",
+   "living": false,
+   "overlayCurrent": false,
+   "c2": null,
+   "sourcing": "Thin for her own voice, rich for her life. Her own words survive in one letter, Letter 46, sent from Bethlehem in 386 in her name and her daughter Eustochium's. It urges their friend Marcella to join them. The Library's editor says Jerome wrote it for them. Nearly all else we know comes from Jerome's Letter 108, written soon after she died.\n\nJerome, who taught her, wrote the full account of her, and he wrote it to praise her.\n\nOne outside report survives in two forms. In the Greek Lausiac History, a monk says Paula, who looks after Jerome, will die first and be freed from his bad temper. A later Syriac version says she died before her time to escape his envy and evil-eyedness. Our sources do not settle which is right.",
+   "floorNote": "Her faith is not in question.",
+   "relationsSummary": "Told within the Hieronymian circle, with Jerome and her daughter Eustochium. She left Rome for the holy places. At Bethlehem she set up a monastery for men and put the women who joined her into three houses.",
+   "why": "Paula was a Roman noblewoman and a widow. She gave her goods to her children and sailed east with her daughter Eustochium. At Bethlehem she led a community of women and studied Scripture with Jerome.",
+   "entry": null,
+   "teaser": "Rome and Bethlehem, c. 386 to 404 CE: a noblewoman who left her palace for a mud cabin, and learned Hebrew so she could chant the psalms in it.",
+   "longDescription": "Paula came from a noble Roman family. Jerome says it traced its line to the Gracchi and the Scipios. She married Toxotius and bore five children, among them Eustochium, Rufina and a son, Toxotius. When her husband died, Jerome writes, her grief nearly killed her. She then gave herself to the service of the Lord.\n\nLater she sailed east from Portus with Eustochium. On the shore her small son held out his hands, and Rufina begged her to wait until she was married. Jerome says her eyes stayed dry. She toured the holy places, then settled at Bethlehem and built cells and monastic buildings there.\n\nShe set up a monastery for men. She also gathered women from many provinces and divided them into three houses, which met for psalms and prayer. She read the Old and New Testaments under Jerome's guidance. She learned Hebrew well enough to chant the psalms in it. Jerome says she died after twenty years at Bethlehem, aged fifty-six.",
+   "voices": [
+    "Paula of Rome — whose letter to Marcella, sent with her daughter, the Library holds among Jerome's letters",
+    "Jerome — her teacher, who wrote her epitaph in Letter 108",
+    "Eustochium — her daughter, who sailed with her and shared her vows"
+   ],
+   "legacy": "Later Catholic writers hold her up as a model. A Catholic Life of Lady Magdalen Montague, printed in English in 1627, cites Jerome on \"the most noble widdow S. Paula\" to show how its heroine mourned her husband.\n\nIn Mexico, the nun Sor Juana Ines de la Cruz calls her \"my most holy Mother Paula\" and names her as a woman learned in Hebrew, Greek and Latin. Sor Juana says that she, a nun and \"daughter of a St. Jerome and of a Santa Paula\", would fall short of such learned parents if she stayed ignorant.",
+   "reviewStatus": "AI-checked"
+  },
+  {
+   "id": "constantine-the-great",
+   "atlasId": "TBD",
+   "era": 2,
+   "kind": "person",
+   "toldWithin": "imperial-juridical-christianity",
+   "name": "Constantine the Great",
+   "shortName": "Constantine",
+   "informalName": "Emperor Constantine",
+   "dates": "312-337",
+   "start": 312,
+   "end": 337,
+   "region": "Rome, Constantinople, Milan",
+   "placeLabel": "Rome · Constantinople and beyond",
+   "modernCountries": [
+    {
+     "country": "Italy",
+     "countryId": "Q38",
+     "place": "Rome",
+     "placeId": "Q220",
+     "pleiadesId": "423025"
+    },
+    {
+     "country": "Turkey",
+     "countryId": "Q43",
+     "place": "Constantinople",
+     "placeId": "Q16869",
+     "pleiadesId": "520998"
+    }
+   ],
+   "regions": [
+    "Asia Minor",
+    "Mediterranean"
+   ],
+   "lane": "3<->5 bridge (Greek East / Latin West)",
+   "laneLabel": "Greek East / Latin West — bridge",
+   "laneOrder": 3.5,
+   "beyondFloor": false,
+   "status": "Within Another World (A5)",
+   "chip": "exc",
+   "glyph": "a5",
+   "statusWord": "Named within another tradition's story",
+   "statusDescription": "Not counted as a candidate tradition of its own — its story is told plainly inside another tradition's, rather than standing alone.",
+   "living": false,
+   "overlayCurrent": false,
+   "c2": null,
+   "sourcing": "Rich, but through Eusebius. The Library holds the Edict of Milan and letters issued in Constantine's name. Eusebius copied them whole. He also records an Oration to the Assembly of the Saints, which he says Constantine wrote.\n\nHow and when he was baptized is disputed. Eusebius says Constantine asked the bishops for baptism near Nicomedia, close to the end of his life.\n\nA Syriac chronicle that goes under Zachariah's name says Eusebius is wrong. It says the emperor was not baptized at the end of his life, and it points to the story of his conversion by Silvester at Rome.",
+   "floorNote": "Not in question. He called the bishops to the council at Nicaea.",
+   "relationsSummary": "Told within Imperial and Juridical Christianity. It opens in 312, when he first let the church worship freely. He called the bishops to Nicaea and wrote letters and edicts on church quarrels.",
+   "why": "Constantine was the Roman emperor who ended the ban on the church. With Licinius he gave Christians, and all others, freedom to follow the religion they chose. He called the bishops to a great council at Nicaea. He also judged church quarrels and moved against groups he called heretics.",
+   "entry": null,
+   "teaser": "Milan and Nicaea, 312 to 337 CE: the emperor who let Christians worship, met their bishops at Nicaea, and sought baptism near his death.",
+   "longDescription": "In 312 Constantine began to tolerate the church. Later he and Licinius met at Milan. Their edict gave Christians and all others the freedom to follow the religion they chose. Eusebius copies it whole.\n\nA quarrel among African Christians, the Donatists, also came to him. He gave them judges, and the bishop of Rome sat with them. Donatus appealed. Constantine answered in the words Optatus gives: \"Oh, mad daring of their fury!\"\n\nHe called the bishops to Nicaea, says Eusebius. He wrote to Macarius of Jerusalem about a church at Christ's tomb. An edict of his takes away the houses of several groups, such as Novatians and Marcionites. Near Nicomedia he asked the bishops for baptism. He died there on 22 May 337.",
+   "voices": [
+    "Constantine — emperor, whose edicts and letters the Library holds as Eusebius copied them",
+    "Eusebius of Caesarea — who copied his documents and wrote his Life",
+    "Optatus of Milevis — a Catholic bishop who tells how Constantine met the Donatist appeal"
+   ],
+   "legacy": "Syriac writers, far from Rome, still name him. Michael the Syrian was a Syriac Orthodox patriarch. He says a monk of Alexandria wrote \"from Adam to the emperor Constantine\".\n\nA Syriac chronicle says Constantine and Helena built the church at Christ's tomb. The Persians took Jerusalem, and it burned.\n\nThe chronicle under Zachariah's name disputes Eusebius on his baptism. Eusebius has him ask for it near the end of his life. The chronicle says he was not baptized then, and it cites the story of his conversion by Silvester, kept in writing and in pictures at Rome.",
+   "reviewStatus": "AI-checked"
+  },
+  {
+   "id": "basil-of-caesarea",
+   "atlasId": "TBD",
+   "era": 2,
+   "kind": "person",
+   "toldWithin": "cappadocian-nicene-pastoral-monastic-tradition",
+   "name": "Basil of Caesarea",
+   "shortName": "Basil",
+   "informalName": "Basil the Great",
+   "dates": "c. 329-379",
+   "start": 329,
+   "end": 379,
+   "region": "Cappadocia / Anatolia",
+   "placeLabel": "Cappadocia",
+   "modernCountries": [
+    {
+     "country": "Turkey",
+     "countryId": "Q43",
+     "place": "Cappadocia",
+     "placeId": "Q217265",
+     "pleiadesId": "628949"
+    }
+   ],
+   "regions": [
+    "Asia Minor"
+   ],
+   "lane": "3 Greek East & Orthodoxy",
+   "laneLabel": "Greek East & Orthodoxy",
+   "laneOrder": 3,
+   "beyondFloor": false,
+   "status": "Within Another World (A5)",
+   "chip": "exc",
+   "glyph": "a5",
+   "statusWord": "Named within another tradition's story",
+   "statusDescription": "Not counted as a candidate tradition of its own — its story is told plainly inside another tradition's, rather than standing alone.",
+   "living": false,
+   "overlayCurrent": false,
+   "c2": null,
+   "sourcing": "Rich. The Library holds his letters and his treatise On the Holy Spirit in English. It holds his Ascetic Works, with the Longer and Shorter Rules, and his Address to Young Men. It also holds his Hexaemeron homilies and his three books Against Eunomius in Greek and Latin.\n\nSome famous works are disputed. Letter 38, often used to show that the three Cappadocians agreed, may be by Basil or by his brother Gregory of Nyssa.",
+   "floorNote": "His faith is not in question.",
+   "relationsSummary": "Told within the Cappadocians, with his brother Gregory of Nyssa and his friend Gregory of Nazianzus. He wrote On the Holy Spirit against those who ranked the Spirit below the Father and the Son. He made his brother and his friend bishops, and the friend resented it for years.",
+   "why": "Basil was bishop of Caesarea in Cappadocia from about 370. His treatise On the Holy Spirit answered those who ranked the Spirit below the Father and the Son. He argued from how the church already prayed. A council in 787 told double monasteries to keep his rule, and later churches call him \"the Great\".",
+   "entry": null,
+   "teaser": "Caesarea in Cappadocia, c. 329 to 379 CE: a bishop who defended the Spirit's place beside the Father and the Son, and wrote a rule for monks that a council and Benedict still named.",
+   "longDescription": "Basil was born in 329 or 330 in Cappadocia. He writes that his grandmother Macrina, a woman of Neocaesarea, brought him up. She had kept the words of Gregory the Wonder-worker, and she shaped him in them as a child.\n\nIn 370 Eusebius of Caesarea died, and Basil was made bishop in his place. Anthimus of Tyana claimed rights over part of the province, and Basil resisted him. To strengthen his hand, Basil set up new bishoprics. He made his brother Gregory bishop of Nyssa and his friend Gregory bishop of Sasima. The friend took it ill.\n\nSome bishops said the Spirit could not be ranked with the Father and the Son. Not long after 373, Basil answered them in On the Holy Spirit, written for Amphilochius. He argued from the church's own practice, such as its form of doxology. He says it comes down from Gregory the Wonder-worker, the old bishop of Neocaesarea. Basil died on 1 January 379.",
+   "voices": [
+    "Basil of Caesarea — bishop, theologian and teacher of monks, whose letters and treatises the Library holds",
+    "Macrina the elder — his grandmother, known through his letter to the Neocaesareans",
+    "Gregory of Nazianzus — his friend, whom he made bishop of Sasima"
+   ],
+   "legacy": "Later churches call him \"the Great\". Mark of Ephesus cites what Basil the Great says in his own prayers, which were said each year at Pentecost. Dositheus and his synod at Jerusalem, in 1672, name \"Basil the Great\" too. They say he answered slander in one short letter.\n\nThe Second Council of Nicaea, in 787, told double monasteries to keep \"the rule of our holy Father Basil\". Benedict's Rule lists \"the Rule of our Holy Father St. Basil\" among the books for monks.\n\nGennadius says Rufinus put works of Basil into Latin.\n\nJerome says Ambrose's Six Days took more from Basil than from Origen.",
+   "reviewStatus": "AI-checked"
+  },
+  {
+   "id": "gregory-of-nazianzus",
+   "atlasId": "TBD",
+   "era": 2,
+   "kind": "person",
+   "toldWithin": "cappadocian-nicene-pastoral-monastic-tradition",
+   "name": "Gregory of Nazianzus",
+   "shortName": "Gregory of Nazianzus",
+   "informalName": "Gregory the Theologian",
+   "dates": "c. 372-390",
+   "start": 372,
+   "end": 390,
+   "region": "Cappadocia / Anatolia",
+   "placeLabel": "Cappadocia",
+   "modernCountries": [
+    {
+     "country": "Turkey",
+     "countryId": "Q43",
+     "place": "Cappadocia",
+     "placeId": "Q217265",
+     "pleiadesId": "628949"
+    }
+   ],
+   "regions": [
+    "Asia Minor"
+   ],
+   "lane": "3 Greek East & Orthodoxy",
+   "laneLabel": "Greek East & Orthodoxy",
+   "laneOrder": 3,
+   "beyondFloor": false,
+   "status": "Within Another World (A5)",
+   "chip": "exc",
+   "glyph": "a5",
+   "statusWord": "Named within another tradition's story",
+   "statusDescription": "Not counted as a candidate tradition of its own — its story is told plainly inside another tradition's, rather than standing alone.",
+   "living": false,
+   "overlayCurrent": false,
+   "c2": null,
+   "sourcing": "Rich. The Library holds his Select Orations, his Select Letters and the Five Theological Orations in English. It holds his orations and letters in Greek and Latin, his two Invectives against Julian, and his poem on the books of Scripture.",
+   "floorNote": "His faith is not in question. Later churches call him \"the Theologian\", a title the editors say he shares with John the Evangelist alone among the Fathers.",
+   "relationsSummary": "Told within the Cappadocians, with his friend Basil. In 381 he took the chair of the great council, then resigned. He wrote two letters against Apollinarius.",
+   "why": "Gregory was a bishop, preacher and poet. He was born at Arianzus, near Nazianzus. His Five Theological Orations defend faith in the Trinity. They won him the title \"the Theologian\".",
+   "entry": null,
+   "teaser": "Nazianzus and Constantinople, c. 372 to 390 CE: the preacher called the Theologian, who took the chair of the great council of 381, then resigned and went home.",
+   "longDescription": "Gregory was born at Arianzus, a country estate near Nazianzus. Basil was his friend. About 372 Basil made him bishop of Sasima, a miserable little village. Gregory was angry, and the two were on strained terms for a long time.\n\nTheodosius gave him the churches of Constantinople. In 381 the council made him bishop there. Its head, Meletius, died, and he took the chair. Egyptian bishops objected, and he resigned.\n\nGregory wrote two letters to the priest Cledonius against Apollinarius. In the first he writes that what Christ has not taken on, he has not healed. After the council Gregory went home to Nazianzus. He retired to Arianzus about the end of 383, and he died there in 389 or 390.",
+   "voices": [
+    "Gregory of Nazianzus — bishop, preacher and poet, whose orations, letters and poems the Library holds",
+    "Basil of Caesarea — his friend, who made him bishop of Sasima",
+    "Cledonius — the priest to whom he wrote against Apollinarius"
+   ],
+   "legacy": "Both sides of the English quarrel of the 1500s quote him. John Jewel, for the Church of England, cites him on \"the pitiful state of his own time\", to show that Christians then also lived badly. The Catholic priest Robert Southwell cites him on life as a child's game, building houses of sand on the shore.\n\nJerome calls him \"my instructor in the Scriptures\". Gennadius says Rufinus put his works into Latin, as he did Basil's.",
+   "reviewStatus": "AI-checked"
+  }
+ ],
+ "fact_table": [
+  {
+   "entry": "paula-of-rome",
+   "field": "sourcing",
+   "sentence": "Her own words survive in one letter, Letter 46, issued in her name and her daughter Eustochium's.",
+   "file": "cic/texts/npnf206_jerome-principal-works.xml",
+   "lines": "8733",
+   "quote": "Letter XLVI. Paula and Eustochium to Marcella.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "paula-of-rome",
+   "field": "sourcing",
+   "sentence": "It was sent from Bethlehem in 386.",
+   "file": "cic/texts/npnf206_jerome-principal-works.xml",
+   "lines": "8740",
+   "quote": "386. It is written from Bethlehem",
+   "grade": "Documented"
+  },
+  {
+   "entry": "paula-of-rome",
+   "field": "sourcing",
+   "sentence": "It urges their friend Marcella to join them.",
+   "file": "cic/texts/npnf206_jerome-principal-works.xml",
+   "lines": "8736-8737",
+   "quote": "urging her to leave Rome and to join her old companions at Bethlehem",
+   "grade": "Documented"
+  },
+  {
+   "entry": "paula-of-rome",
+   "field": "sourcing",
+   "sentence": "The Library's editor says Jerome wrote it for them.",
+   "file": "cic/texts/npnf206_jerome-principal-works.xml",
+   "lines": "8734-8735",
+   "quote": "Jerome writes to Marcella in the name of Paula and",
+   "grade": "Documented"
+  },
+  {
+   "entry": "paula-of-rome",
+   "field": "sourcing",
+   "sentence": "Nearly all else we know comes from Jerome's Letter 108, written soon after she died.",
+   "file": "cic/texts/npnf206_jerome-principal-works.xml",
+   "lines": "20806-20807",
+   "quote": "The date of the letter is 404",
+   "grade": "Documented"
+  },
+  {
+   "entry": "paula-of-rome",
+   "field": "sourcing",
+   "sentence": "Letter 108 is the epitaph and life of Paula: conversion, journey east, life at Bethlehem, death and burial.",
+   "file": "cic/texts/npnf206_jerome-principal-works.xml",
+   "lines": "20799-20800",
+   "quote": "narrating her conversion and subsequent life as a Christian ascetic.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "paula-of-rome",
+   "field": "sourcing",
+   "sentence": "Jerome taught her.",
+   "file": "cic/texts/npnf206_jerome-principal-works.xml",
+   "lines": "22009-22010",
+   "quote": "taught her what I had learned not from myself",
+   "grade": "Documented"
+  },
+  {
+   "entry": "paula-of-rome",
+   "field": "sourcing",
+   "sentence": "He wrote the account to praise her.",
+   "file": "cic/texts/npnf206_jerome-principal-works.xml",
+   "lines": "20810-20811",
+   "quote": "I could still do no justice to the virtues of the holy and",
+   "grade": "Documented"
+  },
+  {
+   "entry": "paula-of-rome",
+   "field": "sourcing",
+   "sentence": "In the Greek Lausiac History a monk says Paula, who looks after Jerome, will die first and be freed from his bad temper.",
+   "file": "cic/texts/palladius_lausiac-history_clarke1918.txt",
+   "lines": "434-435",
+   "quote": "The noble Paula, who looks after him, will die first and be freed from his bad temper",
+   "grade": "Documented"
+  },
+  {
+   "entry": "paula-of-rome",
+   "field": "sourcing",
+   "sentence": "A later Syriac version says she died before her time to escape his envy and evil-eyedness.",
+   "file": "cic/texts/palladius_paradise-v1-syriac_budge1907.txt",
+   "lines": "1232-1233",
+   "quote": "departed from this world before her time in order that she might escape from his envy",
+   "grade": "Contested"
+  },
+  {
+   "entry": "paula-of-rome",
+   "field": "sourcing",
+   "sentence": "A later Syriac version ... 'envy and evil-eyedness'.",
+   "file": "cic/texts/palladius_paradise-v1-syriac_budge1907.txt",
+   "lines": "1232-1233",
+   "quote": "he possessed the vices of envy and evil-eyedness",
+   "grade": "Contested"
+  },
+  {
+   "entry": "paula-of-rome",
+   "field": "sourcing",
+   "sentence": "Our sources do not settle which is right (the two versions differ).",
+   "file": null,
+   "lines": null,
+   "quote": null,
+   "grade": "Contested",
+   "work": "Home record hieronymian-ascetic-literary, sourcing: the report survives in two languages and the two diverge",
+   "locus": "world-census.json, id hieronymian-ascetic-literary, field sourcing"
+  },
+  {
+   "entry": "paula-of-rome",
+   "field": "relationsSummary",
+   "sentence": "She left Rome for the holy places.",
+   "file": "cic/texts/npnf206_jerome-principal-works.xml",
+   "lines": "20817-20818",
+   "quote": "she yet preferred Bethlehem to Rome",
+   "grade": "Documented"
+  },
+  {
+   "entry": "paula-of-rome",
+   "field": "relationsSummary",
+   "sentence": "At Bethlehem she set up a monastery for men and divided the women into three houses.",
+   "file": "cic/texts/npnf206_jerome-principal-works.xml",
+   "lines": "21695-21698",
+   "quote": "Besides establishing a monastery for men, the charge of which she left to men, she divided into three companies and monasteries the numerous virgins",
+   "grade": "Documented"
+  },
+  {
+   "entry": "paula-of-rome",
+   "field": "why",
+   "sentence": "Paula was a Roman noblewoman.",
+   "file": "cic/texts/npnf206_jerome-principal-works.xml",
+   "lines": "20811-20812",
+   "quote": "Noble in family, she was nobler still in holiness;",
+   "grade": "Documented"
+  },
+  {
+   "entry": "paula-of-rome",
+   "field": "why",
+   "sentence": "She was a widow.",
+   "file": "cic/texts/npnf206_jerome-principal-works.xml",
+   "lines": "20930-20932",
+   "quote": "When he died, her grief was so great that she nearly died herself",
+   "grade": "Documented"
+  },
+  {
+   "entry": "paula-of-rome",
+   "field": "why",
+   "sentence": "She gave her goods to her children.",
+   "file": "cic/texts/npnf206_jerome-principal-works.xml",
+   "lines": "20992-20993",
+   "quote": "Before setting out she gave them all that she had",
+   "grade": "Documented"
+  },
+  {
+   "entry": "paula-of-rome",
+   "field": "why",
+   "sentence": "She sailed east with her daughter Eustochium.",
+   "file": "cic/texts/npnf206_jerome-principal-works.xml",
+   "lines": "20987-20989",
+   "quote": "the partner alike of her vows and of her voyage",
+   "grade": "Documented"
+  },
+  {
+   "entry": "paula-of-rome",
+   "field": "why",
+   "sentence": "She led a community of women at Bethlehem.",
+   "file": "cic/texts/npnf206_jerome-principal-works.xml",
+   "lines": "21690-21691",
+   "quote": "I shall now describe the order of her monastery",
+   "grade": "Documented"
+  },
+  {
+   "entry": "paula-of-rome",
+   "field": "why",
+   "sentence": "She studied Scripture with Jerome.",
+   "file": "cic/texts/npnf206_jerome-principal-works.xml",
+   "lines": "22005-22006",
+   "quote": "read over the old and new testaments",
+   "grade": "Documented"
+  },
+  {
+   "entry": "paula-of-rome",
+   "field": "dates",
+   "sentence": "Start 386: Letter XLVI (Paula and Eustochium to Marcella) is dated 386 and written from Bethlehem.",
+   "file": "cic/texts/npnf206_jerome-principal-works.xml",
+   "lines": "8739-8740",
+   "quote": "It is written from Bethlehem",
+   "grade": "Documented"
+  },
+  {
+   "entry": "paula-of-rome",
+   "field": "dates",
+   "sentence": "End 404: the date of Letter 108, her epitaph, written after her death.",
+   "file": "cic/texts/npnf206_jerome-principal-works.xml",
+   "lines": "20806-20807",
+   "quote": "The date of the letter is 404",
+   "grade": "Documented"
+  },
+  {
+   "entry": "paula-of-rome",
+   "field": "teaser",
+   "sentence": "She left her palace for a mud cabin.",
+   "file": "cic/texts/npnf206_jerome-principal-works.xml",
+   "lines": "20817-20819",
+   "quote": "left her palace glittering with gold to dwell in a mud cabin",
+   "grade": "Documented"
+  },
+  {
+   "entry": "paula-of-rome",
+   "field": "teaser",
+   "sentence": "She learned Hebrew and could chant the psalms in it.",
+   "file": "cic/texts/npnf206_jerome-principal-works.xml",
+   "lines": "22019-22020",
+   "quote": "she could chant the psalms in Hebrew",
+   "grade": "Documented"
+  },
+  {
+   "entry": "paula-of-rome",
+   "field": "longDescription",
+   "sentence": "Jerome says her family traced its line to the Gracchi and the Scipios.",
+   "file": "cic/texts/npnf206_jerome-principal-works.xml",
+   "lines": "20814-20815",
+   "quote": "Of the stock of the Gracchi and descended from the Scipios",
+   "grade": "Documented"
+  },
+  {
+   "entry": "paula-of-rome",
+   "field": "longDescription",
+   "sentence": "She married Toxotius.",
+   "file": "cic/texts/npnf206_jerome-principal-works.xml",
+   "lines": "20901-20902",
+   "quote": "Paula married Toxotius",
+   "grade": "Documented"
+  },
+  {
+   "entry": "paula-of-rome",
+   "field": "longDescription",
+   "sentence": "She bore five children, among them Eustochium, Rufina and Toxotius.",
+   "file": "cic/texts/npnf206_jerome-principal-works.xml",
+   "lines": "20917-20918",
+   "quote": "She bore five children;",
+   "grade": "Documented"
+  },
+  {
+   "entry": "paula-of-rome",
+   "field": "longDescription",
+   "sentence": "Her children included Eustochium, Rufina and Toxotius.",
+   "file": "cic/texts/npnf206_jerome-principal-works.xml",
+   "lines": "20924-20926",
+   "quote": "Rufina, whose untimely end overcame the affectionate heart of her mother; and Toxotius",
+   "grade": "Documented"
+  },
+  {
+   "entry": "paula-of-rome",
+   "field": "longDescription",
+   "sentence": "When her husband died her grief nearly killed her; she then gave herself to the service of the Lord.",
+   "file": "cic/texts/npnf206_jerome-principal-works.xml",
+   "lines": "20931-20933",
+   "quote": "yet so completely did she then give herself to the service of the Lord",
+   "grade": "Documented"
+  },
+  {
+   "entry": "paula-of-rome",
+   "field": "longDescription",
+   "sentence": "She sailed east from Portus.",
+   "file": "cic/texts/npnf206_jerome-principal-works.xml",
+   "lines": "20968-20969",
+   "quote": "she went down to Portus",
+   "grade": "Documented"
+  },
+  {
+   "entry": "paula-of-rome",
+   "field": "longDescription",
+   "sentence": "She sailed with Eustochium.",
+   "file": "cic/texts/npnf206_jerome-principal-works.xml",
+   "lines": "20986-20988",
+   "quote": "she concentrated herself quietly upon Eustochium alone",
+   "grade": "Documented"
+  },
+  {
+   "entry": "paula-of-rome",
+   "field": "longDescription",
+   "sentence": "On the shore her small son held out his hands, and Rufina begged her to wait until she was married.",
+   "file": "cic/texts/npnf206_jerome-principal-works.xml",
+   "lines": "20973-20975",
+   "quote": "stretched forth his hands in entreaty, while Rufina, now grown up, with silent sobs besought her mother to wait till she should be married",
+   "grade": "Documented"
+  },
+  {
+   "entry": "paula-of-rome",
+   "field": "longDescription",
+   "sentence": "Her eyes stayed dry.",
+   "file": "cic/texts/npnf206_jerome-principal-works.xml",
+   "lines": "20975-20976",
+   "quote": "eyes were dry as she turned them heavenwards",
+   "grade": "Documented"
+  },
+  {
+   "entry": "paula-of-rome",
+   "field": "longDescription",
+   "sentence": "She toured the holy places.",
+   "file": "cic/texts/npnf206_jerome-principal-works.xml",
+   "lines": "20802-20803",
+   "quote": "a tour of the most sacred spots in the Holy Land",
+   "grade": "Documented"
+  },
+  {
+   "entry": "paula-of-rome",
+   "field": "longDescription",
+   "sentence": "She settled at Bethlehem and built cells and monastic buildings.",
+   "file": "cic/texts/npnf206_jerome-principal-works.xml",
+   "lines": "21405-21409",
+   "quote": "making up her mind to dwell permanently in holy Bethlehem, she took up her abode for three years in a miserable hostelry; till she could build the requisite cells and monastic buildings",
+   "grade": "Documented"
+  },
+  {
+   "entry": "paula-of-rome",
+   "field": "longDescription",
+   "sentence": "She set up a monastery for men.",
+   "file": "cic/texts/npnf206_jerome-principal-works.xml",
+   "lines": "21695-21697",
+   "quote": "Besides establishing a monastery for men",
+   "grade": "Documented"
+  },
+  {
+   "entry": "paula-of-rome",
+   "field": "longDescription",
+   "sentence": "She gathered women from many provinces and divided them into three houses that met for psalms and prayer.",
+   "file": "cic/texts/npnf206_jerome-principal-works.xml",
+   "lines": "21701-21702",
+   "quote": "these three companies met together for psalm-singing and prayer",
+   "grade": "Documented"
+  },
+  {
+   "entry": "paula-of-rome",
+   "field": "longDescription",
+   "sentence": "The women came from different provinces.",
+   "file": "cic/texts/npnf206_jerome-principal-works.xml",
+   "lines": "21697-21699",
+   "quote": "the numerous virgins whom she had gathered out of different provinces",
+   "grade": "Documented"
+  },
+  {
+   "entry": "paula-of-rome",
+   "field": "longDescription",
+   "sentence": "She read the Old and New Testaments under Jerome's guidance.",
+   "file": "cic/texts/npnf206_jerome-principal-works.xml",
+   "lines": "22005-22006",
+   "quote": "read over the old and new testaments",
+   "grade": "Documented"
+  },
+  {
+   "entry": "paula-of-rome",
+   "field": "longDescription",
+   "sentence": "She learned Hebrew well enough to chant the psalms in it.",
+   "file": "cic/texts/npnf206_jerome-principal-works.xml",
+   "lines": "22019-22020",
+   "quote": "succeeded so well that she could chant the psalms in Hebrew",
+   "grade": "Documented"
+  },
+  {
+   "entry": "paula-of-rome",
+   "field": "longDescription",
+   "sentence": "She died after twenty years at Bethlehem, aged fifty-six.",
+   "file": "cic/texts/npnf206_jerome-principal-works.xml",
+   "lines": "22236-22239",
+   "quote": "She lived in the vows of religion five years at Rome and twenty years at Bethlehem. The whole duration of her life was fifty-six years eight months and twenty-one days.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "paula-of-rome",
+   "field": "legacy",
+   "sentence": "The Life of Lady Magdalen Montague is a Catholic (recusant) work.",
+   "file": null,
+   "lines": null,
+   "quote": null,
+   "grade": "Documented",
+   "work": "Later-worlds count, row C006, counted tradition recusant-english-catholicism (8 passages)",
+   "locus": "packets.json C006 final_row.counted_traditions[0]; census id recusant-english-catholicism"
+  },
+  {
+   "entry": "paula-of-rome",
+   "field": "legacy",
+   "sentence": "A Catholic Life of Lady Magdalen Montague, printed in English in 1627, cites Jerome on the most noble widow S. Paula.",
+   "file": "cic/texts/smith-richard_life-of-lady-magdalen-montague_cf1627.txt",
+   "lines": "1066-1068",
+   "quote": "as S. Hierome writeth of the most noble widdow S. Paula",
+   "grade": "Documented"
+  },
+  {
+   "entry": "paula-of-rome",
+   "field": "legacy",
+   "sentence": "Printed in English in 1627.",
+   "file": "cic/texts/smith-richard_life-of-lady-magdalen-montague_cf1627.txt",
+   "lines": "2-3",
+   "quote": "Permissu Superiorum, 1627",
+   "grade": "Documented"
+  },
+  {
+   "entry": "paula-of-rome",
+   "field": "legacy",
+   "sentence": "It cites her to show how its heroine mourned her husband.",
+   "file": "cic/texts/smith-richard_life-of-lady-magdalen-montague_cf1627.txt",
+   "lines": "1066-1067",
+   "quote": "whiles he yielded vp his last breath",
+   "grade": "Documented"
+  },
+  {
+   "entry": "paula-of-rome",
+   "field": "legacy",
+   "sentence": "Sor Juana calls her my most holy Mother Paula.",
+   "file": "cic/texts/juana-ines-de-la-cruz_fama-y-obras-posthumas-spa_castorena1700.txt",
+   "lines": "7469-7470",
+   "quote": "veo  vna  Sancifsima  Madre  mü",
+   "grade": "Documented"
+  },
+  {
+   "entry": "paula-of-rome",
+   "field": "legacy",
+   "sentence": "Sor Juana names her learned in Hebrew, Greek and Latin.",
+   "file": "cic/texts/juana-ines-de-la-cruz_fama-y-obras-posthumas-spa_castorena1700.txt",
+   "lines": "7470-7471",
+   "quote": "Paula, doda en las Lengüas,Hebréa, Griega , y Lati-",
+   "grade": "Documented"
+  },
+  {
+   "entry": "paula-of-rome",
+   "field": "legacy",
+   "sentence": "Sor Juana says that she is the daughter of a St. Jerome and of a Santa Paula.",
+   "file": "cic/texts/juana-ines-de-la-cruz_fama-y-obras-posthumas-spa_castorena1700.txt",
+   "lines": "6676-6677",
+   "quote": "hija de vn S. Gerónimo, y de vná Santa Paula,",
+   "grade": "Documented"
+  },
+  {
+   "entry": "paula-of-rome",
+   "field": "legacy",
+   "sentence": "She says she is a nun.",
+   "file": "cic/texts/juana-ines-de-la-cruz_fama-y-obras-posthumas-spa_castorena1700.txt",
+   "lines": "6675",
+   "quote": "fiendo  Moja, y no",
+   "grade": "Documented"
+  },
+  {
+   "entry": "paula-of-rome",
+   "field": "legacy",
+   "sentence": "She would fall short of such learned parents if she stayed ignorant.",
+   "file": "cic/texts/juana-ines-de-la-cruz_fama-y-obras-posthumas-spa_castorena1700.txt",
+   "lines": "6678",
+   "quote": "q era  degenerar de  tan",
+   "grade": "Documented"
+  },
+  {
+   "entry": "paula-of-rome",
+   "field": "legacy",
+   "sentence": "Sor Juana was a nun in Mexico City (convent of San Geronimo).",
+   "file": "cic/texts/juana-ines-de-la-cruz_fama-y-obras-posthumas-spa_castorena1700.txt",
+   "lines": "1",
+   "quote": "religiosa professa en el convento de San Geronimo de la imperial ciudad de Mexico",
+   "grade": "Documented"
+  },
+  {
+   "entry": "constantine-the-great",
+   "field": "sourcing",
+   "sentence": "The Library holds the Edict of Milan, copied whole by Eusebius.",
+   "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+   "lines": "50279-50280",
+   "quote": "4. When I, Constantine Augustus,",
+   "grade": "Documented"
+  },
+  {
+   "entry": "constantine-the-great",
+   "field": "sourcing",
+   "sentence": "The Library holds letters issued in his name, such as the letter to Miltiades.",
+   "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+   "lines": "50532-50533",
+   "quote": "18. “Constantine Augustus to Miltiades,",
+   "grade": "Documented"
+  },
+  {
+   "entry": "constantine-the-great",
+   "field": "sourcing",
+   "sentence": "Eusebius records an Oration that he says Constantine wrote to the Assembly of the Saints.",
+   "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+   "lines": "66965-66967",
+   "quote": "Constantine’s Oration which he wrote to the Assembly of the Saints.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "constantine-the-great",
+   "field": "sourcing",
+   "sentence": "Eusebius says Constantine asked the bishops for baptism near Nicomedia.",
+   "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+   "lines": "67788-67790",
+   "quote": "Constantine’s Appeal to the Bishops, requesting them to confer upon him the Rite of Baptism.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "constantine-the-great",
+   "field": "sourcing",
+   "sentence": "He did this near Nicomedia, having summoned the bishops.",
+   "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+   "lines": "67782-67784",
+   "quote": "suburbs of Nicomedia, and there, having summoned the bishops to meet him",
+   "grade": "Documented"
+  },
+  {
+   "entry": "constantine-the-great",
+   "field": "sourcing",
+   "sentence": "Close to the end of his life: he died at Nicomedia less than two years after his tricennalia.",
+   "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+   "lines": "2768-2770",
+   "quote": "the great Constantine breathed his last, in Nicomedia, his former Capital.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "constantine-the-great",
+   "field": "sourcing",
+   "sentence": "The chronicle says the king was not baptized at the end of his life, as Eusebius wrote.",
+   "file": "cic/texts/zachariah-rhetor_chronicle_hamiltonbrooks1899.txt",
+   "lines": "972-975",
+   "quote": "at the end of his life, as he 1 wrote, since the story of his con- version by Silvester is also preserved in writing and in pictures at Rome in several places",
+   "grade": "Contested"
+  },
+  {
+   "entry": "constantine-the-great",
+   "field": "sourcing",
+   "sentence": "The chronicle says Eusebius has failed to give an accurate account.",
+   "file": "cic/texts/zachariah-rhetor_chronicle_hamiltonbrooks1899.txt",
+   "lines": "951-953",
+   "quote": "with regard to which Eusebius has failed to give an accurate account and Socrates has missed the truth",
+   "grade": "Contested"
+  },
+  {
+   "entry": "constantine-the-great",
+   "field": "sourcing",
+   "sentence": "The chronicle goes under Zachariah's name (composite work).",
+   "file": "cic/texts/zachariah-rhetor_chronicle_hamiltonbrooks1899.txt",
+   "lines": "3-4",
+   "quote": "Zacharias Rhetor / Pseudo-Zachariah Rhetor (composite",
+   "grade": "Documented"
+  },
+  {
+   "entry": "constantine-the-great",
+   "field": "relationsSummary",
+   "sentence": "The home movement's window opens with his toleration of 312.",
+   "file": null,
+   "lines": null,
+   "quote": null,
+   "grade": "Widely Accepted",
+   "work": "Home record imperial-juridical-christianity, why",
+   "locus": "world-census.json, id imperial-juridical-christianity, field why ('Constantine's toleration of the church in 312')"
+  },
+  {
+   "entry": "constantine-the-great",
+   "field": "relationsSummary",
+   "sentence": "He and Licinius gave Christians freedom to follow their religion.",
+   "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+   "lines": "50285-50287",
+   "quote": "to grant both to the Christians and to all men freedom to follow the religion which they choose",
+   "grade": "Documented"
+  },
+  {
+   "entry": "constantine-the-great",
+   "field": "relationsSummary",
+   "sentence": "He called the bishops to Nicaea.",
+   "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+   "lines": "64281-64284",
+   "quote": "he convoked a general council, and invited the speedy attendance of bishops from all quarters",
+   "grade": "Documented"
+  },
+  {
+   "entry": "constantine-the-great",
+   "field": "relationsSummary",
+   "sentence": "He wrote letters and edicts on church quarrels.",
+   "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+   "lines": "50532-50533",
+   "quote": "Constantine Augustus to Miltiades,",
+   "grade": "Documented"
+  },
+  {
+   "entry": "constantine-the-great",
+   "field": "why",
+   "sentence": "He ended the ban on the church: before him it had been an illegal association, and after his toleration it was protected.",
+   "file": null,
+   "lines": null,
+   "quote": null,
+   "grade": "Widely Accepted",
+   "work": "Home record imperial-juridical-christianity, longDescription para 1",
+   "locus": "world-census.json, id imperial-juridical-christianity: 'For nearly three centuries the church had been an illegal association. Then, between Constantine's toleration in 313 and ... it became first protected'"
+  },
+  {
+   "entry": "constantine-the-great",
+   "field": "why",
+   "sentence": "With Licinius he issued an edict granting Christians and all men freedom to follow the religion they choose.",
+   "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+   "lines": "50285-50287",
+   "quote": "We resolved, that is, to grant both to the Christians and to all men freedom to follow the religion which they choose",
+   "grade": "Documented"
+  },
+  {
+   "entry": "constantine-the-great",
+   "field": "why",
+   "sentence": "He called a general council of bishops to Nicaea.",
+   "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+   "lines": "64287-64289",
+   "quote": "The place, too, selected for the synod, the city Nicæa in Bithynia",
+   "grade": "Documented"
+  },
+  {
+   "entry": "constantine-the-great",
+   "field": "why",
+   "sentence": "He judged church quarrels (the Donatist case).",
+   "file": "cic/texts/optatus_against-the-donatists.txt",
+   "lines": "272-273",
+   "quote": "Nevertheless, he granted them judges",
+   "grade": "Documented"
+  },
+  {
+   "entry": "constantine-the-great",
+   "field": "why",
+   "sentence": "He moved against groups he called heretics (edict against Novatians, Valentinians, Marcionites, Cataphrygians).",
+   "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+   "lines": "66070-66073",
+   "quote": "Understand now, by this present statute, ye Novatians, Valentinians, Marcionites, Paulians, ye who are called Cataphrygians,",
+   "grade": "Documented"
+  },
+  {
+   "entry": "constantine-the-great",
+   "field": "dates",
+   "sentence": "Start 312: he first appears in the home tradition's record in 312.",
+   "file": null,
+   "lines": null,
+   "quote": null,
+   "grade": "Widely Accepted",
+   "work": "Home record imperial-juridical-christianity, people row item 'Constantine', year 312",
+   "locus": "world-census.json, id imperial-juridical-christianity, people[0]"
+  },
+  {
+   "entry": "constantine-the-great",
+   "field": "dates",
+   "sentence": "End 337: he died on 22 May 337.",
+   "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+   "lines": "2768-2769",
+   "quote": "on May 22, 337",
+   "grade": "Documented"
+  },
+  {
+   "entry": "constantine-the-great",
+   "field": "teaser",
+   "sentence": "Freedom to worship, called the bishops together, asked for baptism near the end of his life.",
+   "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+   "lines": "67786-67787",
+   "quote": "requesting them to confer upon him the Rite of Baptism.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "constantine-the-great",
+   "field": "longDescription",
+   "sentence": "In 312 Constantine began to tolerate the church.",
+   "file": null,
+   "lines": null,
+   "quote": null,
+   "grade": "Widely Accepted",
+   "work": "Home record imperial-juridical-christianity, why field",
+   "locus": "world-census.json, id imperial-juridical-christianity, why: 'Constantine's toleration of the church in 312'"
+  },
+  {
+   "entry": "constantine-the-great",
+   "field": "longDescription",
+   "sentence": "He and Licinius met at Milan.",
+   "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+   "lines": "50280-50281",
+   "quote": "came under favorable auspices to Milan",
+   "grade": "Documented"
+  },
+  {
+   "entry": "constantine-the-great",
+   "field": "longDescription",
+   "sentence": "Their edict gave Christians and all others the freedom to follow the religion they chose; Eusebius copies it whole.",
+   "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+   "lines": "50285-50287",
+   "quote": "to grant both to the Christians and to all men freedom to follow the religion which they choose",
+   "grade": "Documented"
+  },
+  {
+   "entry": "constantine-the-great",
+   "field": "longDescription",
+   "sentence": "He gave the Donatists judges.",
+   "file": "cic/texts/optatus_against-the-donatists.txt",
+   "lines": "272-273",
+   "quote": "Nevertheless, he granted them judges",
+   "grade": "Documented"
+  },
+  {
+   "entry": "constantine-the-great",
+   "field": "longDescription",
+   "sentence": "Miltiades, bishop of Rome, was present among the judges.",
+   "file": "cic/texts/optatus_against-the-donatists.txt",
+   "lines": "274-275",
+   "quote": "There were present Miltiades,191 Bishop of the city of Rome",
+   "grade": "Documented"
+  },
+  {
+   "entry": "constantine-the-great",
+   "field": "longDescription",
+   "sentence": "Donatus appealed, and Constantine replied: 'Oh, mad daring of their fury!'",
+   "file": "cic/texts/optatus_against-the-donatists.txt",
+   "lines": "284-285",
+   "quote": "Yet Donatus thought well to appeal. To this appeal the Emperor Constantine replied in these words:",
+   "grade": "Documented"
+  },
+  {
+   "entry": "constantine-the-great",
+   "field": "longDescription",
+   "sentence": "The words of his reply.",
+   "file": "cic/texts/optatus_against-the-donatists.txt",
+   "lines": "286-287",
+   "quote": "Oh, mad daring of their fury! A Bishop has thought fit to appeal to us",
+   "grade": "Documented"
+  },
+  {
+   "entry": "constantine-the-great",
+   "field": "longDescription",
+   "sentence": "Eusebius says he called a general council to Nicaea.",
+   "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+   "lines": "64281-64284",
+   "quote": "he convoked a general council, and invited the speedy attendance of bishops from all quarters",
+   "grade": "Documented"
+  },
+  {
+   "entry": "constantine-the-great",
+   "field": "floorNote",
+   "sentence": "He called the bishops to the council at Nicaea.",
+   "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+   "lines": "64281-64284",
+   "quote": "he convoked a general council, and invited the speedy attendance of bishops from all quarters",
+   "grade": "Documented"
+  },
+  {
+   "entry": "constantine-the-great",
+   "field": "longDescription",
+   "sentence": "He wrote to Macarius, bishop of Jerusalem, about a church at Christ's tomb.",
+   "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+   "lines": "64958-64960",
+   "quote": "Constantine’s Letter to Macarius respecting the Building of the Church of our Saviour.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "constantine-the-great",
+   "field": "longDescription",
+   "sentence": "He said he had no greater care than to adorn that spot with a splendid building.",
+   "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+   "lines": "64983-64985",
+   "quote": "that I have no greater care than how I may best adorn with a splendid structure that sacred spot,",
+   "grade": "Documented"
+  },
+  {
+   "entry": "constantine-the-great",
+   "field": "longDescription",
+   "sentence": "An edict of his names the Novatians, Valentinians, Marcionites and Cataphrygians.",
+   "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+   "lines": "66070-66073",
+   "quote": "Understand now, by this present statute, ye Novatians, Valentinians, Marcionites, Paulians, ye who are called Cataphrygians,",
+   "grade": "Documented"
+  },
+  {
+   "entry": "constantine-the-great",
+   "field": "longDescription",
+   "sentence": "It takes away the houses where they met.",
+   "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+   "lines": "66123-66126",
+   "quote": "We have directed, accordingly, that you be deprived of all the houses in which you are accustomed to hold your assemblies",
+   "grade": "Documented"
+  },
+  {
+   "entry": "constantine-the-great",
+   "field": "longDescription",
+   "sentence": "Near Nicomedia he asked the bishops for baptism.",
+   "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+   "lines": "67786-67787",
+   "quote": "requesting them to confer upon him the Rite of Baptism.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "constantine-the-great",
+   "field": "longDescription",
+   "sentence": "He died there on 22 May 337.",
+   "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+   "lines": "2768-2770",
+   "quote": "the great Constantine breathed his last, in Nicomedia",
+   "grade": "Documented"
+  },
+  {
+   "entry": "constantine-the-great",
+   "field": "longDescription",
+   "sentence": "He died on 22 May 337.",
+   "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+   "lines": "2768-2769",
+   "quote": "on May 22, 337",
+   "grade": "Documented"
+  },
+  {
+   "entry": "constantine-the-great",
+   "field": "legacy",
+   "sentence": "Michael the Syrian was a Syriac Orthodox patriarch.",
+   "file": null,
+   "lines": null,
+   "quote": null,
+   "grade": "Documented",
+   "work": "Home-adjacent census link syriac-orthodox-west-syriac-christianity--syriac-orthodox-under-islam, note",
+   "locus": "world-census.json edges: 'Michael the Syrian, a patriarch of this church in the 1100s'"
+  },
+  {
+   "entry": "constantine-the-great",
+   "field": "legacy",
+   "sentence": "Michael says a monk of Alexandria wrote from Adam to the emperor Constantine.",
+   "file": "cic/texts/michael-the-syrian_chronique-tome1-livres-i-vii-fra_chabot1899.txt",
+   "lines": "259-260",
+   "quote": "Anniajîus, moine d'Alexandrie, écrivit d'Adam jusqu'à l'empereur Constantin.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "constantine-the-great",
+   "field": "legacy",
+   "sentence": "A Syriac chronicle says Constantine and Helena built the church (aedes Resurrectionis, Anastasis) at Jerusalem.",
+   "file": "cic/texts/chronica-minora-pars-prior-versio-lat_guidi1903.txt",
+   "lines": "2163-2165",
+   "quote": "per hoc incendium aedes etiam Resurreclionis (Anastasis) perit, a Constantino et Helena exstructa",
+   "grade": "Documented"
+  },
+  {
+   "entry": "constantine-the-great",
+   "field": "legacy",
+   "sentence": "The church burned after the Persians took Jerusalem.",
+   "file": "cic/texts/chronica-minora-pars-prior-versio-lat_guidi1903.txt",
+   "lines": "2161-2163",
+   "quote": "Hierosolyma vero expugnata, ludaei nostrum osores omnibus templis qui in ea erant ignem iniecerunt",
+   "grade": "Documented"
+  },
+  {
+   "entry": "constantine-the-great",
+   "field": "legacy",
+   "sentence": "The Resurrection church is the church at Christ's tomb: Constantine writes of adorning the spot of the Lord's sepulchre with a splendid structure.",
+   "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+   "lines": "64983-64986",
+   "quote": "that I have no greater care than how I may best adorn with a splendid structure that sacred spot, which, under Divine direction, I have disencumbered as it were of the heavy weight of foul idol worship",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "constantine-the-great",
+   "field": "legacy",
+   "sentence": "The chronicle volume gathers anonymous East and West Syriac chroniclers; the Church of the East placement is the census's.",
+   "file": "cic/texts/chronica-minora-pars-prior-versio-lat_guidi1903.txt",
+   "lines": "2-3",
+   "quote": "Anonymous East and West Syriac chroniclers, including the Khuzistan Chronicle",
+   "grade": "Documented"
+  },
+  {
+   "entry": "constantine-the-great",
+   "field": "legacy",
+   "sentence": "The Zachariah chronicle says he was not baptized at the end of his life and cites the story of his conversion by Silvester at Rome.",
+   "file": "cic/texts/zachariah-rhetor_chronicle_hamiltonbrooks1899.txt",
+   "lines": "972-975",
+   "quote": "at the end of his life, as he 1 wrote, since the story of his con- version by Silvester is also preserved in writing and in pictures at Rome in several places",
+   "grade": "Contested"
+  },
+  {
+   "entry": "constantine-the-great",
+   "field": "legacy",
+   "sentence": "Eusebius has him ask for baptism near the end of his life.",
+   "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+   "lines": "67786-67787",
+   "quote": "requesting them to confer upon him the Rite of Baptism.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "basil-of-caesarea",
+   "field": "sourcing",
+   "sentence": "The Library holds his letters and De Spiritu Sancto in English.",
+   "file": "cic/texts/npnf208_basil-letters-select-works.xml",
+   "lines": "8579-8580",
+   "quote": "<div1 title=\"De Spiritu Sancto.\" progress=\"17.09%\"",
+   "grade": "Documented"
+  },
+  {
+   "entry": "basil-of-caesarea",
+   "field": "sourcing",
+   "sentence": "It holds his Ascetic Works, with the Longer and Shorter Rules.",
+   "file": "cic/texts/basil_ascetic-works-longer-shorter-rules_clarke1925.txt",
+   "lines": "639-640",
+   "quote": "The “work” is the Longer and Shorter Rules",
+   "grade": "Documented"
+  },
+  {
+   "entry": "basil-of-caesarea",
+   "field": "sourcing",
+   "sentence": "It holds his Address to Young Men.",
+   "file": null,
+   "lines": null,
+   "quote": null,
+   "grade": "Documented",
+   "work": "Library file basil_address-to-young-men_padelford1902.txt (vendored; Padelford 1902)",
+   "locus": "cic/texts/basil_address-to-young-men_padelford1902.txt, header"
+  },
+  {
+   "entry": "basil-of-caesarea",
+   "field": "sourcing",
+   "sentence": "It holds his Hexaemeron homilies and three books Against Eunomius in Greek and Latin.",
+   "file": "cic/texts/basil_opera-omnia-pg29-grc-lat_migne1857.txt",
+   "lines": "8-9",
+   "quote": "the nine Hexaemeron homilies (heading at OCR line 59639)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "basil-of-caesarea",
+   "field": "sourcing",
+   "sentence": "Three books Against Eunomius.",
+   "file": "cic/texts/basil_opera-omnia-pg29-grc-lat_migne1857.txt",
+   "lines": "8-9",
+   "quote": "and the three books Against Eunomius (from OCR line 98130)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "basil-of-caesarea",
+   "field": "sourcing",
+   "sentence": "Epistle 38 is the letter most often used to show the three agreed; modern scholars argue over whether Basil or Gregory of Nyssa wrote it.",
+   "file": null,
+   "lines": null,
+   "quote": null,
+   "grade": "Contested",
+   "work": "Home record cappadocian-nicene-pastoral-monastic-tradition, longDescription",
+   "locus": "world-census.json, id cappadocian-nicene-pastoral-monastic-tradition, field longDescription, para 3: 'Epistle 38 ... Modern scholars still argue over whether Basil or Gregory of Nyssa wrote it.'"
+  },
+  {
+   "entry": "basil-of-caesarea",
+   "field": "relationsSummary",
+   "sentence": "His brother Gregory of Nyssa and his friend Gregory of Nazianzus are the other Cappadocians.",
+   "file": null,
+   "lines": null,
+   "quote": null,
+   "grade": "Documented",
+   "work": "Home record cappadocian-nicene-pastoral-monastic-tradition, longDescription",
+   "locus": "world-census.json, id cappadocian-nicene-pastoral-monastic-tradition: 'Basil of Caesarea, his younger brother Gregory of Nyssa ... and Basil's friend Gregory of Nazianzus'"
+  },
+  {
+   "entry": "basil-of-caesarea",
+   "field": "relationsSummary",
+   "sentence": "On the Holy Spirit answers those who say the Spirit may not be ranked with the Father and Son.",
+   "file": "cic/texts/npnf208_basil-letters-select-works.xml",
+   "lines": "10555-10557",
+   "quote": "It is not permissible, they assert, for the Holy Spirit to be ranked with the Father and Son",
+   "grade": "Documented"
+  },
+  {
+   "entry": "basil-of-caesarea",
+   "field": "relationsSummary",
+   "sentence": "He made his brother bishop of Nyssa and his friend bishop of Sasima.",
+   "file": "cic/texts/npnf208_basil-letters-select-works.xml",
+   "lines": "722-724",
+   "quote": "Forces Gregory of Nazianzus to be consecrated bishop of Sasima, and consecrates his brother Gregory to Nyssa.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "basil-of-caesarea",
+   "field": "relationsSummary",
+   "sentence": "Gregory of Nazianzus was indignant; the two were on strained terms for a long time.",
+   "file": "cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml",
+   "lines": "22983-22985",
+   "quote": "Gregory was, not unnaturally, indignant at this treatment",
+   "grade": "Documented"
+  },
+  {
+   "entry": "basil-of-caesarea",
+   "field": "why",
+   "sentence": "He was elected and consecrated to the see of Caesarea in 370.",
+   "file": "cic/texts/npnf208_basil-letters-select-works.xml",
+   "lines": "687-688",
+   "quote": "Election and consecration of Basil to the see of",
+   "grade": "Documented"
+  },
+  {
+   "entry": "basil-of-caesarea",
+   "field": "why",
+   "sentence": "He was bishop of Caesarea in Cappadocia.",
+   "file": "cic/texts/npnf208_basil-letters-select-works.xml",
+   "lines": "881-882",
+   "quote": "Two cities, Cæsarea in Cappadocia and",
+   "grade": "Documented"
+  },
+  {
+   "entry": "basil-of-caesarea",
+   "field": "why",
+   "sentence": "On the Holy Spirit answers those who ranked the Spirit below the Father and the Son.",
+   "file": "cic/texts/npnf208_basil-letters-select-works.xml",
+   "lines": "10555-10557",
+   "quote": "It is not permissible, they assert, for the Holy Spirit to be ranked with the Father and Son",
+   "grade": "Documented"
+  },
+  {
+   "entry": "basil-of-caesarea",
+   "field": "why",
+   "sentence": "He argued from how the church already prayed (doxology).",
+   "file": "cic/texts/npnf208_basil-letters-select-works.xml",
+   "lines": "14688-14690",
+   "quote": "Now one of the institutions of Gregory is the very form of the doxology",
+   "grade": "Documented"
+  },
+  {
+   "entry": "basil-of-caesarea",
+   "field": "why",
+   "sentence": "A council in 787 told double monasteries to keep his rule.",
+   "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+   "lines": "41059-41061",
+   "quote": "The double monasteries which are already in existence, shall observe the rule of our holy Father Basil",
+   "grade": "Documented"
+  },
+  {
+   "entry": "basil-of-caesarea",
+   "field": "why",
+   "sentence": "Later churches call him the Great.",
+   "file": "cic/texts/dositheus_acts-and-decrees-synod-jerusalem_robertson1899.txt",
+   "lines": "2951-2953",
+   "quote": "as was the case with Basil the Great, when calumniated",
+   "grade": "Documented"
+  },
+  {
+   "entry": "basil-of-caesarea",
+   "field": "dates",
+   "sentence": "Basil was born 329 or 330 (start 329); no reason to question the date.",
+   "file": "cic/texts/npnf208_basil-letters-select-works.xml",
+   "lines": "878-880",
+   "quote": "There appears no reason to question the date 329 or 330.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "basil-of-caesarea",
+   "field": "dates",
+   "sentence": "He died 1 January 379.",
+   "file": "cic/texts/npnf208_basil-letters-select-works.xml",
+   "lines": "775-777",
+   "quote": "Death of Basil, Jan. 1.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "basil-of-caesarea",
+   "field": "teaser",
+   "sentence": "A council in 787 and Benedict's Rule name his rule.",
+   "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+   "lines": "41059-41061",
+   "quote": "The double monasteries which are already in existence, shall observe the rule of our holy Father Basil",
+   "grade": "Documented"
+  },
+  {
+   "entry": "basil-of-caesarea",
+   "field": "teaser",
+   "sentence": "Benedict's Rule names the Rule of St. Basil.",
+   "file": "cic/texts/benedict_rule-of-saint-benedict_gasquet1925.txt",
+   "lines": "4290-4291",
+   "quote": "the Rule of our Holy Father St. Basil",
+   "grade": "Documented"
+  },
+  {
+   "entry": "basil-of-caesarea",
+   "field": "longDescription",
+   "sentence": "Basil was born in 329 or 330.",
+   "file": "cic/texts/npnf208_basil-letters-select-works.xml",
+   "lines": "878-880",
+   "quote": "There appears no reason to question the date 329 or 330.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "basil-of-caesarea",
+   "field": "longDescription",
+   "sentence": "His grandmother Macrina, who came from Neocaesarea, brought him up and taught him the words of Gregory.",
+   "file": "cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml",
+   "lines": "22284-22287",
+   "quote": "like the great Basil of Cæsarea and his brother Gregory, Bishop of Nyssa, by birth a Cappadocian",
+   "grade": "Documented"
+  },
+  {
+   "entry": "basil-of-caesarea",
+   "field": "longDescription",
+   "sentence": "His grandmother Macrina, who came from Neocaesarea, brought him up and taught him the words of Gregory, whom the Library names as Gregory the Wonder-worker.",
+   "file": "cic/texts/npnf208_basil-letters-select-works.xml",
+   "lines": "37060-37063",
+   "quote": "I was brought up by my grandmother, blessed woman, who came from you? I mean the celebrated Macrina who taught me the words of the blessed Gregory",
+   "grade": "Documented"
+  },
+  {
+   "entry": "basil-of-caesarea",
+   "field": "longDescription",
+   "sentence": "The Library's editor names the Gregory of Macrina's teaching as Gregory the Wonder-worker, citing Ep. 204.",
+   "file": "cic/texts/npnf208_basil-letters-select-works.xml",
+   "lines": "1020-1027",
+   "quote": "the teaching of the great Gregory the Wonder-worker",
+   "grade": "Documented"
+  },
+  {
+   "entry": "basil-of-caesarea",
+   "field": "longDescription",
+   "sentence": "The Gregory named at the doxology is Gregory the Wonder-worker, bishop of Neocaesarea.",
+   "file": "cic/texts/npnf208_basil-letters-select-works.xml",
+   "lines": "14637-14638",
+   "quote": "known as Gregorius Thaumaturgus,",
+   "grade": "Documented"
+  },
+  {
+   "entry": "basil-of-caesarea",
+   "field": "longDescription",
+   "sentence": "She shaped him in those words as a child.",
+   "file": "cic/texts/npnf208_basil-letters-select-works.xml",
+   "lines": "37063-37065",
+   "quote": "while she fashioned and formed me, while yet a child, upon the doctrines of piety",
+   "grade": "Documented"
+  },
+  {
+   "entry": "basil-of-caesarea",
+   "field": "longDescription",
+   "sentence": "In 370 Eusebius of Caesarea died, and Basil was elected and consecrated.",
+   "file": "cic/texts/npnf208_basil-letters-select-works.xml",
+   "lines": "684-685",
+   "quote": "370. Death of Eusebius of Cæsarea",
+   "grade": "Documented"
+  },
+  {
+   "entry": "basil-of-caesarea",
+   "field": "longDescription",
+   "sentence": "Basil's election and consecration.",
+   "file": "cic/texts/npnf208_basil-letters-select-works.xml",
+   "lines": "687-688",
+   "quote": "Election and consecration of Basil to the see of",
+   "grade": "Documented"
+  },
+  {
+   "entry": "basil-of-caesarea",
+   "field": "longDescription",
+   "sentence": "Anthimus of Tyana claimed metropolitan rights and Basil resisted.",
+   "file": "cic/texts/npnf208_basil-letters-select-works.xml",
+   "lines": "716-717",
+   "quote": "Claim of Anthimus to metropolitan dignity at Tyana.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "basil-of-caesarea",
+   "field": "longDescription",
+   "sentence": "Basil resisted Anthimus.",
+   "file": "cic/texts/npnf208_basil-letters-select-works.xml",
+   "lines": "719-720",
+   "quote": "Basil resists Anthimus.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "basil-of-caesarea",
+   "field": "longDescription",
+   "sentence": "Basil set up new bishoprics to strengthen his hand.",
+   "file": "cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml",
+   "lines": "22979-22982",
+   "quote": "Basil, to assert his rights as Metropolitan, and to strengthen his own hands, erected several new Bishoprics in the disputed Province",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "basil-of-caesarea",
+   "field": "longDescription",
+   "sentence": "He made his brother Gregory bishop of Nyssa and his friend Gregory bishop of Sasima.",
+   "file": "cic/texts/npnf208_basil-letters-select-works.xml",
+   "lines": "722-724",
+   "quote": "Forces Gregory of Nazianzus to be consecrated bishop of Sasima, and consecrates his brother Gregory to Nyssa.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "basil-of-caesarea",
+   "field": "longDescription",
+   "sentence": "The friend took it ill.",
+   "file": "cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml",
+   "lines": "22983-22985",
+   "quote": "Gregory was, not unnaturally, indignant at this treatment",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "basil-of-caesarea",
+   "field": "longDescription",
+   "sentence": "Some said the Spirit could not be ranked with the Father and the Son.",
+   "file": "cic/texts/npnf208_basil-letters-select-works.xml",
+   "lines": "10555-10557",
+   "quote": "It is not permissible, they assert, for the Holy Spirit to be ranked with the Father and Son",
+   "grade": "Documented"
+  },
+  {
+   "entry": "basil-of-caesarea",
+   "field": "longDescription",
+   "sentence": "Basil's treatise was written for Amphilochius, not long after 373.",
+   "file": "cic/texts/npnf208_basil-letters-select-works.xml",
+   "lines": "10551-10554",
+   "quote": "in 373, shortly before the composition of the present treatise for Amphilochius",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "basil-of-caesarea",
+   "field": "longDescription",
+   "sentence": "He argued from the church's form of doxology, which comes down from Gregory the Wonder-worker, the old bishop of Neocaesarea.",
+   "file": "cic/texts/npnf208_basil-letters-select-works.xml",
+   "lines": "14688-14691",
+   "quote": "Now one of the institutions of Gregory is the very form of the doxology to which objection is now made, preserved by the Church on the authority of his tradition",
+   "grade": "Documented"
+  },
+  {
+   "entry": "basil-of-caesarea",
+   "field": "longDescription",
+   "sentence": "Basil died on 1 January 379.",
+   "file": "cic/texts/npnf208_basil-letters-select-works.xml",
+   "lines": "775-777",
+   "quote": "Death of Basil, Jan. 1.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "basil-of-caesarea",
+   "field": "voices",
+   "sentence": "Macrina the elder is Basil's grandmother, named in his Letter 204.",
+   "file": "cic/texts/npnf208_basil-letters-select-works.xml",
+   "lines": "37061-37063",
+   "quote": "the celebrated Macrina who taught me the words of the blessed Gregory",
+   "grade": "Documented"
+  },
+  {
+   "entry": "basil-of-caesarea",
+   "field": "legacy",
+   "sentence": "Mark of Ephesus cites what Basil the Great says in his own prayers, which were said each year at Pentecost.",
+   "file": "cic/texts/patrologia-orientalis-tomus15_petit-documents-concile-de-florence-purgatoire-grc-fra_graffin-nau1927.txt",
+   "lines": "2931-2933",
+   "quote": "tum etiam quae Basilius Magnus in oratio- nibus suis ad Pentecosten pro more recitandis",
+   "grade": "Documented"
+  },
+  {
+   "entry": "basil-of-caesarea",
+   "field": "legacy",
+   "sentence": "The text is Mark of Ephesus's Confutation of the Latins' articles on purgatory.",
+   "file": "cic/texts/patrologia-orientalis-tomus15_petit-documents-concile-de-florence-purgatoire-grc-fra_graffin-nau1927.txt",
+   "lines": "2802-2806",
+   "quote": "MARCI EUGENICI CONFUTA- TIO ARTICULORUM, QUOS LATINI EXHIBUERANT, CIRCA PURGATORIUM IGNEM.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "basil-of-caesarea",
+   "field": "legacy",
+   "sentence": "The Synod of Jerusalem of 1672 names Basil the Great as a man who answered slander with one short letter.",
+   "file": "cic/texts/dositheus_acts-and-decrees-synod-jerusalem_robertson1899.txt",
+   "lines": "2951-2956",
+   "quote": "as was the case with Basil the Great, when calumniated, who, though he did not write against his accusers in many Epistles, yet in one short Epistle to an Orthodox brother did set forth an apology for himself.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "basil-of-caesarea",
+   "field": "legacy",
+   "sentence": "The synod was held under Dositheus in 1672.",
+   "file": "cic/texts/dositheus_acts-and-decrees-synod-jerusalem_robertson1899.txt",
+   "lines": "1",
+   "quote": "Holden under Dositheus, Patriarch of Jerusalem in 1672",
+   "grade": "Documented"
+  },
+  {
+   "entry": "basil-of-caesarea",
+   "field": "legacy",
+   "sentence": "The Second Council of Nicaea told double monasteries to keep the rule of our holy Father Basil.",
+   "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+   "lines": "41059-41061",
+   "quote": "The double monasteries which are already in existence, shall observe the rule of our holy Father Basil",
+   "grade": "Documented"
+  },
+  {
+   "entry": "basil-of-caesarea",
+   "field": "legacy",
+   "sentence": "The Council was held in 787 (Second Council of Nicaea, Canon 20).",
+   "file": null,
+   "lines": null,
+   "quote": null,
+   "grade": "Documented",
+   "work": "Census link desert-monasticism--iconophile-byzantine-monasticism, sources",
+   "locus": "Second Council of Nicaea (787), Canon 20, npnf214 lines 41060-41062"
+  },
+  {
+   "entry": "basil-of-caesarea",
+   "field": "legacy",
+   "sentence": "Benedict's Rule lists the Rule of our Holy Father St. Basil among the books for monks.",
+   "file": "cic/texts/benedict_rule-of-saint-benedict_gasquet1925.txt",
+   "lines": "4288-4291",
+   "quote": "Also, what else are the Co//ations of the Fathers, their Institutes, their Lives, and the Rule of our Holy Father St. Basil,",
+   "grade": "Documented"
+  },
+  {
+   "entry": "basil-of-caesarea",
+   "field": "legacy",
+   "sentence": "Gennadius says Rufinus put works of Basil of Caesarea into Latin.",
+   "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+   "lines": "42469-42471",
+   "quote": "translating the works of Basil of Cæsarea in Cappadocia, Gregory Nazianzan, that most eloquent man,",
+   "grade": "Documented"
+  },
+  {
+   "entry": "basil-of-caesarea",
+   "field": "legacy",
+   "sentence": "Jerome says Ambrose's Six Days took more from Basil than from Origen (and from Hippolytus).",
+   "file": "cic/texts/npnf206_jerome-principal-works.xml",
+   "lines": "19269-19272",
+   "quote": "but in such a way that it expressed the views of Hippolytus and Basil rather than of Origen.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "gregory-of-nazianzus",
+   "field": "sourcing",
+   "sentence": "The Library holds his Select Orations and Select Letters in English.",
+   "file": null,
+   "lines": null,
+   "quote": null,
+   "grade": "Documented",
+   "work": "Later-worlds count, row C064, own_words",
+   "locus": "packets.json C064 final_row.own_words: Select Orations, Select Letters, The Five Theological Orations, all in npnf207"
+  },
+  {
+   "entry": "gregory-of-nazianzus",
+   "field": "sourcing",
+   "sentence": "The Library holds the Five Theological Orations in English.",
+   "file": "cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml",
+   "lines": "30899-30900",
+   "quote": "A Preliminary Discourse Against the Eunomians.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "gregory-of-nazianzus",
+   "field": "sourcing",
+   "sentence": "It holds the First Invective against Julian.",
+   "file": "cic/texts/gregory-nazianzen_first-invective-against-julian_king1888.txt",
+   "lines": "1",
+   "quote": "Gregory Nazianzen, First Invective Against Julian the Emperor (Oration 4)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "gregory-of-nazianzus",
+   "field": "sourcing",
+   "sentence": "It holds the Second Invective against Julian.",
+   "file": "cic/texts/gregory-nazianzen_second-invective-against-julian_king1888.txt",
+   "lines": "1",
+   "quote": "Invective Against Julian",
+   "grade": "Documented"
+  },
+  {
+   "entry": "gregory-of-nazianzus",
+   "field": "sourcing",
+   "sentence": "Greek and Latin orations and letters are held in Migne (PG 35, 36, 37).",
+   "file": null,
+   "lines": null,
+   "quote": null,
+   "grade": "Documented",
+   "work": "Library files gregory-nazianzen_orationes-pg35-grc-lat_migne1857.txt, ..._orationes-27-45-pg36-..., ..._epistulae-carmina-pg37-...",
+   "locus": "cic/texts/ (file names; headers)"
+  },
+  {
+   "entry": "gregory-of-nazianzus",
+   "field": "sourcing",
+   "sentence": "The poem on the canon of Scripture is in the home people row.",
+   "file": null,
+   "lines": null,
+   "quote": null,
+   "grade": "Documented",
+   "work": "Home record cappadocian-nicene-pastoral-monastic-tradition, people row 'Gregory of Nazianzus' (held: npnf214_seven-ecumenical-councils--from-the-metrical-poems-of-gregory-theologus-on-the-canon-of)",
+   "locus": "world-census.json people[1]"
+  },
+  {
+   "entry": "gregory-of-nazianzus",
+   "field": "floorNote",
+   "sentence": "The Theologian title, shared with John the Evangelist alone among the Fathers.",
+   "file": "cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml",
+   "lines": "22282-22285",
+   "quote": "universally known as “The Theologian” or “The Divine,” a title which he shares with S. John the Evangelist alone among the Fathers",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "gregory-of-nazianzus",
+   "field": "relationsSummary",
+   "sentence": "Gregory took the chair of the council after Meletius died.",
+   "file": "cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml",
+   "lines": "23172-23174",
+   "quote": "Meletius shortly afterwards died, and Gregory assumed the Presidency of the Council.",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "gregory-of-nazianzus",
+   "field": "relationsSummary",
+   "sentence": "He then resigned.",
+   "file": "cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml",
+   "lines": "23178-23180",
+   "quote": "he made up his mind to resign.",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "gregory-of-nazianzus",
+   "field": "relationsSummary",
+   "sentence": "He wrote two letters against Apollinarius.",
+   "file": "cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml",
+   "lines": "44905-44906",
+   "quote": "Against Apollinarius; The Second Letter to Cledonius.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "gregory-of-nazianzus",
+   "field": "why",
+   "sentence": "He was born at Arianzus near Nazianzus.",
+   "file": "cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml",
+   "lines": "22286-22288",
+   "quote": "He was born at Arianzus, a country estate belonging to his father, in the neighbourhood of Nazianzus.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "gregory-of-nazianzus",
+   "field": "why",
+   "sentence": "The Five Theological Orations were delivered at Constantinople in defence of faith in the Trinity against Eunomians and Macedonians; they won him the title The Theologian.",
+   "file": "cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml",
+   "lines": "23299-23302",
+   "quote": "These won him the title of The Theologian. They were delivered in Constantinople, in defence of the Church’s faith in the Trinity, against Eunomians and Macedonians.",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "gregory-of-nazianzus",
+   "field": "why",
+   "sentence": "He was a bishop of Sasima, then archbishop of Constantinople.",
+   "file": "cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml",
+   "lines": "23170-23172",
+   "quote": "to enthrone him in S. Sophia, and thus he became the recognised Archbishop of the Imperial City.",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "gregory-of-nazianzus",
+   "field": "why",
+   "sentence": "He also wrote poetry (metrical poem on the canon of Scripture).",
+   "file": null,
+   "lines": null,
+   "quote": null,
+   "grade": "Documented",
+   "work": "Home record people row 'Gregory of Nazianzus' held: metrical poems of Gregory Theologus on the canon",
+   "locus": "world-census.json, id cappadocian-nicene-pastoral-monastic-tradition, people[1]"
+  },
+  {
+   "entry": "gregory-of-nazianzus",
+   "field": "dates",
+   "sentence": "Start 372: Basil forces Gregory of Nazianzus to be consecrated bishop of Sasima, in the chronology entry for 372.",
+   "file": "cic/texts/npnf208_basil-letters-select-works.xml",
+   "lines": "722-723",
+   "quote": "Forces Gregory of Nazianzus to be consecrated bishop of Sasima",
+   "grade": "Documented"
+  },
+  {
+   "entry": "gregory-of-nazianzus",
+   "field": "dates",
+   "sentence": "The 372 heading.",
+   "file": "cic/texts/npnf208_basil-letters-select-works.xml",
+   "lines": "700-701",
+   "quote": "372. </span> <i>Valens attends great service",
+   "grade": "Documented"
+  },
+  {
+   "entry": "gregory-of-nazianzus",
+   "field": "dates",
+   "sentence": "End 390: he retired to Arianzus about the end of 383, dying there in 389 or 390.",
+   "file": "cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml",
+   "lines": "43353-43354",
+   "quote": "dying there in 389 or 390.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "gregory-of-nazianzus",
+   "field": "dates",
+   "sentence": "He retired to Arianzus about the end of 383.",
+   "file": "cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml",
+   "lines": "43352-43353",
+   "quote": "he retired to Arianzus about the end of",
+   "grade": "Documented"
+  },
+  {
+   "entry": "gregory-of-nazianzus",
+   "field": "teaser",
+   "sentence": "He took the chair of the council of 381 and then resigned.",
+   "file": "cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml",
+   "lines": "23178-23180",
+   "quote": "he made up his mind to resign.",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "gregory-of-nazianzus",
+   "field": "longDescription",
+   "sentence": "He was born at Arianzus, a country estate near Nazianzus.",
+   "file": "cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml",
+   "lines": "22286-22288",
+   "quote": "He was born at Arianzus, a country estate belonging to his father, in the neighbourhood of Nazianzus.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "gregory-of-nazianzus",
+   "field": "longDescription",
+   "sentence": "Basil was his friend.",
+   "file": "cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml",
+   "lines": "22979-22984",
+   "quote": "Basil, to assert his rights as Metropolitan, and to strengthen his own hands, erected several new Bishoprics in the disputed Province; and to one of these, Sasima, a miserable little village he consecrated his friend Gregory, almost by force.",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "gregory-of-nazianzus",
+   "field": "longDescription",
+   "sentence": "About 372 Basil made him bishop of Sasima.",
+   "file": "cic/texts/npnf208_basil-letters-select-works.xml",
+   "lines": "722-723",
+   "quote": "Forces Gregory of Nazianzus to be consecrated bishop of Sasima",
+   "grade": "Documented"
+  },
+  {
+   "entry": "gregory-of-nazianzus",
+   "field": "longDescription",
+   "sentence": "Sasima was a miserable little village.",
+   "file": "cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml",
+   "lines": "22982-22984",
+   "quote": "Sasima, a miserable little village he consecrated his friend Gregory, almost by force.",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "gregory-of-nazianzus",
+   "field": "longDescription",
+   "sentence": "Gregory was angry and the two were on strained terms for a long time.",
+   "file": "cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml",
+   "lines": "22987-22988",
+   "quote": "So the two were for a long time in very strained relations to one another.",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "gregory-of-nazianzus",
+   "field": "longDescription",
+   "sentence": "Theodosius put him in charge of the churches of Constantinople.",
+   "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+   "lines": "40629-40630",
+   "quote": "Gregory, the Theologian, receives from Theodosius the Government of the Churches.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "gregory-of-nazianzus",
+   "field": "longDescription",
+   "sentence": "The council of 381 made him bishop of the city.",
+   "file": "cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml",
+   "lines": "23170-23172",
+   "quote": "to enthrone him in S. Sophia, and thus he became the recognised Archbishop of the Imperial City.",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "gregory-of-nazianzus",
+   "field": "longDescription",
+   "sentence": "Late in 380 Theodosius came to Constantinople and put Gregory in possession of the cathedral; the great council met the next year.",
+   "file": "cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml",
+   "lines": "23163-23167",
+   "quote": "Late in 380 Theodosius came to Constantinople, where almost his first act was to deprive the Arians of the Churches, and to put Gregory in possession of the Cathedral of S. Sophia.",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "gregory-of-nazianzus",
+   "field": "longDescription",
+   "sentence": "The council was in 381.",
+   "file": null,
+   "lines": null,
+   "quote": null,
+   "grade": "Documented",
+   "work": "Census record gregory-of-nyssa, longDescription: 'In 381 he was at the council in Constantinople.'",
+   "locus": "world-census.json, id gregory-of-nyssa"
+  },
+  {
+   "entry": "gregory-of-nazianzus",
+   "field": "longDescription",
+   "sentence": "Meletius of Antioch was the council's president; he died; Gregory took the chair.",
+   "file": "cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml",
+   "lines": "23172-23174",
+   "quote": "Meletius shortly afterwards died, and Gregory assumed the Presidency of the Council.",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "gregory-of-nazianzus",
+   "field": "longDescription",
+   "sentence": "Egyptian bishops objected to this; Gregory resigned.",
+   "file": "cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml",
+   "lines": "23174-23177",
+   "quote": "when the Egyptian Bishops on their arrival shewed a disposition to take up the case of Maximus, and were determined at any rate to oust Gregory from the Patriarchal Throne",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "gregory-of-nazianzus",
+   "field": "longDescription",
+   "sentence": "Gregory resigned.",
+   "file": "cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml",
+   "lines": "23178-23180",
+   "quote": "he made up his mind to resign.",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "gregory-of-nazianzus",
+   "field": "longDescription",
+   "sentence": "After the council Gregory went home to Nazianzus.",
+   "file": "cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml",
+   "lines": "23182-23185",
+   "quote": "Nectarius, Prefect of the City, who was only a catechumen, was elected in his place, and Gregory went home to Nazianzus.",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "gregory-of-nazianzus",
+   "field": "longDescription",
+   "sentence": "Gregory wrote two letters to Cledonius against Apollinarius.",
+   "file": "cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml",
+   "lines": "44565-44566",
+   "quote": "To Cledonius the Priest Against Apollinarius.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "gregory-of-nazianzus",
+   "field": "longDescription",
+   "sentence": "Second letter to Cledonius.",
+   "file": "cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml",
+   "lines": "44905-44906",
+   "quote": "Against Apollinarius; The Second Letter to Cledonius.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "gregory-of-nazianzus",
+   "field": "longDescription",
+   "sentence": "In the first he writes that what Christ has not assumed he has not healed.",
+   "file": "cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml",
+   "lines": "44690-44691",
+   "quote": "For that which He has not assumed He has not healed",
+   "grade": "Documented"
+  },
+  {
+   "entry": "gregory-of-nazianzus",
+   "field": "longDescription",
+   "sentence": "He retired to Arianzus about the end of 383 and died there in 389 or 390.",
+   "file": "cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml",
+   "lines": "43353-43354",
+   "quote": "dying there in 389 or 390.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "gregory-of-nazianzus",
+   "field": "longDescription",
+   "sentence": "He retired to Arianzus about the end of 383.",
+   "file": "cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml",
+   "lines": "43352-43353",
+   "quote": "he retired to Arianzus about the end of",
+   "grade": "Documented"
+  },
+  {
+   "entry": "gregory-of-nazianzus",
+   "field": "legacy",
+   "sentence": "Jewel cites him on the pitiful state of his own time.",
+   "file": "cic/texts/jewel_apology-of-the-church-of-england_bacon-morley1888.txt",
+   "lines": "1313-1315",
+   "quote": "Gregory Nazianzen speaketh thus of the pitiful state of his own time",
+   "grade": "Documented"
+  },
+  {
+   "entry": "gregory-of-nazianzus",
+   "field": "legacy",
+   "sentence": "Jewel quotes Nazianzen: we are in hatred among the heathen for our own vices' sake (Christians then also lived badly).",
+   "file": "cic/texts/jewel_apology-of-the-church-of-england_bacon-morley1888.txt",
+   "lines": "1314-1316",
+   "quote": "We,\" saith he, \"are in hatred among the heathen for our own vices' sake",
+   "grade": "Documented"
+  },
+  {
+   "entry": "gregory-of-nazianzus",
+   "field": "legacy",
+   "sentence": "Jewel adds: it is no new thing that men be but men, although called Christians.",
+   "file": "cic/texts/jewel_apology-of-the-church-of-england_bacon-morley1888.txt",
+   "lines": "1318-1321",
+   "quote": "Surely it is no new thing that men be but men, although they be called by the name of Christians.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "gregory-of-nazianzus",
+   "field": "legacy",
+   "sentence": "Jewel wrote for the Church of England.",
+   "file": "cic/texts/jewel_apology-of-the-church-of-england_bacon-morley1888.txt",
+   "lines": "1",
+   "quote": "The Apology of the Church of England",
+   "grade": "Documented"
+  },
+  {
+   "entry": "gregory-of-nazianzus",
+   "field": "legacy",
+   "sentence": "Southwell cites him on life as a child's game, building houses of sand on the shore.",
+   "file": "cic/texts/southwell_funeral-tears-triumphs-epistle-of-comfort_walter1822.txt",
+   "lines": "6782-6784",
+   "quote": "Nazianzen calleth it a child*s game, who buildeth houses of sand on the shore",
+   "grade": "Documented"
+  },
+  {
+   "entry": "gregory-of-nazianzus",
+   "field": "legacy",
+   "sentence": "Robert Southwell, S.J., was a Catholic priest.",
+   "file": "cic/texts/southwell_funeral-tears-triumphs-epistle-of-comfort_walter1822.txt",
+   "lines": "1-2",
+   "quote": "Robert Southwell, S.J. (1561-1595)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "gregory-of-nazianzus",
+   "field": "legacy",
+   "sentence": "Jerome calls him his instructor in the Scriptures.",
+   "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+   "lines": "41566-41568",
+   "quote": "a most eloquent man, and my instructor in the Scriptures,",
+   "grade": "Documented"
+  },
+  {
+   "entry": "gregory-of-nazianzus",
+   "field": "legacy",
+   "sentence": "Gennadius says Rufinus put works of Gregory Nazianzan into Latin.",
+   "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+   "lines": "42469-42471",
+   "quote": "translating the works of Basil of Cæsarea in Cappadocia, Gregory Nazianzan, that most eloquent man,",
+   "grade": "Documented"
+  }
+ ],
+ "concerns": [
+  {
+   "link_id": "imperial-juridical-christianity--donatism",
+   "concerns": "constantine-the-great"
+  },
+  {
+   "link_id": "imperial-juridical-christianity--montanism-the-new-prophecy",
+   "concerns": "constantine-the-great"
+  },
+  {
+   "link_id": "imperial-juridical-christianity--novatianism--2",
+   "concerns": "constantine-the-great"
+  },
+  {
+   "link_id": "imperial-juridical-christianity--jerusalem-liturgical-pilgrimage-christianity",
+   "concerns": "constantine-the-great"
+  },
+  {
+   "link_id": "desert-monasticism--iconophile-byzantine-monasticism",
+   "concerns": "basil-of-caesarea"
+  },
+  {
+   "link_id": "anatolian-church-third-century--cappadocian-nicene-pastoral-monastic-tradition",
+   "concerns": "basil-of-caesarea"
+  },
+  {
+   "link_id": "cappadocian-nicene-pastoral-monastic-tradition--apollinarian-christianity",
+   "concerns": "gregory-of-nazianzus"
+  }
+ ],
+ "rows": [
+  {
+   "movement": "hieronymian-ascetic-literary",
+   "replace_name": null,
+   "person": "paula-of-rome"
+  },
+  {
+   "movement": "imperial-juridical-christianity",
+   "replace_name": "Constantine",
+   "person": "constantine-the-great"
+  },
+  {
+   "movement": "cappadocian-nicene-pastoral-monastic-tradition",
+   "replace_name": "Basil",
+   "person": "basil-of-caesarea"
+  },
+  {
+   "movement": "cappadocian-nicene-pastoral-monastic-tradition",
+   "replace_name": "Gregory of Nazianzus",
+   "person": "gregory-of-nazianzus"
+  }
+ ],
+ "links": [],
+ "wants": [
+  "Constantine: a vendored note or source on whether the Oration to the Assembly of the Saints is Constantine's own. The later-worlds count (C048 row) calls its authorship disputed; no vendored file I read says so, so the entry says only that Eusebius records it as Constantine's.",
+  "Paula: a census place entry for Bethlehem (placeId, pleiadesId) so modernCountries can name it. No existing entry carries Bethlehem; the entry uses Rome only, as the home tradition and Jerome's record do.",
+  "Constantine: the Library holds Michael the Syrian only to the Constantine hits listed in the count. If Mark wants the Syriac Orthodox claim of a different baptism story shown more fully, a text of the Chronicle of 1234 or of Zachariah's own book 1 Silvester narrative would help."
+ ],
+ "flags": [
+  "Dates are life or working years from a source, each with a fact row. Paula: 386 is the date of Letter 46 written from Bethlehem; 404 is the date of her epitaph (Letter 108); the Library text gives her death by the consulship of Honorius and Aristaenetus, not by a year number, so end is the letter's date. Her birth year is not given. Basil: 329 or 330 (start 329); NPNF's own editor finds no reason to question 329 or 330. Gregory of Nazianzus: start 372 from Basil's chronology entry for 372; end 390 is the later of 'dying there in 389 or 390'. Constantine: start 312 rests on the census home record, not on a vendored text.",
+  "modernCountries: Paula uses Rome only (no Bethlehem entry exists; the home tradition and Jerome's census record do the same). Constantine copies the home tradition's Rome and Constantinople. Basil and Gregory of Nazianzus copy the Cappadocia entry of the home tradition and Gregory of Nyssa.",
+  "Ids checked against movements and retiredMovements: paula-of-rome, constantine-the-great, basil-of-caesarea and gregory-of-nazianzus are unused.",
+  "concerns, Paula: desert-monasticism--hieronymian-ascetic-literary names Paula but is about how the Hieronymian circle came to know Egyptian monasticism (Marcella hears of Antony and Pachomius from Athanasius; Jerome writes on Antony). Its three source quotes are Jerome's words, and only one is about Paula's act. concerns left null, not assigned to Paula; if one person takes it, it would be Jerome (already an entry; release 29 left it unset).",
+  "concerns assigned to constantine-the-great (null before): imperial-juridical-christianity--donatism, --montanism-the-new-prophecy, --novatianism--2, --jerusalem-liturgical-pilgrimage-christianity (each quotes his acts or words). Not assigned: palestinian-church-pre-constantinian--jerusalem-liturgical-pilgrimage-christianity (about continuity of the see; the Macarius letter is one of four sources), latin-apologists--imperial-juridical-christianity (about Lactantius), donatism--latin-pastoral-congregational-christianity--2 (about the origin of the schism), melitian-schism--cyrilline-miaphysite-egyptian-christianity and imperial-juridical-christianity--ebionite-nazoraean-current (about Eusebius and the Tyre synod). The other 'Constantine' links are namesakes (Constantine V, Constantine of Lampron, Constantinus the abbot, Cyril-Constantine).",
+  "concerns assigned to basil-of-caesarea: desert-monasticism--iconophile-byzantine-monasticism (Basil's own letter and the canon on his rule) and anatolian-church-third-century--cappadocian-nicene-pastoral-monastic-tradition (both sources are Basil's own words). Not assigned: desert-monasticism--early-benedictine-italian-monasticism (Benedict's Rule names Basil's Rule among others; it is about Benedict's reading) and gallic-monastic-ascetic-christianity--early-benedictine-italian-monasticism, desert-monasticism--insular-irish-monastic-christianity, byzantine and Bogomil links (namesakes).",
+  "concerns assigned to gregory-of-nazianzus: cappadocian-nicene-pastoral-monastic-tradition--apollinarian-christianity (all sources are his letters).",
+  "Link cappadocian-nicene-pastoral-monastic-tradition--aquileian-christianity names both Basil and Gregory of Nazianzus, but its sources quote Gennadius on Rufinus's work, not either man's words or acts. I left concerns null; if one person must take it, it would be neither, since the subject is Rufinus.",
+  "Links whose concerns are already set, and which name the new people (not overwritten): cappadocian-nicene-pastoral-monastic-tradition--pneumatomachian-current, --anomoean-eunomian-christianity, --imperial-juridical-christianity, homoian-arian-christianity--cappadocian-nicene-pastoral-monastic-tradition (all gregory-of-nyssa; also name Basil, and Gregory of Nazianzus in the last three); alexandria-catechetical--cappadocian-nicene-pastoral-monastic-tradition (origen; names Basil and Gregory of Nazianzus); alexandria-catechetical--ambrosian-milan-standalone (ambrose-of-milan; names Basil); cappadocian-nicene-pastoral-monastic-tradition--hieronymian-ascetic-literary (jerome; names Gregory of Nazianzus); hieronymian-ascetic-literary--jerusalem-liturgical-pilgrimage-christianity (jerome; names Paula); byzantine-imperial-church-justinianic--roman-church-gregorian and early-benedictine-italian-monasticism--roman-church-gregorian (gregory-the-great; they match Constantine only as a namesake or in passing).",
+  "Contested points tagged and given both sides: Paula's relation to Jerome (Greek Palladius: she will die first and be freed from his bad temper; Syriac version: she died before her time to escape his envy and evil-eyedness; entry does not choose); Constantine's baptism (Eusebius: near Nicomedia at the end of his life; Zachariah chronicle: not at the end of his life, conversion by Silvester at Rome). The Zachariah text is a composite work attributed to Pseudo-Zachariah; the entry says 'goes under Zachariah's name'.",
+  "Paula: the 1627 Montague Life is a badly garbled OCR scan and the Library marks it a second witness, not a quotable text. The fact-table quote keeps its garbled spelling ('widdow'); the entry quotes only that words. The Sor Juana fact rows quote the Library's OCR Spanish with its long-s misreadings ('doda' for 'docta', 'vná' for 'vna'). The Sor Juana line on being daughter of a St. Jerome and a Santa Paula uses the Opus-authored rendering from the review; the other two English lines were checked as sound in the review.",
+  "Constantine legacy: the Michael the Syrian line is a chronicle source-list note, the thinnest of the counted hits. The Library's OCR reads the chronicler as 'Anniajîus, moine d'Alexandrie'; I wrote 'a monk of Alexandria' and did not supply the name Annianus. I did not use Michael's line 16422 ('Constantine entered Rome; Sylvester and all Christians fled before him') because its context is unclear. The Chronica minora passage is placed on the Church of the East shelf by the census count, but the volume gathers East and West Syriac chroniclers, so the entry says only 'a Syriac chronicle'. It names the church 'aedes Resurrectionis (Anastasis)'; reading that as the church at Christ's tomb rests on Constantine's own letter to Macarius (Widely Accepted row).",
+  "Home record imperial-juridical-christianity is internally inconsistent on Constantine's toleration: its why field says 312, its longDescription says 313. The entry uses 312 (the people-row year and the why field) for start and for the opening line of longDescription.",
+  "Legacy sentences name later writers who 'name' or 'cite' the person; none says 'influenced', and no link is drafted. Basil's legacy goes beyond the two counted traditions (Benedict's Rule, Nicaea II, Gennadius on Rufinus, Jerome on Ambrose) because the census already cites each of those sources on an existing link; every one has a fact row.",
+  "Prose scoring and quote checks are run through check_draft.py; the sourcing lines on holdings for Basil's Address to Young Men and Gregory's Migne volumes and metrical poem rest on file names and the home people row, so those rows carry no quote.",
+  "Paula's own words: Letter 46 (Paula and Eustochium to Marcella), issued in her name, counts as her own words (ruling B, Decision-Log 2026-11-10, P2-G3b). The Library's editor says Jerome composed it; sourcing says so.",
+  "FLOOR NOTES: per the revision brief, floorNote carries only the doctrinal-floor note, as in origen. For Paula the source caveats (Jerome's account, the two Lausiac versions) moved to sourcing; for Basil the Letter 38 authorship caveat moved to sourcing, with their fact rows. Gregory of Nazianzus's (the Theologian title) stays as a floor note about faith and doctrine; Constantine's baptism dispute moved to sourcing."
+ ]
+}
