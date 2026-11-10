@@ -1,0 +1,691 @@
+[
+ {
+  "cid": "C006",
+  "name": "Paula",
+  "passes": true,
+  "traditions": {
+   "the-society-of-jesus": {
+    "labels": {
+     "r2-0": "N",
+     "r2-1": "S",
+     "r2-2": "N",
+     "r2-3": "N",
+     "r2-4": "N",
+     "r2-5": "S",
+     "r2-6": "N",
+     "r2-7": "N",
+     "r2-8": "N",
+     "r2-9": "N"
+    },
+    "clean_passages": 2,
+    "best_quote": {
+     "file": "campion_rationes-decem-ten-reasons-lat-eng_rickaby1914.txt",
+     "line": 5362,
+     "text": "Ours  was  Paula,  who,  leaving  her  City  palace  and"
+    }
+   },
+   "recusant-english-catholicism": {
+    "labels": {
+     "r2-0": "S",
+     "r2-1": "U",
+     "r2-2": "N",
+     "r2-3": "S",
+     "r2-4": "S",
+     "r2-5": "S",
+     "r2-6": "S",
+     "r2-7": "S",
+     "r2-8": "S",
+     "r2-9": "S",
+     "r2-10": "S"
+    },
+    "clean_passages": 9,
+    "best_quote": {
+     "file": "smith-richard_life-of-lady-magdalen-montague_cf1627.txt",
+     "line": 1068,
+     "text": "most noble widdow S. Paula: She fo bewayled bim ;-as if 5he"
+    },
+    "clean_refs": [
+     "smith-richard_life-of-lady-magdalen-montague_cf1627.txt:215",
+     "smith-richard_life-of-lady-magdalen-montague_cf1627.txt:255",
+     "smith-richard_life-of-lady-magdalen-montague_cf1627.txt:1068",
+     "smith-richard_life-of-lady-magdalen-montague_cf1627.txt:1098",
+     "smith-richard_life-of-lady-magdalen-montague_cf1627.txt:1101",
+     "smith-richard_life-of-lady-magdalen-montague_cf1627.txt:1143",
+     "smith-richard_life-of-lady-magdalen-montague_cf1627.txt:1412",
+     "smith-richard_life-of-lady-magdalen-montague_cf1627.txt:1449",
+     "smith-richard_life-of-lady-magdalen-montague_cf1627.txt:2498"
+    ]
+   },
+   "philippine-catholicism-era-8": {
+    "labels": {
+     "r2-0": "N",
+     "r2-1": "N",
+     "r2-2": "N",
+     "r2-3": "N",
+     "r2-4": "N",
+     "r2-5": "N",
+     "r2-6": "N",
+     "r2-7": "N",
+     "r2-8": "N",
+     "r2-9": "N"
+    },
+    "clean_passages": 0
+   },
+   "colonial-latin-american-devotional-catholicism": {
+    "labels": {
+     "r2-0": "S",
+     "r2-1": "S",
+     "r2-2": "N",
+     "r2-3": "S",
+     "r2-4": "U",
+     "r2-5": "S",
+     "r2-6": "S",
+     "r2-7": "S"
+    },
+    "clean_passages": 5,
+    "best_quote": {
+     "file": "juana-ines-de-la-cruz_fama-y-obras-posthumas-spa_castorena1700.txt",
+     "line": 6677,
+     "text": "jfiendo  hija  de  vn  S.  Gerónimo,  y de  vná  Santa  Paula,"
+    },
+    "clean_refs": [
+     "juana-ines-de-la-cruz_fama-y-obras-posthumas-spa_castorena1700.txt:6677",
+     "juana-ines-de-la-cruz_fama-y-obras-posthumas-spa_castorena1700.txt:7471",
+     "juana-ines-de-la-cruz_fama-y-obras-posthumas-spa_castorena1700.txt:10724",
+     "juana-ines-de-la-cruz_fama-y-obras-posthumas-spa_castorena1700.txt:10869",
+     "villagomez_sumario-probanzas-canonizacion-toribio-mogrovejo-spa_lima1662.txt:439"
+    ]
+   }
+  },
+  "namesake_notes": "Francis of Paula (founder of the Minims) and the place Paola/Paula in SJ and Philippine files; Fray Francisco de Paula (Dominican provincial) and Mother Paula (Manila beata) in Philippine files; \"Paula pales\" in Pena-Montenegro is a place/word.",
+  "editorial_notes": "None counted. Campion 5362 (English translation) lies outside the recusant shelf locus (Latin text only) and is labelled U there.",
+  "comment": "Recusant: Smith Life (OCR garbled second witness) has 9 distinct Jerome-on-Paula passages. Colonial: four in Sor Juana own prose (Respuesta, 7471/7478 one passage; two in devotional/petition texts) plus Villagomez 439 deposition; Villagomez 11022 (quoted sermon inside digest) left U. SJ has only Campion and Nadal (Paula seeing the infant Jesus), so below 5."
+ },
+ {
+  "cid": "C022",
+  "name": "Priscilla",
+  "passes": false,
+  "traditions": {
+   "antiochene-exegetical-christianity-chrysostom-ce": {
+    "labels": {
+     "r2-0": "N",
+     "r2-1": "N",
+     "r2-2": "N",
+     "r2-3": "N",
+     "r2-4": "N",
+     "r2-5": "N",
+     "r2-6": "N",
+     "r2-7": "N",
+     "r2-8": "N",
+     "r2-9": "N",
+     "r2-10": "N",
+     "r2-11": "N",
+     "r2-12": "N",
+     "r2-13": "N",
+     "r2-14": "N"
+    },
+    "clean_passages": 0
+   },
+   "imperial-juridical-christianity": {
+    "labels": {
+     "r2-0": "N",
+     "r2-1": "E",
+     "r2-2": "N",
+     "r2-3": "E",
+     "r2-4": "N",
+     "r2-5": "N",
+     "r2-6": "N",
+     "r2-7": "N"
+    },
+    "clean_passages": 0
+   },
+   "latin-pastoral-congregational-christianity": {
+    "labels": {
+     "r2-0": "U",
+     "r2-1": "N",
+     "r2-2": "S",
+     "r2-3": "S",
+     "r2-4": "N",
+     "r2-5": "S",
+     "r2-6": "U",
+     "r2-7": "N",
+     "r2-8": "N",
+     "r2-9": "U",
+     "r2-10": "N",
+     "r2-11": "U",
+     "r2-12": "U",
+     "r2-13": "U"
+    },
+    "clean_passages": 1,
+    "best_quote": {
+     "file": "augustine_de-agone-christiano-lat_zycha1900-csel41-tei.txt",
+     "line": 1431,
+     "text": "apostolo uenisse aut in Montano et Priscilla, sicut Cataphryges"
+    }
+   },
+   "latin-apologists": {
+    "labels": {
+     "r2-0": "E",
+     "r2-1": "E",
+     "r2-2": "U",
+     "r2-3": "U",
+     "r2-4": "U",
+     "r2-5": "U",
+     "r2-6": "E",
+     "r2-7": "U",
+     "r2-8": "U",
+     "r2-9": "U"
+    },
+    "clean_passages": 0
+   }
+  },
+  "namesake_notes": "Priscilla wife of Aquila (Acts, Rom 16, 1 Cor 16) in all Chrysostom and Augustine Acts quotations; not the Montanist.",
+  "editorial_notes": "Seven Councils notes on Basil/Tillemont and Montanus with Priscilla and Maximilla (editor); Tertullian Oehler index lines; Hippolytus table of contents/summaries.",
+  "comment": "Montanist Priscilla appears only in Augustine De agone (one passage, in several editions) within the Latin pastoral shelf. Latin apologists mentions (Tertullian De monogamia/De ieiunio/Adv Prax, Hippolytus Refutation) lie outside the shelved works (Commodian, Cyprian Ad Demetrianum, Tertullian De anima/Ad martyras), so U. Round-1 S counts in imperial-juridical were editorial notes, not S."
+ },
+ {
+  "cid": "C044",
+  "name": "Arnobius of Sicca",
+  "passes": false,
+  "traditions": {
+   "antiochene-exegetical-christianity-chrysostom-ce": {
+    "labels": {
+     "r2-0": "N",
+     "r2-1": "N",
+     "r2-2": "N",
+     "r2-3": "N",
+     "r2-4": "E",
+     "r2-5": "N",
+     "r2-6": "N",
+     "r2-7": "N",
+     "r2-8": "N",
+     "r2-9": "N",
+     "r2-10": "N",
+     "r2-11": "N",
+     "r2-12": "N",
+     "r2-13": "N",
+     "r2-14": "N"
+    },
+    "clean_passages": 0
+   },
+   "hieronymian-ascetic-literary": {
+    "labels": {
+     "r2-0": "U",
+     "r2-1": "S",
+     "r2-2": "U",
+     "r2-3": "U",
+     "r2-4": "U"
+    },
+    "clean_passages": 1,
+    "best_quote": {
+     "file": "jerome_eusebii-chronici-canones-lat_fotheringham1923.txt",
+     "line": 45066,
+     "text": "XXI • Arnobius rhetor in Africa clarus habetur,"
+    },
+    "clean_refs": [
+     "jerome_eusebii-chronici-canones-lat_fotheringham1923.txt:45066"
+    ]
+   },
+   "the-anabaptist-movements": {
+    "labels": {
+     "r2-0": "S",
+     "r2-1": "S",
+     "r2-2": "S",
+     "r2-3": "S",
+     "r2-4": "S",
+     "r2-5": "S",
+     "r2-6": "S"
+    },
+    "clean_passages": 4,
+    "best_quote": {
+     "file": "van-braght_martyrs-mirror_sohm1886.txt",
+     "line": 16518,
+     "text": "A. D. 300. — Arnobius, an old teacher says (in"
+    },
+    "clean_refs": [
+     "van-braght_martyrs-mirror_sohm1886.txt:16518",
+     "van-braght_martyrs-mirror_sohm1886.txt:20705",
+     "van-braght_martyrs-mirror_sohm1886.txt:20743",
+     "van-braght_martyrs-mirror_sohm1886.txt:20779"
+    ]
+   }
+  },
+  "namesake_notes": "The Nestorius file (Loofs) discusses \"Arnobius junior\", the 5th-century author of the Conflictus Arnobii cum Serapione, a different person, in German scholarly prose. Van Braght quotes Arnobius \"in Psalms 146\" (really Arnobius the Younger commentary on Psalms) and dates him A.D. 300, so he conflates the two; counted S only because the tradition names the A.D. 300 Arnobius, flagged.",
+  "editorial_notes": "Loofs introduction and apparatus on Nestorius counted E/N. Jerome letters LVIII, LX, LXII (npnf206) and the Illustrious Men endnote (npnf203) are other works than the shelved Against Jovinianus and Apology, so U.",
+  "comment": "Round-1 count of 5 for hieronymian came from Jerome Letters and Illustrious Men, which are not the shelved works; only the Chronicle entry is S. Anabaptist reaches at most 4 distinct passages (two A.D. 300/301 blocks of van Braght commentary on the same quotations) and rests on a conflation of two Arnobii."
+ },
+ {
+  "cid": "C055",
+  "name": "Didymus the Blind",
+  "passes": false,
+  "traditions": {
+   "nicene-visigothic-iberia": {
+    "labels": {
+     "r2-0": "N"
+    },
+    "clean_passages": 0
+   },
+   "byzantine-imperial-church-justinianic": {
+    "labels": {
+     "r2-0": "S",
+     "r2-1": "U",
+     "r2-2": "E",
+     "r2-3": "E",
+     "r2-4": "S",
+     "r2-5": "U"
+    },
+    "clean_passages": 2,
+    "best_quote": {
+     "file": "evagrius-scholasticus_ecclesiastical-history_walford1846.txt",
+     "line": 9724,
+     "text": "tized Origen, Didymus, and Evagrius, issued what the"
+    },
+    "clean_refs": [
+     "evagrius-scholasticus_ecclesiastical-history_walford1846.txt:9529",
+     "evagrius-scholasticus_ecclesiastical-history_walford1846.txt:9724"
+    ]
+   },
+   "orthodoxy-under-the-ottomans-parish-millet-and-n": {
+    "labels": {
+     "r2-0": "N",
+     "r2-1": "E",
+     "r2-2": "E",
+     "r2-3": "E",
+     "r2-4": "N",
+     "r2-5": "N",
+     "r2-6": "N",
+     "r2-7": "N"
+    },
+    "clean_passages": 0
+   },
+   "latin-africa-under-byzantium": {
+    "labels": {
+     "r2-0": "N",
+     "r2-1": "E",
+     "r2-2": "N",
+     "r2-3": "E",
+     "r2-4": "U",
+     "r2-5": "E",
+     "r2-6": "E"
+    },
+    "clean_passages": 0
+   }
+  },
+  "namesake_notes": "Thomas called Didymus (John 11, 20) in Isidore, Liberatus file; the martyr Didymus (soldier who saved Theodora) in Nikodemos Synaxaristes; Didymus of Lapithos (a bishop at Chalcedon) in the Mansi index.",
+  "editorial_notes": "Kihn German introduction; Kimmel and Gennadius apparatus citing Didymus De trinitate; Bidez-Parmentier index; Chalcedon introductory note; Migne editor note at Liberatus 85816; Mansi indexes.",
+  "comment": "Only Evagrius Scholasticus (2 passages) is clean; the Primasius quote (55486) is a different work from the shelved Breviarium of Liberatus, so U. No tradition near 5."
+ },
+ {
+  "cid": "C070",
+  "name": "Evagrius",
+  "passes": false,
+  "traditions": {
+   "byzantine-imperial-church-justinianic": {
+    "labels": {
+     "r2-0": "N",
+     "r2-1": "U",
+     "r2-2": "N",
+     "r2-3": "E",
+     "r2-4": "E",
+     "r2-5": "N",
+     "r2-6": "E",
+     "r2-7": "N",
+     "r2-8": "E",
+     "r2-9": "N",
+     "r2-10": "U",
+     "r2-11": "N",
+     "r2-12": "N",
+     "r2-13": "U",
+     "r2-14": "N"
+    },
+    "clean_passages": 0
+   },
+   "syriac-orthodox-west-syriac-christianity": {
+    "labels": {
+     "r2-0": "U",
+     "r2-1": "N",
+     "r2-2": "N",
+     "r2-3": "E",
+     "r2-4": "N",
+     "r2-5": "N",
+     "r2-6": "E",
+     "r2-7": "E",
+     "r2-8": "N",
+     "r2-9": "E",
+     "r2-10": "S",
+     "r2-11": "N",
+     "r2-12": "N",
+     "r2-13": "E",
+     "r2-14": "N"
+    },
+    "clean_passages": 1,
+    "best_quote": {
+     "file": "michael-the-syrian_chronique-tome1-livres-i-vii-fra_chabot1899.txt",
+     "line": 60073,
+     "text": "Palladius, disciple d'Evagrius, qui \nparcourut le désert*' et recueillit les his- "
+    },
+    "clean_refs": [
+     "michael-the-syrian_chronique-tome1-livres-i-vii-fra_chabot1899.txt:60073"
+    ]
+   },
+   "chalcedonian-monasticism-judean-desert-and-gaza": {
+    "labels": {
+     "r2-0": "U",
+     "r2-1": "N",
+     "r2-2": "E",
+     "r2-3": "E",
+     "r2-4": "U",
+     "r2-5": "E",
+     "r2-6": "U",
+     "r2-7": "U",
+     "r2-8": "E",
+     "r2-9": "U",
+     "r2-10": "U",
+     "r2-11": "U",
+     "r2-12": "U",
+     "r2-13": "U",
+     "r2-14": "S"
+    },
+    "clean_passages": 1,
+    "best_quote": {
+     "file": "dorotheus-gaza_doctrinae-barsanuphius-climacus-agathias-grc-lat_migne-pg88.txt",
+     "line": 140400,
+     "text": "tutem, toties Domino celebrat Phase (ut aiebat \nEvagrius). Pascha Domini proprie digressio est a "
+    },
+    "clean_refs": [
+     "dorotheus-gaza_doctrinae-barsanuphius-climacus-agathias-grc-lat_migne-pg88.txt:140401"
+    ]
+   },
+   "latin-africa-under-byzantium": {
+    "labels": {
+     "r2-0": "E",
+     "r2-1": "E",
+     "r2-2": "E",
+     "r2-3": "E",
+     "r2-4": "E",
+     "r2-5": "E",
+     "r2-6": "E",
+     "r2-7": "E",
+     "r2-8": "E",
+     "r2-9": "E",
+     "r2-10": "E",
+     "r2-11": "E",
+     "r2-12": "E",
+     "r2-13": "E",
+     "r2-14": "E"
+    },
+    "clean_passages": 0
+   }
+  },
+  "namesake_notes": "Dominant namesake: Evagrius Scholasticus (historian of Epiphania), named by Mansi/Migne notes, Walford introduction, Kihn, Liberatus editor; also Evagrius of Antioch (Paulinus schism) in Michael tome 2, Severus letters, Kihn; Evagrius the philosopher in Moschus Pratum (letter to Synesius).",
+  "editorial_notes": "Walford biographical introduction; Migne editorial footnotes and Baronius citations in Liberatus (lines 75033-86375) and in the Dorotheus file; Kugener, Nau and Chabot footnotes; Kihn German introduction; Chalcedon introductory note.",
+  "comment": "Not a pass. Contexts given (sample of totals) show only 1 clean passage each for Syriac and Judean desert; Michael 59025 \"Evagrius dit: Dieu est simple\" left U (which Evagrius unclear); Dorotheus Doctrinae and Climacus lie outside the Barsanuphius locus; Moschus 28908/29629 lie beyond the locus (~25000). My own grep: Evagrius Scholasticus (Walford 9529, 9724) names Evagrius Ponticus only twice, and Michael tome 1 line 60795 is a further unlisted Ponticus mention, so neither tradition nears 5."
+ },
+ {
+  "cid": "C086",
+  "name": "Leo of Rome",
+  "passes": false,
+  "traditions": {
+   "the-tridentine-church": {
+    "labels": {
+     "r2-0": "N",
+     "r2-1": "S",
+     "r2-2": "E",
+     "r2-3": "E",
+     "r2-4": "N",
+     "r2-5": "S",
+     "r2-6": "N"
+    },
+    "clean_passages": 2,
+    "best_quote": {
+     "file": "propaganda-fide_collectanea-decreta-instructiones-rescripta-v1-lat_1907.txt",
+     "line": 66126,
+     "text": "S. Leo Magnus ad Nicetam Aquileiensem (1). "
+    },
+    "clean_refs": [
+     "propaganda-fide_collectanea-decreta-instructiones-rescripta-v1-lat_1907.txt:66126",
+     "council-of-trent_roman-catechism_mchugh-callan1923.txt:4758"
+    ]
+   },
+   "the-reformed-cities-zurich-and-geneva": {
+    "labels": {
+     "r2-0": "N",
+     "r2-1": "S",
+     "r2-2": "N",
+     "r2-3": "N",
+     "r2-4": "E"
+    },
+    "clean_passages": 1,
+    "best_quote": {
+     "file": "calvin_institutes-christian-religion-vol3_beveridge1845.txt",
+     "line": 21832,
+     "text": "this custom. Pope Leo says, (Ep. 39,) \" If any one returns "
+    },
+    "clean_refs": [
+     "calvin_institutes-christian-religion-vol3_beveridge1845.txt:21832"
+    ]
+   }
+  },
+  "namesake_notes": "Pope Leo XIII (Roman Catechism appendix, Encyclicals) and Pope Leo X (Zwingli, vol 1 and 2) are other popes.",
+  "editorial_notes": "McHugh-Callan introduction (Leo and Gregory among preachers, line 583); translator dissertation in the 1843 Roman Missal (line 2838); Hinke footnote citing Leo Sermon XXII (12835).",
+  "comment": "Not a pass: Tridentine has 2 clean passages (Roman Catechism 4758; Propaganda instruction 66126), Reformed 1 (Calvin 21832, Leo I letter attributed as Ep. 39)."
+ },
+ {
+  "cid": "C107",
+  "name": "Columba",
+  "passes": false,
+  "traditions": {
+   "medieval-irish-christianity": {
+    "labels": {
+     "r2-0": "E",
+     "r2-1": "E",
+     "r2-2": "E",
+     "r2-3": "E",
+     "r2-4": "E",
+     "r2-5": "E",
+     "r2-6": "E",
+     "r2-7": "E",
+     "r2-8": "S",
+     "r2-9": "S",
+     "r2-10": "E",
+     "r2-11": "E",
+     "r2-12": "E",
+     "r2-13": "E",
+     "r2-14": "E"
+    },
+    "clean_passages": 5,
+    "best_quote": {
+     "file": "stokes_lives-of-saints-from-the-book-of-lismore-iri-eng_1890.txt",
+     "line": 9719,
+     "text": "rogenair Colum Cille amlatd sin. Gortan dano ainm an inaidh in rogenair."
+    },
+    "clean_refs": [
+     "stokes_lives-of-saints-from-the-book-of-lismore-iri-eng_1890.txt:9697",
+     "stokes_lives-of-saints-from-the-book-of-lismore-iri-eng_1890.txt:9719",
+     "stokes_lives-of-saints-from-the-book-of-lismore-iri-eng_1890.txt:9724",
+     "stokes_lives-of-saints-from-the-book-of-lismore-iri-eng_1890.txt:9734",
+     "stokes_lives-of-saints-from-the-book-of-lismore-iri-eng_1890.txt:9761"
+    ]
+   },
+   "latin-papal-church-avignon-to-lateran-v": {
+    "labels": {
+     "r2-0": "N",
+     "r2-1": "N"
+    },
+    "clean_passages": 0
+   },
+   "medieval-welsh-christianity": {
+    "labels": {
+     "r2-0": "E",
+     "r2-1": "E",
+     "r2-2": "U",
+     "r2-3": "U",
+     "r2-4": "U"
+    },
+    "clean_passages": 0
+   }
+  },
+  "namesake_notes": "Latin columba, the dove (Birgitta Revelationes, Duranti note citing Chrysostom on the Holy Spirit as dove).",
+  "editorial_notes": "Stokes introduction, notes and indices (Reeves Columba citations, Lebar Brecc, notes lines 1198-8353 and 23953-24011); Williams ab Ithel introduction (Annales Cambriae 893); Giles variant-reading footnote in Nennius.",
+  "comment": "Only one tradition reaches 5, so passes is false. The two sampled S contexts are in the Irish text of Betha Choluim chille; further S mentions I found myself in the same Life: 9724, 9734, 9761, 9809 (not in the sample). Welsh: Annales Cambriae shelf locus is only the 768 Easter entry, so the 521/562/597 entries (2399, 2417, 2516) are outside it, labelled U."
+ },
+ {
+  "cid": "C139",
+  "name": "Ilarion of Kyiv",
+  "passes": false,
+  "traditions": {
+   "russian-church-nikon-to-holy-synod": {
+    "labels": {
+     "r2-0": "N",
+     "r2-1": "N",
+     "r2-2": "N",
+     "r2-3": "N",
+     "r2-4": "N",
+     "r2-5": "N",
+     "r2-6": "N",
+     "r2-7": "N",
+     "r2-8": "N",
+     "r2-9": "N",
+     "r2-10": "N",
+     "r2-11": "N",
+     "r2-12": "N",
+     "r2-13": "N",
+     "r2-14": "N"
+    },
+    "clean_passages": 0
+   },
+   "the-tridentine-church": {
+    "labels": {
+     "r2-0": "N"
+    },
+    "clean_passages": 0
+   },
+   "byzantine-church-palaiologan": {
+    "labels": {
+     "r2-0": "N",
+     "r2-1": "N",
+     "r2-2": "N",
+     "r2-3": "N",
+     "r2-4": "N",
+     "r2-5": "N",
+     "r2-6": "N",
+     "r2-7": "N",
+     "r2-8": "N",
+     "r2-9": "N",
+     "r2-10": "N"
+    },
+    "clean_passages": 0
+   }
+  },
+  "namesake_notes": "Hilarion archbishop of Riazan (17th c., Nikon trial, Ligarides) in all Russian contexts; St Hilarion of Gaza (4th c. hermit) in the Roman Breviary and in the Petit/Patrologia Orientalis 15 Vita.",
+  "editorial_notes": "Ligarides footnotes by Palmer (2163 style bracketed notes) also present but irrelevant as all are namesakes.",
+  "comment": "No mention of Ilarion of Kyiv (11th c.) in any sampled context; all contexts are other Hilarions. Does not reach any tradition at 5."
+ },
+ {
+  "cid": "C163",
+  "name": "Job",
+  "passes": false,
+  "traditions": {
+   "the-methodist-revival": {
+    "labels": {
+     "r2-0": "N",
+     "r2-1": "N",
+     "r2-2": "N",
+     "r2-3": "N",
+     "r2-4": "N",
+     "r2-5": "N",
+     "r2-6": "N",
+     "r2-7": "N",
+     "r2-8": "N",
+     "r2-9": "N",
+     "r2-10": "N",
+     "r2-11": "N",
+     "r2-12": "N",
+     "r2-13": "N",
+     "r2-14": "N"
+    },
+    "clean_passages": 0
+   },
+   "the-quakers-religious-society-of-friends": {
+    "labels": {
+     "r2-0": "N",
+     "r2-1": "N",
+     "r2-2": "N",
+     "r2-3": "N",
+     "r2-4": "N",
+     "r2-5": "N",
+     "r2-6": "N",
+     "r2-7": "N",
+     "r2-8": "N",
+     "r2-9": "N",
+     "r2-10": "N",
+     "r2-11": "N",
+     "r2-12": "N",
+     "r2-13": "N",
+     "r2-14": "N"
+    },
+    "clean_passages": 0
+   },
+   "russian-church-synodal-century": {
+    "labels": {
+     "r2-0": "S",
+     "r2-1": "N",
+     "r2-2": "S",
+     "r2-3": "N",
+     "r2-4": "S",
+     "r2-5": "N",
+     "r2-6": "S",
+     "r2-7": "S",
+     "r2-8": "N",
+     "r2-9": "S",
+     "r2-10": "N",
+     "r2-11": "S",
+     "r2-12": "S",
+     "r2-13": "S",
+     "r2-14": "S"
+    },
+    "clean_passages": 10,
+    "best_quote": {
+     "file": "mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
+     "line": 6052,
+     "text": "name  of  Job,  which  had  been  placed  first  upon  the  list."
+    },
+    "clean_refs": [
+     "mouravieff_history-of-the-church-of-russia_blackmore1842.txt:780",
+     "mouravieff_history-of-the-church-of-russia_blackmore1842.txt:6052",
+     "mouravieff_history-of-the-church-of-russia_blackmore1842.txt:6179",
+     "mouravieff_history-of-the-church-of-russia_blackmore1842.txt:7006",
+     "mouravieff_history-of-the-church-of-russia_blackmore1842.txt:7642",
+     "mouravieff_history-of-the-church-of-russia_blackmore1842.txt:9106",
+     "mouravieff_history-of-the-church-of-russia_blackmore1842.txt:13511",
+     "mouravieff_history-of-the-church-of-russia_blackmore1842.txt:13724",
+     "mouravieff_history-of-the-church-of-russia_blackmore1842.txt:13885",
+     "mouravieff_history-of-the-church-of-russia_blackmore1842.txt:14475"
+    ]
+   },
+   "the-evangelical-awakening-in-new-england": {
+    "labels": {
+     "r2-0": "N",
+     "r2-1": "N",
+     "r2-2": "N",
+     "r2-3": "N",
+     "r2-4": "N",
+     "r2-5": "N",
+     "r2-6": "N",
+     "r2-7": "N",
+     "r2-8": "N",
+     "r2-9": "N",
+     "r2-10": "N",
+     "r2-11": "N",
+     "r2-12": "N",
+     "r2-13": "N",
+     "r2-14": "N"
+    },
+    "clean_passages": 0
+   }
+  },
+  "namesake_notes": "Biblical Job (book of Job, citations \"Job xxii. 21\" etc.) dominates the Methodist, Quaker and Evangelical Awakening contexts; also Job Chilaway, Job Johnson, Job Pugh, Rev. Job Strong; in Mouravieff: Job of Kyiv (Boretsky, 8207), Job metropolitan of Novgorod (12177) and Job bishop of Suzdal (13511 second mention) are other men; Philaret catechism cites the book of Job.",
+  "editorial_notes": "Wesley Journal (Curnock) footnotes and Brainerd/Edwards title-page and contents matter where the contexts carry Job references; none counted.",
+  "comment": "Only the Russian synodal-century tradition reaches 5 (Mouravieff on Patriarch Job; 13511 counted via the same passage naming \"Job metropolitan of All Russia\"), so passes is false. The other three are biblical or other namesakes in every context of the sample."
+ }
+]

@@ -1,0 +1,461 @@
+[
+ {
+  "cid": "C019",
+  "name": "Valentinus",
+  "passes": true,
+  "traditions": {
+   "latin-pastoral-congregational-christianity": {
+    "labels": {
+     "latin-pastoral-congregational-christianity#r2-0": "N",
+     "latin-pastoral-congregational-christianity#r2-1": "E",
+     "latin-pastoral-congregational-christianity#r2-2": "E",
+     "latin-pastoral-congregational-christianity#r2-3": "E",
+     "latin-pastoral-congregational-christianity#r2-4": "N",
+     "latin-pastoral-congregational-christianity#r2-5": "N",
+     "latin-pastoral-congregational-christianity#r2-6": "N",
+     "latin-pastoral-congregational-christianity#r2-7": "U",
+     "latin-pastoral-congregational-christianity#r2-8": "E",
+     "latin-pastoral-congregational-christianity#r2-9": "S",
+     "latin-pastoral-congregational-christianity#r2-10": "N",
+     "latin-pastoral-congregational-christianity#r2-11": "N",
+     "latin-pastoral-congregational-christianity#r2-12": "E",
+     "latin-pastoral-congregational-christianity#r2-13": "U",
+     "latin-pastoral-congregational-christianity#r2-14": "N"
+    },
+    "clean_passages": 3,
+    "clean_refs": [
+     "optatus_against-the-donatists.txt:139",
+     "optatus_against-the-donatists.txt:3136",
+     "optatus_against-the-donatists.txt:3254"
+    ],
+    "best_quote": {
+     "file": "optatus_against-the-donatists.txt",
+     "line": 3136,
+     "text": "such Valentinus, who strove to take away from Christ His Flesh."
+    }
+   },
+   "roman-church-third-century": {
+    "labels": {
+     "roman-church-third-century#r2-0": "E",
+     "roman-church-third-century#r2-1": "U",
+     "roman-church-third-century#r2-2": "E",
+     "roman-church-third-century#r2-3": "S",
+     "roman-church-third-century#r2-4": "E",
+     "roman-church-third-century#r2-5": "S",
+     "roman-church-third-century#r2-6": "E",
+     "roman-church-third-century#r2-7": "E",
+     "roman-church-third-century#r2-8": "E",
+     "roman-church-third-century#r2-9": "E",
+     "roman-church-third-century#r2-10": "S",
+     "roman-church-third-century#r2-11": "E",
+     "roman-church-third-century#r2-12": "S",
+     "roman-church-third-century#r2-13": "S",
+     "roman-church-third-century#r2-14": "S"
+    },
+    "clean_passages": 6,
+    "clean_refs": [
+     "anf05_hippolytus-cyprian-caius-novatian.xml:8764",
+     "anf05_hippolytus-cyprian-caius-novatian.xml:9151",
+     "anf05_hippolytus-cyprian-caius-novatian.xml:9787",
+     "anf05_hippolytus-cyprian-caius-novatian.xml:10058",
+     "anf05_hippolytus-cyprian-caius-novatian.xml:13009",
+     "anf05_hippolytus-cyprian-caius-novatian.xml:15119"
+    ],
+    "best_quote": {
+     "file": "anf05_hippolytus-cyprian-caius-novatian.xml",
+     "line": 9151,
+     "text": "There is, says (Valentinus), not anything at all begotten, but the"
+    }
+   }
+  },
+  "namesake_notes": "Valentinus bishop of Vaga and Valentinus primate of Numidia at African councils (Mansi, Codex canonum Africanae); Valentinus the monk of Hadrumetum addressed by Augustine (NPNF105).",
+  "editorial_notes": "Latin-pastoral: Optatus translator's footnotes (509, 3909), Mansi/Baronius apparatus, ANF index. Roman third century: ANF index (4804) and the translator's chapter headings of the Refutation (counted E, not S).",
+  "comment": "Latin-pastoral reaches only 3 distinct Optatus passages (139, 3136, 3254; the last two found by my own grep, 139 and 3254 not among the supplied contexts), not 5; the Refutation in the same ANF file is not on that shelf (U). Roman-church-third-century shelves Hippolytus's Refutation (div2 3.3, lines 974-16852): 6 body passages checked outside <note> elements, so passes via it. Line 7900 is a contents-style sentence, left U. Body text at 9721 (ch. XXXII) also names him but was not a supplied context."
+ },
+ {
+  "cid": "C039",
+  "name": "Novatian",
+  "passes": true,
+  "traditions": {
+   "cappadocian-nicene-pastoral-monastic-tradition": {
+    "labels": {
+     "cappadocian-nicene-pastoral-monastic-tradition#r2-0": "U",
+     "cappadocian-nicene-pastoral-monastic-tradition#r2-1": "U",
+     "cappadocian-nicene-pastoral-monastic-tradition#r2-2": "U",
+     "cappadocian-nicene-pastoral-monastic-tradition#r2-3": "U",
+     "cappadocian-nicene-pastoral-monastic-tradition#r2-4": "U",
+     "cappadocian-nicene-pastoral-monastic-tradition#r2-5": "U",
+     "cappadocian-nicene-pastoral-monastic-tradition#r2-6": "U",
+     "cappadocian-nicene-pastoral-monastic-tradition#r2-7": "U",
+     "cappadocian-nicene-pastoral-monastic-tradition#r2-8": "U",
+     "cappadocian-nicene-pastoral-monastic-tradition#r2-9": "U",
+     "cappadocian-nicene-pastoral-monastic-tradition#r2-10": "U",
+     "cappadocian-nicene-pastoral-monastic-tradition#r2-11": "U",
+     "cappadocian-nicene-pastoral-monastic-tradition#r2-12": "U",
+     "cappadocian-nicene-pastoral-monastic-tradition#r2-13": "U",
+     "cappadocian-nicene-pastoral-monastic-tradition#r2-14": "U"
+    },
+    "clean_passages": 0
+   },
+   "imperial-juridical-christianity": {
+    "labels": {
+     "imperial-juridical-christianity#r2-0": "E",
+     "imperial-juridical-christianity#r2-1": "N",
+     "imperial-juridical-christianity#r2-2": "E",
+     "imperial-juridical-christianity#r2-3": "E",
+     "imperial-juridical-christianity#r2-4": "E",
+     "imperial-juridical-christianity#r2-5": "E",
+     "imperial-juridical-christianity#r2-6": "N",
+     "imperial-juridical-christianity#r2-7": "N",
+     "imperial-juridical-christianity#r2-8": "N",
+     "imperial-juridical-christianity#r2-9": "N",
+     "imperial-juridical-christianity#r2-10": "N",
+     "imperial-juridical-christianity#r2-11": "N",
+     "imperial-juridical-christianity#r2-12": "N",
+     "imperial-juridical-christianity#r2-13": "N",
+     "imperial-juridical-christianity#r2-14": "N"
+    },
+    "clean_passages": 0
+   },
+   "hieronymian-ascetic-literary": {
+    "labels": {
+     "hieronymian-ascetic-literary#r2-0": "S",
+     "hieronymian-ascetic-literary#r2-1": "E",
+     "hieronymian-ascetic-literary#r2-2": "S",
+     "hieronymian-ascetic-literary#r2-3": "S",
+     "hieronymian-ascetic-literary#r2-4": "S",
+     "hieronymian-ascetic-literary#r2-5": "S",
+     "hieronymian-ascetic-literary#r2-6": "S",
+     "hieronymian-ascetic-literary#r2-7": "S",
+     "hieronymian-ascetic-literary#r2-8": "S",
+     "hieronymian-ascetic-literary#r2-9": "S",
+     "hieronymian-ascetic-literary#r2-10": "S",
+     "hieronymian-ascetic-literary#r2-11": "S",
+     "hieronymian-ascetic-literary#r2-12": "S",
+     "hieronymian-ascetic-literary#r2-13": "N"
+    },
+    "clean_passages": 9,
+    "clean_refs": [
+     "npnf206_jerome-principal-works.xml:8404",
+     "npnf206_jerome-principal-works.xml:8419",
+     "npnf206_jerome-principal-works.xml:8428",
+     "npnf206_jerome-principal-works.xml:8441",
+     "npnf206_jerome-principal-works.xml:8452",
+     "npnf203_theodoret-jerome-gennadius-rufinus.xml:40803",
+     "npnf203_theodoret-jerome-gennadius-rufinus.xml:40852",
+     "npnf203_theodoret-jerome-gennadius-rufinus.xml:41087",
+     "npnf203_theodoret-jerome-gennadius-rufinus.xml:53846"
+    ],
+    "best_quote": {
+     "file": "npnf206_jerome-principal-works.xml",
+     "line": 8404,
+     "text": "Now if Novatian affirms that none but Christian renegades can sin"
+    }
+   }
+  },
+  "namesake_notes": "Cappadocian: all 15 hits are in Cyprian's epistles/arguments, not in the shelved Firmilian letter (Epistle LXXIV), so all U. Imperial-juridical: Socrates calls the founder 'Novatus' (Greek usage, per the translator's note); the hits are the sect adjective ('Novatian church/sect'), not the person, so N, or E for the introduction and canon notes. Jerome's 'Novatian bishop' (32851) is the sect adjective, N.",
+  "editorial_notes": "NPNF introductions and notes to Socrates/Sozomen and the Canons; ANF 'Argument' headings in Cyprian's letters.",
+  "comment": "Hieronymian shelf (Jerome) reaches 9 distinct passages: Letter XLII to Marcella (5 sentences), and Lives of Illustrious Men (Cornelius, Dionysius, Reticius entries) plus Apology against Rufinus 53846. 40803/40805 and 40852/40853/40855 are each one passage. Letter XXXVI headnote (7599) is editorial. Byzantine-palaiologan not labelled (stopped early)."
+ },
+ {
+  "cid": "C052",
+  "name": "Nino",
+  "passes": false,
+  "traditions": {
+   "nicene-visigothic-iberia": {
+    "labels": {
+     "nicene-visigothic-iberia#r2-0": "N",
+     "nicene-visigothic-iberia#r2-1": "N",
+     "nicene-visigothic-iberia#r2-2": "N",
+     "nicene-visigothic-iberia#r2-3": "N",
+     "nicene-visigothic-iberia#r2-4": "N",
+     "nicene-visigothic-iberia#r2-5": "N",
+     "nicene-visigothic-iberia#r2-6": "N",
+     "nicene-visigothic-iberia#r2-7": "N",
+     "nicene-visigothic-iberia#r2-8": "N",
+     "nicene-visigothic-iberia#r2-9": "N",
+     "nicene-visigothic-iberia#r2-10": "N",
+     "nicene-visigothic-iberia#r2-11": "N",
+     "nicene-visigothic-iberia#r2-12": "N",
+     "nicene-visigothic-iberia#r2-13": "N",
+     "nicene-visigothic-iberia#r2-14": "N"
+    },
+    "clean_passages": 0
+   },
+   "the-georgian-golden-age": {
+    "labels": {
+     "the-georgian-golden-age#r2-0": "E",
+     "the-georgian-golden-age#r2-1": "E",
+     "the-georgian-golden-age#r2-2": "E",
+     "the-georgian-golden-age#r2-3": "E",
+     "the-georgian-golden-age#r2-4": "E",
+     "the-georgian-golden-age#r2-5": "E",
+     "the-georgian-golden-age#r2-6": "E",
+     "the-georgian-golden-age#r2-7": "E",
+     "the-georgian-golden-age#r2-8": "E",
+     "the-georgian-golden-age#r2-9": "E",
+     "the-georgian-golden-age#r2-10": "E",
+     "the-georgian-golden-age#r2-11": "U",
+     "the-georgian-golden-age#r2-12": "U",
+     "the-georgian-golden-age#r2-13": "N",
+     "the-georgian-golden-age#r2-14": "E"
+    },
+    "clean_passages": 0
+   },
+   "byzantine-imperial-church-justinianic": {
+    "labels": {
+     "byzantine-imperial-church-justinianic#r2-0": "N",
+     "byzantine-imperial-church-justinianic#r2-1": "N",
+     "byzantine-imperial-church-justinianic#r2-2": "N",
+     "byzantine-imperial-church-justinianic#r2-3": "N",
+     "byzantine-imperial-church-justinianic#r2-4": "N",
+     "byzantine-imperial-church-justinianic#r2-5": "N",
+     "byzantine-imperial-church-justinianic#r2-6": "N",
+     "byzantine-imperial-church-justinianic#r2-7": "N",
+     "byzantine-imperial-church-justinianic#r2-8": "N",
+     "byzantine-imperial-church-justinianic#r2-9": "N",
+     "byzantine-imperial-church-justinianic#r2-10": "N",
+     "byzantine-imperial-church-justinianic#r2-11": "N",
+     "byzantine-imperial-church-justinianic#r2-12": "N",
+     "byzantine-imperial-church-justinianic#r2-13": "N",
+     "byzantine-imperial-church-justinianic#r2-14": "N"
+    },
+    "clean_passages": 0
+   },
+   "byzantine-church-palaiologan": {
+    "labels": {
+     "byzantine-church-palaiologan#r2-0": "N",
+     "byzantine-church-palaiologan#r2-1": "N",
+     "byzantine-church-palaiologan#r2-2": "U",
+     "byzantine-church-palaiologan#r2-3": "N",
+     "byzantine-church-palaiologan#r2-4": "N",
+     "byzantine-church-palaiologan#r2-5": "N",
+     "byzantine-church-palaiologan#r2-6": "N",
+     "byzantine-church-palaiologan#r2-7": "N",
+     "byzantine-church-palaiologan#r2-8": "U",
+     "byzantine-church-palaiologan#r2-9": "U",
+     "byzantine-church-palaiologan#r2-10": "N",
+     "byzantine-church-palaiologan#r2-11": "N",
+     "byzantine-church-palaiologan#r2-12": "N",
+     "byzantine-church-palaiologan#r2-13": "N",
+     "byzantine-church-palaiologan#r2-14": "N"
+    },
+    "clean_passages": 0
+   }
+  },
+  "namesake_notes": "'Nino' in the Latin chronicles is king Ninus (husband of Semiramis); 'Nune' is OCR of Latin 'nunc'; 'Nino' in the Syriac OCR lines is garbage; 'Nino-Tsmida/Nino-Tsminda' is a monastery/see.",
+  "editorial_notes": "Brosset's Introduction (modern scholarly prose citing the Annals, incl. a quote of the Annals at 1724-1726), his Additions (charters), and the Index.",
+  "comment": "The brosset file holds Brosset's introduction, charters, notes and index; I found no body text of the chronicle naming St Nino, so Georgian golden age has 0 clean. Charter mentions (5892, 7175) are documents, not the shelved chronicle, left U. No passes beyond round-1 Georgian revival."
+ },
+ {
+  "cid": "C064",
+  "name": "Gregory of Nazianzus",
+  "passes": true,
+  "traditions": {
+   "the-english-reformation-and-elizabethan-settleme": {
+    "labels": {
+     "the-english-reformation-and-elizabethan-settleme#r2-0": "S",
+     "the-english-reformation-and-elizabethan-settleme#r2-4": "S",
+     "the-english-reformation-and-elizabethan-settleme#r2-7": "S",
+     "the-english-reformation-and-elizabethan-settleme#r2-8": "S",
+     "the-english-reformation-and-elizabethan-settleme#r2-9": "S"
+    },
+    "clean_passages": 5,
+    "clean_refs": [
+     "jewel_apology-of-the-church-of-england_bacon-morley1888.txt:746",
+     "jewel_apology-of-the-church-of-england_bacon-morley1888.txt:1167",
+     "jewel_apology-of-the-church-of-england_bacon-morley1888.txt:1314",
+     "jewel_apology-of-the-church-of-england_bacon-morley1888.txt:2760",
+     "jewel_apology-of-the-church-of-england_bacon-morley1888.txt:3635"
+    ],
+    "best_quote": {
+     "file": "jewel_apology-of-the-church-of-england_bacon-morley1888.txt",
+     "line": 1314,
+     "text": "writers, Gregory Nazianzen speaketh thus of the pitiful state of his own"
+    }
+   },
+   "recusant-english-catholicism": {
+    "labels": {
+     "recusant-english-catholicism#r2-0": "S",
+     "recusant-english-catholicism#r2-1": "S",
+     "recusant-english-catholicism#r2-2": "S",
+     "recusant-english-catholicism#r2-3": "S",
+     "recusant-english-catholicism#r2-4": "S",
+     "recusant-english-catholicism#r2-5": "S",
+     "recusant-english-catholicism#r2-6": "S",
+     "recusant-english-catholicism#r2-7": "S"
+    },
+    "clean_passages": 8,
+    "clean_refs": [
+     "allen-william_true-sincere-and-modest-defence-v2_1914.txt:574",
+     "allen-william_true-sincere-and-modest-defence-v2_1914.txt:3644",
+     "allen-william_true-sincere-and-modest-defence-v2_1914.txt:4864",
+     "campion_rationes-decem-ten-reasons-lat-eng_rickaby1914.txt:4482",
+     "campion_rationes-decem-ten-reasons-lat-eng_rickaby1914.txt:4510",
+     "campion_rationes-decem-ten-reasons-lat-eng_rickaby1914.txt:4733",
+     "southwell_funeral-tears-triumphs-epistle-of-comfort_walter1822.txt:6006",
+     "southwell_funeral-tears-triumphs-epistle-of-comfort_walter1822.txt:6783"
+    ],
+    "best_quote": {
+     "file": "southwell_funeral-tears-triumphs-epistle-of-comfort_walter1822.txt",
+     "line": 6783,
+     "text": "Nazianzen calleth it a child*s game, who buildeth houses"
+    }
+   }
+  },
+  "namesake_notes": "none found; all labelled hits name Gregory Nazianzen.",
+  "editorial_notes": "Not examined in the English Reformation shelf: Hooker, Cranmer and the Visitation Articles contexts (5 Jewel passages already suffice), so they are unlabelled. Byzantine-justinianic (Mansi, outside the shelved Codex Encyclius index) and Syriac not labelled (stopped early).",
+  "comment": "English Reformation: 5 distinct sentences in Jewel's Apology (Parts I-VI, plain text, no footnotes). Recusant: Allen vol. II chs. V-IX (3), Campion's English Ten Reasons from the translation at 3669 onward (3; the Latin at 2297/2336/2541 is the same passages), Southwell's Epistle of Comfort which starts at line 5062 (2)."
+ },
+ {
+  "cid": "C082",
+  "name": "Geiseric",
+  "passes": false,
+  "traditions": {
+   "merovingian-gallic-christianity": {
+    "labels": {
+     "merovingian-gallic-christianity#r2-0": "E"
+    },
+    "clean_passages": 0
+   },
+   "latin-africa-under-byzantium": {
+    "labels": {
+     "latin-africa-under-byzantium#r2-0": "E"
+    },
+    "clean_passages": 0
+   }
+  },
+  "namesake_notes": "none",
+  "editorial_notes": "Merovingian hit is Dalton's translator's note on Huneric/Gaiseric's law of succession; Latin-Africa hit is Halm's apparatus (line 9592) before the Corippus section that starts near line 10546.",
+  "comment": "Whole-file grep: Gregory of Tours vol. II names Gaiseric only in Dalton's notes and index (23324-23357, 31949); Corippus section has no Geiseric hit. Both traditions 0."
+ },
+ {
+  "cid": "C102",
+  "name": "Vigilius",
+  "passes": false,
+  "traditions": {
+   "nicene-visigothic-iberia": {
+    "labels": {
+     "nicene-visigothic-iberia#r2-0": "U",
+     "nicene-visigothic-iberia#r2-1": "E",
+     "nicene-visigothic-iberia#r2-2": "U",
+     "nicene-visigothic-iberia#r2-3": "E",
+     "nicene-visigothic-iberia#r2-4": "U",
+     "nicene-visigothic-iberia#r2-5": "E",
+     "nicene-visigothic-iberia#r2-6": "U",
+     "nicene-visigothic-iberia#r2-7": "E",
+     "nicene-visigothic-iberia#r2-8": "U",
+     "nicene-visigothic-iberia#r2-9": "U",
+     "nicene-visigothic-iberia#r2-10": "U",
+     "nicene-visigothic-iberia#r2-11": "U"
+    },
+    "clean_passages": 0
+   },
+   "roman-church-gregorian": {
+    "labels": {
+     "roman-church-gregorian#r2-0": "E"
+    },
+    "clean_passages": 0
+   },
+   "carolingian-reform-christianity": {
+    "labels": {
+     "carolingian-reform-christianity#r2-0": "E",
+     "carolingian-reform-christianity#r2-1": "E",
+     "carolingian-reform-christianity#r2-2": "E",
+     "carolingian-reform-christianity#r2-3": "E",
+     "carolingian-reform-christianity#r2-4": "E",
+     "carolingian-reform-christianity#r2-5": "E",
+     "carolingian-reform-christianity#r2-6": "E",
+     "carolingian-reform-christianity#r2-7": "E",
+     "carolingian-reform-christianity#r2-8": "E"
+    },
+    "clean_passages": 0
+   }
+  },
+  "namesake_notes": "Vigilius of Thapsus (Alcuin footnotes 18129, 21688).",
+  "editorial_notes": "Alcuin hits are Migne editor's footnotes citing Conciliorum tom. V; Gregory hit is the index of persons; Martin of Braga hits are Caspari's German commentary.",
+  "comment": "Visigothic: the Marcellinus/Victor of Tunnuna/Marius of Avenches chronicles (18899-19131, 21476) and PL72 line 77240 (a Justinian Novella) are not the shelved Biclaro/Isidore/Leander works, so U. No Vigilius hit in the Biclaro section (lines 19381-20850)."
+ },
+ {
+  "cid": "C128",
+  "name": "Methodius",
+  "passes": false,
+  "traditions": {
+   "russian-church-nikon-to-holy-synod": {
+    "labels": {
+     "russian-church-nikon-to-holy-synod#r2-0": "E",
+     "russian-church-nikon-to-holy-synod#r2-1": "N",
+     "russian-church-nikon-to-holy-synod#r2-2": "E",
+     "russian-church-nikon-to-holy-synod#r2-3": "N",
+     "russian-church-nikon-to-holy-synod#r2-4": "E",
+     "russian-church-nikon-to-holy-synod#r2-5": "N",
+     "russian-church-nikon-to-holy-synod#r2-6": "E",
+     "russian-church-nikon-to-holy-synod#r2-7": "N",
+     "russian-church-nikon-to-holy-synod#r2-8": "S",
+     "russian-church-nikon-to-holy-synod#r2-9": "E",
+     "russian-church-nikon-to-holy-synod#r2-10": "N",
+     "russian-church-nikon-to-holy-synod#r2-11": "E",
+     "russian-church-nikon-to-holy-synod#r2-12": "N",
+     "russian-church-nikon-to-holy-synod#r2-13": "N",
+     "russian-church-nikon-to-holy-synod#r2-14": "N"
+    },
+    "clean_passages": 1,
+    "clean_refs": [],
+    "best_quote": {
+     "file": "ligarides_history-of-the-condemnation-of-patriarch-nikon_palmer1873.txt",
+     "line": 7088,
+     "text": "that time there flourished the saints Oyril and Methodius, who"
+    }
+   },
+   "hesychasm-and-the-palamite-synthesis": {
+    "labels": {
+     "hesychasm-and-the-palamite-synthesis#r2-0": "N",
+     "hesychasm-and-the-palamite-synthesis#r2-1": "N",
+     "hesychasm-and-the-palamite-synthesis#r2-2": "N",
+     "hesychasm-and-the-palamite-synthesis#r2-3": "N",
+     "hesychasm-and-the-palamite-synthesis#r2-4": "N",
+     "hesychasm-and-the-palamite-synthesis#r2-5": "N",
+     "hesychasm-and-the-palamite-synthesis#r2-6": "N"
+    },
+    "clean_passages": 0
+   }
+  },
+  "namesake_notes": "Methodius of Olympus (quoted by Nikon, Ligarides), patriarch Methodius of Constantinople 1668, Methodius of Mstislavl, patriarch Methodius I (843) and other Byzantine Methodii in the hesychast files.",
+  "editorial_notes": "Palmer's notes and headings (e.g. 950, 3483, 4615, 21582 note area, 34884).",
+  "comment": "Only Slavic-apostle passage is Ligarides's insert at 7082-7088 (one insertion, counted once; 7082 'lives of SS Methodius, Cyril and Clement'). Far from 5."
+ },
+ {
+  "cid": "C158",
+  "name": "Huldrych Zwingli",
+  "passes": true,
+  "traditions": {
+   "shakers": {
+    "labels": {
+     "shakers#r2-0": "S",
+     "shakers#r2-1": "S",
+     "shakers#r2-2": "S",
+     "shakers#r2-3": "S",
+     "shakers#r2-4": "S",
+     "shakers#r2-5": "S"
+    },
+    "clean_passages": 6,
+    "clean_refs": [
+     "youngs-benjamin-seth_testimony-of-christs-second-appearing_1810.txt:17041",
+     "youngs-benjamin-seth_testimony-of-christs-second-appearing_1810.txt:17054",
+     "youngs-benjamin-seth_testimony-of-christs-second-appearing_1810.txt:17930",
+     "youngs-benjamin-seth_testimony-of-christs-second-appearing_1810.txt:18129",
+     "youngs-benjamin-seth_testimony-of-christs-second-appearing_1810.txt:18794",
+     "youngs-benjamin-seth_testimony-of-christs-second-appearing_1810.txt:21076"
+    ],
+    "best_quote": {
+     "file": "youngs-benjamin-seth_testimony-of-christs-second-appearing_1810.txt",
+     "line": 18794,
+     "text": "Luther  and  Zuingle,  together  with  some  of  the  more"
+    }
+   }
+  },
+  "namesake_notes": "none; 'Zuingle' is the Zurich reformer in all six.",
+  "editorial_notes": "none; the work's own text (and its quotation of Mosheim) with margin citations.",
+  "comment": "Six distinct sentences in the Shakers' Testimony, spelled Zuingle (OCR double spaces kept in quote). 17041 and 17054 are quoted/marginal-cited Mosheim material inside the work's own text; four more are plain narrative. Recusant not labelled (stopped early)."
+ }
+]

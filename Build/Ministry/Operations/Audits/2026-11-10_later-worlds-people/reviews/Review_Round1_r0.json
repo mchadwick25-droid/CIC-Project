@@ -1,0 +1,581 @@
+[
+ {
+  "cid": "C001",
+  "name": "Paul of Samosata",
+  "verdict": "approve",
+  "recount": {
+   "imperial-juridical-christianity": {
+    "valid": 6,
+    "rejected": {
+     "npnf202_socrates-sozomen-ecclesiastical-histories.xml:5442": "same passage as 5427 (Socrates I.36, one paragraph split by an endnote)"
+    },
+    "added": [
+     "npnf212_leo-great-gregory-great.xml:3360"
+    ]
+   },
+   "antiochene-exegetical-christianity-chrysostom-ce": {
+    "valid": 7,
+    "rejected": {},
+    "added": []
+   }
+  },
+  "passes_after_review": true,
+  "findings": [
+   {
+    "severity": "MINOR",
+    "what": "Imperial count sits at exactly 5 from the refs, and one of the five (Avellana 14742) is in the 'Ad Petrum Fullonem epistulae spuriae', forged letters written after the tradition's window closes (451). It counts by the shelf row (whole file), but it is a weak leg. Leo's letter to Turribius (447) names him in Leo's own text and is on the imperial shelf (div2 2.4).",
+    "evidence": "collectio-avellana_epistulae-imperatorum-pontificum-pars1-lat_guenther1895-csel35.txt:14742 (page head 'Ad Petrum Fullonem epistulae spuriae' at 14725); npnf212_leo-great-gregory-great.xml:3360",
+    "fix": "Add npnf212:3360 to the imperial refs, making 6."
+   },
+   {
+    "severity": "MINOR",
+    "what": "Chrysostom Eph. 11714: the sentence 'This strikes at Paul of Samosata and his school' is Chrysostom's; the dates that follow on 11715 are endnote 288. Counted correctly, but the ctx window prints both together.",
+    "evidence": "npnf113_chrysostom-homilies-galatians-philemon.xml:11714",
+    "fix": "None needed."
+   }
+  ],
+  "recommendation_should_be": "hold",
+  "why": "Counts pass (6 and 7) and the facts and quotes check out, but nothing in the Library is his own words: the anf06 disputation fragment is Malchion speaking to him."
+ },
+ {
+  "cid": "C012",
+  "name": "Priscillian",
+  "verdict": "revise",
+  "recount": {
+   "nicene-visigothic-iberia": {
+    "valid": 8,
+    "rejected": {
+     "isidore-seville_sententiae-eccl-officiis-historia-gothorum-pl83-lat_migne1860.txt:116933": "Isidore's Chronicon (PL83, 'CHRONICON' running heads 113502-117240); the row names Sententiae, De eccl. officiis, Synonyma, Regula, Epistolae and Historia Gothorum only, so this is another work in the same file",
+     "isidore-seville_sententiae-eccl-officiis-historia-gothorum-pl83-lat_migne1860.txt:116945": "same reason (Chronicon, not a shelved work); the same entry is valid in Mommsen at 43152",
+     "isidore-seville_etymologiae-origines-lat_lindsay1911.txt:12485": "Etymologiae Book V chronicle; the row's locus is Book VIII; also the same entry as Mommsen 43135/43077",
+     "chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894.txt:43135": "same chronicle entry (354) as 43077, in the short recension: counts once",
+     "collectio-canonum-ecclesiae-hispanae-toledo-iii-lat_1808.txt:56354": "Braga I anathema I (Sabellius/Priscillian) again; duplicate of Bruns 2480",
+     "bruns_canones-apostolorum-et-conciliorum-pars-altera-lat_1839.txt:2515": "Braga I anathema VI again; duplicate of collectio 56345"
+    },
+    "added": [
+     "chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894.txt:43077",
+     "chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894.txt:43152",
+     "collectio-canonum-ecclesiae-hispanae-toledo-iii-lat_1808.txt:56359",
+     "collectio-canonum-ecclesiae-hispanae-toledo-iii-lat_1808.txt:56365",
+     "collectio-canonum-ecclesiae-hispanae-toledo-iii-lat_1808.txt:56372"
+    ]
+   },
+   "shakers": {
+    "valid": 6,
+    "rejected": {
+     "youngs-benjamin-seth_testimony-of-christs-second-appearing_1810.txt:13666": "same paragraph (23) as 13663",
+     "youngs-benjamin-seth_testimony-of-christs-second-appearing_1810.txt:13675": "same paragraph (24) as 13673"
+    },
+    "added": []
+   },
+   "byzantine-imperial-church-justinianic": {
+    "valid": 5,
+    "rejected": {
+     "npnf212_leo-great-gregory-great.xml:3729": "same paragraph (p67) as 3726"
+    },
+    "added": []
+   }
+  },
+  "passes_after_review": true,
+  "findings": [
+   {
+    "severity": "SUBSTANTIAL",
+    "what": "The Visigothic quote (and two of the counted Isidore passages) come from Isidore's Chronicon in the Migne PL83 file. That shelf row does not name the Chronicon. The same entries are on the shelf in Mommsen's Chronica maiora (row 'the Isidore sections'), so the count holds, but the quote is cited from an unshelved work.",
+    "evidence": "isidore-seville_sententiae-eccl-officiis-historia-gothorum-pl83-lat_migne1860.txt:116945; chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894.txt:43152",
+    "fix": "Quote Mommsen 43152-43153 instead ('PrisciUianits accusante Itacio a Maximo tyranno ... [in Gallias] glaclio caeditur', OCR as printed), or a Braga I anathema such as collectio 56345 ('sicut Priscillianus dixit, anathema sit')."
+   },
+   {
+    "severity": "MINOR",
+    "what": "Two of the six Shaker passages (13634, 13647) are Robinson's Ecclesiastical Researches, quoted verbatim inside the Testimony (paragraphs 19 and 21; 'Thus far has Robinson stated' at 13657). They are in a shelved work and are not editorial, so they count. Without them the Shakers have 4. This does not change the outcome, because Visigothic and Byzantine both pass.",
+    "evidence": "youngs-benjamin-seth_testimony-of-christs-second-appearing_1810.txt:13634, 13647, 13657",
+    "fix": "Say so in doubts, or lead with Visigothic and Byzantine."
+   },
+   {
+    "severity": "MINOR",
+    "what": "Byzantine sits at exactly 5, all from one letter (Leo, Ep. 15). Leo wrote in 447, before the tradition's 451 start, though the shelf holds it. 3243 is endnote 138 (Hurter), not Leo, so it cannot top the count up.",
+    "evidence": "npnf212_leo-great-gregory-great.xml:3243",
+    "fix": "None needed for the count."
+   }
+  ],
+  "recommendation_should_be": "hold",
+  "why": "He passes the count, but the census movement is his (founder) and the Library holds none of his tractates, so it is Mark's question."
+ },
+ {
+  "cid": "C019",
+  "name": "Valentinus",
+  "verdict": "revise",
+  "recount": {
+   "latin-apologists": {
+    "valid": 8,
+    "rejected": {
+     "tertullian_opera-pars3-lat_kroymann-csel47.txt:9663": "same paragraph as 9659 (Adv. Val. 4, one continuous chapter, margin lines 1-15)"
+    },
+    "added": [
+     "anf03_tertullian.xml:17083",
+     "anf03_tertullian.xml:21332",
+     "anf03_tertullian.xml:21807",
+     "anf03_tertullian.xml:46103"
+    ]
+   },
+   "roman-church-third-century": {
+    "valid": 8,
+    "rejected": {
+     "anf05_hippolytus-cyprian-caius-novatian.xml:9151": "the name is the translator's bracket '(Valentinus)'; the text there only says 'says'"
+    },
+    "added": [
+     "anf05_hippolytus-cyprian-caius-novatian.xml:8687",
+     "anf05_hippolytus-cyprian-caius-novatian.xml:9227",
+     "anf05_hippolytus-cyprian-caius-novatian.xml:9720"
+    ]
+   }
+  },
+  "passes_after_review": true,
+  "findings": [
+   {
+    "severity": "SUBSTANTIAL",
+    "what": "Latin apologists 'clean 5' does not hold on its own refs. Kroymann 9659 and 9663 are one paragraph (Adv. Valentinianos 4), so the refs give 4. Tertullian names him in many other shelved passages (De Anima 23, Prescription 30 and 38, De Carne Christi 19), all checked as body text.",
+    "evidence": "tertullian_opera-pars3-lat_kroymann-csel47.txt:9659-9664; anf03_tertullian.xml:17083, 21332, 21807, 46103",
+    "fix": "Replace 9663 with the added refs; state 8."
+   },
+   {
+    "severity": "MINOR",
+    "what": "The Roman-church quote at 9151 names Valentinus only through the translator's bracket. 10058 has the same bracket, but its paragraph names him in the text at 10054, so it stands.",
+    "evidence": "anf05_hippolytus-cyprian-caius-novatian.xml:9151, 10054",
+    "fix": "Quote 15119 instead: 'Valentinus, however, (to uphold the doctrine,) determines that the flesh is not saved'."
+   },
+   {
+    "severity": "MINOR",
+    "what": "Doubts calls anf03 16096 'an endnote cross-reference'. It is Tertullian's text (De Anima 12, 'Valentinus' \"only-begotten\" of his father Bythus'); the endnotes sit on either side of it.",
+    "evidence": "anf03_tertullian.xml:16093-16099",
+    "fix": "Drop the 'weak' caveat."
+   }
+  ],
+  "recommendation_should_be": "hold",
+  "why": "He passes comfortably after the recount, but the Valentinians are named for him (founder), and he has only fragments quoted by opponents, so it is Mark's question."
+ },
+ {
+  "cid": "C039",
+  "name": "Novatian",
+  "verdict": "revise",
+  "recount": {
+   "ambrosian-milan-standalone": {
+    "valid": 8,
+    "rejected": {
+     "npnf210_ambrose-select-works-letters.xml:33607": "same paragraph (De Paen. I.10) as 33594",
+     "npnf210_ambrose-select-works-letters.xml:33921": "same paragraph (I.30) as 33920",
+     "npnf210_ambrose-select-works-letters.xml:33923": "same paragraph (I.30) as 33920"
+    },
+    "added": [
+     "npnf210_ambrose-select-works-letters.xml:33935",
+     "npnf210_ambrose-select-works-letters.xml:34034",
+     "npnf210_ambrose-select-works-letters.xml:34770",
+     "npnf210_ambrose-select-works-letters.xml:34795"
+    ]
+   },
+   "hieronymian-ascetic-literary": {
+    "valid": 6,
+    "rejected": {
+     "npnf206_jerome-principal-works.xml:8419": "same paragraph (Letter XLII, sec. 1) as 8404",
+     "npnf206_jerome-principal-works.xml:8441": "same paragraph (Letter XLII, sec. 2) as 8428",
+     "npnf206_jerome-principal-works.xml:8452": "same paragraph (Letter XLII, sec. 2) as 8428"
+    },
+    "added": []
+   }
+  },
+  "passes_after_review": true,
+  "findings": [
+   {
+    "severity": "SUBSTANTIAL",
+    "what": "Both stated counts are too high under the same-paragraph rule. Ambrose's refs give 4, not 6 (33594/33607 are one paragraph, and 33920/33921/33923 are one). Jerome's give 6, not 9: Letter XLII has only two paragraphs that name him (sec. 1 and sec. 2), not five. Ambrose passes again with four more paragraphs of De Paenitentia that address Novatian by name; Jerome still passes at 6.",
+    "evidence": "npnf210 paragraphs iv.vi.ii.iii-p2 and iv.vi.ii.vii-p2; npnf206 v.XLII-p4 and v.XLII-p11",
+    "fix": "State Ambrosian 8 (with the added refs) and Hieronymian 6."
+   },
+   {
+    "severity": "MINOR",
+    "what": "own_words says both works are role tradition on both the Novatianism and Roman shelves. The roman-church-third-century shelf holds only De Trinitate. On the Jewish Meats is on the Novatianism shelf alone.",
+    "evidence": "cic/corpus-map/roman-church-third-century.yaml (Novatian: De Trinitate div2 6.3 only)",
+    "fix": "Correct the sentence."
+   },
+   {
+    "severity": "MINOR",
+    "what": "The home citation (anf05:544, 'And lastly we have Novatian as a sequel...') is Coxe's editorial introduction, not Novatian.",
+    "evidence": "anf05_hippolytus-cyprian-caius-novatian.xml:544",
+    "fix": "Cite the De Trinitate (div2 6.3) instead."
+   },
+   {
+    "severity": "MINOR",
+    "what": "Ambrose often uses 'Novatian' for the sect personified ('Novatian says, I am not gentle'). The draft says so. The added refs 34770 ('Novatian contrived his schism through grief at his loss of the episcopal office') and 33594 ('your father, Novatian') clearly mean the man.",
+    "evidence": "npnf210_ambrose-select-works-letters.xml:34770, 33594",
+    "fix": "None."
+   }
+  ],
+  "recommendation_should_be": "hold",
+  "why": "The count passes and his own works are held, but Novatianism grew from his consecration (founder), so it is Mark's question."
+ },
+ {
+  "cid": "C046",
+  "name": "Lactantius",
+  "verdict": "approve",
+  "recount": {
+   "hieronymian-ascetic-literary": {
+    "valid": 8,
+    "rejected": {},
+    "added": [
+     "npnf203_theodoret-jerome-gennadius-rufinus.xml:41033"
+    ]
+   },
+   "the-reformed-cities-zurich-and-geneva": {
+    "valid": 6,
+    "rejected": {},
+    "added": [
+     "calvin_institutes-christian-religion-vol1_beveridge1845.txt:10123"
+    ]
+   }
+  },
+  "passes_after_review": true,
+  "findings": [
+   {
+    "severity": "MINOR",
+    "what": "The home citation (anf07:379, 'I love the writings of Lactantius...') is Coxe's introduction (editorial). His own works are on the shelf.",
+    "evidence": "anf07_lactantius-apostolic-constitutions-didache-liturgies.xml:379",
+    "fix": "Cite a line of the Divine Institutes instead."
+   },
+   {
+    "severity": "MINOR",
+    "what": "Reformed sits at exactly 5 on the refs. Institutes I.11.6 ('let Lactantius and Eusebius be read on this subject') is a sixth, in Book I. The 22552 hit the draft lists is Institutes II.6.4, which is Book II, outside the row's 'Book First'. Leave it out.",
+    "evidence": "calvin_institutes-christian-religion-vol1_beveridge1845.txt:10123, 22552 (Book Second begins 16980)",
+    "fix": "Add 10123; drop 22552 from doubts."
+   }
+  ],
+  "recommendation_should_be": "include",
+  "why": "His own works are on his home shelf, he founded nothing, and Jerome (8) and the Reformed cities (6) name him in their own texts."
+ },
+ {
+  "cid": "C057",
+  "name": "Constantius II",
+  "verdict": "revise",
+  "recount": {
+   "orthodoxy-under-the-ottomans-1650-1821": {
+    "valid": 5,
+    "rejected": {
+     "nikodemos-hagiorite_synaxaristes-vol2-mar-aug-grc_1900.txt:4793": "same paragraph as 4789 (Life of Cyril of Jerusalem)"
+    },
+    "added": []
+   },
+   "orthodoxy-under-the-ottomans-parish-millet-and-n": {
+    "valid": 5,
+    "rejected": {
+     "nikodemos-hagiorite_synaxaristes-vol2-mar-aug-grc_1900.txt:4793": "same paragraph as 4789"
+    },
+    "added": []
+   },
+   "the-kollyvades-and-greek-renewal": {
+    "valid": 7,
+    "rejected": {
+     "nikodemos-hagiorite_synaxaristes-vol2-mar-aug-grc_1900.txt:4793": "same paragraph as 4789",
+     "nikodemos-hagiorite_synaxaristes-vol2-mar-aug-grc_1900.txt:14703": "same block (14681-14707) as 14689",
+     "nikodemos-hagiorite_synaxaristes-vol2-mar-aug-grc_1900.txt:14706": "same block as 14689"
+    },
+    "added": []
+   }
+  },
+  "passes_after_review": true,
+  "findings": [
+   {
+    "severity": "SUBSTANTIAL",
+    "what": "The recommendation's stated grounds should change. By the letter of the rule he qualifies. Two later traditions whose shelves legitimately hold Nikodemos (Ottoman 1650-1821, Kollyvades) reach 5 and 7. He has words of his own in the strict sense: a document issued in his name, the letter to the princes of Auxumis, given verbatim in Athanasius. And he founded nothing. 'Home not settled' is no reason to hold: the census lists him in two movements, and the draft's choice of the Homoian one is sound. The real objection is that every counted passage comes from one author's single work, the Synaxaristes, shelved under nested traditions. That is a reading of the rule, so it belongs to Mark.",
+    "evidence": "npnf204_athanasius-select-works-letters.xml:36143-36144 (div 18.2.31, 'Letter of Constantius to the Ethiopians'); census homoian-arian-christianity and gallic-nicene-episcopate people rows",
+    "fix": "Keep hold, but put the reason as one question for Mark: does a single author's work, shelved in two nested traditions, meet 'two traditions'? Drop 'home not settled'."
+   },
+   {
+    "severity": "SUBSTANTIAL",
+    "what": "The parish-millet shelf (1453-1650) holds Nikodemos's Synaxaristes (written c. 1805, printed 1819), more than 150 years after the tradition ends. Any count under that shelf from these volumes is formally valid but anachronistic. This is a shelf defect to register; it should not be relied on as a counted tradition.",
+    "evidence": "cic/corpus-map/orthodoxy-under-the-ottomans-parish-millet-and-n.yaml (Synaxaristes vol1, vol2 rows); census start/end 1453-1650",
+    "fix": "Count only Ottoman 1650-1821 and Kollyvades. Register the shelf assignment as an open gap."
+   },
+   {
+    "severity": "MINOR",
+    "what": "vol2 14645 sits in a note block (wider lines before the page number 124), presumably Nikodemos's own footnote rather than a modern editor's. It counts, but it is the weakest of the five.",
+    "evidence": "nikodemos-hagiorite_synaxaristes-vol2-mar-aug-grc_1900.txt:14642-14648",
+    "fix": "None needed."
+   }
+  ],
+  "recommendation_should_be": "hold",
+  "why": "He passes the rule, but only through one author's work under two nested traditions. That question is Mark's, and it should be put as such, not as a home problem."
+ },
+ {
+  "cid": "C062",
+  "name": "Basil of Caesarea (Basil the Great)",
+  "verdict": "revise",
+  "recount": {
+   "byzantine-church-palaiologan": {
+    "valid": 7,
+    "rejected": {
+     "patrologia-orientalis-tomus15_petit-documents-concile-de-florence-purgatoire-grc-fra_graffin-nau1927.txt:2260": "Greek text of the Latin deputies' cedula on purgatory (heading at 1303; the same citation in Latin at 2183, following the Gregory the Great Dialogues passage): the Latin side's document, not a Byzantine voice"
+    },
+    "added": []
+   },
+   "orthodoxy-under-the-ottomans-parish-millet-and-n": {
+    "valid": 6,
+    "rejected": {},
+    "added": []
+   }
+  },
+  "passes_after_review": true,
+  "findings": [
+   {
+    "severity": "SUBSTANTIAL",
+    "what": "The Ottoman count is formally valid, but only two of its six passages are in-period for 1453-1650 (Mogila's Orthodox Confession, 1640: Kimmel 12605 and Overbeck 1168). Three are Nikodemos (c. 1805) and one is Dositheus (1672). All six works are also on the orthodoxy-under-the-ottomans-1650-1821 shelf, which they fit.",
+    "evidence": "cic/corpus-map/orthodoxy-under-the-ottomans-1650-1821.yaml (holds Nikodemos vol1/vol2, Dositheus/Robertson, Kimmel 1850 Orthodox Confession, Overbeck)",
+    "fix": "Re-label the second counted tradition as orthodoxy-under-the-ottomans-1650-1821; the same six refs carry it."
+   },
+   {
+    "severity": "MINOR",
+    "what": "PO15 2260 is the Latins' cedula, not Mark of Ephesus or Bessarion. The Byzantine count is 7, not 8; with the two Kokkinos passages (which do sit under 'PHILOTHEI CP. PATRIARCHAE' running heads, so they are valid) left out, it would be 5. The draft's chosen quote at 2932 is in Mark's Confutatio (Latin, from 2802), so it stands.",
+    "evidence": "patrologia-orientalis-tomus15_petit-documents-concile-de-florence-purgatoire-grc-fra_graffin-nau1927.txt:1303, 2183, 2260, 2802",
+    "fix": "State 7."
+   }
+  ],
+  "recommendation_should_be": "include",
+  "why": "His own works are on his home shelf, no movement is named for him, and both later traditions name 'the Great Basil' at 5 or more after the recount."
+ },
+ {
+  "cid": "C085",
+  "name": "Patrick",
+  "verdict": "revise",
+  "recount": {
+   "medieval-irish-christianity": {
+    "valid": 8,
+    "rejected": {},
+    "added": []
+   },
+   "medieval-welsh-christianity": {
+    "valid": 7,
+    "rejected": {
+     "annales-cambriae-rolls-series-20-lat_williams-ab-ithel1860.txt:2114": "the row's locus is 'the 768 Easter entry at raw line ~2964', not the whole annals",
+     "annales-cambriae-rolls-series-20-lat_williams-ab-ithel1860.txt:2355": "same: outside the row's locus"
+    },
+    "added": [
+     "nennius_history-of-the-britons-giles.txt:1210",
+     "nennius_history-of-the-britons-giles.txt:1225",
+     "nennius_history-of-the-britons-giles.txt:1258",
+     "nennius_history-of-the-britons-giles.txt:1298"
+    ]
+   }
+  },
+  "passes_after_review": true,
+  "findings": [
+   {
+    "severity": "SUBSTANTIAL",
+    "what": "The recommendation should be include. The first reason (stale refs) no longer applies: the consolidated Irish refs are eight distinct body passages of the Lismore lives. The second (founder) has no support in the census. No census movement is named for him. The insular-irish entry describes a church built around monasteries and many founder-saints, and lists him as a voice whose two letters are the sure early words. 'Father of baptism and belief of the men of Ireland' is hagiographic praise, not a founded movement.",
+    "evidence": "census insular-irish-monastic-christianity longDescription and voices; stokes_lives-of-saints-from-the-book-of-lismore-iri-eng_1890.txt:16279-16282",
+    "fix": "Recommend include, with founder_of null."
+   },
+   {
+    "severity": "MINOR",
+    "what": "Welsh: the two Annales Cambriae entries lie outside that row's locus (the 768 Easter entry). Without them the refs give 3, but the shelved Historia Brittonum (sections 1-76) names him in four more sections (50, 51, 54, 55), so Welsh stands at 7.",
+    "evidence": "cic/corpus-map/medieval-welsh-christianity.yaml (Annales Cambriae row); nennius_history-of-the-britons-giles.txt:1210, 1225, 1258, 1298",
+    "fix": "Swap the Annales refs for the Nennius ones."
+   },
+   {
+    "severity": "MINOR",
+    "what": "Doubts says 18961 is outside the Life of Patrick. It is, but the row holds all the Lismore lives, and the passage names Patrick of Ireland, so it counts.",
+    "evidence": "stokes_lives-of-saints-from-the-book-of-lismore-iri-eng_1890.txt:18961",
+    "fix": "Drop the caveat."
+   }
+  ],
+  "recommendation_should_be": "include",
+  "why": "His own letters are held on his home shelf, no census movement is his, and the medieval Irish (8) and Welsh (7) traditions name him in their own texts."
+ },
+ {
+  "cid": "C103",
+  "name": "Mar Aba I",
+  "verdict": "revise",
+  "recount": {
+   "church-of-the-east-timur-to-hakkari": {
+    "valid": 3,
+    "rejected": {
+     "malech_history-of-the-syrian-nation-and-old-evangelical-apostolic-church-of-the-east_1910.txt:10364": "outside the row's locus (chapter XXX from line 16390); this is the Persia-period chapter",
+     "malech_history-of-the-syrian-nation-and-old-evangelical-apostolic-church-of-the-east_1910.txt:10461": "outside the row's locus (chapter XXX from line 16390); this is the Persia-period chapter",
+     "malech_history-of-the-syrian-nation-and-old-evangelical-apostolic-church-of-the-east_1910.txt:10469": "outside the row's locus (chapter XXX from line 16390); this is the Persia-period chapter",
+     "malech_history-of-the-syrian-nation-and-old-evangelical-apostolic-church-of-the-east_1910.txt:10471": "outside the row's locus (chapter XXX from line 16390); this is the Persia-period chapter",
+     "malech_history-of-the-syrian-nation-and-old-evangelical-apostolic-church-of-the-east_1910.txt:10473": "outside the row's locus (chapter XXX from line 16390); this is the Persia-period chapter",
+     "malech_history-of-the-syrian-nation-and-old-evangelical-apostolic-church-of-the-east_1910.txt:10478": "outside the row's locus (chapter XXX from line 16390); this is the Persia-period chapter",
+     "malech_history-of-the-syrian-nation-and-old-evangelical-apostolic-church-of-the-east_1910.txt:10581": "outside the row's locus (chapter XXX from line 16390); this is the Persia-period chapter",
+     "malech_history-of-the-syrian-nation-and-old-evangelical-apostolic-church-of-the-east_1910.txt:13001": "outside the row's locus (chapter XXX from line 16390); this is the Persia-period chapter"
+    },
+    "added": [
+     "mai_scriptorum-veterum-nova-collectio-tomus10-ebedjesu-synodus-timothei-lat_mai1838.txt:7351",
+     "mai_scriptorum-veterum-nova-collectio-tomus10-ebedjesu-synodus-timothei-lat_mai1838.txt:15426",
+     "mai_scriptorum-veterum-nova-collectio-tomus10-ebedjesu-synodus-timothei-lat_mai1838.txt:17716"
+    ]
+   },
+   "church-of-the-east-chaldean-consolidation": {
+    "valid": 5,
+    "rejected": {
+     "malech_history-of-the-syrian-nation-and-old-evangelical-apostolic-church-of-the-east_1910.txt:10364": "outside the row's locus (chapters XXXII-XXXV from line 16773)",
+     "malech_history-of-the-syrian-nation-and-old-evangelical-apostolic-church-of-the-east_1910.txt:10461": "outside the row's locus (chapters XXXII-XXXV from line 16773)",
+     "malech_history-of-the-syrian-nation-and-old-evangelical-apostolic-church-of-the-east_1910.txt:10469": "outside the row's locus (chapters XXXII-XXXV from line 16773)",
+     "malech_history-of-the-syrian-nation-and-old-evangelical-apostolic-church-of-the-east_1910.txt:10471": "outside the row's locus (chapters XXXII-XXXV from line 16773)",
+     "malech_history-of-the-syrian-nation-and-old-evangelical-apostolic-church-of-the-east_1910.txt:10473": "outside the row's locus (chapters XXXII-XXXV from line 16773)",
+     "malech_history-of-the-syrian-nation-and-old-evangelical-apostolic-church-of-the-east_1910.txt:10478": "outside the row's locus (chapters XXXII-XXXV from line 16773)",
+     "malech_history-of-the-syrian-nation-and-old-evangelical-apostolic-church-of-the-east_1910.txt:10581": "outside the row's locus (chapters XXXII-XXXV from line 16773)",
+     "malech_history-of-the-syrian-nation-and-old-evangelical-apostolic-church-of-the-east_1910.txt:13001": "outside the row's locus (chapters XXXII-XXXV from line 16773)"
+    },
+    "added": [
+     "badger_nestorians-and-their-rituals-v2_1852.txt:8407",
+     "badger_nestorians-and-their-rituals-v2_1852.txt:17529",
+     "badger_nestorians-and-their-rituals-v2_1852.txt:17689",
+     "badger_nestorians-and-their-rituals-v2_1852.txt:17718",
+     "badger_nestorians-and-their-rituals-v2_1852.txt:18255"
+    ]
+   }
+  },
+  "passes_after_review": false,
+  "findings": [
+   {
+    "severity": "BLOCKING",
+    "what": "Fails the count, so consolidated 'passes: true' is wrong. All sixteen counted refs are Malech's Persia chapter (lines 10364-13001), outside both rows' loci. Timur's other shelved work (Mai X, Ebedjesu's collection with Timothy II's synod) names Mar Aba in only 3 distinct passages. The rest are Mai/Assemani notes (7226, 16363, 17981-18076), an index (393), a source heading (17713) and Aba's own quoted words (17722, same passage as 17716). Malech chapter XXX has no mention.",
+    "evidence": "cic/corpus-map/church-of-the-east-timur-to-hakkari.yaml; mai_scriptorum-veterum-nova-collectio-tomus10-ebedjesu-synodus-timothei-lat_mai1838.txt:7351, 15426, 17716",
+    "fix": "Mark as not passing; Timur 3."
+   },
+   {
+    "severity": "SUBSTANTIAL",
+    "what": "The draft gives Chaldean 'clean 0', but Badger vol. 2 (whole file on the Chaldean shelf) names him as 'Mar Awa' in five distinct passages. Four are in Ebedjesu's catalogue (Appendix A, a translated primary text): the liturgy translated by Tooma and Mar Awa, Mar Awa the Great translating the Old Testament, his disciples, and the list of Eastern synods. The fifth is a quoted synodal extract ('the great and holy synod convened by Mar Awa'). So Chaldean passes. He still fails overall with one tradition.",
+    "evidence": "badger_nestorians-and-their-rituals-v2_1852.txt:8407, 17529, 17689, 17718, 18255 (Appendix A heading 17207)",
+    "fix": "State Chaldean 5 (via Badger) and Timur 3. The reason becomes 'fails: only one later tradition reaches 5', not 'could be re-counted'."
+   }
+  ],
+  "recommendation_should_be": "hold",
+  "why": "He meets every other test (documents in his name, no movement founded), but only one later tradition (Chaldean, via Badger) reaches five passages; Timur stops at three."
+ },
+ {
+  "cid": "C140",
+  "name": "Gregory VII",
+  "verdict": "approve",
+  "recount": {
+   "german-pietism-spener-francke-halle": {
+    "valid": 6,
+    "rejected": {},
+    "added": []
+   },
+   "restoration-georgian-church-of-england": {
+    "valid": 9,
+    "rejected": {
+     "barlow_brutum-fulmen_1681.txt:15881": "same paragraph as 15873"
+    },
+    "added": []
+   }
+  },
+  "passes_after_review": true,
+  "findings": [
+   {
+    "severity": "MINOR",
+    "what": "Bengel 21177 uses 'Hildebrand' as a byword (Zosimus 'whom some call an early Hildebrand'). It refers to Gregory VII only by figure. The count holds without it: the German file names him in body text at 31538, 31585, 32393, 34195 and others.",
+    "evidence": "bengel_erklaerte-offenbarung-johannis-deu_1740.txt:21177, 31538, 34195",
+    "fix": "Optionally swap 21177 for 34195."
+   },
+   {
+    "severity": "MINOR",
+    "what": "Notes of the Church 14580 is the tract quoting Bellarmine's own list of saints (in guillemets), so the words are Bellarmine's. It still counts; Restoration has 9 without it anyway.",
+    "evidence": "bellarmine_notes-of-the-church_1688.txt:14577-14583",
+    "fix": "None needed."
+   },
+   {
+    "severity": "MINOR",
+    "what": "The movement carries his name ('Gregorian Reform'), which could raise the founder question. But the census dates it from Leo IX's circle around 1049, before his pontificate, so he is not its founder.",
+    "evidence": "census latin-papal-church-gregorian longDescription",
+    "fix": "One line in doubts."
+   }
+  ],
+  "recommendation_should_be": "include",
+  "why": "Documents in his own name are held (Mirbt no. 235), he founded no movement, and Pietism (6) and the Restoration Church of England (9) name him in their own texts."
+ },
+ {
+  "cid": "C148",
+  "name": "Francis of Assisi",
+  "verdict": "approve",
+  "recount": {
+   "observant-reform-and-popular-preaching": {
+    "valid": 6,
+    "rejected": {
+     "bernardino-of-siena_sermons_orlandi-robins1920.txt:8179": "same paragraph (section 2, lines 8105-8181) as 8105"
+    },
+    "added": []
+   },
+   "the-tridentine-church": {
+    "valid": 7,
+    "rejected": {},
+    "added": [
+     "luis-de-granada_of-prayer-and-meditation_hopkins1582.txt:10564",
+     "luis-de-granada_of-prayer-and-meditation_hopkins1582.txt:30808"
+    ]
+   }
+  },
+  "passes_after_review": true,
+  "findings": [
+   {
+    "severity": "MINOR",
+    "what": "Bernardino 8105 and 8179 (the hare story, which the draft quotes) are one paragraph, so Observant is 6, not 7. It still passes.",
+    "evidence": "bernardino-of-siena_sermons_orlandi-robins1920.txt:8105-8181",
+    "fix": "State 6."
+   },
+   {
+    "severity": "MINOR",
+    "what": "Tridentine rests on one book at exactly 5, two of them only through 'Bonaventure's life of Saint Francis'. Luis de Granada (on the Tridentine shelf) names him twice more in his own text.",
+    "evidence": "luis-de-granada_of-prayer-and-meditation_hopkins1582.txt:10564, 30808",
+    "fix": "Add them."
+   },
+   {
+    "severity": "MINOR",
+    "what": "The home citation and the dates come from Heywood's 1906 Introduction to the Fioretti (editorial), not from a source text.",
+    "evidence": "fioretti_little-flowers-of-st-francis_heywood1906.txt:614-620",
+    "fix": "Say 'editor's introduction' in dates_source; cite a Fioretti chapter for home."
+   }
+  ],
+  "recommendation_should_be": "hold",
+  "why": "He passes the count, but the census Franciscan movement is his (founder) and none of his own writings are held, so it is Mark's question."
+ },
+ {
+  "cid": "C158",
+  "name": "Huldrych Zwingli",
+  "verdict": "revise",
+  "recount": {
+   "the-huguenots": {
+    "valid": 6,
+    "rejected": {},
+    "added": [
+     "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt:35110"
+    ]
+   },
+   "shakers": {
+    "valid": 6,
+    "rejected": {},
+    "added": []
+   }
+  },
+  "passes_after_review": true,
+  "findings": [
+   {
+    "severity": "SUBSTANTIAL",
+    "what": "Three of the five Huguenot passages (120333, 120437, 121494) are not a Huguenot's words. They lie in John Jewel's 'Apologie de l'Eglise d'Angleterre' (running head from 116705 to 124963), reproduced whole in Crespin's Book XI. The draft's quote is from it, and it is presented as a French Huguenot naming Zwingli. They are inside the row's locus, so the count stands by the letter of the rule. If Mark rules that a whole work by an outside author embedded in a shelved book does not count, the Huguenots fall to 3 (Crespin 11383, 79725; Beza 35110) and the candidate fails.",
+    "evidence": "crespin_histoire-des-martyrs-t3-fra_benoit-lelievre1889.txt:116705, 120333, 120437, 121494, 124963",
+    "fix": "Change the quote to Crespin 11383 or 79725 ('mise en auant depuis cinquante ans par Luther, apres lequel est venu Zwingle'). Name the Jewel dependence in doubts."
+   },
+   {
+    "severity": "MINOR",
+    "what": "Beza's Histoire ecclesiastique I names 'Luther, Zvingle & Calvin, heresiarques' in a decree it quotes. That is a sixth Huguenot passage outside Jewel. The other Beza hits are the Baum-Cunitz editors' notes.",
+    "evidence": "beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883.txt:35110",
+    "fix": "Add it."
+   },
+   {
+    "severity": "MINOR",
+    "what": "Shakers 17041 and 17054 are quoted Mosheim, inside the Testimony. They count; the other four are the Shakers' own narrative.",
+    "evidence": "youngs-benjamin-seth_testimony-of-christs-second-appearing_1810.txt:17041, 17054",
+    "fix": "None needed."
+   }
+  ],
+  "recommendation_should_be": "hold",
+  "why": "His own works are held, but the Reformed Cities entry begins with his Zurich reform (founder question for Mark). The Huguenot leg also leans on Jewel's Apology."
+ }
+]

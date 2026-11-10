@@ -1,0 +1,12 @@
+[
+ "C006: hold -> include, question own_words (round 2 SUBSTANTIAL: answer C counts a document issued in the person's name or jointly written)",
+ "C045: hold -> include, question own_words (round 2 SUBSTANTIAL: answer C counts a document issued in the person's name or jointly written)",
+ "C018: question one_witness; doubts gain round 2's dating note (SUBSTANTIAL); recommendation stays hold",
+ "C008 armenian-christianity-era-8: clean 9 -> 10 (round 2 MINOR: refs kept plus added)",
+ "C015 imperial-juridical-christianity: clean 5 -> 8 (round 2 MINOR: refs kept plus added)",
+ "C115 the-tridentine-church: clean 8 -> 10 (round 2 MINOR: refs kept plus added)",
+ "C057 orthodoxy-under-the-ottomans-1650-1821: name 'Orthodoxy under the Ottomans, the Second Act' -> census name 'Orthodoxy under the Ottomans \u2014 the Second Act'",
+ "C059: question -> null (out on the count)",
+ "C051: doubts note the unsourced death year (MINOR)",
+ "C111: doubts note that the Seert year does not support 641 (MINOR)"
+]

@@ -1,0 +1,817 @@
+[
+ {
+  "cid": "C001",
+  "name": "Paul of Samosata",
+  "verdict": "approve",
+  "recount": {
+   "imperial-juridical-christianity": {
+    "valid": 6,
+    "rejected": {},
+    "added": []
+   },
+   "antiochene-exegetical-christianity-chrysostom-ce": {
+    "valid": 7,
+    "rejected": {},
+    "added": []
+   }
+  },
+  "passes_after_review": true,
+  "findings": [],
+  "recommendation_should_be": "hold",
+  "why": "Leo 3360 names Paul of Samosata in Leo's own text, both quotes are verbatim, and counts 6 and 7 match the recount; hold for no own words is right."
+ },
+ {
+  "cid": "C006",
+  "name": "Paula",
+  "verdict": "revise",
+  "recount": {
+   "recusant-english-catholicism": {
+    "valid": 8,
+    "rejected": {},
+    "added": []
+   },
+   "colonial-latin-american-devotional-catholicism": {
+    "valid": 5,
+    "rejected": {},
+    "added": []
+   }
+  },
+  "passes_after_review": true,
+  "findings": [
+   {
+    "severity": "SUBSTANTIAL",
+    "what": "Recommendation does not follow the revision rules. Answer C, applied as written, counts a letter issued in her name (Letter XLVI, 'Paula and Eustochium to Marcella'), and the revision brief names Paula as the own_words example of exactly this case. founder_of is null: the Bethlehem houses are no census movement, so the founder rule (founded or gave her name to a census movement) does not apply. With the count passing (8 and 5), every part of the test holds on the rules as written, so the recommendation is include, with question own_words left for Mark to overrule.",
+    "evidence": "npnf206_jerome-principal-works.xml:8735; ../Revision_Brief.md (question own_words; recommendation rules)",
+    "fix": "Set recommendation to include, keep question own_words, and reword the reason: include on the rules as written; Mark may rule that a ghost-written letter is not enough. Drop the founder question from the reason or state it as a note, since no census movement is named for her."
+   }
+  ],
+  "recommendation_should_be": "include",
+  "why": "Counts and fixes check out, but under Answer C as written, and by the revision brief's own example, her letter counts, so the rules give include with question own_words."
+ },
+ {
+  "cid": "C008",
+  "name": "Mesrop Mashtots",
+  "verdict": "approve",
+  "recount": {
+   "armenian-christianity-era-8": {
+    "valid": 10,
+    "rejected": {},
+    "added": []
+   },
+   "armenian-christianity-zartonk": {
+    "valid": 11,
+    "rejected": {},
+    "added": []
+   }
+  },
+  "passes_after_review": true,
+  "findings": [
+   {
+    "severity": "MINOR",
+    "what": "Era-8 clean is 9, but the round-1 recount keeps all nine consolidated refs (none rejected) and adds Nurikhan 18511, which is a distinct paragraph (Appendix VI; 18330 and 18367 are Appendix V). Kept plus added is 10. The revision log also says '9 (Nurikhan 18511 added)'. The outcome does not change.",
+    "evidence": "nurikhan_life-and-times-of-abbot-mechitar_mcquillan1915.txt:18330, 18367, 18511 (Appendix VI heading 18448)",
+    "fix": "Set era-8 clean to 10, or name the ref that merges."
+   }
+  ],
+  "recommendation_should_be": "hold",
+  "why": "Zartonk 11 and the quotes check out; era-8 is 10 rather than 9 by the recount, still passing; hold for no own words stands."
+ },
+ {
+  "cid": "C012",
+  "name": "Priscillian",
+  "verdict": "approve",
+  "recount": {
+   "nicene-visigothic-iberia": {
+    "valid": 8,
+    "rejected": {},
+    "added": []
+   },
+   "byzantine-imperial-church-justinianic": {
+    "valid": 5,
+    "rejected": {},
+    "added": []
+   },
+   "shakers": {
+    "valid": 6,
+    "rejected": {},
+    "added": []
+   }
+  },
+  "passes_after_review": true,
+  "findings": [],
+  "recommendation_should_be": "hold",
+  "why": "The Visigothic quote now comes from Mommsen 43152, a recount-added shelved passage; counts 8/5/6 match; hold as founder is right."
+ },
+ {
+  "cid": "C015",
+  "name": "Polycarp of Smyrna",
+  "verdict": "approve",
+  "recount": {
+   "imperial-juridical-christianity": {
+    "valid": 8,
+    "rejected": {},
+    "added": []
+   },
+   "the-anabaptist-movements": {
+    "valid": 11,
+    "rejected": {},
+    "added": []
+   }
+  },
+  "passes_after_review": true,
+  "findings": [
+   {
+    "severity": "MINOR",
+    "what": "Imperial clean is 5, but the round-1 recount rejects none of the five consolidated refs and adds three (Eusebius 19680, 23074; Socrates 16243). All eight are separate paragraphs (paragraph starts 19680, 20026, 22962, 23047; Socrates 16243 and Sozomen 41769). Kept plus added is 8. The revision log calls them 'swap-ins' without rejecting anything. The outcome does not change.",
+    "evidence": "npnf201_eusebius-church-history-life-of-constantine.xml:19680, 20032, 22962, 23074; npnf202_socrates-sozomen-ecclesiastical-histories.xml:16243, 41769",
+    "fix": "Set Imperial clean to 8, or list which three refs the additions replace."
+   }
+  ],
+  "recommendation_should_be": "include",
+  "why": "The Anicetus correction is made and quotes are verbatim; Imperial should read 8, not 5, with no effect; include stands."
+ },
+ {
+  "cid": "C018",
+  "name": "Basilides",
+  "verdict": "revise",
+  "recount": {
+   "alexandria-catechetical": {
+    "valid": 7,
+    "rejected": {},
+    "added": []
+   },
+   "roman-church-third-century": {
+    "valid": 6,
+    "rejected": {},
+    "added": []
+   },
+   "montanism-the-new-prophecy": {
+    "valid": 6,
+    "rejected": {},
+    "added": []
+   }
+  },
+  "passes_after_review": true,
+  "findings": [
+   {
+    "severity": "SUBSTANTIAL",
+    "what": "The 'later' test is not shown for Alexandria (census start 150) or Montanism (165). The row's only date is 'active c. 130' and gives no death year, and both traditions start within 50 years of it. The Library's own Clement says the heresy founders of Hadrian's time 'extended to the age of Antoninus the elder, as, for instance, Basilides'. Antoninus reigned to 161, so Basilides may have lived past 150. If Alexandria drops, the pass rests on Rome (200) plus Montanism (165, after 161), and those two are the same six Refutation passages shelved twice. So the doubt's sentence 'the count passes on Alexandria (7) plus Rome (6)' is not sound as stated. The recommendation stays hold on the own-words ground.",
+    "evidence": "anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml:52955-52958; census alexandria-catechetical start 150, montanism-the-new-prophecy start 165",
+    "fix": "State in doubts that his last year is unsourced. Clement puts him into Antoninus Pius's reign (to 161), so Alexandria's 150 start may not be later. Without Alexandria the pass rests on Rome plus Montanism, which is one witness (Hippolytus) shelved twice. Recommendation stays hold."
+   }
+  ],
+  "recommendation_should_be": "hold",
+  "why": "Counts match, but Alexandria's start (150) may not follow his death (Clement puts him into Antoninus Pius's reign), so the stated basis for passing needs a caveat; hold stands."
+ },
+ {
+  "cid": "C019",
+  "name": "Valentinus",
+  "verdict": "approve",
+  "recount": {
+   "latin-apologists": {
+    "valid": 8,
+    "rejected": {},
+    "added": []
+   },
+   "roman-church-third-century": {
+    "valid": 8,
+    "rejected": {},
+    "added": []
+   }
+  },
+  "passes_after_review": true,
+  "findings": [],
+  "recommendation_should_be": "hold",
+  "why": "Latin apologists 8 and Roman 8 match the recount, and the new quotes (21807, 15119) are verbatim counted passages; hold as founder is right."
+ },
+ {
+  "cid": "C023",
+  "name": "Maximilla",
+  "verdict": "approve",
+  "recount": {
+   "palestinian-ascetic-monasticism-early": {
+    "valid": 7,
+    "rejected": {},
+    "added": []
+   },
+   "imperial-juridical-christianity": {
+    "valid": 8,
+    "rejected": {},
+    "added": []
+   }
+  },
+  "passes_after_review": true,
+  "findings": [],
+  "recommendation_should_be": "hold",
+  "why": "own_words is corrected, Imperial 8 (5 plus 3 added) matches, and the new quote at 29825 is a counted passage; hold for no own words is right."
+ },
+ {
+  "cid": "C038",
+  "name": "Mani",
+  "verdict": "approve",
+  "recount": {
+   "palestinian-ascetic-monasticism-early": {
+    "valid": 8,
+    "rejected": {},
+    "added": []
+   },
+   "cappadocian-nicene-pastoral-monastic-tradition": {
+    "valid": 6,
+    "rejected": {},
+    "added": []
+   }
+  },
+  "passes_after_review": true,
+  "findings": [],
+  "recommendation_should_be": "hold",
+  "why": "Counts 8 and 6 match; hold as founder is right."
+ },
+ {
+  "cid": "C039",
+  "name": "Novatian",
+  "verdict": "approve",
+  "recount": {
+   "ambrosian-milan-standalone": {
+    "valid": 8,
+    "rejected": {},
+    "added": []
+   },
+   "hieronymian-ascetic-literary": {
+    "valid": 6,
+    "rejected": {},
+    "added": []
+   }
+  },
+  "passes_after_review": true,
+  "findings": [],
+  "recommendation_should_be": "hold",
+  "why": "Counts 8 and 6 match, the new quote 34770 and home citation 61136 (De Trinitate IX) are verbatim; hold as founder is right."
+ },
+ {
+  "cid": "C043",
+  "name": "Methodius of Olympus",
+  "verdict": "approve",
+  "recount": {
+   "russian-church-nikon-to-holy-synod": {
+    "valid": 5,
+    "rejected": {},
+    "added": []
+   },
+   "catholic-church-ancien-regime": {
+    "valid": 8,
+    "rejected": {},
+    "added": []
+   }
+  },
+  "passes_after_review": true,
+  "findings": [],
+  "recommendation_should_be": "include",
+  "why": "Russian 5 (4 kept plus Nikon 5360, which sits inside Nikon's Replies and names Methodius of Patara) matches; include on the rules as written, with the pseudo-Methodius caveat in doubts."
+ },
+ {
+  "cid": "C045",
+  "name": "Pamphilus",
+  "verdict": "revise",
+  "recount": {
+   "imperial-juridical-christianity": {
+    "valid": 6,
+    "rejected": {},
+    "added": []
+   },
+   "hieronymian-ascetic-literary": {
+    "valid": 6,
+    "rejected": {},
+    "added": []
+   }
+  },
+  "passes_after_review": true,
+  "findings": [
+   {
+    "severity": "SUBSTANTIAL",
+    "what": "Recommendation does not follow the revision rules. Answer C counts a jointly written work, and the revision brief names Pamphilus as the own_words example of exactly this case (the Apology for Origen, 'written by us and Pamphilus', npnf201:36974). Founder null, count passes (6 and 6, both traditions start after 309). On the rules as written every part holds, so the recommendation is include with question own_words, not hold. Jerome's denial and the home choice are notes for Mark, not hold grounds under the brief.",
+    "evidence": "npnf201_eusebius-church-history-life-of-constantine.xml:36974; ../Revision_Brief.md (question own_words; recommendation rules)",
+    "fix": "Set recommendation to include, keep question own_words; reason: include on the rules as written, Mark may rule the joint Apology (denied by Jerome) is not enough."
+   }
+  ],
+  "recommendation_should_be": "include",
+  "why": "Counts pass and both traditions start after 309, but the jointly written Apology counts under Answer C as written (the brief's own example), so the rules give include with question own_words."
+ },
+ {
+  "cid": "C046",
+  "name": "Lactantius",
+  "verdict": "approve",
+  "recount": {
+   "hieronymian-ascetic-literary": {
+    "valid": 8,
+    "rejected": {},
+    "added": []
+   },
+   "the-reformed-cities-zurich-and-geneva": {
+    "valid": 6,
+    "rejected": {},
+    "added": []
+   }
+  },
+  "passes_after_review": true,
+  "findings": [],
+  "recommendation_should_be": "include",
+  "why": "The new home citation is the Divine Institutes I.1 body text and Reformed 6 matches; include stands."
+ },
+ {
+  "cid": "C048",
+  "name": "Constantine",
+  "verdict": "approve",
+  "recount": {
+   "syriac-orthodox-west-syriac-christianity": {
+    "valid": 7,
+    "rejected": {},
+    "added": []
+   },
+   "the-church-of-the-east-under-persia": {
+    "valid": 7,
+    "rejected": {},
+    "added": []
+   }
+  },
+  "passes_after_review": true,
+  "findings": [],
+  "recommendation_should_be": "include",
+  "why": "The doubt about the 312 window is added; nothing else changed; include stands."
+ },
+ {
+  "cid": "C051",
+  "name": "Hilarion of Gaza",
+  "verdict": "approve",
+  "recount": {
+   "hieronymian-ascetic-literary": {
+    "valid": 9,
+    "rejected": {},
+    "added": []
+   },
+   "the-tridentine-church": {
+    "valid": 6,
+    "rejected": {},
+    "added": []
+   }
+  },
+  "passes_after_review": true,
+  "findings": [
+   {
+    "severity": "MINOR",
+    "what": "Death year unsourced ('the input file gives last year 371'), and the counted Hieronymian tradition starts in 382, within 50 years. Jerome's Life gives his age at death (he kept the fast to his eightieth year), not a calendar year. The tradition is very likely later, but the row should cite a source for the death year. Recommendation (hold, founder) unchanged.",
+    "evidence": "npnf206_jerome-principal-works.xml:30270 ('from his sixty-fourth year to his eightieth'); census hieronymian-ascetic-literary start 382",
+    "fix": "Cite a Library line for his death (c. 371) or say in doubts that the year is unsourced and the Hieronymian start is close."
+   }
+  ],
+  "recommendation_should_be": "hold",
+  "why": "The founder question is now set and the Hieronymian count verified at 9; hold stands, with the death year still to be sourced."
+ },
+ {
+  "cid": "C057",
+  "name": "Constantius II",
+  "verdict": "approve",
+  "recount": {
+   "orthodoxy-under-the-ottomans-1650-1821": {
+    "valid": 5,
+    "rejected": {},
+    "added": []
+   },
+   "the-kollyvades-and-greek-renewal": {
+    "valid": 7,
+    "rejected": {},
+    "added": []
+   }
+  },
+  "passes_after_review": true,
+  "findings": [
+   {
+    "severity": "MINOR",
+    "what": "The tradition name is given as 'Orthodoxy under the Ottomans, the Second Act'. The census name is 'Orthodoxy under the Ottomans — the Second Act' (C062 has it right).",
+    "evidence": "census orthodoxy-under-the-ottomans-1650-1821 name",
+    "fix": "Copy the census name."
+   }
+  ],
+  "recommendation_should_be": "hold",
+  "why": "Parish-millet is dropped, counts 5 and 7 match, and one_witness hold matches the brief."
+ },
+ {
+  "cid": "C059",
+  "name": "Eunomius of Cyzicus",
+  "verdict": "approve",
+  "recount": {
+   "syriac-orthodox-west-syriac-christianity": {
+    "valid": 5,
+    "rejected": {},
+    "added": []
+   },
+   "hieronymian-ascetic-literary": {
+    "valid": 0,
+    "rejected": {},
+    "added": []
+   }
+  },
+  "passes_after_review": false,
+  "findings": [
+   {
+    "severity": "MINOR",
+    "what": "question is 'founder', but the recommendation is out because the count fails, and does not turn on the founder point. The revision brief sets question only 'when the recommendation turns on it'.",
+    "evidence": "../Revision_Brief.md (question field)",
+    "fix": "Set question to null; keep the founder point in reason or doubts."
+   }
+  ],
+  "recommendation_should_be": "out",
+  "why": "The BLOCKING fix holds: Hieronymian is not later, so the count fails and out is right; the question should be null."
+ },
+ {
+  "cid": "C060",
+  "name": "Apollinaris of Laodicea",
+  "verdict": "approve",
+  "recount": {
+   "byzantine-imperial-church-justinianic": {
+    "valid": 8,
+    "rejected": {},
+    "added": []
+   },
+   "latin-africa-under-byzantium": {
+    "valid": 8,
+    "rejected": {},
+    "added": []
+   }
+  },
+  "passes_after_review": true,
+  "findings": [],
+  "recommendation_should_be": "hold",
+  "why": "Byzantine 8 and Latin Africa 8 match kept plus added, the new quote (Leo 6207) and the Kata meros pistis home line are verbatim; hold as founder is right."
+ },
+ {
+  "cid": "C062",
+  "name": "Basil of Caesarea (Basil the Great)",
+  "verdict": "approve",
+  "recount": {
+   "byzantine-church-palaiologan": {
+    "valid": 7,
+    "rejected": {},
+    "added": []
+   },
+   "orthodoxy-under-the-ottomans-1650-1821": {
+    "valid": 6,
+    "rejected": {},
+    "added": []
+   }
+  },
+  "passes_after_review": true,
+  "findings": [],
+  "recommendation_should_be": "include",
+  "why": "The six refs sit in tradition rows of the 1650-1821 shelf (Dositheus 2952 inside the Synod text from line 344), and counts 7 and 6 match; include stands."
+ },
+ {
+  "cid": "C064",
+  "name": "Gregory of Nazianzus",
+  "verdict": "approve",
+  "recount": {
+   "the-english-reformation-and-elizabethan-settleme": {
+    "valid": 5,
+    "rejected": {},
+    "added": []
+   },
+   "recusant-english-catholicism": {
+    "valid": 7,
+    "rejected": {},
+    "added": []
+   }
+  },
+  "passes_after_review": true,
+  "findings": [],
+  "recommendation_should_be": "include",
+  "why": "The death date (389 or 390) is now cited from npnf207:43353-43354 and recusant 7 matches; include stands."
+ },
+ {
+  "cid": "C081",
+  "name": "Theodoret of Cyrrhus",
+  "verdict": "approve",
+  "recount": {
+   "byzantine-imperial-church-justinianic": {
+    "valid": 0,
+    "rejected": {},
+    "added": []
+   },
+   "syriac-orthodox-west-syriac-christianity": {
+    "valid": 0,
+    "rejected": {},
+    "added": []
+   }
+  },
+  "passes_after_review": false,
+  "findings": [],
+  "recommendation_should_be": "out",
+  "why": "The BLOCKING fix holds: both traditions start in 451, while he was alive; out is right."
+ },
+ {
+  "cid": "C085",
+  "name": "Patrick",
+  "verdict": "approve",
+  "recount": {
+   "medieval-irish-christianity": {
+    "valid": 8,
+    "rejected": {},
+    "added": []
+   },
+   "medieval-welsh-christianity": {
+    "valid": 7,
+    "rejected": {},
+    "added": []
+   }
+  },
+  "passes_after_review": true,
+  "findings": [],
+  "recommendation_should_be": "include",
+  "why": "The four added Nennius sections (50, 51, 54, 55) are distinct and in the row's locus, Welsh 7 matches, and include with founder_of null follows the census."
+ },
+ {
+  "cid": "C095",
+  "name": "Kaleb",
+  "verdict": "approve",
+  "recount": {
+   "the-ethiopian-monastic-flowering": {
+    "valid": 8,
+    "rejected": {},
+    "added": []
+   },
+   "the-society-of-jesus": {
+    "valid": 5,
+    "rejected": {},
+    "added": []
+   }
+  },
+  "passes_after_review": true,
+  "findings": [],
+  "recommendation_should_be": "hold",
+  "why": "Ethiopian 8 (5 plus 3 added) matches; hold for no own words is right."
+ },
+ {
+  "cid": "C098",
+  "name": "Justinian",
+  "verdict": "approve",
+  "recount": {
+   "russian-church-nikon-to-holy-synod": {
+    "valid": 8,
+    "rejected": {},
+    "added": []
+   },
+   "coptic-christianity-under-early-islam": {
+    "valid": 7,
+    "rejected": {},
+    "added": []
+   }
+  },
+  "passes_after_review": true,
+  "findings": [],
+  "recommendation_should_be": "include",
+  "why": "No substantive change; include stands."
+ },
+ {
+  "cid": "C103",
+  "name": "Mar Aba I",
+  "verdict": "approve",
+  "recount": {
+   "church-of-the-east-timur-to-hakkari": {
+    "valid": 3,
+    "rejected": {},
+    "added": []
+   },
+   "church-of-the-east-chaldean-consolidation": {
+    "valid": 5,
+    "rejected": {},
+    "added": []
+   }
+  },
+  "passes_after_review": false,
+  "findings": [],
+  "recommendation_should_be": "out",
+  "why": "The BLOCKING and SUBSTANTIAL fixes hold: Timur 3, Chaldean 5 (Badger 17689 verbatim); out is right."
+ },
+ {
+  "cid": "C111",
+  "name": "Heraclius",
+  "verdict": "approve",
+  "recount": {
+   "armenian-christianity-era-8": {
+    "valid": 5,
+    "rejected": {},
+    "added": []
+   },
+   "church-of-the-east-under-the-abbasids": {
+    "valid": 10,
+    "rejected": {},
+    "added": []
+   }
+  },
+  "passes_after_review": true,
+  "findings": [
+   {
+    "severity": "MINOR",
+    "what": "dates says the Chronicle of Seert gives his death as year 992 of Alexander and that 'the reviewer reads it as 641'. Year 992 of the Seleucid era is 680/81, not 641, which would be about 952. Either the chronicle or the OCR has the wrong figure; the line does not support 641. The 641 death comes from candidates.json. No effect on the count (Abbasid start 845, era-8 1700).",
+    "evidence": "chronicle-of-seert_histoire-nestorienne-seconde-partie-po13-ara-fra_scher1919.txt:34144",
+    "fix": "Say the printed 992 does not match 641 (it would be 680/81). Rest the 641 death on candidates.json, not on this line."
+   }
+  ],
+  "recommendation_should_be": "hold",
+  "why": "The reason now rests the hold on own words alone, Armenian 5 matches, and the Serpos 16120 quote is verbatim; the 992-of-Alexander line does not give 641."
+ },
+ {
+  "cid": "C115",
+  "name": "Bede",
+  "verdict": "approve",
+  "recount": {
+   "lollardy": {
+    "valid": 6,
+    "rejected": {},
+    "added": []
+   },
+   "the-tridentine-church": {
+    "valid": 10,
+    "rejected": {},
+    "added": []
+   }
+  },
+  "passes_after_review": true,
+  "findings": [
+   {
+    "severity": "MINOR",
+    "what": "Tridentine clean is 8, but the round-1 recount keeps all eight consolidated refs and adds Breviary 61623 and 71076. 71076 is the Sixth Lesson ('Concerning him blessed Bede beareth witness'), a different lesson from 71003 (Fifth Lesson). Kept plus added is 10. The outcome does not change.",
+    "evidence": "roman-breviary_bute1908.txt:71003, 71036 (Sixth Lesson heading), 71076; 61623",
+    "fix": "Set Tridentine clean to 10."
+   }
+  ],
+  "recommendation_should_be": "include",
+  "why": "Tridentine should read 10, not 8, with no effect; include stands."
+ },
+ {
+  "cid": "C140",
+  "name": "Gregory VII",
+  "verdict": "approve",
+  "recount": {
+   "german-pietism-spener-francke-halle": {
+    "valid": 6,
+    "rejected": {},
+    "added": []
+   },
+   "restoration-georgian-church-of-england": {
+    "valid": 9,
+    "rejected": {},
+    "added": []
+   }
+  },
+  "passes_after_review": true,
+  "findings": [],
+  "recommendation_should_be": "include",
+  "why": "Only doubts changed; include stands."
+ },
+ {
+  "cid": "C144",
+  "name": "Valdes of Lyon",
+  "verdict": "approve",
+  "recount": {
+   "waldensians-in-the-alps": {
+    "valid": 6,
+    "rejected": {},
+    "added": []
+   },
+   "the-anabaptist-movements": {
+    "valid": 7,
+    "rejected": {},
+    "added": []
+   }
+  },
+  "passes_after_review": true,
+  "findings": [],
+  "recommendation_should_be": "hold",
+  "why": "Anabaptist 7 matches; hold as founder is right."
+ },
+ {
+  "cid": "C146",
+  "name": "Innocent III",
+  "verdict": "approve",
+  "recount": {
+   "the-tridentine-church": {
+    "valid": 7,
+    "rejected": {},
+    "added": []
+   },
+   "the-anabaptist-movements": {
+    "valid": 8,
+    "rejected": {},
+    "added": []
+   }
+  },
+  "passes_after_review": true,
+  "findings": [],
+  "recommendation_should_be": "include",
+  "why": "The Bullarium additions (37879, 154764) are bull text, not editors' rubrics, Tridentine 7 matches, and the new home line 12143 is the letter text; include stands."
+ },
+ {
+  "cid": "C148",
+  "name": "Francis of Assisi",
+  "verdict": "approve",
+  "recount": {
+   "observant-reform-and-popular-preaching": {
+    "valid": 6,
+    "rejected": {},
+    "added": []
+   },
+   "the-tridentine-church": {
+    "valid": 7,
+    "rejected": {},
+    "added": []
+   }
+  },
+  "passes_after_review": true,
+  "findings": [],
+  "recommendation_should_be": "hold",
+  "why": "Observant 6 and Tridentine 7 match, and the new Fioretti ch. I home line is verbatim; hold as founder is right."
+ },
+ {
+  "cid": "C151",
+  "name": "Bonaventure",
+  "verdict": "approve",
+  "recount": {
+   "catholic-church-ancien-regime": {
+    "valid": 5,
+    "rejected": {},
+    "added": []
+   },
+   "observant-reform-and-popular-preaching": {
+    "valid": 11,
+    "rejected": {},
+    "added": []
+   }
+  },
+  "passes_after_review": true,
+  "findings": [],
+  "recommendation_should_be": "hold",
+  "why": "No findings in round 1 and nothing changed; hold stands."
+ },
+ {
+  "cid": "C154",
+  "name": "Johannes Tauler",
+  "verdict": "approve",
+  "recount": {
+   "schwenckfelders": {
+    "valid": 25,
+    "rejected": {},
+    "added": []
+   },
+   "family-of-love-and-spiritualists-franck-niclaes": {
+    "valid": 11,
+    "rejected": {},
+    "added": []
+   }
+  },
+  "passes_after_review": true,
+  "findings": [],
+  "recommendation_should_be": "hold",
+  "why": "Family of Love 11 matches; hold with question own_words (hearers' notes, which Answer C does not count) is right."
+ },
+ {
+  "cid": "C158",
+  "name": "Huldrych Zwingli",
+  "verdict": "approve",
+  "recount": {
+   "the-huguenots": {
+    "valid": 6,
+    "rejected": {},
+    "added": []
+   },
+   "shakers": {
+    "valid": 6,
+    "rejected": {},
+    "added": []
+   }
+  },
+  "passes_after_review": true,
+  "findings": [],
+  "recommendation_should_be": "hold",
+  "why": "The Huguenot quote now comes from Crespin's own text (79725), and Beza 35110 makes 6; hold as founder is right."
+ },
+ {
+  "cid": "C164",
+  "name": "Hugo Grotius",
+  "verdict": "approve",
+  "recount": {
+   "restoration-georgian-church-of-england": {
+    "valid": 7,
+    "rejected": {},
+    "added": []
+   },
+   "english-old-dissent": {
+    "valid": 6,
+    "rejected": {},
+    "added": []
+   }
+  },
+  "passes_after_review": true,
+  "findings": [],
+  "recommendation_should_be": "include",
+  "why": "Restoration 7 matches; include stands."
+ }
+]

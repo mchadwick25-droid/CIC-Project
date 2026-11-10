@@ -104,7 +104,7 @@ applied to every shared file, not only the census.
 | P2-G1 | Gap sweep (read only) | Mark's ruling sitting | merged (#1549, ruling record #1561); ruled 2026-11-09 (Decision-Log, "The gap sweep ruled (P2-G1)") |
 | P2-G2 | Schema additions | none | merged (#1564; data release 24, schema 3): kind, toldWithin, people, concerns, livingEvidence.descentConfidence, reviewStatus; Tertullian a person; I.14 retired into II.1; leftovers in Open-Gaps 2026-11-09, "What P2-G2 leaves for P2-G3" |
 | P2-G3 | The agreed entries | Mark sees the people list (narration waits for one batch after P2-L10 and P2-G3, Mark 2026-11-10) | done (data release 29; people list ruled 2026-11-10; reviews approved; audit `2026-11-10_agreed-entries`) |
-| P2-G3b | The later-worlds people: the count re-run with namesakes checked and editors' notes left out; Mark picks from the clean list (Mark, answer D a) | Mark's pick | todo |
+| P2-G3b | The later-worlds people: the count re-run with namesakes checked and editors' notes left out; Mark picks from the clean list (Mark, answer D a) | Mark's pick | at Mark's gate (clean list published 2026-11-10; audit `2026-11-10_later-worlds-people`; Open-Gaps 164-165) |
 | P2-P | People layer: Traditions \| People switch, rows, gap placement, links by view; removes the map's hold on person entries (Decision-Log 2026-11-10) | none | todo |
 | P2-PL | Likenesses: rights and date check per image | none | todo |
 | P2-V | "Living" definition and every living flag (192 on main, not 169) | none | done (data release 30; the definition on the method page; 264 living after; Opus review approved in round 3; audit `2026-11-10_living`) |
