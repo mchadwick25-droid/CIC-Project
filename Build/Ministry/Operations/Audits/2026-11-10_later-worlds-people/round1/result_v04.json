@@ -1,0 +1,971 @@
+[
+ {
+  "cid": "C004",
+  "name": "Justina",
+  "traditions": {
+   "czech-churches-last-century": {
+    "labels": {
+     "czech-churches-last-century#0": "N",
+     "czech-churches-last-century#1": "N",
+     "czech-churches-last-century#2": "N",
+     "czech-churches-last-century#3": "N",
+     "czech-churches-last-century#4": "N",
+     "czech-churches-last-century#5": "N",
+     "czech-churches-last-century#6": "N",
+     "czech-churches-last-century#7": "N",
+     "czech-churches-last-century#8": "N",
+     "czech-churches-last-century#9": "N"
+    },
+    "clean_passages": 0
+   },
+   "the-tridentine-church": {
+    "labels": {
+     "the-tridentine-church#0": "N",
+     "the-tridentine-church#1": "N",
+     "the-tridentine-church#2": "N",
+     "the-tridentine-church#3": "N",
+     "the-tridentine-church#4": "N",
+     "the-tridentine-church#5": "N",
+     "the-tridentine-church#6": "N",
+     "the-tridentine-church#7": "N",
+     "the-tridentine-church#8": "N"
+    },
+    "clean_passages": 0
+   },
+   "the-ethiopian-monastic-flowering": {
+    "labels": {
+     "the-ethiopian-monastic-flowering#0": "N",
+     "the-ethiopian-monastic-flowering#1": "N",
+     "the-ethiopian-monastic-flowering#2": "N",
+     "the-ethiopian-monastic-flowering#3": "N",
+     "the-ethiopian-monastic-flowering#4": "N",
+     "the-ethiopian-monastic-flowering#5": "N"
+    },
+    "clean_passages": 0
+   }
+  },
+  "namesake_notes": "Czech: Justina, a girl before the Utraquist consistory, and Vavrinec Justin; Roman Breviary and Synaxarium: Justina the martyr of Antioch/Nicomedia (with Cyprian) and Justina of Padua, not the Empress.",
+  "editorial_notes": "none counted",
+  "comment": "No tradition has a clean passage: every hit is a namesake."
+ },
+ {
+  "cid": "C014",
+  "name": "Ignatius",
+  "traditions": {
+   "the-society-of-jesus": {
+    "labels": {
+     "the-society-of-jesus#0": "N",
+     "the-society-of-jesus#1": "N",
+     "the-society-of-jesus#2": "N",
+     "the-society-of-jesus#3": "N",
+     "the-society-of-jesus#4": "N",
+     "the-society-of-jesus#5": "N",
+     "the-society-of-jesus#6": "N",
+     "the-society-of-jesus#7": "N",
+     "the-society-of-jesus#8": "N",
+     "the-society-of-jesus#9": "N"
+    },
+    "clean_passages": 0
+   },
+   "byzantine-church-palaiologan": {
+    "labels": {
+     "byzantine-church-palaiologan#0": "N",
+     "byzantine-church-palaiologan#1": "N",
+     "byzantine-church-palaiologan#2": "N",
+     "byzantine-church-palaiologan#3": "N",
+     "byzantine-church-palaiologan#4": "S",
+     "byzantine-church-palaiologan#5": "N",
+     "byzantine-church-palaiologan#6": "E",
+     "byzantine-church-palaiologan#7": "N",
+     "byzantine-church-palaiologan#8": "N",
+     "byzantine-church-palaiologan#9": "N"
+    },
+    "clean_passages": 1,
+    "best_quote": {
+     "file": "chalcocondyles_historiarum-libri-x-with-isidore-leonard-plusiadenos-pg159-grc-lat_migne1866.txt",
+     "line": 80493,
+     "text": "Antioche- nuin, sieut Ignatius, cognomine Deifer ; llierosoly-"
+    }
+   },
+   "the-ethiopian-monastic-flowering": {
+    "labels": {
+     "the-ethiopian-monastic-flowering#0": "N",
+     "the-ethiopian-monastic-flowering#1": "S",
+     "the-ethiopian-monastic-flowering#2": "U",
+     "the-ethiopian-monastic-flowering#3": "N",
+     "the-ethiopian-monastic-flowering#4": "S",
+     "the-ethiopian-monastic-flowering#5": "N",
+     "the-ethiopian-monastic-flowering#6": "S",
+     "the-ethiopian-monastic-flowering#7": "N",
+     "the-ethiopian-monastic-flowering#8": "N",
+     "the-ethiopian-monastic-flowering#9": "N"
+    },
+    "clean_passages": 1,
+    "best_quote": {
+     "file": "ethiopian-synaxarium_book-of-saints-ethiopian-church-v2-v4-microform_budge1928.txt",
+     "line": 5860,
+     "text": "And on this day also the holy and honourable Ignatius, Archbishop of Antioch, became a martyr."
+    }
+   }
+  },
+  "namesake_notes": "Jesuit shelf: Ignatius of Loyola throughout; Byzantine: Patriarch Ignatius of Constantinople, Ignatius of Antioch (14th c. patriarch), Ignatius Xanthopoulos, bishops signing; Ethiopian: lists of patriarchs Ignatius I-XI.",
+  "editorial_notes": "Brooks's introduction (erroneous citation from Ignatius), counted E.",
+  "comment": "Ethiopian: the History of the Patriarchs line 'throne of the great Ignatius' (Basset-Guidi file, line 24233) is in an appended work outside the shelved locus, labelled U. Byzantine passage is Joseph of Methone's Latin (PG 159 part of the Chalcocondyles file)."
+ },
+ {
+  "cid": "C024",
+  "name": "Melito of Sardis",
+  "traditions": {
+   "the-society-of-jesus": {
+    "labels": {
+     "the-society-of-jesus#0": "N",
+     "the-society-of-jesus#1": "N",
+     "the-society-of-jesus#2": "N",
+     "the-society-of-jesus#3": "N",
+     "the-society-of-jesus#4": "N",
+     "the-society-of-jesus#5": "N",
+     "the-society-of-jesus#6": "N",
+     "the-society-of-jesus#7": "N",
+     "the-society-of-jesus#8": "N",
+     "the-society-of-jesus#9": "N"
+    },
+    "clean_passages": 0
+   },
+   "syriac-orthodox-west-syriac-christianity": {
+    "labels": {
+     "syriac-orthodox-west-syriac-christianity#0": "E",
+     "syriac-orthodox-west-syriac-christianity#1": "S",
+     "syriac-orthodox-west-syriac-christianity#2": "E",
+     "syriac-orthodox-west-syriac-christianity#3": "S",
+     "syriac-orthodox-west-syriac-christianity#4": "E",
+     "syriac-orthodox-west-syriac-christianity#5": "E",
+     "syriac-orthodox-west-syriac-christianity#6": "E",
+     "syriac-orthodox-west-syriac-christianity#7": "E",
+     "syriac-orthodox-west-syriac-christianity#8": "E"
+    },
+    "clean_passages": 2,
+    "best_quote": {
+     "file": "michael-the-syrian_chronique-tome1-livres-i-vii-fra_chabot1899.txt",
+     "line": 14481,
+     "text": "A cette époque Méliton, d'Asie, évêque des Sardiens, présenta h Anto- nin, empereur des Romains, un livre"
+    }
+   },
+   "imperial-juridical-christianity": {
+    "labels": {
+     "imperial-juridical-christianity#0": "U",
+     "imperial-juridical-christianity#1": "E",
+     "imperial-juridical-christianity#2": "U",
+     "imperial-juridical-christianity#3": "U",
+     "imperial-juridical-christianity#4": "U",
+     "imperial-juridical-christianity#5": "U",
+     "imperial-juridical-christianity#6": "U",
+     "imperial-juridical-christianity#7": "E"
+    },
+    "clean_passages": 0
+   }
+  },
+  "namesake_notes": "Jesuit shelf: Melito is a place and the Count of Melito, never the bishop.",
+  "editorial_notes": "Pseudo-Meliton discussions in Nau/Jugie-style introduction and notes to John of Ephesus PO 19; Lightfoot comparison in Percival's note (NPNF 14); chapter prefaces.",
+  "comment": "Imperial: contexts from Eusebius's Church History sit in the Constantine file but Eusebius is not the shelved author (locus: Constantine's Oration); labelled U not S. Syriac: Michael's two mentions are adjacent sentences in one notice, counted as two."
+ },
+ {
+  "cid": "C034",
+  "name": "Minucius Felix",
+  "traditions": {
+   "latin-africa-under-byzantium": {
+    "labels": {
+     "latin-africa-under-byzantium#0": "N",
+     "latin-africa-under-byzantium#1": "E",
+     "latin-africa-under-byzantium#2": "E",
+     "latin-africa-under-byzantium#3": "N",
+     "latin-africa-under-byzantium#4": "E",
+     "latin-africa-under-byzantium#5": "N",
+     "latin-africa-under-byzantium#6": "E",
+     "latin-africa-under-byzantium#7": "N",
+     "latin-africa-under-byzantium#8": "N",
+     "latin-africa-under-byzantium#9": "N"
+    },
+    "clean_passages": 0
+   },
+   "byzantine-imperial-church-justinianic": {
+    "labels": {
+     "byzantine-imperial-church-justinianic#0": "N",
+     "byzantine-imperial-church-justinianic#1": "E",
+     "byzantine-imperial-church-justinianic#2": "N",
+     "byzantine-imperial-church-justinianic#3": "N",
+     "byzantine-imperial-church-justinianic#4": "N",
+     "byzantine-imperial-church-justinianic#5": "N",
+     "byzantine-imperial-church-justinianic#6": "N",
+     "byzantine-imperial-church-justinianic#7": "N",
+     "byzantine-imperial-church-justinianic#8": "N"
+    },
+    "clean_passages": 0
+   },
+   "nicene-visigothic-iberia": {
+    "labels": {
+     "nicene-visigothic-iberia#0": "N",
+     "nicene-visigothic-iberia#1": "N",
+     "nicene-visigothic-iberia#2": "N",
+     "nicene-visigothic-iberia#3": "N",
+     "nicene-visigothic-iberia#4": "N",
+     "nicene-visigothic-iberia#5": "N",
+     "nicene-visigothic-iberia#6": "N",
+     "nicene-visigothic-iberia#7": "N"
+    },
+    "clean_passages": 0
+   }
+  },
+  "namesake_notes": "Roman consular names (Minucius as a consul) in Mommsen's Chronica minora.",
+  "editorial_notes": "German scholarly introduction (Kihn) and Migne/Gronovius apparatus naming Minucius Felix.",
+  "comment": "No clean passage in any tradition."
+ },
+ {
+  "cid": "C044",
+  "name": "Arnobius of Sicca",
+  "traditions": {
+   "antiochene-exegetical-christianity-chrysostom-ce": {
+    "labels": {
+     "antiochene-exegetical-christianity-chrysostom-ce#0": "N",
+     "antiochene-exegetical-christianity-chrysostom-ce#1": "N",
+     "antiochene-exegetical-christianity-chrysostom-ce#2": "N",
+     "antiochene-exegetical-christianity-chrysostom-ce#3": "N",
+     "antiochene-exegetical-christianity-chrysostom-ce#4": "N",
+     "antiochene-exegetical-christianity-chrysostom-ce#5": "N",
+     "antiochene-exegetical-christianity-chrysostom-ce#6": "N",
+     "antiochene-exegetical-christianity-chrysostom-ce#7": "N",
+     "antiochene-exegetical-christianity-chrysostom-ce#8": "N",
+     "antiochene-exegetical-christianity-chrysostom-ce#9": "N"
+    },
+    "clean_passages": 0
+   },
+   "hieronymian-ascetic-literary": {
+    "labels": {
+     "hieronymian-ascetic-literary#0": "E",
+     "hieronymian-ascetic-literary#1": "S",
+     "hieronymian-ascetic-literary#2": "S",
+     "hieronymian-ascetic-literary#3": "E",
+     "hieronymian-ascetic-literary#4": "S",
+     "hieronymian-ascetic-literary#5": "E",
+     "hieronymian-ascetic-literary#6": "S",
+     "hieronymian-ascetic-literary#7": "S"
+    },
+    "clean_passages": 5,
+    "best_quote": {
+     "file": "npnf206_jerome-principal-works.xml",
+     "line": 14115,
+     "text": "Arnobius is lengthy and unequal, and often confused from not making a proper division of his subject."
+    }
+   },
+   "latin-papal-church-avignon-to-lateran-v": {
+    "labels": {
+     "latin-papal-church-avignon-to-lateran-v#0": "E",
+     "latin-papal-church-avignon-to-lateran-v#1": "E",
+     "latin-papal-church-avignon-to-lateran-v#2": "E",
+     "latin-papal-church-avignon-to-lateran-v#3": "E",
+     "latin-papal-church-avignon-to-lateran-v#4": "N",
+     "latin-papal-church-avignon-to-lateran-v#5": "N",
+     "latin-papal-church-avignon-to-lateran-v#6": "N",
+     "latin-papal-church-avignon-to-lateran-v#7": "N"
+    },
+    "clean_passages": 0
+   }
+  },
+  "namesake_notes": "Arnobius junior (Nestoriana, Birgitta notes on Arnobius on the Psalms) is a different person.",
+  "editorial_notes": "Loofs's German commentary on Nestorius; Duranti's notes and index in Birgitta; Mirbt's summary of the Gelasian list; chapter index and chapter titles in NPNF 3; critical apparatus in Fotheringham.",
+  "comment": "Hieronymian passages are Jerome's own letters (58, 60, 62), De viris illustribus 80 (Lactantius a disciple of Arnobius) and the Chronicle entry; some are outside the shelved works' loci (Apology, Against Jovinianus) but the author is Jerome."
+ },
+ {
+  "cid": "C054",
+  "name": "Valens of Mursa",
+  "traditions": {
+   "gallic-nicene-episcopate": {
+    "labels": {
+     "gallic-nicene-episcopate#0": "E",
+     "gallic-nicene-episcopate#1": "E",
+     "gallic-nicene-episcopate#2": "E",
+     "gallic-nicene-episcopate#3": "S",
+     "gallic-nicene-episcopate#4": "S",
+     "gallic-nicene-episcopate#5": "E",
+     "gallic-nicene-episcopate#6": "U",
+     "gallic-nicene-episcopate#7": "S",
+     "gallic-nicene-episcopate#8": "N",
+     "gallic-nicene-episcopate#9": "E"
+    },
+    "clean_passages": 3,
+    "best_quote": {
+     "file": "hilary_opera-tomus-posterior-de-synodis-contra-constantium-fragmenta-historica-lat_migne-pl10-1844.txt",
+     "line": 42868,
+     "text": "Sed ignoscant mibi jam duo epi- scopi Yalens et Ursacius"
+    }
+   },
+   "antiochene-exegetical-christianity-chrysostom-ce": {
+    "labels": {
+     "antiochene-exegetical-christianity-chrysostom-ce#0": "S",
+     "antiochene-exegetical-christianity-chrysostom-ce#1": "S",
+     "antiochene-exegetical-christianity-chrysostom-ce#2": "S",
+     "antiochene-exegetical-christianity-chrysostom-ce#3": "S",
+     "antiochene-exegetical-christianity-chrysostom-ce#4": "S",
+     "antiochene-exegetical-christianity-chrysostom-ce#5": "S",
+     "antiochene-exegetical-christianity-chrysostom-ce#6": "S",
+     "antiochene-exegetical-christianity-chrysostom-ce#7": "S"
+    },
+    "clean_passages": 8,
+    "best_quote": {
+     "file": "npnf203_theodoret-jerome-gennadius-rufinus.xml",
+     "line": 8958,
+     "text": "“Valens and Ursacius have, like two vipers brought forth by an asp, proceeded from the Arian"
+    }
+   }
+  },
+  "namesake_notes": "Gallic: one 'Ursacius ab Italia de Brixa' (a different Ursacius) in the Sardican list.",
+  "editorial_notes": "Migne's Latin footnotes in Hilary (lines 38669, 39304, 42771, 45011, 51616); Antiochene: footnote fragments inside the Theodoret text.",
+  "comment": "Gallic count rests on Hilary, De Synodis (two) and a Sardican document in the Fragmenta historica (one); the heading at line 50003 is U. Antiochene passages are Theodoret's Church History (synodal letters), not the Eranistes locus; the 8 contexts may repeat the same list of names, at least 6 distinct sentences."
+ },
+ {
+  "cid": "C064",
+  "name": "Gregory of Nazianzus",
+  "traditions": {
+   "the-english-reformation-and-elizabethan-settleme": {
+    "labels": {
+     "the-english-reformation-and-elizabethan-settleme#0": "S",
+     "the-english-reformation-and-elizabethan-settleme#1": "S",
+     "the-english-reformation-and-elizabethan-settleme#2": "S",
+     "the-english-reformation-and-elizabethan-settleme#3": "S",
+     "the-english-reformation-and-elizabethan-settleme#4": "S",
+     "the-english-reformation-and-elizabethan-settleme#5": "S",
+     "the-english-reformation-and-elizabethan-settleme#6": "S",
+     "the-english-reformation-and-elizabethan-settleme#7": "S",
+     "the-english-reformation-and-elizabethan-settleme#8": "E",
+     "the-english-reformation-and-elizabethan-settleme#9": "S"
+    },
+    "clean_passages": 9,
+    "best_quote": {
+     "file": "jewel_apology-of-the-church-of-england_bacon-morley1888.txt",
+     "line": 1314,
+     "text": "Gregory Nazianzen speaketh thus of the pitiful state of his own time"
+    }
+   },
+   "byzantine-imperial-church-justinianic": {
+    "labels": {
+     "byzantine-imperial-church-justinianic#0": "E",
+     "byzantine-imperial-church-justinianic#1": "E",
+     "byzantine-imperial-church-justinianic#2": "U",
+     "byzantine-imperial-church-justinianic#3": "E",
+     "byzantine-imperial-church-justinianic#4": "S",
+     "byzantine-imperial-church-justinianic#5": "E",
+     "byzantine-imperial-church-justinianic#6": "E",
+     "byzantine-imperial-church-justinianic#7": "U",
+     "byzantine-imperial-church-justinianic#8": "E",
+     "byzantine-imperial-church-justinianic#9": "U"
+    },
+    "clean_passages": 1,
+    "best_quote": {
+     "file": "mansi_sacrorum-conciliorum-collectio-tomus-7-451-492-lat_welter-facsimile1901.txt",
+     "line": 53540,
+     "text": "Sic & Bafilius magnus, & Gregorius Nazianzenus, & alter Gregorius Nyf-"
+    }
+   },
+   "syriac-orthodox-west-syriac-christianity": {
+    "labels": {
+     "syriac-orthodox-west-syriac-christianity#0": "S",
+     "syriac-orthodox-west-syriac-christianity#1": "E",
+     "syriac-orthodox-west-syriac-christianity#2": "E",
+     "syriac-orthodox-west-syriac-christianity#3": "E",
+     "syriac-orthodox-west-syriac-christianity#4": "S",
+     "syriac-orthodox-west-syriac-christianity#5": "E",
+     "syriac-orthodox-west-syriac-christianity#6": "S"
+    },
+    "clean_passages": 3,
+    "best_quote": {
+     "file": "michael-the-syrian_chronique-tome1-livres-i-vii-fra_chabot1899.txt",
+     "line": 60795,
+     "text": "A cette époque, Evagrius fut ordonné diacre par Grégoire de Nazianze."
+    }
+   }
+  },
+  "namesake_notes": "Byzantine: none; Syriac: none.",
+  "editorial_notes": "English: Hooker's running header and footnote (line 6789). Byzantine: Migne/Raderus notes, Percival's NPNF notes; Syriac: Chabot and Nau footnotes citing PG.",
+  "comment": "English reformation: S passages are Jewel (4), Hooker (2), the Injunctions (2) and Cranmer (1, a collected authority outside the letters locus). Byzantine: lines 57230 and 58126 are Facundus, 43466 is Raderus, 4736 is Cassiodorus/Hydatius-type chronicle outside the Victor locus: U/E."
+ },
+ {
+  "cid": "C074",
+  "name": "Sulpitius Severus",
+  "traditions": {
+   "merovingian-gallic-christianity": {
+    "labels": {
+     "merovingian-gallic-christianity#0": "S",
+     "merovingian-gallic-christianity#1": "E",
+     "merovingian-gallic-christianity#2": "E",
+     "merovingian-gallic-christianity#3": "E",
+     "merovingian-gallic-christianity#4": "E",
+     "merovingian-gallic-christianity#5": "E",
+     "merovingian-gallic-christianity#6": "E",
+     "merovingian-gallic-christianity#7": "E",
+     "merovingian-gallic-christianity#8": "E",
+     "merovingian-gallic-christianity#9": "E"
+    },
+    "clean_passages": 1,
+    "best_quote": {
+     "file": "gregory-tours_history-of-the-franks-v2_dalton1927.txt",
+     "line": 22352,
+     "text": "We have read three books written by Sulpicius Severus on his life."
+    }
+   },
+   "nicene-visigothic-iberia": {
+    "labels": {
+     "nicene-visigothic-iberia#0": "E",
+     "nicene-visigothic-iberia#1": "E",
+     "nicene-visigothic-iberia#2": "U",
+     "nicene-visigothic-iberia#3": "E",
+     "nicene-visigothic-iberia#4": "E",
+     "nicene-visigothic-iberia#5": "E"
+    },
+    "clean_passages": 0
+   },
+   "british-welsh-christianity": {
+    "labels": {
+     "british-welsh-christianity#0": "E",
+     "british-welsh-christianity#1": "E",
+     "british-welsh-christianity#2": "E",
+     "british-welsh-christianity#3": "E",
+     "british-welsh-christianity#4": "E"
+    },
+    "clean_passages": 0
+   }
+  },
+  "namesake_notes": "None found.",
+  "editorial_notes": "Dalton's notes to Gregory of Tours (6), MGH apparatus, Migne notes in Isidore/Leander, Ferotin's French description, Gildas/Patrick editors' notes.",
+  "comment": "Only 10 of 17 Merovingian contexts supplied. Ildefonsus line 84682 is an appended text about Ossius, labelled U."
+ },
+ {
+  "cid": "C084",
+  "name": "Juvenal",
+  "traditions": {
+   "hesychasm-and-the-palamite-synthesis": {
+    "labels": {
+     "hesychasm-and-the-palamite-synthesis#0": "U",
+     "hesychasm-and-the-palamite-synthesis#1": "N",
+     "hesychasm-and-the-palamite-synthesis#2": "N",
+     "hesychasm-and-the-palamite-synthesis#3": "U",
+     "hesychasm-and-the-palamite-synthesis#4": "U",
+     "hesychasm-and-the-palamite-synthesis#5": "U",
+     "hesychasm-and-the-palamite-synthesis#6": "U",
+     "hesychasm-and-the-palamite-synthesis#7": "U",
+     "hesychasm-and-the-palamite-synthesis#8": "U",
+     "hesychasm-and-the-palamite-synthesis#9": "U"
+    },
+    "clean_passages": 0
+   },
+   "nicene-visigothic-iberia": {
+    "labels": {
+     "nicene-visigothic-iberia#0": "N",
+     "nicene-visigothic-iberia#1": "N",
+     "nicene-visigothic-iberia#2": "N",
+     "nicene-visigothic-iberia#3": "U",
+     "nicene-visigothic-iberia#4": "N",
+     "nicene-visigothic-iberia#5": "N",
+     "nicene-visigothic-iberia#6": "N",
+     "nicene-visigothic-iberia#7": "N",
+     "nicene-visigothic-iberia#8": "N",
+     "nicene-visigothic-iberia#9": "N"
+    },
+    "clean_passages": 0
+   },
+   "armenian-cilicia": {
+    "labels": {
+     "armenian-cilicia#0": "N",
+     "armenian-cilicia#1": "E",
+     "armenian-cilicia#2": "N",
+     "armenian-cilicia#3": "E",
+     "armenian-cilicia#4": "N",
+     "armenian-cilicia#5": "E",
+     "armenian-cilicia#6": "N",
+     "armenian-cilicia#7": "E",
+     "armenian-cilicia#8": "N",
+     "armenian-cilicia#9": "N"
+    },
+    "clean_passages": 0
+   }
+  },
+  "namesake_notes": "Juvenal the poet (Isidore, Braulio), Jean Juvenal des Ursins, Juvenal of Narni-type saint lists; Juvenalis in a parlement.",
+  "editorial_notes": "Nau's introduction to the Armenian Synaxarium (PO 16), Brehaut notes, Migne notes.",
+  "comment": "Nicephorus Callistus history (Hesychasm) names Juvenal of Jerusalem repeatedly but is not the shelved author (Kallistos Katafygiotes locus): labelled U, 8 contexts. Toledo III file line 18593 is the Chalcedon signature list inside the Hispana collection, U."
+ },
+ {
+  "cid": "C094",
+  "name": "Theodoric the Great",
+  "traditions": {
+   "carolingian-reform-christianity": {
+    "labels": {
+     "carolingian-reform-christianity#0": "N",
+     "carolingian-reform-christianity#1": "N",
+     "carolingian-reform-christianity#2": "N",
+     "carolingian-reform-christianity#3": "N",
+     "carolingian-reform-christianity#4": "N",
+     "carolingian-reform-christianity#5": "N",
+     "carolingian-reform-christianity#6": "N",
+     "carolingian-reform-christianity#7": "N",
+     "carolingian-reform-christianity#8": "N",
+     "carolingian-reform-christianity#9": "N"
+    },
+    "clean_passages": 0
+   },
+   "nicene-visigothic-iberia": {
+    "labels": {
+     "nicene-visigothic-iberia#0": "U",
+     "nicene-visigothic-iberia#1": "N",
+     "nicene-visigothic-iberia#2": "N",
+     "nicene-visigothic-iberia#3": "N",
+     "nicene-visigothic-iberia#4": "U",
+     "nicene-visigothic-iberia#5": "U",
+     "nicene-visigothic-iberia#6": "N",
+     "nicene-visigothic-iberia#7": "N",
+     "nicene-visigothic-iberia#8": "U",
+     "nicene-visigothic-iberia#9": "N"
+    },
+    "clean_passages": 0
+   },
+   "roman-church-gregorian": {
+    "labels": {
+     "roman-church-gregorian#0": "N",
+     "roman-church-gregorian#1": "N",
+     "roman-church-gregorian#2": "N",
+     "roman-church-gregorian#3": "N",
+     "roman-church-gregorian#4": "N",
+     "roman-church-gregorian#5": "N",
+     "roman-church-gregorian#6": "N",
+     "roman-church-gregorian#7": "N",
+     "roman-church-gregorian#8": "N",
+     "roman-church-gregorian#9": "N"
+    },
+    "clean_passages": 0
+   }
+  },
+  "namesake_notes": "Theodoric as count/abbot/bishop (Dhuoda, Annales Bertiniani, Toledo signatures, Ildefonsus archbishops, Frankish kings Theoderic of Gregory's letters).",
+  "editorial_notes": "Bondurand notes to Dhuoda; Migne appendices.",
+  "comment": "Cassiodorus's Chronicle (Mommsen vol.) names Theodoric the Great at lines 15956, 15996, 16010 but is not the shelved Isidore text; Isidore appendix line 124418 is an appendix chronicle: all U."
+ },
+ {
+  "cid": "C104",
+  "name": "Gildas",
+  "traditions": {
+   "medieval-welsh-christianity": {
+    "labels": {
+     "medieval-welsh-christianity#0": "E",
+     "medieval-welsh-christianity#1": "E",
+     "medieval-welsh-christianity#2": "S",
+     "medieval-welsh-christianity#3": "E",
+     "medieval-welsh-christianity#4": "S",
+     "medieval-welsh-christianity#5": "E",
+     "medieval-welsh-christianity#6": "E",
+     "medieval-welsh-christianity#7": "E",
+     "medieval-welsh-christianity#8": "S",
+     "medieval-welsh-christianity#9": "E"
+    },
+    "clean_passages": 3,
+    "best_quote": {
+     "file": "rees_lives-of-the-cambro-british-saints-lat-eng_1853.txt",
+     "line": 3318,
+     "text": "quidam Brittannus egregius scolasticus, et scriptor optimus, nomine Gildas, films Cau, callidus artifex,"
+    }
+   },
+   "medieval-irish-christianity": {
+    "labels": {
+     "medieval-irish-christianity#0": "S",
+     "medieval-irish-christianity#1": "S",
+     "medieval-irish-christianity#2": "S",
+     "medieval-irish-christianity#3": "E",
+     "medieval-irish-christianity#4": "E",
+     "medieval-irish-christianity#5": "E"
+    },
+    "clean_passages": 3,
+    "best_quote": {
+     "file": "stokes_lives-of-saints-from-the-book-of-lismore-iri-eng_1890.txt",
+     "line": 20025,
+     "text": "There he found before him three sages named David, and Gildas, and Cathmael."
+    }
+   },
+   "english-old-dissent": {
+    "labels": {
+     "english-old-dissent#0": "S",
+     "english-old-dissent#1": "S",
+     "english-old-dissent#2": "N",
+     "english-old-dissent#3": "S",
+     "english-old-dissent#4": "N"
+    },
+    "clean_passages": 2,
+    "best_quote": {
+     "file": "baxter_autobiography-reliquiae-baxterianae-abridged_lloyd-thomas1925.txt",
+     "line": 6988,
+     "text": "because I imitated Gildas and Salvianus in my liberty of speech to the pastors of the churches"
+    }
+   }
+  },
+  "namesake_notes": "Gildas Salvianus (Baxter's treatise title) is a book, not the person.",
+  "editorial_notes": "Williams ab Ithel's introduction to Annales Cambriae; Rees's English summary; Stokes's notes.",
+  "comment": "Welsh: three Latin passages from Rees's Lives (Cadoc twice, David once). Irish: three mentions of one episode. Old Dissent: Baxter's two editions show the same passage once."
+ },
+ {
+  "cid": "C114",
+  "name": "Merkurios",
+  "traditions": {
+   "the-ethiopian-monastic-flowering": {
+    "labels": {
+     "the-ethiopian-monastic-flowering#0": "N",
+     "the-ethiopian-monastic-flowering#1": "N",
+     "the-ethiopian-monastic-flowering#2": "E",
+     "the-ethiopian-monastic-flowering#3": "N",
+     "the-ethiopian-monastic-flowering#4": "N",
+     "the-ethiopian-monastic-flowering#5": "N",
+     "the-ethiopian-monastic-flowering#6": "N",
+     "the-ethiopian-monastic-flowering#7": "N",
+     "the-ethiopian-monastic-flowering#8": "E",
+     "the-ethiopian-monastic-flowering#9": "N"
+    },
+    "clean_passages": 0
+   },
+   "ethiopian-christianity-gragn-to-fasilides": {
+    "labels": {
+     "ethiopian-christianity-gragn-to-fasilides#0": "N",
+     "ethiopian-christianity-gragn-to-fasilides#1": "N",
+     "ethiopian-christianity-gragn-to-fasilides#2": "N",
+     "ethiopian-christianity-gragn-to-fasilides#3": "N",
+     "ethiopian-christianity-gragn-to-fasilides#4": "N",
+     "ethiopian-christianity-gragn-to-fasilides#5": "N",
+     "ethiopian-christianity-gragn-to-fasilides#6": "N",
+     "ethiopian-christianity-gragn-to-fasilides#7": "N",
+     "ethiopian-christianity-gragn-to-fasilides#8": "N",
+     "ethiopian-christianity-gragn-to-fasilides#9": "N"
+    },
+    "clean_passages": 0
+   },
+   "zagwe-and-early-solomonic-ethiopian-christianity": {
+    "labels": {
+     "zagwe-and-early-solomonic-ethiopian-christianity#0": "N",
+     "zagwe-and-early-solomonic-ethiopian-christianity#1": "N",
+     "zagwe-and-early-solomonic-ethiopian-christianity#2": "N",
+     "zagwe-and-early-solomonic-ethiopian-christianity#3": "N",
+     "zagwe-and-early-solomonic-ethiopian-christianity#4": "N",
+     "zagwe-and-early-solomonic-ethiopian-christianity#5": "N",
+     "zagwe-and-early-solomonic-ethiopian-christianity#6": "N",
+     "zagwe-and-early-solomonic-ethiopian-christianity#7": "N",
+     "zagwe-and-early-solomonic-ethiopian-christianity#8": "N",
+     "zagwe-and-early-solomonic-ethiopian-christianity#9": "N"
+    },
+    "clean_passages": 0
+   }
+  },
+  "namesake_notes": "Mercurius the martyr (Abu Seifein), Bishop Mercurius the leper in a Virgin Mary miracle, the Mercurius of Takla Haymanot's life: none is Merkurios of Makuria.",
+  "editorial_notes": "Lists of contents and picture captions in Budge.",
+  "comment": "No clean passage."
+ },
+ {
+  "cid": "C124",
+  "name": "Flora",
+  "traditions": {
+   "the-society-of-jesus": {
+    "labels": {
+     "the-society-of-jesus#0": "N",
+     "the-society-of-jesus#1": "N",
+     "the-society-of-jesus#2": "N",
+     "the-society-of-jesus#3": "N",
+     "the-society-of-jesus#4": "N",
+     "the-society-of-jesus#5": "N",
+     "the-society-of-jesus#6": "N",
+     "the-society-of-jesus#7": "N"
+    },
+    "clean_passages": 0
+   },
+   "the-quakers-religious-society-of-friends": {
+    "labels": {
+     "the-quakers-religious-society-of-friends#0": "N",
+     "the-quakers-religious-society-of-friends#1": "N",
+     "the-quakers-religious-society-of-friends#2": "N",
+     "the-quakers-religious-society-of-friends#3": "N"
+    },
+    "clean_passages": 0
+   },
+   "philippine-catholicism": {
+    "labels": {
+     "philippine-catholicism#0": "N",
+     "philippine-catholicism#1": "N",
+     "philippine-catholicism#2": "N",
+     "philippine-catholicism#3": "N",
+     "philippine-catholicism#4": "N"
+    },
+    "clean_passages": 0
+   }
+  },
+  "namesake_notes": "Cardinal Santa Flora (Sforza), Flora de Filipinas, Dona Flora, Flora of Arkansas, the Roman goddess/courtesan Flora.",
+  "editorial_notes": "Pastells index, Thwaites notes.",
+  "comment": "No clean passage."
+ },
+ {
+  "cid": "C134",
+  "name": "Trdat",
+  "traditions": {
+   "armenian-christianity-era-8": {
+    "labels": {
+     "armenian-christianity-era-8#0": "S",
+     "armenian-christianity-era-8#1": "U",
+     "armenian-christianity-era-8#2": "S",
+     "armenian-christianity-era-8#3": "U",
+     "armenian-christianity-era-8#4": "S",
+     "armenian-christianity-era-8#5": "U",
+     "armenian-christianity-era-8#6": "S",
+     "armenian-christianity-era-8#7": "U",
+     "armenian-christianity-era-8#8": "S",
+     "armenian-christianity-era-8#9": "U"
+    },
+    "clean_passages": 5,
+    "best_quote": {
+     "file": "issaverdens_armenia-and-the-armenians-v2-ecclesiastical-history_1875.txt",
+     "line": 821,
+     "text": "When Tiridates was proclaimed king of Armenia, he proceeded to the province of"
+    }
+   },
+   "armenian-christianity-zartonk": {
+    "labels": {
+     "armenian-christianity-zartonk#0": "S",
+     "armenian-christianity-zartonk#1": "S",
+     "armenian-christianity-zartonk#2": "S",
+     "armenian-christianity-zartonk#3": "S",
+     "armenian-christianity-zartonk#4": "S",
+     "armenian-christianity-zartonk#5": "E",
+     "armenian-christianity-zartonk#6": "S",
+     "armenian-christianity-zartonk#7": "S",
+     "armenian-christianity-zartonk#8": "S",
+     "armenian-christianity-zartonk#9": "N"
+    },
+    "clean_passages": 8,
+    "best_quote": {
+     "file": "issaverdens_armenia-and-the-armenians-v2-ecclesiastical-history_1875.txt",
+     "line": 821,
+     "text": "When Tiridates was proclaimed king of Armenia, he proceeded to the province of"
+    }
+   },
+   "armenian-christianity-new-julfa": {
+    "labels": {
+     "armenian-christianity-new-julfa#0": "S",
+     "armenian-christianity-new-julfa#1": "S",
+     "armenian-christianity-new-julfa#2": "U",
+     "armenian-christianity-new-julfa#3": "U",
+     "armenian-christianity-new-julfa#4": "U",
+     "armenian-christianity-new-julfa#5": "U",
+     "armenian-christianity-new-julfa#6": "U",
+     "armenian-christianity-new-julfa#7": "U",
+     "armenian-christianity-new-julfa#8": "U",
+     "armenian-christianity-new-julfa#9": "N"
+    },
+    "clean_passages": 2,
+    "best_quote": {
+     "file": "zakaria_memoires-historiques-sur-les-sofis-fra_brosset1876.txt",
+     "line": 8754,
+     "text": "Secondement, après la conversion du puissant roi Trdat, couronné du Christ, beaucoup d’églises furent bâties"
+    }
+   }
+  },
+  "namesake_notes": "Tiridates/Trdat I the catholicos (741-764).",
+  "editorial_notes": "Issaverdens table of contents (line 1151); Brosset's chronological tables.",
+  "comment": "Era-8: Issaverdens passages are from his early chapters, outside the 18th-century locus (author same); Zakaria lines are not Abraham of Crete (U). New Julfa: Zakaria's Memoires and Cartulaire, same author."
+ },
+ {
+  "cid": "C144",
+  "name": "Valdes of Lyon",
+  "traditions": {
+   "waldensians-in-the-alps": {
+    "labels": {
+     "waldensians-in-the-alps#0": "E",
+     "waldensians-in-the-alps#1": "E",
+     "waldensians-in-the-alps#2": "S",
+     "waldensians-in-the-alps#3": "S",
+     "waldensians-in-the-alps#4": "E",
+     "waldensians-in-the-alps#5": "S",
+     "waldensians-in-the-alps#6": "S",
+     "waldensians-in-the-alps#7": "E",
+     "waldensians-in-the-alps#8": "S",
+     "waldensians-in-the-alps#9": "S"
+    },
+    "clean_passages": 6,
+    "best_quote": {
+     "file": "perrin_history-ancient-christians-valleys-alps_1847.txt",
+     "line": 1607,
+     "text": "Waldo replied, that he could not be silent in a matter of so great im- portance as was the salvation of men"
+    }
+   },
+   "the-anabaptist-movements": {
+    "labels": {
+     "the-anabaptist-movements#0": "S",
+     "the-anabaptist-movements#1": "S",
+     "the-anabaptist-movements#2": "N",
+     "the-anabaptist-movements#3": "N",
+     "the-anabaptist-movements#4": "S",
+     "the-anabaptist-movements#5": "S",
+     "the-anabaptist-movements#6": "S",
+     "the-anabaptist-movements#7": "S",
+     "the-anabaptist-movements#8": "S",
+     "the-anabaptist-movements#9": "S"
+    },
+    "clean_passages": 8,
+    "best_quote": {
+     "file": "van-braght_martyrs-mirror_sohm1886.txt",
+     "line": 38281,
+     "text": "terrified one of their number, namely, Peter Waldo, a man who was very wealthy."
+    }
+   },
+   "the-waldensian-reformed-union": {
+    "labels": {
+     "the-waldensian-reformed-union#0": "S",
+     "the-waldensian-reformed-union#1": "N",
+     "the-waldensian-reformed-union#2": "S",
+     "the-waldensian-reformed-union#3": "S",
+     "the-waldensian-reformed-union#4": "S",
+     "the-waldensian-reformed-union#5": "S",
+     "the-waldensian-reformed-union#6": "S",
+     "the-waldensian-reformed-union#7": "S",
+     "the-waldensian-reformed-union#8": "S"
+    },
+    "clean_passages": 7,
+    "best_quote": {
+     "file": "morland_history-evangelical-churches-piemont_1658.txt",
+     "line": 5563,
+     "text": "that they liad not their origimil from the faid Waldo, but that this was a meer nick-name"
+    }
+   }
+  },
+  "namesake_notes": "Valdes of Lyon is not Juan de Valdes (Crespin note); 'Waldes' in German is the genitive of forest.",
+  "editorial_notes": "Perrin's recommendatory letter, Gilly's introduction/index/essay.",
+  "comment": "Waldensian passages are Perrin's chapters and Morland's narrative (outside the documents locus; author same); Morland line 24156 is an inquisitor's letter printed by Morland, labelled S with doubt. Hutterite line 5101 dates Waldo to John XXII (wrong), clearly Waldo of Lyons."
+ },
+ {
+  "cid": "C154",
+  "name": "Johannes Tauler",
+  "traditions": {
+   "schwenckfelders": {
+    "labels": {
+     "schwenckfelders#0": "S",
+     "schwenckfelders#1": "S",
+     "schwenckfelders#2": "S",
+     "schwenckfelders#3": "S",
+     "schwenckfelders#4": "S",
+     "schwenckfelders#5": "S",
+     "schwenckfelders#6": "S",
+     "schwenckfelders#7": "S",
+     "schwenckfelders#8": "S",
+     "schwenckfelders#9": "S"
+    },
+    "clean_passages": 10,
+    "best_quote": {
+     "file": "sudermann_hohe-geistreiche-lehren-hohes-lied-deu_heyden1622.txt",
+     "line": 9745,
+     "text": "Taulerus, Je das Feür / eim Holtz grun vnd kalt / Iohan. 6. Wer Sein feuchtigteit benimpt als baldt:"
+    }
+   },
+   "family-of-love-and-spiritualists-franck-niclaes": {
+    "labels": {
+     "family-of-love-and-spiritualists-franck-niclaes#0": "S",
+     "family-of-love-and-spiritualists-franck-niclaes#1": "S",
+     "family-of-love-and-spiritualists-franck-niclaes#2": "S",
+     "family-of-love-and-spiritualists-franck-niclaes#3": "S",
+     "family-of-love-and-spiritualists-franck-niclaes#4": "S",
+     "family-of-love-and-spiritualists-franck-niclaes#5": "S",
+     "family-of-love-and-spiritualists-franck-niclaes#6": "S",
+     "family-of-love-and-spiritualists-franck-niclaes#7": "S",
+     "family-of-love-and-spiritualists-franck-niclaes#8": "S",
+     "family-of-love-and-spiritualists-franck-niclaes#9": "S"
+    },
+    "clean_passages": 10,
+    "best_quote": {
+     "file": "franck_paradoxa-deu_rab1559.txt",
+     "line": 1360,
+     "text": "Damit stimpt Taulerus in einer Predig de Trinit-vnnd"
+    }
+   },
+   "german-pietism-spener-francke-halle": {
+    "labels": {
+     "german-pietism-spener-francke-halle#0": "S",
+     "german-pietism-spener-francke-halle#1": "E",
+     "german-pietism-spener-francke-halle#2": "S",
+     "german-pietism-spener-francke-halle#3": "S",
+     "german-pietism-spener-francke-halle#4": "S",
+     "german-pietism-spener-francke-halle#5": "E"
+    },
+    "clean_passages": 4,
+    "best_quote": {
+     "file": "burk_memoir-of-bengel_walker1837.txt",
+     "line": 24162,
+     "text": "I feel more delighted at hearing such a story, than in reading Arnold or Taulerus."
+    }
+   }
+  },
+  "namesake_notes": "None.",
+  "editorial_notes": "Spener Pia Desideria Register lines (16306, 16509).",
+  "comment": "Schwenckfelder passages are marginal source tags ('Taulerus.') in Sudermann; treat as author's citations, not narrative mentions. Family of Love: Franck cites Tauler in text ten times."
+ },
+ {
+  "cid": "C164",
+  "name": "Hugo Grotius",
+  "traditions": {
+   "restoration-georgian-church-of-england": {
+    "labels": {
+     "restoration-georgian-church-of-england#0": "S",
+     "restoration-georgian-church-of-england#1": "S",
+     "restoration-georgian-church-of-england#2": "S",
+     "restoration-georgian-church-of-england#3": "S",
+     "restoration-georgian-church-of-england#4": "S",
+     "restoration-georgian-church-of-england#5": "S",
+     "restoration-georgian-church-of-england#6": "S",
+     "restoration-georgian-church-of-england#7": "S",
+     "restoration-georgian-church-of-england#8": "S",
+     "restoration-georgian-church-of-england#9": "S"
+    },
+    "clean_passages": 10,
+    "best_quote": {
+     "file": "burnet_discourse-of-the-pastoral-care_1692.txt",
+     "line": 7151,
+     "text": "is a great help to a beginner, Grotius, Ham- mond, and Lightfoot are the beft."
+    }
+   },
+   "english-old-dissent": {
+    "labels": {
+     "english-old-dissent#0": "S",
+     "english-old-dissent#1": "S",
+     "english-old-dissent#2": "E",
+     "english-old-dissent#3": "S",
+     "english-old-dissent#4": "S",
+     "english-old-dissent#5": "E",
+     "english-old-dissent#6": "S",
+     "english-old-dissent#7": "E",
+     "english-old-dissent#8": "E",
+     "english-old-dissent#9": "S"
+    },
+    "clean_passages": 6,
+    "best_quote": {
+     "file": "baxter_reliquiae-baxterianae_sylvester1696.txt",
+     "line": 13099,
+     "text": "Grotius in hisComwentary on the Adls, in divers places,and particularly cap. 17. faith, That as in every particular Synagogue"
+    }
+   },
+   "the-quakers-religious-society-of-friends": {
+    "labels": {
+     "the-quakers-religious-society-of-friends#0": "U",
+     "the-quakers-religious-society-of-friends#1": "S",
+     "the-quakers-religious-society-of-friends#2": "U",
+     "the-quakers-religious-society-of-friends#3": "E",
+     "the-quakers-religious-society-of-friends#4": "U",
+     "the-quakers-religious-society-of-friends#5": "S",
+     "the-quakers-religious-society-of-friends#6": "U"
+    },
+    "clean_passages": 2,
+    "best_quote": {
+     "file": "penn_no-cross-no-crown_harvey-darton1842.txt",
+     "line": 10762,
+     "text": "XXIV. Hugo Grotius, than whom these latter ages think they have not had a man of more universal knowledge,"
+    }
+   }
+  },
+  "namesake_notes": "None.",
+  "editorial_notes": "Calamy: all contexts are Rutt's notes. Baxter abridged editor's note (line 16330). Penn's contents list (line 10315).",
+  "comment": "Quakers: Fell's volume lines 21205-21476 belong to a non-Quaker Baptist-controversy tract, labelled U. Old Dissent: abridged and 1696 may overlap."
+ }
+]
