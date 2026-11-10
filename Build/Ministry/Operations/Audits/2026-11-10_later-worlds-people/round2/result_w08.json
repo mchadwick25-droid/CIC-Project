@@ -1,0 +1,639 @@
+[
+ {
+  "cid": "C018",
+  "name": "Basilides",
+  "traditions": {
+   "roman-church-third-century": {
+    "labels": {
+     "roman-church-third-century#r2-0": "E",
+     "roman-church-third-century#r2-1": "E",
+     "roman-church-third-century#r2-2": "S",
+     "roman-church-third-century#r2-3": "S",
+     "roman-church-third-century#r2-4": "E",
+     "roman-church-third-century#r2-5": "S",
+     "roman-church-third-century#r2-6": "E",
+     "roman-church-third-century#r2-7": "E",
+     "roman-church-third-century#r2-8": "S",
+     "roman-church-third-century#r2-9": "S",
+     "roman-church-third-century#r2-10": "E",
+     "roman-church-third-century#r2-11": "S",
+     "roman-church-third-century#r2-12": "E",
+     "roman-church-third-century#r2-13": "S",
+     "roman-church-third-century#r2-14": "E"
+    },
+    "clean_passages": 7,
+    "clean_refs": [
+     "anf05_hippolytus-cyprian-caius-novatian.xml:10886",
+     "anf05_hippolytus-cyprian-caius-novatian.xml:11085",
+     "anf05_hippolytus-cyprian-caius-novatian.xml:11104",
+     "anf05_hippolytus-cyprian-caius-novatian.xml:11197",
+     "anf05_hippolytus-cyprian-caius-novatian.xml:11231",
+     "anf05_hippolytus-cyprian-caius-novatian.xml:11324",
+     "anf05_hippolytus-cyprian-caius-novatian.xml:11380"
+    ],
+    "best_quote": {
+     "file": "anf05_hippolytus-cyprian-caius-novatian.xml",
+     "line": 11379,
+     "text": "Basilides elucidates as applied to the Great Archon and his Son."
+    }
+   },
+   "montanism-the-new-prophecy": {
+    "labels": {
+     "montanism-the-new-prophecy#r2-0": "E",
+     "montanism-the-new-prophecy#r2-1": "E",
+     "montanism-the-new-prophecy#r2-2": "S",
+     "montanism-the-new-prophecy#r2-3": "S",
+     "montanism-the-new-prophecy#r2-4": "E",
+     "montanism-the-new-prophecy#r2-5": "S",
+     "montanism-the-new-prophecy#r2-6": "E",
+     "montanism-the-new-prophecy#r2-7": "E",
+     "montanism-the-new-prophecy#r2-8": "S",
+     "montanism-the-new-prophecy#r2-9": "S",
+     "montanism-the-new-prophecy#r2-10": "E",
+     "montanism-the-new-prophecy#r2-11": "S",
+     "montanism-the-new-prophecy#r2-12": "E",
+     "montanism-the-new-prophecy#r2-13": "S",
+     "montanism-the-new-prophecy#r2-14": "E"
+    },
+    "clean_passages": 7,
+    "clean_refs": [
+     "anf05_hippolytus-cyprian-caius-novatian.xml:10886",
+     "anf05_hippolytus-cyprian-caius-novatian.xml:11085",
+     "anf05_hippolytus-cyprian-caius-novatian.xml:11104",
+     "anf05_hippolytus-cyprian-caius-novatian.xml:11197",
+     "anf05_hippolytus-cyprian-caius-novatian.xml:11231",
+     "anf05_hippolytus-cyprian-caius-novatian.xml:11324",
+     "anf05_hippolytus-cyprian-caius-novatian.xml:11380"
+    ],
+    "best_quote": {
+     "file": "anf05_hippolytus-cyprian-caius-novatian.xml",
+     "line": 11379,
+     "text": "Basilides elucidates as applied to the Great Archon and his Son."
+    }
+   }
+  },
+  "namesake_notes": "Not searched further than the shelves needed. Hippolytus's Refutation Book VII names the heresiarch Basilides; no namesake in these contexts.",
+  "editorial_notes": "Chapter headings and book synopsis lines added by the ANF editor counted E (contexts 0,1,4,6,7,10,12,14 in the two Hippolytus traditions).",
+  "comment": "Roman-church and Montanism both shelve Hippolytus Refutation (div2 3.3) and both reach 7 clean passages; Book VII (file line 10763+) is inside div2 3.3, none of the S passages sits in a note. Latin-apologists and Latin-pastoral not re-checked (stop early).",
+  "passes": true
+ },
+ {
+  "cid": "C038",
+  "name": "Mani",
+  "traditions": {
+   "cappadocian-nicene-pastoral-monastic-tradition": {
+    "labels": {
+     "cappadocian-nicene-pastoral-monastic-tradition#r2-0": "U",
+     "cappadocian-nicene-pastoral-monastic-tradition#r2-1": "S",
+     "cappadocian-nicene-pastoral-monastic-tradition#r2-2": "U",
+     "cappadocian-nicene-pastoral-monastic-tradition#r2-3": "E",
+     "cappadocian-nicene-pastoral-monastic-tradition#r2-4": "U",
+     "cappadocian-nicene-pastoral-monastic-tradition#r2-5": "S",
+     "cappadocian-nicene-pastoral-monastic-tradition#r2-6": "U",
+     "cappadocian-nicene-pastoral-monastic-tradition#r2-7": "S",
+     "cappadocian-nicene-pastoral-monastic-tradition#r2-8": "U",
+     "cappadocian-nicene-pastoral-monastic-tradition#r2-9": "S",
+     "cappadocian-nicene-pastoral-monastic-tradition#r2-10": "U",
+     "cappadocian-nicene-pastoral-monastic-tradition#r2-11": "S",
+     "cappadocian-nicene-pastoral-monastic-tradition#r2-12": "U",
+     "cappadocian-nicene-pastoral-monastic-tradition#r2-13": "E",
+     "cappadocian-nicene-pastoral-monastic-tradition#r2-14": "U"
+    },
+    "clean_passages": 5,
+    "clean_refs": [
+     "npnf205_gregory-nyssa-dogmatic-treatises.txt:7228",
+     "npnf205_gregory-nyssa-dogmatic-treatises.txt:20562",
+     "npnf205_gregory-nyssa-dogmatic-treatises.txt:21100",
+     "npnf205_gregory-nyssa-dogmatic-treatises.txt:21204",
+     "npnf205_gregory-nyssa-dogmatic-treatises.txt:40066"
+    ],
+    "best_quote": {
+     "file": "npnf205_gregory-nyssa-dogmatic-treatises.txt",
+     "line": 20561,
+     "text": "enemy of Christ wishes to press the conception of the Only-begotten, becoming thereby to the Church another Manes or Bardesanes."
+    }
+   }
+  },
+  "namesake_notes": "Acta Archelai (Manes, Archelaus) in the Gregory Thaumaturgus ANF file is a different work from the three shelved pieces, so U; 'Manichaeus' in Gregory of Nyssa counted as the founder.",
+  "editorial_notes": "Nyssa context 3 is the NPNF editor's section summary (E); context 13 is a numbered NPNF footnote (E).",
+  "comment": "Cappadocian reaches 5 in Gregory of Nyssa: Against Eunomius (lines 7228, 20562, 21100, 21204) and On the Soul and the Resurrection (40066, between its heading at 38083 and the Great Catechism at 42016). Society of Jesus, Cyrilline and Syriac not labelled (stop early).",
+  "passes": true
+ },
+ {
+  "cid": "C051",
+  "name": "Hilarion of Gaza",
+  "traditions": {
+   "the-tridentine-church": {
+    "labels": {
+     "the-tridentine-church#r2-0": "U",
+     "the-tridentine-church#r2-1": "S",
+     "the-tridentine-church#r2-2": "S",
+     "the-tridentine-church#r2-3": "S",
+     "the-tridentine-church#r2-4": "N",
+     "the-tridentine-church#r2-5": "S",
+     "the-tridentine-church#r2-6": "S",
+     "the-tridentine-church#r2-7": "U",
+     "the-tridentine-church#r2-8": "S",
+     "the-tridentine-church#r2-9": "S",
+     "the-tridentine-church#r2-10": "U"
+    },
+    "clean_passages": 6,
+    "clean_refs": [
+     "bacci_life-of-st-philip-neri-v1_faber1847.txt:11597",
+     "bellarmine_eternal-happiness-of-the-saints_dalton.txt:7023",
+     "luis-de-granada_of-prayer-and-meditation_hopkins1582.txt:20436",
+     "roman-breviary_bute1908.txt:75069",
+     "roman-breviary_bute1908.txt:80570",
+     "roman-breviary_bute1908.txt:80822"
+    ],
+    "best_quote": {
+     "file": "bellarmine_eternal-happiness-of-the-saints_dalton.txt",
+     "line": 7022,
+     "text": "This St. Jerome relates of the body of St. Hilarion, for he affirms that ten months after his burial his body was found perfect"
+    }
+   }
+  },
+  "namesake_notes": "Context 4 (Propaganda Fide) is Hilarion monachus, a Greek writer in Leo Allatius, so N. Hilarion of Gaza otherwise.",
+  "editorial_notes": "Calendar table line 2454 left U; Breviary rubric lines 80618 and 80864 left U.",
+  "comment": "Tridentine reaches 6: Bacci (Jerome on Hilarion), Bellarmine, Granada, and the Roman Breviary Martyrology (lines 75069 and 80570) and Lesson (80806/80822, one passage). The Breviary file is one whole volume that includes the Martyrology. Russian, Byzantine not labelled (stop early).",
+  "passes": true
+ },
+ {
+  "cid": "C063",
+  "name": "Rufinus of Aquileia",
+  "traditions": {
+   "byzantine-imperial-church-justinianic": {
+    "labels": {
+     "byzantine-imperial-church-justinianic#r2-0": "N",
+     "byzantine-imperial-church-justinianic#r2-1": "N",
+     "byzantine-imperial-church-justinianic#r2-2": "N",
+     "byzantine-imperial-church-justinianic#r2-3": "N",
+     "byzantine-imperial-church-justinianic#r2-4": "N",
+     "byzantine-imperial-church-justinianic#r2-5": "N",
+     "byzantine-imperial-church-justinianic#r2-6": "N",
+     "byzantine-imperial-church-justinianic#r2-7": "N",
+     "byzantine-imperial-church-justinianic#r2-8": "N",
+     "byzantine-imperial-church-justinianic#r2-9": "N",
+     "byzantine-imperial-church-justinianic#r2-10": "N",
+     "byzantine-imperial-church-justinianic#r2-11": "N",
+     "byzantine-imperial-church-justinianic#r2-12": "N",
+     "byzantine-imperial-church-justinianic#r2-13": "N",
+     "byzantine-imperial-church-justinianic#r2-14": "N"
+    },
+    "clean_passages": 0
+   },
+   "syriac-orthodox-west-syriac-christianity": {
+    "labels": {
+     "syriac-orthodox-west-syriac-christianity#r2-0": "N",
+     "syriac-orthodox-west-syriac-christianity#r2-1": "N",
+     "syriac-orthodox-west-syriac-christianity#r2-2": "S",
+     "syriac-orthodox-west-syriac-christianity#r2-3": "N",
+     "syriac-orthodox-west-syriac-christianity#r2-4": "N",
+     "syriac-orthodox-west-syriac-christianity#r2-5": "N",
+     "syriac-orthodox-west-syriac-christianity#r2-6": "N",
+     "syriac-orthodox-west-syriac-christianity#r2-7": "N",
+     "syriac-orthodox-west-syriac-christianity#r2-8": "N",
+     "syriac-orthodox-west-syriac-christianity#r2-9": "N",
+     "syriac-orthodox-west-syriac-christianity#r2-10": "N",
+     "syriac-orthodox-west-syriac-christianity#r2-11": "N",
+     "syriac-orthodox-west-syriac-christianity#r2-12": "N",
+     "syriac-orthodox-west-syriac-christianity#r2-13": "N",
+     "syriac-orthodox-west-syriac-christianity#r2-14": "N"
+    },
+    "clean_passages": 1,
+    "best_quote": {
+     "file": "michael-the-syrian_chronique-tome1-livres-i-vii-fra_chabot1899.txt",
+     "line": 60469,
+     "text": "du grand Basile et de Grégoire fut tra- duite en langue latine par Rufinus."
+    }
+   },
+   "franciscan-order-era-6": {
+    "labels": {
+     "franciscan-order-era-6#r2-0": "N",
+     "franciscan-order-era-6#r2-1": "N",
+     "franciscan-order-era-6#r2-2": "N",
+     "franciscan-order-era-6#r2-3": "N",
+     "franciscan-order-era-6#r2-4": "N",
+     "franciscan-order-era-6#r2-5": "N",
+     "franciscan-order-era-6#r2-6": "N",
+     "franciscan-order-era-6#r2-7": "N",
+     "franciscan-order-era-6#r2-8": "N",
+     "franciscan-order-era-6#r2-9": "N",
+     "franciscan-order-era-6#r2-10": "N",
+     "franciscan-order-era-6#r2-11": "N",
+     "franciscan-order-era-6#r2-12": "N",
+     "franciscan-order-era-6#r2-13": "N",
+     "franciscan-order-era-6#r2-14": "N"
+    },
+    "clean_passages": 0
+   },
+   "fraticelli-spiritual-franciscan-rigorists": {
+    "labels": {
+     "fraticelli-spiritual-franciscan-rigorists#r2-0": "N",
+     "fraticelli-spiritual-franciscan-rigorists#r2-1": "N",
+     "fraticelli-spiritual-franciscan-rigorists#r2-2": "N",
+     "fraticelli-spiritual-franciscan-rigorists#r2-3": "N",
+     "fraticelli-spiritual-franciscan-rigorists#r2-4": "N",
+     "fraticelli-spiritual-franciscan-rigorists#r2-5": "N",
+     "fraticelli-spiritual-franciscan-rigorists#r2-6": "N",
+     "fraticelli-spiritual-franciscan-rigorists#r2-7": "N",
+     "fraticelli-spiritual-franciscan-rigorists#r2-8": "N",
+     "fraticelli-spiritual-franciscan-rigorists#r2-9": "N",
+     "fraticelli-spiritual-franciscan-rigorists#r2-10": "N",
+     "fraticelli-spiritual-franciscan-rigorists#r2-11": "N",
+     "fraticelli-spiritual-franciscan-rigorists#r2-12": "N",
+     "fraticelli-spiritual-franciscan-rigorists#r2-13": "N",
+     "fraticelli-spiritual-franciscan-rigorists#r2-14": "N"
+    },
+    "clean_passages": 0
+   }
+  },
+  "namesake_notes": "Almost every hit is a namesake: Rufinus bishop of Samosata/Neocaesarea, consuls, Arcadius's minister, the envoy Rufinus, the pagan Rufinus of Edessa, and Brother Rufino of the Franciscan Actus and Speculum.",
+  "editorial_notes": "None counted.",
+  "comment": "Only S in the supplied contexts is Michael the Syrian vol. 1 line 60470 (Basil and Gregory translated by Rufinus). Quote is from that one passage. No tradition near 5, passes is false.",
+  "passes": false
+ },
+ {
+  "cid": "C081",
+  "name": "Theodoret of Cyrrhus",
+  "traditions": {
+   "byzantine-imperial-church-justinianic": {
+    "labels": {
+     "byzantine-imperial-church-justinianic#r2-0": "E",
+     "byzantine-imperial-church-justinianic#r2-1": "E",
+     "byzantine-imperial-church-justinianic#r2-2": "E",
+     "byzantine-imperial-church-justinianic#r2-3": "S",
+     "byzantine-imperial-church-justinianic#r2-4": "S",
+     "byzantine-imperial-church-justinianic#r2-5": "E",
+     "byzantine-imperial-church-justinianic#r2-6": "E",
+     "byzantine-imperial-church-justinianic#r2-7": "E",
+     "byzantine-imperial-church-justinianic#r2-8": "E",
+     "byzantine-imperial-church-justinianic#r2-9": "E",
+     "byzantine-imperial-church-justinianic#r2-10": "E",
+     "byzantine-imperial-church-justinianic#r2-11": "S",
+     "byzantine-imperial-church-justinianic#r2-12": "U",
+     "byzantine-imperial-church-justinianic#r2-13": "E",
+     "byzantine-imperial-church-justinianic#r2-14": "U"
+    },
+    "clean_passages": 6,
+    "clean_refs": [
+     "evagrius-scholasticus_ecclesiastical-history_walford1846.txt:1963",
+     "evagrius-scholasticus_ecclesiastical-history_walford1846.txt:3350",
+     "evagrius-scholasticus_ecclesiastical-history_walford1846.txt:1109",
+     "evagrius-scholasticus_ecclesiastical-history_walford1846.txt:1786",
+     "evagrius-scholasticus_ecclesiastical-history_walford1846.txt:4378",
+     "evagrius-scholasticus_ecclesiastical-history_walford1846.txt:5242"
+    ],
+    "best_quote": {
+     "file": "evagrius-scholasticus_ecclesiastical-history_walford1846.txt",
+     "line": 1962,
+     "text": "and an eloquent record by Theodoret, bishop of Cyrus: though they have omitted a circumstance in particular"
+    }
+   },
+   "latin-africa-under-byzantium": {
+    "labels": {
+     "latin-africa-under-byzantium#r2-0": "E",
+     "latin-africa-under-byzantium#r2-1": "E",
+     "latin-africa-under-byzantium#r2-2": "U",
+     "latin-africa-under-byzantium#r2-3": "E",
+     "latin-africa-under-byzantium#r2-4": "E",
+     "latin-africa-under-byzantium#r2-5": "E",
+     "latin-africa-under-byzantium#r2-6": "E",
+     "latin-africa-under-byzantium#r2-7": "S",
+     "latin-africa-under-byzantium#r2-8": "E",
+     "latin-africa-under-byzantium#r2-9": "S",
+     "latin-africa-under-byzantium#r2-10": "E",
+     "latin-africa-under-byzantium#r2-11": "S",
+     "latin-africa-under-byzantium#r2-12": "E",
+     "latin-africa-under-byzantium#r2-13": "S",
+     "latin-africa-under-byzantium#r2-14": "E"
+    },
+    "clean_passages": 4
+   },
+   "syriac-orthodox-west-syriac-christianity": {
+    "labels": {
+     "syriac-orthodox-west-syriac-christianity#r2-0": "S",
+     "syriac-orthodox-west-syriac-christianity#r2-1": "S",
+     "syriac-orthodox-west-syriac-christianity#r2-2": "E",
+     "syriac-orthodox-west-syriac-christianity#r2-3": "E",
+     "syriac-orthodox-west-syriac-christianity#r2-4": "S",
+     "syriac-orthodox-west-syriac-christianity#r2-5": "E",
+     "syriac-orthodox-west-syriac-christianity#r2-6": "S",
+     "syriac-orthodox-west-syriac-christianity#r2-7": "S",
+     "syriac-orthodox-west-syriac-christianity#r2-8": "S",
+     "syriac-orthodox-west-syriac-christianity#r2-9": "S",
+     "syriac-orthodox-west-syriac-christianity#r2-10": "E",
+     "syriac-orthodox-west-syriac-christianity#r2-11": "E",
+     "syriac-orthodox-west-syriac-christianity#r2-12": "E",
+     "syriac-orthodox-west-syriac-christianity#r2-13": "S",
+     "syriac-orthodox-west-syriac-christianity#r2-14": "S"
+    },
+    "clean_passages": 9,
+    "clean_refs": [
+     "zachariah-rhetor_chronicle_hamiltonbrooks1899.txt:1058",
+     "michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt:1880",
+     "zacharias-scholasticus_vie-de-severe-po2-syr-fra_kugener1903.txt:21099",
+     "life-of-peter-the-iberian_petrus-der-iberer-deu_raabe1895.txt:2776",
+     "severus-of-antioch_select-letters-book6-part2_brooks1904.txt:5017",
+     "zachariah-rhetor_chronicle_hamiltonbrooks1899.txt:1300",
+     "michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt:2608",
+     "zachariah-rhetor_chronicle_hamiltonbrooks1899.txt:2211",
+     "michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt:2868"
+    ],
+    "best_quote": {
+     "file": "severus-of-antioch_select-letters-book6-part2_brooks1904.txt",
+     "line": 5013,
+     "text": "Because the unholy Nestorians, whose leader was Theodoret, wished to snatch for themselves the"
+    }
+   },
+   "merovingian-gallic-christianity": {
+    "labels": {
+     "merovingian-gallic-christianity#r2-0": "E",
+     "merovingian-gallic-christianity#r2-1": "E",
+     "merovingian-gallic-christianity#r2-2": "E",
+     "merovingian-gallic-christianity#r2-3": "E",
+     "merovingian-gallic-christianity#r2-4": "E",
+     "merovingian-gallic-christianity#r2-5": "E",
+     "merovingian-gallic-christianity#r2-6": "E",
+     "merovingian-gallic-christianity#r2-7": "E",
+     "merovingian-gallic-christianity#r2-8": "E",
+     "merovingian-gallic-christianity#r2-9": "E",
+     "merovingian-gallic-christianity#r2-10": "E",
+     "merovingian-gallic-christianity#r2-11": "U",
+     "merovingian-gallic-christianity#r2-12": "E",
+     "merovingian-gallic-christianity#r2-13": "U",
+     "merovingian-gallic-christianity#r2-14": "E"
+    },
+    "clean_passages": 0
+   }
+  },
+  "namesake_notes": "Theodoretus of Alabanda in the Codex Encyclius list and bishop lists were not counted; all S passages are Theodoret of Cyrrhus.",
+  "editorial_notes": "Migne and Mansi notes, Kihn's German study, NPNF headings, index lines and Bar Hebraeus 'Cfr.' notes counted E. Facundus line 50130 is a footnote or margin note (E).",
+  "comment": "Only 2 Byzantine S passages are in the supplied contexts (Evagrius 1963/2706 and 3350); I read Evagrius's file and added lines 1109, 1786, 4378, 5242, all in his own narrative, giving 6. Latin-africa reaches only 4 in the supplied contexts (Facundus 50161, 50165, 50171, 50178, one paragraph) so is not counted at 5. Syriac has 9. Merovingian contexts are all editorial notes. Passes rests on Byzantine (extended by file reading) plus Syriac.",
+  "passes": true
+ },
+ {
+  "cid": "C101",
+  "name": "Menas",
+  "traditions": {
+   "coptic-christianity-under-early-islam": {
+    "labels": {
+     "coptic-christianity-under-early-islam#r2-0": "N",
+     "coptic-christianity-under-early-islam#r2-1": "N",
+     "coptic-christianity-under-early-islam#r2-2": "N",
+     "coptic-christianity-under-early-islam#r2-3": "N",
+     "coptic-christianity-under-early-islam#r2-4": "N",
+     "coptic-christianity-under-early-islam#r2-5": "N",
+     "coptic-christianity-under-early-islam#r2-6": "N",
+     "coptic-christianity-under-early-islam#r2-7": "N",
+     "coptic-christianity-under-early-islam#r2-8": "N",
+     "coptic-christianity-under-early-islam#r2-9": "N",
+     "coptic-christianity-under-early-islam#r2-10": "N",
+     "coptic-christianity-under-early-islam#r2-11": "N",
+     "coptic-christianity-under-early-islam#r2-12": "N",
+     "coptic-christianity-under-early-islam#r2-13": "N",
+     "coptic-christianity-under-early-islam#r2-14": "N"
+    },
+    "clean_passages": 0
+   },
+   "the-ethiopian-monastic-flowering": {
+    "labels": {
+     "the-ethiopian-monastic-flowering#r2-0": "N",
+     "the-ethiopian-monastic-flowering#r2-1": "N",
+     "the-ethiopian-monastic-flowering#r2-2": "N",
+     "the-ethiopian-monastic-flowering#r2-3": "N"
+    },
+    "clean_passages": 0
+   },
+   "coptic-christianity-fatimid-to-mamluk": {
+    "labels": {
+     "coptic-christianity-fatimid-to-mamluk#r2-0": "N",
+     "coptic-christianity-fatimid-to-mamluk#r2-1": "N",
+     "coptic-christianity-fatimid-to-mamluk#r2-2": "N",
+     "coptic-christianity-fatimid-to-mamluk#r2-3": "N"
+    },
+    "clean_passages": 0
+   },
+   "the-tridentine-church": {
+    "labels": {
+     "the-tridentine-church#r2-0": "N",
+     "the-tridentine-church#r2-1": "N",
+     "the-tridentine-church#r2-2": "N",
+     "the-tridentine-church#r2-3": "N",
+     "the-tridentine-church#r2-4": "N",
+     "the-tridentine-church#r2-5": "N",
+     "the-tridentine-church#r2-6": "N"
+    },
+    "clean_passages": 0
+   }
+  },
+  "namesake_notes": "Mennas/Mennas of many people: the Egyptian soldier-martyr, a Samnian hermit, Coptic priest and bishops, a Coptic saint drowned under Heraclius, the Missal commemoration. None is the patriarch of Constantinople.",
+  "editorial_notes": "None counted.",
+  "comment": "All supplied contexts are N. Round 1 found one S for coptic-christianity-under-early-islam (HoP line on the patriarch Mennas ordaining Paul of Tinnis), not in this set. Passes is false.",
+  "passes": false
+ },
+ {
+  "cid": "C126",
+  "name": "Photius",
+  "traditions": {
+   "russian-church-nikon-to-holy-synod": {
+    "labels": {
+     "russian-church-nikon-to-holy-synod#r2-0": "E",
+     "russian-church-nikon-to-holy-synod#r2-1": "S",
+     "russian-church-nikon-to-holy-synod#r2-2": "E",
+     "russian-church-nikon-to-holy-synod#r2-3": "S",
+     "russian-church-nikon-to-holy-synod#r2-4": "E",
+     "russian-church-nikon-to-holy-synod#r2-5": "S",
+     "russian-church-nikon-to-holy-synod#r2-6": "E",
+     "russian-church-nikon-to-holy-synod#r2-7": "S",
+     "russian-church-nikon-to-holy-synod#r2-8": "E",
+     "russian-church-nikon-to-holy-synod#r2-9": "S",
+     "russian-church-nikon-to-holy-synod#r2-10": "E",
+     "russian-church-nikon-to-holy-synod#r2-11": "E",
+     "russian-church-nikon-to-holy-synod#r2-12": "E",
+     "russian-church-nikon-to-holy-synod#r2-13": "U",
+     "russian-church-nikon-to-holy-synod#r2-14": "E"
+    },
+    "clean_passages": 4,
+    "best_quote": {
+     "file": "ligarides_history-of-the-condemnation-of-patriarch-nikon_palmer1873.txt",
+     "line": 10127,
+     "text": "And so Photius also, in his work respecting the seven councils, has affirmed, saying,"
+    }
+   },
+   "byzantine-church-palaiologan": {
+    "labels": {
+     "byzantine-church-palaiologan#r2-0": "E",
+     "byzantine-church-palaiologan#r2-1": "E",
+     "byzantine-church-palaiologan#r2-2": "E",
+     "byzantine-church-palaiologan#r2-3": "S",
+     "byzantine-church-palaiologan#r2-4": "U",
+     "byzantine-church-palaiologan#r2-5": "E",
+     "byzantine-church-palaiologan#r2-6": "E",
+     "byzantine-church-palaiologan#r2-7": "S",
+     "byzantine-church-palaiologan#r2-8": "U",
+     "byzantine-church-palaiologan#r2-9": "E",
+     "byzantine-church-palaiologan#r2-10": "E",
+     "byzantine-church-palaiologan#r2-11": "S",
+     "byzantine-church-palaiologan#r2-12": "U",
+     "byzantine-church-palaiologan#r2-13": "E",
+     "byzantine-church-palaiologan#r2-14": "N"
+    },
+    "clean_passages": 3
+   },
+   "russian-church-synodal-century": {
+    "labels": {
+     "russian-church-synodal-century#r2-0": "S",
+     "russian-church-synodal-century#r2-1": "N",
+     "russian-church-synodal-century#r2-2": "N",
+     "russian-church-synodal-century#r2-3": "N",
+     "russian-church-synodal-century#r2-4": "N",
+     "russian-church-synodal-century#r2-5": "N",
+     "russian-church-synodal-century#r2-6": "N",
+     "russian-church-synodal-century#r2-7": "N",
+     "russian-church-synodal-century#r2-8": "E",
+     "russian-church-synodal-century#r2-9": "E",
+     "russian-church-synodal-century#r2-10": "E",
+     "russian-church-synodal-century#r2-11": "E",
+     "russian-church-synodal-century#r2-12": "E",
+     "russian-church-synodal-century#r2-13": "E",
+     "russian-church-synodal-century#r2-14": "E"
+    },
+    "clean_passages": 1,
+    "best_quote": {
+     "file": "mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
+     "line": 902,
+     "text": "the illustrious Photius. l St. Cyrill and St. Methodius, two learned Greek brothers, translated into the Slavonic"
+    }
+   },
+   "hesychasm-and-the-palamite-synthesis": {
+    "labels": {
+     "hesychasm-and-the-palamite-synthesis#r2-0": "E",
+     "hesychasm-and-the-palamite-synthesis#r2-1": "U",
+     "hesychasm-and-the-palamite-synthesis#r2-2": "E",
+     "hesychasm-and-the-palamite-synthesis#r2-3": "U",
+     "hesychasm-and-the-palamite-synthesis#r2-4": "U",
+     "hesychasm-and-the-palamite-synthesis#r2-5": "U",
+     "hesychasm-and-the-palamite-synthesis#r2-6": "U",
+     "hesychasm-and-the-palamite-synthesis#r2-7": "U",
+     "hesychasm-and-the-palamite-synthesis#r2-8": "U",
+     "hesychasm-and-the-palamite-synthesis#r2-9": "U",
+     "hesychasm-and-the-palamite-synthesis#r2-10": "U"
+    },
+    "clean_passages": 0
+   }
+  },
+  "namesake_notes": "Photius metropolitan of Moscow throughout the Mouravieff main-text hits (N); Photius is also named in Syropoulos's Latin text as 'Photius Russiae Metropolitanus' (N).",
+  "editorial_notes": "Palmer's preface, notes and supplements, Creyghton's Latin preface and notes, Mouravieff's translator's Notes (file line 15346 on), Bessarion and Calecas Latin notes counted E.",
+  "comment": "Nikon tradition has 4 clean passages (Ligarides' history proper); context 22831 sits inside a Palmer supplement and is U, 11770 is Palmer's note. Palaiologan 3 (Mammas's Apology). No tradition reaches 5. Passes is false.",
+  "passes": false
+ },
+ {
+  "cid": "C154",
+  "name": "Johannes Tauler",
+  "traditions": {
+   "schwenckfelders": {
+    "labels": {
+     "schwenckfelders#r2-0": "S",
+     "schwenckfelders#r2-1": "S",
+     "schwenckfelders#r2-2": "S",
+     "schwenckfelders#r2-3": "S",
+     "schwenckfelders#r2-4": "S",
+     "schwenckfelders#r2-5": "S",
+     "schwenckfelders#r2-6": "S",
+     "schwenckfelders#r2-7": "S",
+     "schwenckfelders#r2-8": "S",
+     "schwenckfelders#r2-9": "S",
+     "schwenckfelders#r2-10": "S",
+     "schwenckfelders#r2-11": "S",
+     "schwenckfelders#r2-12": "S",
+     "schwenckfelders#r2-13": "S",
+     "schwenckfelders#r2-14": "S",
+     "schwenckfelders#r2-15": "S",
+     "schwenckfelders#r2-16": "S",
+     "schwenckfelders#r2-17": "S",
+     "schwenckfelders#r2-18": "S",
+     "schwenckfelders#r2-19": "S",
+     "schwenckfelders#r2-20": "S",
+     "schwenckfelders#r2-21": "S",
+     "schwenckfelders#r2-22": "S",
+     "schwenckfelders#r2-23": "S",
+     "schwenckfelders#r2-24": "S"
+    },
+    "clean_passages": 25,
+    "clean_refs": [
+     "sudermann_hohe-geistreiche-lehren-hohes-lied-deu_heyden1622.txt:359",
+     "sudermann_hohe-geistreiche-lehren-hohes-lied-deu_heyden1622.txt:2895",
+     "sudermann_hohe-geistreiche-lehren-hohes-lied-deu_heyden1622.txt:4320",
+     "sudermann_hohe-geistreiche-lehren-hohes-lied-deu_heyden1622.txt:9745",
+     "sudermann_hohe-geistreiche-lehren-hohes-lied-deu_heyden1622.txt:9846",
+     "sudermann_hohe-geistreiche-lehren-hohes-lied-deu_heyden1622.txt:10404",
+     "sudermann_hohe-geistreiche-lehren-hohes-lied-deu_heyden1622.txt:11030",
+     "sudermann_hohe-geistreiche-lehren-hohes-lied-deu_heyden1622.txt:12649",
+     "sudermann_hohe-geistreiche-lehren-hohes-lied-deu_heyden1622.txt:13455",
+     "sudermann_hohe-geistreiche-lehren-hohes-lied-deu_heyden1622.txt:13823",
+     "sudermann_hohe-geistreiche-lehren-hohes-lied-deu_heyden1622.txt:2263",
+     "sudermann_hohe-geistreiche-lehren-hohes-lied-deu_heyden1622.txt:3029",
+     "sudermann_hohe-geistreiche-lehren-hohes-lied-deu_heyden1622.txt:4484",
+     "sudermann_hohe-geistreiche-lehren-hohes-lied-deu_heyden1622.txt:9778",
+     "sudermann_hohe-geistreiche-lehren-hohes-lied-deu_heyden1622.txt:10091",
+     "sudermann_hohe-geistreiche-lehren-hohes-lied-deu_heyden1622.txt:10765",
+     "sudermann_hohe-geistreiche-lehren-hohes-lied-deu_heyden1622.txt:11603",
+     "sudermann_hohe-geistreiche-lehren-hohes-lied-deu_heyden1622.txt:12979",
+     "sudermann_hohe-geistreiche-lehren-hohes-lied-deu_heyden1622.txt:13646",
+     "sudermann_hohe-geistreiche-lehren-hohes-lied-deu_heyden1622.txt:14227",
+     "sudermann_hohe-geistreiche-lehren-hohes-lied-deu_heyden1622.txt:14479",
+     "sudermann_hohe-geistreiche-lehren-hohes-lied-deu_heyden1622.txt:14811",
+     "sudermann_hohe-geistreiche-lehren-hohes-lied-deu_heyden1622.txt:15823",
+     "sudermann_hohe-geistreiche-lehren-hohes-lied-deu_heyden1622.txt:15947",
+     "sudermann_hohe-geistreiche-lehren-hohes-lied-deu_heyden1622.txt:16023"
+    ],
+    "best_quote": {
+     "file": "sudermann_hohe-geistreiche-lehren-hohes-lied-deu_heyden1622.txt",
+     "line": 9778,
+     "text": "Taulerus / vber die wort Johan. 6 Wer mein Fleisch jsset vnd mein Blut trincket / der hat das"
+    }
+   },
+   "family-of-love-and-spiritualists-franck-niclaes": {
+    "labels": {
+     "family-of-love-and-spiritualists-franck-niclaes#r2-0": "S",
+     "family-of-love-and-spiritualists-franck-niclaes#r2-1": "S",
+     "family-of-love-and-spiritualists-franck-niclaes#r2-2": "S",
+     "family-of-love-and-spiritualists-franck-niclaes#r2-3": "S",
+     "family-of-love-and-spiritualists-franck-niclaes#r2-4": "S",
+     "family-of-love-and-spiritualists-franck-niclaes#r2-5": "S",
+     "family-of-love-and-spiritualists-franck-niclaes#r2-6": "S",
+     "family-of-love-and-spiritualists-franck-niclaes#r2-7": "S",
+     "family-of-love-and-spiritualists-franck-niclaes#r2-8": "S",
+     "family-of-love-and-spiritualists-franck-niclaes#r2-9": "S",
+     "family-of-love-and-spiritualists-franck-niclaes#r2-10": "S",
+     "family-of-love-and-spiritualists-franck-niclaes#r2-11": "S"
+    },
+    "clean_passages": 12,
+    "clean_refs": [
+     "franck_paradoxa-deu_rab1559.txt:1360",
+     "franck_paradoxa-deu_rab1559.txt:1404",
+     "franck_paradoxa-deu_rab1559.txt:13915",
+     "franck_paradoxa-deu_rab1559.txt:15457",
+     "franck_paradoxa-deu_rab1559.txt:18290",
+     "franck_paradoxa-deu_rab1559.txt:18523",
+     "franck_paradoxa-deu_rab1559.txt:19718",
+     "franck_paradoxa-deu_rab1559.txt:21405",
+     "franck_paradoxa-deu_rab1559.txt:21455",
+     "franck_paradoxa-deu_rab1559.txt:21460",
+     "franck_paradoxa-deu_rab1559.txt:25505",
+     "franck_paradoxa-deu_rab1559.txt:25551"
+    ],
+    "best_quote": {
+     "file": "franck_paradoxa-deu_rab1559.txt",
+     "line": 1360,
+     "text": "Damit stimpt Taulerus in einer Predig de Trinit-vnnd fpzicht: Alles das man von"
+    }
+   }
+  },
+  "namesake_notes": "No namesakes.",
+  "editorial_notes": "None; the schwenckfelder hits are Sudermann's printed marginal citations 'Taulerus' beside his own text, counted S as the author's own source tags.",
+  "comment": "Franck's Paradoxa has 12 distinct mentions in his own text; Schwenckfelder has 25 marginal and in-text tags. German-pietism not labelled (stop early).",
+  "passes": true
+ }
+]

@@ -1,0 +1,704 @@
+[
+ {
+  "cid": "C014",
+  "name": "Ignatius",
+  "traditions": {
+   "the-society-of-jesus": {
+    "labels": {
+     "the-society-of-jesus#r2-0": "N",
+     "the-society-of-jesus#r2-1": "N",
+     "the-society-of-jesus#r2-2": "N",
+     "the-society-of-jesus#r2-3": "N",
+     "the-society-of-jesus#r2-4": "N",
+     "the-society-of-jesus#r2-5": "N",
+     "the-society-of-jesus#r2-6": "N",
+     "the-society-of-jesus#r2-7": "N",
+     "the-society-of-jesus#r2-8": "N",
+     "the-society-of-jesus#r2-9": "N",
+     "the-society-of-jesus#r2-10": "N",
+     "the-society-of-jesus#r2-11": "N",
+     "the-society-of-jesus#r2-12": "N",
+     "the-society-of-jesus#r2-13": "N",
+     "the-society-of-jesus#r2-14": "N"
+    },
+    "clean_passages": 0
+   },
+   "the-ethiopian-monastic-flowering": {
+    "labels": {
+     "the-ethiopian-monastic-flowering#r2-0": "S",
+     "the-ethiopian-monastic-flowering#r2-1": "S",
+     "the-ethiopian-monastic-flowering#r2-2": "S",
+     "the-ethiopian-monastic-flowering#r2-3": "E",
+     "the-ethiopian-monastic-flowering#r2-4": "E",
+     "the-ethiopian-monastic-flowering#r2-5": "E",
+     "the-ethiopian-monastic-flowering#r2-6": "E",
+     "the-ethiopian-monastic-flowering#r2-7": "E",
+     "the-ethiopian-monastic-flowering#r2-8": "E",
+     "the-ethiopian-monastic-flowering#r2-9": "E",
+     "the-ethiopian-monastic-flowering#r2-10": "E",
+     "the-ethiopian-monastic-flowering#r2-11": "E",
+     "the-ethiopian-monastic-flowering#r2-12": "E",
+     "the-ethiopian-monastic-flowering#r2-13": "E",
+     "the-ethiopian-monastic-flowering#r2-14": "E",
+     "the-ethiopian-monastic-flowering#r2-15": "E",
+     "the-ethiopian-monastic-flowering#r2-16": "E",
+     "the-ethiopian-monastic-flowering#r2-17": "E"
+    },
+    "clean_passages": 2,
+    "best_quote": {
+     "file": "ethiopian-synaxarium_book-of-saints-ethiopian-church-v2-v4-microform_budge1928.txt",
+     "line": 5860,
+     "text": "And on this day also the holy and honourable Ignatius,"
+    },
+    "clean_refs": [
+     "ethiopian-synaxarium_book-of-saints-ethiopian-church-v2-v4-microform_budge1928.txt:5860",
+     "ethiopian-synaxarium_book-of-saints-ethiopian-church-v2-v4-microform_budge1928.txt:5890"
+    ]
+   },
+   "st-thomas-christians-under-portuguese-pressure-d": {
+    "labels": {
+     "st-thomas-christians-under-portuguese-pressure-d#r2-0": "N",
+     "st-thomas-christians-under-portuguese-pressure-d#r2-1": "N",
+     "st-thomas-christians-under-portuguese-pressure-d#r2-2": "S",
+     "st-thomas-christians-under-portuguese-pressure-d#r2-3": "N",
+     "st-thomas-christians-under-portuguese-pressure-d#r2-4": "N",
+     "st-thomas-christians-under-portuguese-pressure-d#r2-5": "N",
+     "st-thomas-christians-under-portuguese-pressure-d#r2-6": "N",
+     "st-thomas-christians-under-portuguese-pressure-d#r2-7": "N",
+     "st-thomas-christians-under-portuguese-pressure-d#r2-8": "N",
+     "st-thomas-christians-under-portuguese-pressure-d#r2-9": "N",
+     "st-thomas-christians-under-portuguese-pressure-d#r2-10": "N",
+     "st-thomas-christians-under-portuguese-pressure-d#r2-11": "N",
+     "st-thomas-christians-under-portuguese-pressure-d#r2-12": "N",
+     "st-thomas-christians-under-portuguese-pressure-d#r2-13": "N",
+     "st-thomas-christians-under-portuguese-pressure-d#r2-14": "N"
+    },
+    "clean_passages": 1,
+    "best_quote": {
+     "file": "philipos_syrian-christians-of-malabar_howard1869.txt",
+     "line": 1598,
+     "text": "(Ignatius),  the  child  whom  our  Lord  took  in  His  arms1,"
+    },
+    "clean_refs": [
+     "philipos_syrian-christians-of-malabar_howard1869.txt:1598"
+    ]
+   },
+   "melkite-greek-catholic-church": {
+    "labels": {
+     "melkite-greek-catholic-church#r2-0": "N",
+     "melkite-greek-catholic-church#r2-1": "N",
+     "melkite-greek-catholic-church#r2-2": "N",
+     "melkite-greek-catholic-church#r2-3": "N",
+     "melkite-greek-catholic-church#r2-4": "S",
+     "melkite-greek-catholic-church#r2-5": "N",
+     "melkite-greek-catholic-church#r2-6": "N",
+     "melkite-greek-catholic-church#r2-7": "N",
+     "melkite-greek-catholic-church#r2-8": "N",
+     "melkite-greek-catholic-church#r2-9": "N",
+     "melkite-greek-catholic-church#r2-10": "N",
+     "melkite-greek-catholic-church#r2-11": "N",
+     "melkite-greek-catholic-church#r2-12": "N",
+     "melkite-greek-catholic-church#r2-13": "N",
+     "melkite-greek-catholic-church#r2-14": "N"
+    },
+    "clean_passages": 1
+   }
+  },
+  "namesake_notes": "Jesuit shelf: all Ignatius of Loyola (founder). Thomas Christians: Ignatius Loyola, Mar Ignatius (Jacobite prelate of 1653 / patriarchs titled Ignatius), Ignatius Aichamoni. Ethiopian synaxarium: patriarch lists (Antioch/Alexandria, 'Ignatius I-XXVI'). Melkite: Ignatius Giohar, Ignatius Saruff, patriarch Ignatius of 1700s.",
+  "editorial_notes": "Ethiopian ctx 3-17: patriarch tables printed by Budge (editorial appendix lists, 'Ignatius died 107' in a table with Lequien/Assemani citations).",
+  "comment": "Ignatius of Antioch is reached only in the Ethiopian synaxarium notice (v2-v4 file lines 5860-5950, also 38479, 39615-39632 in the same file; the later notice calls him 'Archbishop of Rome', conflated) and once each in Philipos (Q.? line 1598, translator gloss '(Ignatius)' on Ignatheous) and a Latin Melkite document (Mansi 46 line 33664). Ethiopian count 2 is from contexts (opening and trial dialogue of one notice); no tradition reaches 5.",
+  "passes": false
+ },
+ {
+  "cid": "C031",
+  "name": "Zephyrinus",
+  "traditions": {
+   "latin-pastoral-congregational-christianity": {
+    "labels": {
+     "latin-pastoral-congregational-christianity#r2-0": "U",
+     "latin-pastoral-congregational-christianity#r2-1": "U",
+     "latin-pastoral-congregational-christianity#r2-2": "U",
+     "latin-pastoral-congregational-christianity#r2-3": "U",
+     "latin-pastoral-congregational-christianity#r2-4": "U",
+     "latin-pastoral-congregational-christianity#r2-5": "U",
+     "latin-pastoral-congregational-christianity#r2-6": "U",
+     "latin-pastoral-congregational-christianity#r2-7": "U",
+     "latin-pastoral-congregational-christianity#r2-8": "U",
+     "latin-pastoral-congregational-christianity#r2-9": "U",
+     "latin-pastoral-congregational-christianity#r2-10": "U",
+     "latin-pastoral-congregational-christianity#r2-11": "U",
+     "latin-pastoral-congregational-christianity#r2-12": "U",
+     "latin-pastoral-congregational-christianity#r2-13": "U",
+     "latin-pastoral-congregational-christianity#r2-14": "U"
+    },
+    "clean_passages": 0
+   },
+   "imperial-juridical-christianity": {
+    "labels": {
+     "imperial-juridical-christianity#r2-0": "E"
+    },
+    "clean_passages": 6,
+    "best_quote": {
+     "file": "npnf201_eusebius-church-history-life-of-constantine.xml",
+     "line": 32210,
+     "text": "His bishopric lasted ten years, and Zephyrinus was appointed his"
+    },
+    "clean_refs": [
+     "npnf201_eusebius-church-history-life-of-constantine.xml:14016",
+     "npnf201_eusebius-church-history-life-of-constantine.xml:32210",
+     "npnf201_eusebius-church-history-life-of-constantine.xml:32214",
+     "npnf201_eusebius-church-history-life-of-constantine.xml:32269",
+     "npnf201_eusebius-church-history-life-of-constantine.xml:34379",
+     "npnf201_eusebius-church-history-life-of-constantine.xml:35454",
+     "npnf201_eusebius-church-history-life-of-constantine.xml:35480"
+    ]
+   }
+  },
+  "namesake_notes": "No namesakes; all hits are Pope Zephyrinus of Rome.",
+  "editorial_notes": "Imperial ctx 0 is a table of Roman bishops added by the translator (E). Latin-pastoral: ctx 0-12 are Hippolytus Refutation IX (div2 iii.iii), ctx 13-14 are the Fragments of Caius (Against Artemon, quoting Eusebius V.28); neither is a shelved work of that tradition (Cyprian, Pontius, Novatian-circle), so U.",
+  "comment": "Imperial count (6) is from my own scan of the Church History text (Books II, V, VI main text, not footnotes), because the sampled context list held only the table entry; passes is false because Latin-pastoral has no clean passage.",
+  "passes": false
+ },
+ {
+  "cid": "C048",
+  "name": "Constantine",
+  "traditions": {
+   "armenian-cilicia": {
+    "labels": {
+     "armenian-cilicia#r2-0": "S",
+     "armenian-cilicia#r2-1": "N",
+     "armenian-cilicia#r2-2": "S",
+     "armenian-cilicia#r2-3": "N",
+     "armenian-cilicia#r2-4": "E",
+     "armenian-cilicia#r2-5": "N",
+     "armenian-cilicia#r2-6": "U",
+     "armenian-cilicia#r2-7": "N",
+     "armenian-cilicia#r2-8": "U",
+     "armenian-cilicia#r2-9": "N",
+     "armenian-cilicia#r2-10": "N",
+     "armenian-cilicia#r2-11": "N",
+     "armenian-cilicia#r2-12": "U",
+     "armenian-cilicia#r2-13": "N",
+     "armenian-cilicia#r2-14": "U"
+    },
+    "clean_passages": 4,
+    "best_quote": {
+     "file": "patrologia-orientalis-tomus16_synaxaire-arabe-jacobite-barmahat-bachons-synaxaire-armenien-tre-fra_graffin-nau1922.txt",
+     "line": 3629,
+     "text": "Saint  Constantin  les  aecueillit  avec  de  grands  lionneurs"
+    }
+   },
+   "syriac-orthodox-west-syriac-christianity": {
+    "labels": {
+     "syriac-orthodox-west-syriac-christianity#r2-0": "N",
+     "syriac-orthodox-west-syriac-christianity#r2-1": "N",
+     "syriac-orthodox-west-syriac-christianity#r2-2": "U",
+     "syriac-orthodox-west-syriac-christianity#r2-3": "S",
+     "syriac-orthodox-west-syriac-christianity#r2-4": "U",
+     "syriac-orthodox-west-syriac-christianity#r2-5": "N",
+     "syriac-orthodox-west-syriac-christianity#r2-6": "N",
+     "syriac-orthodox-west-syriac-christianity#r2-7": "U",
+     "syriac-orthodox-west-syriac-christianity#r2-8": "S",
+     "syriac-orthodox-west-syriac-christianity#r2-9": "N",
+     "syriac-orthodox-west-syriac-christianity#r2-10": "N",
+     "syriac-orthodox-west-syriac-christianity#r2-11": "N",
+     "syriac-orthodox-west-syriac-christianity#r2-12": "S",
+     "syriac-orthodox-west-syriac-christianity#r2-13": "E",
+     "syriac-orthodox-west-syriac-christianity#r2-14": "N"
+    },
+    "clean_passages": 7,
+    "best_quote": {
+     "file": "michael-the-syrian_chronique-tome1-livres-i-vii-fra_chabot1899.txt",
+     "line": 260,
+     "text": "Anniajîus, moine d'Alexandrie, écrivit d'Adam jusqu'à l'empereur Constantin."
+    },
+    "clean_refs": [
+     "michael-the-syrian_chronique-tome1-livres-i-vii-fra_chabot1899.txt:260",
+     "michael-the-syrian_chronique-tome1-livres-i-vii-fra_chabot1899.txt:15749",
+     "michael-the-syrian_chronique-tome1-livres-i-vii-fra_chabot1899.txt:16422",
+     "michael-the-syrian_chronique-tome1-livres-i-vii-fra_chabot1899.txt:55201",
+     "zachariah-rhetor_chronicle_hamiltonbrooks1899.txt:951",
+     "zachariah-rhetor_chronicle_hamiltonbrooks1899.txt:5378",
+     "life-of-peter-the-iberian_petrus-der-iberer-deu_raabe1895.txt:2432"
+    ]
+   },
+   "armenian-cilicia-after-the-kingdom": {
+    "labels": {
+     "armenian-cilicia-after-the-kingdom#r2-0": "N",
+     "armenian-cilicia-after-the-kingdom#r2-1": "N",
+     "armenian-cilicia-after-the-kingdom#r2-2": "N",
+     "armenian-cilicia-after-the-kingdom#r2-3": "N",
+     "armenian-cilicia-after-the-kingdom#r2-4": "N",
+     "armenian-cilicia-after-the-kingdom#r2-5": "N",
+     "armenian-cilicia-after-the-kingdom#r2-6": "N",
+     "armenian-cilicia-after-the-kingdom#r2-7": "N",
+     "armenian-cilicia-after-the-kingdom#r2-8": "N",
+     "armenian-cilicia-after-the-kingdom#r2-9": "N",
+     "armenian-cilicia-after-the-kingdom#r2-10": "N",
+     "armenian-cilicia-after-the-kingdom#r2-11": "N",
+     "armenian-cilicia-after-the-kingdom#r2-12": "N",
+     "armenian-cilicia-after-the-kingdom#r2-13": "N",
+     "armenian-cilicia-after-the-kingdom#r2-14": "N"
+    },
+    "clean_passages": 0
+   },
+   "the-church-of-the-east-under-persia": {
+    "labels": {
+     "the-church-of-the-east-under-persia#r2-0": "S",
+     "the-church-of-the-east-under-persia#r2-1": "S",
+     "the-church-of-the-east-under-persia#r2-2": "N",
+     "the-church-of-the-east-under-persia#r2-3": "N",
+     "the-church-of-the-east-under-persia#r2-4": "E",
+     "the-church-of-the-east-under-persia#r2-5": "U",
+     "the-church-of-the-east-under-persia#r2-6": "E",
+     "the-church-of-the-east-under-persia#r2-7": "S",
+     "the-church-of-the-east-under-persia#r2-8": "S",
+     "the-church-of-the-east-under-persia#r2-9": "E",
+     "the-church-of-the-east-under-persia#r2-10": "E",
+     "the-church-of-the-east-under-persia#r2-11": "N",
+     "the-church-of-the-east-under-persia#r2-12": "N",
+     "the-church-of-the-east-under-persia#r2-13": "N",
+     "the-church-of-the-east-under-persia#r2-14": "N"
+    },
+    "clean_passages": 7,
+    "best_quote": {
+     "file": "chronica-minora-pars-prior-versio-lat_guidi1903.txt",
+     "line": 2024,
+     "text": "maeorum oriundus; erat hie ecclesiae defensor ut Constantinus et"
+    },
+    "clean_refs": [
+     "elias-of-nisibis_opus-chronologicum-lat_brooks-chabot-csco1910.txt:3175",
+     "elias-of-nisibis_opus-chronologicum-lat_brooks-chabot-csco1910.txt:4735",
+     "persian-martyr-acts_ausgewahlte-akten-persischer-martyrer-bkv22-deu_braun1915.txt:1162",
+     "persian-martyr-acts_ausgewahlte-akten-persischer-martyrer-bkv22-deu_braun1915.txt:1241",
+     "chronica-minora-pars-prior-versio-lat_guidi1903.txt:2024",
+     "chronica-minora-pars-prior-versio-lat_guidi1903.txt:2165",
+     "mari-ibn-sulayman_de-patriarchis-nestorianorum-commentaria-pars-prior-ara-lat_gismondi1899.txt:13196"
+    ]
+   }
+  },
+  "namesake_notes": "Armenian Cilicia files (both traditions): Constantin the Armenian barons, catholicos Constantin, Constantin son of Roupen (N). Syriac: monks Constantinus, a deacon Constantinus, Tiberius Constantinus Caesar, bishop Constantine of Laodicea, Constantine II (son), Constantine the sacristan. Church of the East: Constantine the Melkite bishop of Misr, Constantine son of Heraclius, later emperors Constantine (IV/V) in Elias's list.",
+  "editorial_notes": "RHC volume is an editor's French with notes; Armenian synaxary PO16 footnote at 9745-9747 (E). Church of the East: Hoffmann's commentary (1761), Barhadbeshabba editor intro (5388), Synodicon French contents list (976) and Braun's intro (71) are E.",
+  "comment": "Passes on Syriac and Church of the East under Persia, both counted from my own file scans (7 distinct S refs each) because the 15 sampled contexts held fewer; many sampled Syriac contexts lie outside the shelved work (Armenian synaxary at head of PO18/PO19, Arabic synaxary at tail of PO17), so U. Armenian Cilicia: 4 clean in the Armenian synaxary part (lines 93-10400: 3628, 9455, 9736, 9742); everything after line 10407 is the Arabic Jacobite synaxary, not that shelf.",
+  "passes": true
+ },
+ {
+  "cid": "C060",
+  "name": "Apollinaris of Laodicea",
+  "traditions": {
+   "merovingian-gallic-christianity": {
+    "labels": {
+     "merovingian-gallic-christianity#r2-0": "N",
+     "merovingian-gallic-christianity#r2-1": "N",
+     "merovingian-gallic-christianity#r2-2": "N",
+     "merovingian-gallic-christianity#r2-3": "N",
+     "merovingian-gallic-christianity#r2-4": "U",
+     "merovingian-gallic-christianity#r2-5": "N",
+     "merovingian-gallic-christianity#r2-6": "U",
+     "merovingian-gallic-christianity#r2-7": "N",
+     "merovingian-gallic-christianity#r2-8": "U",
+     "merovingian-gallic-christianity#r2-9": "N",
+     "merovingian-gallic-christianity#r2-10": "N",
+     "merovingian-gallic-christianity#r2-11": "N",
+     "merovingian-gallic-christianity#r2-12": "N",
+     "merovingian-gallic-christianity#r2-13": "U",
+     "merovingian-gallic-christianity#r2-14": "E"
+    },
+    "clean_passages": 0
+   },
+   "byzantine-imperial-church-justinianic": {
+    "labels": {
+     "byzantine-imperial-church-justinianic#r2-0": "U",
+     "byzantine-imperial-church-justinianic#r2-1": "U",
+     "byzantine-imperial-church-justinianic#r2-2": "U",
+     "byzantine-imperial-church-justinianic#r2-3": "S",
+     "byzantine-imperial-church-justinianic#r2-4": "S",
+     "byzantine-imperial-church-justinianic#r2-5": "S",
+     "byzantine-imperial-church-justinianic#r2-6": "N",
+     "byzantine-imperial-church-justinianic#r2-7": "U",
+     "byzantine-imperial-church-justinianic#r2-8": "E",
+     "byzantine-imperial-church-justinianic#r2-9": "U",
+     "byzantine-imperial-church-justinianic#r2-10": "S",
+     "byzantine-imperial-church-justinianic#r2-11": "S",
+     "byzantine-imperial-church-justinianic#r2-12": "N",
+     "byzantine-imperial-church-justinianic#r2-13": "U",
+     "byzantine-imperial-church-justinianic#r2-14": "E"
+    },
+    "clean_passages": 5,
+    "best_quote": {
+     "file": "npnf212_leo-great-gregory-great.xml",
+     "line": 4644,
+     "text": "Apollinaris, and all heretics down to Simon, and those who say that the"
+    },
+    "clean_refs": [
+     "npnf212_leo-great-gregory-great.xml:4644",
+     "npnf212_leo-great-gregory-great.xml:4723",
+     "npnf214_seven-ecumenical-councils.xml:23665",
+     "npnf214_seven-ecumenical-councils.xml:23748",
+     "evagrius-scholasticus_ecclesiastical-history_walford1846.txt:6872"
+    ]
+   },
+   "latin-africa-under-byzantium": {
+    "labels": {
+     "latin-africa-under-byzantium#r2-0": "N",
+     "latin-africa-under-byzantium#r2-1": "E",
+     "latin-africa-under-byzantium#r2-2": "E",
+     "latin-africa-under-byzantium#r2-3": "S",
+     "latin-africa-under-byzantium#r2-4": "N",
+     "latin-africa-under-byzantium#r2-5": "N",
+     "latin-africa-under-byzantium#r2-6": "U",
+     "latin-africa-under-byzantium#r2-7": "E",
+     "latin-africa-under-byzantium#r2-8": "E",
+     "latin-africa-under-byzantium#r2-9": "S",
+     "latin-africa-under-byzantium#r2-10": "U",
+     "latin-africa-under-byzantium#r2-11": "N",
+     "latin-africa-under-byzantium#r2-12": "E",
+     "latin-africa-under-byzantium#r2-13": "E",
+     "latin-africa-under-byzantium#r2-14": "S"
+    },
+    "clean_passages": 6,
+    "best_quote": {
+     "file": "facundus-ferrandus-caesarius-dionysius-pl67-lat_migne1865.txt",
+     "line": 48975,
+     "text": "pent, nisi propter quod eum Apollinaris et cjus di-"
+    },
+    "clean_refs": [
+     "facundus-ferrandus-caesarius-dionysius-pl67-lat_migne1865.txt:43673",
+     "facundus-ferrandus-caesarius-dionysius-pl67-lat_migne1865.txt:48696",
+     "facundus-ferrandus-caesarius-dionysius-pl67-lat_migne1865.txt:48753",
+     "facundus-ferrandus-caesarius-dionysius-pl67-lat_migne1865.txt:48975",
+     "facundus-ferrandus-caesarius-dionysius-pl67-lat_migne1865.txt:53767",
+     "facundus-ferrandus-caesarius-dionysius-pl67-lat_migne1865.txt:53937"
+    ]
+   }
+  },
+  "namesake_notes": "Apollinaris/Apollinarius also names Sidonius Apollinaris, Apollinaris of Valence, of Ravenna (saint/church), of Hierapolis and Apollinarius of Alexandria (patriarch 551-570), and an 'Apollinaris Cethecus' consul.",
+  "editorial_notes": "Migne/Mansi/Kihn apparatus and prolegomena (Peiper on Avitus, Kihn's study of Theodore, Garnier's notes on Liberatus, Krusch notes) counted E. Facundus lines 43589 is a Migne footnote (E).",
+  "comment": "Passes: Byzantine 5 (Leo letters 4644 and 4723, Constantinople II acts 23665 and 23748, Evagrius 6872) and Latin Africa 6 (Facundus main text at 43673, 48696, 48753, 48975, 53767, 53937; counted from my scan of Facundus lines 41800-68620). Merovingian hits outside shelved works (Caesarius sermon 57589 is Sermo CCXXXVIII, Venantius Expositio fidei catholicae) are U. Visigothic Iberia not labelled (stopped early).",
+  "passes": true
+ },
+ {
+  "cid": "C075",
+  "name": "Marutha of Maypherqat",
+  "traditions": {
+   "the-church-of-the-east-under-persia": {
+    "labels": {
+     "the-church-of-the-east-under-persia#r2-0": "E",
+     "the-church-of-the-east-under-persia#r2-1": "E",
+     "the-church-of-the-east-under-persia#r2-2": "E",
+     "the-church-of-the-east-under-persia#r2-3": "E",
+     "the-church-of-the-east-under-persia#r2-4": "U",
+     "the-church-of-the-east-under-persia#r2-5": "E",
+     "the-church-of-the-east-under-persia#r2-6": "E",
+     "the-church-of-the-east-under-persia#r2-7": "S",
+     "the-church-of-the-east-under-persia#r2-8": "E",
+     "the-church-of-the-east-under-persia#r2-9": "U",
+     "the-church-of-the-east-under-persia#r2-10": "E",
+     "the-church-of-the-east-under-persia#r2-11": "E",
+     "the-church-of-the-east-under-persia#r2-12": "S",
+     "the-church-of-the-east-under-persia#r2-13": "E",
+     "the-church-of-the-east-under-persia#r2-14": "U"
+    },
+    "clean_passages": 5,
+    "best_quote": {
+     "file": "chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt",
+     "line": 15501,
+     "text": "La  lettre  fut  portee  a  Jazdgerd,  alors  malade,  par  Marouta,  eveque  de"
+    },
+    "clean_refs": [
+     "chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt:15501",
+     "chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt:15508",
+     "chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt:15518",
+     "chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt:15737",
+     "chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt:15786"
+    ]
+   },
+   "the-church-of-the-east-on-the-silk-road": {
+    "labels": {
+     "the-church-of-the-east-on-the-silk-road#r2-0": "E",
+     "the-church-of-the-east-on-the-silk-road#r2-1": "E",
+     "the-church-of-the-east-on-the-silk-road#r2-2": "E",
+     "the-church-of-the-east-on-the-silk-road#r2-3": "U",
+     "the-church-of-the-east-on-the-silk-road#r2-4": "U",
+     "the-church-of-the-east-on-the-silk-road#r2-5": "U",
+     "the-church-of-the-east-on-the-silk-road#r2-6": "U",
+     "the-church-of-the-east-on-the-silk-road#r2-7": "U",
+     "the-church-of-the-east-on-the-silk-road#r2-8": "U",
+     "the-church-of-the-east-on-the-silk-road#r2-9": "U",
+     "the-church-of-the-east-on-the-silk-road#r2-10": "U",
+     "the-church-of-the-east-on-the-silk-road#r2-11": "U",
+     "the-church-of-the-east-on-the-silk-road#r2-12": "U",
+     "the-church-of-the-east-on-the-silk-road#r2-13": "E",
+     "the-church-of-the-east-on-the-silk-road#r2-14": "E"
+    },
+    "clean_passages": 0
+   },
+   "church-of-the-east-timur-to-hakkari": {
+    "labels": {
+     "church-of-the-east-timur-to-hakkari#r2-0": "U",
+     "church-of-the-east-timur-to-hakkari#r2-1": "E",
+     "church-of-the-east-timur-to-hakkari#r2-2": "U",
+     "church-of-the-east-timur-to-hakkari#r2-3": "E",
+     "church-of-the-east-timur-to-hakkari#r2-4": "U",
+     "church-of-the-east-timur-to-hakkari#r2-5": "U",
+     "church-of-the-east-timur-to-hakkari#r2-6": "U",
+     "church-of-the-east-timur-to-hakkari#r2-7": "U",
+     "church-of-the-east-timur-to-hakkari#r2-8": "U",
+     "church-of-the-east-timur-to-hakkari#r2-9": "U",
+     "church-of-the-east-timur-to-hakkari#r2-10": "U",
+     "church-of-the-east-timur-to-hakkari#r2-11": "U",
+     "church-of-the-east-timur-to-hakkari#r2-12": "U",
+     "church-of-the-east-timur-to-hakkari#r2-13": "U",
+     "church-of-the-east-timur-to-hakkari#r2-14": "U"
+    },
+    "clean_passages": 0
+   },
+   "syriac-orthodox-west-syriac-christianity": {
+    "labels": {
+     "syriac-orthodox-west-syriac-christianity#r2-0": "U",
+     "syriac-orthodox-west-syriac-christianity#r2-1": "N",
+     "syriac-orthodox-west-syriac-christianity#r2-2": "N",
+     "syriac-orthodox-west-syriac-christianity#r2-3": "N",
+     "syriac-orthodox-west-syriac-christianity#r2-4": "N",
+     "syriac-orthodox-west-syriac-christianity#r2-5": "N",
+     "syriac-orthodox-west-syriac-christianity#r2-6": "N",
+     "syriac-orthodox-west-syriac-christianity#r2-7": "N",
+     "syriac-orthodox-west-syriac-christianity#r2-8": "E",
+     "syriac-orthodox-west-syriac-christianity#r2-9": "E"
+    },
+    "clean_passages": 2,
+    "best_quote": {
+     "file": "michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt",
+     "line": 161,
+     "text": "Le christianisme croissait parmi les Perses ; surtout parce que Marouta"
+    },
+    "clean_refs": [
+     "michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt:161",
+     "michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt:228"
+    ]
+   }
+  },
+  "namesake_notes": "Maruta impostor in the Khuzistan chronicle; Marouta of Tagrit (7th c. metropolitan, Michael the Syrian Book XI, lines 32086-33682); Maruthas martyr of Najran.",
+  "editorial_notes": "Braun and Chabot introductions and tables of contents (E); Mai's preface and note (E); Chabot's footnote on Marouta of Tagrit (33475, 33682).",
+  "comment": "Only the Church of the East under Persia reaches 5 (Chronicle of Seert lines 15501-15786, Marutha of Maypherqat and the council of 410). Most Silk Road / Timur-Hakkari contexts lie before the shelved locus (U). Syriac: Michael VIII has 161 and 228 (Marouta of Maipherqat, ambassador to Yazdgard) = 2; line 500 is cut mid-sentence in the column scan (U). Counts for Syriac come from my scan of the file, beyond the sampled contexts.",
+  "passes": false
+ },
+ {
+  "cid": "C095",
+  "name": "Kaleb",
+  "traditions": {
+   "the-ethiopian-monastic-flowering": {
+    "labels": {
+     "the-ethiopian-monastic-flowering#r2-0": "S",
+     "the-ethiopian-monastic-flowering#r2-1": "S",
+     "the-ethiopian-monastic-flowering#r2-2": "S",
+     "the-ethiopian-monastic-flowering#r2-3": "S",
+     "the-ethiopian-monastic-flowering#r2-4": "S",
+     "the-ethiopian-monastic-flowering#r2-5": "S",
+     "the-ethiopian-monastic-flowering#r2-6": "S",
+     "the-ethiopian-monastic-flowering#r2-7": "S",
+     "the-ethiopian-monastic-flowering#r2-8": "E"
+    },
+    "clean_passages": 6,
+    "best_quote": {
+     "file": "gadla-pantalewon-yared_vitae-sanctorum-antiquiorum-lat_conti-rossini1904.txt",
+     "line": 2288,
+     "text": "Rex vero noster Kaleb strenuus fuit et prudens et ortho-"
+    },
+    "clean_refs": [
+     "gadla-pantalewon-yared_vitae-sanctorum-antiquiorum-lat_conti-rossini1904.txt:1956",
+     "gadla-pantalewon-yared_vitae-sanctorum-antiquiorum-lat_conti-rossini1904.txt:2288",
+     "gadla-pantalewon-yared_vitae-sanctorum-antiquiorum-lat_conti-rossini1904.txt:2296",
+     "gadla-pantalewon-yared_vitae-sanctorum-antiquiorum-lat_conti-rossini1904.txt:2335",
+     "gadla-pantalewon-yared_vitae-sanctorum-antiquiorum-lat_conti-rossini1904.txt:2393",
+     "gadla-pantalewon-yared_vitae-sanctorum-antiquiorum-lat_conti-rossini1904.txt:2579"
+    ]
+   },
+   "the-society-of-jesus": {
+    "labels": {
+     "the-society-of-jesus#r2-0": "S",
+     "the-society-of-jesus#r2-1": "S",
+     "the-society-of-jesus#r2-2": "S",
+     "the-society-of-jesus#r2-3": "S",
+     "the-society-of-jesus#r2-4": "S"
+    },
+    "clean_passages": 5,
+    "best_quote": {
+     "file": "mendes_expeditio-aethiopica-liber-1-2-lat_beccari1908.txt",
+     "line": 6676,
+     "text": "XLVI  Caleb,  a  nostris  dictus  sanctus  Elesbaan.  Vivebat  anno  quin-"
+    },
+    "clean_refs": [
+     "mendes_expeditio-aethiopica-liber-1-2-lat_beccari1908.txt:5788",
+     "mendes_expeditio-aethiopica-liber-1-2-lat_beccari1908.txt:6353",
+     "mendes_expeditio-aethiopica-liber-1-2-lat_beccari1908.txt:6423",
+     "mendes_expeditio-aethiopica-liber-1-2-lat_beccari1908.txt:6676",
+     "almeida_historia-aethiopiae-liber-5-8-por_beccari1907.txt:7573"
+    ]
+   }
+  },
+  "namesake_notes": "Elesbaan is the same person as Kaleb (Ethiopian king of the Najran campaign, c. 520); Muse (his monk brother) is not him.",
+  "editorial_notes": "Ethiopian ctx 8 (line 4910) is Conti Rossini's Latin preface to the Pantalewon text (E).",
+  "comment": "Ethiopian: 6-8 distinct S in Gadla Pantalewon (lines 1956-2579). Jesuit exactly 5 (Mendes 5788, 6353, 6423, 6676; Almeida 7573); Mendes 6353 sits in a column with a marginal gloss garbled by the scan, so that one is the weakest. Not counted: the Ethiopian synaxarium notice for 20 Genbot (kaleb), which the contexts did not list.",
+  "passes": true
+ },
+ {
+  "cid": "C118",
+  "name": "John of Damascus",
+  "traditions": {
+   "byzantine-church-palaiologan": {
+    "labels": {
+     "byzantine-church-palaiologan#r2-0": "U",
+     "byzantine-church-palaiologan#r2-1": "S",
+     "byzantine-church-palaiologan#r2-2": "U",
+     "byzantine-church-palaiologan#r2-3": "U",
+     "byzantine-church-palaiologan#r2-4": "U",
+     "byzantine-church-palaiologan#r2-5": "U",
+     "byzantine-church-palaiologan#r2-6": "U"
+    },
+    "clean_passages": 2,
+    "best_quote": {
+     "file": "bessarion_opera-omnia-pg161-grc-lat_migne1866.txt",
+     "line": 70451,
+     "text": "prodire dicitur ; εἰ Damascenus, Ex Patre per Fi-"
+    },
+    "clean_refs": [
+     "bessarion_opera-omnia-pg161-grc-lat_migne1866.txt:70382",
+     "bessarion_opera-omnia-pg161-grc-lat_migne1866.txt:70451"
+    ]
+   },
+   "hesychasm-and-the-palamite-synthesis": {
+    "labels": {
+     "hesychasm-and-the-palamite-synthesis#r2-0": "U",
+     "hesychasm-and-the-palamite-synthesis#r2-1": "U",
+     "hesychasm-and-the-palamite-synthesis#r2-2": "U",
+     "hesychasm-and-the-palamite-synthesis#r2-3": "U",
+     "hesychasm-and-the-palamite-synthesis#r2-4": "U",
+     "hesychasm-and-the-palamite-synthesis#r2-5": "U"
+    },
+    "clean_passages": 0
+   }
+  },
+  "namesake_notes": "None; every hit names the Damascene.",
+  "editorial_notes": "Calecas/PG152 register lines 63539-74934 lie before the shelved locus (line 81575) and include an index entry (74934); U or E.",
+  "comment": "Bessarion 70382 is inside the Oratio dogmatica pro unione (heading at 67514), whose own locus text is cut off in the files entry; counted S because the work title is shelved. Round 1 already counted 4 other Palaiologan passages (Bessarion 57331/57340 etc.); passes false because Hesychasm has none.",
+  "passes": false
+ },
+ {
+  "cid": "C147",
+  "name": "Dominic de Guzmán",
+  "traditions": {
+   "the-society-of-jesus": {
+    "labels": {
+     "the-society-of-jesus#r2-0": "N",
+     "the-society-of-jesus#r2-1": "N",
+     "the-society-of-jesus#r2-2": "N",
+     "the-society-of-jesus#r2-3": "N",
+     "the-society-of-jesus#r2-4": "N",
+     "the-society-of-jesus#r2-5": "N",
+     "the-society-of-jesus#r2-6": "N",
+     "the-society-of-jesus#r2-7": "N",
+     "the-society-of-jesus#r2-8": "N",
+     "the-society-of-jesus#r2-9": "N",
+     "the-society-of-jesus#r2-10": "N",
+     "the-society-of-jesus#r2-11": "N",
+     "the-society-of-jesus#r2-12": "N",
+     "the-society-of-jesus#r2-13": "N",
+     "the-society-of-jesus#r2-14": "N"
+    },
+    "clean_passages": 0
+   },
+   "latin-papal-church-avignon-to-lateran-v": {
+    "labels": {
+     "latin-papal-church-avignon-to-lateran-v#r2-0": "N",
+     "latin-papal-church-avignon-to-lateran-v#r2-1": "N",
+     "latin-papal-church-avignon-to-lateran-v#r2-2": "N",
+     "latin-papal-church-avignon-to-lateran-v#r2-3": "N",
+     "latin-papal-church-avignon-to-lateran-v#r2-4": "E",
+     "latin-papal-church-avignon-to-lateran-v#r2-5": "N",
+     "latin-papal-church-avignon-to-lateran-v#r2-6": "N",
+     "latin-papal-church-avignon-to-lateran-v#r2-7": "S",
+     "latin-papal-church-avignon-to-lateran-v#r2-8": "N",
+     "latin-papal-church-avignon-to-lateran-v#r2-9": "N",
+     "latin-papal-church-avignon-to-lateran-v#r2-10": "N",
+     "latin-papal-church-avignon-to-lateran-v#r2-11": "N",
+     "latin-papal-church-avignon-to-lateran-v#r2-12": "N",
+     "latin-papal-church-avignon-to-lateran-v#r2-13": "N",
+     "latin-papal-church-avignon-to-lateran-v#r2-14": "N"
+    },
+    "clean_passages": 1,
+    "best_quote": {
+     "file": "council-of-constance_acta-concilii-constanciensis-bd2-lat_finke1923.txt",
+     "line": 24645,
+     "text": "tuosius  invitare?  Antequam  beatus  pater  noster  Dominicus  predi-"
+    },
+    "clean_refs": [
+     "council-of-constance_acta-concilii-constanciensis-bd2-lat_finke1923.txt:24645"
+    ]
+   },
+   "franciscan-order-era-6": {
+    "labels": {
+     "franciscan-order-era-6#r2-0": "E",
+     "franciscan-order-era-6#r2-1": "N",
+     "franciscan-order-era-6#r2-2": "E",
+     "franciscan-order-era-6#r2-3": "E",
+     "franciscan-order-era-6#r2-4": "S",
+     "franciscan-order-era-6#r2-5": "E",
+     "franciscan-order-era-6#r2-6": "N",
+     "franciscan-order-era-6#r2-7": "E",
+     "franciscan-order-era-6#r2-8": "E",
+     "franciscan-order-era-6#r2-9": "S",
+     "franciscan-order-era-6#r2-10": "E",
+     "franciscan-order-era-6#r2-11": "N",
+     "franciscan-order-era-6#r2-12": "E",
+     "franciscan-order-era-6#r2-13": "N",
+     "franciscan-order-era-6#r2-14": "S"
+    },
+    "clean_passages": 7,
+    "best_quote": {
+     "file": "actus-beati-francisci_actus-beati-francisci-et-sociorum-eius-lat_sabatier1902.txt",
+     "line": 9048,
+     "text": "16. Sanctus autem Dominicus, qui ad hoc erat prœ-"
+    },
+    "clean_refs": [
+     "actus-beati-francisci_actus-beati-francisci-et-sociorum-eius-lat_sabatier1902.txt:8940",
+     "actus-beati-francisci_actus-beati-francisci-et-sociorum-eius-lat_sabatier1902.txt:9048",
+     "actus-beati-francisci_actus-beati-francisci-et-sociorum-eius-lat_sabatier1902.txt:9098",
+     "actus-beati-francisci_actus-beati-francisci-et-sociorum-eius-lat_sabatier1902.txt:9109",
+     "glassberger_chronica-analecta-franciscana-v2-lat_1887.txt:2111",
+     "glassberger_chronica-analecta-franciscana-v2-lat_1887.txt:3102",
+     "glassberger_chronica-analecta-franciscana-v2-lat_1887.txt:3751"
+    ]
+   },
+   "fraticelli-spiritual-franciscan-rigorists": {
+    "labels": {
+     "fraticelli-spiritual-franciscan-rigorists#r2-0": "E",
+     "fraticelli-spiritual-franciscan-rigorists#r2-1": "E",
+     "fraticelli-spiritual-franciscan-rigorists#r2-2": "E",
+     "fraticelli-spiritual-franciscan-rigorists#r2-3": "S",
+     "fraticelli-spiritual-franciscan-rigorists#r2-4": "E",
+     "fraticelli-spiritual-franciscan-rigorists#r2-5": "E",
+     "fraticelli-spiritual-franciscan-rigorists#r2-6": "E",
+     "fraticelli-spiritual-franciscan-rigorists#r2-7": "S",
+     "fraticelli-spiritual-franciscan-rigorists#r2-8": "E",
+     "fraticelli-spiritual-franciscan-rigorists#r2-9": "E",
+     "fraticelli-spiritual-franciscan-rigorists#r2-10": "N",
+     "fraticelli-spiritual-franciscan-rigorists#r2-11": "S",
+     "fraticelli-spiritual-franciscan-rigorists#r2-12": "E",
+     "fraticelli-spiritual-franciscan-rigorists#r2-13": "E",
+     "fraticelli-spiritual-franciscan-rigorists#r2-14": "N"
+    },
+    "clean_passages": 4,
+    "best_quote": {
+     "file": "actus-beati-francisci_actus-beati-francisci-et-sociorum-eius-lat_sabatier1902.txt",
+     "line": 9048,
+     "text": "16. Sanctus autem Dominicus, qui ad hoc erat prœ-"
+    }
+   }
+  },
+  "namesake_notes": "Dominicus/Dominique: Jesuits Palancha, Numaglius, Menginus, Cubelles, Fabrianus, Andalur, Fasciardus, Dominicus Maria de Marinis; cardinals Capranica, Ginnasius, Dominicus Jacobatius, Johannes Dominici; friars Grima, de Alquessa, de Gubernatis, Grammer; Mansi's forename Joannes Dominicus; Dominique in the Jesuit Relations.",
+  "editorial_notes": "Ehrle's Archiv (Bd 1-3) hits are mostly his own German prose and footnotes (E); Sabatier's table of contents and index of the Actus (1598, 2946, 19326) are E.",
+  "comment": "Franciscan Era 6: 7 distinct S (Actus chapter 18 at 8940, 9048, 9098, 9109; Glassberger 2111, 3102, 3751; counted from my scan). Fraticelli: only the Actus passages (4) are certainly shelved; Ehrle Bd 2 lines 6962 and 7364 sit before Angelo Clareno's Historia (starts 13754) and Bd 3 line 28926 ('Scio quod hoc non fecisset beatus Dominicus') is inside Ehrle's Olivi study, so all U; if the coordinator rules the last one in the locus, Fraticelli reaches 5. Latin papal: one sermon at Constance (Finke Bd 2, line 24645, p. 490). Franciscan label string keeps ctx 12 as E.",
+  "passes": false
+ }
+]
