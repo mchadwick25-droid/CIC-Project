@@ -1,0 +1,1225 @@
+{
+ "group": "G",
+ "movements": [
+  "the-greek-church-and-the-ecumenical-patriarchate",
+  "the-georgian-orthodox-church-restored",
+  "the-catholic-church-in-africa-twentieth-century",
+  "the-sayfo-and-the-syriac-diaspora",
+  "the-malankara-churches-orthodox-and-jacobite",
+  "latin-american-base-communities",
+  "branch-davidians-and-apocalyptic-splinters",
+  "catholic-lay-renewal-worlds-catholic-worker-foco",
+  "iglesia-ni-cristo"
+ ],
+ "dispositions": [
+  {
+   "movement": "the-greek-church-and-the-ecumenical-patriarchate",
+   "field": "relationsSummary",
+   "sentence": "It carries on from Orthodoxy after 1821, the National Churches.",
+   "other_id": "orthodoxy-after-1821-balkan-autocephalies",
+   "disposition": "link",
+   "link_id": "orthodoxy-after-1821-balkan-autocephalies--the-greek-church-and-the-ecumenical-patriarchate",
+   "prose_change": null,
+   "reason": "New 'continued as', on the WCC's page for the Church of Greece (1850, 1928) with Frazee and Leustean named."
+  },
+  {
+   "movement": "the-greek-church-and-the-ecumenical-patriarchate",
+   "field": "relationsSummary",
+   "sentence": "It also carries on from the Kollyvades and Greek renewal.",
+   "other_id": "the-kollyvades-and-greek-renewal",
+   "disposition": "remove",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "No source read here shows the twentieth-century Greek church carrying on from the Kollyvades. The only online lead (Papoulidis, Theologia 1966, on Nikodemos) is a damaged OCR scan that cannot be quoted. The Kollyvades entry's own legacy keeps the claim that it seeded the modern revival. Sentence removed; the study is in wants."
+  },
+  {
+   "movement": "the-greek-church-and-the-ecumenical-patriarchate",
+   "field": "relationsSummary",
+   "sentence": "The Orthodox churches of Serbia, Romania, Bulgaria and Albania have their own entry.",
+   "other_id": "orthodoxy-in-the-communist-balkans",
+   "disposition": "remove",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "A pointer to a sibling entry, not a relationship claim; no link between the siblings is claimed. It is map wording ('have their own entry'), so it goes when the field is rewritten. The Balkan churches' own entry is unchanged."
+  },
+  {
+   "movement": "the-greek-church-and-the-ecumenical-patriarchate",
+   "field": "relationsSummary",
+   "sentence": "Orthodox membership of the World Council of Churches belongs to the entry on the ecumenical movement.",
+   "other_id": "the-ecumenical-movement-and-the-wcc",
+   "disposition": "link",
+   "link_id": "the-greek-church-and-the-ecumenical-patriarchate--the-ecumenical-movement-and-the-wcc--2",
+   "prose_change": 0,
+   "reason": "New 'member of' link on the WCC's own member pages (both members since 1948). The part 1 'influenced' link for the 1920 encyclical is kept as an existing link. The sentence is rewritten to state the membership plainly."
+  },
+  {
+   "movement": "the-greek-church-and-the-ecumenical-patriarchate",
+   "field": "relationsSummary",
+   "sentence": "Orthodox membership of the World Council of Churches belongs to the entry on the ecumenical movement.",
+   "other_id": "the-ecumenical-movement-and-the-wcc",
+   "disposition": "link",
+   "link_id": "the-greek-church-and-the-ecumenical-patriarchate--the-ecumenical-movement-and-the-wcc",
+   "prose_change": null,
+   "reason": "Existing link (part 1 drew it; part1_owned): kept, not redrawn."
+  },
+  {
+   "movement": "the-greek-church-and-the-ecumenical-patriarchate",
+   "field": "longDescription",
+   "sentence": "Rome's legates had excommunicated Patriarch Michael Cerularius, and his synod had condemned the legates in turn.",
+   "other_id": "latin-papal-church-gregorian",
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Background to the 1965 declaration. The declaration's own paragraph 2 (vatican.va, read in this run) states both sentences of 1054. The existing Documented 'broke with' and 'argued against' links between the Byzantine and Latin papal entries carry the relationship; no era 10 link is needed."
+  },
+  {
+   "movement": "the-greek-church-and-the-ecumenical-patriarchate",
+   "field": "longDescription",
+   "sentence": "Rome's legates had excommunicated Patriarch Michael Cerularius, and his synod had condemned the legates in turn.",
+   "other_id": "byzantine-church-after-1054",
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "As above: supported by the 1965 declaration, paragraph 2; the 1054 relationship lives on existing era 5 links."
+  },
+  {
+   "movement": "the-greek-church-and-the-ecumenical-patriarchate",
+   "field": "longDescription",
+   "sentence": "On 7 December 1965 Pope Paul VI and Ecumenical Patriarch Athenagoras I issued a Joint Catholic-Orthodox Declaration.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Claim checked and supported: the declaration on vatican.va (read raw) is dated 7 December 1965 and says both sides 'remove both from memory and from the midst of the Church the sentences of excommunication'. No census entry stands for the post-council papacy; the post-Vatican II parish entry is the nearest. A link was not drawn: with no study cited, a joint declaration read online cannot reach Widely Accepted. See escalations."
+  },
+  {
+   "movement": "the-greek-church-and-the-ecumenical-patriarchate",
+   "field": "longDescription",
+   "sentence": "In 1907 the Brotherhood of Theologians Zoe, meaning 'Life', was founded in Greece.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Zoe has no census entry. The 1907 date rests on the entry's cited thesis (Logotheti 2016), which was not opened here; flagged, no prose change."
+  },
+  {
+   "movement": "the-georgian-orthodox-church-restored",
+   "field": "relationsSummary",
+   "sentence": "Alongside the Armenian church, this is one of the Caucasus region's modern anchors.",
+   "other_id": "the-armenian-church-after-the-genocide-medz-yegh",
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A statement about the two churches' place in the region, not a claim of contact or descent."
+  },
+  {
+   "movement": "the-georgian-orthodox-church-restored",
+   "field": "longDescription",
+   "sentence": "Recognition came slowly and from two directions: Moscow acknowledged the restored autocephaly on 31 October 1943, and Constantinople issued its tomos on 4 March 1990.",
+   "other_id": "the-russian-orthodox-church-council-patriarchate-and-reunion",
+   "disposition": "link",
+   "link_id": "the-georgian-orthodox-church-restored--the-russian-orthodox-church-council-patriarchate-and-reunion",
+   "prose_change": null,
+   "reason": "New 'in contact with' (major), on one modern study read online: communion restored in 1943. The day '31 October' is not checked."
+  },
+  {
+   "movement": "the-georgian-orthodox-church-restored",
+   "field": "longDescription",
+   "sentence": "Recognition came slowly and from two directions: Moscow acknowledged the restored autocephaly on 31 October 1943, and Constantinople issued its tomos on 4 March 1990.",
+   "other_id": "the-greek-church-and-the-ecumenical-patriarchate",
+   "disposition": "link",
+   "link_id": "the-georgian-orthodox-church-restored--the-greek-church-and-the-ecumenical-patriarchate",
+   "prose_change": null,
+   "reason": "New 'in contact with' (major), on the same study: Demetrios I's tomos. The study's timing ('immediately after the collapse of the Soviet Union') does not match '4 March 1990'; flagged on the link, prose left for the reviewer."
+  },
+  {
+   "movement": "the-georgian-orthodox-church-restored",
+   "field": "longDescription",
+   "sentence": "Georgia's church had been autocephalous since antiquity until that status was abolished in 1811 and the church absorbed into the Russian one.",
+   "other_id": "russian-church-nikon-to-holy-synod",
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Inventory corrected: 1811 falls in the era 8 Russian entry (1652-1815), not the era 9 one. But the church abolished in 1811 is the Georgian church before 1917, which has no census entry (the Caucasus lane has no Georgian entry between 1245 and 1917). No link can be drawn. The 1811 act was not read; it is in wants and flagged."
+  },
+  {
+   "movement": "the-georgian-orthodox-church-restored",
+   "field": "relationsSummary",
+   "sentence": "Georgia's bishops unilaterally restored the church's autocephaly on 25 March 1917, reversing Russia's 1811 abolition of it.",
+   "other_id": "the-russian-orthodox-church-council-patriarchate-and-reunion",
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Added (the inventory missed it). The 1917 act is the entry's own founding event. A 'broke with' link to the Russian church would need a record of the rupture, ideally from both sides; none was found online. The 1943 'in contact with' link records the healing. The 1917 declaration is in wants."
+  },
+  {
+   "movement": "the-catholic-church-in-africa-twentieth-century",
+   "field": "relationsSummary",
+   "sentence": "It carries on the Catholic half of the Uganda Martyrs' story, which ends in 1906.",
+   "other_id": "east-african-christianity-uganda-martyrs",
+   "disposition": "link",
+   "link_id": "east-african-christianity-uganda-martyrs--the-catholic-church-in-africa-twentieth-century",
+   "prose_change": null,
+   "reason": "New 'continued as', on Paul VI's address of 1964 and homily at Namugongo of 1969, with Hastings named."
+  },
+  {
+   "movement": "the-catholic-church-in-africa-twentieth-century",
+   "field": "relationsSummary",
+   "sentence": "Rome's own story in this era is told in the entries on the Catholic Church before and after the Second Vatican Council.",
+   "other_id": "the-catholic-church-pius-x-to-the-council",
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A pointer to the entries that hold Rome's story, not a relationship claim between movements."
+  },
+  {
+   "movement": "the-catholic-church-in-africa-twentieth-century",
+   "field": "relationsSummary",
+   "sentence": "Rome's own story in this era is told in the entries on the Catholic Church before and after the Second Vatican Council.",
+   "other_id": "the-post-vatican-ii-parish-world",
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "As above: a pointer, not a relationship claim."
+  },
+  {
+   "movement": "the-catholic-church-in-africa-twentieth-century",
+   "field": "relationsSummary",
+   "sentence": "The entry on the African-initiated churches tells of Africans who left the missions.",
+   "other_id": "african-initiated-churches-harrist-aladura-zioni",
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A contrast between two entries (those who left the missions, those who stayed), not a claim of contact or descent between them."
+  },
+  {
+   "movement": "the-catholic-church-in-africa-twentieth-century",
+   "field": "longDescription",
+   "sentence": "In Katanga, in the Belgian Congo, the Franciscan Placide Tempels began the Jamaa movement.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Jamaa has no census entry. The entry's sources name Fabian (1971); not opened here."
+  },
+  {
+   "movement": "the-sayfo-and-the-syriac-diaspora",
+   "field": "relationsSummary",
+   "sentence": "This is the modern continuation of the ancient Syriac Christian tradition, whose recorded history had gone quiet after about 1300 — a silence Syriac communities experienced as erasure, named honestly here rather than smoothed over.",
+   "other_id": "syriac-edessa-nisibis",
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No link from the era 1 entry: a jump of 1,500 years past many intermediate entries is not one community's continuity, and the Church of the East wing already continues from VIII.40 by an existing link. The 'continuation of the tradition' is supported in general by that link. The rest of the sentence (the silence after 1300, how Syriac communities experienced it, 'named honestly here') is escalated, with the matching legacy text, not rewritten."
+  },
+  {
+   "movement": "the-sayfo-and-the-syriac-diaspora",
+   "field": "relationsSummary",
+   "sentence": "It covers the Assyrian, Church of the East wing as well as the Syriac Orthodox wing, including the assassination of Mar Shimun XXIII in 1975, a split within the Church of the East in 1968, and the 1994 Common Christological Declaration with Rome.",
+   "other_id": "church-of-the-east-chaldean-consolidation",
+   "disposition": "link",
+   "link_id": "church-of-the-east-chaldean-consolidation--the-sayfo-and-the-syriac-diaspora",
+   "prose_change": null,
+   "reason": "Existing 'continued as' link, kept."
+  },
+  {
+   "movement": "the-sayfo-and-the-syriac-diaspora",
+   "field": "relationsSummary",
+   "sentence": "It covers the Assyrian, Church of the East wing as well as the Syriac Orthodox wing, including the assassination of Mar Shimun XXIII in 1975, a split within the Church of the East in 1968, and the 1994 Common Christological Declaration with Rome.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Claim checked and supported: the declaration on vatican.va (read raw) is signed by Mar Dinkha IV and John Paul II, 'Given at Saint Peter’s, on 11 November 1994'. No census entry stands for the post-council papacy; not linked, for the same reason as the 1965 declaration (escalations). The 1968 split and 1975 assassination were not checked here."
+  },
+  {
+   "movement": "the-malankara-churches-orthodox-and-jacobite",
+   "field": "relationsSummary",
+   "sentence": "Together they carry forward the ancient St Thomas Christian tradition, alongside the Mar Thoma Church, the reform wing that separated earlier, in 1889.",
+   "other_id": "st-thomas-christians-under-portuguese-pressure-d",
+   "disposition": "link",
+   "link_id": "st-thomas-christians-under-portuguese-pressure-d--the-malankara-churches-orthodox-and-jacobite",
+   "prose_change": null,
+   "reason": "New 'gave rise to'. Inventory corrected: the era 4 entry already continues into VI.18, whose own text names the Malankara churches as heirs."
+  },
+  {
+   "movement": "the-malankara-churches-orthodox-and-jacobite",
+   "field": "relationsSummary",
+   "sentence": "Together they carry forward the ancient St Thomas Christian tradition, alongside the Mar Thoma Church, the reform wing that separated earlier, in 1889.",
+   "other_id": "northeast-india-revivals-and-the-mar-thoma-refor",
+   "disposition": "link",
+   "link_id": "northeast-india-revivals-and-the-mar-thoma-refor--the-malankara-churches-orthodox-and-jacobite",
+   "prose_change": null,
+   "reason": "Existing 'broke with' link, kept."
+  },
+  {
+   "movement": "the-malankara-churches-orthodox-and-jacobite",
+   "field": "relationsSummary",
+   "sentence": "In 1912, Patriarch Abdul Masih II's consecration of a Catholicos split the community into an autocephalous wing, the Malankara Orthodox Syrian Church, and a patriarchal wing, the Jacobite Syrian Christian Church loyal to the Syriac Orthodox patriarchate of Antioch.",
+   "other_id": "the-sayfo-and-the-syriac-diaspora",
+   "disposition": "link",
+   "link_id": "the-malankara-churches-orthodox-and-jacobite--the-sayfo-and-the-syriac-diaspora",
+   "prose_change": null,
+   "reason": "New 'in contact with' (major, split), on the Malankara Orthodox diocesan page (1912, 1975), Frykenberg named."
+  },
+  {
+   "movement": "the-malankara-churches-orthodox-and-jacobite",
+   "field": "relationsSummary",
+   "sentence": "A mid-century reunion broke down in 1975 when the patriarch deposed the Catholicos, and the dispute went back to India's courts, reaching the Supreme Court again in 1995.",
+   "other_id": "the-sayfo-and-the-syriac-diaspora",
+   "disposition": "link",
+   "link_id": "the-malankara-churches-orthodox-and-jacobite--the-sayfo-and-the-syriac-diaspora",
+   "prose_change": null,
+   "reason": "Added (the inventory missed it): the 1975 act is the same relationship, carried on the same link. The page says 'excommunication', the prose 'deposed'; flagged, not changed. 1958 is on the page; 1995 was not read."
+  },
+  {
+   "movement": "latin-american-base-communities",
+   "field": "relationsSummary",
+   "sentence": "Pentecostal churches grew fast among the same poor communities in Latin America at the same time as the base communities, a pairing worth noting side by side.",
+   "other_id": "global-south-pentecostal-christianity",
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A claim of parallel growth, not of contact or influence; overlapping dates alone never make a link. Support named in the entry's sources (Martin, Tongues of Fire, 1990; Burdick, 1993; Pew 2006) was not re-read here, so it rests on those titles. No prose change."
+  },
+  {
+   "movement": "latin-american-base-communities",
+   "field": "relationsSummary",
+   "sentence": "The bishops' meetings at Medellín in 1968 and Puebla in 1979 are told in the entry on Latin American Catholicism, the parent of this one.",
+   "other_id": "latin-american-catholicism-twentieth-century",
+   "disposition": "link",
+   "link_id": "latin-american-catholicism-twentieth-century--latin-american-base-communities",
+   "prose_change": null,
+   "reason": "New 'gave rise to' (Dominant Modern Reconstruction), on Trigo's study quoting Medellín 15, 10. Group J's movement names it too; keep one at merge."
+  },
+  {
+   "movement": "latin-american-base-communities",
+   "field": "longDescription",
+   "sentence": "Gustavo Gutiérrez had named the theology in 1971.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Liberation theology has no census entry of its own. Added (the inventory missed it); the 1971 date is in the entry's sources, not checked here."
+  },
+  {
+   "movement": "latin-american-base-communities",
+   "field": "longDescription",
+   "sentence": "Rome's doctrinal office issued two instructions on liberation theology, in 1984 and 1986.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No census entry for the post-council papacy or the doctrinal office; added (the inventory missed it). Not checked here."
+  },
+  {
+   "movement": "branch-davidians-and-apocalyptic-splinters",
+   "field": "relationsSummary",
+   "sentence": "Victor Houteff broke from Adventism in 1929, and his followers settled at Mount Carmel outside Waco in 1935.",
+   "other_id": "seventh-day-adventist-church-twentieth-century",
+   "disposition": "qualify",
+   "link_id": "seventh-day-adventist-church-twentieth-century--branch-davidians-and-apocalyptic-splinters",
+   "prose_change": 1,
+   "reason": "New 'gave rise to' link. 'Broke from' is qualified: Houteff's own 1930 text says it 'does not advocate a new movement', and the church's rejection was not read. The new wording follows the entry's own longDescription."
+  },
+  {
+   "movement": "branch-davidians-and-apocalyptic-splinters",
+   "field": "longDescription",
+   "sentence": "In 1929 Victor Houteff began circulating a reform message inside Adventism that his church rejected, and published it as The Shepherd's Rod in 1930 and 1932; his followers settled at Mount Carmel outside Waco, Texas, in 1935.",
+   "other_id": "seventh-day-adventist-church-twentieth-century",
+   "disposition": "link",
+   "link_id": "seventh-day-adventist-church-twentieth-century--branch-davidians-and-apocalyptic-splinters",
+   "prose_change": null,
+   "reason": "Carried by the new 'gave rise to' link. 'A reform message inside Adventism' matches the 1930 text. 'That his church rejected' rests on Newport and Tabor and Gallagher, named; no prose change."
+  },
+  {
+   "movement": "branch-davidians-and-apocalyptic-splinters",
+   "field": "why",
+   "sentence": "Victor Houteff broke from Adventism in 1929 and published his reform message as The Shepherd's Rod, and his followers settled at Mount Carmel outside Waco in 1935.",
+   "other_id": "seventh-day-adventist-church-twentieth-century",
+   "disposition": "qualify",
+   "link_id": "seventh-day-adventist-church-twentieth-century--branch-davidians-and-apocalyptic-splinters",
+   "prose_change": 2,
+   "reason": "Added (the inventory missed it). Same qualification as the relationsSummary."
+  },
+  {
+   "movement": "catholic-lay-renewal-worlds-catholic-worker-foco",
+   "field": "relationsSummary",
+   "sentence": "Children of the long Catholic renewal line",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 3,
+   "reason": "Added (the inventory missed it). 'The long Catholic renewal line' names no movement and no source shows the four movements descending from one line; the entry itself says they are four distinct movements. Rewritten as plain sentences from the entry's own dated facts."
+  },
+  {
+   "movement": "catholic-lay-renewal-worlds-catholic-worker-foco",
+   "field": "why",
+   "sentence": "the Charismatic Renewal that began on a retreat weekend at Duquesne University in 1967",
+   "other_id": "charismatic-renewal-and-the-jesus-movement",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Part 1 owns it: the part 1 entry's text names it ('Roman Catholics shared in the same renewal'). Part 1 drew no link for it. Flagged: the pair has no link on main."
+  },
+  {
+   "movement": "catholic-lay-renewal-worlds-catholic-worker-foco",
+   "field": "longDescription",
+   "sentence": "Cardinal Suenens's Malines Documents, from 1974, worked out how it and the wider church would live together.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Names documents and a person, not a movement. Not checked here."
+  },
+  {
+   "movement": "iglesia-ni-cristo",
+   "field": "relationsSummary",
+   "sentence": "Founded in the Philippines, where Catholicism had shaped the country for three centuries.",
+   "other_id": "philippine-catholicism",
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Context only; no relationship between the two is claimed. Spanish Catholic rule from 1565 to 1898 is carried by the Philippine Catholic entries and their links."
+  }
+ ],
+ "links": [
+  {
+   "id": "the-greek-church-and-the-ecumenical-patriarchate--the-ecumenical-movement-and-the-wcc",
+   "from": "the-greek-church-and-the-ecumenical-patriarchate",
+   "to": "the-ecumenical-movement-and-the-wcc",
+   "type": "influenced",
+   "confidence": "Widely Accepted",
+   "note": "In January 1920 the Ecumenical Patriarchate sent a letter to all the churches. It said that their differences in belief need not keep them apart. The World Council of Churches names this letter as one of its roots.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Ecumenical Patriarchate of Constantinople, encyclical 'Unto the Churches of Christ Everywhere' (January 1920), English text as published by the World Council of Churches from M. Kinnamon (ed.), The Ecumenical Movement: An Anthology of Key Texts and Voices, 2nd ed. (WCC Publications, 2016), 73-74",
+     "url": "https://www.oikoumene.org/resources/documents/unto-the-churches-of-christ-everywhere-encyclical-of-the-ecumenical-patriarchate-1920",
+     "accessed": "2026-11-10",
+     "locus": "the encyclical's opening section",
+     "quote": "Our own church holds that rapprochement between the various Christian churches and fellowship between them is not excluded by the doctrinal differences which exist between them.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "World Council of Churches, 'History' (oikoumene.org; the council's own account, an undated page written after 2013)",
+     "url": "https://www.oikoumene.org/about-the-wcc/history",
+     "accessed": "2026-11-10",
+     "locus": "History, first section",
+     "quote": "The historical roots of the World Council of Churches are found in student and lay movements of the 19th century, the 1910 Edinburgh world missionary conference, and a 1920 encyclical from the (Orthodox) Synod of Constantinople suggesting a \"fellowship of churches\" similar to the League of Nations.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Bryn Geffert, 'Anglican Orders and Orthodox Politics', Journal of Ecclesiastical History 57, no. 2 (Cambridge University Press, 2006), from p. 270 (author's copy)",
+     "url": "https://rprt.northwestern.edu/people/research-scholars/anglican-orders-and-orthodox-politics.pdf",
+     "accessed": "2026-11-10",
+     "locus": "p. 272",
+     "quote": "In January of 1920 – the same year as The Christian East began publication – the Ecumenical Patriarchate issued possibly the most famous encyclical from Constantinople in the twentieth century, Unto all the Churches of Christ wheresoever they be.",
+     "license": "rights reserved; short quotation"
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-online",
+   "action": "keep",
+   "named_in_text": [
+    "the-greek-church-and-the-ecumenical-patriarchate relationsSummary ('Orthodox membership of the World Council of Churches ...')"
+   ],
+   "wants": [],
+   "drafter_flags": [],
+   "change_reason": "Part 1 drew and merged this link (inventory: part1_owned). Kept unchanged, not redrawn. Its three online quotes were re-read against the WCC encyclical page in part 1's check.",
+   "major": {
+    "major": false,
+    "kind": null,
+    "evidence": null,
+    "reason": "Part 1 judged it minor: the 1920 encyclical proposed a fellowship of churches; no council, deposition, split or rule changed by an authority."
+   }
+  },
+  {
+   "id": "church-of-the-east-chaldean-consolidation--the-sayfo-and-the-syriac-diaspora",
+   "from": "church-of-the-east-chaldean-consolidation",
+   "to": "the-sayfo-and-the-syriac-diaspora",
+   "type": "continued as",
+   "confidence": "Widely Accepted",
+   "note": "In 1892 two Anglican missionaries described the patriarch Mar Shimun living at Qudshanis in the Hakkari mountains. In 1929 W. A. Wigram, a former head of their mission, told how the Hakkari Assyrians were driven from their valleys in 1915 and fled to Persia. A 2006 study by David Gaunt covers the wartime killing of these Christians.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "A. J. Maclean and W. H. Browne, The Catholicos of the East and his People (London, 1892), list of the clergy",
+     "file": "cic/texts/maclean-browne_catholicos-of-the-east-and-his-people_1892.txt",
+     "lines": "9509-9511",
+     "locus": "ch. on the Eastern Syrian clergy, p. 195",
+     "quote": "1. Mar Shimun (Simon. Baptismal nameRuil or Reuben), Patriarch and Catholicos of the East, who resides at Qudshanis (Kochanis).",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "W. A. Wigram, The Assyrians and their Neighbours (London, 1929), ch. 'The Great War, and After'",
+     "file": "cic/texts/wigram_assyrians-and-their-neighbours_1929.txt",
+     "lines": "9756-9760",
+     "locus": "ch. on the Great War, pp. 213-214",
+     "quote": "A fourth attempt had better success, and the nation was driven from the valleys, and forced to take refuge on one of the great series of mountain plateaux, that form the summer pastures of the country.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "W. A. Wigram, The Assyrians and their Neighbours (London, 1929), ch. 'The Great War, and After'",
+     "file": "cic/texts/wigram_assyrians-and-their-neighbours_1929.txt",
+     "lines": "9841-9843",
+     "locus": "ch. on the Great War, p. 215",
+     "quote": "In Persia the nation was safe for the moment, though their position was anomalous by any system of international law.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "David Gaunt, Massacres, Resistance, Protectors: Muslim-Christian Relations in Eastern Anatolia During World War I (2006)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "action": "keep",
+   "named_in_text": [
+    "the-sayfo-and-the-syriac-diaspora relationsSummary ('the Assyrian, Church of the East wing'); longDescription; why"
+   ],
+   "wants": [],
+   "drafter_flags": [],
+   "change_reason": "Kept. The Sayfo text names the Church of the East wing and the existing link carries it, on Library quotes (Maclean and Browne 1892; Wigram 1929) and Gaunt (2006). Widely Accepted is right: 'continued as' is a reading of continuity, and the Library texts show the see at Qudshanis and the 1915 flight, not the identity itself."
+  },
+  {
+   "id": "northeast-india-revivals-and-the-mar-thoma-refor--the-malankara-churches-orthodox-and-jacobite",
+   "from": "northeast-india-revivals-and-the-mar-thoma-refor",
+   "to": "the-malankara-churches-orthodox-and-jacobite",
+   "type": "broke with",
+   "confidence": "Widely Accepted",
+   "note": "In 1847 the Patriarch of Antioch repeated his predecessor's curse on Mathew Mar Athanasius, the reforming bishop in Kerala. He ordered that 'none shall pray with him'. A rival bishop had already come from Antioch to check the reform. Then a royal court verdict in 1889 left the two sides as separate churches.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Ignatius Jacob II, Patriarch of Antioch, letter of 29 May 1847 on the dismissal of Athanasius Matthew, in Edavalikel Philipos, The Syrian Christians of Malabar, ed. G. B. Howard (1869)",
+     "file": "cic/texts/philipos_syrian-christians-of-malabar_howard1869.txt",
+     "lines": "2632-2636",
+     "locus": "The Patriarch's Letter (May, 1847)",
+     "quote": "And thus again do we anathematize the audacious Matthew, as our Father the blessed Patriarch anathematized him. And no man shall in any wise have authority to receive him, or to hear his words, and none shall pray with him or consort with him on any ground whatsoever.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "The same letter (1847), on the charges against him",
+     "file": "cic/texts/philipos_syrian-christians-of-malabar_howard1869.txt",
+     "lines": "2574-2576",
+     "locus": "The Patriarch's Letter (May, 1847)",
+     "quote": "the accursed Matthew had acted impiously, and was a heretic, and had changed his profession, and had abolished the fasts and the customs",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "The same letter (1847), on the earlier Patriarch Elias sending Mar Koorillos",
+     "file": "cic/texts/philipos_syrian-christians-of-malabar_howard1869.txt",
+     "lines": "2593-2595",
+     "locus": "The Patriarch's Letter (May, 1847)",
+     "quote": "And he sent him to India hour before hour, that he might expel the reprobate Matthew, and keep from him all the flock of Mar Thomas,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Thomas Whitehouse, Lingerings of Light in a Dark Land (1873)",
+     "file": "cic/texts/whitehouse_lingerings-of-light-in-a-dark-land_1873.txt",
+     "lines": "11330-11334",
+     "locus": "visit to Mar Kurillos at Chilasherry",
+     "quote": "He was known as Mar Kurillos Joyakin, and had been sent by the Jacobite Patriarch to check the reforming tendencies of Mar Athanasius, and the enquiry after truth consequent upon the labours of the English Missionaries in Travancore.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Robert Eric Frykenberg, Christianity in India: From Beginnings to the Present (OUP, 2008)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "action": "keep",
+   "named_in_text": [
+    "the-malankara-churches-orthodox-and-jacobite relationsSummary ('alongside the Mar Thoma Church, the reform wing that separated earlier, in 1889')"
+   ],
+   "wants": [],
+   "drafter_flags": [],
+   "change_reason": "Kept. The Malankara text names the Mar Thoma Church 'the reform wing that separated earlier, in 1889'; the existing broke-with link carries it on the 1847 patriarchal letter and Whitehouse (1873), with Frykenberg. Its note fits the claim."
+  },
+  {
+   "id": "orthodoxy-after-1821-balkan-autocephalies--the-greek-church-and-the-ecumenical-patriarchate",
+   "from": "orthodoxy-after-1821-balkan-autocephalies",
+   "to": "the-greek-church-and-the-ecumenical-patriarchate",
+   "type": "continued as",
+   "confidence": "Widely Accepted",
+   "note": "In 1850 a synod at Constantinople made the Church of Greece a church that ran itself. In 1928 the Patriarchate at Constantinople gave that church 35 of its dioceses in northern Greece to run. They still belonged to the Patriarchate.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "World Council of Churches, member church page: Church of Greece (oikoumene.org; the council's current, undated page)",
+     "url": "https://www.oikoumene.org/member-churches/church-of-greece",
+     "accessed": "2026-11-10",
+     "locus": "member church description, second paragraph",
+     "quote": "In 1850 the Endemousa Synod in Constantinople declared the Church of Greece autocephalous.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "World Council of Churches, member church page: Church of Greece (oikoumene.org; the council's current, undated page)",
+     "url": "https://www.oikoumene.org/member-churches/church-of-greece",
+     "accessed": "2026-11-10",
+     "locus": "member church description, second paragraph",
+     "quote": "In 1928 the Ecumenical Patriarchate issued a tome by which it ceded to the Church of Greece on a temporary basis 35 of its metropolitan dioceses in northern Greece.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Charles A. Frazee, The Orthodox Church and Independent Greece, 1821-1852 (Cambridge University Press, 1969)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Lucian N. Leustean, ed., Eastern Christianity and the Cold War, 1945-91 (Routledge, 2010)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-online",
+   "action": "new",
+   "named_in_text": [
+    "the-greek-church-and-the-ecumenical-patriarchate relationsSummary ('It carries on from Orthodoxy after 1821, the National Churches')",
+    "orthodoxy-after-1821-balkan-autocephalies legacy ('the Church of Greece ... date their modern independence to this century')"
+   ],
+   "wants": [
+    "The Tomos of 1850 is in the Library (Gedeon, Kanonikai diataxeis I, 1888, about lines 14686-14687) but the OCR there is too damaged to quote cleanly; a clean Greek text, or the Tome of 1928 in the Library, would let this link rise toward Documented"
+   ],
+   "drafter_flags": [
+    "The quotes come from the WCC's member page for the Church of Greece, an undated current page that stands for the member church's own account. Part 1 used WCC pages the same way.",
+    "Frazee and Leustean are repo-cited and named, not re-read here. Frazee covers 1821-1852 and Leustean the Cold War; together they bracket the continuity. Neither was opened in this run.",
+    "The entry covers both the Church of Greece and the Ecumenical Patriarchate. The see of Constantinople's continuity across 1906 is carried by the same link, since the 1928 quote shows the Patriarchate acting in the new century."
+   ],
+   "change_reason": "New. The Greek church's own text names this continuation, and the era 9 entry has no outgoing link into era 10."
+  },
+  {
+   "id": "the-greek-church-and-the-ecumenical-patriarchate--the-ecumenical-movement-and-the-wcc--2",
+   "from": "the-greek-church-and-the-ecumenical-patriarchate",
+   "to": "the-ecumenical-movement-and-the-wcc",
+   "type": "member of",
+   "confidence": "Widely Accepted",
+   "note": "The Ecumenical Patriarchate and the Church of Greece both joined the World Council of Churches in 1948. The council's own list of member churches gives that year for each.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "World Council of Churches, member church page: Ecumenical Patriarchate (oikoumene.org; the council's current page)",
+     "url": "https://www.oikoumene.org/member-churches/ecumenical-patriarchate",
+     "accessed": "2026-11-10",
+     "locus": "member church details",
+     "quote": "WCC Member Since 1948",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "World Council of Churches, member church page: Church of Greece (oikoumene.org; the council's current page)",
+     "url": "https://www.oikoumene.org/member-churches/church-of-greece",
+     "accessed": "2026-11-10",
+     "locus": "member church details",
+     "quote": "WCC Member Since 1948",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "World Council of Churches, member church page: Ecumenical Patriarchate (oikoumene.org; the council's current page)",
+     "url": "https://www.oikoumene.org/member-churches/ecumenical-patriarchate",
+     "accessed": "2026-11-10",
+     "locus": "member church description, third paragraph",
+     "quote": "It has been involved in the WCC from its beginning.",
+     "license": "rights reserved; short quotation"
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-online",
+   "action": "new",
+   "named_in_text": [
+    "the-greek-church-and-the-ecumenical-patriarchate relationsSummary ('Orthodox membership of the World Council of Churches')",
+    "the-ecumenical-movement-and-the-wcc (its own text names the 1920 call of the Ecumenical Patriarchate)"
+   ],
+   "wants": [],
+   "drafter_flags": [
+    "Drawn under the ruling of 2026-11-10: a council's own dated membership record carries a 'member of' link to Widely Accepted with no study beside it. No secondary work is listed, because none is needed under that ruling.",
+    "tools/validate-census.mjs (about line 172) still requires a secondary source for every Widely Accepted link, so this link fails the validator as written. The validator needs the member-of exception before apply; see escalations.",
+    "The pages are current and undated; the 'Member Since' field is the council's dated record of the year each church joined.",
+    "Id carries --2 because the pair already has the part 1 'influenced' link."
+   ],
+   "change_reason": "New. Part 2 draws 'member of' for a church that the council's roll lists, where the church's text names the council (ruling of 2026-11-10; Open-Gaps 143 and 146)."
+  },
+  {
+   "id": "st-thomas-christians-under-portuguese-pressure-d--the-malankara-churches-orthodox-and-jacobite",
+   "from": "st-thomas-christians-under-portuguese-pressure-d",
+   "to": "the-malankara-churches-orthodox-and-jacobite",
+   "type": "gave rise to",
+   "confidence": "Widely Accepted",
+   "note": "In 1869 Edavalikel Philipos, a priest at Kottayam, wrote that those who left Rome under a bishop from Antioch were called the New Party. The Malankara Orthodox Church traces its own start to that break with Rome.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Edavalikel Philipos, The Syrian Christians of Malabar, ed. G. B. Howard (Oxford and London, 1869), answer to Q. 71",
+     "file": "cic/texts/philipos_syrian-christians-of-malabar_howard1869.txt",
+     "lines": "2184-2188",
+     "locus": "Q. 71 (on the Pothenkoorkar and Palayakoorkar)",
+     "quote": "But in 1685, when Mar Evanious came, those who forsook Popery by the instru- mentality of that Bishop, and who at once newly adopted (re- adopted) Syrianism, were called Poothenkoorkar, (i.e.) New Partisans,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Malankara Orthodox Syrian Church, Diocese of Kottayam, 'Church History' (mosckottayam.com; current page, copyright 2024)",
+     "url": "https://mosckottayam.com/menu/church/church-history",
+     "accessed": "2026-11-10",
+     "locus": "Church History, 'St. Thomas Christians'",
+     "quote": "Furthermore, the Church in India pursued a formal relationship between Malankara and the Syriac Orthodox Church of Antioch in the mid-17th century. Thus, marked the first split amongst the St. Thomas Christians, between the Orthodox Christians in communion with Antioch, and the community which chose to enter into communion with the Rome.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Malankara Orthodox Syrian Church, Diocese of Kottayam, 'Church History' (mosckottayam.com; current page, copyright 2024)",
+     "url": "https://mosckottayam.com/menu/church/church-history",
+     "accessed": "2026-11-10",
+     "locus": "Church History, on 1912",
+     "quote": "In 1912, the Malankara Orthodox Church was granted autocephaly when Baselios Paulose I was elevated as Catholicos of the East, successor to the Apostolic Throne of Saint Thomas, and Primate of the Malankara OrthodoxChristians by Patriarch Ignatius Abdul Messiah II.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Robert Eric Frykenberg, Christianity in India: From Beginnings to the Present (Oxford University Press, 2008)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-online",
+   "action": "new",
+   "named_in_text": [
+    "the-malankara-churches-orthodox-and-jacobite relationsSummary ('Together they carry forward the ancient St Thomas Christian tradition')",
+    "st-thomas-christians-under-portuguese-pressure-d relationsSummary ('Its heirs are the Syro-Malabar Catholics and the Malankara and Mar Thoma churches') and legacy ('the ancestors of the Malankara Orthodox, Jacobite, Mar Thoma and related churches')"
+   ],
+   "wants": [
+    "Kerala church sources between 1869 and 1912 held in the Library (for example the Malankara Association records or the Vattipanam suit papers) would carry the line from Philipos's church to the 1912 Catholicate inside the Library"
+   ],
+   "drafter_flags": [
+    "The inventory matched the 'ancient St Thomas Christian tradition' to the era 4 entry. That entry already continues through V.23 into VI.18, and VI.18 is the entry whose legacy names the Malankara churches as heirs, so the link runs from VI.18. This parallels the existing VI.18 'gave rise to' link to the Mar Thoma reform entry.",
+    "Philipos gives 1685 and 'Mar Evanious'; the VI.18 window ends in 1665. The note does not repeat the year. The Library quote shows the New Party arising from the community of the Portuguese era; the 1912 Catholicate and the church's own self-description rest on the diocesan page read online, so the cap holds at Widely Accepted.",
+    "Philipos is described as 'Cathanar of the Great Church at Cottayam' in the file header; 'a priest at Kottayam' follows that. The page's quote keeps its own typo 'OrthodoxChristians' and 'the Rome'.",
+    "The diocesan page is current (copyright 2024) and undated; it supports facts from 1653 to 1912. Frykenberg is repo-cited and named, not re-read."
+   ],
+   "change_reason": "New. The Malankara text names its descent from the St Thomas tradition; VI.18's text names the Malankara churches as heirs, and no link existed."
+  },
+  {
+   "id": "the-malankara-churches-orthodox-and-jacobite--the-sayfo-and-the-syriac-diaspora",
+   "from": "the-malankara-churches-orthodox-and-jacobite",
+   "to": "the-sayfo-and-the-syriac-diaspora",
+   "type": "in contact with",
+   "confidence": "Widely Accepted",
+   "note": "In 1912 the patriarch of Antioch, Abdul Messiah II, made Baselios Paulose I head of the church in India. The church then split. One side backed the new head, and the other backed the patriarch. In 1975 a later patriarch excommunicated the head of the church, and it split again.",
+   "outcome": "In 1975 the patriarch of Antioch cut the head of the Malankara church off from communion, and the church split in two again.",
+   "major": {
+    "major": true,
+    "kind": "split",
+    "evidence": {
+     "url": "https://mosckottayam.com/menu/church/church-history",
+     "text": "Unfortunately, in 1975, the Church was again brought into turmoil due to an excommunication from the Patriarch of Antioch of His Holiness Catholicos Baselios Augen, which led to the creation of two factions again."
+    },
+    "reason": "The church's own page records a split into two factions after the patriarch's act; the 1912 consecration also 'led to a schism'. A split into separate bodies meets the test."
+   },
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Malankara Orthodox Syrian Church, Diocese of Kottayam, 'Church History' (mosckottayam.com; current page, copyright 2024)",
+     "url": "https://mosckottayam.com/menu/church/church-history",
+     "accessed": "2026-11-10",
+     "locus": "Church History, on 1912",
+     "quote": "In 1912, the Malankara Orthodox Church was granted autocephaly when Baselios Paulose I was elevated as Catholicos of the East, successor to the Apostolic Throne of Saint Thomas, and Primate of the Malankara OrthodoxChristians by Patriarch Ignatius Abdul Messiah II.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Malankara Orthodox Syrian Church, Diocese of Kottayam, 'Church History' (mosckottayam.com; current page, copyright 2024)",
+     "url": "https://mosckottayam.com/menu/church/church-history",
+     "accessed": "2026-11-10",
+     "locus": "Church History, on 1912",
+     "quote": "Unfortunately, this led to a schism in the Holy Church, with one side supporting the Catholicos and the other, the Patriarch.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Malankara Orthodox Syrian Church, Diocese of Kottayam, 'Church History' (mosckottayam.com; current page, copyright 2024)",
+     "url": "https://mosckottayam.com/menu/church/church-history",
+     "accessed": "2026-11-10",
+     "locus": "Church History, on 1975",
+     "quote": "Unfortunately, in 1975, the Church was again brought into turmoil due to an excommunication from the Patriarch of Antioch of His Holiness Catholicos Baselios Augen, which led to the creation of two factions again.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Robert Eric Frykenberg, Christianity in India: From Beginnings to the Present (Oxford University Press, 2008)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-online",
+   "action": "new",
+   "named_in_text": [
+    "the-malankara-churches-orthodox-and-jacobite relationsSummary, longDescription and why ('Patriarch Abdul Masih II's consecration of a Catholicos'; 'the Jacobite Syrian Christian Church loyal to the Syriac Orthodox patriarchate of Antioch'; 'in 1975 the patriarch deposed the Catholicos')",
+    "the-sayfo-and-the-syriac-diaspora longDescription and why (the Syriac Orthodox patriarchate at Homs and Damascus) do not name it; the Malankara text alone does"
+   ],
+   "wants": [
+    "The Syriac Orthodox patriarchate's own decree of 1975 on the Catholicos, and its counter-account of 1912, so that both sides' records stand on the link",
+    "The Supreme Court of India judgments of 1958 and 1995 (the church's page names 1958; 1995 was not read)"
+   ],
+   "drafter_flags": [
+    "Only the Malankara Orthodox side's page was read. The patriarchal side's record was not found online, so the link stands as 'in contact with' rather than 'broke with', which would need both sides' records.",
+    "The Sayfo entry stands for the modern Syriac Orthodox patriarchate (it carries the patriarchate's moves to Homs and Damascus). It starts in 1915, three years after the 1912 consecration; the 1975 act falls inside its window, and the outcome rests on 1975.",
+    "The census says the patriarch 'deposed' the Catholicos in 1975; the Malankara page says 'excommunication'. The note and outcome follow the page. The prose was not changed, since the two sides use different words and only one was read; the reviewer may want 'deposed and excommunicated' or a neutral verb.",
+    "Abdul Messiah II's own standing in 1912 is disputed in the wider literature; nothing on that was read here, so the note names him only as the page does.",
+    "The page is current (copyright 2024) and undated; it supports facts from 1912 and 1975."
+   ],
+   "change_reason": "New. The Malankara text alone names the patriarchate of Antioch."
+  },
+  {
+   "id": "east-african-christianity-uganda-martyrs--the-catholic-church-in-africa-twentieth-century",
+   "from": "east-african-christianity-uganda-martyrs",
+   "to": "the-catholic-church-in-africa-twentieth-century",
+   "type": "continued as",
+   "confidence": "Widely Accepted",
+   "note": "In 1964 Pope Paul VI greeted the bishops, priests and faithful of Uganda in Rome, after he made the Uganda Martyrs saints. In 1969 he came to Namugongo to bless the altar of a shrine raised in their memory.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Paul VI, Address to the pilgrims gathered in Rome for the canonization of the holy martyrs of Uganda, 19 October 1964 (vatican.va)",
+     "url": "https://www.vatican.va/content/paul-vi/en/speeches/1964/documents/hf_p-vi_spe_19641019_uganda.html",
+     "accessed": "2026-11-10",
+     "locus": "third section",
+     "quote": "Your visit, occurring on the happy occasion of the canonization of the Martyrs of Uganda, fills Our heart with joy.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Paul VI, Address to the pilgrims gathered in Rome for the canonization of the holy martyrs of Uganda, 19 October 1964 (vatican.va)",
+     "url": "https://www.vatican.va/content/paul-vi/en/speeches/1964/documents/hf_p-vi_spe_19641019_uganda.html",
+     "accessed": "2026-11-10",
+     "locus": "third section, salutation",
+     "quote": "the Bishops, priests and faithful of Uganda and of Central Africa",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Paul VI, Homily at Namugongo, Uganda, 2 August 1969 (vatican.va)",
+     "url": "https://www.vatican.va/content/paul-vi/en/homilies/1969/documents/hf_p-vi_hom_19690802.html",
+     "accessed": "2026-11-10",
+     "locus": "opening section",
+     "quote": "Why have I come to Africa, to Uganda, and right here to Namugongo?",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Paul VI, Homily at Namugongo, Uganda, 2 August 1969 (vatican.va)",
+     "url": "https://www.vatican.va/content/paul-vi/en/homilies/1969/documents/hf_p-vi_hom_19690802.html",
+     "accessed": "2026-11-10",
+     "locus": "opening section",
+     "quote": "I have come to do honour to your Martyrs. Here is being raised a Sanctuary to the glory of the Lord in their memory; and I decided to come from Rome to bless the altar of this Sanctuary.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Adrian Hastings, The Church in Africa, 1450-1950 (Oxford: Clarendon Press, 1994)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-online",
+   "action": "new",
+   "named_in_text": [
+    "the-catholic-church-in-africa-twentieth-century relationsSummary ('It carries on the Catholic half of the Uganda Martyrs' story, which ends in 1906')",
+    "east-african-christianity-uganda-martyrs legacy ('canonized by the Catholic Church in 1964')"
+   ],
+   "wants": [
+    "J. P. Thoonen, Black Martyrs (1941), or the White Fathers' Uganda mission reports of 1906-1939, to carry the same Catholic community across 1906 inside the Library"
+   ],
+   "drafter_flags": [
+    "The Uganda entry holds both Anglican and Catholic converts; this link carries only the Catholic half, as the Catholic Africa text says. The Anglican half already runs on through the existing links to the East African Revival.",
+    "The 1964 and 1969 texts show the Catholic Church of Uganda in the new period honoring the martyrs as its own. The continuity of the community is the reading Hastings (repo-cited, named, not re-read) supports; hence Widely Accepted.",
+    "The English text of the 18 October 1964 canonization homily was not found on vatican.va (only Spanish and Latin are listed); the address of the next day was used instead."
+   ],
+   "change_reason": "New. The Catholic Africa entry (a new row of data release 25) names the Uganda entry as its parent, and it had no incoming link."
+  },
+  {
+   "id": "latin-american-catholicism-twentieth-century--latin-american-base-communities",
+   "from": "latin-american-catholicism-twentieth-century",
+   "to": "latin-american-base-communities",
+   "type": "gave rise to",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "At Medellín in 1968, Latin America's Catholic bishops called the base Christian community the first and basic cell of the church. A modern study reads this as their choice to build church life up from these communities.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Pedro Trigo, 'Medellín: una propuesta responsable. Prescribe a la Iglesia lo que propone a la sociedad', Revista Latinoamericana de Teología 35, no. 103 (UCA, San Salvador, 2018), 33-57 (journal PDF; year, volume and pages from the journal's article page)",
+     "url": "https://revistas.uca.edu.sv/index.php/rlt/article/download/5730/5677/17927",
+     "accessed": "2026-11-10",
+     "locus": "p. 49, quoting Medellín, Pastoral de conjunto 15, 10",
+     "quote": "Ella es, pues, célula inicial de estructuración eclesial, y foco de la evangelización, y actualmente factor primordial de promoción humana y desarrollo (15, 10).",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Pedro Trigo, 'Medellín: una propuesta responsable', Revista Latinoamericana de Teología 35, no. 103 (2018)",
+     "url": "https://revistas.uca.edu.sv/index.php/rlt/article/download/5730/5677/17927",
+     "accessed": "2026-11-10",
+     "locus": "p. 49",
+     "quote": "ahora insisten en que la comunidad cristiana de base es la célula inicial de la estructuración eclesial.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Penny Lernoux, Cry of the People (1980)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "John Burdick, Looking for God in Brazil (University of California Press, 1993)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-online",
+   "action": "new",
+   "named_in_text": [
+    "latin-american-base-communities relationsSummary ('the entry on Latin American Catholicism, the parent of this one') and longDescription ('The bishops gave the practice their backing at Medellín in 1968')",
+    "latin-american-catholicism-twentieth-century relationsSummary ('The base communities have their own entry, which hangs from this one')"
+   ],
+   "wants": [
+    "CELAM, Conclusions of the Second General Conference (Medellín, 1968), official text: the CELAM PDF address cited in the literature (celam.org/documentos/Documento_Conclusivo_Medellin.pdf) returned 404 in this run, and a mirror also failed. Reading 'Pastoral de conjunto' 10 in the bishops' own text would let this rise to Widely Accepted"
+   ],
+   "drafter_flags": [
+    "Both texts name it, and both movements are part 2 (group J holds the parent). Group J may draft the same pair; keep one at merge.",
+    "The Medellín words are read inside Trigo's study, not in the bishops' own published text, so the link rests on a study: Dominant Modern Reconstruction. The page number 49 is my reading of the PDF's running heads (p. 48 heads the preceding page); the reviewer should confirm it on the page image.",
+    "'Gave rise to' claims the base communities grew out of the Latin American Catholic church's people. The quotes show the bishops claiming them as the church's basic cell, not their first meetings. Lernoux and Burdick are repo-cited and named only.",
+    "The study is dated 2018. It supports a 1968 fact, and the note names no later date."
+   ],
+   "change_reason": "New. Both texts name the parent relationship and no link existed."
+  },
+  {
+   "id": "seventh-day-adventist-church-twentieth-century--branch-davidians-and-apocalyptic-splinters",
+   "from": "seventh-day-adventist-church-twentieth-century",
+   "to": "branch-davidians-and-apocalyptic-splinters",
+   "type": "gave rise to",
+   "confidence": "Widely Accepted",
+   "note": "In 1930 Victor Houteff wrote The Shepherd's Rod to call his fellow Seventh-day Adventists to reform. He wrote as one of them and said he was not starting a new movement. His followers later became a group of their own.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Victor T. Houteff, The Shepherd's Rod, vol. 1 (1930), transcription on shepherds-rod-message.org (a Davidian site; current page)",
+     "url": "https://shepherds-rod-message.org/sr/1SR",
+     "accessed": "2026-11-10",
+     "locus": "Introduction (vol. 1, p. 5 in the site's citation)",
+     "quote": "It is the intention of this book to reveal the truth of the 144,000 mentioned in Revelation 7 but the chief object of this publication is to bring about a reformation among God’s people.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Victor T. Houteff, The Shepherd's Rod, vol. 1 (1930), transcription on shepherds-rod-message.org",
+     "url": "https://shepherds-rod-message.org/sr/1SR",
+     "accessed": "2026-11-10",
+     "locus": "Introduction",
+     "quote": "This publication does not advocate a new movement, and it absolutely opposes such moves.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Victor T. Houteff, The Shepherd's Rod, vol. 1 (1930), transcription on shepherds-rod-message.org",
+     "url": "https://shepherds-rod-message.org/sr/1SR",
+     "accessed": "2026-11-10",
+     "locus": "section on the 144,000",
+     "quote": "Our denomination numbers about 300,000.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Kenneth G. C. Newport, The Branch Davidians of Waco (Oxford University Press, 2006)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "James D. Tabor and Eugene V. Gallagher, Why Waco? (University of California Press, 1995)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-online",
+   "action": "new",
+   "named_in_text": [
+    "branch-davidians-and-apocalyptic-splinters relationsSummary, longDescription and why ('a reform message inside Adventism'); its sources ('An offshoot of Seventh-day Adventism')"
+   ],
+   "wants": [
+    "The Shepherd's Rod, vol. 1 (1930), as a scan of the original printing: probably public domain (a 1930 US book; renewal not checked), so it could be vendored and the transcription checked against it",
+    "The Pacific Union committee's written finding of March 1934 on The Shepherd's Rod, or a General Conference action of the 1930s: the church's side of the rejection, needed before any 'broke with' link"
+   ],
+   "drafter_flags": [
+    "Houteff is named in the entry as the movement's founder and carrier, so his dated 1930 text counts as the movement's own (ruling Q2), capped at Widely Accepted.",
+    "The text was read in a modern transcription on a site run by a Davidian group, not on a scan of the 1930 printing. The quotes match that page; the reviewer may want them confirmed against a scan before apply.",
+    "'His followers later became a group of their own' rests on Newport and Tabor and Gallagher, both repo-cited and named only. Mount Carmel (1935) and the Branch group (1955) are not in the note, since no source read here shows them.",
+    "No 'broke with' link is drawn. The 1930 text denies a break, and the church's rejection was not read. The prose that says Houteff 'broke from Adventism in 1929' is qualified to match the entry's own longDescription.",
+    "The Adventist entry is part 1's, but its text does not name the Branch Davidians (inventory other_names_it false), so part 2 drafts it."
+   ],
+   "change_reason": "New. The Branch Davidian text names its Adventist origin, and no link existed."
+  },
+  {
+   "id": "the-georgian-orthodox-church-restored--the-russian-orthodox-church-council-patriarchate-and-reunion",
+   "from": "the-georgian-orthodox-church-restored",
+   "to": "the-russian-orthodox-church-council-patriarchate-and-reunion",
+   "type": "in contact with",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "In 1943 the Russian and Georgian churches restored communion with each other, a modern study says. It ties the step to Stalin's change of church policy that year.",
+   "outcome": "In 1943 the churches of Russia and Georgia were back in full communion with each other.",
+   "major": {
+    "major": true,
+    "kind": "rule-changed",
+    "evidence": {
+     "url": "https://www.analogiajournal.com/article/the-orthodox-church-of-georgia-and-the-perspectives-of-recognizing-the-autocephaly-of-the-orthodox-church-of-ukraine/",
+     "text": "Thus, in 1943, the Eucharistic union between the Orthodox Churches of Russia and Georgia was restored and later, the ROC chose Sergiy (Stragorodsky) as Patriarch."
+    },
+    "reason": "Restoring communion between two churches is a settlement changed by church authority. The act is reported by a study, not read in a church text; the reviewer should confirm a study's report satisfies 'one of its own listed sources shows an institutional act'."
+   },
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Guram Lursmanashvili, 'The Orthodox Church of Georgia and the perspectives of recognizing: The Autocephaly of the Orthodox Church of Ukraine', Analogia: The Pemptousia Journal for Theological Studies, vol. 24 (journal page; the year of the volume is not shown on the page, and the article cites pages accessed in 2023)",
+     "url": "https://www.analogiajournal.com/article/the-orthodox-church-of-georgia-and-the-perspectives-of-recognizing-the-autocephaly-of-the-orthodox-church-of-ukraine/",
+     "accessed": "2026-11-10",
+     "locus": "Introduction",
+     "quote": "Thus, in 1943, the Eucharistic union between the Orthodox Churches of Russia and Georgia was restored and later, the ROC chose Sergiy (Stragorodsky) as Patriarch.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Guram Lursmanashvili, 'The Orthodox Church of Georgia and the perspectives of recognizing: The Autocephaly of the Orthodox Church of Ukraine', Analogia: The Pemptousia Journal for Theological Studies, vol. 24 (journal page; the year of the volume is not shown on the page, and the article cites pages accessed in 2023)",
+     "url": "https://www.analogiajournal.com/article/the-orthodox-church-of-georgia-and-the-perspectives-of-recognizing-the-autocephaly-of-the-orthodox-church-of-ukraine/",
+     "accessed": "2026-11-10",
+     "locus": "Introduction",
+     "quote": "In 1943, Joseph Stalin, in pursuit of his political goals, decided to change the religious policy that had existed until then and openly included the Church in his imperialist paradigm.",
+     "license": "rights reserved; short quotation"
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-online",
+   "action": "new",
+   "named_in_text": [
+    "the-georgian-orthodox-church-restored relationsSummary, longDescription and why ('Moscow acknowledged the restored autocephaly on 31 October 1943')"
+   ],
+   "wants": [
+    "The Moscow Patriarchate's act of 1943 on the Georgian church, and Patriarch Sergius's letter to Catholicos Kallistrate; the Georgian church's own declaration of 12 (25) March 1917, needed to draw a 'broke with' for 1917-1943"
+   ],
+   "drafter_flags": [
+    "No church body's own text was found online: patriarchate.ge serves a Georgian-language script page, and mospat.ru turned up nothing. The link rests on one modern study read online, so it is Dominant Modern Reconstruction.",
+    "The study says 'Eucharistic union ... was restored', which implies a break before 1943, but it says nothing about 1917. A 'broke with' link for 1917 is not drawn, since no source read here records the rupture from either side.",
+    "The study does not give 31 October 1943; the prose's day is not checked here.",
+    "The journal page shows no year for vol. 24; the article cites pages accessed in 2023, so it postdates 2010. It supports a 1943 fact."
+   ],
+   "change_reason": "New. The Georgian text alone names Moscow's 1943 recognition."
+  },
+  {
+   "id": "the-georgian-orthodox-church-restored--the-greek-church-and-the-ecumenical-patriarchate",
+   "from": "the-georgian-orthodox-church-restored",
+   "to": "the-greek-church-and-the-ecumenical-patriarchate",
+   "type": "in contact with",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "The patriarch of Constantinople, Demetrios I, gave the Georgian church a tomos. That is a formal church decree. A modern study says it made the church's self-rule legal. Other Orthodox churches had already accepted it in practice since 1943.",
+   "outcome": "The patriarch of Constantinople gave the Georgian church a decree that made its self-rule official in law.",
+   "major": {
+    "major": true,
+    "kind": "rule-changed",
+    "evidence": {
+     "url": "https://www.analogiajournal.com/article/the-orthodox-church-of-georgia-and-the-perspectives-of-recognizing-the-autocephaly-of-the-orthodox-church-of-ukraine/",
+     "text": "The de jure recognition took place immediately after the collapse of the Soviet Union when the Ecumenical Patriarch Demetrios I handed over the Tomos to the Patriarch of the OCG—Ilia II."
+    },
+    "reason": "A tomos recognizing a church's autocephaly changes its standing by the act of a church authority. Reported by a study, as on the 1943 link."
+   },
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Guram Lursmanashvili, 'The Orthodox Church of Georgia and the perspectives of recognizing: The Autocephaly of the Orthodox Church of Ukraine', Analogia: The Pemptousia Journal for Theological Studies, vol. 24 (journal page; the year of the volume is not shown on the page, and the article cites pages accessed in 2023)",
+     "url": "https://www.analogiajournal.com/article/the-orthodox-church-of-georgia-and-the-perspectives-of-recognizing-the-autocephaly-of-the-orthodox-church-of-ukraine/",
+     "accessed": "2026-11-10",
+     "locus": "Introduction",
+     "quote": "The de jure recognition took place immediately after the collapse of the Soviet Union when the Ecumenical Patriarch Demetrios I handed over the Tomos to the Patriarch of the OCG—Ilia II.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Guram Lursmanashvili, 'The Orthodox Church of Georgia and the perspectives of recognizing: The Autocephaly of the Orthodox Church of Ukraine', Analogia: The Pemptousia Journal for Theological Studies, vol. 24 (journal page; the year of the volume is not shown on the page, and the article cites pages accessed in 2023)",
+     "url": "https://www.analogiajournal.com/article/the-orthodox-church-of-georgia-and-the-perspectives-of-recognizing-the-autocephaly-of-the-orthodox-church-of-ukraine/",
+     "accessed": "2026-11-10",
+     "locus": "Introduction",
+     "quote": "Since 1943, the Orthodox Church has actively participated in international events, and her autocephaly, de facto, has been recognized by all other Orthodox churches.",
+     "license": "rights reserved; short quotation"
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-online",
+   "action": "new",
+   "named_in_text": [
+    "the-georgian-orthodox-church-restored relationsSummary, longDescription and why ('Constantinople issued its tomos on 4 March 1990')"
+   ],
+   "wants": [
+    "The Ecumenical Patriarchate's tomos for the Church of Georgia (1990), in Greek or in translation"
+   ],
+   "drafter_flags": [
+    "Date conflict: the census gives 4 March 1990; the study says the tomos came 'immediately after the collapse of the Soviet Union' (which ended in December 1991). Neither the tomos nor a church text was read, so the note gives no year and the prose is not changed. The census's own source note already says the 1990 tomos's exact status is less certain. Reviewer: decide whether the prose's '4 March 1990' should be qualified.",
+    "Rests on one study read online, so Dominant Modern Reconstruction."
+   ],
+   "change_reason": "New. The Georgian text alone names Constantinople's tomos."
+  }
+ ],
+ "prose_changes": [
+  {
+   "n": 0,
+   "movement": "the-greek-church-and-the-ecumenical-patriarchate",
+   "field": "relationsSummary",
+   "old": "It carries on from Orthodoxy after 1821, the National Churches. It also carries on from the Kollyvades and Greek renewal. The Orthodox churches of Serbia, Romania, Bulgaria and Albania have their own entry. Orthodox membership of the World Council of Churches belongs to the entry on the ecumenical movement.",
+   "new": "It carries on from the national churches that grew up after 1821. Both the Patriarchate and the Church of Greece joined the World Council of Churches in 1948.",
+   "reason": "Kollyvades sentence removed: no source read shows that continuity (the Kollyvades entry keeps its own claim). The pointer to the Balkan churches' entry is removed as map wording. The first sentence is put in plain words for the reading target; 'the Patriarchate' is the Ecumenical Patriarchate of the entry's own name. The World Council sentence now states the membership plainly, on the council's own member pages."
+  },
+  {
+   "n": 1,
+   "movement": "branch-davidians-and-apocalyptic-splinters",
+   "field": "relationsSummary",
+   "old": "Victor Houteff broke from Adventism in 1929, and his followers settled at Mount Carmel outside Waco in 1935. Leadership passed to the Branch group under Ben and Lois Roden in 1955, then to David Koresh in the 1980s. A federal siege from 28 February to 19 April 1993 ended in a fire that killed seventy-six people. Much of what is known about how the siege ended comes from the government side — congressional hearings and the Danforth Report — since the community itself did not survive to tell its own account.",
+   "new": "In 1929 Victor Houteff began to spread a reform message inside Adventism, and his church rejected it. His followers settled at Mount Carmel outside Waco in 1935. Leadership passed to the Branch group under Ben and Lois Roden in 1955, then to David Koresh in the 1980s. A federal siege from 28 February to 19 April 1993 ended in a fire that killed 76 people. Much of what is known about how the siege ended comes from the government side. It comes from hearings in Congress and from the Danforth Report. The community itself did not survive to tell its own story.",
+   "reason": "'Broke from Adventism' overstates: Houteff's 1930 text says it 'does not advocate a new movement'. The new wording follows the entry's own longDescription. The last sentence (35 words) is split for the reading target, with every fact kept."
+  },
+  {
+   "n": 2,
+   "movement": "branch-davidians-and-apocalyptic-splinters",
+   "field": "why",
+   "old": "Victor Houteff broke from Adventism in 1929 and published his reform message as The Shepherd's Rod, and his followers settled at Mount Carmel outside Waco in 1935. Leadership passed to Ben and Lois Roden's Branch group in 1955 and then to David Koresh in the 1980s. On 28 February 1993 a federal raid began a siege that ended on 19 April in a fire that killed seventy-six people, leaving Koresh's own exposition of the seven seals unfinished.",
+   "new": "In 1929 Victor Houteff began to spread a reform message inside Adventism, and he published it as The Shepherd's Rod. His followers settled at Mount Carmel outside Waco in 1935. Leadership passed to Ben and Lois Roden's Branch group in 1955 and then to David Koresh in the 1980s. On 28 February 1993 a federal raid began a siege. It ended on 19 April in a fire that killed 76 people. Koresh's own account of the seven seals was left unfinished.",
+   "reason": "Same qualification as the relationsSummary. The last sentence (31 words) is split for the reading target, with every fact kept ('exposition' becomes 'account')."
+  },
+  {
+   "n": 3,
+   "movement": "catholic-lay-renewal-worlds-catholic-worker-foco",
+   "field": "relationsSummary",
+   "old": "Children of the long Catholic renewal line",
+   "new": "Lay Catholics started four movements in the 1900s. The Catholic Worker came first, in 1933, then Focolare in 1943. Next came L'Arche in 1964 and the Charismatic Renewal in 1967. Each one began on its own.",
+   "reason": "The old line named no movement and claimed a single 'renewal line' that the entry itself denies. The new text uses only the entry's own dates."
+  }
+ ],
+ "wants": [
+  "CELAM, Conclusions of the Second General Conference of Latin American Bishops (Medellín, 1968), 'Pastoral de conjunto' 10: the official PDF could not be opened (404)",
+  "Victor T. Houteff, The Shepherd's Rod, vol. 1 (1930): a scan of the original printing (probably public domain; renewal not checked)",
+  "The Pacific Union committee's finding on The Shepherd's Rod (March 1934) or a General Conference action of the 1930s: the Adventist side, needed for any 'broke with'",
+  "The Georgian church's declaration of 12 (25) March 1917; the Moscow Patriarchate's act of 1943; the Ecumenical Patriarchate's tomos for Georgia (1990)",
+  "The Russian Holy Synod's act of 1811 abolishing Georgian autocephaly",
+  "A study of the Kollyvades' reception in twentieth-century Greek Orthodoxy; Papoulidis, 'Nicodème l'Hagiorite', Theologia 1966 (ecclesiagreece.gr PDF), needs its page images, since the OCR is unreadable",
+  "A study of the 1965 Joint Catholic-Orthodox Declaration, and one of the 1994 Common Christological Declaration (either would let those relationships be linked)",
+  "The Syriac Orthodox patriarchate's decree of 1975 on the Catholicos; the Supreme Court of India judgments of 1958 and 1995",
+  "J. P. Thoonen, Black Martyrs (1941), or the White Fathers' Uganda reports of 1906-1939",
+  "Joseph Naayem, Shall This Nation Die? (1921): public domain, named in the Sayfo entry, not in the Library",
+  "The English text of Paul VI's canonization homily for the Uganda Martyrs (18 October 1964); vatican.va lists only Spanish and Latin"
+ ],
+ "escalations": [
+  "Sayfo entry text (relationsSummary and legacy): the claim that Syriac recorded history 'had gone quiet after about 1300', that Syriac communities 'experienced' the silence 'as erasure', and the phrases 'named honestly here rather than smoothed over' and 'On this map the entry does one more thing ... this is where the lane resumes'. The Church of the East wing, which the entry covers, has entries V.17 (1317-1517), VI.30 (1517-1650) and VIII.40 (1815-1906), and an existing 'continued as' link from VIII.40; no source supports the claim about how communities experienced it; and the wording is map commentary in a live field. The fix runs across two fields, so it is left for the entry's owner.",
+  "Method question (grading): a signed bilateral declaration read online in this run (Paul VI and Athenagoras I, 7 December 1965; John Paul II and Mar Dinkha IV, 11 November 1994) shows an 'in contact with' relationship directly, but with no study in the repo it cannot be Widely Accepted, and no lower grade describes it honestly. There is also no census entry for the post-council papacy; the post-Vatican II parish entry is the nearest. Should a church body's own joint declaration carry an 'in contact with' link to Widely Accepted alone, as the 'member of' ruling allows for membership rolls, and may the parish entry stand for Rome after 1962? Both relationships are held as no-entry until Mark rules.",
+  "Validator: tools/validate-census.mjs still requires a secondary source for every Widely Accepted link (the check after the Documented block). Under Mark's ruling of 2026-11-10 a 'member of' link may be Widely Accepted on the council's own record alone, so the new Greek church 'member of' link fails the validator as drafted. A mechanical exception for 'member of' is needed before apply.",
+  "For the entry's owner (hygiene, no ruling needed): catholic-lay-renewal-worlds-catholic-worker-foco longDescription carries map words ('The map treats these as four distinct movements') and post-2010 dates (2020, 2023); legacy is fine. Left for the entry's owner.",
+  "For the entry's owner (hygiene, no ruling needed): the-georgian-orthodox-church-restored legacy carries map words ('On this map the entry answers a question ...'; 'this map names that thinness'). Left for the entry's owner.",
+  "For the entry's owner (hygiene, no ruling needed): seventh-day-adventist-church-twentieth-century legacy carries map words ('On this map it does one specific job'); part 1's entry.",
+  "For the entry's owner (hygiene, no ruling needed): latin-american-base-communities relationsSummary 'a pairing worth noting side by side' is commentary; left unchanged."
+ ]
+}

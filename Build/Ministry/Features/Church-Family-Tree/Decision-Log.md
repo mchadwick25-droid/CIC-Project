@@ -877,8 +877,30 @@ after review.
 was reviewed in two rounds and approved to proceed. Full entry: Atlas World Map Decision-Log, "Data
 release 26".
 
+---
 
-## 2026-11-10 — The people list ruled; P2-G3 applied as data release 28
+## 2026-11-10 — A "member of" link may be Widely Accepted on the membership record alone
+
+Mark chose Widely Accepted. A council's or member church's own dated membership record carries a
+"member of" link to Widely Accepted with no study beside it. This settles Open-Gaps 143. Full entry:
+Atlas World Map Decision-Log, same date.
+
+---
+
+## 2026-11-10 — P2-L10 done: era 10 is linked
+
+The era 10 links were drafted, reviewed and applied in two parts.
+- Part 1: data release 27, 33 links added.
+- Part 2: data release 28, 33 links added.
+
+Each part passed independent review in its second round. The census now holds 644 links. Three
+are "member of" links, from the Disciples of Christ, the Church of Greece and the Kimbanguist
+church to the World Council of Churches. 28 of the 71 era 10 movements still have no "gave rise
+to" or "continued as" link coming in, down from 48. 9 have no link at all. Open-Gaps 149 lists
+them. Records are in `Build/Ministry/Operations/Audits/2026-11-10_links-era-10-part-1/` and
+`-part-2/`.
+
+## 2026-11-10 — The people list ruled; P2-G3 applied as data release 29
 
 **How it was reached.** P2-G3 published the people list for Mark (https://claude.ai/artifact/BDrnfEJ6WH5rn4tizoGxeE):
 the 22 person entries, every tradition's people row, and five questions, each with options and a
@@ -898,6 +920,10 @@ recommendation. Mark answered "A a, B a, C a, D a, E a" (2026-11-10).
 - **E.** The later Carthusian movement runs 1300 to 1534. 1534 onward is held as a named gap until
   the Library holds a voice of its own (principle 3; Chauncy's Historia is wanted).
 
+**Decided (Mark, 2026-11-10, asked after the release was built).** Until the map has its people view
+(P2-P), it leaves person entries, Tertullian included, and the links whose end is a person out of the
+map. Shown with: show them as tradition dots for now, as Tertullian was.
+
 **Decided in the build, under the rulings.**
 - A movement whose people row is empty carries `peopleNote`, one plain sentence saying why. This
   carries principle P4b's "its card says why" into the census; the validator requires it and the tree
@@ -905,5 +931,5 @@ recommendation. Mark answered "A a, B a, C a, D a, E a" (2026-11-10).
 - Where a link names two person entries, `concerns` names the person whose words its sources quote
   (the two links to the Reformed cities go to Calvin).
 
-**Applied.** Data release 28: 353 movements, 656 links. Audit:
-`Build/Ministry/Operations/Audits/2026-11-10_agreed-entries/`. Open items: Open-Gaps 146 to 152.
+**Applied.** Data release 29: 353 movements, 689 links. Audit:
+`Build/Ministry/Operations/Audits/2026-11-10_agreed-entries/`. Open items: Open-Gaps 150 to 156.

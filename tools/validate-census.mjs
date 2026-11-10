@@ -146,7 +146,10 @@ const edgeIds = new Set();
     if (e.verification_state !== "verified-direct") errs.push(`${tag}: Documented needs verification_state verified-direct`);
     if (!sources.some(s => s.kind === "primary" && s.file && !s.url)) errs.push(`${tag}: Documented needs a primary source held in the Library, not only read online`);
   }
-  if ((e.confidence === "Widely Accepted" || e.confidence === "Dominant Modern Reconstruction") && !sources.some(s => s.kind === "secondary"))
+  // A "member of" link may be Widely Accepted on the council's or member's own dated membership
+  // record alone (Decision-Log 2026-11-10, "The grade of a 'member of' link"): a primary suffices.
+  const memberOnRecord = e.type === "member of" && e.confidence === "Widely Accepted" && sources.some(s => s.kind === "primary");
+  if ((e.confidence === "Widely Accepted" || e.confidence === "Dominant Modern Reconstruction") && !sources.some(s => s.kind === "secondary") && !memberOnRecord)
     errs.push(`${tag}: ${e.confidence} needs a secondary source`);
 });
 

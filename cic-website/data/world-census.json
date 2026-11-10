@@ -21,7 +21,7 @@
   "notes": "Single source of truth for all three Atlas surfaces: the Story (cic-website/atlas.html and index.html), and the Wall Chart and Research Table (both consolidated into cic-website/world-atlas.html, reading this file at runtime instead of each keeping its own embedded copy). Status here follows records/worlds/*.yaml (this project's own registry), synced via engine.m6.census_sync; Imperial and Juridical Christianity's 'living' flag reflects its own confirmed Article 29 Living Tradition Status. Movements also carry numeric start/end year fields, sourced from the Wall Chart’s verified per-entry timeline data, so any surface can sort chronologically without re-parsing the display \"dates\" string. Entry kinds: `kind` is absent for a movement, \"person\" for a person entry, or \"cross-church movement\". A person entry carries `toldWithin`, the ID of the movement whose story tells it, or null when no tradition tells it. Each movement has a `people` list, in date order: the person entries told within it, as {\"person\": ID}, and named voices from its `voices`, as {\"name\", \"year\", \"voice\": the index of the voices line that names them, and either \"author\" with \"held\": the Library author and the row_id of a work by them on the movement’s own shelf, or \"source\": {\"work\", \"file\", \"lines\", \"quote\"}, a quote of their own words}. A link may carry `concerns`, the ID of the person entry it is about, set only where its note or a source quote names that person. `livingEvidence.descentConfidence` grades a living tradition’s claim of descent on the five formation_confidence levels (Documented, Widely Accepted, Dominant Modern Reconstruction, Contested, Inferential-Thin), with livingEvidence.basis saying what the grade rests on. Where a living tradition has no other livingEvidence, the object may hold just these two fields. `reviewStatus` says how far an entry has been checked: \"AI-checked\", \"partner-contributed\" or \"scholar-reviewed\". A retired movement with `redirectTo` was taken into that movement, and its address leads there. A movement whose people list is empty carries `peopleNote`, one plain sentence saying why no one is shown. A named voice is listed only on words of their own: their own writing, a document issued or signed in their name, or verbatim minutes; speech others report for them and works of disputed authorship are not used.",
   "schemaVersion": 3,
   "release": {
-   "number": 28,
+   "number": 29,
    "date": "2026-11-10"
   },
   "identifiers": "Movement IDs and link IDs are permanent. Once published, an ID is never changed or reused. If a link is removed or merged, its ID moves to retiredLinks with the date, the reason and any replacement. If a movement is renamed, its old address redirects to the new one. If a movement is retired into another, it moves to retiredMovements with the date, the reason and redirectTo, and its old address redirects to the movement that took it in. Each release of this file carries a number and a date, so a citation can name the exact version it used. The Church Family Tree's home is https://www.churchfamilytree.com. Its movement pages, with their link anchors, also answer at the earlier address https://churchinconversation.com/tree/<id>, which redirects permanently, in one step, to the same page there. This file is served unchanged at both https://www.churchfamilytree.com/data/world-census.json and https://churchinconversation.com/data/world-census.json, and is never redirected.",
@@ -17062,8 +17062,9 @@
    "from": "the-tridentine-church",
    "to": "the-post-vatican-ii-parish-world",
    "type": "influenced",
-   "confidence": "Inferential-Thin",
-   "note": "In 1570 Pope Pius V issued the Roman Missal, reformed under a decree of the Council of Trent. It stayed the standard Mass book until the Second Vatican Council's liturgy decree of 1963 ordered the rite revised. This rests on the 1570 bull alone, so the tie is thin.",
+   "confidence": "Widely Accepted",
+   "note": "In 1570 Pope Pius V issued a Roman Missal reformed under a decree of the Council of Trent. In 2007 Pope Benedict XVI called that Missal, as revised in 1962, an extraordinary form of the Roman rite. The older rite kept a place beside the new one.",
+   "outcome": "In 2007 Pope Benedict XVI ruled that a priest could use the 1962 Missal for a Mass said without a congregation. He needed no permission to do so.",
    "sources": [
     {
      "kind": "primary",
@@ -17086,13 +17087,48 @@
      "license": "public-domain"
     },
     {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Benedict XVI, apostolic letter Summorum Pontificum (7 July 2007), English text on the Holy See's website",
+     "url": "https://www.vatican.va/content/benedict-xvi/en/motu_proprio/documents/hf_ben-xvi_motu-proprio_20070707_summorum-pontificum.html",
+     "accessed": "2026-11-10",
+     "locus": "Art. 1",
+     "quote": "The Roman Missal promulgated by Saint Pius V and revised by Blessed John XXIII is nonetheless to be considered an extraordinary expression of the same lex orandi of the Church and duly honoured for its venerable and ancient usage.",
+     "license": "copyright Libreria Editrice Vaticana; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Benedict XVI, apostolic letter Summorum Pontificum (7 July 2007), English text on the Holy See's website",
+     "url": "https://www.vatican.va/content/benedict-xvi/en/motu_proprio/documents/hf_ben-xvi_motu-proprio_20070707_summorum-pontificum.html",
+     "accessed": "2026-11-10",
+     "locus": "Art. 2",
+     "quote": "For such a celebration with either Missal, the priest needs no permission from the Apostolic See or from his own Ordinary.",
+     "license": "copyright Libreria Editrice Vaticana; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Benedict XVI, letter to the bishops accompanying Summorum Pontificum (7 July 2007), English text on the Holy See's website",
+     "url": "https://www.vatican.va/content/benedict-xvi/en/letters/2007/documents/hf_ben-xvi_let_20070707_lettera-vescovi.html",
+     "accessed": "2026-11-10",
+     "locus": "letter, on the two forms",
+     "quote": "The last version of the Missale Romanum prior to the Council, which was published with the authority of Pope John XXIII in 1962 and used during the Council, will now be able to be used as a Forma extraordinaria of the liturgical celebration.",
+     "license": "copyright Libreria Editrice Vaticana; short quotation"
+    },
+    {
      "kind": "secondary",
      "source_id": null,
-     "work": "John W. O'Malley, What Happened at Vatican II (Harvard, 2008)"
+     "work": "John W. O'Malley, What Happened at Vatican II (Harvard, 2008)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
     }
    ],
    "citation_specificity": "A",
-   "verification_state": "verified-direct"
+   "verification_state": "verified-online"
   },
   {
    "id": "the-society-of-jesus--kirishitan-japan",
@@ -23198,7 +23234,7 @@
    "to": "the-armenian-church-after-the-genocide-medz-yegh",
    "type": "continued as",
    "confidence": "Widely Accepted",
-   "note": "Malachia Ormanian, once patriarch of Constantinople, wrote a book on his church that came out in English in 1912. He showed it still run by a national assembly, and put its people at about four million. Raymond Kévorkian's 2011 history follows the same church through the genocide of 1915.",
+   "note": "Malachia Ormanian, once patriarch of Constantinople, wrote a book on his church that came out in English in 1912. He showed it still run by a national assembly, and put its people at about four million. Historians follow the same church through the genocide of 1915.",
    "sources": [
     {
      "kind": "primary",
@@ -24053,7 +24089,7 @@
    "to": "the-russian-new-martyrs-and-the-catacomb-church",
    "type": "continued as",
    "confidence": "Inferential-Thin",
-   "note": "Optina was a monastery of the Russian Church, and an Optina book of 1847 shows its elders guiding monks and lay visitors. That book stops long before 1917. It says nothing of the monastery under Soviet rule, so this line rests on a thin inference.",
+   "note": "Optina was a monastery of the Russian Church, and an Optina book of 1847 shows its elders guiding monks and lay visitors. That book stops long before 1917. It says nothing of the monastery under Soviet rule, so the tie rests on a thin inference.",
    "sources": [
     {
      "kind": "primary",
@@ -26265,6 +26301,1706 @@
     }
    ],
    "citation_specificity": "B",
+   "verification_state": "verified-online"
+  },
+  {
+   "id": "orthodoxy-after-1821-balkan-autocephalies--the-greek-church-and-the-ecumenical-patriarchate",
+   "from": "orthodoxy-after-1821-balkan-autocephalies",
+   "to": "the-greek-church-and-the-ecumenical-patriarchate",
+   "type": "continued as",
+   "confidence": "Widely Accepted",
+   "note": "In 1850 the Patriarchate at Constantinople made the Church of Greece a church that ran itself. An act of 1928 brought the bishops of northern Greece into it. Their dioceses still belonged to the Patriarchate.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Apostoliki Diakonia of the Church of Greece, 'History of the Church of Greece in the 20th century', signed Grigorios Papathomas (apostoliki-diakonia.gr, the church's own publishing body; posted 19 November 2018)",
+     "url": "https://apostoliki-diakonia.gr/?p=33931",
+     "accessed": "2026-11-10",
+     "locus": "'The historical beginnings of the Autocephalous Church of Greece in the 19th century'",
+     "quote": "At this date, the Patriarchate of Constantinople published a Patriarchal and Synodal Tome proclaiming the Autocephaly of the Church of Greece, under certain canonical conditions.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Apostoliki Diakonia of the Church of Greece, 'History of the Church of Greece in the 20th century', signed Grigorios Papathomas (apostoliki-diakonia.gr, the church's own publishing body; posted 19 November 2018)",
+     "url": "https://apostoliki-diakonia.gr/?p=33931",
+     "accessed": "2026-11-10",
+     "locus": "Appendix, 'I. The Church of Greece'",
+     "quote": "After law 3615 of 1928 and the Patriarchal Synodal Act of 1928, the Church of Greece included the Autocephalous Church of Greece and the Metropolises under the jurisdiction of the Ecumenical Patriarchate in the New Territories in Northern Greece.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Charles A. Frazee, The Orthodox Church and Independent Greece, 1821-1852 (Cambridge University Press, 1969)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Lucian N. Leustean, ed., Eastern Christianity and the Cold War, 1945-91 (Routledge, 2010)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-online"
+  },
+  {
+   "id": "the-greek-church-and-the-ecumenical-patriarchate--the-ecumenical-movement-and-the-wcc--2",
+   "from": "the-greek-church-and-the-ecumenical-patriarchate",
+   "to": "the-ecumenical-movement-and-the-wcc",
+   "type": "member of",
+   "confidence": "Widely Accepted",
+   "note": "The Ecumenical Patriarchate and the Church of Greece both joined the World Council of Churches in 1948. The council's own list of member churches gives that year for each.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "World Council of Churches, member church page: Ecumenical Patriarchate (oikoumene.org; the council's current page)",
+     "url": "https://www.oikoumene.org/member-churches/ecumenical-patriarchate",
+     "accessed": "2026-11-10",
+     "locus": "member church details",
+     "quote": "WCC Member Since 1948",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "World Council of Churches, member church page: Church of Greece (oikoumene.org; the council's current page)",
+     "url": "https://www.oikoumene.org/member-churches/church-of-greece",
+     "accessed": "2026-11-10",
+     "locus": "member church details",
+     "quote": "WCC Member Since 1948",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "World Council of Churches, member church page: Ecumenical Patriarchate (oikoumene.org; the council's current page)",
+     "url": "https://www.oikoumene.org/member-churches/ecumenical-patriarchate",
+     "accessed": "2026-11-10",
+     "locus": "member church description, third paragraph",
+     "quote": "It has been involved in the WCC from its beginning.",
+     "license": "rights reserved; short quotation"
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-online"
+  },
+  {
+   "id": "st-thomas-christians-under-portuguese-pressure-d--the-malankara-churches-orthodox-and-jacobite",
+   "from": "st-thomas-christians-under-portuguese-pressure-d",
+   "to": "the-malankara-churches-orthodox-and-jacobite",
+   "type": "gave rise to",
+   "confidence": "Widely Accepted",
+   "note": "In 1869 Edavalikel Philipos, a priest at Kottayam, wrote that those who left Rome under a bishop from Antioch were called the New Party. The Malankara Orthodox Church traces its own start to that break with Rome.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Edavalikel Philipos, The Syrian Christians of Malabar, ed. G. B. Howard (Oxford and London, 1869), answer to Q. 71",
+     "file": "cic/texts/philipos_syrian-christians-of-malabar_howard1869.txt",
+     "lines": "2184-2188",
+     "locus": "Q. 71 (on the Pothenkoorkar and Palayakoorkar)",
+     "quote": "But in 1685, when Mar Evanious came, those who forsook Popery by the instru- mentality of that Bishop, and who at once newly adopted (re- adopted) Syrianism, were called Poothenkoorkar, (i.e.) New Partisans,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Malankara Orthodox Syrian Church, Diocese of Kottayam, 'Church History' (mosckottayam.com; current page, copyright 2024)",
+     "url": "https://mosckottayam.com/menu/church/church-history",
+     "accessed": "2026-11-10",
+     "locus": "Church History, 'St. Thomas Christians'",
+     "quote": "Furthermore, the Church in India pursued a formal relationship between Malankara and the Syriac Orthodox Church of Antioch in the mid-17th century. Thus, marked the first split amongst the St. Thomas Christians, between the Orthodox Christians in communion with Antioch, and the community which chose to enter into communion with the Rome.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Malankara Orthodox Syrian Church, Diocese of Kottayam, 'Church History' (mosckottayam.com; current page, copyright 2024)",
+     "url": "https://mosckottayam.com/menu/church/church-history",
+     "accessed": "2026-11-10",
+     "locus": "Church History, on 1912",
+     "quote": "In 1912, the Malankara Orthodox Church was granted autocephaly when Baselios Paulose I was elevated as Catholicos of the East, successor to the Apostolic Throne of Saint Thomas, and Primate of the Malankara OrthodoxChristians by Patriarch Ignatius Abdul Messiah II.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Robert Eric Frykenberg, Christianity in India: From Beginnings to the Present (Oxford University Press, 2008)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-online"
+  },
+  {
+   "id": "the-malankara-churches-orthodox-and-jacobite--the-sayfo-and-the-syriac-diaspora",
+   "from": "the-malankara-churches-orthodox-and-jacobite",
+   "to": "the-sayfo-and-the-syriac-diaspora",
+   "type": "in contact with",
+   "confidence": "Widely Accepted",
+   "note": "The Malankara Orthodox Church's own history says that in 1912 Patriarch Abdul Messiah II made Baselios Paulose I its head. The church then split, as one side backed the new head and the other the patriarch. In 1975 a later patriarch excommunicated the head of the church, and it split again.",
+   "outcome": "In 1975 the patriarch of Antioch cut the head of the Malankara church off from communion, and the church split in two again.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Malankara Orthodox Syrian Church, Diocese of Kottayam, 'Church History' (mosckottayam.com; current page, copyright 2024)",
+     "url": "https://mosckottayam.com/menu/church/church-history",
+     "accessed": "2026-11-10",
+     "locus": "Church History, on 1912",
+     "quote": "In 1912, the Malankara Orthodox Church was granted autocephaly when Baselios Paulose I was elevated as Catholicos of the East, successor to the Apostolic Throne of Saint Thomas, and Primate of the Malankara OrthodoxChristians by Patriarch Ignatius Abdul Messiah II.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Malankara Orthodox Syrian Church, Diocese of Kottayam, 'Church History' (mosckottayam.com; current page, copyright 2024)",
+     "url": "https://mosckottayam.com/menu/church/church-history",
+     "accessed": "2026-11-10",
+     "locus": "Church History, on 1912",
+     "quote": "Unfortunately, this led to a schism in the Holy Church, with one side supporting the Catholicos and the other, the Patriarch.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Malankara Orthodox Syrian Church, Diocese of Kottayam, 'Church History' (mosckottayam.com; current page, copyright 2024)",
+     "url": "https://mosckottayam.com/menu/church/church-history",
+     "accessed": "2026-11-10",
+     "locus": "Church History, on 1975",
+     "quote": "Unfortunately, in 1975, the Church was again brought into turmoil due to an excommunication from the Patriarch of Antioch of His Holiness Catholicos Baselios Augen, which led to the creation of two factions again.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Robert Eric Frykenberg, Christianity in India: From Beginnings to the Present (Oxford University Press, 2008)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-online"
+  },
+  {
+   "id": "east-african-christianity-uganda-martyrs--the-catholic-church-in-africa-twentieth-century",
+   "from": "east-african-christianity-uganda-martyrs",
+   "to": "the-catholic-church-in-africa-twentieth-century",
+   "type": "continued as",
+   "confidence": "Widely Accepted",
+   "note": "In 1964 Pope Paul VI greeted the bishops, priests and faithful of Uganda in Rome, after he made the Uganda Martyrs saints. In 1969 he came to Namugongo to bless the altar of a shrine raised in their memory.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Paul VI, Address to the pilgrims gathered in Rome for the canonization of the holy martyrs of Uganda, 19 October 1964 (vatican.va)",
+     "url": "https://www.vatican.va/content/paul-vi/en/speeches/1964/documents/hf_p-vi_spe_19641019_uganda.html",
+     "accessed": "2026-11-10",
+     "locus": "third section",
+     "quote": "Your visit, occurring on the happy occasion of the canonization of the Martyrs of Uganda, fills Our heart with joy.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Paul VI, Address to the pilgrims gathered in Rome for the canonization of the holy martyrs of Uganda, 19 October 1964 (vatican.va)",
+     "url": "https://www.vatican.va/content/paul-vi/en/speeches/1964/documents/hf_p-vi_spe_19641019_uganda.html",
+     "accessed": "2026-11-10",
+     "locus": "third section, salutation",
+     "quote": "the Bishops, priests and faithful of Uganda and of Central Africa",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Paul VI, Homily at Namugongo, Uganda, 2 August 1969 (vatican.va)",
+     "url": "https://www.vatican.va/content/paul-vi/en/homilies/1969/documents/hf_p-vi_hom_19690802.html",
+     "accessed": "2026-11-10",
+     "locus": "opening section",
+     "quote": "Why have I come to Africa, to Uganda, and right here to Namugongo?",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Paul VI, Homily at Namugongo, Uganda, 2 August 1969 (vatican.va)",
+     "url": "https://www.vatican.va/content/paul-vi/en/homilies/1969/documents/hf_p-vi_hom_19690802.html",
+     "accessed": "2026-11-10",
+     "locus": "opening section",
+     "quote": "I have come to do honour to your Martyrs. Here is being raised a Sanctuary to the glory of the Lord in their memory; and I decided to come from Rome to bless the altar of this Sanctuary.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Adrian Hastings, The Church in Africa, 1450-1950 (Oxford: Clarendon Press, 1994)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-online"
+  },
+  {
+   "id": "latin-american-catholicism-twentieth-century--latin-american-base-communities",
+   "from": "latin-american-catholicism-twentieth-century",
+   "to": "latin-american-base-communities",
+   "type": "gave rise to",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "At Medellín in 1968, Latin America's Catholic bishops called the base Christian community the first and basic cell of the church. A modern study reads this as their choice to build church life up from these communities.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Pedro Trigo, 'Medellín: una propuesta responsable. Prescribe a la Iglesia lo que propone a la sociedad', Revista Latinoamericana de Teología 35, no. 103 (UCA, San Salvador, 2018), 33-57 (journal PDF; year, volume and pages from the journal's article page)",
+     "url": "https://revistas.uca.edu.sv/index.php/rlt/article/download/5730/5677/17927",
+     "accessed": "2026-11-10",
+     "locus": "p. 49, quoting Medellín, Pastoral de conjunto 15, 10",
+     "quote": "Ella es, pues, célula inicial de estructuración eclesial, y foco de la evangelización, y actualmente factor primordial de promoción humana y desarrollo (15, 10).",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Pedro Trigo, 'Medellín: una propuesta responsable', Revista Latinoamericana de Teología 35, no. 103 (2018)",
+     "url": "https://revistas.uca.edu.sv/index.php/rlt/article/download/5730/5677/17927",
+     "accessed": "2026-11-10",
+     "locus": "p. 49",
+     "quote": "ahora insisten en que la comunidad cristiana de base es la célula inicial de la estructuración eclesial.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Penny Lernoux, Cry of the People (1980)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "John Burdick, Looking for God in Brazil (University of California Press, 1993)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-online"
+  },
+  {
+   "id": "seventh-day-adventist-church-twentieth-century--branch-davidians-and-apocalyptic-splinters",
+   "from": "seventh-day-adventist-church-twentieth-century",
+   "to": "branch-davidians-and-apocalyptic-splinters",
+   "type": "gave rise to",
+   "confidence": "Widely Accepted",
+   "note": "In 1930 Victor Houteff wrote The Shepherd's Rod to call his fellow Seventh-day Adventists to reform. He wrote as one of them and said he was not starting a new movement. His followers later became a group of their own.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Victor T. Houteff, The Shepherd's Rod, vol. 1 (1930), transcription on shepherds-rod-message.org (a Davidian site; current page)",
+     "url": "https://shepherds-rod-message.org/sr/1SR",
+     "accessed": "2026-11-10",
+     "locus": "Introduction (vol. 1, p. 5 in the site's citation)",
+     "quote": "It is the intention of this book to reveal the truth of the 144,000 mentioned in Revelation 7 but the chief object of this publication is to bring about a reformation among God’s people.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Victor T. Houteff, The Shepherd's Rod, vol. 1 (1930), transcription on shepherds-rod-message.org",
+     "url": "https://shepherds-rod-message.org/sr/1SR",
+     "accessed": "2026-11-10",
+     "locus": "Introduction",
+     "quote": "This publication does not advocate a new movement, and it absolutely opposes such moves.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Victor T. Houteff, The Shepherd's Rod, vol. 1 (1930), transcription on shepherds-rod-message.org",
+     "url": "https://shepherds-rod-message.org/sr/1SR",
+     "accessed": "2026-11-10",
+     "locus": "section on the 144,000",
+     "quote": "Our denomination numbers about 300,000.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Kenneth G. C. Newport, The Branch Davidians of Waco (Oxford University Press, 2006)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "James D. Tabor and Eugene V. Gallagher, Why Waco? (University of California Press, 1995)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-online"
+  },
+  {
+   "id": "the-georgian-orthodox-church-restored--the-russian-orthodox-church-council-patriarchate-and-reunion",
+   "from": "the-georgian-orthodox-church-restored",
+   "to": "the-russian-orthodox-church-council-patriarchate-and-reunion",
+   "type": "in contact with",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "In 1943 the Russian and Georgian churches restored communion with each other, a modern study says. It ties the step to Stalin's change of church policy that year.",
+   "outcome": "In 1943 the churches of Russia and Georgia were back in full communion with each other.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Guram Lursmanashvili, 'The Orthodox Church of Georgia and the perspectives of recognizing: The Autocephaly of the Orthodox Church of Ukraine', Analogia: The Pemptousia Journal for Theological Studies, vol. 24 (journal page; the year of the volume is not shown on the page, and the article cites pages accessed in 2023)",
+     "url": "https://www.analogiajournal.com/article/the-orthodox-church-of-georgia-and-the-perspectives-of-recognizing-the-autocephaly-of-the-orthodox-church-of-ukraine/",
+     "accessed": "2026-11-10",
+     "locus": "Introduction",
+     "quote": "Thus, in 1943, the Eucharistic union between the Orthodox Churches of Russia and Georgia was restored and later, the ROC chose Sergiy (Stragorodsky) as Patriarch.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Guram Lursmanashvili, 'The Orthodox Church of Georgia and the perspectives of recognizing: The Autocephaly of the Orthodox Church of Ukraine', Analogia: The Pemptousia Journal for Theological Studies, vol. 24 (journal page; the year of the volume is not shown on the page, and the article cites pages accessed in 2023)",
+     "url": "https://www.analogiajournal.com/article/the-orthodox-church-of-georgia-and-the-perspectives-of-recognizing-the-autocephaly-of-the-orthodox-church-of-ukraine/",
+     "accessed": "2026-11-10",
+     "locus": "Introduction",
+     "quote": "In 1943, Joseph Stalin, in pursuit of his political goals, decided to change the religious policy that had existed until then and openly included the Church in his imperialist paradigm.",
+     "license": "rights reserved; short quotation"
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-online"
+  },
+  {
+   "id": "the-georgian-orthodox-church-restored--the-greek-church-and-the-ecumenical-patriarchate",
+   "from": "the-georgian-orthodox-church-restored",
+   "to": "the-greek-church-and-the-ecumenical-patriarchate",
+   "type": "in contact with",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "The patriarch of Constantinople, Demetrios I, gave the Georgian church a tomos. That is a formal church decree. A modern study says it made the church's self-rule legal. Other Orthodox churches had already accepted it in practice since 1943.",
+   "outcome": "The patriarch of Constantinople gave the Georgian church a decree that made its self-rule official in law.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Guram Lursmanashvili, 'The Orthodox Church of Georgia and the perspectives of recognizing: The Autocephaly of the Orthodox Church of Ukraine', Analogia: The Pemptousia Journal for Theological Studies, vol. 24 (journal page; the year of the volume is not shown on the page, and the article cites pages accessed in 2023)",
+     "url": "https://www.analogiajournal.com/article/the-orthodox-church-of-georgia-and-the-perspectives-of-recognizing-the-autocephaly-of-the-orthodox-church-of-ukraine/",
+     "accessed": "2026-11-10",
+     "locus": "Introduction",
+     "quote": "The de jure recognition took place immediately after the collapse of the Soviet Union when the Ecumenical Patriarch Demetrios I handed over the Tomos to the Patriarch of the OCG—Ilia II.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Guram Lursmanashvili, 'The Orthodox Church of Georgia and the perspectives of recognizing: The Autocephaly of the Orthodox Church of Ukraine', Analogia: The Pemptousia Journal for Theological Studies, vol. 24 (journal page; the year of the volume is not shown on the page, and the article cites pages accessed in 2023)",
+     "url": "https://www.analogiajournal.com/article/the-orthodox-church-of-georgia-and-the-perspectives-of-recognizing-the-autocephaly-of-the-orthodox-church-of-ukraine/",
+     "accessed": "2026-11-10",
+     "locus": "Introduction",
+     "quote": "Since 1943, the Orthodox Church has actively participated in international events, and her autocephaly, de facto, has been recognized by all other Orthodox churches.",
+     "license": "rights reserved; short quotation"
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-online"
+  },
+  {
+   "id": "african-initiated-churches-harrist-aladura-zioni--the-ecumenical-movement-and-the-wcc",
+   "from": "african-initiated-churches-harrist-aladura-zioni",
+   "to": "the-ecumenical-movement-and-the-wcc",
+   "type": "member of",
+   "confidence": "Widely Accepted",
+   "note": "In August 1969 the World Council of Churches met at Canterbury. It voted to take in the Kimbanguist church as a member. The church's head, Joseph Diangienda, thanked the council.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "World Council of Churches, Central Committee, Minutes and Reports of the Twenty-Third Meeting, Canterbury, 12-22 August 1969 (WCC, 1969), digitized by the Internet Archive with WCC funding",
+     "url": "https://archive.org/details/twentythirdmeeti00unse",
+     "accessed": "2026-11-10",
+     "locus": "minute 8, Applications for Membership, resolution A",
+     "quote": "that the following Churches be accepted into membership of the World Council of Churches, in accordance with the Rules",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "World Council of Churches, Central Committee, Minutes and Reports of the Twenty-Third Meeting, Canterbury, 12-22 August 1969 (WCC, 1969), digitized by the Internet Archive with WCC funding",
+     "url": "https://archive.org/details/twentythirdmeeti00unse",
+     "accessed": "2026-11-10",
+     "locus": "minute 8, resolution A, item 3",
+     "quote": "Church of Christ on Earth by the Prophet Simon Kimbangua",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "World Council of Churches, Central Committee, Minutes and Reports of the Twenty-Third Meeting, Canterbury, 12-22 August 1969 (WCC, 1969), digitized by the Internet Archive with WCC funding",
+     "url": "https://archive.org/details/twentythirdmeeti00unse",
+     "accessed": "2026-11-10",
+     "locus": "minute 29, Welcome to Mr. Joseph Diangienda",
+     "quote": "Mr. Diangienda thanked the Chairman and members of the Committee for the manner in which he had been received and expressed pleasure, in the name of his Church, at the acceptance of its application for membership.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "'Canterbury Canticle', Christianity Today, 12 September 1969 (report on the WCC Central Committee at Canterbury)",
+     "url": "https://www.christianitytoday.com/1969/09/canterbury-canticle/",
+     "accessed": "2026-11-10",
+     "locus": "report, paragraph on new member churches",
+     "quote": "the Church of Christ on Earth by the Prophet, Simon Kimbangu, Congo-Kinshasa"
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-online"
+  },
+  {
+   "id": "nineteenth-century-methodism--african-initiated-churches-harrist-aladura-zioni",
+   "from": "nineteenth-century-methodism",
+   "to": "african-initiated-churches-harrist-aladura-zioni",
+   "type": "gave rise to",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "Nehemiah Tile worked for the Methodist mission among the Thembu people from the early 1870s. He broke with his mission leaders. In 1884 he founded the Thembu National Church. Historians call it the first church in South Africa that Africans ran on their own.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Mark R. Lipschutz and R. Kent Rasmussen, 'Tile, Nehemiah', Dictionary of African Historical Biography, 2nd ed. (University of California Press, 1986), reprinted by the Dictionary of African Christian Biography",
+     "url": "https://dacb.org/stories/southafrica/tile-nehemiah/",
+     "accessed": "2026-11-10",
+     "locus": "entry on Tile",
+     "quote": "By the early 1870s he was working as an evangelist for the Wesleyan Methodist mission in the Thembu region of the present eastern Cape Province."
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Mark R. Lipschutz and R. Kent Rasmussen, 'Tile, Nehemiah', Dictionary of African Historical Biography, 2nd ed. (University of California Press, 1986), reprinted by the Dictionary of African Christian Biography",
+     "url": "https://dacb.org/stories/southafrica/tile-nehemiah/",
+     "accessed": "2026-11-10",
+     "locus": "entry on Tile",
+     "quote": "He broke with his mission supervisors because of their disapproval of his political activity."
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Mark R. Lipschutz and R. Kent Rasmussen, 'Tile, Nehemiah', Dictionary of African Historical Biography, 2nd ed. (University of California Press, 1986), reprinted by the Dictionary of African Christian Biography",
+     "url": "https://dacb.org/stories/southafrica/tile-nehemiah/",
+     "accessed": "2026-11-10",
+     "locus": "entry on Tile, heading",
+     "quote": "Founder of the first independent African church in South Africa."
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "C. C. Saunders, 'Tile and the Thembu Church', Journal of African History 11.4 (1970), 553-570",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-online"
+  },
+  {
+   "id": "the-anglican-communion-twentieth-century--african-initiated-churches-harrist-aladura-zioni",
+   "from": "the-anglican-communion-twentieth-century",
+   "to": "african-initiated-churches-harrist-aladura-zioni",
+   "type": "gave rise to",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "Reuben Spartas Mukasa grew up in the Anglican church of Uganda. Later he turned to the African Orthodox Church. In 1946 he went to Alexandria, where the patriarch made him trustee of the church in Uganda.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Stephen Hayes, 'Spartas, Reuben Sebbanja Mukasa', Dictionary of African Christian Biography (from the Database of African Church Leaders)",
+     "url": "https://dacb.org/stories/uganda/spartas-reuben/",
+     "accessed": "2026-11-10",
+     "locus": "entry on Spartas",
+     "quote": "He was brought up as an Anglican, and became a protege of Archdeacon Daniel, of the seminary at Mukono."
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Stephen Hayes, 'Spartas, Reuben Sebbanja Mukasa', Dictionary of African Christian Biography (from the Database of African Church Leaders)",
+     "url": "https://dacb.org/stories/uganda/spartas-reuben/",
+     "accessed": "2026-11-10",
+     "locus": "entry on Spartas",
+     "quote": "in 1946, that Spartas was able to visit Alexandria and was appointed Patriarchal trustee of the Uganda Church."
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "F. B. Welbourn, East African Rebels: A Study of Some Independent Churches (London: SCM Press, 1961)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-online"
+  },
+  {
+   "id": "african-initiated-churches-harrist-aladura-zioni--african-diaspora-and-reverse-mission-churches-in",
+   "from": "african-initiated-churches-harrist-aladura-zioni",
+   "to": "african-diaspora-and-reverse-mission-churches-in",
+   "type": "gave rise to",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "Emmanuel Adejobi led a Nigerian prayer church, the Church of the Lord. He opened its first branch outside Africa in London. A study of his life dates it to 12 April 1964. It calls it the first West African church in Europe.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Michael Adeleke Ogunewu, 'Adejobi, Emmanuel Owoade Adeleke', Dictionary of African Christian Biography",
+     "url": "https://dacb.org/stories/nigeria/adejobi-emmanuel2/",
+     "accessed": "2026-11-10",
+     "locus": "section on his years in Glasgow and Britain",
+     "quote": "He also conducted evangelistic missions and, in London, established the first branch of the Church of the Lord outside Africa."
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Michael Adeleke Ogunewu, 'Adejobi, Emmanuel Owoade Adeleke', Dictionary of African Christian Biography",
+     "url": "https://dacb.org/stories/nigeria/adejobi-emmanuel2/",
+     "accessed": "2026-11-10",
+     "locus": "section on his years in Glasgow and Britain",
+     "quote": "This was the first West African Church in Europe and it was inaugurated on April 12, 1964."
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Gerrie ter Haar, Halfway to Paradise: African Christians in Europe (1998)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Afe Adogame, The African Christian Diaspora (Bloomsbury, 2013)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-online"
+  },
+  {
+   "id": "philippine-catholicism-gomburza-to-aglipay--philippine-independent-church-twentieth-century",
+   "from": "philippine-catholicism-gomburza-to-aglipay",
+   "to": "philippine-independent-church-twentieth-century",
+   "type": "gave rise to",
+   "confidence": "Widely Accepted",
+   "note": "In 1947 the Philippine Independent Church said that it had left the Roman Catholic Church. Its head bishop dated the break to 3 August 1902. A letter he approved says Gregorio Aglipay left with other priests and their flocks.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Correspondence and Other Papers Relating to the Petition of the Philippine Independent Church to the Protestant Episcopal Church in the U.S.A. for the Episcopal Consecration of Its Bishops (Supplement to the Diocesan Chronicle, 1947), transcribed by Project Canterbury",
+     "url": "https://anglicanhistory.org/asia/ph/correspondence1947.html",
+     "accessed": "2026-11-10",
+     "locus": "Declaration of Faith and Articles of Religion (5 August 1947), art. 17",
+     "quote": "When this Church withdrew from the Roman Catholic Church, it repudiated the authority of the Pope and such doctrines, customs and practices as were inconsistent with the Word of God, sound learning and a good conscience.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Correspondence and Other Papers Relating to the Petition of the Philippine Independent Church to the Protestant Episcopal Church in the U.S.A. for the Episcopal Consecration of Its Bishops (Supplement to the Diocesan Chronicle, 1947), transcribed by Project Canterbury",
+     "url": "https://anglicanhistory.org/asia/ph/correspondence1947.html",
+     "accessed": "2026-11-10",
+     "locus": "Isabelo de los Reyes Jr., petition to the Presiding Bishop, 9 August 1947",
+     "quote": "as it has been consistently one of the highest aspirations of our Episcopate since August 3rd, 1902, when our Church emancipated itself from the Church of Rome.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Correspondence and Other Papers Relating to the Petition of the Philippine Independent Church to the Protestant Episcopal Church in the U.S.A. for the Episcopal Consecration of Its Bishops (Supplement to the Diocesan Chronicle, 1947), transcribed by Project Canterbury",
+     "url": "https://anglicanhistory.org/asia/ph/correspondence1947.html",
+     "accessed": "2026-11-10",
+     "locus": "Binsted to Bishop Tucker, 29 October 1946, read and approved by the Supreme Bishop",
+     "quote": "when he and a number of other priests and congregations seceded from the Roman Catholic Church because they could no longer tolerate foreign domination of the Church in the Philippines",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Pedro S. de Achútegui and Miguel A. Bernad, Religious Revolution in the Philippines: The Life and Church of Gregorio Aglipay, 1860-1960 (Ateneo de Manila, vols. 1-2, 1960-66)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-online"
+  },
+  {
+   "id": "the-anglican-communion-twentieth-century--philippine-independent-church-twentieth-century",
+   "from": "the-anglican-communion-twentieth-century",
+   "to": "philippine-independent-church-twentieth-century",
+   "type": "influenced",
+   "confidence": "Widely Accepted",
+   "note": "Norman Binsted was the Episcopal bishop in the Philippines. In 1946 and 1947 he met the church's leaders. On his advice they adopted a Declaration of Faith in 1947. Then they asked his church to consecrate their bishops.",
+   "outcome": "In August 1947 the church's bishops and its General Assembly adopted a new Declaration of Faith. They set aside the church's rules of 1903 where the two did not agree.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Correspondence and Other Papers Relating to the Petition of the Philippine Independent Church to the Protestant Episcopal Church in the U.S.A. for the Episcopal Consecration of Its Bishops (Supplement to the Diocesan Chronicle, 1947), transcribed by Project Canterbury",
+     "url": "https://anglicanhistory.org/asia/ph/correspondence1947.html",
+     "accessed": "2026-11-10",
+     "locus": "Binsted to Bishop Sherrill, 12 August 1947",
+     "quote": "1. That the Philippine Independent Church should adopt a \"Declaration of Faith,\" setting forth its belief in the Holy Trinity in unequivocal terms.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Correspondence and Other Papers Relating to the Petition of the Philippine Independent Church to the Protestant Episcopal Church in the U.S.A. for the Episcopal Consecration of Its Bishops (Supplement to the Diocesan Chronicle, 1947), transcribed by Project Canterbury",
+     "url": "https://anglicanhistory.org/asia/ph/correspondence1947.html",
+     "accessed": "2026-11-10",
+     "locus": "Binsted to Bishop Sherrill, 12 August 1947",
+     "quote": "These suggestions were graciously accepted by the Supreme Bishop, his episcopal, clerical and lay advisers.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Correspondence and Other Papers Relating to the Petition of the Philippine Independent Church to the Protestant Episcopal Church in the U.S.A. for the Episcopal Consecration of Its Bishops (Supplement to the Diocesan Chronicle, 1947), transcribed by Project Canterbury",
+     "url": "https://anglicanhistory.org/asia/ph/correspondence1947.html",
+     "accessed": "2026-11-10",
+     "locus": "Isabelo de los Reyes Jr., statement to the church, August 1947",
+     "quote": "the Supreme Council of Bishops and the General Assembly of the Iglesia Filipina Independiente have unanimously approved and confirmed at their special sessions of August 4th and 5th, 1947, respectively, a solemn Declaration of Faith",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Correspondence and Other Papers Relating to the Petition of the Philippine Independent Church to the Protestant Episcopal Church in the U.S.A. for the Episcopal Consecration of Its Bishops (Supplement to the Diocesan Chronicle, 1947), transcribed by Project Canterbury",
+     "url": "https://anglicanhistory.org/asia/ph/correspondence1947.html",
+     "accessed": "2026-11-10",
+     "locus": "Declaration of Faith and Articles of Religion (5 August 1947), art. 20",
+     "quote": "are henceforth not to be held as binding either upon the Clergy or Laity of this Church in matters of Doctrine, Discipline or Order",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Correspondence and Other Papers Relating to the Petition of the Philippine Independent Church to the Protestant Episcopal Church in the U.S.A. for the Episcopal Consecration of Its Bishops (Supplement to the Diocesan Chronicle, 1947), transcribed by Project Canterbury",
+     "url": "https://anglicanhistory.org/asia/ph/correspondence1947.html",
+     "accessed": "2026-11-10",
+     "locus": "Isabelo de los Reyes Jr., statement to the church, August 1947",
+     "quote": "the Supreme Council of Bishops and the General Assembly have unanimously resolved to petition the Episcopal Church of the United States of America, a branch of the Anglican Communion, for the gift of Apostolic Succession to our episcopate",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Pedro S. de Achútegui and Miguel A. Bernad, Religious Revolution in the Philippines: The Life and Church of Gregorio Aglipay, 1860-1960 (Ateneo de Manila, vols. 1-2, 1960-66)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-online"
+  },
+  {
+   "id": "the-liturgical-movement--the-catholic-church-pius-x-to-the-council",
+   "from": "the-liturgical-movement",
+   "to": "the-catholic-church-pius-x-to-the-council",
+   "type": "influenced",
+   "confidence": "Widely Accepted",
+   "note": "In 1947 Pope Pius XII praised the revival of the liturgy in his letter Mediator Dei. He said it owed its rise to Benedictine monks. He also warned against excess, and told priests not to try out new ways on their own.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Pius XII, Mediator Dei, encyclical on the sacred liturgy (20 November 1947), English text on the Holy See's website",
+     "url": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_20111947_mediator-dei.html",
+     "accessed": "2026-11-10",
+     "locus": "para. 4",
+     "quote": "The movement owed its rise to commendable private initiative and more particularly to the zealous and persistent labor of several monasteries within the distinguished Order of Saint Benedict.",
+     "license": "public text on the Holy See's website; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Pius XII, Mediator Dei, encyclical on the sacred liturgy (20 November 1947), English text on the Holy See's website",
+     "url": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_20111947_mediator-dei.html",
+     "accessed": "2026-11-10",
+     "locus": "para. 7",
+     "quote": "duty obliges Us to give serious attention to this \"revival\" as it is advocated in some quarters, and to take proper steps to preserve it at the outset from excess or outright perversion.",
+     "license": "public text on the Holy See's website; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Pius XII, Mediator Dei, encyclical on the sacred liturgy (20 November 1947), English text on the Holy See's website",
+     "url": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_20111947_mediator-dei.html",
+     "accessed": "2026-11-10",
+     "locus": "para. 109",
+     "quote": "Let everything be done with due order and dignity, and let no one, not even a priest, make use of the sacred edifices according to his whim to try out experiments.",
+     "license": "public text on the Holy See's website; short quotation"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Keith F. Pecklers, The Unread Vision: The Liturgical Movement in the United States of America, 1926-1955 (Liturgical Press, 1998)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "John R. K. Fenwick and Bryan D. Spinks, Worship in Transition: The Liturgical Movement in the Twentieth Century (New York: Continuum, 1995)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-online"
+  },
+  {
+   "id": "the-liturgical-movement--the-post-vatican-ii-parish-world",
+   "from": "the-liturgical-movement",
+   "to": "the-post-vatican-ii-parish-world",
+   "type": "influenced",
+   "confidence": "Widely Accepted",
+   "note": "In December 1963 the Second Vatican Council took up the movement's aims in its text on worship. It said that zeal to renew the liturgy was a movement of the Holy Spirit in the Church.",
+   "outcome": "The council called for a general restoration of the liturgy. It also let people use their own language more often in the Mass and the sacraments.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Second Vatican Council, Sacrosanctum Concilium, constitution on the sacred liturgy (4 December 1963), English text on the Holy See's website",
+     "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19631204_sacrosanctum-concilium_en.html",
+     "accessed": "2026-11-10",
+     "locus": "art. 43",
+     "quote": "Zeal for the promotion and restoration of the liturgy is rightly held to be a sign of the providential dispositions of God in our time, as a movement of the Holy Spirit in His Church.",
+     "license": "public text on the Holy See's website; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Second Vatican Council, Sacrosanctum Concilium, constitution on the sacred liturgy (4 December 1963), English text on the Holy See's website",
+     "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19631204_sacrosanctum-concilium_en.html",
+     "accessed": "2026-11-10",
+     "locus": "art. 21",
+     "quote": "In order that the Christian people may more certainly derive an abundance of graces from the sacred liturgy, holy Mother Church desires to undertake with great care a general restoration of the liturgy itself.",
+     "license": "public text on the Holy See's website; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Second Vatican Council, Sacrosanctum Concilium, constitution on the sacred liturgy (4 December 1963), English text on the Holy See's website",
+     "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19631204_sacrosanctum-concilium_en.html",
+     "accessed": "2026-11-10",
+     "locus": "art. 36, 2",
+     "quote": "But since the use of the mother tongue, whether in the Mass, the administration of the sacraments, or other parts of the liturgy, frequently may be of great advantage to the people, the limits of its employment may be extended.",
+     "license": "public text on the Holy See's website; short quotation"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "John R. K. Fenwick and Bryan D. Spinks, Worship in Transition: The Liturgical Movement in the Twentieth Century (New York: Continuum, 1995)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Keith F. Pecklers, The Unread Vision: The Liturgical Movement in the United States of America, 1926-1955 (Liturgical Press, 1998)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-online"
+  },
+  {
+   "id": "the-liturgical-movement--the-anglican-communion-twentieth-century",
+   "from": "the-liturgical-movement",
+   "to": "the-anglican-communion-twentieth-century",
+   "type": "influenced",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "John Fenwick and Bryan Spinks trace the liturgical movement through many churches in the twentieth century. Their study of 1995 gives the Anglican churches a chapter of their own. The tie rests on their study alone.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "John R. K. Fenwick and Bryan D. Spinks, Worship in Transition: The Liturgical Movement in the Twentieth Century (New York: Continuum, 1995)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked"
+  },
+  {
+   "id": "emigre-orthodoxy-and-the-paris-school--american-orthodoxy-autocephaly-and-the-convert-wave",
+   "from": "emigre-orthodoxy-and-the-paris-school",
+   "to": "american-orthodoxy-autocephaly-and-the-convert-wave",
+   "type": "influenced",
+   "confidence": "Widely Accepted",
+   "note": "Teachers from the St Sergius school in Paris came to St Vladimir's Seminary in New York. Georges Florovsky became its dean. Alexander Schmemann came in 1951, and John Meyendorff in 1959.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "St Vladimir's Orthodox Theological Seminary, 'Our History' (svots.edu, the seminary's own undated page)",
+     "url": "https://www.svots.edu/about/our-history",
+     "accessed": "2026-11-10",
+     "locus": "'Our History', the post-war years",
+     "quote": "The beginning of this new era coincided with the arrival from St. Sergius Institute in Paris of Fr. Georges Florovsky , who soon was to be appointed dean (1951–1955).",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "St Vladimir's Orthodox Theological Seminary, 'Our History' (svots.edu, the seminary's own undated page)",
+     "url": "https://www.svots.edu/about/our-history",
+     "accessed": "2026-11-10",
+     "locus": "'Our History', the post-war years",
+     "quote": "The seminary's future development was assured by the arrival of other younger theologians from St. Sergius: Fr. Alexander Schmemann (1951, +1983), Professor Serge S. Verhovskoy (1952, +1986), and later Fr. John Meyendorff (1959, +1992).",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Antoine Arjakovsky, The Way: Religious Thinkers of the Russian Emigration in Paris and Their Journal, 1925-1940, trans. Jerry Ryan (Notre Dame, 2013)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Michael Plekon, 'The Liturgy of Life: Alexander Schmemann', Religions 7, no. 11 (MDPI, 2016), art. 127, doi:10.3390/rel7110127 (open access)",
+     "url": "https://mdpi-res.com/d_attachment/religions/religions-07-00127/article_deploy/religions-07-00127.pdf",
+     "accessed": "2026-11-10",
+     "locus": "section 1, 'Transcending Borders', p. 2",
+     "quote": "There was a sense of frustration with an essentially ethnic definition of Orthodoxy that eventually led him, as well as John Meyendorff and others, to America.",
+     "license": "CC BY 4.0 (stated on the article); short quotation"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Michael Plekon, 'The Liturgy of Life: Alexander Schmemann', Religions 7, no. 11 (MDPI, 2016), art. 127, doi:10.3390/rel7110127 (open access)",
+     "url": "https://mdpi-res.com/d_attachment/religions/religions-07-00127/article_deploy/religions-07-00127.pdf",
+     "accessed": "2026-11-10",
+     "locus": "section 1, 'Transcending Borders', p. 2",
+     "quote": "Schmemann came with his family in 1951 and began what would be a long career as a professor and dean of St. Vladimir’s Theological Seminary.",
+     "license": "CC BY 4.0 (stated on the article); short quotation"
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-online"
+  },
+  {
+   "id": "the-russian-new-martyrs-and-the-catacomb-church--the-russian-orthodox-church-council-patriarchate-and-reunion",
+   "from": "the-russian-new-martyrs-and-the-catacomb-church",
+   "to": "the-russian-orthodox-church-council-patriarchate-and-reunion",
+   "type": "broke with",
+   "confidence": "Widely Accepted",
+   "note": "In 1927 Metropolitan Sergius said the church would be loyal to the Soviet state. Many priests and lay people then broke with him. In 1929 Sergius called them a new split. In 1930 Metropolitan Joseph wrote of the movement against Sergius while held by the secret police.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "A. V. Mazyrin (ed.), '«Я иду только за Христом...»: Митрополит Иосиф (Петровых), 1930 год', Богословский сборник 9 (2002), 376-424, on azbyka.ru: the 1930 depositions of Metropolitan Joseph from the OGPU file, with the editor's notes",
+     "url": "https://azbyka.ru/otechnik/Iosif_Petrovyh/ja-idu-tolko-za-hristom-mitropolit-iosif-petrovyh-1930-god/",
+     "accessed": "2026-11-10",
+     "locus": "document 4, Joseph's own handwritten deposition, 27 September 1930",
+     "quote": "Процесс, в котором я сейчас фигурирую, имеет целью видимо «разгром» так называемого «Иосифлянства» (правильнее «антиСергиянства»), организации якобы с антисоветскими тенденциями.",
+     "license": "published edition; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "A. V. Mazyrin (ed.), '«Я иду только за Христом...»: Митрополит Иосиф (Петровых), 1930 год', Богословский сборник 9 (2002), 376-424, on azbyka.ru: the 1930 depositions of Metropolitan Joseph from the OGPU file, with the editor's notes",
+     "url": "https://azbyka.ru/otechnik/Iosif_Petrovyh/ja-idu-tolko-za-hristom-mitropolit-iosif-petrovyh-1930-god/",
+     "accessed": "2026-11-10",
+     "locus": "document 5, interrogation record signed by Joseph, 1930",
+     "quote": "недовольные Сергием решились прервать с ним общение как с администратором и управляться в своей общине самостоятельно",
+     "license": "published edition; short quotation"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "A. V. Mazyrin (ed.), '«Я иду только за Христом...»: Митрополит Иосиф (Петровых), 1930 год', Богословский сборник 9 (2002), 376-424, on azbyka.ru: the 1930 depositions of Metropolitan Joseph from the OGPU file, with the editor's notes",
+     "url": "https://azbyka.ru/otechnik/Iosif_Petrovyh/ja-idu-tolko-za-hristom-mitropolit-iosif-petrovyh-1930-god/",
+     "accessed": "2026-11-10",
+     "locus": "editor's note 23, quoting Sergius's letter to Metropolitan Kirill of 18 September 1929",
+     "quote": "Вы и теоретически единомысленны с нашим новым расколом, не совсем правильно называемым “иосифлянским”"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "A. V. Mazyrin (ed.), '«Я иду только за Христом...»: Митрополит Иосиф (Петровых), 1930 год', Богословский сборник 9 (2002), 376-424, on azbyka.ru: the 1930 depositions of Metropolitan Joseph from the OGPU file, with the editor's notes",
+     "url": "https://azbyka.ru/otechnik/Iosif_Petrovyh/ja-idu-tolko-za-hristom-mitropolit-iosif-petrovyh-1930-god/",
+     "accessed": "2026-11-10",
+     "locus": "editor's note 68, on Bishop Alexy (Bui)",
+     "quote": "22 января 1928 года отделился от митрополита Сергия"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Dimitry Pospielovsky, The Russian Church under the Soviet Regime, 1917-1982, 2 vols (St Vladimir's Seminary Press, 1984)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-online"
+  },
+  {
+   "id": "the-russian-orthodox-church-council-patriarchate-and-reunion--the-ukrainian-greek-catholic-underground",
+   "from": "the-russian-orthodox-church-council-patriarchate-and-reunion",
+   "to": "the-ukrainian-greek-catholic-underground",
+   "type": "argued against",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "In March 1946 a synod at Lviv, held under Soviet rule, folded the Ukrainian Greek Catholic Church into the Russian Orthodox Church. Bohdan Bociurkiw's study of the church and the Soviet state tells how it was done.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Statement of the participants of the International Conference 'The Power of Faith Against the Violence of Authorities' (Kyiv, 17 March 2016), 'A Word to the Orthodox Brothers and Sisters Who Signed the Statement on the 70th Anniversary of the So-Called \"Lviv Sobor of 1946\"', signed first by Sviatoslav Shevchuk, head of the Ukrainian Greek Catholic Church, on the church's archive site; a later source",
+     "url": "https://archives.ugcc.ua/en/documents/a_word_to_the_orthodox_brothers_and_sisters_who_signed_the_statement_on_the_70th_anniversary_of_the_socalled_lviv_sobor_of_1946_76337.html",
+     "accessed": "2026-11-10",
+     "locus": "opening paragraph",
+     "quote": "We, Greco-Catholic bishops, clergy, and lay people, scholars and researchers from various countries, express our sincere gratitude and recognition for your letter in which you rightly call this gathering a “pseudo-synod.”",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Statement of the participants of the International Conference 'The Power of Faith Against the Violence of Authorities' (Kyiv, 17 March 2016), 'A Word to the Orthodox Brothers and Sisters Who Signed the Statement on the 70th Anniversary of the So-Called \"Lviv Sobor of 1946\"', signed first by Sviatoslav Shevchuk, head of the Ukrainian Greek Catholic Church, on the church's archive site; a later source",
+     "url": "https://archives.ugcc.ua/en/documents/a_word_to_the_orthodox_brothers_and_sisters_who_signed_the_statement_on_the_70th_anniversary_of_the_socalled_lviv_sobor_of_1946_76337.html",
+     "accessed": "2026-11-10",
+     "locus": "paragraph on the official position of the Moscow church",
+     "quote": "the official position of the Church that was an instrument of persecution of the Greco-Catholics in the hands of the godless totalitarian regime is still a position of overt reluctance to accept the facts and of denial regarding historical reality.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Bohdan R. Bociurkiw, The Ukrainian Greek Catholic Church and the Soviet State (1939-1950) (CIUS, 1996)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked"
+  },
+  {
+   "id": "desert-monasticism--the-coptic-monastic-and-sunday-school-revival",
+   "from": "desert-monasticism",
+   "to": "the-coptic-monastic-and-sunday-school-revival",
+   "type": "influenced",
+   "confidence": "Widely Accepted",
+   "note": "In 1969 Patriarch Kyrillos VI sent Matthew the Poor and twelve monks to the Monastery of St Macarius at Scetis. The monastery's own history says they had lived in the spirit of the desert fathers. It dates its founding to 360.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Monastery of St Macarius the Great, 'History of the Monastery' (stmacariusmonastery.org, the monastery's older English site, undated, written about 1983)",
+     "url": "https://www.stmacariusmonastery.org/old/eabout.htm",
+     "accessed": "2026-11-10",
+     "locus": "'History of the Monastery'",
+     "quote": "It was founded in 360 A.D. by St. Macarius the Egyptian",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Monastery of St Macarius the Great, 'History of the Monastery' (stmacariusmonastery.org, the monastery's older English site, undated, written about 1983)",
+     "url": "https://www.stmacariusmonastery.org/old/eabout.htm",
+     "accessed": "2026-11-10",
+     "locus": "'History of the Monastery'",
+     "quote": "There they had lived the monastic life in the fullest sense, in the spirit of the desert fathers, with that same simplicity and the same total deprivation of all the goods and cares of this world",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Monastery of St Macarius the Great, 'History of the Monastery' (stmacariusmonastery.org, the monastery's older English site, undated, written about 1983)",
+     "url": "https://www.stmacariusmonastery.org/old/eabout.htm",
+     "accessed": "2026-11-10",
+     "locus": "'History of the Monastery'",
+     "quote": "It was the late Patriarch Cyril vi who in 1969 ordered this group of monks to leave Wadi el-Rayyan and go to the Monastery of St. Macarius to restore it.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Otto Meinardus, Two Thousand Years of Coptic Christianity (AUC Press, 1999)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-online"
+  },
+  {
+   "id": "orthodoxy-after-1821-balkan-autocephalies--orthodoxy-in-the-communist-balkans",
+   "from": "orthodoxy-after-1821-balkan-autocephalies",
+   "to": "orthodoxy-in-the-communist-balkans",
+   "type": "continued as",
+   "confidence": "Widely Accepted",
+   "note": "Romania's Orthodox Church won self-rule from Constantinople in 1885. In 1925 its own synod made that same church a patriarchate. Bulgaria's church began as an exarchate in 1870. In 1953 it was named a patriarchate.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Romanian Patriarchate, 'History of the Romanian Orthodox Church' (patriarhia.ro; the church's own account, undated page, copyright 2026)",
+     "url": "https://patriarhia.ro/en/history-of-the-romanian-orthodox-church/",
+     "accessed": "2026-11-10",
+     "locus": "section 'The Romanian Orthodox Church between 1859-1944'",
+     "quote": "the Ecumenical Patriarchate granted autocephaly to the Romanian Orthodox Church on April 25, 1885",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Romanian Patriarchate, 'History of the Romanian Orthodox Church' (patriarhia.ro; the church's own account, undated page, copyright 2026)",
+     "url": "https://patriarhia.ro/en/history-of-the-romanian-orthodox-church/",
+     "accessed": "2026-11-10",
+     "locus": "section 'The Romanian Orthodox Church between 1859-1944'",
+     "quote": "On February 4, 1925, the Holy Synod decided to elevate the Romanian Orthodox Church to the rank of Patriarchate",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Bulgarian Orthodox Church - Bulgarian Patriarchate, 'История' (bg-patriarshia.bg; the church's own history page, undated; in Bulgarian)",
+     "url": "https://bg-patriarshia.bg/history",
+     "accessed": "2026-11-10",
+     "locus": "section on the Bulgarian Exarchate (1870)",
+     "quote": "След дълги перипетии на 27 февруари 1870г. султан Абдул Азис подписва ферман за учредяването на самостоятелна българска църковна структура под формата на екзархия, полузависима от Вселенската цариградска патриаршия.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Bulgarian Orthodox Church - Bulgarian Patriarchate, 'История' (bg-patriarshia.bg; the church's own history page, undated; in Bulgarian)",
+     "url": "https://bg-patriarshia.bg/history",
+     "accessed": "2026-11-10",
+     "locus": "section on the Third Church-People's Council (May 1953)",
+     "quote": "Така на 10 май 1953г. БПЦ официално е провъзгласена за патриаршия, а за патриарх е избран Пловдивският митрополит Кирил.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Pedro Ramet (ed.), Eastern Christianity and Politics in the Twentieth Century (Duke University Press, 1988)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Lucian N. Leustean (ed.), Eastern Christianity and the Cold War, 1945-91 (Routledge, 2010)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-online"
+  },
+  {
+   "id": "oneness-pentecostalism--iglesia-ni-cristo-the-way-international-unificat",
+   "from": "oneness-pentecostalism",
+   "to": "iglesia-ni-cristo-the-way-international-unificat",
+   "type": "gave rise to",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "Scholars trace La Luz del Mundo to Oneness Pentecostal believers in northern Mexico. Its founder, Eusebio Joaquín González, met them through his wife. He was baptized in late 1925. The church does not call itself Pentecostal.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Massimo Introvigne, 'From Thunderclaps to Temples: The Origins of La Luz del Mundo', Bitter Winter, 1 December 2025 (a paper given at the CESNUR 2025 conference, Cape Town)",
+     "url": "https://bitterwinter.org/from-thunderclaps-to-temples-the-origins-of-la-luz-del-mundo/",
+     "accessed": "2026-11-10",
+     "locus": "paragraph on Elisa Flores and Rosa Murillo",
+     "quote": "Rosa introduced Elisa to the Iglesia Evangélica Cristiana Espiritual (I.E.C.E.), part of the Oneness Pentecostal tradition, which rejected the Trinity and baptized in Jesus’ name only.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Massimo Introvigne, 'From Thunderclaps to Temples: The Origins of La Luz del Mundo', Bitter Winter, 1 December 2025 (a paper given at the CESNUR 2025 conference, Cape Town)",
+     "url": "https://bitterwinter.org/from-thunderclaps-to-temples-the-origins-of-la-luz-del-mundo/",
+     "accessed": "2026-11-10",
+     "locus": "paragraphs on Borrego, Saulo and Silas",
+     "quote": "Through Elisa, Eusebio met Francisco Borrego Martínez, leader of the I.E.C.E., and two eccentric prophets: Antonio Muñoz (Saulo) and Francisco Flores (Silas).",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Massimo Introvigne, 'From Thunderclaps to Temples: The Origins of La Luz del Mundo', Bitter Winter, 1 December 2025 (a paper given at the CESNUR 2025 conference, Cape Town)",
+     "url": "https://bitterwinter.org/from-thunderclaps-to-temples-the-origins-of-la-luz-del-mundo/",
+     "accessed": "2026-11-10",
+     "locus": "paragraph on the baptism",
+     "quote": "Silas baptized Eusebio in late 1925.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Massimo Introvigne, 'From Thunderclaps to Temples: The Origins of La Luz del Mundo', Bitter Winter, 1 December 2025 (a paper given at the CESNUR 2025 conference, Cape Town)",
+     "url": "https://bitterwinter.org/from-thunderclaps-to-temples-the-origins-of-la-luz-del-mundo/",
+     "accessed": "2026-11-10",
+     "locus": "paragraph on the early 1940s",
+     "quote": "Many early converts came from Oneness Pentecostalism, bringing a penchant for schism.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Patricia Fortuny Loret de Mola, 'La Luz del Mundo', World Religions and Spirituality Project (wrldrels.org), posted 5 June 2016, updated 26 October 2023",
+     "url": "https://wrldrels.org/?p=3249",
+     "accessed": "2026-11-10",
+     "locus": "Doctrines/Beliefs, paragraph 1",
+     "quote": "Members and authorities of the church do not identify themselves as Pentecostals.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Patricia Fortuny Loret de Mola, 'La Luz del Mundo', World Religions and Spirituality Project (wrldrels.org), posted 5 June 2016, updated 26 October 2023",
+     "url": "https://wrldrels.org/?p=3249",
+     "accessed": "2026-11-10",
+     "locus": "Doctrines/Beliefs, paragraph 1",
+     "quote": "However, because of its origin, development, ritual and doctrine I classify this church in this way.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Daniel Ramírez, Migrating Faith: Pentecostalism in the United States and Mexico in the Twentieth Century (University of North Carolina Press, 2015)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-online"
+  },
+  {
+   "id": "russian-church-synodal-century--the-russian-orthodox-church-council-patriarchate-and-reunion",
+   "from": "russian-church-synodal-century",
+   "to": "the-russian-orthodox-church-council-patriarchate-and-reunion",
+   "type": "continued as",
+   "confidence": "Widely Accepted",
+   "note": "On 4 November 1917 a council of the Russian Orthodox Church ruled that the patriarchate was restored. A patriarch would again lead the church. In December the council ruled that he would chair its Holy Synod.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Holy Council of the Orthodox Russian Church, definition 'On the supreme administration of the Orthodox Russian Church' (4 November 1917), from the council's collected definitions (Moscow, 1918), text on azbyka.ru",
+     "url": "https://azbyka.ru/otechnik/Istorija_Tserkvi/opredelenija-sobora-pravoslavnoj-rossijskoj-tserkvi-1917-1918-gg/",
+     "accessed": "2026-11-10",
+     "locus": "definition no. 1, 4 November 1917",
+     "quote": "Восстановляется Патриаршество, и управление церковное возглавляется Патриархом.",
+     "license": "public domain text (1918); page rights reserved"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Holy Council of the Orthodox Russian Church, definition 'On the rights and duties of the Most Holy Patriarch' (8 December 1917), same collection, text on azbyka.ru",
+     "url": "https://azbyka.ru/otechnik/Istorija_Tserkvi/opredelenija-sobora-pravoslavnoj-rossijskoj-tserkvi-1917-1918-gg/",
+     "accessed": "2026-11-10",
+     "locus": "definition no. 2, art. 2 (в)",
+     "quote": "в) председательствует в Священном Синоде, Высшем Церковном Совете и соединенном присутствии обоих учреждений;",
+     "license": "public domain text (1918); page rights reserved"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Dimitry Pospielovsky, The Russian Church under the Soviet Regime, 1917-1982, 2 vols (St Vladimir's Seminary Press, 1984)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-online"
+  },
+  {
+   "id": "the-russian-orthodox-church-council-patriarchate-and-reunion--american-orthodoxy-autocephaly-and-the-convert-wave",
+   "from": "the-russian-orthodox-church-council-patriarchate-and-reunion",
+   "to": "american-orthodoxy-autocephaly-and-the-convert-wave",
+   "type": "gave rise to",
+   "confidence": "Widely Accepted",
+   "note": "By the early 1900s most Orthodox parishes in North America formed one diocese under the Russian church. That is how the church in America tells its own past. In 1970 the patriarch of Moscow and his synod granted it full self-rule.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Patriarch Alexis of Moscow and the Holy Synod, Tomos of Autocephaly (Moscow, 10 April 1970), English text on the site of the Archdiocese of Canada, Orthodox Church in America",
+     "url": "https://www.archdiocese.ca/node/298",
+     "accessed": "2026-11-10",
+     "locus": "Tomos, preamble",
+     "quote": "in sincere love grant autocephaly to the Russian Orthodox Greek Catholic Church in America",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Orthodox Church in America, 'A History and Introduction of the Orthodox Church in America' (oca.org; undated)",
+     "url": "https://www.oca.org/history-archives/oca-history-intro",
+     "accessed": "2026-11-10",
+     "locus": "history, the early 1900s",
+     "quote": "By the early 1900s almost all Orthodox communities, regardless of ethnic background, were united in a single diocese, or jurisdiction, which was under the Russian Orthodox Church.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Orthodox Church in America, 'A History and Introduction of the Orthodox Church in America' (oca.org; undated)",
+     "url": "https://www.oca.org/history-archives/oca-history-intro",
+     "accessed": "2026-11-10",
+     "locus": "history, 1970",
+     "quote": "In 1970 the Metropolia once again entered into communion with the Moscow Patriarchate, which promptly granted it autocephaly, or administrative self-governance.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "John H. Erickson, Orthodox Christians in America (Oxford University Press, 1999; 2nd ed. 2007)",
+     "url": "https://openlibrary.org/works/OL14865794W",
+     "accessed": "2026-11-10",
+     "locus": "Open Library record (author, title, publisher, years)"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Michael Plekon, 'The Liturgy of Life: Alexander Schmemann', Religions 7, no. 11 (MDPI, 2016), art. 127, doi:10.3390/rel7110127 (open access)",
+     "url": "https://mdpi-res.com/d_attachment/religions/religions-07-00127/article_deploy/religions-07-00127.pdf",
+     "accessed": "2026-11-10",
+     "locus": "section 1, 'Transcending Borders', p. 2",
+     "quote": "After much effort, against much resistance both internationally and at home, the Russian Church granted autocephaly or ecclesiastical autonomy to the former Russian Metropolia in America in 1970.",
+     "license": "CC BY 4.0 (stated on the article); short quotation"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-online"
+  },
+  {
+   "id": "the-russian-orthodox-church-council-patriarchate-and-reunion--emigre-orthodoxy-and-the-paris-school",
+   "from": "the-russian-orthodox-church-council-patriarchate-and-reunion",
+   "to": "emigre-orthodoxy-and-the-paris-school",
+   "type": "gave rise to",
+   "confidence": "Widely Accepted",
+   "note": "In 1921 Patriarch Tikhon put Archbishop Euloge in charge of the Russian parishes in western Europe. Russians who fled the revolution of 1917 set up parishes in France. Euloge founded the Saint Sergius Institute in Paris to train their priests.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Archdiocese of Orthodox Churches of Russian Tradition in Western Europe, 'History' (archeveche.eu; undated)",
+     "url": "https://archeveche.eu/en/history/",
+     "accessed": "2026-11-10",
+     "locus": "History, first paragraph",
+     "quote": "The Archdiocese is the legal successor and direct continuation of the « Temporary Administration of Russian Parishes in Western Europe » founded by the holy Patriarch Tikhon of Moscow and entrusted to Archbishop Euloge",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Institut de théologie orthodoxe Saint-Serge, 'Les origines' (saint-serge.net; undated)",
+     "url": "https://www.saint-serge.net/linstitut/les-origines/",
+     "accessed": "2026-11-10",
+     "locus": "Les origines, first paragraph",
+     "quote": "cette propriété fut mise en vente par le gouvernement français alors que se constituaient en France des communautés orthodoxes, composées de fidèles russes chassés de leur patrie par la Révolution de 1917.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Institut de théologie orthodoxe Saint-Serge, 'Les origines' (saint-serge.net; undated)",
+     "url": "https://www.saint-serge.net/linstitut/les-origines/",
+     "accessed": "2026-11-10",
+     "locus": "Les origines, first paragraph",
+     "quote": "Le métropolite Euloge (Gueorguievsky), leur chef spirituel, était à la recherche d’une église, pouvant servir à la fois de lieu de culte et d’Institut de théologie destiné à préparer les futurs cadres de son Église.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Antoine Arjakovsky, The Way: Religious Thinkers of the Russian Emigration in Paris and Their Journal (ET Notre Dame, 2013)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-online"
+  },
+  {
+   "id": "the-catholic-church-pius-x-to-the-council--the-post-vatican-ii-parish-world",
+   "from": "the-catholic-church-pius-x-to-the-council",
+   "to": "the-post-vatican-ii-parish-world",
+   "type": "continued as",
+   "confidence": "Widely Accepted",
+   "note": "In 1963 the Second Vatican Council named Pope Pius X as the one who led recent popes in teaching on sacred music. It also called for a finished edition of the chant books that he had restored. The same Roman church carried on into the council years.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Second Vatican Council, constitution Sacrosanctum Concilium (4 December 1963), English text on the Holy See's website",
+     "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19631204_sacrosanctum-concilium_en.html",
+     "accessed": "2026-11-10",
+     "locus": "art. 112",
+     "quote": "the same may be said of the fathers of the Church and of the Roman pontiffs who in recent times, led by St. Pius X, have explained more precisely the ministerial function supplied by sacred music in the service of the Lord.",
+     "license": "copyright Libreria Editrice Vaticana; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Second Vatican Council, constitution Sacrosanctum Concilium (4 December 1963), English text on the Holy See's website",
+     "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19631204_sacrosanctum-concilium_en.html",
+     "accessed": "2026-11-10",
+     "locus": "art. 117",
+     "quote": "The typical edition of the books of Gregorian chant is to be completed; and a more critical edition is to be prepared of those books already published since the restoration by St. Pius X.",
+     "license": "copyright Libreria Editrice Vaticana; short quotation"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "John W. O'Malley, What Happened at Vatican II (Harvard, 2008)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-online"
+  },
+  {
+   "id": "the-catholic-church-pius-x-to-the-council--chinese-catholicism-twentieth-century",
+   "from": "the-catholic-church-pius-x-to-the-council",
+   "to": "chinese-catholicism-twentieth-century",
+   "type": "influenced",
+   "confidence": "Widely Accepted",
+   "note": "In 1958 Pope Pius XII wrote to China's Catholics. He recalled that Pius XI had consecrated Chinese bishops at Saint Peter's. He ruled that bishops consecrated against Rome's orders had no power to teach or to govern.",
+   "outcome": "In 1958 Pope Pius XII ruled on bishops made in China against Rome's orders. He said they had no power to teach or to rule.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Pius XII, encyclical Ad Apostolorum Principis (29 June 1958), English text on the Holy See's website",
+     "url": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_29061958_ad-apostolorum-principis.html",
+     "accessed": "2026-11-10",
+     "locus": "section 3",
+     "quote": "At the tomb of the Prince of the Apostles, in the majestic Vatican Basilica, Our immediate Predecessor of deathless memory, Pius XI, duly consecrated and raised to the fullness of the priesthood, as you well know, \"the flowers and . . . latest buds of the Chinese episcopate.\"",
+     "license": "copyright Libreria Editrice Vaticana; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Pius XII, encyclical Ad Apostolorum Principis (29 June 1958), English text on the Holy See's website",
+     "url": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_29061958_ad-apostolorum-principis.html",
+     "accessed": "2026-11-10",
+     "locus": "section 39",
+     "quote": "it follows that bishops who have been neither named nor confirmed by the Apostolic See, but who, on the contrary, have been elected and consecrated in defiance of its express orders, enjoy no powers of teaching or of jurisdiction",
+     "license": "copyright Libreria Editrice Vaticana; short quotation"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Richard Madsen, China's Catholics: Tragedy and Hope in an Emerging Civil Society (University of California Press, 1998)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-online"
+  },
+  {
+   "id": "the-catholic-church-pius-x-to-the-council--latin-american-catholicism-twentieth-century",
+   "from": "the-catholic-church-pius-x-to-the-council",
+   "to": "latin-american-catholicism-twentieth-century",
+   "type": "influenced",
+   "confidence": "Widely Accepted",
+   "note": "In 1955 Latin America's bishops met at Rio de Janeiro and asked for a council of their own. Pope Pius XII set it up that year as CELAM, to help the bishops in their work.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Benedict XVI, letter to Cardinal Francisco Javier Errázuriz Ossa on the fiftieth anniversary of CELAM (14 May 2005), English text on the Holy See's website",
+     "url": "https://www.vatican.va/content/benedict-xvi/en/letters/2005/documents/hf_ben-xvi_let_20050514_celam.html",
+     "accessed": "2026-11-10",
+     "locus": "letter, first paragraph",
+     "quote": "Fifty years ago my Venerable Predecessor Pius XII, fulfilling the desire expressed by the General Conference of Latin American Bishops who met in Rio de Janeiro from 25 July to 4 August 1955, instituted the Latin American Episcopal Council (CELAM)",
+     "license": "copyright Libreria Editrice Vaticana; short quotation"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Ondina E. González and Justo L. González, Christianity in Latin America: A History (Cambridge University Press, 2008)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-online"
+  },
+  {
+   "id": "the-post-vatican-ii-parish-world--latin-american-catholicism-twentieth-century",
+   "from": "the-post-vatican-ii-parish-world",
+   "to": "latin-american-catholicism-twentieth-century",
+   "type": "influenced",
+   "confidence": "Widely Accepted",
+   "note": "In August 1968 Pope Paul VI opened the Latin American bishops' meeting at Bogotá. He pointed them to the council's teaching in Gaudium et Spes. He asked them to give priests' councils and pastoral councils the shape the council wanted.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Paul VI, homily at the opening of the second general assembly of the bishops of Latin America, Bogotá (24 August 1968), Spanish text on the Holy See's website",
+     "url": "https://www.vatican.va/content/paul-vi/es/homilies/1968/documents/hf_p-vi_hom_19680824.html",
+     "accessed": "2026-11-10",
+     "locus": "homily, on preaching",
+     "quote": "La Constitución Pastoral del Concilio « Gaudium et Spes » ofrece enseñanzas y estímulos de gran riqueza y de alto valor.",
+     "license": "copyright Libreria Editrice Vaticana; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Paul VI, homily at the opening of the second general assembly of the bishops of Latin America, Bogotá (24 August 1968), Spanish text on the Holy See's website",
+     "url": "https://www.vatican.va/content/paul-vi/es/homilies/1968/documents/hf_p-vi_hom_19680824.html",
+     "accessed": "2026-11-10",
+     "locus": "homily, on the clergy",
+     "quote": "Trátese de dar a los Consejos presbiterales y pastorales la consistencia y la funcionalidad queridas por el Concilio;",
+     "license": "copyright Libreria Editrice Vaticana; short quotation"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Ondina E. González and Justo L. González, Christianity in Latin America: A History (Cambridge University Press, 2008)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-online"
+  },
+  {
+   "id": "nineteenth-century-latin-american-catholicism--latin-american-catholicism-twentieth-century",
+   "from": "nineteenth-century-latin-american-catholicism",
+   "to": "latin-american-catholicism-twentieth-century",
+   "type": "continued as",
+   "confidence": "Widely Accepted",
+   "note": "In 1999 Pope John Paul II recalled the bishops' council held in Rome in 1899. Since then, he said, the church in Latin America had kept growing. He named its bishops' meetings at Rio de Janeiro in 1955 and Medellín in 1968.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John Paul II, address to a symposium on the centenary of the Plenary Council of Latin America (22 June 1999), English text on the Holy See's website",
+     "url": "https://www.vatican.va/content/john-paul-ii/en/speeches/1999/june/documents/hf_jp-ii_spe_19990622_symposium-latinoamerica.html",
+     "accessed": "2026-11-10",
+     "locus": "section 1",
+     "quote": "organized by the Pontifical Commission for Latin America to commemorate the first centenary of that continent's Plenary Council.",
+     "license": "copyright Libreria Editrice Vaticana; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John Paul II, address to a symposium on the centenary of the Plenary Council of Latin America (22 June 1999), English text on the Holy See's website",
+     "url": "https://www.vatican.va/content/john-paul-ii/en/speeches/1999/june/documents/hf_jp-ii_spe_19990622_symposium-latinoamerica.html",
+     "accessed": "2026-11-10",
+     "locus": "section 3",
+     "quote": "I would like to recall that since the celebration of the Council, the Church in America has continued to thrive.",
+     "license": "copyright Libreria Editrice Vaticana; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John Paul II, address to a symposium on the centenary of the Plenary Council of Latin America (22 June 1999), English text on the Holy See's website",
+     "url": "https://www.vatican.va/content/john-paul-ii/en/speeches/1999/june/documents/hf_jp-ii_spe_19990622_symposium-latinoamerica.html",
+     "accessed": "2026-11-10",
+     "locus": "section 3",
+     "quote": "the four General Conferences of the Latin American Episcopate celebrated in Rio de Janeiro (1955), Medellín (1968), Puebla (1979) and Santo Domingo (1992)",
+     "license": "copyright Libreria Editrice Vaticana; short quotation"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Ondina E. González and Justo L. González, Christianity in Latin America: A History (Cambridge University Press, 2008)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-online"
+  },
+  {
+   "id": "philippine-catholicism-gomburza-to-aglipay--philippine-catholicism-twentieth-century",
+   "from": "philippine-catholicism-gomburza-to-aglipay",
+   "to": "philippine-catholicism-twentieth-century",
+   "type": "continued as",
+   "confidence": "Widely Accepted",
+   "note": "In 1906 Jorge Barlin was made the first Filipino bishop. He had turned down the chance to lead Gregorio Aglipay's new church. In 2007 the Philippine bishops wrote that his rise proved native priests could hold high office.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Catholic Bishops' Conference of the Philippines, 'Bonus Miles Christi', pastoral letter on the centenary of the episcopal consecration of Bishop Jorge Barlin (28 January 2007)",
+     "url": "https://cbcponline.net/?p=967",
+     "accessed": "2026-11-10",
+     "locus": "pastoral letter, on 1902",
+     "quote": "In 1902, Gregorio Aglipay, taking notice of his capability, offered him the supreme prelacy of the Philippine Independent Church.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Catholic Bishops' Conference of the Philippines, 'Bonus Miles Christi', pastoral letter on the centenary of the episcopal consecration of Bishop Jorge Barlin (28 January 2007)",
+     "url": "https://cbcponline.net/?p=967",
+     "accessed": "2026-11-10",
+     "locus": "pastoral letter, on 1905-06",
+     "quote": "He became the first Filipino Bishop, perhaps also the first from the Malay race, and the only one during his time.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Catholic Bishops' Conference of the Philippines, 'Bonus Miles Christi', pastoral letter on the centenary of the episcopal consecration of Bishop Jorge Barlin (28 January 2007)",
+     "url": "https://cbcponline.net/?p=967",
+     "accessed": "2026-11-10",
+     "locus": "pastoral letter, on 1905-06",
+     "quote": "His elevation to the Episcopacy proved the capability of native priests who had been regarded as inferior and unworthy of any high office.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "J. Rojas, 'Bonus Miles Christi: Jorge Alfonso Imperial Barlin' (PDF on the site of the Diocese of Libmanan; undated)",
+     "url": "https://libmanandiocese.org/wp-content/uploads/2024/05/Jorge-Barlin-Biography.pdf",
+     "accessed": "2026-11-10",
+     "locus": "section 'The Election of Barlin as Bishop of Nueva Cáceres', p. [10]",
+     "quote": "Msgr. Barlin was ordained Bishop by Msgr. Agius at the old Santo Domingo Church in Intramuros, Manila, making him the first Filipino and Bicolano bishop ever to have graced the pages of the history of the Church in the Philippines.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "John N. Schumacher, Revolutionary Clergy: The Filipino Clergy and the Nationalist Movement, 1850-1903 (Quezon City, 1981)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "A",
    "verification_state": "verified-online"
   },
   {
@@ -64918,7 +66654,7 @@
    "c2": "question",
    "sourcing": "Moderate-to-rich and improving (own archives, liturgies, oral histories; colonial-record gravity severe)",
    "floorNote": "Each branch is assessed on its own terms rather than as one group. The Harrist and Aladura mainstreams are creedally conventional by their own church constitutions. The Kimbanguist church's own teaching shifted over time and is described here by its dated texts. A moderate official doctrine was stated in 2005. A 2008 assembly revoked it in favor of a different teaching. That teaching held that Kimbangu himself was the Holy Spirit incarnate, and his three sons incarnations of the Trinity. In 1969 it had been the first African-initiated church admitted to the World Council of Churches. The Zion Christian Church published little about its own beliefs, by its own choice. No confession of its own is on record to cite, so this stays an open question rather than a settled one. Everything here describes a dated text, never the private faith of any member.",
-   "relationsSummary": "Children of mission churches + Pentecostal currents + African initiative irreducible to either",
+   "relationsSummary": "Many of these churches began when African Christians left the mission churches. Scholars still debate how much they owed to Pentecostal teaching. African founders led them, and they were fully the work of neither.",
    "why": "William Wadé Harris walked through the Ivory Coast and the Gold Coast between 1913 and 1915, preaching and baptizing, and the churches that trace to him took his name. Others rose on their own ground: Simon Kimbangu's ministry in Congo began in March 1921 and ended within months in a colonial court, while Engenas Lekganyane founded the Zion Christian Church in South Africa in 1924. Each carried its founder's legacy forward differently, from Nigeria's Aladura congregations to the ZCC's annual pilgrimage at Moria.",
    "entry": null,
    "sources": [
@@ -65384,7 +67120,7 @@
    "c2": "question",
    "sourcing": "Rich per movement",
    "floorNote": "This label covers several founder-led renewal movements, and each is checked on its own terms rather than as one group: all four had institutionalized beyond their individual founders, in documented form. L'Arche's founder-abuse record is part of any honest telling of its story, and carries its own dates in later documents. These are the movement's own commissioned inquiry of 2020 and an independent report of 2023, both of which it published itself. What's genuinely in question is whether authority can pass beyond a single founder, not the founder's own conduct — the two are kept distinct, not blurred together.",
-   "relationsSummary": "Children of the long Catholic renewal line",
+   "relationsSummary": "Lay Catholics started four movements in the twentieth century. The Catholic Worker came first, in 1933, then Focolare in 1943. Next came L'Arche in 1964 and the Charismatic Renewal in 1967. Each one began on its own.",
    "why": "Four movements, each begun by lay Catholics and all still active in 2010: Dorothy Day and Peter Maurin's Catholic Worker in 1933, with its newspaper and houses of hospitality; Chiara Lubich's Focolare in 1943; the Charismatic Renewal that began on a retreat weekend at Duquesne University in 1967; and Jean Vanier's L'Arche in 1964, where people with and without intellectual disabilities share a household. L'Arche's story includes the abuse committed by Vanier himself across decades of his leadership. Later inquiries, which the movement commissioned and published in 2020 and 2023, documented it.",
    "entry": null,
    "sources": [
@@ -65815,7 +67551,7 @@
    "c2": null,
    "sourcing": "Rich (both renewal streams wrote copiously; living memory)",
    "floorNote": "No question",
-   "relationsSummary": "Continuation of the map's longest unbroken lane - back to the Desert itself",
+   "relationsSummary": "The same Coptic Orthodox Church carried both renewals. In 1969 monks went back to the Monastery of St Macarius in the desert, a house founded in the fourth century.",
    "why": "Habib Girgis built a church-wide Sunday-school movement from the 1890s that trained generations of teachers and, later, bishops, while from mid-century the Egyptian desert monasteries, long emptying, filled again under Patriarch Kyrillos VI.",
    "entry": null,
    "sources": [
@@ -66415,7 +68151,7 @@
    "c2": "question",
    "sourcing": "Rich",
    "floorNote": "The person-defined question here is cleanly resolved rather than open. This was a completed founder-to-successor transition, not a movement still centered on one living founder's unique authority. By 2010 both Taizé and the Iona Community had continued institutionally past their founders.",
-   "relationsSummary": "Deliberate heirs of monastic lines - Iona literally on Columba's island",
+   "relationsSummary": "Two communities of shared life, work and prayer, founded in the 1930s and 1940s. The Iona Community rebuilt the abbey on Columba's own island. No source shows what either took from the older monastic houses.",
    "why": "George MacLeod founded the Iona Community in 1938 and set it to rebuilding the abbey on Columba's own island, a project that took until 1965. Roger Schutz began the community at Taizé in France two years later, in 1940, and from the 1970s young people started arriving by the thousands, for meetings held every year from 1978. When Brother Roger was murdered in 2005, the community simply continued under Brother Alois.",
    "entry": null,
    "sources": [
@@ -66444,7 +68180,7 @@
      "type": "reference"
     }
    ],
-   "longDescription": "Two communities, founded two years apart, that set out to be modern heirs of the old monastic ones. George MacLeod founded the Iona Community in 1938 and set it to rebuilding the abbey on Columba's own island — a work that took until 1965 — on the conviction that worship and labor and politics belong together. Roger Schutz began the community at Taizé in France in 1940; its Rule was written in 1954, and from the 1970s young people began arriving in large numbers, with a Council of Youth in 1974 and European meetings held annually from 1978. Both are ecumenical by design, with members from many churches and none of the usual boundaries between them. Brother Roger was murdered on 16 August 2005, and the community continued under Brother Alois.",
+   "longDescription": "Two communities, founded two years apart, built a shared life of work and prayer. George MacLeod founded the Iona Community in 1938. He set it to rebuilding the abbey on Columba's own island, a work that took until 1965. He held that worship, labor and politics belong together. Roger Schutz began the community at Taizé in France in 1940. Its Rule was written in 1954. From the 1970s young people came in large numbers. A Council of Youth met in 1974, and European meetings were held every year from 1978. Both communities are ecumenical by design. Their members come from many churches, with none of the usual boundaries between them. Brother Roger was murdered on 16 August 2005, and the community carried on under Brother Alois.",
    "teaser": "France and Scotland, 1938/1940 to 2010 — Taizé and Iona, ecumenical communities built as deliberate heirs of older monastic lines, Iona's community set literally on Columba's own island.",
    "voices": [
     "George MacLeod — founder of the Iona Community in 1938, author of Only One Way Left (1956)",
@@ -66453,7 +68189,7 @@
     "John Bell — of the Iona Community's Wild Goose worship group, whose songs and liturgies came to be sung far outside Scotland",
     "The Letters from Taizé — the community's own running correspondence with the young people who come to it"
    ],
-   "legacy": "Both communities were still going in 2010, and both took visitors. Taizé's European meetings were held every year from 1978. Iona's Wild Goose material, much of it by John Bell, found its way into hymnals across the English-speaking world. Their passage through the death of a founder is itself part of what they left. Taizé's continuation under Alois is one of the clearest documented cases on this map of a community outliving the person who began it.",
+   "legacy": "Both communities were still going in 2010, and both took visitors. Taizé's European meetings were held every year from 1978. Iona's Wild Goose material, much of it by John Bell, found its way into hymnals across the English-speaking world. Their passage through the death of a founder is itself part of what they left. Taizé carried on under Brother Alois, so the community outlived the man who began it.",
    "documentedStories": [
     {
      "title": "The Evening of 16 August 2005",
@@ -66567,7 +68303,7 @@
    "c2": null,
    "sourcing": "Rich own record",
    "floorNote": "The formation record is well documented: the April 1913 Arroyo Seco camp meeting and a baptismal sermon preached there, the rebaptisms that followed in 1914, and the Assemblies of God's 1916 Statement of Fundamental Truths written specifically to exclude this position. Oneness theology holds that Father, Son, and Spirit are one person under three titles or manifestations, rather than three persons in one being — which the Nicene Creed's own language was written to affirm.",
-   "relationsSummary": "Oneness Pentecostalism grew directly out of the wider Pentecostal movement that followed the Azusa Street revival. Two other traditions trace back to the same roots: the True Jesus Church, founded in Beijing in 1917, and La Luz del Mundo in Mexico, which descends from the same 1914 Mexican Apostolic revival.",
+   "relationsSummary": "Oneness Pentecostalism grew out of the wider Pentecostal movement that came after the Azusa Street revival. Two other churches share those roots. One is the True Jesus Church, founded in Beijing in 1917. The other is La Luz del Mundo in Mexico. Its founder came to faith among Oneness believers there in the 1920s.",
    "why": "In April 1913, at the Arroyo Seco camp meeting, R. E. McAlister preached that the baptisms recorded in Acts were performed in the name of Jesus alone, and the following year Frank Ewart and Glenn Cook baptized each other on that basis. When the Assemblies of God adopted an explicitly trinitarian statement of faith in 1916, the ministers who could not sign it left and formed their own bodies, among them the interracial Pentecostal Assemblies of the World, long led by G. T. Haywood. Baptism in the name of Jesus alone was what a visitor to these churches noticed first.",
    "entry": null,
    "sources": [
@@ -66602,7 +68338,7 @@
      "note": "1914, the founder and Villa Aldama verified; the day of the month is not confirmed. The second is the own text of the US sister church."
     }
    ],
-   "longDescription": "In April 1913, at the Arroyo Seco camp meeting, R. E. McAlister preached on baptism and observed that the baptisms recorded in Acts are performed in the name of Jesus. The following year Frank Ewart and Glenn Cook baptized one another on that basis, and the question tore through the young Pentecostal movement. In October 1916 the Assemblies of God adopted its Statement of Fundamental Truths, an explicitly trinitarian confession, and the ministers who could not sign it left — so the rupture stands documented in each side's own words. Several bodies followed. The Pentecostal Assemblies of the World is the oldest, Oneness from 1916, and was interracial through decades in which other Pentecostal bodies separated by race; the separations of 1924, and the racial dimension of the 1945 merger, are part of its own telling, and G. T. Haywood was among its leaders. The United Pentecostal Church International was formed by a merger vote on 25 September 1945 and published its Articles of Faith in a Manual reissued each year. In Mexico the Apostolic revival began in 1914. Romanita Carbajal de Valenzuela had become a Pentecostal in Los Angeles, and that year she returned to Villa Aldama in Chihuahua. The Iglesia Apostólica de la Fe en Cristo Jesús grew from it.",
+   "longDescription": "In April 1913, at the Arroyo Seco camp meeting, R. E. McAlister preached on baptism. He noted that the baptisms in the book of Acts are done in the name of Jesus. The next year Frank Ewart and Glenn Cook baptized each other on that basis. The question tore through the young Pentecostal movement. In October 1916 the Assemblies of God adopted its Statement of Fundamental Truths, a plainly trinitarian creed. The ministers who could not sign it left. Several bodies followed. The oldest is the Pentecostal Assemblies of the World, Oneness from 1916, and G. T. Haywood was among its leaders. For decades it had Black and white members together, while other Pentecostal bodies split by race. Its own telling includes the splits of 1924 and the part race played in the merger of 1945. The United Pentecostal Church International was formed by a merger vote on 25 September 1945. It printed its Articles of Faith in a Manual each year. In Mexico the Apostolic revival began in 1914. Romanita Carbajal de Valenzuela had become a Pentecostal in Los Angeles. That year she went home to Villa Aldama in Chihuahua. The Iglesia Apostólica de la Fe en Cristo Jesús grew from it.",
    "teaser": "North America and then worldwide, 1913 to 2010 — a Pentecostal current inseparable from Azusa Street's own aftermath, distinguished by the Jesus'-name baptismal practice and modalist confession its own named bodies stated in their own published statements of faith.",
    "voices": [
     "R. E. McAlister — whose April 1913 baptismal sermon at Arroyo Seco opened the question",
@@ -66611,7 +68347,7 @@
     "G. T. Haywood — leader in the Pentecostal Assemblies of the World, whose writings and hymns are part of the movement's own record",
     "The Assemblies of God's Statement of Fundamental Truths (1916) — the trinitarian confession whose adoption occasioned the departure, and the other half of the documented rupture"
    ],
-   "legacy": "By 2010 these were living churches with congregations worldwide. Their distinguishing practice — baptism in the name of Jesus — was what a visitor noticed first. Their scale was hard to fix: the figures in circulation were the bodies' own, without an independent count to check them against. Two seams run outward from this story. The True Jesus Church, founded in Beijing in 1917, shares the same Pentecostal roots; and La Luz del Mundo in Mexico descends from the same Mexican Apostolic revival of 1914.",
+   "legacy": "By 2010 these were living churches with congregations worldwide. Their mark, baptism in the name of Jesus, was what a visitor noticed first. Their size was hard to fix. The figures in use were the bodies' own, with no outside count to check them. Two other churches share these roots. The True Jesus Church was founded in Beijing in 1917. The founder of La Luz del Mundo in Mexico came to faith among Oneness believers.",
    "streams": [
     "wesleyan-holiness-pentecostal"
    ],
@@ -66744,7 +68480,7 @@
    "c2": "record",
    "sourcing": "Own records exist",
    "floorNote": "Each of these three movements is assessed on its own published confession and claims of authority, not as one group. Each body's own teaching made its own claim for its founder's authority. On their own texts up to 2010, none of the three affirmed the Trinity or Christ's divinity as the historic creeds meant them.",
-   "relationsSummary": "Three separately founded bodies share this entry. They did not share a confession, and each body's own texts carry its own finding. La Luz del Mundo grew out of the Oneness Pentecostal movement. Iglesia ni Cristo has its own entry.",
+   "relationsSummary": "Three separately founded bodies share this entry. They did not share a creed, and each body's own texts carry its own finding. Scholars trace La Luz del Mundo to the Oneness Pentecostal movement. The church itself does not call itself Pentecostal. Iglesia ni Cristo has its own entry.",
    "why": "Three separately founded movements share this entry. The Way International grew out of Victor Paul Wierwille's radio ministry in the 1940s. Sun Myung Moon founded the Unification Church in Seoul in 1954. La Luz del Mundo was founded in Guadalajara in 1926, and from 1964 a second apostle led it in succession from its founder. Each has its own scripture, founder claim and history, told here on its own terms.",
    "entry": null,
    "sources": [
@@ -66861,8 +68597,8 @@
    "c2": "record",
    "sourcing": "-",
    "floorNote": "Three generations of leadership each left their own writings: the founder, his successors, and an unfinished theological work from the group's final leader. In each case, authority rested on a named individual's own revelation or interpretation — an especially pronounced example of a movement built on one person's claim to reveal truth, rather than on a shared community confession.",
-   "relationsSummary": "Victor Houteff broke from Adventism in 1929, and his followers settled at Mount Carmel outside Waco in 1935. Leadership passed to the Branch group under Ben and Lois Roden in 1955, then to David Koresh in the 1980s. A federal siege from 28 February to 19 April 1993 ended in a fire that killed seventy-six people. Much of what is known about how the siege ended comes from the government side — congressional hearings and the Danforth Report — since the community itself did not survive to tell its own account.",
-   "why": "Victor Houteff broke from Adventism in 1929 and published his reform message as The Shepherd's Rod, and his followers settled at Mount Carmel outside Waco in 1935. Leadership passed to Ben and Lois Roden's Branch group in 1955 and then to David Koresh in the 1980s. On 28 February 1993 a federal raid began a siege that ended on 19 April in a fire that killed seventy-six people, leaving Koresh's own exposition of the seven seals unfinished.",
+   "relationsSummary": "In 1929 Victor Houteff began to spread a reform message inside Adventism, and his church rejected it. His followers settled at Mount Carmel outside Waco in 1935. Leadership passed to the Branch group under Ben and Lois Roden in 1955, then to David Koresh in the 1980s. A federal siege from 28 February to 19 April 1993 ended in a fire that killed 76 people. Much of what is known about how the siege ended comes from the government side. It comes from hearings in Congress and from the Danforth Report. The community itself did not survive to tell its own story.",
+   "why": "In 1929 Victor Houteff began to spread a reform message inside Adventism, and he published it as The Shepherd's Rod. His followers settled at Mount Carmel outside Waco in 1935. Leadership passed to Ben and Lois Roden's Branch group in 1955 and then to David Koresh in the 1980s. On 28 February 1993 a federal raid began a siege. It ended on 19 April in a fire that killed 76 people. Koresh's own account of the seven seals was left unfinished.",
    "entry": null,
    "sources": [
     {
@@ -67216,7 +68952,7 @@
    "c2": null,
    "sourcing": "Moderate-to-rich: living memory, church archives, persecution-era records",
    "floorNote": "No question",
-   "relationsSummary": "Tawahedo under empire, occupation and the Derg's persecution; the P'ent'ay evangelical movement. Continues the Ethiopian church of Tewodros and Menelik. The tree has no entry for Ethiopian Christianity between 1650 and 1855.",
+   "relationsSummary": "The Tawahedo church lived on through empire, war and the Derg's attacks on it. Beside it grew the P'ent'ay, a fast-growing movement of evangelicals. It carries on the church of Tewodros and Menelik.",
    "why": "Italian occupying forces massacred the monks of Debre Libanos in 1937, and decades later Ethiopia's Communist Derg deposed the country's patriarch, Tewophilos, in 1976 and killed him in 1979 -- a history the Tawahedo church took into its own liturgical memory. Alongside it, a Protestant evangelical movement called the P'ent'ay grew fastest precisely while it was forced underground under the Derg. Eritrea's church, autocephalous since 1993, faced its own severe pressure: in 2006 Patriarch Antonios was deposed and placed under house arrest.",
    "entry": null,
    "sources": [
@@ -67713,7 +69449,7 @@
     "Marcel Lefebvre — whose declaration of 1974 and the Society of St Pius X mark the resistance, argued through the documents of 1988 and 2007",
     "John W. O'Malley — whose What Happened at Vatican II (2008) is the standard account of how the council actually proceeded"
    ],
-   "legacy": "By 2010 this was how most of the world's Catholics had worshipped for more than forty years. That makes it one of the largest continuous formation traditions on the map. By then the restored catechumenate had become the ordinary route by which adults entered the Catholic Church. The vernacular liturgy and lay ministries had been absorbed so fully that they read as normal rather than as a change. In 2010 the argument over the older rite was unresolved. This map carries it on its own dated documents rather than describing it as a mood.",
+   "legacy": "By 2010 most of the world's Catholics had worshipped this way for more than forty years. By then the restored catechumenate was the normal way for adults to join the Catholic Church. Mass in people's own language and lay ministries had become so much a part of life that they no longer felt new. In 2010 the argument over the older rite was still open. The church's own dated rulings record it, from Ecclesia Dei in 1988 to Summorum Pontificum in 2007.",
    "documentedStories": [
     {
      "title": "The First Sunday in Italian",
@@ -68345,7 +70081,7 @@
     "The survivor oral histories — gathered by the Zoryan Institute and the USC Shoah Foundation, and in diaspora parish records",
     "The diaspora parishes — from Beirut to Los Angeles, which carried the church's institutional life when its homeland could not"
    ],
-   "legacy": "In 2010 the church was alive in Armenia and in a diaspora larger than the church at home. It was one of the oldest continuously existing churches anywhere. The Caucasus lane on this map runs from the fourth century straight through to it. The Cold War split between Etchmiadzin and Antelias had eased by 2010, but it shaped generations of diaspora life. And the whole record of this century has to be handled the way its own communities handled it: as living memory, not distant history.",
+   "legacy": "In 2010 the church was alive in Armenia and in a diaspora larger than the church at home. It was one of the oldest churches anywhere with an unbroken life. Its Mother See at Etchmiadzin dates its founding to the early fourth century. The Cold War split between Etchmiadzin and Antelias had eased by 2010. But it shaped the life of the diaspora for generations. And the record of this century has to be handled the way its own people handled it: as living memory, not distant history.",
    "streams": [
     "oriental-orthodox"
    ],
@@ -71306,7 +73042,7 @@
    "c2": null,
    "sourcing": "Moderate to rich: the 1970 autocephaly record, Peter Gillquist's Becoming Orthodox (1989) and the 1987 Antiochian reception record (around 2,000 people), Ancient Faith Radio's archives from 2004, and convert memoirs. Estimates of the newer convert wave's size rest mainly on parish reports and journalism, since no independent count exists.",
    "floorNote": "No question",
-   "relationsSummary": "American Orthodoxy grew from immigrant parishes into an American church, receiving autocephaly in 1970 — the institutional handoff from the Paris émigré generation that built St Vladimir's Seminary. In 1987 the Evangelical Orthodox Church, a group of former evangelical leaders, was received into the Antiochian Archdiocese. A newer stream of converts followed. Several overlapping jurisdictions operated on the same soil in 2010, an anomaly by Orthodoxy's own canons. Japan's Orthodox Church is told in the entry on Japanese Christianity after 1906.",
+   "relationsSummary": "Orthodox Christians came to North America in immigrant parishes. In time their church became one of its own. It won full self-rule in 1970. Alexander Schmemann, who had taught in Paris, helped bring that about from his seminary in New York. In 1987 a group of former evangelical leaders brought their churches into the Antiochian Orthodox fold. More converts came after them. By 2010 several Orthodox church bodies served the same ground. By the church's own rules, that was out of order. Japan's Orthodox Church is told with the story of Japanese Christians after 1906.",
    "why": "Orthodoxy came to North America with immigrant parishes tied to churches overseas until the Orthodox Church in America received autocephaly in 1970. In 1987 the Evangelical Orthodox Church, seventeen parishes of roughly two thousand people formed by former evangelical leaders, was received into the Antiochian Archdiocese — a story Peter Gillquist told in Becoming Orthodox (1989) — and a convert stream followed, carried in the 2000s by outlets like Ancient Faith Radio, broadcasting from 2004.",
    "entry": null,
    "sources": [
@@ -71345,7 +73081,7 @@
     "Ancient Faith Radio — broadcasting from 2004, and the convert stream's media layer",
     "Patriarch Alexy I of Moscow — whose Tomos of 10 April 1970, signed a week before his death, made the Orthodox Church in America autocephalous"
    ],
-   "legacy": "In 2010 this was a living edge of a very old church. It was jurisdictionally plural, with several overlapping jurisdictions on the same soil. That was an anomaly by Orthodoxy's own canons and a fact of North American life. It receives the Paris school's handoff: the autocephaly of 1970 is the institutional close of the émigré generation's story and the opening of this one, and St Vladimir's Seminary sits at the join. It was also one of the destinations named in the published accounts of people leaving evangelical churches, and this map wires that relation on those published accounts rather than on any guess about motives. The one dedicated scholarly study, Amy Slagle's fieldwork, was published later, in 2011.",
+   "legacy": "In 2010 this was a living edge of a very old church. Several jurisdictions overlapped on the same soil. That broke Orthodoxy's own canons, yet it was a fact of North American life. The self-rule of 1970 owed much to teachers who had come from Paris. They taught at St Vladimir's Seminary in New York. The one dedicated scholarly study, Amy Slagle's fieldwork, came out later, in 2011.",
    "documentedStories": [
     {
      "title": "Turned Away at the Phanar, Received in Van Nuys",
@@ -73616,7 +75352,7 @@
    "c2": null,
    "sourcing": "Adequate for what it tells. The Joint Declaration of 1965 is read from its published text. Amaryllis Logotheti's thesis (2016) studies Zoe, and Lucian Leustean's volume (2010) has a chapter on the Ecumenical Patriarchate. The Patriarchate's life in the Turkish Republic from 1923 to 1971, and the calendar division of 1924, are not yet verified.",
    "floorNote": "No question. These are Orthodox churches that confess the Nicene-Constantinopolitan Creed.",
-   "relationsSummary": "It carries on from Orthodoxy after 1821, the National Churches. It also carries on from the Kollyvades and Greek renewal. The Orthodox churches of Serbia, Romania, Bulgaria and Albania have their own entry. Orthodox membership of the World Council of Churches belongs to the entry on the ecumenical movement.",
+   "relationsSummary": "It carries on from the national churches that grew up after 1821. Both the Patriarchate and the Church of Greece joined the World Council of Churches in 1948.",
    "why": "In 1907 a brotherhood of theologians called Zoe was founded in Greece. On 7 December 1965 Pope Paul VI and Ecumenical Patriarch Athenagoras I issued a joint declaration. They removed from memory the sentences of excommunication of 1054. In 1054 Rome's legates had excommunicated Patriarch Michael Cerularius, and his synod had condemned the legates in turn.",
    "entry": null,
    "sources": [

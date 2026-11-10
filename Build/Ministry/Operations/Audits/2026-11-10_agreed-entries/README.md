@@ -1,8 +1,10 @@
-# P2-G3, the agreed entries: data release 28 — 2026-11-10
+# P2-G3, the agreed entries: data release 29 — 2026-11-10
 
 The Church Family Tree's agreed entries, built under Mark's gap-sweep rulings (Decision-Log,
 "The gap sweep ruled (P2-G1)", 2026-11-09) and his answers on the people list (2026-11-10:
-"A a, B a, C a, D a, E a"). One data release: 353 movements (322 before), 656 links (611 before).
+"A a, B a, C a, D a, E a"). One data release: 353 movements (322 before), 689 links (644 before). Release 28 (P2-L10 part 2)
+merged while this was in review, so it was re-applied on main as release 29; no entry or link it
+changes was touched by either era 10 part.
 
 ## What the release holds
 
@@ -82,6 +84,13 @@ Hutterite material is trimmed now the Hutterites have their own entry. carthusia
 `continuesAs` to their successors. Two link notes now name John Wesley in full, so their `concerns` names him; one
 note gains the accent in "Thomas à Kempis".
 
+## The map until the people view
+
+The map has no people layer yet (P2-P). Mark ruled (2026-11-10, "Hide until P2-P") that until it
+does, the map leaves person entries and the links whose end is a person out of its own data. Their
+pages, the people rows on each tradition's page and the census are unchanged. P2-P removes the
+filter (`PERSON_IDS` in `cft-website/index.html`; a test in `generate_tree_pages.test.mjs`).
+
 ## The two counts
 
 **Own works (ruling 10c).** 10 or more distinct works of their own, held as a tradition's own voice on
@@ -149,7 +158,7 @@ only the census's own fields.
 ## Recording batch (no recording made)
 
 Mark ruled (2026-11-10) that all tree recording waits for one batch after P2-L10 and P2-G3 have both
-merged. P2-L10 part 2 is still to come. What this release adds to that batch, from the narration dry
+merged. Both parts of P2-L10 have now merged. What this release adds to that batch, from the narration dry
 runs (`narration_counts.json`):
 
 | what | items | characters |

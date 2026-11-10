@@ -73,4 +73,8 @@ fall after the Library's public-domain reach (about 1930). The recent-movement e
   read online and capped at Widely Accepted.
 - **Religious Bodies 1906:** each denomination's own statement in the report counts as that
   body's text. The Bureau's general statements do not.
+- **The grade of a "member of" link (Mark, 2026-11-10):** the council's, or the member church's,
+  own dated membership record alone carries it to Widely Accepted. It needs no study beside it.
+  Draw "member of" for a part 2 church that a council's own roll lists, where the church's text
+  names the council.
 

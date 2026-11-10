@@ -1,0 +1,1964 @@
+{
+ "era": 10,
+ "part": 2,
+ "lanes": [
+  "Africa",
+  "Latin West & Catholicism",
+  "Greek East & Orthodoxy",
+  "Latin West / Protestant — bridge",
+  "Non-Nicene Traditions",
+  "Syriac East & Asia",
+  "Greek East / Latin West — bridge",
+  "Caucasus",
+  "Africa / Latin West — bridge"
+ ],
+ "date": "2026-11-10",
+ "movements": [
+  {
+   "id": "african-initiated-churches-harrist-aladura-zioni",
+   "name": "African-Initiated Churches (Harrist; Aladura; Zionist/ZCC; Kimbanguist)",
+   "dates": "1880s-c. 2010",
+   "existing_links": [
+    {
+     "id": "azusa-street-and-early-pentecostalism--african-initiated-churches-harrist-aladura-zioni",
+     "from": "azusa-street-and-early-pentecostalism",
+     "to": "african-initiated-churches-harrist-aladura-zioni",
+     "type": "influenced",
+     "confidence": "Contested"
+    },
+    {
+     "id": "the-missionary-movement-s-native-churches-seramp--african-initiated-churches-harrist-aladura-zioni",
+     "from": "the-missionary-movement-s-native-churches-seramp",
+     "to": "african-initiated-churches-harrist-aladura-zioni",
+     "type": "influenced",
+     "confidence": "Dominant Modern Reconstruction"
+    },
+    {
+     "id": "african-initiated-churches-harrist-aladura-zioni--global-south-pentecostal-christianity",
+     "from": "african-initiated-churches-harrist-aladura-zioni",
+     "to": "global-south-pentecostal-christianity",
+     "type": "gave rise to",
+     "confidence": "Widely Accepted"
+    }
+   ],
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "Children of mission churches + Pentecostal currents + African initiative irreducible to either",
+     "other": "Pentecostal currents",
+     "other_id": null,
+     "other_id_note": "general Pentecostal currents; no single census entry (the Azusa edge is already drawn)",
+     "other_era": null,
+     "claim": "AIC drew on Pentecostal currents",
+     "other_names_it": null,
+     "other_sentence": null,
+     "part1_owned": false,
+     "part1_drew_link": null
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Children of mission churches + Pentecostal currents + African initiative irreducible to either",
+     "other": "mission churches",
+     "other_id": "the-missionary-movement-s-native-churches-seramp",
+     "other_id_note": "census entry the-missionary-movement-s-native-churches-seramp (The Missionary Movement's Native Churches (Serampore India; Sierra Leone & the Niger; Pacific Islands; China Coast & CIM))",
+     "other_era": 9,
+     "claim": "AIC descends from mission-founded native churches",
+     "other_names_it": false,
+     "other_sentence": null,
+     "part1_owned": false,
+     "part1_drew_link": null
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Nehemiah Tile left the Methodists to form the Thembu National Church in the 1880s",
+     "other": "the Methodists",
+     "other_id": "nineteenth-century-methodism",
+     "other_id_note": "tradition-level match: the Methodist church Tile left; census entry is nineteenth-century Methodism",
+     "other_era": 9,
+     "claim": "Tile left Methodism to found an African church",
+     "other_names_it": false,
+     "other_sentence": null,
+     "part1_owned": false,
+     "part1_drew_link": null
+    },
+    {
+     "field": "longDescription",
+     "sentence": "In 1946 he visited Alexandria and was made the patriarch's trustee, and from then his church was linked to the Greek Orthodox Patriarchate there.",
+     "other": "the Greek Orthodox Patriarchate of Alexandria",
+     "other_id": null,
+     "other_id_note": "Alexandrian patriarchate; no census entry for it",
+     "other_era": null,
+     "claim": "Mukasa's church was linked to the Alexandrian patriarchate from 1946",
+     "other_names_it": null,
+     "other_sentence": null,
+     "part1_owned": false,
+     "part1_drew_link": null
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Reuben Spartas Mukasa broke with the Anglicans in January 1929.",
+     "other": "the Anglicans",
+     "other_id": "the-anglican-communion-twentieth-century",
+     "other_id_note": "tradition-level match: the Anglican Communion entry (part 1)",
+     "other_era": 10,
+     "claim": "Mukasa broke with the Anglicans in 1929",
+     "other_names_it": false,
+     "other_sentence": null,
+     "part1_owned": false,
+     "part1_drew_link": false
+    },
+    {
+     "field": "legacy",
+     "sentence": "The Zion Christian Church's pilgrimage to Moria was central to its life, and the Kimbanguist church was the first African-initiated church admitted to the World Council of Churches, in 1969.",
+     "other": "the World Council of Churches",
+     "other_id": "the-ecumenical-movement-and-the-wcc",
+     "other_id_note": "census entry the-ecumenical-movement-and-the-wcc (The Ecumenical Movement & the World Council of Churches)",
+     "other_era": 10,
+     "claim": "the Kimbanguist church was admitted to the WCC in 1969",
+     "other_names_it": false,
+     "other_sentence": null,
+     "part1_owned": false,
+     "part1_drew_link": false
+    },
+    {
+     "field": "legacy",
+     "sentence": "Their congregations traveled with African migration and were planted across Europe, a chapter this map tells in a separate entry.",
+     "other": "the separate entry on African congregations in Europe",
+     "other_id": "african-diaspora-and-reverse-mission-churches-in",
+     "other_id_note": "census entry african-diaspora-and-reverse-mission-churches-in (African Diaspora & Reverse-Mission Churches in Europe)",
+     "other_era": 10,
+     "claim": "AIC congregations were planted across Europe",
+     "other_names_it": true,
+     "other_sentence": "Aladura and Kimbanguist congregations were meeting in European cities from the 1960s.",
+     "part1_owned": false,
+     "part1_drew_link": null
+    }
+   ],
+   "hygiene": [
+    "Matsouanism",
+    "Thembu National Church",
+    "Ethiopian Church in South Africa",
+    "Lumpa Church",
+    "Christ Apostolic Church"
+   ]
+  },
+  {
+   "id": "catholic-lay-renewal-worlds-catholic-worker-foco",
+   "name": "Catholic Lay Renewal Traditions (Catholic Worker; Focolare; Charismatic Renewal; L'Arche)",
+   "dates": "1930s-c. 2010",
+   "existing_links": [],
+   "relationships": [
+    {
+     "field": "why",
+     "sentence": "Four movements, each begun by lay Catholics and all still active in 2010: Dorothy Day and Peter Maurin's Catholic Worker in 1933, with its newspaper and houses of hospitality; Chiara Lubich's Focolare in 1943; the Charismatic Renewal that began on a retreat weekend at Duquesne University in 1967; and Jean Vanier's L'Arche in 1964, where people with and without intellectual disabilities share a household.",
+     "other": "the Charismatic Renewal",
+     "other_id": "charismatic-renewal-and-the-jesus-movement",
+     "other_id_note": "tradition-level match: the Charismatic Renewal and Jesus movement entry (part 1); the Catholic renewal is its Catholic branch",
+     "other_era": 10,
+     "claim": "the Catholic Charismatic Renewal is one branch of the wider charismatic movement",
+     "other_names_it": true,
+     "other_sentence": "Roman Catholics shared in the same renewal.",
+     "part1_owned": true,
+     "part1_drew_link": false
+    }
+   ],
+   "hygiene": [
+    "Catholic Worker",
+    "Focolare",
+    "L'Arche",
+    "Malines Documents"
+   ]
+  },
+  {
+   "id": "latin-american-base-communities",
+   "name": "Latin American Base Communities",
+   "dates": "1960s-1990s",
+   "existing_links": [],
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "Pentecostal churches grew fast among the same poor communities in Latin America at the same time as the base communities, a pairing worth noting side by side.",
+     "other": "Pentecostal churches in Latin America",
+     "other_id": "global-south-pentecostal-christianity",
+     "other_id_note": "broad match: the Global South Pentecostal entry (part 1) covers Latin American Pentecostal churches",
+     "other_era": 10,
+     "claim": "Pentecostal churches grew alongside the base communities",
+     "other_names_it": false,
+     "other_sentence": null,
+     "part1_owned": false,
+     "part1_drew_link": false
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "The bishops' meetings at Medellín in 1968 and Puebla in 1979 are told in the entry on Latin American Catholicism, the parent of this one.",
+     "other": "Latin American Catholicism (parent entry)",
+     "other_id": "latin-american-catholicism-twentieth-century",
+     "other_id_note": "census entry latin-american-catholicism-twentieth-century (Latin American Catholicism in the Twentieth Century)",
+     "other_era": 10,
+     "claim": "the base communities hang from the Latin American Catholicism entry",
+     "other_names_it": true,
+     "other_sentence": "The base communities have their own entry, which hangs from this one.",
+     "part1_owned": false,
+     "part1_drew_link": null
+    }
+   ],
+   "hygiene": [
+    "Solentiname",
+    "CEHILA"
+   ]
+  },
+  {
+   "id": "emigre-orthodoxy-and-the-paris-school",
+   "name": "Emigre Orthodoxy & the Paris School",
+   "dates": "1920s-1970s",
+   "existing_links": [
+    {
+     "id": "the-optina-elders-and-russian-ascetic-renewal--emigre-orthodoxy-and-the-paris-school",
+     "from": "the-optina-elders-and-russian-ascetic-renewal",
+     "to": "emigre-orthodoxy-and-the-paris-school",
+     "type": "influenced",
+     "confidence": "Inferential-Thin"
+    }
+   ],
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "Its roots run through more than one strand of Russian religious life — the Optina monastic tradition and the religious-philosophical renaissance associated with Sergei Bulgakov and Nikolai Berdyaev both feed into it.",
+     "other": "the Optina monastic tradition",
+     "other_id": "the-optina-elders-and-russian-ascetic-renewal",
+     "other_id_note": "census entry the-optina-elders-and-russian-ascetic-renewal (The Optina Elders & Russian Ascetic Renewal)",
+     "other_era": 9,
+     "claim": "the emigration draws on the Optina monastic tradition",
+     "other_names_it": true,
+     "other_sentence": "Its spirituality carried forward into twentieth-century émigré Orthodox theology, as a renewal movement within the wider Russian Orthodox Church of the same era.",
+     "part1_owned": false,
+     "part1_drew_link": null
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "The church the émigrés left behind in Russia has its own entry, the Russian Orthodox Church.",
+     "other": "the Russian Orthodox Church",
+     "other_id": "the-russian-orthodox-church-council-patriarchate-and-reunion",
+     "other_id_note": "census entry the-russian-orthodox-church-council-patriarchate-and-reunion (The Russian Orthodox Church — Council, Patriarchate and Reunion)",
+     "other_era": 10,
+     "claim": "the Paris generation left the Russian Orthodox Church behind",
+     "other_names_it": true,
+     "other_sentence": "Emigre Orthodoxy and the Paris School tells the emigration.",
+     "part1_owned": false,
+     "part1_drew_link": null
+    },
+    {
+     "field": "legacy",
+     "sentence": "The Paris generation's own episode closed around 1970, with the handoff its institutions had been building toward: the Orthodox Church in America received autocephaly in 1970, and St Vladimir's Seminary in New York became the school this tradition had built in a second country.",
+     "other": "the Orthodox Church in America",
+     "other_id": "american-orthodoxy-autocephaly-and-the-convert-wave",
+     "other_id_note": "census entry american-orthodoxy-autocephaly-and-the-convert-wave (American Orthodoxy — Autocephaly & the Convert Wave)",
+     "other_era": 10,
+     "claim": "the Paris generation handed on to American Orthodoxy",
+     "other_names_it": true,
+     "other_sentence": "American Orthodoxy grew from immigrant parishes into an American church, receiving autocephaly in 1970 — the institutional handoff from the Paris émigré generation that built St Vladimir's Seminary.",
+     "part1_owned": false,
+     "part1_drew_link": null
+    }
+   ],
+   "hygiene": [
+    "St Sergius Institute",
+    "St Vladimir's Seminary",
+    "YMCA Press"
+   ]
+  },
+  {
+   "id": "the-coptic-monastic-and-sunday-school-revival",
+   "name": "The Coptic Monastic & Sunday-School Revival",
+   "dates": "1940s-c. 2010",
+   "existing_links": [
+    {
+     "id": "coptic-revival-under-cyril-iv--the-coptic-monastic-and-sunday-school-revival",
+     "from": "coptic-revival-under-cyril-iv",
+     "to": "the-coptic-monastic-and-sunday-school-revival",
+     "type": "continued as",
+     "confidence": "Dominant Modern Reconstruction"
+    }
+   ],
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "Continuation of the map's longest unbroken lane - back to the Desert itself",
+     "other": "the Desert (the desert fathers)",
+     "other_id": "desert-monasticism",
+     "other_id_note": "census entry desert-monasticism (Desert Monasticism)",
+     "other_era": 2,
+     "claim": "the Coptic lane runs back to the desert monastic tradition",
+     "other_names_it": true,
+     "other_sentence": "The Coptic monasteries of St Antony and St Paul near the Red Sea, and the cluster of monasteries at Wadi al-Natrun, are inhabited by monks today, on or near the same ground this tradition's own record describes.",
+     "part1_owned": false,
+     "part1_drew_link": null
+    }
+   ],
+   "hygiene": [
+    "Monastery of St Macarius"
+   ]
+  },
+  {
+   "id": "ecumenical-community-worlds-taize-and-iona",
+   "name": "Ecumenical Community Traditions - Taize & Iona",
+   "dates": "1938/1940-c. 2010",
+   "existing_links": [
+    {
+     "id": "insular-irish-monastic-christianity--ecumenical-community-worlds-taize-and-iona",
+     "from": "insular-irish-monastic-christianity",
+     "to": "ecumenical-community-worlds-taize-and-iona",
+     "type": "influenced",
+     "confidence": "Inferential-Thin"
+    }
+   ],
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "Deliberate heirs of monastic lines - Iona literally on Columba's island",
+     "other": "Columba's island and the monastic lines",
+     "other_id": "insular-irish-monastic-christianity",
+     "other_id_note": "census entry insular-irish-monastic-christianity (Insular / Irish Monastic Christianity)",
+     "other_era": 3,
+     "claim": "Iona and Taizé are heirs of the Columban monastic line",
+     "other_names_it": false,
+     "other_sentence": null,
+     "part1_owned": false,
+     "part1_drew_link": null
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Both are ecumenical by design, with members from many churches and none of the usual boundaries between them.",
+     "other": "the ecumenical movement",
+     "other_id": "the-ecumenical-movement-and-the-wcc",
+     "other_id_note": "census entry the-ecumenical-movement-and-the-wcc (The Ecumenical Movement & the World Council of Churches)",
+     "other_era": 10,
+     "claim": "both communities are ecumenical by design",
+     "other_names_it": false,
+     "other_sentence": null,
+     "part1_owned": false,
+     "part1_drew_link": false
+    }
+   ],
+   "hygiene": []
+  },
+  {
+   "id": "oneness-pentecostalism",
+   "name": "Oneness Pentecostalism",
+   "dates": "1913-c. 2010",
+   "existing_links": [
+    {
+     "id": "azusa-street-and-early-pentecostalism--oneness-pentecostalism",
+     "from": "azusa-street-and-early-pentecostalism",
+     "to": "oneness-pentecostalism",
+     "type": "gave rise to",
+     "confidence": "Widely Accepted"
+    }
+   ],
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "Oneness Pentecostalism grew directly out of the wider Pentecostal movement that followed the Azusa Street revival.",
+     "other": "the Azusa Street revival and the Pentecostal movement",
+     "other_id": "azusa-street-and-early-pentecostalism",
+     "other_id_note": "census entry azusa-street-and-early-pentecostalism (Azusa Street & Early Pentecostalism)",
+     "other_era": 10,
+     "claim": "Oneness grew out of the Azusa Street Pentecostal movement",
+     "other_names_it": true,
+     "other_sentence": "It gave rise to Oneness Pentecostalism.",
+     "part1_owned": true,
+     "part1_drew_link": true
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Two other traditions trace back to the same roots: the True Jesus Church, founded in Beijing in 1917, and La Luz del Mundo in Mexico, which descends from the same 1914 Mexican Apostolic revival.",
+     "other": "the True Jesus Church",
+     "other_id": null,
+     "other_id_note": "True Jesus Church (Beijing, 1917); named in part 1 hygiene; no census entry",
+     "other_era": null,
+     "claim": "the True Jesus Church shares the Pentecostal roots",
+     "other_names_it": null,
+     "other_sentence": null,
+     "part1_owned": false,
+     "part1_drew_link": null
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Two other traditions trace back to the same roots: the True Jesus Church, founded in Beijing in 1917, and La Luz del Mundo in Mexico, which descends from the same 1914 Mexican Apostolic revival.",
+     "other": "La Luz del Mundo",
+     "other_id": "iglesia-ni-cristo-the-way-international-unificat",
+     "other_id_note": "census entry iglesia-ni-cristo-the-way-international-unificat (The Way International; Unification Church; La Luz del Mundo)",
+     "other_era": 10,
+     "claim": "La Luz del Mundo shares the Oneness and 1914 Mexican Apostolic roots",
+     "other_names_it": true,
+     "other_sentence": "La Luz del Mundo grew out of the Oneness Pentecostal movement.",
+     "part1_owned": false,
+     "part1_drew_link": null
+    },
+    {
+     "field": "longDescription",
+     "sentence": "In October 1916 the Assemblies of God adopted its Statement of Fundamental Truths, an explicitly trinitarian confession, and the ministers who could not sign it left — so the rupture stands documented in each side's own words.",
+     "other": "the Assemblies of God",
+     "other_id": null,
+     "other_id_note": "Assemblies of God; no census entry",
+     "other_era": null,
+     "claim": "Oneness ministers left the Assemblies of God over its 1916 trinitarian statement",
+     "other_names_it": null,
+     "other_sentence": null,
+     "part1_owned": false,
+     "part1_drew_link": null
+    },
+    {
+     "field": "longDescription",
+     "sentence": "The Iglesia Apostólica de la Fe en Cristo Jesús grew from it.",
+     "other": "the Iglesia Apostólica de la Fe en Cristo Jesús",
+     "other_id": null,
+     "other_id_note": "Mexican Apostolic body; no census entry",
+     "other_era": null,
+     "claim": "the Iglesia Apostólica grew from the 1914 Mexican revival",
+     "other_names_it": null,
+     "other_sentence": null,
+     "part1_owned": false,
+     "part1_drew_link": null
+    }
+   ],
+   "hygiene": [
+    "Pentecostal Assemblies of the World",
+    "United Pentecostal Church International"
+   ]
+  },
+  {
+   "id": "iglesia-ni-cristo-the-way-international-unificat",
+   "name": "The Way International; Unification Church; La Luz del Mundo",
+   "dates": "1926-c. 2010",
+   "existing_links": [],
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "La Luz del Mundo grew out of the Oneness Pentecostal movement.",
+     "other": "the Oneness Pentecostal movement",
+     "other_id": "oneness-pentecostalism",
+     "other_id_note": "census entry oneness-pentecostalism (Oneness Pentecostalism)",
+     "other_era": 10,
+     "claim": "La Luz del Mundo grew out of Oneness Pentecostalism",
+     "other_names_it": true,
+     "other_sentence": "Two other traditions trace back to the same roots: the True Jesus Church, founded in Beijing in 1917, and La Luz del Mundo in Mexico, which descends from the same 1914 Mexican Apostolic revival.",
+     "part1_owned": false,
+     "part1_drew_link": null
+    }
+   ],
+   "hygiene": [
+    "Iglesia ni Cristo"
+   ]
+  },
+  {
+   "id": "branch-davidians-and-apocalyptic-splinters",
+   "name": "Branch Davidians & Apocalyptic Splinters",
+   "dates": "1929-1993",
+   "existing_links": [],
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "Victor Houteff broke from Adventism in 1929, and his followers settled at Mount Carmel outside Waco in 1935.",
+     "other": "Adventism",
+     "other_id": "seventh-day-adventist-church-twentieth-century",
+     "other_id_note": "the Seventh-day Adventist entry for the 20th century (part 1); the 1929 break falls in it",
+     "other_era": 10,
+     "claim": "Houteff broke from Adventism in 1929",
+     "other_names_it": false,
+     "other_sentence": null,
+     "part1_owned": false,
+     "part1_drew_link": false
+    },
+    {
+     "field": "longDescription",
+     "sentence": "In 1929 Victor Houteff began circulating a reform message inside Adventism that his church rejected, and published it as The Shepherd's Rod in 1930 and 1932; his followers settled at Mount Carmel outside Waco, Texas, in 1935.",
+     "other": "Adventism",
+     "other_id": "seventh-day-adventist-church-twentieth-century",
+     "other_id_note": "the Seventh-day Adventist entry for the 20th century (part 1); the 1929 break falls in it",
+     "other_era": 10,
+     "claim": "Houteff tried to reform Adventism and was rejected",
+     "other_names_it": false,
+     "other_sentence": null,
+     "part1_owned": false,
+     "part1_drew_link": false
+    }
+   ],
+   "hygiene": [
+    "The Shepherd's Rod",
+    "Mount Carmel"
+   ]
+  },
+  {
+   "id": "the-sayfo-and-the-syriac-diaspora",
+   "name": "The Sayfo & the Syriac Diaspora",
+   "dates": "1915-c. 2010",
+   "existing_links": [
+    {
+     "id": "church-of-the-east-chaldean-consolidation--the-sayfo-and-the-syriac-diaspora",
+     "from": "church-of-the-east-chaldean-consolidation",
+     "to": "the-sayfo-and-the-syriac-diaspora",
+     "type": "continued as",
+     "confidence": "Widely Accepted"
+    }
+   ],
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "It covers the Assyrian, Church of the East wing as well as the Syriac Orthodox wing, including the assassination of Mar Shimun XXIII in 1975, a split within the Church of the East in 1968, and the 1994 Common Christological Declaration with Rome.",
+     "other": "the Church of the East",
+     "other_id": "church-of-the-east-chaldean-consolidation",
+     "other_id_note": "census entry church-of-the-east-chaldean-consolidation (The Church of the East & the Chaldean Consolidation)",
+     "other_era": 9,
+     "claim": "the Sayfo entry carries the Church of the East into the modern period",
+     "other_names_it": true,
+     "other_sentence": "The line that stayed independent kept its seat at Qudshanis and became known as the Assyrian Church of the East.",
+     "part1_owned": false,
+     "part1_drew_link": null
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "It covers the Assyrian, Church of the East wing as well as the Syriac Orthodox wing, including the assassination of Mar Shimun XXIII in 1975, a split within the Church of the East in 1968, and the 1994 Common Christological Declaration with Rome.",
+     "other": "Rome (Common Christological Declaration, 1994)",
+     "other_id": null,
+     "other_id_note": "the Roman Catholic Church; no census entry for the post-1965 papacy",
+     "other_era": null,
+     "claim": "the Assyrian church signed a Christological declaration with Rome in 1994",
+     "other_names_it": null,
+     "other_sentence": null,
+     "part1_owned": false,
+     "part1_drew_link": null
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "This is the modern continuation of the ancient Syriac Christian tradition, whose recorded history had gone quiet after about 1300 — a silence Syriac communities experienced as erasure, named honestly here rather than smoothed over.",
+     "other": "the ancient Syriac Christian tradition",
+     "other_id": "syriac-edessa-nisibis",
+     "other_id_note": "census entry syriac-edessa-nisibis (Syriac Christianity (Edessa/Nisibis))",
+     "other_era": 1,
+     "claim": "the Sayfo entry continues the ancient Syriac tradition",
+     "other_names_it": true,
+     "other_sentence": "The Syriac Orthodox Church also counts it as a root.",
+     "part1_owned": false,
+     "part1_drew_link": null
+    }
+   ],
+   "hygiene": [
+    "Syriac Orthodox patriarchate (Antioch)",
+    "Assyro-Chaldean delegation"
+   ]
+  },
+  {
+   "id": "modern-ethiopian-and-eritrean-christianity",
+   "name": "Modern Ethiopian & Eritrean Christianity",
+   "dates": "1900-c. 2010",
+   "existing_links": [
+    {
+     "id": "ethiopian-christianity-tewodros-to-menelik--modern-ethiopian-and-eritrean-christianity",
+     "from": "ethiopian-christianity-tewodros-to-menelik",
+     "to": "modern-ethiopian-and-eritrean-christianity",
+     "type": "continued as",
+     "confidence": "Widely Accepted"
+    }
+   ],
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "Continues the Ethiopian church of Tewodros and Menelik.",
+     "other": "the Ethiopian church of Tewodros and Menelik",
+     "other_id": "ethiopian-christianity-tewodros-to-menelik",
+     "other_id_note": "census entry ethiopian-christianity-tewodros-to-menelik (Ethiopian Christianity — Tewodros to Menelik)",
+     "other_era": 9,
+     "claim": "the modern Tawahedo church continues the Tewodros-to-Menelik church",
+     "other_names_it": true,
+     "other_sentence": "The Ethiopian Orthodox Tewahedo Church is one of the largest of the ancient Oriental Orthodox churches, and both things this century settled are still in place: the Tewahedo doctrine ruled at Boru Meda, and the independence Adwa secured.",
+     "part1_owned": false,
+     "part1_drew_link": null
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Alongside all this a Protestant evangelical movement, the P'ent'ay, grew fast — the Kale Heywet and Mekane Yesus churches among them, the latter publishing a much-quoted letter on holistic ministry in 1972 — and grew fastest underground under the Derg.",
+     "other": "the P'ent'ay evangelical movement",
+     "other_id": null,
+     "other_id_note": "P'ent'ay evangelical movement; no census entry",
+     "other_era": null,
+     "claim": "the P'ent'ay grew alongside the Tawahedo church under the Derg",
+     "other_names_it": null,
+     "other_sentence": null,
+     "part1_owned": false,
+     "part1_drew_link": null
+    },
+    {
+     "field": "longDescription",
+     "sentence": "In May 1970 Archimandrite Laike Mariam Mandefro, later Archbishop Yesehaq, established the Ethiopian Orthodox Church in Jamaica.",
+     "other": "the Ethiopian Orthodox Church in Jamaica",
+     "other_id": null,
+     "other_id_note": "Ethiopian Orthodox body in Jamaica; no census entry",
+     "other_era": null,
+     "claim": "an Ethiopian Orthodox church was founded in Jamaica in 1970",
+     "other_names_it": null,
+     "other_sentence": null,
+     "part1_owned": false,
+     "part1_drew_link": null
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Eritrea's church became autocephalous in 1993; in 2006 its Patriarch Antonios was deposed and placed under house arrest.",
+     "other": "Eritrea's church",
+     "other_id": null,
+     "other_id_note": "Eritrean Orthodox church; no census entry",
+     "other_era": null,
+     "claim": "Eritrea's church became autocephalous in 1993",
+     "other_names_it": null,
+     "other_sentence": null,
+     "part1_owned": false,
+     "part1_drew_link": null
+    }
+   ],
+   "hygiene": [
+    "Debre Libanos",
+    "Kale Heywet",
+    "Mekane Yesus"
+   ]
+  },
+  {
+   "id": "the-ukrainian-greek-catholic-underground",
+   "name": "The Ukrainian Greek Catholic Underground",
+   "dates": "1946-1989",
+   "existing_links": [
+    {
+     "id": "ruthenian-greek-catholic-polotsk-to-galicia--the-ukrainian-greek-catholic-underground",
+     "from": "ruthenian-greek-catholic-polotsk-to-galicia",
+     "to": "the-ukrainian-greek-catholic-underground",
+     "type": "continued as",
+     "confidence": "Widely Accepted"
+    }
+   ],
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "The world's largest banned church - clandestine ordinations, bishops in the Gulag, emergence intact in 1989; a continuation of the Union of Brest.",
+     "other": "the Union of Brest",
+     "other_id": "the-union-of-brest-and-ruthenian-greek-catholic-",
+     "other_id_note": "census entry the-union-of-brest-and-ruthenian-greek-catholic- (The Union of Brest & Ruthenian Greek Catholic Christianity)",
+     "other_era": 7,
+     "claim": "the underground church continues the Union of Brest",
+     "other_names_it": true,
+     "other_sentence": "It survives as the Ukrainian Greek Catholic Church and the Belarusian Greek Catholic Church.",
+     "part1_owned": false,
+     "part1_drew_link": null
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "The Romanian Greek Catholic Church, dissolved in 1948, has its own entry.",
+     "other": "the Romanian Greek Catholic Church",
+     "other_id": "the-romanian-greek-catholic-church-suppression-and-return",
+     "other_id_note": "census entry the-romanian-greek-catholic-church-suppression-and-return (The Romanian Greek Catholic Church — Suppression and Return)",
+     "other_era": 10,
+     "claim": "the same pattern of dissolution and return in Romania",
+     "other_names_it": true,
+     "other_sentence": "The Ukrainian Greek Catholic Underground tells the same pattern in Ukraine.",
+     "part1_owned": false,
+     "part1_drew_link": null
+    },
+    {
+     "field": "longDescription",
+     "sentence": "In communist Czechoslovakia the Greek Catholic Church was liquidated between 1948 and 1950.",
+     "other": "the Greek Catholic Church of Czechoslovakia",
+     "other_id": null,
+     "other_id_note": "Czechoslovak Greek Catholic Church; no census entry",
+     "other_era": null,
+     "claim": "Czechoslovak Greek Catholics were liquidated 1948-50",
+     "other_names_it": null,
+     "other_sentence": null,
+     "part1_owned": false,
+     "part1_drew_link": null
+    },
+    {
+     "field": "longDescription",
+     "sentence": "In March 1946 a synod was convened at Lviv that dissolved the Ukrainian Greek Catholic Church into the Russian Orthodox Church.",
+     "other": "the Russian Orthodox Church",
+     "other_id": "the-russian-orthodox-church-council-patriarchate-and-reunion",
+     "other_id_note": "census entry the-russian-orthodox-church-council-patriarchate-and-reunion (The Russian Orthodox Church — Council, Patriarchate and Reunion)",
+     "other_era": 10,
+     "claim": "the 1946 Lviv synod absorbed the Ukrainian church into the Russian Orthodox Church",
+     "other_names_it": false,
+     "other_sentence": null,
+     "part1_owned": false,
+     "part1_drew_link": null
+    }
+   ],
+   "hygiene": [
+    "Prešov sobor (Action P)"
+   ]
+  },
+  {
+   "id": "the-russian-new-martyrs-and-the-catacomb-church",
+   "name": "The Russian New Martyrs & the Catacomb Church",
+   "dates": "1917-1991",
+   "existing_links": [
+    {
+     "id": "the-optina-elders-and-russian-ascetic-renewal--the-russian-new-martyrs-and-the-catacomb-church",
+     "from": "the-optina-elders-and-russian-ascetic-renewal",
+     "to": "the-russian-new-martyrs-and-the-catacomb-church",
+     "type": "continued as",
+     "confidence": "Inferential-Thin"
+    }
+   ],
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "The century's largest persecution of Christians - Solovki, Butovo, the catacomb communities, thousands of canonized new martyrs; the Optina tradition carried through catastrophe.",
+     "other": "the Optina tradition",
+     "other_id": "the-optina-elders-and-russian-ascetic-renewal",
+     "other_id_note": "census entry the-optina-elders-and-russian-ascetic-renewal (The Optina Elders & Russian Ascetic Renewal)",
+     "other_era": 9,
+     "claim": "the Optina tradition carried through the persecution",
+     "other_names_it": false,
+     "other_sentence": null,
+     "part1_owned": false,
+     "part1_drew_link": null
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "The church's story as an institution has its own entry, the Russian Orthodox Church.",
+     "other": "the Russian Orthodox Church",
+     "other_id": "the-russian-orthodox-church-council-patriarchate-and-reunion",
+     "other_id_note": "census entry the-russian-orthodox-church-council-patriarchate-and-reunion (The Russian Orthodox Church — Council, Patriarchate and Reunion)",
+     "other_era": 10,
+     "claim": "the martyrs belong to the Russian Orthodox Church story",
+     "other_names_it": true,
+     "other_sentence": "The Russian New Martyrs and the Catacomb Church tells its persecution, Patriarch Tikhon and the canonizations of 2000.",
+     "part1_owned": false,
+     "part1_drew_link": null
+    }
+   ],
+   "hygiene": [
+    "Solovki monastery",
+    "Butovo firing range"
+   ]
+  },
+  {
+   "id": "the-post-vatican-ii-parish-world",
+   "name": "The Post-Vatican-II Parish Tradition",
+   "dates": "1962-c. 2010",
+   "existing_links": [
+    {
+     "id": "the-tridentine-church--the-post-vatican-ii-parish-world",
+     "from": "the-tridentine-church",
+     "to": "the-post-vatican-ii-parish-world",
+     "type": "influenced",
+     "confidence": "Inferential-Thin"
+    }
+   ],
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "The tension with traditionalists who preferred the older Latin rite is documented in the church's own successive rulings: Ecclesia Dei (1988) and Summorum Pontificum (2007).",
+     "other": "the traditionalists who preferred the older Latin rite",
+     "other_id": "the-tridentine-church",
+     "other_id_note": "census entry the-tridentine-church (The Tridentine Church)",
+     "other_era": 7,
+     "claim": "the traditionalist dispute is the Tridentine tradition continued",
+     "other_names_it": true,
+     "other_sentence": "That framework governed Catholic life until the Second Vatican Council of 1962-65 revised it — and the older Mass is still celebrated today by communities that have kept it.",
+     "part1_owned": false,
+     "part1_drew_link": null
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "The Federation of Asian Bishops' Conferences, the FABC, dates its birth to that meeting.",
+     "other": "the Federation of Asian Bishops' Conferences (FABC)",
+     "other_id": null,
+     "other_id_note": "FABC; no census entry",
+     "other_era": null,
+     "claim": "the FABC was born from the 1970 Manila meeting of Asian bishops",
+     "other_names_it": null,
+     "other_sentence": null,
+     "part1_owned": false,
+     "part1_drew_link": null
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Not everyone welcomed it: Archbishop Lefebvre published a declaration in 1974, and the argument over the older rite is documented in the church's own successive rulings, Ecclesia Dei in 1988 and Summorum Pontificum in 2007.",
+     "other": "Archbishop Lefebvre's traditionalist movement",
+     "other_id": null,
+     "other_id_note": "Lefebvre's movement; no census entry (its position is the Tridentine entry)",
+     "other_era": null,
+     "claim": "Lefebvre opposed the post-council rite in 1974",
+     "other_names_it": null,
+     "other_sentence": null,
+     "part1_owned": false,
+     "part1_drew_link": null
+    }
+   ],
+   "hygiene": [
+    "Sacrosanctum Concilium",
+    "Lumen Gentium",
+    "Gaudium et Spes",
+    "Dei Verbum"
+   ]
+  },
+  {
+   "id": "african-diaspora-and-reverse-mission-churches-in",
+   "name": "African Diaspora & Reverse-Mission Churches in Europe",
+   "dates": "1960s-c. 2010",
+   "existing_links": [
+    {
+     "id": "global-south-pentecostal-christianity--african-diaspora-and-reverse-mission-churches-in",
+     "from": "global-south-pentecostal-christianity",
+     "to": "african-diaspora-and-reverse-mission-churches-in",
+     "type": "gave rise to",
+     "confidence": "Widely Accepted"
+    }
+   ],
+   "relationships": [
+    {
+     "field": "longDescription",
+     "sentence": "Aladura and Kimbanguist congregations were meeting in European cities from the 1960s.",
+     "other": "Aladura and Kimbanguist congregations",
+     "other_id": "african-initiated-churches-harrist-aladura-zioni",
+     "other_id_note": "census entry african-initiated-churches-harrist-aladura-zioni (African-Initiated Churches (Harrist; Aladura; Zionist/ZCC; Kimbanguist))",
+     "other_era": 10,
+     "claim": "the diaspora congregations grew from the African-initiated churches",
+     "other_names_it": true,
+     "other_sentence": "Their congregations traveled with African migration and were planted across Europe, a chapter this map tells in a separate entry.",
+     "part1_owned": false,
+     "part1_drew_link": null
+    },
+    {
+     "field": "longDescription",
+     "sentence": "The Redeemed Christian Church of God, founded in Nigeria in 1952, opened British parishes from the 1980s and Jesus House in London in 1994.",
+     "other": "the Redeemed Christian Church of God",
+     "other_id": null,
+     "other_id_note": "Nigerian church; no census entry (the Global South entry also names it)",
+     "other_era": null,
+     "claim": "the RCCG opened British parishes from the 1980s",
+     "other_names_it": null,
+     "other_sentence": null,
+     "part1_owned": false,
+     "part1_drew_link": null
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Sunday Adelaja founded the Embassy of the Blessed Kingdom of God for All Nations in Kyiv in 1994.",
+     "other": "the Embassy of the Blessed Kingdom of God for All Nations",
+     "other_id": null,
+     "other_id_note": "Kyiv congregation; no census entry",
+     "other_era": null,
+     "claim": "a Nigerian-led church was founded in Kyiv in 1994",
+     "other_names_it": null,
+     "other_sentence": null,
+     "part1_owned": false,
+     "part1_drew_link": null
+    }
+   ],
+   "hygiene": [
+    "Kingsway International Christian Centre",
+    "Jesus House"
+   ]
+  },
+  {
+   "id": "the-armenian-church-after-the-genocide-medz-yegh",
+   "name": "The Armenian Church after the Genocide (Medz Yeghern)",
+   "dates": "1915-c. 2010",
+   "existing_links": [
+    {
+     "id": "armenian-christianity-zartonk--the-armenian-church-after-the-genocide-medz-yegh",
+     "from": "armenian-christianity-zartonk",
+     "to": "the-armenian-church-after-the-genocide-medz-yegh",
+     "type": "continued as",
+     "confidence": "Widely Accepted"
+    }
+   ],
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "This is the modern continuation of one of Christianity's oldest churches, tracing back to antiquity in the Caucasus, and it shares a history of suffering under Soviet rule with other churches from the region.",
+     "other": "the Armenian church's ancient continuity",
+     "other_id": "armenian-christianity-zartonk",
+     "other_id_note": "census entry armenian-christianity-zartonk (Armenian Christianity — the Zartonk Century)",
+     "other_era": 9,
+     "claim": "the post-genocide church continues the Armenian church",
+     "other_names_it": true,
+     "other_sentence": "The Armenian Apostolic Church remains the national church of Armenia and of a diaspora this century's emigrations began.",
+     "part1_owned": false,
+     "part1_drew_link": null
+    },
+    {
+     "field": "longDescription",
+     "sentence": "The Holy See of Cilicia relocated to Antelias in Lebanon in 1930.",
+     "other": "the Holy See of Cilicia",
+     "other_id": "armenian-cilicia-after-the-kingdom",
+     "other_id_note": "census entry armenian-cilicia-after-the-kingdom (Armenian Christianity after the Kingdom (Sis to Etchmiadzin))",
+     "other_era": 6,
+     "claim": "the Cilician see moved to Antelias in 1930",
+     "other_names_it": true,
+     "other_sentence": "It goes on as the Catholicosate of Cilicia, based since the 1930s at Antelias in Lebanon.",
+     "part1_owned": false,
+     "part1_drew_link": null
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Etchmiadzin, the mother see, continued inside the Soviet Union under severe constraint; Catholicos Khoren I was killed in 1938.",
+     "other": "Etchmiadzin, the mother see",
+     "other_id": null,
+     "other_id_note": "the mother see; no census entry covers its 20th-century story",
+     "other_era": null,
+     "claim": "Etchmiadzin continued under Soviet rule",
+     "other_names_it": null,
+     "other_sentence": null,
+     "part1_owned": false,
+     "part1_drew_link": null
+    }
+   ],
+   "hygiene": [
+    "Etchmiadzin (mother see)"
+   ]
+  },
+  {
+   "id": "the-malankara-churches-orthodox-and-jacobite",
+   "name": "The Malankara Churches — Orthodox & Jacobite",
+   "dates": "1912-c. 2010",
+   "existing_links": [
+    {
+     "id": "northeast-india-revivals-and-the-mar-thoma-refor--the-malankara-churches-orthodox-and-jacobite",
+     "from": "northeast-india-revivals-and-the-mar-thoma-refor",
+     "to": "the-malankara-churches-orthodox-and-jacobite",
+     "type": "broke with",
+     "confidence": "Widely Accepted"
+    }
+   ],
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "Together they carry forward the ancient St Thomas Christian tradition, alongside the Mar Thoma Church, the reform wing that separated earlier, in 1889.",
+     "other": "the ancient St Thomas Christian tradition",
+     "other_id": "st-thomas-christians-of-india",
+     "other_id_note": "census entry st-thomas-christians-of-india (St. Thomas Christians of India)",
+     "other_era": 4,
+     "claim": "both wings carry the St Thomas tradition",
+     "other_names_it": true,
+     "other_sentence": "On India's Malabar coast, a Christian community that traced itself to the apostle Thomas worshipped in Syriac and received its bishops from the patriarch of the Church of the East in Mesopotamia.",
+     "part1_owned": false,
+     "part1_drew_link": null
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Together they carry forward the ancient St Thomas Christian tradition, alongside the Mar Thoma Church, the reform wing that separated earlier, in 1889.",
+     "other": "the Mar Thoma Church",
+     "other_id": "northeast-india-revivals-and-the-mar-thoma-refor",
+     "other_id_note": "census entry northeast-india-revivals-and-the-mar-thoma-refor (Northeast India Revivals & the Mar Thoma Reform)",
+     "other_era": 9,
+     "claim": "the Mar Thoma reform wing separated earlier, in 1889",
+     "other_names_it": true,
+     "other_sentence": "The reforming wing carried on as the Mar Thoma Syrian Church, an Eastern church that kept its ancient rite and its evangelical conscience together, while the larger body continued as the Malankara church.",
+     "part1_owned": false,
+     "part1_drew_link": null
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "In 1912, Patriarch Abdul Masih II's consecration of a Catholicos split the community into an autocephalous wing, the Malankara Orthodox Syrian Church, and a patriarchal wing, the Jacobite Syrian Christian Church loyal to the Syriac Orthodox patriarchate of Antioch.",
+     "other": "the Syriac Orthodox patriarchate of Antioch",
+     "other_id": "the-sayfo-and-the-syriac-diaspora",
+     "other_id_note": "the Sayfo entry covers the modern Syriac Orthodox patriarchate (Homs, Damascus); no separate census entry for Antioch",
+     "other_era": 10,
+     "claim": "the Jacobite wing stayed loyal to the Syriac Orthodox patriarchate of Antioch",
+     "other_names_it": false,
+     "other_sentence": null,
+     "part1_owned": false,
+     "part1_drew_link": null
+    }
+   ],
+   "hygiene": []
+  },
+  {
+   "id": "the-georgian-orthodox-church-restored",
+   "name": "The Georgian Orthodox Church Restored",
+   "dates": "1917-c. 2010",
+   "existing_links": [],
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "Alongside the Armenian church, this is one of the Caucasus region's modern anchors.",
+     "other": "the Armenian church",
+     "other_id": "the-armenian-church-after-the-genocide-medz-yegh",
+     "other_id_note": "census entry the-armenian-church-after-the-genocide-medz-yegh (The Armenian Church after the Genocide (Medz Yeghern))",
+     "other_era": 10,
+     "claim": "the Georgian and Armenian churches are the Caucasus anchors",
+     "other_names_it": false,
+     "other_sentence": null,
+     "part1_owned": false,
+     "part1_drew_link": null
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Recognition came slowly and from two directions: Moscow acknowledged the restored autocephaly on 31 October 1943, and Constantinople issued its tomos on 4 March 1990.",
+     "other": "Moscow (the Russian Orthodox Church)",
+     "other_id": "the-russian-orthodox-church-council-patriarchate-and-reunion",
+     "other_id_note": "census entry the-russian-orthodox-church-council-patriarchate-and-reunion (The Russian Orthodox Church — Council, Patriarchate and Reunion)",
+     "other_era": 10,
+     "claim": "Moscow recognized the restored Georgian autocephaly in 1943",
+     "other_names_it": false,
+     "other_sentence": null,
+     "part1_owned": false,
+     "part1_drew_link": null
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Recognition came slowly and from two directions: Moscow acknowledged the restored autocephaly on 31 October 1943, and Constantinople issued its tomos on 4 March 1990.",
+     "other": "Constantinople (the Ecumenical Patriarchate)",
+     "other_id": "the-greek-church-and-the-ecumenical-patriarchate",
+     "other_id_note": "census entry the-greek-church-and-the-ecumenical-patriarchate (The Greek Church and the Ecumenical Patriarchate in the Twentieth Century)",
+     "other_era": 10,
+     "claim": "Constantinople recognized the restored Georgian autocephaly in 1990",
+     "other_names_it": false,
+     "other_sentence": null,
+     "part1_owned": false,
+     "part1_drew_link": null
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Georgia's church had been autocephalous since antiquity until that status was abolished in 1811 and the church absorbed into the Russian one.",
+     "other": "the Russian church",
+     "other_id": "russian-church-synodal-century",
+     "other_id_note": "census entry russian-church-synodal-century (The Russian Church — the Synodal Century)",
+     "other_era": 9,
+     "claim": "Georgian autocephaly was abolished in 1811 and absorbed into the Russian church",
+     "other_names_it": false,
+     "other_sentence": null,
+     "part1_owned": false,
+     "part1_drew_link": null
+    }
+   ],
+   "hygiene": []
+  },
+  {
+   "id": "the-catholic-church-pius-x-to-the-council",
+   "name": "The Catholic Church — Pius X to the Eve of the Council",
+   "dates": "1906-1962",
+   "existing_links": [
+    {
+     "id": "catholic-church-long-nineteenth-century--the-catholic-church-pius-x-to-the-council",
+     "from": "catholic-church-long-nineteenth-century",
+     "to": "the-catholic-church-pius-x-to-the-council",
+     "type": "continued as",
+     "confidence": "Documented"
+    },
+    {
+     "id": "the-catholic-church-pius-x-to-the-council--the-ecumenical-movement-and-the-wcc",
+     "from": "the-catholic-church-pius-x-to-the-council",
+     "to": "the-ecumenical-movement-and-the-wcc",
+     "type": "argued against",
+     "confidence": "Widely Accepted"
+    }
+   ],
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "The modernist crisis — condemned in the 1907 decree Lamentabili and encyclical Pascendi, and enforced by an anti-modernist oath from 1910, targeting scholars like Alfred Loisy and George Tyrrell — ran the same argument over history, scripture, and doctrine inside Catholicism a generation before it split American Protestantism.",
+     "other": "American Protestantism (the fundamentalist split)",
+     "other_id": "fundamentalism-1910-1970s",
+     "other_id_note": "census entry fundamentalism-1910-1970s (Fundamentalism)",
+     "other_era": 10,
+     "claim": "the modernist argument split American Protestantism a generation later",
+     "other_names_it": false,
+     "other_sentence": null,
+     "part1_owned": false,
+     "part1_drew_link": false
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Divino Afflante Spiritu in 1943 reopened the biblical scholarship Pascendi had closed, and the worker-priest movement and the nouvelle théologie became the seedbed for the Second Vatican Council.",
+     "other": "the Second Vatican Council",
+     "other_id": "the-post-vatican-ii-parish-world",
+     "other_id_note": "the census entry is the parish-level world of the council; the council itself has no separate entry",
+     "other_era": 10,
+     "claim": "the worker-priests and nouvelle théologie seeded the council",
+     "other_names_it": false,
+     "other_sentence": null,
+     "part1_owned": false,
+     "part1_drew_link": null
+    },
+    {
+     "field": "legacy",
+     "sentence": "Almost everything the Second Vatican Council did had been prepared in these decades — the biblical scholarship released in 1943, the liturgical movement, the return to the church fathers, and the questions the worker-priests raised about where the church actually is.",
+     "other": "the liturgical movement",
+     "other_id": "the-liturgical-movement",
+     "other_id_note": "census entry the-liturgical-movement (The Liturgical Movement)",
+     "other_era": 10,
+     "claim": "the liturgical movement prepared the council",
+     "other_names_it": true,
+     "other_sentence": "The entry on the Catholic Church before the Council names it once.",
+     "part1_owned": false,
+     "part1_drew_link": null
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Opus Dei, founded in 1928, and other new lay movements also trace their origins to this period.",
+     "other": "Opus Dei",
+     "other_id": null,
+     "other_id_note": "Opus Dei; no census entry",
+     "other_era": null,
+     "claim": "Opus Dei traces its origins to this period",
+     "other_names_it": null,
+     "other_sentence": null,
+     "part1_owned": false,
+     "part1_drew_link": null
+    }
+   ],
+   "hygiene": [
+    "Lamentabili",
+    "Pascendi",
+    "Divino Afflante Spiritu"
+   ]
+  },
+  {
+   "id": "american-orthodoxy-autocephaly-and-the-convert-wave",
+   "name": "American Orthodoxy — Autocephaly & the Convert Wave",
+   "dates": "1970-c. 2010",
+   "existing_links": [
+    {
+     "id": "alaskan-mission-herman-veniaminov--american-orthodoxy-autocephaly-and-the-convert-wave",
+     "from": "alaskan-mission-herman-veniaminov",
+     "to": "american-orthodoxy-autocephaly-and-the-convert-wave",
+     "type": "gave rise to",
+     "confidence": "Inferential-Thin"
+    }
+   ],
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "American Orthodoxy grew from immigrant parishes into an American church, receiving autocephaly in 1970 — the institutional handoff from the Paris émigré generation that built St Vladimir's Seminary.",
+     "other": "the Paris émigré generation",
+     "other_id": "emigre-orthodoxy-and-the-paris-school",
+     "other_id_note": "census entry emigre-orthodoxy-and-the-paris-school (Emigre Orthodoxy & the Paris School)",
+     "other_era": 10,
+     "claim": "American Orthodoxy received the Paris generation's institutional handoff in 1970",
+     "other_names_it": true,
+     "other_sentence": "The Paris generation's own episode closed around 1970, with the handoff its institutions had been building toward: the Orthodox Church in America received autocephaly in 1970, and St Vladimir's Seminary in New York became the school this tradition had built in a second country.",
+     "part1_owned": false,
+     "part1_drew_link": null
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "In 1987 the Evangelical Orthodox Church, a group of former evangelical leaders, was received into the Antiochian Archdiocese.",
+     "other": "the Evangelical Orthodox Church",
+     "other_id": null,
+     "other_id_note": "Evangelical Orthodox Church; no census entry",
+     "other_era": null,
+     "claim": "the Evangelical Orthodox Church was received in 1987",
+     "other_names_it": null,
+     "other_sentence": null,
+     "part1_owned": false,
+     "part1_drew_link": null
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "In 1987 the Evangelical Orthodox Church, a group of former evangelical leaders, was received into the Antiochian Archdiocese.",
+     "other": "the Antiochian Archdiocese",
+     "other_id": null,
+     "other_id_note": "Antiochian Archdiocese; no census entry",
+     "other_era": null,
+     "claim": "the Antiochian Archdiocese received the Evangelical Orthodox Church",
+     "other_names_it": null,
+     "other_sentence": null,
+     "part1_owned": false,
+     "part1_drew_link": null
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Japan's Orthodox Church is told in the entry on Japanese Christianity after 1906.",
+     "other": "Japan's Orthodox Church",
+     "other_id": "japanese-christianity-after-1906",
+     "other_id_note": "census entry japanese-christianity-after-1906 (Japanese Christianity after 1906)",
+     "other_era": 10,
+     "claim": "Japan's Orthodox Church belongs to the Japanese Christianity entry",
+     "other_names_it": false,
+     "other_sentence": null,
+     "part1_owned": false,
+     "part1_drew_link": false
+    }
+   ],
+   "hygiene": [
+    "St Vladimir's Seminary",
+    "Ancient Faith Radio"
+   ]
+  },
+  {
+   "id": "iglesia-ni-cristo",
+   "name": "Iglesia ni Cristo",
+   "dates": "1914-c. 2010",
+   "existing_links": [],
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "Founded in the Philippines, where Catholicism had shaped the country for three centuries.",
+     "other": "Catholicism in the Philippines",
+     "other_id": "philippine-catholicism",
+     "other_id_note": "census entry philippine-catholicism (Philippine Catholicism)",
+     "other_era": 7,
+     "claim": "context: founded in a country shaped by Catholicism",
+     "other_names_it": false,
+     "other_sentence": null,
+     "part1_owned": false,
+     "part1_drew_link": null
+    }
+   ],
+   "hygiene": []
+  },
+  {
+   "id": "the-liturgical-movement",
+   "name": "The Liturgical Movement",
+   "dates": "1909-1962",
+   "existing_links": [],
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "The entry on the Catholic Church before the Council names it once.",
+     "other": "the Catholic Church before the Council",
+     "other_id": "the-catholic-church-pius-x-to-the-council",
+     "other_id_note": "census entry the-catholic-church-pius-x-to-the-council (The Catholic Church — Pius X to the Eve of the Council)",
+     "other_era": 10,
+     "claim": "the pre-council Catholic entry names the liturgical movement",
+     "other_names_it": true,
+     "other_sentence": "Almost everything the Second Vatican Council did had been prepared in these decades — the biblical scholarship released in 1943, the liturgical movement, the return to the church fathers, and the questions the worker-priests raised about where the church actually is.",
+     "part1_owned": false,
+     "part1_drew_link": null
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "The entry on the parish after the Council takes up what came of it.",
+     "other": "the parish after the Council",
+     "other_id": "the-post-vatican-ii-parish-world",
+     "other_id_note": "census entry the-post-vatican-ii-parish-world (The Post-Vatican-II Parish Tradition)",
+     "other_era": 10,
+     "claim": "the post-council parish entry takes up the movement",
+     "other_names_it": false,
+     "other_sentence": null,
+     "part1_owned": false,
+     "part1_drew_link": null
+    },
+    {
+     "field": "legacy",
+     "sentence": "John Fenwick and Bryan Spinks tell its story across many churches: Catholic, Anglican, Eastern and North American.",
+     "other": "the Anglican churches",
+     "other_id": "the-anglican-communion-twentieth-century",
+     "other_id_note": "tradition-level match: Anglican Communion entry (part 1)",
+     "other_era": 10,
+     "claim": "the liturgical movement crossed into Anglican churches",
+     "other_names_it": false,
+     "other_sentence": null,
+     "part1_owned": false,
+     "part1_drew_link": false
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "It ran through Benedictine abbeys, journals and parishes, not through the Vatican.",
+     "other": "Benedictine abbeys",
+     "other_id": "early-benedictine-italian-monasticism",
+     "other_id_note": "Benedictine abbeys in general; the census entry is the early Benedictine tradition",
+     "other_era": 3,
+     "claim": "the movement ran through Benedictine abbeys",
+     "other_names_it": false,
+     "other_sentence": null,
+     "part1_owned": false,
+     "part1_drew_link": null
+    }
+   ],
+   "hygiene": [
+    "Liturgical Press",
+    "Orate Fratres"
+   ]
+  },
+  {
+   "id": "the-catholic-church-in-africa-twentieth-century",
+   "name": "The Catholic Church in Africa in the Twentieth Century",
+   "dates": "1906-c. 2010",
+   "existing_links": [],
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "It carries on the Catholic half of the Uganda Martyrs' story, which ends in 1906.",
+     "other": "the Uganda Martyrs' story",
+     "other_id": "east-african-christianity-uganda-martyrs",
+     "other_id_note": "census entry east-african-christianity-uganda-martyrs (East African Christianity & the Uganda Martyrs)",
+     "other_era": 9,
+     "claim": "the Catholic Africa entry continues the Uganda Martyrs story",
+     "other_names_it": true,
+     "other_sentence": "Anglican and Catholic pages together became the Uganda Martyrs, executed between 1885 and 1887, with Charles Lwanga burned at Namugongo in 1886.",
+     "part1_owned": false,
+     "part1_drew_link": null
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Rome's own story in this era is told in the entries on the Catholic Church before and after the Second Vatican Council.",
+     "other": "the Catholic Church before the Council",
+     "other_id": "the-catholic-church-pius-x-to-the-council",
+     "other_id_note": "census entry the-catholic-church-pius-x-to-the-council (The Catholic Church — Pius X to the Eve of the Council)",
+     "other_era": 10,
+     "claim": "the Africa entry runs alongside Rome's pre-council entry",
+     "other_names_it": false,
+     "other_sentence": null,
+     "part1_owned": false,
+     "part1_drew_link": null
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Rome's own story in this era is told in the entries on the Catholic Church before and after the Second Vatican Council.",
+     "other": "the Catholic Church after the Council",
+     "other_id": "the-post-vatican-ii-parish-world",
+     "other_id_note": "census entry the-post-vatican-ii-parish-world (The Post-Vatican-II Parish Tradition)",
+     "other_era": 10,
+     "claim": "the Africa entry runs alongside Rome's post-council entry",
+     "other_names_it": false,
+     "other_sentence": null,
+     "part1_owned": false,
+     "part1_drew_link": null
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "The entry on the African-initiated churches tells of Africans who left the missions.",
+     "other": "the African-initiated churches",
+     "other_id": "african-initiated-churches-harrist-aladura-zioni",
+     "other_id_note": "census entry african-initiated-churches-harrist-aladura-zioni (African-Initiated Churches (Harrist; Aladura; Zionist/ZCC; Kimbanguist))",
+     "other_era": 10,
+     "claim": "the Catholic Africa entry is the counterpart of the African-initiated churches",
+     "other_names_it": true,
+     "other_sentence": "From the 1880s onward Africans began founding churches of their own rather than staying inside the missions.",
+     "part1_owned": false,
+     "part1_drew_link": null
+    }
+   ],
+   "hygiene": [
+    "Jamaa movement"
+   ]
+  },
+  {
+   "id": "sudanese-christianity-through-the-civil-wars",
+   "name": "Sudanese Christianity through the Civil Wars",
+   "dates": "1955-2005",
+   "existing_links": [],
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "The ancient Christian kingdoms of Nubia stood on the same land, but no line runs from them to this story.",
+     "other": "the ancient Christian kingdoms of Nubia",
+     "other_id": "makurian-nubian-christianity",
+     "other_id_note": "census entry makurian-nubian-christianity (Makurian Nubian Christianity)",
+     "other_era": 4,
+     "claim": "the text denies any line of descent from the Nubian kingdoms",
+     "other_names_it": false,
+     "other_sentence": null,
+     "part1_owned": false,
+     "part1_drew_link": null
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Jesse Zink has told how many Dinka people embraced Anglican faith in that war.",
+     "other": "Anglican faith among the Dinka",
+     "other_id": "the-anglican-communion-twentieth-century",
+     "other_id_note": "tradition-level match: Anglican Communion entry (part 1)",
+     "other_era": 10,
+     "claim": "many Dinka people embraced Anglican faith during the war",
+     "other_names_it": false,
+     "other_sentence": null,
+     "part1_owned": false,
+     "part1_drew_link": false
+    }
+   ],
+   "hygiene": [
+    "Torit mutiny",
+    "Paulines Publications Africa"
+   ]
+  },
+  {
+   "id": "latin-american-catholicism-twentieth-century",
+   "name": "Latin American Catholicism in the Twentieth Century",
+   "dates": "1906-c. 2010",
+   "existing_links": [],
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "It carries on from the entry on nineteenth-century Latin American Catholicism, which ends in 1906.",
+     "other": "nineteenth-century Latin American Catholicism",
+     "other_id": "nineteenth-century-latin-american-catholicism",
+     "other_id_note": "census entry nineteenth-century-latin-american-catholicism (Nineteenth-Century Latin American Catholicism)",
+     "other_era": 9,
+     "claim": "the twentieth-century entry continues the nineteenth-century one",
+     "other_names_it": false,
+     "other_sentence": null,
+     "part1_owned": false,
+     "part1_drew_link": null
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "The base communities have their own entry, which hangs from this one.",
+     "other": "the Latin American base communities",
+     "other_id": "latin-american-base-communities",
+     "other_id_note": "census entry latin-american-base-communities (Latin American Base Communities)",
+     "other_era": 10,
+     "claim": "the base communities hang from this entry",
+     "other_names_it": true,
+     "other_sentence": "The bishops' meetings at Medellín in 1968 and Puebla in 1979 are told in the entry on Latin American Catholicism, the parent of this one.",
+     "part1_owned": false,
+     "part1_drew_link": null
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Catholics of the National League for the Defense of Religious Liberty, founded in March 1925, took up arms.",
+     "other": "the National League for the Defense of Religious Liberty",
+     "other_id": null,
+     "other_id_note": "Catholic lay league; no census entry",
+     "other_era": null,
+     "claim": "the League took up arms in the Cristero War",
+     "other_names_it": null,
+     "other_sentence": null,
+     "part1_owned": false,
+     "part1_drew_link": null
+    }
+   ],
+   "hygiene": [
+    "CELAM",
+    "CEHILA",
+    "Cristeros"
+   ]
+  },
+  {
+   "id": "chinese-catholicism-twentieth-century",
+   "name": "Chinese Catholicism — the First Chinese Bishops to the Divided Church",
+   "dates": "1906-c. 2010",
+   "existing_links": [],
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "The entry on China's indigenous and suffering church tells its Protestant and independent churches.",
+     "other": "China's indigenous and suffering church",
+     "other_id": "the-chinese-church-indigenous-and-suffering",
+     "other_id_note": "census entry the-chinese-church-indigenous-and-suffering (The Chinese Church - Indigenous & Suffering)",
+     "other_era": 10,
+     "claim": "the Chinese Protestant and independent churches are told in the part 1 entry; Catholics are not named there",
+     "other_names_it": false,
+     "other_sentence": null,
+     "part1_owned": false,
+     "part1_drew_link": false
+    },
+    {
+     "field": "longDescription",
+     "sentence": "It approved the statutes of the Chinese Catholic Patriotic Association.",
+     "other": "the Chinese Catholic Patriotic Association",
+     "other_id": null,
+     "other_id_note": "state-organized Catholic body; no census entry",
+     "other_era": null,
+     "claim": "a 1957 state assembly approved the Patriotic Association statutes",
+     "other_names_it": null,
+     "other_sentence": null,
+     "part1_owned": false,
+     "part1_drew_link": null
+    }
+   ],
+   "hygiene": [
+    "Chinese Catholic bishops' conference (1980)"
+   ]
+  },
+  {
+   "id": "philippine-catholicism-twentieth-century",
+   "name": "Philippine Catholicism in the Twentieth Century",
+   "dates": "1906-c. 2010",
+   "existing_links": [],
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "The Iglesia Filipina Independiente, proclaimed in 1902, has its own entry for this century.",
+     "other": "the Iglesia Filipina Independiente",
+     "other_id": "philippine-independent-church-twentieth-century",
+     "other_id_note": "census entry philippine-independent-church-twentieth-century (The Philippine Independent Church in the Twentieth Century)",
+     "other_era": 10,
+     "claim": "the Philippine Independent Church has its own 20th-century entry",
+     "other_names_it": true,
+     "other_sentence": "Its birth in 1902 is told with Philippine Catholicism up to 1906.",
+     "part1_owned": false,
+     "part1_drew_link": null
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "So does Iglesia ni Cristo, registered in 1914.",
+     "other": "Iglesia ni Cristo",
+     "other_id": "iglesia-ni-cristo",
+     "other_id_note": "census entry iglesia-ni-cristo (Iglesia ni Cristo)",
+     "other_era": 10,
+     "claim": "Iglesia ni Cristo has its own entry for the century (cross-reference)",
+     "other_names_it": false,
+     "other_sentence": null,
+     "part1_owned": false,
+     "part1_drew_link": null
+    },
+    {
+     "field": "longDescription",
+     "sentence": "El Shaddai grew up within the same church.",
+     "other": "El Shaddai",
+     "other_id": null,
+     "other_id_note": "Catholic movement in the Philippines; no census entry (the part 1 Global South entry also names it)",
+     "other_era": null,
+     "claim": "El Shaddai grew up within Philippine Catholicism",
+     "other_names_it": null,
+     "other_sentence": null,
+     "part1_owned": false,
+     "part1_drew_link": null
+    },
+    {
+     "field": "longDescription",
+     "sentence": "That is where the story of the Aglipayan schism ends.",
+     "other": "the Aglipayan schism",
+     "other_id": "philippine-catholicism-gomburza-to-aglipay",
+     "other_id_note": "census entry philippine-catholicism-gomburza-to-aglipay (Philippine Catholicism — Gomburza to the Aglipayan Schism)",
+     "other_era": 9,
+     "claim": "this entry opens where the Aglipayan schism story ends",
+     "other_names_it": false,
+     "other_sentence": null,
+     "part1_owned": false,
+     "part1_drew_link": null
+    }
+   ],
+   "hygiene": []
+  },
+  {
+   "id": "philippine-independent-church-twentieth-century",
+   "name": "The Philippine Independent Church in the Twentieth Century",
+   "dates": "1906-c. 2010",
+   "existing_links": [],
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "Its birth in 1902 is told with Philippine Catholicism up to 1906.",
+     "other": "Philippine Catholicism up to 1906",
+     "other_id": "philippine-catholicism-gomburza-to-aglipay",
+     "other_id_note": "census entry philippine-catholicism-gomburza-to-aglipay (Philippine Catholicism — Gomburza to the Aglipayan Schism)",
+     "other_era": 9,
+     "claim": "the church's birth is told with the Gomburza-to-Aglipay entry",
+     "other_names_it": true,
+     "other_sentence": "The Iglesia Filipina Independiente was proclaimed in 1902 as the Spanish colonial-era church question came to a head, and it later adopted a trinitarian Declaration of Faith in 1947.",
+     "part1_owned": false,
+     "part1_drew_link": null
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "The Catholic Church it left has its own entry for this century.",
+     "other": "the Catholic Church it left",
+     "other_id": "philippine-catholicism-twentieth-century",
+     "other_id_note": "census entry philippine-catholicism-twentieth-century (Philippine Catholicism in the Twentieth Century)",
+     "other_era": 10,
+     "claim": "the church left the Roman Catholic Church",
+     "other_names_it": true,
+     "other_sentence": "The Iglesia Filipina Independiente, proclaimed in 1902, has its own entry for this century.",
+     "part1_owned": false,
+     "part1_drew_link": null
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "In 1961 it entered full communion with the Episcopal Church, one of the churches of the Anglican Communion.",
+     "other": "the Episcopal Church (Anglican Communion)",
+     "other_id": "the-anglican-communion-twentieth-century",
+     "other_id_note": "tradition-level match: Anglican Communion entry (part 1)",
+     "other_era": 10,
+     "claim": "the church entered full communion with the Episcopal Church in 1961",
+     "other_names_it": false,
+     "other_sentence": null,
+     "part1_owned": false,
+     "part1_drew_link": false
+    }
+   ],
+   "hygiene": [
+    "Unitarian teaching"
+   ]
+  },
+  {
+   "id": "the-russian-orthodox-church-council-patriarchate-and-reunion",
+   "name": "The Russian Orthodox Church — Council, Patriarchate and Reunion",
+   "dates": "1917-c. 2010",
+   "existing_links": [],
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "It carries on from the Russian Church's Synodal Century, which ends in 1906.",
+     "other": "the Russian Church's Synodal Century",
+     "other_id": "russian-church-synodal-century",
+     "other_id_note": "census entry russian-church-synodal-century (The Russian Church — the Synodal Century)",
+     "other_era": 9,
+     "claim": "the 20th-century Russian church continues the Synodal Century",
+     "other_names_it": true,
+     "other_sentence": "For this whole century the Russian Orthodox Church had no patriarch.",
+     "part1_owned": false,
+     "part1_drew_link": null
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "The Russian New Martyrs and the Catacomb Church tells its persecution, Patriarch Tikhon and the canonizations of 2000.",
+     "other": "the Russian New Martyrs and the Catacomb Church",
+     "other_id": "the-russian-new-martyrs-and-the-catacomb-church",
+     "other_id_note": "census entry the-russian-new-martyrs-and-the-catacomb-church (The Russian New Martyrs & the Catacomb Church)",
+     "other_era": 10,
+     "claim": "the persecution story is told in the New Martyrs entry",
+     "other_names_it": true,
+     "other_sentence": "The Russian Orthodox Church went into 1917 as an established state church and came out of the Soviet century as the object of the largest persecution of Christians in history.",
+     "part1_owned": false,
+     "part1_drew_link": null
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Emigre Orthodoxy and the Paris School tells the emigration.",
+     "other": "Emigre Orthodoxy and the Paris School",
+     "other_id": "emigre-orthodoxy-and-the-paris-school",
+     "other_id_note": "census entry emigre-orthodoxy-and-the-paris-school (Emigre Orthodoxy & the Paris School)",
+     "other_era": 10,
+     "claim": "the emigration is told in the Paris School entry",
+     "other_names_it": true,
+     "other_sentence": "The church the émigrés left behind in Russia has its own entry, the Russian Orthodox Church.",
+     "part1_owned": false,
+     "part1_drew_link": null
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "American Orthodoxy tells the autocephaly of the American church in 1970.",
+     "other": "American Orthodoxy",
+     "other_id": "american-orthodoxy-autocephaly-and-the-convert-wave",
+     "other_id_note": "census entry american-orthodoxy-autocephaly-and-the-convert-wave (American Orthodoxy — Autocephaly & the Convert Wave)",
+     "other_era": 10,
+     "claim": "the American autocephaly is told in the American Orthodoxy entry",
+     "other_names_it": false,
+     "other_sentence": null,
+     "part1_owned": false,
+     "part1_drew_link": null
+    },
+    {
+     "field": "longDescription",
+     "sentence": "It restored communion between the church in Russia and the Russian Church Abroad.",
+     "other": "the Russian Church Abroad",
+     "other_id": null,
+     "other_id_note": "Russian Church Abroad; no census entry",
+     "other_era": null,
+     "claim": "the 2007 Act restored communion with the Russian Church Abroad",
+     "other_names_it": null,
+     "other_sentence": null,
+     "part1_owned": false,
+     "part1_drew_link": null
+    }
+   ],
+   "hygiene": [
+    "Basis of the Social Concept"
+   ]
+  },
+  {
+   "id": "polish-catholicism-wyszynski-and-john-paul-ii",
+   "name": "Polish Catholicism — Wyszyński and John Paul II",
+   "dates": "1918-c. 2010",
+   "existing_links": [],
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "One tells the Catholic Church from Pius X to the Council.",
+     "other": "the Catholic Church from Pius X to the Council",
+     "other_id": "the-catholic-church-pius-x-to-the-council",
+     "other_id_note": "census entry the-catholic-church-pius-x-to-the-council (The Catholic Church — Pius X to the Eve of the Council)",
+     "other_era": 10,
+     "claim": "the Polish entry stands beside the pre-council Catholic entry",
+     "other_names_it": false,
+     "other_sentence": null,
+     "part1_owned": false,
+     "part1_drew_link": null
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "The other tells the parish after the Second Vatican Council.",
+     "other": "the parish after the Second Vatican Council",
+     "other_id": "the-post-vatican-ii-parish-world",
+     "other_id_note": "census entry the-post-vatican-ii-parish-world (The Post-Vatican-II Parish Tradition)",
+     "other_era": 10,
+     "claim": "the Polish entry stands beside the post-council parish entry",
+     "other_names_it": false,
+     "other_sentence": null,
+     "part1_owned": false,
+     "part1_drew_link": null
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "The Greek Catholic churches of the old Polish-Lithuanian lands are a separate line.",
+     "other": "the Greek Catholic churches of the Polish-Lithuanian lands",
+     "other_id": "the-union-of-brest-and-ruthenian-greek-catholic-",
+     "other_id_note": "census entry the-union-of-brest-and-ruthenian-greek-catholic- (The Union of Brest & Ruthenian Greek Catholic Christianity)",
+     "other_era": 7,
+     "claim": "the Greek Catholic churches are a separate line from the Polish church",
+     "other_names_it": false,
+     "other_sentence": null,
+     "part1_owned": false,
+     "part1_drew_link": null
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Lithuania's underground Chronicle of the Catholic Church is also told here.",
+     "other": "Lithuania's underground Chronicle of the Catholic Church",
+     "other_id": null,
+     "other_id_note": "samizdat chronicle of the Lithuanian church; no census entry",
+     "other_era": null,
+     "claim": "the Lithuanian Chronicle is told in the Polish entry",
+     "other_names_it": null,
+     "other_sentence": null,
+     "part1_owned": false,
+     "part1_drew_link": null
+    },
+    {
+     "field": "longDescription",
+     "sentence": "The Light-Life movement began with a first oasis retreat in 1954, led by Father Franciszek Blachnicki.",
+     "other": "the Light-Life movement",
+     "other_id": null,
+     "other_id_note": "Polish lay renewal movement; no census entry",
+     "other_era": null,
+     "claim": "Light-Life is a lay renewal movement inside the Polish church",
+     "other_names_it": null,
+     "other_sentence": null,
+     "part1_owned": false,
+     "part1_drew_link": null
+    }
+   ],
+   "hygiene": [
+    "Jasna Góra Vows",
+    "German bishops (1965 message)"
+   ]
+  },
+  {
+   "id": "orthodoxy-in-the-communist-balkans",
+   "name": "Orthodoxy in the Communist Balkans — the Serbian, Romanian, Bulgarian and Albanian Churches",
+   "dates": "1920-c. 2010",
+   "existing_links": [],
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "It carries on from Orthodoxy after 1821, the National Churches.",
+     "other": "Orthodoxy after 1821, the National Churches",
+     "other_id": "orthodoxy-after-1821-balkan-autocephalies",
+     "other_id_note": "census entry orthodoxy-after-1821-balkan-autocephalies (Orthodoxy after 1821 — the National Churches)",
+     "other_era": 9,
+     "claim": "the Balkan churches continue the National Churches of 1821",
+     "other_names_it": true,
+     "other_sentence": "The hanging of Patriarch Gregory V in 1821 opened the break-up of a single Ottoman-era Orthodox community into national churches: Greek autocephaly (declared 1833, recognized by the Tomos of 1850), the Bulgarian Exarchate (1870), and recognition for Serbia (1879) and Romania (1885).",
+     "part1_owned": false,
+     "part1_drew_link": null
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "The Church of Greece and the Ecumenical Patriarchate have their own entry.",
+     "other": "the Church of Greece and the Ecumenical Patriarchate",
+     "other_id": "the-greek-church-and-the-ecumenical-patriarchate",
+     "other_id_note": "census entry the-greek-church-and-the-ecumenical-patriarchate (The Greek Church and the Ecumenical Patriarchate in the Twentieth Century)",
+     "other_era": 10,
+     "claim": "the Greek church and the Patriarchate have their own entry",
+     "other_names_it": true,
+     "other_sentence": "The Orthodox churches of Serbia, Romania, Bulgaria and Albania have their own entry.",
+     "part1_owned": false,
+     "part1_drew_link": null
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Romania's Lord's Army is told in the entry on the persecuted churches of the communist era.",
+     "other": "Romania's Lord's Army",
+     "other_id": "persecuted-church-worlds-of-the-communist-era-in",
+     "other_id_note": "census entry persecuted-church-worlds-of-the-communist-era-in (Persecuted-Church Traditions of the Communist Era (Initsiativniki Baptists; Romania's Lord's Army))",
+     "other_era": 10,
+     "claim": "the Lord's Army is told in the persecuted-churches entry",
+     "other_names_it": false,
+     "other_sentence": null,
+     "part1_owned": false,
+     "part1_drew_link": false
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "The Romanian Greek Catholic Church, dissolved in 1948, has its own entry.",
+     "other": "the Romanian Greek Catholic Church",
+     "other_id": "the-romanian-greek-catholic-church-suppression-and-return",
+     "other_id_note": "census entry the-romanian-greek-catholic-church-suppression-and-return (The Romanian Greek Catholic Church — Suppression and Return)",
+     "other_era": 10,
+     "claim": "the Romanian Greek Catholic Church has its own entry",
+     "other_names_it": true,
+     "other_sentence": "The Orthodox Church of Romania, which took over most of this church's buildings, is told in the entry on the Balkan Orthodox churches under communism.",
+     "part1_owned": false,
+     "part1_drew_link": null
+    }
+   ],
+   "hygiene": [
+    "Burning Bush (prayer movement)",
+    "Sremski Karlovci"
+   ]
+  },
+  {
+   "id": "the-greek-church-and-the-ecumenical-patriarchate",
+   "name": "The Greek Church and the Ecumenical Patriarchate in the Twentieth Century",
+   "dates": "1906-c. 2010",
+   "existing_links": [
+    {
+     "id": "the-greek-church-and-the-ecumenical-patriarchate--the-ecumenical-movement-and-the-wcc",
+     "from": "the-greek-church-and-the-ecumenical-patriarchate",
+     "to": "the-ecumenical-movement-and-the-wcc",
+     "type": "influenced",
+     "confidence": "Widely Accepted"
+    }
+   ],
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "It carries on from Orthodoxy after 1821, the National Churches.",
+     "other": "Orthodoxy after 1821, the National Churches",
+     "other_id": "orthodoxy-after-1821-balkan-autocephalies",
+     "other_id_note": "census entry orthodoxy-after-1821-balkan-autocephalies (Orthodoxy after 1821 — the National Churches)",
+     "other_era": 9,
+     "claim": "the Greek church continues the National Churches of 1821",
+     "other_names_it": true,
+     "other_sentence": "The hanging of Patriarch Gregory V in 1821 opened the break-up of a single Ottoman-era Orthodox community into national churches: Greek autocephaly (declared 1833, recognized by the Tomos of 1850), the Bulgarian Exarchate (1870), and recognition for Serbia (1879) and Romania (1885).",
+     "part1_owned": false,
+     "part1_drew_link": null
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "It also carries on from the Kollyvades and Greek renewal.",
+     "other": "the Kollyvades and Greek renewal",
+     "other_id": "the-kollyvades-and-greek-renewal",
+     "other_id_note": "census entry the-kollyvades-and-greek-renewal (The Kollyvades & Greek Renewal)",
+     "other_era": 9,
+     "claim": "the Greek church continues the Kollyvades renewal",
+     "other_names_it": true,
+     "other_sentence": "A sibling movement to the Paisian revival among Slavic Orthodox monks, part of the same broader eighteenth-century wave of ascetic renewal but a separate development within Greek Orthodoxy.",
+     "part1_owned": false,
+     "part1_drew_link": null
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "The Orthodox churches of Serbia, Romania, Bulgaria and Albania have their own entry.",
+     "other": "the Orthodox churches of Serbia, Romania, Bulgaria and Albania",
+     "other_id": "orthodoxy-in-the-communist-balkans",
+     "other_id_note": "census entry orthodoxy-in-the-communist-balkans (Orthodoxy in the Communist Balkans — the Serbian, Romanian, Bulgarian and Albanian Churches)",
+     "other_era": 10,
+     "claim": "the Balkan Orthodox churches have their own entry",
+     "other_names_it": true,
+     "other_sentence": "The Church of Greece and the Ecumenical Patriarchate have their own entry.",
+     "part1_owned": false,
+     "part1_drew_link": null
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "Orthodox membership of the World Council of Churches belongs to the entry on the ecumenical movement.",
+     "other": "the World Council of Churches",
+     "other_id": "the-ecumenical-movement-and-the-wcc",
+     "other_id_note": "census entry the-ecumenical-movement-and-the-wcc (The Ecumenical Movement & the World Council of Churches)",
+     "other_era": 10,
+     "claim": "Orthodox WCC membership belongs to the ecumenical movement entry",
+     "other_names_it": true,
+     "other_sentence": "In 1920 the Ecumenical Patriarchate had called for a fellowship of churches.",
+     "part1_owned": true,
+     "part1_drew_link": true
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Rome's legates had excommunicated Patriarch Michael Cerularius, and his synod had condemned the legates in turn.",
+     "other": "Rome (the Latin papal church)",
+     "other_id": "latin-papal-church-gregorian",
+     "other_id_note": "census entry latin-papal-church-gregorian (The Latin Papal Church (Gregorian Reform to Innocent III))",
+     "other_era": 5,
+     "claim": "the 1054 mutual excommunication involved Rome",
+     "other_names_it": false,
+     "other_sentence": null,
+     "part1_owned": false,
+     "part1_drew_link": null
+    },
+    {
+     "field": "longDescription",
+     "sentence": "Rome's legates had excommunicated Patriarch Michael Cerularius, and his synod had condemned the legates in turn.",
+     "other": "the Byzantine church after the schism",
+     "other_id": "byzantine-church-after-1054",
+     "other_id_note": "census entry byzantine-church-after-1054 (The Byzantine Church after the Schism)",
+     "other_era": 5,
+     "claim": "the 1054 mutual excommunication involved the Byzantine church",
+     "other_names_it": true,
+     "other_sentence": "This is the eastern half of a division that has still not been repaired: the Eastern Orthodox churches today trace their institutional continuity through this church, and the Ecumenical Patriarchate of Constantinople remains the first see among them.",
+     "part1_owned": false,
+     "part1_drew_link": null
+    },
+    {
+     "field": "longDescription",
+     "sentence": "On 7 December 1965 Pope Paul VI and Ecumenical Patriarch Athenagoras I issued a Joint Catholic-Orthodox Declaration.",
+     "other": "the Roman Catholic Church (Paul VI)",
+     "other_id": null,
+     "other_id_note": "the papacy after the council; no census entry",
+     "other_era": null,
+     "claim": "Paul VI and Athenagoras I issued a joint declaration in 1965",
+     "other_names_it": null,
+     "other_sentence": null,
+     "part1_owned": false,
+     "part1_drew_link": null
+    },
+    {
+     "field": "longDescription",
+     "sentence": "In 1907 the Brotherhood of Theologians Zoe, meaning 'Life', was founded in Greece.",
+     "other": "the Brotherhood of Theologians Zoe",
+     "other_id": null,
+     "other_id_note": "Greek brotherhood; no census entry",
+     "other_era": null,
+     "claim": "the Zoe brotherhood was founded in Greece in 1907",
+     "other_names_it": null,
+     "other_sentence": null,
+     "part1_owned": false,
+     "part1_drew_link": null
+    }
+   ],
+   "hygiene": [
+    "Athenagoras I"
+   ]
+  },
+  {
+   "id": "the-romanian-greek-catholic-church-suppression-and-return",
+   "name": "The Romanian Greek Catholic Church — Suppression and Return",
+   "dates": "1948-c. 2010",
+   "existing_links": [],
+   "relationships": [
+    {
+     "field": "relationsSummary",
+     "sentence": "The Ukrainian Greek Catholic Underground tells the same pattern in Ukraine.",
+     "other": "the Ukrainian Greek Catholic Underground",
+     "other_id": "the-ukrainian-greek-catholic-underground",
+     "other_id_note": "census entry the-ukrainian-greek-catholic-underground (The Ukrainian Greek Catholic Underground)",
+     "other_era": 10,
+     "claim": "the same suppression pattern in Ukraine",
+     "other_names_it": true,
+     "other_sentence": "The Romanian Greek Catholic Church, dissolved in 1948, has its own entry.",
+     "part1_owned": false,
+     "part1_drew_link": null
+    },
+    {
+     "field": "relationsSummary",
+     "sentence": "The Orthodox Church of Romania, which took over most of this church's buildings, is told in the entry on the Balkan Orthodox churches under communism.",
+     "other": "the Orthodox Church of Romania",
+     "other_id": "orthodoxy-in-the-communist-balkans",
+     "other_id_note": "census entry orthodoxy-in-the-communist-balkans (Orthodoxy in the Communist Balkans — the Serbian, Romanian, Bulgarian and Albanian Churches)",
+     "other_era": 10,
+     "claim": "the Orthodox Church of Romania took over its buildings; the Balkan entry tells it",
+     "other_names_it": true,
+     "other_sentence": "The Romanian Greek Catholic Church, dissolved in 1948, has its own entry.",
+     "part1_owned": false,
+     "part1_drew_link": null
+    },
+    {
+     "field": "legacy",
+     "sentence": "Two years later, in April 1950, a 'sobor' at Prešov did the same in Czechoslovakia.",
+     "other": "the Greek Catholic Church of Czechoslovakia",
+     "other_id": null,
+     "other_id_note": "Czechoslovak Greek Catholic Church; no census entry",
+     "other_era": null,
+     "claim": "the Prešov sobor of 1950 did the same in Czechoslovakia",
+     "other_names_it": null,
+     "other_sentence": null,
+     "part1_owned": false,
+     "part1_drew_link": null
+    }
+   ],
+   "hygiene": []
+  }
+ ]
+}

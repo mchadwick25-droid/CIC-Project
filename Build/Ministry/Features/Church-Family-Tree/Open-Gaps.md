@@ -993,7 +993,58 @@ it, never by deleting it.
     run. It joins the tree's other stale recordings, which get their own sample for Mark first (see
     "176 story recordings wait for the ElevenLabs quota to reset", 2026-11-09). Owner: this thread,
     on Mark's approval.
-146. **What P2-G3 settles (2026-11-10).** Data release 28 carries the agreed entries (audit:
+146. **Open-Gaps 143 is settled (2026-11-10).** Mark ruled that a "member of" link may be Widely
+    Accepted on the council's or member church's own dated membership record alone. See the
+    Decision-Log, "A 'member of' link may be Widely Accepted on the membership record alone".
+
+147. **The Sayfo entry says Syriac history "had gone quiet after about 1300" (2026-11-10).** The
+    entry for the Syriac churches from 1915 (atlasId IX.19) says, in its relationsSummary and legacy,
+    that Syriac recorded history "had gone quiet after about 1300". It also says Syriac
+    communities experienced that silence "as erasure", and uses map wording ("named honestly
+    here"; "On this map the entry does one more thing").
+    - The Church of the East wing the entry covers has its own entries (V.17, VI.30, VIII.40) and an
+      existing "continued as" link, so the first claim does not hold for it. It holds only for the
+      Syriac Orthodox side, which Open-Gaps 135 already lists as a held gap after 1300.
+    - No source supports the claim about what communities experienced.
+    - The fix spans two fields, so under the link method it is left for the entry's owner, not
+      rewritten in P2-L10. Found by the part 2 drafters (group G).
+148. **Joint declarations between churches, and no entry for Rome after 1962 (2026-11-10).** The
+    part 2 drafters of P2-L10 (group G) read two joint declarations online, on vatican.va:
+    - Paul VI and Athenagoras I, 7 December 1965;
+    - John Paul II and Mar Dinkha IV, the Common Christological Declaration of 1994.
+
+    Each shows contact between two churches directly, in both churches' own names. Two things stop
+    a link:
+    - **A method question for Mark.** Under the method, Widely Accepted needs a study as well, so
+      a link resting on a joint declaration alone could not reach it. Mark ruled that a membership
+      roll alone may carry a "member of" link. Should a joint declaration alone carry an "in
+      contact with" link the same way?
+    - **No endpoint.** The census has no entry for the Roman Catholic Church after 1962. The Pius X
+      entry ends at the Council, and the post-Vatican II parish entry is not the papacy.
+
+    Both claims are confirmed and recorded as no-entry in
+    `Build/Ministry/Operations/Audits/2026-11-10_links-era-10-part-2/Drafting_Record.json`. Owner:
+    Mark (the method question), then the census owner (whether a post-conciliar Catholic entry is
+    needed).
+    - 2026-11-10: two part 2 links use the post-Vatican II parish entry for acts of Rome after 1962,
+      with flags on each saying why it fits the entry's own scope (the parish, the liturgy):
+      `the-tridentine-church--the-post-vatican-ii-parish-world` (Summorum Pontificum, 2007, Art. 5
+      §1 on parishes) and `the-post-vatican-ii-parish-world--latin-american-catholicism-twentieth-century`
+      (Paul VI's Bogotá homily, 1968). If a post-conciliar Catholic entry is made, both are re-checked.
+
+149. **Era 10 after P2-L10: what is still unlinked, and two more stale recordings (2026-11-10).**
+    - **Nine era 10 movements have no link of any kind:** IX.7, IX.30, IX.51, IX.54, IX.58,
+      IX.60, IX.61, IX.70 and IX.73. For each, either its text names no relationship to a census
+      movement that a source opened in the run supports, or the relationship waits for a ruling or
+      a text (dispositions in the two P2-L10 drafting records). 28 of the 71 era 10 movements have
+      no "gave rise to" or "continued as" link coming in, down from 48. Many of their parents fall
+      in the timeline breaks of Open-Gaps 142, so they come with that work. Owner: the next link
+      pass after sources are found.
+    - **Two more tree recordings read old descriptions.** Data release 28 rewrote the
+      longDescription of `ecumenical-community-worlds-taize-and-iona` and
+      `oneness-pentecostalism`. These join the five of Open-Gaps 145 for a paid re-voice, on
+      Mark's approval after a sample.
+150. **What P2-G3 settles (2026-11-10).** Data release 29 carries the agreed entries (audit:
     `Build/Ministry/Operations/Audits/2026-11-10_agreed-entries/`). It closes these parts of "What
     P2-G2 leaves for P2-G3" (2026-11-09): II.1 now runs from 328 with Athanasius; the desert monks'
     "gave rise to" link is retired for the "influenced" link on the same pair; Tertullian's display
@@ -1001,14 +1052,14 @@ it, never by deleting it.
     its people row, with each quote's speaker confirmed by the reviewer. From "The gap sweep is
     ruled" (2026-11-09) it builds the seven new movements, the Mennonite and Melkite successors, the
     later Carthusian movement (1300 to 1534) and the person entries. The Theophilus row stays with
-    the Library thread (entry 148).
-147. **The people the later-worlds count found, held for a follow-up (2026-11-10).** Mark's answer
+    the Library thread ("Library shelf moves the release points to", 2026-11-10).
+151. **The people the later-worlds count found, held for a follow-up (2026-11-10).** Mark's answer
     D a. As written, the rule passes 125 people, most from eras 1 and 2, and the count is noisy:
     namesakes (Jerome Lalemant counts for Jerome) and the editions' own notes and indexes count as
     mentions. Before any of them gets an entry: check each alias for namesakes, leave out editorial
     matter, re-run, and put the clean list to Mark. Result and scripts:
     `Build/Ministry/Operations/Audits/2026-11-10_agreed-entries/counts/`. Owner: a P2-G3 follow-up.
-148. **Library shelf moves the release points to (2026-11-10).** For the Library thread; the corpus
+152. **Library shelf moves the release points to (2026-11-10).** For the Library thread; the corpus
     map was not edited:
     - the Theophilus row (`npnf214_seven-ecumenical-councils`) may move to II.1, now that II.1 starts
       in 328;
@@ -1021,17 +1072,17 @@ it, never by deleting it.
       voice;
     - Simeon of Beth Arsham's letter and Life are shelved as context on Aksum and the Church of the
       East, while ruling 15 tells him within the Syriac Orthodox church.
-149. **Places with no source ID (2026-11-10).** No census entry has a gazetteer ID for these places,
+153. **Places with no source ID (2026-11-10).** No census entry has a gazetteer ID for these places,
     so the new entries leave them out of `modernCountries` rather than type an ID from memory:
     Quebec (New France lists no country), Cagliari, Delaware and New Jersey, London, Bruges, Deventer
     and Mount St Agnes (Thomas à Kempis lists none), Antwerp, Worms and Vilvoorde, Maiuma and Gaza,
     Upper Hungary and Indiana. Owner: the place-label work (PL2's method: looked up, never from
     memory).
-150. **The Martyrs Mirror file is a modern printing (2026-11-10).**
+154. **The Martyrs Mirror file is a modern printing (2026-11-10).**
     `cic/texts/van-braght_martyrs-mirror_sohm1886.txt` is a 2012 Herald Press printing with a 1938
-    copyright notice; its front matter is not public domain. Release 28 quotes only van Braght's own
+    copyright notice; its front matter is not public domain. Release 29 quotes only van Braght's own
     text from it, in Sohm's 1886 translation. Owner: the Library thread (a suggested task is queued).
-151. **Open points left by P2-G3 (2026-11-10).**
+155. **Open points left by P2-G3 (2026-11-10).**
     - The later Carthusian entry ends in 1534; with 1534 onward a named gap, the reviewer suggested
       1539, when the English houses closed (in the Library). Left at 1534.
     - The desert monks' "influenced" link on II.1 rests on 457 evidence, after the monks' entry ends
@@ -1043,8 +1094,8 @@ it, never by deleting it.
     - For entry owners: `carthusian-life` says the order kept its shape "ever since", now that it
       has a successor; Ambrose's home text says he was consecrated "within the week", where the
       source says eight days.
-152. **Recordings for the new pages wait for the one batch (2026-11-10).** Mark ruled (2026-11-10)
-    that all tree recording waits for one batch after P2-L10 and P2-G3 have both merged. Release 28
+156. **Recordings for the new pages wait for the one batch (2026-11-10).** Mark ruled (2026-11-10)
+    that all tree recording waits for one batch after P2-L10 and P2-G3 have both merged. Release 29
     adds 31 new tree pages (38,112 characters), 3 pages whose text changed (3,898) and 6 stories
     (3,508): 45,518 characters in all. No sample was prepared and no paid call made. Owner: this
     thread, at the batch.

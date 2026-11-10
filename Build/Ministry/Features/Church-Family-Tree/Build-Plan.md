@@ -92,7 +92,7 @@ applied to every shared file, not only the census.
 | P2-E10g | Era 10 global completeness sweep, by region and by river (Mark, 2026-11-09): 74 candidates, two review rounds | Mark's gate (https://claude.ai/artifact/8PdCRQd5WuB7DosASPYjgC) | ruled (Mark, all 71 per recommendation); carried out as P2-E10h |
 | P2-E10h | Global sweep carried out: 15 new rows (14 "enter" plus E3b, G-124 b), the ruled named lines, IX.11 narrowed (G-132 b), Caribbean rows take "Latin America" (G-134 a); drafted and reviewed; data release | none (3-round cap) | merged (#1566; release 25; Round 3 approved; held lines in Open-Gaps 139) |
 | P2-G89 | Global completeness sweep, eras 8 and 9, by region and river (Mark, 2026-11-09: "eras 8 - 10 for now"); frozen eras, so additions are change orders | Mark's gate | todo (after P2-E10g) |
-| P2-L10 | Links, era 10, in two parts by lane (part 1: Protestant, Pentecostal and their bridges, 38 movements; part 2: the rest, 33); evidence per the change order of 2026-11-10 (Mark: "b") | none (3-round cap per part) | part 1 done (data release 27; 33 links added, 8 changed; review passed in round 2); part 2 next |
+| P2-L10 | Links, era 10, in two parts by lane (part 1: Protestant, Pentecostal and their bridges, 38 movements; part 2: the rest, 33); evidence per the change order of 2026-11-10 (Mark: "b") | none (3-round cap per part) | done: part 1 merged (#1569, data release 27); part 2 data release 28 (33 links added; review passed in round 2) |
 | P2-L11 | Full review of the whole link set, eras 1–9; data release 17 | none (3-round cap) | merged (#1552); approved to proceed with P2-L11b and P2-L11c (Mark, 2026-11-08) |
 | P2-L11b | Mark's five whole-set rulings applied; data release 19 | none (3-round cap) | merged (#1554) |
 | P2-L11c | Dominant links on two or three old accounts; data release 20 | none (3-round cap) | merged (#1556) |
@@ -103,9 +103,9 @@ applied to every shared file, not only the census.
 | P2-S | Find-your-church search | none | todo |
 | P2-G1 | Gap sweep (read only) | Mark's ruling sitting | merged (#1549, ruling record #1561); ruled 2026-11-09 (Decision-Log, "The gap sweep ruled (P2-G1)") |
 | P2-G2 | Schema additions | none | merged (#1564; data release 24, schema 3): kind, toldWithin, people, concerns, livingEvidence.descentConfidence, reviewStatus; Tertullian a person; I.14 retired into II.1; leftovers in Open-Gaps 2026-11-09, "What P2-G2 leaves for P2-G3" |
-| P2-G3 | The agreed entries | Mark sees the people list (narration waits for one batch after P2-L10 and P2-G3, Mark 2026-11-10) | done (data release 28; people list ruled 2026-11-10; reviews approved; audit `2026-11-10_agreed-entries`) |
+| P2-G3 | The agreed entries | Mark sees the people list (narration waits for one batch after P2-L10 and P2-G3, Mark 2026-11-10) | done (data release 29; people list ruled 2026-11-10; reviews approved; audit `2026-11-10_agreed-entries`) |
 | P2-G3b | The later-worlds people: the count re-run with namesakes checked and editors' notes left out; Mark picks from the clean list (Mark, answer D a) | Mark's pick | todo |
-| P2-P | People layer: Traditions \| People switch, rows, gap placement, links by view | none | todo |
+| P2-P | People layer: Traditions \| People switch, rows, gap placement, links by view; removes the map's hold on person entries (Decision-Log 2026-11-10) | none | todo |
 | P2-PL | Likenesses: rights and date check per image | none | todo |
 | P2-V | "Living" definition and the 169 flags | none | todo |
 | P2-K1 | Drawn marks, 2 to 4 options | Mark's pick | todo |
