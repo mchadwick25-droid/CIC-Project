@@ -994,8 +994,9 @@ Where a recommendation has two steps ("hold, then a line"), the first step appli
 second when its condition is met. G89-9 takes (a), the Kongo row with its thin middle stated
 plainly.
 
-**Asked, not yet answered.** G89-8's recommendation is conditional: (a), the Coptic row from 1517,
-if Mark gives leave for a row to begin before 1650 (G89-6, sub-question 2); else (b), from 1650.
+**Decided (Mark, asked after).** G89-8 takes (a): the Coptic row starts at 1517, by Mark's leave
+for this one row to begin in era 7 (G89-6, sub-question 2). Shown with: start at 1650 and log
+1517-1650 for the era 7 owner. 1300-1517 is logged for the era 6 owner.
 
 **Next.** Carry out the rulings as named change orders to the frozen eras 8 and 9 (G89-6 a: one
 register, drafted and reviewed together, one data release).
