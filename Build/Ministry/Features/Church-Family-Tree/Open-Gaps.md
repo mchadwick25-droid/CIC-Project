@@ -964,3 +964,32 @@ it, never by deleting it.
     Also thin, though not empty: Latin America, 1492 to 1900, has three entries for four centuries
     (VI.13d, VII.17, VIII.48). The 48 era 10 rows with no link from an earlier entry wait for P2-L10.
     Owner: the eras 8 and 9 sweep (P2-G89), or a later timeline pass, once Mark rules on the scope.
+143. **What grade a "member of" link takes on the council's own record alone (2026-11-10).** The
+    World Council of Churches' own pages give 1948 as the year both the Ecumenical Patriarchate and
+    the Church of Greece joined. A "member of" link from the Greek church (part 2 of P2-L10) would
+    rest on that record alone. Under the method brief, Widely Accepted needs a secondary work as
+    well, so with no study cited the link would be Inferential-Thin. That is a thin grade for a
+    council's own membership roll. Whether a council's own dated membership record may carry
+    Widely Accepted alone is a method question for Mark, to rule before part 2 drafts its
+    "member of" links. Found by the part 1 revision and the Round 2 review.
+144. **The 1904-07 revival entry calls the three revivals "unconnected" (2026-11-10).** The entry
+    `the-1904-07-revival-family-wales-mukti-india-pyo` says, in its longDescription, why and
+    legacy, that the Welsh, Mukti and Pyongyang revivals were unconnected and that none descended
+    from another. Helen S. Dyer's life of Pandita Ramabai (1913 edition) says news of the Welsh
+    revival led to a new prayer circle at Mukti in January 1905, and that news from the Welsh
+    missions in the Assam hills encouraged it. The fix runs through three fields, so under the
+    link method it is left for the entry's owner, not rewritten in P2-L10. The claim that none of
+    the three came from Azusa Street still holds. Found by the part 1 drafters (group D) and
+    confirmed by Round 1.
+145. **Five tree-page recordings read old descriptions after P2-L10 part 1 (2026-11-10).** Data
+    release 27 rewrote the longDescription of five movements with tree recordings:
+    - `global-south-pentecostal-christianity`
+    - `hebrew-roots-and-torah-observance-movements`
+    - `ratana-church-and-pacific-adjustment-movements`
+    - `the-chinese-church-indigenous-and-suffering`
+    - `the-ecumenical-movement-and-the-wcc`
+
+    Their recordings in `cft-website/audio/tree/` still read the old text. Re-voicing them is a paid
+    run. It joins the tree's other stale recordings, which get their own sample for Mark first (see
+    "176 story recordings wait for the ElevenLabs quota to reset", 2026-11-09). Owner: this thread,
+    on Mark's approval.

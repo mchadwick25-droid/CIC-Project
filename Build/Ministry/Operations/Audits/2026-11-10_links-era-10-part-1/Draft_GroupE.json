@@ -1,0 +1,1149 @@
+{
+ "group": "E",
+ "movements": [
+  "disciples-of-christ-and-independent-christian-churches",
+  "northeast-india-and-mar-thoma-twentieth-century",
+  "dispensational-prophecy-culture",
+  "persecuted-church-worlds-of-the-communist-era-in",
+  "ratana-church-and-pacific-adjustment-movements",
+  "protestantism-in-latin-america"
+ ],
+ "dispositions": [
+  {
+   "movement": "disciples-of-christ-and-independent-christian-churches",
+   "field": "relationsSummary",
+   "sentence": "This is the Disciples of Christ wing that emerged from the 1906 division, later reorganizing itself into a denomination through the 1968 Restructure known as 'The Design.' It was a founding member of the ecumenical movement, joining the Federal Council of Churches in 1908 and the World Council of Churches in 1948.",
+   "other_id": "churches-of-christ-twentieth-century",
+   "disposition": "link",
+   "link_id": "churches-of-christ-twentieth-century--disciples-of-christ-and-independent-christian-churches",
+   "prose_change": null,
+   "reason": "The 1906 Religious Bodies report records the division from both sides; new 'broke with' link."
+  },
+  {
+   "movement": "disciples-of-christ-and-independent-christian-churches",
+   "field": "relationsSummary",
+   "sentence": "This is the Disciples of Christ wing that emerged from the 1906 division, later reorganizing itself into a denomination through the 1968 Restructure known as 'The Design.' It was a founding member of the ecumenical movement, joining the Federal Council of Churches in 1908 and the World Council of Churches in 1948.",
+   "other_id": "the-stone-campbell-restoration-movement",
+   "disposition": "link",
+   "link_id": "the-stone-campbell-restoration-movement--disciples-of-christ-and-independent-christian-churches",
+   "prose_change": null,
+   "reason": "'The Disciples of Christ wing that emerged' names the parent; existing link regraded on the 1906 report."
+  },
+  {
+   "movement": "disciples-of-christ-and-independent-christian-churches",
+   "field": "longDescription",
+   "sentence": "The other side of the 1906 division took the opposite road.",
+   "other_id": "churches-of-christ-twentieth-century",
+   "disposition": "link",
+   "link_id": "churches-of-christ-twentieth-century--disciples-of-christ-and-independent-christian-churches",
+   "prose_change": null,
+   "reason": "Same division; same new link."
+  },
+  {
+   "movement": "disciples-of-christ-and-independent-christian-churches",
+   "field": "why",
+   "sentence": "After the 1906 division, the Disciples of Christ kept their instruments and their national organization, becoming founding members of the Federal Council of Churches in 1908 and the World Council of Churches in 1948 before adopting a 1968 plan called 'The Design' that turned a movement of congregations into a denomination.",
+   "other_id": "churches-of-christ-twentieth-century",
+   "disposition": "link",
+   "link_id": "churches-of-christ-twentieth-century--disciples-of-christ-and-independent-christian-churches",
+   "prose_change": null,
+   "reason": "Same division; same new link."
+  },
+  {
+   "movement": "disciples-of-christ-and-independent-christian-churches",
+   "field": "relationsSummary",
+   "sentence": "It was a founding member of the ecumenical movement, joining the Federal Council of Churches in 1908 and the World Council of Churches in 1948.",
+   "other_id": "the-ecumenical-movement-and-the-wcc",
+   "disposition": "link",
+   "link_id": "disciples-of-christ-and-independent-christian-churches--the-ecumenical-movement-and-the-wcc",
+   "prose_change": null,
+   "reason": "WCC's own member page gives 1948; new 'in contact with' link."
+  },
+  {
+   "movement": "disciples-of-christ-and-independent-christian-churches",
+   "field": "longDescription",
+   "sentence": "The Disciples of Christ kept their instruments and their national organizations, joined the Federal Council of Churches at its founding in 1908 and the World Council of Churches at its founding in 1948, and in 1968 adopted a plan called the Restructure — 'The Design' — that turned a movement of congregations into a denomination.",
+   "other_id": "the-ecumenical-movement-and-the-wcc",
+   "disposition": "link",
+   "link_id": "disciples-of-christ-and-independent-christian-churches--the-ecumenical-movement-and-the-wcc",
+   "prose_change": null,
+   "reason": "WCC's own member page gives 1948; new 'in contact with' link."
+  },
+  {
+   "movement": "disciples-of-christ-and-independent-christian-churches",
+   "field": "why",
+   "sentence": "After the 1906 division, the Disciples of Christ kept their instruments and their national organization, becoming founding members of the Federal Council of Churches in 1908 and the World Council of Churches in 1948 before adopting a 1968 plan called 'The Design' that turned a movement of congregations into a denomination.",
+   "other_id": "the-ecumenical-movement-and-the-wcc",
+   "disposition": "link",
+   "link_id": "disciples-of-christ-and-independent-christian-churches--the-ecumenical-movement-and-the-wcc",
+   "prose_change": null,
+   "reason": "WCC's own member page gives 1948; new 'in contact with' link."
+  },
+  {
+   "movement": "disciples-of-christ-and-independent-christian-churches",
+   "field": "legacy",
+   "sentence": "The Disciples' ecumenical commitment was institutional — they were founding members of both the Federal Council in 1908 and the World Council in 1948 — which is what their founding plea for unity became; the independent Christian Churches remained a large, congregationally governed stream.",
+   "other_id": "the-ecumenical-movement-and-the-wcc",
+   "disposition": "link",
+   "link_id": "disciples-of-christ-and-independent-christian-churches--the-ecumenical-movement-and-the-wcc",
+   "prose_change": null,
+   "reason": "WCC's own member page gives 1948; new 'in contact with' link."
+  },
+  {
+   "movement": "disciples-of-christ-and-independent-christian-churches",
+   "field": "relationsSummary",
+   "sentence": "It was a founding member of the ecumenical movement, joining the Federal Council of Churches in 1908 and the World Council of Churches in 1948.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Federal Council has no census movement. Checked: the Council's Report of the First Meeting (Philadelphia, 1908; New York, 1909), read online at https://archive.org/download/reportoffirstmee00fede/reportoffirstmee00fede_djvu.txt, lists 'The Disciples of Christ.' among the bodies in the Plan of Federation ratified in December 1908."
+  },
+  {
+   "movement": "disciples-of-christ-and-independent-christian-churches",
+   "field": "longDescription",
+   "sentence": "The Disciples of Christ kept their instruments and their national organizations, joined the Federal Council of Churches at its founding in 1908 and the World Council of Churches at its founding in 1948, and in 1968 adopted a plan called the Restructure — 'The Design' — that turned a movement of congregations into a denomination.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Federal Council has no census movement. Checked: the Council's Report of the First Meeting (Philadelphia, 1908; New York, 1909), read online at https://archive.org/download/reportoffirstmee00fede/reportoffirstmee00fede_djvu.txt, lists 'The Disciples of Christ.' among the bodies in the Plan of Federation ratified in December 1908."
+  },
+  {
+   "movement": "disciples-of-christ-and-independent-christian-churches",
+   "field": "legacy",
+   "sentence": "The Disciples' ecumenical commitment was institutional — they were founding members of both the Federal Council in 1908 and the World Council in 1948 — which is what their founding plea for unity became; the independent Christian Churches remained a large, congregationally governed stream.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Federal Council has no census movement. Checked: the Council's Report of the First Meeting (Philadelphia, 1908; New York, 1909), read online at https://archive.org/download/reportoffirstmee00fede/reportoffirstmee00fede_djvu.txt, lists 'The Disciples of Christ.' among the bodies in the Plan of Federation ratified in December 1908."
+  },
+  {
+   "movement": "disciples-of-christ-and-independent-christian-churches",
+   "field": "relationsSummary",
+   "sentence": "It also underwent a second division: congregations that became the independent Christian Churches had been meeting apart since 1927 at the North American Christian Convention and were listed separately in denominational yearbooks by 1971.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The independent Christian Churches are part of this same movement, not a separate census movement. The 1927 convention and 1971 yearbook listing rest on Foster's Encyclopedia of the Stone-Campbell Movement, cited on the movement, not rechecked here."
+  },
+  {
+   "movement": "disciples-of-christ-and-independent-christian-churches",
+   "field": "legacy",
+   "sentence": "The irony was not lost on either of them: a movement founded to end division had divided twice.",
+   "other_id": "the-stone-campbell-restoration-movement",
+   "disposition": "kept-as-is",
+   "link_id": "the-stone-campbell-restoration-movement--disciples-of-christ-and-independent-christian-churches",
+   "prose_change": null,
+   "reason": "Restates the two divisions; carried by the Stone-Campbell and Churches of Christ links."
+  },
+  {
+   "movement": "northeast-india-and-mar-thoma-twentieth-century",
+   "field": "relationsSummary",
+   "sentence": "The Mizo revivals that began in 1906 transformed the northeastern hills, helping make Mizoram and Nagaland among the most Christian regions on earth.",
+   "other_id": "northeast-india-revivals-and-the-mar-thoma-refor",
+   "disposition": "link",
+   "link_id": "northeast-india-revivals-and-the-mar-thoma-refor--northeast-india-and-mar-thoma-twentieth-century",
+   "prose_change": null,
+   "reason": "The Mizo churches carry on from the nineteenth-century entry; existing 'continued as' link kept."
+  },
+  {
+   "movement": "northeast-india-and-mar-thoma-twentieth-century",
+   "field": "relationsSummary",
+   "sentence": "In Kerala, the Mar Thoma Church — which separated as a reform wing from the wider Malankara St Thomas Christian community in 1889 — grew through the same century and spread with the Malayali diaspora.",
+   "other_id": "the-malankara-churches-orthodox-and-jacobite",
+   "disposition": "kept-as-is",
+   "link_id": "northeast-india-revivals-and-the-mar-thoma-refor--the-malankara-churches-orthodox-and-jacobite",
+   "prose_change": null,
+   "reason": "The 1889 separation predates this movement (1906-). It is carried by the existing 'broke with' link between the nineteenth-century entry and the Malankara churches, which quotes the Patriarch's 1847 letter and cites the 1889 verdict."
+  },
+  {
+   "movement": "northeast-india-and-mar-thoma-twentieth-century",
+   "field": "longDescription",
+   "sentence": "In the northeast hills, revival waves ran through the Mizo country from 1906 and again in 1913, in 1919 and through the 1930s, and out of them came lengkhawm zai — hymns composed in the local language for the local way of singing, which became the churches' ordinary practice rather than a curiosity.",
+   "other_id": "northeast-india-revivals-and-the-mar-thoma-refor",
+   "disposition": "link",
+   "link_id": "northeast-india-revivals-and-the-mar-thoma-refor--northeast-india-and-mar-thoma-twentieth-century",
+   "prose_change": null,
+   "reason": "Same continuation; existing link."
+  },
+  {
+   "movement": "northeast-india-and-mar-thoma-twentieth-century",
+   "field": "longDescription",
+   "sentence": "In Kerala, the Mar Thoma Church — the reform wing of the ancient St Thomas Christians — went through its own century under indigenous leadership, with the annual Maramon Convention as its great gathering, and sent congregations out with the diaspora.",
+   "other_id": "st-thomas-christians-of-india",
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Inventory matched this to the era 4 entry, which ends in 1054; a direct link would skip five centuries. 'The ancient St Thomas Christians' names the tradition, carried by the chain of existing links (St Thomas Christians of India, then 1300-1517, then under Portuguese pressure, which gave rise to the nineteenth-century entry, which continued as this one)."
+  },
+  {
+   "movement": "northeast-india-and-mar-thoma-twentieth-century",
+   "field": "why",
+   "sentence": "Revival waves that ran through the Mizo hills from 1906 onward produced lengkhawm zai, hymns composed in the local language and manner of singing that became the churches' ordinary worship, and helped make Mizoram and Nagaland among the most heavily Christian regions on earth.",
+   "other_id": "northeast-india-revivals-and-the-mar-thoma-refor",
+   "disposition": "link",
+   "link_id": "northeast-india-revivals-and-the-mar-thoma-refor--northeast-india-and-mar-thoma-twentieth-century",
+   "prose_change": null,
+   "reason": "Same continuation; existing link."
+  },
+  {
+   "movement": "northeast-india-and-mar-thoma-twentieth-century",
+   "field": "why",
+   "sentence": "In Kerala, the Mar Thoma Church, the reform wing of the ancient St Thomas Christians, grew under its own indigenous leadership through the same century, gathering each year at the Maramon Convention and following its people into a worldwide diaspora.",
+   "other_id": "st-thomas-christians-of-india",
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "As above: the tradition, carried by the existing chain of links, not a direct tie to the era 4 entry."
+  },
+  {
+   "movement": "northeast-india-and-mar-thoma-twentieth-century",
+   "field": "legacy",
+   "sentence": "On this map they complete a chain: the nineteenth-century entries for both regions stopped at 1906 with nothing to hand on to, and this is where they continue.",
+   "other_id": "northeast-india-revivals-and-the-mar-thoma-refor",
+   "disposition": "link",
+   "link_id": "northeast-india-revivals-and-the-mar-thoma-refor--northeast-india-and-mar-thoma-twentieth-century",
+   "prose_change": null,
+   "reason": "The 'chain' is the existing 'continued as' link."
+  },
+  {
+   "movement": "northeast-india-and-mar-thoma-twentieth-century",
+   "field": "legacy",
+   "sentence": "By 2010 the Mar Thoma Church had become a worldwide body, with parishes on several continents and a place in Indian ecumenical life.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "'Indian ecumenical life' names no census movement; a fact about the church's own life, from Frykenberg as cited on the movement."
+  },
+  {
+   "movement": "dispensational-prophecy-culture",
+   "field": "relationsSummary",
+   "sentence": "This popular culture grew out of Plymouth Brethren teaching, carried forward through the Bible-institute tradition.",
+   "other_id": "plymouth-brethren-and-dispensational-formation",
+   "disposition": "link",
+   "link_id": "plymouth-brethren-and-dispensational-formation--dispensational-prophecy-culture",
+   "prose_change": null,
+   "reason": "Existing 'influenced' link kept; the Brethren text names it too."
+  },
+  {
+   "movement": "dispensational-prophecy-culture",
+   "field": "relationsSummary",
+   "sentence": "This popular culture grew out of Plymouth Brethren teaching, carried forward through the Bible-institute tradition.",
+   "other_id": "the-sunday-school-and-bible-institute-movement",
+   "disposition": "link",
+   "link_id": "the-sunday-school-and-bible-institute-movement--dispensational-prophecy-culture",
+   "prose_change": null,
+   "reason": "New 'influenced' link on the repo-cited studies; nothing opened shows it directly."
+  },
+  {
+   "movement": "dispensational-prophecy-culture",
+   "field": "longDescription",
+   "sentence": "Its formation is older than the era: the Niagara Bible Conference met annually from the 1870s to 1897 and adopted a fourteen-point creed in 1878, and prophecy conferences from 1878 onward taught a reading of scripture divided into dispensations with a rapture ahead.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Niagara Bible Conference has no census movement. Its dates and 1878 creed rest on Sandeen (1970), cited on the movement, not rechecked here."
+  },
+  {
+   "movement": "dispensational-prophecy-culture",
+   "field": "why",
+   "sentence": "Beginning with the Niagara Bible Conference's prophecy teaching in the 1870s, this way of reading scripture in distinct dispensations leading to a rapture spread less through preaching than through print: the Scofield Reference Bible of 1909 put the scheme in footnotes that readers met every time they opened the text.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Niagara Bible Conference has no census movement. Its dates and 1878 creed rest on Sandeen (1970), cited on the movement, not rechecked here."
+  },
+  {
+   "movement": "dispensational-prophecy-culture",
+   "field": "relationsSummary",
+   "sentence": "Dallas Theological Seminary's doctrinal statement was its clearest institutional anchor.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Names a school, not a census movement."
+  },
+  {
+   "movement": "persecuted-church-worlds-of-the-communist-era-in",
+   "field": "relationsSummary",
+   "sentence": "Kin of the Chinese suffering church",
+   "other_id": "the-chinese-church-indigenous-and-suffering",
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "No source shows a tie between the two; stated as a parallel. The Chinese text does not name this movement."
+  },
+  {
+   "movement": "persecuted-church-worlds-of-the-communist-era-in",
+   "field": "legacy",
+   "sentence": "The pattern of unregistered congregations refusing the state's terms is kin to what happened in China over the same decades, a real historical relation rather than a coincidence.",
+   "other_id": "the-chinese-church-indigenous-and-suffering",
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 1,
+   "reason": "As for relationsSummary."
+  },
+  {
+   "movement": "persecuted-church-worlds-of-the-communist-era-in",
+   "field": "longDescription",
+   "sentence": "In the Soviet Union a group of Baptist ministers broke in 1961 with the registered union over state control of church life; they were called the Initsiativniki, after their initiative group, and they ran their own press, Khristianin.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": "russian-evangelicals-stundists--persecuted-church-worlds-of-the-communist-era-in",
+   "prose_change": null,
+   "reason": "The registered All-Union Council has no census movement. The 1961 break rests on Sawatsky (1981), cited on the movement and on the existing Russian evangelical link; not rechecked here."
+  },
+  {
+   "movement": "persecuted-church-worlds-of-the-communist-era-in",
+   "field": "why",
+   "sentence": "In the Soviet Union, a group of Baptist ministers broke in 1961 with the state-registered union and ran their own underground press; their Council of Prisoners' Relatives began issuing bulletins in 1964 that listed arrests and confiscations by name, week by week.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": "russian-evangelicals-stundists--persecuted-church-worlds-of-the-communist-era-in",
+   "prose_change": null,
+   "reason": "The registered All-Union Council has no census movement. The 1961 break rests on Sawatsky (1981), cited on the movement and on the existing Russian evangelical link; not rechecked here."
+  },
+  {
+   "movement": "persecuted-church-worlds-of-the-communist-era-in",
+   "field": "longDescription",
+   "sentence": "In Romania the Lord's Army, founded in 1923 by the priest Iosif Trifa around his weekly paper, went on under Communist rule; Traian Dorz wrote hymns and prison memoirs.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Names no other census movement. The Lord's Army's place in the Romanian Orthodox Church is named only by the part 2 Balkan Orthodoxy text, so part 2 owns that pair."
+  },
+  {
+   "movement": "persecuted-church-worlds-of-the-communist-era-in",
+   "field": "legacy",
+   "sentence": "The Keston archive preserved much of it.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "An archive, not a movement."
+  },
+  {
+   "movement": "ratana-church-and-pacific-adjustment-movements",
+   "field": "relationsSummary",
+   "sentence": "These movements grew out of Pacific mission Christianity combined with indigenous initiative and leadership.",
+   "other_id": "the-missionary-movement-s-native-churches-seramp",
+   "disposition": "link",
+   "link_id": "the-missionary-movement-s-native-churches-seramp--ratana-church-and-pacific-adjustment-movements",
+   "prose_change": null,
+   "reason": "The church's own history page shows Rātana raised Methodist and his followers turned away by their churches; new 'gave rise to' link."
+  },
+  {
+   "movement": "ratana-church-and-pacific-adjustment-movements",
+   "field": "relationsSummary",
+   "sentence": "A similar pattern appears elsewhere in the Pacific, most notably in Silas Eto's Christian Fellowship Church, founded in the Solomon Islands in 1960.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 2,
+   "reason": "No census movement; the founding date is unsupported in the repo, so it is softened."
+  },
+  {
+   "movement": "ratana-church-and-pacific-adjustment-movements",
+   "field": "longDescription",
+   "sentence": "Other Pacific movements of a similar shape belong beside it, among them Silas Eto's Christian Fellowship Church in the Solomon Islands, from 1960.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 3,
+   "reason": "No census movement; the founding date is unsupported in the repo, so it is softened."
+  },
+  {
+   "movement": "ratana-church-and-pacific-adjustment-movements",
+   "field": "why",
+   "sentence": "Similar movements arose elsewhere in the Pacific, among them Silas Eto's Christian Fellowship Church in the Solomon Islands, founded in 1960.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 4,
+   "reason": "No census movement; the founding date is unsupported in the repo, so it is softened."
+  },
+  {
+   "movement": "ratana-church-and-pacific-adjustment-movements",
+   "field": "longDescription",
+   "sentence": "The movement was political as well as religious from early on: a delegation took a Treaty of Waitangi petition to London in 1924, an alliance with the Labour Party was formed after a meeting with Michael Joseph Savage in 1936, and by 1943 the movement held all four Māori parliamentary seats.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Labour Party and Savage are not census movements; the facts rest on Henderson and Newman, cited on the movement."
+  },
+  {
+   "movement": "protestantism-in-latin-america",
+   "field": "relationsSummary",
+   "sentence": "René Padilla and Samuel Escobar argued for integral mission at Lausanne in 1974.",
+   "other_id": "lausanne-era-global-evangelicalism",
+   "disposition": "link",
+   "link_id": "protestantism-in-latin-america--lausanne-era-global-evangelicalism",
+   "prose_change": null,
+   "reason": "Padilla's address and the Covenant read online, with Stanley's abstract; new 'influenced' link."
+  },
+  {
+   "movement": "protestantism-in-latin-america",
+   "field": "relationsSummary",
+   "sentence": "The Lausanne entry tells that story. This entry tells their region's own Protestant story.",
+   "other_id": "lausanne-era-global-evangelicalism",
+   "disposition": "kept-as-is",
+   "link_id": "protestantism-in-latin-america--lausanne-era-global-evangelicalism",
+   "prose_change": null,
+   "reason": "A pointer between the two movements, carried by the same link."
+  },
+  {
+   "movement": "protestantism-in-latin-america",
+   "field": "why",
+   "sentence": "They met because the world mission conference at Edinburgh in 1910 had left Latin America out.",
+   "other_id": "the-student-volunteer-movement-and-edinburgh-191",
+   "disposition": "link",
+   "link_id": "the-student-volunteer-movement-and-edinburgh-191--protestantism-in-latin-america",
+   "prose_change": null,
+   "reason": "The 1917 congress report traces its start to Edinburgh's exclusion of Latin America; new 'influenced' link."
+  },
+  {
+   "movement": "protestantism-in-latin-america",
+   "field": "longDescription",
+   "sentence": "Her book of 2004 sets out to show how Pentecostalism there took on a Quichua form.",
+   "other_id": "global-south-pentecostal-christianity",
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Reports what Andrade's study sets out to show about Pentecostalism in Chimborazo; Pentecostals there are part of this movement's story, not a separate relation. The census note says her publisher page and abstract were read."
+  },
+  {
+   "movement": "protestantism-in-latin-america",
+   "field": "longDescription",
+   "sentence": "In November 1969 the first Latin American Congress on Evangelization, called CLADE, met in Bogotá.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "CLADE, the Fraternity, CLAI, CONELA and FEINE are this movement's own bodies, not census movements; dated from the reference items cited on the movement."
+  },
+  {
+   "movement": "dispensational-prophecy-culture",
+   "field": "legacy",
+   "sentence": "The reading of the Bible as one story fulfilled in Jesus, carried elsewhere on this map, was in large part a reaction against the chart.",
+   "other_id": "the-narrative-kingdom-renewal-the-bible-as-one-s",
+   "disposition": "qualify",
+   "link_id": "the-narrative-kingdom-renewal-the-bible-as-one-s--dispensational-prophecy-culture",
+   "prose_change": 5,
+   "reason": "Linked as 'argued against' on Wright's 2001 article, and the claim of origin softened to rivalry."
+  }
+ ],
+ "links": [
+  {
+   "id": "the-stone-campbell-restoration-movement--disciples-of-christ-and-independent-christian-churches",
+   "from": "the-stone-campbell-restoration-movement",
+   "to": "disciples-of-christ-and-independent-christian-churches",
+   "type": "gave rise to",
+   "confidence": "Widely Accepted",
+   "note": "The Stone-Campbell movement split in two in the early 1900s. The Disciples of Christ were the side that kept instruments in worship and kept their national mission societies. The 1906 United States census of churches listed the other side, the Churches of Christ, on its own.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "U.S. Bureau of the Census, Religious Bodies: 1906, Part II, Separate Denominations: History, Description, and Statistics (Washington, 1910), statement on the Disciples of Christ (prepared, the Bureau says, by persons in the denomination)",
+     "url": "https://archive.org/download/religiousbodies01huntgoog/religiousbodies01huntgoog_djvu.txt",
+     "accessed": "2026-11-10",
+     "locus": "Disciples of Christ, History, pp. 236-237; archive.org item religiousbodies01huntgoog (Part II), djvu text lines 160965-160969",
+     "quote": "The Disciples of Christ trace their origin to the revival movement in the early part of the nineteenth century, when a number of leaders arose who pleaded for the Bible alone, without human addition in the form of creeds and formulas",
+     "license": "public-domain (U.S. government work, 1910)"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "U.S. Bureau of the Census, Religious Bodies: 1906, Part II, Separate Denominations: History, Description, and Statistics (Washington, 1910), statement on the Disciples of Christ",
+     "url": "https://archive.org/download/religiousbodies01huntgoog/religiousbodies01huntgoog_djvu.txt",
+     "accessed": "2026-11-10",
+     "locus": "Disciples of Christ, History, p. 237; archive.org item religiousbodies01huntgoog (Part II), djvu text lines 161106-161107",
+     "quote": "Mr. Stone favored \"Christians,\" as the name given in the beginning by divine authority.",
+     "license": "public-domain (U.S. government work, 1910)"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "U.S. Bureau of the Census, Religious Bodies: 1906, Part II, Separate Denominations: History, Description, and Statistics (Washington, 1910), general statement on the Disciples or Christians",
+     "url": "https://archive.org/download/religiousbodies01huntgoog/religiousbodies01huntgoog_djvu.txt",
+     "accessed": "2026-11-10",
+     "locus": "Disciples or Christians, General statement, p. 235; archive.org item religiousbodies01huntgoog (Part II), djvu text lines 160590-160593",
+     "quote": "Certain churches which in the report for 1890 were included with the Disciples of Christ have since 1900 withdrawn and class themselves as independent Churches of Christ.",
+     "license": "public-domain (U.S. government work, 1910)"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Richard T. Hughes, Reviving the Ancient Faith: The Story of Churches of Christ in America (Eerdmans, 1996)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Douglas A. Foster, Paul M. Blowers et al. (eds.), The Encyclopedia of the Stone-Campbell Movement (Eerdmans, 2004)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-online",
+   "action": "regrade",
+   "named_in_text": [
+    "disciples-of-christ-and-independent-christian-churches relationsSummary ('the Disciples of Christ wing that emerged from the 1906 division')",
+    "disciples-of-christ-and-independent-christian-churches longDescription and legacy ('one nineteenth-century plea for Christian unity')",
+    "the-stone-campbell-restoration-movement legacy"
+   ],
+   "wants": [
+    "Religious Bodies: 1906, Part II (1910): public domain; vendoring it under cic/texts/ would let this link be re-checked line by line and raised to Documented"
+   ],
+   "drafter_flags": [
+    "The report is a U.S. government publication. Its letter of transmittal (p. 7) says the denominational statements were 'prepared, wherever feasible, by competent persons in the denominations'. I treated the Disciples statement as the body's own dated text under the era 10 rule; the reviewer should confirm that reading.",
+    "Read as the archive.org OCR text of the Google scan; quotes chosen from spans with no OCR errors. Page numbers are the printed ones in that text.",
+    "Hughes and the Stone-Campbell Encyclopedia remain named-not-rechecked.",
+    "Re-checked 2026-11-10 by plain curl of the same djvu text: every quote is there word for word. The OCR puts two spaces between words and breaks lines mid-sentence, so a raw grep for a single-spaced phrase finds nothing; squash whitespace first (e.g. tr -s ' \\n' ' '). Line numbers in the locus are in that text file."
+   ],
+   "change_reason": "Regraded Dominant Modern Reconstruction to Widely Accepted: the 1906 Religious Bodies report, read online, shows the Disciples tracing their origin to the Stone and Campbell movement and the 1906 split. From, to, type and note unchanged. Capped at Widely Accepted because the text is read online, not held in the Library."
+  },
+  {
+   "id": "churches-of-christ-twentieth-century--disciples-of-christ-and-independent-christian-churches",
+   "action": "new",
+   "from": "churches-of-christ-twentieth-century",
+   "to": "disciples-of-christ-and-independent-christian-churches",
+   "type": "broke with",
+   "confidence": "Widely Accepted",
+   "note": "In 1906 a United States survey of churches listed the Churches of Christ apart from the Disciples for the first time. Its statement for the Churches of Christ told how the two sides split over mission societies and music in worship. Its statement for the Disciples said those churches had left.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "U.S. Bureau of the Census, Religious Bodies: 1906, Part II, Separate Denominations: History, Description, and Statistics (Washington, 1910), general statement on the Disciples or Christians",
+     "url": "https://archive.org/download/religiousbodies01huntgoog/religiousbodies01huntgoog_djvu.txt",
+     "accessed": "2026-11-10",
+     "locus": "Disciples or Christians, General statement, p. 235; archive.org item religiousbodies01huntgoog (Part II), djvu text lines 160590-160593",
+     "quote": "Certain churches which in the report for 1890 were included with the Disciples of Christ have since 1900 withdrawn and class themselves as independent Churches of Christ.",
+     "license": "public-domain (U.S. government work, 1910)"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "U.S. Bureau of the Census, Religious Bodies: 1906, Part II, Separate Denominations: History, Description, and Statistics (Washington, 1910), statement on the Churches of Christ",
+     "url": "https://archive.org/download/religiousbodies01huntgoog/religiousbodies01huntgoog_djvu.txt",
+     "accessed": "2026-11-10",
+     "locus": "Churches of Christ, History, p. 242; archive.org item religiousbodies01huntgoog (Part II), djvu text lines 164015-164018",
+     "quote": "It was inevitable that such divergencies of opinion should result in the formation of opposing parties, and these parties were variously called \"Conservatives\" and \"Progressives,\" or \"Antis\" and \"Digressives.\"",
+     "license": "public-domain (U.S. government work, 1910)"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Richard T. Hughes, Reviving the Ancient Faith: The Story of Churches of Christ in America (Eerdmans, 1996)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Douglas A. Foster, Paul M. Blowers et al. (eds.), The Encyclopedia of the Stone-Campbell Movement (Eerdmans, 2004)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-online",
+   "named_in_text": [
+    "disciples-of-christ-and-independent-christian-churches relationsSummary, longDescription and why ('the 1906 division'; 'The other side of the 1906 division')",
+    "churches-of-christ-twentieth-century relationsSummary, longDescription and why"
+   ],
+   "wants": [
+    "Religious Bodies: 1906, Part II (1910), vendored under cic/texts/, to raise this to Documented",
+    "David Lipscomb's correspondence with the Census Bureau (Gospel Advocate, 1907), the Churches of Christ side in its own journal"
+   ],
+   "drafter_flags": [
+    "Group D (Churches of Christ) may draft the same pair; merge to one link.",
+    "Both statements sit in one government report, but each was prepared for its own body, so the rupture is recorded from both sides. The Disciples statement's own sentence ('have since withdrawn to form the body known as the \"Churches of Christ\"', p. 237) has OCR damage, so I quote the general statement instead; the reviewer can read p. 237 at the same address.",
+    "The note calls the census of religious bodies a 'survey of churches', to keep the word census out of public text.",
+    "Re-checked 2026-11-10 by plain curl of the same djvu text: every quote is there word for word. The OCR puts two spaces between words and breaks lines mid-sentence, so a raw grep for a single-spaced phrase finds nothing; squash whitespace first (e.g. tr -s ' \\n' ' '). Line numbers in the locus are in that text file."
+   ],
+   "change_reason": "New: the 1906 division both texts name had no link."
+  },
+  {
+   "id": "disciples-of-christ-and-independent-christian-churches--the-ecumenical-movement-and-the-wcc",
+   "action": "new",
+   "from": "disciples-of-christ-and-independent-christian-churches",
+   "to": "the-ecumenical-movement-and-the-wcc",
+   "type": "in contact with",
+   "confidence": "Widely Accepted",
+   "note": "The Disciples of Christ in the United States joined the World Council of Churches when it began in 1948. The council's own list of member churches still gives that date.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "World Council of Churches, member church page: Christian Church (Disciples of Christ) in the United States (oikoumene.org, current page)",
+     "url": "https://www.oikoumene.org/member-churches/christian-church-disciples-of-christ-in-the-united-states",
+     "accessed": "2026-11-10",
+     "locus": "member church details",
+     "quote": "WCC Member Since 1948",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Douglas A. Foster, Paul M. Blowers et al. (eds.), The Encyclopedia of the Stone-Campbell Movement (Eerdmans, 2004)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-online",
+   "major": {
+    "major": false,
+    "kind": null,
+    "evidence": null,
+    "reason": "Joining a council is membership, not a condemnation, split or changed rule."
+   },
+   "named_in_text": [
+    "disciples-of-christ-and-independent-christian-churches relationsSummary, longDescription, why and legacy ('founding members of ... the World Council of Churches in 1948')"
+   ],
+   "wants": [
+    "The Disciples' 1948 vote to join, or the Amsterdam 1948 assembly's list of founding members (Man's Disorder and God's Design, 1948-49), for a dated primary"
+   ],
+   "drafter_flags": [
+    "The WCC page is current (after 2010) but supports a 1948 fact; the note keeps no date after 2010.",
+    "'In contact with' is the nearest of the six types for membership of a council; no influence is claimed. The WCC side's text (group A) does not name the Disciples.",
+    "Foster named, not rechecked, for the consensus reading."
+   ],
+   "change_reason": "New: the World Council membership the text names four times had no link."
+  },
+  {
+   "id": "northeast-india-revivals-and-the-mar-thoma-refor--northeast-india-and-mar-thoma-twentieth-century",
+   "from": "northeast-india-revivals-and-the-mar-thoma-refor",
+   "to": "northeast-india-and-mar-thoma-twentieth-century",
+   "type": "continued as",
+   "confidence": "Widely Accepted",
+   "note": "Thomas Whitehouse, an English clergyman in Kerala, wrote of a bishop from Antioch who lived there in 1853. He had been sent to check the reforming bishop Mar Athanasius. The reform party lived on as the Mar Thoma Church of the next century. So did the hill churches of the northeast. Robert Frykenberg's history of Christianity in India traces both.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Thomas Whitehouse, Lingerings of Light in a Dark Land (1873)",
+     "file": "cic/texts/whitehouse_lingerings-of-light-in-a-dark-land_1873.txt",
+     "lines": "11330-11334",
+     "locus": "ch. on the churches of the north (visit to Mar Kurillos at Chilasherry)",
+     "quote": "He was known as Mar Kurillos Joyakin, and had been sent by the Jacobite Patriarch to check the reforming tendencies of Mar Athanasius, and the enquiry after truth consequent upon the labours of the English Missionaries in Travancore.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Robert Eric Frykenberg, Christianity in India: From Beginnings to the Present (OUP, 2008)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Frederick S. Downs, History of Christianity in India vol. V pt. 5: North East India (CHAI, 1992)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "action": "keep",
+   "named_in_text": [
+    "northeast-india-and-mar-thoma-twentieth-century longDescription ('twentieth-century continuations of older stories') and legacy ('this is where they continue')",
+    "northeast-india-revivals-and-the-mar-thoma-refor"
+   ],
+   "wants": [
+    "F. S. Downs, History of Christianity in India vol. V pt. 5 (1992), read, for the hill churches' side; a Mar Thoma Church dated text of its own (e.g. its constitution) read online"
+   ],
+   "drafter_flags": [
+    "Rechecked the Whitehouse quote at lines 11330-11334: it matches, and line 11286 dates the visit to Mar Kurillos to 1853. The quote shows the reform party, not the twentieth-century continuation, so Widely Accepted rests on Frykenberg and Downs for the continuity; no online church text was found to add."
+   ],
+   "change_reason": "Kept: type, grade and note stand; the quote rechecked verbatim."
+  },
+  {
+   "id": "plymouth-brethren-and-dispensational-formation--dispensational-prophecy-culture",
+   "from": "plymouth-brethren-and-dispensational-formation",
+   "to": "dispensational-prophecy-culture",
+   "type": "influenced",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "Darby taught that Christ would take the church away before a last time of great suffering. American prophecy conferences took up his plan from 1878. The Scofield Reference Bible put it in its notes in 1909. Historians from Ernest Sandeen to Paul Boyer trace this prophecy culture back to Darby.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Ernest Sandeen, The Roots of Fundamentalism (University of Chicago Press, 1970)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Timothy Weber, Living in the Shadow of the Second Coming (1979; 1983)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Paul Boyer, When Time Shall Be No More (Harvard University Press, 1992)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked",
+   "action": "keep",
+   "major": {
+    "major": false,
+    "kind": null,
+    "evidence": null,
+    "reason": "A teaching taken up by the other side; no council, split or changed rule in its sources."
+   },
+   "named_in_text": [
+    "dispensational-prophecy-culture relationsSummary ('grew out of Plymouth Brethren teaching')",
+    "plymouth-brethren-and-dispensational-formation legacy"
+   ],
+   "wants": [
+    "Scofield Reference Bible (1909) and the 1878 Niagara Creed, vendored, to show the later side using Darby's scheme; neither names Darby, so the type would stay 'influenced'"
+   ],
+   "drafter_flags": [
+    "'Grew out of' in the prose fits 'influenced': most who took up the scheme were not Brethren. No Library or online church text was found that names Darby from the later side, so it stays Dominant Modern Reconstruction."
+   ],
+   "change_reason": "Kept: type and grade right for the evidence."
+  },
+  {
+   "id": "the-sunday-school-and-bible-institute-movement--dispensational-prophecy-culture",
+   "action": "new",
+   "from": "the-sunday-school-and-bible-institute-movement",
+   "to": "dispensational-prophecy-culture",
+   "type": "influenced",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "Bible institutes such as Moody's in Chicago trained lay teachers in this way of reading prophecy. Historians from Ernest Sandeen to Timothy Weber treat the schools as its main carriers. This rests on their books.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Ernest Sandeen, The Roots of Fundamentalism (University of Chicago Press, 1970)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Timothy Weber, Living in the Shadow of the Second Coming (1979; 1983)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked",
+   "major": {
+    "major": false,
+    "kind": null,
+    "evidence": null,
+    "reason": "Teaching carried by schools; no institutional act in its sources."
+   },
+   "named_in_text": [
+    "dispensational-prophecy-culture relationsSummary ('carried forward through the Bible-institute tradition')"
+   ],
+   "wants": [
+    "A Bible institute's own dated doctrinal statement or catalogue (Moody Bible Institute; the Philadelphia School of the Bible, 1914) read online",
+    "Dallas Theological Seminary library's Scofield Papers page (library.dts.edu, returned 503 in this run)"
+   ],
+   "drafter_flags": [
+    "Both books are cited on the movement and in the era 9 Brethren link; neither was read here. That they treat the Bible institutes as carriers is the standard reading, but I have not seen the pages. The reviewer may prefer Inferential-Thin.",
+    "Only the dispensational text names this pair, so it is ours."
+   ],
+   "change_reason": "New: the Bible-institute tradition the text names had no link."
+  },
+  {
+   "id": "the-narrative-kingdom-renewal-the-bible-as-one-s--dispensational-prophecy-culture",
+   "action": "new",
+   "from": "the-narrative-kingdom-renewal-the-bible-as-one-s",
+   "to": "dispensational-prophecy-culture",
+   "type": "argued against",
+   "confidence": "Inferential-Thin",
+   "note": "In 2001 N. T. Wright, a leading writer of the story reading, wrote against the rapture teaching. He called the success of the Left Behind novels puzzling, even bizarre. This rests on one article.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "N. T. Wright, 'Farewell to the Rapture', Bible Review (August 2001), as posted on ntwrightpage.com",
+     "url": "https://ntwrightpage.com/2016/07/12/farewell-to-the-rapture/",
+     "accessed": "2026-11-10",
+     "locus": "opening paragraph (the page heads it 'N.T. Wright, Bible Review, August 2001. Reproduced by permission of the author')",
+     "quote": "Seen from my side of the Atlantic, the phenomenal success of the Left Behind books appears puzzling, even bizarre",
+     "license": "rights reserved; short quotation"
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-online",
+   "major": {
+    "major": false,
+    "kind": null,
+    "evidence": null,
+    "reason": "A writer's argument; no institutional act."
+   },
+   "named_in_text": [
+    "dispensational-prophecy-culture legacy ('was in large part a reaction against the chart')",
+    "the-narrative-kingdom-renewal-the-bible-as-one-s relationsSummary and legacy ('direct rivalry')"
+   ],
+   "wants": [
+    "A study of the story reading's quarrel with dispensationalism (e.g. Hummel, The Rise and Fall of Dispensationalism, 2023, cited on the movement but after 2010 and not read)"
+   ],
+   "drafter_flags": [
+    "METHOD QUESTION (in escalations): the era 10 rule admits as online primary only a church body's own dated text. Wright's article is one author's, not a body's. I used it because it is the critic's own text directed at the other side, but graded the link Inferential-Thin, not Widely Accepted.",
+    "Re-checked 2026-11-10 by plain curl: the sentence is on the page, but a footnote marker '[1]' follows 'bizarre', so the quote now ends at 'bizarre' without the full stop.",
+    "Group B (narrative-kingdom) may draft the same pair; merge to one link.",
+    "Prose qualified: 'in large part a reaction' claimed more than one article shows."
+   ],
+   "change_reason": "New: the rivalry both texts name had no link."
+  },
+  {
+   "id": "russian-evangelicals-stundists--persecuted-church-worlds-of-the-communist-era-in",
+   "from": "russian-evangelicals-stundists",
+   "to": "persecuted-church-worlds-of-the-communist-era-in",
+   "type": "gave rise to",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "Two unions grew from these congregations, one Baptist and one of Evangelical Christians. In 1944 they were joined in one union under Soviet rule. In 1961 a group of Baptist ministers broke with that registered union. They would not let the state run their churches. They became known as the Initsiativniki, after the group that took the lead.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Walter Sawatsky, Soviet Evangelicals since World War II (Scottdale, PA, 1981)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Heather J. Coleman, Russian Baptists and Spiritual Revolution, 1905-1929 (Bloomington, 2005)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked",
+   "action": "keep",
+   "named_in_text": [
+    "russian-evangelicals-stundists relationsSummary ('ancestors of the Soviet-era Initsiativniki Baptists')",
+    "persecuted-church-worlds-of-the-communist-era-in relationsSummary (rewritten to name it)"
+   ],
+   "wants": [
+    "The 1961 Initiative Group letters or a Council of Churches of Evangelical Christians-Baptists dated statement read online, to raise it to Widely Accepted"
+   ],
+   "drafter_flags": [
+    "No online church text was opened for this pair in this run; the grade stays on Sawatsky and Coleman."
+   ],
+   "change_reason": "Kept: type, grade and note stand."
+  },
+  {
+   "id": "the-missionary-movement-s-native-churches-seramp--ratana-church-and-pacific-adjustment-movements",
+   "action": "new",
+   "from": "the-missionary-movement-s-native-churches-seramp",
+   "to": "ratana-church-and-pacific-adjustment-movements",
+   "type": "gave rise to",
+   "confidence": "Widely Accepted",
+   "note": "Tahupōtiki Wiremu Rātana was baptized in the Methodist church as a baby. At first he told his followers to stay in their own churches. When those churches turned them away, his movement registered as a church of its own in 1925.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Te Haahi Rātana (Ratana Established Church of New Zealand), official website, History page (2003)",
+     "url": "https://theratanachurch.org.nz/history.html",
+     "accessed": "2026-11-10",
+     "locus": "Tahupotiki Wiremu Ratana (birth and upbringing)",
+     "quote": "He was baptised into the Methodist church at one month old.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Te Haahi Rātana, official website, History page (2003)",
+     "url": "https://theratanachurch.org.nz/history.html",
+     "accessed": "2026-11-10",
+     "locus": "on the followers' own churches",
+     "quote": "Although they became his follower Mr Ratana always encouraged them to remain loyal to their own respective Churches. Problems began to surface as he noticed, as his followers went back to their own churches to marry or to have their children baptised, but were denied the right on the grounds that they were followers of this so called Mr Ratana.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Te Haahi Rātana, official website, History page (2003)",
+     "url": "https://theratanachurch.org.nz/history.html",
+     "accessed": "2026-11-10",
+     "locus": "Te Haahi Ratana (registration)",
+     "quote": "On July the 15th, 1925, the Ratana Established Church of New Zealand was registered with the Registrar General of Marriages, Births and Deaths in Wellington;",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "J. M. Henderson, Ratana: The Man, the Church, the Political Movement (Reed, 1972)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-online",
+   "named_in_text": [
+    "ratana-church-and-pacific-adjustment-movements relationsSummary ('grew out of Pacific mission Christianity')"
+   ],
+   "wants": [
+    "Henderson (1972), read, for the Methodist and Anglican Māori congregations Rātana's followers came from"
+   ],
+   "drafter_flags": [
+    "Inventory missed this: 'Pacific mission Christianity' maps to the era 9 missionary movement entry, whose Pacific wing is the nearest census movement. That entry's text centres on Polynesian teachers, not New Zealand missions; the mapping is the weak joint, and the reviewer may prefer Dominant Modern Reconstruction.",
+    "The church page dates registration 15 July 1925 and also cites 5 July 1925; the note says only 1925.",
+    "Henderson named, not rechecked (the church page itself cites him, 1963 ed.)."
+   ],
+   "change_reason": "New: the mission parent the text names had no link."
+  },
+  {
+   "id": "protestantism-in-latin-america--lausanne-era-global-evangelicalism",
+   "action": "new",
+   "from": "protestantism-in-latin-america",
+   "to": "lausanne-era-global-evangelicalism",
+   "type": "influenced",
+   "confidence": "Widely Accepted",
+   "note": "In July 1974 René Padilla spoke at the Lausanne congress. He said the gospel bears on the whole of life. In its covenant the congress then repented of setting evangelism and social concern against each other. Historians trace that turn in part to Latin America.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "C. René Padilla, 'Evangelism and the World', address to the International Congress on World Evangelization, Lausanne, 25 July 1974 (Lausanne Movement, lausanne.org)",
+     "url": "https://lausanne.org/content/evangelism-and-the-world",
+     "accessed": "2026-11-10",
+     "locus": "the address, as posted on lausanne.org (dated 25 Jul 1974)",
+     "quote": "I am merely asking that we take seriously the relevance of the Gospel to the totality of man’s life in the world.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "The Lausanne Covenant (International Congress on World Evangelization, 1974), Lausanne Movement",
+     "url": "https://lausanne.org/statement/lausanne-covenant",
+     "accessed": "2026-11-10",
+     "locus": "5. Christian Social Responsibility",
+     "quote": "Here too we express penitence both for our neglect and for having sometimes regarded evangelism and social concern as mutually exclusive.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Brian Stanley, ''Lausanne 1974': The Challenge from the Majority World to Northern-Hemisphere Evangelicalism', Journal of Ecclesiastical History 64:3 (2013), 533-551 (abstract read on the publisher's page)",
+     "url": "https://www.cambridge.org/core/journals/journal-of-ecclesiastical-history/article/abs/lausanne-1974-the-challenge-from-the-majority-world-to-northernhemisphere-evangelicalism/9158C31B75F72327815F9EE28AF9DC22",
+     "accessed": "2026-11-10",
+     "locus": "abstract",
+     "quote": "These challenges demanded that Christian mission should be defined as a broader process than evangelism alone, and made their mark on the ‘Lausanne Covenant’, a document adopted by the congress which has had normative status among Evangelicals ever since."
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-online",
+   "major": {
+    "major": false,
+    "kind": null,
+    "evidence": null,
+    "reason": "A teaching taken up in a congress statement; the congress is not a church authority changing a rule."
+   },
+   "named_in_text": [
+    "protestantism-in-latin-america relationsSummary ('René Padilla and Samuel Escobar argued for integral mission at Lausanne in 1974')",
+    "lausanne-era-global-evangelicalism relationsSummary, longDescription and why (names Padilla and Escobar, not this movement)"
+   ],
+   "wants": [
+    "Let the Earth Hear His Voice (1975), the congress record, for Escobar's paper and the paper as presented",
+    "Samuel Escobar, 'Evangelism and Man's Search for Freedom, Justice and Fulfillment' (Lausanne 1974), read online"
+   ],
+   "drafter_flags": [
+    "Re-checked 2026-11-10 by plain curl of all three pages, with tags stripped: each quote is on its page word for word. Two quotes were corrected to the pages' own curly punctuation (Padilla's 'man’s'; Stanley's ‘Lausanne Covenant’); the earlier fetch-tool extract had straight quotes.",
+    "Stanley's article is dated 2013; it supports a 1974 fact, and the note gives no date after 2010 and does not name him.",
+    "Lausanne's own text names Padilla and Escobar but not this movement, so the pair is ours. Only Padilla is quoted; Escobar's paper was not opened, so the note names Padilla alone."
+   ],
+   "change_reason": "New: the Lausanne relation the text names had no link."
+  },
+  {
+   "id": "the-student-volunteer-movement-and-edinburgh-191--protestantism-in-latin-america",
+   "action": "new",
+   "from": "the-student-volunteer-movement-and-edinburgh-191",
+   "to": "protestantism-in-latin-america",
+   "type": "influenced",
+   "confidence": "Widely Accepted",
+   "note": "Edinburgh 1910 left Latin America off its agenda. During the meeting, missionaries from the region met over lunch. They agreed that Latin America should one day have a meeting of its own, like Edinburgh. The report of the 1916 Panama congress tells this as its own start.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Congress on Christian Work in Latin America, Panama, February 1916, Christian Work in Latin America, vol. 1 (New York: Committee on Cooperation in Latin America / Missionary Education Movement, 1917)",
+     "url": "https://archive.org/download/christianworkinl01cong/christianworkinl01cong_djvu.txt",
+     "accessed": "2026-11-10",
+     "locus": "Inception and History, pp. 6-7",
+     "quote": "A group of these missionaries assembled one noon at luncheon, in order to discuss together the needs of their fields.",
+     "license": "public-domain (1917)"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Congress on Christian Work in Latin America, Panama, February 1916, Christian Work in Latin America, vol. 1 (New York: Committee on Cooperation in Latin America / Missionary Education Movement, 1917)",
+     "url": "https://archive.org/download/christianworkinl01cong/christianworkinl01cong_djvu.txt",
+     "accessed": "2026-11-10",
+     "locus": "Inception and History, p. 7",
+     "quote": "At this second meeting all agreed that, at some time in the future, Latin America should have a conference to do for all its mission inter- ests what the Edinburgh Conference was doing in such a splendid way for the mission enterprise in other parts of the world.",
+     "license": "public-domain (1917)"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Brian Stanley, The World Missionary Conference, Edinburgh 1910 (Eerdmans, 2009)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-online",
+   "major": {
+    "major": false,
+    "kind": null,
+    "evidence": null,
+    "reason": "The Panama organizers took up Edinburgh's model; no condemnation, split or rule changed by an authority."
+   },
+   "named_in_text": [
+    "protestantism-in-latin-america why ('They met because the world mission conference at Edinburgh in 1910 had left Latin America out.')"
+   ],
+   "wants": [
+    "Christian Work in Latin America (1917), 3 vols.: public domain; vendoring vol. 1 under cic/texts/ would let this link be re-checked line by line and raised to Documented"
+   ],
+   "drafter_flags": [
+    "Read as the archive.org OCR text. The second quote keeps the page's line-break hyphen ('inter- ests') as printed there.",
+    "The same chapter says the 1913 New York conference that named the organizing committee did not mention the Edinburgh proposal, so the line from Edinburgh to Panama is the report's own telling, not a single chain of decisions. 'Influenced' rather than 'gave rise to' for that reason.",
+    "Stanley (2009) is repo-cited on the Edinburgh entry; named, not rechecked, for the exclusion of Latin America.",
+    "Only this movement's text names the pair; the Edinburgh entry is era 9, done, and has no link for it."
+   ],
+   "change_reason": "New: the Edinburgh relation the text names had no link."
+  }
+ ],
+ "prose_changes": [
+  {
+   "n": 0,
+   "movement": "persecuted-church-worlds-of-the-communist-era-in",
+   "field": "relationsSummary",
+   "old": "Kin of the Chinese suffering church",
+   "new": "Its Baptist wing grew out of the Russian evangelical churches of the century before. Like China's house churches in the same years, its churches would not register on the state's terms. No direct tie between the two is documented here.",
+   "reason": "'Kin of the Chinese suffering church' claimed a relation no source shows; no contact or influence between the Soviet and Chinese cases is documented in the Library or the cited studies. Qualified to a parallel. The fragment is rewritten as sentences and now names the existing Russian evangelical parent."
+  },
+  {
+   "n": 1,
+   "movement": "persecuted-church-worlds-of-the-communist-era-in",
+   "field": "legacy",
+   "old": "The Communist-era persecution these movements faced ended with the fall of Communism across the Eastern bloc, including the dissolution of the Soviet Union in 1991; the movements themselves lived on. The samizdat these communities produced came to be recognized as among the best documentation anywhere of what religious persecution actually looks like from underneath — not martyrologies written afterwards but bulletins written that week, listing who had been taken and from where. The Keston archive preserved much of it. The pattern of unregistered congregations refusing the state's terms is kin to what happened in China over the same decades, a real historical relation rather than a coincidence.",
+   "new": "The persecution these movements faced ended with the fall of Communism across the Eastern bloc, and with the end of the Soviet Union in 1991. The movements themselves lived on. Their samizdat came to be seen as some of the best records anywhere of what religious persecution looks like from below. These were not lives of martyrs written long after. They were bulletins written that week, listing who had been taken and from where. The Keston archive kept much of it. In China, unregistered churches refused the state's terms over the same decades. The two stories run side by side, but no direct tie between them is documented here.",
+   "reason": "'A real historical relation rather than a coincidence' is asserted without a source; no contact, shared leader or borrowed text is documented. Qualified to the parallel the sources do support. The rest of the field is split into shorter sentences to meet the reading target (it scored FRE 30 before); every fact is kept."
+  },
+  {
+   "n": 2,
+   "movement": "ratana-church-and-pacific-adjustment-movements",
+   "field": "relationsSummary",
+   "old": "These movements grew out of Pacific mission Christianity combined with indigenous initiative and leadership. Te Haahi Rātana was established in 1925, following Tahupōtiki Wiremu Rātana's vision of 8 November 1918. A similar pattern appears elsewhere in the Pacific, most notably in Silas Eto's Christian Fellowship Church, founded in the Solomon Islands in 1960.",
+   "new": "These movements grew out of Pacific mission Christianity, led by local people. Tahupōtiki Wiremu Rātana had a vision on 8 November 1918. His church, Te Haahi Rātana, was set up in 1925. A like pattern shows up elsewhere in the Pacific. The best-known case is Silas Eto's Christian Fellowship Church in the Solomon Islands. It began around 1960.",
+   "reason": "The Christian Fellowship Church has no census movement, and no source opened or cited in the repo dates it (the survey marked the 1960 date as source debt). Reference works not usable here differ between 1959 and 1960, and Eto is said to have registered the church only in 1964. Qualified to 'around 1960'. The field is also split into shorter sentences to meet the reading target (it scored well under FRE 60 before); every fact is kept."
+  },
+  {
+   "n": 3,
+   "movement": "ratana-church-and-pacific-adjustment-movements",
+   "field": "longDescription",
+   "old": "In November 1918 Tahupōtiki Wiremu Rātana had a vision in Aotearoa New Zealand, and a healing ministry began around him from that year. In 1925 the movement was established as an independent church, Te Haahi Rātana, and Rātana himself was known as the mangai, the mouthpiece — a role that appears in the church's own creed, prayers and hymns alongside the faithful angels. The movement was political as well as religious from early on: a delegation took a Treaty of Waitangi petition to London in 1924, an alliance with the Labour Party was formed after a meeting with Michael Joseph Savage in 1936, and by 1943 the movement held all four Māori parliamentary seats. Rātana died in 1939, and the church continued under the tumuaki who followed him. Other Pacific movements of a similar shape belong beside it, among them Silas Eto's Christian Fellowship Church in the Solomon Islands, from 1960.",
+   "new": "In November 1918 Tahupōtiki Wiremu Rātana had a vision in Aotearoa New Zealand. A healing ministry grew up around him from that year. In 1925 the movement became a church of its own, Te Haahi Rātana. Rātana himself was known as the mangai, the mouthpiece. That role appears in the church's own creed, prayers and hymns, alongside the faithful angels. The movement was political as well as religious from early on. A group took a Treaty of Waitangi petition to London in 1924. An alliance with the Labour Party followed a meeting with Michael Joseph Savage in 1936. By 1943 the movement held all four Māori seats in Parliament. Rātana died in 1939, and the church went on under the tumuaki, the leaders who followed him. Other Pacific movements of a like shape belong beside it. Among them is Silas Eto's Christian Fellowship Church in the Solomon Islands, from around 1960.",
+   "reason": "The Christian Fellowship Church has no census movement, and no source opened or cited in the repo dates it (the survey marked the 1960 date as source debt). Reference works not usable here differ between 1959 and 1960, and Eto is said to have registered the church only in 1964. Qualified to 'around 1960'. The field is also split into shorter sentences to meet the reading target (it scored well under FRE 60 before); every fact is kept."
+  },
+  {
+   "n": 4,
+   "movement": "ratana-church-and-pacific-adjustment-movements",
+   "field": "why",
+   "old": "After a vision in 1918, Tahupōtiki Wiremu Rātana founded Te Haahi Rātana in 1925 in Aotearoa New Zealand; the church calls him the mangai, the mouthpiece, a title woven into its own creed and hymns. The movement became a political force as well as a religious one, taking a Treaty of Waitangi petition to London in 1924 and holding all four Māori parliamentary seats by 1943. Similar movements arose elsewhere in the Pacific, among them Silas Eto's Christian Fellowship Church in the Solomon Islands, founded in 1960.",
+   "new": "After a vision in 1918, Tahupōtiki Wiremu Rātana founded Te Haahi Rātana in Aotearoa New Zealand in 1925. The church calls him the mangai, the mouthpiece, and the title runs through its own creed and hymns. The movement became a political force as well as a religious one. It took a Treaty of Waitangi petition to London in 1924. By 1943 it held all four Māori seats in Parliament. Similar movements arose elsewhere in the Pacific. One is Silas Eto's Christian Fellowship Church in the Solomon Islands, which began around 1960.",
+   "reason": "The Christian Fellowship Church has no census movement, and no source opened or cited in the repo dates it (the survey marked the 1960 date as source debt). Reference works not usable here differ between 1959 and 1960, and Eto is said to have registered the church only in 1964. Qualified to 'around 1960'. The field is also split into shorter sentences to meet the reading target (it scored well under FRE 60 before); every fact is kept."
+  },
+  {
+   "n": 5,
+   "movement": "dispensational-prophecy-culture",
+   "field": "legacy",
+   "old": "In 2010 the culture was alive and its texts were in print. It gave a large part of English-speaking Protestantism a default way of reading the Bible and a default expectation about how history ends, carried more by study notes, charts and novels than by any pulpit. It had institutional anchors — Dallas Theological Seminary's doctrinal statement among them — but it never needed a denomination. It also produced its own opposition. The reading of the Bible as one story fulfilled in Jesus, carried elsewhere on this map, was in large part a reaction against the chart. By 2010 the scholarship on it was substantial, from Sandeen (1970) and Weber (1979) to Boyer's When Time Shall Be No More (1992). Hummel's study came later, in 2023.",
+   "new": "In 2010 the culture was alive and its texts were in print. It gave a large part of English-speaking Protestantism a default way of reading the Bible. It also gave a default sense of how history ends, carried more by study notes, charts and novels than by any pulpit. It had institutional anchors — Dallas Theological Seminary's doctrinal statement among them — but it never needed a denomination. It also produced its own opposition. The reading of the Bible as one story fulfilled in Jesus, carried elsewhere on this map, became its rival. In 2001 N. T. Wright, one of its main writers, wrote against the rapture. By 2010 the scholarship on it was substantial, from Sandeen (1970) and Weber (1979) to Boyer's When Time Shall Be No More (1992). Hummel's study came later, in 2023.",
+   "reason": "'In large part a reaction against the chart' claims an origin no source opened shows; the story reading grew from Newbigin's and Wright's biblical theology. What is shown is the rivalry and Wright's 2001 article against the rapture teaching. Qualified to that. One 35-word sentence is split in two for the reading target."
+  }
+ ],
+ "wants": [
+  "U.S. Bureau of the Census, Religious Bodies: 1906, Part II (1910), public domain: vendor under cic/texts/ (archive.org religiousbodies01huntgoog) so the Disciples and Churches of Christ links can be Documented.",
+  "Congress on Christian Work in Latin America, Christian Work in Latin America, vol. 1 (1917), public domain: vendor under cic/texts/ (archive.org christianworkinl01cong).",
+  "Federal Council of the Churches of Christ in America, Report of the First Meeting (1909), public domain: vendor (archive.org reportoffirstmee00fede).",
+  "Scofield Reference Bible (1909) and the 1878 Niagara Creed, for the dispensational culture's own formation texts.",
+  "A Bible institute's dated doctrinal statement or catalogue (Moody; Philadelphia School of the Bible), and the Dallas Theological Seminary Scofield Papers page (503 in this run).",
+  "Let the Earth Hear His Voice (1975), with Samuel Escobar's 1974 paper.",
+  "1961 Initiative Group letters or a Council of Churches of Evangelical Christians-Baptists dated statement.",
+  "A dated source for the founding of Silas Eto's Christian Fellowship Church (1959, 1960 or 1964 registration).",
+  "J. M. Henderson, Ratana (1972), read; F. S. Downs, North East India (1992), read."
+ ],
+ "escalations": [
+  "Method question: the era 10 evidence rule admits as an online primary only a church body's own dated text. Two items here sit at its edge. (1) Religious Bodies: 1906 is a U.S. government report, but its letter of transmittal says each denomination's statement was prepared by persons in that denomination; I treated those statements as the bodies' own texts. (2) N. T. Wright's 'Farewell to the Rapture' (2001) is one author's article, the critic's own text; I used it for an 'argued against' link but graded it Inferential-Thin. A ruling on whether either counts would settle the grades.",
+  "Not an escalation, but for the merge: the Disciples / Churches of Christ break (group D) and the narrative-kingdom / dispensational rivalry (group B) are named by both groups' texts; each should become one link.",
+  "Outside the four fields: the persecuted church's teaser still says 'kin to the Chinese suffering church'. It needs the same qualification as relationsSummary; flagged for the census owner."
+ ]
+}

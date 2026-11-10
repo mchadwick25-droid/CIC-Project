@@ -1,0 +1,143 @@
+{
+ "round": 1,
+ "fixes": [
+  {
+   "finding": "R1-1",
+   "action": "fixed",
+   "what": "Korean Protestantism relationsSummary: the revival sentence now reads 'The Pyongyang revival of 1907 spread from that city through this church and shaped it.' Field FRE 63.5, FK 7.6.",
+   "why": "Reviewer's fix. Protestant work dates from 1884; 1907 is only the census row's first year."
+  },
+  {
+   "finding": "R1-2",
+   "action": "fixed",
+   "what": "Churches of Christ / Disciples note replaced with the reviewer's text (FRE 61.2, FK 9.1). Source 1 relabelled as the bureau's general statement introducing both bodies; after the Q3 ruling it is kept as context (kind secondary).",
+   "why": "Reviewer's fix. The p. 235 text is the report's own, not the Disciples' statement."
+  },
+  {
+   "finding": "R1-3",
+   "action": "fixed",
+   "what": "Stone-Campbell / Churches of Christ link: the Churches of Christ's own statement (p. 242, djvu lines 164015-164018) added as the primary, re-read by curl of the raw archive.org djvu text on 2026-11-10 (whitespace squashed, exact match). The bureau's general statement is kept, labelled the bureau's, as context (kind secondary). Religious Bodies: 1906, Part II added to wants as a public-domain US government work, vendorable. Q3 was then ruled (a), so the pending_ruling is removed and Widely Accepted stands on the body's own statement.",
+   "why": "Reviewer's fix, preferred route. The general statements are the bureau's and do not count under Q3."
+  },
+  {
+   "finding": "R1-4",
+   "action": "fixed",
+   "what": "New Calvinism / emerging church: the Carson publisher-blurb source is replaced by the named book (no url, no quote); the note is the reviewer's text (FRE 73.3, FK 4.3), dropping 'on its weak points' and 'a founder of The Gospel Coalition'. The pending_ruling Q2 was added, then removed when Q2 was ruled (a): the entry names Driscoll as a carrier ('One of its early leaders, Mark Driscoll'; Acts 29 'founded ... with Mark Driscoll'). Widely Accepted stands.",
+   "why": "Reviewer's fix. A publisher's description is a summary and never counts. Q2 condition checked against the entry's own text."
+  },
+  {
+   "finding": "R1-5",
+   "action": "fixed-differently",
+   "what": "Fundamentalism / Lausanne note: 'Many fundamentalists later joined a wider group of evangelicals. Billy Graham was their best-known preacher. Brian Stanley names their age after Graham and John Stott. This rests on their books.' (FRE 62.5, FK 6.5). The note no longer rests on Carpenter or gives 1942. Carpenter stays listed as named, not re-checked. Grade stays Dominant Modern Reconstruction.",
+   "why": "The reviewer's text scored FRE 59.8. Changing 'became' to 'was' lifts it to 62.5 without losing a name or a fact; shortening 'John Stott' to 'Stott' lowered it (58.2)."
+  },
+  {
+   "finding": "R1-6",
+   "action": "fixed",
+   "what": "Ecumenical relationsSummary: 'The Lausanne movement of 1974 gave an evangelical answer to the same question. How should divided churches work together?' (field FRE 60.3). Persecuted-church relationsSummary: 'No direct tie between the two has been shown.' (field FRE 70.6). Legacy: '... no direct tie between them has been shown.' (field FRE 65.4).",
+   "why": "Reviewer's fix. New text adds no map or process words."
+  },
+  {
+   "finding": "R1-7",
+   "action": "fixed-differently",
+   "what": "Juster-Resnik source corrected to two leaders' paper dated 28 January 2005, reprinted on the Tikvat Israel site, with no statement that the Union issued it (re-read raw by curl, 2026-11-10; both quotes re-checked verbatim). Note now dated 2005. The pending_ruling Q2 was added, then removed when Q2 was ruled (a). The Messianic Judaism entry does not name Juster or Resnik as carriers, so the link is regraded from Widely Accepted to Inferential-Thin, and the note ends 'This rests on one paper.' (FRE 69.5, FK 6.5).",
+   "why": "The reviewer offered Dominant Modern Reconstruction on Rudolph and Willitts 'or lower'. Lower is chosen: Rudolph and Willitts are named, not read, and the repo cites them for the movement's own account and figures, not for One Law, so resting the link on them would claim content not seen."
+  },
+  {
+   "finding": "R1-8",
+   "action": "fixed-differently",
+   "what": "Global South Pentecostal longDescription added as prose change F 7, a whole-field rewrite on the reviewer's text: the Lausanne critiques are no longer 'the family's own published words', and 'this map does not pretend otherwise' is gone. Field FRE 60.4, FK 7.8 (was 45.4). The Lausanne disposition and L47's flag point to the new prose change.",
+   "why": "Two departures from the reviewer's text. It opened 'By the late twentieth century'; the original says 'the second half of the century', so that date is kept ('By the second half of the twentieth century'). That costs reading ease (59.3), so 'Michael Bergunder published its history' becomes 'wrote its history', the reviewer's own wording, giving 60.4."
+  },
+  {
+   "finding": "R1-9",
+   "action": "fixed",
+   "what": "Mainline / Social Gospel note ends 'This reading rests on modern histories.' (FRE 61.0). Fundamentalism / Christian Right and Fundamentalism / Lausanne end 'This rests on their books.' Fundamentalism / homeschool ends 'This rests on these studies.' (FRE 63.1). The mainline / ecumenical note was fixed as given (FRE 79.1), and the link was then withdrawn under the Q1 ruling (see Q1-mainline).",
+   "why": "Reviewer's fix."
+  },
+  {
+   "finding": "R1-10",
+   "action": "fixed",
+   "what": "'Jerry Falwell and other ministers founded the Moral Majority in 1979.' (note FRE 60.7, FK 6.5).",
+   "why": "The finding aid that names the four is not cited, so the detail goes rather than adding a source not re-fetched in this round."
+  },
+  {
+   "finding": "R1-11",
+   "action": "fixed",
+   "what": "Sunday school / dispensational note is the reviewer's text (FRE 76.6, FK 5.5).",
+   "why": "Reviewer's fix; the note now stands alone."
+  },
+  {
+   "finding": "R1-12",
+   "action": "fixed",
+   "what": "Dispensational legacy: 'In 2001 N. T. Wright, a leading writer of the story reading, wrote against the rapture.' (field FRE 61.4, FK 7.6).",
+   "why": "Reviewer's fix; 'its' could have made Wright a dispensational writer."
+  },
+  {
+   "finding": "R1-13",
+   "action": "fixed",
+   "what": "Confessing Church legacy: 'The Book of Confessions of the Presbyterian Church (U.S.A.), for one, includes it.' (field FRE 75.4, FK 5.6).",
+   "why": "Reviewer's fix; the 2016 printing shows inclusion, not who added it."
+  },
+  {
+   "finding": "R1-14",
+   "action": "fixed",
+   "what": "Anglican Communion relationsSummary: 'It carries on from the Victorian Church of England. That church called the first Lambeth Conference of bishops in 1867.' (field FRE 63.7, FK 7.8).",
+   "why": "Reviewer's fix; matches the Victorian-Church link's own note."
+  },
+  {
+   "finding": "R1-15",
+   "action": "fixed",
+   "what": "'In 1924 more than a thousand of its ministers signed a statement.' (note FRE 65.1, FK 7.3).",
+   "why": "Reviewer's fix; the Affirmation is signed by 'ministers'."
+  },
+  {
+   "finding": "R1-16",
+   "action": "fixed",
+   "what": "'The council's own list of member churches gives that date.' (note FRE 69.6, FK 7.2 after the Q1 retype).",
+   "why": "Reviewer's fix; 'still' pointed past 2010."
+  },
+  {
+   "finding": "R1-17",
+   "action": "fixed",
+   "what": "Catholic / ecumenical major.kind set to 'rule-changed'; outcome unchanged.",
+   "why": "Reviewer's fix; Mortalium Animos is an encyclical, not a council."
+  },
+  {
+   "finding": "R1-18",
+   "action": "fixed",
+   "what": "The two charismatic relationsSummary dispositions now rest on Donald E. Miller, Reinventing American Protestantism (1997) and Collin Hansen, Young, Restless, Reformed (2008), both cited in the repo, named and not re-checked. Prose unchanged.",
+   "why": "Reviewer's fix; publisher descriptions never count."
+  },
+  {
+   "finding": "R1-19",
+   "action": "fixed",
+   "what": "Global South relationsSummary: 'is told in the entry on Philippine Catholicism' becomes 'belongs to the story of Philippine Catholicism' (field FRE 60.7, FK 7.8). The other pre-existing 'this map' and 'here' remarks are left as they are.",
+   "why": "Reviewer's fix. Whether participant copy may name 'the map' is open before Mark (CFT Open-Gaps 140); the reviewer asks no change while it is open. The two such remarks in fields changed this round (dispensational legacy, Confessing Church legacy) are old wording in sentences not otherwise touched."
+  },
+  {
+   "finding": "Q1-disciples",
+   "action": "fixed",
+   "what": "Disciples / WCC retyped from 'in contact with' to 'member of', from the Disciples to the council; pending_ruling and the major block removed. Note: 'The Disciples of Christ in the United States joined the World Council of Churches when it was formed in 1948. The council's own list of member churches gives that date.' (FRE 69.6). 'WCC Member Since 1948' re-read raw by curl, 2026-11-10. Dispositions updated.",
+   "why": "Mark's Q1 ruling (b), Atlas Decision-Log 2026-11-10: membership is never major and carries no outcome."
+  },
+  {
+   "finding": "Q1-mainline",
+   "action": "fixed",
+   "what": "The Inferential-Thin 'gave rise to' link from the mainline century to the WCC is withdrawn (it was new, so nothing is retired on main). Its dispositions now say why; the ecumenical prose stays qualified ('may have grown in part out of'). No 'member of' link is drawn for the mainline century.",
+   "why": "Its only source says the council's first members were mostly Protestant and Western: that is who joined, not descent. 'Member of' is for a church that joined a council on its record. The mainline century is a theological and institutional tradition across several denominations, and its text names no member church, so which church records would stand for it is not sourced. No other part 1 text names a member church of the WCC besides the Disciples. A Greek Church / WCC 'member of' candidate (WCC pages give 1948 for the Ecumenical Patriarchate and the Church of Greece) is recorded in escalations, not drafted: the grade such a link takes on the council's record alone is not ruled."
+  },
+  {
+   "finding": "Q2",
+   "action": "fixed",
+   "what": "pending_ruling removed from the three Q2 links. New Calvinism / emerging church: Driscoll named as a carrier, Widely Accepted stands. Narrative-kingdom / dispensational: Wright named as a carrier (relationsSummary, voices), so his 2001 article counts, but the grade stays Inferential-Thin because no secondary is cited for the consensus reading (Hummel 2023 is cited, but the repo records nothing of his finding). Messianic Judaism / Hebrew Roots: writers not named in the entry, regraded to Inferential-Thin (see R1-7).",
+   "why": "Mark's Q2 ruling (a): a writer's dated text counts when the entry names the writer as a carrier, capped at Widely Accepted."
+  },
+  {
+   "finding": "Q3",
+   "action": "fixed",
+   "what": "pending_ruling removed from the three Stone-Campbell links. In each, the bureau's p. 235 general statement is now kind secondary, labelled context; the primaries are the bodies' own statements (Disciples pp. 236-237; Churches of Christ p. 242). All quotes re-checked in the raw djvu text.",
+   "why": "Mark's Q3 ruling (a): each denomination's own statement counts; the bureau's general statements do not."
+  }
+ ]
+}

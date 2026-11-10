@@ -141,3 +141,12 @@ Every old link in your input must appear at least once in your output. Be honest
 `drafter_flags` — an honest "could not find this in the vendored texts" is worth far more
 than a confident guess. Fabrication is the single most serious failure this project
 recognises.
+
+## Amendment, 2026-11-10: a seventh type, "member of"
+
+Atlas World Map Decision-Log, "Change order: a seventh link type". `member of`: a church that
+joined a council or fellowship of churches, on that body's own record (for example its member
+list, or the minutes that admitted it). The direction runs from the member to the council.
+Membership claims no descent and no influence. It is never major, and never carries `outcome`.
+Do not use "in contact with" or "gave rise to" for membership.
+

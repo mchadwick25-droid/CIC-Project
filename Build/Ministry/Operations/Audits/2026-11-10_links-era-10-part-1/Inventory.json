@@ -1,0 +1,2744 @@
+{
+  "era": 10,
+  "part": 1,
+  "lanes": [
+    "Global Revival & Pentecostal",
+    "Protestant & Evangelical",
+    "Greek East / Protestant — span",
+    "Cross-Family",
+    "Syriac East / Protestant — bridge"
+  ],
+  "date": "2026-11-10",
+  "movements": [
+    {
+      "id": "azusa-street-and-early-pentecostalism",
+      "name": "Azusa Street & Early Pentecostalism",
+      "dates": "1906-1920s",
+      "existing_links": [
+        {
+          "id": "the-holiness-movement--azusa-street-and-early-pentecostalism",
+          "from": "the-holiness-movement",
+          "to": "azusa-street-and-early-pentecostalism",
+          "type": "gave rise to",
+          "confidence": "Dominant Modern Reconstruction"
+        },
+        {
+          "id": "azusa-street-and-early-pentecostalism--african-initiated-churches-harrist-aladura-zioni",
+          "from": "azusa-street-and-early-pentecostalism",
+          "to": "african-initiated-churches-harrist-aladura-zioni",
+          "type": "influenced",
+          "confidence": "Contested"
+        },
+        {
+          "id": "the-black-church-in-america--azusa-street-and-early-pentecostalism",
+          "from": "the-black-church-in-america",
+          "to": "azusa-street-and-early-pentecostalism",
+          "type": "influenced",
+          "confidence": "Dominant Modern Reconstruction"
+        }
+      ],
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "Child of Holiness + Black Church worship; parent of most of this era's family",
+          "other": "Holiness",
+          "other_id": "the-holiness-movement",
+          "other_id_note": "census entry the-holiness-movement (The Holiness Movement)",
+          "other_era": 9,
+          "claim": "Azusa came out of the Holiness movement",
+          "other_names_it": true,
+          "other_sentence": "The leaders, the vocabulary and the expectation of a second, transforming work of the Spirit all came out of Holiness circles into the Azusa Street revival of 1906."
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "Child of Holiness + Black Church worship; parent of most of this era's family",
+          "other": "Black Church worship",
+          "other_id": "the-black-church-in-america",
+          "other_id_note": "census entry the-black-church-in-america (The Black Church in America)",
+          "other_era": 9,
+          "claim": "Azusa came out of Black church worship",
+          "other_names_it": true,
+          "other_sentence": "Its worship fed directly into the 1906 Azusa Street revival and, generations later, into the leadership of the civil rights movement."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "The revival on Azusa Street in Los Angeles began in April 1906, and it came out of two streams already running — the Holiness movement, and Black church worship.",
+          "other": "the Holiness movement",
+          "other_id": "the-holiness-movement",
+          "other_id_note": "census entry the-holiness-movement (The Holiness Movement)",
+          "other_era": 9,
+          "claim": "Azusa came out of the Holiness movement",
+          "other_names_it": true,
+          "other_sentence": "The leaders, the vocabulary and the expectation of a second, transforming work of the Spirit all came out of Holiness circles into the Azusa Street revival of 1906."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "The revival on Azusa Street in Los Angeles began in April 1906, and it came out of two streams already running — the Holiness movement, and Black church worship.",
+          "other": "Black church worship",
+          "other_id": "the-black-church-in-america",
+          "other_id_note": "census entry the-black-church-in-america (The Black Church in America)",
+          "other_era": 9,
+          "claim": "Azusa came out of Black church worship",
+          "other_names_it": true,
+          "other_sentence": "Its worship fed directly into the 1906 Azusa Street revival and, generations later, into the leadership of the civil rights movement."
+        },
+        {
+          "field": "why",
+          "sentence": "The revival that broke out on Azusa Street in Los Angeles in April 1906 grew from two streams already flowing together, Holiness worship and Black church worship, and it spread not by hierarchy but by print: the mission's own newspaper, The Apostolic Faith, went out free and started meetings in places its founders never visited.",
+          "other": "Holiness worship",
+          "other_id": "the-holiness-movement",
+          "other_id_note": "census entry the-holiness-movement (The Holiness Movement)",
+          "other_era": 9,
+          "claim": "Azusa grew from Holiness worship",
+          "other_names_it": true,
+          "other_sentence": "The leaders, the vocabulary and the expectation of a second, transforming work of the Spirit all came out of Holiness circles into the Azusa Street revival of 1906."
+        },
+        {
+          "field": "why",
+          "sentence": "The revival that broke out on Azusa Street in Los Angeles in April 1906 grew from two streams already flowing together, Holiness worship and Black church worship, and it spread not by hierarchy but by print: the mission's own newspaper, The Apostolic Faith, went out free and started meetings in places its founders never visited.",
+          "other": "Black church worship",
+          "other_id": "the-black-church-in-america",
+          "other_id_note": "census entry the-black-church-in-america (The Black Church in America)",
+          "other_era": 9,
+          "claim": "Azusa grew from Black church worship",
+          "other_names_it": true,
+          "other_sentence": "Its worship fed directly into the 1906 Azusa Street revival and, generations later, into the leadership of the civil rights movement."
+        },
+        {
+          "field": "legacy",
+          "sentence": "Almost every movement in this era's Pentecostal family runs back through here, from the Global South churches of the later century to Africa's independent churches.",
+          "other": "the Global South churches of the later century",
+          "other_id": "global-south-pentecostal-christianity",
+          "other_id_note": "census entry global-south-pentecostal-christianity (Global South Pentecostal Christianity)",
+          "other_era": 10,
+          "claim": "Global South Pentecostal churches run back through Azusa",
+          "other_names_it": true,
+          "other_sentence": "Child of Azusa + AIC lines; the century's growing edge."
+        },
+        {
+          "field": "legacy",
+          "sentence": "Almost every movement in this era's Pentecostal family runs back through here, from the Global South churches of the later century to Africa's independent churches.",
+          "other": "Africa's independent churches",
+          "other_id": "african-initiated-churches-harrist-aladura-zioni",
+          "other_id_note": "census entry african-initiated-churches-harrist-aladura-zioni (African-Initiated Churches (Harrist; Aladura; Zionist/ZCC; Kimbanguist))",
+          "other_era": 10,
+          "claim": "African independent churches run back through Azusa",
+          "other_names_it": false,
+          "other_sentence": null
+        },
+        {
+          "field": "legacy",
+          "sentence": "The denominations formed fast: the Church of God in Christ turned Pentecostal in 1907 and the Assemblies of God organized in 1914, and the argument over the doctrine of God that produced Oneness Pentecostalism broke out inside the same young movement in 1913.",
+          "other": "Oneness Pentecostalism",
+          "other_id": "oneness-pentecostalism",
+          "other_id_note": "census entry oneness-pentecostalism (Oneness Pentecostalism)",
+          "other_era": 10,
+          "claim": "The Oneness dispute broke out inside the same young movement in 1913",
+          "other_names_it": true,
+          "other_sentence": "Oneness Pentecostalism grew directly out of the wider Pentecostal movement that followed the Azusa Street revival."
+        }
+      ],
+      "hygiene": [
+        "this era's Pentecostal family",
+        "the Church of God in Christ",
+        "the Assemblies of God"
+      ]
+    },
+    {
+      "id": "the-1904-07-revival-family-wales-mukti-india-pyo",
+      "name": "The 1904-07 Revival Family (Wales; Mukti India; Pyongyang Korea)",
+      "dates": "1904-1910",
+      "existing_links": [],
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "These revivals arose independently of the Azusa Street revival happening around the same time, rather than descending from it — revival broke out in more than one place at once.",
+          "other": "the Azusa Street revival",
+          "other_id": "azusa-street-and-early-pentecostalism",
+          "other_id_note": "census entry azusa-street-and-early-pentecostalism (Azusa Street & Early Pentecostalism)",
+          "other_era": 10,
+          "claim": "The 1904-07 revivals arose independently of Azusa Street",
+          "other_names_it": false,
+          "other_sentence": null
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Three revivals broke out within a few years of each other in three parts of the world, and none of them descended from the others or from Azusa Street.",
+          "other": "Azusa Street",
+          "other_id": "azusa-street-and-early-pentecostalism",
+          "other_id_note": "census entry azusa-street-and-early-pentecostalism (Azusa Street & Early Pentecostalism)",
+          "other_era": 10,
+          "claim": "None of the three revivals descended from Azusa Street",
+          "other_names_it": false,
+          "other_sentence": null
+        },
+        {
+          "field": "why",
+          "sentence": "Revival broke out almost at once in three unconnected places -- Wales in 1904, the Mukti mission in India in 1905, and a Bible conference in Pyongyang in 1907 -- and none of the three descended from the others or from Azusa Street.",
+          "other": "Azusa Street",
+          "other_id": "azusa-street-and-early-pentecostalism",
+          "other_id_note": "census entry azusa-street-and-early-pentecostalism (Azusa Street & Early Pentecostalism)",
+          "other_era": 10,
+          "claim": "None of the three revivals descended from Azusa Street",
+          "other_names_it": false,
+          "other_sentence": null
+        },
+        {
+          "field": "legacy",
+          "sentence": "Korea's church in particular grew out of this decade and the decades just before it — Horace Allen's arrival in 1884, Underwood and Appenzeller in 1885, the Nevius method adopted in 1890 — and it went on growing long after the revival wave had passed.",
+          "other": "Korea's church",
+          "other_id": "korean-protestantism-twentieth-century",
+          "other_id_note": "census entry; the sentence names the Korean church in general, not one body",
+          "other_era": 10,
+          "claim": "Korea's church grew out of this decade and the decades before it",
+          "other_names_it": true,
+          "other_sentence": "The Pyongyang revival of 1907 has its own entry, which ends in 1910."
+        }
+      ],
+      "hygiene": []
+    },
+    {
+      "id": "the-east-african-revival-balokole",
+      "name": "The East African Revival (Balokole)",
+      "dates": "1930s-1970s",
+      "existing_links": [
+        {
+          "id": "east-african-christianity-uganda-martyrs--the-east-african-revival-balokole",
+          "from": "east-african-christianity-uganda-martyrs",
+          "to": "the-east-african-revival-balokole",
+          "type": "gave rise to",
+          "confidence": "Dominant Modern Reconstruction"
+        }
+      ],
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "African-led within (and often against) mission Anglicanism; martyrs include Janani Luwum.",
+          "other": "mission Anglicanism",
+          "other_id": "the-anglican-communion-twentieth-century",
+          "other_id_note": "census entry; the text names Anglicanism as the mission church",
+          "other_era": 10,
+          "claim": "The revival was African-led inside, and often against, mission Anglicanism",
+          "other_names_it": true,
+          "other_sentence": "In this era Anglicans also appear inside other stories, such as the East African Revival and the Church of South India."
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "The entry on the Catholic Church in Africa tells of the churches and Rwanda's genocide of 1994.",
+          "other": "The Catholic Church in Africa",
+          "other_id": "the-catholic-church-in-africa-twentieth-century",
+          "other_id_note": "census entry the-catholic-church-in-africa-twentieth-century (The Catholic Church in Africa in the Twentieth Century)",
+          "other_era": 10,
+          "claim": "Cross-reference: the Catholic Church in Africa entry covers the churches and the 1994 genocide",
+          "other_names_it": false,
+          "other_sentence": null
+        },
+        {
+          "field": "longDescription",
+          "sentence": "It ran through Uganda, Kenya and Tanzania as well as Rwanda, and it was led by Africans inside the mission Anglicanism that had planted the church — often against it, since a movement that asked bishops and catechists alike to confess in public was not always welcome.",
+          "other": "mission Anglicanism",
+          "other_id": "the-anglican-communion-twentieth-century",
+          "other_id_note": "census entry the-anglican-communion-twentieth-century (The Anglican Communion in the Twentieth Century)",
+          "other_era": 10,
+          "claim": "The revival was led by Africans inside mission Anglicanism",
+          "other_names_it": true,
+          "other_sentence": "In this era Anglicans also appear inside other stories, such as the East African Revival and the Church of South India."
+        },
+        {
+          "field": "legacy",
+          "sentence": "They lived on inside East African Anglicanism through 2010, with their meetings, their confession practice and their hymn intact.",
+          "other": "East African Anglicanism",
+          "other_id": "the-anglican-communion-twentieth-century",
+          "other_id_note": "census entry the-anglican-communion-twentieth-century (The Anglican Communion in the Twentieth Century)",
+          "other_era": 10,
+          "claim": "The fellowships lived on inside East African Anglicanism through 2010",
+          "other_names_it": true,
+          "other_sentence": "In this era Anglicans also appear inside other stories, such as the East African Revival and the Church of South India."
+        }
+      ],
+      "hygiene": []
+    },
+    {
+      "id": "the-chinese-church-indigenous-and-suffering",
+      "name": "The Chinese Church - Indigenous & Suffering",
+      "dates": "1920s-c. 2010",
+      "existing_links": [
+        {
+          "id": "the-missionary-movement-s-native-churches-seramp--the-chinese-church-indigenous-and-suffering",
+          "from": "the-missionary-movement-s-native-churches-seramp",
+          "to": "the-chinese-church-indigenous-and-suffering",
+          "type": "gave rise to",
+          "confidence": "Dominant Modern Reconstruction"
+        }
+      ],
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "The clearest twentieth-century echo of the house churches of Christianity's first two centuries, when congregations met quietly under pressure with no institutional standing.",
+          "other": "the house churches of Christianity's first two centuries",
+          "other_id": "post-apostolic-house-church",
+          "other_id_note": "census entry post-apostolic-house-church (Post-Apostolic Household-Church Christianity)",
+          "other_era": 1,
+          "claim": "The Chinese church is the clearest twentieth-century echo of the first-two-century house churches",
+          "other_names_it": false,
+          "other_sentence": null
+        },
+        {
+          "field": "longDescription",
+          "sentence": "After 1950 the Christian Manifesto and the Three-Self Patriotic Movement reorganized Protestant church life under the state; Wang Mingdao published 'We, Because of Faith' in 1955 and was imprisoned from 1955 until 1980, and Watchman Nee was imprisoned from 1952 until 1972.",
+          "other": "the Three-Self Patriotic Movement",
+          "other_id": null,
+          "other_id_note": "state-organized Protestant body named in the text; no census entry",
+          "other_era": null,
+          "claim": "After 1950 the Three-Self movement reorganized Protestant church life under the state",
+          "other_names_it": null,
+          "other_sentence": null
+        },
+        {
+          "field": "why",
+          "sentence": "That pattern, congregations meeting quietly under pressure, echoes the house churches of Christianity's first two centuries.",
+          "other": "the house churches of Christianity's first two centuries",
+          "other_id": "post-apostolic-house-church",
+          "other_id_note": "census entry post-apostolic-house-church (Post-Apostolic Household-Church Christianity)",
+          "other_era": 1,
+          "claim": "The pattern echoes the house churches of the first two centuries",
+          "other_names_it": false,
+          "other_sentence": null
+        },
+        {
+          "field": "legacy",
+          "sentence": "That pattern is the map's strongest modern echo of the house-churches of the first two centuries.",
+          "other": "the house-churches of the first two centuries",
+          "other_id": "post-apostolic-house-church",
+          "other_id_note": "census entry post-apostolic-house-church (Post-Apostolic Household-Church Christianity)",
+          "other_era": 1,
+          "claim": "The pattern is the strongest modern echo of the first-two-century house churches",
+          "other_names_it": false,
+          "other_sentence": null
+        }
+      ],
+      "hygiene": [
+        "True Jesus Church",
+        "Little Flock",
+        "the Jesus Family"
+      ]
+    },
+    {
+      "id": "the-confessing-church",
+      "name": "The Confessing Church",
+      "dates": "1933-1945",
+      "existing_links": [],
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "Lutheran/Reformed lines under catastrophe",
+          "other": "Lutheran/Reformed lines",
+          "other_id": null,
+          "other_id_note": "Lutheran and Reformed traditions as a whole; no single census entry",
+          "other_era": null,
+          "claim": "The Confessing Church emerged from Lutheran and Reformed lines",
+          "other_names_it": null,
+          "other_sentence": null
+        },
+        {
+          "field": "longDescription",
+          "sentence": "When the Nazi state and the pro-Nazi 'German Christians' moved to reorganize the German Protestant churches in 1933, a minority refused.",
+          "other": "German Christians",
+          "other_id": null,
+          "other_id_note": "pro-Nazi church movement named in the text; no census entry",
+          "other_era": null,
+          "claim": "The pro-Nazi German Christians moved to reorganize the German Protestant churches",
+          "other_names_it": null,
+          "other_sentence": null
+        },
+        {
+          "field": "legacy",
+          "sentence": "The Barmen Declaration became a confessional text in Reformed and Lutheran churches worldwide, cited well beyond Germany whenever a church had to say what it would not concede to a state.",
+          "other": "Reformed and Lutheran churches",
+          "other_id": null,
+          "other_id_note": "Lutheran and Reformed bodies as a whole; no single census entry",
+          "other_era": null,
+          "claim": "The Barmen Declaration became a confessional text in Reformed and Lutheran churches",
+          "other_names_it": null,
+          "other_sentence": null
+        }
+      ],
+      "hygiene": [
+        "Finkenwalde",
+        "the Dahlem synod"
+      ]
+    },
+    {
+      "id": "global-south-pentecostal-christianity",
+      "name": "Global South Pentecostal Christianity",
+      "dates": "1910-c. 2010",
+      "existing_links": [],
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "Child of Azusa + AIC lines; the century's growing edge.",
+          "other": "Azusa",
+          "other_id": "azusa-street-and-early-pentecostalism",
+          "other_id_note": "census entry azusa-street-and-early-pentecostalism (Azusa Street & Early Pentecostalism)",
+          "other_era": 10,
+          "claim": "Global South Pentecostalism grew out of Azusa",
+          "other_names_it": true,
+          "other_sentence": "Almost every movement in this era's Pentecostal family runs back through here, from the Global South churches of the later century to Africa's independent churches."
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "Child of Azusa + AIC lines; the century's growing edge.",
+          "other": "AIC lines",
+          "other_id": "african-initiated-churches-harrist-aladura-zioni",
+          "other_id_note": "census entry african-initiated-churches-harrist-aladura-zioni (African-Initiated Churches (Harrist; Aladura; Zionist/ZCC; Kimbanguist))",
+          "other_era": 10,
+          "claim": "Global South Pentecostalism descends from African-initiated church lines",
+          "other_names_it": false,
+          "other_sentence": null
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "El Shaddai, a Catholic movement in the Philippines, is told in the entry on Philippine Catholicism.",
+          "other": "El Shaddai",
+          "other_id": null,
+          "other_id_note": "Catholic movement in the Philippines; no census entry",
+          "other_era": null,
+          "claim": "El Shaddai, a Catholic movement, is told in the Philippine Catholicism entry",
+          "other_names_it": null,
+          "other_sentence": null
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "El Shaddai, a Catholic movement in the Philippines, is told in the entry on Philippine Catholicism.",
+          "other": "Philippine Catholicism",
+          "other_id": "philippine-catholicism-twentieth-century",
+          "other_id_note": "the census's twentieth-century Philippine Catholicism entry; the text cites the entry by its subject",
+          "other_era": 10,
+          "claim": "Cross-reference to the Philippine Catholicism entry",
+          "other_names_it": false,
+          "other_sentence": null
+        },
+        {
+          "field": "longDescription",
+          "sentence": "The family's sharpest internal argument, over prosperity teaching, is on the record in the family's own published words: in the sermons that teach it, and in the critiques published by the Lausanne movement and by African evangelical theologians who rejected it.",
+          "other": "the Lausanne movement",
+          "other_id": "lausanne-era-global-evangelicalism",
+          "other_id_note": "census entry lausanne-era-global-evangelicalism (Lausanne-Era Global Evangelicalism)",
+          "other_era": 10,
+          "claim": "Lausanne published critiques of prosperity teaching",
+          "other_names_it": false,
+          "other_sentence": null
+        },
+        {
+          "field": "why",
+          "sentence": "It is also in the published critiques of the Lausanne movement and of African evangelical theologians who rejected it.",
+          "other": "the Lausanne movement",
+          "other_id": "lausanne-era-global-evangelicalism",
+          "other_id_note": "census entry lausanne-era-global-evangelicalism (Lausanne-Era Global Evangelicalism)",
+          "other_era": 10,
+          "claim": "Lausanne published critiques of prosperity teaching",
+          "other_names_it": false,
+          "other_sentence": null
+        },
+        {
+          "field": "legacy",
+          "sentence": "This map carries a separate entry for the congregations these churches planted back in Europe.",
+          "other": "the congregations these churches planted back in Europe",
+          "other_id": "african-diaspora-and-reverse-mission-churches-in",
+          "other_id_note": "cross-reference to a separate entry on the diaspora churches in Europe",
+          "other_era": 10,
+          "claim": "A separate entry covers the congregations these churches planted in Europe",
+          "other_names_it": false,
+          "other_sentence": null
+        }
+      ],
+      "hygiene": [
+        "Assembleias de Deus",
+        "Yoido Full Gospel Church",
+        "The Redeemed Christian Church of God",
+        "Igreja Universal",
+        "In South India a Pentecostal movement grew"
+      ]
+    },
+    {
+      "id": "persecuted-church-worlds-of-the-communist-era-in",
+      "name": "Persecuted-Church Traditions of the Communist Era (Initsiativniki Baptists; Romania's Lord's Army)",
+      "dates": "1945-1991",
+      "existing_links": [
+        {
+          "id": "russian-evangelicals-stundists--persecuted-church-worlds-of-the-communist-era-in",
+          "from": "russian-evangelicals-stundists",
+          "to": "persecuted-church-worlds-of-the-communist-era-in",
+          "type": "gave rise to",
+          "confidence": "Dominant Modern Reconstruction"
+        }
+      ],
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "Kin of the Chinese suffering church",
+          "other": "the Chinese suffering church",
+          "other_id": "the-chinese-church-indigenous-and-suffering",
+          "other_id_note": "census entry the-chinese-church-indigenous-and-suffering (The Chinese Church - Indigenous & Suffering)",
+          "other_era": 10,
+          "claim": "Persecuted Communist-era churches are kin to the Chinese suffering church",
+          "other_names_it": false,
+          "other_sentence": null
+        },
+        {
+          "field": "longDescription",
+          "sentence": "In the Soviet Union a group of Baptist ministers broke in 1961 with the registered union over state control of church life; they were called the Initsiativniki, after their initiative group, and they ran their own press, Khristianin.",
+          "other": "the registered union",
+          "other_id": null,
+          "other_id_note": "state-registered Soviet Baptist union; no census entry",
+          "other_era": null,
+          "claim": "Baptist ministers broke in 1961 with the registered union",
+          "other_names_it": null,
+          "other_sentence": null
+        },
+        {
+          "field": "why",
+          "sentence": "In the Soviet Union, a group of Baptist ministers broke in 1961 with the state-registered union and ran their own underground press; their Council of Prisoners' Relatives began issuing bulletins in 1964 that listed arrests and confiscations by name, week by week.",
+          "other": "the state-registered union",
+          "other_id": null,
+          "other_id_note": "state-registered Soviet Baptist union; no census entry",
+          "other_era": null,
+          "claim": "Baptist ministers broke in 1961 with the state-registered union",
+          "other_names_it": null,
+          "other_sentence": null
+        },
+        {
+          "field": "legacy",
+          "sentence": "The pattern of unregistered congregations refusing the state's terms is kin to what happened in China over the same decades, a real historical relation rather than a coincidence.",
+          "other": "what happened in China",
+          "other_id": "the-chinese-church-indigenous-and-suffering",
+          "other_id_note": "census entry the-chinese-church-indigenous-and-suffering (The Chinese Church - Indigenous & Suffering)",
+          "other_era": 10,
+          "claim": "The unregistered congregations' pattern is kin to what happened in China",
+          "other_names_it": false,
+          "other_sentence": null
+        }
+      ],
+      "hygiene": [
+        "the Lord's Army",
+        "the Initsiativniki",
+        "Council of Prisoners' Relatives",
+        "Keston archive"
+      ]
+    },
+    {
+      "id": "messianic-judaism",
+      "name": "Messianic Judaism",
+      "dates": "1960s-c. 2010",
+      "existing_links": [],
+      "relationships": [
+        {
+          "field": "longDescription",
+          "sentence": "Jews for Jesus, founded in 1973, took a more evangelistic shape.",
+          "other": "Jews for Jesus",
+          "other_id": null,
+          "other_id_note": "evangelistic organization named in the text; no census entry",
+          "other_era": null,
+          "claim": "Jews for Jesus, founded in 1973, took a more evangelistic shape",
+          "other_names_it": null,
+          "other_sentence": null
+        }
+      ],
+      "hygiene": [
+        "The Hebrew Christian Alliance of America",
+        "the Messianic Jewish Alliance",
+        "the Union of Messianic Jewish Congregations",
+        "Jewish communal bodies",
+        "Christian debates over supersessionism",
+        "the early church"
+      ]
+    },
+    {
+      "id": "progressive-christianity-a-broad-label-not-one-m",
+      "name": "Progressive Christianity (a broad label, not one movement)",
+      "dates": "c. 1990-c. 2010",
+      "existing_links": [],
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "Progressive Christianity covers mainline progressive congregations, post-evangelical networks, and much in between, with the emerging church of the 1990s and 2000s as its most documented expression.",
+          "other": "post-evangelical networks",
+          "other_id": "the-emerging-church-and-post-evangelical-movemen",
+          "other_id_note": "census entry the-emerging-church-and-post-evangelical-movemen (The Emerging Church & Post-Evangelical Movement)",
+          "other_era": 10,
+          "claim": "The label covers post-evangelical networks",
+          "other_names_it": true,
+          "other_sentence": "Child of late evangelicalism meeting the postmodern turn; overlaps new-monastic communities; the most documented movement expression of the broader progressive Christian current."
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "It descends from the mainline century of liberal Protestantism and neo-orthodoxy, which hands off to it around 1990.",
+          "other": "the mainline century of liberal Protestantism and neo-orthodoxy",
+          "other_id": "the-mainline-century-liberal-and-neo-orthodox",
+          "other_id_note": "census entry the-mainline-century-liberal-and-neo-orthodox (The Mainline Century — Liberal Protestantism & Neo-Orthodoxy)",
+          "other_era": 10,
+          "claim": "Progressive Christianity descends from the mainline century",
+          "other_names_it": true,
+          "other_sentence": "Membership peaked in the mid-1960s and then declined, and this current hands off around 1990 to the current called progressive Christianity."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "By 2010 'Progressive Christianity' was claimed by mainline congregations, by post-evangelical networks, by individual writers and by organizations with no relation to one another.",
+          "other": "post-evangelical networks",
+          "other_id": "the-emerging-church-and-post-evangelical-movemen",
+          "other_id_note": "census entry the-emerging-church-and-post-evangelical-movemen (The Emerging Church & Post-Evangelical Movement)",
+          "other_era": 10,
+          "claim": "Post-evangelical networks claimed the label",
+          "other_names_it": true,
+          "other_sentence": "Child of late evangelicalism meeting the postmodern turn; overlaps new-monastic communities; the most documented movement expression of the broader progressive Christian current."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "By 2010 'Progressive Christianity' was claimed by mainline congregations, by post-evangelical networks, by individual writers and by organizations with no relation to one another.",
+          "other": "mainline congregations",
+          "other_id": "the-mainline-century-liberal-and-neo-orthodox",
+          "other_id_note": "census entry the-mainline-century-liberal-and-neo-orthodox (The Mainline Century — Liberal Protestantism & Neo-Orthodoxy)",
+          "other_era": 10,
+          "claim": "Mainline congregations claimed the label",
+          "other_names_it": true,
+          "other_sentence": "Membership peaked in the mid-1960s and then declined, and this current hands off around 1990 to the current called progressive Christianity."
+        },
+        {
+          "field": "legacy",
+          "sentence": "It has a history that reaches further back than the word does: the mainline century of liberal Protestantism and neo-orthodoxy is its parent, and hands off to it around 1990.",
+          "other": "the mainline century of liberal Protestantism and neo-orthodoxy",
+          "other_id": "the-mainline-century-liberal-and-neo-orthodox",
+          "other_id_note": "census entry the-mainline-century-liberal-and-neo-orthodox (The Mainline Century — Liberal Protestantism & Neo-Orthodoxy)",
+          "other_era": 10,
+          "claim": "The mainline century is the parent of progressive Christianity",
+          "other_names_it": true,
+          "other_sentence": "Membership peaked in the mid-1960s and then declined, and this current hands off around 1990 to the current called progressive Christianity."
+        },
+        {
+          "field": "legacy",
+          "sentence": "And it had a documented movement expression in the emerging church of the 1990s and 2000s.",
+          "other": "the emerging church of the 1990s and 2000s",
+          "other_id": "the-emerging-church-and-post-evangelical-movemen",
+          "other_id_note": "census entry the-emerging-church-and-post-evangelical-movemen (The Emerging Church & Post-Evangelical Movement)",
+          "other_era": 10,
+          "claim": "The emerging church was its documented movement expression",
+          "other_names_it": true,
+          "other_sentence": "Child of late evangelicalism meeting the postmodern turn; overlaps new-monastic communities; the most documented movement expression of the broader progressive Christian current."
+        }
+      ],
+      "hygiene": [
+        "Center for Progressive Christianity"
+      ]
+    },
+    {
+      "id": "lausanne-era-global-evangelicalism",
+      "name": "Lausanne-Era Global Evangelicalism",
+      "dates": "1974-c. 2010",
+      "existing_links": [],
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "It stands as a counter-pole to the conciliar ecumenical movement centered on Geneva — two different twentieth-century answers to how separated churches should act together.",
+          "other": "the conciliar ecumenical movement centered on Geneva",
+          "other_id": "the-ecumenical-movement-and-the-wcc",
+          "other_id_note": "census entry the-ecumenical-movement-and-the-wcc (The Ecumenical Movement & the World Council of Churches)",
+          "other_era": 10,
+          "claim": "Lausanne was a counter-pole to the conciliar ecumenical movement",
+          "other_names_it": true,
+          "other_sentence": "It stands as a counterpart to the Lausanne movement of 1974, the evangelical alternative answer to the same question of how divided churches should work together, and it grew out of the institutional world built by mainline liberal Protestantism and neo-orthodoxy."
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "The Christian Right, a political movement that American ministers began with the Moral Majority in 1979, has a separate entry.",
+          "other": "The Christian Right",
+          "other_id": "the-christian-right",
+          "other_id_note": "census entry the-christian-right (The Christian Right)",
+          "other_era": 10,
+          "claim": "The Christian Right is a separate entry that began with the Moral Majority in 1979",
+          "other_names_it": false,
+          "other_sentence": null
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "Tearfund grew out of the Evangelical Alliance in 1968.",
+          "other": "the Evangelical Alliance",
+          "other_id": null,
+          "other_id_note": "evangelical network named in the text; no census entry",
+          "other_era": null,
+          "claim": "Tearfund grew out of the Evangelical Alliance in 1968",
+          "other_names_it": null,
+          "other_sentence": null
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "In 1997 the Southern Baptist International Mission Board took up an approach called the Church Planting Movement.",
+          "other": "the Church Planting Movement",
+          "other_id": null,
+          "other_id_note": "missionary approach named in the text; no census entry",
+          "other_era": null,
+          "claim": "The Southern Baptist board took up the Church Planting Movement in 1997",
+          "other_names_it": null,
+          "other_sentence": null
+        },
+        {
+          "field": "legacy",
+          "sentence": "It stands as the counter-pole to the conciliar ecumenical movement centered on Geneva: two different answers, from the same century, to the question of how separated churches should act together.",
+          "other": "the conciliar ecumenical movement centered on Geneva",
+          "other_id": "the-ecumenical-movement-and-the-wcc",
+          "other_id_note": "census entry the-ecumenical-movement-and-the-wcc (The Ecumenical Movement & the World Council of Churches)",
+          "other_era": 10,
+          "claim": "Lausanne and the conciliar movement answered the same question two ways",
+          "other_names_it": true,
+          "other_sentence": "It stands as a counterpart to the Lausanne movement of 1974, the evangelical alternative answer to the same question of how divided churches should work together, and it grew out of the institutional world built by mainline liberal Protestantism and neo-orthodoxy."
+        }
+      ],
+      "hygiene": [
+        "Evangelical relief agencies",
+        "Global South delegates",
+        "Graham's evangelistic association",
+        "Southern Baptist International Mission Board"
+      ]
+    },
+    {
+      "id": "ratana-church-and-pacific-adjustment-movements",
+      "name": "Ratana Church & Pacific Adjustment Movements",
+      "dates": "1925-c. 2010",
+      "existing_links": [],
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "A similar pattern appears elsewhere in the Pacific, most notably in Silas Eto's Christian Fellowship Church, founded in the Solomon Islands in 1960.",
+          "other": "Silas Eto's Christian Fellowship Church",
+          "other_id": null,
+          "other_id_note": "Solomon Islands church named in the text; no census entry",
+          "other_era": null,
+          "claim": "A similar Pacific movement, Silas Eto's Christian Fellowship Church, was founded in 1960",
+          "other_names_it": null,
+          "other_sentence": null
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Other Pacific movements of a similar shape belong beside it, among them Silas Eto's Christian Fellowship Church in the Solomon Islands, from 1960.",
+          "other": "Silas Eto's Christian Fellowship Church",
+          "other_id": null,
+          "other_id_note": "Solomon Islands church named in the text; no census entry",
+          "other_era": null,
+          "claim": "Silas Eto's church belongs beside Ratana among Pacific movements of similar shape",
+          "other_names_it": null,
+          "other_sentence": null
+        },
+        {
+          "field": "why",
+          "sentence": "Similar movements arose elsewhere in the Pacific, among them Silas Eto's Christian Fellowship Church in the Solomon Islands, founded in 1960.",
+          "other": "Silas Eto's Christian Fellowship Church",
+          "other_id": null,
+          "other_id_note": "Solomon Islands church named in the text; no census entry",
+          "other_era": null,
+          "claim": "Similar Pacific movements arose, including Silas Eto's church",
+          "other_names_it": null,
+          "other_sentence": null
+        }
+      ],
+      "hygiene": [
+        "Pacific mission Christianity"
+      ]
+    },
+    {
+      "id": "the-emerging-church-and-post-evangelical-movemen",
+      "name": "The Emerging Church & Post-Evangelical Movement",
+      "dates": "c. 1990-c. 2010",
+      "existing_links": [],
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "Child of late evangelicalism meeting the postmodern turn; overlaps new-monastic communities; the most documented movement expression of the broader progressive Christian current.",
+          "other": "new-monastic communities",
+          "other_id": null,
+          "other_id_note": "new-monastic communities named in the text; no census entry",
+          "other_era": null,
+          "claim": "The emerging church overlapped the new-monastic communities",
+          "other_names_it": null,
+          "other_sentence": null
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "Child of late evangelicalism meeting the postmodern turn; overlaps new-monastic communities; the most documented movement expression of the broader progressive Christian current.",
+          "other": "the broader progressive Christian current",
+          "other_id": "progressive-christianity-a-broad-label-not-one-m",
+          "other_id_note": "census entry progressive-christianity-a-broad-label-not-one-m (Progressive Christianity (a broad label, not one movement))",
+          "other_era": 10,
+          "claim": "The emerging church was the most documented expression of the progressive current",
+          "other_names_it": true,
+          "other_sentence": "Progressive Christianity covers mainline progressive congregations, post-evangelical networks, and much in between, with the emerging church of the 1990s and 2000s as its most documented expression."
+        },
+        {
+          "field": "legacy",
+          "sentence": "Its questions fed the broader progressive current.",
+          "other": "the broader progressive current",
+          "other_id": "progressive-christianity-a-broad-label-not-one-m",
+          "other_id_note": "census entry progressive-christianity-a-broad-label-not-one-m (Progressive Christianity (a broad label, not one movement))",
+          "other_era": 10,
+          "claim": "The emerging church's questions fed the broader progressive current",
+          "other_names_it": true,
+          "other_sentence": "Progressive Christianity covers mainline progressive congregations, post-evangelical networks, and much in between, with the emerging church of the 1990s and 2000s as its most documented expression."
+        }
+      ],
+      "hygiene": [
+        "late evangelicalism",
+        "Emergent Village",
+        "the Young Leaders Network",
+        "Terra Nova"
+      ]
+    },
+    {
+      "id": "dispensational-prophecy-culture",
+      "name": "Dispensational Prophecy Culture",
+      "dates": "c. 1875-c. 2010",
+      "existing_links": [
+        {
+          "id": "plymouth-brethren-and-dispensational-formation--dispensational-prophecy-culture",
+          "from": "plymouth-brethren-and-dispensational-formation",
+          "to": "dispensational-prophecy-culture",
+          "type": "influenced",
+          "confidence": "Dominant Modern Reconstruction"
+        }
+      ],
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "This popular culture grew out of Plymouth Brethren teaching, carried forward through the Bible-institute tradition.",
+          "other": "Plymouth Brethren teaching",
+          "other_id": "plymouth-brethren-and-dispensational-formation",
+          "other_id_note": "census entry plymouth-brethren-and-dispensational-formation (Plymouth Brethren & Dispensational Formation)",
+          "other_era": 9,
+          "claim": "The culture grew out of Plymouth Brethren teaching",
+          "other_names_it": true,
+          "other_sentence": "But the movement's real reach is elsewhere: Darby's dispensational scheme, packaged in the notes of the Scofield Reference Bible from 1909 and taught in the Bible institutes, became the default end-times framework of American evangelicalism and lies behind most popular prophecy writing and preaching of the last hundred years — read by millions who have never heard of the Brethren."
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "This popular culture grew out of Plymouth Brethren teaching, carried forward through the Bible-institute tradition.",
+          "other": "the Bible-institute tradition",
+          "other_id": "the-sunday-school-and-bible-institute-movement",
+          "other_id_note": "census entry the-sunday-school-and-bible-institute-movement (The Sunday School & Bible-Institute Movement)",
+          "other_era": 9,
+          "claim": "The culture was carried forward through the Bible-institute tradition",
+          "other_names_it": false,
+          "other_sentence": null
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Its formation is older than the era: the Niagara Bible Conference met annually from the 1870s to 1897 and adopted a fourteen-point creed in 1878, and prophecy conferences from 1878 onward taught a reading of scripture divided into dispensations with a rapture ahead.",
+          "other": "the Niagara Bible Conference",
+          "other_id": null,
+          "other_id_note": "conference named in the text; no census entry",
+          "other_era": null,
+          "claim": "The Niagara conference met from the 1870s to 1897 and adopted a creed in 1878",
+          "other_names_it": null,
+          "other_sentence": null
+        },
+        {
+          "field": "why",
+          "sentence": "Beginning with the Niagara Bible Conference's prophecy teaching in the 1870s, this way of reading scripture in distinct dispensations leading to a rapture spread less through preaching than through print: the Scofield Reference Bible of 1909 put the scheme in footnotes that readers met every time they opened the text.",
+          "other": "the Niagara Bible Conference",
+          "other_id": null,
+          "other_id_note": "conference named in the text; no census entry",
+          "other_era": null,
+          "claim": "Prophecy teaching at the Niagara conference began the culture in the 1870s",
+          "other_names_it": null,
+          "other_sentence": null
+        },
+        {
+          "field": "legacy",
+          "sentence": "The reading of the Bible as one story fulfilled in Jesus, carried elsewhere on this map, was in large part a reaction against the chart.",
+          "other": "The reading of the Bible as one story fulfilled in Jesus",
+          "other_id": "the-narrative-kingdom-renewal-the-bible-as-one-s",
+          "other_id_note": "census entry the-narrative-kingdom-renewal-the-bible-as-one-s (The Narrative-Kingdom Renewal (the Bible as one story fulfilled in Jesus))",
+          "other_era": 10,
+          "claim": "The narrative-kingdom reading was largely a reaction against the chart",
+          "other_names_it": true,
+          "other_sentence": "That put it in direct rivalry with the dispensational reading culture carried elsewhere here."
+        }
+      ],
+      "hygiene": [
+        "Dallas Theological Seminary's doctrinal statement",
+        "prophecy conferences"
+      ]
+    },
+    {
+      "id": "the-megachurch-and-seeker-movement",
+      "name": "The Megachurch & Seeker Movement",
+      "dates": "c. 1975-c. 2010",
+      "existing_links": [],
+      "relationships": [
+        {
+          "field": "longDescription",
+          "sentence": "Behind both lay the church-growth school, and Donald McGavran's Understanding Church Growth (1970).",
+          "other": "the church-growth school",
+          "other_id": null,
+          "other_id_note": "school of church-growth thought named in the text; no census entry",
+          "other_era": null,
+          "claim": "Behind the megachurch model lay the church-growth school",
+          "other_names_it": null,
+          "other_sentence": null
+        }
+      ],
+      "hygiene": [
+        "evangelical pragmatism",
+        "Willow Creek Community Church",
+        "Saddleback",
+        "Hillsong",
+        "The Willow Creek Association",
+        "Hillsong and kin"
+      ]
+    },
+    {
+      "id": "the-narrative-kingdom-renewal-the-bible-as-one-s",
+      "name": "The Narrative-Kingdom Renewal (the Bible as one story fulfilled in Jesus)",
+      "dates": "c. 1990-c. 2010",
+      "existing_links": [],
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "Lineage: Newbigin's missional vision, Willard's kingdom discipleship, Wright's popularization; a counter-reading culture to the dispensational, prophecy-focused way of reading the Bible (story vs. chart - two rival ways a generation learned to read); heirs of Anglican biblical scholarship going back to the Oxford Movement and the missional line running through the 1910 Edinburgh missionary conference.",
+          "other": "the dispensational, prophecy-focused way of reading the Bible",
+          "other_id": "dispensational-prophecy-culture",
+          "other_id_note": "census entry dispensational-prophecy-culture (Dispensational Prophecy Culture)",
+          "other_era": 10,
+          "claim": "The narrative-kingdom renewal was a counter-reading to the dispensational culture",
+          "other_names_it": true,
+          "other_sentence": "The reading of the Bible as one story fulfilled in Jesus, carried elsewhere on this map, was in large part a reaction against the chart."
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "Lineage: Newbigin's missional vision, Willard's kingdom discipleship, Wright's popularization; a counter-reading culture to the dispensational, prophecy-focused way of reading the Bible (story vs. chart - two rival ways a generation learned to read); heirs of Anglican biblical scholarship going back to the Oxford Movement and the missional line running through the 1910 Edinburgh missionary conference.",
+          "other": "the Oxford Movement",
+          "other_id": "the-oxford-movement-and-anglo-catholic-revival",
+          "other_id_note": "census entry the-oxford-movement-and-anglo-catholic-revival (The Oxford Movement & Anglo-Catholic Revival)",
+          "other_era": 9,
+          "claim": "Its heirs of Anglican biblical scholarship go back to the Oxford Movement",
+          "other_names_it": false,
+          "other_sentence": null
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "Lineage: Newbigin's missional vision, Willard's kingdom discipleship, Wright's popularization; a counter-reading culture to the dispensational, prophecy-focused way of reading the Bible (story vs. chart - two rival ways a generation learned to read); heirs of Anglican biblical scholarship going back to the Oxford Movement and the missional line running through the 1910 Edinburgh missionary conference.",
+          "other": "the 1910 Edinburgh missionary conference",
+          "other_id": "the-student-volunteer-movement-and-edinburgh-191",
+          "other_id_note": "census entry the-student-volunteer-movement-and-edinburgh-191 (The Student Volunteer Movement & Edinburgh 1910)",
+          "other_era": 9,
+          "claim": "Its missional line runs through the 1910 Edinburgh conference",
+          "other_names_it": false,
+          "other_sentence": null
+        },
+        {
+          "field": "why",
+          "sentence": "It stood as a direct alternative to reading the Bible as a chart of the future.",
+          "other": "reading the Bible as a chart of the future",
+          "other_id": "dispensational-prophecy-culture",
+          "other_id_note": "census entry dispensational-prophecy-culture (Dispensational Prophecy Culture)",
+          "other_era": 10,
+          "claim": "The narrative-kingdom reading was a direct alternative to the chart reading",
+          "other_names_it": true,
+          "other_sentence": "The reading of the Bible as one story fulfilled in Jesus, carried elsewhere on this map, was in large part a reaction against the chart."
+        },
+        {
+          "field": "legacy",
+          "sentence": "That put it in direct rivalry with the dispensational reading culture carried elsewhere here.",
+          "other": "the dispensational reading culture",
+          "other_id": "dispensational-prophecy-culture",
+          "other_id_note": "census entry dispensational-prophecy-culture (Dispensational Prophecy Culture)",
+          "other_era": 10,
+          "claim": "It stood in direct rivalry with the dispensational reading culture",
+          "other_names_it": true,
+          "other_sentence": "The reading of the Bible as one story fulfilled in Jesus, carried elsewhere on this map, was in large part a reaction against the chart."
+        }
+      ],
+      "hygiene": [
+        "evangelical and mainline churches"
+      ]
+    },
+    {
+      "id": "fundamentalism-1910-1970s",
+      "name": "Fundamentalism",
+      "dates": "c. 1910-1970s",
+      "existing_links": [
+        {
+          "id": "fundamentalism-1910-1970s--the-mainline-century-liberal-and-neo-orthodox",
+          "from": "fundamentalism-1910-1970s",
+          "to": "the-mainline-century-liberal-and-neo-orthodox",
+          "type": "broke with",
+          "confidence": "Dominant Modern Reconstruction"
+        }
+      ],
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "Fundamentalism grew out of the Niagara Bible Conference of the 1870s and the Princeton doctrine of biblical inerrancy set out in 1881, decades before it took its name in 1920.",
+          "other": "the Niagara Bible Conference",
+          "other_id": null,
+          "other_id_note": "conference named in the text; no census entry",
+          "other_era": null,
+          "claim": "Fundamentalism grew out of the Niagara Bible Conference of the 1870s",
+          "other_names_it": null,
+          "other_sentence": null
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "Fundamentalism grew out of the Niagara Bible Conference of the 1870s and the Princeton doctrine of biblical inerrancy set out in 1881, decades before it took its name in 1920.",
+          "other": "the Princeton doctrine of biblical inerrancy",
+          "other_id": null,
+          "other_id_note": "Princeton theology named in the text; no census entry",
+          "other_era": null,
+          "claim": "Fundamentalism grew out of the Princeton doctrine of inerrancy",
+          "other_names_it": null,
+          "other_sentence": null
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "It defended traditional Christian doctrine against theological liberalism, as in J. Gresham Machen's Christianity and Liberalism (1923), and suffered public defeats at the Scopes trial in 1925 and in Princeton Seminary's reorganization in 1929.",
+          "other": "theological liberalism",
+          "other_id": "the-mainline-century-liberal-and-neo-orthodox",
+          "other_id_note": "census entry: the mainline century's liberal Protestantism",
+          "other_era": 10,
+          "claim": "Fundamentalism defended doctrine against theological liberalism",
+          "other_names_it": true,
+          "other_sentence": "The fundamentalist-modernist controversy — Fosdick's sermon in 1922, Machen's reply in 1923, and the Auburn Affirmation in 1924 — stands in tension with fundamentalism as its opposite pole."
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "Much of its constituency later moved into the neo-evangelical movement through the National Association of Evangelicals in 1942, Fuller Seminary in 1947, and Billy Graham's break with separatism in 1957, while its independent Baptist and separatist churches continued on their own.",
+          "other": "the neo-evangelical movement",
+          "other_id": null,
+          "other_id_note": "movement named in the text; no census entry (the Lausanne-era entry picks it up in 1974)",
+          "other_era": null,
+          "claim": "Much of its constituency moved into the neo-evangelical movement",
+          "other_names_it": null,
+          "other_sentence": null
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "Much of its constituency later moved into the neo-evangelical movement through the National Association of Evangelicals in 1942, Fuller Seminary in 1947, and Billy Graham's break with separatism in 1957, while its independent Baptist and separatist churches continued on their own.",
+          "other": "the National Association of Evangelicals",
+          "other_id": null,
+          "other_id_note": "evangelical association named in the text; no census entry",
+          "other_era": null,
+          "claim": "Much of its constituency moved through the National Association of Evangelicals in 1942",
+          "other_names_it": null,
+          "other_sentence": null
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "The political mobilization that began with the Moral Majority in 1979 also traces back to this movement, one step beyond its own historical window.",
+          "other": "The political mobilization that began with the Moral Majority",
+          "other_id": "the-christian-right",
+          "other_id_note": "census entry the-christian-right (The Christian Right)",
+          "other_era": 10,
+          "claim": "The political mobilization that began in 1979 traces back to this movement",
+          "other_names_it": true,
+          "other_sentence": "The entry on Fundamentalism traces this movement back to it."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "The Niagara Bible Conference had met annually from the 1870s until 1897 and adopted a fourteen-point creed in 1878; A. A. Hodge and B. B. Warfield published 'Inspiration' in the Presbyterian Review in April 1881, giving the doctrine of scripture its most exacting American statement.",
+          "other": "the Niagara Bible Conference",
+          "other_id": null,
+          "other_id_note": "conference named in the text; no census entry",
+          "other_era": null,
+          "claim": "The Niagara conference adopted a fourteen-point creed in 1878",
+          "other_names_it": null,
+          "other_sentence": null
+        },
+        {
+          "field": "longDescription",
+          "sentence": "The Presbyterian General Assembly adopted a five-point doctrinal deliverance in 1910.",
+          "other": "The Presbyterian General Assembly",
+          "other_id": null,
+          "other_id_note": "Presbyterian church body named in the text; no census entry",
+          "other_era": null,
+          "claim": "The Presbyterian General Assembly adopted a five-point doctrinal deliverance in 1910",
+          "other_names_it": null,
+          "other_sentence": null
+        },
+        {
+          "field": "why",
+          "sentence": "The name arrived in 1920, when Curtis Lee Laws called for 'battle royal for the Fundamentals' in the Watchman-Examiner, but the movement was older: twelve volumes called The Fundamentals, financed by Lyman Stewart and given away in some three million copies between 1910 and 1915, defended the doctrine of scripture A. A. Hodge and B. B. Warfield had set out in 1881.",
+          "other": "the doctrine of scripture",
+          "other_id": null,
+          "other_id_note": "Princeton theology named in the text; no census entry",
+          "other_era": null,
+          "claim": "The Fundamentals defended the Princeton doctrine of scripture",
+          "other_names_it": null,
+          "other_sentence": null
+        },
+        {
+          "field": "why",
+          "sentence": "Public defeats followed — the Scopes trial in 1925, Princeton Seminary's reorganization in 1929 — before much of its constituency moved into the neo-evangelical world through the National Association of Evangelicals in 1942 and Billy Graham's 1957 break with separatism, while its independent Baptist and separatist churches carried on.",
+          "other": "the National Association of Evangelicals",
+          "other_id": null,
+          "other_id_note": "evangelical association named in the text; no census entry",
+          "other_era": null,
+          "claim": "Much of the constituency moved through the NAE in 1942",
+          "other_names_it": null,
+          "other_sentence": null
+        },
+        {
+          "field": "why",
+          "sentence": "Public defeats followed — the Scopes trial in 1925, Princeton Seminary's reorganization in 1929 — before much of its constituency moved into the neo-evangelical world through the National Association of Evangelicals in 1942 and Billy Graham's 1957 break with separatism, while its independent Baptist and separatist churches carried on.",
+          "other": "the neo-evangelical world",
+          "other_id": null,
+          "other_id_note": "movement named in the text; no census entry",
+          "other_era": null,
+          "claim": "Much of the constituency moved into the neo-evangelical world",
+          "other_names_it": null,
+          "other_sentence": null
+        },
+        {
+          "field": "legacy",
+          "sentence": "It has its own entry, the Christian Right.",
+          "other": "the Christian Right",
+          "other_id": "the-christian-right",
+          "other_id_note": "census entry the-christian-right (The Christian Right)",
+          "other_era": 10,
+          "claim": "The political mobilization that began in 1979 later became the Christian Right",
+          "other_names_it": true,
+          "other_sentence": "The entry on Fundamentalism traces this movement back to it."
+        },
+        {
+          "field": "legacy",
+          "sentence": "It closes at a documented handoff rather than a death — the National Association of Evangelicals in 1942, Fuller Seminary in 1947, and Billy Graham's break with separatist fundamentalism in 1957 carried much of its constituency into the neo-evangelical world that this map picks up again at Lausanne.",
+          "other": "the neo-evangelical world",
+          "other_id": "lausanne-era-global-evangelicalism",
+          "other_id_note": "census entry lausanne-era-global-evangelicalism (Lausanne-Era Global Evangelicalism)",
+          "other_era": 10,
+          "claim": "Its constituency went into the neo-evangelical world that Lausanne picks up",
+          "other_names_it": false,
+          "other_sentence": null
+        }
+      ],
+      "hygiene": [
+        "independent Baptist and separatist churches",
+        "independent Baptist and separatist congregations",
+        "Westminster founded in answer"
+      ]
+    },
+    {
+      "id": "the-social-gospel",
+      "name": "The Social Gospel",
+      "dates": "c. 1886-1918",
+      "existing_links": [],
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "The Federal Council of Churches' 1908 Social Creed anchors it to the mainline Protestant tradition that later absorbed its stream into its own social agencies.",
+          "other": "the mainline Protestant tradition",
+          "other_id": "the-mainline-century-liberal-and-neo-orthodox",
+          "other_id_note": "census entry the-mainline-century-liberal-and-neo-orthodox (The Mainline Century — Liberal Protestantism & Neo-Orthodoxy)",
+          "other_era": 10,
+          "claim": "The Social Creed anchors the movement to the mainline tradition that absorbed its stream",
+          "other_names_it": false,
+          "other_sentence": null
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "The Federal Council of Churches' 1908 Social Creed anchors it to the mainline Protestant tradition that later absorbed its stream into its own social agencies.",
+          "other": "The Federal Council of Churches' 1908 Social Creed",
+          "other_id": null,
+          "other_id_note": "ecumenical council named in the text; no census entry",
+          "other_era": null,
+          "claim": "The Federal Council's 1908 Social Creed anchors the movement to the mainline",
+          "other_names_it": null,
+          "other_sentence": null
+        },
+        {
+          "field": "longDescription",
+          "sentence": "In 1908 the newly formed Federal Council of Churches adopted the Social Creed of the Churches — the movement's clearest institutional mark, and the ancestor of the denominational social statements that came after it.",
+          "other": "the newly formed Federal Council of Churches",
+          "other_id": null,
+          "other_id_note": "ecumenical council named in the text; no census entry",
+          "other_era": null,
+          "claim": "The new Federal Council of Churches adopted the Social Creed in 1908",
+          "other_names_it": null,
+          "other_sentence": null
+        },
+        {
+          "field": "why",
+          "sentence": "Charles Sheldon's 1896 novel In His Steps put the same impulse into a question anyone could ask before acting — what would Jesus do — while the Federal Council of Churches adopted the movement's own Social Creed in 1908.",
+          "other": "the Federal Council of Churches",
+          "other_id": null,
+          "other_id_note": "ecumenical council named in the text; no census entry",
+          "other_era": null,
+          "claim": "The Federal Council adopted the movement's own Social Creed in 1908",
+          "other_names_it": null,
+          "other_sentence": null
+        },
+        {
+          "field": "why",
+          "sentence": "Rauschenbusch's death in 1918 and the war's blow to reform-minded optimism effectively ended the movement, though its stream flowed on into the mainline denominations' own social agencies.",
+          "other": "the mainline denominations' own social agencies",
+          "other_id": "the-mainline-century-liberal-and-neo-orthodox",
+          "other_id_note": "census entry the-mainline-century-liberal-and-neo-orthodox (The Mainline Century — Liberal Protestantism & Neo-Orthodoxy)",
+          "other_era": 10,
+          "claim": "The stream flowed on into the mainline denominations' social agencies",
+          "other_names_it": false,
+          "other_sentence": null
+        },
+        {
+          "field": "legacy",
+          "sentence": "But the stream did not stop — it was absorbed into the mainline denominations' own social agencies, and the mainline century that follows on this map is its named heir.",
+          "other": "the mainline century",
+          "other_id": "the-mainline-century-liberal-and-neo-orthodox",
+          "other_id_note": "census entry the-mainline-century-liberal-and-neo-orthodox (The Mainline Century — Liberal Protestantism & Neo-Orthodoxy)",
+          "other_era": 10,
+          "claim": "The mainline century is the movement's named heir",
+          "other_names_it": false,
+          "other_sentence": null
+        }
+      ],
+      "hygiene": [
+        "Brotherhood of the Kingdom",
+        "the denominational social statements"
+      ]
+    },
+    {
+      "id": "the-mainline-century-liberal-and-neo-orthodox",
+      "name": "The Mainline Century — Liberal Protestantism & Neo-Orthodoxy",
+      "dates": "c. 1900-1990",
+      "existing_links": [
+        {
+          "id": "fundamentalism-1910-1970s--the-mainline-century-liberal-and-neo-orthodox",
+          "from": "fundamentalism-1910-1970s",
+          "to": "the-mainline-century-liberal-and-neo-orthodox",
+          "type": "broke with",
+          "confidence": "Dominant Modern Reconstruction"
+        }
+      ],
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "The fundamentalist-modernist controversy — Fosdick's sermon in 1922, Machen's reply in 1923, and the Auburn Affirmation in 1924 — stands in tension with fundamentalism as its opposite pole.",
+          "other": "fundamentalism",
+          "other_id": "fundamentalism-1910-1970s",
+          "other_id_note": "census entry fundamentalism-1910-1970s (Fundamentalism)",
+          "other_era": 10,
+          "claim": "The fundamentalist-modernist controversy set fundamentalism as the opposite pole",
+          "other_names_it": true,
+          "other_sentence": "It defended traditional Christian doctrine against theological liberalism, as in J. Gresham Machen's Christianity and Liberalism (1923), and suffered public defeats at the Scopes trial in 1925 and in Princeton Seminary's reorganization in 1929."
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "From within liberal theology, Barth's turn to neo-orthodoxy (1919/1922) was carried further by Niebuhr, Bultmann, and Tillich; Barth's line also runs into the Confessing Church and the Barmen Declaration.",
+          "other": "the Confessing Church",
+          "other_id": "the-confessing-church",
+          "other_id_note": "census entry the-confessing-church (The Confessing Church)",
+          "other_era": 10,
+          "claim": "Barth's line ran into the Confessing Church",
+          "other_names_it": false,
+          "other_sentence": null
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "The National Council of Churches, formed in 1950, and the World Council of Churches are this tradition's institutional and conciliar homes.",
+          "other": "The National Council of Churches",
+          "other_id": null,
+          "other_id_note": "council of churches named in the text; no census entry",
+          "other_era": null,
+          "claim": "The National Council of Churches is one of the tradition's institutional homes",
+          "other_names_it": null,
+          "other_sentence": null
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "The National Council of Churches, formed in 1950, and the World Council of Churches are this tradition's institutional and conciliar homes.",
+          "other": "the World Council of Churches",
+          "other_id": "the-ecumenical-movement-and-the-wcc",
+          "other_id_note": "census entry the-ecumenical-movement-and-the-wcc (The Ecumenical Movement & the World Council of Churches)",
+          "other_era": 10,
+          "claim": "The WCC is the tradition's conciliar home",
+          "other_names_it": true,
+          "other_sentence": "This map draws it as the counter-pole to the Lausanne movement of 1974 — two different answers, from the same century, to the question of how churches that disagree should work together — and as the institutional home of the mainline century that built it."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Its reach-back runs to Schleiermacher and to the historical-critical century — the Briggs heresy trial of 1891 to 1893 in America, Harnack's What Is Christianity? in 1900 — and its institutional face arrived with the Federal Council of Churches in 1908.",
+          "other": "the Federal Council of Churches",
+          "other_id": null,
+          "other_id_note": "ecumenical council named in the text; no census entry",
+          "other_era": null,
+          "claim": "The mainline's institutional face arrived with the Federal Council in 1908",
+          "other_names_it": null,
+          "other_sentence": null
+        },
+        {
+          "field": "longDescription",
+          "sentence": "The public rupture came in the 1920s: Harry Emerson Fosdick preached 'Shall the Fundamentalists Win?' on 21 May 1922; J. Gresham Machen answered with Christianity and Liberalism in 1923; and the Auburn Affirmation, released on 9 January 1924 with about 150 signatures and eventually some 1,300, answered from the other side.",
+          "other": "the Fundamentalists",
+          "other_id": "fundamentalism-1910-1970s",
+          "other_id_note": "census entry fundamentalism-1910-1970s (Fundamentalism)",
+          "other_era": 10,
+          "claim": "Fosdick's 1922 sermon opened the rupture with the fundamentalists",
+          "other_names_it": true,
+          "other_sentence": "It defended traditional Christian doctrine against theological liberalism, as in J. Gresham Machen's Christianity and Liberalism (1923), and suffered public defeats at the Scopes trial in 1925 and in Princeton Seminary's reorganization in 1929."
+        },
+        {
+          "field": "why",
+          "sentence": "Harry Emerson Fosdick's 1922 sermon 'Shall the Fundamentalists Win?' and J. Gresham Machen's reply the following year opened a rupture that the Auburn Affirmation, eventually signed by some 1,300 mainline clergy, answered from the liberal side.",
+          "other": "the Fundamentalists",
+          "other_id": "fundamentalism-1910-1970s",
+          "other_id_note": "census entry fundamentalism-1910-1970s (Fundamentalism)",
+          "other_era": 10,
+          "claim": "Fosdick's 1922 sermon opened the rupture with the fundamentalists",
+          "other_names_it": true,
+          "other_sentence": "It defended traditional Christian doctrine against theological liberalism, as in J. Gresham Machen's Christianity and Liberalism (1923), and suffered public defeats at the Scopes trial in 1925 and in Princeton Seminary's reorganization in 1929."
+        },
+        {
+          "field": "legacy",
+          "sentence": "Their membership peaked in the mid-1960s and turned down after that, and from around 1990 the current that carried their questions went under the progressive label, which this map treats as their continuation.",
+          "other": "the progressive label",
+          "other_id": "progressive-christianity-a-broad-label-not-one-m",
+          "other_id_note": "census entry progressive-christianity-a-broad-label-not-one-m (Progressive Christianity (a broad label, not one movement))",
+          "other_era": 10,
+          "claim": "After 1990 the current went under the progressive label",
+          "other_names_it": true,
+          "other_sentence": "It descends from the mainline century of liberal Protestantism and neo-orthodoxy, which hands off to it around 1990."
+        },
+        {
+          "field": "legacy",
+          "sentence": "Their institutional legacy is large: the National Council of Churches from 1950, the World Council of Churches in Geneva, and a network of seminaries that trained the denominations' clergy and produced much of the century's biblical and theological scholarship.",
+          "other": "the World Council of Churches in Geneva",
+          "other_id": "the-ecumenical-movement-and-the-wcc",
+          "other_id_note": "census entry the-ecumenical-movement-and-the-wcc (The Ecumenical Movement & the World Council of Churches)",
+          "other_era": 10,
+          "claim": "The institutional legacy includes the WCC in Geneva",
+          "other_names_it": true,
+          "other_sentence": "This map draws it as the counter-pole to the Lausanne movement of 1974 — two different answers, from the same century, to the question of how churches that disagree should work together — and as the institutional home of the mainline century that built it."
+        },
+        {
+          "field": "legacy",
+          "sentence": "Their institutional legacy is large: the National Council of Churches from 1950, the World Council of Churches in Geneva, and a network of seminaries that trained the denominations' clergy and produced much of the century's biblical and theological scholarship.",
+          "other": "the National Council of Churches",
+          "other_id": null,
+          "other_id_note": "council of churches named in the text; no census entry",
+          "other_era": null,
+          "claim": "The institutional legacy includes the National Council of Churches from 1950",
+          "other_names_it": null,
+          "other_sentence": null
+        },
+        {
+          "field": "legacy",
+          "sentence": "Barth's line ran into the Confessing Church, whose Barmen Declaration he drafted.",
+          "other": "the Confessing Church",
+          "other_id": "the-confessing-church",
+          "other_id_note": "census entry the-confessing-church (The Confessing Church)",
+          "other_era": 10,
+          "claim": "Barth's line ran into the Confessing Church",
+          "other_names_it": false,
+          "other_sentence": null
+        },
+        {
+          "field": "legacy",
+          "sentence": "And the argument with fundamentalism, fought out in dated documents on both sides, is the one this map draws as a standing tension rather than a settled question.",
+          "other": "fundamentalism",
+          "other_id": "fundamentalism-1910-1970s",
+          "other_id_note": "census entry fundamentalism-1910-1970s (Fundamentalism)",
+          "other_era": 10,
+          "claim": "The argument with fundamentalism is a standing tension",
+          "other_names_it": true,
+          "other_sentence": "It defended traditional Christian doctrine against theological liberalism, as in J. Gresham Machen's Christianity and Liberalism (1923), and suffered public defeats at the Scopes trial in 1925 and in Princeton Seminary's reorganization in 1929."
+        }
+      ],
+      "hygiene": [
+        "the Auburn Affirmation"
+      ]
+    },
+    {
+      "id": "new-calvinism-young-restless-reformed",
+      "name": "New Calvinism (Young, Restless, Reformed)",
+      "dates": "c. 1998-c. 2010",
+      "existing_links": [],
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "It grew out of the wider evangelical world, and one of its early leaders, Mark Driscoll, had first been part of the emerging church movement before his Reformed turn.",
+          "other": "the emerging church movement",
+          "other_id": "the-emerging-church-and-post-evangelical-movemen",
+          "other_id_note": "census entry the-emerging-church-and-post-evangelical-movemen (The Emerging Church & Post-Evangelical Movement)",
+          "other_era": 10,
+          "claim": "Mark Driscoll had been part of the emerging church before his Reformed turn",
+          "other_names_it": false,
+          "other_sentence": null
+        },
+        {
+          "field": "longDescription",
+          "sentence": "In September 2006 Christianity Today ran a piece by Collin Hansen called 'Young, Restless, Reformed', and it gave a name to something already under way: a wave of younger American evangelicals adopting Reformed theology, organized through networks rather than through denominations.",
+          "other": "Reformed theology",
+          "other_id": null,
+          "other_id_note": "the Reformed tradition as a whole; no single census entry",
+          "other_era": null,
+          "claim": "Younger American evangelicals adopted Reformed theology",
+          "other_names_it": null,
+          "other_sentence": null
+        }
+      ],
+      "hygiene": [
+        "the wider evangelical world",
+        "Mars Hill in Seattle",
+        "The Gospel Coalition",
+        "Together for the Gospel",
+        "Acts 29"
+      ]
+    },
+    {
+      "id": "indonesian-christianity-the-independent-century",
+      "name": "Indonesian Christianity — the Independent Century",
+      "dates": "1906-c. 2010",
+      "existing_links": [
+        {
+          "id": "indonesian-christianity--indonesian-christianity-the-independent-century",
+          "from": "indonesian-christianity",
+          "to": "indonesian-christianity-the-independent-century",
+          "type": "continued as",
+          "confidence": "Dominant Modern Reconstruction"
+        }
+      ],
+      "relationships": [],
+      "hygiene": [
+        "the HKBP",
+        "the Batak church",
+        "Indonesia's Catholics",
+        "world Pentecostalism"
+      ]
+    },
+    {
+      "id": "northeast-india-and-mar-thoma-twentieth-century",
+      "name": "Northeast India & the Mar Thoma Church — the 20th Century",
+      "dates": "1906-c. 2010",
+      "existing_links": [
+        {
+          "id": "northeast-india-revivals-and-the-mar-thoma-refor--northeast-india-and-mar-thoma-twentieth-century",
+          "from": "northeast-india-revivals-and-the-mar-thoma-refor",
+          "to": "northeast-india-and-mar-thoma-twentieth-century",
+          "type": "continued as",
+          "confidence": "Widely Accepted"
+        }
+      ],
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "The Mizo revivals that began in 1906 transformed the northeastern hills, helping make Mizoram and Nagaland among the most Christian regions on earth.",
+          "other": "The Mizo revivals",
+          "other_id": "northeast-india-revivals-and-the-mar-thoma-refor",
+          "other_id_note": "the 19th-century entry for both regions; legacy names it as the entry that stopped at 1906",
+          "other_era": 9,
+          "claim": "The Mizo revivals began in 1906, carrying on from the earlier entry",
+          "other_names_it": true,
+          "other_sentence": "The Mar Thoma Church is an ancient-rite church that added evangelical reform."
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "In Kerala, the Mar Thoma Church — which separated as a reform wing from the wider Malankara St Thomas Christian community in 1889 — grew through the same century and spread with the Malayali diaspora.",
+          "other": "the wider Malankara St Thomas Christian community",
+          "other_id": "the-malankara-churches-orthodox-and-jacobite",
+          "other_id_note": "census entry the-malankara-churches-orthodox-and-jacobite (The Malankara Churches — Orthodox & Jacobite)",
+          "other_era": 10,
+          "claim": "The Mar Thoma Church split from the Malankara community in 1889",
+          "other_names_it": true,
+          "other_sentence": "Together they carry forward the ancient St Thomas Christian tradition, alongside the Mar Thoma Church, the reform wing that separated earlier, in 1889."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "In the northeast hills, revival waves ran through the Mizo country from 1906 and again in 1913, in 1919 and through the 1930s, and out of them came lengkhawm zai — hymns composed in the local language for the local way of singing, which became the churches' ordinary practice rather than a curiosity.",
+          "other": "revival waves ran through the Mizo country",
+          "other_id": "northeast-india-revivals-and-the-mar-thoma-refor",
+          "other_id_note": "the 19th-century entry for both regions",
+          "other_era": 9,
+          "claim": "Mizo revival waves from 1906 gave the churches their hymn tradition",
+          "other_names_it": true,
+          "other_sentence": "The Mar Thoma Church is an ancient-rite church that added evangelical reform."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "In Kerala, the Mar Thoma Church — the reform wing of the ancient St Thomas Christians — went through its own century under indigenous leadership, with the annual Maramon Convention as its great gathering, and sent congregations out with the diaspora.",
+          "other": "the ancient St Thomas Christians",
+          "other_id": "st-thomas-christians-of-india",
+          "other_id_note": "census entry st-thomas-christians-of-india (St. Thomas Christians of India)",
+          "other_era": 4,
+          "claim": "The Mar Thoma Church is the reform wing of the ancient St Thomas Christians",
+          "other_names_it": false,
+          "other_sentence": null
+        },
+        {
+          "field": "why",
+          "sentence": "Revival waves that ran through the Mizo hills from 1906 onward produced lengkhawm zai, hymns composed in the local language and manner of singing that became the churches' ordinary worship, and helped make Mizoram and Nagaland among the most heavily Christian regions on earth.",
+          "other": "Revival waves that ran through the Mizo hills",
+          "other_id": "northeast-india-revivals-and-the-mar-thoma-refor",
+          "other_id_note": "the 19th-century entry for both regions",
+          "other_era": 9,
+          "claim": "Mizo revival waves from 1906 produced lengkhawm zai",
+          "other_names_it": true,
+          "other_sentence": "The Mar Thoma Church is an ancient-rite church that added evangelical reform."
+        },
+        {
+          "field": "why",
+          "sentence": "In Kerala, the Mar Thoma Church, the reform wing of the ancient St Thomas Christians, grew under its own indigenous leadership through the same century, gathering each year at the Maramon Convention and following its people into a worldwide diaspora.",
+          "other": "the ancient St Thomas Christians",
+          "other_id": "st-thomas-christians-of-india",
+          "other_id_note": "census entry st-thomas-christians-of-india (St. Thomas Christians of India)",
+          "other_era": 4,
+          "claim": "The Mar Thoma Church is the reform wing of the ancient St Thomas Christians",
+          "other_names_it": false,
+          "other_sentence": null
+        },
+        {
+          "field": "legacy",
+          "sentence": "On this map they complete a chain: the nineteenth-century entries for both regions stopped at 1906 with nothing to hand on to, and this is where they continue.",
+          "other": "the nineteenth-century entries for both regions",
+          "other_id": "northeast-india-revivals-and-the-mar-thoma-refor",
+          "other_id_note": "the 19th-century entry for both regions",
+          "other_era": 9,
+          "claim": "The 19th-century entries for both regions stopped at 1906 with nothing to hand on",
+          "other_names_it": true,
+          "other_sentence": "The Mar Thoma Church is an ancient-rite church that added evangelical reform."
+        }
+      ],
+      "hygiene": [
+        "the Maramon Convention"
+      ]
+    },
+    {
+      "id": "churches-of-christ-twentieth-century",
+      "name": "Churches of Christ",
+      "dates": "1906-c. 2010",
+      "existing_links": [
+        {
+          "id": "the-stone-campbell-restoration-movement--churches-of-christ-twentieth-century",
+          "from": "the-stone-campbell-restoration-movement",
+          "to": "churches-of-christ-twentieth-century",
+          "type": "gave rise to",
+          "confidence": "Dominant Modern Reconstruction"
+        }
+      ],
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "This is the a cappella wing of the movement, first distinguished from the Disciples of Christ in the 1906 United States religious census.",
+          "other": "the movement",
+          "other_id": "the-stone-campbell-restoration-movement",
+          "other_id_note": "census entry; the text says 'the movement' without naming it",
+          "other_era": 9,
+          "claim": "Churches of Christ is the a cappella wing of the movement",
+          "other_names_it": true,
+          "other_sentence": "Debating was their native genre — Alexander Campbell argued in public for days at a stretch against skeptics, Presbyterians and a Roman Catholic bishop, and published the transcripts himself — and by 1906, when the federal religious census listed the Churches of Christ separately for the first time, a movement founded to end division had recorded a division of its own."
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "This is the a cappella wing of the movement, first distinguished from the Disciples of Christ in the 1906 United States religious census.",
+          "other": "the Disciples of Christ",
+          "other_id": "disciples-of-christ-and-independent-christian-churches",
+          "other_id_note": "census entry disciples-of-christ-and-independent-christian-churches (Disciples of Christ & the Independent Christian Churches)",
+          "other_era": 10,
+          "claim": "The a cappella wing was first distinguished from the Disciples of Christ in 1906",
+          "other_names_it": false,
+          "other_sentence": null
+        },
+        {
+          "field": "longDescription",
+          "sentence": "In 1906 the United States religious census listed the Churches of Christ separately from the Disciples of Christ for the first time — a bureaucratic act that recorded a division which had been widening for a generation.",
+          "other": "the Disciples of Christ",
+          "other_id": "disciples-of-christ-and-independent-christian-churches",
+          "other_id_note": "census entry disciples-of-christ-and-independent-christian-churches (Disciples of Christ & the Independent Christian Churches)",
+          "other_era": 10,
+          "claim": "The 1906 census listed Churches of Christ separately from the Disciples",
+          "other_names_it": false,
+          "other_sentence": null
+        },
+        {
+          "field": "why",
+          "sentence": "In 1906 the United States religious census listed the Churches of Christ separately from the Disciples of Christ for the first time, recording a division that had been widening for a generation over instrumental music and church authority; the resulting a cappella congregations recognized no authority above themselves and set up no denominational headquarters.",
+          "other": "the Disciples of Christ",
+          "other_id": "disciples-of-christ-and-independent-christian-churches",
+          "other_id_note": "census entry disciples-of-christ-and-independent-christian-churches (Disciples of Christ & the Independent Christian Churches)",
+          "other_era": 10,
+          "claim": "The 1906 census listed Churches of Christ separately from the Disciples",
+          "other_names_it": false,
+          "other_sentence": null
+        }
+      ],
+      "hygiene": [
+        "the Gospel Advocate",
+        "the Firm Foundation"
+      ]
+    },
+    {
+      "id": "disciples-of-christ-and-independent-christian-churches",
+      "name": "Disciples of Christ & the Independent Christian Churches",
+      "dates": "1906-c. 2010",
+      "existing_links": [
+        {
+          "id": "the-stone-campbell-restoration-movement--disciples-of-christ-and-independent-christian-churches",
+          "from": "the-stone-campbell-restoration-movement",
+          "to": "disciples-of-christ-and-independent-christian-churches",
+          "type": "gave rise to",
+          "confidence": "Dominant Modern Reconstruction"
+        }
+      ],
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "This is the Disciples of Christ wing that emerged from the 1906 division, later reorganizing itself into a denomination through the 1968 Restructure known as 'The Design.'",
+          "other": "the 1906 division",
+          "other_id": "churches-of-christ-twentieth-century",
+          "other_id_note": "census entry for the other side of the 1906 division; the sentence names the division",
+          "other_era": 10,
+          "claim": "The Disciples wing emerged from the 1906 division with the Churches of Christ",
+          "other_names_it": true,
+          "other_sentence": "This is the a cappella wing of the movement, first distinguished from the Disciples of Christ in the 1906 United States religious census."
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "It was a founding member of the ecumenical movement, joining the Federal Council of Churches in 1908 and the World Council of Churches in 1948.",
+          "other": "the Federal Council of Churches",
+          "other_id": null,
+          "other_id_note": "ecumenical council named in the text; no census entry",
+          "other_era": null,
+          "claim": "The Disciples joined the Federal Council in 1908",
+          "other_names_it": null,
+          "other_sentence": null
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "It was a founding member of the ecumenical movement, joining the Federal Council of Churches in 1908 and the World Council of Churches in 1948.",
+          "other": "the World Council of Churches",
+          "other_id": "the-ecumenical-movement-and-the-wcc",
+          "other_id_note": "census entry the-ecumenical-movement-and-the-wcc (The Ecumenical Movement & the World Council of Churches)",
+          "other_era": 10,
+          "claim": "The Disciples joined the WCC in 1948",
+          "other_names_it": false,
+          "other_sentence": null
+        },
+        {
+          "field": "longDescription",
+          "sentence": "The other side of the 1906 division took the opposite road.",
+          "other": "the other side of the 1906 division",
+          "other_id": "churches-of-christ-twentieth-century",
+          "other_id_note": "census entry for the other side of the 1906 division; the sentence does not name the body",
+          "other_era": 10,
+          "claim": "The other side of the 1906 division took the opposite road",
+          "other_names_it": true,
+          "other_sentence": "This is the a cappella wing of the movement, first distinguished from the Disciples of Christ in the 1906 United States religious census."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "The Disciples of Christ kept their instruments and their national organizations, joined the Federal Council of Churches at its founding in 1908 and the World Council of Churches at its founding in 1948, and in 1968 adopted a plan called the Restructure — 'The Design' — that turned a movement of congregations into a denomination.",
+          "other": "the World Council of Churches",
+          "other_id": "the-ecumenical-movement-and-the-wcc",
+          "other_id_note": "census entry the-ecumenical-movement-and-the-wcc (The Ecumenical Movement & the World Council of Churches)",
+          "other_era": 10,
+          "claim": "The Disciples joined the WCC at its founding",
+          "other_names_it": false,
+          "other_sentence": null
+        },
+        {
+          "field": "longDescription",
+          "sentence": "The Disciples of Christ kept their instruments and their national organizations, joined the Federal Council of Churches at its founding in 1908 and the World Council of Churches at its founding in 1948, and in 1968 adopted a plan called the Restructure — 'The Design' — that turned a movement of congregations into a denomination.",
+          "other": "the Federal Council of Churches",
+          "other_id": null,
+          "other_id_note": "ecumenical council named in the text; no census entry",
+          "other_era": null,
+          "claim": "The Disciples joined the Federal Council at its founding",
+          "other_names_it": null,
+          "other_sentence": null
+        },
+        {
+          "field": "why",
+          "sentence": "After the 1906 division, the Disciples of Christ kept their instruments and their national organization, becoming founding members of the Federal Council of Churches in 1908 and the World Council of Churches in 1948 before adopting a 1968 plan called 'The Design' that turned a movement of congregations into a denomination.",
+          "other": "the 1906 division",
+          "other_id": "churches-of-christ-twentieth-century",
+          "other_id_note": "census entry for the other side of the 1906 division; the sentence names the division",
+          "other_era": 10,
+          "claim": "After the 1906 division the Disciples kept their instruments and organization",
+          "other_names_it": true,
+          "other_sentence": "This is the a cappella wing of the movement, first distinguished from the Disciples of Christ in the 1906 United States religious census."
+        },
+        {
+          "field": "why",
+          "sentence": "After the 1906 division, the Disciples of Christ kept their instruments and their national organization, becoming founding members of the Federal Council of Churches in 1908 and the World Council of Churches in 1948 before adopting a 1968 plan called 'The Design' that turned a movement of congregations into a denomination.",
+          "other": "the World Council of Churches",
+          "other_id": "the-ecumenical-movement-and-the-wcc",
+          "other_id_note": "census entry the-ecumenical-movement-and-the-wcc (The Ecumenical Movement & the World Council of Churches)",
+          "other_era": 10,
+          "claim": "The Disciples were founding members of the WCC in 1948",
+          "other_names_it": false,
+          "other_sentence": null
+        },
+        {
+          "field": "legacy",
+          "sentence": "The Disciples' ecumenical commitment was institutional — they were founding members of both the Federal Council in 1908 and the World Council in 1948 — which is what their founding plea for unity became; the independent Christian Churches remained a large, congregationally governed stream.",
+          "other": "the Federal Council",
+          "other_id": null,
+          "other_id_note": "ecumenical council named in the text; no census entry",
+          "other_era": null,
+          "claim": "The Disciples were founding members of the Federal Council in 1908",
+          "other_names_it": null,
+          "other_sentence": null
+        },
+        {
+          "field": "legacy",
+          "sentence": "The Disciples' ecumenical commitment was institutional — they were founding members of both the Federal Council in 1908 and the World Council in 1948 — which is what their founding plea for unity became; the independent Christian Churches remained a large, congregationally governed stream.",
+          "other": "the World Council",
+          "other_id": "the-ecumenical-movement-and-the-wcc",
+          "other_id_note": "census entry the-ecumenical-movement-and-the-wcc (The Ecumenical Movement & the World Council of Churches)",
+          "other_era": 10,
+          "claim": "The Disciples were founding members of the WCC in 1948",
+          "other_names_it": false,
+          "other_sentence": null
+        }
+      ],
+      "hygiene": [
+        "the independent Christian Churches",
+        "the North American Christian Convention"
+      ]
+    },
+    {
+      "id": "the-black-church-in-the-twentieth-century",
+      "name": "The Black Church in the Twentieth Century",
+      "dates": "1906-c. 2010",
+      "existing_links": [
+        {
+          "id": "the-black-church-in-america--the-black-church-in-the-twentieth-century",
+          "from": "the-black-church-in-america",
+          "to": "the-black-church-in-the-twentieth-century",
+          "type": "continued as",
+          "confidence": "Dominant Modern Reconstruction"
+        }
+      ],
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "This is the twentieth-century continuation of the Black church tradition.",
+          "other": "the Black church tradition",
+          "other_id": "the-black-church-in-america",
+          "other_id_note": "census entry: the 19th-century entry this continues",
+          "other_era": 9,
+          "claim": "The 20th-century entry continues the Black church tradition",
+          "other_names_it": false,
+          "other_sentence": null
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "The Great Migration remade it as an urban, northern institution; the Church of God in Christ rose from 1907; the National Baptist Convention split in 1915; the civil rights movement grew out of these congregations, with Martin Luther King Jr and the Southern Christian Leadership Conference, founded in 1957; and James Cone's writings opened the field of Black theology.",
+          "other": "the civil rights movement",
+          "other_id": null,
+          "other_id_note": "movement named in the text; no census entry",
+          "other_era": null,
+          "claim": "The civil rights movement grew out of these congregations",
+          "other_names_it": null,
+          "other_sentence": null
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "Its worship traditions also share roots with the Pentecostal movement that grew out of the Azusa Street revival.",
+          "other": "the Pentecostal movement that grew out of the Azusa Street revival",
+          "other_id": "azusa-street-and-early-pentecostalism",
+          "other_id_note": "census entry azusa-street-and-early-pentecostalism (Azusa Street & Early Pentecostalism)",
+          "other_era": 10,
+          "claim": "Its worship traditions share roots with Azusa Street Pentecostalism",
+          "other_names_it": false,
+          "other_sentence": null
+        },
+        {
+          "field": "longDescription",
+          "sentence": "From the 1950s the congregations were the civil-rights movement's infrastructure: Martin Luther King Jr and the Southern Christian Leadership Conference, founded in 1957, worked out of them, and much of what survives of that movement's own voice is sermons.",
+          "other": "the civil-rights movement",
+          "other_id": null,
+          "other_id_note": "movement named in the text; no census entry",
+          "other_era": null,
+          "claim": "From the 1950s the congregations were the civil-rights movement's infrastructure",
+          "other_names_it": null,
+          "other_sentence": null
+        },
+        {
+          "field": "why",
+          "sentence": "From the 1950s these congregations were the civil rights movement's infrastructure — Martin Luther King Jr. worked out of the Southern Christian Leadership Conference, founded in 1957 — and at the end of the 1960s James Cone's books opened Black theology as a field of its own.",
+          "other": "the civil rights movement",
+          "other_id": null,
+          "other_id_note": "movement named in the text; no census entry",
+          "other_era": null,
+          "claim": "From the 1950s the congregations were the civil rights movement's infrastructure",
+          "other_names_it": null,
+          "other_sentence": null
+        },
+        {
+          "field": "legacy",
+          "sentence": "It supplied the civil-rights movement with its buildings, its money, its networks and much of its language, and through the century the sermon was the form in which a great deal of American public moral argument got made.",
+          "other": "the civil-rights movement",
+          "other_id": null,
+          "other_id_note": "movement named in the text; no census entry",
+          "other_era": null,
+          "claim": "The congregations supplied the civil-rights movement with buildings, money and networks",
+          "other_names_it": null,
+          "other_sentence": null
+        },
+        {
+          "field": "legacy",
+          "sentence": "And on this map the entry answers a debt: the nineteenth-century Black church entry ends in 1906 pointing forward to 'the civil-rights church' as its own future, and no entry carried it before this one.",
+          "other": "the nineteenth-century Black church entry",
+          "other_id": "the-black-church-in-america",
+          "other_id_note": "census entry the-black-church-in-america (The Black Church in America)",
+          "other_era": 9,
+          "claim": "The 19th-century entry ends in 1906 pointing forward to this one",
+          "other_names_it": false,
+          "other_sentence": null
+        }
+      ],
+      "hygiene": [
+        "The Church of God in Christ",
+        "The National Baptist Convention",
+        "Black theology"
+      ]
+    },
+    {
+      "id": "seventh-day-adventist-church-twentieth-century",
+      "name": "The Seventh-day Adventist Church in the 20th Century",
+      "dates": "1906-c. 2010",
+      "existing_links": [
+        {
+          "id": "restorationist-apocalyptic-ferment-and-adventism--seventh-day-adventist-church-twentieth-century",
+          "from": "restorationist-apocalyptic-ferment-and-adventism",
+          "to": "seventh-day-adventist-church-twentieth-century",
+          "type": "continued as",
+          "confidence": "Dominant Modern Reconstruction"
+        }
+      ],
+      "relationships": [
+        {
+          "field": "legacy",
+          "sentence": "On this map it does one specific job: the nineteenth-century Adventist entry left a question about this church's confession open by name, to be settled when the twentieth century could be looked at, and the 1931 and 1980 documents are where the church itself settled it, in its own words and on the record.",
+          "other": "the nineteenth-century Adventist entry",
+          "other_id": "restorationist-apocalyptic-ferment-and-adventism",
+          "other_id_note": "census entry; the text cites the 19th-century Adventist entry",
+          "other_era": 9,
+          "claim": "The 19th-century Adventist entry left the question of the church's confession open",
+          "other_names_it": true,
+          "other_sentence": "A determined remnant didn't: they reread their calculations, concluded the date had marked something other than Christ's visible return, and built lasting communities around that reinterpretation, most enduringly the Seventh-day Adventist Church and a cluster of related Adventist bodies."
+        }
+      ],
+      "hygiene": []
+    },
+    {
+      "id": "charismatic-renewal-and-the-jesus-movement",
+      "name": "Charismatic Renewal & the Jesus Movement",
+      "dates": "1960-1980s",
+      "existing_links": [],
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "The North Atlantic middle between the early Pentecostal movement (which had largely settled by the 1920s) and the later Global South Pentecostal explosion (1950s onward): Dennis Bennett's 3 April 1960 Van Nuys announcement (the conventional start), the mainline charismatic wave, Calvary Chapel (1965), the Jesus movement (1967-72), and the Vineyard association (1982, the start of the third wave); it fed directly into the megachurch movement and the New Calvinist current's own church-planting networks.",
+          "other": "the early Pentecostal movement",
+          "other_id": "azusa-street-and-early-pentecostalism",
+          "other_id_note": "census entry: the early Pentecostal movement is the Azusa Street entry",
+          "other_era": 10,
+          "claim": "The renewal sits between the early Pentecostal movement and later Global South Pentecostalism",
+          "other_names_it": false,
+          "other_sentence": null
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "The North Atlantic middle between the early Pentecostal movement (which had largely settled by the 1920s) and the later Global South Pentecostal explosion (1950s onward): Dennis Bennett's 3 April 1960 Van Nuys announcement (the conventional start), the mainline charismatic wave, Calvary Chapel (1965), the Jesus movement (1967-72), and the Vineyard association (1982, the start of the third wave); it fed directly into the megachurch movement and the New Calvinist current's own church-planting networks.",
+          "other": "the later Global South Pentecostal explosion",
+          "other_id": "global-south-pentecostal-christianity",
+          "other_id_note": "census entry global-south-pentecostal-christianity (Global South Pentecostal Christianity)",
+          "other_era": 10,
+          "claim": "The renewal sits before the later Global South Pentecostal explosion",
+          "other_names_it": false,
+          "other_sentence": null
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "The North Atlantic middle between the early Pentecostal movement (which had largely settled by the 1920s) and the later Global South Pentecostal explosion (1950s onward): Dennis Bennett's 3 April 1960 Van Nuys announcement (the conventional start), the mainline charismatic wave, Calvary Chapel (1965), the Jesus movement (1967-72), and the Vineyard association (1982, the start of the third wave); it fed directly into the megachurch movement and the New Calvinist current's own church-planting networks.",
+          "other": "the Vineyard association",
+          "other_id": "the-third-wave-and-the-vineyard",
+          "other_id_note": "census entry the-third-wave-and-the-vineyard (The Third Wave & the Vineyard)",
+          "other_era": 10,
+          "claim": "The Vineyard association of 1982 began the third wave",
+          "other_names_it": true,
+          "other_sentence": "It follows the charismatic renewal and the Jesus movement."
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "The North Atlantic middle between the early Pentecostal movement (which had largely settled by the 1920s) and the later Global South Pentecostal explosion (1950s onward): Dennis Bennett's 3 April 1960 Van Nuys announcement (the conventional start), the mainline charismatic wave, Calvary Chapel (1965), the Jesus movement (1967-72), and the Vineyard association (1982, the start of the third wave); it fed directly into the megachurch movement and the New Calvinist current's own church-planting networks.",
+          "other": "the megachurch movement",
+          "other_id": "the-megachurch-and-seeker-movement",
+          "other_id_note": "census entry the-megachurch-and-seeker-movement (The Megachurch & Seeker Movement)",
+          "other_era": 10,
+          "claim": "The renewal fed directly into the megachurch movement",
+          "other_names_it": false,
+          "other_sentence": null
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "The North Atlantic middle between the early Pentecostal movement (which had largely settled by the 1920s) and the later Global South Pentecostal explosion (1950s onward): Dennis Bennett's 3 April 1960 Van Nuys announcement (the conventional start), the mainline charismatic wave, Calvary Chapel (1965), the Jesus movement (1967-72), and the Vineyard association (1982, the start of the third wave); it fed directly into the megachurch movement and the New Calvinist current's own church-planting networks.",
+          "other": "the New Calvinist current",
+          "other_id": "new-calvinism-young-restless-reformed",
+          "other_id_note": "census entry new-calvinism-young-restless-reformed (New Calvinism (Young, Restless, Reformed))",
+          "other_era": 10,
+          "claim": "The renewal fed the New Calvinist current's church-planting networks",
+          "other_names_it": false,
+          "other_sentence": null
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "The Word of Faith movement grew in the same years.",
+          "other": "The Word of Faith movement",
+          "other_id": null,
+          "other_id_note": "movement named in the text; no census entry",
+          "other_era": null,
+          "claim": "The Word of Faith movement grew in the same years",
+          "other_names_it": null,
+          "other_sentence": null
+        },
+        {
+          "field": "longDescription",
+          "sentence": "The announcement is conventionally taken as the start of the charismatic movement inside the historic Protestant churches, and it went where the earlier Pentecostal revival had not: into mainline Protestant parishes, whose members mostly stayed where they were.",
+          "other": "mainline Protestant parishes",
+          "other_id": "the-mainline-century-liberal-and-neo-orthodox",
+          "other_id_note": "census entry the-mainline-century-liberal-and-neo-orthodox (The Mainline Century — Liberal Protestantism & Neo-Orthodoxy)",
+          "other_era": 10,
+          "claim": "The charismatic wave went into mainline Protestant parishes",
+          "other_names_it": false,
+          "other_sentence": null
+        },
+        {
+          "field": "longDescription",
+          "sentence": "The Vineyard association formed in 1982, at the edge of this window, as the wave handed on to what came next.",
+          "other": "The Vineyard association",
+          "other_id": "the-third-wave-and-the-vineyard",
+          "other_id_note": "census entry the-third-wave-and-the-vineyard (The Third Wave & the Vineyard)",
+          "other_era": 10,
+          "claim": "The Vineyard association formed in 1982 at the edge of this window",
+          "other_names_it": true,
+          "other_sentence": "It follows the charismatic renewal and the Jesus movement."
+        },
+        {
+          "field": "why",
+          "sentence": "Alongside it, the Jesus movement of 1967 to 1972 reached young people outside any church, finding its best-known home at Calvary Chapel, founded in 1965, before the wave handed on to the newly formed Vineyard association in 1982.",
+          "other": "the newly formed Vineyard association",
+          "other_id": "the-third-wave-and-the-vineyard",
+          "other_id_note": "census entry the-third-wave-and-the-vineyard (The Third Wave & the Vineyard)",
+          "other_era": 10,
+          "claim": "The wave handed on to the Vineyard association in 1982",
+          "other_names_it": true,
+          "other_sentence": "It follows the charismatic renewal and the Jesus movement."
+        },
+        {
+          "field": "legacy",
+          "sentence": "The wave subsided; the bodies it created did not, and in 2010 Calvary Chapel and the Vineyard were still active associations with churches worldwide.",
+          "other": "the Vineyard",
+          "other_id": "the-third-wave-and-the-vineyard",
+          "other_id_note": "census entry the-third-wave-and-the-vineyard (The Third Wave & the Vineyard)",
+          "other_era": 10,
+          "claim": "The Vineyard was still an active association in 2010",
+          "other_names_it": true,
+          "other_sentence": "It follows the charismatic renewal and the Jesus movement."
+        },
+        {
+          "field": "legacy",
+          "sentence": "It also seeded what followed — the megachurch and seeker movement and, later, the church-planting networks of the 2000s both grew in ground this renewal had turned over.",
+          "other": "the megachurch and seeker movement",
+          "other_id": "the-megachurch-and-seeker-movement",
+          "other_id_note": "census entry the-megachurch-and-seeker-movement (The Megachurch & Seeker Movement)",
+          "other_era": 10,
+          "claim": "The renewal seeded the megachurch and seeker movement",
+          "other_names_it": false,
+          "other_sentence": null
+        },
+        {
+          "field": "legacy",
+          "sentence": "The Catholic side of the same renewal is carried elsewhere on this map, alongside the other Catholic lay movements.",
+          "other": "the Catholic side of the same renewal",
+          "other_id": "catholic-lay-renewal-worlds-catholic-worker-foco",
+          "other_id_note": "census entry: the Catholic lay renewal traditions",
+          "other_era": 10,
+          "claim": "The Catholic side of the renewal is carried in the map's Catholic lay movements",
+          "other_names_it": true,
+          "other_sentence": "The Catholic Charismatic Renewal began on a retreat weekend at Duquesne University in February 1967 and reached parishes across the world within a decade; Cardinal Suenens's Malines Documents, from 1974, worked out how it and the wider church would live together."
+        }
+      ],
+      "hygiene": [
+        "Calvary Chapel",
+        "the Jesus movement",
+        "Maranatha!"
+      ]
+    },
+    {
+      "id": "the-ecumenical-movement-and-the-wcc",
+      "name": "The Ecumenical Movement & the World Council of Churches",
+      "dates": "1921-c. 2010",
+      "existing_links": [
+        {
+          "id": "the-student-volunteer-movement-and-edinburgh-191--the-ecumenical-movement-and-the-wcc",
+          "from": "the-student-volunteer-movement-and-edinburgh-191",
+          "to": "the-ecumenical-movement-and-the-wcc",
+          "type": "gave rise to",
+          "confidence": "Dominant Modern Reconstruction"
+        }
+      ],
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "The World Missionary Conference at Edinburgh in 1910 set three streams running: the International Missionary Council, founded in 1921; Life and Work, from 1925; and Faith and Order, from 1927.",
+          "other": "The World Missionary Conference at Edinburgh in 1910",
+          "other_id": "the-student-volunteer-movement-and-edinburgh-191",
+          "other_id_note": "census entry the-student-volunteer-movement-and-edinburgh-191 (The Student Volunteer Movement & Edinburgh 1910)",
+          "other_era": 9,
+          "claim": "The Edinburgh 1910 conference set the ecumenical streams running",
+          "other_names_it": true,
+          "other_sentence": "One is the modern ecumenical movement, which works to bring churches together."
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "Orthodox churches were members, while the Roman Catholic Church worked alongside it without joining.",
+          "other": "Orthodox churches",
+          "other_id": null,
+          "other_id_note": "Orthodox churches in general; no single census entry",
+          "other_era": null,
+          "claim": "Orthodox churches were members of the WCC",
+          "other_names_it": null,
+          "other_sentence": null
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "Orthodox churches were members, while the Roman Catholic Church worked alongside it without joining.",
+          "other": "the Roman Catholic Church",
+          "other_id": "the-catholic-church-pius-x-to-the-council",
+          "other_id_note": "nearest census Catholic entry (1906-1962); the sentence names the church as a whole",
+          "other_era": 10,
+          "claim": "The Roman Catholic Church worked alongside the WCC without joining",
+          "other_names_it": false,
+          "other_sentence": null
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "It stands as a counterpart to the Lausanne movement of 1974, the evangelical alternative answer to the same question of how divided churches should work together, and it grew out of the institutional world built by mainline liberal Protestantism and neo-orthodoxy.",
+          "other": "the Lausanne movement of 1974",
+          "other_id": "lausanne-era-global-evangelicalism",
+          "other_id_note": "census entry lausanne-era-global-evangelicalism (Lausanne-Era Global Evangelicalism)",
+          "other_era": 10,
+          "claim": "The WCC is the counterpart to the Lausanne movement of 1974",
+          "other_names_it": true,
+          "other_sentence": "It stands as a counter-pole to the conciliar ecumenical movement centered on Geneva — two different twentieth-century answers to how separated churches should act together."
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "It stands as a counterpart to the Lausanne movement of 1974, the evangelical alternative answer to the same question of how divided churches should work together, and it grew out of the institutional world built by mainline liberal Protestantism and neo-orthodoxy.",
+          "other": "mainline liberal Protestantism and neo-orthodoxy",
+          "other_id": "the-mainline-century-liberal-and-neo-orthodox",
+          "other_id_note": "census entry the-mainline-century-liberal-and-neo-orthodox (The Mainline Century — Liberal Protestantism & Neo-Orthodoxy)",
+          "other_era": 10,
+          "claim": "The ecumenical movement grew out of the mainline world",
+          "other_names_it": true,
+          "other_sentence": "The National Council of Churches, formed in 1950, and the World Council of Churches are this tradition's institutional and conciliar homes."
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "In Africa, churches formed the All Africa Conference of Churches.",
+          "other": "the All Africa Conference of Churches",
+          "other_id": null,
+          "other_id_note": "regional council named in the text; no census entry",
+          "other_era": null,
+          "claim": "African churches formed the All Africa Conference of Churches as their regional body",
+          "other_names_it": null,
+          "other_sentence": null
+        },
+        {
+          "field": "longDescription",
+          "sentence": "The World Missionary Conference at Edinburgh in 1910 left three currents running, which came together over the following decades.",
+          "other": "The World Missionary Conference at Edinburgh in 1910",
+          "other_id": "the-student-volunteer-movement-and-edinburgh-191",
+          "other_id_note": "census entry the-student-volunteer-movement-and-edinburgh-191 (The Student Volunteer Movement & Edinburgh 1910)",
+          "other_era": 9,
+          "claim": "The Edinburgh 1910 conference left three currents running",
+          "other_names_it": true,
+          "other_sentence": "One is the modern ecumenical movement, which works to bring churches together."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Orthodox churches were members.",
+          "other": "Orthodox churches",
+          "other_id": null,
+          "other_id_note": "Orthodox churches in general; no single census entry",
+          "other_era": null,
+          "claim": "Orthodox churches were members of the WCC",
+          "other_names_it": null,
+          "other_sentence": null
+        },
+        {
+          "field": "longDescription",
+          "sentence": "The Roman Catholic Church was not, and worked with it in other ways.",
+          "other": "the Roman Catholic Church",
+          "other_id": "the-catholic-church-pius-x-to-the-council",
+          "other_id_note": "nearest census Catholic entry (1906-1962); the sentence names the church as a whole",
+          "other_era": 10,
+          "claim": "The Roman Catholic Church was not a member but worked with the WCC",
+          "other_names_it": false,
+          "other_sentence": null
+        },
+        {
+          "field": "longDescription",
+          "sentence": "In the Middle East, the Middle East Council of Churches held its first assembly at Nicosia from 28 to 30 May 1974.",
+          "other": "the Middle East Council of Churches",
+          "other_id": null,
+          "other_id_note": "regional council named in the text; no census entry",
+          "other_era": null,
+          "claim": "The Middle East Council of Churches held its first assembly in 1974",
+          "other_names_it": null,
+          "other_sentence": null
+        },
+        {
+          "field": "why",
+          "sentence": "Orthodox churches belonged to it, while the Roman Catholic Church worked alongside it without joining.",
+          "other": "Orthodox churches",
+          "other_id": null,
+          "other_id_note": "Orthodox churches in general; no single census entry",
+          "other_era": null,
+          "claim": "Orthodox churches belonged to the WCC",
+          "other_names_it": null,
+          "other_sentence": null
+        },
+        {
+          "field": "why",
+          "sentence": "Orthodox churches belonged to it, while the Roman Catholic Church worked alongside it without joining.",
+          "other": "the Roman Catholic Church",
+          "other_id": "the-catholic-church-pius-x-to-the-council",
+          "other_id_note": "nearest census Catholic entry (1906-1962); the sentence names the church as a whole",
+          "other_era": 10,
+          "claim": "The Roman Catholic Church worked alongside the WCC without joining",
+          "other_names_it": false,
+          "other_sentence": null
+        },
+        {
+          "field": "why",
+          "sentence": "The World Missionary Conference at Edinburgh in 1910 left three currents running — the International Missionary Council, founded in 1921, and the Life and Work and Faith and Order movements of the 1920s — and they converged in the World Council of Churches, constituted at Amsterdam in 1948 with 147 member churches, with the missionary council joining at New Delhi in 1961.",
+          "other": "The World Missionary Conference at Edinburgh in 1910",
+          "other_id": "the-student-volunteer-movement-and-edinburgh-191",
+          "other_id_note": "census entry the-student-volunteer-movement-and-edinburgh-191 (The Student Volunteer Movement & Edinburgh 1910)",
+          "other_era": 9,
+          "claim": "The Edinburgh 1910 conference left three currents running",
+          "other_names_it": true,
+          "other_sentence": "One is the modern ecumenical movement, which works to bring churches together."
+        },
+        {
+          "field": "legacy",
+          "sentence": "This map draws it as the counter-pole to the Lausanne movement of 1974 — two different answers, from the same century, to the question of how churches that disagree should work together — and as the institutional home of the mainline century that built it.",
+          "other": "the Lausanne movement of 1974",
+          "other_id": "lausanne-era-global-evangelicalism",
+          "other_id_note": "census entry lausanne-era-global-evangelicalism (Lausanne-Era Global Evangelicalism)",
+          "other_era": 10,
+          "claim": "The WCC and Lausanne are two answers to how churches should act together",
+          "other_names_it": true,
+          "other_sentence": "It stands as a counter-pole to the conciliar ecumenical movement centered on Geneva — two different twentieth-century answers to how separated churches should act together."
+        },
+        {
+          "field": "legacy",
+          "sentence": "This map draws it as the counter-pole to the Lausanne movement of 1974 — two different answers, from the same century, to the question of how churches that disagree should work together — and as the institutional home of the mainline century that built it.",
+          "other": "the mainline century",
+          "other_id": "the-mainline-century-liberal-and-neo-orthodox",
+          "other_id_note": "census entry the-mainline-century-liberal-and-neo-orthodox (The Mainline Century — Liberal Protestantism & Neo-Orthodoxy)",
+          "other_era": 10,
+          "claim": "The WCC is the institutional home of the mainline century",
+          "other_names_it": true,
+          "other_sentence": "The National Council of Churches, formed in 1950, and the World Council of Churches are this tradition's institutional and conciliar homes."
+        }
+      ],
+      "hygiene": [
+        "the International Missionary Council",
+        "Life and Work",
+        "Faith and Order"
+      ]
+    },
+    {
+      "id": "hebrew-roots-and-torah-observance-movements",
+      "name": "Hebrew Roots & Torah-Observance Movements",
+      "dates": "c. 1990s-c. 2010",
+      "existing_links": [],
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "This is a largely gentile Torah-observance movement, distinct from Messianic Judaism, a movement of Jewish believers — the two traditions' own publications drew that distinction themselves.",
+          "other": "Messianic Judaism",
+          "other_id": "messianic-judaism",
+          "other_id_note": "census entry messianic-judaism (Messianic Judaism)",
+          "other_era": 10,
+          "claim": "Hebrew Roots is distinct from Messianic Judaism",
+          "other_names_it": false,
+          "other_sentence": null
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "It had two historical roots: the Sacred Name movement of the 1930s, and a newer wave connected to First Fruits of Zion, founded in 1992.",
+          "other": "the Sacred Name movement of the 1930s",
+          "other_id": null,
+          "other_id_note": "Sacred Name movement named in the text; no census entry",
+          "other_era": null,
+          "claim": "Hebrew Roots had a root in the 1930s Sacred Name movement",
+          "other_names_it": null,
+          "other_sentence": null
+        },
+        {
+          "field": "longDescription",
+          "sentence": "It was not Messianic Judaism, a movement of Jewish believers, and the two traditions' own publications drew that line themselves.",
+          "other": "Messianic Judaism",
+          "other_id": "messianic-judaism",
+          "other_id_note": "census entry messianic-judaism (Messianic Judaism)",
+          "other_era": 10,
+          "claim": "Hebrew Roots was not Messianic Judaism",
+          "other_names_it": false,
+          "other_sentence": null
+        },
+        {
+          "field": "longDescription",
+          "sentence": "There is an older root as well: the Sacred Name movement of the 1930s, out of Adventist and Church of God (Seventh Day) circles, whose periodical The Faith dates from 1937.",
+          "other": "Adventist",
+          "other_id": "seventh-day-adventist-church-twentieth-century",
+          "other_id_note": "census entry: Adventist circles of the 1930s",
+          "other_era": 10,
+          "claim": "The 1930s Sacred Name movement came out of Adventist circles",
+          "other_names_it": false,
+          "other_sentence": null
+        },
+        {
+          "field": "longDescription",
+          "sentence": "There is an older root as well: the Sacred Name movement of the 1930s, out of Adventist and Church of God (Seventh Day) circles, whose periodical The Faith dates from 1937.",
+          "other": "Church of God (Seventh Day) circles",
+          "other_id": null,
+          "other_id_note": "church body named in the text; no census entry",
+          "other_era": null,
+          "claim": "The Sacred Name movement came out of Church of God (Seventh Day) circles",
+          "other_names_it": null,
+          "other_sentence": null
+        },
+        {
+          "field": "why",
+          "sentence": "It had an older root too, in the Sacred Name movement of the 1930s, whose periodical The Faith dates from 1937.",
+          "other": "the Sacred Name movement of the 1930s",
+          "other_id": null,
+          "other_id_note": "Sacred Name movement named in the text; no census entry",
+          "other_era": null,
+          "claim": "Hebrew Roots had an older root in the 1930s Sacred Name movement",
+          "other_names_it": null,
+          "other_sentence": null
+        },
+        {
+          "field": "why",
+          "sentence": "From the 1990s a largely gentile current of Christians took up Torah observance — keeping the Sabbath and biblical feasts — through congregations and, increasingly, online teaching ministries; its own publications were careful to distinguish it from Messianic Judaism, a movement of Jewish believers.",
+          "other": "Messianic Judaism",
+          "other_id": "messianic-judaism",
+          "other_id_note": "census entry messianic-judaism (Messianic Judaism)",
+          "other_era": 10,
+          "claim": "Its own publications separated it from Messianic Judaism",
+          "other_names_it": false,
+          "other_sentence": null
+        }
+      ],
+      "hygiene": [
+        "First Fruits of Zion",
+        "119 Ministries",
+        "Divine Invitation"
+      ]
+    },
+    {
+      "id": "the-christian-right",
+      "name": "The Christian Right",
+      "dates": "1979-c. 2010",
+      "existing_links": [],
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "The entry on Fundamentalism traces this movement back to it.",
+          "other": "Fundamentalism",
+          "other_id": "fundamentalism-1910-1970s",
+          "other_id_note": "census entry fundamentalism-1910-1970s (Fundamentalism)",
+          "other_era": 10,
+          "claim": "The Christian Right traces back to Fundamentalism",
+          "other_names_it": true,
+          "other_sentence": "The Christian Right has its own entry."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "That month Ronald Reagan spoke in Dallas, at a briefing run by another group, the Religious Roundtable.",
+          "other": "the Religious Roundtable",
+          "other_id": null,
+          "other_id_note": "briefing group named in the text; no census entry",
+          "other_era": null,
+          "claim": "Reagan spoke at a briefing run by the Religious Roundtable in 1980",
+          "other_names_it": null,
+          "other_sentence": null
+        },
+        {
+          "field": "why",
+          "sentence": "Another group, the Religious Roundtable, ran it.",
+          "other": "the Religious Roundtable",
+          "other_id": null,
+          "other_id_note": "briefing group named in the text; no census entry",
+          "other_era": null,
+          "claim": "Reagan spoke at a briefing run by the Religious Roundtable",
+          "other_names_it": null,
+          "other_sentence": null
+        }
+      ],
+      "hygiene": [
+        "the Moral Majority",
+        "the Christian Coalition",
+        "Faith and Freedom Coalition",
+        "not all evangelicals"
+      ]
+    },
+    {
+      "id": "the-anglican-communion-twentieth-century",
+      "name": "The Anglican Communion in the Twentieth Century",
+      "dates": "1906-c. 2010",
+      "existing_links": [],
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "It carries on from the Victorian Church of England and the Oxford Movement.",
+          "other": "the Victorian Church of England",
+          "other_id": "victorian-church-of-england",
+          "other_id_note": "census entry victorian-church-of-england (The Victorian Church of England)",
+          "other_era": 9,
+          "claim": "The Anglican Communion carries on from the Victorian Church of England",
+          "other_names_it": true,
+          "other_sentence": "The Church of England is still established in England, and the conference it improvised in 1867 became the standing instrument of an Anglican Communion of tens of millions across the world."
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "It carries on from the Victorian Church of England and the Oxford Movement.",
+          "other": "the Oxford Movement",
+          "other_id": "the-oxford-movement-and-anglo-catholic-revival",
+          "other_id_note": "census entry the-oxford-movement-and-anglo-catholic-revival (The Oxford Movement & Anglo-Catholic Revival)",
+          "other_era": 9,
+          "claim": "The Anglican Communion carries on from the Oxford Movement",
+          "other_names_it": true,
+          "other_sentence": "Anglo-Catholicism became a lasting party inside Anglicanism, and it is still there, worldwide."
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "In this era Anglicans also appear inside other stories, such as the East African Revival and the Church of South India.",
+          "other": "the East African Revival",
+          "other_id": "the-east-african-revival-balokole",
+          "other_id_note": "census entry the-east-african-revival-balokole (The East African Revival (Balokole))",
+          "other_era": 10,
+          "claim": "Anglicans appear inside the East African Revival",
+          "other_names_it": true,
+          "other_sentence": "African-led within (and often against) mission Anglicanism; martyrs include Janani Luwum."
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "In this era Anglicans also appear inside other stories, such as the East African Revival and the Church of South India.",
+          "other": "the Church of South India",
+          "other_id": null,
+          "other_id_note": "Indian church named in the text; no census entry",
+          "other_era": null,
+          "claim": "Anglicans appear inside the Church of South India",
+          "other_names_it": null,
+          "other_sentence": null
+        },
+        {
+          "field": "longDescription",
+          "sentence": "In June 2008 the first Global Anglican Future Conference (GAFCON) met in Jerusalem.",
+          "other": "Global Anglican Future Conference (GAFCON)",
+          "other_id": null,
+          "other_id_note": "Anglican conference named in the text; no census entry",
+          "other_era": null,
+          "claim": "GAFCON met in Jerusalem in 2008 and issued the Jerusalem Declaration",
+          "other_names_it": null,
+          "other_sentence": null
+        }
+      ],
+      "hygiene": [
+        "the Lambeth Conference",
+        "Anglican Consultative Council",
+        "the Jerusalem Declaration"
+      ]
+    },
+    {
+      "id": "the-rescue-mission-movement",
+      "name": "The Rescue Mission Movement",
+      "dates": "1906-c. 2010",
+      "existing_links": [],
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "The Salvation Army did the same kind of work, but as a church body.",
+          "other": "The Salvation Army",
+          "other_id": "the-salvation-army",
+          "other_id_note": "census entry the-salvation-army (The Salvation Army)",
+          "other_era": 9,
+          "claim": "The Salvation Army did similar work as a church body",
+          "other_names_it": false,
+          "other_sentence": null
+        }
+      ],
+      "hygiene": [
+        "revival-based welfare movements of 1865 to 1920",
+        "the Pacific Garden Mission",
+        "a National Federation of Gospel Missions",
+        "the International Union of Gospel Missions",
+        "the Association of Gospel Rescue Missions"
+      ]
+    },
+    {
+      "id": "the-christian-homeschool-movement",
+      "name": "The Christian Homeschool Movement",
+      "dates": "1983-c. 2010",
+      "existing_links": [],
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "That ties this entry to Fundamentalism.",
+          "other": "Fundamentalism",
+          "other_id": "fundamentalism-1910-1970s",
+          "other_id_note": "census entry fundamentalism-1910-1970s (Fundamentalism)",
+          "other_era": 10,
+          "claim": "The homeschool movement ties back to Fundamentalism through a Baptist school",
+          "other_names_it": false,
+          "other_sentence": null
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Sociologist Mitchell Stevens traced one root of homeschooling to the Christian day-school movement of the 1960s and 1970s.",
+          "other": "the Christian day-school movement",
+          "other_id": null,
+          "other_id_note": "Christian day-school movement named in the text; no census entry",
+          "other_era": null,
+          "claim": "One root of homeschooling lay in the Christian day-school movement",
+          "other_names_it": null,
+          "other_sentence": null
+        },
+        {
+          "field": "why",
+          "sentence": "He traced one of its two roots to the Christian day schools of the 1960s and 1970s.",
+          "other": "the Christian day schools",
+          "other_id": null,
+          "other_id_note": "Christian day schools named in the text; no census entry",
+          "other_era": null,
+          "claim": "One root of homeschooling lay in the Christian day schools",
+          "other_names_it": null,
+          "other_sentence": null
+        }
+      ],
+      "hygiene": [
+        "a fundamentalist Baptist school",
+        "a Baptist school in Illinois",
+        "Home School Legal Defense Association"
+      ]
+    },
+    {
+      "id": "the-third-wave-and-the-vineyard",
+      "name": "The Third Wave & the Vineyard",
+      "dates": "1982-c. 2010",
+      "existing_links": [],
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "It follows the charismatic renewal and the Jesus movement.",
+          "other": "the charismatic renewal and the Jesus movement",
+          "other_id": "charismatic-renewal-and-the-jesus-movement",
+          "other_id_note": "census entry charismatic-renewal-and-the-jesus-movement (Charismatic Renewal & the Jesus Movement)",
+          "other_era": 10,
+          "claim": "The Third Wave follows the charismatic renewal and the Jesus movement",
+          "other_names_it": true,
+          "other_sentence": "The North Atlantic middle between the early Pentecostal movement (which had largely settled by the 1920s) and the later Global South Pentecostal explosion (1950s onward): Dennis Bennett's 3 April 1960 Van Nuys announcement (the conventional start), the mainline charismatic wave, Calvary Chapel (1965), the Jesus movement (1967-72), and the Vineyard association (1982, the start of the third wave); it fed directly into the megachurch movement and the New Calvinist current's own church-planting networks."
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Yet they did not adopt Pentecostal or charismatic theology or worship styles.",
+          "other": "Pentecostal or charismatic theology or worship styles",
+          "other_id": null,
+          "other_id_note": "Pentecostal and charismatic traditions named in the text; no single census entry",
+          "other_era": null,
+          "claim": "The Third Wave did not adopt Pentecostal or charismatic theology or worship",
+          "other_names_it": null,
+          "other_sentence": null
+        },
+        {
+          "field": "why",
+          "sentence": "But they did not take on Pentecostal or charismatic theology or worship styles.",
+          "other": "Pentecostal or charismatic theology or worship styles",
+          "other_id": null,
+          "other_id_note": "Pentecostal and charismatic traditions named in the text; no single census entry",
+          "other_era": null,
+          "claim": "The Third Wave did not take on Pentecostal or charismatic theology or worship",
+          "other_names_it": null,
+          "other_sentence": null
+        }
+      ],
+      "hygiene": [
+        "The Toronto Blessing",
+        "Fuller Theological Seminary",
+        "two other new church networks"
+      ]
+    },
+    {
+      "id": "promise-keepers-and-the-christian-mens-movement",
+      "name": "Promise Keepers & the Christian Men's Movement",
+      "dates": "1990-c. 2010",
+      "existing_links": [],
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "Its setting was evangelical, like that of the megachurches and of Lausanne-era evangelicals.",
+          "other": "the megachurches",
+          "other_id": "the-megachurch-and-seeker-movement",
+          "other_id_note": "census entry the-megachurch-and-seeker-movement (The Megachurch & Seeker Movement)",
+          "other_era": 10,
+          "claim": "Promise Keepers' evangelical setting was like the megachurches'",
+          "other_names_it": false,
+          "other_sentence": null
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "Its setting was evangelical, like that of the megachurches and of Lausanne-era evangelicals.",
+          "other": "Lausanne-era evangelicals",
+          "other_id": "lausanne-era-global-evangelicalism",
+          "other_id_note": "census entry lausanne-era-global-evangelicalism (Lausanne-Era Global Evangelicalism)",
+          "other_era": 10,
+          "claim": "Promise Keepers' evangelical setting was like that of Lausanne-era evangelicals",
+          "other_names_it": false,
+          "other_sentence": null
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "James Mathisen set it apart from the wider men's movement.",
+          "other": "the wider men's movement",
+          "other_id": null,
+          "other_id_note": "men's movement named in the text; no census entry",
+          "other_era": null,
+          "claim": "James Mathisen set Promise Keepers apart from the wider men's movement",
+          "other_names_it": null,
+          "other_sentence": null
+        }
+      ],
+      "hygiene": [
+        "the American church"
+      ]
+    },
+    {
+      "id": "the-church-struggle-against-apartheid",
+      "name": "The Church Struggle against Apartheid",
+      "dates": "1960-1994",
+      "existing_links": [],
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "It stands beside the Confessing Church in Germany as a comparison, not a line of descent.",
+          "other": "the Confessing Church in Germany",
+          "other_id": "the-confessing-church",
+          "other_id_note": "census entry the-confessing-church (The Confessing Church)",
+          "other_era": 10,
+          "claim": "The church struggle stands beside the Confessing Church as a comparison",
+          "other_names_it": false,
+          "other_sentence": null
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "Its carriers included the South African Council of Churches, the Institute for Contextual Theology and the Dutch Reformed Mission Church.",
+          "other": "the South African Council of Churches",
+          "other_id": null,
+          "other_id_note": "council of churches named in the text; no census entry",
+          "other_era": null,
+          "claim": "The South African Council of Churches was one carrier of the struggle",
+          "other_names_it": null,
+          "other_sentence": null
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "Its carriers included the South African Council of Churches, the Institute for Contextual Theology and the Dutch Reformed Mission Church.",
+          "other": "the Dutch Reformed Mission Church",
+          "other_id": null,
+          "other_id_note": "Dutch Reformed mission church named in the text; no census entry",
+          "other_era": null,
+          "claim": "The Dutch Reformed Mission Church was one carrier of the struggle",
+          "other_names_it": null,
+          "other_sentence": null
+        },
+        {
+          "field": "longDescription",
+          "sentence": "In October 1982 a synod of the Dutch Reformed Mission Church, meeting at Belhar, accepted a draft confession.",
+          "other": "the Dutch Reformed Mission Church",
+          "other_id": null,
+          "other_id_note": "Dutch Reformed mission church named in the text; no census entry",
+          "other_era": null,
+          "claim": "The Dutch Reformed Mission Church's Belhar synod accepted a draft confession in 1982",
+          "other_names_it": null,
+          "other_sentence": null
+        }
+      ],
+      "hygiene": [
+        "the Institute for Contextual Theology",
+        "the Kairos Theologians",
+        "the Cottesloe Consultation"
+      ]
+    },
+    {
+      "id": "protestantism-in-latin-america",
+      "name": "Protestantism in Latin America",
+      "dates": "1916-c. 2010",
+      "existing_links": [],
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "René Padilla and Samuel Escobar argued for integral mission at Lausanne in 1974.",
+          "other": "Lausanne",
+          "other_id": "lausanne-era-global-evangelicalism",
+          "other_id_note": "census entry lausanne-era-global-evangelicalism (Lausanne-Era Global Evangelicalism)",
+          "other_era": 10,
+          "claim": "Padilla and Escobar argued for integral mission at Lausanne in 1974",
+          "other_names_it": false,
+          "other_sentence": null
+        },
+        {
+          "field": "longDescription",
+          "sentence": "Her book of 2004 sets out to show how Pentecostalism there took on a Quichua form.",
+          "other": "Pentecostalism",
+          "other_id": null,
+          "other_id_note": "Pentecostal tradition named in the text; no single census entry for Latin America",
+          "other_era": null,
+          "claim": "Ecuadorian Pentecostalism took on a Quichua form",
+          "other_names_it": null,
+          "other_sentence": null
+        },
+        {
+          "field": "why",
+          "sentence": "They met because the world mission conference at Edinburgh in 1910 had left Latin America out.",
+          "other": "the world mission conference at Edinburgh in 1910",
+          "other_id": "the-student-volunteer-movement-and-edinburgh-191",
+          "other_id_note": "census entry the-student-volunteer-movement-and-edinburgh-191 (The Student Volunteer Movement & Edinburgh 1910)",
+          "other_era": 9,
+          "claim": "The 1916 Panama congress met because Edinburgh 1910 had left Latin America out",
+          "other_names_it": false,
+          "other_sentence": null
+        }
+      ],
+      "hygiene": [
+        "the Latin American Theological Fraternity",
+        "called CLADE",
+        "That council, CLAI",
+        "CONELA",
+        "FEINE"
+      ]
+    },
+    {
+      "id": "korean-protestantism-twentieth-century",
+      "name": "Korean Protestantism in the Twentieth Century",
+      "dates": "1907-c. 2010",
+      "existing_links": [],
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "The Pyongyang revival of 1907 has its own entry, which ends in 1910.",
+          "other": "The Pyongyang revival of 1907",
+          "other_id": "the-1904-07-revival-family-wales-mukti-india-pyo",
+          "other_id_note": "census entry the-1904-07-revival-family-wales-mukti-india-pyo (The 1904-07 Revival Family (Wales; Mukti India; Pyongyang Korea))",
+          "other_era": 10,
+          "claim": "The Pyongyang revival of 1907 has its own entry ending in 1910",
+          "other_names_it": true,
+          "other_sentence": "Korea's church in particular grew out of this decade and the decades just before it — Horace Allen's arrival in 1884, Underwood and Appenzeller in 1885, the Nevius method adopted in 1890 — and it went on growing long after the revival wave had passed."
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "Yoido Full Gospel Church, founded in Seoul in 1958, is told with Global South Pentecostal Christianity.",
+          "other": "Global South Pentecostal Christianity",
+          "other_id": "global-south-pentecostal-christianity",
+          "other_id_note": "census entry global-south-pentecostal-christianity (Global South Pentecostal Christianity)",
+          "other_era": 10,
+          "claim": "Yoido Full Gospel Church is told with the Global South Pentecostal entry",
+          "other_names_it": false,
+          "other_sentence": null
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "Korea's Catholics have their own entry, which ends in 1886.",
+          "other": "Korea's Catholics",
+          "other_id": "korean-catholic-origins",
+          "other_id_note": "census entry korean-catholic-origins (Korean Catholic Origins)",
+          "other_era": 9,
+          "claim": "Korea's Catholics have their own entry ending in 1886",
+          "other_names_it": false,
+          "other_sentence": null
+        },
+        {
+          "field": "longDescription",
+          "sentence": "The articles came from the Presbyterian Church in India, which had drawn them up in 1904.",
+          "other": "the Presbyterian Church in India",
+          "other_id": null,
+          "other_id_note": "Indian Presbyterian church named in the text; no census entry",
+          "other_era": null,
+          "claim": "The Twelve Articles came from the Presbyterian Church in India",
+          "other_names_it": null,
+          "other_sentence": null
+        }
+      ],
+      "hygiene": [
+        "Kosin, Kijang, Hapdong and Tonghap",
+        "Yoido Full Gospel Church, founded in Seoul in 1958"
+      ]
+    },
+    {
+      "id": "japanese-christianity-after-1906",
+      "name": "Japanese Christianity after 1906",
+      "dates": "1906-c. 2010",
+      "existing_links": [],
+      "relationships": [
+        {
+          "field": "relationsSummary",
+          "sentence": "It carries on from the entry on the Hidden Christians and the Meiji church, which ends in 1906.",
+          "other": "the Hidden Christians and the Meiji church",
+          "other_id": "japanese-christianity-hidden-emergence-meiji",
+          "other_id_note": "census entry japanese-christianity-hidden-emergence-meiji (Japanese Christianity — the Hidden Christians’ Emergence & the Meiji Church)",
+          "other_era": 9,
+          "claim": "The entry carries on from the Hidden Christians and Meiji church entry",
+          "other_names_it": false,
+          "other_sentence": null
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "That entry names Uchimura Kanzō's Non-Church movement, begun in 1901, and Nikolai's Orthodox mission, dated from 1861.",
+          "other": "Uchimura Kanzō's Non-Church movement",
+          "other_id": null,
+          "other_id_note": "Non-Church movement named in the text; no census entry",
+          "other_era": null,
+          "claim": "The Non-Church movement began in 1901",
+          "other_names_it": null,
+          "other_sentence": null
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "That entry names Uchimura Kanzō's Non-Church movement, begun in 1901, and Nikolai's Orthodox mission, dated from 1861.",
+          "other": "Nikolai's Orthodox mission",
+          "other_id": null,
+          "other_id_note": "Orthodox mission named in the text; no census entry",
+          "other_era": null,
+          "claim": "Nikolai's Orthodox mission dates from 1861",
+          "other_names_it": null,
+          "other_sentence": null
+        },
+        {
+          "field": "relationsSummary",
+          "sentence": "Japan's Orthodox Church belongs to this entry's family, as its Catholics do.",
+          "other": "Japan's Orthodox Church",
+          "other_id": null,
+          "other_id_note": "Orthodox church named in the text; no census entry",
+          "other_era": null,
+          "claim": "Japan's Orthodox Church belongs to this entry's family",
+          "other_names_it": null,
+          "other_sentence": null
+        }
+      ],
+      "hygiene": [
+        "the Kyodan",
+        "Japan's own Christian movements"
+      ]
+    }
+  ]
+}

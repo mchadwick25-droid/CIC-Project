@@ -840,6 +840,28 @@ out".
 
 ---
 
+## 2026-11-10 — P2-L10 starts; evidence for era 10 links
+
+Mark: "yes, start P2-L10". The era 10 gate has ruled, so the 2026-11-08 deferral ("The link work
+covers eras 1 to 9") ends. On the evidence question Mark chose (b). A church body's own dated text,
+read online, and a study confirmed in the run may support a link. Such a link reaches Widely
+Accepted at most, and Documented stays reserved for a quote held in the Library. Full entry: Atlas
+World Map Decision-Log, "Change order: evidence for era 10 links".
+
+Era 10 runs in two parts by lane, as era 9 did:
+- part 1: the Protestant, Pentecostal, Cross-Family and Protestant-bridge lanes, 38 movements;
+- part 2: the rest, 33 movements.
+
+---
+
+## 2026-11-10 — A seventh link type, "member of"; Q2 and Q3 as recommended
+
+Mark: "do the right thing not the easy, so b", then "Q1 b only". Membership of a council or
+fellowship of churches is its own link type, "member of", and never major. A movement writer's own
+dated text counts like a church body's own text, capped at Widely Accepted. Each denomination's own
+statement in *Religious Bodies 1906* counts as its own text. Full entry: Atlas World Map
+Decision-Log, "Change order: a seventh link type".
+
 ## 2026-11-10 — Rows labeled "N. America" get countries from their own text
 
 Mark chose option (c). A row whose place label includes "N. America" lists a modern country only
