@@ -13,6 +13,42 @@ actual world-selection flow is a future decision for the front-end thread, not t
 
 ---
 
+## 2026-11-10 — P2-G89b carried out: data release 33 adds the eras 8 and 9 sweep's 26 rows
+
+**Done under the gate ruling, in auto mode.** Mark answered the P2-G89 gate "all recommended"
+(G89-1 to G89-55, sub-questions included), gave leave for the Coptic row to start in 1517 (G89-8
+a), and took G89-9 (a). The ruled rows and named lines were drafted in eight slices by Sonnet and
+reviewed by Opus from their sources, three rounds at most each. Every slice was approved. Data
+release 33: 395 movements, 733 links.
+
+- **Era 8, VII.34 to VII.49:** the Coptic church under the Ottomans (from 1517), the Catholics of
+  the Ottoman Balkans, Chinese Catholicism 1650-1906, the Church of the East's three patriarchates,
+  Ethiopian Christianity from Gondar to the Zemene Mesafint, the Georgian church 1650-1811,
+  Hungarian and Transylvanian Protestantism, Japan's hidden Christians, Kongo Christianity after
+  1650, the Protestant churches of the VOC world, the Society of Jesus 1650-1814, Vietnamese
+  Catholicism to 1815, the Dutch Reformed church at the Cape, the Catholics of Dutch Ceylon, the St
+  Thomas Christians' two obediences, the Romanian Greek Catholic Church 1698-1815.
+- **Era 9, VIII.53 to VIII.62:** the southern African mission churches, the Caribbean churches of
+  slavery and emancipation, the Maronite church 1815-1906, the Moravian church after 1815, the Old
+  Believers after 1815, Polish and Lithuanian Catholicism under the partitions, the Romanian Greek
+  Catholic Church 1815-1906, Vietnamese Catholicism 1815-1906, the Arab evangelical churches,
+  Canudos.
+- **Change orders on frozen rows.** 34 rows take a ruled named line or a living-pass update. Four
+  links are retired and replaced through new rows (IV.26 to VIII.13, VI.30 to VIII.40, VII.19 to
+  VI.11, VIII.31 to VII.7). VII.23 starts in 1650 (G89-42 i). VIII.48 starts in 1810 (G89-17 a).
+- **Not entered.** Every item ruled "hold", every part whose named source was not read, and every
+  sentence whose item stayed [S], each with what it waits for (Open-Gaps, "Eras 8 and 9 rulings,
+  Africa holds" and the items after it, 2026-11-10).
+
+**Heart reasoning.** The sweep asked where the tree was silent about churches that were plainly
+there. Each new row says only what a text we opened says, and states the thinness of its sources
+where they are thin, rather than filling the silence with a likely story.
+
+**Next action.** The follow-up chunk enters the held items whose sources the Library's batch 2
+vendored. VIII.52's 1911 end and the North Europe breaks wait for their own passes.
+
+---
+
 ## 2026-11-10 — The grade of a "member of" link on a body's own membership record
 
 **Decided (Mark: "Widely Accepted").** A "member of" link may reach Widely Accepted on the

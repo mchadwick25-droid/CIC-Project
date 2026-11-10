@@ -1,0 +1,30 @@
+{
+ "slice": "RV-A",
+ "round": 2,
+ "verdict": "approve",
+ "blocking": [],
+ "substantial": [],
+ "minor": [
+  {"id": "R2-M1",
+   "where": "link catholic-church-ancien-regime--chinese-catholicism-1650-1906, src1 and outcome",
+   "problem": "The outcome names Ex illa die. The link's quote stops at 'praescriptum in Const.', so the constitution's name is not in the link's own sources.",
+   "evidence": "Collectanea I, lines 18656-18659, squashed: '... teneri emittere iuramentum praescriptum in Const. x illa die (1).' (verified).",
+   "fix": "Set lines to 18656-18659. Set the quote to 'R. Omnes etiam presbyteros indigenas, si- nenses, cocincinenses, tunquinenses etc. teneri emittere iuramentum praescriptum in Const. x illa die (1).'"},
+  {"id": "R2-M2",
+   "where": "society-of-jesus-1650-1814.longDescription[5], the Noël sentence",
+   "problem": "'In 1703 ... was sent to Rome' puts the sending in 1703. The memoir is dated 1703 and says he had been sent ('j'ai été envoyé ici').",
+   "evidence": "Lettres III, raw lines ~8574-8590.",
+   "fix": "'In 1703 a Jesuit, François Noël, wrote from Rome, where he had been sent over the honors paid in China to Confucius and to the dead.'"}
+ ],
+ "quotes_checked": 121,
+ "quotes_failed": [],
+ "notes": [
+  "Targeted recheck of the round 1 findings against Changes_r1.md. Every substantial finding is resolved: S1 (link to AP2, Noël line), S2 (AP3 hold), S3 (retire_links with replacedBy, G89-1 b), S4 (1711 fragment gone, the act's signers and the 1701 'visum est' line added, grade Widely Accepted), S5, S6 and S7 (Documented link with outcome). M2 to M7 are done.",
+  "The coordinator's decisions are taken as given. The IDs are removed and listed in a hold with my re-checked values. RV-3 is living:true with grade 'none' and a want.",
+  "check_draft.py against my own fetch (review/RVA/raw, which now includes lettres3.txt): 121 quotes, 0 misses. The only READ-FAILs are the frozen first paragraphs of VII.19 and VIII.29.",
+  "The drafter's lettres3.txt is byte-identical to my fetch. The edition line (Panthéon littéraire) matches the raw title page.",
+  "New Nilles and Collectanea quotes were re-checked in context: the signers line and the dating line are from the 1698 act, and 'visum est' is from the 1701 synod text.",
+  "No fact row still cites the 1711 fragment.",
+  "Counts: blocking 0, substantial 0, minor 2."
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "slice": "ME1",
+ "round": 2,
+ "verdict": "approve",
+ "blocking": [],
+ "substantial": [],
+ "minor": [
+  {
+   "id": "ME1-R2-M1",
+   "where": "fact_table",
+   "problem": "Rows still carry the round 1 sentences (\"In 1778 the patriarch of the plain turned to Rome...\", \"His nephew Hormizd wrote the next part himself\"). They no longer match the prose. They never reach the census.",
+   "evidence": "fact_table rows citing Badger 8059-8060 and Wigram 7498-7501 for the old why and longDescription text.",
+   "fix": "Re-key those rows to the new sentences or drop them."
+  },
+  {
+   "id": "ME1-R2-M2",
+   "where": "ME-1 and ME-2 sources vs links",
+   "problem": "The author is spelled \"Jérôme Labourt\" in the row sources but \"Jerome Labourt\" in the link sources.",
+   "evidence": "entries[0].sources[3], entries[1].sources[0] vs the links' work strings.",
+   "fix": "Use one spelling throughout."
+  }
+ ],
+ "quotes_checked": 179,
+ "quotes_failed": [],
+ "notes": "Targeted recheck of S1-S8 and M1-M12: all resolved as asked. check_draft.py on my own fetch: 179 quotes; 12 CE misses are my HTML-strip spacing, and all 99 raw quotes match after squashing it. The 7 READ-FAILs are frozen text: the 6 first paragraphs plus VII.23's teaser, where only 1724 -> 1650 changed. Re-verified: Hormizd and Yeshua-yau (Badger 8036-8037, 8063-8067), Pius VI 1782, Labourt 1818/1830, the Wigram 1828 lapse, the V.22 -> ME-2 Labourt quotes, the Dowling 1906 quote, the Bulgarian original (line 377), and Wigram 1896 (8064-8067). IV.15 evidence, grade and group are byte-identical to the census; V.22 continuesAs is unset. The row sources lists name only works the sentences rest on, with exact titles and plain, accurate notes."
+}

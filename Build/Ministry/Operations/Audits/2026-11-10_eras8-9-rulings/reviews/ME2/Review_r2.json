@@ -1,0 +1,40 @@
+{
+ "slice": "ME2",
+ "round": 2,
+ "verdict": "revise",
+ "blocking": [],
+ "substantial": [
+  {
+   "id": "R2-S1",
+   "where": "romanian-greek-catholic-church-1815-1906.longDescription (paragraphs 6, 8); ruthenian-uniate-18th-century.longDescription (terms paragraph)",
+   "problem": "Three originals now in prose are mended from the scan, with no note saying so. So they are not verbatim, as quotes must be (CLAUDE.md; Drafting_Brief, 'OCR errors included'). The other two are verbatim: 'stricată legea strămoșăscă' and 'romângscă unită. mitropolitană de Alba-luliu' (prose drops the full stop). The 1701 Latin matches once the scan's line-break hyphen is joined.",
+   "evidence": "grama1: 'r&mână neatinse' (prose 'rămână'); 'o simplă, alianță - politică intre dóuë confesiuni' (prose 'o simplă alianță politică între două confesiuni'). nilles: 'ritus graecae ecclesiae nobis servare Iice«t' (prose 'liceat').",
+   "fix": "Either print the scan's text exactly, or keep the mended forms and add to each row's sourcing: 'Words quoted from the damaged scans are given with the scan's errors mended.' The fact_table and flags keep the verbatim form. Pick one way and use it for all five originals."
+  }
+ ],
+ "minor": [
+  {
+   "id": "R2-m1",
+   "where": "polish-and-lithuanian-catholicism-under-the-partitions.sources",
+   "problem": "Kłoczowski and Porter-Szűcs are listed, but no sentence of the row rests on them ('Not read for this entry').",
+   "fix": "Remove both; they stay on IX.70."
+  },
+  {
+   "id": "R2-m2",
+   "where": "romanian-greek-catholic-church-1815-1906.longDescription[7-9]",
+   "problem": "'Some men attacked Vancea' has lost the named attackers. As a result, Densușianu appears two paragraphs later without being introduced. The one-line 'Their words: ...' paragraphs read as scaffolding.",
+   "fix": "'The Gazeta Transilvaniei and Nicolae Densușianu attacked Vancea. They said his synod of 1872 had harmed the law of the fathers (stricată legea strămoșăscă).' Fold the 'Their words' lines into the sentences they belong to."
+  },
+  {
+   "id": "R2-m3",
+   "where": "hungarian-and-transylvanian-protestantism-1650-1815.sources[0]",
+   "problem": "The library catalog (archive.org metadata) gives the author as 'Bauhofer, János György, 1806-1864'.",
+   "fix": "'János György Bauhofer' (or 'J. G. Bauhofer')."
+  }
+ ],
+ "quotes_checked": 138,
+ "quotes_failed": [
+  "(not a census quote) prose originals mended: see R2-S1"
+ ],
+ "notes": "Targeted recheck. check_draft.py on my fetch: 138 quotes. The 10 CE misses are my HTML-stripping whitespace; re-matched with punctuation spacing normalized, none fail. READ-FAILs: VII.7 (FRE 44), VIII.32 p0 and VII.28 p0 (FRE 24). All three come from frozen text: VII.28 p0 scores 24 alone and is string-identical to the census, as are VIII.32 p0 and VII.7's two frozen sentences.\n\nRound 1 findings closed: S1 (25 August now 'the day of the decree'). S2 (originals beside the renderings; Klein's 'promised to us and truly given' restored), apart from R2-S1. S3 (VIII.31 → VII.7 retired with replacedBy. The new link has 4 census Library quotes plus 2 from Conybeare, all checked at their lines; Documented and verified-direct are justified, since Mouravieff 1842 is a primary Library text). S4 (see below). S5 (note replaced). m1 to m10 all done.\n\nVII.28 line, checked fully against Nilles:\n- The petition is dated Uzhhorod, 15 January 1652.\n- The reception took place on 23 April, '1649' as printed, in the Latin castle church.\n- Nilles's note 'Sunt qui legendum putent 1646, quod Episcopus Jakusics jam an. 1647 e vita migraverit' is there. His contents list reads 'rite celebrata an. 1646 ac solemniter confirmata an. 1652'.\n- Bishop Tarasovicz of Munkács 'Unionis sacrae vinculum rupisset'.\n- The three terms are there, and Peter Parthenius is named for confirmation.\n- Every sentence is supported. The frozen paragraph is unchanged.\n- The line sits before the row's 1700 start as background, with the dates unchanged, which is acceptable.\n- The narrowed hold is right: VIII.38 and the Mukachevo see date (index '1771', not read in context; the record has it [S]).\n\nsources lists: each work listed for ME-5, the two ME-8 rows, ME-9 and VII.28 is one their sentences rest on, and the notes are plain. The exceptions are R2-m1 and R2-m3."
+}

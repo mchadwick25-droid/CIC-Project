@@ -1385,3 +1385,414 @@ it, never by deleting it.
     river origin carries a reason, a confidence and a source, kept as data in the page. The map does
     not yet show them, for example in the Rivers key. Whether it should is a front-end question for
     Mark.
+175. **Eras 8 and 9 rulings, Africa holds (2026-11-10).** P2-G89b (data release 33) carried out
+    Mark's rulings on the eras 8-9 global sweep. Each hold below gives what is held, its G89
+    question and what it waits for. Drafts:
+    `Build/Ministry/Operations/Audits/2026-11-10_eras8-9-rulings/drafts/`.
+    - **AF-8, West Africa before the mission societies** (G89-12 a). Nothing was opened for Quaque,
+      Capitein or Rebecca Protten; the only lead for Capitein is a 2001 translation, not public
+      domain. Waits for a pre-1930 source for Quaque (SPG) and the Freetown settlers' churches,
+      opened raw.
+    - **AF-9, the Swedish mission in Eritrea from 1866 and Onesimos Nesib's Oromo Bible (1899)**
+      (G89-13 a). Only [S] in the record; no source was read. Waits for a pre-1930 Swedish
+      Evangelical Mission report or a life of Onesimos Nesib, and a source for 1866.
+    - **AF-7, Ge'ez-rite Catholics (de Jacobis from 1839, Ghebre Mikael, Halai and Akkele Guzay)**
+      (G89-11 a). The article read does not name the rite, the date 1839 or Ghebre Mikael. Waits for
+      Crummey (1972) or a pre-1930 life of de Jacobis, opened raw.
+    - **AF-7, Coptic Catholics (the patriarchate named in 1824, filled in 1895)** (G89-11 a). [S] in
+      the record; only Butcher's account of 1741 was read. Waits for a source for 1824 and 1895.
+    - **AF-4, the synod resolution of 1857, the Dutch Reformed Mission Church (1881) and the link to
+      the church struggle against apartheid** (G89-5 a). Not in McCarter (1869). Waits for the Acta
+      Synodi of 1857 in Dutch and a pre-1930 history that prints the resolution and the founding.
+    - **AF-3, the years from about 1720 to 1879** (G89-9 a). Merolla (1692), Zucchelli (1715) and
+      Proyart (1814) are in the Library but were not read; Cavazzi's passage on Njinga's return was
+      not found in the OCR. Waits for a read of those texts for 1680-1760 and a source for
+      1720-1879.
+    - **AF-1, the Zemene Mesafint (its start in 1769 and its character)** (G89-7 a). No item read
+      describes it; the row's sentence rests on the record's own account. Waits for Guidi's annals
+      of Iyasu II and Iyo'as, or Weld Blundell's Royal Chronicle of Abyssinia (1922), opened raw.
+    - **Wanted:** Guidi, Annales (CSCO, 1903-05; lending-only copies on archive.org); Weld Blundell
+      (Cambridge, 1922; not found on archive.org by title); the Arabic History of the Patriarchs for
+      the Ottoman patriarchs; Vansleb, Histoire de l'Eglise d'Alexandrie (1677); the archons'
+      letters and waqf deeds, and Magdi Guirguis on the Jawhari brothers; Kongolese letters to Rome
+      and Lisbon, and the Capuchin manuscripts of Antonio de Teruel and Bernardo da Gallo; the Acta
+      Synodi of 1857 and a pre-1930 history of the Dutch Reformed Mission Church; Ntsikana's hymn in
+      Xhosa from a pre-1930 printing; a modern study of James Bruce as a witness to Ethiopia in the
+      1770s. The dated present-day statements wanted for the living marks are in "New rows marked
+      living with no dated source" (2026-11-10).
+176. **Eras 8 and 9 rulings, Latin America holds (2026-11-10).** From the same draft. Each hold
+    gives its G89 question and what it waits for.
+    - **LA8-6, Haiti before 1804 and after 1860 (the concordat church; Holly's Episcopal mission)**
+      (G89-18 a). Two studies were seen only as catalog records; no primary was opened and no
+      Library file covers Haiti. Waits for the Code Noir (1685), a French account of the concordat
+      church and James Theodore Holly's own writings. Then Holly enters as a line in VIII.46 or
+      VIII.1, and Saint-Domingue as a line in VII.17 or VII.19.
+    - **LA8-8, Cuba and Puerto Rico under Spain, 1815-1898 (a line in VIII.48)** (G89-20 a). Nothing
+      was opened; the record's items are all [S]. Waits for a source on the church under the
+      patronato in the two colonies. Claret's Autobiografia is a lead, but its first printing may be
+      after 1930.
+    - **LA8-9, the Bethlemites in Guatemala, 1650s-1820 (a line in VII.17)** (G89-21 a). Nothing was
+      opened; the record's items are all [S]. Waits for a pre-1930 source on Pedro de San Jose de
+      Betancur and the order of 1687.
+    - **LA8-10, the Virgin of Cancuc (1712) and the Talking Cross (1850-1901)** (G89-22 a). No
+      primary was opened and no Maya-language source is in the Library. The Talking Cross raises a
+      real Section A question that no dated statement answers. Waits for Francisco Ximenez's
+      chronicle for Cancuc, a dated Cruzob text and a Section A ruling on the Cross.
+    - **LA8-1, the revival of 1860-61 and Morant Bay (1865), as lines in the Caribbean row** (G89-14
+      a). Both are [S]. Phillippo (1843) and Bleby (1868) cannot speak to 1860-65, and Underhill
+      (1862) holds no account of the revival. Waits for a pre-1930 source on both. The row's
+      sourcing line says plainly that they are not yet told.
+    - **LA8-3, the Juazeiro line (Padre Cicero; the miracle of 1889) in VIII.48** (G89-15 a). The
+      record's items are Della Cava's study (a catalog record, in copyright) and [S] notes. Waits
+      for a pre-1930 source on Juazeiro or a reading of Della Cava, Miracle at Joaseiro. The
+      Tomochic line enters now.
+    - **LA8-7, Brazil's German Lutherans from 1824, as a line in VIII.41** (G89-19 a). The record's
+      item is [S]; no Library file covers it. Waits for a pre-1930 source on the Lutheran colonists
+      in Brazil. Then VIII.41 gains Brazil in its text and regions.
+    - **LA8-7, Kalley (1855), Simonton (1859), the Waldensians in Uruguay (1857) and Gardiner
+      (1851), in IX.63's pre-1916 line** (G89-19 a). All [S]; only Thomson (1818-21) was read, so
+      only he enters. Waits for Kalley's and Simonton's journals and a source for the Waldensian
+      colonies and Gardiner's mission.
+    - **Wanted:** Phillippo (1843), Bleby (1868), Hinton (1849), Wallbridge (1848), Euclides da
+      Cunha (1905), Vieira (1686), Antonil (1711) and Thomson (1827), read raw online and ready to
+      vendor (the Library holds nothing yet for the region between 1815 and 1906); a pre-1930 source
+      for the revival of 1860-61 and Morant Bay; a modern study for the Baptist link (Turner 1982;
+      Dayfoot 1999) to lift it above Inferential-Thin; the Conselheiro's own sermons and notebooks
+      and a dated statement of the community's faith, for the Section A question Euclides raises;
+      Hernandez y Davalos, Coleccion de documentos (1877-82), and Morelos's Sentimientos de la
+      Nacion (1813), not found on archive.org; Levine, Vale of Tears (1992), and Della Cava if a
+      lawful copy can be reached.
+177. **Eras 8 and 9 rulings, Asia part 1 holds (2026-11-10).** India, China, Japan, Korea and the
+    Peking mission.
+    - **AP7, the Catholic St Thomas Christians and the Chaldean Syrian body at Thrissur, 1815-1906,
+      then AP1 extended to 1906 and a link to VIII.40** (G89-29 c, then a). The record rests on two
+      pre-1930 Protestant studies (Richards 1908; Rae 1892, passage not located). The Chaldean
+      bishops of 1861 and 1874, the vicariates of 1887 and Chavara are [S]. Waits for one Catholic
+      or Malayalam source for the Catholic half in era 9, for example Chavara's own writings or
+      Syro-Malabar sources.
+    - **AP11, the Russian Ecclesiastical Mission in Peking and the Albazinians, 1685/1715-1906, then
+      a line in VIII.31** (G89-36 b). No source was opened; Widmer (1976) was not found on
+      archive.org. Waits for Widmer or a pre-1930 work on the mission and the Albazinians.
+    - **AP15, Korea 1884/1886-1906 (Protestant beginnings; the Catholic years after toleration),
+      then lines at the end of VIII.21 and in VIII.7** (G89-34 b). No source was opened. Waits for
+      dated primary sources for the Protestant congregations (the Ross translation, the Nevius plan)
+      and for the Catholic church after 1886.
+    - **Wanted:** Paremmakkal Thoma Kathanar, Varthamanappusthakam (c. 1790; no pre-1930 printing
+      found); the Malayalam originals of the Malankara history (Whitehouse App. D) and the Angamaly
+      document of 1787 (App. E); a fuller read of Raulin 1745 and Sebastiani 1666 and 1672, in the
+      Library, for AP1's window; Huang Bolu, Zhengjiao fengbao (1883), for the 1692 edict and the
+      1723 memorial; Tenchi hajimari no koto, the hidden Christians' own text; Urakawa Wasaburo,
+      Kirishitan no fukkatsu (1927-28), and a Japanese source for the village communities; Eric
+      Widmer (Harvard, 1976). The missing China ID is in "Missing modern-country IDs" (2026-11-10).
+178. **Eras 8 and 9 rulings, Asia part 2 holds (2026-11-10).** Southeast Asia, the Pacific and the
+    VOC world.
+    - **AP10, the Cofradia de San Jose (Hermano Pule), 1832-1841, then a line in VIII.39** (G89-33
+      b). Only Ileto (1979) was verified, and the Blair and Robertson volumes searched do not carry
+      the 1841 papers. No sentence can be drafted from it. Waits for a dated primary, such as the
+      1841 papers.
+    - **AP12, Christianity in colonial Australia and New Zealand, 1788-1906, as lines in VIII.29,
+      VIII.30 and VIII.34** (G89-35 c). Breward (2001) and Suttor (1965) were not opened. Waits for
+      primary sources for Australasia.
+    - **AP13, Maori Christianity, Pai Marire and Ringatu, 1862-1906** (G89-30 c). Section A cannot
+      be assessed. The only passage read is Cowan (1922), a hostile settler history. IX.26 starts in
+      1925, so a line there would sit before its own row's dates. Waits for a Maori-language or
+      Maori-authored source first: Te Ua's Ua Rongopai and the Ringatu Pukapuka.
+    - **AP14, the Pacific Christian kingdoms, 1797-1906** (G89-37 a). Carried: the Pacific wing
+      stays in VIII.7. Nothing is drafted. Splitting a Pacific row out would be a change order on a
+      frozen row, which the ruling declined. Waits for nothing in this sweep; a reader of the
+      Pacific wing may ask for a split later.
+    - **AP9, the Karen Baptist movement in Burma, 1828-1906, as a line in VIII.27** (G89-31 a). The
+      ruling asks for one modern study first. The only one found is an MA thesis (Opehtoo 2014) that
+      rests on Mason and Harris, so it does not check the missionary memoir. Waits for a published
+      modern history of the Karen Baptists and Karen-language sources.
+    - **Wanted:** the Vietnamese text of Philiphe Binh, Sach so sang chep cac viec (1822; no
+      pre-1930 printing found); Alexandre de Rhodes, Cathechismus (1651), the teaching and not only
+      the title page; a Vietnamese Catholic source for 1833-1906; Valentijn, Oud en Nieuw
+      Oost-Indien (1724-26), the Leijdecker Bible of 1733 and Ambon church records; the Dutch
+      proclamations of 1658 and 1715 against Catholics in Ceylon and a Dutch Reformed account of the
+      Ceylon church; Sebastiao do Rego's life of Joseph Vaz (1745) and Tamil and Sinhala Catholic
+      texts. The dated present-day records wanted are in "New rows marked living with no dated
+      source" (2026-11-10). The missing IDs and the VOC lineage question have their own items.
+179. **Eras 8 and 9 rulings, Middle East and Caucasus holds (2026-11-10).** Slice ME-1.
+    - **ME-2, the Maronite Church from Duwayhi to the Hindiyya affair (era 8 row)** (G89-39 a).
+      Enters once the acts of the 1736 synod of Mount Lebanon are opened. Mansi vol. 38 is not on
+      archive.org (most other volumes are). Without it the row would rest on Labourt and Volney
+      alone. Waits for Mansi vol. 38, Collectio Lacensis vol. 2 (1876) or another public-domain
+      edition of the acts.
+    - **ME-4, the Orthodox Patriarchate of Antioch, 1815-1906 (era 9 row)** (G89-42 a). The only
+      text read is Fortescue, a hostile Catholic witness. The first Arab patriarch, Meletios Doumani
+      (1899), is in no text read. Waits for an Orthodox source after 1815.
+    - **ME-7, the Syriac Orthodox Church and the Syriac Catholic split, c. 1650-1906** (G89-47 a).
+      Both texts in hand are outsiders (Badger, Anglican; Fortescue, Catholic). The record asks for
+      one own-voice or in-region item first. Waits for a Syriac or Arabic chronicle of the
+      patriarchate after 1369, or Parry (1895).
+    - **ME-16, the Holy Places and the Latin Patriarchate of Jerusalem (1847)** (G89-48 a). Held as
+      a gate note: a cross-church story, not a movement by the four marks. It may become a line in
+      the Orthodox and Catholic nineteenth-century rows. Waits for a decision on where the line sits
+      and a second, non-Catholic study beside Fortescue.
+    - **ME-21, the Hebrew Christians of Kishinev (Joseph Rabinowitz, 1884)** (G89-48 a). Snippet
+      only. Waits for a pre-1930 source on Rabinowitz and the Kishinev congregation, opened raw.
+    - **ME-18, the Volga missions and Il'minskii's schools** (G89-48 a). Only the Siberian part has
+      a source read (Mouravieff). Waits for a source on the Volga and Kazan missions and
+      Il'minskii's schools. The Beijing mission goes to the Asia slice.
+    - **ME-19, the Assyrian evangelical church, as a half of the Urmia line** (G89-48 a). Only the
+      Russian mission half has a source read (Wigram). Waits for Wigram on the Urmia Protestants or
+      a mission history such as Anderson (1872).
+    - **Wanted:** Mansi vol. 38; a clean Duwayhi, Tarikh al-ta'ifa al-maruniyya (the Library copy
+      has damaged OCR and serves only as a locator); Brosset, Histoire de la Georgie, modern volumes
+      (1856-58), and Grdzelidze, George and Vischer, Witness through Troubled Times (2006), for the
+      Exarchate before any era 9 row (G89-44 b); a source on the Serbian church at Karlovci and
+      Montenegro after 1815 (ME-17); a second source on the year the Urmia Assyrians joined the
+      Russian Orthodox mission (1896 in Wigram; 1898 in the sweep's [S] note). The Maronite years
+      1517-1650 are in "Years logged for other eras' owners" (2026-11-10).
+180. **Eras 8 and 9 rulings, Eastern Europe and Russia holds (2026-11-10).** Slice ME-2.
+    - **ME-6, the Dukhobors and the Molokans** (G89-46 a). The record holds each body for Section A.
+      Pinkerton (1814) reports that the Dukhobors rejected the outward church, the sacraments and
+      the icons; Conybeare's chapter on the Molokans' confession was not read. Waits for a dated
+      confession of each body (Conybeare Part II, ch. II is in the Library), then an era 9 row for
+      what clears.
+    - **ME-20, the Tolstoyans, 1880s-1906** (G89-48 a). A defined movement, but Section A is a floor
+      question: Tolstoy denied Christ's divinity on the record's unopened report. Waits for a dated
+      text of Tolstoy's before 1906. If it bears out the report, the movement is out of scope under
+      A1 unless Mark chooses a lane 8 entry.
+    - **ME-9, Hungarian and Transylvanian Protestantism, 1815-1906 (era 9 row)** (G89-45 a). The
+      only era 9 item read is one sentence of the Catholic Encyclopedia. Waits for a source from the
+      churches' own side after 1815, in Hungarian or by a Hungarian Reformed or Lutheran author.
+    - **ME-9, era 8 detail: Debrecen and Sarospatak, the Lutheran Slovaks and Germans of Upper
+      Hungary, the galley-slaves' own narratives** (G89-45 a). [S] in the record; Bauhofer was read
+      for the laws and the galleys only. Waits for a Hungarian-language source or the narrative of a
+      galley pastor such as Balint Kocsi Csergo.
+    - **ME-8, era 9 remainder: Blaj and the Transylvanian School, the metropolitanate of 1853, the
+      national revival** (G89-41 a). The row drafted rests on one church argument of 1893. The scan
+      prints 1855 for the metropolitanate; the record has 1853 as [S]. Waits for a second Romanian
+      study (Iorga, or Bunea's other works) with the date of the bull.
+    - **ME-8, era 8 remainder, 1751-1815: Sofronie, the Supplex Libellus Valachorum, Orthodox
+      resistance after Visarion** (G89-41 a). Nothing read tells the later eighteenth century. Waits
+      for Bunea's or Iorga's later volumes, or Nilles for the later documents.
+    - **ME-8, the Carpathian Ruthenian union after 1652 and its line in VIII.38** (G89-41 a). The
+      line in VII.28 is drafted from Nilles's petition of 1652. Nothing opened tells the church for
+      1815-1906; the Mukachevo see date is [S]. Nilles's index gives 1771 for the first bishop of
+      Munkacs, not read in context. Waits for a nineteenth-century source and Nilles's Munkacs
+      entries re-read.
+    - **ME-10, the Commonwealth church 1650-1772 and the Lithuanian book-smugglers of 1864-1904**
+      (G89-40 a). The record recommends an era 9 row only. Theiner vol. 4 (in the Library) was not
+      read. Waits for a Polish or Lithuanian source for each, and Theiner vol. 4 for the
+      Commonwealth church.
+    - **ME-5, own-voice texts: the Belaya Krinitsa statute, the encyclical of 1862, the decree of
+      1905** (G89-38 a). The row enters on Conybeare (1814) and the earlier entry's own-voice texts.
+      No Old Believer document of 1846 or 1905 was opened. Waits for Smirnov, Ivanovskii or Subbotin
+      on the Austrian hierarchy (Russian; no scan found), or the texts themselves.
+    - **Wanted:** a scan of Nilles's Symbolae with the Latin and Romanian text of the union act less
+      damaged; Polish pastoral letters of 1815-1906; a Hungarian-language source and a galley
+      pastor's narrative; Tolstoy's dated writings before 1906 and each Dukhobor and Molokan
+      confession. The dated record for the Reformed Church in Hungary and the Lutheran churches is
+      in "New rows marked living with no dated source" (2026-11-10). The two gaps after 1906 are in
+      "Years logged for other eras' owners" (2026-11-10).
+181. **Eras 8 and 9 rulings, Catholic missions and the Society of Jesus holds (2026-11-10).** Slice
+    RV-A.
+    - **RV-3, the Catholics of Bosnia, Albania and Bulgaria, 1815-1878 (era 9 part)** (G89-51 a).
+      Two items were read, Evans (1877), an outside witness critical of all the clergy, and Lins in
+      the Catholic Encyclopedia (1908), a Catholic study. They are not enough alone. The article
+      prints the name as "Solkolski". Waits for one more verified source: a Bosnian Franciscan
+      chronicle in Croatian or a non-Catholic study. The era 9 row, or a second segment, then
+      enters.
+    - **RV-3, the Bulgarian union of 1860-61, a line here or in VIII.28** (G89-51 a). An era 9
+      event, so it cannot sit in the era 8 row. The record names Lins (petition of 30 December 1860;
+      vicar apostolic consecrated 21 January 1861; he went to Odessa in June 1861; most went over to
+      the Exarchate). Waits for the era 9 part of RV-3, or the owner of VIII.28, and a non-Catholic
+      or Bulgarian source for the other side.
+    - **RV-3, Albanian and Bulgarian Catholics, 1650-1815 (era 8 part)** (G89-51 a). The items read
+      (Fermendzin 1892) concern Bosnia and Slavonia only. The row says so and lists no Albanian or
+      Bulgarian country. Waits for the Albanian council of 1703 (Concilium Albanum) and a source on
+      the Bulgarian Catholics before 1815.
+    - **RV-1, the dates of the expulsions (1759-67), the Malabar and Madurai rites, the Pragmatic
+      Sanction of 1767** (G89-1 b). All [S]. The text says the four kings expelled the Society but
+      gives no year. Waits for the Pragmatic Sanction or Dobrizhoffer (1784).
+    - **RV-1, the Society's years in Russia, 1773-1800** (G89-1 b). The row says the priests lived
+      "many years" in Russia, as the bull of 1814 does. No text read gives houses, numbers or dates
+      before the tsar's dispatch of 1800. Waits for a Polotsk source.
+    - **The AF-6 line in VIII.29, the parts not drafted** (G89-2 a, G89-10 a). [S] in the record:
+      the Spiritans under Libermann, the Society of African Missions of Lyon, Comboni's institutes,
+      Laval in Mauritius, Ohrwalder, de Jacobis, the Lazarist work in China and Ethiopia, and the
+      later work of the restored Jesuits. The Lazarists, the Holy Spirit Society and the Jesuits
+      appear only as names in Launay (1893). No source was read for Catholic missions in Oceania
+      before 1906. Waits for a read source for each: Hastings (1994), Laval and Ohrwalder, a
+      Lazarist history.
+    - **Propaganda in VIII.29, any act beyond 1845 and the press of 1867** (G89-2 a). The Library
+      holds only volume I of the Collectanea (to 1866). Waits for volume II (1867-1906), if the
+      source thread vendors it.
+    - **The link from RV-1 to AP3, Japan's hidden Christians** (G89-1 b). The ruling links them, but
+      no text read shows the Society in contact with the hidden communities between 1650 and 1814.
+      Their tie to the order runs through VI.11 and Kirishitan Japan, already linked. A link would
+      claim a contact the sources do not show. Waits for a text showing a Jesuit tie in the window,
+      or Mark's leave to rest on the existing VI.11 to VI.13b line.
+    - **Wanted:** Dobrizhoffer, Historia de Abiponibus (1784); the Pragmatic Sanction of Charles III
+      (1767); a Polotsk source; a modern history of the Society's suppression and a Jesuit letter or
+      house history from Paraguay or Russia (the sources read for RV-1 are Roman or outsiders'); a
+      Guarani-language or Guarani-written source for the reductions after 1743; a Bosnian Franciscan
+      chronicle in Croatian (Fojnica or Sutjeska), the Concilium Albanum (1703) and a non-Catholic
+      study; the Collectanea vol. II; Hastings, The Church in Africa 1450-1950 (1994), opened, to
+      grade the link from VIII.29 to IX.59 on the secondary it names. The IDs removed from RV-1 and
+      RV-3 are in "Missing modern-country IDs" (2026-11-10); the Jesuit and China link is in "Two
+      links with a candidate secondary quote" (2026-11-10).
+182. **Eras 8 and 9 rulings, Moravians, Arab evangelicals and Mennonites holds (2026-11-10).** Slice
+    RV-B.
+    - **RV-7, the Transylvanian Unitarians after the Polish exile, 1660-1906** (G89-53 a). A Section
+      A lane 8 question with thin sources; the only verified item is Rees's 1818 introduction to the
+      Racovian Catechism, a Unitarian study. Waits for a Transylvanian Unitarian source for
+      1660-1906, in Hungarian or Latin. Then a lane 8 row or a line closing VI.14.
+    - **RV-9, Kosmas the Aitolian (1714-1779)** (G89-55 a). Not a movement by the four marks on
+      present evidence. Nothing in the Library; archive.org holds only modern studies. Waits for a
+      pre-1930 text on Kosmas, read raw or vendored. Then a line in VII.18.
+    - **RV-8, the Toleration churches of Bohemia and Moravia, 1781-1906** (G89-54 a). The hidden
+      Unity before 1722 and the Patent of 1781 are told in VII.4. The Lutheran and Reformed
+      congregations of 1781-1906 lie outside this sweep's North Europe scope. Waits for a North
+      Europe pass.
+    - **RV-6, the AME Church and South Africa's Ethiopian Church (1896); Daniel Coker (1820); a link
+      from VIII.1 to IX.4** (G89-52 a). Both items are [S]; no verified source was read. Waits for a
+      pre-1930 text on the AME union of 1896 and on Coker's voyage of 1820.
+    - **VII.32's end date (1890) checked against 1906** (G89-49 a). The end rests on an 1890 manual;
+      Wiebe (1900) tells the Russian years only to 1876. The end is not moved. Waits for an inside
+      Mennonite source dated 1891-1906.
+    - **RV-5, other Moravian fields: Greenland, Nicaragua (the Moskito Coast), Ladakh, Alaska,
+      Australia** (G89-4 a). The record names five lines and only those are drawn; the others are
+      [S]. Hamilton covers some. Waits for a decision to widen the lines, then a read of the
+      matching chapters of Hamilton (1901).
+    - **RV-4, the Egypt synod date and the Evangelical Church of Egypt's later history** (G89-50 a).
+      The synod date is [S]; no sentence uses it. Waits for a dated Egypt church source after 1863
+      and an Arabic own voice, for example Bustani, for Syria.
+    - **Wanted:** an Arabic text from the evangelical churches themselves, and Rufus Anderson,
+      History of the Missions of the American Board to the Oriental Churches (1872), listed but not
+      opened; a Coptic voice on 1867, and Guirguis and van Doorn-Harder (2011) to test the
+      Watson-only links; J. Taylor Hamilton (1901) as a vendoring candidate, since every RV-5 quote
+      rests on the online copy and nothing Moravian after 1815 is in `cic/texts/`; P. M. Friesen,
+      Die Alt-Evangelische Mennonitische Bruderschaft in Russland (1911), and the charter of 1800; a
+      Liberian or Black American own voice (a published letter or church minute) so that Lott Cary
+      can be a people row, with Taylor (1837) as a vendoring candidate; Cranz and La Trobe (1780),
+      already in the Library, for a Greenland line. The dated record for the Arab evangelical
+      churches is in "New rows marked living with no dated source" (2026-11-10).
+183. **Missing modern-country IDs (2026-11-10).** A new row's modernCountries takes IDs from census
+    rows only, and each country's place must be on the row's place label. No census row carries the
+    countries and places below, so they are left out. Owner: the place-label work.
+    - **Africa:** kongo-christianity-after-1650 (Angola, DR Congo);
+      the-dutch-reformed-church-at-the-cape (South Africa); southern-african-mission-churches (South
+      Africa, Lesotho). All three lists are empty.
+    - **Latin America:** caribbean-churches-of-slavery-and-emancipation (Jamaica, Guyana). The list
+      is empty, though Jamaica is on its label. Jamaica Q766 is copied in only if a row that enters
+      carries it.
+    - **Asia:** chinese-catholicism-1650-1906 (China). VI.13c and IX.65 are empty too; adding a
+      China ID to the census place data lets all three be filled. vietnamese-catholicism-to-1815 and
+      vietnamese-catholicism-1815-1906 (Vietnam; no ID in the repo). catholics-of-dutch-ceylon (Sri
+      Lanka Q854, Jaffna Q215277, Puttalam Q3088741, found in
+      `Build/Ministry/Operations/Audits/2026-11-07_place-labels/countries-by-place.json`, not on a
+      census row). protestant-churches-of-the-voc-world has Java only; Ambon and the Moluccas have
+      no ID.
+    - **Eastern Europe:** hungarian-and-transylvanian-protestantism-1650-1815 (Hungary, Slovakia);
+      polish-and-lithuanian-catholicism-under-the-partitions (Lithuania); old-believers-after-1815
+      (Romania, for the Danube settlements; the place has no census ID and is not on the label).
+    - **Roman Catholic worlds:** society-of-jesus-1650-1814 (Paraguay);
+      catholics-of-the-ottoman-balkans (Bosnia, Slavonia). The reviewer re-checked four IDs on
+      Wikidata on 2026-11-10: Paraguay Q733, Bosnia and Herzegovina Q225, Croatia Q224 and Slavonia
+      Q681964. They are ready to add once the rule allows IDs from outside the census.
+    - **Moravians and Arab evangelicals:** moravian-church-after-1815 (Jamaica Q766, South Africa
+      Q258 with Genadendal Q1501295, Suriname, Tanzania, Germany with Saxony Q183 / Q1202, Canada
+      Q16); arab-evangelical-churches (Syria Q858, which is also not on its label); VIII.7
+      (Liberia). Jamaica and South Africa were looked up in the place-label audit, not the census.
+      Suriname, Tanzania and Liberia have no ID in the census or the audit.
+184. **VII.32's Russia and Ukraine (2026-11-10).** Ruling G89-49 a adds Russia (Q159) and Ukraine
+    (Q212) to VII.32's row. The text is added. The countries cannot sit on the row's two-place label
+    (Netherlands · Pennsylvania and beyond) under the validator's place-label rule, and changing the
+    frozen label is not in the ruling. Waits for a place-label decision: a rule that allows more
+    than two places, or a ruling to change the label. Owner: the place-label work.
+185. **Two links with a candidate secondary quote (2026-11-10).** Widely Accepted needs a secondary
+    quote. Each candidate below was added after the slice reviews closed and the coordinator ruled
+    it out of this release, so both links enter at Inferential-Thin. For the follow-up chunk, under
+    a fresh review.
+    - **chinese-catholicism-1650-1906 to society-of-jesus-1650-1814.** Candidate: The Catholic
+      Encyclopedia, vol. 3 (New York: Robert Appleton Company, 1908), article "China", the Jesuits
+      at the court of Peking. Quote: "The Jesuits, as astronomers or interpreters were in high
+      favour at Court". Public domain. File: `raw/cathen3.txt`. URL:
+      https://archive.org/download/catholicencyclop0003char/catholicencyclop0003char_djvu.txt
+      (accessed 2026-11-10).
+    - **southern-african-mission-churches to the-moravian-church-at-herrnhut.** Candidate: J. Taylor
+      Hamilton, A History of the Missions of the Moravian Church during the Eighteenth and
+      Nineteenth Centuries (Bethlehem, Pa.: Times Publishing Co., 1901), Chapter I, Schmidt at the
+      Cape. Quote: "Whilst Schmidt was laboring to overcome the prejudices of whites and reach
+      heathen hearts at the southern end of the continent". Public domain. File:
+      `raw/hamilton1901.txt`. URL:
+      https://archive.org/download/historyofmission00hami/historyofmission00hami_djvu.txt (accessed
+      2026-11-10).
+186. **New rows marked living with no dated source (2026-11-10).** Ten new entries are marked living
+    with livingEvidence graded "none (no dated item after 2010 found)". Each wants a dated
+    present-day source to grade CD or CR. Owner: P2-V's follow-up.
+    - kongo-christianity-after-1650: a dated statement of the Catholic Church in northern Angola and
+      the lower Congo, for example the diocese of M'banza-Kongo.
+    - the-dutch-reformed-church-at-the-cape: a dated statement of the Dutch Reformed Church (NG
+      Kerk).
+    - southern-african-mission-churches: a dated statement of the Moravian, Presbyterian, Methodist
+      and Lesotho Evangelical churches.
+    - caribbean-churches-of-slavery-and-emancipation: a dated own-voice item after 2010, for example
+      the Jamaica Baptist Union or the Methodist Church in the Caribbean and the Americas.
+    - vietnamese-catholicism-1815-1906: a dated statement of the Catholic Bishops' Conference of
+      Vietnam.
+    - catholics-of-dutch-ceylon: a dated statement of the Catholic Bishops' Conference of Sri Lanka.
+    - protestant-churches-of-the-voc-world: a dated record of the Protestant Church of the Moluccas,
+      and a source for its descent from the Company's church.
+    - hungarian-and-transylvanian-protestantism-1650-1815: a dated record for the Reformed Church in
+      Hungary and the Lutheran churches; the mark now rests on the record's word alone.
+    - catholics-of-the-ottoman-balkans: a dated present-day source on the Catholic Church in Bosnia
+      and Croatia.
+    - arab-evangelical-churches: a dated item from the National Evangelical Synod of Syria and
+      Lebanon or the Evangelical Church of Egypt.
+187. **VIII.52 runs to 1911, past era 9's end (2026-11-10).** Open. The sweep record flags it
+    (section 10) and no gate question covers it.
+188. **Two North Europe breaks stay open (2026-11-10).** The Scottish church after 1650 and the
+    Swedenborgians after 1815 have no entry. The ruling left both open. For a North Europe pass,
+    with the Toleration churches of Bohemia and Moravia in "Eras 8 and 9 rulings, Moravians, Arab
+    evangelicals and Mennonites holds" (2026-11-10).
+189. **Held items whose sources the Library now holds (2026-11-10).** The Library's batch 2 (PR
+    #1579) vendored sources for ME-20, ME-6 (the Dukhobors), RV-7, AP7, AP15, AP12 (in part), AP11,
+    LA8-6, LA8-8 and LA8-9. All stay held as ruled; their holds are in the region items "Eras 8 and
+    9 rulings, Africa holds" to "Eras 8 and 9 rulings, Moravians, Arab evangelicals and Mennonites
+    holds" (2026-11-10). A follow-up chunk enters them after this release. What the batch found:
+    "What the Library's second wants batch filled" (2026-11-10).
+190. **Years logged for other eras' owners (2026-11-10).** Holds that name an owner outside this
+    sweep. Nothing is drafted for them.
+    - **The Coptic church, c. 1300-1517 (the Mamluk years)**, between
+      coptic-christianity-fatimid-to-mamluk and the-coptic-church-under-the-ottomans (G89-8 a). AF-2
+      starts at 1517 by Mark's leave. Owner: the era 6 owner. See "Coptic and Ethiopian map gaps"
+      (2026-11-08); AF-1 and AF-2 close the rest of that break.
+    - **The Maronite years 1517-1650 (the Maronite College in Rome, 1584; the councils of 1596 and
+      1616)** (G89-39 a). Owner: the era 7 owner, as a separate change order.
+    - **The Romanian Greek Catholic Church, 1906-1948**, between ME-8's era 9 row and IX.73 (G89-41
+      a). The continued-as link crosses years no row tells. Owner: the era 10 owner.
+    - **Polish Catholicism, 1906-1918**, between ME-10 and IX.70 (G89-40 a). Same crossing. Owner:
+      the era 10 owner.
+    - **The Bulgarian union of 1860-61 as a line in VIII.28** (G89-51 a). Owner: the owner of
+      VIII.28, or the era 9 part of RV-3.
+191. **The VOC lineage question put to Mark (2026-11-10).** G89-27 a names no successor for the
+    Reformed church of the VOC world. The record marks the descent from it to the Protestant Church
+    of the Moluccas as [S]. Aritonang ch. 9 describes Joseph Kam's work from 1815 as a
+    rehabilitation of the same church, which reads as continuity, but VIII.26's own subject is
+    mainly the new mission churches. The tree has no entry for the Moluccan church between 1815 and
+    1861. No link is drafted. The question: should AP5 (protestant-churches-of-the-voc-world)
+    continue as VIII.26?
+    - Yes: a "continued as" link, at most Widely Accepted, with the 1815-1861 gap named.
+    - No: AP5 stands without a successor and the gap stays open. The living mark waits for a dated
+      record of the Protestant Church of the Moluccas.
+192. **Small questions the eras 8 and 9 rulings leave open (2026-11-10).** None changes what
+    entered. Each is a choice the ruling did not name. Owner: the coordinator, for Mark where
+    marked.
+    - VII.2 (Danish-Halle mission) keeps its dates, 1675-1750, as the ruling names no date change.
+      Its new line on Indian ordinations reaches 1813. For Mark: move the end, or keep it.
+    - VII.17 (New Spain and Peru) now has the place label "Peru · Brazil and beyond", because a
+      label holds two places and each country needs its place on it. Its short name still reads
+      "New Spain & Peru". For Mark: another label or short name.
+    - The Caribbean churches row carries no `kind`, like the Black Church in America row. A
+      "cross-church movement" kind would fit it only loosely. For Mark.
+    - Two open-access modern studies (Aritonang and Steenbrink 2008; Dutton 2017) carry sentences
+      in the Asia rows, as the sweep record cites them. Their archive.org records state no license,
+      so their sources carry none. The Library thread may record the licenses.
+    - Frozen paragraphs that changed rows carry unchanged still score below the reading target,
+      for example VIII.7, VIII.27, VII.2, VII.19, VIII.29, VIII.31, VIII.32 and VII.23's teaser.
+      The ruling did not name them. They wait for a readability pass on frozen text.

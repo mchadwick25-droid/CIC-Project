@@ -1,0 +1,121 @@
+{
+ "slice": "RV-A",
+ "round": 1,
+ "verdict": "revise",
+ "blocking": [],
+ "substantial": [
+  {
+   "id": "S1",
+   "where": "holds[3] (link RV-1 to AP2); society-of-jesus-1650-1814.longDescription[5]; fact_table[23]",
+   "problem": "G89-1 b says the China church stays its own row 'linked to it', and that RV-1 'names the Jesuit side in one line and links to AP2'. The link is held, and the Jesuit side is not named. The hold's reason is not accurate: it says no text read names the Society at Peking or in the Rites dispute. The record's own V item for RV-1 and AP2, the Lettres édifiantes vol. 3 (RV-1 B1; AP2 evidence), names both. AS1's draft of AP2 now says 'The Jesuits served the emperor as astronomers and interpreters', so AP2's prose names the tie and neither slice links it (two-way check). By Slices.md the link is RV-A's: G89-1 is RV-A's item.",
+   "evidence": "My fetch of archive.org lettresdifiantes03jesu (djvu), squashed text, all verbatim: line ~8577 'AU RÉVÉREND PÈRE GÉNÉRAL DE LA COMPAGNIE DE JESUS,' (heading of François Noël's memoir on the state of the China missions, 1703); line ~8585 'la grande et importante affaire des honneurs qu'on rend à la Chine à Confucius el aux morts' (Noël says he was sent to Rome on this, with Gaspard Castner); line ~8700 'Quoique nous ayons déjà (rois églises à Pé- kin'; de Mailla, Peking, 16 October 1724, line ~41870 'autres missionnaires, soit jésuites, soit des au- tres ordres qui sont répandus dans ce vaste empire'. AS1 draft fact table: CE 1908 vol. 3 'The Jesuits, as astronomers or interpreters were in high favour at Court'.",
+   "fix": "Draft link society-of-jesus-1650-1814--chinese-catholicism-1650-1906, type 'in contact with', Widely Accepted, verified-online, no outcome. Note: 'In 1703 the Jesuit François Noël wrote to his General on the China missions. He had come to Rome over the honors paid in China to Confucius and to the dead. His order then had three churches at Peking.' Sources: Noël's heading and the two Noël quotes above (Lettres III, raw_file raw/lettres3.txt). Add one line to RV-1 longDescription paragraph 6, before the pointer: 'In 1703 a Jesuit, François Noël, came to Rome over the honors paid in China to Confucius and to the dead.' Keep the pointer sentence. Delete the hold and correct fact_table[23]. Tell AS1 the pair is drafted here."
+  },
+  {
+   "id": "S2",
+   "where": "links / holds (RV-1 and AP3)",
+   "problem": "G89-1 b names three rows that 'stay their own rows, linked to it': AP2, AP3 and ME-8. Nothing is drafted or held for AP3 (japans-hidden-christians). A ruled item is missing.",
+   "evidence": "Record §8 G89-1 (b); §7 §1a option (b). AS1's AP3 links run kirishitan-japan → AP3 → VIII.45 and name no Jesuit tie after 1650.",
+   "fix": "No text read shows a tie between the Society and Japan's hidden Christians between 1650 and 1814. So add a hold: {item: 'Link RV-1 to AP3 (Japan's hidden Christians)', g89: 'G89-1 b', reason: 'The ruling links AP3 to RV-1. No text read shows the Society in contact with the hidden communities between 1650 and 1814. Their tie to the order runs through VI.11 and Kirishitan Japan, which are already linked. A link would claim a contact the sources do not show.', waits_for: 'a text showing a Jesuit tie to the hidden communities in the window, or Mark's leave to rest on the existing VI.11 → VI.13b line.'}"
+  },
+  {
+   "id": "S3",
+   "where": "links: catholic-church-ancien-regime--society-of-jesus-1650-1814; census link catholic-church-ancien-regime--the-society-of-jesus",
+   "problem": "The new 'argued against' link repeats the four quotes, note and outcome of the existing VII.19 → VI.11 link. Both would ship. The old link dates an act of 1773 and 1814 to a row that ends in 1650. The tree would carry one claim twice, once on the wrong row.",
+   "evidence": "Census edge catholic-church-ancien-regime--the-society-of-jesus: argued against, Documented, outcome 'In 1773 Pope Clement XIV shut down the Society of Jesus...'. Record §1a: VII.19 'carries a link argued against to VI.11'; G89-1 b: 'VII.19 keeps Rome's act' (the act now sits in RV-1's span). Drafter's flag EXISTING LINK.",
+   "fix": "Retire catholic-church-ancien-regime--the-society-of-jesus, with replacedBy catholic-church-ancien-regime--society-of-jesus-1650-1814, named in the register as part of the G89-1 b change order (the same move the brief makes for a 'continued as' link a new row sits inside). The coordinator should confirm it falls under G89-1 b. If it does not, ask Mark. Do not ship both links."
+  },
+  {
+   "id": "S4",
+   "where": "link romanian-greek-catholic-church-1698-1815--society-of-jesus-1650-1814 (src2, grade, outcome); fact_table[34]",
+   "problem": "(a) The third source, 'Albae-Juliae Unio Valacliorum graeci rittis cum Ec- cleaia Romana,', is not 'the editor's heading on the union at Alba Iulia'. It opens a sentence in the Jesuit residence history on the autumn synod of 1711: the union 'this year openly spewed out its poison'. Cut at the comma, it reads as a heading. Fact_table[34] uses it to support 'signed in 1698'. (b) The outcome's institutional act, the union of 1698, is shown in the link's quotes only by a dating line, which does not say what was dated. (c) Inferential-Thin does not fit a claim the union clergy state themselves in their own synod. A major outcome on the weakest grade is incoherent.",
+   "evidence": "My fetch of symbolaeadillus00nillgoog: lines 37112-37121, 'De Sjnodo autumnali iinni 1711. ... Albae-Juliae Unio Valacliorum graeci rittis cum Ec- cleaia Romana, qaae ... hoc anno palam suum virus evomuit'. The act itself is at lines ~26276-26300 (Latin column), with the readable 'Nos infraacripti Vladica, protoprosbyteri ae presbyte- ri ecclesiaruni ValaclHcarum' and the dating line. The 1701 synod (line ~23863) has 'visum est, ut in gremium Sanctae Romanae Ecolosiae nos reciperemus.' All verbatim in my fetch.",
+   "fix": "Drop src2 and fact_table[34]'s row. Add as sources (raw/nilles.txt): 'Nos infraacripti Vladica, protoprosbyteri ae presbyte- ri ecclesiaruni ValaclHcarum' (locus: the act of union, Alba Iulia, 7 October 1698, the signers) and 'visum est, ut in gremium Sanctae Romanae Ecolosiae nos reciperemus.' (locus: synod of 1701). Keep the dating line and the 'Octarus jam volvitur annus' quote. Grade Widely Accepted, the cap for an online primary. Note, last sentence: 'This rests on one Latin edition of 1885, and its scan is badly damaged.' Outcome stays: 'In 1698 the Romanian clergy at Alba Iulia joined Rome. Jesuit fathers there had opened the talks.' If the grade stays Inferential-Thin, drop the outcome."
+  },
+  {
+   "id": "S5",
+   "where": "catholics-of-the-ottoman-balkans: why, teaser, longDescription[4], legacy",
+   "problem": "The text joins the two documents into 'one long quarrel' that was 'still' open in 1746. They are different disputes. In 1689 the friars backed the bishop of Bosnia against the bishops of Zagreb. In 1746 the provincial defended the province's own rights to its Slavonian parishes. The letter's own Croatian opening says the bishops had agreed among themselves to take the parishes from the friars. The synthesis is the drafter's, not the sources'.",
+   "evidence": "Fermendžin lines 24876-24889 (1689: against Zagreb's jurisdiction; for the bishop of Bosnia). Lines 25822-25829 (1746 regest, then the letter: 'Znajte dobro^ da BQ se dogoTorili mri biskapi megiu wbom, da nam pootimaja sre', OCR of 'Know well that the bishops have agreed among themselves to take from us all...').",
+   "fix": "why: 'The friars of the Bosnian province spoke for the clergy and the people of their parishes. In 1689 they declared at Požega that for at least 170 years no bishop but the bishop of Bosnia had ruled that church. In 1746 their provincial gathered proofs for the court at Vienna, to defend the province's own parishes in Slavonia.' teaser: 'Bosnia and Slavonia, 1650 to 1815. The friars of the Bosnian province, and their fights over who held the Catholic parishes between the Sava and the Drava.' longDescription[4]: 'These are records of fights about parishes. They show the friars speaking for their people. They do not show how the people themselves saw the friars.' (and see M4 for the last sentence). legacy: 'In 1746 the province was still defending its parishes in Slavonia. The Library's calendar stops at 1752, so it does not show how that dispute ended. The years after 1815 wait for one more source.'"
+  },
+  {
+   "id": "S6",
+   "where": "catholics-of-the-ottoman-balkans: peopleNote, sourcing; fact_table[57]/[58] notes",
+   "problem": "The peopleNote says 'The Library holds only a later editor's Latin summary of what these friars wrote. No voice here is quoted in his own words.' That is not so. The calendar prints the 1689 declaration itself in Latin, in the name of the whole clergy and people. The drafter's own quote, 'saltem a centum septuaginta annis', comes from that text, not from the summary. The calendar also prints the opening of Ivanović's 1746 letter in his own Croatian. The scan is damaged and the rest is cut off. A false statement about the evidence, in a participant-facing field.",
+   "evidence": "Fermendžin line 24883: 'In Dei nomine Amen. Universus clerus et populus catholicus intra Savum et Dravam...' (the document, after the italic regest). Lines 25828-25829: 'Berereude pater definitor in Christo observantissime I Znajte dobro^ ...' (Croatian, Ivanović).",
+   "fix": "peopleNote: 'The calendar prints the 1689 declaration in Latin, in the name of the clergy and people. It also prints the opening lines of Ivanović's 1746 letter in Croatian, but the scan is too damaged to quote. No single friar's own words are quoted.' sourcing, third sentence: 'It prints Roman and Franciscan documents, among them a declaration in the name of the clergy and people, and not the people's own voice.' Correct the fact-table note 'The regest is the editor's Latin summary' to say that the 170-years quote is from the declaration's own text."
+  },
+  {
+   "id": "S7",
+   "where": "catholic-church-ancien-regime.longDescription (new paragraphs 3 to 5); links",
+   "problem": "Two-way check. The new VII.19 lines tell Rome ruling on the practice and clergy of the China church (1656, 1659, 1726; the 1726 ruling also covers Tonkin and Cochinchina). That relationship has no link and no qualified sentence. AS1's AP2 also tells Rome's rulings on the rites ('Rome later turned against the rites'), and it has no VII.19 link either. The 1726 ruling is an institutional act, a rule changed by an authority, on a Library primary.",
+   "evidence": "Collectanea I lines 7131-7135, 7486-7488, 8191-8197, 18645-18658 (all verbatim, checker). AS1 Draft.json links: none touch catholic-church-ancien-regime.",
+   "fix": "Draft catholic-church-ancien-regime--chinese-catholicism-1650-1906, 'in contact with', Documented, verified-direct. Sources: Collectanea I 7486-7488 ('censuit permittendas sinensi- bus christianis praenomatas caeremonias, quia videtur cultus esse mere civilis et politicus.') and 18656-18658 ('R. Omnes etiam presbyteros indigenas, si- nenses, cocincinenses, tunquinenses etc. teneri emittere iuramentum praescriptum in Const.'). Outcome: 'In 1726 Rome ruled that Chinese priests, and those of Tonkin and Cochinchina, must swear the oath set by the constitution Ex illa die.' VII.19 is RV-A's row and G89-2 a is RV-A's item, so it is drafted here. Tell AS1, so the pair is drafted once. A second link to vietnamese-catholicism-to-1815 (AS2), on the same 1726 quote, is optional. Without it, the VII.19 sentence naming Tonkin and Cochinchina stays as the 1726 ruling's own scope, and needs no link."
+  }
+ ],
+ "minor": [
+  {
+   "id": "M1",
+   "where": "both entries' modernCountries; flags 'ID LOOKUPS'",
+   "problem": "IDs were looked up online, where G3 says copy them from a census entry or leave them out and flag. The purpose of that rule is that no ID is typed from memory. I checked every ID against Wikidata myself on 2026-11-10: Q733 Paraguay (sovereign state); Q225 Bosnia and Herzegovina; Q224 Croatia; Q681964 Slavonia, 'historical region of Croatia', P17 Croatia. Rome Q220 and Italy Q38 are copied from VI.11. All correct. The AF slice left AF-3 to AF-5 empty for the same reason, so the release would treat the two cases two ways. V.20 (Bosnia) has an empty list today.",
+   "evidence": "wbgetentities and Special:EntityData lookups, this review.",
+   "fix": "The coordinator decides once for the release. I recommend keeping these IDs, now checked twice, and logging the deviation as a change in the register. Then fill AF-3 to AF-5, and optionally V.20, the same way. Otherwise leave modernCountries empty and keep the flag."
+  },
+  {
+   "id": "M2",
+   "where": "society-of-jesus-1650-1814.longDescription[6]; teaser",
+   "problem": "'In Russia the Society lived on.' The only text read, Pius VII's bull, calls Kareu and the rest 'secular Priests ... who had been members of the Company of Jesus'. The draft drops 'secular'. The record says 'carried on', and the survival is widely held, but the sentence should keep the source's frame.",
+   "evidence": "Clement XIV/Pius VII file lines 141-145.",
+   "fix": "'In Russia some of its former members carried on. Pius VII's bull says that Francis Kareu and other secular priests had lived many years in the empire.' Keep the rest."
+  },
+  {
+   "id": "M3",
+   "where": "catholic-church-ancien-regime.longDescription (1656 paragraph)",
+   "problem": "'It judged the cult merely civil and political' hardens 'quia videtur cultus esse mere civilis et politicus' (because the cult seems to be).",
+   "evidence": "Collectanea I lines 7486-7488.",
+   "fix": "'Chinese Christians could keep certain rites, it said, because the cult seemed merely civil and political.'"
+  },
+  {
+   "id": "M4",
+   "where": "society-of-jesus-1650-1814.longDescription[0],[3]; catholics-of-the-ottoman-balkans.longDescription[0],[4]; catholic-church-long-nineteenth-century.longDescription (last paragraph)",
+   "problem": "Build-process voice in narrative prose: 'Two acts of Rome in the Library frame these years', 'No Guaraní voice has been read here', 'are not yet read', 'The texts read here show...'. The census longDescriptions almost never talk this way (two mention 'the Library'; none say 'read here'). The limits are right, and they already sit in `sourcing`.",
+   "evidence": "Census scan, this review.",
+   "fix": "RV-1[0]: 'Two acts of Rome frame these years.' RV-1[3]: drop 'No Guaraní voice has been read here.' (sourcing has it). RV-3[0]: 'A calendar of their documents, in Latin, was printed at Zagreb in 1892. It is the main source for these years.' RV-3[4]: drop the last sentence (sourcing has it). VIII.29 last paragraph: 'The Catholic Church in Africa in the twentieth century has its own entry. It grew from missions like these, though the sources here stop at the White Fathers of 1888.'"
+  },
+  {
+   "id": "M5",
+   "where": "society-of-jesus-1650-1814.people[1]",
+   "problem": "Pius VII's people row has year 1801. The quoted words are from his bull of 1814, which recites the 1801 brief.",
+   "evidence": "File line 203 sits in the 1814 bull (dated lines 635-636).",
+   "fix": "year: 1814."
+  },
+  {
+   "id": "M6",
+   "where": "holds[6] (AF-6 line)",
+   "problem": "The rivers pass widened the line to 'Africa, Asia, Oceania'. Oceania is neither drafted nor named in the hold.",
+   "evidence": "Record §7 §1b; §2 AF-6 row.",
+   "fix": "Add to the hold: 'Oceania: no source read for the Catholic missions there before 1906.'"
+  },
+  {
+   "id": "M7",
+   "where": "society-of-jesus-1650-1814.longDescription[3]",
+   "problem": "Muratori's fourteen reductions destroyed by the São Paulo raiders are undated, and most of those raids fell before 1650. Placed after the 1717 count in a 1650-1814 entry, they read as of the window.",
+   "evidence": "Muratori raw, the 'Mammalucchi' passage, no year.",
+   "fix": "'He also says that raiders from the Portuguese colony of São Paulo had once destroyed fourteen Christian reductions in the Guaraní country.'"
+  }
+ ],
+ "quotes_checked": 111,
+ "quotes_failed": [],
+ "notes": [
+  "Independent fetch: all five raw texts (muratori, clarke, comboni, nilles, launay1893) re-fetched with curl from SOURCES.json into review/RVA/raw/. Each is byte-identical to the drafter's copy. check_draft.py against my fetch: 111 quotes, 0 misses. 48 paragraphs. The only READ-FAILs are VII.19 and VIII.29 longDescription[0], the frozen first paragraphs carried unchanged (confirmed: each new value starts with the census text exactly). Every Library quote matches at its lines. I re-read the context of each raw and Library quote for sense. The only misdescribed locus is S4.",
+  "Also fetched for this review: lettresdifiantes03jesu (raw/lettres3.txt), for S1. Every replacement quote proposed in S1, S4 and S7 was checked verbatim, whitespace-squashed, against my fetch or the Library file.",
+  "Living: society-of-jesus-1650-1814 living:true, evidence moved exactly from VI.11 (CR, own-voice 2022, verified; EWTN 2021, verified). It meets R2 to R4. VI.11 now names RV-1 as carrier. No census row names VI.11 as a carrier, so nothing breaks the 'carrier must hold its own evidence' rule. catholics-of-the-ottoman-balkans living:false fits the drafting brief (no dated evidence, no carrier). The record says 'yes [S]', and P2-V's G-5 (a) kept no-source bodies living. The coordinator may prefer living:true with grade 'none' and the want, for consistency with AF-3's handling. Not a finding.",
+  "Inferential-Thin links with outcomes: only the ME-8 link carries one (S4). VIII.29 → IX.59 is 'gave rise to' (major by type, no outcome). Inferential-Thin fits it: one admiring editor, and Hastings is named, not read. The prose in VIII.29 qualifies the line.",
+  "RV-3 entering 1650-1815 on Bosnia and Slavonia only: it fits G89-51 a (the era 8 part on the V items, the era 9 part held). The Albanian and Bulgarian parts are honestly held. The fixed id is kept, as Slices.md allows for AP2. The row's text never states Ottoman rule; its name is the record's. Acceptable.",
+  "Pointers: AS1's Draft.json (scratchpad/AS1) now holds chinese-catholicism-1650-1906, and it does tell the Jesuit court mission and the Rites. So the AP2 pointer holds. ME-8 is not drafted: scratchpad/ME2 has raw/ and tools/ but no Draft.json, and tools/fl.py names no Jesuit link. The pairing romanian-greek-catholic-church-1698-1815 -- society-of-jesus-1650-1814 is drafted once, here. ME2 must not draft it, and must use the fixed id. If ME-8 does not enter, cut the link and the pointer sentences the drafter lists. The LIV trial census has 699 edges where 700 are expected, so apply dropped the dangling ME-8 link there. Its only validator error is the release number.",
+  "Cross-slice: S1 and S7 add RV-A links to AS1's AP2. Tell AS1 not to draft either pair. AS2's link the-society-of-jesus--vietnamese-catholicism-to-1815 starts from VI.11, not RV-1; that is AS2's to judge.",
+  "Ruling fidelity otherwise: VI.11 → RV-1 'continued as' (Documented, Library, verified-direct) and VI.11.continuesAs are right. The VII.19 Propaganda line (1659 instruction; 1656 and 1726 rulings) and the VIII.29 line (Propaganda 1845; Lavigerie, the White Fathers, Comboni, MEP, Lazarists and Jesuits by name, the restored Jesuits) do what G89-2 a and G89-10 a name. Frozen text is unchanged. Holds for the [S] items (expulsion dates, Malabar and Madurai rites, Polotsk, the Spiritans and the others) are correct.",
+  "Counts: blocking 0, substantial 7, minor 7; 111 quotes checked, 0 failed verbatim (1 misdescribed locus, S4)."
+ ]
+}

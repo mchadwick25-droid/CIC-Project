@@ -1,0 +1,2031 @@
+{
+ "entries": [
+  {
+   "atlasId": "TBD",
+   "beyondFloor": false,
+   "status": "Pre-Survey Candidate",
+   "chip": "psc",
+   "glyph": "psc",
+   "overlayCurrent": false,
+   "c2": null,
+   "entry": null,
+   "documentedStories": [],
+   "people": [],
+   "reviewStatus": "AI-checked",
+   "id": "old-believers-after-1815",
+   "era": 9,
+   "name": "The Old Believers After 1815",
+   "shortName": "Old Believers 1815+",
+   "informalName": "The Old Believers from Nicholas I to the toleration of 1905",
+   "dates": "1815-1906",
+   "start": 1815,
+   "end": 1906,
+   "region": "Russia, Belaya Krinitsa in Ukraine",
+   "placeLabel": "Russia · Ukraine",
+   "modernCountries": [
+    {
+     "country": "Russia",
+     "countryId": "Q159",
+     "place": "Russia",
+     "placeId": "Q159"
+    },
+    {
+     "country": "Ukraine",
+     "countryId": "Q212",
+     "place": "Ukraine",
+     "placeId": "Q212"
+    }
+   ],
+   "regions": [
+    "North Europe"
+   ],
+   "lane": "3 Greek East & Orthodoxy",
+   "laneLabel": "Greek East & Orthodoxy",
+   "laneOrder": 3,
+   "statusWord": "Researched — strong candidate",
+   "statusDescription": "Tiered Strong (Tier 1) on a study by a scholar who read the Russian sources. Its window runs from 1815 to 1906, the years after the earlier entry on the Old Believers. Not yet reviewed.",
+   "living": true,
+   "sourcing": "The main study is Conybeare's Russian Dissenters (1921). He read the Russian literature with care. He leans on Ivanovski, a writer for the Holy Synod who wrote against the Old Believers, and he says so. An English account of 1814 gives the picture at the start of these years. No Old Believer text of 1846 or 1905 was read. The statute of the Belaya Krinitsa hierarchy, the encyclical of 1862 and the text of the decree of 1905 are wanted.",
+   "floorNote": "No question of doctrine arises here. The decree of 1905 says the Old Ritualists accept the sacraments and the doctrines of the Orthodox Church. They differ on points of ritual.",
+   "relationsSummary": "This is the Old Believers after 1815. It carries on the earlier entry on the Old Believers. The entry on the Russian church under the Holy Synod tells the church they had left.",
+   "why": "Nicholas I tried to force the Old Believers into the state church. They found a bishop abroad in 1846 and built a hierarchy of their own. In 1905 the tsar gave them legal standing.",
+   "teaser": "Russia, 1815 to 1906. Old Believers under Nicholas I, a bishop found abroad in 1846, and the law of 1905.",
+   "longDescription": "This entry carries the Old Believers on from 1815. By then the movement was split in two. The priestly branch took priests from the national church. The priestless branch had no priests at all, or priests of its own making.\n\nNicholas I pressed them hard. In 1827 a governor threatened to close the monastery of Nizhni-Voskresenski. The monks must join the state church, on terms Paul I had offered. That year the tsar also cut off the runaway priests who served the Rogozhskoe cemetery in Moscow and other places. The Popovtsy had long relied on those priests for the sacraments.\n\nIn 1832 the older laws that eased their lot were repealed. After that the Popovtsy could keep only priests who had joined them before 1826.\n\nIn 1854 the metropolitan Philaret made one chapel at the Rogozhskoe cemetery a church of the state church. In 1856 the old rites came back, with priests of Austrian ordination. The Popovtsy church was shut. Conybeare says its altars stayed sealed until 3 May 1883.\n\nThe priestly Old Believers wanted a bishop of their own. In 1844 the emperor Ferdinand let them bring one into his lands. He would sit at Belaya Krinitsa. Their agents searched the East. They found Ambrose, a Greek who had been metropolitan of Sarajevo. The Turks had expelled him from his see. He reached Belaya Krinitsa, in Austrian Bukovina, on 12 October 1846.\n\nIvanovski, a writer for the Holy Synod, says a monk who was there called the rite uncanonical. Conybeare passes this on with care. The Old Believers took Ambrose as their bishop all the same.\n\nThe new hierarchy grew fast. In 1849 a new bishop, Cyril, made Sophronius bishop of Simbirsk. Sophronius led the Russian Popovtsy. Within twelve years the church had ten sees across Russia. In 1861 it broke free of Belaya Krinitsa. From 1863 the state began to tolerate its priests.\n\nOrthodox writers said the new bishops were not true bishops. So the priestly Old Believers asked the Patriarch of Constantinople to accept them, in 1875, 1892 and 1896. A commission there ruled for the bishop of Sarajevo in 1899. Conybeare calls this a quiet yes.\n\nThe priestless branch split over marriage. Conybeare says one group allowed it and the other did not, and each counted millions of souls.\n\nOn 17 April 1905 an imperial decree set the Old Ritualists apart from other dissenters. It let them form a church, with the rights of the Lutherans and Catholics. Their clergy no longer had to serve in the army.\n\nOn 25 August 1905 a synod of the priestly branch met. It ordered that the day of the decree be kept as a holy day for ever.",
+   "voices": [
+    "Ambrose — the deposed metropolitan of Sarajevo whom the priestly Old Believers made their bishop at Belaya Krinitsa in 1846; his own words are not read here",
+    "Ivanovski — a writer for the Holy Synod against the Old Believers, whose account Conybeare uses and weighs"
+   ],
+   "legacy": "The decree of 1905 gave the Old Believers rights they had long been denied. The priestly branch entered the new century with bishops of its own. The priestless branch brought its old arguments over marriage. Old Belief is still practiced today, as the evidence for this entry's living mark shows.",
+   "peopleNote": "No Old Believer of these years is quoted from a vendored text, so no person is named.",
+   "continuesAs": null,
+   "ruling": "G89-38 a",
+   "livingEvidence": {
+    "basis": "Old Belief is still practiced. The Moscow Metropolia of the Russian Orthodox Old-Rite Church runs an official site with news dated November 2026. This entry is the latest in the tree for the Old Believers, so it holds the dated evidence the earlier entry carried. The tree has no entry for the Old Believers after 1906.",
+    "evidence": "Russian Orthodox Old-Rite Church, official site of the Moscow Metropolia (news dated 7 Nov. 2026), Russian Orthodox Old-Rite Church (7 November 2026): own-voice; verified. https://www.rpsc.ru/",
+    "grade": "CR (Contemporary-Reported); newest dated item 2026, newest verified 2026",
+    "group": "own"
+   },
+   "sources": [
+    {
+     "work": "F. C. Conybeare, Russian Dissenters (Harvard Theological Studies X, 1921)",
+     "type": "secondary",
+     "note": "Held in the Library. A scholar who read the Russian sources. He leans on Ivanovski, a writer for the Holy Synod, and says so."
+    },
+    {
+     "work": "Platon, The Present State of the Greek Church in Russia, tr. R. Pinkerton (Edinburgh, 1814), Appendix",
+     "type": "primary",
+     "note": "Held in the Library. An English witness of 1814. It gives the priestly and priestless split at the start of these years."
+    }
+   ]
+  },
+  {
+   "atlasId": "TBD",
+   "beyondFloor": false,
+   "status": "Pre-Survey Candidate",
+   "chip": "psc",
+   "glyph": "psc",
+   "overlayCurrent": false,
+   "c2": null,
+   "entry": null,
+   "documentedStories": [],
+   "people": [],
+   "reviewStatus": "AI-checked",
+   "id": "romanian-greek-catholic-church-1698-1815",
+   "era": 8,
+   "name": "The Romanian Greek Catholic Church, 1698 to 1815",
+   "shortName": "Romanian Union 1698",
+   "informalName": "The union of the Romanians of Transylvania with Rome",
+   "dates": "1698-1815",
+   "start": 1698,
+   "end": 1815,
+   "region": "Transylvania, Alba Iulia and Blaj",
+   "placeLabel": "Transylvania · Blaj",
+   "modernCountries": [
+    {
+     "country": "Romania",
+     "countryId": "Q218",
+     "place": "Transylvania",
+     "placeId": "Q39473"
+    }
+   ],
+   "regions": [
+    "North Europe"
+   ],
+   "lane": "3<->5 bridge (Greek East / Latin West)",
+   "laneLabel": "Greek East / Latin West — bridge",
+   "laneOrder": 3.5,
+   "streams": [
+    "eastern-catholic-uniate"
+   ],
+   "statusWord": "Researched — strong candidate",
+   "statusDescription": "Tiered Strong (Tier 1) on the union's own acts. Its window runs from 1698 to 1815, from the union to the end of the era. Not yet reviewed.",
+   "living": true,
+   "sourcing": "Moderate to strong, and from inside the union. Nilles's edition of 1886 prints the union's own papers in Latin and Romanian. Its scan is badly damaged in places, and the quotes keep the damage. Bunea wrote his life of Bishop Klein (1900) for the 200th year of the union, and it too speaks for the union. Almost no Orthodox witness has been read. Visarion appears only through Bunea and the empress. The years from 1751 to 1815 are not told.",
+   "floorNote": "No question of doctrine arises here.",
+   "relationsSummary": "This is the Romanian Greek Catholic Church from the union of 1698 to 1815. The next entry carries it on to 1906. The entry on its suppression and return tells it from 1948. The Jesuits who began the talks are told in the entry on the Society of Jesus.",
+   "why": "On 7 October 1698 Romanian priests at Alba Iulia joined Rome. Jesuits had begun the talks. Orthodox Romanians pushed back. Bishop Klein pressed the court for his people's rights.",
+   "teaser": "Transylvania, 1698 to 1815. The union with Rome signed at Alba Iulia, the Jesuits who began it, the new seat at Blaj, and Bishop Klein.",
+   "longDescription": "On 7 October 1698 Romanian clergy at Alba Iulia joined the Roman Catholic Church. The act is dated in Latin. It names the bishop, the archpriests and the priests of the Wallachian churches as its makers. Wallachian was the Latin word for Romanian.\n\nThe act asks for the same privileges that Roman Church priests have, under the emperor's decree. The Jesuit house history says an imperial letter of 1692 had given united priests of the Greek rite the rights of the Latin clergy. Nilles prints it.\n\nThe Jesuits of Alba Iulia opened the talks. The synod of 1701 says so. Its Latin says that the talks of union began through the work and skill of the Jesuit fathers living at Alba Iulia (opera ac solertia Patrum S. J., Albae-Juliae degentium). Nilles was himself a Jesuit. He adds that the house history shows the Jesuit fathers almost alone tending the Lord's vineyard at Alba Iulia in those years.\n\nThe state kept a hand on the church. In 1728 Charles VI ordered the united Romanian clergy to meet in an electoral synod and give him three candidates for the bishop's seat. The synod met at Alba Iulia on 4 June 1728. The Catholic bishop of Transylvania was there as the king's commissioner. So was the rector of the Jesuit college at Cluj, as the emperor's order required.\n\nThe bishop's seat moved to Blaj. Blaj was then only a Calvinist and Hungarian village. A contract with the court chamber, dated 31 August 1736, gave the estate of Blaj to the bishopric. The bishop took it in May 1737, in Bunea's dating, and moved there at once.\n\nOrthodox Romanians pushed back. In 1744 a Serbian monk, Visarion, crossed southern Transylvania and stirred the people against the union. He was arrested on the way into Sibiu. He was questioned on 27 April 1744. Empress Maria Theresa wrote in 1746 of that impostor, the false monk (acel pseudo-monach impostor), as Bunea quotes her. Bunea adds that the movement grew far beyond one man. The people were also angry at how the bishop's requests had been met.\n\nBishop Klein pressed the court for his people's rights. Asked to calm the movement, he answered: „Cum vreţi să liniştesc spiritele: cu mijlóce blânde ori cu mijlóce violente?“ In a plain rendering: how do you want me to calm the people, with mild means or with force? If with mild means, he said, the rights asked for on the basis of the diplomas must be promised to us and truly given. In 1747 his supporters wrote from Daia that, if he were forced out, the Romanian people would abandon the union. Bunea says Klein himself urged that letter.\n\nOn 7 May 1751 Klein gave up his see. He did so by a formal act placed in the pope's hands.",
+   "voices": [
+    "The synod of 1701 — whose own words say the Jesuit fathers of Alba Iulia opened the talks of union",
+    "Ioan Inocențiu Klein — the bishop who pressed the court for the Romanians' rights and gave up his see on 7 May 1751",
+    "Maria Theresa — who called the monk Visarion an impostor and a false monk (pseudo-monach impostor), in a letter of 1746 that Bunea quotes",
+    "Visarion Sarai — a Serbian monk whose preaching in 1744 stirred Orthodox Romanians against the union; heard here only through Bunea and the empress"
+   ],
+   "legacy": "The church of the union lived on after 1815. Its metropolitan province, its synods and its later suppression and return are told in the next entries.",
+   "peopleNote": "No voice of these years is quoted from a vendored text, so no person is named.",
+   "continuesAs": "romanian-greek-catholic-church-1815-1906",
+   "ruling": "G89-41 a",
+   "livingEvidence": {
+    "basis": "This tradition continues, through its line of later entries, in The Romanian Greek Catholic Church: Suppression and Return, which carries it today.",
+    "carrier": [
+     "the-romanian-greek-catholic-church-suppression-and-return"
+    ],
+    "group": "line"
+   },
+   "sources": [
+    {
+     "work": "Nicolaus Nilles, Symbolae ad illustrandam historiam ecclesiae orientalis in terris coronae S. Stephani (Innsbruck, 1886)",
+     "type": "primary",
+     "note": "Read raw online. A Jesuit's edition of the union's own papers. The scan is badly damaged, and the quotes keep the damage.",
+     "url": "https://archive.org/download/symbolaeadillus00nillgoog/symbolaeadillus00nillgoog_djvu.txt"
+    },
+    {
+     "work": "Augustin Bunea, Episcopul Ioan Inocentiu Klein (1728-1751) (Blaj, 1900)",
+     "type": "secondary",
+     "note": "Read raw online, in Romanian. Written for the 200th year of the union, and it speaks for the union.",
+     "url": "https://archive.org/download/bunea-augustin-episcopul-ioan-inocentiu-klein/Bunea%2C%20Augustin%20-%20Episcopul%20Ioan%20Inocentiu%20Klein_djvu.txt"
+    }
+   ]
+  },
+  {
+   "atlasId": "TBD",
+   "beyondFloor": false,
+   "status": "Pre-Survey Candidate",
+   "chip": "psc",
+   "glyph": "psc",
+   "overlayCurrent": false,
+   "c2": null,
+   "entry": null,
+   "documentedStories": [],
+   "people": [],
+   "reviewStatus": "AI-checked",
+   "id": "romanian-greek-catholic-church-1815-1906",
+   "era": 9,
+   "name": "The Romanian Greek Catholic Church, 1815 to 1906",
+   "shortName": "Romanian Union 1815+",
+   "informalName": "The church of the union under its metropolitan at Blaj",
+   "dates": "1815-1906",
+   "start": 1815,
+   "end": 1906,
+   "region": "Transylvania, Alba Iulia and Blaj",
+   "placeLabel": "Transylvania · Blaj",
+   "modernCountries": [
+    {
+     "country": "Romania",
+     "countryId": "Q218",
+     "place": "Transylvania",
+     "placeId": "Q39473"
+    }
+   ],
+   "regions": [
+    "North Europe"
+   ],
+   "lane": "3<->5 bridge (Greek East / Latin West)",
+   "laneLabel": "Greek East / Latin West — bridge",
+   "laneOrder": 3.5,
+   "streams": [
+    "eastern-catholic-uniate"
+   ],
+   "statusWord": "Researched — viable, secondary",
+   "statusDescription": "Tiered Viable, secondary (Tier 2): one study from inside the church, read in a damaged scan. Its window runs from 1815 to 1906, from the end of the earlier entry to the end of this era. Not yet reviewed.",
+   "living": true,
+   "sourcing": "Thin. One book carries this entry: a book of 1893 by Alexandru Grama and Augustin Bunea, as the Internet Archive lists them. It was written at Blaj in answer to attacks on Metropolitan Vancea and on the union, so it argues a case. The scan is badly damaged, and the quotes keep the damage. No second study was read. The national revival, the schools at Blaj and the year 1848 are not told.",
+   "floorNote": "No question of doctrine arises here.",
+   "relationsSummary": "This is the Romanian Greek Catholic Church from 1815 to 1906. It carries on the earlier entry from the union of 1698. The entry on its suppression and return tells it from 1948.",
+   "why": "The church of the union had its own metropolitan at Blaj. Its synods of 1872 and 1882 set down its faith and kept its Eastern rite. In the 1890s its writers answered a claim that the union of 1698 was only a political alliance.",
+   "teaser": "Transylvania, 1815 to 1906. The province of Alba Iulia, its synods of 1872 and 1882, and the quarrel over the union of 1698.",
+   "longDescription": "This entry carries the church of the union on from 1815. By the 1890s it was a metropolitan province with four dioceses. The metropolitan sat at Blaj.\n\nThe writers said the province stood on its own. They called it the Romanian united province of Alba Iulia. The scan prints: romângscă unită. mitropolitană de Alba-luliu.\n\nThose writers said the province stood beside the Latin province of the Primate of Strigonium. It was not under it in any way. This is the church's own claim, made in a book of 1893.\n\nThe province held its own synods. The book says Alba Iulia was made a see again in the 1850s. Before that, only single dioceses held synods. The first provincial synod met in 1872, under Vancea. Another met in 1882.\n\nThe synod of 1872 wrote down that the Eastern rite and discipline in the church must stay untouched (să r&mână neatinse, as the scan prints it). The writers at Blaj said this was nothing new. The fathers of the synod of 1698, they said, had kept the Eastern rite and discipline for themselves and their successors.\n\nNot everyone agreed. The Gazeta Transilvaniei attacked Vancea. So did Nicolae Densușianu. They said his synod of 1872 had harmed the law of the fathers (stricată legea strămoșăscă).\n\nDensușianu had found the act of 1698 in 1879. The book reports that he read it as a plain political alliance of two confessions (o simplă, alianță - politică intre dóuë confesiuni, as the scan prints it) against a third, and not as a union of faith.\n\nThe writers at Blaj answered that the synod of 1872 had only written down the faith the fathers of 1698 received. So the argument turned on what the act of 1698 meant.",
+   "voices": [
+    "The writers of Blaj — who answered, in 1893, that the church had always held a union of faith with Rome",
+    "Nicolae Densușianu — who found the act of 1698 in 1879 and, as the book reports him, called the union a political alliance; heard here only through his opponents"
+   ],
+   "legacy": "The church of the union carried on past 1906. The entry on its suppression and return tells it from 1948.",
+   "peopleNote": "No voice of these years is quoted from a vendored text, so no person is named.",
+   "continuesAs": "the-romanian-greek-catholic-church-suppression-and-return",
+   "ruling": "G89-41 a",
+   "livingEvidence": {
+    "basis": "This tradition continues, through its line of later entries, in The Romanian Greek Catholic Church: Suppression and Return, which carries it today.",
+    "carrier": [
+     "the-romanian-greek-catholic-church-suppression-and-return"
+    ],
+    "group": "line"
+   },
+   "sources": [
+    {
+     "work": "Alexandru Grama and Augustin Bunea, Cestiuni din dreptulu si istoria bisericei romanesci unite, Part I (Blaj, 1893)",
+     "type": "secondary",
+     "note": "Read raw online, in Romanian, in a damaged scan. A church argument written in answer to attacks on the union.",
+     "url": "https://archive.org/download/grama-alexandru-bunea-augustin-cestiuni-de-dreptul-si-istoria-bisericii-romane-unite-partea-i/Grama%2C%20Alexandru%20%26%20Bunea%2C%20Augustin%20-%20Cestiuni%20De%20Dreptul%20Si%20Istoria%20Bisericii%20Romane%20Unite%2C%20Partea%20I_djvu.txt"
+    }
+   ]
+  },
+  {
+   "atlasId": "TBD",
+   "beyondFloor": false,
+   "status": "Pre-Survey Candidate",
+   "chip": "psc",
+   "glyph": "psc",
+   "overlayCurrent": false,
+   "c2": null,
+   "entry": null,
+   "documentedStories": [],
+   "people": [],
+   "reviewStatus": "AI-checked",
+   "id": "hungarian-and-transylvanian-protestantism-1650-1815",
+   "era": 8,
+   "name": "Hungarian and Transylvanian Protestantism, 1650 to 1815",
+   "shortName": "Hungary Protestants",
+   "informalName": "The Reformed and Lutheran churches of Hungary and Transylvania, from persecution to toleration",
+   "dates": "1650-1815",
+   "start": 1650,
+   "end": 1815,
+   "region": "Hungary, Transylvania",
+   "placeLabel": "Hungary · Transylvania",
+   "modernCountries": [
+    {
+     "country": "Romania",
+     "countryId": "Q218",
+     "place": "Transylvania",
+     "placeId": "Q39473"
+    }
+   ],
+   "regions": [
+    "North Europe"
+   ],
+   "lane": "6 Protestant & Evangelical",
+   "laneLabel": "Protestant & Evangelical",
+   "laneOrder": 6,
+   "streams": [
+    "reformed-calvinist"
+   ],
+   "statusWord": "Researched — viable, secondary",
+   "statusDescription": "Tier 2: one Protestant history and one Catholic study. Its window is 1650 to 1815. Not yet reviewed.",
+   "living": true,
+   "sourcing": "Moderate. Two sources carry this entry. Bauhofer's history of 1854 is a Protestant account. The Catholic Encyclopedia article on Hungary (1910) is by A. Aldásy. Each takes one side. No source in Hungarian was read. No pastor's own account was read.",
+   "floorNote": "No question of doctrine arises here.",
+   "relationsSummary": "This is the Reformed and Lutheran church of Hungary and its lands, from 1650 to 1815. The Unitarians are a different church, told to 1650.",
+   "why": "Catholic kings took many churches. Some pastors went to the galleys. Toleration came in 1781.",
+   "teaser": "Hungary and Transylvania, 1650 to 1815. The pastors sold to the galleys, the laws of 1681 and 1731, and Joseph II's toleration.",
+   "longDescription": "Two sources tell this story. Bauhofer, a Protestant, writes of long suffering that ends in freedom. A Catholic work writes of a fight over churches and laws. This entry uses both.\n\nIn 1671 the bishop took the Protestant church of Kashaw, after breaking its doors. The government set up a special court at Presburg to try Protestants.\n\nForty-one prisoners were taken away. Only thirty entered the galleys at Naples, on 7 May. They were sold for fifty Spanish piasters apiece and chained to the benches. Ten others gave up their Protestant faith and joined the Church of Rome on 19 February 1676.\n\nOn 11 February 1676 the chaplain of the Dutch fleet came for the galley prisoners. They left their prison singing the 46th, the 114th and the 125th Psalms. Twenty-six of the thirty were still alive.\n\nThe Diet of 1681 ordered some churches returned to the Protestants. In 1687 Leopold said that by his own free favor he would keep the liberties granted in 1681. The Peace of Szathmar, signed on 10 May 1711, kept the laws of 1681 and 1687 in force.\n\nOn 21 March 1731 Charles VI gave rules the churches had long awaited. Bauhofer says their hopes were badly hurt. Private worship was allowed everywhere. Public worship was allowed only where the law of 1681 named a place.\n\nThe two churches did not always act together. In 1732 the Lutherans refused to join the Calvinists in a petition to the king. Soon after, both sent a joint statement to the court. Bauhofer reports a Count Pallfy as saying that the Protestants must have either God or the Devil for their friend. Each time their ruin seemed sure, some untoward event stopped it.\n\nJoseph II's Edict of Toleration went to all the bishops of Hungary on 24 October 1781, in Bauhofer's account. The Catholic Encyclopedia says it was issued on 25 October. Where a hundred families could pay for it, they might build a church, a school and a manse. The churches could have neither bell nor spire, and no door onto the street.\n\nThe Diet of 1790 and 1791 gave the churches full freedom to run their own affairs, says the Catholic Encyclopedia. It counts about two million Protestants and five million Catholics in 1805.",
+   "voices": [
+    "The pastors sold to the galleys at Naples — who left the boats singing the 46th, 114th and 125th Psalms on 11 February 1676",
+    "Count Pallfy — whom Bauhofer reports as saying the Protestants must have either God or the Devil for their friend",
+    "Joseph II — whose Edict of Toleration of October 1781 opened the way to Protestant churches"
+   ],
+   "legacy": "The Reformed and Lutheran churches came out of these years with a legal footing and, after 1790, the right to manage their own affairs. The tree does not yet tell their years after 1815.",
+   "peopleNote": "No pastor of these years is quoted from a vendored text, so no person is named.",
+   "continuesAs": null,
+   "ruling": "G89-45 a",
+   "livingEvidence": {
+    "basis": "The record says the Reformed Church in Hungary and the Lutheran churches are alive today, but no dated present-day record was read. This entry ends in 1815, and the tree has no later entry for them.",
+    "grade": "none (no dated item after 2010 found)",
+    "group": "own"
+   },
+   "sources": [
+    {
+     "work": "János György Bauhofer, History of the Protestant Church in Hungary, tr. J. Craig (Boston, 1854)",
+     "type": "secondary",
+     "note": "Read raw online. A Protestant history, so it takes the Protestant side.",
+     "url": "https://archive.org/download/historyofprotest00bauh/historyofprotest00bauh_djvu.txt"
+    },
+    {
+     "work": "A. Aldasy, \"Hungary\", Catholic Encyclopedia, vol. 7 (1910)",
+     "type": "secondary",
+     "note": "Read raw online. A Catholic study, so it takes the Catholic side.",
+     "url": "https://www.newadvent.org/cathen/07547a.htm"
+    }
+   ]
+  },
+  {
+   "atlasId": "TBD",
+   "beyondFloor": false,
+   "status": "Pre-Survey Candidate",
+   "chip": "psc",
+   "glyph": "psc",
+   "overlayCurrent": false,
+   "c2": null,
+   "entry": null,
+   "documentedStories": [],
+   "people": [],
+   "reviewStatus": "AI-checked",
+   "id": "polish-and-lithuanian-catholicism-under-the-partitions",
+   "era": 9,
+   "name": "Polish and Lithuanian Catholicism Under the Partitions",
+   "shortName": "Partitioned Poland",
+   "informalName": "The Catholic Church of the partitioned Polish and Lithuanian lands",
+   "dates": "1815-1906",
+   "start": 1815,
+   "end": 1906,
+   "region": "Poland, Lithuania",
+   "placeLabel": "Poland · Lithuania",
+   "modernCountries": [
+    {
+     "country": "Poland",
+     "countryId": "Q36",
+     "place": "Poland",
+     "placeId": "Q36"
+    }
+   ],
+   "regions": [
+    "North Europe"
+   ],
+   "lane": "5 Latin West & Catholicism",
+   "laneLabel": "Latin West & Catholicism",
+   "laneOrder": 5,
+   "statusWord": "Researched — strong candidate",
+   "statusDescription": "Tiered Strong (Tier 1): the one study read covers exactly these years. Its window runs from 1815 to 1906. Not yet reviewed.",
+   "living": true,
+   "sourcing": "Moderate. One study carries this entry: the Catholic Encyclopedia article on Poland (1911), by E. Kolodziejczyk, a Polish Catholic. It speaks for the church and against the three powers. No pastoral letter of the time was read. Nothing from the Lithuanian press was read. Both are wanted.",
+   "floorNote": "No question of doctrine arises here.",
+   "relationsSummary": "This is the Catholic Church in the partitioned Polish and Lithuanian lands from 1815 to 1906. It carries on into the entry on Polish Catholicism from 1918. The Greek Catholic church of the same lands is a different church, told in its own entry.",
+   "why": "After the partitions of Poland, the Catholic Church stayed with the Polish and Lithuanian peoples. Russia and Prussia tried to bend it to the state. The clergy, in one Catholic writer's words, courageously held their ground.",
+   "teaser": "Poland and Lithuania, 1815 to 1906. A church that stayed with a nation without a state, and the Russian and Prussian measures against it.",
+   "longDescription": "After the three partitions, Russia tried to destroy the Catholic Church as well as Polish nationality, says the Catholic Encyclopedia. It dates them 1773, 1793 and 1795. This entry starts in 1815. The author is a Polish Catholic, and he speaks for the church.\n\nIn 1831 an insurrection failed. After it, the article says, Uniats were forced to give up their faith. Convents were closed, and so were churches.\n\nHarsher measures came after 1863. A cabinet order of 1864 took the church's property and shut the convents still open. In 1867 the clergy were put under a commission at St Petersburg, with no regard for the wishes of the Apostolic See.\n\nThe measures were harshest in Lithuania. In the seven years after 1863 no more than ten priests were ordained there. Public prayers, processions and wayside crosses were forbidden.\n\nPrussia treated its Catholic Poles no better, the article says. The clergy in Prussian Poland were put under the power of the state. Bismarck began his conflict with the Church.\n\nAfter the defeat of 1863 and 1864 the clergy held their ground. In Prussia they built social and farm groups and loan offices for craftsmen and workers.\n\nOnly after the war with Japan did Russia proclaim an edict of toleration. It let those forced into the schism be reconciled with Rome.",
+   "voices": [
+    "The Polish clergy — whom the article says courageously held their ground and refused to yield after 1863",
+    "E. Kolodziejczyk — the Polish Catholic author of the Catholic Encyclopedia's article on Poland, written in 1911"
+   ],
+   "legacy": "The church that came through these years is the one told again from 1918, in the entry on Polish Catholicism under Wyszyński and John Paul II.",
+   "peopleNote": "No Polish or Lithuanian voice of these years is quoted from a vendored text, so no person is named.",
+   "continuesAs": "polish-catholicism-wyszynski-and-john-paul-ii",
+   "ruling": "G89-40 a",
+   "livingEvidence": {
+    "basis": "This tradition continues, through its line of later entries, in Polish Catholicism: Wyszyński and John Paul II, which carries it today.",
+    "carrier": [
+     "polish-catholicism-wyszynski-and-john-paul-ii"
+    ],
+    "group": "line"
+   },
+   "sources": [
+    {
+     "work": "E. Kolodziejczyk, \"Poland\", Catholic Encyclopedia, vol. 12 (1911)",
+     "type": "secondary",
+     "note": "Read raw online. A Polish Catholic writer. He speaks for the church and against the three powers.",
+     "url": "https://www.newadvent.org/cathen/12181a.htm"
+    }
+   ]
+  }
+ ],
+ "fact_table": [
+  {
+   "entry": "old-believers-after-1815",
+   "field": "longDescription",
+   "sentence": "This entry carries the Old Believers on from 1815.",
+   "record": "§6 ME-5 (Dates 1815-1906; Answers the logged break after 1815)",
+   "note": ""
+  },
+  {
+   "entry": "old-believers-after-1815",
+   "field": "longDescription",
+   "sentence": "By then the movement was split in two. The priestly branch took priests from the national church. The priestless branch had no priests at all, or priests of its own making.",
+   "work": "Platon, The Present State of the Greek Church in Russia, tr. R. Pinkerton (Edinburgh, 1814), Appendix",
+   "quote": "gave rise to the grand division which still exists among the Raskolniks, into Popoftschins, or such as admit priests from the national church ; and Bezpopoftschins, or such as either have no priests at all, or priests of their own ordination.",
+   "file": "cic/texts/platon_present-state-of-the-greek-church-in-russia_pinkerton1814.txt",
+   "lines": "10487-10491"
+  },
+  {
+   "entry": "old-believers-after-1815",
+   "field": "longDescription",
+   "sentence": "In 1827 a governor threatened to close the monastery of Nizhni-Voskresenski. The monks must join the state church, on terms Paul I had offered.",
+   "work": "F. C. Conybeare, Russian Dissenters (Harvard Theological Studies X, 1921)",
+   "quote": "These attempts began in 1827 ^dth a threat on the part of Prince GoUtsyn, Governor of Saratov, to break up the monastery of Nizhni- Voskresenski, unless they became Uniats.",
+   "file": "cic/texts/conybeare_russian-dissenters_1921.txt",
+   "lines": "5605-5608"
+  },
+  {
+   "entry": "old-believers-after-1815",
+   "field": "longDescription",
+   "sentence": "In 1827 a governor threatened to close the monastery of Nizhni-Voskresenski. The monks must join the state church, on terms Paul I had offered.",
+   "work": "F. C. Conybeare, Russian Dissenters (Harvard Theological Studies X, 1921)",
+   "quote": "The Uniat concessions made by Paul I",
+   "file": "cic/texts/conybeare_russian-dissenters_1921.txt",
+   "lines": "5602"
+  },
+  {
+   "entry": "old-believers-after-1815",
+   "field": "longDescription",
+   "sentence": "That year the tsar also cut off the runaway priests who served the Rogozhskoe cemetery in Moscow and other places. The Popovtsy had long relied on those priests for the sacraments.",
+   "work": "F. C. Conybeare, Russian Dissenters (Harvard Theological Studies X, 1921)",
+   "quote": "in 1827 abruptly cut off the supply both at the Rogozhski Ceme- tery in Moscow and elsewhere, subjecting to dire penalties popes who quitted the orthodox fold in order to minister to heretics.",
+   "file": "cic/texts/conybeare_russian-dissenters_1921.txt",
+   "lines": "5950-5953"
+  },
+  {
+   "entry": "old-believers-after-1815",
+   "field": "longDescription",
+   "sentence": "That year the tsar also cut off the runaway priests who served the Rogozhskoe cemetery in Moscow and other places. The Popovtsy had long relied on those priests for the sacraments.",
+   "work": "F. C. Conybeare, Russian Dissenters (Harvard Theological Studies X, 1921)",
+   "quote": "to cut off the supply of runaway popes upon whom the Popovtsy depended for the administration of the Sacraments",
+   "file": "cic/texts/conybeare_russian-dissenters_1921.txt",
+   "lines": "5945-5946"
+  },
+  {
+   "entry": "old-believers-after-1815",
+   "field": "longDescription",
+   "sentence": "In 1832 the older laws that eased their lot were repealed. After that the Popovtsy could keep only priests who had joined them before 1826.",
+   "work": "F. C. Conybeare, Russian Dissenters (Harvard Theological Studies X, 1921)",
+   "quote": "In 1832 all older laws mitigating the fate of the Raskol were repealed, and by the new law the Popovtsy could only retain popes who had joined them before 1826.",
+   "file": "cic/texts/conybeare_russian-dissenters_1921.txt",
+   "lines": "5953-5955"
+  },
+  {
+   "entry": "old-believers-after-1815",
+   "field": "longDescription",
+   "sentence": "In 1854 the metropolitan Philaret made one chapel at the Rogozhskoe cemetery a church of the state church. In 1856 the old rites came back, with priests of Austrian ordination. The Popovtsy church was shut. Conybeare says its altars stayed sealed until 3 May 1883.",
+   "work": "F. C. Conybeare, Russian Dissenters (Harvard Theological Studies X, 1921)",
+   "quote": "In 1854 accordingly he ad- dressed himself to Philaret the metropohtan with a view to the reconsecration of one of the oratories of his sect as a church, and this was effected",
+   "file": "cic/texts/conybeare_russian-dissenters_1921.txt",
+   "lines": "5765-5768"
+  },
+  {
+   "entry": "old-believers-after-1815",
+   "field": "longDescription",
+   "sentence": "In 1854 the metropolitan Philaret made one chapel at the Rogozhskoe cemetery a church of the state church. In 1856 the old rites came back, with priests of Austrian ordination. The Popovtsy church was shut. Conybeare says its altars stayed sealed until 3 May 1883.",
+   "work": "F. C. Conybeare, Russian Dissenters (Harvard Theological Studies X, 1921)",
+   "quote": "In 1856 the old rites were resumed, priests being pro\\'ided of Austrian ordination.",
+   "file": "cic/texts/conybeare_russian-dissenters_1921.txt",
+   "lines": "5774-5775"
+  },
+  {
+   "entry": "old-believers-after-1815",
+   "field": "longDescription",
+   "sentence": "In 1854 the metropolitan Philaret made one chapel at the Rogozhskoe cemetery a church of the state church. In 1856 the old rites came back, with priests of Austrian ordination. The Popovtsy church was shut. Conybeare says its altars stayed sealed until 3 May 1883.",
+   "work": "F. C. Conybeare, Russian Dissenters (Harvard Theological Studies X, 1921)",
+   "quote": "This led to the closing of the Popovets Church and the altars remained sealed until May 3, 1883",
+   "file": "cic/texts/conybeare_russian-dissenters_1921.txt",
+   "lines": "5775-5777"
+  },
+  {
+   "entry": "old-believers-after-1815",
+   "field": "longDescription",
+   "sentence": "The priestly Old Believers wanted a bishop of their own. In 1844 the emperor Ferdinand let them bring one into his lands and set him up at Belaya Krinitsa. Their agents searched the East.",
+   "work": "F. C. Conybeare, Russian Dissenters (Harvard Theological Studies X, 1921)",
+   "quote": "in 1844 gave permission for a foreign bishop to be imported into his dominions by the Raskol and estabUshed at Bielo-Krinits",
+   "file": "cic/texts/conybeare_russian-dissenters_1921.txt",
+   "lines": "6123-6125"
+  },
+  {
+   "entry": "old-believers-after-1815",
+   "field": "longDescription",
+   "sentence": "The priestly Old Believers wanted a bishop of their own. In 1844 the emperor Ferdinand let them bring one into his lands and set him up at Belaya Krinitsa. Their agents searched the East.",
+   "work": "F. C. Conybeare, Russian Dissenters (Harvard Theological Studies X, 1921)",
+   "quote": "the Raskolnik in quest of a bishop naturally first turned his steps.",
+   "file": "cic/texts/conybeare_russian-dissenters_1921.txt",
+   "lines": "6147-6148"
+  },
+  {
+   "entry": "old-believers-after-1815",
+   "field": "longDescription",
+   "sentence": "They found Ambrose, a Greek who had been metropolitan of Sarajevo, until the Turks expelled him from his see. He reached Belaya Krinitsa, in Austrian Bukovina, on 12 October 1846.",
+   "work": "F. C. Conybeare, Russian Dissenters (Harvard Theological Studies X, 1921)",
+   "quote": "one Ambrose, who had formerly been metropoli- tan of Serajevo in Bosnia, but whom for poHtical or other reasons the Turks had expelled from his see.",
+   "file": "cic/texts/conybeare_russian-dissenters_1921.txt",
+   "lines": "6178-6180"
+  },
+  {
+   "entry": "old-believers-after-1815",
+   "field": "longDescription",
+   "sentence": "They found Ambrose, a Greek who had been metropolitan of Sarajevo, until the Turks expelled him from his see. He reached Belaya Krinitsa, in Austrian Bukovina, on 12 October 1846.",
+   "work": "F. C. Conybeare, Russian Dissenters (Harvard Theological Studies X, 1921)",
+   "quote": "was at Bielo- Krinits on October 12th, 1846.",
+   "file": "cic/texts/conybeare_russian-dissenters_1921.txt",
+   "lines": "6222-6223"
+  },
+  {
+   "entry": "old-believers-after-1815",
+   "field": "longDescription",
+   "sentence": "They found Ambrose, a Greek who had been metropolitan of Sarajevo, until the Turks expelled him from his see. He reached Belaya Krinitsa, in Austrian Bukovina, on 12 October 1846.",
+   "work": "F. C. Conybeare, Russian Dissenters (Harvard Theological Studies X, 1921)",
+   "quote": "The imminence of the ceremony had been noised abroad all over the Bukowina",
+   "file": "cic/texts/conybeare_russian-dissenters_1921.txt",
+   "lines": "6294-6295"
+  },
+  {
+   "entry": "old-believers-after-1815",
+   "field": "longDescription",
+   "sentence": "Ivanovski, a writer for the Holy Synod, reports that a monk present called the rite of his reception uncanonical. Conybeare passes this on with care.",
+   "work": "F. C. Conybeare, Russian Dissenters (Harvard Theological Studies X, 1921)",
+   "quote": "The monk Onuph- rius, who was present, has testified, according to Ivanovski, that the entire rite was uncanonical.",
+   "file": "cic/texts/conybeare_russian-dissenters_1921.txt",
+   "lines": "6262-6264"
+  },
+  {
+   "entry": "old-believers-after-1815",
+   "field": "longDescription",
+   "sentence": "Ivanovski, a writer for the Holy Synod, reports that a monk present called the rite of his reception uncanonical. Conybeare passes this on with care.",
+   "work": "F. C. Conybeare, Russian Dissenters (Harvard Theological Studies X, 1921)",
+   "quote": "if we can beheve Ivanovski",
+   "file": "cic/texts/conybeare_russian-dissenters_1921.txt",
+   "lines": "6229-6230"
+  },
+  {
+   "entry": "old-believers-after-1815",
+   "field": "longDescription",
+   "sentence": "In 1849 a new bishop, Cyril, made Sophronius bishop of Simbirsk. Sophronius led the Russian Popovtsy. Within twelve years the church had ten sees across Russia.",
+   "work": "F. C. Conybeare, Russian Dissenters (Harvard Theological Studies X, 1921)",
+   "quote": "Cyril, the newly consecrated bishop of Maenos",
+   "file": "cic/texts/conybeare_russian-dissenters_1921.txt",
+   "lines": "6292-6293"
+  },
+  {
+   "entry": "old-believers-after-1815",
+   "field": "longDescription",
+   "sentence": "In 1849 a new bishop, Cyril, made Sophronius bishop of Simbirsk. Sophronius led the Russian Popovtsy. Within twelve years the church had ten sees across Russia.",
+   "work": "F. C. Conybeare, Russian Dissenters (Harvard Theological Studies X, 1921)",
+   "quote": "In January, 1849, Cyril consecrated as bishop of Simbirsk Sophronius",
+   "file": "cic/texts/conybeare_russian-dissenters_1921.txt",
+   "lines": "6527-6528"
+  },
+  {
+   "entry": "old-believers-after-1815",
+   "field": "longDescription",
+   "sentence": "In 1849 a new bishop, Cyril, made Sophronius bishop of Simbirsk. Sophronius led the Russian Popovtsy. Within twelve years the church had ten sees across Russia.",
+   "work": "F. C. Conybeare, Russian Dissenters (Harvard Theological Studies X, 1921)",
+   "quote": "He was now appointed head of the Russian Popovtsy.",
+   "file": "cic/texts/conybeare_russian-dissenters_1921.txt",
+   "lines": "6531-6532"
+  },
+  {
+   "entry": "old-believers-after-1815",
+   "field": "longDescription",
+   "sentence": "In 1849 a new bishop, Cyril, made Sophronius bishop of Simbirsk. Sophronius led the Russian Popovtsy. Within twelve years the church had ten sees across Russia.",
+   "work": "F. C. Conybeare, Russian Dissenters (Harvard Theological Studies X, 1921)",
+   "quote": "In fact within twelve years the Austrian hierarchy spread all over Russia, ten sees in all being founded",
+   "file": "cic/texts/conybeare_russian-dissenters_1921.txt",
+   "lines": "6545-6546"
+  },
+  {
+   "entry": "old-believers-after-1815",
+   "field": "longDescription",
+   "sentence": "In 1861 it broke free of Belaya Krinitsa. From 1863 the state began to tolerate its priests.",
+   "work": "F. C. Conybeare, Russian Dissenters (Harvard Theological Studies X, 1921)",
+   "quote": "declared itself autokephalous and independent of Bielo-Krinits.",
+   "file": "cic/texts/conybeare_russian-dissenters_1921.txt",
+   "lines": "6605"
+  },
+  {
+   "entry": "old-believers-after-1815",
+   "field": "longDescription",
+   "sentence": "In 1861 it broke free of Belaya Krinitsa. From 1863 the state began to tolerate its priests.",
+   "work": "F. C. Conybeare, Russian Dissenters (Harvard Theological Studies X, 1921)",
+   "quote": "In 1863 the Russian Government began to tolerate the Bielo- Krinits clergy",
+   "file": "cic/texts/conybeare_russian-dissenters_1921.txt",
+   "lines": "6587-6588"
+  },
+  {
+   "entry": "old-believers-after-1815",
+   "field": "longDescription",
+   "sentence": "Orthodox writers said the new bishops were not true bishops. So the priestly Old Believers asked the Patriarch of Constantinople to accept them, in 1875, 1892 and 1896. A commission there ruled for the bishop of Sarajevo in 1899. Conybeare calls this a quiet yes.",
+   "work": "F. C. Conybeare, Russian Dissenters (Harvard Theological Studies X, 1921)",
+   "quote": "Since Russian orthodox pubUcists continued to deny that the Bielo-Krinits ordinations were vaUd",
+   "file": "cic/texts/conybeare_russian-dissenters_1921.txt",
+   "lines": "6609-6610"
+  },
+  {
+   "entry": "old-believers-after-1815",
+   "field": "longDescription",
+   "sentence": "Orthodox writers said the new bishops were not true bishops. So the priestly Old Believers asked the Patriarch of Constantinople to accept them, in 1875, 1892 and 1896. A commission there ruled for the bishop of Sarajevo in 1899. Conybeare calls this a quiet yes.",
+   "work": "F. C. Conybeare, Russian Dissenters (Harvard Theological Studies X, 1921)",
+   "quote": "1875, 1892 and 1896 to the Patriarch of Constantinople to recognize their orders.",
+   "file": "cic/texts/conybeare_russian-dissenters_1921.txt",
+   "lines": "6611-6612"
+  },
+  {
+   "entry": "old-believers-after-1815",
+   "field": "longDescription",
+   "sentence": "Orthodox writers said the new bishops were not true bishops. So the priestly Old Believers asked the Patriarch of Constantinople to accept them, in 1875, 1892 and 1896. A commission there ruled for the bishop of Sarajevo in 1899. Conybeare calls this a quiet yes.",
+   "work": "F. C. Conybeare, Russian Dissenters (Harvard Theological Studies X, 1921)",
+   "quote": "which reported that the MetropoU- tan of Serajevo was not by the mere fact of his quitting Con- stantinople disqualified to administer as a bishop ecclesiastical censures and canonical pimishments.",
+   "file": "cic/texts/conybeare_russian-dissenters_1921.txt",
+   "lines": "6613-6616"
+  },
+  {
+   "entry": "old-believers-after-1815",
+   "field": "longDescription",
+   "sentence": "Orthodox writers said the new bishops were not true bishops. So the priestly Old Believers asked the Patriarch of Constantinople to accept them, in 1875, 1892 and 1896. A commission there ruled for the bishop of Sarajevo in 1899. Conybeare calls this a quiet yes.",
+   "work": "F. C. Conybeare, Russian Dissenters (Harvard Theological Studies X, 1921)",
+   "quote": "This was a tacit recog- nition of the Austrian hierarchy by the supreme Greek ortho- dox Patriarch, and Pobedonostsev when he heard of the decision was greatly distm-bed.",
+   "file": "cic/texts/conybeare_russian-dissenters_1921.txt",
+   "lines": "6616-6619"
+  },
+  {
+   "entry": "old-believers-after-1815",
+   "field": "longDescription",
+   "sentence": "The priestless branch split over marriage. Conybeare says one group allowed it and the other did not, and each counted millions of souls.",
+   "work": "F. C. Conybeare, Russian Dissenters (Harvard Theological Studies X, 1921)",
+   "quote": "The question of marriage has rent asunder the Priestless or Bezpopovtsy society from the very first",
+   "file": "cic/texts/conybeare_russian-dissenters_1921.txt",
+   "lines": "8526-8527"
+  },
+  {
+   "entry": "old-believers-after-1815",
+   "field": "longDescription",
+   "sentence": "The priestless branch split over marriage. Conybeare says one group allowed it and the other did not, and each counted millions of souls.",
+   "work": "F. C. Conybeare, Russian Dissenters (Harvard Theological Studies X, 1921)",
+   "quote": "one known as the married, the other as the marriageless (bezbrachniki)",
+   "file": "cic/texts/conybeare_russian-dissenters_1921.txt",
+   "lines": "8529-8530"
+  },
+  {
+   "entry": "old-believers-after-1815",
+   "field": "longDescription",
+   "sentence": "On 17 April 1905 an imperial decree set the Old Ritualists apart from other dissenters. It let them form a church, with the rights of the Lutherans and Catholics. Their clergy no longer had to serve in the army.",
+   "work": "F. C. Conybeare, Russian Dissenters (Harvard Theological Studies X, 1921)",
+   "quote": "an imperial Ukase of April 17, 1905, suppressed the offensive Raskol",
+   "file": "cic/texts/conybeare_russian-dissenters_1921.txt",
+   "lines": "10641-10642"
+  },
+  {
+   "entry": "old-believers-after-1815",
+   "field": "longDescription",
+   "sentence": "On 17 April 1905 an imperial decree set the Old Ritualists apart from other dissenters. It let them form a church, with the rights of the Lutherans and Catholics. Their clergy no longer had to serve in the army.",
+   "work": "F. C. Conybeare, Russian Dissenters (Harvard Theological Studies X, 1921)",
+   "quote": "of Old Ritualists who recognize the sacraments and dogmatic doctrines of the Orthodox Church, but differ therefrom on points of ritual",
+   "file": "cic/texts/conybeare_russian-dissenters_1921.txt",
+   "lines": "10643-10645"
+  },
+  {
+   "entry": "old-believers-after-1815",
+   "field": "longDescription",
+   "sentence": "On 17 April 1905 an imperial decree set the Old Ritualists apart from other dissenters. It let them form a church, with the rights of the Lutherans and Catholics. Their clergy no longer had to serve in the army.",
+   "work": "F. C. Conybeare, Russian Dissenters (Harvard Theological Studies X, 1921)",
+   "quote": "were henceforth to be allowed to organize themselves into a corporate Church and enjoy such rights as the Lutherans or Catholics already enjoyed",
+   "file": "cic/texts/conybeare_russian-dissenters_1921.txt",
+   "lines": "10650-10652"
+  },
+  {
+   "entry": "old-believers-after-1815",
+   "field": "longDescription",
+   "sentence": "On 17 April 1905 an imperial decree set the Old Ritualists apart from other dissenters. It let them form a church, with the rights of the Lutherans and Catholics. Their clergy no longer had to serve in the army.",
+   "work": "F. C. Conybeare, Russian Dissenters (Harvard Theological Studies X, 1921)",
+   "quote": "their clergy were exempted from military service",
+   "file": "cic/texts/conybeare_russian-dissenters_1921.txt",
+   "lines": "10654"
+  },
+  {
+   "entry": "old-believers-after-1815",
+   "field": "longDescription",
+   "sentence": "On 25 August 1905 a synod of the priestly branch met. It ordered that the day of the decree be kept as a holy day for ever.",
+   "work": "F. C. Conybeare, Russian Dissenters (Harvard Theological Studies X, 1921)",
+   "quote": "in a Synod held on August 25th of that year decreed that that day should be for ever feasted as a holy day in their Church.",
+   "file": "cic/texts/conybeare_russian-dissenters_1921.txt",
+   "lines": "6621-6623"
+  },
+  {
+   "entry": "old-believers-after-1815",
+   "field": "livingEvidence",
+   "sentence": "Moved unchanged from the earlier entry (Russian Orthodox Old-Rite Church, Moscow Metropolia site, news of 7 Nov. 2026; CR).",
+   "record": "census VII.7 livingEvidence",
+   "note": "Evidence already in the census, moved; nothing new added."
+  },
+  {
+   "entry": "romanian-greek-catholic-church-1698-1815",
+   "field": "longDescription",
+   "sentence": "On 7 October 1698 Romanian clergy at Alba Iulia entered union with the Roman Catholic Church. The act is dated in Latin.",
+   "work": "Nicolaus Nilles, Symbolae ad illustrandam historiam ecclesiae orientalis in terris coronae S. Stephani (Innsbruck, 1886)",
+   "quote": "Datum Albae-Juliae anno Domini 1698 die 7. Octobris.",
+   "url": "https://archive.org/download/symbolaeadillus00nillgoog/symbolaeadillus00nillgoog_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/nilles.txt"
+  },
+  {
+   "entry": "romanian-greek-catholic-church-1698-1815",
+   "field": "longDescription",
+   "sentence": "It names the bishop, the archpriests and the priests of the Wallachian churches as its makers. Wallachian was the Latin word for Romanian.",
+   "work": "Nicolaus Nilles, Symbolae ad illustrandam historiam ecclesiae orientalis in terris coronae S. Stephani (Innsbruck, 1886)",
+   "quote": "Nos infraacripti Vladica, protoprosbyteri ae presbyte- ri ecclesiaruni ValaclHcarum",
+   "url": "https://archive.org/download/symbolaeadillus00nillgoog/symbolaeadillus00nillgoog_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/nilles.txt"
+  },
+  {
+   "entry": "romanian-greek-catholic-church-1698-1815",
+   "field": "longDescription",
+   "sentence": "It names the bishop, the archpriests and the priests of the Wallachian churches as its makers. Wallachian was the Latin word for Romanian.",
+   "work": "Nicolaus Nilles, Symbolae ad illustrandam historiam ecclesiae orientalis in terris coronae S. Stephani (Innsbruck, 1886)",
+   "quote": "Albae-Juliae Unio Valachorum non leve sumpsit in- crementum.",
+   "url": "https://archive.org/download/symbolaeadillus00nillgoog/symbolaeadillus00nillgoog_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/nilles.txt"
+  },
+  {
+   "entry": "romanian-greek-catholic-church-1698-1815",
+   "field": "longDescription",
+   "sentence": "The act asks for the same privileges as the priests of the Roman Church enjoy, under the decree of the emperor.",
+   "work": "Nicolaus Nilles, Symbolae ad illustrandam historiam ecclesiae orientalis in terris coronae S. Stephani (Innsbruck, 1886)",
+   "quote": "Quaproptor iisdem prorsus privilegiis. quibus ejusdem Sanctae Ecclosiae presliytori ac memhra utuutur, nos quo- que juxta Clomeutissimuni Suae Sacratissimae Caesa- reae Regiaeque Majestntis I )e- crotum gaudere volumuw",
+   "url": "https://archive.org/download/symbolaeadillus00nillgoog/symbolaeadillus00nillgoog_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/nilles.txt"
+  },
+  {
+   "entry": "romanian-greek-catholic-church-1698-1815",
+   "field": "longDescription",
+   "sentence": "The Jesuit house history, which Nilles prints, says an imperial letter of 1692 had already given united priests of the Greek rite all the rights and privileges of the Latin clergy.",
+   "work": "Nicolaus Nilles, Symbolae ad illustrandam historiam ecclesiae orientalis in terris coronae S. Stephani (Innsbruck, 1886)",
+   "quote": "anno 1692, literis 2o. Au^usti oonooj^tis, saoordotos graeci ritus unitos participes reddidisset omnium jurium ao privilegiorum cleri latini",
+   "url": "https://archive.org/download/symbolaeadillus00nillgoog/symbolaeadillus00nillgoog_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/nilles.txt"
+  },
+  {
+   "entry": "romanian-greek-catholic-church-1698-1815",
+   "field": "longDescription",
+   "sentence": "The Jesuits of Alba Iulia opened the talks. The synod of 1701 says so. Its Latin says that the talks of union began through the work and skill of the Jesuit fathers living at Alba Iulia (opera ac solertia Patrum S. J., Albae-Juliae degentium).",
+   "work": "Nicolaus Nilles, Symbolae ad illustrandam historiam ecclesiae orientalis in terris coronae S. Stephani (Innsbruck, 1886)",
+   "quote": "Octarus jam volvitur annus, quod opera ac solertia Patrum S. J., Albae-Juliae degen- tium, de unione cum Sancta Homano-catholica Ecclcsia agere coepimus.",
+   "url": "https://archive.org/download/symbolaeadillus00nillgoog/symbolaeadillus00nillgoog_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/nilles.txt"
+  },
+  {
+   "entry": "romanian-greek-catholic-church-1698-1815",
+   "field": "longDescription",
+   "sentence": "Nilles was himself a Jesuit. He adds that the house history shows the Jesuit fathers almost alone tending the Lord's vineyard at Alba Iulia in those years.",
+   "work": "Nicolaus Nilles, Symbolae ad illustrandam historiam ecclesiae orientalis in terris coronae S. Stephani (Innsbruck, 1886)",
+   "quote": "NICOLAO NILLES S. J.",
+   "url": "https://archive.org/download/symbolaeadillus00nillgoog/symbolaeadillus00nillgoog_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/nilles.txt"
+  },
+  {
+   "entry": "romanian-greek-catholic-church-1698-1815",
+   "field": "longDescription",
+   "sentence": "Nilles was himself a Jesuit. He adds that the house history shows the Jesuit fathers almost alone tending the Lord's vineyard at Alba Iulia in those years.",
+   "work": "Nicolaus Nilles, Symbolae ad illustrandam historiam ecclesiae orientalis in terris coronae S. Stephani (Innsbruck, 1886)",
+   "quote": "Patres S. J. per id tcmpus fere solos vineam Doniini Albae-Juliae excoluissc",
+   "url": "https://archive.org/download/symbolaeadillus00nillgoog/symbolaeadillus00nillgoog_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/nilles.txt"
+  },
+  {
+   "entry": "romanian-greek-catholic-church-1698-1815",
+   "field": "longDescription",
+   "sentence": "In 1728 Charles VI ordered the united Romanian clergy to meet in an electoral synod and give him three candidates for the bishop's seat.",
+   "work": "Augustin Bunea, Episcopul Ioan Inocentiu Klein (1728-1751) (Blaj, 1900)",
+   "quote": "Împăratul Carol al VI-lea cu scrisórea din 17 Aprilie 1728 adresată guvernului transilvan, réndui sá se adune clerul românesc unit în sinod electoral, care să-i presenteze 3 candidaţi",
+   "url": "https://archive.org/download/bunea-augustin-episcopul-ioan-inocentiu-klein/Bunea%2C%20Augustin%20-%20Episcopul%20Ioan%20Inocentiu%20Klein_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/bunea_klein.txt"
+  },
+  {
+   "entry": "romanian-greek-catholic-church-1698-1815",
+   "field": "longDescription",
+   "sentence": "The synod met at Alba Iulia on 4 June 1728. The Catholic bishop of Transylvania was there as the king's commissioner. So was the rector of the Jesuit college at Cluj, as the emperor's order required.",
+   "work": "Augustin Bunea, Episcopul Ioan Inocentiu Klein (1728-1751) (Blaj, 1900)",
+   "quote": "Sinodul să întruni in Alba-Iulia în 4 luniú 17282) în presenta episcopului catolic transilvan loan Antalffy",
+   "url": "https://archive.org/download/bunea-augustin-episcopul-ioan-inocentiu-klein/Bunea%2C%20Augustin%20-%20Episcopul%20Ioan%20Inocentiu%20Klein_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/bunea_klein.txt"
+  },
+  {
+   "entry": "romanian-greek-catholic-church-1698-1815",
+   "field": "longDescription",
+   "sentence": "The synod met at Alba Iulia on 4 June 1728. The Catholic bishop of Transylvania was there as the king's commissioner. So was the rector of the Jesuit college at Cluj, as the emperor's order required.",
+   "work": "Augustin Bunea, Episcopul Ioan Inocentiu Klein (1728-1751) (Blaj, 1900)",
+   "quote": "Adam Fitter rectorul colegiului părinţilor iesuiti din Clus, care conform ordinului citat al impé- ratului încă avea să fie de față.",
+   "url": "https://archive.org/download/bunea-augustin-episcopul-ioan-inocentiu-klein/Bunea%2C%20Augustin%20-%20Episcopul%20Ioan%20Inocentiu%20Klein_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/bunea_klein.txt"
+  },
+  {
+   "entry": "romanian-greek-catholic-church-1698-1815",
+   "field": "longDescription",
+   "sentence": "Blaj was then only a Calvinist and Hungarian village.",
+   "work": "Augustin Bunea, Episcopul Ioan Inocentiu Klein (1728-1751) (Blaj, 1900)",
+   "quote": "Blasul pe atunci nu era de cát un sat calvinesc şi unguresc",
+   "url": "https://archive.org/download/bunea-augustin-episcopul-ioan-inocentiu-klein/Bunea%2C%20Augustin%20-%20Episcopul%20Ioan%20Inocentiu%20Klein_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/bunea_klein.txt"
+  },
+  {
+   "entry": "romanian-greek-catholic-church-1698-1815",
+   "field": "longDescription",
+   "sentence": "A contract with the court chamber, dated 31 August 1736, gave the estate of Blaj to the bishopric. The bishop took it in May 1737, in Bunea's dating, and moved there at once.",
+   "work": "Augustin Bunea, Episcopul Ioan Inocentiu Klein (1728-1751) (Blaj, 1900)",
+   "quote": "ér dominiul de la Blas s'a dat episcopiei Ro- mánilor unití prin contractul incheiat cu Camera aulicá regéscà la 31 August 1736",
+   "url": "https://archive.org/download/bunea-augustin-episcopul-ioan-inocentiu-klein/Bunea%2C%20Augustin%20-%20Episcopul%20Ioan%20Inocentiu%20Klein_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/bunea_klein.txt"
+  },
+  {
+   "entry": "romanian-greek-catholic-church-1698-1815",
+   "field": "longDescription",
+   "sentence": "A contract with the court chamber, dated 31 August 1736, gave the estate of Blaj to the bishopric. The bishop took it in May 1737, in Bunea's dating, and moved there at once.",
+   "work": "Augustin Bunea, Episcopul Ioan Inocentiu Klein (1728-1751) (Blaj, 1900)",
+   "quote": "În posesiunea fapticá a acestui dominiú episcopul întră in Maiü 1737?), si tot atunci își mută reședință la Blas.",
+   "url": "https://archive.org/download/bunea-augustin-episcopul-ioan-inocentiu-klein/Bunea%2C%20Augustin%20-%20Episcopul%20Ioan%20Inocentiu%20Klein_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/bunea_klein.txt"
+  },
+  {
+   "entry": "romanian-greek-catholic-church-1698-1815",
+   "field": "longDescription",
+   "sentence": "In 1744 a Serbian monk, Visarion, crossed southern Transylvania and stirred the people against the union. He was arrested on the way into Sibiu. He was questioned on 27 April 1744.",
+   "work": "Augustin Bunea, Episcopul Ioan Inocentiu Klein (1728-1751) (Blaj, 1900)",
+   "quote": "cálugárul sérbesc Visarion",
+   "url": "https://archive.org/download/bunea-augustin-episcopul-ioan-inocentiu-klein/Bunea%2C%20Augustin%20-%20Episcopul%20Ioan%20Inocentiu%20Klein_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/bunea_klein.txt"
+  },
+  {
+   "entry": "romanian-greek-catholic-church-1698-1815",
+   "field": "longDescription",
+   "sentence": "In 1744 a Serbian monk, Visarion, crossed southern Transylvania and stirred the people against the union. He was arrested on the way into Sibiu. He was questioned on 27 April 1744.",
+   "work": "Augustin Bunea, Episcopul Ioan Inocentiu Klein (1728-1751) (Blaj, 1900)",
+   "quote": "Când inse plecă, din Seliste şi era să între în Sibiü, fu arestat",
+   "url": "https://archive.org/download/bunea-augustin-episcopul-ioan-inocentiu-klein/Bunea%2C%20Augustin%20-%20Episcopul%20Ioan%20Inocentiu%20Klein_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/bunea_klein.txt"
+  },
+  {
+   "entry": "romanian-greek-catholic-church-1698-1815",
+   "field": "longDescription",
+   "sentence": "In 1744 a Serbian monk, Visarion, crossed southern Transylvania and stirred the people against the union. He was arrested on the way into Sibiu. He was questioned on 27 April 1744.",
+   "work": "Augustin Bunea, Episcopul Ioan Inocentiu Klein (1728-1751) (Blaj, 1900)",
+   "quote": "În 27 Aprilie 1744 la ordinul comandantului trupelor împără- tesci, contelui Czernin, fu supus unui interogatoriă în presenta episcopului Klein",
+   "url": "https://archive.org/download/bunea-augustin-episcopul-ioan-inocentiu-klein/Bunea%2C%20Augustin%20-%20Episcopul%20Ioan%20Inocentiu%20Klein_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/bunea_klein.txt"
+  },
+  {
+   "entry": "romanian-greek-catholic-church-1698-1815",
+   "field": "longDescription",
+   "sentence": "Empress Maria Theresa wrote in 1746 of that impostor, the false monk (acel pseudo-monach impostor), as Bunea quotes her.",
+   "work": "Augustin Bunea, Episcopul Ioan Inocentiu Klein (1728-1751) (Blaj, 1900)",
+   "quote": "acel pseudo-monach impostor (Visarion)",
+   "url": "https://archive.org/download/bunea-augustin-episcopul-ioan-inocentiu-klein/Bunea%2C%20Augustin%20-%20Episcopul%20Ioan%20Inocentiu%20Klein_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/bunea_klein.txt"
+  },
+  {
+   "entry": "romanian-greek-catholic-church-1698-1815",
+   "field": "longDescription",
+   "sentence": "Bunea adds that the movement grew far beyond one man. The people were also angry at how the bishop's requests had been met.",
+   "work": "Augustin Bunea, Episcopul Ioan Inocentiu Klein (1728-1751) (Blaj, 1900)",
+   "quote": "a luat mai tàrziù dimensiuni forte mari",
+   "url": "https://archive.org/download/bunea-augustin-episcopul-ioan-inocentiu-klein/Bunea%2C%20Augustin%20-%20Episcopul%20Ioan%20Inocentiu%20Klein_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/bunea_klein.txt"
+  },
+  {
+   "entry": "romanian-greek-catholic-church-1698-1815",
+   "field": "longDescription",
+   "sentence": "Bunea adds that the movement grew far beyond one man. The people were also angry at how the bishop's requests had been met.",
+   "work": "Augustin Bunea, Episcopul Ioan Inocentiu Klein (1728-1751) (Blaj, 1900)",
+   "quote": "nemultámirii poporului cu modul cum fusese resolvite cererile episcopului",
+   "url": "https://archive.org/download/bunea-augustin-episcopul-ioan-inocentiu-klein/Bunea%2C%20Augustin%20-%20Episcopul%20Ioan%20Inocentiu%20Klein_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/bunea_klein.txt"
+  },
+  {
+   "entry": "romanian-greek-catholic-church-1698-1815",
+   "field": "longDescription",
+   "sentence": "Asked to calm the movement, he answered with the Romanian words quoted, which the text then renders: how do you want me to calm the people, with mild means or with force? If with mild means, he said, the rights asked for on the basis of the diplomas must be promised to us and truly given (so ni se promită si să ni se dea faptice drepturile).",
+   "work": "Augustin Bunea, Episcopul Ioan Inocentiu Klein (1728-1751) (Blaj, 1900)",
+   "quote": "Cum vreţi să liniştesc spiritele: cu mijlóce blânde ori cu mijlóce violente?",
+   "url": "https://archive.org/download/bunea-augustin-episcopul-ioan-inocentiu-klein/Bunea%2C%20Augustin%20-%20Episcopul%20Ioan%20Inocentiu%20Klein_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/bunea_klein.txt"
+  },
+  {
+   "entry": "romanian-greek-catholic-church-1698-1815",
+   "field": "longDescription",
+   "sentence": "Asked to calm the movement, he answered with the Romanian words quoted, which the text then renders: how do you want me to calm the people, with mild means or with force? If with mild means, he said, the rights asked for on the basis of the diplomas must be promised to us and truly given (so ni se promită si să ni se dea faptice drepturile).",
+   "work": "Augustin Bunea, Episcopul Ioan Inocentiu Klein (1728-1751) (Blaj, 1900)",
+   "quote": "Dacă vreţi cu mijlóce blânde, atunci este de lipsă să ni se promită si să ni se",
+   "url": "https://archive.org/download/bunea-augustin-episcopul-ioan-inocentiu-klein/Bunea%2C%20Augustin%20-%20Episcopul%20Ioan%20Inocentiu%20Klein_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/bunea_klein.txt"
+  },
+  {
+   "entry": "romanian-greek-catholic-church-1698-1815",
+   "field": "longDescription",
+   "sentence": "Asked to calm the movement, he answered with the Romanian words quoted, which the text then renders: how do you want me to calm the people, with mild means or with force? If with mild means, he said, the rights asked for on the basis of the diplomas must be promised to us and truly given (so ni se promită si să ni se dea faptice drepturile).",
+   "work": "Augustin Bunea, Episcopul Ioan Inocentiu Klein (1728-1751) (Blaj, 1900)",
+   "quote": "dea faptice drepturile, cari le cerem pe basa diplomelor.",
+   "url": "https://archive.org/download/bunea-augustin-episcopul-ioan-inocentiu-klein/Bunea%2C%20Augustin%20-%20Episcopul%20Ioan%20Inocentiu%20Klein_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/bunea_klein.txt"
+  },
+  {
+   "entry": "romanian-greek-catholic-church-1698-1815",
+   "field": "longDescription",
+   "sentence": "In 1747 his supporters wrote from Daia that, if he were forced out, the Romanian people would abandon the union. Bunea says Klein himself urged that letter.",
+   "work": "Augustin Bunea, Episcopul Ioan Inocentiu Klein (1728-1751) (Blaj, 1900)",
+   "quote": "atunci si poporul român se va lăpăda de unire",
+   "url": "https://archive.org/download/bunea-augustin-episcopul-ioan-inocentiu-klein/Bunea%2C%20Augustin%20-%20Episcopul%20Ioan%20Inocentiu%20Klein_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/bunea_klein.txt"
+  },
+  {
+   "entry": "romanian-greek-catholic-church-1698-1815",
+   "field": "longDescription",
+   "sentence": "In 1747 his supporters wrote from Daia that, if he were forced out, the Romanian people would abandon the union. Bunea says Klein himself urged that letter.",
+   "work": "Augustin Bunea, Episcopul Ioan Inocentiu Klein (1728-1751) (Blaj, 1900)",
+   "quote": "cari tóte s'aü scris la îndemnul lui Klein.",
+   "url": "https://archive.org/download/bunea-augustin-episcopul-ioan-inocentiu-klein/Bunea%2C%20Augustin%20-%20Episcopul%20Ioan%20Inocentiu%20Klein_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/bunea_klein.txt"
+  },
+  {
+   "entry": "romanian-greek-catholic-church-1698-1815",
+   "field": "longDescription",
+   "sentence": "On 7 May 1751 Klein gave up his see. He did so by a formal act placed in the pope's hands.",
+   "work": "Augustin Bunea, Episcopul Ioan Inocentiu Klein (1728-1751) (Blaj, 1900)",
+   "quote": "Maiú 1751 abzise de episcopie prin act formal depus în mânile Pontificelui Roman.",
+   "url": "https://archive.org/download/bunea-augustin-episcopul-ioan-inocentiu-klein/Bunea%2C%20Augustin%20-%20Episcopul%20Ioan%20Inocentiu%20Klein_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/bunea_klein.txt"
+  },
+  {
+   "entry": "romanian-greek-catholic-church-1698-1815",
+   "field": "sourcing",
+   "sentence": "Bunea wrote for the 200th year of the union.",
+   "work": "Augustin Bunea, Episcopul Ioan Inocentiu Klein (1728-1751) (Blaj, 1900)",
+   "quote": "Când apare acéstá carte, se împlinesc dóué sute de ant dela unirea Románilor din Transilvania",
+   "url": "https://archive.org/download/bunea-augustin-episcopul-ioan-inocentiu-klein/Bunea%2C%20Augustin%20-%20Episcopul%20Ioan%20Inocentiu%20Klein_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/bunea_klein.txt"
+  },
+  {
+   "entry": "romanian-greek-catholic-church-1815-1906",
+   "field": "longDescription",
+   "sentence": "This entry carries the church of the union on from 1815.",
+   "record": "§6 ME-8 (Recommendation: an era 9 row once a Romanian study is opened)",
+   "note": ""
+  },
+  {
+   "entry": "romanian-greek-catholic-church-1815-1906",
+   "field": "longDescription",
+   "sentence": "By the 1890s it was a metropolitan province with four dioceses. The metropolitan sat at Blaj. The writers said the province stood on its own. They called it the Romanian united province of Alba Iulia. The scan prints: romângscă unită. mitropolitană de Alba-luliu.",
+   "work": "Alexandru Grama and Augustin Bunea (as the Internet Archive lists them), Cestiuni din dreptulu si istoria bisericei romanesci unite, Part I (Blaj, 1893)",
+   "quote": "cele patru diecese, Mitropolitulă din Blaşiă",
+   "url": "https://archive.org/download/grama-alexandru-bunea-augustin-cestiuni-de-dreptul-si-istoria-bisericii-romane-unite-partea-i/Grama%2C%20Alexandru%20%26%20Bunea%2C%20Augustin%20-%20Cestiuni%20De%20Dreptul%20Si%20Istoria%20Bisericii%20Romane%20Unite%2C%20Partea%20I_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/grama1.txt"
+  },
+  {
+   "entry": "romanian-greek-catholic-church-1815-1906",
+   "field": "longDescription",
+   "sentence": "By the 1890s it was a metropolitan province with four dioceses. The metropolitan sat at Blaj. The writers said the province stood on its own. They called it the Romanian united province of Alba Iulia. The scan prints: romângscă unită. mitropolitană de Alba-luliu.",
+   "work": "Alexandru Grama and Augustin Bunea (as the Internet Archive lists them), Cestiuni din dreptulu si istoria bisericei romanesci unite, Part I (Blaj, 1893)",
+   "quote": "Provincia nostră romângscă unită. mitropolitană de Alba-luliu este provincie conrdinată, provineiei rom. ca- tolice de Strigoii, ŞI nu subordinată acesteia intru nimic",
+   "url": "https://archive.org/download/grama-alexandru-bunea-augustin-cestiuni-de-dreptul-si-istoria-bisericii-romane-unite-partea-i/Grama%2C%20Alexandru%20%26%20Bunea%2C%20Augustin%20-%20Cestiuni%20De%20Dreptul%20Si%20Istoria%20Bisericii%20Romane%20Unite%2C%20Partea%20I_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/grama1.txt"
+  },
+  {
+   "entry": "romanian-greek-catholic-church-1815-1906",
+   "field": "longDescription",
+   "sentence": "By the 1890s it was a metropolitan province with four dioceses. The metropolitan sat at Blaj. The writers said the province stood on its own. They called it the Romanian united province of Alba Iulia. The scan prints: romângscă unită. mitropolitană de Alba-luliu.",
+   "work": "Alexandru Grama and Augustin Bunea (as the Internet Archive lists them), Cestiuni din dreptulu si istoria bisericei romanesci unite, Part I (Blaj, 1893)",
+   "quote": "Blaşiŭ, 1893.",
+   "url": "https://archive.org/download/grama-alexandru-bunea-augustin-cestiuni-de-dreptul-si-istoria-bisericii-romane-unite-partea-i/Grama%2C%20Alexandru%20%26%20Bunea%2C%20Augustin%20-%20Cestiuni%20De%20Dreptul%20Si%20Istoria%20Bisericii%20Romane%20Unite%2C%20Partea%20I_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/grama1.txt"
+  },
+  {
+   "entry": "romanian-greek-catholic-church-1815-1906",
+   "field": "longDescription",
+   "sentence": "Those writers said the province stood beside the Latin province of the Primate of Strigonium. It was not under it in any way. This is the church's own claim, made in a book of 1893.",
+   "work": "Alexandru Grama and Augustin Bunea (as the Internet Archive lists them), Cestiuni din dreptulu si istoria bisericei romanesci unite, Part I (Blaj, 1893)",
+   "quote": "Provincia nostră romângscă unită. mitropolitană de Alba-luliu este provincie conrdinată, provineiei rom. ca- tolice de Strigoii, ŞI nu subordinată acesteia intru nimic",
+   "url": "https://archive.org/download/grama-alexandru-bunea-augustin-cestiuni-de-dreptul-si-istoria-bisericii-romane-unite-partea-i/Grama%2C%20Alexandru%20%26%20Bunea%2C%20Augustin%20-%20Cestiuni%20De%20Dreptul%20Si%20Istoria%20Bisericii%20Romane%20Unite%2C%20Partea%20I_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/grama1.txt"
+  },
+  {
+   "entry": "romanian-greek-catholic-church-1815-1906",
+   "field": "longDescription",
+   "sentence": "Those writers said the province stood beside the Latin province of the Primate of Strigonium. It was not under it in any way. This is the church's own claim, made in a book of 1893.",
+   "work": "Alexandru Grama and Augustin Bunea (as the Internet Archive lists them), Cestiuni din dreptulu si istoria bisericei romanesci unite, Part I (Blaj, 1893)",
+   "quote": "Blaşiŭ, 1893.",
+   "url": "https://archive.org/download/grama-alexandru-bunea-augustin-cestiuni-de-dreptul-si-istoria-bisericii-romane-unite-partea-i/Grama%2C%20Alexandru%20%26%20Bunea%2C%20Augustin%20-%20Cestiuni%20De%20Dreptul%20Si%20Istoria%20Bisericii%20Romane%20Unite%2C%20Partea%20I_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/grama1.txt"
+  },
+  {
+   "entry": "romanian-greek-catholic-church-1815-1906",
+   "field": "longDescription",
+   "sentence": "The metropolitanate of Alba Iulia was set up again in the 1850s, the book says. Before that only synods of single dioceses could meet. The first provincial synod met in 1872, under Metropolitan Vancea. Another met in 1882.",
+   "work": "Alexandru Grama and Augustin Bunea (as the Internet Archive lists them), Cestiuni din dreptulu si istoria bisericei romanesci unite, Part I (Blaj, 1893)",
+   "quote": "după reactivarea Mitropoliei de Alba-Iulia întîmplată la 1855",
+   "url": "https://archive.org/download/grama-alexandru-bunea-augustin-cestiuni-de-dreptul-si-istoria-bisericii-romane-unite-partea-i/Grama%2C%20Alexandru%20%26%20Bunea%2C%20Augustin%20-%20Cestiuni%20De%20Dreptul%20Si%20Istoria%20Bisericii%20Romane%20Unite%2C%20Partea%20I_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/grama1.txt"
+  },
+  {
+   "entry": "romanian-greek-catholic-church-1815-1906",
+   "field": "longDescription",
+   "sentence": "The metropolitanate of Alba Iulia was set up again in the 1850s, the book says. Before that only synods of single dioceses could meet. The first provincial synod met in 1872, under Metropolitan Vancea. Another met in 1882.",
+   "work": "Alexandru Grama and Augustin Bunea (as the Internet Archive lists them), Cestiuni din dreptulu si istoria bisericei romanesci unite, Part I (Blaj, 1893)",
+   "quote": "Până namu avută Mitro- polia, nică nu sati putută ţină decâtă sinóde diecesane.",
+   "url": "https://archive.org/download/grama-alexandru-bunea-augustin-cestiuni-de-dreptul-si-istoria-bisericii-romane-unite-partea-i/Grama%2C%20Alexandru%20%26%20Bunea%2C%20Augustin%20-%20Cestiuni%20De%20Dreptul%20Si%20Istoria%20Bisericii%20Romane%20Unite%2C%20Partea%20I_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/grama1.txt"
+  },
+  {
+   "entry": "romanian-greek-catholic-church-1815-1906",
+   "field": "longDescription",
+   "sentence": "The metropolitanate of Alba Iulia was set up again in the 1850s, the book says. Before that only synods of single dioceses could meet. The first provincial synod met in 1872, under Metropolitan Vancea. Another met in 1882.",
+   "work": "Alexandru Grama and Augustin Bunea (as the Internet Archive lists them), Cestiuni din dreptulu si istoria bisericei romanesci unite, Part I (Blaj, 1893)",
+   "quote": "Sinoduliă provincială dela 1872 ţinut sub Mitropolitulă Vancea wa făcută deci absolută nimici alta, decâtă ceea ce a făcută sinodulă din 1698 ţinută sub Mitropolituiii Atanasiă.",
+   "url": "https://archive.org/download/grama-alexandru-bunea-augustin-cestiuni-de-dreptul-si-istoria-bisericii-romane-unite-partea-i/Grama%2C%20Alexandru%20%26%20Bunea%2C%20Augustin%20-%20Cestiuni%20De%20Dreptul%20Si%20Istoria%20Bisericii%20Romane%20Unite%2C%20Partea%20I_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/grama1.txt"
+  },
+  {
+   "entry": "romanian-greek-catholic-church-1815-1906",
+   "field": "longDescription",
+   "sentence": "The metropolitanate of Alba Iulia was set up again in the 1850s, the book says. Before that only synods of single dioceses could meet. The first provincial synod met in 1872, under Metropolitan Vancea. Another met in 1882.",
+   "work": "Alexandru Grama and Augustin Bunea (as the Internet Archive lists them), Cestiuni din dreptulu si istoria bisericei romanesci unite, Part I (Blaj, 1893)",
+   "quote": "sinódele provinciale din 1872 şi 1882",
+   "url": "https://archive.org/download/grama-alexandru-bunea-augustin-cestiuni-de-dreptul-si-istoria-bisericii-romane-unite-partea-i/Grama%2C%20Alexandru%20%26%20Bunea%2C%20Augustin%20-%20Cestiuni%20De%20Dreptul%20Si%20Istoria%20Bisericii%20Romane%20Unite%2C%20Partea%20I_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/grama1.txt"
+  },
+  {
+   "entry": "romanian-greek-catholic-church-1815-1906",
+   "field": "longDescription",
+   "sentence": "The synod of 1872 wrote down that the Eastern rite and discipline in the church must stay untouched (să r&mână neatinse, as the scan prints it). The writers at Blaj said the fathers of the synod of 1698 had kept the Eastern rite and discipline for themselves and their successors.",
+   "work": "Alexandru Grama and Augustin Bunea (as the Internet Archive lists them), Cestiuni din dreptulu si istoria bisericei romanesci unite, Part I (Blaj, 1893)",
+   "quote": "că ritulă şi disciplina orientală în biserica nosiră să r&mână neatinse",
+   "url": "https://archive.org/download/grama-alexandru-bunea-augustin-cestiuni-de-dreptul-si-istoria-bisericii-romane-unite-partea-i/Grama%2C%20Alexandru%20%26%20Bunea%2C%20Augustin%20-%20Cestiuni%20De%20Dreptul%20Si%20Istoria%20Bisericii%20Romane%20Unite%2C%20Partea%20I_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/grama1.txt"
+  },
+  {
+   "entry": "romanian-greek-catholic-church-1815-1906",
+   "field": "longDescription",
+   "sentence": "The synod of 1872 wrote down that the Eastern rite and discipline in the church must stay untouched (să r&mână neatinse, as the scan prints it). The writers at Blaj said the fathers of the synod of 1698 had kept the Eastern rite and discipline for themselves and their successors.",
+   "work": "Alexandru Grama and Augustin Bunea (as the Internet Archive lists them), Cestiuni din dreptulu si istoria bisericei romanesci unite, Part I (Blaj, 1893)",
+   "quote": "vinţii sinodului aŭ reservată neatinsă ritul şi disciplina r&săritenă pentru sie şi următorii săi.",
+   "url": "https://archive.org/download/grama-alexandru-bunea-augustin-cestiuni-de-dreptul-si-istoria-bisericii-romane-unite-partea-i/Grama%2C%20Alexandru%20%26%20Bunea%2C%20Augustin%20-%20Cestiuni%20De%20Dreptul%20Si%20Istoria%20Bisericii%20Romane%20Unite%2C%20Partea%20I_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/grama1.txt"
+  },
+  {
+   "entry": "romanian-greek-catholic-church-1815-1906",
+   "field": "longDescription",
+   "sentence": "The Gazeta Transilvaniei attacked Vancea. So did Nicolae Densușianu. They said his synod of 1872 had harmed the law of the fathers (stricată legea strămoșăscă).",
+   "work": "Alexandru Grama and Augustin Bunea (as the Internet Archive lists them), Cestiuni din dreptulu si istoria bisericei romanesci unite, Part I (Blaj, 1893)",
+   "quote": "incidentulti invectivelori » Gazetei Tran- silvaniei« și a dlui Nicolai Densușanti asupra Mitropolitului Vancea",
+   "url": "https://archive.org/download/grama-alexandru-bunea-augustin-cestiuni-de-dreptul-si-istoria-bisericii-romane-unite-partea-i/Grama%2C%20Alexandru%20%26%20Bunea%2C%20Augustin%20-%20Cestiuni%20De%20Dreptul%20Si%20Istoria%20Bisericii%20Romane%20Unite%2C%20Partea%20I_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/grama1.txt"
+  },
+  {
+   "entry": "romanian-greek-catholic-church-1815-1906",
+   "field": "longDescription",
+   "sentence": "The Gazeta Transilvaniei attacked Vancea. So did Nicolae Densușianu. They said his synod of 1872 had harmed the law of the fathers (stricată legea strămoșăscă).",
+   "work": "Alexandru Grama and Augustin Bunea (as the Internet Archive lists them), Cestiuni din dreptulu si istoria bisericei romanesci unite, Part I (Blaj, 1893)",
+   "quote": "Mitropolituiù Vancea în sinodulă dela 1872 ne-a „stricată legea strămoșăscă“",
+   "url": "https://archive.org/download/grama-alexandru-bunea-augustin-cestiuni-de-dreptul-si-istoria-bisericii-romane-unite-partea-i/Grama%2C%20Alexandru%20%26%20Bunea%2C%20Augustin%20-%20Cestiuni%20De%20Dreptul%20Si%20Istoria%20Bisericii%20Romane%20Unite%2C%20Partea%20I_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/grama1.txt"
+  },
+  {
+   "entry": "romanian-greek-catholic-church-1815-1906",
+   "field": "longDescription",
+   "sentence": "Densușianu had found the act of 1698 in 1879. The book reports that he read it as a plain political alliance of two confessions (o simplă, alianță - politică intre dóuë confesiuni, as the scan prints it) against a third, and not as a union of faith.",
+   "work": "Alexandru Grama and Augustin Bunea (as the Internet Archive lists them), Cestiuni din dreptulu si istoria bisericei romanesci unite, Part I (Blaj, 1893)",
+   "quote": "aflati de d-sa la 1879",
+   "url": "https://archive.org/download/grama-alexandru-bunea-augustin-cestiuni-de-dreptul-si-istoria-bisericii-romane-unite-partea-i/Grama%2C%20Alexandru%20%26%20Bunea%2C%20Augustin%20-%20Cestiuni%20De%20Dreptul%20Si%20Istoria%20Bisericii%20Romane%20Unite%2C%20Partea%20I_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/grama1.txt"
+  },
+  {
+   "entry": "romanian-greek-catholic-church-1815-1906",
+   "field": "longDescription",
+   "sentence": "Densușianu had found the act of 1698 in 1879. The book reports that he read it as a plain political alliance of two confessions (o simplă, alianță - politică intre dóuë confesiuni, as the scan prints it) against a third, and not as a union of faith.",
+   "work": "Alexandru Grama and Augustin Bunea (as the Internet Archive lists them), Cestiuni din dreptulu si istoria bisericei romanesci unite, Part I (Blaj, 1893)",
+   "quote": "Unirea, nu este o unire dogmatică, ci o simplă, alianță - politică intre dóuë confesiuni spre a se apera in contra la a treia.",
+   "url": "https://archive.org/download/grama-alexandru-bunea-augustin-cestiuni-de-dreptul-si-istoria-bisericii-romane-unite-partea-i/Grama%2C%20Alexandru%20%26%20Bunea%2C%20Augustin%20-%20Cestiuni%20De%20Dreptul%20Si%20Istoria%20Bisericii%20Romane%20Unite%2C%20Partea%20I_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/grama1.txt"
+  },
+  {
+   "entry": "romanian-greek-catholic-church-1815-1906",
+   "field": "longDescription",
+   "sentence": "The writers at Blaj answered that the synod of 1872 had only written down the faith the fathers of 1698 received.",
+   "work": "Alexandru Grama and Augustin Bunea (as the Internet Archive lists them), Cestiuni din dreptulu si istoria bisericei romanesci unite, Part I (Blaj, 1893)",
+   "quote": "Sinoduliă provincială dela 1872 ţinut sub Mitropolitulă Vancea wa făcută deci absolută nimici alta, decâtă ceea ce a făcută sinodulă din 1698 ţinută sub Mitropolituiii Atanasiă.",
+   "url": "https://archive.org/download/grama-alexandru-bunea-augustin-cestiuni-de-dreptul-si-istoria-bisericii-romane-unite-partea-i/Grama%2C%20Alexandru%20%26%20Bunea%2C%20Augustin%20-%20Cestiuni%20De%20Dreptul%20Si%20Istoria%20Bisericii%20Romane%20Unite%2C%20Partea%20I_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/grama1.txt"
+  },
+  {
+   "entry": "hungarian-and-transylvanian-protestantism-1650-1815",
+   "field": "longDescription",
+   "sentence": "In 1671 the bishop took the Protestant church of Kashaw, after breaking its doors.",
+   "work": "János György Bauhofer, History of the Protestant Church in Hungary, tr. J. Craig (Boston, 1854)",
+   "quote": "Thus, in 1671, by the help of General Spantkaw, the bishop took possession of the Protestant Church of Kashaw after breaking the doors",
+   "url": "https://archive.org/download/historyofprotest00bauh/historyofprotest00bauh_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/bauhofer.txt"
+  },
+  {
+   "entry": "hungarian-and-transylvanian-protestantism-1650-1815",
+   "field": "longDescription",
+   "sentence": "The government set up a special court at Presburg to try Protestants.",
+   "work": "A. Aldasy, \"Hungary\", Catholic Encyclopedia, vol. 7 (1910)",
+   "quote": "The Government succeeded in suppressing the rebellion and erected at Pozsony (Presburg) a special court for the conviction of the Protestants.",
+   "url": "https://www.newadvent.org/cathen/07547a.htm",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/cathen_07547a.txt"
+  },
+  {
+   "entry": "hungarian-and-transylvanian-protestantism-1650-1815",
+   "field": "longDescription",
+   "sentence": "Forty-one prisoners were taken away. Only thirty entered the galleys at Naples, on 7 May. They were sold for fifty Spanish piasters apiece and chained to the benches.",
+   "work": "János György Bauhofer, History of the Protestant Church in Hungary, tr. J. Craig (Boston, 1854)",
+   "quote": "Of the forty-one who had been taken away, only thirty entered the galleys at Naples on the 7th of May. They were here sold for fifty Spanish piasters apiece",
+   "url": "https://archive.org/download/historyofprotest00bauh/historyofprotest00bauh_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/bauhofer.txt"
+  },
+  {
+   "entry": "hungarian-and-transylvanian-protestantism-1650-1815",
+   "field": "longDescription",
+   "sentence": "Ten others gave up their Protestant faith and joined the Church of Rome on 19 February 1676.",
+   "work": "János György Bauhofer, History of the Protestant Church in Hungary, tr. J. Craig (Boston, 1854)",
+   "quote": "ten of them renounced their profession of Protestantism, and joined the Church of Rome on the 19th of February, 1676.",
+   "url": "https://archive.org/download/historyofprotest00bauh/historyofprotest00bauh_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/bauhofer.txt"
+  },
+  {
+   "entry": "hungarian-and-transylvanian-protestantism-1650-1815",
+   "field": "longDescription",
+   "sentence": "On 11 February 1676 the chaplain of the Dutch fleet came for the galley prisoners. They left their prison singing the 46th, the 114th and the 125th Psalms. Twenty-six of the thirty were still alive.",
+   "work": "János György Bauhofer, History of the Protestant Church in Hungary, tr. J. Craig (Boston, 1854)",
+   "quote": "On the 11th of February, 1676, the chaplain of the Dutch fleet, accompanied by several superior officers, went on board the boats, and, as in a dream, the prisoners forsook the place of their confinement, singing the 46th, the 114th, and 125th Psalms.",
+   "url": "https://archive.org/download/historyofprotest00bauh/historyofprotest00bauh_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/bauhofer.txt"
+  },
+  {
+   "entry": "hungarian-and-transylvanian-protestantism-1650-1815",
+   "field": "longDescription",
+   "sentence": "On 11 February 1676 the chaplain of the Dutch fleet came for the galley prisoners. They left their prison singing the 46th, the 114th and the 125th Psalms. Twenty-six of the thirty were still alive.",
+   "work": "János György Bauhofer, History of the Protestant Church in Hungary, tr. J. Craig (Boston, 1854)",
+   "quote": "Of the thirty who entered the galleys, twenty-six were still remain- ing",
+   "url": "https://archive.org/download/historyofprotest00bauh/historyofprotest00bauh_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/bauhofer.txt"
+  },
+  {
+   "entry": "hungarian-and-transylvanian-protestantism-1650-1815",
+   "field": "longDescription",
+   "sentence": "In 1687 Leopold said that by his own free favor he would keep the liberties granted in 1681.",
+   "work": "János György Bauhofer, History of the Protestant Church in Hungary, tr. J. Craig (Boston, 1854)",
+   "quote": "he was resolved of his own free favor to continue all the liberties which had been grant- ed in 1681",
+   "url": "https://archive.org/download/historyofprotest00bauh/historyofprotest00bauh_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/bauhofer.txt"
+  },
+  {
+   "entry": "hungarian-and-transylvanian-protestantism-1650-1815",
+   "field": "longDescription",
+   "sentence": "The Diet of 1681 ordered some churches returned to the Protestants.",
+   "work": "János György Bauhofer, History of the Protestant Church in Hungary, tr. J. Craig (Boston, 1854)",
+   "quote": "all the churches which, by the Diet at CEdenberg in 1681, had been ordered to be surrendered to the Protestants",
+   "url": "https://archive.org/download/historyofprotest00bauh/historyofprotest00bauh_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/bauhofer.txt"
+  },
+  {
+   "entry": "hungarian-and-transylvanian-protestantism-1650-1815",
+   "field": "longDescription",
+   "sentence": "The Peace of Szathmar, signed on 10 May 1711, kept the laws of 1681 and 1687 in force.",
+   "work": "János György Bauhofer, History of the Protestant Church in Hungary, tr. J. Craig (Boston, 1854)",
+   "quote": "It was signed on the 10th of May, 1711",
+   "url": "https://archive.org/download/historyofprotest00bauh/historyofprotest00bauh_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/bauhofer.txt"
+  },
+  {
+   "entry": "hungarian-and-transylvanian-protestantism-1650-1815",
+   "field": "longDescription",
+   "sentence": "The Peace of Szathmar, signed on 10 May 1711, kept the laws of 1681 and 1687 in force.",
+   "work": "A. Aldasy, \"Hungary\", Catholic Encyclopedia, vol. 7 (1910)",
+   "quote": "The regulations of the treaty in regard to religion were that the Government should maintain the laws of 1681 and 1687 which granted the free exercise of religion to persons of every denomination",
+   "url": "https://www.newadvent.org/cathen/07547a.htm",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/cathen_07547a.txt"
+  },
+  {
+   "entry": "hungarian-and-transylvanian-protestantism-1650-1815",
+   "field": "longDescription",
+   "sentence": "On 21 March 1731 Charles VI gave rules the churches had long awaited. Bauhofer says their hopes were badly hurt. Private worship was allowed everywhere. Public worship was allowed only where the law of 1681 named a place.",
+   "work": "János György Bauhofer, History of the Protestant Church in Hungary, tr. J. Craig (Boston, 1854)",
+   "quote": "on the 21st of March, 1731, the following resolutions",
+   "url": "https://archive.org/download/historyofprotest00bauh/historyofprotest00bauh_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/bauhofer.txt"
+  },
+  {
+   "entry": "hungarian-and-transylvanian-protestantism-1650-1815",
+   "field": "longDescription",
+   "sentence": "On 21 March 1731 Charles VI gave rules the churches had long awaited. Bauhofer says their hopes were badly hurt. Private worship was allowed everywhere. Public worship was allowed only where the law of 1681 named a place.",
+   "work": "János György Bauhofer, History of the Protestant Church in Hungary, tr. J. Craig (Boston, 1854)",
+   "quote": "Private religious exercise is tolerated in all places, but the public exercises only in the places mentioned in the 26th article.",
+   "url": "https://archive.org/download/historyofprotest00bauh/historyofprotest00bauh_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/bauhofer.txt"
+  },
+  {
+   "entry": "hungarian-and-transylvanian-protestantism-1650-1815",
+   "field": "longDescription",
+   "sentence": "On 21 March 1731 Charles VI gave rules the churches had long awaited. Bauhofer says their hopes were badly hurt. Private worship was allowed everywhere. Public worship was allowed only where the law of 1681 named a place.",
+   "work": "János György Bauhofer, History of the Protestant Church in Hungary, tr. J. Craig (Boston, 1854)",
+   "quote": "in which their hopes were so grievously blighted",
+   "url": "https://archive.org/download/historyofprotest00bauh/historyofprotest00bauh_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/bauhofer.txt"
+  },
+  {
+   "entry": "hungarian-and-transylvanian-protestantism-1650-1815",
+   "field": "longDescription",
+   "sentence": "In 1732 the Lutherans refused to join the Calvinists in a petition to the king. Soon after, both sent a joint statement to the court.",
+   "work": "János György Bauhofer, History of the Protestant Church in Hungary, tr. J. Craig (Boston, 1854)",
+   "quote": "in 1732 the Lutherans refused to join the Calvinists in their petition to the king",
+   "url": "https://archive.org/download/historyofprotest00bauh/historyofprotest00bauh_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/bauhofer.txt"
+  },
+  {
+   "entry": "hungarian-and-transylvanian-protestantism-1650-1815",
+   "field": "longDescription",
+   "sentence": "In 1732 the Lutherans refused to join the Calvinists in a petition to the king. Soon after, both sent a joint statement to the court.",
+   "work": "János György Bauhofer, History of the Protestant Church in Hungary, tr. J. Craig (Boston, 1854)",
+   "quote": "yet very shortly after we find both once more joining in Pesth to send a united \"statement to the court.",
+   "url": "https://archive.org/download/historyofprotest00bauh/historyofprotest00bauh_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/bauhofer.txt"
+  },
+  {
+   "entry": "hungarian-and-transylvanian-protestantism-1650-1815",
+   "field": "longDescription",
+   "sentence": "Bauhofer reports a Count Pallfy as saying that the Protestants must have either God or the Devil for their friend. Each time their ruin seemed sure, some untoward event stopped it.",
+   "work": "János György Bauhofer, History of the Protestant Church in Hungary, tr. J. Craig (Boston, 1854)",
+   "quote": "The Protes- tants must either have God or the Devil for their friend, for when everything is so completely in order for their annihilation, there comes always some un- toward event to prevent its being carried out.",
+   "url": "https://archive.org/download/historyofprotest00bauh/historyofprotest00bauh_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/bauhofer.txt"
+  },
+  {
+   "entry": "hungarian-and-transylvanian-protestantism-1650-1815",
+   "field": "longDescription",
+   "sentence": "Joseph II's Edict of Toleration went to all the bishops of Hungary on 24 October 1781, in Bauhofer's account. The Catholic Encyclopedia says it was issued on 25 October.",
+   "work": "János György Bauhofer, History of the Protestant Church in Hungary, tr. J. Craig (Boston, 1854)",
+   "quote": "when the Edict of Toleration was forwarded to all the bishops of Hungary",
+   "url": "https://archive.org/download/historyofprotest00bauh/historyofprotest00bauh_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/bauhofer.txt"
+  },
+  {
+   "entry": "hungarian-and-transylvanian-protestantism-1650-1815",
+   "field": "longDescription",
+   "sentence": "Joseph II's Edict of Toleration went to all the bishops of Hungary on 24 October 1781, in Bauhofer's account. The Catholic Encyclopedia says it was issued on 25 October.",
+   "work": "A. Aldasy, \"Hungary\", Catholic Encyclopedia, vol. 7 (1910)",
+   "quote": "The Edict of Toleration, which annulled the Resolutio Carolina, was issued 25 October, 1781.",
+   "url": "https://www.newadvent.org/cathen/07547a.htm",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/cathen_07547a.txt"
+  },
+  {
+   "entry": "hungarian-and-transylvanian-protestantism-1650-1815",
+   "field": "longDescription",
+   "sentence": "Where a hundred families could pay for it, they might build a church, a school and a manse. The churches could have neither bell nor spire, and no door onto the street.",
+   "work": "János György Bauhofer, History of the Protestant Church in Hungary, tr. J. Craig (Boston, 1854)",
+   "quote": "in every district where there were one hundred or more families",
+   "url": "https://archive.org/download/historyofprotest00bauh/historyofprotest00bauh_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/bauhofer.txt"
+  },
+  {
+   "entry": "hungarian-and-transylvanian-protestantism-1650-1815",
+   "field": "longDescription",
+   "sentence": "Where a hundred families could pay for it, they might build a church, a school and a manse. The churches could have neither bell nor spire, and no door onto the street.",
+   "work": "János György Bauhofer, History of the Protestant Church in Hungary, tr. J. Craig (Boston, 1854)",
+   "quote": "who possessed conjointly the means of building a church, school-house, and manse",
+   "url": "https://archive.org/download/historyofprotest00bauh/historyofprotest00bauh_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/bauhofer.txt"
+  },
+  {
+   "entry": "hungarian-and-transylvanian-protestantism-1650-1815",
+   "field": "longDescription",
+   "sentence": "Where a hundred families could pay for it, they might build a church, a school and a manse. The churches could have neither bell nor spire, and no door onto the street.",
+   "work": "János György Bauhofer, History of the Protestant Church in Hungary, tr. J. Craig (Boston, 1854)",
+   "quote": "only that the churches should have neither bell nor spire, and that there should be no entrance direct from the street.",
+   "url": "https://archive.org/download/historyofprotest00bauh/historyofprotest00bauh_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/bauhofer.txt"
+  },
+  {
+   "entry": "hungarian-and-transylvanian-protestantism-1650-1815",
+   "field": "longDescription",
+   "sentence": "The Diet of 1790 and 1791 gave the Protestants complete independence in managing their church affairs, says the Catholic Encyclopedia. It also counts, for 1805, about two million Protestants and five million Catholics.",
+   "work": "A. Aldasy, \"Hungary\", Catholic Encyclopedia, vol. 7 (1910)",
+   "quote": "the Diet of 1790-91 granted the Protestants complete independence in the management of their ecclesiastical affairs",
+   "url": "https://www.newadvent.org/cathen/07547a.htm",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/cathen_07547a.txt"
+  },
+  {
+   "entry": "hungarian-and-transylvanian-protestantism-1650-1815",
+   "field": "longDescription",
+   "sentence": "The Diet of 1790 and 1791 gave the Protestants complete independence in managing their church affairs, says the Catholic Encyclopedia. It also counts, for 1805, about two million Protestants and five million Catholics.",
+   "work": "A. Aldasy, \"Hungary\", Catholic Encyclopedia, vol. 7 (1910)",
+   "quote": "in 1805 there were 5,105,381 Catholics to 1,983,366 Protestants",
+   "url": "https://www.newadvent.org/cathen/07547a.htm",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/cathen_07547a.txt"
+  },
+  {
+   "entry": "hungarian-and-transylvanian-protestantism-1650-1815",
+   "field": "longDescription",
+   "sentence": "Bauhofer, a Protestant, tells their story as long suffering that ends in freedom.",
+   "record": "Bauhofer title page: translator Craig, introduction by Merle d'Aubigne; a Protestant history (record §6 ME-9 B1)",
+   "note": ""
+  },
+  {
+   "entry": "hungarian-and-transylvanian-protestantism-1650-1815",
+   "field": "relationsSummary",
+   "sentence": "The Unitarians of Transylvania, who are told to 1650, are a different church.",
+   "record": "§6 ME-9 Overlap (VI.14 Transylvanian Unitarians to 1650; the Unitarian side is RV-7, G89-53)",
+   "note": ""
+  },
+  {
+   "entry": "polish-and-lithuanian-catholicism-under-the-partitions",
+   "field": "longDescription",
+   "sentence": "After the three partitions, Russia tried to destroy the Catholic Church as well as Polish nationality, says the Catholic Encyclopedia. It gives their dates as 1773, 1793 and 1795.",
+   "work": "E. Kolodziejczyk, \"Poland\", Catholic Encyclopedia, vol. 12 (1911)",
+   "quote": "After the three partitions (1773, 1793, 1795), the Government of Russia strove to extirpate, not only Polish nationality, but also the Catholic Church.",
+   "url": "https://www.newadvent.org/cathen/12181a.htm",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/cathen_12181a.txt"
+  },
+  {
+   "entry": "polish-and-lithuanian-catholicism-under-the-partitions",
+   "field": "longDescription",
+   "sentence": "After it, the article says, the Uniats were forced into apostasy, convents were suppressed and churches were closed.",
+   "work": "E. Kolodziejczyk, \"Poland\", Catholic Encyclopedia, vol. 12 (1911)",
+   "quote": "After the insurrection of 1831, the Uniats were forced into apostasy; convents were suppressed, churches closed.",
+   "url": "https://www.newadvent.org/cathen/12181a.htm",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/cathen_12181a.txt"
+  },
+  {
+   "entry": "polish-and-lithuanian-catholicism-under-the-partitions",
+   "field": "longDescription",
+   "sentence": "A cabinet order of 1864 took the church's property and shut the convents still open. In 1867 the clergy were put under a commission at St Petersburg, with no regard for the wishes of the Apostolic See.",
+   "work": "E. Kolodziejczyk, \"Poland\", Catholic Encyclopedia, vol. 12 (1911)",
+   "quote": "Even harsher measures were adopted after 1863: by a cabinet order of 1864, the property of the Church was confiscated, the convents still in existence suppressed; in 1867 the clergy were placed under the authority of a commission at St. Petersburg, without any regard to the wishes of the Apostolic See.",
+   "url": "https://www.newadvent.org/cathen/12181a.htm",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/cathen_12181a.txt"
+  },
+  {
+   "entry": "polish-and-lithuanian-catholicism-under-the-partitions",
+   "field": "longDescription",
+   "sentence": "The measures were harshest in Lithuania. In the seven years after 1863 not more than ten priests were ordained there. Public devotions, processions and wayside crosses were forbidden.",
+   "work": "E. Kolodziejczyk, \"Poland\", Catholic Encyclopedia, vol. 12 (1911)",
+   "quote": "Obstacles raised by the Government to hinder vocations were so effective that in the seven years immediately following 1863 not more than ten priests were ordained in Lithuania.",
+   "url": "https://www.newadvent.org/cathen/12181a.htm",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/cathen_12181a.txt"
+  },
+  {
+   "entry": "polish-and-lithuanian-catholicism-under-the-partitions",
+   "field": "longDescription",
+   "sentence": "The measures were harshest in Lithuania. In the seven years after 1863 not more than ten priests were ordained there. Public devotions, processions and wayside crosses were forbidden.",
+   "work": "E. Kolodziejczyk, \"Poland\", Catholic Encyclopedia, vol. 12 (1911)",
+   "quote": "Public devotions, processions, the erection of wayside crosses, and the repair of places of worship were forbidden; convents were suppressed",
+   "url": "https://www.newadvent.org/cathen/12181a.htm",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/cathen_12181a.txt"
+  },
+  {
+   "entry": "polish-and-lithuanian-catholicism-under-the-partitions",
+   "field": "longDescription",
+   "sentence": "The measures were harshest in Lithuania.",
+   "work": "E. Kolodziejczyk, \"Poland\", Catholic Encyclopedia, vol. 12 (1911)",
+   "quote": "Peculiarly energetic measures were taken against the Catholic Church in Lithuania.",
+   "url": "https://www.newadvent.org/cathen/12181a.htm",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/cathen_12181a.txt"
+  },
+  {
+   "entry": "polish-and-lithuanian-catholicism-under-the-partitions",
+   "field": "longDescription",
+   "sentence": "The clergy in Prussian Poland were put under the power of the state. Bismarck began his conflict with the Church.",
+   "work": "E. Kolodziejczyk, \"Poland\", Catholic Encyclopedia, vol. 12 (1911)",
+   "quote": "The Catholic clergy in Prussian Poland was subordinated to the temporal power.",
+   "url": "https://www.newadvent.org/cathen/12181a.htm",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/cathen_12181a.txt"
+  },
+  {
+   "entry": "polish-and-lithuanian-catholicism-under-the-partitions",
+   "field": "longDescription",
+   "sentence": "The clergy in Prussian Poland were put under the power of the state. Bismarck began his conflict with the Church.",
+   "work": "E. Kolodziejczyk, \"Poland\", Catholic Encyclopedia, vol. 12 (1911)",
+   "quote": "Bismarck also began his conflict with the Catholic Church",
+   "url": "https://www.newadvent.org/cathen/12181a.htm",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/cathen_12181a.txt"
+  },
+  {
+   "entry": "polish-and-lithuanian-catholicism-under-the-partitions",
+   "field": "longDescription",
+   "sentence": "After the defeat of 1863 and 1864 the clergy held their ground. In Prussia they built social and farm groups and loan offices for craftsmen and workers.",
+   "work": "E. Kolodziejczyk, \"Poland\", Catholic Encyclopedia, vol. 12 (1911)",
+   "quote": "The clergy, however, courageously held their ground and refused to yield.",
+   "url": "https://www.newadvent.org/cathen/12181a.htm",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/cathen_12181a.txt"
+  },
+  {
+   "entry": "polish-and-lithuanian-catholicism-under-the-partitions",
+   "field": "longDescription",
+   "sentence": "After the defeat of 1863 and 1864 the clergy held their ground. In Prussia they built social and farm groups and loan offices for craftsmen and workers.",
+   "work": "E. Kolodziejczyk, \"Poland\", Catholic Encyclopedia, vol. 12 (1911)",
+   "quote": "In Prussia the Polish clergy worked diligently to establish and maintain social and agricultural organizations, as well as societies and loan offices for artisans and labourers",
+   "url": "https://www.newadvent.org/cathen/12181a.htm",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/cathen_12181a.txt"
+  },
+  {
+   "entry": "polish-and-lithuanian-catholicism-under-the-partitions",
+   "field": "longDescription",
+   "sentence": "Only after the war with Japan did Russia proclaim an edict of toleration. It let those forced into the schism be reconciled with Rome.",
+   "work": "E. Kolodziejczyk, \"Poland\", Catholic Encyclopedia, vol. 12 (1911)",
+   "quote": "Not until after the war with Japan was an edict of toleration proclaimed in Russia, making it permissible for schismatics to be reconciled with Rome.",
+   "url": "https://www.newadvent.org/cathen/12181a.htm",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/cathen_12181a.txt"
+  },
+  {
+   "entry": "polish-and-lithuanian-catholicism-under-the-partitions",
+   "field": "longDescription",
+   "sentence": "The article's author is a Polish Catholic, and he speaks for the church.",
+   "record": "§6 ME-10 B1 (Kolodziejczyk, a Polish Catholic author; CE vol. 12, 1911)",
+   "note": "Author named on the article's citation line in the raw page."
+  },
+  {
+   "entry": "the-old-believers",
+   "field": "relationsSummary",
+   "sentence": "The next entry tells how the priestly Old Believers got bishops of their own in 1846, at Belaya Krinitsa.",
+   "work": "F. C. Conybeare, Russian Dissenters (Harvard Theological Studies X, 1921)",
+   "quote": "was at Bielo- Krinits on October 12th, 1846.",
+   "file": "cic/texts/conybeare_russian-dissenters_1921.txt",
+   "lines": "6222-6223"
+  },
+  {
+   "entry": "the-old-believers",
+   "field": "relationsSummary",
+   "sentence": "The next entry tells how the priestly Old Believers got bishops of their own in 1846, at Belaya Krinitsa.",
+   "work": "F. C. Conybeare, Russian Dissenters (Harvard Theological Studies X, 1921)",
+   "quote": "one Ambrose, who had formerly been metropoli- tan of Serajevo in Bosnia, but whom for poHtical or other reasons the Turks had expelled from his see.",
+   "file": "cic/texts/conybeare_russian-dissenters_1921.txt",
+   "lines": "6178-6180"
+  },
+  {
+   "entry": "armenian-christianity-zartonk",
+   "field": "longDescription",
+   "sentence": "Russia took Erivan and Etchmiadzin in 1828. Armenian volunteers helped.",
+   "work": "Malachia Ormanian, The Church of Armenia, tr. G. Marcar Gregory (London, 1912)",
+   "quote": "Since then Russian domination has made headway and her invasions have brought about the occupation of Erivan and Etchmiadzin, a consummation in which Armenian volunteers, under the command of archbishop Nerses of Aschtarak (1828), bore their share.",
+   "file": "cic/texts/ormanian_church-of-armenia_gregory1912.txt",
+   "lines": "4736-4741"
+  },
+  {
+   "entry": "armenian-christianity-zartonk",
+   "field": "longDescription",
+   "sentence": "In 1836 a Russian rule, the Polozhenie, tied the catholicos's rule to the state. Ormanian says it let the state meddle.",
+   "work": "Malachia Ormanian, The Church of Armenia, tr. G. Marcar Gregory (London, 1912)",
+   "quote": "Thus it was that the regulation (pologenia) which was specially enacted (1836) for the purpose of establishing connection with the patriarchal administration, opened very wide the door for the interference of the political authority.",
+   "file": "cic/texts/ormanian_church-of-armenia_gregory1912.txt",
+   "lines": "4757-4761"
+  },
+  {
+   "entry": "armenian-christianity-zartonk",
+   "field": "longDescription",
+   "sentence": "It also left the last word on bishops to the tsar. The catholicos named two men, and the tsar chose.",
+   "work": "Malachia Ormanian, The Church of Armenia, tr. G. Marcar Gregory (London, 1912)",
+   "quote": "reserves the right of final nomination to the czar on the presentation of two candidates by the catholicos",
+   "file": "cic/texts/ormanian_church-of-armenia_gregory1912.txt",
+   "lines": "6855-6857"
+  },
+  {
+   "entry": "armenian-christianity-zartonk",
+   "field": "longDescription",
+   "sentence": "A Catholic work says the bull Reversurus of 1867 caused a schism in Armenia.",
+   "work": "J. Labourt, \"Chaldean Christians\", Catholic Encyclopedia, vol. 3 (1908)",
+   "quote": "Though the Bull \"Reversurus\" had provoked (1867) a schism in Armenia, it was imposed upon the Chaldeans in 1869.",
+   "url": "https://www.newadvent.org/cathen/03559a.htm",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/cathen_03559a.txt"
+  },
+  {
+   "entry": "ruthenian-uniate-18th-century",
+   "field": "longDescription",
+   "sentence": "Nilles's heading dates the union at Uzhhorod to 1646. It dates the solemn confirmation to 1652.",
+   "work": "Nicolaus Nilles, Symbolae ad illustrandam historiam ecclesiae orientalis in terris coronae S. Stephani (Innsbruck, 1885)",
+   "quote": "Unione rite celebrata anno 1646 ac solemmter confirmata anno 1652.",
+   "url": "https://archive.org/download/symbolaeadillus00nillgoog/symbolaeadillus00nillgoog_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/nilles.txt"
+  },
+  {
+   "entry": "ruthenian-uniate-18th-century",
+   "field": "longDescription",
+   "sentence": "In a petition of 15 January 1652, Greek-rite priests tell the pope that they were won back to Rome in the Latin church of the Uzhhorod castle, on 23 April. Their printed text names the year as 1649. Nilles notes that some read it as 1646, because the bishop of Eger who received them died in 1647.",
+   "work": "Nicolaus Nilles, Symbolae ad illustrandam historiam ecclesiae orientalis in terris coronae S. Stephani (Innsbruck, 1885)",
+   "quote": "UnghvdriDO anno millesimo sexcentesimo quinqnagesi- mo secundo, Januarii decima quinta die.",
+   "url": "https://archive.org/download/symbolaeadillus00nillgoog/symbolaeadillus00nillgoog_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/nilles.txt"
+  },
+  {
+   "entry": "ruthenian-uniate-18th-century",
+   "field": "longDescription",
+   "sentence": "In a petition of 15 January 1652, Greek-rite priests tell the pope that they were won back to Rome in the Latin church of the Uzhhorod castle, on 23 April. Their printed text names the year as 1649. Nilles notes that some read it as 1646, because the bishop of Eger who received them died in 1647.",
+   "work": "Nicolaus Nilles, Symbolae ad illustrandam historiam ecclesiae orientalis in terris coronae S. Stephani (Innsbruck, 1885)",
+   "quote": "in ecelesia arcensi Un- ghvdriensi latina",
+   "url": "https://archive.org/download/symbolaeadillus00nillgoog/symbolaeadillus00nillgoog_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/nilles.txt"
+  },
+  {
+   "entry": "ruthenian-uniate-18th-century",
+   "field": "longDescription",
+   "sentence": "In a petition of 15 January 1652, Greek-rite priests tell the pope that they were won back to Rome in the Latin church of the Uzhhorod castle, on 23 April. Their printed text names the year as 1649. Nilles notes that some read it as 1646, because the bishop of Eger who received them died in 1647.",
+   "work": "Nicolaus Nilles, Symbolae ad illustrandam historiam ecclesiae orientalis in terris coronae S. Stephani (Innsbruck, 1885)",
+   "quote": "anno salutirero millesimo sexcentesimo quadragesinio nono, *J Aprilis die vigesima tertia",
+   "url": "https://archive.org/download/symbolaeadillus00nillgoog/symbolaeadillus00nillgoog_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/nilles.txt"
+  },
+  {
+   "entry": "ruthenian-uniate-18th-century",
+   "field": "longDescription",
+   "sentence": "In a petition of 15 January 1652, Greek-rite priests tell the pope that they were won back to Rome in the Latin church of the Uzhhorod castle, on 23 April. Their printed text names the year as 1649. Nilles notes that some read it as 1646, because the bishop of Eger who received them died in 1647.",
+   "work": "Nicolaus Nilles, Symbolae ad illustrandam historiam ecclesiae orientalis in terris coronae S. Stephani (Innsbruck, 1885)",
+   "quote": "S«nt qui legendum piiient T646, qund Episcopus Jakusics",
+   "url": "https://archive.org/download/symbolaeadillus00nillgoog/symbolaeadillus00nillgoog_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/nilles.txt"
+  },
+  {
+   "entry": "ruthenian-uniate-18th-century",
+   "field": "longDescription",
+   "sentence": "In a petition of 15 January 1652, Greek-rite priests tell the pope that they were won back to Rome in the Latin church of the Uzhhorod castle, on 23 April. Their printed text names the year as 1649. Nilles notes that some read it as 1646, because the bishop of Eger who received them died in 1647.",
+   "work": "Nicolaus Nilles, Symbolae ad illustrandam historiam ecclesiae orientalis in terris coronae S. Stephani (Innsbruck, 1885)",
+   "quote": "jain an, 1647 e vUa migraverit.",
+   "url": "https://archive.org/download/symbolaeadillus00nillgoog/symbolaeadillus00nillgoog_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/nilles.txt"
+  },
+  {
+   "entry": "ruthenian-uniate-18th-century",
+   "field": "longDescription",
+   "sentence": "Their earlier bishop at Mukachevo, they say, had left the union.",
+   "work": "Nicolaus Nilles, Symbolae ad illustrandam historiam ecclesiae orientalis in terris coronae S. Stephani (Innsbruck, 1885)",
+   "quote": "Dominus Episcopus Munkac- siensis Baailius Tarasovicz qui e vivis jam discessit",
+   "url": "https://archive.org/download/symbolaeadillus00nillgoog/symbolaeadillus00nillgoog_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/nilles.txt"
+  },
+  {
+   "entry": "ruthenian-uniate-18th-century",
+   "field": "longDescription",
+   "sentence": "They joined on three terms: the Greek rite, a bishop of their own choosing confirmed by Rome, and their church privileges.",
+   "work": "Nicolaus Nilles, Symbolae ad illustrandam historiam ecclesiae orientalis in terris coronae S. Stephani (Innsbruck, 1885)",
+   "quote": "primo : ut ritus graecae ecclesiae nobis servare Iice«t: isecundo : EpiRcopora a nobiK electum et ab ApofttolioA Sede contirmatum liabere; Tertio : imraunitatibua ecclesia- sticis libere frui.",
+   "url": "https://archive.org/download/symbolaeadillus00nillgoog/symbolaeadillus00nillgoog_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/nilles.txt"
+  },
+  {
+   "entry": "ruthenian-uniate-18th-century",
+   "field": "longDescription",
+   "sentence": "They asked Rome to confirm Peter Parthenius, the bishop they had chosen.",
+   "work": "Nicolaus Nilles, Symbolae ad illustrandam historiam ecclesiae orientalis in terris coronae S. Stephani (Innsbruck, 1885)",
+   "quote": "Episcopt a nobi* electi Reverendissimi Patris Petri Parthenii roDfirmationea unanimiter et hinniliter petimue.",
+   "url": "https://archive.org/download/symbolaeadillus00nillgoog/symbolaeadillus00nillgoog_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/nilles.txt"
+  }
+ ],
+ "neighbor_changes": [
+  {
+   "id": "the-old-believers",
+   "set": {
+    "continuesAs": "old-believers-after-1815",
+    "relationsSummary": "The Old Believers grew out of Muscovite Christianity, standing as the enduring counterpart to the official church's Nikonian reforms. Edinoverie, established in 1800, sits on the boundary shared between the two churches. The next entry tells how the priestly Old Believers got bishops of their own in 1846, at Belaya Krinitsa.",
+    "livingEvidence": {
+     "basis": "Old Belief is still practiced, as the entry's own text says. The tradition's dated evidence now sits on the entry for the Old Believers after 1815, the latest in the tree.",
+     "carrier": [
+      "old-believers-after-1815"
+     ],
+     "group": "line"
+    }
+   },
+   "ruling": "G89-38 a",
+   "reason": "ME-5 continues VII.7 (VII.7 had no continuesAs). VII.7's relationsSummary told the Belokrinitsa hierarchy of 1846, which is after 1815; the record's overlap note says the change order must check that line, so the sentence becomes a pointer to ME-5. The living evidence and grade move to ME-5, the latest entry (COMMON.md item 6); VII.7 becomes a line holder with carrier ME-5."
+  },
+  {
+   "id": "armenian-christianity-zartonk",
+   "set": {
+    "longDescription": "Zartonk — awakening — is what Armenians call their nineteenth century. A revival of language, schools, printing and civic life carried largely inside the church, because under Ottoman rule the church was the nation's legal body. Its central document is the Armenian National Constitution of 1863, which seated lay delegates in a national assembly and limited what the Patriarch of Constantinople could do alone, an unusual experiment in giving a laity formal power over its own hierarchy. The century also divided the community: converts of American missionaries were expelled from the Apostolic Church and organized as the Armenian Evangelical Church in 1846, recognized by the Ottoman state as a separate Protestant community in 1850, while an Armenian Catholic patriarchate continued alongside. And it ended in blood — the Hamidian massacres of 1894-96 killed tens of thousands and emptied whole districts.\n\nRussia took Erivan and Etchmiadzin in 1828. Armenian volunteers helped.\n\nIn 1836 a Russian rule, the Polozhenie, tied the catholicos's rule to the state. Ormanian says it let the state meddle.\n\nIt also left the last word on bishops to the tsar. The catholicos named two men, and the tsar chose.\n\nA Catholic work says a papal bull of 1867 caused a schism in Armenia. The bull was called Reversurus.",
+    "sources": [
+     {
+      "work": "Malachia Ormanian, The Church of Armenia, tr. G. Marcar Gregory (London, 1912)",
+      "type": "secondary",
+      "note": "Ormanian was patriarch of Constantinople. He writes from inside the church. The Russian regulation of 1836 and the occupation of Etchmiadzin."
+     },
+     {
+      "work": "J. Labourt, 'Chaldean Christians', Catholic Encyclopedia, vol. 3 (1908)",
+      "type": "secondary",
+      "note": "A Catholic study. It says the bull Reversurus of 1867 provoked a schism in Armenia."
+     }
+    ]
+   },
+   "ruling": "G89-48 a",
+   "reason": "ME-14 (Armenian church in the Russian Empire, the Polozhenie of 1836) and ME-15 (the Armenian Catholic schism and the bull Reversurus), both named lines in VIII.32. The first paragraph is carried unchanged; two paragraphs are added; sources were null and now name the two works the lines rest on."
+  },
+  {
+   "id": "ruthenian-uniate-18th-century",
+   "set": {
+    "longDescription": "A century after the Union of Brest, the Greek Catholic church of the Ruthenian lands — today's Ukraine and Belarus — was at its numerical height, holding the loyalty of most of the peasantry of the eastern Polish-Lithuanian Commonwealth. The Synod of Zamość in 1720 consolidated it and also latinized it, importing Roman devotional practices into a Byzantine rite and settling its identity as something distinctly its own rather than a temporary arrangement. Then the political ground vanished: the partitions of Poland between 1772 and 1795 handed most of the church's people to Catherine II's Russia, which regarded the union as an amputation to be reversed, and campaigns of forced reversion from 1794 stripped it of the great majority of its parishes within two years. What survived did so in Austrian Galicia, where the Habsburgs raised the Greek Catholic clergy's status and paid for their education. And where the church became, over the following century, the carrier of Ukrainian national identity.\n\nThe Ruthenian church of the Carpathian lands had a union with Rome of its own, apart from the union of Brest. Nilles's heading dates the union at Uzhhorod to 1646. It dates the solemn confirmation to 1652.\n\nIn a petition of 15 January 1652, Greek-rite priests tell the pope that they were won back to Rome in the Latin church of the Uzhhorod castle, on 23 April. Their printed text names the year as 1649. Nilles notes that some read it as 1646, because the bishop of Eger who received them died in 1647.\n\nTheir earlier bishop at Mukachevo, they say, had left the union.\n\nThey joined on three terms. They would keep the Greek rite. They would have a bishop of their own choosing, confirmed by Rome. They would keep their church privileges. In their Latin, as the scan prints it: ritus graecae ecclesiae nobis servare Iice«t.\n\nThey asked Rome to confirm Peter Parthenius, the bishop they had chosen.",
+    "sources": [
+     {
+      "work": "Nicolaus Nilles, Symbolae ad illustrandam historiam ecclesiae orientalis in terris coronae S. Stephani (Innsbruck, 1885)",
+      "type": "primary",
+      "note": "Read raw online. A Jesuit's edition of the Carpathian Ruthenians' petition of 1652. It speaks for the union, and the scan is badly damaged.",
+      "url": "https://archive.org/download/symbolaeadillus00nillgoog/symbolaeadillus00nillgoog_djvu.txt"
+     }
+    ]
+   },
+   "ruling": "G89-41 a",
+   "reason": "The record names the Carpathian Ruthenian union (Uzhhorod 1646; Mukachevo) as a named line in the Ruthenian rows. Drafted here for the era 8 row on Nilles's 1652 petition. The first paragraph is carried unchanged. The line starts before the row's 1700 start, as background; the row's dates are not changed."
+  }
+ ],
+ "links": [
+  {
+   "id": "the-old-believers--old-believers-after-1815",
+   "from": "the-old-believers",
+   "to": "old-believers-after-1815",
+   "type": "continued as",
+   "confidence": "Documented",
+   "note": "In 1814 an English account says the Old Believers were divided into priestly and priestless groups. The priestly group took priests from the national church. By 1827 Nicholas I cut off the runaway priests the Popovtsy relied on. In 1846 the same priestly Old Believers found a bishop at Belaya Krinitsa.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Platon, The Present State of the Greek Church in Russia, tr. R. Pinkerton (Edinburgh, 1814), Appendix",
+     "file": "cic/texts/platon_present-state-of-the-greek-church-in-russia_pinkerton1814.txt",
+     "lines": "10487-10491",
+     "locus": "Appendix, the grand division of the Raskolniks",
+     "quote": "gave rise to the grand division which still exists among the Raskolniks, into Popoftschins, or such as admit priests from the national church ; and Bezpopoftschins, or such as either have no priests at all, or priests of their own ordination.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "F. C. Conybeare, Russian Dissenters (Harvard Theological Studies X, 1921)",
+     "file": "cic/texts/conybeare_russian-dissenters_1921.txt",
+     "lines": "5945-5946",
+     "locus": "ch. on the Popovtsy and Nicholas I",
+     "quote": "to cut off the supply of runaway popes upon whom the Popovtsy depended for the administration of the Sacraments",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "F. C. Conybeare, Russian Dissenters (Harvard Theological Studies X, 1921)",
+     "file": "cic/texts/conybeare_russian-dissenters_1921.txt",
+     "lines": "6222-6223",
+     "locus": "ch. \"The Dispersion\", the Austrian hierarchy",
+     "quote": "was at Bielo- Krinits on October 12th, 1846.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "ruling": "G89-38 a"
+  },
+  {
+   "id": "russian-church-synodal-century--old-believers-after-1815",
+   "from": "russian-church-synodal-century",
+   "to": "old-believers-after-1815",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "Notes to an English history of the Russian Church, printed in 1842, call the Old Believers 'the Schism'. They count 19,833 Russian dissenters who joined the state church in 1839. Conybeare says Nicholas I tried to force the Old Believers into the state church from 1827. He says Russian Orthodox writers kept denying that the Belaya Krinitsa orders were valid.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "A. N. Mouravieff, A History of the Church of Russia, trans. R. W. Blackmore (Oxford, 1842), Notes (on the monasteries)",
+     "file": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
+     "lines": "19637-19640",
+     "locus": "Notes, monasteries of the dissenters",
+     "quote": "Most of these were founded in the seventeenth century, after the formation of the Schism.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "A. N. Mouravieff, A History of the Church of Russia, trans. R. W. Blackmore (Oxford, 1842), Notes (on the monasteries)",
+     "file": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
+     "lines": "19652-19654",
+     "locus": "Notes, monasteries of the dissenters",
+     "quote": "it is not enough for them to be offered the election of their own clergy and priors, but they must be wholly independent of the bishop and of the synod",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "A. N. Mouravieff, A History of the Church of Russia, trans. R. W. Blackmore (Oxford, 1842), Notes (Church statistics for 1839)",
+     "file": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
+     "lines": "19687-19692",
+     "locus": "Notes, statistics",
+     "quote": "In 1839, the number of conversions to the Church was as follows: Of Latins, 2,120 (being as many again as had been usual in the preceding years), from different forms of Protestantism 378, Jews 351, Mahometans 441, Heathens 2,601 ; of native Russian dissenters or schismatics 19,833",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "F. C. Conybeare, Russian Dissenters (Cambridge, MA, 1921)",
+     "file": "cic/texts/conybeare_russian-dissenters_1921.txt",
+     "lines": "5810-5816",
+     "locus": "ch. on the Popovtsy",
+     "quote": "It would seem as if the policy of the Russian Government all through was that of which Pobedonostsev under Alexander III secured the ratification by law, namely that if any member of any family, man, woman or child, any- where in the Russian dominions, joined the Orthodox Church, the entire family should be regarded officially as such.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "F. C. Conybeare, Russian Dissenters (Harvard Theological Studies X, 1921)",
+     "file": "cic/texts/conybeare_russian-dissenters_1921.txt",
+     "lines": "5605-5606",
+     "locus": "ch. \"The Persecution of the Raskol by Nicholas I\"",
+     "quote": "to force orthodoxy upon the Raskol at large.^ These attempts began in 1827",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "F. C. Conybeare, Russian Dissenters (Harvard Theological Studies X, 1921)",
+     "file": "cic/texts/conybeare_russian-dissenters_1921.txt",
+     "lines": "6609-6610",
+     "locus": "ch. \"The Dispersion\", the Austrian hierarchy",
+     "quote": "Since Russian orthodox pubUcists continued to deny that the Bielo-Krinits ordinations were vaUd",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "ruling": "G89-38 a"
+  },
+  {
+   "id": "romanian-greek-catholic-church-1698-1815--romanian-greek-catholic-church-1815-1906",
+   "from": "romanian-greek-catholic-church-1698-1815",
+   "to": "romanian-greek-catholic-church-1815-1906",
+   "type": "continued as",
+   "confidence": "Widely Accepted",
+   "note": "The union act is dated Alba Iulia, 7 October 1698. In 1893 writers at Blaj said the synod of 1872 only wrote down the faith the fathers of 1698 had received. This rests on one church argument of 1893 and on the act as printed in 1885.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Nicolaus Nilles, Symbolae ad illustrandam historiam ecclesiae orientalis in terris coronae S. Stephani (Innsbruck, 1886)",
+     "url": "https://archive.org/download/symbolaeadillus00nillgoog/symbolaeadillus00nillgoog_djvu.txt",
+     "accessed": "2026-11-10",
+     "raw_file": "raw/nilles.txt",
+     "locus": "the dating line of the act of union",
+     "quote": "Datum Albae-Juliae anno Domini 1698 die 7. Octobris.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Alexandru Grama and Augustin Bunea (as the Internet Archive lists them), Cestiuni din dreptulu si istoria bisericei romanesci unite, Part I (Blaj, 1893)",
+     "url": "https://archive.org/download/grama-alexandru-bunea-augustin-cestiuni-de-dreptul-si-istoria-bisericii-romane-unite-partea-i/Grama%2C%20Alexandru%20%26%20Bunea%2C%20Augustin%20-%20Cestiuni%20De%20Dreptul%20Si%20Istoria%20Bisericii%20Romane%20Unite%2C%20Partea%20I_djvu.txt",
+     "accessed": "2026-11-10",
+     "raw_file": "raw/grama1.txt",
+     "locus": "on the synod of 1872",
+     "quote": "Sinoduliă provincială dela 1872 ţinut sub Mitropolitulă Vancea wa făcută deci absolută nimici alta, decâtă ceea ce a făcută sinodulă din 1698 ţinută sub Mitropolituiii Atanasiă.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-online",
+   "ruling": "G89-41 a"
+  },
+  {
+   "id": "romanian-greek-catholic-church-1815-1906--the-romanian-greek-catholic-church-suppression-and-return",
+   "from": "romanian-greek-catholic-church-1815-1906",
+   "to": "the-romanian-greek-catholic-church-suppression-and-return",
+   "type": "continued as",
+   "confidence": "Widely Accepted",
+   "note": "In 1893 the church was a province with its see at Alba Iulia. The later entry has a metropolitan of Alba Iulia too. The tie rests on the see.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Alexandru Grama and Augustin Bunea (as the Internet Archive lists them), Cestiuni din dreptulu si istoria bisericei romanesci unite, Part I (Blaj, 1893)",
+     "url": "https://archive.org/download/grama-alexandru-bunea-augustin-cestiuni-de-dreptul-si-istoria-bisericii-romane-unite-partea-i/Grama%2C%20Alexandru%20%26%20Bunea%2C%20Augustin%20-%20Cestiuni%20De%20Dreptul%20Si%20Istoria%20Bisericii%20Romane%20Unite%2C%20Partea%20I_djvu.txt",
+     "accessed": "2026-11-10",
+     "raw_file": "raw/grama1.txt",
+     "locus": "on the metropolitan province",
+     "quote": "Provincia nostră romângscă unită. mitropolitană de Alba-luliu este provincie conrdinată, provineiei rom. ca- tolice de Strigoii, ŞI nu subordinată acesteia intru nimic",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Stéphanie Mahieu, Legal Recognition and Recovery of Property: Contested Restitution of the Romanian Greek Catholic Church Patrimony, Max Planck Institute for Social Anthropology Working Paper 69 (Halle/Saale, 2004)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "verified-online",
+   "ruling": "G89-41 a"
+  },
+  {
+   "id": "polish-and-lithuanian-catholicism-under-the-partitions--polish-catholicism-wyszynski-and-john-paul-ii",
+   "from": "polish-and-lithuanian-catholicism-under-the-partitions",
+   "to": "polish-catholicism-wyszynski-and-john-paul-ii",
+   "type": "continued as",
+   "confidence": "Widely Accepted",
+   "note": "The Catholic Encyclopedia names the archbishop of Gnesen as head of the church in Poland. It lists four church provinces there in 1911. The later entry tells the Polish church from 1918.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "E. Kolodziejczyk, \"Poland\", Catholic Encyclopedia, vol. 12 (1911)",
+     "url": "https://www.newadvent.org/cathen/12181a.htm",
+     "accessed": "2026-11-10",
+     "raw_file": "raw/cathen_12181a.txt",
+     "locus": "Present position of the Church",
+     "quote": "There are at present in Poland four ecclesiastical provinces: at Gnesen, Lemberg, Mohileff, and Warsaw.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Jerzy Kłoczowski, A History of Polish Christianity (Cambridge University Press, 2000)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Brian Porter-Szűcs, Faith and Fatherland: Catholicism, Modernity, and Poland (Oxford University Press, 2011)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-online",
+   "ruling": "G89-40 a"
+  }
+ ],
+ "retire_links": [
+  {
+   "id": "russian-church-synodal-century--the-old-believers",
+   "reason": "Change order under G89-38 a (with G89-6 a): every item of this link's evidence is dated after 1815 (Mouravieff on the conversions of 1839, Conybeare on the laws under Pobedonostsev), but VII.7 ends in 1815. The link was aimed at VII.7 only because no later Old Believers row existed. With the entry on the Old Believers after 1815 in the tree it is replaced by the link from VIII.31 to that entry, which carries the same Library quotes.",
+   "replacedBy": "russian-church-synodal-century--old-believers-after-1815"
+  }
+ ],
+ "holds": [
+  {
+   "item": "ME-6 (the spiritual Christians of Russia: the Dukhobors and the Molokans)",
+   "g89": "G89-46 a",
+   "reason": "The record holds each body for Section A, one by one. Pinkerton (1814) reports that the Dukhobors rejected the outward church, the sacraments and the icons, and Conybeare's chapter on the Molokans' confession was not read. Whether each body's own confession holds the floor was not checked. The Khlysty and Skoptsy are noted as out of scope.",
+   "waits_for": "A dated confession of each body read under Section A (Conybeare Part II, ch. II, 'The Evidence of their Confession of Faith', is in the Library), then an era 9 row for what clears."
+  },
+  {
+   "item": "ME-20 (the Tolstoyans, 1880s-1906)",
+   "g89": "G89-48 a",
+   "reason": "A defined movement on its face, but Section A is a floor question: Tolstoy denied Christ's divinity on the record's unopened report. His own words were not opened.",
+   "waits_for": "A dated text of Tolstoy's before 1906 (public domain). If it bears out the report, the movement is out of scope under A1 unless Mark chooses a lane 8 entry."
+  },
+  {
+   "item": "ME-9, era 9 part: Hungarian and Transylvanian Protestantism, 1815-1906 (1848, the autonomy struggles)",
+   "g89": "G89-45 a",
+   "reason": "The record enters the era 8 row now and the era 9 row once a Hungarian source is opened. The only era 9 item read is one sentence of the Catholic Encyclopedia (the Diet of 1848 decreed equality of the recognized confessions), and the sources read are a Protestant history to 1850 and a Catholic study.",
+   "waits_for": "A source from the churches' own side after 1815, in Hungarian or in a study by a Hungarian Reformed or Lutheran author."
+  },
+  {
+   "item": "ME-9, era 8 detail: Debrecen and Sárospatak, the Lutheran Slovaks and Germans of Upper Hungary, and the galley-slaves' own narratives",
+   "g89": "G89-45 a",
+   "reason": "Marked [S] by the record. Bauhofer was read for the laws and the galleys. No colleges, no Lutheran Upper Hungary and no pastor's own account were opened.",
+   "waits_for": "A Hungarian-language source, or the narrative of one of the galley pastors (for example Bálint Kocsi Csergő's, named by the record)."
+  },
+  {
+   "item": "ME-8, era 9 remainder: Blaj and the Transylvanian School, the metropolitanate of 1853, the national revival",
+   "g89": "G89-41 a",
+   "reason": "The era 9 row drafted rests on one church argument of 1893 (Grama and Bunea, part 1). It does not tell the Transylvanian School, the schools and press at Blaj, the date of the metropolitanate (the scan prints 1855; the record has 1853 as [S]) or 1848.",
+   "waits_for": "A second Romanian study, such as Iorga or Bunea's other works, with the date of the bull that set up the metropolitanate."
+  },
+  {
+   "item": "ME-8, era 8 remainder, 1751-1815: Sofronie (1759-61), the Supplex Libellus Valachorum, and Orthodox resistance after Visarion",
+   "g89": "G89-41 a",
+   "reason": "Bunea's life of Klein ends in 1751 and Nilles's volume is read for 1698-1713. Nothing read tells the later eighteenth century.",
+   "waits_for": "Bunea's or Iorga's later volumes, or Nilles for the later documents."
+  },
+  {
+   "item": "ME-10, the Commonwealth church 1650-1772 (the defense of Jasna Gora in 1655, the Marian Fathers) and the Lithuanian book-smugglers of 1864-1904",
+   "g89": "G89-40 a",
+   "reason": "The record recommends an era 9 row only. It names the Commonwealth church as a possible line in VII.19 or a held era 8 row, and the press ban as a line once a source is opened. Theiner, vol. 4 (in the Library) was not read.",
+   "waits_for": "A Polish or Lithuanian source for each; Theiner vol. 4 for the Commonwealth church."
+  },
+  {
+   "item": "ME-5, own-voice texts: the Belaya Krinitsa statute, the encyclical of 1862, the text of the decree of 1905",
+   "g89": "G89-38 a",
+   "reason": "The row enters on Conybeare, an in-era English witness of 1814 and the earlier entry's own-voice texts. No Old Believer document of 1846 or 1905 was opened.",
+   "waits_for": "Smirnov, Ivanovskii or Subbotin on the Austrian hierarchy (in Russian; no scan found), or the statute and encyclical themselves."
+  },
+  {
+   "item": "ME-8: the Carpathian Ruthenian union after 1652, and its line in VIII.38 (Mukachevo as a see, the nineteenth century)",
+   "g89": "G89-41 a",
+   "reason": "The line in VII.28 is drafted from Nilles's petition of 1652. Nothing opened tells the Carpathian church for 1815-1906, and the record marks the Mukachevo see date as [S]. Nilles's index names the first bishop of Munkács as proclaimed in 1771, which was not read in context.",
+   "waits_for": "A source for the Carpathian Ruthenian church in the nineteenth century; Nilles's Munkács entries re-read."
+  },
+  {
+   "item": "Gap 1906-1948 between ME-8's era 9 row and IX.73 (the Romanian Greek Catholic Church before the dissolution)",
+   "g89": "G89-41 a",
+   "reason": "The continued-as link crosses years no row tells.",
+   "waits_for": "The era 10 owner (a row or a line for 1906-1948)."
+  },
+  {
+   "item": "Gap 1906-1918 between ME-10 and IX.70 (Polish Catholicism before 1918)",
+   "g89": "G89-40 a",
+   "reason": "The continued-as link crosses years no row tells.",
+   "waits_for": "The era 10 owner."
+  },
+  {
+   "item": "Modern-country IDs not held by any census row: Hungary (ME-9), Lithuania (ME-10), Slovakia (ME-9 text), Romania for the Danube Old Believer settlements (place has no census ID; ME-5)",
+   "g89": "G89-45 a, G89-40 a, G89-38 a",
+   "reason": "modernCountries takes IDs from census rows only. Hungary, Lithuania and Slovakia appear in no census row, so they are left out of ME-9's and ME-10's modernCountries.",
+   "waits_for": "One Open-Gaps item to add the Wikidata IDs for Hungary, Lithuania and Slovakia (and a Danube place for ME-5) to the census, then add them to these rows."
+  }
+ ],
+ "wants": [
+  "The Belaya Krinitsa statute, the 1862 encyclical and the text of the 1905 decree: for ME-5, an Old Believer voice of the period.",
+  "A Romanian study beyond Grama and Bunea 1893 (for example Iorga), with the date of the metropolitanate of Blaj: for ME-8 era 9.",
+  "A scan of Nilles's Symbolae that is not so damaged in the Latin and Romanian text of the union act (the act's opening lines read only in part).",
+  "A Hungarian-language source and a galley pastor's narrative: for ME-9.",
+  "Polish pastoral letters of 1815-1906 and a Lithuanian source on the press ban: for ME-10.",
+  "A dated present-day record (after 2010) for the Reformed Church in Hungary and the Lutheran churches: for ME-9's living mark, which now rests on the record's word alone.",
+  "Tolstoy's own dated writings before 1906, and each Dukhobor and Molokan confession: for the two held rows ME-20 and ME-6."
+ ],
+ "flags": [
+  "RV-1 LINK NOT DRAFTED HERE: the ME-8 to RV-1 'in contact with' link (romanian-greek-catholic-church-1698-1815--society-of-jesus-1650-1814) is already drafted by the RV-A slice, 'drafted by the slice named first in the item'. Its from-id matches my row id. My own ME-8 Jesuit line (three paragraphs: the imperial letter of 1692, the 1701 synod's words, the Jesuit rector at the synod of 1728) is in the row text. Its sources are the same Nilles passages the RV-A link quotes, plus Bunea. If RV-1 does not enter, cut the 'Society of Jesus' sentence in my relationsSummary.",
+  "LIVING: ME-5 old-believers-after-1815 is living, group own, with the dated evidence (Moscow Metropolia of the Russian Orthodox Old-Rite Church site, news 7 Nov. 2026, CR) moved from VII.7; VII.7 now has group line, carrier [old-believers-after-1815]. ME-8 (both rows) carry group line with carrier [IX.73] (IX.73 holds its own CR evidence and is not itself carried). ME-10 carries group line with carrier [IX.70] (own CR evidence, not carried). ME-9 is living: true, group own, grade 'none (no dated item after 2010 found)' per the coordinator's rule (record says living, no carrier in the census); its dated source is in wants.",
+  "VII.7 relationsSummary CHANGED beyond the bare ruling: the sentence 'In 1846 the priestly Old Believers restored their own episcopate through the Belokrinitsa hierarchy' is after 1815 and is replaced by a pointer to ME-5. The record's overlap note says the change order must check that line. The reviewer judged the change allowed (round 1).",
+  "ME-8 ERA 9 ROW DRAFTED ON ONE THIN SOURCE: the record offers 'an era 9 row (or named line) once a Romanian study is opened'. I opened Grama and Bunea, part 1 (1893), a church argument. It gives the metropolitan province, the synods of 1872 and 1882, the rite, and the quarrel over the act of 1698, but not the national revival or the schools. Tier 2, sourcing says so; the rest is in holds. Reviewer to judge whether this is enough for a row or whether it should be a hold. There is no era 9 home for a 'named line' (VIII.29 is RV-A's).",
+  "ME-8 SCAN DATE: Grama's scan prints the reactivation of the metropolitanate as 1855 (line 2697 of the raw). The record has 1853 as [S]. The row says only 'in the 1850s'. The first provincial synod's year is printed '187%' in one place and 1872 in many others; I use 1872.",
+  "ME-8 AUTHORSHIP: the Internet Archive lists the 1893 book as by Grama and Bunea. The scanned text names no author. The row says 'as the Internet Archive lists them'. The Bunea of the era 8 row is the same Augustin Bunea; his Klein study (1900) is at archive.org item bunea-augustin-episcopul-ioan-inocentiu-klein, opened raw, public domain by date. Neither work is cited by the record as a source read (the record lists Bunea as wanted), so both are sources opened beyond the record.",
+  "ME-8 'WALLACHIAN': the act's OCR reads 'ecclesiaruni ValaclHcarum'. The sentence 'Wallachian was the Latin word for Romanian' rests on Nilles's heading 'Unio Valachorum' (Union of the Wallachians) and on the record's own gloss; the OCR spelling is kept in the quote. The same damage runs through the act (e.g. 'infraacripti' for infrascripti, 'protoprosbyteri' for protopresbyteri). The record's mended Latin quote with 'inimus' does not appear in this scan ('i n i m u s' is letter-spaced), so I did not use it.",
+  "ME-8 BUNEA DATE: Bunea prints 'Maiü 1737?)' where the question mark may be a footnote mark. The row says 'in Bunea's dating'.",
+  "ME-8 ORTHODOX VOICE: Visarion appears only through Bunea and through Maria Theresa's letter, which calls him a 'pseudo-monach impostor'. The row attributes that to the empress and says the evidence is one-sided. The Romanian text of the letter reads 'acel pseudo-monach impostor (Visarion)'.",
+  "ME-9 THE EDICT'S DATE: Bauhofer says 24 October 1781 (the record's V); the Catholic Encyclopedia says 25 October 1781 (line quoted). The row gives both, with the source of each. 'Œdenberg' is OCR 'CEdenberg' in the raw text; I did not name the city. The decade of mourning is not in Bauhofer's text, so the phrase is not used.",
+  "ME-9 STREAM: I gave 'reformed-calvinist'. The stream list has no Lutheran stream, so the Lutheran half is not shown by it. Reviewer to judge, or drop streams.",
+  "ME-9 CATHOLIC STUDY: the CE article 'Hungary' (1910) is by A. Aldásy per the citation line; the record names it 'Hungary, CE vol. 7' only. Its sentence on the Edict ('wherever there were one hundred Protestant families') and its 1805 count are read raw. The record quotes only its 1848 sentence, which is era 9 and held.",
+  "ME-10 THE PARTITION DATES: the article prints 1773, 1793, 1795; the usual date of the first is 1772. The row reports the article's dates, said to be the article's. The Greek Catholic church's fate (CE: 'the Uniats were forced into apostasy') is in the row only as the article's sentence; the church is VIII.38, told separately, and no link is drafted (a different church; the record names none).",
+  "COUNTRIES: no census row carries Wikidata IDs for Hungary, Slovakia or Lithuania. Per the brief (IDs from census entries only), modernCountries holds only places with IDs: ME-9 Romania (Transylvania), ME-10 Poland, ME-5 Russia and Ukraine, ME-8 Romania (Transylvania). ME-9's region names Hungary and ME-10's names Lithuania, and ME-5's Danube settlements (Romania) are not on its label. Add those IDs at apply time if wanted.",
+  "NO LINK TO VIII.51: the slice names VIII.51 for links only. The record names no link for it (ME-6, whose note in VIII.51 was option c, is held). ME-5's text does not name the Stundists, so none is drafted.",
+  "OCR KEPT IN QUOTES: Conybeare (Library): 'GoUtsyn' (Golitsyn), '^dth' (with), 'metropohtan', 'poHtical', 'pubUcists', 'vaUd', 'distm-bed'. The row writes Golitsyn only in the quote; in my prose the governor is not named. Bunea and Grama (raw): Romanian words are as the scan prints them with ă for ă, ŭ and other stray marks, and 'r&mână' for rămână.",
+  "READABILITY: all paragraphs I added score FRE 60 or more and FK 10 or less. The first paragraph of VIII.32's longDescription is the frozen row's own and is carried unchanged inside the whole new value; check_draft.py prints READ-FAIL for it if it does not clear the bar (not mine to fix).",
+  "ERA RULE: ME-5 and ME-8's era 9 row stop at 1906 in prose; the 1989 restoration in ME-8's legacy is a pointer to the next entry, not a history (it is one clause). Reviewer to judge; it can be cut. ME-10's source (1911) is used only for sentences about 1815-1906."
+ ]
+}
