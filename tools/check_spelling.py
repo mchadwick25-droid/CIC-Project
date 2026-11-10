@@ -77,7 +77,8 @@ _NAMES = re.compile(
     r"|African Civilisation|Carey\S{1,7}s Enquiry|An Enquiry into the Obligations|Le Theatre sacre des Cevennes"
     r"|Plough, Rifton"
     r"|Labour Party|(?:voted|stood as|and) Labour\b|Labour (?:carried|prime minister|leader|government)|Agricultural Labourers|Dorchester Labourers"
-    r"|Church of the Saviour|All Saviour\S{1,7}s monastery",
+    r"|Church of the Saviour|All Saviour\S{1,7}s monastery"
+    r"|The Assyrians and their Neighbours",
 )
 # A capitalized word of this kind next to another capitalized word is part of a name (Labour Party,
 # International Christian Centre, Mediaeval Studies), not prose.
