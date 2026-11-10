@@ -79188,23 +79188,198 @@ laneKeys.forEach(k=>{
   laneGenesisY[k]=yearToY(laneGenesisYear[k]);
 });
 
-const LINEAGE_TYPES=new Set(['gave rise to','continued as','influenced']);
+const RIVER_ORIGINS = [
+ {
+  "lane": 0,
+  "parent": null,
+  "basis": "origin"
+ },
+ {
+  "lane": 1,
+  "parent": 0,
+  "basis": "declared",
+  "confidence": "Contested",
+  "reason": "Syriac Christianity at Edessa grew from the first churches, not from the Greek-speaking family; it is first seen around 200. How it began is unclear. Edessa's own story says the apostle Thomas sent Thaddeus, one of the Seventy, but historians treat that story as legend.",
+  "sources": [
+   {
+    "kind": "primary",
+    "work": "Eusebius, Church History 1.13 (NPNF 2.1)",
+    "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+    "lines": "9483-9485",
+    "locus": "Historia ecclesiastica 1.13.4",
+    "quote": "one of the twelve apostles, under divine impulse sent Thaddeus, who was also numbered among the seventy disciples of Christ,",
+    "license": "public-domain"
+   }
+  ]
+ },
+ {
+  "lane": 1.5,
+  "parent": 1,
+  "basis": "lineage",
+  "link": "st-thomas-christians-under-portuguese-pressure-d--northeast-india-revivals-and-the-mar-thoma-refor"
+ },
+ {
+  "lane": 2,
+  "parent": 3,
+  "basis": "declared",
+  "confidence": "Contested",
+  "reason": "Gregory the Illuminator, first head of the Armenian church, was consecrated bishop at Caesarea in Cappadocia, in the Greek East. What that consecration meant is disputed: Greek writers made Armenia subject to Caesarea, while the Armenian church holds that its see is apostolic and was only revived by Gregory.",
+  "sources": [
+   {
+    "kind": "secondary",
+    "work": "Malachia Ormanian, The Church of Armenia, trans. G. Marcar Gregory (1912), ch. 'Formation of the Ecclesiastical Hierarchy'",
+    "file": "cic/texts/ormanian_church-of-armenia_gregory1912.txt",
+    "lines": "1662-1664",
+    "quote": "he received episcopal consecration at the hands of Leontius, archbishop of Caesarea in Cappadocia,"
+   },
+   {
+    "kind": "secondary",
+    "work": "Malachia Ormanian, The Church of Armenia (1912), on the dispute over the consecration",
+    "file": "cic/texts/ormanian_church-of-armenia_gregory1912.txt",
+    "lines": "1677-1680",
+    "quote": "Such is not the opinion of the Armenians, who believe that the see of Armenia is of apostolic creation, and that it has been independent since its origin."
+   }
+  ]
+ },
+ {
+  "lane": 3,
+  "parent": 0,
+  "basis": "declared",
+  "confidence": "Widely Accepted",
+  "reason": "The Greek-speaking churches of Palestine, Syria and Asia Minor continue the first church itself. Eusebius lists the bishops of Jerusalem in an unbroken line from James.",
+  "sources": [
+   {
+    "kind": "primary",
+    "work": "Eusebius, Church History 4.5 (NPNF 2.1)",
+    "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+    "lines": "21229-21230",
+    "locus": "Historia ecclesiastica 4.5.3",
+    "quote": "The first, then, was James, the so-called brother of the Lord;",
+    "license": "public-domain"
+   }
+  ]
+ },
+ {
+  "lane": 3.5,
+  "parent": 3,
+  "basis": "declared",
+  "confidence": "Inferential-Thin",
+  "reason": "The church of the Christian empire drew on both Greek and Latin churches, so its river sits between them. It leaves the Greek East because its first and main voice, Eusebius, was a bishop in Palestine, and its first council met at Nicaea in the East.",
+  "sources": [
+   {
+    "kind": "primary",
+    "work": "Eusebius, Life of Constantine 3.6 (NPNF 2.1)",
+    "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+    "lines": "64289-64290",
+    "locus": "Vita Constantini 3.6",
+    "quote": "selected for the synod, the city Nicæa in Bithynia",
+    "license": "public-domain"
+   }
+  ]
+ },
+ {
+  "lane": 4,
+  "parent": 0,
+  "basis": "declared",
+  "confidence": "Widely Accepted",
+  "reason": "The church at Alexandria grew from the first churches; it is first seen clearly late in the second century. Its founding is obscure. The tradition that Mark founded it is reported by Eusebius as something people say.",
+  "sources": [
+   {
+    "kind": "primary",
+    "work": "Eusebius, Church History 2.16 (NPNF 2.1)",
+    "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+    "lines": "11851-11853",
+    "locus": "Historia ecclesiastica 2.16.1",
+    "quote": "they say that this Mark was the first that was sent to Egypt, and that he proclaimed the Gospel which he had written, and first established churches in Alexandria.",
+    "license": "public-domain"
+   }
+  ]
+ },
+ {
+  "lane": 4.5,
+  "parent": 4,
+  "basis": "lineage",
+  "link": "east-african-christianity-uganda-martyrs--the-catholic-church-in-africa-twentieth-century"
+ },
+ {
+  "lane": 5,
+  "parent": 0,
+  "basis": "declared",
+  "confidence": "Widely Accepted",
+  "reason": "The Latin churches of Rome and Carthage grew from the first churches, not out of another family. Tertullian of Carthage, the first Latin Christian writer, points his readers to the church of Rome, where apostles taught and died.",
+  "sources": [
+   {
+    "kind": "primary",
+    "work": "Tertullian, The Prescription Against Heretics 36 (ANF 3)",
+    "file": "cic/texts/anf03_tertullian.xml",
+    "lines": "21678-21680",
+    "locus": "De praescriptione haereticorum 36",
+    "quote": "How happy is its church, on which apostles poured forth all their doctrine along with their blood!",
+    "license": "public-domain"
+   }
+  ]
+ },
+ {
+  "lane": 5.5,
+  "parent": 5,
+  "basis": "lineage",
+  "link": "philippine-catholicism-gomburza-to-aglipay--philippine-independent-church-twentieth-century"
+ },
+ {
+  "lane": 6,
+  "parent": 5,
+  "basis": "lineage",
+  "link": "the-hussite-and-bohemian-brethren-movement--czech-churches-last-century"
+ },
+ {
+  "lane": 7,
+  "parent": 6,
+  "basis": "declared",
+  "confidence": "Widely Accepted",
+  "reason": "The revivals of 1904 to 1907 broke out in Protestant churches: the Welsh chapels, Pandita Ramabai's Mukti mission and the Presbyterian seminary at Pyongyang. None of them came from the others.",
+  "sources": [
+   {
+    "kind": "secondary",
+    "work": "R. Tudur Jones, Faith and the Crisis of a Nation: Wales 1890-1914 (English translation 2004)"
+   },
+   {
+    "kind": "secondary",
+    "work": "Sung-Deuk Oak, The Making of Korean Christianity (Baylor, 2013)"
+   },
+   {
+    "kind": "secondary",
+    "work": "Hugh McLeod, ed., The Cambridge History of Christianity, vol. 9 (2006)"
+   }
+  ]
+ },
+ {
+  "lane": 50,
+  "parent": 6,
+  "basis": "lineage",
+  "link": "the-mainline-century-liberal-and-neo-orthodox--progressive-christianity-a-broad-label-not-one-m"
+ },
+ {
+  "lane": 80,
+  "parent": 0,
+  "basis": "declared",
+  "confidence": "Widely Accepted",
+  "reason": "The first non-Nicene teachers taught inside the second-century church before they left it. Tertullian says Valentinus hoped to become a bishop and broke with the church when another man was chosen.",
+  "sources": [
+   {
+    "kind": "primary",
+    "work": "Tertullian, Against the Valentinians 4 (ANF 3)",
+    "file": "cic/texts/anf03_tertullian.xml",
+    "lines": "43109-43113",
+    "locus": "Adversus Valentinianos 4",
+    "quote": "Valentinus had expected to become a bishop, because he was an able man both in genius and eloquence.",
+    "license": "public-domain"
+   }
+  ]
+ }
+]
+;
 const laneParent={};
-laneKeys.forEach(k=>{
-  if(k===0)return;
-  const genesisId=churchBodies.filter(m=>m.laneOrder===k).sort((a,b)=>a.start-b.start)[0].id;
-  const inbound=DATA.edges.find(e=>e.to===genesisId&&LINEAGE_TYPES.has(e.type)&&byId[e.from]&&!isAcross(byId[e.from]));
-  if(inbound)laneParent[k]=byId[inbound.from].laneOrder;
-});
-
-const LANE_PARENT_FROM_RECORD={
-  2:3,
-  4.5:5,
-  6:5,
-  50:6,
-  1.5:1
-};
-laneKeys.forEach(k=>{if(k!==0&&laneParent[k]==null&&LANE_PARENT_FROM_RECORD[k]!=null)laneParent[k]=LANE_PARENT_FROM_RECORD[k];});
+RIVER_ORIGINS.forEach(o=>{if(o.parent!=null)laneParent[o.lane]=o.parent;});
 
 
 const STEP=24;
