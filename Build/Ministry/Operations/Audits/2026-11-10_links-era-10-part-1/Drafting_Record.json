@@ -266,44 +266,6 @@
    "group": "A"
   },
   {
-   "id": "the-mainline-century-liberal-and-neo-orthodox--the-ecumenical-movement-and-the-wcc",
-   "action": "new",
-   "from": "the-mainline-century-liberal-and-neo-orthodox",
-   "to": "the-ecumenical-movement-and-the-wcc",
-   "type": "gave rise to",
-   "confidence": "Inferential-Thin",
-   "note": "The World Council of Churches says it was mostly Protestant and Western in its first years. The mainline churches belonged to that world. But no study shows that the council grew out of them, so this rests on thin evidence.",
-   "sources": [
-    {
-     "kind": "primary",
-     "source_id": null,
-     "work": "World Council of Churches, 'History' (oikoumene.org; the council's own account, an undated page written after 2013)",
-     "url": "https://www.oikoumene.org/about-the-wcc/history",
-     "accessed": "2026-11-10",
-     "locus": "History, third section",
-     "quote": "Predominately Protestant and Western in its earliest years, the WCC's profile and identity evolved during the 1960s with the influx of many Orthodox churches from the East and newly autonomous churches from formerly colonial regions in the South.",
-     "license": "rights reserved; short quotation"
-    }
-   ],
-   "citation_specificity": "B",
-   "verification_state": "verified-online",
-   "named_in_text": [
-    "the-ecumenical-movement-and-the-wcc relationsSummary ('it grew out of the institutional world built by mainline liberal Protestantism and neo-orthodoxy') and legacy ('the institutional home of the mainline century that built it')",
-    "the-mainline-century-liberal-and-neo-orthodox relationsSummary and legacy ('The National Council of Churches ... and the World Council of Churches are this tradition's institutional and conciliar homes')"
-   ],
-   "wants": [
-    "W. A. Visser 't Hooft (ed.), The First Assembly of the World Council of Churches (1949), with its list of founding member churches",
-    "A history of the American churches in the founding of the WCC (none is cited in the repo)"
-   ],
-   "drafter_flags": [
-    "The council's text said it 'grew out of the institutional world built by mainline liberal Protestantism and neo-orthodoxy' and called the mainline 'the mainline century that built it'. The read source says only that its first members were mostly Protestant and Western, and names Orthodox and European roots too. The prose is qualified to 'may have grown in part out of'.",
-    "'The mainline churches belonged to that world' in the note is the inference itself, stated as thin. The Disciples of Christ text (group E) says the Disciples joined the council at its founding in 1948; not checked here.",
-    "Group C drafts the mainline text, which also names this pair; merge with its draft."
-   ],
-   "change_reason": "New: both texts name the pair; the evidence read online supports only a thin reading.",
-   "group": "A"
-  },
-  {
    "id": "the-social-gospel--the-mainline-century-liberal-and-neo-orthodox",
    "action": "new",
    "from": "the-social-gospel",
@@ -1583,11 +1545,11 @@
    ],
    "drafter_flags": [
     "Era 9 drafted this link; this era's text names it, so it is reviewed here as an existing link. from, to and type unchanged.",
-    "Round 1 (R1-3): the General Statement on p. 235 is the bureau's own text, so it is kept as context (secondary), not as a primary. The link's primary is now the Churches of Christ's own statement (p. 242), the quote the Churches of Christ / Disciples link also uses, re-read by curl of the raw djvu text on 2026-11-10 (whitespace squashed). The grade rests on Q3: if Q3 is ruled 'no', regrade to Dominant Modern Reconstruction on Foster (read) and Hughes (named)."
+    "Round 1 (R1-3): the General Statement on p. 235 is the bureau's own text, so it is kept as context (secondary), not as a primary. The link's primary is now the Churches of Christ's own statement (p. 242), the quote the Churches of Christ / Disciples link also uses, re-read by curl of the raw djvu text on 2026-11-10 (whitespace squashed). The grade rested on Q3, since ruled (a): see the next flag.",
+    "Revision round 1 (Q3 ruled (a)): each denomination's own statement in Religious Bodies 1906 counts as its own text; the bureau's general statements do not. The general statement on p. 235 is kept as context only (kind secondary). The link's primaries are the bodies' own statements, so Widely Accepted stands."
    ],
    "change_reason": "Regraded from Dominant Modern Reconstruction to Widely Accepted: the 1910 government report, read online, records the churches' withdrawal, and Foster's article dates it. Note reworded to drop the word 'census'; facts unchanged. Round 1: the primary is now the Churches of Christ's own statement; the bureau's general statement is kept as context.",
-   "group": "D",
-   "pending_ruling": "Q3 (Religious Bodies 1906 statements as the bodies' own texts)"
+   "group": "D"
   },
   {
    "id": "new-calvinism-young-restless-reformed--the-emerging-church-and-post-evangelical-movemen",
@@ -1656,11 +1618,11 @@
    ],
    "drafter_flags": [
     "The text claims a person passing from one side to the other, not a quarrel. The interview shows Driscoll still counted among the emerging churches in 2006 while attacking their theology, so the sentence was qualified and this link drawn instead.",
-    "Round 1 (R1-4): the publisher's description of Carson's book is marketing copy, a summary, so it is no longer a source. Carson stands named, not re-checked (cited in the repo at Build/Ministry/Features/Atlas-World-Map/Design/StepZero-Eras/CiC_Step0_Era10_Sources_E.json). 'On its weak points' and 'a founder of The Gospel Coalition' rested only on that page and are dropped from the note. The only primary is Driscoll's own words in a 2006 interview, a movement writer's own dated text: pending Q2. If Q2 is ruled 'no', regrade to Dominant Modern Reconstruction on Carson and Hansen (both cited in the repo, named)."
+    "Round 1 (R1-4): the publisher's description of Carson's book is marketing copy, a summary, so it is no longer a source. Carson stands named, not re-checked (cited in the repo at Build/Ministry/Features/Atlas-World-Map/Design/StepZero-Eras/CiC_Step0_Era10_Sources_E.json). 'On its weak points' and 'a founder of The Gospel Coalition' rested only on that page and are dropped from the note. The only primary is Driscoll's own words in a 2006 interview, a movement writer's own dated text. Q2 has since been ruled (a): see the next flag.",
+    "Revision round 1 (Q2 ruled (a)): the entry names Driscoll as a carrier (relationsSummary: 'One of its early leaders, Mark Driscoll'; longDescription and voices: Acts 29 'founded in 1998 by David Nicholas with Mark Driscoll'). His 2006 interview counts as the movement's own text, read online. Widely Accepted stands, with Carson named as the secondary."
    ],
-   "change_reason": "New link: Driscoll's own 2006 words and Carson's 2005 critique show New Calvinist leaders writing against the emerging church by name. Round 1: publisher's blurb removed as a source; marked pending Q2.",
-   "group": "D",
-   "pending_ruling": "Q2 (a movement writer's own dated text)"
+   "change_reason": "New link: Driscoll's own 2006 words and Carson's 2005 critique show New Calvinist leaders writing against the emerging church by name. Round 1: publisher's blurb removed as a source; Driscoll's interview admitted under the Q2 ruling.",
+   "group": "D"
   },
   {
    "id": "messianic-judaism--hebrew-roots-and-torah-observance-movements",
@@ -1669,8 +1631,8 @@
    "from": "messianic-judaism",
    "to": "hebrew-roots-and-torah-observance-movements",
    "type": "argued against",
-   "confidence": "Widely Accepted",
-   "note": "In 2005 Russ Resnik of the Union of Messianic Jewish Congregations and Daniel Juster wrote against \"One Law\" teaching. It said Jewish and gentile believers must keep the same Torah. They named the writers of First Fruits of Zion among its best-known teachers.",
+   "confidence": "Inferential-Thin",
+   "note": "In 2005 Russ Resnik of the Union of Messianic Jewish Congregations and Daniel Juster wrote against \"One Law\" teaching. It said Jewish and gentile believers must keep the same Torah. They named the writers of First Fruits of Zion among its best-known teachers. This rests on one paper.",
    "sources": [
     {
      "kind": "primary",
@@ -1717,11 +1679,11 @@
    "drafter_flags": [
     "Rudolph and Willitts named, not read. TorahResource's One-Law reply was opened but cites a 2011 booklet, so it was not used.",
     "Group B owns Messianic Judaism; only this entry's text names the pair.",
-    "Round 1 (R1-7): re-read by curl of the raw page on 2026-11-10. The paper is dated 'January 28, 2005' and signed by two people: 'Dr. Daniel Juster is Director of Tikkun Ministries International' and 'Russ Resnik is Executive Director of the Union of Messianic Jewish Congregations'. Nothing on the page says the Union issued it, so it is two leaders' own dated text, not shown to be a body's text: pending Q2. If Q2 is ruled 'no', regrade to Dominant Modern Reconstruction on Rudolph and Willitts (cited in the repo, named) or lower. Both quotes re-checked verbatim on the same download. The note now gives the 2005 date."
+    "Round 1 (R1-7): re-read by curl of the raw page on 2026-11-10. The paper is dated 'January 28, 2005' and signed by two people: 'Dr. Daniel Juster is Director of Tikkun Ministries International' and 'Russ Resnik is Executive Director of the Union of Messianic Jewish Congregations'. Nothing on the page says the Union issued it, so it is two leaders' own dated text, not shown to be a body's text. Q2 has since been ruled (a): see the next flag. Both quotes re-checked verbatim on the same download. The note now gives the 2005 date.",
+    "Revision round 1 (Q2 ruled (a)): the Messianic Judaism entry does not name Juster or Resnik as carriers. It names the Union of Messianic Jewish Congregations, but nothing on the page says the Union issued this paper. So the paper is not the movement's own text under the ruling, and the link cannot be Widely Accepted. Dominant Modern Reconstruction was weighed and refused: Rudolph and Willitts (2013) are named, not read, and the repo cites them for the movement's own account, not for One Law. Graded Inferential-Thin, said plainly in the note. A copy of the paper issued by the Union, or the joint 'Ephraimite Error' paper (on wants), would raise it."
    ],
-   "change_reason": "New link: the text says the two traditions drew the line in their own writing; the Messianic side's paper, read online, does so by name. Round 1: source re-described as two leaders' dated paper (2005); marked pending Q2.",
-   "group": "D",
-   "pending_ruling": "Q2 (a movement writer's own dated text)"
+   "change_reason": "New link: the text says the two traditions drew the line in their own writing; two Messianic leaders' dated paper, read online, does so by name. Inferential-Thin under the Q2 ruling, since the entry does not name its writers.",
+   "group": "D"
   },
   {
    "id": "the-1904-07-revival-family-wales-mukti-india-pyo--korean-protestantism-twentieth-century",
@@ -1801,9 +1763,9 @@
      "license": "public-domain (U.S. government work, 1910)"
     },
     {
-     "kind": "primary",
+     "kind": "secondary",
      "source_id": null,
-     "work": "U.S. Bureau of the Census, Religious Bodies: 1906, Part II, Separate Denominations: History, Description, and Statistics (Washington, 1910), general statement on the Disciples or Christians",
+     "work": "U.S. Bureau of the Census, Religious Bodies: 1906, Part II, Separate Denominations: History, Description, and Statistics (Washington, 1910), the bureau's own general statement on the Disciples or Christians (context, not a church body's text)",
      "url": "https://archive.org/download/religiousbodies01huntgoog/religiousbodies01huntgoog_djvu.txt",
      "accessed": "2026-11-10",
      "locus": "Disciples or Christians, General statement, p. 235; archive.org item religiousbodies01huntgoog (Part II), djvu text lines 160590-160593",
@@ -1846,11 +1808,11 @@
     "The report is a U.S. government publication. Its letter of transmittal (p. 7) says the denominational statements were 'prepared, wherever feasible, by competent persons in the denominations'. I treated the Disciples statement as the body's own dated text under the era 10 rule; the reviewer should confirm that reading.",
     "Read as the archive.org OCR text of the Google scan; quotes chosen from spans with no OCR errors. Page numbers are the printed ones in that text.",
     "Hughes and the Stone-Campbell Encyclopedia remain named-not-rechecked.",
-    "Re-checked 2026-11-10 by plain curl of the same djvu text: every quote is there word for word. The OCR puts two spaces between words and breaks lines mid-sentence, so a raw grep for a single-spaced phrase finds nothing; squash whitespace first (e.g. tr -s ' \\n' ' '). Line numbers in the locus are in that text file."
+    "Re-checked 2026-11-10 by plain curl of the same djvu text: every quote is there word for word. The OCR puts two spaces between words and breaks lines mid-sentence, so a raw grep for a single-spaced phrase finds nothing; squash whitespace first (e.g. tr -s ' \\n' ' '). Line numbers in the locus are in that text file.",
+    "Revision round 1 (Q3 ruled (a)): each denomination's own statement in Religious Bodies 1906 counts as its own text; the bureau's general statements do not. The general statement on p. 235 is kept as context only (kind secondary). The link's primaries are the bodies' own statements, so Widely Accepted stands."
    ],
    "change_reason": "Regraded Dominant Modern Reconstruction to Widely Accepted: the 1906 Religious Bodies report, read online, shows the Disciples tracing their origin to the Stone and Campbell movement and the 1906 split. From, to, type and note unchanged. Capped at Widely Accepted because the text is read online, not held in the Library.",
-   "group": "E",
-   "pending_ruling": "Q3 (Religious Bodies 1906 statements as the bodies' own texts)"
+   "group": "E"
   },
   {
    "id": "churches-of-christ-twentieth-century--disciples-of-christ-and-independent-christian-churches",
@@ -1862,9 +1824,9 @@
    "note": "In 1906 a United States survey of churches listed the Churches of Christ apart from the Disciples for the first time. Its general statement on the two bodies said those churches had withdrawn since 1900. The statement for the Churches of Christ told how the two sides split over mission societies and music in worship.",
    "sources": [
     {
-     "kind": "primary",
+     "kind": "secondary",
      "source_id": null,
-     "work": "U.S. Bureau of the Census, Religious Bodies: 1906, Part II, Separate Denominations: History, Description, and Statistics (Washington, 1910), the bureau's general statement on the Disciples or Christians",
+     "work": "U.S. Bureau of the Census, Religious Bodies: 1906, Part II, Separate Denominations: History, Description, and Statistics (Washington, 1910), the bureau's general statement on the Disciples or Christians (context, not a church body's text)",
      "url": "https://archive.org/download/religiousbodies01huntgoog/religiousbodies01huntgoog_djvu.txt",
      "accessed": "2026-11-10",
      "locus": "General statement (the report's own, introducing both bodies), 'Disciples or Christians', p. 235; archive.org item religiousbodies01huntgoog (Part II), djvu text lines 160590-160593",
@@ -1917,20 +1879,20 @@
     "Both statements sit in one government report, but each was prepared for its own body, so the rupture is recorded from both sides. The Disciples statement's own sentence ('have since withdrawn to form the body known as the \"Churches of Christ\"', p. 237) has OCR damage, so I quote the general statement instead; the reviewer can read p. 237 at the same address.",
     "The note calls the census of religious bodies a 'survey of churches', to keep the word census out of public text.",
     "Re-checked 2026-11-10 by plain curl of the same djvu text: every quote is there word for word. The OCR puts two spaces between words and breaks lines mid-sentence, so a raw grep for a single-spaced phrase finds nothing; squash whitespace first (e.g. tr -s ' \\n' ' '). Line numbers in the locus are in that text file.",
-    "Round 1 (R1-2): the general statement on p. 235 is the bureau's own text, introducing both bodies; it is not the Disciples' statement. The note now says so. The Disciples' own statement (pp. 236-237) is not quoted."
+    "Round 1 (R1-2): the general statement on p. 235 is the bureau's own text, introducing both bodies; it is not the Disciples' statement. The note now says so. The Disciples' own statement (pp. 236-237) is not quoted.",
+    "Revision round 1 (Q3 ruled (a)): each denomination's own statement in Religious Bodies 1906 counts as its own text; the bureau's general statements do not. The general statement on p. 235 is kept as context only (kind secondary). The link's primaries are the bodies' own statements, so Widely Accepted stands."
    ],
    "change_reason": "New: the 1906 division both texts name had no link.",
-   "group": "E",
-   "pending_ruling": "Q3 (Religious Bodies 1906 statements as the bodies' own texts)"
+   "group": "E"
   },
   {
    "id": "disciples-of-christ-and-independent-christian-churches--the-ecumenical-movement-and-the-wcc",
    "action": "new",
    "from": "disciples-of-christ-and-independent-christian-churches",
    "to": "the-ecumenical-movement-and-the-wcc",
-   "type": "in contact with",
+   "type": "member of",
    "confidence": "Widely Accepted",
-   "note": "The Disciples of Christ in the United States joined the World Council of Churches when it began in 1948. The council's own list of member churches gives that date.",
+   "note": "The Disciples of Christ in the United States joined the World Council of Churches when it was formed in 1948. The council's own list of member churches gives that date.",
    "sources": [
     {
      "kind": "primary",
@@ -1955,12 +1917,6 @@
    ],
    "citation_specificity": "B",
    "verification_state": "verified-online",
-   "major": {
-    "major": false,
-    "kind": null,
-    "evidence": null,
-    "reason": "Joining a council is membership, not a condemnation, split or changed rule."
-   },
    "named_in_text": [
     "disciples-of-christ-and-independent-christian-churches relationsSummary, longDescription, why and legacy ('founding members of ... the World Council of Churches in 1948')"
    ],
@@ -1969,12 +1925,11 @@
    ],
    "drafter_flags": [
     "The WCC page is current (after 2010) but supports a 1948 fact; the note keeps no date after 2010.",
-    "'In contact with' is the nearest of the six types for membership of a council; no influence is claimed. The WCC side's text (group A) does not name the Disciples.",
-    "Foster named, not rechecked, for the consensus reading."
+    "Foster named, not rechecked, for the consensus reading.",
+    "Revision round 1 (Q1 ruled (b), Atlas Decision-Log 2026-11-10): retyped from 'in contact with' to the new type 'member of', from the Disciples to the council. Membership claims no descent or influence, is never major and carries no outcome, so the major block is dropped. The quote 'WCC Member Since 1948' was re-read by curl of the raw page on 2026-11-10. The WCC side's text does not name the Disciples."
    ],
-   "change_reason": "New: the World Council membership the text names four times had no link.",
-   "group": "E",
-   "pending_ruling": "Q1 (membership as \"in contact with\")"
+   "change_reason": "New: the World Council membership the text names four times had no link. Drawn as 'member of' under the Q1 ruling.",
+   "group": "E"
   },
   {
    "id": "northeast-india-revivals-and-the-mar-thoma-refor--northeast-india-and-mar-thoma-twentieth-century",
@@ -2183,11 +2138,11 @@
     "METHOD QUESTION (in escalations): the era 10 rule admits as online primary only a church body's own dated text. Wright's article is one author's, not a body's. I used it because it is the critic's own text directed at the other side, but graded the link Inferential-Thin, not Widely Accepted.",
     "Re-checked 2026-11-10 by plain curl: the sentence is on the page, but a footnote marker '[1]' follows 'bizarre', so the quote now ends at 'bizarre' without the full stop.",
     "Group B (narrative-kingdom) may draft the same pair; merge to one link.",
-    "Prose qualified: 'in large part a reaction' claimed more than one article shows."
+    "Prose qualified: 'in large part a reaction' claimed more than one article shows.",
+    "Revision round 1 (Q2 ruled (a)): the entry names Wright as a carrier (relationsSummary 'Wright carried the story to a wide readership'; voices). His 2001 article counts as the movement's own text. The grade stays Inferential-Thin: Widely Accepted needs a secondary for the consensus reading, and none is cited. Hummel (2023) is cited on the dispensational entry, but the repo records nothing of his finding, so he cannot carry it. The note says the link rests on one article."
    ],
    "change_reason": "New: the rivalry both texts name had no link.",
-   "group": "E",
-   "pending_ruling": "Q2 (a movement writer's own dated text)"
+   "group": "E"
   },
   {
    "id": "russian-evangelicals-stundists--persecuted-church-worlds-of-the-communist-era-in",
@@ -3046,9 +3001,9 @@
    "sentence": "It stands as a counterpart to the Lausanne movement of 1974, the evangelical alternative answer to the same question of how divided churches should work together, and it grew out of the institutional world built by mainline liberal Protestantism and neo-orthodoxy.",
    "other_id": "the-mainline-century-liberal-and-neo-orthodox",
    "disposition": "qualify",
-   "link_id": "the-mainline-century-liberal-and-neo-orthodox--the-ecumenical-movement-and-the-wcc",
+   "link_id": null,
    "prose_change": 0,
-   "reason": "The read source says only that the first member churches were mostly Protestant and Western. Qualified to 'may have grown in part out of', with the reason; link at Inferential-Thin.",
+   "reason": "The read source says only that the first member churches were mostly Protestant and Western. Qualified to 'may have grown in part out of', with the reason; link at Inferential-Thin. Revision round 1: the Inferential-Thin 'gave rise to' link is withdrawn. Its only source says the council's first members were mostly Protestant and Western; that shows who joined, not descent. The prose stays qualified ('may have'), with no link.",
    "group": "A"
   },
   {
@@ -3167,9 +3122,9 @@
    "sentence": "This map draws it as the counter-pole to the Lausanne movement of 1974 — two different answers, from the same century, to the question of how churches that disagree should work together — and as the institutional home of the mainline century that built it.",
    "other_id": "the-mainline-century-liberal-and-neo-orthodox",
    "disposition": "qualify",
-   "link_id": "the-mainline-century-liberal-and-neo-orthodox--the-ecumenical-movement-and-the-wcc",
+   "link_id": null,
    "prose_change": 3,
-   "reason": "'The mainline century that built it' qualified to 'which may have helped to build it'; see the Inferential-Thin link.",
+   "reason": "'The mainline century that built it' qualified to 'which may have helped to build it'; see the Inferential-Thin link. Revision round 1: the Inferential-Thin 'gave rise to' link is withdrawn. Its only source says the council's first members were mostly Protestant and Western; that shows who joined, not descent. The prose stays qualified ('may have'), with no link.",
    "group": "A"
   },
   {
@@ -4082,7 +4037,7 @@
    "disposition": "kept-as-is",
    "link_id": null,
    "prose_change": null,
-   "reason": "The sentence names membership, not lineage, and no one of the six link types fits membership. Supported by the census source rows (Federal and National Council records) and by the World Council's own history page, read online, which calls it 'Predominately Protestant and Western in its earliest years'. The ecumenical entry's stronger 'grew out of' claim is in group A's text, so group A drafts any link.",
+   "reason": "The sentence names membership, not lineage, and no one of the six link types fits membership. Supported by the census source rows (Federal and National Council records) and by the World Council's own history page, read online, which calls it 'Predominately Protestant and Western in its earliest years'. The ecumenical entry's stronger 'grew out of' claim is in group A's text, so group A drafts any link. Revision round 1 (Q1 ruled: a seventh type, 'member of'): still no link. 'Member of' is for a church that joined a council on that body's record. This movement is a theological and institutional tradition across several denominations, and its text names no member church, so which churches would stand for it is not sourced.",
    "group": "C"
   },
   {
@@ -4159,7 +4114,7 @@
    "disposition": "kept-as-is",
    "link_id": null,
    "prose_change": 0,
-   "reason": "Membership, not lineage, as in the summary; the sentence is only split for reading level.",
+   "reason": "Membership, not lineage, as in the summary; the sentence is only split for reading level. Revision round 1 (Q1 ruled: a seventh type, 'member of'): still no link. 'Member of' is for a church that joined a council on that body's record. This movement is a theological and institutional tradition across several denominations, and its text names no member church, so which churches would stand for it is not sourced.",
    "group": "C"
   },
   {
@@ -4995,7 +4950,7 @@
    "disposition": "link",
    "link_id": "disciples-of-christ-and-independent-christian-churches--the-ecumenical-movement-and-the-wcc",
    "prose_change": null,
-   "reason": "WCC's own member page gives 1948; new 'in contact with' link.",
+   "reason": "WCC's own member page gives 1948; new 'member of' link (Q1 ruling).",
    "group": "E"
   },
   {
@@ -5006,7 +4961,7 @@
    "disposition": "link",
    "link_id": "disciples-of-christ-and-independent-christian-churches--the-ecumenical-movement-and-the-wcc",
    "prose_change": null,
-   "reason": "WCC's own member page gives 1948; new 'in contact with' link.",
+   "reason": "WCC's own member page gives 1948; new 'member of' link (Q1 ruling).",
    "group": "E"
   },
   {
@@ -5017,7 +4972,7 @@
    "disposition": "link",
    "link_id": "disciples-of-christ-and-independent-christian-churches--the-ecumenical-movement-and-the-wcc",
    "prose_change": null,
-   "reason": "WCC's own member page gives 1948; new 'in contact with' link.",
+   "reason": "WCC's own member page gives 1948; new 'member of' link (Q1 ruling).",
    "group": "E"
   },
   {
@@ -5028,7 +4983,7 @@
    "disposition": "link",
    "link_id": "disciples-of-christ-and-independent-christian-churches--the-ecumenical-movement-and-the-wcc",
    "prose_change": null,
-   "reason": "WCC's own member page gives 1948; new 'in contact with' link.",
+   "reason": "WCC's own member page gives 1948; new 'member of' link (Q1 ruling).",
    "group": "E"
   },
   {
@@ -6542,6 +6497,9 @@
   ],
   "F": [
    "None that change a method rule. Two items for the record: (1) the Chinese church's own text dated its first independent churches to 'the 1920s' while naming one from 1917; corrected inside the qualifying prose change, a one-sentence fix. (2) The Chinese church legacy cites a Pew study published in 2011; that is prose, not a link, and was left for the entry's owner."
+  ],
+  "Revision round 1": [
+   "Not drafted, for the reviewer: a 'member of' link from the Greek Church and the Ecumenical Patriarchate to the World Council of Churches. The Greek entry says 'Orthodox membership of the World Council of Churches belongs to the entry on the ecumenical movement', and the WCC's own member pages (oikoumene.org/member-churches/ecumenical-patriarchate and /church-of-greece, read raw 2026-11-10) give 'WCC Member Since 1948' for both. No repo-cited secondary covers it, so under the brief it could not be Widely Accepted, and Inferential-Thin would misstate a membership the council itself records. The grade a 'member of' link takes when it rests on the council's own record alone is not yet ruled; the coordinator's Q1 instruction covered only the mainline and the Disciples."
   ]
  },
  "online_quote_check": "Every quote read online was checked against the page itself: web pages by a raw download and exact match (tags stripped, whitespace squashed), scanned PDFs against the page images by a separate agent (all 7 verbatim). Script: scratchpad l10-qc/check_online.py; results in Online_Quote_Check.json. Revision round 1: the Churches of Christ statement (p. 242) added to the Stone-Campbell link, and the Juster-Resnik paper's date, signers and both quotes, were re-read by raw curl on 2026-11-10 and match exactly (whitespace squashed)."
