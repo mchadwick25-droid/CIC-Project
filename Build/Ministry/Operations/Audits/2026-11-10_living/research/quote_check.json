@@ -1,0 +1,803 @@
+[
+ {
+  "id": "antiochene-church-third-century",
+  "item": 0,
+  "url": "https://www.antiochpatriarchate.org/en/",
+  "saved": true,
+  "fresh": true,
+  "verified_claim": true,
+  "quote": "Speech of His Beatitude Patriarch John X at the Opening of the Holy Synod Balamand October 20, 2026"
+ },
+ {
+  "id": "antiochene-church-third-century",
+  "item": 1,
+  "url": "https://www.catholicworldreport.com/2025/10/28/syrian-transitional-president-visits-greek-orthodox-patriarch-in-damascus/",
+  "saved": true,
+  "fresh": false,
+  "verified_claim": true,
+  "quote": "Greek Orthodox Patriarch John X Yazigi of Antioch and All the East on Sunday received Ahmad al-Shar\u2019a"
+ },
+ {
+  "id": "jerusalem-liturgical-pilgrimage-christianity",
+  "item": 0,
+  "url": "https://en.jerusalem-patriarchate.info/",
+  "saved": true,
+  "fresh": true,
+  "verified_claim": true,
+  "quote": "THE FEAST OF SAINT DEMETRIUS THE GREAT MARTYR AND MYRRH-STREAMER AT THE PATRIARCHATE 08/11/2026"
+ },
+ {
+  "id": "jerusalem-liturgical-pilgrimage-christianity",
+  "item": 1,
+  "url": "https://greekcitytimes.com/2026/09/24/patriarch-theophilos-iii-jordan-jerusalem-holy-sites/",
+  "saved": true,
+  "fresh": true,
+  "verified_claim": true,
+  "quote": "Patriarch Theophilos III has praised Jordan\u2019s continued role in protecting Jerusalem\u2019s Christian and Islamic holy sites"
+ },
+ {
+  "id": "gallic-monastic-ascetic-christianity",
+  "item": 0,
+  "url": "https://www.abbayedelerins.com/",
+  "saved": true,
+  "fresh": true,
+  "verified_claim": true,
+  "quote": "Horaire des messes pour les F\u00eates et solennit\u00e9s \u00e0 venir en novembre et en d\u00e9cembre 2026"
+ },
+ {
+  "id": "gallic-monastic-ascetic-christianity",
+  "item": 1,
+  "url": "https://www.rcf.fr/articles/vie-spirituelle/aimer-les-freres-aimer-les-lieux-a-quoi-ressemble-la-vie-insulaire-des",
+  "saved": null,
+  "fresh": null,
+  "verified_claim": false,
+  "note": "no quote"
+ },
+ {
+  "id": "chalcedonian-monasticism-judean-desert-and-gaza",
+  "item": 0,
+  "url": "http://www.mountsinaimonastery.org/news-blog/is-the-burning-bush-still-burning",
+  "saved": true,
+  "fresh": true,
+  "verified_claim": true,
+  "quote": "Priestmonk Arsenios, successor to long-time Monastery \u201cDikaios\u201d Geronta Pavlos as the spiritual father in charge of the Monastery\u2019s spiritual life"
+ },
+ {
+  "id": "chalcedonian-monasticism-judean-desert-and-gaza",
+  "item": 1,
+  "url": "https://www.al-monitor.com/pulse/originals/2016/05/west-bank-palestine-old-monastery-unesco-heritage-list.html",
+  "saved": true,
+  "fresh": true,
+  "verified_claim": true,
+  "quote": "Mar Saba Monastery is one of 13 Palestinian sites included on UNESCO's tentative lists"
+ },
+ {
+  "id": "early-benedictine-italian-monasticism",
+  "item": 0,
+  "url": "https://www.osb.org/",
+  "saved": true,
+  "fresh": false,
+  "verified_claim": true,
+  "quote": "The conventual chapter of Pannonhalma Archabbey has re-elected Archabbot Cirill Hortob\u00e1gyi OSB for a further term as Archabbot."
+ },
+ {
+  "id": "insular-irish-monastic-christianity",
+  "item": 0,
+  "url": "https://catholicbishops.ie/",
+  "saved": true,
+  "fresh": false,
+  "verified_claim": true,
+  "quote": "Nov 10, 2026 Archbishop Martin: Human trafficking is one of the great scandals of our world today"
+ },
+ {
+  "id": "medieval-irish-christianity",
+  "item": 0,
+  "url": "https://catholicbishops.ie/",
+  "saved": true,
+  "fresh": null,
+  "verified_claim": true,
+  "quote": "Nov 10, 2026 Archbishop Martin: Human trafficking is one of the great scandals of our world today"
+ },
+ {
+  "id": "british-welsh-christianity",
+  "item": 0,
+  "url": "https://www.churchinwales.org.uk/en/",
+  "saved": true,
+  "fresh": true,
+  "verified_claim": true,
+  "quote": "Copyright \u00a9 2007-2026 The Representative Body of the Church in Wales. All Rights Reserved."
+ },
+ {
+  "id": "medieval-welsh-christianity",
+  "item": 0,
+  "url": "https://www.churchinwales.org.uk/en/",
+  "saved": true,
+  "fresh": true,
+  "verified_claim": true,
+  "quote": "Copyright \u00a9 2007-2026 The Representative Body of the Church in Wales. All Rights Reserved."
+ },
+ {
+  "id": "mozarabic-christianity",
+  "item": 0,
+  "url": "https://www.catedralprimada.es/culto/rito-hispano-mozarabe/",
+  "saved": true,
+  "fresh": true,
+  "verified_claim": true,
+  "quote": "el rito vive en este espacio privilegiado, donde contin\u00faa celebr\u00e1ndose cada ma\u00f1ana"
+ },
+ {
+  "id": "cluniac-reform-monasticism",
+  "item": 0,
+  "url": "https://www.newadvent.org/cathen/04073a.htm",
+  "saved": true,
+  "fresh": true,
+  "verified_claim": true,
+  "quote": "At the suppression in 1790 it was bought by the town and almost entirely destroyed."
+ },
+ {
+  "id": "scandinavian-conversion-christianity",
+  "item": 0,
+  "url": "https://www.kirken.no/",
+  "saved": true,
+  "fresh": true,
+  "verified_claim": true,
+  "quote": "Den norske kirke har ressurser samfunnet trenger n\u00e5r kriser rammer"
+ },
+ {
+  "id": "cistercian-monasticism",
+  "item": 0,
+  "url": "https://www.ocso.org/",
+  "saved": true,
+  "fresh": true,
+  "verified_claim": true,
+  "quote": "News November 6, 2026 Statute on the Regular Visitation \u2013 Revised Text"
+ },
+ {
+  "id": "carthusian-life",
+  "item": 0,
+  "url": "https://infovaticana.com/en/2026/05/02/the-general-chapter-of-the-carthusians-will-vote-on-modifications-to-their-liturgical-office/",
+  "saved": true,
+  "fresh": true,
+  "verified_claim": true,
+  "quote": "The General Chapter of the Carthusian Order is meeting this month at the Grande Chartreuse in France"
+ },
+ {
+  "id": "canons-regular-victorine-school",
+  "item": 0,
+  "url": "https://www.strahovskyklaster.cz/en/news/general-chapter-of-the-order-july-23-august-3-2024",
+  "saved": true,
+  "fresh": true,
+  "verified_claim": true,
+  "quote": "The General Chapter of the Order was held at the Strahov Monastery for the first time in 110 years."
+ },
+ {
+  "id": "the-franciscan-movement",
+  "item": 0,
+  "url": "https://www.ofm.org/",
+  "saved": true,
+  "fresh": true,
+  "verified_claim": true,
+  "quote": "09 Novembre 2026 Acta Ordinis Fratrum Minorum"
+ },
+ {
+  "id": "the-dominican-order",
+  "item": 0,
+  "url": "https://www.op.org/letter-to-the-dominican-family-the-vocation-of-the-cooperator-brother-in-the-order-and-in-the-church/",
+  "saved": true,
+  "fresh": false,
+  "verified_claim": true,
+  "quote": "Dear Brothers and Sisters of the Dominican Family, Greetings from the General Chapter here in Krakow!"
+ },
+ {
+  "id": "the-dominican-order",
+  "item": 1,
+  "url": "https://www.vaticannews.va/en/pope/news/2025-07/pope-invites-dominicans-listen-attentively-to-the-holy-spirit.print.html",
+  "saved": true,
+  "fresh": true,
+  "verified_claim": true,
+  "quote": "Pope Leo says he is praying for Dominican provincial priors gathered in Krakow for their General Chapter."
+ },
+ {
+  "id": "athonite-and-comnenian-byzantine-monasticism",
+  "item": 0,
+  "url": "https://greekcitytimes.com/2024/12/31/mount-athos-tightens-pilgrim-access-to-protect-monastic-life/",
+  "saved": true,
+  "fresh": true,
+  "verified_claim": true,
+  "quote": "the Holy Community of Mount Athos has announced stricter regulations for pilgrims seeking entry, effective January 1, 2025."
+ },
+ {
+  "id": "the-beguines",
+  "item": 0,
+  "url": "https://petergalenmassey.com/2013/05/05/on-the-death-of-marcella-pattyn-age-92-last-of-the-beguine/",
+  "saved": true,
+  "fresh": true,
+  "verified_claim": true,
+  "quote": "Marcella Pattyn, last of the Beguine, who died on April 14"
+ },
+ {
+  "id": "the-beguines",
+  "item": 1,
+  "url": "https://generalist.academy/2019/12/14/the-last-beguine/",
+  "saved": true,
+  "fresh": true,
+  "verified_claim": true,
+  "quote": "She died in 2013, the last beguine on Earth."
+ },
+ {
+  "id": "maronite-christianity",
+  "item": 0,
+  "url": "https://www.stmaron.org/eparchial-news/cir-25-51",
+  "saved": true,
+  "fresh": true,
+  "verified_claim": true,
+  "quote": "Bishop Gregory has asked me to send you the following statement which was issued by the Media Office of the Patriarchal See"
+ },
+ {
+  "id": "maronite-christianity",
+  "item": 1,
+  "url": "https://syriacpress.com/blog/2025/08/06/following-their-monthly-meeting-syriac-maronite-bishops-urge-lebanon-to-reassert-sovereignty-and-disarm-hezbollah",
+  "saved": true,
+  "fresh": true,
+  "verified_claim": true,
+  "quote": "6 August 2025, following its monthly meeting, the Council of Syriac Maronite Bishops called on the Lebanese government to fully reassert sovereignty across"
+ },
+ {
+  "id": "military-religious-orders-templars-hospitallers",
+  "item": 0,
+  "url": "https://www.orderofmalta.int/",
+  "saved": true,
+  "fresh": true,
+  "verified_claim": true,
+  "quote": "06/11/2026 Order of Malta Signs an Agreement with Financial Intelligence Unit for Italy"
+ },
+ {
+  "id": "the-georgian-golden-age",
+  "item": 0,
+  "url": "https://georgiatoday.ge/georgian-orthodox-church-confirms-locum-tenens-establishes-funeral-commission-for-patriarch-ilia-ii/",
+  "saved": true,
+  "fresh": true,
+  "verified_claim": true,
+  "quote": "The Holy Synod of the Georgian Orthodox Church, during its session held today, officially confirmed Metropolitan Shio (Mujiri) of Senaki and Chkhorotsku"
+ },
+ {
+  "id": "the-carmelites",
+  "item": 0,
+  "url": "https://ocarm.org/en/",
+  "saved": true,
+  "fresh": true,
+  "verified_claim": true,
+  "quote": "Prior General's Schedule for November 2026"
+ },
+ {
+  "id": "lutheran-wittenberg-and-its-congregations",
+  "item": 0,
+  "url": "https://lutheranworld.org/sites/default/files/2024-06/LWF%20Membership%20Statistics%202023%20-%20EN.pdf",
+  "saved": true,
+  "fresh": true,
+  "verified_claim": true,
+  "quote": "General summary 2023 150 LWF member churches"
+ },
+ {
+  "id": "lutheran-wittenberg-and-its-congregations",
+  "item": 1,
+  "url": "https://www.pewresearch.org/wp-content/uploads/sites/7/2011/12/Christianity-fullreport-web.pdf",
+  "saved": true,
+  "fresh": true,
+  "verified_claim": true,
+  "quote": "the largest distinct denominational families are Anglican (about 11% of the broad Protestant category), Lutheran (about 10%), Baptist (9%) and Reformed/Presbyterian (7%)"
+ },
+ {
+  "id": "the-reformed-cities-zurich-and-geneva",
+  "item": 0,
+  "url": "https://wcrc.eu/wp-content/uploads/2024/04/Reformed-Communique-2023-12.pdf",
+  "saved": true,
+  "fresh": true,
+  "verified_claim": true,
+  "quote": "He will begin his term in January 2024 and serve through the next General Council, to be held in October 2025."
+ },
+ {
+  "id": "the-reformed-cities-zurich-and-geneva",
+  "item": 1,
+  "url": "https://www.pewresearch.org/wp-content/uploads/sites/7/2011/12/Christianity-fullreport-web.pdf",
+  "saved": true,
+  "fresh": true,
+  "verified_claim": true,
+  "quote": "the largest distinct denominational families are Anglican (about 11% of the broad Protestant category), Lutheran (about 10%), Baptist (9%) and Reformed/Presbyterian (7%)"
+ },
+ {
+  "id": "the-scottish-reformation-and-kirk",
+  "item": 0,
+  "url": "https://www.churchofscotland.org.uk/__data/assets/pdf_file/0018/134055/ANNUAL-REPORT-AND-ACCOUNTS-2024.pdf",
+  "saved": true,
+  "fresh": true,
+  "verified_claim": true,
+  "quote": "The Church of Scotland is a national Church providing ministry, care, witness and service across the whole of Scotland"
+ },
+ {
+  "id": "the-scottish-reformation-and-kirk",
+  "item": 1,
+  "url": "https://www.scotlandscensus.gov.uk/2022-results/scotland-s-census-2022-ethnic-group-national-identity-language-and-religion/",
+  "saved": true,
+  "fresh": true,
+  "verified_claim": true,
+  "quote": "\u2018Church of Scotland\u2019 remained the largest group among those who said they had a religion."
+ },
+ {
+  "id": "the-huguenots",
+  "item": 0,
+  "url": "https://acteurs.epudf.org/wp-content/uploads/sites/2/2024/04/Cahier-post-synodal-Noisy-le-Grand-2023.pdf",
+  "saved": true,
+  "fresh": true,
+  "verified_claim": true,
+  "quote": "11\u00e8 Synode national de l\u2019\u00c9glise protestante unie de France Noisy-le-Grand du 18 au 21 mai 2023"
+ },
+ {
+  "id": "recusant-english-catholicism",
+  "item": 0,
+  "url": "https://www.cbcew.org.uk/statistics-2023/",
+  "saved": true,
+  "fresh": true,
+  "verified_claim": true,
+  "quote": "On this page, you will find key statistics relating to the life of the Church in England and Wales for 2023."
+ },
+ {
+  "id": "the-waldensian-reformed-union",
+  "item": 0,
+  "url": "https://chiesavaldese.org/wp-content/uploads/2024/09/Atto.pdf",
+  "saved": true,
+  "fresh": true,
+  "verified_claim": true,
+  "quote": "Sinodo delle Chiese metodiste e valdesi, Torre Pellice, 25-30 agosto 2024"
+ },
+ {
+  "id": "the-waldensian-reformed-union",
+  "item": 1,
+  "url": "https://www.vaticannews.va/it/papa/news/2021-08/papa-francesco-sinodo-chiese-valdesi-metodiste-unita-messaggio.print.html",
+  "saved": true,
+  "fresh": true,
+  "verified_claim": true,
+  "quote": "Al via domenica 22 agosto a Torre Pellice"
+ },
+ {
+  "id": "the-society-of-jesus",
+  "item": 0,
+  "url": "https://www.jesuits.africa/the-society-of-jesus-in-numbers-2022-edition/",
+  "saved": true,
+  "fresh": true,
+  "verified_claim": true,
+  "quote": "As of 1 January, 2022, there were 14,439 Jesuits in the world."
+ },
+ {
+  "id": "the-society-of-jesus",
+  "item": 1,
+  "url": "https://www.ewtnnews.com/vatican/pope-francis-halving-of-jesuit-numbers-worldwide-is-a-lesson-in-humility",
+  "saved": true,
+  "fresh": true,
+  "verified_claim": true,
+  "quote": "When I entered the novitiate, we were 33,000 Jesuits. How many are there now? More or less half"
+ },
+ {
+  "id": "the-kyiv-mohyla-orthodox-revival",
+  "item": 0,
+  "url": "https://www.pomisna.info/en/",
+  "saved": true,
+  "fresh": true,
+  "verified_claim": true,
+  "quote": "\u041f\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u0438 \u0410\u0440\u0445\u0456\u0454\u0440\u0435\u0439\u0441\u044c\u043a\u043e\u0433\u043e \u0421\u043e\u0431\u043e\u0440\u0443 2026 \u0440."
+ },
+ {
+  "id": "the-kyiv-mohyla-orthodox-revival",
+  "item": 1,
+  "url": "https://razumkov.org.ua/en/pro-nas/polityky/religiosity-trust-in-the-church-confessional-division-and-inter-church-relations-in-ukrainian-society-october-2024",
+  "saved": true,
+  "fresh": true,
+  "verified_claim": true,
+  "quote": "Members of religious communities who identified themselves with OCU make up 11% of all respondents (in 2021 \u2014 6%)"
+ },
+ {
+  "id": "the-remonstrants-and-dort",
+  "item": 0,
+  "url": "https://www.remonstranten.nl/blog",
+  "saved": true,
+  "fresh": true,
+  "verified_claim": true,
+  "quote": "Goed vrij zijn \u2013 hoe doe je dat? is het jaarthema van de Remonstranten in 2026-2027."
+ },
+ {
+  "id": "the-remonstrants-and-dort",
+  "item": 1,
+  "url": "https://scholarlypublications.universiteitleiden.nl/access/item%3A2942969/download",
+  "saved": true,
+  "fresh": true,
+  "verified_claim": true,
+  "quote": "The Remonstrant Church is a small Dutch, liberal protestant denomination."
+ },
+ {
+  "id": "scandinavian-reformation-kingdoms",
+  "item": 0,
+  "url": "https://www.ssb.no/en/kultur-og-fritid/religion-og-livssyn/statistikk/den-norske-kirke",
+  "saved": true,
+  "fresh": true,
+  "verified_claim": true,
+  "quote": "The statistics give a summary of the Church of Norway activity in parishes/municipalities."
+ },
+ {
+  "id": "carmelite-reform-and-spanish-mystics",
+  "item": 0,
+  "url": "https://www.carmelitaniscalzi.com/wp-content/uploads/2025/12/2025-12-14-ING-General-Definitory-Letter-18.pdf",
+  "saved": true,
+  "fresh": true,
+  "verified_claim": true,
+  "quote": "Rome, 14th December 2025"
+ },
+ {
+  "id": "carmelite-reform-and-spanish-mystics",
+  "item": 1,
+  "url": "https://www.vatican.va/content/francesco/en/speeches/2021/september/documents/20210911-carmelitani-scalzi.html",
+  "saved": true,
+  "fresh": true,
+  "verified_claim": true,
+  "quote": "representatives of the approximately four thousand brothers who form part of your Order"
+ },
+ {
+  "id": "hutterite-brethren",
+  "item": 0,
+  "url": "https://anabaptistworld.org/?p=113634",
+  "saved": true,
+  "fresh": true,
+  "verified_claim": true,
+  "quote": "reveals a population of 58,392 in 544 colonies in North America, almost 3 out of 4 in Canada"
+ },
+ {
+  "id": "german-pietism-spener-francke-halle",
+  "item": 0,
+  "url": "https://www.gnadauer.de/aktuelles",
+  "saved": true,
+  "fresh": true,
+  "verified_claim": true,
+  "quote": "Anl\u00e4sslich der Gnadauer Mitgliederversammlung pr\u00e4sentiert Steffen Kern seinen Pr\u00e4sesbericht 2026."
+ },
+ {
+  "id": "german-pietism-spener-francke-halle",
+  "item": 1,
+  "url": "https://www.francke-halle.de/en/",
+  "saved": true,
+  "fresh": true,
+  "verified_claim": true,
+  "quote": "The director of the Francke Foundations was elected as spokesperson for the Conference of National Cultural Institutions"
+ },
+ {
+  "id": "radical-pietism-and-the-brethren-dunkers-ephrata",
+  "item": 0,
+  "url": "https://www.brethren.org/news/",
+  "saved": true,
+  "fresh": true,
+  "verified_claim": true,
+  "quote": "Discernment and calling: An appeal for nominations for the Annual Conference ballot"
+ },
+ {
+  "id": "the-moravian-church-at-herrnhut",
+  "item": 0,
+  "url": "https://www.moravian.org/",
+  "saved": true,
+  "fresh": true,
+  "verified_claim": true,
+  "quote": "Moravian Magazine, Issue 1 2026"
+ },
+ {
+  "id": "the-old-believers",
+  "item": 0,
+  "url": "https://www.rpsc.ru/",
+  "saved": true,
+  "fresh": true,
+  "verified_claim": true,
+  "quote": "\u0420\u0443\u0441\u0441\u043a\u0430\u044f \u041f\u0440\u0430\u0432\u043e\u0441\u043b\u0430\u0432\u043d\u0430\u044f \u0421\u0442\u0430\u0440\u043e\u043e\u0431\u0440\u044f\u0434\u0447\u0435\u0441\u043a\u0430\u044f \u0426\u0435\u0440\u043a\u043e\u0432\u044c - \u041e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0439 \u0441\u0430\u0439\u0442 \u041c\u043e\u0441\u043a\u043e\u0432\u0441\u043a\u043e\u0439 \u043c\u0438\u0442\u0440\u043e\u043f\u043e\u043b\u0438\u0438"
+ },
+ {
+  "id": "the-welsh-revival-tradition",
+  "item": 0,
+  "url": "https://www.ebcpcw.cymru/wp-content/uploads/2026/09/Llais_y_Gymanfa_2026_Cym-WEB-1.pdf",
+  "saved": true,
+  "fresh": true,
+  "verified_claim": true,
+  "quote": "Blas ar weithgarwch Cymanfa Gyffredinol Eglwys Bresbyteraidd Cymru 2026"
+ },
+ {
+  "id": "shakers",
+  "item": 0,
+  "url": "https://www.maineshakers.com/",
+  "saved": true,
+  "fresh": true,
+  "verified_claim": true,
+  "quote": "Established in 1783, Sabbathday Lake Shaker Village in New Gloucester, Maine is home to the only active Shaker Community in the world."
+ },
+ {
+  "id": "swedenborgian-new-church",
+  "item": 0,
+  "url": "https://newchurch.org/news/",
+  "saved": true,
+  "fresh": true,
+  "verified_claim": true,
+  "quote": "2025 Meeting of the Council of the General Church Clergy"
+ },
+ {
+  "id": "church-of-the-desert-huguenots",
+  "item": 0,
+  "url": "https://www.epudf.org/",
+  "saved": true,
+  "fresh": true,
+  "verified_claim": true,
+  "quote": "Communiqu\u00e9 de presse - 2 novembre 2026 - L'UEPAL et l'EPUdF adressent un appel solennel au Gouvernement fran\u00e7ais"
+ },
+ {
+  "id": "armenian-christianity-era-8",
+  "item": 0,
+  "url": "https://www.armeniancatholic.org/",
+  "saved": true,
+  "fresh": true,
+  "verified_claim": true,
+  "quote": "\u0549\u0578\u0580\u0565\u0584\u0577\u0561\u0562\u0569\u056b, 25 \u0534\u0565\u056f\u057f\u0565\u0574\u0562\u0565\u0580 2024-\u056b\u0576, \u054f\u0561\u0576\u0576 \u053f\u056b\u056c\u056b\u056f\u056b\u0578\u0575 \u053f\u0561\u0569\u0578\u0572\u056b\u056f\u0567 \u0540\u0561\u0575\u0578\u0581 \u0546.\u0531.\u0533.\u054f.\u054f. \u054c\u0561\u0583\u0561\u0575\u0567\u056c-\u054a\u0565\u057f\u0580\u0578\u057d \u053b\u0531...."
+ },
+ {
+  "id": "english-old-dissent",
+  "item": 0,
+  "url": "https://www.urc.org.uk/",
+  "saved": true,
+  "fresh": true,
+  "verified_claim": true,
+  "quote": "Revd Dr Helen Paynter, at the invitation of the United Reformed Church's online congregation yourchurch"
+ },
+ {
+  "id": "swedish-lutherans-of-new-sweden",
+  "item": 0,
+  "url": "https://www.nps.gov/glde/index.htm",
+  "saved": true,
+  "fresh": true,
+  "verified_claim": true,
+  "quote": "The Gloria Dei congregation owns and maintains the church and the related buildings, its ministry and the grounds."
+ },
+ {
+  "id": "english-unitarianism",
+  "item": 0,
+  "url": "https://www.unitarian.org.uk/news/",
+  "saved": true,
+  "fresh": true,
+  "verified_claim": true,
+  "quote": "From 1 October 2026, the General Assembly (GA) will be operating under its new Charitable Incorporated Organisation (CIO) structure."
+ },
+ {
+  "id": "mennonites-and-amish-after-1650",
+  "item": 0,
+  "url": "https://www.mennoniteusa.org/",
+  "saved": true,
+  "fresh": true,
+  "verified_claim": true,
+  "quote": "ELKHART, Ind. (November 2, 2026) \u2014 The Executive Board of Mennonite Church USA has appointed Rev. Iris de Le\u00f3n-Hartshorn as interim executive director"
+ },
+ {
+  "id": "the-holiness-movement",
+  "item": 0,
+  "url": "https://nazarene.org/",
+  "saved": true,
+  "fresh": true,
+  "verified_claim": true,
+  "quote": "The Church of the Nazarene is the largest denomination in the classical Wesleyan-Holiness tradition."
+ },
+ {
+  "id": "the-salvation-army",
+  "item": 0,
+  "url": "https://salvationarmy.org/ihq/annualreport",
+  "saved": true,
+  "fresh": true,
+  "verified_claim": true,
+  "quote": "Our latest Annual Report covers the year ending 31 March 2025."
+ },
+ {
+  "id": "the-haugean-awakening",
+  "item": 0,
+  "url": "https://www.snl.no/Hauge-bevegelsen",
+  "saved": true,
+  "fresh": true,
+  "verified_claim": true,
+  "quote": "Etter 1850 gikk haugianerne opp i en stor lekmannsbevegelse i vekst."
+ },
+ {
+  "id": "the-reveil-and-inner-mission-awakening",
+  "item": 0,
+  "url": "https://www.diakonie.de/",
+  "saved": true,
+  "fresh": true,
+  "verified_claim": true,
+  "quote": "Diakonie Deutschland zum Kita-Gesetz: Mehr Qualit\u00e4t braucht eine sichere Finanzierung"
+ },
+ {
+  "id": "latter-day-saints-lds",
+  "item": 0,
+  "url": "https://newsroom.churchofjesuschrist.org/facts-and-statistics",
+  "saved": true,
+  "fresh": true,
+  "verified_claim": true,
+  "quote": "Total Church Membership 17,887,212 Congregations 32,046 Missionaries 78,596"
+ },
+ {
+  "id": "jehovah-s-witnesses-bible-students",
+  "item": 0,
+  "url": "https://www.jw.org/en/jehovahs-witnesses/worldwide/",
+  "saved": true,
+  "fresh": true,
+  "verified_claim": true,
+  "quote": "241 \u2014Lands where Jehovah\u2019s Witnesses worship 9,205,326 \u2014Jehovah\u2019s Witnesses"
+ },
+ {
+  "id": "christian-science",
+  "item": 0,
+  "url": "https://www.csmonitor.com/",
+  "saved": true,
+  "fresh": true,
+  "verified_claim": true,
+  "quote": "The Monitor is owned by The First Church of Christ, Scientist"
+ },
+ {
+  "id": "christadelphians",
+  "item": 0,
+  "url": "https://www.thechristadelphian.com/",
+  "saved": true,
+  "fresh": true,
+  "verified_claim": true,
+  "quote": "The Christadelphian Office, or more correctly \u2018The Office of The Christadelphian magazine\u2019, has been producing magazines continuously since 1864."
+ },
+ {
+  "id": "spiritualism-new-thought",
+  "item": 0,
+  "url": "https://www.snu.org.uk/",
+  "saved": true,
+  "fresh": true,
+  "verified_claim": true,
+  "quote": "The 124th Annual General Meeting of The Spiritualists\u2019 National Union came to a close on Sunday 27th September 2026"
+ },
+ {
+  "id": "spiritualism-new-thought",
+  "item": 1,
+  "url": "https://www.unity.org/en/static/unity-world-headquarters-update-fall-2025",
+  "saved": true,
+  "fresh": true,
+  "verified_claim": true,
+  "quote": "Welcome to the 2025 fall update from Unity World Headquarters!"
+ },
+ {
+  "id": "korean-catholic-origins",
+  "item": 0,
+  "url": "https://www.cbck.or.kr/En",
+  "saved": true,
+  "fresh": true,
+  "verified_claim": true,
+  "quote": "Statistics of the Catholic Church in Korea 2025 (Summary)"
+ },
+ {
+  "id": "laestadianism-and-the-nordic-revivals",
+  "item": 0,
+  "url": "https://www.srk.fi/",
+  "saved": true,
+  "fresh": true,
+  "verified_claim": true,
+  "quote": "Juhannusseuroja j\u00e4rjestet\u00e4\u00e4n kes\u00e4ll\u00e4 2026 Maitoisten, Hankasalmen, Kallion ja Siikat\u00f6rm\u00e4n leirikeskuksissa."
+ },
+ {
+  "id": "plymouth-brethren-and-dispensational-formation",
+  "item": 0,
+  "url": "https://www.plymouthbrethrenchristianchurch.org/news",
+  "saved": true,
+  "fresh": true,
+  "verified_claim": true,
+  "quote": "Media coverage in Sweden offers insight into life in the Plymouth Brethren Christian Church"
+ },
+ {
+  "id": "the-sunday-school-and-bible-institute-movement",
+  "item": 0,
+  "url": "https://religionunplugged.com/news/2026/3/16/after-moody-bible-institute-sues-chicago-opens-teaching-intern-spots-to-students",
+  "saved": true,
+  "fresh": true,
+  "verified_claim": true,
+  "quote": "Moody Bible Institute will be allowed to participate in Chicago Public Schools\u2019 student teaching program"
+ },
+ {
+  "id": "old-catholic-churches-union-of-utrecht",
+  "item": 0,
+  "url": "https://utrechter-union.org/en/",
+  "saved": true,
+  "fresh": true,
+  "verified_claim": true,
+  "quote": "Two new bishops for the Union of Utrecht"
+ },
+ {
+  "id": "nineteenth-century-methodism",
+  "item": 0,
+  "url": "https://worldmethodistcouncil.org/",
+  "saved": true,
+  "fresh": true,
+  "verified_claim": true,
+  "quote": "Steering Committee Meeting \u2013 May 2026"
+ },
+ {
+  "id": "nineteenth-century-baptists",
+  "item": 0,
+  "url": "https://www.baptistworld.org/",
+  "saved": true,
+  "fresh": true,
+  "verified_claim": true,
+  "quote": "In July 2026, 21Wilberforce and BWAid partnered for a humanitarian aid capacity-building program in Abuja."
+ },
+ {
+  "id": "nineteenth-century-quakerism-separations",
+  "item": 0,
+  "url": "https://fwcc.world/",
+  "saved": true,
+  "fresh": true,
+  "verified_claim": true,
+  "quote": "On World Quaker Day 2026, more than 900 people from at least 50 countries registered for an extended international online meeting for worship"
+ },
+ {
+  "id": "american-unitarianism-universalism-consolidations",
+  "item": 0,
+  "url": "https://www.uua.org/",
+  "saved": true,
+  "fresh": true,
+  "verified_claim": true,
+  "quote": "Register for a free pilot year for the 2026-27 congregational year!"
+ },
+ {
+  "id": "confessional-lutheran-revival-emigrations",
+  "item": 0,
+  "url": "https://www.lcms.org/",
+  "saved": true,
+  "fresh": true,
+  "verified_claim": true,
+  "quote": "Lutherans from New Mexico to northwest Kenya are receiving the \u201cliving water\u201d that comes only from Jesus Christ."
+ },
+ {
+  "id": "malagasy-christianity",
+  "item": 0,
+  "url": "https://www.fjkm.mg/",
+  "saved": true,
+  "fresh": true,
+  "verified_claim": true,
+  "quote": "Ny Alahady 28 Jona 2026 izao no natokan\u2019ny Fiangonana (FJKM) ho andro itondrana ambavaka ny Asan\u2019ny Aumonerie Nationale FJKM."
+ },
+ {
+  "id": "haitian-church-rupture-to-concordat",
+  "item": 0,
+  "url": "https://www.vaticannews.va/en/church/news/2025-07/haitian-bishops-conference-sound-the-alarm-on-barbaric-acts.print.html",
+  "saved": true,
+  "fresh": true,
+  "verified_claim": true,
+  "quote": "In a statement released on 23 July, the bishops warn of the loss of justice, security, and basic necessities of life"
+ },
+ {
+  "id": "dutch-neo-calvinism-secession-churches",
+  "item": 0,
+  "url": "https://www.crcna.org/",
+  "saved": true,
+  "fresh": true,
+  "verified_claim": true,
+  "quote": "November 4, 2026 CRCNA Launches Revamped Agency Media Kit Updated agency media resources are available for local church use."
+ },
+ {
+  "id": "russian-evangelicals-stundists",
+  "item": 0,
+  "url": "https://www.baptist.org.ru/en",
+  "saved": true,
+  "fresh": true,
+  "verified_claim": true,
+  "quote": "Legal name: Centralized Religious Organization \"Russian Union of Evangelical Christians-Baptists\""
+ },
+ {
+  "id": "melkite-greek-catholic-church-after-1815",
+  "item": 0,
+  "url": "https://melkite.org/",
+  "saved": true,
+  "fresh": true,
+  "verified_claim": true,
+  "quote": "The 2026 Melkite Pastoral Appeal helps our Church continue its mission with faith and hope."
+ }
+]

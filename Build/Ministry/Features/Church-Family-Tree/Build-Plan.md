@@ -107,7 +107,7 @@ applied to every shared file, not only the census.
 | P2-G3b | The later-worlds people: the count re-run with namesakes checked and editors' notes left out; Mark picks from the clean list (Mark, answer D a) | Mark's pick | todo |
 | P2-P | People layer: Traditions \| People switch, rows, gap placement, links by view; removes the map's hold on person entries (Decision-Log 2026-11-10) | none | todo |
 | P2-PL | Likenesses: rights and date check per image | none | todo |
-| P2-V | "Living" definition and the 169 flags | none | todo |
+| P2-V | "Living" definition and every living flag (192 on main, not 169) | none | done (data release 30; the definition on the method page; 264 living after; Opus review approved in round 3; audit `2026-11-10_living`) |
 | P2-K1 | Drawn marks, 2 to 4 options | Mark's pick | todo |
 | P2-K2 | Marks, floor, tap areas; phone, light and color-vision test | none | todo |
 | P2-Z | Launch gates, numbered release, announcement draft | gates 5 and 6 belong to other threads | todo |
@@ -312,7 +312,7 @@ Exact steps, given in chat when P1a has merged:
   it, public domain, credited and date-checked; later depictions on the person's page, captioned.
   No paid image generation. The silhouette set (period and tradition family, male and female) is
   drawn with P2-K1.
-- **P2-V, living.** The written definition; all 169 flags checked against it.
+- **P2-V, living.** The written definition; every living flag checked against it (192 on main when it ran).
 - **P2-K1, drawn marks.** Leaf, person and dot, 2 to 4 options rendered for Mark, and the person
   silhouettes by period and tradition family, male and female. **Stop.**
 - **P2-K2, marks and tap areas.** Bigger marks with an on-screen floor; one tap area per

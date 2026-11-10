@@ -1,0 +1,282 @@
+[
+ {
+  "finding": "R1-01",
+  "applied": true,
+  "note": "Applied exactly as the fix gives."
+ },
+ {
+  "finding": "R1-02",
+  "applied": true,
+  "note": "Applied exactly as the fix gives."
+ },
+ {
+  "finding": "R1-03",
+  "applied": true,
+  "note": "Applied exactly as the fix gives."
+ },
+ {
+  "finding": "R1-04",
+  "applied": true,
+  "note": "Applied exactly as the fix gives."
+ },
+ {
+  "finding": "R1-05",
+  "applied": true,
+  "note": "Fetched the United Church of Christ constitution page (dated 14 July 2025 on the page). Quote found in the saved page and a fresh fetch. Applied with that item and a CR grade. The page does not itself tie the church to New England's Congregational churches; its undated history page does, so the basis cites that page as text, not as evidence, and wanted names the missing dated link."
+ },
+ {
+  "finding": "R1-06",
+  "applied": true,
+  "note": "Applied exactly as the fix gives."
+ },
+ {
+  "finding": "R1-07",
+  "applied": true,
+  "note": "Applied exactly as the fix gives."
+ },
+ {
+  "finding": "R1-08",
+  "applied": true,
+  "note": "Applied exactly as the fix gives."
+ },
+ {
+  "finding": "R1-09",
+  "applied": true,
+  "note": "Applied exactly as the fix gives."
+ },
+ {
+  "finding": "R1-10",
+  "applied": true,
+  "note": "Applied. Basis 'which holds present-day evidence' reworded to 'which carries it today' per the lead's CO-1 ruling."
+ },
+ {
+  "finding": "R1-11",
+  "applied": true,
+  "note": "Applied exactly as the fix gives."
+ },
+ {
+  "finding": "R1-12",
+  "applied": true,
+  "note": "Applied exactly as the fix gives."
+ },
+ {
+  "finding": "R1-13",
+  "applied": true,
+  "note": "Applied. Basis sentence 'holds the present-day evidence' reworded to 'carries the tradition today' per the lead's CO-1 ruling."
+ },
+ {
+  "finding": "R1-14",
+  "applied": true,
+  "note": "Applied. Basis sentence 'holds the present-day evidence' reworded to 'carries the tradition today' per the lead's CO-1 ruling."
+ },
+ {
+  "finding": "R1-15",
+  "applied": true,
+  "note": "Applied. Same openQuestion text as R1-29 sets."
+ },
+ {
+  "finding": "R1-16",
+  "applied": true,
+  "note": "Applied exactly as the fix gives."
+ },
+ {
+  "finding": "R1-17",
+  "applied": true,
+  "note": "Applied exactly as the fix gives."
+ },
+ {
+  "finding": "R1-18",
+  "applied": true,
+  "note": "Applied exactly as the fix gives."
+ },
+ {
+  "finding": "R1-19",
+  "applied": true,
+  "note": "Applied. Basis 'holds the present-day evidence' reworded to 'carries the tradition today' per the lead's CO-1 ruling."
+ },
+ {
+  "finding": "R1-20-II.1",
+  "applied": true,
+  "note": "Applied: descentConfidence null, entry kept. Basis taken in the R1-38 wording ('This tradition continues, through its line of later entries, in ... which carries it today.'), because the fix's own sentence has no main verb."
+ },
+ {
+  "finding": "R1-20-III.3",
+  "applied": true,
+  "note": "Applied: descentConfidence null, entry kept. Basis taken in the R1-38 wording ('This tradition continues, through its line of later entries, in ... which carries it today.'), because the fix's own sentence has no main verb."
+ },
+ {
+  "finding": "R1-20-IV.26",
+  "applied": true,
+  "note": "Applied: descentConfidence null, entry kept. Basis taken in the R1-38 wording ('This tradition continues, through its line of later entries, in ... which carries it today.'), because the fix's own sentence has no main verb."
+ },
+ {
+  "finding": "R1-20-VIII.13",
+  "applied": true,
+  "note": "Applied: descentConfidence null, entry kept. Basis taken in the R1-38 wording ('This tradition continues, through its line of later entries, in ... which carries it today.'), because the fix's own sentence has no main verb."
+ },
+ {
+  "finding": "R1-20-VI.13d",
+  "applied": true,
+  "note": "Applied: descentConfidence null, entry kept. Basis taken in the R1-38 wording ('This tradition continues, through its line of later entries, in ... which carries it today.'), because the fix's own sentence has no main verb."
+ },
+ {
+  "finding": "R1-20-VII.17",
+  "applied": true,
+  "note": "Applied: descentConfidence null, entry kept. Basis taken in the R1-38 wording ('This tradition continues, through its line of later entries, in ... which carries it today.'), because the fix's own sentence has no main verb."
+ },
+ {
+  "finding": "R1-21",
+  "applied": true,
+  "note": "Applied exactly as the fix gives."
+ },
+ {
+  "finding": "R1-22",
+  "applied": true,
+  "note": "Applied exactly as the fix gives."
+ },
+ {
+  "finding": "R1-23-II.8",
+  "applied": true,
+  "note": "Fetch attempts: the Church of Ireland site (three hosts) returned a Cloudflare block; the Bishops' Conference home, news and feed pages gave no dated permalink and the feed returned an error. Only branch left: the Church of Ireland sentence is dropped, descentConfidence and descentBasis set to null, presentBody narrowed to the Catholic Church in Ireland, wanted set as the fix gives. No item verifies, so the grade stays CR with newest verified none."
+ },
+ {
+  "finding": "R1-23-III.24",
+  "applied": true,
+  "note": "Same fetch result and same fallback branch as II.8."
+ },
+ {
+  "finding": "R1-24-V.6",
+  "applied": true,
+  "note": "Applied exactly as the fix gives."
+ },
+ {
+  "finding": "R1-24-VI.24",
+  "applied": true,
+  "note": "Applied exactly as the fix gives."
+ },
+ {
+  "finding": "R1-25",
+  "applied": true,
+  "note": "Applied exactly as the fix gives."
+ },
+ {
+  "finding": "R1-26",
+  "applied": true,
+  "note": "Fetched the abbey site and the RCF article. RCF returned 403. The abbey's own history page speaks of the 'reopening' of Lérins but carries no date and no century; the one page that gives the nineteenth century is Wikipedia, which cannot serve as evidence. No dated source for the refounding verified, so the fix's fallback branch is applied: descentConfidence null and the fix's basis. The living verdict stays. CO-4 is not raised from this round and the entry text is untouched."
+ },
+ {
+  "finding": "R1-27",
+  "applied": true,
+  "note": "Applied exactly as the fix gives."
+ },
+ {
+  "finding": "R1-28-IV.6",
+  "applied": true,
+  "note": "Applied exactly as the fix gives."
+ },
+ {
+  "finding": "R1-28-IV.15",
+  "applied": true,
+  "note": "Applied exactly as the fix gives."
+ },
+ {
+  "finding": "R1-28-IV.2",
+  "applied": true,
+  "note": "Applied exactly as the fix gives."
+ },
+ {
+  "finding": "R1-28-IV.10",
+  "applied": true,
+  "note": "Applied exactly as the fix gives."
+ },
+ {
+  "finding": "R1-28-IV.5",
+  "applied": true,
+  "note": "Applied exactly as the fix gives."
+ },
+ {
+  "finding": "R1-28-VI.32",
+  "applied": true,
+  "note": "Applied exactly as the fix gives."
+ },
+ {
+  "finding": "R1-28-VI.10",
+  "applied": true,
+  "note": "Applied exactly as the fix gives."
+ },
+ {
+  "finding": "R1-28-VI.11",
+  "applied": true,
+  "note": "Applied exactly as the fix gives."
+ },
+ {
+  "finding": "R1-28-VI.29",
+  "applied": true,
+  "note": "Applied exactly as the fix gives."
+ },
+ {
+  "finding": "R1-29",
+  "applied": true,
+  "note": "Applied: openQuestion set on the 16 listed ids other than II.10 and III.20 (those were re-carried in R1-13 and R1-14). The dependency waits on CO-1, which another worker handles."
+ },
+ {
+  "finding": "R1-30",
+  "applied": true,
+  "note": "Applied exactly as the fix gives."
+ },
+ {
+  "finding": "R1-31",
+  "applied": true,
+  "note": "Applied exactly as the fix gives."
+ },
+ {
+  "finding": "R1-32",
+  "applied": true,
+  "note": "Applied exactly as the fix gives."
+ },
+ {
+  "finding": "R1-33",
+  "applied": true,
+  "note": "Applied with the fix's short carrier names. Worded as 'This tradition continues, through its line of later entries, in two entries that carry it today. They are ...' so it has a main verb (R1-38) and no sentence runs past 25 words."
+ },
+ {
+  "finding": "R1-34",
+  "applied": true,
+  "note": "Applied to all seven ids with the fix's texts."
+ },
+ {
+  "finding": "R1-35",
+  "applied": false,
+  "note": "Not applied. It asks for a dated permalink on about thirty sites. The review itself confirms the dates on the saved pages. II.8 and III.24 were attempted under R1-23 and no permalink could be reached. The rest wait for a later round with budget for per-site fetches."
+ },
+ {
+  "finding": "R1-36",
+  "applied": true,
+  "note": "Applied exactly as the fix gives."
+ },
+ {
+  "finding": "R1-37",
+  "applied": true,
+  "note": "Applied exactly as the fix gives."
+ },
+ {
+  "finding": "R1-38",
+  "applied": true,
+  "note": "Applied to all 59 line-script entries with the fix's template. Where that template alone ran past 25 words (none expected beyond the Greek and Balkan set), a two-sentence form is used. The weak-link sentence is gone from every entry because none keeps a link-copied grade."
+ },
+ {
+  "finding": "R1-20 kin (VIII.1, VIII.26)",
+  "applied": true,
+  "note": "Not in the review. Two line entries (the Black Church, Indonesian Christianity) copied a Dominant Modern Reconstruction link grade; their link notes say the church carried on, so descentConfidence is null (lead ruling on CO-2). Recorded as R1-20 in revisedBy."
+ },
+ {
+  "finding": "CO-1 wording",
+  "applied": true,
+  "note": "Five more bases said a carrier 'holds' evidence (II.9, II.16, III.17, III.21, VI.3). Reworded to 'carries the tradition today'. Recorded as CO-1 in revisedBy. Era 10 untouched."
+ },
+ {
+  "finding": "CD check",
+  "applied": true,
+  "note": "After the nine downgrades six CD grades remain (VI.1, VI.2, VI.5, VI.21, VI.26, VI.27). Each has a verified independent item that is not journalism and not the Holy See (Pew, National Records of Scotland, Razumkov Centre, a Leiden thesis, Statistics Norway); VI.1 and VI.2 rest on Pew."
+ }
+]

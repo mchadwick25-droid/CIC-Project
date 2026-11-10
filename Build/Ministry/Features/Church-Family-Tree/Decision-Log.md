@@ -980,3 +980,74 @@ after 1815, the home of Southern Africa, and how the frozen-era change orders ar
 **Not changed.** The census. Eras 8 and 9 are frozen, so every addition Mark admits is a change
 order, drafted and reviewed after his ruling.
 
+## 2026-11-10 — What 'living' means: P2-V applied as data release 30
+
+**Ruled before this chunk.** Ruling 15 (2026-11-06) asked for a written definition of "living"
+and a check of every living flag before the leaf appears. The era 10 change order (2026-11-08,
+rules 2 and 4) set what the mark means: alive today, in every era, governed only by the frozen
+Living-Era Protocol Addendum V1.0 (R2 to R4). Principle 3 of the gap sweep (2026-11-09) set that a
+living tradition past its entry's end gets a successor entry, not a stretched one. The era 10 gate
+(G-5, option a) kept the mark on episodes of living traditions and on bodies with no dated source
+yet, with the source wanted. This entry carries those rulings out; it decides nothing new.
+
+**The definition (carried-out text, on the method page under "What the living mark means").**
+
+> A living mark means one thing: the tradition is alive today, in 2026. It is the only statement the tree makes about the present. Everything else on an entry is history.
+
+> The mark belongs to the tradition, not to the entry's dates. An entry that ends in 1300 still carries it when the church, religious order or community it describes survives today. Its later history belongs to a later entry. Where the tree has no later entry yet, the gap is named, and the dates are never stretched to cover it.
+
+> An episode counts. A revival, a reform or a single period in a church's history is marked living when the wider tradition it belongs to is still alive.
+
+> Surviving ideas are not enough. A school, a party or a sect whose own community ended is not marked living, even when its writings are still widely read. A modern group that adopts an ancient name is not counted as its heir unless a record shows an unbroken community.
+
+> Decline is not an ending. A tradition is marked ended only when the record shows a clear end: it dissolved, it merged into another body, or its last member died.
+
+> Each mark rests on dated evidence, beginning with the body's own recent words: a dated statement, report or rule. A mark is "documented" when an independent source confirms it and we have checked that source. It is "reported" when it rests on the body's own word, or on an outside source we have not yet checked. Where we hold no dated source yet, the record says so, and the missing source is listed as wanted.
+
+> We describe what a body's dated documents say, never what its members believe. A living church can change its teaching, so each mark is a dated reading of the record, not a permanent verdict.
+
+> Sometimes two churches claim the same ancestors, or the record breaks off for centuries. Then the claim of descent gets its own confidence grade, on the same five levels the tree uses for links.
+
+**How the rule reads each kind of entry** (the working rule the check applied; audit
+`Review_Brief.md`). A church or one period of a church in a place is living when that local
+church continues to today, through later entries or a present-day body; it is ended when that
+local community ended, even if the wider communion lives on. An order is living while it exists.
+A movement or revival inside a church is living as an episode of it. A school, circle of writers
+or party in a controversy is not living unless its own community continued. A separate body is
+living while it exists. An entry on a "continued as" line reaching a living era 10 entry is the
+same tradition, by the tree's identity rule.
+
+**The check.** All 330 movements (persons are not movements). On main before this release, 192
+flags were true, not the plan's 169. Era 10's 65 flags stand as the era 10 gate set them; 12 of
+them now cite dated evidence they lacked. Every flag in eras 1 to 9 was checked both ways: forward,
+from each flag to its evidence; backward, from 58 present-day families to the entries that carry
+them. Drafted by Sonnet researchers, reviewed by Opus in three rounds (approved in round 3).
+
+- Of the 127 true flags in eras 1 to 9: 117 kept, 9 kept with a new descent grade, 1 dropped (Latin
+  Pastoral-Congregational Christianity, the North African church, whose end its own text records).
+  The Alexandrian catechetical school stays living: its world's own record (Article 29, confirmed
+  by Mark 2026-07-17) names the Coptic Orthodox Church as its primary living heir, and a built
+  world's confirmed status governs its census flag.
+- 73 flags move from false to true: mostly middle periods of living churches on their own
+  "continued as" lines (the Armenian, Byzantine, Church of the East, Latin, Russian lines), and
+  orders the flag had missed (the Carmelites, the later Carthusians). 59 stay false.
+- After: 264 living (era 10: 65). Every living flag now carries `livingEvidence.basis`, and either
+  `carrier` (the entries that carry the same tradition today) or its own dated evidence and grade:
+  in eras 1 to 9, 6 CD, 62 CR and 4 none. 23 carry a descent grade.
+- Every quote was found verbatim by two methods: in the page saved when it was taken, and in a
+  fresh fetch (88 in the research batches, 23 for era 10, and each quote added in revision). Five
+  home-page items whose text had rotated count as unverified.
+
+**Decided in the build, under the rulings.**
+- The census gains `livingEvidence.carrier`, and the validator requires every living tradition
+  to say what its mark rests on (a carrier, or a grade of CD, CR or none). A carrier must be
+  living and must hold its own evidence.
+- A descent grade judges descent itself. It does not copy a "continued as" link's grade when that
+  grade reflects the tree's sources rather than a break in the church (round 1, CO-2).
+- A living flag with no recorded end and no dated source stays living, graded none, with the
+  source wanted, as the era 10 gate ruled for the same case (round 1, CO-3).
+- Citation dates in the public file are written out ("8 September 2026").
+
+**Applied.** Data release 30: 353 movements, 689 links. Audit:
+`Build/Ministry/Operations/Audits/2026-11-10_living/`. Open items: Open-Gaps 157 to 163. The leaf
+itself waits for P2-K1 (Mark's pick).

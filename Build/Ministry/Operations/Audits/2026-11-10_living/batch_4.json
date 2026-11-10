@@ -1,0 +1,883 @@
+[
+ {
+  "id": "lutheran-wittenberg-and-its-congregations",
+  "atlasId": "VI.1",
+  "era": 7,
+  "name": "Lutheran Wittenberg & Its Congregations",
+  "dates": "1517-1580",
+  "lane": "Protestant & Evangelical",
+  "currentFlag": true,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "VI.1",
+    "id": "lutheran-wittenberg-and-its-congregations",
+    "era": 7,
+    "living": true,
+    "end": 1580,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "this argued against VI.3 [Documented] (VI.3 = The Anabaptist Movements, 1525-1650)",
+   "VI.3 argued against this [Documented] (VI.3 = The Anabaptist Movements, 1525-1650)",
+   "this in contact with VI.2 [Documented] (VI.2 = The Reformed Cities - Zurich & Geneva, 1519-1650)",
+   "this argued against VI.2 [Documented] (VI.2 = The Reformed Cities - Zurich & Geneva, 1519-1650)",
+   "V.6 influenced this [Documented] (V.6 = The Hussite & Bohemian Brethren Movement, 1402-1517)",
+   "this broke with VI.15 [Documented] (VI.15 = Schwenckfelders, 1540s-1650)",
+   "this argued against VI.15 [Documented] (VI.15 = Schwenckfelders, 1540s-1650)",
+   "this influenced VI.4 [Widely Accepted] (VI.4 = The English Reformation & Elizabethan Settlement, 1530s-1650)",
+   "this influenced VIII.41 [Documented] (VIII.41 = The Confessional Lutheran Revival & the Emigrations, 1817-1906)",
+   "this influenced VII.5 [Documented] (VII.5 = The Methodist Revival, 1738-1815)"
+  ],
+  "statusDescription": "You can sit down with this tradition now.",
+  "relationsSummary": "It began in 1517, when one friar spoke out against the sale of indulgences. Luther also drew on an old German mystical book, the Theologia Deutsch. The movement became a rival to Rome, and a sibling rival to the Reformed churches. Many friars of Luther's own order were among his first followers.",
+  "why": "Luther's own writings are enormous, but the Saxon visitation records of 1527-28 tell a different story: sent out to examine parish after parish, the visitors found many villagers knew far less of the new faith than the pamphlets implied. The same decades also produced women publishing under their own names, like Argula von Grumbach and Katharina Schütz Zell, defending the evangelical cause in print.",
+  "legacy": "It became the Lutheran churches — an ongoing communion of tens of millions across Germany, Scandinavia, the Baltic and North America, and, through later missions, Africa and Asia. Its most durable everyday bequest is less doctrinal than liturgical and musical: congregational hymn-singing in the local language, the small catechism learned by heart at home, and a tradition of church music that runs from Luther's own tunes through to Bach."
+ },
+ {
+  "id": "the-reformed-cities-zurich-and-geneva",
+  "atlasId": "VI.2",
+  "era": 7,
+  "name": "The Reformed Cities - Zurich & Geneva",
+  "dates": "1519-1650",
+  "lane": "Protestant & Evangelical",
+  "currentFlag": true,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "VI.2",
+    "id": "the-reformed-cities-zurich-and-geneva",
+    "era": 7,
+    "living": true,
+    "end": 1650,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "I.8 influenced this [Documented] (I.8 = Latin Pastoral-Congregational Christianity, c. 240s-430)",
+   "VI.1 in contact with this [Documented] (VI.1 = Lutheran Wittenberg & Its Congregations, 1517-1580)",
+   "VI.1 argued against this [Documented] (VI.1 = Lutheran Wittenberg & Its Congregations, 1517-1580)",
+   "this gave rise to VI.3 [Documented] (VI.3 = The Anabaptist Movements, 1525-1650)",
+   "this argued against VI.3 [Documented] (VI.3 = The Anabaptist Movements, 1525-1650)",
+   "this argued against VI.15 [Documented] (VI.15 = Schwenckfelders, 1540s-1650)",
+   "this influenced VI.5 [Documented] (VI.5 = The Scottish Reformation & Kirk, 1560-1650)",
+   "this influenced VI.6 [Documented] (VI.6 = The Huguenots, 1559-1685)",
+   "this influenced VI.4 [Documented] (VI.4 = The English Reformation & Elizabethan Settlement, 1530s-1650)",
+   "this influenced VI.10 [Documented] (VI.10 = The Waldensian-Reformed Union, 1532-1655+)",
+   "this argued against VI.14 [Documented] (VI.14 = Anti-Trinitarian Currents (Servetus; Polish Brethren/Socinians; Transylvanian Unitarians), 1517-1650)",
+   "VI.17 argued against this [Documented] (VI.17 = Orthodoxy under the Ottomans - Parish, Millet & Neomartyrs, 1453-1650)",
+   "this influenced VI.17 [Documented] (VI.17 = Orthodoxy under the Ottomans - Parish, Millet & Neomartyrs, 1453-1650)"
+  ],
+  "statusDescription": "You can sit down with this tradition now.",
+  "relationsSummary": "Zurich and Geneva shaped the Scottish, Huguenot, Dutch and Puritan traditions.",
+  "why": "Zwingli tested every inherited church practice at Zurich through public disputation before the whole city; five years later and without ever meeting him, Calvin built the same conviction at Geneva through catechesis and a Consistory that held ordinary conduct to account.",
+  "legacy": "Reformed and Presbyterian churches around the world descend from these two cities. Four traditions took their pattern from them. They are the Scottish Kirk, the Huguenots, the Dutch Reformed and English Puritanism. Beyond belief, the everyday heritage is a style. The churches are plain and whitewashed, with the pulpit in the middle. Whole congregations sing the psalms in their own tongue. And elected elders lead the church, not bishops."
+ },
+ {
+  "id": "the-anabaptist-movements",
+  "atlasId": "VI.3",
+  "era": 7,
+  "name": "The Anabaptist Movements",
+  "dates": "1525-1650",
+  "lane": "Protestant & Evangelical",
+  "currentFlag": true,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [
+   {
+    "id": "mennonites-and-amish-after-1650",
+    "atlasId": "VII.32",
+    "living": true,
+    "confidence": "Documented"
+   }
+  ],
+  "lineTerminals": [
+   {
+    "atlasId": "VII.32",
+    "id": "mennonites-and-amish-after-1650",
+    "era": 8,
+    "living": true,
+    "end": 1890,
+    "weakestLink": "Documented"
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "VI.1 argued against this [Documented] (VI.1 = Lutheran Wittenberg & Its Congregations, 1517-1580)",
+   "this argued against VI.1 [Documented] (VI.1 = Lutheran Wittenberg & Its Congregations, 1517-1580)",
+   "VI.2 gave rise to this [Documented] (VI.2 = The Reformed Cities - Zurich & Geneva, 1519-1650)",
+   "VI.2 argued against this [Documented] (VI.2 = The Reformed Cities - Zurich & Geneva, 1519-1650)",
+   "this influenced VII.16 [Contested] (VII.16 = The Baptists, 1609-1815)",
+   "this influenced VII.3 [Documented] (VII.3 = Radical Pietism & the Brethren (Dunkers, Ephrata), 1690s-1815)",
+   "this gave rise to VI.32 [Documented] (VI.32 = The Hutterite Brethren, 1528-1785)"
+  ],
+  "statusDescription": "Tiered Strong (Tier 1) on a rich base, read with care for genre — the Martyrs Mirror and the Hutterite Chronicle alongside the movement's own hymnody. Its court testimonies are coerced, not plain inside voice. Its window ends in 1650, bringing the Dordrecht Confession (1632) back inside its own window.",
+  "relationsSummary": "Lutheran, Reformed and Catholic churches all condemned them. Catholic lands hunted them hardest. Later free churches such as the Baptists shared some of their beliefs. How much they owed them is still argued.",
+  "why": "In January 1525, a small group in Zurich baptized one another as adults. Lutheran, Reformed and Catholic leaders alike condemned them for it. What survives from inside the movement is rare and direct. Trial papers survive, and so do prison hymns and a book of martyrs. That book, the Martyrs Mirror, is still read aloud in Amish and Mennonite homes.",
+  "legacy": "The movement survives directly. Mennonites, Amish and Hutterites descend from it, and the later Brethren drew on its beliefs. Its free-church idea also spread far beyond it. Joining a church is a free choice made as an adult, and the church should not be an arm of the state. That became one of the most widely shared Protestant ideas in the world. Its martyr book, the Martyrs Mirror of 1660, is still printed and still read aloud in Amish and Mennonite homes."
+ },
+ {
+  "id": "the-scottish-reformation-and-kirk",
+  "atlasId": "VI.5",
+  "era": 7,
+  "name": "The Scottish Reformation & Kirk",
+  "dates": "1560-1650",
+  "lane": "Protestant & Evangelical",
+  "currentFlag": true,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "VI.5",
+    "id": "the-scottish-reformation-and-kirk",
+    "era": 7,
+    "living": true,
+    "end": 1650,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "VI.2 influenced this [Documented] (VI.2 = The Reformed Cities - Zurich & Geneva, 1519-1650)"
+  ],
+  "statusDescription": "Tiered Viable, secondary (Tier 2), on kirk-session discipline records denser still than Geneva's. Its real test is distinctness from its Genevan parent - a national-covenantal formation logic of its own.",
+  "relationsSummary": "Shaped by Geneva, whose order of worship its Assembly took up in 1562. What set it apart was national: a whole people bound to God by a public oath.",
+  "why": "Scotland's kirk sessions kept records even denser than Geneva's, mostly over small quarrels between neighbors who then had to keep living side by side. Its ambition was bigger than any single city's: a whole nation bound together by public covenant, most visibly in the National Covenant of 1638.",
+  "legacy": "It became the Church of Scotland, and through emigration and mission the worldwide Presbyterian family. Its ambition of a school in every parish left Scotland unusually literate for its time, and its habit of government by elected elders sitting in courts of the church — session, presbytery, assembly — was carried onto every continent. Metrical psalm-singing in the Scottish manner is still heard in Gaelic congregations today."
+ },
+ {
+  "id": "the-huguenots",
+  "atlasId": "VI.6",
+  "era": 7,
+  "name": "The Huguenots",
+  "dates": "1559-1685",
+  "lane": "Protestant & Evangelical",
+  "currentFlag": true,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [
+   {
+    "id": "church-of-the-desert-huguenots",
+    "atlasId": "VII.22",
+    "living": false,
+    "confidence": "Documented"
+   }
+  ],
+  "lineTerminals": [
+   {
+    "atlasId": "VII.22",
+    "id": "church-of-the-desert-huguenots",
+    "era": 8,
+    "living": false,
+    "end": 1787,
+    "weakestLink": "Documented"
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "VI.2 influenced this [Documented] (VI.2 = The Reformed Cities - Zurich & Geneva, 1519-1650)"
+  ],
+  "statusDescription": "Tiered Viable, secondary (Tier 2) on synod acts, memoirs, martyrologies and refugee narratives. Its window starts in 1559, the first national synod at Paris and the church's own organizational birth, not the softer 1550s.",
+  "relationsSummary": "Shaped by Calvin's Geneva, which wrote its creed and sent it pastors. Hunted at home, its people later fled across Europe and beyond, in one of history's clearest cases of a church driven into exile.",
+  "why": "French Protestants organized themselves before any king told them to, adopting a confession of faith and a book of discipline in secret in 1559. After a century of civil war and the revocation of the Edict of Nantes in 1685, several hundred thousand chose exile over conversion — and gave the English language the word 'refugee.'",
+  "legacy": "The tradition still exists in France, in the united Protestant church that grew out of it, and the dispersion left permanent traces abroad. Huguenot surnames, silk-weaving and watchmaking trades, and congregations founded in London, Berlin, Amsterdam, Cape Town and Charleston. The English word 'refugee' comes from the French réfugié, a word that came into use for them."
+ },
+ {
+  "id": "recusant-english-catholicism",
+  "atlasId": "VI.7",
+  "era": 7,
+  "name": "Recusant English Catholicism",
+  "dates": "1559-1650",
+  "lane": "Latin West & Catholicism",
+  "currentFlag": true,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "VI.7",
+    "id": "recusant-english-catholicism",
+    "era": 7,
+    "living": true,
+    "end": 1650,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "VI.4 argued against this [Documented] (VI.4 = The English Reformation & Elizabethan Settlement, 1530s-1650)"
+  ],
+  "statusDescription": "Tiered Viable, secondary (Tier 2) — moderate-to-rich, with women unusually visible in its record because the household was the church. That repeats, as this entry's own record observes, the house-church dynamic of the earliest era, sixteen centuries on.",
+  "relationsSummary": "A household-based church forced underground by persecution, echoing how the earliest Christians met and organized in private homes centuries before institutional churches existed.",
+  "why": "After 1559, English Catholics who refused to attend their parish church were fined as recusants, and from 1585 it was treason for a priest even to set foot in the country. What survived was a church of private houses, with priests hidden in walls and the women of the household — legally less exposed than their husbands — effectively running the congregation.",
+  "legacy": "The community survived. English Catholicism continued unbroken through the penal years and re-emerged legally in the nineteenth century, and forty of its martyrs were canonized together in 1970 as the Forty Martyrs of England and Wales. Its most tangible remains are the houses themselves — priest-holes still shown to visitors in country manors. And a devotional literature, above all Southwell's poetry, that outlived the persecution which produced it."
+ },
+ {
+  "id": "puritanism",
+  "atlasId": "VI.8",
+  "era": 7,
+  "name": "Puritanism",
+  "dates": "c. 1560-1660",
+  "lane": "Protestant & Evangelical",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "VI.8",
+    "id": "puritanism",
+    "era": 7,
+    "living": false,
+    "end": 1660,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "VI.4 gave rise to this [Documented] (VI.4 = The English Reformation & Elizabethan Settlement, 1530s-1650)",
+   "this argued against VI.4 [Documented] (VI.4 = The English Reformation & Elizabethan Settlement, 1530s-1650)",
+   "VI.4 argued against this [Documented] (VI.4 = The English Reformation & Elizabethan Settlement, 1530s-1650)",
+   "VI.2 influenced this [Documented] (VI.2 = The Reformed Cities - Zurich & Geneva, 1519-1650)",
+   "this gave rise to VII.16 [Widely Accepted] (VII.16 = The Baptists, 1609-1815)",
+   "this influenced VII.5 [Widely Accepted] (VII.5 = The Methodist Revival, 1738-1815)",
+   "this gave rise to VII.1 [Documented] (VII.1 = The Quakers (Religious Society of Friends), 1650s-1815)"
+  ],
+  "statusDescription": "Tiered Strong (Tier 1) for exactly the interior-voice this survey values most: diaries and conversion narratives are its native genre, at ordinary levels. Its window ends in 1660, crossing the era boundary once, a principled straddle; the Baptist entry, beginning in 1609 inside this window, is born within its separatist story.",
+  "relationsSummary": "Shaped by Geneva and grown inside the English church, which it thought only half reformed. Its stress on a personal turn to God later fed the revival in New England.",
+  "why": "Puritans thought the English Reformation had stopped halfway, and their sharpest distinctiveness was interior: they kept diaries examining their own hearts and told conversion narratives — an account of how God had brought them to faith — aloud before the whole congregation. Pressed at home, thousands carried that habit across the Atlantic to New England from 1630.",
+  "legacy": "Puritanism did not survive as a church of its own, but it left more behind than most that did. English Congregationalism, Presbyterianism and much of the Baptist tradition came straight out of it. So did the culture of early New England, including Harvard, founded in 1636 to train its ministers. Its books stayed in print. Bunyan's Pilgrim's Progress, by a man formed in that tradition, became one of the most read books in English. And its call to a personal turn to God fed the revivals of the next century: in New England, Jonathan Edwards still quoted the Puritan Thomas Shepard."
+ },
+ {
+  "id": "dutch-further-reformation-and-refuge-culture",
+  "atlasId": "VI.9",
+  "era": 7,
+  "name": "Dutch Further Reformation & Refuge Culture",
+  "dates": "c. 1570-1650",
+  "lane": "Protestant & Evangelical",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "VI.9",
+    "id": "dutch-further-reformation-and-refuge-culture",
+    "era": 7,
+    "living": false,
+    "end": 1650,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "this influenced VII.2 [Documented] (VII.2 = German Pietism - Spener, Francke, Halle, 1675-1750)",
+   "VI.2 influenced this [Documented] (VI.2 = The Reformed Cities - Zurich & Geneva, 1519-1650)"
+  ],
+  "statusDescription": "Tiered Viable, secondary (Tier 2), conditionally — whether it is supporting context or a tradition in its own right is a real, open question. Dort (1618–19) is named both here and in the Remonstrant entry.",
+  "relationsSummary": "Historians still argue whether this was a tradition of its own or just the fervor of Dutch church life at the time. Its practical piety later fed into German Pietism. It may also have gone to South Africa and North America with Dutch Reformed emigrants, but no early account shows how.",
+  "why": "The Dutch Republic became the printing house and shelter of much of Europe's religious dissent, home to English separatists, French and Flemish refugees, and Jews expelled from Iberia. Inside its own Reformed church, preachers pressed for a precise, examined daily godliness that contemporaries called the Nadere Reformatie, the 'further Reformation.'",
+  "legacy": "Its books traveled. Retold in German, this Dutch practical divinity fed into German Pietism. It may also have gone with Dutch Reformed emigrants to South Africa and North America, though no early account shows it. The refuge culture left the wider mark. The Republic would tolerate in private what it would not endorse in public. That habit, and its printing trade, sent ideas across Europe that had nowhere else to go."
+ },
+ {
+  "id": "the-waldensian-reformed-union",
+  "atlasId": "VI.10",
+  "era": 7,
+  "name": "The Waldensian-Reformed Union",
+  "dates": "1532-1655+",
+  "lane": "Protestant & Evangelical",
+  "currentFlag": true,
+  "existingLivingEvidence": null,
+  "predecessors": [
+   {
+    "id": "waldensians-in-the-alps",
+    "atlasId": "V.16",
+    "confidence": "Contested"
+   }
+  ],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "VI.10",
+    "id": "the-waldensian-reformed-union",
+    "era": 7,
+    "living": true,
+    "end": 1655,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "VI.2 influenced this [Documented] (VI.2 = The Reformed Cities - Zurich & Geneva, 1519-1650)"
+  ],
+  "statusDescription": "Tiered Viable, secondary (Tier 2) on a moderate-to-rich base. It succeeds from the Alpine Waldensian entry, completing a chain the earlier record could carry only as an influence; whether that older link should now retire is left open.",
+  "relationsSummary": "Medieval dissent grafted into Reformed Protestantism without losing its own memory. The community was granted full civil emancipation in Italy in 1848.",
+  "why": "The Waldensians had already survived three centuries as an underground movement of lay preachers when, in 1532, they joined the young Reformed churches at a meeting in the Alpine valleys of Piedmont and paid for a new French Bible. Their communities were massacred at Easter 1655, an atrocity that drew protests across Protestant Europe and a sonnet from John Milton.",
+  "legacy": "The Waldensian Church still exists. Since the nineteenth century it has spread out of the valleys and across Italy. Its valleys remain a place of pilgrimage for Protestants. And its sheer age made it a standing point of reference for later Protestants, who looked to it as a church older than the Reformation."
+ },
+ {
+  "id": "the-society-of-jesus",
+  "atlasId": "VI.11",
+  "era": 7,
+  "name": "The Society of Jesus",
+  "dates": "1540-1650",
+  "lane": "Latin West & Catholicism",
+  "currentFlag": true,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "VI.11",
+    "id": "the-society-of-jesus",
+    "era": 7,
+    "living": true,
+    "end": 1650,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "this gave rise to VI.13b [Documented] (VI.13b = Kirishitan Japan, 1549-1650)",
+   "this gave rise to VI.13c [Documented] (VI.13c = Mission-Born Christianity in Ming China, 1583-1650)",
+   "VI.13a in contact with this [Documented] (VI.13a = Kongo Christianity, Afonso I to 1650, 1491-1650)",
+   "this gave rise to VI.19 [Documented] (VI.19 = Philippine Catholicism, 1565-1650)",
+   "this influenced VI.21 [Dominant Modern Reconstruction] (VI.21 = The Kyiv-Mohyla Orthodox Revival, 1615-1700)",
+   "VI.18 broke with this [Documented] (VI.18 = St. Thomas Christians under Portuguese Pressure - Diamper & the Coonan Cross, 1599-1665)",
+   "VI.25 broke with this [Documented] (VI.25 = Ethiopian Christianity — Gragn to Fasilides, 1517-1650)",
+   "this argued against VI.25 [Documented] (VI.25 = Ethiopian Christianity — Gragn to Fasilides, 1517-1650)",
+   "this gave rise to VI.31 [Documented] (VI.31 = Mission-Born Christianity in New France, 1610-1650)"
+  ],
+  "statusDescription": "Tiered Strong (Tier 1) on an oceanic archive — Ignatius's autobiography and Exercises alongside the Relations. Its founder's own corpus carries real weight here, a discipline for any account of it to apply, not a straightforward strength to claim.",
+  "relationsSummary": "A driving force of Catholic reform. Its theologians spoke at the Council of Trent, and its missions began the churches of Japan and China.",
+  "why": "Ignatius of Loyola was a soldier whose leg was shattered by a cannonball, and the long convalescence that followed produced the Spiritual Exercises, a structured month of prayer that shaped everyone the order later trained. Rather than retreat into a cloister, the Jesuits became a mobile body of teachers and missionaries, running some 250 colleges by 1600 and sending men as far as India, Japan, China, Brazil and Canada.",
+  "legacy": "The Society still exists. It is the largest order of men in the Catholic Church, and in 2013 one of its members became the first Jesuit pope. Its great gift to the world of learning is a worldwide network of schools and universities. Its great spiritual gift is the Spiritual Exercises, still made today as retreats of eight or thirty days. Its missionaries' letters home also gave Europe some of its first long accounts of Japan, China and the Americas."
+ },
+ {
+  "id": "tridentine-parish-renewal-borromean-milan",
+  "atlasId": "VI.12",
+  "era": 7,
+  "name": "Tridentine Parish Renewal - Borromean Milan",
+  "dates": "1560-1610",
+  "lane": "Latin West & Catholicism",
+  "currentFlag": true,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "VI.12",
+    "id": "tridentine-parish-renewal-borromean-milan",
+    "era": 7,
+    "living": true,
+    "end": 1610,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [],
+  "statusDescription": "Tiered Viable, secondary (Tier 2) on rich institutional records plus visitation material giving ordinary texture. Its window ends in 1610, Borromeo's canonization; it stands as the exemplar for the late-medieval parish world's Catholic-reform continuation.",
+  "relationsSummary": "The Catholic mirror of Wittenberg's parish question",
+  "why": "Archbishop Charles Borromeo took the Council of Trent's decrees and worked out what they meant for one ordinary parish: founding seminaries, walking visitations through remote alpine valleys, and issuing instructions detailed enough to help standardize the enclosed confessional box still found in Catholic churches. When plague struck Milan in 1576, he stayed in the city rather than flee it.",
+  "legacy": "Borromeo's Milan became a model. His book of rules for Milan, the Acta Ecclesiae Mediolanensis, first came out in 1582. It gathered the decrees of his councils, and bishops in many lands used it as a working handbook. The parish it describes lasted into the twentieth century. It had a trained priest who lived among his people, regular lessons in the faith, the confessional and the bishop's visit. Catholics still call on Charles Borromeo as patron of bishops and of men training to be priests. His diocese still keeps the Ambrosian rite, which is far older than he is."
+ },
+ {
+  "id": "mission-born-christianities-kirishitan-japan-kon",
+  "atlasId": "VI.13",
+  "era": 7,
+  "name": "Mission-Born Christianities (Kirishitan Japan; Kongo; China; New Spain/Andes)",
+  "dates": "1491-1650",
+  "lane": "Latin West & Catholicism",
+  "currentFlag": true,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "VI.13",
+    "id": "mission-born-christianities-kirishitan-japan-kon",
+    "era": 7,
+    "living": true,
+    "end": 1650,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [],
+  "statusDescription": "This entry names four Christianities born of the same missionary age that share no actor, language or voice of their own. No finding is made on the label. Each region carries its own entry below and is assessed on its own sources.",
+  "relationsSummary": "Grew out of Catholic missions. The Portuguese came to Kongo in 1491 and the Franciscans to Mexico in 1524. The Jesuits went to Japan and China. Together they became one root of the spread of Christianity across the world in the centuries that followed.",
+  "why": "In Kongo, King Afonso I took up the faith and left letters in his own voice. In Japan, a savage ban drove Christian communities underground. Later studies hold that hidden believers kept the faith alive there for two and a half centuries, with no priest. Almost everything else about these communities was written by missionaries. So whose story survives, the mission's or the converts', is a real and open question.",
+  "legacy": "These are among the first steps of Christianity as a faith of the whole world, and several of them were never broken. Later studies hold that the hidden Christians of Japan kept a faith handed down for about two hundred and fifty years with no priests. Their villages are now a UNESCO World Heritage site. Latin American and Philippine Catholicism grew straight out of this time, with their processions, brotherhoods and local saints. Kongo's Christians may also have shaped the beliefs of enslaved Africans in the Americas. But the writings of this time do not show it."
+ },
+ {
+  "id": "kongo-christianity-afonso-to-1650",
+  "atlasId": "VI.13a",
+  "era": 7,
+  "name": "Kongo Christianity, Afonso I to 1650",
+  "dates": "1491-1650",
+  "lane": "Latin West & Catholicism",
+  "currentFlag": true,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "VI.13a",
+    "id": "kongo-christianity-afonso-to-1650",
+    "era": 7,
+    "living": true,
+    "end": 1650,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "this in contact with VI.11 [Documented] (VI.11 = The Society of Jesus, 1540-1650)"
+  ],
+  "statusDescription": "A genuine convert voice survives: the letters of King Afonso I in Portuguese, now in the library. Everything else is the mission's and the crown's record. Not yet reviewed.",
+  "relationsSummary": "Grew from the Portuguese mission of 1491. In 1547 Portugal sent Jesuits to help its bishop. The prophetic movement of Dona Beatriz, from 1704, may have grown out of it, as one modern study holds.",
+  "why": "In Kongo, King Afonso I adopted the faith, built churches, sent his sons to Lisbon, asked for priests, and left letters in his own voice that argue with Portugal about the slave trade and about his church. Almost everything else written about his kingdom's Christians came from missionaries' pens.",
+  "legacy": null
+ },
+ {
+  "id": "kirishitan-japan",
+  "atlasId": "VI.13b",
+  "era": 7,
+  "name": "Kirishitan Japan",
+  "dates": "1549-1650",
+  "lane": "Latin West & Catholicism",
+  "currentFlag": true,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "VI.13b",
+    "id": "kirishitan-japan",
+    "era": 7,
+    "living": true,
+    "end": 1650,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "VI.11 gave rise to this [Documented] (VI.11 = The Society of Jesus, 1540-1650)",
+   "this gave rise to VIII.45 [Inferential-Thin] (VIII.45 = Japanese Christianity — the Hidden Christians’ Emergence & the Meiji Church, 1865-1906)"
+  ],
+  "statusDescription": "Convert letters of 1598 to 1651 survive in French translation beside strong outside witnesses; the Japanese-language texts wait on a rights ruling. Not yet reviewed.",
+  "relationsSummary": "Grew from the Jesuit mission of 1549. The ban of 1614 drove its communities underground. Later studies hold that hidden believers kept the faith for about two hundred and fifty years without a priest.",
+  "why": "In Japan, a Jesuit mission from 1549 gathered a large Christian population. Then a savage ban drove the survivors underground. Later studies hold that hidden believers kept the faith alive for about 250 years with no priest at all. Their villages are now a World Heritage site.",
+  "legacy": null
+ },
+ {
+  "id": "china-mission-born-christianity",
+  "atlasId": "VI.13c",
+  "era": 7,
+  "name": "Mission-Born Christianity in Ming China",
+  "dates": "1583-1650",
+  "lane": "Latin West & Catholicism",
+  "currentFlag": true,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "VI.13c",
+    "id": "china-mission-born-christianity",
+    "era": 7,
+    "living": true,
+    "end": 1650,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "VI.11 gave rise to this [Documented] (VI.11 = The Society of Jesus, 1540-1650)",
+   "this influenced VIII.21 [Dominant Modern Reconstruction] (VIII.21 = Korean Catholic Origins, 1784-1886)"
+  ],
+  "statusDescription": "The mission's own record is in hand in Latin and English; the converts' own texts (Xu Guangqi, Yang Tingyun, the Diary of Oral Admonitions) have no public-domain edition reachable yet. Stays on the atlas until one clears. Not yet reviewed.",
+  "relationsSummary": "Grew from Matteo Ricci's arrival in 1583 and the Jesuit mission to China.",
+  "why": "In China, Jesuits and Chinese converts argued out how the Christian God could be spoken of in a Confucian idiom. The converts wrote in their own names, but what survives in a form we can read today comes almost entirely from the missionaries' pens.",
+  "legacy": null
+ },
+ {
+  "id": "anti-trinitarian-currents-servetus-polish-brethr",
+  "atlasId": "VI.14",
+  "era": 7,
+  "name": "Anti-Trinitarian Currents (Servetus; Polish Brethren/Socinians; Transylvanian Unitarians)",
+  "dates": "1517-1650",
+  "lane": "Non-Nicene Traditions",
+  "currentFlag": true,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "VI.14",
+    "id": "anti-trinitarian-currents-servetus-polish-brethr",
+    "era": 7,
+    "living": true,
+    "end": 1650,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "VI.2 argued against this [Documented] (VI.2 = The Reformed Cities - Zurich & Geneva, 1519-1650)",
+   "this influenced VII.31 [Inferential-Thin] (VII.31 = English Unitarianism, 1774-1813)"
+  ],
+  "statusDescription": "Carries a named creedal question for a future survey to answer - stated as a question, not a verdict.",
+  "relationsSummary": "The radical left edge of the Reformation. Michael Servetus was burned by Geneva's own council in 1553, and the Polish Brethren were expelled from Poland in 1658.",
+  "why": "Following the Reformation's own appeal to 'Scripture alone,' Michael Servetus published against the doctrine of the Trinity in 1531 and was burned at Geneva in 1553. The idea survived further east: the Polish Brethren built a printing academy at Raków, and Transylvania's 1568 Edict of Torda gave a Unitarian church legal standing under the preacher Ferenc Dávid. Their case for religious toleration, made by people with the most to lose from its absence, outlasted their own persecuted communities.",
+  "legacy": "The church in Transylvania still exists. Today it is the Hungarian Unitarian Church, in Romania and Hungary. It is very likely the oldest Unitarian church in the world with an unbroken past. The Polish Brethren were expelled in 1658 and scattered into the Netherlands and beyond. In Holland many joined the Remonstrants and the Mennonites, and they used the Dutch presses. Their books may have fed Dutch and English rational theology. At some distance they may have fed later Unitarians too, but the trail is faint. Their case for toleration outlasted them. It came from people with the most to lose without it."
+ },
+ {
+  "id": "schwenckfelders",
+  "atlasId": "VI.15",
+  "era": 7,
+  "name": "Schwenckfelders",
+  "dates": "1540s-1650",
+  "lane": "Protestant & Evangelical",
+  "currentFlag": true,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "VI.15",
+    "id": "schwenckfelders",
+    "era": 7,
+    "living": true,
+    "end": 1650,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "VI.1 broke with this [Documented] (VI.1 = Lutheran Wittenberg & Its Congregations, 1517-1580)",
+   "VI.1 argued against this [Documented] (VI.1 = Lutheran Wittenberg & Its Congregations, 1517-1580)",
+   "VI.2 argued against this [Documented] (VI.2 = The Reformed Cities - Zurich & Geneva, 1519-1650)"
+  ],
+  "statusDescription": "Carries a named creedal question for a future survey to answer - stated as a question, not a verdict.",
+  "relationsSummary": "Spiritualist wing of the Reformation",
+  "why": "Caspar Schwenckfeld broke with Luther over a conviction that outward things — preaching, sacraments, church order — could never do what only Christ's inward work could accomplish. In 1526 he urged that the Lord's Supper be suspended until Christians could agree what it actually was, a 'standing still' his followers kept for generations, meeting in houses and copying his writings out by hand.",
+  "legacy": "A small Schwenkfelder Church still exists in south-eastern Pennsylvania, descended from the families who emigrated in the 1730s, and it keeps a heritage library and an annual thanksgiving marking their arrival. The movement's larger mark is as a witness: an early, articulate case that inward faith matters more than outward form, argued from inside the Reformation rather than against it."
+ },
+ {
+  "id": "family-of-love-and-spiritualists-franck-niclaes",
+  "atlasId": "VI.16",
+  "era": 7,
+  "name": "Family of Love & Spiritualists (Franck, Niclaes)",
+  "dates": "c. 1540-1600",
+  "lane": "Protestant & Evangelical",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "VI.16",
+    "id": "family-of-love-and-spiritualists-franck-niclaes",
+    "era": 7,
+    "living": false,
+    "end": 1600,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "VI.4 argued against this [Documented] (VI.4 = The English Reformation & Elizabethan Settlement, 1530s-1650)"
+  ],
+  "statusDescription": "Carries a named creedal question for a future survey to answer - stated as a question, not a verdict.",
+  "relationsSummary": "Perhaps a quiet influence on later dissent, though their secrecy hides the trail.",
+  "why": "Sebastian Franck decided that the true church had been hidden from sight since the apostles. To him, God's word spoke inwardly to people of every nation, not through any church. Hendrik Niclaes went further and built a secret group, the Family of Love. Its members outwardly obeyed whatever church their land required, but kept their real beliefs to themselves. They hid them so well that England hunted them by royal proclamation.",
+  "legacy": "Neither group lasted as an institution. Franck's writings, though, were reprinted long after his death. They found readers who wanted a Christian faith without a church to house it. His Paradoxa came out again in 1559, and an English version of another of his books in 1640. They may have reached later mystics and spiritualists, but that path is hard to trace. The Familists' habit of outward conformity hides their influence almost completely. That is exactly what they wanted. Their books were printed abroad in English for English readers, and one was reprinted in London as late as 1652. Whether they fed the next century's case for toleration cannot be shown."
+ },
+ {
+  "id": "st-thomas-christians-under-portuguese-pressure-d",
+  "atlasId": "VI.18",
+  "era": 7,
+  "name": "St. Thomas Christians under Portuguese Pressure - Diamper & the Coonan Cross",
+  "dates": "1599-1665",
+  "lane": "Syriac East & Asia",
+  "currentFlag": true,
+  "existingLivingEvidence": null,
+  "predecessors": [
+   {
+    "id": "st-thomas-christians-1300-1517",
+    "atlasId": "V.23",
+    "confidence": "Documented"
+   }
+  ],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "VI.18",
+    "id": "st-thomas-christians-under-portuguese-pressure-d",
+    "era": 7,
+    "living": true,
+    "end": 1665,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "this broke with VI.11 [Documented] (VI.11 = The Society of Jesus, 1540-1650)",
+   "this gave rise to VIII.27 [Widely Accepted] (VIII.27 = Northeast India Revivals & the Mar Thoma Reform, 1836-1906)",
+   "this gave rise to IX.39 [Widely Accepted] (IX.39 = The Malankara Churches — Orthodox & Jacobite, 1912-c. 2010)"
+  ],
+  "statusDescription": "Tiered Viable, secondary (Tier 2) — moderate-to-rich for this window in synod acts and missionary records; those acta are hostile to the tradition they absorbed, stated here plainly. It succeeds directly from the preceding St Thomas segment, with the 82-year gap between them disclosed rather than filled by a thin intermediate entry.",
+  "relationsSummary": "It carries on the older church of the St Thomas Christians. The split that came after the 1653 oath still shapes the churches of Kerala. Its heirs are the Syro-Malabar Catholics and the Malankara and Mar Thoma churches.",
+  "why": "The Christians of the Malabar coast traced their church to the apostle Thomas. For centuries they had worshipped in Syriac under bishops from the Church of the East. Then a 1599 synod placed them under Latin jurisdiction and ordered their Syriac books corrected or burned. Resentment broke open in 1653, when a crowd at Mattancherry swore they would no longer obey the Jesuits. Tradition says they tied ropes to a stone cross as they swore. The Coonan Cross Oath is named for a cross said to have bent under the strain.",
+  "legacy": "The division made in 1653 is still the shape of Christianity in Kerala. Those who returned to Rome became the Syro-Malabar Catholic Church, now one of the largest Eastern Catholic churches in the world. Those who did not are the ancestors of the Malankara Orthodox, Jacobite, Mar Thoma and related churches. All of them still worship in liturgies descended from the Syriac tradition Diamper set out to correct, and the bent cross at Mattancherry is still there."
+ },
+ {
+  "id": "the-kyiv-mohyla-orthodox-revival",
+  "atlasId": "VI.21",
+  "era": 7,
+  "name": "The Kyiv-Mohyla Orthodox Revival",
+  "dates": "1615-1700",
+  "lane": "Greek East & Orthodoxy",
+  "currentFlag": true,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "VI.21",
+    "id": "the-kyiv-mohyla-orthodox-revival",
+    "era": 7,
+    "living": true,
+    "end": 1700,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "this argued against VI.20 [Documented] (VI.20 = The Union of Brest & Ruthenian Greek Catholic Christianity, 1596-c. 1700)",
+   "this influenced VI.17 [Documented] (VI.17 = Orthodoxy under the Ottomans - Parish, Millet & Neomartyrs, 1453-1650)",
+   "VI.11 influenced this [Dominant Modern Reconstruction] (VI.11 = The Society of Jesus, 1540-1650)"
+  ],
+  "statusDescription": "Tiered Viable, secondary (Tier 2) on academy records, catechisms and brotherhood statutes; its printed Confession was revised before publication, worth care as a text. Its window ends in 1700, crossing the era boundary once, a single principled crossing.",
+  "relationsSummary": "Orthodoxy answering Reformation/Counter-Reformation pressure with its own confessional formation; the response to the Union of Brest.",
+  "why": "Orthodox Kyiv answered the Union of Brest not with a lament but with a school: a lay brotherhood founded a college in 1615, and Metropolitan Petro Mohyla built it on the Jesuit model — Latin, rhetoric, philosophy, theology — on the reasoning that a church cannot defend itself against arguments it cannot read. He also gave the church its own confession of faith and a service book, the Trebnyk of 1646, that fixed how priests actually celebrated the sacraments.",
+  "legacy": "The Kyiv Mohyla Academy became the leading school of the Orthodox Slavic world. Moscow drew on its learning. The tsar asked Kyiv for monks from the academy. Later Stephen Yavorsky, sent to Moscow from Kyiv, led the Russian church under Peter the Great. Mohyla's Confession was read far beyond Ukraine. The four Eastern patriarchs approved it in 1643, and it stayed a standard Orthodox guide into modern times. The academy was shut under Soviet rule. It opened again in 1991 and is now one of the best universities in Ukraine."
+ },
+ {
+  "id": "czech-churches-last-century",
+  "atlasId": "VI.24",
+  "era": 7,
+  "name": "The Czech Churches' Last Century (Utraquists and Unitas)",
+  "dates": "1517-c. 1627",
+  "lane": "Protestant & Evangelical",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [
+   {
+    "id": "the-hussite-and-bohemian-brethren-movement",
+    "atlasId": "V.6",
+    "confidence": "Documented"
+   }
+  ],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "VI.24",
+    "id": "czech-churches-last-century",
+    "era": 7,
+    "living": false,
+    "end": 1627,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "this gave rise to VII.4 [Documented] (VII.4 = The Moravian Church at Herrnhut, 1722-1815)"
+  ],
+  "statusDescription": "Proposed for a future survey, carrying forward an earlier entry that has not yet found a home; not yet reviewed.",
+  "relationsSummary": "A non-Roman national church in its last century of survival: the 1609 Letter of Majesty guaranteed its religious freedom, the Bohemian revolt followed, and the 1620 Battle of White Mountain led to the 1627-28 suppression, when Comenius led the Unity of the Brethren into exile. A remnant survived underground and later became the seed of the Moravian Church at Herrnhut.",
+  "why": "The Utraquists insisted that ordinary laypeople receive both bread and wine at communion, a demand that outlived the Hussite wars that produced it and won real legal standing in the 1609 Letter of Majesty. The 1620 Battle of White Mountain crushed that settlement, and by 1627-28 the Habsburgs had outlawed the church outright, sending its last bishop, Jan Amos Comenius, into exile with much of his flock — leaving behind the Kralice Bible, the first complete Czech translation made directly from the original languages.",
+  "legacy": "Its story didn't end with the 1627-28 suppression. A remnant of the Unity of the Brethren survived underground for nearly a century in Bohemia and Moravia, and in 1722 their descendants found refuge on a German nobleman's estate at Herrnhut — becoming the seed of the modern Moravian Church, one of Protestantism's most influential missionary movements."
+ },
+ {
+  "id": "ethiopian-christianity-gragn-to-fasilides",
+  "atlasId": "VI.25",
+  "era": 7,
+  "name": "Ethiopian Christianity — Gragn to Fasilides",
+  "dates": "1517-1650",
+  "lane": "Africa",
+  "currentFlag": true,
+  "existingLivingEvidence": null,
+  "predecessors": [
+   {
+    "id": "the-ethiopian-monastic-flowering",
+    "atlasId": "V.7",
+    "confidence": "Documented"
+   }
+  ],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "VI.25",
+    "id": "ethiopian-christianity-gragn-to-fasilides",
+    "era": 7,
+    "living": true,
+    "end": 1650,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "this broke with VI.11 [Documented] (VI.11 = The Society of Jesus, 1540-1650)",
+   "VI.11 argued against this [Documented] (VI.11 = The Society of Jesus, 1540-1650)"
+  ],
+  "statusDescription": "Proposed for a future survey, carrying an earlier entry forward; that entry's own dating already names this era as where its story continues. Not yet reviewed.",
+  "relationsSummary": "Ahmad Gragn's jihad lays waste to the church from 1529 to 1543, until the battle of Wayna Daga saves it. Then the Jesuits come. Emperor Susenyos turns Catholic in 1622, his people revolt, and the old faith comes back in 1632. His son Fasilides drives out the Jesuits in 1634. It is the era turned upside down: here the Counter-Reformation is the outside force pressing on an old church.",
+  "why": "From 1529 the armies of Ahmad ibn Ibrahim al-Ghazi, remembered as Gragn, burned Ethiopian churches, monasteries and manuscripts on a scale that still limits what can be known of earlier Ethiopian history, until the invasion broke at the Battle of Wayna Daga in 1543. The Portuguese help that won that battle brought Jesuits who later converted Emperor Susenyos to Catholicism — provoking a revolt so fierce that his son Fasilides expelled the Jesuits, restored the ancient church, and built a new capital at Gondar.",
+  "legacy": "The Ethiopian Orthodox Tewahedo Church survives as one of the largest of the Oriental Orthodox churches, with tens of millions of members, still keeping its own calendar, its Ge'ez liturgy, its long fasts and the tabot at the center of every church. Gondar's castles and painted churches, built in the century after the expulsion, are a UNESCO World Heritage site. And the memory of this period — an invasion survived, a foreign form of the faith refused — remains part of how the church understands itself."
+ },
+ {
+  "id": "the-remonstrants-and-dort",
+  "atlasId": "VI.26",
+  "era": 7,
+  "name": "The Remonstrants and Dort",
+  "dates": "1610-1650",
+  "lane": "Protestant & Evangelical",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "VI.26",
+    "id": "the-remonstrants-and-dort",
+    "era": 7,
+    "living": false,
+    "end": 1650,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "VI.2 in contact with this [Documented] (VI.2 = The Reformed Cities - Zurich & Geneva, 1519-1650)",
+   "this influenced VII.5 [Documented] (VII.5 = The Methodist Revival, 1738-1815)",
+   "VI.14 influenced this [Inferential-Thin] (VI.14 = Anti-Trinitarian Currents (Servetus; Polish Brethren/Socinians; Transylvanian Unitarians), 1517-1650)"
+  ],
+  "statusDescription": "Proposed for a future survey; not yet reviewed.",
+  "relationsSummary": "The sharpest internal contest inside Reformed Protestantism in this era: the Five Articles of 1610, judged and condemned by the Synod of Dort in 1618-19, about two hundred ministers deposed, and the Remonstrant Brotherhood driven into exile until toleration returned in the 1630s. The Brotherhood continued afterward with its own seminary in Amsterdam, later associated with the theologian Philipp van Limborch.",
+  "why": "After Jacobus Arminius raised doubts about how strictly predestination should be taught, his followers set out five articles in the Remonstrance of 1610 — a quarrel that swallowed Dutch politics and sent the statesman Johan van Oldenbarnevelt to the scaffold in 1619. The Synod of Dort answered with five canons of its own, deposing some two hundred ministers, until toleration returned in the 1630s and the exiles came home to build a church of their own.",
+  "legacy": "Both sides outlived the quarrel. The Remonstrant Brotherhood is still a small Dutch church, with its own seminary in Amsterdam. The Canons of Dort became one of the three Dutch Reformed standards of faith. Ministers swore to them as far away as North America. 'Arminian' became a lasting label in English theology. John Wesley took it up a century later, and the whole Methodist family took it from him."
+ },
+ {
+  "id": "scandinavian-reformation-kingdoms",
+  "atlasId": "VI.27",
+  "era": 7,
+  "name": "The Scandinavian Reformation Kingdoms",
+  "dates": "1520s-1650",
+  "lane": "Protestant & Evangelical",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [
+   {
+    "id": "scandinavian-conversion-christianity",
+    "atlasId": "III.14",
+    "confidence": "Inferential-Thin"
+   }
+  ],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "VI.27",
+    "id": "scandinavian-reformation-kingdoms",
+    "era": 7,
+    "living": false,
+    "end": 1650,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "VI.1 influenced this [Documented] (VI.1 = Lutheran Wittenberg & Its Congregations, 1517-1580)"
+  ],
+  "statusDescription": "Proposed for a future survey - the entry the post-1104 Scandinavian gap has waited four eras for; not yet reviewed.",
+  "relationsSummary": "Two established national churches emerged: Denmark-Norway's decisive break in 1536/37, and Sweden's slower path from the 1527 Diet of Västerås to the 1593 Uppsala Synod, which committed the kingdom to the unaltered Augsburg Confession. Iceland's Reformation was complete by 1550.",
+  "why": "Sweden's break began at the Diet of Västerås in 1527, when Gustav Vasa seized the church's property, and wasn't completed until the Uppsala Synod of 1593 committed the kingdom to the unaltered Augsburg Confession. Denmark-Norway moved faster and harder: Christian III arrested the bishops outright in 1536, and Icelandic resistance ended only in 1550, with the execution of the island's last Catholic bishop.",
+  "legacy": "These became the Lutheran churches of Denmark, Norway, Sweden, Finland and Iceland — still the largest churches in their countries, and in several cases still formally established or closely tied to the state. Their most durable everyday inheritance is linguistic: the vernacular Bibles and hymnbooks of this period helped standardize written Swedish, Danish and Finnish. The parish register, kept from this era for baptisms, marriages and burials, also made Scandinavia one of the most thoroughly documented populations on earth."
+ },
+ {
+  "id": "carmelite-reform-and-spanish-mystics",
+  "atlasId": "VI.29",
+  "era": 7,
+  "name": "The Carmelite Reform and the Spanish Mystics",
+  "dates": "1562-1622",
+  "lane": "Latin West & Catholicism",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "VI.29",
+    "id": "carmelite-reform-and-spanish-mystics",
+    "era": 7,
+    "living": false,
+    "end": 1622,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [],
+  "statusDescription": "Proposed for a future survey, filling a completeness gap earlier flags missed; its corpus dates still need verification before any build. Not yet reviewed.",
+  "relationsSummary": "Teresa founds San Jose (1562); John joins (1568); the Discalced province is recognized (1580-93); Teresa dies 1582, canonized 1622; connects to the medieval Carmelite order and lives inside the wider Tridentine Catholic reform while speaking in its own unmistakable voice.",
+  "why": "After more than twenty years in a large, comfortable convent, Teresa of Ávila concluded she wasn't living the life she had promised, and in 1562 founded a small house under a stricter rule of poverty, enclosure and long silent prayer. She wrote books about prayer she never intended to publish, and the friar who joined her reform, John of the Cross, wrote some of his finest poetry during nine months imprisoned by his own brethren.",
+  "legacy": "The Discalced Carmelites are still a worldwide order of friars and nuns. Teresa's and John's writings became lasting classics of Christian prayer, translated and read far beyond Spain. Both were later named Doctors of the Church. Teresa, named in 1970, was the first woman to hold that title. Their words passed into ordinary English: the 'dark night of the soul', the 'interior castle'."
+ },
+ {
+  "id": "new-france-mission-born-christianity",
+  "atlasId": "VI.31",
+  "era": 7,
+  "name": "Mission-Born Christianity in New France",
+  "dates": "1610-1650",
+  "lane": "Latin West & Catholicism",
+  "currentFlag": true,
+  "existingLivingEvidence": {
+   "descentConfidence": "Inferential-Thin",
+   "basis": "The Library's last word is the move of about three hundred Huron Christians to Quebec in 1650. No text in the repo traces a church descended from them after that year."
+  },
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "VI.31",
+    "id": "new-france-mission-born-christianity",
+    "era": 7,
+    "living": true,
+    "end": 1650,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "VI.11 gave rise to this [Documented] (VI.11 = The Society of Jesus, 1540-1650)"
+  ],
+  "statusDescription": "The Jesuits' yearly Relations are in hand, in French and English, to 1650. The converts speak in them only as the missionaries wrote them down; no text in a convert's own hand is in the Library yet. Not yet reviewed.",
+  "relationsSummary": "Grew from the Jesuit mission to New France. Near Quebec, Algonquin families settled at Sillery from 1638, and most became Christians. Far to the west, the Jesuits worked among the Hurons. When war with the Iroquois broke the Huron nation, about three hundred Christian Hurons went down to Quebec in 1650.",
+  "why": "Here the converts' words survive, though only in the priests' reports. At Sillery, Christian families met at night without the Jesuits and made rules of their own. Among the Hurons, a convert named Joseph Chihwatenhwa taught his people like an elder brother. In 1650 the last Huron Christians asked to be led to Quebec, so that their faith would not die out.",
+  "legacy": "The Library's record of this church stops in 1650. A year before, the Jesuits counted more than three thousand people baptized among the Hurons. The few hundred who reached Quebec had lost their homes and their kin. The Jesuit who led them wrote that they \"have not lost their faith.\" What became of their church after 1650 is not yet told from the Library."
+ },
+ {
+  "id": "hutterite-brethren",
+  "atlasId": "VI.32",
+  "era": 7,
+  "name": "The Hutterite Brethren",
+  "dates": "1528-1785",
+  "lane": "Protestant & Evangelical",
+  "currentFlag": true,
+  "existingLivingEvidence": {
+   "basis": "A living tradition whose own chronicle travels with it. Beck (1883) traces the families from Hungary to Russia, and to a colony near the Sea of Azov from 1852. Wolkan's preface (1923) says the Brethren who left Russia for America in 1874 still held the chronicle, and their colony in Alberta published it. Nothing later is in the Library.",
+   "descentConfidence": "Documented"
+  },
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "VI.32",
+    "id": "hutterite-brethren",
+    "era": 7,
+    "living": true,
+    "end": 1785,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "VI.3 gave rise to this [Documented] (VI.3 = The Anabaptist Movements, 1525-1650)"
+  ],
+  "statusDescription": "Proposed for a future survey; not yet reviewed.",
+  "relationsSummary": "The Hutterites grew out of the Anabaptist church at Nikolsburg in 1528. Habsburg rulers hunted them. They burned Jakob Hutter in 1536. In 1622 they drove the Brethren out of Moravia. From 1757 the government in Hungary broke up the last of their homes. A few families kept the faith and moved on to Russia.",
+  "why": "In 1528 a band of Anabaptists left Nikolsburg in Moravia. On the road their leaders spread a cloak on the ground. Everyone laid down their goods on it, freely and unforced. From that act came a church that held all its goods in common. It took its name from Jakob Hutter, burned in 1536. Its own chronicle tells the story from the inside.",
+  "legacy": "The Brethren never let their chronicle go. Beck found their families in Russia, near the Sea of Azov, by 1852. In 1874 the Brethren moved from Russia to America and took the book with them. In 1923 the Hutterian Brethren in Canada published it, as a house book for every member."
+ }
+]

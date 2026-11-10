@@ -1,0 +1,1033 @@
+[
+ {
+  "id": "the-second-great-awakening-and-camp-meeting-worl",
+  "atlasId": "VIII.2",
+  "era": 9,
+  "name": "The Second Great Awakening & Camp-Meeting Tradition",
+  "dates": "1795-1840",
+  "lane": "Protestant & Evangelical",
+  "currentFlag": true,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "VIII.2",
+    "id": "the-second-great-awakening-and-camp-meeting-worl",
+    "era": 9,
+    "living": true,
+    "end": 1840,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "VII.5 gave rise to this [Widely Accepted] (VII.5 = The Methodist Revival, 1738-1815)",
+   "this gave rise to VIII.3 [Documented] (VIII.3 = The Stone-Campbell Restoration Movement, 1801-1906)",
+   "this influenced VIII.4 [Dominant Modern Reconstruction] (VIII.4 = The Holiness Movement, 1835-1906)",
+   "this gave rise to VIII.10 [Inferential-Thin] (VIII.10 = Restorationist-Apocalyptic Ferment & Adventism, 1831-1906)"
+  ],
+  "statusDescription": "Tiered Viable, secondary (Tier 2). Whether revivalism here is a tradition or an era-atmosphere remains an open question. Finney and Moody's later revivalism sits inside existing entries rather than extending this one. Its origin runs through McGready's Logan County work, Red River and Cane Ridge.",
+  "relationsSummary": "Methodist preachers helped to lead these revivals. So did Presbyterians and Baptists. Barton Stone's side of the Stone-Campbell movement grew out of them. Later the Holiness movement took up their camp meeting.",
+  "why": "At Cane Ridge in August 1801, crowds put as high as twenty thousand camped in the woods for a week of preaching, weeping and shouting. Methodist circuit riders and Baptist preachers carried that pattern across the frontier. By the 1830s Charles Finney was teaching revival as a method. It could be worked for on purpose, he said, not just waited for. Barton Stone's side of the Stone-Campbell Restoration movement grew straight out of this ferment. The later Holiness movement took up its camp meeting.",
+  "legacy": "It made revival a lasting part of American religion, not a rare event. It handed on a whole toolkit that is still in use: the protracted meeting, the altar call, the anxious bench, the campground and its choruses. Barton Stone's wing of the Stone-Campbell Restoration movement came straight out of its ferment. The Holiness movement grew from Methodist teaching, but it later held camp meetings of its own. And out of Holiness came Pentecostalism. Many of its old campgrounds outlived the frontier, and some are still in use."
+ },
+ {
+  "id": "the-stone-campbell-restoration-movement",
+  "atlasId": "VIII.3",
+  "era": 9,
+  "name": "The Stone-Campbell Restoration Movement",
+  "dates": "1801-1906",
+  "lane": "Protestant & Evangelical",
+  "currentFlag": true,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "VIII.3",
+    "id": "the-stone-campbell-restoration-movement",
+    "era": 9,
+    "living": true,
+    "end": 1906,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "this gave rise to IX.41 [Widely Accepted] (IX.41 = Churches of Christ, 1906-c. 2010)",
+   "this gave rise to IX.42 [Widely Accepted] (IX.42 = Disciples of Christ & the Independent Christian Churches, 1906-c. 2010)",
+   "VIII.2 gave rise to this [Documented] (VIII.2 = The Second Great Awakening & Camp-Meeting Tradition, 1795-1840)",
+   "this argued against VIII.29 [Dominant Modern Reconstruction] (VIII.29 = The Catholic Church of the Long Nineteenth Century, 1815-1906)"
+  ],
+  "statusDescription": "Tiered Strong (Tier 1) on journals, congregational records and debate transcripts - debating was the movement's native genre. It stays off the register on purpose: its subscription-versus-content concerns and Stone's own reservations read as movement-level historical description, not a deviation from the confession itself. Its window ends in 1906, when the federal religious census first listed the Churches of Christ separately. That is a rare case where the survey's own cutoff and the story's own event coincide.",
+  "relationsSummary": "Child of the Awakening + Presbyterian line",
+  "why": "In 1804 Barton Stone dissolved his own Presbyterian presbytery rather than keep a denominational name, and five years later Thomas Campbell published a plea for \"no creed but the Bible and no name but Christian.\" The two movements merged in 1832, and Alexander Campbell argued their case in public debates that ran for days and that he then published himself. By 1906, a movement founded to end division had recorded one of its own, when the federal census counted the Churches of Christ separately for the first time.",
+  "legacy": "Three living streams descend from it — the Churches of Christ, the Christian Church (Disciples of Christ), and the Christian Churches and Churches of Christ — together numbering several million people worldwide, along with the colleges, journals and mission agencies they built. Its habits traveled further than its name: weekly communion in an otherwise low-church setting, baptism by immersion of believers, congregational independence, and a deep suspicion of anything that looks like a required creed."
+ },
+ {
+  "id": "the-holiness-movement",
+  "atlasId": "VIII.4",
+  "era": 9,
+  "name": "The Holiness Movement",
+  "dates": "1835-1906",
+  "lane": "Protestant & Evangelical",
+  "currentFlag": true,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "VIII.4",
+    "id": "the-holiness-movement",
+    "era": 9,
+    "living": true,
+    "end": 1906,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "this gave rise to IX.1 [Widely Accepted] (IX.1 = Azusa Street & Early Pentecostalism, 1906-1920s)",
+   "VII.5 influenced this [Widely Accepted] (VII.5 = The Methodist Revival, 1738-1815)",
+   "VIII.2 influenced this [Dominant Modern Reconstruction] (VIII.2 = The Second Great Awakening & Camp-Meeting Tradition, 1795-1840)",
+   "VIII.34 gave rise to this [Dominant Modern Reconstruction] (VIII.34 = Nineteenth-Century Methodism, 1815-1906)",
+   "this influenced VIII.6 [Dominant Modern Reconstruction] (VIII.6 = The Salvation Army, 1865-1906)"
+  ],
+  "statusDescription": "Tiered Viable, secondary (Tier 2) on evidence that is rich, testimony-native and unusually women-prominent, Phoebe Palmer's parlor serving as the movement's engine. Keswick sits in this entry's orbit rather than as its own row.",
+  "relationsSummary": "Grew out of Methodism's teaching on Christian perfection and became the immediate parent of Pentecostalism. The Keswick Convention, begun in 1875, carried the same current in a quieter, more Anglican form in Britain.",
+  "why": "In the 1830s, a New York doctor's wife named Phoebe Palmer simplified Methodist teaching on holiness into a step any believer could take at once, and her Tuesday afternoon parlor meeting ran for decades. Because believers were expected to testify to their own sanctification out loud, the movement's native literature is ordinary people's own accounts of what happened to them — none more striking than Amanda Berry Smith, born enslaved, who preached across England, India, and West Africa.",
+  "legacy": "It became a family of ongoing denominations — the Church of the Nazarene, the Wesleyan Church, the Free Methodist Church, the Church of God (Anderson) and others. And it is the immediate parent of Pentecostalism. The leaders, the vocabulary and the expectation of a second, transforming work of the Spirit all came out of Holiness circles into the Azusa Street revival of 1906. Through Keswick it also shaped a whole strand of evangelical devotional language, the deeper life and the surrendered will, that is still in use by people who have never heard the movement's name."
+ },
+ {
+  "id": "the-oxford-movement-and-anglo-catholic-revival",
+  "atlasId": "VIII.5",
+  "era": 9,
+  "name": "The Oxford Movement & Anglo-Catholic Revival",
+  "dates": "1833-1906",
+  "lane": "Protestant & Evangelical",
+  "currentFlag": true,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "VIII.5",
+    "id": "the-oxford-movement-and-anglo-catholic-revival",
+    "era": 9,
+    "living": true,
+    "end": 1906,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "VIII.30 gave rise to this [Widely Accepted] (VIII.30 = The Victorian Church of England, 1815-1906)",
+   "this influenced IX.52 [Widely Accepted] (IX.52 = The Anglican Communion in the Twentieth Century, 1906-c. 2010)"
+  ],
+  "statusDescription": "Tiered Strong (Tier 1) on tracts, memoirs, parish records and the sisterhoods' archives — the first Anglican women's orders since the Reformation. It has a renewal-inside relation, in both directions, with the Victorian Church of England entry; an Anglo-Catholic revival sits in the Protestant lane by inheritance.",
+  "relationsSummary": "Grew out of the high-church strand of the Church of England's post-Reformation settlement, as a renewal movement within the Victorian Church of England.",
+  "why": "In 1833 John Keble preached against Parliament's interference in the church, and a circle of Oxford dons began arguing in their Tracts for the Times that the Church of England was a branch of the ancient catholic church rather than a creature of the state. The next generation carried that argument into ordinary parishes — vestments, incense, weekly communion, and slum missions — at the cost of ritual prosecutions that sent a few priests to prison. It also revived something England had not had since the Reformation: women's religious orders, beginning with the Park Village sisterhood in 1845.",
+  "legacy": "Anglo-Catholicism became a lasting party inside Anglicanism, and it is still there, worldwide. Its ritual, its parish schools and its slum priests changed how an ordinary English church service looks and sounds. The religious orders it revived still exist. Its hymn-writers and translators put a great deal of ancient and medieval writing into English hymn books. Many people far outside its circles sing from them. Its scholars also put the early forms of Eastern worship into English. Newman went the other way and became a cardinal. The Roman Catholic Church made him a saint in 2019."
+ },
+ {
+  "id": "the-salvation-army",
+  "atlasId": "VIII.6",
+  "era": 9,
+  "name": "The Salvation Army",
+  "dates": "1865-1906",
+  "lane": "Protestant & Evangelical",
+  "currentFlag": true,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "VIII.6",
+    "id": "the-salvation-army",
+    "era": 9,
+    "living": true,
+    "end": 1906,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "VIII.34 gave rise to this [Dominant Modern Reconstruction] (VIII.34 = Nineteenth-Century Methodism, 1815-1906)",
+   "VIII.4 influenced this [Dominant Modern Reconstruction] (VIII.4 = The Holiness Movement, 1835-1906)"
+  ],
+  "statusDescription": "Tiered Viable, secondary (Tier 2) on a record that is rich and ordinary-facing by design, keeping statistics on every soul and soup bowl. Its note on the doctrinal floor stands: non-observance of the sacraments is a matter of practice, not creed, and raises no question of the floor itself.",
+  "relationsSummary": "Grew out of Methodism. It also took up the teaching of the Holiness movement.",
+  "why": "William Booth gave up his Methodist pulpit in 1861, and by 1865 he was preaching in the streets of London's East End. By 1878 his Christian Mission had renamed itself an Army, with ranks, uniforms, and brass bands to drown out hecklers. Catherine Booth had already argued in print, in 1859, that women had the right to preach, and the Army commissioned women as officers from the start. It counted everything it did, soul by soul and meal by meal. In 1890 it published its scheme for shelters and labor as In Darkest England.",
+  "legacy": "It is still here and still working, one of the largest charitable and religious organizations in the world, active in well over a hundred countries and running shelters, disaster relief, rehabilitation programs and thrift shops that many people use without ever thinking of it as a church. Its brass bands and its Christmas kettles became part of the ordinary furniture of public life in a dozen countries, and its model of organized, uniformed, professionally administered Christian social work was copied widely."
+ },
+ {
+  "id": "the-missionary-movement-s-native-churches-seramp",
+  "atlasId": "VIII.7",
+  "era": 9,
+  "name": "The Missionary Movement's Native Churches (Serampore India; Sierra Leone & the Niger; Pacific Islands; China Coast & CIM)",
+  "dates": "1793-1906",
+  "lane": "Protestant & Evangelical",
+  "currentFlag": true,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "VIII.7",
+    "id": "the-missionary-movement-s-native-churches-seramp",
+    "era": 9,
+    "living": true,
+    "end": 1906,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "VII.16 gave rise to this [Inferential-Thin] (VII.16 = The Baptists, 1609-1815)",
+   "VII.4 influenced this [Documented] (VII.4 = The Moravian Church at Herrnhut, 1722-1815)",
+   "VII.5 influenced this [Documented] (VII.5 = The Methodist Revival, 1738-1815)",
+   "this gave rise to IX.5 [Dominant Modern Reconstruction] (IX.5 = The Chinese Church - Indigenous & Suffering, 1920s-c. 2010)",
+   "this influenced IX.4 [Dominant Modern Reconstruction] (IX.4 = African-Initiated Churches (Harrist; Aladura; Zionist/ZCC; Kimbanguist), 1880s-c. 2010)",
+   "this gave rise to IX.26 [Widely Accepted] (IX.26 = Ratana Church & Pacific Adjustment Movements, 1925-c. 2010)"
+  ],
+  "statusDescription": "Tiered Strong (Tier 1), with its source asymmetry named plainly — the record is missionary-pen-weighted. Real native inside voices, Crowther's journals, Pastor Xi and the island teachers' narratives among them, must anchor any account of it. Its four named wings have fixed boundaries. Liberia sits inside its orbit, while East Africa, Madagascar and Alaska each have an entry of their own.",
+  "relationsSummary": "These churches grew out of Protestant mission societies. The societies learned from earlier Pietist, Moravian and Methodist missions. In 1792 William Carey wrote the appeal that led to the Baptist mission in India. In it he held up the Moravians as the model, and praised the Methodists' work. The churches the societies planted became parents of the faith that now grows fast across the global South. Their own converts soon went out to spread it too. Teachers from Polynesia carried it from island to island.",
+  "why": "Samuel Ajayi Crowther, freed as a boy from a slave ship, translated the Bible into Yoruba and in 1864 became the first African bishop in the Anglican Communion, only to be forced aside by his own missionary society in 1890. In the Pacific it was Polynesian teachers, not Europeans, who carried the faith from island to island, often at the cost of their lives, while in China the former opium addict known as Pastor Xi built a network of congregations he led himself. Across India, West Africa, the Pacific, and the China coast, churches planted by foreign missions were run and spread almost immediately by converts the missions had not planned for.",
+  "legacy": "Much of the Christianity of Africa, Asia and the Pacific comes from these churches. The global South is now the faith's center by numbers. The Anglican Church of Nigeria, the churches of South India, the Pacific island churches and the Chinese church all trace their roots to these years. The translation work left a second legacy nobody planned. Hundreds of languages got a written form, a grammar and printed books for the first time. That kept them alive as much as it kept any teaching alive. And the way Crowther was treated in his last years became a lesson African Christians learned well. It is one of the roots of the independent African churches of the next century."
+ },
+ {
+  "id": "the-haugean-awakening",
+  "atlasId": "VIII.8",
+  "era": 9,
+  "name": "The Haugean Awakening",
+  "dates": "1796-1842",
+  "lane": "Protestant & Evangelical",
+  "currentFlag": true,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "VIII.8",
+    "id": "the-haugean-awakening",
+    "era": 9,
+    "living": true,
+    "end": 1842,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "VII.2 influenced this [Dominant Modern Reconstruction] (VII.2 = German Pietism - Spener, Francke, Halle, 1675-1750)"
+  ],
+  "statusDescription": "Tiered deferred on a smaller frame, on Hauge's own 33 books and letters plus the friends'-societies records. It clearly outgrew its founder into a broad lay culture. Its window ends in 1842, the repeal of the Conventicle Act and the movement's own legal resolution.",
+  "relationsSummary": "It was a lay revival inside Norway's Lutheran state church. Modern biographers place it in the line of Pietism.",
+  "why": "In 1796 a Norwegian farmer's son named Hans Nielsen Hauge had a religious experience in his father's field and set out on foot to preach, defying a law that reserved religious meetings to the parish clergy. He wrote thirty-three books and founded mills and trading businesses to support the network of \"friends\" that grew around him, while the state answered by imprisoning him for most of the following decade. Those friends' societies kept meeting and trading long after his death in 1824, until the law he had defied was finally repealed in 1842.",
+  "legacy": "Haugean piety became one of the permanent layers of Norwegian Lutheranism: a lay preaching culture, a network of mission societies and prayer houses, and a suspicion of clerical monopoly that outlived the law it was reacting against. Norwegian emigrants carried it into the American Midwest, where Haugean congregations became one of the founding strands of Norwegian-American Lutheranism. In Norway today Hauge is honored about equally as a revivalist and as an entrepreneur, which would have puzzled almost nobody who knew him."
+ },
+ {
+  "id": "the-reveil-and-inner-mission-awakening",
+  "atlasId": "VIII.9",
+  "era": 9,
+  "name": "The Reveil & Inner-Mission Awakening",
+  "dates": "1815-1880",
+  "lane": "Protestant & Evangelical",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "VIII.9",
+    "id": "the-reveil-and-inner-mission-awakening",
+    "era": 9,
+    "living": false,
+    "end": 1880,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "VII.2 influenced this [Dominant Modern Reconstruction] (VII.2 = German Pietism - Spener, Francke, Halle, 1675-1750)",
+   "VII.4 influenced this [Dominant Modern Reconstruction] (VII.4 = The Moravian Church at Herrnhut, 1722-1815)"
+  ],
+  "statusDescription": "Tiered Viable, secondary (Tier 2) on a rich institutional and personal record; the deaconess motherhouses are a genuine women's tradition inside it. Whether this is one tradition or a set of national siblings is a real, open question. French Protestantism sits as named lines in its orbit rather than as its own segment. Its window ends c. 1880, not Wichern's death in 1881, which was considered and set aside as an alternative.",
+  "relationsSummary": "Modern historians trace it to older Pietist and Moravian lines.",
+  "why": "After the Napoleonic wars, awakened piety across Switzerland, France, the Netherlands, and Germany turned quickly into institutions: Johann Hinrich Wichern's Rauhes Haus for street children in Hamburg, opened in 1833, grew into a whole program of organized Christian social work. At Kaiserswerth in 1836, Theodor and Friederike Fliedner founded a deaconess motherhouse that trained women as nurses, and one of its visitors in 1851 was Florence Nightingale. Wichern also left something almost everyone has met without knowing it — he made the first Advent wreath, for the children in his care, in 1839.",
+  "legacy": "The Inner Mission became the German Diakonie, a Protestant social-service network. It is still one of the largest welfare groups in Europe. The deaconess model spread across the Protestant world and helped shape nursing as a profession. In the Netherlands, the secession of 1834 grew into a major strand of Reformed Christianity, and emigrants carried it to North America. How far the awakening shaped that secession is less clear. And Wichern left one thing almost everyone has met without knowing it. He made the first Advent wreath at the Rauhes Haus in 1839, so the children in his care could count the days to Christmas."
+ },
+ {
+  "id": "the-kollyvades-and-greek-renewal",
+  "atlasId": "VIII.12",
+  "era": 9,
+  "name": "The Kollyvades & Greek Renewal",
+  "dates": "1750s-1860s",
+  "lane": "Greek East & Orthodoxy",
+  "currentFlag": true,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "VIII.12",
+    "id": "the-kollyvades-and-greek-renewal",
+    "era": 9,
+    "living": true,
+    "end": 1860,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "I.3 influenced this [Documented] (I.3 = Desert Monasticism, c. 320–430 CE)",
+   "this influenced VIII.31 [Widely Accepted] (VIII.31 = The Russian Church — the Synodal Century, 1815-1906)"
+  ],
+  "statusDescription": "Tiered deferred on a smaller frame — moderate-to-rich, with new-martyr preparation documented as pastoral practice. Whether to merge it with the Paisian revival or keep it separate is a real, open question. It carries a sibling and renewal relation, not a direct identity, with the national-churches entry.",
+  "relationsSummary": "A sibling movement to the Paisian revival among Slavic Orthodox monks, part of the same broader eighteenth-century wave of ascetic renewal but a separate development within Greek Orthodoxy.",
+  "why": "The dispute began over which day to hold memorial services for the dead, and the monks who insisted on the older practice were mocked with a nickname for the boiled wheat served at them. What they produced was serious: a 1782 anthology of Greek ascetic writing on prayer, the Philokalia, and an argument for frequent communion against a general practice of receiving only once or twice a year. Under Ottoman rule they also prepared, deliberately and pastorally, people who expected to be executed for refusing to convert, and wrote up their deaths in a New Martyrologion in 1799.",
+  "legacy": "The Philokalia went straight out of Greek. Paisius Velichkovsky translated it into Slavonic in 1793, Theophan the Recluse into Russian later in the century, and English translations in the twentieth century put it into the hands of readers with no Orthodox background at all. Frequent communion, the practice the Kollyvades were mocked for, is now ordinary across most of the Orthodox world. The movement is generally read as the seed of the modern Greek Orthodox revival, and its leading figures have since been canonized by the church that once expelled them."
+ },
+ {
+  "id": "latter-day-saints-lds",
+  "atlasId": "VIII.14",
+  "era": 9,
+  "name": "Latter-day Saints (LDS)",
+  "dates": "1830-1906",
+  "lane": "Non-Nicene Traditions",
+  "currentFlag": true,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "VIII.14",
+    "id": "latter-day-saints-lds",
+    "era": 9,
+    "living": true,
+    "end": 1906,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [],
+  "statusDescription": "Carries a named creedal question for a future survey to answer - stated as a question, not a verdict.",
+  "relationsSummary": "-",
+  "why": "In 1830, Joseph Smith published the Book of Mormon, which he said he had translated from golden plates shown to him by an angel, and organized a church around it in western New York. Driven out of Ohio, Missouri, and Illinois, where a mob killed Smith in 1844, his followers crossed the plains under Brigham Young from 1847 and built the Salt Lake settlements largely from scratch. The nineteenth-century church practiced plural marriage openly from 1852 until its president renounced it in 1890, a history its members documented in extraordinary detail, from the Relief Society's minute book to Eliza R. Snow's trail diaries.",
+  "legacy": "It is a large and growing worldwide church, headquartered in Salt Lake City, with millions of members on every continent and one of the most extensive volunteer missionary programs of any religious body. Its genealogical archives, built for its own theological reasons, have become a resource used by family historians of every background in the world. And its settlement pattern is still legible on the ground: grid-plan towns, irrigation canals and ward meetinghouses across the American Intermountain West."
+ },
+ {
+  "id": "jehovah-s-witnesses-bible-students",
+  "atlasId": "VIII.15",
+  "era": 9,
+  "name": "Jehovah's Witnesses (Bible Students)",
+  "dates": "1870s-1906",
+  "lane": "Non-Nicene Traditions",
+  "currentFlag": true,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "VIII.15",
+    "id": "jehovah-s-witnesses-bible-students",
+    "era": 9,
+    "living": true,
+    "end": 1906,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [],
+  "statusDescription": "Carries a named creedal question for a future survey to answer - stated as a question, not a verdict.",
+  "relationsSummary": "-",
+  "why": "In the early 1870s Charles Taze Russell, a clothing merchant in Pittsburgh, gathered a small circle to study the Bible. They aimed to read it free of the teaching handed down by the churches. In 1879 he began the magazine that grew into a network of Bible Students in many countries. They handed out Russell's six-volume Studies in the Scriptures by the million. They went door to door as colporteurs, traveling sellers of religious books. In doing so they built a record of their own growth that is unusually full for a movement of its size. The name Jehovah's Witnesses, and the central body the movement is known for today, came only after Russell's death in 1916.",
+  "legacy": "It became one of the most recognizable religious movements in the world. Several million active members in nearly every country, still organized around door-to-door work and one of the largest religious publishing operations anywhere, in hundreds of languages. Its members' refusals — of military service, of flag salutes, of blood transfusions — produced a long series of court cases, and some of the resulting judgments, particularly in the United States, became landmark free-speech and religious-liberty precedents that now protect everyone."
+ },
+ {
+  "id": "christian-science",
+  "atlasId": "VIII.16",
+  "era": 9,
+  "name": "Christian Science",
+  "dates": "1875-1906",
+  "lane": "Non-Nicene Traditions",
+  "currentFlag": true,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "VIII.16",
+    "id": "christian-science",
+    "era": 9,
+    "living": true,
+    "end": 1906,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [],
+  "statusDescription": "Carries a named creedal question for a future survey to answer - stated as a question, not a verdict.",
+  "relationsSummary": "-",
+  "why": "After a recovery in 1866 that she attributed to reading the Gospels, Mary Baker Eddy spent nine years working out what she had understood and published it in 1875 as Science and Health. Her congregations have no ordained clergy and no sermons in the usual sense — two lay readers read the same lesson from the Bible and her book in every branch church in the world on a given Sunday. The practitioners who did most of the movement's actual work, then as later, were overwhelmingly women, and their printed healing testimonies are its characteristic literature.",
+  "legacy": "It is an ongoing denomination, much smaller now than at its height, with branch churches and reading rooms in many cities and its landmark complex in Boston. Its most widely felt legacy is a newspaper. The Christian Science Monitor, founded by Eddy in 1908 in her late eighties, became a respected international daily that has won multiple Pulitzer Prizes and is read by people with no connection to the church at all. Its position on medical treatment has also been the subject of repeated legal and public debate over the years, particularly where children are concerned."
+ },
+ {
+  "id": "christadelphians",
+  "atlasId": "VIII.17",
+  "era": 9,
+  "name": "Christadelphians",
+  "dates": "1848-1906",
+  "lane": "Non-Nicene Traditions",
+  "currentFlag": true,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "VIII.17",
+    "id": "christadelphians",
+    "era": 9,
+    "living": true,
+    "end": 1906,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [],
+  "statusDescription": "Carries a named creedal question for a future survey to answer - stated as a question, not a verdict.",
+  "relationsSummary": "-",
+  "why": "John Thomas, an English doctor who survived a shipwreck on his way to America in 1832, resolved to work out the Bible's teaching for himself rather than take it on any church's authority, and set it out in Elpis Israel in 1848. His followers organized into small congregations called ecclesias, with no clergy and members teaching and presiding in turn, and in 1864 took the name Christadelphians largely so they could claim conscientious-objector status in the American Civil War. Robert Roberts gave them a magazine that has run continuously since that year and a statement of faith they still use.",
+  "legacy": "It continues as a small worldwide body — tens of thousands of people in autonomous ecclesias across Britain, North America, Australia, Africa and elsewhere — with no clergy, no central headquarters, the same statement of faith, and a magazine published without a break since 1864. Its tradition of conscientious objection outlasted the war it was named for. Christadelphians were among the recognized objectors in both world wars, and their case files are part of the legal record of conscience in Britain and the United States."
+ },
+ {
+  "id": "catholic-apostolic-church-irvingites",
+  "atlasId": "VIII.18",
+  "era": 9,
+  "name": "Catholic Apostolic Church (Irvingites)",
+  "dates": "1832-1901",
+  "lane": "Protestant & Evangelical",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "VIII.18",
+    "id": "catholic-apostolic-church-irvingites",
+    "era": 9,
+    "living": false,
+    "end": 1901,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [],
+  "statusDescription": "Carries a named creedal question for a future survey to answer - stated as a question, not a verdict.",
+  "relationsSummary": "A German branch broke away in 1863, specifically to keep calling new apostles, and became the New Apostolic Church, which today has millions of members, mostly in Africa and Europe.",
+  "why": "Between 1830 and 1831, members of Edward Irving's fashionable London congregation began speaking in tongues and prophesying, convinced that Christ's return was near, and the church that grew out of it restored twelve apostles to prepare for it. Because the apostles were held to be irreplaceable, no successors were ever ordained, and as they died one by one the church's ministry simply ran out. When the last apostle died in February 1901, its congregations entered what they called the time of silence, continuing to worship with no one left who could ordain anyone.",
+  "legacy": "The liturgy outlived the church that wrote it. Scholars of worship studied it long after the congregations fell silent, and it drew on Eastern, Roman and Anglican sources in a combination nobody else had attempted. Its buildings survive and are still in use by other congregations — the great church in Gordon Square, London, is Grade I listed. And a German branch that broke away in 1863 precisely because it wanted to keep calling new apostles became the New Apostolic Church, which today has millions of members, mostly in Africa and Europe. The original body itself has no ministry left and, by its own theology, cannot acquire one."
+ },
+ {
+  "id": "oneida-community",
+  "atlasId": "VIII.19",
+  "era": 9,
+  "name": "Oneida Community",
+  "dates": "1848-1881",
+  "lane": "Non-Nicene Traditions",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "VIII.19",
+    "id": "oneida-community",
+    "era": 9,
+    "living": false,
+    "end": 1881,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [],
+  "statusDescription": "Carries a named creedal question for a future survey to answer - stated as a question, not a verdict.",
+  "relationsSummary": "-",
+  "why": "In 1848, John Humphrey Noyes gathered a community at Oneida in upstate New York to live as though sin were already conquered, replacing marriage with what they called complex marriage and submitting to a formal system of group criticism. They also worked hard at manufacturing, making animal traps, silk thread, and eventually tableware, to pay their way. Under outside pressure Noyes left for Canada in 1879, and in 1881 the community voted itself out of existence and became a joint-stock company instead.",
+  "legacy": "As a religious body it left nothing — no successor community, no continuing church, no doctrinal descendants. As a business it left a great deal. Oneida Limited became one of the best-known tableware manufacturers in the world, and its flatware sat on ordinary tables for generations without the faintest hint of where it came from. The Mansion House the community built still stands and is a National Historic Landmark, run as a museum and inn."
+ },
+ {
+  "id": "spiritualism-new-thought",
+  "atlasId": "VIII.20",
+  "era": 9,
+  "name": "Spiritualism / New Thought",
+  "dates": "1848-1906",
+  "lane": "Non-Nicene Traditions",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "VIII.20",
+    "id": "spiritualism-new-thought",
+    "era": 9,
+    "living": false,
+    "end": 1906,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [],
+  "statusDescription": "Outside the Constitution's own sense of a Christian movement — named and explained, never silently dropped.",
+  "relationsSummary": "-",
+  "why": "In March 1848, two young sisters in a farmhouse at Hydesville, New York, said they were communicating with the dead through rapping sounds, and within a few years séances and spirit circles had spread through the United States and Britain. Running alongside it was New Thought, a family of teachers descended from the Maine healer Phineas Quimby who held that right thinking heals. Both movements borrowed heavily from Christian vocabulary but grew up alongside the churches rather than inside them, and neither teaches specifically Christian doctrine.",
+  "legacy": "Spiritualist churches still exist in Britain and the United States, and the effort to test their claims scientifically produced the Society for Psychical Research in 1882 and, indirectly, a whole field of investigation. New Thought became ongoing denominations — Unity, Religious Science and their relatives — but its far larger legacy escaped religion altogether. Its language of mind over circumstance runs straight into twentieth-century positive-thinking, self-help and prosperity literature read by millions who have never heard of Quimby."
+ },
+ {
+  "id": "korean-catholic-origins",
+  "atlasId": "VIII.21",
+  "era": 9,
+  "name": "Korean Catholic Origins",
+  "dates": "1784-1886",
+  "lane": "Latin West & Catholicism",
+  "currentFlag": true,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "VIII.21",
+    "id": "korean-catholic-origins",
+    "era": 9,
+    "living": true,
+    "end": 1886,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "VI.13c influenced this [Dominant Modern Reconstruction] (VI.13c = Mission-Born Christianity in Ming China, 1583-1650)"
+  ],
+  "statusDescription": "Tiered Strong (Tier 1) on martyrs' letters and trial records - a pre-missionary church documented by the missionaries who finally reached it. Its window ends in 1886, the France-Korea treaty and the end of the persecution era; the 1886-1904 gap that follows is disclosed for a later entry, not absorbed here.",
+  "relationsSummary": "Korea's Catholic Church was begun by lay scholars before any priest came. That makes it a rare case in the church's long history. Roughly ten thousand of its people died as martyrs in the persecutions that followed. Protestant missionaries came to Korea a hundred years after it began, from 1884.",
+  "why": "Korea is the only country where the Catholic Church began without a missionary: in the late eighteenth century a circle of Confucian scholars near Seoul studied Chinese-language Catholic books, convinced themselves, and sent Yi Sung-hun to Beijing to be baptized in 1784. He came home and baptized the rest, and the church he founded was written in Korean from the start, reaching women, servants, and the poor as fast as the educated elite. The Choson state read it as treason against the Confucian order, and roughly ten thousand Korean Catholics were killed in successive purges between 1801 and 1866.",
+  "legacy": "It became one of the largest and most active Catholic communities in Asia — several million people in South Korea today, in a church that still traces its beginning to laypeople rather than clergy and takes considerable pride in the fact. In 1984 Pope John Paul II canonized 103 of its martyrs in Seoul itself rather than in Rome, and further beatifications followed in 2014. The execution grounds are now national shrines, and the martyrs' letters and trial testimony remain among the most vivid first-person religious documents anywhere in nineteenth-century Asia."
+ },
+ {
+  "id": "laestadianism-and-the-nordic-revivals",
+  "atlasId": "VIII.22",
+  "era": 9,
+  "name": "Laestadianism & the Nordic Revivals",
+  "dates": "1844-1906",
+  "lane": "Protestant & Evangelical",
+  "currentFlag": true,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "VIII.22",
+    "id": "laestadianism-and-the-nordic-revivals",
+    "era": 9,
+    "living": true,
+    "end": 1906,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "VII.2 influenced this [Inferential-Thin] (VII.2 = German Pietism - Spener, Francke, Halle, 1675-1750)"
+  ],
+  "statusDescription": "Tiered Viable, secondary (Tier 2) on sermons, movement periodicals and later oral histories; its Sami dimension carries real marginalized-voice value. Its window ends in 1906, not the round number 1900. The Swedish low-church revivals sit inside its Nordic plural deliberately, not by accident.",
+  "relationsSummary": "Laestadianism is often counted as a late branch of Pietism in the Lutheran north. It is marked by spoken absolution between believers, and its communities are still alive today. The Swedish low-church revivals are counted alongside it, as part of the same wider Nordic revival. Carl Olof Rosenius led one, and the mission society he helped inspire formed in 1856. P. P. Waldenström led another, and the Mission Covenant Church came out of it in 1878.",
+  "why": "Lars Levi Laestadius, a Swedish Lutheran pastor and botanist of partly Sami descent, had his preaching changed entirely by an 1844 conversation with a young Sami woman he called Mary, and the revival that followed carried fierce, local-language preaching and an end to drinking through Sami and Finnish parishes. Its most distinctive practice is confession and absolution spoken face to face between ordinary believers, rather than pronounced from a pulpit. The same century's low-church revivals in Sweden, led by Carl Olof Rosenius and P. P. Waldenström, are counted as part of the same Nordic movement.",
+  "legacy": "Laestadian groups still meet across the far north of Finland, Sweden and Norway. They meet in the upper Midwest of the United States too, among the heirs of those who left. Today they form a number of branches, and most hold to the old ways. Few revivals in Europe have won so many indigenous people, and Sami is still a tongue of its preaching. The Swedish revivals left their own bodies as well. One is the mission society Rosenius helped inspire. Another is the Mission Covenant Church. Its cousin in America took the name Evangelical Covenant Church."
+ },
+ {
+  "id": "plymouth-brethren-and-dispensational-formation",
+  "atlasId": "VIII.23",
+  "era": 9,
+  "name": "Plymouth Brethren & Dispensational Formation",
+  "dates": "1827-1906",
+  "lane": "Protestant & Evangelical",
+  "currentFlag": true,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "VIII.23",
+    "id": "plymouth-brethren-and-dispensational-formation",
+    "era": 9,
+    "living": true,
+    "end": 1906,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "this influenced IX.29 [Dominant Modern Reconstruction] (IX.29 = Dispensational Prophecy Culture, c. 1875-c. 2010)"
+  ],
+  "statusDescription": "Tiered Viable, secondary (Tier 2) on movement periodicals, Darby's vast corpus, assembly records and Müller's narratives. The 1848 Open/Exclusive division shows the body was never reducible to Darby, though the Exclusive wing's later Darby-centrism is the honest counter-note. Its window ends in 1906, not the round number 1900.",
+  "relationsSummary": "Child of evangelical dissent; via Scofield reshaped how millions read Scripture; influence on the Bible-institute tradition",
+  "why": "In the late 1820s a handful of Dublin Christians, among them a dentist, a lawyer, and a young curate named John Nelson Darby, began meeting to break bread together with no ordained clergy and no denominational name. Darby also worked out a scheme dividing history into dispensations and expecting Christ to remove the church before a final tribulation, a way of reading the Bible almost unknown before him. George Müller ran orphanages in Bristol for thousands of children on the principle of never asking anyone for money, publishing the accounts to prove it.",
+  "legacy": "Open and Exclusive assemblies exist worldwide to this day, and Müller's Bristol work continues as a charitable trust with a museum in one of the original orphan houses. But the movement's real reach is elsewhere: Darby's dispensational scheme, packaged in the notes of the Scofield Reference Bible from 1909 and taught in the Bible institutes, became the default end-times framework of American evangelicalism and lies behind most popular prophecy writing and preaching of the last hundred years — read by millions who have never heard of the Brethren."
+ },
+ {
+  "id": "the-sunday-school-and-bible-institute-movement",
+  "atlasId": "VIII.24",
+  "era": 9,
+  "name": "The Sunday School & Bible-Institute Movement",
+  "dates": "1780-c. 1900",
+  "lane": "Protestant & Evangelical",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "VIII.24",
+    "id": "the-sunday-school-and-bible-institute-movement",
+    "era": 9,
+    "living": false,
+    "end": 1900,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "VIII.23 influenced this [Dominant Modern Reconstruction] (VIII.23 = Plymouth Brethren & Dispensational Formation, 1827-1906)",
+   "this influenced IX.29 [Dominant Modern Reconstruction] (IX.29 = Dispensational Prophecy Culture, c. 1875-c. 2010)"
+  ],
+  "statusDescription": "Tiered Viable, secondary (Tier 2) on a rich institutional record with teachers' and students' memoirs. Whether this is a tradition, or a set of formation methods operating inside other traditions, is a real, open question. Its window ends c. 1900, a considered judgment, not a default; the entry makes no living-continuation claim that would call for a later cap.",
+  "relationsSummary": "A pair of lay-formation methods that worked at industrial scale, from Robert Raikes's Sunday schools (from 1780) to D. L. Moody's Bible institute model (from 1886).",
+  "why": "In 1780, a Gloucester newspaper owner named Robert Raikes hired four women to teach the town's factory children to read on their one free day, and publicized the results in his own paper until the idea spread across Britain and America. By the mid-nineteenth century, Sunday schools staffed almost entirely by unpaid women volunteers were teaching literacy alongside religion to millions of working-class children. A century later the same instinct produced the Bible institute — schools like D. L. Moody's in Chicago, opened in 1886, that trained ordinary lay people as evangelists and missionaries in a year or two.",
+  "legacy": "Sunday school became a near-universal feature of Protestant congregational life worldwide and stayed there. The graded, standardized lesson series invented in the 1870s is still the shape of most children's curricula. Historians credit the movement with a substantial share of working-class literacy in nineteenth-century Britain, for many children the only schooling they got. The Bible institutes turned into colleges, and their graduates staffed the twentieth-century missionary agencies, radio ministries and publishing houses that carried evangelical Christianity around the world."
+ },
+ {
+  "id": "the-student-volunteer-movement-and-edinburgh-191",
+  "atlasId": "VIII.25",
+  "era": 9,
+  "name": "The Student Volunteer Movement & Edinburgh 1910",
+  "dates": "1886-1920",
+  "lane": "Protestant & Evangelical",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "VIII.25",
+    "id": "the-student-volunteer-movement-and-edinburgh-191",
+    "era": 9,
+    "living": false,
+    "end": 1920,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "this gave rise to IX.46 [Widely Accepted] (IX.46 = The Ecumenical Movement & the World Council of Churches, 1921-c. 2010)",
+   "this influenced IX.63 [Widely Accepted] (IX.63 = Protestantism in Latin America, 1916-c. 2010)"
+  ],
+  "statusDescription": "Tiered Viable, secondary (Tier 2) on SVM records, volunteers' diaries and letters, and conference reports. The entry is named for Edinburgh 1910, an event that sits just outside its own era window.",
+  "relationsSummary": "Known by its watchword, \"the evangelization of the world in this generation.\" Its high point came at Edinburgh in 1910, at a great world meeting on mission. Two later movements claim that meeting as their root. One is the modern ecumenical movement, which works to bring churches together. The other is the wide world of evangelical mission groups that came later. A committee set up at Edinburgh kept its work going. In October 1921 it handed that work to a new body, the International Missionary Council.",
+  "why": "In the summer of 1886, a hundred students at a Massachusetts conference signed a declaration that they were willing to become foreign missionaries, and over the next thirty years the movement they founded sent roughly twenty thousand young Americans and Britons overseas under the watchword \"the evangelization of the world in this generation.\" Its summit was the 1910 World Missionary Conference in Edinburgh, where two of the few non-Western delegates said the necessary thing to the twelve hundred gathered: V. S. Azariah of India asked for friends rather than masters, and Cheng Jingyi of China asked for one Chinese church free of European denominational divisions.",
+  "legacy": "The committee set up at Edinburgh became the International Missionary Council in 1921. In 1961 the council joined the World Council of Churches. The modern ecumenical movement dates its own start to that room in Edinburgh. The same generation's zeal for preaching also went the other way. It went into the independent mission groups that grew all through the twentieth century. So two movements that spent the next hundred years mostly apart both claim one meeting as their root. The Student Volunteer Movement itself never got over the First World War. By the middle of the century it had in effect come to an end."
+ },
+ {
+  "id": "old-catholic-churches-union-of-utrecht",
+  "atlasId": "VIII.33",
+  "era": 9,
+  "name": "The Old Catholic Churches — Utrecht to the Union",
+  "dates": "1815-1906",
+  "lane": "Latin West & Catholicism",
+  "currentFlag": true,
+  "existingLivingEvidence": null,
+  "predecessors": [
+   {
+    "id": "church-of-utrecht",
+    "atlasId": "VII.25",
+    "confidence": "Documented"
+   }
+  ],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "VIII.33",
+    "id": "old-catholic-churches-union-of-utrecht",
+    "era": 9,
+    "living": true,
+    "end": 1906,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "VIII.29 broke with this [Documented] (VIII.29 = The Catholic Church of the Long Nineteenth Century, 1815-1906)",
+   "this in contact with VIII.30 [Documented] (VIII.30 = The Victorian Church of England, 1815-1906)",
+   "this in contact with VIII.31 [Documented] (VIII.31 = The Russian Church — the Synodal Century, 1815-1906)",
+   "this in contact with VIII.28 [Documented] (VIII.28 = Orthodoxy after 1821 — the National Churches, 1821-1906)"
+  ],
+  "statusDescription": "Proposed for a future survey; not yet reviewed.",
+  "relationsSummary": "Formed when German, Swiss and Austrian Catholics rejected the First Vatican Council's definition of papal infallibility. Ignaz von Döllinger was excommunicated in 1871, and Utrecht consecrated Joseph Hubert Reinkens as the first bishop of the German Old Catholics in 1873. In 1889 five bishops signed the Declaration of Utrecht, founding the Union of Utrecht.",
+  "why": "When German, Swiss and Austrian Catholics refused the pope's new claim to infallibility in 1870, an old Dutch church at Utrecht, out of communion with Rome since an eighteenth-century dispute but still holding valid bishops, consecrated one of their own. The five bishops who signed the 1889 Declaration of Utrecht professed the faith of the undivided church of the first thousand years, then dropped required celibacy for priests and put the liturgy into the language of the people.",
+  "legacy": "The Union of Utrecht is still there. It is a small family of national churches in the Netherlands, Germany, Switzerland, Austria, Poland and the Czech lands. Its most lasting work turned out to be ecumenical. In 1874 and 1875 Dollinger called meetings at Bonn that brought Old Catholic, Anglican and Orthodox theologians to one table. Their theses were a first attempt to set down the faith all three held in common. In 1931 the Old Catholics and the Church of England entered full communion by the Bonn Agreement."
+ },
+ {
+  "id": "nineteenth-century-methodism",
+  "atlasId": "VIII.34",
+  "era": 9,
+  "name": "Nineteenth-Century Methodism",
+  "dates": "1815-1906",
+  "lane": "Protestant & Evangelical",
+  "currentFlag": true,
+  "existingLivingEvidence": null,
+  "predecessors": [
+   {
+    "id": "the-methodist-revival",
+    "atlasId": "VII.5",
+    "confidence": "Widely Accepted"
+   }
+  ],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "VIII.34",
+    "id": "nineteenth-century-methodism",
+    "era": 9,
+    "living": true,
+    "end": 1906,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "this gave rise to VIII.4 [Dominant Modern Reconstruction] (VIII.4 = The Holiness Movement, 1835-1906)",
+   "this broke with VIII.1 [Documented] (VIII.1 = The Black Church in America, c. 1770s-1906)",
+   "this gave rise to VIII.6 [Dominant Modern Reconstruction] (VIII.6 = The Salvation Army, 1865-1906)",
+   "this gave rise to IX.4 [Dominant Modern Reconstruction] (IX.4 = African-Initiated Churches (Harrist; Aladura; Zionist/ZCC; Kimbanguist), 1880s-c. 2010)"
+  ],
+  "statusDescription": "Proposed for a future survey; not yet reviewed.",
+  "relationsSummary": "British Wesleyan Methodism consolidated into a settled denomination. The Primitive Methodists formed after the 1807 Mow Cop camp meeting, becoming a settled connexion by 1811-12, known for their women itinerant preachers and working-class base. In America, the Methodist family split into northern and southern churches in 1844 over slavery, after Black Methodists had already formed their own churches, the African Methodist Episcopal Church in 1816 and the AME Zion Church in 1821.",
+  "why": "Methodism split repeatedly as it grew. In Britain, working-class converts who found the Wesleyan church too respectable formed the Primitive Methodists after an 1807 camp meeting, sending women itinerant preachers into the pit villages, while in America, Black Methodists refused equal standing built their own churches, the African Methodist Episcopal Church in 1816 and the AME Zion Church in 1821, years before slavery split the wider American church in two.",
+  "legacy": "Methodism became one of the largest Protestant families in the world: the United Methodist Church and British Methodism, the AME, AME Zion and CME churches, and Methodist churches across Africa and Asia all descend from this century's expansion. Its machinery outlasted it too — the class meeting, the itinerant preacher, the connexional conference. So did its conviction that holiness is meant to be practical and available now, which passed through the Holiness movement into Pentecostalism and from there into a very large share of world Christianity."
+ },
+ {
+  "id": "nineteenth-century-baptists",
+  "atlasId": "VIII.35",
+  "era": 9,
+  "name": "Nineteenth-Century Baptists",
+  "dates": "1815-1906",
+  "lane": "Protestant & Evangelical",
+  "currentFlag": true,
+  "existingLivingEvidence": null,
+  "predecessors": [
+   {
+    "id": "the-baptists",
+    "atlasId": "VII.16",
+    "confidence": "Widely Accepted"
+   }
+  ],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "VIII.35",
+    "id": "nineteenth-century-baptists",
+    "era": 9,
+    "living": true,
+    "end": 1906,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [],
+  "statusDescription": "Proposed for a future survey; not yet reviewed.",
+  "relationsSummary": "Spurgeon preached to thousands each week at the Metropolitan Tabernacle in London. In 1845 the split over slavery gave birth to the Southern Baptist Convention. Landmarkism traced an unbroken line of true Baptist churches back to the apostles. Late in the century Spurgeon left the Baptist Union. He called the fight the Down-Grade. He was sure his fellow ministers were giving up old truths.",
+  "why": "Baptists never agreed to be governed from anywhere. Yet in London one preacher, Charles Haddon Spurgeon, drew thousands each week and sold his printed sermons by the million. Late in life he broke with the Baptist Union over what he called the Down-Grade. He was sure his fellow ministers were quietly giving up what they had been ordained to preach. Forty years before, in 1845, American Baptists had split. Southern churches had been refused when they put forward a slaveholder as a missionary.",
+  "legacy": "The bodies formed in this century are still the shape of Baptist life. The Southern Baptist Convention became the largest Protestant denomination in the United States. The Baptist Union of Great Britain and its sister bodies carry on. Spurgeon's sermons have never gone out of print. Two older Baptist lines also ran on through these years. The Black Baptist churches of America go back to the 1770s. William Carey's Baptist mission society was founded in 1792. In his own call for it, Carey said no one had matched the Moravians as missionaries."
+ },
+ {
+  "id": "nineteenth-century-quakerism-separations",
+  "atlasId": "VIII.36",
+  "era": 9,
+  "name": "Nineteenth-Century Quakerism — the Separations",
+  "dates": "1815-1906",
+  "lane": "Protestant & Evangelical",
+  "currentFlag": true,
+  "existingLivingEvidence": null,
+  "predecessors": [
+   {
+    "id": "the-quakers-religious-society-of-friends",
+    "atlasId": "VII.1",
+    "confidence": "Widely Accepted"
+   }
+  ],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "VIII.36",
+    "id": "nineteenth-century-quakerism-separations",
+    "era": 9,
+    "living": true,
+    "end": 1906,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [],
+  "statusDescription": "Proposed for a future survey; not yet reviewed.",
+  "relationsSummary": "The Hicksite separation of 1827–28 was the defining split of the century for the Society of Friends. It was followed by a further division between the evangelical Gurneyite and conservative Wilburite wings, and by a pastoral-system revival that introduced planned worship and paid ministers to part of the movement.",
+  "why": "Friends split first in 1827-28 over Elias Hicks' teaching that the Inward Light, not the Bible or a doctrine of atonement, stood at the heart of the faith, then split again between evangelical and conservative wings. Out of the evangelical stream came something Quakers had never had before: revival meetings, planned worship, and paid pastors, so that by the century's end some meetings sat in silence while others sang hymns and listened to sermons.",
+  "legacy": "All three streams are still here: the pastoral, evangelical Friends who are now the majority of Quakers worldwide — most of them in Kenya and Latin America. The unprogrammed liberal meetings, and the small conservative bodies that kept the older ways. Friends' public work outlasted their divisions. The peace testimony survived the separations intact, the relief agencies that grew from it were jointly awarded the Nobel Peace Prize in 1947, and the Quaker practice of seeking the sense of a meeting rather than counting votes has been borrowed far outside the Society."
+ },
+ {
+  "id": "american-unitarianism-universalism-consolidations",
+  "atlasId": "VIII.37",
+  "era": 9,
+  "name": "American Unitarianism & Universalism — the Consolidations",
+  "dates": "1819-1906",
+  "lane": "Non-Nicene Traditions",
+  "currentFlag": true,
+  "existingLivingEvidence": null,
+  "predecessors": [
+   {
+    "id": "early-american-unitarians-universalists",
+    "atlasId": "VII.27",
+    "confidence": "Documented"
+   }
+  ],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "VIII.37",
+    "id": "american-unitarianism-universalism-consolidations",
+    "era": 9,
+    "living": true,
+    "end": 1906,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [],
+  "statusDescription": "Proposed for a future survey; not yet reviewed.",
+  "relationsSummary": "In 1819 William Ellery Channing gave a sermon in Baltimore. It set out what the liberals held, and it spoke out against the Trinity. On 25 May 1825 they formed the American Unitarian Association. The Universalists built their conventions on a track of their own. A third strain went further still. The Transcendentalists left more Christian doctrine behind than most of their elders would.",
+  "why": "The Universalists built their movement on a single conviction, that God would in the end save everyone, while the Unitarians organized around William Ellery Channing's 1819 sermon and an explicit rejection of the Trinity. A generation later, Ralph Waldo Emerson pushed further still, leaving the pulpit to tell Harvard's divinity students in 1838 to seek religion in intuition and nature rather than historical revelation.",
+  "legacy": "Both bodies survived, and in 1961 merged into the Unitarian Universalist Association, still a functioning denomination in North America. Their wider mark is out of proportion to their numbers. The Transcendentalists' essays became a permanent part of American literature, and the causes the movement threw itself into — abolition, public education, humane treatment of prisoners and the mentally ill. Long outlived the theological arguments that produced them."
+ },
+ {
+  "id": "confessional-lutheran-revival-emigrations",
+  "atlasId": "VIII.41",
+  "era": 9,
+  "name": "The Confessional Lutheran Revival & the Emigrations",
+  "dates": "1817-1906",
+  "lane": "Protestant & Evangelical",
+  "currentFlag": true,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "VIII.41",
+    "id": "confessional-lutheran-revival-emigrations",
+    "era": 9,
+    "living": true,
+    "end": 1906,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "VI.1 influenced this [Documented] (VI.1 = Lutheran Wittenberg & Its Congregations, 1517-1580)"
+  ],
+  "statusDescription": "Proposed for a future survey; not yet reviewed.",
+  "relationsSummary": "In 1817 the Prussian Union forced Lutheran and Reformed churches to merge. Old Lutherans who would not join were hounded, and some left for Australia. In 1838 a separate group of Saxon Lutherans sailed for America. Out of that group came the Missouri Synod in 1847. In Germany the same instinct led to a new school of Lutheran thought at Erlangen. It also drove the work of Wilhelm Löhe at Neuendettelsau.",
+  "why": "When Prussia's king ordered Lutheran and Reformed churches merged in 1817, some Lutherans chose exile instead. Whole congregations sailed for South Australia rather than give in. A separate group of Saxon Lutherans reached Missouri in the same years. Within months it had to depose its own leader for misconduct. Out of that chastened remnant C. F. W. Walther built the Missouri Synod of 1847. It was a church where you belonged only if you signed the old confessions.",
+  "legacy": "The churches this produced are on three continents still: the Lutheran Church-Missouri Synod and the Wisconsin Synod in North America, the Lutheran Church of Australia, and the independent Lutheran churches of Germany. Their parochial schools became one of the largest Protestant school systems in the United States. The wider legacy is a pattern rather than an institution. A church defined by a written confession rather than by a state, a nation or a revival, which became one of the standing options in Protestant life and remains an argument Protestants have with each other."
+ },
+ {
+  "id": "malagasy-christianity",
+  "atlasId": "VIII.42",
+  "era": 9,
+  "name": "Malagasy Christianity — the Self-Carried Church",
+  "dates": "1818-1895",
+  "lane": "Africa",
+  "currentFlag": true,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "VIII.42",
+    "id": "malagasy-christianity",
+    "era": 9,
+    "living": true,
+    "end": 1895,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [],
+  "statusDescription": "Proposed for a future survey; not yet reviewed.",
+  "relationsSummary": "The London Missionary Society arrived in 1818/1820, and the first baptisms took place in 1831. Queen Ranavalona I banned Christianity in 1835, and Rasalama was martyred in 1837. The church then grew for twenty-five years with no missionaries at all. Ranavalona II converted in 1869, and the French conquest of 1895-96 ended the kingdom that housed the church.",
+  "why": "Missionaries gave Madagascar's language its first written form and, by 1835, a complete Bible, the same year Queen Ranavalona I banned Christianity outright and drove them out. For the next quarter-century believers had no foreign clergy at all, only the Bible and hymns they had been left, and when missionaries were finally allowed back they found far more Christians than they had left behind.",
+  "legacy": "Most people in Madagascar are still Christians. The churches grown from this time remain among the island's largest bodies. Four memorial churches stand in the capital, Antananarivo, on the spots where believers were killed. The story also went far beyond the island. Sermons and mission magazines told it again and again in the 1800s. It became their standard example of a church that held together with no clergy and no protection at all."
+ },
+ {
+  "id": "taiping-heavenly-kingdom",
+  "atlasId": "VIII.44",
+  "era": 9,
+  "name": "The Taiping Heavenly Kingdom",
+  "dates": "1850-1864",
+  "lane": "Non-Nicene Traditions",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "VIII.44",
+    "id": "taiping-heavenly-kingdom",
+    "era": 9,
+    "living": false,
+    "end": 1864,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "VIII.7 influenced this [Dominant Modern Reconstruction] (VIII.7 = The Missionary Movement's Native Churches (Serampore India; Sierra Leone & the Niger; Pacific Islands; China Coast & CIM), 1793-1906)"
+  ],
+  "statusDescription": "Proposed for a future survey; not yet reviewed.",
+  "relationsSummary": "Hong Xiuquan and his cousin Feng Yunshan gathered the God Worshippers in Guangxi. In 1851 they declared the Heavenly Kingdom. They took Nanjing in 1853 and held it until 1864. The war to crush them cost some twenty million lives. It was the largest movement of the century built on Christian ideas, and its worst disaster. It left no church behind. But it left many Chinese wary of Christianity, and later missionaries met that fear everywhere.",
+  "why": "Hong Xiuquan, a village schoolteacher who had failed China's imperial examinations four times, came to believe after rereading a Christian tract that he was God's second son and the younger brother of Jesus Christ. The kingdom he and his followers built on that conviction banned opium and footbinding, held land in common, and lasted eleven years before the war fought to destroy it killed an estimated twenty million people.",
+  "legacy": "The Heavenly Kingdom left no church. Its institutions were destroyed with it in 1864 and no continuing body traces its descent from Hong Xiuquan. What it left instead was consequence. The Qing dynasty was permanently weakened by the war and by the regional armies raised to win it; the lower Yangtze countryside took generations to recover. And Chinese officials and villagers alike had been handed a reason to associate Christianity with rebellion and mass death, a suspicion that later missionaries met everywhere they went. Later Chinese revolutionaries, Sun Yat-sen among them, looked back on the Taiping as forerunners, and the movement remains a fixture of Chinese historical memory and museum display."
+ },
+ {
+  "id": "haitian-church-rupture-to-concordat",
+  "atlasId": "VIII.46",
+  "era": 9,
+  "name": "The Haitian Church — Rupture to Concordat",
+  "dates": "1804-1860",
+  "lane": "Latin West & Catholicism",
+  "currentFlag": true,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "VIII.46",
+    "id": "haitian-church-rupture-to-concordat",
+    "era": 9,
+    "living": true,
+    "end": 1860,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "VIII.29 broke with this [Dominant Modern Reconstruction] (VIII.29 = The Catholic Church of the Long Nineteenth Century, 1815-1906)"
+  ],
+  "statusDescription": "Proposed for a future survey; not yet reviewed.",
+  "relationsSummary": "Haiti's church was cut off from Rome for the whole time after independence in 1804. Almost no priests trained under Rome arrived, and the state ran the church. In that gap a religious life that joined Catholic and Vodou practice took shape. A concordat signed on 28 March 1860 ended the break.",
+  "why": "For fifty-six years after independence, Haiti's parishes were served by men of irregular standing, some genuine priests under suspension, some who had simply taken the title, since Rome refused to recognize the new republic at all. In that long vacancy, Catholic sacraments and feast days wove together with Vodou practice inherited from West Africa into a religious life most Haitians have held as one thing rather than two.",
+  "legacy": "The hierarchy the 1860 concordat established is still the framework of the Haitian Catholic Church, the country's largest institution. The creole religious world formed during the schism is also still there, and the church's relationship to it — stretches of quiet accommodation alternating with campaigns to stamp it out, most violently the anti-superstition drives of the 1940s — has been one of the defining questions of Haitian religion ever since."
+ },
+ {
+  "id": "alaskan-mission-herman-veniaminov",
+  "atlasId": "VIII.47",
+  "era": 9,
+  "name": "The Alaskan Mission — Herman’s Decades & Veniaminov",
+  "dates": "1824-1906",
+  "lane": "Greek East & Orthodoxy",
+  "currentFlag": true,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "VIII.47",
+    "id": "alaskan-mission-herman-veniaminov",
+    "era": 9,
+    "living": true,
+    "end": 1906,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "VIII.31 gave rise to this [Documented] (VIII.31 = The Russian Church — the Synodal Century, 1815-1906)",
+   "this gave rise to IX.48 [Inferential-Thin] (IX.48 = American Orthodoxy — Autocephaly & the Convert Wave, 1970-c. 2010)"
+  ],
+  "statusDescription": "Proposed for a future survey; not yet reviewed.",
+  "relationsSummary": "Veniaminov reached Unalaska in 1824 and created Aleut and Tlingit alphabets and translations. Herman lived out his last decades as a hermit, dying in 1836. Veniaminov was made bishop, taking the name Innocent, in 1840. After Russia sold Alaska in 1867, the church stayed on as a native church under its own Alaska Native clergy.",
+  "why": "Herman, a hermit monk on Spruce Island, spent his last decades fighting the Russian trading company over its treatment of the Alutiiq children in the school and orphanage he ran for them. Ioann Veniaminov, arriving at nearby Unalaska in 1824, gave Aleut its first alphabet and translated Scripture into it, and when Russia sold Alaska in 1867 and went home, the church he helped build stayed on, kept alive by Alaska Native clergy in their own languages.",
+  "legacy": "Orthodoxy is still a living Alaska Native tradition, with dozens of parishes serving villages across the Aleutians, the Kodiak archipelago and the Yukon-Kuskokwim delta, many of them keeping services in Yup'ik, Aleut and Tlingit alongside English. The mission also became the root of Orthodoxy in North America as a whole. The diocese Veniaminov founded moved its seat to San Francisco and then to New York, and is the ancestor of today's Orthodox Church in America. Herman's grave on Spruce Island is still a place of pilgrimage."
+ },
+ {
+  "id": "dutch-neo-calvinism-secession-churches",
+  "atlasId": "VIII.50",
+  "era": 9,
+  "name": "Dutch Neo-Calvinism & the Secession Churches",
+  "dates": "1834-1906",
+  "lane": "Protestant & Evangelical",
+  "currentFlag": true,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "VIII.50",
+    "id": "dutch-neo-calvinism-secession-churches",
+    "era": 9,
+    "living": true,
+    "end": 1906,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [],
+  "statusDescription": "Proposed for a future survey; not yet reviewed.",
+  "relationsSummary": "The Afscheiding secession of 1834 led American emigrants to found the Christian Reformed Church in North America in 1857. Abraham Kuyper led a second secession, the Doleantie, in 1886, founded the Free University in 1880, and brought the two streams together in the 1892 union that formed the Gereformeerde Kerken in Nederland.",
+  "why": "When Hendrik de Cock's congregation walked out of the Dutch national church in 1834, the state fined them and billeted soldiers on them for holding illegal services. Fifty years later Abraham Kuyper led a second, larger secession on a bigger idea, that Christ's claim covers every sphere of life, each with its own proper authority, and built a university, a newspaper and a political party to carry it out rather than withdraw from society or dissolve into it.",
+  "legacy": "The churches are still here: the Dutch Reformed families at home, most of them since 2004 inside the Protestant Church in the Netherlands, and in North America the Christian Reformed Church with its schools and colleges. Kuyper's larger idea traveled furthest. Sphere sovereignty and a Christian worldview applied to scholarship, politics and the arts became a standing tradition in Reformed thought and shaped a great deal of evangelical higher education in North America. It also traveled in a direction Kuyper's heirs still argue about, supplying vocabulary that South African theologians later adapted in defense of apartheid."
+ },
+ {
+  "id": "russian-evangelicals-stundists",
+  "atlasId": "VIII.51",
+  "era": 9,
+  "name": "Russian Evangelicals — Stundists to the Baptist Union",
+  "dates": "1860-1906",
+  "lane": "Protestant & Evangelical",
+  "currentFlag": true,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "VIII.51",
+    "id": "russian-evangelicals-stundists",
+    "era": 9,
+    "living": true,
+    "end": 1906,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "VIII.31 broke with this [Dominant Modern Reconstruction] (VIII.31 = The Russian Church — the Synodal Century, 1815-1906)",
+   "VIII.31 argued against this [Dominant Modern Reconstruction] (VIII.31 = The Russian Church — the Synodal Century, 1815-1906)",
+   "this gave rise to IX.12 [Dominant Modern Reconstruction] (IX.12 = Persecuted-Church Traditions of the Communist Era (Initsiativniki Baptists; Romania's Lord's Army), 1945-1991)"
+  ],
+  "statusDescription": "Proposed for a future survey; not yet reviewed.",
+  "relationsSummary": "It grew from two roots. In the 1860s Ukrainian peasants began to meet to study the Bible, and their neighbors called them Stundists. From 1874 a second circle met in St Petersburg around Vasily Pashkov. Their leaders met in 1884 to unite, but the police broke up the meeting. That year the Baptist churches of the south formed a Russian Baptist Union, while Pashkov's followers stayed apart. Konstantin Pobedonostsev, the lay official who ran the Orthodox Church for the tsar, led the state's campaign against them. They had left that church, and to leave it was a crime. Their churches are the ancestors of the Soviet-era Initsiativniki Baptists.",
+  "why": "Ukrainian peasants working alongside German colonists in the 1860s began holding Bible study meetings their neighbors called Stunden, hours, and read Russia's own new translation of Scripture for themselves. A decade later, a guards colonel named Vasily Pashkov opened his St Petersburg house to preaching that servants and nobles attended side by side, a movement the state answered with exile, broken-up meetings and children taken from their parents, since leaving the Orthodox Church was a crime as well as a sin.",
+  "legacy": "These congregations are the ancestors of Russian and Ukrainian evangelical Protestantism as it now exists. The Baptist and Evangelical Christian unions descended from them survived the Soviet century, went through their own painful split in the 1960s between those who registered with the state and those who refused, and are today, with the Pentecostals, the largest Protestant presence across the former Soviet Union. Emigrants carried the tradition abroad as well, into Slavic Baptist communities in North and South America and Germany that are still identifiably from this root."
+ },
+ {
+  "id": "melkite-greek-catholic-church-after-1815",
+  "atlasId": "VIII.52",
+  "era": 9,
+  "name": "The Melkite Greek Catholic Church after 1815",
+  "dates": "1815-1911",
+  "lane": "Greek East / Latin West — bridge",
+  "currentFlag": true,
+  "existingLivingEvidence": {
+   "basis": "The same see and the same line of patriarchs. The synod of 1816 chose a successor to Macarius Tauil. Charon (1910-1911) names Cyril VIII Geha, elected in 1902, as the patriarch of his own day. Nothing after 1911 is in the Library.",
+   "descentConfidence": "Documented"
+  },
+  "predecessors": [
+   {
+    "id": "melkite-greek-catholic-church",
+    "atlasId": "VII.23",
+    "confidence": "Documented"
+   }
+  ],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "VIII.52",
+    "id": "melkite-greek-catholic-church-after-1815",
+    "era": 9,
+    "living": true,
+    "end": 1911,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "VIII.29 in contact with this [Documented] (VIII.29 = The Catholic Church of the Long Nineteenth Century, 1815-1906)"
+  ],
+  "statusDescription": "Proposed for a future survey; not yet reviewed.",
+  "relationsSummary": "This is the church of the 1724 split at Antioch, carried on by the same line of patriarchs. It stayed in communion with Rome. In 1831 Rome's mission office called its bishops together in synod. In 1848 a decree of the sultan gave it a civil standing of its own.",
+  "why": "In the nineteenth century the Melkite Catholics won a place of their own. Their bishops met again and again in synod to choose patriarchs. Maximos III Mazloum, patriarch from 1833 to 1855, won a decree from the sultan in 1848. From then on, Cyril Charon wrote in 1910, the Melkite Catholics were fully free in civil matters.",
+  "legacy": "The civil standing won in 1848 lasted. Writing in 1910, Charon says it still held in his day. Through these years the bishops chose each patriarch in synod, and Rome then confirmed him. The church lives on, but the Library does not yet hold its story after 1911."
+ }
+]

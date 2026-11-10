@@ -1,0 +1,72 @@
+[
+ {
+  "finding": "R2-01",
+  "applied": true,
+  "note": "openQuestion set to null on all 17 listed decisions."
+ },
+ {
+  "finding": "R2-02",
+  "applied": true,
+  "note": "presentBody and openQuestion set to null. Outcome stays kept."
+ },
+ {
+  "finding": "R2-03",
+  "applied": true,
+  "note": "Descent grade, descent basis and presentBody removed. Outcome recomputed from graded to kept. The openQuestion was not on the fix list and is unchanged."
+ },
+ {
+  "finding": "R2-04",
+  "applied": true,
+  "note": "Added the UCC history page as an undated own-voice item and to the evidence string. Quote (18 words) found in the saved page and a fresh fetch of https://www.ucc.org/who-we-are/about/history/, so marked verified. Basis kept."
+ },
+ {
+  "finding": "R2-05",
+  "applied": true,
+  "note": "Grade set to Contested with the given basis."
+ },
+ {
+  "finding": "R2-06",
+  "applied": true,
+  "note": "Grade kept at Widely Accepted. Basis reworded as given."
+ },
+ {
+  "finding": "R2-07",
+  "applied": true,
+  "note": "Basis reworded as given."
+ },
+ {
+  "finding": "R2-08",
+  "applied": true,
+  "note": "Both ids now cite the 2025/02/12 ...-a87963 URL. The existing quote (11 words) is found in the saved page and in a fresh fetch of that URL. Grade stays CR."
+ },
+ {
+  "finding": "R2-09",
+  "applied": true,
+  "note": "Dropped the staging-host item. Evidence, grade and basis set as the fix gives. One deviation: the fix's URL (madhyamamonline.com/en/node/8985) is the page's canonical tag, but curl loops on redirects there (50 redirects), so it cannot be fetched fresh. I kept the amp URL, where the quote (14 words) is found in the saved page and a fresh fetch."
+ },
+ {
+  "finding": "R2-10",
+  "applied": true,
+  "note": "Extended quotes checked, each found in the saved page and a fresh fetch: mospat '... Jerusalem 05.11.2026' (15 words); cogic '2026 COGIC Loyalty Reports ... By koinoniacafe October 22, 2026' (22 words, the tag text between headline and stamp is included); hkbp closing sentence plus '10/11/2026' (14 words). For hkbp the stamp follows the item text, and the full headline plus stamp would pass 25 words, so the quote is the item's last sentence ending in the stamp. The apply file holds no quote fields, so the extended quotes are recorded here only."
+ },
+ {
+  "finding": "R2-11",
+  "applied": true,
+  "note": "Basis set as given."
+ },
+ {
+  "finding": "R2-12",
+  "applied": true,
+  "note": "openQuestion now points to the Open-Gaps entry as instructed; wanted set as given."
+ },
+ {
+  "finding": "R2-13",
+  "applied": true,
+  "note": "wanted set to null."
+ },
+ {
+  "finding": "R2-14",
+  "applied": true,
+  "note": "descentBasis set as given (two sentences, none past 25 words)."
+ }
+]
