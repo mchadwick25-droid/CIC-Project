@@ -1,2 +1,12 @@
 # Progress — mideast-east-europe pass (P2-G89)
 - [x] Read CLAUDE.md, Sweep_Brief.md
+- [x] Read Open-Gaps 135, 142; era 10 sweep §0 and §6 shape
+- [x] Roster read (eras 7-10 + earlier rows touching region); dumped region rows
+- [ ] Library search
+- [x] Library file list scanned (key files: badger, malech, assemani BO3, duwayhi, charon, paul-of-aleppo, conybeare, subbotin, denisov, brosset pt1, williams 1868, serpos, paisii, mouravieff, platon)
+- [x] ME-1 Church of the East 1650-1815 written (Badger V, Labourt CE V, Malech V)
+- [x] ME-2 Maronites written (Labourt CE V, Volney V, Churchill V, Duwayhi locator)
+- [x] ME-3 Georgian church written (Ioseliani/Malan 1866 V)
+- [x] ME-4 Melkites written (Charon V, Fortescue CE V, Paul of Aleppo V)
+- [x] ME-5 Old Believers after 1815 (Conybeare V, Pinkerton V); ME-6 spiritual Christians (Pinkerton V, Conybeare V; Section A open)
+- [x] ME-7 Syriac Orthodox/Catholic written (Badger V, Fortescue CE V); hold

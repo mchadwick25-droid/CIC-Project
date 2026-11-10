@@ -1,0 +1,502 @@
+{
+ "pass": "latam",
+ "sweep": "P2-G89",
+ "date": "2026-11-10",
+ "verification_key": {
+  "V": "opened and confirmed this run",
+  "V (bib)": "bibliographic detail only, Open Library record fetched raw",
+  "V-s": "study's own statement only",
+  "[S]": "snippet, summary, memory, or unopened"
+ },
+ "candidates": [
+  {
+   "id": "LA8-1",
+   "rank": 1,
+   "name": "The Caribbean churches of slavery and emancipation",
+   "kind": "cross-church regional row",
+   "era": 9,
+   "dates": "1815-1906",
+   "countries": [
+    "Jamaica",
+    "Guyana",
+    "Barbados",
+    "Antigua and Barbuda",
+    "Trinidad and Tobago",
+    "US Virgin Islands",
+    "Suriname"
+   ],
+   "lane": "Protestant & Evangelical",
+   "sectionA": "no question for the mission churches; Native Baptists not yet assessable (line only)",
+   "tier": "Tier 1",
+   "evidence": [
+    {
+     "item": "Bleby, Death Struggles of Slavery, 3rd ed. 1868, ch. X pp. 128-130 (Sharpe)",
+     "state": "V",
+     "url": "https://archive.org/download/b24870109/b24870109_djvu.txt"
+    },
+    {
+     "item": "Hinton, Memoir of William Knibb, 2nd ed. 1849, pp. 260-262; Knibb to Sturge 30 Nov 1838",
+     "state": "V",
+     "url": "https://archive.org/download/memoirofwilliamk00hint/memoirofwilliamk00hint_djvu.txt"
+    },
+    {
+     "item": "Liele letter, Kingston 12 Apr 1793, in Rippon's Register",
+     "state": "V",
+     "file": "cic/texts/rippon_baptist-annual-register-1790-1793_1793.txt"
+    },
+    {
+     "item": "Oldendorp 1777",
+     "state": "V",
+     "file": "cic/texts/oldendorp_geschichte-der-mission-caraibische-inseln-v1-deu_bossart1777.txt"
+    },
+    {
+     "item": "Dayfoot, The Shaping of the West Indian Church 1492-1962 (UWI Press 1999)",
+     "state": "V (bib)"
+    },
+    {
+     "item": "Turner, Slaves and Missionaries (1982)",
+     "state": "V (bib)"
+    },
+    {
+     "item": "Viotti da Costa, Crowns of Glory, Tears of Blood (OUP 1994)",
+     "state": "V (bib)"
+    }
+   ],
+   "living": "yes in substance; no dated item read; grade none",
+   "overlap": [
+    "VII.4",
+    "VII.16",
+    "VIII.35",
+    "VIII.34",
+    "VIII.1",
+    "VIII.30"
+   ],
+   "recommendation": "enter (era 9 change order)",
+   "gate": {
+    "id": "G-LA8-1",
+    "options": {
+     "a": "one regional cross-church row 1815-1906, Native Baptists and 1860-61 revival as lines",
+     "b": "lines in VIII.35 and VIII.34",
+     "c": "Jamaica-only row"
+    },
+    "recommended": "a"
+   }
+  },
+  {
+   "id": "LA8-2",
+   "rank": 2,
+   "name": "Jesuit reductions of Paraguay and the expulsions from the Americas",
+   "kind": "named line (fails uniqueness test as own row)",
+   "era": 8,
+   "dates": "1609-1768 (row 1650-1814)",
+   "countries": [
+    "Paraguay",
+    "Argentina",
+    "Brazil",
+    "Uruguay",
+    "Bolivia"
+   ],
+   "lane": "Latin West & Catholicism",
+   "sectionA": "no question",
+   "tier": "Tier 1 inside a Jesuit row",
+   "evidence": [
+    {
+     "item": "Muratori, Il cristianesimo felice (Venice 1743)",
+     "state": "V",
+     "url": "https://archive.org/download/A118051/A118051_djvu.txt"
+    },
+    {
+     "item": "Benedict XIV, Immensa pastorum principis, 20 Dec 1741, in Mirbt 1911 no. 454",
+     "state": "V",
+     "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt"
+    },
+    {
+     "item": "Furlong, Misiones y sus pueblos de guaraníes (1962)",
+     "state": "V (bib)"
+    },
+    {
+     "item": "Ganson, The Guaraní under Spanish Rule (Stanford 2003)",
+     "state": "V (bib)"
+    },
+    {
+     "item": "Mörner, Political and Economic Activities of the Jesuits in the La Plata Region (1953)",
+     "state": "V (bib)"
+    }
+   ],
+   "living": "reductions no; Society yes",
+   "overlap": [
+    "VI.11",
+    "VII.19"
+   ],
+   "recommendation": "named line in a new Society of Jesus 1650-1814 continuation row (shared with the China break)",
+   "gate": {
+    "id": "G-LA8-2",
+    "options": {
+     "a": "line in a Jesuit continuation row 1650-1814",
+     "b": "own church row 1609-1768",
+     "c": "line in VII.17"
+    },
+    "recommended": "a"
+   }
+  },
+  {
+   "id": "LA8-3",
+   "rank": 3,
+   "name": "Canudos (Belo Monte)",
+   "kind": "movement within popular Catholicism (four marks met)",
+   "era": 9,
+   "dates": "1893-1897",
+   "countries": [
+    "Brazil"
+   ],
+   "lane": "Latin West & Catholicism",
+   "sectionA": "no question",
+   "tier": "Tier 2 (Tier 1 if era 9 is to carry one popular Catholic movement)",
+   "four_marks": {
+    "beginning": "1893 settlement (V)",
+    "carriers": "Antônio Conselheiro and followers (V)",
+    "name": "Canudos / Belo Monte (V)",
+    "study": "Levine, Vale of Tears (1992) V (bib)"
+   },
+   "evidence": [
+    {
+     "item": "Euclides da Cunha, Os Sertões, 3rd ed. (Laemmert 1905)",
+     "state": "V",
+     "url": "https://archive.org/download/004518-completo/004518_COMPLETO_djvu.txt"
+    },
+    {
+     "item": "Levine, Vale of Tears (UC Press 1992)",
+     "state": "V (bib)"
+    },
+    {
+     "item": "Della Cava, Miracle at Joaseiro / Milagre em Joaseiro",
+     "state": "V (bib)"
+    },
+    {
+     "item": "Vanderwood, The Power of God against the Guns of Government (Stanford 1998)",
+     "state": "V (bib)"
+    }
+   ],
+   "living": "Canudos no; Juazeiro pilgrimage yes in substance, undated",
+   "overlap": [
+    "VIII.48"
+   ],
+   "recommendation": "enter as own movement row; Juazeiro and Tomóchic as lines in VIII.48",
+   "gate": {
+    "id": "G-LA8-3",
+    "options": {
+     "a": "own row; Juazeiro and Tomóchic lines in VIII.48",
+     "b": "line in VIII.48",
+     "c": "family row of 1890s holy towns"
+    },
+    "recommended": "a"
+   }
+  },
+  {
+   "id": "LA8-4",
+   "rank": 4,
+   "name": "Colonial Brazil's Catholicism (rosary brotherhoods, Vieira, mill chapels)",
+   "kind": "church body strand",
+   "era": 8,
+   "dates": "1650-1822",
+   "countries": [
+    "Brazil"
+   ],
+   "lane": "Latin West & Catholicism",
+   "sectionA": "no question",
+   "tier": "Tier 1 strand",
+   "evidence": [
+    {
+     "item": "Vieira, Maria Rosa Mystica (Lisbon 1686), Sermão XIV (Bahia 1633)",
+     "state": "V",
+     "url": "https://archive.org/download/mariarosamystica00viei/mariarosamystica00viei_djvu.txt"
+    },
+    {
+     "item": "Antonil, Cultura e opulencia do Brasil (Lisbon 1711)",
+     "state": "V",
+     "url": "https://archive.org/download/culturaeopulenci00anto/culturaeopulenci00anto_djvu.txt"
+    },
+    {
+     "item": "Immensa pastorum principis (1741), Mirbt 1911",
+     "state": "V"
+    },
+    {
+     "item": "Hoornaert et al., História da Igreja no Brasil (Vozes 1977)",
+     "state": "V (bib)"
+    },
+    {
+     "item": "Boxer, The Golden Age of Brazil 1695-1750 (1962)",
+     "state": "V (bib)"
+    }
+   ],
+   "living": "brotherhoods in substance [S]; grade none",
+   "overlap": [
+    "VII.17",
+    "VI.11",
+    "VIII.48"
+   ],
+   "recommendation": "named strand in VII.17 by change order (Brazil added to text, voices, place, countries)",
+   "gate": {
+    "id": "G-LA8-4",
+    "options": {
+     "a": "strand in VII.17",
+     "b": "own row 1650-1822",
+     "c": "leave"
+    },
+    "recommended": "a"
+   }
+  },
+  {
+   "id": "LA8-5",
+   "rank": 5,
+   "name": "Priests in the independence wars (Hidalgo, Morelos)",
+   "kind": "seam line",
+   "era": "8/9",
+   "dates": "1810-1815",
+   "countries": [
+    "Mexico"
+   ],
+   "lane": "Latin West & Catholicism",
+   "sectionA": "no question",
+   "tier": "Tier 1 line",
+   "evidence": [
+    {
+     "item": "Bustamante, Cuadro histórico (1843), title and imprint",
+     "state": "V"
+    },
+    {
+     "item": "Farriss, Crown and Clergy (1968)",
+     "state": "V (bib)"
+    },
+    {
+     "item": "Brading, The First America (1991)",
+     "state": "V (bib)"
+    }
+   ],
+   "living": "n/a",
+   "overlap": [
+    "VII.17",
+    "VIII.48"
+   ],
+   "recommendation": "line in VIII.48, start moved to 1810",
+   "gate": {
+    "id": "G-LA8-5",
+    "options": {
+     "a": "VIII.48 from 1810 with line",
+     "b": "line, keep 1815",
+     "c": "extend VII.17 to 1815"
+    },
+    "recommended": "a"
+   }
+  },
+  {
+   "id": "LA8-6",
+   "rank": 6,
+   "name": "Haiti before 1804 and after 1860 (Holly)",
+   "kind": "lines",
+   "era": "8-9",
+   "dates": "1685-1804; 1860-1906",
+   "countries": [
+    "Haiti"
+   ],
+   "lane": "Latin West & Catholicism",
+   "sectionA": "no question",
+   "tier": "Tier 2",
+   "evidence": [
+    {
+     "item": "Greene, The Catholic Church in Haiti (1993)",
+     "state": "V (bib)"
+    },
+    {
+     "item": "Dean, Defender of the Race (1978)",
+     "state": "V (bib)"
+    }
+   ],
+   "living": "n/a",
+   "overlap": [
+    "VIII.46",
+    "VIII.1",
+    "VII.19"
+   ],
+   "recommendation": "hold for sources",
+   "gate": {
+    "id": "G-LA8-6",
+    "options": {
+     "a": "hold",
+     "b": "extend VIII.46 to 1906 now",
+     "c": "nothing"
+    },
+    "recommended": "a"
+   }
+  },
+  {
+   "id": "LA8-7",
+   "rank": 7,
+   "name": "Protestant beginnings in Latin America",
+   "kind": "lines",
+   "era": 9,
+   "dates": "1818-1906",
+   "countries": [
+    "Argentina",
+    "Chile",
+    "Peru",
+    "Colombia",
+    "Brazil",
+    "Uruguay",
+    "Mexico"
+   ],
+   "lane": "Protestant & Evangelical",
+   "sectionA": "no question",
+   "tier": "Tier 2",
+   "evidence": [
+    {
+     "item": "Thomson, Letters on the Moral and Religious State of South America (1827)",
+     "state": "V",
+     "url": "https://archive.org/download/lettersonmorala00thomgoog/lettersonmorala00thomgoog_djvu.txt"
+    },
+    {
+     "item": "Bastian, Historia del protestantismo en América Latina (1990)",
+     "state": "V (bib)"
+    },
+    {
+     "item": "Léonard, O protestantismo brasileiro (1963)",
+     "state": "V (bib)"
+    }
+   ],
+   "living": "yes via IX.63",
+   "overlap": [
+    "IX.63",
+    "VIII.41",
+    "VIII.7"
+   ],
+   "recommendation": "lines: VIII.41 (Brazil Lutherans) and a pre-1916 line in IX.63",
+   "gate": {
+    "id": "G-LA8-7",
+    "options": {
+     "a": "lines",
+     "b": "era 9 row",
+     "c": "nothing"
+    },
+    "recommended": "a"
+   }
+  },
+  {
+   "id": "LA8-8",
+   "rank": 8,
+   "name": "Cuba and Puerto Rico under Spain",
+   "kind": "line",
+   "era": 9,
+   "dates": "1815-1898",
+   "countries": [
+    "Cuba",
+    "Puerto Rico"
+   ],
+   "lane": "Latin West & Catholicism",
+   "sectionA": "no question",
+   "tier": "Tier 2",
+   "evidence": [],
+   "living": "n/a",
+   "overlap": [
+    "VIII.48"
+   ],
+   "recommendation": "hold; line in VIII.48",
+   "gate": {
+    "id": "G-LA8-8",
+    "options": {
+     "a": "hold",
+     "b": "nothing"
+    },
+    "recommended": "a"
+   }
+  },
+  {
+   "id": "LA8-9",
+   "rank": 9,
+   "name": "The Bethlemites (Guatemala)",
+   "kind": "line",
+   "era": 8,
+   "dates": "1650s-1820",
+   "countries": [
+    "Guatemala"
+   ],
+   "lane": "Latin West & Catholicism",
+   "sectionA": "no question",
+   "tier": "Tier 2",
+   "evidence": [],
+   "living": "n/a",
+   "overlap": [
+    "VII.17"
+   ],
+   "recommendation": "hold; line in VII.17",
+   "gate": {
+    "id": "G-LA8-9",
+    "options": {
+     "a": "hold",
+     "b": "nothing"
+    },
+    "recommended": "a"
+   }
+  },
+  {
+   "id": "LA8-10",
+   "rank": 10,
+   "name": "Cancuc (1712) and the Talking Cross (1850-1901)",
+   "kind": "indigenous movements",
+   "era": "8 and 9",
+   "dates": "1712; 1850-1901",
+   "countries": [
+    "Mexico"
+   ],
+   "lane": "Latin West & Catholicism",
+   "sectionA": "Cancuc Catholic in form; Talking Cross a real Section A question",
+   "tier": "Tier 2",
+   "evidence": [
+    {
+     "item": "Gosner, Soldiers of the Virgin (1992)",
+     "state": "V (bib)"
+    },
+    {
+     "item": "Bricker, The Indian Christ, the Indian King (1981)",
+     "state": "V (bib)"
+    },
+    {
+     "item": "Reed, The Caste War of Yucatan (1964)",
+     "state": "V (bib)"
+    }
+   ],
+   "living": "[S]",
+   "overlap": [],
+   "recommendation": "hold for sources",
+   "gate": {
+    "id": "G-LA8-10",
+    "options": {
+     "a": "hold both",
+     "b": "Cancuc line in VII.17 now",
+     "c": "nothing"
+    },
+    "recommended": "a"
+   }
+  }
+ ],
+ "breaks": [
+  {
+   "break": "Latin America, thin for 1492-1900 (Open-Gaps 142)",
+   "answer": "Real but uneven. Tied to other movements: reductions and expulsions -> Jesuit continuation row (LA8-2); Caribbean missions before 1815 -> VII.4, VII.16; colonial Brazil -> VII.17 (LA8-4); 1810-15 -> VIII.48 (LA8-5); Protestant beginnings -> IX.63/VIII.41 (LA8-7). Unique: Caribbean churches 1815-1906 (LA8-1), Canudos (LA8-3). Held: LA8-6, -8, -9, -10."
+  },
+  {
+   "break": "Moravian church after 1815 (found by this pass)",
+   "answer": "No era 9 or 10 Moravian row. Same movement as VII.4: a continuation, not a new movement. Gate G-LA8-M: recommended log in Open-Gaps 142 now; Caribbean lines in LA8-1 if it enters."
+  },
+  {
+   "break": "Other logged breaks",
+   "answer": "Outside this region; no Latin American or Caribbean part before 1906."
+  }
+ ],
+ "doc_hygiene": [
+  "VIII.46 region North America",
+  "VII.17 countries Peru only; place New Spain · Peru",
+  "VIII.48 countries Brazil only",
+  "VI.13d empty fields",
+  "VII.17 dates overlap VI.13d"
+ ]
+}
