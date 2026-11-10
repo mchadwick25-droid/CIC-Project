@@ -1267,3 +1267,40 @@ it, never by deleting it.
       used it as the last year, which let Theodoret and Eunomius pass on traditions that began in
       their lifetimes.
     - Ephrem appears in the alias list as "Ephraim the Syrian", unmatched to the shipped entry.
+166. **The later-worlds people held, with their reasons (2026-11-10).** Mark ruled "take every
+    recommendation" on the P2-G3b list (Decision-Log, "The later-worlds people ruled (P2-G3b)").
+    Each person below passes the clean count and is held; a change of rule or a new text in the
+    Library could bring them in. Owner: P2-P / the Library thread, as noted.
+    - **Founders (question A):** Priscillian (Priscillianist Asceticism; no work of his held),
+      Valentinus (the Valentinians), Mani (Manichaeism), Novatian (Novatianism; own works held),
+      Hilarion of Gaza (opens Early Palestinian Ascetic Monasticism), Apollinaris of Laodicea
+      (Apollinarian Christianity; own fragments held), Valdes (the Waldensians), Francis of Assisi
+      (the Franciscan movement; his own writings are not on the shelf), Zwingli (the Reformed
+      Cities; own works held). Each is told within that movement's entry.
+    - **Own words (question B):** Johannes Tauler. His sermons survive as his hearers' notes.
+    - **One witness (question C):** Constantius II (both later traditions rest on Nikodemos's
+      Synaxaristes); Basilides (Rome and Montanism rest on the same Hippolytus passages, and his
+      death date is unknown).
+    - **No words of their own in the Library:** Paul of Samosata (the council's letter and
+      Malchion's half of the debate only), Mesrop Mashtots (Koriun's Life of him, no work of
+      his), Maximilla (her sayings come through opponents), Kaleb (a prayer reported by others),
+      Heraclius (the Ekthesis is not held), Bonaventure (one quoted sentence in an editor's note).
+      Wanted texts for the Library thread: Paul of Samosata's fragments, a Mesrop text, the
+      Ekthesis, Bonaventure's Itinerarium and Life of Francis, Francis's own writings.
+    - **Pamphilus of Caesarea**, held after Mark's ruling by the correction in the Decision-Log
+      ("The later-worlds people ruled (P2-G3b)"): the Library holds only Rufinus's preface and
+      epilogue to the Apology for Origen, and the fragments on Acts are of disputed authorship.
+      Wanted for the Library thread: the Apology for Origen, Book I, in Rufinus's Latin (PG 17) or
+      an English translation. He comes in when the text does.
+167. **Open points left by data release 31 (2026-11-10).** Audit:
+    `Build/Ministry/Operations/Audits/2026-11-10_later-worlds-people/build/`.
+    - The link `latin-papal-church-gregorian--latin-papal-church-avignon-to-lateran-v` rests on
+      the Dictatus Papae as Gregory VII's. Mirbt's heading reports Sackur's view that Cardinal
+      Deusdedit wrote it. Its note should say the authorship is disputed. Owner: P2-L11.
+    - Lactantius lists no modern country: the census has no place ID for Nicomedia, Trier or Gaul.
+      Paula lists Rome only (no Bethlehem ID). Owner: the place-label work.
+    - Thirteen new tree pages (11,077 characters) join the one recording batch. Owner: this thread,
+      at the batch.
+    - Wanted for the Library thread, from the drafts: a Patrick chronology study; Justinian's Novel
+      131 and the acts of 553; Cuthbert's letter on Bede's death; a source for Grotius's
+      imprisonment; Mirbt's Dictatus heading in a clean scan.
