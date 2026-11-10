@@ -1,0 +1,11 @@
+source_file: capuchin-constitutions_constitutiones-fratrum-minorum-capuccinorum-lat_1638.txt
+assignments:
+- row_id: capuchin-constitutions_constitutiones-fratrum-minorum-capuccinorum-lat_1638--constitutiones-fratrum-minorum-capuccinorum-1638
+  work: "Constitutiones Fratrum Minorum Capuccinorum (1638)"
+  author: capuchin-constitutions
+  locus: "the whole volume; add 12 to OCR line numbers for this file's own"
+  atlas_ids:
+  - the-tridentine-church
+  role: tradition
+  confidence: provisional
+  note: "The Capuchin reform's own law, printed in 1638. Within this entry's window (1517-1650)."

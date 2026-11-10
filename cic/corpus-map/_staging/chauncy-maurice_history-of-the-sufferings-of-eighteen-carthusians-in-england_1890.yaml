@@ -1,0 +1,11 @@
+source_file: chauncy-maurice_history-of-the-sufferings-of-eighteen-carthusians-in-england_1890.txt
+assignments:
+- row_id: chauncy-maurice_history-of-the-sufferings-of-eighteen-carthusians-in-england_1890--the-history-of-the-sufferings-of-eighteen-carthusians-chauncy-in-english
+  work: "The History of the Sufferings of Eighteen Carthusians (Chauncy, in English)"
+  author: chauncy-maurice
+  locus: "the history after the title page; add 12 to OCR line numbers for this file's own"
+  atlas_ids:
+  - the-tridentine-church
+  role: tradition
+  confidence: provisional
+  note: "The English of Chauncy's Historia, a clean witness to the Latin file of 1888. Within this entry's window (1517-1650) by the date of the Latin (1550)."

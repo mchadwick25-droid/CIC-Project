@@ -43,6 +43,25 @@ works:
   note: Bossuet preaching death and providence to the court; the oration for Le Tellier praises
     the Revocation, which the Desert world should see.
   source_file: bossuet_oraisons-funebres-fra_doumic1928.txt
+- row_id: brother-lawrence_practice-of-the-presence-of-god_allenson1906--the-practice-of-the-presence-of-god-the-letters-and-conversations-of-brother-lawrence
+  work: 'The Practice of the Presence of God: the letters and conversations of Brother Lawrence'
+  author: brother-lawrence
+  locus: the letters from about OCR line 1540; the conversations, recorded by Beaufort, from
+    about 708; add 12 to OCR line numbers for this file's own
+  role: tradition
+  confidence: provisional
+  note: A Discalced Carmelite lay brother of Paris in his own letters, and in conversations
+    recorded by another; written between 1666 and 1691. Within this entry's window (1650-1815).
+  source_file: brother-lawrence_practice-of-the-presence-of-god_allenson1906.txt
+- row_id: carthusian-statutes_nova-collectio-statutorum-ordinis-cartusiensis-lat_1681--nova-collectio-statutorum-ordinis-cartusiensis-1681
+  work: Nova collectio statutorum ordinis Cartusiensis (1681)
+  author: carthusian-statutes
+  locus: the whole volume; add 12 to OCR line numbers for this file's own
+  role: tradition
+  confidence: provisional
+  note: The Carthusians' own law as their general chapter ordered it in 1679-1681. Within
+    this entry's window (1650-1815).
+  source_file: carthusian-statutes_nova-collectio-statutorum-ordinis-cartusiensis-lat_1681.txt
 - row_id: challoner_garden-of-the-soul_1755--the-garden-of-the-soul-1740-1755-printing
   work: The Garden of the Soul (1740; 1755 printing)
   author: challoner
@@ -93,6 +112,15 @@ works:
 
     '
   source_file: council-of-trent_canons-and-decrees_waterworth1848.txt
+- row_id: de-luca-giovanni_annales-minorum-t18-1540-1553-lat_1740--annales-minorum-tomus-xviii-1540-1553-continued-by-giovanni-de-luca
+  work: Annales Minorum, tomus XVIII (1540-1553), continued by Giovanni de Luca
+  author: de-luca-giovanni
+  locus: the whole volume; add 12 to OCR line numbers for this file's own
+  role: tradition
+  confidence: provisional
+  note: The order's own chronologer on its history in 1540-1553, written in 1740. Within this
+    entry's window (1650-1815) by its date of writing.
+  source_file: de-luca-giovanni_annales-minorum-t18-1540-1553-lat_1740.txt
 - row_id: denzinger_enchiridion-symbolorum-lat_bannwart1911--papal-and-conciliar-condemnations-1650-1800
   work: Papal and conciliar condemnations, 1650-1800
   author: denzinger
@@ -111,6 +139,15 @@ works:
   note: An Academician bishop of Louis XIV's church in his own letters; the episcopal voice
     of the Gallican church at the turn of the century.
   source_file: flechier_lettres-fra_1712.txt
+- row_id: francisco-de-santa-maria_reforma-de-los-descalzos-t2-spa_1655--reforma-de-los-descalzos-tomo-ii-1655
+  work: Reforma de los Descalzos, tomo II (1655)
+  author: francisco-de-santa-maria
+  locus: the whole volume; add 12 to OCR line numbers for this file's own
+  role: tradition
+  confidence: provisional
+  note: The Discalced Carmelites' own history, written by the order's general historian and
+    printed in 1655. Within this entry's window (1650-1815).
+  source_file: francisco-de-santa-maria_reforma-de-los-descalzos-t2-spa_1655.txt
 - row_id: innocent-xii_cum-alias-with-fenelon-mandement-lat-fra_1699--cum-alias-and-the-french-reception-of-it-1699
   work: Cum alias and the French reception of it (1699)
   author: innocent-xii
@@ -208,6 +245,26 @@ works:
   confidence: assigned
   note: The restoration that the census uses to close this world's story.
   source_file: clement-xiv_bulls-suppression-and-restoration-of-the-jesuits-lat-eng_1814.txt
+- row_id: rance_de-la-saintete-et-des-devoirs-de-la-vie-monastique-t1-fra_1683--de-la-saintete-et-des-devoirs-de-la-vie-monastique-tome-1-1683
+  work: De la saintete et des devoirs de la vie monastique, tome 1 (1683)
+  author: rance
+  locus: the whole volume; add 12 to OCR line numbers for this file's own
+  role: tradition
+  confidence: provisional
+  note: The Cistercian reform of La Trappe in its abbot's own treatise, printed in 1683. Within
+    this entry's window (1650-1815). The author is the host record's attribution, not the
+    title page's.
+  source_file: rance_de-la-saintete-et-des-devoirs-de-la-vie-monastique-t1-fra_1683.txt
+- row_id: rance_de-la-saintete-et-des-devoirs-de-la-vie-monastique-t2-fra_1683--de-la-saintete-et-des-devoirs-de-la-vie-monastique-tome-2-1683
+  work: De la saintete et des devoirs de la vie monastique, tome 2 (1683)
+  author: rance
+  locus: the whole volume; add 12 to OCR line numbers for this file's own
+  role: tradition
+  confidence: provisional
+  note: The Cistercian reform of La Trappe in its abbot's own treatise, printed in 1683. Within
+    this entry's window (1650-1815). The author is the host record's attribution, not the
+    title page's.
+  source_file: rance_de-la-saintete-et-des-devoirs-de-la-vie-monastique-t2-fra_1683.txt
 - row_id: roman-missal_england1843--the-roman-missal-translated-into-the-english-language-for-2
   work: The Roman Missal, Translated into the English Language for the Use of the Laity
   author: roman-missal

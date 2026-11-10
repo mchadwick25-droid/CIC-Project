@@ -13,6 +13,15 @@ works:
   note: The concordatory regime the next century's French church lived under, to its abolition
     in 1905.
   source_file: anderson-frank-maloy_constitutions-and-documents-history-of-france_1908.txt
+- row_id: marie-de-l-incarnation-compiegne_histoire-des-carmelites-de-compiegne-fra_1836--histoire-des-religieuses-carmelites-de-compiegne-posthumous
+  work: Histoire des religieuses carmélites de Compiègne (posthumous, 1836)
+  author: marie-de-l-incarnation-compiegne
+  locus: the narrative and documents; the publisher's catalogue excluded
+  role: tradition
+  confidence: assigned
+  note: The community's own witness to its martyrdom, by its surviving sister; the source
+    the census story rests on.
+  source_file: marie-de-l-incarnation-compiegne_histoire-des-carmelites-de-compiegne-fra_1836.txt
 - row_id: clement-xiv_bulls-suppression-and-restoration-of-the-jesuits-lat-eng_1814--sollicitudo-omnium-ecclesiarum-7-august-1814-latin-and-2
   work: Sollicitudo omnium ecclesiarum (7 August 1814), Latin and English
   author: pius-vii
@@ -22,3 +31,12 @@ works:
   note: The restored Society enters the next century's church; on the boundary of the two
     windows.
   source_file: clement-xiv_bulls-suppression-and-restoration-of-the-jesuits-lat-eng_1814.txt
+- row_id: trappists_constitutions-and-usages-of-the-reformed-cistercians-of-la-trappe-eng-lat_1894--constitutions-and-usages-of-the-reformed-cistercians-of-la-trappe-1894
+  work: Constitutions and Usages of the Reformed Cistercians of La Trappe (1894)
+  author: trappists
+  locus: the whole volume; add 12 to OCR line numbers for this file's own
+  role: tradition
+  confidence: provisional
+  note: The Trappists' own law, issued by their general chapter in 1894. Within this entry's
+    window (1815-1906).
+  source_file: trappists_constitutions-and-usages-of-the-reformed-cistercians-of-la-trappe-eng-lat_1894.txt

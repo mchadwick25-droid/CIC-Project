@@ -23520,3 +23520,300 @@ queue:
       located, djvu.txt fetched, byte count 1,445,852 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: montero-y-vidal_historia-general-de-filipinas-t3-spa_1895.txt
+  - title: 'Die Haupturkunden fur die Geschichte der Athoskloster, grosstentheils zum ersten Male herausgegeben und mit Einleitungen versehen von Ph. Meyer'
+    author: 'The Athos monasteries (documents); Philipp Meyer (editor)'
+    translator: 'The Athos monasteries (documents); Philipp Meyer (editor)'
+    year: '1894'
+    world: orthodoxy-under-the-ottomans-parish-millet-and-n
+    why: 'Open-Gaps 158: Athonite monasticism after 1300, apart from the hesychast entries.'
+    url: https://archive.org/details/diehaupturkunden00meye
+    rights_basis: 'Public Domain (pd-us-by-date: published 1894); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, 2026-11-10: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,030,061 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: athos-monasteries_haupturkunden-fur-die-geschichte-der-athoskloster-ger-grc_meyer1894.txt
+  - title: 'Kepos chariton, toutesti, Biblion periechon ten periodon tou timiou Xylou tou zoiopoiou Staurou, tou en tei hierai kai basilikei Monei tou Xeropotamou, tei ousei en toi hagionymoi Orei tou Athonos kai alla diaphora'
+    author: 'Kaisarios Dapontes (author); Gabriel Sophocleous (editor)'
+    translator: 'Kaisarios Dapontes (author); Gabriel Sophocleous (editor)'
+    year: '1880'
+    world: orthodoxy-under-the-ottomans-1650-1821
+    why: 'Open-Gaps 158: Athonite monasticism after 1300, apart from the hesychast entries.'
+    url: https://archive.org/details/keposcharitontou00dapo
+    rights_basis: 'Public Domain (pd-us-by-date: published 1880); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, 2026-11-10: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 730,833 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: dapontes_kepos-chariton-grc_sophocleous1880.txt
+  - title: 'Tarikh al-ta''ifa al-maruniyya (History of the Maronite community), by Mar Istifan al-Duwayhi, Patriarch of Antioch and all the East, edited with notes by Rashid al-Khuri al-Shartuni'
+    author: 'Istifan al-Duwayhi (author); Rashid al-Khuri al-Shartuni (editor)'
+    translator: 'Istifan al-Duwayhi (author); Rashid al-Khuri al-Shartuni (editor)'
+    year: '189x'
+    world: open-gap
+    why: 'Open-Gaps 158: the Maronites after 1517.'
+    url: https://archive.org/details/20221027_20221027_1703
+    rights_basis: 'Public Domain (pd-us-by-date: printed in the 1890s, by the editor''s dated preface); the archive.org record carries no rights field and no date. The title page''s ''rights of printing and translation reserved'' has run out under the US term by date'
+    verified_by: 'Library thread, 2026-11-10: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,394,443 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: duwayhi_tarikh-al-taifa-al-maruniyya-ara_shartuni189x.txt
+  - title: 'Monumenta Ordinis Fratrum Praedicatorum historica, tomus IV: Acta capitulorum generalium ordinis Praedicatorum, vol. II, ab anno 1304 usque ad annum 1378, recensuit Fr. Benedictus Maria Reichert'
+    author: 'The Dominican general chapters (acts); B. M. Reichert (editor)'
+    translator: 'The Dominican general chapters (acts); B. M. Reichert (editor)'
+    year: '1899'
+    world: latin-papal-church-avignon-to-lateran-v
+    why: 'Open-Gaps 158: the Dominicans after 1300.'
+    url: https://archive.org/details/actacapitulorumg02domi
+    rights_basis: 'Public Domain (pd-us-by-date: published 1899); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, 2026-11-10: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,488,900 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: dominican-general-chapters_acta-capitulorum-generalium-v2-1304-1378-lat_reichert1899.txt
+  - title: 'Monumenta Ordinis Fratrum Praedicatorum historica, tomus XI: Acta capitulorum generalium ordinis Praedicatorum, vol. VI, ab anno 1601 usque ad annum 1628, recensuit Fr. Benedictus Maria Reichert'
+    author: 'The Dominican general chapters (acts); B. M. Reichert (editor)'
+    translator: 'The Dominican general chapters (acts); B. M. Reichert (editor)'
+    year: '1902'
+    world: the-tridentine-church
+    why: 'Open-Gaps 158: the Dominicans after 1300.'
+    url: https://archive.org/details/actacapitulorumg06domi
+    rights_basis: 'Public Domain (pd-us-by-date: published 1902); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, 2026-11-10: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,159,675 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: dominican-general-chapters_acta-capitulorum-generalium-v6-1601-1628-lat_reichert1902.txt
+  - title: 'Acta capitulorum generalium Ordinis Fratrum B. V. Mariae de Monte Carmelo, vol. I, ab anno 1318 usque ad annum 1593, cum notis praecipue a R. P. Benedicto Zimmerman mutuatis; edidit ex libro ordinis officiali Fr. Gabriel Wessels'
+    author: 'The Carmelite general chapters (acts); Gabriel Wessels (editor)'
+    translator: 'The Carmelite general chapters (acts); Gabriel Wessels (editor)'
+    year: '1912'
+    world: latin-papal-church-avignon-to-lateran-v
+    why: 'Open-Gaps 158: the Carmelites after 1300, apart from the reform of 1562-1622.'
+    url: https://archive.org/details/actacapitulorumg01carm
+    rights_basis: 'Public Domain (pd-us-by-date: published 1912); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, 2026-11-10: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,663,776 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: carmelite-general-chapters_acta-capitulorum-generalium-v1-1318-1593-lat_wessels1912.txt
+  - title: 'The Practice of the Presence of God, being the Conversations and Letters of Brother Lawrence (Nicholas Herman of Lorraine)'
+    author: 'Brother Lawrence of the Resurrection'
+    translator: 'Brother Lawrence of the Resurrection'
+    year: '1906'
+    world: catholic-church-ancien-regime
+    why: 'Open-Gaps 158: the Discalced Carmelites after 1622.'
+    url: https://archive.org/details/ThePracticeOfThePresenceOfGod
+    rights_basis: 'Public Domain (pd-us-by-date: published 1906); the archive.org record carries the Public Domain Mark (licenseurl publicdomain/mark/1.0)'
+    verified_by: 'Library thread, 2026-11-10: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 82,580 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: brother-lawrence_practice-of-the-presence-of-god_allenson1906.txt
+  - title: 'Reforma de los Descalcos de Nuestra Senora del Carmen de la primitiva Observancia hecha por Santa Teresa de Jesus, tomo segundo'
+    author: 'Francisco de Santa Maria OCD'
+    translator: 'Francisco de Santa Maria OCD'
+    year: '1655'
+    world: catholic-church-ancien-regime
+    why: 'Open-Gaps 158: the Discalced Carmelites after 1622.'
+    url: https://archive.org/details/A055079
+    rights_basis: 'Public Domain (pd-us-by-date: published 1655); the archive.org record carries the Public Domain Mark (licenseurl publicdomain/mark/1.0)'
+    verified_by: 'Library thread, 2026-11-10: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 3,362,378 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: francisco-de-santa-maria_reforma-de-los-descalzos-t2-spa_1655.txt
+  - title: 'De la saintete et des devoirs de la vie monastique, [tome premier]'
+    author: 'Armand-Jean de Rance'
+    translator: 'Armand-Jean de Rance'
+    year: '1683'
+    world: catholic-church-ancien-regime
+    why: 'Open-Gaps 158: the Cistercians after 1300.'
+    url: https://archive.org/details/delasaintetetd01ranc
+    rights_basis: 'Public Domain (pd-us-by-date: published 1683); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, 2026-11-10: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 828,403 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: rance_de-la-saintete-et-des-devoirs-de-la-vie-monastique-t1-fra_1683.txt
+  - title: 'De la saintete et des devoirs de la vie monastique, tome second'
+    author: 'Armand-Jean de Rance'
+    translator: 'Armand-Jean de Rance'
+    year: '1683'
+    world: catholic-church-ancien-regime
+    why: 'Open-Gaps 158: the Cistercians after 1300.'
+    url: https://archive.org/details/delasaintetetd02ranc
+    rights_basis: 'Public Domain (pd-us-by-date: published 1683); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, 2026-11-10: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 951,964 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: rance_de-la-saintete-et-des-devoirs-de-la-vie-monastique-t2-fra_1683.txt
+  - title: 'Constitutions and Usages of the Order of Reformed Cistercians of Our Lady of La Trappe'
+    author: 'The General Chapter of the Reformed Cistercians of La Trappe'
+    translator: 'The General Chapter of the Reformed Cistercians of La Trappe'
+    year: '1894'
+    world: catholic-church-long-nineteenth-century
+    why: 'Open-Gaps 158: the Cistercians after 1300.'
+    url: https://archive.org/details/constitutionsusa0000trap
+    rights_basis: 'Public Domain (pd-us-by-date: published 1894); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, 2026-11-10: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 577,680 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: trappists_constitutions-and-usages-of-the-reformed-cistercians-of-la-trappe-eng-lat_1894.txt
+  - title: 'Historia aliquot martyrum Anglorum maxime octodecim Cartusianorum sub rege Henrico octavo ... a Londiniensis Cartusiae professo conscripta'
+    author: 'Maurice Chauncy'
+    translator: 'Maurice Chauncy'
+    year: '1888'
+    world: the-tridentine-church
+    why: 'Open-Gaps 158: the Carthusians after 1534.'
+    url: https://archive.org/details/historiaaliquot00chaugoog
+    rights_basis: 'Public Domain (pd-us-by-date: published 1888); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread, 2026-11-10: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 192,545 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: chauncy-maurice_historia-aliquot-martyrum-anglorum-lat_1888.txt
+  - title: 'The History of the Sufferings of Eighteen Carthusians in England, who refusing to take part in schism, and to separate themselves from the unity of the Catholic Church, were cruelly martyred; translated from the Latin of Dom Maurice Chauncy'
+    author: 'Maurice Chauncy'
+    translator: 'Maurice Chauncy'
+    year: '1890'
+    world: the-tridentine-church
+    why: 'Open-Gaps 158: the Carthusians after 1534.'
+    url: https://archive.org/details/sufferingcarthus00chauuoft
+    rights_basis: 'Public Domain (pd-us-by-date: published 1890); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread, 2026-11-10: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 166,564 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: chauncy-maurice_history-of-the-sufferings-of-eighteen-carthusians-in-england_1890.txt
+  - title: 'Nova collectio statutorum ordinis Cartusiensis, ea quae in antiquis et novis statutis, ac tertia compilatione dispersa et confusa habebantur simul ordinate disposita complectens'
+    author: 'The Carthusian Order'
+    translator: 'The Carthusian Order'
+    year: '1681'
+    world: catholic-church-ancien-regime
+    why: 'Open-Gaps 158: the Carthusians after 1534.'
+    url: https://archive.org/details/bub_gb_UiYY_oQ31bEC
+    rights_basis: 'Public Domain (pd-us-by-date: published 1681); the archive.org record carries the Public Domain Mark (licenseurl publicdomain/mark/1.0)'
+    verified_by: 'Library thread, 2026-11-10: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 787,288 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: carthusian-statutes_nova-collectio-statutorum-ordinis-cartusiensis-lat_1681.txt
+  - title: 'Annales Minorum trium ordinum a S. Francisco institutorum, ab anno quo desinit P. Lucas Waddingus MDXL usque ad annum MDLIII, continuati a P. F. Joanne de Luca Veneto, tomus XVIII'
+    author: 'Giovanni de Luca OFM'
+    translator: 'Giovanni de Luca OFM'
+    year: '1740'
+    world: catholic-church-ancien-regime
+    why: 'Open-Gaps 158: the Franciscans after 1517.'
+    url: https://archive.org/details/bub_gb_xCMw3QxGw44C
+    rights_basis: 'Public Domain (pd-us-by-date: published 1740); the archive.org record carries the Public Domain Mark (licenseurl publicdomain/mark/1.0)'
+    verified_by: 'Library thread, 2026-11-10: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 2,436,074 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: de-luca-giovanni_annales-minorum-t18-1540-1553-lat_1740.txt
+  - title: 'Constitutiones Fratrum Minorum Sancti Francisci Capuccinorum, a sacra congregatione ... approbatae, ac a S. D. N. papa Urbano VIII confirmatae'
+    author: 'The Capuchin Order'
+    translator: 'The Capuchin Order'
+    year: '1638'
+    world: the-tridentine-church
+    why: 'Open-Gaps 158: the Franciscans after 1517.'
+    url: https://archive.org/details/bub_gb_cq-E0h5IwhAC
+    rights_basis: 'Public Domain (pd-us-by-date: published 1638); the archive.org record carries the Public Domain Mark (licenseurl publicdomain/mark/1.0)'
+    verified_by: 'Library thread, 2026-11-10: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 274,088 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: capuchin-constitutions_constitutiones-fratrum-minorum-capuccinorum-lat_1638.txt
+  - title: 'The Observances in Use at the Augustinian Priory of S. Giles and S. Andrew at Barnwell, Cambridgeshire, edited with a translation and glossary by John Willis Clark'
+    author: 'The Augustinian canons of Barnwell; John Willis Clark (editor)'
+    translator: 'The Augustinian canons of Barnwell; John Willis Clark (editor)'
+    year: '1897'
+    world: latin-papal-church-gregorian
+    why: 'Open-Gaps 158: the canons regular after 1246.'
+    url: https://archive.org/details/observancesinuse00claruoft
+    rights_basis: 'Public Domain (pd-us-by-date: published 1897); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread, 2026-11-10: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 866,157 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: barnwell-priory_observances-in-use-at-barnwell-lat-eng_clark1897.txt
+  - title: 'Statuta renovata candidissimi et canonici ordinis Praemonstratensis'
+    author: 'The Premonstratensian Order'
+    translator: 'The Premonstratensian Order'
+    year: '1626'
+    world: the-tridentine-church
+    why: 'Open-Gaps 158: the canons regular after 1246.'
+    url: https://archive.org/details/bub_gb_SVgeM7sV4-4C
+    rights_basis: 'Public Domain (pd-us-by-date: published 1626 or 1628); the archive.org record carries the Public Domain Mark (licenseurl publicdomain/mark/1.0)'
+    verified_by: 'Library thread, 2026-11-10: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 471,102 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: premonstratensian-statutes_statuta-renovata-ordinis-praemonstratensis-lat_1626.txt
+  - title: 'Gli statuti della sacra religione di S. Giovanni Gierosolimitano, tradotti di latino in volgare da Iacomo Bosio, agente della medesima religione nella corte di Roma'
+    author: 'The Order of St John; Giacomo Bosio (translator)'
+    translator: 'The Order of St John; Giacomo Bosio (translator)'
+    year: '1589'
+    world: the-tridentine-church
+    why: 'Open-Gaps 158: the Order of Malta after 1291.'
+    url: https://archive.org/details/bub_gb_clSnzu7bUasC
+    rights_basis: 'Public Domain (pd-us-by-date: published 1589); the archive.org record carries the Public Domain Mark (licenseurl publicdomain/mark/1.0)'
+    verified_by: 'Library thread, 2026-11-10: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 747,355 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: hospitallers_statuti-della-sacra-religione-di-s-giovanni-gierosolimitano-ita_bosio1589.txt
+  - title: 'The Jesuit Relations and Allied Documents, Vol. 36: Lower Canada, Abenakis: 1650-1651'
+    author: 'Jesuit missionaries of New France; R. G. Thwaites (editor)'
+    translator: 'Jesuit missionaries of New France; R. G. Thwaites (editor)'
+    year: '1899'
+    world: catholic-church-ancien-regime
+    why: 'Open-Gaps 158: the Jesuits after 1650; also the church in New France after 1650.'
+    url: https://archive.org/details/jesuits36jesuuoft
+    rights_basis: 'Public Domain (pd-us-by-date: published 1899); the archive.org record carries a public-domain licenseurl (licenses/publicdomain)'
+    verified_by: 'Library thread, 2026-11-10: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 386,313 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: jesuit-relations_thwaites-v36-fra-eng_1896-1901.txt
+  - title: 'The Jesuit Relations and Allied Documents, Vol. 37: Lower Canada, Abenakis: 1651-1652'
+    author: 'Jesuit missionaries of New France; R. G. Thwaites (editor)'
+    translator: 'Jesuit missionaries of New France; R. G. Thwaites (editor)'
+    year: '1899'
+    world: catholic-church-ancien-regime
+    why: 'Open-Gaps 158: the Jesuits after 1650; also the church in New France after 1650.'
+    url: https://archive.org/details/jesuits37jesuuoft
+    rights_basis: 'Public Domain (pd-us-by-date: published 1899); the archive.org record carries a public-domain licenseurl (licenses/publicdomain)'
+    verified_by: 'Library thread, 2026-11-10: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 402,370 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: jesuit-relations_thwaites-v37-fra-eng_1896-1901.txt
+  - title: 'The Jesuit Relations and Allied Documents, Vol. 38: Abenakis, Lower Canada, Hurons: 1652-1653'
+    author: 'Jesuit missionaries of New France; R. G. Thwaites (editor)'
+    translator: 'Jesuit missionaries of New France; R. G. Thwaites (editor)'
+    year: '1899'
+    world: catholic-church-ancien-regime
+    why: 'Open-Gaps 158: the Jesuits after 1650; also the church in New France after 1650.'
+    url: https://archive.org/details/jesuits38jesuuoft
+    rights_basis: 'Public Domain (pd-us-by-date: published 1899); the archive.org record carries a public-domain licenseurl (licenses/publicdomain)'
+    verified_by: 'Library thread, 2026-11-10: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 464,508 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: jesuit-relations_thwaites-v38-fra-eng_1896-1901.txt
+  - title: 'The Jesuit Relations and Allied Documents, Vol. 39: Hurons: 1653'
+    author: 'Jesuit missionaries of New France; R. G. Thwaites (editor)'
+    translator: 'Jesuit missionaries of New France; R. G. Thwaites (editor)'
+    year: '1899'
+    world: catholic-church-ancien-regime
+    why: 'Open-Gaps 158: the Jesuits after 1650; also the church in New France after 1650.'
+    url: https://archive.org/details/jesuits39jesuuoft
+    rights_basis: 'Public Domain (pd-us-by-date: published 1899); the archive.org record carries a public-domain licenseurl (licenses/publicdomain)'
+    verified_by: 'Library thread, 2026-11-10: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 449,005 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: jesuit-relations_thwaites-v39-fra-eng_1896-1901.txt
+  - title: 'The Jesuit Relations and Allied Documents, Vol. 40: Hurons, Lower Canada, Iroquois: 1653'
+    author: 'Jesuit missionaries of New France; R. G. Thwaites (editor)'
+    translator: 'Jesuit missionaries of New France; R. G. Thwaites (editor)'
+    year: '1898'
+    world: catholic-church-ancien-regime
+    why: 'Open-Gaps 158: the Jesuits after 1650; also the church in New France after 1650.'
+    url: https://archive.org/details/jesuits40jesuuoft
+    rights_basis: 'Public Domain (pd-us-by-date: published 1898); the archive.org record carries a public-domain licenseurl (licenses/publicdomain)'
+    verified_by: 'Library thread, 2026-11-10: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 398,846 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: jesuit-relations_thwaites-v40-fra-eng_1896-1901.txt
+  - title: 'Lettres edifiantes et curieuses, ecrites des missions etrangeres: Memoires de la Chine, tome dix-neuvieme'
+    author: 'Jesuit missionaries in China'
+    translator: 'Jesuit missionaries in China'
+    year: '1781'
+    world: catholic-church-ancien-regime
+    why: 'Open-Gaps 158: the Jesuits after 1650; also Chinese Catholics between 1650 and 1906.'
+    url: https://archive.org/details/lettresdifiant_l19jesu
+    rights_basis: 'Public Domain (pd-us-by-date: published 1781); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, 2026-11-10: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 743,418 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: lettres-edifiantes_memoires-de-la-chine-t19-fra_1781.txt
+  - title: 'Lettres edifiantes et curieuses, ecrites des missions etrangeres: Memoires de la Chine, tome vingtieme'
+    author: 'Jesuit missionaries in China'
+    translator: 'Jesuit missionaries in China'
+    year: '1781'
+    world: catholic-church-ancien-regime
+    why: 'Open-Gaps 158: the Jesuits after 1650; also Chinese Catholics between 1650 and 1906.'
+    url: https://archive.org/details/lettresdifiant_p20jesu
+    rights_basis: 'Public Domain (pd-us-by-date: published 1781); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, 2026-11-10: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 661,139 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: lettres-edifiantes_memoires-de-la-chine-t20-fra_1781.txt
+  - title: 'Lettres edifiantes et curieuses, ecrites des missions etrangeres: Memoires de la Chine, tome vingt-deuxieme'
+    author: 'Jesuit missionaries in China'
+    translator: 'Jesuit missionaries in China'
+    year: '1781'
+    world: catholic-church-ancien-regime
+    why: 'Open-Gaps 158: the Jesuits after 1650; also Chinese Catholics between 1650 and 1906.'
+    url: https://archive.org/details/lettresdifiant_v22jesu
+    rights_basis: 'Public Domain (pd-us-by-date: published 1781); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, 2026-11-10: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 627,938 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: lettres-edifiantes_memoires-de-la-chine-t22-fra_1781.txt

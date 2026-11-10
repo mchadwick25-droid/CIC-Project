@@ -244,6 +244,43 @@ works:
     parishes; kept to the Jesuit world as its tradition text and cross-linked here as context.
     Placed on subject and window; not read for how it relates to the Roman Catechism.
   source_file: canisius_summa-doctrinae-christianae-lat_1573.txt
+- row_id: capuchin-constitutions_constitutiones-fratrum-minorum-capuccinorum-lat_1638--constitutiones-fratrum-minorum-capuccinorum-1638
+  work: Constitutiones Fratrum Minorum Capuccinorum (1638)
+  author: capuchin-constitutions
+  locus: the whole volume; add 12 to OCR line numbers for this file's own
+  role: tradition
+  confidence: provisional
+  note: The Capuchin reform's own law, printed in 1638. Within this entry's window (1517-1650).
+  source_file: capuchin-constitutions_constitutiones-fratrum-minorum-capuccinorum-lat_1638.txt
+- row_id: carmelite-general-chapters_acta-capitulorum-generalium-v1-1318-1593-lat_wessels1912--acta-capitulorum-generalium-o-carm-vol-i-the-chapters-of-1524-to-1593
+  work: 'Acta capitulorum generalium O.Carm., vol. I: the chapters of 1524 to 1593'
+  author: carmelite-general-chapters
+  locus: from about OCR line 18900 to the end (the 1524 reform decree at about 18975-18995);
+    add 12 to OCR line numbers for this file's own
+  role: tradition
+  confidence: provisional
+  note: The order's own legislation in its general chapters from 1524 to 1593. Within this
+    entry's window (1517-1650).
+  source_file: carmelite-general-chapters_acta-capitulorum-generalium-v1-1318-1593-lat_wessels1912.txt
+- row_id: chauncy-maurice_historia-aliquot-martyrum-anglorum-lat_1888--historia-aliquot-martyrum-anglorum-chauncy-1550
+  work: Historia aliquot martyrum Anglorum (Chauncy; 1550)
+  author: chauncy-maurice
+  locus: the history from after the title page at about OCR line 550; add 12 to OCR line numbers
+    for this file's own
+  role: tradition
+  confidence: provisional
+  note: A London Carthusian's own account of his community's martyrdom in 1535, first printed
+    in 1550. Within this entry's window (1517-1650).
+  source_file: chauncy-maurice_historia-aliquot-martyrum-anglorum-lat_1888.txt
+- row_id: chauncy-maurice_history-of-the-sufferings-of-eighteen-carthusians-in-england_1890--the-history-of-the-sufferings-of-eighteen-carthusians-chauncy-in-english
+  work: The History of the Sufferings of Eighteen Carthusians (Chauncy, in English)
+  author: chauncy-maurice
+  locus: the history after the title page; add 12 to OCR line numbers for this file's own
+  role: tradition
+  confidence: provisional
+  note: The English of Chauncy's Historia, a clean witness to the Latin file of 1888. Within
+    this entry's window (1517-1650) by the date of the Latin (1550).
+  source_file: chauncy-maurice_history-of-the-sufferings-of-eighteen-carthusians-in-england_1890.txt
 - row_id: bellarmine_notes-of-the-church_1688--the-notes-of-the-church-de-notis-ecclesiae-examined-a-church
   work: The Notes of the Church (De Notis Ecclesiae) EXAMINED - a Church of England tract
     series refuting Bellarmine's own Notes of the Church
@@ -300,6 +337,15 @@ works:
 
     '
   source_file: council-of-trent_canons-and-decrees_waterworth1848.txt
+- row_id: dominican-general-chapters_acta-capitulorum-generalium-v6-1601-1628-lat_reichert1902--acta-capitulorum-generalium-ordinis-praedicatorum-vol-vi-1601-1628
+  work: Acta capitulorum generalium Ordinis Praedicatorum, vol. VI (1601-1628)
+  author: dominican-general-chapters
+  locus: the acts from about OCR line 247; add 12 to OCR line numbers for this file's own
+  role: tradition
+  confidence: provisional
+  note: The order's own legislation in its general chapters, 1601-1628. Within this entry's
+    window (1517-1650).
+  source_file: dominican-general-chapters_acta-capitulorum-generalium-v6-1601-1628-lat_reichert1902.txt
 - row_id: gibbings_records-of-the-roman-inquisition-minorite-friar_1853--sentence-tridentine
   work: Sentence of the Roman Inquisition against a Minorite friar, 1564 (Gibbings, 1853)
   author: gibbings
@@ -363,6 +409,15 @@ works:
 
     '
   source_file: glostrup_visitatser-i-oslo-og-hamar-stifter-1617-1637-dan_daae-huitfeldt-kaas1895.txt
+- row_id: hospitallers_statuti-della-sacra-religione-di-s-giovanni-gierosolimitano-ita_bosio1589--gli-statuti-della-sacra-religione-di-s-giovanni-gierosolimitano-bosio-1589
+  work: Gli statuti della sacra religione di S. Giovanni Gierosolimitano (Bosio, 1589)
+  author: hospitallers
+  locus: the whole volume; add 12 to OCR line numbers for this file's own
+  role: tradition
+  confidence: provisional
+  note: The Order of Malta's own law, as its general chapter of 1584 left it. Within this
+    entry's window (1517-1650).
+  source_file: hospitallers_statuti-della-sacra-religione-di-s-giovanni-gierosolimitano-ita_bosio1589.txt
 - row_id: jewel_apologia-ecclesiae-anglicanae-lat_1838--epistola-ad-virum-nobilem-d-scipionem-patricium-venetum-de-concilio-tr
   work: Epistola ad virum nobilem D. Scipionem, patricium Venetum, de Concilio Tridentino
     (1562)
@@ -603,6 +658,15 @@ works:
 
     '
   source_file: possevino-giovanni-battista_discorsi-della-vita-di-carlo-borromeo-ita_1591.txt
+- row_id: premonstratensian-statutes_statuta-renovata-ordinis-praemonstratensis-lat_1626--statuta-renovata-ordinis-praemonstratensis-1626
+  work: Statuta renovata ordinis Praemonstratensis (1626)
+  author: premonstratensian-statutes
+  locus: the whole volume; add 12 to OCR line numbers for this file's own
+  role: tradition
+  confidence: provisional
+  note: The Premonstratensian canons' own law as renewed in 1626. Within this entry's window
+    (1517-1650).
+  source_file: premonstratensian-statutes_statuta-renovata-ordinis-praemonstratensis-lat_1626.txt
 - row_id: propaganda-fide_collectanea-decreta-instructiones-rescripta-v1-lat_1907--collectanea-propaganda-fide-v1
   work: Collectanea S. Congregationis de Propaganda Fide, Volume I (Ann. 1622-1866, NN. 1-1299)
   author: propaganda-fide

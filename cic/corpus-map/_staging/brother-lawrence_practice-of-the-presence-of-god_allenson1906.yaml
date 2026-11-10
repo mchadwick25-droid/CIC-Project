@@ -1,0 +1,11 @@
+source_file: brother-lawrence_practice-of-the-presence-of-god_allenson1906.txt
+assignments:
+- row_id: brother-lawrence_practice-of-the-presence-of-god_allenson1906--the-practice-of-the-presence-of-god-the-letters-and-conversations-of-brother-lawrence
+  work: "The Practice of the Presence of God: the letters and conversations of Brother Lawrence"
+  author: brother-lawrence
+  locus: "the letters from about OCR line 1540; the conversations, recorded by Beaufort, from about 708; add 12 to OCR line numbers for this file's own"
+  atlas_ids:
+  - catholic-church-ancien-regime
+  role: tradition
+  confidence: provisional
+  note: "A Discalced Carmelite lay brother of Paris in his own letters, and in conversations recorded by another; written between 1666 and 1691. Within this entry's window (1650-1815)."
