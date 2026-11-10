@@ -1,0 +1,404 @@
+[
+ {
+  "cid": "C008",
+  "name": "Mesrop Mashtots",
+  "home": {
+   "id": "armenian-christianity-conversion-era",
+   "name": "Armenian Christianity (conversion era)"
+  },
+  "dates": "alphabet devised c. 405 (census); 406 in Issaverdens. Death year not confirmed by me; the input file gives 440.",
+  "dates_source": "cic-website/data/world-census.json armenian-christianity-conversion-era longDescription; issaverdens_armenian-ritual-parts1-4_1876.txt:15672-15673",
+  "own_words": "none held. The Library has Koriun's Life of Mesrop (langlois_collection-historiens-armenie-tome2-fra_1869.txt, Koriun section), written by his pupil about him, and Moses of Khoren's account of the alphabet. No letter, creed or signed act of his own. The Ritual is called 'Mashdotz' after him as compiler (Ritual line 9925-9927), but that is a later tradition's attribution, not a text the Library holds as his.",
+  "party_in_own_right": "Yes. The conversion-era sources treat him as the actor who made the Armenian alphabet and led the missions to the Albanians and Iberians.",
+  "founder_of": null,
+  "counted_traditions": [
+   {
+    "id": "armenian-christianity-era-8",
+    "name": "Armenian Christianity — the Mekhitarists and the Catholic Patriarchate",
+    "clean": 9,
+    "quote": {
+     "file": "issaverdens_armenian-ritual-parts1-4_1876.txt",
+     "line": 9926,
+     "text": "name of its compiler St. Mesrob surnamed Mashdotz. This eminent man, as we have"
+    }
+   },
+   {
+    "id": "armenian-christianity-zartonk",
+    "name": "Armenian Christianity — the Zartonk Century",
+    "clean": 13,
+    "quote": {
+     "file": "issaverdens_armenia-and-the-armenians-v2-ecclesiastical-history_1875.txt",
+     "line": 2117,
+     "text": "At this time St. Mesrob became famous for sanctity and wisdom. He was the son"
+    }
+   }
+  ],
+  "home_citation": {
+   "file": "langlois_collection-historiens-armenie-tome2-fra_1869.txt",
+   "line": 3439,
+   "text": "Cet Iioinme s'appelait Mesrob; il était fils de Vartan"
+  },
+  "why": "Mesrop Mashtots was the monk who devised the Armenian alphabet around 405. That let the church put the Bible and liturgy into Armenian. Later Armenian writers, mostly Mekhitarist authors, name him again and again as the maker of the nation's letters and of its church books.",
+  "recommendation": "hold",
+  "reason": "The Library holds no writing of his own and no recorded position, so the second part of the test fails under answer C. The count is sound and he founded no movement.",
+  "doubts": "Both counted traditions lean on one author (Issaverdens), and the same Ritual passages sit on both shelves, so the two counts are not fully independent. Era-8 also rests on Nurikhan 1915 (lines 18330, 18367). The Ritual's 'Mashdotz' attribution is worth a look if Mark thinks a compiled ritual could count as his recorded work; I judge it does not. The quote at 9926 spans line breaks (joined with single spaces). The input notes say Koriun's Life holds many more Mesrob lines than the sample; I did not count them."
+ },
+ {
+  "cid": "C019",
+  "name": "Valentinus",
+  "home": {
+   "id": "valentinian-and-other-gnostic-christianities",
+   "name": "Valentinian & other Gnostic Christianities"
+  },
+  "dates": "taught in Rome from about 136; census voices list him as Alexandrian teacher. Death year not given in the sources I read.",
+  "dates_source": "cic-website/data/world-census.json valentinian-and-other-gnostic-christianities longDescription (came to Rome around 136); input people_row year 140",
+  "own_words": "none held under his own author id. Fragments reach us only as quotations in his opponents: Clement quotes 'a letter to certain people' (anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml, lines 34289-34297) and Hippolytus quotes a psalm (anf05 line 9787). Under answer C these are reported or quoted material, and the Gospel of Truth is of disputed authorship.",
+  "party_in_own_right": "Yes. Tertullian, Hippolytus and the others treat him as a teacher with his own system, not as a name in a list.",
+  "founder_of": {
+   "id": "valentinian-and-other-gnostic-christianities",
+   "name": "Valentinian & other Gnostic Christianities"
+  },
+  "counted_traditions": [
+   {
+    "id": "latin-apologists",
+    "name": "The Latin Apologists",
+    "clean": 5,
+    "quote": {
+     "file": "tertullian_opera-pars3-lat_kroymann-csel47.txt",
+     "line": 9663,
+     "text": "ita nusquam iam Valentinus, et tamen Valentiniani, qui per Valentinum."
+    }
+   },
+   {
+    "id": "roman-church-third-century",
+    "name": "The Roman Church in the Third Century",
+    "clean": 6,
+    "quote": {
+     "file": "anf05_hippolytus-cyprian-caius-novatian.xml",
+     "line": 9151,
+     "text": "There is, says (Valentinus), not anything at all begotten, but the"
+    }
+   }
+  ],
+  "home_citation": {
+   "file": "anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+   "line": 34289,
+   "text": "Valentinus too, in a letter to certain people, writes in these very words respecting the appendages"
+  },
+  "why": "Valentinus was a teacher who came to Rome around 136 and taught that a lesser craftsman made the visible world. His students carried his name. Tertullian and Hippolytus both write at length against him.",
+  "recommendation": "hold",
+  "reason": "The census movement is the Valentinians, named for him, so this is a founder question for Mark. The Library also holds no work of his as his own, only quotations in opponents.",
+  "doubts": "The home citation is Clement's report, not the Library's own text of his letter. Counted passages are hostile summaries by Tertullian and Hippolytus (the 9151 'says (Valentinus)' is the translator's bracket). The input notes list namesakes (bishops of Valencia, Numidia, Hadrumetum) which I did not find in the counted refs. Roman-church count depends on Hippolytus's Refutation being on that shelf (input note says div2 3.3). The Latin-apologists 'clean' count includes Oehler 602 and the anf03 note at 16096; the latter is an endnote cross-reference inside a line naming Valentinus, so treat it as weak."
+ },
+ {
+  "cid": "C043",
+  "name": "Methodius of Olympus",
+  "home": {
+   "id": "anatolian-church-third-century",
+   "name": "The Anatolian Church in the Third Century"
+  },
+  "dates": "bishop of Olympus and Patara in Lycia; martyred about 312 (the ANF introduction) or around 311 (census). Birth not given.",
+  "dates_source": "anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml:29754-29770 (about the year 312); census anatolian-church-third-century longDescription (died around 311)",
+  "own_words": "held: The Banquet of the Ten Virgins (Symposium), Fragments of Methodius, and Concerning Free-Will, all in anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml (the Banquet and Fragments shelved as role tradition on anatolian-church-third-century). The Oration on the Palms and the Oration Concerning Simeon and Anna are also shelved there but are also on the pseudepigrapha shelf, so I do not count them as his.",
+  "party_in_own_right": "Yes. He is a bishop who wrote against Origen and Porphyry, and later writers cite him as an authority in his own right.",
+  "founder_of": null,
+  "counted_traditions": [
+   {
+    "id": "russian-church-nikon-to-holy-synod",
+    "name": "The Russian Church — Nikon to the Holy Synod",
+    "clean": 5,
+    "quote": {
+     "file": "nikon_replies-against-streshnev-and-ligarides_palmer1871.txt",
+     "line": 21582,
+     "text": "It will be well to recite the very words of St. Methodius, which are these: “The woman clothed with the sun is the Church"
+    }
+   },
+   {
+    "id": "catholic-church-ancien-regime",
+    "name": "The Catholic Church of the Ancien Régime",
+    "clean": 8,
+    "quote": {
+     "file": "liguori_glories-of-mary_1852.txt",
+     "line": 4252,
+     "text": "Wherefore, St. Methodius the martyr exclaims: Rejoice, oh Mary, that a Son has fallen to thy lot as thy debtor"
+    }
+   }
+  ],
+  "home_citation": {
+   "file": "anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml",
+   "line": 29762,
+   "text": "and at the end of the latest of the great persecutions of the Church, about the year 312, he suffered martyrdom at Chalcis in Greece."
+  },
+  "why": "Methodius was bishop of Olympus in Lycia and wrote the Banquet of the Ten Virgins, a Christian answer to Plato's Symposium that praises virginity. He also argued against Origen. Later Russian and Catholic writers quote him as an early authority on the Church and on Mary.",
+  "recommendation": "include",
+  "reason": "Every part of the test holds: his own works are held, he founded no movement, and his home shelf is the Anatolian church. Both later traditions name him clearly, though see the doubts.",
+  "doubts": "Russian count is clustered: four Nikon citations come from one argument on Revelation 12 (all from the Banquet, which is his), plus one Ligarides passage (8321, citing a work by Methodius 'bishop and martyr'). Four of them could be read as one discussion; a reviewer may want to confirm they count as 5 distinct passages. Liguori's citations (8 counted) include sayings now ascribed to pseudo-Methodius, so they prove the name is cited, not that the words are his. The input notes a 'bishop of Patara' Antichrist treatise (pseudo-Methodius) in the Russian contexts, which I did not count. Nikon quote contains curly quotation marks as in the file."
+ },
+ {
+  "cid": "C051",
+  "name": "Hilarion of Gaza",
+  "home": {
+   "id": "palestinian-ascetic-monasticism-early",
+   "name": "Early Palestinian Ascetic Monasticism"
+  },
+  "dates": "returned to Gaza from Egypt in about 306 (census). Birth and death years not confirmed by me; the input file gives last year 371.",
+  "dates_source": "cic-website/data/world-census.json palestinian-ascetic-monasticism-early longDescription",
+  "own_words": "none held. The Library holds Jerome's Life of Hilarion (npnf206_jerome-principal-works.xml, div2 6.2), written about him. No letter or recorded position of his own.",
+  "party_in_own_right": "Yes. Jerome's Life, and later writers, treat him as the monk who brought Egyptian anchoritism to the Palestinian coast.",
+  "founder_of": null,
+  "counted_traditions": [
+   {
+    "id": "hieronymian-ascetic-literary",
+    "name": "Hieronymian Ascetic-Literary Christianity",
+    "clean": 9,
+    "quote": {
+     "file": "npnf206_jerome-principal-works.xml",
+     "line": 30297,
+     "text": "The first person bold enough to break into the presence of the blessed Hilarion was a certain woman of Eleutheropolis"
+    }
+   },
+   {
+    "id": "the-tridentine-church",
+    "name": "The Tridentine Church",
+    "clean": 6,
+    "quote": {
+     "file": "bellarmine_eternal-happiness-of-the-saints_dalton.txt",
+     "line": 7022,
+     "text": "This St. Jerome relates of the body of St. Hilarion, for he affirms that ten months after his burial his body was found perfect"
+    }
+   }
+  ],
+  "home_citation": {
+   "file": "npnf206_jerome-principal-works.xml",
+   "line": 30297,
+   "text": "The first person bold enough to break into the presence of the blessed Hilarion was a certain woman of Eleutheropolis"
+  },
+  "why": "Hilarion was a disciple of Antony who brought the desert life to the coast near Gaza. What we know of him comes mostly from Jerome's Life of him. Later Catholic writers cite that Life and the Roman Breviary keeps his feast.",
+  "recommendation": "hold",
+  "reason": "The Library holds nothing written by him and no recorded position, so the second part of the test fails. He founded no census movement.",
+  "doubts": "The refs list given for the Hieronymian tradition does not point at Hilarion: lines I checked (npnf101 26231, 28579, 28589, npnf206 27944, npnf203 41236, 51742, Chronici 45125) are about Donatus, not Hilarion. Only the best_quote (npnf206 30298) is a genuine Hilarion passage, so the Hieronymian count of 9 is unverified. Even if sound, those passages are in the Life of Hilarion, which is also shelved on his own home shelf, so it is not an independent later tradition. The home citation is the same Life, since the home shelf holds no text of his own. The input notes also flag a Hilarion monachus (Allatius) and several Russian Hilarions as other people. The Tridentine refs (Bacci 11597, Bellarmine 7023, Granada 20436, Breviary 75069/80570/80822) all name Hilarion of Gaza as far as I could read; Breviary 80806/80822 are one lesson."
+ },
+ {
+  "cid": "C062",
+  "name": "Basil of Caesarea (Basil the Great)",
+  "home": {
+   "id": "cappadocian-nicene-pastoral-monastic-tradition",
+   "name": "Cappadocian Christianity"
+  },
+  "dates": "born 329 or 330, died 1 January 379; bishop of Caesarea from about 370.",
+  "dates_source": "npnf208_basil-letters-select-works.xml:556 (329 or 330 born), :776 (379 death), :880 (no reason to question the date 329 or 330)",
+  "own_words": "held, many works: De Spiritu Sancto, the Hexaemeron, the Letters, the Ascetic Works (Longer and Shorter Rules), Address to Young Men, and Against Eunomius, among others (e.g. npnf208_basil-letters-select-works.xml; basil_opera-omnia-pg29-grc-lat_migne1857.txt; basil_ascetic-works-longer-shorter-rules_clarke1925.txt), shelved as role tradition on the Cappadocian shelf.",
+  "party_in_own_right": "Yes. He is a bishop and theologian who acted in his own right in the Trinitarian fight over the Spirit and in building communal monastic life.",
+  "founder_of": null,
+  "counted_traditions": [
+   {
+    "id": "byzantine-church-palaiologan",
+    "name": "The Byzantine Church, Palaiologan Era",
+    "clean": 8,
+    "quote": {
+     "file": "patrologia-orientalis-tomus15_petit-documents-concile-de-florence-purgatoire-grc-fra_graffin-nau1927.txt",
+     "line": 2932,
+     "text": "tum etiam quae Basilius Magnus in oratio- nibus suis ad Pentecosten pro more recitandis"
+    }
+   },
+   {
+    "id": "orthodoxy-under-the-ottomans-parish-millet-and-n",
+    "name": "Orthodoxy under the Ottomans - Parish, Millet & Neomartyrs",
+    "clean": 6,
+    "quote": {
+     "file": "dositheus_acts-and-decrees-synod-jerusalem_robertson1899.txt",
+     "line": 2951,
+     "text": "he should have written a short treatise against his enemies, as was the case with Basil the Great, when calumniated"
+    }
+   }
+  ],
+  "home_citation": {
+   "file": "npnf208_basil-letters-select-works.xml",
+   "line": 8839,
+   "text": "They have an old sophism, invented by Aetius, the champion of this heresy"
+  },
+  "why": "Basil was bishop of Caesarea in Cappadocia. His On the Holy Spirit defended the Spirit's full divinity from how the church already prayed and baptized. His rules shaped Eastern monastic life. Later Byzantine and Orthodox writers call him 'the Great' and quote him as a standing authority.",
+  "recommendation": "include",
+  "reason": "All parts of the test hold: his own works are held on his home shelf, no census movement is named for him, and both later traditions cite him clearly as Basil the Great.",
+  "doubts": "The bare name 'Basil' is full of namesakes (Basel, Basil of Seleucia, the sebastos Basil), but the passages I read in both traditions say 'ho megas Basileios', 'Basilius Magnus' or 'Basil the Great'. Byzantine count of 8 includes two Philotheos Kokkinos passages (Palamas PG 151, lines 17467, 18102) that rest on a running head, per the input notes; without them it is 6. The Ottoman count treats a Mogila citation printed in two Kimmel editions as one. The Pneumatomachian and Anomoean shelves also hold his name, but are his opponents, not his home. The Byzantine quote has a line-break hyphen (oratio- nibus) kept as in the file. Basil's rule is also behind the 'Basilian' monastic orders, which are not a census movement."
+ },
+ {
+  "cid": "C095",
+  "name": "Kaleb",
+  "home": {
+   "id": "aksumite-christianity",
+   "name": "Aksumite Christianity"
+  },
+  "dates": "c. 520-523. Mendes says he lived in 521 (fifth year of Justin); Almeida says he reigned about 523.",
+  "dates_source": "mendes_expeditio-aethiopica-liber-1-2-lat_beccari1908.txt:6676-6678; almeida_historia-aethiopiae-liber-5-8-por_beccari1907.txt:7573",
+  "own_words": "none held. The Library has a prayer ascribed to King Kaleb inside the Book of the Himyarites ('the closest surviving thing to the king's own words', per the shelf row, around line 2072 of book-of-the-himyarites-syr-eng_moberg1924.txt), but it is reported by a Syriac author. Under answer C reported speech does not count. No letter, inscription or signed act of his is held.",
+  "party_in_own_right": "Yes. Procopius, Cosmas, the Himyarite book and the Ethiopian lives treat him as the king who led the war against Himyar after Najran.",
+  "founder_of": null,
+  "counted_traditions": [
+   {
+    "id": "the-ethiopian-monastic-flowering",
+    "name": "The Ethiopian Monastic Flowering",
+    "clean": 6,
+    "quote": {
+     "file": "gadla-pantalewon-yared_vitae-sanctorum-antiquiorum-lat_conti-rossini1904.txt",
+     "line": 2288,
+     "text": "Rex vero noster Kaleb strenuus fuit et prudens et ortho- doxus."
+    }
+   },
+   {
+    "id": "the-society-of-jesus",
+    "name": "The Society of Jesus",
+    "clean": 5,
+    "quote": {
+     "file": "mendes_expeditio-aethiopica-liber-1-2-lat_beccari1908.txt",
+     "line": 6676,
+     "text": "XLVI Caleb, a nostris dictus sanctus Elesbaan. Vivebat anno quin- gentesimo vigesimo primo"
+    }
+   }
+  ],
+  "home_citation": {
+   "file": "book-of-the-himyarites-syr-eng_moberg1924.txt",
+   "line": 3724,
+   "text": "divine vengeance befell the persecutors and a new state of things was established through Kaleb, the liberator sent by God."
+  },
+  "why": "Kaleb, also called Elesbaan, was the Aksumite king who sent an army across the Red Sea against the Himyarite persecutors after the Najran martyrdoms. Later Ethiopian lives and Jesuit writers on Ethiopia remember him as a saint-king.",
+  "recommendation": "hold",
+  "reason": "The Library holds no document in his name, only a prayer reported by others, so the second part of the test fails under answer C.",
+  "doubts": "Jesuit count is exactly 5 and one passage (Mendes 6353) is garbled by a marginal gloss; spellings vary (Caleb, Elesbaan). The Ethiopian count rests mostly on the Gadla Pantalewon, a single Life. The home citation is the Himyarites book's editor's summary (the Moberg translation's own commentary), not a medieval or ancient narrator; I found no better text naming him on the shelf. Input notes record an uncounted Synaxarium notice (20 Genbot) that would add a passage."
+ },
+ {
+  "cid": "C115",
+  "name": "Bede",
+  "home": {
+   "id": "anglo-saxon-christianity",
+   "name": "Anglo-Saxon Christianity"
+  },
+  "dates": "c. 672/3-735 CE.",
+  "dates_source": "bede_ecclesiastical-history-english-people_giles1903.txt:4 (Creator header)",
+  "own_words": "held: The Ecclesiastical History of the English Nation (bede_ecclesiastical-history-english-people_giles1903.txt), shelved as role tradition on anglo-saxon-christianity and as context on the Irish and Welsh shelves.",
+  "party_in_own_right": "Yes. He is the monk and historian of Jarrow whose own History is the main record of the English church, and later churches treat him as an authority and a saint.",
+  "founder_of": null,
+  "counted_traditions": [
+   {
+    "id": "lollardy",
+    "name": "Lollardy",
+    "clean": 6,
+    "quote": {
+     "file": "wyclif_select-english-works-v3_arnold1871.txt",
+     "line": 17672,
+     "text": "Seynt Bede seij?, We sellen Crist whanne we forsaken treufe, and taken falsnesse and meyntene it."
+    }
+   },
+   {
+    "id": "the-tridentine-church",
+    "name": "The Tridentine Church",
+    "clean": 8,
+    "quote": {
+     "file": "roman-breviary_bute1908.txt",
+     "line": 71002,
+     "text": "the Venerable Bede saith that brighter times never shone upon England than those wherein Theodore administered her"
+    }
+   }
+  ],
+  "home_citation": {
+   "file": "bede_ecclesiastical-history-english-people_giles1903.txt",
+   "line": 115,
+   "text": "To the most glorious king Ceolwulph, Bede, the servant of Christ and Priest."
+  },
+  "why": "Bede was a monk of Jarrow who wrote the Ecclesiastical History of the English Nation. Wycliffite writers cite him against clerical greed and abuses. Tridentine texts give him a feast, a collect and many Breviary lessons.",
+  "recommendation": "include",
+  "reason": "His own History is held on his home shelf, he founded no movement, and both later traditions name him clearly and often.",
+  "doubts": "Tridentine count of 8 includes five 'Homily by the Venerable Bede' lesson headings that carry Bute's bracketed additions; the solid ones are Bellarmine 7654, the Missal collect 34728 and the Breviary lesson 71003. Lollardy's passages are citations by Wyclif and by the Apology for Lollard Doctrines; each said 'Bede' without a first name, but the content (commentary on Luke, Gregory, the Fathers) fits the Venerable Bede. The Wycliffite quote carries the OCR '?' in 'seij?'. Namesakes in the input notes (Dutch 'bede' = prayer, Bede-roll) were excluded."
+ },
+ {
+  "cid": "C148",
+  "name": "Francis of Assisi",
+  "home": {
+   "id": "the-franciscan-movement",
+   "name": "The Franciscan Movement"
+  },
+  "dates": "born about 1182, died 3 October 1226.",
+  "dates_source": "fioretti_little-flowers-of-st-francis_heywood1906.txt:618-620 and :938",
+  "own_words": "none held under his own author id. The census says his Testament, Rules and Canticle survive in his own words, but the Library's Franciscan shelf holds works about him (Actus beati Francisci, Fioretti, Speculum perfectionis, the Bullarium Franciscanum). I found no file with his Testament or Canticle as such; the Speculum and Fioretti contain no 'Canticle of the Sun' or 'Creatures' string.",
+  "party_in_own_right": "Yes. Every source treats him as the actor.",
+  "founder_of": {
+   "id": "the-franciscan-movement",
+   "name": "The Franciscan Movement"
+  },
+  "counted_traditions": [
+   {
+    "id": "observant-reform-and-popular-preaching",
+    "name": "Observant Reform & Popular Preaching",
+    "clean": 7,
+    "quote": {
+     "file": "bernardino-of-siena_sermons_orlandi-robins1920.txt",
+     "line": 8177,
+     "text": "we have it that once a hare fleeing before the dogs, sought safety in the bosom of Saint Francis"
+    }
+   },
+   {
+    "id": "the-tridentine-church",
+    "name": "The Tridentine Church",
+    "clean": 5,
+    "quote": {
+     "file": "bellarmine_minds-ascent-to-god_1925.txt",
+     "line": 5115,
+     "text": "Saint Bonaventura reports that Saint Francis was unlearned, and that he had not given great atten- tion to rhetoric"
+    }
+   }
+  ],
+  "home_citation": {
+   "file": "fioretti_little-flowers-of-st-francis_heywood1906.txt",
+   "line": 618,
+   "text": "son of Peter Bernardone, a wealthy cloth merchant, was born at Assisi in or about the year 1182"
+  },
+  "why": "Francis was a cloth merchant's son who gave up his inheritance and began a life of poverty and preaching. The friars who followed him became the Franciscan order. Bernardino of Siena and Bellarmine both cite him as the model of holiness and preaching.",
+  "recommendation": "hold",
+  "reason": "He founded the Franciscan movement, a census entry, so this is a founder question for Mark. The Library also holds none of his own writings by author id.",
+  "doubts": "Tridentine count is exactly 5 and rests on one book (Bellarmine's Mind's Ascent), with some passages naming him only through Bonaventure's Life. Bernardino count of 7 groups the Rufino story as one. 'Saint Francis Xavier' and 'Order of Saint Francis' hits were excluded by the input notes. Quote at 8179 spans line breaks."
+ },
+ {
+  "cid": "C164",
+  "name": "Hugo Grotius",
+  "home": {
+   "id": "the-remonstrants-and-dort",
+   "name": "The Remonstrants and Dort"
+  },
+  "dates": "1583-1645.",
+  "dates_source": "grotius_defence-of-the-catholic-faith-satisfaction-of-christ_foster1889.txt:2 (Creator header)",
+  "own_words": "held: A Defence of the Catholic Faith concerning the Satisfaction of Christ, against Faustus Socinus (Leiden 1617, Foster's English 1889), in grotius_defence-of-the-catholic-faith-satisfaction-of-christ_foster1889.txt, shelved as role tradition on the-remonstrants-and-dort and as context on the anti-Trinitarian shelf. Note the Library holds Grotius's text only within Foster's translation, with Foster's introduction and notes in the same file.",
+  "party_in_own_right": "Yes. Jurist and Remonstrant sympathizer, imprisoned for his part in the affair; later English writers treat him as a party in the argument over Antichrist, the Church of Rome and obedience.",
+  "founder_of": null,
+  "counted_traditions": [
+   {
+    "id": "restoration-georgian-church-of-england",
+    "name": "The Restoration and Georgian Church of England",
+    "clean": 15,
+    "quote": {
+     "file": "burnet_discourse-of-the-pastoral-care_1692.txt",
+     "line": 7263,
+     "text": "Grotius his Book of the truth of the Chrifiian Religion, with his Notes up- on it , ought to be read and almoft"
+    }
+   },
+   {
+    "id": "english-old-dissent",
+    "name": "English Old Dissent — Presbyterians and Congregationalists",
+    "clean": 6,
+    "quote": {
+     "file": "baxter_reliquiae-baxterianae_sylvester1696.txt",
+     "line": 51478,
+     "text": "nor<lo 1 believe Lying lawful after all that Grotius de Jure Belli"
+    }
+   }
+  ],
+  "home_citation": {
+   "file": "grotius_defence-of-the-catholic-faith-satisfaction-of-christ_foster1889.txt",
+   "line": 2489,
+   "text": "will first state that doctrine which the church of Christ has hitherto defended with unshaken faith, as derived from the sacred Scriptures"
+  },
+  "why": "Hugo Grotius was a Dutch jurist who sided with the Remonstrants. In 1617 he wrote a defence of the doctrine that Christ's death satisfied divine justice. English Anglican and Dissenting writers after 1660 cite him, for and against, on Scripture, Antichrist and the Church of Rome.",
+  "recommendation": "include",
+  "reason": "His own treatise is held on his home shelf, he founded no movement, and both later English traditions name him repeatedly.",
+  "doubts": "The OCR in the 1681-1696 files is poor (long s, stray marks), so quotes carry noise exactly as in the file. Baxter count is 6 after removing disputed hits; 44728 is a fresh passage not in the supplied contexts, without which it is 5 (still enough). Burnet counts 3 and Barlow 12, with Barlow's clusters grouped by argument. 'Grotian' hits in Baxter name the man's followers but also him. Foster's translation is in 1889 English; the Library holds the 1617 treatise only through it."
+ }
+]

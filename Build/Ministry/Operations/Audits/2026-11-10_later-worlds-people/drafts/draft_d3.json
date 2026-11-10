@@ -1,0 +1,367 @@
+[
+ {
+  "cid": "C012",
+  "name": "Priscillian",
+  "home": {
+   "id": "priscillianist-asceticism",
+   "name": "Priscillianist Asceticism"
+  },
+  "dates": "died 385 (last_year in candidates.json); the Shakers text gives 384. No birth date read from the corpus.",
+  "dates_source": "candidates.json C012 last_year; youngs-benjamin-seth_testimony-of-christs-second-appearing_1810.txt:13674-13675",
+  "own_words": "none held. The Library holds no work of Priscillian's own. Dossier priscillianist-asceticism_Source_Readiness_Dossier.md line 42 says his tractates survive in Latin but are not vendored. The shelf holds only hostile or outside accounts (Augustine, Contra Mendacium; Sulpicius Severus, Sacred History).",
+  "party_in_own_right": "Yes. Sulpicius Severus treats him as the leader of the party condemned at Saragossa, made bishop by the condemned party and put to death under Maximus (Isidore).",
+  "founder_of": {
+   "id": "priscillianist-asceticism",
+   "name": "Priscillianist Asceticism"
+  },
+  "counted_traditions": [
+   {
+    "id": "nicene-visigothic-iberia",
+    "name": "Nicene Visigothic Iberia",
+    "clean": 6,
+    "quote": {
+     "file": "isidore-seville_sententiae-eccl-officiis-historia-gothorum-pl83-lat_migne1860.txt",
+     "line": 116945,
+     "text": "Priscillianus, aceusan- te Itacio, a Maximo tyranno gladio czeditur"
+    }
+   },
+   {
+    "id": "byzantine-imperial-church-justinianic",
+    "name": "The Byzantine Imperial Church (Justinianic)",
+    "clean": 5,
+    "quote": {
+     "file": "npnf212_leo-great-gregory-great.xml",
+     "line": 3728,
+     "text": "Accordingly it is not Dictinius but Priscillian that they read"
+    }
+   },
+   {
+    "id": "shakers",
+    "name": "Shakers",
+    "clean": 6,
+    "quote": {
+     "file": "youngs-benjamin-seth_testimony-of-christs-second-appearing_1810.txt",
+     "line": 13674,
+     "text": "In consequence of which, in the year 384, Priscillian and many more were put to death."
+    }
+   }
+  ],
+  "home_citation": {
+   "file": "npnf211_sulpitius-severus-vincent-lerins-cassian.xml",
+   "line": 11520,
+   "text": "Priscillian, a layman indeed, but the leader in all these troubles"
+  },
+  "why": "Priscillian was a Spanish layman who taught a strict ascetic Christianity in the 370s. He was accused by Ithacius and executed under Maximus. Visigothic Spain, the Byzantine imperial church and the Shakers all name him, mostly as a warning or as a martyr to persecution.",
+  "recommendation": "hold",
+  "reason": "The census movement Priscillianist Asceticism (c. 370-450) is named for him and its own description says he began the teaching, so he is a founder, which is Mark's call. Also the Library holds no writing of his.",
+  "doubts": "The refs lists in candidates.json for C012 point at other names (Pelagius, Servetus), so I re-searched each tradition by hand; the counts rest on the input notes plus my own greps (Isidore, Leo Ep. 15, Youngs). Shakers text is Ministry prose that partly quotes Robinson and Mosheim. The Leo letter is the NPNF translation. If Mark rules founders out of person entries, this row is out. If he allows them, the missing own-words still needs a ruling."
+ },
+ {
+  "cid": "C023",
+  "name": "Maximilla",
+  "home": {
+   "id": "montanism-the-new-prophecy",
+   "name": "Montanism (the New Prophecy)"
+  },
+  "dates": "active c. 165 (candidates.json year and last_year are both 165; census gives Montanism as c. 165-400s). No life dates in the corpus read.",
+  "dates_source": "candidates.json C023; census montanism-the-new-prophecy",
+  "own_words": "none held. Her sayings reach the Library only as quotations inside hostile reporters (Epiphanius, Panarion 48; Eusebius, Church History V.16-17, quoting Asterius Urbanus; Hippolytus). Under Answer C, speech others report for her does not count. The Montanism shelf holds no Montanist own writing at all.",
+  "party_in_own_right": "Yes. Every source treats her as one of the two prophetesses of the New Prophecy, with oracles of her own and a followers' claim on her words.",
+  "founder_of": null,
+  "counted_traditions": [
+   {
+    "id": "palestinian-ascetic-monasticism-early",
+    "name": "Early Palestinian Ascetic Monasticism",
+    "clean": 10,
+    "quote": {
+     "file": "epiphanius_panarion-haer-48-69-corpus-haereseologicum-t2-pars-posterior-grc-lat_oehler1860.txt",
+     "line": 2795,
+     "text": "Haec igitur Maximilla, quam Phryges isti praedicant, audite, Christi filii, quemadmodum loquitur"
+    }
+   },
+   {
+    "id": "imperial-juridical-christianity",
+    "name": "Imperial and Juridical Christianity",
+    "clean": 5,
+    "quote": {
+     "file": "npnf201_eusebius-church-history-life-of-constantine.xml",
+     "line": 29824,
+     "text": "attempted to refute the spirit in Maximilla, but were prevented by others who plainly co-operated with the spirit"
+    }
+   }
+  ],
+  "home_citation": {
+   "file": "anf05_hippolytus-cyprian-caius-novatian.xml",
+   "line": 13114,
+   "text": "women, called a certain Priscilla and Maximilla, whom they supposed (to be) prophetesses."
+  },
+  "why": "Maximilla was one of the two women prophets who worked beside Montanus in Phrygia in the second century. Epiphanius and Eusebius quote her oracles to refute them, including her claim that no prophet would follow her. Later writers name her whenever they argue about whether prophecy has ended.",
+  "recommendation": "hold",
+  "reason": "The Library holds no words of hers that count under Answer C: every saying is reported by an opponent. The founder question also arises, since the census founder sentence has her prophesying alongside Montanus.",
+  "doubts": "The refs lists for C023 are misaligned (they show Manes and Novatian lines), so I re-grepped; Epiphanius Panarion 48-49 hits and Eusebius HE V.16 hits are real. Eusebius V.16 mostly summarises an anonymous anti-Montanist; the shelf places Eusebius's History in imperial-juridical (c. 312-451) but V.16 reports an earlier anti-Montanist writer, so 'later tradition' is thin for that count. The Hippolytus home citation is hostile outside description, not her voice. Her home is clear; she was not the founder (Montanus is), but she is named as a co-prophet in the movement's own founding sentence."
+ },
+ {
+  "cid": "C045",
+  "name": "Pamphilus",
+  "home": {
+   "id": "alexandria-catechetical",
+   "name": "Alexandrian Catechetical / Christian-Platonist Tradition"
+  },
+  "dates": "died 309 (martyred at Caesarea). The translator's notice also says he was jailed from late 307.",
+  "dates_source": "anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml:16876-16886",
+  "own_words": "disputed. The Library shelves 'Fragments of Pamphilus (exposition on the Acts)' (anf06 div2 6.9) and Rufinus's Latin of the 'Apology for Origen' (npnf203). The anf06 notice says the Acts work is ascribed by many to him and by others to Euthalius. The Apology was written with Eusebius and survives only as Book 1 in Rufinus. Jerome says he wrote nothing of his own except some letters to friends. Under Answer C, disputed works do not count.",
+  "party_in_own_right": "Yes. The sources treat him as a presbyter of Caesarea, founder of its library, Origen's defender and a martyr.",
+  "founder_of": null,
+  "counted_traditions": [
+   {
+    "id": "imperial-juridical-christianity",
+    "name": "Imperial and Juridical Christianity",
+    "clean": 6,
+    "quote": {
+     "file": "npnf201_eusebius-church-history-life-of-constantine.xml",
+     "line": 44791,
+     "text": "Pamphilus, a presbyter, who was the great glory of the parish of Cæsarea"
+    }
+   },
+   {
+    "id": "hieronymian-ascetic-literary",
+    "name": "Hieronymian Ascetic-Literary Christianity",
+    "clean": 6,
+    "quote": {
+     "file": "npnf203_theodoret-jerome-gennadius-rufinus.xml",
+     "line": 53982,
+     "text": "Pamphilus wrote nothing except some short letters to his friends"
+    }
+   }
+  ],
+  "home_citation": {
+   "file": "npnf201_eusebius-church-history-life-of-constantine.xml",
+   "line": 47068,
+   "text": "is time to describe the great and celebrated spectacle of Pamphilus,"
+  },
+  "why": "Pamphilus was a presbyter at Caesarea in Palestine who built a great Christian library and copied Origen's works. He was imprisoned in 307 and martyred in 309. Eusebius took his surname 'Pamphili' from him. Later worlds name him mainly in the quarrel between Jerome and Rufinus over whether he really wrote the defence of Origen.",
+  "recommendation": "hold",
+  "reason": "No own words that count: his one named work is of disputed authorship and Jerome says he wrote almost nothing. The home is also a judgment call.",
+  "doubts": "Home: the only shelf holding a Pamphilus work as role tradition is alexandria-catechetical (provisional, 'assigned to the entry whose tradition he carried'). His life was in Caesarea, and the Palestinian pre-Constantinian entry (c. 185-312) fits his dates; Mark should choose. The Palestine shelf holds Eusebius's Martyrs of Palestine, which I used for the home citation. Counted traditions: the Eusebius passages sit on the imperial-juridical shelf (c. 312-451) though written by his disciple Eusebius, so they are close to the home voice. The Hieronymian passage is Jerome (Apology) repeating Eusebius's remark that Pamphilus wrote only letters. Namesakes: 'Eusebius Pamphili' is Eusebius, and Pamphilus is also a pseudonym in the Zurich Letters; the input notes say these were excluded. Refs list in candidates.json not used."
+ },
+ {
+  "cid": "C057",
+  "name": "Constantius II",
+  "home": {
+   "id": "homoian-arian-christianity",
+   "name": "Homoian ('Arian') Christianity"
+  },
+  "dates": "emperor; first dated item in the Library is the 353 letter to the princes of Auxumis; candidates.json gives 361 as last_year. Reign dates not read from the corpus.",
+  "dates_source": "census homoian-arian-christianity people row (year 353); candidates.json C057 last_year",
+  "own_words": "a document issued in his name: the letter 'Constantius to the princes of Auxumis', preserved in Athanasius, Apology to Constantius 31 (npnf204, lines 36143-36144). No work of his has a shelf row of its own. (Constantius of Lyon, author of the Life of Germanus, is a different man.)",
+  "party_in_own_right": "Yes. The Library's sources treat him as the emperor whose church policy decided the Arian conflict, banished Athanasius and Hilary, and backed the Homoian settlement.",
+  "founder_of": null,
+  "counted_traditions": [
+   {
+    "id": "orthodoxy-under-the-ottomans-1650-1821",
+    "name": "Orthodoxy under the Ottomans, the Second Act",
+    "clean": 6,
+    "quote": {
+     "file": "nikodemos-hagiorite_synaxaristes-vol1-sep-feb-grc_1900.txt",
+     "line": 26919,
+     "text": "Κωνστάντιος δέ ό βασιλεύς, επειδή ήτον Ά- ρειανός, ότε έγύρισεν άπό τήν Άντιόχειαν,"
+    }
+   },
+   {
+    "id": "the-kollyvades-and-greek-renewal",
+    "name": "The Kollyvades & Greek Renewal",
+    "clean": 10,
+    "quote": {
+     "file": "nikodemos-hagiorite_synaxaristes-vol2-mar-aug-grc_1900.txt",
+     "line": 14689,
+     "text": "ό τ•?;ς 'Λνατί;λ•ί;ς βασιλεύς Κωνστάντιος, όστις απατηθείς, έφρόνει τά των 'Λρειανών,"
+    }
+   }
+  ],
+  "home_citation": {
+   "file": "npnf204_athanasius-select-works-letters.xml",
+   "line": 36143,
+   "text": "we command that the same doctrine be professed in your Churches as in theirs."
+  },
+  "why": "Constantius II was the Roman emperor whose church policy favoured the Arian party and sent Nicene bishops such as Athanasius and Hilary into exile. Later worlds name him because the lives of Athanasius and other saints retell his persecutions. Nikodemos the Hagiorite's saints' lives carry most of the later naming.",
+  "recommendation": "hold",
+  "reason": "The counted passages are not independent: all come from the same two volumes of Nikodemos's Synaxaristes, and the same files serve all three Ottoman and Kollyvades shelves. The home is also not settled.",
+  "doubts": "Counting by paragraph rather than sentence the note gives 5 (Ottoman 1650) and 8 (Kollyvades), all in the same two volumes (vol1 and vol2 of the Synaxaristes). Some lines are other Constantius men (a new hieromartyr, vol2 54443), and the OCR is poor. Home: no shelf holds his work as role tradition. The census lists him as a voice in both gallic-nicene-episcopate and homoian-arian-christianity; I chose the Homoian entry because he is its imperial patron, but imperial-juridical-christianity (c. 312-451) is also possible. He is already a 'voice' row in two movements' people lists, which is not the same as a person entry. refs lists in candidates.json are misaligned; I re-searched Nikodemos by hand."
+ },
+ {
+  "cid": "C064",
+  "name": "Gregory of Nazianzus",
+  "home": {
+   "id": "cappadocian-nicene-pastoral-monastic-tradition",
+   "name": "Cappadocian Christianity"
+  },
+  "dates": "active c. 372-390 per candidates.json; no birth or death date read from the corpus. NPNF 207 says he retired to Arianzus about the end of 383.",
+  "dates_source": "candidates.json C064 year 372, last_year 390; npnf207_cyril-jerusalem-gregory-nazianzen.xml:43353",
+  "own_words": "held, role tradition on the Cappadocian shelf: Select Orations, Select Letters, The Five Theological Orations (all in npnf207_cyril-jerusalem-gregory-nazianzen.xml); Orations PG 35 (gregory-nazianzen_orationes-pg35-grc-lat_migne1857.txt); the two Invectives against Julian (king1888 files); and the metrical poem on the canon of Scripture (npnf214_seven-ecumenical-councils.xml).",
+  "party_in_own_right": "Yes. He presided over part of the Council of Constantinople in 381, preached the Five Theological Orations and wrote the letters to Cledonius against Apollinarius.",
+  "founder_of": null,
+  "counted_traditions": [
+   {
+    "id": "the-english-reformation-and-elizabethan-settleme",
+    "name": "The English Reformation & Elizabethan Settlement",
+    "clean": 5,
+    "quote": {
+     "file": "jewel_apology-of-the-church-of-england_bacon-morley1888.txt",
+     "line": 1314,
+     "text": "writers, Gregory Nazianzen speaketh thus of the pitiful state of his own"
+    }
+   },
+   {
+    "id": "recusant-english-catholicism",
+    "name": "Recusant English Catholicism",
+    "clean": 8,
+    "quote": {
+     "file": "southwell_funeral-tears-triumphs-epistle-of-comfort_walter1822.txt",
+     "line": 6783,
+     "text": "Nazianzen calleth it a child*s game, who buildeth houses"
+    }
+   }
+  ],
+  "home_citation": {
+   "file": "npnf207_cyril-jerusalem-gregory-nazianzen.xml",
+   "line": 44624,
+   "text": "If anyone does not believe that Holy Mary is the Mother of God, he is severed from the Godhead."
+  },
+  "why": "Gregory was a fourth-century bishop and poet, one of the three Cappadocian Fathers, famous for the Five Theological Orations on the Trinity. Both sides of the English religious quarrel quote him: Jewel for the Church of England, and Southwell, Allen and Campion for the Catholic recusants.",
+  "recommendation": "include",
+  "reason": "Every part of the test holds: he is a party in his own right, the Library holds his own works on the Cappadocian shelf, he founded no census movement, and two later English traditions name him repeatedly in their own voice.",
+  "doubts": "The count first found him under the Anomoean and Apollinarian entries because they argued against him; home is Cappadocian. I checked Jewel (five separate Nazianzen passages, lines 746, 1167, 1314, 2760, 3635), Southwell (6006, 6783) and found Nazianzen hits in Allen v2 and Campion. Gregory of Nyssa is already a person entry and is a different man. The census lists Gregory in the Cappadocian people row as a voice, not a person entry. Both counted traditions are English and may reuse the same patristic commonplaces; the passages are still distinct. The input's own-works count (4) includes only Cappadocian-shelf rows with role tradition."
+ },
+ {
+  "cid": "C098",
+  "name": "Justinian",
+  "home": {
+   "id": "byzantine-imperial-church-justinianic",
+   "name": "The Byzantine Imperial Church (Justinianic)"
+  },
+  "dates": "reigned 527-565 (527 from the census Byzantine people row; 565 from candidates.json last_year). Not re-read from a corpus source.",
+  "dates_source": "census byzantine-imperial-church-justinianic people row; candidates.json C098",
+  "own_words": "held, role tradition: Justinian, Novellae (Corpus Iuris Civilis v3, Latin and Greek, Schoell-Kroll 1895), the ecclesiastical constitutions, file justinian_novellae-corpus-iuris-civilis-v3-lat-grc_schoell-kroll1895.txt. These are laws issued in his name.",
+  "party_in_own_right": "Yes. He legislated for bishops, monks and heretics and called the Fifth Council, and the Library treats him as the main actor of his own entry.",
+  "founder_of": null,
+  "counted_traditions": [
+   {
+    "id": "russian-church-nikon-to-holy-synod",
+    "name": "The Russian Church, Nikon to the Holy Synod",
+    "clean": 8,
+    "quote": {
+     "file": "ligarides_history-of-the-condemnation-of-patriarch-nikon_palmer1873.txt",
+     "line": 5240,
+     "text": "For novell exxx. of Justinian has these words :"
+    }
+   },
+   {
+    "id": "coptic-christianity-under-early-islam",
+    "name": "Coptic Christianity under Early Islam",
+    "clean": 7,
+    "quote": {
+     "file": "severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt",
+     "line": 36468,
+     "text": "And Justinian the prince was like Nestorius; and one day he commanded that the bishops, falsely so called, should assemble for"
+    }
+   }
+  ],
+  "home_citation": {
+   "file": "justinian_novellae-corpus-iuris-civilis-v3-lat-grc_schoell-kroll1895.txt",
+   "line": 10364,
+   "text": "Maxima quidem in hominibus sunt dona dei a superna collata clementia sacerdotium et imperium, illud quidem divinis ministrans,"
+  },
+  "why": "Justinian I was the Byzantine emperor from 527 to 565. He wrote church law, forced the Chalcedonian line on the East and called the Fifth Council. The Russians cite his Novels as law; the Copts remember him as the persecutor of Severus and Theodosius.",
+  "recommendation": "include",
+  "reason": "He has laws in his own name on his home shelf, founded no movement, and two later traditions name him as lawgiver (Russian) and as persecutor (Coptic) in their own texts.",
+  "doubts": "The Coptic count could pick up Justinian II; I checked the Evetts History of the Patriarchs hits (lines 36141, 36325, 36468, 37465, 38467, 38809, 39735, 40120) and all are Justinian I (Severus, Theodosius). Ligarides line 5240 cites a Novel as law (the OCR reads 'exxx.'); the input notes say all eight Russian passages are Justinian I (Nikon, Ligarides, Platon). The home quote is the preface of a Novel (the file marks it 'Praefatio'). The Novellae file has Greek and Latin; I quoted the Latin. Hostile Coptic voice is still the tradition's own."
+ },
+ {
+  "cid": "C140",
+  "name": "Gregory VII",
+  "home": {
+   "id": "latin-papal-church-gregorian",
+   "name": "The Latin Papal Church (Gregorian Reform to Innocent III)"
+  },
+  "dates": "pope 1073-1085 (1073 from the census people row; 1085 from candidates.json last_year); the 1076 excommunication of Henry IV is in Mirbt no. 235.",
+  "dates_source": "census latin-papal-church-gregorian people row; mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt:10360",
+  "own_words": "documents issued in his name, held on the Gregorian shelf through Mirbt, Quellen (e.g. no. 235, the 1076 excommunication and deposition of Henry IV, which the census people row cites). No separate Registrum is shelved.",
+  "party_in_own_right": "Yes. He is the pope who deposed an emperor and gave the Gregorian reform its name; the census people list already treats him as a voice of the movement.",
+  "founder_of": null,
+  "counted_traditions": [
+   {
+    "id": "german-pietism-spener-francke-halle",
+    "name": "German Pietism: Spener, Francke, Halle",
+    "clean": 6,
+    "quote": {
+     "file": "bengel_introduction-to-exposition-of-apocalypse_robertson1757.txt",
+     "line": 10218,
+     "text": "At lafl came Hildebrand. By his decrees and exorbitant aBmis many began to fee"
+    }
+   },
+   {
+    "id": "restoration-georgian-church-of-england",
+    "name": "The Restoration and Georgian Church of England",
+    "clean": 10,
+    "quote": {
+     "file": "barlow_brutum-fulmen_1681.txt",
+     "line": 3068,
+     "text": "Pope Hildebrand, or (m) Gregory. Vl. depofeth the Emperor Henry 1V.. by rhe Authority given (n ) by God,"
+    }
+   }
+  ],
+  "home_citation": {
+   "file": "mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt",
+   "line": 10369,
+   "text": "quod tua sancta Romana ecclesia me invitum ad sua gubernacula traxit"
+  },
+  "why": "Gregory VII (Hildebrand) was pope from 1073 to 1085. He excommunicated and deposed the German emperor Henry IV and made papal supremacy a working claim. Later Protestants blame him for the papacy's claims, so Bengel and the English writers name him as the start of the 'Hildebrandine' papacy.",
+  "recommendation": "include",
+  "reason": "He has papal acts in his own name on his home shelf, founded no movement, and two later Protestant traditions name him repeatedly in their own voice.",
+  "doubts": "Both later voices are hostile, and each tradition's count rests mostly on one author (Bengel in German and English; Barlow's Brutum Fulmen plus one Church of England tract). Many counted hits use the name Hildebrand; I checked Barlow and Bengel and these name the pope. Namesakes (John Hildebrand of Ephrata, Joachim Hildebrand and others) were excluded in the input notes. OCR reads 'Gregory. Vl.' for VII in Barlow. Mirbt is a modern editor's collection of documents; the home quote is the 1076 prayer to Peter, set in his own name."
+ },
+ {
+  "cid": "C151",
+  "name": "Bonaventure",
+  "home": {
+   "id": "the-franciscan-movement",
+   "name": "The Franciscan Movement"
+  },
+  "dates": "minister general of the Franciscans 1257-1274 (1257 from the census people row; 1274 from candidates.json last_year and Glassberger's note on his successor).",
+  "dates_source": "census the-franciscan-movement people row; glassberger_chronica-analecta-franciscana-v2-lat_1887.txt:7193",
+  "own_words": "none held. No corpus-map row names Bonaventure as an author. The census people row cites only a Latin sentence of his Itinerarium V quoted in McCann's note to the Cloud treatises (cloud-of-unknowing_cloud-and-other-treatises_mccann1924.txt:3990-3991), which is a quotation, not a held work. Glassberger reports letters and chapters under him, but that is the chronicler's report.",
+  "party_in_own_right": "Yes. Glassberger's chronicle records him as minister general who held chapters and issued orders, and later Franciscan sources treat him as a main figure.",
+  "founder_of": null,
+  "counted_traditions": [
+   {
+    "id": "catholic-church-ancien-regime",
+    "name": "The Catholic Church of the Ancien Régime",
+    "clean": 5,
+    "quote": {
+     "file": "liguori_glories-of-mary_1852.txt",
+     "line": 511,
+     "text": "St. Bonaventure declares that those who are devoted to publishing the glories of Mary, are secure of paradise"
+    }
+   },
+   {
+    "id": "observant-reform-and-popular-preaching",
+    "name": "Observant Reform & Popular Preaching",
+    "clean": 11,
+    "quote": {
+     "file": "glassberger_chronica-analecta-franciscana-v2-lat_1887.txt",
+     "line": 6888,
+     "text": "Anno Domini 1269 frater Bonaventura, Generalis Minister, celebravit generale capitulum Assisii"
+    }
+   }
+  ],
+  "home_citation": {
+   "file": "glassberger_chronica-analecta-franciscana-v2-lat_1887.txt",
+   "line": 6702,
+   "text": "ter Bonaventura, Generalis Minister, litteras de Lugduno domino Decano et toti Capi-"
+  },
+  "why": "Bonaventure was a Franciscan theologian who became minister general in 1257 and wrote the standard life of Francis. Liguori quotes him on Mary. Glassberger's Observant chronicle records his chapters and rulings.",
+  "recommendation": "hold",
+  "reason": "The Library holds none of his own writing, only a one-sentence Latin quotation in an editor's note and other men's reports of him. That fails Answer C.",
+  "doubts": "Home is clear (the Franciscan movement, 1209-1300), but Glassberger's text is mostly chronicler's prose and editorial notes from the Quaracchi editors, whose college is named for him. Liguori's 'St. Bonaventure declares' may cite works not by Bonaventure; I did not check what Liguori cites, so the passage names the person but may not match his own words. Input notes call the Fraticelli, Ancien-regime and some Scholz passages weak. If Mark counts Bullarium or other held documents issued in his name, I found none. The home quote is Glassberger's report of a letter he sent from Lyon, which is not his own words. No namesake found beyond Bonaventura Costacciaro and Bonaventura de Castro-Franco (Trent attendees), excluded in the notes."
+ }
+]
