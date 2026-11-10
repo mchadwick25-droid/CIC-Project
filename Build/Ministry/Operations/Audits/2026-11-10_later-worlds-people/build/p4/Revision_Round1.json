@@ -1,0 +1,47 @@
+[
+ {
+  "id": "B1",
+  "action": "fixed",
+  "what": "Grotius dates '1617-1645', start 1617, end 1645; teaser opens 'Leiden and the Netherlands, 1617 to 1645.' Fact rows: Foster line 364 for 1617 and line 2 for 1645. Row order after Arminius (1603) now holds."
+ },
+ {
+  "id": "B2",
+  "action": "fixed",
+  "what": "Grotius longDescription and why now use the review's wording: jurist of Holland on the Remonstrant side; in 1617 he published at Leiden a treatise on theology. 'one' and 'leading' dropped and the 'one treatise' fact row removed. Fact rows: Foster 364 (first edition, Leyden, 1617), Foster 756-757 (fellow-Arminians), the census voices line and the file header for 'jurist of Holland'. For readability the first paragraph is split in two, so the second begins 'It answers Faustus Socinus'; the third paragraph is reworded in short sentences from Foster's own words."
+ },
+ {
+  "id": "B3",
+  "action": "fixed",
+  "what": "Grotius legacy rewritten with the review's text: Baxter wrote against him twice; warned against 'Grotianism'; Pierce defended Grotius as a peaceable Protestant, so Baxter collected his late writings to prove he had turned Papist; also rejected what Grotius wrote for lying. New rows quote Baxter lines 23644-23651 ('Tho. fierce' is OCR for Pierce, flagged)."
+ },
+ {
+  "id": "B4",
+  "action": "fixed",
+  "what": "Grotius and Gregory VII and Innocent III floorNotes are 'Not in question.' (the two popes already were). Grotius's caveats removed from floorNote; the dispute is in legacy (B3). Rows 45 and 46 dropped."
+ },
+ {
+  "id": "B5",
+  "action": "fixed",
+  "what": "Innocent sourcing replaced with the review's text ('Moderate' ... Mirbt run of letters and bulls 1198 to 1215 and Lateran IV canons; Theiner's further letters including 1205 and 1209). New rows for Mirbt (March 1198 letter, 24 Aug 1215 bull, Lateran IV heading), Theiner's title and the two letters. The census-only Lateran row is replaced by Mirbt rows: 'Transsubstantiation' heading and canon 21 on yearly confession."
+ },
+ {
+  "id": "B6",
+  "action": "fixed",
+  "what": "Gregory VII: Dictatus Papae no longer his own words. longDescription: 'A list of papal claims, the Dictatus Papae, is entered in his Register for 1075 ... Mirbt notes Sackur's view that Cardinal Deusdedit wrote it.' why: 'A list of papal claims in his Register for 1075 ...'. voices[0]: 'pope whose 1076 sentence on Henry IV and report on Canossa the Library holds'. Rows added from Mirbt 11186-11189. Flag filed for the coordinator on the Avignon link's concerns tag and its note; not edited."
+ },
+ {
+  "id": "M2",
+  "action": "fixed",
+  "what": "Gregory VII longDescription: renderings replaced with the review's text ('did not take the seat as a prize', 'seize Peter's place by worldly cunning, for the glory of the world', 'oaths they had sworn, or would swear'). Fact rows rebuilt, including 'vel facient'."
+ },
+ {
+  "id": "M3",
+  "action": "fixed",
+  "what": "Innocent III longDescription: 1198 letter rendered in full as in the review, with the greater and lesser offices and the moon 'truly less than it in size and quality, in place and in effect'. Fact rows added for each clause. The hyphenated 'qua- litate' is quoted as the file has it."
+ },
+ {
+  "id": "M9",
+  "action": "fixed",
+  "what": "Grotius relationsSummary now ends 'English writers after 1660 name him; his legacy below says how.' The jailing sentence is removed with its row (the census-only claim); the Foster sentence about the ban is kept. The imprisonment want and flag are reworded."
+ }
+]

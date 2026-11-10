@@ -1,0 +1,7 @@
+[
+ {
+  "id": "R3-1",
+  "action": "fixed by the coordinator with the reviewer's given text",
+  "what": "fact_table[117].sentence -> 'He was born in Cappadocia.'; fact_table[118].sentence trimmed to the Macrina sentence. Fact-table record only; no census field changes."
+ }
+]

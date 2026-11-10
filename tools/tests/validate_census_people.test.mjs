@@ -11,6 +11,11 @@ import { spawnSync } from "node:child_process";
 const census = JSON.parse(readFileSync("cic-website/data/world-census.json", "utf8"));
 const PERSON = "tertullian-s-voice";
 const HOME = "latin-apologists";
+// Other persons told within HOME are told within no tradition here, so a case that empties
+// HOME's people list tests PERSON alone.
+const alone = c => c.movements
+  .filter(x => x.kind === "person" && x.toldWithin === HOME && x.id !== PERSON)
+  .forEach(x => { x.toldWithin = null; });
 
 function errorsFor(change) {
   const c = structuredClone(census);
@@ -35,17 +40,17 @@ test("a person entry needs toldWithin", () => {
 });
 
 test("a person may be told within no tradition", () => {
-  assert.deepEqual(errorsFor((c, m) => { m(PERSON).toldWithin = null; m(HOME).people = []; m(HOME).peopleNote = "No one is shown."; }), []);
+  assert.deepEqual(errorsFor((c, m) => { alone(c); m(PERSON).toldWithin = null; m(HOME).people = []; m(HOME).peopleNote = "No one is shown."; }), []);
 });
 
 test("toldWithin must name a movement that lists the person", () => {
   assert.equal(errorsFor((c, m) => { m(PERSON).toldWithin = "no-such-movement"; }).length, 2);
-  assert.equal(errorsFor((c, m) => { m(HOME).people = []; m(HOME).peopleNote = "No one is shown."; }).length, 1);
+  assert.equal(errorsFor((c, m) => { alone(c); m(HOME).people = []; m(HOME).peopleNote = "No one is shown."; }).length, 1);
 });
 
 test("a movement that names no one says why in peopleNote, and only then", () => {
-  assert.equal(errorsFor((c, m) => { m(PERSON).toldWithin = null; m(HOME).people = []; delete m(HOME).peopleNote; }).length, 1);
-  assert.equal(errorsFor((c, m) => { m(PERSON).toldWithin = null; m(HOME).people = []; m(HOME).peopleNote = " "; }).length, 1);
+  assert.equal(errorsFor((c, m) => { alone(c); m(PERSON).toldWithin = null; m(HOME).people = []; delete m(HOME).peopleNote; }).length, 1);
+  assert.equal(errorsFor((c, m) => { alone(c); m(PERSON).toldWithin = null; m(HOME).people = []; m(HOME).peopleNote = " "; }).length, 1);
   assert.equal(errorsFor((c, m) => { m(HOME).peopleNote = "No one is shown."; }).length, 1);
   assert.equal(errorsFor((c, m) => { m(PERSON).peopleNote = "No one is shown."; }).length, 1);
 });
@@ -55,7 +60,7 @@ test("toldWithin is only for a person entry", () => {
 });
 
 test("every movement has a people list and every entry a review status", () => {
-  assert.equal(errorsFor((c, m) => { delete m(HOME).people; }).length, 2);
+  assert.equal(errorsFor((c, m) => { alone(c); delete m(HOME).people; }).length, 2);
   assert.equal(errorsFor((c, m) => { m(HOME).reviewStatus = "checked"; }).length, 1);
 });
 
@@ -63,20 +68,20 @@ const ARNOBIUS_ROW = readFileSync("cic/corpus-map/latin-apologists.yaml", "utf8"
 const arnobius = (h, extra = {}) => ({ name: "Arnobius", year: 300, voice: h.voices.findIndex(v => v.includes("Arnobius")), author: "arnobius", held: ARNOBIUS_ROW, ...extra });
 
 test("a named voice must be named in its voices line and held on its own shelf by its author", () => {
-  assert.deepEqual(errorsFor((c, m) => { const h = m(HOME); h.people = [{ person: PERSON }, arnobius(h)]; }), []);
-  assert.equal(errorsFor((c, m) => { const h = m(HOME); h.people = [{ person: PERSON }, arnobius(h, { held: undefined })]; }).length, 1);
-  assert.equal(errorsFor((c, m) => { const h = m(HOME); h.people = [{ person: PERSON }, arnobius(h, { author: "lactantius" })]; }).length, 1);
-  assert.equal(errorsFor((c, m) => { const h = m(HOME); h.people = [{ person: PERSON }, arnobius(h, { held: "no-such-row" })]; }).length, 1);
-  assert.equal(errorsFor((c, m) => { const h = m(HOME); h.people = [{ person: PERSON }, arnobius(h, { name: "Nobody Named Here" })]; }).length, 1);
+  assert.deepEqual(errorsFor((c, m) => { alone(c); const h = m(HOME); h.people = [{ person: PERSON }, arnobius(h)]; }), []);
+  assert.equal(errorsFor((c, m) => { alone(c); const h = m(HOME); h.people = [{ person: PERSON }, arnobius(h, { held: undefined })]; }).length, 1);
+  assert.equal(errorsFor((c, m) => { alone(c); const h = m(HOME); h.people = [{ person: PERSON }, arnobius(h, { author: "lactantius" })]; }).length, 1);
+  assert.equal(errorsFor((c, m) => { alone(c); const h = m(HOME); h.people = [{ person: PERSON }, arnobius(h, { held: "no-such-row" })]; }).length, 1);
+  assert.equal(errorsFor((c, m) => { alone(c); const h = m(HOME); h.people = [{ person: PERSON }, arnobius(h, { name: "Nobody Named Here" })]; }).length, 1);
 });
 
 test("the people list runs in date order", () => {
-  assert.equal(errorsFor((c, m) => { const h = m(HOME); h.people = [{ person: PERSON }, arnobius(h, { year: 100 })]; }).length, 1);
+  assert.equal(errorsFor((c, m) => { alone(c); const h = m(HOME); h.people = [{ person: PERSON }, arnobius(h, { year: 100 })]; }).length, 1);
 });
 
 test("a person entry is not listed again as a named voice", () => {
   assert.equal(errorsFor((c, m) => {
-    const h = m(HOME);
+    alone(c); const h = m(HOME);
     h.people = [{ person: PERSON }, arnobius(h, { name: "Tertullian", voice: 0 })];
   }).filter(l => l.includes("already in this row")).length, 1);
 });

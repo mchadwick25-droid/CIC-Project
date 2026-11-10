@@ -1,0 +1,37 @@
+[
+ {
+  "id": "R1",
+  "action": "no change",
+  "what": "Pamphilus is held (decided after the review): pamphilus-of-caesarea removed entirely, with his entry, fact rows, rows item, home and own-words flags and the Apology want. The finding is not applied."
+ },
+ {
+  "id": "R3",
+  "action": "no change",
+  "what": "Pamphilus removed; finding ignored."
+ },
+ {
+  "id": "R5",
+  "action": "no change",
+  "what": "Pamphilus removed; finding ignored."
+ },
+ {
+  "id": "R9",
+  "action": "fixed",
+  "what": "Lactantius why now reads 'Jerome says he was called to Nicomedia in the reign of Diocletian.' Fact row sentence updated; quote unchanged."
+ },
+ {
+  "id": "R10",
+  "action": "fixed",
+  "what": "Polycarp longDescription para 1 now reads 'Irenaeus saw Polycarp in his early youth.' Fact row sentence updated."
+ },
+ {
+  "id": "R11",
+  "action": "fixed",
+  "what": "Methodius legacy para 1 now reads '...quote a gloss on Revelation that gives Methodius's words.' Fact rows and flag wording updated to 'gloss'."
+ },
+ {
+  "id": "floorNote (brief)",
+  "action": "fixed",
+  "what": "Polycarp and Methodius floorNote reduced to 'Not in question.'; their date and source caveats moved to sourcing with their fact rows. Lactantius floorNote left (Jerome's doctrinal reservation)."
+ }
+]
