@@ -1,0 +1,920 @@
+{
+ "edits": [
+  {
+   "atlasId": "VIII.4",
+   "id": "the-holiness-movement",
+   "old": [
+    {
+     "country": "United Kingdom",
+     "countryId": "Q145",
+     "place": "Britain",
+     "placeId": "Q23666",
+     "pleiadesId": "20419"
+    }
+   ],
+   "new": [
+    {
+     "country": "United Kingdom",
+     "countryId": "Q145",
+     "place": "Britain",
+     "placeId": "Q23666",
+     "pleiadesId": "20419"
+    },
+    {
+     "country": "United States",
+     "countryId": "Q30",
+     "place": "N. America",
+     "placeId": "Q49"
+    },
+    {
+     "country": "Canada",
+     "countryId": "Q16",
+     "place": "N. America",
+     "placeId": "Q49"
+    }
+   ],
+   "evidence": [
+    {
+     "country": "United States",
+     "field": "why",
+     "quote": "New York doctor's wife"
+    },
+    {
+     "country": "Canada",
+     "field": "documentedStories[0].text",
+     "quote": "camp meeting in Canada"
+    }
+   ]
+  },
+  {
+   "atlasId": "VIII.10",
+   "id": "restorationist-apocalyptic-ferment-and-adventism",
+   "old": [],
+   "new": [
+    {
+     "country": "United States",
+     "countryId": "Q30",
+     "place": "N. America",
+     "placeId": "Q49"
+    }
+   ],
+   "evidence": [
+    {
+     "country": "United States",
+     "field": "teaser",
+     "quote": "New England"
+    }
+   ]
+  },
+  {
+   "atlasId": "VIII.14",
+   "id": "latter-day-saints-lds",
+   "old": [],
+   "new": [
+    {
+     "country": "United States",
+     "countryId": "Q30",
+     "place": "N. America",
+     "placeId": "Q49"
+    }
+   ],
+   "evidence": [
+    {
+     "country": "United States",
+     "field": "why",
+     "quote": "western New York"
+    }
+   ]
+  },
+  {
+   "atlasId": "VIII.15",
+   "id": "jehovah-s-witnesses-bible-students",
+   "old": [],
+   "new": [
+    {
+     "country": "United States",
+     "countryId": "Q30",
+     "place": "N. America",
+     "placeId": "Q49"
+    }
+   ],
+   "evidence": [
+    {
+     "country": "United States",
+     "field": "why",
+     "quote": "Pittsburgh"
+    }
+   ]
+  },
+  {
+   "atlasId": "VIII.16",
+   "id": "christian-science",
+   "old": [],
+   "new": [
+    {
+     "country": "United States",
+     "countryId": "Q30",
+     "place": "N. America",
+     "placeId": "Q49"
+    }
+   ],
+   "evidence": [
+    {
+     "country": "United States",
+     "field": "longDescription",
+     "quote": "New England"
+    }
+   ]
+  },
+  {
+   "atlasId": "VIII.17",
+   "id": "christadelphians",
+   "old": [
+    {
+     "country": "United Kingdom",
+     "countryId": "Q145",
+     "place": "Britain",
+     "placeId": "Q23666",
+     "pleiadesId": "20419"
+    }
+   ],
+   "new": [
+    {
+     "country": "United Kingdom",
+     "countryId": "Q145",
+     "place": "Britain",
+     "placeId": "Q23666",
+     "pleiadesId": "20419"
+    },
+    {
+     "country": "United States",
+     "countryId": "Q30",
+     "place": "N. America",
+     "placeId": "Q49"
+    }
+   ],
+   "evidence": [
+    {
+     "country": "United States",
+     "field": "why",
+     "quote": "American Civil War"
+    }
+   ]
+  },
+  {
+   "atlasId": "VIII.20",
+   "id": "spiritualism-new-thought",
+   "old": [
+    {
+     "country": "United Kingdom",
+     "countryId": "Q145",
+     "place": "Britain",
+     "placeId": "Q23666",
+     "pleiadesId": "20419"
+    }
+   ],
+   "new": [
+    {
+     "country": "United Kingdom",
+     "countryId": "Q145",
+     "place": "Britain",
+     "placeId": "Q23666",
+     "pleiadesId": "20419"
+    },
+    {
+     "country": "United States",
+     "countryId": "Q30",
+     "place": "N. America",
+     "placeId": "Q49"
+    }
+   ],
+   "evidence": [
+    {
+     "country": "United States",
+     "field": "why",
+     "quote": "Hydesville, New York"
+    }
+   ]
+  },
+  {
+   "atlasId": "VIII.24",
+   "id": "the-sunday-school-and-bible-institute-movement",
+   "old": [
+    {
+     "country": "United Kingdom",
+     "countryId": "Q145",
+     "place": "Britain",
+     "placeId": "Q23666",
+     "pleiadesId": "20419"
+    }
+   ],
+   "new": [
+    {
+     "country": "United Kingdom",
+     "countryId": "Q145",
+     "place": "Britain",
+     "placeId": "Q23666",
+     "pleiadesId": "20419"
+    },
+    {
+     "country": "United States",
+     "countryId": "Q30",
+     "place": "N. America",
+     "placeId": "Q49"
+    }
+   ],
+   "evidence": [
+    {
+     "country": "United States",
+     "field": "why",
+     "quote": "Moody's in Chicago"
+    }
+   ]
+  },
+  {
+   "atlasId": "VIII.25",
+   "id": "the-student-volunteer-movement-and-edinburgh-191",
+   "old": [
+    {
+     "country": "United Kingdom",
+     "countryId": "Q145",
+     "place": "Britain",
+     "placeId": "Q23666",
+     "pleiadesId": "20419"
+    }
+   ],
+   "new": [
+    {
+     "country": "United Kingdom",
+     "countryId": "Q145",
+     "place": "Britain",
+     "placeId": "Q23666",
+     "pleiadesId": "20419"
+    },
+    {
+     "country": "United States",
+     "countryId": "Q30",
+     "place": "N. America",
+     "placeId": "Q49"
+    }
+   ],
+   "evidence": [
+    {
+     "country": "United States",
+     "field": "why",
+     "quote": "Massachusetts conference"
+    }
+   ]
+  },
+  {
+   "atlasId": "VIII.34",
+   "id": "nineteenth-century-methodism",
+   "old": [
+    {
+     "country": "United Kingdom",
+     "countryId": "Q145",
+     "place": "Britain",
+     "placeId": "Q23666",
+     "pleiadesId": "20419"
+    }
+   ],
+   "new": [
+    {
+     "country": "United Kingdom",
+     "countryId": "Q145",
+     "place": "Britain",
+     "placeId": "Q23666",
+     "pleiadesId": "20419"
+    },
+    {
+     "country": "United States",
+     "countryId": "Q30",
+     "place": "N. America",
+     "placeId": "Q49"
+    },
+    {
+     "country": "Canada",
+     "countryId": "Q16",
+     "place": "N. America",
+     "placeId": "Q49"
+    }
+   ],
+   "evidence": [
+    {
+     "country": "United States",
+     "field": "documentedStories[0].text",
+     "quote": "James Osgood Andrew of Georgia"
+    },
+    {
+     "country": "Canada",
+     "field": "documentedStories[1].text",
+     "quote": "emigrated to Ontario"
+    }
+   ]
+  },
+  {
+   "atlasId": "VIII.35",
+   "id": "nineteenth-century-baptists",
+   "old": [
+    {
+     "country": "United Kingdom",
+     "countryId": "Q145",
+     "place": "Britain",
+     "placeId": "Q23666",
+     "pleiadesId": "20419"
+    }
+   ],
+   "new": [
+    {
+     "country": "United Kingdom",
+     "countryId": "Q145",
+     "place": "Britain",
+     "placeId": "Q23666",
+     "pleiadesId": "20419"
+    },
+    {
+     "country": "United States",
+     "countryId": "Q30",
+     "place": "N. America",
+     "placeId": "Q49"
+    }
+   ],
+   "evidence": [
+    {
+     "country": "United States",
+     "field": "voices[2]",
+     "quote": "Augusta, Georgia"
+    }
+   ]
+  },
+  {
+   "atlasId": "VIII.36",
+   "id": "nineteenth-century-quakerism-separations",
+   "old": [
+    {
+     "country": "United Kingdom",
+     "countryId": "Q145",
+     "place": "Britain",
+     "placeId": "Q23666",
+     "pleiadesId": "20419"
+    }
+   ],
+   "new": [
+    {
+     "country": "United Kingdom",
+     "countryId": "Q145",
+     "place": "Britain",
+     "placeId": "Q23666",
+     "pleiadesId": "20419"
+    },
+    {
+     "country": "United States",
+     "countryId": "Q30",
+     "place": "N. America",
+     "placeId": "Q49"
+    }
+   ],
+   "evidence": [
+    {
+     "country": "United States",
+     "field": "longDescription",
+     "quote": "Long Island"
+    }
+   ]
+  },
+  {
+   "atlasId": "VIII.50",
+   "id": "dutch-neo-calvinism-secession-churches",
+   "old": [
+    {
+     "country": "Netherlands",
+     "countryId": "Q55",
+     "place": "Netherlands",
+     "placeId": "Q55"
+    }
+   ],
+   "new": [
+    {
+     "country": "Netherlands",
+     "countryId": "Q55",
+     "place": "Netherlands",
+     "placeId": "Q55"
+    },
+    {
+     "country": "United States",
+     "countryId": "Q30",
+     "place": "N. America",
+     "placeId": "Q49"
+    }
+   ],
+   "evidence": [
+    {
+     "country": "United States",
+     "field": "voices[4]",
+     "quote": "Michigan"
+    }
+   ]
+  },
+  {
+   "atlasId": "IX.13",
+   "id": "messianic-judaism",
+   "old": [
+    {
+     "country": "Israel",
+     "countryId": "Q801",
+     "place": "Israel",
+     "placeId": "Q801"
+    }
+   ],
+   "new": [
+    {
+     "country": "Israel",
+     "countryId": "Q801",
+     "place": "Israel",
+     "placeId": "Q801"
+    },
+    {
+     "country": "United States",
+     "countryId": "Q30",
+     "place": "N. America",
+     "placeId": "Q49"
+    }
+   ],
+   "evidence": [
+    {
+     "country": "United States",
+     "field": "documentedStories[0].text",
+     "quote": "Grantham, Pennsylvania"
+    }
+   ]
+  },
+  {
+   "atlasId": "IX.15",
+   "id": "oneness-pentecostalism",
+   "old": [],
+   "new": [
+    {
+     "country": "Mexico",
+     "countryId": "Q96",
+     "place": "N. America",
+     "placeId": "Q49"
+    },
+    {
+     "country": "United States",
+     "countryId": "Q30",
+     "place": "N. America",
+     "placeId": "Q49"
+    }
+   ],
+   "evidence": [
+    {
+     "country": "Mexico",
+     "field": "region",
+     "quote": "Mexico"
+    },
+    {
+     "country": "United States",
+     "field": "relationsSummary",
+     "quote": "Azusa Street"
+    }
+   ]
+  },
+  {
+   "atlasId": "IX.16",
+   "id": "iglesia-ni-cristo-the-way-international-unificat",
+   "old": [
+    {
+     "country": "South Korea",
+     "countryId": "Q884",
+     "place": "Korea",
+     "placeId": "Q483134"
+    }
+   ],
+   "new": [
+    {
+     "country": "South Korea",
+     "countryId": "Q884",
+     "place": "Korea",
+     "placeId": "Q483134"
+    },
+    {
+     "country": "Mexico",
+     "countryId": "Q96",
+     "place": "N. America",
+     "placeId": "Q49"
+    },
+    {
+     "country": "United States",
+     "countryId": "Q30",
+     "place": "N. America",
+     "placeId": "Q49"
+    }
+   ],
+   "evidence": [
+    {
+     "country": "Mexico",
+     "field": "region",
+     "quote": "Mexico"
+    },
+    {
+     "country": "United States",
+     "field": "documentedStories[0].teaser",
+     "quote": "Madison Square Garden"
+    }
+   ]
+  },
+  {
+   "atlasId": "IX.17",
+   "id": "branch-davidians-and-apocalyptic-splinters",
+   "old": [],
+   "new": [
+    {
+     "country": "United States",
+     "countryId": "Q30",
+     "place": "N. America",
+     "placeId": "Q49"
+    }
+   ],
+   "evidence": [
+    {
+     "country": "United States",
+     "field": "longDescription",
+     "quote": "Waco, Texas"
+    }
+   ]
+  },
+  {
+   "atlasId": "IX.28",
+   "id": "the-emerging-church-and-post-evangelical-movemen",
+   "old": [
+    {
+     "country": "United Kingdom",
+     "countryId": "Q145",
+     "place": "UK",
+     "placeId": "Q145"
+    }
+   ],
+   "new": [
+    {
+     "country": "United Kingdom",
+     "countryId": "Q145",
+     "place": "UK",
+     "placeId": "Q145"
+    },
+    {
+     "country": "United States",
+     "countryId": "Q30",
+     "place": "N. America",
+     "placeId": "Q49"
+    }
+   ],
+   "evidence": [
+    {
+     "country": "United States",
+     "field": "relationsSummary",
+     "quote": "Durham, North Carolina"
+    }
+   ]
+  },
+  {
+   "atlasId": "IX.29",
+   "id": "dispensational-prophecy-culture",
+   "old": [],
+   "new": [
+    {
+     "country": "United States",
+     "countryId": "Q30",
+     "place": "N. America",
+     "placeId": "Q49"
+    }
+   ],
+   "evidence": [
+    {
+     "country": "United States",
+     "field": "relationsSummary",
+     "quote": "Dallas Theological Seminary"
+    }
+   ]
+  },
+  {
+   "atlasId": "IX.30",
+   "id": "the-megachurch-and-seeker-movement",
+   "old": [],
+   "new": [
+    {
+     "country": "United States",
+     "countryId": "Q30",
+     "place": "N. America",
+     "placeId": "Q49"
+    }
+   ],
+   "evidence": [
+    {
+     "country": "United States",
+     "field": "documentedStories[0].text",
+     "quote": "in the Chicago suburbs"
+    }
+   ]
+  },
+  {
+   "atlasId": "IX.33",
+   "id": "fundamentalism-1910-1970s",
+   "old": [],
+   "new": [
+    {
+     "country": "United States",
+     "countryId": "Q30",
+     "place": "N. America",
+     "placeId": "Q49"
+    }
+   ],
+   "evidence": [
+    {
+     "country": "United States",
+     "field": "relationsSummary",
+     "quote": "Los Angeles campaign"
+    }
+   ]
+  },
+  {
+   "atlasId": "IX.34",
+   "id": "the-social-gospel",
+   "old": [],
+   "new": [
+    {
+     "country": "United States",
+     "countryId": "Q30",
+     "place": "N. America",
+     "placeId": "Q49"
+    }
+   ],
+   "evidence": [
+    {
+     "country": "United States",
+     "field": "why",
+     "quote": "New York's Hell's Kitchen"
+    }
+   ]
+  },
+  {
+   "atlasId": "IX.35",
+   "id": "the-mainline-century-liberal-and-neo-orthodox",
+   "old": [
+    {
+     "country": "Germany",
+     "countryId": "Q183",
+     "place": "Germany",
+     "placeId": "Q183"
+    }
+   ],
+   "new": [
+    {
+     "country": "Germany",
+     "countryId": "Q183",
+     "place": "Germany",
+     "placeId": "Q183"
+    },
+    {
+     "country": "United States",
+     "countryId": "Q30",
+     "place": "N. America",
+     "placeId": "Q49"
+    }
+   ],
+   "evidence": [
+    {
+     "country": "United States",
+     "field": "documentedStories[0].text",
+     "quote": "First Presbyterian Church in New York"
+    }
+   ]
+  },
+  {
+   "atlasId": "IX.36",
+   "id": "new-calvinism-young-restless-reformed",
+   "old": [],
+   "new": [
+    {
+     "country": "United States",
+     "countryId": "Q30",
+     "place": "N. America",
+     "placeId": "Q49"
+    }
+   ],
+   "evidence": [
+    {
+     "country": "United States",
+     "field": "documentedStories[0].teaser",
+     "quote": "Manhattan"
+    }
+   ]
+  },
+  {
+   "atlasId": "IX.41",
+   "id": "churches-of-christ-twentieth-century",
+   "old": [],
+   "new": [
+    {
+     "country": "United States",
+     "countryId": "Q30",
+     "place": "N. America",
+     "placeId": "Q49"
+    }
+   ],
+   "evidence": [
+    {
+     "country": "United States",
+     "field": "relationsSummary",
+     "quote": "United States religious census"
+    }
+   ]
+  },
+  {
+   "atlasId": "IX.42",
+   "id": "disciples-of-christ-and-independent-christian-churches",
+   "old": [],
+   "new": [
+    {
+     "country": "United States",
+     "countryId": "Q30",
+     "place": "N. America",
+     "placeId": "Q49"
+    }
+   ],
+   "evidence": [
+    {
+     "country": "United States",
+     "field": "documentedStories[0].teaser",
+     "quote": "Kansas City"
+    }
+   ]
+  },
+  {
+   "atlasId": "IX.44",
+   "id": "seventh-day-adventist-church-twentieth-century",
+   "old": [
+    {
+     "country": "Peru",
+     "countryId": "Q419",
+     "place": "Peru",
+     "placeId": "Q419"
+    }
+   ],
+   "new": [
+    {
+     "country": "Peru",
+     "countryId": "Q419",
+     "place": "Peru",
+     "placeId": "Q419"
+    },
+    {
+     "country": "United States",
+     "countryId": "Q30",
+     "place": "N. America",
+     "placeId": "Q49"
+    }
+   ],
+   "evidence": [
+    {
+     "country": "United States",
+     "field": "sourcing",
+     "quote": "General Conference session in Dallas"
+    }
+   ]
+  },
+  {
+   "atlasId": "IX.45",
+   "id": "charismatic-renewal-and-the-jesus-movement",
+   "old": [
+    {
+     "country": "United Kingdom",
+     "countryId": "Q145",
+     "place": "UK",
+     "placeId": "Q145"
+    }
+   ],
+   "new": [
+    {
+     "country": "United Kingdom",
+     "countryId": "Q145",
+     "place": "UK",
+     "placeId": "Q145"
+    },
+    {
+     "country": "United States",
+     "countryId": "Q30",
+     "place": "N. America",
+     "placeId": "Q49"
+    }
+   ],
+   "evidence": [
+    {
+     "country": "United States",
+     "field": "why",
+     "quote": "Van Nuys, California"
+    }
+   ]
+  },
+  {
+   "atlasId": "IX.49",
+   "id": "hebrew-roots-and-torah-observance-movements",
+   "old": [],
+   "new": [
+    {
+     "country": "United States",
+     "countryId": "Q30",
+     "place": "N. America",
+     "placeId": "Q49"
+    }
+   ],
+   "evidence": [
+    {
+     "country": "United States",
+     "field": "documentedStories[1].teaser",
+     "quote": "Warren, Ohio"
+    }
+   ]
+  },
+  {
+   "atlasId": "IX.57",
+   "id": "the-third-wave-and-the-vineyard",
+   "old": [],
+   "new": [
+    {
+     "country": "United States",
+     "countryId": "Q30",
+     "place": "N. America",
+     "placeId": "Q49"
+    },
+    {
+     "country": "Canada",
+     "countryId": "Q16",
+     "place": "N. America",
+     "placeId": "Q49"
+    }
+   ],
+   "evidence": [
+    {
+     "country": "United States",
+     "field": "longDescription",
+     "quote": "Pasadena"
+    },
+    {
+     "country": "Canada",
+     "field": "longDescription",
+     "quote": "Toronto Airport Vineyard"
+    }
+   ]
+  }
+ ],
+ "noChange": [
+  {
+   "atlasId": "IX.32",
+   "reason": "No place in the row's text lies in the United States, Canada or Mexico. 'Dallas Willard' is a person's name; Birmingham and Winson Green are in England; Madras is in India."
+  }
+ ],
+ "doubtful": [
+  {
+   "atlasId": "IX.29",
+   "country": "Canada",
+   "quote": "Niagara Bible Conference",
+   "why": "The conference name does not state a place in Canada (it met at Niagara-on-the-Lake, Ontario, and earlier on the New York side, which the row does not say). Left out."
+  },
+  {
+   "atlasId": "IX.33",
+   "country": "Canada",
+   "quote": "Niagara Bible Conference",
+   "why": "Same: the text names the Niagara conference but no Canadian place. Left out."
+  },
+  {
+   "atlasId": "IX.32",
+   "country": "United States",
+   "quote": "Dallas Willard",
+   "why": "Dallas is part of a person's name, not a place in the row's story. Left out."
+  },
+  {
+   "atlasId": "IX.42",
+   "country": "United States",
+   "quote": "North American Christian Convention",
+   "why": "Convention name only; the row has real US places (Kansas City, Indianapolis, San Francisco) so no change in outcome."
+  },
+  {
+   "atlasId": "VIII.25",
+   "country": "Mexico",
+   "quote": "Latin America",
+   "why": "Region name only, no place in Mexico. Left out."
+  },
+  {
+   "atlasId": "IX.57",
+   "country": "Canada",
+   "quote": "Toronto Airport Vineyard",
+   "why": "INCLUDED in the edit, flagged for your eye: the Toronto Blessing began in a Vineyard church (this row's own movement), but the row's window opens 1982 and the revival is 1994; if you judge it a later or other body, drop Canada from IX.57."
+  },
+  {
+   "atlasId": "IX.15",
+   "country": "United States",
+   "quote": "Azusa Street",
+   "why": "Evidence is a street in Los Angeles (also 'Los Angeles', 'Indianapolis', 'United States' in the row). Included; order puts Mexico first because 'Mexico' appears in the region field before any US place."
+  }
+ ]
+}
