@@ -11,3 +11,9 @@
 - The same book, a second copy: Delitzsch, *Documente der national-jüdischen christgläubigen Bewegung in Südrussland* (Erlangen: Deichert, 1884). The title page reads "Im Original und deutscher Uebersetzung mitgetheilt von Franz Delitzsch", 1884.
 - Downloaded by Mark from Google Books (full view), 2026-11-10, in a browser. This is the Bodleian Library copy (shelfmark 950 e.38, library stamp dated 16 Jan 1933). Its Google id is one of the other two listed above.
 - Rights as above: Google full view, public domain by its 1884 date. Keep whichever copy reads more cleanly, or use both as two witnesses.
+
+## Neue_Documente_der_s_drussischen_Christ.pdf
+
+- Rabinowitsch, Joseph, *Neue Documente der südrussischen Christentumsbewegung: Selbstbiographie und Predigten*, ed. Franz Delitzsch, Schriften des Institutum Judaicum in Leipzig 16 (Leipzig: Dörffling & Franke, 1887). Rabinowitz's own autobiography and sermons.
+- Downloaded by Mark from Google Books (full view), 2026-11-10, in a browser (id u5YtAAAAYAAJ). Harvard College Library copy, shelfmark Jud 765.15.16, stamped 15 Dec 1931.
+- Rights: Google full view; published 1887, so public domain in the US by date. The verso's "Alle Rechte vorbehalten" is the 1887 publisher's notice, long expired.
