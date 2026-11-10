@@ -1811,3 +1811,11 @@ it, never by deleting it.
       not as the person. Owner: the census owner, whether those rows should point to the entry.
     - On a phone the switch bar now wraps to two lines. Owner: P2-K2 (marks, floor, tap areas).
     - The drawn person marks wait for P2-K1; the map shows a plain ringed mark the Key explains.
+194. **Design idea: a brief that plays first, then an optional deeper story (Mark, 2026-11-10).**
+    Mark, verbatim: "i like the brief and longer story combo, we start with the brief automaticly
+    launching when a tradition is clicked. if we have the 4 minute that is an ask to you want to go
+    deeper, and it should build off the brief, not repeat it. this is design ideas not a build
+    request". Today each tree recording reads the movement's longDescription (median about 165
+    words, about a minute). A deeper story would be new sourced text that continues from the brief,
+    offered after it, never auto-played. Not scheduled; it needs its own design pass with Mark before
+    any build. Owner: the coordinator.
