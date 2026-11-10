@@ -13,6 +13,98 @@ actual world-selection flow is a future decision for the front-end thread, not t
 
 ---
 
+## 2026-11-09 — P2-E10h carried out: data release 25 adds the global sweep's 15 rows
+
+**Done under the gate ruling, in auto mode.** The ruled rows and named lines of the global sweep
+(G-80 to G-150) were drafted in three regional slices and a finishing pass. They were reviewed by an
+independent reviewer in three rounds: full, then targeted, then targeted. Round 3 approved the work
+to proceed. It is applied as data release 25: 322 movements (307 before), 578 links.
+
+- **New rows IX.59 to IX.73.**
+  - Africa: the Catholic Church in Africa (on the new 4<->5 bridge, G-80 c), the church struggle
+    against apartheid, Sudanese Christianity through the civil wars.
+  - Latin America: Latin American Catholicism, Protestantism in Latin America.
+  - Asia: Korean Protestantism, Chinese Catholicism, Philippine Catholicism, the Philippine
+    Independent Church, Japanese Christianity.
+  - Eastern Europe: the Russian Orthodox Church, Polish Catholicism, Orthodoxy in the communist
+    Balkans, the Greek Church and the Ecumenical Patriarchate, the Romanian Greek Catholic Church.
+- **61 register edits** place the ruled named lines in existing rows. IX.11 is narrowed (G-132 b):
+  El Shaddai goes to Philippine Catholicism, and the dates become 1910 to c. 2010.
+- **The atlas lane table gains 4.5**, "Africa/Latin bridge". Its parent is Latin West, as G-80 (c)
+  reasons.
+- **A line enters only on an opened, verified item.** Lines whose items stayed [S] or snippet-only are
+  held, each with the item it waits for (Open-Gaps, "Lines the global sweep's ruling placed but no
+  verified item yet carries").
+- **No links were drafted.** The new rows' links to their era 8 and era 9 parents are change orders to
+  frozen eras, and wait for P2-L10.
+
+Records, in `Design/StepZero-Eras/`:
+- `CiC_Step0_Era10_P2E10h_Proposed.json`
+- `CiC_Step0_Era10_P2E10h_Trace.md`
+- `CiC_Step0_Era10_P2E10h_Review_Round1.md`, `_Round2.md` and `_Round3.md`
+
+**Next action.** The release makes no story recording stale. The narration dry run counts 176
+before and after, and the new rows carry no documented stories yet. P2-L10 drafts the links. P2-G89
+sweeps eras 8 and 9.
+
+---
+
+## 2026-11-09 — ERA 10 GLOBAL SWEEP GATE: Mark rules all 71 questions (G-80 to G-150)
+
+**Decided (Mark, answering by number on the gate page).** "G-80 c; G-81 a; G-82 a; G-83 a; G-84 a;
+G-85 c; G-86 a; G-87 a; G-88 a; G-89 a; G-90 a; G-91 a; G-92 a; G-93 a; G-94 a; G-95 a; G-96 b;
+G-97 a … G-123 a; G-124 b; G-125 a; G-126 a; G-127 b; G-128 b; G-129 a; G-130 b; G-131 a; G-132 b;
+G-133 c; G-134 a; G-135 a; G-136 a … G-150 a". Every answer matches the question's stated
+recommendation in `Design/StepZero-Eras/CiC_Step0_Era10_GlobalSweep_V1_0.md` §7, checked one by one
+by script, so the record's recommendations are the ruling.
+
+**What follows.**
+- The 15 rows that enter are drafted as census rows and reviewed (P2-E10h): the 14 "enter"
+  candidates, and E3b, which G-124 (b) also enters. (Count corrected 2026-11-09; it first read 14.)
+- The 23 named lines are drafted into their entries.
+- IX.11 is narrowed by change order (G-132 (b)).
+- Catholic charismatic movements follow G-133 (c): renewal wings in IX.7, national movements in
+  their country's Catholic row, none in IX.11.
+- The Caribbean takes the region value "Latin America" (G-134 (a)).
+- The 15 "enter once" candidates wait for the one text or study each names. Those items go to the
+  source-research thread, and each enters at a later gate once its condition is met. The 22 holds
+  wait for sources.
+- The census changes only as each drafted, reviewed set is applied.
+
+---
+
+## 2026-11-09 — Era 10 global completeness sweep, by region and by river
+
+**Decided (Mark, asked "is this truely global not just usa", shown the counts and three options:
+"1 and across the rivers too").** Era 10 is titled "A century of global Christianity", but its
+roster leans American. In release 23, 29 of 56 entries are tagged North America and about 19 are
+wholly American. Africa has 7, Latin America 3 and Greater Asia 9. The rivers show the same
+imbalance. The Protestant and Evangelical river has 20 entries, 16 of them North American, and none
+in Latin America. The Catholic river has 4, none of them African or Asian. The Orthodox river has
+3, none outside Europe and North America. The cause is the sources used so far: English-language
+texts and questions raised in conversation, which this session's own additions repeated.
+
+**The sweep.** Run Step 0's completeness sweep (procedure step 1) again for era 10, region by
+region (Africa; Latin America and the Caribbean; Asia and the Pacific; Eastern Europe, the former
+Soviet world and the Middle East), and within each region river by river (Catholic, Orthodox,
+Protestant and Evangelical, Pentecostal and charismatic, independent and initiated, and the
+Eastern and Syriac churches). The same standard and the same recent-movement evidence rule apply:
+own dated founding texts plus a scholarly study, every item verified or [S]. Regional histories
+by scholars from and of those regions come first. Mark added: "look at non-english sources too,
+like we have in other eras". So each region's own-language sources are searched alongside English
+ones: founding texts and statements of faith in the original language, regional scholarship in
+those languages, and the Library's non-English editions. Each is cited in its original-language
+title with an English gloss, and quotes are given in the original with a close rendering.
+
+**Scope (Mark, asked whether eras 1 to 9 get the same check: "eras 8 - 10 for now").** The
+region-and-river sweep covers eras 8 (1650–1815), 9 (1815–1906) and 10. Eras 8 and 9 are frozen,
+so any addition there comes to Mark as a named change order, as the Armenian Apostolic row did
+(2026-11-08). The era 10 sweep runs first, and eras 8 and 9 follow with the same four regions,
+rivers and source rule. Eras 1 to 7 are not swept for now. The work goes through the same review rounds
+and back to Mark's gate. The census does not change until he rules.
+
+---
+
 ## 2026-11-09 — Mark approves the P2-E10c screenshots and the re-voicing sample; IX.50's name settled on the sources
 
 **Decided (Mark: "screen shots look fine, yes and use the proper name, not because i suggested something").**

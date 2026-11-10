@@ -847,3 +847,75 @@ it, never by deleting it.
     - A named voice backed by `source` must quote the person's own words. The validator checks that
       the quote is verbatim, but not whose words it is. When P2-G3 fills the rows, a reviewer confirms
       the speaker of each quote.
+137. **176 story recordings wait for the ElevenLabs quota to reset (2026-11-09).** The paid run Mark
+    approved re-voiced 85 of 261 stale story recordings (51,653 credits) and stopped when the
+    account's 121,000-credit quota was used up. Mark ruled: "wait for the quota reset", with no
+    top-up and no overage. When the quota resets, run the same command with the same settings (voice
+    onegjDE2z0mQtp1g0HK7, model eleven_v4, mp3_44100_64; approved run "Era 10 re-voice, full story
+    batch (Mark approved sample 2026-11-09)"). It skips what is current and makes the 176 left
+    (252,306 characters). Until then the map's fingerprint check keeps them hidden. The tree's own 36
+    stale recordings use other voices and get their own sample first. Owner: this thread, at the
+    reset.
+138. **Three areas the era 10 global sweep did not reach (2026-11-09).** After Round 1 and its
+    supplementary pass, the era 10 global completeness sweep
+    (`Build/Ministry/Features/Atlas-World-Map/Design/StepZero-Eras/CiC_Step0_Era10_GlobalSweep_V1_0.md`,
+    section 2, "Not swept") still has not swept three areas, in any river:
+    - the Hispanic Caribbean's Protestants (Puerto Rico, the Dominican Republic);
+    - the Armenian Evangelical churches of the Near East (their union of 1924 is [S]);
+    - the migrant churches of the Gulf.
+    Each needs its own pass under the sweep's rules before the gate can say the era is global.
+    Owner: the sweep thread.
+139. **Lines the global sweep's ruling placed but no verified item yet carries (2026-11-09).** The
+    era 10 global sweep gate ruled these lines in. P2-E10h (data release 25) held each one, because
+    its evidence is still [S], snippet-only or V-s. Each enters when its item is opened and verified.
+    Owner: the source-research thread. The record is
+    `Build/Ministry/Features/Atlas-World-Map/Design/StepZero-Eras/CiC_Step0_Era10_P2E10h_Proposed.json`,
+    `notes`.
+    - **Africa:**
+      - Shembe, Legio Maria (with its open A1 question), Chilembwe and Toko (C12);
+      - Milingo and Sant'Egidio in IX.59;
+      - the TRC faith-community hearings in IX.60's legacy (G-81 a);
+      - the Church of Pentecost in IX.11 (G-84 a);
+      - the Sudanese Presbyterian church and the Dinka hymns in IX.61;
+      - a dated item for the expulsion order of 27 February 1964.
+    - **Latin America:** the SIL line in IX.63. Its role is contested, and it needs the SIL's own
+      account beside Stoll's (G-142 a).
+    - **Asia:**
+      - Minjung theology, the March First Movement and the growth decades in IX.64;
+      - Timor-Leste in IX.37 (G-115 a);
+      - the Japanese Orthodox Church after 1906 (G-121 a);
+      - the Uniting Church in Australia and Hillsong (G-116 a);
+      - El Shaddai's founder and founding date. Its line in IX.66 names neither until Wiegele is
+        opened at the page that dates it.
+    - **Eastern Europe and the Middle East:**
+      - Ukrainian autocephaly in IX.69 (G-130 b);
+      - the Chaldean Church in IX.19 (G-131 a);
+      - the Christian Peace Conference in IX.46;
+      - Mukachevo in IX.21 (G-129 a);
+      - the deported Catholics and Lutherans cross-reference in IX.69 (G-148 a).
+    - **Waiting for a row:** the lines that go into GS-A2 (G-104 a, G-117 a, G-147 a) and E4 (G-148 a)
+      wait for those rows, which are "enter once". The Pará story moves out of IX.11 only when LA-2
+      enters (G-91 a, G-132 b).
+140. **Open points left by P2-E10h (2026-11-09).**
+    - **IX.44 lists Peru as its only modern country.** The validator allows a country only if its
+      place is on the place label, so the United States cannot be added without changing the label
+      ("N. America · Peru and beyond"). Owner: Mark's call, through the next census pass on IX.44.
+    - **Map self-reference in older rows.** "This map …" sentences remain in IX.4, IX.7, IX.11, IX.44,
+      IX.46, IX.19 and IX.22. The live-commentary check does not flag them, and the same wording
+      runs across many rows outside this release. Whether participant copy may name "the map" is a
+      fleet-level style call. Owner: Mark.
+    - **IX.11 calls the Lausanne critiques "within the same Pentecostal family".** Lausanne is a
+      wider evangelical network. Owner: a later IX.11 pass.
+    - **The new rows have no lineage links.** Their parents sit in frozen eras 8 and 9. The
+      candidates are:
+      - VIII.31 → IX.69
+      - VIII.28 → IX.71 and IX.72
+      - VIII.12 → IX.72
+      - VIII.48 → IX.62
+      - IX.62 → IX.8
+      - VIII.43 → IX.59
+      Owner: P2-L10.
+    - **On the map, a lane's first dot sits at the lane's own place, and its river curves in from the
+      parent lane over the next stretch.** The new 4.5 lane shows this at 1906: "Catholics in
+      Africa" sits a little above where its river arrives. Every lane born from a parent is drawn
+      this way. Owner: Mark's call on whether to change it.

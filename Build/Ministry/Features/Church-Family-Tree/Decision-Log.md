@@ -795,3 +795,27 @@ the screenshots.
 other side of the out of the niceen movements": the right edge holds the lane outside the Nicene
 floor, so the column now sits left of each era's first river, below the era's text, with names
 reading leftward. It fits in the space already there, so the rivers do not move.
+
+## 2026-11-09 — Era 10 global completeness sweep, by region and by river
+
+**Decided (Mark: "1 and across the rivers too").** Era 10's roster leans American (29 of 56 entries
+are tagged North America). The Catholic and Orthodox rivers barely reach the Global South. Step 0's
+completeness sweep runs again for era 10, by region and by river, under the same standard and
+evidence rule, and returns to Mark's gate. Full entry: Atlas World Map Decision-Log, same date.
+
+## 2026-11-09 — Era 10 global sweep gate ruled
+
+**Decided (Mark, by number, G-80 to G-150).** Every answer matches its recommendation. The 14 ready
+rows and 23 named lines are drafted, reviewed and applied as P2-E10h. IX.11 is narrowed by change
+order (G-132 b). The 15 "enter once" candidates wait for their named sources, and the 22 holds wait
+too. Full entry: Atlas World Map Decision-Log, "ERA 10 GLOBAL SWEEP GATE".
+
+---
+
+## 2026-11-09 — P2-E10h applied: data release 25
+
+The global sweep's 15 ruled rows (IX.59 to IX.73) and 61 register edits are drafted. They were
+reviewed in three rounds and approved to proceed in Round 3. They are applied as data release 25:
+322 movements, 578 links. The atlas gains the 4<->5 bridge lane (G-80 c). Held lines and open
+points are in Open-Gaps 139 and 140. Full entry: Atlas World Map Decision-Log, "P2-E10h carried
+out".
