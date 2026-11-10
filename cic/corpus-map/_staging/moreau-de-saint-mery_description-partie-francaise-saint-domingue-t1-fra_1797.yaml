@@ -1,0 +1,13 @@
+source_file: moreau-de-saint-mery_description-partie-francaise-saint-domingue-t1-fra_1797.txt
+assignments:
+- row_id: moreau-de-saint-mery_description-partie-francaise-saint-domingue-t1-fra_1797--moreau-de-saint-mery-description-de-la-partie-francaise-de-saint-domin
+  work: Moreau de Saint-Mery, Description de la partie francaise de Saint-Domingue, tome 1 (1797)
+  author: moreau-de-saint-mery
+  locus: the parish-by-parish description; add 12 to OCR line numbers for this file's own
+  atlas_ids:
+  - colonial-latin-american-devotional-catholicism
+  role: context
+  confidence: provisional
+  note: A colonial jurist's parish-by-parish description of French Saint-Domingue, with the Capuchin,
+    Jesuit and Dominican missions. The view from outside the church, written just before 1804. The eras
+    8-9 sweep holds Haiti before 1804 (LA8-6) as a line in this entry.

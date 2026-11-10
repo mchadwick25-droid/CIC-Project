@@ -71,3 +71,54 @@ conversation. Nothing was paid for.
 ### Next action
 
 Batch 2, on a fresh branch from main: the eras 8-9 holds and the Brosset chronicle volumes.
+
+## 2026-11-10 — Ruling: Bell Part II and the Pedalion, as carried out
+
+**Decided (Mark, 2026-11-10, relayed by the coordinator).** On the two cross-world moves from
+batch 1: "take both recommendations". On Bell Part II, once the gate question came up: "if the
+source is consurant of past and they could likcly know it they can point to it". The coordinator
+reads this as: if the source is contemporary and the world's people could likely have known it,
+the world can point to it.
+
+**How it was carried out.**
+- **Bell 1924, Part II.** The first recommendation was to take the row off the `desert` shelf.
+  That cannot be done: `engine/m9/confinement.py` (`gate_shelf_row`) requires every vendored
+  desert source record to name a row on desert's own shelf. `desert.source.bell-jews-christians-egypt`
+  names this row. So the row stays on desert's shelf, now as `context`, which matches the record's
+  own `register: etic`. The Melitian community's own-voice row stays `tradition` on
+  `melitian-schism`. Under Mark's rule desert may point to it: the papers are contemporary and
+  come from the same desert. No desert package went stale (`engine.m2.cli staleness-check`).
+- **The Pedalion.** It leaves the 1453-1650 shelf once the census person row for Nikodemos the
+  Hagiorite stops pointing at that shelf's row. The people worker moves the pointer to the
+  1650-1821 row; the shelf row is removed after that lands on main.
+
+**Flagged, not done.** The desert voice_craft record mentions Bell as "a newly-registered source".
+That phrase sits inside a long namesake rationale (five men named Paphnutius) whose other clauses
+narrate process the same way. Cutting the one phrase would leave the rest, so the record's own
+cleanup goes to its owner (CLAUDE.md: doc hygiene on another thread's content is flagged).
+
+## 2026-11-10 — Church Family Tree wants, batch 2: the eras 8-9 holds
+
+**Done.** Twenty-two files vendored for the eras 8-9 rows held for sources. Whitehouse 1873 was
+already held, and a Thrissur row was added to it. The file list, rights and what each fill unblocks
+are in `CFT-Wants.md`. Each host record was re-read, the title page read, the wanted passage
+located, the byte count matched to the host, and the body confirmed to be the full host text after
+the header.
+
+**Decided here.** Where the entry a text serves does not exist yet, the row goes on the nearest
+existing entry as `confidence: needs-ruling` (INTAKE §6): the Transylvanian Unitarians on the
+anti-Trinitarian entry, Korean Protestants and Holly's Haiti on the missionary-movement entry,
+Marsden on the Georgian Church of England. A text is placed on the shelf of its date of writing,
+not of its subject: Adoratskii (1887) is on the synodal-century shelf. Ullathorne (1837) was not
+vendored, because its only scan is a 1963 facsimile with its own front matter. Lang (1834) was
+located but not vendored.
+
+**Corrected before writing.** I had drafted a wrong title for Claret's Apuntes, and places of
+printing the title pages do not show for the Historia Bethlehemitica and The Spirit of Missions.
+All three were checked against the OCR and corrected. No header carries a date or place the source
+does not give.
+
+### Next action
+
+Batch 3: ME-21 (Rabinowitz) by another route, the AP10 Spanish pass, and the first eras of
+Open-Gaps 158. Then remove the Pedalion row once the census pointer has moved.

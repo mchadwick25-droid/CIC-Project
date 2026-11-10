@@ -1,0 +1,15 @@
+source_file: marsden_life-and-work-of-samuel-marsden_jb-marsden1913.txt
+assignments:
+- row_id: marsden_life-and-work-of-samuel-marsden_jb-marsden1913--j-b-marsden-life-and-work-of-samuel-marsden-1913-with-marsden-s-letter
+  work: J. B. Marsden, Life and Work of Samuel Marsden (1913), with Marsden's letters
+  author: marsden
+  locus: Marsden's letters and journals as printed through the book; add 11 to OCR line numbers for this
+    file's own
+  atlas_ids:
+  - restoration-georgian-church-of-england
+  role: tradition
+  confidence: needs-ruling
+  note: Marsden's own letters and journals, as chaplain of New South Wales from 1794 and founder of the
+    New Zealand mission in 1814, inside a biography. His words are his own; the frame is the biographer's.
+    The eras 8-9 sweep holds colonial Australia and New Zealand (AP12) for lines in the parent rows, so
+    the shelf waits on that ruling.

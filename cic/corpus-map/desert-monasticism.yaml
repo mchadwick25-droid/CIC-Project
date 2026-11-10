@@ -318,23 +318,13 @@ works:
   author: bell
   locus: Part II — the Pageus/Hathor archive, incl. the dated 334 CE deputy-appointment contract
     (P.Lond. 1918, Phamenoth 23)
-  role: tradition
+  role: context
   confidence: provisional
-  note: 'Found by desert.source.bell-jews-christians-egypt (no corpus-map assignment given
-    at intake time); not previously assigned to any Atlas entry. Independently re-verified
-    directly against the vendored file, not just the source record''s own account: `grep`
-    on the raw text confirms 16 occurrences of "Pageus" and 13 of "Hathor", and the 334 CE
-    contract itself is present verbatim ("In the consulship of Flavius Optatus, Patrician,
-    and Anicius Paulinus the most illustrious, Phamenoth 23. Aurelius Pageus son of Horus...")
-    naming his brother Gerontius as deputy before departing for a council at Caesarea "concerning
-    the purgation of the holy Christian body". Real, dated, primary documentary evidence of
-    an actual eastern-desert monastic community (Hathor, upper Cynopolite nome, 330s-340s)
-    — its own legal and personal papers, not later commentary about it, so `role: tradition`
-    on the same footing this build gives its other papyrus-archive evidence. `confidence:
-    provisional`: the community is Melitian (schismatic), not Nicene-communion, and whether
-    it is representative of this world''s mainstream ascetic strands is not established (see
-    Doc_01 and this world''s own Open_Gaps_Tracking.md). No quote, story, or doctrinal_witness
-    record cites it; it is registered as available only.
+  note: 'The papers of a Melitian monastic community at Hathor in the upper Cynopolite nome,
+    330s-340s: its own letters, appeals and the dated contract of 334 naming Pageus''s deputy.
+    Contemporary with desert monasticism and from the same Egyptian desert, but a schismatic
+    community''s voice, not this entry''s own: the view from beside it. Its own-voice row
+    is on melitian-schism.
 
     '
   source_file: bell_jews-christians-egypt-meletian-papyri_1924.txt
