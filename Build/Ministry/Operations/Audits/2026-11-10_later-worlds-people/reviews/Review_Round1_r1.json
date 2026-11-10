@@ -1,0 +1,486 @@
+[
+ {
+  "cid": "C006",
+  "name": "Paula",
+  "verdict": "approve",
+  "recount": {
+   "recusant-english-catholicism": {
+    "valid": 8,
+    "rejected": {
+     "smith-richard_life-of-lady-magdalen-montague_cf1627.txt:1101": "same paragraph as 1098 (one continuous sentence, 1094-1104)"
+    },
+    "added": []
+   },
+   "colonial-latin-american-devotional-catholicism": {
+    "valid": 5,
+    "rejected": {},
+    "added": []
+   }
+  },
+  "passes_after_review": true,
+  "findings": [
+   {
+    "severity": "MINOR",
+    "what": "Recusant count is 8 distinct passages, not 9: 1098 and 1101 sit in one sentence.",
+    "evidence": "smith-richard_life-of-lady-magdalen-montague_cf1627.txt:1094-1104",
+    "fix": "Say 8 in counted_traditions; still passes."
+   },
+   {
+    "severity": "MINOR",
+    "what": "dates_source cites line 20122 as the Letter CVIII headnote. That line is the Letter XCIX (To Theophilus) headnote. It does mention grief for Paula's death in 404, but the CVIII headnote with 'recently died' and 'The date of the letter is 404' is at 20793-20807.",
+    "evidence": "npnf206_jerome-principal-works.xml:20122; npnf206_jerome-principal-works.xml:20807",
+    "fix": "Cite 20807 for Letter CVIII, or describe 20122 as the Letter XCIX headnote."
+   },
+   {
+    "severity": "MINOR",
+    "what": "The hold reason frames Letter XLVI as an open question. As the qualifying test is written, a document issued in her name counts as own words, and the headnote says Jerome wrote it 'in the name of' Paula and Eustochium. So the letter qualifies on its face. What Mark actually has to decide is whether a ghost-written letter is enough, plus whether co-founding the Bethlehem houses makes her a founder. Hold is still right, but the question should be put that way.",
+    "evidence": "npnf206_jerome-principal-works.xml:8735",
+    "fix": "Reword the reason so it puts both questions to Mark: is a ghost-written letter enough, and do the Bethlehem houses make her a founder."
+   }
+  ],
+  "recommendation_should_be": "hold",
+  "why": "The counts are sound and Letter XLVI does meet the wording of the test. But it was ghost-written and she co-founded the Bethlehem houses, so the call is Mark's."
+ },
+ {
+  "cid": "C015",
+  "name": "Polycarp of Smyrna",
+  "verdict": "revise",
+  "recount": {
+   "imperial-juridical-christianity": {
+    "valid": 5,
+    "rejected": {},
+    "added": [
+     "npnf201_eusebius-church-history-life-of-constantine.xml:19680",
+     "npnf201_eusebius-church-history-life-of-constantine.xml:23074",
+     "npnf202_socrates-sozomen-ecclesiastical-histories.xml:16243"
+    ]
+   },
+   "the-anabaptist-movements": {
+    "valid": 11,
+    "rejected": {
+     "van-braght_martyrs-mirror_sohm1886.txt:14799": "same paragraph as 14796",
+     "van-braght_martyrs-mirror_sohm1886.txt:14805": "same paragraph as 14796",
+     "van-braght_martyrs-mirror_sohm1886.txt:14831": "same paragraph as 14821 (continues across page break 14823-24)",
+     "van-braght_martyrs-mirror_sohm1886.txt:14844": "same paragraph as 14821"
+    },
+    "added": []
+   }
+  },
+  "passes_after_review": true,
+  "findings": [
+   {
+    "severity": "SUBSTANTIAL",
+    "what": "party_in_own_right says Eusebius and Socrates put him on one side of an Easter dispute 'with Victor of Rome'. Eusebius (HE V.24) and Socrates (V.22) both name Anicetus. Only Sozomen says Victor, and the edition's own note marks that as an error ('Not Victor, but Anicetus').",
+    "evidence": "npnf202_socrates-sozomen-ecclesiastical-histories.xml:41769-41774; npnf202_socrates-sozomen-ecclesiastical-histories.xml:16243; npnf201_eusebius-church-history-life-of-constantine.xml:31592-31611",
+    "fix": "Say he met Anicetus of Rome over the Easter date (Eusebius HE V.24; Socrates V.22)."
+   },
+   {
+    "severity": "MINOR",
+    "what": "The imperial quote is credited to 'Socrates V.22'. Line 41769 is Sozomen VII.19 (div1 3, id iii.xii.xix). Sozomen is on the same shelf, so the count holds. Socrates V.22 is line 16243.",
+    "evidence": "npnf202_socrates-sozomen-ecclesiastical-histories.xml:41769",
+    "fix": "Credit the quote to Sozomen VII.19, or quote Socrates at 16243."
+   },
+   {
+    "severity": "MINOR",
+    "what": "Three of the five imperial refs are Eusebius quoting Irenaeus or the Smyrnaean letter (22962, 23149, 23185). The rule allows them, but Eusebius's own narrative also names Polycarp in several more places, which makes the count sturdier.",
+    "evidence": "npnf201_eusebius-church-history-life-of-constantine.xml:19680; npnf201_eusebius-church-history-life-of-constantine.xml:23074",
+    "fix": "Optionally swap in Eusebius's own sentences; the count does not change."
+   },
+   {
+    "severity": "MINOR",
+    "what": "The draft's Anabaptist count (8) treats the whole martyrdom account as one passage. That is stricter than the rule, which merges by paragraph. By paragraph the count is 11.",
+    "evidence": "van-braght_martyrs-mirror_sohm1886.txt:14712-14860",
+    "fix": "Report 11."
+   }
+  ],
+  "recommendation_should_be": "include",
+  "why": "His letter is held on the home shelf, he founded nothing, and both later traditions clear 5 easily. Only the Victor/Anicetus error needs fixing."
+ },
+ {
+  "cid": "C023",
+  "name": "Maximilla",
+  "verdict": "revise",
+  "recount": {
+   "palestinian-ascetic-monasticism-early": {
+    "valid": 7,
+    "rejected": {
+     "epiphanius_panarion-haer-48-69-corpus-haereseologicum-t2-pars-posterior-grc-lat_oehler1860.txt:1471": "same paragraph as 1466",
+     "epiphanius_panarion-haer-48-69-corpus-haereseologicum-t2-pars-posterior-grc-lat_oehler1860.txt:2809": "same paragraph as 2795",
+     "epiphanius_panarion-haer-48-69-corpus-haereseologicum-t2-pars-posterior-grc-lat_oehler1860.txt:2963": "same paragraph as 2948 (blank lines are OCR page artefacts)"
+    },
+    "added": []
+   },
+   "imperial-juridical-christianity": {
+    "valid": 5,
+    "rejected": {},
+    "added": [
+     "npnf201_eusebius-church-history-life-of-constantine.xml:29269",
+     "npnf201_eusebius-church-history-life-of-constantine.xml:30127",
+     "npnf201_eusebius-church-history-life-of-constantine.xml:30462"
+    ]
+   }
+  },
+  "passes_after_review": true,
+  "findings": [
+   {
+    "severity": "SUBSTANTIAL",
+    "what": "own_words says 'The Montanism shelf holds no Montanist own writing at all.' That is false. The shelf holds Tertullian's Montanist-period treatises as role tradition: Against Praxeas, De Fuga, De Exhortatione Castitatis, De Jejunio, De Pudicitia, De Monogamia and De Virginibus Velandis. The conclusion still stands, because none of these are hers.",
+    "evidence": "cic/corpus-map/montanism-the-new-prophecy.yaml (anf03/anf04 Tertullian rows, role tradition)",
+    "fix": "Say: the shelf holds Montanist writing (Tertullian), but none by her; her oracles survive only as quotations by opponents."
+   },
+   {
+    "severity": "MINOR",
+    "what": "Palestinian count is 7 distinct passages, not 10: three refs share a paragraph with another ref.",
+    "evidence": "epiphanius_panarion-haer-48-69-corpus-haereseologicum-t2-pars-posterior-grc-lat_oehler1860.txt:1462-1475, 2791-2813, 2948-2967",
+    "fix": "Report 7."
+   },
+   {
+    "severity": "MINOR",
+    "what": "Two imperial refs (29776, 29849) are Eusebius quoting the anonymous anti-Montanist. The rule allows them. Eusebius's own sentences at 29269 (HE V.14), 29825 and 29882 carry the count without them.",
+    "evidence": "npnf201_eusebius-church-history-life-of-constantine.xml:29269",
+    "fix": "None needed; optionally swap in 29269."
+   },
+   {
+    "severity": "MINOR",
+    "what": "'Later writers name her whenever they argue about whether prophecy has ended' goes further than the cited texts show.",
+    "evidence": "epiphanius_panarion-haer-48-69-corpus-haereseologicum-t2-pars-posterior-grc-lat_oehler1860.txt:1466-1471",
+    "fix": "Say Epiphanius turns her saying that no prophetess would come after her against the movement."
+   }
+  ],
+  "recommendation_should_be": "hold",
+  "why": "No own words of hers are held: every saying comes through opponents. The co-prophet/founder question also stands."
+ },
+ {
+  "cid": "C043",
+  "name": "Methodius of Olympus",
+  "verdict": "revise",
+  "recount": {
+   "russian-church-nikon-to-holy-synod": {
+    "valid": 4,
+    "rejected": {
+     "nikon_replies-against-streshnev-and-ligarides_palmer1871.txt:21617": "same paragraph as 21582 (one gloss paragraph on Rev 12:1, 21573-21620, across a page break)"
+    },
+    "added": [
+     "nikon_replies-against-streshnev-and-ligarides_palmer1871.txt:5360"
+    ]
+   },
+   "catholic-church-ancien-regime": {
+    "valid": 8,
+    "rejected": {},
+    "added": []
+   }
+  },
+  "passes_after_review": true,
+  "findings": [
+   {
+    "severity": "SUBSTANTIAL",
+    "what": "Russian count falls to 4: 21582 and 21617 are in one paragraph of the quoted gloss on Rev 12:1. I make it up with Nikon 5360, 'the treatise of Methodius, bishop of Patara, on Antichrist'. Nikon means Methodius of Olympus/Patara, though Palmer's appendix notes the work is pseudo-Methodius (34884). The Russian count therefore passes at exactly 5, and only if pseudonymous attributions count as naming him. The Liguori count already relies on that, since its Hypapante citations are pseudo-Methodian too. Nikon 7950 repeats the Rev 12:6 gloss of 21732, so it counts once with it. Nikon 2691 ('St. Methodius says') cannot be identified.",
+    "evidence": "nikon_replies-against-streshnev-and-ligarides_palmer1871.txt:21573-21620; nikon_replies-against-streshnev-and-ligarides_palmer1871.txt:5360; nikon_replies-against-streshnev-and-ligarides_palmer1871.txt:34884; nikon_replies-against-streshnev-and-ligarides_palmer1871.txt:7950",
+    "fix": "Replace 21617 with 5360 and note the pseudo-Methodius caveat in doubts."
+   },
+   {
+    "severity": "MINOR",
+    "what": "All four Nikon passages at 21582-21732 sit inside 'The gloss', a Greek Apocalypse commentary (Andrew of Caesarea's type) that Nikon quotes. They are not Nikon's own sentences. The rule as written allows them, but Mark should know the Russian case leans on a quoted gloss.",
+    "evidence": "nikon_replies-against-streshnev-and-ligarides_palmer1871.txt:21573",
+    "fix": "State this in doubts."
+   }
+  ],
+  "recommendation_should_be": "include",
+  "why": "His own works are held and he founded nothing. Both traditions reach 5 under the rule as written, though the Russian count is thin."
+ },
+ {
+  "cid": "C048",
+  "name": "Constantine",
+  "verdict": "approve",
+  "recount": {
+   "syriac-orthodox-west-syriac-christianity": {
+    "valid": 7,
+    "rejected": {},
+    "added": []
+   },
+   "the-church-of-the-east-under-persia": {
+    "valid": 7,
+    "rejected": {},
+    "added": []
+   }
+  },
+  "passes_after_review": true,
+  "findings": [
+   {
+    "severity": "MINOR",
+    "what": "The census window of his home movement opens with his own act ('Between Constantine's toleration of the church in 312 and ...'). The draft says only 'founded no census movement' and does not raise this. He did not found a movement in the ruling's sense, but the point belongs in doubts.",
+    "evidence": "census imperial-juridical-christianity, why",
+    "fix": "Add one line to doubts."
+   },
+   {
+    "severity": "MINOR",
+    "what": "Elias 3175 is a bare reign-list entry. It counts, but it is the weakest of the seven.",
+    "evidence": "elias-of-nisibis_opus-chronologicum-lat_brooks-chabot-csco1910.txt:3175",
+    "fix": "None needed."
+   }
+  ],
+  "recommendation_should_be": "include",
+  "why": "Documents issued in his name are held in Eusebius, and both later traditions have 7 distinct passages that clearly name Constantine I."
+ },
+ {
+  "cid": "C059",
+  "name": "Eunomius of Cyzicus",
+  "verdict": "revise",
+  "recount": {
+   "syriac-orthodox-west-syriac-christianity": {
+    "valid": 5,
+    "rejected": {},
+    "added": []
+   },
+   "hieronymian-ascetic-literary": {
+    "valid": 0,
+    "rejected": {
+     "(all 11 refs)": "tradition not later: Hieronymian starts 382, but Eunomius was alive and active until c. 393 (exiled by Theodosius; Jerome's own De viris illustribus of 392 says he 'is said to be still living in Cappadocia')",
+     "npnf206_jerome-principal-works.xml:40174": "also same paragraph as 40169"
+    },
+    "added": []
+   }
+  },
+  "passes_after_review": false,
+  "findings": [
+   {
+    "severity": "BLOCKING",
+    "what": "Fails the 'later' test for hieronymian-ascetic-literary. last_year 360 is only the year he became bishop. Jerome's own text on the counted shelf says he was still living when Jerome wrote (392). Socrates V.20 and Michael the Syrian have Theodosius (379-395) send him into exile. The Hieronymian tradition (census start 382) overlaps his lifetime, so only Syriac counts and he does not reach two later traditions.",
+    "evidence": "npnf203_theodoret-jerome-gennadius-rufinus.xml:41614-41617; npnf202_socrates-sozomen-ecclesiastical-histories.xml:15999; michael-the-syrian_chronique-tome1-livres-i-vii-fra_chabot1899.txt:62174",
+    "fix": "Mark as not passing unless a second later tradition (e.g. Palaiologan, Justinianic) is counted strictly to 5."
+   },
+   {
+    "severity": "SUBSTANTIAL",
+    "what": "dates gives no end date and the candidate's last_year (360) is wrong: he was active under Theodosius and died in exile c. 393. The Library sources for this are Socrates V.20, Michael the Syrian and Jerome's DVI.",
+    "evidence": "npnf203_theodoret-jerome-gennadius-rufinus.xml:41616",
+    "fix": "Give him as active 360 to after 383, died in exile under Theodosius; correct last_year."
+   }
+  ],
+  "recommendation_should_be": "hold",
+  "why": "He does not pass the count after the 'later' correction, and the founder question for the Eunomians would send him to Mark anyway."
+ },
+ {
+  "cid": "C064",
+  "name": "Gregory of Nazianzus",
+  "verdict": "approve",
+  "recount": {
+   "the-english-reformation-and-elizabethan-settleme": {
+    "valid": 5,
+    "rejected": {},
+    "added": []
+   },
+   "recusant-english-catholicism": {
+    "valid": 7,
+    "rejected": {
+     "campion_rationes-decem-ten-reasons-lat-eng_rickaby1914.txt:4510": "same paragraph as 4482 (continues across page break)"
+    },
+    "added": []
+   }
+  },
+  "passes_after_review": true,
+  "findings": [
+   {
+    "severity": "MINOR",
+    "what": "Recusant count is 7, not 8: 4482 and 4510 are one paragraph.",
+    "evidence": "campion_rationes-decem-ten-reasons-lat-eng_rickaby1914.txt:4478-4515",
+    "fix": "Report 7."
+   },
+   {
+    "severity": "MINOR",
+    "what": "dates says no death date was read from the corpus, but the cited line's sentence continues 'dying there in 389 or 390'.",
+    "evidence": "npnf207_cyril-jerusalem-gregory-nazianzen.xml:43353-43354",
+    "fix": "Give death as 389 or 390 from that line."
+   }
+  ],
+  "recommendation_should_be": "include",
+  "why": "His own works are held on the home shelf, he founded nothing, and both English traditions clear 5 with distinct passages."
+ },
+ {
+  "cid": "C095",
+  "name": "Kaleb",
+  "verdict": "approve",
+  "recount": {
+   "the-ethiopian-monastic-flowering": {
+    "valid": 5,
+    "rejected": {
+     "gadla-pantalewon-yared_vitae-sanctorum-antiquiorum-lat_conti-rossini1904.txt:2296": "same paragraph as 2288 (Caput VII)"
+    },
+    "added": [
+     "gadla-pantalewon-yared_vitae-sanctorum-antiquiorum-lat_conti-rossini1904.txt:539",
+     "gadla-pantalewon-yared_vitae-sanctorum-antiquiorum-lat_conti-rossini1904.txt:1919",
+     "gadla-pantalewon-yared_vitae-sanctorum-antiquiorum-lat_conti-rossini1904.txt:2428"
+    ]
+   },
+   "the-society-of-jesus": {
+    "valid": 5,
+    "rejected": {},
+    "added": []
+   }
+  },
+  "passes_after_review": true,
+  "findings": [
+   {
+    "severity": "MINOR",
+    "what": "2288 and 2296 are one paragraph. Gadla Yared 539, Pantalewon 1919 and Caput X 2428 restore the margin (8 distinct).",
+    "evidence": "gadla-pantalewon-yared_vitae-sanctorum-antiquiorum-lat_conti-rossini1904.txt:2288-2300",
+    "fix": "Swap 2296 for 539 or 1919."
+   },
+   {
+    "severity": "MINOR",
+    "what": "The home citation is Moberg's editorial summary, not the Book of the Himyarites itself. It is not counted, but it should be labelled as the editor's.",
+    "evidence": "book-of-the-himyarites-syr-eng_moberg1924.txt:3722-3725",
+    "fix": "Label it as the editor's summary."
+   }
+  ],
+  "recommendation_should_be": "hold",
+  "why": "He passes the count, but no document in his name is held, only a prayer reported by others."
+ },
+ {
+  "cid": "C111",
+  "name": "Heraclius",
+  "verdict": "revise",
+  "recount": {
+   "armenian-christianity-era-8": {
+    "valid": 5,
+    "rejected": {
+     "issaverdens_armenia-and-the-armenians-v2-ecclesiastical-history_1875.txt:3831": "outside locus: line 3831 of 14595 (7th-century narrative), shelf takes only the last third (1700-1750s chapters)",
+     "serpos_compendio-storico-nazione-armena-t2-ita_1786.txt:13744": "same paragraph as 13736"
+    },
+    "added": [
+     "serpos_compendio-storico-nazione-armena-t2-ita_1786.txt:13906",
+     "serpos_compendio-storico-nazione-armena-t2-ita_1786.txt:16120"
+    ]
+   },
+   "coptic-christianity-fatimid-to-mamluk": {
+    "valid": 2,
+    "rejected": {
+     "synaxaire-arabe-jacobite_po11-toubeh-amshir-fra_basset1915.txt:40692": "same notice/paragraph as 40635 (Andronicus, 8 Toubeh)",
+     "synaxaire-arabe-jacobite_po11-toubeh-amshir-fra_basset1915.txt:40777": "same paragraph as 40773 (Benjamin notice)",
+     "synaxaire-arabe-jacobite_po11-toubeh-amshir-fra_basset1915.txt:40826": "same Benjamin notice as 40773"
+    },
+    "added": []
+   },
+   "church-of-the-east-under-the-abbasids": {
+    "valid": 10,
+    "rejected": {},
+    "added": []
+   }
+  },
+  "passes_after_review": true,
+  "findings": [
+   {
+    "severity": "SUBSTANTIAL",
+    "what": "The reason says the Armenian count does not verify. It does once the strict rule is applied. Issaverdens 3831 is outside the shelf's locus, and 13744 merges with 13736, but Serpos has further distinct passages (13906, 16120, and the 'nipote di Eraclio' mentions at 13833 and 14093). Armenian reaches 5, Church of the East 10, so he passes. Coptic fails at 2.",
+    "evidence": "serpos_compendio-storico-nazione-armena-t2-ita_1786.txt:992,13550,13736,13906,16120",
+    "fix": "State that he passes on Armenian and Church of the East and fails on Coptic; keep hold on the own-words ground alone."
+   },
+   {
+    "severity": "MINOR",
+    "what": "The draft puts all five Coptic hits in the Benjamin entry. 40635 and 40692 are in the Andronicus notice; 40773, 40777 and 40826 are in Benjamin's. That gives 2 passages, not 1. The conclusion (Coptic fails) stands.",
+    "evidence": "synaxaire-arabe-jacobite_po11-toubeh-amshir-fra_basset1915.txt:40625-40698",
+    "fix": "Correct the description."
+   },
+   {
+    "severity": "MINOR",
+    "what": "The draft says Issaverdens names him only at 3831 and keeps it, without noticing that the line is outside the shelf's locus.",
+    "evidence": "issaverdens_armenia-and-the-armenians-v2-ecclesiastical-history_1875.txt:3831",
+    "fix": "Drop it."
+   },
+   {
+    "severity": "MINOR",
+    "what": "The dates are unchecked; the Chronicle of Seert dates his death to A.Gr. 992 (641).",
+    "evidence": "chronicle-of-seert_histoire-nestorienne-seconde-partie-po13-ara-fra_scher1919.txt:34144",
+    "fix": "Cite it."
+   }
+  ],
+  "recommendation_should_be": "hold",
+  "why": "He passes the count on Armenian and Church of the East, but no writing or issued document of his is held."
+ },
+ {
+  "cid": "C144",
+  "name": "Valdes of Lyon",
+  "verdict": "approve",
+  "recount": {
+   "waldensians-in-the-alps": {
+    "valid": 6,
+    "rejected": {},
+    "added": []
+   },
+   "the-anabaptist-movements": {
+    "valid": 7,
+    "rejected": {
+     "van-braght_martyrs-mirror_sohm1886.txt:38263": "same paragraph as 38259"
+    },
+    "added": []
+   }
+  },
+  "passes_after_review": true,
+  "findings": [
+   {
+    "severity": "MINOR",
+    "what": "Anabaptist refs 38259 and 38263 are one paragraph (7 distinct from the 8 listed). Many more Martyrs' Mirror paragraphs exist.",
+    "evidence": "van-braght_martyrs-mirror_sohm1886.txt:38258-38263",
+    "fix": "None needed."
+   },
+   {
+    "severity": "MINOR",
+    "what": "The draft rightly flags that the Alps tradition is the later life of his own movement, which comes close to the 'not his home' rule. The census treats them as two movements, so it passes as written. Mark should rule on it along with the founder question.",
+    "evidence": "census waldensians-in-the-alps (start 1300)",
+    "fix": "Keep it in doubts."
+   }
+  ],
+  "recommendation_should_be": "hold",
+  "why": "He is the founder of the Waldensians and no writing of his is held."
+ },
+ {
+  "cid": "C151",
+  "name": "Bonaventure",
+  "verdict": "approve",
+  "recount": {
+   "catholic-church-ancien-regime": {
+    "valid": 5,
+    "rejected": {},
+    "added": []
+   },
+   "observant-reform-and-popular-preaching": {
+    "valid": 11,
+    "rejected": {},
+    "added": []
+   }
+  },
+  "passes_after_review": true,
+  "findings": [],
+  "recommendation_should_be": "hold",
+  "why": "He passes both counts, but no work of his is held anywhere in cic/texts (checked), so the own-words test fails."
+ },
+ {
+  "cid": "C164",
+  "name": "Hugo Grotius",
+  "verdict": "approve",
+  "recount": {
+   "restoration-georgian-church-of-england": {
+    "valid": 7,
+    "rejected": {
+     "barlow_brutum-fulmen_1681.txt:19340": "marginal citation note (k) belonging to the text passage at 19267; same passage"
+    },
+    "added": []
+   },
+   "english-old-dissent": {
+    "valid": 6,
+    "rejected": {},
+    "added": []
+   }
+  },
+  "passes_after_review": true,
+  "findings": [
+   {
+    "severity": "MINOR",
+    "what": "Barlow 19340 is the margin citation for 19267 and counts with it. Barlow 19182 is a bare margin reference; it is in the locus but weak. Burnet's 3 plus Barlow 18865, 19267 and 20757 still make 6.",
+    "evidence": "barlow_brutum-fulmen_1681.txt:19267-19343",
+    "fix": "Drop 19340."
+   }
+  ],
+  "recommendation_should_be": "include",
+  "why": "His own treatise is held on the home shelf, he founded nothing, and both later English traditions clear 5."
+ }
+]
