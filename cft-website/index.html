@@ -79019,23 +79019,135 @@ laneKeys.forEach(k=>{
   laneGenesisY[k]=yearToY(laneGenesisYear[k]);
 });
 
-const LINEAGE_TYPES=new Set(['gave rise to','continued as','influenced']);
+const RIVER_ORIGINS = [
+ {
+  "lane": 0,
+  "parent": null,
+  "basis": "origin"
+ },
+ {
+  "lane": 1,
+  "parent": 0,
+  "basis": "declared",
+  "reason": "PENDING",
+  "sources": []
+ },
+ {
+  "lane": 1.5,
+  "parent": 1,
+  "basis": "lineage",
+  "link": "st-thomas-christians-under-portuguese-pressure-d--northeast-india-revivals-and-the-mar-thoma-refor"
+ },
+ {
+  "lane": 2,
+  "parent": 3,
+  "basis": "declared",
+  "reason": "PENDING",
+  "sources": []
+ },
+ {
+  "lane": 3,
+  "parent": 0,
+  "basis": "declared",
+  "reason": "PENDING",
+  "sources": []
+ },
+ {
+  "lane": 3.5,
+  "parent": 3,
+  "basis": "declared",
+  "reason": "PENDING",
+  "sources": []
+ },
+ {
+  "lane": 4,
+  "parent": 0,
+  "basis": "declared",
+  "reason": "PENDING",
+  "sources": []
+ },
+ {
+  "lane": 4.5,
+  "parent": 4,
+  "basis": "lineage",
+  "link": "east-african-christianity-uganda-martyrs--the-catholic-church-in-africa-twentieth-century"
+ },
+ {
+  "lane": 5,
+  "parent": 0,
+  "basis": "declared",
+  "reason": "The Latin churches of Rome and Carthage grew from the first churches, not out of another family. Tertullian of Carthage, the first Latin Christian writer, points his readers to the church of Rome, where apostles taught and died.",
+  "sources": [
+   {
+    "kind": "primary",
+    "work": "Tertullian, The Prescription Against Heretics 36 (ANF 3)",
+    "file": "cic/texts/anf03_tertullian.xml",
+    "lines": "21678-21680",
+    "locus": "De praescriptione haereticorum 36",
+    "quote": "How happy is its church, on which apostles poured forth all their doctrine along with their blood!",
+    "license": "public-domain"
+   }
+  ]
+ },
+ {
+  "lane": 5.5,
+  "parent": 5,
+  "basis": "lineage",
+  "link": "philippine-catholicism-gomburza-to-aglipay--philippine-independent-church-twentieth-century"
+ },
+ {
+  "lane": 6,
+  "parent": 5,
+  "basis": "lineage",
+  "link": "the-hussite-and-bohemian-brethren-movement--czech-churches-last-century"
+ },
+ {
+  "lane": 7,
+  "parent": 6,
+  "basis": "declared",
+  "reason": "The revivals of 1904 to 1907 broke out in Protestant churches: the Welsh chapels, Pandita Ramabai's Mukti mission and the Presbyterian seminary at Pyongyang. None of them came from the others.",
+  "sources": [
+   {
+    "kind": "secondary",
+    "work": "R. Tudur Jones, Faith and the Crisis of a Nation: Wales 1890-1914 (English translation 2004)"
+   },
+   {
+    "kind": "secondary",
+    "work": "Sung-Deuk Oak, The Making of Korean Christianity (Baylor, 2013)"
+   },
+   {
+    "kind": "secondary",
+    "work": "Hugh McLeod, ed., The Cambridge History of Christianity, vol. 9 (2006)"
+   }
+  ]
+ },
+ {
+  "lane": 50,
+  "parent": 6,
+  "basis": "lineage",
+  "link": "the-mainline-century-liberal-and-neo-orthodox--progressive-christianity-a-broad-label-not-one-m"
+ },
+ {
+  "lane": 80,
+  "parent": 0,
+  "basis": "declared",
+  "reason": "The first non-Nicene teachers taught inside the second-century church before they left it. Tertullian says Valentinus hoped to become a bishop and broke with the church when another man was chosen.",
+  "sources": [
+   {
+    "kind": "primary",
+    "work": "Tertullian, Against the Valentinians 4 (ANF 3)",
+    "file": "cic/texts/anf03_tertullian.xml",
+    "lines": "43109-43113",
+    "locus": "Adversus Valentinianos 4",
+    "quote": "Valentinus had expected to become a bishop, because he was an able man both in genius and eloquence.",
+    "license": "public-domain"
+   }
+  ]
+ }
+]
+;
 const laneParent={};
-laneKeys.forEach(k=>{
-  if(k===0)return;
-  const genesisId=churchBodies.filter(m=>m.laneOrder===k).sort((a,b)=>a.start-b.start)[0].id;
-  const inbound=DATA.edges.find(e=>e.to===genesisId&&LINEAGE_TYPES.has(e.type)&&byId[e.from]&&!isAcross(byId[e.from]));
-  if(inbound)laneParent[k]=byId[inbound.from].laneOrder;
-});
-
-const LANE_PARENT_FROM_RECORD={
-  2:3,
-  4.5:5,
-  6:5,
-  50:6,
-  1.5:1
-};
-laneKeys.forEach(k=>{if(k!==0&&laneParent[k]==null&&LANE_PARENT_FROM_RECORD[k]!=null)laneParent[k]=LANE_PARENT_FROM_RECORD[k];});
+RIVER_ORIGINS.forEach(o=>{if(o.parent!=null)laneParent[o.lane]=o.parent;});
 
 
 const STEP=24;

@@ -36,6 +36,18 @@ function textLines(file) {
   if (!textCache.has(file)) textCache.set(file, existsSync(file) ? readFileSync(file, "utf8").split("\n") : null);
   return textCache.get(file);
 }
+// A quote from a Library file must stand verbatim (whitespace aside) in the cited lines.
+function checkHeldQuote(st, s) {
+  if (!s.file.startsWith("cic/texts/")) { errs.push(`${st}: file must be under cic/texts/`); return; }
+  const lines = textLines(s.file);
+  if (!lines) { errs.push(`${st}: file not found ${s.file}`); return; }
+  const m = /^(\d+)(?:-(\d+))?$/.exec(String(s.lines));
+  if (!m) { errs.push(`${st}: lines must be "n" or "a-b"`); return; }
+  const a = +m[1], b = +(m[2] ?? m[1]);
+  if (a < 1 || b < a || b > lines.length) { errs.push(`${st}: lines ${s.lines} outside ${s.file}`); return; }
+  const span = squash(lines.slice(a - 1, b).join(" "));
+  if (!span.includes(squash(s.quote))) errs.push(`${st}: quote not found verbatim in ${s.file} lines ${s.lines}`);
+}
 const HEX = /^#[0-9A-Fa-f]{6}$/;
 // A movement's kind: absent means a church body; "cross-church movement" is a defined
 // movement that runs across church bodies rather than being one; "person" is a person
@@ -131,15 +143,7 @@ const edgeIds = new Set();
       for (const k of ["file", "lines", "locus", "quote", "license"]) if (!s[k]) errs.push(`${st}: primary source missing ${k}`);
     }
     if (!s.file || !s.lines || !s.quote) return;
-    if (!s.file.startsWith("cic/texts/")) { errs.push(`${st}: file must be under cic/texts/`); return; }
-    const lines = textLines(s.file);
-    if (!lines) { errs.push(`${st}: file not found ${s.file}`); return; }
-    const m = /^(\d+)(?:-(\d+))?$/.exec(String(s.lines));
-    if (!m) { errs.push(`${st}: lines must be "n" or "a-b"`); return; }
-    const a = +m[1], b = +(m[2] ?? m[1]);
-    if (a < 1 || b < a || b > lines.length) { errs.push(`${st}: lines ${s.lines} outside ${s.file}`); return; }
-    const span = squash(lines.slice(a - 1, b).join(" "));
-    if (!span.includes(squash(s.quote))) errs.push(`${st}: quote not found verbatim in ${s.file} lines ${s.lines}`);
+    checkHeldQuote(st, s);
   });
   if (e.confidence === "Documented") {
     if (!sources.some(s => s.kind === "primary")) errs.push(`${tag}: Documented needs a primary source`);
@@ -365,6 +369,91 @@ if (atlasPath) {
   let depth = 0, end = open;
   for (; end < html.length; end++) { if (html[end] === "[") depth++; else if (html[end] === "]" && --depth === 0) break; }
   JSON.parse(html.slice(open, end + 1)).forEach(s => checkPlaceLabel(`story ${s.id}`, s));
+  checkRiverOrigins(html);
+}
+
+// --- river origins: where each river leaves its parent ---
+// A river's first movements are all its church bodies tied at its earliest start. Its parent is
+// the river of the strongest descent link into them: "gave rise to" or "continued as" (lineage)
+// before "broke with" (a break, counted only from a movement that started earlier); then a major
+// link before a minor one; then higher confidence; then the parent's earlier start, its id, and
+// the link's id. "influenced" and other links never decide it. With no such link the page's
+// record declares the parent, with its reason and source. The record must match this rule.
+function riverOriginLink(lane, bodies) {
+  const members = bodies.filter(m => m.laneOrder === lane);
+  const first = Math.min(...members.map(m => m.start));
+  const genesis = new Set(members.filter(m => m.start === first).map(m => m.id));
+  const body = new Map(bodies.map(m => [m.id, m]));
+  const conf = [...CONFIDENCE];
+  const found = [];
+  for (const e of d.edges ?? []) {
+    let other = null, rank = null;
+    if ((e.type === "gave rise to" || e.type === "continued as") && genesis.has(e.to)) { other = e.from; rank = 0; }
+    else if (e.type === "broke with" && (genesis.has(e.to) || genesis.has(e.from))) { other = genesis.has(e.to) ? e.from : e.to; rank = 1; }
+    const o = body.get(other);
+    if (!o || o.laneOrder === lane || (rank === 1 && o.start >= first)) continue;
+    const major = MAJOR_BY_TYPE.has(e.type) || !!e.outcome ? 0 : 1;
+    found.push({ e, o, key: [rank, major, conf.indexOf(e.confidence), o.start] });
+  }
+  found.sort((x, y) => {
+    for (let i = 0; i < x.key.length; i++) if (x.key[i] !== y.key[i]) return x.key[i] - y.key[i];
+    return x.o.id < y.o.id ? -1 : x.o.id > y.o.id ? 1 : x.e.id < y.e.id ? -1 : x.e.id > y.e.id ? 1 : 0;
+  });
+  return found[0] ?? null;
+}
+function checkRiverOrigins(html) {
+  const at = html.indexOf("const RIVER_ORIGINS = ");
+  if (at < 0) { errs.push("river origins: the page has no RIVER_ORIGINS record"); return; }
+  const start = at + "const RIVER_ORIGINS = ".length;
+  let record;
+  try { record = JSON.parse(html.slice(start, html.indexOf("\n;\n", start))); }
+  catch (e) { errs.push(`river origins: RIVER_ORIGINS does not parse: ${e.message}`); return; }
+  const bodies = (d.movements ?? []).filter(m => !m.kind);
+  const lanes = [...new Set(bodies.map(m => m.laneOrder))].sort((a, b) => a - b);
+  const byLane = new Map();
+  for (const o of record) {
+    const rt = `river origin ${o.lane}`;
+    if (byLane.has(o.lane)) errs.push(`${rt}: listed twice`);
+    byLane.set(o.lane, o);
+    if (!lanes.includes(o.lane)) errs.push(`${rt}: no river has this lane`);
+  }
+  for (const lane of lanes) {
+    const o = byLane.get(lane), rt = `river origin ${lane}`;
+    if (!o) { errs.push(`${rt}: the record has no entry for this river`); continue; }
+    if (lane === 0) {
+      if (o.basis !== "origin" || o.parent !== null) errs.push(`${rt}: the origin trunk has basis "origin" and parent null`);
+      continue;
+    }
+    const pick = riverOriginLink(lane, bodies);
+    if (pick) {
+      if (o.basis !== "lineage" || o.link !== pick.e.id || o.parent !== pick.o.laneOrder)
+        errs.push(`${rt}: the strongest descent link is ${pick.e.id} (${pick.e.type}, from river ${pick.o.laneOrder}); the record must say basis "lineage", link ${pick.e.id}, parent ${pick.o.laneOrder}`);
+      continue;
+    }
+    if (o.basis !== "declared") { errs.push(`${rt}: no descent link reaches this river's first movements, so its parent must be declared`); continue; }
+    if (!lanes.includes(o.parent)) errs.push(`${rt}: parent ${o.parent} is not a river`);
+    if (typeof o.reason !== "string" || !o.reason.trim()) errs.push(`${rt}: a declared parent needs its reason`);
+    if (!Array.isArray(o.sources) || !o.sources.length) errs.push(`${rt}: a declared parent needs a source`);
+    (o.sources ?? []).forEach((s, j) => {
+      const st = `${rt} source[${j}]`;
+      if (!SOURCE_KINDS.has(s.kind)) errs.push(`${st}: kind must be primary or secondary`);
+      if (!s.work) errs.push(`${st}: no work`);
+      if (s.kind === "primary") for (const k of ["file", "lines", "locus", "quote"]) if (!s[k]) errs.push(`${st}: primary source missing ${k}`);
+      if (s.file || s.lines || s.quote) {
+        if (!s.file || !s.lines || !s.quote) errs.push(`${st}: file, lines and quote go together`);
+        else checkHeldQuote(st, s);
+      }
+    });
+  }
+  for (const lane of lanes) {
+    const seen = new Set();
+    let k = lane;
+    while (k !== 0 && byLane.get(k) && !seen.has(k)) { seen.add(k); k = byLane.get(k).parent; }
+    if (k !== 0) errs.push(`river origin ${lane}: following its parents never reaches the origin trunk`);
+    const parent = byLane.get(lane)?.parent;
+    const firstOf = l => Math.min(...bodies.filter(m => m.laneOrder === l).map(m => m.start));
+    if (lane !== 0 && lanes.includes(parent) && firstOf(parent) > firstOf(lane)) errs.push(`river origin ${lane}: its parent river ${parent} starts later than it does`);
+  }
 }
 
 // --- tree pages: every promised address resolves, every link has its anchor ---
