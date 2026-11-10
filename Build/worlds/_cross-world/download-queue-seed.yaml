@@ -22822,3 +22822,107 @@ queue:
     verified_by: "Library thread, 27 October 2026: metadata read (no licence tag), title page read, djvu.txt fetched, byte count 1,965,086 equal to listed size, headings read at raw lines 1350 and 6747; opens with a Geneva cover sheet"
     status: downloaded
     vendored_as: "calvin_opera-omnia-vol10-pars-prior-fra-lat_baum-cunitz-reuss1871.txt"
+
+  - title: "Pamphilus of Caesarea, Apologia pro Origene, Book I, Rufinus's Latin (Origenis Opera omnia, ed. Lommatzsch, t. XXIV)"
+    author: "Pamphilus of Caesarea"
+    translator: "C. H. E. Lommatzsch (ed.)"
+    year: "1846"
+    world: "alexandria-catechetical"
+    why: >
+      The Church Family Tree held Pamphilus from the people list: the Library had only Rufinus's preface and epilogue (npnf203), not the Apology itself.
+    url: "https://archive.org/details/origenous-ta-heuriskomena-panta-t.-24-1846"
+    rights_basis: "pd-us-by-date (1846; the item carries the CC Public Domain Mark 1.0)"
+    verified_by: "Library thread, 2026-11-10: metadata read (licenseurl PD Mark 1.0), title page and the Apology's headings read, djvu.txt fetched, byte count 826,197 equal to listed size, end of Book I read"
+    status: downloaded
+    vendored_as: "pamphilus_apologia-pro-origene-rufinus-lat_lommatzsch1846.txt"
+
+  - title: "Migne, Patrologia Graeca 17 (Origenis opera omnia t. VII), with Pamphilus's Apologia pro Origene, cols. 541-616"
+    author: "Pamphilus of Caesarea; Origen"
+    translator: "J.-P. Migne (ed.)"
+    year: "1857"
+    world: "alexandria-catechetical"
+    why: >
+      Second witness of the Apology with PG column numbers; the end of Book I is garbled in the Lommatzsch scan and clean here.
+    url: "https://archive.org/details/migne-patrologiae-cursus-completus-series-graeca-t.-17-1857"
+    rights_basis: "pd-us-by-date (1857; the item carries the CC Public Domain Mark 1.0)"
+    verified_by: "Library thread, 2026-11-10: metadata read (licenseurl PD Mark 1.0), title page and contents read, the Apology's preface, chapters and end located, djvu.txt fetched, byte count 4,479,543 equal to listed size"
+    status: downloaded
+    vendored_as: "origen_opera-omnia-t7-pamphilus-apologia-pg17-grc-lat_migne1857.txt"
+
+  - title: "Priscilliani quae supersunt, ed. Georg Schepss (CSEL 18)"
+    author: "Priscillian of Avila"
+    translator: "Georg Schepss (ed.)"
+    year: "1889"
+    world: "priscillianist-asceticism"
+    why: >
+      The tree held Priscillian with no writing of his own in the Library; the shelf held only hostile accounts.
+    url: "https://archive.org/details/corpusscriptorum18auguuoft"
+    rights_basis: "pd-us-by-date (1889; the item is tagged NOT_IN_COPYRIGHT)"
+    verified_by: "Library thread, 2026-11-10: metadata read (NOT_IN_COPYRIGHT), both title pages read, tractate headings located, djvu.txt fetched, byte count 692,579 equal to listed size, indexes at the end read"
+    status: downloaded
+    vendored_as: "priscillian_quae-supersunt-lat_schepss1889-csel18.txt"
+
+  - title: "The Writings of Saint Francis of Assisi, newly translated into English"
+    author: "Francis of Assisi"
+    translator: "Paschal Robinson"
+    year: "1906"
+    world: "the-franciscan-movement"
+    why: >
+      The tree held Francis with none of his own writings in the Library; the shelf held only works about him.
+    url: "https://archive.org/details/WritingsOfStFrancisOfAssisi"
+    rights_basis: "pd-us-by-date (US 1906; the item carries the CC Public Domain Mark 1.0)"
+    verified_by: "Library thread, 2026-11-10: metadata read (licenseurl PD Mark 1.0), title page read (Philadelphia MCMVI), Testament and Canticle located, djvu.txt fetched, byte count 335,818 equal to listed size, index at the end read"
+    status: downloaded
+    vendored_as: "francis-assisi_writings-of-saint-francis_robinson1906.txt"
+
+  - title: "Opuscula sancti patris Francisci Assisiensis (Quaracchi)"
+    author: "Francis of Assisi"
+    translator: "the Fathers of the College of St Bonaventure (eds.)"
+    year: "1904"
+    world: "the-franciscan-movement"
+    why: >
+      Latin original of Francis's own writings, beside Robinson's English.
+    url: "https://archive.org/details/opusculasanctipa00fran"
+    rights_basis: "pd-us-by-date (1904; the item carries no rights field, the imprint date is the basis)"
+    verified_by: "Library thread, 2026-11-10: metadata read (no rights field), title page and 1903 imprimatur read, Admonitiones and Testamentum located, djvu.txt fetched, byte count 247,048 equal to listed size, end read"
+    status: downloaded
+    vendored_as: "francis-assisi_opuscula-lat_quaracchi1904.txt"
+
+  - title: "The Life of Saint Francis by Saint Bonaventura (Temple Classics)"
+    author: "Bonaventure"
+    translator: "B. Gurney Salter"
+    year: "1904"
+    world: "the-franciscan-movement"
+    why: >
+      The tree held Bonaventure with none of his own writing in the Library.
+    url: "https://archive.org/details/TheLifeOfSaintFrancis"
+    rights_basis: "pd-us-by-date (1904; the item carries the CC Public Domain Mark 1.0)"
+    verified_by: "Library thread, 2026-11-10: metadata read (licenseurl PD Mark 1.0), title page and the translator's note read, prologue and chapters located, djvu.txt fetched, byte count 353,433 equal to listed size, end read"
+    status: downloaded
+    vendored_as: "bonaventure_life-of-saint-francis-legenda-maior_salter1904.txt"
+
+  - title: "Tria opuscula seraphici doctoris S. Bonaventurae: Breviloquium, Itinerarium mentis in Deum, De reductione artium ad theologiam, editio tertia (Quaracchi)"
+    author: "Bonaventure"
+    translator: "the Fathers of the College of St Bonaventure (eds.)"
+    year: "1911"
+    world: "the-franciscan-movement"
+    why: >
+      Bonaventure's own Latin: the Itinerarium and two other works.
+    url: "https://archive.org/details/triaopusculaseraphici3ed"
+    rights_basis: "pd-us-by-date (1911; the item carries the CC Public Domain Mark 1.0)"
+    verified_by: "Library thread, 2026-11-10: metadata read (licenseurl PD Mark 1.0), title pages and 1911 imprimatur read, Itinerarium incipit and explicit located, djvu.txt fetched, byte count 673,514 equal to listed size"
+    status: downloaded
+    vendored_as: "bonaventure_tria-opuscula-breviloquium-itinerarium-de-reductione-lat_quaracchi1911.txt"
+
+  - title: "S. Bonaventurae Opera omnia, tomus VIII (Quaracchi), with the Legenda maior and Legenda minor in Latin"
+    author: "Bonaventure"
+    translator: "the Fathers of the College of St Bonaventure (eds.)"
+    year: "1898"
+    world: "the-franciscan-movement"
+    why: >
+      Latin original of the Legenda maior; located, not vendored in this batch (6.2 MB; the English Salter 1904 serves the want).
+    url: "https://archive.org/details/doctorisseraphic08bona"
+    rights_basis: "pd-us-by-date (title page MDCCCXCVIII; the item carries no rights field)"
+    verified_by: "Library thread worker, 2026-11-10: metadata read, title page read, Legenda located at OCR line 94566, djvu.txt byte count 6,206,733 equal to listed size"
+    status: not-yet-downloaded
+

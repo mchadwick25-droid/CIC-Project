@@ -1,0 +1,16 @@
+source_file: francis-assisi_writings-of-saint-francis_robinson1906.txt
+
+assignments:
+  - row_id: francis-assisi_writings-of-saint-francis_robinson1906--writings
+    work: "Francis of Assisi, Writings: Admonitions, Rules, Testament, letters, praises and the Canticle of Brother Sun (Robinson's English, 1906)"
+    author: francis-assisi
+    locus: "the writings from OCR line 1685 (Admonitions) to the index at about 11676; the Testament at 5355, the Canticle at 8581; add 11 for this file's own line numbers"
+    atlas_ids:
+      - the-franciscan-movement
+    role: tradition
+    confidence: assigned
+    note: >
+      The founder's own words in a 1906 English translation: the Rule, the Testament dictated near
+      his death, the letters and the Canticle of Brother Sun. Robinson's introduction and notes are
+      his own, and his appendix gathers works of doubtful authorship, which are not Francis's by
+      this row. Clean English OCR.

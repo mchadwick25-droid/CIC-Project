@@ -632,6 +632,14 @@ authors:
 
       '
     from_file: broadmead-church_records-1640-1687_underhill1847.txt
+  brosset:
+    kind: metadata-omission
+    evidence: 'The file header credits the chronicle, but the volume is the work of Marie-Felicite
+      Brosset, the nineteenth-century editor and translator; its own title page reads "Introduction
+      et Tables des matieres" (file line 83).
+
+      '
+    from_file: brosset_histoire-de-la-georgie-pt1-fra_1849.txt
   brown-thomas:
     kind: metadata-omission
     evidence: 'The title page reads ''By Thomas Brown, of Cornwall, Orange County, State of
@@ -1763,6 +1771,15 @@ authors:
 
       '
     from_file: fontaine-james_memoirs-of-a-huguenot-family_maury1853.txt
+  heraclius:
+    kind: metadata-omission
+    evidence: 'The file header credits the conciliar acts as anonymous; the Ecthesis read
+      at the Lateran Council of 649 is headed as issued by "nostro domino ... Heraclio" (file
+      line about 100126), the emperor Heraclius (r. 610-641), with its drafting by the patriarch
+      Sergius.
+
+      '
+    from_file: mansi_sacrorum-conciliorum-collectio-tomus-10-lat_welter-facsimile1901.txt
   herbest:
     kind: metadata-omission
     evidence: The preface names 'Бенедикта Гербеста' (Benedict Herbest) as author of the brochure
@@ -2017,13 +2034,6 @@ authors:
 
       '
     from_file: anf01_apostolic-fathers-justin-irenaeus.xml
-  kartlis-tskhovreba:
-    kind: anonymous
-    evidence: 'The Georgian chronicle cycle (Kartlis Tskhovreba) is anonymous and composite;
-      the edition names its translator.
-
-      '
-    from_file: brosset_histoire-de-la-georgie-pt1-fra_1849.txt
   kebra-nagast:
     kind: anonymous
     evidence: 'An anonymous Ge''ez work; Budge''s title page names no author. The file is
@@ -2769,6 +2779,13 @@ authors:
 
       '
     from_file: paisius-velichkovsky_zhitie-i-pisaniia-chu_optina1847.txt
+  orosius:
+    kind: metadata-omission
+    evidence: 'The volume''s title page reads "Accedit Orosii Commonitorium de errore Priscillianistarum
+      et Origenistarum": Paulus Orosius, the Spanish presbyter writing to Augustine in 414.
+
+      '
+    from_file: priscillian_quae-supersunt-lat_schepss1889-csel18.txt
   ousebridge-kidcote-prisoner:
     kind: anonymous
     evidence: 'Paper IV is headed "Notes by a Prisoner in Ousebridge Kidcote" (file line 10657);

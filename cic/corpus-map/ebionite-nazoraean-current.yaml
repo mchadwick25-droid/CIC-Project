@@ -53,7 +53,7 @@ works:
   work: The Refutation of All Heresies (Philosophumena)
   author: hippolytus
   locus: div2 3.3 - Books I, IV-X (II-III lost)
-  role: tradition
+  role: context
   confidence: assigned
   note: 'The corpus''s most systematic heresiological source. Coverage derived by grep: Valentinus/Valentinians
     x96, Basilides x54, Marcion x32, Noetus x24, Elchasaites x28, Montanists x15, Ebionites

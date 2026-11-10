@@ -7354,6 +7354,36 @@ works:
 
     '
   source_file: anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml
+- row_id: pamphilus_apologia-pro-origene-rufinus-lat_lommatzsch1846--apologia-pro-origene-book-1
+  work: Pamphilus, Apologia pro Origene, Book I, in Rufinus's Latin (Lommatzsch 1846)
+  author: pamphilus
+  locus: Rufinus's preface from OCR line 13912, Book I (CAPUT I-X) to about 21185; add 12
+    for this file's own line numbers
+  role: tradition
+  confidence: provisional
+  note: 'Pamphilus''s own defence of Origen, written in prison at Caesarea with Eusebius (c.
+    307-310), surviving only as Book I in Rufinus''s Latin. Primary original-language voice
+    of the Origenist school Pamphilus kept at Caesarea; Eusebius (Church History VI.33) calls
+    it a work of his and Pamphilus together. Second witness for quotation until checked against
+    the page image or the Migne PG 17 file: readable Latin with OCR noise, the last page of
+    Book I garbled.
+
+    '
+  source_file: pamphilus_apologia-pro-origene-rufinus-lat_lommatzsch1846.txt
+- row_id: origen_opera-omnia-t7-pamphilus-apologia-pg17-grc-lat_migne1857--apologia-pro-origene-book-1
+  work: Pamphilus, Apologia pro Origene, Book I, in Rufinus's Latin (Migne, PG 17, cols. 541-616)
+  author: pamphilus
+  locus: Rufinus's preface at OCR lines 41853-41859, Book I to about 48040 (CAPUT I at 42498,
+    CAPUT X at 47461); Rufinus's epilogue from 48041; add 12 for this file's own line numbers
+  role: tradition
+  confidence: provisional
+  note: 'The same text as the Lommatzsch 1846 file, in the Migne printing with PG column numbers;
+    the end of Book I is cleaner here. Second witness for quotation until checked against
+    the page image: Latin readable with noise and page headers interleaved. The rest of the
+    volume (Origen''s own works) is not mapped work by work.
+
+    '
+  source_file: origen_opera-omnia-t7-pamphilus-apologia-pg17-grc-lat_migne1857.txt
 - row_id: anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--fragments-of-pantaenus
   work: Fragments of Pantaenus
   author: pantaenus
