@@ -1,6 +1,6 @@
-Title: Histoire de la Georgie depuis l'antiquite jusqu'au XIXe siecle, premiere partie
-Creator: The Georgian chronicles (Kartlis Tskhovreba, with Vakhtang VI and Vakhushti
-    Bagrationi) (translated and edited by Marie-Felicite Brosset)
+Title: Histoire de la Georgie depuis l'antiquite jusqu'au XIXe siecle: Introduction et Tables des matieres
+Creator: Marie-Felicite Brosset (editor and translator of the Georgian chronicles, Kartlis
+    Tskhovreba)
 Publisher: St Petersburg, Imprimerie de l'Academie imperiale des sciences, 1849
 Rights: Public Domain
 Rights basis: 1849 publication, out of US copyright by date; the item carries the Creative Commons
@@ -11,13 +11,13 @@ Source: Internet Archive item bub_gb_TmtpAAAAMAAJ (archive.org/details/bub_gb_Tm
     fetched directly (curl, raw bytes) from the item's own _djvu.txt full-text file,
     2026-10-23, Library thread (Era III).
 Provenance note: Raw, uncorrected djvu OCR (French readable). Runs of 2+ spaces collapsed to one; no
-    wording changed. Sections: Brosset's chapters and the chronicle's reigns; Vakhtang
-    Gorgasali is indexed at "Gourgaslan". Credit line for a reader-facing page: "M.-F.
-    Brosset, Histoire de la Georgie, part I (St Petersburg, 1849)". Whole text
+    wording changed. Sections: the Introduction from line 115, then the tables and index.
+    Credit line for a reader-facing page: "M.-F. Brosset, Histoire de la Georgie,
+    Introduction et Tables des matieres (St Petersburg)". Whole text
     republishable.
-Content note: Medieval Georgian chronicle material (11th century and later) retelling the kings from
-    antiquity, including Vakhtang Gorgasali (a census voice) in the 5th century. Late,
-    French only.
+Content note: The volume of the editor's Introduction (roman-paged) and Tables des matieres, with
+    charter extracts, notes and the index. The chronicle text itself is not in this volume;
+    Vakhtang Gorgasali appears here only in the introduction and the index ("Gourgaslan").
 
 GRAD 
 DK 

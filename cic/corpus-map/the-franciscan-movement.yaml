@@ -15,6 +15,34 @@ works:
     against the scan. The English Fioretti (Heywood, 1906) is vendored beside it; there is
     no public-domain English of the Actus itself.
   source_file: actus-beati-francisci_actus-beati-francisci-et-sociorum-eius-lat_sabatier1902.txt
+- row_id: bonaventure_tria-opuscula-breviloquium-itinerarium-de-reductione-lat_quaracchi1911--tria-opuscula
+  work: Bonaventure, Breviloquium, Itinerarium mentis in Deum and De reductione artium ad
+    theologiam, Latin (Quaracchi 1911)
+  author: bonaventure
+  locus: the three works after the preface; the Itinerarium at OCR lines 12226-14809; De reductione
+    from 15363; add 12 for this file's own line numbers
+  role: tradition
+  confidence: assigned
+  note: 'Three works of the Franciscan Minister General''s own, in the Quaracchi critical
+    text: a summary of theology, the mind''s journey into God written on La Verna (1259),
+    and a short treatise on learning. Primary original-language voice; readable Latin, quote
+    after checking the page image.
+
+    '
+  source_file: bonaventure_tria-opuscula-breviloquium-itinerarium-de-reductione-lat_quaracchi1911.txt
+- row_id: bonaventure_life-of-saint-francis-legenda-maior_salter1904--legenda-maior
+  work: Bonaventure, Legenda maior (The Life of Saint Francis), English (Salter 1904)
+  author: bonaventure
+  locus: the Prologue from OCR line 266 to the end of the Miracles, before the translator's
+    note at 9880; add 11 for this file's own line numbers
+  role: tradition
+  confidence: assigned
+  note: 'The order''s official Life of its founder, written by its Minister General (1260-1263)
+    and made the only approved Life in 1266. Bonaventure''s own writing and the order''s own
+    account of Francis. Clean English OCR.
+
+    '
+  source_file: bonaventure_life-of-saint-francis-legenda-maior_salter1904.txt
 - row_id: fioretti_little-flowers-of-st-francis_heywood1906--the-little-flowers-of-st-francis-fioretti-english-by
   work: The Little Flowers of St. Francis (Fioretti), English by William Heywood (1906)
   author: fioretti
@@ -27,6 +55,34 @@ works:
     of a fourteenth-century Italian work; the March of Ancona friars of its second part are
     the Spirituals' region. Clean OCR. The Latin Actus is vendored beside it.
   source_file: fioretti_little-flowers-of-st-francis_heywood1906.txt
+- row_id: francis-assisi_opuscula-lat_quaracchi1904--opuscula
+  work: Francis of Assisi, Opuscula, Latin (Quaracchi 1904)
+  author: francis-assisi
+  locus: the Admonitiones from OCR line 495 to the Officium Passionis; the Testamentum from
+    2826; add 12 for this file's own line numbers
+  role: tradition
+  confidence: assigned
+  note: 'Primary original-language voice of the founder: the Latin critical text of his Rules,
+    Testament, letters and praises edited by the Quaracchi Fathers. The Italian Canticle is
+    not printed here. Readable Latin; quote after checking the page image.
+
+    '
+  source_file: francis-assisi_opuscula-lat_quaracchi1904.txt
+- row_id: francis-assisi_writings-of-saint-francis_robinson1906--writings
+  work: 'Francis of Assisi, Writings: Admonitions, Rules, Testament, letters, praises and
+    the Canticle of Brother Sun (Robinson''s English, 1906)'
+  author: francis-assisi
+  locus: the writings from OCR line 1685 (Admonitions) to the index at about 11676; the Testament
+    at 5355, the Canticle at 8581; add 11 for this file's own line numbers
+  role: tradition
+  confidence: assigned
+  note: 'The founder''s own words in a 1906 English translation: the Rule, the Testament dictated
+    near his death, the letters and the Canticle of Brother Sun. Robinson''s introduction
+    and notes are his own, and his appendix gathers works of doubtful authorship, which are
+    not Francis''s by this row. Clean English OCR.
+
+    '
+  source_file: francis-assisi_writings-of-saint-francis_robinson1906.txt
 - row_id: jacopone-da-todi_laude-ita_ferri1915--le-laude-of-jacopone-da-todi-edited-by-giovanni-ferri-1915
   work: Le Laude of Jacopone da Todi, edited by Giovanni Ferri (1915)
   author: jacopone-da-todi

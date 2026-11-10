@@ -273,7 +273,9 @@ works:
   work: 'Documents relatifs au concile de Florence, Documents VI-XXIV: Oeuvres anticonciliaires
     de Marc d''Ephese (Greek texts edited and translated into French by Louis Petit)'
   author: mark-of-ephesus
-  locus: whole volume
+  locus: 'file lines 17449-49934: the second fascicle (Tome XVII pp. 307-524), heading at
+    17453; the Lives of the Eastern Saints (lines 156-17448) and the Arabic Synaxary (from
+    49935) are other works'
   role: tradition
   confidence: assigned
   note: 'Tier: same time-place. The Patrologia Orientalis volume 17 on the shelf is a mixed
