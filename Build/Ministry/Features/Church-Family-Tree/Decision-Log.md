@@ -885,3 +885,18 @@ Mark chose Widely Accepted. A council's or member church's own dated membership 
 "member of" link to Widely Accepted with no study beside it. This settles Open-Gaps 143. Full entry:
 Atlas World Map Decision-Log, same date.
 
+---
+
+## 2026-11-10 — P2-L10 done: era 10 is linked
+
+The era 10 links were drafted, reviewed and applied in two parts.
+- Part 1: data release 27, 33 links added.
+- Part 2: data release 28, 33 links added.
+
+Each part passed independent review in its second round. The census now holds 644 links. Three
+are "member of" links, from the Disciples of Christ, the Church of Greece and the Kimbanguist
+church to the World Council of Churches. 28 of the 71 era 10 movements still have no "gave rise
+to" or "continued as" link coming in, down from 48. 9 have no link at all. Open-Gaps 149 lists
+them. Records are in `Build/Ministry/Operations/Audits/2026-11-10_links-era-10-part-1/` and
+`-part-2/`.
+

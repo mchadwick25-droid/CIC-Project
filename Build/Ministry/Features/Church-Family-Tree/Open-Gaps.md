@@ -1032,3 +1032,15 @@ it, never by deleting it.
       §1 on parishes) and `the-post-vatican-ii-parish-world--latin-american-catholicism-twentieth-century`
       (Paul VI's Bogotá homily, 1968). If a post-conciliar Catholic entry is made, both are re-checked.
 
+149. **Era 10 after P2-L10: what is still unlinked, and two more stale recordings (2026-11-10).**
+    - **Nine era 10 movements have no link of any kind:** IX.7, IX.30, IX.51, IX.54, IX.58,
+      IX.60, IX.61, IX.70 and IX.73. For each, either its text names no relationship to a census
+      movement that a source opened in the run supports, or the relationship waits for a ruling or
+      a text (dispositions in the two P2-L10 drafting records). 28 of the 71 era 10 movements have
+      no "gave rise to" or "continued as" link coming in, down from 48. Many of their parents fall
+      in the timeline breaks of Open-Gaps 142, so they come with that work. Owner: the next link
+      pass after sources are found.
+    - **Two more tree recordings read old descriptions.** Data release 28 rewrote the
+      longDescription of `ecumenical-community-worlds-taize-and-iona` and
+      `oneness-pentecostalism`. These join the five of Open-Gaps 145 for a paid re-voice, on
+      Mark's approval after a sample.
