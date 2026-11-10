@@ -993,3 +993,54 @@ it, never by deleting it.
     run. It joins the tree's other stale recordings, which get their own sample for Mark first (see
     "176 story recordings wait for the ElevenLabs quota to reset", 2026-11-09). Owner: this thread,
     on Mark's approval.
+146. **Open-Gaps 143 is settled (2026-11-10).** Mark ruled that a "member of" link may be Widely
+    Accepted on the council's or member church's own dated membership record alone. See the
+    Decision-Log, "A 'member of' link may be Widely Accepted on the membership record alone".
+
+147. **The Sayfo entry says Syriac history "had gone quiet after about 1300" (2026-11-10).** The
+    entry for the Syriac churches from 1915 (atlasId IX.19) says, in its relationsSummary and legacy,
+    that Syriac recorded history "had gone quiet after about 1300". It also says Syriac
+    communities experienced that silence "as erasure", and uses map wording ("named honestly
+    here"; "On this map the entry does one more thing").
+    - The Church of the East wing the entry covers has its own entries (V.17, VI.30, VIII.40) and an
+      existing "continued as" link, so the first claim does not hold for it. It holds only for the
+      Syriac Orthodox side, which Open-Gaps 135 already lists as a held gap after 1300.
+    - No source supports the claim about what communities experienced.
+    - The fix spans two fields, so under the link method it is left for the entry's owner, not
+      rewritten in P2-L10. Found by the part 2 drafters (group G).
+148. **Joint declarations between churches, and no entry for Rome after 1962 (2026-11-10).** The
+    part 2 drafters of P2-L10 (group G) read two joint declarations online, on vatican.va:
+    - Paul VI and Athenagoras I, 7 December 1965;
+    - John Paul II and Mar Dinkha IV, the Common Christological Declaration of 1994.
+
+    Each shows contact between two churches directly, in both churches' own names. Two things stop
+    a link:
+    - **A method question for Mark.** Under the method, Widely Accepted needs a study as well, so
+      a link resting on a joint declaration alone could not reach it. Mark ruled that a membership
+      roll alone may carry a "member of" link. Should a joint declaration alone carry an "in
+      contact with" link the same way?
+    - **No endpoint.** The census has no entry for the Roman Catholic Church after 1962. The Pius X
+      entry ends at the Council, and the post-Vatican II parish entry is not the papacy.
+
+    Both claims are confirmed and recorded as no-entry in
+    `Build/Ministry/Operations/Audits/2026-11-10_links-era-10-part-2/Drafting_Record.json`. Owner:
+    Mark (the method question), then the census owner (whether a post-conciliar Catholic entry is
+    needed).
+    - 2026-11-10: two part 2 links use the post-Vatican II parish entry for acts of Rome after 1962,
+      with flags on each saying why it fits the entry's own scope (the parish, the liturgy):
+      `the-tridentine-church--the-post-vatican-ii-parish-world` (Summorum Pontificum, 2007, Art. 5
+      §1 on parishes) and `the-post-vatican-ii-parish-world--latin-american-catholicism-twentieth-century`
+      (Paul VI's Bogotá homily, 1968). If a post-conciliar Catholic entry is made, both are re-checked.
+
+149. **Era 10 after P2-L10: what is still unlinked, and two more stale recordings (2026-11-10).**
+    - **Nine era 10 movements have no link of any kind:** IX.7, IX.30, IX.51, IX.54, IX.58,
+      IX.60, IX.61, IX.70 and IX.73. For each, either its text names no relationship to a census
+      movement that a source opened in the run supports, or the relationship waits for a ruling or
+      a text (dispositions in the two P2-L10 drafting records). 28 of the 71 era 10 movements have
+      no "gave rise to" or "continued as" link coming in, down from 48. Many of their parents fall
+      in the timeline breaks of Open-Gaps 142, so they come with that work. Owner: the next link
+      pass after sources are found.
+    - **Two more tree recordings read old descriptions.** Data release 28 rewrote the
+      longDescription of `ecumenical-community-worlds-taize-and-iona` and
+      `oneness-pentecostalism`. These join the five of Open-Gaps 145 for a paid re-voice, on
+      Mark's approval after a sample.

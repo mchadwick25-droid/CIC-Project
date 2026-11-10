@@ -1,0 +1,1140 @@
+{
+ "method": "Raw download (curl, no model); tags stripped from HTML only; quote marks, dashes, whitespace and OCR line-break hyphens normalized; exact substring. Every quote the script could not match has a second check, recorded per row.",
+ "totals": {
+  "quotes": 113,
+  "script_verbatim": 107,
+  "second_check": 6
+ },
+ "rows": [
+  {
+   "file": "Draft_GroupG.json",
+   "link": "the-greek-church-and-the-ecumenical-patriarchate--the-ecumenical-movement-and-the-wcc",
+   "source": 0,
+   "url": "https://www.oikoumene.org/resources/documents/unto-the-churches-of-christ-everywhere-encyclical-of-the-ecumenical-patriarchate-1920",
+   "ok": true,
+   "page_chars": 13436,
+   "quote": "Our own church holds that rapprochement between the various Christian churches and fellowship between them is not excluded by the doctrinal differences which ex",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupG.json",
+   "link": "the-greek-church-and-the-ecumenical-patriarchate--the-ecumenical-movement-and-the-wcc",
+   "source": 1,
+   "url": "https://www.oikoumene.org/about-the-wcc/history",
+   "ok": true,
+   "page_chars": 12697,
+   "quote": "The historical roots of the World Council of Churches are found in student and lay movements of the 19th century, the 1910 Edinburgh world missionary conference",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupG.json",
+   "link": "the-greek-church-and-the-ecumenical-patriarchate--the-ecumenical-movement-and-the-wcc",
+   "source": 2,
+   "url": "https://rprt.northwestern.edu/people/research-scholars/anglican-orders-and-orthodox-politics.pdf",
+   "ok": true,
+   "page_chars": 119549,
+   "quote": "In January of 1920 – the same year as The Christian East began publication – the Ecumenical Patriarchate issued possibly the most famous encyclical from Constan",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupG.json",
+   "link": "orthodoxy-after-1821-balkan-autocephalies--the-greek-church-and-the-ecumenical-patriarchate",
+   "source": 0,
+   "url": "https://www.oikoumene.org/member-churches/church-of-greece",
+   "ok": true,
+   "page_chars": 11201,
+   "quote": "In 1850 the Endemousa Synod in Constantinople declared the Church of Greece autocephalous.",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupG.json",
+   "link": "orthodoxy-after-1821-balkan-autocephalies--the-greek-church-and-the-ecumenical-patriarchate",
+   "source": 1,
+   "url": "https://www.oikoumene.org/member-churches/church-of-greece",
+   "ok": true,
+   "page_chars": 11201,
+   "quote": "In 1928 the Ecumenical Patriarchate issued a tome by which it ceded to the Church of Greece on a temporary basis 35 of its metropolitan dioceses in northern Gre",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupG.json",
+   "link": "the-greek-church-and-the-ecumenical-patriarchate--the-ecumenical-movement-and-the-wcc--2",
+   "source": 0,
+   "url": "https://www.oikoumene.org/member-churches/ecumenical-patriarchate",
+   "ok": true,
+   "page_chars": 11645,
+   "quote": "WCC Member Since 1948",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupG.json",
+   "link": "the-greek-church-and-the-ecumenical-patriarchate--the-ecumenical-movement-and-the-wcc--2",
+   "source": 1,
+   "url": "https://www.oikoumene.org/member-churches/church-of-greece",
+   "ok": true,
+   "page_chars": 11201,
+   "quote": "WCC Member Since 1948",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupG.json",
+   "link": "the-greek-church-and-the-ecumenical-patriarchate--the-ecumenical-movement-and-the-wcc--2",
+   "source": 2,
+   "url": "https://www.oikoumene.org/member-churches/ecumenical-patriarchate",
+   "ok": true,
+   "page_chars": 11645,
+   "quote": "It has been involved in the WCC from its beginning.",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupG.json",
+   "link": "st-thomas-christians-under-portuguese-pressure-d--the-malankara-churches-orthodox-and-jacobite",
+   "source": 1,
+   "url": "https://mosckottayam.com/menu/church/church-history",
+   "ok": true,
+   "page_chars": 12711,
+   "quote": "Furthermore, the Church in India pursued a formal relationship between Malankara and the Syriac Orthodox Church of Antioch in the mid-17th century. Thus, marked",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupG.json",
+   "link": "st-thomas-christians-under-portuguese-pressure-d--the-malankara-churches-orthodox-and-jacobite",
+   "source": 2,
+   "url": "https://mosckottayam.com/menu/church/church-history",
+   "ok": true,
+   "page_chars": 12686,
+   "quote": "In 1912, the Malankara Orthodox Church was granted autocephaly when Baselios Paulose I was elevated as Catholicos of the East, successor to the Apostolic Throne",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupG.json",
+   "link": "the-malankara-churches-orthodox-and-jacobite--the-sayfo-and-the-syriac-diaspora",
+   "source": 0,
+   "url": "https://mosckottayam.com/menu/church/church-history",
+   "ok": true,
+   "page_chars": 12686,
+   "quote": "In 1912, the Malankara Orthodox Church was granted autocephaly when Baselios Paulose I was elevated as Catholicos of the East, successor to the Apostolic Throne",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupG.json",
+   "link": "the-malankara-churches-orthodox-and-jacobite--the-sayfo-and-the-syriac-diaspora",
+   "source": 1,
+   "url": "https://mosckottayam.com/menu/church/church-history",
+   "ok": true,
+   "page_chars": 12686,
+   "quote": "Unfortunately, this led to a schism in the Holy Church, with one side supporting the Catholicos and the other, the Patriarch.",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupG.json",
+   "link": "the-malankara-churches-orthodox-and-jacobite--the-sayfo-and-the-syriac-diaspora",
+   "source": 2,
+   "url": "https://mosckottayam.com/menu/church/church-history",
+   "ok": true,
+   "page_chars": 12686,
+   "quote": "Unfortunately, in 1975, the Church was again brought into turmoil due to an excommunication from the Patriarch of Antioch of His Holiness Catholicos Baselios Au",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupG.json",
+   "link": "east-african-christianity-uganda-martyrs--the-catholic-church-in-africa-twentieth-century",
+   "source": 0,
+   "url": "https://www.vatican.va/content/paul-vi/en/speeches/1964/documents/hf_p-vi_spe_19641019_uganda.html",
+   "ok": true,
+   "page_chars": 8029,
+   "quote": "Your visit, occurring on the happy occasion of the canonization of the Martyrs of Uganda, fills Our heart with joy.",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupG.json",
+   "link": "east-african-christianity-uganda-martyrs--the-catholic-church-in-africa-twentieth-century",
+   "source": 1,
+   "url": "https://www.vatican.va/content/paul-vi/en/speeches/1964/documents/hf_p-vi_spe_19641019_uganda.html",
+   "ok": true,
+   "page_chars": 8029,
+   "quote": "the Bishops, priests and faithful of Uganda and of Central Africa",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupG.json",
+   "link": "east-african-christianity-uganda-martyrs--the-catholic-church-in-africa-twentieth-century",
+   "source": 2,
+   "url": "https://www.vatican.va/content/paul-vi/en/homilies/1969/documents/hf_p-vi_hom_19690802.html",
+   "ok": true,
+   "page_chars": 10188,
+   "quote": "Why have I come to Africa, to Uganda, and right here to Namugongo?",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupG.json",
+   "link": "east-african-christianity-uganda-martyrs--the-catholic-church-in-africa-twentieth-century",
+   "source": 3,
+   "url": "https://www.vatican.va/content/paul-vi/en/homilies/1969/documents/hf_p-vi_hom_19690802.html",
+   "ok": true,
+   "page_chars": 10188,
+   "quote": "I have come to do honour to your Martyrs. Here is being raised a Sanctuary to the glory of the Lord in their memory; and I decided to come from Rome to bless th",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupG.json",
+   "link": "latin-american-catholicism-twentieth-century--latin-american-base-communities",
+   "source": 0,
+   "url": "https://revistas.uca.edu.sv/index.php/rlt/article/download/5730/5677/17927",
+   "ok": true,
+   "page_chars": 77390,
+   "quote": "Ella es, pues, célula inicial de estructuración eclesial, y foco de la evangelización, y actualmente factor primordial de promoción humana y desarrollo (15, 10)",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupG.json",
+   "link": "latin-american-catholicism-twentieth-century--latin-american-base-communities",
+   "source": 1,
+   "url": "https://revistas.uca.edu.sv/index.php/rlt/article/download/5730/5677/17927",
+   "ok": true,
+   "page_chars": 77390,
+   "quote": "ahora insisten en que la comunidad cristiana de base es la célula inicial de la estructuración eclesial.",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupG.json",
+   "link": "seventh-day-adventist-church-twentieth-century--branch-davidians-and-apocalyptic-splinters",
+   "source": 0,
+   "url": "https://shepherds-rod-message.org/sr/1SR",
+   "ok": true,
+   "page_chars": 499680,
+   "quote": "It is the intention of this book to reveal the truth of the 144,000 mentioned in Revelation 7 but the chief object of this publication is to bring about a refor",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupG.json",
+   "link": "seventh-day-adventist-church-twentieth-century--branch-davidians-and-apocalyptic-splinters",
+   "source": 1,
+   "url": "https://shepherds-rod-message.org/sr/1SR",
+   "ok": true,
+   "page_chars": 499680,
+   "quote": "This publication does not advocate a new movement, and it absolutely opposes such moves.",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupG.json",
+   "link": "seventh-day-adventist-church-twentieth-century--branch-davidians-and-apocalyptic-splinters",
+   "source": 2,
+   "url": "https://shepherds-rod-message.org/sr/1SR",
+   "ok": true,
+   "page_chars": 499680,
+   "quote": "Our denomination numbers about 300,000.",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupG.json",
+   "link": "the-georgian-orthodox-church-restored--the-russian-orthodox-church-council-patriarchate-and-reunion",
+   "source": 0,
+   "url": "https://www.analogiajournal.com/article/the-orthodox-church-of-georgia-and-the-perspectives-of-recognizing-the-autocephaly-of-the-orthodox-church-of-ukraine/",
+   "ok": true,
+   "page_chars": 22914,
+   "quote": "Thus, in 1943, the Eucharistic union between the Orthodox Churches of Russia and Georgia was restored and later, the ROC chose Sergiy (Stragorodsky) as Patriarc",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupG.json",
+   "link": "the-georgian-orthodox-church-restored--the-russian-orthodox-church-council-patriarchate-and-reunion",
+   "source": 1,
+   "url": "https://www.analogiajournal.com/article/the-orthodox-church-of-georgia-and-the-perspectives-of-recognizing-the-autocephaly-of-the-orthodox-church-of-ukraine/",
+   "ok": true,
+   "page_chars": 22911,
+   "quote": "In 1943, Joseph Stalin, in pursuit of his political goals, decided to change the religious policy that had existed until then and openly included the Church in ",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupG.json",
+   "link": "the-georgian-orthodox-church-restored--the-greek-church-and-the-ecumenical-patriarchate",
+   "source": 0,
+   "url": "https://www.analogiajournal.com/article/the-orthodox-church-of-georgia-and-the-perspectives-of-recognizing-the-autocephaly-of-the-orthodox-church-of-ukraine/",
+   "ok": true,
+   "page_chars": 22911,
+   "quote": "The de jure recognition took place immediately after the collapse of the Soviet Union when the Ecumenical Patriarch Demetrios I handed over the Tomos to the Pat",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupG.json",
+   "link": "the-georgian-orthodox-church-restored--the-greek-church-and-the-ecumenical-patriarchate",
+   "source": 1,
+   "url": "https://www.analogiajournal.com/article/the-orthodox-church-of-georgia-and-the-perspectives-of-recognizing-the-autocephaly-of-the-orthodox-church-of-ukraine/",
+   "ok": true,
+   "page_chars": 22911,
+   "quote": "Since 1943, the Orthodox Church has actively participated in international events, and her autocephaly, de facto, has been recognized by all other Orthodox chur",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupH.json",
+   "link": "african-initiated-churches-harrist-aladura-zioni--global-south-pentecostal-christianity",
+   "source": 0,
+   "url": "https://www.rccg.org/our-history/",
+   "ok": true,
+   "page_chars": 6199,
+   "quote": "Still spiritually unfulfilled, he joined the Cherubim and Seraphim church in 1931.",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupH.json",
+   "link": "african-initiated-churches-harrist-aladura-zioni--global-south-pentecostal-christianity",
+   "source": 1,
+   "url": "https://www.rccg.org/our-history/",
+   "ok": true,
+   "page_chars": 6197,
+   "quote": "By 1952, he felt totally persuaded to leave the church.",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupH.json",
+   "link": "african-initiated-churches-harrist-aladura-zioni--global-south-pentecostal-christianity",
+   "source": 2,
+   "url": "https://www.cambridge.org/core/books/an-introduction-to-pentecostalism/subsaharan-africa/0D92DE132F0A2EF53BBB78B60C252099",
+   "ok": true,
+   "page_chars": 25612,
+   "quote": "One that is managing to do so is the Christ Apostolic Church (CAC), the biggest of Nigeria’s older Pentecostal churches, sitting somewhat half way between Aladu",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupH.json",
+   "link": "global-south-pentecostal-christianity--african-diaspora-and-reverse-mission-churches-in",
+   "source": 0,
+   "url": "https://www.rccg.org/our-history/",
+   "ok": true,
+   "page_chars": 6197,
+   "quote": "In Europe the church is spread in England, Germany, and France.",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupH.json",
+   "link": "global-south-pentecostal-christianity--african-diaspora-and-reverse-mission-churches-in",
+   "source": 1,
+   "url": "https://www.rccg.org/our-history/",
+   "ok": true,
+   "page_chars": 6197,
+   "quote": "By 1952, he felt totally persuaded to leave the church.",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupH.json",
+   "link": "african-initiated-churches-harrist-aladura-zioni--the-ecumenical-movement-and-the-wcc",
+   "source": 0,
+   "url": "https://archive.org/details/twentythirdmeeti00unse",
+   "ok": true,
+   "page_chars": 36165,
+   "quote": "that the following Churches be accepted into membership of the World Council of Churches, in accordance with the Rules",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupH.json",
+   "link": "african-initiated-churches-harrist-aladura-zioni--the-ecumenical-movement-and-the-wcc",
+   "source": 1,
+   "url": "https://archive.org/details/twentythirdmeeti00unse",
+   "ok": true,
+   "page_chars": 36165,
+   "quote": "Church of Christ on Earth by the Prophet Simon Kimbangua",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupH.json",
+   "link": "african-initiated-churches-harrist-aladura-zioni--the-ecumenical-movement-and-the-wcc",
+   "source": 2,
+   "url": "https://archive.org/details/twentythirdmeeti00unse",
+   "ok": true,
+   "page_chars": 36165,
+   "quote": "Mr. Diangienda thanked the Chairman and members of the Committee for the manner in which he had been received and expressed pleasure, in the name of his Church,",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupH.json",
+   "link": "african-initiated-churches-harrist-aladura-zioni--the-ecumenical-movement-and-the-wcc",
+   "source": 3,
+   "url": "https://www.christianitytoday.com/1969/09/canterbury-canticle/",
+   "ok": true,
+   "page_chars": 25671,
+   "quote": "the Church of Christ on Earth by the Prophet, Simon Kimbangu, Congo-Kinshasa",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupH.json",
+   "link": "nineteenth-century-methodism--african-initiated-churches-harrist-aladura-zioni",
+   "source": 0,
+   "url": "https://dacb.org/stories/southafrica/tile-nehemiah/",
+   "ok": true,
+   "page_chars": 11081,
+   "quote": "By the early 1870s he was working as an evangelist for the Wesleyan Methodist mission in the Thembu region of the present eastern Cape Province.",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupH.json",
+   "link": "nineteenth-century-methodism--african-initiated-churches-harrist-aladura-zioni",
+   "source": 1,
+   "url": "https://dacb.org/stories/southafrica/tile-nehemiah/",
+   "ok": true,
+   "page_chars": 11081,
+   "quote": "He broke with his mission supervisors because of their disapproval of his political activity.",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupH.json",
+   "link": "nineteenth-century-methodism--african-initiated-churches-harrist-aladura-zioni",
+   "source": 2,
+   "url": "https://dacb.org/stories/southafrica/tile-nehemiah/",
+   "ok": true,
+   "page_chars": 11081,
+   "quote": "Founder of the first independent African church in South Africa.",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupH.json",
+   "link": "the-anglican-communion-twentieth-century--african-initiated-churches-harrist-aladura-zioni",
+   "source": 0,
+   "url": "https://dacb.org/stories/uganda/spartas-reuben/",
+   "ok": true,
+   "page_chars": 12670,
+   "quote": "He was brought up as an Anglican, and became a protege of Archdeacon Daniel, of the seminary at Mukono.",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupH.json",
+   "link": "the-anglican-communion-twentieth-century--african-initiated-churches-harrist-aladura-zioni",
+   "source": 1,
+   "url": "https://dacb.org/stories/uganda/spartas-reuben/",
+   "ok": true,
+   "page_chars": 12670,
+   "quote": "in 1946, that Spartas was able to visit Alexandria and was appointed Patriarchal trustee of the Uganda Church.",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupH.json",
+   "link": "african-initiated-churches-harrist-aladura-zioni--african-diaspora-and-reverse-mission-churches-in",
+   "source": 0,
+   "url": "https://dacb.org/stories/nigeria/adejobi-emmanuel2/",
+   "ok": true,
+   "page_chars": 33029,
+   "quote": "He also conducted evangelistic missions and, in London, established the first branch of the Church of the Lord outside Africa.",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupH.json",
+   "link": "african-initiated-churches-harrist-aladura-zioni--african-diaspora-and-reverse-mission-churches-in",
+   "source": 1,
+   "url": "https://dacb.org/stories/nigeria/adejobi-emmanuel2/",
+   "ok": true,
+   "page_chars": 33029,
+   "quote": "This was the first West African Church in Europe and it was inaugurated on April 12, 1964.",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupH.json",
+   "link": "philippine-catholicism-gomburza-to-aglipay--philippine-independent-church-twentieth-century",
+   "source": 0,
+   "url": "https://anglicanhistory.org/asia/ph/correspondence1947.html",
+   "ok": true,
+   "page_chars": 69917,
+   "quote": "When this Church withdrew from the Roman Catholic Church, it repudiated the authority of the Pope and such doctrines, customs and practices as were inconsistent",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupH.json",
+   "link": "philippine-catholicism-gomburza-to-aglipay--philippine-independent-church-twentieth-century",
+   "source": 1,
+   "url": "https://anglicanhistory.org/asia/ph/correspondence1947.html",
+   "ok": true,
+   "page_chars": 69917,
+   "quote": "as it has been consistently one of the highest aspirations of our Episcopate since August 3rd, 1902, when our Church emancipated itself from the Church of Rome.",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupH.json",
+   "link": "philippine-catholicism-gomburza-to-aglipay--philippine-independent-church-twentieth-century",
+   "source": 2,
+   "url": "https://anglicanhistory.org/asia/ph/correspondence1947.html",
+   "ok": true,
+   "page_chars": 69917,
+   "quote": "when he and a number of other priests and congregations seceded from the Roman Catholic Church because they could no longer tolerate foreign domination of the C",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupH.json",
+   "link": "the-anglican-communion-twentieth-century--philippine-independent-church-twentieth-century",
+   "source": 0,
+   "url": "https://anglicanhistory.org/asia/ph/correspondence1947.html",
+   "ok": true,
+   "page_chars": 69917,
+   "quote": "1. That the Philippine Independent Church should adopt a \"Declaration of Faith,\" setting forth its belief in the Holy Trinity in unequivocal terms.",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupH.json",
+   "link": "the-anglican-communion-twentieth-century--philippine-independent-church-twentieth-century",
+   "source": 1,
+   "url": "https://anglicanhistory.org/asia/ph/correspondence1947.html",
+   "ok": true,
+   "page_chars": 69917,
+   "quote": "These suggestions were graciously accepted by the Supreme Bishop, his episcopal, clerical and lay advisers.",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupH.json",
+   "link": "the-anglican-communion-twentieth-century--philippine-independent-church-twentieth-century",
+   "source": 2,
+   "url": "https://anglicanhistory.org/asia/ph/correspondence1947.html",
+   "ok": true,
+   "page_chars": 69917,
+   "quote": "the Supreme Council of Bishops and the General Assembly of the Iglesia Filipina Independiente have unanimously approved and confirmed at their special sessions ",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupH.json",
+   "link": "the-anglican-communion-twentieth-century--philippine-independent-church-twentieth-century",
+   "source": 3,
+   "url": "https://anglicanhistory.org/asia/ph/correspondence1947.html",
+   "ok": true,
+   "page_chars": 69917,
+   "quote": "are henceforth not to be held as binding either upon the Clergy or Laity of this Church in matters of Doctrine, Discipline or Order",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupH.json",
+   "link": "the-anglican-communion-twentieth-century--philippine-independent-church-twentieth-century",
+   "source": 4,
+   "url": "https://anglicanhistory.org/asia/ph/correspondence1947.html",
+   "ok": true,
+   "page_chars": 69917,
+   "quote": "the Supreme Council of Bishops and the General Assembly have unanimously resolved to petition the Episcopal Church of the United States of America, a branch of ",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupH.json",
+   "link": "the-liturgical-movement--the-catholic-church-pius-x-to-the-council",
+   "source": 0,
+   "url": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_20111947_mediator-dei.html",
+   "ok": true,
+   "page_chars": 161436,
+   "quote": "The movement owed its rise to commendable private initiative and more particularly to the zealous and persistent labor of several monasteries within the disting",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupH.json",
+   "link": "the-liturgical-movement--the-catholic-church-pius-x-to-the-council",
+   "source": 1,
+   "url": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_20111947_mediator-dei.html",
+   "ok": true,
+   "page_chars": 161436,
+   "quote": "duty obliges Us to give serious attention to this \"revival\" as it is advocated in some quarters, and to take proper steps to preserve it at the outset from exce",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupH.json",
+   "link": "the-liturgical-movement--the-catholic-church-pius-x-to-the-council",
+   "source": 2,
+   "url": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_20111947_mediator-dei.html",
+   "ok": true,
+   "page_chars": 161436,
+   "quote": "Let everything be done with due order and dignity, and let no one, not even a priest, make use of the sacred edifices according to his whim to try out experimen",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupH.json",
+   "link": "the-liturgical-movement--the-post-vatican-ii-parish-world",
+   "source": 0,
+   "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19631204_sacrosanctum-concilium_en.html",
+   "ok": true,
+   "page_chars": 79953,
+   "quote": "Zeal for the promotion and restoration of the liturgy is rightly held to be a sign of the providential dispositions of God in our time, as a movement of the Hol",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupH.json",
+   "link": "the-liturgical-movement--the-post-vatican-ii-parish-world",
+   "source": 1,
+   "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19631204_sacrosanctum-concilium_en.html",
+   "ok": true,
+   "page_chars": 79844,
+   "quote": "In order that the Christian people may more certainly derive an abundance of graces from the sacred liturgy, holy Mother Church desires to undertake with great ",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupH.json",
+   "link": "the-liturgical-movement--the-post-vatican-ii-parish-world",
+   "source": 2,
+   "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19631204_sacrosanctum-concilium_en.html",
+   "ok": true,
+   "page_chars": 79844,
+   "quote": "But since the use of the mother tongue, whether in the Mass, the administration of the sacraments, or other parts of the liturgy, frequently may be of great adv",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupH.json",
+   "link": "the-russian-orthodox-church-council-patriarchate-and-reunion--emigre-orthodoxy-and-the-paris-school",
+   "source": 0,
+   "url": "https://saint-serge.net/linstitut/les-origines/",
+   "ok": true,
+   "page_chars": 8645,
+   "quote": "alors que se constituaient en France des communautés orthodoxes, composées de fidèles russes chassés de leur patrie par la Révolution de 1917.",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupH.json",
+   "link": "the-russian-orthodox-church-council-patriarchate-and-reunion--emigre-orthodoxy-and-the-paris-school",
+   "source": 1,
+   "url": "https://saint-serge.net/linstitut/les-origines/",
+   "ok": true,
+   "page_chars": 8453,
+   "quote": "Dès le lancement des cours le 30 avril 1925, le métropolite Euloge s’assura la collaboration d’une équipe de professeurs, théologiens et penseurs religieux de r",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupH.json",
+   "link": "emigre-orthodoxy-and-the-paris-school--american-orthodoxy-autocephaly-and-the-convert-wave",
+   "source": 0,
+   "url": "https://www.svots.edu/about/our-history",
+   "ok": true,
+   "page_chars": 64955,
+   "quote": "The beginning of this new era coincided with the arrival from St. Sergius Institute in Paris of Fr. Georges Florovsky , who soon was to be appointed dean (1951–",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupH.json",
+   "link": "emigre-orthodoxy-and-the-paris-school--american-orthodoxy-autocephaly-and-the-convert-wave",
+   "source": 1,
+   "url": "https://www.svots.edu/about/our-history",
+   "ok": true,
+   "page_chars": 64955,
+   "quote": "The seminary's future development was assured by the arrival of other younger theologians from St. Sergius: Fr. Alexander Schmemann (1951, +1983), Professor Ser",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupH.json",
+   "link": "the-russian-new-martyrs-and-the-catacomb-church--the-russian-orthodox-church-council-patriarchate-and-reunion",
+   "source": 0,
+   "url": "https://azbyka.ru/otechnik/Iosif_Petrovyh/ja-idu-tolko-za-hristom-mitropolit-iosif-petrovyh-1930-god/",
+   "ok": true,
+   "page_chars": 105111,
+   "quote": "Процесс, в котором я сейчас фигурирую, имеет целью видимо «разгром» так называемого «Иосифлянства» (правильнее «антиСергиянства»), организации якобы с антисовет",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupH.json",
+   "link": "the-russian-new-martyrs-and-the-catacomb-church--the-russian-orthodox-church-council-patriarchate-and-reunion",
+   "source": 1,
+   "url": "https://azbyka.ru/otechnik/Iosif_Petrovyh/ja-idu-tolko-za-hristom-mitropolit-iosif-petrovyh-1930-god/",
+   "ok": true,
+   "page_chars": 105111,
+   "quote": "недовольные Сергием решились прервать с ним общение как с администратором и управляться в своей общине самостоятельно",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupH.json",
+   "link": "the-russian-new-martyrs-and-the-catacomb-church--the-russian-orthodox-church-council-patriarchate-and-reunion",
+   "source": 2,
+   "url": "https://azbyka.ru/otechnik/Iosif_Petrovyh/ja-idu-tolko-za-hristom-mitropolit-iosif-petrovyh-1930-god/",
+   "ok": true,
+   "page_chars": 105111,
+   "quote": "Вы и теоретически единомысленны с нашим новым расколом, не совсем правильно называемым “иосифлянским”",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupH.json",
+   "link": "the-russian-new-martyrs-and-the-catacomb-church--the-russian-orthodox-church-council-patriarchate-and-reunion",
+   "source": 3,
+   "url": "https://azbyka.ru/otechnik/Iosif_Petrovyh/ja-idu-tolko-za-hristom-mitropolit-iosif-petrovyh-1930-god/",
+   "ok": true,
+   "page_chars": 105111,
+   "quote": "22 января 1928 года отделился от митрополита Сергия",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupH.json",
+   "link": "the-russian-orthodox-church-council-patriarchate-and-reunion--the-ukrainian-greek-catholic-underground",
+   "source": 0,
+   "url": "https://archives.ugcc.ua/en/documents/a_word_to_the_orthodox_brothers_and_sisters_who_signed_the_statement_on_the_70th_anniversary_of_the_socalled_lviv_sobor_of_1946_76337.html",
+   "ok": true,
+   "page_chars": 16018,
+   "quote": "We, Greco-Catholic bishops, clergy, and lay people, scholars and researchers from various countries, express our sincere gratitude and recognition for your lett",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupH.json",
+   "link": "the-russian-orthodox-church-council-patriarchate-and-reunion--the-ukrainian-greek-catholic-underground",
+   "source": 1,
+   "url": "https://archives.ugcc.ua/en/documents/a_word_to_the_orthodox_brothers_and_sisters_who_signed_the_statement_on_the_70th_anniversary_of_the_socalled_lviv_sobor_of_1946_76337.html",
+   "ok": true,
+   "page_chars": 15535,
+   "quote": "the official position of the Church that was an instrument of persecution of the Greco-Catholics in the hands of the godless totalitarian regime is still a posi",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupH.json",
+   "link": "desert-monasticism--the-coptic-monastic-and-sunday-school-revival",
+   "source": 0,
+   "url": "https://www.stmacariusmonastery.org/old/eabout.htm",
+   "ok": true,
+   "page_chars": 29228,
+   "quote": "It was founded in 360 A.D. by St. Macarius the Egyptian",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupH.json",
+   "link": "desert-monasticism--the-coptic-monastic-and-sunday-school-revival",
+   "source": 1,
+   "url": "https://www.stmacariusmonastery.org/old/eabout.htm",
+   "ok": true,
+   "page_chars": 29228,
+   "quote": "There they had lived the monastic life in the fullest sense, in the spirit of the desert fathers, with that same simplicity and the same total deprivation of al",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupH.json",
+   "link": "desert-monasticism--the-coptic-monastic-and-sunday-school-revival",
+   "source": 2,
+   "url": "https://www.stmacariusmonastery.org/old/eabout.htm",
+   "ok": true,
+   "page_chars": 29228,
+   "quote": "It was the late Patriarch Cyril vi who in 1969 ordered this group of monks to leave Wadi el-Rayyan and go to the Monastery of St. Macarius to restore it.",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupI.json",
+   "link": "azusa-street-and-early-pentecostalism--oneness-pentecostalism",
+   "source": 0,
+   "url": "https://archives.ifphc.org/DigitalPublications/USA/Assemblies%20of%20God%20USA/Minutes%20General%20Council/Unregistered/1916/FPHC/1916.pdf",
+   "ok": false,
+   "page_chars": 80436,
+   "quote": "That we recognize ourselves as a GENERAL COUNCIL of Pentecostal (Spirit Baptized) saints from local Churches of God in Christ, Assemblies of God, and various Ap",
+   "second_check": "Scanned page: verbatim against the page image (P2-L10 part 1 image check; this is part 1's kept link)."
+  },
+  {
+   "file": "Draft_GroupI.json",
+   "link": "azusa-street-and-early-pentecostalism--oneness-pentecostalism",
+   "source": 1,
+   "url": "https://archives.ifphc.org/DigitalPublications/USA/Assemblies%20of%20God%20USA/Minutes%20General%20Council/Unregistered/1916/FPHC/1916.pdf",
+   "ok": false,
+   "page_chars": 80436,
+   "quote": "RESOLVED, That since the words in Matth. 28:19 and the words in Acts 2:38 were both inspired of God, we hereby disapprove of contending for the one to the exclu",
+   "second_check": "Scanned page: verbatim against the page image (P2-L10 part 1 image check; this is part 1's kept link)."
+  },
+  {
+   "file": "Draft_GroupI.json",
+   "link": "orthodoxy-after-1821-balkan-autocephalies--orthodoxy-in-the-communist-balkans",
+   "source": 0,
+   "url": "https://patriarhia.ro/en/history-of-the-romanian-orthodox-church/",
+   "ok": true,
+   "page_chars": 20547,
+   "quote": "the Ecumenical Patriarchate granted autocephaly to the Romanian Orthodox Church on April 25, 1885",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupI.json",
+   "link": "orthodoxy-after-1821-balkan-autocephalies--orthodoxy-in-the-communist-balkans",
+   "source": 1,
+   "url": "https://patriarhia.ro/en/history-of-the-romanian-orthodox-church/",
+   "ok": true,
+   "page_chars": 20547,
+   "quote": "On February 4, 1925, the Holy Synod decided to elevate the Romanian Orthodox Church to the rank of Patriarchate",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupI.json",
+   "link": "orthodoxy-after-1821-balkan-autocephalies--orthodoxy-in-the-communist-balkans",
+   "source": 2,
+   "url": "https://bg-patriarshia.bg/history",
+   "ok": true,
+   "page_chars": 126115,
+   "quote": "След дълги перипетии на 27 февруари 1870г. султан Абдул Азис подписва ферман за учредяването на самостоятелна българска църковна структура под формата на екзарх",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupI.json",
+   "link": "orthodoxy-after-1821-balkan-autocephalies--orthodoxy-in-the-communist-balkans",
+   "source": 3,
+   "url": "https://bg-patriarshia.bg/history",
+   "ok": true,
+   "page_chars": 125655,
+   "quote": "Така на 10 май 1953г. БПЦ официално е провъзгласена за патриаршия, а за патриарх е избран Пловдивският митрополит Кирил.",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupI.json",
+   "link": "emigre-orthodoxy-and-the-paris-school--american-orthodoxy-autocephaly-and-the-convert-wave",
+   "source": 0,
+   "url": "https://svots.edu/people/protopresbyter-alexander-schmemann",
+   "ok": true,
+   "page_chars": 50725,
+   "quote": "Ordained to the Orthodox priesthood in 1946, he taught church history at St Sergius until 1951, when he was invited to join the faculty of St Vladimir's in New ",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupI.json",
+   "link": "emigre-orthodoxy-and-the-paris-school--american-orthodoxy-autocephaly-and-the-convert-wave",
+   "source": 1,
+   "url": "https://svots.edu/people/protopresbyter-alexander-schmemann",
+   "ok": true,
+   "page_chars": 50725,
+   "quote": "In 1970, he was active in the establishment of the Orthodox Church in America as an autocephalous church, which at that time became officially independent from ",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupI.json",
+   "link": "emigre-orthodoxy-and-the-paris-school--american-orthodoxy-autocephaly-and-the-convert-wave",
+   "source": 2,
+   "url": "https://www.oca.org/News/headline-news/the-tomos-of-autocephaly-forty-six-years-later",
+   "ok": true,
+   "page_chars": 14066,
+   "quote": "edited at that time by the late Protopresbyter John Meyendorff, one of the architects of the OCA’s autocephaly.",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupI.json",
+   "link": "emigre-orthodoxy-and-the-paris-school--american-orthodoxy-autocephaly-and-the-convert-wave",
+   "source": 3,
+   "url": "https://www.oca.org/News/headline-news/the-tomos-of-autocephaly-forty-six-years-later",
+   "ok": true,
+   "page_chars": 14066,
+   "quote": "On April 10, 1970, the Holy Synod of the Russian Orthodox Church proclaimed the autocephaly of the “Metropolia.”",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupI.json",
+   "link": "oneness-pentecostalism--iglesia-ni-cristo-the-way-international-unificat",
+   "source": 0,
+   "url": "https://bitterwinter.org/from-thunderclaps-to-temples-the-origins-of-la-luz-del-mundo/",
+   "ok": true,
+   "page_chars": 18415,
+   "quote": "Rosa introduced Elisa to the Iglesia Evangélica Cristiana Espiritual (I.E.C.E.), part of the Oneness Pentecostal tradition, which rejected the Trinity and bapti",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupI.json",
+   "link": "oneness-pentecostalism--iglesia-ni-cristo-the-way-international-unificat",
+   "source": 1,
+   "url": "https://bitterwinter.org/from-thunderclaps-to-temples-the-origins-of-la-luz-del-mundo/",
+   "ok": true,
+   "page_chars": 18398,
+   "quote": "Through Elisa, Eusebio met Francisco Borrego Martínez, leader of the I.E.C.E., and two eccentric prophets: Antonio Muñoz (Saulo) and Francisco Flores (Silas).",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupI.json",
+   "link": "oneness-pentecostalism--iglesia-ni-cristo-the-way-international-unificat",
+   "source": 2,
+   "url": "https://bitterwinter.org/from-thunderclaps-to-temples-the-origins-of-la-luz-del-mundo/",
+   "ok": true,
+   "page_chars": 18398,
+   "quote": "Silas baptized Eusebio in late 1925.",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupI.json",
+   "link": "oneness-pentecostalism--iglesia-ni-cristo-the-way-international-unificat",
+   "source": 3,
+   "url": "https://bitterwinter.org/from-thunderclaps-to-temples-the-origins-of-la-luz-del-mundo/",
+   "ok": true,
+   "page_chars": 18398,
+   "quote": "Many early converts came from Oneness Pentecostalism, bringing a penchant for schism.",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupI.json",
+   "link": "oneness-pentecostalism--iglesia-ni-cristo-the-way-international-unificat",
+   "source": 4,
+   "url": "https://wrldrels.org/?p=3249",
+   "ok": false,
+   "page_chars": 4110,
+   "quote": "Members and authorities of the church do not identify themselves as Pentecostals.",
+   "second_check": "Confirmed by the Round 1 reviewer's raw fetch (curl): the site served the article, not its CAPTCHA, and both quotes are verbatim there (posted 5 June 2016, updated 26 October 2023). The coordinator's own fetches had met the CAPTCHA."
+  },
+  {
+   "file": "Draft_GroupI.json",
+   "link": "oneness-pentecostalism--iglesia-ni-cristo-the-way-international-unificat",
+   "source": 5,
+   "url": "https://wrldrels.org/?p=3249",
+   "ok": false,
+   "page_chars": 4110,
+   "quote": "However, because of its origin, development, ritual and doctrine I classify this church in this way.",
+   "second_check": "Confirmed by the Round 1 reviewer's raw fetch (curl): the site served the article, not its CAPTCHA, and both quotes are verbatim there (posted 5 June 2016, updated 26 October 2023). The coordinator's own fetches had met the CAPTCHA."
+  },
+  {
+   "file": "Draft_GroupJ.json",
+   "link": "the-catholic-church-pius-x-to-the-council--the-ecumenical-movement-and-the-wcc",
+   "source": 0,
+   "url": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_19280106_mortalium-animos.html",
+   "ok": true,
+   "page_chars": 30818,
+   "quote": "This being so, it is clear that the Apostolic See cannot on any terms take part in their assemblies, nor is it anyway lawful for Catholics either to support or ",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupJ.json",
+   "link": "the-catholic-church-pius-x-to-the-council--the-ecumenical-movement-and-the-wcc",
+   "source": 1,
+   "url": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_19280106_mortalium-animos.html",
+   "ok": true,
+   "page_chars": 30818,
+   "quote": "And here it seems opportune to expound and to refute a certain false opinion, on which this whole question, as well as that complex movement by which non-Cathol",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupJ.json",
+   "link": "the-catholic-church-pius-x-to-the-council--the-ecumenical-movement-and-the-wcc",
+   "source": 2,
+   "url": "https://edizionicafoscari.it/media/pdf/article/journal-of-modern-and-contemporary-christianity/2024/1/art-10.30687-JoMaCC-2785-6046-2024-01-007.pdf",
+   "ok": true,
+   "page_chars": 111971,
+   "quote": "Despite the fact that Pius XI’s 1928 encyclical Mortalium animos seemed to have put a definitive end to the question of Catholic participation in movements for ",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupJ.json",
+   "link": "the-tridentine-church--the-post-vatican-ii-parish-world",
+   "source": 2,
+   "url": "https://www.vatican.va/content/benedict-xvi/en/motu_proprio/documents/hf_ben-xvi_motu-proprio_20070707_summorum-pontificum.html",
+   "ok": true,
+   "page_chars": 15693,
+   "quote": "The Roman Missal promulgated by Saint Pius V and revised by Blessed John XXIII is nonetheless to be considered an extraordinary expression of the same lex orand",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupJ.json",
+   "link": "the-tridentine-church--the-post-vatican-ii-parish-world",
+   "source": 3,
+   "url": "https://www.vatican.va/content/benedict-xvi/en/motu_proprio/documents/hf_ben-xvi_motu-proprio_20070707_summorum-pontificum.html",
+   "ok": true,
+   "page_chars": 15693,
+   "quote": "For such a celebration with either Missal, the priest needs no permission from the Apostolic See or from his own Ordinary.",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupJ.json",
+   "link": "the-tridentine-church--the-post-vatican-ii-parish-world",
+   "source": 4,
+   "url": "https://www.vatican.va/content/benedict-xvi/en/letters/2007/documents/hf_ben-xvi_let_20070707_lettera-vescovi.html",
+   "ok": true,
+   "page_chars": 15532,
+   "quote": "The last version of the Missale Romanum prior to the Council, which was published with the authority of Pope John XXIII in 1962 and used during the Council, wil",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupJ.json",
+   "link": "russian-church-synodal-century--the-russian-orthodox-church-council-patriarchate-and-reunion",
+   "source": 0,
+   "url": "https://azbyka.ru/otechnik/Istorija_Tserkvi/opredelenija-sobora-pravoslavnoj-rossijskoj-tserkvi-1917-1918-gg/",
+   "ok": true,
+   "page_chars": 296723,
+   "quote": "Восстановляется Патриаршество, и управление церковное возглавляется Патриархом.",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupJ.json",
+   "link": "russian-church-synodal-century--the-russian-orthodox-church-council-patriarchate-and-reunion",
+   "source": 1,
+   "url": "https://azbyka.ru/otechnik/Istorija_Tserkvi/opredelenija-sobora-pravoslavnoj-rossijskoj-tserkvi-1917-1918-gg/",
+   "ok": true,
+   "page_chars": 296723,
+   "quote": "в) председательствует в Священном Синоде, Высшем Церковном Совете и соединенном присутствии обоих учреждений;",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupJ.json",
+   "link": "the-russian-orthodox-church-council-patriarchate-and-reunion--american-orthodoxy-autocephaly-and-the-convert-wave",
+   "source": 0,
+   "url": "https://www.archdiocese.ca/node/298",
+   "ok": true,
+   "page_chars": 18598,
+   "quote": "in sincere love grant autocephaly to the Russian Orthodox Greek Catholic Church in America",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupJ.json",
+   "link": "the-russian-orthodox-church-council-patriarchate-and-reunion--american-orthodoxy-autocephaly-and-the-convert-wave",
+   "source": 1,
+   "url": "https://www.oca.org/history-archives/oca-history-intro",
+   "ok": true,
+   "page_chars": 9637,
+   "quote": "By the early 1900s almost all Orthodox communities, regardless of ethnic background, were united in a single diocese, or jurisdiction, which was under the Russi",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupJ.json",
+   "link": "the-russian-orthodox-church-council-patriarchate-and-reunion--american-orthodoxy-autocephaly-and-the-convert-wave",
+   "source": 2,
+   "url": "https://www.oca.org/history-archives/oca-history-intro",
+   "ok": true,
+   "page_chars": 9637,
+   "quote": "In 1970 the Metropolia once again entered into communion with the Moscow Patriarchate, which promptly granted it autocephaly, or administrative self-governance.",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupJ.json",
+   "link": "the-russian-orthodox-church-council-patriarchate-and-reunion--emigre-orthodoxy-and-the-paris-school",
+   "source": 0,
+   "url": "https://archeveche.eu/en/history/",
+   "ok": true,
+   "page_chars": 6992,
+   "quote": "The Archdiocese is the legal successor and direct continuation of the « Temporary Administration of Russian Parishes in Western Europe » founded by the holy Pat",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupJ.json",
+   "link": "the-russian-orthodox-church-council-patriarchate-and-reunion--emigre-orthodoxy-and-the-paris-school",
+   "source": 1,
+   "url": "https://www.saint-serge.net/linstitut/les-origines/",
+   "ok": false,
+   "page_chars": 0,
+   "quote": "cette propriété fut mise en vente par le gouvernement français alors que se constituaient en France des communautés orthodoxes, composées de fidèles russes chas",
+   "second_check": "The www address returned an empty page; the same page at https://saint-serge.net/linstitut/les-origines/ holds both quotes verbatim (raw download, coordinator)."
+  },
+  {
+   "file": "Draft_GroupJ.json",
+   "link": "the-russian-orthodox-church-council-patriarchate-and-reunion--emigre-orthodoxy-and-the-paris-school",
+   "source": 2,
+   "url": "https://www.saint-serge.net/linstitut/les-origines/",
+   "ok": false,
+   "page_chars": 0,
+   "quote": "Le métropolite Euloge (Gueorguievsky), leur chef spirituel, était à la recherche d’une église, pouvant servir à la fois de lieu de culte et d’Institut de théolo",
+   "second_check": "The www address returned an empty page; the same page at https://saint-serge.net/linstitut/les-origines/ holds both quotes verbatim (raw download, coordinator)."
+  },
+  {
+   "file": "Draft_GroupJ.json",
+   "link": "the-catholic-church-pius-x-to-the-council--the-post-vatican-ii-parish-world",
+   "source": 0,
+   "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19631204_sacrosanctum-concilium_en.html",
+   "ok": true,
+   "page_chars": 79844,
+   "quote": "the same may be said of the fathers of the Church and of the Roman pontiffs who in recent times, led by St. Pius X, have explained more precisely the ministeria",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupJ.json",
+   "link": "the-catholic-church-pius-x-to-the-council--the-post-vatican-ii-parish-world",
+   "source": 1,
+   "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19631204_sacrosanctum-concilium_en.html",
+   "ok": true,
+   "page_chars": 79844,
+   "quote": "The typical edition of the books of Gregorian chant is to be completed; and a more critical edition is to be prepared of those books already published since the",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupJ.json",
+   "link": "the-catholic-church-pius-x-to-the-council--chinese-catholicism-twentieth-century",
+   "source": 0,
+   "url": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_29061958_ad-apostolorum-principis.html",
+   "ok": true,
+   "page_chars": 31490,
+   "quote": "At the tomb of the Prince of the Apostles, in the majestic Vatican Basilica, Our immediate Predecessor of deathless memory, Pius XI, duly consecrated and raised",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupJ.json",
+   "link": "the-catholic-church-pius-x-to-the-council--chinese-catholicism-twentieth-century",
+   "source": 1,
+   "url": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_29061958_ad-apostolorum-principis.html",
+   "ok": true,
+   "page_chars": 31490,
+   "quote": "it follows that bishops who have been neither named nor confirmed by the Apostolic See, but who, on the contrary, have been elected and consecrated in defiance ",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupJ.json",
+   "link": "the-catholic-church-pius-x-to-the-council--latin-american-catholicism-twentieth-century",
+   "source": 0,
+   "url": "https://www.vatican.va/content/benedict-xvi/en/letters/2005/documents/hf_ben-xvi_let_20050514_celam.html",
+   "ok": true,
+   "page_chars": 7726,
+   "quote": "Fifty years ago my Venerable Predecessor Pius XII, fulfilling the desire expressed by the General Conference of Latin American Bishops who met in Rio de Janeiro",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupJ.json",
+   "link": "the-post-vatican-ii-parish-world--latin-american-catholicism-twentieth-century",
+   "source": 0,
+   "url": "https://www.vatican.va/content/paul-vi/es/homilies/1968/documents/hf_p-vi_hom_19680824.html",
+   "ok": true,
+   "page_chars": 33707,
+   "quote": "La Constitución Pastoral del Concilio « Gaudium et Spes » ofrece enseñanzas y estímulos de gran riqueza y de alto valor.",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupJ.json",
+   "link": "the-post-vatican-ii-parish-world--latin-american-catholicism-twentieth-century",
+   "source": 1,
+   "url": "https://www.vatican.va/content/paul-vi/es/homilies/1968/documents/hf_p-vi_hom_19680824.html",
+   "ok": true,
+   "page_chars": 33707,
+   "quote": "Trátese de dar a los Consejos presbiterales y pastorales la consistencia y la funcionalidad queridas por el Concilio;",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupJ.json",
+   "link": "nineteenth-century-latin-american-catholicism--latin-american-catholicism-twentieth-century",
+   "source": 0,
+   "url": "https://www.vatican.va/content/john-paul-ii/en/speeches/1999/june/documents/hf_jp-ii_spe_19990622_symposium-latinoamerica.html",
+   "ok": true,
+   "page_chars": 11589,
+   "quote": "organized by the Pontifical Commission for Latin America to commemorate the first centenary of that continent's Plenary Council.",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupJ.json",
+   "link": "nineteenth-century-latin-american-catholicism--latin-american-catholicism-twentieth-century",
+   "source": 1,
+   "url": "https://www.vatican.va/content/john-paul-ii/en/speeches/1999/june/documents/hf_jp-ii_spe_19990622_symposium-latinoamerica.html",
+   "ok": true,
+   "page_chars": 11589,
+   "quote": "I would like to recall that since the celebration of the Council, the Church in America has continued to thrive.",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupJ.json",
+   "link": "nineteenth-century-latin-american-catholicism--latin-american-catholicism-twentieth-century",
+   "source": 2,
+   "url": "https://www.vatican.va/content/john-paul-ii/en/speeches/1999/june/documents/hf_jp-ii_spe_19990622_symposium-latinoamerica.html",
+   "ok": true,
+   "page_chars": 11589,
+   "quote": "the four General Conferences of the Latin American Episcopate celebrated in Rio de Janeiro (1955), Medellín (1968), Puebla (1979) and Santo Domingo (1992)",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupJ.json",
+   "link": "philippine-catholicism-gomburza-to-aglipay--philippine-catholicism-twentieth-century",
+   "source": 0,
+   "url": "https://cbcponline.net/?p=967",
+   "ok": true,
+   "page_chars": 24083,
+   "quote": "In 1902, Gregorio Aglipay, taking notice of his capability, offered him the supreme prelacy of the Philippine Independent Church.",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupJ.json",
+   "link": "philippine-catholicism-gomburza-to-aglipay--philippine-catholicism-twentieth-century",
+   "source": 1,
+   "url": "https://cbcponline.net/?p=967",
+   "ok": true,
+   "page_chars": 24083,
+   "quote": "He became the first Filipino Bishop, perhaps also the first from the Malay race, and the only one during his time.",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupJ.json",
+   "link": "philippine-catholicism-gomburza-to-aglipay--philippine-catholicism-twentieth-century",
+   "source": 2,
+   "url": "https://cbcponline.net/?p=967",
+   "ok": true,
+   "page_chars": 24083,
+   "quote": "His elevation to the Episcopacy proved the capability of native priests who had been regarded as inferior and unworthy of any high office.",
+   "second_check": null
+  },
+  {
+   "file": "Draft_GroupJ.json",
+   "link": "philippine-catholicism-gomburza-to-aglipay--philippine-catholicism-twentieth-century",
+   "source": 3,
+   "url": "https://libmanandiocese.org/wp-content/uploads/2024/05/Jorge-Barlin-Biography.pdf",
+   "ok": true,
+   "page_chars": 53576,
+   "quote": "Msgr. Barlin was ordained Bishop by Msgr. Agius at the old Santo Domingo Church in Intramuros, Manila, making him the first Filipino and Bicolano bishop ever to",
+   "second_check": null
+  }
+ ]
+}

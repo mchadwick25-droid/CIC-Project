@@ -13,6 +13,25 @@ actual world-selection flow is a future decision for the front-end thread, not t
 
 ---
 
+## 2026-11-10 — The grade of a "member of" link on a body's own membership record
+
+**Decided (Mark: "Widely Accepted").** A "member of" link may reach Widely Accepted on the
+council's, or the member church's, own dated membership record alone, with no study beside it. A
+membership roll settles the fact of membership, and there is nothing to interpret. This applies to
+"member of" links only. The online cap still holds: such a link is never Documented unless the
+record is held in the Library. This answers Open-Gaps 143.
+
+Options weighed:
+- Widely Accepted on the record alone. Chosen.
+- Keep the method: a study is needed as well, so the link stays Inferential-Thin.
+- Dominant Modern Reconstruction on the record alone.
+
+**Applied.** The method brief amendment for "member of"
+(`Build/Ministry/Operations/Audits/2026-11-06_census-lineage-rigor/Drafting_Brief.md`) and the
+era 10 addendum carry the rule.
+
+---
+
 ## 2026-11-10 — Change order: a seventh link type, "member of"; the era 10 drafters' questions ruled
 
 **Decided (Mark: "do the right thing not the easy, so b", then "Q1 b only").** The part 1 drafters
