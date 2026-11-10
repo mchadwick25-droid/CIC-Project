@@ -1,0 +1,4881 @@
+{
+ "round": 1,
+ "scope": "P2-G3 people rows (R12, R36, R78, R910): speaker of every source quote, identity of every held author slug, 40 sampled 'none' decisions, every empty_reasons sentence. Brief items 2 and 4 out of scope.",
+ "verdict": "revise",
+ "findings": [
+  {
+   "id": "F1",
+   "target": "russian-church-stoglav-to-nikon / Metropolitan Macarius",
+   "field": "rows[].held",
+   "severity": "blocking",
+   "problem": "The held row is not Macarius's own words. It is the 25 September reading of the Great Menaion, the Life and Praise of St Sergius, which other authors wrote and Macarius only compiled. Mark's rule needs words the Library holds from him. The same bands left out Macarius of Corinth and Macarius of Optina for exactly this reason (compiler or unsigned preface, no own words), so the drafts treat the cases inconsistently.",
+   "evidence": "cic/corpus-map/russian-church-stoglav-to-nikon.yaml, row with author macarius-metropolitan: work 'Great Menaion of Metropolitan Macarius, September 25: the Life and Praise of Saint Sergius', note 'Not read for this entry.' Compare R78 and R910 decisions on Macarius of Corinth ('co-compiled the Philokalia ... no text in his own words is held') and on Macarius of Optina.",
+   "fix": "Drop the held item. Back him with a source quote only if words of his own are found (for example in the Stoglav files, cic/texts/stoglav_stoglav-fra_duchesne1920.txt or stoglav_stoglav-chu_kozhanchikov1863.txt, which the shelf holds under slug stoglav). Otherwise record backing none."
+  },
+  {
+   "id": "F2",
+   "target": "aquileian-christianity / Ambrose of Milan",
+   "field": "rows[].source.lines",
+   "severity": "substantial",
+   "problem": "The quote is labelled as the Gesta of the Council of Aquileia, but lines 3004-3005 are Kauffmann's own German introduction quoting the line second-hand ('Bündig antwortet er auf die frage des Ambrosius : qui sunt consortes uestri? P 298'). The edited minutes give the same words at line 14728. The draft's flag notes the quote occurs twice and that the first was used.",
+   "evidence": "cic/texts/auxentius-durostorum_epistula-de-fide-vita-obitu-wulfilae_kauffmann1899.txt:3004-3005 (editor's German introduction); :14728 '6 Ambrosius dixit: qui sunt consortes uestri? 25'",
+   "fix": "Point the source to lines 14728, quote 'qui sunt consortes uestri?'. The words stay Ambrose's own, recorded in the minutes."
+  },
+  {
+   "id": "F3",
+   "target": "syriac-orthodox-under-islam / Dionysius of Tel Mahre",
+   "field": "decisions (backing none) and empty_reasons",
+   "severity": "substantial",
+   "problem": "He was left out on the ground that his chronicle 'survives within Michael the Syrian's later books, which the Library does not hold.' The Library holds Michael's tome 2 (books VIII-XI). There Michael quotes Dionysius in the first person and names him as the speaker. The editor's note also marks a whole chapter as taken from Dionysius. So the omission is wrong, and the movement's empty_reasons sentence ('does not yet hold words of their own from any of the people named here') is false for him.",
+   "evidence": "cic/texts/michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt:36788-36790 'Le patriarche Denys de Tell Mahré, qui rapporte ces choses, ajoute : « J'ai pris ces choses des histoires de Daniel, fils de Samuel, du Tour 'Abdîn, mon grand-père maternel.' (verified verbatim, whitespace squashed); :27772 'est tiré de Denys de Tell Mahrê. C'est le seul chapitre de sa Chronique dont nous ayons le texte.'",
+   "fix": "Add a source item: name 'Dionysius of Tel Mahre', voice 1, quote \"J'ai pris ces choses des histoires de Daniel, fils de Samuel, du Tour 'Abdîn, mon grand-père maternel.\" at 36788-36790. Kind: own-writing, a fragment preserved by Michael. Set the year from his patriarchate, which began in 818; check that date against the entry or the file before use. Remove the movement from empty_reasons."
+  },
+  {
+   "id": "F4",
+   "target": "empty_reasons: the-church-struggle-against-apartheid, the-anglican-communion-twentieth-century, the-romanian-greek-catholic-church-suppression-and-return, the-ecumenical-movement-and-the-wcc, protestantism-in-latin-america, disciples-of-christ-and-independent-christian-churches",
+   "field": "empty_reasons",
+   "severity": "substantial",
+   "problem": "'Its story is carried by communities, councils and documents rather than named individuals.' reads as a claim about the history, not about this entry. For the struggle against apartheid, the Anglican Communion or the suppressed Romanian Greek Catholic church, a reader knows named people led them, so the card misleads. The true reason is narrower: this entry's voices list names only bodies and documents.",
+   "evidence": "Census voices for these six movements name only bodies or documents (e.g. 'The Kairos Theologians', 'Decree 358 of 1 December 1948', 'The Lambeth Conference of 1920'); no individual decision exists for any of them.",
+   "fix": "Say what is true of the entry, for example: 'This entry draws on councils, churches and documents, not on any one person's words, so no one is shown.'"
+  },
+  {
+   "id": "F5",
+   "target": "empty_reasons: armenian-christianity-before-the-bagratids, medieval-irish-christianity, medieval-welsh-christianity, church-of-the-east-under-the-abbasids (R36); kongo-christianity-afonso-to-1650, kirishitan-japan, china-mission-born-christianity, new-spain-and-andes-mission-born-christianity (R78)",
+   "field": "empty_reasons",
+   "severity": "minor",
+   "problem": "'This entry names no individual voices yet' and 'No named voices are listed for this tradition yet' use the build's internal word 'voices'. These are card texts, so the jargon should go. The Kongo card is the sharpest case: Afonso I is in its own title, and the card says no one is named. The R78 flag already logs the census gap (voices: null).",
+   "evidence": "R36/rows.json and R78/rows.json empty_reasons; census voices is empty for all eight.",
+   "fix": "For example: 'No people have been added to this entry yet, so no one is shown.' Keep the gap in the R78 flag."
+  },
+  {
+   "id": "F6",
+   "target": "empty_reasons: bogomils (R36)",
+   "field": "empty_reasons",
+   "severity": "minor",
+   "problem": "'the Library does not hold their chief opponent's sermon': 'their' has no plural antecedent (the sentence names only Bogomil), and the opponent is not named.",
+   "evidence": "R36/rows.json empty_reasons.bogomils",
+   "fix": "Name the opponent, for example: 'Nothing written by Bogomil survives, and the Library does not yet hold a readable text of Cosmas the Priest's sermon against his followers.' Check the name against the entry first."
+  },
+  {
+   "id": "F7",
+   "target": "joachimite-current / Gerard of Borgo San Donnino",
+   "field": "rows[].source.work; classification",
+   "severity": "minor",
+   "problem": "The work is labelled 'Introductorius', but Denifle's footnote 2 gives the passage as 'a gloss cited by the commission of Anagni'. The words reach us only through the hostile commission's protocol, so they are attributed, not his own writing directly.",
+   "evidence": "cic/texts/ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd1-deu-lat_1885.txt:3534-3536 ('wie bereits Gerard von Borgo S. Donnino bemerkte') and the footnote near 3563 ('So in einer Glosse, die von der Commission zu Anagni citiert wird')",
+   "fix": "Relabel the work as 'a gloss cited by the commission of Anagni, in Denifle, Archiv I', and add a flag: attributed, preserved by the commission."
+  },
+  {
+   "id": "F8",
+   "target": "pelagianism / Julian of Eclanum",
+   "field": "rows[].source.work",
+   "severity": "minor",
+   "problem": "The words are Julian's, but the label names only Warfield's essay. Warfield's footnote gives the primary text: Augustine's Unfinished Work iii.82. The R12 flag already says this.",
+   "evidence": "cic/texts/npnf105_augustine-anti-pelagian-writings.xml:827-829",
+   "fix": "Label it 'Julian, as quoted in Augustine's Unfinished Work iii.82, in B. B. Warfield's introduction (NPNF 1/5)'. If the Library holds a primary text, use that instead."
+  },
+  {
+   "id": "F9",
+   "target": "gothic-and-vandal-homoian-christianity / Ulfila",
+   "field": "rows[].held",
+   "severity": "minor",
+   "problem": "The held row is his Gothic Bible, a translation of Scripture. It is his work, but not his own words. R12 backs him in homoian-arian-christianity with his own creed.",
+   "evidence": "cic/corpus-map/gothic-and-vandal-homoian-christianity.yaml row by wulfila ('The Gothic Bible of Wulfila'); cic/texts/auxentius-durostorum_epistula-de-fide-vita-obitu-wulfilae_kauffmann1899.txt:7431 'ego ulfila episkopus et confessor semper sie credidi'",
+   "fix": "Either keep the held row and add a flag ('translation'), or back him the same way R12 does, with the creed quote. Make the two bands consistent."
+  },
+  {
+   "id": "F10",
+   "target": "syriac-edessa-nisibis and bardaisanite-current / Bardaisan; alexandria-catechetical / Pantaenus; church-of-the-east-under-the-mongols / Rabban Bar Sauma; the-hesychast-revival / Mitrofan",
+   "field": "rows[].held (kind of words)",
+   "severity": "minor",
+   "problem": "In these held rows other people set down the words. Bardaisan's dialogue was written by his disciple Philip (the shelf note says so). Pantaenus's 'Fragments' are later writers' reports. Bar Sauma's row is an anonymous Life that abridges his lost Persian account. Mitrofan's row is a Life compiled at Neamt from his account. Each is the same named person, not a namesake, and the R12, R36 and R78 reasons or flags disclose the Pantaenus, Sauma and Mitrofan cases. Bardaisan's two rows carry no such flag.",
+   "evidence": "Shelf notes: syriac-edessa-nisibis bardesan row ('penned by his disciple Philippus'); church-of-the-east-under-the-mongols yahballaha-sauma row; the-hesychast-revival-paisius-and-the-philokalia mitrofan-schemamonk row.",
+   "fix": "Add a 'reported' flag to both Bardaisan items, as was done for Pantaenus. No change of backing is needed."
+  }
+ ],
+ "checked": "Scripted: all 141 source quotes re-verified verbatim at their stated lines (whitespace squashed): 0 misses. All 287 held items: the row_id exists on cic/corpus-map/<movement>.yaml and its author slug equals the item's: 0 mismatches. Every name is a substring of its voices line: 0 failures. Judged by hand: opened the context (about 8-14 lines before each quote) for every doubtful source quote, about 45 of them, to confirm who is speaking. The rest I confirmed from the work heading or the attribution inside the quote ('Ego frater Petrus...', 'I William Sautre...', 'X dixit:'). For held rows, I read the work title of all 287 and the shelf note of 14 doubtful rows (biographies, compilations, attributed works, joint works). None decisions: a seeded random sample of 40 (28 individuals, 12 non-individuals), each read against its voices line and its shelf's author list. For likely misses I checked cic/texts filenames and grepped the one Library file that could hold the person (Michael the Syrian, Book of the Himyarites). Found 1 wrong omission (F3). Kaleb's omission is correct: Moberg says the prayer of Kaleb is in the Greek Acta, not in the Book of the Himyarites. Empty_reasons: all 164 sentences read (104 share one sentence, 27 another).",
+ "classification": [
+  {
+   "band": "R12",
+   "movement": "syriac-edessa-nisibis",
+   "name": "Simeon bar Sabbae",
+   "kind_of_source": "reported",
+   "speaker_confirmed": true,
+   "work": "Sozomen, Ecclesiastical History II.9 (NPNF 2/2)",
+   "where": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml:28906-28907"
+  },
+  {
+   "band": "R12",
+   "movement": "marcion-marcionism",
+   "name": "Justin Martyr",
+   "kind_of_source": "own-writing",
+   "speaker_confirmed": true,
+   "work": "Justin Martyr, First Apology 58 (ANF 1)",
+   "where": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml:16131-16133"
+  },
+  {
+   "band": "R12",
+   "movement": "valentinian-and-other-gnostic-christianities",
+   "name": "Basilides",
+   "kind_of_source": "own-writing",
+   "speaker_confirmed": true,
+   "work": "Clement of Alexandria, Stromata IV.12 (ANF 2)",
+   "where": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml:38954-38957",
+   "note": "fragment of his Exegetica quoted verbatim by Clement"
+  },
+  {
+   "band": "R12",
+   "movement": "valentinian-and-other-gnostic-christianities",
+   "name": "Valentinus",
+   "kind_of_source": "own-writing",
+   "speaker_confirmed": true,
+   "work": "Clement of Alexandria, Stromata II.20 (ANF 2)",
+   "where": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml:34296-34297",
+   "note": "fragment of his letter quoted verbatim by Clement"
+  },
+  {
+   "band": "R12",
+   "movement": "valentinian-and-other-gnostic-christianities",
+   "name": "Heracleon",
+   "kind_of_source": "own-writing",
+   "speaker_confirmed": true,
+   "work": "Origen, Commentary on John X.11 (ANF 9)",
+   "where": "cic/texts/anf09_gospel-of-peter-diatessaron-origen-commentaries.xml:27714-27715",
+   "note": "fragment of his commentary quoted by Origen"
+  },
+  {
+   "band": "R12",
+   "movement": "manichaeism",
+   "name": "Mani",
+   "kind_of_source": "own-writing",
+   "speaker_confirmed": true,
+   "work": "Augustine, Against the Epistle of Manichaeus called Fundamental 6 (NPNF 1/4)",
+   "where": "cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml:3675",
+   "note": "opening of the Fundamental Epistle quoted by Augustine"
+  },
+  {
+   "band": "R12",
+   "movement": "manichaeism",
+   "name": "Faustus of Milevis",
+   "kind_of_source": "own-writing",
+   "speaker_confirmed": true,
+   "work": "Augustine, Reply to Faustus the Manichaean II.1 (NPNF 1/4)",
+   "where": "cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml:4338",
+   "note": "Faustus's Capitula quoted by Augustine"
+  },
+  {
+   "band": "R12",
+   "movement": "montanism-the-new-prophecy",
+   "name": "Montanus",
+   "kind_of_source": "reported",
+   "speaker_confirmed": true,
+   "work": "Epiphanius, Panarion 48.11 (Oehler 1860, Latin)",
+   "where": "cic/texts/epiphanius_panarion-haer-48-69-corpus-haereseologicum-t2-pars-posterior-grc-lat_oehler1860.txt:2635-2638"
+  },
+  {
+   "band": "R12",
+   "movement": "montanism-the-new-prophecy",
+   "name": "Priscilla",
+   "kind_of_source": "reported",
+   "speaker_confirmed": true,
+   "work": "Tertullian, On the Resurrection of the Flesh 11 (ANF 3)",
+   "where": "cic/texts/anf03_tertullian.xml:47251-47252"
+  },
+  {
+   "band": "R12",
+   "movement": "montanism-the-new-prophecy",
+   "name": "Maximilla",
+   "kind_of_source": "reported",
+   "speaker_confirmed": true,
+   "work": "Eusebius, Church History V.16 (NPNF 2/1)",
+   "where": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml:29851-29852"
+  },
+  {
+   "band": "R12",
+   "movement": "novatianism",
+   "name": "Cornelius",
+   "kind_of_source": "own-writing",
+   "speaker_confirmed": true,
+   "work": "Cornelius to Fabius, in Eusebius, Church History VI.43 (NPNF 2/1)",
+   "where": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml:38383-38385",
+   "note": "his letter quoted by Eusebius"
+  },
+  {
+   "band": "R12",
+   "movement": "novatianism",
+   "name": "Acesius",
+   "kind_of_source": "reported",
+   "speaker_confirmed": true,
+   "work": "Socrates, Ecclesiastical History I.10 (NPNF 2/2)",
+   "where": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml:3694-3697"
+  },
+  {
+   "band": "R12",
+   "movement": "antiochene-church-third-century",
+   "name": "Serapion",
+   "kind_of_source": "own-writing",
+   "speaker_confirmed": true,
+   "work": "Serapion of Antioch, fragment on the Gospel of Peter (ANF 8)",
+   "where": "cic/texts/anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml:72709-72710",
+   "note": "his letter quoted by Eusebius"
+  },
+  {
+   "band": "R12",
+   "movement": "antiochene-church-third-century",
+   "name": "Lucian of Antioch",
+   "kind_of_source": "reported",
+   "speaker_confirmed": true,
+   "work": "Rufinus, Historia ecclesiastica IX.6 (Schwartz-Mommsen 1908, Latin)",
+   "where": "cic/texts/eusebius_werke-bd2-2-historia-ecclesiastica-vi-x-rufinus-x-xi-grc-lat_schwartz-mommsen1908.txt:17632",
+   "note": "speech found only in Rufinus's Latin ('dicitur'), not in Eusebius's Greek"
+  },
+  {
+   "band": "R12",
+   "movement": "palestinian-church-pre-constantinian",
+   "name": "Origen",
+   "kind_of_source": "own-writing",
+   "speaker_confirmed": true,
+   "work": "Origen, Letter to Africanus (ANF 4)",
+   "where": "cic/texts/anf04_tertullian4-minucius-felix-commodian-origen1-2.xml:35133-35134"
+  },
+  {
+   "band": "R12",
+   "movement": "palestinian-church-pre-constantinian",
+   "name": "Pamphilus",
+   "kind_of_source": "attributed",
+   "speaker_confirmed": true,
+   "work": "An Exposition of the Chapters of the Acts of the Apostles (ANF 6)",
+   "where": "cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml:16970-16972",
+   "note": "ANF 6 notes others ascribe the Exposition to Euthalius"
+  },
+  {
+   "band": "R12",
+   "movement": "roman-church-third-century",
+   "name": "Zephyrinus",
+   "kind_of_source": "reported",
+   "speaker_confirmed": true,
+   "work": "Hippolytus, Refutation of All Heresies IX.6 (ANF 5)",
+   "where": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml:13621-13622"
+  },
+  {
+   "band": "R12",
+   "movement": "roman-church-third-century",
+   "name": "Cornelius",
+   "kind_of_source": "own-writing",
+   "speaker_confirmed": true,
+   "work": "Cornelius to Fabius, in Eusebius, Church History VI.43 (NPNF 2/1)",
+   "where": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml:38383-38385",
+   "note": "his letter quoted by Eusebius"
+  },
+  {
+   "band": "R12",
+   "movement": "danubian-latin-christianity",
+   "name": "Valens of Mursa",
+   "kind_of_source": "joint",
+   "speaker_confirmed": true,
+   "work": "Ursacius and Valens to Julius, in Athanasius, Defence against the Arians 58 (NPNF 2/4)",
+   "where": "cic/texts/npnf204_athanasius-select-works-letters.xml:24721-24724"
+  },
+  {
+   "band": "R12",
+   "movement": "danubian-latin-christianity",
+   "name": "Ursacius of Singidunum",
+   "kind_of_source": "joint",
+   "speaker_confirmed": true,
+   "work": "Ursacius and Valens to Julius, in Athanasius, Defence against the Arians 58 (NPNF 2/4)",
+   "where": "cic/texts/npnf204_athanasius-select-works-letters.xml:24721-24724"
+  },
+  {
+   "band": "R12",
+   "movement": "danubian-latin-christianity",
+   "name": "Palladius of Ratiaria",
+   "kind_of_source": "minutes",
+   "speaker_confirmed": true,
+   "work": "Gesta of the Council of Aquileia, in Maximinus' Dissertatio (Kauffmann 1899)",
+   "where": "cic/texts/auxentius-durostorum_epistula-de-fide-vita-obitu-wulfilae_kauffmann1899.txt:14744"
+  },
+  {
+   "band": "R12",
+   "movement": "danubian-latin-christianity",
+   "name": "Jerome",
+   "kind_of_source": "own-writing",
+   "speaker_confirmed": true,
+   "work": "Jerome, Lives of Illustrious Men 74 (NPNF 2/3)",
+   "where": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml:40945-40947"
+  },
+  {
+   "band": "R12",
+   "movement": "desert-monasticism",
+   "name": "Antony",
+   "kind_of_source": "reported",
+   "speaker_confirmed": true,
+   "work": "Athanasius, Life of Antony 16 (NPNF 2/4)",
+   "where": "cic/texts/npnf204_athanasius-select-works-letters.xml:31649-31651"
+  },
+  {
+   "band": "R12",
+   "movement": "desert-monasticism",
+   "name": "Sarah",
+   "kind_of_source": "reported",
+   "speaker_confirmed": true,
+   "work": "The Paradise of the Holy Fathers, vol. II, sayings (Budge 1907)",
+   "where": "cic/texts/anan-isho_paradise-v2-sayings_budge1907.txt:604"
+  },
+  {
+   "band": "R12",
+   "movement": "palestinian-ascetic-monasticism-early",
+   "name": "Hilarion of Gaza",
+   "kind_of_source": "reported",
+   "speaker_confirmed": true,
+   "work": "Jerome, Life of S. Hilarion 45 (NPNF 2/6)",
+   "where": "cic/texts/npnf206_jerome-principal-works.xml:31070-31072"
+  },
+  {
+   "band": "R12",
+   "movement": "palestinian-ascetic-monasticism-early",
+   "name": "Malchus",
+   "kind_of_source": "reported",
+   "speaker_confirmed": true,
+   "work": "Jerome, Life of Malchus 3 (NPNF 2/6)",
+   "where": "cic/texts/npnf206_jerome-principal-works.xml:31162-31163"
+  },
+  {
+   "band": "R12",
+   "movement": "donatism",
+   "name": "Donatus",
+   "kind_of_source": "reported",
+   "speaker_confirmed": true,
+   "work": "Optatus, Against the Donatists III.3 (English)",
+   "where": "cic/texts/optatus_against-the-donatists.txt:1904"
+  },
+  {
+   "band": "R12",
+   "movement": "donatism",
+   "name": "Petilian",
+   "kind_of_source": "own-writing",
+   "speaker_confirmed": true,
+   "work": "Augustine, Answer to the Letters of Petilian II.3 (NPNF 1/4)",
+   "where": "cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml:15788",
+   "note": "his letter quoted by Augustine"
+  },
+  {
+   "band": "R12",
+   "movement": "donatism",
+   "name": "Emeritus",
+   "kind_of_source": "minutes",
+   "speaker_confirmed": true,
+   "work": "Gesta of the Conference of Carthage 411, excerpt in the appendix to PL 43",
+   "where": "cic/texts/augustine_scripta-contra-donatistas-opera-omnia-t9-lat_migne-pl43.txt:56045-56047"
+  },
+  {
+   "band": "R12",
+   "movement": "imperial-juridical-christianity",
+   "name": "Theodosius I",
+   "kind_of_source": "reported",
+   "speaker_confirmed": true,
+   "work": "Theodoret, Ecclesiastical History V.18 (NPNF 2/3)",
+   "where": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml:16702-16704"
+  },
+  {
+   "band": "R12",
+   "movement": "aksumite-christianity-conversion-era",
+   "name": "Athanasius of Alexandria",
+   "kind_of_source": "own-writing",
+   "speaker_confirmed": true,
+   "work": "Athanasius, Apology to Constantius 29 (NPNF 2/4)",
+   "where": "cic/texts/npnf204_athanasius-select-works-letters.xml:36001-36002"
+  },
+  {
+   "band": "R12",
+   "movement": "persian-church-of-the-east-early",
+   "name": "Shemon bar Sabbae",
+   "kind_of_source": "reported",
+   "speaker_confirmed": true,
+   "work": "Sozomen, Ecclesiastical History II.9 (NPNF 2/2)",
+   "where": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml:28906-28907"
+  },
+  {
+   "band": "R12",
+   "movement": "jerusalem-liturgical-pilgrimage-christianity",
+   "name": "Melania the Elder",
+   "kind_of_source": "reported",
+   "speaker_confirmed": true,
+   "work": "Palladius, Lausiac History 46 (Clarke 1918)",
+   "where": "cic/texts/palladius_lausiac-history_clarke1918.txt:499"
+  },
+  {
+   "band": "R12",
+   "movement": "jerusalem-liturgical-pilgrimage-christianity",
+   "name": "Juvenal",
+   "kind_of_source": "minutes",
+   "speaker_confirmed": true,
+   "work": "Council of Ephesus 431, Acts (NPNF 2/14)",
+   "where": "cic/texts/npnf214_seven-ecumenical-councils.xml:15848-15850"
+  },
+  {
+   "band": "R12",
+   "movement": "ambrosian-milan-standalone",
+   "name": "Monica",
+   "kind_of_source": "reported",
+   "speaker_confirmed": true,
+   "work": "Augustine, Confessions IX.10 (NPNF 1/1)",
+   "where": "cic/texts/npnf101_augustine-confessions-letters.xml:14147-14148"
+  },
+  {
+   "band": "R12",
+   "movement": "ambrosian-milan-standalone",
+   "name": "Theodosius I",
+   "kind_of_source": "reported",
+   "speaker_confirmed": true,
+   "work": "Theodoret, Ecclesiastical History V.18 (NPNF 2/3)",
+   "where": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml:16702-16704"
+  },
+  {
+   "band": "R12",
+   "movement": "aquileian-christianity",
+   "name": "Ambrose of Milan",
+   "kind_of_source": "minutes",
+   "speaker_confirmed": true,
+   "work": "Gesta of the Council of Aquileia, in Maximinus' Dissertatio (Kauffmann 1899)",
+   "where": "cic/texts/auxentius-durostorum_epistula-de-fide-vita-obitu-wulfilae_kauffmann1899.txt:3004-3005",
+   "note": "Ambrose's words in the Gesta, but the cited lines are Kauffmann's German introduction quoting them (see finding F2)"
+  },
+  {
+   "band": "R12",
+   "movement": "gallic-nicene-episcopate",
+   "name": "Constantius II",
+   "kind_of_source": "issued-document",
+   "speaker_confirmed": true,
+   "work": "Constantius to the princes of Auxumis, in Athanasius, Apology to Constantius 31 (NPNF 2/4)",
+   "where": "cic/texts/npnf204_athanasius-select-works-letters.xml:36143-36144"
+  },
+  {
+   "band": "R12",
+   "movement": "gallic-nicene-episcopate",
+   "name": "Martin of Tours",
+   "kind_of_source": "reported",
+   "speaker_confirmed": true,
+   "work": "Sulpitius Severus, Life of St. Martin 4 (NPNF 2/11)",
+   "where": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml:840-842"
+  },
+  {
+   "band": "R12",
+   "movement": "gallic-nicene-episcopate",
+   "name": "Auxentius of Milan",
+   "kind_of_source": "own-writing",
+   "speaker_confirmed": true,
+   "work": "Exemplum blasphemiae Auxentii, in Hilary, Contra Auxentium (PL 10)",
+   "where": "cic/texts/hilary_opera-tomus-posterior-de-synodis-contra-constantium-fragmenta-historica-lat_migne-pl10-1844.txt:49431-49432",
+   "note": "his own confession presented to the emperor"
+  },
+  {
+   "band": "R12",
+   "movement": "gallic-monastic-ascetic-christianity",
+   "name": "Martin of Tours",
+   "kind_of_source": "reported",
+   "speaker_confirmed": true,
+   "work": "Sulpitius Severus, Life of St. Martin 4 (NPNF 2/11)",
+   "where": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml:840-842"
+  },
+  {
+   "band": "R12",
+   "movement": "priscillianist-asceticism",
+   "name": "Martin of Tours",
+   "kind_of_source": "reported",
+   "speaker_confirmed": true,
+   "work": "Sulpitius Severus, Life of St. Martin 4 (NPNF 2/11)",
+   "where": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml:840-842"
+  },
+  {
+   "band": "R12",
+   "movement": "pelagianism",
+   "name": "Caelestius",
+   "kind_of_source": "own-writing",
+   "speaker_confirmed": true,
+   "work": "Augustine, On Original Sin 5 (NPNF 1/5)",
+   "where": "cic/texts/npnf105_augustine-anti-pelagian-writings.xml:11580",
+   "note": "his libellus quoted by Augustine"
+  },
+  {
+   "band": "R12",
+   "movement": "pelagianism",
+   "name": "Julian of Eclanum",
+   "kind_of_source": "own-writing",
+   "speaker_confirmed": true,
+   "work": "B. B. Warfield, introductory essay to the Anti-Pelagian Writings (NPNF 1/5)",
+   "where": "cic/texts/npnf105_augustine-anti-pelagian-writings.xml:827",
+   "note": "Julian's words from Augustine's Unfinished Work iii.82, quoted third-hand in Warfield's introduction"
+  },
+  {
+   "band": "R12",
+   "movement": "homoian-arian-christianity",
+   "name": "Ulfila",
+   "kind_of_source": "own-writing",
+   "speaker_confirmed": true,
+   "work": "Auxentius of Durostorum, Letter on the Faith, Life and Death of Ulfila (Kauffmann 1899)",
+   "where": "cic/texts/auxentius-durostorum_epistula-de-fide-vita-obitu-wulfilae_kauffmann1899.txt:7431",
+   "note": "his deathbed creed as his pupil Auxentius records it"
+  },
+  {
+   "band": "R12",
+   "movement": "homoian-arian-christianity",
+   "name": "Constantius II",
+   "kind_of_source": "issued-document",
+   "speaker_confirmed": true,
+   "work": "Constantius to the princes of Auxumis, in Athanasius, Apology to Constantius 31 (NPNF 2/4)",
+   "where": "cic/texts/npnf204_athanasius-select-works-letters.xml:36143-36144"
+  },
+  {
+   "band": "R12",
+   "movement": "homoian-arian-christianity",
+   "name": "Auxentius of Milan",
+   "kind_of_source": "own-writing",
+   "speaker_confirmed": true,
+   "work": "Exemplum blasphemiae Auxentii, in Hilary, Contra Auxentium (PL 10)",
+   "where": "cic/texts/hilary_opera-tomus-posterior-de-synodis-contra-constantium-fragmenta-historica-lat_migne-pl10-1844.txt:49431-49432",
+   "note": "his own confession presented to the emperor"
+  },
+  {
+   "band": "R12",
+   "movement": "homoian-arian-christianity",
+   "name": "Reccared",
+   "kind_of_source": "issued-document",
+   "speaker_confirmed": true,
+   "work": "Third Council of Toledo, Collectio canonum Ecclesiae Hispanae (1808)",
+   "where": "cic/texts/collectio-canonum-ecclesiae-hispanae-toledo-iii-lat_1808.txt:36771"
+  },
+  {
+   "band": "R12",
+   "movement": "anomoean-eunomian-christianity",
+   "name": "Aetius of Antioch",
+   "kind_of_source": "own-writing",
+   "speaker_confirmed": true,
+   "work": "Aetius, Syntagmation ch. 5, in Epiphanius, Panarion 76 (PG 42)",
+   "where": "cic/texts/epiphanius_panarion-haer-65-80-pg42-grc-lat_migne1863.txt:42643-42644",
+   "note": "Syntagmation quoted by Epiphanius"
+  },
+  {
+   "band": "R12",
+   "movement": "anomoean-eunomian-christianity",
+   "name": "Basil of Caesarea",
+   "kind_of_source": "own-writing",
+   "speaker_confirmed": true,
+   "work": "Basil, On the Holy Spirit 2.4 (NPNF 2/8)",
+   "where": "cic/texts/npnf208_basil-letters-select-works.xml:8839-8840"
+  },
+  {
+   "band": "R12",
+   "movement": "pneumatomachian-current",
+   "name": "Amphilochius of Iconium",
+   "kind_of_source": "own-writing",
+   "speaker_confirmed": true,
+   "work": "Amphilochius, Synodical Letter (PG 39, Greek)",
+   "where": "cic/texts/amphilochius-iconium_opera-pg39-grc-lat_migne1858.txt:6655"
+  },
+  {
+   "band": "R12",
+   "movement": "modalist-monarchianism",
+   "name": "Noetus of Smyrna",
+   "kind_of_source": "reported",
+   "speaker_confirmed": true,
+   "work": "Hippolytus, Against the Heresy of One Noetus 1 (ANF 5)",
+   "where": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml:23161"
+  },
+  {
+   "band": "R12",
+   "movement": "modalist-monarchianism",
+   "name": "Hippolytus of Rome",
+   "kind_of_source": "own-writing",
+   "speaker_confirmed": true,
+   "work": "Hippolytus, Against the Heresy of One Noetus 1 (ANF 5)",
+   "where": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml:23116-23118"
+  },
+  {
+   "band": "R12",
+   "movement": "bardaisanite-current",
+   "name": "Philip",
+   "kind_of_source": "own-writing",
+   "speaker_confirmed": true,
+   "work": "The Book of the Laws of Divers Countries (ANF 8)",
+   "where": "cic/texts/anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml:67912-67913",
+   "note": "Philip is the narrator-author of the dialogue"
+  },
+  {
+   "band": "R36",
+   "movement": "cyrilline-miaphysite-egyptian-christianity",
+   "name": "Dioscorus of Alexandria",
+   "kind_of_source": "minutes",
+   "speaker_confirmed": true,
+   "work": "Acts of the Second Synod of Ephesus (449), Syriac acts, Perry's English",
+   "where": "cic/texts/council-of-ephesus-449_second-synod-of-ephesus-syriac-acts_perry1881.txt:9180"
+  },
+  {
+   "band": "R36",
+   "movement": "the-church-of-the-east-under-persia",
+   "name": "Barsauma of Nisibis",
+   "kind_of_source": "own-writing",
+   "speaker_confirmed": true,
+   "work": "Synodicon orientale, Letters of Bar Sauma to Acacius (Chabot's French)",
+   "where": "cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt:35275-35276"
+  },
+  {
+   "band": "R36",
+   "movement": "the-church-of-the-east-under-persia",
+   "name": "Mar Aba I",
+   "kind_of_source": "own-writing",
+   "speaker_confirmed": true,
+   "work": "Synodicon orientale, Second letter of Mar Aba (Chabot's French)",
+   "where": "cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt:36583"
+  },
+  {
+   "band": "R36",
+   "movement": "roman-church-gregorian",
+   "name": "Leander of Seville",
+   "kind_of_source": "own-writing",
+   "speaker_confirmed": true,
+   "work": "Leander of Seville, De institutione virginum (PL 72)",
+   "where": "cic/texts/john-biclaro-leander-pl72-lat_migne1878.txt:65842-65843"
+  },
+  {
+   "band": "R36",
+   "movement": "roman-church-gregorian",
+   "name": "Augustine of Canterbury",
+   "kind_of_source": "own-writing",
+   "speaker_confirmed": true,
+   "work": "Bede, Ecclesiastical History I.27, Augustine's questions (Giles)",
+   "where": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt:2155-2157",
+   "note": "his questions in the Libellus responsionum, in Bede"
+  },
+  {
+   "band": "R36",
+   "movement": "merovingian-gallic-christianity",
+   "name": "Radegund",
+   "kind_of_source": "own-writing",
+   "speaker_confirmed": true,
+   "work": "Her letter to the bishops, in Gregory of Tours, History IX.42 (Dalton)",
+   "where": "cic/texts/gregory-tours_history-of-the-franks-v2_dalton1927.txt:19846-19848",
+   "note": "her letter inserted by Gregory of Tours"
+  },
+  {
+   "band": "R36",
+   "movement": "insular-irish-monastic-christianity",
+   "name": "Columbanus",
+   "kind_of_source": "own-writing",
+   "speaker_confirmed": true,
+   "work": "Columbanus, letter to Pope Gregory, in NPNF 2.13 (Gregory's Register)",
+   "where": "cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml:4423-4424"
+  },
+  {
+   "band": "R36",
+   "movement": "gothic-and-vandal-homoian-christianity",
+   "name": "Auxentius of Durostorum",
+   "kind_of_source": "own-writing",
+   "speaker_confirmed": true,
+   "work": "Auxentius of Durostorum, Epistula de fide, vita et obitu Wulfilae (Kauffmann)",
+   "where": "cic/texts/auxentius-durostorum_epistula-de-fide-vita-obitu-wulfilae_kauffmann1899.txt:15271",
+   "note": "Auxentius's own letter (inside Maximinus's scholia)"
+  },
+  {
+   "band": "R36",
+   "movement": "gothic-and-vandal-homoian-christianity",
+   "name": "Huneric",
+   "kind_of_source": "issued-document",
+   "speaker_confirmed": true,
+   "work": "Huneric's edict of 483, in Victor of Vita, Historia persecutionis II (Petschenig)",
+   "where": "cic/texts/victor-of-vita_historia-persecutionis-africanae-provinciae-lat_petschenig1881.txt:3132"
+  },
+  {
+   "band": "R36",
+   "movement": "gothic-and-vandal-homoian-christianity",
+   "name": "Theodoric the Great",
+   "kind_of_source": "issued-document",
+   "speaker_confirmed": true,
+   "work": "Cassiodorus, Variae II.27, King Theodoric to the Jews of Genoa (Hodgkin)",
+   "where": "cic/texts/cassiodorus_variae-letters-hodgkin1886.txt:8300-8301",
+   "note": "drafted by Cassiodorus in the king's name"
+  },
+  {
+   "band": "R36",
+   "movement": "gothic-and-vandal-homoian-christianity",
+   "name": "Reccared",
+   "kind_of_source": "issued-document",
+   "speaker_confirmed": true,
+   "work": "Reccared's profession of faith, Third Council of Toledo (Collectio canonum)",
+   "where": "cic/texts/collectio-canonum-ecclesiae-hispanae-toledo-iii-lat_1808.txt:36771"
+  },
+  {
+   "band": "R36",
+   "movement": "byzantine-imperial-church-justinianic",
+   "name": "Vigilius",
+   "kind_of_source": "own-writing",
+   "speaker_confirmed": true,
+   "work": "Vigilius to Justinian, Collectio Avellana ep. 92 (Günther)",
+   "where": "cic/texts/collectio-avellana_epistulae-imperatorum-pontificum-v1-lat_guenther1895.txt:25874-25875"
+  },
+  {
+   "band": "R36",
+   "movement": "nicene-visigothic-iberia",
+   "name": "Reccared",
+   "kind_of_source": "issued-document",
+   "speaker_confirmed": true,
+   "work": "Reccared's profession of faith, Third Council of Toledo (Collectio canonum)",
+   "where": "cic/texts/collectio-canonum-ecclesiae-hispanae-toledo-iii-lat_1808.txt:36771"
+  },
+  {
+   "band": "R36",
+   "movement": "melkite-arabic-christianity",
+   "name": "Theodore Abu Qurrah",
+   "kind_of_source": "own-writing",
+   "speaker_confirmed": true,
+   "work": "Theodore Abu Qurrah, quoted in Newman's note (NPNF 2.4)",
+   "where": "cic/texts/npnf204_athanasius-select-works-letters.xml:42151-42152",
+   "note": "Greek opusculum quoted by Petavius, via Newman's note"
+  },
+  {
+   "band": "R36",
+   "movement": "anglo-saxon-christianity",
+   "name": "Augustine of Canterbury",
+   "kind_of_source": "own-writing",
+   "speaker_confirmed": true,
+   "work": "Bede, Ecclesiastical History I.27, Augustine's questions (Giles)",
+   "where": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt:2155-2157"
+  },
+  {
+   "band": "R36",
+   "movement": "anglo-saxon-christianity",
+   "name": "Leoba",
+   "kind_of_source": "own-writing",
+   "speaker_confirmed": true,
+   "work": "Lioba to Boniface, in The English Correspondence of Saint Boniface (Kylie)",
+   "where": "cic/texts/boniface_english-correspondence_kylie1911.txt:4517-4519"
+  },
+  {
+   "band": "R36",
+   "movement": "carolingian-reform-christianity",
+   "name": "Charlemagne",
+   "kind_of_source": "issued-document",
+   "speaker_confirmed": true,
+   "work": "Capitulatio de partibus Saxoniae, issued in his name (MGH)",
+   "where": "cic/texts/capitulatio-de-partibus-saxoniae_pertz1881.txt:5303"
+  },
+  {
+   "band": "R36",
+   "movement": "iconophile-byzantine-monasticism",
+   "name": "John of Damascus",
+   "kind_of_source": "own-writing",
+   "speaker_confirmed": true,
+   "work": "John of Damascus, Exposition of the Orthodox Faith IV.16, Concerning Images (NPNF 2.9)",
+   "where": "cic/texts/npnf209_hilary-poitiers-john-damascus.xml:36233-36234"
+  },
+  {
+   "band": "R36",
+   "movement": "byzantine-imperial-church-heraclian-iconoclast",
+   "name": "Patriarch Tarasios",
+   "kind_of_source": "minutes",
+   "speaker_confirmed": true,
+   "work": "Acts of the Second Council of Nicaea, session I (NPNF 2.14)",
+   "where": "cic/texts/npnf214_seven-ecumenical-councils.xml:38659-38660"
+  },
+  {
+   "band": "R36",
+   "movement": "byzantine-imperial-church-macedonian",
+   "name": "Photius",
+   "kind_of_source": "own-writing",
+   "speaker_confirmed": true,
+   "work": "Photius, Bibliotheca, dedication to Tarasius (Freese)",
+   "where": "cic/texts/photius_library-v1_freese1920.txt:1705"
+  },
+  {
+   "band": "R36",
+   "movement": "byzantine-imperial-church-macedonian",
+   "name": "Cardinal Humbert of Silva Candida",
+   "kind_of_source": "issued-document",
+   "speaker_confirmed": true,
+   "work": "Bull of excommunication of 16 July 1054, in Mirbt, Quellen no. 228",
+   "where": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt:9944",
+   "note": "issued by the legates Humbert, Peter of Amalfi and Frederick of Lorraine"
+  },
+  {
+   "band": "R36",
+   "movement": "canons-regular-victorine-school",
+   "name": "Richard of St Victor",
+   "kind_of_source": "own-writing",
+   "speaker_confirmed": true,
+   "work": "Richard of St Victor, Benjamin Minor 55, quoted in McCann's note to the Cloud treatises",
+   "where": "cic/texts/cloud-of-unknowing_cloud-and-other-treatises_mccann1924.txt:3996",
+   "note": "quoted in McCann note"
+  },
+  {
+   "band": "R36",
+   "movement": "the-franciscan-movement",
+   "name": "Bonaventure",
+   "kind_of_source": "own-writing",
+   "speaker_confirmed": true,
+   "work": "Bonaventure, Itinerarium mentis in Deum V, quoted in McCann's note to the Cloud treatises",
+   "where": "cic/texts/cloud-of-unknowing_cloud-and-other-treatises_mccann1924.txt:3990-3991",
+   "note": "quoted in McCann note"
+  },
+  {
+   "band": "R36",
+   "movement": "cathars-albigensians",
+   "name": "Rainerius Sacconi",
+   "kind_of_source": "own-writing",
+   "speaker_confirmed": true,
+   "work": "Rainerius Sacconi, Summa de Catharis, quoted in Rački, Bogomili i Patareni",
+   "where": "cic/texts/racki_bogomili-i-patareni-rad-x-hrv_jazu1870.txt:1328"
+  },
+  {
+   "band": "R36",
+   "movement": "joachimite-current",
+   "name": "Joachim of Fiore",
+   "kind_of_source": "own-writing",
+   "speaker_confirmed": true,
+   "work": "Joachim of Fiore, excerpt quoted in Denifle, Das Evangelium aeternum (Archiv I)",
+   "where": "cic/texts/ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd1-deu-lat_1885.txt:3528"
+  },
+  {
+   "band": "R36",
+   "movement": "joachimite-current",
+   "name": "Gerard of Borgo San Donnino",
+   "kind_of_source": "attributed",
+   "speaker_confirmed": true,
+   "work": "Gerard of Borgo San Donnino, Introductorius, quoted in Denifle (Archiv I)",
+   "where": "cic/texts/ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd1-deu-lat_1885.txt:3535-3536",
+   "note": "Denifle n.2: a gloss cited by the commission of Anagni; known only through the hostile protocol"
+  },
+  {
+   "band": "R36",
+   "movement": "latin-papal-church-gregorian",
+   "name": "Humbert of Silva Candida",
+   "kind_of_source": "issued-document",
+   "speaker_confirmed": true,
+   "work": "Bull of excommunication of 16 July 1054, in Mirbt, Quellen no. 228",
+   "where": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt:9944",
+   "note": "issued by the legates Humbert, Peter of Amalfi and Frederick of Lorraine"
+  },
+  {
+   "band": "R36",
+   "movement": "latin-papal-church-gregorian",
+   "name": "Gregory VII",
+   "kind_of_source": "issued-document",
+   "speaker_confirmed": true,
+   "work": "Gregory VII, first excommunication of Henry IV (1076), in Mirbt, Quellen",
+   "where": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt:10366"
+  },
+  {
+   "band": "R36",
+   "movement": "latin-papal-church-gregorian",
+   "name": "Innocent III",
+   "kind_of_source": "issued-document",
+   "speaker_confirmed": true,
+   "work": "Innocent III, Sicut universitatis conditor (1198), in Mirbt, Quellen",
+   "where": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt:12143"
+  },
+  {
+   "band": "R36",
+   "movement": "armenian-cilicia",
+   "name": "Nerses Shnorhali",
+   "kind_of_source": "own-writing",
+   "speaker_confirmed": true,
+   "work": "His letter to Michael the Syrian, quoted in Michael's chronicle, RHC Documents arméniens I",
+   "where": "cic/texts/rhc-armeniens_documents-armeniens-t1-fra_academie1869.txt:46198",
+   "note": "his letter as Michael the Syrian quotes it ('m'écrivit en ces termes'), in French translation of the Armenian Michael"
+  },
+  {
+   "band": "R36",
+   "movement": "armenian-cilicia",
+   "name": "Nerses of Lambron",
+   "kind_of_source": "own-writing",
+   "speaker_confirmed": true,
+   "work": "Nerses of Lambron, Letter to King Leo II, RHC Documents arméniens I",
+   "where": "cic/texts/rhc-armeniens_documents-armeniens-t1-fra_academie1869.txt:65900-65901"
+  },
+  {
+   "band": "R36",
+   "movement": "the-carmelites",
+   "name": "Albert of Jerusalem",
+   "kind_of_source": "issued-document",
+   "speaker_confirmed": true,
+   "work": "Albert's Rule, in Teresa of Avila, Book of Foundations, appendix (Lewis)",
+   "where": "cic/texts/teresa-of-avila_book-of-foundations_lewis1913.txt:22056-22057"
+  },
+  {
+   "band": "R36",
+   "movement": "the-carmelites",
+   "name": "Innocent IV",
+   "kind_of_source": "issued-document",
+   "speaker_confirmed": true,
+   "work": "Innocent IV, bull of 1 October 1247 confirming the Rule, in Teresa of Avila, Book of Foundations (Lewis)",
+   "where": "cic/texts/teresa-of-avila_book-of-foundations_lewis1913.txt:22014-22015"
+  },
+  {
+   "band": "R36",
+   "movement": "lollardy",
+   "name": "William Sawtrey",
+   "kind_of_source": "minutes",
+   "speaker_confirmed": true,
+   "work": "Sawtrey's answer at his examination, Foxe, Acts and Monuments III",
+   "where": "cic/texts/foxe_acts-and-monuments-v3_cattley-townsend1837.txt:18313"
+  },
+  {
+   "band": "R36",
+   "movement": "lollardy",
+   "name": "Sir John Oldcastle",
+   "kind_of_source": "own-writing",
+   "speaker_confirmed": true,
+   "work": "Oldcastle's English confession, Fasciculi zizaniorum (Shirley)",
+   "where": "cic/texts/fasciculi-zizaniorum_shirley1858.txt:32738-32739"
+  },
+  {
+   "band": "R36",
+   "movement": "taborite-radicalism",
+   "name": "Nicholas of Pelhřimov",
+   "kind_of_source": "own-writing",
+   "speaker_confirmed": true,
+   "work": "Chronicon Taboritarum, incipit of his tract (Höfler II)",
+   "where": "cic/texts/hofler_geschichtschreiber-husitischen-bewegung-v2-lat_1865.txt:30660"
+  },
+  {
+   "band": "R36",
+   "movement": "fraticelli-spiritual-franciscan-rigorists",
+   "name": "Peter of John Olivi",
+   "kind_of_source": "own-writing",
+   "speaker_confirmed": true,
+   "work": "Olivi's recorded declaration, in Ehrle, Archiv III",
+   "where": "cic/texts/ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd3-deu-lat_1887.txt:24115-24116",
+   "note": "formal first-person declaration in the Spirituals dossier"
+  },
+  {
+   "band": "R36",
+   "movement": "fraticelli-spiritual-franciscan-rigorists",
+   "name": "Pope John XXII",
+   "kind_of_source": "issued-document",
+   "speaker_confirmed": true,
+   "work": "John XXII, bull Licet iuxta doctrinam (1327), in Mirbt, Quellen",
+   "where": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt:13777"
+  },
+  {
+   "band": "R36",
+   "movement": "latin-papal-church-avignon-to-lateran-v",
+   "name": "Boniface VIII",
+   "kind_of_source": "issued-document",
+   "speaker_confirmed": true,
+   "work": "Boniface VIII, Unam sanctam (1302), in Mirbt, Quellen",
+   "where": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt:13546"
+  },
+  {
+   "band": "R36",
+   "movement": "franciscan-order-era-6",
+   "name": "Ubertino da Casale",
+   "kind_of_source": "own-writing",
+   "speaker_confirmed": true,
+   "work": "Ubertino's reply at Vienne, in Ehrle, Archiv III",
+   "where": "cic/texts/ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd3-deu-lat_1887.txt:10789-10790"
+  },
+  {
+   "band": "R36",
+   "movement": "franciscan-order-era-6",
+   "name": "Pope John XXII",
+   "kind_of_source": "issued-document",
+   "speaker_confirmed": true,
+   "work": "John XXII, bull Licet iuxta doctrinam (1327), in Mirbt, Quellen",
+   "where": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt:13777"
+  },
+  {
+   "band": "R36",
+   "movement": "the-bosnian-church",
+   "name": "Gost Radin",
+   "kind_of_source": "own-writing",
+   "speaker_confirmed": true,
+   "work": "Testament of Gost Radin (1466), as quoted in Truhelka",
+   "where": "cic/texts/truhelka_testamenat-gosta-radina-hrv_glasnik-zemaljskog-muzeja1911.txt:1080",
+   "note": "his testament"
+  },
+  {
+   "band": "R36",
+   "movement": "st-thomas-christians-1300-1517",
+   "name": "Mar Jacob",
+   "kind_of_source": "joint",
+   "speaker_confirmed": true,
+   "work": "Letter of the four bishops from India (1504), Mingana",
+   "where": "cic/texts/mingana_early-spread-of-christianity-in-india_mingana1926.txt:1895-1896"
+  },
+  {
+   "band": "R78",
+   "movement": "the-anabaptist-movements",
+   "name": "Conrad Grebel",
+   "kind_of_source": "joint",
+   "speaker_confirmed": true,
+   "work": "Konrad Grebel and Marx Bosshard to the Zurich council (July 1525), in Emil Egli, Actensammlung zur Geschichte der Zürcher Reformation (1879), no. 766",
+   "where": "cic/texts/zurich-council_actensammlung-zuercher-reformation-deu_egli1879.txt:23098-23100"
+  },
+  {
+   "band": "R78",
+   "movement": "the-anabaptist-movements",
+   "name": "Felix Manz",
+   "kind_of_source": "own-writing",
+   "speaker_confirmed": true,
+   "work": "Felix Manz, admonition to his brethren, in Thieleman J. van Braght, Martyrs Mirror (English, 1886)",
+   "where": "cic/texts/van-braght_martyrs-mirror_sohm1886.txt:58479-58481",
+   "note": "attribution conventional (Martyrs Mirror)"
+  },
+  {
+   "band": "R78",
+   "movement": "the-anabaptist-movements",
+   "name": "Michael Sattler",
+   "kind_of_source": "own-writing",
+   "speaker_confirmed": true,
+   "work": "Michael Sattler, letter from prison to the church at Horb (1527), in van Braght, Martyrs Mirror (English, 1886)",
+   "where": "cic/texts/van-braght_martyrs-mirror_sohm1886.txt:58970-58972"
+  },
+  {
+   "band": "R78",
+   "movement": "the-anabaptist-movements",
+   "name": "Anneken Jans",
+   "kind_of_source": "own-writing",
+   "speaker_confirmed": true,
+   "work": "Anneken Jans ('Anna of Rotterdam'), testament to her son Isaiah (1539), in van Braght, Martyrs Mirror (English, 1886)",
+   "where": "cic/texts/van-braght_martyrs-mirror_sohm1886.txt:63828-63830"
+  },
+  {
+   "band": "R78",
+   "movement": "the-scottish-reformation-and-kirk",
+   "name": "Andrew Melville",
+   "kind_of_source": "reported",
+   "speaker_confirmed": true,
+   "work": "Andrew Melville to James VI (1596), as set down in The Autobiography and Diary of Mr James Melvill (1842)",
+   "where": "cic/texts/melville-james_autobiography-and-diary_pitcairn1842.txt:18403"
+  },
+  {
+   "band": "R78",
+   "movement": "recusant-english-catholicism",
+   "name": "Margaret Clitherow",
+   "kind_of_source": "reported",
+   "speaker_confirmed": true,
+   "work": "Margaret Clitherow at her trial (1586), in John Mush's Life, ed. John Morris, Troubles of our Catholic Forefathers, series 3 (1877)",
+   "where": "cic/texts/morris-john_troubles-of-our-catholic-forefathers-ser3_1877.txt:19443-19444"
+  },
+  {
+   "band": "R78",
+   "movement": "the-waldensian-reformed-union",
+   "name": "Pierre Olivétan",
+   "kind_of_source": "own-writing",
+   "speaker_confirmed": true,
+   "work": "Pierre Robert Olivétan, preface to the French Bible (1535), in Samuel Morland's English, History of the Evangelical Churches of Piemont (1658)",
+   "where": "cic/texts/morland_history-evangelical-churches-piemont_1658.txt:6019-6021"
+  },
+  {
+   "band": "R78",
+   "movement": "mission-born-christianities-kirishitan-japan-kon",
+   "name": "Afonso I",
+   "kind_of_source": "own-writing",
+   "speaker_confirmed": true,
+   "work": "Afonso I of Kongo to João III of Portugal, 6 July 1526, in Paiva Manso, Historia do Congo: documentos (1877)",
+   "where": "cic/texts/paiva-manso_historia-do-congo-documentos-por_1877.txt:2411-2412"
+  },
+  {
+   "band": "R78",
+   "movement": "schwenckfelders",
+   "name": "Adam Reissner",
+   "kind_of_source": "own-writing",
+   "speaker_confirmed": true,
+   "work": "Adam Reissner, hymn, as quoted in the Erläuterung für Caspar Schwenckfeld (1830)",
+   "where": "cic/texts/schultz-christopher_erlaeuterung-fuer-caspar-schwenckfeld-deu_benner1830.txt:11905-11906"
+  },
+  {
+   "band": "R78",
+   "movement": "st-thomas-christians-under-portuguese-pressure-d",
+   "name": "Aleixo de Menezes",
+   "kind_of_source": "issued-document",
+   "speaker_confirmed": true,
+   "work": "Aleixo de Menezes, convocation of the Synod of Diamper (1599), in Michael Geddes's English (1694)",
+   "where": "cic/texts/geddes_history-of-the-church-of-malabar-synod-of-diamper_1694.txt:8826-8828"
+  },
+  {
+   "band": "R78",
+   "movement": "philippine-catholicism",
+   "name": "Juan de Plasencia",
+   "kind_of_source": "own-writing",
+   "speaker_confirmed": true,
+   "work": "Juan de Plasencia, relation on the customs of the Tagalogs (Manila, 1589), in Blair and Robertson, The Philippine Islands, vol. 7 (1903)",
+   "where": "cic/texts/blair-robertson_philippine-islands-v07_1903.txt:4376-4378"
+  },
+  {
+   "band": "R78",
+   "movement": "the-tridentine-church",
+   "name": "Pope Paul III",
+   "kind_of_source": "issued-document",
+   "speaker_confirmed": true,
+   "work": "Paul III, bull Regimini militantis Ecclesiae (27 September 1540), in Institutum Societatis Iesu, vol. 1 (1892)",
+   "where": "cic/texts/society-of-jesus_institutum-societatis-iesu-v1-lat_1892.txt:2115-2117"
+  },
+  {
+   "band": "R78",
+   "movement": "russian-church-stoglav-to-nikon",
+   "name": "Hermogenes",
+   "kind_of_source": "own-writing",
+   "speaker_confirmed": true,
+   "work": "Patriarch Hermogenes to the former patriarch Job (1607), in Akty Arkheograficheskoi Ekspeditsii, vol. 2 (1836)",
+   "where": "cic/texts/akty-arkheograficheskoi-ekspeditsii_akty-t2-1598-1615-rus_1836.txt:15121-15123"
+  },
+  {
+   "band": "R78",
+   "movement": "russian-church-stoglav-to-nikon",
+   "name": "Filaret",
+   "kind_of_source": "own-writing",
+   "speaker_confirmed": true,
+   "work": "Filaret, metropolitan of Rostov, letter to the archpriest of Ustiug (November 1606), in Akty Arkheograficheskoi Ekspeditsii, vol. 2 (1836)",
+   "where": "cic/texts/akty-arkheograficheskoi-ekspeditsii_akty-t2-1598-1615-rus_1836.txt:12843-12845"
+  },
+  {
+   "band": "R78",
+   "movement": "the-remonstrants-and-dort",
+   "name": "Simon Episcopius",
+   "kind_of_source": "reported",
+   "speaker_confirmed": true,
+   "work": "Simon Episcopius, reply to Heyden, in Frederick Calder, Memoirs of Simon Episcopius (1838)",
+   "where": "cic/texts/calder_memoirs-of-simon-episcopius_1838.txt:5988-5990"
+  },
+  {
+   "band": "R78",
+   "movement": "scandinavian-reformation-kingdoms",
+   "name": "Gustav Vasa",
+   "kind_of_source": "reported",
+   "speaker_confirmed": true,
+   "work": "Gustav Vasa's assurance on the bishops' trial (1526), quoted in L. A. Anjou, History of the Reformation in Sweden (1859)",
+   "where": "cic/texts/anjou_history-of-the-reformation-in-sweden_mason1859.txt:6129"
+  },
+  {
+   "band": "R78",
+   "movement": "scandinavian-reformation-kingdoms",
+   "name": "Christian III",
+   "kind_of_source": "issued-document",
+   "speaker_confirmed": true,
+   "work": "Christian III, preface to the Ordinatio ecclesiastica of Denmark and Norway (Copenhagen, 1537)",
+   "where": "cic/texts/danske-folkekirke_ordinatio-ecclesiastica-lat_vinitor1537.txt:248-249"
+  },
+  {
+   "band": "R78",
+   "movement": "the-old-believers",
+   "name": "Semyon Denisov",
+   "kind_of_source": "own-writing",
+   "speaker_confirmed": true,
+   "work": "Semyon Denisov, history of the Solovki fathers, quoted in Ia. L. Barskov, Pamiatniki pervykh let russkogo staroobriadchestva (1912)",
+   "where": "cic/texts/barskov_pamiatniki-pervykh-let-russkogo-staroobriadchestva-rus_1912.txt:17606-17607"
+  },
+  {
+   "band": "R78",
+   "movement": "port-royal-jansenism",
+   "name": "Angélique de Saint-Jean Arnauld d'Andilly",
+   "kind_of_source": "own-writing",
+   "speaker_confirmed": true,
+   "work": "Angélique de Saint-Jean Arnauld d'Andilly, from the Port-Royal relations, in Ethel Romanes Lowndes's English, The Nuns of Port Royal (1909)",
+   "where": "cic/texts/lowndes_nuns-of-port-royal-own-narratives_1909.txt:5772-5774",
+   "note": "her written narrative quoted by Lowndes"
+  },
+  {
+   "band": "R78",
+   "movement": "shakers",
+   "name": "Ann Lee",
+   "kind_of_source": "reported",
+   "speaker_confirmed": true,
+   "work": "Ann Lee's saying, in Testimonies of the Life, Character, Revelations and Doctrines of Mother Ann Lee (1888 edition)",
+   "where": "cic/texts/shakers_testimonies-of-mother-ann-lee-and-the-elders_bishop-wells1888.txt:939-941"
+  },
+  {
+   "band": "R78",
+   "movement": "orthodoxy-under-the-ottomans-1650-1821",
+   "name": "Gregory V of Constantinople",
+   "kind_of_source": "issued-document",
+   "speaker_confirmed": true,
+   "work": "Gregory V, patriarchal encyclical (1797), in M. I. Gedeon, Kanonikai diataxeis, vol. 1 (1888)",
+   "where": "cic/texts/gedeon_kanonikai-diataxeis-v1-grc_1888.txt:11939-11940"
+  },
+  {
+   "band": "R78",
+   "movement": "restoration-georgian-church-of-england",
+   "name": "Hannah More",
+   "kind_of_source": "own-writing",
+   "speaker_confirmed": true,
+   "work": "Hannah More, The Two Wealthy Farmers (tract signed 'Z'), in Cheap Repository Tracts, vol. 1 (1795)",
+   "where": "cic/texts/cheap-repository_tracts-v1-1795_marshall1797.txt:16098-16099",
+   "note": "tract signed 'Z', standard attribution"
+  },
+  {
+   "band": "R78",
+   "movement": "church-of-the-desert-huguenots",
+   "name": "Paul Rabaut",
+   "kind_of_source": "own-writing",
+   "speaker_confirmed": true,
+   "work": "Paul Rabaut to Antoine Court, quoted in Synodes du Désert, vol. 2 (1886)",
+   "where": "cic/texts/french-reformed-synods_synodes-du-desert-t2-fra_hugues1886.txt:335-336",
+   "note": "his letter quoted in the editor's note"
+  },
+  {
+   "band": "R78",
+   "movement": "melkite-greek-catholic-church",
+   "name": "Cyril VI Tanas",
+   "kind_of_source": "own-writing",
+   "speaker_confirmed": true,
+   "work": "Cyril VI Tanas, oath of obedience, in Mansi, Sacrorum conciliorum collectio, vol. 46 (1911)",
+   "where": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-46-synodi-melchitarum-lat_petit1911.txt:19408-19409",
+   "note": "formal oath he swore and signed"
+  },
+  {
+   "band": "R78",
+   "movement": "armenian-apostolic-church-era-8",
+   "name": "Abraham of Crete",
+   "kind_of_source": "own-writing",
+   "speaker_confirmed": true,
+   "work": "Abraham of Crete, History of Nadir Shah, in M. Brosset's French, Collection d'historiens arméniens, vol. 2 (1876)",
+   "where": "cic/texts/zakaria_memoires-historiques-sur-les-sofis-fra_brosset1876.txt:14292-14293"
+  },
+  {
+   "band": "R78",
+   "movement": "armenian-christianity-era-8",
+   "name": "Mekhitar of Sebaste",
+   "kind_of_source": "joint",
+   "speaker_confirmed": true,
+   "work": "Mekhitar of Sebaste and his monks to the cardinals of Propaganda Fide, in Minas Nurikhan, The Life and Times of Abbot Mechitar (1915)",
+   "where": "cic/texts/nurikhan_life-and-times-of-abbot-mechitar_mcquillan1915.txt:7169-7170"
+  },
+  {
+   "band": "R78",
+   "movement": "church-of-utrecht",
+   "name": "Cornelius Steenoven",
+   "kind_of_source": "own-writing",
+   "speaker_confirmed": true,
+   "work": "Cornelius Steenoven to Cardinal de Noailles, in Recueil de divers témoignages (1763)",
+   "where": "cic/texts/church-of-utrecht_recueil-de-divers-temoignages-fra_1763.txt:26498-26502"
+  },
+  {
+   "band": "R78",
+   "movement": "early-american-unitarians-universalists",
+   "name": "Judith Sargent Murray",
+   "kind_of_source": "own-writing",
+   "speaker_confirmed": true,
+   "work": "[Judith Sargent Murray], continuation of Records of the Life of the Rev. John Murray (1816)",
+   "where": "cic/texts/murray-john_records-of-the-life-written-by-himself_1816.txt:10657-10658",
+   "note": "published anonymously; standard attribution to her"
+  },
+  {
+   "band": "R78",
+   "movement": "ruthenian-uniate-18th-century",
+   "name": "Lev Kishka",
+   "kind_of_source": "own-writing",
+   "speaker_confirmed": true,
+   "work": "Lev Kishka, profession of faith at the Synod of Zamość (1720), in Mansi, Sacrorum conciliorum collectio, vol. 35",
+   "where": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-35-1414-1724-lat_welter-facsimile1902.txt:134354-134356",
+   "note": "formal profession he made and signed"
+  },
+  {
+   "band": "R78",
+   "movement": "philippine-catholicism-era-8",
+   "name": "Basilio Sancho de Santa Justa",
+   "kind_of_source": "own-writing",
+   "speaker_confirmed": true,
+   "work": "Basilio Sancho de Santa Justa y Rufina, pastoral letter (1768), in Blair and Robertson, The Philippine Islands, vol. 50 (1907)",
+   "where": "cic/texts/blair-robertson_philippine-islands-v50_1907.txt:6864-6865"
+  },
+  {
+   "band": "R910",
+   "movement": "the-black-church-in-america",
+   "name": "Richard Allen",
+   "kind_of_source": "own-writing",
+   "speaker_confirmed": true,
+   "work": "Richard Allen, The Life, Experience, and Gospel Labors of the Rt. Rev. Richard Allen (1880 reprint of 1833)",
+   "where": "cic/texts/allen-richard_life-experience-and-gospel-labors_1880.txt:190-192"
+  },
+  {
+   "band": "R910",
+   "movement": "the-black-church-in-america",
+   "name": "Absalom Jones",
+   "kind_of_source": "joint",
+   "speaker_confirmed": true,
+   "work": "Absalom Jones and Richard Allen, A Narrative of the Proceedings of the Black People during the Late Awful Calamity in Philadelphia (1794), in Allen's Life (1880 reprint)",
+   "where": "cic/texts/allen-richard_life-experience-and-gospel-labors_1880.txt:1396-1398"
+  },
+  {
+   "band": "R910",
+   "movement": "the-black-church-in-america",
+   "name": "Jarena Lee",
+   "kind_of_source": "own-writing",
+   "speaker_confirmed": true,
+   "work": "Jarena Lee, Religious Experience and Journal of Mrs. Jarena Lee (1836)",
+   "where": "cic/texts/lee-jarena_religious-experience-and-journal_1836.txt:516-518"
+  },
+  {
+   "band": "R910",
+   "movement": "the-second-great-awakening-and-camp-meeting-worl",
+   "name": "Francis Asbury",
+   "kind_of_source": "own-writing",
+   "speaker_confirmed": true,
+   "work": "Francis Asbury, Journal, vol. 3 (1821)",
+   "where": "cic/texts/asbury_journal-v3_1821.txt:8409-8410"
+  },
+  {
+   "band": "R910",
+   "movement": "the-second-great-awakening-and-camp-meeting-worl",
+   "name": "Barton W. Stone",
+   "kind_of_source": "own-writing",
+   "speaker_confirmed": true,
+   "work": "Barton W. Stone, Letters on Atonement, as quoted in Richard McNemar, The Kentucky Revival (1807; Albany reprint 1808)",
+   "where": "cic/texts/mcnemar_kentucky-revival-with-the-entrance-of-shakerism_1808.txt:2504-2505",
+   "note": "Stone's printed Letters quoted by McNemar"
+  },
+  {
+   "band": "R910",
+   "movement": "the-stone-campbell-restoration-movement",
+   "name": "Barton W. Stone",
+   "kind_of_source": "own-writing",
+   "speaker_confirmed": true,
+   "work": "Barton W. Stone, Letters on Atonement, as quoted in Richard McNemar, The Kentucky Revival (1807; Albany reprint 1808)",
+   "where": "cic/texts/mcnemar_kentucky-revival-with-the-entrance-of-shakerism_1808.txt:2504-2505",
+   "note": "Stone's printed Letters quoted by McNemar"
+  },
+  {
+   "band": "R910",
+   "movement": "the-missionary-movement-s-native-churches-seramp",
+   "name": "William Carey",
+   "kind_of_source": "own-writing",
+   "speaker_confirmed": true,
+   "work": "William Carey, An Enquiry into the Obligations of Christians to Use Means for the Conversion of the Heathens (1792)",
+   "where": "cic/texts/carey-william_enquiry-into-the-obligations-of-christians_1792.txt:798-800"
+  },
+  {
+   "band": "R910",
+   "movement": "catholic-church-long-nineteenth-century",
+   "name": "Pius IX",
+   "kind_of_source": "issued-document",
+   "speaker_confirmed": true,
+   "work": "Pius IX, bull Ineffabilis Deus (8 December 1854), in Mirbt, Quellen zur Geschichte des Papsttums (3rd ed. 1911), no. 499",
+   "where": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt:25419-25420"
+  },
+  {
+   "band": "R910",
+   "movement": "catholic-church-long-nineteenth-century",
+   "name": "Leo XIII",
+   "kind_of_source": "issued-document",
+   "speaker_confirmed": true,
+   "work": "Leo XIII, encyclical Aeterni Patris (4 August 1879), in Mirbt, Quellen zur Geschichte des Papsttums (3rd ed. 1911), no. 519",
+   "where": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt:27068-27069"
+  },
+  {
+   "band": "R910",
+   "movement": "old-catholic-churches-union-of-utrecht",
+   "name": "Joseph Hubert Reinkens",
+   "kind_of_source": "joint",
+   "speaker_confirmed": true,
+   "work": "Declaration of Utrecht (Altkatholisches Glaubensbekenntnis), 24 September 1889, signed by the Old Catholic bishops including J. H. Reinkens and E. Herzog, in Mirbt, Quellen zur Geschichte des Papsttums (3rd ed. 1911), no. 588",
+   "where": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt:31203-31204"
+  },
+  {
+   "band": "R910",
+   "movement": "old-catholic-churches-union-of-utrecht",
+   "name": "Eduard Herzog",
+   "kind_of_source": "joint",
+   "speaker_confirmed": true,
+   "work": "Declaration of Utrecht (Altkatholisches Glaubensbekenntnis), 24 September 1889, signed by the Old Catholic bishops including J. H. Reinkens and E. Herzog, in Mirbt, Quellen zur Geschichte des Papsttums (3rd ed. 1911), no. 588",
+   "where": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt:31203-31204"
+  },
+  {
+   "band": "R910",
+   "movement": "nineteenth-century-methodism",
+   "name": "Richard Allen",
+   "kind_of_source": "own-writing",
+   "speaker_confirmed": true,
+   "work": "Richard Allen, The Life, Experience, and Gospel Labors of the Rt. Rev. Richard Allen (1880 reprint of 1833)",
+   "where": "cic/texts/allen-richard_life-experience-and-gospel-labors_1880.txt:928-930"
+  },
+  {
+   "band": "R910",
+   "movement": "ruthenian-greek-catholic-polotsk-to-galicia",
+   "name": "Joseph Semashko",
+   "kind_of_source": "joint",
+   "speaker_confirmed": true,
+   "work": "Synodal Act of the Greek Uniate bishops, Polotsk, 12 February 1839, signed first by Joseph, Bishop of Lithuania, in A. N. Mouravieff, A History of the Church of Russia, tr. Blackmore (1842), Notes IV",
+   "where": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt:20412-20413"
+  },
+  {
+   "band": "R910",
+   "movement": "nineteenth-century-latin-american-catholicism",
+   "name": "Leo XIII",
+   "kind_of_source": "issued-document",
+   "speaker_confirmed": true,
+   "work": "Leo XIII, encyclical Aeterni Patris (4 August 1879), in Mirbt, Quellen zur Geschichte des Papsttums (3rd ed. 1911), no. 519",
+   "where": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt:27068-27069"
+  }
+ ],
+ "counts_per_class": {
+  "reported": 26,
+  "own-writing": 73,
+  "attributed": 2,
+  "joint": 9,
+  "minutes": 7,
+  "issued-document": 24
+ },
+ "held_check": {
+  "total": 287,
+  "rows_exist": 287,
+  "author_matches": 287,
+  "not_same_person_or_not_own_words": [
+   {
+    "band": "R78",
+    "movement": "russian-church-stoglav-to-nikon",
+    "name": "Metropolitan Macarius",
+    "author": "macarius-metropolitan",
+    "held": "macarius-metropolitan_velikie-minei-chetii-september-25-30-chu_arkheograficheskaya-kommissiya1883--great-menaion-of-metropolitan-macarius-september-25-the-life-2",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "compiler-not-author",
+    "same_person": false,
+    "note": "Great Menaion row is a Life of Sergius by other authors that he compiled (finding F1)"
+   }
+  ],
+  "counts_per_kind": {
+   "own-writing": 255,
+   "reported": 5,
+   "joint": 8,
+   "attributed": 4,
+   "issued-document": 10,
+   "translation": 1,
+   "compiler-not-author": 1,
+   "own-words-in-biography": 3
+  },
+  "items": [
+   {
+    "band": "R12",
+    "movement": "post-apostolic-house-church",
+    "name": "Clement of Rome",
+    "author": "clement_rome",
+    "held": "anf01_apostolic-fathers-justin-irenaeus--first-epistle-to-the-corinthians-1-clement",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R12",
+    "movement": "post-apostolic-house-church",
+    "name": "Ignatius",
+    "author": "ignatius",
+    "held": "anf01_apostolic-fathers-justin-irenaeus--epistles-of-ignatius-seven-epistles-shorter-longer-and",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R12",
+    "movement": "post-apostolic-house-church",
+    "name": "Polycarp of Smyrna",
+    "author": "polycarp",
+    "held": "anf01_apostolic-fathers-justin-irenaeus--epistle-to-the-philippians-polycarp",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R12",
+    "movement": "post-apostolic-house-church",
+    "name": "Justin Martyr",
+    "author": "justin_martyr",
+    "held": "anf01_apostolic-fathers-justin-irenaeus--dialogue-with-trypho",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R12",
+    "movement": "greek-apologists-second-century",
+    "name": "Quadratus",
+    "author": "quadratus",
+    "held": "anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--fragments-of-quadratus",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R12",
+    "movement": "greek-apologists-second-century",
+    "name": "Aristides of Athens",
+    "author": "aristides",
+    "held": "anf09_gospel-of-peter-diatessaron-origen-commentaries--the-apology-of-aristides-the-philosopher",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R12",
+    "movement": "greek-apologists-second-century",
+    "name": "Justin Martyr",
+    "author": "justin_martyr",
+    "held": "anf01_apostolic-fathers-justin-irenaeus--dialogue-with-trypho",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R12",
+    "movement": "greek-apologists-second-century",
+    "name": "Melito of Sardis",
+    "author": "melito-of-sardis",
+    "held": "anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--fragments-of-melito-of-sardis",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R12",
+    "movement": "greek-apologists-second-century",
+    "name": "Athenagoras of Athens",
+    "author": "athenagoras",
+    "held": "anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria--a-plea-for-the-christians",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R12",
+    "movement": "greek-apologists-second-century",
+    "name": "Theophilus of Antioch",
+    "author": "theophilus",
+    "held": "anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria--theophilus-to-autolycus",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R12",
+    "movement": "latin-apologists",
+    "name": "Minucius Felix",
+    "author": "felix",
+    "held": "anf04_tertullian4-minucius-felix-commodian-origen1-2--the-octavius-of-minucius-felix",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R12",
+    "movement": "latin-apologists",
+    "name": "Commodianus",
+    "author": "commodian",
+    "held": "anf04_tertullian4-minucius-felix-commodian-origen1-2--the-instructions-of-commodianus-instructiones",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R12",
+    "movement": "latin-apologists",
+    "name": "Arnobius of Sicca",
+    "author": "arnobius",
+    "held": "anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--the-seven-books-of-arnobius-against-the-heathen-adversus",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R12",
+    "movement": "latin-apologists",
+    "name": "Lactantius",
+    "author": "lactantius",
+    "held": "anf07_lactantius-apostolic-constitutions-didache-liturgies--a-treatise-on-the-anger-of-god",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R12",
+    "movement": "alexandria-catechetical",
+    "name": "Pantaenus",
+    "author": "pantaenus",
+    "held": "anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--fragments-of-pantaenus",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "reported",
+    "same_person": true,
+    "note": "words reported by a later writer or disciple, not his own written work"
+   },
+   {
+    "band": "R12",
+    "movement": "alexandria-catechetical",
+    "name": "Clement of Alexandria",
+    "author": "clement_alex",
+    "held": "anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria--exhortation-to-the-heathen-protrepticus",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R12",
+    "movement": "alexandria-catechetical",
+    "name": "Dionysius of Alexandria",
+    "author": "dionysius_gr",
+    "held": "anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--exegetical-fragments-of-dionysius-of-alexandria",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R12",
+    "movement": "alexandria-catechetical",
+    "name": "Didymus the Blind",
+    "author": "didymus-alexandria",
+    "held": "didymus-alexandria_de-trinitate-lat-grc_mingarelli1769--de-trinitate-on-the-trinity-three-books",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R12",
+    "movement": "syriac-edessa-nisibis",
+    "name": "Tatian",
+    "author": "tatian",
+    "held": "anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria--address-to-the-greeks",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R12",
+    "movement": "syriac-edessa-nisibis",
+    "name": "Bardaisan",
+    "author": "bardesan",
+    "held": "anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--bardesan-the-book-of-the-laws-of-divers-countries",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "reported",
+    "same_person": true,
+    "note": "words reported by a later writer or disciple, not his own written work"
+   },
+   {
+    "band": "R12",
+    "movement": "syriac-edessa-nisibis",
+    "name": "Aphrahat",
+    "author": "aphrahat",
+    "held": "npnf213_gregory-great-ephraim-syrus-aphrahat--select-demonstrations-of-aphrahat",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R12",
+    "movement": "latin-pastoral-congregational-christianity",
+    "name": "Pontius the Deacon",
+    "author": "pontius",
+    "held": "anf05_hippolytus-cyprian-caius-novatian--the-life-and-passion-of-cyprian-bishop-and-martyr",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R12",
+    "movement": "latin-pastoral-congregational-christianity",
+    "name": "Possidius of Calama",
+    "author": "possidius",
+    "held": "possidius_vita-augustini_weiskotten1919--sancti-augustini-vita-life-of-augustine",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R12",
+    "movement": "marcion-marcionism",
+    "name": "Irenaeus of Lyons",
+    "author": "irenaeus",
+    "held": "anf01_apostolic-fathers-justin-irenaeus--against-heresies-books-i-v-2",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R12",
+    "movement": "marcion-marcionism",
+    "name": "Tertullian of Carthage",
+    "author": "tertullian",
+    "held": "anf03_tertullian--on-the-flesh-of-christ-2",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R12",
+    "movement": "valentinian-and-other-gnostic-christianities",
+    "name": "Irenaeus of Lyons",
+    "author": "irenaeus",
+    "held": "anf01_apostolic-fathers-justin-irenaeus--against-heresies-books-i-v-2",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R12",
+    "movement": "manichaeism",
+    "name": "Augustine of Hippo",
+    "author": "augustine",
+    "held": "npnf104_augustine-anti-manichaean-anti-donatist--acts-or-disputation-against-fortunatus-the-manichaean-2",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R12",
+    "movement": "montanism-the-new-prophecy",
+    "name": "Tertullian of Carthage",
+    "author": "tertullian",
+    "held": "anf03_tertullian--against-praxeas-3",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R12",
+    "movement": "novatianism",
+    "name": "Novatian",
+    "author": "novatian",
+    "held": "anf05_hippolytus-cyprian-caius-novatian--a-treatise-of-novatian-concerning-the-trinity",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R12",
+    "movement": "novatianism",
+    "name": "Cyprian of Carthage",
+    "author": "cyprian",
+    "held": "anf05_hippolytus-cyprian-caius-novatian--the-epistles-of-cyprian",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R12",
+    "movement": "anatolian-church-third-century",
+    "name": "Origen",
+    "author": "origen",
+    "held": "origen_philocalia_lewis1911--the-philocalia-of-origen-4",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R12",
+    "movement": "anatolian-church-third-century",
+    "name": "Gregory Thaumaturgus",
+    "author": "gregory_thau",
+    "held": "anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--a-metaphrase-of-the-book-of-ecclesiastes",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R12",
+    "movement": "anatolian-church-third-century",
+    "name": "Methodius of Olympus",
+    "author": "methodius",
+    "held": "anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--fragments-of-methodius-general-fragments-on-the-cross-and",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R12",
+    "movement": "antiochene-church-third-century",
+    "name": "Malchion",
+    "author": "malchion",
+    "held": "anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--the-epistle-of-malchion-in-the-name-of-the-synod-of-antioch",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "joint",
+    "same_person": true,
+    "note": "joint or synodal work"
+   },
+   {
+    "band": "R12",
+    "movement": "palestinian-church-pre-constantinian",
+    "name": "Alexander of Jerusalem",
+    "author": "alexander_capp",
+    "held": "anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--fragments-of-alexander-of-cappadocia",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R12",
+    "movement": "palestinian-church-pre-constantinian",
+    "name": "Julius Africanus",
+    "author": "juliusafricanus",
+    "held": "anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius--the-epistle-to-aristides",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R12",
+    "movement": "palestinian-church-pre-constantinian",
+    "name": "Eusebius of Caesarea",
+    "author": "eusebius",
+    "held": "npnf201_eusebius-church-history-life-of-constantine--martyrs-of-palestine",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R12",
+    "movement": "roman-church-third-century",
+    "name": "Caius",
+    "author": "caius",
+    "held": "anf05_hippolytus-cyprian-caius-novatian--fragments-of-caius-dialogue-against-proclus-against-the",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R12",
+    "movement": "roman-church-third-century",
+    "name": "Hippolytus",
+    "author": "hippolytus",
+    "held": "anf05_hippolytus-cyprian-caius-novatian--against-the-heresy-of-one-noetus",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R12",
+    "movement": "roman-church-third-century",
+    "name": "Dionysius of Rome",
+    "author": "dionysius_rome",
+    "held": "anf07_lactantius-apostolic-constitutions-didache-liturgies--against-the-sabellians",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R12",
+    "movement": "danubian-latin-christianity",
+    "name": "Victorinus of Pettau",
+    "author": "victorinus",
+    "held": "anf07_lactantius-apostolic-constitutions-didache-liturgies--commentary-on-the-apocalypse-of-the-blessed-john",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R12",
+    "movement": "desert-monasticism",
+    "name": "Pachomius",
+    "author": "pachomius",
+    "held": "pachomius_rules-ethiopic_schodde1885--ethiopic-rules-aksumite-transmission--voice",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R12",
+    "movement": "desert-monasticism",
+    "name": "Evagrius",
+    "author": "evagrius",
+    "held": "evagrius_praktikos_dysinger--the-praktikos",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R12",
+    "movement": "desert-monasticism",
+    "name": "John Cassian",
+    "author": "cassian",
+    "held": "npnf211_sulpitius-severus-vincent-lerins-cassian--on-the-incarnation-of-the-lord-against-nestorius-de",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R12",
+    "movement": "palestinian-ascetic-monasticism-early",
+    "name": "Jerome",
+    "author": "jerome",
+    "held": "npnf206_jerome-principal-works--the-life-of-malchus-the-captive-monk",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R12",
+    "movement": "donatism",
+    "name": "Tyconius",
+    "author": "tyconius",
+    "held": "tyconius_liber-regularum_burkitt1894--the-book-of-rules-liber-regularum",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R12",
+    "movement": "cappadocian-nicene-pastoral-monastic-tradition",
+    "name": "Basil",
+    "author": "basil",
+    "held": "npnf208_basil-letters-select-works--de-spiritu-sancto-on-the-holy-spirit",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R12",
+    "movement": "cappadocian-nicene-pastoral-monastic-tradition",
+    "name": "Gregory of Nazianzus",
+    "author": "gregory_naz",
+    "held": "npnf214_seven-ecumenical-councils--from-the-metrical-poems-of-gregory-theologus-on-the-canon-of",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R12",
+    "movement": "imperial-juridical-christianity",
+    "name": "Constantine",
+    "author": "constantine",
+    "held": "npnf201_eusebius-church-history-life-of-constantine--the-oration-of-constantine-to-the-assembly-of-the-saints",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R12",
+    "movement": "imperial-juridical-christianity",
+    "name": "Eusebius of Caesarea",
+    "author": "eusebius",
+    "held": "npnf201_eusebius-church-history-life-of-constantine--the-church-history-of-eusebius-historia-ecclesiastica",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R12",
+    "movement": "imperial-juridical-christianity",
+    "name": "Ambrose of Milan",
+    "author": "ambrose",
+    "held": "npnf210_ambrose--exposition-of-the-christian-faith-de-fide",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R12",
+    "movement": "imperial-juridical-christianity",
+    "name": "Leo of Rome",
+    "author": "leo",
+    "held": "npnf212_leo-great-gregory-great--the-letters-of-leo-the-great",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R12",
+    "movement": "hieronymian-ascetic-literary",
+    "name": "Rufinus of Aquileia",
+    "author": "rufinus",
+    "held": "anf04_tertullian4-minucius-felix-commodian-origen1-2--prologue-of-rufinus-to-de-principiis",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R12",
+    "movement": "persian-church-of-the-east-early",
+    "name": "Aphrahat",
+    "author": "aphrahat",
+    "held": "npnf213_gregory-great-ephraim-syrus-aphrahat--select-demonstrations-of-aphrahat",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R12",
+    "movement": "persian-church-of-the-east-early",
+    "name": "Marutha of Maypherqat",
+    "author": "maruta-of-maipherqat",
+    "held": "maruta-of-maipherqat_de-sancta-nicaena-synodo-syrische-texte-deu_braun1898--syriac-nicene-dossier-german-2",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "attributed",
+    "same_person": true,
+    "note": "authorship of the held work is attributed/contested; disclosed in the reason"
+   },
+   {
+    "band": "R12",
+    "movement": "antiochene-exegetical-christianity-chrysostom-ce",
+    "name": "Theodoret of Cyrrhus",
+    "author": "theodoret",
+    "held": "npnf203_theodoret-jerome-gennadius-rufinus--dialogues-eranistes",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R12",
+    "movement": "jerusalem-liturgical-pilgrimage-christianity",
+    "name": "Cyril of Jerusalem",
+    "author": "cyril_jer",
+    "held": "npnf207_cyril-jerusalem-gregory-nazianzen--the-catechetical-lectures-procatechesis-catecheses-i-xviii",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R12",
+    "movement": "jerusalem-liturgical-pilgrimage-christianity",
+    "name": "Egeria",
+    "author": "egeria",
+    "held": "egeria_pilgrimage-of-etheria_mcclure-feltoe1919--peregrinatio-aetheriae-pilgrimage-of-etheria",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R12",
+    "movement": "ambrosian-milan-standalone",
+    "name": "Augustine of Hippo",
+    "author": "augustine",
+    "held": "npnf101_augustine-confessions-letters--the-confessions-3",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R12",
+    "movement": "aquileian-christianity",
+    "name": "Rufinus of Concordia",
+    "author": "rufinus",
+    "held": "npnf203_theodoret-jerome-gennadius-rufinus--a-commentary-on-the-apostles-creed-rufinus",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R12",
+    "movement": "aquileian-christianity",
+    "name": "Jerome",
+    "author": "jerome",
+    "held": "npnf206_jerome-principal-works--letters-vii-x-to-chromatius-jovinus-and-eusebius-to-niceas",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R12",
+    "movement": "gallic-nicene-episcopate",
+    "name": "Hilary of Poitiers",
+    "author": "hilary_poit",
+    "held": "npnf209_hilary-poitiers-john-damascus--de-synodis-on-the-councils",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R12",
+    "movement": "gallic-nicene-episcopate",
+    "name": "Sulpitius Severus",
+    "author": "sulpiciusseverus",
+    "held": "sulpicius-severus_libri-qui-supersunt-chronica-vita-martini-lat_halm1866-csel1--chronica-vita-martini-epistulae-dialogi-latin",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R12",
+    "movement": "gallic-monastic-ascetic-christianity",
+    "name": "Sulpitius Severus",
+    "author": "sulpiciusseverus",
+    "held": "npnf211_sulpitius-severus-vincent-lerins-cassian--dialogues-of-sulpitius-severus",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R12",
+    "movement": "gallic-monastic-ascetic-christianity",
+    "name": "John Cassian",
+    "author": "cassian",
+    "held": "npnf211_sulpitius-severus-vincent-lerins-cassian--on-the-incarnation-of-the-lord-against-nestorius-de",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R12",
+    "movement": "gallic-monastic-ascetic-christianity",
+    "name": "Vincent of Lérins",
+    "author": "vincent_lerins",
+    "held": "npnf211_sulpitius-severus-vincent-lerins-cassian--the-commonitory-of-vincent-of-lerins",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R12",
+    "movement": "priscillianist-asceticism",
+    "name": "Sulpicius Severus",
+    "author": "sulpiciusseverus",
+    "held": "npnf211_sulpitius-severus-vincent-lerins-cassian--the-sacred-history-chronica-2",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R12",
+    "movement": "pelagianism",
+    "name": "Augustine of Hippo",
+    "author": "augustine",
+    "held": "npnf105_augustine-anti-pelagian-writings--against-two-letters-of-the-pelagians-contra-duas-epistulas",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R12",
+    "movement": "pelagianism",
+    "name": "Pelagius",
+    "author": "pelagius",
+    "held": "pelagius_epistula-ad-demetriadem-lat_migne--epistola-i-ad-demetriadem",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R12",
+    "movement": "anomoean-eunomian-christianity",
+    "name": "Eunomius of Cyzicus",
+    "author": "eunomius",
+    "held": "eunomius_first-apology_whiston1711--the-first-apology-liber-apologeticus",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R12",
+    "movement": "anomoean-eunomian-christianity",
+    "name": "Gregory of Nyssa",
+    "author": "gregory_nyssa",
+    "held": "npnf205_gregory-nyssa-dogmatic-treatises--against-eunomius-books-i-xii-with-the-answer-to-eunomius-2",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R12",
+    "movement": "anomoean-eunomian-christianity",
+    "name": "Gregory of Nazianzus",
+    "author": "gregory_naz",
+    "held": "npnf207_cyril-jerusalem-gregory-nazianzen--the-five-theological-orations-orations-27-31-2",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R12",
+    "movement": "pneumatomachian-current",
+    "name": "Basil of Caesarea",
+    "author": "basil",
+    "held": "npnf208_basil-letters-select-works--de-spiritu-sancto-on-the-holy-spirit-2",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R12",
+    "movement": "pneumatomachian-current",
+    "name": "Gregory of Nyssa",
+    "author": "gregory_nyssa",
+    "held": "npnf205_gregory-nyssa-dogmatic-treatises--on-the-holy-spirit-against-the-followers-of-macedonius-2",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R12",
+    "movement": "apollinarian-christianity",
+    "name": "Apollinaris of Laodicea",
+    "author": "apollinaris-laodicea",
+    "held": "apollinaris-laodicea_fragmente-apollinaris-von-laodicea-und-seine-schule-grc-deu_lietzmann1904--texts-and-fragments-of-apollinaris-and-his-school",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R12",
+    "movement": "apollinarian-christianity",
+    "name": "Gregory of Nazianzus",
+    "author": "gregory_naz",
+    "held": "npnf207_cyril-jerusalem-gregory-nazianzen--select-letters-of-saint-gregory-nazianzen-2",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R12",
+    "movement": "modalist-monarchianism",
+    "name": "Tertullian",
+    "author": "tertullian",
+    "held": "anf03_tertullian--against-praxeas-2",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R12",
+    "movement": "bardaisanite-current",
+    "name": "Bardaisan of Edessa",
+    "author": "bardesan",
+    "held": "anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac--bardesan-the-book-of-the-laws-of-divers-countries",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "reported",
+    "same_person": true,
+    "note": "words reported by a later writer or disciple, not his own written work"
+   },
+   {
+    "band": "R12",
+    "movement": "bardaisanite-current",
+    "name": "Ephraim the Syrian",
+    "author": "ephraim",
+    "held": "ephraim_prose-refutations_mitchell1912-1921--against-bardaisan-a-discourse-against-bardaisan-2",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R36",
+    "movement": "cyrilline-miaphysite-egyptian-christianity",
+    "name": "Timothy Aelurus",
+    "author": "timothy-aelurus",
+    "held": "timothy-aelurus_widerlegung-der-lehre-von-chalcedon-xcl_ter-mekerttschian-ter-minassiantz1908--timothy-aelurus-refutation-miaphysite",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R36",
+    "movement": "cyrilline-miaphysite-egyptian-christianity",
+    "name": "Severus of Antioch",
+    "author": "severus-of-antioch",
+    "held": "severus-of-antioch_select-letters-book6-part1_brooks1903--egypt-letters-reconciling-groups",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R36",
+    "movement": "cyrilline-miaphysite-egyptian-christianity",
+    "name": "Theodosius I of Alexandria",
+    "author": "theodosius-alexandria",
+    "held": "miscellaneous-coptic-texts-upper-egypt_budge1915--theodosius-encomium-michael",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "attributed",
+    "same_person": true,
+    "note": "authorship of the held work is attributed/contested; disclosed in the reason"
+   },
+   {
+    "band": "R36",
+    "movement": "cyrilline-miaphysite-egyptian-christianity",
+    "name": "John of Nikiu",
+    "author": "john-nikiu",
+    "held": "john-nikiu_chronicle_charles1916--the-chronicle-of-john-bishop-of-nikiu",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R36",
+    "movement": "syriac-orthodox-west-syriac-christianity",
+    "name": "Severus of Antioch",
+    "author": "severus-of-antioch",
+    "held": "po08_john-rufus-plerophories-and-others-fra_1912--severus-cathedral-homilies-58-69",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R36",
+    "movement": "syriac-orthodox-west-syriac-christianity",
+    "name": "John of Ephesus",
+    "author": "john-ephesus",
+    "held": "john-ephesus_lives-eastern-saints-po17_brooks1923--lives-of-the-eastern-saints-i",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R36",
+    "movement": "the-church-of-the-east-under-persia",
+    "name": "Narsai",
+    "author": "narsai",
+    "held": "narsai_liturgical-homilies_connolly1909--liturgical-homilies",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R36",
+    "movement": "armenian-christianity-after-avarayr",
+    "name": "Elishe",
+    "author": "eghishe",
+    "held": "langlois_collection-historiens-armenie-tome2-fra_1869--elishe-french",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R36",
+    "movement": "armenian-christianity-after-avarayr",
+    "name": "Lazar Parpetsi",
+    "author": "lazar-parpetsi",
+    "held": "langlois_collection-historiens-armenie-tome2-fra_1869--lazar-of-parp",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R36",
+    "movement": "chalcedonian-monasticism-judean-desert-and-gaza",
+    "name": "Barsanuphius",
+    "author": "barsanuphius-and-john",
+    "held": "dorotheus-gaza_doctrinae-barsanuphius-climacus-agathias-grc-lat_migne-pg88--barsanuphius-john-answers",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "joint",
+    "same_person": true,
+    "note": "joint or synodal work"
+   },
+   {
+    "band": "R36",
+    "movement": "chalcedonian-monasticism-judean-desert-and-gaza",
+    "name": "John",
+    "author": "barsanuphius-and-john",
+    "held": "dorotheus-gaza_doctrinae-barsanuphius-climacus-agathias-grc-lat_migne-pg88--barsanuphius-john-answers",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "joint",
+    "same_person": true,
+    "note": "joint or synodal work"
+   },
+   {
+    "band": "R36",
+    "movement": "chalcedonian-monasticism-judean-desert-and-gaza",
+    "name": "Dorotheus of Gaza",
+    "author": "dorotheus-gaza",
+    "held": "dorotheus-gaza_doctrinae-barsanuphius-climacus-agathias-grc-lat_migne-pg88--dorotheus-doctrinae",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R36",
+    "movement": "chalcedonian-monasticism-judean-desert-and-gaza",
+    "name": "Cyril of Scythopolis",
+    "author": "cyril-scythopolis",
+    "held": "cyril-scythopolis_vita-euthymii-cotelier-monumenta-v2-grc-lat_1681--vita-euthymii",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R36",
+    "movement": "chalcedonian-monasticism-judean-desert-and-gaza",
+    "name": "John Moschus",
+    "author": "john-moschus",
+    "held": "cyril-scythopolis_vita-euthymii-cotelier-monumenta-v2-grc-lat_1681--moschus-chapters",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R36",
+    "movement": "early-benedictine-italian-monasticism",
+    "name": "Benedict of Nursia",
+    "author": "benedict-of-nursia",
+    "held": "benedict_rule-of-saint-benedict_gasquet1925--rule-of-benedict",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R36",
+    "movement": "early-benedictine-italian-monasticism",
+    "name": "Gregory the Great",
+    "author": "gregory",
+    "held": "gregory-great_dialogues_gardner1911--book-ii-benedict",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R36",
+    "movement": "merovingian-gallic-christianity",
+    "name": "Clovis",
+    "author": "clovis-letter-to-bishops",
+    "held": "capitulatio-de-partibus-saxoniae_pertz1881--clovis-letter-and-merovingian-legislation",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "issued-document",
+    "same_person": true,
+    "note": "decree, bull, constitution or synodal acts in his name"
+   },
+   {
+    "band": "R36",
+    "movement": "merovingian-gallic-christianity",
+    "name": "Caesarius of Arles",
+    "author": "caesarius-arles",
+    "held": "facundus-ferrandus-caesarius-dionysius-pl67-lat_migne1865--caesarius-rules",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R36",
+    "movement": "merovingian-gallic-christianity",
+    "name": "Venantius Fortunatus",
+    "author": "venantius-fortunatus",
+    "held": "venantius-fortunatus_opera-mgh-aa-4-lat_leo-krusch1881--venantius-poems-and-lives",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R36",
+    "movement": "merovingian-gallic-christianity",
+    "name": "Gregory of Tours",
+    "author": "gregory-tours",
+    "held": "gregory-tours_opera-mgh-srm-1-lat_arndt-krusch1885--gregory-tours-historiae-and-miracula",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R36",
+    "movement": "insular-irish-monastic-christianity",
+    "name": "Patrick",
+    "author": "patrick",
+    "held": "patrick_libri-sancti-patricii-lat_white1918--patrick-latin",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R36",
+    "movement": "insular-irish-monastic-christianity",
+    "name": "Adomnán",
+    "author": "adomnan",
+    "held": "adomnan_life-of-saint-columba_huyshe1905--life-of-columba",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R36",
+    "movement": "aksumite-christianity",
+    "name": "Cosmas Indicopleustes",
+    "author": "cosmas-indicopleustes",
+    "held": "cosmas-indicopleustes_christian-topography_mccrindle1897--books-ii-iii-adulis-aksum",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R36",
+    "movement": "nubian-christianity",
+    "name": "John of Ephesus",
+    "author": "john-ephesus",
+    "held": "john-ephesus_ecclesiastical-history-part3_paynesmith1860--iv-6-9-iv-49-54-nubian-mission",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R36",
+    "movement": "gothic-and-vandal-homoian-christianity",
+    "name": "Ulfila",
+    "author": "wulfila",
+    "held": "wulfila_gothic-bible-skeireins-calendar-got-deu_bernhardt1884--gothic-bible",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "translation",
+    "same_person": true,
+    "note": "his Gothic Bible translation; his own creed is quoted elsewhere (homoian-arian-christianity)"
+   },
+   {
+    "band": "R36",
+    "movement": "gothic-and-vandal-homoian-christianity",
+    "name": "Victor of Vita",
+    "author": "victor-of-vita",
+    "held": "victor-of-vita_historia-persecutionis-africanae-provinciae-lat_petschenig1881--persecution-homoian-view",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R36",
+    "movement": "byzantine-imperial-church-justinianic",
+    "name": "Romanos the Melodist",
+    "author": "romanos-melodist",
+    "held": "romanos-melodist_cantica-grc_pitra1888--kontakia",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R36",
+    "movement": "byzantine-imperial-church-justinianic",
+    "name": "Justinian",
+    "author": "justinian",
+    "held": "justinian_novellae-corpus-iuris-civilis-v3-lat-grc_schoell-kroll1895--novellae-church-law",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "issued-document",
+    "same_person": true,
+    "note": "decree, bull, constitution or synodal acts in his name"
+   },
+   {
+    "band": "R36",
+    "movement": "latin-africa-under-byzantium",
+    "name": "Ferrandus of Carthage",
+    "author": "ferrandus-carthage",
+    "held": "facundus-ferrandus-caesarius-dionysius-pl67-lat_migne1865--ferrandus-letters-breviatio",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R36",
+    "movement": "latin-africa-under-byzantium",
+    "name": "Facundus of Hermiane",
+    "author": "facundus-hermiane",
+    "held": "facundus-ferrandus-caesarius-dionysius-pl67-lat_migne1865--facundus-three-chapters",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R36",
+    "movement": "latin-africa-under-byzantium",
+    "name": "Victor of Tunnuna",
+    "author": "victor-tunnunensis",
+    "held": "chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894--victor-tunnuna",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R36",
+    "movement": "latin-africa-under-byzantium",
+    "name": "Maximus the Confessor",
+    "author": "maximus-confessor",
+    "held": "maximus-confessor_disputatio-cum-pyrrho-pg91-grc-lat_migne1860--disputation-pyrrhus",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R36",
+    "movement": "nicene-visigothic-iberia",
+    "name": "Leander of Seville",
+    "author": "leander-seville",
+    "held": "john-biclaro-leander-pl72-lat_migne1878--leander-regula-homilia",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R36",
+    "movement": "nicene-visigothic-iberia",
+    "name": "Isidore of Seville",
+    "author": "isidore-seville",
+    "held": "isidore-seville_etymologiae-origines-lat_lindsay1911--etymologiae",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R36",
+    "movement": "nicene-visigothic-iberia",
+    "name": "Braulio of Zaragoza",
+    "author": "braulio-saragossa",
+    "held": "paulus-emeritanus-braulio-sisebut-pl80-lat_migne1863--merida-fathers-braulio",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R36",
+    "movement": "nicene-visigothic-iberia",
+    "name": "Ildefonsus of Toledo",
+    "author": "ildefonsus-toledo",
+    "held": "ildefonsus-julian-toledo-pl96-lat_migne1862--ildefonsus-julian",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R36",
+    "movement": "british-welsh-christianity",
+    "name": "Gildas",
+    "author": "gildas",
+    "held": "gildas_de-excidio-britanniae-lorica-penitential-lat-eng_williams1899--de-excidio",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R36",
+    "movement": "melkite-arabic-christianity",
+    "name": "John of Damascus",
+    "author": "damascus",
+    "held": "npnf209_hilary-poitiers-john-damascus--an-exact-exposition-of-the-orthodox-faith-de-fide-orthodoxa",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R36",
+    "movement": "coptic-christianity-under-early-islam",
+    "name": "Severus ibn al-Muqaffa'",
+    "author": "severus-al-muqaffa",
+    "held": "severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904--history-of-the-patriarchs-of-the-coptic-church-of-alexandria",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "attributed",
+    "same_person": true,
+    "note": "authorship of the held work is attributed/contested; disclosed in the reason"
+   },
+   {
+    "band": "R36",
+    "movement": "anglo-saxon-christianity",
+    "name": "Bede",
+    "author": "bede",
+    "held": "bede_ecclesiastical-history-english-people_giles1903--the-ecclesiastical-history-of-the-english-nation",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R36",
+    "movement": "anglo-saxon-christianity",
+    "name": "Boniface",
+    "author": "boniface",
+    "held": "boniface_english-correspondence_kylie1911--the-english-correspondence-of-saint-boniface",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R36",
+    "movement": "carolingian-reform-christianity",
+    "name": "Alcuin of York",
+    "author": "alcuin",
+    "held": "alcuin_opera-omnia-letters_migne-pl100-101_1863--alcuini-opera-omnia-letters",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R36",
+    "movement": "carolingian-reform-christianity",
+    "name": "Dhuoda",
+    "author": "dhuoda",
+    "held": "dhuoda_liber-manualis_bondurand1887--liber-manualis",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R36",
+    "movement": "byzantine-imperial-church-heraclian-iconoclast",
+    "name": "Maximus the Confessor",
+    "author": "maximus-confessor",
+    "held": "maximus-confessor_relatio-motionis-disputatio-bizyae-grc-lat_migne-pg90--relatio-motionis-and-disputatio-bizyae",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R36",
+    "movement": "the-beguines",
+    "name": "Mechthild of Magdeburg",
+    "author": "mechthild",
+    "held": "mechthild_fliessende-licht-der-gottheit-gmh_morel1869--mechthild-von-magdeburg-the-flowing-light-of-the-godhead-2",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R36",
+    "movement": "the-waldensians",
+    "name": "Bernard Gui",
+    "author": "bernard-gui",
+    "held": "bernard-gui_manuel-inquisiteur-t1-lat-fra_mollat1926--manuel-de-l-inquisiteur-of-bernard-gui-tome-i-mollat-1926-3",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R36",
+    "movement": "syriac-renaissance",
+    "name": "Michael the Syrian",
+    "author": "michael-the-syrian",
+    "held": "michael-the-syrian_chronique-tome1-livres-i-vii-fra_chabot1899--chronique-book-vii-syriac-renaissance-chronicle-french",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R36",
+    "movement": "syriac-renaissance",
+    "name": "Bar Hebraeus",
+    "author": "bar-hebraeus",
+    "held": "barhebraeus_chronicon-ecclesiasticum-vol1-lat_abbeloos-lamy1872--chronicon-ecclesiasticum-volume-i-the-patriarchs-of-antioch",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R36",
+    "movement": "church-of-the-east-under-the-mongols",
+    "name": "Rabban Bar Sauma",
+    "author": "yahballaha-sauma",
+    "held": "yahballaha-sauma_monks-of-kublai-khan_budge1928--the-monks-of-kublai-khan-life-of-mar-yahballaha-iii-and-rabb",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "reported",
+    "same_person": true,
+    "note": "held row is a Life by others that embeds or reworks his own account"
+   },
+   {
+    "band": "R36",
+    "movement": "the-english-mystics-and-devout",
+    "name": "Richard Rolle",
+    "author": "rolle",
+    "held": "rolle_fire-of-love-and-mending-of-life-enm_harvey1896--the-fire-of-love-and-the-mending-of-life-richard-misyn-s-middle-english-ed-ralph-harvey-eets-os-106",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R36",
+    "movement": "the-english-mystics-and-devout",
+    "name": "Julian of Norwich",
+    "author": "julian-of-norwich",
+    "held": "julian-of-norwich_comfortable-words-for-christs-lovers_harford1911--comfortable-words-for-christ-s-lovers-the-short-text-brit-mus-addit-37790-ed-dundas-harford",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R36",
+    "movement": "the-english-mystics-and-devout",
+    "name": "Walter Hilton",
+    "author": "hilton",
+    "held": "hilton_scale-or-ladder-of-perfection_dalgairns1908--the-scale-or-ladder-of-perfection-dalgairns-printing-of-the-seventeenth-century-text",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R36",
+    "movement": "rhineland-mysticism-and-the-friends-of-god",
+    "name": "Meister Eckhart",
+    "author": "eckhart",
+    "held": "eckhart_lateinische-rechtfertigungsschrift-lat_daniels1923--eckhart-s-latin-rechtfertigungsschrift-defence-in-the",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R36",
+    "movement": "rhineland-mysticism-and-the-friends-of-god",
+    "name": "Henry Suso",
+    "author": "suso",
+    "held": "suso_deutsche-schriften-gmh_bihlmeyer1907--heinrich-seuse-suso-german-works-bihlmeyer-s-critical",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R36",
+    "movement": "rhineland-mysticism-and-the-friends-of-god",
+    "name": "Johannes Tauler",
+    "author": "tauler",
+    "held": "tauler_history-and-life-with-sermons_winkworth1907--tauler-life-and-twenty-five-sermons-winkworth-s-translation",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R36",
+    "movement": "rhineland-mysticism-and-the-friends-of-god",
+    "name": "Elsbeth Stagel",
+    "author": "stagel",
+    "held": "stagel_leben-der-schwestern-zu-toess-gmh_vetter1906--das-leben-der-schwestern-zu-toess-the-toess-sister-book",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "attributed",
+    "same_person": true,
+    "note": "authorship of the held work is attributed/contested; disclosed in the reason"
+   },
+   {
+    "band": "R36",
+    "movement": "rhineland-mysticism-and-the-friends-of-god",
+    "name": "Rulman Merswin",
+    "author": "merswin",
+    "held": "merswin_buch-von-den-neun-felsen-gmh_schmidt1859--rulman-merswin-book-of-the-nine-rocks-schmidt-s-edition-from",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R36",
+    "movement": "devotio-moderna-brethren-of-the-common-life",
+    "name": "Geert Grote",
+    "author": "groote",
+    "held": "groote_epistolae-xiv-lat_acquoy1857--gerardi-magni-epistolae-xiv-fourteen-letters-of-gerard",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R36",
+    "movement": "devotio-moderna-brethren-of-the-common-life",
+    "name": "Gerard Zerbolt of Zutphen",
+    "author": "zerbolt",
+    "held": "zerbolt_spiritual-ascent_arthur1908--the-spiritual-ascent-a-devotional-treatise-de-spiritualibus",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R36",
+    "movement": "hesychasm-and-the-palamite-synthesis",
+    "name": "Gregory of Sinai",
+    "author": "gregory-sinai",
+    "held": "palamas_opera-omnia-pg150-grc-lat_migne1865--gregory-of-sinai-ascetic-chapters-and-tracts-on-quiet-and",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R36",
+    "movement": "hesychasm-and-the-palamite-synthesis",
+    "name": "Barlaam of Calabria",
+    "author": "barlaam",
+    "held": "palamas_opera-omnia-pg151-grc-lat_migne1865--barlaam-of-calabria-opuscula-greek-with-latin-in-migne-pg",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R36",
+    "movement": "hesychasm-and-the-palamite-synthesis",
+    "name": "Gregory Palamas",
+    "author": "palamas",
+    "held": "palamas_homiliae-41-grc_jerusalem1857--gregory-palamas-forty-one-homilies-greek-jerusalem-1857",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R36",
+    "movement": "hesychasm-and-the-palamite-synthesis",
+    "name": "Philotheos Kokkinos",
+    "author": "philotheos-kokkinos",
+    "held": "palamas_opera-omnia-pg151-grc-lat_migne1865--philotheos-kokkinos-encomium-of-gregory-palamas-and-the",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R36",
+    "movement": "hesychasm-and-the-palamite-synthesis",
+    "name": "Nicholas Cabasilas",
+    "author": "cabasilas",
+    "held": "palamas_opera-omnia-pg150-grc-lat_migne1865--nicholas-cabasilas-commentary-on-the-divine-liturgy-greek",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R36",
+    "movement": "the-hussite-and-bohemian-brethren-movement",
+    "name": "Jan Hus",
+    "author": "hus",
+    "held": "hus_de-ecclesia-the-church_schaff1915--de-ecclesia-the-church",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R36",
+    "movement": "the-hussite-and-bohemian-brethren-movement",
+    "name": "Petr Chelčický",
+    "author": "chelcicky",
+    "held": "chelcicky_sit-viry-ces_smetanka1912--sit-viry-petr-chelcicky-the-net-of-faith",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R36",
+    "movement": "muscovite-monastic-christianity",
+    "name": "Nil Sorsky",
+    "author": "nil-sorsky",
+    "held": "nil-sorsky_predanie-i-ustav-chu_borovkova-maikova1912--nil-sorsky-the-tradition-and-the-rule-for-the-skete",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R36",
+    "movement": "observant-reform-and-popular-preaching",
+    "name": "Bernardino of Siena",
+    "author": "bernardino-of-siena",
+    "held": "bernardino-of-siena_prediche-volgari-1427-v1-ita_banchi1880--le-prediche-volgari-of-san-bernardino-da-siena-siena-1427",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R36",
+    "movement": "observant-reform-and-popular-preaching",
+    "name": "Caterina Vigri",
+    "author": "caterina-vigri",
+    "held": "caterina-vigri_libro-della-beata-chaterina-bolognese-ita_1536--libro-della-beata-chaterina-bolognese-bologna-1536-the",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R36",
+    "movement": "fraticelli-spiritual-franciscan-rigorists",
+    "name": "Angelo Clareno",
+    "author": "clareno",
+    "held": "clareno_expositio-regulae-fratrum-minorum-lat_oliger1912--expositio-regulae-fratrum-minorum-of-angelo-clareno-oliger",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R36",
+    "movement": "latin-papal-church-avignon-to-lateran-v",
+    "name": "Bridget of Sweden",
+    "author": "birgitta",
+    "held": "birgitta_revelationes-lat_duranti1628--revelationes-s-brigittae-torquemada-recension-with-duranti-s",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R36",
+    "movement": "latin-papal-church-avignon-to-lateran-v",
+    "name": "Catherine of Siena",
+    "author": "catherine-of-siena",
+    "held": "catherine-of-siena_selected-letters_scudder1905--selected-letters-of-catherine-of-siena-scudder-s-translation",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R36",
+    "movement": "byzantine-church-palaiologan",
+    "name": "Gregory Palamas",
+    "author": "palamas",
+    "held": "palamas_homiliae-41-grc_jerusalem1857--gregory-palamas-forty-one-homilies-jerusalem-1857",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R36",
+    "movement": "byzantine-church-palaiologan",
+    "name": "Mark of Ephesus",
+    "author": "mark-of-ephesus",
+    "held": "gennadius-scholarius_opera-omnia-pg160-grc-lat_migne1866--mark-of-ephesus-writings-and-the-addenda-greek-with-latin-in",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R36",
+    "movement": "byzantine-church-palaiologan",
+    "name": "Bessarion",
+    "author": "bessarion",
+    "held": "bessarion_opera-omnia-pg161-grc-lat_migne1866--bessarion-oratio-dogmatica-de-unione-encyclical-to-the",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R36",
+    "movement": "byzantine-church-palaiologan",
+    "name": "Gennadios Scholarios",
+    "author": "gennadius-scholarius",
+    "held": "gennadius-scholarius_defensio-quinque-capitum-lat_benevento1637--gennadios-scholarios-defensio-quinque-capitum-quae-in",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R36",
+    "movement": "franciscan-order-era-6",
+    "name": "Angelo Clareno",
+    "author": "clareno",
+    "held": "clareno_expositio-regulae-fratrum-minorum-lat_oliger1912--expositio-regulae-fratrum-minorum-of-angelo-clareno-oliger",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "lutheran-wittenberg-and-its-congregations",
+    "name": "Philipp Melanchthon",
+    "author": "melanchthon",
+    "held": "melanchthon_apology-augsburg-confession_bente-dau1921--the-apology-of-the-augsburg-confession",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "the-reformed-cities-zurich-and-geneva",
+    "name": "Huldrych Zwingli",
+    "author": "zwingli",
+    "held": "zwingli_selected-works_jackson1901--selected-works-letter-to-erasmus-the-petition-to-the-bishop",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "the-reformed-cities-zurich-and-geneva",
+    "name": "Heinrich Bullinger",
+    "author": "bullinger",
+    "held": "schaff_second-helvetic-confession-heidelberg-catechism_1919--the-second-helvetic-confession-1566",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "the-reformed-cities-zurich-and-geneva",
+    "name": "Theodore Beza",
+    "author": "beza",
+    "held": "beza_job-expounded_legatt1589--job-expounded-by-theodore-beza-partly-in-manner-of-a",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "the-anabaptist-movements",
+    "name": "Menno Simons",
+    "author": "menno-simons",
+    "held": "menno-simons_complete-works_funk1871--the-complete-works-of-menno-simon-s",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "the-english-reformation-and-elizabethan-settleme",
+    "name": "Thomas Cranmer",
+    "author": "cranmer",
+    "held": "cranmer_miscellaneous-writings-and-letters_cox1846--letters-of-thomas-cranmer",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "the-english-reformation-and-elizabethan-settleme",
+    "name": "John Jewel",
+    "author": "jewel",
+    "held": "jewel_apologia-ecclesiae-anglicanae-lat_1838--apologia-ecclesiae-anglicanae-1562-the-latin-original",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "the-english-reformation-and-elizabethan-settleme",
+    "name": "John Foxe",
+    "author": "foxe",
+    "held": "foxe_acts-and-monuments-v7_cattley-townsend1837--the-acts-and-monuments-vol-vii-the-marian-persecution-of-1555",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "the-english-reformation-and-elizabethan-settleme",
+    "name": "Richard Hooker",
+    "author": "hooker",
+    "held": "hooker_laws-of-ecclesiastical-polity-books-1-5_keble1850--of-the-laws-of-ecclesiastical-polity-preface-and-books-i-v",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "the-scottish-reformation-and-kirk",
+    "name": "John Knox",
+    "author": "knox",
+    "held": "knox_works-v2_laing1895--first-book-of-discipline-1560",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "the-scottish-reformation-and-kirk",
+    "name": "Archibald Johnston of Wariston",
+    "author": "wariston",
+    "held": "wariston_diary-1632-1639_paul1911--diary-of-sir-archibald-johnston-of-wariston-1632-1639",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "the-huguenots",
+    "name": "Jean Crespin",
+    "author": "crespin",
+    "held": "crespin_histoire-des-martyrs-t3-fra_benoit-lelievre1889--histoire-des-martyrs-tome-troisieme-livres-viii-xii",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "the-huguenots",
+    "name": "Charlotte Arbaleste de Mornay",
+    "author": "mornay-charlotte",
+    "held": "mornay-charlotte_huguenot-family-in-the-xvi-century_crump1926--a-huguenot-family-in-the-xvi-century-the-memoirs",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "recusant-english-catholicism",
+    "name": "Edmund Campion",
+    "author": "campion",
+    "held": "campion_rationes-decem-ten-reasons-lat-eng_rickaby1914--rationes-decem-latin",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "recusant-english-catholicism",
+    "name": "Robert Southwell",
+    "author": "southwell",
+    "held": "southwell_funeral-tears-triumphs-epistle-of-comfort_walter1822--an-epistle-of-comfort",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "recusant-english-catholicism",
+    "name": "John Gerard",
+    "author": "gerard-john",
+    "held": "gerard-john_condition-of-catholics-under-james-i_morris1871--narrative-of-the-gunpowder-plot",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "puritanism",
+    "name": "William Perkins",
+    "author": "perkins",
+    "held": "perkins_golden-chaine-and-treatises_legat1600--a-golden-chaine-or-the-description-of-theologie",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "puritanism",
+    "name": "Lady Margaret Hoby",
+    "author": "hoby",
+    "held": "hoby_diary-1599-1605_meads1930--diary-of-lady-margaret-hoby-1599-1605",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "puritanism",
+    "name": "Nehemiah Wallington",
+    "author": "wallington",
+    "held": "wallington_historical-notices-v1_webb1869--historical-notices-vol-i-wallington-s-notebooks",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "puritanism",
+    "name": "Thomas Shepard",
+    "author": "shepard",
+    "held": "shepard_autobiography_adams1832--the-autobiography-of-thomas-shepard",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "puritanism",
+    "name": "Richard Baxter",
+    "author": "baxter",
+    "held": "baxter_autobiography-reliquiae-baxterianae-abridged_lloyd-thomas1925--reliquiae-baxterianae-abridged-part-one-baxter-s-life-1615-1660-childh",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "dutch-further-reformation-and-refuge-culture",
+    "name": "Willem Teellinck",
+    "author": "teellinck",
+    "held": "teellinck_pauls-complaint-against-his-naturall-corruption_1621--pauls-complaint-against-his-naturall-corruption",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "dutch-further-reformation-and-refuge-culture",
+    "name": "Gisbertus Voetius",
+    "author": "voetius",
+    "held": "voetius_catechisatie-heidelbergschen-catechismus-v1-nld_kuyper1891--voetius-catechisatie-over-den-heidelbergschen-catechismus-v1",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "dutch-further-reformation-and-refuge-culture",
+    "name": "Anna Maria van Schurman",
+    "author": "schurman",
+    "held": "schurman_opuscula-lat_spanheim1648--opuscula-dissertatio-and-epistolae",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "the-waldensian-reformed-union",
+    "name": "Jean Léger",
+    "author": "leger",
+    "held": "leger_histoire-generale-eglises-vaudoises-livre1-fra_1669--histoire-generale-des-eglises-evangeliques-livre-premier",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "the-society-of-jesus",
+    "name": "Francis Xavier",
+    "author": "francis-xavier",
+    "held": "francis-xavier_monumenta-xaveriana-v1-lat_1899-1900--monumenta-xaveriana-tomus-i-xavier-s-letters-and-other",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "the-society-of-jesus",
+    "name": "Peter Canisius",
+    "author": "canisius",
+    "held": "canisius_summe-of-christian-doctrine_anon1622--a-summe-of-christian-doctrine",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "tridentine-parish-renewal-borromean-milan",
+    "name": "Charles Borromeo",
+    "author": "borromeo",
+    "held": "borromeo_acta-ecclesiae-mediolanensis-lat_1599--acta-ecclesiae-mediolanensis-2",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "issued-document",
+    "same_person": true,
+    "note": "decree, bull, constitution or synodal acts in his name"
+   },
+   {
+    "band": "R78",
+    "movement": "anti-trinitarian-currents-servetus-polish-brethr",
+    "name": "Michael Servetus",
+    "author": "servetus",
+    "held": "servetus_christianismi-restitutio-lat_murr1790--christianismi-restitutio",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "anti-trinitarian-currents-servetus-polish-brethr",
+    "name": "Fausto Sozzini",
+    "author": "socinus",
+    "held": "socinus_argument-authority-holy-scripture_1731--argument-for-the-authority-of-holy-scripture",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "schwenckfelders",
+    "name": "Caspar Schwenckfeld von Ossig",
+    "author": "schwenckfeld",
+    "held": "schwenckfeld_christlicher-sendbrieff-vom-gebet-deu_1547--ain-christlicher-sendbrieff-vom-gebeet-1547",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "family-of-love-and-spiritualists-franck-niclaes",
+    "name": "Sebastian Franck",
+    "author": "franck",
+    "held": "franck-paradoxa-deu-rab1559-paradoxa-ducenta-octoginta-280-paradoxa-german-pforzheim-1559-printing-of-the-1534",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "family-of-love-and-spiritualists-franck-niclaes",
+    "name": "Hendrik Niclaes",
+    "author": "niclaes",
+    "held": "niclaes-evangelium-regni-london1652-evangelium-regni-a-joyfull-message-of-the-kingdom-english-translation-1652",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "orthodoxy-under-the-ottomans-parish-millet-and-n",
+    "name": "Gennadios Scholarios",
+    "author": "gennadius-scholarius",
+    "held": "monumenta-fidei-ecclesiae-orientalis_confessions-grc-lat_kimmel1850--confessiones-i-and-ii-of-gennadius-scholarius-greek-with",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "orthodoxy-under-the-ottomans-parish-millet-and-n",
+    "name": "Jeremias II",
+    "author": "jeremias-ii",
+    "held": "jeremias-ii_censura-orientalis-ecclesiae-lat_socolovius1582--censura-orientalis-ecclesiae-first-answer-of-jeremias-ii-latin",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "issued-document",
+    "same_person": true,
+    "note": "decree, bull, constitution or synodal acts in his name"
+   },
+   {
+    "band": "R78",
+    "movement": "orthodoxy-under-the-ottomans-parish-millet-and-n",
+    "name": "Cyril Lucaris",
+    "author": "lucaris",
+    "held": "smith-thomas_collectanea-de-cyrillo-lucario-lat_1707--appendix-letters-and-papers-of-cyril-lucaris-with-ottoman-command",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "orthodoxy-under-the-ottomans-parish-millet-and-n",
+    "name": "Nikodemos the Hagiorite",
+    "author": "nikodemos-hagiorite",
+    "held": "nikodemos-hagiorite_pedalion-canons-grc_1886--pedalion-the-rudder-the-holy-and-divine-canons-with-the",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "joint",
+    "same_person": true,
+    "note": "joint or synodal work"
+   },
+   {
+    "band": "R78",
+    "movement": "philippine-catholicism",
+    "name": "Pedro Chirino",
+    "author": "chirino",
+    "held": "chirino_relacion-islas-filipinas-spa_manila1890--chirino-relacion-spanish",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "the-union-of-brest-and-ruthenian-greek-catholic-",
+    "name": "Meletij Smotryc'kyj",
+    "author": "smotrycki",
+    "held": "smotrycki_apologia-peregrinatiey-pol_1628--apologia-peregrinatiey-pol_1628",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "the-kyiv-mohyla-orthodox-revival",
+    "name": "Zakhariia Kopystensky",
+    "author": "kopystenskij",
+    "held": "russkaya-istoricheskaya-biblioteka_pamyatniki-polemicheskoi-literatury-zapadnoi-rusi-t4-rus_giltebrandt1878--palinodiia-ili-kniga-oborony-katholicheskoi-palinodia-or-the",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "the-kyiv-mohyla-orthodox-revival",
+    "name": "Petro Mohyla",
+    "author": "mogila",
+    "held": "arkhiv-iugo-zapadnoi-rossii_ch1-t7-pamiatniki-polemiki-vyshensky-mogila-rus_1887--peter-mohyla-s-autograph-notes-tales-of-miracles-and-notable",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "the-tridentine-church",
+    "name": "Charles Borromeo",
+    "author": "borromeo",
+    "held": "borromeo_acta-ecclesiae-mediolanensis-lat_1599--acta-ecclesiae-mediolanensis",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "issued-document",
+    "same_person": true,
+    "note": "decree, bull, constitution or synodal acts in his name"
+   },
+   {
+    "band": "R78",
+    "movement": "the-tridentine-church",
+    "name": "Pope Pius V",
+    "author": "pius-v",
+    "held": "pius-v_apostolicarum-epistolarum-lat_1640--apostolicarum-pii-quinti-pont-max-epistolarum-libri-quinque",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "issued-document",
+    "same_person": true,
+    "note": "decree, bull, constitution or synodal acts in his name"
+   },
+   {
+    "band": "R78",
+    "movement": "the-tridentine-church",
+    "name": "Robert Bellarmine",
+    "author": "bellarmine",
+    "held": "bellarmine_eternal-happiness-of-the-saints_dalton--the-eternal-happiness-of-the-saints",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "russian-church-stoglav-to-nikon",
+    "name": "Metropolitan Macarius",
+    "author": "macarius-metropolitan",
+    "held": "macarius-metropolitan_velikie-minei-chetii-september-25-30-chu_arkheograficheskaya-kommissiya1883--great-menaion-of-metropolitan-macarius-september-25-the-life-2",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "compiler-not-author",
+    "same_person": false,
+    "note": "Great Menaion row is a Life of Sergius by other authors that he compiled (finding F1)"
+   },
+   {
+    "band": "R78",
+    "movement": "czech-churches-last-century",
+    "name": "Jan Amos Comenius",
+    "author": "comenius",
+    "held": "comenius_labyrint-sveta-a-raj-srdce-ces_1809--labirynt-sw-ta-a-r-g-srdce-czech-original-1809-printing",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "ethiopian-christianity-gragn-to-fasilides",
+    "name": "Emperor Galawdewos",
+    "author": "galawdewos",
+    "held": "ludolf_commentarius-ad-historiam-aethiopicam-lat_1691--confession-of-faith-of-king-claudius-gal",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "the-remonstrants-and-dort",
+    "name": "Jacobus Arminius",
+    "author": "arminius",
+    "held": "arminius_works-v1_nichols1853--the-works-of-james-arminius-volume-one-life-orations-i-v",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "the-remonstrants-and-dort",
+    "name": "Hugo Grotius",
+    "author": "grotius",
+    "held": "grotius_defence-of-the-catholic-faith-satisfaction-of-christ_foster1889--a-defence-of-the-catholic-faith-concerning-the-satisfaction",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "scandinavian-reformation-kingdoms",
+    "name": "Olaus Petri",
+    "author": "olavus-petri",
+    "held": "olavus-petri_samlade-skrifter-v2-swe_hesselman1915--een-handbock-paa-swensko-1529",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "carmelite-reform-and-spanish-mystics",
+    "name": "Teresa of Ávila",
+    "author": "teresa-of-avila",
+    "held": "teresa-of-avila_libro-de-la-vida-spa_silverio1915--libro-de-la-vida",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "carmelite-reform-and-spanish-mystics",
+    "name": "John of the Cross",
+    "author": "john-of-the-cross",
+    "held": "john-of-the-cross_cautelas-avisos-cartas-poesias-spa_gerardo1914--cautelas-avisos-cartas",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "church-of-the-east-schism-of-1552",
+    "name": "Abdisho IV Maron",
+    "author": "abdisho-iv",
+    "held": "abdisho-iv_approbatio-et-professio-fidei-concilio-tridentino-lat_1562--approbatio-et-professio-fidei-abdisho-iv-1562",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "the-quakers-religious-society-of-friends",
+    "name": "George Fox",
+    "author": "fox",
+    "held": "fox_collection-of-epistles_1698--a-collection-of-many-select-and-christian-epistles-letters",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "the-quakers-religious-society-of-friends",
+    "name": "Margaret Fell",
+    "author": "fell",
+    "held": "fell_brief-collection-of-remarkable-passages-works_1710--a-brief-collection-of-remarkable-passages-and-occurrences",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "the-quakers-religious-society-of-friends",
+    "name": "Katharine Evans",
+    "author": "evans-and-cheevers",
+    "held": "evans-and-cheevers_short-relation-of-cruel-sufferings-malta_1662--this-is-a-short-relation-of-some-of-the-cruel-sufferings-of",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "joint",
+    "same_person": true,
+    "note": "joint or synodal work"
+   },
+   {
+    "band": "R78",
+    "movement": "the-quakers-religious-society-of-friends",
+    "name": "Sarah Cheevers",
+    "author": "evans-and-cheevers",
+    "held": "evans-and-cheevers_short-relation-of-cruel-sufferings-malta_1662--this-is-a-short-relation-of-some-of-the-cruel-sufferings-of",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "joint",
+    "same_person": true,
+    "note": "joint or synodal work"
+   },
+   {
+    "band": "R78",
+    "movement": "the-quakers-religious-society-of-friends",
+    "name": "John Woolman",
+    "author": "woolman",
+    "held": "woolman_journal-and-essays_gummere1922--the-essays-of-john-woolman-some-considerations-on-the",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "german-pietism-spener-francke-halle",
+    "name": "Philipp Jakob Spener",
+    "author": "spener",
+    "held": "spener_geistliches-priesterthum-deu_steinkopf1851--das-geistliche-priesterthum-siebenzig-fragen-und-antworten",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "german-pietism-spener-francke-halle",
+    "name": "August Hermann Francke",
+    "author": "francke",
+    "held": "francke_christ-the-sum-and-substance-of-scripture_1732--christ-the-sum-and-substance-of-all-the-holy-scriptures-1732",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "german-pietism-spener-francke-halle",
+    "name": "Johann Anastasius Freylinghausen",
+    "author": "freylinghausen",
+    "held": "freylinghausen_geistreiches-gesangbuch-deu_halle1730--geist-reiches-gesang-buch-halle-1730-edition",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "german-pietism-spener-francke-halle",
+    "name": "Bartholomäus Ziegenbalg",
+    "author": "ziegenbalg",
+    "held": "ziegenbalg_propagation-of-the-gospel-in-the-east_boehm1718--propagation-of-the-gospel-in-the-east-the-tranquebar",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "joint",
+    "same_person": true,
+    "note": "joint or synodal work"
+   },
+   {
+    "band": "R78",
+    "movement": "radical-pietism-and-the-brethren-dunkers-ephrata",
+    "name": "Ernst Christoph Hochmann von Hochenau",
+    "author": "hochmann",
+    "held": "brumbaugh_history-german-baptist-brethren_1899--hochmann-von-hochenau-confession-of-faith-detmold-1702",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "radical-pietism-and-the-brethren-dunkers-ephrata",
+    "name": "Alexander Mack",
+    "author": "mack-alexander",
+    "held": "mack-alexander_writings-bilingual_columbiana1860--ground-searching-questions-grundforschende-fragen-1713",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "radical-pietism-and-the-brethren-dunkers-ephrata",
+    "name": "Conrad Beissel",
+    "author": "beissel",
+    "held": "sachse_music-of-ephrata-cloister-beissel-treatise_1903--conrad-beissel-s-treatise-on-music-preface-to-the-turtel",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "the-moravian-church-at-herrnhut",
+    "name": "Nikolaus Ludwig von Zinzendorf",
+    "author": "zinzendorf",
+    "held": "zinzendorf_manual-of-doctrine_1742--a-manual-of-doctrine-zinzendorf-s-second-catechism-english",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "the-methodist-revival",
+    "name": "Charles Wesley",
+    "author": "wesley-c",
+    "held": "wesley-c_journal-v1_jackson1849--the-journal-of-the-rev-charles-wesley-vol-i-1736-1740s",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "the-methodist-revival",
+    "name": "George Whitefield",
+    "author": "whitefield",
+    "held": "whitefield_two-first-parts-of-his-life-with-journals_1756--the-two-first-parts-of-his-life-with-his-journals-whitefield",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "the-methodist-revival",
+    "name": "Mary Bosanquet Fletcher",
+    "author": "fletcher-mary",
+    "held": "fletcher-mary_life-compiled-from-her-journal_moore1818--mary-bosanquet-fletcher-s-journal-and-letters-as-quoted-in",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-words-in-biography",
+    "same_person": true,
+    "note": "own journal/letters/papers printed inside a biography"
+   },
+   {
+    "band": "R78",
+    "movement": "the-methodist-revival",
+    "name": "Francis Asbury",
+    "author": "asbury-francis",
+    "held": "asbury_journal-v1_1821--the-journal-of-the-rev-francis-asbury-vol-i-1771-1786",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "the-methodist-revival",
+    "name": "Richard Allen",
+    "author": "allen-richard",
+    "held": "allen-richard_life-experience-and-gospel-labors_1880--the-life-experience-and-gospel-labors-of-the-rt-rev-richard",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "the-evangelical-awakening-in-new-england",
+    "name": "Jonathan Edwards",
+    "author": "edwards",
+    "held": "edwards_faithful-narrative-of-the-surprising-work-of-god_1737--a-faithful-narrative-of-the-surprizing-work-of-god-edwards",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "the-evangelical-awakening-in-new-england",
+    "name": "George Whitefield",
+    "author": "whitefield",
+    "held": "whitefield_two-first-parts-of-his-life-with-journals_1756--the-two-first-parts-of-his-life-with-his-journals-whitefield-2",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "the-evangelical-awakening-in-new-england",
+    "name": "Sarah Osborn",
+    "author": "osborn-sarah",
+    "held": "osborn-sarah_familiar-letters-with-susanna-anthony_1807--familiar-letters-of-sarah-osborn-1807",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "the-evangelical-awakening-in-new-england",
+    "name": "Charles Chauncy",
+    "author": "chauncy",
+    "held": "chauncy_seasonable-thoughts-on-the-state-of-religion-in-new-england_1743--seasonable-thoughts-on-the-state-of-religion-in-new-england",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "the-evangelical-awakening-in-new-england",
+    "name": "Samson Occom",
+    "author": "occom",
+    "held": "occom_sermon-at-the-execution-of-moses-paul_1788--a-sermon-at-the-execution-of-moses-paul-an-indian-occom-1772",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "the-evangelical-awakening-in-new-england",
+    "name": "Phillis Wheatley",
+    "author": "wheatley",
+    "held": "wheatley_poems-on-various-subjects-religious-and-moral_bell1773--poems-on-various-subjects-religious-and-moral-wheatley-1773",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "the-old-believers",
+    "name": "Patriarch Nikon",
+    "author": "nikon",
+    "held": "nikon_replies-against-streshnev-and-ligarides_palmer1871--the-replies-of-the-humble-nicon",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "the-old-believers",
+    "name": "Archpriest Avvakum",
+    "author": "avvakum",
+    "held": "barskov_pamiatniki-pervykh-let-russkogo-staroobriadchestva-rus_1912--avvakum-s-letters-to-morozova-and-to-his-family-and-his",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "the-old-believers",
+    "name": "Boyarynia Feodosia Morozova",
+    "author": "morozova",
+    "held": "barskov_pamiatniki-pervykh-let-russkogo-staroobriadchestva-rus_1912--boyarynia-feodosia-morozova-s-letters-to-avvakum-and-his",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "the-hesychast-revival-paisius-and-the-philokalia",
+    "name": "Paisius Velichkovsky",
+    "author": "paisius-velichkovsky",
+    "held": "paisius-velichkovsky_zhitie-i-pisaniia-chu_optina1847--writings-of-paisius-velichkovsky-the-scroll-on-mental-prayer",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "the-hesychast-revival-paisius-and-the-philokalia",
+    "name": "Nicodemus the Hagiorite",
+    "author": "nikodemos-hagiorite",
+    "held": "philokalia_ton-ieron-neptikon-v1-grc_tzelatis1893--prooimion-to-the-philokalia-nikodemos-the-hagiorite-1782",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "the-hesychast-revival-paisius-and-the-philokalia",
+    "name": "Mitrofan",
+    "author": "mitrofan-schemamonk",
+    "held": "paisius-velichkovsky_zhitie-i-pisaniia-chu_optina1847--life-of-the-moldavian-elder-paisius-compiled-at-neamt-from",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "reported",
+    "same_person": true,
+    "note": "held row is a Life by others that embeds or reworks his own account"
+   },
+   {
+    "band": "R78",
+    "movement": "port-royal-jansenism",
+    "name": "Angélique Arnauld",
+    "author": "arnauld-angelique",
+    "held": "arnauld-angelique_lettres-t1-fra_1742--lettres-de-la-mere-marie-angelique-arnauld-tome-i-1742",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "port-royal-jansenism",
+    "name": "Blaise Pascal",
+    "author": "pascal",
+    "held": "pascal_lettres-provinciales-fra_stewart1920--les-lettres-provinciales-1656-1657-ed-stewart",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "the-welsh-revival-tradition",
+    "name": "Howell Harris",
+    "author": "harris-howell",
+    "held": "harris-howell_brief-account-of-the-life-with-letters_1791--a-brief-account-of-the-life-of-howell-harris-extracted-from",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-words-in-biography",
+    "same_person": true,
+    "note": "own journal/letters/papers printed inside a biography"
+   },
+   {
+    "band": "R78",
+    "movement": "the-welsh-revival-tradition",
+    "name": "Daniel Rowland",
+    "author": "rowland-daniel",
+    "held": "rowland-daniel_eight-sermons-upon-practical-subjects_1774--eight-sermons-upon-practical-subjects-preached-at-llangeitho",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "the-welsh-revival-tradition",
+    "name": "William Williams Pantycelyn",
+    "author": "williams-pantycelyn",
+    "held": "williams-pantycelyn_gweithiau-v1-cym_cynhafal-jones1887--bywyd-a-marwolaeth-theomemphus-1764-and-golwg-ar-deyrnas",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "the-welsh-revival-tradition",
+    "name": "Thomas Charles",
+    "author": "charles-thomas",
+    "held": "jones-thomas_cofiant-thomas-charles-cym_1816--thomas-charles-s-diary-and-letters-as-translated-in-the",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-words-in-biography",
+    "same_person": true,
+    "note": "own journal/letters/papers printed inside a biography"
+   },
+   {
+    "band": "R78",
+    "movement": "the-welsh-revival-tradition",
+    "name": "Ann Griffiths",
+    "author": "griffiths-ann",
+    "held": "griffiths-ann_hymns-in-english-verse_pughe1900--the-hymns-of-ann-griffiths-english-verse-1900",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "shakers",
+    "name": "Benjamin Seth Youngs",
+    "author": "youngs-benjamin-seth",
+    "held": "youngs-benjamin-seth_testimony-of-christs-second-appearing_1810--the-testimony-of-christ-s-second-appearing-second-edition",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "swedenborgian-new-church",
+    "name": "Emanuel Swedenborg",
+    "author": "swedenborg",
+    "held": "swedenborg_treatise-concerning-heaven-and-hell_1778--a-treatise-concerning-heaven-and-hell-english-1778",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "swedenborgian-new-church",
+    "name": "Robert Hindmarsh",
+    "author": "hindmarsh",
+    "held": "hindmarsh_letters-to-dr-priestley_1792--letters-to-dr-priestley-1792",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "quietist-controversy-molinos-guyon",
+    "name": "Miguel de Molinos",
+    "author": "molinos",
+    "held": "molinos_guida-spirituale-ita_1678--guida-spirituale-1675-venice-1678",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "quietist-controversy-molinos-guyon",
+    "name": "Jeanne Guyon",
+    "author": "guyon",
+    "held": "guyon_short-method-spiritual-torrents_marston1875--a-short-method-of-prayer-and-spiritual-torrents-tr-marston",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "quietist-controversy-molinos-guyon",
+    "name": "François Fénelon",
+    "author": "fenelon",
+    "held": "fenelon_explication-maximes-des-saints-fra_cherel1911--explication-des-maximes-des-saints-1697-ed-cherel",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "quietist-controversy-molinos-guyon",
+    "name": "Jacques-Bénigne Bossuet",
+    "author": "bossuet",
+    "held": "bossuet_instruction-sur-les-etats-d-oraison-fra_1697--instruction-sur-les-etats-d-oraison-1697",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "camisard-prophetism",
+    "name": "Jean Cavalier",
+    "author": "cavalier",
+    "held": "cavalier_memoirs-of-the-wars-of-the-cevennes_1726--memoirs-of-the-wars-of-the-cevennes-1726",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "camisard-prophetism",
+    "name": "Élie Marion",
+    "author": "marion",
+    "held": "marion_avertissements-prophetiques-fra_1707--avertissements-prophetiques-d-elie-marion-1707",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "the-baptists",
+    "name": "John Smyth",
+    "author": "smyth",
+    "held": "smyth_works-v2_whitley1915--corde-credimus-propositions-and-conclusions-defence-of-ries",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "the-baptists",
+    "name": "John Bunyan",
+    "author": "bunyan",
+    "held": "bunyan_grace-abounding-relation-of-imprisonment-pilgrims-progress_brown1907--a-relation-of-the-imprisonment-of-mr-john-bunyan-written",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "the-baptists",
+    "name": "Agnes Beaumont",
+    "author": "beaumont-agnes",
+    "held": "james-samuel_abstract-of-the-gracious-dealings-of-god_1760--the-experience-narrative-of-the-persecutions-of-agnes",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "the-baptists",
+    "name": "George Liele",
+    "author": "liele-george",
+    "held": "rippon_baptist-annual-register-1790-1793_1793--george-liele-s-letters-from-kingston-jamaica-1791-1793",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "the-baptists",
+    "name": "David George",
+    "author": "george-david",
+    "held": "rippon_baptist-annual-register-1790-1793_1793--an-account-of-the-life-of-mr-david-george-1793",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "the-baptists",
+    "name": "William Carey",
+    "author": "carey-william",
+    "held": "carey-william_enquiry-into-the-obligations-of-christians_1792--an-enquiry-into-the-obligations-of-christians-to-use-means",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "colonial-latin-american-devotional-catholicism",
+    "name": "Sor Juana Inés de la Cruz",
+    "author": "juana-ines-de-la-cruz",
+    "held": "juana-ines-de-la-cruz_fama-y-obras-posthumas-spa_castorena1700--respuesta-a-sor-filotea-de-la-cruz-exercicios-devotos-for",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "orthodoxy-under-the-ottomans-1650-1821",
+    "name": "Dositheus II of Jerusalem",
+    "author": "dositheus",
+    "held": "dositheus_acts-and-decrees-synod-jerusalem_robertson1899--acts-and-decrees-of-the-synod-of-jerusalem-shield-of-2",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "joint",
+    "same_person": true,
+    "note": "joint or synodal work"
+   },
+   {
+    "band": "R78",
+    "movement": "catholic-church-ancien-regime",
+    "name": "Clement XI",
+    "author": "clement-xi",
+    "held": "clement-xi_unigenitus-lat-eng_1713--unigenitus-8-september-1713",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "issued-document",
+    "same_person": true,
+    "note": "decree, bull, constitution or synodal acts in his name"
+   },
+   {
+    "band": "R78",
+    "movement": "catholic-church-ancien-regime",
+    "name": "Alphonsus Liguori",
+    "author": "liguori",
+    "held": "liguori_letters-v1_grimm1891--letters-of-st-alphonsus-de-liguori-vol-i-english-1891",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "catholic-church-ancien-regime",
+    "name": "Clement XIV",
+    "author": "clement-xiv",
+    "held": "clement-xiv_bulls-suppression-and-restoration-of-the-jesuits-lat-eng_1814--dominus-ac-redemptor-21-july-1773-english",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "issued-document",
+    "same_person": true,
+    "note": "decree, bull, constitution or synodal acts in his name"
+   },
+   {
+    "band": "R78",
+    "movement": "catholic-church-ancien-regime",
+    "name": "Pius VI",
+    "author": "pius-vi",
+    "held": "pius-vi_auctorem-fidei-lat_1794--auctorem-fidei-28-august-1794",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "issued-document",
+    "same_person": true,
+    "note": "decree, bull, constitution or synodal acts in his name"
+   },
+   {
+    "band": "R78",
+    "movement": "catholic-church-ancien-regime",
+    "name": "Pius VII",
+    "author": "pius-vii",
+    "held": "clement-xiv_bulls-suppression-and-restoration-of-the-jesuits-lat-eng_1814--sollicitudo-omnium-ecclesiarum-7-august-1814-latin-and",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "issued-document",
+    "same_person": true,
+    "note": "decree, bull, constitution or synodal acts in his name"
+   },
+   {
+    "band": "R78",
+    "movement": "restoration-georgian-church-of-england",
+    "name": "Joseph Butler",
+    "author": "butler",
+    "held": "butler_analogy-of-religion_1736--the-analogy-of-religion-natural-and-revealed-1736",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "russian-church-nikon-to-holy-synod",
+    "name": "Patriarch Nikon",
+    "author": "nikon",
+    "held": "nikon_replies-against-streshnev-and-ligarides_palmer1871--the-replies-of-the-humble-nicon-against-the-questions-of",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "russian-church-nikon-to-holy-synod",
+    "name": "Feofan Prokopovich",
+    "author": "prokopovich",
+    "held": "consett_collection-of-tracts-on-peter-the-great-v2_1729--funeral-oration-and-panegyrical-oration-on-peter-the-great",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "russian-church-nikon-to-holy-synod",
+    "name": "Tikhon of Zadonsk",
+    "author": "tikhon-zadonskii",
+    "held": "tikhon-zadonskii_nastavleniia-dlia-monashestvuiushchikh-rus_kiev1854--work",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "church-of-the-desert-huguenots",
+    "name": "Antoine Court",
+    "author": "court-antoine",
+    "held": "court-antoine_histoire-des-troubles-des-cevennes-t1-fra_1819--histoire-des-troubles-des-cevennes-t-i-1760-1819-edition",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "church-of-the-desert-huguenots",
+    "name": "Rabaut Saint-Étienne",
+    "author": "rabaut-saint-etienne",
+    "held": "rabaut-saint-etienne_vieux-cevenol-fra_1784--le-vieux-cevenol-1784",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "english-old-dissent",
+    "name": "Richard Baxter",
+    "author": "baxter",
+    "held": "baxter_autobiography-reliquiae-baxterianae-abridged_lloyd-thomas1925--reliquiae-baxterianae-abridged-parts-two-and-three-the-restoration-the",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "english-old-dissent",
+    "name": "Isaac Watts",
+    "author": "watts",
+    "held": "watts_hymns-and-spiritual-songs-ninth-edition_1725--hymns-and-spiritual-songs-1707-ninth-edition-1725",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "english-old-dissent",
+    "name": "Philip Doddridge",
+    "author": "doddridge",
+    "held": "doddridge_rise-and-progress-of-religion-in-the-soul_1745--the-rise-and-progress-of-religion-in-the-soul-1745",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "english-old-dissent",
+    "name": "Joseph Priestley",
+    "author": "priestley",
+    "held": "priestley_letters-to-the-members-of-the-new-jerusalem-church_1791--letters-to-the-members-of-the-new-jerusalem-church-1791-3",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "early-american-unitarians-universalists",
+    "name": "John Murray",
+    "author": "murray-john",
+    "held": "murray-john_letters-and-sketches-of-sermons-v1_1812--letters-and-sketches-of-sermons-vol-i-1812",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "early-american-unitarians-universalists",
+    "name": "Theophilus Lindsey",
+    "author": "lindsey",
+    "held": "lindsey_sermon-at-the-opening-of-the-chapel-in-essex-street_1774--a-sermon-preached-at-the-opening-of-the-chapel-in-essex",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "early-american-unitarians-universalists",
+    "name": "James Freeman",
+    "author": "freeman-james",
+    "held": "freeman-james_sermons-on-particular-occasions_1814--sermons-on-particular-occasions-1814",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "early-american-unitarians-universalists",
+    "name": "Hosea Ballou",
+    "author": "ballou-hosea",
+    "held": "ballou-hosea_treatise-on-atonement_1805--a-treatise-on-atonement-1805",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R78",
+    "movement": "philippine-catholicism-era-8",
+    "name": "Gaspar Aquino de Belén",
+    "author": "aquino-de-belen",
+    "held": "aquino-de-belen_pasyon-and-manga-panalangin-tgl_manila1760--aquino-de-belen-pasyon",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R910",
+    "movement": "the-kollyvades-and-greek-renewal",
+    "name": "Nicodemus the Hagiorite",
+    "author": "nikodemos-hagiorite",
+    "held": "philokalia_ton-ieron-neptikon-v1-grc_tzelatis1893--prooimion-to-the-philokalia-nikodemos-the-hagiorite-1782-2",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R910",
+    "movement": "russian-church-synodal-century",
+    "name": "Filaret (Drozdov) of Moscow",
+    "author": "philaret",
+    "held": "schaff_creeds-of-christendom-v2-greek-latin-creeds_1878--the-longer-catechism-of-the-orthodox-catholic-eastern-church",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R910",
+    "movement": "american-unitarianism-universalism-consolidations",
+    "name": "Hosea Ballou",
+    "author": "ballou-hosea",
+    "held": "ballou-hosea_treatise-on-atonement_1805--a-treatise-on-atonement-1805-2",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   },
+   {
+    "band": "R910",
+    "movement": "american-unitarianism-universalism-consolidations",
+    "name": "William Ellery Channing",
+    "author": "channing",
+    "held": "channing_sermon-at-the-ordination-of-jared-sparks-baltimore_1819--a-sermon-delivered-at-the-ordination-of-the-rev-jared-sparks",
+    "row_exists": true,
+    "author_matches": true,
+    "kind": "own-writing",
+    "same_person": true
+   }
+  ]
+ },
+ "none_sample": [
+  {
+   "band": "R910",
+   "movement": "the-east-african-revival-balokole",
+   "voice": 0,
+   "name": "William Nagenda"
+  },
+  {
+   "band": "R910",
+   "movement": "spiritualism-new-thought",
+   "voice": 0,
+   "name": "Kate Fox"
+  },
+  {
+   "band": "R910",
+   "movement": "malagasy-christianity",
+   "voice": 4,
+   "name": "Ranavalona II"
+  },
+  {
+   "band": "R36",
+   "movement": "georgian-christianity",
+   "voice": 2,
+   "name": "Iakob Tsurtaveli"
+  },
+  {
+   "band": "R910",
+   "movement": "spiritualism-new-thought",
+   "voice": 4,
+   "name": "Emma Curtis Hopkins"
+  },
+  {
+   "band": "R910",
+   "movement": "nineteenth-century-baptists",
+   "voice": 0,
+   "name": "Charles Haddon Spurgeon"
+  },
+  {
+   "band": "R910",
+   "movement": "philippine-independent-church-twentieth-century",
+   "voice": 3,
+   "name": "Miguel A. Bernad"
+  },
+  {
+   "band": "R36",
+   "movement": "the-georgian-golden-age",
+   "voice": 0,
+   "name": "David IV the Builder"
+  },
+  {
+   "band": "R910",
+   "movement": "catholic-apostolic-church-irvingites",
+   "voice": 2,
+   "name": "John Bate Cardale"
+  },
+  {
+   "band": "R910",
+   "movement": "new-calvinism-young-restless-reformed",
+   "voice": 0,
+   "name": "Collin Hansen"
+  },
+  {
+   "band": "R36",
+   "movement": "syriac-orthodox-under-islam",
+   "voice": 1,
+   "name": "Dionysius of Tel Mahre"
+  },
+  {
+   "band": "R36",
+   "movement": "canons-regular-victorine-school",
+   "voice": 3,
+   "name": "Adam of St Victor"
+  },
+  {
+   "band": "R910",
+   "movement": "branch-davidians-and-apocalyptic-splinters",
+   "voice": 0,
+   "name": "Victor Houteff"
+  },
+  {
+   "band": "R910",
+   "movement": "nineteenth-century-baptists",
+   "voice": 3,
+   "name": "John Clifford"
+  },
+  {
+   "band": "R36",
+   "movement": "the-church-of-the-east-under-persia",
+   "voice": 3,
+   "name": "Babai the Great"
+  },
+  {
+   "band": "R36",
+   "movement": "carthusian-life",
+   "voice": 3,
+   "name": "Hugh of Lincoln"
+  },
+  {
+   "band": "R36",
+   "movement": "aksumite-christianity",
+   "voice": 0,
+   "name": "Kaleb"
+  },
+  {
+   "band": "R910",
+   "movement": "the-georgian-orthodox-church-restored",
+   "voice": 4,
+   "name": "Ilia II"
+  },
+  {
+   "band": "R910",
+   "movement": "catholic-lay-renewal-worlds-catholic-worker-foco",
+   "voice": 4,
+   "name": "Léon-Joseph Suenens"
+  },
+  {
+   "band": "R36",
+   "movement": "chalcedonian-monasticism-judean-desert-and-gaza",
+   "voice": 1,
+   "name": "Sabas"
+  },
+  {
+   "band": "R36",
+   "movement": "free-spirit-heresy",
+   "voice": 0,
+   "name": "Marguerite Porete"
+  },
+  {
+   "band": "R36",
+   "movement": "military-religious-orders-templars-hospitallers",
+   "voice": 3,
+   "name": "Jacques de Molay"
+  },
+  {
+   "band": "R910",
+   "movement": "emigre-orthodoxy-and-the-paris-school",
+   "voice": 1,
+   "name": "Georges Florovsky"
+  },
+  {
+   "band": "R78",
+   "movement": "the-huguenots",
+   "voice": 0,
+   "name": "Gaspard de Coligny"
+  },
+  {
+   "band": "R910",
+   "movement": "persecuted-church-worlds-of-the-communist-era-in",
+   "voice": 0,
+   "name": "Georgi Vins"
+  },
+  {
+   "band": "R910",
+   "movement": "the-black-church-in-america",
+   "voice": 3,
+   "name": "Daniel Coker"
+  },
+  {
+   "band": "R910",
+   "movement": "the-kollyvades-and-greek-renewal",
+   "voice": 1,
+   "name": "Macarius of Corinth"
+  },
+  {
+   "band": "R910",
+   "movement": "armenian-christianity-zartonk",
+   "voice": 0,
+   "name": "Mkrtich Khrimian, called Hayrik"
+  },
+  {
+   "band": "R910",
+   "movement": "the-romanian-greek-catholic-church-suppression-and-return",
+   "voice": 1,
+   "name": "Decree-Law 9 of 31 December 1989"
+  },
+  {
+   "band": "R12",
+   "movement": "apocryphal-and-pseudepigraphal-literature",
+   "voice": 4,
+   "name": null
+  },
+  {
+   "band": "R36",
+   "movement": "roman-church-gregorian",
+   "voice": 1,
+   "name": "The Register"
+  },
+  {
+   "band": "R910",
+   "movement": "catholic-lay-renewal-worlds-catholic-worker-foco",
+   "voice": 5,
+   "name": "The L'Arche communities"
+  },
+  {
+   "band": "R910",
+   "movement": "the-ecumenical-movement-and-the-wcc",
+   "voice": 1,
+   "name": "The International Missionary Council"
+  },
+  {
+   "band": "R12",
+   "movement": "montanism-the-new-prophecy",
+   "voice": 3,
+   "name": null
+  },
+  {
+   "band": "R36",
+   "movement": "st-thomas-christians-1300-1517",
+   "voice": 2,
+   "name": "The community is otherwise largely anonymous"
+  },
+  {
+   "band": "R910",
+   "movement": "korean-protestantism-twentieth-century",
+   "voice": 1,
+   "name": "The Twelve Articles of Faith"
+  },
+  {
+   "band": "R910",
+   "movement": "the-ukrainian-greek-catholic-underground",
+   "voice": 2,
+   "name": "The clandestine clergy"
+  },
+  {
+   "band": "R910",
+   "movement": "seventh-day-adventist-church-twentieth-century",
+   "voice": 1,
+   "name": "The 1931 yearbook statement"
+  },
+  {
+   "band": "R910",
+   "movement": "the-sayfo-and-the-syriac-diaspora",
+   "voice": 2,
+   "name": "The survivor oral histories"
+  },
+  {
+   "band": "R78",
+   "movement": "philippine-catholicism-era-8",
+   "voice": 2,
+   "name": "The friar orders — Augustinians, Franciscans, Dominicans, Re"
+  }
+ ],
+ "none_sample_result": "39 of 40 correct; 1 wrongly omitted (Dionysius of Tel Mahre, F3)"
+}

@@ -1,0 +1,1232 @@
+{
+ "entries": [
+  {
+   "id": "luciferians",
+   "atlasId": "TBD",
+   "era": 2,
+   "name": "The Luciferians",
+   "shortName": "Luciferians",
+   "informalName": "The Followers of Lucifer of Cagliari",
+   "dates": "c. 355-c. 440",
+   "start": 355,
+   "end": 440,
+   "region": "Sardinia, Rome, Antioch, Spain",
+   "placeLabel": "Rome · Antioch and beyond",
+   "modernCountries": [
+    {
+     "country": "Italy",
+     "countryId": "Q38",
+     "place": "Rome",
+     "placeId": "Q220",
+     "pleiadesId": "423025"
+    },
+    {
+     "country": "Turkey",
+     "countryId": "Q43",
+     "place": "Antioch",
+     "placeId": "Q200441",
+     "pleiadesId": "658381"
+    }
+   ],
+   "regions": [
+    "Mediterranean"
+   ],
+   "lane": "5 Latin West & Catholicism",
+   "laneLabel": "Latin West & Catholicism",
+   "laneOrder": 5,
+   "beyondFloor": false,
+   "status": "Pre-Survey Candidate",
+   "chip": "psc",
+   "glyph": "psc",
+   "statusWord": "Researched — deferred, richer window later",
+   "statusDescription": "Proposed for later study. Not yet reviewed.",
+   "living": false,
+   "overlayCurrent": false,
+   "c2": null,
+   "sourcing": "Good for so small a group. Lucifer's own pamphlets from his exile survive whole. So does a petition that two of his priests sent to the emperors in 383 or 384. Jerome's dialogue against them, Augustine and the Greek church historians give the other side. No text of theirs after the 380s is in hand. A modern editor thinks the group died out early in the 400s. Socrates, writing later, says it still stood apart in his day.",
+   "floorNote": "No question. They held the creed of Nicaea, and held it more strictly than most.",
+   "relationsSummary": "They began as the hardest of the Nicene party. Lucifer wrote against the emperor Constantius and the bishops who took his creed. In 362 the church agreed to let bishops who had given way keep their sees. Lucifer's followers would not accept them, and stood apart. Jerome wrote a dialogue against them, and Augustine said they had cut themselves off. In 383 or 384 two of their priests asked the emperors for protection, and the emperors granted it.",
+   "why": "In 359 almost every bishop of the West signed a creed the emperor wanted. Later most of them took it back. The church then let them keep their places. A small party said no. A bishop who had given way once, they held, could never lead the church again. Their stand shows how hard it was to heal the church after the fights over the creed. It also left the losing side's case in its own words.",
+   "entry": null,
+   "teaser": "Sardinia, Rome and Antioch, from about 355 — hard-line Nicene Christians. They would not forgive the bishops who had signed the emperor's creed, and they answered to no name but Christian.",
+   "longDescription": "Lucifer was bishop of Cagliari in Sardinia. At a council in Milan he refused to condemn Athanasius of Alexandria, and he stood up to the emperor Constantius II to his face. For this he was sent into exile from 355 to 361. He spent most of those years at Eleutheropolis in Palestine. From there he wrote pamphlets to the emperor himself. How could Christians meet, he asked, with the false bishops of the emperor's sect, the Arians? One pamphlet bears the title We Must Die for the Son of God.\n\nIn 362, after Constantius died, the exiles came home. A council met at Alexandria under Athanasius. It agreed that bishops who had only given way could stay in their sees. Lucifer did not attend. Two of his deacons signed its letter for him. He went instead to Antioch and made Paulinus bishop of one of the rival parties there. When his friend Eusebius of Vercelli did not approve, Lucifer broke off communion with him. The church historian Socrates says that many followed Lucifer, and a separate sect arose.\n\nLucifer himself went home to Sardinia and died there in 371. His followers held on. Hilary, a deacon of Rome, went further than Lucifer. He set up his own font and baptized again those who came over from the Arian side. In about 379 Jerome wrote a dialogue against the group. Lucifer was a good shepherd, he said. But in a time of wolves he took a few sheep away and left the rest of the flock to the beasts.\n\nIn Rome the group had its own bishop, Ephesius, and a priest, Macarius, who held night vigils in a private house. In 383 or 384 two of its priests, Marcellinus and Faustinus, sent a petition to the emperors. It says that the clergy of Damasus, bishop of Rome, broke up one of Macarius's vigils and dragged him over the stones. The two priests refused the name Luciferians. Christ is our teacher, they wrote, so the only name we bear is Christian.\n\nThe emperors answered them. Their letter called the two men priests full of faith. It told the prefect Cynegius to shield Gregory in Spain, Heraclida in the East and priests like them from attack. The group never grew large. Augustine wrote that they had cut themselves off from the unity of the church. Socrates, writing in the next century, says that those who first joined Lucifer's quarrel still stood apart. After that they fade from view.",
+   "voices": [
+    "Lucifer of Cagliari — bishop in Sardinia, exiled from 355 to 361 for standing by Athanasius, who wrote his pamphlets to the emperor Constantius himself",
+    "Hilary the deacon — a deacon of Rome who joined Lucifer's side and baptized again those who came over from the Arians; known through Jerome",
+    "Marcellinus — a priest who signed the petition of 383 or 384 to the emperors",
+    "Faustinus — a priest who signed the same petition, calling himself unworthy to be called a priest of God",
+    "Ephesius — the group's bishop at Rome, whom the petition says Damasus tried to bring before a judge"
+   ],
+   "legacy": "The group did not last, but its case lives on in its own words. Its petition was kept in a Roman book of letters from emperors and popes, the Collectio Avellana. Lucifer's pamphlets survive whole. Jerome's dialogue against the group holds his famous line on the council of Ariminum: the whole world groaned to find itself Arian.\n\nThe quarrel also raised an older question, which Jerome traces back to Cyprian. Should people baptized outside the church be baptized again when they come in?",
+   "people": [],
+   "reviewStatus": "AI-checked"
+  },
+  {
+   "id": "carthusians-later-middle-ages",
+   "atlasId": "TBD",
+   "era": 6,
+   "name": "The Carthusians — The Later Medieval Charterhouses",
+   "shortName": "Later Carthusians",
+   "informalName": "The Keepers of the English Books of Prayer",
+   "dates": "1300-1534",
+   "start": 1300,
+   "end": 1534,
+   "region": "Chartreuse, Mount Grace, Sheen, London, Beauvale, Monnikhuizen",
+   "placeLabel": "Chartreuse · London and beyond",
+   "modernCountries": [
+    {
+     "country": "France",
+     "countryId": "Q142",
+     "place": "Chartreuse",
+     "placeId": "Q1067900"
+    },
+    {
+     "country": "United Kingdom",
+     "countryId": "Q145",
+     "place": "England",
+     "placeId": "Q21"
+    }
+   ],
+   "regions": [
+    "Mediterranean",
+    "North Europe"
+   ],
+   "lane": "5 Latin West & Catholicism",
+   "laneLabel": "Latin West & Catholicism",
+   "laneOrder": 5,
+   "beyondFloor": false,
+   "status": "Pre-Survey Candidate",
+   "chip": "psc",
+   "glyph": "psc",
+   "statusWord": "Researched — deferred, richer window later",
+   "statusDescription": "Proposed for later study. Not yet reviewed.",
+   "living": false,
+   "overlayCurrent": false,
+   "c2": null,
+   "sourcing": "Thin to moderate, and mostly English. The one book in hand by a Carthusian of these years is Nicholas Love's English life of Christ, made before 1410. The rest is the work of the order's hands: names and notes that Carthusian scribes left in the books they copied, as modern editors print them. Thomas à Kempis gives a view from the Low Countries. Nothing in hand comes from the Grande Chartreuse itself in these years. The order's great Latin writers of the age, such as Ludolph of Saxony and Denys the Carthusian, are not yet in hand.",
+   "floorNote": "No question",
+   "relationsSummary": "The same order as the first Carthusians, still keeping its old rule of the cell. In England its monks copied and kept the books of the English mystics, The Cloud of Unknowing and Walter Hilton's Scale of Perfection. Nicholas Love, prior of Mount Grace, attacked the Lollards in his life of Christ. In the Low Countries a Carthusian prior turned Geert Grote's life around, and Grote went on to found the New Devotion.",
+   "why": "The Carthusians lived alone in their cells, but they read and copied a great deal. In England they became keepers of the new books of prayer written in English. Their scribes copied The Cloud of Unknowing and Hilton's Scale of Perfection, wrote notes in them and passed them on. One of their priors put the life of Christ into plain English for readers who knew no Latin. Modern editors of the Cloud and the Scale still lean on copies made in their houses.",
+   "entry": null,
+   "teaser": "Charterhouses from Yorkshire to the Low Countries, 1300 to 1534 — silent monks who copied and kept the English books of prayer. One of them put the life of Christ into plain English.",
+   "longDescription": "After 1300 the Carthusians kept the life Bruno had begun, each monk alone in his cell under a strict rule. Thomas à Kempis, writing in the Low Countries, thought the light of the heavenly life still shone among them, though hidden. To worldly men their rule seemed harsh, he wrote, but men of fervent spirit chose it gladly. In England the order had houses at Mount Grace in Yorkshire, at Beauvale, at Sheen near the royal palace of Richmond, and in London.\n\nThe English houses became keepers of books. Walter Hilton, an Augustinian canon who died in the 1390s, was close to the order. A letter of his is addressed to Adam Horsley, a monk of Beauvale. Carthusian scribes copied his Scale of Perfection with care. In 1499 Grenehalgh, a monk of Sheen, signed a fine copy of it with his own hand. Another copy bears a note that it was a book of the London Charterhouse.\n\nThe Cloud of Unknowing went the same way. Richard Methley, a monk of Mount Grace, probably made a Latin version of it. William Tregoose of the London Charterhouse, who died in 1514, wrote out another copy. A note in its margin praises Hilton, whom the notes take to be the author: O most holy Hilton, great is your humility!\n\nNicholas Love, prior of Mount Grace, wrote an English book that was copied many times. Before 1410 he made The Mirror of the Blessed Life of Jesus Christ out of a Latin life of Christ. He says he wrote it in English for lay men and women of simple understanding. Such readers, he says, need the milk of light teaching. The book is also aimed at the Lollards. Love breaks off to rebuke the Lollard who laughs at the church's miracles of the sacrament. Its editor says it was presented in 1410 to Archbishop Arundel, a hard foe of the Lollards.\n\nAcross the sea the order touched another movement. A Carthusian prior of Monnikhuizen, near Arnhem, was an old friend of Geert Grote. He met Grote in Utrecht and urged him to change his life. Grote went to the Carthusians at Monnikhuizen and was given a cell as a guest. Thomas à Kempis tells the story in his life of Grote, the first of the founders of the New Devotion.",
+   "voices": [
+    "Nicholas Love — prior of Mount Grace, who made an English life of Christ before 1410 and attacked the Lollards in it",
+    "Richard Methley — a monk of Mount Grace, probably the maker of a Latin version of The Cloud of Unknowing",
+    "Grenehalgh — a monk of Sheen who signed a copy of Hilton's Scale of Perfection in 1499 with his own hand",
+    "William Tregoose — a monk of the London Charterhouse who wrote out a copy of The Cloud of Unknowing and died in 1514"
+   ],
+   "legacy": "The care of these houses still shapes how the English mystics are read. Evelyn Underhill based her 1923 edition of Hilton's Scale on the London Charterhouse copy. Justin McCann checked his 1924 text of the Cloud against the Latin version made at Mount Grace. Love's Mirror was copied again and again; its 1908 editor knew of twenty-three manuscripts. When the English houses fell under Henry VIII, some of the books are said to have gone with the monks into exile.\n\nThe end came in the 1530s, when Henry VIII made himself head of the church in England. In May 1535 John Houghton, prior of the London Charterhouse, was hanged at Tyburn with the priors of Beauvale and Axholme. Many of their brothers followed them to the scaffold or died in Newgate prison, and some escaped to found an English charterhouse at Bruges.",
+   "people": [],
+   "reviewStatus": "AI-checked"
+  }
+ ],
+ "fact_table": [
+  {
+   "entry": "luciferians",
+   "field": "sourcing",
+   "sentence": "Lucifer's own pamphlets from his exile survive whole.",
+   "file": "cic/texts/lucifer-cagliari_opuscula-lat_hartel1886-csel14.txt",
+   "lines": "15820",
+   "quote": "Decuerat  quidem,  Constanti  imperator,  nihil  iam  tecum",
+   "grade": "Documented"
+  },
+  {
+   "entry": "luciferians",
+   "field": "sourcing",
+   "sentence": "So does a petition that two of his priests sent to the emperors in 383 or 384.",
+   "file": "cic/texts/collectio-avellana_epistulae-imperatorum-pontificum-pars1-lat_guenther1895-csel35.txt",
+   "lines": "5309",
+   "quote": "Libellus datus est Constantinopoli a. 383 qel 384.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "luciferians",
+   "field": "relationsSummary",
+   "sentence": "In 362 the church agreed to let bishops who had given way keep their sees.",
+   "file": "cic/texts/npnf206_jerome-principal-works.xml",
+   "lines": "31447-31448",
+   "quote": "those bishops who had merely consented to Arianism should remain undisturbed.",
+   "grade": "Widely Accepted (secondary: Fremantle 1893; the 362 terms themselves are in the Tomus, next row)"
+  },
+  {
+   "entry": "luciferians",
+   "field": "relationsSummary",
+   "sentence": "In 362 the church agreed to let bishops who had given way keep their sees.",
+   "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+   "lines": "59986-59989",
+   "quote": "receive them as parents their sons, and welcome them as tutors and guardians;",
+   "grade": "Documented (Tomus ad Antiochenos, 362: those leaving the Arians are to be received; that bishops kept their sees rests on Fremantle)"
+  },
+  {
+   "entry": "luciferians",
+   "field": "relationsSummary",
+   "sentence": "Lucifer's followers would not accept them, and stood apart.",
+   "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+   "lines": "10921-10925",
+   "quote": "many attached themselves to Lucifer, and thus a distinct sect arose under the name of ‘Luciferians.’",
+   "grade": "Documented"
+  },
+  {
+   "entry": "luciferians",
+   "field": "relationsSummary",
+   "sentence": "Augustine said they had cut themselves off.",
+   "file": "cic/texts/augustine_de-agone-christiano-lat_zycha1900-csel41-tei.txt",
+   "lines": "1592",
+   "quote": "praeciderunt se tamen ab unitate et Luciferiani",
+   "grade": "Documented"
+  },
+  {
+   "entry": "luciferians",
+   "field": "why",
+   "sentence": "In 359 almost every bishop of the West signed a creed the emperor wanted. Later most of them took it back.",
+   "file": "cic/texts/npnf206_jerome-principal-works.xml",
+   "lines": "31508-31511",
+   "quote": "how the orthodox bishops were beguiled into accepting the creed of Ariminum, but afterwards saw their error",
+   "grade": "Widely Accepted (Fremantle's summary of Jerome, Adv. Lucif. 17-19; the date 359 is standard)"
+  },
+  {
+   "entry": "luciferians",
+   "field": "why",
+   "sentence": "A bishop who had given way once, they held, could never lead the church again.",
+   "file": "cic/texts/npnf206_jerome-principal-works.xml",
+   "lines": "31449-31451",
+   "quote": "no one who had yielded to any compromise whatever with Arianism should be allowed to hold an ecclesiastical office.",
+   "grade": "Widely Accepted (secondary: Fremantle 1893, quoting a modern account)"
+  },
+  {
+   "entry": "luciferians",
+   "field": "longDescription",
+   "sentence": "At a council in Milan he refused to condemn Athanasius of Alexandria, and he stood up to the emperor Constantius II to his face. For this he was sent into exile from 355 to 361.",
+   "file": "cic/texts/npnf206_jerome-principal-works.xml",
+   "lines": "31424-31427",
+   "quote": "Lucifer distinguished himself by resisting a proposition to condemn Athanasius, and did not hesitate to oppose the emperor with much violence.",
+   "grade": "Widely Accepted (secondary: Fremantle 1893; Fremantle dates Milan to 354, so no year is given in the text)"
+  },
+  {
+   "entry": "luciferians",
+   "field": "longDescription",
+   "sentence": "He spent most of those years at Eleutheropolis in Palestine.",
+   "file": "cic/texts/npnf206_jerome-principal-works.xml",
+   "lines": "31427-31428",
+   "quote": "the greater portion of which time was spent at Eleutheropolis in Palestine",
+   "grade": "Widely Accepted (secondary: Fremantle 1893)"
+  },
+  {
+   "entry": "luciferians",
+   "field": "longDescription",
+   "sentence": "How could Christians meet, he asked, with the false bishops of the emperor's sect, the Arians?",
+   "file": "cic/texts/lucifer-cagliari_opuscula-lat_hartel1886-csel14.txt",
+   "lines": "2652-2653",
+   "quote": "quomodo  cum  pseudoepiscopis  sectae  tuae  Arrianis  nobis  poterat conuenire",
+   "grade": "Documented"
+  },
+  {
+   "entry": "luciferians",
+   "field": "longDescription",
+   "sentence": "One pamphlet bears the title We Must Die for the Son of God.",
+   "file": "cic/texts/lucifer-cagliari_opuscula-lat_hartel1886-csel14.txt",
+   "lines": "15818",
+   "quote": "MORIENDUM  ESSE  PEO  DBI  PILIO.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "luciferians",
+   "field": "longDescription",
+   "sentence": "In 362, after Constantius died, the exiles came home. A council met at Alexandria under Athanasius.",
+   "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+   "lines": "59745-59748",
+   "quote": "A few weeks after his accession (Feb. 362) an edict recalled all the exiled Bishops.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "luciferians",
+   "field": "longDescription",
+   "sentence": "Two of his deacons signed its letter for him.",
+   "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+   "lines": "60168-60170",
+   "quote": "those sent by Lucifer, bishop of the island of Sardinia, two deacons, Herennius and Agapetus;",
+   "grade": "Documented"
+  },
+  {
+   "entry": "luciferians",
+   "field": "longDescription",
+   "sentence": "He went instead to Antioch and made Paulinus bishop of one of the rival parties there.",
+   "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+   "lines": "10495",
+   "quote": "When therefore Lucifer had constituted Paulinus their bishop, he again",
+   "grade": "Documented"
+  },
+  {
+   "entry": "luciferians",
+   "field": "longDescription",
+   "sentence": "When his friend Eusebius of Vercelli did not approve, Lucifer broke off communion with him.",
+   "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+   "lines": "10919-10921",
+   "quote": "Lucifer understood that his ordination of Paul was not approved of by Eusebius, regarding it as an insult, he became highly incensed; and not only separated himself from communion with him,",
+   "grade": "Documented"
+  },
+  {
+   "entry": "luciferians",
+   "field": "longDescription",
+   "sentence": "Lucifer himself went home to Sardinia and died there in 371.",
+   "file": "cic/texts/npnf206_jerome-principal-works.xml",
+   "lines": "31453-31454",
+   "quote": "where, according to Jerome’s Chronicle, he died in 371.",
+   "grade": "Widely Accepted (secondary: Fremantle 1893, citing Jerome's Chronicle)"
+  },
+  {
+   "entry": "luciferians",
+   "field": "longDescription",
+   "sentence": "He set up his own font and baptized again those who came over from the Arian side.",
+   "file": "cic/texts/npnf206_jerome-principal-works.xml",
+   "lines": "32820-32821",
+   "quote": "You and your household separated from us, and opened a new laver of your own.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "luciferians",
+   "field": "longDescription",
+   "sentence": "In about 379 Jerome wrote a dialogue against the group.",
+   "file": "cic/texts/npnf206_jerome-principal-works.xml",
+   "lines": "31412",
+   "quote": "This Dialogue was written about 379, seven years after",
+   "grade": "Widely Accepted (secondary: Fremantle 1893)"
+  },
+  {
+   "entry": "luciferians",
+   "field": "longDescription",
+   "sentence": "But in a time of wolves he took a few sheep away and left the rest of the flock to the beasts.",
+   "file": "cic/texts/npnf206_jerome-principal-works.xml",
+   "lines": "32536-32537",
+   "quote": "he separated off a few sheep and abandoned the remnant of the flock.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "luciferians",
+   "field": "longDescription",
+   "sentence": "In Rome the group had its own bishop, Ephesius, and a priest, Macarius, who held night vigils in a private house.",
+   "file": "cic/texts/collectio-avellana_epistulae-imperatorum-pontificum-pars1-lat_guenther1895-csel35.txt",
+   "lines": "6669",
+   "quote": "Macarius dat uigilias in quadam domo",
+   "grade": "Documented"
+  },
+  {
+   "entry": "luciferians",
+   "field": "longDescription",
+   "sentence": "In Rome the group had its own bishop, Ephesius",
+   "file": "cic/texts/collectio-avellana_epistulae-imperatorum-pontificum-pars1-lat_guenther1895-csel35.txt",
+   "lines": "6736-6738",
+   "quote": "beatissimum Ephesium episeopum sanctae fidei aemulatione feruentem, ordinatum  intaminatae plebi Romanae",
+   "grade": "Documented"
+  },
+  {
+   "entry": "luciferians",
+   "field": "longDescription",
+   "sentence": "It says that the clergy of Damasus, bishop of Rome, broke up one of Macarius's vigils and dragged him over the stones.",
+   "file": "cic/texts/collectio-avellana_epistulae-imperatorum-pontificum-pars1-lat_guenther1895-csel35.txt",
+   "lines": "6672-6676",
+   "quote": "tendunt insidias clerici Damasi",
+   "grade": "Documented as what the petition reports; no reply from Damasus's side is in hand"
+  },
+  {
+   "entry": "luciferians",
+   "field": "longDescription",
+   "sentence": "... dragged him over the stones.",
+   "file": "cic/texts/collectio-avellana_epistulae-imperatorum-pontificum-pars1-lat_guenther1895-csel35.txt",
+   "lines": "6676-6677",
+   "quote": "ducere dignantur sed per silices trahunt",
+   "grade": "Documented"
+  },
+  {
+   "entry": "luciferians",
+   "field": "longDescription",
+   "sentence": "The two priests refused the name Luciferians. Christ is our teacher, they wrote, so the only name we bear is Christian.",
+   "file": "cic/texts/collectio-avellana_epistulae-imperatorum-pontificum-pars1-lat_guenther1895-csel35.txt",
+   "lines": "6804-6807",
+   "quote": "sed nobis Christus magister est, illius doctrinam sequimur",
+   "grade": "Documented"
+  },
+  {
+   "entry": "luciferians",
+   "field": "longDescription",
+   "sentence": "Their letter called the two men priests full of faith.",
+   "file": "cic/texts/collectio-avellana_epistulae-imperatorum-pontificum-pars1-lat_guenther1895-csel35.txt",
+   "lines": "7699",
+   "quote": "Marcellinum plenissimos fidei sacerdotes",
+   "grade": "Documented"
+  },
+  {
+   "entry": "luciferians",
+   "field": "longDescription",
+   "sentence": "It told the prefect Cynegius to shield Gregory in Spain, Heraclida in the East and priests like them from attack.",
+   "file": "cic/texts/collectio-avellana_epistulae-imperatorum-pontificum-pars1-lat_guenther1895-csel35.txt",
+   "lines": "7752-7756",
+   "quote": "ut Gregorium et Heraclidam sacrae legis antistites ceterosque eorum consimiles sacerdotes,",
+   "grade": "Documented"
+  },
+  {
+   "entry": "luciferians",
+   "field": "longDescription",
+   "sentence": "Augustine wrote that they had cut themselves off from the unity of the church.",
+   "file": "cic/texts/augustine_de-agone-christiano-lat_zycha1900-csel41-tei.txt",
+   "lines": "1592",
+   "quote": "praeciderunt se tamen ab unitate et Luciferiani",
+   "grade": "Documented"
+  },
+  {
+   "entry": "luciferians",
+   "field": "longDescription",
+   "sentence": "Socrates, writing in the next century, says that those who first joined Lucifer's quarrel still stood apart.",
+   "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+   "lines": "10932-10934",
+   "quote": "such as at first identified themselves with his quarrel, still continue separate from the church.",
+   "grade": "Documented (that Socrates wrote in the fifth century is a standard fact; no vendored locus)"
+  },
+  {
+   "entry": "luciferians",
+   "field": "longDescription",
+   "sentence": "The group never grew large.",
+   "file": "cic/texts/npnf206_jerome-principal-works.xml",
+   "lines": "31456-31457",
+   "quote": "It hardly appears to have been formed into a separate organization,",
+   "grade": "Inferential-Thin (Fremantle 1893 alone)"
+  },
+  {
+   "entry": "luciferians",
+   "field": "sourcing",
+   "sentence": "A modern editor thinks the group died out early in the 400s. Socrates, writing later, says it still stood apart in his day.",
+   "file": "cic/texts/npnf206_jerome-principal-works.xml",
+   "lines": "31455-31456",
+   "quote": "Luciferianism became extinct in the beginning of the following century, if not earlier.",
+   "grade": "Contested in detail: Fremantle (secondary) against Socrates (primary, next row)"
+  },
+  {
+   "entry": "luciferians",
+   "field": "sourcing",
+   "sentence": "Socrates, writing later, says it still stood apart in his day.",
+   "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+   "lines": "10932-10934",
+   "quote": "such as at first identified themselves with his quarrel, still continue separate from the church.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "luciferians",
+   "field": "voices",
+   "sentence": "Faustinus — calling himself unworthy to be called a priest of God",
+   "file": "cic/texts/collectio-avellana_epistulae-imperatorum-pontificum-pars1-lat_guenther1895-csel35.txt",
+   "lines": "7635",
+   "quote": "Faustinus, qui non possum dignus uocari presbyter dei",
+   "grade": "Documented"
+  },
+  {
+   "entry": "luciferians",
+   "field": "voices",
+   "sentence": "Hilary the deacon — a deacon of Rome who joined Lucifer's side",
+   "file": "cic/texts/npnf206_jerome-principal-works.xml",
+   "lines": "32557-32558",
+   "quote": "a deacon of Rome, sent by Liberius the bishop with Lucifer and Pancratius to the Emperor Constantius. He joined the Luciferians,",
+   "grade": "Documented"
+  },
+  {
+   "entry": "luciferians",
+   "field": "legacy",
+   "sentence": "Its petition was kept in a Roman book of letters from emperors and popes, the Collectio Avellana.",
+   "file": "cic/texts/collectio-avellana_epistulae-imperatorum-pontificum-pars1-lat_guenther1895-csel35.txt",
+   "lines": "5268-5272",
+   "quote": "MARCELLINUS ET FAU- STINUS PRESBYTERI",
+   "grade": "Documented"
+  },
+  {
+   "entry": "luciferians",
+   "field": "legacy",
+   "sentence": "Jerome's dialogue against the group holds his famous line on the council of Ariminum: the whole world groaned to find itself Arian.",
+   "file": "cic/texts/npnf206_jerome-principal-works.xml",
+   "lines": "32411-32413",
+   "quote": "The whole world groaned, and was astonished to find itself Arian.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "luciferians",
+   "field": "legacy",
+   "sentence": "The quarrel also raised an older question, which Jerome traces back to Cyprian. Should people baptized outside the church be baptized again when they come in?",
+   "file": "cic/texts/npnf206_jerome-principal-works.xml",
+   "lines": "32834-32835",
+   "quote": "let him read the letters of the blessed Cyprian in which he applies the lash to Stephen,",
+   "grade": "Documented"
+  },
+  {
+   "entry": "carthusians-later-middle-ages",
+   "field": "sourcing",
+   "sentence": "The one book in hand by a Carthusian of these years is Nicholas Love's English life of Christ, made before 1410.",
+   "file": "cic/texts/love_mirror-of-the-blessed-life-of-jesus-christ-enm_powell1908.txt",
+   "lines": "170-173",
+   "quote": "The English version was made by Nicholas Love, prior of the Carthusian house of Mount Grace de Ingelby, Yorks., before 1410 ;",
+   "grade": "Documented"
+  },
+  {
+   "entry": "carthusians-later-middle-ages",
+   "field": "relationsSummary",
+   "sentence": "still keeping its old rule of the cell",
+   "file": "cic/texts/kempis_founders-of-the-new-devotion_arthur1905.txt",
+   "lines": "2278-2281",
+   "quote": "Amongst the Carthusians indeed the light of the Heavenly Life remained, though hidden; to carnal men their rule seemed to be austere enough,",
+   "grade": "Documented"
+  },
+  {
+   "entry": "carthusians-later-middle-ages",
+   "field": "longDescription",
+   "sentence": "In England the order had houses at Mount Grace in Yorkshire, at Beauvale, at Sheen near the royal palace of Richmond, and in London.",
+   "file": "cic/texts/hilton_scale-or-ladder-of-perfection_dalgairns1908.txt",
+   "lines": "1153-1157",
+   "quote": "which attracted the monks whom the Christian instincts of Henry VI planted in the neighbourhood of his palace of Richmond, as well as their brethren of the Charterhouse,",
+   "grade": "Documented (Dalgairns 1908, secondary; Beauvale from Underhill 120-124, Mount Grace from Powell 170-172)"
+  },
+  {
+   "entry": "carthusians-later-middle-ages",
+   "field": "longDescription",
+   "sentence": "Walter Hilton, an Augustinian canon who died in the 1390s, was close to the order.",
+   "file": "cic/texts/hilton_scale-of-perfection_underhill1923.txt",
+   "lines": "111-114",
+   "quote": "he seems to have been in close touch with members di that austerely spiritual Order, it is now estab- lished ,that he was an Augustinian canon",
+   "grade": "Documented"
+  },
+  {
+   "entry": "carthusians-later-middle-ages",
+   "field": "longDescription",
+   "sentence": "Walter Hilton ... who died in the 1390s",
+   "file": "cic/texts/hilton_scale-or-ladder-of-perfection_dalgairns1908.txt",
+   "lines": "1110-1111",
+   "quote": "which gave 1395 as the year of his death.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "carthusians-later-middle-ages",
+   "field": "longDescription",
+   "sentence": "A letter of his is addressed to Adam Horsley, a monk of Beauvale.",
+   "file": "cic/texts/hilton_scale-of-perfection_underhill1923.txt",
+   "lines": "127-129",
+   "quote": "ad Adam Horslay monachum ordinis Cartusie in Bella Valle ( Beauvale )",
+   "grade": "Documented"
+  },
+  {
+   "entry": "carthusians-later-middle-ages",
+   "field": "longDescription",
+   "sentence": "In 1499 Grenehalgh, a monk of Sheen, signed a fine copy of it with his own hand.",
+   "file": "cic/texts/hilton_scale-of-perfection_underhill1923.txt",
+   "lines": "1789-1793",
+   "quote": "Vellum, dated 1499 (Bks. I and II). Well written in a large hand by “ Benet quondam procuratorem inCarthusia de Schen super Tamis- iam quod Grenehalgh eiusdem domus professus indigna manu sua.”",
+   "grade": "Documented"
+  },
+  {
+   "entry": "carthusians-later-middle-ages",
+   "field": "longDescription",
+   "sentence": "Another copy bears a note that it was a book of the London Charterhouse.",
+   "file": "cic/texts/hilton_scale-of-perfection_underhill1923.txt",
+   "lines": "1670-1671",
+   "quote": "“ Liber domus matris d«i ordinis cartusiensis prope London.”",
+   "grade": "Documented"
+  },
+  {
+   "entry": "carthusians-later-middle-ages",
+   "field": "longDescription",
+   "sentence": "Richard Methley, a monk of Mount Grace, probably made a Latin version of it.",
+   "file": "cic/texts/cloud-of-unknowing_cloud-and-other-treatises_mccann1924.txt",
+   "lines": "632-634",
+   "quote": "a very interesting Latin version probably made by Richard Methley, a Carthusian of Mount Grace in York-",
+   "grade": "Documented"
+  },
+  {
+   "entry": "carthusians-later-middle-ages",
+   "field": "longDescription",
+   "sentence": "William Tregoose of the London Charterhouse, who died in 1514, wrote out another copy. A note in its margin praises Hilton, whom the notes take to be the author",
+   "file": "cic/texts/cloud-of-unknowing_cloud-and-other-treatises_mccann1924.txt",
+   "lines": "4724-4730",
+   "quote": "O Hilton sanctissime, magna est humilitas tua! This MS. was written by a monk of the London Charterhouse, William Tregoose, who died in 1514.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "carthusians-later-middle-ages",
+   "field": "longDescription",
+   "sentence": "He says he wrote it in English for lay men and women of simple understanding.",
+   "file": "cic/texts/love_mirror-of-the-blessed-life-of-jesus-christ-enm_powell1908.txt",
+   "lines": "670-672",
+   "quote": "alfo in englifh to lewed men and wommen and hem that ben of fymple vnderftondynge.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "carthusians-later-middle-ages",
+   "field": "longDescription",
+   "sentence": "Such readers, he says, need the milk of light teaching.",
+   "file": "cic/texts/love_mirror-of-the-blessed-life-of-jesus-christ-enm_powell1908.txt",
+   "lines": "681-682",
+   "quote": "the whiche as children hauen nede to be fedde with mylke of ly3te doctrine",
+   "grade": "Documented"
+  },
+  {
+   "entry": "carthusians-later-middle-ages",
+   "field": "longDescription",
+   "sentence": "Love breaks off to rebuke the Lollard who laughs at the church's miracles of the sacrament.",
+   "file": "cic/texts/love_mirror-of-the-blessed-life-of-jesus-christ-enm_powell1908.txt",
+   "lines": "12004-12006",
+   "quote": "here lawheth the lollarde and Ikorneth holy chirche in allegeaunce of fuche myracles",
+   "grade": "Documented"
+  },
+  {
+   "entry": "carthusians-later-middle-ages",
+   "field": "longDescription",
+   "sentence": "Its editor says it was presented in 1410 to Archbishop Arundel, a hard foe of the Lollards.",
+   "file": "cic/texts/love_mirror-of-the-blessed-life-of-jesus-christ-enm_powell1908.txt",
+   "lines": "172-174",
+   "quote": "in that year it was presented to Archbishop Arundel, noted for his vigorous persecution of the Lollards.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "carthusians-later-middle-ages",
+   "field": "longDescription",
+   "sentence": "Nicholas Love, prior of Mount Grace, wrote an English book that was copied many times.",
+   "file": "cic/texts/love_mirror-of-the-blessed-life-of-jesus-christ-enm_powell1908.txt",
+   "lines": "183-185",
+   "quote": "twenty- three are known to exist",
+   "grade": "Widely Accepted (Powell 1908 on the manuscript count)"
+  },
+  {
+   "entry": "carthusians-later-middle-ages",
+   "field": "longDescription",
+   "sentence": "A Carthusian prior of Monnikhuizen, near Arnhem, was an old friend of Geert Grote.",
+   "file": "cic/texts/kempis_founders-of-the-new-devotion_arthur1905.txt",
+   "lines": "2253-2258",
+   "quote": "near the city of Arnheim, a certain Religious that was Prior of the Car- thusian Monastery in Monichuysen,",
+   "grade": "Documented"
+  },
+  {
+   "entry": "carthusians-later-middle-ages",
+   "field": "longDescription",
+   "sentence": "Grote went to the Carthusians at Monnikhuizen and was given a cell as a guest.",
+   "file": "cic/texts/kempis_founders-of-the-new-devotion_arthur1905.txt",
+   "lines": "2469-2472",
+   "quote": "came to the country of Gelders to the Carthusian Brothers in Moni- chuysen whom he loved in the love of Christ.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "carthusians-later-middle-ages",
+   "field": "why",
+   "sentence": "Modern editors of the Cloud and the Scale still lean on copies made in their houses.",
+   "file": "cic/texts/hilton_scale-of-perfection_underhill1923.txt",
+   "lines": "1911-1913",
+   "quote": "The present edition of The Scale of Perfection, based on the London Charterhouse MS.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "carthusians-later-middle-ages",
+   "field": "legacy",
+   "sentence": "Justin McCann checked his 1924 text of the Cloud against the Latin version made at Mount Grace.",
+   "file": "cic/texts/cloud-of-unknowing_cloud-and-other-treatises_mccann1924.txt",
+   "lines": "630-634",
+   "quote": "has checked the text throughout by E, a very interesting Latin version probably made by Richard Methley,",
+   "grade": "Documented"
+  },
+  {
+   "entry": "carthusians-later-middle-ages",
+   "field": "legacy",
+   "sentence": "some of the books are said to have gone with the monks into exile.",
+   "file": "cic/texts/cloud-of-unknowing_cloud-and-other-treatises_mccann1924.txt",
+   "lines": "14298-14302",
+   "quote": "It is said that the copy, from which our said copy was taken, was brought over into these parts out of England by the English Carthusians,",
+   "grade": "Inferential-Thin (Baker's hearsay)"
+  },
+  {
+   "entry": "carthusians-later-middle-ages",
+   "field": "relationsSummary",
+   "sentence": "In the Low Countries a Carthusian prior turned Geert Grote's life around, and Grote went on to found the New Devotion.",
+   "file": "cic/texts/kempis_founders-of-the-new-devotion_arthur1905.txt",
+   "lines": "1",
+   "quote": "The Founders of the New Devotion: Being the Lives of Gerard",
+   "grade": "Documented (Kempis, Founders of the New Devotion, title; Grote's life is its first part)"
+  },
+  {
+   "entry": "carthusians-later-middle-ages",
+   "field": "why",
+   "sentence": "Their scribes copied The Cloud of Unknowing and Hilton's Scale of Perfection, wrote notes in them and passed them on.",
+   "file": "cic/texts/cloud-of-unknowing_cloud-and-other-treatises_mccann1924.txt",
+   "lines": "4728-4730",
+   "quote": "The text is annotated throughout in Latin, perhaps by the same scribe, and these notes assume that the Cloud was written by Walter Hilton.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "carthusians-later-middle-ages",
+   "field": "why",
+   "sentence": "One of their priors put the life of Christ into plain English for readers who knew no Latin.",
+   "file": "cic/texts/love_mirror-of-the-blessed-life-of-jesus-christ-enm_powell1908.txt",
+   "lines": "670-672",
+   "quote": "not onliche to clerkes in latyn / but alfo in englifh to lewed men and wommen",
+   "grade": "Documented"
+  },
+  {
+   "entry": "carthusians-later-middle-ages",
+   "field": "legacy",
+   "sentence": "Evelyn Underhill based her 1923 edition of Hilton's Scale on the London Charterhouse copy.",
+   "file": "cic/texts/hilton_scale-of-perfection_underhill1923.txt",
+   "lines": "1911-1913",
+   "quote": "The present edition of The Scale of Perfection, based on the London Charterhouse MS.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "luciferians",
+   "field": "why",
+   "sentence": "Their stand shows how hard it was to heal the church after the fights over the creed. It also left the losing side's case in its own words.",
+   "file": "cic/texts/collectio-avellana_epistulae-imperatorum-pontificum-pars1-lat_guenther1895-csel35.txt",
+   "lines": "6802-6804",
+   "quote": "quis nesciat illius cognomentum tribui secta- toribus,",
+   "grade": "Interpretive framing; the petition and the pamphlets are the losing side's own words"
+  },
+  {
+   "entry": "carthusians-later-middle-ages",
+   "field": "legacy",
+   "sentence": "In May 1535 John Houghton, prior of the London Charterhouse, was hanged at Tyburn with the priors of Beauvale and Axholme.",
+   "file": "cic/texts/cloud-of-unknowing_cloud-and-other-treatises_mccann1924.txt",
+   "lines": "14313-14316",
+   "quote": "On May 4, 1535, the three Carthusian Priors (John Houghton of London, Robert Lawrence of Beauvale, and Augustus Webster of Axholme) were hanged at Tyburn,",
+   "grade": "Widely Accepted (McCann 1924, secondary; the indictment is printed in Morris 1872, lines 776-781)"
+  },
+  {
+   "entry": "carthusians-later-middle-ages",
+   "field": "legacy",
+   "sentence": "Many of their brothers followed them to the scaffold or died in Newgate prison, and some escaped to found an English charterhouse at Bruges.",
+   "file": "cic/texts/cloud-of-unknowing_cloud-and-other-treatises_mccann1924.txt",
+   "lines": "14316-14320",
+   "quote": "many of their brethren later followed them to the scaffold or died in Newgate. Some escaped abroad, and these exiles founded an English Charterhouse in the Low Countries, first at Bruges,",
+   "grade": "Widely Accepted (McCann 1924, secondary; Morris 1872 lines 1441-1555 for the Newgate deaths)"
+  },
+  {
+   "entry": "carthusians-later-middle-ages",
+   "field": "legacy",
+   "sentence": "The end came in the 1530s, when Henry VIII made himself head of the church in England.",
+   "file": "cic/texts/morris-john_troubles-of-our-catholic-forefathers-ser1_1872.txt",
+   "lines": "776-781",
+   "quote": "‘The King, our Sovereign Lord, is not Supreme Head in earth of the Church of England.’”",
+   "grade": "Documented (the 1535 indictment as printed by Morris)"
+  }
+ ],
+ "neighbor_changes": [
+  {
+   "id": "carthusian-life",
+   "set": {
+    "continuesAs": "carthusians-later-middle-ages"
+   },
+   "reason": "The order now has a successor entry for 1300-1534 (Decision-Log 2026-11-08, era 6 ruling 4; principle 3)."
+  }
+ ],
+ "links": [
+  {
+   "id": "hieronymian-ascetic-literary--luciferians",
+   "action": "new",
+   "from": "hieronymian-ascetic-literary",
+   "to": "luciferians",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "In about 379 Jerome wrote a dialogue against the followers of Lucifer. In it a Luciferian named Helladius debates a churchman. Jerome calls Lucifer a good shepherd. But he took a few sheep away, Jerome says, and left the rest of the flock to the wolves.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Jerome, Dialogue against the Luciferians 2 (trans. Fremantle, NPNF 2.6)",
+     "file": "cic/texts/npnf206_jerome-principal-works.xml",
+     "lines": "31546-31548",
+     "locus": "Adv. Lucif. 2",
+     "quote": "When all were seated, Helladius the Luciferian said, I want an answer first to my question. Are the Arians Christians or not?",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Jerome, Dialogue against the Luciferians 20 (trans. Fremantle, NPNF 2.6)",
+     "file": "cic/texts/npnf206_jerome-principal-works.xml",
+     "lines": "32536-32538",
+     "locus": "Adv. Lucif. 20",
+     "quote": "he separated off a few sheep and abandoned the remnant of the flock. He himself was a good shepherd,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "W. H. Fremantle, introduction to Jerome's Dialogue against the Luciferians (NPNF 2.6)",
+     "file": "cic/texts/npnf206_jerome-principal-works.xml",
+     "lines": "31412",
+     "quote": "This Dialogue was written about 379,",
+     "locus": "Introduction",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "luciferians.relationsSummary; .longDescription; .legacy",
+   "wants": [],
+   "drafter_flags": [
+    "Span: the Dialogue is dated c. 379, three years before hieronymian-ascetic-literary opens (c. 382). Kept on that entry because it is Jerome's own work (review M13, accepted); flagged for the per-era pass."
+   ],
+   "change_reason": "New: drawn for a new entry from its own text."
+  },
+  {
+   "id": "luciferians--homoian-arian-christianity",
+   "action": "new",
+   "from": "luciferians",
+   "to": "homoian-arian-christianity",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "In exile from 355 to 361, Lucifer of Cagliari wrote pamphlets to the emperor Constantius II. He called the bishops of the emperor's party false bishops of his sect, the Arians. He asked how Christians could ever meet with them.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Lucifer of Cagliari, De non conveniendo cum haereticis (ed. Hartel, CSEL 14)",
+     "file": "cic/texts/lucifer-cagliari_opuscula-lat_hartel1886-csel14.txt",
+     "lines": "2652-2653",
+     "locus": "De non conv.",
+     "quote": "quomodo  cum  pseudoepiscopis  sectae  tuae  Arrianis  nobis  poterat conuenire",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Lucifer of Cagliari, Moriendum esse pro Dei Filio 1 (ed. Hartel, CSEL 14)",
+     "file": "cic/texts/lucifer-cagliari_opuscula-lat_hartel1886-csel14.txt",
+     "lines": "15820",
+     "locus": "Moriendum 1",
+     "quote": "Decuerat  quidem,  Constanti  imperator,  nihil  iam  tecum",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "W. H. Fremantle, introduction to Jerome's Dialogue against the Luciferians (NPNF 2.6)",
+     "file": "cic/texts/npnf206_jerome-principal-works.xml",
+     "lines": "31427-31431",
+     "quote": "It was at this time that his polemical writings appeared,",
+     "locus": "Introduction",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "luciferians.relationsSummary; .longDescription",
+   "wants": [],
+   "drafter_flags": [
+    "The pamphlets date from 355-361, before the split of 362; the movement's start is set at 355 so that its founder's own words fall inside it. Judged minor: no source on the link shows an act by an authority against the Homoians. Lucifer's own exile is an act against him, not by him."
+   ],
+   "change_reason": "New: drawn for a new entry from its own text."
+  },
+  {
+   "id": "imperial-juridical-christianity--luciferians",
+   "action": "new",
+   "from": "imperial-juridical-christianity",
+   "to": "luciferians",
+   "type": "in contact with",
+   "confidence": "Documented",
+   "note": "In 383 or 384 two Luciferian priests, Marcellinus and Faustinus, sent a petition to the emperors. The emperors wrote back to their prefect Cynegius. Their letter called the two men priests full of faith.",
+   "outcome": "The emperors told their prefect to shield two bishops, Gregory and Heraclida, and priests like them. No one was to harm them.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Marcellinus and Faustinus, Libellus precum, heading (Collectio Avellana 2, ed. Guenther, CSEL 35)",
+     "file": "cic/texts/collectio-avellana_epistulae-imperatorum-pontificum-pars1-lat_guenther1895-csel35.txt",
+     "lines": "5271-5275",
+     "locus": "Coll. Avell. 2, heading",
+     "quote": "MARCELLINUS ET FAU- STINUS PRESBYTERI DE CONFESSIONE UERAE FIDEI ET OSTENTATI- ONE SACRAE COMMUNIONIS ET PERSECUTIONE ADUERSANTIUM UERI- TATI PRECES UALENTINIANO THEODOSIO ET ARCADIO, PRINCIPIBUS OPTULERUNT ITA:",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Rescript of the emperors to Cynegius (Collectio Avellana 2a, ed. Guenther, CSEL 35)",
+     "file": "cic/texts/collectio-avellana_epistulae-imperatorum-pontificum-pars1-lat_guenther1895-csel35.txt",
+     "lines": "7698-7700",
+     "locus": "Coll. Avell. 2a.1",
+     "quote": "stinum atque Marcellinum plenissimos fidei sacerdotes inter- pellata clementia nostra,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Rescript of the emperors to Cynegius (Collectio Avellana 2a, ed. Guenther, CSEL 35)",
+     "file": "cic/texts/collectio-avellana_epistulae-imperatorum-pontificum-pars1-lat_guenther1895-csel35.txt",
+     "lines": "7753-7756",
+     "locus": "Coll. Avell. 2a",
+     "quote": "ita iubeat custodiri, ut Gregorium et Heraclidam sacrae legis antistites ceterosque eorum consimiles sacerdotes,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Otto Guenther, note to Collectio Avellana 2 (CSEL 35, 1895)",
+     "file": "cic/texts/collectio-avellana_epistulae-imperatorum-pontificum-pars1-lat_guenther1895-csel35.txt",
+     "lines": "5309",
+     "quote": "Libellus datus est Constantinopoli a. 383 qel 384.",
+     "locus": "note to ep. 2",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "luciferians.relationsSummary; .longDescription",
+   "wants": [],
+   "drafter_flags": [
+    "Judged major: the rescript is an act of the emperors that changes how these priests are to be treated (step 4b, 'a rule, practice or settlement changed by an authority'). Reviewer to confirm the test is met by a protection order.",
+    "The rescript names Gregory 'Hispaniensis' (of Spain); the Avellana header note identifies him with Gregory of Elvira, so the text says only 'Gregory in Spain'."
+   ],
+   "change_reason": "New: drawn for a new entry from its own text."
+  },
+  {
+   "id": "imperial-juridical-christianity--luciferians--2",
+   "action": "new",
+   "from": "imperial-juridical-christianity",
+   "to": "luciferians",
+   "type": "argued against",
+   "confidence": "Inferential-Thin",
+   "note": "The Luciferian petition of 383 or 384 says that the clergy of Damasus, bishop of Rome, broke up a night vigil held by the priest Macarius. It says they dragged him over the stones. This rests on the petition alone; no account from Damasus's side is in hand.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Marcellinus and Faustinus, Libellus precum 79-80 (Collectio Avellana 2, ed. Guenther, CSEL 35)",
+     "file": "cic/texts/collectio-avellana_epistulae-imperatorum-pontificum-pars1-lat_guenther1895-csel35.txt",
+     "lines": "6672-6677",
+     "locus": "Coll. Avell. 2.80",
+     "quote": "tendunt insidias clerici Damasi et, ubi cognouerunt, quod saeras wigilias celebrat eum plebe presbyter Macarius, irruunt eum offieialibus in illam. domum et plebem dissipant",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Marcellinus and Faustinus, Libellus precum 84 (Collectio Avellana 2, ed. Guenther, CSEL 35)",
+     "file": "cic/texts/collectio-avellana_epistulae-imperatorum-pontificum-pars1-lat_guenther1895-csel35.txt",
+     "lines": "6736-6740",
+     "locus": "Coll. Avell. 2.84",
+     "quote": "sub inuidia falsi impositi cognomenti per suos defen- sores interpellans iudicem Bassum quasi aduersum Luciferianos.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "luciferians.longDescription; .voices (Ephesius)",
+   "wants": [
+    "A Damasian or neutral account of the Roman Luciferians (none known to be vendored)."
+   ],
+   "drafter_flags": [
+    "Damasus of Rome is told within imperial-juridical-christianity (its relationsSummary names him); there is no separate Roman church entry for era 2. Reviewer: confirm this is the right home.",
+    "Graded Inferential-Thin: one partisan source for a charge of violence. The petition also says Damasus sent priests and lay people into exile through friendly judges (lines 6724-6727); that would meet the major test if trusted, but one hostile account is too thin to state as an outcome, so outcome is left off."
+   ],
+   "change_reason": "New: drawn for a new entry from its own text."
+  },
+  {
+   "id": "imperial-juridical-christianity--luciferians--3",
+   "action": "new",
+   "from": "imperial-juridical-christianity",
+   "to": "luciferians",
+   "type": "broke with",
+   "confidence": "Documented",
+   "note": "After 362 Lucifer's followers broke with the main church. It had taken back bishops who gave way. Socrates says a new sect arose and still stood apart in his day. The group's own petition rejects the name Luciferians. Augustine says they cut themselves off from the unity of the church.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Socrates, Church History 3.9 (trans. Zenos, NPNF 2.2)",
+     "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+     "lines": "10919-10925",
+     "locus": "H.E. 3.9",
+     "quote": "not only separated himself from communion with him, but also began, in a contentious spirit, to condemn what had been determined by the Synod. These things occurring at a season of grievous disorder, alienated many from the church; for many attached themselves to Lucifer, and thus a distinct sect arose under the name of ‘Luciferians.’",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Socrates, Church History 3.9 (trans. Zenos, NPNF 2.2)",
+     "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+     "lines": "10932-10934",
+     "locus": "H.E. 3.9",
+     "quote": "such as at first identified themselves with his quarrel, still continue separate from the church.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Augustine, De agone christiano 30.32 (ed. Zycha, CSEL 41)",
+     "file": "cic/texts/augustine_de-agone-christiano-lat_zycha1900-csel41-tei.txt",
+     "lines": "1591-1593",
+     "locus": "De agone christ. 30.32",
+     "quote": "praeciderunt se tamen ab unitate et Luciferiani <lb/> magis dici quam catholici maluerunt.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Marcellinus and Faustinus, Libellus precum 86 (Collectio Avellana 2, ed. Guenther, CSEL 35)",
+     "file": "cic/texts/collectio-avellana_epistulae-imperatorum-pontificum-pars1-lat_guenther1895-csel35.txt",
+     "lines": "6802-6806",
+     "locus": "Coll. Avell. 2.86",
+     "quote": "quis nesciat illius cognomentum tribui secta- toribus, euius et noua aliqua doctrina transmissa est ad disci- pulos ex auctoritate magisterii? sed nobis Christus magister est,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "luciferians.relationsSummary ('stood apart'); .longDescription ('broke off communion', 'a separate sect arose')",
+   "wants": [],
+   "drafter_flags": [
+    "Review M10. The other side of the break is drawn as imperial-juridical-christianity, the entry that tells the church of Damasus, the councils and the emperors' Nicene settlement; there is no separate era 2 entry for the Nicene majority church. Reviewer: confirm the home. Socrates and Augustine record the rupture from the majority side; the petition records it from the Luciferian side (it rejects the majority's name for them and accuses Damasus). Major by type."
+   ],
+   "change_reason": "New: drawn for a new entry from its own text."
+  },
+  {
+   "id": "latin-pastoral-congregational-christianity--luciferians",
+   "action": "new",
+   "from": "latin-pastoral-congregational-christianity",
+   "to": "luciferians",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "Augustine warns his readers not to listen to the Luciferians. They do not baptize again, he says, and in that they do right. But they cut themselves off from the unity of the church, and would rather be called Luciferians than Catholics.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Augustine, De agone christiano 30.32 (ed. Zycha, CSEL 41)",
+     "file": "cic/texts/augustine_de-agone-christiano-lat_zycha1900-csel41-tei.txt",
+     "lines": "1591-1593",
+     "locus": "De agone christ. 30.32",
+     "quote": "Nec eos audiamus, qui quamuis neminem rebaptizent, <lb/> praeciderunt se tamen ab unitate et Luciferiani <lb/> magis dici quam catholici maluerunt.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "luciferians.relationsSummary; .longDescription",
+   "wants": [],
+   "drafter_flags": [
+    "Augustine is told within latin-pastoral-congregational-christianity (ruling 5). If a person entry for Augustine has been made in this release, add concerns: <its id>; the quote names no person, so concerns needs the note, which names Augustine."
+   ],
+   "change_reason": "New: drawn for a new entry from its own text."
+  },
+  {
+   "id": "carthusian-life--carthusians-later-middle-ages",
+   "action": "new",
+   "from": "carthusian-life",
+   "to": "carthusians-later-middle-ages",
+   "type": "continued as",
+   "confidence": "Widely Accepted",
+   "note": "The Carthusian order went on after 1300 under the same rule of the cell. Thomas à Kempis, writing in the 1400s, says the light of the heavenly life still shone among the Carthusians. Nicholas Love, prior of the order's house at Mount Grace, wrote before 1410.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Thomas à Kempis, Life of Gerard the Great 4.1 (trans. Arthur, 1905)",
+     "file": "cic/texts/kempis_founders-of-the-new-devotion_arthur1905.txt",
+     "lines": "2278-2281",
+     "locus": "Vita Gerardi 4.1",
+     "quote": "Amongst the Carthusians indeed the light of the Heavenly Life remained, though hidden; to carnal men their rule seemed to be austere enough,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Nicholas Love, The Mirrour of the Blessed Lyf of Jesu Christ, title page (ed. Powell, 1908)",
+     "file": "cic/texts/love_mirror-of-the-blessed-life-of-jesus-christ-enm_powell1908.txt",
+     "lines": "118-119",
+     "locus": "title page",
+     "quote": "PRIOR OF THE CARTHUSIAN MONASTERY OF MOUNT GRACE",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "L. F. Powell, introductory note to Love's Mirror (1908)",
+     "file": "cic/texts/love_mirror-of-the-blessed-life-of-jesus-christ-enm_powell1908.txt",
+     "lines": "170-173",
+     "quote": "The English version was made by Nicholas Love, prior of the Carthusian house of Mount Grace de Ingelby, Yorks., before 1410 ;",
+     "locus": "Introductory note",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "carthusian-life.continuesAs (neighbor change); carthusians-later-middle-ages.relationsSummary",
+   "wants": [],
+   "drafter_flags": [
+    "Kempis's date is not in the vendored file; the note says 'in the 1400s' as a standard fact. Graded Widely Accepted rather than Documented: no single text shows the same houses running across 1300, only the same order and rule."
+   ],
+   "change_reason": "New: drawn for a new entry from its own text."
+  },
+  {
+   "id": "the-english-mystics-and-devout--carthusians-later-middle-ages",
+   "action": "new",
+   "from": "the-english-mystics-and-devout",
+   "to": "carthusians-later-middle-ages",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "Carthusian monks copied and kept the books of the English mystics. In 1499 Grenehalgh, a monk of Sheen, signed a copy of Walter Hilton's Scale of Perfection. William Tregoose of the London Charterhouse, who died in 1514, wrote out The Cloud of Unknowing and praised Hilton in its margin.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Colophon of Trinity College, Cambridge, MS. 354 (1499), as printed by Underhill (1923)",
+     "file": "cic/texts/hilton_scale-of-perfection_underhill1923.txt",
+     "lines": "1789-1793",
+     "locus": "Intro., MS. 8",
+     "quote": "Well written in a large hand by “ Benet quondam procuratorem inCarthusia de Schen super Tamis- iam quod Grenehalgh eiusdem domus professus indigna manu sua.”",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Marginal note in the Douce MS. of The Cloud of Unknowing, as printed by McCann (1924)",
+     "file": "cic/texts/cloud-of-unknowing_cloud-and-other-treatises_mccann1924.txt",
+     "lines": "4724-4727",
+     "locus": "note to Cloud",
+     "quote": "O Hilton sanctissime, magna est humilitas tua! This MS. was written by a monk of the London Charterhouse, William Tregoose, who died in 1514.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Ownership note in BM Harl. 6579, as printed by Underhill (1923)",
+     "file": "cic/texts/hilton_scale-of-perfection_underhill1923.txt",
+     "lines": "1670-1671",
+     "locus": "Intro., MS. 1",
+     "quote": "“ Liber domus matris d«i ordinis cartusiensis prope London.”",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Evelyn Underhill, introduction to The Scale of Perfection (1923)",
+     "file": "cic/texts/hilton_scale-of-perfection_underhill1923.txt",
+     "lines": "1673-1676",
+     "quote": "for the Carthusians, the most learned of the contemplative orders^ had qlways shown a peculiar devotion to Hilton’s work,",
+     "locus": "Intro., p. xlvi",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "the-english-mystics-and-devout.relationsSummary and .longDescription (Carthusian copying, the era 6 ruling 4 link); carthusians-later-middle-ages.relationsSummary; .why; .longDescription",
+   "wants": [],
+   "drafter_flags": [
+    "This is the link ruling 4 (2026-11-08) held back until a later Carthusian movement existed. Direction: the mystics' books were taken up and copied by the Carthusians, so the mystics influenced them. Judged minor (copying is not an institutional act).",
+    "The colophon and notes are primary words quoted inside modern editions; the manuscripts themselves are not vendored."
+   ],
+   "change_reason": "New: drawn for a new entry from its own text."
+  },
+  {
+   "id": "carthusians-later-middle-ages--lollardy",
+   "action": "new",
+   "from": "carthusians-later-middle-ages",
+   "to": "lollardy",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "Nicholas Love, prior of the Carthusian house of Mount Grace, made an English life of Christ before 1410. In it he breaks off to attack the Lollards by name. He calls them lewd Lollards who meddle falsely against the faith of the sacrament.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Nicholas Love, The Mirrour of the Blessed Lyf of Jesu Christ, Thursday, the sacrament (ed. Powell, 1908)",
+     "file": "cic/texts/love_mirror-of-the-blessed-life-of-jesus-christ-enm_powell1908.txt",
+     "lines": "11998-12000",
+     "locus": "Die Jovis, Nota",
+     "quote": "the lewed lollardes that medlen hem a3enft the feith falfely.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Nicholas Love, The Mirrour of the Blessed Lyf of Jesu Christ (ed. Powell, 1908)",
+     "file": "cic/texts/love_mirror-of-the-blessed-life-of-jesus-christ-enm_powell1908.txt",
+     "lines": "18052-18054",
+     "locus": "Treatise on the sacrament",
+     "quote": "the difciples of Antecrift / that ben cleped lollardes /",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "L. F. Powell, introductory note to Love's Mirror (1908)",
+     "file": "cic/texts/love_mirror-of-the-blessed-life-of-jesus-christ-enm_powell1908.txt",
+     "lines": "172-174",
+     "quote": "in that year it was presented to Archbishop Arundel, noted for his vigorous persecution of the Lollards.",
+     "locus": "Introductory note",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "carthusians-later-middle-ages.relationsSummary; .longDescription; .voices",
+   "wants": [
+    "The Latin approbation memorandum of Archbishop Arundel for Love's Mirror (c. 1410), from a public-domain print of a manuscript that carries it."
+   ],
+   "drafter_flags": [
+    "Judged minor: no vendored source shows Arundel's formal approval of the book (the Latin memorandum is not in this edition's front matter as vendored). If a source for the approval arrives, the link may still stay minor: an archbishop licensing a book is not an act against the Lollards.",
+    "OCR reads long s as f throughout; the quotes keep it."
+   ],
+   "change_reason": "New: drawn for a new entry from its own text."
+  },
+  {
+   "id": "carthusians-later-middle-ages--devotio-moderna-brethren-of-the-common-life",
+   "action": "new",
+   "from": "carthusians-later-middle-ages",
+   "to": "devotio-moderna-brethren-of-the-common-life",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "Thomas à Kempis tells how the Carthusian prior of Monnikhuizen, an old friend, urged Geert Grote to change his life. Grote then went to the Carthusians at Monnikhuizen, near Arnhem, and they gave him a cell as a guest.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Thomas à Kempis, Life of Gerard the Great 4.1 (trans. Arthur, 1905)",
+     "file": "cic/texts/kempis_founders-of-the-new-devotion_arthur1905.txt",
+     "lines": "2253-2258",
+     "locus": "Vita Gerardi 4.1",
+     "quote": "near the city of Arnheim, a certain Religious that was Prior of the Car- thusian Monastery in Monichuysen, a man of learning and piety who had formerly, when in the world, been intimate with Gerard.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Thomas à Kempis, Life of Gerard the Great 5.2 (trans. Arthur, 1905)",
+     "file": "cic/texts/kempis_founders-of-the-new-devotion_arthur1905.txt",
+     "lines": "2468-2473",
+     "locus": "Vita Gerardi 5.2",
+     "quote": "came to the country of Gelders to the Carthusian Brothers in Moni- chuysen whom he loved in the love of Christ. By these he was received with reverence and was given a cell",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "carthusians-later-middle-ages.relationsSummary; .longDescription",
+   "wants": [],
+   "drafter_flags": [
+    "Kempis wrote a devotional life decades after Grote; the existing devotio-moderna story caveat says the same. Documented on the relationship Kempis states; reviewer may judge Widely Accepted better. Chapter numbers in the loci are from the file's chapter heads and should be confirmed."
+   ],
+   "change_reason": "New: drawn for a new entry from its own text."
+  }
+ ],
+ "retire_links": [],
+ "wants": [
+  "Maurice Chauncy, Historia aliquot nostri saeculi martyrum (Mainz, 1550), Latin or a public-domain English translation: the own voice needed before the London Charterhouse and its exiles (1534-1581) can be built as the era 7 Carthusian entry. Until then the period is held as a named gap after the era 6 entry (principle 3).",
+  "Carthusian voices after 1300 from the Continent: Ludolph of Saxony, Vita Christi; Denys the Carthusian, any work (Opera omnia, Montreuil/Tournai 1896-1913); the order's statutes (Statuta antiqua and nova, the Tertia compilatio of 1509); a Carthusian chronicle (Petrus Dorlandus, Chronicon Cartusiense, 1608). Wanted for the era 6 entry, now almost wholly English, and for a successor after 1581.",
+  "Any public-domain text of the English Carthusians in exile at Bruges, Mechelen or Nieuport (1559-1783), or of the order after 1581 anywhere: the living order past 1581 is held as a named gap (principle 3).",
+  "The Latin approbation memorandum of Archbishop Arundel for Love's Mirror (c. 1410), from a public-domain print.",
+  "Richard Methley's own writings (Scola amoris languidi, Dormitorium dilecti dilecti, Refectorium salutis), in any public-domain print: a Mount Grace voice in his own words.",
+  "A public-domain source dating Socrates' Church History (c. 439) and the council of Alexandria to 362 from a primary text, to replace the editors' notes now cited.",
+  "A Damasian or neutral account of the Roman Luciferians and of Ephesius."
+ ],
+ "flags": [
+  "OPTION A (review M11, held for Mark): the era 7 entry carthusians-london-charterhouse-and-exile is dropped and held as a named gap; carthusians-later-middle-ages loses continuesAs and gains two sourced legacy sentences on the London martyrs. Links dropped: carthusians-later-middle-ages--carthusians-london-charterhouse-and-exile (continued as; no successor exists) and the-english-reformation-and-elizabethan-settleme--carthusians-london-charterhouse-and-exile (argued against). The second was not re-homed to the era 6 entry because its acts (1535-1537) fall after that entry's end (1534); the legacy names the crown's acts as what came after, so the sentence stands without a link, and the link is drawn when the era 7 entry is built. The Newgate documented story goes with the era 7 entry.",
+  "Luciferians span: set at c. 355-c. 440. Start 355 so Lucifer's exile pamphlets, the group's own founding voice, fall inside; the split itself is 362. End 440 rests on Socrates saying the group still stood apart in his day; the date of his writing is a standard fact with no vendored locus. Coordinator may prefer 362-c. 440.",
+  "Luciferians place: Cagliari has no place ID in any census entry, so modernCountries carries Rome and Antioch only; Sardinia is named in region. Add Cagliari's IDs at apply if a source for them is chosen.",
+  "Luciferians and Alexandria: the 362 council under Athanasius is told in the text, but no link to the church of Alexandria is drawn. The extension of cyrilline-miaphysite-egyptian-christianity back to 328 (ruling 2) is another slice of this release, and Fremantle's 'antagonism with Athanasius' is one Victorian editor's reading (Athanasius's own Tomus lists Lucifer's deacons as signing). If the coordinator wants a link, 'broke with' is not supported; at most 'in contact with' on the Tomus.",
+  "Luciferians: Fremantle (1893) says the group 'hardly appears to have been formed into a separate organization', while Socrates calls it 'a distinct sect' and the petition shows its own bishop at Rome. The entry follows the primary sources; the sentence 'The group never grew large' is graded Inferential-Thin on Fremantle alone.",
+  "Carthusians after 1300, split by era as the Waldensians were: two entries. Era 6, carthusians-later-middle-ages, 1300-1534, has one Carthusian voice in its own words (Nicholas Love) plus Carthusian scribes' notes printed in modern editions, and Kempis as an outside view; graded thin to moderate, and almost wholly English. Era 7, carthusians-london-charterhouse-and-exile, 1534-1581, is flagged THIN: no book by its monks is vendored; it rests on Morris (1872), who prints the indictment, Bedyll's letter and the Clement life and retells Chauncy, plus notes in Underhill and McCann. Principle 3 is met only through the Clement life and Chauncy as reported; the coordinator or Mark may prefer to hold era 7 as a named gap until Chauncy's Historia is vendored, and fold its facts into the era 6 legacy.",
+  "carthusian-life text says the order 'has kept substantially the same shape ever since'; with successor entries, its owner may want to soften 'ever since' to point forward. Not changed here (one entry's fixes go to its owner, principle M).",
+  "Augustine link: if this release makes a person entry for Augustine (ruling 5), add concerns to latin-pastoral-congregational-christianity--luciferians; its note names Augustine.",
+  "The Mirror of Love is shelved in the corpus map on the-english-mystics-and-devout (context) and late-medieval-lay-parish-piety (tradition). The new era 6 entry tells it as a Carthusian voice; the Library thread may want to add a shelf row for carthusians-later-middle-ages (author role)."
+ ]
+}

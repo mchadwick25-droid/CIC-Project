@@ -1,0 +1,2664 @@
+{
+ "entries": [
+  {
+   "id": "origen",
+   "atlasId": "TBD",
+   "era": 1,
+   "kind": "person",
+   "toldWithin": "alexandria-catechetical",
+   "name": "Origen",
+   "shortName": "Origen",
+   "informalName": "Origen of Alexandria",
+   "dates": "c. 203-253",
+   "start": 203,
+   "end": 253,
+   "region": "Alexandria, Caesarea Maritima",
+   "placeLabel": "Alexandria · Caesarea Maritima",
+   "modernCountries": [
+    {
+     "country": "Egypt",
+     "countryId": "Q79",
+     "place": "Alexandria",
+     "placeId": "Q87",
+     "pleiadesId": "727070"
+    },
+    {
+     "country": "Israel",
+     "countryId": "Q801",
+     "place": "Caesarea Maritima",
+     "placeId": "Q319242",
+     "pleiadesId": "678401"
+    }
+   ],
+   "regions": [
+    "Africa",
+    "Middle East",
+    "Mediterranean"
+   ],
+   "lane": "4 Africa",
+   "laneLabel": "Africa",
+   "laneOrder": 4,
+   "beyondFloor": false,
+   "status": "Within Another World (A5)",
+   "chip": "exc",
+   "glyph": "a5",
+   "statusWord": "Named within another tradition's story",
+   "statusDescription": "Not counted as a candidate tradition of its own — its story is told plainly inside another tradition's, rather than standing alone.",
+   "living": false,
+   "overlayCurrent": false,
+   "c2": null,
+   "sourcing": "Rich. The Library holds 16 of his own works on the shelf of the Alexandrian teachers, in Greek, Latin and English. Eusebius gave most of a book of his Church History to Origen's life.",
+   "floorNote": "His own faith is not in question here. Some of his bolder ideas were attacked long after his death, and a church council condemned them about three centuries later.",
+   "relationsSummary": "Told within the Alexandrian teachers, whose best-known voice he is. He moved his teaching to Caesarea, and his pupils, readers and critics spread across the churches of the East and West.",
+   "why": "Origen is the scholar of the early church. He began to teach at Alexandria as a teenager, after his father died a martyr. He wrote on almost every book of the Bible. Late in life he was tortured for his faith, and he died a few years after.",
+   "entry": null,
+   "teaser": "Alexandria and Caesarea, c. 203 to 253 CE: a martyr's son who became the church's first great Bible scholar, and was argued over for centuries.",
+   "longDescription": "His father was beheaded for his faith while Origen was still young. Eusebius says Origen was in his eighteenth year when he took charge of teaching new believers at Alexandria. He wrote commentaries on most of Scripture.\n\nAbout 231 he left Alexandria for Caesarea in Palestine. His own bishop, Demetrius, cut him off. Students came to him there. Two brothers from Pontus stayed five years and later became bishops at home.\n\nUnder the emperor Decius he was thrown into prison. Eusebius tells of chains, an iron collar and the stocks. He survived, but he died soon after, aged sixty-nine.",
+   "voices": [
+    "Origen — commentator, textual scholar and teacher, whose words the Library holds in Greek and Latin",
+    "Eusebius of Caesarea — the historian who wrote down Origen's life, and who kept his books at Caesarea"
+   ],
+   "legacy": "His books outlived him, and so did the fight over them. Basil and Gregory of Nazianzus drew on his work, and Rufinus put him into Latin. Jerome first used his work and later called his teachings poison. Methodius wrote against his view of the body. Much later, the History of the Patriarchs of Alexandria called his books blasphemous.",
+   "reviewStatus": "AI-checked"
+  },
+  {
+   "id": "athanasius-of-alexandria",
+   "atlasId": "TBD",
+   "era": 2,
+   "kind": "person",
+   "toldWithin": "alexandria-catechetical",
+   "name": "Athanasius of Alexandria",
+   "shortName": "Athanasius",
+   "informalName": "Athanasius",
+   "dates": "328-373",
+   "start": 328,
+   "end": 373,
+   "region": "Alexandria",
+   "placeLabel": "Alexandria",
+   "modernCountries": [
+    {
+     "country": "Egypt",
+     "countryId": "Q79",
+     "place": "Alexandria",
+     "placeId": "Q87",
+     "pleiadesId": "727070"
+    }
+   ],
+   "regions": [
+    "Africa",
+    "Mediterranean"
+   ],
+   "lane": "4 Africa",
+   "laneLabel": "Africa",
+   "laneOrder": 4,
+   "beyondFloor": false,
+   "status": "Within Another World (A5)",
+   "chip": "exc",
+   "glyph": "a5",
+   "statusWord": "Named within another tradition's story",
+   "statusDescription": "Not counted as a candidate tradition of its own — its story is told plainly inside another tradition's, rather than standing alone.",
+   "living": false,
+   "overlayCurrent": false,
+   "c2": null,
+   "sourcing": "Rich. The Library holds 22 of his own works on the shelf of the Alexandrian teachers. They include his books against the Arians, his defenses and his letters, in Greek, Latin and English.",
+   "floorNote": "Not in question. He spent his life defending the Creed of Nicaea.",
+   "relationsSummary": "Told within the Alexandrian teachers, whose shelf holds his works. He was also the first bishop of the church of Alexandria on this map. He fought the party of Arius by name.",
+   "why": "Athanasius was bishop of Alexandria for forty-five years and was driven out five times. Through all of it he held to the faith stated at Nicaea, where he had gone as a young deacon.",
+   "entry": null,
+   "teaser": "Alexandria, 328 to 373 CE. A bishop sent into exile five times, who held to the creed of Nicaea and died in his own city.",
+   "longDescription": "Two churches claim Athanasius. The Coptic church counts him as its own, and so do the churches that accepted Chalcedon. The Library keeps his works on the shelf of the Alexandrian teachers.\n\nAs a young deacon he went with his bishop, Alexander, to the Council of Nicaea in 325. On 8 June 328 he became bishop of Alexandria himself.\n\nRival bishops and emperors drove him from his city again and again. His editor counts five exiles. Between them he wrote against the Arians, in his Four Discourses and other books.\n\nHe died in Alexandria on 2 May 373, in the forty-sixth year of his time as bishop.",
+   "voices": [
+    "Athanasius of Alexandria — bishop for forty-five years, whose defenses, treatises and letters the Library holds",
+    "Cyril of Alexandria — a later bishop of the same city, who wrote that he followed 'our blessed and all-celebrated Father Athanasius'"
+   ],
+   "legacy": "His own city went on reading him. Around 433 Cyril, a later bishop of Alexandria, wrote that he followed Athanasius and would not depart from him at all. He even sent out true copies of one of Athanasius's letters, because a false version was going round.",
+   "reviewStatus": "AI-checked"
+  },
+  {
+   "id": "gregory-of-nyssa",
+   "atlasId": "TBD",
+   "era": 2,
+   "kind": "person",
+   "toldWithin": "cappadocian-nicene-pastoral-monastic-tradition",
+   "name": "Gregory of Nyssa",
+   "shortName": "Gregory of Nyssa",
+   "informalName": "Gregory of Nyssa",
+   "dates": "372-394",
+   "start": 372,
+   "end": 394,
+   "region": "Cappadocia / Anatolia",
+   "placeLabel": "Cappadocia",
+   "modernCountries": [
+    {
+     "country": "Turkey",
+     "countryId": "Q43",
+     "place": "Cappadocia",
+     "placeId": "Q217265",
+     "pleiadesId": "628949"
+    }
+   ],
+   "regions": [
+    "Asia Minor"
+   ],
+   "lane": "3 Greek East & Orthodoxy",
+   "laneLabel": "Greek East & Orthodoxy",
+   "laneOrder": 3,
+   "beyondFloor": false,
+   "status": "Within Another World (A5)",
+   "chip": "exc",
+   "glyph": "a5",
+   "statusWord": "Named within another tradition's story",
+   "statusDescription": "Not counted as a candidate tradition of its own — its story is told plainly inside another tradition's, rather than standing alone.",
+   "living": false,
+   "overlayCurrent": false,
+   "c2": null,
+   "sourcing": "Rich. The Library holds 20 of his own works on the shelf of the Cappadocians: his books against Eunomius, his treatises on the soul and on the faith, his letters, and his Life of his sister Macrina.",
+   "floorNote": "Not in question. He was one of the bishops the emperor named in 381 as a standard of the Nicene faith.",
+   "relationsSummary": "Told within the Cappadocians, with his brother Basil and their friend Gregory of Nazianzus. He finished Basil's answer to Eunomius and wrote against those who denied the Spirit was God. A hostile party drove him from his see for a time.",
+   "why": "Gregory was the younger brother of Basil and Macrina, and the boldest thinker of the family. He wrote the long reply to Eunomius that Basil left unfinished. He also wrote the only life we have of his sister.",
+   "entry": null,
+   "teaser": "Nyssa, 372 to 394 CE: a bishop sent away and brought back, who wrote his sister's life and finished his brother's fight.",
+   "longDescription": "Gregory was one of ten children. Basil was the eldest son and Macrina the eldest child. Gregory and his brother Peter both became bishops.\n\nEarly in 372 he was chosen bishop of the small town of Nyssa. Two or three years later his enemies brought charges against him, and he was sent away. He came back to his see in 378.\n\nAfter Basil died, Gregory took up his brother's quarrel with Eunomius. He wrote a long work in reply. In 381 he was at the council in Constantinople.\n\nHe also wrote the Life of Macrina. It is the only record of her that survives. The last trace of Gregory himself is a synod at Constantinople in 394.",
+   "voices": [
+    "Gregory of Nyssa — bishop, theologian and his sister's biographer, whose treatises and letters the Library holds",
+    "Macrina — his elder sister, known only through the Life he wrote of her"
+   ],
+   "legacy": "In July 381 the emperor Theodosius named him in a law. Bishops in Pontus had to be in communion with Gregory of Nyssa, or with Helladius of Caesarea, to count as Catholic. The council of that year gave the two men charge of the church in Pontus.",
+   "reviewStatus": "AI-checked"
+  },
+  {
+   "id": "ephrem-the-syrian",
+   "atlasId": "TBD",
+   "era": 2,
+   "kind": "person",
+   "toldWithin": "syriac-edessa-nisibis",
+   "name": "Ephrem the Syrian",
+   "shortName": "Ephrem",
+   "informalName": "Ephrem",
+   "dates": "c. 338-373",
+   "start": 338,
+   "end": 373,
+   "region": "Edessa & Nisibis",
+   "placeLabel": "Edessa · Nisibis",
+   "modernCountries": [
+    {
+     "country": "Turkey",
+     "countryId": "Q43",
+     "place": "Nisibis",
+     "placeId": "Q14524112",
+     "pleiadesId": "60591"
+    },
+    {
+     "country": "Turkey",
+     "countryId": "Q43",
+     "place": "Edessa",
+     "placeId": "Q1190403",
+     "pleiadesId": "658457"
+    }
+   ],
+   "regions": [
+    "Middle East"
+   ],
+   "lane": "1 Syriac East & Asia",
+   "laneLabel": "Syriac East & Asia",
+   "laneOrder": 1,
+   "beyondFloor": false,
+   "status": "Within Another World (A5)",
+   "chip": "exc",
+   "glyph": "a5",
+   "statusWord": "Named within another tradition's story",
+   "statusDescription": "Not counted as a candidate tradition of its own — its story is told plainly inside another tradition's, rather than standing alone.",
+   "living": false,
+   "overlayCurrent": false,
+   "c2": null,
+   "sourcing": "Rich. The Library holds 11 of his own works on the shelf of the Syriac church of Edessa and Nisibis: hymns, homilies and prose refutations, in Syriac and English.",
+   "floorNote": "Not in question. He holds the faith the Nicene Creed states.",
+   "relationsSummary": "Told within the Syriac church of Edessa and Nisibis, as its great hymnwriter. A later teacher of the Church of the East said Ephrem founded a school at Edessa after 363.",
+   "why": "Ephrem taught the faith in song. He served as a deacon. The sources differ on where he was ordained. His hymns carried the church's teaching in words a whole congregation could sing.",
+   "entry": null,
+   "teaser": "Nisibis and Edessa, c. 338 to 373 CE: a deacon who sang his city through three sieges, and taught a church its faith in hymns.",
+   "longDescription": "Ephrem was born at Nisibis and learned from its bishop, Jacob. He lived through three Persian sieges of the city.\n\nIn 363 Rome gave Nisibis up to Persia, and its Christians left. Ephrem settled at Edessa.\n\nHe wrote a great deal: sermons, commentaries and hymns. Most writers date his death to 373. Some think he lived until 378.",
+   "voices": [
+    "Ephrem — deacon and hymnwriter, whose hymns and homilies the Library holds",
+    "Barhadbeshabba — a later teacher of the Church of the East, who told how Ephrem taught at Edessa"
+   ],
+   "legacy": "The Church of the East kept his name as a teacher. Barhadbeshabba wrote about 600. He said Ephrem set up a school at Edessa after Nisibis passed to Persia. He traced his own church's school at Nisibis back through the teachers who came after.",
+   "reviewStatus": "AI-checked"
+  },
+  {
+   "id": "john-chrysostom",
+   "atlasId": "TBD",
+   "era": 2,
+   "kind": "person",
+   "toldWithin": "antiochene-exegetical-christianity-chrysostom-ce",
+   "name": "John Chrysostom",
+   "shortName": "Chrysostom",
+   "informalName": "John Chrysostom",
+   "dates": "386-407",
+   "start": 386,
+   "end": 407,
+   "region": "Antioch, Constantinople",
+   "placeLabel": "Antioch · Constantinople",
+   "modernCountries": [
+    {
+     "country": "Turkey",
+     "countryId": "Q43",
+     "place": "Antioch",
+     "placeId": "Q200441",
+     "pleiadesId": "658381"
+    },
+    {
+     "country": "Turkey",
+     "countryId": "Q43",
+     "place": "Constantinople",
+     "placeId": "Q16869",
+     "pleiadesId": "520998"
+    }
+   ],
+   "regions": [
+    "Middle East",
+    "Asia Minor"
+   ],
+   "lane": "3 Greek East & Orthodoxy",
+   "laneLabel": "Greek East & Orthodoxy",
+   "laneOrder": 3,
+   "beyondFloor": false,
+   "status": "Within Another World (A5)",
+   "chip": "exc",
+   "glyph": "a5",
+   "statusWord": "Named within another tradition's story",
+   "statusDescription": "Not counted as a candidate tradition of its own — its story is told plainly inside another tradition's, rather than standing alone.",
+   "living": false,
+   "overlayCurrent": false,
+   "c2": null,
+   "sourcing": "Very rich. The Library holds 36 of his own works on the shelf of the Antiochene preachers: hundreds of sermons, treatises and letters. Palladius, a bishop who stood by him, wrote a dialogue on his life.",
+   "floorNote": "Not in question.",
+   "relationsSummary": "Told within the Antiochene preachers, as their best-known voice. The court chose him as bishop of Constantinople. Then two synods condemned him, and the emperor sent him away. Calvin and the Lutherans quoted him a thousand years later.",
+   "why": "John preached at Antioch for twelve years and then at Constantinople. He spoke plainly about money, cruelty and the poor. That plain speech, aimed at the court too, led in the end to his exile. He died on the road into a second exile.",
+   "entry": null,
+   "teaser": "Antioch and Constantinople, 386 to 407 CE. The 'golden-mouthed' preacher who told the rich what they owed the poor, and who died in exile.",
+   "longDescription": "John studied rhetoric with Libanius, a famous pagan teacher. He was ordained priest at Antioch in 386. For twelve years he preached there.\n\nIn February 398 he was made bishop of Constantinople. The court chose him. It pressed the bishop of Alexandria to make him bishop.\n\nIn 403 a synod met at a place called the Oak and condemned him. Two synods had now judged him, and the emperor barred him from his church. Then an imperial decree sent him into exile.\n\nHe lived for three years at Cucusus in the mountains. In 407 he was ordered on to Pityus on the Black Sea. He died on the way, on 14 September.",
+   "voices": [
+    "John Chrysostom — the preacher later called 'golden-mouthed', whose sermons, treatises and letters the Library holds",
+    "Palladius of Helenopolis — a bishop who stood by him, and wrote a dialogue on his life and fall"
+   ],
+   "legacy": "The Reformers read him closely. Calvin quoted him with delight: 'The foundation of our philosophy is humility.' Yet he said Chrysostom gave the human will too much power. In 1530 the Augsburg Confession named him as a witness to how the early church shared Communion.",
+   "reviewStatus": "AI-checked"
+  },
+  {
+   "id": "nestorius",
+   "atlasId": "TBD",
+   "era": 2,
+   "kind": "person",
+   "toldWithin": "antiochene-exegetical-christianity-chrysostom-ce",
+   "name": "Nestorius",
+   "shortName": "Nestorius",
+   "informalName": "Nestorius",
+   "dates": "428-c. 451",
+   "start": 428,
+   "end": 451,
+   "region": "Constantinople, Antioch",
+   "placeLabel": "Constantinople · Antioch",
+   "modernCountries": [
+    {
+     "country": "Turkey",
+     "countryId": "Q43",
+     "place": "Constantinople",
+     "placeId": "Q16869",
+     "pleiadesId": "520998"
+    },
+    {
+     "country": "Turkey",
+     "countryId": "Q43",
+     "place": "Antioch",
+     "placeId": "Q200441",
+     "pleiadesId": "658381"
+    }
+   ],
+   "regions": [
+    "Asia Minor",
+    "Middle East",
+    "Africa"
+   ],
+   "lane": "3 Greek East & Orthodoxy",
+   "laneLabel": "Greek East & Orthodoxy",
+   "laneOrder": 3,
+   "beyondFloor": false,
+   "status": "Within Another World (A5)",
+   "chip": "exc",
+   "glyph": "a5",
+   "statusWord": "Named within another tradition's story",
+   "statusDescription": "Not counted as a candidate tradition of its own — its story is told plainly inside another tradition's, rather than standing alone.",
+   "living": false,
+   "overlayCurrent": false,
+   "c2": null,
+   "sourcing": "Moderate. The Library holds three works of his on the shelf of the Antiochene preachers: the Bazaar of Heracleides, his own defense, in English and French, and the fragments of his sermons and letters. The Bazaar survives only in a Syriac translation.",
+   "floorNote": "Contested. Cyril and the council at Ephesus in 431 judged that his teaching on Christ split him into two. In his own defense Nestorius denied it. Historians still argue over what he really taught; a 1908 study, Nestorius and his Teaching, reopened the question.",
+   "relationsSummary": "Told within the Antiochene preachers, whose way of speaking about Christ he carried to Constantinople. Cyril of Alexandria wrote against him, and he answered Cyril in his own book. The Church of the East kept that book in Syriac.",
+   "why": "Nestorius was bishop of Constantinople for three years. He fell in a bitter quarrel with Cyril of Alexandria over how to speak of Christ. He was deposed in 431 and died in exile. His own defense survived in one Syriac copy, kept by the Church of the East. Western scholars found it only in the 1890s.",
+   "entry": null,
+   "teaser": "Constantinople, 428 to c. 451 CE: a bishop deposed after three years, whose own defense survived only because the Church of the East kept it.",
+   "longDescription": "The Library shelves Nestorius's voice with the Antiochene preachers, beside John Chrysostom and Theodore of Mopsuestia. Their story on this map ends in 430. His years as bishop and in exile run past that date.\n\nHe became bishop of Constantinople in 428. His sermons soon troubled people. Cyril of Alexandria heard of them and wrote him one letter of warning, then a second.\n\nIn 431 a council met at Ephesus. Nestorius would not come before it. The council said he was no longer a bishop. Maximian was made bishop of Constantinople in his place.\n\nNestorius was sent back to his monastery at Antioch. Later he was banished, and he ended up in Egypt. There, in exile, he wrote his own defense. He called it the Bazaar of Heracleides. In it he names Cyril as his enemy and the cause of his fall. He seems to have written it in 451 or 452, near the end of his life.\n\nHis books were ordered burned. The Bazaar survived only in Syriac. The Church of the East kept it, but its opponents called that church Nestorian. In its own synods it gave a different account of its faith.",
+   "voices": [
+    "Nestorius — the deposed bishop of Constantinople, whose own defense, the Bazaar of Heracleides, the Library holds in English and French",
+    "Cyril of Alexandria — his chief opponent, whose five books against him the Library also holds"
+   ],
+   "legacy": "The Church of the East kept his book. Its Syriac version was made around 535, according to the scholar Bedjan, though the date is not certain. Only one damaged copy was left, in the library of the patriarch of the Church of the East at Kotchanes, in Kurdistan. It was harmed when the Kurdish chief Bedr Khan Bey massacred Christians there in 1843. Western scholars noticed it in the 1890s, and it was printed in 1910.",
+   "reviewStatus": "AI-checked"
+  },
+  {
+   "id": "simeon-of-beth-arsham",
+   "atlasId": "TBD",
+   "era": 3,
+   "kind": "person",
+   "toldWithin": "syriac-orthodox-west-syriac-christianity",
+   "name": "Simeon of Beth Arsham",
+   "shortName": "Simeon",
+   "informalName": "Simeon the Persian Debater",
+   "dates": "c. 497-524",
+   "start": 497,
+   "end": 524,
+   "region": "Persian Mesopotamia",
+   "placeLabel": "Persian Mesopotamia",
+   "modernCountries": [],
+   "regions": [
+    "Middle East"
+   ],
+   "lane": "1 Syriac East & Asia",
+   "laneLabel": "Syriac East & Asia",
+   "laneOrder": 1,
+   "beyondFloor": false,
+   "status": "Within Another World (A5)",
+   "chip": "exc",
+   "glyph": "a5",
+   "statusWord": "Named within another tradition's story",
+   "statusDescription": "Not counted as a candidate tradition of its own — its story is told plainly inside another tradition's, rather than standing alone.",
+   "living": false,
+   "overlayCurrent": false,
+   "c2": null,
+   "sourcing": "Thin but direct. One letter of his survives, on the killing of the Christians of Najran, copied into a Syriac chronicle. John of Ephesus, who inherited some of his letters, wrote his life. One scholar in the 1800s called the letter a forgery, but most accept it as his.",
+   "floorNote": "The quarrel was over how to speak of Christ after Chalcedon, not over the Nicene Creed.",
+   "relationsSummary": "Told within the Syriac Orthodox church, the side he fought for inside Persia. He debated the leaders of the Church of the East before a Persian governor. His letter on Najran passed on news from the Christians of Himyar, whose king the Ethiopians had set up.",
+   "why": "Simeon was a Persian who argued for the Syriac Orthodox faith in the land where the Church of the East was strongest. John of Ephesus called him the Persian Debater. In 524 his letter spread the news of the martyrs of Najran across the Christian world.",
+   "entry": null,
+   "teaser": "Persia and the Arab camps, c. 497 to 524 CE: a debater who rode to every argument, and whose letter carried the story of the Najran martyrs.",
+   "longDescription": "Simeon was a bishop of the Syriac Orthodox side, though he worked inside the Persian empire. John of Ephesus wrote his life. He says Simeon was a Persian, and that he fought the school of Nestorius all his life. Wherever a debate was planned, Simeon would turn up, even from days away.\n\nOnce the bishops of the Church of the East called his side to a debate. The judge was a Persian governor. Their leader was the catholicos Babai, who held a synod in 497. Babai told the governor that Simeon's party were the king's enemies. After the debate, his own side made Simeon bishop of Beth Arsham by force.\n\nIn 524 he was at the camp of the Arab king Mundhir, with an envoy of the emperor Justin. There he heard of the killing of the Christians of Najran, in Himyar. At Nu'man's camp he met a Christian envoy of the late king of Himyar. He wrote it all down in a letter. He asked that the bishop of Alexandria be told, so that he could ask the king of the Ethiopians to help.\n\nJohn of Ephesus says Simeon died in Constantinople.",
+   "voices": [
+    "Simeon of Beth Arsham — the Persian Debater, whose letter on the Najran martyrs the Library holds inside a Syriac chronicle",
+    "John of Ephesus — the bishop who wrote his life and inherited some of his letters"
+   ],
+   "legacy": "His letter outlived him in other men's books. A Syriac chronicle of the 560s copied it, and so did John of Ephesus. A Greek account of the same martyrs drew on it in part. So his letter is one of the main roads by which the story of Najran reached later readers.",
+   "reviewStatus": "AI-checked"
+  },
+  {
+   "id": "peter-the-iberian",
+   "atlasId": "TBD",
+   "era": 3,
+   "kind": "person",
+   "toldWithin": null,
+   "name": "Peter the Iberian",
+   "shortName": "Peter the Iberian",
+   "informalName": "Peter the Iberian",
+   "dates": "445-488",
+   "start": 445,
+   "end": 488,
+   "region": "Maiuma near Gaza, and Georgia",
+   "placeLabel": "Maiuma · Georgia",
+   "modernCountries": [
+    {
+     "country": "Georgia",
+     "countryId": "Q230",
+     "place": "Georgia",
+     "placeId": "Q230"
+    }
+   ],
+   "regions": [
+    "Middle East",
+    "Caucasus"
+   ],
+   "lane": "3 Greek East & Orthodoxy",
+   "laneLabel": "Greek East & Orthodoxy",
+   "laneOrder": 3,
+   "beyondFloor": false,
+   "status": "Pre-Survey Candidate",
+   "chip": "psc",
+   "glyph": "psc",
+   "statusWord": "Told within no tradition",
+   "statusDescription": "No tradition here tells his story. What is known of him comes from the Life his disciples wrote about 500, and from their book of his sayings and memories.",
+   "living": false,
+   "overlayCurrent": false,
+   "c2": null,
+   "sourcing": "Moderate, and from one side. The Life of Peter was written about 500 by his own circle and survives in Syriac. The Library holds it in German. His disciple John Rufus wrote down his sayings in the Plerophories, held in French, which also keeps one letter of Peter's own.",
+   "floorNote": "The quarrel was over Chalcedon's formula, not the Nicene Creed. Peter refused the council of 451 all his life.",
+   "relationsSummary": "Known only through his own disciples. No tradition here tells his story. He was a prince of Kartli in Georgia. He became bishop near Gaza for those who refused Chalcedon. He helped make Timothy a rival bishop of Alexandria. Clergy from Antioch who refused the council joined him.",
+   "why": "Peter was a prince of Kartli, sent as a boy hostage to the court at Constantinople. He ran away to be a monk in Palestine. After Chalcedon, the people of Maiuma near Gaza carried him off to be their bishop. He spent the rest of his life leading those who refused the council.",
+   "entry": null,
+   "teaser": "Gaza and Maiuma, 445 to 488 CE. A Georgian prince who fled the palace to be a monk, and became a bishop for those who refused Chalcedon.",
+   "longDescription": "Peter the Iberian is known only through his own disciples. No tradition on this map tells his story. He came from the Christian royal house of Kartli, in Georgia, and he led the monks near Gaza who refused Chalcedon.\n\nHis father, the Life says, was Bosmarios, king of the Iberians. As a boy of twelve Peter was sent as a hostage to the court of Theodosius II. He grew up in the palace.\n\nHe fled to Palestine with his friend John the Eunuch, and there they took up the monk's life. Peter was made a priest in 445.\n\nAfter the council of 451, the monks of Palestine turned against their bishop, Juvenal, who had signed it. They chose a monk named Theodosius as their new bishop. The people of Maiuma near Gaza seized Peter and took him to Theodosius. Against his will, Theodosius made him their bishop.\n\nWhen the emperor Marcian moved against them, Peter went to Egypt. At Alexandria the people carried him off to help make Timothy their bishop. Later he lived near Gaza again. He died on 1 December 488.",
+   "voices": [
+    "Peter the Iberian — the Georgian prince and bishop of Maiuma, whose one surviving letter is kept in his disciple's book",
+    "John Rufus — his disciple and successor at Maiuma, who wrote down Peter's memories in the Plerophories"
+   ],
+   "legacy": "His disciples kept his memory alive. John Rufus took his place as bishop of Maiuma. He wrote down Peter's stories against Chalcedon. Severus of Antioch became a monk in Peter's house near Gaza, about two years after Peter died. Later, as patriarch, Severus held up Peter's practice as a rule to follow.",
+   "reviewStatus": "AI-checked"
+  }
+ ],
+ "fact_table": [
+  {
+   "entry": "origen",
+   "field": "sourcing",
+   "sentence": "The Library holds 16 of his own works on the shelf of the Alexandrian teachers.",
+   "work": "cic/corpus-map/alexandria-catechetical.yaml, rows with author origen and role tradition (16 distinct works, counted 2026-11-10)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "origen",
+   "field": "sourcing",
+   "sentence": "Eusebius gave most of a book of his Church History to Origen's life.",
+   "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+   "lines": "32732-32733",
+   "quote": "He was in his eighteenth year when he took charge of the catechetical school.",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "origen",
+   "field": "floorNote",
+   "sentence": "Some of his bolder ideas were attacked long after his death, and a church council condemned them about three centuries later.",
+   "work": "alexandria-catechetical floorNote (census, Built & Live): the dispute over his doctrines broke open c. 399-400 and a council condemned them three centuries after his death; existing link byzantine-imperial-church-justinianic--chalcedonian-monasticism-judean-desert-and-gaza (Evagrius IV.38, before the council of 553)",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "origen",
+   "field": "longDescription",
+   "sentence": "His father was beheaded for his faith while Origen was still young.",
+   "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+   "lines": "32459-32460",
+   "quote": "and who was beheaded while his son was still young.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "origen",
+   "field": "longDescription",
+   "sentence": "Eusebius says Origen was in his eighteenth year when he took charge of teaching new believers at Alexandria.",
+   "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+   "lines": "32732-32733",
+   "quote": "He was in his eighteenth year when he took charge of the catechetical school.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "origen",
+   "field": "longDescription",
+   "sentence": "He wrote commentaries on most of Scripture.",
+   "work": "alexandria-catechetical longDescription (census): 'wrote commentaries across most of Scripture'; the shelf holds his commentaries on Matthew, John and Romans (cic/texts/origen_commentarii-*)",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "origen",
+   "field": "longDescription",
+   "sentence": "About 231 he left Alexandria for Caesarea in Palestine.",
+   "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+   "lines": "36331-36332",
+   "quote": "in the tenth year of the above-mentioned reign that Origen removed from Alexandria to Cæsarea,",
+   "grade": "Documented"
+  },
+  {
+   "entry": "origen",
+   "field": "longDescription",
+   "sentence": "His own bishop, Demetrius, cut him off.",
+   "work": "Existing link coptic-christianity-under-early-islam--alexandria-catechetical (History of the Patriarchs: 'Origen, whom Demetrius had cut off'); alexandria-catechetical floorNote ('his bishop condemned his ordination')",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "origen",
+   "field": "longDescription",
+   "sentence": "Two brothers from Pontus stayed five years and later became bishops at home.",
+   "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+   "lines": "36681-36684",
+   "quote": "Remaining with him five years, they made such progress in divine things, that although they were still young, both of them were honored with a bishopric in the churches of Pontus.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "origen",
+   "field": "longDescription",
+   "sentence": "Under the emperor Decius he was thrown into prison. Eusebius tells of chains, an iron collar and the stocks.",
+   "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+   "lines": "37489-37490",
+   "quote": "bonds and bodily tortures and torments under the iron collar and in the dungeon",
+   "grade": "Documented"
+  },
+  {
+   "entry": "origen",
+   "field": "longDescription",
+   "sentence": "He survived, but he died soon after, aged sixty-nine.",
+   "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+   "lines": "39163",
+   "quote": "Origen died, being sixty-nine years of age.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "origen",
+   "field": "why",
+   "sentence": "Late in life he was tortured for his faith, and he died a few years after.",
+   "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+   "lines": "39163",
+   "quote": "Origen died, being sixty-nine years of age.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "origen",
+   "field": "why",
+   "sentence": "He began to teach at Alexandria as a teenager, after his father died a martyr.",
+   "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+   "lines": "32732-32733",
+   "quote": "He was in his eighteenth year when he took charge of the catechetical school.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "origen",
+   "field": "teaser",
+   "sentence": "c. 203 to 253 CE",
+   "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+   "lines": "39163",
+   "quote": "Origen died, being sixty-nine years of age.",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "origen",
+   "field": "legacy",
+   "sentence": "Basil and Gregory of Nazianzus drew on his work",
+   "work": "Existing link alexandria-catechetical--cappadocian-nicene-pastoral-monastic-tradition (Socrates IV.26)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "origen",
+   "field": "legacy",
+   "sentence": "and Rufinus put him into Latin.",
+   "work": "Existing link alexandria-catechetical--aquileian-christianity (Rufinus, prefaces)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "origen",
+   "field": "legacy",
+   "sentence": "Jerome first used his work and later called his teachings poison.",
+   "work": "Existing links alexandria-catechetical--hieronymian-ascetic-literary (Preface to Job) and hieronymian-ascetic-literary--alexandria-catechetical (Letter 84)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "origen",
+   "field": "legacy",
+   "sentence": "Methodius wrote against his view of the body.",
+   "work": "Existing link anatolian-church-third-century--alexandria-catechetical (Jerome, De vir. ill. 83; Photius cod. 234)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "origen",
+   "field": "legacy",
+   "sentence": "Much later, the History of the Patriarchs of Alexandria called his books blasphemous.",
+   "work": "Existing link coptic-christianity-under-early-islam--alexandria-catechetical",
+   "grade": "Documented"
+  },
+  {
+   "entry": "athanasius-of-alexandria",
+   "field": "sourcing",
+   "sentence": "The Library holds 22 of his own works on the shelf of the Alexandrian teachers.",
+   "work": "cic/corpus-map/alexandria-catechetical.yaml, rows with author athanasius and role tradition (22 distinct works, counted 2026-11-10)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "athanasius-of-alexandria",
+   "field": "sourcing",
+   "sentence": "They include his books against the Arians, his defenses and his letters",
+   "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+   "lines": "21583",
+   "quote": "Defence Against the Arians. (Apologia Contra Arianos.)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "athanasius-of-alexandria",
+   "field": "floorNote",
+   "sentence": "He spent his life defending the Creed of Nicaea.",
+   "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+   "lines": "1921-1922",
+   "quote": "and eloquence of the deacon Athanasius, who had accompanied his bishop to the council as an indispensable companion",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "athanasius-of-alexandria",
+   "field": "why",
+   "sentence": "Athanasius was bishop of Alexandria for forty-five years",
+   "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+   "lines": "7262",
+   "quote": "upon the forty-sixth year of his episcopate.",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "athanasius-of-alexandria",
+   "field": "why",
+   "sentence": "and was driven out five times.",
+   "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+   "lines": "7104",
+   "quote": "and mildest of the five exiles of Athanasius.",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "athanasius-of-alexandria",
+   "field": "longDescription",
+   "sentence": "Two churches claim Athanasius. The Coptic church counts him as its own, and so do the churches that accepted Chalcedon.",
+   "work": "Rulings_2026-11-09 item 1 (Build/Ministry/Operations/Audits/2026-11-08_tree-gap-sweep/): II.1's claim to the inheritance of Athanasius and Cyril is graded Contested, since the Chalcedonian line claims it too",
+   "grade": "Contested"
+  },
+  {
+   "entry": "athanasius-of-alexandria",
+   "field": "longDescription",
+   "sentence": "As a young deacon he went with his bishop, Alexander, to the Council of Nicaea in 325.",
+   "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+   "lines": "1921-1922",
+   "quote": "and eloquence of the deacon Athanasius, who had accompanied his bishop to the council as an indispensable companion",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "athanasius-of-alexandria",
+   "field": "longDescription",
+   "sentence": "On 8 June 328 he became bishop of Alexandria himself.",
+   "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+   "lines": "4474",
+   "quote": "lasts from June 8, 328, to July 11, 335",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "athanasius-of-alexandria",
+   "field": "longDescription",
+   "sentence": "His editor counts five exiles.",
+   "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+   "lines": "7104",
+   "quote": "and mildest of the five exiles of Athanasius.",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "athanasius-of-alexandria",
+   "field": "longDescription",
+   "sentence": "Between them he wrote against the Arians, in his Four Discourses and other books.",
+   "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+   "lines": "40860",
+   "quote": "Four Discourses Against the Arians.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "athanasius-of-alexandria",
+   "field": "longDescription",
+   "sentence": "He died in Alexandria on 2 May 373, in the forty-sixth year of his time as bishop.",
+   "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+   "lines": "7262",
+   "quote": "upon the forty-sixth year of his episcopate.",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "athanasius-of-alexandria",
+   "field": "longDescription",
+   "sentence": "2 May 373",
+   "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+   "lines": "7113",
+   "quote": "Last Years, Feb. 1, 366-May 2, 373.",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "athanasius-of-alexandria",
+   "field": "legacy",
+   "sentence": "Around 433 Cyril, a later bishop of Alexandria, wrote that he followed Athanasius and would not depart from him at all.",
+   "file": "cic/texts/cyril-alexandria_three-epistles-grc-eng_pusey1872.txt",
+   "lines": "5393-5395",
+   "quote": "specially of our blessed and all-cele- brated Father Athanasius, refusing to be borne one whit outside of it",
+   "grade": "Documented"
+  },
+  {
+   "entry": "athanasius-of-alexandria",
+   "field": "legacy",
+   "sentence": "Around 433",
+   "file": "cic/texts/cyril-alexandria_three-epistles-grc-eng_pusey1872.txt",
+   "lines": "5100",
+   "quote": "LETTER TO JOHN BISHOP OF ANTIOCH.",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "athanasius-of-alexandria",
+   "field": "legacy",
+   "sentence": "He even sent out true copies of one of Athanasius's letters, because a false version was going round.",
+   "file": "cic/texts/cyril-alexandria_three-epistles-grc-eng_pusey1872.txt",
+   "lines": "5438-5439",
+   "quote": "the Letter of our all-celebrated Father Athanasius to the blessed Epictetus, which is orthodox",
+   "grade": "Documented"
+  },
+  {
+   "entry": "gregory-of-nyssa",
+   "field": "sourcing",
+   "sentence": "The Library holds 20 of his own works on the shelf of the Cappadocians.",
+   "work": "cic/corpus-map/cappadocian-nicene-pastoral-monastic-tradition.yaml, rows with author gregory-nyssa and role tradition (20 distinct works, counted 2026-11-10)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "gregory-of-nyssa",
+   "field": "sourcing",
+   "sentence": "his Life of his sister Macrina",
+   "file": "cic/texts/gregory-nyssa_life-of-macrina_clarke1916.txt",
+   "lines": "44",
+   "quote": "The eldest child, Macrina, is the subject of this biography;",
+   "grade": "Documented"
+  },
+  {
+   "entry": "gregory-of-nyssa",
+   "field": "floorNote",
+   "sentence": "He was one of the bishops the emperor named in 381 as a standard of the Nicene faith.",
+   "work": "Existing link cappadocian-nicene-pastoral-monastic-tradition--imperial-juridical-christianity (Codex Theodosianus 16.1.3, 30 July 381: 'gregorio episcopo nysseno')",
+   "grade": "Documented"
+  },
+  {
+   "entry": "gregory-of-nyssa",
+   "field": "relationsSummary",
+   "sentence": "He finished Basil's answer to Eunomius",
+   "file": "cic/texts/npnf205_gregory-nyssa-dogmatic-treatises.txt",
+   "lines": "2787",
+   "quote": "When our saintly Basil fell asleep, and",
+   "grade": "Documented"
+  },
+  {
+   "entry": "gregory-of-nyssa",
+   "field": "relationsSummary",
+   "sentence": "and wrote against those who denied the Spirit was God.",
+   "work": "Existing link cappadocian-nicene-pastoral-monastic-tradition--pneumatomachian-current (Gregory of Nyssa, Against the Followers of Macedonius)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "gregory-of-nyssa",
+   "field": "relationsSummary",
+   "sentence": "A hostile party drove him from his see for a time.",
+   "work": "Existing link homoian-arian-christianity--cappadocian-nicene-pastoral-monastic-tradition (Basil, Letters 225 and 239)",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "gregory-of-nyssa",
+   "field": "why",
+   "sentence": "Gregory was the younger brother of Basil and Macrina",
+   "file": "cic/texts/gregory-nyssa_life-of-macrina_clarke1916.txt",
+   "lines": "44",
+   "quote": "St. Basil the Great was the eldest son.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "gregory-of-nyssa",
+   "field": "why",
+   "sentence": "He also wrote the only life we have of his sister.",
+   "file": "cic/texts/gregory-nyssa_life-of-macrina_clarke1916.txt",
+   "lines": "44",
+   "quote": "The eldest child, Macrina, is the subject of this biography;",
+   "grade": "Documented"
+  },
+  {
+   "entry": "gregory-of-nyssa",
+   "field": "longDescription",
+   "sentence": "Gregory was one of ten children. Basil was the eldest son and Macrina the eldest child.",
+   "file": "cic/texts/gregory-nyssa_life-of-macrina_clarke1916.txt",
+   "lines": "44",
+   "quote": "His parents, Basil and Emmelia, had ten children, of whom four sons and five daughters survived infancy.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "gregory-of-nyssa",
+   "field": "longDescription",
+   "sentence": "Basil was the eldest son and Macrina the eldest child.",
+   "file": "cic/texts/gregory-nyssa_life-of-macrina_clarke1916.txt",
+   "lines": "44",
+   "quote": "St. Basil the Great was the eldest son.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "gregory-of-nyssa",
+   "field": "longDescription",
+   "sentence": "Gregory and his brother Peter both became bishops.",
+   "file": "cic/texts/gregory-nyssa_life-of-macrina_clarke1916.txt",
+   "lines": "44",
+   "quote": "Gregory and Peter, the two youngest sons, became bishops eventually of Nyssa and Sebaste.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "gregory-of-nyssa",
+   "field": "longDescription",
+   "sentence": "Early in 372 he was chosen bishop of the small town of Nyssa.",
+   "file": "cic/texts/npnf205_gregory-nyssa-dogmatic-treatises.txt",
+   "lines": "403",
+   "quote": "372. Gregory elected Bishop of Nyssa early in this year.",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "gregory-of-nyssa",
+   "field": "longDescription",
+   "sentence": "Two or three years later his enemies brought charges against him, and he was sent away.",
+   "file": "cic/texts/npnf205_gregory-nyssa-dogmatic-treatises.txt",
+   "lines": "405",
+   "quote": "374. Gregory is exiled under Valens.",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "gregory-of-nyssa",
+   "field": "longDescription",
+   "sentence": "his enemies brought charges against him",
+   "work": "Existing link homoian-arian-christianity--cappadocian-nicene-pastoral-monastic-tradition (Basil, Letter 225, placed in 375: 'ordered my brother and fellow-minister Gregory to be haled before your judgment seat')",
+   "grade": "Documented"
+  },
+  {
+   "entry": "gregory-of-nyssa",
+   "field": "longDescription",
+   "sentence": "He came back to his see in 378.",
+   "file": "cic/texts/npnf205_gregory-nyssa-dogmatic-treatises.txt",
+   "lines": "413",
+   "quote": "378. Gregory Returns to his See.",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "gregory-of-nyssa",
+   "field": "longDescription",
+   "sentence": "After Basil died, Gregory took up his brother's quarrel with Eunomius. He wrote a long work in reply.",
+   "file": "cic/texts/npnf205_gregory-nyssa-dogmatic-treatises.txt",
+   "lines": "2787",
+   "quote": "When our saintly Basil fell asleep, and",
+   "grade": "Documented"
+  },
+  {
+   "entry": "gregory-of-nyssa",
+   "field": "longDescription",
+   "sentence": "In 381 he was at the council in Constantinople.",
+   "file": "cic/texts/npnf205_gregory-nyssa-dogmatic-treatises.txt",
+   "lines": "425",
+   "quote": "381. Gregory present at the Second Council.",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "gregory-of-nyssa",
+   "field": "longDescription",
+   "sentence": "He also wrote the Life of Macrina. It is the only record of her that survives.",
+   "file": "cic/texts/gregory-nyssa_life-of-macrina_clarke1916.txt",
+   "lines": "44",
+   "quote": "The eldest child, Macrina, is the subject of this biography;",
+   "grade": "Documented"
+  },
+  {
+   "entry": "gregory-of-nyssa",
+   "field": "longDescription",
+   "sentence": "It is the only record of her that survives.",
+   "work": "cappadocian-nicene-pastoral-monastic-tradition longDescription (census, Built & Live): 'That account is the only record of her that survives'",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "gregory-of-nyssa",
+   "field": "longDescription",
+   "sentence": "The last trace of Gregory himself is a synod at Constantinople in 394.",
+   "file": "cic/texts/npnf205_gregory-nyssa-dogmatic-treatises.txt",
+   "lines": "909",
+   "quote": "The last record we have of him is that he was present at a Synod",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "gregory-of-nyssa",
+   "field": "legacy",
+   "sentence": "In July 381 the emperor Theodosius named him in a law. Bishops in Pontus had to be in communion with Gregory of Nyssa, or with Helladius of Caesarea, to count as Catholic.",
+   "work": "Existing link cappadocian-nicene-pastoral-monastic-tradition--imperial-juridical-christianity (Codex Theodosianus 16.1.3; Sozomen VII.9)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "gregory-of-nyssa",
+   "field": "legacy",
+   "sentence": "The council of that year gave the two men charge of the church in Pontus.",
+   "work": "Existing link cappadocian-nicene-pastoral-monastic-tradition--imperial-juridical-christianity (Socrates V.8)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "ephrem-the-syrian",
+   "field": "sourcing",
+   "sentence": "The Library holds 11 of his own works on the shelf of the Syriac church of Edessa and Nisibis.",
+   "work": "cic/corpus-map/syriac-edessa-nisibis.yaml, rows with author ephrem and role tradition (11 distinct works, counted 2026-11-10)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "ephrem-the-syrian",
+   "field": "sourcing",
+   "sentence": "hymns, homilies and prose refutations",
+   "file": "cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+   "lines": "10628",
+   "quote": "He was a most copious writer,",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "ephrem-the-syrian",
+   "field": "floorNote",
+   "sentence": "He holds the faith the Nicene Creed states.",
+   "work": "syriac-edessa-nisibis floorNote (census, Built & Live): 'This tradition holds the doctrine the Nicene Creed states'",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "ephrem-the-syrian",
+   "field": "relationsSummary",
+   "sentence": "A later teacher of the Church of the East said Ephrem founded a school at Edessa after 363.",
+   "work": "Existing link syriac-edessa-nisibis--the-church-of-the-east-under-persia (Barhadbeshabba, Cause of the Foundation of the Schools)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "ephrem-the-syrian",
+   "field": "why",
+   "sentence": "He served as a deacon.",
+   "file": "cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+   "lines": "10624",
+   "quote": "from him he received the diaconate",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "ephrem-the-syrian",
+   "field": "why",
+   "sentence": "The sources differ on where he was ordained.",
+   "work": "syriac-edessa-nisibis voices (census, Built & Live): 'Ephrem was a deacon, first at Nisibis and then, after 363, at Edessa'. Gwynn (NPNF 2.13) instead says he received the diaconate from Basil; see flags",
+   "grade": "Contested"
+  },
+  {
+   "entry": "ephrem-the-syrian",
+   "field": "longDescription",
+   "sentence": "Ephrem was born at Nisibis and learned from its bishop, Jacob.",
+   "file": "cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+   "lines": "10610-10611",
+   "quote": "he was a disciple of St. Jacob, Bishop of that city,",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "ephrem-the-syrian",
+   "field": "longDescription",
+   "sentence": "He lived through three Persian sieges of the city.",
+   "file": "cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+   "lines": "10613-10614",
+   "quote": "through three unsuccessful sieges laid to it by Sapor, King of Persia,",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "ephrem-the-syrian",
+   "field": "longDescription",
+   "sentence": "In 363 Rome gave Nisibis up to Persia, and its Christians left. Ephrem settled at Edessa.",
+   "file": "cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+   "lines": "10616-10617",
+   "quote": "Nisibis was then abandoned by its Christian inhabitants; and Ephraim finally settled at Edessa,",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "ephrem-the-syrian",
+   "field": "longDescription",
+   "sentence": "In 363",
+   "work": "Existing link syriac-edessa-nisibis--persian-church-of-the-east-early (Gwynn, NPNF 2.13: 'It was in July, 363, that Nisibis was surrendered to Persia by Jovian')",
+   "grade": "Documented"
+  },
+  {
+   "entry": "ephrem-the-syrian",
+   "field": "longDescription",
+   "sentence": "He wrote a great deal: sermons, commentaries and hymns.",
+   "file": "cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+   "lines": "10628",
+   "quote": "He was a most copious writer,",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "ephrem-the-syrian",
+   "field": "longDescription",
+   "sentence": "Most writers date his death to 373. Some think he lived until 378.",
+   "file": "cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+   "lines": "10627",
+   "quote": "in the year 373 according to most authorities, but some",
+   "grade": "Contested"
+  },
+  {
+   "entry": "ephrem-the-syrian",
+   "field": "teaser",
+   "sentence": "c. 338",
+   "work": "syriac-edessa-nisibis longDescription (census): in 338 'Ephrem, the city's own hymnwriter, remembered its deliverance'; Gwynn (NPNF 2.13): he lived at Nisibis through the sieges under Jacob, who died 338",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "ephrem-the-syrian",
+   "field": "legacy",
+   "sentence": "Barhadbeshabba wrote about 600. He said Ephrem set up a school at Edessa after Nisibis passed to Persia.",
+   "work": "Existing link syriac-edessa-nisibis--the-church-of-the-east-under-persia",
+   "grade": "Documented"
+  },
+  {
+   "entry": "ephrem-the-syrian",
+   "field": "legacy",
+   "sentence": "He traced his own church's school at Nisibis back through the teachers who came after.",
+   "work": "Existing link syriac-edessa-nisibis--the-church-of-the-east-under-persia (Barhadbeshabba on Narsai founding the school at Nisibis)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "john-chrysostom",
+   "field": "sourcing",
+   "sentence": "The Library holds 36 of his own works on the shelf of the Antiochene preachers.",
+   "work": "cic/corpus-map/antiochene-exegetical-christianity-chrysostom-ce.yaml, rows with author john-chrysostom and role tradition (36 distinct works, counted 2026-11-10)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "john-chrysostom",
+   "field": "sourcing",
+   "sentence": "Palladius, a bishop who stood by him, wrote a dialogue on his life.",
+   "file": "cic/texts/palladius_dialogue-life-of-chrysostom_moore1921.txt",
+   "lines": "3297",
+   "quote": "He was taught rhetoric by Libanius, a famous sophist,",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "john-chrysostom",
+   "field": "relationsSummary",
+   "sentence": "The court chose him as bishop of Constantinople.",
+   "work": "Existing link antiochene-exegetical-christianity-chrysostom-ce--imperial-juridical-christianity (Socrates VI.2)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "john-chrysostom",
+   "field": "relationsSummary",
+   "sentence": "Then two synods condemned him, and the emperor sent him away.",
+   "work": "Existing link imperial-juridical-christianity--antiochene-exegetical-christianity-chrysostom-ce (Socrates VI.18)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "john-chrysostom",
+   "field": "relationsSummary",
+   "sentence": "Calvin and the Lutherans quoted him a thousand years later.",
+   "work": "Existing links antiochene-exegetical-christianity-chrysostom-ce--the-reformed-cities-zurich-and-geneva and --lutheran-wittenberg-and-its-congregations",
+   "grade": "Documented"
+  },
+  {
+   "entry": "john-chrysostom",
+   "field": "why",
+   "sentence": "John preached at Antioch for twelve years and then at Constantinople.",
+   "file": "cic/texts/palladius_dialogue-life-of-chrysostom_moore1921.txt",
+   "lines": "656",
+   "quote": "386. Ordained priest at Antioch",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "john-chrysostom",
+   "field": "why",
+   "sentence": "He spoke plainly about money, cruelty and the poor.",
+   "work": "antiochene-exegetical-christianity-chrysostom-ce longDescription (census): 'on money, on anger, on how you treat your servants ... on almsgiving as a matter of justice'",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "john-chrysostom",
+   "field": "why",
+   "sentence": "He died on the road into a second exile.",
+   "file": "cic/texts/palladius_dialogue-life-of-chrysostom_moore1921.txt",
+   "lines": "706",
+   "quote": "407 (June). Removal to Pityus",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "john-chrysostom",
+   "field": "longDescription",
+   "sentence": "John studied rhetoric with Libanius, a famous pagan teacher.",
+   "file": "cic/texts/palladius_dialogue-life-of-chrysostom_moore1921.txt",
+   "lines": "3297",
+   "quote": "He was taught rhetoric by Libanius, a famous sophist,",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "john-chrysostom",
+   "field": "longDescription",
+   "sentence": "He was ordained priest at Antioch in 386.",
+   "file": "cic/texts/palladius_dialogue-life-of-chrysostom_moore1921.txt",
+   "lines": "656",
+   "quote": "386. Ordained priest at Antioch",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "john-chrysostom",
+   "field": "longDescription",
+   "sentence": "In February 398 he was made bishop of Constantinople.",
+   "file": "cic/texts/palladius_dialogue-life-of-chrysostom_moore1921.txt",
+   "lines": "657",
+   "quote": "398 (Feb. 26). Ordained bishop at Constantinople",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "john-chrysostom",
+   "field": "longDescription",
+   "sentence": "The court chose him. It pressed the bishop of Alexandria to make him bishop.",
+   "work": "Existing link antiochene-exegetical-christianity-chrysostom-ce--imperial-juridical-christianity (Socrates VI.2: 'The court however gave the preference to John')",
+   "grade": "Documented"
+  },
+  {
+   "entry": "john-chrysostom",
+   "field": "longDescription",
+   "sentence": "In 403 a synod met at a place called the Oak and condemned him.",
+   "file": "cic/texts/palladius_dialogue-life-of-chrysostom_moore1921.txt",
+   "lines": "678",
+   "quote": "403. The Synod of The Oak",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "john-chrysostom",
+   "field": "longDescription",
+   "sentence": "Two synods had now judged him, and the emperor barred him from his church. Then an imperial decree sent him into exile.",
+   "work": "Existing link imperial-juridical-christianity--antiochene-exegetical-christianity-chrysostom-ce (Socrates VI.18)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "john-chrysostom",
+   "field": "longDescription",
+   "sentence": "He lived for three years at Cucusus in the mountains.",
+   "file": "cic/texts/palladius_dialogue-life-of-chrysostom_moore1921.txt",
+   "lines": "787",
+   "quote": "Cucusus, asking for his prayers, and saying that he",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "john-chrysostom",
+   "field": "longDescription",
+   "sentence": "In 407 he was ordered on to Pityus on the Black Sea.",
+   "file": "cic/texts/palladius_dialogue-life-of-chrysostom_moore1921.txt",
+   "lines": "706",
+   "quote": "407 (June). Removal to Pityus",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "john-chrysostom",
+   "field": "longDescription",
+   "sentence": "He died on the way, on 14 September.",
+   "file": "cic/texts/palladius_dialogue-life-of-chrysostom_moore1921.txt",
+   "lines": "707",
+   "quote": "(Sept.14). Death",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "john-chrysostom",
+   "field": "legacy",
+   "sentence": "Calvin quoted him with delight: 'The foundation of our philosophy is humility.' Yet he said Chrysostom gave the human will too much power.",
+   "work": "Existing link antiochene-exegetical-christianity-chrysostom-ce--the-reformed-cities-zurich-and-geneva (Institutes II.2.11, II.2.4)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "john-chrysostom",
+   "field": "legacy",
+   "sentence": "In 1530 the Augsburg Confession named him as a witness to how the early church shared Communion.",
+   "work": "Existing link antiochene-exegetical-christianity-chrysostom-ce--lutheran-wittenberg-and-its-congregations (Augsburg Confession XXIV)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "nestorius",
+   "field": "sourcing",
+   "sentence": "The Library holds three works of his on the shelf of the Antiochene preachers.",
+   "work": "cic/corpus-map/antiochene-exegetical-christianity-chrysostom-ce.yaml, rows with author nestorius and role tradition (3 distinct works, counted 2026-11-10)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "nestorius",
+   "field": "sourcing",
+   "sentence": "The Bazaar survives only in a Syriac translation.",
+   "file": "cic/texts/nestorius_bazaar-of-heracleides_driver-hodgson1925.txt",
+   "lines": "372",
+   "quote": "The Syriac translation of the latter work was made about",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "nestorius",
+   "field": "floorNote",
+   "sentence": "Cyril and the council at Ephesus in 431 judged that his teaching on Christ split him into two.",
+   "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+   "lines": "17279-17280",
+   "quote": "that Nestorius be excluded from the episcopal dignity, and from all priestly communion.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "nestorius",
+   "field": "floorNote",
+   "sentence": "In his own defense Nestorius denied it.",
+   "file": "cic/texts/nestorius_bazaar-of-heracleides_driver-hodgson1925.txt",
+   "lines": "4406",
+   "quote": "and there were not two Sons but one by an union.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "nestorius",
+   "field": "floorNote",
+   "sentence": "Historians still argue over what he really taught; a 1908 study, Nestorius and his Teaching, reopened the question.",
+   "file": "cic/texts/nestorius_bazaar-of-heracleides_driver-hodgson1925.txt",
+   "lines": "310",
+   "quote": "Bethune-Baker of Cambridge in 1908 in his monograph",
+   "grade": "Contested"
+  },
+  {
+   "entry": "nestorius",
+   "field": "why",
+   "sentence": "Nestorius was bishop of Constantinople for three years.",
+   "file": "cic/texts/nestorius_bazaar-of-heracleides_driver-hodgson1925.txt",
+   "lines": "694",
+   "quote": "Nestorius becomes bishop of Constantinople",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "nestorius",
+   "field": "why",
+   "sentence": "He was deposed in 431 and died in exile.",
+   "file": "cic/texts/nestorius_bazaar-of-heracleides_driver-hodgson1925.txt",
+   "lines": "264",
+   "quote": "THE Council of Ephesus met in June, A.D. 431,",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "nestorius",
+   "field": "why",
+   "sentence": "His own defense survived in one Syriac copy, kept by the Church of the East. Western scholars found it only in the 1890s.",
+   "file": "cic/texts/nestorius_bazaar-of-heracleides_driver-hodgson1925.txt",
+   "lines": "333-335",
+   "quote": "Apart from the reference to it by Ebedjesu it is not again heard of until the nineteenth century.",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "nestorius",
+   "field": "longDescription",
+   "sentence": "The Library shelves Nestorius's voice with the Antiochene preachers, beside John Chrysostom and Theodore of Mopsuestia.",
+   "work": "cic/corpus-map/antiochene-exegetical-christianity-chrysostom-ce.yaml (author nestorius, role tradition); census voices of the same entry name Chrysostom and Theodore",
+   "grade": "Documented"
+  },
+  {
+   "entry": "nestorius",
+   "field": "longDescription",
+   "sentence": "He became bishop of Constantinople in 428.",
+   "file": "cic/texts/nestorius_bazaar-of-heracleides_driver-hodgson1925.txt",
+   "lines": "694",
+   "quote": "Nestorius becomes bishop of Constantinople",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "nestorius",
+   "field": "longDescription",
+   "sentence": "His sermons soon troubled people. Cyril of Alexandria heard of them and wrote him one letter of warning, then a second.",
+   "file": "cic/texts/nestorius_bazaar-of-heracleides_driver-hodgson1925.txt",
+   "lines": "8566-8568",
+   "quote": "the reverend bishop of Alexandria, Cyril, learned this, he wrote one letter and a second unto his reverence, full of counsels and warning;",
+   "grade": "Documented"
+  },
+  {
+   "entry": "nestorius",
+   "field": "longDescription",
+   "sentence": "In 431 a council met at Ephesus.",
+   "file": "cic/texts/nestorius_bazaar-of-heracleides_driver-hodgson1925.txt",
+   "lines": "264",
+   "quote": "THE Council of Ephesus met in June, A.D. 431,",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "nestorius",
+   "field": "longDescription",
+   "sentence": "Nestorius would not come before it.",
+   "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+   "lines": "823-824",
+   "quote": "after summoning him three times to appear that he might be heard in his own defence",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "nestorius",
+   "field": "longDescription",
+   "sentence": "The council said he was no longer a bishop.",
+   "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+   "lines": "17279-17280",
+   "quote": "that Nestorius be excluded from the episcopal dignity, and from all priestly communion.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "nestorius",
+   "field": "longDescription",
+   "sentence": "Maximian was made bishop of Constantinople in his place. Nestorius was sent back to his monastery at Antioch.",
+   "file": "cic/texts/nestorius_bazaar-of-heracleides_driver-hodgson1925.txt",
+   "lines": "267-269",
+   "quote": "Nestorius was bidden to return to his monastery at Antioch, and Maximian was consecrated Archbishop of Constantinople in his place.",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "nestorius",
+   "field": "longDescription",
+   "sentence": "Later he was banished, and he ended up in Egypt.",
+   "file": "cic/texts/nestorius_bazaar-of-heracleides_driver-hodgson1925.txt",
+   "lines": "274-275",
+   "quote": "Nestorius himself was banished to Arabia, but he was actually sent to Egypt,",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "nestorius",
+   "field": "longDescription",
+   "sentence": "There, in exile, he wrote his own defense. He called it the Bazaar of Heracleides.",
+   "file": "cic/texts/nestorius_bazaar-of-heracleides_driver-hodgson1925.txt",
+   "lines": "366-367",
+   "quote": "Nestorius himself wrote his defence in Greek;",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "nestorius",
+   "field": "longDescription",
+   "sentence": "In it he names Cyril as his enemy and the cause of his fall.",
+   "file": "cic/texts/nestorius_bazaar-of-heracleides_driver-hodgson1925.txt",
+   "lines": "7251-7252",
+   "quote": "thou wrotest unto me a hostile letter which testified unto ‘me that thou wast mine enemy",
+   "grade": "Documented"
+  },
+  {
+   "entry": "nestorius",
+   "field": "longDescription",
+   "sentence": "He seems to have written it in 451 or 452, near the end of his life.",
+   "file": "cic/texts/nestorius_bazaar-of-heracleides_driver-hodgson1925.txt",
+   "lines": "314-315",
+   "quote": "The book must have been written by Nestorius in the year 451 or 452,",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "nestorius",
+   "field": "longDescription",
+   "sentence": "His books were ordered burned.",
+   "file": "cic/texts/nestorius_bazaar-of-heracleides_driver-hodgson1925.txt",
+   "lines": "272-273",
+   "quote": "copy, preserve, or read the writings of their master, which were ordered to be burned.",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "nestorius",
+   "field": "longDescription",
+   "sentence": "The Bazaar survived only in Syriac.",
+   "file": "cic/texts/nestorius_bazaar-of-heracleides_driver-hodgson1925.txt",
+   "lines": "369-370",
+   "quote": "Now only the Nestorian liturgy and 7he Bazaar of Heracleides are known.",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "nestorius",
+   "field": "longDescription",
+   "sentence": "The Church of the East kept it, but its opponents called that church Nestorian. In its own synods it gave a different account of its faith.",
+   "work": "the-church-of-the-east-under-persia floorNote and longDescription (census): '\"Nestorian\" was a name its opponents gave it. Its own synods say something different'",
+   "grade": "Documented"
+  },
+  {
+   "entry": "nestorius",
+   "field": "legacy",
+   "sentence": "Its Syriac version was made around 535, according to the scholar Bedjan, though the date is not certain.",
+   "file": "cic/texts/nestorius_bazaar-of-heracleides_driver-hodgson1925.txt",
+   "lines": "372-373",
+   "quote": "The Syriac translation of the latter work was made about 535 under the patriarch Paul, according to Bedjan",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "nestorius",
+   "field": "legacy",
+   "sentence": "Only one damaged copy was left, in the library of the patriarch of the Church of the East at Kotchanes, in Kurdistan.",
+   "file": "cic/texts/nestorius_bazaar-of-heracleides_driver-hodgson1925.txt",
+   "lines": "374-376",
+   "quote": "there is extant only one mutilated manuscript, which is pre- served in the library of the Nestorian patriarch at Kotchanes, in Kurdistan.",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "nestorius",
+   "field": "legacy",
+   "sentence": "It was harmed when the Kurdish chief Bedr Khan Bey massacred Christians there in 1843.",
+   "file": "cic/texts/nestorius_bazaar-of-heracleides_driver-hodgson1925.txt",
+   "lines": "378-379",
+   "quote": "massacre of Nestorian Christians by the Kurdish chief Bedr Khan Bey in 1843.",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "nestorius",
+   "field": "legacy",
+   "sentence": "Western scholars noticed it in the 1890s",
+   "file": "cic/texts/nestorius_bazaar-of-heracleides_driver-hodgson1925.txt",
+   "lines": "338-340",
+   "quote": "It was noticed in the last decade of the nineteenth century by two German scholars,",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "nestorius",
+   "field": "legacy",
+   "sentence": "and it was printed in 1910.",
+   "work": "cic/texts/nestorius_livre-d-heraclide-de-damas-fra_nau1910.txt (F. Nau, Le Livre d'Héraclide de Damas, Paris 1910; header and title page)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "nestorius",
+   "field": "teaser",
+   "sentence": "c. 451",
+   "file": "cic/texts/nestorius_bazaar-of-heracleides_driver-hodgson1925.txt",
+   "lines": "314-315",
+   "quote": "The book must have been written by Nestorius in the year 451 or 452,",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "simeon-of-beth-arsham",
+   "field": "sourcing",
+   "sentence": "One letter of his survives, on the killing of the Christians of Najran, copied into a Syriac chronicle.",
+   "file": "cic/texts/zachariah-rhetor_chronicle_hamiltonbrooks1899.txt",
+   "lines": "9506",
+   "quote": "SIMEON, ARCHIMANDRITE OF GABBULA, AS FOLLOWS",
+   "grade": "Documented"
+  },
+  {
+   "entry": "simeon-of-beth-arsham",
+   "field": "sourcing",
+   "sentence": "John of Ephesus, who inherited some of his letters, wrote his life.",
+   "file": "cic/texts/john-of-ephesus_lives-of-the-eastern-saints_brooks1923.txt",
+   "lines": "8881",
+   "quote": "we inherited in order to supplement his blessing.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "simeon-of-beth-arsham",
+   "field": "sourcing",
+   "sentence": "One scholar in the 1800s called the letter a forgery, but most accept it as his.",
+   "file": "cic/texts/book-of-the-himyarites-syr-eng_moberg1924.txt",
+   "lines": "1615",
+   "quote": "view held also by Halévy,”) who thinks the Letter a forgery without",
+   "grade": "Contested"
+  },
+  {
+   "entry": "simeon-of-beth-arsham",
+   "field": "sourcing",
+   "sentence": "but most accept it as his.",
+   "file": "cic/texts/book-of-the-himyarites-syr-eng_moberg1924.txt",
+   "lines": "1606",
+   "quote": "relation to each other it seems tO be the preferred opinion that the Acta",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "simeon-of-beth-arsham",
+   "field": "floorNote",
+   "sentence": "The quarrel was over how to speak of Christ after Chalcedon, not over the Nicene Creed.",
+   "work": "syriac-orthodox-west-syriac-christianity floorNote (census): 'The disagreement was with Chalcedon's formula, not with the content of the Nicene Creed'",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "simeon-of-beth-arsham",
+   "field": "relationsSummary",
+   "sentence": "He debated the leaders of the Church of the East before a Persian governor.",
+   "file": "cic/texts/john-of-ephesus_lives-of-the-eastern-saints_brooks1923.txt",
+   "lines": "8358",
+   "quote": "the great catholicus, whose name was Babai",
+   "grade": "Documented"
+  },
+  {
+   "entry": "simeon-of-beth-arsham",
+   "field": "relationsSummary",
+   "sentence": "His letter on Najran passed on news from the Christians of Himyar, whose king the Ethiopians had set up.",
+   "file": "cic/texts/zachariah-rhetor_chronicle_hamiltonbrooks1899.txt",
+   "lines": "9796-9797",
+   "quote": "we found a Christian envoy who had been sent by the king of the Homerites before he died.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "simeon-of-beth-arsham",
+   "field": "relationsSummary",
+   "sentence": "whose king the Ethiopians had set up",
+   "file": "cic/texts/zachariah-rhetor_chronicle_hamiltonbrooks1899.txt",
+   "lines": "9557",
+   "quote": "The king whom the Ethiopians set up in our",
+   "grade": "Documented"
+  },
+  {
+   "entry": "simeon-of-beth-arsham",
+   "field": "why",
+   "sentence": "John of Ephesus called him the Persian Debater.",
+   "file": "cic/texts/john-of-ephesus_lives-of-the-eastern-saints_brooks1923.txt",
+   "lines": "7881",
+   "quote": "TRUE FAITII, Man SIMEON THE BISHOP, THE PERSIAN DEBATER.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "simeon-of-beth-arsham",
+   "field": "why",
+   "sentence": "Simeon was a Persian",
+   "file": "cic/texts/john-of-ephesus_lives-of-the-eastern-saints_brooks1923.txt",
+   "lines": "7929",
+   "quote": "IL becanse he was also a Persian, and he lived in Persti,",
+   "grade": "Documented"
+  },
+  {
+   "entry": "simeon-of-beth-arsham",
+   "field": "why",
+   "sentence": "In 524 his letter spread the news of the martyrs of Najran across the Christian world.",
+   "file": "cic/texts/book-of-the-himyarites-syr-eng_moberg1924.txt",
+   "lines": "1614",
+   "quote": "deeds in Najran, that is in the year 524 of our era.",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "simeon-of-beth-arsham",
+   "field": "longDescription",
+   "sentence": "He says Simeon was a Persian, and that he fought the school of Nestorius all his life.",
+   "file": "cic/texts/john-of-ephesus_lives-of-the-eastern-saints_brooks1923.txt",
+   "lines": "7891",
+   "quote": "tlie fraudulent disciples of the school of Nestorius,",
+   "grade": "Documented"
+  },
+  {
+   "entry": "simeon-of-beth-arsham",
+   "field": "longDescription",
+   "sentence": "Wherever a debate was planned, Simeon would turn up, even from days away.",
+   "file": "cic/texts/john-of-ephesus_lives-of-the-eastern-saints_brooks1923.txt",
+   "lines": "8016",
+   "quote": "vers Who were in it, if he were five or ten days’ journey (uavstey) away,",
+   "grade": "Documented"
+  },
+  {
+   "entry": "simeon-of-beth-arsham",
+   "field": "longDescription",
+   "sentence": "Once the bishops of the Church of the East called his side to a debate. The judge was a Persian governor.",
+   "file": "cic/texts/john-of-ephesus_lives-of-the-eastern-saints_brooks1923.txt",
+   "lines": "8353",
+   "quote": "He on his side says to them : « Neither will we refuse to accept",
+   "grade": "Documented"
+  },
+  {
+   "entry": "simeon-of-beth-arsham",
+   "field": "longDescription",
+   "sentence": "Their leader was the catholicos Babai",
+   "file": "cic/texts/john-of-ephesus_lives-of-the-eastern-saints_brooks1923.txt",
+   "lines": "8358",
+   "quote": "the great catholicus, whose name was Babai",
+   "grade": "Documented"
+  },
+  {
+   "entry": "simeon-of-beth-arsham",
+   "field": "longDescription",
+   "sentence": "who held a synod in 497.",
+   "file": "cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt",
+   "lines": "20289",
+   "quote": "[A. D. 497.]",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "simeon-of-beth-arsham",
+   "field": "longDescription",
+   "sentence": "Babai told the governor that Simeon's party were the king's enemies.",
+   "file": "cic/texts/john-of-ephesus_lives-of-the-eastern-saints_brooks1923.txt",
+   "lines": "8360",
+   "quote": "your high excelleney that these men are the kings enemies, and their faith",
+   "grade": "Documented"
+  },
+  {
+   "entry": "simeon-of-beth-arsham",
+   "field": "longDescription",
+   "sentence": "After the debate, his own side made Simeon bishop of Beth Arsham by force.",
+   "file": "cic/texts/john-of-ephesus_lives-of-the-eastern-saints_brooks1923.txt",
+   "lines": "8596",
+   "quote": "rious, they seized him by foree and made him bishop for a place called Beth",
+   "grade": "Documented"
+  },
+  {
+   "entry": "simeon-of-beth-arsham",
+   "field": "longDescription",
+   "sentence": "In 524 he was at the camp of the Arab king Mundhir, with an envoy of the emperor Justin.",
+   "file": "cic/texts/zachariah-rhetor_chronicle_hamiltonbrooks1899.txt",
+   "lines": "9539",
+   "quote": "with Abraham the presbyter, the son of Euphrasius, who had",
+   "grade": "Documented"
+  },
+  {
+   "entry": "simeon-of-beth-arsham",
+   "field": "longDescription",
+   "sentence": "There he heard of the killing of the Christians of Najran, in Himyar.",
+   "file": "cic/texts/zachariah-rhetor_chronicle_hamiltonbrooks1899.txt",
+   "lines": "9555",
+   "quote": "the king of the Homerites to Mundhir, and gave him an",
+   "grade": "Documented"
+  },
+  {
+   "entry": "simeon-of-beth-arsham",
+   "field": "longDescription",
+   "sentence": "At Nu'man's camp he met a Christian envoy of the late king of Himyar.",
+   "file": "cic/texts/zachariah-rhetor_chronicle_hamiltonbrooks1899.txt",
+   "lines": "9796-9797",
+   "quote": "we found a Christian envoy who had been sent by the king of the Homerites before he died.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "simeon-of-beth-arsham",
+   "field": "longDescription",
+   "sentence": "He asked that the bishop of Alexandria be told, so that he could ask the king of the Ethiopians to help.",
+   "file": "cic/texts/zachariah-rhetor_chronicle_hamiltonbrooks1899.txt",
+   "lines": "9998",
+   "quote": "of Alexandria, in order that he may write to the king of the",
+   "grade": "Documented"
+  },
+  {
+   "entry": "simeon-of-beth-arsham",
+   "field": "longDescription",
+   "sentence": "John of Ephesus says Simeon died in Constantinople.",
+   "file": "cic/texts/john-of-ephesus_lives-of-the-eastern-saints_brooks1923.txt",
+   "lines": "7923",
+   "quote": "and ordered bim to finish his course in tlie royal erty of Constantinople.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "simeon-of-beth-arsham",
+   "field": "legacy",
+   "sentence": "A Syriac chronicle of the 560s copied it, and so did John of Ephesus.",
+   "file": "cic/texts/zachariah-rhetor_chronicle_hamiltonbrooks1899.txt",
+   "lines": "502",
+   "quote": "concerning the letter of Simeon of Beth Arsham in 8. 3. Of",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "simeon-of-beth-arsham",
+   "field": "legacy",
+   "sentence": "A Greek account of the same martyrs drew on it in part.",
+   "file": "cic/texts/zachariah-rhetor_chronicle_hamiltonbrooks1899.txt",
+   "lines": "9528",
+   "quote": "A Greek account of the same events, derived in part from this letter, is contained in",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "simeon-of-beth-arsham",
+   "field": "legacy",
+   "sentence": "So his letter is one of the main roads by which the story of Najran reached later readers.",
+   "file": "cic/texts/book-of-the-himyarites-syr-eng_moberg1924.txt",
+   "lines": "1606",
+   "quote": "relation to each other it seems tO be the preferred opinion that the Acta",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "simeon-of-beth-arsham",
+   "field": "teaser",
+   "sentence": "c. 497",
+   "file": "cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt",
+   "lines": "20289",
+   "quote": "[A. D. 497.]",
+   "grade": "Inferential-Thin"
+  },
+  {
+   "entry": "peter-the-iberian",
+   "field": "sourcing",
+   "sentence": "The Life of Peter was written about 500 by his own circle and survives in Syriac.",
+   "file": "cic/texts/life-of-peter-the-iberian_petrus-der-iberer-deu_raabe1895.txt",
+   "lines": "212",
+   "quote": "Jahr 500 — und in gleicher Weise auch noch später —",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "peter-the-iberian",
+   "field": "sourcing",
+   "sentence": "His disciple John Rufus wrote down his sayings in the Plerophories",
+   "file": "cic/texts/po08_john-rufus-plerophories-and-others-fra_1912.txt",
+   "lines": "499",
+   "quote": "En somme, Jean Rufus a rédigé en grec, peu aprés 512, avec quelques",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "peter-the-iberian",
+   "field": "sourcing",
+   "sentence": "which also keeps one letter of Peter's own.",
+   "file": "cic/texts/po08_john-rufus-plerophories-and-others-fra_1912.txt",
+   "lines": "3230",
+   "quote": "* LETTRE DE SAINT PIERRE L'IBERE.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "peter-the-iberian",
+   "field": "floorNote",
+   "sentence": "Peter refused the council of 451 all his life.",
+   "file": "cic/texts/life-of-peter-the-iberian_petrus-der-iberer-deu_raabe1895.txt",
+   "lines": "2769",
+   "quote": "Übertretung in Chalcedon. Denn als allenthalben die",
+   "grade": "Documented"
+  },
+  {
+   "entry": "peter-the-iberian",
+   "field": "floorNote",
+   "sentence": "The quarrel was over Chalcedon's formula, not the Nicene Creed.",
+   "work": "syriac-orthodox-west-syriac-christianity floorNote (census): 'The disagreement was with Chalcedon's formula, not with the content of the Nicene Creed'",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "peter-the-iberian",
+   "field": "relationsSummary",
+   "sentence": "He was a prince of Kartli in Georgia.",
+   "file": "cic/texts/life-of-peter-the-iberian_petrus-der-iberer-deu_raabe1895.txt",
+   "lines": "860",
+   "quote": "war Bosmarios, der König der Iberer, der Vater seines",
+   "grade": "Documented"
+  },
+  {
+   "entry": "peter-the-iberian",
+   "field": "relationsSummary",
+   "sentence": "He became bishop near Gaza for those who refused Chalcedon.",
+   "file": "cic/texts/zachariah-rhetor_chronicle_hamiltonbrooks1899.txt",
+   "lines": "2701",
+   "quote": "upon his-head and consecrated him, for he knew the man.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "peter-the-iberian",
+   "field": "relationsSummary",
+   "sentence": "He helped make Timothy a rival bishop of Alexandria.",
+   "file": "cic/texts/life-of-peter-the-iberian_petrus-der-iberer-deu_raabe1895.txt",
+   "lines": "3435",
+   "quote": "nach der Kaisarion, wo die Volksmenge versammelt war,",
+   "grade": "Documented"
+  },
+  {
+   "entry": "peter-the-iberian",
+   "field": "relationsSummary",
+   "sentence": "Clergy from Antioch who refused the council joined him.",
+   "file": "cic/texts/po08_john-rufus-plerophories-and-others-fra_1912.txt",
+   "lines": "366",
+   "quote": "Il a quitté cette ville quand le patriarche Pierre en a été chassé",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "peter-the-iberian",
+   "field": "why",
+   "sentence": "Peter was a prince of Kartli, sent as a boy hostage to the court at Constantinople.",
+   "file": "cic/texts/zachariah-rhetor_chronicle_hamiltonbrooks1899.txt",
+   "lines": "2678-2679",
+   "quote": "who had been given as a hostage to Theodosius",
+   "grade": "Documented"
+  },
+  {
+   "entry": "peter-the-iberian",
+   "field": "why",
+   "sentence": "He ran away to be a monk in Palestine.",
+   "file": "cic/texts/zachariah-rhetor_chronicle_hamiltonbrooks1899.txt",
+   "lines": "2688-2689",
+   "quote": "and there they loved and cultivated the monastic life.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "peter-the-iberian",
+   "field": "why",
+   "sentence": "After Chalcedon, the people of Maiuma near Gaza carried him off to be their bishop.",
+   "file": "cic/texts/zachariah-rhetor_chronicle_hamiltonbrooks1899.txt",
+   "lines": "2696",
+   "quote": "seized Peter, and brought him to Jerusalem to Theodosius,",
+   "grade": "Documented"
+  },
+  {
+   "entry": "peter-the-iberian",
+   "field": "longDescription",
+   "sentence": "He came from the Christian royal house of Kartli, in Georgia",
+   "file": "cic/texts/life-of-peter-the-iberian_petrus-der-iberer-deu_raabe1895.txt",
+   "lines": "864-865",
+   "quote": "Gemahl der Duktia, welcher als der erste von den Re- gierenden jenes Landes ein christlicher König war",
+   "grade": "Documented"
+  },
+  {
+   "entry": "peter-the-iberian",
+   "field": "longDescription",
+   "sentence": "and he led the monks near Gaza who refused Chalcedon.",
+   "work": "chalcedonian-monasticism-judean-desert-and-gaza longDescription (census): 'Near Gaza, Peter the Iberian became bishop for those who rejected the council'",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "peter-the-iberian",
+   "field": "longDescription",
+   "sentence": "His father, the Life says, was Bosmarios, king of the Iberians.",
+   "file": "cic/texts/life-of-peter-the-iberian_petrus-der-iberer-deu_raabe1895.txt",
+   "lines": "860",
+   "quote": "war Bosmarios, der König der Iberer, der Vater seines",
+   "grade": "Documented"
+  },
+  {
+   "entry": "peter-the-iberian",
+   "field": "longDescription",
+   "sentence": "As a boy of twelve Peter was sent as a hostage to the court of Theodosius II.",
+   "file": "cic/texts/life-of-peter-the-iberian_petrus-der-iberer-deu_raabe1895.txt",
+   "lines": "1306",
+   "quote": "von zwölf Jahren, als Geisel zu dem gottesfürchtigen und christ-",
+   "grade": "Documented"
+  },
+  {
+   "entry": "peter-the-iberian",
+   "field": "longDescription",
+   "sentence": "He grew up in the palace.",
+   "file": "cic/texts/zachariah-rhetor_chronicle_hamiltonbrooks1899.txt",
+   "lines": "2681",
+   "quote": "And he was brought up in the king’s palace;",
+   "grade": "Documented"
+  },
+  {
+   "entry": "peter-the-iberian",
+   "field": "longDescription",
+   "sentence": "He fled to Palestine with his friend John the Eunuch, and there they took up the monk's life.",
+   "file": "cic/texts/zachariah-rhetor_chronicle_hamiltonbrooks1899.txt",
+   "lines": "2684",
+   "quote": "Christ along with John the Eunuch also, who was his",
+   "grade": "Documented"
+  },
+  {
+   "entry": "peter-the-iberian",
+   "field": "longDescription",
+   "sentence": "Peter was made a priest in 445.",
+   "file": "cic/texts/life-of-peter-the-iberian_petrus-der-iberer-deu_raabe1895.txt",
+   "lines": "2788",
+   "quote": "3 Seine Weihe zum Priester fand demnach im Jahre 445 statt.",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "peter-the-iberian",
+   "field": "longDescription",
+   "sentence": "After the council of 451, the monks of Palestine turned against their bishop, Juvenal, who had signed it.",
+   "file": "cic/texts/life-of-peter-the-iberian_petrus-der-iberer-deu_raabe1895.txt",
+   "lines": "2818",
+   "quote": "jenem Juvenalis entgegen zu gehen, und baten ihn dringend,",
+   "grade": "Documented"
+  },
+  {
+   "entry": "peter-the-iberian",
+   "field": "longDescription",
+   "sentence": "They chose a monk named Theodosius as their new bishop.",
+   "file": "cic/texts/zachariah-rhetor_chronicle_hamiltonbrooks1899.txt",
+   "lines": "2105",
+   "quote": "his stead, one Theodosius, a monk; who, in his zeal, had",
+   "grade": "Documented"
+  },
+  {
+   "entry": "peter-the-iberian",
+   "field": "longDescription",
+   "sentence": "The people of Maiuma near Gaza seized Peter and took him to Theodosius.",
+   "file": "cic/texts/zachariah-rhetor_chronicle_hamiltonbrooks1899.txt",
+   "lines": "2696",
+   "quote": "seized Peter, and brought him to Jerusalem to Theodosius,",
+   "grade": "Documented"
+  },
+  {
+   "entry": "peter-the-iberian",
+   "field": "longDescription",
+   "sentence": "Against his will, Theodosius made him their bishop.",
+   "file": "cic/texts/zachariah-rhetor_chronicle_hamiltonbrooks1899.txt",
+   "lines": "2701",
+   "quote": "upon his-head and consecrated him, for he knew the man.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "peter-the-iberian",
+   "field": "longDescription",
+   "sentence": "When the emperor Marcian moved against them, Peter went to Egypt.",
+   "file": "cic/texts/evagrius-scholasticus_ecclesiastical-history_walford1846.txt",
+   "lines": "3443",
+   "quote": "being informed of these proceedings, Marcian, in the",
+   "grade": "Documented"
+  },
+  {
+   "entry": "peter-the-iberian",
+   "field": "longDescription",
+   "sentence": "Peter went to Egypt.",
+   "file": "cic/texts/po08_john-rufus-plerophories-and-others-fra_1912.txt",
+   "lines": "1033",
+   "quote": "Pierre quitta Oxyrbynque à la mort de Marcien (457); cf. Raabe, p. 63-64.",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "peter-the-iberian",
+   "field": "longDescription",
+   "sentence": "At Alexandria the people carried him off to help make Timothy their bishop.",
+   "file": "cic/texts/life-of-peter-the-iberian_petrus-der-iberer-deu_raabe1895.txt",
+   "lines": "3435",
+   "quote": "nach der Kaisarion, wo die Volksmenge versammelt war,",
+   "grade": "Documented"
+  },
+  {
+   "entry": "peter-the-iberian",
+   "field": "longDescription",
+   "sentence": "Later he lived near Gaza again.",
+   "file": "cic/texts/po08_john-rufus-plerophories-and-others-fra_1912.txt",
+   "lines": "7879",
+   "quote": "Plus tard, Pierre a demeuré à Magdal Touta (Thabata), au sud de Gaza, oü",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "peter-the-iberian",
+   "field": "longDescription",
+   "sentence": "He died on 1 December 488.",
+   "file": "cic/texts/severus-of-antioch_select-letters-book6-part1_brooks1903.txt",
+   "lines": "137",
+   "quote": "After the death of Peter t^ie Iberian (Dec. i, 488) : see Kugener",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "peter-the-iberian",
+   "field": "legacy",
+   "sentence": "John Rufus took his place as bishop of Maiuma.",
+   "file": "cic/texts/po08_john-rufus-plerophories-and-others-fra_1912.txt",
+   "lines": "375",
+   "quote": "comme évéque de Maiouma, pendant que d'autres dirigeaient son mo-",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "peter-the-iberian",
+   "field": "legacy",
+   "sentence": "He wrote down Peter's stories against Chalcedon.",
+   "file": "cic/texts/po08_john-rufus-plerophories-and-others-fra_1912.txt",
+   "lines": "504",
+   "quote": "combattre le concile de Chalcédoine et ses défenseurs.",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "peter-the-iberian",
+   "field": "legacy",
+   "sentence": "Severus of Antioch became a monk in Peter's house near Gaza, about two years after Peter died.",
+   "file": "cic/texts/severus-of-antioch_select-letters-book6-part1_brooks1903.txt",
+   "lines": "120",
+   "quote": "in Peter's monastery between Gaza and Majuma.",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "peter-the-iberian",
+   "field": "legacy",
+   "sentence": "Later, as patriarch, Severus held up Peter's practice as a rule to follow.",
+   "file": "cic/texts/severus-of-antioch_select-letters-book6-part1_brooks1903.txt",
+   "lines": "4123",
+   "quote": "This principle was in fact observed by Peter who is",
+   "grade": "Documented"
+  },
+  {
+   "entry": "athanasius-of-alexandria",
+   "field": "relationsSummary",
+   "sentence": "He was also the first bishop of the church of Alexandria on this map.",
+   "work": "cyrilline-miaphysite-egyptian-christianity as extended by D1 (P2-G3 neighbor_changes): 'In 328 Athanasius became bishop of Alexandria'; npnf204 'lasts from June 8, 328'",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "nestorius",
+   "field": "why",
+   "sentence": "Western scholars found it only in the 1890s.",
+   "file": "cic/texts/nestorius_bazaar-of-heracleides_driver-hodgson1925.txt",
+   "lines": "338-340",
+   "quote": "It was noticed in the last decade of the nineteenth century by two German scholars,",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "john-chrysostom",
+   "field": "why",
+   "sentence": "That plain speech, aimed at the court too, led in the end to his exile.",
+   "work": "antiochene-exegetical-christianity-chrysostom-ce longDescription (census): 'he preached the same way to the imperial court, which is roughly why he died in exile in 407'",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "nestorius",
+   "field": "longDescription",
+   "sentence": "Their story on this map ends in 430. His years as bishop and in exile run past that date.",
+   "work": "antiochene-exegetical-christianity-chrysostom-ce dates (census): 'c. 350-430'",
+   "grade": "Documented"
+  },
+  {
+   "entry": "simeon-of-beth-arsham",
+   "field": "longDescription",
+   "sentence": "Simeon was a bishop of the Syriac Orthodox side, though he worked inside the Persian empire.",
+   "file": "cic/texts/john-of-ephesus_lives-of-the-eastern-saints_brooks1923.txt",
+   "lines": "8597",
+   "quote": "Arsham', and thereforward he bore the title of metropolitan bishop of Beth",
+   "grade": "Documented"
+  }
+ ],
+ "neighbor_changes": [],
+ "links": [
+  {
+   "id": "antiochene-exegetical-christianity-chrysostom-ce--the-church-of-the-east-under-persia--2",
+   "from": "antiochene-exegetical-christianity-chrysostom-ce",
+   "to": "the-church-of-the-east-under-persia",
+   "type": "influenced",
+   "confidence": "Widely Accepted",
+   "concerns": "nestorius",
+   "note": "Nestorius wrote his defense, the Bazaar of Heracleides, in Greek, and his books were ordered burned. It survives only in a Syriac version, made around 535 by one scholar's dating. The one surviving copy was kept in the library of the patriarch of the Church of the East at Kotchanes.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Nestorius, The Bazaar of Heracleides, from the Syriac version (trans. Driver and Hodgson, 1925)",
+     "file": "cic/texts/nestorius_bazaar-of-heracleides_driver-hodgson1925.txt",
+     "lines": "4406",
+     "locus": "Bazaar I.1, §54",
+     "quote": "and there were not two Sons but one by an union.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "G. R. Driver and L. Hodgson, introduction to The Bazaar of Heracleides (Oxford, 1925), citing Bedjan",
+     "file": "cic/texts/nestorius_bazaar-of-heracleides_driver-hodgson1925.txt",
+     "lines": "372-373",
+     "quote": "The Syriac translation of the latter work was made about 535 under the patriarch Paul, according to Bedjan"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "G. R. Driver and L. Hodgson, introduction to The Bazaar of Heracleides (Oxford, 1925)",
+     "file": "cic/texts/nestorius_bazaar-of-heracleides_driver-hodgson1925.txt",
+     "lines": "374-376",
+     "quote": "there is extant only one mutilated manuscript, which is pre- served in the library of the Nestorian patriarch at Kotchanes, in Kurdistan."
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "G. R. Driver and L. Hodgson, introduction to The Bazaar of Heracleides (Oxford, 1925)",
+     "file": "cic/texts/nestorius_bazaar-of-heracleides_driver-hodgson1925.txt",
+     "lines": "366-367",
+     "quote": "Nestorius himself wrote his defence in Greek;"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
+  },
+  {
+   "id": "cyrilline-miaphysite-egyptian-christianity--antiochene-exegetical-christianity-chrysostom-ce",
+   "from": "cyrilline-miaphysite-egyptian-christianity",
+   "to": "antiochene-exegetical-christianity-chrysostom-ce",
+   "type": "argued against",
+   "confidence": "Documented",
+   "concerns": "nestorius",
+   "note": "Cyril of Alexandria heard of the sermons of Nestorius, the new bishop in the capital. He wrote to warn him twice. Then he wrote five books against him. In 431 the council at Ephesus said Nestorius was no longer a bishop.",
+   "outcome": "In 431 the council at Ephesus put Nestorius out as bishop. Maximian took his place.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Acts of the Council of Ephesus (431), as quoted by Nestorius in the Bazaar of Heracleides (trans. Driver and Hodgson, 1925)",
+     "file": "cic/texts/nestorius_bazaar-of-heracleides_driver-hodgson1925.txt",
+     "lines": "8566-8568",
+     "locus": "Bazaar II.1",
+     "quote": "the reverend bishop of Alexandria, Cyril, learned this, he wrote one letter and a second unto his reverence, full of counsels and warning;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Council of Ephesus (431), sentence against Nestorius (NPNF 2.14, trans. Percival)",
+     "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+     "lines": "17279-17280",
+     "locus": "Session I, sentence",
+     "quote": "that Nestorius be excluded from the episcopal dignity, and from all priestly communion.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "G. R. Driver and L. Hodgson, introduction to The Bazaar of Heracleides (Oxford, 1925)",
+     "file": "cic/texts/nestorius_bazaar-of-heracleides_driver-hodgson1925.txt",
+     "lines": "267-269",
+     "quote": "Nestorius was bidden to return to his monastery at Antioch, and Maximian was consecrated Archbishop of Constantinople in his place."
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
+  },
+  {
+   "id": "antiochene-exegetical-christianity-chrysostom-ce--cyrilline-miaphysite-egyptian-christianity",
+   "from": "antiochene-exegetical-christianity-chrysostom-ce",
+   "to": "cyrilline-miaphysite-egyptian-christianity",
+   "type": "argued against",
+   "confidence": "Documented",
+   "concerns": "nestorius",
+   "note": "In exile, around 451, Nestorius wrote his own defense. He called it the Bazaar of Heracleides. In it he speaks straight to Cyril of Alexandria. He says Cyril wrote him a hostile letter that showed he was his enemy.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Nestorius, The Bazaar of Heracleides I.3 (trans. Driver and Hodgson, 1925)",
+     "file": "cic/texts/nestorius_bazaar-of-heracleides_driver-hodgson1925.txt",
+     "lines": "7251-7252",
+     "locus": "Bazaar I.3",
+     "quote": "thou wrotest unto me a hostile letter which testified unto ‘me that thou wast mine enemy",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "G. R. Driver and L. Hodgson, running head to The Bazaar of Heracleides (Oxford, 1925), p. 105",
+     "file": "cic/texts/nestorius_bazaar-of-heracleides_driver-hodgson1925.txt",
+     "lines": "7247",
+     "quote": "Cyril the aggressor"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "G. R. Driver and L. Hodgson, introduction to The Bazaar of Heracleides (Oxford, 1925)",
+     "file": "cic/texts/nestorius_bazaar-of-heracleides_driver-hodgson1925.txt",
+     "lines": "314-315",
+     "quote": "The book must have been written by Nestorius in the year 451 or 452,"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
+  },
+  {
+   "id": "alexandria-catechetical--homoian-arian-christianity",
+   "from": "alexandria-catechetical",
+   "to": "homoian-arian-christianity",
+   "type": "argued against",
+   "confidence": "Documented",
+   "concerns": "athanasius-of-alexandria",
+   "note": "Athanasius wrote a Defence Against the Arians. In it he quotes the letter of the council held at Sardica. That letter names the leaders of the party against him, Ursacius and Valens among them.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Athanasius, Defence Against the Arians (Apologia contra Arianos), title (NPNF 2.4, trans. Robertson)",
+     "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+     "lines": "21583",
+     "locus": "title",
+     "quote": "Defence Against the Arians. (Apologia Contra Arianos.)",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Athanasius, Defence Against the Arians §48 (NPNF 2.4, trans. Robertson)",
+     "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+     "lines": "24210-24214",
+     "locus": "§48 (letter of the Council of Sardica)",
+     "quote": "Their leaders are now, after Eusebius and his fellows, Theodorus of Heraclea, Narcissus of Neronias in Cilicia, Stephanus of Antioch, George of Laodicea, Acacius of Cæsarea in Palestine, Menophantus of Ephesus in Asia, Ursacius of Singidunum in Mœsia, and Valens of Mursa in Pannonia",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Athanasius, Defence Against the Arians, heading of the quoted letter (NPNF 2.4)",
+     "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+     "lines": "23998",
+     "locus": "§§44-50",
+     "quote": "Encyclical Letter of the Council of Sardica.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
+  },
+  {
+   "id": "syriac-orthodox-west-syriac-christianity--the-church-of-the-east-under-persia",
+   "from": "syriac-orthodox-west-syriac-christianity",
+   "to": "the-church-of-the-east-under-persia",
+   "type": "argued against",
+   "confidence": "Documented",
+   "concerns": "simeon-of-beth-arsham",
+   "note": "John of Ephesus says Simeon of Beth Arsham fought the school of Nestorius all his life. Once he met the catholicos Babai in a debate before a Persian governor. Babai answered by calling Simeon's side the king's enemies.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John of Ephesus, Lives of the Eastern Saints 10, Life of Simeon the Persian Debater (trans. Brooks, PO 17, 1923)",
+     "file": "cic/texts/john-of-ephesus_lives-of-the-eastern-saints_brooks1923.txt",
+     "lines": "7891",
+     "locus": "Life 10",
+     "quote": "tlie fraudulent disciples of the school of Nestorius,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John of Ephesus, Lives of the Eastern Saints 10 (trans. Brooks, PO 17, 1923)",
+     "file": "cic/texts/john-of-ephesus_lives-of-the-eastern-saints_brooks1923.txt",
+     "lines": "8358",
+     "locus": "Life 10",
+     "quote": "the great catholicus, whose name was Babai",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "John of Ephesus, Lives of the Eastern Saints 10 (trans. Brooks, PO 17, 1923)",
+     "file": "cic/texts/john-of-ephesus_lives-of-the-eastern-saints_brooks1923.txt",
+     "lines": "8360",
+     "locus": "Life 10",
+     "quote": "your high excelleney that these men are the kings enemies, and their faith",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
+  },
+  {
+   "id": "aksumite-christianity--syriac-orthodox-west-syriac-christianity",
+   "from": "aksumite-christianity",
+   "to": "syriac-orthodox-west-syriac-christianity",
+   "type": "in contact with",
+   "confidence": "Widely Accepted",
+   "concerns": "simeon-of-beth-arsham",
+   "note": "In 524 Simeon of Beth Arsham wrote a letter on the killing of the Christians of Najran. At an Arab camp he met a Christian envoy sent by the king of Himyar, whom the Ethiopians had set up. One scholar of the 1800s thought the letter a forgery, but most accept it.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Simeon of Beth Arsham, letter on the Najran martyrs, in Pseudo-Zachariah Rhetor, Chronicle VIII.3 (trans. Hamilton and Brooks, 1899)",
+     "file": "cic/texts/zachariah-rhetor_chronicle_hamiltonbrooks1899.txt",
+     "lines": "9796-9797",
+     "locus": "Chron. VIII.3",
+     "quote": "we found a Christian envoy who had been sent by the king of the Homerites before he died.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Simeon of Beth Arsham, letter, in Pseudo-Zachariah Rhetor, Chronicle VIII.3",
+     "file": "cic/texts/zachariah-rhetor_chronicle_hamiltonbrooks1899.txt",
+     "lines": "9557",
+     "locus": "Chron. VIII.3",
+     "quote": "The king whom the Ethiopians set up in our",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Axel Moberg, introduction to The Book of the Himyarites (Lund, 1924)",
+     "file": "cic/texts/book-of-the-himyarites-syr-eng_moberg1924.txt",
+     "lines": "1614",
+     "quote": "deeds in Najran, that is in the year 524 of our era."
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Axel Moberg, introduction to The Book of the Himyarites (Lund, 1924)",
+     "file": "cic/texts/book-of-the-himyarites-syr-eng_moberg1924.txt",
+     "lines": "1615",
+     "quote": "view held also by Halévy,”) who thinks the Letter a forgery without"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
+  },
+  {
+   "id": "georgian-christianity--peter-the-iberian",
+   "from": "georgian-christianity",
+   "to": "peter-the-iberian",
+   "type": "gave rise to",
+   "confidence": "Documented",
+   "concerns": "peter-the-iberian",
+   "note": "The Life of Peter the Iberian, written about 500, says his father was Bosmarios, king of the Iberians. His mother's father, Bakurios, was the first Christian king of that land. As a boy he was sent from Kartli as a hostage to the court of Theodosius II.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Life of Peter the Iberian (Syriac, c. 500; German trans. Raabe, 1895)",
+     "file": "cic/texts/life-of-peter-the-iberian_petrus-der-iberer-deu_raabe1895.txt",
+     "lines": "860",
+     "locus": "Raabe p. 15",
+     "quote": "war Bosmarios, der König der Iberer, der Vater seines",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Life of Peter the Iberian (Raabe, 1895)",
+     "file": "cic/texts/life-of-peter-the-iberian_petrus-der-iberer-deu_raabe1895.txt",
+     "lines": "1306",
+     "locus": "Raabe p. 16",
+     "quote": "von zwölf Jahren, als Geisel zu dem gottesfürchtigen und christ-",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Life of Peter the Iberian (Raabe, 1895), on his grandfather Bakurios",
+     "file": "cic/texts/life-of-peter-the-iberian_petrus-der-iberer-deu_raabe1895.txt",
+     "lines": "864-865",
+     "locus": "Raabe p. 15",
+     "quote": "Gemahl der Duktia, welcher als der erste von den Re- gierenden jenes Landes ein christlicher König war",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Pseudo-Zachariah Rhetor, Chronicle III.4 (trans. Hamilton and Brooks, 1899)",
+     "file": "cic/texts/zachariah-rhetor_chronicle_hamiltonbrooks1899.txt",
+     "lines": "2678-2679",
+     "locus": "Chron. III.4",
+     "quote": "who had been given as a hostage to Theodosius",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
+  },
+  {
+   "id": "peter-the-iberian--chalcedonian-monasticism-judean-desert-and-gaza",
+   "from": "peter-the-iberian",
+   "to": "chalcedonian-monasticism-judean-desert-and-gaza",
+   "type": "argued against",
+   "confidence": "Inferential-Thin",
+   "concerns": "peter-the-iberian",
+   "note": "Peter the Iberian was made bishop by Theodosius, the monk set up against Juvenal and the council. His circle's books attack Chalcedon and those who defended it. But no text held here shows Peter writing or acting against the Judean desert monks by name, so this link is thin.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Pseudo-Zachariah Rhetor, Chronicle III.4 (trans. Hamilton and Brooks, 1899)",
+     "file": "cic/texts/zachariah-rhetor_chronicle_hamiltonbrooks1899.txt",
+     "lines": "2701",
+     "locus": "Chron. III.4",
+     "quote": "upon his-head and consecrated him, for he knew the man.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "F. Nau, introduction to John Rufus, Plerophories (PO 8, 1912)",
+     "file": "cic/texts/po08_john-rufus-plerophories-and-others-fra_1912.txt",
+     "lines": "504",
+     "quote": "combattre le concile de Chalcédoine et ses défenseurs."
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-direct"
+  },
+  {
+   "id": "cyrilline-miaphysite-egyptian-christianity--peter-the-iberian",
+   "from": "cyrilline-miaphysite-egyptian-christianity",
+   "to": "peter-the-iberian",
+   "type": "in contact with",
+   "confidence": "Documented",
+   "concerns": "peter-the-iberian",
+   "note": "The Life of Peter the Iberian says only one bishop could be found to make Timothy bishop at Alexandria. So the people carried Peter to the church where the crowd was waiting. Evagrius, a later writer on the other side, cites this Life for the event.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Life of Peter the Iberian (Raabe, 1895), the consecration of Timothy",
+     "file": "cic/texts/life-of-peter-the-iberian_petrus-der-iberer-deu_raabe1895.txt",
+     "lines": "3427-3428",
+     "locus": "Raabe p. 64-65",
+     "quote": "da sich nur einer von den orthodoxen Bischöfen, nämlich Eusebius vonPelusium, fand,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Life of Peter the Iberian (Raabe, 1895)",
+     "file": "cic/texts/life-of-peter-the-iberian_petrus-der-iberer-deu_raabe1895.txt",
+     "lines": "3435",
+     "locus": "Raabe p. 65",
+     "quote": "nach der Kaisarion, wo die Volksmenge versammelt war,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "R. Raabe, preface to Petrus der Iberer (1895), on Evagrius II.8",
+     "file": "cic/texts/life-of-peter-the-iberian_petrus-der-iberer-deu_raabe1895.txt",
+     "lines": "203",
+     "quote": "Alexandrien betreffenden Bericht der Verfasser einer Lebens-"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
+  },
+  {
+   "id": "peter-the-iberian--syriac-orthodox-west-syriac-christianity",
+   "from": "peter-the-iberian",
+   "to": "syriac-orthodox-west-syriac-christianity",
+   "type": "in contact with",
+   "confidence": "Documented",
+   "concerns": "peter-the-iberian",
+   "note": "John Rufus was a priest of Antioch's party against Chalcedon. When that party lost Antioch, he went to Palestine and joined Peter the Iberian, then followed him as bishop. Severus of Antioch later held up Peter as a bishop who kept the rules.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "F. Nau, introduction to John Rufus, Plerophories (PO 8, 1912)",
+     "file": "cic/texts/po08_john-rufus-plerophories-and-others-fra_1912.txt",
+     "lines": "366",
+     "quote": "Il a quitté cette ville quand le patriarche Pierre en a été chassé"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "F. Nau, introduction to John Rufus, Plerophories (PO 8, 1912)",
+     "file": "cic/texts/po08_john-rufus-plerophories-and-others-fra_1912.txt",
+     "lines": "374",
+     "quote": "plétement. attaché à Pierre l'Ibére (t 1** déc. A488), car il lui a succédé"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Life of Peter the Iberian (Raabe, 1895), on John's departure from Antioch",
+     "file": "cic/texts/life-of-peter-the-iberian_petrus-der-iberer-deu_raabe1895.txt",
+     "lines": "4129",
+     "locus": "Raabe p. 78",
+     "quote": "Theodorus unterhielt, nämlich seit ihrem gemeinsamen Aufent-",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Severus of Antioch, Select Letters VI (trans. Brooks, 1903)",
+     "file": "cic/texts/severus-of-antioch_select-letters-book6-part1_brooks1903.txt",
+     "lines": "4123",
+     "locus": "Sel. Ep. VI",
+     "quote": "This principle was in fact observed by Peter who is",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct"
+  }
+ ],
+ "concerns": [
+  {
+   "link_id": "coptic-christianity-under-early-islam--alexandria-catechetical",
+   "concerns": "origen",
+   "basis": "The History of the Patriarchs on Demetrius cutting Origen off and on his books."
+  },
+  {
+   "link_id": "alexandria-catechetical--anatolian-church-third-century",
+   "concerns": "origen",
+   "basis": "Gregory and Athenodorus study under Origen."
+  },
+  {
+   "link_id": "alexandria-catechetical--palestinian-church-pre-constantinian",
+   "concerns": "origen",
+   "basis": "Origen moves to Caesarea; Pamphilus collects his books."
+  },
+  {
+   "link_id": "alexandria-catechetical--aquileian-christianity",
+   "concerns": "origen",
+   "basis": "Rufinus translates Origen."
+  },
+  {
+   "link_id": "anatolian-church-third-century--alexandria-catechetical",
+   "concerns": "origen",
+   "basis": "Methodius writes against Origen."
+  },
+  {
+   "link_id": "alexandria-catechetical--cappadocian-nicene-pastoral-monastic-tradition",
+   "concerns": "origen",
+   "basis": "Basil and Gregory of Nazianzus study Origen; the Philocalia of Origen."
+  },
+  {
+   "link_id": "apocryphal-and-pseudepigraphal-literature--alexandria-catechetical",
+   "concerns": "origen",
+   "basis": "Origen cites the Gospel of Peter and the Book of James."
+  },
+  {
+   "link_id": "alexandria-catechetical--ebionite-nazoraean-current",
+   "concerns": "origen",
+   "basis": "Origen's On First Principles against the Ebionites."
+  },
+  {
+   "link_id": "antiochene-exegetical-christianity-chrysostom-ce--alexandria-catechetical",
+   "concerns": "origen",
+   "basis": "Theodore's book against Origen; Origen is the party argued against."
+  },
+  {
+   "link_id": "cappadocian-nicene-pastoral-monastic-tradition--anomoean-eunomian-christianity",
+   "concerns": "gregory-of-nyssa",
+   "basis": "Gregory of Nyssa's Against Eunomius; Gregory of Nazianzus is named too."
+  },
+  {
+   "link_id": "cappadocian-nicene-pastoral-monastic-tradition--pneumatomachian-current",
+   "concerns": "gregory-of-nyssa",
+   "basis": "Gregory of Nyssa's Against the Followers of Macedonius; Basil is named too."
+  },
+  {
+   "link_id": "cappadocian-nicene-pastoral-monastic-tradition--imperial-juridical-christianity",
+   "concerns": "gregory-of-nyssa",
+   "basis": "The law of 381 names Gregory of Nyssa; Gregory of Nazianzus is named too."
+  },
+  {
+   "link_id": "homoian-arian-christianity--cappadocian-nicene-pastoral-monastic-tradition",
+   "concerns": "gregory-of-nyssa",
+   "basis": "Gregory of Nyssa's trial and expulsion."
+  },
+  {
+   "link_id": "syriac-edessa-nisibis--the-church-of-the-east-under-persia",
+   "concerns": "ephrem-the-syrian",
+   "basis": "Barhadbeshabba on Ephrem's school at Edessa; Narsai is named too."
+  },
+  {
+   "link_id": "antiochene-exegetical-christianity-chrysostom-ce--imperial-juridical-christianity",
+   "concerns": "john-chrysostom",
+   "basis": "The court chooses Chrysostom; Diodore is named too."
+  },
+  {
+   "link_id": "imperial-juridical-christianity--antiochene-exegetical-christianity-chrysostom-ce",
+   "concerns": "john-chrysostom",
+   "basis": "Two synods and the emperor's decree against Chrysostom."
+  },
+  {
+   "link_id": "antiochene-exegetical-christianity-chrysostom-ce--lutheran-wittenberg-and-its-congregations",
+   "concerns": "john-chrysostom",
+   "basis": "The Augsburg Confession and the Apology cite Chrysostom."
+  }
+ ],
+ "not_concerns": [
+  {
+   "link_id": "alexandria-catechetical--hieronymian-ascetic-literary",
+   "names": "origen",
+   "why_not": "Origen's hexaplaric signs are the from-end act, but P1 assigned this link to jerome (the person acting). One concerns per link; see flags."
+  },
+  {
+   "link_id": "hieronymian-ascetic-literary--alexandria-catechetical",
+   "names": "origen",
+   "why_not": "Jerome against Origen's doctrines; P1 assigned it to jerome, the critic. See flags."
+  },
+  {
+   "link_id": "alexandria-catechetical--ambrosian-milan-standalone",
+   "names": "origen",
+   "why_not": "Ambrose's use of Origen's Six Days; P1 assigned it to ambrose-of-milan. See flags."
+  },
+  {
+   "link_id": "alexandria-catechetical--desert-monasticism",
+   "names": "athanasius-of-alexandria / origen",
+   "why_not": "About the school and the monks. Athanasius is cited as a witness to Antony's upbringing and Origen only through Rubenson's reading; neither is the party."
+  },
+  {
+   "link_id": "desert-monasticism--hieronymian-ascetic-literary",
+   "names": "athanasius-of-alexandria",
+   "why_not": "Athanasius carried Antony's story to Marcella in Rome, but he stands at neither end of the link (desert monks to Jerome). Left for the coordinator."
+  },
+  {
+   "link_id": "roman-church-third-century--modalist-monarchianism",
+   "names": "athanasius-of-alexandria",
+   "why_not": "Athanasius only preserves Dionysius of Rome's letter."
+  },
+  {
+   "link_id": "danubian-latin-christianity--homoian-arian-christianity",
+   "names": "athanasius-of-alexandria",
+   "why_not": "Athanasius is the witness who names Ursacius and Valens, not a party."
+  },
+  {
+   "link_id": "aksumite-christianity-conversion-era--aksumite-christianity",
+   "names": "athanasius-of-alexandria",
+   "why_not": "Athanasius only preserves Constantius's letter about Frumentius."
+  },
+  {
+   "link_id": "tertullian-s-voice--hieronymian-ascetic-literary",
+   "names": "origen",
+   "why_not": "About Jerome's reading of Tertullian; Origen is a comparison."
+  },
+  {
+   "link_id": "palestinian-church-pre-constantinian--hieronymian-ascetic-literary",
+   "names": "origen",
+   "why_not": "About Pamphilus's copies and Jerome; Origen's books are the object."
+  },
+  {
+   "link_id": "aquileian-christianity--hieronymian-ascetic-literary--2",
+   "names": "origen",
+   "why_not": "The Jerome-Rufinus break; P1 assigned it to jerome."
+  },
+  {
+   "link_id": "byzantine-imperial-church-justinianic--chalcedonian-monasticism-judean-desert-and-gaza",
+   "names": "origen",
+   "why_not": "About the sixth-century Origenist questions, not Origen himself."
+  },
+  {
+   "link_id": "antiochene-church-third-century--antiochene-exegetical-christianity-chrysostom-ce",
+   "names": "john-chrysostom",
+   "why_not": "Lucian's link to the later Antiochenes in general; Chrysostom is one of three names."
+  },
+  {
+   "link_id": "syriac-edessa-nisibis--persian-church-of-the-east-early",
+   "names": "ephrem-the-syrian",
+   "why_not": "About the see of Nisibis; Ephrem's move is incidental."
+  },
+  {
+   "link_id": "aksumite-christianity--cyrilline-miaphysite-egyptian-christianity",
+   "names": "simeon-of-beth-arsham",
+   "why_not": "Simeon's letter is the source, but the link is between Aksum and Alexandria; he is not a party. The new link aksumite-christianity--syriac-orthodox-west-syriac-christianity carries him."
+  },
+  {
+   "link_id": "antiochene-church-third-century--anomoean-eunomian-christianity",
+   "names": "Athanasius of Anazarbus",
+   "why_not": "A different Athanasius."
+  },
+  {
+   "link_id": "syriac-orthodox-west-syriac-christianity--syriac-orthodox-under-islam",
+   "names": "Patriarch Athanasius (d. c. 631)",
+   "why_not": "A different Athanasius."
+  },
+  {
+   "link_id": "latin-church-of-outremer--byzantine-church-after-1054",
+   "names": "Athanasius, Greek patriarch of Antioch",
+   "why_not": "A different Athanasius."
+  },
+  {
+   "link_id": "northeast-india-revivals-and-the-mar-thoma-refor--northeast-india-and-mar-thoma-twentieth-century",
+   "names": "Mathew Mar Athanasius",
+   "why_not": "A different Athanasius."
+  },
+  {
+   "link_id": "northeast-india-revivals-and-the-mar-thoma-refor--the-malankara-churches-orthodox-and-jacobite",
+   "names": "Mathew Mar Athanasius",
+   "why_not": "A different Athanasius."
+  },
+  {
+   "link_id": "coptic-revival-under-cyril-iv--ethiopian-christianity-tewodros-to-menelik",
+   "names": "Bishop Athanasius (1890s)",
+   "why_not": "A different Athanasius."
+  }
+ ],
+ "minor_links": [
+  "All new argued-against, influenced and in-contact links except cyrilline-miaphysite-egyptian-christianity--antiochene-exegetical-christianity-chrysostom-ce are judged minor (step 4b): no listed source shows a council, canon, deposition, split or changed rule. The Simeon debate ends in his consecration by his own side, which is not an act against the other party.",
+  "cyrilline-miaphysite-egyptian-christianity--antiochene-exegetical-christianity-chrysostom-ce is major: its sources show the council of Ephesus deposing Nestorius (NPNF 2.14 sentence; Driver-Hodgson intro on Maximian). Outcome loci: npnf214 lines of the sentence and the Bazaar introduction lines 265-267.",
+  "georgian-christianity--peter-the-iberian is 'gave rise to', major by type; no outcome field."
+ ],
+ "retire_links": [],
+ "wants": [
+  "A clean, usable text of Cyril of Scythopolis, Life of Euthymius (Schwartz 1939, or an older printing with readable OCR). The vendored Cotelier 1681 OCR is unusable. It would show whether the Judean desert houses acted against Peter the Iberian's party by name, which would let peter-the-iberian--chalcedonian-monasticism-judean-desert-and-gaza rise above Inferential-Thin.",
+  "Simeon of Beth Arsham's longer letter (Guidi 1881, from BL Add. 14,650) and Simeon's own account in Assemani, Bibliotheca Orientalis I, pp. 350-354 (vendored Assemani tome 1 may hold it; not checked in this pass). They would document his debates and his dates directly.",
+  "A vendored source for Simeon's dates beyond the letter (524) and Babai's synod (497), e.g. the Chronicle of Pseudo-Dionysius of Tel-Mahre.",
+  "A modern study of Nestorius's teaching already cited in the repo, to carry the Contested tag on his floorNote with a secondary on each side (e.g. Bethune-Baker 1908, named in the Driver-Hodgson introduction but not vendored).",
+  "Bedjan's Syriac edition (1910) of the Bazaar, with its note on the translation under the patriarch Paul, to document the Syriac version's date from the Church of the East's own side."
+ ],
+ "flags": [
+  "Athanasius and II.1 (for Mark): Athanasius is told within alexandria-catechetical by principle 4 (22 own works on its shelf). Round 1: II.1 now starts with him as its bishop (D1), so the draft link alexandria-catechetical--cyrilline-miaphysite-egyptian-christianity (Cyril follows Athanasius) is DROPPED: an entry is not influenced by its own first bishop. His page now says he was also the first bishop of that church. Original note follows. Another drafter is extending cyrilline-miaphysite-egyptian-christianity (II.1) to begin with Athanasius in 328. The two placements pull against each other: the same man would be the first bishop of II.1's church and a person told within the catechetical school (c. 150-400), whose census text never names him. This draft keeps toldWithin = alexandria-catechetical and states in his longDescription that the Coptic and Chalcedonian churches both claim his inheritance (Contested, per ruling 1). It also drafts alexandria-catechetical--cyrilline-miaphysite-egyptian-christianity (Cyril follows Athanasius); if II.1 starts with Athanasius, that link describes Athanasius's own successor and Mark may prefer to drop it or re-home him in II.1.",
+  "alexandria-catechetical is Built & Live: only census fields are proposed (the person entries and links); no neighbor change to its text.",
+  "Two new links (cyrilline-miaphysite-egyptian-christianity--antiochene-exegetical-christianity-chrysostom-ce and antiochene-exegetical-christianity-chrysostom-ce--cyrilline-miaphysite-egyptian-christianity) depend on II.1 being extended before 451 and taking Cyril's shelf (ruling 2). Until that lands, II.1's span (451-642) does not cover 431. If the extension does not land, both links belong on whatever entry takes Cyril's shelf.",
+  "Nestorius custody link: the ruling calls it a custody link; there is no custody type. Drafted as 'influenced' (the later side keeping and using the earlier one's work), Widely Accepted, as antiochene-exegetical-christianity-chrysostom-ce--the-church-of-the-east-under-persia--2, because the existing link on the same pair is Theodore's. The only vendored evidence for custody is the editors' introduction (translation c. 535 under the patriarch Paul per Bedjan, or 525-533 under Mar Aba per Bethune-Baker; manuscript at Kotchanes). Note the date conflict is softened to 'around 535, its editors say'.",
+  "Nestorius's working years (428-c. 451) run past his home entry's end (430). Principle 4 places him by shelf, not span.",
+  "Nestorius floorNote is tagged Contested with no contested_claim record drafted; whether one is warranted is for the coordinator.",
+  "Simeon of Beth Arsham: the Library does not shelve him on syriac-orthodox-west-syriac-christianity. His letter sits as context on aksumite-christianity and his Life as context on the-church-of-the-east-under-persia. Ruling 15 places him in the Syriac Orthodox church; principle 4 says 'told within the tradition the Library shelves them in'. This draft follows ruling 15 and flags the shelf mismatch.",
+  "Simeon's dates (c. 497-524) are anchors, not his life: 497 is Babai's synod (Synodicon orientale), the earliest dated point for the catholicos he debated; 524 is the letter (Moberg). The debate itself is undated in the vendored text. modernCountries left empty, as on the-church-of-the-east-under-persia (no census entry carries a Persian or Iraqi place ID).",
+  "Simeon in-contact link: the 'entry the sources show' is aksumite-christianity. The envoy Simeon met was sent by the Christian king of Himyar whom the Ethiopians set up, and aksumite-christianity tells Najran and Himyar as part of its own story. Graded Widely Accepted, not Documented, because Moberg reports Halévy's view that the letter is a forgery (Nöldeke and Guidi accept it).",
+  "Peter the Iberian status proposal: 'Pre-Survey Candidate' (psc), with statusWord 'Known through his own disciples' and its own statusDescription. Reason: no movement tells him, so A5 does not apply; and unlike Jovinian, his record is not mainly hostile or disputed, so 'Contested - Evidentiary' would mislead. Alternative for Mark: a new status word for persons told within no tradition.",
+  "Peter's links: the ruling names three. This draft adds a fourth, cyrilline-miaphysite-egyptian-christianity--peter-the-iberian (in contact with, Documented), because his text names his part in Timothy Aelurus's consecration, which the Life tells and Evagrius cites. Drop it and the sentence if Mark prefers the three.",
+  "Peter's origin link uses 'gave rise to' (a person emerging from Kartli's royal house). Using a movement-to-movement type for a person's origin is a convention question for P2-G2 / Mark.",
+  "Peter and the Syriac Orthodox church: 'in contact with' as ruled, on John Rufus (priest of Antioch's anti-Chalcedonian party under Peter the Fuller) joining Peter and succeeding him; Severus came to Peter's monastery about 490, after Peter's death (488), so Severus alone would be influence, not contact. Severus's letter is kept as a supporting source.",
+  "Peter's argued-against link to chalcedonian-monasticism-judean-desert-and-gaza is Inferential-Thin: no vendored text shows Peter acting against the Judean desert monks by name. Kept because the ruling asked for it; the note says plainly it is thin. Mark may prefer to drop it.",
+  "Peter's one surviving letter (Plerophories, PO 8, 'Lettre de saint Pierre l'Ibère') contradicts the sweep's note that 'no writing of his own survives'.",
+  "Peter's modernCountries: no census entry carries Gaza or Maiuma, so only Georgia (copied from an existing entry) is listed, and Maiuma has no country row. Coordinator to supply IDs for Maiuma/Gaza (State of Palestine) from a source entry, or keep Georgia alone.",
+  "Ephrem: Gwynn (NPNF 2.13) says Ephrem received the diaconate from Basil; the home entry (Built & Live) says he was a deacon first at Nisibis. The person page says only 'He was a deacon at Nisibis, and later at Edessa', following the home text so the two do not contradict; the Gwynn reading is noted in the fact table as Contested.",
+  "Ephrem: the death year is given as 373 by most and 378 by some (Gwynn). The home text says 373 flat. The person page states both; this qualifies but does not contradict the home.",
+  "concerns is one person per link. Three existing links name Origen but P1 assigned them to Jerome or Ambrose: alexandria-catechetical--hieronymian-ascetic-literary, hieronymian-ascetic-literary--alexandria-catechetical, alexandria-catechetical--ambrosian-milan-standalone. If the People view should draw them from both persons, P2-G2 needs concerns to take a list.",
+  "New links not yet named in their home movements' own census text (they are named in the person pages): the Simeon debate and Najran links (II.2 text names neither Simeon nor these), the Nestorius links (I.13 text does not name him), the Athanasius links (I.2 text, Built & Live). The rows pass may add the people; the two-way check from the movement side is otherwise open.",
+  "Shelf counts were taken from cic/corpus-map/*.yaml by author id and role tradition on 2026-11-10: Chrysostom 36, Athanasius 22, Gregory of Nyssa 20, Origen 16, Ephrem 11, Nestorius 3."
+ ]
+}

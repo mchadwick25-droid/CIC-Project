@@ -68,7 +68,7 @@ applied to every shared file, not only the census.
 | PL1 | Place labels from each movement's and gap story's own region text | none | merged (#1529) |
 | PL2 | Modern countries, each with a gazetteer ID | Mark rules on disputed borders, one sitting | merged (#1529) |
 | PL3 | Place line on the map, panel and tree pages; data release 2 | Mark sees screenshots on the preview | merged (#1529) |
-| P1a2 | Feedback API allows the tree's origin | Mark: promotion and Render variable | in review |
+| P1a2 | Feedback API allows the tree's origin | Mark: promotion and Render variable | merged (#1533); waits on Mark's promotion to `live` and the Render variable |
 | P1b | Attach the domain; verify | Mark: dashboard steps | done (2026-11-07) |
 | P1c | Rename, data release 3, redirects | none (after P1b is verified) | merged (#1531) |
 | P1d | Door switch; about, privacy and support pages | Mark: Stripe links | merged (#1531); give buttons wait on the Stripe links |
@@ -81,30 +81,31 @@ applied to every shared file, not only the census.
 | P2-L6 | Links, era 6; data release 11 | none | merged (#1544) |
 | P2-L7 | Links, era 7; data release 12 | none | merged (#1546) |
 | P2-L8 | Links, era 8; data release 13 | none | merged (#1547) |
-| P2-L8a | Armenian Apostolic movement, 1650-1815 (Mark's ruling); data release 16 | none (3-round cap) | in review |
-| P2-L9 | Links, era 9, in two parts by lane; part 1 (Protestant and Evangelical) data release 14, part 2 (the other lanes) data release 15 | none | part 1 merged (#1545); part 2 in review |
-| Era 6 rulings | Mark's seven rulings on the era 6 questions carried out; data release 18 | none | in review |
+| P2-L8a | Armenian Apostolic movement, 1650-1815 (Mark's ruling); data release 16 | none (3-round cap) | merged (#1551) |
+| P2-L9 | Links, era 9, in two parts by lane; part 1 (Protestant and Evangelical) data release 14, part 2 (the other lanes) data release 15 | none | part 1 merged (#1545); part 2 merged (#1550) |
+| Era 6 rulings | Mark's seven rulings on the era 6 questions carried out; data release 18 | none | merged (#1553) |
 | P2-E10 | Era 10 re-run as history, 1906 to c. 2010 (change order, 2026-11-08): Step 0 V2.0 and three review rounds; the movements re-tested under the recent-movement evidence rule (Movements V1.0, two review rounds) | Mark's era 10 gate (https://claude.ai/artifact/GFC5yzuc4wHdChbF2CLFKw) | ruled (Mark: "take every recommendation"; G-15 held); carried out as P2-E10a to c |
-| P2-E10a | Era 10 census pass: the ruled edits on the existing rows, IX.31 retired, Iglesia ni Cristo split; data release | none | done on the branch (data release 21); open items in Open-Gaps 2026-11-08: IX.16 still names Iglesia ni Cristo, the new row's borrowed fields, IX.31's old page, the recordings made stale |
-| P2-E10b | Era 10 new rows (Anglican Communion, six movements) and named lines, drafted and reviewed | none (3-round cap) | done on the branch (data release 22): IX.52 and IX.54 to IX.58 added, IX.53 held pending Mark (Open-Gaps 2026-11-08) |
-| P2-E10c | `kind` "cross-church movement" and its band; the method-page line; the era band text | Mark sees screenshots on the preview | todo |
-| P2-E10d | Cross-church movements leave the rivers for their own column (Decision-Log 2026-11-09, "Cross-church movements get their own column"): the striped band removed; a thin dated line per movement beside its era; faint ties on pick from census links only; a Movements switch, off by default and remembered | Mark sees screenshots | done (Mark approved the left-side screenshots, 2026-11-10); screenshots in `Build/Ministry/Features/Church-Family-Tree/Screenshots/2026-11-09_P2-E10d/` |
+| P2-E10a | Era 10 census pass: the ruled edits on the existing rows, IX.31 retired, Iglesia ni Cristo split; data release | none | merged (#1560); open items in Open-Gaps 2026-11-08: IX.16 still names Iglesia ni Cristo, the new row's borrowed fields, IX.31's old page, the recordings made stale |
+| P2-E10b | Era 10 new rows (Anglican Communion, six movements) and named lines, drafted and reviewed | none (3-round cap) | merged (#1560, data release 22): IX.52 and IX.54 to IX.58 added, IX.53 held pending Mark (Open-Gaps 2026-11-08) |
+| P2-E10c | `kind` "cross-church movement" and its band; the method-page line; the era band text | Mark sees screenshots on the preview | merged (#1562) |
+| P2-E10d | Cross-church movements leave the rivers for their own column (Decision-Log 2026-11-09, "Cross-church movements get their own column"): the striped band removed; a thin dated line per movement beside its era; faint ties on pick from census links only; a Movements switch, off by default and remembered | Mark sees screenshots | merged (#1567; Mark approved the left-side screenshots, 2026-11-10); screenshots in `Build/Ministry/Features/Church-Family-Tree/Screenshots/2026-11-09_P2-E10d/` |
 | P2-E10g | Era 10 global completeness sweep, by region and by river (Mark, 2026-11-09): 74 candidates, two review rounds | Mark's gate (https://claude.ai/artifact/8PdCRQd5WuB7DosASPYjgC) | ruled (Mark, all 71 per recommendation); carried out as P2-E10h |
-| P2-E10h | Global sweep carried out: 15 new rows (14 "enter" plus E3b, G-124 b), the ruled named lines, IX.11 narrowed (G-132 b), Caribbean rows take "Latin America" (G-134 a); drafted and reviewed; data release | none (3-round cap) | done (release 25; Round 3 approved; held lines in Open-Gaps 139) |
+| P2-E10h | Global sweep carried out: 15 new rows (14 "enter" plus E3b, G-124 b), the ruled named lines, IX.11 narrowed (G-132 b), Caribbean rows take "Latin America" (G-134 a); drafted and reviewed; data release | none (3-round cap) | merged (#1566; release 25; Round 3 approved; held lines in Open-Gaps 139) |
 | P2-G89 | Global completeness sweep, eras 8 and 9, by region and river (Mark, 2026-11-09: "eras 8 - 10 for now"); frozen eras, so additions are change orders | Mark's gate | todo (after P2-E10g) |
 | P2-L10 | Links, era 10, in two parts by lane (part 1: Protestant, Pentecostal and their bridges, 38 movements; part 2: the rest, 33); evidence per the change order of 2026-11-10 (Mark: "b") | none (3-round cap per part) | done: part 1 merged (#1569, data release 27); part 2 data release 28 (33 links added; review passed in round 2) |
 | P2-L11 | Full review of the whole link set, eras 1–9; data release 17 | none (3-round cap) | merged (#1552); approved to proceed with P2-L11b and P2-L11c (Mark, 2026-11-08) |
 | P2-L11b | Mark's five whole-set rulings applied; data release 19 | none (3-round cap) | merged (#1554) |
 | P2-L11c | Dominant links on two or three old accounts; data release 20 | none (3-round cap) | merged (#1556) |
-| Bogomil split | The two Bogomil entries split by date (Mark: "a"); data release 21 | none (3-round cap) | in review (pull request open) |
+| Bogomil split | The two Bogomil entries split by date (Mark: "a"); data release 21 | none (3-round cap) | merged (#1559) |
 | P2-ML | Major links: the map switch, the `outcome` field, and the pass over eras 1–5; data release 10 | none (3-round cap) | merged (#1543) |
-| P2-M | Method page, confidence at a glance | none | in review (one pull request with P2-D) |
-| P2-D | Data and citation page | none | in review (one pull request with P2-M) |
+| P2-M | Method page, confidence at a glance | none | merged (#1548, with P2-D) |
+| P2-D | Data and citation page | none | merged (#1548, with P2-M) |
 | P2-S | Find-your-church search | none | todo |
-| P2-G1 | Gap sweep (read only) | Mark's ruling sitting | merged (#1549); ruled 2026-11-09 (Decision-Log, "The gap sweep ruled (P2-G1)") |
-| P2-G2 | Schema additions | none | done on the branch (data release 24, schema 3): kind, toldWithin, people, concerns, livingEvidence.descentConfidence, reviewStatus; Tertullian a person; I.14 retired into II.1; leftovers in Open-Gaps 2026-11-09, "What P2-G2 leaves for P2-G3" |
-| P2-G3 | The agreed entries | narration sample, by ear; Mark sees the people list | todo |
-| P2-P | People layer: Traditions \| People switch, rows, gap placement, links by view | none | todo |
+| P2-G1 | Gap sweep (read only) | Mark's ruling sitting | merged (#1549, ruling record #1561); ruled 2026-11-09 (Decision-Log, "The gap sweep ruled (P2-G1)") |
+| P2-G2 | Schema additions | none | merged (#1564; data release 24, schema 3): kind, toldWithin, people, concerns, livingEvidence.descentConfidence, reviewStatus; Tertullian a person; I.14 retired into II.1; leftovers in Open-Gaps 2026-11-09, "What P2-G2 leaves for P2-G3" |
+| P2-G3 | The agreed entries | Mark sees the people list (narration waits for one batch after P2-L10 and P2-G3, Mark 2026-11-10) | done (data release 29; people list ruled 2026-11-10; reviews approved; audit `2026-11-10_agreed-entries`) |
+| P2-G3b | The later-worlds people: the count re-run with namesakes checked and editors' notes left out; Mark picks from the clean list (Mark, answer D a) | Mark's pick | todo |
+| P2-P | People layer: Traditions \| People switch, rows, gap placement, links by view; removes the map's hold on person entries (Decision-Log 2026-11-10) | none | todo |
 | P2-PL | Likenesses: rights and date check per image | none | todo |
 | P2-V | "Living" definition and the 169 flags | none | todo |
 | P2-K1 | Drawn marks, 2 to 4 options | Mark's pick | todo |
