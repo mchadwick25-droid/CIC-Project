@@ -23,3 +23,9 @@
 - Rabinowitsch, Joseph, *Lekhu ve-nashuvah (Hos. VI, 1): Zwei Predigten in dem Gotteshause Bethlehem in Kischinew gehalten*, Schriften des Institutum Judaicum in Leipzig 9 (Leipzig: Dörffling & Franke, 1885). Two sermons preached in Rabinowitz's own house of worship in Kishinev.
 - Downloaded by Mark from Google Books (full view), 2026-11-10, in a browser (id r5YtAAAAYAAJ). Harvard College Library copy, shelfmark Jud 765.15.9, stamped 15 Dec 1931.
 - Rights: Google full view; published 1885, so public domain in the US by date.
+
+## Bikure_ta_anah.pdf (file name from Google; the book is not Bikure ta'anah)
+
+- Google lists this item (id nYotAAAAYAAJ) as "Bikure ta'anah", but its title page reads: *Kenu bayit ve-ertseh bo (Hagg. I, 8): Fortgesetzte Documente der national-jüdischen christgläubigen Bewegung in Südrussland*, mitgeteilt von Franz Delitzsch, nebst Aufruf zur Herstellung eines Bethauses für die Christgläubigen aus Israel in Kischinew, Schriften des Institutum Judaicum in Leipzig 5 (Erlangen: Deichert, 1885). The continuation of the 1884 *Documente*, with the appeal for a house of prayer in Kishinev. Whether it also contains the Hebrew letters Google's title names is for the processing session to check.
+- Downloaded by Mark from Google Books (full view), 2026-11-10, in a browser. Harvard College Library copy, shelfmark Jud 765.15.5, stamped 15 Dec 1931.
+- Rights: Google full view; published 1885, so public domain in the US by date.
