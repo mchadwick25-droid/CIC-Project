@@ -34,3 +34,14 @@ assignments:
   note: Love's book is a vernacular religious text of the same years as the Lollard English Bible; whether
     the Lollardy world claims it as context, or leaves it to the English Mystics, is a question for the
     leads of both worlds. Not read for that.
+- row_id: love_mirror-of-the-blessed-life-of-jesus-christ-enm_powell1908--the-mirrour-of-the-blessed-lyf-of-jesu-christ-nicholas-love-middle-english-ed-l-f-powell--carthusian
+  work: The Mirrour of the Blessed Lyf of Jesu Christ (Nicholas Love, Middle English), ed. L. F. Powell
+  author: love
+  locus: the whole book; the prologue from file line 605
+  atlas_ids:
+  - carthusians-later-middle-ages
+  role: tradition
+  confidence: assigned
+  note: Written before 1410 by Nicholas Love, prior of the Charterhouse of Mount Grace, and made
+    for lay readers; a Carthusian's own book. The long-s OCR pattern is systematic; a second
+    witness for exact wording.

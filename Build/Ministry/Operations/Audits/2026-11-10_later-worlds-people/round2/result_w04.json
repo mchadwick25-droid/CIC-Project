@@ -1,0 +1,554 @@
+[
+ {
+  "cid": "C010",
+  "name": "Theodore of Mopsuestia",
+  "traditions": {
+   "latin-africa-under-byzantium": {
+    "labels": {
+     "latin-africa-under-byzantium#r2-0": "E",
+     "latin-africa-under-byzantium#r2-1": "E",
+     "latin-africa-under-byzantium#r2-2": "E",
+     "latin-africa-under-byzantium#r2-3": "E",
+     "latin-africa-under-byzantium#r2-4": "E",
+     "latin-africa-under-byzantium#r2-5": "E",
+     "latin-africa-under-byzantium#r2-6": "E",
+     "latin-africa-under-byzantium#r2-7": "E",
+     "latin-africa-under-byzantium#r2-8": "E",
+     "latin-africa-under-byzantium#r2-9": "E",
+     "latin-africa-under-byzantium#r2-10": "E",
+     "latin-africa-under-byzantium#r2-11": "E",
+     "latin-africa-under-byzantium#r2-12": "E",
+     "latin-africa-under-byzantium#r2-13": "E",
+     "latin-africa-under-byzantium#r2-14": "E"
+    },
+    "clean_passages": 0
+   },
+   "byzantine-imperial-church-justinianic": {
+    "labels": {
+     "byzantine-imperial-church-justinianic#r2-0": "U",
+     "byzantine-imperial-church-justinianic#r2-1": "E",
+     "byzantine-imperial-church-justinianic#r2-2": "U",
+     "byzantine-imperial-church-justinianic#r2-3": "U",
+     "byzantine-imperial-church-justinianic#r2-4": "S",
+     "byzantine-imperial-church-justinianic#r2-5": "S",
+     "byzantine-imperial-church-justinianic#r2-6": "S",
+     "byzantine-imperial-church-justinianic#r2-7": "S",
+     "byzantine-imperial-church-justinianic#r2-8": "S",
+     "byzantine-imperial-church-justinianic#r2-9": "S",
+     "byzantine-imperial-church-justinianic#r2-10": "S",
+     "byzantine-imperial-church-justinianic#r2-11": "S",
+     "byzantine-imperial-church-justinianic#r2-12": "S"
+    },
+    "clean_passages": 9,
+    "clean_refs": [
+     "npnf214_seven-ecumenical-councils.xml:23335",
+     "npnf214_seven-ecumenical-councils.xml:23416",
+     "npnf214_seven-ecumenical-councils.xml:23657",
+     "npnf214_seven-ecumenical-councils.xml:23671",
+     "npnf214_seven-ecumenical-councils.xml:23904",
+     "npnf214_seven-ecumenical-councils.xml:24380",
+     "npnf214_seven-ecumenical-councils.xml:24399",
+     "npnf214_seven-ecumenical-councils.xml:24444",
+     "npnf214_seven-ecumenical-councils.xml:24466"
+    ],
+    "best_quote": {
+     "file": "npnf214_seven-ecumenical-councils.xml",
+     "line": 23904,
+     "text": "anyone defends the impious Theodore of Mopsuestia, who has said that the Word of God is one"
+    }
+   },
+   "church-of-the-east-chaldean-consolidation": {
+    "labels": {
+     "church-of-the-east-chaldean-consolidation#r2-0": "U",
+     "church-of-the-east-chaldean-consolidation#r2-1": "S",
+     "church-of-the-east-chaldean-consolidation#r2-2": "U",
+     "church-of-the-east-chaldean-consolidation#r2-3": "E",
+     "church-of-the-east-chaldean-consolidation#r2-4": "U",
+     "church-of-the-east-chaldean-consolidation#r2-5": "S",
+     "church-of-the-east-chaldean-consolidation#r2-6": "U",
+     "church-of-the-east-chaldean-consolidation#r2-7": "S",
+     "church-of-the-east-chaldean-consolidation#r2-8": "S"
+    },
+    "clean_passages": 4,
+    "best_quote": {
+     "file": "malech_history-of-the-syrian-nation-and-old-evangelical-apostolic-church-of-the-east_1910.txt",
+     "line": 17911,
+     "text": "Nestorius, a disciple of Theodorus of Mopsuestia, had been ordained"
+    }
+   }
+  },
+  "passes": false,
+  "namesake_notes": "None; 'Mopsuestia' alone is the city (and Mopsus legend in Kihn's note).",
+  "editorial_notes": "Latin Africa: every context is in Kihn's German study, notes or running heads, none in the Junilius Latin text (starts file line ~22598). Collectio Avellana hit is an index entry. Badger 17434 is a translator's bracket gloss.",
+  "comment": "Byzantine-Justinianic is at 5 (sentence, capitula and Vigilius decretal of 553, strict locus; Acts extracts at 23140-23209 are outside the stated locus so U). Church of the East has 4 S (Badger 856, 17707, 17713; Malech 17911; Malech chapters before XXXII are outside the locus); it would reach 5 only if Badger's bracketed '[Theodorus of Mopsuestia]' at 17434 were counted, which I treated as translator gloss (E). So passes=false on a strict reading."
+ },
+ {
+  "cid": "C026",
+  "name": "Tatian",
+  "traditions": {
+   "latin-apologists": {
+    "labels": {
+     "latin-apologists#r2-0": "E",
+     "latin-apologists#r2-1": "E",
+     "latin-apologists#r2-2": "U",
+     "latin-apologists#r2-3": "E",
+     "latin-apologists#r2-4": "E",
+     "latin-apologists#r2-5": "E",
+     "latin-apologists#r2-6": "U",
+     "latin-apologists#r2-7": "E",
+     "latin-apologists#r2-8": "E",
+     "latin-apologists#r2-9": "E",
+     "latin-apologists#r2-10": "U",
+     "latin-apologists#r2-11": "E",
+     "latin-apologists#r2-12": "E",
+     "latin-apologists#r2-13": "E",
+     "latin-apologists#r2-14": "U"
+    },
+    "clean_passages": 0
+   },
+   "persian-church-of-the-east-early": {
+    "labels": {
+     "persian-church-of-the-east-early#r2-0": "E",
+     "persian-church-of-the-east-early#r2-1": "E",
+     "persian-church-of-the-east-early#r2-2": "E",
+     "persian-church-of-the-east-early#r2-3": "E",
+     "persian-church-of-the-east-early#r2-4": "E",
+     "persian-church-of-the-east-early#r2-5": "E",
+     "persian-church-of-the-east-early#r2-6": "E",
+     "persian-church-of-the-east-early#r2-7": "E",
+     "persian-church-of-the-east-early#r2-8": "E",
+     "persian-church-of-the-east-early#r2-9": "E",
+     "persian-church-of-the-east-early#r2-10": "E",
+     "persian-church-of-the-east-early#r2-11": "E",
+     "persian-church-of-the-east-early#r2-12": "E",
+     "persian-church-of-the-east-early#r2-13": "E",
+     "persian-church-of-the-east-early#r2-14": "E"
+    },
+    "clean_passages": 0
+   },
+   "imperial-juridical-christianity": {
+    "labels": {
+     "imperial-juridical-christianity#r2-0": "S",
+     "imperial-juridical-christianity#r2-1": "N",
+     "imperial-juridical-christianity#r2-2": "E",
+     "imperial-juridical-christianity#r2-3": "S",
+     "imperial-juridical-christianity#r2-4": "S",
+     "imperial-juridical-christianity#r2-5": "S"
+    },
+    "clean_passages": 4,
+    "best_quote": {
+     "file": "npnf201_eusebius-church-history-life-of-constantine.xml",
+     "line": 26367,
+     "text": "recently discovered by them, a certain Tatian being the first to introduce this blasphemy"
+    }
+   },
+   "hieronymian-ascetic-literary": {
+    "labels": {
+     "hieronymian-ascetic-literary#r2-0": "E",
+     "hieronymian-ascetic-literary#r2-1": "S",
+     "hieronymian-ascetic-literary#r2-2": "E",
+     "hieronymian-ascetic-literary#r2-3": "N",
+     "hieronymian-ascetic-literary#r2-4": "U",
+     "hieronymian-ascetic-literary#r2-5": "S",
+     "hieronymian-ascetic-literary#r2-6": "S",
+     "hieronymian-ascetic-literary#r2-7": "U",
+     "hieronymian-ascetic-literary#r2-8": "S",
+     "hieronymian-ascetic-literary#r2-9": "S",
+     "hieronymian-ascetic-literary#r2-10": "S"
+    },
+    "clean_passages": 6,
+    "clean_refs": [
+     "npnf206_jerome-principal-works.xml:9617",
+     "npnf206_jerome-principal-works.xml:38626",
+     "npnf203_theodoret-jerome-gennadius-rufinus.xml:40095",
+     "npnf203_theodoret-jerome-gennadius-rufinus.xml:40229",
+     "npnf203_theodoret-jerome-gennadius-rufinus.xml:40236",
+     "npnf203_theodoret-jerome-gennadius-rufinus.xml:40262"
+    ],
+    "best_quote": {
+     "file": "npnf206_jerome-principal-works.xml",
+     "line": 9617,
+     "text": "Here I blame Tatian, the chief of the Encratites, for his rejection of marriage"
+    }
+   }
+  },
+  "passes": false,
+  "namesake_notes": "Socrates HE 'Tatian ... Phrygians' martyr (36003); Tatian the deacon in Jerome Letter LXIII.",
+  "editorial_notes": "Latin apologists: all in apparatus/source notes of Tertullian and Minucius editions; anf05 hits are Hippolytus Refutation, not Cyprian's Ad Demetrianum, so U. Persian: all Parisot footnotes citing Tatian's Diatessaron. Hieronymian: 'List of Writers' contents list in DVI (E).",
+  "comment": "Only Hieronymian reaches 5. Imperial has 4 S in Eusebius HE (26367, 26425, 28923, 29221), one short; Aphrahat/Latin traditions are 0 on the strict rule."
+ },
+ {
+  "cid": "C047",
+  "name": "Eusebius of Caesarea",
+  "traditions": {
+   "byzantine-imperial-church-justinianic": {
+    "labels": {
+     "byzantine-imperial-church-justinianic#r2-0": "U"
+    },
+    "clean_passages": 0
+   },
+   "chalcedonian-monasticism-judean-desert-and-gaza": {
+    "labels": {
+     "chalcedonian-monasticism-judean-desert-and-gaza#r2-0": "U",
+     "chalcedonian-monasticism-judean-desert-and-gaza#r2-1": "U"
+    },
+    "clean_passages": 0
+   }
+  },
+  "passes": false,
+  "namesake_notes": "Eusebius of Nicomedia named beside him in the Alexander Monachus hit.",
+  "editorial_notes": "None.",
+  "comment": "Both hits lie outside the shelved works: Dorotheus file 26911 is Cosmas Indicopleustes Topography Bk VII (John the Faster section is elsewhere); Moschus file 97157 is in Alexander Monachus after Sophronius's span (~95000). Both U, 0 clean."
+ },
+ {
+  "cid": "C059",
+  "name": "Eunomius of Cyzicus",
+  "traditions": {
+   "byzantine-imperial-church-justinianic": {
+    "labels": {
+     "byzantine-imperial-church-justinianic#r2-0": "N",
+     "byzantine-imperial-church-justinianic#r2-1": "E",
+     "byzantine-imperial-church-justinianic#r2-2": "E",
+     "byzantine-imperial-church-justinianic#r2-3": "N",
+     "byzantine-imperial-church-justinianic#r2-4": "N",
+     "byzantine-imperial-church-justinianic#r2-5": "E",
+     "byzantine-imperial-church-justinianic#r2-6": "N",
+     "byzantine-imperial-church-justinianic#r2-7": "S",
+     "byzantine-imperial-church-justinianic#r2-8": "N",
+     "byzantine-imperial-church-justinianic#r2-9": "N",
+     "byzantine-imperial-church-justinianic#r2-10": "N",
+     "byzantine-imperial-church-justinianic#r2-11": "N",
+     "byzantine-imperial-church-justinianic#r2-12": "N",
+     "byzantine-imperial-church-justinianic#r2-13": "N",
+     "byzantine-imperial-church-justinianic#r2-14": "N"
+    },
+    "clean_passages": 1,
+    "best_quote": {
+     "file": "npnf214_seven-ecumenical-councils.xml",
+     "line": 23854,
+     "text": "anyone does not anathematize Arius, Eunomius, Macedonius, Apollinaris, Nestorius, Eutyches and Origen"
+    }
+   },
+   "hieronymian-ascetic-literary": {
+    "labels": {
+     "hieronymian-ascetic-literary#r2-0": "E",
+     "hieronymian-ascetic-literary#r2-1": "S",
+     "hieronymian-ascetic-literary#r2-2": "S",
+     "hieronymian-ascetic-literary#r2-3": "S",
+     "hieronymian-ascetic-literary#r2-4": "S",
+     "hieronymian-ascetic-literary#r2-5": "E",
+     "hieronymian-ascetic-literary#r2-6": "S",
+     "hieronymian-ascetic-literary#r2-7": "S",
+     "hieronymian-ascetic-literary#r2-8": "U",
+     "hieronymian-ascetic-literary#r2-9": "S",
+     "hieronymian-ascetic-literary#r2-10": "S",
+     "hieronymian-ascetic-literary#r2-11": "S",
+     "hieronymian-ascetic-literary#r2-12": "S",
+     "hieronymian-ascetic-literary#r2-13": "S",
+     "hieronymian-ascetic-literary#r2-14": "S"
+    },
+    "clean_passages": 11,
+    "clean_refs": [
+     "npnf206_jerome-principal-works.xml:25149",
+     "jerome_eusebii-chronici-canones-lat_fotheringham1923.txt:46193",
+     "npnf203_theodoret-jerome-gennadius-rufinus.xml:41557",
+     "npnf206_jerome-principal-works.xml:40169",
+     "npnf203_theodoret-jerome-gennadius-rufinus.xml:41578",
+     "npnf206_jerome-principal-works.xml:40174",
+     "npnf206_jerome-principal-works.xml:40243",
+     "npnf203_theodoret-jerome-gennadius-rufinus.xml:41714",
+     "npnf206_jerome-principal-works.xml:41227",
+     "npnf203_theodoret-jerome-gennadius-rufinus.xml:53599",
+     "npnf203_theodoret-jerome-gennadius-rufinus.xml:53639"
+    ],
+    "best_quote": {
+     "file": "npnf206_jerome-principal-works.xml",
+     "line": 40243,
+     "text": "You will hardly follow the heathen and impious Porphyry and Eunomius"
+    }
+   }
+  },
+  "passes": true,
+  "namesake_notes": "Justinianic: Eunomius bishop of Nicomedia (Chalcedon acts, Mansi, Evagrius, Collectio Avellana index) is a different person (N).",
+  "editorial_notes": "Hieronymian: DVI 'List of Writers' (39187) E; Fotheringham apparatus (46206) E. Justinianic: editor note 21474/21478 E.",
+  "comment": "Hieronymian reaches 5 (Jerome Against Vigilantius, Pammachius, Letter CXXIV, DVI chapters, Apology against Rufinus, Chronicle). With syriac-orthodox confirmed in round 1 that makes 2. I stopped labelling Palaiologan and Hesychasm (left out); on a quick look they stood near 3 and 2 clean."
+ },
+ {
+  "cid": "C072",
+  "name": "Vigilantius",
+  "traditions": {
+   "latin-papal-church-avignon-to-lateran-v": {
+    "labels": {
+     "latin-papal-church-avignon-to-lateran-v#r2-0": "S",
+     "latin-papal-church-avignon-to-lateran-v#r2-1": "U",
+     "latin-papal-church-avignon-to-lateran-v#r2-2": "S",
+     "latin-papal-church-avignon-to-lateran-v#r2-3": "U",
+     "latin-papal-church-avignon-to-lateran-v#r2-4": "S",
+     "latin-papal-church-avignon-to-lateran-v#r2-5": "U"
+    },
+    "clean_passages": 2,
+    "best_quote": {
+     "file": "bullarium-franciscanum_v5-lat_eubel1898.txt",
+     "line": 66442,
+     "text": "Per quae haereses Ioviniani et Vigilantii et dicti Ioannis haeretici simul confunduntur"
+    }
+   },
+   "maronite-christianity-era-6": {
+    "labels": {
+     "maronite-christianity-era-6#r2-0": "S",
+     "maronite-christianity-era-6#r2-1": "S",
+     "maronite-christianity-era-6#r2-2": "S"
+    },
+    "clean_passages": 3,
+    "best_quote": {
+     "file": "mansi_sacrorum-conciliorum-collectio-tomus-32-1438-1549-lat_welter-facsimile1901.txt",
+     "line": 112530,
+     "text": "dum Marfilii , dum Valdenfium , dum Vigilantii , dum"
+    }
+   }
+  },
+  "passes": false,
+  "namesake_notes": "None.",
+  "editorial_notes": "None.",
+  "comment": "Latin-papal: Bullarium text (John XXII) gives 2 passages (66442 and 66444 are one sentence); Mansi hits at 112367-112530 are the Council of Sens, outside the stated locus (Lateran V / Pisa), so U. Maronite locus is whole volume so the three Sens passages count S, still only 3."
+ },
+ {
+  "cid": "C091",
+  "name": "Brigid of Kildare",
+  "traditions": {
+   "latin-papal-church-avignon-to-lateran-v": {
+    "labels": {
+     "latin-papal-church-avignon-to-lateran-v#r2-0": "N",
+     "latin-papal-church-avignon-to-lateran-v#r2-1": "N",
+     "latin-papal-church-avignon-to-lateran-v#r2-2": "N",
+     "latin-papal-church-avignon-to-lateran-v#r2-3": "N",
+     "latin-papal-church-avignon-to-lateran-v#r2-4": "N",
+     "latin-papal-church-avignon-to-lateran-v#r2-5": "N",
+     "latin-papal-church-avignon-to-lateran-v#r2-6": "N",
+     "latin-papal-church-avignon-to-lateran-v#r2-7": "N",
+     "latin-papal-church-avignon-to-lateran-v#r2-8": "N",
+     "latin-papal-church-avignon-to-lateran-v#r2-9": "N",
+     "latin-papal-church-avignon-to-lateran-v#r2-10": "N",
+     "latin-papal-church-avignon-to-lateran-v#r2-11": "N",
+     "latin-papal-church-avignon-to-lateran-v#r2-12": "N",
+     "latin-papal-church-avignon-to-lateran-v#r2-13": "N"
+    },
+    "clean_passages": 0
+   }
+  },
+  "passes": false,
+  "namesake_notes": "All 14 hits are 'Brigit-ta/Brigitta', Birgitta of Sweden in the Revelationes, not Brigid of Kildare.",
+  "editorial_notes": "Some hits are Duranti's notes.",
+  "comment": "0 clean."
+ },
+ {
+  "cid": "C115",
+  "name": "Bede",
+  "traditions": {
+   "dutch-further-reformation-and-refuge-culture": {
+    "labels": {
+     "dutch-further-reformation-and-refuge-culture#r2-0": "N",
+     "dutch-further-reformation-and-refuge-culture#r2-1": "N",
+     "dutch-further-reformation-and-refuge-culture#r2-2": "N",
+     "dutch-further-reformation-and-refuge-culture#r2-3": "N",
+     "dutch-further-reformation-and-refuge-culture#r2-4": "N",
+     "dutch-further-reformation-and-refuge-culture#r2-5": "N",
+     "dutch-further-reformation-and-refuge-culture#r2-6": "N",
+     "dutch-further-reformation-and-refuge-culture#r2-7": "N",
+     "dutch-further-reformation-and-refuge-culture#r2-8": "N",
+     "dutch-further-reformation-and-refuge-culture#r2-9": "N",
+     "dutch-further-reformation-and-refuge-culture#r2-10": "N",
+     "dutch-further-reformation-and-refuge-culture#r2-11": "N",
+     "dutch-further-reformation-and-refuge-culture#r2-12": "N",
+     "dutch-further-reformation-and-refuge-culture#r2-13": "N",
+     "dutch-further-reformation-and-refuge-culture#r2-14": "N"
+    },
+    "clean_passages": 0
+   },
+   "lollardy": {
+    "labels": {
+     "lollardy#r2-0": "E",
+     "lollardy#r2-1": "S",
+     "lollardy#r2-2": "S",
+     "lollardy#r2-3": "E",
+     "lollardy#r2-4": "U",
+     "lollardy#r2-5": "E",
+     "lollardy#r2-6": "S",
+     "lollardy#r2-7": "E",
+     "lollardy#r2-8": "U",
+     "lollardy#r2-9": "E",
+     "lollardy#r2-10": "S",
+     "lollardy#r2-11": "E",
+     "lollardy#r2-12": "S",
+     "lollardy#r2-13": "S",
+     "lollardy#r2-14": "E"
+    },
+    "clean_passages": 6,
+    "clean_refs": [
+     "wyclif_select-english-works-v3_arnold1871.txt:17318",
+     "apology-for-lollard-doctrines_todd1842.txt:4924",
+     "wyclif_select-english-works-v1_arnold1869.txt:3636",
+     "wyclif_de-ecclesia-lat_loserth1886.txt:2053",
+     "wyclif_select-english-works-v3_arnold1871.txt:17673",
+     "apology-for-lollard-doctrines_todd1842.txt:6031"
+    ],
+    "best_quote": {
+     "file": "apology-for-lollard-doctrines_todd1842.txt",
+     "line": 6031,
+     "text": "pus sei}? Bede, and rehersi]? Gregor, pe tokunnis of miraclis, in ]?e"
+    }
+   },
+   "late-medieval-lay-parish-piety": {
+    "labels": {
+     "late-medieval-lay-parish-piety#r2-0": "S",
+     "late-medieval-lay-parish-piety#r2-1": "E",
+     "late-medieval-lay-parish-piety#r2-2": "E",
+     "late-medieval-lay-parish-piety#r2-3": "S",
+     "late-medieval-lay-parish-piety#r2-4": "N",
+     "late-medieval-lay-parish-piety#r2-5": "E",
+     "late-medieval-lay-parish-piety#r2-6": "N",
+     "late-medieval-lay-parish-piety#r2-7": "E",
+     "late-medieval-lay-parish-piety#r2-8": "E",
+     "late-medieval-lay-parish-piety#r2-9": "E",
+     "late-medieval-lay-parish-piety#r2-10": "E",
+     "late-medieval-lay-parish-piety#r2-11": "S",
+     "late-medieval-lay-parish-piety#r2-12": "E",
+     "late-medieval-lay-parish-piety#r2-13": "E",
+     "late-medieval-lay-parish-piety#r2-14": "N"
+    },
+    "clean_passages": 3
+   },
+   "the-tridentine-church": {
+    "labels": {
+     "the-tridentine-church#r2-0": "U",
+     "the-tridentine-church#r2-1": "E",
+     "the-tridentine-church#r2-2": "S",
+     "the-tridentine-church#r2-3": "U",
+     "the-tridentine-church#r2-4": "U",
+     "the-tridentine-church#r2-5": "U",
+     "the-tridentine-church#r2-6": "S",
+     "the-tridentine-church#r2-7": "S",
+     "the-tridentine-church#r2-8": "S",
+     "the-tridentine-church#r2-9": "S",
+     "the-tridentine-church#r2-10": "S",
+     "the-tridentine-church#r2-11": "S",
+     "the-tridentine-church#r2-12": "U",
+     "the-tridentine-church#r2-13": "S",
+     "the-tridentine-church#r2-14": "U"
+    },
+    "clean_passages": 8,
+    "clean_refs": [
+     "bellarmine_eternal-happiness-of-the-saints_dalton.txt:7654",
+     "roman-breviary_bute1908.txt:40578",
+     "roman-missal_england1843.txt:34728",
+     "roman-breviary_bute1908.txt:48852",
+     "roman-breviary_bute1908.txt:52814",
+     "roman-breviary_bute1908.txt:59325",
+     "roman-breviary_bute1908.txt:59752",
+     "roman-breviary_bute1908.txt:71003"
+    ],
+    "best_quote": {
+     "file": "bellarmine_eternal-happiness-of-the-saints_dalton.txt",
+     "line": 7654,
+     "text": "With these words of St. Augustine, Vene rable Bede also agrees when he says"
+    }
+   }
+  },
+  "passes": true,
+  "namesake_notes": "Dutch 'Bede' = petition of the Lord's Prayer; 'Bede-roll', 'Bedeman', Thomas Bede (Bristol).",
+  "editorial_notes": "Editors' footnotes/intros and EETS publication lists (Forshall-Madden, Swinburn, Pollard glossary, Mabillon notes, Burgess intro, Surtees notes) E. Pollard 11215 is in the Oldcastle examination, outside the Thorpe locus (U).",
+  "comment": "Lollardy at 6 and Tridentine at 8 (Bellarmine 7654, Missal collect 34728, Breviary lesson 71003 and five 'Homily by the Venerable Bede' lesson headings; those headings carry Bute's bracketed additions, so lean on 7654/34728/71003 if challenged). Lay-parish only 3."
+ },
+ {
+  "cid": "C144",
+  "name": "Valdes of Lyon",
+  "traditions": {
+   "waldensians-in-the-alps": {
+    "labels": {
+     "waldensians-in-the-alps#r2-0": "U",
+     "waldensians-in-the-alps#r2-1": "U",
+     "waldensians-in-the-alps#r2-2": "U",
+     "waldensians-in-the-alps#r2-3": "S",
+     "waldensians-in-the-alps#r2-4": "U",
+     "waldensians-in-the-alps#r2-5": "S",
+     "waldensians-in-the-alps#r2-6": "E",
+     "waldensians-in-the-alps#r2-7": "E",
+     "waldensians-in-the-alps#r2-8": "E",
+     "waldensians-in-the-alps#r2-9": "E",
+     "waldensians-in-the-alps#r2-10": "E",
+     "waldensians-in-the-alps#r2-11": "U",
+     "waldensians-in-the-alps#r2-12": "E",
+     "waldensians-in-the-alps#r2-13": "S",
+     "waldensians-in-the-alps#r2-14": "E",
+     "waldensians-in-the-alps#r2-15": "S",
+     "waldensians-in-the-alps#r2-16": "E",
+     "waldensians-in-the-alps#r2-17": "S",
+     "waldensians-in-the-alps#r2-18": "E",
+     "waldensians-in-the-alps#r2-19": "S",
+     "waldensians-in-the-alps#r2-20": "E"
+    },
+    "clean_passages": 6,
+    "clean_refs": [
+     "perrin_history-ancient-christians-valleys-alps_1847.txt:1567",
+     "perrin_history-ancient-christians-valleys-alps_1847.txt:1578",
+     "perrin_history-ancient-christians-valleys-alps_1847.txt:1607",
+     "perrin_history-ancient-christians-valleys-alps_1847.txt:1612",
+     "perrin_history-ancient-christians-valleys-alps_1847.txt:1622",
+     "perrin_history-ancient-christians-valleys-alps_1847.txt:1635"
+    ],
+    "best_quote": {
+     "file": "perrin_history-ancient-christians-valleys-alps_1847.txt",
+     "line": 1567,
+     "text": "Waldo was heard with more attention, because he was greatly esteemed for his learning and piety"
+    }
+   },
+   "the-anabaptist-movements": {
+    "labels": {
+     "the-anabaptist-movements#r2-0": "S",
+     "the-anabaptist-movements#r2-1": "S",
+     "the-anabaptist-movements#r2-2": "S",
+     "the-anabaptist-movements#r2-3": "S",
+     "the-anabaptist-movements#r2-4": "S",
+     "the-anabaptist-movements#r2-5": "S",
+     "the-anabaptist-movements#r2-6": "S",
+     "the-anabaptist-movements#r2-7": "S",
+     "the-anabaptist-movements#r2-8": "S",
+     "the-anabaptist-movements#r2-9": "S",
+     "the-anabaptist-movements#r2-10": "S",
+     "the-anabaptist-movements#r2-11": "S",
+     "the-anabaptist-movements#r2-12": "S",
+     "the-anabaptist-movements#r2-13": "S",
+     "the-anabaptist-movements#r2-14": "S",
+     "the-anabaptist-movements#r2-15": "S",
+     "the-anabaptist-movements#r2-16": "S",
+     "the-anabaptist-movements#r2-17": "S",
+     "the-anabaptist-movements#r2-18": "S",
+     "the-anabaptist-movements#r2-19": "S",
+     "the-anabaptist-movements#r2-20": "S",
+     "the-anabaptist-movements#r2-21": "S",
+     "the-anabaptist-movements#r2-22": "S"
+    },
+    "clean_passages": 23,
+    "clean_refs": [
+     "van-braght_martyrs-mirror_sohm1886.txt:38259",
+     "hutterite-brethren_geschicht-buch-deu_wolkan1923.txt:5101",
+     "van-braght_martyrs-mirror_sohm1886.txt:38282",
+     "van-braght_martyrs-mirror_sohm1886.txt:38335",
+     "van-braght_martyrs-mirror_sohm1886.txt:38351",
+     "van-braght_martyrs-mirror_sohm1886.txt:38367",
+     "van-braght_martyrs-mirror_sohm1886.txt:38263",
+     "van-braght_martyrs-mirror_sohm1886.txt:38318"
+    ],
+    "best_quote": {
+     "file": "van-braght_martyrs-mirror_sohm1886.txt",
+     "line": 38259,
+     "text": "This was first commenced chiefly by Peter Waldo at Lyons, in France, and carried out by his suc-"
+    }
+   }
+  },
+  "passes": true,
+  "namesake_notes": "None; Waldo/Waldes = Valdes.",
+  "editorial_notes": "Alps: Gilly's introduction to the Romaunt John (E); Perrin contents list before Part I (E); Morland hits at 844-5633 precede ch. V (line 10107) so U.",
+  "comment": "Alps 6 (Perrin, Part I text) and Anabaptist 23 (Martyrs Mirror, plus Hutterite Geschicht-Buch 5101; clean_refs lists 8). Waldensian-reformed-union and Jesuits left unlabelled."
+ }
+]

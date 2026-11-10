@@ -1,0 +1,436 @@
+[
+ {
+  "cid": "C008",
+  "name": "Mesrop Mashtots",
+  "verdict": "approve",
+  "recount": {
+   "armenian-christianity-era-8": {
+    "valid": 9,
+    "rejected": {},
+    "added": [
+     "nurikhan_life-and-times-of-abbot-mechitar_mcquillan1915.txt:18511"
+    ]
+   },
+   "armenian-christianity-zartonk": {
+    "valid": 11,
+    "rejected": {
+     "issaverdens_armenia-and-the-armenians-v2-ecclesiastical-history_1875.txt:2258": "same paragraph as 2241 (paragraph runs across the page break at 2252)",
+     "issaverdens_armenia-and-the-armenians-v2-ecclesiastical-history_1875.txt:2310": "same paragraph as 2303"
+    },
+    "added": []
+   }
+  },
+  "passes_after_review": true,
+  "findings": [
+   {
+    "severity": "MINOR",
+    "what": "Zartonk count is 11, not 13: two pairs of refs sit in one paragraph each.",
+    "evidence": "issaverdens_armenia-and-the-armenians-v2-ecclesiastical-history_1875.txt:2241/2258, :2303/2310",
+    "fix": "Set Zartonk clean to 11."
+   },
+   {
+    "severity": "MINOR",
+    "what": "The two counts share five Ritual passages, and the Ritual (1876) is shelved on both the era-8 (1700-1815) and Zartonk shelves. Without the Ritual, era-8 rests on Nurikhan alone (3 passages). The count passes under the shelf rule, but the two traditions are not independent witnesses. The draft's doubts already say this.",
+    "evidence": "cic/corpus-map/armenian-christianity-era-8.yaml (Ritual row, locus whole work)",
+    "fix": "Keep the doubt; no change to the count under the strict rule."
+   }
+  ],
+  "recommendation_should_be": "hold",
+  "why": "The counts pass, but the Library holds no writing of his own (the Penitential Hymns and Ritual are later attributions), so hold is right."
+ },
+ {
+  "cid": "C018",
+  "name": "Basilides",
+  "verdict": "approve",
+  "recount": {
+   "alexandria-catechetical": {
+    "valid": 7,
+    "rejected": {},
+    "added": []
+   },
+   "roman-church-third-century": {
+    "valid": 6,
+    "rejected": {
+     "anf05_hippolytus-cyprian-caius-novatian.xml:11231": "same paragraph as 11197 (p iii.iii.v.xi-p2, lines 11184-11235)"
+    },
+    "added": []
+   },
+   "montanism-the-new-prophecy": {
+    "valid": 6,
+    "rejected": {
+     "anf05_hippolytus-cyprian-caius-novatian.xml:11231": "same paragraph as 11197"
+    },
+    "added": []
+   }
+  },
+  "passes_after_review": true,
+  "findings": [
+   {
+    "severity": "MINOR",
+    "what": "Roman and Montanist counts are 6, not 7: refs 11197 and 11231 are in one paragraph.",
+    "evidence": "anf05_hippolytus-cyprian-caius-novatian.xml:11184-11235",
+    "fix": "Set both to 6."
+   },
+   {
+    "severity": "MINOR",
+    "what": "The Montanism shelf holds Hippolytus's Refutation, an anti-heresy work by an opponent of the New Prophecy, as role tradition. The Montanist count is the same six Refutation passages as the Roman count. The candidate still passes on Alexandria plus Rome, which are independent.",
+    "evidence": "cic/corpus-map/montanism-the-new-prophecy.yaml (Refutation row, role tradition)",
+    "fix": "Flag the shelf row to the Library thread. The draft's doubt (1) stands."
+   },
+   {
+    "severity": "MINOR",
+    "what": "The doubts say most Alexandria hits mention his followers, not him. Only 2 of 7 do (30651 'followers of Basilides', 26975 'school of'); the other five name him directly.",
+    "evidence": "anf02 30651; anf04 26975; npnf204 41336; anf09 33308; Rufinus Numbers 10272; Origen Romans 20387; Origen Matthew 12477",
+    "fix": "Correct the sentence."
+   }
+  ],
+  "recommendation_should_be": "hold",
+  "why": "He has no words of his own under Answer C (only quotations inside opponents' books), and his school is a question in any case; the count holds on two independent traditions."
+ },
+ {
+  "cid": "C038",
+  "name": "Mani",
+  "verdict": "approve",
+  "recount": {
+   "palestinian-ascetic-monasticism-early": {
+    "valid": 8,
+    "rejected": {
+     "epiphanius_panarion-haer-48-69-corpus-haereseologicum-t2-pars-posterior-grc-lat_oehler1860.txt:31753": "same passage as Greek 31651: Petavius's Latin paragraph from 31717 ('Ad hunc Manes divertens') runs through 31753"
+    },
+    "added": []
+   },
+   "cappadocian-nicene-pastoral-monastic-tradition": {
+    "valid": 6,
+    "rejected": {},
+    "added": [
+     "npnf205_gregory-nyssa-dogmatic-treatises.txt:20491"
+    ]
+   }
+  },
+  "passes_after_review": true,
+  "findings": [
+   {
+    "severity": "MINOR",
+    "what": "In the Panarion, Latin 31753 and Greek 31651 are the same passage in two languages. The other Greek and Latin refs fall on non-facing pages (pp. 398, 405, 421, 441, 502, 512, 529), so they are distinct. That leaves 8 valid passages.",
+    "evidence": "epiphanius_panarion-haer-48-69-corpus-haereseologicum-t2-pars-posterior-grc-lat_oehler1860.txt:31651, 31717-31753",
+    "fix": "Count 8."
+   },
+   {
+    "severity": "MINOR",
+    "what": "Cappadocian is safely above 5: 20491 ('Eunomius, the imitator of Manichaeus and Bardesanes') is a separate paragraph from 20562.",
+    "evidence": "npnf205_gregory-nyssa-dogmatic-treatises.txt:20491",
+    "fix": "Add it, and drop the 'first two are close together' doubt."
+   },
+   {
+    "severity": "MINOR",
+    "what": "The letter to Marcellus is also printed inside the Panarion (tradition shelf), not only in the Acta Archelai.",
+    "evidence": "epiphanius_panarion-haer-48-69-corpus-haereseologicum-t2-pars-posterior-grc-lat_oehler1860.txt:31066-31073",
+    "fix": "Optional wording."
+   }
+  ],
+  "recommendation_should_be": "hold",
+  "why": "He founded Manichaeism (census id manichaeism), so this goes to Mark as a founder question."
+ },
+ {
+  "cid": "C045",
+  "name": "Pamphilus",
+  "verdict": "revise",
+  "recount": {
+   "imperial-juridical-christianity": {
+    "valid": 6,
+    "rejected": {},
+    "added": []
+   },
+   "hieronymian-ascetic-literary": {
+    "valid": 6,
+    "rejected": {},
+    "added": []
+   }
+  },
+  "passes_after_review": true,
+  "findings": [
+   {
+    "severity": "SUBSTANTIAL",
+    "what": "The reason treats the own-words question as settled ('his one named work is of disputed authorship'). But Eusebius's own text calls the Apology for Origen a joint work 'written by us and Pamphilus', and Answer C a counts jointly written work. Its authorship is disputed only by Jerome, writing as Rufinus's opponent (53978-53986, where Jerome also admits he earlier accepted it). This is a question for Mark, not a settled fail.",
+    "evidence": "npnf201_eusebius-church-history-life-of-constantine.xml:36974; npnf203_theodoret-jerome-gennadius-rufinus.xml:53978-53986; Build/Ministry/Operations/Audits/2026-11-10_agreed-entries/README.md:111-115",
+    "fix": "Keep hold, but rewrite the reason to put the point to Mark. Name both works (the Acts fragments and the Apology), not 'his one named work'."
+   },
+   {
+    "severity": "MINOR",
+    "what": "Four of the six Imperial passages are Eusebius, Pamphilus's own pupil and fellow-writer, so they are close to the home voice. The count is valid under the census-date rule; the draft already notes it.",
+    "evidence": "npnf201_eusebius-church-history-life-of-constantine.xml:36888, 36974, 43010, 44791",
+    "fix": "None needed."
+   },
+   {
+    "severity": "MINOR",
+    "what": "The doubts say the candidates.json refs were not used. The consolidated refs are correct: all twelve name Pamphilus of Caesarea, all are inside shelved loci, and all are distinct.",
+    "evidence": "consolidated refs",
+    "fix": "Drop the remark."
+   }
+  ],
+  "recommendation_should_be": "hold",
+  "why": "The count passes, but whether the jointly written Apology counts as his words is Mark's call; hold until he rules."
+ },
+ {
+  "cid": "C051",
+  "name": "Hilarion of Gaza",
+  "verdict": "revise",
+  "recount": {
+   "hieronymian-ascetic-literary": {
+    "valid": 9,
+    "rejected": {},
+    "added": []
+   },
+   "the-tridentine-church": {
+    "valid": 6,
+    "rejected": {},
+    "added": []
+   }
+  },
+  "passes_after_review": true,
+  "findings": [
+   {
+    "severity": "SUBSTANTIAL",
+    "what": "Founder question missed. The census opens Early Palestinian Ascetic Monasticism with Hilarion: its first voice is 'Antony's disciple, who brought Egyptian anchoritism to the Palestinian coast'. Jerome says 'It was he who originated this mode of life ... in that province'. The draft says he founded no census movement.",
+    "evidence": "census palestinian-ascetic-monasticism-early longDescription and voices[0]; npnf206_jerome-principal-works.xml:30347-30351",
+    "fix": "Set founder_of to palestinian-ascetic-monasticism-early as a possible founder, and send the question to Mark."
+   },
+   {
+    "severity": "SUBSTANTIAL",
+    "what": "The doubts say the Hieronymian refs do not point at Hilarion and that the count of 9 is unverified. That was true of the old buggy refs, not of the consolidated ones. All 9 name Hilarion of Gaza, and all are distinct and in shelved works. They are: Letter 58 at 13896; DVI 134 and 135 at 41776 and 41809, both title mentions; and the Life at 30111, 30298, 30348, 30451, 30534, 30593, which are separate paragraphs.",
+    "evidence": "npnf206_jerome-principal-works.xml:13896, 30111-30593; npnf203_theodoret-jerome-gennadius-rufinus.xml:41776, 41809",
+    "fix": "Replace the doubt with the verified count. 41776 and 41809 are bare work-title mentions; the count is 7 without them, so it still passes."
+   }
+  ],
+  "recommendation_should_be": "hold",
+  "why": "The Library holds no writing of his own, and he may be the founder of his home movement, which is Mark's question."
+ },
+ {
+  "cid": "C060",
+  "name": "Apollinaris of Laodicea",
+  "verdict": "revise",
+  "recount": {
+   "byzantine-imperial-church-justinianic": {
+    "valid": 5,
+    "rejected": {},
+    "added": [
+     "evagrius-scholasticus_ecclesiastical-history_walford1846.txt:3680",
+     "npnf212_leo-great-gregory-great.xml:6207",
+     "npnf212_leo-great-gregory-great.xml:10767"
+    ]
+   },
+   "latin-africa-under-byzantium": {
+    "valid": 4,
+    "rejected": {
+     "facundus-ferrandus-caesarius-dionysius-pl67-lat_migne1865.txt:43673": "editor's footnote (Sirmond-type note citing Leontius and Photius, below the text block at 43669-43677), not Facundus",
+     "facundus-ferrandus-caesarius-dionysius-pl67-lat_migne1865.txt:48753": "same paragraph as 48696 (Facundus's comment follows the quoted Egyptian bishops' letter in one block)"
+    },
+    "added": [
+     "facundus-ferrandus-caesarius-dionysius-pl67-lat_migne1865.txt:46191",
+     "facundus-ferrandus-caesarius-dionysius-pl67-lat_migne1865.txt:56504",
+     "facundus-ferrandus-caesarius-dionysius-pl67-lat_migne1865.txt:59810",
+     "facundus-ferrandus-caesarius-dionysius-pl67-lat_migne1865.txt:65959"
+    ]
+   }
+  },
+  "passes_after_review": true,
+  "findings": [
+   {
+    "severity": "SUBSTANTIAL",
+    "what": "A counted Latin-Africa ref is editorial. 43673 sits in a footnote citing Leontius and 'Ephraemius ... apud Photium', a 9th-century source Facundus could not cite. With that ref out, and 48696/48753 merged as one paragraph, the count falls to 4. Four main-text Facundus passages bring it back above 5.",
+    "evidence": "facundus-ferrandus-caesarius-dionysius-pl67-lat_migne1865.txt:43669-43677 (note); added facundus-ferrandus-caesarius-dionysius-pl67-lat_migne1865.txt:46191, 56504, 59810, 65959",
+    "fix": "Swap 43673 for the added refs; Latin Africa about 8."
+   },
+   {
+    "severity": "MINOR",
+    "what": "Byzantine rests on exactly 5, and 4644 is Eutyches's own letter to Leo (448), a condemned party's voice in Leo's register. Three of Evagrius's and Leo's own passages make the count safe.",
+    "evidence": "npnf212_leo-great-gregory-great.xml:4492 (div3 'From Eutyches to Leo'); added Evagrius 3680, Leo Letter 35 at 6207, Letter 124 at 10767",
+    "fix": "Add the three; treat 4644 as weak."
+   },
+   {
+    "severity": "MINOR",
+    "what": "The home citation and date source are the Library's catalogue header (line 2), not his text. last_year 362 in the input is the census active year; he died about 390. Both traditions are still later.",
+    "evidence": "apollinaris-laodicea_fragmente-...lietzmann1904.txt:2",
+    "fix": "Cite a text line from the Kata meros pistis (heading at 8381) instead."
+   }
+  ],
+  "recommendation_should_be": "hold",
+  "why": "Apollinarian Christianity is named for him, so it is a founder question for Mark; the counts hold after the swaps."
+ },
+ {
+  "cid": "C081",
+  "name": "Theodoret of Cyrrhus",
+  "verdict": "revise",
+  "recount": {
+   "byzantine-imperial-church-justinianic": {
+    "valid": 0,
+    "rejected": {
+     "(tradition)": "not later: starts 451; Theodoret lived to about 457/458 and was active at Chalcedon in 451 (Evagrius 4378, 5242)"
+    },
+    "added": []
+   },
+   "syriac-orthodox-west-syriac-christianity": {
+    "valid": 0,
+    "rejected": {
+     "(tradition)": "not later: starts 451, before Theodoret's death about 457/458"
+    },
+    "added": []
+   }
+  },
+  "passes_after_review": false,
+  "findings": [
+   {
+    "severity": "BLOCKING",
+    "what": "Neither counted tradition is later than him. Both start in 451. The input's last_year 423 is the census people-row year (the year he became bishop), not his last year. The draft itself gives his death as 457 (and 458). He took part in Chalcedon in 451: the counted Evagrius passages describe his reinstatement and his case at the ninth session. Under 'the tradition starts after the person's last year', both traditions fail.",
+    "evidence": "census byzantine-imperial-church-justinianic start 451; syriac-orthodox-west-syriac-christianity start 451; npnf203_theodoret-jerome-gennadius-rufinus.xml:43760; evagrius-scholasticus_ecclesiastical-history_walford1846.txt:3350, 4378, 5242",
+    "fix": "Drop him from this route unless a recount finds two traditions starting after about 458. Latin Africa under Byzantium (533) is a likely one: Facundus names him about 26 times in separate places (lines 41800-74073), not yet checked strictly. A second one is needed."
+   },
+   {
+    "severity": "MINOR",
+    "what": "Apart from the timing, the refs check out: they are in-shelf and name Theodoret of Cyrrhus, and the Syriac refs are distinct.",
+    "evidence": "consolidated refs",
+    "fix": "None."
+   }
+  ],
+  "recommendation_should_be": "hold",
+  "why": "He has his own works and founded nothing, but he does not pass the count: both counted traditions begin in 451, while he was still alive and active."
+ },
+ {
+  "cid": "C098",
+  "name": "Justinian",
+  "verdict": "approve",
+  "recount": {
+   "russian-church-nikon-to-holy-synod": {
+    "valid": 8,
+    "rejected": {},
+    "added": []
+   },
+   "coptic-christianity-under-early-islam": {
+    "valid": 7,
+    "rejected": {},
+    "added": []
+   }
+  },
+  "passes_after_review": true,
+  "findings": [
+   {
+    "severity": "MINOR",
+    "what": "All 15 refs are Justinian I and sit in shelved loci. Platon 6239 is inside Platon's Summary (1681-9998), outside Pinkerton's memoir and appendix. The Nikon-file refs are in the Replies, after the Translator's Preface (which ends by about line 1000). The home quote begins after the editor's '(Praefatio)' label, as it should.",
+    "evidence": "platon_present-state-...pinkerton1814.txt:1681, 9998; nikon_replies-...palmer1871.txt:1842",
+    "fix": "None."
+   },
+   {
+    "severity": "MINOR",
+    "what": "The draft's dates are not tied to a corpus line ('Not re-read from a corpus source').",
+    "evidence": "draft dates_source",
+    "fix": "Optional: cite a census or corpus line for 527-565."
+   }
+  ],
+  "recommendation_should_be": "include",
+  "why": "His Novels are laws issued in his name on his home shelf, he founded nothing, and both later traditions name him clearly at least 7 times."
+ },
+ {
+  "cid": "C115",
+  "name": "Bede",
+  "verdict": "approve",
+  "recount": {
+   "lollardy": {
+    "valid": 6,
+    "rejected": {},
+    "added": []
+   },
+   "the-tridentine-church": {
+    "valid": 8,
+    "rejected": {},
+    "added": [
+     "roman-breviary_bute1908.txt:61623",
+     "roman-breviary_bute1908.txt:71076"
+    ]
+   }
+  },
+  "passes_after_review": true,
+  "findings": [
+   {
+    "severity": "MINOR",
+    "what": "The five 'Homily by the Venerable Bede' refs are the Breviary's own lesson rubrics, not editor's headings, so they count. The bracketed '[at Jarrow ...]' is Bute's. To remove any doubt, two more main-text lessons name him: 61623 ('In this man, saith Bede') and 71076 ('Concerning him blessed Bede beareth witness'). With those, the count is 5 even without the rubrics.",
+    "evidence": "roman-breviary_bute1908.txt:61623, 71076, 7654 (Bellarmine), roman-missal 34728, roman-breviary_bute1908.txt:71003",
+    "fix": "Add the two lines and cite the five non-rubric passages first."
+   }
+  ],
+  "recommendation_should_be": "include",
+  "why": "His own History is on his home shelf, he founded nothing, and both later traditions name him in their own texts at least 5 times."
+ },
+ {
+  "cid": "C146",
+  "name": "Innocent III",
+  "verdict": "approve",
+  "recount": {
+   "the-tridentine-church": {
+    "valid": 5,
+    "rejected": {},
+    "added": [
+     "bullarium-romanum_magnum-bullarium-tomus2-pius-iv-to-innocent-ix-lat_cherubini.txt:37879",
+     "bullarium-romanum_magnum-bullarium-tomus2-pius-iv-to-innocent-ix-lat_cherubini.txt:154764"
+    ]
+   },
+   "the-anabaptist-movements": {
+    "valid": 8,
+    "rejected": {},
+    "added": []
+   }
+  },
+  "passes_after_review": true,
+  "findings": [
+   {
+    "severity": "MINOR",
+    "what": "The doubts list extra Tridentine finds that do not count. Catechism 17445 is a translator's footnote. Pallavicino tomo 3 is shelved as context. The Missal lines are the English editor's explanatory commentary. Barlow's own text is context. The consolidated five are valid, and two Bullarium bull texts (tradition, whole volume) make the count safe. The 'refs land on Hilarion and Susanna' remark describes the old buggy refs, not the consolidated ones.",
+    "evidence": "council-of-trent_roman-catechism_mchugh-callan1923.txt:17445; cic/corpus-map/the-tridentine-church.yaml (Pallavicino tomo3 role context; Barlow epistle role context)",
+    "fix": "Replace doubt (1) with the verified refs plus the two Bullarium lines."
+   },
+   {
+    "severity": "MINOR",
+    "what": "The home citation at Mirbt 12137 is Mirbt's editorial reference line, not the letter itself. The letter text starts at 12141 ('Sicut universitatis conditor Deus duo magna luminaria ...').",
+    "evidence": "mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt:12137, 12141",
+    "fix": "Cite 12141."
+   }
+  ],
+  "recommendation_should_be": "include",
+  "why": "A papal letter issued in his name is held, he founded nothing, and both later traditions pass on checked passages."
+ },
+ {
+  "cid": "C154",
+  "name": "Johannes Tauler",
+  "verdict": "approve",
+  "recount": {
+   "schwenckfelders": {
+    "valid": 25,
+    "rejected": {},
+    "added": []
+   },
+   "family-of-love-and-spiritualists-franck-niclaes": {
+    "valid": 11,
+    "rejected": {
+     "franck_paradoxa-deu_rab1559.txt:21460": "same passage as 21455 (five lines on, same argument)"
+    },
+    "added": []
+   }
+  },
+  "passes_after_review": true,
+  "findings": [
+   {
+    "severity": "MINOR",
+    "what": "Franck 21455 and 21460 are one passage, so the count is 11. Paragraph breaks in the OCR are uncertain (1360/1404 may also be one), but the count stays well above 5. The Sudermann marginal tags are the 1622 author's own printed source notes, not a modern editor's, and each marks a separate quoted section. At least five Sudermann mentions are in running text (9778, 15947, 11603, 12979, 14479).",
+    "evidence": "franck_paradoxa-deu_rab1559.txt:21455-21460; sudermann_hohe-geistreiche-lehren-hohes-lied-deu_heyden1622.txt:9778, 15947",
+    "fix": "Set Family of Love to 11."
+   },
+   {
+    "severity": "MINOR",
+    "what": "The home citation (Winkworth 907) is the editor's introduction, not Tauler's text. It is fine as evidence about the sermons' transmission, but it is not a home-tradition passage.",
+    "evidence": "tauler_history-and-life-with-sermons_winkworth1907.txt:907",
+    "fix": "Optional: cite a sermon line for the home citation."
+   }
+  ],
+  "recommendation_should_be": "hold",
+  "why": "The counts hold, but the only words held are sermons taken down by hearers (Answer C excludes them). The draft rightly leaves the Strasbourg-edition question to Mark."
+ }
+]

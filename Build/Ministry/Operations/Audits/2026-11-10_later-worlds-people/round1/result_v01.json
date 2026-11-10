@@ -1,0 +1,975 @@
+[
+ {
+  "cid": "C001",
+  "name": "Paul of Samosata",
+  "traditions": {
+   "desert-monasticism": {
+    "labels": {
+     "desert-monasticism#0": "E",
+     "desert-monasticism#1": "E",
+     "desert-monasticism#2": "U",
+     "desert-monasticism#3": "U",
+     "desert-monasticism#4": "U",
+     "desert-monasticism#5": "U",
+     "desert-monasticism#6": "U",
+     "desert-monasticism#7": "U",
+     "desert-monasticism#8": "U",
+     "desert-monasticism#9": "U"
+    },
+    "clean_passages": 0
+   },
+   "imperial-juridical-christianity": {
+    "labels": {
+     "imperial-juridical-christianity#0": "S",
+     "imperial-juridical-christianity#1": "E",
+     "imperial-juridical-christianity#2": "S",
+     "imperial-juridical-christianity#3": "U",
+     "imperial-juridical-christianity#4": "S",
+     "imperial-juridical-christianity#5": "S",
+     "imperial-juridical-christianity#6": "S",
+     "imperial-juridical-christianity#7": "E",
+     "imperial-juridical-christianity#8": "S",
+     "imperial-juridical-christianity#9": "U"
+    },
+    "clean_passages": 5,
+    "best_quote": {
+     "file": "npnf113_chrysostom-homilies-galatians-philemon.xml",
+     "line": 22041,
+     "text": "Paul of Samosata? for what did he affirm? The very same."
+    }
+   },
+   "antiochene-exegetical-christianity-chrysostom-ce": {
+    "labels": {
+     "antiochene-exegetical-christianity-chrysostom-ce#0": "E",
+     "antiochene-exegetical-christianity-chrysostom-ce#1": "S",
+     "antiochene-exegetical-christianity-chrysostom-ce#2": "S",
+     "antiochene-exegetical-christianity-chrysostom-ce#3": "S",
+     "antiochene-exegetical-christianity-chrysostom-ce#4": "S",
+     "antiochene-exegetical-christianity-chrysostom-ce#5": "E",
+     "antiochene-exegetical-christianity-chrysostom-ce#6": "S",
+     "antiochene-exegetical-christianity-chrysostom-ce#7": "S",
+     "antiochene-exegetical-christianity-chrysostom-ce#8": "S",
+     "antiochene-exegetical-christianity-chrysostom-ce#9": "E"
+    },
+    "clean_passages": 7,
+    "best_quote": {
+     "file": "npnf203_theodoret-jerome-gennadius-rufinus.xml",
+     "line": 21391,
+     "text": "Artemon, Theodotus, Sabellius, Paul of Samosata, Marcellus, and Photinus"
+    }
+   }
+  },
+  "namesake_notes": "Samosatene/Samosatenus hits all refer to Paul himself (no namesakes). Desert-monasticism hits at lines 42884-59034 are in Athanasius's Orations against the Arians, in the same file but not one of the shelved works (Festal Letter XXXIX, Personal Letters, Vita Antonii), so labelled U.",
+  "editorial_notes": "Percival's notes/excursus in Seven Councils; Driver-Hodgson and Loofs introductions to Nestorius; NPNF footnotes and editor's introduction to Athanasius; Eusebius chapter heading.",
+  "comment": "Imperial ctx 0 and 6 (Socrates) are one passage. Eusebius chapter heading (3, 9) left U. Ctx 5 (Athanasius Arian History) has an inserted bracketed editor footnote but the sentence is Athanasius's own. Antiochene ctx 1 (Chrysostom Eph.) sentence is Chrysostom's; the footnote after it is editorial."
+ },
+ {
+  "cid": "C011",
+  "name": "Honoratus of Arles",
+  "traditions": {
+   "roman-church-gregorian": {
+    "labels": {
+     "roman-church-gregorian#0": "N",
+     "roman-church-gregorian#1": "N",
+     "roman-church-gregorian#2": "E",
+     "roman-church-gregorian#3": "N",
+     "roman-church-gregorian#4": "N",
+     "roman-church-gregorian#5": "N",
+     "roman-church-gregorian#6": "N",
+     "roman-church-gregorian#7": "E",
+     "roman-church-gregorian#8": "N",
+     "roman-church-gregorian#9": "N"
+    },
+    "clean_passages": 0
+   },
+   "merovingian-gallic-christianity": {
+    "labels": {
+     "merovingian-gallic-christianity#0": "N",
+     "merovingian-gallic-christianity#1": "N",
+     "merovingian-gallic-christianity#2": "E",
+     "merovingian-gallic-christianity#3": "U",
+     "merovingian-gallic-christianity#4": "N",
+     "merovingian-gallic-christianity#5": "E",
+     "merovingian-gallic-christianity#6": "E",
+     "merovingian-gallic-christianity#7": "E",
+     "merovingian-gallic-christianity#8": "N",
+     "merovingian-gallic-christianity#9": "N"
+    },
+    "clean_passages": 0
+   },
+   "byzantine-imperial-church-justinianic": {
+    "labels": {
+     "byzantine-imperial-church-justinianic#0": "N",
+     "byzantine-imperial-church-justinianic#1": "N",
+     "byzantine-imperial-church-justinianic#2": "N",
+     "byzantine-imperial-church-justinianic#3": "N",
+     "byzantine-imperial-church-justinianic#4": "N",
+     "byzantine-imperial-church-justinianic#5": "N",
+     "byzantine-imperial-church-justinianic#6": "N",
+     "byzantine-imperial-church-justinianic#7": "E",
+     "byzantine-imperial-church-justinianic#8": "N",
+     "byzantine-imperial-church-justinianic#9": "N"
+    },
+    "clean_passages": 0
+   }
+  },
+  "namesake_notes": "Honoratus is a common name: archdeacon of Salona, abbot of Fundi (Gregory Dial. I), bishops of Thasos/Sitifis, a Merovingian bishop, a prefect of Constantinople, Honoratus of Marseilles, the Roman rank 'honoratus'. None is Honoratus of Arles.",
+  "editorial_notes": "Apparatus criticus, index/table-of-contents lists, Krusch footnote on Vita Caesarii, a passage from the Passio Genesii quoted in Krusch's apparatus to Gregory of Tours (names Honoratus of Arles), Dalton note, Mansi editorial remark.",
+  "comment": "No clean passage. Gennadius cat. no. 95 'Honoratus the bishop' (Merovingian ctx 3) is a bare list entry, probably Honoratus of Marseilles; U."
+ },
+ {
+  "cid": "C021",
+  "name": "Montanus",
+  "traditions": {
+   "latin-pastoral-congregational-christianity": {
+    "labels": {
+     "latin-pastoral-congregational-christianity#0": "N",
+     "latin-pastoral-congregational-christianity#1": "N",
+     "latin-pastoral-congregational-christianity#2": "U",
+     "latin-pastoral-congregational-christianity#3": "N",
+     "latin-pastoral-congregational-christianity#4": "N",
+     "latin-pastoral-congregational-christianity#5": "N",
+     "latin-pastoral-congregational-christianity#6": "N",
+     "latin-pastoral-congregational-christianity#7": "E",
+     "latin-pastoral-congregational-christianity#8": "E",
+     "latin-pastoral-congregational-christianity#9": "N"
+    },
+    "clean_passages": 0
+   },
+   "the-anabaptist-movements": {
+    "labels": {
+     "the-anabaptist-movements#0": "N",
+     "the-anabaptist-movements#1": "S",
+     "the-anabaptist-movements#2": "N",
+     "the-anabaptist-movements#3": "N",
+     "the-anabaptist-movements#4": "N",
+     "the-anabaptist-movements#5": "N",
+     "the-anabaptist-movements#6": "N",
+     "the-anabaptist-movements#7": "N",
+     "the-anabaptist-movements#8": "N",
+     "the-anabaptist-movements#9": "N"
+    },
+    "clean_passages": 1,
+    "best_quote": {
+     "file": "menno-simons_complete-works_funk1871.txt",
+     "line": 21969,
+     "text": "Afterwards, Montanus, Alcibiades and Theodotius were regarded by many in the land of Phrygia"
+    }
+   },
+   "the-society-of-jesus": {
+    "labels": {
+     "the-society-of-jesus#0": "N",
+     "the-society-of-jesus#1": "N",
+     "the-society-of-jesus#2": "N",
+     "the-society-of-jesus#3": "N",
+     "the-society-of-jesus#4": "N",
+     "the-society-of-jesus#5": "N",
+     "the-society-of-jesus#6": "N",
+     "the-society-of-jesus#7": "N",
+     "the-society-of-jesus#8": "N",
+     "the-society-of-jesus#9": "N"
+    },
+    "clean_passages": 0
+   }
+  },
+  "namesake_notes": "Almost all hits are namesakes: Montanus and Lucius (martyrs), Donatist Montanus, Montanus of Palencia, Montanus an official of Constantius; H. Montanus (Hermannus Montanus, Dutch Mennonite author) cited throughout Martyrs Mirror; Arias Montanus; Arnoldus Montanus; Montanus magister libellorum (Polanco). 'Montan.' in Jesuit volumes abbreviates Monumenta (Monumenta Historica).",
+  "editorial_notes": "Indexes (Cyprian opera spuria, Augustine Confessions index), Knopf introduction, Smyth/Whitley editorial note, footnote citations of Montanus in Martyrs Mirror.",
+  "comment": "Only one S: Menno quoting an early source on Montanus, Alcibiades, Theodotus in Phrygia. Latin-pastoral ctx 2 (Hippolytus Refutation, Phrygian Montanus) is outside the shelved works of that file (Hippolytus not on the shelf), so U."
+ },
+ {
+  "cid": "C031",
+  "name": "Zephyrinus",
+  "traditions": {
+   "latin-pastoral-congregational-christianity": {
+    "labels": {
+     "latin-pastoral-congregational-christianity#0": "U",
+     "latin-pastoral-congregational-christianity#1": "S",
+     "latin-pastoral-congregational-christianity#2": "S",
+     "latin-pastoral-congregational-christianity#3": "U",
+     "latin-pastoral-congregational-christianity#4": "E",
+     "latin-pastoral-congregational-christianity#5": "U",
+     "latin-pastoral-congregational-christianity#6": "S",
+     "latin-pastoral-congregational-christianity#7": "U",
+     "latin-pastoral-congregational-christianity#8": "U",
+     "latin-pastoral-congregational-christianity#9": "U"
+    },
+    "clean_passages": 3,
+    "best_quote": {
+     "file": "optatus_against-the-donatists.txt",
+     "line": 139,
+     "text": "all of whom were confuted in their time by Victorinus of Pettau,62 by Zephyrinus of Rome,63 by Tertullian of Carthage"
+    }
+   },
+   "imperial-juridical-christianity": {
+    "labels": {
+     "imperial-juridical-christianity#0": "S",
+     "imperial-juridical-christianity#1": "U",
+     "imperial-juridical-christianity#2": "E",
+     "imperial-juridical-christianity#3": "U",
+     "imperial-juridical-christianity#4": "S",
+     "imperial-juridical-christianity#5": "E",
+     "imperial-juridical-christianity#6": "E",
+     "imperial-juridical-christianity#7": "S",
+     "imperial-juridical-christianity#8": "U",
+     "imperial-juridical-christianity#9": "E"
+    },
+    "clean_passages": 3,
+    "best_quote": {
+     "file": "npnf201_eusebius-church-history-life-of-constantine.xml",
+     "line": 32269,
+     "text": "with great haste and tears he fell down before Zephyrinus, the bishop, rolling at the feet not only of the clergy"
+    }
+   }
+  },
+  "namesake_notes": "No namesakes; all hits are Pope Zephyrinus of Rome.",
+  "editorial_notes": "Translator footnote in Optatus (Zephyrinus was Pope cir. 201-218); Mansi Latin notes; editor's introduction summary in Eusebius (chap. 14-16 note); chapter headings and summaries in Hippolytus Refutation (U).",
+  "comment": "Latin-pastoral ctx 0,3,5,7,8,9 are Hippolytus Refutation IX, not on that shelf (anf05 shelf is Cyprian/Novatian-circle works), so U. Imperial ctx 1 and 8 are Optatus main text but only Optatus's Appendix of documents is shelved there, so U; ctx 3 is Greek Eusebius VI in the Schwartz file whose shelved work is Rufinus X-XI, so U. Imperial passes: Eusebius V.28 two distinct sentences (ctx 0, 4) plus ctx 7."
+ },
+ {
+  "cid": "C041",
+  "name": "Malchion",
+  "traditions": {
+   "cappadocian-nicene-pastoral-monastic-tradition": {
+    "labels": {
+     "cappadocian-nicene-pastoral-monastic-tradition#0": "E",
+     "cappadocian-nicene-pastoral-monastic-tradition#1": "E",
+     "cappadocian-nicene-pastoral-monastic-tradition#2": "E",
+     "cappadocian-nicene-pastoral-monastic-tradition#3": "E",
+     "cappadocian-nicene-pastoral-monastic-tradition#4": "E",
+     "cappadocian-nicene-pastoral-monastic-tradition#5": "E",
+     "cappadocian-nicene-pastoral-monastic-tradition#6": "E",
+     "cappadocian-nicene-pastoral-monastic-tradition#7": "E",
+     "cappadocian-nicene-pastoral-monastic-tradition#8": "U",
+     "cappadocian-nicene-pastoral-monastic-tradition#9": "E"
+    },
+    "clean_passages": 0
+   },
+   "imperial-juridical-christianity": {
+    "labels": {
+     "imperial-juridical-christianity#0": "U",
+     "imperial-juridical-christianity#1": "U",
+     "imperial-juridical-christianity#2": "U",
+     "imperial-juridical-christianity#3": "U",
+     "imperial-juridical-christianity#4": "U",
+     "imperial-juridical-christianity#5": "S"
+    },
+    "clean_passages": 1,
+    "best_quote": {
+     "file": "npnf201_eusebius-church-history-life-of-constantine.xml",
+     "line": 41977,
+     "text": "Malchion especially drew him out of his hiding-place and refuted him."
+    }
+   }
+  },
+  "namesake_notes": "None found; all hits are Malchion the presbyter of Antioch.",
+  "editorial_notes": "ANF translator's biographical notice and headings for Malchion (vi.x), Eusebius chapter headings, section titles.",
+  "comment": "Cappadocian shelf is Gregory Thaumaturgus only; the Malchion section (ANF vi.x) is a different work, so the synodal-letter signature (ctx 8) is U. Imperial: Greek/Latin Schwartz file shelves only Rufinus X-XI, so Greek Eusebius VII and Rufinus's Latin translation of it (ctx 0,2,4) are U; Eusebius chapter headings (1,3) U. Only ctx 5 (Eusebius HE VII.29.2) is clean."
+ },
+ {
+  "cid": "C051",
+  "name": "Hilarion of Gaza",
+  "traditions": {
+   "hieronymian-ascetic-literary": {
+    "labels": {
+     "hieronymian-ascetic-literary#0": "S",
+     "hieronymian-ascetic-literary#1": "S",
+     "hieronymian-ascetic-literary#2": "U",
+     "hieronymian-ascetic-literary#3": "S",
+     "hieronymian-ascetic-literary#4": "S",
+     "hieronymian-ascetic-literary#5": "S",
+     "hieronymian-ascetic-literary#6": "S",
+     "hieronymian-ascetic-literary#7": "S",
+     "hieronymian-ascetic-literary#8": "S",
+     "hieronymian-ascetic-literary#9": "S"
+    },
+    "clean_passages": 9,
+    "best_quote": {
+     "file": "npnf206_jerome-principal-works.xml",
+     "line": 30298,
+     "text": "The first person bold enough to break into the presence of the blessed Hilarion was a certain woman of Eleutheropolis"
+    }
+   },
+   "russian-church-nikon-to-holy-synod": {
+    "labels": {
+     "russian-church-nikon-to-holy-synod#0": "N",
+     "russian-church-nikon-to-holy-synod#1": "N",
+     "russian-church-nikon-to-holy-synod#2": "N",
+     "russian-church-nikon-to-holy-synod#3": "N",
+     "russian-church-nikon-to-holy-synod#4": "N",
+     "russian-church-nikon-to-holy-synod#5": "N",
+     "russian-church-nikon-to-holy-synod#6": "N",
+     "russian-church-nikon-to-holy-synod#7": "N",
+     "russian-church-nikon-to-holy-synod#8": "U",
+     "russian-church-nikon-to-holy-synod#9": "N"
+    },
+    "clean_passages": 0
+   },
+   "russian-church-synodal-century": {
+    "labels": {
+     "russian-church-synodal-century#0": "N",
+     "russian-church-synodal-century#1": "N",
+     "russian-church-synodal-century#2": "N",
+     "russian-church-synodal-century#3": "S",
+     "russian-church-synodal-century#4": "N",
+     "russian-church-synodal-century#5": "N",
+     "russian-church-synodal-century#6": "N",
+     "russian-church-synodal-century#7": "N",
+     "russian-church-synodal-century#8": "N",
+     "russian-church-synodal-century#9": "N"
+    },
+    "clean_passages": 1,
+    "best_quote": {
+     "file": "mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
+     "line": 1537,
+     "text": "great Hermits Hilarion, Anthony, and Theo- dosius, who once nourished in the deserts of Palestine and Egypt"
+    }
+   }
+  },
+  "namesake_notes": "Russian shelves: Hilarion archbishop of Riazan (Nikon affair), Hilarion metropolitan of Kyiv, Hilarion bishop of Rostov, Hilarion of the Kyiv cave; none is Hilarion of Gaza.",
+  "editorial_notes": "Heading 'The Life of S. Hilarion' (NPNF), Palmer's bracketed note in Ligarides (ctx 8).",
+  "comment": "Hieronymian: ctx 6 and 5,7,8,9 are distinct passages of Jerome's Life of Hilarion; ctx 0 (Letter), 1 and 3 (De viris illustribus 134 and 135) are Jerome's own text. Mouravieff ctx 3 reads 'hermits Hilarion, Anthony and Theodosius ... in the deserts of Palestine and Egypt', taken as Hilarion of Gaza."
+ },
+ {
+  "cid": "C061",
+  "name": "Ephraim the Syrian",
+  "traditions": {
+   "syriac-orthodox-west-syriac-christianity": {
+    "labels": {
+     "syriac-orthodox-west-syriac-christianity#0": "S",
+     "syriac-orthodox-west-syriac-christianity#1": "U",
+     "syriac-orthodox-west-syriac-christianity#2": "S",
+     "syriac-orthodox-west-syriac-christianity#3": "U",
+     "syriac-orthodox-west-syriac-christianity#4": "N",
+     "syriac-orthodox-west-syriac-christianity#5": "U",
+     "syriac-orthodox-west-syriac-christianity#6": "N",
+     "syriac-orthodox-west-syriac-christianity#7": "U",
+     "syriac-orthodox-west-syriac-christianity#8": "U",
+     "syriac-orthodox-west-syriac-christianity#9": "U"
+    },
+    "clean_passages": 2,
+    "best_quote": {
+     "file": "michael-the-syrian_chronique-tome1-livres-i-vii-fra_chabot1899.txt",
+     "line": 1540,
+     "text": "Saint Mar Éphrem, le grand Basile, et d'autres anciens docteurs"
+    }
+   },
+   "the-church-of-the-east-under-persia": {
+    "labels": {
+     "the-church-of-the-east-under-persia#0": "E",
+     "the-church-of-the-east-under-persia#1": "U",
+     "the-church-of-the-east-under-persia#2": "S",
+     "the-church-of-the-east-under-persia#3": "E",
+     "the-church-of-the-east-under-persia#4": "N",
+     "the-church-of-the-east-under-persia#5": "N",
+     "the-church-of-the-east-under-persia#6": "E",
+     "the-church-of-the-east-under-persia#7": "E",
+     "the-church-of-the-east-under-persia#8": "E",
+     "the-church-of-the-east-under-persia#9": "U"
+    },
+    "clean_passages": 1,
+    "best_quote": {
+     "file": "chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt",
+     "line": 14174,
+     "text": "disciple et serviteur de Mar Ephrem, le pere de ce dernier etait de Nisibe (Nasibiri) et sa mere d'Amid"
+    }
+   },
+   "coptic-christianity-under-early-islam": {
+    "labels": {
+     "coptic-christianity-under-early-islam#0": "U",
+     "coptic-christianity-under-early-islam#1": "N",
+     "coptic-christianity-under-early-islam#2": "U",
+     "coptic-christianity-under-early-islam#3": "N",
+     "coptic-christianity-under-early-islam#4": "U",
+     "coptic-christianity-under-early-islam#5": "U",
+     "coptic-christianity-under-early-islam#6": "U",
+     "coptic-christianity-under-early-islam#7": "U",
+     "coptic-christianity-under-early-islam#8": "U",
+     "coptic-christianity-under-early-islam#9": "U"
+    },
+    "clean_passages": 0
+   }
+  },
+  "namesake_notes": "Ephrem/Ephraem is common: Ephrem of Amid, patriarch of Antioch (Zacharias, Michael), Ephraem metropolitan of Gundeshapur (Amr, Mari), Ephrem (Afraham) a Coptic monk in the Synaxary, an Ephrem who died at Baisan (Michael list), Ephrem the khouri in John of Ephesus.",
+  "editorial_notes": "Chabot, Scher, Braun introductions and indexes (Synodicon, Barhadbeshabba, PO 9 index); Barhadbeshabba lines 12170 and 15034 lie before the shelved locus (raw line ~16752), i.e. in Scher's introduction.",
+  "comment": "Line numbers in the batch refer to the full filenames, which differ between Michael tome1/tome2 and John of Ephesus po18/po19. Syriac ctx 0 (Michael tome2, Absimia nephew of Mar Ephrem) and ctx 2 are S. John of Ephesus po19 'Vie d'Ephrem le sublime docteur' is an Armenian synaxary entry outside the shelved article (U). Khuzistan chronicle hits (lines 816, 972) lie before the shelved locus (~1627), so U. Seert Ephrem passage (lines 14174-14415) is outside the Coptic HoP locus (lines ~300-10700), so U for Coptic. po08 ctx 5 is a chronicle appendix outside identifiable shelved work (U)."
+ },
+ {
+  "cid": "C071",
+  "name": "Monica",
+  "traditions": {
+   "the-society-of-jesus": {
+    "labels": {
+     "the-society-of-jesus#0": "N",
+     "the-society-of-jesus#1": "N",
+     "the-society-of-jesus#2": "N",
+     "the-society-of-jesus#3": "N",
+     "the-society-of-jesus#4": "N",
+     "the-society-of-jesus#5": "S",
+     "the-society-of-jesus#6": "S",
+     "the-society-of-jesus#7": "N",
+     "the-society-of-jesus#8": "E",
+     "the-society-of-jesus#9": "N"
+    },
+    "clean_passages": 2,
+    "best_quote": {
+     "file": "jesuit-relations_thwaites-v26-fra-eng_1896-1901.txt",
+     "line": 3383,
+     "text": "femble vne autre Ste Monique, ayant autant de zele pour le baptefme de so fils"
+    }
+   },
+   "recusant-english-catholicism": {
+    "labels": {
+     "recusant-english-catholicism#0": "N",
+     "recusant-english-catholicism#1": "N",
+     "recusant-english-catholicism#2": "N",
+     "recusant-english-catholicism#3": "S",
+     "recusant-english-catholicism#4": "N",
+     "recusant-english-catholicism#5": "S",
+     "recusant-english-catholicism#6": "N",
+     "recusant-english-catholicism#7": "S",
+     "recusant-english-catholicism#8": "N",
+     "recusant-english-catholicism#9": "S"
+    },
+    "clean_passages": 3,
+    "best_quote": {
+     "file": "gerard-john_condition-of-catholics-under-james-i_morris1871.txt",
+     "line": 9630,
+     "text": "St. Monica, by her tears and prayers, did win her son, St. Augustin"
+    }
+   },
+   "philippine-catholicism-era-8": {
+    "labels": {
+     "philippine-catholicism-era-8#0": "N",
+     "philippine-catholicism-era-8#1": "N",
+     "philippine-catholicism-era-8#2": "N",
+     "philippine-catholicism-era-8#3": "N",
+     "philippine-catholicism-era-8#4": "N",
+     "philippine-catholicism-era-8#5": "N",
+     "philippine-catholicism-era-8#6": "N",
+     "philippine-catholicism-era-8#7": "N",
+     "philippine-catholicism-era-8#8": "N",
+     "philippine-catholicism-era-8#9": "N"
+    },
+    "clean_passages": 0
+   }
+  },
+  "namesake_notes": "Very many namesakes: St Monica's Convent (Louvain), Monique (a Huron captive), madona Monica, Santa Monica (Augustinian convent/village/friars Cristobal and Roque de Santa Monica), Monica de Yturralde, Monica Corosan.",
+  "editorial_notes": "Table of contents entry (Morris), Lainez apparatus 'Monica vel Monacha, lectio dubia'.",
+  "comment": "Recusant ctx 3 (Campion Latin) and 9 (English facing translation) are one passage."
+ },
+ {
+  "cid": "C081",
+  "name": "Theodoret of Cyrrhus",
+  "traditions": {
+   "byzantine-imperial-church-justinianic": {
+    "labels": {
+     "byzantine-imperial-church-justinianic#0": "E",
+     "byzantine-imperial-church-justinianic#1": "S",
+     "byzantine-imperial-church-justinianic#2": "E",
+     "byzantine-imperial-church-justinianic#3": "N",
+     "byzantine-imperial-church-justinianic#4": "S",
+     "byzantine-imperial-church-justinianic#5": "E",
+     "byzantine-imperial-church-justinianic#6": "E",
+     "byzantine-imperial-church-justinianic#7": "E",
+     "byzantine-imperial-church-justinianic#8": "E",
+     "byzantine-imperial-church-justinianic#9": "S"
+    },
+    "clean_passages": 2,
+    "best_quote": {
+     "file": "evagrius-scholasticus_ecclesiastical-history_walford1846.txt",
+     "line": 1786,
+     "text": "they depose Theodoret, bishop of Cyrus, and even Domnus of Antioch"
+    }
+   },
+   "latin-africa-under-byzantium": {
+    "labels": {
+     "latin-africa-under-byzantium#0": "S",
+     "latin-africa-under-byzantium#1": "E",
+     "latin-africa-under-byzantium#2": "E",
+     "latin-africa-under-byzantium#3": "U",
+     "latin-africa-under-byzantium#4": "S",
+     "latin-africa-under-byzantium#5": "E",
+     "latin-africa-under-byzantium#6": "E",
+     "latin-africa-under-byzantium#7": "U",
+     "latin-africa-under-byzantium#8": "E",
+     "latin-africa-under-byzantium#9": "U"
+    },
+    "clean_passages": 2,
+    "best_quote": {
+     "file": "facundus-ferrandus-caesarius-dionysius-pl67-lat_migne1865.txt",
+     "line": 44309,
+     "text": "quod idem Theodoretus deliberationi ac de:- nitioni ejus interfuit, atque epistolam pap: Leonis"
+    }
+   },
+   "syriac-orthodox-west-syriac-christianity": {
+    "labels": {
+     "syriac-orthodox-west-syriac-christianity#0": "S",
+     "syriac-orthodox-west-syriac-christianity#1": "S",
+     "syriac-orthodox-west-syriac-christianity#2": "E",
+     "syriac-orthodox-west-syriac-christianity#3": "E",
+     "syriac-orthodox-west-syriac-christianity#4": "E",
+     "syriac-orthodox-west-syriac-christianity#5": "E",
+     "syriac-orthodox-west-syriac-christianity#6": "E",
+     "syriac-orthodox-west-syriac-christianity#7": "S",
+     "syriac-orthodox-west-syriac-christianity#8": "E",
+     "syriac-orthodox-west-syriac-christianity#9": "S"
+    },
+    "clean_passages": 4,
+    "best_quote": {
+     "file": "severus-of-antioch_select-letters-book6-part2_brooks1904.txt",
+     "line": 5014,
+     "text": "Because the unholy Nestorians, whose leader was Theodoret, wished to snatch for themselves the splendour of the man’s character"
+    }
+   }
+  },
+  "namesake_notes": "Theodoretus bishop of Alabanda (Codex Encyclius subscription list, Mansi) is a namesake; a 'Theodoretus' in the Hormisdas correspondence index (Collectio Avellana) is probably another man. Otherwise all hits are Theodoret of Cyrrhus.",
+  "editorial_notes": "Percival excursus and footnote in Seven Councils; Leo letter headings (NPNF); Collectio Avellana index; Justelli/Garnier-type Latin notes in PL 67/68 (Liberatus 76397, 76842); Kihn's German study (index and prose); Brooks/Raabe/Kugener/Abbeloos-Lamy introductions and notes; file header description in Michael tome 1.",
+  "comment": "Byzantine ctx 4 (Greek Evagrius) and 9 (Walford English) are one passage. Latin-africa: Collectio Avellana I 22491 lies before the shelved ep. 85 (raw line ~24645) so U; Facundus 48708 reads like a Latin editorial note, U; Liberatus 84343 sits inside a quotation (« ») of uncertain source, U. Facundus lines 44309 and 45442 fall in the shelved range (~41800-68620). Syriac: 4 clean passages (Michael tome2, Zachariah preface, Severus two letters)."
+ },
+ {
+  "cid": "C091",
+  "name": "Brigid of Kildare",
+  "traditions": {
+   "medieval-irish-christianity": {
+    "labels": {
+     "medieval-irish-christianity#0": "E",
+     "medieval-irish-christianity#1": "S",
+     "medieval-irish-christianity#2": "S",
+     "medieval-irish-christianity#3": "S",
+     "medieval-irish-christianity#4": "S",
+     "medieval-irish-christianity#5": "S",
+     "medieval-irish-christianity#6": "S",
+     "medieval-irish-christianity#7": "S",
+     "medieval-irish-christianity#8": "E",
+     "medieval-irish-christianity#9": "E"
+    },
+    "clean_passages": 7,
+    "best_quote": {
+     "file": "stokes_lives-of-saints-from-the-book-of-lismore-iri-eng_1890.txt",
+     "line": 18380,
+     "text": "Make Christ's Cross on thy face, and on thy eyes,' saith Brigit."
+    }
+   },
+   "nicene-visigothic-iberia": {
+    "labels": {
+     "nicene-visigothic-iberia#0": "U",
+     "nicene-visigothic-iberia#1": "U",
+     "nicene-visigothic-iberia#2": "U",
+     "nicene-visigothic-iberia#3": "U",
+     "nicene-visigothic-iberia#4": "U",
+     "nicene-visigothic-iberia#5": "U",
+     "nicene-visigothic-iberia#6": "U",
+     "nicene-visigothic-iberia#7": "U",
+     "nicene-visigothic-iberia#8": "U",
+     "nicene-visigothic-iberia#9": "U"
+    },
+    "clean_passages": 0
+   },
+   "latin-papal-church-avignon-to-lateran-v": {
+    "labels": {
+     "latin-papal-church-avignon-to-lateran-v#0": "N",
+     "latin-papal-church-avignon-to-lateran-v#1": "N",
+     "latin-papal-church-avignon-to-lateran-v#2": "N",
+     "latin-papal-church-avignon-to-lateran-v#3": "N",
+     "latin-papal-church-avignon-to-lateran-v#4": "N",
+     "latin-papal-church-avignon-to-lateran-v#5": "N",
+     "latin-papal-church-avignon-to-lateran-v#6": "N",
+     "latin-papal-church-avignon-to-lateran-v#7": "N",
+     "latin-papal-church-avignon-to-lateran-v#8": "N",
+     "latin-papal-church-avignon-to-lateran-v#9": "N"
+    },
+    "clean_passages": 0
+   }
+  },
+  "namesake_notes": "Brigida/Brigit in the papal-church shelf all refer to Birgitta of Sweden (Revelationes, Cumming, Bullarium Brigida de Tricollis, Catherine of Siena's Santa Brigida monastery). 'Brig daughter of Coimloch' in Stokes's notes is another woman.",
+  "editorial_notes": "Stokes's metadata header and his Notes section (lines ~25882-27492 are notes with commentary on the Life of Brigit, ctx 8, 9).",
+  "comment": "Visigothic: PL 72 lines 48024-59385 (litany to St Brigida, Giraldus quote, a Life of Brigid) fall before the shelved Leander works (Homilia ~66727, Regula ~85910), so U. Irish: ctx 1,2 are the Irish text and 3-6 the English version of the Life of Brigit; the two languages may overlap partly, but at least 5 distinct passages remain either way."
+ },
+ {
+  "cid": "C101",
+  "name": "Menas",
+  "traditions": {
+   "coptic-christianity-under-early-islam": {
+    "labels": {
+     "coptic-christianity-under-early-islam#0": "N",
+     "coptic-christianity-under-early-islam#1": "N",
+     "coptic-christianity-under-early-islam#2": "N",
+     "coptic-christianity-under-early-islam#3": "N",
+     "coptic-christianity-under-early-islam#4": "S",
+     "coptic-christianity-under-early-islam#5": "N",
+     "coptic-christianity-under-early-islam#6": "N",
+     "coptic-christianity-under-early-islam#7": "N",
+     "coptic-christianity-under-early-islam#8": "N",
+     "coptic-christianity-under-early-islam#9": "N"
+    },
+    "clean_passages": 1,
+    "best_quote": {
+     "file": "severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt",
+     "line": 39157,
+     "text": "clergy of Alexandria, and caused Mennas, patriarch of Constantinople, to ordain for them a man"
+    }
+   },
+   "byzantine-imperial-church-heraclian-iconoclast": {
+    "labels": {
+     "byzantine-imperial-church-heraclian-iconoclast#0": "N",
+     "byzantine-imperial-church-heraclian-iconoclast#1": "N",
+     "byzantine-imperial-church-heraclian-iconoclast#2": "N",
+     "byzantine-imperial-church-heraclian-iconoclast#3": "N",
+     "byzantine-imperial-church-heraclian-iconoclast#4": "N",
+     "byzantine-imperial-church-heraclian-iconoclast#5": "N",
+     "byzantine-imperial-church-heraclian-iconoclast#6": "N",
+     "byzantine-imperial-church-heraclian-iconoclast#7": "N",
+     "byzantine-imperial-church-heraclian-iconoclast#8": "N",
+     "byzantine-imperial-church-heraclian-iconoclast#9": "N"
+    },
+    "clean_passages": 0
+   },
+   "coptic-christianity-fatimid-to-mamluk": {
+    "labels": {
+     "coptic-christianity-fatimid-to-mamluk#0": "N",
+     "coptic-christianity-fatimid-to-mamluk#1": "N",
+     "coptic-christianity-fatimid-to-mamluk#2": "N",
+     "coptic-christianity-fatimid-to-mamluk#3": "N",
+     "coptic-christianity-fatimid-to-mamluk#4": "E",
+     "coptic-christianity-fatimid-to-mamluk#5": "N",
+     "coptic-christianity-fatimid-to-mamluk#6": "U",
+     "coptic-christianity-fatimid-to-mamluk#7": "E",
+     "coptic-christianity-fatimid-to-mamluk#8": "N",
+     "coptic-christianity-fatimid-to-mamluk#9": "N"
+    },
+    "clean_passages": 0
+   }
+  },
+  "namesake_notes": "Menas/Mennas is very common: abbot Mennas of Faiyum, a priest Mennas, St Menas the Egyptian soldier-martyr, Menas brother of Patriarch Benjamin, a historian Mennas, Mennas bishop of Munyat Tamah, deacon and abbot Menas and pilgrim Mennas in John Moschus, Abu Menas church, Menas monk of Akhmim. Only Mennas patriarch of Constantinople counts.",
+  "editorial_notes": "Editor's headings and notes in Synaxary V (po17 file, 59713, 59740).",
+  "comment": "Coptic early-Islam ctx 4 (HoP Severus, Mennas patriarch of Constantinople ordaining Paul of Tinnis) is the only clean passage. Coptic Fatimid ctx 6 is the same HoP sentence but sits in the English HoP section of the PO 1 file, outside Basset's fascicle (PO 1.3), so U."
+ },
+ {
+  "cid": "C111",
+  "name": "Heraclius",
+  "traditions": {
+   "armenian-christianity-era-8": {
+    "labels": {
+     "armenian-christianity-era-8#0": "E",
+     "armenian-christianity-era-8#1": "S",
+     "armenian-christianity-era-8#2": "S",
+     "armenian-christianity-era-8#3": "E",
+     "armenian-christianity-era-8#4": "S",
+     "armenian-christianity-era-8#5": "E",
+     "armenian-christianity-era-8#6": "S",
+     "armenian-christianity-era-8#7": "E",
+     "armenian-christianity-era-8#8": "S",
+     "armenian-christianity-era-8#9": "E"
+    },
+    "clean_passages": 5,
+    "best_quote": {
+     "file": "issaverdens_armenia-and-the-armenians-v2-ecclesiastical-history_1875.txt",
+     "line": 3831,
+     "text": "the Emperor Heraclius, on his return from the Persian war visited the city"
+    }
+   },
+   "coptic-christianity-fatimid-to-mamluk": {
+    "labels": {
+     "coptic-christianity-fatimid-to-mamluk#0": "U",
+     "coptic-christianity-fatimid-to-mamluk#1": "S",
+     "coptic-christianity-fatimid-to-mamluk#2": "U",
+     "coptic-christianity-fatimid-to-mamluk#3": "S",
+     "coptic-christianity-fatimid-to-mamluk#4": "U",
+     "coptic-christianity-fatimid-to-mamluk#5": "S",
+     "coptic-christianity-fatimid-to-mamluk#6": "U",
+     "coptic-christianity-fatimid-to-mamluk#7": "S",
+     "coptic-christianity-fatimid-to-mamluk#8": "U",
+     "coptic-christianity-fatimid-to-mamluk#9": "S"
+    },
+    "clean_passages": 5,
+    "best_quote": {
+     "file": "synaxaire-arabe-jacobite_po11-toubeh-amshir-fra_basset1915.txt",
+     "line": 40773,
+     "text": "le gouverneur et un patrice arriverent de la part d’Heraclius"
+    }
+   },
+   "church-of-the-east-under-the-abbasids": {
+    "labels": {
+     "church-of-the-east-under-the-abbasids#0": "S",
+     "church-of-the-east-under-the-abbasids#1": "S",
+     "church-of-the-east-under-the-abbasids#2": "S",
+     "church-of-the-east-under-the-abbasids#3": "S",
+     "church-of-the-east-under-the-abbasids#4": "S",
+     "church-of-the-east-under-the-abbasids#5": "S",
+     "church-of-the-east-under-the-abbasids#6": "S",
+     "church-of-the-east-under-the-abbasids#7": "S",
+     "church-of-the-east-under-the-abbasids#8": "S",
+     "church-of-the-east-under-the-abbasids#9": "S"
+    },
+    "clean_passages": 10,
+    "best_quote": {
+     "file": "chronicle-of-seert_histoire-nestorienne-seconde-partie-po13-ara-fra_scher1919.txt",
+     "line": 29471,
+     "text": "Heraclius, fils du maitre dEgypte, partit par mer"
+    }
+   }
+  },
+  "namesake_notes": "No namesakes found; all hits are the emperor Heraclius (Eraclio, Hergel, Harqel in the sources).",
+  "editorial_notes": "Brosset's notes and chronological table to Abraham of Crete (Armenian ctx 0,3,5,7,9).",
+  "comment": "Armenian: Serpos ctx 6 and 8 are two sentences about 8 lines apart (could be merged, giving 4). Coptic Fatimid: ctx 0,2,4,6,8 are the English HoP section of the PO 1 file, outside Basset's fascicle (PO 1.3), so U; the five French Synaxary passages (PO 11.5) are all clean. Church of the East: all ten read as main text of Chronicle of Seert II.2; the (Harqel) forms and footnote markers suggest Scher's apparatus is nearby but not in the context text."
+ },
+ {
+  "cid": "C121",
+  "name": "Adam",
+  "traditions": {
+   "the-anabaptist-movements": {
+    "labels": {
+     "the-anabaptist-movements#0": "N",
+     "the-anabaptist-movements#1": "N",
+     "the-anabaptist-movements#2": "N",
+     "the-anabaptist-movements#3": "N",
+     "the-anabaptist-movements#4": "N",
+     "the-anabaptist-movements#5": "N",
+     "the-anabaptist-movements#6": "N",
+     "the-anabaptist-movements#7": "N",
+     "the-anabaptist-movements#8": "N",
+     "the-anabaptist-movements#9": "N"
+    },
+    "clean_passages": 0
+   },
+   "the-reformed-cities-zurich-and-geneva": {
+    "labels": {
+     "the-reformed-cities-zurich-and-geneva#0": "N",
+     "the-reformed-cities-zurich-and-geneva#1": "N",
+     "the-reformed-cities-zurich-and-geneva#2": "N",
+     "the-reformed-cities-zurich-and-geneva#3": "N",
+     "the-reformed-cities-zurich-and-geneva#4": "N",
+     "the-reformed-cities-zurich-and-geneva#5": "N",
+     "the-reformed-cities-zurich-and-geneva#6": "N",
+     "the-reformed-cities-zurich-and-geneva#7": "N",
+     "the-reformed-cities-zurich-and-geneva#8": "N",
+     "the-reformed-cities-zurich-and-geneva#9": "N"
+    },
+    "clean_passages": 0
+   },
+   "the-quakers-religious-society-of-friends": {
+    "labels": {
+     "the-quakers-religious-society-of-friends#0": "N",
+     "the-quakers-religious-society-of-friends#1": "N",
+     "the-quakers-religious-society-of-friends#2": "N",
+     "the-quakers-religious-society-of-friends#3": "N",
+     "the-quakers-religious-society-of-friends#4": "N",
+     "the-quakers-religious-society-of-friends#5": "N",
+     "the-quakers-religious-society-of-friends#6": "N",
+     "the-quakers-religious-society-of-friends#7": "N",
+     "the-quakers-religious-society-of-friends#8": "N",
+     "the-quakers-religious-society-of-friends#9": "N"
+    },
+    "clean_passages": 0
+   }
+  },
+  "namesake_notes": "All hits are Adam the first man (hymns, doctrine, Genesis commentary), plus Adam Sprueli (Zurich acts), Adam Eppenstainer (Hutterite chronicle), Adam Sands (Fox), Melchior Adam (Calvin letters note), D. Adam (editor, Bossert). Alias 'Adam' cannot name the Church of the East priest Adam; Jingjing/King-tsing gave no hits.",
+  "editorial_notes": "None needed; a few hits are chapter headings or editor's references (Fox chapter heading, Bossert preface, Calvin Institutes heading).",
+  "comment": "Alias 'Adam' is unusable as a name test for this person: every hit is a namesake."
+ },
+ {
+  "cid": "C131",
+  "name": "Olga of Kyiv",
+  "traditions": {
+   "the-society-of-jesus": {
+    "labels": {
+     "the-society-of-jesus#0": "N",
+     "the-society-of-jesus#1": "N",
+     "the-society-of-jesus#2": "N",
+     "the-society-of-jesus#3": "N",
+     "the-society-of-jesus#4": "N",
+     "the-society-of-jesus#5": "N",
+     "the-society-of-jesus#6": "N",
+     "the-society-of-jesus#7": "N",
+     "the-society-of-jesus#8": "N",
+     "the-society-of-jesus#9": "N"
+    },
+    "clean_passages": 0
+   },
+   "late-medieval-lay-parish-piety": {
+    "labels": {
+     "late-medieval-lay-parish-piety#0": "N",
+     "late-medieval-lay-parish-piety#1": "N",
+     "late-medieval-lay-parish-piety#2": "N",
+     "late-medieval-lay-parish-piety#3": "N",
+     "late-medieval-lay-parish-piety#4": "N",
+     "late-medieval-lay-parish-piety#5": "N",
+     "late-medieval-lay-parish-piety#6": "N",
+     "late-medieval-lay-parish-piety#7": "N",
+     "late-medieval-lay-parish-piety#8": "N",
+     "late-medieval-lay-parish-piety#9": "N"
+    },
+    "clean_passages": 0
+   },
+   "the-tridentine-church": {
+    "labels": {
+     "the-tridentine-church#0": "N",
+     "the-tridentine-church#1": "N",
+     "the-tridentine-church#2": "N",
+     "the-tridentine-church#3": "N",
+     "the-tridentine-church#4": "N",
+     "the-tridentine-church#5": "N",
+     "the-tridentine-church#6": "N",
+     "the-tridentine-church#7": "N"
+    },
+    "clean_passages": 0
+   }
+  },
+  "namesake_notes": "'Elena' is a common given name: Empress/Queen Helena of Ethiopia (Paez, Almeida), island of St Helena, Elena de Medrano, Doña Elena, Elena Boothe, Elena Frowgh, Elena Barbur and other women in parish records and wills, Elena Cibi and Elena Massimi in Bacci's Life of Philip Neri. No hit names Olga of Kyiv.",
+  "editorial_notes": "None.",
+  "comment": "Alias 'Elena' (Olga's baptismal name Helena) only picks up namesakes; no S passage anywhere."
+ },
+ {
+  "cid": "C141",
+  "name": "Nestor",
+  "traditions": {
+   "russian-church-synodal-century": {
+    "labels": {
+     "russian-church-synodal-century#0": "S",
+     "russian-church-synodal-century#1": "S",
+     "russian-church-synodal-century#2": "S",
+     "russian-church-synodal-century#3": "S",
+     "russian-church-synodal-century#4": "S",
+     "russian-church-synodal-century#5": "S",
+     "russian-church-synodal-century#6": "S",
+     "russian-church-synodal-century#7": "S",
+     "russian-church-synodal-century#8": "S",
+     "russian-church-synodal-century#9": "S"
+    },
+    "clean_passages": 10,
+    "best_quote": {
+     "file": "mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
+     "line": 875,
+     "text": "Such are the words of the holy Nestor the Monk and Annalist of the Pechersky monastery"
+    }
+   },
+   "byzantine-church-palaiologan": {
+    "labels": {
+     "byzantine-church-palaiologan#0": "N",
+     "byzantine-church-palaiologan#1": "N",
+     "byzantine-church-palaiologan#2": "N",
+     "byzantine-church-palaiologan#3": "N",
+     "byzantine-church-palaiologan#4": "N",
+     "byzantine-church-palaiologan#5": "N",
+     "byzantine-church-palaiologan#6": "N",
+     "byzantine-church-palaiologan#7": "N",
+     "byzantine-church-palaiologan#8": "N"
+    },
+    "clean_passages": 0
+   }
+  },
+  "namesake_notes": "Palaiologan shelf: Nestor the martyr (companion of St Demetrius, PO 15 Documents), Homeric Nestor (Bessarion), Nestorius written 'Nestor' in a Synaxary note (po17).",
+  "editorial_notes": "None counted.",
+  "comment": "Mouravieff's own History names Nestor the Pechersk annalist throughout (annals of Nestor; Nestor's account of baptism, of Boris and Gleb, of Pechersk monasteries); ctx 0 names 'the Annals of Nestor' in his preface on sources. All ten read as Mouravieff's narrative, not footnotes."
+ },
+ {
+  "cid": "C151",
+  "name": "Bonaventure",
+  "traditions": {
+   "franciscan-order-era-6": {
+    "labels": {
+     "franciscan-order-era-6#0": "E",
+     "franciscan-order-era-6#1": "E",
+     "franciscan-order-era-6#2": "E",
+     "franciscan-order-era-6#3": "E",
+     "franciscan-order-era-6#4": "E",
+     "franciscan-order-era-6#5": "E",
+     "franciscan-order-era-6#6": "E",
+     "franciscan-order-era-6#7": "E",
+     "franciscan-order-era-6#8": "E",
+     "franciscan-order-era-6#9": "U"
+    },
+    "clean_passages": 0
+   },
+   "fraticelli-spiritual-franciscan-rigorists": {
+    "labels": {
+     "fraticelli-spiritual-franciscan-rigorists#0": "E",
+     "fraticelli-spiritual-franciscan-rigorists#1": "E",
+     "fraticelli-spiritual-franciscan-rigorists#2": "E",
+     "fraticelli-spiritual-franciscan-rigorists#3": "E",
+     "fraticelli-spiritual-franciscan-rigorists#4": "E",
+     "fraticelli-spiritual-franciscan-rigorists#5": "E",
+     "fraticelli-spiritual-franciscan-rigorists#6": "E",
+     "fraticelli-spiritual-franciscan-rigorists#7": "E",
+     "fraticelli-spiritual-franciscan-rigorists#8": "S",
+     "fraticelli-spiritual-franciscan-rigorists#9": "E"
+    },
+    "clean_passages": 1,
+    "best_quote": {
+     "file": "ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd3-deu-lat_1887.txt",
+     "line": 3416,
+     "text": "durum quidem grande et difficile, sed magna sunt premia, dicit frater Bonaventura"
+    }
+   },
+   "catholic-church-ancien-regime": {
+    "labels": {
+     "catholic-church-ancien-regime#0": "S",
+     "catholic-church-ancien-regime#1": "S",
+     "catholic-church-ancien-regime#2": "N",
+     "catholic-church-ancien-regime#3": "N",
+     "catholic-church-ancien-regime#4": "U",
+     "catholic-church-ancien-regime#5": "S",
+     "catholic-church-ancien-regime#6": "S",
+     "catholic-church-ancien-regime#7": "S",
+     "catholic-church-ancien-regime#8": "N",
+     "catholic-church-ancien-regime#9": "N"
+    },
+    "clean_passages": 5,
+    "best_quote": {
+     "file": "liguori_glories-of-mary_1852.txt",
+     "line": 511,
+     "text": "St. Bonaventure declares that those who are devoted to publishing the glories of Mary, are secure of paradise"
+    }
+   }
+  },
+  "namesake_notes": "Ancien-regime: Bonaventura Costacciaro and Bonaventura de Castro-Franco (Trent attendees), Monsignor Francesco Antonio Bonaventura (Liguori's friend). Franciscan shelves: College of S. Bonaventure (Quaracchi) in the Glassberger header.",
+  "editorial_notes": "Sabatier's French introduction to the Actus, Ehrle-Denifle German footnotes and manuscript catalogue, Affo's manuscript description quoted in Ehrle, Carlini's and Underhill's modern prose, Oliger's footnote citations, Heywood's introduction, Glassberger metadata header.",
+  "comment": "Franciscan era 6: every hit is editorial or modern-study prose; Scholz ctx 9 (frater Bonaventura in breviloquio) lies before Section XII (Ockham) which is the only shelved Scholz section, so U. Fraticelli ctx 8 is a medieval Latin text with manuscript folio references quoting 'frater Bonaventura' (Ehrle Bd 3, the Spirituals documents), taken as S but moderate confidence. Ancien regime ctx 4 (Roman Missal explanation 'St. Bonaventure says') is U (explanatory text of the layman's missal, author unclear)."
+ },
+ {
+  "cid": "C161",
+  "name": "Pope Pius V",
+  "traditions": {
+   "philippine-catholicism-era-8": {
+    "labels": {
+     "philippine-catholicism-era-8#0": "S",
+     "philippine-catholicism-era-8#1": "S",
+     "philippine-catholicism-era-8#2": "S",
+     "philippine-catholicism-era-8#3": "N",
+     "philippine-catholicism-era-8#4": "E",
+     "philippine-catholicism-era-8#5": "E",
+     "philippine-catholicism-era-8#6": "S",
+     "philippine-catholicism-era-8#7": "S",
+     "philippine-catholicism-era-8#8": "S",
+     "philippine-catholicism-era-8#9": "S"
+    },
+    "clean_passages": 6,
+    "best_quote": {
+     "file": "blair-robertson_philippine-islands-v36_1906.txt",
+     "line": 4009,
+     "text": "That various supreme pontiffs, especially St. Pius V, conceded to the regulars of the Indias"
+    }
+   },
+   "restoration-georgian-church-of-england": {
+    "labels": {
+     "restoration-georgian-church-of-england#0": "E",
+     "restoration-georgian-church-of-england#1": "E",
+     "restoration-georgian-church-of-england#2": "U",
+     "restoration-georgian-church-of-england#3": "S",
+     "restoration-georgian-church-of-england#4": "S",
+     "restoration-georgian-church-of-england#5": "S",
+     "restoration-georgian-church-of-england#6": "S"
+    },
+    "clean_passages": 4,
+    "best_quote": {
+     "file": "barlow_brutum-fulmen_1681.txt",
+     "line": 3484,
+     "text": "Pius V. and renues and confirms his. Bull. for depofing Queen Elizabeth, and abfolving her Subjects"
+    }
+   }
+  },
+  "namesake_notes": "Philippine ctx 3 (Gaspar de San Agustin): 'I know a Pius V, and a Philipe V' is a Filipino given those names.",
+  "editorial_notes": "Philippines ctx 4 (v48 line 8566) and ctx 5 (v50 line 8572) are Blair-Robertson editorial notes/introductory prose (after the 'Bibliographical data' / preface cut), E. Barlow metadata header (title, creator) E.",
+  "comment": "Philippine ctx 1 (v42) and 9 (v36) are near-identical sentences in two different memorials (Pius V after Trent, confirmed by Urban VIII); counted as one passage, giving 6. Barlow ctx 2 is a damaged title-page line, U."
+ }
+]

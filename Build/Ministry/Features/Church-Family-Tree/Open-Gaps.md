@@ -1243,3 +1243,88 @@ it, never by deleting it.
     as the same entry, it would be living through that ecumenical entry.
     For the method page's owner: "What is still to come" still says the tenth era is not yet
     linked, though P2-L10 has linked it.
+164. **The later-worlds people at Mark's gate (2026-11-10).** P2-G3b re-ran the count held by
+    "The people the later-worlds count found, held for a follow-up" (2026-11-10) with namesakes
+    checked, editorial matter masked and every counted passage read in context and reviewed (audit:
+    `Build/Ministry/Operations/Audits/2026-11-10_later-worlds-people/`). 32 people pass the clean
+    count; 14 are recommended for entries and 18 held, with three questions (founders, words
+    written for or with a person, two traditions resting on one book). The list is the artifact
+    https://claude.ai/artifact/AGVVFoi57c6gNtDtVoyADC. No census change until Mark picks. Owner:
+    P2-G3b.
+165. **Shelf and data defects the clean count found (2026-11-10).** For the Library thread and the
+    census owner; nothing was edited:
+    - `cic/corpus-map/montanism-the-new-prophecy.yaml` holds Hippolytus's Refutation, an opponent's
+      book, as the tradition's own voice.
+    - The 1453-1650 Ottoman parish-millet shelf holds Nikodemos's Synaxaristes (about 1805).
+    - `john-ephesus_lives-eastern-saints-po17_brooks1923.txt` is described on the Palaiologan shelf
+      as Petit's Florence documents; the file opens as John of Ephesus's Lives.
+    - The Brosset file on the Georgian Golden Age shelf holds only Brosset's introduction, charters,
+      notes and index.
+    - Many rows give "whole file" for a volume that binds several works (anf05's Hippolytus with
+      Cyprian, Langlois's Moses of Khoren with Koriun and Elishe, PO fascicules with synaxaries), so
+      a whole-file count reads works the shelf did not mean.
+    - The people rows' `year` is an active or accession year, not a death; the later-worlds count
+      used it as the last year, which let Theodoret and Eunomius pass on traditions that began in
+      their lifetimes.
+    - Ephrem appears in the alias list as "Ephraim the Syrian", unmatched to the shipped entry.
+166. **The later-worlds people held, with their reasons (2026-11-10).** Mark ruled "take every
+    recommendation" on the P2-G3b list (Decision-Log, "The later-worlds people ruled (P2-G3b)").
+    Each person below passes the clean count and is held; a change of rule or a new text in the
+    Library could bring them in. Owner: P2-P / the Library thread, as noted.
+    - **Founders (question A):** Priscillian (Priscillianist Asceticism; no work of his held),
+      Valentinus (the Valentinians), Mani (Manichaeism), Novatian (Novatianism; own works held),
+      Hilarion of Gaza (opens Early Palestinian Ascetic Monasticism), Apollinaris of Laodicea
+      (Apollinarian Christianity; own fragments held), Valdes (the Waldensians), Francis of Assisi
+      (the Franciscan movement; his own writings are not on the shelf), Zwingli (the Reformed
+      Cities; own works held). Each is told within that movement's entry.
+    - **Own words (question B):** Johannes Tauler. His sermons survive as his hearers' notes.
+    - **One witness (question C):** Constantius II (both later traditions rest on Nikodemos's
+      Synaxaristes); Basilides (Rome and Montanism rest on the same Hippolytus passages, and his
+      death date is unknown).
+    - **No words of their own in the Library:** Paul of Samosata (the council's letter and
+      Malchion's half of the debate only), Mesrop Mashtots (Koriun's Life of him, no work of
+      his), Maximilla (her sayings come through opponents), Kaleb (a prayer reported by others),
+      Heraclius (the Ekthesis is not held), Bonaventure (one quoted sentence in an editor's note).
+      Wanted texts for the Library thread: Paul of Samosata's fragments, a Mesrop text, the
+      Ekthesis, Bonaventure's Itinerarium and Life of Francis, Francis's own writings.
+    - **Pamphilus of Caesarea**, held after Mark's ruling by the correction in the Decision-Log
+      ("The later-worlds people ruled (P2-G3b)"): the Library holds only Rufinus's preface and
+      epilogue to the Apology for Origen, and the fragments on Acts are of disputed authorship.
+      Wanted for the Library thread: the Apology for Origen, Book I, in Rufinus's Latin (PG 17) or
+      an English translation. He comes in when the text does.
+167. **Open points left by data release 31 (2026-11-10).** Audit:
+    `Build/Ministry/Operations/Audits/2026-11-10_later-worlds-people/build/`.
+    - The link `latin-papal-church-gregorian--latin-papal-church-avignon-to-lateran-v` rests on
+      the Dictatus Papae as Gregory VII's. Mirbt's heading reports Sackur's view that Cardinal
+      Deusdedit wrote it. Its note should say the authorship is disputed. Owner: P2-L11.
+    - Lactantius lists no modern country: the census has no place ID for Nicomedia, Trier or Gaul.
+      Paula lists Rome only (no Bethlehem ID). Owner: the place-label work.
+    - Thirteen new tree pages (11,077 characters) join the one recording batch. Owner: this thread,
+      at the batch.
+    - Wanted for the Library thread, from the drafts: a Patrick chronology study; Justinian's Novel
+      131 and the acts of 553; Cuthbert's letter on Bede's death; a source for Grotius's
+      imprisonment; Mirbt's Dictatus heading in a clean scan.
+168. **What the Library's first wants batch filled (2026-11-10).** For the wanted texts named in
+    "The later-worlds people held, with their reasons" (2026-11-10). Full list:
+    `Build/Ministry/Features/Source-Library/CFT-Wants.md`.
+    - Filled: Pamphilus's Apology for Origen, Book I (Lommatzsch 1846; Migne PG 17 as a second
+      witness); Priscillian's Wurzburg tractates (CSEL 18); Francis's writings (Robinson 1906, and the
+      Latin Opuscula of 1904); Bonaventure's Legenda maior (Salter 1904) and three Latin works
+      (Quaracchi 1911).
+    - Already held, now shelved: Heraclius's Ecthesis, in Mansi X, read into the Lateran Council of 649.
+    - Still owed by Mark's questions: Pamphilus (B, a book written jointly), Francis and Priscillian (A,
+      founders). Bonaventure and Heraclius now pass answer C.
+    - No own text survives, or none in the public domain was found: Mani, Kaleb, Valdes, Mesrop,
+      Paul of Samosata, Basilides, Valentinus, Maximilla, Hilarion, Tauler.
+169. **Shelf defects fixed, and two left for a cross-world ruling (2026-11-10).** These were in
+    "Shelf and data defects the clean count found" (2026-11-10) and "Library shelf moves the
+    release points to" (2026-11-10).
+    - Fixed: Hippolytus's Refutation is now context on the Montanist and Ebionite shelves;
+      Nikodemos's Synaxaristes is off the 1453-1650 shelf; the PO17 loci are split by line; the
+      Brosset file is relabelled as the Introduction volume; Busch is tradition for the Devotio
+      Moderna; Love's Mirror is on the Carthusian shelf; Bell Part II is on the Melitian shelf.
+    - Open, for the coordinator: whether Bell Part II leaves the built `desert` shelf, and whether
+      the Pedalion (1800) leaves the 1453-1650 shelf.
+    - Not the Library's: the people rows' `year` and the Ephrem alias (census owner); the Theophilus
+      row (a census question).
+    - Queued: the general loci pass for multi-work volumes, and the Georgian chronicle text volumes.

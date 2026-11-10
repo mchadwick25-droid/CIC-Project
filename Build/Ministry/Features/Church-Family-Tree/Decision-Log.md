@@ -1073,3 +1073,45 @@ for this one row to begin in era 7 (G89-6, sub-question 2). Shown with: start at
 **Next.** Carry out the rulings as named change orders to the frozen eras 8 and 9 (G89-6 a: one
 register, drafted and reviewed together, one data release).
 
+---
+
+## 2026-11-10 — The later-worlds people ruled (P2-G3b)
+
+**How it was reached.** P2-G3b re-ran the later-worlds count that Mark held back in answer D a,
+with namesakes checked, editorial matter masked and every counted passage read in context and
+reviewed (audit: `Build/Ministry/Operations/Audits/2026-11-10_later-worlds-people/`). The clean
+list went to Mark as the artifact "Later-Worlds People"
+(https://claude.ai/artifact/AGVVFoi57c6gNtDtVoyADC): 32 people passing, 14 recommended, 18 held,
+and three questions, each with options and a recommendation. Mark answered "take every
+recommendation" (2026-11-10).
+
+**Decided (Mark).**
+- **A. Founders who pass by this route are held.** Ruling 14's test stands as worded ("founded no
+  lasting movement"); change order 10c's exception for founders stays tied to the own-works count.
+  Held: Priscillian, Valentinus, Mani, Novatian, Hilarion of Gaza, Apollinaris of Laodicea, Valdes,
+  Francis of Assisi, Zwingli. Each is told within their movement's entry. Shown with: take the
+  founders whose own words the Library holds; take all nine.
+- **B. Answer C applies as written.** A letter issued in a person's name and a jointly written work
+  count as their own words; sermons taken down by hearers do not. Paula and Pamphilus get entries;
+  Tauler is held. Pamphilus is told within the catechetical school, where the Library shelves his
+  work. Shown with: hold all three; take all three.
+- **C. Two later traditions need two different witnesses.** One author's book shelved twice does
+  not make two traditions. Constantius II and Basilides are held. Shown with: count shelves as
+  written.
+- **The 14 entries:** Polycarp of Smyrna, Methodius of Olympus, Pamphilus, Lactantius,
+  Constantine, Paula, Basil of Caesarea, Gregory of Nazianzus, Patrick, Justinian, Bede, Gregory
+  VII, Innocent III, Hugo Grotius. Built as person entries in the shape of release 29's, hidden
+  from the map until P2-P like the others.
+
+**Also held, under the rules as written (no question):** Paul of Samosata, Mesrop Mashtots,
+Maximilla, Kaleb, Heraclius and Bonaventure: the Library holds no words of their own and no
+recorded position that answer C counts. Reasons, one per person: Open-Gaps, "The later-worlds
+people held, with their reasons" (2026-11-10).
+
+**Correction to ruling B's premise (decided by the coordinator under Mark's "take every
+recommendation", 2026-11-10; Mark free to override).** The build's review found that the Library
+does not hold the text of Pamphilus's Apology for Origen: `npnf203` has only Rufinus's preface and
+epilogue to his Latin version, and the only other words of Pamphilus held, the fragments on Acts in
+`anf06`, are of disputed authorship. Ruling B was put as "Pamphilus wrote the Apology with
+Eusebius". Pamphilus is held by the standard every other held person met (no undisputed words of
+his own in the Library), and the Apology is wanted. The release carries 13 entries.
