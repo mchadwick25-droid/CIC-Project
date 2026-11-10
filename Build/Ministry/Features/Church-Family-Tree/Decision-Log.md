@@ -819,3 +819,22 @@ reviewed in three rounds and approved to proceed in Round 3. They are applied as
 322 movements, 578 links. The atlas gains the 4<->5 bridge lane (G-80 c). Held lines and open
 points are in Open-Gaps 139 and 140. Full entry: Atlas World Map Decision-Log, "P2-E10h carried
 out".
+
+---
+
+## 2026-11-10 — P2-E10d approved; four open calls answered
+
+**Decided (Mark: "take every recommendation").**
+- **The left-side movements column is approved as built.** Movements are drawn only in their own
+  column: no river width, no mark on a river and no river card. An era with no cross-church
+  movement shows no column. It ships after a merge with data release 25, whose new cross-church row
+  (IX.60, the church struggle against apartheid) appears in the column.
+- **IX.44 and the United States: not carried out, and returned to Mark.** On a closer reading, every
+  row whose place label says "N. America" lists no modern country (for example VIII.10, VIII.14 to
+  VIII.16 and IX.15). Adding the United States to IX.44 alone would break that pattern for one row.
+  What "N. America" should map to is a cross-row question for Mark.
+- **A lane's first dot sitting above its river, and "this map…" in participant copy.** No
+  recommendation had been given on either, so neither is treated as ruled. The recommendation now
+  put to Mark is to leave both as they are. That changes nothing, and both stay open in
+  Open-Gaps 140.
+
