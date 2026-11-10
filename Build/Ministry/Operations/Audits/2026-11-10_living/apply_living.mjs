@@ -1,7 +1,7 @@
 // P2-V: apply the living-flag check to the census as one data release.
 // Usage: node apply_living.mjs <census in> <decisions.json> <era10 evidence.json> <census out> <release number> <release date> <log out>
 // era10 evidence.json adds dated evidence and a grade to era 10 carriers that had none (their flags stay as ruled).
-// decisions.json is the reviewed outcome for every movement in eras 1 to 9 (decisions_final.json).
+// decisions.json is the reviewed outcome for every movement in eras 1 to 9 (decisions_final.json); era10_evidence_final.json for the era 10 evidence.
 // Era 10 flags were set at the era 10 gate (G-5) and are not changed here.
 import { readFileSync, writeFileSync } from "node:fs";
 
@@ -10,6 +10,11 @@ const d = JSON.parse(readFileSync(inPath, "utf8"));
 const decisions = JSON.parse(readFileSync(decPath, "utf8"));
 const by = new Map(d.movements.map(m => [m.id, m]));
 const log = [];
+// Citation dates are written out ("8 September 2026"), as the public text writes dates.
+const MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+const plainDates = s => s && s
+  .replace(/\b(20\d\d)-(\d\d)-(\d\d)\b/g, (_, y, mo, da) => `${Number(da)} ${MONTHS[mo - 1]} ${y}`)
+  .replace(/\b(20\d\d)-(\d\d)\b/g, (_, y, mo) => `${MONTHS[mo - 1]} ${y}`);
 
 for (const x of decisions) {
   const m = by.get(x.id);
@@ -21,7 +26,7 @@ for (const x of decisions) {
   if (living) {
     if (x.carrier?.length) ev.carrier = x.carrier;
     else {
-      if (x.evidence) ev.evidence = x.evidence;
+      if (x.evidence) ev.evidence = plainDates(x.evidence);
       ev.grade = x.grade;
     }
     if (x.descentConfidence) ev.descentConfidence = x.descentConfidence;
@@ -36,7 +41,7 @@ for (const x of JSON.parse(readFileSync(e10Path, "utf8"))) {
   const m = by.get(x.id);
   if (!m || m.era !== 10 || m.living !== true) throw new Error(`${x.id}: not a living era 10 entry`);
   const before = structuredClone(m.livingEvidence);
-  m.livingEvidence = { ...m.livingEvidence, basis: x.basis, evidence: x.evidence, grade: x.grade };
+  m.livingEvidence = { ...m.livingEvidence, basis: x.basis, evidence: plainDates(x.evidence), grade: x.grade };
   log.push({ id: m.id, atlasId: m.atlasId, outcome: "era 10 evidence added", before: { livingEvidence: before }, after: { livingEvidence: m.livingEvidence } });
 }
 
