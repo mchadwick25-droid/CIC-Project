@@ -1,0 +1,671 @@
+{
+ "verdict": "revise",
+ "summary": "Revise. The rule, the evidence handling and most verdicts hold. 200 of 259 decisions draw no substantial finding. Most line decisions are sound, every quote marked verified passed both methods, and the ended verdicts rest on the entries' own words. Problems cluster in five places. (1) Class consistency across batches. Haugean (dropped), Pietism, Puritanism, the Dutch Further Reformation, the New England Awakening and late-medieval parish piety are movements or periods inside living churches, and are not ruled the way the Oxford Movement and Kollyvades are. Cappadocian Christianity is dropped with no recorded end, though its own text names it a church. Latin Pastoral is labelled influence though its text records the North African church's end. (2) Lines ignored or mis-graded. Roman Palestine, Early Palestinian monasticism, Iconophile monasticism, Scandinavian conversion and the Georgian pair do not follow their own 'continued as' links. The copied Coptic and Latin American link grades read as doubt about plainly continuous churches. (3) Carriers. Ratana, the Catacomb Church and the Stone-Campbell entries are neighbours, not carriers. Melkite Arabic Christianity omits the Greek Orthodox side that batch 1 now evidences. Twenty marks rest wholly on era 10 carriers with no dated item, and two bases falsely say those carriers hold evidence. (4) R3. Nine CD grades rest on journalism alone or on the Holy See. All nine are CR. (5) Never invent. Rival-claim sentences (Ireland, England, Antioch), the Kongo 'is said to continue' and the Lérins refounding rest on nothing verified, and rival-claimant grades differ between like cases. Readability is mostly good. The 39-word Greek-Balkan template sentence and some process narration need cutting. Four change orders: era 10 evidence, link re-grading, a method ruling for marks with neither end nor evidence, and a possible correction to the Lérins entry text.",
+ "counts": {
+  "substantial": 44,
+  "cosmetic": 9
+ },
+ "findings": [
+  {
+   "id": "R1-01",
+   "atlasId": "VIII.8",
+   "severity": "substantial",
+   "problem": "Drop without a recorded end, and inconsistent with the class-3 rule. The entry's own text calls it 'a lay revival inside Norway's Lutheran state church' (a movement inside a church). Like entries (Oxford Movement, Kollyvades, Hesychast Revival, Laestadianism) are living as episodes. The only end cited is the 2025 encyclopedia line that the Haugeans 'went into a large lay movement' after 1850: an absorption into the same church's lay life, not a terminus. Batch 4 itself treats the Haugeans as part of the Nordic Lutheran line (the Scandinavian Reformation Kingdoms gap reads 'apart from the Haugean and Laestadian entries').",
+   "fix": {
+    "verdict": "living",
+    "group": "episode",
+    "carrier": [
+     "scandinavian-reformation-kingdoms"
+    ],
+    "evidenceItems": [],
+    "evidence": null,
+    "grade": "n/a",
+    "endQuote": null,
+    "openQuestion": null,
+    "outcome": "kept",
+    "basis": "An episode of a living tradition. The entry's own text calls it a lay revival inside Norway's Lutheran state church. That church is alive today, carried by the Scandinavian Reformation Kingdoms entry."
+   }
+  },
+  {
+   "id": "R1-02",
+   "atlasId": "VII.2",
+   "severity": "substantial",
+   "problem": "Wrong class, and an unsupported descent grade. The entry's own text says Pietism 'stayed inside the Lutheran churches' and 'faded as a separate party': a movement inside a church (class 3). It is therefore an episode carried by the Lutheran tradition, as the Oxford Movement is carried by the Anglican. The draft instead treats the Gnadauer Verband and the Francke Foundations as heirs and grades the descent Widely Accepted, while its own descentBasis says the link 'rests on the body's own word' on an undated page. That grade rests on nothing dated.",
+   "fix": {
+    "group": "episode",
+    "carrier": [
+     "lutheran-wittenberg-and-its-congregations"
+    ],
+    "evidenceItems": [],
+    "evidence": null,
+    "grade": "n/a",
+    "descentConfidence": null,
+    "descentBasis": null,
+    "namedGap": null,
+    "openQuestion": null,
+    "outcome": "kept",
+    "basis": "An episode of a living tradition. The entry's own text says Pietism stayed inside the Lutheran churches. Those churches are alive today, carried by the Lutheran Wittenberg entry."
+   }
+  },
+  {
+   "id": "R1-03",
+   "atlasId": "VI.8",
+   "severity": "substantial",
+   "problem": "Inconsistent with Pietism, the Oxford Movement and the class-3 rule. The entry's text says Puritanism was 'grown inside the English church' and that 'English Congregationalism, Presbyterianism and much of the Baptist tradition came straight out of it'. 'Did not survive as a church of its own' is the same wording that the Pietism entry uses, and it is not a terminus. The 'ended' class has no recorded end to cite. The ejected Puritan ministry is the tree's English Old Dissent entry ('The Ejected Tradition'), which holds dated evidence.",
+   "fix": {
+    "verdict": "living",
+    "group": "episode",
+    "carrier": [
+     "english-old-dissent"
+    ],
+    "grade": "n/a",
+    "endQuote": null,
+    "outcome": "added",
+    "basis": "An episode of a living tradition. The entry's own text says English Congregationalism and Presbyterianism came straight out of it. Those churches are alive today, carried by the English Old Dissent entry."
+   }
+  },
+  {
+   "id": "R1-04",
+   "atlasId": "VI.9",
+   "severity": "substantial",
+   "problem": "Class-3 entry ruled 'influence'. The entry's own text says historians argue whether it was 'a tradition of its own or just the fervor of Dutch church life at the time'. On either reading it is a movement inside the Dutch Reformed church, and that tradition is alive. The draft's openQuestion already points this way. Like entries are living as episodes.",
+   "fix": {
+    "verdict": "living",
+    "group": "episode",
+    "carrier": [
+     "the-reformed-cities-zurich-and-geneva"
+    ],
+    "grade": "n/a",
+    "openQuestion": null,
+    "outcome": "added",
+    "basis": "An episode of a living tradition. The entry's own text treats it as a movement of Dutch Reformed church life. The Reformed churches are alive today, carried by the Reformed Cities entry."
+   }
+  },
+  {
+   "id": "R1-05",
+   "atlasId": "VII.6",
+   "severity": "substantial",
+   "problem": "Class-3 entry ruled 'influence'. The entry's own text says the awakening 'grew out of New England's Puritan churches' and 'ran through the old parish churches'. That is a revival inside a church. 'Left no church of its own' is the Pietism and Oxford Movement shape, not an end. The draft's own openQuestion says this. No tree entry carries New England Congregationalism today, so the episode needs its own dated evidence. The reviser fetches one dated own-voice item of a body that continues those churches and runs the quote check. If one verifies, apply this fix with that item and a CR grade. If none verifies, keep 'not living' and set the openQuestion below.",
+   "fix": {
+    "verdict": "living",
+    "group": "own",
+    "carrier": [],
+    "namedGap": "New England's Congregational churches after about 1760",
+    "outcome": "added",
+    "wanted": "A dated (2011 or later) own-voice page of a present-day body that continues New England's Congregational churches.",
+    "basis": "An episode of a living tradition. The entry's own text says the awakening ran through New England's old parish churches. The tree has no entry for those churches after about 1760.",
+    "openQuestion (if no item verifies)": "The awakening is a revival inside New England's Congregational churches; no dated source for those churches today is in hand."
+   }
+  },
+  {
+   "id": "R1-06",
+   "atlasId": "V.10",
+   "severity": "substantial",
+   "problem": "Class inconsistency. The entry names the parish life of late-medieval England: one period of a church in a place (class 1), or a lay movement inside it (class 3). Either way it is living when that church's community continues. The same English parish line is ruled living at Late Anglo-Saxon Christianity, and the Borromean parish renewal is ruled living as an episode. The abolition of guilds and chantries ended forms inside the parish, not the parish community. The draft's openQuestion concedes the parish community continues in other entries. The two present-day claimants get the same grade as the English pair (see R1-21).",
+   "fix": {
+    "verdict": "living",
+    "group": "episode",
+    "carrier": [
+     "the-anglican-communion-twentieth-century",
+     "recusant-english-catholicism"
+    ],
+    "grade": "n/a",
+    "descentConfidence": "Contested",
+    "descentBasis": "After the Reformation two bodies stand in the English parish line, and the tree carries both. No fetched source states either body's claim to it.",
+    "endQuote": null,
+    "openQuestion": null,
+    "outcome": "added",
+    "basis": "An episode of a living tradition. The entry's own text describes the parish life of late-medieval England. The Reformation abolished its guilds and chantries. English parish life is carried today by the Anglican and English Catholic entries."
+   }
+  },
+  {
+   "id": "R1-07",
+   "atlasId": "I.5",
+   "severity": "substantial",
+   "problem": "Drop with no recorded end, and a class that contradicts the entry's own text. The tile opens 'The Nicene-confessing churches of Cappadocia and Pontus lasted from about 325 to 394', and the world name is 'The Cappadocian Churches'. By the consistency rule this is a church in a place (class 1), not a school. Nothing in the entry, its links or any evidence records that church's end. Decline or silence is not an end, so the current living flag cannot be dropped on this record. The tile also says this church won the empire's favour in 381. Its line is the Greek church of the empire, which the Greek Church and Ecumenical Patriarchate entry carries.",
+   "fix": {
+    "verdict": "living",
+    "group": "episode",
+    "carrier": [
+     "the-greek-church-and-the-ecumenical-patriarchate"
+    ],
+    "grade": "n/a",
+    "outcome": "kept",
+    "openQuestion": "Did the Greek Orthodox community of Cappadocia end in the population exchange of 1923 to 1924? If a dated source shows it did, this local church is ended under the local-church rule.",
+    "basis": "A period of the Greek church in Cappadocia and Pontus. The entry's own text names these churches and records no end. The Greek church they joined is carried today by the Ecumenical Patriarchate entry."
+   }
+  },
+  {
+   "id": "R1-08",
+   "atlasId": "I.8",
+   "severity": "substantial",
+   "problem": "Wrong class on a drop. The entry's legacy states the end in its own words: 'The North African church itself did not survive... After it, Latin Christianity there slowly died out.' This is a church in a place whose local community ended (class 1), the same as Latin African Christianity under Byzantium. It is not 'influence'. The draft's basis and openQuestion miss the recorded end that the drop needs.",
+   "fix": {
+    "group": "ended",
+    "endQuote": "The North African church itself did not survive.",
+    "openQuestion": null,
+    "basis": "Its carriers ended. The entry's own text says the North African church itself did not survive. Its ideas about the local church passed into the Latin West."
+   }
+  },
+  {
+   "id": "R1-09",
+   "atlasId": "I.39",
+   "severity": "substantial",
+   "problem": "Inconsistent with the line method used at Early Palestinian Ascetic Monasticism. The tree has a 'continued as' link from this entry to Jerusalem Liturgical-Pilgrimage Christianity. That link's note says 'the see of Jerusalem carried on', and the link is graded Inferential-Thin. Batch 1 itself now rules Jerusalem living, on its own dated evidence. By the tree's own record this entry is the church of the province (class 1), and its line reaches a living entry. The draft's openQuestion asks exactly this.",
+   "fix": {
+    "verdict": "living",
+    "group": "line",
+    "carrier": [
+     "jerusalem-liturgical-pilgrimage-christianity"
+    ],
+    "grade": "n/a",
+    "descentConfidence": "Inferential-Thin",
+    "descentBasis": "The tree's link to the Jerusalem church is an inference: the see carried on, but the earlier church was the church of the whole province.",
+    "openQuestion": null,
+    "outcome": "added",
+    "basis": "The church of Palestine continued in the church of Jerusalem, which carries the tradition today. The tree treats that link as an inference on thin evidence. The earlier church served the whole province, not Jerusalem alone."
+   }
+  },
+  {
+   "id": "R1-10",
+   "atlasId": "I.34",
+   "severity": "substantial",
+   "problem": "Descent grade missing. The only link to its carrier, Chalcedonian Monasticism of the Judean Desert and Gaza, is graded Inferential-Thin. The link's note says it 'rests on place and sequence alone'. Line entries copy the weakest link (the line script would have done so), and here that grade reads honestly.",
+   "fix": {
+    "descentConfidence": "Inferential-Thin",
+    "descentBasis": "The tree's only link to the Judean desert houses rests on place and sequence alone.",
+    "outcome": "added",
+    "basis": "The tradition continues in the next entry on the line, the Judean desert and Gaza monasticism, which holds present-day evidence. The tree treats that link as an inference on thin evidence."
+   }
+  },
+  {
+   "id": "R1-11",
+   "atlasId": "III.6",
+   "severity": "substantial",
+   "problem": "Descent grade does not match the tree. The link to Athonite and Comnenian monasticism is graded Inferential-Thin ('No source shows Athos's founders taking up the Stoudite way'). The draft gives Dominant Modern Reconstruction. Its own descentBasis says 'little survives to show the handover'.",
+   "fix": {
+    "descentConfidence": "Inferential-Thin",
+    "basis": "Its monastic way of life carried on after 843. The entry's own text says Athonite monks are usually counted its heirs. The tree treats that link as an inference on thin evidence."
+   }
+  },
+  {
+   "id": "R1-12",
+   "atlasId": "III.14",
+   "severity": "substantial",
+   "problem": "Its line is ignored and its grade is unsupported. The tree links this entry by 'continued as' to the Scandinavian Reformation Kingdoms, which batch 4 rules living on Statistics Norway (CD). That link is graded Inferential-Thin: 'Denmark broke harder... This rests on one history from the 1850s'. The draft makes it 'own', with Widely Accepted descent, while its own basis says the entry's text treats the Reformation as a break. Its openQuestion is answered by the batch 4 decision.",
+   "fix": {
+    "group": "line",
+    "carrier": [
+     "scandinavian-reformation-kingdoms"
+    ],
+    "evidenceItems": [],
+    "evidence": null,
+    "grade": "n/a",
+    "descentConfidence": "Inferential-Thin",
+    "descentBasis": "The tree's link to the Reformation churches rests on one nineteenth-century history, and Denmark's bishops were removed in 1536.",
+    "openQuestion": null,
+    "basis": "The conversions founded the Nordic national churches, which the Scandinavian Reformation Kingdoms entry carries today. The tree treats the link across the Reformation as an inference on thin evidence."
+   }
+  },
+  {
+   "id": "R1-13",
+   "atlasId": "II.10",
+   "severity": "substantial",
+   "problem": "False claim and wrong carrier. The basis says 'The restored Georgian church entry holds the present-day evidence'. That entry's grade is 'none (no dated item after 2010 is in the repo)'. Its 'continued as' line runs to the Georgian Golden Age, which the same draft rules living on its own dated evidence for the Georgian Orthodox Church (Holy Synod, March 2026). The carrier must be the entry on its line that holds evidence. The Golden Age links are graded Widely Accepted and Inferential-Thin. The thin link's note doubts only the source ('This rests on Brosset's one account'), not the church's continuity, which the entry's own text states. So no descent grade is added here (see CO-2).",
+   "fix": {
+    "carrier": [
+     "the-georgian-golden-age"
+    ],
+    "basis": "The same church as the Georgian Orthodox Church, which carries the tradition today. The entry's own text says the body has carried on to the present. The Georgian Golden Age entry holds the present-day evidence."
+   }
+  },
+  {
+   "id": "R1-14",
+   "atlasId": "III.20",
+   "severity": "substantial",
+   "problem": "Same false claim as at Georgian Christianity: the restored Georgian church entry holds no dated evidence. Its only 'continued as' link runs to the Georgian Golden Age, which holds dated evidence for the same church.",
+   "fix": {
+    "carrier": [
+     "the-georgian-golden-age"
+    ],
+    "basis": "The same tradition runs on into the Georgian Orthodox Church of today, as the entry's own text says. Iviron is still one of the ruling monasteries of Mount Athos. The Georgian Golden Age entry holds the present-day evidence."
+   }
+  },
+  {
+   "id": "R1-15",
+   "atlasId": "VIII.11",
+   "severity": "substantial",
+   "problem": "The carrier is a living neighbour, not the carrier of the same tradition. The Catacomb Church entry's own text says it is the persecution century, and that 'the church's story as an institution has its own entry, the Russian Orthodox Church'. This entry's legacy says Optina 'was given back to the church in 1987 and is active again'. So the Optina monastery's tradition today lives inside the Russian Orthodox Church. The Inferential-Thin grade copies a link to the wrong carrier. Note: the Russian Orthodox Church entry also holds no dated item (CO-1).",
+   "fix": {
+    "carrier": [
+     "the-russian-orthodox-church-council-patriarchate-and-reunion"
+    ],
+    "descentConfidence": null,
+    "outcome": "kept",
+    "openQuestion": "Its carrier holds no dated present-day item. The mark waits on change order CO-1.",
+    "basis": "The Optina monastery's tradition continues in the Russian Orthodox Church. The entry's own text says Optina was given back to the church in 1987 and is active again."
+   }
+  },
+  {
+   "id": "R1-16",
+   "atlasId": "VIII.7",
+   "severity": "substantial",
+   "problem": "Wrong carrier. Ratana Church and the Pacific Adjustment Movements are independent Maori and Pacific churches that 'grew out of Pacific mission Christianity, led by local people'. They are offspring through a 'gave rise to' link, not the mission churches themselves. The entry's own legacy names 'the Pacific island churches', which no tree entry carries. That carrier also holds no dated item. The basis then claims the Pacific churches 'are told by later entries that reach the present', and they are not.",
+   "fix": {
+    "carrier": [
+     "the-chinese-church-indigenous-and-suffering",
+     "the-anglican-communion-twentieth-century"
+    ],
+    "namedGap": "the Pacific island and South Indian mission churches after 1906",
+    "basis": "An episode of living traditions. The churches it planted in China and West Africa are carried today by later entries. The tree has no later entry for the Pacific island churches."
+   }
+  },
+  {
+   "id": "R1-17",
+   "atlasId": "VIII.2",
+   "severity": "substantial",
+   "problem": "Carriers are successor bodies, not the tradition the revival belongs to, and neither holds a dated item (both grade 'none'). The entry's text says 'Methodist preachers helped to lead these revivals. So did Presbyterians and Baptists', and the tree has the Methodist Revival 'gave rise to' this entry. Under the class-3 rule the carrier is the tradition the revival happened inside. The Methodist and Baptist entries hold dated evidence.",
+   "fix": {
+    "carrier": [
+     "nineteenth-century-methodism",
+     "nineteenth-century-baptists"
+    ],
+    "openQuestion": null,
+    "basis": "An episode of a living tradition. The entry's own text says Methodist, Presbyterian and Baptist preachers led these revivals. The Methodist and Baptist churches carry it today."
+   }
+  },
+  {
+   "id": "R1-18",
+   "atlasId": "III.2",
+   "severity": "substantial",
+   "problem": "Carrier incomplete across batches. The entry's own text says 'The same communion lives on in the Greek Orthodox churches of Antioch and Jerusalem' as well as in the Melkite Greek Catholic Church. Batch 1 now rules the church of Antioch and the church of Jerusalem living on dated own-voice evidence of exactly those two Greek Orthodox patriarchates, and names this entry's period as their gap. Naming only the Melkite Catholic carrier makes the tree side with one claimant.",
+   "fix": {
+    "carrier": [
+     "melkite-greek-catholic-church-after-1815",
+     "antiochene-church-third-century",
+     "jerusalem-liturgical-pilgrimage-christianity"
+    ],
+    "basis": "The same communion lives on in three churches, as the entry's own text says. They are the Greek Orthodox churches of Antioch and Jerusalem and the Melkite Greek Catholic Church. Three later entries carry it."
+   }
+  },
+  {
+   "id": "R1-19",
+   "atlasId": "III.7",
+   "severity": "substantial",
+   "problem": "False claim. The basis says 'The Balkan and Russian church entries hold the present-day evidence'. The Russian Orthodox Church entry's grade is 'none (no dated item after 2010 is in the repo)'.",
+   "fix": {
+    "basis": "Slavonic worship carries on in the Slavic Orthodox churches. The entry's own text says Church Slavonic is still the language of worship in much of the Orthodox world. The Balkan church entry holds the present-day evidence."
+   }
+  },
+  {
+   "id": "R1-20-II.1",
+   "atlasId": "II.1",
+   "severity": "substantial",
+   "problem": "The copied link grade reads dishonestly as a descent grade. The weak links (Fatimid-to-Mamluk to Cyril IV; Cyril IV to the Sunday-school revival) are graded Dominant Modern Reconstruction because 'No other Coptic stage is set out between 1300 and 1854... [it] rests on modern lists', and because one revival continued another. Neither note doubts that today's Coptic Orthodox Church descends from this church. The brief puts descent grades only where descent is disputed. Like cases with longer entry gaps get none: the Syriac Orthodox (1300 to 1915) and Georgian (1245 to 1917) lines. A public reader would take 'a dominant modern reconstruction' to mean the Coptic Church's descent is in doubt.",
+   "fix": {
+    "descentConfidence": null,
+    "basis": "The same tradition, by its line of later entries, as the Coptic Monastic & Sunday-School Revival, which carries it today.",
+    "outcome": "kept"
+   }
+  },
+  {
+   "id": "R1-20-III.3",
+   "atlasId": "III.3",
+   "severity": "substantial",
+   "problem": "The copied link grade reads dishonestly as a descent grade. The weak links (Fatimid-to-Mamluk to Cyril IV; Cyril IV to the Sunday-school revival) are graded Dominant Modern Reconstruction because 'No other Coptic stage is set out between 1300 and 1854... [it] rests on modern lists', and because one revival continued another. Neither note doubts that today's Coptic Orthodox Church descends from this church. The brief puts descent grades only where descent is disputed. Like cases with longer entry gaps get none: the Syriac Orthodox (1300 to 1915) and Georgian (1245 to 1917) lines. A public reader would take 'a dominant modern reconstruction' to mean the Coptic Church's descent is in doubt.",
+   "fix": {
+    "descentConfidence": null,
+    "basis": "The same tradition, by its line of later entries, as the Coptic Monastic & Sunday-School Revival, which carries it today.",
+    "outcome": "kept"
+   }
+  },
+  {
+   "id": "R1-20-IV.26",
+   "atlasId": "IV.26",
+   "severity": "substantial",
+   "problem": "The copied link grade reads dishonestly as a descent grade. The weak links (Fatimid-to-Mamluk to Cyril IV; Cyril IV to the Sunday-school revival) are graded Dominant Modern Reconstruction because 'No other Coptic stage is set out between 1300 and 1854... [it] rests on modern lists', and because one revival continued another. Neither note doubts that today's Coptic Orthodox Church descends from this church. The brief puts descent grades only where descent is disputed. Like cases with longer entry gaps get none: the Syriac Orthodox (1300 to 1915) and Georgian (1245 to 1917) lines. A public reader would take 'a dominant modern reconstruction' to mean the Coptic Church's descent is in doubt.",
+   "fix": {
+    "descentConfidence": null,
+    "basis": "The same tradition, by its line of later entries, as the Coptic Monastic & Sunday-School Revival, which carries it today.",
+    "outcome": "added"
+   }
+  },
+  {
+   "id": "R1-20-VIII.13",
+   "atlasId": "VIII.13",
+   "severity": "substantial",
+   "problem": "The copied link grade reads dishonestly as a descent grade. The weak links (Fatimid-to-Mamluk to Cyril IV; Cyril IV to the Sunday-school revival) are graded Dominant Modern Reconstruction because 'No other Coptic stage is set out between 1300 and 1854... [it] rests on modern lists', and because one revival continued another. Neither note doubts that today's Coptic Orthodox Church descends from this church. The brief puts descent grades only where descent is disputed. Like cases with longer entry gaps get none: the Syriac Orthodox (1300 to 1915) and Georgian (1245 to 1917) lines. A public reader would take 'a dominant modern reconstruction' to mean the Coptic Church's descent is in doubt.",
+   "fix": {
+    "descentConfidence": null,
+    "basis": "The same tradition, by its line of later entries, as the Coptic Monastic & Sunday-School Revival, which carries it today.",
+    "outcome": "kept"
+   }
+  },
+  {
+   "id": "R1-20-VI.13d",
+   "atlasId": "VI.13d",
+   "severity": "substantial",
+   "problem": "The copied link grade reads dishonestly as a descent grade. The thin links' notes doubt how far particular colonial devotions can be traced ('for the rest of the region the evidence is thin'; 'two accounts, a century apart'). They do not doubt that the Catholic Church of Mexico and the Andes continued. The entry is a period of a church in a place, and its descent is plain. The next entry on the same line, Nineteenth-Century Latin American Catholicism, is decided with no descent grade.",
+   "fix": {
+    "descentConfidence": null,
+    "basis": "The same tradition, by its line of later entries, as Latin American Catholicism in the Twentieth Century, which carries it today.",
+    "outcome": "kept"
+   }
+  },
+  {
+   "id": "R1-20-VII.17",
+   "atlasId": "VII.17",
+   "severity": "substantial",
+   "problem": "The copied link grade reads dishonestly as a descent grade. The thin links' notes doubt how far particular colonial devotions can be traced ('for the rest of the region the evidence is thin'; 'two accounts, a century apart'). They do not doubt that the Catholic Church of Mexico and the Andes continued. The entry is a period of a church in a place, and its descent is plain. The next entry on the same line, Nineteenth-Century Latin American Catholicism, is decided with no descent grade.",
+   "fix": {
+    "descentConfidence": null,
+    "basis": "The same tradition, by its line of later entries, as Latin American Catholicism in the Twentieth Century, which carries it today.",
+    "outcome": "kept"
+   }
+  },
+  {
+   "id": "R1-21",
+   "atlasId": "III.4",
+   "severity": "substantial",
+   "problem": "Inconsistent with the Irish pair, and the claim rests on nothing. The basis says 'The Church of England and the Catholic Church in England both claim that line today'. The Irish entries grade the same two-claimant shape Contested, and the Kievan Rus' entries do the same. Here it is Widely Accepted. Neither the entry, any evidence item nor any tree link states either body's claim; the two carriers are simply the tree's two English carriers. Describe the record, and grade it as the like entries are graded.",
+   "fix": {
+    "descentConfidence": "Contested",
+    "descentBasis": "After the Reformation two bodies stand in the English church's line, and the tree carries both. No fetched source states either body's claim to it.",
+    "basis": "The English church of this age continued. The entry's own text says its story runs straight on into the late Anglo-Saxon church. Two later entries carry English church life today: the Anglican Communion and the Catholic parish."
+   }
+  },
+  {
+   "id": "R1-22",
+   "atlasId": "III.19",
+   "severity": "substantial",
+   "problem": "Same as Anglo-Saxon Christianity: rival-claimant grade inconsistent with the Irish and Kievan entries, and the 'both claim' sentence rests on nothing. One sentence also runs to 27 words.",
+   "fix": {
+    "descentConfidence": "Contested",
+    "descentBasis": "After the Reformation two bodies stand in the English church's line, and the tree carries both. No fetched source states either body's claim to it.",
+    "basis": "The English church of this age continued. The entry's own text says its dioceses, cathedral communities and parishes carried on after the Conquest. Two later entries carry English church life today: the Anglican Communion and the Catholic parish."
+   }
+  },
+  {
+   "id": "R1-23-II.8",
+   "atlasId": "II.8",
+   "severity": "substantial",
+   "problem": "The 'both churches claim' sentence, which the Contested grade rests on, has no support. Neither entry names the Church of Ireland, and the draft's own descentBasis says its claim 'was not checked'. The only evidence item is the Bishops' Conference home page. Its quote failed the fresh fetch, because the page rotates, so nothing about this entry is verified. The fix: fetch one dated permalink of an Irish Catholic Bishops' Conference statement and one dated Church of Ireland page, and run the quote check on both. If both verify, use the basis below. If only the Catholic item verifies, drop the Church of Ireland sentence and set descentConfidence to null.",
+   "fix": {
+    "wanted": "A dated permalink of an Irish Catholic Bishops' Conference statement, and a dated Church of Ireland page.",
+    "basis": "The church planted in Ireland is alive today in the Catholic Church in Ireland and the Church of Ireland. Both publish dated statements. Two churches stand in this line, so its descent is open to dispute."
+   }
+  },
+  {
+   "id": "R1-23-III.24",
+   "atlasId": "III.24",
+   "severity": "substantial",
+   "problem": "The 'both churches claim' sentence, which the Contested grade rests on, has no support. Neither entry names the Church of Ireland, and the draft's own descentBasis says its claim 'was not checked'. The only evidence item is the Bishops' Conference home page. Its quote failed the fresh fetch, because the page rotates, so nothing about this entry is verified. The fix: fetch one dated permalink of an Irish Catholic Bishops' Conference statement and one dated Church of Ireland page, and run the quote check on both. If both verify, use the basis below. If only the Catholic item verifies, drop the Church of Ireland sentence and set descentConfidence to null.",
+   "fix": {
+    "wanted": "A dated permalink of an Irish Catholic Bishops' Conference statement, and a dated Church of Ireland page.",
+    "basis": "The church in Ireland between Whitby and the Anglo-Norman invasion is alive today in the Catholic Church in Ireland and the Church of Ireland. Both publish dated statements. Two churches stand in this line, so its descent is open to dispute."
+   }
+  },
+  {
+   "id": "R1-24-V.6",
+   "atlasId": "V.6",
+   "severity": "substantial",
+   "problem": "Inconsistent with the Waldensian pair. The draft's own descentBasis says the link 'rests on the church's own account' across a hidden gap of about a century (1627 to 1722). The Moravian entry's text frames the descent 'in its own telling'. The Waldensian entries have the same shape (a later church's own account of an unbroken descent) and are graded Contested. Widely Accepted overstates a claim the record gives only in the body's own voice.",
+   "fix": {
+    "descentConfidence": "Contested"
+   }
+  },
+  {
+   "id": "R1-24-VI.24",
+   "atlasId": "VI.24",
+   "severity": "substantial",
+   "problem": "Inconsistent with the Waldensian pair. The draft's own descentBasis says the link 'rests on the church's own account' across a hidden gap of about a century (1627 to 1722). The Moravian entry's text frames the descent 'in its own telling'. The Waldensian entries have the same shape (a later church's own account of an unbroken descent) and are graded Contested. Widely Accepted overstates a claim the record gives only in the body's own voice.",
+   "fix": {
+    "descentConfidence": "Contested"
+   }
+  },
+  {
+   "id": "R1-25",
+   "atlasId": "I.42",
+   "severity": "substantial",
+   "problem": "Inconsistent rival-claimant grade, and a basis sentence with no cited support. 'Other patriarchates also claim the Antioch succession' appears in neither the entry nor its evidence. The tree does support it: the Melkite Greek Catholic Split entry says the Melkite church 'has a patriarch of Antioch today' beside the Greek Orthodox Patriarchate. The draft's descentBasis says 'the other bodies dispute whose line it is'. That is the Irish and Kievan shape, which is graded Contested.",
+   "fix": {
+    "descentConfidence": "Contested",
+    "basis": "An episode of a living tradition. The church of Antioch is alive today as the Greek Orthodox Patriarchate of Antioch, which published a dated synod address in October 2026. The Melkite Greek Catholic Church also has a patriarch of Antioch, so the line is disputed."
+   }
+  },
+  {
+   "id": "R1-26",
+   "atlasId": "I.27",
+   "severity": "substantial",
+   "problem": "The living mark contradicts the definition, and its key fact rests on an unverified source. The descentBasis says the community 'follows the Rule of Benedict and belongs to the Cistercian family' and that 'Sources date its return to the island to the nineteenth century'. The return date rests only on the RCF article, which carries no quote and is not verified. The definition says a later group on an old site is not an heir without a record of an unbroken community. A refounded house graded Inferential-Thin is exactly that case, so 'living' cannot stand with that grade. The entry's own legacy says the reverse ('where it has stood since about 410'). The fix: fetch and verify one dated source for the refounding. If it verifies, apply the values below and raise CO-4. If it does not, set descentConfidence to null and use the basis: 'The island monastery of Lérins is a working community today. Its own site lists Mass times for November and December 2026. The entry's own text says it has stood there since about 410.'",
+   "fix": {
+    "verdict": "not living",
+    "group": "influence",
+    "carrier": [],
+    "grade": "n/a",
+    "descentConfidence": null,
+    "namedGap": null,
+    "outcome": "dropped",
+    "basis": "Its writings passed into Benedictine life, which the entry's own text describes. The community now on Lérins was refounded in the nineteenth century. A refounded house on the same site is not a continuing community."
+   }
+  },
+  {
+   "id": "R1-27",
+   "atlasId": "VI.13a",
+   "severity": "substantial",
+   "problem": "The basis rests on nothing. 'The Christian church of the old Kongo region is said to continue today' cites no one. The entry's text never mentions the present, there is no evidence item, and no tree link goes forward. The 'Contested' grade then grades a descent claim that nothing in the record makes. Whether this currently-true flag is kept is a ruling for CO-3, not a fix here.",
+   "fix": {
+    "descentConfidence": null,
+    "descentBasis": null,
+    "basis": "The entry's own text ends in 1650 and does not say whether the church continued. No dated present-day record ties a church today to the kingdom's church. The tree has no Kongo entry after 1650.",
+    "openQuestion": "The flag is true, but nothing in the record supports it or ends it; see change order CO-3."
+   }
+  },
+  {
+   "id": "R1-28-IV.6",
+   "atlasId": "IV.6",
+   "severity": "substantial",
+   "problem": "CD is not earned. The only item is a Greek City Times news report: journalism alone. Under R3 that is CR. merge.mjs grants CD whenever an item is 'independent' and verified. It does not test for journalism alone, so the step needs a human check.",
+   "fix": {
+    "grade": "CR (Contemporary-Reported); newest dated item 2024, newest verified 2024"
+   }
+  },
+  {
+   "id": "R1-28-IV.15",
+   "atlasId": "IV.15",
+   "severity": "substantial",
+   "problem": "CD is not earned. The only item is a Georgia Today news report: journalism alone. Under R3 that is CR. merge.mjs grants CD whenever an item is 'independent' and verified. It does not test for journalism alone, so the step needs a human check.",
+   "fix": {
+    "grade": "CR (Contemporary-Reported); newest dated item 2026, newest verified 2026"
+   }
+  },
+  {
+   "id": "R1-28-IV.2",
+   "atlasId": "IV.2",
+   "severity": "substantial",
+   "problem": "CD is not earned. The only item is an Infovaticana news report: journalism alone. Under R3 that is CR. merge.mjs grants CD whenever an item is 'independent' and verified. It does not test for journalism alone, so the step needs a human check.",
+   "fix": {
+    "grade": "CR (Contemporary-Reported); newest dated item 2026, newest verified 2026"
+   }
+  },
+  {
+   "id": "R1-28-IV.10",
+   "atlasId": "IV.10",
+   "severity": "substantial",
+   "problem": "CD is not earned. The independent item is a Syriac Press news report: journalism alone. The other item is the church's own word. Under R3 that is CR. merge.mjs grants CD whenever an item is 'independent' and verified. It does not test for journalism alone, so the step needs a human check.",
+   "fix": {
+    "grade": "CR (Contemporary-Reported); newest dated item 2025, newest verified 2025"
+   }
+  },
+  {
+   "id": "R1-28-IV.5",
+   "atlasId": "IV.5",
+   "severity": "substantial",
+   "problem": "CD is not earned. The independent item is a Vatican News report. That is journalism, and it is the Holy See's own outlet reporting on a Catholic order. The order's own letter failed the fresh fetch. Under R3 that is CR. merge.mjs grants CD whenever an item is 'independent' and verified. It does not test for journalism alone, so the step needs a human check.",
+   "fix": {
+    "grade": "CR (Contemporary-Reported); newest dated item 2025, newest verified 2025"
+   }
+  },
+  {
+   "id": "R1-28-VI.32",
+   "atlasId": "VI.32",
+   "severity": "substantial",
+   "problem": "CD is not earned. The only item is an Anabaptist World news report of the Young Center study. The study itself is not cited or fetched, so the item is journalism alone. Under R3 that is CR. merge.mjs grants CD whenever an item is 'independent' and verified. It does not test for journalism alone, so the step needs a human check.",
+   "fix": {
+    "grade": "CR (Contemporary-Reported); newest dated item 2026, newest verified 2026"
+   }
+  },
+  {
+   "id": "R1-28-VI.10",
+   "atlasId": "VI.10",
+   "severity": "substantial",
+   "problem": "CD is not earned. The independent item is a Vatican News report: journalism alone. Under R3 that is CR. merge.mjs grants CD whenever an item is 'independent' and verified. It does not test for journalism alone, so the step needs a human check.",
+   "fix": {
+    "grade": "CR (Contemporary-Reported); newest dated item 2024, newest verified 2024"
+   }
+  },
+  {
+   "id": "R1-28-VI.11",
+   "atlasId": "VI.11",
+   "severity": "substantial",
+   "problem": "CD is not earned. The independent item is an EWTN News report: journalism alone. Under R3 that is CR. merge.mjs grants CD whenever an item is 'independent' and verified. It does not test for journalism alone, so the step needs a human check.",
+   "fix": {
+    "grade": "CR (Contemporary-Reported); newest dated item 2022, newest verified 2022"
+   }
+  },
+  {
+   "id": "R1-28-VI.29",
+   "atlasId": "VI.29",
+   "severity": "substantial",
+   "problem": "CD is not earned. The independent item is a papal address to the order's General Chapter. The Holy See is not independent of a Catholic order, and an address is none of the Addendum's independent kinds (official statistics, scholarly fieldwork, an independent census). Under R3 that is CR. merge.mjs grants CD whenever an item is 'independent' and verified. It does not test for journalism alone, so the step needs a human check.",
+   "fix": {
+    "grade": "CR (Contemporary-Reported); newest dated item 2025, newest verified 2025"
+   }
+  },
+  {
+   "id": "R1-29",
+   "atlasId": "II.10, III.20 (fixed above); III.8, IV.19, V.8, VI.23, VII.21, VIII.31, VI.20, VII.28, VIII.38, VIII.12, VIII.1, VIII.3, VIII.27, VIII.26, VI.13b, VIII.45",
+   "severity": "substantial",
+   "problem": "Twenty living decisions rest wholly on era 10 carriers whose own grade is 'none (no dated item after 2010 is in the repo)'. Those carriers are the Russian Orthodox Church, the Greek Church and Ecumenical Patriarchate, the Georgian Orthodox Church Restored, the Ukrainian Greek Catholic Underground, the Catacomb Church, the Black Church, Churches of Christ, Disciples of Christ, Northeast India and Mar Thoma, Indonesian Christianity and Japanese Christianity. The research brief's outcome 1 requires a carrier that 'holds its own present-day evidence'. The definition says each mark rests on dated evidence. merge.mjs counts any living era 10 entry as an evidence holder and does not check its grade. Era 10 is not changed by this release, so the evidence cannot be supplied here (CO-1). Another fifteen decisions have at least one such carrier beside an evidence-holding one. The Kollyvades entry, carried only by the Greek Church entry, is one example. The fix within limits: the three that can be re-carried are fixed above (R1-13, R1-14, R1-15). For the rest, record the dependency.",
+   "fix": {
+    "openQuestion (each listed id except II.10 and III.20)": "Its carrier holds no dated present-day item. The mark waits on change order CO-1."
+   }
+  },
+  {
+   "id": "R1-30",
+   "atlasId": "V.3",
+   "severity": "cosmetic",
+   "problem": "Wrong class label. The entry names houses of a community of common life (class 2), and its own text records their end. It is not a school or circle. The verdict is unchanged, and the openQuestion is answered by the entry itself.",
+   "fix": {
+    "group": "ended",
+    "endQuote": "The houses themselves did not outlast the century they helped bring about.",
+    "openQuestion": null,
+    "basis": "Its carriers ended. The entry's own text says the houses did not outlast the century they helped bring about. The Imitation of Christ is still printed in dozens of languages."
+   }
+  },
+  {
+   "id": "R1-31",
+   "atlasId": "VI.21",
+   "severity": "cosmetic",
+   "problem": "descentBasis wording. The 2019 Tomos is supported by the Razumkov page, but 'the other body remains tied to Moscow' is a contested characterization of a living church that no fetched source states in those words (R4, neighbour-harm).",
+   "fix": {
+    "descentBasis": "Two Orthodox bodies in Ukraine both claim the Kyiv heritage of Mohyla. The Razumkov survey names them as the Orthodox Church of Ukraine and the Ukrainian Orthodox Church, and notes the 2019 Tomos."
+   }
+  },
+  {
+   "id": "R1-32",
+   "atlasId": "VIII.15",
+   "severity": "cosmetic",
+   "problem": "descentBasis contains a claim with no support: 'Other Bible Student groups also continue from the same root'. Neither the entry nor the evidence says it. The grade can rest on the entry's own text instead.",
+   "fix": {
+    "descentBasis": "The entry's own text says the name Jehovah's Witnesses and the central body came only after Russell's death in 1916, under his successor."
+   }
+  },
+  {
+   "id": "R1-33",
+   "atlasId": "II.13, III.15, III.22, IV.17, V.15, VI.17, VII.18, VIII.28",
+   "severity": "cosmetic",
+   "problem": "Readability: the line-script sentence for the Greek and Balkan carriers runs to 39 words, past the 25-word limit.",
+   "fix": {
+    "basis (each)": "The same tradition, by its line of later entries, as two entries that carry it today. They are the Greek Church and the Ecumenical Patriarchate, and Orthodoxy in the Communist Balkans."
+   }
+  },
+  {
+   "id": "R1-34",
+   "atlasId": "VI.27, VI.6, VI.7, VI.14, VI.15, VI.31, III.23",
+   "severity": "cosmetic",
+   "problem": "Process narration in the public basis ('was not gathered', 'the only dated source found', 'No dated present-day source was verified', 'still wants a source'). The basis must describe records, not the research run.",
+   "fix": {
+    "VI.27 basis": "The Nordic national churches are alive today. Statistics Norway published figures on the Church of Norway in June 2026. The tree has no entry for the Nordic state churches after 1650.",
+    "VI.6 basis": "The tradition lives on in France in the united Protestant church. That church held its national synod in May 2023, by its own record. The entry's own text names that church as the heir. The tree has no French Reformed entry after 1787.",
+    "VI.7 basis": "English Catholicism is alive today. The Bishops' Conference of England and Wales published its own statistics for 2023. The entry's own text says the community continued unbroken. The tree has no entry for it after 1650.",
+    "VI.14 basis": "The entry's own text says the church in Transylvania still exists as the Hungarian Unitarian Church. No dated present-day record of it is in hand. The tree has no entry for it after 1650.",
+    "VI.15 basis": "The entry's own text says a small Schwenkfelder Church still exists in Pennsylvania. No dated present-day record of it is in hand. The tree has no Schwenkfelder entry after 1650.",
+    "VI.31 basis": "The entry's own text stops at 1650 and does not say whether the church continued. No dated present-day record of it is in hand. The tree has no entry for it after 1650.",
+    "III.23 basis": "The Welsh church of this period is alive today as the Church in Wales. Its own site carries news dated October 2026 and names the dioceses of St Asaph, Bangor, St Davids and Llandaff."
+   }
+  },
+  {
+   "id": "R1-35",
+   "atlasId": "II.6, II.8, III.24, II.17, III.23, III.14, IV.1, IV.4, IV.11, IV.23, VII.3, VII.4, VII.7, VII.22, VII.26, VII.32, VIII.4, VIII.9, VIII.16, VIII.17, VIII.22, VIII.33, VIII.34, VIII.35, VIII.36, VIII.37, VIII.41, VIII.42, VIII.51, VIII.52",
+   "severity": "cosmetic",
+   "problem": "R2: a rotating home page is the only item. The dates check out on the saved pages. But on II.6, II.8 and III.24 the fresh fetch already fails, because the page has rotated, so those items are unverified. Several quotes do not carry the date the basis cites: the copyright line on II.17 and III.23, the site title on VII.7, the legal-name line on VIII.51, and the self-description on VIII.4. The date sits elsewhere on the saved page. Where a dated permalink exists, cite it and quote the dated line.",
+   "fix": {
+    "each listed evidence item": "Replace the home-page URL with the dated item's own permalink. Quote the line that carries the date. Re-run check_quotes.py."
+   }
+  },
+  {
+   "id": "R1-36",
+   "atlasId": "VI.11",
+   "severity": "cosmetic",
+   "problem": "The basis gives the pope's remark as 'about half the members it had in the 1960s'. The quoted remark says 'When I entered the novitiate' (1958). The 1960s figure is the page's own CARA statement, not the pope's.",
+   "fix": {
+    "basis": "The Society of Jesus is alive today. The Jesuits' own 2022 figures count 14,439 members. A news report of December 2021 says the order has about half the members it had in 1965. The tree has no Jesuit entry after 1650."
+   }
+  },
+  {
+   "id": "R1-37",
+   "atlasId": "VIII.16",
+   "severity": "cosmetic",
+   "problem": "'The church also runs its own site' cites no item. The Monitor quote is the church's own publication, so it is own-voice, not independent. The grade CR is right.",
+   "fix": {
+    "basis": "The Christian Science Monitor, dated the week of 9 November 2026, states that The First Church of Christ, Scientist owns it. The tree has no entry for the church after 1906."
+   }
+  },
+  {
+   "id": "R1-38",
+   "atlasId": "line template (59 line_decisions entries)",
+   "severity": "cosmetic",
+   "problem": "'The same tradition, by its line of later entries, as X, which carries it today.' has no main verb. It reads as a fragment in the public data file. A one-line change to line_decisions.mjs fixes all of them at once.",
+   "fix": {
+    "line_decisions.mjs basis template": "This tradition continues, through its line of later entries, in ${list(names)}, which ${carry} it today."
+   }
+  }
+ ],
+ "changeOrders": [
+  {
+   "id": "CO-1",
+   "scope": "era 10 data (outside P2-V: apply_living.mjs does not change era 10)",
+   "change": "Give dated (2011 or later), verified evidence to the era 10 carriers whose grade is 'none': the Russian Orthodox Church, the Greek Church and the Ecumenical Patriarchate, the Georgian Orthodox Church Restored, the Ukrainian Greek Catholic Underground, the Russian New Martyrs and Catacomb Church, the Black Church in the Twentieth Century, Churches of Christ, Disciples of Christ, Northeast India and Mar Thoma, Indonesian Christianity, Japanese Christianity, and Ratana. Twenty eras 1-9 living marks rest wholly on them, and fifteen more in part (R1-29). Several 'CR' carriers (the Catholic parish, Sayfo, Ethiopian, Balkan and Latin American entries) also hold no verified item. As a result, much of the Catholic, Orthodox and Oriental line rests on weaker evidence than the 'own' entries now hold.",
+   "why": "The definition says each mark rests on dated evidence. The research brief requires a carrier that holds its own present-day evidence."
+  },
+  {
+   "id": "CO-2",
+   "scope": "tree links (outside P2-V)",
+   "change": "Re-examine the grades on the 'continued as' links whose low grade comes from the tree's sourcing, not from doubt that the community continued: Coptic Fatimid-to-Mamluk to the Cyril IV revival, the Cyril IV revival to the Sunday-school revival, Mission-Born New Spain to Colonial Devotional Catholicism, Colonial Devotional to Nineteenth-Century Latin American Catholicism, the Georgian Revival to the Golden Age, and Kievan Rus' to Kievan Rus' 1054-1240. While those links stay low, the line script turns them into descent grades that misread plain continuity (R1-13, R1-20).",
+   "why": "A link grade measures the tree's evidence for one link. A descent grade tells the public whether a living body's descent is disputed."
+  },
+  {
+   "id": "CO-3",
+   "scope": "method ruling (governance: Mark's call)",
+   "change": "Rule how a currently-true flag is treated when the record holds neither a recorded end nor any dated evidence (Kongo Christianity to 1650 and New France, which also have no text about the present). Rule the same for the 'none' grades on Anti-Trinitarian Currents and the Schwenckfelders, whose entry text says the body exists but which have no dated item. The method-page definition ('Each mark rests on dated evidence') and the drop rule ('an end needs a recorded terminus') pull opposite ways on these rows.",
+   "why": "The two rules conflict on these rows. Neither the researchers nor this review may settle a methodology question."
+  },
+  {
+   "id": "CO-4",
+   "scope": "entry text (outside P2-V)",
+   "change": "If a verified source confirms that Lérins was refounded in the nineteenth century, correct the Gallic Monastic-Ascetic entry's legacy line 'where it has stood since about 410', which states an unbroken community.",
+   "why": "The living decision and the entry text would otherwise contradict each other in public."
+  }
+ ]
+}
