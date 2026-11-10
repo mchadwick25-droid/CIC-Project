@@ -63,3 +63,11 @@ test("a member-of link cannot carry an outcome", () => {
   const e = errors({ type: "member of", confidence: "Widely Accepted", outcome: "The church joined the council.", sources: [online, secondary] });
   assert.ok(e.some(l => l.includes("never major")));
 });
+
+test("a member-of link is Widely Accepted on the body's own record alone", () => {
+  assert.deepEqual(errors({ type: "member of", confidence: "Widely Accepted", sources: [online] }), []);
+});
+
+test("any other type still needs a secondary source for Widely Accepted", () => {
+  assert.ok(errors({ confidence: "Widely Accepted", sources: [online] }).some(l => l.includes("needs a secondary source")));
+});

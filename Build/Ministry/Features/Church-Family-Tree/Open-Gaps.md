@@ -997,3 +997,14 @@ it, never by deleting it.
     Accepted on the council's or member church's own dated membership record alone. See the
     Decision-Log, "A 'member of' link may be Widely Accepted on the membership record alone".
 
+147. **The Sayfo entry says Syriac history "had gone quiet after about 1300" (2026-11-10).** The
+    entry for the Syriac churches from 1915 (atlasId IX.19) says, in its relationsSummary and legacy,
+    that Syriac recorded history "had gone quiet after about 1300". It also says Syriac
+    communities experienced that silence "as erasure", and uses map wording ("named honestly
+    here"; "On this map the entry does one more thing").
+    - The Church of the East wing the entry covers has its own entries (V.17, VI.30, VIII.40) and an
+      existing "continued as" link, so the first claim does not hold for it. It holds only for the
+      Syriac Orthodox side, which Open-Gaps 135 already lists as a held gap after 1300.
+    - No source supports the claim about what communities experienced.
+    - The fix spans two fields, so under the link method it is left for the entry's owner, not
+      rewritten in P2-L10. Found by the part 2 drafters (group G).
