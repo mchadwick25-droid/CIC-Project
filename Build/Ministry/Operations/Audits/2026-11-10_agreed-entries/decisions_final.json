@@ -183,5 +183,31 @@
   "D": "a",
   "E": "a",
   "by": "Mark, 2026-11-10"
- }
+ },
+ "text_fixes": [
+  {
+   "id": "cyrilline-miaphysite-egyptian-christianity",
+   "old": "the Defence against the Arians, the Defence before Constantius,",
+   "new": "the ‘Defence against the Arians’, the ‘Defence before Constantius’,",
+   "why": "The NPNF titles keep their own spelling, quoted (Decision-Log 77)."
+  },
+  {
+   "id": "english-unitarianism",
+   "old": "in defence of",
+   "new": "in defense of",
+   "why": "American spelling in our own prose (Decision-Log 77)."
+  },
+  {
+   "id": "william-tyndale",
+   "old": "who drives the plough",
+   "new": "who drives the plow",
+   "why": "Paraphrase, not a quote: American spelling (Decision-Log 77)."
+  },
+  {
+   "id": "john-wesley",
+   "old": "riches or honour",
+   "new": "riches or honor",
+   "why": "Paraphrase, not a quote: American spelling (Decision-Log 77)."
+  }
+ ]
 }

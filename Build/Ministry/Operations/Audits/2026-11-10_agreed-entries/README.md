@@ -141,7 +141,8 @@ drafting record, not the drafters' conclusions:
 | People rows | revise: 1 blocking, 3 substantial, 6 minor | revise: 1 substantial, 4 minor | approve, no findings |
 
 Revision logs are in `drafts/*_Revision_Round1.json`; review files in `reviews/`. The coordinator's
-own fixes at apply (a short name, two place IDs with no source, two link notes) are listed with reasons
+own fixes at apply (a short name, two place IDs with no source, two link notes, and four spellings:
+two edition titles quoted, three paraphrases in American spelling) are listed with reasons
 in `decisions_final.json` (`field_overrides`), and the row fixes in `rows_fixes.json`. `apply_g3.py`
 merged everything; its log is `apply_log.json`. Drafting keys never reach the census: a link keeps
 only the census's own fields.

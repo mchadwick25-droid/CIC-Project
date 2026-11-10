@@ -72,6 +72,17 @@ for fo in dec.get('field_overrides', []):
     for k, v in fo['set'].items(): tgt[k] = v
     log['overrides'].append((fo['id'], sorted(fo['set']), fo['reason']))
 
+def _sub(o, old, new):
+    if isinstance(o, str): return o.replace(old, new)
+    if isinstance(o, list): return [_sub(x, old, new) for x in o]
+    if isinstance(o, dict): return {k: (v if k == 'quote' else _sub(v, old, new)) for k, v in o.items()}
+    return o
+for tf in dec.get('text_fixes', []):
+    m = M[tf['id']]; before = json.dumps(m, ensure_ascii=False)
+    for k in list(m): m[k] = _sub(m[k], tf['old'], tf['new'])
+    assert json.dumps(m, ensure_ascii=False) != before, tf
+    log['text_fixes'].append((tf['id'], tf['old'], tf['new']))
+
 # people rows
 excl = set(dec.get('exclude_source_classes', []))
 cls = {}

@@ -442,6 +442,28 @@
    "Names John Wesley in full, so the link names the person it concerns; Charles Wesley shares the surname."
   ]
  ],
+ "text_fixes": [
+  [
+   "cyrilline-miaphysite-egyptian-christianity",
+   "the Defence against the Arians, the Defence before Constantius,",
+   "the ‘Defence against the Arians’, the ‘Defence before Constantius’,"
+  ],
+  [
+   "english-unitarianism",
+   "in defence of",
+   "in defense of"
+  ],
+  [
+   "william-tyndale",
+   "who drives the plough",
+   "who drives the plow"
+  ],
+  [
+   "john-wesley",
+   "riches or honour",
+   "riches or honor"
+  ]
+ ],
  "row_dropped": [
   [
    "alexandria-catechetical",
