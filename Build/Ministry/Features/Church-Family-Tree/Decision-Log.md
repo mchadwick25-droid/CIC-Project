@@ -900,3 +900,20 @@ to" or "continued as" link coming in, down from 48. 9 have no link at all. Open-
 them. Records are in `Build/Ministry/Operations/Audits/2026-11-10_links-era-10-part-1/` and
 `-part-2/`.
 
+---
+
+## 2026-11-10 — P2-G89 starts: the eras 8 and 9 global sweep
+
+Mark: "start the eras 8-9 sweep". This carries out his scope of 2026-11-09 ("eras 8 - 10 for
+now"). Eras 8 and 9 lean on Europe and North America:
+- Era 8 (1650-1815) has 30 entries. 18 are tagged North Europe, and Africa, Latin America and
+  Greater Asia have one each.
+- Era 9 (1815-1906) has 51 entries. 45 region tags are North Europe or North America.
+
+The method is that of the era 10 sweep, with four regional passes: Africa; Latin America and the
+Caribbean; Asia and the Pacific; and the Middle East, Caucasus, Russia and Eastern Europe. Each
+pass covers every river, uses non-English sources, and must answer the timeline breaks of
+Open-Gaps 135 and 142 that fall in its region. That includes Mark's test that a break tied to
+another movement, such as the Jesuits' worldwide missions, is not split off. Eras 8 and 9 are
+frozen, so the results come to Mark's gate as change orders.
+
