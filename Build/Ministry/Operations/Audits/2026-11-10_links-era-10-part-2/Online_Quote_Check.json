@@ -3,8 +3,7 @@
  "totals": {
   "quotes": 113,
   "script_verbatim": 107,
-  "second_check": 4,
-  "unconfirmed": 2
+  "second_check": 6
  },
  "rows": [
   {
@@ -845,7 +844,7 @@
    "ok": false,
    "page_chars": 4110,
    "quote": "Members and authorities of the church do not identify themselves as Pentecostals.",
-   "second_check": "UNCONFIRMED: the site serves a CAPTCHA to any script, so the page could not be fetched raw in this run and no saved copy exists. The quote cannot count as verified until the page is read and checked."
+   "second_check": "Confirmed by the Round 1 reviewer's raw fetch (curl): the site served the article, not its CAPTCHA, and both quotes are verbatim there (posted 5 June 2016, updated 26 October 2023). The coordinator's own fetches had met the CAPTCHA."
   },
   {
    "file": "Draft_GroupI.json",
@@ -855,7 +854,7 @@
    "ok": false,
    "page_chars": 4110,
    "quote": "However, because of its origin, development, ritual and doctrine I classify this church in this way.",
-   "second_check": "UNCONFIRMED: the site serves a CAPTCHA to any script, so the page could not be fetched raw in this run and no saved copy exists. The quote cannot count as verified until the page is read and checked."
+   "second_check": "Confirmed by the Round 1 reviewer's raw fetch (curl): the site served the article, not its CAPTCHA, and both quotes are verbatim there (posted 5 June 2016, updated 26 October 2023). The coordinator's own fetches had met the CAPTCHA."
   },
   {
    "file": "Draft_GroupJ.json",
