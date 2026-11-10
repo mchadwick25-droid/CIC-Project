@@ -1,0 +1,12 @@
+source_file: underwood_call-of-korea_1908.txt
+assignments:
+- row_id: underwood_call-of-korea_1908--underwood-the-call-of-korea-1908
+  work: Underwood, The Call of Korea (1908)
+  author: underwood
+  locus: the whole book; add 11 to OCR line numbers for this file's own
+  atlas_ids:
+  - the-missionary-movement-s-native-churches-seramp
+  role: tradition
+  confidence: needs-ruling
+  note: The first Presbyterian missionary's own account, written in 1908. Like the Korean Repository it
+    waits on the AP15 ruling for its shelf.

@@ -1,0 +1,14 @@
+source_file: tolstoy_what-i-believe_popoff1885.txt
+assignments:
+- row_id: tolstoy_what-i-believe_popoff1885--tolstoy-what-i-believe-popoff-s-english-1885
+  work: Tolstoy, What I Believe (Popoff's English, 1885)
+  author: tolstoy
+  locus: the whole book, chapters from OCR line 203; add 11 to OCR line numbers for this file's own
+  atlas_ids:
+  - russian-church-synodal-century
+  role: context
+  confidence: provisional
+  note: 'Tolstoy''s own account of the faith he set against the church, written 1884; the synodal church
+    excommunicated him in 1901. Placed as the view from outside the synodal church. The Tolstoyans have
+    no census entry yet: the eras 8-9 sweep holds them (ME-20) for a Section A ruling on a dated text,
+    which this is. Clean English OCR.'

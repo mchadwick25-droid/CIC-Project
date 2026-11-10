@@ -94,3 +94,12 @@ assignments:
   note: >-
     Covers the arrival of Mar Gregory and the alliance with the Jacobites after 1665; placed on subject,
     not read through.
+- row_id: whitehouse_lingerings-of-light-in-a-dark-land_1873--the-1861-chaldean-metropolitan-at-thrissur
+  work: 'Whitehouse, Lingerings of Light in a Dark Land (1873): the 1858 deputation to Mosul and the Chaldean metropolitan of 1861'
+  author: whitehouse
+  locus: file line about 17502 ('returned triumphantly in 1861, with the man they wanted'); the Syrian Catholics' appeal to the Chaldean Patriarch, Mar Joseph, at about 14192
+  atlas_ids:
+  - church-of-the-east-chaldean-consolidation
+  role: context
+  confidence: provisional
+  note: An Anglican chaplain's account, a dozen years after the event, of the Chaldean bishop the Romo-Syrian party brought to Malabar in 1861. The view from outside; it predates the 1874 mission of Elias Mellus. The eras 8-9 sweep holds the Thrissur Chaldean body (AP7).

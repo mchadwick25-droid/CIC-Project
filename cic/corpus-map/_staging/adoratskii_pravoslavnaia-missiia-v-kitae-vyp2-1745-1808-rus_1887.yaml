@@ -1,0 +1,13 @@
+source_file: adoratskii_pravoslavnaia-missiia-v-kitae-vyp2-1745-1808-rus_1887.txt
+assignments:
+- row_id: adoratskii_pravoslavnaia-missiia-v-kitae-vyp2-1745-1808-rus_1887--adoratskii-pravoslavnaia-missiia-v-kitae-vyp-2-1745-1808-russian-kazan
+  work: Adoratskii, Pravoslavnaia missiia v Kitae, vyp. 2 (1745-1808), Russian (Kazan 1887)
+  author: adoratskii
+  locus: the whole issue; add 12 to OCR line numbers for this file's own
+  atlas_ids:
+  - russian-church-synodal-century
+  role: tradition
+  confidence: provisional
+  note: The Russian church's own history of its Peking mission, written by a hieromonk from the Synod's
+    archives in 1887. Placed on its date of writing. The eras 8-9 sweep holds the Peking mission and the
+    Albazinians (AP11) for a line in this entry. Second witness only.

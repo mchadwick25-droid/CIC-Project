@@ -1336,3 +1336,17 @@ it, never by deleting it.
     and none survives for the others (`Build/Ministry/Features/Source-Library/CFT-Wants.md`).
     Wanted, from the drafts: an English rendering of the Apology, a clean text of the Ecthesis, a
     primary source for Heraclius's letter disowning it, and a source for Bonaventure's birth year.
+171. **What the Library's second wants batch filled (2026-11-10).** For the eras 8-9 rows held for
+    sources (`CiC_Step0_Eras8-9_GlobalSweep_V1_0.md`). Full list:
+    `Build/Ministry/Features/Source-Library/CFT-Wants.md`.
+    - Filled: ME-20 (Tolstoy 1885, 1894), ME-6 for the Dukhobors (their Living Book, 1909), RV-7
+      (Bishop Ferencz 1875, 1907), AP7 (Mackenzie 1901, and Whitehouse 1873 shelved), AP15 (Dallet
+      1874, the Korean Repository 1896, Underwood 1908), AP12 in part (Marsden's letters, 1913), AP11 to
+      1808 (Adoratskii 1887), LA8-6 (Moreau 1797, Holly's report of 1874), LA8-8 (Claret 1863), LA8-9
+      (Montalvo 1683, the Historia Bethlehemitica 1723).
+    - The church's side only: LA8-10 (Juarros 1809, Garcia Pelaez 1852). The Cancuc and Cruzob texts
+      themselves are still wanted.
+    - Not found: AF-8, ME-4, ME-7, RV-9, AP10, AP13 and the Molokans. ME-21 is located but not
+      fetched.
+    - The Bell Part II ruling, as carried out: the row stays on the desert shelf as context, and on
+      the Melitian shelf as tradition (Source-Library Decision-Log, 2026-11-10).

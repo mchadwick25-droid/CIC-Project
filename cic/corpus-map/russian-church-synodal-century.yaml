@@ -3,6 +3,40 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: russian-church-synodal-century
 works:
+- row_id: adoratskii_pravoslavnaia-missiia-v-kitae-vyp1-1685-1745-rus_1887--adoratskii-pravoslavnaia-missiia-v-kitae-vyp-1-1685-1745-russian-kazan
+  work: Adoratskii, Pravoslavnaia missiia v Kitae, vyp. 1 (1685-1745), Russian (Kazan 1887)
+  author: adoratskii
+  locus: the whole issue; add 12 to OCR line numbers for this file's own
+  role: tradition
+  confidence: provisional
+  note: The Russian church's own history of its Peking mission, written by a hieromonk from
+    the Synod's archives in 1887. Placed on its date of writing. The eras 8-9 sweep holds
+    the Peking mission and the Albazinians (AP11) for a line in this entry. Second witness
+    only.
+  source_file: adoratskii_pravoslavnaia-missiia-v-kitae-vyp1-1685-1745-rus_1887.txt
+- row_id: adoratskii_pravoslavnaia-missiia-v-kitae-vyp2-1745-1808-rus_1887--adoratskii-pravoslavnaia-missiia-v-kitae-vyp-2-1745-1808-russian-kazan
+  work: Adoratskii, Pravoslavnaia missiia v Kitae, vyp. 2 (1745-1808), Russian (Kazan 1887)
+  author: adoratskii
+  locus: the whole issue; add 12 to OCR line numbers for this file's own
+  role: tradition
+  confidence: provisional
+  note: The Russian church's own history of its Peking mission, written by a hieromonk from
+    the Synod's archives in 1887. Placed on its date of writing. The eras 8-9 sweep holds
+    the Peking mission and the Albazinians (AP11) for a line in this entry. Second witness
+    only.
+  source_file: adoratskii_pravoslavnaia-missiia-v-kitae-vyp2-1745-1808-rus_1887.txt
+- row_id: dukhobors_zhivotnaia-kniga-dukhobortsev-rus_bonch-bruevich1909--the-dukhobors-living-book-zhivotnaia-kniga-russian-bonch-bruevich-1909
+  work: The Dukhobors' Living Book (Zhivotnaia kniga), Russian (Bonch-Bruevich 1909)
+  author: dukhobors
+  locus: the psalms from OCR line 10199 and the questions and answers from about 23939; add
+    12 to OCR line numbers for this file's own
+  role: context
+  confidence: provisional
+  note: The Dukhobors' own psalms and catechism, as they recited them, written down by Bonch-Bruevich
+    from their own singers. Their own voice; placed here as the view from outside the synodal
+    church because the spiritual Christians have no census entry yet (ME-6, held for Section
+    A body by body). Second witness only.
+  source_file: dukhobors_zhivotnaia-kniga-dukhobortsev-rus_bonch-bruevich1909.txt
 - row_id: mouravieff_history-of-the-church-of-russia_blackmore1842--a-history-of-the-church-of-russia-1838-english-1842-2
   work: A History of the Church of Russia (1838; English 1842)
   author: mouravieff
@@ -33,3 +67,25 @@ works:
   note: The Regulation stayed in force until 1917; the 1856 reprint is the Synodal century's
     own; provisional for that world.
   source_file: spiritual-regulation_dukhovnyi-reglament-rus_sinodalnaia-tipografiia1856.txt
+- row_id: tolstoy_kingdom-of-god-is-within-you-v1_garnett1894--tolstoy-the-kingdom-of-god-is-within-you-vol-i-garnett-s-english-1894
+  work: Tolstoy, The Kingdom of God is Within You, vol. I (Garnett's English, 1894)
+  author: tolstoy
+  locus: the whole volume, Chapter I from OCR line 399; add 11 to OCR line numbers for this
+    file's own
+  role: context
+  confidence: provisional
+  note: Tolstoy's own case for non-resistance and against the state church (1893). The view
+    from outside the synodal church; volume I of two. Clean English OCR.
+  source_file: tolstoy_kingdom-of-god-is-within-you-v1_garnett1894.txt
+- row_id: tolstoy_what-i-believe_popoff1885--tolstoy-what-i-believe-popoff-s-english-1885
+  work: Tolstoy, What I Believe (Popoff's English, 1885)
+  author: tolstoy
+  locus: the whole book, chapters from OCR line 203; add 11 to OCR line numbers for this file's
+    own
+  role: context
+  confidence: provisional
+  note: 'Tolstoy''s own account of the faith he set against the church, written 1884; the
+    synodal church excommunicated him in 1901. Placed as the view from outside the synodal
+    church. The Tolstoyans have no census entry yet: the eras 8-9 sweep holds them (ME-20)
+    for a Section A ruling on a dated text, which this is. Clean English OCR.'
+  source_file: tolstoy_what-i-believe_popoff1885.txt

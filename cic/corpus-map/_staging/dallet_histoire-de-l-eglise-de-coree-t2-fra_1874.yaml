@@ -1,0 +1,13 @@
+source_file: dallet_histoire-de-l-eglise-de-coree-t2-fra_1874.txt
+assignments:
+- row_id: dallet_histoire-de-l-eglise-de-coree-t2-fra_1874--dallet-histoire-de-l-eglise-de-coree-tome-2-1874
+  work: Dallet, Histoire de l'Eglise de Coree, tome 2 (1874)
+  author: dallet
+  locus: the whole volume; add 12 to OCR line numbers for this file's own
+  atlas_ids:
+  - korean-catholic-origins
+  role: tradition
+  confidence: assigned
+  note: The Paris Foreign Missions' own history of the Korean church, written from its missionaries' letters
+    and the Korean martyrs' own testimonies, which it quotes. The church's own record. It ends in 1866,
+    so for Korea after 1884 (AP15) it is the Catholic prehistory.
