@@ -1,0 +1,1003 @@
+{
+ "group": "F",
+ "movements": [
+  "azusa-street-and-early-pentecostalism",
+  "global-south-pentecostal-christianity",
+  "lausanne-era-global-evangelicalism",
+  "the-chinese-church-indigenous-and-suffering",
+  "the-confessing-church",
+  "promise-keepers-and-the-christian-mens-movement",
+  "the-rescue-mission-movement"
+ ],
+ "dispositions": [
+  {
+   "movement": "azusa-street-and-early-pentecostalism",
+   "field": "relationsSummary",
+   "sentence": "Child of Holiness + Black Church worship; parent of most of this era's family",
+   "other_id": "the-holiness-movement",
+   "disposition": "link",
+   "link_id": "the-holiness-movement--azusa-street-and-early-pentecostalism",
+   "prose_change": 0,
+   "reason": "Existing link regraded to Widely Accepted on the mission paper's own 1906 reports; sentence rewritten in plain words."
+  },
+  {
+   "movement": "azusa-street-and-early-pentecostalism",
+   "field": "relationsSummary",
+   "sentence": "Child of Holiness + Black Church worship; parent of most of this era's family",
+   "other_id": "the-black-church-in-america",
+   "disposition": "link",
+   "link_id": "the-black-church-in-america--azusa-street-and-early-pentecostalism",
+   "prose_change": 0,
+   "reason": "Existing link kept (Dominant Modern Reconstruction)."
+  },
+  {
+   "movement": "azusa-street-and-early-pentecostalism",
+   "field": "relationsSummary",
+   "sentence": "Child of Holiness + Black Church worship; parent of most of this era's family",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "'Parent of most of this era's family' qualified: the Global South and African ties are Contested."
+  },
+  {
+   "movement": "azusa-street-and-early-pentecostalism",
+   "field": "longDescription",
+   "sentence": "The revival on Azusa Street in Los Angeles began in April 1906, and it came out of two streams already running — the Holiness movement, and Black church worship.",
+   "other_id": "the-holiness-movement",
+   "disposition": "link",
+   "link_id": "the-holiness-movement--azusa-street-and-early-pentecostalism",
+   "prose_change": null,
+   "reason": "Carried by the regraded Holiness link."
+  },
+  {
+   "movement": "azusa-street-and-early-pentecostalism",
+   "field": "longDescription",
+   "sentence": "The revival on Azusa Street in Los Angeles began in April 1906, and it came out of two streams already running — the Holiness movement, and Black church worship.",
+   "other_id": "the-black-church-in-america",
+   "disposition": "link",
+   "link_id": "the-black-church-in-america--azusa-street-and-early-pentecostalism",
+   "prose_change": null,
+   "reason": "Carried by the kept Black church link."
+  },
+  {
+   "movement": "azusa-street-and-early-pentecostalism",
+   "field": "why",
+   "sentence": "The revival that broke out on Azusa Street in Los Angeles in April 1906 grew from two streams already flowing together, Holiness worship and Black church worship, and it spread not by hierarchy but by print: the mission's own newspaper, The Apostolic Faith, went out free and started meetings in places its founders never visited.",
+   "other_id": "the-holiness-movement",
+   "disposition": "link",
+   "link_id": "the-holiness-movement--azusa-street-and-early-pentecostalism",
+   "prose_change": 1,
+   "reason": "Carried by the regraded Holiness link; sentence split for reading level only."
+  },
+  {
+   "movement": "azusa-street-and-early-pentecostalism",
+   "field": "why",
+   "sentence": "The revival that broke out on Azusa Street in Los Angeles in April 1906 grew from two streams already flowing together, Holiness worship and Black church worship, and it spread not by hierarchy but by print: the mission's own newspaper, The Apostolic Faith, went out free and started meetings in places its founders never visited.",
+   "other_id": "the-black-church-in-america",
+   "disposition": "link",
+   "link_id": "the-black-church-in-america--azusa-street-and-early-pentecostalism",
+   "prose_change": 1,
+   "reason": "Carried by the kept Black church link."
+  },
+  {
+   "movement": "azusa-street-and-early-pentecostalism",
+   "field": "why",
+   "sentence": "Local papers mocked it as a \"Weird Babel of Tongues,\" but William Seymour kept leading the mission until his death in 1922, and almost every Pentecostal church of the twentieth century traced its line back to what happened on that street.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 1,
+   "reason": "'Almost every' qualified to 'many'. Support for 'many': the Apostolic Faith Church's own site says it follows the tradition 'taught and practiced by those whom the Holy Spirit descended on at the Azusa Street Revival' (apostolicfaith.org, read 2026-11-10)."
+  },
+  {
+   "movement": "azusa-street-and-early-pentecostalism",
+   "field": "legacy",
+   "sentence": "Almost every movement in this era's Pentecostal family runs back through here, from the Global South churches of the later century to Africa's independent churches.",
+   "other_id": "global-south-pentecostal-christianity",
+   "disposition": "link",
+   "link_id": "azusa-street-and-early-pentecostalism--global-south-pentecostal-christianity",
+   "prose_change": 2,
+   "reason": "New Contested link; sentence qualified to say the tie is argued."
+  },
+  {
+   "movement": "azusa-street-and-early-pentecostalism",
+   "field": "legacy",
+   "sentence": "Almost every movement in this era's Pentecostal family runs back through here, from the Global South churches of the later century to Africa's independent churches.",
+   "other_id": "african-initiated-churches-harrist-aladura-zioni",
+   "disposition": "qualify",
+   "link_id": "azusa-street-and-early-pentecostalism--african-initiated-churches-harrist-aladura-zioni",
+   "prose_change": 2,
+   "reason": "Existing Contested link kept; the sentence stated as fact what the link grades as Contested, so it is qualified."
+  },
+  {
+   "movement": "azusa-street-and-early-pentecostalism",
+   "field": "legacy",
+   "sentence": "The denominations formed fast: the Church of God in Christ turned Pentecostal in 1907 and the Assemblies of God organized in 1914, and the argument over the doctrine of God that produced Oneness Pentecostalism broke out inside the same young movement in 1913.",
+   "other_id": "oneness-pentecostalism",
+   "disposition": "link",
+   "link_id": "azusa-street-and-early-pentecostalism--oneness-pentecostalism",
+   "prose_change": 2,
+   "reason": "New link on the Assemblies of God minutes of 1914-1916, read online."
+  },
+  {
+   "movement": "azusa-street-and-early-pentecostalism",
+   "field": "legacy",
+   "sentence": "The denominations formed fast: the Church of God in Christ turned Pentecostal in 1907 and the Assemblies of God organized in 1914, and the argument over the doctrine of God that produced Oneness Pentecostalism broke out inside the same young movement in 1913.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 2,
+   "reason": "The Church of God in Christ and the Assemblies of God have no movement of their own. The 1914 founding at Hot Springs is in the council's own preamble (read online), which also names 'Churches of God in Christ' among its parties. COGIC's 1907 turn was not checked here; it stands with the map's other well-known facts lacking a source."
+  },
+  {
+   "movement": "global-south-pentecostal-christianity",
+   "field": "relationsSummary",
+   "sentence": "Child of Azusa + AIC lines; the century's growing edge.",
+   "other_id": "azusa-street-and-early-pentecostalism",
+   "disposition": "link",
+   "link_id": "azusa-street-and-early-pentecostalism--global-south-pentecostal-christianity",
+   "prose_change": 3,
+   "reason": "New Contested link; sentence rewritten in plain words and to say the Azusa tie is argued."
+  },
+  {
+   "movement": "global-south-pentecostal-christianity",
+   "field": "relationsSummary",
+   "sentence": "Child of Azusa + AIC lines; the century's growing edge.",
+   "other_id": "african-initiated-churches-harrist-aladura-zioni",
+   "disposition": "link",
+   "link_id": "african-initiated-churches-harrist-aladura-zioni--global-south-pentecostal-christianity",
+   "prose_change": 3,
+   "reason": "New link on the RCCG founder's own history and Anderson's preview, read online."
+  },
+  {
+   "movement": "global-south-pentecostal-christianity",
+   "field": "relationsSummary",
+   "sentence": "El Shaddai, a Catholic movement in the Philippines, is told in the entry on Philippine Catholicism.",
+   "other_id": "philippine-catholicism-twentieth-century",
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A pointer to where a Catholic movement is told, not a relationship between the two; El Shaddai has no movement of its own."
+  },
+  {
+   "movement": "global-south-pentecostal-christianity",
+   "field": "longDescription",
+   "sentence": "The family's sharpest internal argument, over prosperity teaching, is on the record in the family's own published words: in the sermons that teach it, and in the critiques published by the Lausanne movement and by African evangelical theologians who rejected it.",
+   "other_id": "lausanne-era-global-evangelicalism",
+   "disposition": "link",
+   "link_id": "lausanne-era-global-evangelicalism--global-south-pentecostal-christianity",
+   "prose_change": null,
+   "reason": "New Inferential-Thin link on the 2009 Lausanne Theology Working Group statement and the Cape Town Commitment, read online."
+  },
+  {
+   "movement": "global-south-pentecostal-christianity",
+   "field": "why",
+   "sentence": "It is also in the published critiques of the Lausanne movement and of African evangelical theologians who rejected it.",
+   "other_id": "lausanne-era-global-evangelicalism",
+   "disposition": "link",
+   "link_id": "lausanne-era-global-evangelicalism--global-south-pentecostal-christianity",
+   "prose_change": null,
+   "reason": "Same link. The sentence is accurate: the 2009 statement came from the Lausanne working group's Africa chapter."
+  },
+  {
+   "movement": "global-south-pentecostal-christianity",
+   "field": "legacy",
+   "sentence": "This map carries a separate entry for the congregations these churches planted back in Europe.",
+   "other_id": "african-diaspora-and-reverse-mission-churches-in",
+   "disposition": "link",
+   "link_id": "global-south-pentecostal-christianity--african-diaspora-and-reverse-mission-churches-in",
+   "prose_change": null,
+   "reason": "New link on the RCCG's own history, read online."
+  },
+  {
+   "movement": "lausanne-era-global-evangelicalism",
+   "field": "relationsSummary",
+   "sentence": "It stands as a counter-pole to the conciliar ecumenical movement centered on Geneva — two different twentieth-century answers to how separated churches should act together.",
+   "other_id": "the-ecumenical-movement-and-the-wcc",
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A comparison, not a claim of descent, contact or argument; no link type fits a counterpart. The ecumenical movement's own text (group A) frames it the same way."
+  },
+  {
+   "movement": "lausanne-era-global-evangelicalism",
+   "field": "legacy",
+   "sentence": "It stands as the counter-pole to the conciliar ecumenical movement centered on Geneva: two different answers, from the same century, to the question of how separated churches should act together.",
+   "other_id": "the-ecumenical-movement-and-the-wcc",
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Same comparison as the relationsSummary."
+  },
+  {
+   "movement": "lausanne-era-global-evangelicalism",
+   "field": "relationsSummary",
+   "sentence": "The Christian Right, a political movement that American ministers began with the Moral Majority in 1979, has a separate entry.",
+   "other_id": "the-christian-right",
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A pointer that sets the Christian Right apart from this movement; it claims no tie. Group B owns the Christian Right's text."
+  },
+  {
+   "movement": "lausanne-era-global-evangelicalism",
+   "field": "relationsSummary",
+   "sentence": "Tearfund grew out of the Evangelical Alliance in 1968.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Neither has a movement of its own. Freeman's Tearfund study (2019) is cited in the entry; it was not read here."
+  },
+  {
+   "movement": "lausanne-era-global-evangelicalism",
+   "field": "relationsSummary",
+   "sentence": "In 1997 the Southern Baptist International Mission Board took up an approach called the Church Planting Movement.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No movement of its own; the entry cites Massey (2012) for the 1997 adoption."
+  },
+  {
+   "movement": "lausanne-era-global-evangelicalism",
+   "field": "relationsSummary",
+   "sentence": "At the 1974 Congress, Global South voices — chiefly the Latin Americans René Padilla and Samuel Escobar — argued for holding evangelism and social responsibility together, bending the whole movement toward what became known as integral mission.",
+   "other_id": "protestantism-in-latin-america",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "This sentence names people, not a movement. The Latin American Protestantism text names Lausanne by name; group E owns that pair."
+  },
+  {
+   "movement": "lausanne-era-global-evangelicalism",
+   "field": "relationsSummary",
+   "sentence": "Still, the Lausanne Covenant allowed that fewer foreign missionaries might sometimes help a national church grow in self-reliance.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Checked against the Covenant itself (lausanne.org, read 2026-11-10), para. 9: 'A reduction of foreign missionaries and money in an evangelized country may sometimes be necessary to facilitate the national church’s growth in self-reliance'. Gatu and the moratorium call have no movement of their own."
+  },
+  {
+   "movement": "the-chinese-church-indigenous-and-suffering",
+   "field": "longDescription",
+   "sentence": "In the 1920s Chinese Christians began founding churches that owed nothing to the foreign missions.",
+   "other_id": "the-missionary-movement-s-native-churches-seramp",
+   "disposition": "qualify",
+   "link_id": "the-missionary-movement-s-native-churches-seramp--the-chinese-church-indigenous-and-suffering",
+   "prose_change": 4,
+   "reason": "Existing link kept; 'owed nothing' overstated against it and is qualified. Decade corrected to the 1910s."
+  },
+  {
+   "movement": "the-chinese-church-indigenous-and-suffering",
+   "field": "why",
+   "sentence": "Chinese Christians who owed nothing to foreign missions began founding their own churches in the 1920s: Wei Enbo's True Jesus Church in 1917, Watchman Nee's Little Flock in 1922, and the Jesus Family in 1927.",
+   "other_id": "the-missionary-movement-s-native-churches-seramp",
+   "disposition": "qualify",
+   "link_id": "the-missionary-movement-s-native-churches-seramp--the-chinese-church-indigenous-and-suffering",
+   "prose_change": 5,
+   "reason": "Same qualification as the longDescription."
+  },
+  {
+   "movement": "the-chinese-church-indigenous-and-suffering",
+   "field": "relationsSummary",
+   "sentence": "The clearest twentieth-century echo of the house churches of Christianity's first two centuries, when congregations met quietly under pressure with no institutional standing.",
+   "other_id": "post-apostolic-house-church",
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A comparison ('echo'), not a claim of descent or contact; no link type fits. The facts behind it (meeting in homes, leaders imprisoned) are in the entry's own sources (Lian Xi; Bays), named and not read here."
+  },
+  {
+   "movement": "the-chinese-church-indigenous-and-suffering",
+   "field": "why",
+   "sentence": "That pattern, congregations meeting quietly under pressure, echoes the house churches of Christianity's first two centuries.",
+   "other_id": "post-apostolic-house-church",
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": 5,
+   "reason": "A comparison ('echo'), not a claim of descent or contact; no link type fits. The facts behind it (meeting in homes, leaders imprisoned) are in the entry's own sources (Lian Xi; Bays), named and not read here."
+  },
+  {
+   "movement": "the-chinese-church-indigenous-and-suffering",
+   "field": "legacy",
+   "sentence": "That pattern is the map's strongest modern echo of the house-churches of the first two centuries.",
+   "other_id": "post-apostolic-house-church",
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A comparison ('echo'), not a claim of descent or contact; no link type fits. The facts behind it (meeting in homes, leaders imprisoned) are in the entry's own sources (Lian Xi; Bays), named and not read here."
+  },
+  {
+   "movement": "the-chinese-church-indigenous-and-suffering",
+   "field": "longDescription",
+   "sentence": "After 1950 the Christian Manifesto and the Three-Self Patriotic Movement reorganized Protestant church life under the state; Wang Mingdao published 'We, Because of Faith' in 1955 and was imprisoned from 1955 until 1980, and Watchman Nee was imprisoned from 1952 until 1972.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 4,
+   "reason": "The Three-Self Patriotic Movement has no movement of its own; the entry's own sources list the Christian Manifesto (1950) and TSPM records. Sentence split for reading level only."
+  },
+  {
+   "movement": "the-confessing-church",
+   "field": "relationsSummary",
+   "sentence": "Lutheran/Reformed lines under catastrophe",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "No single German Lutheran, Reformed or united church movement for this period. Supported by the Barmen Declaration itself (EKD English text, read 2026-11-10): 'members of Lutheran, Reformed, and United churches sought a common message for the need and temptation of the church in our day.'"
+  },
+  {
+   "movement": "the-confessing-church",
+   "field": "longDescription",
+   "sentence": "When the Nazi state and the pro-Nazi 'German Christians' moved to reorganize the German Protestant churches in 1933, a minority refused.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The German Christians have no movement of their own. Supported by Barmen (EKD text, read 2026-11-10): 'It is threatened by the teaching methods and actions of the ruling church party of the \"German Christians\" and of the church administration carried on by them.'"
+  },
+  {
+   "movement": "the-confessing-church",
+   "field": "legacy",
+   "sentence": "The Barmen Declaration became a confessional text in Reformed and Lutheran churches worldwide, cited well beyond Germany whenever a church had to say what it would not concede to a state.",
+   "other_id": null,
+   "disposition": "qualify",
+   "link_id": null,
+   "prose_change": 6,
+   "reason": "Only a Reformed adoption was found (PC(USA) Book of Confessions, 2016 printing, read 2026-11-10, which lists 'The Theological Declaration of Barmen'); 'Lutheran churches worldwide' is unsupported. Qualified."
+  },
+  {
+   "movement": "the-confessing-church",
+   "field": "longDescription",
+   "sentence": "a synod at Barmen in May 1934 adopted a declaration, drafted by Karl Barth, that the church has one Word to hear and obey, Jesus Christ, and no other;",
+   "other_id": "the-mainline-century-liberal-and-neo-orthodox",
+   "disposition": "out-of-scope",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "This text names Barth, a person. The mainline century's text names the Confessing Church and Barmen ('Barth's line also runs into the Confessing Church'); group C owns that pair."
+  },
+  {
+   "movement": "promise-keepers-and-the-christian-mens-movement",
+   "field": "relationsSummary",
+   "sentence": "Its setting was evangelical, like that of the megachurches and of Lausanne-era evangelicals.",
+   "other_id": "the-megachurch-and-seeker-movement",
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A comparison of setting, not a tie. Mathisen (2001, read online) supports the evangelical setting: 'This vast majority of attendees also represented a relatively narrow spectrum of evangelical Protestant backgrounds—Baptist, nondenominational, and Assemblies of God accounted for well over half.'"
+  },
+  {
+   "movement": "promise-keepers-and-the-christian-mens-movement",
+   "field": "relationsSummary",
+   "sentence": "Its setting was evangelical, like that of the megachurches and of Lausanne-era evangelicals.",
+   "other_id": "lausanne-era-global-evangelicalism",
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Same comparison; no contact or influence claimed."
+  },
+  {
+   "movement": "promise-keepers-and-the-christian-mens-movement",
+   "field": "relationsSummary",
+   "sentence": "James Mathisen set it apart from the wider men's movement.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The wider men's movement has no movement of its own. Checked against Mathisen, 'The Strange Decade of the Promise Keepers', Books & Culture, Sept/Oct 2001 (christianitytoday.com, read 2026-11-10): 'Simplistic misrepresentations of PK as merely a version of the larger men’s movement ... were common.' The legacy quote was also found verbatim there."
+  },
+  {
+   "movement": "the-rescue-mission-movement",
+   "field": "relationsSummary",
+   "sentence": "The Salvation Army did the same kind of work, but as a church body.",
+   "other_id": "the-salvation-army",
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "A comparison of work, not a claim of descent, contact or influence. Magnuson's Salvation in the Slums (1977), cited in the entry, treats both; not read here."
+  },
+  {
+   "movement": "the-rescue-mission-movement",
+   "field": "relationsSummary",
+   "sentence": "Norris Magnuson counts the rescue missions among the revival-based welfare movements of 1865 to 1920.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Names a scholar's category, not a movement in this map. Magnuson is cited in the entry and was not read here."
+  }
+ ],
+ "links": [
+  {
+   "id": "the-holiness-movement--azusa-street-and-early-pentecostalism",
+   "old_index": 12,
+   "action": "regrade",
+   "from": "the-holiness-movement",
+   "to": "azusa-street-and-early-pentecostalism",
+   "type": "gave rise to",
+   "confidence": "Widely Accepted",
+   "note": "In September 1906 William Seymour wrote that a Los Angeles mission had locked him out. Its people then called in the president of the Holiness Association to rule on his teaching. A month later his paper said four Holiness preachers had received the new baptism.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "The Apostolic Faith (Los Angeles: Azusa Street Apostolic Faith Mission), vol. 1 no. 1, September 1906",
+     "url": "https://archives.ifphc.org/DigitalPublications/USA/Independent/Apostolic%20Faith%20(Azusa%20Street)/Unregistered/1906/FPHC/1906_09.pdf",
+     "accessed": "2026-11-10",
+     "locus": "p. 1, 'Bro. Seymour's Call'",
+     "quote": "afterwards got Bro. Roberts, the president of the Holiness Association, to come down and settle the doctrine of the Baptism with the Holy Ghost, that it was simply sanctification.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "The Apostolic Faith (Los Angeles: Azusa Street Apostolic Faith Mission), vol. 1 no. 2, October 1906",
+     "url": "https://archives.ifphc.org/DigitalPublications/USA/Independent/Apostolic%20Faith%20(Azusa%20Street)/Unregistered/1906/FPHC/1906_10.pdf",
+     "accessed": "2026-11-10",
+     "locus": "p. 1",
+     "quote": "Four of the Holiness preachers have received the baptism with the Holy Ghost.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "work": "Vinson Synan, The Holiness-Pentecostal Tradition (Eerdmans, 2nd ed. 1997)",
+     "source_id": null,
+     "file": null,
+     "lines": null,
+     "quote": null
+    },
+    {
+     "kind": "secondary",
+     "work": "Cecil M. Robeck Jr., The Azusa Street Mission and Revival (2006)",
+     "source_id": null,
+     "file": null,
+     "lines": null,
+     "quote": null
+    },
+    {
+     "kind": "secondary",
+     "work": "Allan Anderson, An Introduction to Pentecostalism (Cambridge University Press, 2004)",
+     "source_id": null,
+     "file": null,
+     "lines": null,
+     "quote": null
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-online",
+   "named_in_text": [
+    "azusa-street-and-early-pentecostalism relationsSummary ('Child of Holiness'), longDescription ('the Holiness movement') and why ('Holiness worship')",
+    "the-holiness-movement legacy ('came out of Holiness circles into the Azusa Street revival of 1906')"
+   ],
+   "wants": [
+    "The Apostolic Faith (Los Angeles, 1906-1908, 13 issues): public domain; scans are held by the Flower Pentecostal Heritage Center. Vendored, its own reports of Holiness preachers joining the revival could make this link Documented.",
+    "William J. Seymour, The Doctrines and Discipline of the Azusa Street Apostolic Faith Mission (1915): public domain."
+   ],
+   "drafter_flags": [
+    "The quotes were read on the page images of the scans, not the OCR layer, which is rough ('Santa F e', 'lIoly'). They are copied as printed.",
+    "Seymour's account names the Holiness Association's president and 'a good many holiness preachers' opposing his teaching. That is Holiness people in the room on both sides; the October report is the passing-over the link type asks for. Synan, Robeck and Anderson remain named, not read.",
+    "Online sources cap this link at Widely Accepted. Era 9 owned this pair and graded it Dominant Modern Reconstruction on secondary works alone; the new primaries are why it rises."
+   ],
+   "change_reason": "Regraded from Dominant Modern Reconstruction to Widely Accepted: two dated reports from the mission's own paper, read online, now carry the underlying facts. Note rewritten to say what they show. From, to and type unchanged."
+  },
+  {
+   "id": "the-black-church-in-america--azusa-street-and-early-pentecostalism",
+   "from": "the-black-church-in-america",
+   "to": "azusa-street-and-early-pentecostalism",
+   "type": "influenced",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "The Azusa Street revival began in Los Angeles in 1906. Its leader, William J. Seymour, was a Black Holiness preacher. Historians trace much of its worship, its songs and its testimony to the Black church.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Cecil M. Robeck Jr., The Azusa Street Mission and Revival (2006)",
+     "file": null,
+     "lines": null,
+     "quote": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Gastón Espinosa, William J. Seymour (Duke, 2014)",
+     "file": null,
+     "lines": null,
+     "quote": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Allan Anderson, An Introduction to Pentecostalism (Cambridge University Press, 2004)",
+     "file": null,
+     "lines": null,
+     "quote": null
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked",
+   "old_index": 507,
+   "action": "keep",
+   "named_in_text": [
+    "azusa-street-and-early-pentecostalism relationsSummary ('Black Church worship'), longDescription and why ('Black church worship')",
+    "the-black-church-in-america relationsSummary, why and legacy ('fed directly into the 1906 Azusa Street revival')"
+   ],
+   "major": {
+    "major": false,
+    "kind": null,
+    "evidence": null,
+    "reason": "Worship taken up by a later movement; no council, split or ruling on any listed source."
+   },
+   "wants": [
+    "The Apostolic Faith (Los Angeles, 1906-1908): the September 1906 issue names Lucy F. Farrow, who came from Houston, among the mission's workers; a vendored copy would let the Black-church side be shown in the mission's own words."
+   ],
+   "drafter_flags": [
+    "Kept. Era 9 drafted it; the grade fits a reading of worship and song that rests on Robeck, Espinosa and Anderson, named and not read. Nothing read online in this pass shows the worship tie directly, so no regrade."
+   ],
+   "change_reason": "Kept unchanged: type, grade, note and sources still match the evidence."
+  },
+  {
+   "id": "azusa-street-and-early-pentecostalism--african-initiated-churches-harrist-aladura-zioni",
+   "from": "azusa-street-and-early-pentecostalism",
+   "to": "african-initiated-churches-harrist-aladura-zioni",
+   "type": "influenced",
+   "confidence": "Contested",
+   "note": "Scholars disagree about how far Aladura and Zionist churches drew on Pentecostal teaching. Many began with African prophets and local leaders rather than missionaries, and the balance is still studied.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "work": "Bengt Sundkler, Bantu Prophets in South Africa (1948; 2nd ed. 1961)"
+    },
+    {
+     "kind": "secondary",
+     "work": "J. D. Y. Peel, Aladura: A Religious Movement among the Yoruba (Oxford University Press for the International African Institute, 1968)"
+    },
+    {
+     "kind": "secondary",
+     "work": "Allan Anderson, African Reformation (2001)"
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked",
+   "old_index": 13,
+   "action": "keep",
+   "named_in_text": [
+    "azusa-street-and-early-pentecostalism legacy ('from the Global South churches of the later century to Africa's independent churches')"
+   ],
+   "major": {
+    "major": false,
+    "kind": null,
+    "evidence": null,
+    "reason": "A claim of influence in teaching; no institutional act on any listed source."
+   },
+   "wants": [
+    "Anderson, African Reformation (2001), and Sundkler, Bantu Prophets (1961): the passages on Pentecostal teaching reaching Zionist and Aladura churches."
+   ],
+   "drafter_flags": [
+    "Kept as Contested. Anderson's 2013 preview (read for the new Global South links) puts Lagos's independent churches stressing spiritual gifts back to 1918, which fits the note's 'began with African prophets'. Azusa's legacy sentence is qualified to match."
+   ],
+   "change_reason": "Kept unchanged; the Azusa legacy sentence that overstated this tie is qualified instead."
+  },
+  {
+   "id": "azusa-street-and-early-pentecostalism--global-south-pentecostal-christianity",
+   "action": "new",
+   "from": "azusa-street-and-early-pentecostalism",
+   "to": "global-south-pentecostal-christianity",
+   "type": "gave rise to",
+   "confidence": "Contested",
+   "note": "Scholars disagree about how far the Global South's Pentecostal churches descend from Azusa Street. In December 1906 the revival's paper reported six missionaries leaving for Africa. But Allan Anderson notes that independent African churches stressing spiritual gifts go back to 1918 in Lagos.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "The Apostolic Faith (Los Angeles: Azusa Street Apostolic Faith Mission), vol. 1 no. 4, December 1906",
+     "url": "https://archives.ifphc.org/DigitalPublications/USA/Independent/Apostolic%20Faith%20(Azusa%20Street)/Unregistered/1906/FPHC/1906_12.pdf",
+     "accessed": "2026-11-10",
+     "locus": "p. 4, 'From Los Angeles to Home and Foreign Fields'",
+     "quote": "Workers are constantly going out trusting God alone for their support. A Band of six missionaries left for Africa.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Cecil M. Robeck Jr., The Azusa Street Mission and Revival (2006)",
+     "file": null,
+     "lines": null,
+     "quote": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Allan Heaton Anderson, An Introduction to Pentecostalism: Global Charismatic Christianity, 2nd ed. (Cambridge University Press, 2013), ch. 'Sub-Saharan Africa', publisher's preview",
+     "url": "https://www.cambridge.org/core/books/an-introduction-to-pentecostalism/subsaharan-africa/0D92DE132F0A2EF53BBB78B60C252099",
+     "accessed": "2026-11-10",
+     "locus": "ch. 'Sub-Saharan Africa', opening section 'Defining African Pentecostalism'",
+     "quote": "It has a long history of independent African churches emphasizing spiritual gifts, dating back to the time of the great influenza epidemic of 1918."
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-online",
+   "named_in_text": [
+    "global-south-pentecostal-christianity relationsSummary ('Child of Azusa')",
+    "azusa-street-and-early-pentecostalism legacy ('the Global South churches of the later century') and relationsSummary ('parent of most of this era's family')"
+   ],
+   "wants": [
+    "The Apostolic Faith (Los Angeles, 1906-1908), vendored: the full record of missionaries the mission sent out.",
+    "Allan Anderson, An Introduction to Pentecostalism (2004; 2nd ed. 2013): the chapters on origins, read in full, for his case against a single American origin.",
+    "Founding accounts of the Assembleias de Deus (Brazil, 1911) and of Yoido Full Gospel Church (Seoul, 1958) in their own words."
+   ],
+   "drafter_flags": [
+    "Contested on purpose. The Azusa side rests on the mission's own report of missionaries going out and on Robeck, named and not read; it does not show any of the named Global South churches founded from Azusa. The other side rests on Anderson's own preview text and on this map's own 1904-07 revival entry, which says those revivals did not descend from Azusa.",
+    "Anderson's preview is from the 2013 edition. It describes facts from 1918 onward, well before 2010.",
+    "The global-south text says its churches were 'mostly founded in the Global South by people from it', which already leans against a simple descent."
+   ],
+   "change_reason": "New: names the Azusa parent in 'Child of Azusa' and in Azusa's legacy."
+  },
+  {
+   "id": "african-initiated-churches-harrist-aladura-zioni--global-south-pentecostal-christianity",
+   "action": "new",
+   "from": "african-initiated-churches-harrist-aladura-zioni",
+   "to": "global-south-pentecostal-christianity",
+   "type": "gave rise to",
+   "confidence": "Widely Accepted",
+   "note": "The Redeemed Christian Church of God says its founder, Josiah Akindayomi, joined the Cherubim and Seraphim in 1931. That was one of Nigeria's prayer churches. He left it in 1952 to start his own church. Allan Anderson places Nigeria's Christ Apostolic Church halfway between these churches and Pentecostalism.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Redeemed Christian Church of God, 'Our History' (rccg.org, undated web page)",
+     "url": "https://www.rccg.org/our-history/",
+     "accessed": "2026-11-10",
+     "locus": "'Our History', founder's life",
+     "quote": "Still spiritually unfulfilled, he joined the Cherubim and Seraphim church in 1931.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Redeemed Christian Church of God, 'Our History' (rccg.org, undated web page)",
+     "url": "https://www.rccg.org/our-history/",
+     "accessed": "2026-11-10",
+     "locus": "'Our History', founder's life",
+     "quote": "By 1952, he felt totally persuaded to leave the church.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Allan Heaton Anderson, An Introduction to Pentecostalism: Global Charismatic Christianity, 2nd ed. (Cambridge University Press, 2013), ch. 'Sub-Saharan Africa', publisher's preview",
+     "url": "https://www.cambridge.org/core/books/an-introduction-to-pentecostalism/subsaharan-africa/0D92DE132F0A2EF53BBB78B60C252099",
+     "accessed": "2026-11-10",
+     "locus": "ch. 'Sub-Saharan Africa', opening section 'Defining African Pentecostalism'",
+     "quote": "One that is managing to do so is the Christ Apostolic Church (CAC), the biggest of Nigeria’s older Pentecostal churches, sitting somewhat half way between Aladura and classical Pentecostal churches."
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Ogbu Kalu, African Pentecostalism (Oxford University Press, 2008)",
+     "file": null,
+     "lines": null,
+     "quote": null
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-online",
+   "named_in_text": [
+    "global-south-pentecostal-christianity relationsSummary ('Child of ... AIC lines')"
+   ],
+   "wants": [
+    "Redeemed Christian Church of God founding records (1952) and Christ Apostolic Church records around the 1930 revival, in print.",
+    "Ogbu Kalu, African Pentecostalism (2008): the passages on Aladura roots of Nigerian Pentecostal churches."
+   ],
+   "drafter_flags": [
+    "The RCCG page is the church's own account but is undated; it is used only for the founder's 1931 and 1952 moves, which fall well before 2010.",
+    "The evidence is Nigerian: one church's founder and Anderson's judgment on another. It shows people passing from the prayer-church line into this family, which is what the type asks, but only for part of a very wide family. Kalu is cited in the census and was not read.",
+    "The Cherubim and Seraphim church is listed among the Aladura churches in the African-initiated churches' own sources in this map.",
+    "Part 2 owns the African-initiated churches; part 1 owns this pair because the Global South text names it."
+   ],
+   "change_reason": "New: names the 'AIC lines' parent in the Global South relationsSummary."
+  },
+  {
+   "id": "global-south-pentecostal-christianity--african-diaspora-and-reverse-mission-churches-in",
+   "action": "new",
+   "from": "global-south-pentecostal-christianity",
+   "to": "african-diaspora-and-reverse-mission-churches-in",
+   "type": "gave rise to",
+   "confidence": "Widely Accepted",
+   "note": "The Redeemed Christian Church of God was founded in Lagos in 1952. Its own history says the church has spread to England, Germany and France. Its parishes there are among the African-led churches planted in Europe.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Redeemed Christian Church of God, 'Our History' (rccg.org, undated web page)",
+     "url": "https://www.rccg.org/our-history/",
+     "accessed": "2026-11-10",
+     "locus": "'Our History', the church's spread",
+     "quote": "In Europe the church is spread in England, Germany, and France.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Redeemed Christian Church of God, 'Our History' (rccg.org, undated web page)",
+     "url": "https://www.rccg.org/our-history/",
+     "accessed": "2026-11-10",
+     "locus": "'Our History', founder's life",
+     "quote": "By 1952, he felt totally persuaded to leave the church.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Afe Adogame, The African Christian Diaspora (Bloomsbury, 2013)",
+     "file": null,
+     "lines": null,
+     "quote": null
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-online",
+   "named_in_text": [
+    "global-south-pentecostal-christianity legacy ('a separate entry for the congregations these churches planted back in Europe')",
+    "african-diaspora-and-reverse-mission-churches-in sources ('RCCG European parish-planting records')"
+   ],
+   "wants": [
+    "RCCG parish records for its first European parishes, with dates.",
+    "Afe Adogame, The African Christian Diaspora (2013), and Gerrie ter Haar, Halfway to Paradise (1998): the passages on RCCG and other Pentecostal churches in Europe."
+   ],
+   "drafter_flags": [
+    "The RCCG page is undated, so the note gives no date for the spread to Europe. The diaspora entry also counts Aladura and Kimbanguist congregations, which come from the African-initiated line; this link claims one parent, not the only one. Adogame is cited in the census and was not read.",
+    "Lagos as the place of founding is from the same RCCG page (Willoughby Street, Ebute-Metta, Lagos).",
+    "Part 2 owns the diaspora churches; part 1 owns this pair because the Global South text names it."
+   ],
+   "change_reason": "New: names the diaspora child in the Global South legacy."
+  },
+  {
+   "id": "azusa-street-and-early-pentecostalism--oneness-pentecostalism",
+   "action": "new",
+   "from": "azusa-street-and-early-pentecostalism",
+   "to": "oneness-pentecostalism",
+   "type": "gave rise to",
+   "confidence": "Widely Accepted",
+   "note": "In 1914 Pentecostal ministers from Apostolic Faith missions and other churches formed a general council. In 1916 it told its preachers not to quarrel over the words used at baptism. Historians trace Oneness Pentecostalism to this dispute inside the young movement.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "General Council of the Assemblies of God, Combined Minutes 1914-1916 (Preamble and Resolution of Constitution, Hot Springs, Ark., April 2-12, 1914), printed with the Minutes of October 1916",
+     "url": "https://archives.ifphc.org/DigitalPublications/USA/Assemblies%20of%20God%20USA/Minutes%20General%20Council/Unregistered/1916/FPHC/1916.pdf",
+     "accessed": "2026-11-10",
+     "locus": "p. 2, Preamble and Resolution of Constitution",
+     "quote": "That we recognize ourselves as a GENERAL COUNCIL of Pentecostal (Spirit Baptized) saints from local Churches of God in Christ, Assemblies of God, and various Apostolic Faith Missions and Churches",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "General Council of the Assemblies of God, Minutes of the General Council, St. Louis, October 1-7, 1916",
+     "url": "https://archives.ifphc.org/DigitalPublications/USA/Assemblies%20of%20God%20USA/Minutes%20General%20Council/Unregistered/1916/FPHC/1916.pdf",
+     "accessed": "2026-11-10",
+     "locus": "p. 8, 'Resolution on Baptismal Formula'",
+     "quote": "RESOLVED, That since the words in Matth. 28:19 and the words in Acts 2:38 were both inspired of God, we hereby disapprove of contending for the one to the exclusion of or as against the other, because confusion and a party spirit are sure to follow such unscriptural conduct.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "David A. Reed, 'In Jesus' Name': The History and Beliefs of Oneness Pentecostals (Deo, 2008)",
+     "file": null,
+     "lines": null,
+     "quote": null
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-online",
+   "named_in_text": [
+    "azusa-street-and-early-pentecostalism legacy ('the argument over the doctrine of God that produced Oneness Pentecostalism broke out inside the same young movement in 1913')",
+    "oneness-pentecostalism relationsSummary ('grew directly out of the wider Pentecostal movement that followed the Azusa Street revival')"
+   ],
+   "wants": [
+    "General Council of the Assemblies of God, minutes of 1914-1916: public domain; scans held by the Flower Pentecostal Heritage Center. Vendored, they could carry this link further.",
+    "Frank J. Ewart, The Phenomenon of Pentecost (1947): the Oneness side's own account of 1913-1916."
+   ],
+   "drafter_flags": [
+    "The 1916 minutes show the baptism-formula quarrel inside the council and its rule against 'contending'; they do not name the Oneness ministers who left. That they left to form Oneness churches is Reed's reading, named and not read; hence Widely Accepted, which the online cap also sets.",
+    "The 1913 Arroyo Seco camp meeting in Azusa's legacy was not checked; it stands on the Oneness entry's own sources.",
+    "Part 2 owns Oneness Pentecostalism and its text names Azusa too; part 1 owns this pair because the Azusa text names it. Check for a duplicate at merge."
+   ],
+   "change_reason": "New: names the Oneness child in Azusa's legacy."
+  },
+  {
+   "id": "lausanne-era-global-evangelicalism--global-south-pentecostal-christianity",
+   "action": "new",
+   "from": "lausanne-era-global-evangelicalism",
+   "to": "global-south-pentecostal-christianity",
+   "type": "argued against",
+   "confidence": "Inferential-Thin",
+   "note": "In 2008 and 2009 Lausanne theologians met in Ghana and called the prosperity gospel a false gospel. They said it was found in Pentecostal and other churches, but addressed the teaching, not any one church. The Cape Town Commitment of 2010 rejected its excesses.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Lausanne Theology Working Group, Africa Chapter, 'A Statement on the Prosperity Gospel' (consultations at Akropong, Ghana, October 2008 and September 2009; posted by the Lausanne Movement, 16 January 2010)",
+     "url": "https://lausanne.org/content/a-statement-on-the-prosperity-gospel",
+     "accessed": "2026-11-10",
+     "locus": "Introductory note",
+     "quote": "Prosperity teaching can be found in varying degrees in mainstream Protestant, Pentecostal as well as Charismatic Churches. It is the phenomenon of prosperity teaching that is being addressed here not any particular denomination or tradition.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Lausanne Theology Working Group, Africa Chapter, 'A Statement on the Prosperity Gospel' (consultations at Akropong, Ghana, October 2008 and September 2009; posted by the Lausanne Movement, 16 January 2010)",
+     "url": "https://lausanne.org/content/a-statement-on-the-prosperity-gospel",
+     "accessed": "2026-11-10",
+     "locus": "Introductory note, overall view",
+     "quote": "In such dimensions, it can be soberly described as a false gospel.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "The Cape Town Commitment (Third Lausanne Congress, Cape Town, October 2010)",
+     "url": "https://lausanne.org/statement/ctcommitment",
+     "accessed": "2026-11-10",
+     "locus": "Part II, IIE.5, 'Walk in simplicity, rejecting the idolatry of greed'",
+     "quote": "We therefore reject the excesses of prosperity teaching as incompatible with balanced biblical Christianity.",
+     "license": "rights reserved; short quotation"
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-online",
+   "named_in_text": [
+    "global-south-pentecostal-christianity longDescription and why ('the critiques published by the Lausanne movement')"
+   ],
+   "major": {
+    "major": false,
+    "kind": null,
+    "evidence": null,
+    "reason": "A network's statements against a teaching; Lausanne is not a church authority, and nothing condemns, excludes or splits a body."
+   },
+   "wants": [
+    "Scholarly accounts of the Lausanne statements on prosperity teaching and how Pentecostal churches in Africa received them.",
+    "Published replies to the statement from Global South Pentecostal leaders."
+   ],
+   "drafter_flags": [
+    "Thin because the arrow's target is inferred. Both texts reject a teaching that, by their own words, crosses denominations; the 2009 statement says outright that it addresses no 'particular denomination or tradition'. It names Pentecostal and Charismatic churches and Africa in particular, which is why the link stands at all.",
+    "No secondary work read or cited in the repo was found for the consensus reading, so Widely Accepted was not open.",
+    "The Global South text calls these critiques part of 'the family's own published words'. The Lausanne critics stand outside the Pentecostal family. Left as it is: the sentence's facts hold, and the slip is one phrase."
+   ],
+   "change_reason": "New: names the Lausanne critique in the Global South longDescription and why."
+  },
+  {
+   "id": "the-missionary-movement-s-native-churches-seramp--the-chinese-church-indigenous-and-suffering",
+   "from": "the-missionary-movement-s-native-churches-seramp",
+   "to": "the-chinese-church-indigenous-and-suffering",
+   "type": "gave rise to",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "China's independent churches of the 1910s and 1920s, such as the True Jesus Church and Watchman Nee's assemblies, grew up beside the older mission churches. Historians Daniel Bays and Lian Xi trace them to Chinese believers first formed in that mission world. The new churches' own founders stressed their freedom from the foreign missions.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Daniel Bays, A New History of Christianity in China (Wiley-Blackwell, 2012)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Lian Xi, Redeemed by Fire: The Rise of Popular Christianity in Modern China (Yale, 2010)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Cambridge History of Christianity vol. 8, ch. 30 'Christianity in East Asia: China, Korea and Japan' (Bays & Grayson)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked",
+   "old_index": 521,
+   "action": "keep",
+   "named_in_text": [
+    "the-chinese-church-indigenous-and-suffering longDescription and why ('owed nothing to the foreign missions'; qualified)",
+    "the-missionary-movement-s-native-churches-seramp text (era 9)"
+   ],
+   "wants": [
+    "Watchman Nee and Wang Mingdao on their own early schooling and conversion, in English translation.",
+    "Bays (2012) and Lian Xi (2010): the passages on the founders' mission backgrounds."
+   ],
+   "drafter_flags": [
+    "Kept. The Chinese church's own text said its churches 'owed nothing to the foreign missions', which this link and its note contradict in part. The prose is qualified to 'independent of the foreign missions', which fits both. No online source was read for this pair."
+   ],
+   "change_reason": "Kept unchanged; the Chinese church's prose is qualified to match it."
+  }
+ ],
+ "prose_changes": [
+  {
+   "n": 0,
+   "movement": "azusa-street-and-early-pentecostalism",
+   "field": "relationsSummary",
+   "old": "Child of Holiness + Black Church worship; parent of most of this era's family",
+   "new": "It grew out of the Holiness movement and Black church worship. Many of this era's Pentecostal churches trace their line back to it. Others, such as Africa's prayer churches, began with their own leaders.",
+   "reason": "'Parent of most of this era's family' qualified: the links to the Global South churches and Africa's independent churches are Contested, and the 1904-07 revivals did not descend from Azusa. Code-style line rewritten as plain sentences."
+  },
+  {
+   "n": 1,
+   "movement": "azusa-street-and-early-pentecostalism",
+   "field": "why",
+   "old": "The revival that broke out on Azusa Street in Los Angeles in April 1906 grew from two streams already flowing together, Holiness worship and Black church worship, and it spread not by hierarchy but by print: the mission's own newspaper, The Apostolic Faith, went out free and started meetings in places its founders never visited. Local papers mocked it as a \"Weird Babel of Tongues,\" but William Seymour kept leading the mission until his death in 1922, and almost every Pentecostal church of the twentieth century traced its line back to what happened on that street.",
+   "new": "The revival broke out on Azusa Street in Los Angeles in April 1906. It grew from two streams already flowing together, Holiness worship and Black church worship. It spread not by hierarchy but by print. The mission's own newspaper, The Apostolic Faith, went out free and started meetings in places its founders never visited. Local papers mocked it as a \"Weird Babel of Tongues.\" William Seymour kept leading the mission until his death in 1922. Many Pentecostal churches of the twentieth century traced their line back to what happened on that street.",
+   "reason": "'Almost every Pentecostal church' qualified to 'many': some churches did claim the line (the Apostolic Faith Church says so of itself), but the Global South and African ties are Contested. Long sentences split to meet the reading target; every fact kept."
+  },
+  {
+   "n": 2,
+   "movement": "azusa-street-and-early-pentecostalism",
+   "field": "legacy",
+   "old": "The revival's own episode closed in the 1920s; the tradition it started did not. Almost every movement in this era's Pentecostal family runs back through here, from the Global South churches of the later century to Africa's independent churches. The denominations formed fast: the Church of God in Christ turned Pentecostal in 1907 and the Assemblies of God organized in 1914, and the argument over the doctrine of God that produced Oneness Pentecostalism broke out inside the same young movement in 1913. What traveled furthest was not a doctrine but a way of meeting — testimony, song, and the expectation that anyone present might speak.",
+   "new": "The revival's own episode closed in the 1920s; the tradition it started did not. Many movements in this era's Pentecostal family run back through here. Scholars still argue over how far the Global South churches and Africa's independent churches do. The denominations formed fast. The Church of God in Christ turned Pentecostal in 1907, and the Assemblies of God organized in 1914. In 1913 an argument over the doctrine of God broke out inside the same young movement, and it produced Oneness Pentecostalism. What traveled furthest was not a doctrine but a way of meeting: testimony, song, and the expectation that anyone present might speak.",
+   "reason": "'Almost every movement ... from the Global South churches ... to Africa's independent churches' qualified: both links are Contested. Long sentences split for the reading target; every fact kept."
+  },
+  {
+   "n": 3,
+   "movement": "global-south-pentecostal-christianity",
+   "field": "relationsSummary",
+   "old": "Child of Azusa + AIC lines; the century's growing edge. El Shaddai, a Catholic movement in the Philippines, is told in the entry on Philippine Catholicism.",
+   "new": "It drew on two lines: the Pentecostal revival that began at Azusa Street, and Africa's own prayer churches. Scholars disagree about how much the Azusa line gave. It was the century's growing edge. El Shaddai, a Catholic movement in the Philippines, is told in the entry on Philippine Catholicism.",
+   "reason": "'Child of Azusa + AIC lines' rewritten as plain sentences. The Azusa parent is Contested and now says so; the prayer-church parent rests on the RCCG founder's own history and Anderson."
+  },
+  {
+   "n": 4,
+   "movement": "the-chinese-church-indigenous-and-suffering",
+   "field": "longDescription",
+   "old": "In the 1920s Chinese Christians began founding churches that owed nothing to the foreign missions. Wei Enbo founded the True Jesus Church in Beijing in 1917; Watchman Nee's Little Flock assemblies date from 1922; the Jesus Family from 1927. Their leaders wrote copiously — Nee's The Spiritual Man appeared in 1928, and Wang Mingdao published his own account of fifty years in 1950 — and the itinerant preacher John Sung kept diaries his family later compiled. After 1950 the Christian Manifesto and the Three-Self Patriotic Movement reorganized Protestant church life under the state; Wang Mingdao published 'We, Because of Faith' in 1955 and was imprisoned from 1955 until 1980, and Watchman Nee was imprisoned from 1952 until 1972. Much church life went on outside registered structures after that, and in November 1998 house-church leaders published a joint Confession of Faith. No living person and no specific community is named here. What is known is thinnest and least safe to make public exactly where the growth was greatest. That is a fact about the church itself, not only about the available sources.",
+   "new": "From the 1910s Chinese Christians began founding churches of their own, independent of the foreign missions. Wei Enbo founded the True Jesus Church in Beijing in 1917. Watchman Nee's Little Flock assemblies date from 1922, and the Jesus Family from 1927. Their leaders wrote copiously. Nee's The Spiritual Man appeared in 1928, and Wang Mingdao published his own account of fifty years in 1950. The itinerant preacher John Sung kept diaries that his family later compiled. After 1950 the Christian Manifesto and the Three-Self Patriotic Movement reorganized Protestant church life under the state. Wang Mingdao published 'We, Because of Faith' in 1955. He was imprisoned from 1955 until 1980, and Watchman Nee from 1952 until 1972. After that, much church life went on outside registered structures. In November 1998 house-church leaders published a joint Confession of Faith. No living person and no specific community is named here. What is known is thinnest, and least safe to make public, exactly where the growth was greatest. That is a fact about the church itself, not only about the available sources.",
+   "reason": "'Owed nothing to the foreign missions' qualified to 'independent of the foreign missions': the kept link records historians tracing the founders to the mission world. 'In the 1920s' corrected to 'from the 1910s', since the same sentence group dates the True Jesus Church to 1917. Long sentences split; every other fact kept."
+  },
+  {
+   "n": 5,
+   "movement": "the-chinese-church-indigenous-and-suffering",
+   "field": "why",
+   "old": "Chinese Christians who owed nothing to foreign missions began founding their own churches in the 1920s: Wei Enbo's True Jesus Church in 1917, Watchman Nee's Little Flock in 1922, and the Jesus Family in 1927. Their leaders wrote prolifically and paid for it -- Nee was imprisoned from 1952 to 1972, and Wang Mingdao from 1955 to 1980 -- and much of the church went on meeting in homes through the decades that followed, led by people with no institutional standing. That pattern, congregations meeting quietly under pressure, echoes the house churches of Christianity's first two centuries.",
+   "new": "From the 1910s Chinese Christians began founding churches of their own, independent of the foreign missions. Wei Enbo's True Jesus Church dates from 1917, Watchman Nee's Little Flock from 1922, and the Jesus Family from 1927. Their leaders wrote prolifically and paid for it. Nee was imprisoned from 1952 to 1972, and Wang Mingdao from 1955 to 1980. Through the decades that followed, much of the church went on meeting in homes. It was led by people with no institutional standing. That pattern, congregations meeting quietly under pressure, echoes the house churches of Christianity's first two centuries.",
+   "reason": "Same qualification and date correction as the longDescription. Sentences split for the reading target; the house-church comparison kept as a comparison."
+  },
+  {
+   "n": 6,
+   "movement": "the-confessing-church",
+   "field": "legacy",
+   "old": "The Confessing Church ended with the war, and this map treats it as a closed story rather than a living one. What it left is out of all proportion to its twelve years. The Barmen Declaration became a confessional text in Reformed and Lutheran churches worldwide, cited well beyond Germany whenever a church had to say what it would not concede to a state. Bonhoeffer's Letters and Papers from Prison, edited by Bethge and published in 1951, came to be read far outside the church struggle it came from. And the Stuttgart Declaration of Guilt set a pattern — a church saying plainly what it had failed to do — that other churches used in the decades that followed.",
+   "new": "The Confessing Church ended with the war, and this map treats it as a closed story rather than a living one. What it left is out of all proportion to its twelve years. The Barmen Declaration was taken up well beyond Germany. The Presbyterian Church (U.S.A.), for one, made it part of its Book of Confessions. It is cited whenever a church has to say what it will not concede to a state. Bonhoeffer's Letters and Papers from Prison, edited by Bethge and published in 1951, came to be read far outside the church struggle it came from. And the Stuttgart Declaration of Guilt set a pattern that other churches used in the decades that followed: a church saying plainly what it had failed to do.",
+   "reason": "'Became a confessional text in Reformed and Lutheran churches worldwide' overstated: the one church text read (PC(USA) Book of Confessions) is Reformed, and no Lutheran church outside Germany was found adopting it. Qualified to what the source shows."
+  }
+ ],
+ "wants": [
+  "The Apostolic Faith (Los Angeles, 1906-1908, 13 issues): public domain; page scans at the Flower Pentecostal Heritage Center (archives.ifphc.org). Vendoring them would let the Holiness and Black-church links to Azusa Street be checked in the Library.",
+  "General Council of the Assemblies of God, minutes 1914-1916: public domain; scans at the Flower Pentecostal Heritage Center. For the Oneness dispute and the founding of the Assemblies of God.",
+  "William J. Seymour, The Doctrines and Discipline of the Azusa Street Apostolic Faith Mission (1915): public domain.",
+  "Allan Anderson, An Introduction to Pentecostalism (2004; 2nd ed. 2013): the origins chapters, for the case against a single American origin.",
+  "Ogbu Kalu, African Pentecostalism (2008), and Afe Adogame, The African Christian Diaspora (2013): passages on Aladura roots and on Nigerian churches in Europe.",
+  "Redeemed Christian Church of God founding and European parish records, in dated print.",
+  "Scholarly accounts of the Lausanne statements on prosperity teaching, and Pentecostal replies to them.",
+  "Bays (2012) and Lian Xi (2010): passages on the mission backgrounds of China's independent church founders."
+ ],
+ "escalations": [
+  "None that change a method rule. Two items for the record: (1) the Chinese church's own text dated its first independent churches to 'the 1920s' while naming one from 1917; corrected inside the qualifying prose change, a one-sentence fix. (2) The Chinese church legacy cites a Pew study published in 2011; that is prose, not a link, and was left for the entry's owner."
+ ]
+}
