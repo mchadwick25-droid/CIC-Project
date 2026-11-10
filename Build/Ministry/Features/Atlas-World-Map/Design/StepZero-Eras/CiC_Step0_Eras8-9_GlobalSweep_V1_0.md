@@ -1,6 +1,6 @@
 # Step 0 — Eras 8 and 9 global completeness sweep, by region and by river · V1.0
 
-**Status: draft for Mark's gate; nothing changes the census until he rules; eras 8 and 9 are frozen, so every addition is a change order.** This record is P2-G89. It gathers five research passes into one record: four regional passes (Africa; Latin America and the Caribbean; Asia and the Pacific; the Middle East, Caucasus, Russia and Eastern Europe) and one rivers pass, which cross-checked the four across every river and settled where they disagreed. The pass files sit in `Build/Ministry/Operations/Audits/2026-11-10_g89-sweep/passes/`. Each pass body is reproduced in sections 3 to 7 as it was written. The only changes are British to American spelling in the passes' own prose, heading levels, a one-line note at the head of each candidate the rivers pass gave a new home, and the Round 1 fixes listed in the revision log below. The pass files were not edited, so where a fix touches a pass body, the record and its pass file now differ. The questions in section 8 are numbered G89-1 onward. Nothing here is decided. The independent review is capped at three rounds; Round 1 is answered below.
+**Status: draft for Mark's gate; nothing changes the census until he rules; eras 8 and 9 are frozen, so every addition is a change order.** This record is P2-G89. It gathers five research passes into one record: four regional passes (Africa; Latin America and the Caribbean; Asia and the Pacific; the Middle East, Caucasus, Russia and Eastern Europe) and one rivers pass, which cross-checked the four across every river and settled where they disagreed. The pass files sit in `Build/Ministry/Operations/Audits/2026-11-10_g89-sweep/passes/`. Each pass body is reproduced in sections 3 to 7 as it was written. The only changes are British to American spelling in the passes' own prose, heading levels, a one-line note at the head of each candidate the rivers pass gave a new home, and the Round 1 and Round 2 fixes listed in the revision logs below. The pass files were not edited, so where a fix touches a pass body, the record and its pass file now differ. The questions in section 8 are numbered G89-1 onward. Nothing here is decided. The independent review is capped at three rounds; Rounds 1 and 2 are answered below. Current counts (62 counted): enter 22, enter once 2, named line 18, hold 19, out of scope or carried 1; 6 not counted; 68 rows.
 
 **Revision log (after Round 1).** Review: `CiC_Step0_Eras8-9_GlobalSweep_Review_Round1.md` (same folder). One line per finding.
 
@@ -24,7 +24,19 @@
 - **C7.** AP1's Section A, in §2 and §5, reads "App. E, 1787 (Catholic party); App. D, an undated community abstract (Malankara party)".
 - **C8.** ME-3's Recommendation and G89-44 say the Exarchate line stops at 1906 and hands over to IX.40.
 
-New counts (62 counted): enter 23, enter once 3, named line 17, hold 18, out of scope or carried 1; 6 not counted; 68 rows.
+Counts after Round 1 (62 counted): enter 23, enter once 3, named line 17, hold 18, out of scope or carried 1; 6 not counted; 68 rows. Superseded by the Round 2 counts below.
+
+**Revision log (after Round 2).** Review: `CiC_Step0_Eras8-9_GlobalSweep_Review_Round2.md` (same folder). One line per finding. Two findings come from data release 29, which landed on main after the passes ran. The fixes touch the pass bodies in this record only.
+
+- **R2-M1.** ME-4's Catholic side marked already carried (VIII.52, 1815-1911; VII.23 now continues as VIII.52). Its row restated as the Orthodox Patriarchate of Antioch, 1815-1906, and reclassified "hold" for an Orthodox source, by the pass's own B1. Rewritten: the heading and a merge note, the break note, Kind, Region and lane, what it carries, Section A, B1, B2, B3, Tier, Mark's test, Overlap (VIII.52 added; VIII.28 does name Antioch's patriarch once, so that clause is corrected), Recommendation and G-ME4; §2's row; §2b's Melkite row; §6's river table, ranked list and break table; G89-42. G89-42(c) is now "a line in VIII.52", so G89-6 sub-question 2 no longer cites it. Gregory II Yūsuf, whom VIII.52 does not name, is noted as a possible line there. Counts: Middle East enter 8 to 7, hold 5 to 6.
+- **R2-M2.** RV-2 restated as a named chapter in VII.32 (1650-1890), with the Hutterites' Russian years a line in it, linked from VI.32 (1528-1785). G89-49 and G-RV-2 restated with the review's three options; (a) recommended by Mark's test, with its cost for the Hutterites stated and (b) named as the alternative. Rewritten: RV-2's merge note, river problem, B3, Tier, Overlap (VII.32 and VI.32 added) and Recommendation; ME-22; §6's river table; §7's summary and river tables; §2's RV-2 row and Not swept; G89-6 (VII.32 added to its list; sub-question 2 drops RV-2 and cites VII.32 as the census's own crossing row). Departure: the review's recount (rivers enter 3 to 2) assumed RV-2 was "enter". It was "enter once", so the recount from the Class column is rivers enter once 2 to 1, named line 2 to 3; enter stays 3.
+- **R2-C1.** §1 restated at data release 29 (353 entries; era 8: 34 entries, one a person, 44 tags; era 9: 52 entries, 70 tags; era 8's Protestant river 15 entries), with a line that the passes read release 28. The pass bodies' own "322 movements" is left as written, since it states what each pass read.
+- **R2-C2.** VII.31 added to RV-7's lane 8 precedents, and an Overlap line added (RV-7 had none): a different body, no change of class.
+- **R2-C3.** VIII.52's 1911 end logged in §10, noticed and not touched.
+- **R2-C4.** ME-2's Section A reads "No dated own statement read; Duwayhī ... held, not read [S]". §6's non-English list marks Denisov and Paisii Hilendarski "held, not read".
+- **R2-C5.** Bleby's line quoted as "[I] would rather die ...", with the "I" marked supplied pending the page-image check.
+
+New counts (62 counted): enter 22, enter once 2, named line 18, hold 19, out of scope or carried 1; 6 not counted; 68 rows. If G89-5 takes (b), enter falls to 21.
 
 ---
 
@@ -115,16 +127,16 @@ Latin America added one state of its own, "V (bib)", set out in its Library chec
 
 ## 1. Where the roster stood
 
-Computed from `cic-website/data/world-census.json`, data release 28 (2026-11-10): 322 movements. An entry with more than one region value is counted in each of its regions, so the region counts add up to more than the entries.
+Computed from `cic-website/data/world-census.json`, data release 29 (2026-11-10): 353 entries. The passes read data release 28 (322 movements); release 29 landed after them, and the record's rows are checked against it. An entry with more than one region value is counted in each of its regions, so the region counts add up to more than the entries.
 
 | Era | Entries | North Europe | North America | Mediterranean | Asia Minor | Middle East | Caucasus | Greater Asia | Pacific | Africa | Latin America |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| 8 (1650-1815) | 30 | 18 | 2 | 9 | 4 | 2 | 1 | 1 | 0 | 1 | 1 |
-| 9 (1815-1906) | 51 | 24 | 21 | 4 | 3 | 1 | 1 | 7 | 2 | 5 | 1 |
+| 8 (1650-1815) | 34 | 21 | 4 | 9 | 4 | 2 | 1 | 1 | 0 | 1 | 1 |
+| 9 (1815-1906) | 52 | 24 | 21 | 4 | 3 | 2 | 1 | 7 | 2 | 5 | 1 |
 
-Era 8 has 30 entries, and 18 of them carry North Europe. Africa, Latin America and Greater Asia have one each. Era 9 has 51 entries and 69 region tags; 45 of the tags are North Europe or North America. Africa has 5, Greater Asia 7 and Latin America 1.
+Era 8 has 34 entries, one of them a person (VII.33, John Wesley), with 44 region tags; 21 of the entries carry North Europe. Africa, Latin America and Greater Asia have one each. Era 9 has 52 entries and 70 region tags; 45 of the tags are North Europe or North America. Africa has 5, Greater Asia 7 and Latin America 1.
 
-The rivers show the same lean. In era 8, the Protestant and Evangelical river has 12 entries, 10 of them in North Europe. In era 9 it has 23 entries, carrying 17 North Europe tags and 12 North America tags. The Syriac East and Asia lane has no entry in era 8 and one in era 9. The Africa lane has one entry in era 8 and four in era 9.
+The rivers show the same lean. In era 8, the Protestant and Evangelical river has 15 entries, carrying 12 North Europe tags and 3 North America tags. In era 9 it has 23 entries, carrying 17 North Europe tags and 12 North America tags. The Syriac East and Asia lane has no entry in era 8 and one in era 9. The Africa lane has one entry in era 8 and four in era 9.
 
 The atlas IDs follow the eras: VI.x is era 7, VII.x era 8, VIII.x era 9 and IX.x era 10.
 
@@ -185,7 +197,7 @@ Every candidate from the five passes is listed once: 9 from Africa, 11 from Lati
 | ME-1 | The Church of the East: three patriarchates, from Diyarbakır to the Chaldean union (logged break) | church body | 1 Syriac East & Asia | 1650-1815 | 8 | 2 | no floor question; own statement: Yohannan Hormizd's autobiography (Badger's translation) | enter a new era 8 row between VI.30 and VIII.40; a link to AP1 for Mar Gabriel (rivers §1e) | enter |
 | ME-2 | The Maronite Church: from Duwayhī and the Synod of Mount Lebanon to the Mutasarrifate (logged break) | church body (Eastern Catholic) | 1 Syriac East & Asia | 1650-1815; 1815-1906 | 8, 9 | 1 (era 9), 2 (era 8) | by precedent (IV.10, V.22); Duwayhī held, not read [S] | enter era 9 now; era 8 after the 1736 synod acts are opened; 1517-1650 to the era 7 owner | enter |
 | ME-3 | The Georgian Church between Persia, the Ottomans and Russia, to the end of the catholicate; and the Exarchate (logged break) | church body | 2 Caucasus | 1650-1811; 1811-1906 | 8 (9 as a line) | 2 | by precedent (IV.15); Antoni I's confession V-s | enter an era 8 row; the Exarchate as a named line in VIII.31, linked to IX.40 | enter |
-| ME-4 | The two Melkite churches in the nineteenth century; and the Melkite held gap | church bodies | 3<->5 bridge | 1815-1906 (row); 1650-1724 (line) | 9 (8 as a line) | 1 (Catholic side), 2 (with the Orthodox side) | by precedent (III.2, VII.23); dated statement: the 1848 berat (Charon, V) | enter one era 9 row for both churches; Macarius III and Euthymius as a named line, in VII.23 with its start moved to 1650 by change order, or in VII.18 (1650-1821) (G89-42); 1009-1650 stays held | enter |
+| ME-4 | The Orthodox Patriarchate of Antioch after 1815 (the Catholic side already carried, VIII.52); and the Melkite held gap | church body | 3 Greek East & Orthodoxy (the 1650-1724 line: 3<->5 bridge) | 1815-1906 (row); 1650-1724 (line) | 9 (8 as a line) | 2 (Fortescue only) | by precedent (III.2, VII.23); no dated Orthodox statement read | Catholic side already carried (VIII.52, data release 29). Hold the Orthodox row until an Orthodox source is read (for example on the 1899 election); a named line in VII.18 and VIII.28 is the alternative (G89-42). Macarius III and Euthymius as a named line, in VII.23 with its start moved to 1650 by change order, or in VII.18 (1650-1821); 1009-1650 stays held | hold |
 | ME-5 | The Old Believers in the nineteenth century: Nicholas I, the Belokrinitsa hierarchy and the toleration of 1905 (logged gap) | church body | 3 Greek East & Orthodoxy | 1815-1906 | 9 | 1 | by precedent (VII.7; pre-Nikonian Nicene Creed) | enter an era 9 row continued from VII.7 | enter |
 | ME-6 | The spiritual Christians of Russia: Dukhobors, Molokans and the mystic sects | family of dissenting bodies | 8 Beyond the Floor, or 6 | c. 1760s-1906 | 8-9 | 2 (pending A) | not yet assessable; a floor question body by body (Khlysty and Skoptsy likely outside) | hold for Section A, body by body; then enter what clears | hold |
 | ME-7 | The Syriac Orthodox Church and the Syriac Catholic split (held gap) | church bodies | 1 Syriac East & Asia | c. 1650-1906 | 9 | 2-3 | by precedent (IV.21) | hold for one in-region source, then an era 9 row | hold |
@@ -205,7 +217,7 @@ Every candidate from the five passes is listed once: 9 from Africa, 11 from Lati
 | ME-21 | The Hebrew Christians of Kishinev (Joseph Rabinowitz, 1884) | congregation | (not stated) | 1884 | 9 | — | — | hold for sources; it would be the earliest parent of IX.13 | hold |
 | ME-22 | Mennonites and Hutterites in the Russian Empire | routing | Protestant & Evangelical | 1789-1874 | 9 | — | — | route to the rivers pass. **Answered by the rivers pass as RV-2** | not counted (in RV-2) |
 | RV-1 | The Society of Jesus: the reductions, the rites, the expulsions and the survival | church body (Catholic religious order), continues VI.11 | Latin West & Catholicism | 1650-1814 | 8 | 1 | by precedent (VI.11) | enter; LA8-2 and ME-12 become its lines; the Rites and the court mission are told in AP2, the 1698 union in ME-8, and RV-1 points to each in one line (G89-1) | enter |
-| RV-2 | Mennonites and Hutterites in the Russian Empire | church bodies | Protestant & Evangelical | 1789-1906 | 9 (from 1789) | 2 as a regional row; 1 as a chapter | by precedent (VI.3); the Dordrecht confession's file [S] | enter as the in-scope chapter of one Anabaptist continuation row, 1650-1906; the rest of that row to a North Europe pass; or a regional row alone if Mark wants only this part now | enter once (Mark rules the row's shape) |
+| RV-2 | Mennonites and Hutterites in the Russian Empire | church bodies | Protestant & Evangelical | 1789-1906 | 9 (from 1789) | 2 as a regional row; 1 as a chapter in VII.32 | by precedent (VI.3, VII.32); the Dordrecht confession's file [S] | a named chapter in VII.32 (data release 29), by change order: Russia and Ukraine added, its 1890 end checked against 1906; the Hutterites' Russian years a line in it, linked from VI.32 (G89-49). A Russian row, 1789-1906, is the alternative | named line |
 | RV-3 | Catholics of the Ottoman Balkans: the Bosnian Franciscans, Albanian and Bulgarian Catholics | church body | Latin West & Catholicism | 1650-1878 | 8-9 | 2 | by precedent (Catholic, as VII.19) | enter the era 8 part on the V items; the era 9 part after one more source; the Bulgarian union of 1860-61 as a line here or in VIII.28 | enter |
 | RV-4 | The Arab evangelical churches: Syria, Lebanon and Egypt | church bodies | Protestant & Evangelical | 1823-1906 | 9 | 2 | by precedent (Reformed, as VIII.32's Armenian Evangelicals) | enter one row; merges ME-11 and AF-9's Egypt line | enter once (G89-3 takes option b) |
 | RV-5 | The Moravian Church, 1815-1906 | church body, continues VII.4 | Protestant & Evangelical | 1815-1906 | 9 | 1 | by precedent (VII.4) | enter; the Caribbean, Cape, Suriname, Labrador and Nyasa as its lines; LA8-1 keeps a link; answers LA8-M | enter |
@@ -218,16 +230,16 @@ Every candidate from the five passes is listed once: 9 from Africa, 11 from Lati
 
 | Class | Africa | Latin America | Asia | Middle East | Rivers | All |
 |---|---|---|---|---|---|---|
-| enter | 5 | 2 | 5 | 8 | 3 | 23 |
-| enter once (condition) | 0 | 0 | 1 | 0 | 2 | 3 |
-| named line | 3 | 3 | 3 | 6 | 2 | 17 |
-| hold | 1 | 4 | 6 | 5 | 2 | 18 |
+| enter | 5 | 2 | 5 | 7 | 3 | 22 |
+| enter once (condition) | 0 | 0 | 1 | 0 | 1 | 2 |
+| named line | 3 | 3 | 3 | 6 | 3 | 18 |
+| hold | 1 | 4 | 6 | 6 | 2 | 19 |
 | out of scope / already carried | 0 | 0 | 1 | 0 | 0 | 1 |
 | **Counted** | **9** | **9** | **16** | **19** | **9** | **62** |
 | not counted (inside another candidate) | 0 | 2 | 1 | 3 | 0 | 6 |
 | **Rows listed** | **9** | **11** | **17** | **22** | **9** | **68** |
 
-Five of the 23 "enter" rows enter one part now and leave the other for later: AP2 and RV-3 (the era 9 half, after one more source), ME-2 (the era 8 half, after the 1736 acts are opened), ME-9 (an era 9 row later) and ME-8 (the era 9 part, as a row or a named line). AF-4 and AF-5 may become one row, if G89-5 takes option (b). Then "enter" falls to 22.
+Five of the 22 "enter" rows enter one part now and leave the other for later: AP2 and RV-3 (the era 9 half, after one more source), ME-2 (the era 8 half, after the 1736 acts are opened), ME-9 (an era 9 row later) and ME-8 (the era 9 part, as a row or a named line). AF-4 and AF-5 may become one row, if G89-5 takes option (b). Then "enter" falls to 21.
 
 **Carried already, not candidates.** Each pass also named what the roster already holds. Africa: Ethiopianism (IX.4), Madagascar (VIII.42), Buganda (VIII.43), Sierra Leone, the Niger and Liberia (VIII.7), the Antonian movement (VII.11). Asia: Taiping (VIII.44), the Philippines and the Aglipayans (VII.29, VIII.39), Japan after 1865 (VIII.45), the Batak and Javanese churches (VIII.26), the Mar Thoma and Malankara churches and the hill revivals (VIII.27), the China coast, the CIM, Serampore and the Pacific teachers (VIII.7). Latin America: the California missions, Guadalupe and the colonial saints (VII.17); the Reforma, García Moreno and the 1899 Plenary Council (VIII.48). Rivers: the Ecumenical Patriarchate under the Ottomans (VII.18); the autocephalies of 1850, 1870 and 1879 (VIII.28); Peć and Karlovci (VII.18); the Armenian Apostolic and Armenian Catholic churches (VII.24a, VII.24, VIII.32); Alaska (VII.21, VIII.47).
 
@@ -237,7 +249,7 @@ Five of the 23 "enter" rows enter one part now and leave the other for later: AP
 
 Places and sources the sweep did not cover, so that each gap is explicit.
 
-- **North Europe and North America.** Outside this sweep's scope, except as links. The rivers pass sends three pieces there: the Anabaptist river outside Russia (RV-2), the Czech toleration churches of 1781-1906 (RV-8), and the two North Europe breaks of Open-Gaps 135 (section 2b).
+- **North Europe and North America.** Outside this sweep's scope, except as links. The rivers pass sent three pieces there: the Anabaptist river outside Russia (RV-2), the Czech toleration churches of 1781-1906 (RV-8), and the two North Europe breaks of Open-Gaps 135 (section 2b). Data release 29 has since given the first a home: VII.32, the Mennonites and the Amish (1650-1890), and VI.32, the Hutterite Brethren (to 1785).
 - **Mediterranean Europe.** No pass covered it. Three items were noted and not assessed: the Waldensians after 1655 (VI.10 ends "1655+" and has no successor); the Church of Cyprus under the Ottomans [S]; and the Greek Orthodox Patriarchate of Alexandria (noted by the Africa pass in AF-2; it has no row [S]).
 - **Africa.** The Armenians in Egypt and Ethiopia, which "sit inside the Armenian rows [S]"; not checked. The 1300-1517 part of the Coptic break, which belongs to the era 6 owner.
 - **Latin America and the Caribbean.** Before 1650, Brazil, New Granada and the Caribbean have no era 7 entry (outside this sweep). The Library holds nothing for the region from 1815 to 1906, and no file on Brazil, Paraguay or Haiti in any year of the window. The Maronite and Syriac diasporas of the 1880s are held for era 10 (the era 10 sweep's LA-13).
@@ -261,7 +273,7 @@ Every break in Open-Gaps 135 and 142 that falls in 1650-1906, with Mark's unique
 | Maronite church, 1517-1900 (142) | Unique: IV.10 and V.22 carried on. Rome is part of the story, as for every Eastern Catholic church. | ME-2 (era 9 now, era 8 after the 1736 acts); 1517-1650 to the era 7 owner |
 | Georgian church, 1245 to 1660 (142) | Unique for 1650-1811. The Exarchate (1811-1917) sat inside the Russian Synod. | ME-3 (era 8 row), with the Exarchate as a named line in VIII.31, linked to IX.40; 1245-1650 to the era 6 and 7 owners |
 | Latin America, thin for 1492-1900 (142, closing note) | Real but uneven. Tied to other movements: the reductions (RV-1), the Caribbean missions before 1815 (VII.4, VII.16), colonial Brazil (VII.17), 1810-15 (VIII.48), the Protestant beginnings (IX.63, VIII.41). Unique: the Caribbean churches after 1815 and Canudos. | LA8-1 and LA8-3 enter; LA8-4, LA8-5, LA8-7 lines; LA8-6, LA8-8, LA8-9, LA8-10 held; LA8-2 inside RV-1 |
-| Melkites, 1009-1724, held (135) | Only 1650-1724 falls here: Macarius III's world, the same church as VII.23. | A named line (ME-4): in VII.23, whose start must move from 1724 to 1650 by change order, or in VII.18 (1650-1821) (G89-42); 1009-1650 stays held. New finding: nothing after 1815 (ME-4's era 9 row) |
+| Melkites, 1009-1724, held (135) | Only 1650-1724 falls here: Macarius III's world, the same church as VII.23. | A named line (ME-4): in VII.23, whose start must move from 1724 to 1650 by change order, or in VII.18 (1650-1821) (G89-42); 1009-1650 stays held. New finding, after 1815: the Catholic church is now VIII.52 (data release 29); the Orthodox Patriarchate of Antioch is held (ME-4) |
 | Syriac Orthodox church after 1300, held (135) | Unique. The Syriac Catholic split is its own strand. | ME-7, still held: both items opened are outsiders (Badger, Fortescue) |
 | Old Believers after 1815, with the Belokrinitsa hierarchy (135) | Unique: VII.7 carried on. VIII.31 names Belokrinitsa as "separate". | ME-5 |
 | **Scottish church after 1650 (135)** | — | **Not answered here.** North Europe, outside every pass's region |
@@ -672,7 +684,7 @@ as read.
   1. *eyewitness (Methodist missionary)* — Henry Bleby, *Death Struggles of Slavery*, 3rd ed.
      (London, 1868), ch. X, "Origin of the Revolt", pp. 128-130: of Sharpe, "he learnt from his Bible,
      that the whites had no more right to hold black people in slavery, than the black people had to
-     make the white people slaves" (OCR "niore" read as "more"); "I would rather die upon yonder gallows than live in slavery";
+     make the white people slaves" (OCR "niore" read as "more"); "[I] would rather die upon yonder gallows than live in slavery" (the OCR has no "I"; it is supplied pending the page-image check);
      executed at Montego Bay "on the 23rd of May, 1832"; "Sharpe was a Baptist" and used estate prayer
      meetings to spread the plan. **V** (raw djvu text, OCR lines ~5785-5915; OCR is noisy and the
      wording must be re-checked against page images before any quote enters a record) —
@@ -1909,7 +1921,7 @@ Scratch research for Mark's gate. Not census copy. Branch `claude/p2-g89-sweep`,
 
 **The Catholic Encyclopedia (1907-1912).** Several items below are its articles, read raw from the New Advent transcription (newadvent.org/cathen/). They are public-domain studies inside or near the era, by named scholars (Jérôme Labourt on the Syriac churches, Siméon Vailhé, Cyril Charon and others). They write from a Catholic standpoint and call the non-Catholic churches "schismatic" or "heretical". They are usable as dated studies, not as neutral ones, and each candidate still wants a study from or of the region.
 
-**Non-English sources used.** Arabic (Duwayhī, OCR locator only), Russian and Church Slavonic (Subbotin, Denisov, Barskov, Paisius), French (Charon 1911, Brosset, Labourt), Latin (Assemani), Bulgarian (Paisii Hilendarski). Georgian, Syriac and Armenian originals were not opened in this run; the Georgian and Syriac items are French, Latin or English studies.
+**Non-English sources used.** Arabic (Duwayhī, OCR locator only), Russian and Church Slavonic (Subbotin, Denisov (held, not read), Barskov, Paisius), French (Charon 1911, Brosset, Labourt), Latin (Assemani), Bulgarian (Paisii Hilendarski, held, not read). Georgian, Syriac and Armenian originals were not opened in this run; the Georgian and Syriac items are French, Latin or English studies.
 
 ---
 
@@ -1920,13 +1932,13 @@ Scratch research for Mark's gate. Not census copy. Branch `claude/p2-g89-sweep`,
 | **Orthodox — Russian** | VII.21 (to 1815), VIII.31 (1815-1906), VII.8, VIII.11, VIII.47 (Alaska) | Missions inside the empire (Siberia, Volga) unnamed | ME-18 named lines in VII.21 / VIII.31 |
 | **Orthodox — Old Believers** | VII.7 (1666-1815) | **Break after 1815** (Belokrinitsa 1846, 1905) | **ME-5** era 9 row |
 | **Orthodox — Ottoman, Greek, Balkan** | VII.18, VII.8, VIII.12, VIII.28 | Paisii's Bulgarian revival, Karlovci, Montenegro, Sibiu unnamed | ME-13, ME-17 named lines |
-| **Orthodox — Antiochian (Arab)** | VII.23's Orthodox side (to 1815), via VII.18 | Nothing after 1815; the Arab patriarch | **ME-4** (with the Melkite Catholics) |
+| **Orthodox — Antiochian (Arab)** | VII.23's Orthodox side (to 1815), via VII.18 | Nothing after 1815; the Arab patriarch | **ME-4** (held for an Orthodox source) |
 | **Orthodox — Georgian** | IV.15 (to 1245), IX.40 (from 1917) | **Break 1245-1917**; 1650-1811 and the Exarchate in this window | **ME-3** era 8 row + named line in VIII.31 |
 | **Oriental Orthodox — Armenian** | VII.24a, VII.24, VIII.32 | Etchmiadzin under Russia (1836); the 1870 Catholic schism | ME-14, ME-15 named lines in VIII.32 |
 | **Oriental Orthodox — Syriac** | none after IV.21 (1300) until IX.19 (1915) | **Held break**; 1650-1906 in this window | **ME-7** hold, then era 9 row |
 | **Church of the East** | VI.30 (to 1650), VIII.40 (1815-1906) | **Break 1650-1815** | **ME-1** era 8 row |
 | **Eastern Catholic — Maronite** | IV.10, V.22 (to 1517) | **Break 1517-1900** | **ME-2** era 8 and era 9 rows |
-| **Eastern Catholic — Melkite** | VII.23 (1724-1815) | Nothing after 1815; 1650-1724 held | **ME-4** era 9 row; named line in VII.23 |
+| **Eastern Catholic — Melkite** | VII.23 (1724-1815); VIII.52 (1815-1911, data release 29) | 1650-1724 held | **ME-4**: named line in VII.23 (or VII.18) |
 | **Eastern Catholic — Chaldean** | VIII.40 (1830 consolidation) | the Josephite line 1681-1830 | in **ME-1** |
 | **Eastern Catholic — Syriac Catholic** | none | 1781 split, 1830 millet | in **ME-7** |
 | **Eastern Catholic — Armenian Catholic** | VII.24 (1742, Bzommar), VIII.32 (mention) | 1867-1870 schism | ME-15 |
@@ -1939,7 +1951,7 @@ Scratch research for Mark's gate. Not census copy. Branch `claude/p2-g89-sweep`,
 | **Protestant — Hungarian and Transylvanian** | VI.14 (Unitarians, to 1650) | **No row** for the Reformed and Lutherans | **ME-9** era 8 row (+ era 9) |
 | **Protestant — Russian evangelical** | VIII.51 (1860-1906) | none | — |
 | **Protestant — Middle East missions** | VIII.32 (Armenian Evangelicals), VIII.40 (Urmia) | **Arab Evangelicals** of Syria and Lebanon | **ME-11** wing in VIII.7 |
-| **Protestant — Anabaptist in Russia** | none after VI.3 | Mennonites, Hutterites | ME-22 → rivers pass |
+| **Protestant — Anabaptist in Russia** | VII.32 (Mennonites and Amish, 1650-1890; Netherlands and Pennsylvania) and VI.32 (Hutterites, to 1785), both data release 29 | The Russian colonies: VII.32 names them only in passing | ME-22 → rivers pass |
 | **Independent / dissenting (Russia)** | none | Dukhobors, Molokans, Khlysty, Skoptsy; Tolstoyans | **ME-6** (Section A open); ME-20 held for Section A |
 | **Jewish-Christian** | IX.13 (from 1960) | Rabinowitz, Kishinev 1884 | ME-21 hold |
 
@@ -1985,7 +1997,7 @@ Scratch research for Mark's gate. Not census copy. Branch `claude/p2-g89-sweep`,
 - **What it carries that no row does:**
   - Era 8: Patriarch Isṭifān al-Duwayhī (died 1704), who wrote the church's own history of its patriarchs; the monastic congregations approved in 1732, 1740 and 1770; the national council of 1736, led by Rome's delegate Joseph Simeon Assemani, which brought the Council of Trent into the Lebanon; the Hindiyya affair (her convent and its condemnation, the patriarch put under interdict in 1779).
   - Era 9: the Druze-Maronite wars from 1841 and 1845, the massacres of 1860, the French intervention and the single governor of the Lebanon from 1861; Patriarch Būlus Masʿad (1855-1890); Elias Hoayek (elected 1899).
-- **Section A:** No floor question. The Maronites confess the Nicene Creed and are in communion with Rome (assessed at IV.10, V.22). Dated own statement in the era: Duwayhī's *Tārīkh al-ṭāʾifa al-mārūniyya* (Library; held, not read: OCR damaged, locator only [S]). The 1736 council's acts (Mansi) were not opened. A3: none.
+- **Section A:** No floor question. The Maronites confess the Nicene Creed and are in communion with Rome (assessed at IV.10, V.22). No dated own statement read; Duwayhī's *Tārīkh al-ṭāʾifa al-mārūniyya* is held, not read (Library; OCR damaged, locator only) [S]. The 1736 council's acts (Mansi) were not opened. A3: none.
 - **B1 Sourcing:** Moderate now, strong once the 1736 acts and a clean Duwayhī are vendored. In-era outside witnesses (Volney 1788; Churchill 1862), a 1910 study (Labourt), and the church's own historian (Duwayhī, locator only).
 - **B2 Ecology:** Strong: patriarch and monasteries, shaykhs and emirs, peasants and silk, Rome and its delegates, the Jesuit and Lazarist schools, the French protectorate, a woman visionary and her convent, war and massacre.
 - **B3 Uniqueness:** High. Four centuries with no entry; the one Eastern church that holds it never left communion with Rome.
@@ -2034,34 +2046,36 @@ Scratch research for Mark's gate. Not census copy. Branch `claude/p2-g89-sweep`,
   - (b) An era 8 row and an era 9 row (the Exarchate, 1811-1906). Fuller, but the era 9 row has thin sources until Dowling and Brosset's modern volumes are read.
   - (c) Hold both until a Georgian-language source is vendored, and send 1245-1650 to the era 6 and 7 owners.
 
-##### ME-4. The two Melkite churches in the nineteenth century: Catholic emancipation and the Arab Orthodox patriarchate (1815-1906); and the Melkite held gap (1009-1724)
+##### ME-4. The Melkites after 1815: the Catholic church (now VIII.52) and the Orthodox Patriarchate of Antioch (1815-1906); and the Melkite held gap (1009-1724)
 
-- **Answers the logged break:** Melkites, 1009-1724, held for sources (Open-Gaps 135 and 142). Inside this pass's window that gap is only 1650-1724. The pass also found a second break: neither Melkite church has any entry after VII.23 ends in 1815.
-- **Kind:** church bodies (the Melkite Greek Catholic Church; the Greek Orthodox Patriarchate of Antioch). **Era:** 9 (the row); 8 (the 1650-1724 named line).
+> **Merge note (data release 29).** Release 29 added VIII.52, the Melkite Greek Catholic Church after 1815 (1815-1911), and VII.23 now continues as VIII.52. ME-4's Catholic side is already carried. Its row is restated as the Orthodox Patriarchate of Antioch, 1815-1906, held for an Orthodox source. See G89-42.
+
+- **Answers the logged break:** Melkites, 1009-1724, held for sources (Open-Gaps 135 and 142). Inside this pass's window that gap is only 1650-1724. The pass also found a second break after 1815. Data release 29 has closed it for the Catholic church: VII.23 continues as VIII.52 (1815-1911). The Orthodox Patriarchate of Antioch still has no entry after 1815.
+- **Kind:** church body (the Greek Orthodox Patriarchate of Antioch). The Melkite Greek Catholic Church is already carried (VIII.52). **Era:** 9 (the row); 8 (the 1650-1724 named line).
 - **Dates:** 1815-1906.
-- **Region / countries:** Middle East; Syria (Damascus, Aleppo), Lebanon (Shuwayr, ʿAyn Trāz), with Egypt and Palestine for Maximos III's titles. **Lane:** 3<->5 bridge (Greek East / Latin West), as VII.23; the Orthodox side is lane 3.
-- **What it carries that no row does:** Maximos III Mazlūm (patriarch 1833-1855), the synod of ʿAyn Trāz (1835), the berat of 7 January 1848 that freed the Catholic Melkites from the Orthodox and Armenian civil tutelage, the Jerusalem council of 1849, Gregory II Yūsuf (1865-1897) at the First Vatican Council [S for Vatican I]; and on the Orthodox side, the end of Greek control at Antioch, with an Arab patriarch recognized "after a schism with Constantinople" (Fortescue; the first Arab patriarch, Meletios Doumani, 1899, is [S]).
+- **Region / countries:** Middle East; Syria (Damascus, Aleppo), as VII.23. **Lane:** 3 Greek East & Orthodoxy, the lane the pass gave the Orthodox side. The 1650-1724 line sits in the 3<->5 bridge lane, as VII.23.
+- **What it carries that no row does:** on the Orthodox side, the end of Greek control at Antioch, with an Arab patriarch recognized "after a schism with Constantinople" (Fortescue; the first Arab patriarch, Meletios Doumani, 1899, is [S]). The Catholic items the pass found are now in VIII.52: Maximos III Mazlūm (patriarch 1833-1855), the synod of ʿAyn Trāz (1835), the berat of 7 January 1848 and the Jerusalem council of 1849. VIII.52 does not name Gregory II Yūsuf (1865-1897); his part at the First Vatican Council is [S] here, so it is at most a possible line in VIII.52.
 - **For 1650-1724:** Patriarch Macarius III and his son Paul of Aleppo's journey to Moscow and Kyiv in the 1650s; Euthymius of Tyre and Sidon and the union-leaning bishops before 1724.
-- **Section A:** No floor question. Both churches confess the Nicene Creed (assessed at III.2, VII.23). Dated own statement: the 1848 berat in Charon's French (V). Paul of Aleppo's journal is not used here: the passage read gives the journey's date, not a confession.
-- **B1 Sourcing:** Strong for the Catholic side (Charon, a near-contemporary study built on the documents; Fortescue 1911). Thin for the Orthodox side (Fortescue only, a hostile Catholic witness; no Orthodox source opened).
-- **B2 Ecology:** Strong: patriarchs and synods, Basilian monks of Shuwayr and Saint Saviour, Aleppo merchants, seminaries, the Porte, France and Russia, the Arabic press.
-- **B3 Uniqueness:** High. Both Melkite churches vanish from the tree between 1815 and the present.
+- **Section A:** No floor question. The Orthodox church confesses the Nicene Creed (assessed at III.2, VII.23). No dated Orthodox statement of 1815-1906 was read, so Section A is by precedent. The 1848 berat in Charon's French (V) is the Catholic side's, now VIII.52's. Paul of Aleppo's journal is not used here: the passage read gives the journey's date, not a confession.
+- **B1 Sourcing:** Thin for the Orthodox side: Fortescue only, a hostile Catholic witness; no Orthodox source opened. (The Catholic side was strong, on Charon and Fortescue; VIII.52 now carries it on Charon and Mansi vol. 46.)
+- **B2 Ecology:** The pass's list covered both churches together: patriarchs and synods, Basilian monks of Shuwayr and Saint Saviour, Aleppo merchants, seminaries, the Porte, France and Russia, the Arabic press. It was not split by church. For the Orthodox side alone, B2 waits on an Orthodox source.
+- **B3 Uniqueness:** High for the Orthodox side. The Catholic church is now carried by VIII.52 (data release 29). The Orthodox Patriarchate of Antioch has no row after 1815.
 - **B4 User needs:** history learners, Eastern Christian inquirers, Arab Christian users, academically minded users.
 - **B5 Scale:** moderate.
-- **Tier:** 1 for the Catholic side; 2 if the Orthodox side is included before an Orthodox source is read.
+- **Tier:** 2 for the Orthodox side until an Orthodox source is read.
 - **Evidence:**
-  1. Cyrille Charon (Korolevskij), *Histoire des patriarcats melkites*, t. II-III (Rome, 1910-1911), `cic/texts/charon_histoire-des-patriarcats-melkites-t2-t3-fra_1911.txt`, file lines ~352-358, ~10360-10370 — **V**. « Son nom est resté attaché à l'émancipation de la communauté unie à Rome de la tutelle civile des orthodoxes » ("His name remains tied to the emancipation of the community united to Rome from the civil tutelage of the Orthodox", my rendering). The new berat « est daté de la fin de moharram 1264 (7 janvier 1848) » and « consacre l'émancipation civile définitive des Melkites catholiques » ("is dated the end of Muharram 1264 (7 January 1848)"; "consecrates the definitive civil emancipation of the Catholic Melkites", my rendering). Charon was a Byzantine-rite Catholic priest of Lviv.
+  1. Cyrille Charon (Korolevskij), *Histoire des patriarcats melkites*, t. II-III (Rome, 1910-1911), `cic/texts/charon_histoire-des-patriarcats-melkites-t2-t3-fra_1911.txt`, file lines ~352-358, ~10360-10370 — **V**. For the Catholic side, now VIII.52's. « Son nom est resté attaché à l'émancipation de la communauté unie à Rome de la tutelle civile des orthodoxes » ("His name remains tied to the emancipation of the community united to Rome from the civil tutelage of the Orthodox", my rendering). The new berat « est daté de la fin de moharram 1264 (7 janvier 1848) » and « consacre l'émancipation civile définitive des Melkites catholiques » ("is dated the end of Muharram 1264 (7 January 1848)"; "consecrates the definitive civil emancipation of the Catholic Melkites", my rendering). Charon was a Byzantine-rite Catholic priest of Lviv.
   2. Adrian Fortescue, "Melchites", *Catholic Encyclopedia* vol. 10 (1911), newadvent.org/cathen/10157b.htm — **V** (study). Euthymius of Tyre and Sidon and Athanasius IV "approached the Holy See"; in 1722 a Constantinople synod sent "a warning letter with a list of Latin heresies"; Mazlūm "in 1835 ... held a national synod at Ain-Traz"; "During his reign at last the Melchites obtained recognition as a separate millet from the Porte"; for the Orthodox side, "At Antioch they have now succeeded in the recognition of their native Patriarch, Gregory IV (Hadad) after a schism with Constantinople."
   3. Paul of Aleppo, *The Travels of Macarius, Patriarch of Antioch*, tr. F. C. Belfour, vol. 1 (London, 1836), `cic/texts/paul-of-aleppo_travels-of-macarius-v1_belfour1836.txt` — **V** for the journey and its date only (opened in the Round 1 revision). Paul names himself "Archdeacon, or Shammas, of the Orthodox Religion, of Aleppo", son of "Macarius, Patriarch of Antioch" (file lines 972-975), and dates a stop in the Cossack lands "this being the year 1654" (line 11828). Nothing else in the journal was read. Already mapped in the corpus to VII.18, VII.21, VI.21 and VII.23.
   4. Volney, *Travels*, vol. 2 (1788), Library — **[S]** (held, not read; the registry content note names the Melkite Basilian monastery at Shuwayr and its Arabic press). For VII.23's era, not this row.
-- **Living:** yes (both churches). No dated item after 2010 read here. Grade: none (no dated item after 2010).
-- **Mark's test:** Unique. The 1724 split is VII.23's; this is what both churches did next. It is not part of a mission or Jesuit movement, though Propaganda appears in it (Tanas had studied there, per Fortescue).
-- **Overlap:** III.2 (to 1009); VII.23 (1724-1815; its corpus map already lists Charon's 1833-1855 volume); VII.18 (the Ottoman Orthodox, which VII.23 says the Orthodox side stayed part of); VIII.28 (national churches; does not name Antioch).
-- **Recommendation:** **enter** an era 9 row for both Melkite churches (1815-1906). Put **Macarius III and Euthymius as a named line in VII.23** for 1650-1724. VII.23 runs 1724-1815, so this needs its start moved to 1650, a change to a frozen row's field (G89-6). The other home is VII.18 (1650-1821), which needs no date change. Keep **1009-1650 held** for sources, as Open-Gaps 135 has it.
-- **Gate question G-ME4.** How should the Melkites after 1815 enter?
-  - (a) One era 9 row for both churches of the Antiochene see, Catholic and Orthodox, as VII.23 tells the split. **Recommended**: VII.23 already frames them as one community in two churches, and the Orthodox side is too thin for its own row.
-  - (b) An era 9 Melkite Catholic row now; the Antiochian Orthodox side held until an Orthodox source (for example on the 1899 election) is opened.
-  - (c) Extend VII.23 to 1906. It would cross the era line.
+- **Living:** yes. No dated item after 2010 read here. Grade: none (no dated item after 2010).
+- **Mark's test:** Unique. The 1724 split is VII.23's; this is what the Orthodox side did next. It is not part of a mission or Jesuit movement. (Propaganda appears on the Catholic side, now VIII.52's: Tanas had studied there, per Fortescue.)
+- **Overlap:** III.2 (to 1009); VII.23 (1724-1815; its corpus map already lists Charon's 1833-1855 volume); VIII.52 (the Catholic church, 1815-1911; data release 29); VII.18 (the Ottoman Orthodox, which VII.23 says the Orthodox side stayed part of, to 1821); VIII.28 (national churches; it names Antioch's patriarch only at the council that condemned phyletism).
+- **Recommendation:** Mark the Catholic side **already carried (VIII.52)**. **Hold** an era 9 row for the Orthodox Patriarchate of Antioch, 1815-1906, until an Orthodox source is read (for example on the 1899 election). A named line in VII.18 and VIII.28 is the alternative. A line in VIII.52 would mis-home it, since VIII.52 is the Catholic church alone. Put **Macarius III and Euthymius as a named line in VII.23** for 1650-1724. VII.23 runs 1724-1815, so this needs its start moved to 1650, a change to a frozen row's field (G89-6). The other home is VII.18 (1650-1821), which needs no date change. Keep **1009-1650 held** for sources, as Open-Gaps 135 has it.
+- **Gate question G-ME4.** How should the Orthodox Patriarchate of Antioch after 1815 enter?
+  - (a) Hold its era 9 row, 1815-1906, until an Orthodox source is read (for example on the 1899 election). **Recommended**: by B1, the side rests on Fortescue alone, a hostile witness.
+  - (b) A named line in VII.18 and VIII.28, the Ottoman Orthodox rows, now on Fortescue.
+  - (c) A line in VIII.52. Not recommended: VIII.52 is the Catholic church alone.
 
 ##### ME-5. The Old Believers in the nineteenth century: Nicholas I, the Belokrinitsa hierarchy and the toleration of 1905 (1815-1906)
 
@@ -2271,7 +2285,7 @@ Each is short: what it is, the row that should carry it, the evidence state, and
 
 > **Merge note (rivers pass).** ME-22 is answered by RV-2 (rivers §2). See G89-49.
 
-- **ME-22. Mennonites and Hutterites in the Russian Empire (1789-1874).** The Anabaptist river after VI.3 (to 1650) has no Mennonite row in eras 8-9. The Russian colonies are named in VIII.51 only as the Stundists' German neighbors. The Library holds the Hutterite chronicles (V as held). **Recommendation:** route to the rivers pass (Anabaptist), as a single movement across Europe and Russia, not a regional row.
+- **ME-22. Mennonites and Hutterites in the Russian Empire (1789-1874).** Since data release 29, the Anabaptist river after VI.3 (to 1650) continues as VII.32, the Mennonites and the Amish (1650-1890; Netherlands and Pennsylvania), and VI.32 carries the Hutterites to 1785. Neither tells the Russian colonies. The Russian colonies are named in VIII.51 only as the Stundists' German neighbors. The Library holds the Hutterite chronicles (V as held). **Recommendation:** route to the rivers pass (Anabaptist), as a single movement across Europe and Russia, not a regional row.
 
 ---
 
@@ -2283,7 +2297,7 @@ Each is short: what it is, the row that should carry it, the evidence state, and
 | 2 | ME-2 | Maronite Church, 1650-1906 | 8, 9 | 1 (era 9), 2 (era 8) | Enter era 9; era 8 after the 1736 acts |
 | 3 | ME-10 | Polish and Lithuanian Catholicism under the partitions | 9 | 1 | Enter |
 | 4 | ME-8 | Romanian Greek Catholic Church, 1698-1906 | 8 (+9) | 1 | Enter era 8; era 9 row or named line |
-| 5 | ME-4 | The two Melkite churches, 1815-1906 | 9 | 1-2 | Enter one row for both; 1650-1724 named line in VII.23 (start moved to 1650) or VII.18 |
+| 5 | ME-4 | The Orthodox Patriarchate of Antioch, 1815-1906 (the Catholic side is VIII.52) | 9 | 2 | Hold for an Orthodox source; 1650-1724 named line in VII.23 (start moved to 1650) or VII.18 |
 | 6 | ME-1 | Church of the East, 1650-1815 | 8 | 2 | Enter |
 | 7 | ME-3 | Georgian church, 1650-1811 (+ Exarchate) | 8 | 2 | Enter era 8; Exarchate as named line in VIII.31 |
 | 8 | ME-9 | Hungarian and Transylvanian Protestantism | 8 (+9) | 2 | Enter era 8 |
@@ -2299,7 +2313,7 @@ Each is short: what it is, the row that should carry it, the evidence state, and
 | Church of the East, 1650-1815 | Unique: the middle of VI.30 → VIII.40. Capuchin and Propaganda work is a strand inside it, not a movement row. | ME-1, era 8 row (V: Badger, Malech, Labourt) |
 | Maronites, 1517-1900 | Unique: IV.10 and V.22 carried on. Rome is part of the story, as for every Eastern Catholic church. | ME-2, era 8 and era 9 rows; 1517-1650 flagged to the era 7 owner |
 | Georgian church, none after 1245 | Unique for 1650-1811. The Exarchate (1811-1917) sat inside the Russian Synod, so it is a named line in VIII.31 leading to IX.40. | ME-3; 1245-1650 flagged to the era 6 and 7 owners |
-| Melkites, 1009-1724 (held) | Only 1650-1724 falls here: Macarius III's world, the run-up to VII.23's 1724 split. Same church as VII.23. | Named line in VII.23, with its start moved to 1650 by change order, or in VII.18 (V: Fortescue; Paul of Aleppo for the 1654 journey only, file line 11828); 1009-1650 stays held. New finding: nothing after 1815 (ME-4). |
+| Melkites, 1009-1724 (held) | Only 1650-1724 falls here: Macarius III's world, the run-up to VII.23's 1724 split. Same church as VII.23. | Named line in VII.23, with its start moved to 1650 by change order, or in VII.18 (V: Fortescue; Paul of Aleppo for the 1654 journey only, file line 11828); 1009-1650 stays held. New finding, after 1815: the Catholic church is now VIII.52 (data release 29); the Orthodox side is held (ME-4). |
 | Syriac Orthodox after 1300 (held) | Unique. The Syriac Catholic split is its own strand. | ME-7, still held: both items opened are outsiders (Badger, Fortescue) |
 | Old Believers after 1815 | Unique: VII.7 carried on. VIII.31 names Belokrinitsa as "separate". | ME-5, era 9 row (V: Conybeare, Pinkerton) |
 
@@ -2347,7 +2361,7 @@ Eras 8 and 9 are frozen, so every addition reaches Mark's gate as a change order
 | RV-5 | Moravian Church, 1815-1906 | 9 | Enter (answers conflict d) |
 | RV-4 | Arab evangelical churches, Syria-Lebanon and Egypt, 1823-1906 | 9 | Enter (answers conflict c) |
 | RV-3 | Catholics of the Ottoman Balkans (Bosnian Franciscans; Albanian and Bulgarian Catholics) | 8-9 | Enter era 8 on V items; era 9 after one more source |
-| RV-2 | Mennonites and Hutterites in the Russian Empire, 1789-1906 | 9 (from 1789) | Enter as the in-scope chapter of one Anabaptist continuation row; ask the North Europe owner |
+| RV-2 | Mennonites and Hutterites in the Russian Empire, 1789-1906 | 9 (from 1789) | A named chapter in VII.32 (data release 29), by change order |
 | RV-6 | Liberia's settler churches and the Black Atlantic links | 9 | Named line in VIII.7 plus links from VIII.1 |
 | RV-7 | Transylvanian Unitarians after the Polish exile, 1660-1906 | 8-9 | Hold (Section A lane 8 question; sources thin) |
 | RV-8 | Czech lands after 1627: hidden Protestants and the 1781 toleration | 8-9 | Named line in VII.4 now; the 1781-1906 churches to a North Europe pass |
@@ -2566,7 +2580,7 @@ Joins the merge should carry as links, not new rows:
 | Oriental Orthodox | Coptic-Ethiopian links | none before 1854 | AF-1 and AF-2 with one link |
 | Eastern Catholic | Armenian Catholics | VII.24, VIII.32 ("alongside") | carried; ME-15 line; Mekhitarists after 1815 unnamed (a line in VIII.32) |
 | Eastern Catholic | Bulgarian Greek Catholics 1860-61 | none | a line in RV-3 (or VIII.28) |
-| Protestant | Mennonites and Hutterites in Russia | VI.3 to 1650; VIII.51 names the colonies as neighbors | **RV-2** |
+| Protestant | Mennonites and Hutterites in Russia | VI.3 to 1650; VII.32 (1650-1890, no Russia in its countries) and VI.32 (to 1785), both data release 29; VIII.51 names the colonies as neighbors | **RV-2** |
 | Protestant | Moravians after 1815 | VII.4 to 1815 | **RV-5** |
 | Protestant | Arab and Egyptian evangelicals | none | **RV-4** |
 | Protestant | Czech lands after 1627 | VI.24 gave rise to VII.4 (the hidden seed) | **RV-8** |
@@ -2618,6 +2632,8 @@ outside witness. Supports ME-18's lines in VII.21 and VIII.31; no row.
 
 ##### RV-2. Mennonites and Hutterites in the Russian Empire, 1789-1906
 
+> **Merge note (data release 29).** Release 29 added VII.32, the Mennonites and the Amish (1650-1890), as VI.3's continuation, and VI.32, the Hutterite Brethren (1528-1785). The continuation row this candidate asked for now exists. RV-2 is restated as a named chapter in VII.32. See G89-49.
+
 - **Kind:** church bodies (the Mennonite congregations and the Hutterite community) of the
   Anabaptist river. A church body, so the four marks are not required.
 - **Era:** 9, with roots from 1789 (era 8). **Dates:** first settlers "anno 1788 oder 89" (Wiebe,
@@ -2627,14 +2643,16 @@ outside witness. Supports ME-18's lines in VII.21 and VIII.31; no row.
   (the lane of VI.3).
 - **Section A:** no question (the Dordrecht confession of 1632 is in the Library [S on which file
   holds it; the REGISTRY lists it]).
-- **The river problem.** The Anabaptist river has no row at all after VI.3 (1650). The Dutch,
-  Prussian and North American Mennonites lie in North Europe and North America, outside this
-  sweep. By Mark's test the Mennonites moving from Prussia to Russia to America are one movement.
-  The Russian colonies are the in-scope chapter of that one story.
+- **The river problem.** Since data release 29, VI.3 continues as VII.32, the Mennonites and the
+  Amish (1650-1890). Its countries are the Netherlands and the United States (Pennsylvania); its
+  text names "Russian Mennonites" once, in an 1890 manual, and nothing more of Russia. VI.32, the
+  Hutterite Brethren, ends in 1785 with families moving to Russia. By Mark's test the Mennonites
+  moving from Prussia to Russia to America are one movement. The Russian colonies are the
+  in-scope chapter of that one story, and VII.32 is now its row.
 - **B1:** moderate, with an own voice. **B2:** good (colonies, elders, schools, the 1860 Mennonite
-  Brethren split [S], the conscription crisis). **B3:** high (no row). **B4:** Mennonite readers
+  Brethren split [S], the conscription crisis). **B3:** high for the Russian chapter, which no row tells; VII.32 now carries the river itself. **B4:** Mennonite readers
   across the Americas; historians of Russia's colonists. **B5:** tiebreak only. **Tier:** 2 as a
-  regional row; 1 as the chapter of an Anabaptist continuation row.
+  regional row; 1 as a chapter in VII.32.
 - **Evidence:**
   1. Gerhard Wiebe, *Ursachen und Geschichte der Auswanderung der Mennoniten aus Russland nach
      Amerika* (Winnipeg: Druckerei des Nordwesten, 1900), archive.org `P002546`, raw djvu, lines
@@ -2653,16 +2671,20 @@ outside witness. Supports ME-18's lines in VII.21 and VIII.31; no row.
   3. Wanted: P. M. Friesen, *Die Alt-Evangelische Mennonitische Brüderschaft in Russland
      (1789-1910)* (1911) [S]; the 1800 charter of privileges [S].
 - **Living:** yes (Mennonite and Hutterite churches) [S]; no dated item read. Grade: none (no dated item after 2010).
-- **Overlap:** VI.3 (to 1650); VIII.51 (names the colonies only as the Stundists' neighbors); VII.16
-  and VII.3 name Mennonites in passing.
-- **Recommendation:** enter as a chapter of one Anabaptist continuation row, 1650-1906 (owner of
-  the North Europe river to supply the rest), or as a regional row if Mark wants only the in-scope
-  part now.
-- **Gate question G-RV-2:** (a) one Anabaptist continuation row, 1650-1906, with the Russian
-  colonies and the Hutterites as named chapters; (b) a Russian Mennonite row, 1789-1906, alone;
-  (c) a named line in VIII.51. **Recommended: (a)**, by Mark's test; log the non-Russian part for a
-  North Europe pass. (c) mislabels it: the Mennonites were the Stundists' neighbors, not their
-  church.
+- **Overlap:** VI.3 (to 1650); VII.32 (the Mennonites and the Amish, 1650-1890; data release 29);
+  VI.32 (the Hutterite Brethren, 1528-1785; data release 29; it rests on the same Beck 1883 file);
+  VIII.51 (names the colonies only as the Stundists' neighbors); VII.16 and VII.3 name Mennonites
+  in passing.
+- **Recommendation:** a **named chapter in VII.32**, by change order: Russia and Ukraine added to
+  its countries and text, and its end (1890) checked against 1906. The Hutterites' Russian years
+  are a line in that chapter, with a link from VI.32. A Russian row, 1789-1906, is the alternative.
+- **Gate question G-RV-2:** (a) the Russian colonies as a named chapter in VII.32, by change order,
+  with the Hutterites' Russian years as a line in it, linked from VI.32; (b) a Russian Mennonite and
+  Hutterite row, 1789-1906, with links from VII.32, and "continued as" from VI.32 for the
+  Hutterites; (c) a named line in VIII.51. **Recommended: (a)**, by Mark's test: VII.32 already
+  carries the one movement, and (b) would split it by place. (b) is the alternative if the
+  Hutterites, a church of their own, should keep a row. (c) mislabels it: the Mennonites were the
+  Stundists' neighbors, not their church.
 
 ##### RV-3. Catholics of the Ottoman Balkans: the Bosnian Franciscans, Albanian and Bulgarian Catholics, 1650-1878
 
@@ -2794,7 +2816,7 @@ outside witness. Supports ME-18's lines in VII.21 and VIII.31; no row.
 
 - **Kind:** church body (the Unitarian Church of Transylvania, with the Polish Brethren exiles).
 - **Era:** 8-9. **Region:** East Europe; Romania (Transylvania), Hungary. **Lane:** Non-Nicene
-  Traditions (lane 8), as VI.14, VII.27 and VIII.37.
+  Traditions (lane 8), as VI.14, VII.27, VII.31 and VIII.37.
 - **Section A:** a floor question (anti-trinitarian). The roster already enters VI.14 and the
   American Unitarian rows in lane 8, so there is precedent.
 - **Evidence:**
@@ -2806,6 +2828,9 @@ outside witness. Supports ME-18's lines in VII.21 and VIII.31; no row.
   2. Wanted: a Transylvanian Unitarian source for 1660-1906 in Hungarian or Latin.
 - **B3:** high (VI.14 ends at 1650). **Tier:** 3 now, for want of in-window sources.
 - **Living:** yes [S] (the Hungarian Unitarian Church). Grade: none (no dated item after 2010).
+- **Overlap:** VI.14 (to 1650); VII.31, English Unitarianism (England, 1774-1813; data release 29),
+  is a different body in the same lane, so there is no overlap and no change of class; ME-9 holds
+  the Reformed and Lutherans of the same lands, not the Unitarians.
 - **Recommendation:** hold for sources; then a lane 8 row, or a named line closing VI.14.
 - **Gate question G-RV-7:** (a) hold; (b) a lane 8 row now on Rees alone; (c) out of scope.
   **Recommended: (a).**
@@ -2884,9 +2909,9 @@ Numbered G89-1 to G89-55. The six cross-cutting questions come first, because ma
 - **G89-3. Mission churches outside VIII.7's four wings (AF-5, ME-11 and RV-4, AP9).** VIII.7's status text says its "four named wings have fixed boundaries" and sends other regions to their own entries. Three passes proposed additions to it: Southern Africa (AF-5), the Arab evangelicals (ME-11) and the Karen (AP9). (a) New wings in VIII.7 (renames a frozen row; three change orders to one row). (b) VIII.7's own rule: own entries where a region or kind has row weight (Southern Africa; the Arab churches as RV-4), and named lines in the nearest row of the same kind where it does not (the Karen in VIII.27). (c) Hold all three until AF-4 is ruled. **Rec. (b)** It follows the row's own text and keeps unlike kinds apart: the Arab churches were made from Eastern Christian converts, not converts from other faiths. VIII.7's name and status text do not change. Tied to G89-5, G89-31 (AP9) and G89-50 (RV-4).
 - **G89-4. The Moravian church after 1815 (RV-5; LA8-M; the Moravian lines in AF-5 and AF-9).** VII.4 ends at 1815, and no era 9 or 10 row is Moravian. (a) Enter RV-5 as one era 9 row continuing VII.4, with the Caribbean, the Cape, Suriname, Labrador and Nyasa as its lines; LA8-1 keeps the Moravians by a link; the Cape and Cairo lines sit in VII.4 before 1815. (b) Caribbean lines in LA8-1 and African lines in the Africa rows. (c) Log it in Open-Gaps 142 for later (Latin America's own recommendation). **Rec. (a)** By Mark's test: one movement across the world, which (b) would split by place. Tied to G89-14 (LA8-1) and G89-5.
 - **G89-5. The home of Southern Africa (AF-4, AF-5).** Southern Africa has no row before 1960 except IX.4's Ethiopian Church (1892). Under G89-3(b) the mission churches get their own entry, not a VIII.7 wing. (a) Two rows: the Dutch Reformed Church at the Cape, 1652-1906 (AF-4), and the Southern African mission churches, 1737-1906 (AF-5's option b). (b) One row, "Christianity at the Cape and in Southern Africa, 1652-1906", holding settler and mission churches together (AF-4's option b). (c) The Dutch Reformed row only; the mission churches held. **Rec. (a)** This is the merge's reading. The rivers pass left (a) and (b) open. The Africa pass kept the settler church and the mission churches apart (its G-AF89-4 recommended two homes), and (a) keeps that once the VIII.7 wing is ruled out. (b) is defensible if Mark wants one Southern African story. The Moravian Cape mission is a VII.4 line before 1815 and an RV-5 line after, whichever is chosen. Tied to G89-3 and G89-4.
-- **G89-6. How the frozen-era additions are handled.** Eras 8 and 9 are frozen. Every new row, named line, link and field change admitted at this gate is a change order. Several touch settled rows: VIII.48's start (LA8-5), VII.17's text and countries (LA8-4), VII.23's start, moved from 1724 to 1650 if the Melkite line goes there (ME-4, G89-42), VIII.29's lines (AF-6, G89-2), VII.4's and VII.19's lines, and two re-routed links: IV.26 continued as VIII.13 (through AF-2) and VI.30 continued as VIII.40 (through ME-1). (a) Name each admitted item as its own change order in one register, draft them together, review them together under the three-round cap, and ship them in one data release. (b) One change order, review and data release per region. (c) Admit new rows now, and hold every change to an existing frozen row's fields for a later pass. **Rec. (a)** This recommendation is the merge's; Mark's call. It keeps each change named and reasoned, as a change order must be, while paying for one review cycle and one release, as CLAUDE.md asks of related slices. (c) would split linked work: RV-1 needs lines in VII.19, and AF-1 needs links to VI.25 and VIII.49.
+- **G89-6. How the frozen-era additions are handled.** Eras 8 and 9 are frozen. Every new row, named line, link and field change admitted at this gate is a change order. Several touch settled rows: VIII.48's start (LA8-5), VII.17's text and countries (LA8-4), VII.23's start, moved from 1724 to 1650 if the Melkite line goes there (ME-4, G89-42), VII.32's countries and text, and perhaps its end, if the Russian colonies go there (RV-2, G89-49), VIII.29's lines (AF-6, G89-2), VII.4's and VII.19's lines, and two re-routed links: IV.26 continued as VIII.13 (through AF-2) and VI.30 continued as VIII.40 (through ME-1). (a) Name each admitted item as its own change order in one register, draft them together, review them together under the three-round cap, and ship them in one data release. (b) One change order, review and data release per region. (c) Admit new rows now, and hold every change to an existing frozen row's fields for a later pass. **Rec. (a)** This recommendation is the merge's; Mark's call. It keeps each change named and reasoned, as a change order must be, while paying for one review cycle and one release, as CLAUDE.md asks of related slices. (c) would split linked work: RV-1 needs lines in VII.19, and AF-1 needs links to VI.25 and VIII.49.
   - **Sub-question 1: Section A "by precedent".** The brief names two Section A states: a dated statement, or "not yet assessable". About half the counted rows use a third: they clear because the same church, or a body of the same confession, was assessed at an earlier row, and no dated statement of this window was read (section 2 writes "by precedent (row)"). (i) Accept it for long-attested churches, as section 2 applies it. (ii) Reject it: each such row becomes "enter once", the condition being one dated statement read. **Rec. (i)**, the merge's reading; Mark's call. A row whose own confession is in doubt (AP3, ME-6, ME-20, RV-7) does not use it.
-  - **Sub-question 2: era lines.** Some options are argued against because they stretch a frozen row across an era line (G89-1(d), G89-42(c), ME-1(b)), while new rows that cross one are recommended (AF-2 from 1517, AP3 1650-1865, AP1 extended to 1906 under G89-29, RV-2 1650-1906, RV-3 1650-1878). (i) A new row may cross an era line; a frozen row is not stretched across one. A new row may begin before 1650, outside this sweep's "eras 8 - 10" scope, only with Mark's leave; else it starts at 1650 and the earlier part is logged for that era's owner. (ii) No row may cross an era line; each is split at it. **Rec. (i)**, the merge's reading. It is the rule the passes applied without stating it. The one row it touches outside scope is AF-2 (G89-8).
+  - **Sub-question 2: era lines.** Some options are argued against because they stretch a frozen row across an era line (G89-1(d), ME-1(b)), while new rows that cross one are recommended (AF-2 from 1517, AP3 1650-1865, AP1 extended to 1906 under G89-29, RV-3 1650-1878). The census has its own precedent: VII.32, the Mennonites and the Amish (data release 29), is an era 8 row that runs 1650-1890, across the 1815 line. (i) A new row may cross an era line; a frozen row is not stretched across one. A new row may begin before 1650, outside this sweep's "eras 8 - 10" scope, only with Mark's leave; else it starts at 1650 and the earlier part is logged for that era's owner. (ii) No row may cross an era line; each is split at it. **Rec. (i)**, the merge's reading. It is the rule the passes applied without stating it, and VII.32 follows it. The one row it touches outside scope is AF-2 (G89-8).
 
 ### Africa
 
@@ -2940,7 +2965,7 @@ AP-X1 is answered by G89-1, and AP-X2 by G89-2.
 - **G89-39. The Maronites (ME-2).** (a) One row per era (8 and 9), each entering when its sources allow; 1517-1650 sent to the era 7 owner as a change order. (b) One long row, 1517-1900. (c) Era 9 now; eras 7 and 8 both held for sources. **Rec. (a)** Under it the era 9 row enters now and the era 8 row once the 1736 synod acts are opened. It differs from (c) on era 7: (a) sends it to its owner, (c) holds it here.
 - **G89-40. Polish and Lithuanian Catholicism (ME-10).** (a) An era 9 row, 1815-1906, parent of IX.70. (b) Also an era 8 row, 1650-1815. (c) Named lines in VIII.29 only. **Rec. (a)**
 - **G89-41. The Romanian Greek Catholic Church (ME-8).** (a) An era 8 row, and an era 9 row or named line, linked to IX.73. (b) One composite row for the Greek Catholics of the Hungarian crown. (c) A named line in VII.19 only. **Rec. (a)** It keeps its own Jesuit line (the brokers of the 1698 union), under G89-1; RV-1 only points to it.
-- **G89-42. The two Melkite churches (ME-4).** (a) One era 9 row for both churches. (b) The Catholic row now, the Orthodox side held. (c) Extend VII.23 to 1906. **Rec. (a)** With Macarius III and Euthymius as a named line for 1650-1724; 1009-1650 stays held. The line's home is a second choice: (i) VII.23, the pass's choice (the same church), which runs 1724-1815, so its start moves to 1650 by change order (G89-6); or (ii) VII.18 (1650-1821), which needs no date change. **Rec. (i)**, the pass's, because the line is the run-up to VII.23's own split.
+- **G89-42. The Melkites after 1815, and the 1650-1724 line (ME-4).** Data release 29 added VIII.52, the Melkite Greek Catholic Church after 1815 (1815-1911), and VII.23 now continues as VIII.52. The Catholic side is carried. What is missing is the Orthodox Patriarchate of Antioch after 1815, which rests here on Fortescue alone, a hostile Catholic witness. (a) Hold an era 9 row for the Orthodox Patriarchate of Antioch, 1815-1906, until an Orthodox source is read (for example on the 1899 election). (b) A named line in VII.18 and VIII.28, the Ottoman Orthodox rows, now on Fortescue. (c) A line in VIII.52. **Rec. (a)**, by the pass's own B1: the Orthodox side is too thin to draft from. (b) is the alternative if Mark prefers a line to a row. (c) would mis-home it, since VIII.52 is the Catholic church alone. Second, Macarius III and Euthymius enter as a named line for 1650-1724; 1009-1650 stays held. The line's home is a second choice: (i) VII.23, the pass's choice (the same church), which runs 1724-1815, so its start moves to 1650 by change order (G89-6); or (ii) VII.18 (1650-1821), which needs no date change. **Rec. (i)**, the pass's, because the line is the run-up to VII.23's own split.
 - **G89-43. The Church of the East, 1650-1815 (ME-1).** (a) A new era 8 row between VI.30 and VIII.40, re-routing the existing link "VI.30 continued as VIII.40" through it. (b) Extend VIII.40 back to 1672/1681. (c) Hold for Assemani III and Malech. **Rec. (a)** With a link to AP1 (Mar Gabriel). Tied to G89-24.
 - **G89-44. The Georgian church (ME-3).** (a) An era 8 row, with the Exarchate as a named line in VIII.31 (stopping at 1906, VIII.31's end, and handing over to IX.40 by its link). (b) An era 8 row and an era 9 Exarchate row. (c) Hold for a Georgian-language source. **Rec. (a)**
 - **G89-45. Hungarian and Transylvanian Protestantism (ME-9).** (a) An era 8 row, and an era 9 row later. (b) Named lines in the Reformed and Lutheran rows. (c) Leave it to the rivers pass. **Rec. (a)** The rivers pass found no duplicate; the Unitarian side is RV-7 (G89-53).
@@ -2952,7 +2977,7 @@ ME-11 is answered by G89-50 (RV-4), ME-12 by G89-1, and ME-22 by G89-49 (RV-2).
 
 ### Rivers cross-check
 
-- **G89-49. Mennonites and Hutterites in the Russian Empire (RV-2; ME-22).** (a) One Anabaptist continuation row, 1650-1906, with the Russian colonies and the Hutterites as named chapters; the non-Russian part logged for a North Europe pass. (b) A Russian Mennonite row, 1789-1906, alone. (c) A named line in VIII.51. **Rec. (a)**, by Mark's test (one movement from Prussia to Russia to America). (c) mislabels it: the Mennonites were the Stundists' neighbors, not their church. Tied to G89-1.
+- **G89-49. Mennonites and Hutterites in the Russian Empire (RV-2; ME-22).** Data release 29 added VII.32, the Mennonites and the Amish (1650-1890), as the continuation of VI.3 ("continued as", Documented). Its countries are the Netherlands and the United States (Pennsylvania); its text names Russia only in an 1890 manual's phrase, "especially among the Amish and Russian Mennonites". It also added VI.32, the Hutterite Brethren (1528-1785), which ends: "A few families kept the faith and moved on to Russia." (a) The Russian colonies as a named chapter in VII.32, by change order: Russia and Ukraine added to its countries and text, and its end (1890) checked against 1906. The Hutterites' Russian years are a line in that chapter, with a link from VI.32. (b) A Russian Mennonite and Hutterite row, 1789-1906, with links from VII.32, and "continued as" from VI.32 for the Hutterites. (c) A named line in VIII.51. **Rec. (a)**, by Mark's test: the colonies are a chapter of the one Mennonite movement VII.32 already carries (the settlers came from Prussia, and many went on to America, as Wiebe tells), and (b) would split it by place. Its cost is the Hutterites: they are a church of their own (VI.32), and (a) gives their Russian years only a line in a Mennonite row. (b) is the alternative if Mark wants the Hutterite line carried on as a row. (c) mislabels it: the Mennonites were the Stundists' neighbors, not their church. Tied to G89-1 and G89-6.
 - **G89-50. The Arab evangelical churches (RV-4; ME-11; AF-9's Egypt line).** (a) One row for Syria-Lebanon and Egypt, 1823-1906. (b) ME-11 as a row, and Egypt as a line in VIII.13 (AF-9). (c) A fifth wing in VIII.7. **Rec. (a)**, if G89-3 takes (b). The two churches share one Arabic Bible and were both made from Eastern Christian converts. The Armenian Evangelicals stay in VIII.32 and the Urmia work in VIII.40. Tied to G89-3 and G89-13.
 - **G89-51. Catholics of the Ottoman Balkans (RV-3).** (a) One row, 1650-1878. (b) A named line in VII.19 and VIII.29. (c) Hold for a Croatian-language source. **Rec. (a)** The era 8 part enters on the V items; the era 9 part after one more source. (b) would tell a local church as Rome's story.
 - **G89-52. Liberia's settler churches (RV-6).** (a) A named line in VIII.7's West Africa wing ("Liberia's settler church"), with links from VIII.1. (b) A row for the Black Atlantic return churches. (c) Nothing. **Rec. (a)** The row weight sits in VIII.1 and VIII.7 already.
@@ -3065,7 +3090,8 @@ The passes flagged these in existing rows and in the Open-Gaps list. None was ch
 - **VI.13a's relationsSummary** says the Antonian movement "may have grown out of it, as one modern study holds"; the edge VI.13a to VII.11 is graded Inferential-Thin. AF-3 would give it context (Africa).
 - **IX.59** has one predecessor (VIII.43); AF-6's edge would add a second. **IX.60** has no South African predecessor; AF-4 would be it (Africa).
 - **VI.11** has no `continuesAs`, and **VIII.29** does not name the Jesuits (rivers §1a).
-- **VII.23's and VII.18's corpus maps** list Library works their text does not use: Charon's volume and Paisii (Middle East, note 4).
+- **VII.23's and VII.18's corpus maps** list Library works their text does not use: Charon's volume and Paisii (Middle East, note 4). VIII.52 (data release 29) now uses Charon.
+- **VIII.52** (the Melkite Greek Catholic Church after 1815, data release 29) runs to 1911, past era 9's end in 1906, the window this record holds every era 9 history to (noticed in the Round 2 review).
 
 **Open-Gaps entries**
 - **Open-Gaps 142** dates the Coptic break from 1517; the real gap starts c. 1300 (Africa).
