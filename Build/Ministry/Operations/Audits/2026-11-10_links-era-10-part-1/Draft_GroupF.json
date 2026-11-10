@@ -420,7 +420,7 @@
    "to": "azusa-street-and-early-pentecostalism",
    "type": "gave rise to",
    "confidence": "Widely Accepted",
-   "note": "In September 1906 William Seymour wrote that a Los Angeles mission had locked him out. Its people then called in the president of the Holiness Association to rule on his teaching. A month later his paper said four Holiness preachers had received the new baptism.",
+   "note": "In September 1906 William Seymour wrote that a mission in Los Angeles had locked him out. Its people then called in the head of the Holiness Association to rule on what he taught. A month later his paper said four Holiness preachers had received the new baptism.",
    "sources": [
     {
      "kind": "primary",
@@ -545,7 +545,7 @@
    "to": "african-initiated-churches-harrist-aladura-zioni",
    "type": "influenced",
    "confidence": "Contested",
-   "note": "Scholars disagree about how far Aladura and Zionist churches drew on Pentecostal teaching. Many began with African prophets and local leaders rather than missionaries, and the balance is still studied.",
+   "note": "Scholars do not agree on how much Africa's Zionist and prayer churches drew from Pentecostal teaching. Many of them were begun by African prophets and local leaders. They were not begun by missionaries. The debate goes on.",
    "sources": [
     {
      "kind": "secondary",
@@ -563,7 +563,7 @@
    "citation_specificity": "C",
    "verification_state": "named-not-rechecked",
    "old_index": 13,
-   "action": "keep",
+   "action": "rewrite",
    "named_in_text": [
     "azusa-street-and-early-pentecostalism legacy ('from the Global South churches of the later century to Africa's independent churches')"
    ],
@@ -577,9 +577,9 @@
     "Anderson, African Reformation (2001), and Sundkler, Bantu Prophets (1961): the passages on Pentecostal teaching reaching Zionist and Aladura churches."
    ],
    "drafter_flags": [
-    "Kept as Contested. Anderson's 2013 preview (read for the new Global South links) puts Lagos's independent churches stressing spiritual gifts back to 1918, which fits the note's 'began with African prophets'. Azusa's legacy sentence is qualified to match."
+    "Grade kept at Contested. Anderson's 2013 preview (read for the new Global South links) puts Lagos's independent churches stressing spiritual gifts back to 1918, which fits the note's 'began with African prophets'. Azusa's legacy sentence is qualified to match."
    ],
-   "change_reason": "Kept unchanged; the Azusa legacy sentence that overstated this tie is qualified instead."
+   "change_reason": "Note rewritten for reading level only (it scored below the target); from, to, type, grade and sources unchanged. The Azusa legacy sentence that overstated this tie is qualified."
   },
   {
    "id": "azusa-street-and-early-pentecostalism--global-south-pentecostal-christianity",
@@ -588,7 +588,7 @@
    "to": "global-south-pentecostal-christianity",
    "type": "gave rise to",
    "confidence": "Contested",
-   "note": "Scholars disagree about how far the Global South's Pentecostal churches descend from Azusa Street. In December 1906 the revival's paper reported six missionaries leaving for Africa. But Allan Anderson notes that independent African churches stressing spiritual gifts go back to 1918 in Lagos.",
+   "note": "Scholars disagree on how far Pentecostal churches in the Global South go back to Azusa Street. In 1906 its paper said six missionaries had left for Africa. But Allan Anderson finds churches in Lagos that stressed gifts of the Spirit from 1918, led by Africans.",
    "sources": [
     {
      "kind": "primary",
@@ -643,7 +643,7 @@
    "to": "global-south-pentecostal-christianity",
    "type": "gave rise to",
    "confidence": "Widely Accepted",
-   "note": "The Redeemed Christian Church of God says its founder, Josiah Akindayomi, joined the Cherubim and Seraphim in 1931. That was one of Nigeria's prayer churches. He left it in 1952 to start his own church. Allan Anderson places Nigeria's Christ Apostolic Church halfway between these churches and Pentecostalism.",
+   "note": "Josiah Akindayomi joined the Cherubim and Seraphim, one of Nigeria's prayer churches, in 1931. So says the church he went on to found. He left in 1952 and began the Redeemed Christian Church of God. Allan Anderson puts a second Nigerian church halfway between the prayer churches and the Pentecostals.",
    "sources": [
     {
      "kind": "primary",
@@ -762,7 +762,7 @@
    "to": "oneness-pentecostalism",
    "type": "gave rise to",
    "confidence": "Widely Accepted",
-   "note": "In 1914 Pentecostal ministers from Apostolic Faith missions and other churches formed a general council. In 1916 it told its preachers not to quarrel over the words used at baptism. Historians trace Oneness Pentecostalism to this dispute inside the young movement.",
+   "note": "In 1914 Pentecostal ministers from many missions and churches formed a general council. By 1916 they were arguing over the words to say at baptism. The council told them not to fight over it. Historians trace the Oneness movement to this quarrel.",
    "sources": [
     {
      "kind": "primary",
@@ -817,7 +817,7 @@
    "to": "global-south-pentecostal-christianity",
    "type": "argued against",
    "confidence": "Inferential-Thin",
-   "note": "In 2008 and 2009 Lausanne theologians met in Ghana and called the prosperity gospel a false gospel. They said it was found in Pentecostal and other churches, but addressed the teaching, not any one church. The Cape Town Commitment of 2010 rejected its excesses.",
+   "note": "In 2008 and 2009 Lausanne theologians met in Ghana. They called the prosperity gospel a false gospel, found in Pentecostal and other churches. But they said they spoke to the teaching, not to any one church. In 2010 the Cape Town Commitment rejected its excesses.",
    "sources": [
     {
      "kind": "primary",
@@ -924,7 +924,7 @@
     "Bays (2012) and Lian Xi (2010): the passages on the founders' mission backgrounds."
    ],
    "drafter_flags": [
-    "Kept. The Chinese church's own text said its churches 'owed nothing to the foreign missions', which this link and its note contradict in part. The prose is qualified to 'independent of the foreign missions', which fits both. No online source was read for this pair."
+    "Kept. The Chinese church's own text said its churches 'owed nothing to the foreign missions', which this link and its note contradict in part. The prose is qualified to 'free of the foreign missions', which fits both. No online source was read for this pair."
    ],
    "change_reason": "Kept unchanged; the Chinese church's prose is qualified to match it."
   }
@@ -951,7 +951,7 @@
    "movement": "azusa-street-and-early-pentecostalism",
    "field": "legacy",
    "old": "The revival's own episode closed in the 1920s; the tradition it started did not. Almost every movement in this era's Pentecostal family runs back through here, from the Global South churches of the later century to Africa's independent churches. The denominations formed fast: the Church of God in Christ turned Pentecostal in 1907 and the Assemblies of God organized in 1914, and the argument over the doctrine of God that produced Oneness Pentecostalism broke out inside the same young movement in 1913. What traveled furthest was not a doctrine but a way of meeting — testimony, song, and the expectation that anyone present might speak.",
-   "new": "The revival's own episode closed in the 1920s; the tradition it started did not. Many movements in this era's Pentecostal family run back through here. Scholars still argue over how far the Global South churches and Africa's independent churches do. The denominations formed fast. The Church of God in Christ turned Pentecostal in 1907, and the Assemblies of God organized in 1914. In 1913 an argument over the doctrine of God broke out inside the same young movement, and it produced Oneness Pentecostalism. What traveled furthest was not a doctrine but a way of meeting: testimony, song, and the expectation that anyone present might speak.",
+   "new": "The revival's own episode closed in the 1920s, but the tradition it started did not. Many movements in this era's Pentecostal family run back through here. Scholars still argue over how far the Global South churches and Africa's independent churches do. New church bodies formed fast. The Church of God in Christ turned Pentecostal in 1907, and the Assemblies of God was formed in 1914. In 1913 a quarrel over the doctrine of God broke out inside the same young movement. It gave rise to Oneness Pentecostalism. What traveled furthest was not a doctrine but a way of meeting: testimony, song, and the expectation that anyone present might speak.",
    "reason": "'Almost every movement ... from the Global South churches ... to Africa's independent churches' qualified: both links are Contested. Long sentences split for the reading target; every fact kept."
   },
   {
@@ -959,7 +959,7 @@
    "movement": "global-south-pentecostal-christianity",
    "field": "relationsSummary",
    "old": "Child of Azusa + AIC lines; the century's growing edge. El Shaddai, a Catholic movement in the Philippines, is told in the entry on Philippine Catholicism.",
-   "new": "It drew on two lines: the Pentecostal revival that began at Azusa Street, and Africa's own prayer churches. Scholars disagree about how much the Azusa line gave. It was the century's growing edge. El Shaddai, a Catholic movement in the Philippines, is told in the entry on Philippine Catholicism.",
+   "new": "It grew from two roots: the revival that began at Azusa Street, and Africa's own prayer churches. Scholars disagree on how much the first gave. It was the growing edge of the century. El Shaddai, a Catholic movement in the Philippines, is told in the entry on Philippine Catholicism.",
    "reason": "'Child of Azusa + AIC lines' rewritten as plain sentences. The Azusa parent is Contested and now says so; the prayer-church parent rests on the RCCG founder's own history and Anderson."
   },
   {
@@ -967,15 +967,15 @@
    "movement": "the-chinese-church-indigenous-and-suffering",
    "field": "longDescription",
    "old": "In the 1920s Chinese Christians began founding churches that owed nothing to the foreign missions. Wei Enbo founded the True Jesus Church in Beijing in 1917; Watchman Nee's Little Flock assemblies date from 1922; the Jesus Family from 1927. Their leaders wrote copiously — Nee's The Spiritual Man appeared in 1928, and Wang Mingdao published his own account of fifty years in 1950 — and the itinerant preacher John Sung kept diaries his family later compiled. After 1950 the Christian Manifesto and the Three-Self Patriotic Movement reorganized Protestant church life under the state; Wang Mingdao published 'We, Because of Faith' in 1955 and was imprisoned from 1955 until 1980, and Watchman Nee was imprisoned from 1952 until 1972. Much church life went on outside registered structures after that, and in November 1998 house-church leaders published a joint Confession of Faith. No living person and no specific community is named here. What is known is thinnest and least safe to make public exactly where the growth was greatest. That is a fact about the church itself, not only about the available sources.",
-   "new": "From the 1910s Chinese Christians began founding churches of their own, independent of the foreign missions. Wei Enbo founded the True Jesus Church in Beijing in 1917. Watchman Nee's Little Flock assemblies date from 1922, and the Jesus Family from 1927. Their leaders wrote copiously. Nee's The Spiritual Man appeared in 1928, and Wang Mingdao published his own account of fifty years in 1950. The itinerant preacher John Sung kept diaries that his family later compiled. After 1950 the Christian Manifesto and the Three-Self Patriotic Movement reorganized Protestant church life under the state. Wang Mingdao published 'We, Because of Faith' in 1955. He was imprisoned from 1955 until 1980, and Watchman Nee from 1952 until 1972. After that, much church life went on outside registered structures. In November 1998 house-church leaders published a joint Confession of Faith. No living person and no specific community is named here. What is known is thinnest, and least safe to make public, exactly where the growth was greatest. That is a fact about the church itself, not only about the available sources.",
-   "reason": "'Owed nothing to the foreign missions' qualified to 'independent of the foreign missions': the kept link records historians tracing the founders to the mission world. 'In the 1920s' corrected to 'from the 1910s', since the same sentence group dates the True Jesus Church to 1917. Long sentences split; every other fact kept."
+   "new": "From the 1910s Chinese Christians began founding churches of their own, free of the foreign missions. Wei Enbo founded the True Jesus Church in Beijing in 1917. Watchman Nee's Little Flock assemblies date from 1922, and the Jesus Family from 1927. Their leaders wrote a great deal. Nee's The Spiritual Man appeared in 1928, and Wang Mingdao published his own account of fifty years in 1950. The traveling preacher John Sung kept diaries that his family later put together. After 1950 the Christian Manifesto and the Three-Self Patriotic Movement brought Protestant church life under the state. Wang Mingdao published 'We, Because of Faith' in 1955. He was imprisoned from 1955 until 1980, and Watchman Nee from 1952 until 1972. After that, much church life went on outside registered structures. In November 1998 house-church leaders published a joint Confession of Faith. No living person and no specific community is named here. What is known is thinnest, and least safe to make public, exactly where the growth was greatest. That is a fact about the church itself, not only about the available sources.",
+   "reason": "'Owed nothing to the foreign missions' qualified to 'free of the foreign missions': the kept link records historians tracing the founders to the mission world. 'In the 1920s' corrected to 'from the 1910s', since the same sentence group dates the True Jesus Church to 1917. Long sentences split; every other fact kept."
   },
   {
    "n": 5,
    "movement": "the-chinese-church-indigenous-and-suffering",
    "field": "why",
    "old": "Chinese Christians who owed nothing to foreign missions began founding their own churches in the 1920s: Wei Enbo's True Jesus Church in 1917, Watchman Nee's Little Flock in 1922, and the Jesus Family in 1927. Their leaders wrote prolifically and paid for it -- Nee was imprisoned from 1952 to 1972, and Wang Mingdao from 1955 to 1980 -- and much of the church went on meeting in homes through the decades that followed, led by people with no institutional standing. That pattern, congregations meeting quietly under pressure, echoes the house churches of Christianity's first two centuries.",
-   "new": "From the 1910s Chinese Christians began founding churches of their own, independent of the foreign missions. Wei Enbo's True Jesus Church dates from 1917, Watchman Nee's Little Flock from 1922, and the Jesus Family from 1927. Their leaders wrote prolifically and paid for it. Nee was imprisoned from 1952 to 1972, and Wang Mingdao from 1955 to 1980. Through the decades that followed, much of the church went on meeting in homes. It was led by people with no institutional standing. That pattern, congregations meeting quietly under pressure, echoes the house churches of Christianity's first two centuries.",
+   "new": "From the 1910s Chinese Christians began founding churches of their own, free of the foreign missions. Wei Enbo's True Jesus Church dates from 1917, Watchman Nee's Little Flock from 1922, and the Jesus Family from 1927. Their leaders wrote a great deal and paid for it. Nee was imprisoned from 1952 to 1972, and Wang Mingdao from 1955 to 1980. In the decades that followed, much of the church went on meeting in homes. It was led by people with no institutional standing. That pattern, congregations meeting quietly under pressure, echoes the house churches of Christianity's first two centuries.",
    "reason": "Same qualification and date correction as the longDescription. Sentences split for the reading target; the house-church comparison kept as a comparison."
   },
   {

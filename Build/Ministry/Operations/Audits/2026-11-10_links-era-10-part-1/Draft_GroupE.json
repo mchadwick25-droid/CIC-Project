@@ -525,7 +525,7 @@
    "to": "disciples-of-christ-and-independent-christian-churches",
    "type": "broke with",
    "confidence": "Widely Accepted",
-   "note": "The 1906 federal survey of churches listed the Churches of Christ apart from the Disciples of Christ for the first time. Its Churches of Christ statement blamed the split on missionary societies and instruments in worship. Its Disciples statement said those churches had withdrawn.",
+   "note": "In 1906 a United States survey of churches listed the Churches of Christ apart from the Disciples for the first time. Its statement for the Churches of Christ told how the two sides split over mission societies and music in worship. Its statement for the Disciples said those churches had left.",
    "sources": [
     {
      "kind": "primary",
@@ -581,7 +581,7 @@
    "drafter_flags": [
     "Group D (Churches of Christ) may draft the same pair; merge to one link.",
     "Both statements sit in one government report, but each was prepared for its own body, so the rupture is recorded from both sides. The Disciples statement's own sentence ('have since withdrawn to form the body known as the \"Churches of Christ\"', p. 237) has OCR damage, so I quote the general statement instead; the reviewer can read p. 237 at the same address.",
-    "Note says 'federal survey of churches' for the U.S. census of religious bodies; the census page uses this wording."
+    "The note calls the census of religious bodies a 'survey of churches', to keep the word census out of public text."
    ],
    "change_reason": "New: the 1906 division both texts name had no link."
   },
@@ -960,7 +960,7 @@
    "to": "lausanne-era-global-evangelicalism",
    "type": "influenced",
    "confidence": "Widely Accepted",
-   "note": "At Lausanne in July 1974 René Padilla asked the congress to take the gospel's bearing on the whole of life seriously. Its covenant then repented of treating evangelism and social concern as rivals. Historians trace that turn partly to Latin American voices.",
+   "note": "In July 1974 René Padilla spoke at the Lausanne congress. He said the gospel bears on the whole of life. In its covenant the congress then repented of setting evangelism and social concern against each other. Historians trace that turn in part to Latin America.",
    "sources": [
     {
      "kind": "primary",
@@ -1022,7 +1022,7 @@
    "to": "protestantism-in-latin-america",
    "type": "influenced",
    "confidence": "Widely Accepted",
-   "note": "Edinburgh 1910 left Latin America off its agenda. During the conference, missionaries from the region met over lunch. They agreed Latin America should one day have a conference of its own, like Edinburgh. The Panama congress report of 1917 tells this as its own beginning.",
+   "note": "Edinburgh 1910 left Latin America off its agenda. During the meeting, missionaries from the region met over lunch. They agreed that Latin America should one day have a meeting of its own, like Edinburgh. The report of the 1916 Panama congress tells this as its own start.",
    "sources": [
     {
      "kind": "primary",
@@ -1084,7 +1084,7 @@
    "movement": "persecuted-church-worlds-of-the-communist-era-in",
    "field": "relationsSummary",
    "old": "Kin of the Chinese suffering church",
-   "new": "Its Baptist wing grew out of the Russian evangelical churches of the nineteenth century. Its unregistered churches refused the state's terms, much as China's house churches did in the same decades. No direct tie between the two is documented here.",
+   "new": "Its Baptist wing grew out of the Russian evangelical churches of the century before. Like China's house churches in the same years, its churches would not register on the state's terms. No direct tie between the two is documented here.",
    "reason": "'Kin of the Chinese suffering church' claimed a relation no source shows; no contact or influence between the Soviet and Chinese cases is documented in the Library or the cited studies. Qualified to a parallel. The fragment is rewritten as sentences and now names the existing Russian evangelical parent."
   },
   {
@@ -1092,40 +1092,40 @@
    "movement": "persecuted-church-worlds-of-the-communist-era-in",
    "field": "legacy",
    "old": "The Communist-era persecution these movements faced ended with the fall of Communism across the Eastern bloc, including the dissolution of the Soviet Union in 1991; the movements themselves lived on. The samizdat these communities produced came to be recognized as among the best documentation anywhere of what religious persecution actually looks like from underneath — not martyrologies written afterwards but bulletins written that week, listing who had been taken and from where. The Keston archive preserved much of it. The pattern of unregistered congregations refusing the state's terms is kin to what happened in China over the same decades, a real historical relation rather than a coincidence.",
-   "new": "The Communist-era persecution these movements faced ended with the fall of Communism across the Eastern bloc, including the dissolution of the Soviet Union in 1991; the movements themselves lived on. The samizdat these communities produced came to be recognized as among the best documentation anywhere of what religious persecution actually looks like from underneath — not martyrologies written afterwards but bulletins written that week, listing who had been taken and from where. The Keston archive preserved much of it. In China, unregistered congregations refused the state's terms over the same decades. The two stories run side by side, but no direct tie between them is documented here.",
-   "reason": "'A real historical relation rather than a coincidence' is asserted without a source; no contact, shared leader or borrowed text is documented. Qualified to the parallel the sources do support."
+   "new": "The persecution these movements faced ended with the fall of Communism across the Eastern bloc, and with the end of the Soviet Union in 1991. The movements themselves lived on. Their samizdat came to be seen as some of the best records anywhere of what religious persecution looks like from below. These were not lives of martyrs written long after. They were bulletins written that week, listing who had been taken and from where. The Keston archive kept much of it. In China, unregistered churches refused the state's terms over the same decades. The two stories run side by side, but no direct tie between them is documented here.",
+   "reason": "'A real historical relation rather than a coincidence' is asserted without a source; no contact, shared leader or borrowed text is documented. Qualified to the parallel the sources do support. The rest of the field is split into shorter sentences to meet the reading target (it scored FRE 30 before); every fact is kept."
   },
   {
    "n": 2,
    "movement": "ratana-church-and-pacific-adjustment-movements",
    "field": "relationsSummary",
    "old": "These movements grew out of Pacific mission Christianity combined with indigenous initiative and leadership. Te Haahi Rātana was established in 1925, following Tahupōtiki Wiremu Rātana's vision of 8 November 1918. A similar pattern appears elsewhere in the Pacific, most notably in Silas Eto's Christian Fellowship Church, founded in the Solomon Islands in 1960.",
-   "new": "These movements grew out of Pacific mission Christianity combined with indigenous initiative and leadership. Te Haahi Rātana was established in 1925, following Tahupōtiki Wiremu Rātana's vision of 8 November 1918. A similar pattern appears elsewhere in the Pacific, most notably in Silas Eto's Christian Fellowship Church in the Solomon Islands, which began around 1960.",
-   "reason": "The Christian Fellowship Church has no census movement, and no source opened or cited in the repo dates it (the survey marked the 1960 date as source debt). Reference works not usable here differ between 1959 and 1960, and Eto is said to have registered the church only in 1964. Qualified to 'around 1960'."
+   "new": "These movements grew out of Pacific mission Christianity, led by local people. Tahupōtiki Wiremu Rātana had a vision on 8 November 1918. His church, Te Haahi Rātana, was set up in 1925. A like pattern shows up elsewhere in the Pacific. The best-known case is Silas Eto's Christian Fellowship Church in the Solomon Islands. It began around 1960.",
+   "reason": "The Christian Fellowship Church has no census movement, and no source opened or cited in the repo dates it (the survey marked the 1960 date as source debt). Reference works not usable here differ between 1959 and 1960, and Eto is said to have registered the church only in 1964. Qualified to 'around 1960'. The field is also split into shorter sentences to meet the reading target (it scored well under FRE 60 before); every fact is kept."
   },
   {
    "n": 3,
    "movement": "ratana-church-and-pacific-adjustment-movements",
    "field": "longDescription",
    "old": "In November 1918 Tahupōtiki Wiremu Rātana had a vision in Aotearoa New Zealand, and a healing ministry began around him from that year. In 1925 the movement was established as an independent church, Te Haahi Rātana, and Rātana himself was known as the mangai, the mouthpiece — a role that appears in the church's own creed, prayers and hymns alongside the faithful angels. The movement was political as well as religious from early on: a delegation took a Treaty of Waitangi petition to London in 1924, an alliance with the Labour Party was formed after a meeting with Michael Joseph Savage in 1936, and by 1943 the movement held all four Māori parliamentary seats. Rātana died in 1939, and the church continued under the tumuaki who followed him. Other Pacific movements of a similar shape belong beside it, among them Silas Eto's Christian Fellowship Church in the Solomon Islands, from 1960.",
-   "new": "In November 1918 Tahupōtiki Wiremu Rātana had a vision in Aotearoa New Zealand, and a healing ministry began around him from that year. In 1925 the movement was established as an independent church, Te Haahi Rātana, and Rātana himself was known as the mangai, the mouthpiece — a role that appears in the church's own creed, prayers and hymns alongside the faithful angels. The movement was political as well as religious from early on: a delegation took a Treaty of Waitangi petition to London in 1924, an alliance with the Labour Party was formed after a meeting with Michael Joseph Savage in 1936, and by 1943 the movement held all four Māori parliamentary seats. Rātana died in 1939, and the church continued under the tumuaki who followed him. Other Pacific movements of a similar shape belong beside it, among them Silas Eto's Christian Fellowship Church in the Solomon Islands, from around 1960.",
-   "reason": "The Christian Fellowship Church has no census movement, and no source opened or cited in the repo dates it (the survey marked the 1960 date as source debt). Reference works not usable here differ between 1959 and 1960, and Eto is said to have registered the church only in 1964. Qualified to 'around 1960'."
+   "new": "In November 1918 Tahupōtiki Wiremu Rātana had a vision in Aotearoa New Zealand. A healing ministry grew up around him from that year. In 1925 the movement became a church of its own, Te Haahi Rātana. Rātana himself was known as the mangai, the mouthpiece. That role appears in the church's own creed, prayers and hymns, alongside the faithful angels. The movement was political as well as religious from early on. A group took a Treaty of Waitangi petition to London in 1924. An alliance with the Labour Party followed a meeting with Michael Joseph Savage in 1936. By 1943 the movement held all four Māori seats in Parliament. Rātana died in 1939, and the church went on under the tumuaki, the leaders who followed him. Other Pacific movements of a like shape belong beside it. Among them is Silas Eto's Christian Fellowship Church in the Solomon Islands, from around 1960.",
+   "reason": "The Christian Fellowship Church has no census movement, and no source opened or cited in the repo dates it (the survey marked the 1960 date as source debt). Reference works not usable here differ between 1959 and 1960, and Eto is said to have registered the church only in 1964. Qualified to 'around 1960'. The field is also split into shorter sentences to meet the reading target (it scored well under FRE 60 before); every fact is kept."
   },
   {
    "n": 4,
    "movement": "ratana-church-and-pacific-adjustment-movements",
    "field": "why",
    "old": "After a vision in 1918, Tahupōtiki Wiremu Rātana founded Te Haahi Rātana in 1925 in Aotearoa New Zealand; the church calls him the mangai, the mouthpiece, a title woven into its own creed and hymns. The movement became a political force as well as a religious one, taking a Treaty of Waitangi petition to London in 1924 and holding all four Māori parliamentary seats by 1943. Similar movements arose elsewhere in the Pacific, among them Silas Eto's Christian Fellowship Church in the Solomon Islands, founded in 1960.",
-   "new": "After a vision in 1918, Tahupōtiki Wiremu Rātana founded Te Haahi Rātana in 1925 in Aotearoa New Zealand; the church calls him the mangai, the mouthpiece, a title woven into its own creed and hymns. The movement became a political force as well as a religious one, taking a Treaty of Waitangi petition to London in 1924 and holding all four Māori parliamentary seats by 1943. Similar movements arose elsewhere in the Pacific, among them Silas Eto's Christian Fellowship Church in the Solomon Islands, which began around 1960.",
-   "reason": "The Christian Fellowship Church has no census movement, and no source opened or cited in the repo dates it (the survey marked the 1960 date as source debt). Reference works not usable here differ between 1959 and 1960, and Eto is said to have registered the church only in 1964. Qualified to 'around 1960'."
+   "new": "After a vision in 1918, Tahupōtiki Wiremu Rātana founded Te Haahi Rātana in Aotearoa New Zealand in 1925. The church calls him the mangai, the mouthpiece, and the title runs through its own creed and hymns. The movement became a political force as well as a religious one. It took a Treaty of Waitangi petition to London in 1924. By 1943 it held all four Māori seats in Parliament. Similar movements arose elsewhere in the Pacific. One is Silas Eto's Christian Fellowship Church in the Solomon Islands, which began around 1960.",
+   "reason": "The Christian Fellowship Church has no census movement, and no source opened or cited in the repo dates it (the survey marked the 1960 date as source debt). Reference works not usable here differ between 1959 and 1960, and Eto is said to have registered the church only in 1964. Qualified to 'around 1960'. The field is also split into shorter sentences to meet the reading target (it scored well under FRE 60 before); every fact is kept."
   },
   {
    "n": 5,
    "movement": "dispensational-prophecy-culture",
    "field": "legacy",
    "old": "In 2010 the culture was alive and its texts were in print. It gave a large part of English-speaking Protestantism a default way of reading the Bible and a default expectation about how history ends, carried more by study notes, charts and novels than by any pulpit. It had institutional anchors — Dallas Theological Seminary's doctrinal statement among them — but it never needed a denomination. It also produced its own opposition. The reading of the Bible as one story fulfilled in Jesus, carried elsewhere on this map, was in large part a reaction against the chart. By 2010 the scholarship on it was substantial, from Sandeen (1970) and Weber (1979) to Boyer's When Time Shall Be No More (1992). Hummel's study came later, in 2023.",
-   "new": "In 2010 the culture was alive and its texts were in print. It gave a large part of English-speaking Protestantism a default way of reading the Bible and a default expectation about how history ends, carried more by study notes, charts and novels than by any pulpit. It had institutional anchors — Dallas Theological Seminary's doctrinal statement among them — but it never needed a denomination. It also produced its own opposition. The reading of the Bible as one story fulfilled in Jesus, carried elsewhere on this map, became its rival. In 2001 N. T. Wright, one of its leading writers, wrote against the rapture teaching. By 2010 the scholarship on it was substantial, from Sandeen (1970) and Weber (1979) to Boyer's When Time Shall Be No More (1992). Hummel's study came later, in 2023.",
-   "reason": "'In large part a reaction against the chart' claims an origin no source opened shows; the story reading grew from Newbigin's and Wright's biblical theology. What is shown is the rivalry and Wright's 2001 article against the rapture teaching. Qualified to that."
+   "new": "In 2010 the culture was alive and its texts were in print. It gave a large part of English-speaking Protestantism a default way of reading the Bible. It also gave a default sense of how history ends, carried more by study notes, charts and novels than by any pulpit. It had institutional anchors — Dallas Theological Seminary's doctrinal statement among them — but it never needed a denomination. It also produced its own opposition. The reading of the Bible as one story fulfilled in Jesus, carried elsewhere on this map, became its rival. In 2001 N. T. Wright, one of its main writers, wrote against the rapture. By 2010 the scholarship on it was substantial, from Sandeen (1970) and Weber (1979) to Boyer's When Time Shall Be No More (1992). Hummel's study came later, in 2023.",
+   "reason": "'In large part a reaction against the chart' claims an origin no source opened shows; the story reading grew from Newbigin's and Wright's biblical theology. What is shown is the rivalry and Wright's 2001 article against the rapture teaching. Qualified to that. One 35-word sentence is split in two for the reading target."
   }
  ],
  "wants": [
