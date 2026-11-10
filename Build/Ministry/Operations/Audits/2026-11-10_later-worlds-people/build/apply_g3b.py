@@ -1,6 +1,6 @@
 """P2-G3b apply: merge the reviewed person-entry drafts into the census as one data release.
 Usage (repo root): python3 -I apply_g3b.py <census in> <census out> <release number> <date> <decisions.json> <Draft.json>...
-decisions.json: {"field_overrides": [{"id", "set", "reason"}], "concerns_skip": [link ids], "text_fixes": [{"id", "old", "new"}]}"""
+decisions.json: {"field_overrides": [{"id", "set", "reason"}], "concerns_skip": [link ids], "text_fixes": [{"id", "old", "new"}], "rows_drop": [{"movement", "name", "reason"}]}"""
 import json, sys, re, collections, os
 HERE = os.path.dirname(os.path.abspath(__file__))
 cin, cout, REL, DATE, decf, *drafts = sys.argv[1:]
@@ -47,6 +47,11 @@ for f in drafts:
             assert not any(i.get('person') == r['person'] for i in items), r
             items.append({'person': r['person']})
         log['rows'].append((r['movement'], r.get('replace_name'), r['person']))
+for rd in dec.get('rows_drop', []):
+    m = M[rd['movement']]; before = len(m.get('people', []))
+    m['people'] = [i for i in m.get('people', []) if i.get('name') != rd['name']]
+    assert len(m['people']) == before - 1, rd
+    log['rows_dropped'].append((rd['movement'], rd['name'], rd['reason']))
 for fo in dec.get('field_overrides', []):
     tgt = E[fo['id']] if fo.get('kind') == 'edge' else M[fo['id']]
     for k, v in fo['set'].items(): tgt[k] = v
