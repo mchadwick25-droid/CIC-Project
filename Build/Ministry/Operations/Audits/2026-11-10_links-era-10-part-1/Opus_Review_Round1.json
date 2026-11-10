@@ -1,0 +1,158 @@
+{
+ "round": 1,
+ "verdict": "revise",
+ "findings": [
+  {
+   "id": "R1-1",
+   "severity": "substantial",
+   "link_or_field": "korean-protestantism-twentieth-century relationsSummary (prose change, group C n=3)",
+   "problem": "New sentence 'The Pyongyang revival of 1907 shaped this church in its first year.' is false. Korean Protestantism did not begin in 1907; 1907 is only the first year of this census row. The same field and the 1904-07 revival entry date Protestant work from Horace Allen's arrival in 1884. This is map-layout logic turned into a false historical statement.",
+   "evidence": "Census row dates '1907-c. 2010'; 1904-07 revival legacy: 'Horace Allen's arrival in 1884'; the new sentence in the same field says the Catholic church began 'a century before the first Protestant missionaries came', i.e. the 1880s.",
+   "fix": "Replace with: 'The Pyongyang revival of 1907 spread from that city through this church and shaped it.' (field re-scored: FRE 63.5, FK 7.6)."
+  },
+  {
+   "id": "R1-2",
+   "severity": "substantial",
+   "link_or_field": "churches-of-christ-twentieth-century--disciples-of-christ-and-independent-christian-churches (note)",
+   "problem": "The note says 'Its statement for the Disciples said those churches had left.' The quoted text (p. 235, archive.org djvu lines 160590-160593) is the report's family-level GENERAL STATEMENT on 'Disciples or Christians', which introduces both bodies. It is not the Disciples' own statement. The Disciples' own statement (pp. 236-237) does not record the split. The note misattributes the source, and the misattribution matters because Q3 is about denominations' own statements.",
+   "evidence": "Raw djvu text: heading 'GENERAL STATEMENT.' then 'Certain churches which in the report for 1890 were included with the Disciples of Christ have since 1900 withdrawn ... In this report the 2 bodies are presented under the heads: Disciples of Christ. Churches of Christ.' Letter of transmittal (lines 552-564): the per-denomination descriptive statements were prepared by persons in the denominations, edited in the bureau's office.",
+   "fix": "Replace the note with: 'In 1906 a United States survey of churches listed the Churches of Christ apart from the Disciples for the first time. Its general statement on the two bodies said those churches had withdrawn since 1900. The statement for the Churches of Christ told how the two sides split over mission societies and music in worship.' (FRE 61.2). Relabel source 1's locus 'General statement (the report's own, introducing both bodies)'."
+  },
+  {
+   "id": "R1-3",
+   "severity": "substantial",
+   "link_or_field": "the-stone-campbell-restoration-movement--churches-of-christ-twentieth-century (sources, grade)",
+   "problem": "The link's only primary is the bureau's own General Statement (p. 235). That is a government text, not a church body's own text and not one of the denominational statements Q3 asks about. As drafted, the Widely Accepted grade rests on a primary that the era 10 rule does not admit and the pending Q3 ruling would not cover. With it set aside, the link rests on Foster's 2006 article (read) plus Hughes (named), which is Dominant Modern Reconstruction.",
+   "evidence": "Same heading and transmittal letter as R1-2. L30 already quotes the Churches of Christ's own statement (p. 242, djvu lines 164015-164018: 'It was inevitable that such divergencies of opinion should result in the formation of opposing parties ...'), which I re-read in the raw djvu text.",
+   "fix": "Add the Churches of Christ's own statement (p. 242, the quote L30 uses, url https://archive.org/download/religiousbodies01huntgoog/religiousbodies01huntgoog_djvu.txt) as a primary, so the link rests on Q3 like L29 and L30. Keep the General Statement as context, labelled the bureau's. If Q3 is ruled 'no', regrade to Dominant Modern Reconstruction. Add to wants: Religious Bodies: 1906, Part II (1910), a US government publication in the public domain. Once vendored, all three Stone-Campbell links could be checked in the Library."
+  },
+  {
+   "id": "R1-4",
+   "severity": "substantial",
+   "link_or_field": "new-calvinism-young-restless-reformed--the-emerging-church-and-post-evangelical-movemen (sources, pending_ruling, note)",
+   "problem": "(a) The link's only primary is Mark Driscoll's own words in a 2006 magazine interview. That is a movement writer's own dated text, exactly the Q2 class, yet the link carries no pending_ruling. The drafters flagged it but did not mark it. (b) The Carson 'secondary' is a quote from the publisher's product description, which is marketing copy. Under the era 10 rule a summary never counts. The note's 'on its weak points' and 'a founder of The Gospel Coalition' rest only on that blurb.",
+   "evidence": "Zondervan page (raw download) holds the quoted sentence in its product description, not in Carson's text. Drafter flag: 'Carson's source is the publisher's description ... The interview is Driscoll's own words in a magazine, not a church body's text; flagged for the reviewer.' Carson's book is cited elsewhere in the repo (Build/Ministry/Features/Atlas-World-Map/Design/StepZero-Eras/CiC_Step0_Era10_Sources_E.json), so it may stand named, as support not re-checked.",
+   "fix": "Add pending_ruling 'Q2'. Replace the Carson source with a named secondary: work 'D. A. Carson, Becoming Conversant with the Emerging Church: Understanding a Movement and Its Implications (Zondervan, 2005)', url/quote null, named-not-rechecked. Rewrite the note: 'New Calvinist leaders wrote against the emerging church. In 2005 D. A. Carson put out a book on the movement and what it meant. In 2006 Mark Driscoll said its theology \"offers obscurity.\"' (FRE 73.3). If Q2 is ruled 'no', regrade to Dominant Modern Reconstruction on Carson and Hansen (both cited in the repo, named)."
+  },
+  {
+   "id": "R1-5",
+   "severity": "substantial",
+   "link_or_field": "fundamentalism-1910-1970s--lausanne-era-global-evangelicalism (note)",
+   "problem": "The note says 'After 1942 many fundamentalists joined a wider group of evangelicals. Joel Carpenter's book tells that story.' Carpenter is not cited anywhere else in the repo. In this run he was confirmed only by his details on a Cambridge review listing, with no text read. Under the era 10 rule such a study 'supports nothing beyond its title', so the note claims to know the book's content without having read it. The 1942 date rests on the NAE's own page, which is undated and which the drafters chose not to cite.",
+   "evidence": "The Cambridge Core page fetched raw holds only the bibliographic header of R. Marie Griffith's review; no review text is shown. Drafter flag: 'Carpenter is not cited elsewhere in the repo ... (named, not read)'; 'The NAE's own history page ... is undated, so it is not cited on the link.'",
+   "fix": "Rest the note on the studies already cited in the repo (Stanley; Wacker), and keep Carpenter as named-not-rechecked or drop him. Suggested note: 'Many fundamentalists later joined a wider group of evangelicals. Billy Graham became their best-known preacher. Brian Stanley names their age after Graham and John Stott. This rests on their books.' (FRE 59.8: split or trim one more word to reach 60). The grade stays Dominant Modern Reconstruction."
+  },
+  {
+   "id": "R1-6",
+   "severity": "substantial",
+   "link_or_field": "the-ecumenical-movement-and-the-wcc relationsSummary (group A n=0); persecuted-church-worlds-of-the-communist-era-in relationsSummary and legacy (group E n=0, n=1)",
+   "problem": "The new prose adds map and process commentary that was not in the old text. The ecumenical summary replaces a plain comparison ('It stands as a counterpart to the Lausanne movement') with 'This map sets it beside the Lausanne movement of 1974'; the drafters' reason calls this 'recast as the map's own'. The persecuted-church fields add 'No direct tie between the two is documented here' and '... no direct tie between them is documented here', which narrate the map's own evidence. Mark's open item on existing 'this map' copy (Open-Gaps 140) covers copy already there. It does not license adding new instances.",
+   "evidence": "Old ecumenical relationsSummary had no 'map' wording. Both persecuted-church fields previously had no 'here'.",
+   "fix": "Ecumenical: replace the sentence with 'The Lausanne movement of 1974 gave an evangelical answer to the same question. How should divided churches work together?' (field FRE 60.3). Persecuted-church relationsSummary: 'No direct tie between the two has been shown.' Legacy: 'The two stories run side by side, but no direct tie between them has been shown.' (field FRE 65.4)."
+  },
+  {
+   "id": "R1-7",
+   "severity": "substantial",
+   "link_or_field": "messianic-judaism--hebrew-roots-and-torah-observance-movements (sources)",
+   "problem": "The source is described as a 'Union of Messianic Jewish Congregations position paper; undated'. The page is dated 28 January 2005. It is signed by two people: Daniel Juster, of Tikkun Ministries International, and Russ Resnik, Executive Director of the UMJC. It is reprinted on a synagogue's 'Position Papers' page, and nothing on the page says the UMJC issued it. So it is two leaders' own dated text, the Q2 class, and its status as 'a church body's own text', which is what admits it as a primary, is not shown.",
+   "evidence": "Raw page text: '... honored within the Messianic Jewish community. January 28, 2005 Dr. Daniel Juster is Director of Tikkun Ministries International ... Russ Resnik is Executive Director of the Union of Messianic Jewish Congregations.' umjc.org paths tried in this run returned 404; I found no UMJC-hosted copy.",
+   "fix": "Correct the work field to: \"Daniel Juster (Tikkun Ministries International) and Russ Resnik (Executive Director, Union of Messianic Jewish Congregations), 'One Law Movements: A Challenge to the Messianic Jewish Community' (28 January 2005), reprinted on the Tikvat Israel Messianic Synagogue site\". Add pending_ruling 'Q2'. If Q2 is ruled 'no', regrade to Dominant Modern Reconstruction on Rudolph and Willitts (cited in the repo) or lower."
+  },
+  {
+   "id": "R1-8",
+   "severity": "substantial",
+   "link_or_field": "global-south-pentecostal-christianity longDescription",
+   "problem": "The text says the prosperity argument 'is on the record in the family's own published words: ... and in the critiques published by the Lausanne movement and by African evangelical theologians'. The Lausanne critics stand outside the Pentecostal family. The drafters saw this ('the slip is one phrase') and left it standing. The launch prompt says an unsupported or wrong claim is never left standing, and the fix is under a sentence. The same field also keeps 'this map does not pretend otherwise'.",
+   "evidence": "Drafter flag on link L47: 'The Global South text calls these critiques part of \"the family's own published words\". The Lausanne critics stand outside the Pentecostal family. Left as it is.' The Lausanne statement itself says it addresses 'not any particular denomination or tradition'.",
+   "fix": "Add a prose change for the field: '... The family's sharpest inside argument was over prosperity teaching. It is on the public record in the sermons that teach it. It is also in critiques by the Lausanne movement and by African evangelical writers who rejected it.' A whole-field rewrite that also drops the map remark scores FRE 60.2: 'By the late twentieth century the weight of Pentecostal faith had moved south. Most of the churches that carried it were founded in the Global South by people from there. The Assembleias de Deus in Brazil date from 1911. The Redeemed Christian Church of God was founded in Nigeria in 1952. Yoido Full Gospel Church in Seoul dates from 1958, and the Igreja Universal in Brazil from 1977. They are not one tradition. Only a close look, at one body in one country in one generation, shows anything real. In South India a Pentecostal movement grew through the twentieth century. Michael Bergunder wrote its history in 2008. The family's sharpest inside argument was over prosperity teaching. It is on the public record in the sermons that teach it. It is also in critiques by the Lausanne movement and by African evangelical writers who rejected it.'"
+  },
+  {
+   "id": "R1-9",
+   "severity": "minor",
+   "link_or_field": "notes of L3 (mainline->ecumenical), L5 (mainline->Social Gospel), L12 (Fundamentalism->Christian Right), L13, L22 (Fundamentalism->homeschool)",
+   "problem": "Public notes use cataloguing or process language: 'no study of the tie was read, so this link rests on thin evidence'; 'the book itself is not held here'; 'This link rests on their books'; 'The link rests on these studies'. No note on main uses 'this link'.",
+   "evidence": "Count of main-census edge notes containing 'This link': 0.",
+   "fix": "L3: 'The World Council of Churches says it was mostly Protestant and Western in its first years. The mainline churches belonged to that world. But no study shows that the council grew out of them, so this rests on thin evidence.' (FRE 79.1). L5: end '... This reading rests on modern histories.' (FRE 61.0). L12, L13: 'This rests on their books.' L22: 'This rests on these studies.'"
+  },
+  {
+   "id": "R1-10",
+   "severity": "minor",
+   "link_or_field": "fundamentalism-1910-1970s--the-christian-right (note)",
+   "problem": "'Jerry Falwell and four other ministers founded the Moral Majority in 1979': the 'four other ministers' detail comes from a Liberty University finding aid that the drafters read but did not cite. No listed source carries it.",
+   "evidence": "Drafter flag: 'Read but not cited ... the Liberty University Archive finding aid MOR RG 2 ... gives the founding ... by Falwell, LaHaye, Stanley, Kennedy and Dixon.'",
+   "fix": "Either cite the finding aid (url, accessed) or write 'Jerry Falwell and other ministers founded the Moral Majority in 1979.'"
+  },
+  {
+   "id": "R1-11",
+   "severity": "minor",
+   "link_or_field": "the-sunday-school-and-bible-institute-movement--dispensational-prophecy-culture (note)",
+   "problem": "The note does not stand alone: 'trained lay teachers in this way of reading prophecy' points back to nothing within the note.",
+   "evidence": "Note text as drafted.",
+   "fix": "'Bible schools such as Moody's in Chicago taught lay teachers this plan of the end times. Historians from Ernest Sandeen to Timothy Weber see the schools as its main carriers. This rests on their books.' (FRE 76.6)."
+  },
+  {
+   "id": "R1-12",
+   "severity": "minor",
+   "link_or_field": "dispensational-prophecy-culture legacy (group E n=5)",
+   "problem": "'In 2001 N. T. Wright, one of its main writers, wrote against the rapture.' In a field about the dispensational culture, 'its' can be read as making Wright a dispensational writer, which is false.",
+   "evidence": "Previous sentence: '... became its rival.' Here 'its' means the dispensational culture.",
+   "fix": "'In 2001 N. T. Wright, a leading writer of the story reading, wrote against the rapture.' (field FRE 61.4)."
+  },
+  {
+   "id": "R1-13",
+   "severity": "minor",
+   "link_or_field": "the-confessing-church legacy (group F n=6)",
+   "problem": "'The Presbyterian Church (U.S.A.), for one, made it part of its Book of Confessions.' The PC(USA) was formed in 1983. Barmen came into the Book of Confessions with its predecessor, the United Presbyterian Church, in 1967. The source read, a 2016 printing, shows the declaration included, not who added it.",
+   "evidence": "Disposition reason: 'PC(USA) Book of Confessions, 2016 printing ... lists The Theological Declaration of Barmen'.",
+   "fix": "'The Book of Confessions of the Presbyterian Church (U.S.A.), for one, includes it.' (field FRE 75.4)."
+  },
+  {
+   "id": "R1-14",
+   "severity": "minor",
+   "link_or_field": "the-anglican-communion-twentieth-century relationsSummary (group C n=2)",
+   "problem": "'the Victorian Church of England, whose bishops first met at Lambeth in 1867': the 1867 conference gathered bishops of the whole Communion at the call of the Archbishop of Canterbury, not the Church of England's bishops alone. Link L16's own note gets this right.",
+   "evidence": "L16 note: 'The bishops of the Anglican Communion first met at Lambeth in 1867, called together by the Church of England.'",
+   "fix": "'It carries on from the Victorian Church of England. That church called the first Lambeth Conference of bishops in 1867.' (field FRE 63.7)."
+  },
+  {
+   "id": "R1-15",
+   "severity": "minor",
+   "link_or_field": "fundamentalism-1910-1970s--the-mainline-century-liberal-and-neo-orthodox (note)",
+   "problem": "'more than a thousand of its ministers and elders signed a statement': the Affirmation is signed 'We, the undersigned, ministers'. The editor's headnote says 'pastors and elders' only of the first 150 names.",
+   "evidence": "pcahistory.org raw text: 'We, the undersigned, ministers of the Presbyterian Church in the United States of America ...'; headnote: '1274 names'.",
+   "fix": "'In 1924 more than a thousand of its ministers signed a statement.'"
+  },
+  {
+   "id": "R1-16",
+   "severity": "minor",
+   "link_or_field": "disciples-of-christ-and-independent-christian-churches--the-ecumenical-movement-and-the-wcc (note)",
+   "problem": "'The council's own list of member churches still gives that date': 'still' points to the present-day page, which is after 2010.",
+   "evidence": "The source is a current oikoumene.org page; the drafter flag notes it is after 2010.",
+   "fix": "'The council's own list of member churches gives that date.'"
+  },
+  {
+   "id": "R1-17",
+   "severity": "minor",
+   "link_or_field": "the-catholic-church-pius-x-to-the-council--the-ecumenical-movement-and-the-wcc (major.kind)",
+   "problem": "major.kind is 'council-law', but Mortalium Animos is a papal encyclical, not a council or canon. The test is met as 'a rule ... changed by an authority', so 'rule-changed' fits better. The major status and the outcome are correct.",
+   "evidence": "Vatican text, section 8 (re-read raw): 'nor is it anyway lawful for Catholics either to support or to work for such enterprises'.",
+   "fix": "Set major.kind to 'rule-changed'. No change to the outcome."
+  },
+  {
+   "id": "R1-18",
+   "severity": "minor",
+   "link_or_field": "charismatic-renewal-and-the-jesus-movement relationsSummary (group D n=0) and disposition reasons",
+   "problem": "The new sentence 'Calvary Chapel and the Vineyard built big new churches, of a kind some writers called megachurches' rests, per its disposition, on Miller's publisher's description, and the New Calvinist qualification cites Hansen's publisher. Publisher descriptions are summaries and never count. The sentence is true, and Miller is cited in the repo, so it can rest on the named book instead.",
+   "evidence": "Disposition: \"Miller's publisher calls the Calvary Chapel and Vineyard churches 'new paradigm churches—sometimes called megachurches'\".",
+   "fix": "Change the disposition reason to rest on Miller, Reinventing American Protestantism (1997), named and not re-checked, not on the publisher's page. The prose can stay."
+  },
+  {
+   "id": "R1-19",
+   "severity": "minor",
+   "link_or_field": "Pre-existing map and 'here' remarks in fields this record rewrites",
+   "problem": "Rewritten fields keep map commentary: ecumenical legacy 'This map draws it as the counter-pole ...'; narrative-kingdom legacy 'this map takes that at face value' and 'shown elsewhere on this map'; Messianic Judaism legacy 'On this map, the question ...'; dispensational legacy 'carried elsewhere on this map'; emerging-church legacy 'The map closes it at 2010 ...'; Confessing Church legacy 'this map treats it as a closed story'; charismatic summary 'are named here'; Azusa legacy 'run back through here'; Chinese church 'is named here'; Global South summary 'is told in the entry on Philippine Catholicism'. CLAUDE.md asks a PR that edits a live file to clean it, but 'this map…' in participant copy is an open question before Mark (Open-Gaps 140; CFT Decision-Log 2026-11-10, recommendation 'leave as they are').",
+   "evidence": "Scan of all 40 new texts for map/here/entry wording.",
+   "fix": "No change required while Open-Gaps 140 is open. If Mark rules against such copy, clean these fields in the same pass. 'is told in the entry on Philippine Catholicism' uses the internal word 'entry' and should become 'belongs to the story of Philippine Catholicism' either way."
+  }
+ ]
+}
