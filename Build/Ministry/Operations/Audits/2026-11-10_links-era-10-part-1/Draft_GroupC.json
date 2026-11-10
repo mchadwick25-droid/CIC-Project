@@ -1,0 +1,1042 @@
+{
+ "group": "C",
+ "movements": [
+  "the-mainline-century-liberal-and-neo-orthodox",
+  "the-black-church-in-the-twentieth-century",
+  "the-anglican-communion-twentieth-century",
+  "korean-protestantism-twentieth-century",
+  "the-christian-homeschool-movement",
+  "the-megachurch-and-seeker-movement"
+ ],
+ "dispositions": [
+  {
+   "movement": "the-mainline-century-liberal-and-neo-orthodox",
+   "field": "relationsSummary",
+   "sentence": "This tradition reaches back to Schleiermacher and the historical-critical scholarship of the nineteenth century, including the Briggs heresy trial of 1891–93 and Harnack's work around 1900, and took institutional shape with the Federal Council of Churches in 1908.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Schleiermacher, the historical-critical school, the Briggs trial and Harnack have no movement of their own in eras 8 or 9. Harnack's own works are vendored, but none speaks of this American tradition. Left under the open item on well-known facts."
+  },
+  {
+   "movement": "the-mainline-century-liberal-and-neo-orthodox",
+   "field": "relationsSummary",
+   "sentence": "This tradition reaches back to Schleiermacher and the historical-critical scholarship of the nineteenth century, including the Briggs heresy trial of 1891–93 and Harnack's work around 1900, and took institutional shape with the Federal Council of Churches in 1908.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Federal Council of Churches (1908) has no movement of its own. The Social Gospel's text names this movement through the Council's 1908 Social Creed; that pair is group A's to draft, since this text does not name the Social Gospel."
+  },
+  {
+   "movement": "the-mainline-century-liberal-and-neo-orthodox",
+   "field": "relationsSummary",
+   "sentence": "The fundamentalist-modernist controversy — Fosdick's sermon in 1922, Machen's reply in 1923, and the Auburn Affirmation in 1924 — stands in tension with fundamentalism as its opposite pole.",
+   "other_id": "fundamentalism-1910-1970s",
+   "disposition": "link",
+   "link_id": "fundamentalism-1910-1970s--the-mainline-century-liberal-and-neo-orthodox",
+   "prose_change": null,
+   "reason": "The existing 'broke with' link; note rewritten and the Auburn Affirmation's own words added."
+  },
+  {
+   "movement": "the-mainline-century-liberal-and-neo-orthodox",
+   "field": "relationsSummary",
+   "sentence": "From within liberal theology, Barth's turn to neo-orthodoxy (1919/1922) was carried further by Niebuhr, Bultmann, and Tillich; Barth's line also runs into the Confessing Church and the Barmen Declaration.",
+   "other_id": "the-confessing-church",
+   "disposition": "link",
+   "link_id": "the-mainline-century-liberal-and-neo-orthodox--the-confessing-church",
+   "prose_change": null,
+   "reason": "New 'influenced' link at Dominant Modern Reconstruction: Barth drafted Barmen."
+  },
+  {
+   "movement": "the-mainline-century-liberal-and-neo-orthodox",
+   "field": "relationsSummary",
+   "sentence": "The National Council of Churches, formed in 1950, and the World Council of Churches are this tradition's institutional and conciliar homes.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The National Council of Churches has no movement of its own."
+  },
+  {
+   "movement": "the-mainline-century-liberal-and-neo-orthodox",
+   "field": "relationsSummary",
+   "sentence": "The National Council of Churches, formed in 1950, and the World Council of Churches are this tradition's institutional and conciliar homes.",
+   "other_id": "the-ecumenical-movement-and-the-wcc",
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The sentence names membership, not lineage, and no one of the six link types fits membership. Supported by the census source rows (Federal and National Council records) and by the World Council's own history page, read online, which calls it 'Predominately Protestant and Western in its earliest years'. The ecumenical entry's stronger 'grew out of' claim is in group A's text, so group A drafts any link."
+  },
+  {
+   "movement": "the-mainline-century-liberal-and-neo-orthodox",
+   "field": "relationsSummary",
+   "sentence": "Membership peaked in the mid-1960s and then declined, and this current hands off around 1990 to the current called progressive Christianity.",
+   "other_id": "progressive-christianity-a-broad-label-not-one-m",
+   "disposition": "link",
+   "link_id": "the-mainline-century-liberal-and-neo-orthodox--progressive-christianity-a-broad-label-not-one-m",
+   "prose_change": null,
+   "reason": "New 'gave rise to' link at Dominant Modern Reconstruction."
+  },
+  {
+   "movement": "the-mainline-century-liberal-and-neo-orthodox",
+   "field": "longDescription",
+   "sentence": "The public rupture came in the 1920s: Harry Emerson Fosdick preached 'Shall the Fundamentalists Win?' on 21 May 1922; J. Gresham Machen answered with Christianity and Liberalism in 1923; and the Auburn Affirmation, released on 9 January 1924 with about 150 signatures and eventually some 1,300, answered from the other side.",
+   "other_id": "fundamentalism-1910-1970s",
+   "disposition": "link",
+   "link_id": "fundamentalism-1910-1970s--the-mainline-century-liberal-and-neo-orthodox",
+   "prose_change": null,
+   "reason": "Same 'broke with' link. The Auburn Affirmation's 150 first signers and January 1924 date are confirmed by the PCA Historical Center's headnote, read online."
+  },
+  {
+   "movement": "the-mainline-century-liberal-and-neo-orthodox",
+   "field": "longDescription",
+   "sentence": "Its reach-back runs to Schleiermacher and to the historical-critical century — the Briggs heresy trial of 1891 to 1893 in America, Harnack's What Is Christianity? in 1900 — and its institutional face arrived with the Federal Council of Churches in 1908.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Same background as in the summary; no movement of its own."
+  },
+  {
+   "movement": "the-mainline-century-liberal-and-neo-orthodox",
+   "field": "longDescription",
+   "sentence": "Then the ground moved again from inside: Karl Barth's Romans commentary of 1919, rewritten in 1922, opened the neo-orthodox turn against the liberal theology that had formed the field, and Reinhold Niebuhr, Rudolf Bultmann and Paul Tillich each reshaped the field in turn.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Names persons inside this movement, not a relationship between movements; the census source rows give the dates."
+  },
+  {
+   "movement": "the-mainline-century-liberal-and-neo-orthodox",
+   "field": "why",
+   "sentence": "Harry Emerson Fosdick's 1922 sermon 'Shall the Fundamentalists Win?' and J. Gresham Machen's reply the following year opened a rupture that the Auburn Affirmation, eventually signed by some 1,300 mainline clergy, answered from the liberal side.",
+   "other_id": "fundamentalism-1910-1970s",
+   "disposition": "link",
+   "link_id": "fundamentalism-1910-1970s--the-mainline-century-liberal-and-neo-orthodox",
+   "prose_change": null,
+   "reason": "Same 'broke with' link."
+  },
+  {
+   "movement": "the-mainline-century-liberal-and-neo-orthodox",
+   "field": "legacy",
+   "sentence": "and from around 1990 the current that carried their questions went under the progressive label, which this map treats as their continuation.",
+   "other_id": "progressive-christianity-a-broad-label-not-one-m",
+   "disposition": "link",
+   "link_id": "the-mainline-century-liberal-and-neo-orthodox--progressive-christianity-a-broad-label-not-one-m",
+   "prose_change": 0,
+   "reason": "Same 'gave rise to' link; the map-layout remark rewritten in plain words."
+  },
+  {
+   "movement": "the-mainline-century-liberal-and-neo-orthodox",
+   "field": "legacy",
+   "sentence": "Their institutional legacy is large: the National Council of Churches from 1950, the World Council of Churches in Geneva, and a network of seminaries that trained the denominations' clergy and produced much of the century's biblical and theological scholarship.",
+   "other_id": "the-ecumenical-movement-and-the-wcc",
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": 0,
+   "reason": "Membership, not lineage, as in the summary; the sentence is only split for reading level."
+  },
+  {
+   "movement": "the-mainline-century-liberal-and-neo-orthodox",
+   "field": "legacy",
+   "sentence": "Barth's line ran into the Confessing Church, whose Barmen Declaration he drafted.",
+   "other_id": "the-confessing-church",
+   "disposition": "link",
+   "link_id": "the-mainline-century-liberal-and-neo-orthodox--the-confessing-church",
+   "prose_change": null,
+   "reason": "Same 'influenced' link."
+  },
+  {
+   "movement": "the-mainline-century-liberal-and-neo-orthodox",
+   "field": "legacy",
+   "sentence": "And the argument with fundamentalism, fought out in dated documents on both sides, is the one this map draws as a standing tension rather than a settled question.",
+   "other_id": "fundamentalism-1910-1970s",
+   "disposition": "link",
+   "link_id": "fundamentalism-1910-1970s--the-mainline-century-liberal-and-neo-orthodox",
+   "prose_change": 0,
+   "reason": "Same 'broke with' link; the map-layout remark rewritten as 'was never settled'."
+  },
+  {
+   "movement": "the-black-church-in-the-twentieth-century",
+   "field": "relationsSummary",
+   "sentence": "This is the twentieth-century continuation of the Black church tradition.",
+   "other_id": "the-black-church-in-america",
+   "disposition": "link",
+   "link_id": "the-black-church-in-america--the-black-church-in-the-twentieth-century",
+   "prose_change": null,
+   "reason": "The existing 'continued as' link, kept."
+  },
+  {
+   "movement": "the-black-church-in-the-twentieth-century",
+   "field": "relationsSummary",
+   "sentence": "The Great Migration remade it as an urban, northern institution; the Church of God in Christ rose from 1907; the National Baptist Convention split in 1915; the civil rights movement grew out of these congregations, with Martin Luther King Jr and the Southern Christian Leadership Conference, founded in 1957; and James Cone's writings opened the field of Black theology.",
+   "other_id": "azusa-street-and-early-pentecostalism",
+   "disposition": "link",
+   "link_id": "azusa-street-and-early-pentecostalism--the-black-church-in-the-twentieth-century",
+   "prose_change": null,
+   "reason": "The Church of God in Christ's rise from 1907 is its Pentecostal turn after C. H. Mason's stay at Azusa Street; drafted as 'influenced'."
+  },
+  {
+   "movement": "the-black-church-in-the-twentieth-century",
+   "field": "relationsSummary",
+   "sentence": "The Great Migration remade it as an urban, northern institution; the Church of God in Christ rose from 1907; the National Baptist Convention split in 1915; the civil rights movement grew out of these congregations, with Martin Luther King Jr and the Southern Christian Leadership Conference, founded in 1957; and James Cone's writings opened the field of Black theology.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Great Migration, the 1915 National Baptist division, the civil-rights movement, the SCLC and Black theology have no movement of their own. No vendored text covers them (all after the Library's reach); left under the open item on well-known facts."
+  },
+  {
+   "movement": "the-black-church-in-the-twentieth-century",
+   "field": "relationsSummary",
+   "sentence": "Its worship traditions also share roots with the Pentecostal movement that grew out of the Azusa Street revival.",
+   "other_id": "azusa-street-and-early-pentecostalism",
+   "disposition": "link",
+   "link_id": "azusa-street-and-early-pentecostalism--the-black-church-in-the-twentieth-century",
+   "prose_change": null,
+   "reason": "Drafted as 'influenced' on Mason's own words in the Azusa mission's paper. The shared root itself is carried by the existing links from the nineteenth-century Black church to Azusa Street and to this movement."
+  },
+  {
+   "movement": "the-black-church-in-the-twentieth-century",
+   "field": "longDescription",
+   "sentence": "The Church of God in Christ, which took its Pentecostal turn in 1907 out of Memphis, rose fast and became one of the century's major bodies.",
+   "other_id": "azusa-street-and-early-pentecostalism",
+   "disposition": "link",
+   "link_id": "azusa-street-and-early-pentecostalism--the-black-church-in-the-twentieth-century",
+   "prose_change": null,
+   "reason": "Same 'influenced' link; Mason wrote from 609 Stephens Ave., Memphis."
+  },
+  {
+   "movement": "the-black-church-in-the-twentieth-century",
+   "field": "longDescription",
+   "sentence": "From the 1950s the congregations were the civil-rights movement's infrastructure: Martin Luther King Jr and the Southern Christian Leadership Conference, founded in 1957, worked out of them, and much of what survives of that movement's own voice is sermons.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The civil-rights movement has no movement of its own; open item on well-known facts."
+  },
+  {
+   "movement": "the-black-church-in-the-twentieth-century",
+   "field": "why",
+   "sentence": "The Great Migration carried Black congregations out of the rural South and into northern cities, remaking a whole religious culture within a generation; the Church of God in Christ took its Pentecostal turn out of Memphis in 1907 and grew into one of the century's major denominations, while the National Baptist Convention split in 1915.",
+   "other_id": "azusa-street-and-early-pentecostalism",
+   "disposition": "link",
+   "link_id": "azusa-street-and-early-pentecostalism--the-black-church-in-the-twentieth-century",
+   "prose_change": null,
+   "reason": "Same 'influenced' link."
+  },
+  {
+   "movement": "the-black-church-in-the-twentieth-century",
+   "field": "why",
+   "sentence": "From the 1950s these congregations were the civil rights movement's infrastructure — Martin Luther King Jr. worked out of the Southern Christian Leadership Conference, founded in 1957 — and at the end of the 1960s James Cone's books opened Black theology as a field of its own.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Civil-rights movement and Black theology: no movement of their own; open item on well-known facts."
+  },
+  {
+   "movement": "the-black-church-in-the-twentieth-century",
+   "field": "legacy",
+   "sentence": "It supplied the civil-rights movement with its buildings, its money, its networks and much of its language, and through the century the sermon was the form in which a great deal of American public moral argument got made.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 1,
+   "reason": "Civil-rights movement: no movement of its own. The sentence is only split for reading level."
+  },
+  {
+   "movement": "the-black-church-in-the-twentieth-century",
+   "field": "legacy",
+   "sentence": "And on this map the entry answers a debt: the nineteenth-century Black church entry ends in 1906 pointing forward to 'the civil-rights church' as its own future, and no entry carried it before this one.",
+   "other_id": "the-black-church-in-america",
+   "disposition": "link",
+   "link_id": "the-black-church-in-america--the-black-church-in-the-twentieth-century",
+   "prose_change": 1,
+   "reason": "The existing 'continued as' link; the map-layout remark rewritten in plain words."
+  },
+  {
+   "movement": "the-anglican-communion-twentieth-century",
+   "field": "relationsSummary",
+   "sentence": "It carries on from the Victorian Church of England and the Oxford Movement.",
+   "other_id": "victorian-church-of-england",
+   "disposition": "link",
+   "link_id": "victorian-church-of-england--the-anglican-communion-twentieth-century",
+   "prose_change": 2,
+   "reason": "New 'continued as' link at Widely Accepted, on the 1920 Lambeth report read online."
+  },
+  {
+   "movement": "the-anglican-communion-twentieth-century",
+   "field": "relationsSummary",
+   "sentence": "It carries on from the Victorian Church of England and the Oxford Movement.",
+   "other_id": "the-oxford-movement-and-anglo-catholic-revival",
+   "disposition": "link",
+   "link_id": "the-oxford-movement-and-anglo-catholic-revival--the-anglican-communion-twentieth-century",
+   "prose_change": 2,
+   "reason": "New 'influenced' link at Widely Accepted, on the 1933 Catholic Congress report read online. 'Carries on from' is narrowed in the prose to the Anglo-Catholic party living on inside the Communion."
+  },
+  {
+   "movement": "the-anglican-communion-twentieth-century",
+   "field": "relationsSummary",
+   "sentence": "In this era Anglicans also appear inside other stories, such as the East African Revival and the Church of South India.",
+   "other_id": "the-east-african-revival-balokole",
+   "disposition": "link",
+   "link_id": "the-anglican-communion-twentieth-century--the-east-african-revival-balokole",
+   "prose_change": 2,
+   "reason": "New 'gave rise to' link at Dominant Modern Reconstruction."
+  },
+  {
+   "movement": "the-anglican-communion-twentieth-century",
+   "field": "relationsSummary",
+   "sentence": "In this era Anglicans also appear inside other stories, such as the East African Revival and the Church of South India.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 2,
+   "reason": "The Church of South India (1947) has no movement of its own. That Anglican dioceses entered it is a well-known fact with no vendored source; left under the open item on well-known facts."
+  },
+  {
+   "movement": "the-anglican-communion-twentieth-century",
+   "field": "longDescription",
+   "sentence": "In June 2008 the first Global Anglican Future Conference (GAFCON) met in Jerusalem.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "GAFCON has no movement of its own; the census source row gives the date. Not a relationship between movements."
+  },
+  {
+   "movement": "the-anglican-communion-twentieth-century",
+   "field": "longDescription",
+   "sentence": "In 1920 they sent out an Appeal to All Christian People.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Names no other movement. The 1920 report read online for the Victorian link contains the Appeal (Resolution 9); the census source row gives its date."
+  },
+  {
+   "movement": "korean-protestantism-twentieth-century",
+   "field": "relationsSummary",
+   "sentence": "The Pyongyang revival of 1907 has its own entry, which ends in 1910.",
+   "other_id": "the-1904-07-revival-family-wales-mukti-india-pyo",
+   "disposition": "link",
+   "link_id": "the-1904-07-revival-family-wales-mukti-india-pyo--korean-protestantism-twentieth-century",
+   "prose_change": 3,
+   "reason": "New 'influenced' link at Dominant Modern Reconstruction; the map-layout remark rewritten in plain words."
+  },
+  {
+   "movement": "korean-protestantism-twentieth-century",
+   "field": "relationsSummary",
+   "sentence": "Yoido Full Gospel Church, founded in Seoul in 1958, is told with Global South Pentecostal Christianity.",
+   "other_id": "global-south-pentecostal-christianity",
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": 3,
+   "reason": "A cross-reference, not a relationship claim: Global South Pentecostal Christianity's own text names Yoido (1958). Rewritten without the map-layout wording; no link is claimed."
+  },
+  {
+   "movement": "korean-protestantism-twentieth-century",
+   "field": "relationsSummary",
+   "sentence": "Korea's Catholics have their own entry, which ends in 1886.",
+   "other_id": "korean-catholic-origins",
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": 3,
+   "reason": "A cross-reference, not a relationship claim. Rewritten without the map-layout wording, using the Korean Catholic movement's own dates (from 1784; Protestant missionaries 'a hundred years after')."
+  },
+  {
+   "movement": "korean-protestantism-twentieth-century",
+   "field": "longDescription",
+   "sentence": "The articles came from the Presbyterian Church in India, which had drawn them up in 1904.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Presbyterian Church in India has no movement of its own. The census source rows (the Twelve Articles as printed in H. Kim, 2019) support the 1904 origin."
+  },
+  {
+   "movement": "korean-protestantism-twentieth-century",
+   "field": "legacy",
+   "sentence": "In the 1960s and 1970s most of the divided Presbyterian churches adopted the Westminster Confession.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Westminster Assembly has no movement of its own; the text names a confession, not a parent movement. No era 8 or era 9 parent is named anywhere in this new row's text."
+  },
+  {
+   "movement": "the-christian-homeschool-movement",
+   "field": "relationsSummary",
+   "sentence": "That ties this entry to Fundamentalism.",
+   "other_id": "fundamentalism-1910-1970s",
+   "disposition": "link",
+   "link_id": "fundamentalism-1910-1970s--the-christian-homeschool-movement",
+   "prose_change": 4,
+   "reason": "New 'influenced' link at Dominant Modern Reconstruction; the internal wording rewritten."
+  },
+  {
+   "movement": "the-christian-homeschool-movement",
+   "field": "longDescription",
+   "sentence": "Sociologist Mitchell Stevens traced one root of homeschooling to the Christian day-school movement of the 1960s and 1970s.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Christian day-school movement has no movement of its own; it is the channel of the Fundamentalism link. Supported by Stevens, cited in the census."
+  },
+  {
+   "movement": "the-christian-homeschool-movement",
+   "field": "why",
+   "sentence": "He traced one of its two roots to the Christian day schools of the 1960s and 1970s.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Same: Christian day schools, no movement of their own."
+  },
+  {
+   "movement": "the-christian-homeschool-movement",
+   "field": "longDescription",
+   "sentence": "In March 1983 two homeschooling fathers, the lawyers Michael Farris and J. Michael Smith, launched the Home School Legal Defense Association with their wives.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "HSLDA has no movement of its own; the census source rows (HSLDA's own pages) support it."
+  },
+  {
+   "movement": "the-christian-homeschool-movement",
+   "field": "longDescription",
+   "sentence": "Around 1982 James Dobson interviewed Raymond Moore about the book on the air.",
+   "other_id": null,
+   "disposition": "kept-as-is",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Names persons, not a movement. The census source row (Farris, HSLDA) supports it. The text does not name the Christian Right, so no link is drafted."
+  },
+  {
+   "movement": "the-megachurch-and-seeker-movement",
+   "field": "relationsSummary",
+   "sentence": "Child of evangelical pragmatism; small-group systems as formation technology; the worship-music culture (Hillsong and kin) as its global carrier.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": 5,
+   "reason": "'Evangelical pragmatism', small groups and Hillsong have no movement of their own. Rewritten as plain sentences naming the church-growth school, which the long description and source list support."
+  },
+  {
+   "movement": "the-megachurch-and-seeker-movement",
+   "field": "longDescription",
+   "sentence": "Behind both lay the church-growth school, and Donald McGavran's Understanding Church Growth (1970).",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The church-growth school has no movement of its own; the census source row names McGavran (1970)."
+  },
+  {
+   "movement": "the-megachurch-and-seeker-movement",
+   "field": "longDescription",
+   "sentence": "The other great carrier was music: Hillsong, founded in Australia in 1983, became a global publisher of congregational songs, and licensing data shows how widely they were sung.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "Hillsong has no movement of its own; the census source row (Hillsong catalog, CCLI data) supports it. The text does not call it Pentecostal, so no link is drafted."
+  },
+  {
+   "movement": "the-megachurch-and-seeker-movement",
+   "field": "longDescription",
+   "sentence": "The Willow Creek Association, from 1992, exported the model by conference and manual.",
+   "other_id": null,
+   "disposition": "no-entry",
+   "link_id": null,
+   "prose_change": null,
+   "reason": "The Willow Creek Association has no movement of its own."
+  }
+ ],
+ "links": [
+  {
+   "id": "fundamentalism-1910-1970s--the-mainline-century-liberal-and-neo-orthodox",
+   "action": "rewrite",
+   "from": "fundamentalism-1910-1970s",
+   "to": "the-mainline-century-liberal-and-neo-orthodox",
+   "type": "broke with",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "In the early 1920s, liberal and conservative Protestants in the United States split. In May 1922 Harry Emerson Fosdick preached against the fundamentalists. J. Gresham Machen wrote back in 1923. In January 1924 a large group of liberal ministers said others were trying 'to divide the church'. Each side wrote down the break.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "An Affirmation designed to safeguard the unity and liberty of the Presbyterian Church in the United States of America (the Auburn Affirmation; first printed January 1924, final printing Auburn, NY, 5 May 1924), text as reproduced by the PCA Historical Center",
+     "url": "https://pcahistory.org/documents/auburn/auburntext.html",
+     "accessed": "2026-11-10",
+     "locus": "Opening paragraph",
+     "quote": "We, the undersigned, ministers of the Presbyterian Church in the United States of America, feel bound, in view of certain actions of the General Assembly of 1923 and of persistent attempts to divide the church and abridge its freedom, to express our convictions in matters pertaining thereto.",
+     "license": "public-domain (published 1924); read online"
+    },
+    {
+     "kind": "secondary",
+     "work": "George M. Marsden, Fundamentalism and American Culture (Oxford University Press, 1980)"
+    },
+    {
+     "kind": "secondary",
+     "work": "Bradley J. Longfield, The Presbyterian Controversy: Fundamentalists, Modernists, and Moderates (Oxford University Press, 1991)"
+    },
+    {
+     "kind": "secondary",
+     "work": "Gary Dorrien, The Making of American Liberal Theology (Westminster John Knox, 2001-2006)"
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-online",
+   "named_in_text": [
+    "the-mainline-century-liberal-and-neo-orthodox relationsSummary, longDescription, why and legacy (Fosdick, Machen, the Auburn Affirmation; 'the argument with fundamentalism')",
+    "fundamentalism-1910-1970s relationsSummary ('against theological liberalism, as in J. Gresham Machen's Christianity and Liberalism')"
+   ],
+   "wants": [
+    "J. Gresham Machen, Christianity and Liberalism (1923): public domain in the United States; the conservative side's own dated text",
+    "Harry Emerson Fosdick, 'Shall the Fundamentalists Win?' (1922): public domain; the liberal side's own dated text",
+    "The Auburn Affirmation (1924): public domain; vendoring it would let the quote be re-checked in the Library"
+   ],
+   "drafter_flags": [
+    "Grade kept at Dominant Modern Reconstruction. The Auburn Affirmation is a statement by some 1,300 ministers, not an act of a church body, so it may not meet the era 10 rule for a primary read online; it is added as the liberal side's own words, not used to raise the grade. With Machen and Fosdick vendored (both public domain) the link could be re-graded.",
+    "The PCA Historical Center hosts the text in order to criticize it; its transcription is said to be checked against the 1924 printings. The quote is from the document's own text, not the host's comment.",
+    "Fundamentalism belongs to group B; this pair may be reviewed there too. Resolve at merge."
+   ],
+   "change_reason": "Note rewritten: its second sentence ran past 25 words. Added the Auburn Affirmation's own words as a source read online. From, to, type and grade unchanged."
+  },
+  {
+   "id": "the-black-church-in-america--the-black-church-in-the-twentieth-century",
+   "from": "the-black-church-in-america",
+   "to": "the-black-church-in-the-twentieth-century",
+   "type": "continued as",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "In 1816 Black Methodists in Philadelphia and Baltimore formed a church of their own. It was the African Methodist Episcopal Church. It lived on in the next century, as did the AME Zion Church and the Black Baptist churches. Historians see the Black church of that century as the same tradition carried on. That church led much of the civil rights movement.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Richard Allen, The Life, Experience, and Gospel Labors of the Rt. Rev. Richard Allen (1880 reprint of 1833)",
+     "file": "cic/texts/allen-richard_life-experience-and-gospel-labors_1880.txt",
+     "lines": "992-994",
+     "locus": "Rise and Progress of the AME Church",
+     "quote": "That  the  people  of  Philadelphia,  Baltimore,  &c,  &c, should  become  one  body,  under  the  name  of  the  Af- rican Methodist  Episcopal  Church.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Milton C. Sernett (ed.), African American Religious History: A Documentary Witness (Duke University Press, 2nd ed. 1999)",
+     "file": null,
+     "lines": null,
+     "quote": null
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "action": "keep",
+   "named_in_text": [
+    "the-black-church-in-the-twentieth-century relationsSummary ('the twentieth-century continuation of the Black church tradition') and legacy",
+    "the-black-church-in-america continuesAs field"
+   ],
+   "wants": [
+    "Twentieth-century Black church records (Church of God in Christ, National Baptist Convention) fall after the Library's reach; none is vendored"
+   ],
+   "drafter_flags": [
+    "Published by the era 9 part 1 pass (round 2) and passed its review. The note's last sentence (civil rights) rests on Sernett's documentary history, named, not read in this pass."
+   ],
+   "change_reason": "Kept unchanged: type, grade, quote and note all checked; the quote matches lines 992-994 of the vendored Allen narrative."
+  },
+  {
+   "id": "victorian-church-of-england--the-anglican-communion-twentieth-century",
+   "action": "new",
+   "from": "victorian-church-of-england",
+   "to": "the-anglican-communion-twentieth-century",
+   "type": "continued as",
+   "confidence": "Widely Accepted",
+   "note": "The bishops of the Anglican Communion first met at Lambeth in 1867, called together by the Church of England. When they met again in 1920, they spoke of their Communion as the same one. By 1867, they wrote, it was already a federation of self-governing churches.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Conference of Bishops of the Anglican Communion, holden at Lambeth Palace, July 5 to August 7, 1920: Encyclical Letter from the Bishops, with the Resolutions and Reports (London: SPCK, 1920)",
+     "url": "https://archive.org/details/conferenceofbish00lamb",
+     "accessed": "2026-11-10",
+     "locus": "Report of the Committee on the Reunion of Christendom, p. 137",
+     "quote": "At the date of the first Lambeth Conference, 1867, this Communion had taken the form of a federation of self-governing Churches",
+     "license": "public-domain (published 1920); read online in the Internet Archive full text"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Kevin Ward, A History of Global Anglicanism (Cambridge University Press, 2006)",
+     "file": null,
+     "lines": null,
+     "quote": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "William L. Sachs, ed., The Oxford History of Anglicanism, Volume V: Global Anglicanism, c. 1910-2000 (Oxford University Press, 2017)",
+     "file": null,
+     "lines": null,
+     "quote": null
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-online",
+   "named_in_text": [
+    "the-anglican-communion-twentieth-century relationsSummary ('It carries on from the Victorian Church of England')",
+    "victorian-church-of-england relationsSummary and legacy ('the first Lambeth Conference in 1867, when the church's overseas missions became a worldwide Communion')"
+   ],
+   "wants": [
+    "The 1920 Lambeth report itself (archive.org identifier conferenceofbish00lamb; public domain, 1920): vendoring it would let this link be re-checked word for word and graded Documented",
+    "The Five Lambeth Conferences (1920; archive.org a589565300lambuoft): the 1867-1908 resolutions in one volume"
+   ],
+   "drafter_flags": [
+    "Read in the Internet Archive's full-text (OCR) rendering of the 1920 report, not the page image; the quoted words are clean in the OCR. The passage is in a committee report, which the 1920 conference published but did not formally adopt.",
+    "'Called together by the Church of England' rests on the Victorian movement's own text (the conference 'it improvised in 1867') and on Ward; it is not in the 1920 quote.",
+    "Ward and Sachs are cited in the census, named here, not read in this pass. Sachs (2017) is later than 2010; it supports earlier facts only.",
+    "The Victorian movement's text names this successor, but no era 9 link exists, so the era 10 text owns it."
+   ],
+   "change_reason": "New: the Anglican entry says it 'carries on from the Victorian Church of England'."
+  },
+  {
+   "id": "the-oxford-movement-and-anglo-catholic-revival--the-anglican-communion-twentieth-century",
+   "action": "new",
+   "from": "the-oxford-movement-and-anglo-catholic-revival",
+   "to": "the-anglican-communion-twentieth-century",
+   "type": "influenced",
+   "confidence": "Widely Accepted",
+   "note": "In 1933 Anglo-Catholics in the Episcopal Church held a large meeting in Philadelphia. They met to mark a hundred years since the Oxford Movement began. They gave thanks for its revival in their church and across the Anglican world.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "The Catholic Revival and the Kingdom of God: Addresses and Papers Delivered at the Sixth Catholic Congress of the Episcopal Church, Philadelphia, October 22 to 26, 1933 (Milwaukee: Morehouse; London: A. R. Mowbray, 1933), transcribed by Project Canterbury",
+     "url": "https://anglicanhistory.org/usa/congress/6/01.html",
+     "accessed": "2026-11-10",
+     "locus": "Introduction",
+     "quote": "THE SIXTH CATHOLIC CONGRESS of the Episcopal Church was held October 22d through 26th, 1933, in Philadelphia, to celebrate the Centenary of the beginnings of the Oxford Movement.",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "The Catholic Revival and the Kingdom of God: Addresses and Papers Delivered at the Sixth Catholic Congress of the Episcopal Church, Philadelphia, October 22 to 26, 1933 (Milwaukee: Morehouse; London: A. R. Mowbray, 1933), transcribed by Project Canterbury",
+     "url": "https://anglicanhistory.org/usa/congress/6/01.html",
+     "accessed": "2026-11-10",
+     "locus": "Introduction, quoting the Congress Handbook",
+     "quote": "The purpose of this Centenary Congress is to give thanks to Almighty God for the Catholic Revival in the Episcopal Church and throughout the Anglican communion",
+     "license": "rights reserved; short quotation"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "William L. Sachs, ed., The Oxford History of Anglicanism, Volume V: Global Anglicanism, c. 1910-2000 (Oxford University Press, 2017)",
+     "file": null,
+     "lines": null,
+     "quote": null
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-online",
+   "named_in_text": [
+    "the-anglican-communion-twentieth-century relationsSummary ('It carries on from ... the Oxford Movement')",
+    "the-oxford-movement-and-anglo-catholic-revival legacy ('Anglo-Catholicism became a lasting party inside Anglicanism ... worldwide')"
+   ],
+   "major": {
+    "major": false,
+    "kind": null,
+    "evidence": null,
+    "reason": "The sources show a congress celebrating the movement; no council, split or changed rule."
+   },
+   "wants": [
+    "The Report of the Oxford Movement Centenary Congress (London, July 1933): the English Anglo-Catholic side of the same centenary; not opened"
+   ],
+   "drafter_flags": [
+    "Typed 'influenced', not 'continued as': the Oxford Movement lived on as one party inside the Communion, not as the whole Communion.",
+    "The Catholic Congress was a voluntary body of Anglo-Catholics in the Episcopal Church, not the church's General Convention. Its 1933 report is a conference report, the kind the era 10 rule admits. Project Canterbury's transcription was read.",
+    "Sachs is cited in the census, named here, not read in this pass."
+   ],
+   "change_reason": "New: the Anglican entry says it 'carries on from ... the Oxford Movement'."
+  },
+  {
+   "id": "the-anglican-communion-twentieth-century--the-east-african-revival-balokole",
+   "action": "new",
+   "from": "the-anglican-communion-twentieth-century",
+   "to": "the-east-african-revival-balokole",
+   "type": "gave rise to",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "The East African Revival began around 1930 at an Anglican mission station in Rwanda. Historians say that Africans led it, and that it often clashed with the missions. But it did not leave. Its groups went on meeting inside the Anglican churches of East Africa.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Kevin Ward and Emma Wild-Wood (eds.), The East African Revival: History and Legacies (Ashgate, 2012)",
+     "file": null,
+     "lines": null,
+     "quote": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Derek R. Peterson, Ethnic Patriotism and the East African Revival (Cambridge University Press, 2012)",
+     "file": null,
+     "lines": null,
+     "quote": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Kevin Ward, A History of Global Anglicanism (Cambridge University Press, 2006)",
+     "file": null,
+     "lines": null,
+     "quote": null
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked",
+   "named_in_text": [
+    "the-anglican-communion-twentieth-century relationsSummary ('Anglicans also appear inside other stories, such as the East African Revival')",
+    "the-east-african-revival-balokole relationsSummary and legacy ('within (and often against) mission Anglicanism'; 'lived on inside East African Anglicanism')"
+   ],
+   "wants": [
+    "Joe Church, Quest for the Highest (1981), and the Kabale convention records: the revival's own and a missionary's account; not opened"
+   ],
+   "drafter_flags": [
+    "No primary text was opened. The grade rests on repo-cited studies, named, not read in this pass.",
+    "The revival belongs to group A, whose text names Anglicanism too; this pair may be drafted there as well. Resolve at merge."
+   ],
+   "change_reason": "New: the Anglican entry names the East African Revival as an Anglican story."
+  },
+  {
+   "id": "the-mainline-century-liberal-and-neo-orthodox--the-confessing-church",
+   "action": "new",
+   "from": "the-mainline-century-liberal-and-neo-orthodox",
+   "to": "the-confessing-church",
+   "type": "influenced",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "Karl Barth's book on Romans, first out in 1919, turned many Protestants away from liberal theology. In May 1934 a church synod at Barmen, in Germany, took up a statement Barth had drafted. It said the church must obey one Word alone, Jesus Christ.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Klaus Scholder, The Churches and the Third Reich (English translation, 2 vols., 1987-88)",
+     "file": null,
+     "lines": null,
+     "quote": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Victoria Barnett, For the Soul of the People (Oxford University Press, 1992)",
+     "file": null,
+     "lines": null,
+     "quote": null
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked",
+   "named_in_text": [
+    "the-mainline-century-liberal-and-neo-orthodox relationsSummary and legacy ('Barth's line also runs into the Confessing Church and the Barmen Declaration'; 'whose Barmen Declaration he drafted')",
+    "the-confessing-church longDescription ('a declaration, drafted by Karl Barth')"
+   ],
+   "major": {
+    "major": false,
+    "kind": null,
+    "evidence": null,
+    "reason": "No source on the link shows an institutional act between the two; the Barmen synod's own rejections target the German Christians, and its text is not on the link."
+   },
+   "wants": [
+    "The Barmen Theological Declaration (May 1934), in a church body's own published text (for example the Evangelical Church in Germany's): not opened in this run",
+    "Karl Barth, Der Romerbrief (1919): public domain in the United States; would document the neo-orthodox side"
+   ],
+   "drafter_flags": [
+    "Barth's drafting of Barmen is stated in both movements' texts; the studies are cited in the census, named, not read in this pass.",
+    "The Confessing Church belongs to group F; this pair may be drafted there too. Resolve at merge."
+   ],
+   "change_reason": "New: the mainline entry says Barth's line 'runs into the Confessing Church'."
+  },
+  {
+   "id": "the-mainline-century-liberal-and-neo-orthodox--progressive-christianity-a-broad-label-not-one-m",
+   "action": "new",
+   "from": "the-mainline-century-liberal-and-neo-orthodox",
+   "to": "progressive-christianity-a-broad-label-not-one-m",
+   "type": "gave rise to",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "From about 1990, many people in the old mainline churches called their faith progressive. Historians such as Gary Dorrien trace their ideas back to the liberal faith of those same churches in the years before.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Gary Dorrien, The Making of American Liberal Theology (Westminster John Knox, 3 vols., 2001, 2003, 2006)",
+     "file": null,
+     "lines": null,
+     "quote": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "David Hollinger, After Cloven Tongues of Fire (Princeton University Press, 2013)",
+     "file": null,
+     "lines": null,
+     "quote": null
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked",
+   "named_in_text": [
+    "the-mainline-century-liberal-and-neo-orthodox relationsSummary and legacy ('hands off around 1990 to the current called progressive Christianity')",
+    "progressive-christianity-a-broad-label-not-one-m relationsSummary and legacy ('It descends from the mainline century'; 'is its parent')"
+   ],
+   "wants": [
+    "A dated text of a progressive body that names its mainline roots, for example a revision of the Center for Progressive Christianity's points (1994-): not opened"
+   ],
+   "drafter_flags": [
+    "Typed 'gave rise to', not 'continued as': the progressive label also covers post-evangelical networks that did not come from the mainline, as the progressive text itself says.",
+    "Dorrien and Hollinger are cited in the census, named, not read in this pass. Hollinger (2013) is later than 2010; it supports earlier facts only.",
+    "Progressive Christianity belongs to group B; this pair may be drafted there too. Resolve at merge."
+   ],
+   "change_reason": "New: both texts name the parent-and-child relationship."
+  },
+  {
+   "id": "azusa-street-and-early-pentecostalism--the-black-church-in-the-twentieth-century",
+   "action": "new",
+   "from": "azusa-street-and-early-pentecostalism",
+   "to": "the-black-church-in-the-twentieth-century",
+   "type": "influenced",
+   "confidence": "Widely Accepted",
+   "note": "In early 1907 Charles H. Mason, a Black preacher from Memphis, came to the Azusa Street mission in Los Angeles. The mission's paper printed his account of receiving the Spirit there. Later that year he wrote that he had been 'put out' for it.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "C. H. Mason, testimony in The Apostolic Faith (Los Angeles: Azusa Street mission), vol. 1, no. 6, February-March 1907",
+     "url": "https://archives.ifphc.org/DigitalPublications/USA/Independent/Apostolic%20Faith%20(Azusa%20Street)/Unregistered/1907/FPHC/1907_02.pdf",
+     "accessed": "2026-11-10",
+     "locus": "p. 7, testimony signed C. H. Mason, 609 Stephens Ave., Memphis, Tenn.",
+     "quote": "I had a great desire in my heart to come to Los Angeles. I had preached the Pentecost to my people and they were hungry for it.",
+     "license": "public-domain (published 1907); page image read online"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "C. H. Mason, letter dated Lexington, Miss., Nov. 28, in The Apostolic Faith (Los Angeles: Azusa Street mission), vol. 1, no. 12, January 1908",
+     "url": "https://archives.ifphc.org/DigitalPublications/USA/Independent/Apostolic%20Faith%20(Azusa%20Street)/Unregistered/1908/FPHC/1908_01.pdf",
+     "accessed": "2026-11-10",
+     "locus": "p. 4, letter signed C. H. Mason",
+     "quote": "I was put out, becauses I believed that God did baptize me with the Holy Ghost among you all.",
+     "license": "public-domain (published 1908); page image read online"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Cecil M. Robeck Jr., The Azusa Street Mission and Revival (2006)",
+     "file": null,
+     "lines": null,
+     "quote": null
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-online",
+   "named_in_text": [
+    "the-black-church-in-the-twentieth-century relationsSummary ('Its worship traditions also share roots with the Pentecostal movement that grew out of the Azusa Street revival'), longDescription and why (the Church of God in Christ's Pentecostal turn in 1907)",
+    "azusa-street-and-early-pentecostalism legacy ('the Church of God in Christ turned Pentecostal in 1907')"
+   ],
+   "major": {
+    "major": false,
+    "kind": null,
+    "evidence": null,
+    "reason": "Mason writes that he was 'put out', but the letter names no body and no act; the 1907 division of the Church of God in Christ is not in the link's own sources."
+   },
+   "wants": [
+    "The Apostolic Faith (Los Angeles, 1906-1908, 13 issues): public domain; vendoring the run would let this link be re-checked in the Library and graded higher",
+    "A dated text of the Church of God in Christ on its 1907 reorganization: not found online in this run"
+   ],
+   "drafter_flags": [
+    "The Apostolic Faith was the Azusa Street mission's own paper, so it counts as a church body's own dated text. Both quotes were checked against the page images; 'becauses' is the paper's own misprint.",
+    "The 1908 letter is dated only 'Nov. 28' and printed in January 1908, so the year 1907 is inferred.",
+    "Robeck is cited in the census, named, not read in this pass.",
+    "Azusa Street belongs to group F, whose text names the Church of God in Christ; this pair may be drafted there too. Resolve at merge."
+   ],
+   "change_reason": "New: the twentieth-century Black church entry names its shared roots with Azusa Street and the Church of God in Christ's Pentecostal turn."
+  },
+  {
+   "id": "the-1904-07-revival-family-wales-mukti-india-pyo--korean-protestantism-twentieth-century",
+   "action": "new",
+   "from": "the-1904-07-revival-family-wales-mukti-india-pyo",
+   "to": "korean-protestantism-twentieth-century",
+   "type": "influenced",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "In January 1907 a revival broke out at a Bible meeting in Pyongyang. It was held at the Presbyterian school for pastors. That September the same church held its first presbytery. Historians of Korea see the revival as one that shaped the church that came after it.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Timothy S. Lee, Born Again: Evangelicalism in Korea (University of Hawai'i Press, 2010)",
+     "file": null,
+     "lines": null,
+     "quote": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Sung-Deuk Oak, The Making of Korean Christianity: Protestant Encounters with Korean Religions, 1876-1915 (Baylor University Press, 2013)",
+     "file": null,
+     "lines": null,
+     "quote": null
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked",
+   "named_in_text": [
+    "korean-protestantism-twentieth-century relationsSummary ('The Pyongyang revival of 1907 has its own entry')",
+    "the-1904-07-revival-family-wales-mukti-india-pyo legacy ('Korea's church in particular grew out of this decade ... and it went on growing')"
+   ],
+   "major": {
+    "major": false,
+    "kind": null,
+    "evidence": null,
+    "reason": "No source on the link shows a council, split or changed rule."
+   },
+   "wants": [
+    "The Korea Mission Field (1907), with John Z. Moore's 'The Great Revival Year' (August 1907): public domain; a dated account from inside the mission churches",
+    "Minutes of the first presbytery of the Presbyterian Church in Korea (17 September 1907)"
+   ],
+   "drafter_flags": [
+    "Typed 'influenced', not 'gave rise to': Korean Protestant churches existed from the 1880s, before the revival.",
+    "Lee and Oak are cited in the census, named, not read in this pass. A library listing seen in this run gives Lee's first chapter as 'Breakthrough for a New Moral Order, 1885-1919', but no passage was read, so the grade stays on the studies as named.",
+    "The revival belongs to group D; this pair may be drafted there too. Korean Protestantism is a new row (IX.64), so its parents named in its own text are this group's to draft; its text names no era 8 or era 9 parent."
+   ],
+   "change_reason": "New: the Korean entry names the 1907 Pyongyang revival."
+  },
+  {
+   "id": "fundamentalism-1910-1970s--the-christian-homeschool-movement",
+   "action": "new",
+   "from": "fundamentalism-1910-1970s",
+   "to": "the-christian-homeschool-movement",
+   "type": "influenced",
+   "confidence": "Dominant Modern Reconstruction",
+   "note": "In the late 1970s Alan Peshkin spent eighteen months in a fundamentalist Baptist day school in Illinois. Mitchell Stevens later traced one root of Christian homeschooling to such Christian day schools. The link rests on these studies.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Mitchell L. Stevens, Kingdom of Children: Culture and Controversy in the Homeschooling Movement (Princeton University Press, 2001)",
+     "file": null,
+     "lines": null,
+     "quote": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Alan Peshkin, God's Choice: The Total World of a Fundamentalist Christian School (University of Chicago Press, 1986)",
+     "file": null,
+     "lines": null,
+     "quote": null
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Milton Gaither, Homeschool: An American History (Palgrave Macmillan, 2008)",
+     "file": null,
+     "lines": null,
+     "quote": null
+    }
+   ],
+   "citation_specificity": "C",
+   "verification_state": "named-not-rechecked",
+   "named_in_text": [
+    "the-christian-homeschool-movement relationsSummary ('That ties this entry to Fundamentalism'), longDescription and why (the Christian day-school root)"
+   ],
+   "major": {
+    "major": false,
+    "kind": null,
+    "evidence": null,
+    "reason": "No source on the link shows a council, split or changed rule."
+   },
+   "wants": [
+    "A passage of Stevens, Kingdom of Children, on the day-school root: Princeton's page was opened and gives no sample chapter",
+    "Gaither, Homeschool: An American History (2008), on Christian day schools and homeschooling"
+   ],
+   "drafter_flags": [
+    "Thin in shape: Peshkin studied a day school, not homeschooling, and Stevens's 'Christian day schools' are not all fundamentalist. The link joins two studies. If the reviewer reads it as an inference rather than a reconstruction either study makes, it should drop to Inferential-Thin.",
+    "All three studies are cited in the census, named, not read in this pass.",
+    "Fundamentalism's window ends in the 1970s; homeschooling's opens in 1983. The influence runs through the day schools of the 1960s and 1970s."
+   ],
+   "change_reason": "New: the homeschool entry names Fundamentalism."
+  }
+ ],
+ "prose_changes": [
+  {
+   "n": 0,
+   "movement": "the-mainline-century-liberal-and-neo-orthodox",
+   "field": "legacy",
+   "old": "The mainline denominations were alive in 2010; what closed around 1990 was this particular century of theirs. Their membership peaked in the mid-1960s and turned down after that, and from around 1990 the current that carried their questions went under the progressive label, which this map treats as their continuation. Their institutional legacy is large: the National Council of Churches from 1950, the World Council of Churches in Geneva, and a network of seminaries that trained the denominations' clergy and produced much of the century's biblical and theological scholarship. Barth's line ran into the Confessing Church, whose Barmen Declaration he drafted. And the argument with fundamentalism, fought out in dated documents on both sides, is the one this map draws as a standing tension rather than a settled question.",
+   "new": "The mainline churches were alive in 2010. What closed around 1990 was this one century of theirs. Their numbers peaked in the mid-1960s and fell after that. From around 1990 the people who carried their questions often called their faith progressive. They left large bodies behind: the National Council of Churches from 1950, a home in the World Council of Churches, and many seminaries. Those seminaries trained the clergy and wrote much of the century's Bible scholarship. Barth's line ran into the Confessing Church, whose Barmen Declaration he drafted. And the argument with fundamentalism, fought out in dated texts on both sides, was never settled.",
+   "reason": "Two map-layout remarks ('which this map treats as their continuation'; 'the one this map draws as a standing tension') rewritten in plain words. The progressive tie is now the link drafted as 'gave rise to'. Long sentences split for reading level. Every fact kept."
+  },
+  {
+   "n": 1,
+   "movement": "the-black-church-in-the-twentieth-century",
+   "field": "legacy",
+   "old": "In 2010 it was a living tradition and, by any reckoning, one of the first-order Christian stories of the twentieth century. It supplied the civil-rights movement with its buildings, its money, its networks and much of its language, and through the century the sermon was the form in which a great deal of American public moral argument got made. Black theology became a field with its own literature and its own critics. And on this map the entry answers a debt: the nineteenth-century Black church entry ends in 1906 pointing forward to 'the civil-rights church' as its own future, and no entry carried it before this one.",
+   "new": "In 2010 it was a living tradition, and one of the great Christian stories of the twentieth century. It gave the civil-rights movement its buildings, its money, its networks and much of its language. Through the century, the sermon was where much of America's public moral argument got made. Black theology became a field with its own books and its own critics. And it carried forward the Black church of the nineteenth century, whose congregations became the civil-rights church of this one.",
+   "reason": "A map-layout remark ('on this map the entry answers a debt ... no entry carried it before this one') rewritten in plain words; the tie is the existing 'continued as' link. Long sentences split for reading level. Every fact kept."
+  },
+  {
+   "n": 2,
+   "movement": "the-anglican-communion-twentieth-century",
+   "field": "relationsSummary",
+   "old": "It carries on from the Victorian Church of England and the Oxford Movement. Both of those entries end in 1906. In this era Anglicans also appear inside other stories, such as the East African Revival and the Church of South India.",
+   "new": "It carries on from the Victorian Church of England, whose bishops first met at Lambeth in 1867. The Anglo-Catholic party that grew from the Oxford Movement lived on inside it. Anglicans also took part in other stories of this era, such as the East African Revival and the Church of South India.",
+   "reason": "'Both of those entries end in 1906' is a map-layout remark; removed. The Oxford Movement tie stated as what the sources show: an Anglo-Catholic party living on inside the Communion (drafted as 'influenced')."
+  },
+  {
+   "n": 3,
+   "movement": "korean-protestantism-twentieth-century",
+   "field": "relationsSummary",
+   "old": "The Pyongyang revival of 1907 has its own entry, which ends in 1910. Yoido Full Gospel Church, founded in Seoul in 1958, is told with Global South Pentecostal Christianity. Korea's Catholics have their own entry, which ends in 1886.",
+   "new": "The Pyongyang revival of 1907 shaped this church in its first year. Yoido Full Gospel Church, founded in Seoul in 1958, belongs to the wider story of Pentecostal growth in the Global South. Korea's Catholic Church is older. It began in the 1780s, a century before the first Protestant missionaries came.",
+   "reason": "Three map-layout remarks ('has its own entry, which ends in ...'; 'is told with') rewritten as plain statements. The revival tie is drafted as 'influenced'. The Catholic dates come from the Korean Catholic movement's own text."
+  },
+  {
+   "n": 4,
+   "movement": "the-christian-homeschool-movement",
+   "field": "relationsSummary",
+   "old": "Alan Peshkin studied a fundamentalist Baptist school. That ties this entry to Fundamentalism. Mitchell Stevens also traced a second root of homeschooling, a liberal one. It was not Christian, so it stays outside this entry.",
+   "new": "Mitchell Stevens traced one root of Christian homeschooling to the Christian day schools of the 1960s and 1970s. Alan Peshkin studied one such school, a fundamentalist Baptist school, so the movement has ties to Fundamentalism. Stevens also traced a second root, a liberal one. It was not Christian, so it is not part of this story.",
+   "reason": "'That ties this entry to Fundamentalism' and 'stays outside this entry' are internal wording; rewritten in plain words. The Fundamentalism tie is drafted as 'influenced' at Dominant Modern Reconstruction."
+  },
+  {
+   "n": 5,
+   "movement": "the-megachurch-and-seeker-movement",
+   "field": "relationsSummary",
+   "old": "Child of evangelical pragmatism; small-group systems as formation technology; the worship-music culture (Hillsong and kin) as its global carrier.",
+   "new": "It grew out of the church-growth school of evangelical thinking. Its churches formed people through small groups that met during the week. Worship songs, above all Hillsong's, carried it around the world.",
+   "reason": "Code-style summary rewritten as plain sentences. 'Evangelical pragmatism' named as the church-growth school, which the entry's own long description and source list (McGavran, 1970) support."
+  }
+ ],
+ "wants": [
+  "Lambeth Conference report of 1920 (archive.org conferenceofbish00lamb; public domain): vendor it to re-check the Victorian-to-Anglican link in the Library",
+  "The Apostolic Faith (Los Angeles, 1906-1908; public domain; held by the Flower Pentecostal Heritage Center): vendor the run to re-check the Azusa-to-Black-church link",
+  "J. Gresham Machen, Christianity and Liberalism (1923), Harry Emerson Fosdick, 'Shall the Fundamentalists Win?' (1922), and the Auburn Affirmation (1924): all public domain; the two sides of the 1920s rupture",
+  "Karl Barth, Der Romerbrief (1919; public domain in the United States) and the Barmen Theological Declaration (1934) in a church body's published text",
+  "The Korea Mission Field (1907), with John Z. Moore, 'The Great Revival Year' (August 1907): public domain",
+  "Minutes of the first presbytery of the Presbyterian Church in Korea (17 September 1907)",
+  "Joe Church, Quest for the Highest (1981), and the Kabale convention records of the East African Revival",
+  "A passage of Mitchell Stevens, Kingdom of Children (2001), and of Milton Gaither, Homeschool (2008), on the Christian day-school root",
+  "The Report of the Oxford Movement Centenary Congress (London, July 1933)",
+  "A dated text of a progressive Christian body that names its mainline roots"
+ ],
+ "escalations": [
+  "Possible method gap, for Mark: membership has no link type. The mainline text calls the World Council of Churches its 'conciliar home', and the ecumenical text says the Council 'grew out of' the mainline. None of the six types says 'its churches were members of'. This group left the mainline sentence as it stands (kept-as-is) and drew no link; group A's text carries the stronger claim. If a membership relation should be drawn, that is a new type or a ruling."
+ ]
+}

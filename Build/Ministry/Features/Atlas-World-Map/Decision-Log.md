@@ -13,6 +13,75 @@ actual world-selection flow is a future decision for the front-end thread, not t
 
 ---
 
+## 2026-11-10 — Change order: a seventh link type, "member of"; the era 10 drafters' questions ruled
+
+**Decided (Mark: "do the right thing not the easy, so b", then "Q1 b only").** The part 1 drafters
+of P2-L10 raised three method questions (the page "Era 10 Link Questions").
+
+- **Q1, membership: (b), a seventh link type, "member of".**
+  - A church that joined a council or fellowship of churches, on that body's own record, is drawn
+    as "member of", with the arrow from the member to the council.
+  - Membership claims no descent and no influence. It is never major and never carries
+    `outcome`.
+  - On the map it belongs to the contact family, labeled "In contact with, member of", and pulls
+    rivers together as contact does.
+  - Tree pages list it under "Member Of" and "Members". The method page now names seven kinds of
+    link.
+  - Options weighed: (a) draw membership as "in contact with" with a note; (b) a new type; (c) no
+    link. Mark chose the exact relation over the easier fit.
+- **Q2, a movement writer's own dated text: (a), as recommended.** For a movement that never became
+  a church body, a dated text by a writer the entry itself names as a carrier counts as the
+  movement's own text. It is read online and capped at Widely Accepted, like a church body's own
+  text.
+- **Q3, *Religious Bodies 1906*: (a), as recommended.** Each denomination's statement in the Census
+  Bureau's report was prepared by people in that denomination, and counts as its own text. The
+  Bureau's general statements do not. The report is public domain and goes on the wanted list for
+  the Library.
+
+**Heart reasoning.** "Do the right thing not the easy": a relation is named for what it is, even
+when that costs a change to the method.
+
+**Applied.**
+- `tools/validate-census.mjs` accepts the type and refuses an outcome on it. Tests are in
+  `tools/tests/validate_census_online.test.mjs`.
+- The map (`cft-website/index.html`) and the tree-page generator (`Build/tools/generate_tree_pages.mjs`)
+  are updated.
+- The method page text is in `Build/tools/tree_site_pages.json`.
+- The method brief is amended (`Build/Ministry/Operations/Audits/2026-11-06_census-lineage-rigor/Drafting_Brief.md`).
+
+---
+
+## 2026-11-10 — Change order: evidence for era 10 links
+
+**Decided (Mark: "b").** The recent-movement evidence rule (2026-11-08, "Change order: evidence
+for recent movements") now applies to era 10's links (P2-L10), with a cap:
+
+- **A church body's own dated text** may be a primary source when it is opened online in the run.
+  Examples are a basis of union, a constitution, a charter, an official statement and a conference
+  report. Each is cited by title, date, publisher, web address and the date it was read, with a
+  short verbatim quote.
+- **A scholarly study** may be cited once its details are confirmed in the run, even if the repo
+  has not cited it before. It supports a claim only where its passage was read and quoted.
+- **The cap.** A link resting on sources read online reaches Widely Accepted at most. Documented
+  still needs a primary quote held in the Library, which anyone can re-check word for word. The
+  text that would raise the link goes on the wanted list.
+- **New verification state.** `verified-online` marks a quote read online in the run.
+- **Unchanged.** Search snippets, summaries and encyclopedias never count.
+
+**Options weighed.**
+- (a) Keep the rule. Few era 10 links, many real relationships unlinked.
+- (b) This rule, with the cap. Chosen.
+- (c) This rule without the cap. Documented would stop meaning a quote re-checkable in the Library.
+
+**Heart reasoning.** It is the same principle Mark set for recent movements: "we have to be able
+to tell an accurate story, but use different criteria". Documented keeps the meaning it has in
+every other era.
+
+**Applied.** `tools/validate-census.mjs` accepts a source with `url` and `accessed` in place of
+`file` and `lines`, and refuses Documented unless a primary quote is held in the Library. Tests
+are in `tools/tests/validate_census_online.test.mjs`. The drafting addendum is
+`Build/Ministry/Operations/Audits/2026-11-10_links-era-10-part-1/Drafting_Brief_Era10.md`.
+
 ## 2026-11-10 — Data release 26: rows labeled "N. America" gain countries from their own text
 
 **Carried out under the change order of the same date (Mark: "c").**
