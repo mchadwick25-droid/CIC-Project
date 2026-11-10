@@ -1,0 +1,2268 @@
+{
+ "entries": [
+  {
+   "id": "church-of-the-east-three-patriarchates",
+   "atlasId": "TBD",
+   "era": 8,
+   "name": "The Church of the East — Three Patriarchates",
+   "shortName": "CoE: 3 Patriarchates",
+   "informalName": "The Three Patriarchal Lines",
+   "dates": "1650-1815",
+   "start": 1650,
+   "end": 1815,
+   "region": "Diyarbakır, Mosul, Hakkari",
+   "placeLabel": "Diyarbakır · Mosul and beyond",
+   "modernCountries": [],
+   "regions": [
+    "Middle East"
+   ],
+   "lane": "1 Syriac East & Asia",
+   "laneLabel": "Syriac East & Asia",
+   "laneOrder": 1,
+   "beyondFloor": false,
+   "status": "Pre-Survey Candidate",
+   "chip": "psc",
+   "glyph": "psc",
+   "statusWord": "Researched — viable, secondary",
+   "statusDescription": "Tiered Viable, secondary (Tier 2): the sources are mostly outside witnesses. Its window runs from 1650 to 1815, the years between the two entries on either side of it. Not yet reviewed.",
+   "living": true,
+   "overlayCurrent": false,
+   "c2": null,
+   "sourcing": "The evidence is thin. Most texts come from outside the mountain church.\n\nBadger was an English churchman who disliked Rome's work. Wigram led a church mission to the Assyrians. Labourt wrote for a Catholic reference work.\n\nMalech was an Assyrian Protestant from Urmia. He gives the mountain side in a few lines. Labourt says few documents survive for these years.",
+   "floorNote": "No question",
+   "relationsSummary": "This entry carries the Church of the East from 1650 to 1815. It follows the Schism of 1552 and leads on to the Chaldean Consolidation. Popes and missionaries shaped these years, and the entry on the Catholic Church of the Ancien Régime tells their side.",
+   "why": "The Church of the East had two patriarchs in 1650, one in the mountains and one on the plain. In 1681 the pope named a third, at Diyarbakır. In 1778 the patriarch of the plain died of plague, and the next day his nephew Hormizd turned to Rome. He wrote down the date: 30 April.",
+   "entry": null,
+   "streams": [
+    "eastern-catholic-uniate"
+   ],
+   "longDescription": "The Church of the East began these years with two rival patriarchs. One lived in the mountains of Hakkari. Malech says a patriarch of that line, Denkha Shimon, later moved its seat to the village of Qudshanis. The other lived on the plain, at Alqosh and Mosul.\n\nEach patriarch of the plain held an order from the Sultan, called a firman. It confirmed his power over his people in the empire. The mountain patriarchs had no such order. Badger writes that the Kurdish emirs tolerated and protected them.\n\nRome then added a third line. In 1672 Joseph, the church's archbishop at Diyarbakır, broke with the patriarch Elias. Labourt says he followed the advice of Capuchin missionaries. In 1681 Pope Innocent XI gave him the pallium and the title of patriarch. Wigram dates the new line to 1680.\n\nFive men named Joseph held this see in turn. Badger says neither the old bishops nor the Ottoman government recognized the line at first. It did not reach beyond Diyarbakır.\n\nIn 1778 the line of the plain began to turn to Rome. Patriarch Elia died of plague at Alqosh on 29 April. His nephew Hormizd, a metropolitan, wrote the next part himself, in Badger's English: “So on the 30th of April I embraced all that the holy Church believes.” Another nephew, Yeshua-yau, was to be patriarch. Within a year he turned back, and the two became enemies. In 1782 Pope Pius VI let Hormizd act as patriarch, but not use the patriarch's seal.\n\nThe sources disagree on when the plain line truly joined Rome. Wigram puts it in 1778. Labourt puts it in 1830, after Rome had cut Hormizd off in 1818. Wigram says the Joseph line was then allowed to lapse, though its last holder lived until 1828.",
+   "teaser": "Diyarbakır, Mosul and the Hakkari mountains, 1650 to 1815. An ancient church with three patriarchs at once. In 1778 the patriarch's nephew turned to Rome.",
+   "voices": [
+    "Yohannan Hormizd — nephew of the patriarch Elia, who tells in his own account how he turned to Rome on 30 April 1778",
+    "Joseph — archbishop of Diyarbakır, who broke with the patriarch Elias in 1672 and became the first of the Catholic patriarchs named Joseph",
+    "Elia — patriarch of the East at Alqosh and Mosul, who died of plague on 29 April 1778",
+    "Denkha Shimon — patriarch of the mountain line, whose seat moved to Qudshanis in Ottoman territory"
+   ],
+   "legacy": "By 1815 the church stood divided. On the plain, Hormizd led a party in union with Rome, but Rome had not yet made him patriarch. The line of the mountains stayed outside Rome's obedience. Its later story is told in the entry on the Church of the East and the Chaldean Consolidation.",
+   "people": [
+    {
+     "name": "Yohannan Hormizd",
+     "year": 1778,
+     "voice": 0,
+     "source": {
+      "work": "Autobiography of Mutran Hanna (Yohannan Hormizd), translated from a Syriac manuscript by G. P. Badger, in The Nestorians and their Rituals, vol. 1 (1852)",
+      "file": "cic/texts/badger_nestorians-and-their-rituals-v1_1852.txt",
+      "lines": "8059-8060",
+      "quote": "So on the 30th of April I embraced all that the holy Church believes, and rejected all that she rejects"
+     }
+    }
+   ],
+   "reviewStatus": "AI-checked",
+   "continuesAs": "church-of-the-east-chaldean-consolidation",
+   "livingEvidence": {
+    "basis": "This tradition continues, through its line of later entries, in the Sayfo & the Syriac Diaspora, which carries it today.",
+    "carrier": [
+     "the-sayfo-and-the-syriac-diaspora"
+    ],
+    "group": "line"
+   },
+   "sources": [
+    {
+     "work": "George Percy Badger, The Nestorians and their Rituals, vol. 1 (London, 1852)",
+     "type": "primary",
+     "note": "An English churchman who met the patriarchs. He prints the Syriac autobiography of Hormizd in English. Held in the Library. He does not like Rome's work."
+    },
+    {
+     "work": "W. A. Wigram, The Assyrians and their Neighbours (London, 1929)",
+     "type": "secondary",
+     "note": "An English churchman's history of the Assyrians. Held in the Library."
+    },
+    {
+     "work": "George David Malech, History of the Syrian Nation and the Old Evangelical-Apostolic Church of the East (Minneapolis, 1910)",
+     "type": "secondary",
+     "note": "By an Assyrian Protestant from Urmia. Held in the Library. He gives the mountain line in a few lines."
+    },
+    {
+     "work": "Jérôme Labourt, \"Chaldean Christians\", Catholic Encyclopedia, vol. 3 (1908)",
+     "type": "secondary",
+     "note": "A Catholic reference article. Read in full text online. It says few documents survive for these years.",
+     "url": "https://www.newadvent.org/cathen/03559a.htm"
+    }
+   ],
+   "ruling": "G89-43 a"
+  },
+  {
+   "id": "maronite-church-1815-1906",
+   "atlasId": "TBD",
+   "era": 9,
+   "name": "The Maronite Church — Mountain, War and One Governor",
+   "shortName": "Maronites 1815-1906",
+   "informalName": "The Mountain Church of Lebanon",
+   "dates": "1815-1906",
+   "start": 1815,
+   "end": 1906,
+   "region": "Mount Lebanon, Beirut, Damascus",
+   "placeLabel": "Mount Lebanon · Beirut and beyond",
+   "modernCountries": [
+    {
+     "country": "Lebanon",
+     "countryId": "Q822",
+     "place": "Mount Lebanon",
+     "placeId": "Q333711",
+     "pleiadesId": "678267"
+    }
+   ],
+   "regions": [
+    "Middle East"
+   ],
+   "lane": "1 Syriac East & Asia",
+   "laneLabel": "Syriac East & Asia",
+   "laneOrder": 1,
+   "beyondFloor": false,
+   "status": "Pre-Survey Candidate",
+   "chip": "psc",
+   "glyph": "psc",
+   "statusWord": "Researched — strong candidate",
+   "statusDescription": "Tiered Strong (Tier 1): the crisis of 1860 is a turning point for the whole region and is well recorded. The main sources are a Catholic study and a British officer who took the other side. Its window runs from 1815 to 1906. Not yet reviewed.",
+   "living": true,
+   "overlayCurrent": false,
+   "c2": null,
+   "sourcing": "The evidence is moderate, and it comes from outside the church.\n\nLabourt wrote for a Catholic reference work. He tells the story from a Catholic view and calls other churches schismatic.\n\nChurchill was a British colonel who had lived in the Lebanon. He took the side of the Druzes and wrote harshly of the Maronite patriarch.\n\nNo Maronite document from these years was opened.",
+   "floorNote": "No question",
+   "relationsSummary": "This entry carries the Maronite Church from 1815 to 1906. It carries on the Maronite entry that ends in 1517; the years between are not yet told here. French missionaries and soldiers shaped these years.",
+   "why": "In 1860 the Druzes killed many Maronites, and France sent an army. A year later the mountain had one governor and no feudal lords.",
+   "entry": null,
+   "streams": [
+    "eastern-catholic-uniate"
+   ],
+   "longDescription": "At the start of the nineteenth century the Maronites of Mount Lebanon lived under a feudal order. The great families chose the emir. In Europe they liked to be called princes. The patriarch sat at the cloister of St Mary at Kanobin.\n\nThat order broke in the 1840s. A fierce struggle with the Druzes began in 1845 and laid waste the whole Lebanon. Churchill, a British colonel, took the Druze side. In the heading of one chapter he wrote \"Maronite Intrigues\". Of the patriarch of the mid-1850s he wrote of \"hatred to the feudal aristocracy, and a fanatic devotion to the religious tenets of his own sect\". Labourt, a Catholic, tells it differently. He praises Patriarch Peter Paul Massaad, who served from 1855 to 1890, for a firmness that softened the shock of these conflicts.\n\nIn 1860 the Druzes killed a large number of Maronites at Damascus and in the Lebanon. Labourt says that France sent an army under General de Beaufort d'Hautpoult, and that it restored order. In 1861 the mountain got one governor for all the Lebanon. Labourt says that no feudal rights remained and that all were equal before the law.\n\nThe church changed inside too. In 1818 Patriarch Joseph Dolci and a synod ended the paired monasteries, one for men and one for women. French missionaries ran many schools in the Lebanon. Jesuits and Lazarists were among them. In 1899 the bishops elected Elias Hoyek patriarch.",
+   "teaser": "Mount Lebanon, 1815 to 1906. A mountain church that lost its feudal lords in a war, saw its people killed in 1860, and gained one governor in 1861.",
+   "voices": [
+    "Peter Paul Massaad — patriarch from 1855 to 1890, through the massacres of 1860",
+    "Joseph Dolci — patriarch who, with a synod, ended the paired monasteries in 1818",
+    "Elias Hoyek — elected patriarch in 1899",
+    "Charles Henry Churchill — British colonel who took the Druze side and wrote the other account of these years"
+   ],
+   "legacy": "The Maronite Church is alive today. Its patriarch still has his see at Bkerke, and its bishops still meet in council.",
+   "people": [],
+   "peopleNote": "No Maronite patriarch's own words from these years are held in the Library, so no person is named.",
+   "reviewStatus": "AI-checked",
+   "livingEvidence": {
+    "basis": "The Maronite Church is alive today. Its patriarchate issued a dated statement in April 2025. A report from August 2025 describes the Council of Maronite Bishops meeting. The tree has no entry for it after 1906.",
+    "evidence": "Circular 25-51, Patriarch Rai statement from the Patriarchal See at Bkerke, Eparchy of Saint Maron of Brooklyn (Maronite Church) (22 April 2025): own-voice; verified. https://www.stmaron.org/eparchial-news/cir-25-51 | Maronite Bishops urge Lebanon to reassert sovereignty and disarm Hezbollah, Syriac Press (6 August 2025): independent; verified. https://syriacpress.com/blog/2025/08/06/following-their-monthly-meeting-syriac-maronite-bishops-urge-lebanon-to-reassert-sovereignty-and-disarm-hezbollah",
+    "grade": "CR (Contemporary-Reported); newest dated item 2025, newest verified 2025",
+    "group": "own"
+   },
+   "sources": [
+    {
+     "work": "Jérôme Labourt, \"Maronites\", Catholic Encyclopedia, vol. 9 (1910)",
+     "type": "secondary",
+     "note": "A Catholic reference article. Read in full text online. It tells the story from a Catholic view.",
+     "url": "https://www.newadvent.org/cathen/09683c.htm"
+    },
+    {
+     "work": "Charles Henry Churchill, The Druzes and the Maronites under the Turkish Rule from 1840 to 1860 (London, 1862)",
+     "type": "primary",
+     "note": "A British colonel's account. Read in full text online. He took the Druze side.",
+     "url": "https://archive.org/download/druzesmaronitesu00churuoft/druzesmaronitesu00churuoft_djvu.txt"
+    }
+   ],
+   "ruling": "G89-39 a"
+  },
+  {
+   "id": "georgian-church-1650-1811",
+   "atlasId": "TBD",
+   "era": 8,
+   "name": "The Georgian Church — Between Persia, the Ottomans and Russia",
+   "shortName": "Georgian Church 1650",
+   "informalName": "The Church of Iberia",
+   "dates": "1650-1811",
+   "start": 1650,
+   "end": 1811,
+   "region": "Georgia, Tbilisi, Mtskheta",
+   "placeLabel": "Georgia · Tbilisi and beyond",
+   "modernCountries": [
+    {
+     "country": "Georgia",
+     "countryId": "Q230",
+     "place": "Georgia",
+     "placeId": "Q230"
+    }
+   ],
+   "regions": [
+    "Caucasus"
+   ],
+   "lane": "2 Caucasus",
+   "laneLabel": "Caucasus",
+   "laneOrder": 2,
+   "beyondFloor": false,
+   "status": "Pre-Survey Candidate",
+   "chip": "psc",
+   "glyph": "psc",
+   "statusWord": "Researched — viable, secondary",
+   "statusDescription": "Tiered Viable, secondary (Tier 2): the main account is a church history in English. The window runs from 1650 to 1811. That year the catholicate ended. Not yet reviewed.",
+   "living": true,
+   "overlayCurrent": false,
+   "c2": null,
+   "sourcing": "The evidence is moderate. The main source is a church history by Plato Ioselian. He wrote in Russian at Tiflis. Malan put it into English in 1866. Ioselian calls the missionaries' work \"perverting\".\n\nDowling's sketches of 1912 are an English churchman's. They print a Georgian appeal that tells the same years as a loss.\n\nNo Georgian-language text was opened.",
+   "floorNote": "No question",
+   "relationsSummary": "This entry carries the Georgian Church from 1650 to 1811. The Georgian Golden Age comes long before it. The Russian Church Synodal Century tells what came next, when an exarch governed the church. Catholic missionaries and Russian protection shaped these years.",
+   "why": "The Georgian church stood between Persian, Ottoman and Russian power for a century and a half. In 1811 Russia ended its catholicate. An exarch took its place.",
+   "entry": null,
+   "longDescription": "For a century and a half the Georgian church lived between great powers. Dowling says Georgia \"suffered severely from the attacks of Persians and Turks\". Akhaltsikhe stayed Ottoman. In 1795 a Persian army took Tiflis and burned it. Ioselian says the churches were full of killers.\n\nCatholic monks came too. Theatines came in 1625, and Capuchins followed. At first the kings used them as teachers. Ioselian says they \"perverted\" many.\n\nCatholicos Antoni I left Georgia in 1755. The accounts differ on why. Ioselian says the king feared the catholicos meant to leave the Orthodox faith, so a synod gave him a choice: leave, or give up his office. Dowling says Antoni opposed the Latin innovations and was deposed for it. Both say he went to the Russian Synod. Ioselian says the Synod found his confession of faith fully Orthodox. He became archbishop of Vladimir and later came back to his old see.\n\nThe church still made its own books and hymns. Macrina, sister of King Teimuraz I, wrote hymns that were still sung when Ioselian wrote. Catholicos Antoni I translated many works. Under King Heraclius II the ties with Russia grew closer, and the catholicos took a seat in the Russian Holy Synod. He kept his title.\n\nThat ended in 1811. A Georgian appeal printed by Dowling says the last catholicos was called to St Petersburg in 1810 and never allowed home. In 1811 the office was abolished. An exarch took its place.",
+   "teaser": "Georgia, 1650 to 1811. A church caught between three powers. A catholicos fled in 1755. In 1811 the catholicate ended.",
+   "voices": [
+    "Antoni I — catholicos who left Georgia in 1755, was cleared by the Russian Synod, and came back to his see",
+    "Macrina — sister of King Teimuraz I, whose hymns to the saints of Georgia were still sung when Ioselian wrote",
+    "Antoni II — the last catholicos, who held a seat in the Russian Holy Synod until 1810",
+    "Plato Ioselian — the Tiflis writer whose church history, in Malan's English, is the main source"
+   ],
+   "legacy": "The Georgian church is alive today as the Georgian Orthodox Church. The entry on the restored Georgian church tells how it took back its own head.",
+   "people": [],
+   "peopleNote": "No Georgian churchman's own words from these years are held in the Library, so no person is named.",
+   "reviewStatus": "AI-checked",
+   "continuesAs": "russian-church-synodal-century",
+   "livingEvidence": {
+    "basis": "The same church as the Georgian Orthodox Church of today. The Georgian Orthodox Church Restored carries the tradition today.",
+    "carrier": [
+     "the-georgian-orthodox-church-restored"
+    ],
+    "group": "line"
+   },
+   "sources": [
+    {
+     "work": "P. Ioselian, A Short History of the Georgian Church, tr. S. C. Malan (London, 1866)",
+     "type": "primary",
+     "note": "A church history written in Russian at Tiflis. Read in full text online. It calls the Catholic missionaries' work \"perverting\".",
+     "url": "https://archive.org/download/MalanGeorgianChurch/Malan_Georgian_Church_djvu.txt"
+    },
+    {
+     "work": "Theodore E. Dowling, Sketches of Georgian Church History (London, 1912)",
+     "type": "secondary",
+     "note": "An English churchman's sketches. Read in full text online. Appendix IV prints a Georgian appeal that tells the same years as a loss.",
+     "url": "https://archive.org/download/DowlingGeorgianChurchHist/dowling_georgian_church_hist_djvu.txt"
+    }
+   ],
+   "ruling": "G89-44 a"
+  }
+ ],
+ "fact_table": [
+  {
+   "entry": "church-of-the-east-three-patriarchates",
+   "field": "longDescription",
+   "sentence": "The Church of the East began these years with two rival patriarchs.",
+   "file": "cic/texts/wigram_assyrians-and-their-neighbours_1929.txt",
+   "lines": "7459-7461",
+   "quote": "Thereafter, there were two lines of Patriarchs of the East, the ‘“‘Shimun” line in the mountains, and the ‘‘Elia” line in the plain."
+  },
+  {
+   "entry": "church-of-the-east-three-patriarchates",
+   "field": "longDescription",
+   "sentence": "One lived in the mountains of Hakkari, at the village of Qudshanis.",
+   "file": "cic/texts/badger_nestorians-and-their-rituals-v1_1852.txt",
+   "lines": "7970-7972",
+   "quote": "one of whom held his seat at Mosul or Alkosh, and the other at Kochanes in central Coor- distau"
+  },
+  {
+   "entry": "church-of-the-east-three-patriarchates",
+   "field": "longDescription",
+   "sentence": "One lived in the mountains of Hakkari, at the village of Qudshanis.",
+   "file": "cic/texts/malech_history-of-the-syrian-nation-and-old-evangelical-apostolic-church-of-the-east_1910.txt",
+   "lines": "16806-16808",
+   "quote": "Denkah Shimon XV transferred (removed) the patriarchal residence from the village of Raban Dadishu to Kudchanis, in the Turkish terri- tory where it has been for more than 200 years"
+  },
+  {
+   "entry": "church-of-the-east-three-patriarchates",
+   "field": "longDescription",
+   "sentence": "The other lived on the plain, at Alqosh and Mosul.",
+   "file": "cic/texts/badger_nestorians-and-their-rituals-v1_1852.txt",
+   "lines": "7970-7972",
+   "quote": "one of whom held his seat at Mosul or Alkosh, and the other at Kochanes in central Coor- distau"
+  },
+  {
+   "entry": "church-of-the-east-three-patriarchates",
+   "field": "longDescription",
+   "sentence": "The other lived on the plain, at Alqosh and Mosul.",
+   "file": "cic/texts/wigram_assyrians-and-their-neighbours_1929.txt",
+   "lines": "7459-7461",
+   "quote": "Thereafter, there were two lines of Patriarchs of the East, the ‘“‘Shimun” line in the mountains, and the ‘‘Elia” line in the plain."
+  },
+  {
+   "entry": "church-of-the-east-three-patriarchates",
+   "field": "longDescription",
+   "sentence": "Each patriarch of the plain held an order from the Sultan, called a firman.",
+   "file": "cic/texts/badger_nestorians-and-their-rituals-v1_1852.txt",
+   "lines": "7955-7958",
+   "quote": "The Nestorian patriarchs of the plains, however, enjoyed great political superiority over their rivals, inasmuch as they were recognized by the Sublime Porte, and each successive occupant of the see received an imperial firman"
+  },
+  {
+   "entry": "church-of-the-east-three-patriarchates",
+   "field": "longDescription",
+   "sentence": "It confirmed his power over his people in the empire.",
+   "file": "cic/texts/badger_nestorians-and-their-rituals-v1_1852.txt",
+   "lines": "7955-7958",
+   "quote": "The Nestorian patriarchs of the plains, however, enjoyed great political superiority over their rivals, inasmuch as they were recognized by the Sublime Porte, and each successive occupant of the see received an imperial firman"
+  },
+  {
+   "entry": "church-of-the-east-three-patriarchates",
+   "field": "longDescription",
+   "sentence": "The mountain patriarchs had no such order.",
+   "file": "cic/texts/badger_nestorians-and-their-rituals-v1_1852.txt",
+   "lines": "7965-7967",
+   "quote": "nized by the Turkish government, and exercised their jurisdiction with the concurrence of their own people, being tolerated and protected therein by the Coordish Emeers."
+  },
+  {
+   "entry": "church-of-the-east-three-patriarchates",
+   "field": "longDescription",
+   "sentence": "Badger writes that the Kurdish emirs tolerated and protected them.",
+   "file": "cic/texts/badger_nestorians-and-their-rituals-v1_1852.txt",
+   "lines": "7965-7967",
+   "quote": "nized by the Turkish government, and exercised their jurisdiction with the concurrence of their own people, being tolerated and protected therein by the Coordish Emeers."
+  },
+  {
+   "entry": "church-of-the-east-three-patriarchates",
+   "field": "longDescription",
+   "sentence": "Rome then added a third line.",
+   "file": "cic/texts/wigram_assyrians-and-their-neighbours_1929.txt",
+   "lines": "7474-7478",
+   "quote": "At last Innocent XI, seeming to despair of his protegés, established in the year 1680 a third line, that of “Joseph,” the holder of which should have his residence at Diar- bekr"
+  },
+  {
+   "entry": "church-of-the-east-three-patriarchates",
+   "field": "longDescription",
+   "sentence": "In 1672 Joseph, the church's archbishop at Diyarbakır, broke with the patriarch Elias.",
+   "url": "https://www.newadvent.org/cathen/03559a.htm",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/cathen_03559a.txt",
+   "quote": "In 1672, Joseph, the Nestorian Archbishop of Diarbekir, following the advice of the Capuchin missionaries, withdrew from communion with the Patriarch Elias IV."
+  },
+  {
+   "entry": "church-of-the-east-three-patriarchates",
+   "field": "longDescription",
+   "sentence": "Labourt says he followed the advice of Capuchin missionaries.",
+   "url": "https://www.newadvent.org/cathen/03559a.htm",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/cathen_03559a.txt",
+   "quote": "In 1672, Joseph, the Nestorian Archbishop of Diarbekir, following the advice of the Capuchin missionaries, withdrew from communion with the Patriarch Elias IV."
+  },
+  {
+   "entry": "church-of-the-east-three-patriarchates",
+   "field": "longDescription",
+   "sentence": "In 1681 Pope Innocent XI gave him the pallium and the title of patriarch.",
+   "url": "https://www.newadvent.org/cathen/03559a.htm",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/cathen_03559a.txt",
+   "quote": "Innocent XI granted him the pallium (1681) and the title of patriarch."
+  },
+  {
+   "entry": "church-of-the-east-three-patriarchates",
+   "field": "longDescription",
+   "sentence": "In 1681 Pope Innocent XI gave him the pallium and the title of patriarch.",
+   "file": "cic/texts/badger_nestorians-and-their-rituals-v1_1852.txt",
+   "lines": "7989-7991",
+   "quote": "proceeded to effect a new schism : which he did by appointing Yoosef, the first of that name, as Patriarch of the Chaldeans at Diarbekir, a.d. 1681."
+  },
+  {
+   "entry": "church-of-the-east-three-patriarchates",
+   "field": "longDescription",
+   "sentence": "Wigram dates the new line to 1680.",
+   "file": "cic/texts/wigram_assyrians-and-their-neighbours_1929.txt",
+   "lines": "7474-7478",
+   "quote": "At last Innocent XI, seeming to despair of his protegés, established in the year 1680 a third line, that of “Joseph,” the holder of which should have his residence at Diar- bekr"
+  },
+  {
+   "entry": "church-of-the-east-three-patriarchates",
+   "field": "longDescription",
+   "sentence": "Five men named Joseph held this see in turn.",
+   "file": "cic/texts/badger_nestorians-and-their-rituals-v1_1852.txt",
+   "lines": "8005-8007",
+   "quote": "after five successive Yoosefs had occupied the See of Diarbekir it was declared abolished by the submission of Mar Elia"
+  },
+  {
+   "entry": "church-of-the-east-three-patriarchates",
+   "field": "longDescription",
+   "sentence": "Badger says neither the old bishops nor the Ottoman government recognized the line at first.",
+   "file": "cic/texts/badger_nestorians-and-their-rituals-v1_1852.txt",
+   "lines": "7996-7997",
+   "quote": "nor by the Sublime Porte, did not at first extend beyond the city of Diarbekir"
+  },
+  {
+   "entry": "church-of-the-east-three-patriarchates",
+   "field": "longDescription",
+   "sentence": "It did not reach beyond Diyarbakır.",
+   "file": "cic/texts/badger_nestorians-and-their-rituals-v1_1852.txt",
+   "lines": "7996-7997",
+   "quote": "nor by the Sublime Porte, did not at first extend beyond the city of Diarbekir"
+  },
+  {
+   "entry": "church-of-the-east-three-patriarchates",
+   "field": "longDescription",
+   "sentence": "In 1778 the patriarch of the plain turned to Rome.",
+   "file": "cic/texts/wigram_assyrians-and-their-neighbours_1929.txt",
+   "lines": "7498-7501",
+   "quote": "in 1778, the Elia line in Mosul made a final and definite sub- mission to the Holy Father. After that, the “Joseph” line at Diarbekr was allowed to lapse"
+  },
+  {
+   "entry": "church-of-the-east-three-patriarchates",
+   "field": "longDescription",
+   "sentence": "Elia died of plague at Alqosh on 29 April.",
+   "file": "cic/texts/badger_nestorians-and-their-rituals-v1_1852.txt",
+   "lines": "8048-8050",
+   "quote": "a plague broke out in the village of Alkosh, and many persons died, among whom was my uncle, who departed this life on the 29th of April."
+  },
+  {
+   "entry": "church-of-the-east-three-patriarchates",
+   "field": "longDescription",
+   "sentence": "His nephew Hormizd wrote the next part himself: “So on the 30th of April I embraced all that the holy Church believes.”",
+   "file": "cic/texts/badger_nestorians-and-their-rituals-v1_1852.txt",
+   "lines": "8059-8060",
+   "quote": "So on the 30th of April I embraced all that the holy Church believes, and rejected all that she rejects"
+  },
+  {
+   "entry": "church-of-the-east-three-patriarchates",
+   "field": "longDescription",
+   "sentence": "After this, Wigram says, the Joseph line at Diyarbakır was allowed to lapse.",
+   "file": "cic/texts/wigram_assyrians-and-their-neighbours_1929.txt",
+   "lines": "7498-7501",
+   "quote": "in 1778, the Elia line in Mosul made a final and definite sub- mission to the Holy Father. After that, the “Joseph” line at Diarbekr was allowed to lapse"
+  },
+  {
+   "entry": "church-of-the-east-three-patriarchates",
+   "field": "why",
+   "sentence": "The Church of the East had two patriarchs in 1650, one in the mountains and one on the plain.",
+   "file": "cic/texts/wigram_assyrians-and-their-neighbours_1929.txt",
+   "lines": "7459-7461",
+   "quote": "Thereafter, there were two lines of Patriarchs of the East, the ‘“‘Shimun” line in the mountains, and the ‘‘Elia” line in the plain."
+  },
+  {
+   "entry": "church-of-the-east-three-patriarchates",
+   "field": "why",
+   "sentence": "In 1681 the pope named a third, at Diyarbakır.",
+   "file": "cic/texts/badger_nestorians-and-their-rituals-v1_1852.txt",
+   "lines": "7989-7991",
+   "quote": "proceeded to effect a new schism : which he did by appointing Yoosef, the first of that name, as Patriarch of the Chaldeans at Diarbekir, a.d. 1681."
+  },
+  {
+   "entry": "church-of-the-east-three-patriarchates",
+   "field": "why",
+   "sentence": "In 1778 the patriarch of the plain turned to Rome, and his nephew wrote down the date: 30 April.",
+   "file": "cic/texts/badger_nestorians-and-their-rituals-v1_1852.txt",
+   "lines": "8059-8060",
+   "quote": "So on the 30th of April I embraced all that the holy Church believes, and rejected all that she rejects"
+  },
+  {
+   "entry": "church-of-the-east-three-patriarchates",
+   "field": "why",
+   "sentence": "In 1778 the patriarch of the plain turned to Rome, and his nephew wrote down the date: 30 April.",
+   "file": "cic/texts/wigram_assyrians-and-their-neighbours_1929.txt",
+   "lines": "7498-7501",
+   "quote": "in 1778, the Elia line in Mosul made a final and definite sub- mission to the Holy Father. After that, the “Joseph” line at Diarbekr was allowed to lapse"
+  },
+  {
+   "entry": "church-of-the-east-three-patriarchates",
+   "field": "teaser",
+   "sentence": "An ancient church with three patriarchs at once.",
+   "file": "cic/texts/wigram_assyrians-and-their-neighbours_1929.txt",
+   "lines": "7459-7461",
+   "quote": "Thereafter, there were two lines of Patriarchs of the East, the ‘“‘Shimun” line in the mountains, and the ‘‘Elia” line in the plain."
+  },
+  {
+   "entry": "church-of-the-east-three-patriarchates",
+   "field": "teaser",
+   "sentence": "An ancient church with three patriarchs at once.",
+   "file": "cic/texts/wigram_assyrians-and-their-neighbours_1929.txt",
+   "lines": "7474-7478",
+   "quote": "At last Innocent XI, seeming to despair of his protegés, established in the year 1680 a third line, that of “Joseph,” the holder of which should have his residence at Diar- bekr"
+  },
+  {
+   "entry": "church-of-the-east-three-patriarchates",
+   "field": "teaser",
+   "sentence": "In 1778 the patriarch of the plain turned to Rome.",
+   "file": "cic/texts/wigram_assyrians-and-their-neighbours_1929.txt",
+   "lines": "7498-7501",
+   "quote": "in 1778, the Elia line in Mosul made a final and definite sub- mission to the Holy Father. After that, the “Joseph” line at Diarbekr was allowed to lapse"
+  },
+  {
+   "entry": "church-of-the-east-three-patriarchates",
+   "field": "relationsSummary",
+   "sentence": "It follows the Schism of 1552 and leads on to the Chaldean Consolidation.",
+   "record": "census VI.30 and VIII.40",
+   "note": "the two neighbors' own records; links drafted below"
+  },
+  {
+   "entry": "church-of-the-east-three-patriarchates",
+   "field": "relationsSummary",
+   "sentence": "Popes and missionaries shaped these years.",
+   "file": "cic/texts/badger_nestorians-and-their-rituals-v1_1852.txt",
+   "lines": "7989-7991",
+   "quote": "proceeded to effect a new schism : which he did by appointing Yoosef, the first of that name, as Patriarch of the Chaldeans at Diarbekir, a.d. 1681."
+  },
+  {
+   "entry": "church-of-the-east-three-patriarchates",
+   "field": "relationsSummary",
+   "sentence": "Popes and missionaries shaped these years.",
+   "url": "https://www.newadvent.org/cathen/03559a.htm",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/cathen_03559a.txt",
+   "quote": "In 1672, Joseph, the Nestorian Archbishop of Diarbekir, following the advice of the Capuchin missionaries, withdrew from communion with the Patriarch Elias IV."
+  },
+  {
+   "entry": "church-of-the-east-three-patriarchates",
+   "field": "sourcing",
+   "sentence": "Labourt says few documents survive for these years.",
+   "url": "https://www.newadvent.org/cathen/03559a.htm",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/cathen_03559a.txt",
+   "quote": "Owing to the scarcity of documents the history of this period is little known."
+  },
+  {
+   "entry": "church-of-the-east-three-patriarchates",
+   "field": "sourcing",
+   "sentence": "Badger was an Anglican; Wigram led the Archbishop of Canterbury's mission; Malech an Assyrian Protestant from Urmia",
+   "record": "cic/texts file headers (Wigram, Malech) and Badger's own title page, as the sweep record notes",
+   "note": "who the witnesses are, not a historical claim"
+  },
+  {
+   "entry": "church-of-the-east-three-patriarchates",
+   "field": "legacy",
+   "sentence": "The line of the plain had joined Rome.",
+   "file": "cic/texts/wigram_assyrians-and-their-neighbours_1929.txt",
+   "lines": "7498-7501",
+   "quote": "in 1778, the Elia line in Mosul made a final and definite sub- mission to the Holy Father. After that, the “Joseph” line at Diarbekr was allowed to lapse"
+  },
+  {
+   "entry": "church-of-the-east-three-patriarchates",
+   "field": "legacy",
+   "sentence": "The line of the mountains stayed outside Rome's obedience.",
+   "file": "cic/texts/badger_nestorians-and-their-rituals-v1_1852.txt",
+   "lines": "7969-7975",
+   "quote": "The frequent attempts made by Romish missionaries to induce these two Nestorian patriarchs, one of whom held his seat at Mosul or Alkosh, and the other at Kochanes in central Coor- distau, to acknowledge the supremacy of the Pope, are fully recorded in the above quotations. The partial success of these machinations was ever and anon thwarted and destroyed by the attachment of the Nestorians to their own rituals and discipline."
+  },
+  {
+   "entry": "church-of-the-east-three-patriarchates",
+   "field": "voices",
+   "sentence": "Yohannan Hormizd tells in his own account how he turned to Rome on 30 April 1778.",
+   "file": "cic/texts/badger_nestorians-and-their-rituals-v1_1852.txt",
+   "lines": "8059-8060",
+   "quote": "So on the 30th of April I embraced all that the holy Church believes, and rejected all that she rejects"
+  },
+  {
+   "entry": "church-of-the-east-three-patriarchates",
+   "field": "voices",
+   "sentence": "Yohannan Hormizd tells in his own account how he turned to Rome on 30 April 1778.",
+   "file": "cic/texts/badger_nestorians-and-their-rituals-v1_1852.txt",
+   "lines": "8020-8021",
+   "quote": "I Hormuzd, son of deacon Hanna, the brother of Mar Elia the Patriarch of the East, was born a.d. 1760"
+  },
+  {
+   "entry": "church-of-the-east-three-patriarchates",
+   "field": "voices",
+   "sentence": "Elia died of plague on 29 April 1778.",
+   "file": "cic/texts/badger_nestorians-and-their-rituals-v1_1852.txt",
+   "lines": "8048-8050",
+   "quote": "a plague broke out in the village of Alkosh, and many persons died, among whom was my uncle, who departed this life on the 29th of April."
+  },
+  {
+   "entry": "church-of-the-east-three-patriarchates",
+   "field": "voices",
+   "sentence": "Joseph broke with the patriarch Elias in 1672 and became the first of the Catholic patriarchs named Joseph.",
+   "url": "https://www.newadvent.org/cathen/03559a.htm",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/cathen_03559a.txt",
+   "quote": "In 1672, Joseph, the Nestorian Archbishop of Diarbekir, following the advice of the Capuchin missionaries, withdrew from communion with the Patriarch Elias IV."
+  },
+  {
+   "entry": "church-of-the-east-three-patriarchates",
+   "field": "voices",
+   "sentence": "Joseph broke with the patriarch Elias in 1672 and became the first of the Catholic patriarchs named Joseph.",
+   "file": "cic/texts/badger_nestorians-and-their-rituals-v1_1852.txt",
+   "lines": "7989-7991",
+   "quote": "proceeded to effect a new schism : which he did by appointing Yoosef, the first of that name, as Patriarch of the Chaldeans at Diarbekir, a.d. 1681."
+  },
+  {
+   "entry": "church-of-the-east-three-patriarchates",
+   "field": "voices",
+   "sentence": "Denkha Shimon's seat moved to Qudshanis in Ottoman territory.",
+   "file": "cic/texts/malech_history-of-the-syrian-nation-and-old-evangelical-apostolic-church-of-the-east_1910.txt",
+   "lines": "16806-16808",
+   "quote": "Denkah Shimon XV transferred (removed) the patriarchal residence from the village of Raban Dadishu to Kudchanis, in the Turkish terri- tory where it has been for more than 200 years"
+  },
+  {
+   "entry": "church-of-the-east-three-patriarchates",
+   "field": "voices",
+   "sentence": "Hormizd, Hanna and Yohannan are one man.",
+   "file": "cic/texts/badger_nestorians-and-their-rituals-v1_1852.txt",
+   "lines": "8024-8025",
+   "quote": "Mar or Mutran Hanna or Yohannan, (John,) is the name by which the last of the Nestorian patriarchs is generally known."
+  },
+  {
+   "entry": "maronite-church-1815-1906",
+   "field": "longDescription",
+   "sentence": "At the start of the nineteenth century the Maronites of Mount Lebanon lived under a feudal order.",
+   "url": "https://www.newadvent.org/cathen/09683c.htm",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/cathen_09683c.txt",
+   "quote": "At the opening of the nineteenth century their organization was entirely feudal."
+  },
+  {
+   "entry": "maronite-church-1815-1906",
+   "field": "longDescription",
+   "sentence": "The great families elected the emir. When they travelled in Europe, they liked to be called princes.",
+   "url": "https://www.newadvent.org/cathen/09683c.htm",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/cathen_09683c.txt",
+   "quote": "The aristocratic families — who, especially when they travelled in Europe, affected princely rank — elected the emir."
+  },
+  {
+   "entry": "maronite-church-1815-1906",
+   "field": "longDescription",
+   "sentence": "The patriarch had his seat at the cloister of St Mary at Kanobin.",
+   "url": "https://www.newadvent.org/cathen/09683c.htm",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/cathen_09683c.txt",
+   "quote": "Since the fifteenth century his traditional residence has been the cloister of St. Mary of Kanôbin"
+  },
+  {
+   "entry": "maronite-church-1815-1906",
+   "field": "longDescription",
+   "sentence": "A fierce struggle with the Druzes began in 1845 and laid waste the whole Lebanon.",
+   "url": "https://www.newadvent.org/cathen/09683c.htm",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/cathen_09683c.txt",
+   "quote": "A merciless struggle against the Druses, commencing in 1845, devastated the whole Lebanon."
+  },
+  {
+   "entry": "maronite-church-1815-1906",
+   "field": "longDescription",
+   "sentence": "Churchill, a British colonel, took the Druze side.",
+   "url": "https://archive.org/download/druzesmaronitesu00churuoft/druzesmaronitesu00churuoft_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/churchill.txt",
+   "quote": "COLONEL CHUECHILL"
+  },
+  {
+   "entry": "maronite-church-1815-1906",
+   "field": "longDescription",
+   "sentence": "Churchill, a British colonel, took the Druze side.",
+   "url": "https://archive.org/download/druzesmaronitesu00churuoft/druzesmaronitesu00churuoft_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/churchill.txt",
+   "quote": "MARONITE INTOLERANCE."
+  },
+  {
+   "entry": "maronite-church-1815-1906",
+   "field": "longDescription",
+   "sentence": "He put a chapter of his book under the title \"Maronite Intrigues\".",
+   "url": "https://archive.org/download/druzesmaronitesu00churuoft/druzesmaronitesu00churuoft_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/churchill.txt",
+   "quote": "Maronite Intrigues"
+  },
+  {
+   "entry": "maronite-church-1815-1906",
+   "field": "longDescription",
+   "sentence": "Of the patriarch of the mid-1850s he wrote of \"hatred to the feudal aristocracy, and a fanatic devotion to the religious tenets of his own sect\".",
+   "url": "https://archive.org/download/druzesmaronitesu00churuoft/druzesmaronitesu00churuoft_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/churchill.txt",
+   "quote": "hatred to the feudal aristocracy, and a fanatic devotion to the rehgious tenets of his own sect"
+  },
+  {
+   "entry": "maronite-church-1815-1906",
+   "field": "longDescription",
+   "sentence": "Labourt praises Patriarch Peter Paul Massaad, who served from 1855 to 1890, for a firmness that softened the shock of these conflicts.",
+   "url": "https://www.newadvent.org/cathen/09683c.htm",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/cathen_09683c.txt",
+   "quote": "Peter Paul Massaad (1855-90) during his long and fruitful term on the patriarchal throne witnessed events of extreme gravity — the revolt of the people against the sheikhs and the massacres of 1860."
+  },
+  {
+   "entry": "maronite-church-1815-1906",
+   "field": "longDescription",
+   "sentence": "Labourt praises Patriarch Peter Paul Massaad, who served from 1855 to 1890, for a firmness that softened the shock of these conflicts.",
+   "url": "https://www.newadvent.org/cathen/09683c.htm",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/cathen_09683c.txt",
+   "quote": "his firmness of character and the loftiness of his aims had the utmost possible effect in lessening the evil consequences and breaking the shock of these conflicts"
+  },
+  {
+   "entry": "maronite-church-1815-1906",
+   "field": "longDescription",
+   "sentence": "In 1860 the Druzes killed a large number of Maronites at Damascus and in the Lebanon.",
+   "url": "https://www.newadvent.org/cathen/09683c.htm",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/cathen_09683c.txt",
+   "quote": "In 1860 the Druses, impelled by fanaticism, massacred a large number of Maronites at Damascus and in the Lebanon."
+  },
+  {
+   "entry": "maronite-church-1815-1906",
+   "field": "longDescription",
+   "sentence": "France sent an army under General de Beaufort d'Hautpoult, and it restored order.",
+   "url": "https://www.newadvent.org/cathen/09683c.htm",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/cathen_09683c.txt",
+   "quote": "France intervened: an expedition led by General de Beaufort d'Hautpoult restored order."
+  },
+  {
+   "entry": "maronite-church-1815-1906",
+   "field": "longDescription",
+   "sentence": "In 1861 the mountain got one governor for all the Lebanon.",
+   "url": "https://www.newadvent.org/cathen/09683c.htm",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/cathen_09683c.txt",
+   "quote": "In 1861 the present system, with a single governor for all the Lebanon, was inaugurated."
+  },
+  {
+   "entry": "maronite-church-1815-1906",
+   "field": "longDescription",
+   "sentence": "No feudal rights remained and all were equal before the law.",
+   "url": "https://www.newadvent.org/cathen/09683c.htm",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/cathen_09683c.txt",
+   "quote": "There are no more feudal rights; all are equal before the law, without distinction of race"
+  },
+  {
+   "entry": "maronite-church-1815-1906",
+   "field": "longDescription",
+   "sentence": "In 1818 Patriarch Joseph Dolci and a synod ended the custom of paired monasteries, one for men and one for women.",
+   "url": "https://www.newadvent.org/cathen/09683c.htm",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/cathen_09683c.txt",
+   "quote": "The last, in 1818, abolished, by the action of a synod, the custom by which, in many places, there were pairs of monasteries, one for men, the other for women."
+  },
+  {
+   "entry": "maronite-church-1815-1906",
+   "field": "longDescription",
+   "sentence": "French missionaries, Jesuits and Lazarists among them, ran many schools in the Lebanon.",
+   "url": "https://www.newadvent.org/cathen/09683c.htm",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/cathen_09683c.txt",
+   "quote": "the numerous establishments in the Lebanon under the direction of French missionaries — Jesuits, Lazarists, and religious women of different orders"
+  },
+  {
+   "entry": "maronite-church-1815-1906",
+   "field": "longDescription",
+   "sentence": "In 1899 the bishops elected Elias Hoyek patriarch.",
+   "url": "https://www.newadvent.org/cathen/09683c.htm",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/cathen_09683c.txt",
+   "quote": "Mgr. Elias Hoysk, elected in 1899"
+  },
+  {
+   "entry": "maronite-church-1815-1906",
+   "field": "why",
+   "sentence": "In 1860 the Druzes killed many Maronites, and a French army came ashore. A year later the mountain had one governor and no feudal lords.",
+   "url": "https://www.newadvent.org/cathen/09683c.htm",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/cathen_09683c.txt",
+   "quote": "In 1860 the Druses, impelled by fanaticism, massacred a large number of Maronites at Damascus and in the Lebanon."
+  },
+  {
+   "entry": "maronite-church-1815-1906",
+   "field": "why",
+   "sentence": "In 1860 the Druzes killed many Maronites, and a French army came ashore. A year later the mountain had one governor and no feudal lords.",
+   "url": "https://www.newadvent.org/cathen/09683c.htm",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/cathen_09683c.txt",
+   "quote": "In 1861 the present system, with a single governor for all the Lebanon, was inaugurated."
+  },
+  {
+   "entry": "maronite-church-1815-1906",
+   "field": "why",
+   "sentence": "In 1860 the Druzes killed many Maronites, and a French army came ashore. A year later the mountain had one governor and no feudal lords.",
+   "url": "https://www.newadvent.org/cathen/09683c.htm",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/cathen_09683c.txt",
+   "quote": "There are no more feudal rights; all are equal before the law, without distinction of race"
+  },
+  {
+   "entry": "maronite-church-1815-1906",
+   "field": "teaser",
+   "sentence": "The mountain church lost its feudal lords in a war, saw its people killed in 1860, and gained one governor in 1861.",
+   "url": "https://www.newadvent.org/cathen/09683c.htm",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/cathen_09683c.txt",
+   "quote": "A merciless struggle against the Druses, commencing in 1845, devastated the whole Lebanon."
+  },
+  {
+   "entry": "maronite-church-1815-1906",
+   "field": "teaser",
+   "sentence": "The mountain church lost its feudal lords in a war, saw its people killed in 1860, and gained one governor in 1861.",
+   "url": "https://www.newadvent.org/cathen/09683c.htm",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/cathen_09683c.txt",
+   "quote": "In 1861 the present system, with a single governor for all the Lebanon, was inaugurated."
+  },
+  {
+   "entry": "maronite-church-1815-1906",
+   "field": "voices",
+   "sentence": "Massaad, Dolci and Hoyek as patriarchs",
+   "url": "https://www.newadvent.org/cathen/09683c.htm",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/cathen_09683c.txt",
+   "quote": "Peter Paul Massaad (1855-90) during his long and fruitful term on the patriarchal throne witnessed events of extreme gravity — the revolt of the people against the sheikhs and the massacres of 1860."
+  },
+  {
+   "entry": "maronite-church-1815-1906",
+   "field": "voices",
+   "sentence": "Massaad, Dolci and Hoyek as patriarchs",
+   "url": "https://www.newadvent.org/cathen/09683c.htm",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/cathen_09683c.txt",
+   "quote": "The last, in 1818, abolished, by the action of a synod, the custom by which, in many places, there were pairs of monasteries, one for men, the other for women."
+  },
+  {
+   "entry": "maronite-church-1815-1906",
+   "field": "voices",
+   "sentence": "Massaad, Dolci and Hoyek as patriarchs",
+   "url": "https://www.newadvent.org/cathen/09683c.htm",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/cathen_09683c.txt",
+   "quote": "Mgr. Elias Hoysk, elected in 1899"
+  },
+  {
+   "entry": "maronite-church-1815-1906",
+   "field": "voices",
+   "sentence": "Churchill, a British colonel who had lived in the Lebanon",
+   "url": "https://archive.org/download/druzesmaronitesu00churuoft/druzesmaronitesu00churuoft_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/churchill.txt",
+   "quote": "Residence in Mount Lebanon, 1853"
+  },
+  {
+   "entry": "maronite-church-1815-1906",
+   "field": "sourcing",
+   "sentence": "Labourt wrote for a Catholic reference work and tells the story from a Catholic view.",
+   "url": "https://www.newadvent.org/cathen/09683c.htm",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/cathen_09683c.txt",
+   "quote": "The Maronite patriarch shares the title of Antioch with three other Catholic patriarchs — the Melchite, the Syrian Catholic, and the Latin (titular) — one schismatical (Orthodox), and one heretical (Syrian Jacobite)."
+  },
+  {
+   "entry": "maronite-church-1815-1906",
+   "field": "sourcing",
+   "sentence": "Churchill was a British colonel who had lived in the Lebanon and took the Druze side.",
+   "url": "https://archive.org/download/druzesmaronitesu00churuoft/druzesmaronitesu00churuoft_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/churchill.txt",
+   "quote": "Residence in Mount Lebanon, 1853"
+  },
+  {
+   "entry": "maronite-church-1815-1906",
+   "field": "sourcing",
+   "sentence": "Churchill was a British colonel who had lived in the Lebanon and took the Druze side.",
+   "url": "https://archive.org/download/druzesmaronitesu00churuoft/druzesmaronitesu00churuoft_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/churchill.txt",
+   "quote": "hatred to the feudal aristocracy, and a fanatic devotion to the rehgious tenets of his own sect"
+  },
+  {
+   "entry": "maronite-church-1815-1906",
+   "field": "legacy",
+   "sentence": "The Maronite Church is alive today; its patriarch has his see at Bkerke; its bishops meet in council.",
+   "record": "census IV.10 livingEvidence (Patriarchal See at Bkerke, Eparchy of Saint Maron of Brooklyn, 22 April 2025; Syriac Press, 6 August 2025)",
+   "note": "the evidence moved onto this row, already verified in the census; the sentence about the war leaving a mark is the entry's own summing up, not a historical claim"
+  },
+  {
+   "entry": "maronite-church-1815-1906",
+   "field": "statusDescription",
+   "sentence": "Tier 1 for the era 9 row",
+   "record": "§6 ME-2 Tier (1 for the era 9 row)",
+   "note": "the record's own tier"
+  },
+  {
+   "entry": "georgian-church-1650-1811",
+   "field": "longDescription",
+   "sentence": "Dowling says Georgia \"suffered severely from the attacks of Persians and Turks\".",
+   "url": "https://archive.org/download/DowlingGeorgianChurchHist/dowling_georgian_church_hist_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/dowling.txt",
+   "quote": "Georgia suffered severely from the attacks of Persians and Turks"
+  },
+  {
+   "entry": "georgian-church-1650-1811",
+   "field": "longDescription",
+   "sentence": "Akhaltsikhe stayed under Ottoman rule.",
+   "url": "https://archive.org/download/MalanGeorgianChurch/Malan_Georgian_Church_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/malan.txt",
+   "quote": "Akhaltsikh^, still under the power of the Turks"
+  },
+  {
+   "entry": "georgian-church-1650-1811",
+   "field": "longDescription",
+   "sentence": "In 1795 a Persian army took Tiflis and burned it.",
+   "url": "https://archive.org/download/MalanGeorgianChurch/Malan_Georgian_Church_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/malan.txt",
+   "quote": "In the month of September of that year the Per¬ sian army took the city of Tiflis"
+  },
+  {
+   "entry": "georgian-church-1650-1811",
+   "field": "longDescription",
+   "sentence": "In 1795 a Persian army took Tiflis and burned it.",
+   "url": "https://archive.org/download/DowlingGeorgianChurchHist/dowling_georgian_church_hist_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/dowling.txt",
+   "quote": "In 1795 the city was captured and burnt by the"
+  },
+  {
+   "entry": "georgian-church-1650-1811",
+   "field": "longDescription",
+   "sentence": "Ioselian says the churches were filled with killers.",
+   "url": "https://archive.org/download/MalanGeorgianChurch/Malan_Georgian_Church_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/malan.txt",
+   "quote": "the churches were filled with troops of murderers"
+  },
+  {
+   "entry": "georgian-church-1650-1811",
+   "field": "longDescription",
+   "sentence": "Theatine monks reached Georgia in 1625.",
+   "url": "https://archive.org/download/MalanGeorgianChurch/Malan_Georgian_Church_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/malan.txt",
+   "quote": "Already, from the year 1625, Roman missionaries of the order of Theatine got a footing in Iberia"
+  },
+  {
+   "entry": "georgian-church-1650-1811",
+   "field": "longDescription",
+   "sentence": "Capuchins followed and, in Ioselian's words, \"perverted\" many people in Tiflis.",
+   "url": "https://archive.org/download/MalanGeorgianChurch/Malan_Georgian_Church_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/malan.txt",
+   "quote": "came monks of the Capucin order, who succeeded in perverting not only many Armenians, but also Georgians in Tiflis"
+  },
+  {
+   "entry": "georgian-church-1650-1811",
+   "field": "longDescription",
+   "sentence": "The kings at first used them as teachers.",
+   "url": "https://archive.org/download/MalanGeorgianChurch/Malan_Georgian_Church_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/malan.txt",
+   "quote": "At first the kings of Georgia did not feel any diffidence towards these teachers from the Western Church"
+  },
+  {
+   "entry": "georgian-church-1650-1811",
+   "field": "longDescription",
+   "sentence": "Catholicos Antoni I left Georgia in 1755.",
+   "url": "https://archive.org/download/MalanGeorgianChurch/Malan_Georgian_Church_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/malan.txt",
+   "quote": "Antoni left Georgia in 1755"
+  },
+  {
+   "entry": "georgian-church-1650-1811",
+   "field": "longDescription",
+   "sentence": "Ioselian says the king feared the catholicos meant to leave the Orthodox faith, so a synod gave him a choice: leave, or give up his office.",
+   "url": "https://archive.org/download/MalanGeorgianChurch/Malan_Georgian_Church_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/malan.txt",
+   "quote": "The king heard with grief of the intention"
+  },
+  {
+   "entry": "georgian-church-1650-1811",
+   "field": "longDescription",
+   "sentence": "Ioselian says the king feared the catholicos meant to leave the Orthodox faith, so a synod gave him a choice: leave, or give up his office.",
+   "url": "https://archive.org/download/MalanGeorgianChurch/Malan_Georgian_Church_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/malan.txt",
+   "quote": "by its decision Antoni had the choice given him of either quitting Georgia or of abdicating his office of Catholicos"
+  },
+  {
+   "entry": "georgian-church-1650-1811",
+   "field": "longDescription",
+   "sentence": "Dowling says Antoni opposed the Latin innovations and was deposed for it.",
+   "url": "https://archive.org/download/DowlingGeorgianChurchHist/dowling_georgian_church_hist_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/dowling.txt",
+   "quote": "The Catholicos Antoni I opposed the innovations, for which he was deposed in a National Council."
+  },
+  {
+   "entry": "georgian-church-1650-1811",
+   "field": "longDescription",
+   "sentence": "Both say he went to the Russian Synod.",
+   "url": "https://archive.org/download/MalanGeorgianChurch/Malan_Georgian_Church_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/malan.txt",
+   "quote": "placing himself under the protection of the Holy Synod of all the Russias"
+  },
+  {
+   "entry": "georgian-church-1650-1811",
+   "field": "longDescription",
+   "sentence": "Both say he went to the Russian Synod.",
+   "url": "https://archive.org/download/DowlingGeorgianChurchHist/dowling_georgian_church_hist_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/dowling.txt",
+   "quote": "placed himself under the protection of the Holy Governing Synod of All the Russians"
+  },
+  {
+   "entry": "georgian-church-1650-1811",
+   "field": "longDescription",
+   "sentence": "Ioselian says the Synod found his confession of faith fully Orthodox. He became archbishop of Vladimir and later came back to his old see.",
+   "url": "https://archive.org/download/MalanGeorgianChurch/Malan_Georgian_Church_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/malan.txt",
+   "quote": "which was found in every respect conform¬ able to the orthodox Greek faith"
+  },
+  {
+   "entry": "georgian-church-1650-1811",
+   "field": "longDescription",
+   "sentence": "Ioselian says the Synod found his confession of faith fully Orthodox. He became archbishop of Vladimir and later came back to his old see.",
+   "url": "https://archive.org/download/MalanGeorgianChurch/Malan_Georgian_Church_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/malan.txt",
+   "quote": "In the course of time he was brought back to Georgia, and reinstated into his office of Catholicos"
+  },
+  {
+   "entry": "georgian-church-1650-1811",
+   "field": "longDescription",
+   "sentence": "The church still made its own books and hymns. Macrina, sister of King Teimuraz I, wrote hymns that were still sung in 1866.",
+   "url": "https://archive.org/download/MalanGeorgianChurch/Malan_Georgian_Church_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/malan.txt",
+   "quote": "wrote hymns in praise of the saints of Georgia, which are still in use in the Church"
+  },
+  {
+   "entry": "georgian-church-1650-1811",
+   "field": "longDescription",
+   "sentence": "Catholicos Antoni I translated many works.",
+   "url": "https://archive.org/download/MalanGeorgianChurch/Malan_Georgian_Church_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/malan.txt",
+   "quote": "ceeded in translating many excellent books"
+  },
+  {
+   "entry": "georgian-church-1650-1811",
+   "field": "longDescription",
+   "sentence": "Under King Heraclius II the ties with Russia grew closer, and the catholicos took a seat in the Russian Holy Synod. He kept his title.",
+   "url": "https://archive.org/download/DowlingGeorgianChurchHist/dowling_georgian_church_hist_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/dowling.txt",
+   "quote": "Under Heraclius II the ties between Russia and/ Georgia were drawn closer together. The Catholicos became a member of the Holy Governing Synod and lost his power, though retaining the title"
+  },
+  {
+   "entry": "georgian-church-1650-1811",
+   "field": "longDescription",
+   "sentence": "Under King Heraclius II the ties with Russia grew closer, and the catholicos took a seat in the Russian Holy Synod. He kept his title.",
+   "url": "https://archive.org/download/MalanGeorgianChurch/Malan_Georgian_Church_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/malan.txt",
+   "quote": "was honoured with a seat in the Holy Synod, without, for all that, losing the title of Catholicos"
+  },
+  {
+   "entry": "georgian-church-1650-1811",
+   "field": "longDescription",
+   "sentence": "Antoni II was called to St Petersburg in 1810 and was not allowed to return.",
+   "url": "https://archive.org/download/DowlingGeorgianChurchHist/dowling_georgian_church_hist_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/dowling.txt",
+   "quote": "in 1810 he was invited to St. Petersburg, and never allowed by the Russian Government to return"
+  },
+  {
+   "entry": "georgian-church-1650-1811",
+   "field": "longDescription",
+   "sentence": "In 1811 the dignity of the Georgian catholicos was abolished, and an exarch took its place.",
+   "url": "https://archive.org/download/DowlingGeorgianChurchHist/dowling_georgian_church_hist_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/dowling.txt",
+   "quote": "the dignity of the Georgian Catholicos was abolished, and a Russian Archbishop Varlam, with the title of Exarchos of Georgia, was appointed"
+  },
+  {
+   "entry": "georgian-church-1650-1811",
+   "field": "longDescription",
+   "sentence": "In 1811 the dignity of the Georgian catholicos was abolished, and an exarch took its place.",
+   "url": "https://archive.org/download/MalanGeorgianChurch/Malan_Georgian_Church_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/malan.txt",
+   "quote": "Together with the establishment of the exarchate in Georgia, or from 1811, the Exarchs have been"
+  },
+  {
+   "entry": "georgian-church-1650-1811",
+   "field": "why",
+   "sentence": "In 1811 Russia ended its catholicate.",
+   "url": "https://archive.org/download/DowlingGeorgianChurchHist/dowling_georgian_church_hist_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/dowling.txt",
+   "quote": "the dignity of the Georgian Catholicos was abolished"
+  },
+  {
+   "entry": "georgian-church-1650-1811",
+   "field": "teaser",
+   "sentence": "a catholicos driven out in 1755 and the catholicate ended in 1811",
+   "url": "https://archive.org/download/MalanGeorgianChurch/Malan_Georgian_Church_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/malan.txt",
+   "quote": "Antoni left Georgia in 1755"
+  },
+  {
+   "entry": "georgian-church-1650-1811",
+   "field": "teaser",
+   "sentence": "a catholicos driven out in 1755 and the catholicate ended in 1811",
+   "url": "https://archive.org/download/DowlingGeorgianChurchHist/dowling_georgian_church_hist_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/dowling.txt",
+   "quote": "the dignity of the Georgian Catholicos was abolished"
+  },
+  {
+   "entry": "georgian-church-1650-1811",
+   "field": "voices",
+   "sentence": "Macrina, sister of King Teimuraz I, hymns still in use in 1866",
+   "url": "https://archive.org/download/MalanGeorgianChurch/Malan_Georgian_Church_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/malan.txt",
+   "quote": "wrote hymns in praise of the saints of Georgia, which are still in use in the Church"
+  },
+  {
+   "entry": "georgian-church-1650-1811",
+   "field": "voices",
+   "sentence": "Antoni II held a seat in the Russian Holy Synod until 1810",
+   "url": "https://archive.org/download/DowlingGeorgianChurchHist/dowling_georgian_church_hist_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/dowling.txt",
+   "quote": "The Catholicos became a member of the Holy Governing Synod and lost his power, though retaining the title, until 1810"
+  },
+  {
+   "entry": "georgian-church-1650-1811",
+   "field": "voices",
+   "sentence": "Plato Ioselian is the Tiflis writer whose history, in Malan's English, is the main source",
+   "url": "https://archive.org/download/MalanGeorgianChurch/Malan_Georgian_Church_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/malan.txt",
+   "quote": "TRANSLATED FROM THE RUSSIAN OF P. IOSELIAN"
+  },
+  {
+   "entry": "georgian-church-1650-1811",
+   "field": "voices",
+   "sentence": "Plato Ioselian is the Tiflis writer whose history, in Malan's English, is the main source",
+   "url": "https://archive.org/download/MalanGeorgianChurch/Malan_Georgian_Church_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/malan.txt",
+   "quote": "Candidate Plato Ioselian. Tiflis"
+  },
+  {
+   "entry": "georgian-church-1650-1811",
+   "field": "sourcing",
+   "sentence": "Ioselian wrote in Russian and used Georgian sources.",
+   "url": "https://archive.org/download/MalanGeorgianChurch/Malan_Georgian_Church_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/malan.txt",
+   "quote": "what our own native sources do not yield"
+  },
+  {
+   "entry": "georgian-church-1650-1811",
+   "field": "sourcing",
+   "sentence": "Dowling's sketches of 1912 are an English churchman's.",
+   "url": "https://archive.org/download/DowlingGeorgianChurchHist/dowling_georgian_church_hist_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/dowling.txt",
+   "quote": "Sketches of Georgian church history / by Archdeacon Dowling."
+  },
+  {
+   "entry": "georgian-church-1650-1811",
+   "field": "sourcing",
+   "sentence": "Dowling's sketches of 1912 are an English churchman's.",
+   "url": "https://archive.org/download/DowlingGeorgianChurchHist/dowling_georgian_church_hist_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/dowling.txt",
+   "quote": "London : Society for Promoting Christian Literature ; 1912."
+  },
+  {
+   "entry": "georgian-church-1650-1811",
+   "field": "sourcing",
+   "sentence": "Ioselian calls the Catholic missionaries' work \"perverting\".",
+   "url": "https://archive.org/download/MalanGeorgianChurch/Malan_Georgian_Church_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/malan.txt",
+   "quote": "came monks of the Capucin order, who succeeded in perverting not only many Armenians"
+  },
+  {
+   "entry": "georgian-church-1650-1811",
+   "field": "sourcing",
+   "sentence": "Dowling's sketches of 1912 print a Georgian appeal that tells the same years as a loss.",
+   "url": "https://archive.org/download/DowlingGeorgianChurchHist/dowling_georgian_church_hist_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/dowling.txt",
+   "quote": "AN APPEAL FROM THE GEORGIAN CHURCH TO THE PATRIARCH OF CONSTANTINOPLE"
+  },
+  {
+   "entry": "georgian-church-1650-1811",
+   "field": "sourcing",
+   "sentence": "Dowling's sketches of 1912 print a Georgian appeal that tells the same years as a loss.",
+   "url": "https://archive.org/download/DowlingGeorgianChurchHist/dowling_georgian_church_hist_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/dowling.txt",
+   "quote": "Her autocephaly was abolished, contrary to all canonical law"
+  },
+  {
+   "entry": "georgian-church-1650-1811",
+   "field": "relationsSummary",
+   "sentence": "An exarch governed the church after 1811.",
+   "url": "https://archive.org/download/MalanGeorgianChurch/Malan_Georgian_Church_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/malan.txt",
+   "quote": "the head of the Georgian clergy was allowed, by the supreme will of the Emperor, to take the name of Metropolitan of Mtzkhetha"
+  },
+  {
+   "entry": "georgian-church-1650-1811",
+   "field": "relationsSummary",
+   "sentence": "The Georgian Golden Age comes long before it; Georgian Orthodox Church Restored carries the tradition today.",
+   "record": "census IV.15 (window ends 1245) and IX.40 (from 1917)",
+   "note": "the neighbors' own records"
+  },
+  {
+   "entry": "georgian-church-1650-1811",
+   "field": "legacy",
+   "sentence": "The Georgian church is alive today as the Georgian Orthodox Church.",
+   "record": "census IX.40 livingEvidence (Patriarchate of Georgia news item, 21 May 2026; OrthoChristian, 26 December 2024)",
+   "note": "the evidence is IX.40's own and already verified in the census; this row is carried by IX.40"
+  },
+  {
+   "entry": "melkite-greek-catholic-church",
+   "field": "longDescription",
+   "sentence": "In 1654 Patriarch Macarius of Antioch was in the Cossack lands.",
+   "file": "cic/texts/paul-of-aleppo_travels-of-macarius-v1_belfour1836.txt",
+   "lines": "11827-11828",
+   "quote": "this being the year 1654 ; and it is now a year since it fell into the hands of the Cossacks"
+  },
+  {
+   "entry": "melkite-greek-catholic-church",
+   "field": "longDescription",
+   "sentence": "His journey took him to Kyiv and on to Moscow.",
+   "file": "cic/texts/paul-of-aleppo_travels-of-macarius-v1_belfour1836.txt",
+   "lines": "662",
+   "quote": "Cossack Country.— Ancient City of Kiev"
+  },
+  {
+   "entry": "melkite-greek-catholic-church",
+   "field": "longDescription",
+   "sentence": "His journey took him to Kyiv and on to Moscow.",
+   "file": "cic/texts/paul-of-aleppo_travels-of-macarius-v1_belfour1836.txt",
+   "lines": "855",
+   "quote": "Entry into Moscow."
+  },
+  {
+   "entry": "melkite-greek-catholic-church",
+   "field": "longDescription",
+   "sentence": "His son Paul, an archdeacon of Aleppo, wrote the journey down.",
+   "file": "cic/texts/paul-of-aleppo_travels-of-macarius-v1_belfour1836.txt",
+   "lines": "973-975",
+   "quote": "Archdeacon, or Shammas, of the Orthodox Religion, of Aleppo, was natural son to the Distinguished, Most Holy, Exalted, and Munificent Father, Kyr Kyr Macarius"
+  },
+  {
+   "entry": "melkite-greek-catholic-church",
+   "field": "longDescription",
+   "sentence": "His son Paul, an archdeacon of Aleppo, wrote the journey down.",
+   "file": "cic/texts/paul-of-aleppo_travels-of-macarius-v1_belfour1836.txt",
+   "lines": "23",
+   "quote": "BY HIS ATTENDANT ARCHDEACON, PAUL OF ALEPPO"
+  },
+  {
+   "entry": "melkite-greek-catholic-church",
+   "field": "longDescription",
+   "sentence": "Before 1724 some Orthodox bishops of Syria had already tried to reach reunion with Rome.",
+   "url": "https://www.newadvent.org/cathen/10157b.htm",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/cathen_10157b.txt",
+   "quote": "Already in the seventeenth century tentative efforts at reunion were made by some of the Orthodox bishops of Syria."
+  },
+  {
+   "entry": "melkite-greek-catholic-church",
+   "field": "longDescription",
+   "sentence": "Euthymius, Athanasius IV and Cyril of Berrhoea approached the Holy See and hoped to receive the pallium.",
+   "url": "https://www.newadvent.org/cathen/10157b.htm",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/cathen_10157b.txt",
+   "quote": "A certain Euthymius, Metropolitan of Tyre and Sidon, then the Antiochene Patriarchs Athanasius IV (1700-1728) and the famous Cyril of Berrhoea (d. 1724, the rival of Cyril Lukaris of Constantinople, who for a time was rival Patriarch of Antioch) approached the Holy See and hoped to receive the pallium."
+  },
+  {
+   "entry": "melkite-greek-catholic-church",
+   "field": "longDescription",
+   "sentence": "Rome judged the professions of faith too weak.",
+   "url": "https://www.newadvent.org/cathen/10157b.htm",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/cathen_10157b.txt",
+   "quote": "But the professions of faith which they submitted were considered insufficient at Rome."
+  },
+  {
+   "entry": "melkite-greek-catholic-church",
+   "field": "longDescription",
+   "sentence": "In 1722 a synod at Constantinople sent the Antiochene bishops a warning letter listing Latin heresies.",
+   "url": "https://www.newadvent.org/cathen/10157b.htm",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/cathen_10157b.txt",
+   "quote": "in 1722 a synod was held at Constantinople which drew up and sent to the Antiochene bishops a warning letter with a list of Latin heresies"
+  },
+  {
+   "entry": "melkite-greek-catholic-church",
+   "field": "longDescription",
+   "sentence": "Fortescue is a Catholic writer; no Orthodox account of these years was read.",
+   "record": "sweep record section 6 / the row itself",
+   "note": "who the witness is (Catholic Encyclopedia, vol. 10) and what was opened; not a historical claim"
+  },
+  {
+   "entry": "orthodoxy-under-the-ottomans-1650-1821",
+   "field": "longDescription",
+   "sentence": "Fortescue lists Karlovci, formed of Orthodox Serbs in Hungary, dated 1765.",
+   "url": "https://www.newadvent.org/cathen/05230a.htm",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/cathen_05230a.txt",
+   "quote": "Carlovitz (1765), formed of Orthodox Serbs in Hungary"
+  },
+  {
+   "entry": "orthodoxy-under-the-ottomans-1650-1821",
+   "field": "longDescription",
+   "sentence": "Montenegro, with one independent diocese on the Black Mountain, also dated 1765.",
+   "url": "https://www.newadvent.org/cathen/05230a.htm",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/cathen_05230a.txt",
+   "quote": "Czernagora (1765), with one independent diocese of the Black Mountain."
+  },
+  {
+   "entry": "orthodoxy-under-the-ottomans-1650-1821",
+   "field": "longDescription",
+   "sentence": "Fortescue is a Catholic writer; his dates mark independence as he counts it.",
+   "record": "sweep record section 6 / the row itself",
+   "note": "who the witness is (Catholic Encyclopedia, vol. 5) and the sweep record, section 6 ME-17: his dates are for independence as he reckons it; not a historical claim"
+  },
+  {
+   "entry": "orthodoxy-under-the-ottomans-1650-1821",
+   "field": "longDescription",
+   "sentence": "In 1762 Paisii, a monk of Hilendar, wrote a history of the Bulgarians.",
+   "file": "cic/texts/paisii-hilendarski_istoriia-slavianobolgarskaia-bul_ivanov1914.txt",
+   "lines": "2",
+   "quote": "Paisii of Hilendar, hieromonk (author, 1762)"
+  },
+  {
+   "entry": "orthodoxy-under-the-ottomans-1650-1821",
+   "field": "longDescription",
+   "sentence": "In 1762 Paisii, a monk of Hilendar, wrote a history of the Bulgarians.",
+   "file": "cic/texts/paisii-hilendarski_istoriia-slavianobolgarskaia-bul_ivanov1914.txt",
+   "lines": "925",
+   "quote": "защото пр^зъ 1762 г., когато написалъ своя трудъ"
+  },
+  {
+   "entry": "orthodoxy-under-the-ottomans-1650-1821",
+   "field": "longDescription",
+   "sentence": "Yordan Ivanov printed it from Paisii's own manuscript in 1914.",
+   "file": "cic/texts/paisii-hilendarski_istoriia-slavianobolgarskaia-bul_ivanov1914.txt",
+   "lines": "64-65",
+   "quote": "СТЪКМИ ЗА ПЕЧАТЪ ПО ПЪРВООБРАЗА ЙОР. ИВАНОВЪ"
+  },
+  {
+   "entry": "orthodoxy-under-the-ottomans-1650-1821",
+   "field": "longDescription",
+   "sentence": "Yordan Ivanov printed it from Paisii's own manuscript in 1914.",
+   "file": "cic/texts/paisii-hilendarski_istoriia-slavianobolgarskaia-bul_ivanov1914.txt",
+   "lines": "77-78",
+   "quote": "ДЪРЖАВНА ПЕЧАТНИЦА 1914"
+  },
+  {
+   "entry": "orthodoxy-under-the-ottomans-1650-1821",
+   "field": "longDescription",
+   "sentence": "Paisii called to his readers: \"Bulgarian! know your own people and language\" (a rendering).",
+   "file": "cic/texts/paisii-hilendarski_istoriia-slavianobolgarskaia-bul_ivanov1914.txt",
+   "lines": "377",
+   "quote": "Паиси извика: Българино! знай своя родъ и езикъ..."
+  },
+  {
+   "entry": "orthodoxy-under-the-ottomans-1650-1821",
+   "field": "longDescription",
+   "sentence": "Paisii named three causes of his people's ruin: no freedom, no national hierarchy and no national schools (a rendering).",
+   "file": "cic/texts/paisii-hilendarski_istoriia-slavianobolgarskaia-bul_ivanov1914.txt",
+   "lines": "352-353",
+   "quote": "липса на свобода,- липса на народна йерархия и народни училища."
+  },
+  {
+   "entry": "orthodoxy-under-the-ottomans-1650-1821",
+   "field": "longDescription",
+   "sentence": "Ivanov writes in the Bulgarian national tradition and blames the Greek clergy.",
+   "file": "cic/texts/paisii-hilendarski_istoriia-slavianobolgarskaia-bul_ivanov1914.txt",
+   "lines": "298",
+   "quote": "духовния мракъ на гръцкото духовенство"
+  },
+  {
+   "entry": "orthodoxy-under-the-ottomans-1650-1821",
+   "field": "longDescription",
+   "sentence": "No Greek account of this dispute was read.",
+   "record": "sweep record section 6 / the row itself",
+   "note": "what was opened; not a historical claim"
+  },
+  {
+   "entry": "orthodoxy-after-1821-balkan-autocephalies",
+   "field": "longDescription",
+   "sentence": "Ivanov says Paisii, writing in 1762, named the lack of a national hierarchy and national schools among the causes of his people's ruin.",
+   "file": "cic/texts/paisii-hilendarski_istoriia-slavianobolgarskaia-bul_ivanov1914.txt",
+   "lines": "352-353",
+   "quote": "липса на свобода,- липса на народна йерархия и народни училища."
+  },
+  {
+   "entry": "orthodoxy-after-1821-balkan-autocephalies",
+   "field": "longDescription",
+   "sentence": "Ivanov says Paisii, writing in 1762, named the lack of a national hierarchy and national schools among the causes of his people's ruin.",
+   "file": "cic/texts/paisii-hilendarski_istoriia-slavianobolgarskaia-bul_ivanov1914.txt",
+   "lines": "925",
+   "quote": "защото пр^зъ 1762 г., когато написалъ своя трудъ"
+  },
+  {
+   "entry": "orthodoxy-after-1821-balkan-autocephalies",
+   "field": "longDescription",
+   "sentence": "The exarchate of 1870 was a national church.",
+   "record": "sweep record section 6 / the row itself",
+   "note": "this row's own first paragraph: Bulgaria won a decree from the sultan in 1870 that set up a national church, the exarchate"
+  },
+  {
+   "entry": "orthodoxy-after-1821-balkan-autocephalies",
+   "field": "longDescription",
+   "sentence": "Fortescue dates a self-governing church of the Vlachs of Hungary to 1864; he calls it Hermannstadt.",
+   "url": "https://www.newadvent.org/cathen/05230a.htm",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/cathen_05230a.txt",
+   "quote": "Hermannstadt (Nagy-Szeben, 1864), the Church of the Vlachs in Hungary, with three sees."
+  },
+  {
+   "entry": "orthodoxy-after-1821-balkan-autocephalies",
+   "field": "longDescription",
+   "sentence": "He calls it Hermannstadt; today the town is Sibiu, in Transylvania.",
+   "record": "sweep record section 6 / the row itself",
+   "note": "the sweep record, section 6 ME-17, names the church of Hermannstadt as Sibiu; the place name is the record's, not Fortescue's"
+  },
+  {
+   "entry": "russian-church-nikon-to-holy-synod",
+   "field": "longDescription",
+   "sentence": "The council of 1666 and 1667 decided to raise Tobolsk to a metropolitan see.",
+   "file": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
+   "lines": "10560-10564",
+   "quote": "the Council decided to raise certain dioceses to the dignity of metropolitan sees, as those of Astrachan, Tobolsk, and Riazan"
+  },
+  {
+   "entry": "russian-church-nikon-to-holy-synod",
+   "field": "longDescription",
+   "sentence": "The council of 1666 and 1667 decided to raise Tobolsk to a metropolitan see.",
+   "file": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
+   "lines": "10505",
+   "quote": "1667."
+  },
+  {
+   "entry": "russian-church-nikon-to-holy-synod",
+   "field": "longDescription",
+   "sentence": "It also proposed new bishoprics at Tomsk and on the Lena, because they lay so far from Tobolsk.",
+   "file": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
+   "lines": "10584-10588",
+   "quote": "It was also proposed to erect new bishoprics at Tomsk and on the Lena on account of their great distance from the metropolitan city of Tobolsk."
+  },
+  {
+   "entry": "russian-church-nikon-to-holy-synod",
+   "field": "longDescription",
+   "sentence": "In Peter the Great's reign Theodore, metropolitan of Tobolsk, converted 10,000 Ostiaks.",
+   "file": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
+   "lines": "12536-12537",
+   "quote": "Theodore, metropolitan of Tobolsk, and the successor of Ignatius, converted 10,000 Ostiacs."
+  },
+  {
+   "entry": "russian-church-nikon-to-holy-synod",
+   "field": "longDescription",
+   "sentence": "In Peter the Great's reign Theodore, metropolitan of Tobolsk, converted 10,000 Ostiaks.",
+   "file": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
+   "lines": "12532-12533",
+   "quote": "Confined in the West during the reign of Peter, she ex- tended herself in the East"
+  },
+  {
+   "entry": "russian-church-nikon-to-holy-synod",
+   "field": "longDescription",
+   "sentence": "The numbers are Mouravieff's, in an English version of 1842.",
+   "file": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
+   "lines": "2",
+   "quote": "translated by the Rev. R. W. Blackmore, chaplain in Cronstadt to the Russia Company"
+  },
+  {
+   "entry": "russian-church-synodal-century",
+   "field": "longDescription",
+   "sentence": "The head of the Georgian clergy took the title \"Member of the Synod, and Exarch of Georgia\".",
+   "url": "https://archive.org/download/MalanGeorgianChurch/Malan_Georgian_Church_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/malan.txt",
+   "quote": "Member of the Synod, and Exarch of Georgia"
+  },
+  {
+   "entry": "russian-church-synodal-century",
+   "field": "longDescription",
+   "sentence": "The first to hold it was Archbishop Balaam.",
+   "url": "https://archive.org/download/MalanGeorgianChurch/Malan_Georgian_Church_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/malan.txt",
+   "quote": "And to that dignity was the Georgian Archbishop Balaam then raised by the"
+  },
+  {
+   "entry": "russian-church-synodal-century",
+   "field": "longDescription",
+   "sentence": "Ioselian calls him a Georgian of a princely family.",
+   "url": "https://archive.org/download/MalanGeorgianChurch/Malan_Georgian_Church_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/malan.txt",
+   "quote": "The Metropolitan Balaam , of the princely race of Georgian Eristhavs"
+  },
+  {
+   "entry": "russian-church-synodal-century",
+   "field": "longDescription",
+   "sentence": "A Georgian appeal calls him a Russian.",
+   "url": "https://archive.org/download/DowlingGeorgianChurchHist/dowling_georgian_church_hist_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/dowling.txt",
+   "quote": "a Russian Archbishop Varlam, with the title of Exarchos of Georgia, was appointed"
+  },
+  {
+   "entry": "russian-church-synodal-century",
+   "field": "longDescription",
+   "sentence": "In 1814 the emperor gave Balaam the exarchate of Imereti as well.",
+   "url": "https://archive.org/download/MalanGeorgianChurch/Malan_Georgian_Church_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/malan.txt",
+   "quote": "On the 30th of August, 1814, the exarchate of Imereth was given by the Emperor, to the Georgian exarch Balaam"
+  },
+  {
+   "entry": "russian-church-synodal-century",
+   "field": "longDescription",
+   "sentence": "In December 1818 one exarchy was set up for all Georgia.",
+   "url": "https://archive.org/download/MalanGeorgianChurch/Malan_Georgian_Church_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/malan.txt",
+   "quote": "In December 1818, and at the representation of the synod, which the Emperor confirmed, one exarchy alone was established in Georgia"
+  },
+  {
+   "entry": "russian-church-synodal-century",
+   "field": "longDescription",
+   "sentence": "The appeal says that Georgia's church lost its rights against canon law and that its property was seized.",
+   "url": "https://archive.org/download/DowlingGeorgianChurchHist/dowling_georgian_church_hist_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/dowling.txt",
+   "quote": "Her autocephaly was abolished, contrary to all canonical law, her property was sequestrated"
+  },
+  {
+   "entry": "russian-church-synodal-century",
+   "field": "longDescription",
+   "sentence": "In 1811 the Georgian catholicate ended.",
+   "url": "https://archive.org/download/DowlingGeorgianChurchHist/dowling_georgian_church_hist_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/dowling.txt",
+   "quote": "the dignity of the Georgian Catholicos was abolished"
+  },
+  {
+   "entry": "russian-church-synodal-century",
+   "field": "longDescription",
+   "sentence": "Blackmore, an English chaplain, put Mouravieff's history into English in 1842 and wrote of its missions in Siberia.",
+   "file": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
+   "lines": "2",
+   "quote": "translated by the Rev. R. W. Blackmore, chaplain in Cronstadt to the Russia Company"
+  },
+  {
+   "entry": "russian-church-synodal-century",
+   "field": "longDescription",
+   "sentence": "Blackmore wrote in the preface of \"the growing efficiency and marked success of their missions in Siberia\".",
+   "file": "cic/texts/mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
+   "lines": "220-221",
+   "quote": "the growing efficiency and marked success of their missions in Siberia"
+  },
+  {
+   "entry": "russian-church-synodal-century",
+   "field": "relationsSummary",
+   "sentence": "After 1811 the church governed Georgia through an exarch.",
+   "url": "https://archive.org/download/MalanGeorgianChurch/Malan_Georgian_Church_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/malan.txt",
+   "quote": "Together with the establishment of the exarchate in Georgia, or from 1811, the Exarchs have been"
+  },
+  {
+   "entry": "russian-church-synodal-century",
+   "field": "voices",
+   "sentence": "Balaam, first exarch of Georgia",
+   "url": "https://archive.org/download/MalanGeorgianChurch/Malan_Georgian_Church_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/malan.txt",
+   "quote": "And to that dignity was the Georgian Archbishop Balaam then raised by the"
+  },
+  {
+   "entry": "church-of-the-east-chaldean-consolidation",
+   "field": "longDescription",
+   "sentence": "In 1896 the part of the church in Persia submitted to the mission sent by the Russian Orthodox Church.",
+   "file": "cic/texts/wigram_assyrians-and-their-neighbours_1929.txt",
+   "lines": "8064-8068",
+   "quote": "In the year 1896, the remnant of the Church remaining there submitted to the Mission sent to educate them by the Russian orthodox Church, trusting that this ecclesiastical submission would ensure them"
+  },
+  {
+   "entry": "church-of-the-east-chaldean-consolidation",
+   "field": "longDescription",
+   "sentence": "They hoped this would bring political protection. Wigram says it did, for as long as Russian power lasted.",
+   "file": "cic/texts/wigram_assyrians-and-their-neighbours_1929.txt",
+   "lines": "8069-8071",
+   "quote": "This, to do the Russians bare justice, was actually the case, for so long as their power to protect anyone lasted."
+  },
+  {
+   "entry": "church-of-the-east-chaldean-consolidation",
+   "field": "longDescription",
+   "sentence": "The Assyrians in Turkish lands began to think of following.",
+   "file": "cic/texts/wigram_assyrians-and-their-neighbours_1929.txt",
+   "lines": "8074-8075",
+   "quote": "began to be inclined to follow suit"
+  },
+  {
+   "entry": "church-of-the-east-three-patriarchates",
+   "field": "longDescription",
+   "sentence": "Malech says a patriarch of that line, Denkha Shimon, later moved its seat to the village of Qudshanis.",
+   "file": "cic/texts/malech_history-of-the-syrian-nation-and-old-evangelical-apostolic-church-of-the-east_1910.txt",
+   "lines": "16806-16807",
+   "quote": "Denkah Shimon XV transferred (removed) the patriarchal residence from the village of Raban Dadishu to Kudchanis"
+  },
+  {
+   "entry": "church-of-the-east-three-patriarchates",
+   "field": "longDescription",
+   "sentence": "Hormizd was a metropolitan.",
+   "file": "cic/texts/badger_nestorians-and-their-rituals-v1_1852.txt",
+   "lines": "8033-8034",
+   "quote": "on the day of Pentecost, I was made Metropolitan"
+  },
+  {
+   "entry": "church-of-the-east-three-patriarchates",
+   "field": "longDescription",
+   "sentence": "Another nephew, Yeshua-yau, was to be patriarch. Within a year he turned back, and the two became enemies.",
+   "file": "cic/texts/badger_nestorians-and-their-rituals-v1_1852.txt",
+   "lines": "8063-8065",
+   "quote": "It was moreover agreed that he should be Patriarch in the room of my uncle"
+  },
+  {
+   "entry": "church-of-the-east-three-patriarchates",
+   "field": "longDescription",
+   "sentence": "Another nephew, Yeshua-yau, was to be patriarch. Within a year he turned back, and the two became enemies.",
+   "file": "cic/texts/badger_nestorians-and-their-rituals-v1_1852.txt",
+   "lines": "8066-8067",
+   "quote": "whereupon he turned to be my enemy and the enemy of all the people. This event took place in May, 1779."
+  },
+  {
+   "entry": "church-of-the-east-three-patriarchates",
+   "field": "longDescription",
+   "sentence": "Another nephew, Yeshua-yau, was to be patriarch.",
+   "file": "cic/texts/badger_nestorians-and-their-rituals-v1_1852.txt",
+   "lines": "8036-8037",
+   "quote": "who was also his nephew"
+  },
+  {
+   "entry": "church-of-the-east-three-patriarchates",
+   "field": "longDescription",
+   "sentence": "In 1782 Pope Pius VI let Hormizd act as patriarch, but not use the patriarch's seal.",
+   "file": "cic/texts/badger_nestorians-and-their-rituals-v1_1852.txt",
+   "lines": "8100-8104",
+   "quote": "licence to minister and perfect the office of patriarch, but I was not allowed to use the patriar- chal seal. This concession made to us by Pope Pius VI. came to hand on the 11th of December, 2094 of the Grecian era, A.D. 1782."
+  },
+  {
+   "entry": "church-of-the-east-three-patriarchates",
+   "field": "longDescription",
+   "sentence": "Labourt puts it in 1830, after Rome had cut Hormizd off in 1818.",
+   "url": "https://www.newadvent.org/cathen/03559a.htm",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/cathen_03559a.txt",
+   "quote": "John Hormizd had been excommunicated in 1818, but was reconciled with Rome in 1830 and proclaimed Patriarch of Babylon by Pius VIII"
+  },
+  {
+   "entry": "church-of-the-east-three-patriarchates",
+   "field": "longDescription",
+   "sentence": "Wigram says the Joseph line was then allowed to lapse, though its last holder lived until 1828.",
+   "file": "cic/texts/wigram_assyrians-and-their-neighbours_1929.txt",
+   "lines": "7500-7501",
+   "quote": "the “Joseph” line at Diarbekr was allowed to lapse"
+  },
+  {
+   "entry": "church-of-the-east-three-patriarchates",
+   "field": "longDescription",
+   "sentence": "Wigram says the Joseph line was then allowed to lapse, though its last holder lived until 1828.",
+   "file": "cic/texts/wigram_assyrians-and-their-neighbours_1929.txt",
+   "lines": "7502",
+   "quote": "did not die till 1828"
+  },
+  {
+   "entry": "church-of-the-east-three-patriarchates",
+   "field": "legacy",
+   "sentence": "Rome had not yet made Hormizd patriarch in 1815.",
+   "url": "https://www.newadvent.org/cathen/03559a.htm",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/cathen_03559a.txt",
+   "quote": "John Hormizd had been excommunicated in 1818, but was reconciled with Rome in 1830 and proclaimed Patriarch of Babylon by Pius VIII"
+  },
+  {
+   "entry": "church-of-the-east-three-patriarchates",
+   "field": "why",
+   "sentence": "The patriarch died the day before his nephew turned to Rome.",
+   "file": "cic/texts/badger_nestorians-and-their-rituals-v1_1852.txt",
+   "lines": "8049-8050",
+   "quote": "who departed this life on the 29th of April."
+  },
+  {
+   "entry": "orthodoxy-under-the-ottomans-1650-1821",
+   "field": "longDescription",
+   "sentence": "three causes of his people's spiritual ruin",
+   "file": "cic/texts/paisii-hilendarski_istoriia-slavianobolgarskaia-bul_ivanov1914.txt",
+   "lines": "351-352",
+   "quote": "които докарали до българската духовна съсипия"
+  },
+  {
+   "entry": "orthodoxy-after-1821-balkan-autocephalies",
+   "field": "longDescription",
+   "sentence": "spiritual ruin",
+   "file": "cic/texts/paisii-hilendarski_istoriia-slavianobolgarskaia-bul_ivanov1914.txt",
+   "lines": "351-352",
+   "quote": "които докарали до българската духовна съсипия"
+  }
+ ],
+ "neighbor_changes": [
+  {
+   "id": "church-of-the-east-schism-of-1552",
+   "set": {
+    "continuesAs": "church-of-the-east-three-patriarchates",
+    "relationsSummary": "Opponents of the hereditary succession elect Yohannan Sulaqa. Rome makes him patriarch in 1553, and he is killed at home in 1555. From then on the communion has two rival patriarchs. In Malabar, the same communion's Indian church faced its own crisis under Portuguese rule, which ended in the Coonan Cross Oath of 1653. The story grows out of the Church of the East after Timur. The entry on the Church of the East's three patriarchs, 1650 to 1815, carries it on."
+   },
+   "ruling": "G89-43 a; G89-6 a",
+   "reason": "The new row for 1650 to 1815 follows this one. The Church of the East carries on from the end of this row into it."
+  },
+  {
+   "id": "maronite-christianity",
+   "ruling": "G89-39 a",
+   "reason": "The new row for 1815 to 1906 is now the latest entry in the Maronite line. The dated evidence that sat here moves onto it, and this row names it as carrier.",
+   "set": {
+    "livingEvidence": {
+     "basis": "This tradition continues, through its line of later entries, in the Maronite Church, 1815 to 1906, which carries it today.",
+     "carrier": [
+      "maronite-church-1815-1906"
+     ],
+     "group": "line"
+    }
+   }
+  },
+  {
+   "id": "maronite-christianity-era-6",
+   "ruling": "G89-39 a",
+   "reason": "This row was carried through Maronite Christianity, which now names the new 1815 to 1906 row as its carrier. A carried row cannot name a carried row, so it names the new row.",
+   "set": {
+    "livingEvidence": {
+     "basis": "The same church as the Maronite Church, 1815 to 1906, which carries the tradition today. The entry's own text calls it a living church in communion with Rome.",
+     "carrier": [
+      "maronite-church-1815-1906"
+     ],
+     "group": "line"
+    }
+   }
+  },
+  {
+   "id": "melkite-greek-catholic-church",
+   "set": {
+    "dates": "1650-1815",
+    "start": 1650,
+    "longDescription": "When the Patriarch of Antioch died in 1724, the Christians of Damascus elected Cyril VI Tanas, who favored union with Rome. Constantinople refused to accept him and consecrated a rival, Sylvester, a Greek monk from Cyprus. The Antiochian patriarchate never reunited. What followed was the permanent division of one Arabic-speaking, Byzantine-rite community into two churches — one in communion with Rome, recognized by the pope in 1729, and one with Constantinople — sharing the same liturgy, the same language and frequently the same families. The Catholic side, based at Damascus, Aleppo and the monasteries of Mount Lebanon, was pressed hard by Ottoman authorities acting on Orthodox complaints, and was not granted a recognized civil standing of its own until well into the nineteenth century.\n\nThe split had a long run-up. In 1654 Patriarch Macarius of Antioch was in the Cossack lands. His journey took him to Kyiv and on to Moscow. His son Paul, an archdeacon of Aleppo, wrote the journey down.\n\nBefore 1724 some Orthodox bishops of Syria had tried to reach reunion with Rome. Fortescue, a Catholic writer, tells it. Euthymius, bishop of Tyre and Sidon, approached the Holy See. So did the patriarchs Athanasius IV and Cyril of Berrhoea. They hoped to receive the pallium. Rome found their professions of faith too weak. In 1722 a synod at Constantinople sent the Antiochene bishops a warning letter. It listed Latin heresies. No Orthodox account of these approaches to Rome was read.",
+    "voices": [
+     "Cyril VI Tanas — elected patriarch at Damascus in 1724 and recognized by Rome in 1729, the first patriarch of the Melkite Greek Catholic Church",
+     "Sylvester of Antioch — the Cypriot monk consecrated by Constantinople as the rival patriarch, who governed the Orthodox side of the split for nearly fifty years",
+     "Euthymios Saifi — bishop of Tyre and Sidon in the decades before the split, whose pro-Roman work and religious order prepared the ground for it",
+     "Macarius III of Antioch — patriarch whose journey to the Cossack lands and Moscow in the 1650s was written down by his son, Paul of Aleppo"
+    ],
+    "teaser": "Damascus, Aleppo and Mount Lebanon, from 1650 — one Arabic-speaking Byzantine-rite church that elected two patriarchs and never became one church again.",
+    "sources": [
+     {
+      "work": "Paul of Aleppo, The Travels of Macarius, Patriarch of Antioch, vol. 1, tr. F. C. Belfour (London, 1836)",
+      "type": "primary",
+      "note": "Journal of the patriarch's journey through the Cossack lands to Kyiv and Moscow, dated 1654. Read for the date and the contents only."
+     },
+     {
+      "work": "Adrian Fortescue, \"Melchites\", Catholic Encyclopedia, vol. 10 (1911)",
+      "type": "secondary",
+      "note": "A Catholic reference article; it calls the Orthodox churches schismatic.",
+      "url": "https://www.newadvent.org/cathen/10157b.htm"
+     }
+    ]
+   },
+   "ruling": "G89-42 a, sub-question i; G89-6 a",
+   "reason": "A named line for Macarius III and Euthymius, 1650 to 1724, the run-up to this row's own split. The row's start moves from 1724 to 1650 so the line sits inside its dates. The first paragraph is old text, unchanged. The teaser says \"from 1724\"; only \"1724\" is changed to \"1650\" so it matches the new start."
+  },
+  {
+   "id": "orthodoxy-under-the-ottomans-1650-1821",
+   "set": {
+    "longDescription": "For a century and a half after 1650 the Orthodox church of the Ottoman Empire was both a church and an arm of the state: the Ecumenical Patriarch in Constantinople answered to the Sultan for the obedience of all Orthodox subjects, collected their taxes and judged their marriages and inheritances. It was a position of real power and total insecurity — patriarchs were deposed and restored constantly. And it came increasingly to be held under the influence of the Phanariots, the wealthy Greek families of Constantinople's Phanar quarter who supplied the empire's interpreters and the princes of its Danubian provinces. In 1672 the Synod of Jerusalem, under Patriarch Dositheus, issued a confession answering the Calvinist ideas that had been circulating under an Orthodox name — the East's own equivalent of the West's confessional settlements. That power also worked against its neighbors: the Serbian patriarchate of Peć was abolished in 1766 and the archbishopric of Ohrid in 1767, both absorbed into Constantinople. It ended violently — when the Greek revolt broke out in 1821, Patriarch Gregory V was hanged in his vestments from the gate of his own patriarchate.\n\nNot every Orthodox church of these years stood under Constantinople. Fortescue, a Catholic writer, lists two that stood apart. One is Karlovci, made of Orthodox Serbs in Hungary. He dates it to 1765. The other is Montenegro, with one independent diocese on the Black Mountain. He also dates it to 1765. His dates mark independence as he counts it.\n\nA Bulgarian revival began in these years. In 1762 Paisii, a monk of Hilendar, wrote a history of the Bulgarians. Yordan Ivanov printed it in 1914. He says Paisii called to his readers: «Българино! знай своя родъ и езикъ» (\"Bulgarian! know your own people and language\", a rendering). Ivanov adds that Paisii named three causes of his people's spiritual ruin. They were no freedom, no national hierarchy and no national schools. Ivanov writes in the Bulgarian national tradition. He blames the Greek clergy. No Greek account of this dispute was read.",
+    "sources": [
+     {
+      "work": "Adrian Fortescue, \"Eastern Churches\", Catholic Encyclopedia, vol. 5 (1909)",
+      "type": "secondary",
+      "note": "A Catholic reference article; it calls the Orthodox churches schismatic.",
+      "url": "https://www.newadvent.org/cathen/05230a.htm"
+     },
+     {
+      "work": "Paisii of Hilendar, Istoriia slavianobolgarskaia, ed. Yordan Ivanov (Sofia, 1914)",
+      "type": "secondary",
+      "note": "Paisii's history of 1762, with Ivanov's introduction (1914), on which the line rests."
+     }
+    ]
+   },
+   "ruling": "G89-48 a (ME-13 and ME-17); G89-6 a",
+   "reason": "Named lines for the Bulgarian revival from Paisii (ME-13) and for Karlovci and Montenegro (ME-17). The first paragraph is old text, unchanged."
+  },
+  {
+   "id": "orthodoxy-after-1821-balkan-autocephalies",
+   "set": {
+    "longDescription": "Under Ottoman rule, the Orthodox of the Balkans were governed as one religious community. That community answered to the Patriarch of Constantinople. The Greek revolt of 1821 broke this order apart. Weeks after the rising began, Patriarch Gregory V was hanged at the gate of his own home. As each new nation won its freedom, its church claimed the right to govern itself. Greece declared its church free in 1833, and Constantinople formally accepted it in 1850. Bulgaria won a decree from the sultan in 1870 that set up a national church, the exarchate. Serbia won its own church in 1879 and Romania in 1885. In 1872 a council at Constantinople condemned phyletism, which means building the church around a nation rather than a place. Even so, national churches kept on spreading. The century did not simply break one church apart. It made a family of churches. Each had its own synod, its own language of worship and its own claim on a people.\n\nThe call for a national church was older. Ivanov says the monk Paisii, writing in 1762, named the lack of a national hierarchy and national schools. He listed them among the causes of his people's spiritual ruin. The exarchate of 1870 was a national church.\n\nNot every new Orthodox church grew out of the Ottoman patriarchate. Fortescue, a Catholic writer, dates a self-governing church of the Vlachs of Hungary to 1864. He calls it Hermannstadt. Today the town is Sibiu.",
+    "sources": [
+     {
+      "work": "Adrian Fortescue, \"Eastern Churches\", Catholic Encyclopedia, vol. 5 (1909)",
+      "type": "secondary",
+      "note": "A Catholic reference article; it calls the Orthodox churches schismatic.",
+      "url": "https://www.newadvent.org/cathen/05230a.htm"
+     },
+     {
+      "work": "Paisii of Hilendar, Istoriia slavianobolgarskaia, ed. Yordan Ivanov (Sofia, 1914)",
+      "type": "secondary",
+      "note": "Paisii's history of 1762, with Ivanov's introduction (1914), on which the line rests."
+     }
+    ]
+   },
+   "ruling": "G89-48 a (ME-13 and ME-17); G89-6 a",
+   "reason": "A named line carrying the Bulgarian revival of VII.18 into the exarchate (ME-13), and a named line for Hermannstadt, 1864 (ME-17). Karlovci and Montenegro are not carried past 1815: the only source is Fortescue's list of 1909. The first paragraph is old text, unchanged."
+  },
+  {
+   "id": "russian-church-nikon-to-holy-synod",
+   "set": {
+    "longDescription": "Patriarch Nikon, elected in 1652, set out to correct Russian service books against Greek models and to assert the priesthood's authority over the tsar's. And lost both fights: the corrections split the church permanently, and Nikon himself was deposed by the council of 1666-67 that condemned his opponents. Half a century later Peter the Great settled the second argument the other way. When the patriarch died in 1700 Peter simply left the office empty, and in 1721 he abolished it, replacing it with a Holy Synod of clergy, watched over by a lay official the tsar appointed. The church became, in effect, a department of the imperial government and stayed one for two hundred years. Catherine II completed the process in 1764 by confiscating the monastic estates. Yet the same church produced Tikhon of Zadonsk's gentle devotional writing, a serious seminary system, and in 1794 sent monks from Valaam across the Pacific to Alaska.\n\nThe church followed the Russian frontier east. The council of 1666 and 1667 raised Tobolsk, in Siberia, to a metropolitan see. It also proposed new bishoprics at Tomsk and on the Lena. They lay far from Tobolsk. In Peter the Great's reign, Mouravieff says, Theodore of Tobolsk converted 10,000 Ostiaks. The numbers are Mouravieff's, in an English version of 1842.",
+    "sources": [
+     {
+      "work": "A. N. Mouravieff, A History of the Church of Russia, tr. R. W. Blackmore (Oxford, 1842)",
+      "type": "secondary",
+      "note": "A history of the Russian church with an English translator's preface."
+     }
+    ]
+   },
+   "ruling": "G89-48 a (ME-18); G89-6 a",
+   "reason": "A named line for the Siberian dioceses and mission (ME-18), from Mouravieff's history in the Library. The first paragraph is old text, unchanged. The Volga mission and Il'minskii's schools stay held."
+  },
+  {
+   "id": "russian-church-synodal-century",
+   "set": {
+    "relationsSummary": "Governed under Metropolitan Filaret of Moscow and, later, the state-appointed ober-procurator Konstantin Pobedonostsev. Sent missions to the Altai peoples and to Japan (from 1861, under Nikolai), and reached the 1905 toleration edict that opened the way to the council that restored the patriarchate. The Optina elders' renewal movement grew within this church, and Alaska was one of its missions. It stood in tension with the separate Old Believer Belokrinitsa hierarchy, founded in 1846, and with the evangelical Stundist movement that broke from it.\n\nAfter 1811 it also governed the Georgian church through an exarch.",
+    "longDescription": "For this whole century the Russian Orthodox Church had no patriarch. It was governed by a Holy Synod whose chief lay officer, the ober-procurator, answered to the tsar — an arrangement that produced both an immense institution and a cramped one. Metropolitan Filaret of Moscow gave Russia its standard catechism and pressed for decades for a Bible in modern Russian, finished in 1876 over long resistance. Missions went out to the Altai peoples, to Alaska and to Japan. Monasteries and their elders drew crowds, and a parish priest, John of Kronstadt, became the most sought-after confessor in the empire. But under Konstantin Pobedonostsev, ober-procurator for a quarter-century, the church was also the instrument of a policy of religious uniformity that pressed hard on Old Believers, Eastern Catholics and evangelicals alike. When toleration was finally decreed in 1905, the church immediately began preparing the council that would give it back its own head.\n\nThe church also governed Georgia. In 1811 the Georgian catholicate ended. Ioselian, a Georgian historian in Malan's English, says the head of the Georgian clergy then took the title \"Member of the Synod, and Exarch of Georgia\". The first to hold it was Archbishop Balaam. Ioselian calls him a Georgian of a princely family. A Georgian appeal calls him a Russian. In 1814 the emperor gave Balaam the exarchate of Imereti as well. In December 1818 one exarchy was set up for all Georgia. The same appeal says that Georgia's church lost its rights against canon law and that its property was seized. The Georgian church's later story is told in the entry on the restored Georgian church.\n\nMissions went east too. Blackmore put Mouravieff's history into English in 1842. In its preface he wrote of the \"marked success\" of the missions in Siberia.",
+    "voices": [
+     "Filaret (Drozdov) of Moscow — metropolitan for nearly half a century, author of the church's catechism and champion of the Russian Bible",
+     "Makary (Glukharev) — founder of the Altai mission, who translated Scripture into the languages of Siberian peoples",
+     "Nikolai (Kasatkin) of Japan — sent to Hakodate in 1861, he built a Japanese Orthodox church staffed by Japanese clergy",
+     "John of Kronstadt — the parish priest whose eucharistic preaching and charity drew the whole empire to a naval town",
+     "Konstantin Pobedonostsev — the lay ober-procurator whose long tenure defined the era's policy of religious uniformity",
+     "Balaam — the first exarch of Georgia, named when the Georgian catholicate ended; sources disagree on whether he was Georgian or Russian"
+    ],
+    "sources": [
+     {
+      "work": "P. Ioselian, A Short History of the Georgian Church, tr. S. C. Malan (London, 1866)",
+      "type": "secondary",
+      "note": "A Georgian church history, translated from the Russian.",
+      "url": "https://archive.org/download/MalanGeorgianChurch/Malan_Georgian_Church_djvu.txt"
+     },
+     {
+      "work": "Theodore E. Dowling, Sketches of Georgian Church History (London, 1912)",
+      "type": "secondary",
+      "note": "An English churchman's sketches; Appendix IV prints a Georgian appeal.",
+      "url": "https://archive.org/download/DowlingGeorgianChurchHist/dowling_georgian_church_hist_djvu.txt"
+     },
+     {
+      "work": "A. N. Mouravieff, A History of the Church of Russia, tr. R. W. Blackmore (Oxford, 1842)",
+      "type": "secondary",
+      "note": "A history of the Russian church with an English translator's preface."
+     }
+    ]
+   },
+   "ruling": "G89-44 a (ME-3 Exarchate line); G89-48 a (ME-18); G89-6 a",
+   "reason": "The Exarchate of Georgia, 1811 to 1906, as a named line that hands over to the restored Georgian church by its link (ME-3), and a named line for the Siberian missions (ME-18). The first paragraph is old text, unchanged."
+  },
+  {
+   "id": "church-of-the-east-chaldean-consolidation",
+   "set": {
+    "longDescription": "The Church of the East — the church that once sent bishops from Baghdad as far as China — entered this century reduced to the mountains and plains of the Ottoman-Persian borderland and divided between rival patriarchal lines, one in communion with Rome and one not. In 1830 Rome confirmed John Hormizd as patriarch of Babylon, consolidating the Chaldean Catholic Church as a single body. The line that stayed independent kept its seat in the mountain village of Qudshanis in Hakkari, its patriarchate passing from uncle to nephew, and its people came to be known as the Assyrian Church of the East. Both then found themselves courted by outsiders. American Congregationalist missionaries settled at Urmia in the 1830s and gave the region a printing press and schools in the spoken Syriac of the day. From 1886 the Archbishop of Canterbury sent a mission expressly instructed to strengthen the ancient church rather than convert its members.\n\nA third outsider came in the 1890s. Wigram writes that in 1896 the part of the church living in Persia submitted to the mission the Russian Orthodox Church had sent to teach them. They hoped this would bring political protection. Wigram says it did, for as long as Russian power lasted. He adds that the Assyrians in Turkish lands began to think of following.",
+    "sources": [
+     {
+      "work": "W. A. Wigram, The Assyrians and their Neighbours (London, 1929)",
+      "type": "secondary",
+      "note": "An English churchman's account of the Assyrians."
+     }
+    ]
+   },
+   "ruling": "G89-48 a (ME-19); G89-6 a",
+   "reason": "A named line for the Russian Orthodox mission among the Assyrians (ME-19). The sweep record gives 1898; Wigram, the only text read, gives 1896, so the line follows Wigram. The first paragraph is old text, unchanged."
+  },
+  {
+   "id": "the-georgian-golden-age",
+   "ruling": "G89-44 a; P2-V living rule",
+   "reason": "The new 1650 to 1811 row closes part of the gap this basis named. Evidence and grade are unchanged.",
+   "set": {
+    "livingEvidence": {
+     "basis": "An episode of a living tradition. The Georgian Orthodox Church is alive today, and a report from March 2026 describes its Holy Synod acting. No entry covers the church from 1245 to 1650.",
+     "evidence": "Georgian Orthodox Church confirms Locum Tenens, establishes funeral commission for Patriarch Ilia II, Georgia Today (18 March 2026): independent; verified. https://georgiatoday.ge/georgian-orthodox-church-confirms-locum-tenens-establishes-funeral-commission-for-patriarch-ilia-ii/",
+     "grade": "CR (Contemporary-Reported); newest dated item 2026, newest verified 2026",
+     "group": "own"
+    }
+   }
+  }
+ ],
+ "links": [
+  {
+   "id": "church-of-the-east-schism-of-1552--church-of-the-east-three-patriarchates",
+   "from": "church-of-the-east-schism-of-1552",
+   "to": "church-of-the-east-three-patriarchates",
+   "type": "continued as",
+   "confidence": "Widely Accepted",
+   "note": "After the division of 1552 the Church of the East had two patriarchal lines, one in the mountains and one on the plain. Badger, writing in 1852, found both still going: one patriarch at Mosul or Alqosh and the other at Qudshanis. Later writers disagree about which line came from Sulaqa.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "George Percy Badger, The Nestorians and their Rituals, vol. 1 (1852)",
+     "file": "cic/texts/badger_nestorians-and-their-rituals-v1_1852.txt",
+     "lines": "7901-7903",
+     "locus": "chap. XI",
+     "quote": "According to their account, this Shimoon was recognized by them, and from him the patriarchate has descended to the pre- sent occupant Mar Shimoon, the eleventh of that name.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "George Percy Badger, The Nestorians and their Rituals, vol. 1 (1852)",
+     "file": "cic/texts/badger_nestorians-and-their-rituals-v1_1852.txt",
+     "lines": "7970-7972",
+     "locus": "chap. XI, the two patriarchs",
+     "quote": "one of whom held his seat at Mosul or Alkosh, and the other at Kochanes in central Coor- distau",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "work": "W. A. Wigram, The Assyrians and their Neighbours (London, 1929)",
+     "file": "cic/texts/wigram_assyrians-and-their-neighbours_1929.txt",
+     "lines": "7459-7461",
+     "quote": "Thereafter, there were two lines of Patriarchs of the East, the ‘“‘Shimun” line in the mountains, and the ‘‘Elia” line in the plain.",
+     "source_id": null,
+     "locus": "chap. VII",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "ruling": "G89-43 a; G89-6 a"
+  },
+  {
+   "id": "church-of-the-east-three-patriarchates--church-of-the-east-chaldean-consolidation",
+   "from": "church-of-the-east-three-patriarchates",
+   "to": "church-of-the-east-chaldean-consolidation",
+   "type": "continued as",
+   "confidence": "Widely Accepted",
+   "note": "In 1778 Hormizd, nephew of the dying patriarch of the plain, turned to Rome. Labourt writes that he was cut off in 1818, reconciled in 1830 and named patriarch of Babylon. The line of the mountains stayed outside.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "George Percy Badger, The Nestorians and their Rituals, vol. 1 (1852)",
+     "file": "cic/texts/badger_nestorians-and-their-rituals-v1_1852.txt",
+     "lines": "8005-8007",
+     "locus": "chap. XI, the end of the Diyarbakır see",
+     "quote": "after five successive Yoosefs had occupied the See of Diarbekir it was declared abolished by the submission of Mar Elia",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "work": "W. A. Wigram, The Assyrians and their Neighbours (London, 1929)",
+     "file": "cic/texts/wigram_assyrians-and-their-neighbours_1929.txt",
+     "lines": "7498-7500",
+     "quote": "in 1778, the Elia line in Mosul made a final and definite sub- mission to the Holy Father.",
+     "source_id": null,
+     "locus": "chap. VII",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Jérôme Labourt, \"Chaldean Christians\", Catholic Encyclopedia, vol. 3 (1908), New Advent transcription",
+     "url": "https://www.newadvent.org/cathen/03559a.htm",
+     "accessed": "2026-11-10",
+     "raw_file": "raw/cathen_03559a.txt",
+     "locus": "the Chaldean patriarchs after 1779",
+     "quote": "John Hormizd had been excommunicated in 1818, but was reconciled with Rome in 1830 and proclaimed Patriarch of Babylon by Pius VIII",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-online",
+   "ruling": "G89-43 a; G89-6 a"
+  },
+  {
+   "id": "catholic-church-ancien-regime--church-of-the-east-three-patriarchates",
+   "from": "catholic-church-ancien-regime",
+   "to": "church-of-the-east-three-patriarchates",
+   "type": "in contact with",
+   "confidence": "Widely Accepted",
+   "note": "In 1681 Pope Innocent XI made Joseph the first Catholic patriarch of the Chaldeans at Diyarbakır. In 1782 Pope Pius VI let Hormizd act as patriarch of the plain line, though not use the patriarchal seal. Badger and Labourt tell it from opposite sides.",
+   "outcome": "In 1681 Pope Innocent XI named Joseph patriarch of the Chaldeans at Diyarbakır. That made a third patriarchal line beside the two of the Church of the East.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "George Percy Badger, The Nestorians and their Rituals, vol. 1 (1852)",
+     "file": "cic/texts/badger_nestorians-and-their-rituals-v1_1852.txt",
+     "lines": "7989-7991",
+     "locus": "chap. XI",
+     "quote": "proceeded to effect a new schism : which he did by appointing Yoosef, the first of that name, as Patriarch of the Chaldeans at Diarbekir, a.d. 1681.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "George Percy Badger, The Nestorians and their Rituals, vol. 1 (1852)",
+     "file": "cic/texts/badger_nestorians-and-their-rituals-v1_1852.txt",
+     "lines": "8100-8104",
+     "locus": "chap. XI, Hormizd's account",
+     "quote": "licence to minister and perfect the office of patriarch, but I was not allowed to use the patriar- chal seal. This concession made to us by Pope Pius VI. came to hand on the 11th of December, 2094 of the Grecian era, A.D. 1782.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Jérôme Labourt, \"Chaldean Christians\", Catholic Encyclopedia, vol. 3 (1908), New Advent transcription",
+     "url": "https://www.newadvent.org/cathen/03559a.htm",
+     "accessed": "2026-11-10",
+     "raw_file": "raw/cathen_03559a.txt",
+     "locus": "the Chaldean patriarchs after 1672",
+     "quote": "Innocent XI granted him the pallium (1681) and the title of patriarch.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-online",
+   "ruling": "G89-43 a; G89-6 a"
+  },
+  {
+   "id": "georgian-church-1650-1811--russian-church-synodal-century",
+   "from": "georgian-church-1650-1811",
+   "to": "russian-church-synodal-century",
+   "type": "continued as",
+   "confidence": "Widely Accepted",
+   "note": "The Georgian church kept its catholicos until 1811. Then the title ended, and the head of the Georgian clergy became Exarch of Georgia and a member of the Russian Synod. A Georgian appeal to the patriarch of Constantinople calls this the loss of the church's rights. The Georgian church went on as an exarchate inside the Russian church.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "P. Ioselian, A Short History of the Georgian Church, tr. S. C. Malan (London, 1866)",
+     "url": "https://archive.org/download/MalanGeorgianChurch/Malan_Georgian_Church_djvu.txt",
+     "accessed": "2026-11-10",
+     "raw_file": "raw/malan.txt",
+     "locus": "chap. on the catholicate, end note",
+     "quote": "the head of the Georgian clergy was allowed, by the supreme will of the Emperor, to take the name of Metropolitan of Mtzkhetha",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Theodore E. Dowling, Sketches of Georgian Church History (London, 1912)",
+     "url": "https://archive.org/download/DowlingGeorgianChurchHist/dowling_georgian_church_hist_djvu.txt",
+     "accessed": "2026-11-10",
+     "raw_file": "raw/dowling.txt",
+     "locus": "Appendix IV, an appeal from the Georgian Church",
+     "quote": "the dignity of the Georgian Catholicos was abolished, and a Russian Archbishop Varlam, with the title of Exarchos of Georgia, was appointed",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-online",
+   "ruling": "G89-44 a"
+  },
+  {
+   "id": "russian-church-synodal-century--the-georgian-orthodox-church-restored",
+   "from": "russian-church-synodal-century",
+   "to": "the-georgian-orthodox-church-restored",
+   "type": "continued as",
+   "confidence": "Widely Accepted",
+   "note": "The Georgian church that the Russian Synod governed through an exarch from 1811 is the church that restored its own head in 1917. It is the exarchate line, not the Russian church as a whole, that carries on here. By 1906 it was pressing for its old rights, in an appeal printed by Dowling.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "P. Ioselian, A Short History of the Georgian Church, tr. S. C. Malan (London, 1866)",
+     "url": "https://archive.org/download/MalanGeorgianChurch/Malan_Georgian_Church_djvu.txt",
+     "accessed": "2026-11-10",
+     "raw_file": "raw/malan.txt",
+     "locus": "chap. on the catholicate, end note",
+     "quote": "Together with the establishment of the exarchate in Georgia, or from 1811, the Exarchs have been",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Theodore E. Dowling, Sketches of Georgian Church History (London, 1912)",
+     "url": "https://archive.org/download/DowlingGeorgianChurchHist/dowling_georgian_church_hist_djvu.txt",
+     "accessed": "2026-11-10",
+     "raw_file": "raw/dowling.txt",
+     "locus": "Appendix IV, an appeal from the Georgian Church",
+     "quote": "in 1906 ordered that the ecclesiastical council might discuss, among other matters, the question of the auto- cephaly of the Georgian Church",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-online",
+   "ruling": "G89-44 a"
+  },
+  {
+   "id": "maronite-christianity-era-6--maronite-church-1815-1906",
+   "from": "maronite-christianity-era-6",
+   "to": "maronite-church-1815-1906",
+   "type": "continued as",
+   "confidence": "Widely Accepted",
+   "note": "The same church, carried on across a gap. The tree does not yet tell its years from 1517 to 1815. Labourt lists its patriarchs through those centuries, to the one elected in 1899.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Jérôme Labourt, \"Maronites\", Catholic Encyclopedia, vol. 9 (1910), New Advent transcription",
+     "url": "https://www.newadvent.org/cathen/09683c.htm",
+     "accessed": "2026-11-10",
+     "raw_file": "raw/cathen_09683c.txt",
+     "locus": "the history of the Maronites",
+     "quote": "All competent authorities agree as to the history of the Maronites as far back as the sixteenth century",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Jérôme Labourt, \"Maronites\", Catholic Encyclopedia, vol. 9 (1910), New Advent transcription",
+     "url": "https://www.newadvent.org/cathen/09683c.htm",
+     "accessed": "2026-11-10",
+     "raw_file": "raw/cathen_09683c.txt",
+     "locus": "the Maronite patriarchs",
+     "quote": "Mgr. Elias Hoysk, elected in 1899",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-online",
+   "ruling": "G89-39 a"
+  },
+  {
+   "id": "church-of-the-east-chaldean-consolidation--russian-church-synodal-century",
+   "from": "church-of-the-east-chaldean-consolidation",
+   "to": "russian-church-synodal-century",
+   "type": "in contact with",
+   "confidence": "Widely Accepted",
+   "note": "Wigram writes that in 1896 the part of the church living in Persia submitted to a Russian Orthodox mission. They hoped it would bring them protection.",
+   "outcome": "In 1896, Wigram says, the church in Persia put itself under a Russian mission.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "work": "W. A. Wigram, The Assyrians and their Neighbours (London, 1929)",
+     "file": "cic/texts/wigram_assyrians-and-their-neighbours_1929.txt",
+     "lines": "8064-8067",
+     "quote": "In the year 1896, the remnant of the Church remaining there submitted to the Mission sent to educate them by the Russian orthodox Church",
+     "source_id": null,
+     "locus": "chap. on Ottoman rule",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "ruling": "G89-48 a (ME-19)"
+  }
+ ],
+ "retire_links": [
+  {
+   "id": "church-of-the-east-schism-of-1552--church-of-the-east-chaldean-consolidation",
+   "reason": "The Church of the East in 1650 to 1815 now has its own row between these two entries. The old line is replaced by two: one from the 1552 schism entry to the new row, and one from the new row to the consolidation entry.",
+   "replacedBy": "church-of-the-east-schism-of-1552--church-of-the-east-three-patriarchates",
+   "ruling": "G89-43 a; G89-6 a"
+  }
+ ],
+ "holds": [
+  {
+   "item": "ME-2 era 8 row (maronite-church-1650-1815): the Maronite Church from Duwayhi to the Hindiyya affair",
+   "g89": "G89-39 a",
+   "reason": "The era 8 row enters once the acts of the 1736 synod of Mount Lebanon are opened. They are in Mansi vol. 38 (Labourt says its opening pages print the Jesuit Fromage's letter). The Mansi volumes on archive.org were searched by title and identifier: vols. 1-8, 10, 12, 14-17, 19-22, 24-35, 36 parts 1 and 3, 39, 46, 48-53 are there, vol. 38 is not. Without the acts, the row would rest on Labourt and Volney alone.",
+   "waits_for": "Mansi vol. 38, or Collectio Lacensis vol. 2 (Freiburg, 1876; Oriental-rite councils 1682-1789), or another public-domain edition of the 1736 acts, opened raw."
+  },
+  {
+   "item": "ME-2 years 1517 to 1650 (the Maronite College in Rome, 1584; the councils of 1596 and 1616)",
+   "g89": "G89-39 a",
+   "reason": "These years fall in era 7. G89-39 a sends them to the era 7 owner as a separate change order. Nothing is drafted here.",
+   "waits_for": "The era 7 owner's change order."
+  },
+  {
+   "item": "ME-4: the Orthodox Patriarchate of Antioch, 1815 to 1906 (era 9 row)",
+   "g89": "G89-42 a",
+   "reason": "The only text read is Fortescue, a hostile Catholic witness: \"At Antioch they have now succeeded in the recognition of their native Patriarch, Gregory IV (Hadad) after a schism with Constantinople.\" The first Arab patriarch, Meletios Doumani, 1899, is not in any text read.",
+   "waits_for": "An Orthodox source on the Patriarchate of Antioch after 1815, for example on the election of 1899."
+  },
+  {
+   "item": "ME-7: the Syriac Orthodox Church and the Syriac Catholic split, c. 1650 to 1906",
+   "g89": "G89-47 a",
+   "reason": "Both texts in hand are outsiders (Badger, an Anglican; Fortescue, a Catholic). The record asks for one own-voice or in-region item first.",
+   "waits_for": "A Syriac or Arabic chronicle of the patriarchate after 1369, or Parry, Six Months in a Syrian Monastery (1895), opened raw."
+  },
+  {
+   "item": "ME-16: the Holy Places and the Latin Patriarchate of Jerusalem (1847)",
+   "g89": "G89-48 a",
+   "reason": "Held as a gate note. It is a cross-church story, not a movement by the four marks. It may become a line in the Orthodox and Catholic nineteenth-century rows.",
+   "waits_for": "A decision on where the line sits, and a second, non-Catholic study to set beside Fortescue's article \"Jerusalem (After 1291)\"."
+  },
+  {
+   "item": "ME-21: the Hebrew Christians of Kishinev (Joseph Rabinowitz, 1884)",
+   "g89": "G89-48 a",
+   "reason": "Snippet only; nothing was opened.",
+   "waits_for": "A pre-1930 source on Rabinowitz and the Kishinev congregation, opened raw."
+  },
+  {
+   "item": "ME-18: the Volga missions and Il'minskii's schools (the Beijing mission goes to the Asia slice)",
+   "g89": "G89-48 a",
+   "reason": "Only the Siberian part of ME-18 has a source read (Mouravieff in the Library). Nothing read names the Volga missions or Il'minskii.",
+   "waits_for": "A source on the Volga and Kazan missions and Il'minskii's schools, opened raw."
+  },
+  {
+   "item": "ME-19: the Assyrian evangelical church, as a half of the Urmia line",
+   "g89": "G89-48 a",
+   "reason": "Only the Russian mission half has a source read (Wigram). Nothing was read on the Assyrians who joined the American mission as a church.",
+   "waits_for": "Wigram on the Urmia Protestants, or a mission history such as Anderson (1872), opened."
+  }
+ ],
+ "wants": [
+  "Mansi vol. 38, the acts of the 1736 synod of Mount Lebanon (waits for the ME-2 era 8 row).",
+  "A clean Duwayhi, Tarikh al-ta'ifa al-maruniyya (the Library copy has damaged OCR and serves as a locator only).",
+  "Brosset, Histoire de la Géorgie, the modern volumes (1856 to 1858), and Grdzelidze, George and Vischer, Witness through Troubled Times (2006), for the Exarchate.",
+  "An Orthodox source for the Patriarchate of Antioch after 1815 (ME-4); a Syriac or Arabic chronicle or Parry (1895) for ME-7.",
+  "Brosset, Histoire de la Géorgie, the modern volumes (1856 to 1858), and Grdzelidze, George and Vischer, Witness through Troubled Times (2006), before any era 9 row for the Exarchate of Georgia (G89-44 b).",
+  "A source on the Serbian church at Karlovci and on Montenegro in the nineteenth century (ME-17 after 1815).",
+  "A second source on the year the Urmia Assyrians joined the Russian Orthodox mission (1896 in Wigram; 1898 in the sweep's [S] note)."
+ ],
+ "flags": [
+  "check_draft.py is clean except six READ-FAILs on frozen first paragraphs carried unchanged (not mine to fix): VII.23, VII.18, VII.21 and VIII.40 longDescription[0], and VIII.31 longDescription[0] and relationsSummary[0] (my new relationsSummary sentence is its own paragraph).",
+  "Trial validation: apply_g89b.py (ME1 only) on a copy of the census, then validate-census: 0 errors. Every source a named line rests on is added to that row's sources (whole new value).",
+  "In ME-2 era 9 prose, Churchill's quote is given with the correct spelling \"religious\"; the scan reads \"rehgious\" (OCR), and the fact table keeps the scan form.",
+  "ME-1 is not linked to AP1 here (AS1 drafts it).",
+  "ME-2 era 8 row HELD: Mansi vol. 38 (the 1736 synod acts) was searched for on archive.org by title and by identifier and not found. See holds.",
+  "LIVING: church-of-the-east-three-patriarchates is living, line carrier the-sayfo-and-the-syriac-diaspora (as VI.30 and VIII.40 are carried). It was drafted living: false by the old session; the carrier makes the mark.",
+  "LIVING: maronite-church-1815-1906 is living with its own evidence, moved from IV.10 (Patriarchal See at Bkerke, 22 April 2025; Syriac Press, 6 August 2025; grade CR). IV.10 now names it as carrier, and V.22, which IV.10 carried, names it too (a carried row cannot name a carried row). The new basis says the tree has no entry after 1906.",
+  "LIVING: georgian-church-1650-1811 is living, line carrier the-georgian-orthodox-church-restored (IX.40 holds its own dated evidence). IV.15 (the-georgian-golden-age) holds its own evidence whose basis says \"No entry covers the church from 1245 to 1917\". That is now partly stale (this row covers 1650 to 1811). IV.15 is not in this slice's list, so it is not changed here; the coordinator or the living pass should reword it.",
+  "ME-1: the old draft's modernCountries (Turkey \"Hakkari-Van-Urmia triangle\", Iraq \"Jazira\") named places that are not on the place label, which the validator rejects. They are emptied, as VI.30 and VIII.40 have none. The Wikidata IDs were from the census.",
+  "ME-1 retire: church-of-the-east-schism-of-1552--church-of-the-east-chaldean-consolidation, replaced by the 1552 schism to three patriarchates link. VI.30 had no continuesAs; it now has one (to ME-1).",
+  "ME-1 extra link: catholic-church-ancien-regime--church-of-the-east-three-patriarchates (\"in contact with\", major, with an outcome), because ME-1's relationsSummary names that row. Badger and Labourt, opposite sides.",
+  "ME-1: the AP1 to ME-1 (Mar Gabriel) link is AS1's and is not drafted here.",
+  "ME-3 links: (1) ME-3 to VIII.31 \"continued as\" and ME-3.continuesAs = VIII.31, because the Georgian church went on as the Exarchate, governed by the Russian Synod; (2) VIII.31 to IX.40 \"continued as\", the link G89-44 a names. Both are judgment calls: (2) says the Exarchate line, not the Russian church as a whole, carries on, and rests on Malan (1842), the Georgian appeal printed by Dowling, and a modern history named but not opened (Grdzelidze, George and Vischer, 2006). The 1917 restoration itself is carried by IX.40's own text, not by a quote opened here. Reviewer to judge both; (1) can be dropped without harm to (2).",
+  "ME-3: the sources differ on whether the first exarch, Balaam, was Georgian (Malan) or Russian (\"Varlam\", the appeal in Dowling), on why Antoni I left Georgia in 1755 (Malan: the king feared he leaned to Rome; Dowling: he opposed the Latin innovations), and on the year the last catholicos was removed (Dowling: called to St Petersburg 1810, dignity abolished 30 June 1811; Malan prints \"1711\" once, an OCR slip, and \"1811\" elsewhere). The row states both sides.",
+  "ME-3: the sweep record calls Ioseliani a Georgian scholar. Malan's translator note (\"published in Georgian by P. Ioselian at Tiflis in 1852\") is about Timothe's Travels, not the church history. The row says only that he wrote in Russian at Tiflis and used \"our own native sources\" (his preface).",
+  "ME-3 and ME-18/ME-19 lines use sources dated after the row's end only as witnesses: the Georgian appeal in Dowling (printed 1912) is quoted for what it says of 1811 and the following years, and no event after 1906 is told in VIII.31. The VIII.31 line ends with a pointer to the entry on the restored Georgian church, with no date.",
+  "ME-19: the sweep record dates the Russian Orthodox mission to 1898 [S]. Wigram, the only text read, says 1896 for the submission of the church in Persia to \"the Mission sent to educate them by the Russian orthodox Church\". The line follows Wigram; the 1898 date is not used.",
+  "ME-13: the Library Paisii (Ivanov 1914) has heavy OCR damage in Paisii's own text, so the line rests on Ivanov's editorial introduction (clean enough to quote) for the motto and the three causes of ruin, not on Paisii's own paragraphs. The 1914 Bulgarian quotes keep their OCR forms (for example \"пр^зъ\" for \"през\"). The motto and the three causes are marked as renderings. VII.18's legacy already mentions Paisii in one sentence; the new line adds to it and does not change it.",
+  "ME-13: the line in VIII.28 says only that Paisii named the lack of a national hierarchy among the causes of ruin and that the exarchate of 1870 was a national church. It does not say the first caused the second; no source read says so.",
+  "ME-17: Fortescue's 1765 and 1864 dates are for independence as he reckons it (the sweep record says so). VII.18 already says the Serbs of Karlovci stood outside the millet after 1690 (its own text). Andrei Saguna and the prince-bishops of Montenegro are not named: no source read names them.",
+  "ME-18: the Siberia line rests on Mouravieff (Library): the 1667 council raised Tobolsk to a metropolitan see (his margin date 1667 sits at file line 10505, fifty lines before the passage, which names \"the Council\" that annulled the Hundred Chapters); Theodore of Tobolsk's 10,000 Ostiaks is Mouravieff's figure. VIII.31 quotes only the English translator's 1842 preface.",
+  "VII.23: the only new fact beyond Fortescue is Paul of Aleppo's journal, read for the date 1654 in the Cossack lands, the table of contents (Kiev, Moscow) and the title page. Nothing else in the journal was read. VII.23's start moves from 1724 to 1650 (G89-42 a, sub-question i); its teaser, why and statusDescription are unchanged.",
+  "Source note: Churchill is quoted with the OCR forms of the scan (\"CHUECHILL\", \"DEUZES\", \"thuigs\" is not used). Its phrase on the patriarch of the mid-1850s is from his chapter on the survey of 1856 (chapter IV, which his contents list heads with the patriarch's intolerance).",
+  "The Catholic Encyclopedia pages were read raw from New Advent as HTML, stripped to text, and saved as raw/cathen_*.txt. Quotes are checked against that text. Fortescue's \"Cyril VI, 1274-1759\" in the Melchites article is a misprint in the source and is not used.",
+  "No frozen paragraph is changed: every named line is a new paragraph after the old text, so a READ-FAIL on an old paragraph would not show. VII.23, VII.18, VIII.28, VII.21, VIII.31 and VIII.40 first paragraphs are carried unchanged.",
+  "ME-2 era 9 row: Churchill (1862) is partisan for the Druzes; Labourt (1910) is Catholic. The row gives both on the patriarchs and says so. Labourt's 1910 articles give \"1845\" for the start of the Druze war; Churchill's contents list also dates an earlier affray at Deir al-Qamar to 1841, which is used only through the row's sourcing, not as a fact in the row.",
+  "ME-2 era 9 now has a \"continued as\" link from V.22 across the gap (review S3). It is to be retired with replacedBy when the era 7 and era 8 Maronite rows enter. V.22.continuesAs is left unset.",
+  "Wigram 1929, [S] in the sweep record, was opened in the Library and quoted at page level.",
+  "IV.15: its living basis now ends \"from 1245 to 1650\" (neighbor change); evidence and grade copied unchanged.",
+  "VII.23 teaser: only \"1724\" became \"1650\" in \"from 1724 —\", to match the new start."
+ ]
+}

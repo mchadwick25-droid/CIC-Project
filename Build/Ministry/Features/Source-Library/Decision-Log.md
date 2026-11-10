@@ -173,7 +173,10 @@ writing. For the Latin orders, that entry is the church-wide one of the text's d
 to Lateran V, Tridentine, ancien regime, long nineteenth century). Those entries run without a break,
 and an order is part of that church. The Compiegne history already sat on one this way. For Athos,
 the entry is the Ottoman one. The Maronites have no entry after 1517, so al-Duwayhi is vendored with
-no shelf. Meyer's typikon of 1394 is `needs-ruling` on the hesychast entry: the dates and place fit,
+no shelf. Data release 33 landed while the batch was open and added the Society of
+Jesus 1650-1814 and Chinese Catholicism 1650-1906. The Jesuit texts were moved onto those entries,
+since an order's own entry comes before the church-wide one. The release's Maronite entry (1815-1906) does not
+cover al-Duwayhi's century. Meyer's typikon of 1394 is `needs-ruling` on the hesychast entry: the dates and place fit,
 but the tree has not ruled on whether a monastic rule belongs to the hesychast movement.
 
 **Corrected before writing.** Several host records give a date the title page does not: the Dominican

@@ -1,0 +1,21 @@
+{
+ "slice": "RV-A",
+ "round": 3,
+ "verdict": "revise",
+ "blocking": [],
+ "substantial": [
+  {"id": "R3-S1",
+   "where": "entries society-of-jesus-1650-1814 and catholics-of-the-ottoman-balkans, field `sources`",
+   "problem": "The `sources` lists named in Sources_added.md are not in the saved draft. Both entries have no `sources` key, so there is nothing to review. The same is true of LIV/AF/Draft.json (all five entries) and of the copies under drafts/ in the repo. LIV/RVA/Draft.json was last written at 20:46, and Sources_added.md at 20:57. The write appears to have been lost.",
+   "evidence": "python json.load of LIV/RVA/Draft.json: entries[*].get('sources') is None for both. The key list ends at 'livingEvidence'.",
+   "fix": "Save the lists into the entries and resubmit. The works listed are the right ones, judged against the fact table. RV-1: the Clement XIV and Pius VII bulls file (Library), Muratori 1743, Nilles 1885, Lettres édifiantes vol. III (online) and Mirbt no. 454 (Library). RV-3: Fermendžin 1892 (Library). Nothing is missing and nothing is extra; the Collectanea supports VII.19's sentences, not RV-1's. On resubmission, check only exact titles, kind and note readability."}
+ ],
+ "minor": [],
+ "quotes_checked": 0,
+ "quotes_failed": [],
+ "notes": [
+  "R2-M1 is done verbatim: the Collectanea source has lines 18656-18659 and its quote ends 'in Const. x illa die (1).'",
+  "R2-M2 is done verbatim: 'In 1703 a Jesuit, François Noël, wrote from Rome, where he had been sent over the honors paid in China to Confucius and to the dead.'",
+  "This is the third review file on the slice. The only open item is a save that did not land, not a disputed finding. Once the lists are saved, an approval should need only a check of the field, not a fourth round of revision."
+ ]
+}

@@ -5,7 +5,8 @@ assignments:
   author: lettres-edifiantes
   locus: "the whole volume; add 12 to OCR line numbers for this file's own"
   atlas_ids:
-  - catholic-church-ancien-regime
+  - society-of-jesus-1650-1814
+  - chinese-catholicism-1650-1906
   role: tradition
   confidence: provisional
-  note: "The Jesuits' own letters from the China mission in the eighteenth century. Within this entry's window (1650-1815)."
+  note: "The Jesuits' own letters from the China mission in the eighteenth century. Within the windows of the Jesuit entry (1650-1814) and the Chinese Catholic entry (1650-1906)."

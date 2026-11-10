@@ -1,0 +1,26 @@
+{
+ "slice": "AF",
+ "round": 2,
+ "verdict": "approve",
+ "blocking": [],
+ "substantial": [],
+ "minor": [
+  {
+   "id": "AF-R2-M1",
+   "where": "fact_table[8]",
+   "problem": "The row's sentence is now the V-backed 'outside witness ... decades after', but its note still cites the [S] reliability claim.",
+   "evidence": "fact_table[8].note: \"the record says Bruce's reliability is itself debated [S]\"",
+   "fix": "Change the note to: 'record §3 AF-1 ev1 \"Outside witness\" and ev2 \"Outside witness, decades later\" (V)'."
+  },
+  {
+   "id": "AF-R2-M2",
+   "where": "flags (OPEN-GAPS modernCountries)",
+   "problem": "The flag still says the IDs can be added 'at apply after a lookup'. The coordinator has ruled that IDs come from census rows only.",
+   "evidence": "Flag text: 'Add them at apply after a lookup, or register them in Open-Gaps.'",
+   "fix": "'modernCountries are empty for AF-3, AF-4 and AF-5; no census row carries these places. Register in Open-Gaps.'"
+  }
+ ],
+ "quotes_checked": 172,
+ "quotes_failed": [],
+ "notes": "Targeted recheck against round 1 and Changes_r1.md. The coordinator's rulings are taken as given: S3 belongs to RV-B (a flag records it); modernCountries come from census rows only; living rule = own grade none plus a wants entry. S1, S2 and S4-S11 are fixed as proposed. S10 uses 'Philip says he began', which reads clearly enough. M1, M3-M6, M8, M10 and M12 are fixed; M7, M9 and M11 are handled by flags. Changed quotes: fact rows 16, 18, 76, 120, 143, 156 and 157, the last extended to Philip's full clause. All were re-verified: check_draft.py on my own fetch printed nothing to fix (172 quotes, 97 paragraphs). A simulated AF-only merge passes validate-census.mjs with 0 data errors; only the expected release-number and statusCounts metadata errors appear. AF-1 and AF-2 carry no descentConfidence. There are 8 holds, now including Coptic 1300-1517."
+}

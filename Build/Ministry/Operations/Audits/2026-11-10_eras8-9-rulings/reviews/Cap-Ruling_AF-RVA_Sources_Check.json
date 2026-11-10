@@ -1,0 +1,95 @@
+{
+  "scope": "The sources list on each new entry (not links, not prose) in LIV/AF/Draft.json (5 entries) and LIV/RVA/Draft.json (2 entries): exact title against the title page, primary/secondary type, the note (accuracy, stance, readability: FRE >= 60, FK <= 10 by engine.m7.turn_readability.score_turn, as check_draft.py uses), and whether the list matches the works the entry's fact_table rows rest on.",
+  "ordered_by": "Mark, 2026-11-10, \"take the recommendation\"",
+  "verdict": "revise",
+  "substantial": [
+    {
+      "id": "S1",
+      "where": "AF ethiopian-christianity-gondar-to-the-zemene-mesafint sources[4] (Catholic Encyclopedia); AF kongo-christianity-after-1650 sources[0] (Carli) and sources[1] (Cavazzi); AF southern-african-mission-churches sources[2] (Philip)",
+      "problem": "Four notes fall below Reading Ease 60. check_draft.py does not score source notes, so its pass did not catch them.",
+      "evidence": "score_turn: Catholic Encyclopedia FRE 57.1 / FK 6.5; Carli FRE 59.3 / FK 6.1; Cavazzi FRE 45.0 / FK 8.1; Philip FRE 55.1 / FK 6.8. All other 25 notes pass (FRE 63.9-93.6, FK <= 6.5).",
+      "fix": "Suggested notes, each scored with the same function: CE 'A Catholic reference article. It speaks for the missions. Read in full text online.' (69.2 / 4.8). Carli 'Two friars' account of their mission, in Italian. Held in the Library. The print is noisy.' (79.8 / 3.5; also fixes 'a missionary's', since the book is the joint narrative of Carli and Guattini per its Library header). Cavazzi 'A history by a friar who led the mission, in Italian. Held in the Library. The print is noisy.' (80.2 / 3.6; the header calls him former prefect of the mission). Philip 'An account by the head of the London Missionary Society's work at the Cape. The first volume was read in full text online. The print is noisy.' (81.8 / 4.1)."
+    },
+    {
+      "id": "S2",
+      "where": "AF kongo-christianity-after-1650 sources[4] (John Thornton, The Kongolese Saint Anthony, 1998)",
+      "problem": "The note says 'The entry's account of the Antonian movement rests on this one study.' That is misleading. The book was never opened, and the entry gives no account drawn from it. The entry gets the movement's dates from census VII.11 and says only that its own entry tells it. The prose line says that the scholarship ('how far it grew from the older church') rests on Thornton. It does not say that this entry does.",
+      "evidence": "fact_table rows for this entry: 'The Antonian movement ... from 1704 to 1706, falls inside this window' -> record 'census VII.11 dates'; 'John Thornton's study of 1998 treats it ...' -> record '§3 AF-3 ev5 (V-s)', note 'title and details only'. No fact_table row quotes Thornton.",
+      "fix": "Keep the listing, since the entry names the book, and rewrite the note: 'Named in the entry but not opened. Only its title and details were checked. Nothing in the entry is drawn from it.' (FRE 76.3 / FK 4.4)."
+    },
+    {
+      "id": "S3",
+      "where": "AF ethiopian-christianity-gondar-to-the-zemene-mesafint sources[5] (Budge, The Lives of Maba' Seyon and Gabra Krestos, 1898)",
+      "problem": "This source is typed 'primary', but the entry uses only Budge's own 1898 introduction, which is modern secondary comment. The Coptic entry handles the same case the other way: Budge's Book of the Saints is typed 'secondary' because only his modern list is used. As typed, the label tells the reader that the legacy claim rests on a primary text.",
+      "evidence": "The only fact_table row is the legacy sentence 'The church of the next window still took its abun from Egypt', at file lines 534-536: 'thus it came to pass that for centuries the Abuna ... was always appointed by the patriarch of the Coptic Church' (Budge's introduction). The note itself says 'Only Budge's introduction, on the abun, is used here.'",
+      "fix": "Set type to 'secondary', to match the Book of the Saints listing. The note can stay."
+    },
+    {
+      "id": "S4",
+      "where": "RVA society-of-jesus-1650-1814 sources[3] (Nilles, Symbolae)",
+      "problem": "The date is wrong against the title page of the copy read. The listing gives '(Innsbruck, 1885)'. Both Symbolae title pages in the raw text read 1886, and the passage used is in volume I. The only '1885' is on the Kalendarium manuale (Pars III, Additamenta) half-title in front of volume II. No volume is given.",
+      "evidence": "raw/nilles.txt: the vol. I Symbolae title page ends 'VOLUMEN I ... OENIPONTE. TYPIS ET SUMPTIBUS FELICIANI RAUCH. 1886.' (about line 98-109). The vol. II title page also reads 1886; '1885.' at line 43391 is the Kalendarium half-title. The quotes used ('Ex Synodo anni 1701', 'opera ac solertia Patrum S. J.', the 1698 'Datum Albae-Juliae') fall before the vol. II title.",
+      "fix": "Change to 'Nicolaus Nilles, Symbolae ad illustrandam historiam ecclesiae orientalis in terris coronae S. Stephani, vol. 1 (Innsbruck: Rauch, 1886)'. Outside this check's scope, the longDescription sentence 'printed by Nilles in 1885' carries the same date and should change with it. SOURCES.json's 'Innsbruck, 1885' should too."
+    },
+    {
+      "id": "S5",
+      "where": "AF kongo-christianity-after-1650 sources[0] (Carli and Guattini)",
+      "problem": "The title is not exact. 'Viaggio nel regno del Congo' does not appear on the title page. It is a rebuilt short form, not a cut-down version of the real title.",
+      "evidence": "Library header (cic/texts/carli_viaggio-nel-regno-del-congo-ita_guattini1671.txt): 'Title: Viaggio del P. Dionigi de' Carli da Piacenza, e del P. Michel Angelo de' Guattini da Reggio, Capuccini, predicatori, e missionarij apostolici nel regno del Congo'; 'Reggio: per Prospero Vedrotti, 1671'.",
+      "fix": "Use 'Viaggio del P. Dionigi de' Carli da Piacenza, e del P. Michel Angelo de' Guattini da Reggio ... nel regno del Congo (Reggio, 1671)'."
+    },
+    {
+      "id": "S6",
+      "where": "RVA society-of-jesus-1650-1814 sources[1] (Muratori, Il cristianesimo felice, 1743)",
+      "problem": "The stance is misleading by omission. 'An outsider's account' reads as a detached witness. In fact Muratori never left Italy, and he says he saw the missions 'with others' eyes', through the letters of the Modenese Jesuit Gaetano Cattaneo. He also says outright that no Catholic missions equal those of Paraguay. Other notes in these drafts name a slant (Volney 'no friend of the Copts', McCarter 'friendly'). This one hides a strongly pro-Jesuit source.",
+      "evidence": "raw/muratori.txt lines 333-343: 'non v'ha sacre Missioni della Chiesa Cattolica, che sieno da uguagliare alle fortunatissime dei Paraguai'; 'confinato in Modena; senza aver mai messo il piede fuori di Italia? Rispondo, ch'io ... co i piedi altrui mi son portato al Paraguai, e con gli occhi altrui ho visitate quelle sì fortunate Missioni'; then the account of Padre Gaetano Cattaneo, S.J.",
+      "fix": "Suggested note: 'Written in Italy by the Duke of Modena's librarian, who never saw Paraguay. He drew on Jesuit letters and praises the missions. Read in full text online. The print is noisy.' (FRE 70.7 / FK 5.3). The type 'primary' and the title (checked against the title page: Venice, Pasquali, 1743) are correct."
+    }
+  ],
+  "minor": [
+    {
+      "id": "M1",
+      "where": "AF southern-african-mission-churches sources[2] (Philip, Researches in South Africa)",
+      "problem": "Only volume 1 was read, but no volume is given. Bruce, Butcher, Volney and Bentley all carry one. The OCR of the title page is garbled. The title is confirmed only by the BSB catalogue slip at the end of the file. 'Director' is looser than his post, which was superintendent of the LMS missions at the Cape.",
+      "evidence": "raw/10432272bsb.txt line 38 'CONTENTS OF THE FIRST VOLUME', line 19496 'END OF THE FIRST VOLUME', line 19506 'Researches in South Africa illustr. the civil, moral and religious condition of the native tribes ... Bd.: 1'.",
+      "fix": "'John Philip, Researches in South Africa, vol. 1 (London: James Duncan, 1828)', with the S1 note."
+    },
+    {
+      "id": "M2",
+      "where": "AF the-coptic-church-under-the-ottomans sources[3] (Lane)",
+      "problem": "The listing has no place or date, unlike its siblings.",
+      "evidence": "raw/accountofthemann031193mbp.txt title page: 'THE FIFTH EDITION ... LONDON: JOHN MURRAY, ALBEMARLE STREET. 1860.'",
+      "fix": "'... Modern Egyptians, 5th ed. (London: John Murray, 1860)'."
+    },
+    {
+      "id": "M3",
+      "where": "RVA society-of-jesus-1650-1814 sources[0] (The Bulls of Popes Clement XIV. and Pius VII.)",
+      "problem": "'The pope's brief of 1773 and bull of 1814' reads as one pope. There are two.",
+      "evidence": "Library header: Clement XIV (Dominus ac Redemptor, 1773) and Pius VII (Sollicitudo omnium ecclesiarum, 1814).",
+      "fix": "'Two popes' acts: the brief of 1773 and the bull of 1814, in English. Held in the Library. These are Roman acts.' (FRE 94.3 / FK 1.8)."
+    },
+    {
+      "id": "M4",
+      "where": "RVA society-of-jesus-1650-1814 sources[2] (Mirbt)",
+      "problem": "The note calls no. 454 'a letter of Benedict XIV'. Mirbt heads it as a bull, and the entry's own prose says 'The bull does not name the Society.'",
+      "evidence": "mirbt file line 22856: '454. ... Bulle \"Immensa pastorum principis\", 20. Dez. 1741, an die Bischöfe von Brasilien, Paraguay und am La Plata'.",
+      "fix": "'Only no. 454, a bull of Benedict XIV, is used.'"
+    },
+    {
+      "id": "M5",
+      "where": "RVA society-of-jesus-1650-1814 sources[3] (Nilles)",
+      "problem": "The note gives no stance. The editor was himself a Jesuit, and the entry uses him for the Jesuits' own role in the union.",
+      "evidence": "Title page: 'A NICOLAO NILLES S. J.'",
+      "fix": "'A Latin collection of documents, made by a Jesuit. Only a synod text of 1701 is used, from the first volume. Read in full text online. The print is noisy.' (FRE 79.9 / FK 3.9)."
+    },
+    {
+      "id": "M6",
+      "where": "AF the-coptic-church-under-the-ottomans sources[2] (Butcher)",
+      "problem": "'does not favor Rome's claim' is unclear when the note is read on its own, without the prose.",
+      "evidence": "The note depends on the longDescription to say which claim is meant (the Catholic Coptic line).",
+      "fix": "Name the claim, for example 'does not favor Rome's claim over the Copts', and rescore."
+    }
+  ],
+  "sources_checked": 29,
+  "notes": "29 source listings were checked: 26 distinct works, 23 listings in AF and 6 in RVA. Coverage (check 4) passes in all 7 entries. Every work that a fact_table row cites by file or url is listed, and no listed work lacks a basis. Thornton rests on a record row naming it, not on a quote (see S2). The rows for ethiopian-christianity-tewodros-to-menelik are for a neighbour, not a new entry, and were not in scope. Titles confirmed exact or a fair cut-down form against the title page or Library header: Ludolf, Bruce vols 2 and 3 (M.DCC.XC, 'SECOND VOLUME'), Gobat (Hatchard, 1834), Catholic Encyclopedia 'Abyssinia', both Budge titles, Volney (2nd ed., 1788), Butcher vol. II (1897), Lane, Cavazzi, Lopes/Pigafetta/Hutchinson, Bentley vol. II, McCarter (title page spells 'M'Carter'; the normalized spelling is acceptable), La Trobe (anonymous on the title page; the attribution follows the header), Casalis, Chalmers, the Bulls, Muratori, Mirbt, Lettres édifiantes t. III Chine (1843) and Fermendzin. All types other than S3 are right. The readability scores use engine.m7.turn_readability.score_turn on each note, as check_draft.py uses it. Every suggested replacement note was scored the same way and passes. No repo files were edited, no git was run, and no model calls were made."
+}
