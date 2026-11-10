@@ -1,0 +1,3257 @@
+{
+ "entries": [
+  {
+   "id": "new-france-mission-born-christianity",
+   "atlasId": "TBD",
+   "era": 7,
+   "name": "Mission-Born Christianity in New France",
+   "shortName": "New France",
+   "informalName": "The Huron and Algonquin Christians",
+   "dates": "1610-1650",
+   "start": 1610,
+   "end": 1650,
+   "region": "Acadia, Quebec, the Huron country",
+   "placeLabel": "Quebec · the Huron country and beyond",
+   "modernCountries": [],
+   "regions": [
+    "North America"
+   ],
+   "lane": "5 Latin West & Catholicism",
+   "laneLabel": "Latin West & Catholicism",
+   "laneOrder": 5,
+   "beyondFloor": false,
+   "status": "Pre-Survey Candidate",
+   "chip": "psc",
+   "glyph": "psc",
+   "statusWord": "Researched — on the atlas, no convert voice yet",
+   "statusDescription": "The Jesuits' yearly Relations are in hand, in French and English, to 1650. The converts speak in them only as the missionaries wrote them down; no text in a convert's own hand is in the Library yet. Not yet reviewed.",
+   "living": true,
+   "overlayCurrent": false,
+   "c2": null,
+   "sourcing": "Rich on the mission side, and one-sided. The Jesuits' yearly reports, the Relations, are in hand to 1650, in French with English beside it. The converts are heard only through the missionaries. Their speeches come to us as the priests wrote them down, for readers in France. No text in a convert's own hand is in the Library yet.",
+   "floorNote": "No question about their creedal faith. The hard question is how much of what we can read is the mission's story rather than the converts' own.",
+   "relationsSummary": "Grew from the Jesuit mission to New France. Near Quebec, Algonquin families settled at Sillery from 1638, and most became Christians. Far to the west, the Jesuits worked among the Hurons. When war with the Iroquois broke the Huron nation, about three hundred Christian Hurons went down to Quebec in 1650.",
+   "why": "Here the converts' words survive, though only in the priests' reports. At Sillery, Christian families met at night without the Jesuits and made rules of their own. Among the Hurons, a convert named Joseph Chihwatenhwa taught his people like an elder brother. In 1650 the last Huron Christians asked to be led to Quebec, so that their faith would not die out.",
+   "entry": null,
+   "teaser": "Quebec and the Huron country, 1610 to 1650: Algonquin and Huron Christians, heard only through the Jesuits who wrote them down.",
+   "longDescription": "On 24 June 1610 a chief named Membertou was baptized at Port Royal in Acadia. About twenty of his family and people were baptized with him. A French priest named Fléché baptized them, about a year before the first Jesuits came. The first report in the Jesuit Relations collection is from that year.\n\nNear Quebec, the Jesuits set up a settlement at Sillery in 1637 and 1638. One evening a man named Negabamat came to hold Father Le Jeune to his word. Had he not promised a house for him and another family? Two Algonquin families settled there, and within a year most of the settlers were Christians. Negabamat took the name Noël.\n\nIn 1640 the Christians of Sillery met at night, with no priest present. Negabamat told the others that the French taught that \"we all are brothers\". An old captain, Jean Baptiste Etinechkavat, said he had weighed the faith well before he took it. One man who was not baptized spoke against them. He would not give up the old right to take more than one wife.\n\nThe same Christians agreed among themselves that anyone who sinned should be jailed and made to fast. They told the Jesuits only the next morning. The priests said they were too severe, but the converts kept to their plan. Charles Meiachkawat, just baptized, told them to bind him if he ever lost courage.\n\nAmong the Hurons, Joseph Chihwatenhwa was for months the only Christian in his village, with his family. His people spoke hard words against him. The Jesuits called him \"Our Christian\" and wrote down his speeches. In the summer of 1640 he was killed while he worked in his field. The Jesuit report says two Iroquois killed him.\n\nBy 1650, war with the Iroquois had broken the Huron nation. The survivors gathered on the Island of Saint Joseph. There two old captains came in secret to the Jesuit superior. \"More than ten thousand have been snatched away by death,\" they told him. They asked him to lead the rest to Quebec. \"There, our faith will not die out,\" they said. About three hundred went down to Quebec with the Jesuits that year.\n\nEvery word of theirs comes to us through the Jesuits. The priests wrote each year for readers in France, to build them up in faith. What the converts meant, and what they doubted, we see only through those reports.",
+   "voices": [
+    "Membertou — a chief at Port Royal in Acadia, baptized with about twenty of his family and people on 24 June 1610",
+    "Noël Negabamat — one of the first settlers at Sillery, whose speeches of 1638 and 1640 Father Le Jeune wrote down",
+    "Jean Baptiste Etinechkavat — a captain at Sillery, who said in 1640 that he had weighed the faith well before he took it",
+    "Charles Meiachkawat — newly baptized at Sillery in 1640, who told the others to bind him if he ever lost courage",
+    "Joseph Chihwatenhwa — for months the only Christian in his Huron village; killed in his field in 1640"
+   ],
+   "legacy": "The Library's record of this church stops in 1650. A year before, the Jesuits counted more than three thousand people baptized among the Hurons. The few hundred who reached Quebec had lost their homes and their kin. The Jesuit who led them wrote that they \"have not lost their faith.\" What became of their church after 1650 is not yet told from the Library.",
+   "livingEvidence": {
+    "descentConfidence": "Inferential-Thin",
+    "basis": "The Library's last word is the move of about three hundred Huron Christians to Quebec in 1650. No text in the repo traces a church descended from them after that year."
+   },
+   "people": [],
+   "reviewStatus": "AI-checked"
+  },
+  {
+   "id": "swedish-lutherans-of-new-sweden",
+   "atlasId": "TBD",
+   "era": 8,
+   "name": "The Swedish Lutherans of New Sweden",
+   "shortName": "New Sweden",
+   "informalName": "The Swedish Congregations on the Delaware",
+   "dates": "1638-1786",
+   "start": 1638,
+   "end": 1786,
+   "region": "The Delaware River: Pennsylvania, Delaware and New Jersey",
+   "placeLabel": "Pennsylvania · Delaware and beyond",
+   "modernCountries": [
+    {
+     "country": "United States",
+     "countryId": "Q30",
+     "place": "Pennsylvania",
+     "placeId": "Q1400"
+    }
+   ],
+   "regions": [
+    "North America"
+   ],
+   "lane": "6 Protestant & Evangelical",
+   "laneLabel": "Protestant & Evangelical",
+   "laneOrder": 6,
+   "beyondFloor": false,
+   "status": "Pre-Survey Candidate",
+   "chip": "psc",
+   "glyph": "psc",
+   "statusWord": "Researched — deferred, richer window later",
+   "statusDescription": "Proposed for a future survey; not yet reviewed. Thin: one source, Acrelius (1759).",
+   "living": false,
+   "overlayCurrent": false,
+   "c2": null,
+   "sourcing": "Thin: one source. Israel Acrelius, the Swedish provost on the Delaware, wrote this history, printed in 1759. He copied in the people's own letters, such as their plea of 1693 for ministers and books. Acrelius's own account stops in 1756, when he went home. Only his editor's notes of 1874 carry the story on to 1786. No church book or other record of the congregations is in the Library yet.",
+   "floorNote": "No question. They held to what their own letter of 1693 called \"the pure and uncorrupted Lutheran religion\".",
+   "relationsSummary": "Sweden planted a colony on the Delaware in 1638, with a Swedish pastor. After Swedish rule ended in 1655, few pastors were left. In 1693 the people wrote home to beg for ministers and books. From 1697 the king and archbishop of Sweden sent pastors again. In the 1740s the churches shut out Moravian preachers. Their provost Acrelius visited the cloister at Ephrata in 1753 and argued with its brothers.",
+   "why": "A small Swedish people on an American river kept their Lutheran church for more than a century. For years they had no pastor of their own tongue. Laymen read sermons from a book in the churches. In 1693 they wrote to Sweden in their own words, for \"two Swedish ministers\" and two hundred catechisms. Sweden answered, and went on sending pastors for nearly ninety years.",
+   "entry": null,
+   "teaser": "The Delaware River, 1638 to 1786: Swedish farmers who kept their own church and begged home for pastors and books.",
+   "longDescription": "In 1638 Swedish settlers built Fort Christina on the Delaware River. Their pastor, Reorus Torkillus, came from East Gothland in Sweden. The colony stayed small, and its churches were built of logs.\n\nSwedish rule ended in 1655, and one Swedish pastor, Lars Lock, stayed on. In 1677 the people called a second pastor, Jacob Fabritius, who preached in Dutch. By 1691 he was too old to serve. Then, Acrelius writes, an old man read sermons out of a book in one church, and Charles Springer read in another. \"The people waited, but no clergyman came.\"\n\nSpringer had a strange road to the river. He was seized in London, shipped to America and sold as a servant in Virginia. Once free, he joined his own people on the Delaware. In 1693 he wrote for them to Sweden. They asked for \"two Swedish ministers\", for Bibles, and for two hundred catechisms. They were farmers, they said, who lived \"according to the laudable old Swedish customs\". They were ready to seal their faith \"with our own blood\".\n\nThe letter reached King Charles XI. In 1697 three pastors arrived with a commission from the king and the archbishop. The people built two brick and stone churches. Trinity Church at Christina was consecrated in 1699, and Gloria Dei at Wicaco in 1700.\n\nIn the 1740s Moravian preachers came among the Swedes. In 1744 one of them, Bruzelius, was set to preach at Raccoon church. His opponents held the key, so his friends broke in through a window. A panel of twenty-five men later ruled against him. Moravian ministers were then barred from the Swedish and English churches.\n\nAcrelius came as provost in 1749 and went home in 1756. He urged the people to keep the Swedish language and teach it to the young. Yet the English tongue was gaining, and some services were already held in English.",
+   "voices": [
+    "Charles Springer — kidnapped in London and sold as a servant in Virginia, he became a reader and church warden among the Swedes and wrote their letter of 1693 to Sweden",
+    "Israel Acrelius — provost of the Swedish churches on the Delaware from 1749 to 1756, whose history of the congregations was printed in 1759"
+   ],
+   "legacy": "From 1696 to 1786, Sweden sent twenty-four pastors to the churches on the Delaware. The crown paid for their voyages out and home. In time the Swedish language died out among the settlers' children. Then Sweden stopped sending pastors. What became of the congregations after that is not yet told from the Library.",
+   "people": [],
+   "reviewStatus": "AI-checked"
+  },
+  {
+   "id": "english-unitarianism",
+   "atlasId": "TBD",
+   "era": 8,
+   "name": "English Unitarianism",
+   "shortName": "English Unitarians",
+   "informalName": "The Worshippers of God Alone",
+   "dates": "1774-1813",
+   "start": 1774,
+   "end": 1813,
+   "region": "England: London, Birmingham and Hackney",
+   "placeLabel": "England",
+   "modernCountries": [
+    {
+     "country": "United Kingdom",
+     "countryId": "Q145",
+     "place": "England",
+     "placeId": "Q21"
+    }
+   ],
+   "regions": [
+    "North Europe"
+   ],
+   "lane": "8 Beyond the Floor (researched & explained)",
+   "laneLabel": "Non-Nicene Traditions",
+   "laneOrder": 80,
+   "beyondFloor": true,
+   "status": "Floor Question (register)",
+   "chip": "psc",
+   "glyph": "flq",
+   "statusWord": "Creedal question — not yet resolved",
+   "statusDescription": "Proposed for a future survey, as a register entry. By its own founding sermon and writings, it reads as stepping outside the doctrinal floor. The question is not decided yet. Not yet reviewed.",
+   "living": true,
+   "overlayCurrent": false,
+   "c2": null,
+   "sourcing": "Moderate. The Library holds Lindsey's sermon at the opening of his chapel in 1774, and Priestley's own memoir to 1795. It holds Priestley's open letters to the New Church of 1791, and a New Church reply. Belsham's account of 1812, from his life of Lindsey, is here too. Biddle's English life of Socinus, printed in London in 1653, is here too. Toulmin's own books are named but not yet in hand. Nye, named among the early English Unitarians, is not yet in the Library, so this entry says nothing of what he wrote.",
+   "floorNote": "Lindsey's chapel was formed so that its people might worship \"God alone\", the Father. Priestley defended \"the unitarian doctrine\" in print every year. By their own account, they did not hold the Trinity. This is their own account, not a charge made by their opponents. Whether it places them outside the floor is not yet decided.",
+   "relationsSummary": "Theophilus Lindsey left the Church of England. In 1774 he opened his own chapel in London. Joseph Priestley came to it from the old Dissenting churches. There he had moved from Arian to Unitarian belief. Earlier English writers took up the ideas of Socinus and the Polish Brethren. The evidence for that link is thin. Lindsey's prayer book shaped the first Unitarian liturgy in Boston. Priestley argued in print with the new Swedenborgian church in Birmingham. One of its leaders answered him.",
+   "why": "In 1774 a clergyman who had left the Church of England opened a chapel in London. Its people met, he said, as \"a separate congregation\", so that they might worship God alone. Joseph Priestley, chemist and Dissenting minister, defended the same belief in print each year. In 1791 a mob burned his meeting house and his home in Birmingham. In 1813 the law at last gave Unitarians the same rights as other Dissenters.",
+   "entry": null,
+   "teaser": "London and Birmingham, 1774 to 1813: a chapel built to worship God alone, and a minister whose church was burned.",
+   "longDescription": "Theophilus Lindsey was a Church of England clergyman at Catterick, in Yorkshire. He grew uneasy in his post and thought of leaving it. Others in that church were trying to end the rule that clergy must sign its Thirty-Nine Articles. Lindsey left, and on 17 April 1774 he opened a chapel in Essex Street, in London.\n\nIn his first sermon there, Lindsey said why they had come together. They were \"a separate congregation, distinct from that of our national church\". They met so that they \"may be at liberty to worship God alone\". No one, he said, should make others sign his own reading of Scripture. The prayers that day spoke to the Father: \"thou art God alone\".\n\nJoseph Priestley came from the other side, the old Dissent. He and his fellow tutors at a Dissenting academy, he wrote, \"were likewise all Arians\". At Leeds he became what was called a Socinian, holding that Christ was a man and not God. In London he spent his Sundays at Lindsey's chapel and sometimes led its worship. He wrote a pamphlet every year in defence of \"the unitarian doctrine\".\n\nIn Birmingham, Priestley also argued with the new Swedenborgian church. His letters of 1791 rejected its teaching that the one God is Jesus Christ. Robert Hindmarsh, a leader of that church, answered him in 1792. A Socinian, he wrote, had no right to the name of a Christian.\n\nOn 14 July 1791 a mob in Birmingham burned the church where Priestley preached. Then they burned his home. It wrecked the houses of many Dissenters too. Priestley moved to Hackney, near London. A church there asked him to be its minister. In April 1794 he sailed for America. Thomas Belsham taught at the college in Hackney. He later served the Essex Street chapel.\n\nThe same belief had English voices long before Lindsey. In 1653 John Biddle put a life of Socinus, the Polish Brethren's teacher, into English. In 1777 Joshua Toulmin, a Baptist pastor at Taunton, wrote a new life of Socinus. A Baptist editor wrote in 1910 that some Baptist churches in the west of England turned Unitarian too.\n\nThe chapel's prayer book crossed the sea. In 1786 the minister of King's Chapel in Boston wrote to Lindsey about his new liturgy. He said he had tried to bring in Lindsey's whole liturgy. He also credited Lindsey's books for the spread of Unitarian belief in New England.",
+   "voices": [
+    "Theophilus Lindsey — left the Church of England and opened the Essex Street chapel in London on 17 April 1774",
+    "Joseph Priestley — chemist and Dissenting minister, who wrote a pamphlet each year for the Unitarian belief; his Birmingham meeting house and home were burned in 1791",
+    "Thomas Belsham — divinity tutor at Hackney and later of Essex Street, whose life of Lindsey (1812) tells the movement's story",
+    "Joshua Toulmin — Baptist minister at Taunton, who wrote a life of Socinus in 1777",
+    "John Biddle — who put a life of Socinus into English in 1653, an early English voice for the same belief"
+   ],
+   "legacy": "For years Unitarians stood outside the law that protected other Dissenters. In 1813 they were given the same rights. By then the chapel's books were read far from London. In 1810 a small society in New York State read sermons by Lindsey, Priestley and Toulmin when it had no minister. The story of the English churches after 1813 is not yet told from the Library.",
+   "livingEvidence": {
+    "descentConfidence": "Inferential-Thin",
+    "basis": "The Library carries the Essex Street chapel to Belsham's account of 1812 and the law of 1813. No later text in the repo traces today's British Unitarian churches back to it."
+   },
+   "people": [],
+   "reviewStatus": "AI-checked"
+  }
+ ],
+ "fact_table": [
+  {
+   "entry": "new-france-mission-born-christianity",
+   "field": "sourcing",
+   "sentence": "The Jesuits' yearly reports, the Relations, are in hand to 1650, in French with English beside it.",
+   "file": null,
+   "lines": null,
+   "quote": null,
+   "work": "Thwaites, The Jesuit Relations, vol. 35 title: 'Hurons, Lower Canada, Algonkins, 1650' (the last vendored volume)",
+   "grade": "Documented",
+   "note": "The file header title line, from the volume's own title page; the Library holds volumes 1 to 35."
+  },
+  {
+   "entry": "new-france-mission-born-christianity",
+   "field": "sourcing",
+   "sentence": "The converts are heard only through the missionaries.",
+   "file": "cic/texts/jesuit-relations_thwaites-v18-fra-eng_1896-1901.txt",
+   "lines": "3449-3451",
+   "quote": "That was what our Chris- tians said in this first assembly, which took place at night ; we were not present there,",
+   "work": "The Jesuit Relations and Allied Documents, ed. R. G. Thwaites (Cleveland, 1896-1901), vol. 18",
+   "grade": "Documented"
+  },
+  {
+   "entry": "new-france-mission-born-christianity",
+   "field": "sourcing",
+   "sentence": "Their speeches come to us as the priests wrote them down, for readers in France.",
+   "file": null,
+   "lines": null,
+   "quote": null,
+   "work": "The Jesuit Relations (Thwaites 73 vols; Greer's selection, Bedford, 2000), as described in the census source note on the-society-of-jesus",
+   "grade": "Widely Accepted",
+   "note": "The census note reads: 'The Society's serialized self-reporting, written for an edifying purpose'."
+  },
+  {
+   "entry": "new-france-mission-born-christianity",
+   "field": "sourcing",
+   "sentence": "No text in a convert's own hand is in the Library yet.",
+   "file": null,
+   "lines": null,
+   "quote": null,
+   "work": "Library check, cic/texts/README.md rows for the Relations (vols. 1-35); no other New France text is vendored",
+   "grade": "Documented",
+   "note": "Absence check by the drafter."
+  },
+  {
+   "entry": "new-france-mission-born-christianity",
+   "field": "floorNote",
+   "sentence": "The hard question is how much of what we can read is the mission's story rather than the converts' own.",
+   "file": "cic/texts/jesuit-relations_thwaites-v18-fra-eng_1896-1901.txt",
+   "lines": "3449-3451",
+   "quote": "That was what our Chris- tians said in this first assembly, which took place at night ; we were not present there,",
+   "work": "The Jesuit Relations and Allied Documents, ed. R. G. Thwaites (Cleveland, 1896-1901), vol. 18",
+   "grade": "Documented"
+  },
+  {
+   "entry": "new-france-mission-born-christianity",
+   "field": "relationsSummary",
+   "sentence": "Grew from the Jesuit mission to New France.",
+   "file": "cic/texts/jesuit-relations_thwaites-v17-fra-eng_1896-1901.txt",
+   "lines": "1977-1982",
+   "quote": "Our Christian,- it is thus we call Joseph Chiwa- tenhwa, both because he was the first one in this Vil- lage, and for nine or ten months the only one who, with his family, made a profession of Christianity, notwithstanding all the speeches and the verbal per- secutions of his Countrymen;",
+   "work": "The Jesuit Relations and Allied Documents, ed. R. G. Thwaites (Cleveland, 1896-1901), vol. 17",
+   "grade": "Documented"
+  },
+  {
+   "entry": "new-france-mission-born-christianity",
+   "field": "relationsSummary",
+   "sentence": "Near Quebec, Algonquin families settled at Sillery from 1638, and most became Christians.",
+   "file": "cic/texts/jesuit-relations_thwaites-v14-fra-eng_1896-1901.txt",
+   "lines": "315-317",
+   "quote": "At this residence are established two Algonkin families, com- prising about twenty persons,",
+   "work": "The Jesuit Relations and Allied Documents, ed. R. G. Thwaites (Cleveland, 1896-1901), vol. 14",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "new-france-mission-born-christianity",
+   "field": "relationsSummary",
+   "sentence": "Near Quebec, Algonquin families settled at Sillery from 1638, and most became Christians.",
+   "file": "cic/texts/jesuit-relations_thwaites-v14-fra-eng_1896-1901.txt",
+   "lines": "7817-7818",
+   "quote": "this house tliey are building, and to help us, me and another family, to clear the land?",
+   "work": "The Jesuit Relations and Allied Documents, ed. R. G. Thwaites (Cleveland, 1896-1901), vol. 14",
+   "grade": "Documented"
+  },
+  {
+   "entry": "new-france-mission-born-christianity",
+   "field": "relationsSummary",
+   "sentence": "Near Quebec, Algonquin families settled at Sillery from 1638, and most became Christians.",
+   "file": "cic/texts/jesuit-relations_thwaites-v16-fra-eng_1896-1901.txt",
+   "lines": "290-291",
+   "quote": "affairs of the earliest Indian settlers at Sillery, most of whom are now Christians.",
+   "work": "The Jesuit Relations and Allied Documents, ed. R. G. Thwaites (Cleveland, 1896-1901), vol. 16",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "new-france-mission-born-christianity",
+   "field": "relationsSummary",
+   "sentence": "Far to the west, the Jesuits worked among the Hurons.",
+   "file": "cic/texts/jesuit-relations_thwaites-v17-fra-eng_1896-1901.txt",
+   "lines": "404-405",
+   "quote": "the irreproachable lives led by lay Frenchmen in the Huron country;",
+   "work": "The Jesuit Relations and Allied Documents, ed. R. G. Thwaites (Cleveland, 1896-1901), vol. 17",
+   "grade": "Documented"
+  },
+  {
+   "entry": "new-france-mission-born-christianity",
+   "field": "relationsSummary",
+   "sentence": "When war with the Iroquois broke the Huron nation, about three hundred Christian Hurons went down to Quebec in 1650.",
+   "file": "cic/texts/jesuit-relations_thwaites-v35-fra-eng_1896-1901.txt",
+   "lines": "522-524",
+   "quote": "Ragueneau describes the renewed incursions of the Iroquois in the spring of this year (1650), which complete the ruin of the wretched Hurons.",
+   "work": "The Jesuit Relations and Allied Documents, ed. R. G. Thwaites (Cleveland, 1896-1901), vol. 35",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "new-france-mission-born-christianity",
+   "field": "relationsSummary",
+   "sentence": "When war with the Iroquois broke the Huron nation, about three hundred Christian Hurons went down to Quebec in 1650.",
+   "file": "cic/texts/jesuit-relations_thwaites-v35-fra-eng_1896-1901.txt",
+   "lines": "537-538",
+   "quote": "the remnant of the tribe, some three hundred in number, make their way to Quebec,",
+   "work": "The Jesuit Relations and Allied Documents, ed. R. G. Thwaites (Cleveland, 1896-1901), vol. 35",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "new-france-mission-born-christianity",
+   "field": "relationsSummary",
+   "sentence": "When war with the Iroquois broke the Huron nation, about three hundred Christian Hurons went down to Quebec in 1650.",
+   "file": "cic/texts/jesuit-relations_thwaites-v35-fra-eng_1896-1901.txt",
+   "lines": "8250",
+   "quote": "families numbering about three hundred souls,—",
+   "work": "The Jesuit Relations and Allied Documents, ed. R. G. Thwaites (Cleveland, 1896-1901), vol. 35",
+   "grade": "Documented"
+  },
+  {
+   "entry": "new-france-mission-born-christianity",
+   "field": "why",
+   "sentence": "Here the converts' words survive, though only in the priests' reports.",
+   "file": "cic/texts/jesuit-relations_thwaites-v18-fra-eng_1896-1901.txt",
+   "lines": "3449-3451",
+   "quote": "That was what our Chris- tians said in this first assembly, which took place at night ; we were not present there,",
+   "work": "The Jesuit Relations and Allied Documents, ed. R. G. Thwaites (Cleveland, 1896-1901), vol. 18",
+   "grade": "Documented"
+  },
+  {
+   "entry": "new-france-mission-born-christianity",
+   "field": "why",
+   "sentence": "At Sillery, Christian families met at night without the Jesuits and made rules of their own.",
+   "file": "cic/texts/jesuit-relations_thwaites-v18-fra-eng_1896-1901.txt",
+   "lines": "3449-3451",
+   "quote": "That was what our Chris- tians said in this first assembly, which took place at night ; we were not present there,",
+   "work": "The Jesuit Relations and Allied Documents, ed. R. G. Thwaites (Cleveland, 1896-1901), vol. 18",
+   "grade": "Documented"
+  },
+  {
+   "entry": "new-france-mission-born-christianity",
+   "field": "why",
+   "sentence": "At Sillery, Christian families met at night without the Jesuits and made rules of their own.",
+   "file": "cic/texts/jesuit-relations_thwaites-v20-fra-eng_1896-1901.txt",
+   "lines": "5314-5317",
+   "quote": "they had formed a plan among themselves, that the first of their number who should commit any fault, however inconsider- able, should suffer imprisonment and fasting.",
+   "work": "The Jesuit Relations and Allied Documents, ed. R. G. Thwaites (Cleveland, 1896-1901), vol. 20",
+   "grade": "Documented"
+  },
+  {
+   "entry": "new-france-mission-born-christianity",
+   "field": "why",
+   "sentence": "Among the Hurons, a convert named Joseph Chihwatenhwa taught his people like an elder brother.",
+   "file": "cic/texts/jesuit-relations_thwaites-v17-fra-eng_1896-1901.txt",
+   "lines": "1987-1988",
+   "quote": "to perform the duty of an elder brother by instructing and teaching his juniors",
+   "work": "The Jesuit Relations and Allied Documents, ed. R. G. Thwaites (Cleveland, 1896-1901), vol. 17",
+   "grade": "Documented"
+  },
+  {
+   "entry": "new-france-mission-born-christianity",
+   "field": "why",
+   "sentence": "In 1650 the last Huron Christians asked to be led to Quebec, so that their faith would not die out.",
+   "file": "cic/texts/jesuit-relations_thwaites-v35-fra-eng_1896-1901.txt",
+   "lines": "8030-8032",
+   "quote": "Cast thine eyes toward Quebec, and transport thither the remnants of this ruined nation.",
+   "work": "The Jesuit Relations and Allied Documents, ed. R. G. Thwaites (Cleveland, 1896-1901), vol. 35",
+   "grade": "Documented"
+  },
+  {
+   "entry": "new-france-mission-born-christianity",
+   "field": "why",
+   "sentence": "In 1650 the last Huron Christians asked to be led to Quebec, so that their faith would not die out.",
+   "file": "cic/texts/jesuit-relations_thwaites-v35-fra-eng_1896-1901.txt",
+   "lines": "8087-8088",
+   "quote": "we will build a Church under shelter of the fort at Kebec. There, our faith will not die out;",
+   "work": "The Jesuit Relations and Allied Documents, ed. R. G. Thwaites (Cleveland, 1896-1901), vol. 35",
+   "grade": "Documented"
+  },
+  {
+   "entry": "new-france-mission-born-christianity",
+   "field": "teaser",
+   "sentence": "Quebec and the Huron country, 1610 to 1650: Algonquin and Huron Christians, heard only through the Jesuits who wrote them down.",
+   "file": "cic/texts/jesuit-relations_thwaites-v18-fra-eng_1896-1901.txt",
+   "lines": "3449-3451",
+   "quote": "That was what our Chris- tians said in this first assembly, which took place at night ; we were not present there,",
+   "work": "The Jesuit Relations and Allied Documents, ed. R. G. Thwaites (Cleveland, 1896-1901), vol. 18",
+   "grade": "Documented"
+  },
+  {
+   "entry": "new-france-mission-born-christianity",
+   "field": "teaser",
+   "sentence": "Quebec and the Huron country, 1610 to 1650: Algonquin and Huron Christians, heard only through the Jesuits who wrote them down.",
+   "file": "cic/texts/jesuit-relations_thwaites-v35-fra-eng_1896-1901.txt",
+   "lines": "8250",
+   "quote": "families numbering about three hundred souls,—",
+   "work": "The Jesuit Relations and Allied Documents, ed. R. G. Thwaites (Cleveland, 1896-1901), vol. 35",
+   "grade": "Documented"
+  },
+  {
+   "entry": "new-france-mission-born-christianity",
+   "field": "longDescription",
+   "sentence": "On 24 June 1610 a chief named Membertou was baptized at Port Royal in Acadia.",
+   "file": "cic/texts/jesuit-relations_thwaites-v01-fra-eng_1896-1901.txt",
+   "lines": "3853-3855",
+   "quote": "is a Christian, together with all his family, having been baptized, and twenty others with him, on last saint John's day, the 24th of June.",
+   "work": "The Jesuit Relations and Allied Documents, ed. R. G. Thwaites (Cleveland, 1896-1901), vol. 1",
+   "grade": "Documented"
+  },
+  {
+   "entry": "new-france-mission-born-christianity",
+   "field": "longDescription",
+   "sentence": "About twenty of his family and people were baptized with him.",
+   "file": "cic/texts/jesuit-relations_thwaites-v01-fra-eng_1896-1901.txt",
+   "lines": "3853-3855",
+   "quote": "is a Christian, together with all his family, having been baptized, and twenty others with him, on last saint John's day, the 24th of June.",
+   "work": "The Jesuit Relations and Allied Documents, ed. R. G. Thwaites (Cleveland, 1896-1901), vol. 1",
+   "grade": "Documented"
+  },
+  {
+   "entry": "new-france-mission-born-christianity",
+   "field": "longDescription",
+   "sentence": "A French priest named Fléché baptized them, about a year before the first Jesuits came.",
+   "file": "cic/texts/jesuit-relations_thwaites-v01-fra-eng_1896-1901.txt",
+   "lines": "14336-14337",
+   "quote": "had been at Port Royal nearly a year before the arrival of the Jesuits.",
+   "work": "The Jesuit Relations and Allied Documents, ed. R. G. Thwaites (Cleveland, 1896-1901), vol. 1",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "new-france-mission-born-christianity",
+   "field": "longDescription",
+   "sentence": "A French priest named Fléché baptized them, about a year before the first Jesuits came.",
+   "file": "cic/texts/jesuit-relations_thwaites-v01-fra-eng_1896-1901.txt",
+   "lines": "5573",
+   "quote": "Jessé Fleche,25 a priest;",
+   "work": "The Jesuit Relations and Allied Documents, ed. R. G. Thwaites (Cleveland, 1896-1901), vol. 1",
+   "grade": "Documented"
+  },
+  {
+   "entry": "new-france-mission-born-christianity",
+   "field": "longDescription",
+   "sentence": "The first report in the Jesuit Relations collection is from that year.",
+   "file": "cic/texts/jesuit-relations_thwaites-v01-fra-eng_1896-1901.txt",
+   "lines": "2957-2959",
+   "quote": "The Conversion of the Savages who have been baptized in New France dur- ing this year, 1610.",
+   "work": "The Jesuit Relations and Allied Documents, ed. R. G. Thwaites (Cleveland, 1896-1901), vol. 1",
+   "grade": "Documented"
+  },
+  {
+   "entry": "new-france-mission-born-christianity",
+   "field": "longDescription",
+   "sentence": "Near Quebec, the Jesuits set up a settlement at Sillery in 1637 and 1638.",
+   "file": "cic/texts/jesuit-relations_thwaites-v14-fra-eng_1896-1901.txt",
+   "lines": "311-313",
+   "quote": "the establishment of the residence of St. Joseph de Sillery, four miles above Quebec,",
+   "work": "The Jesuit Relations and Allied Documents, ed. R. G. Thwaites (Cleveland, 1896-1901), vol. 14",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "new-france-mission-born-christianity",
+   "field": "longDescription",
+   "sentence": "One evening a man named Negabamat came to hold Father Le Jeune to his word.",
+   "file": "cic/texts/jesuit-relations_thwaites-v14-fra-eng_1896-1901.txt",
+   "lines": "7755-7756",
+   "quote": "This good Sav- age, named by his own people Negabamat,",
+   "work": "The Jesuit Relations and Allied Documents, ed. R. G. Thwaites (Cleveland, 1896-1901), vol. 14",
+   "grade": "Documented"
+  },
+  {
+   "entry": "new-france-mission-born-christianity",
+   "field": "longDescription",
+   "sentence": "One evening a man named Negabamat came to hold Father Le Jeune to his word.",
+   "file": "cic/texts/jesuit-relations_thwaites-v14-fra-eng_1896-1901.txt",
+   "lines": "7761-7762",
+   "quote": "They both came to see us one evening,",
+   "work": "The Jesuit Relations and Allied Documents, ed. R. G. Thwaites (Cleveland, 1896-1901), vol. 14",
+   "grade": "Documented"
+  },
+  {
+   "entry": "new-france-mission-born-christianity",
+   "field": "longDescription",
+   "sentence": "One evening a man named Negabamat came to hold Father Le Jeune to his word.",
+   "file": "cic/texts/jesuit-relations_thwaites-v14-fra-eng_1896-1901.txt",
+   "lines": "7771-7772",
+   "quote": "Father le Jeune, thou art already old, and there- fore it is no longer permitted to thee to lie.",
+   "work": "The Jesuit Relations and Allied Documents, ed. R. G. Thwaites (Cleveland, 1896-1901), vol. 14",
+   "grade": "Documented"
+  },
+  {
+   "entry": "new-france-mission-born-christianity",
+   "field": "longDescription",
+   "sentence": "Had he not promised a house for him and another family?",
+   "file": "cic/texts/jesuit-relations_thwaites-v14-fra-eng_1896-1901.txt",
+   "lines": "7817-7818",
+   "quote": "this house tliey are building, and to help us, me and another family, to clear the land?",
+   "work": "The Jesuit Relations and Allied Documents, ed. R. G. Thwaites (Cleveland, 1896-1901), vol. 14",
+   "grade": "Documented"
+  },
+  {
+   "entry": "new-france-mission-born-christianity",
+   "field": "longDescription",
+   "sentence": "Two Algonquin families settled there, and within a year most of the settlers were Christians.",
+   "file": "cic/texts/jesuit-relations_thwaites-v14-fra-eng_1896-1901.txt",
+   "lines": "315-317",
+   "quote": "At this residence are established two Algonkin families, com- prising about twenty persons,",
+   "work": "The Jesuit Relations and Allied Documents, ed. R. G. Thwaites (Cleveland, 1896-1901), vol. 14",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "new-france-mission-born-christianity",
+   "field": "longDescription",
+   "sentence": "Two Algonquin families settled there, and within a year most of the settlers were Christians.",
+   "file": "cic/texts/jesuit-relations_thwaites-v16-fra-eng_1896-1901.txt",
+   "lines": "290-291",
+   "quote": "affairs of the earliest Indian settlers at Sillery, most of whom are now Christians.",
+   "work": "The Jesuit Relations and Allied Documents, ed. R. G. Thwaites (Cleveland, 1896-1901), vol. 16",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "new-france-mission-born-christianity",
+   "field": "longDescription",
+   "sentence": "Negabamat took the name Noël.",
+   "file": "cic/texts/jesuit-relations_thwaites-v16-fra-eng_1896-1901.txt",
+   "lines": "1315-1316",
+   "quote": "Marie, wife of Noel Negabamat,",
+   "work": "The Jesuit Relations and Allied Documents, ed. R. G. Thwaites (Cleveland, 1896-1901), vol. 16",
+   "grade": "Documented"
+  },
+  {
+   "entry": "new-france-mission-born-christianity",
+   "field": "longDescription",
+   "sentence": "In 1640 the Christians of Sillery met at night, with no priest present.",
+   "file": "cic/texts/jesuit-relations_thwaites-v18-fra-eng_1896-1901.txt",
+   "lines": "3449-3451",
+   "quote": "That was what our Chris- tians said in this first assembly, which took place at night ; we were not present there,",
+   "work": "The Jesuit Relations and Allied Documents, ed. R. G. Thwaites (Cleveland, 1896-1901), vol. 18",
+   "grade": "Documented"
+  },
+  {
+   "entry": "new-france-mission-born-christianity",
+   "field": "longDescription",
+   "sentence": "Negabamat told the others that the French taught that \"we all are brothers\".",
+   "file": "cic/texts/jesuit-relations_thwaites-v18-fra-eng_1896-1901.txt",
+   "lines": "3426-3427",
+   "quote": "they say that we all are brothers, that we have only one and the same Father,",
+   "work": "The Jesuit Relations and Allied Documents, ed. R. G. Thwaites (Cleveland, 1896-1901), vol. 18",
+   "grade": "Documented"
+  },
+  {
+   "entry": "new-france-mission-born-christianity",
+   "field": "longDescription",
+   "sentence": "An old captain, Jean Baptiste Etinechkavat, said he had weighed the faith well before he took it.",
+   "file": "cic/texts/jesuit-relations_thwaites-v18-fra-eng_1896-1901.txt",
+   "lines": "3434-3435",
+   "quote": "Jean Baptiste Etinechkavat, who is a Captain by descent, spoke last.",
+   "work": "The Jesuit Relations and Allied Documents, ed. R. G. Thwaites (Cleveland, 1896-1901), vol. 18",
+   "grade": "Documented"
+  },
+  {
+   "entry": "new-france-mission-born-christianity",
+   "field": "longDescription",
+   "sentence": "An old captain, Jean Baptiste Etinechkavat, said he had weighed the faith well before he took it.",
+   "file": "cic/texts/jesuit-relations_thwaites-v18-fra-eng_1896-1901.txt",
+   "lines": "3439-3440",
+   "quote": "I con- sidered the Faith well before embracing it,",
+   "work": "The Jesuit Relations and Allied Documents, ed. R. G. Thwaites (Cleveland, 1896-1901), vol. 18",
+   "grade": "Documented"
+  },
+  {
+   "entry": "new-france-mission-born-christianity",
+   "field": "longDescription",
+   "sentence": "One man who was not baptized spoke against them.",
+   "file": "cic/texts/jesuit-relations_thwaites-v18-fra-eng_1896-1901.txt",
+   "lines": "3495",
+   "quote": "One Pagan alone — an arrogant man,",
+   "work": "The Jesuit Relations and Allied Documents, ed. R. G. Thwaites (Cleveland, 1896-1901), vol. 18",
+   "grade": "Documented"
+  },
+  {
+   "entry": "new-france-mission-born-christianity",
+   "field": "longDescription",
+   "sentence": "He would not give up the old right to take more than one wife.",
+   "file": "cic/texts/jesuit-relations_thwaites-v18-fra-eng_1896-1901.txt",
+   "lines": "3501-3504",
+   "quote": "They cry out that he loves two women ; have we not had the priv- ilege for a long time to take as many of them as we wish ?",
+   "work": "The Jesuit Relations and Allied Documents, ed. R. G. Thwaites (Cleveland, 1896-1901), vol. 18",
+   "grade": "Documented"
+  },
+  {
+   "entry": "new-france-mission-born-christianity",
+   "field": "longDescription",
+   "sentence": "The same Christians agreed among themselves that anyone who sinned should be jailed and made to fast.",
+   "file": "cic/texts/jesuit-relations_thwaites-v20-fra-eng_1896-1901.txt",
+   "lines": "5314-5317",
+   "quote": "they had formed a plan among themselves, that the first of their number who should commit any fault, however inconsider- able, should suffer imprisonment and fasting.",
+   "work": "The Jesuit Relations and Allied Documents, ed. R. G. Thwaites (Cleveland, 1896-1901), vol. 20",
+   "grade": "Documented"
+  },
+  {
+   "entry": "new-france-mission-born-christianity",
+   "field": "longDescription",
+   "sentence": "They told the Jesuits only the next morning.",
+   "file": "cic/texts/jesuit-relations_thwaites-v20-fra-eng_1896-1901.txt",
+   "lines": "5299-5301",
+   "quote": "This meeting took place in the silence of the night, and in the morning they came to give us information of it.",
+   "work": "The Jesuit Relations and Allied Documents, ed. R. G. Thwaites (Cleveland, 1896-1901), vol. 20",
+   "grade": "Documented"
+  },
+  {
+   "entry": "new-france-mission-born-christianity",
+   "field": "longDescription",
+   "sentence": "The priests said they were too severe, but the converts kept to their plan.",
+   "file": "cic/texts/jesuit-relations_thwaites-v20-fra-eng_1896-1901.txt",
+   "lines": "5301-5302",
+   "quote": "We answered that they proceeded with too much severity;",
+   "work": "The Jesuit Relations and Allied Documents, ed. R. G. Thwaites (Cleveland, 1896-1901), vol. 20",
+   "grade": "Documented"
+  },
+  {
+   "entry": "new-france-mission-born-christianity",
+   "field": "longDescription",
+   "sentence": "The priests said they were too severe, but the converts kept to their plan.",
+   "file": "cic/texts/jesuit-relations_thwaites-v20-fra-eng_1896-1901.txt",
+   "lines": "5313-5314",
+   "quote": "They did not cease to pursue their point,",
+   "work": "The Jesuit Relations and Allied Documents, ed. R. G. Thwaites (Cleveland, 1896-1901), vol. 20",
+   "grade": "Documented"
+  },
+  {
+   "entry": "new-france-mission-born-christianity",
+   "field": "longDescription",
+   "sentence": "Charles Meiachkawat, just baptized, told them to bind him if he ever lost courage.",
+   "file": "cic/texts/jesuit-relations_thwaites-v20-fra-eng_1896-1901.txt",
+   "lines": "5283-5284",
+   "quote": "Charles Meiachkawat, who was very recently baptized, was in this assembly;",
+   "work": "The Jesuit Relations and Allied Documents, ed. R. G. Thwaites (Cleveland, 1896-1901), vol. 20",
+   "grade": "Documented"
+  },
+  {
+   "entry": "new-france-mission-born-christianity",
+   "field": "longDescription",
+   "sentence": "Charles Meiachkawat, just baptized, told them to bind him if he ever lost courage.",
+   "file": "cic/texts/jesuit-relations_thwaites-v20-fra-eng_1896-1901.txt",
+   "lines": "5289-5290",
+   "quote": "I now give you liberty to bind me and to hold me in",
+   "work": "The Jesuit Relations and Allied Documents, ed. R. G. Thwaites (Cleveland, 1896-1901), vol. 20",
+   "grade": "Documented"
+  },
+  {
+   "entry": "new-france-mission-born-christianity",
+   "field": "longDescription",
+   "sentence": "Among the Hurons, Joseph Chihwatenhwa was for months the only Christian in his village, with his family.",
+   "file": "cic/texts/jesuit-relations_thwaites-v17-fra-eng_1896-1901.txt",
+   "lines": "1977-1982",
+   "quote": "Our Christian,- it is thus we call Joseph Chiwa- tenhwa, both because he was the first one in this Vil- lage, and for nine or ten months the only one who, with his family, made a profession of Christianity, notwithstanding all the speeches and the verbal per- secutions of his Countrymen;",
+   "work": "The Jesuit Relations and Allied Documents, ed. R. G. Thwaites (Cleveland, 1896-1901), vol. 17",
+   "grade": "Documented"
+  },
+  {
+   "entry": "new-france-mission-born-christianity",
+   "field": "longDescription",
+   "sentence": "His people spoke hard words against him.",
+   "file": "cic/texts/jesuit-relations_thwaites-v17-fra-eng_1896-1901.txt",
+   "lines": "1977-1982",
+   "quote": "Our Christian,- it is thus we call Joseph Chiwa- tenhwa, both because he was the first one in this Vil- lage, and for nine or ten months the only one who, with his family, made a profession of Christianity, notwithstanding all the speeches and the verbal per- secutions of his Countrymen;",
+   "work": "The Jesuit Relations and Allied Documents, ed. R. G. Thwaites (Cleveland, 1896-1901), vol. 17",
+   "grade": "Documented"
+  },
+  {
+   "entry": "new-france-mission-born-christianity",
+   "field": "longDescription",
+   "sentence": "The Jesuits called him \"Our Christian\" and wrote down his speeches.",
+   "file": "cic/texts/jesuit-relations_thwaites-v17-fra-eng_1896-1901.txt",
+   "lines": "1977-1982",
+   "quote": "Our Christian,- it is thus we call Joseph Chiwa- tenhwa, both because he was the first one in this Vil- lage, and for nine or ten months the only one who, with his family, made a profession of Christianity, notwithstanding all the speeches and the verbal per- secutions of his Countrymen;",
+   "work": "The Jesuit Relations and Allied Documents, ed. R. G. Thwaites (Cleveland, 1896-1901), vol. 17",
+   "grade": "Documented"
+  },
+  {
+   "entry": "new-france-mission-born-christianity",
+   "field": "longDescription",
+   "sentence": "The Jesuits called him \"Our Christian\" and wrote down his speeches.",
+   "file": "cic/texts/jesuit-relations_thwaites-v17-fra-eng_1896-1901.txt",
+   "lines": "1987-1988",
+   "quote": "to perform the duty of an elder brother by instructing and teaching his juniors",
+   "work": "The Jesuit Relations and Allied Documents, ed. R. G. Thwaites (Cleveland, 1896-1901), vol. 17",
+   "grade": "Documented"
+  },
+  {
+   "entry": "new-france-mission-born-christianity",
+   "field": "longDescription",
+   "sentence": "In the summer of 1640 he was killed while he worked in his field.",
+   "file": "cic/texts/jesuit-relations_thwaites-v20-fra-eng_1896-1901.txt",
+   "lines": "3068-3069",
+   "quote": "while he was working in his field to cut down some trees,",
+   "work": "The Jesuit Relations and Allied Documents, ed. R. G. Thwaites (Cleveland, 1896-1901), vol. 20",
+   "grade": "Documented"
+  },
+  {
+   "entry": "new-france-mission-born-christianity",
+   "field": "longDescription",
+   "sentence": "In the summer of 1640 he was killed while he worked in his field.",
+   "file": "cic/texts/jesuit-relations_thwaites-v20-fra-eng_1896-1901.txt",
+   "lines": "309-310",
+   "quote": "He was able, this year, to send a postscript dated August 3,",
+   "work": "The Jesuit Relations and Allied Documents, ed. R. G. Thwaites (Cleveland, 1896-1901), vol. 20",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "new-france-mission-born-christianity",
+   "field": "longDescription",
+   "sentence": "The Jesuit report says two Iroquois killed him.",
+   "file": "cic/texts/jesuit-relations_thwaites-v20-fra-eng_1896-1901.txt",
+   "lines": "3069-3071",
+   "quote": "two Hiroquois, enemies of the Hurons, issued from the neighboring wood, where they lay in ambush,",
+   "work": "The Jesuit Relations and Allied Documents, ed. R. G. Thwaites (Cleveland, 1896-1901), vol. 20",
+   "grade": "Documented"
+  },
+  {
+   "entry": "new-france-mission-born-christianity",
+   "field": "longDescription",
+   "sentence": "By 1650, war with the Iroquois had broken the Huron nation.",
+   "file": "cic/texts/jesuit-relations_thwaites-v35-fra-eng_1896-1901.txt",
+   "lines": "522-524",
+   "quote": "Ragueneau describes the renewed incursions of the Iroquois in the spring of this year (1650), which complete the ruin of the wretched Hurons.",
+   "work": "The Jesuit Relations and Allied Documents, ed. R. G. Thwaites (Cleveland, 1896-1901), vol. 35",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "new-france-mission-born-christianity",
+   "field": "longDescription",
+   "sentence": "The survivors gathered on the Island of Saint Joseph.",
+   "file": "cic/texts/jesuit-relations_thwaites-v35-fra-eng_1896-1901.txt",
+   "lines": "3653-3654",
+   "quote": "The Hurons who were awaiting us on that Island, called the Island of Saint Joseph,",
+   "work": "The Jesuit Relations and Allied Documents, ed. R. G. Thwaites (Cleveland, 1896-1901), vol. 35",
+   "grade": "Documented"
+  },
+  {
+   "entry": "new-france-mission-born-christianity",
+   "field": "longDescription",
+   "sentence": "There two old captains came in secret to the Jesuit superior.",
+   "file": "cic/texts/jesuit-relations_thwaites-v35-fra-eng_1896-1901.txt",
+   "lines": "7940-7941",
+   "quote": "two old Cap- tains came to see me privately,",
+   "work": "The Jesuit Relations and Allied Documents, ed. R. G. Thwaites (Cleveland, 1896-1901), vol. 35",
+   "grade": "Documented"
+  },
+  {
+   "entry": "new-france-mission-born-christianity",
+   "field": "longDescription",
+   "sentence": "\"More than ten thousand have been snatched away by death,\" they told him.",
+   "file": "cic/texts/jesuit-relations_thwaites-v35-fra-eng_1896-1901.txt",
+   "lines": "8081-8082",
+   "quote": "More than ten thousand have been snatched away by death.",
+   "work": "The Jesuit Relations and Allied Documents, ed. R. G. Thwaites (Cleveland, 1896-1901), vol. 35",
+   "grade": "Documented"
+  },
+  {
+   "entry": "new-france-mission-born-christianity",
+   "field": "longDescription",
+   "sentence": "They asked him to lead the rest to Quebec.",
+   "file": "cic/texts/jesuit-relations_thwaites-v35-fra-eng_1896-1901.txt",
+   "lines": "8030-8032",
+   "quote": "Cast thine eyes toward Quebec, and transport thither the remnants of this ruined nation.",
+   "work": "The Jesuit Relations and Allied Documents, ed. R. G. Thwaites (Cleveland, 1896-1901), vol. 35",
+   "grade": "Documented"
+  },
+  {
+   "entry": "new-france-mission-born-christianity",
+   "field": "longDescription",
+   "sentence": "\"There, our faith will not die out,\" they said.",
+   "file": "cic/texts/jesuit-relations_thwaites-v35-fra-eng_1896-1901.txt",
+   "lines": "8087-8088",
+   "quote": "we will build a Church under shelter of the fort at Kebec. There, our faith will not die out;",
+   "work": "The Jesuit Relations and Allied Documents, ed. R. G. Thwaites (Cleveland, 1896-1901), vol. 35",
+   "grade": "Documented"
+  },
+  {
+   "entry": "new-france-mission-born-christianity",
+   "field": "longDescription",
+   "sentence": "About three hundred went down to Quebec with the Jesuits that year.",
+   "file": "cic/texts/jesuit-relations_thwaites-v35-fra-eng_1896-1901.txt",
+   "lines": "8250",
+   "quote": "families numbering about three hundred souls,—",
+   "work": "The Jesuit Relations and Allied Documents, ed. R. G. Thwaites (Cleveland, 1896-1901), vol. 35",
+   "grade": "Documented"
+  },
+  {
+   "entry": "new-france-mission-born-christianity",
+   "field": "longDescription",
+   "sentence": "About three hundred went down to Quebec with the Jesuits that year.",
+   "file": "cic/texts/jesuit-relations_thwaites-v35-fra-eng_1896-1901.txt",
+   "lines": "537-538",
+   "quote": "the remnant of the tribe, some three hundred in number, make their way to Quebec,",
+   "work": "The Jesuit Relations and Allied Documents, ed. R. G. Thwaites (Cleveland, 1896-1901), vol. 35",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "new-france-mission-born-christianity",
+   "field": "longDescription",
+   "sentence": "Every word of theirs comes to us through the Jesuits.",
+   "file": "cic/texts/jesuit-relations_thwaites-v18-fra-eng_1896-1901.txt",
+   "lines": "3449-3451",
+   "quote": "That was what our Chris- tians said in this first assembly, which took place at night ; we were not present there,",
+   "work": "The Jesuit Relations and Allied Documents, ed. R. G. Thwaites (Cleveland, 1896-1901), vol. 18",
+   "grade": "Documented"
+  },
+  {
+   "entry": "new-france-mission-born-christianity",
+   "field": "longDescription",
+   "sentence": "The priests wrote each year for readers in France, to build them up in faith.",
+   "file": null,
+   "lines": null,
+   "quote": null,
+   "work": "The Jesuit Relations (Thwaites 73 vols; Greer's selection, Bedford, 2000), as described in the census source note on the-society-of-jesus",
+   "grade": "Widely Accepted",
+   "note": "The census note reads: 'The Society's serialized self-reporting, written for an edifying purpose'."
+  },
+  {
+   "entry": "new-france-mission-born-christianity",
+   "field": "voices",
+   "sentence": "Membertou — a chief at Port Royal in Acadia, baptized with about twenty of his family and people on 24 June 1610",
+   "file": "cic/texts/jesuit-relations_thwaites-v01-fra-eng_1896-1901.txt",
+   "lines": "3853-3855",
+   "quote": "is a Christian, together with all his family, having been baptized, and twenty others with him, on last saint John's day, the 24th of June.",
+   "work": "The Jesuit Relations and Allied Documents, ed. R. G. Thwaites (Cleveland, 1896-1901), vol. 1",
+   "grade": "Documented"
+  },
+  {
+   "entry": "new-france-mission-born-christianity",
+   "field": "voices",
+   "sentence": "Noël Negabamat — one of the first settlers at Sillery, whose speeches of 1638 and 1640 Father Le Jeune wrote down",
+   "file": "cic/texts/jesuit-relations_thwaites-v16-fra-eng_1896-1901.txt",
+   "lines": "1315-1316",
+   "quote": "Marie, wife of Noel Negabamat,",
+   "work": "The Jesuit Relations and Allied Documents, ed. R. G. Thwaites (Cleveland, 1896-1901), vol. 16",
+   "grade": "Documented"
+  },
+  {
+   "entry": "new-france-mission-born-christianity",
+   "field": "voices",
+   "sentence": "Noël Negabamat — one of the first settlers at Sillery, whose speeches of 1638 and 1640 Father Le Jeune wrote down",
+   "file": "cic/texts/jesuit-relations_thwaites-v14-fra-eng_1896-1901.txt",
+   "lines": "7771-7772",
+   "quote": "Father le Jeune, thou art already old, and there- fore it is no longer permitted to thee to lie.",
+   "work": "The Jesuit Relations and Allied Documents, ed. R. G. Thwaites (Cleveland, 1896-1901), vol. 14",
+   "grade": "Documented"
+  },
+  {
+   "entry": "new-france-mission-born-christianity",
+   "field": "voices",
+   "sentence": "Noël Negabamat — one of the first settlers at Sillery, whose speeches of 1638 and 1640 Father Le Jeune wrote down",
+   "file": "cic/texts/jesuit-relations_thwaites-v18-fra-eng_1896-1901.txt",
+   "lines": "3426-3427",
+   "quote": "they say that we all are brothers, that we have only one and the same Father,",
+   "work": "The Jesuit Relations and Allied Documents, ed. R. G. Thwaites (Cleveland, 1896-1901), vol. 18",
+   "grade": "Documented"
+  },
+  {
+   "entry": "new-france-mission-born-christianity",
+   "field": "voices",
+   "sentence": "Jean Baptiste Etinechkavat — a captain at Sillery, who said in 1640 that he had weighed the faith well before he took it",
+   "file": "cic/texts/jesuit-relations_thwaites-v18-fra-eng_1896-1901.txt",
+   "lines": "3434-3435",
+   "quote": "Jean Baptiste Etinechkavat, who is a Captain by descent, spoke last.",
+   "work": "The Jesuit Relations and Allied Documents, ed. R. G. Thwaites (Cleveland, 1896-1901), vol. 18",
+   "grade": "Documented"
+  },
+  {
+   "entry": "new-france-mission-born-christianity",
+   "field": "voices",
+   "sentence": "Jean Baptiste Etinechkavat — a captain at Sillery, who said in 1640 that he had weighed the faith well before he took it",
+   "file": "cic/texts/jesuit-relations_thwaites-v18-fra-eng_1896-1901.txt",
+   "lines": "3439-3440",
+   "quote": "I con- sidered the Faith well before embracing it,",
+   "work": "The Jesuit Relations and Allied Documents, ed. R. G. Thwaites (Cleveland, 1896-1901), vol. 18",
+   "grade": "Documented"
+  },
+  {
+   "entry": "new-france-mission-born-christianity",
+   "field": "voices",
+   "sentence": "Charles Meiachkawat — newly baptized at Sillery in 1640, who told the others to bind him if he ever lost courage",
+   "file": "cic/texts/jesuit-relations_thwaites-v20-fra-eng_1896-1901.txt",
+   "lines": "5283-5284",
+   "quote": "Charles Meiachkawat, who was very recently baptized, was in this assembly;",
+   "work": "The Jesuit Relations and Allied Documents, ed. R. G. Thwaites (Cleveland, 1896-1901), vol. 20",
+   "grade": "Documented"
+  },
+  {
+   "entry": "new-france-mission-born-christianity",
+   "field": "voices",
+   "sentence": "Charles Meiachkawat — newly baptized at Sillery in 1640, who told the others to bind him if he ever lost courage",
+   "file": "cic/texts/jesuit-relations_thwaites-v20-fra-eng_1896-1901.txt",
+   "lines": "5289-5290",
+   "quote": "I now give you liberty to bind me and to hold me in",
+   "work": "The Jesuit Relations and Allied Documents, ed. R. G. Thwaites (Cleveland, 1896-1901), vol. 20",
+   "grade": "Documented"
+  },
+  {
+   "entry": "new-france-mission-born-christianity",
+   "field": "voices",
+   "sentence": "Joseph Chihwatenhwa — for months the only Christian in his Huron village; killed in his field in 1640",
+   "file": "cic/texts/jesuit-relations_thwaites-v17-fra-eng_1896-1901.txt",
+   "lines": "1977-1982",
+   "quote": "Our Christian,- it is thus we call Joseph Chiwa- tenhwa, both because he was the first one in this Vil- lage, and for nine or ten months the only one who, with his family, made a profession of Christianity, notwithstanding all the speeches and the verbal per- secutions of his Countrymen;",
+   "work": "The Jesuit Relations and Allied Documents, ed. R. G. Thwaites (Cleveland, 1896-1901), vol. 17",
+   "grade": "Documented"
+  },
+  {
+   "entry": "new-france-mission-born-christianity",
+   "field": "voices",
+   "sentence": "Joseph Chihwatenhwa — for months the only Christian in his Huron village; killed in his field in 1640",
+   "file": "cic/texts/jesuit-relations_thwaites-v20-fra-eng_1896-1901.txt",
+   "lines": "3068-3069",
+   "quote": "while he was working in his field to cut down some trees,",
+   "work": "The Jesuit Relations and Allied Documents, ed. R. G. Thwaites (Cleveland, 1896-1901), vol. 20",
+   "grade": "Documented"
+  },
+  {
+   "entry": "new-france-mission-born-christianity",
+   "field": "legacy",
+   "sentence": "The Library's record of this church stops in 1650.",
+   "file": null,
+   "lines": null,
+   "quote": null,
+   "work": "Thwaites, The Jesuit Relations, vol. 35 title: 'Hurons, Lower Canada, Algonkins, 1650' (the last vendored volume)",
+   "grade": "Documented",
+   "note": "The file header title line, from the volume's own title page; the Library holds volumes 1 to 35."
+  },
+  {
+   "entry": "new-france-mission-born-christianity",
+   "field": "legacy",
+   "sentence": "A year before, the Jesuits counted more than three thousand people baptized among the Hurons.",
+   "file": "cic/texts/jesuit-relations_thwaites-v35-fra-eng_1896-1901.txt",
+   "lines": "8258-8260",
+   "quote": "A year ago, more than three thousand persons had received Holy Baptism:",
+   "work": "The Jesuit Relations and Allied Documents, ed. R. G. Thwaites (Cleveland, 1896-1901), vol. 35",
+   "grade": "Documented"
+  },
+  {
+   "entry": "new-france-mission-born-christianity",
+   "field": "legacy",
+   "sentence": "The few hundred who reached Quebec had lost their homes and their kin.",
+   "file": "cic/texts/jesuit-relations_thwaites-v35-fra-eng_1896-1901.txt",
+   "lines": "8257-8258",
+   "quote": "although they have lost their goods, their relatives, their country, have not lost their faith.",
+   "work": "The Jesuit Relations and Allied Documents, ed. R. G. Thwaites (Cleveland, 1896-1901), vol. 35",
+   "grade": "Documented"
+  },
+  {
+   "entry": "new-france-mission-born-christianity",
+   "field": "legacy",
+   "sentence": "The Jesuit who led them wrote that they \"have not lost their faith.\"",
+   "file": "cic/texts/jesuit-relations_thwaites-v35-fra-eng_1896-1901.txt",
+   "lines": "8257-8258",
+   "quote": "although they have lost their goods, their relatives, their country, have not lost their faith.",
+   "work": "The Jesuit Relations and Allied Documents, ed. R. G. Thwaites (Cleveland, 1896-1901), vol. 35",
+   "grade": "Documented"
+  },
+  {
+   "entry": "new-france-mission-born-christianity",
+   "field": "livingEvidence",
+   "sentence": "The Library's last word is the move of about three hundred Huron Christians to Quebec in 1650. No text in the repo traces a church descended from them after that year.",
+   "file": "cic/texts/jesuit-relations_thwaites-v35-fra-eng_1896-1901.txt",
+   "lines": "8250",
+   "quote": "families numbering about three hundred souls,—",
+   "work": "The Jesuit Relations and Allied Documents, ed. R. G. Thwaites (Cleveland, 1896-1901), vol. 35",
+   "grade": "Documented"
+  },
+  {
+   "entry": "swedish-lutherans-of-new-sweden",
+   "field": "sourcing",
+   "sentence": "Israel Acrelius, the Swedish provost on the Delaware, wrote this history, printed in 1759.",
+   "file": null,
+   "lines": null,
+   "quote": null,
+   "work": "cic/texts/acrelius_history-of-new-sweden_reynolds1874.txt header (Creator and Content note: \"The Swedish original appeared in 1759\")",
+   "grade": "Documented",
+   "note": "File header, from the 1874 edition."
+  },
+  {
+   "entry": "swedish-lutherans-of-new-sweden",
+   "field": "sourcing",
+   "sentence": "He copied in the people's own letters, such as their plea of 1693 for ministers and books.",
+   "file": "cic/texts/acrelius_history-of-new-sweden_reynolds1874.txt",
+   "lines": "11640-11642",
+   "quote": "Your most excellent and welcome letter reached us on the 23d of May, a. d. 1693,",
+   "work": "Israel Acrelius, A History of New Sweden (1759), tr. W. M. Reynolds (Philadelphia, 1874)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "swedish-lutherans-of-new-sweden",
+   "field": "sourcing",
+   "sentence": "He copied in the people's own letters, such as their plea of 1693 for ministers and books.",
+   "file": "cic/texts/acrelius_history-of-new-sweden_reynolds1874.txt",
+   "lines": "11674-11675",
+   "quote": "beg that there may be sent to us two Swedish ministers, who are well learned and well exercised in the Holy Scriptures,",
+   "work": "Israel Acrelius, A History of New Sweden (1759), tr. W. M. Reynolds (Philadelphia, 1874)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "swedish-lutherans-of-new-sweden",
+   "field": "sourcing",
+   "sentence": "Acrelius's own account stops in 1756, when he went home.",
+   "file": "cic/texts/acrelius_history-of-new-sweden_reynolds1874.txt",
+   "lines": "1098",
+   "quote": "On the return of Acrelius to Sweden in 1756,",
+   "work": "Israel Acrelius, A History of New Sweden (1759), tr. W. M. Reynolds (Philadelphia, 1874)",
+   "grade": "Inferential-Thin"
+  },
+  {
+   "entry": "swedish-lutherans-of-new-sweden",
+   "field": "sourcing",
+   "sentence": "Acrelius's own account stops in 1756, when he went home.",
+   "file": "cic/texts/acrelius_history-of-new-sweden_reynolds1874.txt",
+   "lines": "6624",
+   "quote": "[Namely, in 1756, when Acrelius left the country.]",
+   "work": "Israel Acrelius, A History of New Sweden (1759), tr. W. M. Reynolds (Philadelphia, 1874)",
+   "grade": "Inferential-Thin"
+  },
+  {
+   "entry": "swedish-lutherans-of-new-sweden",
+   "field": "sourcing",
+   "sentence": "Only his editor's notes of 1874 carry the story on to 1786.",
+   "file": "cic/texts/acrelius_history-of-new-sweden_reynolds1874.txt",
+   "lines": "674-676",
+   "quote": "From 1 696 to 1 786 the Swedish Govern- ment sent to the churches on the Delaware no less than twenty-four (24) Clergymen,",
+   "work": "Israel Acrelius, A History of New Sweden (1759), tr. W. M. Reynolds (Philadelphia, 1874)",
+   "grade": "Inferential-Thin"
+  },
+  {
+   "entry": "swedish-lutherans-of-new-sweden",
+   "field": "sourcing",
+   "sentence": "No church book or other record of the congregations is in the Library yet.",
+   "file": null,
+   "lines": null,
+   "quote": null,
+   "work": "Library check: Acrelius is the only vendored text on the Delaware Swedes (candidates.md item 6)",
+   "grade": "Documented",
+   "note": "Absence check."
+  },
+  {
+   "entry": "swedish-lutherans-of-new-sweden",
+   "field": "floorNote",
+   "sentence": "They held to what their own letter of 1693 called \"the pure and uncorrupted Lutheran religion\".",
+   "file": "cic/texts/acrelius_history-of-new-sweden_reynolds1874.txt",
+   "lines": "11655-11656",
+   "quote": "the upholding of the pure and uncorrupted Lutheran religion,",
+   "work": "Israel Acrelius, A History of New Sweden (1759), tr. W. M. Reynolds (Philadelphia, 1874)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "swedish-lutherans-of-new-sweden",
+   "field": "relationsSummary",
+   "sentence": "Sweden planted a colony on the Delaware in 1638, with a Swedish pastor.",
+   "file": "cic/texts/acrelius_history-of-new-sweden_reynolds1874.txt",
+   "lines": "3889-3891",
+   "quote": "There, in the year 1638, Peter Menuet built a fortress, which he named Fort Chris- tina, after the reigning queen of Sweden.",
+   "work": "Israel Acrelius, A History of New Sweden (1759), tr. W. M. Reynolds (Philadelphia, 1874)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "swedish-lutherans-of-new-sweden",
+   "field": "relationsSummary",
+   "sentence": "Sweden planted a colony on the Delaware in 1638, with a Swedish pastor.",
+   "file": "cic/texts/acrelius_history-of-new-sweden_reynolds1874.txt",
+   "lines": "3883-3884",
+   "quote": "Their clergyman was Reorus Torkillus of East Gothland.",
+   "work": "Israel Acrelius, A History of New Sweden (1759), tr. W. M. Reynolds (Philadelphia, 1874)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "swedish-lutherans-of-new-sweden",
+   "field": "relationsSummary",
+   "sentence": "After Swedish rule ended in 1655, few pastors were left.",
+   "file": "cic/texts/acrelius_history-of-new-sweden_reynolds1874.txt",
+   "lines": "625",
+   "quote": "Upon the overthrow of the Swedish administration in",
+   "work": "Israel Acrelius, A History of New Sweden (1759), tr. W. M. Reynolds (Philadelphia, 1874)",
+   "grade": "Inferential-Thin"
+  },
+  {
+   "entry": "swedish-lutherans-of-new-sweden",
+   "field": "relationsSummary",
+   "sentence": "After Swedish rule ended in 1655, few pastors were left.",
+   "file": "cic/texts/acrelius_history-of-new-sweden_reynolds1874.txt",
+   "lines": "630-631",
+   "quote": "1655, one Minister, Lars Lock, who had come to the coun- try with Governor Printz in 1642, remained with them,",
+   "work": "Israel Acrelius, A History of New Sweden (1759), tr. W. M. Reynolds (Philadelphia, 1874)",
+   "grade": "Inferential-Thin"
+  },
+  {
+   "entry": "swedish-lutherans-of-new-sweden",
+   "field": "relationsSummary",
+   "sentence": "After Swedish rule ended in 1655, few pastors were left.",
+   "file": "cic/texts/acrelius_history-of-new-sweden_reynolds1874.txt",
+   "lines": "646-647",
+   "quote": "Their only surviving Minister, Fabritius, becoming in- capacitated by age for longer service, in 1 691,",
+   "work": "Israel Acrelius, A History of New Sweden (1759), tr. W. M. Reynolds (Philadelphia, 1874)",
+   "grade": "Inferential-Thin"
+  },
+  {
+   "entry": "swedish-lutherans-of-new-sweden",
+   "field": "relationsSummary",
+   "sentence": "In 1693 the people wrote home to beg for ministers and books.",
+   "file": "cic/texts/acrelius_history-of-new-sweden_reynolds1874.txt",
+   "lines": "11640-11642",
+   "quote": "Your most excellent and welcome letter reached us on the 23d of May, a. d. 1693,",
+   "work": "Israel Acrelius, A History of New Sweden (1759), tr. W. M. Reynolds (Philadelphia, 1874)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "swedish-lutherans-of-new-sweden",
+   "field": "relationsSummary",
+   "sentence": "In 1693 the people wrote home to beg for ministers and books.",
+   "file": "cic/texts/acrelius_history-of-new-sweden_reynolds1874.txt",
+   "lines": "11674-11675",
+   "quote": "beg that there may be sent to us two Swedish ministers, who are well learned and well exercised in the Holy Scriptures,",
+   "work": "Israel Acrelius, A History of New Sweden (1759), tr. W. M. Reynolds (Philadelphia, 1874)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "swedish-lutherans-of-new-sweden",
+   "field": "relationsSummary",
+   "sentence": "From 1697 the king and archbishop of Sweden sent pastors again.",
+   "file": "cic/texts/acrelius_history-of-new-sweden_reynolds1874.txt",
+   "lines": "12963-12964",
+   "quote": "show their passport, the brief and commission from the King and Archbishop.",
+   "work": "Israel Acrelius, A History of New Sweden (1759), tr. W. M. Reynolds (Philadelphia, 1874)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "swedish-lutherans-of-new-sweden",
+   "field": "relationsSummary",
+   "sentence": "From 1697 the king and archbishop of Sweden sent pastors again.",
+   "file": "cic/texts/acrelius_history-of-new-sweden_reynolds1874.txt",
+   "lines": "12964-12966",
+   "quote": "That was done first at Wicacoa, in the church, on the 30th of June, and next at Tranhook on the 8th of July, 1697.",
+   "work": "Israel Acrelius, A History of New Sweden (1759), tr. W. M. Reynolds (Philadelphia, 1874)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "swedish-lutherans-of-new-sweden",
+   "field": "relationsSummary",
+   "sentence": "In the 1740s the churches shut out Moravian preachers.",
+   "file": "cic/texts/acrelius_history-of-new-sweden_reynolds1874.txt",
+   "lines": "18897-18898",
+   "quote": "This happened in the year 1744.",
+   "work": "Israel Acrelius, A History of New Sweden (1759), tr. W. M. Reynolds (Philadelphia, 1874)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "swedish-lutherans-of-new-sweden",
+   "field": "relationsSummary",
+   "sentence": "In the 1740s the churches shut out Moravian preachers.",
+   "file": "cic/texts/acrelius_history-of-new-sweden_reynolds1874.txt",
+   "lines": "18930-18931",
+   "quote": "Bruzelius and other Moravian Ministers were for- bidden to enter into the Swedish and English churches.",
+   "work": "Israel Acrelius, A History of New Sweden (1759), tr. W. M. Reynolds (Philadelphia, 1874)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "swedish-lutherans-of-new-sweden",
+   "field": "relationsSummary",
+   "sentence": "Their provost Acrelius visited the cloister at Ephrata in 1753 and argued with its brothers.",
+   "file": "cic/texts/acrelius_history-of-new-sweden_reynolds1874.txt",
+   "lines": "20737-20738",
+   "quote": "VISIT BY THE PROVOST MAGISTER, ISRAEL ACRE- LIUS, TO THE EPHRATA CLOISTER, Aug. 20, 1753.",
+   "work": "Israel Acrelius, A History of New Sweden (1759), tr. W. M. Reynolds (Philadelphia, 1874)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "swedish-lutherans-of-new-sweden",
+   "field": "relationsSummary",
+   "sentence": "Their provost Acrelius visited the cloister at Ephrata in 1753 and argued with its brothers.",
+   "file": "cic/texts/acrelius_history-of-new-sweden_reynolds1874.txt",
+   "lines": "21725-21727",
+   "quote": "Which class of you all has now found the right way?\" He answered, \"I believe we have.\" I said, \" I will believe the same, but not before it is proved.\"",
+   "work": "Israel Acrelius, A History of New Sweden (1759), tr. W. M. Reynolds (Philadelphia, 1874)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "swedish-lutherans-of-new-sweden",
+   "field": "why",
+   "sentence": "A small Swedish people on an American river kept their Lutheran church for more than a century.",
+   "file": "cic/texts/acrelius_history-of-new-sweden_reynolds1874.txt",
+   "lines": "3889-3891",
+   "quote": "There, in the year 1638, Peter Menuet built a fortress, which he named Fort Chris- tina, after the reigning queen of Sweden.",
+   "work": "Israel Acrelius, A History of New Sweden (1759), tr. W. M. Reynolds (Philadelphia, 1874)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "swedish-lutherans-of-new-sweden",
+   "field": "why",
+   "sentence": "A small Swedish people on an American river kept their Lutheran church for more than a century.",
+   "file": "cic/texts/acrelius_history-of-new-sweden_reynolds1874.txt",
+   "lines": "674-676",
+   "quote": "From 1 696 to 1 786 the Swedish Govern- ment sent to the churches on the Delaware no less than twenty-four (24) Clergymen,",
+   "work": "Israel Acrelius, A History of New Sweden (1759), tr. W. M. Reynolds (Philadelphia, 1874)",
+   "grade": "Inferential-Thin"
+  },
+  {
+   "entry": "swedish-lutherans-of-new-sweden",
+   "field": "why",
+   "sentence": "For years they had no pastor of their own tongue.",
+   "file": "cic/texts/acrelius_history-of-new-sweden_reynolds1874.txt",
+   "lines": "638-639",
+   "quote": "Fabritius, who had come from Holland, officiated in that language,",
+   "work": "Israel Acrelius, A History of New Sweden (1759), tr. W. M. Reynolds (Philadelphia, 1874)",
+   "grade": "Inferential-Thin"
+  },
+  {
+   "entry": "swedish-lutherans-of-new-sweden",
+   "field": "why",
+   "sentence": "For years they had no pastor of their own tongue.",
+   "file": "cic/texts/acrelius_history-of-new-sweden_reynolds1874.txt",
+   "lines": "11413",
+   "quote": "The people waited, but no clergyman came.",
+   "work": "Israel Acrelius, A History of New Sweden (1759), tr. W. M. Reynolds (Philadelphia, 1874)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "swedish-lutherans-of-new-sweden",
+   "field": "why",
+   "sentence": "Laymen read sermons from a book in the churches.",
+   "file": "cic/texts/acrelius_history-of-new-sweden_reynolds1874.txt",
+   "lines": "11413-11416",
+   "quote": "All the church service they now had was that an old man, Anders Bengtson by name, sat and read out of Moller's Postilla2 in Tenakong Church ; but at Tranhook, Charles Springer was the reader.",
+   "work": "Israel Acrelius, A History of New Sweden (1759), tr. W. M. Reynolds (Philadelphia, 1874)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "swedish-lutherans-of-new-sweden",
+   "field": "why",
+   "sentence": "In 1693 they wrote to Sweden in their own words, for \"two Swedish ministers\" and two hundred catechisms.",
+   "file": "cic/texts/acrelius_history-of-new-sweden_reynolds1874.txt",
+   "lines": "11674-11675",
+   "quote": "beg that there may be sent to us two Swedish ministers, who are well learned and well exercised in the Holy Scriptures,",
+   "work": "Israel Acrelius, A History of New Sweden (1759), tr. W. M. Reynolds (Philadelphia, 1874)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "swedish-lutherans-of-new-sweden",
+   "field": "why",
+   "sentence": "In 1693 they wrote to Sweden in their own words, for \"two Swedish ministers\" and two hundred catechisms.",
+   "file": "cic/texts/acrelius_history-of-new-sweden_reynolds1874.txt",
+   "lines": "11686-11689",
+   "quote": "twelve Bibles, three copies of Sermons, forty-two Manuals, one hundred Hand-books and Spiritual Meditations, two hundred Catechisms, two hundred ABC books,",
+   "work": "Israel Acrelius, A History of New Sweden (1759), tr. W. M. Reynolds (Philadelphia, 1874)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "swedish-lutherans-of-new-sweden",
+   "field": "why",
+   "sentence": "Sweden answered, and went on sending pastors for nearly ninety years.",
+   "file": "cic/texts/acrelius_history-of-new-sweden_reynolds1874.txt",
+   "lines": "12963-12964",
+   "quote": "show their passport, the brief and commission from the King and Archbishop.",
+   "work": "Israel Acrelius, A History of New Sweden (1759), tr. W. M. Reynolds (Philadelphia, 1874)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "swedish-lutherans-of-new-sweden",
+   "field": "why",
+   "sentence": "Sweden answered, and went on sending pastors for nearly ninety years.",
+   "file": "cic/texts/acrelius_history-of-new-sweden_reynolds1874.txt",
+   "lines": "674-676",
+   "quote": "From 1 696 to 1 786 the Swedish Govern- ment sent to the churches on the Delaware no less than twenty-four (24) Clergymen,",
+   "work": "Israel Acrelius, A History of New Sweden (1759), tr. W. M. Reynolds (Philadelphia, 1874)",
+   "grade": "Inferential-Thin"
+  },
+  {
+   "entry": "swedish-lutherans-of-new-sweden",
+   "field": "teaser",
+   "sentence": "The Delaware River, 1638 to 1786: Swedish farmers who kept their own church and begged home for pastors and books.",
+   "file": "cic/texts/acrelius_history-of-new-sweden_reynolds1874.txt",
+   "lines": "11699-11702",
+   "quote": "we are almost universally farmers, who plow and sow and practise agri- culture, and live according to the laudable old Swedish customs in meat and drink.",
+   "work": "Israel Acrelius, A History of New Sweden (1759), tr. W. M. Reynolds (Philadelphia, 1874)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "swedish-lutherans-of-new-sweden",
+   "field": "teaser",
+   "sentence": "The Delaware River, 1638 to 1786: Swedish farmers who kept their own church and begged home for pastors and books.",
+   "file": "cic/texts/acrelius_history-of-new-sweden_reynolds1874.txt",
+   "lines": "11674-11675",
+   "quote": "beg that there may be sent to us two Swedish ministers, who are well learned and well exercised in the Holy Scriptures,",
+   "work": "Israel Acrelius, A History of New Sweden (1759), tr. W. M. Reynolds (Philadelphia, 1874)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "swedish-lutherans-of-new-sweden",
+   "field": "teaser",
+   "sentence": "The Delaware River, 1638 to 1786: Swedish farmers who kept their own church and begged home for pastors and books.",
+   "file": "cic/texts/acrelius_history-of-new-sweden_reynolds1874.txt",
+   "lines": "674-676",
+   "quote": "From 1 696 to 1 786 the Swedish Govern- ment sent to the churches on the Delaware no less than twenty-four (24) Clergymen,",
+   "work": "Israel Acrelius, A History of New Sweden (1759), tr. W. M. Reynolds (Philadelphia, 1874)",
+   "grade": "Inferential-Thin"
+  },
+  {
+   "entry": "swedish-lutherans-of-new-sweden",
+   "field": "longDescription",
+   "sentence": "In 1638 Swedish settlers built Fort Christina on the Delaware River.",
+   "file": "cic/texts/acrelius_history-of-new-sweden_reynolds1874.txt",
+   "lines": "3889-3891",
+   "quote": "There, in the year 1638, Peter Menuet built a fortress, which he named Fort Chris- tina, after the reigning queen of Sweden.",
+   "work": "Israel Acrelius, A History of New Sweden (1759), tr. W. M. Reynolds (Philadelphia, 1874)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "swedish-lutherans-of-new-sweden",
+   "field": "longDescription",
+   "sentence": "Their pastor, Reorus Torkillus, came from East Gothland in Sweden.",
+   "file": "cic/texts/acrelius_history-of-new-sweden_reynolds1874.txt",
+   "lines": "3883-3884",
+   "quote": "Their clergyman was Reorus Torkillus of East Gothland.",
+   "work": "Israel Acrelius, A History of New Sweden (1759), tr. W. M. Reynolds (Philadelphia, 1874)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "swedish-lutherans-of-new-sweden",
+   "field": "longDescription",
+   "sentence": "The colony stayed small, and its churches were built of logs.",
+   "file": "cic/texts/acrelius_history-of-new-sweden_reynolds1874.txt",
+   "lines": "11204-11205",
+   "quote": "A block-house answered the purpose very well, for the churches generally were of the same material.",
+   "work": "Israel Acrelius, A History of New Sweden (1759), tr. W. M. Reynolds (Philadelphia, 1874)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "swedish-lutherans-of-new-sweden",
+   "field": "longDescription",
+   "sentence": "Swedish rule ended in 1655, and one Swedish pastor, Lars Lock, stayed on.",
+   "file": "cic/texts/acrelius_history-of-new-sweden_reynolds1874.txt",
+   "lines": "625",
+   "quote": "Upon the overthrow of the Swedish administration in",
+   "work": "Israel Acrelius, A History of New Sweden (1759), tr. W. M. Reynolds (Philadelphia, 1874)",
+   "grade": "Inferential-Thin"
+  },
+  {
+   "entry": "swedish-lutherans-of-new-sweden",
+   "field": "longDescription",
+   "sentence": "Swedish rule ended in 1655, and one Swedish pastor, Lars Lock, stayed on.",
+   "file": "cic/texts/acrelius_history-of-new-sweden_reynolds1874.txt",
+   "lines": "630-631",
+   "quote": "1655, one Minister, Lars Lock, who had come to the coun- try with Governor Printz in 1642, remained with them,",
+   "work": "Israel Acrelius, A History of New Sweden (1759), tr. W. M. Reynolds (Philadelphia, 1874)",
+   "grade": "Inferential-Thin"
+  },
+  {
+   "entry": "swedish-lutherans-of-new-sweden",
+   "field": "longDescription",
+   "sentence": "In 1677 the people called a second pastor, Jacob Fabritius, who preached in Dutch.",
+   "file": "cic/texts/acrelius_history-of-new-sweden_reynolds1874.txt",
+   "lines": "633-634",
+   "quote": "In the meantime, in 1677, they had called an- other Minister, the Rev. Jacob or James Fabritius,",
+   "work": "Israel Acrelius, A History of New Sweden (1759), tr. W. M. Reynolds (Philadelphia, 1874)",
+   "grade": "Inferential-Thin"
+  },
+  {
+   "entry": "swedish-lutherans-of-new-sweden",
+   "field": "longDescription",
+   "sentence": "In 1677 the people called a second pastor, Jacob Fabritius, who preached in Dutch.",
+   "file": "cic/texts/acrelius_history-of-new-sweden_reynolds1874.txt",
+   "lines": "638-639",
+   "quote": "Fabritius, who had come from Holland, officiated in that language,",
+   "work": "Israel Acrelius, A History of New Sweden (1759), tr. W. M. Reynolds (Philadelphia, 1874)",
+   "grade": "Inferential-Thin"
+  },
+  {
+   "entry": "swedish-lutherans-of-new-sweden",
+   "field": "longDescription",
+   "sentence": "By 1691 he was too old to serve.",
+   "file": "cic/texts/acrelius_history-of-new-sweden_reynolds1874.txt",
+   "lines": "646-647",
+   "quote": "Their only surviving Minister, Fabritius, becoming in- capacitated by age for longer service, in 1 691,",
+   "work": "Israel Acrelius, A History of New Sweden (1759), tr. W. M. Reynolds (Philadelphia, 1874)",
+   "grade": "Inferential-Thin"
+  },
+  {
+   "entry": "swedish-lutherans-of-new-sweden",
+   "field": "longDescription",
+   "sentence": "Then, Acrelius writes, an old man read sermons out of a book in one church, and Charles Springer read in another.",
+   "file": "cic/texts/acrelius_history-of-new-sweden_reynolds1874.txt",
+   "lines": "11413-11416",
+   "quote": "All the church service they now had was that an old man, Anders Bengtson by name, sat and read out of Moller's Postilla2 in Tenakong Church ; but at Tranhook, Charles Springer was the reader.",
+   "work": "Israel Acrelius, A History of New Sweden (1759), tr. W. M. Reynolds (Philadelphia, 1874)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "swedish-lutherans-of-new-sweden",
+   "field": "longDescription",
+   "sentence": "\"The people waited, but no clergyman came.\"",
+   "file": "cic/texts/acrelius_history-of-new-sweden_reynolds1874.txt",
+   "lines": "11413",
+   "quote": "The people waited, but no clergyman came.",
+   "work": "Israel Acrelius, A History of New Sweden (1759), tr. W. M. Reynolds (Philadelphia, 1874)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "swedish-lutherans-of-new-sweden",
+   "field": "longDescription",
+   "sentence": "He was seized in London, shipped to America and sold as a servant in Virginia.",
+   "file": "cic/texts/acrelius_history-of-new-sweden_reynolds1874.txt",
+   "lines": "11606-11607",
+   "quote": "that he was seized and carried off to a merchant's ship in the river Thames, and so sent off to America.",
+   "work": "Israel Acrelius, A History of New Sweden (1759), tr. W. M. Reynolds (Philadelphia, 1874)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "swedish-lutherans-of-new-sweden",
+   "field": "longDescription",
+   "sentence": "He was seized in London, shipped to America and sold as a servant in Virginia.",
+   "file": "cic/texts/acrelius_history-of-new-sweden_reynolds1874.txt",
+   "lines": "11608-11609",
+   "quote": "The ship landed in Virginia, where he was sold as a servant for five years,",
+   "work": "Israel Acrelius, A History of New Sweden (1759), tr. W. M. Reynolds (Philadelphia, 1874)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "swedish-lutherans-of-new-sweden",
+   "field": "longDescription",
+   "sentence": "Once free, he joined his own people on the Delaware.",
+   "file": "cic/texts/acrelius_history-of-new-sweden_reynolds1874.txt",
+   "lines": "11611-11612",
+   "quote": "as soon as he was set free, he went to them.",
+   "work": "Israel Acrelius, A History of New Sweden (1759), tr. W. M. Reynolds (Philadelphia, 1874)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "swedish-lutherans-of-new-sweden",
+   "field": "longDescription",
+   "sentence": "In 1693 he wrote for them to Sweden.",
+   "file": "cic/texts/acrelius_history-of-new-sweden_reynolds1874.txt",
+   "lines": "11640-11642",
+   "quote": "Your most excellent and welcome letter reached us on the 23d of May, a. d. 1693,",
+   "work": "Israel Acrelius, A History of New Sweden (1759), tr. W. M. Reynolds (Philadelphia, 1874)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "swedish-lutherans-of-new-sweden",
+   "field": "longDescription",
+   "sentence": "They asked for \"two Swedish ministers\", for Bibles, and for two hundred catechisms.",
+   "file": "cic/texts/acrelius_history-of-new-sweden_reynolds1874.txt",
+   "lines": "11674-11675",
+   "quote": "beg that there may be sent to us two Swedish ministers, who are well learned and well exercised in the Holy Scriptures,",
+   "work": "Israel Acrelius, A History of New Sweden (1759), tr. W. M. Reynolds (Philadelphia, 1874)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "swedish-lutherans-of-new-sweden",
+   "field": "longDescription",
+   "sentence": "They asked for \"two Swedish ministers\", for Bibles, and for two hundred catechisms.",
+   "file": "cic/texts/acrelius_history-of-new-sweden_reynolds1874.txt",
+   "lines": "11686-11689",
+   "quote": "twelve Bibles, three copies of Sermons, forty-two Manuals, one hundred Hand-books and Spiritual Meditations, two hundred Catechisms, two hundred ABC books,",
+   "work": "Israel Acrelius, A History of New Sweden (1759), tr. W. M. Reynolds (Philadelphia, 1874)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "swedish-lutherans-of-new-sweden",
+   "field": "longDescription",
+   "sentence": "They were farmers, they said, who lived \"according to the laudable old Swedish customs\".",
+   "file": "cic/texts/acrelius_history-of-new-sweden_reynolds1874.txt",
+   "lines": "11699-11702",
+   "quote": "we are almost universally farmers, who plow and sow and practise agri- culture, and live according to the laudable old Swedish customs in meat and drink.",
+   "work": "Israel Acrelius, A History of New Sweden (1759), tr. W. M. Reynolds (Philadelphia, 1874)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "swedish-lutherans-of-new-sweden",
+   "field": "longDescription",
+   "sentence": "They were ready to seal their faith \"with our own blood\".",
+   "file": "cic/texts/acrelius_history-of-new-sweden_reynolds1874.txt",
+   "lines": "11681-11682",
+   "quote": "we are ready to seal this with our own blood.",
+   "work": "Israel Acrelius, A History of New Sweden (1759), tr. W. M. Reynolds (Philadelphia, 1874)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "swedish-lutherans-of-new-sweden",
+   "field": "longDescription",
+   "sentence": "The letter reached King Charles XI.",
+   "file": "cic/texts/acrelius_history-of-new-sweden_reynolds1874.txt",
+   "lines": "650-651",
+   "quote": "In 1693, one of their letters was laid before Charles XI., king of Sweden,",
+   "work": "Israel Acrelius, A History of New Sweden (1759), tr. W. M. Reynolds (Philadelphia, 1874)",
+   "grade": "Inferential-Thin"
+  },
+  {
+   "entry": "swedish-lutherans-of-new-sweden",
+   "field": "longDescription",
+   "sentence": "In 1697 three pastors arrived with a commission from the king and the archbishop.",
+   "file": "cic/texts/acrelius_history-of-new-sweden_reynolds1874.txt",
+   "lines": "12963-12964",
+   "quote": "show their passport, the brief and commission from the King and Archbishop.",
+   "work": "Israel Acrelius, A History of New Sweden (1759), tr. W. M. Reynolds (Philadelphia, 1874)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "swedish-lutherans-of-new-sweden",
+   "field": "longDescription",
+   "sentence": "In 1697 three pastors arrived with a commission from the king and the archbishop.",
+   "file": "cic/texts/acrelius_history-of-new-sweden_reynolds1874.txt",
+   "lines": "12964-12966",
+   "quote": "That was done first at Wicacoa, in the church, on the 30th of June, and next at Tranhook on the 8th of July, 1697.",
+   "work": "Israel Acrelius, A History of New Sweden (1759), tr. W. M. Reynolds (Philadelphia, 1874)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "swedish-lutherans-of-new-sweden",
+   "field": "longDescription",
+   "sentence": "The people built two brick and stone churches.",
+   "file": "cic/texts/acrelius_history-of-new-sweden_reynolds1874.txt",
+   "lines": "13206-13207",
+   "quote": "the walls of brick, every other one glazed.",
+   "work": "Israel Acrelius, A History of New Sweden (1759), tr. W. M. Reynolds (Philadelphia, 1874)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "swedish-lutherans-of-new-sweden",
+   "field": "longDescription",
+   "sentence": "The people built two brick and stone churches.",
+   "file": "cic/texts/acrelius_history-of-new-sweden_reynolds1874.txt",
+   "lines": "15797-15798",
+   "quote": "In the year 1699, on Trinity Sunday,1 the church was conse- crated, and received the name of Trinity Church.",
+   "work": "Israel Acrelius, A History of New Sweden (1759), tr. W. M. Reynolds (Philadelphia, 1874)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "swedish-lutherans-of-new-sweden",
+   "field": "longDescription",
+   "sentence": "Trinity Church at Christina was consecrated in 1699, and Gloria Dei at Wicaco in 1700.",
+   "file": "cic/texts/acrelius_history-of-new-sweden_reynolds1874.txt",
+   "lines": "15797-15798",
+   "quote": "In the year 1699, on Trinity Sunday,1 the church was conse- crated, and received the name of Trinity Church.",
+   "work": "Israel Acrelius, A History of New Sweden (1759), tr. W. M. Reynolds (Philadelphia, 1874)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "swedish-lutherans-of-new-sweden",
+   "field": "longDescription",
+   "sentence": "Trinity Church at Christina was consecrated in 1699, and Gloria Dei at Wicaco in 1700.",
+   "file": "cic/texts/acrelius_history-of-new-sweden_reynolds1874.txt",
+   "lines": "13207-13209",
+   "quote": "The dedication was celebrated on the first Sunday after Trinity, that is to say, the 2d of July, 1700,",
+   "work": "Israel Acrelius, A History of New Sweden (1759), tr. W. M. Reynolds (Philadelphia, 1874)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "swedish-lutherans-of-new-sweden",
+   "field": "longDescription",
+   "sentence": "Trinity Church at Christina was consecrated in 1699, and Gloria Dei at Wicaco in 1700.",
+   "file": "cic/texts/acrelius_history-of-new-sweden_reynolds1874.txt",
+   "lines": "13210-13211",
+   "quote": "The name given to the church was Gloria Dei}",
+   "work": "Israel Acrelius, A History of New Sweden (1759), tr. W. M. Reynolds (Philadelphia, 1874)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "swedish-lutherans-of-new-sweden",
+   "field": "longDescription",
+   "sentence": "In the 1740s Moravian preachers came among the Swedes.",
+   "file": "cic/texts/acrelius_history-of-new-sweden_reynolds1874.txt",
+   "lines": "14856-14857",
+   "quote": "Immediately afterwards came Count Louis von Zinzendorff with his pernicious sect called Herrnhutters,3",
+   "work": "Israel Acrelius, A History of New Sweden (1759), tr. W. M. Reynolds (Philadelphia, 1874)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "swedish-lutherans-of-new-sweden",
+   "field": "longDescription",
+   "sentence": "In the 1740s Moravian preachers came among the Swedes.",
+   "file": "cic/texts/acrelius_history-of-new-sweden_reynolds1874.txt",
+   "lines": "14859-14861",
+   "quote": "the Count brought with him Paul Daniel Bruselius,4 who at once crept into the Swedish houses, pretended to be a Swedish Minister,",
+   "work": "Israel Acrelius, A History of New Sweden (1759), tr. W. M. Reynolds (Philadelphia, 1874)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "swedish-lutherans-of-new-sweden",
+   "field": "longDescription",
+   "sentence": "In 1744 one of them, Bruzelius, was set to preach at Raccoon church.",
+   "file": "cic/texts/acrelius_history-of-new-sweden_reynolds1874.txt",
+   "lines": "18888-18889",
+   "quote": "A Sunday was appointed for Bruzelius to preach in Racoon Church.",
+   "work": "Israel Acrelius, A History of New Sweden (1759), tr. W. M. Reynolds (Philadelphia, 1874)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "swedish-lutherans-of-new-sweden",
+   "field": "longDescription",
+   "sentence": "In 1744 one of them, Bruzelius, was set to preach at Raccoon church.",
+   "file": "cic/texts/acrelius_history-of-new-sweden_reynolds1874.txt",
+   "lines": "18897-18898",
+   "quote": "This happened in the year 1744.",
+   "work": "Israel Acrelius, A History of New Sweden (1759), tr. W. M. Reynolds (Philadelphia, 1874)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "swedish-lutherans-of-new-sweden",
+   "field": "longDescription",
+   "sentence": "His opponents held the key, so his friends broke in through a window.",
+   "file": "cic/texts/acrelius_history-of-new-sweden_reynolds1874.txt",
+   "lines": "18891-18893",
+   "quote": "But the advantage was on the side of those who were opposed to him, for they had the church-key in their hands.",
+   "work": "Israel Acrelius, A History of New Sweden (1759), tr. W. M. Reynolds (Philadelphia, 1874)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "swedish-lutherans-of-new-sweden",
+   "field": "longDescription",
+   "sentence": "His opponents held the key, so his friends broke in through a window.",
+   "file": "cic/texts/acrelius_history-of-new-sweden_reynolds1874.txt",
+   "lines": "18893-18895",
+   "quote": "The others, therefore, took the liberty of breaking open a window, creeping in, and so opening the door.",
+   "work": "Israel Acrelius, A History of New Sweden (1759), tr. W. M. Reynolds (Philadelphia, 1874)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "swedish-lutherans-of-new-sweden",
+   "field": "longDescription",
+   "sentence": "A panel of twenty-five men later ruled against him.",
+   "file": "cic/texts/acrelius_history-of-new-sweden_reynolds1874.txt",
+   "lines": "18915-18917",
+   "quote": "Twenty-five men came together at Gloucester to examine and decide in regard to it,",
+   "work": "Israel Acrelius, A History of New Sweden (1759), tr. W. M. Reynolds (Philadelphia, 1874)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "swedish-lutherans-of-new-sweden",
+   "field": "longDescription",
+   "sentence": "Moravian ministers were then barred from the Swedish and English churches.",
+   "file": "cic/texts/acrelius_history-of-new-sweden_reynolds1874.txt",
+   "lines": "18930-18931",
+   "quote": "Bruzelius and other Moravian Ministers were for- bidden to enter into the Swedish and English churches.",
+   "work": "Israel Acrelius, A History of New Sweden (1759), tr. W. M. Reynolds (Philadelphia, 1874)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "swedish-lutherans-of-new-sweden",
+   "field": "longDescription",
+   "sentence": "Acrelius came as provost in 1749 and went home in 1756.",
+   "file": "cic/texts/acrelius_history-of-new-sweden_reynolds1874.txt",
+   "lines": "20496",
+   "quote": "In the year 1749, with Acrelius and Unander",
+   "work": "Israel Acrelius, A History of New Sweden (1759), tr. W. M. Reynolds (Philadelphia, 1874)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "swedish-lutherans-of-new-sweden",
+   "field": "longDescription",
+   "sentence": "Acrelius came as provost in 1749 and went home in 1756.",
+   "file": "cic/texts/acrelius_history-of-new-sweden_reynolds1874.txt",
+   "lines": "1098",
+   "quote": "On the return of Acrelius to Sweden in 1756,",
+   "work": "Israel Acrelius, A History of New Sweden (1759), tr. W. M. Reynolds (Philadelphia, 1874)",
+   "grade": "Inferential-Thin"
+  },
+  {
+   "entry": "swedish-lutherans-of-new-sweden",
+   "field": "longDescription",
+   "sentence": "He urged the people to keep the Swedish language and teach it to the young.",
+   "file": "cic/texts/acrelius_history-of-new-sweden_reynolds1874.txt",
+   "lines": "15579-15580",
+   "quote": "how attached they ought to be to the Swedish language, and to instruct the young in it.",
+   "work": "Israel Acrelius, A History of New Sweden (1759), tr. W. M. Reynolds (Philadelphia, 1874)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "swedish-lutherans-of-new-sweden",
+   "field": "longDescription",
+   "sentence": "Yet the English tongue was gaining, and some services were already held in English.",
+   "file": "cic/texts/acrelius_history-of-new-sweden_reynolds1874.txt",
+   "lines": "15580-15582",
+   "quote": "At the request of his English neighbors, he sometimes held the evening service in English.",
+   "work": "Israel Acrelius, A History of New Sweden (1759), tr. W. M. Reynolds (Philadelphia, 1874)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "swedish-lutherans-of-new-sweden",
+   "field": "voices",
+   "sentence": "Charles Springer — kidnapped in London and sold as a servant in Virginia, he became a reader and church warden among the Swedes and wrote their letter of 1693 to Sweden",
+   "file": "cic/texts/acrelius_history-of-new-sweden_reynolds1874.txt",
+   "lines": "11606-11607",
+   "quote": "that he was seized and carried off to a merchant's ship in the river Thames, and so sent off to America.",
+   "work": "Israel Acrelius, A History of New Sweden (1759), tr. W. M. Reynolds (Philadelphia, 1874)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "swedish-lutherans-of-new-sweden",
+   "field": "voices",
+   "sentence": "Charles Springer — kidnapped in London and sold as a servant in Virginia, he became a reader and church warden among the Swedes and wrote their letter of 1693 to Sweden",
+   "file": "cic/texts/acrelius_history-of-new-sweden_reynolds1874.txt",
+   "lines": "11413-11416",
+   "quote": "All the church service they now had was that an old man, Anders Bengtson by name, sat and read out of Moller's Postilla2 in Tenakong Church ; but at Tranhook, Charles Springer was the reader.",
+   "work": "Israel Acrelius, A History of New Sweden (1759), tr. W. M. Reynolds (Philadelphia, 1874)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "swedish-lutherans-of-new-sweden",
+   "field": "voices",
+   "sentence": "Charles Springer — kidnapped in London and sold as a servant in Virginia, he became a reader and church warden among the Swedes and wrote their letter of 1693 to Sweden",
+   "file": "cic/texts/acrelius_history-of-new-sweden_reynolds1874.txt",
+   "lines": "15799-15800",
+   "quote": "the Church- Warden, Mr. Charles Springer, deserve to be held in remembrance",
+   "work": "Israel Acrelius, A History of New Sweden (1759), tr. W. M. Reynolds (Philadelphia, 1874)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "swedish-lutherans-of-new-sweden",
+   "field": "voices",
+   "sentence": "Charles Springer — kidnapped in London and sold as a servant in Virginia, he became a reader and church warden among the Swedes and wrote their letter of 1693 to Sweden",
+   "file": "cic/texts/acrelius_history-of-new-sweden_reynolds1874.txt",
+   "lines": "11635",
+   "quote": "Springer's Letter to Postmaster Thelin.",
+   "work": "Israel Acrelius, A History of New Sweden (1759), tr. W. M. Reynolds (Philadelphia, 1874)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "swedish-lutherans-of-new-sweden",
+   "field": "voices",
+   "sentence": "Israel Acrelius — provost of the Swedish churches on the Delaware from 1749 to 1756, whose history of the congregations was printed in 1759",
+   "file": "cic/texts/acrelius_history-of-new-sweden_reynolds1874.txt",
+   "lines": "20496",
+   "quote": "In the year 1749, with Acrelius and Unander",
+   "work": "Israel Acrelius, A History of New Sweden (1759), tr. W. M. Reynolds (Philadelphia, 1874)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "swedish-lutherans-of-new-sweden",
+   "field": "voices",
+   "sentence": "Israel Acrelius — provost of the Swedish churches on the Delaware from 1749 to 1756, whose history of the congregations was printed in 1759",
+   "file": "cic/texts/acrelius_history-of-new-sweden_reynolds1874.txt",
+   "lines": "1098",
+   "quote": "On the return of Acrelius to Sweden in 1756,",
+   "work": "Israel Acrelius, A History of New Sweden (1759), tr. W. M. Reynolds (Philadelphia, 1874)",
+   "grade": "Inferential-Thin"
+  },
+  {
+   "entry": "swedish-lutherans-of-new-sweden",
+   "field": "legacy",
+   "sentence": "From 1696 to 1786, Sweden sent twenty-four pastors to the churches on the Delaware.",
+   "file": "cic/texts/acrelius_history-of-new-sweden_reynolds1874.txt",
+   "lines": "674-676",
+   "quote": "From 1 696 to 1 786 the Swedish Govern- ment sent to the churches on the Delaware no less than twenty-four (24) Clergymen,",
+   "work": "Israel Acrelius, A History of New Sweden (1759), tr. W. M. Reynolds (Philadelphia, 1874)",
+   "grade": "Inferential-Thin"
+  },
+  {
+   "entry": "swedish-lutherans-of-new-sweden",
+   "field": "legacy",
+   "sentence": "The crown paid for their voyages out and home.",
+   "file": "cic/texts/acrelius_history-of-new-sweden_reynolds1874.txt",
+   "lines": "676-678",
+   "quote": "generally giving them an outfit, and paying the expenses of their voyage from Sweden to America, as also of their return voyage",
+   "work": "Israel Acrelius, A History of New Sweden (1759), tr. W. M. Reynolds (Philadelphia, 1874)",
+   "grade": "Inferential-Thin"
+  },
+  {
+   "entry": "swedish-lutherans-of-new-sweden",
+   "field": "legacy",
+   "sentence": "In time the Swedish language died out among the settlers' children.",
+   "file": "cic/texts/acrelius_history-of-new-sweden_reynolds1874.txt",
+   "lines": "659-661",
+   "quote": "It was only after the Swedish language had almost entirely disappeared from among the descendants of the colonists sent from Sweden,",
+   "work": "Israel Acrelius, A History of New Sweden (1759), tr. W. M. Reynolds (Philadelphia, 1874)",
+   "grade": "Inferential-Thin"
+  },
+  {
+   "entry": "swedish-lutherans-of-new-sweden",
+   "field": "legacy",
+   "sentence": "Then Sweden stopped sending pastors.",
+   "file": "cic/texts/acrelius_history-of-new-sweden_reynolds1874.txt",
+   "lines": "664",
+   "quote": "the Swedish nation ceased to supply them with their",
+   "work": "Israel Acrelius, A History of New Sweden (1759), tr. W. M. Reynolds (Philadelphia, 1874)",
+   "grade": "Inferential-Thin"
+  },
+  {
+   "entry": "english-unitarianism",
+   "field": "sourcing",
+   "sentence": "The Library holds Lindsey's sermon at the opening of his chapel in 1774, and Priestley's own memoir to 1795.",
+   "file": "cic/texts/lindsey_sermon-at-the-opening-of-the-chapel-in-essex-street_1774.txt",
+   "lines": "27-31",
+   "quote": "OPENING of the CHAPEL in EsSsEx-Hous E, Ess Ex-STREET, in the STRAND, On SuN DAV, APRIL 17, 1774.",
+   "work": "Theophilus Lindsey, A Sermon preached at the Opening of the Chapel in Essex-House (1774)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "english-unitarianism",
+   "field": "sourcing",
+   "sentence": "The Library holds Lindsey's sermon at the opening of his chapel in 1774, and Priestley's own memoir to 1795.",
+   "file": "cic/texts/priestley_memoirs-to-1795-v1_1806.txt",
+   "lines": "5473-5474",
+   "quote": "On the 8th day of April 1794, my father set sail from London,",
+   "work": "Memoirs of Dr. Joseph Priestley, to the year 1795, written by himself (Northumberland, 1806)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "english-unitarianism",
+   "field": "sourcing",
+   "sentence": "It holds Priestley's open letters to the New Church of 1791, and a New Church reply.",
+   "file": "cic/texts/priestley_letters-to-the-members-of-the-new-jerusalem-church_1791.txt",
+   "lines": "150-153",
+   "quote": "It was the forming of a church, and the build- ing of a very elegant place of worfhip, for perfons of this perfuaiion at Birmingham,",
+   "work": "Joseph Priestley, Letters to the Members of the New Jerusalem Church (Birmingham, 1791)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "english-unitarianism",
+   "field": "sourcing",
+   "sentence": "It holds Priestley's open letters to the New Church of 1791, and a New Church reply.",
+   "file": "cic/texts/hindmarsh_letters-to-dr-priestley_1792.txt",
+   "lines": "3174",
+   "quote": "Socinian has fco right to the name of a chriftian.",
+   "work": "Robert Hindmarsh, Letters to Dr. Priestley (London, 1792)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "english-unitarianism",
+   "field": "sourcing",
+   "sentence": "Belsham's account of 1812, from his life of Lindsey, is here too.",
+   "file": "cic/texts/belsham_american-unitarianism-brief-history_1815.txt",
+   "lines": "1",
+   "quote": "by Rev. Thomas Belsham, Essex-Street, London;",
+   "work": "Thomas Belsham, American Unitarianism (Boston, 1815; from his Memoirs of Lindsey, London, 1812)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "english-unitarianism",
+   "field": "sourcing",
+   "sentence": "Biddle's English life of Socinus, printed in London in 1653, is here too.",
+   "file": "cic/texts/przypkowski_life-of-faustus-socinus_bidle1653.txt",
+   "lines": "47-49",
+   "quote": "London’, Printed for Richard Moone, at the feven Stars in Pals Church-yatd, neer the great North-doore. 1653.",
+   "work": "The Life of that Incomparable Man Faustus Socinus Senensis, described by a Polonian Knight (London, 1653), English tr. attributed to John Biddle",
+   "grade": "Documented"
+  },
+  {
+   "entry": "english-unitarianism",
+   "field": "sourcing",
+   "sentence": "Biddle's English life of Socinus, printed in London in 1653, is here too.",
+   "file": "cic/texts/racovian-catechism_racovian-catechism_rees1818.txt",
+   "lines": "1628",
+   "quote": "An English translation of this, from the pen of John Bicldle,",
+   "work": "Thomas Rees, The Racovian Catechism, with a historical introduction (London, 1818)",
+   "grade": "Inferential-Thin"
+  },
+  {
+   "entry": "english-unitarianism",
+   "field": "sourcing",
+   "sentence": "Toulmin's own books are named but not yet in hand.",
+   "file": "cic/texts/racovian-catechism_racovian-catechism_rees1818.txt",
+   "lines": "1629-1630",
+   "quote": "Doctor Toulmin gave to the public in 1/77, an excellent life of this celebrated individual",
+   "work": "Thomas Rees, The Racovian Catechism, with a historical introduction (London, 1818)",
+   "grade": "Inferential-Thin"
+  },
+  {
+   "entry": "english-unitarianism",
+   "field": "sourcing",
+   "sentence": "Nye, named among the early English Unitarians, is not yet in the Library, so this entry says nothing of what he wrote.",
+   "file": null,
+   "lines": null,
+   "quote": null,
+   "work": "Internal dossier note only: Build/worlds/_cross-world/dossiers/anti-trinitarian-currents-servetus-polish-brethr_Source_Readiness_Dossier.md line 107",
+   "grade": "Inferential-Thin",
+   "note": "No vendored text names Nye; the sentence states his absence, per ruling M18."
+  },
+  {
+   "entry": "english-unitarianism",
+   "field": "floorNote",
+   "sentence": "Lindsey's chapel was formed so that its people might worship \"God alone\", the Father.",
+   "file": "cic/texts/lindsey_sermon-at-the-opening-of-the-chapel-in-essex-street_1774.txt",
+   "lines": "1193-1196",
+   "quote": "reaſon of forming ourſelves into a ſeparate congregation, diſtinct from that of our national church; and this is, that we may be at liberty to worſhip God alone,",
+   "work": "Theophilus Lindsey, A Sermon preached at the Opening of the Chapel in Essex-House (1774)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "english-unitarianism",
+   "field": "floorNote",
+   "sentence": "Lindsey's chapel was formed so that its people might worship \"God alone\", the Father.",
+   "file": "cic/texts/lindsey_sermon-at-the-opening-of-the-chapel-in-essex-street_1774.txt",
+   "lines": "957-959",
+   "quote": "the only true God, the Father, acknowledged and worſhipped ac- cording to the teaching of the holy ſcriptures,",
+   "work": "Theophilus Lindsey, A Sermon preached at the Opening of the Chapel in Essex-House (1774)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "english-unitarianism",
+   "field": "floorNote",
+   "sentence": "Priestley defended \"the unitarian doctrine\" in print every year.",
+   "file": "cic/texts/priestley_memoirs-to-1795-v1_1806.txt",
+   "lines": "3483-3485",
+   "quote": "I now write a pamphlet annually in defence of the unitarian doctrine against all my opponents.",
+   "work": "Memoirs of Dr. Joseph Priestley, to the year 1795, written by himself (Northumberland, 1806)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "english-unitarianism",
+   "field": "floorNote",
+   "sentence": "By their own account, they did not hold the Trinity.",
+   "file": "cic/texts/priestley_letters-to-the-members-of-the-new-jerusalem-church_1791.txt",
+   "lines": "1068-1069",
+   "quote": "Holding the doftrine of one God^ you maintain that this one God is no odier than Jefus Chrift,",
+   "work": "Joseph Priestley, Letters to the Members of the New Jerusalem Church (Birmingham, 1791)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "english-unitarianism",
+   "field": "floorNote",
+   "sentence": "By their own account, they did not hold the Trinity.",
+   "file": "cic/texts/priestley_memoirs-to-1795-v1_1806.txt",
+   "lines": "2120-2121",
+   "quote": "I became what is called a Socinian soon after my settlement at Leed^ ;",
+   "work": "Memoirs of Dr. Joseph Priestley, to the year 1795, written by himself (Northumberland, 1806)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "english-unitarianism",
+   "field": "floorNote",
+   "sentence": "This is their own account, not a charge made by their opponents.",
+   "file": "cic/texts/lindsey_sermon-at-the-opening-of-the-chapel-in-essex-street_1774.txt",
+   "lines": "957-959",
+   "quote": "the only true God, the Father, acknowledged and worſhipped ac- cording to the teaching of the holy ſcriptures,",
+   "work": "Theophilus Lindsey, A Sermon preached at the Opening of the Chapel in Essex-House (1774)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "english-unitarianism",
+   "field": "relationsSummary",
+   "sentence": "Theophilus Lindsey left the Church of England. In 1774 he opened his own chapel in London.",
+   "file": "cic/texts/priestley_memoirs-to-1795-v1_1806.txt",
+   "lines": "2464-2466",
+   "quote": "He soon discovered to me that he was uneasy in his situ- ation, and had thoughts of quitting it.",
+   "work": "Memoirs of Dr. Joseph Priestley, to the year 1795, written by himself (Northumberland, 1806)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "english-unitarianism",
+   "field": "relationsSummary",
+   "sentence": "Theophilus Lindsey left the Church of England. In 1774 he opened his own chapel in London.",
+   "file": "cic/texts/lindsey_sermon-at-the-opening-of-the-chapel-in-essex-street_1774.txt",
+   "lines": "27-31",
+   "quote": "OPENING of the CHAPEL in EsSsEx-Hous E, Ess Ex-STREET, in the STRAND, On SuN DAV, APRIL 17, 1774.",
+   "work": "Theophilus Lindsey, A Sermon preached at the Opening of the Chapel in Essex-House (1774)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "english-unitarianism",
+   "field": "relationsSummary",
+   "sentence": "Theophilus Lindsey left the Church of England. In 1774 he opened his own chapel in London.",
+   "file": "cic/texts/lindsey_sermon-at-the-opening-of-the-chapel-in-essex-street_1774.txt",
+   "lines": "1193-1196",
+   "quote": "reaſon of forming ourſelves into a ſeparate congregation, diſtinct from that of our national church; and this is, that we may be at liberty to worſhip God alone,",
+   "work": "Theophilus Lindsey, A Sermon preached at the Opening of the Chapel in Essex-House (1774)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "english-unitarianism",
+   "field": "relationsSummary",
+   "sentence": "Joseph Priestley came to it from the old Dissenting churches. There he had moved from Arian to Unitarian belief.",
+   "file": "cic/texts/priestley_memoirs-to-1795-v1_1806.txt",
+   "lines": "1984",
+   "quote": "We were likewise all Arians,",
+   "work": "Memoirs of Dr. Joseph Priestley, to the year 1795, written by himself (Northumberland, 1806)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "english-unitarianism",
+   "field": "relationsSummary",
+   "sentence": "Joseph Priestley came to it from the old Dissenting churches. There he had moved from Arian to Unitarian belief.",
+   "file": "cic/texts/priestley_memoirs-to-1795-v1_1806.txt",
+   "lines": "2120-2121",
+   "quote": "I became what is called a Socinian soon after my settlement at Leed^ ;",
+   "work": "Memoirs of Dr. Joseph Priestley, to the year 1795, written by himself (Northumberland, 1806)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "english-unitarianism",
+   "field": "relationsSummary",
+   "sentence": "Joseph Priestley came to it from the old Dissenting churches. There he had moved from Arian to Unitarian belief.",
+   "file": "cic/texts/priestley_memoirs-to-1795-v1_1806.txt",
+   "lines": "3108-3110",
+   "quote": "The Sunday I always spent \\\\ith Mr. Lindsey, attending the service of his chapel, and sometimes officiating for him ;",
+   "work": "Memoirs of Dr. Joseph Priestley, to the year 1795, written by himself (Northumberland, 1806)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "english-unitarianism",
+   "field": "relationsSummary",
+   "sentence": "Earlier English writers took up the ideas of Socinus and the Polish Brethren. The evidence for that link is thin.",
+   "file": "cic/texts/racovian-catechism_racovian-catechism_rees1818.txt",
+   "lines": "1628",
+   "quote": "An English translation of this, from the pen of John Bicldle,",
+   "work": "Thomas Rees, The Racovian Catechism, with a historical introduction (London, 1818)",
+   "grade": "Inferential-Thin"
+  },
+  {
+   "entry": "english-unitarianism",
+   "field": "relationsSummary",
+   "sentence": "Earlier English writers took up the ideas of Socinus and the Polish Brethren. The evidence for that link is thin.",
+   "file": "cic/texts/racovian-catechism_racovian-catechism_rees1818.txt",
+   "lines": "1629-1630",
+   "quote": "Doctor Toulmin gave to the public in 1/77, an excellent life of this celebrated individual",
+   "work": "Thomas Rees, The Racovian Catechism, with a historical introduction (London, 1818)",
+   "grade": "Inferential-Thin"
+  },
+  {
+   "entry": "english-unitarianism",
+   "field": "relationsSummary",
+   "sentence": "Lindsey's prayer book shaped the first Unitarian liturgy in Boston.",
+   "file": "cic/texts/belsham_american-unitarianism-brief-history_1815.txt",
+   "lines": "479-480",
+   "quote": "I endeavoured to make it so by attempting to intreduee your Liturgy entire.",
+   "work": "Thomas Belsham, American Unitarianism (Boston, 1815; from his Memoirs of Lindsey, London, 1812)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "english-unitarianism",
+   "field": "relationsSummary",
+   "sentence": "Lindsey's prayer book shaped the first Unitarian liturgy in Boston.",
+   "file": "cic/texts/belsham_american-unitarianism-brief-history_1815.txt",
+   "lines": "463-465",
+   "quote": "a Li- turgy reformed nearly upon the plan of that which had been adopied in Kssex-Street",
+   "work": "Thomas Belsham, American Unitarianism (Boston, 1815; from his Memoirs of Lindsey, London, 1812)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "english-unitarianism",
+   "field": "relationsSummary",
+   "sentence": "Priestley argued in print with the new Swedenborgian church in Birmingham. One of its leaders answered him.",
+   "file": "cic/texts/priestley_letters-to-the-members-of-the-new-jerusalem-church_1791.txt",
+   "lines": "150-153",
+   "quote": "It was the forming of a church, and the build- ing of a very elegant place of worfhip, for perfons of this perfuaiion at Birmingham,",
+   "work": "Joseph Priestley, Letters to the Members of the New Jerusalem Church (Birmingham, 1791)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "english-unitarianism",
+   "field": "relationsSummary",
+   "sentence": "Priestley argued in print with the new Swedenborgian church in Birmingham. One of its leaders answered him.",
+   "file": "cic/texts/hindmarsh_letters-to-dr-priestley_1792.txt",
+   "lines": "3174",
+   "quote": "Socinian has fco right to the name of a chriftian.",
+   "work": "Robert Hindmarsh, Letters to Dr. Priestley (London, 1792)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "english-unitarianism",
+   "field": "why",
+   "sentence": "In 1774 a clergyman who had left the Church of England opened a chapel in London.",
+   "file": "cic/texts/priestley_memoirs-to-1795-v1_1806.txt",
+   "lines": "2464-2466",
+   "quote": "He soon discovered to me that he was uneasy in his situ- ation, and had thoughts of quitting it.",
+   "work": "Memoirs of Dr. Joseph Priestley, to the year 1795, written by himself (Northumberland, 1806)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "english-unitarianism",
+   "field": "why",
+   "sentence": "In 1774 a clergyman who had left the Church of England opened a chapel in London.",
+   "file": "cic/texts/lindsey_sermon-at-the-opening-of-the-chapel-in-essex-street_1774.txt",
+   "lines": "27-31",
+   "quote": "OPENING of the CHAPEL in EsSsEx-Hous E, Ess Ex-STREET, in the STRAND, On SuN DAV, APRIL 17, 1774.",
+   "work": "Theophilus Lindsey, A Sermon preached at the Opening of the Chapel in Essex-House (1774)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "english-unitarianism",
+   "field": "why",
+   "sentence": "Its people met, he said, as \"a separate congregation\", so that they might worship God alone.",
+   "file": "cic/texts/lindsey_sermon-at-the-opening-of-the-chapel-in-essex-street_1774.txt",
+   "lines": "1193-1196",
+   "quote": "reaſon of forming ourſelves into a ſeparate congregation, diſtinct from that of our national church; and this is, that we may be at liberty to worſhip God alone,",
+   "work": "Theophilus Lindsey, A Sermon preached at the Opening of the Chapel in Essex-House (1774)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "english-unitarianism",
+   "field": "why",
+   "sentence": "Joseph Priestley, chemist and Dissenting minister, defended the same belief in print each year.",
+   "file": "cic/texts/priestley_memoirs-to-1795-v1_1806.txt",
+   "lines": "3483-3485",
+   "quote": "I now write a pamphlet annually in defence of the unitarian doctrine against all my opponents.",
+   "work": "Memoirs of Dr. Joseph Priestley, to the year 1795, written by himself (Northumberland, 1806)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "english-unitarianism",
+   "field": "why",
+   "sentence": "Joseph Priestley, chemist and Dissenting minister, defended the same belief in print each year.",
+   "file": "cic/texts/priestley_memoirs-to-1795-v1_1806.txt",
+   "lines": "4089-4090",
+   "quote": "Dr. Price's congregation at Hack- ney, to invite me to succeed him,",
+   "work": "Memoirs of Dr. Joseph Priestley, to the year 1795, written by himself (Northumberland, 1806)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "english-unitarianism",
+   "field": "why",
+   "sentence": "In 1791 a mob burned his meeting house and his home in Birmingham.",
+   "file": "cic/texts/priestley_memoirs-to-1795-v1_1806.txt",
+   "lines": "4060",
+   "quote": "on July 14th, 1791,",
+   "work": "Memoirs of Dr. Joseph Priestley, to the year 1795, written by himself (Northumberland, 1806)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "english-unitarianism",
+   "field": "why",
+   "sentence": "In 1791 a mob burned his meeting house and his home in Birmingham.",
+   "file": "cic/texts/priestley_memoirs-to-1795-v1_1806.txt",
+   "lines": "4061-4064",
+   "quote": "a mob encouraged by some persons in power, first burned the meeting house in which I preached, then another meeting house in the town, and then my dwelling house,",
+   "work": "Memoirs of Dr. Joseph Priestley, to the year 1795, written by himself (Northumberland, 1806)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "english-unitarianism",
+   "field": "why",
+   "sentence": "In 1813 the law at last gave Unitarians the same rights as other Dissenters.",
+   "file": "cic/texts/general-baptist-assembly_minutes-v2-1731-1811_whitley1910.txt",
+   "lines": "42028-42029",
+   "quote": "In 1813 Unitarians were formally admitted to equal privileges",
+   "work": "W. T. Whitley (ed.), Minutes of the General Assembly of the General Baptist Churches, vol. II (1910), editor's notes",
+   "grade": "Inferential-Thin"
+  },
+  {
+   "entry": "english-unitarianism",
+   "field": "teaser",
+   "sentence": "London and Birmingham, 1774 to 1813: a chapel built to worship God alone, and a minister whose church was burned.",
+   "file": "cic/texts/lindsey_sermon-at-the-opening-of-the-chapel-in-essex-street_1774.txt",
+   "lines": "1193-1196",
+   "quote": "reaſon of forming ourſelves into a ſeparate congregation, diſtinct from that of our national church; and this is, that we may be at liberty to worſhip God alone,",
+   "work": "Theophilus Lindsey, A Sermon preached at the Opening of the Chapel in Essex-House (1774)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "english-unitarianism",
+   "field": "teaser",
+   "sentence": "London and Birmingham, 1774 to 1813: a chapel built to worship God alone, and a minister whose church was burned.",
+   "file": "cic/texts/priestley_memoirs-to-1795-v1_1806.txt",
+   "lines": "4061-4064",
+   "quote": "a mob encouraged by some persons in power, first burned the meeting house in which I preached, then another meeting house in the town, and then my dwelling house,",
+   "work": "Memoirs of Dr. Joseph Priestley, to the year 1795, written by himself (Northumberland, 1806)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "english-unitarianism",
+   "field": "longDescription",
+   "sentence": "Theophilus Lindsey was a Church of England clergyman at Catterick, in Yorkshire.",
+   "file": "cic/texts/priestley_memoirs-to-1795-v1_1806.txt",
+   "lines": "2461",
+   "quote": "I first met with Mr. Lindsey, then of Catterick,",
+   "work": "Memoirs of Dr. Joseph Priestley, to the year 1795, written by himself (Northumberland, 1806)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "english-unitarianism",
+   "field": "longDescription",
+   "sentence": "He grew uneasy in his post and thought of leaving it.",
+   "file": "cic/texts/priestley_memoirs-to-1795-v1_1806.txt",
+   "lines": "2464-2466",
+   "quote": "He soon discovered to me that he was uneasy in his situ- ation, and had thoughts of quitting it.",
+   "work": "Memoirs of Dr. Joseph Priestley, to the year 1795, written by himself (Northumberland, 1806)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "english-unitarianism",
+   "field": "longDescription",
+   "sentence": "Others in that church were trying to end the rule that clergy must sign its Thirty-Nine Articles.",
+   "file": "cic/texts/general-baptist-assembly_minutes-v2-1731-1811_whitley1910.txt",
+   "lines": "18279-18280",
+   "quote": "This application had arisen from a Unitarian movement within the Church of England to abolish subscription to the XXXIX. articles.",
+   "work": "W. T. Whitley (ed.), Minutes of the General Assembly of the General Baptist Churches, vol. II (1910), editor's notes",
+   "grade": "Inferential-Thin"
+  },
+  {
+   "entry": "english-unitarianism",
+   "field": "longDescription",
+   "sentence": "Lindsey left, and on 17 April 1774 he opened a chapel in Essex Street, in London.",
+   "file": "cic/texts/lindsey_sermon-at-the-opening-of-the-chapel-in-essex-street_1774.txt",
+   "lines": "27-31",
+   "quote": "OPENING of the CHAPEL in EsSsEx-Hous E, Ess Ex-STREET, in the STRAND, On SuN DAV, APRIL 17, 1774.",
+   "work": "Theophilus Lindsey, A Sermon preached at the Opening of the Chapel in Essex-House (1774)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "english-unitarianism",
+   "field": "longDescription",
+   "sentence": "In his first sermon there, Lindsey said why they had come together.",
+   "file": "cic/texts/lindsey_sermon-at-the-opening-of-the-chapel-in-essex-street_1774.txt",
+   "lines": "1193-1196",
+   "quote": "reaſon of forming ourſelves into a ſeparate congregation, diſtinct from that of our national church; and this is, that we may be at liberty to worſhip God alone,",
+   "work": "Theophilus Lindsey, A Sermon preached at the Opening of the Chapel in Essex-House (1774)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "english-unitarianism",
+   "field": "longDescription",
+   "sentence": "They were \"a separate congregation, distinct from that of our national church\".",
+   "file": "cic/texts/lindsey_sermon-at-the-opening-of-the-chapel-in-essex-street_1774.txt",
+   "lines": "1193-1196",
+   "quote": "reaſon of forming ourſelves into a ſeparate congregation, diſtinct from that of our national church; and this is, that we may be at liberty to worſhip God alone,",
+   "work": "Theophilus Lindsey, A Sermon preached at the Opening of the Chapel in Essex-House (1774)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "english-unitarianism",
+   "field": "longDescription",
+   "sentence": "They met so that they \"may be at liberty to worship God alone\".",
+   "file": "cic/texts/lindsey_sermon-at-the-opening-of-the-chapel-in-essex-street_1774.txt",
+   "lines": "1193-1196",
+   "quote": "reaſon of forming ourſelves into a ſeparate congregation, diſtinct from that of our national church; and this is, that we may be at liberty to worſhip God alone,",
+   "work": "Theophilus Lindsey, A Sermon preached at the Opening of the Chapel in Essex-House (1774)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "english-unitarianism",
+   "field": "longDescription",
+   "sentence": "No one, he said, should make others sign his own reading of Scripture.",
+   "file": "cic/texts/lindsey_sermon-at-the-opening-of-the-chapel-in-essex-street_1774.txt",
+   "lines": "332-333",
+   "quote": "require others to accept that ſenſe only and ſubſcribe to the truth of it;",
+   "work": "Theophilus Lindsey, A Sermon preached at the Opening of the Chapel in Essex-House (1774)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "english-unitarianism",
+   "field": "longDescription",
+   "sentence": "The prayers that day spoke to the Father: \"thou art God alone\".",
+   "file": "cic/texts/lindsey_sermon-at-the-opening-of-the-chapel-in-essex-street_1774.txt",
+   "lines": "95-96",
+   "quote": "For thon art God alone; and beſide thee there is none other.",
+   "work": "Theophilus Lindsey, A Sermon preached at the Opening of the Chapel in Essex-House (1774)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "english-unitarianism",
+   "field": "longDescription",
+   "sentence": "Joseph Priestley came from the other side, the old Dissent.",
+   "file": "cic/texts/priestley_memoirs-to-1795-v1_1806.txt",
+   "lines": "1984",
+   "quote": "We were likewise all Arians,",
+   "work": "Memoirs of Dr. Joseph Priestley, to the year 1795, written by himself (Northumberland, 1806)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "english-unitarianism",
+   "field": "longDescription",
+   "sentence": "Joseph Priestley came from the other side, the old Dissent.",
+   "file": "cic/texts/priestley_memoirs-to-1795-v1_1806.txt",
+   "lines": "4067-4068",
+   "quote": "burned, or much damaged, the houses of many Dissenters, chiefly my friends;",
+   "work": "Memoirs of Dr. Joseph Priestley, to the year 1795, written by himself (Northumberland, 1806)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "english-unitarianism",
+   "field": "longDescription",
+   "sentence": "He and his fellow tutors at a Dissenting academy, he wrote, \"were likewise all Arians\".",
+   "file": "cic/texts/priestley_memoirs-to-1795-v1_1806.txt",
+   "lines": "1976-1977",
+   "quote": "was singularly happy in the society of my fellow tu- tors,",
+   "work": "Memoirs of Dr. Joseph Priestley, to the year 1795, written by himself (Northumberland, 1806)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "english-unitarianism",
+   "field": "longDescription",
+   "sentence": "He and his fellow tutors at a Dissenting academy, he wrote, \"were likewise all Arians\".",
+   "file": "cic/texts/priestley_memoirs-to-1795-v1_1806.txt",
+   "lines": "1984",
+   "quote": "We were likewise all Arians,",
+   "work": "Memoirs of Dr. Joseph Priestley, to the year 1795, written by himself (Northumberland, 1806)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "english-unitarianism",
+   "field": "longDescription",
+   "sentence": "At Leeds he became what was called a Socinian, holding that Christ was a man and not God.",
+   "file": "cic/texts/priestley_memoirs-to-1795-v1_1806.txt",
+   "lines": "2120-2121",
+   "quote": "I became what is called a Socinian soon after my settlement at Leed^ ;",
+   "work": "Memoirs of Dr. Joseph Priestley, to the year 1795, written by himself (Northumberland, 1806)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "english-unitarianism",
+   "field": "longDescription",
+   "sentence": "At Leeds he became what was called a Socinian, holding that Christ was a man and not God.",
+   "file": "cic/texts/hindmarsh_letters-to-dr-priestley_1792.txt",
+   "lines": "5851-5853",
+   "quote": "You, Sir, as a Socinian, maintain that Jefus Chrifl: was a fnere man,",
+   "work": "Robert Hindmarsh, Letters to Dr. Priestley (London, 1792)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "english-unitarianism",
+   "field": "longDescription",
+   "sentence": "In London he spent his Sundays at Lindsey's chapel and sometimes led its worship.",
+   "file": "cic/texts/priestley_memoirs-to-1795-v1_1806.txt",
+   "lines": "3108-3110",
+   "quote": "The Sunday I always spent \\\\ith Mr. Lindsey, attending the service of his chapel, and sometimes officiating for him ;",
+   "work": "Memoirs of Dr. Joseph Priestley, to the year 1795, written by himself (Northumberland, 1806)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "english-unitarianism",
+   "field": "longDescription",
+   "sentence": "He wrote a pamphlet every year in defence of \"the unitarian doctrine\".",
+   "file": "cic/texts/priestley_memoirs-to-1795-v1_1806.txt",
+   "lines": "3483-3485",
+   "quote": "I now write a pamphlet annually in defence of the unitarian doctrine against all my opponents.",
+   "work": "Memoirs of Dr. Joseph Priestley, to the year 1795, written by himself (Northumberland, 1806)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "english-unitarianism",
+   "field": "longDescription",
+   "sentence": "In Birmingham, Priestley also argued with the new Swedenborgian church.",
+   "file": "cic/texts/priestley_letters-to-the-members-of-the-new-jerusalem-church_1791.txt",
+   "lines": "150-153",
+   "quote": "It was the forming of a church, and the build- ing of a very elegant place of worfhip, for perfons of this perfuaiion at Birmingham,",
+   "work": "Joseph Priestley, Letters to the Members of the New Jerusalem Church (Birmingham, 1791)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "english-unitarianism",
+   "field": "longDescription",
+   "sentence": "His letters of 1791 rejected its teaching that the one God is Jesus Christ.",
+   "file": "cic/texts/priestley_letters-to-the-members-of-the-new-jerusalem-church_1791.txt",
+   "lines": "1068-1069",
+   "quote": "Holding the doftrine of one God^ you maintain that this one God is no odier than Jefus Chrift,",
+   "work": "Joseph Priestley, Letters to the Members of the New Jerusalem Church (Birmingham, 1791)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "english-unitarianism",
+   "field": "longDescription",
+   "sentence": "Robert Hindmarsh, a leader of that church, answered him in 1792.",
+   "file": "cic/texts/hindmarsh_letters-to-dr-priestley_1792.txt",
+   "lines": "3174",
+   "quote": "Socinian has fco right to the name of a chriftian.",
+   "work": "Robert Hindmarsh, Letters to Dr. Priestley (London, 1792)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "english-unitarianism",
+   "field": "longDescription",
+   "sentence": "A Socinian, he wrote, had no right to the name of a Christian.",
+   "file": "cic/texts/hindmarsh_letters-to-dr-priestley_1792.txt",
+   "lines": "3174",
+   "quote": "Socinian has fco right to the name of a chriftian.",
+   "work": "Robert Hindmarsh, Letters to Dr. Priestley (London, 1792)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "english-unitarianism",
+   "field": "longDescription",
+   "sentence": "On 14 July 1791 a mob in Birmingham burned the church where Priestley preached. Then they burned his home.",
+   "file": "cic/texts/priestley_memoirs-to-1795-v1_1806.txt",
+   "lines": "4060",
+   "quote": "on July 14th, 1791,",
+   "work": "Memoirs of Dr. Joseph Priestley, to the year 1795, written by himself (Northumberland, 1806)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "english-unitarianism",
+   "field": "longDescription",
+   "sentence": "On 14 July 1791 a mob in Birmingham burned the church where Priestley preached. Then they burned his home.",
+   "file": "cic/texts/priestley_memoirs-to-1795-v1_1806.txt",
+   "lines": "4061-4064",
+   "quote": "a mob encouraged by some persons in power, first burned the meeting house in which I preached, then another meeting house in the town, and then my dwelling house,",
+   "work": "Memoirs of Dr. Joseph Priestley, to the year 1795, written by himself (Northumberland, 1806)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "english-unitarianism",
+   "field": "longDescription",
+   "sentence": "It wrecked the houses of many Dissenters too.",
+   "file": "cic/texts/priestley_memoirs-to-1795-v1_1806.txt",
+   "lines": "4067-4068",
+   "quote": "burned, or much damaged, the houses of many Dissenters, chiefly my friends;",
+   "work": "Memoirs of Dr. Joseph Priestley, to the year 1795, written by himself (Northumberland, 1806)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "english-unitarianism",
+   "field": "longDescription",
+   "sentence": "Priestley moved to Hackney, near London. A church there asked him to be its minister.",
+   "file": "cic/texts/priestley_memoirs-to-1795-v1_1806.txt",
+   "lines": "4089-4090",
+   "quote": "Dr. Price's congregation at Hack- ney, to invite me to succeed him,",
+   "work": "Memoirs of Dr. Joseph Priestley, to the year 1795, written by himself (Northumberland, 1806)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "english-unitarianism",
+   "field": "longDescription",
+   "sentence": "In April 1794 he sailed for America.",
+   "file": "cic/texts/priestley_memoirs-to-1795-v1_1806.txt",
+   "lines": "5473-5474",
+   "quote": "On the 8th day of April 1794, my father set sail from London,",
+   "work": "Memoirs of Dr. Joseph Priestley, to the year 1795, written by himself (Northumberland, 1806)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "english-unitarianism",
+   "field": "longDescription",
+   "sentence": "Thomas Belsham taught at the college in Hackney. He later served the Essex Street chapel.",
+   "file": "cic/texts/priestley_memoirs-to-1795-v1_1806.txt",
+   "lines": "4109",
+   "quote": "Mr. Belsham, professor of divinity in the New Col-",
+   "work": "Memoirs of Dr. Joseph Priestley, to the year 1795, written by himself (Northumberland, 1806)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "english-unitarianism",
+   "field": "longDescription",
+   "sentence": "Thomas Belsham taught at the college in Hackney. He later served the Essex Street chapel.",
+   "file": "cic/texts/belsham_american-unitarianism-brief-history_1815.txt",
+   "lines": "1",
+   "quote": "by Rev. Thomas Belsham, Essex-Street, London;",
+   "work": "Thomas Belsham, American Unitarianism (Boston, 1815; from his Memoirs of Lindsey, London, 1812)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "english-unitarianism",
+   "field": "longDescription",
+   "sentence": "The same belief had English voices long before Lindsey.",
+   "file": "cic/texts/racovian-catechism_racovian-catechism_rees1818.txt",
+   "lines": "1628",
+   "quote": "An English translation of this, from the pen of John Bicldle,",
+   "work": "Thomas Rees, The Racovian Catechism, with a historical introduction (London, 1818)",
+   "grade": "Inferential-Thin"
+  },
+  {
+   "entry": "english-unitarianism",
+   "field": "longDescription",
+   "sentence": "In 1653 John Biddle put a life of Socinus, the Polish Brethren's teacher, into English.",
+   "file": "cic/texts/przypkowski_life-of-faustus-socinus_bidle1653.txt",
+   "lines": "47-49",
+   "quote": "London’, Printed for Richard Moone, at the feven Stars in Pals Church-yatd, neer the great North-doore. 1653.",
+   "work": "The Life of that Incomparable Man Faustus Socinus Senensis, described by a Polonian Knight (London, 1653), English tr. attributed to John Biddle",
+   "grade": "Documented"
+  },
+  {
+   "entry": "english-unitarianism",
+   "field": "longDescription",
+   "sentence": "In 1653 John Biddle put a life of Socinus, the Polish Brethren's teacher, into English.",
+   "file": "cic/texts/racovian-catechism_racovian-catechism_rees1818.txt",
+   "lines": "1628",
+   "quote": "An English translation of this, from the pen of John Bicldle,",
+   "work": "Thomas Rees, The Racovian Catechism, with a historical introduction (London, 1818)",
+   "grade": "Inferential-Thin"
+  },
+  {
+   "entry": "english-unitarianism",
+   "field": "longDescription",
+   "sentence": "In 1777 Joshua Toulmin, a Baptist pastor at Taunton, wrote a new life of Socinus.",
+   "file": "cic/texts/racovian-catechism_racovian-catechism_rees1818.txt",
+   "lines": "1629-1630",
+   "quote": "Doctor Toulmin gave to the public in 1/77, an excellent life of this celebrated individual",
+   "work": "Thomas Rees, The Racovian Catechism, with a historical introduction (London, 1818)",
+   "grade": "Inferential-Thin"
+  },
+  {
+   "entry": "english-unitarianism",
+   "field": "longDescription",
+   "sentence": "In 1777 Joshua Toulmin, a Baptist pastor at Taunton, wrote a new life of Socinus.",
+   "file": "cic/texts/general-baptist-assembly_minutes-v2-1731-1811_whitley1910.txt",
+   "lines": "18283-18285",
+   "quote": "three Baptist champions were Dr. Samuel Stennett of Wild Street, Robert Robinson of Cambridge, and Joshua Toulmin of Taunton.",
+   "work": "W. T. Whitley (ed.), Minutes of the General Assembly of the General Baptist Churches, vol. II (1910), editor's notes",
+   "grade": "Inferential-Thin"
+  },
+  {
+   "entry": "english-unitarianism",
+   "field": "longDescription",
+   "sentence": "A Baptist editor wrote in 1910 that some Baptist churches in the west of England turned Unitarian too.",
+   "file": "cic/texts/general-baptist-assembly_minutes-v2-1731-1811_whitley1910.txt",
+   "lines": "39714-39716",
+   "quote": "the General Baptist Western Association, and then the Unitarian Association in 1794.",
+   "work": "W. T. Whitley (ed.), Minutes of the General Assembly of the General Baptist Churches, vol. II (1910), editor's notes",
+   "grade": "Inferential-Thin"
+  },
+  {
+   "entry": "english-unitarianism",
+   "field": "longDescription",
+   "sentence": "The chapel's prayer book crossed the sea.",
+   "file": "cic/texts/belsham_american-unitarianism-brief-history_1815.txt",
+   "lines": "463-465",
+   "quote": "a Li- turgy reformed nearly upon the plan of that which had been adopied in Kssex-Street",
+   "work": "Thomas Belsham, American Unitarianism (Boston, 1815; from his Memoirs of Lindsey, London, 1812)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "english-unitarianism",
+   "field": "longDescription",
+   "sentence": "In 1786 the minister of King's Chapel in Boston wrote to Lindsey about his new liturgy.",
+   "file": "cic/texts/belsham_american-unitarianism-brief-history_1815.txt",
+   "lines": "469-470",
+   "quote": "In Mr. Freeman’s first letter to Mr. Lindsey, dated Jaly 7, 1786,",
+   "work": "Thomas Belsham, American Unitarianism (Boston, 1815; from his Memoirs of Lindsey, London, 1812)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "english-unitarianism",
+   "field": "longDescription",
+   "sentence": "He said he had tried to bring in Lindsey's whole liturgy.",
+   "file": "cic/texts/belsham_american-unitarianism-brief-history_1815.txt",
+   "lines": "479-480",
+   "quote": "I endeavoured to make it so by attempting to intreduee your Liturgy entire.",
+   "work": "Thomas Belsham, American Unitarianism (Boston, 1815; from his Memoirs of Lindsey, London, 1812)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "english-unitarianism",
+   "field": "longDescription",
+   "sentence": "He also credited Lindsey's books for the spread of Unitarian belief in New England.",
+   "file": "cic/texts/belsham_american-unitarianism-brief-history_1815.txt",
+   "lines": "519-521",
+   "quote": "This he imputes to the many excellent books published in England, and to Mr. Lindsey’s Works in particular,",
+   "work": "Thomas Belsham, American Unitarianism (Boston, 1815; from his Memoirs of Lindsey, London, 1812)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "english-unitarianism",
+   "field": "voices",
+   "sentence": "Theophilus Lindsey — left the Church of England and opened the Essex Street chapel in London on 17 April 1774",
+   "file": "cic/texts/priestley_memoirs-to-1795-v1_1806.txt",
+   "lines": "2464-2466",
+   "quote": "He soon discovered to me that he was uneasy in his situ- ation, and had thoughts of quitting it.",
+   "work": "Memoirs of Dr. Joseph Priestley, to the year 1795, written by himself (Northumberland, 1806)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "english-unitarianism",
+   "field": "voices",
+   "sentence": "Theophilus Lindsey — left the Church of England and opened the Essex Street chapel in London on 17 April 1774",
+   "file": "cic/texts/lindsey_sermon-at-the-opening-of-the-chapel-in-essex-street_1774.txt",
+   "lines": "27-31",
+   "quote": "OPENING of the CHAPEL in EsSsEx-Hous E, Ess Ex-STREET, in the STRAND, On SuN DAV, APRIL 17, 1774.",
+   "work": "Theophilus Lindsey, A Sermon preached at the Opening of the Chapel in Essex-House (1774)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "english-unitarianism",
+   "field": "voices",
+   "sentence": "Joseph Priestley — chemist and Dissenting minister, who wrote a pamphlet each year for the Unitarian belief; his Birmingham meeting house and home were burned in 1791",
+   "file": "cic/texts/priestley_memoirs-to-1795-v1_1806.txt",
+   "lines": "3483-3485",
+   "quote": "I now write a pamphlet annually in defence of the unitarian doctrine against all my opponents.",
+   "work": "Memoirs of Dr. Joseph Priestley, to the year 1795, written by himself (Northumberland, 1806)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "english-unitarianism",
+   "field": "voices",
+   "sentence": "Joseph Priestley — chemist and Dissenting minister, who wrote a pamphlet each year for the Unitarian belief; his Birmingham meeting house and home were burned in 1791",
+   "file": "cic/texts/priestley_memoirs-to-1795-v1_1806.txt",
+   "lines": "4061-4064",
+   "quote": "a mob encouraged by some persons in power, first burned the meeting house in which I preached, then another meeting house in the town, and then my dwelling house,",
+   "work": "Memoirs of Dr. Joseph Priestley, to the year 1795, written by himself (Northumberland, 1806)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "english-unitarianism",
+   "field": "voices",
+   "sentence": "Thomas Belsham — divinity tutor at Hackney and later of Essex Street, whose life of Lindsey (1812) tells the movement's story",
+   "file": "cic/texts/priestley_memoirs-to-1795-v1_1806.txt",
+   "lines": "4109",
+   "quote": "Mr. Belsham, professor of divinity in the New Col-",
+   "work": "Memoirs of Dr. Joseph Priestley, to the year 1795, written by himself (Northumberland, 1806)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "english-unitarianism",
+   "field": "voices",
+   "sentence": "Thomas Belsham — divinity tutor at Hackney and later of Essex Street, whose life of Lindsey (1812) tells the movement's story",
+   "file": "cic/texts/belsham_american-unitarianism-brief-history_1815.txt",
+   "lines": "1",
+   "quote": "by Rev. Thomas Belsham, Essex-Street, London;",
+   "work": "Thomas Belsham, American Unitarianism (Boston, 1815; from his Memoirs of Lindsey, London, 1812)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "english-unitarianism",
+   "field": "voices",
+   "sentence": "Joshua Toulmin — Baptist minister at Taunton, who wrote a life of Socinus in 1777",
+   "file": "cic/texts/racovian-catechism_racovian-catechism_rees1818.txt",
+   "lines": "1629-1630",
+   "quote": "Doctor Toulmin gave to the public in 1/77, an excellent life of this celebrated individual",
+   "work": "Thomas Rees, The Racovian Catechism, with a historical introduction (London, 1818)",
+   "grade": "Inferential-Thin"
+  },
+  {
+   "entry": "english-unitarianism",
+   "field": "voices",
+   "sentence": "Joshua Toulmin — Baptist minister at Taunton, who wrote a life of Socinus in 1777",
+   "file": "cic/texts/general-baptist-assembly_minutes-v2-1731-1811_whitley1910.txt",
+   "lines": "18283-18285",
+   "quote": "three Baptist champions were Dr. Samuel Stennett of Wild Street, Robert Robinson of Cambridge, and Joshua Toulmin of Taunton.",
+   "work": "W. T. Whitley (ed.), Minutes of the General Assembly of the General Baptist Churches, vol. II (1910), editor's notes",
+   "grade": "Inferential-Thin"
+  },
+  {
+   "entry": "english-unitarianism",
+   "field": "voices",
+   "sentence": "John Biddle — who put a life of Socinus into English in 1653, an early English voice for the same belief",
+   "file": "cic/texts/racovian-catechism_racovian-catechism_rees1818.txt",
+   "lines": "1628",
+   "quote": "An English translation of this, from the pen of John Bicldle,",
+   "work": "Thomas Rees, The Racovian Catechism, with a historical introduction (London, 1818)",
+   "grade": "Inferential-Thin"
+  },
+  {
+   "entry": "english-unitarianism",
+   "field": "legacy",
+   "sentence": "For years Unitarians stood outside the law that protected other Dissenters.",
+   "file": "cic/texts/general-baptist-assembly_minutes-v2-1731-1811_whitley1910.txt",
+   "lines": "42028-42029",
+   "quote": "In 1813 Unitarians were formally admitted to equal privileges",
+   "work": "W. T. Whitley (ed.), Minutes of the General Assembly of the General Baptist Churches, vol. II (1910), editor's notes",
+   "grade": "Inferential-Thin"
+  },
+  {
+   "entry": "english-unitarianism",
+   "field": "legacy",
+   "sentence": "In 1813 they were given the same rights.",
+   "file": "cic/texts/general-baptist-assembly_minutes-v2-1731-1811_whitley1910.txt",
+   "lines": "42028-42029",
+   "quote": "In 1813 Unitarians were formally admitted to equal privileges",
+   "work": "W. T. Whitley (ed.), Minutes of the General Assembly of the General Baptist Churches, vol. II (1910), editor's notes",
+   "grade": "Inferential-Thin"
+  },
+  {
+   "entry": "english-unitarianism",
+   "field": "legacy",
+   "sentence": "By then the chapel's books were read far from London.",
+   "file": "cic/texts/belsham_american-unitarianism-brief-history_1815.txt",
+   "lines": "1756-1757",
+   "quote": "sometimes by Lindsey, Priestley, Price, and Toulmin.",
+   "work": "Thomas Belsham, American Unitarianism (Boston, 1815; from his Memoirs of Lindsey, London, 1812)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "english-unitarianism",
+   "field": "legacy",
+   "sentence": "In 1810 a small society in New York State read sermons by Lindsey, Priestley and Toulmin when it had no minister.",
+   "file": "cic/texts/belsham_american-unitarianism-brief-history_1815.txt",
+   "lines": "1745-1746",
+   "quote": "Mr. Vanderkemp, in a letter te Mrs. Lindsey, dated August, 1810,",
+   "work": "Thomas Belsham, American Unitarianism (Boston, 1815; from his Memoirs of Lindsey, London, 1812)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "english-unitarianism",
+   "field": "legacy",
+   "sentence": "In 1810 a small society in New York State read sermons by Lindsey, Priestley and Toulmin when it had no minister.",
+   "file": "cic/texts/belsham_american-unitarianism-brief-history_1815.txt",
+   "lines": "1756-1757",
+   "quote": "sometimes by Lindsey, Priestley, Price, and Toulmin.",
+   "work": "Thomas Belsham, American Unitarianism (Boston, 1815; from his Memoirs of Lindsey, London, 1812)",
+   "grade": "Documented"
+  },
+  {
+   "entry": "new-france-mission-born-christianity",
+   "field": "status",
+   "sentence": "Pre-Survey Candidate, statusWord copied from its siblings in New Spain and the Andes and Ming China: the mission's record is in hand, the converts' own texts are not.",
+   "file": null,
+   "lines": null,
+   "quote": null,
+   "work": "census convention",
+   "grade": "Documented"
+  },
+  {
+   "entry": "swedish-lutherans-of-new-sweden",
+   "field": "status",
+   "sentence": "Pre-Survey Candidate with the 'deferred' wording: one source only, so a survey waits for the congregations' own records.",
+   "file": null,
+   "lines": null,
+   "quote": null,
+   "work": "census convention",
+   "grade": "Documented"
+  },
+  {
+   "entry": "english-unitarianism",
+   "field": "status",
+   "sentence": "Floor Question (register), lane 8, beyondFloor true, glyph flq: copied exactly from early-american-unitarians-universalists, whose Unitarian thread is held beyond the floor on its own confessions. No new floor finding is made.",
+   "file": null,
+   "lines": null,
+   "quote": null,
+   "work": "census convention",
+   "grade": "Documented"
+  }
+ ],
+ "neighbor_changes": [],
+ "links": [
+  {
+   "id": "the-society-of-jesus--new-france-mission-born-christianity",
+   "action": "new",
+   "from": "the-society-of-jesus",
+   "to": "new-france-mission-born-christianity",
+   "type": "gave rise to",
+   "confidence": "Documented",
+   "note": "The Christians of New France came out of the Jesuit mission. At Sillery near Quebec, Father Le Jeune settled Algonquin families from 1638. Among the Hurons, the Jesuits wrote of Joseph Chihwatenhwa as \"Our Christian\".",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "The Jesuit Relations and Allied Documents, ed. R. G. Thwaites (Cleveland, 1896-1901), vol. 14",
+     "file": "cic/texts/jesuit-relations_thwaites-v14-fra-eng_1896-1901.txt",
+     "lines": "7771-7772",
+     "locus": "Le Jeune, Relation of 1637-38: Negabamat's speech",
+     "quote": "Father le Jeune, thou art already old, and there- fore it is no longer permitted to thee to lie.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "The Jesuit Relations and Allied Documents, ed. R. G. Thwaites (Cleveland, 1896-1901), vol. 14",
+     "file": "cic/texts/jesuit-relations_thwaites-v14-fra-eng_1896-1901.txt",
+     "lines": "7817-7818",
+     "locus": "Le Jeune, Relation of 1637-38",
+     "quote": "this house tliey are building, and to help us, me and another family, to clear the land?",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "The Jesuit Relations and Allied Documents, ed. R. G. Thwaites (Cleveland, 1896-1901), vol. 17",
+     "file": "cic/texts/jesuit-relations_thwaites-v17-fra-eng_1896-1901.txt",
+     "lines": "1977-1982",
+     "locus": "Lalemant, Relation of the Hurons, 1639",
+     "quote": "Our Christian,- it is thus we call Joseph Chiwa- tenhwa, both because he was the first one in this Vil- lage, and for nine or ten months the only one who, with his family, made a profession of Christianity, notwithstanding all the speeches and the verbal per- secutions of his Countrymen;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "The Jesuit Relations and Allied Documents, ed. R. G. Thwaites (Cleveland, 1896-1901), vol. 14",
+     "file": "cic/texts/jesuit-relations_thwaites-v14-fra-eng_1896-1901.txt",
+     "lines": "315-317",
+     "locus": "Thwaites, preface to vol. 14",
+     "quote": "At this residence are established two Algonkin families, com- prising about twenty persons,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "new-france-mission-born-christianity.relationsSummary; .longDescription",
+   "wants": [],
+   "drafter_flags": [
+    "The 1610 baptism of Membertou was by a secular priest, before the Jesuits came; the link rests on Sillery and the Huron mission, not on 1610.",
+    "Sillery's founding date (1637-38) rests on the Relation of 1638 and Thwaites's preface."
+   ],
+   "change_reason": "New: carries the mission's converts from the Society that ran the mission, as for the Japan and China entries."
+  },
+  {
+   "id": "scandinavian-reformation-kingdoms--swedish-lutherans-of-new-sweden",
+   "action": "new",
+   "from": "scandinavian-reformation-kingdoms",
+   "to": "swedish-lutherans-of-new-sweden",
+   "type": "gave rise to",
+   "confidence": "Documented",
+   "note": "The first Swedish settlers came to the Delaware in 1638. Acrelius names their pastor, Reorus Torkillus, from East Gothland in Sweden. In 1693 the settlers wrote home for help to keep their Lutheran faith.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Israel Acrelius, A History of New Sweden (1759), tr. W. M. Reynolds (Philadelphia, 1874)",
+     "file": "cic/texts/acrelius_history-of-new-sweden_reynolds1874.txt",
+     "lines": "3889-3891",
+     "locus": "Acrelius, part I, ch. 10",
+     "quote": "There, in the year 1638, Peter Menuet built a fortress, which he named Fort Chris- tina, after the reigning queen of Sweden.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Israel Acrelius, A History of New Sweden (1759), tr. W. M. Reynolds (Philadelphia, 1874)",
+     "file": "cic/texts/acrelius_history-of-new-sweden_reynolds1874.txt",
+     "lines": "3883-3884",
+     "locus": "Acrelius, part I",
+     "quote": "Their clergyman was Reorus Torkillus of East Gothland.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Israel Acrelius, A History of New Sweden (1759), tr. W. M. Reynolds (Philadelphia, 1874)",
+     "file": "cic/texts/acrelius_history-of-new-sweden_reynolds1874.txt",
+     "lines": "11655-11656",
+     "locus": "Springer's letter to Thelin, 1693, in Acrelius part IV, ch. I.11",
+     "quote": "the upholding of the pure and uncorrupted Lutheran religion,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "swedish-lutherans-of-new-sweden.relationsSummary; .longDescription",
+   "wants": [],
+   "drafter_flags": [
+    "The Swedish church after 1650 has no census entry (the Scandinavian entry ends 1650). The pastors of 1697 came from that later church; this link rests on the 1638 colony and its pastor, inside the Scandinavian entry's span."
+   ],
+   "change_reason": "New: the Swedish church planted the Delaware congregations."
+  },
+  {
+   "id": "swedish-lutherans-of-new-sweden--the-moravian-church-at-herrnhut",
+   "action": "new",
+   "from": "swedish-lutherans-of-new-sweden",
+   "to": "the-moravian-church-at-herrnhut",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "Acrelius tells how Moravian preachers came among the Delaware Swedes in the 1740s. In 1744 the Swedish party locked one of them, Bruzelius, out of Raccoon church. A panel of twenty-five men at Gloucester then ruled against him.",
+   "outcome": "In 1744 the wardens who took his side were put out of office. Moravian ministers were then barred from the Swedish and English churches.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Israel Acrelius, A History of New Sweden (1759), tr. W. M. Reynolds (Philadelphia, 1874)",
+     "file": "cic/texts/acrelius_history-of-new-sweden_reynolds1874.txt",
+     "lines": "14859-14861",
+     "locus": "Acrelius, part V: Naesman's time",
+     "quote": "the Count brought with him Paul Daniel Bruselius,4 who at once crept into the Swedish houses, pretended to be a Swedish Minister,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Israel Acrelius, A History of New Sweden (1759), tr. W. M. Reynolds (Philadelphia, 1874)",
+     "file": "cic/texts/acrelius_history-of-new-sweden_reynolds1874.txt",
+     "lines": "18891-18893",
+     "locus": "Acrelius, part VI, ch. IV.4: Bruzelius' intrusion",
+     "quote": "But the advantage was on the side of those who were opposed to him, for they had the church-key in their hands.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Israel Acrelius, A History of New Sweden (1759), tr. W. M. Reynolds (Philadelphia, 1874)",
+     "file": "cic/texts/acrelius_history-of-new-sweden_reynolds1874.txt",
+     "lines": "18915-18917",
+     "locus": "Acrelius, part VI, ch. IV.5",
+     "quote": "Twenty-five men came together at Gloucester to examine and decide in regard to it,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Israel Acrelius, A History of New Sweden (1759), tr. W. M. Reynolds (Philadelphia, 1874)",
+     "file": "cic/texts/acrelius_history-of-new-sweden_reynolds1874.txt",
+     "lines": "18907-18908",
+     "locus": "Acrelius, part VI, ch. IV.5",
+     "quote": "the Church-Wardens who were on that side were deposed,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Israel Acrelius, A History of New Sweden (1759), tr. W. M. Reynolds (Philadelphia, 1874)",
+     "file": "cic/texts/acrelius_history-of-new-sweden_reynolds1874.txt",
+     "lines": "18930-18931",
+     "locus": "Acrelius, part VI, ch. IV.5",
+     "quote": "Bruzelius and other Moravian Ministers were for- bidden to enter into the Swedish and English churches.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "swedish-lutherans-of-new-sweden.relationsSummary; .longDescription",
+   "wants": [
+    "A Moravian account of the 1742-1745 contest for the Swedish congregations (e.g. Bryzelius's or Nyberg's own letters)"
+   ],
+   "drafter_flags": [
+    "Major-link judgment: the outcome rests on an arbitration panel's ruling and the barring of Moravian ministers from the churches; whether an arbitration counts as 'an authority' under step 4b is the reviewer's call. If not, drop the outcome.",
+    "Acrelius is a hostile witness ('his pernicious sect'). No Moravian account of the dispute is vendored."
+   ],
+   "change_reason": "New: the congregations' recorded fight with the Moravian preachers."
+  },
+  {
+   "id": "radical-pietism-and-the-brethren-dunkers-ephrata--swedish-lutherans-of-new-sweden",
+   "action": "new",
+   "from": "radical-pietism-and-the-brethren-dunkers-ephrata",
+   "to": "swedish-lutherans-of-new-sweden",
+   "type": "in contact with",
+   "confidence": "Documented",
+   "note": "On 20 August 1753 the Swedish pastor Israel Acrelius came to the cloister at Ephrata. He met its leader, Conrad Beissel. He argued with the brothers about how to baptize.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Israel Acrelius, A History of New Sweden (1759), tr. W. M. Reynolds (Philadelphia, 1874)",
+     "file": "cic/texts/acrelius_history-of-new-sweden_reynolds1874.txt",
+     "lines": "20737-20738",
+     "locus": "Acrelius, Visit to the Ephrata Cloister, 1753",
+     "quote": "VISIT BY THE PROVOST MAGISTER, ISRAEL ACRE- LIUS, TO THE EPHRATA CLOISTER, Aug. 20, 1753.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Israel Acrelius, A History of New Sweden (1759), tr. W. M. Reynolds (Philadelphia, 1874)",
+     "file": "cic/texts/acrelius_history-of-new-sweden_reynolds1874.txt",
+     "lines": "20755-20756",
+     "locus": "same",
+     "quote": "The arrangement of the cloister-life was made by Conrad Beisel,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Israel Acrelius, A History of New Sweden (1759), tr. W. M. Reynolds (Philadelphia, 1874)",
+     "file": "cic/texts/acrelius_history-of-new-sweden_reynolds1874.txt",
+     "lines": "21725-21727",
+     "locus": "same, dialogue with the brethren",
+     "quote": "Which class of you all has now found the right way?\" He answered, \"I believe we have.\" I said, \" I will believe the same, but not before it is proved.\"",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "swedish-lutherans-of-new-sweden.relationsSummary",
+   "wants": [],
+   "drafter_flags": [
+    "Acrelius spells the name 'Beisel'; the note uses the census's 'Beissel'. Check the census spelling."
+   ],
+   "change_reason": "New: a dated meeting and dialogue, told by the visitor."
+  },
+  {
+   "id": "restoration-georgian-church-of-england--english-unitarianism",
+   "action": "new",
+   "from": "restoration-georgian-church-of-england",
+   "to": "english-unitarianism",
+   "type": "gave rise to",
+   "confidence": "Documented",
+   "note": "Theophilus Lindsey was a priest of the Church of England at Catterick. Priestley says he grew uneasy and thought of leaving. In 1774 Lindsey opened a chapel in London. He called it a separate church, apart from the national church.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Memoirs of Dr. Joseph Priestley, to the year 1795, written by himself (Northumberland, 1806)",
+     "file": "cic/texts/priestley_memoirs-to-1795-v1_1806.txt",
+     "lines": "2461",
+     "locus": "Priestley, Memoirs, Leeds years",
+     "quote": "I first met with Mr. Lindsey, then of Catterick,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Memoirs of Dr. Joseph Priestley, to the year 1795, written by himself (Northumberland, 1806)",
+     "file": "cic/texts/priestley_memoirs-to-1795-v1_1806.txt",
+     "lines": "2464-2466",
+     "locus": "same",
+     "quote": "He soon discovered to me that he was uneasy in his situ- ation, and had thoughts of quitting it.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Theophilus Lindsey, A Sermon preached at the Opening of the Chapel in Essex-House (1774)",
+     "file": "cic/texts/lindsey_sermon-at-the-opening-of-the-chapel-in-essex-street_1774.txt",
+     "lines": "1193-1196",
+     "locus": "Lindsey, Sermon, 1774",
+     "quote": "reaſon of forming ourſelves into a ſeparate congregation, diſtinct from that of our national church; and this is, that we may be at liberty to worſhip God alone,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Theophilus Lindsey, A Sermon preached at the Opening of the Chapel in Essex-House (1774)",
+     "file": "cic/texts/lindsey_sermon-at-the-opening-of-the-chapel-in-essex-street_1774.txt",
+     "lines": "27-31",
+     "locus": "Lindsey, Sermon, title page",
+     "quote": "OPENING of the CHAPEL in EsSsEx-Hous E, Ess Ex-STREET, in the STRAND, On SuN DAV, APRIL 17, 1774.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "english-unitarianism.relationsSummary; .why; .longDescription",
+   "wants": [
+    "Theophilus Lindsey, The Apology of Theophilus Lindsey on resigning the vicarage of Catterick (1774)"
+   ],
+   "drafter_flags": [
+    "Lindsey's own resignation text (the Apology of 1774) is not vendored; the sermon and Priestley's memoir carry the move."
+   ],
+   "change_reason": "New: the founder came out of the established church."
+  },
+  {
+   "id": "english-old-dissent--english-unitarianism",
+   "action": "new",
+   "from": "english-old-dissent",
+   "to": "english-unitarianism",
+   "type": "gave rise to",
+   "confidence": "Documented",
+   "note": "Joseph Priestley trained and served among the English Dissenters. He writes that he and the other tutors at his academy were all Arians. At Leeds he became a Socinian. In London he spent his Sundays at Lindsey's chapel, and sometimes led its worship.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Memoirs of Dr. Joseph Priestley, to the year 1795, written by himself (Northumberland, 1806)",
+     "file": "cic/texts/priestley_memoirs-to-1795-v1_1806.txt",
+     "lines": "1976-1977",
+     "locus": "Priestley, Memoirs, Warrington years",
+     "quote": "was singularly happy in the society of my fellow tu- tors,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Memoirs of Dr. Joseph Priestley, to the year 1795, written by himself (Northumberland, 1806)",
+     "file": "cic/texts/priestley_memoirs-to-1795-v1_1806.txt",
+     "lines": "1984",
+     "locus": "Priestley, Memoirs, Warrington years",
+     "quote": "We were likewise all Arians,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Memoirs of Dr. Joseph Priestley, to the year 1795, written by himself (Northumberland, 1806)",
+     "file": "cic/texts/priestley_memoirs-to-1795-v1_1806.txt",
+     "lines": "2120-2121",
+     "locus": "Priestley, Memoirs, Leeds years",
+     "quote": "I became what is called a Socinian soon after my settlement at Leed^ ;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Memoirs of Dr. Joseph Priestley, to the year 1795, written by himself (Northumberland, 1806)",
+     "file": "cic/texts/priestley_memoirs-to-1795-v1_1806.txt",
+     "lines": "3108-3110",
+     "locus": "Priestley, Memoirs, London years",
+     "quote": "The Sunday I always spent \\\\ith Mr. Lindsey, attending the service of his chapel, and sometimes officiating for him ;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Memoirs of Dr. Joseph Priestley, to the year 1795, written by himself (Northumberland, 1806)",
+     "file": "cic/texts/priestley_memoirs-to-1795-v1_1806.txt",
+     "lines": "4067-4068",
+     "locus": "Priestley, Memoirs, Birmingham riots",
+     "quote": "burned, or much damaged, the houses of many Dissenters, chiefly my friends;",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "english-unitarianism.relationsSummary; .longDescription",
+   "wants": [],
+   "drafter_flags": [
+    "Priestley is also a voice of english-old-dissent; he belongs to both stories. The wider drift of Presbyterian congregations to Unitarian belief is told in Old Dissent's own text, not documented here."
+   ],
+   "change_reason": "New: the movement's second founder came from Old Dissent."
+  },
+  {
+   "id": "english-unitarianism--early-american-unitarians-universalists",
+   "action": "new",
+   "from": "english-unitarianism",
+   "to": "early-american-unitarians-universalists",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "In 1786 James Freeman of King's Chapel, Boston, wrote to Lindsey about his new prayer book. He said he had tried to bring in Lindsey's whole liturgy. Belsham adds that Freeman credited Lindsey's books for spreading Unitarian belief in New England.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Thomas Belsham, American Unitarianism (Boston, 1815; from his Memoirs of Lindsey, London, 1812)",
+     "file": "cic/texts/belsham_american-unitarianism-brief-history_1815.txt",
+     "lines": "479-480",
+     "locus": "Freeman to Lindsey, 7 July 1786, in Belsham, Memoirs of Lindsey (1812), ch. on America",
+     "quote": "I endeavoured to make it so by attempting to intreduee your Liturgy entire.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Thomas Belsham, American Unitarianism (Boston, 1815; from his Memoirs of Lindsey, London, 1812)",
+     "file": "cic/texts/belsham_american-unitarianism-brief-history_1815.txt",
+     "lines": "463-465",
+     "locus": "Belsham, Memoirs of Lindsey (1812), ch. on America",
+     "quote": "a Li- turgy reformed nearly upon the plan of that which had been adopied in Kssex-Street",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Thomas Belsham, American Unitarianism (Boston, 1815; from his Memoirs of Lindsey, London, 1812)",
+     "file": "cic/texts/belsham_american-unitarianism-brief-history_1815.txt",
+     "lines": "519-521",
+     "locus": "same",
+     "quote": "This he imputes to the many excellent books published in England, and to Mr. Lindsey’s Works in particular,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "english-unitarianism.relationsSummary; .longDescription; early-american-unitarians-universalists.relationsSummary",
+   "wants": [],
+   "drafter_flags": [
+    "The note paraphrases Freeman's OCR-garbled sentence ('attempting to intreduee your Liturgy entire') rather than quoting it."
+   ],
+   "change_reason": "New: the English chapel's liturgy and books shaped the Boston church."
+  },
+  {
+   "id": "english-unitarianism--swedenborgian-new-church",
+   "action": "new",
+   "from": "english-unitarianism",
+   "to": "swedenborgian-new-church",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "In 1791 Joseph Priestley wrote open letters to the new Swedenborgian church in Birmingham. He took on its teaching that the one God is no other than Jesus Christ.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Joseph Priestley, Letters to the Members of the New Jerusalem Church (Birmingham, 1791)",
+     "file": "cic/texts/priestley_letters-to-the-members-of-the-new-jerusalem-church_1791.txt",
+     "lines": "150-153",
+     "locus": "Priestley, Letters, preface",
+     "quote": "It was the forming of a church, and the build- ing of a very elegant place of worfhip, for perfons of this perfuaiion at Birmingham,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Joseph Priestley, Letters to the Members of the New Jerusalem Church (Birmingham, 1791)",
+     "file": "cic/texts/priestley_letters-to-the-members-of-the-new-jerusalem-church_1791.txt",
+     "lines": "1068-1069",
+     "locus": "Priestley, Letters, Letter I",
+     "quote": "Holding the doftrine of one God^ you maintain that this one God is no odier than Jefus Chrift,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "english-unitarianism.relationsSummary; .longDescription",
+   "wants": [],
+   "drafter_flags": [
+    "Minor: a text war with no institutional act."
+   ],
+   "change_reason": "New."
+  },
+  {
+   "id": "swedenborgian-new-church--english-unitarianism",
+   "action": "new",
+   "from": "swedenborgian-new-church",
+   "to": "english-unitarianism",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "In 1792 Robert Hindmarsh of the New Church answered Priestley in a book of letters. He set out to show that a Socinian has no right to the name of a Christian.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Robert Hindmarsh, Letters to Dr. Priestley (London, 1792)",
+     "file": "cic/texts/hindmarsh_letters-to-dr-priestley_1792.txt",
+     "lines": "3174",
+     "locus": "Hindmarsh, Letters to Dr. Priestley, p. 78",
+     "quote": "Socinian has fco right to the name of a chriftian.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Robert Hindmarsh, Letters to Dr. Priestley (London, 1792)",
+     "file": "cic/texts/hindmarsh_letters-to-dr-priestley_1792.txt",
+     "lines": "5851-5853",
+     "locus": "same",
+     "quote": "You, Sir, as a Socinian, maintain that Jefus Chrifl: was a fnere man,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": "english-unitarianism.relationsSummary; .longDescription",
+   "wants": [],
+   "drafter_flags": [
+    "Minor: a text war with no institutional act."
+   ],
+   "change_reason": "New."
+  },
+  {
+   "id": "anti-trinitarian-currents-servetus-polish-brethr--english-unitarianism",
+   "action": "new",
+   "from": "anti-trinitarian-currents-servetus-polish-brethr",
+   "to": "english-unitarianism",
+   "type": "influenced",
+   "confidence": "Inferential-Thin",
+   "note": "English Unitarians read and retold the life of Socinus, the Polish Brethren's teacher. A Unitarian book of 1818 says John Biddle put a life of Socinus into English in 1653. It adds that Joshua Toulmin wrote a new life of him in 1777.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Thomas Rees, The Racovian Catechism, with a historical introduction (London, 1818)",
+     "file": "cic/texts/racovian-catechism_racovian-catechism_rees1818.txt",
+     "lines": "1628",
+     "locus": "Rees, Historical Introduction, note",
+     "quote": "An English translation of this, from the pen of John Bicldle,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Thomas Rees, The Racovian Catechism, with a historical introduction (London, 1818)",
+     "file": "cic/texts/racovian-catechism_racovian-catechism_rees1818.txt",
+     "lines": "1629-1630",
+     "locus": "same",
+     "quote": "Doctor Toulmin gave to the public in 1/77, an excellent life of this celebrated individual",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Thomas Rees, The Racovian Catechism, with a historical introduction (London, 1818)",
+     "file": "cic/texts/racovian-catechism_racovian-catechism_rees1818.txt",
+     "lines": "2341-2342",
+     "locus": "Rees, note",
+     "quote": "Mr. Lindsey's \" Historical View of the State of the Unitarian Doctrine from the Reformation to our own Times,\"",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-direct",
+   "named_in_text": "english-unitarianism.relationsSummary; .longDescription",
+   "wants": [
+    "Joshua Toulmin, Memoirs of the Life of Faustus Socinus (1777)",
+    "Theophilus Lindsey, An Historical View of the State of the Unitarian Doctrine and Worship (1783)"
+   ],
+   "drafter_flags": [
+    "Rests on one 1818 account. Toulmin's Life of Socinus (1777) and Lindsey's Historical View (1783) are not vendored, so the link cannot be Documented. The 1653 Life itself is vendored (przypkowski_life-of-faustus-socinus_bidle1653.txt), but its translator is named only in the host record, and 1653 is before this entry's span."
+   ],
+   "change_reason": "New."
+  }
+ ],
+ "retire_links": [],
+ "wants": [
+  "New France: any text in a convert's own hand, or a Huron or Algonquin account of the mission, 1610-1650 (none known to be vendorable; the converts are heard only through the Relations).",
+  "New France: the Relations after 1650 (Thwaites vols. 36 on) and a source on the Huron Christians at Quebec after 1650, to tell what became of them.",
+  "New Sweden: the congregations' own church books (Gloria Dei and Holy Trinity records), Campanius's Description (1702), and a source on the congregations after 1786.",
+  "New Sweden: a Moravian account of the 1742-1745 contest for the Swedish congregations.",
+  "English Unitarianism: Lindsey's Apology (1774) and Historical View (1783); Belsham's Memoirs of Lindsey (1812) whole; Toulmin's Life of Socinus (1777).",
+  "English Unitarianism: Nye's history of the Unitarians (1687; the title and first name are from outside the repo and need confirming), and John Biddle's own tracts; nothing by or about Nye is vendored.",
+  "English Unitarianism: the text of the Doctrine of the Trinity Act 1813 (the end date rests on one 1910 editor's note).",
+  "English Unitarianism: a source on the movement after 1813 (named gap by principle 3)."
+ ],
+ "flags": [
+  "New France: modernCountries left empty, as on its siblings (New Spain and the Andes, Ming China): no census entry carries Quebec or Canada IDs, so none was typed.",
+  "New France: the label entry mission-born-christianities-kirishitan-japan-kon still says it names 'four Christianities' and lists Japan, Kongo, China and New Spain/Andes. With a fifth regional entry, its name, statusDescription and longDescription may need a line; not changed here (another entry's text). The atlasId of the sibling series (VI.13a-d) suggests VI.13e.",
+  "New France: living true and a livingEvidence object with only descentConfidence (Inferential-Thin) and basis, as the census meta allows; the siblings are living true with no livingEvidence. Reviewer to confirm.",
+  "New France: Membertou (1610) was baptized by the secular priest Fléché, before the Jesuits came; the prose now says so. The Jesuit link rests on Sillery and the Huron mission.",
+  "New France: informalName kept as 'The Huron and Algonquin Christians', the wording of Mark's ruling; the Acadian start is told in the prose instead (review M24).",
+  "For Mark, among this release's floor placements: english-unitarianism is placed beyond the floor (lane 8, Floor Question (register), statusWord 'Creedal question — not yet resolved') by precedent from early-american-unitarians-universalists. No floor finding is made.",
+  "New France: the Relations say two Iroquois killed Chihwatenhwa. Some later historians read his death differently; no such study is cited in the repo, so the prose attributes the claim to the Jesuit report and grades nothing beyond it.",
+  "New Sweden: span 1638-1786 by evidence. The start is Fort Christina (Acrelius). The end rests on the 1874 editor Reynolds (Sweden sent pastors 1696-1786), graded Inferential-Thin; Acrelius's own narrative stops in 1756. If Mark prefers the own-voice end, use 1756.",
+  "New Sweden: modernCountries carries Pennsylvania only (Wicaco, now Philadelphia). No census entry carries Delaware or New Jersey IDs, so Christina (Wilmington, Delaware) and Raccoon/Penns Neck (New Jersey) have none.",
+  "New Sweden: living false. The old churches are known to survive as Episcopal parishes, but no repo source says so; nothing about after 1786 is claimed. Reviewer to decide whether a successor gap should be named.",
+  "New Sweden: the Moravian link carries an outcome on an arbitration ruling; whether that meets the step 4b 'authority' test needs the reviewer's judgment.",
+  "New Sweden: era 8 by the bulk of its span (1638 falls in era 7), as the candidates note proposed.",
+  "English Unitarianism: floor handling copied exactly from early-american-unitarians-universalists (lane 8, laneLabel Non-Nicene Traditions, laneOrder 80, beyondFloor true, status Floor Question (register), chip psc, glyph flq), and the floorNote follows its Unitarian thread's wording ('in its own confessions ... Neither is treated as a fully settled question'). statusWord is 'Creedal question — not yet resolved', the form undecided register entries carry (review M19). No floor question was decided.",
+  "English Unitarianism: span 1774-1813. The end is the 1813 law (one 1910 editor's note, Inferential-Thin); the last own voice is Belsham, 1812. Principle 3 named gap after 1813.",
+  "English Unitarianism: Nye is named only in the sourcing line, with his absence stated (ruling M18); no first name is given, since no vendored source supplies one.",
+  "English Unitarianism: 'London' has no place ID in the census; modernCountries carries England (Q21) only, so the place label reads 'England' (the validator requires the label to carry the modern place).",
+  "Neighbor overlap, not changed: early-american-unitarians-universalists lists Theophilus Lindsey among its voices and names the Essex Street chapel in its sourcing; english-old-dissent lists Joseph Priestley among its voices. With a home for both, their owners may want to trim or point to this entry.",
+  "Neighbor overlap, not changed: the Library shelves of english-old-dissent and early-american-unitarians-universalists hold the Lindsey sermon and Priestley rows; the corpus-map row note on english-old-dissent asks 'which world owns Essex Street'. This entry answers that for the census only; the Library rows are for the Library thread.",
+  "documentedStories left empty for all three (optional). Candidates if wanted: New France, the captains' plea on Saint Joseph Island (1650); New Sweden, Springer's letter (1693); English Unitarianism, the opening of Essex Street (1774).",
+  "experienceToday not added: no visitor URL is cited in the repo for these places."
+ ]
+}

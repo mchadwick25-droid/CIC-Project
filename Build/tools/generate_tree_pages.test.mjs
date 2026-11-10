@@ -159,6 +159,24 @@ test('a person page says which tradition tells it, and carries that world door w
   assert.match(generate(c)(`tree/${person.id}.html`), /A person whose story no single tradition tells\./);
 });
 
+test('the map leaves person entries and their links out until it has a people view', () => {
+  const map = fs.readFileSync(path.join(root, 'cft-website/index.html'), 'utf8');
+  const at = map.indexOf("const PERSON_IDS=new Set(DATA.movements.filter(m=>m.kind==='person')");
+  assert.ok(at > 0);
+  assert.ok(at < map.indexOf('const byId={}; DATA.movements.forEach'));
+  assert.match(map, /DATA\.edges=DATA\.edges\.filter\(e=>!PERSON_IDS\.has\(e\.from\)&&!PERSON_IDS\.has\(e\.to\)\);/);
+});
+
+test('a movement that names no one says why, in its own People section', () => {
+  const c = structuredClone(census);
+  const m = c.movements.find(x => x.kind !== 'person');
+  m.people = [];
+  m.peopleNote = 'The Library holds no words of its own leaders.';
+  assert.match(generate(c)(`tree/${m.id}.html`), /<h2>People<\/h2>\s*<p class="people-note">The Library holds no words of its own leaders\.<\/p>/);
+  delete m.peopleNote;
+  assert.doesNotMatch(generate(c)(`tree/${m.id}.html`), /<h2>People<\/h2>/);
+});
+
 test('every page states its review status in plain words', () => {
   const c = structuredClone(census);
   const [a, b] = c.movements;

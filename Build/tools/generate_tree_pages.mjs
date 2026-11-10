@@ -106,6 +106,7 @@ li{margin-bottom:.5rem}
 .people-list{list-style:none;padding:0;margin:0}
 .people-list li{margin:.4rem 0}
 .people-list .ident{display:inline;margin:0 0 0 .4rem}
+.people-note{color:var(--muted)}
 .review-status{font-family:var(--sans);font-size:.92rem;color:var(--muted);margin:2.5rem 0 0;padding-top:1rem;border-top:1px solid var(--rule)}
 .site-footer{border-top:1px solid var(--rule);background:var(--surface);font-family:var(--sans);font-size:.85rem;color:var(--muted);margin-top:3rem;padding:1.5rem 1.25rem}
 .site-footer .row{max-width:var(--wide);margin:0 auto}
@@ -345,7 +346,13 @@ function toldWithinLine(movement) {
 
 function peopleHtml(movement) {
   const people = movement.people || [];
-  if (!people.length) return '';
+  if (!people.length) {
+    if (!movement.peopleNote) return '';
+    return `<section>
+    <h2>People</h2>
+    <p class="people-note">${escapeHtml(movement.peopleNote)}</p>
+  </section>`;
+  }
   const items = people.map(p => {
     if (p.person) {
       const who = movementMap.get(p.person);

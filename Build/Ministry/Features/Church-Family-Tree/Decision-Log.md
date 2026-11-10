@@ -917,3 +917,38 @@ Open-Gaps 135 and 142 that fall in its region. That includes Mark's test that a 
 another movement, such as the Jesuits' worldwide missions, is not split off. Eras 8 and 9 are
 frozen, so the results come to Mark's gate as change orders.
 
+---
+
+## 2026-11-10 — The people list ruled; P2-G3 applied as data release 29
+
+**How it was reached.** P2-G3 published the people list for Mark (https://claude.ai/artifact/BDrnfEJ6WH5rn4tizoGxeE):
+the 22 person entries, every tradition's people row, and five questions, each with options and a
+recommendation. Mark answered "A a, B a, C a, D a, E a" (2026-11-10).
+
+**Decided (Mark).**
+- **A.** Athanasius is told within the catechetical school, where the Library shelves his works
+  (principle 4). II.1's text names him as its first bishop and links to his page.
+- **B.** A person told within no tradition (Jovinian, Peter the Iberian) is a Pre-Survey Candidate
+  with the status word "Told within no tradition". No new status.
+- **C.** A named voice counts on words of their own: their own writing, a document issued or signed
+  in their name, or verbatim minutes. Speech that others report for them, and works of disputed
+  authorship, do not count, for quotes and Library rows alike.
+- **D.** The people the later-worlds count found are held for a follow-up: the count is re-run with
+  each alias checked for namesakes and the editions' own notes left out, and the clean list goes to
+  Mark. The 22 ship now.
+- **E.** The later Carthusian movement runs 1300 to 1534. 1534 onward is held as a named gap until
+  the Library holds a voice of its own (principle 3; Chauncy's Historia is wanted).
+
+**Decided (Mark, 2026-11-10, asked after the release was built).** Until the map has its people view
+(P2-P), it leaves person entries, Tertullian included, and the links whose end is a person out of the
+map. Shown with: show them as tradition dots for now, as Tertullian was.
+
+**Decided in the build, under the rulings.**
+- A movement whose people row is empty carries `peopleNote`, one plain sentence saying why. This
+  carries principle P4b's "its card says why" into the census; the validator requires it and the tree
+  page shows it.
+- Where a link names two person entries, `concerns` names the person whose words its sources quote
+  (the two links to the Reformed cities go to Calvin).
+
+**Applied.** Data release 29: 353 movements, 689 links. Audit:
+`Build/Ministry/Operations/Audits/2026-11-10_agreed-entries/`. Open items: Open-Gaps 150 to 156.

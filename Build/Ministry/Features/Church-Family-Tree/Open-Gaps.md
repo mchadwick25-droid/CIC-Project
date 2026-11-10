@@ -1044,3 +1044,58 @@ it, never by deleting it.
       longDescription of `ecumenical-community-worlds-taize-and-iona` and
       `oneness-pentecostalism`. These join the five of Open-Gaps 145 for a paid re-voice, on
       Mark's approval after a sample.
+150. **What P2-G3 settles (2026-11-10).** Data release 29 carries the agreed entries (audit:
+    `Build/Ministry/Operations/Audits/2026-11-10_agreed-entries/`). It closes these parts of "What
+    P2-G2 leaves for P2-G3" (2026-11-09): II.1 now runs from 328 with Athanasius; the desert monks'
+    "gave rise to" link is retired for the "influenced" link on the same pair; Tertullian's display
+    name is "Tertullian"; the four links naming him are read (one concerns him); every tradition has
+    its people row, with each quote's speaker confirmed by the reviewer. From "The gap sweep is
+    ruled" (2026-11-09) it builds the seven new movements, the Mennonite and Melkite successors, the
+    later Carthusian movement (1300 to 1534) and the person entries. The Theophilus row stays with
+    the Library thread ("Library shelf moves the release points to", 2026-11-10).
+151. **The people the later-worlds count found, held for a follow-up (2026-11-10).** Mark's answer
+    D a. As written, the rule passes 125 people, most from eras 1 and 2, and the count is noisy:
+    namesakes (Jerome Lalemant counts for Jerome) and the editions' own notes and indexes count as
+    mentions. Before any of them gets an entry: check each alias for namesakes, leave out editorial
+    matter, re-run, and put the clean list to Mark. Result and scripts:
+    `Build/Ministry/Operations/Audits/2026-11-10_agreed-entries/counts/`. Owner: a P2-G3 follow-up.
+152. **Library shelf moves the release points to (2026-11-10).** For the Library thread; the corpus
+    map was not edited:
+    - the Theophilus row (`npnf214_seven-ecumenical-councils`) may move to II.1, now that II.1 starts
+      in 328;
+    - Bell 1924, Part II (the Melitian papyri) sits on `desert-monasticism`'s shelf and belongs on a
+      new `melitian-schism` shelf;
+    - the nine new movements have no shelves yet;
+    - Busch's Chronicon Windeshemense is on the Devotio Moderna shelf as context; ruling 51 makes it
+      the houses' own voice (role tradition);
+    - Love's Mirror is shelved on the mystics and lay-piety entries; it is the later Carthusians' own
+      voice;
+    - Simeon of Beth Arsham's letter and Life are shelved as context on Aksum and the Church of the
+      East, while ruling 15 tells him within the Syriac Orthodox church.
+153. **Places with no source ID (2026-11-10).** No census entry has a gazetteer ID for these places,
+    so the new entries leave them out of `modernCountries` rather than type an ID from memory:
+    Quebec (New France lists no country), Cagliari, Delaware and New Jersey, London, Bruges, Deventer
+    and Mount St Agnes (Thomas à Kempis lists none), Antwerp, Worms and Vilvoorde, Maiuma and Gaza,
+    Upper Hungary and Indiana. Owner: the place-label work (PL2's method: looked up, never from
+    memory).
+154. **The Martyrs Mirror file is a modern printing (2026-11-10).**
+    `cic/texts/van-braght_martyrs-mirror_sohm1886.txt` is a 2012 Herald Press printing with a 1938
+    copyright notice; its front matter is not public domain. Release 29 quotes only van Braght's own
+    text from it, in Sohm's 1886 translation. Owner: the Library thread (a suggested task is queued).
+155. **Open points left by P2-G3 (2026-11-10).**
+    - The later Carthusian entry ends in 1534; with 1534 onward a named gap, the reviewer suggested
+      1539, when the English houses closed (in the Library). Left at 1534.
+    - The desert monks' "influenced" link on II.1 rests on 457 evidence, after the monks' entry ends
+      (c. 430), as the published link already did. For P2-L11.
+    - No entry holds the church of Alexandria before 328 (Peter, Achillas, Alexander).
+    - Two-way checks for the home texts: the person links are named on the person pages, not yet in
+      their home movements' text (for example, the Methodist revival's text does not name Luther).
+    - Nestorius's working years run past his home entry's end (430); his page says so.
+    - For entry owners: `carthusian-life` says the order kept its shape "ever since", now that it
+      has a successor; Ambrose's home text says he was consecrated "within the week", where the
+      source says eight days.
+156. **Recordings for the new pages wait for the one batch (2026-11-10).** Mark ruled (2026-11-10)
+    that all tree recording waits for one batch after P2-L10 and P2-G3 have both merged. Release 29
+    adds 31 new tree pages (38,112 characters), 3 pages whose text changed (3,898) and 6 stories
+    (3,508): 45,518 characters in all. No sample was prepared and no paid call made. Owner: this
+    thread, at the batch.

@@ -35,12 +35,19 @@ test("a person entry needs toldWithin", () => {
 });
 
 test("a person may be told within no tradition", () => {
-  assert.deepEqual(errorsFor((c, m) => { m(PERSON).toldWithin = null; m(HOME).people = []; }), []);
+  assert.deepEqual(errorsFor((c, m) => { m(PERSON).toldWithin = null; m(HOME).people = []; m(HOME).peopleNote = "No one is shown."; }), []);
 });
 
 test("toldWithin must name a movement that lists the person", () => {
   assert.equal(errorsFor((c, m) => { m(PERSON).toldWithin = "no-such-movement"; }).length, 2);
-  assert.equal(errorsFor((c, m) => { m(HOME).people = []; }).length, 1);
+  assert.equal(errorsFor((c, m) => { m(HOME).people = []; m(HOME).peopleNote = "No one is shown."; }).length, 1);
+});
+
+test("a movement that names no one says why in peopleNote, and only then", () => {
+  assert.equal(errorsFor((c, m) => { m(PERSON).toldWithin = null; m(HOME).people = []; delete m(HOME).peopleNote; }).length, 1);
+  assert.equal(errorsFor((c, m) => { m(PERSON).toldWithin = null; m(HOME).people = []; m(HOME).peopleNote = " "; }).length, 1);
+  assert.equal(errorsFor((c, m) => { m(HOME).peopleNote = "No one is shown."; }).length, 1);
+  assert.equal(errorsFor((c, m) => { m(PERSON).peopleNote = "No one is shown."; }).length, 1);
 });
 
 test("toldWithin is only for a person entry", () => {

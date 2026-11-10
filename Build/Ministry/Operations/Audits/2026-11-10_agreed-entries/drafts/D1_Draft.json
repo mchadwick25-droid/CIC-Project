@@ -1,0 +1,1456 @@
+{
+ "retired_link_updates": [
+  {
+   "id": "desert-monasticism--cyrilline-miaphysite-egyptian-tradition",
+   "replacedBy": "desert-monasticism--cyrilline-miaphysite-egyptian-christianity",
+   "reason": "Its first replacement, the 'gave rise to' link on the same pair, is retired in this release: the church of Alexandria now starts in 328, before the desert monks. The surviving link between the two says the monks influenced the church."
+  }
+ ],
+ "entries": [
+  {
+   "id": "melitian-schism",
+   "atlasId": "TBD",
+   "era": 2,
+   "name": "The Melitian Schism",
+   "shortName": "Melitians",
+   "informalName": "The Church of Melitius in Egypt",
+   "dates": "c. 306-8th c.",
+   "start": 306,
+   "end": 768,
+   "region": "Alexandria and Egypt (Lycopolis, the Nile valley and the eastern desert)",
+   "placeLabel": "Alexandria · Egypt",
+   "modernCountries": [
+    {
+     "country": "Egypt",
+     "countryId": "Q79",
+     "place": "Alexandria",
+     "placeId": "Q87",
+     "pleiadesId": "727070"
+    },
+    {
+     "country": "Egypt",
+     "countryId": "Q79",
+     "place": "Egypt",
+     "placeId": "Q79"
+    }
+   ],
+   "regions": [
+    "Africa"
+   ],
+   "lane": "4 Africa",
+   "laneLabel": "Africa",
+   "laneOrder": 4,
+   "beyondFloor": false,
+   "status": "Pre-Survey Candidate",
+   "chip": "psc",
+   "glyph": "psc",
+   "statusWord": "Added for the Library, not yet researched",
+   "statusDescription": "Not yet researched or tiered; added so that works in the Library have a place on the Atlas.",
+   "living": false,
+   "overlayCurrent": false,
+   "c2": null,
+   "sourcing": "Rare for a schism: some of its own voice survives. A small set of its monks' letters from the 330s, in Greek and Coptic, was published by H. Idris Bell in 1924. They stand beside the hostile accounts of Athanasius, the Council of Nicaea and the church historians. After the fourth century it is known only through others' records.",
+   "floorNote": "At the start this was a quarrel over church order, not over belief. Later opponents said the Melitians sided with Arius's party. Those charges come only from outside.",
+   "relationsSummary": "A rival church to the bishops of Alexandria from about 306. It broke with them, and its members brought charges against Athanasius. The Council of Nicaea tried to settle the split in 325. Antony of the desert would hold no communion with it.",
+   "why": "A quarrel between two bishops in a time of persecution split the church of Egypt for more than two centuries. The Melitians kept their own bishops, priests and monks. They fought Athanasius before councils and emperors. Their letters, in Greek and Coptic, let them speak for themselves.",
+   "entry": null,
+   "teaser": "Egypt, c. 306 to the 700s — a rival church born of a quarrel in a time of persecution, whose monks fought Athanasius and left their own letters behind.",
+   "longDescription": "In the last great persecution, Melitius was bishop of Lycopolis in Upper Egypt. He began to ordain clergy in other bishops' lands. Four bishops wrote to him in protest. Peter, bishop of Alexandria, wrote that Melitius had made clergy of his own even in the prison. Peter told his people to hold no communion with him.\n\nWhy the quarrel began is disputed. Athanasius and Socrates, a church historian, say Peter deposed Melitius. The charge, they say, was that he had offered sacrifice to idols. Both wrote as his opponents. H. Idris Bell, who edited the Melitians' own letters in 1924, read it as a quarrel over the lapsed. The question, he wrote, was how long to wait before taking them back.\n\nMelitius went on making bishops of his own. In 325 the Council of Nicaea let him keep the title of bishop but forbade him to ordain anyone. The peace did not last. Before he died, Melitius named a friend, John, as his successor, and his church stood apart again.\n\nUnder Athanasius, bishop from 328, the fight grew bitter. Socrates says his foes used Melitians to bring charges against him. In 335 a synod at Tyre voted to depose him. A man once a Melitian bishop signed the vote. Around then a Melitian monk named Callistus wrote home from Alexandria. Men on Athanasius's side, he says, came with soldiers. They beat Melitian monks and locked some up.\n\nThat letter belongs to a small set of papyri from the 330s, published in 1924. Most are letters to Apa Paieous, a priest and confessor. He led a large community of Melitian monks at Hathor, in the eastern desert. Some letters are in Coptic. They speak of prayers for one another, of care for brothers in trouble, and of bread and wheat.\n\nThe Melitians lasted long after Athanasius. In the fifth century Theodoret wrote that bodies of their monks still kept their own ways. Papyri of 512 show a Melitian priest buying a monastery near Arsinoe. The History of the Patriarchs says Patriarch Damian, from 569, drove them out of the monasteries of Wadi Habib. Bell, citing a later part of the History of the Patriarchs, puts the last report of them under Michael I, patriarch from 744 to 768.",
+   "voices": [
+    "Melitius of Lycopolis — the bishop whose ordinations in other bishops' districts began the split, around 306",
+    "John Archaph — the friend Melitius named as his successor, against the terms of Nicaea",
+    "Apa Paieous — priest and confessor, head of the Melitian monks at Hathor in the 330s, to whom most of the surviving letters are addressed",
+    "Callistus — the Melitian monk whose letter from Alexandria tells how men on Athanasius's side beat and locked up his brothers",
+    "Arsenius — a former Melitian bishop said to have been murdered by Athanasius, who turned up alive and signed his deposition at Tyre in 335"
+   ],
+   "legacy": "No church today descends from the Melitians. Their papyri give something rare: the losing side of an early church quarrel, in its own words. Most of what is known of such groups comes only from their enemies. The letters also show an organized community of Egyptian monks in the 330s, outside the main church.",
+   "documentedStories": [
+    {
+     "title": "A Night of Soldiers at the Camp",
+     "when": "Pachon (May), probably 335",
+     "tier": "1",
+     "verification": "checked directly against the primary text",
+     "teaser": "A Melitian monk in Alexandria writes home. Men on Athanasius's side came with soldiers, he says. They beat four brothers and locked up five more.",
+     "text": "Callistus wrote to 'Apa Paiéou and Patabeit, priests', at the Melitian monks' settlement. He tells them that Isaac, a Melitian bishop, came to Alexandria to dine with Heraiscus in the Camp. Men on Athanasius's side heard of it and came with soldiers. Callistus says they were drunk. Friendly soldiers hid the bishop and his brothers in the store-rooms. The others beat four brothers bloody and threw them out of the town. They seized five more at the hostel where the brothers stayed. They asked its keeper, 'For what reason did you admit the monks of the Meletian party into the hostel?' Callistus ends by asking for a few loaves, since wheat had grown dear.",
+     "caveat": "This is one side's letter. Bell, its editor, thought its facts could hardly be doubted, but that Athanasius himself was probably not behind the soldiers' violence. The date rests on Bell's reading.",
+     "sources": [
+      {
+       "work": "H. Idris Bell, Jews and Christians in Egypt (1924), Part II, 'The Meletian Schism', papyrus 1914 (letter of Callistus)",
+       "type": "primary",
+       "note": "The letter, in Bell's translation.",
+       "file": "cic/texts/bell_jews-christians-egypt-meletian-papyri_1924.txt",
+       "lines": "4712-4713",
+       "quote": "For what reason did you admit the monks of the Meletian party into the hostel?"
+      },
+      {
+       "work": "H. Idris Bell, Jews and Christians in Egypt (1924), Part II, 'The Meletian Schism', papyrus 1914",
+       "type": "primary",
+       "note": "The beating.",
+       "file": "cic/texts/bell_jews-christians-egypt-meletian-papyri_1924.txt",
+       "lines": "4704",
+       "quote": "they beat them and made them all bloody,"
+      },
+      {
+       "work": "H. Idris Bell, Jews and Christians in Egypt (1924), Part II, 'The Meletian Schism', commentary on papyrus 1914",
+       "type": "secondary",
+       "note": "Bell's caution.",
+       "file": "cic/texts/bell_jews-christians-egypt-meletian-papyri_1924.txt",
+       "lines": "4383",
+       "quote": "the letter of Callistus also is an ex parte"
+      }
+     ]
+    }
+   ],
+   "people": [],
+   "reviewStatus": "AI-checked"
+  }
+ ],
+ "fact_table": [
+  {
+   "entry": "cyrilline-miaphysite-egyptian-christianity",
+   "field": "longDescription",
+   "sentence": "In 328 Athanasius became bishop of Alexandria.",
+   "file": "cic/texts/bell_jews-christians-egypt-meletian-papyri_1924.txt",
+   "lines": "3261",
+   "quote": "the accession of Athanasius 8 June of the same year",
+   "grade": "Widely Accepted",
+   "note": "Bell reads the date from the Index to the Festal Letters; Bell 1924 is vendored (secondary)."
+  },
+  {
+   "entry": "cyrilline-miaphysite-egyptian-christianity",
+   "field": "longDescription",
+   "sentence": "The Coptic church still counts him as its twentieth patriarch.",
+   "file": "cic/texts/severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt",
+   "lines": "28113",
+   "quote": "ATHANASIUS I, THE APOSTOLIC, THE TWENTIETH PATRIARCH.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "cyrilline-miaphysite-egyptian-christianity",
+   "field": "longDescription",
+   "sentence": "He wrote and fought against the teaching of Arius.",
+   "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+   "lines": "40856",
+   "quote": "Against the Arians. (Orationes contra Arianos IV.)",
+   "grade": "Documented",
+   "note": "Apol. c. Ar. 71; his Orations against the Arians are on the catechetical shelf. 'All his life' is a summary."
+  },
+  {
+   "entry": "cyrilline-miaphysite-egyptian-christianity",
+   "field": "longDescription",
+   "sentence": "His foes had him deposed at Tyre in 335, and the Melitians ... helped bring the charges.",
+   "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+   "lines": "5216-5217",
+   "quote": "he who had formerly been a bishop of the Melitian heresy subscribed to the deposition of Athanasius",
+   "grade": "Documented"
+  },
+  {
+   "entry": "cyrilline-miaphysite-egyptian-christianity",
+   "field": "longDescription",
+   "sentence": "His foes had him deposed at Tyre in 335 (charges through the Melitians).",
+   "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+   "lines": "4946-4948",
+   "quote": "suborn by bribes certain of the Melitian heresy to fabricate various charges against Athanasius;",
+   "grade": "Documented",
+   "note": "Socrates I.27; the bribery is Socrates' partisan claim and is not repeated in the text."
+  },
+  {
+   "entry": "cyrilline-miaphysite-egyptian-christianity",
+   "field": "longDescription",
+   "sentence": "Cyril became bishop in 412.",
+   "file": "cic/texts/severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt",
+   "lines": "34067",
+   "quote": "CYRIL I. A. D. 412-444.",
+   "grade": "Documented",
+   "note": "HP running head; OCR garbles some heads, this one is clean."
+  },
+  {
+   "entry": "cyrilline-miaphysite-egyptian-christianity",
+   "field": "longDescription",
+   "sentence": "He fought Nestorius ... over a title for Mary: Theotokos.",
+   "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+   "lines": "20918-20919",
+   "quote": "Let Mary be called <i>Theotocos,</i> if you will, and let all disputing cease.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "cyrilline-miaphysite-egyptian-christianity",
+   "field": "longDescription",
+   "sentence": "At Ephesus in 431 Cyril's side met before the bishops from Syria arrived. They deposed Nestorius.",
+   "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+   "lines": "20900-20902",
+   "quote": "That section which supported Cyril, having constituted themselves a council, summoned Nestorius: but he refused to meet them, and put them off until the arrival of John of Antioch.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "cyrilline-miaphysite-egyptian-christianity",
+   "field": "longDescription",
+   "sentence": "he was sent into exile.",
+   "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+   "lines": "20920-20921",
+   "quote": "his deposition was not revoked, and he was banished to the Oasis, where he still remains.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "cyrilline-miaphysite-egyptian-christianity",
+   "field": "longDescription",
+   "sentence": "In 451 the Council of Chalcedon said Christ must be confessed \"in two natures\".",
+   "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+   "lines": "20287-20288",
+   "quote": "This one and the same Jesus Christ, the only-begotten Son [of God] must be confessed to be in two",
+   "grade": "Documented"
+  },
+  {
+   "entry": "cyrilline-miaphysite-egyptian-christianity",
+   "field": "longDescription",
+   "sentence": "It also deposed Dioscorus ... who would not come when called three times.",
+   "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+   "lines": "20087-20090",
+   "quote": "for even when called to answer your accusers three times by this holy and great synod according to the divine canons you did not come.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "cyrilline-miaphysite-egyptian-christianity",
+   "field": "longDescription",
+   "sentence": "In Egypt, clergy, monks and people broke with the bishop the council put in his place.",
+   "file": "cic/texts/zachariah-rhetor_chronicle_hamiltonbrooks1899.txt",
+   "lines": "2542-2543",
+   "quote": "in the monasteries, and severed themselves from his communion.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "cyrilline-miaphysite-egyptian-christianity",
+   "field": "longDescription",
+   "sentence": "From then on Alexandria had two lines of bishops. One was backed by the emperors.",
+   "file": "cic/texts/john-ephesus_ecclesiastical-history-part3_paynesmith1860.txt",
+   "lines": "11045-11048",
+   "quote": "the blessed Theodo- sius being required to receive the council, and having refused, was ejected by the king from his throne",
+   "grade": "Documented"
+  },
+  {
+   "entry": "cyrilline-miaphysite-egyptian-christianity",
+   "field": "longDescription",
+   "sentence": "This page follows the other, the line most Egyptians kept.",
+   "file": null,
+   "lines": null,
+   "quote": null,
+   "grade": "Widely Accepted",
+   "note": "No vendored source; secondary, locus not checked. W. H. C. Frend, The Rise of the Monophysite Movement (1972), already cited on this entry; 'most Egyptians' is the consensus reading, not a count."
+  },
+  {
+   "entry": "cyrilline-miaphysite-egyptian-christianity",
+   "field": "longDescription",
+   "sentence": "In 457 its people asked the monks to help choose a bishop, and they chose Timothy, once a monk in the desert.",
+   "file": "cic/texts/zachariah-rhetor_chronicle_hamiltonbrooks1899.txt",
+   "lines": "3286-3289",
+   "quote": "And they agreed upon Timothy, a man expert in business 5 and of ascetic life ; who had been brought from the wilderness, by force, to Cyril, and ordained as presbyter by him.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "cyrilline-miaphysite-egyptian-christianity",
+   "field": "longDescription",
+   "sentence": "Only one bishop could be found to consecrate him, so the people brought in a second, Peter the Iberian.",
+   "file": "cic/texts/life-of-peter-the-iberian_petrus-der-iberer-deu_raabe1895.txt",
+   "lines": "3427-3428",
+   "quote": "da sich nur einer von den orthodoxen Bischöfen, nämlich Eusebius vonPelusium, fand,",
+   "grade": "Documented",
+   "note": "Life of Peter the Iberian (Raabe 1895); P2 draws the in-contact link cyrilline...--peter-the-iberian."
+  },
+  {
+   "entry": "cyrilline-miaphysite-egyptian-christianity",
+   "field": "longDescription",
+   "sentence": "In 457 its people asked the monks to help choose a bishop.",
+   "file": "cic/texts/zachariah-rhetor_chronicle_hamiltonbrooks1899.txt",
+   "lines": "3282-3284",
+   "quote": "they all took courage, and consulted with the whole order of the monks as to whom they should make the bishop of the believing party.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "cyrilline-miaphysite-egyptian-christianity",
+   "field": "longDescription",
+   "sentence": "After 518 Severus of Antioch, driven from Syria, lived in exile among them.",
+   "file": "cic/texts/zachariah-rhetor_chronicle_hamiltonbrooks1899.txt",
+   "lines": "10223-10224",
+   "quote": "others withdrew to Alexandria and various other countries, walking in the footsteps of the chief priest, Severus the doctor.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "cyrilline-miaphysite-egyptian-christianity",
+   "field": "longDescription",
+   "sentence": "Over these years Coptic ... took a larger place beside Greek.",
+   "file": null,
+   "lines": null,
+   "quote": null,
+   "grade": "Widely Accepted",
+   "note": "No vendored source; secondary, locus not checked. Stephen J. Davis, The Early Coptic Papacy (2004), already cited on this entry. Vendored Coptic texts on the shelf (Pisentius, Epiphanius ostraca) show the use, not the trend."
+  },
+  {
+   "entry": "cyrilline-miaphysite-egyptian-christianity",
+   "field": "longDescription",
+   "sentence": "Chalcedon itself took Cyril's letters as a guide to the faith.",
+   "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+   "lines": "20259",
+   "quote": "synodical letters of the Blessed Cyril, Pastor of the Church of",
+   "grade": "Documented"
+  },
+  {
+   "entry": "cyrilline-miaphysite-egyptian-christianity",
+   "field": "longDescription",
+   "sentence": "The Coptic church holds that Dioscorus kept that faith in the see of Saint Mark, and that the council broke it.",
+   "file": "cic/texts/severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt",
+   "lines": "35108-35109",
+   "quote": "He preserved the orthodox faith, which persists in the see of the evangelist Saint Mark to this day",
+   "grade": "Documented"
+  },
+  {
+   "entry": "cyrilline-miaphysite-egyptian-christianity",
+   "field": "longDescription",
+   "sentence": "Who were the true heirs of Athanasius and Cyril? That is still disputed.",
+   "file": null,
+   "lines": null,
+   "quote": null,
+   "grade": "Contested",
+   "note": "Mark's ruling 1 (Decision-Log 2026-11-09). Both sides' claims are the two rows above."
+  },
+  {
+   "entry": "cyrilline-miaphysite-egyptian-christianity",
+   "field": "longDescription",
+   "sentence": "Arab armies took Egypt between 640 and 642.",
+   "file": "cic/texts/john-nikiu_chronicle_charles1916.txt",
+   "lines": "198",
+   "quote": "How the Moslem took Misr in the",
+   "grade": "Widely Accepted",
+   "note": "John of Nikiu documents the conquest; the years 640-642 are a well-known date (ruling 109), not read from this line. Baladhuri, Origins of the Islamic State, Part VII (Hitti 1916), already on this entry's shelf as context for 640-642; not quoted here."
+  },
+  {
+   "entry": "cyrilline-miaphysite-egyptian-christianity",
+   "field": "longDescription",
+   "sentence": "Benjamin ... came back to Alexandria.",
+   "file": "cic/texts/john-nikiu_chronicle_charles1916.txt",
+   "lines": "12005-12007",
+   "quote": "And Abba Benjamin, the patriarch of the Egyptians, returned to the city of Alexandria in the thirteenth year after his flight from the Romans,",
+   "grade": "Documented"
+  },
+  {
+   "entry": "cyrilline-miaphysite-egyptian-christianity",
+   "field": "longDescription",
+   "sentence": "The conqueror told him to govern his churches again.",
+   "file": "cic/texts/severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt",
+   "lines": "44689-44690",
+   "quote": "Resume the government of all thv churches and of thy people, and administer their affairs.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "cyrilline-miaphysite-egyptian-christianity",
+   "field": "relationsSummary",
+   "sentence": "It gave Aksum its first bishop.",
+   "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+   "lines": "36150",
+   "quote": "this Frumentius was advanced to his present rank by Athanasius",
+   "grade": "Documented"
+  },
+  {
+   "entry": "cyrilline-miaphysite-egyptian-christianity",
+   "field": "relationsSummary",
+   "sentence": "later sent a mission to Nubia.",
+   "file": "cic/texts/john-ephesus_ecclesiastical-history-part3_paynesmith1860.txt",
+   "lines": "11118-11120",
+   "quote": "The chief charge of the new converts was vested in Theodosius, as being patriarch of Alex andria",
+   "grade": "Documented",
+   "note": "Existing link cyrilline...--nubian-christianity."
+  },
+  {
+   "entry": "cyrilline-miaphysite-egyptian-christianity",
+   "field": "relationsSummary",
+   "sentence": "kept one faith with the Syriac Orthodox.",
+   "file": "cic/texts/zachariah-rhetor_chronicle_hamiltonbrooks1899.txt",
+   "lines": "13986-13987",
+   "quote": "the chief priest, my lord Theodosius, Severus greeting in our Lord.",
+   "grade": "Documented",
+   "note": "Existing in-contact link."
+  },
+  {
+   "entry": "cyrilline-miaphysite-egyptian-christianity",
+   "field": "relationsSummary",
+   "sentence": "The Melitians, a rival Egyptian church, split from it.",
+   "file": "cic/texts/bell_jews-christians-egypt-meletian-papyri_1924.txt",
+   "lines": "3345-3346",
+   "quote": "the Meletians continued to maintain their existence as a distinct sect.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "cyrilline-miaphysite-egyptian-christianity",
+   "field": "relationsSummary",
+   "sentence": "the desert monks sheltered its patriarchs.",
+   "file": "cic/texts/severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt",
+   "lines": "43445-43447",
+   "quote": "Then Benjamin went forth from the monasteries in Wadi Habib, and departed to Lpper Egypt; and he remained hidden there in a small monastery in the wilderness",
+   "grade": "Documented"
+  },
+  {
+   "entry": "cyrilline-miaphysite-egyptian-christianity",
+   "field": "why",
+   "sentence": "Most Egyptians heard that as a betrayal of Cyril and refused it.",
+   "file": "cic/texts/zachariah-rhetor_chronicle_hamiltonbrooks1899.txt",
+   "lines": "2542-2543",
+   "quote": "in the monasteries, and severed themselves from his communion.",
+   "grade": "Widely Accepted",
+   "note": "Zachariah shows clergy, monks and people refusing; 'most Egyptians' and 'betrayal of Cyril' rest on Frend (1972), cited on the entry, locus not checked. HP Dioscorus I; 'most Egyptians' rests on Frend (1972), already cited."
+  },
+  {
+   "entry": "cyrilline-miaphysite-egyptian-christianity",
+   "field": "why",
+   "sentence": "both claimed Cyril.",
+   "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+   "lines": "20259",
+   "quote": "synodical letters of the Blessed Cyril, Pastor of the Church of",
+   "grade": "Contested"
+  },
+  {
+   "entry": "cyrilline-miaphysite-egyptian-christianity",
+   "field": "legacy",
+   "sentence": "The Eastern Orthodox and Catholic churches honor Athanasius and Cyril too.",
+   "file": null,
+   "lines": null,
+   "quote": null,
+   "grade": "Widely Accepted",
+   "note": "A well-known fact (ruling 109); no vendored source. New sentence; rests on the Chalcedon definition row above for the fifth century; the modern calendars are not vendored. Other legacy sentences are carried over unchanged from the published text and not re-sourced here (flagged)."
+  },
+  {
+   "entry": "cyrilline-miaphysite-egyptian-christianity",
+   "field": "voices",
+   "sentence": "Theodosius ... driven from his throne for refusing Chalcedon",
+   "file": "cic/texts/john-ephesus_ecclesiastical-history-part3_paynesmith1860.txt",
+   "lines": "11045-11048",
+   "quote": "the blessed Theodo- sius being required to receive the council, and having refused, was ejected by the king from his throne",
+   "grade": "Documented"
+  },
+  {
+   "entry": "melitian-schism",
+   "field": "longDescription",
+   "sentence": "Melitius was bishop of Lycopolis.",
+   "file": "cic/texts/bell_jews-christians-egypt-meletian-papyri_1924.txt",
+   "lines": "3192",
+   "quote": "Bishop of Lycopolis, the more rigid school.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "melitian-schism",
+   "field": "longDescription",
+   "sentence": "... in Upper Egypt.",
+   "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+   "lines": "6547",
+   "quote": "Bishop of Lycopolis, in Upper Egypt, was accused of",
+   "grade": "Widely Accepted",
+   "note": "NPNF editor's note to Theodoret I.8; the ANF06 title reads 'Meletius, Bishop of Lycopolis'."
+  },
+  {
+   "entry": "melitian-schism",
+   "field": "longDescription",
+   "sentence": "In the last great persecution ...",
+   "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+   "lines": "2405-2406",
+   "quote": "By Peter, bishop of Alexandria, who in the reign of Diocletian suffered martyrdom, a certain Melitius,",
+   "grade": "Documented"
+  },
+  {
+   "entry": "melitian-schism",
+   "field": "longDescription",
+   "sentence": "He began to ordain clergy in other bishops' lands. Four bishops wrote to him in protest.",
+   "file": "cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml",
+   "lines": "16724-16725",
+   "quote": "ordination carried through by thee in parishes having no manner of connection with thee,",
+   "grade": "Documented"
+  },
+  {
+   "entry": "melitian-schism",
+   "field": "longDescription",
+   "sentence": "Four bishops wrote ...",
+   "file": "cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml",
+   "lines": "16710-16711",
+   "quote": "Hesychius, Pachomius, Theodorus, and Phileas, to Meletius, our friend and fellow-minister in the Lord, greeting.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "melitian-schism",
+   "field": "longDescription",
+   "sentence": "Peter ... wrote that Melitius had made clergy of his own even in the prison.",
+   "file": "cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml",
+   "lines": "27801",
+   "quote": "has ordained in the prison several unto himself;",
+   "grade": "Documented"
+  },
+  {
+   "entry": "melitian-schism",
+   "field": "longDescription",
+   "sentence": "He told his people to hold no communion with him.",
+   "file": "cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml",
+   "lines": "27802",
+   "quote": "take ye heed to this, and hold no communion with him,",
+   "grade": "Documented"
+  },
+  {
+   "entry": "melitian-schism",
+   "field": "longDescription",
+   "sentence": "Athanasius and Socrates ... say Peter deposed Melitius. The charge ... was that he had offered sacrifice to idols. (Athanasius)",
+   "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+   "lines": "24779-24781",
+   "quote": "among the rest of offering sacrifice to idols, Peter deposed him in a general council of the bishops.",
+   "grade": "Contested"
+  },
+  {
+   "entry": "melitian-schism",
+   "field": "longDescription",
+   "sentence": "Athanasius and Socrates ... say Peter deposed Melitius ... sacrifice to idols. (Socrates)",
+   "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+   "lines": "2407-2409",
+   "quote": "more especially because during the persecution he had denied the faith and sacrificed, was deposed.",
+   "grade": "Contested"
+  },
+  {
+   "entry": "melitian-schism",
+   "field": "longDescription",
+   "sentence": "Bell ... read it as a quarrel over the lapsed ... how long to wait before taking them back.",
+   "file": "cic/texts/bell_jews-christians-egypt-meletian-papyri_1924.txt",
+   "lines": "3194-3195",
+   "quote": "it was merely a question of the interval to be allowed before re-admission",
+   "grade": "Contested",
+   "note": "Bell 1924 (vendored secondary), resting on Peter's canons via Schwartz; the hostile primaries are the rows above."
+  },
+  {
+   "entry": "melitian-schism",
+   "field": "longDescription",
+   "sentence": "In 325 the Council of Nicaea let him keep the title of bishop but forbade him to ordain anyone.",
+   "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+   "lines": "3208-3209",
+   "quote": "that he remain in his own city but exercise no authority either to ordain or nominate for ordination;",
+   "grade": "Documented"
+  },
+  {
+   "entry": "melitian-schism",
+   "field": "longDescription",
+   "sentence": "Before he died, Melitius named a friend, John, as his successor.",
+   "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+   "lines": "29612-29613",
+   "quote": "he nominated John, one of his most intimate friends, as his successor, contrary to the decree of the Nicæan Council,",
+   "grade": "Documented",
+   "note": "Sozomen II.21, in the same NPNF volume."
+  },
+  {
+   "entry": "melitian-schism",
+   "field": "longDescription",
+   "sentence": "his church stood apart again.",
+   "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+   "lines": "3268-3269",
+   "quote": "even at the present time the Melitians in Egypt are separated from the church,",
+   "grade": "Documented"
+  },
+  {
+   "entry": "melitian-schism",
+   "field": "longDescription",
+   "sentence": "Socrates says the enemies of Athanasius used Melitians to bring charges against him.",
+   "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+   "lines": "4946-4948",
+   "quote": "suborn by bribes certain of the Melitian heresy to fabricate various charges against Athanasius;",
+   "grade": "Documented"
+  },
+  {
+   "entry": "melitian-schism",
+   "field": "longDescription",
+   "sentence": "In 335 (the year) ...",
+   "file": "cic/texts/bell_jews-christians-egypt-meletian-papyri_1924.txt",
+   "lines": "3343",
+   "quote": "banished by Constantine after the Synod of Tyre in 335,",
+   "grade": "Widely Accepted",
+   "note": "Bell 1924, secondary, vendored."
+  },
+  {
+   "entry": "melitian-schism",
+   "field": "longDescription",
+   "sentence": "In 335 a synod at Tyre voted to depose him. A man once a Melitian bishop signed the vote.",
+   "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+   "lines": "5216-5217",
+   "quote": "he who had formerly been a bishop of the Melitian heresy subscribed to the deposition of Athanasius",
+   "grade": "Documented"
+  },
+  {
+   "entry": "melitian-schism",
+   "field": "longDescription",
+   "sentence": "Around then a Melitian monk named Callistus wrote home from Alexandria.",
+   "file": "cic/texts/bell_jews-christians-egypt-meletian-papyri_1924.txt",
+   "lines": "4127",
+   "quote": "The writer, Callistus, was doubtless",
+   "grade": "Widely Accepted",
+   "note": "Bell's commentary dates papyrus 1914 to 334 or 335, more probably 335."
+  },
+  {
+   "entry": "melitian-schism",
+   "field": "longDescription",
+   "sentence": "men on Athanasius's side came with soldiers, beat Melitian monks and locked them up.",
+   "file": "cic/texts/bell_jews-christians-egypt-meletian-papyri_1924.txt",
+   "lines": "4693-4694",
+   "quote": "So the adherents of Athanasius, hearing of it, came bringing with them soldiers of the Dux and of the Camp;",
+   "grade": "Documented"
+  },
+  {
+   "entry": "melitian-schism",
+   "field": "longDescription",
+   "sentence": "That letter belongs to a small set of papyri from the 330s.",
+   "file": "cic/texts/bell_jews-christians-egypt-meletian-papyri_1924.txt",
+   "lines": "3467",
+   "quote": "probably the whole collection dates from the decennium 330-40.",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "melitian-schism",
+   "field": "longDescription",
+   "sentence": "Most are letters to Apa Paieous, a priest and confessor.",
+   "file": "cic/texts/bell_jews-christians-egypt-meletian-papyri_1924.txt",
+   "lines": "3459",
+   "quote": "are letters addressed",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "melitian-schism",
+   "field": "longDescription",
+   "sentence": "He led a large community of Melitian monks at Hathor, in the eastern desert.",
+   "file": "cic/texts/bell_jews-christians-egypt-meletian-papyri_1924.txt",
+   "lines": "3504-3505",
+   "quote": "in the eastern desert of the Upper Cynopolite nome",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "melitian-schism",
+   "field": "longDescription",
+   "sentence": "Some letters are in Coptic.",
+   "file": "cic/texts/bell_jews-christians-egypt-meletian-papyri_1924.txt",
+   "lines": "3522",
+   "quote": "three of the letters are in",
+   "grade": "Documented"
+  },
+  {
+   "entry": "melitian-schism",
+   "field": "longDescription",
+   "sentence": "They speak of prayers for one another, of care for brothers in trouble.",
+   "file": "cic/texts/bell_jews-christians-egypt-meletian-papyri_1924.txt",
+   "lines": "3524",
+   "quote": "1917 is interesting for its references to the system of intercessory prayers,",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "melitian-schism",
+   "field": "longDescription",
+   "sentence": "... and of bread and wheat.",
+   "file": "cic/texts/bell_jews-christians-egypt-meletian-papyri_1924.txt",
+   "lines": "4746",
+   "quote": "As soon therefore as you find a competent person send me a few loaves.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "melitian-schism",
+   "field": "longDescription",
+   "sentence": "In the fifth century Theodoret wrote that bodies of their monks still kept their own ways.",
+   "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+   "lines": "6653-6654",
+   "quote": "for there are in some districts bodies of monks who refuse to follow sound doctrine,",
+   "grade": "Documented"
+  },
+  {
+   "entry": "melitian-schism",
+   "field": "longDescription",
+   "sentence": "Papyri of 512 show a Melitian priest buying a monastery near Arsinoe.",
+   "file": "cic/texts/bell_jews-christians-egypt-meletian-papyri_1924.txt",
+   "lines": "3394",
+   "quote": "In the year 512 we find",
+   "grade": "Widely Accepted",
+   "note": "Bell citing SB 5174-5175; the papyri themselves are not vendored."
+  },
+  {
+   "entry": "melitian-schism",
+   "field": "longDescription",
+   "sentence": "Patriarch Damian, from 569, drove them out of the monasteries of Wadi Habib.",
+   "file": "cic/texts/severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt",
+   "lines": "40401",
+   "quote": "and commanded that the Meletians should lie banish¬",
+   "grade": "Documented",
+   "note": "OCR 'lie banish¬' for 'be banished'."
+  },
+  {
+   "entry": "melitian-schism",
+   "field": "longDescription",
+   "sentence": "Bell ... places the last report under Patriarch Michael I (744-768).",
+   "file": "cic/texts/bell_jews-christians-egypt-meletian-papyri_1924.txt",
+   "lines": "3410-3411",
+   "quote": "It is stated of the Patriarch Michael I (A.D. 744-68) that he tried to convert",
+   "grade": "Inferential-Thin",
+   "note": "Bell citing the History of the Patriarchs on Michael I (744-768), PO 5, not vendored. Sets end 768."
+  },
+  {
+   "entry": "melitian-schism",
+   "field": "dates",
+   "sentence": "start c. 306",
+   "file": "cic/texts/bell_jews-christians-egypt-meletian-papyri_1924.txt",
+   "lines": "3205",
+   "quote": "martyred, probably in 306,",
+   "grade": "Widely Accepted",
+   "note": "Bell dates the four bishops' martyrdom, after their letter, probably to 306; Theodoret's NPNF note says Melitius was deposed in 306."
+  },
+  {
+   "entry": "melitian-schism",
+   "field": "relationsSummary",
+   "sentence": "Antony of the desert would hold no communion with it.",
+   "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+   "lines": "32909-32910",
+   "quote": "for he never held communion with the Meletian schismatics,",
+   "grade": "Documented"
+  },
+  {
+   "entry": "melitian-schism",
+   "field": "why",
+   "sentence": "split the church of Egypt for more than two centuries",
+   "file": "cic/texts/severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt",
+   "lines": "40397",
+   "quote": "But there were among them the Meletians, I mean the followers of",
+   "grade": "Documented",
+   "note": "306 to Damian's patriarchate (569-605)."
+  },
+  {
+   "entry": "melitian-schism",
+   "field": "floorNote",
+   "sentence": "Later opponents said the Melitians sided with Arius's party.",
+   "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+   "lines": "29624-29625",
+   "quote": "in process of time the Melitians were generally called Arians in",
+   "grade": "Documented"
+  },
+  {
+   "entry": "melitian-schism",
+   "field": "legacy",
+   "sentence": "the losing side ... in its own words. Most of what is known of such groups comes only from their enemies.",
+   "file": "cic/texts/bell_jews-christians-egypt-meletian-papyri_1924.txt",
+   "lines": "3456",
+   "quote": "the papyri which follow are the more valuable because they come from the",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "melitian-schism",
+   "field": "voices",
+   "sentence": "Arsenius ... turned up alive and signed his deposition at Tyre",
+   "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+   "lines": "5219-5220",
+   "quote": "the alleged victim of assassination by Athanasius, was found alive to assist in deposing him.",
+   "grade": "Documented"
+  },
+  {
+   "entry": "melitian-schism",
+   "field": "voices",
+   "sentence": "Apa Paieous — priest and confessor",
+   "file": "cic/texts/bell_jews-christians-egypt-meletian-papyri_1924.txt",
+   "lines": "3471-3472",
+   "quote": "which implies that he had suffered in the Great Persecution",
+   "grade": "Widely Accepted"
+  },
+  {
+   "entry": "melitian-schism",
+   "field": "status",
+   "sentence": "Status 'Pre-Survey Candidate' with the Library wording",
+   "file": null,
+   "lines": null,
+   "quote": null,
+   "grade": "Documented",
+   "note": "Copied from the census's 'Added for the Library' entries: a new entry, not yet tiered, made because its own papyri are in the Library (ruling 3)."
+  }
+ ],
+ "neighbor_changes": [
+  {
+   "id": "cyrilline-miaphysite-egyptian-christianity",
+   "set": {
+    "sources": [
+     {
+      "work": "Severus of Antioch, Select Letters (ed./trans. E. W. Brooks, 2 vols, 1902-04)",
+      "type": "primary",
+      "note": "Inside voice of the anti-Chalcedonian leadership in exile in Egypt (518-538); Greek originals lost, survives in Syriac translation; Brooks's English translation is old but standard and online."
+     },
+     {
+      "work": "History of the Patriarchs of the Coptic Church of Alexandria (attrib. Severus ibn al-Muqaffa')",
+      "type": "primary",
+      "note": "The Miaphysite church's own continuous narrative of its Alexandrian patriarchs; Arabic compilation of earlier Coptic sources; ed./English trans. B. Evetts in Patrologia Orientalis 1, 5, 10 (1904-15), online at tertullian.org.",
+      "url": "https://www.tertullian.org/fathers/severus_hermopolis_hist_alex_patr_00_eintro.htm"
+     },
+     {
+      "work": "John of Nikiu, Chronicle (trans. R. H. Charles, 1916)",
+      "type": "primary",
+      "note": "Egyptian Miaphysite bishop's world chronicle ending with the Arab conquest (642) - the era's terminus seen from inside; survives only via Ethiopic from Arabic; Charles's English translation online. Plus Coptic/Greek documentary papyri (e.g. Dioscorus of Aphrodito archive) for ordinary texture.",
+      "url": "https://www.tertullian.org/fathers/nikiu2_chronicle.htm"
+     },
+     {
+      "work": "W. H. C. Frend, The Rise of the Monophysite Movement (1972)",
+      "type": "secondary",
+      "note": "Still the standard single narrative of the anti-Chalcedonian movement 451 onward; dated in places (terminology 'Monophysite' now avoided) but widely available."
+     },
+     {
+      "work": "Stephen J. Davis, The Early Coptic Papacy (2004)",
+      "type": "secondary",
+      "note": "Modern history of the Egyptian church's leadership and identity in exactly this window; accessible English monograph (AUC Press)."
+     },
+     {
+      "work": "Cambridge History of Christianity, vol. 2 (Constantine to c.600), ch. 3, 'Greek Christianities' (F. W. Norris); cf. ch. 4 (D. Bundy)",
+      "type": "reference",
+      "note": "Reference-tradition anchor for eastern-Roman (incl. Egyptian) developments to c.600."
+     },
+     {
+      "work": "Athanasius, Select Works and Letters (NPNF 2nd series, vol. 4, ed. A. Robertson)",
+      "type": "primary",
+      "note": "Athanasius's own voice for 328-373: the Defence against the Arians, the Defence before Constantius, the Festal Letters and the Life of Antony. Hostile to the Melitians and to his other opponents."
+     },
+     {
+      "work": "Cyril of Alexandria, Five Tomes against Nestorius; Three Epistles (trans. P. E. Pusey, 1872, 1881)",
+      "type": "primary",
+      "note": "Cyril's own voice against Nestorius before and after Ephesus, 431. The Library shelf of the retired Cyrilline tradition entry, now on this one."
+     },
+     {
+      "work": "Socrates Scholasticus and Sozomen, Ecclesiastical Histories (NPNF 2nd series, vol. 2)",
+      "type": "primary",
+      "note": "Fifth-century church histories from Constantinople. Outside accounts of Athanasius, the Melitians, Tyre in 335, Hypatia and Ephesus in 431."
+     }
+    ],
+    "name": "The Church of Alexandria and Miaphysite Egypt",
+    "shortName": "Church of Alexandria",
+    "informalName": "From Athanasius to the Arab Conquest",
+    "dates": "328-642",
+    "start": 328,
+    "end": 642,
+    "region": "Alexandria and Egypt",
+    "placeLabel": "Alexandria · Egypt",
+    "modernCountries": [
+     {
+      "country": "Egypt",
+      "countryId": "Q79",
+      "place": "Alexandria",
+      "placeId": "Q87",
+      "pleiadesId": "727070"
+     },
+     {
+      "country": "Egypt",
+      "countryId": "Q79",
+      "place": "Egypt",
+      "placeId": "Q79"
+     }
+    ],
+    "sourcing": "Rich. Athanasius and Cyril speak in their own works and letters. The acts of Ephesus in 431 and 449 and of Chalcedon survive. After 451 there are Timothy Aelurus, the letters of Severus, kept only in Syriac, and two chronicles from the other side of Chalcedon. The History of the Patriarchs is a much later Arabic work. Papyri add the texture of ordinary life.",
+    "floorNote": "Before 451, not in question: this is the church of Nicaea's great defender. After 451, its rejection of Chalcedon's formula, not the Creed's content.",
+    "relationsSummary": "The church of Athanasius and Cyril, and after 451 of those who refused Chalcedon. It gave Aksum its first bishop and later sent a mission to Nubia. It broke with the emperor's church over Chalcedon and kept one faith with the Syriac Orthodox. The Melitians, a rival Egyptian church, split from it, and the desert monks sheltered its patriarchs.",
+    "why": "Athanasius and Cyril made Alexandria a great center of teaching in the Greek East. In 451 the Council of Chalcedon said Christ is known \"in two natures\". Most Egyptians heard that as a betrayal of Cyril and refused it. For two centuries two lines of bishops fought over the city, and both claimed Cyril.",
+    "teaser": "Egypt, 328 to 642 — the church of Athanasius and Cyril. It said no to Chalcedon's \"two natures\" and kept its own line of bishops through exile and strife.",
+    "longDescription": "In 328 Athanasius became bishop of Alexandria. The Coptic church still counts him as its twentieth patriarch. He wrote and fought against the teaching of Arius. His foes had him deposed at Tyre in 335, and the Melitians, a rival church in Egypt, helped bring the charges.\n\nCyril became bishop in 412. He clashed with Nestorius, bishop of Constantinople, over a name for Mary. The name was Theotokos, the one who gave birth to God. In 431 a council met at Ephesus. Cyril's side began before the bishops from Syria came. They deposed Nestorius, and he was sent into exile.\n\nIn 451 the Council of Chalcedon said Christ must be confessed \"in two natures\". It also deposed Dioscorus, Cyril's successor, who would not come when called three times. In Egypt, clergy, monks and people broke with the bishop the council put in his place. From then on Alexandria had two lines of bishops. One was backed by the emperors. This page follows the other, the line most Egyptians kept.\n\nThe monks of the desert stood behind this line. In 457 its people asked the monks to help choose a bishop, and they chose Timothy, once a monk in the desert. Only one bishop could be found to consecrate him, so the people brought in a second, Peter the Iberian. After 518 Severus of Antioch, driven from Syria, lived in exile among them. Over these years Coptic, the language of Egypt, took a larger place beside Greek.\n\nWho were the true heirs of Athanasius and Cyril? That is still disputed. Chalcedon itself took Cyril's letters as a guide to the faith. The Coptic church holds that Dioscorus kept that faith in the see of Saint Mark, and that the council broke it. Both sides claim the same teachers.\n\nArab armies took Egypt between 640 and 642. Benjamin, the patriarch who had hidden from the emperor's men, came back to Alexandria. The conqueror told him to govern his churches again, and the church went on under Muslim rule.",
+    "voices": [
+     "Athanasius of Alexandria — bishop from 328, counted by the Coptic church as its twentieth patriarch, deposed at Tyre in 335 and driven from his city more than once",
+     "Cyril of Alexandria — bishop from 412, whose letters against Nestorius both sides of Chalcedon later claimed as their own",
+     "Dioscorus of Alexandria — Cyril's successor, deposed at Chalcedon in 451 for refusing three summonses, remembered by his own church as its defender",
+     "Timothy Aelurus — chosen bishop in 457 with the counsel of the monks, exiled and restored, who argued the case against Chalcedon in writing",
+     "Severus of Antioch — the exiled Syrian patriarch who lived in Egypt after 518 and became the movement's chief theologian",
+     "Theodosius I of Alexandria — patriarch from 535, driven from his throne for refusing Chalcedon, under whom the mission to Nubia was placed",
+     "Benjamin I — the patriarch who hid from Byzantine persecution and returned to Alexandria after the conquest",
+     "John of Nikiu — the bishop whose chronicle records the events of 642 from inside the Egyptian church"
+    ],
+    "legacy": "This is one of the traditions on the map that never came to an end. The same church carried on under Muslim rule as Coptic Christianity. Its line of patriarchs runs without a break to the Coptic Orthodox pope of Alexandria today. Cyril of Alexandria is still the shared anchor of faith for the wider Oriental Orthodox family: Syriac, Armenian, Ethiopian and Eritrean. The Eastern Orthodox and Catholic churches honor Athanasius and Cyril too, so the claim to their name is still shared and still argued. This church also made Coptic a language of worship, and it is still sung in Egypt's churches each week. Its desert monasteries in the Wadi Natrun still stand, and so do its painted late-antique churches in Upper Egypt. Most of them are still in use.",
+    "experienceToday": [
+     {
+      "text": "The Red Monastery near Sohag, Egypt — a late-antique Coptic church whose painted sanctuary has been cleaned and relit, one of the best-preserved interiors of its kind anywhere",
+      "url": "https://en.wikipedia.org/wiki/Red_Monastery"
+     },
+     {
+      "text": "The Hanging Church, Coptic Cairo — Saint Virgin Mary's Coptic Orthodox Church, built over a gate of the Roman fortress of Babylon and still in use",
+      "url": "https://en.wikipedia.org/wiki/Hanging_Church"
+     }
+    ],
+    "documentedStories": [
+     {
+      "title": "The Death of Hypatia and the Reputation of Cyril",
+      "when": "March 415",
+      "tier": "1",
+      "verification": "checked directly against the primary text",
+      "teaser": "A Christian historian writing within a generation says the murder of a pagan philosopher by a Christian crowd brought shame on Cyril and his church.",
+      "text": "Hypatia taught philosophy in Alexandria. Socrates, a church historian, says many came from far away to hear her. She often met the city's prefect, Orestes, who was at odds with Bishop Cyril. Rumor said she kept the two men apart. A crowd led by a church reader named Peter pulled her from her carriage. They took her to a church, stripped her and killed her with tiles. Then they burned her body. Socrates adds: 'This affair brought not the least opprobrium, not only upon Cyril, but also upon the whole Alexandrian church.' He does not say Cyril gave the order. He says the shame fell on Cyril and his church.",
+      "caveat": "Socrates wrote within about thirty years and disliked Alexandrian violence, though not Cyril's teaching. No source proves that Cyril took part himself.",
+      "sources": [
+       {
+        "work": "Socrates Scholasticus, Ecclesiastical History VII.15",
+        "type": "primary",
+        "note": "The murder of Hypatia.",
+        "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+        "lines": "19562-19564",
+        "quote": "whose ringleader was a reader named Peter, waylaid her returning home, and dragging her from her carriage,"
+       },
+       {
+        "work": "Socrates Scholasticus, Ecclesiastical History VII.15",
+        "type": "primary",
+        "note": "Socrates' judgment.",
+        "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+        "lines": "19572-19573",
+        "quote": "This affair brought not the least opprobrium, not only upon Cyril,"
+       }
+      ]
+     },
+     {
+      "title": "Cyril Opens the Council Before John Arrives",
+      "when": "June 431",
+      "tier": "1",
+      "verification": "checked directly against the primary text",
+      "teaser": "At Ephesus, the bishop of Alexandria and his party depose Nestorius while the bishops from Syria are still on the road.",
+      "text": "The emperor called a council to Ephesus for Pentecost in 431. It was to judge between Cyril and Nestorius, bishop of Constantinople. Cyril came near Pentecost, but John of Antioch and his bishops were late. Socrates says Cyril's party met as a council and summoned Nestorius. Nestorius would not come before John arrived. They read his sermons, judged them blasphemy and deposed him. Nestorius's friends then held their own council and deposed Cyril. When John came, he blamed Cyril for the confusion. In the end Nestorius was sent into exile in the desert of Egypt, and Cyril's teaching stood.",
+      "caveat": "Socrates, writing a few years later, is critical of both sides. The council's own acts were kept by Cyril's party, and Nestorius's own defense survives only in Syriac.",
+      "sources": [
+       {
+        "work": "Socrates Scholasticus, Ecclesiastical History VII.34",
+        "type": "primary",
+        "note": "Cyril's council and the deposition.",
+        "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+        "lines": "20900-20902",
+        "quote": "That section which supported Cyril, having constituted themselves a council, summoned Nestorius: but he refused to meet them, and put them off until the arrival of John of Antioch."
+       },
+       {
+        "work": "Socrates Scholasticus, Ecclesiastical History VII.34",
+        "type": "primary",
+        "note": "The rival council.",
+        "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+        "lines": "20907-20908",
+        "quote": "the partisans of Nestorius constituted themselves another council apart, and therein deposed Cyril himself,"
+       }
+      ]
+     },
+     {
+      "title": "Dioscorus Will Not Come In",
+      "when": "October 451",
+      "tier": "1",
+      "verification": "checked directly against the primary text",
+      "teaser": "Called three times to answer his accusers, the bishop of Alexandria will not come. The council deposes him for disobedience, and Egypt never accepts it.",
+      "text": "At Chalcedon in 451 Dioscorus faced charges over the council he had led at Ephesus two years before. The council called him three times to answer. He did not come. The sentence sent to him says he was deposed on 13 October. It gives his 'disregard of the divine canons' and his 'disobedience' to the council as the reasons. In Egypt clergy, monks and people broke with the bishop put in his place. The Coptic church has kept Dioscorus as the man who held the true faith.",
+      "caveat": "The acts of Chalcedon were kept by the winning side, and why Dioscorus stayed away is not recorded in his own words. The Coptic History of the Patriarchs is a much later compilation.",
+      "sources": [
+       {
+        "work": "Council of Chalcedon, sentence sent to Dioscorus (NPNF 2.14)",
+        "type": "primary",
+        "note": "The sentence of 13 October 451.",
+        "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+        "lines": "20087-20090",
+        "quote": "for even when called to answer your accusers three times by this holy and great synod according to the divine canons you did not come."
+       },
+       {
+        "work": "Zachariah of Mitylene (Pseudo-Zachariah), Chronicle III.2",
+        "type": "primary",
+        "note": "The Egyptian break.",
+        "file": "cic/texts/zachariah-rhetor_chronicle_hamiltonbrooks1899.txt",
+        "lines": "2542-2543",
+        "quote": "in the monasteries, and severed themselves from his communion."
+       },
+       {
+        "work": "History of the Patriarchs of the Coptic Church of Alexandria, Dioscorus I",
+        "type": "primary",
+        "note": "The Coptic memory.",
+        "file": "cic/texts/severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt",
+        "lines": "35108-35109",
+        "quote": "He preserved the orthodox faith, which persists in the see of the evangelist Saint Mark to this day"
+       }
+      ]
+     },
+     {
+      "title": "Proterius Killed in the Baptistery",
+      "when": "457",
+      "tier": "1",
+      "verification": "checked directly against the primary text",
+      "teaser": "Six years after Chalcedon, the bishop the council put in Alexandria is killed in a church during a riot, and his body burned.",
+      "text": "Proterius took Dioscorus's place after Chalcedon. Evagrius says a great riot broke out when he arrived, and the crowd burned soldiers alive in the old temple of Serapis. In 457, while the army's commander was away in Upper Egypt, the people chose Timothy Aelurus as bishop, though Proterius was still alive. Then some of them killed Proterius in the baptistery. They hung his body in a public square, dragged it through the city and burned it. Evagrius took this from a petition by the Egyptian bishops of the other side. He also reports another account that blames a soldier, not the crowd.",
+      "caveat": "Evagrius wrote in the late sixth century and took the side of Chalcedon. The petition he quotes was written by Proterius's party. That Proterius was killed in 457 is not in dispute.",
+      "sources": [
+       {
+        "work": "Evagrius Scholasticus, Ecclesiastical History II.8 (Walford, 1846)",
+        "type": "primary",
+        "note": "The murder.",
+        "file": "cic/texts/evagrius-scholasticus_ecclesiastical-history_walford1846.txt",
+        "lines": "3643-3646",
+        "quote": "despatch Proterius when he appeared, by thrusting a sword through his bowels, after he had fled for refuge to the holy baptistery."
+       },
+       {
+        "work": "Evagrius Scholasticus, Ecclesiastical History II.8",
+        "type": "primary",
+        "note": "The other account.",
+        "file": "cic/texts/evagrius-scholasticus_ecclesiastical-history_walford1846.txt",
+        "lines": "3631-3632",
+        "quote": "Proterius was not killed by the populace, but by one of the soldiers."
+       },
+       {
+        "work": "Evagrius Scholasticus, Ecclesiastical History II.5",
+        "type": "primary",
+        "note": "The riot of 451.",
+        "file": "cic/texts/evagrius-scholasticus_ecclesiastical-history_walford1846.txt",
+        "lines": "3381-3382",
+        "quote": "carried the place by assault, and committed them alive to the flames:"
+       }
+      ]
+     },
+     {
+      "title": "Benjamin Comes Out of Hiding",
+      "when": "c. 644",
+      "tier": "2",
+      "verification": "checked directly against the primary text",
+      "teaser": "After years in hiding from the emperor's men, the Coptic patriarch returns to Alexandria under a letter of safety from the Arab general who has just taken it.",
+      "text": "The History of the Patriarchs says the emperor Heraclius tried to force Egypt to accept Chalcedon. Benjamin, the patriarch, told his bishops to hide, and hid himself. The emperor's men seized his brother Mennas. They burned his sides with torches, knocked out his teeth and drowned him in a sack of sand. Then the Arabs came. The general Amr wrote that Benjamin should 'come forth secure and tranquil' and run his church. John of Nikiu says Benjamin came back in the thirteenth year after his flight. Amr received him with honor and told him to govern all his churches and his people.",
+      "caveat": "The History of the Patriarchs is an Arabic compilation of the tenth century and later; the story of Mennas is as it tells it. John of Nikiu wrote near the time. Benjamin's flight and return are secure.",
+      "sources": [
+       {
+        "work": "History of the Patriarchs, Benjamin I (Evetts, PO 1)",
+        "type": "primary",
+        "note": "The death of Mennas.",
+        "file": "cic/texts/severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt",
+        "lines": "43574",
+        "quote": "caused lighted torches to be held to his sides until the fat of his body oozed"
+       },
+       {
+        "work": "History of the Patriarchs, Benjamin I",
+        "type": "primary",
+        "note": "Amr's letter.",
+        "file": "cic/texts/severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt",
+        "lines": "44587",
+        "quote": "therefore let him come forth secure and tranquil, and administer the"
+       },
+       {
+        "work": "John of Nikiu, Chronicle CXXI (Charles, 1916)",
+        "type": "primary",
+        "note": "The return.",
+        "file": "cic/texts/john-nikiu_chronicle_charles1916.txt",
+        "lines": "12006-12007",
+        "quote": "returned to the city of Alexandria in the thirteenth year after his flight from the Romans,"
+       },
+       {
+        "work": "History of the Patriarchs, Benjamin I",
+        "type": "primary",
+        "note": "Amr's words.",
+        "file": "cic/texts/severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt",
+        "lines": "44689-44690",
+        "quote": "Resume the government of all thv churches and of thy people, and administer their affairs."
+       }
+      ]
+     }
+    ]
+   },
+   "reason": "Rulings 1 and 2 (Decision-Log 2026-11-09): the entry becomes the church of Alexandria from Athanasius (328) to 642, takes in the retired Cyrilline entry's stories and places to visit, and tags its claim to Athanasius and Cyril as Contested. ID, atlasId, era (3), lane, status, continuesAs, streams, sources list and people kept."
+  }
+ ],
+ "links": [
+  {
+   "id": "cyrilline-miaphysite-egyptian-christianity--aksumite-christianity-conversion-era",
+   "action": "new",
+   "from": "cyrilline-miaphysite-egyptian-christianity",
+   "to": "aksumite-christianity-conversion-era",
+   "type": "gave rise to",
+   "confidence": "Documented",
+   "note": "Frumentius came to Alexandria. He asked Athanasius to send a bishop to his land. Socrates says Athanasius told him to take the post himself. Later the emperor sent a letter to the rulers of Aksum. In it he named Frumentius as the bishop Athanasius had made for them.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Socrates Scholasticus, Ecclesiastical History I.19",
+     "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+     "lines": "4365-4367",
+     "locus": "HE I.19",
+     "quote": "Athanasius having considered how this could be most profitably effected, requested Frumentius himself to accept the bishopric,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Athanasius, Defence before Constantius 31 (Letter of Constantius to the princes of Aksum)",
+     "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+     "lines": "36108-36109",
+     "locus": "Apol. ad Const. 31",
+     "quote": "The following is the letter which was written to the Princes of Auxumis respecting Frumentius, Bishop of that place.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Athanasius, Defence before Constantius 31",
+     "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+     "lines": "36150",
+     "locus": "Apol. ad Const. 31",
+     "quote": "this Frumentius was advanced to his present rank by Athanasius",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": [
+    "II.1 relationsSummary",
+    "Aksum conversion-era relationsSummary ('Child of Alexandria')"
+   ],
+   "wants": [
+    "Rufinus, Ecclesiastical History X.9-10 (the earliest Frumentius account) in a vendored edition"
+   ],
+   "drafter_flags": [
+    "Socrates places the mission in 'India'; the Constantius letter fixes it at Aksum. The link is drawn now that the church of Alexandria starts in 328."
+   ],
+   "change_reason": "New: the extended entry now covers Athanasius, so Aksum's 'child of Alexandria' has a parent to point to."
+  },
+  {
+   "id": "cyrilline-miaphysite-egyptian-christianity--melitian-schism",
+   "action": "new",
+   "from": "cyrilline-miaphysite-egyptian-christianity",
+   "to": "melitian-schism",
+   "type": "broke with",
+   "confidence": "Documented",
+   "note": "Athanasius wrote that the followers of Melitius were 'even yet called Meletians instead of Christians'. A Melitian monk wrote from the other side, around 335. Men of Athanasius's party, he said, beat his brothers and locked them up. Socrates says the Melitians of Egypt still stood apart from the church in his own day.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Athanasius, Defence against the Arians 59",
+     "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+     "lines": "24782-24784",
+     "locus": "Apol. c. Ar. 59",
+     "quote": "made a schism, so that they who espoused his cause are even yet called Meletians instead of Christians",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Letter of Callistus to Paieous (P. Lond. 1914), trans. Bell 1924",
+     "file": "cic/texts/bell_jews-christians-egypt-meletian-papyri_1924.txt",
+     "lines": "4693-4694",
+     "locus": "P. Lond. VI 1914",
+     "quote": "So the adherents of Athanasius, hearing of it, came bringing with them soldiers of the Dux and of the Camp;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Socrates Scholasticus, Ecclesiastical History I.9",
+     "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+     "lines": "3268-3269",
+     "locus": "HE I.9",
+     "quote": "even at the present time the Melitians in Egypt are separated from the church,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": [
+    "II.1 relationsSummary",
+    "Melitian relationsSummary, longDescription"
+   ],
+   "wants": [],
+   "drafter_flags": [
+    "The rupture began under Peter (c. 306), before this church's entry starts in 328; the link rests on evidence from 328 on, and both sides' records of it."
+   ],
+   "change_reason": "New."
+  },
+  {
+   "id": "cyrilline-miaphysite-egyptian-christianity--melitian-schism--2",
+   "action": "new",
+   "from": "cyrilline-miaphysite-egyptian-christianity",
+   "to": "melitian-schism",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "Athanasius wrote against the Melitians by name. He said they were 'even yet called Meletians instead of Christians'. More than two hundred years later, Damian became head of the church. The History of the Patriarchs says he drove the Melitians out of the monks' houses of Wadi Habib.",
+   "outcome": "Damian, head of the church, sent the Melitians away from the four houses of monks in Wadi Habib.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Athanasius, Defence against the Arians 59",
+     "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+     "lines": "24782-24784",
+     "locus": "Apol. c. Ar. 59",
+     "quote": "made a schism, so that they who espoused his cause are even yet called Meletians instead of Christians",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "History of the Patriarchs of the Coptic Church of Alexandria, Damian (Evetts, PO 1)",
+     "file": "cic/texts/severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt",
+     "lines": "40397",
+     "locus": "HP Pt. I, Damian",
+     "quote": "But there were among them the Meletians, I mean the followers of",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "History of the Patriarchs, Damian",
+     "file": "cic/texts/severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt",
+     "lines": "40401",
+     "locus": "HP Pt. I, Damian",
+     "quote": "and commanded that the Meletians should lie banish¬",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": [
+    "Melitian longDescription (Damian)"
+   ],
+   "wants": [],
+   "drafter_flags": [
+    "Major by step 4b: a church head's order excluding a group (banishment). The 569 date is Bell's for Damian (569-605); the HP passage itself gives no year."
+   ],
+   "change_reason": "New."
+  },
+  {
+   "id": "melitian-schism--cyrilline-miaphysite-egyptian-christianity",
+   "action": "new",
+   "from": "melitian-schism",
+   "to": "cyrilline-miaphysite-egyptian-christianity",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "Socrates says the foes of Athanasius used Melitians to bring charge after charge against him. In 335 the synod at Tyre voted to depose him. Arsenius had been a Melitian bishop, and Athanasius was said to have killed him. He turned up alive and signed the sentence.",
+   "outcome": "In 335 a synod at Tyre voted to put Athanasius out of his see, on charges the Melitians helped to bring.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Socrates Scholasticus, Ecclesiastical History I.27",
+     "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+     "lines": "4946-4948",
+     "locus": "HE I.27",
+     "quote": "suborn by bribes certain of the Melitian heresy to fabricate various charges against Athanasius;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Socrates Scholasticus, Ecclesiastical History I.32",
+     "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+     "lines": "5210-5211",
+     "locus": "HE I.32",
+     "quote": "when the result of the enquiry which had been instituted at Mareotis was presented, they voted to depose him;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Socrates Scholasticus, Ecclesiastical History I.32",
+     "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+     "lines": "5216-5217",
+     "locus": "HE I.32",
+     "quote": "he who had formerly been a bishop of the Melitian heresy subscribed to the deposition of Athanasius",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Athanasius, Defence against the Arians 71",
+     "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+     "lines": "25325-25326",
+     "locus": "Apol. c. Ar. 71",
+     "quote": "it was the Meletians who were ejected by Peter, and the Arians, that divided the plot between them,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "H. Idris Bell, Jews and Christians in Egypt (1924), Part II, 'The Meletian Schism'",
+     "file": "cic/texts/bell_jews-christians-egypt-meletian-papyri_1924.txt",
+     "lines": "3343",
+     "locus": "Part II, on the Meletians after Nicaea",
+     "quote": "banished by Constantine after the Synod of Tyre in 335,",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": [
+    "II.1 longDescription",
+    "Melitian longDescription, relationsSummary"
+   ],
+   "wants": [
+    "Sozomen II.25 and the acts of Tyre as preserved by Athanasius, if a fuller locus is wanted"
+   ],
+   "drafter_flags": [
+    "Socrates and Athanasius are both hostile to the Melitians; the charges' truth is not claimed, only that they were brought and that the synod deposed him. Major by step 4b (a prelate deposed)."
+   ],
+   "change_reason": "New."
+  },
+  {
+   "id": "desert-monasticism--melitian-schism",
+   "action": "new",
+   "from": "desert-monasticism",
+   "to": "melitian-schism",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "The Life of Antony says Antony 'never held communion with the Meletian schismatics'. On his deathbed he told his monks to have nothing to do with them.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Athanasius, Life of Antony 68",
+     "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+     "lines": "32909-32910",
+     "locus": "Vit. Ant. 68",
+     "quote": "for he never held communion with the Meletian schismatics, knowing their wickedness and apostacy from the beginning;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Athanasius, Life of Antony 89",
+     "file": "cic/texts/npnf204_athanasius-select-works-letters.xml",
+     "lines": "33452-33453",
+     "locus": "Vit. Ant. 89",
+     "quote": "to have nought to do with the Meletian",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": [
+    "Melitian relationsSummary"
+   ],
+   "wants": [],
+   "drafter_flags": [
+    "The Life is by Athanasius, a party to the quarrel; it documents what the desert's own founding text says, not Antony's own words. Minor: no institutional act."
+   ],
+   "change_reason": "New."
+  },
+  {
+   "id": "imperial-juridical-christianity--melitian-schism",
+   "action": "new",
+   "from": "imperial-juridical-christianity",
+   "to": "melitian-schism",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "The Council of Nicaea wrote to the church of Alexandria about Melitius in 325. It let him stay in his own city with the bare title of bishop. It forbade him to ordain or name anyone for ordination.",
+   "outcome": "In 325 the Council of Nicaea left Melitius the name of bishop but took away his right to ordain.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Council of Nicaea, Synodal Letter to the Egyptians, in Socrates, Ecclesiastical History I.9",
+     "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml",
+     "lines": "3208-3209",
+     "locus": "HE I.9",
+     "quote": "that he remain in his own city but exercise no authority either to ordain or nominate for ordination;",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Theodoret, Ecclesiastical History I.8",
+     "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml",
+     "lines": "6556-6558",
+     "locus": "HE I.8",
+     "quote": "A letter was written by the council to the Church of Alexandria, stating what had been decreed against his revolutionary practices.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": [
+    "Melitian relationsSummary, longDescription"
+   ],
+   "wants": [],
+   "drafter_flags": [
+    "Major by step 4b: a council's decree restricting a group's leader."
+   ],
+   "change_reason": "New."
+  },
+  {
+   "id": "desert-monasticism--cyrilline-miaphysite-egyptian-christianity",
+   "action": "rewrite",
+   "from": "desert-monasticism",
+   "to": "cyrilline-miaphysite-egyptian-christianity",
+   "type": "influenced",
+   "confidence": "Documented",
+   "note": "In 457 the Alexandrians who refused Chalcedon took counsel with 'the whole order of the monks'. They chose Timothy as bishop. He was an ascetic who had once been brought from the desert to Cyril.\n\nCenturies later the church of Egypt wrote down its History of the Patriarchs. It says the letters of Peter, its head, were kept at the Monastery of Macarius. It says Benjamin fled through the monasteries of Wadi Habib to hide in Upper Egypt.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Zachariah of Mitylene (Pseudo-Zachariah), Chronicle IV.1 (trans. Hamilton and Brooks)",
+     "file": "cic/texts/zachariah-rhetor_chronicle_hamiltonbrooks1899.txt",
+     "lines": "3282-3284",
+     "locus": "Chron. IV.1",
+     "quote": "they all took courage, and consulted with the whole order of the monks as to whom they should make the bishop of the believing party.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Zachariah of Mitylene (Pseudo-Zachariah), Chronicle IV.1",
+     "file": "cic/texts/zachariah-rhetor_chronicle_hamiltonbrooks1899.txt",
+     "lines": "3286-3289",
+     "locus": "Chron. IV.1",
+     "quote": "And they agreed upon Timothy, a man expert in business 5 and of ascetic life ; who had been brought from the wilderness, by force, to Cyril, and ordained as presbyter by him.",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Severus ibn al-Muqaffa (attrib.), History of the Patriarchs (Evetts, PO 1), Peter (Peter Mongus, 477-490)",
+     "file": "cic/texts/severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt",
+     "lines": "35554-35555",
+     "locus": "History of the Patriarchs, Pt. I, Peter Mongus",
+     "quote": "All his epistles are preserved in the Monastery of Father Macarius",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Severus ibn al-Muqaffa (attrib.), History of the Patriarchs (Evetts, PO 1), Benjamin I",
+     "file": "cic/texts/severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt",
+     "lines": "43445-43447",
+     "locus": "History of the Patriarchs, Pt. I, Ch. XIV (Benjamin I)",
+     "quote": "Then Benjamin went forth from the monasteries in Wadi Habib, and departed to Lpper Egypt; and he remained hidden there in a small monastery in the wilderness",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "named_in_text": [
+    "II.1 relationsSummary ('the desert monks sheltered its patriarchs')",
+    "II.1 longDescription (Timothy)"
+   ],
+   "wants": [],
+   "drafter_flags": [
+    "Rewrite of the existing published link (same ID, type, grade): it takes in the Timothy evidence from the retired 'gave rise to' link. Minor: choosing a bishop is not one of the step 4b acts."
+   ],
+   "change_reason": "Takes in the Zachariah evidence of the retired '--2' link; the existing History of the Patriarchs sources are kept."
+  }
+ ],
+ "retire_links": [
+  {
+   "id": "desert-monasticism--cyrilline-miaphysite-egyptian-christianity--2",
+   "reason": "The church of Alexandria now starts with Athanasius in 328, so it did not grow out of the desert monks. The monks helped choose its bishop in 457. That evidence now sits on the other link between the two, which says the monks influenced the church.",
+   "replacedBy": "desert-monasticism--cyrilline-miaphysite-egyptian-christianity"
+  }
+ ],
+ "wants": [
+  "History of the Patriarchs, PO 5 (Evetts), life of Michael I (744-768): the last report of the Melitians, now known only through Bell's citation; would let the Melitian end date rest on a primary text.",
+  "SB 5174-5175 (Melitian monastery sales at Labla, 512-513): cited by Bell, not vendored.",
+  "Epiphanius, Panarion 68 in an English translation: the Melitian-friendly account, the deputation to Constantine, and the name 'Church of the Martyrs' Bell reports.",
+  "The Canons of Peter of Alexandria (on the lapsed) in a vendored English edition, to test Bell's reading of the quarrel's cause directly.",
+  "Rufinus, Ecclesiastical History X.9-10: the earliest Frumentius account.",
+  "Evetts, History of the Patriarchs: a clean text of Chapter XII heading (Cyril I) - OCR garbled in v1."
+ ],
+ "flags": [
+  "ERA: II.1 stays era 3. It now starts in 328 (era 2 by the lines), but (a) its continuesAs to coptic-christianity-under-early-islam (era 4) would fail the validator's adjacent-era rule from era 2; (b) its atlasId II.1 is an era 3 number; (c) Mark: 'the era lines are for reference not definition'. Nothing points to II.1 by continuesAs; alexandria-catechetical and aksumite-christianity-conversion-era carry none to it, so no rule is touched.",
+  "NAME: proposed 'The Church of Alexandria and Miaphysite Egypt' / shortName 'Church of Alexandria' (20 chars) / informalName 'From Athanasius to the Arab Conquest'. The bare 'Church of Alexandria' for the whole span would itself take a side in the Contested claim after 451; the 'and Miaphysite Egypt' half says which line the page follows. Keeping the old name is the alternative; it no longer fits 328-451.",
+  "STORIES: II.1 now carries five stories (Hypatia 415, Ephesus 431, Dioscorus 451, Proterius 457, Benjamin 644), all re-checked against vendored text and trimmed to what the texts show; details not in the vendored texts were cut (the 68-bishop protest, the bribery list, 'we shall be killed', Zachariah's blame of soldiers - Evagrius attributes that to the Life of Peter). Dropped: 'Severus Leaves Antioch by Night' (its sources - John of Beth Aphthonia - are not vendored, and its subject belongs more to the Syriac Orthodox entry; Severus's exile stays in the longDescription). Five is over the brief's two for new entries; coordinator may trim to the 431 and 451 stories plus Benjamin.",
+  "CONTESTED GRADE: the ruling's Contested grade on the claim to Athanasius and Cyril is carried in the text (longDescription paragraph 5, why, legacy, and the fact rows graded Contested). No livingEvidence was added: II.1 has none today, the 71 entries that carry it use a fuller shape (basis, evidence, grade, group), and descentConfidence grades descent to today, which is Documented here, not the contested inheritance. If Mark wants a field for it, livingEvidence on the successor coptic-christianity-under-early-islam is the place, not this entry.",
+  "OVERLAP with imperial-juridical-christianity (c. 312-451): II.1 now runs inside its span from 328 to 451, when Alexandria was in the imperial communion (Athanasius and Cyril both bishops of it). The existing II.1--imperial-juridical 'broke with' link (Chalcedon, 451) still stands. No new link drawn for 328-451; a coordinator may want an 'in contact with' or a sentence in II.1 saying the see stood inside the empire's church until 451. Flagged, not drafted, because the imperial entry's text does not name Alexandria.",
+  "DESERT LINK SPAN: desert-monasticism ends c. 430, while its 'influenced' evidence (457, and the History of the Patriarchs) is later. That was already true of the published link; the rewrite keeps it. Noted for the per-era pass.",
+  "SOURCES LIST: II.1's sources list keeps its six works and adds three (Athanasius NPNF 2.4; Cyril, Pusey; Socrates and Sozomen NPNF 2.2) for 328-451.",
+  "LEGACY: II.1's legacy is the published text with one new sentence (Eastern Orthodox and Catholic honor of Athanasius and Cyril). The carried-over sentences (Coptic sung weekly, Wadi Natrun, Upper Egypt churches, unbroken line) are not re-sourced against vendored text here.",
+  "M5 (for P2-L11 and Open-Gaps): the desert-monasticism to II.1 'influenced' link, as rewritten, is a holding step. Every quote dates after desert-monasticism ends (c. 430), and the quotes show consultation, custody of letters and shelter more than ideas passed on; only Timothy, brought from the desert to Cyril, falls near the span. Its type and span want review by P2-L11.",
+  "TWO-WAY with P2: II.1's prose names Cyril against Nestorius and the deposition at Ephesus (P2's two Nestorius links, which ship with this draft) and now names Peter the Iberian at Timothy's consecration (P2's in-contact link). P2 has dropped its catechetical to II.1 link, so II.1's prose does not name the school.",
+  "BOUNDARY with alexandria-catechetical (Built & Live, c. 150-400): untouched. The two overlap 328-400. The school is Alexandria's tradition of teachers and Scripture reading; II.1 is the see and its people. The Library shelves Athanasius's works on the school's shelf as tradition; under the extended II.1 they belong to the church of Alexandria too. No link drawn between them in this pass: neither entry's text names a relationship to the other, and the obvious one (Theophilus against the Origenists, c. 400) is not in either text.",
+  "LIBRARY (flags only, no edit): (1) Theophilus row npnf214_seven-ecumenical-councils--the-canons-of-theophilus-of-alexandria-prosphonesus (on the alexandria-catechetical shelf) may move to II.1: Theophilus is bishop 385-412, inside II.1. (2) Athanasius rows (Apol. c. Ar., Apol. ad Const., Festal Letters, Ad Ep. Aeg.) may be double-shelved on II.1. (3) Bell 1924 Part II is shelved on desert-monasticism; it belongs on the new melitian-schism shelf as tradition (its own voice); the Callistus letter and the Hathor archive are Melitian, not desert-monastic. Bell Part III (Paphnutius) is not certainly Melitian (Bell 1924, pp. 100 ff.) and should not move on that ground.",
+  "MELITIAN SPAN: c. 306 to the 8th century (start 306, end 768). The own-voice evidence is the 330s; the long tail is outsiders (Theodoret, the 512 papyri via Bell, HP on Damian) and, for the 8th century, Bell alone. The end year 768 is the end of Michael I's patriarchate, the last report Bell cites; a coordinator may prefer end 605 (the last vendored primary, Damian) with the 8th century in the text only.",
+  "MELITIAN ERA AND STATUS: era 2 per the ruling though the split begins c. 306 (era 1 by the lines). Status Pre-Survey Candidate with the census's 'Added for the Library, not yet researched' wording: a new, untiered entry made because its own papyri are in the Library.",
+  "MELITIAN SPELLING: 'Melitius/Melitian' (Socrates, Bell's 'correct form'); Athanasius in NPNF and Bell's translation use 'Meletius/Meletian'. Quotes keep their own spelling.",
+  "NO LINK DRAWN: Melitians and alexandria-catechetical (no source ties them). Melitians and Arius's party: Athanasius (Apol. c. Ar. 59) says Eusebius of Nicomedia 'buys the Meletians'; Sozomen II.21 says the Melitians were later called Arians in Egypt. The census has no entry for the Eusebian party of the 330s (homoian-arian-christianity is the later Homoian church), so the floorNote states the charge as outsiders' and no link is drawn.",
+  "PRE-328 GAP: the church of Alexandria under Peter, Achillas and Alexander (c. 300-328), the side Melitius first broke with, has no entry; the catechetical school (to c. 400) covers its teachers, not its see. Worth a line in Open-Gaps.",
+  "RETIRED LINK: desert-monasticism--...--2 ('gave rise to') retired with replacedBy the 'influenced' link on the same pair, which is rewritten (same ID, type and grade) to take in the Zachariah evidence. The retired link's evidence shows the monks choosing a bishop in 457, not the church emerging from them.",
+  "AKSUM: aksumite-christianity-conversion-era's relationsSummary 'Child of Alexandria (Frumentius consecrated by Athanasius)' is now matched by the new gave-rise-to link; its text needs no change."
+ ]
+}
