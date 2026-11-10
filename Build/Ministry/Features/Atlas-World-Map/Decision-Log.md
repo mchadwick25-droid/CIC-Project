@@ -82,6 +82,42 @@ every other era.
 are in `tools/tests/validate_census_online.test.mjs`. The drafting addendum is
 `Build/Ministry/Operations/Audits/2026-11-10_links-era-10-part-1/Drafting_Brief_Era10.md`.
 
+## 2026-11-10 — Data release 26: rows labeled "N. America" gain countries from their own text
+
+**Carried out under the change order of the same date (Mark: "c").**
+- 30 of the 31 rows gain countries: the United States on all 30, Canada on three (VIII.4, VIII.34,
+  IX.57) and Mexico on two (IX.15, IX.16). IX.32 names no place in the three countries and stays
+  empty.
+- Each country rests on a quoted sentence from that row's own text.
+- An independent review approved it to proceed in Round 2.
+- The tree pages now read, for example, "N. America, today in United States". This settles the IX.44
+  point in Open-Gaps 140. IX.48, labeled "North America", is outside the ruling and is logged as
+  Open-Gaps 141.
+- Records: `Design/StepZero-Eras/CiC_NAmerica_Countries_Proposed.json`, `_Review_Round1.md` and
+  `_Review_Round2.md`.
+
+---
+
+## 2026-11-10 — Change order: modern countries for rows labeled "N. America"
+
+**Decided (Mark: "c").** A row whose place label includes "N. America" gets a modern country only
+when the row's own census text names that country or a place inside it. Each such country is
+recorded with place "N. America". A row whose text names no country keeps an empty list. Nothing is
+claimed that the row does not already say. Until now, all 31 such rows listed no country there, so
+the map never showed the United States, Canada or Mexico for them.
+
+**Options weighed.**
+- (a) Leave them all empty.
+- (b) Read "N. America" as the United States and Canada for every row. That would claim Canada for
+  rows that never mention it.
+- (c) Row by row, from each row's own text. Chosen.
+
+**Heart reasoning.** The rule is the project's rule against inventing: a place is shown because the
+row's own story puts the church there, not because a region label implies it.
+
+**Next action.** Draft the 31 rows' country lists with a trace of each row's naming sentence. Then
+an independent review, data release 26, and a PR. It started from IX.44 (Open-Gaps 140).
+
 ---
 
 ## 2026-11-09 — P2-E10h carried out: data release 25 adds the global sweep's 15 rows
