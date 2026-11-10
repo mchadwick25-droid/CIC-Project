@@ -1008,3 +1008,21 @@ it, never by deleting it.
     - No source supports the claim about what communities experienced.
     - The fix spans two fields, so under the link method it is left for the entry's owner, not
       rewritten in P2-L10. Found by the part 2 drafters (group G).
+148. **Joint declarations between churches, and no entry for Rome after 1962 (2026-11-10).** The
+    part 2 drafters of P2-L10 (group G) read two joint declarations online, on vatican.va:
+    - Paul VI and Athenagoras I, 7 December 1965;
+    - John Paul II and Mar Dinkha IV, the Common Christological Declaration of 1994.
+
+    Each shows contact between two churches directly, in both churches' own names. Two things stop
+    a link:
+    - **A method question for Mark.** Under the method, Widely Accepted needs a study as well, so
+      a link resting on a joint declaration alone could not reach it. Mark ruled that a membership
+      roll alone may carry a "member of" link. Should a joint declaration alone carry an "in
+      contact with" link the same way?
+    - **No endpoint.** The census has no entry for the Roman Catholic Church after 1962. The Pius X
+      entry ends at the Council, and the post-Vatican II parish entry is not the papacy.
+
+    Both claims are confirmed and recorded as no-entry in
+    `Build/Ministry/Operations/Audits/2026-11-10_links-era-10-part-2/Drafting_Record.json`. Owner:
+    Mark (the method question), then the census owner (whether a post-conciliar Catholic entry is
+    needed).
