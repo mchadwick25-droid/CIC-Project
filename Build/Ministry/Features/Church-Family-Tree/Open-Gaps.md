@@ -1896,3 +1896,10 @@ it, never by deleting it.
       checked every date-bearing quote on the page images; two lines were not checked.
     - No country was added to any changed row: Korea, Australia, New Zealand, Haiti, Guatemala and
       China are not on the rows' place labels. Owner: the place-label work.
+197. **Narration scope (Mark, 2026-11-10).** Mark, 2026-11-10, verbatim: "the counsels are stories i
+    think" and "we need a minimum of a minute explanations on everything, then stories more, and
+    longer ones on built worlds"; "this will be work next week". Coordinator note: the councils and
+    other multi-tradition events are the Shared Events workstream (`Build/Ministry/Features/Shared-Events/`,
+    charter 2026-10-17); major links would point to their event's story, the link note staying as
+    evidence. Scheduled for the week after 2026-11-14. See also P2-P's narration item (2026-11-10),
+    when it lands.
