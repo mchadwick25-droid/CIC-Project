@@ -176,3 +176,19 @@ def test_eras_out_of_sync():
     census = {"eras": [{"num": 10, "dates": "1906-c. 2010"}]}
     assert eras_out_of_sync(census, [{"num": 10, "dates": "1906-present"}]) is True
     assert eras_out_of_sync(census, [{"num": 10, "dates": "1906-c. 2010"}]) is False
+
+
+def test_people_fields_mirror_for_built_and_non_built_worlds():
+    census = {
+        "movements": [
+            {"id": "built-b", "status": LIVE_STATUS, "people": [{"person": "p"}], "peopleNote": None},
+            {"id": "plain-b", "status": "Pre-Survey Candidate", "people": [], "peopleNote": "No one is named."},
+            {"id": "p", "status": "Within Another World (A5)", "kind": "person", "toldWithin": "built-b"},
+        ]
+    }
+    atlas = [{"id": "built-b", "status": LIVE_STATUS}, {"id": "plain-b"}, {"id": "p"}]
+    new, _ = sync_atlas(census, atlas)
+    by_id = {m["id"]: m for m in new}
+    assert by_id["built-b"]["people"] == [{"person": "p"}]
+    assert by_id["plain-b"]["peopleNote"] == "No one is named."
+    assert by_id["p"]["toldWithin"] == "built-b"

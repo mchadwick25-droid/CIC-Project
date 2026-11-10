@@ -1796,3 +1796,18 @@ it, never by deleting it.
     - Frozen paragraphs that changed rows carry unchanged still score below the reading target,
       for example VIII.7, VIII.27, VII.2, VII.19, VIII.29, VIII.31, VIII.32 and VII.23's teaser.
       The ruling did not name them. They wait for a readability pass on frozen text.
+193. **What the people layer leaves open (2026-11-10).** P2-P adds the map's Traditions | People
+    switch (Build-Plan, P2-P). Two choices the rulings did not decide were built as recommended and
+    go to Mark with the screenshots (https://claude.ai/artifact/RdBJgr232pqBZcJmSotJY3): which three
+    people show when a row names more than three (person entries first, then the earliest named
+    voices), and how a named voice differs from a person entry (a small dot, its name at close zoom,
+    its tap opening the tradition's card). Also open:
+    - `desert-monasticism--iconophile-byzantine-monasticism` concerns Basil of Caesarea, who is told
+      within neither end. The People view does not draw it; Basil's card lists it under "Also about
+      this person". Owner: the census owner, whether `concerns` should stay on that link.
+    - A person entry appears in other traditions' rows as a plain named voice where those rows list
+      them by name (Athanasius of Alexandria in the rows of the church of Alexandria and the desert
+      monks; Ambrose of Milan in the imperial church's row). The map shows them there as named voices,
+      not as the person. Owner: the census owner, whether those rows should point to the entry.
+    - On a phone the switch bar now wraps to two lines. Owner: P2-K2 (marks, floor, tap areas).
+    - The drawn person marks wait for P2-K1; the map shows a plain ringed mark the Key explains.

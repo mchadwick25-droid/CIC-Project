@@ -159,12 +159,29 @@ test('a person page says which tradition tells it, and carries that world door w
   assert.match(generate(c)(`tree/${person.id}.html`), /A person whose story no single tradition tells\./);
 });
 
-test('the map leaves person entries and their links out until it has a people view', () => {
+test('the map keeps person entries out of the rivers and draws them in its People view', () => {
   const map = fs.readFileSync(path.join(root, 'cft-website/index.html'), 'utf8');
   const at = map.indexOf("const PERSON_IDS=new Set(DATA.movements.filter(m=>m.kind==='person')");
   assert.ok(at > 0);
   assert.ok(at < map.indexOf('const byId={}; DATA.movements.forEach'));
+  assert.match(map, /const personEntries=DATA\.movements\.filter\(m=>PERSON_IDS\.has\(m\.id\)\);/);
   assert.match(map, /DATA\.edges=DATA\.edges\.filter\(e=>!PERSON_IDS\.has\(e\.from\)&&!PERSON_IDS\.has\(e\.to\)\);/);
+  assert.match(map, /<button type="button" data-view-btn="traditions" aria-pressed="true">Traditions<\/button><button type="button" data-view-btn="people" aria-pressed="false">People<\/button>/);
+  assert.doesNotMatch(map, /localStorage\.setItem\('tree-people/);
+  assert.match(map, /const PEOPLE_ON_MAP=3,/);
+});
+
+test('the map holds every tradition\'s people and every person\'s home tradition', () => {
+  const map = fs.readFileSync(path.join(root, 'cft-website/index.html'), 'utf8');
+  const start = map.indexOf('const DATA = ') + 'const DATA = '.length;
+  const data = JSON.parse(map.slice(start, map.indexOf('\n;\n', start)));
+  const held = new Map(data.movements.map(m => [m.id, m]));
+  for (const m of census.movements) {
+    const h = held.get(m.id);
+    assert.deepEqual(h.people, m.people, `${m.id}: people`);
+    assert.equal(h.peopleNote, m.peopleNote, `${m.id}: peopleNote`);
+    assert.equal(h.toldWithin, m.toldWithin, `${m.id}: toldWithin`);
+  }
 });
 
 test('a movement that names no one says why, in its own People section', () => {
