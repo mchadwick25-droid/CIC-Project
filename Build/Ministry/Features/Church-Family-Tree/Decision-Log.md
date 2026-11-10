@@ -980,3 +980,23 @@ after 1815, the home of Southern Africa, and how the frozen-era change orders ar
 **Not changed.** The census. Eras 8 and 9 are frozen, so every addition Mark admits is a change
 order, drafted and reviewed after his ruling.
 
+---
+
+## 2026-11-10 — P2-G89 gate ruled: all recommendations
+
+**How it was reached.** The gate page (https://claude.ai/artifact/34vANZonmFxqr9KXUUUdr4) put
+G89-1 to G89-55 to Mark, each with options and a recommendation. Mark: "all recommended"
+(2026-11-10).
+
+**Decided (Mark).** Every question takes its recommended option, sub-questions included, as stated
+in §8 of `Build/Ministry/Features/Atlas-World-Map/Design/StepZero-Eras/CiC_Step0_Eras8-9_GlobalSweep_V1_0.md`.
+Where a recommendation has two steps ("hold, then a line"), the first step applies now and the
+second when its condition is met. G89-9 takes (a), the Kongo row with its thin middle stated
+plainly.
+
+**Asked, not yet answered.** G89-8's recommendation is conditional: (a), the Coptic row from 1517,
+if Mark gives leave for a row to begin before 1650 (G89-6, sub-question 2); else (b), from 1650.
+
+**Next.** Carry out the rulings as named change orders to the frozen eras 8 and 9 (G89-6 a: one
+register, drafted and reviewed together, one data release).
+
