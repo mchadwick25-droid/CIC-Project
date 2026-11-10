@@ -26,12 +26,12 @@
    "imperial-juridical-christianity": {
     "clean": 5,
     "refs": [
-     "npnf202_socrates-sozomen-ecclesiastical-histories.xml:744",
-     "mansi_sacrorum-conciliorum-collectio-tomus-6-441-451-lat_welter-facsimile1901.txt:50641",
-     "npnf212_leo-great-gregory-great.xml:2680",
-     "optatus_against-the-donatists.txt:1449",
-     "npnf202_socrates-sozomen-ecclesiastical-histories.xml:953",
-     "mansi_sacrorum-conciliorum-collectio-tomus-6-441-451-lat_welter-facsimile1901.txt:84877"
+     "npnf202_socrates-sozomen-ecclesiastical-histories.xml:5427",
+     "npnf113_chrysostom-homilies-galatians-philemon.xml:21339",
+     "collectio-avellana_epistulae-imperatorum-pontificum-pars1-lat_guenther1895-csel35.txt:14742",
+     "npnf204_athanasius-select-works-letters.xml:40314",
+     "npnf202_socrates-sozomen-ecclesiastical-histories.xml:5442",
+     "npnf113_chrysostom-homilies-galatians-philemon.xml:22041"
     ],
     "best_quote": {
      "file": "npnf113_chrysostom-homilies-galatians-philemon.xml",
@@ -44,13 +44,13 @@
    "antiochene-exegetical-christianity-chrysostom-ce": {
     "clean": 7,
     "refs": [
-     "npnf111_chrysostom-homilies-acts-romans.xml:1253",
-     "npnf112_chrysostom-homilies-corinthians.xml:1038",
-     "npnf113_chrysostom-homilies-galatians-philemon.xml:960",
-     "npnf203_theodoret-jerome-gennadius-rufinus.xml:5791",
-     "npnf110_chrysostom-homilies-matthew.xml:19335",
-     "mansi_sacrorum-conciliorum-collectio-tomus-5-431-441-lat_welter-facsimile1901.txt:16422",
-     "palladius_dialogue-life-of-chrysostom_moore1921.txt:10837"
+     "npnf113_chrysostom-homilies-galatians-philemon.xml:11714",
+     "npnf114_chrysostom-homilies-john-hebrews.xml:1361",
+     "npnf203_theodoret-jerome-gennadius-rufinus.xml:16059",
+     "nestorius_nestoriana-fragmenta-grc-lat-deu_loofs1905.txt:16466",
+     "npnf113_chrysostom-homilies-galatians-philemon.xml:17844",
+     "npnf114_chrysostom-homilies-john-hebrews.xml:3184",
+     "npnf203_theodoret-jerome-gennadius-rufinus.xml:21391"
     ],
     "best_quote": {
      "file": "npnf203_theodoret-jerome-gennadius-rufinus.xml",
@@ -348,15 +348,15 @@
    "nicene-visigothic-iberia": {
     "clean": 6,
     "refs": [
-     "chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894.txt:3262",
-     "john-biclaro-leander-pl72-lat_migne1878.txt:129",
-     "ferotin_liber-mozarabicus-sacramentorum-lat-fra_1912.txt:47929",
-     "collectio-canonum-ecclesiae-hispanae-toledo-iii-lat_1808.txt:2226",
-     "isidore-seville_sententiae-eccl-officiis-historia-gothorum-pl83-lat_migne1860.txt:36211",
-     "paulus-emeritanus-braulio-sisebut-pl80-lat_migne1863.txt:8888",
-     "bruns_canones-apostolorum-et-conciliorum-pars-altera-lat_1839.txt:4568",
-     "isidore-seville_etymologiae-origines-lat_lindsay1911.txt:17919",
-     "martin-braga_de-correctione-rusticorum-lat_caspari1883.txt:845"
+     "collectio-canonum-ecclesiae-hispanae-toledo-iii-lat_1808.txt:56339",
+     "bruns_canones-apostolorum-et-conciliorum-pars-altera-lat_1839.txt:2480",
+     "isidore-seville_sententiae-eccl-officiis-historia-gothorum-pl83-lat_migne1860.txt:116933",
+     "isidore-seville_etymologiae-origines-lat_lindsay1911.txt:12485",
+     "collectio-canonum-ecclesiae-hispanae-toledo-iii-lat_1808.txt:56345",
+     "bruns_canones-apostolorum-et-conciliorum-pars-altera-lat_1839.txt:2515",
+     "chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894.txt:43135",
+     "isidore-seville_sententiae-eccl-officiis-historia-gothorum-pl83-lat_migne1860.txt:116945",
+     "collectio-canonum-ecclesiae-hispanae-toledo-iii-lat_1808.txt:56354"
     ],
     "best_quote": {
      "file": "isidore-seville_sententiae-eccl-officiis-historia-gothorum-pl83-lat_migne1860.txt",
@@ -369,14 +369,14 @@
    "shakers": {
     "clean": 6,
     "refs": [
-     "youngs-benjamin-seth_testimony-of-christs-second-appearing_1810.txt:21551",
-     "youngs-benjamin-seth_testimony-of-christs-second-appearing_1810.txt:21559",
-     "youngs-benjamin-seth_testimony-of-christs-second-appearing_1810.txt:21594",
-     "youngs-benjamin-seth_testimony-of-christs-second-appearing_1810.txt:21597",
-     "youngs-benjamin-seth_testimony-of-christs-second-appearing_1810.txt:21638",
-     "youngs-benjamin-seth_testimony-of-christs-second-appearing_1810.txt:21646",
-     "youngs-benjamin-seth_testimony-of-christs-second-appearing_1810.txt:21649",
-     "youngs-benjamin-seth_testimony-of-christs-second-appearing_1810.txt:21658"
+     "youngs-benjamin-seth_testimony-of-christs-second-appearing_1810.txt:13634",
+     "youngs-benjamin-seth_testimony-of-christs-second-appearing_1810.txt:13647",
+     "youngs-benjamin-seth_testimony-of-christs-second-appearing_1810.txt:13663",
+     "youngs-benjamin-seth_testimony-of-christs-second-appearing_1810.txt:13666",
+     "youngs-benjamin-seth_testimony-of-christs-second-appearing_1810.txt:13673",
+     "youngs-benjamin-seth_testimony-of-christs-second-appearing_1810.txt:13675",
+     "youngs-benjamin-seth_testimony-of-christs-second-appearing_1810.txt:13680",
+     "youngs-benjamin-seth_testimony-of-christs-second-appearing_1810.txt:22847"
     ],
     "best_quote": {
      "file": "youngs-benjamin-seth_testimony-of-christs-second-appearing_1810.txt",
@@ -389,12 +389,12 @@
    "byzantine-imperial-church-justinianic": {
     "clean": 5,
     "refs": [
-     "mansi_sacrorum-conciliorum-collectio-tomus-7-451-492-lat_welter-facsimile1901.txt:11624",
-     "facundus-ferrandus-caesarius-dionysius-pl67-lat_migne1865.txt:21507",
-     "evagrius-scholasticus_ecclesiastical-history_walford1846.txt:10715",
-     "npnf214_seven-ecumenical-councils.xml:22990",
-     "mansi_sacrorum-conciliorum-collectio-tomus-7-451-492-lat_welter-facsimile1901.txt:18057",
-     "chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894.txt:19220"
+     "npnf212_leo-great-gregory-great.xml:3255",
+     "npnf212_leo-great-gregory-great.xml:3302",
+     "npnf212_leo-great-gregory-great.xml:3714",
+     "npnf212_leo-great-gregory-great.xml:3726",
+     "npnf212_leo-great-gregory-great.xml:3729",
+     "npnf212_leo-great-gregory-great.xml:3807"
     ],
     "best_quote": {
      "file": "npnf212_leo-great-gregory-great.xml",
@@ -750,16 +750,16 @@
    "palestinian-ascetic-monasticism-early": {
     "clean": 10,
     "refs": [
-     "epiphanius_panarion-haer-48-69-corpus-haereseologicum-t2-pars-posterior-grc-lat_oehler1860.txt:30306",
-     "epiphanius_panarion-haer-48-69-corpus-haereseologicum-t2-pars-posterior-grc-lat_oehler1860.txt:31069",
-     "epiphanius_panarion-haer-48-69-corpus-haereseologicum-t2-pars-posterior-grc-lat_oehler1860.txt:31651",
-     "epiphanius_panarion-haer-48-69-corpus-haereseologicum-t2-pars-posterior-grc-lat_oehler1860.txt:31753",
-     "epiphanius_panarion-haer-48-69-corpus-haereseologicum-t2-pars-posterior-grc-lat_oehler1860.txt:32018",
-     "epiphanius_panarion-haer-48-69-corpus-haereseologicum-t2-pars-posterior-grc-lat_oehler1860.txt:33532",
-     "epiphanius_panarion-haer-48-69-corpus-haereseologicum-t2-pars-posterior-grc-lat_oehler1860.txt:38523",
-     "epiphanius_panarion-haer-48-69-corpus-haereseologicum-t2-pars-posterior-grc-lat_oehler1860.txt:39214",
-     "epiphanius_panarion-haer-48-69-corpus-haereseologicum-t2-pars-posterior-grc-lat_oehler1860.txt:40579",
-     "epiphanius_panarion-haer-48-69-corpus-haereseologicum-t2-pars-posterior-grc-lat_oehler1860.txt:40976"
+     "epiphanius_panarion-haer-48-69-corpus-haereseologicum-t2-pars-posterior-grc-lat_oehler1860.txt:1436",
+     "epiphanius_panarion-haer-48-69-corpus-haereseologicum-t2-pars-posterior-grc-lat_oehler1860.txt:1466",
+     "epiphanius_panarion-haer-48-69-corpus-haereseologicum-t2-pars-posterior-grc-lat_oehler1860.txt:1471",
+     "epiphanius_panarion-haer-48-69-corpus-haereseologicum-t2-pars-posterior-grc-lat_oehler1860.txt:1593",
+     "epiphanius_panarion-haer-48-69-corpus-haereseologicum-t2-pars-posterior-grc-lat_oehler1860.txt:2795",
+     "epiphanius_panarion-haer-48-69-corpus-haereseologicum-t2-pars-posterior-grc-lat_oehler1860.txt:2809",
+     "epiphanius_panarion-haer-48-69-corpus-haereseologicum-t2-pars-posterior-grc-lat_oehler1860.txt:2948",
+     "epiphanius_panarion-haer-48-69-corpus-haereseologicum-t2-pars-posterior-grc-lat_oehler1860.txt:2963",
+     "epiphanius_panarion-haer-48-69-corpus-haereseologicum-t2-pars-posterior-grc-lat_oehler1860.txt:3091",
+     "epiphanius_panarion-haer-48-69-corpus-haereseologicum-t2-pars-posterior-grc-lat_oehler1860.txt:8847"
     ],
     "best_quote": {
      "file": "epiphanius_panarion-haer-48-69-corpus-haereseologicum-t2-pars-posterior-grc-lat_oehler1860.txt",
@@ -772,11 +772,11 @@
    "imperial-juridical-christianity": {
     "clean": 5,
     "refs": [
-     "npnf202_socrates-sozomen-ecclesiastical-histories.xml:744",
-     "npnf214_seven-ecumenical-councils.xml:3803",
-     "mansi_sacrorum-conciliorum-collectio-tomus-7-451-492-lat_welter-facsimile1901.txt:82228",
-     "npnf212_leo-great-gregory-great.xml:2680",
-     "optatus_against-the-donatists.txt:1449"
+     "npnf201_eusebius-church-history-life-of-constantine.xml:29776",
+     "npnf202_socrates-sozomen-ecclesiastical-histories.xml:8693",
+     "npnf201_eusebius-church-history-life-of-constantine.xml:29825",
+     "npnf201_eusebius-church-history-life-of-constantine.xml:29849",
+     "npnf201_eusebius-church-history-life-of-constantine.xml:29882"
     ],
     "best_quote": {
      "file": "npnf201_eusebius-church-history-life-of-constantine.xml",
@@ -1356,13 +1356,13 @@
    "hieronymian-ascetic-literary": {
     "clean": 7,
     "refs": [
-     "jerome_eusebii-chronici-canones-lat_fotheringham1923.txt:45125",
-     "npnf203_theodoret-jerome-gennadius-rufinus.xml:39107",
-     "npnf101_augustine-confessions-letters.xml:28579",
-     "jerome_eusebii-chronici-canones-lat_fotheringham1923.txt:45158",
-     "npnf203_theodoret-jerome-gennadius-rufinus.xml:41236",
-     "npnf101_augustine-confessions-letters.xml:28589",
-     "jerome_eusebii-chronici-canones-lat_fotheringham1923.txt:45661"
+     "npnf206_jerome-principal-works.xml:9770",
+     "jerome_eusebii-chronici-canones-lat_fotheringham1923.txt:44983",
+     "npnf206_jerome-principal-works.xml:10189",
+     "npnf203_theodoret-jerome-gennadius-rufinus.xml:39885",
+     "npnf206_jerome-principal-works.xml:14112",
+     "npnf203_theodoret-jerome-gennadius-rufinus.xml:40652",
+     "npnf206_jerome-principal-works.xml:14546"
     ],
     "best_quote": {
      "file": "npnf206_jerome-principal-works.xml",
@@ -1375,11 +1375,11 @@
    "the-reformed-cities-zurich-and-geneva": {
     "clean": 5,
     "refs": [
-     "calvin_commentaries-genesis-vol1_king1847.txt:24235",
-     "calvin_institutes-christian-religion-vol1_beveridge1845.txt:27624",
-     "calvin_letters-vol1_bonnet1858.txt:18138",
-     "calvin_letters-vol2_bonnet1858.txt:5854",
-     "calvin_commentaries-genesis-vol1_king1847.txt:26031"
+     "calvin_institutes-christian-religion-vol1_beveridge1845.txt:7254",
+     "calvin_opera-omnia-vol10-pars-prior-fra-lat_baum-cunitz-reuss1871.txt:13920",
+     "calvin_commentaries-genesis-vol1_king1847.txt:13394",
+     "calvin_letters-vol1_bonnet1858.txt:16669",
+     "niemeyer_collectio-confessionum-lat_niemeyer1840.txt:30865"
     ],
     "best_quote": {
      "file": "calvin_commentaries-genesis-vol1_king1847.txt",
@@ -1516,15 +1516,15 @@
    "hieronymian-ascetic-literary": {
     "clean": 9,
     "refs": [
-     "npnf101_augustine-confessions-letters.xml:26231",
-     "jerome_eusebii-chronici-canones-lat_fotheringham1923.txt:45125",
-     "npnf206_jerome-principal-works.xml:27944",
-     "npnf101_augustine-confessions-letters.xml:28579",
-     "jerome_eusebii-chronici-canones-lat_fotheringham1923.txt:45158",
-     "npnf203_theodoret-jerome-gennadius-rufinus.xml:41236",
-     "npnf101_augustine-confessions-letters.xml:28589",
-     "jerome_eusebii-chronici-canones-lat_fotheringham1923.txt:45661",
-     "npnf203_theodoret-jerome-gennadius-rufinus.xml:51742"
+     "npnf206_jerome-principal-works.xml:13896",
+     "npnf203_theodoret-jerome-gennadius-rufinus.xml:41776",
+     "npnf203_theodoret-jerome-gennadius-rufinus.xml:41809",
+     "npnf206_jerome-principal-works.xml:30111",
+     "npnf206_jerome-principal-works.xml:30298",
+     "npnf206_jerome-principal-works.xml:30348",
+     "npnf206_jerome-principal-works.xml:30451",
+     "npnf206_jerome-principal-works.xml:30534",
+     "npnf206_jerome-principal-works.xml:30593"
     ],
     "best_quote": {
      "file": "npnf206_jerome-principal-works.xml",
@@ -1701,12 +1701,12 @@
    "orthodoxy-under-the-ottomans-1650-1821": {
     "clean": 6,
     "refs": [
-     "williams-george_orthodox-church-of-the-east-in-the-eighteenth-century_1868.txt:8",
-     "paul-of-aleppo_travels-of-macarius-v1_belfour1836.txt:2481",
-     "libri-symbolici-ecclesiae-orientalis_confessions-grc-lat_kimmel1843.txt:2",
-     "monumenta-fidei-ecclesiae-orientalis_confessions-grc-lat_kimmel1850.txt:2",
-     "williams-george_orthodox-church-of-the-east-in-the-eighteenth-century_1868.txt:337",
-     "paul-of-aleppo_travels-of-macarius-v1_belfour1836.txt:2584"
+     "nikodemos-hagiorite_synaxaristes-vol2-mar-aug-grc_1900.txt:4789",
+     "nikodemos-hagiorite_synaxaristes-vol1-sep-feb-grc_1900.txt:19928",
+     "nikodemos-hagiorite_synaxaristes-vol2-mar-aug-grc_1900.txt:4793",
+     "nikodemos-hagiorite_synaxaristes-vol1-sep-feb-grc_1900.txt:26919",
+     "nikodemos-hagiorite_synaxaristes-vol2-mar-aug-grc_1900.txt:14645",
+     "nikodemos-hagiorite_synaxaristes-vol1-sep-feb-grc_1900.txt:46713"
     ],
     "best_quote": {
      "file": "nikodemos-hagiorite_synaxaristes-vol1-sep-feb-grc_1900.txt",
@@ -1719,12 +1719,12 @@
    "orthodoxy-under-the-ottomans-parish-millet-and-n": {
     "clean": 6,
     "refs": [
-     "schaff_creeds-of-christendom-v2-greek-latin-creeds_1878.txt:147",
-     "acta-et-scripta-wirtembergensium_jeremias-ii-correspondence-lat_1584.txt:15386",
-     "monumenta-fidei-ecclesiae-orientalis_confessions-grc-lat_kimmel1850.txt:2",
-     "smith-thomas_collectanea-de-cyrillo-lucario-lat_1707.txt:1",
-     "mogila_orthodox-confession_overbeck1898.txt:659",
-     "historia-politica-et-patriarchica-constantinopoleos_grc-lat_bekker1849.txt:11106"
+     "nikodemos-hagiorite_synaxaristes-vol2-mar-aug-grc_1900.txt:4789",
+     "nikodemos-hagiorite_synaxaristes-vol1-sep-feb-grc_1900.txt:19928",
+     "nikodemos-hagiorite_synaxaristes-vol2-mar-aug-grc_1900.txt:4793",
+     "nikodemos-hagiorite_synaxaristes-vol1-sep-feb-grc_1900.txt:26919",
+     "nikodemos-hagiorite_synaxaristes-vol2-mar-aug-grc_1900.txt:14645",
+     "nikodemos-hagiorite_synaxaristes-vol1-sep-feb-grc_1900.txt:46713"
     ],
     "best_quote": {
      "file": "nikodemos-hagiorite_synaxaristes-vol1-sep-feb-grc_1900.txt",
@@ -1792,11 +1792,11 @@
    "syriac-orthodox-west-syriac-christianity": {
     "clean": 5,
     "refs": [
-     "po08_john-rufus-plerophories-and-others-fra_1912.txt:631",
-     "michael-the-syrian_chronique-tome1-livres-i-vii-fra_chabot1899.txt:9359",
-     "po08_john-rufus-plerophories-and-others-fra_1912.txt:4133",
-     "john-ephesus_ecclesiastical-history-part3_paynesmith1860.txt:16805",
-     "john-of-ephesus_ecclesiastical-history-part3_paynesmith1860.txt:19234"
+     "michael-the-syrian_chronique-tome1-livres-i-vii-fra_chabot1899.txt:58418",
+     "zachariah-rhetor_chronicle_hamiltonbrooks1899.txt:1861",
+     "barhebraeus_chronicon-ecclesiasticum-vol1-lat_abbeloos-lamy1872.txt:7088",
+     "michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt:19680",
+     "michael-the-syrian_chronique-tome1-livres-i-vii-fra_chabot1899.txt:59640"
     ],
     "best_quote": {
      "file": "zachariah-rhetor_chronicle_hamiltonbrooks1899.txt",
@@ -2177,11 +2177,11 @@
    "the-church-of-the-east-on-the-silk-road": {
     "clean": 5,
     "refs": [
-     "synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt:21290",
-     "synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt:22646",
-     "synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt:22650",
-     "synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt:22706",
-     "synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt:22712"
+     "thomas-of-marga_book-of-governors-v2-english_budge1893.txt:2330",
+     "thomas-of-marga_book-of-governors-v2-english_budge1893.txt:16998",
+     "thomas-of-marga_book-of-governors-v2-english_budge1893.txt:22272",
+     "thomas-of-marga_book-of-governors-v2-english_budge1893.txt:22301",
+     "thomas-of-marga_book-of-governors-v2-english_budge1893.txt:22401"
     ],
     "best_quote": {
      "file": "thomas-of-marga_book-of-governors-v2-english_budge1893.txt",
@@ -2395,12 +2395,12 @@
    "the-society-of-jesus": {
     "clean": 6,
     "refs": [
-     "lainez_epistolae-et-acta-v6-lat_1915.txt:1538",
-     "ignatius-loyola_epistolae-et-instructiones-tomus03-lat_1905.txt:20646",
-     "lainez_epistolae-et-acta-v6-lat_1915.txt:1654",
-     "ignatius-loyola_epistolae-et-instructiones-tomus03-lat_1905.txt:20655",
-     "lainez_epistolae-et-acta-v5-lat_1915.txt:32555",
-     "lainez_epistolae-et-acta-v6-lat_1915.txt:2738"
+     "society-of-jesus_institutum-societatis-iesu-v3-lat_1893.txt:5575",
+     "ignatius-loyola_exercitia-spiritualia-et-directoria-lat-spa_1919.txt:66990",
+     "polanco_chronicon-v6-lat_1898.txt:39922",
+     "society-of-jesus_monumenta-paedagogica-lat-spa_1901.txt:41571",
+     "society-of-jesus_institutum-societatis-iesu-v3-lat_1893.txt:5839",
+     "mendes_expeditio-aethiopica-liber-1-2-lat_beccari1908.txt:6509"
     ],
     "best_quote": {
      "file": "society-of-jesus_monumenta-paedagogica-lat-spa_1901.txt",
@@ -2505,12 +2505,12 @@
    "medieval-welsh-christianity": {
     "clean": 6,
     "refs": [
-     "rees_lives-of-the-cambro-british-saints-lat-eng_1853.txt:667",
-     "rees_lives-of-the-cambro-british-saints-lat-eng_1853.txt:3319",
-     "rees_lives-of-the-cambro-british-saints-lat-eng_1853.txt:3630",
-     "rees_lives-of-the-cambro-british-saints-lat-eng_1853.txt:5251",
-     "rees_lives-of-the-cambro-british-saints-lat-eng_1853.txt:5957",
-     "annales-cambriae-rolls-series-20-lat_williams-ab-ithel1860.txt:1142"
+     "nennius_history-of-the-britons-giles.txt:674",
+     "nennius_history-of-the-britons-giles.txt:703",
+     "nennius_history-of-the-britons-giles.txt:720",
+     "nennius_history-of-the-britons-giles.txt:730",
+     "nennius_history-of-the-britons-giles.txt:818",
+     "rees_lives-of-the-cambro-british-saints-lat-eng_1853.txt:19572"
     ],
     "best_quote": {
      "file": "nennius_history-of-the-britons-giles.txt",
@@ -2556,14 +2556,14 @@
    "medieval-irish-christianity": {
     "clean": 8,
     "refs": [
-     "stokes_lives-of-saints-from-the-book-of-lismore-iri-eng_1890.txt:7317",
-     "stokes_lives-of-saints-from-the-book-of-lismore-iri-eng_1890.txt:7670",
-     "stokes_lives-of-saints-from-the-book-of-lismore-iri-eng_1890.txt:7841",
-     "stokes_lives-of-saints-from-the-book-of-lismore-iri-eng_1890.txt:8396",
-     "stokes_lives-of-saints-from-the-book-of-lismore-iri-eng_1890.txt:10063",
-     "stokes_lives-of-saints-from-the-book-of-lismore-iri-eng_1890.txt:23991",
-     "stokes_lives-of-saints-from-the-book-of-lismore-iri-eng_1890.txt:24009",
-     "stokes_lives-of-saints-from-the-book-of-lismore-iri-eng_1890.txt:24032"
+     "stokes_lives-of-saints-from-the-book-of-lismore-iri-eng_1890.txt:16279",
+     "stokes_lives-of-saints-from-the-book-of-lismore-iri-eng_1890.txt:16432",
+     "stokes_lives-of-saints-from-the-book-of-lismore-iri-eng_1890.txt:16587",
+     "stokes_lives-of-saints-from-the-book-of-lismore-iri-eng_1890.txt:16723",
+     "stokes_lives-of-saints-from-the-book-of-lismore-iri-eng_1890.txt:16857",
+     "stokes_lives-of-saints-from-the-book-of-lismore-iri-eng_1890.txt:16999",
+     "stokes_lives-of-saints-from-the-book-of-lismore-iri-eng_1890.txt:17175",
+     "stokes_lives-of-saints-from-the-book-of-lismore-iri-eng_1890.txt:18961"
     ],
     "best_quote": {
      "file": "stokes_lives-of-saints-from-the-book-of-lismore-iri-eng_1890.txt",
@@ -2709,13 +2709,13 @@
    "medieval-irish-christianity": {
     "clean": 7,
     "refs": [
-     "stokes_lives-of-saints-from-the-book-of-lismore-iri-eng_1890.txt:7317",
-     "stokes_lives-of-saints-from-the-book-of-lismore-iri-eng_1890.txt:7670",
-     "stokes_lives-of-saints-from-the-book-of-lismore-iri-eng_1890.txt:7841",
-     "stokes_lives-of-saints-from-the-book-of-lismore-iri-eng_1890.txt:8396",
-     "stokes_lives-of-saints-from-the-book-of-lismore-iri-eng_1890.txt:10063",
-     "stokes_lives-of-saints-from-the-book-of-lismore-iri-eng_1890.txt:23991",
-     "stokes_lives-of-saints-from-the-book-of-lismore-iri-eng_1890.txt:24009"
+     "stokes_lives-of-saints-from-the-book-of-lismore-iri-eng_1890.txt:10724",
+     "stokes_lives-of-saints-from-the-book-of-lismore-iri-eng_1890.txt:11047",
+     "stokes_lives-of-saints-from-the-book-of-lismore-iri-eng_1890.txt:18227",
+     "stokes_lives-of-saints-from-the-book-of-lismore-iri-eng_1890.txt:18380",
+     "stokes_lives-of-saints-from-the-book-of-lismore-iri-eng_1890.txt:18552",
+     "stokes_lives-of-saints-from-the-book-of-lismore-iri-eng_1890.txt:18709",
+     "stokes_lives-of-saints-from-the-book-of-lismore-iri-eng_1890.txt:20168"
     ],
     "best_quote": {
      "file": "stokes_lives-of-saints-from-the-book-of-lismore-iri-eng_1890.txt",
@@ -2878,14 +2878,14 @@
    "russian-church-nikon-to-holy-synod": {
     "clean": 8,
     "refs": [
-     "ligarides_history-of-the-condemnation-of-patriarch-nikon_palmer1873.txt:1729",
-     "nikon_replies-against-streshnev-and-ligarides_palmer1871.txt:6691",
-     "ligarides_history-of-the-condemnation-of-patriarch-nikon_palmer1873.txt:2767",
-     "ligarides_history-of-the-condemnation-of-patriarch-nikon_palmer1873.txt:8795",
-     "ligarides_history-of-the-condemnation-of-patriarch-nikon_palmer1873.txt:11089",
-     "ligarides_history-of-the-condemnation-of-patriarch-nikon_palmer1873.txt:12375",
-     "ligarides_history-of-the-condemnation-of-patriarch-nikon_palmer1873.txt:16704",
-     "ligarides_history-of-the-condemnation-of-patriarch-nikon_palmer1873.txt:23096"
+     "platon_present-state-of-the-greek-church-in-russia_pinkerton1814.txt:6239",
+     "nikon_replies-against-streshnev-and-ligarides_palmer1871.txt:3921",
+     "ligarides_history-of-the-condemnation-of-patriarch-nikon_palmer1873.txt:5240",
+     "nikon_replies-against-streshnev-and-ligarides_palmer1871.txt:10420",
+     "ligarides_history-of-the-condemnation-of-patriarch-nikon_palmer1873.txt:5277",
+     "nikon_replies-against-streshnev-and-ligarides_palmer1871.txt:13520",
+     "ligarides_history-of-the-condemnation-of-patriarch-nikon_palmer1873.txt:10104",
+     "nikon_replies-against-streshnev-and-ligarides_palmer1871.txt:17807"
     ],
     "best_quote": {
      "file": "ligarides_history-of-the-condemnation-of-patriarch-nikon_palmer1873.txt",
@@ -2999,11 +2999,11 @@
    "church-of-the-east-timur-to-hakkari": {
     "clean": 6,
     "refs": [
-     "mai_scriptorum-veterum-nova-collectio-tomus10-ebedjesu-synodus-timothei-lat_mai1838.txt:5645",
-     "mai_scriptorum-veterum-nova-collectio-tomus10-ebedjesu-synodus-timothei-lat_mai1838.txt:37392",
-     "mai_scriptorum-veterum-nova-collectio-tomus10-ebedjesu-synodus-timothei-lat_mai1838.txt:37439",
-     "mai_scriptorum-veterum-nova-collectio-tomus10-ebedjesu-synodus-timothei-lat_mai1838.txt:37446",
-     "mai_scriptorum-veterum-nova-collectio-tomus10-ebedjesu-synodus-timothei-lat_mai1838.txt:37456",
+     "malech_history-of-the-syrian-nation-and-old-evangelical-apostolic-church-of-the-east_1910.txt:10364",
+     "malech_history-of-the-syrian-nation-and-old-evangelical-apostolic-church-of-the-east_1910.txt:10461",
+     "malech_history-of-the-syrian-nation-and-old-evangelical-apostolic-church-of-the-east_1910.txt:10469",
+     "malech_history-of-the-syrian-nation-and-old-evangelical-apostolic-church-of-the-east_1910.txt:10471",
+     "malech_history-of-the-syrian-nation-and-old-evangelical-apostolic-church-of-the-east_1910.txt:10473",
      "malech_history-of-the-syrian-nation-and-old-evangelical-apostolic-church-of-the-east_1910.txt:10478",
      "malech_history-of-the-syrian-nation-and-old-evangelical-apostolic-church-of-the-east_1910.txt:10581",
      "malech_history-of-the-syrian-nation-and-old-evangelical-apostolic-church-of-the-east_1910.txt:13001"
@@ -3208,11 +3208,11 @@
    "armenian-christianity-era-8": {
     "clean": 5,
     "refs": [
-     "issaverdens_armenia-and-the-armenians-v2-ecclesiastical-history_1875.txt:2023",
-     "zakaria_memoires-historiques-sur-les-sofis-fra_brosset1876.txt:8789",
-     "nurikhan_servo-di-dio-abate-mechitar-ita_1914.txt:9907",
-     "issaverdens_armenian-ritual-parts1-4_1876.txt:3646",
-     "zakaria_memoires-historiques-sur-les-sofis-fra_brosset1876.txt:9987"
+     "serpos_compendio-storico-nazione-armena-t2-ita_1786.txt:992",
+     "issaverdens_armenia-and-the-armenians-v2-ecclesiastical-history_1875.txt:3831",
+     "serpos_compendio-storico-nazione-armena-t2-ita_1786.txt:13550",
+     "serpos_compendio-storico-nazione-armena-t2-ita_1786.txt:13736",
+     "serpos_compendio-storico-nazione-armena-t2-ita_1786.txt:13744"
     ],
     "best_quote": {
      "file": "issaverdens_armenia-and-the-armenians-v2-ecclesiastical-history_1875.txt",
@@ -3225,11 +3225,11 @@
    "coptic-christianity-fatimid-to-mamluk": {
     "clean": 5,
     "refs": [
-     "john-ephesus_lives-eastern-saints-po17_brooks1923.txt:58237",
-     "synaxaire-arabe-jacobite_po11-toubeh-amshir-fra_basset1915.txt:8123",
-     "synaxaire-arabe-jacobite_po11-toubeh-amshir-fra_basset1915.txt:50035",
-     "synaxaire-arabe-jacobite_po11-toubeh-amshir-fra_basset1915.txt:50086",
-     "synaxaire-arabe-jacobite_po11-toubeh-amshir-fra_basset1915.txt:50141"
+     "synaxaire-arabe-jacobite_po11-toubeh-amshir-fra_basset1915.txt:40635",
+     "synaxaire-arabe-jacobite_po11-toubeh-amshir-fra_basset1915.txt:40692",
+     "synaxaire-arabe-jacobite_po11-toubeh-amshir-fra_basset1915.txt:40773",
+     "synaxaire-arabe-jacobite_po11-toubeh-amshir-fra_basset1915.txt:40777",
+     "synaxaire-arabe-jacobite_po11-toubeh-amshir-fra_basset1915.txt:40826"
     ],
     "best_quote": {
      "file": "synaxaire-arabe-jacobite_po11-toubeh-amshir-fra_basset1915.txt",
@@ -3281,13 +3281,13 @@
    "the-tridentine-church": {
     "clean": 5,
     "refs": [
-     "roman-breviary_bute1908.txt:2454",
-     "bellarmine_eternal-happiness-of-the-saints_dalton.txt:7023",
-     "luis-de-granada_of-prayer-and-meditation_hopkins1582.txt:20436",
-     "propaganda-fide_collectanea-decreta-instructiones-rescripta-v1-lat_1907.txt:42995",
-     "roman-breviary_bute1908.txt:75069",
-     "roman-breviary_bute1908.txt:80570",
-     "roman-breviary_bute1908.txt:80618"
+     "roman-breviary_bute1908.txt:2279",
+     "roman-breviary_bute1908.txt:61470",
+     "roman-breviary_bute1908.txt:61472",
+     "roman-breviary_bute1908.txt:61570",
+     "roman-breviary_bute1908.txt:61592",
+     "roman-breviary_bute1908.txt:61597",
+     "roman-breviary_bute1908.txt:61810"
     ],
     "best_quote": {
      "file": "roman-breviary_bute1908.txt",
@@ -3318,16 +3318,16 @@
    "catholic-church-ancien-regime": {
     "clean": 10,
     "refs": [
-     "council-of-trent_canons-and-decrees_waterworth1848.txt:1413",
-     "council-of-trent_canons-and-decrees_waterworth1848.txt:1470",
-     "council-of-trent_canons-and-decrees_waterworth1848.txt:1994",
-     "council-of-trent_canons-and-decrees_waterworth1848.txt:2075",
-     "council-of-trent_canons-and-decrees_waterworth1848.txt:2162",
-     "council-of-trent_canons-and-decrees_waterworth1848.txt:2413",
-     "council-of-trent_canons-and-decrees_waterworth1848.txt:2491",
-     "council-of-trent_canons-and-decrees_waterworth1848.txt:2524",
-     "council-of-trent_canons-and-decrees_waterworth1848.txt:4535",
-     "council-of-trent_canons-and-decrees_waterworth1848.txt:4833"
+     "liguori_glories-of-mary_1852.txt:3475",
+     "liguori_glories-of-mary_1852.txt:3686",
+     "liguori_glories-of-mary_1852.txt:3707",
+     "liguori_glories-of-mary_1852.txt:5648",
+     "liguori_glories-of-mary_1852.txt:6539",
+     "liguori_glories-of-mary_1852.txt:7018",
+     "liguori_glories-of-mary_1852.txt:7045",
+     "liguori_glories-of-mary_1852.txt:7142",
+     "liguori_glories-of-mary_1852.txt:8678",
+     "liguori_glories-of-mary_1852.txt:9224"
     ],
     "best_quote": {
      "file": "liguori_glories-of-mary_1852.txt",
@@ -3828,9 +3828,9 @@
    "german-pietism-spener-francke-halle": {
     "clean": 6,
     "refs": [
-     "burk_memoir-of-bengel_walker1837.txt:6725",
-     "francke_nicodemus-against-fear-of-man_1801.txt:364",
-     "bengel_gnomon-of-the-new-testament-v1_fausset1857.txt:29517",
+     "bengel_erklaerte-offenbarung-johannis-deu_1740.txt:21177",
+     "bengel_introduction-to-exposition-of-apocalypse_robertson1757.txt:10218",
+     "bengel_erklaerte-offenbarung-johannis-deu_1740.txt:32243",
      "burk_memoir-of-bengel_walker1837.txt:13770",
      "bengel_introduction-to-exposition-of-apocalypse_robertson1757.txt:10267",
      "bengel_erklaerte-offenbarung-johannis-deu_1740.txt:33479"
@@ -3846,16 +3846,16 @@
    "restoration-georgian-church-of-england": {
     "clean": 10,
     "refs": [
-     "barlow_brutum-fulmen_1681.txt:3712",
-     "bellarmine_notes-of-the-church_1688.txt:9351",
-     "barlow_brutum-fulmen_1681.txt:5825",
-     "barlow_brutum-fulmen_1681.txt:9805",
-     "barlow_brutum-fulmen_1681.txt:9958",
-     "barlow_brutum-fulmen_1681.txt:10087",
-     "barlow_brutum-fulmen_1681.txt:11850",
-     "barlow_brutum-fulmen_1681.txt:18077",
-     "barlow_brutum-fulmen_1681.txt:24479",
-     "barlow_brutum-fulmen_1681.txt:24509"
+     "barlow_brutum-fulmen_1681.txt:3068",
+     "bellarmine_notes-of-the-church_1688.txt:4689",
+     "barlow_brutum-fulmen_1681.txt:15873",
+     "bellarmine_notes-of-the-church_1688.txt:14580",
+     "barlow_brutum-fulmen_1681.txt:15881",
+     "barlow_brutum-fulmen_1681.txt:16483",
+     "barlow_brutum-fulmen_1681.txt:17813",
+     "barlow_brutum-fulmen_1681.txt:18444",
+     "barlow_brutum-fulmen_1681.txt:18482",
+     "barlow_brutum-fulmen_1681.txt:18509"
     ],
     "best_quote": {
      "file": "barlow_brutum-fulmen_1681.txt",
@@ -3884,16 +3884,16 @@
    "russian-church-synodal-century": {
     "clean": 10,
     "refs": [
-     "mouravieff_history-of-the-church-of-russia_blackmore1842.txt:1346",
-     "mouravieff_history-of-the-church-of-russia_blackmore1842.txt:1497",
-     "mouravieff_history-of-the-church-of-russia_blackmore1842.txt:1500",
-     "mouravieff_history-of-the-church-of-russia_blackmore1842.txt:1537",
-     "mouravieff_history-of-the-church-of-russia_blackmore1842.txt:1541",
-     "mouravieff_history-of-the-church-of-russia_blackmore1842.txt:1555",
-     "mouravieff_history-of-the-church-of-russia_blackmore1842.txt:1566",
-     "mouravieff_history-of-the-church-of-russia_blackmore1842.txt:1788",
-     "mouravieff_history-of-the-church-of-russia_blackmore1842.txt:1789",
-     "mouravieff_history-of-the-church-of-russia_blackmore1842.txt:2078"
+     "mouravieff_history-of-the-church-of-russia_blackmore1842.txt:818",
+     "mouravieff_history-of-the-church-of-russia_blackmore1842.txt:875",
+     "mouravieff_history-of-the-church-of-russia_blackmore1842.txt:975",
+     "mouravieff_history-of-the-church-of-russia_blackmore1842.txt:1184",
+     "mouravieff_history-of-the-church-of-russia_blackmore1842.txt:1193",
+     "mouravieff_history-of-the-church-of-russia_blackmore1842.txt:1217",
+     "mouravieff_history-of-the-church-of-russia_blackmore1842.txt:1391",
+     "mouravieff_history-of-the-church-of-russia_blackmore1842.txt:1485",
+     "mouravieff_history-of-the-church-of-russia_blackmore1842.txt:1528",
+     "mouravieff_history-of-the-church-of-russia_blackmore1842.txt:1616"
     ],
     "best_quote": {
      "file": "mouravieff_history-of-the-church-of-russia_blackmore1842.txt",
@@ -4025,11 +4025,11 @@
    "the-tridentine-church": {
     "clean": 5,
     "refs": [
-     "roman-breviary_bute1908.txt:2454",
-     "bellarmine_eternal-happiness-of-the-saints_dalton.txt:7023",
-     "luis-de-granada_of-prayer-and-meditation_hopkins1582.txt:20436",
-     "roman-breviary_bute1908.txt:80570",
-     "roman-breviary_bute1908.txt:80806"
+     "propaganda-fide_collectanea-decreta-instructiones-rescripta-v1-lat_1907.txt:40633",
+     "council-of-trent_roman-catechism_mchugh-callan1923.txt:14284",
+     "propaganda-fide_collectanea-decreta-instructiones-rescripta-v1-lat_1907.txt:42216",
+     "propaganda-fide_collectanea-decreta-instructiones-rescripta-v1-lat_1907.txt:44042",
+     "propaganda-fide_collectanea-decreta-instructiones-rescripta-v1-lat_1907.txt:81030"
     ],
     "best_quote": {
      "file": "council-of-trent_roman-catechism_mchugh-callan1923.txt",
@@ -4042,14 +4042,14 @@
    "the-anabaptist-movements": {
     "clean": 8,
     "refs": [
-     "van-braght_martyrs-mirror_sohm1886.txt:39674",
-     "hutterite-brethren_geschichts-buecher-oesterreich-ungarn-deu_beck1883.txt:2635",
-     "hutterite-brethren_geschicht-buch-deu_wolkan1923.txt:37646",
-     "menno-simons_complete-works_funk1871.txt:7641",
-     "ausbund_etliche-schoene-christliche-lieder-deu_baer1856.txt:31436",
-     "dirk-philips_enchiridion_kolb1910.txt:24395",
-     "van-braght_martyrs-mirror_sohm1886.txt:41815",
-     "hutterite-brethren_geschichts-buecher-oesterreich-ungarn-deu_beck1883.txt:24726"
+     "van-braght_martyrs-mirror_sohm1886.txt:41795",
+     "van-braght_martyrs-mirror_sohm1886.txt:41824",
+     "van-braght_martyrs-mirror_sohm1886.txt:41864",
+     "van-braght_martyrs-mirror_sohm1886.txt:41918",
+     "van-braght_martyrs-mirror_sohm1886.txt:42213",
+     "van-braght_martyrs-mirror_sohm1886.txt:43461",
+     "van-braght_martyrs-mirror_sohm1886.txt:43934",
+     "van-braght_martyrs-mirror_sohm1886.txt:43969"
     ],
     "best_quote": {
      "file": "van-braght_martyrs-mirror_sohm1886.txt",
@@ -4199,11 +4199,11 @@
    "catholic-church-ancien-regime": {
     "clean": 5,
     "refs": [
-     "council-of-trent_canons-and-decrees_waterworth1848.txt:1413",
-     "council-of-trent_canons-and-decrees_waterworth1848.txt:1470",
-     "council-of-trent_canons-and-decrees_waterworth1848.txt:2413",
-     "council-of-trent_canons-and-decrees_waterworth1848.txt:2491",
-     "council-of-trent_canons-and-decrees_waterworth1848.txt:2524"
+     "liguori_glories-of-mary_1852.txt:511",
+     "montfort_true-devotion-to-the-blessed-virgin_faber1863.txt:657",
+     "pius-vi_bref-sur-la-constitution-civile-du-clerge-fra_1791.txt:1969",
+     "liguori_glories-of-mary_1852.txt:1452",
+     "montfort_true-devotion-to-the-blessed-virgin_faber1863.txt:1064"
     ],
     "best_quote": {
      "file": "liguori_glories-of-mary_1852.txt",
@@ -4554,14 +4554,14 @@
    "restoration-georgian-church-of-england": {
     "clean": 8,
     "refs": [
-     "bellarmine_notes-of-the-church_1688.txt:9351",
-     "barlow_brutum-fulmen_1681.txt:5825",
-     "barlow_brutum-fulmen_1681.txt:9805",
-     "barlow_brutum-fulmen_1681.txt:9958",
-     "barlow_brutum-fulmen_1681.txt:11850",
-     "barlow_brutum-fulmen_1681.txt:18077",
-     "barlow_brutum-fulmen_1681.txt:24479",
-     "barlow_brutum-fulmen_1681.txt:24509"
+     "barlow_brutum-fulmen_1681.txt:10311",
+     "bellarmine_notes-of-the-church_1688.txt:786",
+     "barlow_brutum-fulmen_1681.txt:11623",
+     "bellarmine_notes-of-the-church_1688.txt:6474",
+     "bellarmine_notes-of-the-church_1688.txt:6494",
+     "bellarmine_notes-of-the-church_1688.txt:6789",
+     "bellarmine_notes-of-the-church_1688.txt:8821",
+     "bellarmine_notes-of-the-church_1688.txt:10131"
     ],
     "best_quote": {
      "file": "bellarmine_notes-of-the-church_1688.txt",
@@ -4688,11 +4688,11 @@
    "the-methodist-revival": {
     "clean": 5,
     "refs": [
-     "arminian-magazine_vol-1_1778.txt:10816",
-     "wesley-j_journal-v8_curnock1909.txt:36386",
-     "wesley-j_journal-v2_curnock1909.txt:28761",
-     "wesley-j_journal-v2_curnock1909.txt:28768",
-     "wesley-j_journal-v2_curnock1909.txt:28794"
+     "wesley-c_journal-v1_jackson1849.txt:4963",
+     "methodist-conference_minutes-v1-1744-1798_1862.txt:2433",
+     "wesley-j_journal-v4_curnock1909.txt:2677",
+     "wesley-c_journal-v1_jackson1849.txt:6603",
+     "methodist-conference_minutes-v1-1744-1798_1862.txt:2660"
     ],
     "best_quote": {
      "file": "wesley-j_journal-v4_curnock1909.txt",
