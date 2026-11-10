@@ -455,7 +455,7 @@
      "work": "U.S. Bureau of the Census, Religious Bodies: 1906, Part II, Separate Denominations: History, Description, and Statistics (Washington, 1910), statement on the Disciples of Christ (prepared, the Bureau says, by persons in the denomination)",
      "url": "https://archive.org/download/religiousbodies01huntgoog/religiousbodies01huntgoog_djvu.txt",
      "accessed": "2026-11-10",
-     "locus": "Disciples of Christ, History, pp. 236-237",
+     "locus": "Disciples of Christ, History, pp. 236-237; archive.org item religiousbodies01huntgoog (Part II), djvu text lines 160965-160969",
      "quote": "The Disciples of Christ trace their origin to the revival movement in the early part of the nineteenth century, when a number of leaders arose who pleaded for the Bible alone, without human addition in the form of creeds and formulas",
      "license": "public-domain (U.S. government work, 1910)"
     },
@@ -465,7 +465,7 @@
      "work": "U.S. Bureau of the Census, Religious Bodies: 1906, Part II, Separate Denominations: History, Description, and Statistics (Washington, 1910), statement on the Disciples of Christ",
      "url": "https://archive.org/download/religiousbodies01huntgoog/religiousbodies01huntgoog_djvu.txt",
      "accessed": "2026-11-10",
-     "locus": "Disciples of Christ, History, p. 237",
+     "locus": "Disciples of Christ, History, p. 237; archive.org item religiousbodies01huntgoog (Part II), djvu text lines 161106-161107",
      "quote": "Mr. Stone favored \"Christians,\" as the name given in the beginning by divine authority.",
      "license": "public-domain (U.S. government work, 1910)"
     },
@@ -475,7 +475,7 @@
      "work": "U.S. Bureau of the Census, Religious Bodies: 1906, Part II, Separate Denominations: History, Description, and Statistics (Washington, 1910), general statement on the Disciples or Christians",
      "url": "https://archive.org/download/religiousbodies01huntgoog/religiousbodies01huntgoog_djvu.txt",
      "accessed": "2026-11-10",
-     "locus": "Disciples or Christians, General statement, p. 235",
+     "locus": "Disciples or Christians, General statement, p. 235; archive.org item religiousbodies01huntgoog (Part II), djvu text lines 160590-160593",
      "quote": "Certain churches which in the report for 1890 were included with the Disciples of Christ have since 1900 withdrawn and class themselves as independent Churches of Christ.",
      "license": "public-domain (U.S. government work, 1910)"
     },
@@ -514,7 +514,8 @@
    "drafter_flags": [
     "The report is a U.S. government publication. Its letter of transmittal (p. 7) says the denominational statements were 'prepared, wherever feasible, by competent persons in the denominations'. I treated the Disciples statement as the body's own dated text under the era 10 rule; the reviewer should confirm that reading.",
     "Read as the archive.org OCR text of the Google scan; quotes chosen from spans with no OCR errors. Page numbers are the printed ones in that text.",
-    "Hughes and the Stone-Campbell Encyclopedia remain named-not-rechecked."
+    "Hughes and the Stone-Campbell Encyclopedia remain named-not-rechecked.",
+    "Re-checked 2026-11-10 by plain curl of the same djvu text: every quote is there word for word. The OCR puts two spaces between words and breaks lines mid-sentence, so a raw grep for a single-spaced phrase finds nothing; squash whitespace first (e.g. tr -s ' \\n' ' '). Line numbers in the locus are in that text file."
    ],
    "change_reason": "Regraded Dominant Modern Reconstruction to Widely Accepted: the 1906 Religious Bodies report, read online, shows the Disciples tracing their origin to the Stone and Campbell movement and the 1906 split. From, to, type and note unchanged. Capped at Widely Accepted because the text is read online, not held in the Library."
   },
@@ -533,7 +534,7 @@
      "work": "U.S. Bureau of the Census, Religious Bodies: 1906, Part II, Separate Denominations: History, Description, and Statistics (Washington, 1910), general statement on the Disciples or Christians",
      "url": "https://archive.org/download/religiousbodies01huntgoog/religiousbodies01huntgoog_djvu.txt",
      "accessed": "2026-11-10",
-     "locus": "Disciples or Christians, General statement, p. 235",
+     "locus": "Disciples or Christians, General statement, p. 235; archive.org item religiousbodies01huntgoog (Part II), djvu text lines 160590-160593",
      "quote": "Certain churches which in the report for 1890 were included with the Disciples of Christ have since 1900 withdrawn and class themselves as independent Churches of Christ.",
      "license": "public-domain (U.S. government work, 1910)"
     },
@@ -543,7 +544,7 @@
      "work": "U.S. Bureau of the Census, Religious Bodies: 1906, Part II, Separate Denominations: History, Description, and Statistics (Washington, 1910), statement on the Churches of Christ",
      "url": "https://archive.org/download/religiousbodies01huntgoog/religiousbodies01huntgoog_djvu.txt",
      "accessed": "2026-11-10",
-     "locus": "Churches of Christ, History, p. 242",
+     "locus": "Churches of Christ, History, p. 242; archive.org item religiousbodies01huntgoog (Part II), djvu text lines 164015-164018",
      "quote": "It was inevitable that such divergencies of opinion should result in the formation of opposing parties, and these parties were variously called \"Conservatives\" and \"Progressives,\" or \"Antis\" and \"Digressives.\"",
      "license": "public-domain (U.S. government work, 1910)"
     },
@@ -581,7 +582,8 @@
    "drafter_flags": [
     "Group D (Churches of Christ) may draft the same pair; merge to one link.",
     "Both statements sit in one government report, but each was prepared for its own body, so the rupture is recorded from both sides. The Disciples statement's own sentence ('have since withdrawn to form the body known as the \"Churches of Christ\"', p. 237) has OCR damage, so I quote the general statement instead; the reviewer can read p. 237 at the same address.",
-    "The note calls the census of religious bodies a 'survey of churches', to keep the word census out of public text."
+    "The note calls the census of religious bodies a 'survey of churches', to keep the word census out of public text.",
+    "Re-checked 2026-11-10 by plain curl of the same djvu text: every quote is there word for word. The OCR puts two spaces between words and breaks lines mid-sentence, so a raw grep for a single-spaced phrase finds nothing; squash whitespace first (e.g. tr -s ' \\n' ' '). Line numbers in the locus are in that text file."
    ],
    "change_reason": "New: the 1906 division both texts name had no link."
   },
@@ -816,8 +818,8 @@
      "work": "N. T. Wright, 'Farewell to the Rapture', Bible Review (August 2001), as posted on ntwrightpage.com",
      "url": "https://ntwrightpage.com/2016/07/12/farewell-to-the-rapture/",
      "accessed": "2026-11-10",
-     "locus": "opening",
-     "quote": "Seen from my side of the Atlantic, the phenomenal success of the Left Behind books appears puzzling, even bizarre.",
+     "locus": "opening paragraph (the page heads it 'N.T. Wright, Bible Review, August 2001. Reproduced by permission of the author')",
+     "quote": "Seen from my side of the Atlantic, the phenomenal success of the Left Behind books appears puzzling, even bizarre",
      "license": "rights reserved; short quotation"
     }
    ],
@@ -838,7 +840,7 @@
    ],
    "drafter_flags": [
     "METHOD QUESTION (in escalations): the era 10 rule admits as online primary only a church body's own dated text. Wright's article is one author's, not a body's. I used it because it is the critic's own text directed at the other side, but graded the link Inferential-Thin, not Widely Accepted.",
-    "The page would not load to curl (403); I read it through the fetch tool, which returns short extracts. The quote should be re-read on the page.",
+    "Re-checked 2026-11-10 by plain curl: the sentence is on the page, but a footnote marker '[1]' follows 'bizarre', so the quote now ends at 'bizarre' without the full stop.",
     "Group B (narrative-kingdom) may draft the same pair; merge to one link.",
     "Prose qualified: 'in large part a reaction' claimed more than one article shows."
    ],
@@ -968,8 +970,8 @@
      "work": "C. René Padilla, 'Evangelism and the World', address to the International Congress on World Evangelization, Lausanne, 25 July 1974 (Lausanne Movement, lausanne.org)",
      "url": "https://lausanne.org/content/evangelism-and-the-world",
      "accessed": "2026-11-10",
-     "locus": "the address",
-     "quote": "I am merely asking that we take seriously the relevance of the Gospel to the totality of man's life in the world.",
+     "locus": "the address, as posted on lausanne.org (dated 25 Jul 1974)",
+     "quote": "I am merely asking that we take seriously the relevance of the Gospel to the totality of man’s life in the world.",
      "license": "rights reserved; short quotation"
     },
     {
@@ -978,7 +980,7 @@
      "work": "The Lausanne Covenant (International Congress on World Evangelization, 1974), Lausanne Movement",
      "url": "https://lausanne.org/statement/lausanne-covenant",
      "accessed": "2026-11-10",
-     "locus": "Section 5, Christian Social Responsibility",
+     "locus": "5. Christian Social Responsibility",
      "quote": "Here too we express penitence both for our neglect and for having sometimes regarded evangelism and social concern as mutually exclusive.",
      "license": "rights reserved; short quotation"
     },
@@ -989,7 +991,7 @@
      "url": "https://www.cambridge.org/core/journals/journal-of-ecclesiastical-history/article/abs/lausanne-1974-the-challenge-from-the-majority-world-to-northernhemisphere-evangelicalism/9158C31B75F72327815F9EE28AF9DC22",
      "accessed": "2026-11-10",
      "locus": "abstract",
-     "quote": "These challenges demanded that Christian mission should be defined as a broader process than evangelism alone, and made their mark on the 'Lausanne Covenant', a document adopted by the congress which has had normative status among Evangelicals ever since."
+     "quote": "These challenges demanded that Christian mission should be defined as a broader process than evangelism alone, and made their mark on the ‘Lausanne Covenant’, a document adopted by the congress which has had normative status among Evangelicals ever since."
     }
    ],
    "citation_specificity": "B",
@@ -1009,7 +1011,7 @@
     "Samuel Escobar, 'Evangelism and Man's Search for Freedom, Justice and Fulfillment' (Lausanne 1974), read online"
    ],
    "drafter_flags": [
-    "lausanne.org blocks curl (Cloudflare); I read both Lausanne pages and the Cambridge page through the fetch tool, which returns short extracts. The three quotes should be re-read on the pages before apply.",
+    "Re-checked 2026-11-10 by plain curl of all three pages, with tags stripped: each quote is on its page word for word. Two quotes were corrected to the pages' own curly punctuation (Padilla's 'man’s'; Stanley's ‘Lausanne Covenant’); the earlier fetch-tool extract had straight quotes.",
     "Stanley's article is dated 2013; it supports a 1974 fact, and the note gives no date after 2010 and does not name him.",
     "Lausanne's own text names Padilla and Escobar but not this movement, so the pair is ours. Only Padilla is quoted; Escobar's paper was not opened, so the note names Padilla alone."
    ],
