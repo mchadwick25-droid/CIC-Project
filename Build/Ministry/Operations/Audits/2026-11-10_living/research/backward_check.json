@@ -1,0 +1,657 @@
+[
+ {
+  "family": "Catholic Church (Latin)",
+  "tracesTo": [
+   "post-apostolic-house-church",
+   "roman-church-third-century",
+   "ambrosian-milan-standalone",
+   "imperial-juridical-christianity",
+   "roman-church-gregorian",
+   "merovingian-gallic-christianity",
+   "carolingian-reform-christianity",
+   "latin-papal-church-gregorian",
+   "latin-papal-church-avignon-to-lateran-v",
+   "recusant-english-catholicism",
+   "catholic-church-ancien-regime",
+   "catholic-church-long-nineteenth-century",
+   "the-catholic-church-pius-x-to-the-council",
+   "the-post-vatican-ii-parish-world",
+   "latin-american-catholicism-twentieth-century",
+   "the-catholic-church-in-africa-twentieth-century",
+   "chinese-catholicism-twentieth-century",
+   "philippine-catholicism-twentieth-century",
+   "polish-catholicism-wyszynski-and-john-paul-ii",
+   "catholic-lay-renewal-worlds-catholic-worker-foco"
+  ],
+  "latestEntryEnds": 2010,
+  "status": "traced",
+  "note": "The Latin line runs from the Roman church of the third century to the Post-Vatican-II Parish Tradition, which ends c. 2010."
+ },
+ {
+  "family": "Maronite Church",
+  "tracesTo": [
+   "maronite-christianity",
+   "maronite-christianity-era-6"
+  ],
+  "latestEntryEnds": 1517,
+  "status": "traced, gap after 1517",
+  "note": "The tree has Maronite entries to 1517 and none after; the draft names the Maronite Church as the present body."
+ },
+ {
+  "family": "Melkite Greek Catholic Church",
+  "tracesTo": [
+   "melkite-arabic-christianity",
+   "melkite-greek-catholic-church",
+   "melkite-greek-catholic-church-after-1815"
+  ],
+  "latestEntryEnds": 1911,
+  "status": "traced, gap after 1911",
+  "note": "The Melkite line is told to 1911 in The Melkite Greek Catholic Church after 1815, with no later entry."
+ },
+ {
+  "family": "Ukrainian Greek Catholic Church",
+  "tracesTo": [
+   "kievan-rus-christianity-1054-1240",
+   "the-union-of-brest-and-ruthenian-greek-catholic-",
+   "ruthenian-uniate-18th-century",
+   "ruthenian-greek-catholic-polotsk-to-galicia",
+   "the-ukrainian-greek-catholic-underground"
+  ],
+  "latestEntryEnds": 1989,
+  "status": "traced, gap after 1989",
+  "note": "The Ukrainian Greek Catholic Underground ends in 1989; the Ruthenian line reaches the present only through the Underground and Romanian entries."
+ },
+ {
+  "family": "Ruthenian / Mukachevo Greek Catholic Church",
+  "tracesTo": [
+   "the-union-of-brest-and-ruthenian-greek-catholic-",
+   "ruthenian-uniate-18th-century",
+   "ruthenian-greek-catholic-polotsk-to-galicia"
+  ],
+  "latestEntryEnds": 1906,
+  "status": "traced, gap after 1906",
+  "note": "The tree has Ruthenian entries to 1906; the Prešov sobor of 1950 appears only in the Ukrainian and Romanian entries, which do not carry this church."
+ },
+ {
+  "family": "Romanian Greek Catholic Church",
+  "tracesTo": [
+   "the-romanian-greek-catholic-church-suppression-and-return"
+  ],
+  "latestEntryEnds": 2010,
+  "status": "traced",
+  "note": "One era 10 entry tells its suppression in 1948 and its return, ending c. 2010."
+ },
+ {
+  "family": "Armenian Catholic Church",
+  "tracesTo": [
+   "armenian-christianity-era-8"
+  ],
+  "latestEntryEnds": 1815,
+  "status": "traced, gap after 1815",
+  "note": "The Mekhitarist and Catholic Patriarchate entry ends in 1815; the Armenian Church after the Genocide entry tells the Apostolic Church, not this one."
+ },
+ {
+  "family": "Chaldean Catholic Church",
+  "tracesTo": [
+   "church-of-the-east-chaldean-consolidation"
+  ],
+  "latestEntryEnds": 1906,
+  "status": "traced, gap after 1906",
+  "note": "The Chaldean Consolidation entry ends in 1906; the Sayfo entry names an Assyro-Chaldean delegation of 1919 but does not carry the Chaldean Church."
+ },
+ {
+  "family": "Syro-Malabar Church",
+  "tracesTo": [
+   "st-thomas-christians-1300-1517",
+   "st-thomas-christians-under-portuguese-pressure-d"
+  ],
+  "latestEntryEnds": 1665,
+  "status": "traced, gap after 1665",
+  "note": "The St Thomas entries name it as a present body; the later Malankara entry (c. 2010) tells the Orthodox and Jacobite churches, not this one."
+ },
+ {
+  "family": "Syro-Malankara Church",
+  "tracesTo": [
+   "st-thomas-christians-1300-1517"
+  ],
+  "latestEntryEnds": 1517,
+  "status": "traced, gap after 1517",
+  "note": "It is named only in the 1300-1517 St Thomas entry; no later entry names it."
+ },
+ {
+  "family": "Ecumenical Patriarchate of Constantinople",
+  "tracesTo": [
+   "imperial-juridical-christianity",
+   "byzantine-imperial-church-justinianic",
+   "byzantine-imperial-church-heraclian-iconoclast",
+   "byzantine-imperial-church-macedonian",
+   "byzantine-church-after-1054",
+   "byzantine-church-palaiologan",
+   "orthodoxy-under-the-ottomans-parish-millet-and-n",
+   "orthodoxy-under-the-ottomans-1650-1821",
+   "the-kollyvades-and-greek-renewal",
+   "orthodoxy-after-1821-balkan-autocephalies",
+   "the-greek-church-and-the-ecumenical-patriarchate"
+  ],
+  "latestEntryEnds": 2010,
+  "status": "traced",
+  "note": "The Greek Church and the Ecumenical Patriarchate in the Twentieth Century closes the line at c. 2010."
+ },
+ {
+  "family": "Greek Orthodox Patriarchate of Alexandria",
+  "tracesTo": [],
+  "latestEntryEnds": null,
+  "status": "no entry",
+  "note": "No entry in the tree tells the Greek Orthodox Patriarchate of Alexandria; the Alexandria entries tell the Coptic line."
+ },
+ {
+  "family": "Greek Orthodox Patriarchate of Antioch",
+  "tracesTo": [
+   "antiochene-church-third-century",
+   "melkite-arabic-christianity"
+  ],
+  "latestEntryEnds": 1009,
+  "status": "traced, gap after 1009",
+  "note": "The tree names it only to 1009; the Antiochian Archdiocese appears in the American Orthodoxy entry as a mention, not as a carried church."
+ },
+ {
+  "family": "Greek Orthodox Patriarchate of Jerusalem",
+  "tracesTo": [
+   "jerusalem-liturgical-pilgrimage-christianity",
+   "melkite-arabic-christianity"
+  ],
+  "latestEntryEnds": 1009,
+  "status": "traced, gap after 1009",
+  "note": "The tree names it as a present body only up to 1009."
+ },
+ {
+  "family": "Russian Orthodox Church",
+  "tracesTo": [
+   "cyrillo-methodian-slavic-christianity",
+   "kievan-rus-christianity-1054-1240",
+   "russian-church-stoglav-to-nikon",
+   "russian-church-nikon-to-holy-synod",
+   "russian-church-synodal-century",
+   "the-optina-elders-and-russian-ascetic-renewal",
+   "emigre-orthodoxy-and-the-paris-school",
+   "the-russian-new-martyrs-and-the-catacomb-church",
+   "the-russian-orthodox-church-council-patriarchate-and-reunion"
+  ],
+  "latestEntryEnds": 2010,
+  "status": "traced",
+  "note": "The Council, Patriarchate and Reunion entry carries the church to c. 2010."
+ },
+ {
+  "family": "Serbian Orthodox Church",
+  "tracesTo": [
+   "serbian-and-bulgarian-medieval-monasticism",
+   "orthodoxy-after-1821-balkan-autocephalies",
+   "orthodoxy-in-the-communist-balkans"
+  ],
+  "latestEntryEnds": 2010,
+  "status": "traced",
+  "note": "The Orthodoxy in the Communist Balkans entry names it in its title and runs to c. 2010."
+ },
+ {
+  "family": "Romanian Orthodox Church",
+  "tracesTo": [
+   "the-hesychast-revival-paisius-and-the-philokalia",
+   "orthodoxy-after-1821-balkan-autocephalies",
+   "orthodoxy-in-the-communist-balkans"
+  ],
+  "latestEntryEnds": 2010,
+  "status": "traced",
+  "note": "The Orthodoxy in the Communist Balkans entry names it in its title and runs to c. 2010."
+ },
+ {
+  "family": "Bulgarian Orthodox Church",
+  "tracesTo": [
+   "serbian-and-bulgarian-medieval-monasticism",
+   "orthodoxy-after-1821-balkan-autocephalies",
+   "orthodoxy-in-the-communist-balkans"
+  ],
+  "latestEntryEnds": 2010,
+  "status": "traced",
+  "note": "The Orthodoxy in the Communist Balkans entry names it in its title and runs to c. 2010."
+ },
+ {
+  "family": "Georgian Orthodox Church",
+  "tracesTo": [
+   "georgian-christianity",
+   "georgian-revival-tao-klarjeti",
+   "the-georgian-golden-age",
+   "the-georgian-orthodox-church-restored"
+  ],
+  "latestEntryEnds": 2010,
+  "status": "traced",
+  "note": "The Georgian Orthodox Church Restored runs to c. 2010."
+ },
+ {
+  "family": "Orthodox Church of Cyprus",
+  "tracesTo": [],
+  "latestEntryEnds": null,
+  "status": "no entry",
+  "note": "No entry in the tree names the Church of Cyprus."
+ },
+ {
+  "family": "Church of Greece",
+  "tracesTo": [
+   "the-kollyvades-and-greek-renewal",
+   "orthodoxy-after-1821-balkan-autocephalies",
+   "the-greek-church-and-the-ecumenical-patriarchate"
+  ],
+  "latestEntryEnds": 2010,
+  "status": "traced",
+  "note": "Greek autocephaly of 1833 is in the 1821 entry; the twentieth-century Greek Church entry runs to c. 2010."
+ },
+ {
+  "family": "Polish Orthodox Church",
+  "tracesTo": [],
+  "latestEntryEnds": null,
+  "status": "no entry",
+  "note": "No entry in the tree names the Polish Orthodox Church; the Polish entry tells Catholicism."
+ },
+ {
+  "family": "Orthodox Church of Albania",
+  "tracesTo": [
+   "orthodoxy-in-the-communist-balkans"
+  ],
+  "latestEntryEnds": 2010,
+  "status": "traced",
+  "note": "The Orthodoxy in the Communist Balkans entry names the Albanian church in its title and runs to c. 2010."
+ },
+ {
+  "family": "Orthodox Church of the Czech Lands and Slovakia",
+  "tracesTo": [],
+  "latestEntryEnds": null,
+  "status": "no entry",
+  "note": "No entry in the tree names this church."
+ },
+ {
+  "family": "Orthodox Church in America",
+  "tracesTo": [
+   "alaskan-mission-herman-veniaminov",
+   "emigre-orthodoxy-and-the-paris-school",
+   "american-orthodoxy-autocephaly-and-the-convert-wave"
+  ],
+  "latestEntryEnds": 2010,
+  "status": "traced",
+  "note": "American Orthodoxy: Autocephaly and the Convert Wave runs to c. 2010."
+ },
+ {
+  "family": "Orthodox Church of Ukraine",
+  "tracesTo": [
+   "kievan-rus-christianity-1054-1240",
+   "the-kyiv-mohyla-orthodox-revival"
+  ],
+  "latestEntryEnds": 1700,
+  "status": "traced, gap after 1700",
+  "note": "The Kyiv-Mohyla entry ends in 1700; the Russian entries to c. 2010 do not name Ukraine."
+ },
+ {
+  "family": "Orthodox Church of Sinai",
+  "tracesTo": [
+   "chalcedonian-monasticism-judean-desert-and-gaza"
+  ],
+  "latestEntryEnds": 614,
+  "status": "traced, gap after 614",
+  "note": "Named only through the monastery of Saint Catherine in the Judean Desert and Gaza entry, which ends in 614."
+ },
+ {
+  "family": "Macedonian Orthodox Church",
+  "tracesTo": [],
+  "latestEntryEnds": null,
+  "status": "no entry",
+  "note": "No entry in the tree names this church."
+ },
+ {
+  "family": "Coptic Orthodox Church",
+  "tracesTo": [
+   "desert-monasticism",
+   "cyrilline-miaphysite-egyptian-christianity",
+   "coptic-christianity-under-early-islam",
+   "coptic-christianity-fatimid-to-mamluk",
+   "coptic-revival-under-cyril-iv",
+   "the-coptic-monastic-and-sunday-school-revival"
+  ],
+  "latestEntryEnds": 2010,
+  "status": "traced",
+  "note": "The Coptic Monastic and Sunday-School Revival runs to c. 2010. There is no Coptic entry between the Mamluk period (1300) and Cyril IV."
+ },
+ {
+  "family": "Ethiopian Orthodox Tewahedo Church",
+  "tracesTo": [
+   "aksumite-christianity-conversion-era",
+   "aksumite-christianity",
+   "post-aksumite-ethiopian-christianity",
+   "zagwe-and-early-solomonic-ethiopian-christianity",
+   "the-ethiopian-monastic-flowering",
+   "ethiopian-christianity-gragn-to-fasilides",
+   "ethiopian-christianity-tewodros-to-menelik",
+   "modern-ethiopian-and-eritrean-christianity"
+  ],
+  "latestEntryEnds": 2010,
+  "status": "traced",
+  "note": "Modern Ethiopian and Eritrean Christianity runs to c. 2010."
+ },
+ {
+  "family": "Eritrean Orthodox Tewahedo Church",
+  "tracesTo": [
+   "aksumite-christianity-conversion-era",
+   "aksumite-christianity",
+   "post-aksumite-ethiopian-christianity",
+   "modern-ethiopian-and-eritrean-christianity"
+  ],
+  "latestEntryEnds": 2010,
+  "status": "traced",
+  "note": "Modern Ethiopian and Eritrean Christianity names Eritrea in its title and runs to c. 2010."
+ },
+ {
+  "family": "Syriac Orthodox Church",
+  "tracesTo": [
+   "syriac-edessa-nisibis",
+   "syriac-orthodox-west-syriac-christianity",
+   "syriac-orthodox-under-islam",
+   "syriac-renaissance",
+   "the-sayfo-and-the-syriac-diaspora"
+  ],
+  "latestEntryEnds": 2010,
+  "status": "traced",
+  "note": "The Sayfo and the Syriac Diaspora covers the Syriac Orthodox wing to c. 2010; the tree has no entry between 1300 and 1915."
+ },
+ {
+  "family": "Armenian Apostolic Church",
+  "tracesTo": [
+   "armenian-christianity-conversion-era",
+   "armenian-christianity-after-avarayr",
+   "armenian-christianity-before-the-bagratids",
+   "bagratid-armenian-christianity",
+   "armenian-cilicia",
+   "armenian-cilicia-after-the-kingdom",
+   "armenian-christianity-new-julfa",
+   "armenian-apostolic-church-era-8",
+   "armenian-christianity-zartonk",
+   "the-armenian-church-after-the-genocide-medz-yegh"
+  ],
+  "latestEntryEnds": 2010,
+  "status": "traced",
+  "note": "The Armenian Church after the Genocide runs to c. 2010."
+ },
+ {
+  "family": "Malankara Orthodox Syrian Church / Jacobite Syrian Christian Church",
+  "tracesTo": [
+   "st-thomas-christians-of-india",
+   "st-thomas-christians-1300-1517",
+   "st-thomas-christians-under-portuguese-pressure-d",
+   "the-malankara-churches-orthodox-and-jacobite"
+  ],
+  "latestEntryEnds": 2010,
+  "status": "traced",
+  "note": "The Malankara Churches entry names both and runs to c. 2010. The tree has no entry between 1665 and 1912."
+ },
+ {
+  "family": "Assyrian Church of the East",
+  "tracesTo": [
+   "persian-church-of-the-east-early",
+   "the-church-of-the-east-under-persia",
+   "the-church-of-the-east-on-the-silk-road",
+   "church-of-the-east-under-the-abbasids",
+   "church-of-the-east-under-the-mongols",
+   "church-of-the-east-timur-to-hakkari",
+   "church-of-the-east-schism-of-1552",
+   "church-of-the-east-chaldean-consolidation",
+   "the-sayfo-and-the-syriac-diaspora"
+  ],
+  "latestEntryEnds": 2010,
+  "status": "traced",
+  "note": "The Sayfo and the Syriac Diaspora covers the Church of the East wing to c. 2010."
+ },
+ {
+  "family": "Anglican",
+  "tracesTo": [
+   "anglo-saxon-christianity",
+   "late-anglo-saxon-christianity",
+   "restoration-georgian-church-of-england",
+   "victorian-church-of-england",
+   "the-oxford-movement-and-anglo-catholic-revival",
+   "the-anglican-communion-twentieth-century"
+  ],
+  "latestEntryEnds": 2010,
+  "status": "traced",
+  "note": "The Anglican Communion in the Twentieth Century runs to c. 2010."
+ },
+ {
+  "family": "Lutheran",
+  "tracesTo": [
+   "lutheran-wittenberg-and-its-congregations",
+   "scandinavian-reformation-kingdoms",
+   "swedish-lutherans-of-new-sweden",
+   "confessional-lutheran-revival-emigrations"
+  ],
+  "latestEntryEnds": 1906,
+  "status": "traced, gap after 1906",
+  "note": "The latest Lutheran entry, the Confessional Lutheran Revival and the Emigrations, ends in 1906; no era 10 entry names Lutherans."
+ },
+ {
+  "family": "Reformed / Presbyterian",
+  "tracesTo": [
+   "the-reformed-cities-zurich-and-geneva",
+   "the-scottish-reformation-and-kirk",
+   "the-waldensian-reformed-union",
+   "the-huguenots",
+   "the-welsh-revival-tradition",
+   "english-old-dissent",
+   "dutch-neo-calvinism-secession-churches"
+  ],
+  "latestEntryEnds": 1906,
+  "status": "traced, gap after 1906",
+  "note": "The main Reformed entries end in 1906; only the Korean Presbyterian line continues to c. 2010.",
+  "regionalContinuation": [
+   "korean-protestantism-twentieth-century"
+  ]
+ },
+ {
+  "family": "Congregational",
+  "tracesTo": [
+   "english-old-dissent"
+  ],
+  "latestEntryEnds": 1815,
+  "status": "traced, gap after 1815",
+  "note": "English Old Dissent, which names the Congregational Federation, ends in 1815; no later entry carries Congregationalists."
+ },
+ {
+  "family": "Methodist",
+  "tracesTo": [
+   "the-methodist-revival",
+   "nineteenth-century-methodism"
+  ],
+  "latestEntryEnds": 1906,
+  "status": "traced, gap after 1906",
+  "note": "Nineteenth-Century Methodism ends in 1906; no era 10 entry names Methodist churches."
+ },
+ {
+  "family": "Baptist",
+  "tracesTo": [
+   "the-baptists",
+   "nineteenth-century-baptists",
+   "russian-evangelicals-stundists"
+  ],
+  "latestEntryEnds": 1906,
+  "status": "traced, gap after 1906",
+  "note": "Nineteenth-Century Baptists ends in 1906; later Baptist lines appear only inside the Black Church and Communist-era entries.",
+  "regionalContinuation": [
+   "persecuted-church-worlds-of-the-communist-era-in",
+   "the-black-church-in-the-twentieth-century"
+  ]
+ },
+ {
+  "family": "Pentecostal",
+  "tracesTo": [
+   "azusa-street-and-early-pentecostalism",
+   "global-south-pentecostal-christianity",
+   "oneness-pentecostalism"
+  ],
+  "latestEntryEnds": 2010,
+  "status": "traced",
+  "note": "Global South Pentecostal Christianity and Oneness Pentecostalism both run to c. 2010."
+ },
+ {
+  "family": "Holiness",
+  "tracesTo": [
+   "the-holiness-movement"
+  ],
+  "latestEntryEnds": 1906,
+  "status": "traced, gap after 1906",
+  "note": "The Holiness Movement ends in 1906 and names the Nazarene, Wesleyan and Free Methodist churches; no later entry carries them."
+ },
+ {
+  "family": "Mennonite / Anabaptist",
+  "tracesTo": [
+   "the-anabaptist-movements",
+   "hutterite-brethren",
+   "mennonites-and-amish-after-1650"
+  ],
+  "latestEntryEnds": 1890,
+  "status": "traced, gap after 1890",
+  "note": "The Mennonites and the Amish ends in 1890; no later entry carries them."
+ },
+ {
+  "family": "Quaker",
+  "tracesTo": [
+   "the-quakers-religious-society-of-friends",
+   "nineteenth-century-quakerism-separations"
+  ],
+  "latestEntryEnds": 1906,
+  "status": "traced, gap after 1906",
+  "note": "Nineteenth-Century Quakerism ends in 1906; no later entry carries Friends."
+ },
+ {
+  "family": "Moravian",
+  "tracesTo": [
+   "the-hussite-and-bohemian-brethren-movement",
+   "czech-churches-last-century",
+   "the-moravian-church-at-herrnhut"
+  ],
+  "latestEntryEnds": 1815,
+  "status": "traced, gap after 1815",
+  "note": "The Moravian Church at Herrnhut ends in 1815; no later entry carries the Moravian Church."
+ },
+ {
+  "family": "Brethren",
+  "tracesTo": [
+   "radical-pietism-and-the-brethren-dunkers-ephrata",
+   "plymouth-brethren-and-dispensational-formation"
+  ],
+  "latestEntryEnds": 1906,
+  "status": "traced, gap after 1906",
+  "note": "Plymouth Brethren and Dispensational Formation ends in 1906; the era 10 Dispensational Prophecy Culture entry mentions Brethren but tells a movement, not the churches."
+ },
+ {
+  "family": "Old Catholic",
+  "tracesTo": [
+   "church-of-utrecht",
+   "old-catholic-churches-union-of-utrecht"
+  ],
+  "latestEntryEnds": 1906,
+  "status": "traced, gap after 1906",
+  "note": "The Old Catholic Churches entry ends in 1906; no later entry carries the Union of Utrecht."
+ },
+ {
+  "family": "Adventist",
+  "tracesTo": [
+   "seventh-day-adventist-church-twentieth-century"
+  ],
+  "latestEntryEnds": 2010,
+  "status": "traced",
+  "note": "The Seventh-day Adventist Church in the 20th Century runs to c. 2010."
+ },
+ {
+  "family": "Stone-Campbell",
+  "tracesTo": [
+   "the-second-great-awakening-and-camp-meeting-worl",
+   "the-stone-campbell-restoration-movement",
+   "churches-of-christ-twentieth-century",
+   "disciples-of-christ-and-independent-christian-churches"
+  ],
+  "latestEntryEnds": 2010,
+  "status": "traced",
+  "note": "Two era 10 entries (Churches of Christ; Disciples of Christ and the Independent Christian Churches) run to c. 2010."
+ },
+ {
+  "family": "Salvation Army",
+  "tracesTo": [
+   "the-salvation-army"
+  ],
+  "latestEntryEnds": 1906,
+  "status": "traced, gap after 1906",
+  "note": "The Salvation Army entry ends in 1906; the era 10 Rescue Mission Movement entry only compares it to the missions."
+ },
+ {
+  "family": "Independent / African-initiated churches",
+  "tracesTo": [
+   "african-initiated-churches-harrist-aladura-zioni",
+   "african-diaspora-and-reverse-mission-churches-in",
+   "ratana-church-and-pacific-adjustment-movements"
+  ],
+  "latestEntryEnds": 2010,
+  "status": "traced",
+  "note": "African-Initiated Churches runs to c. 2010 and names Harrist, Aladura, Zionist and Kimbanguist churches."
+ },
+ {
+  "family": "Latter-day Saint",
+  "tracesTo": [
+   "latter-day-saints-lds"
+  ],
+  "latestEntryEnds": 1906,
+  "status": "traced, gap after 1906",
+  "note": "The Latter-day Saints entry ends in 1906; no later entry carries the church."
+ },
+ {
+  "family": "Jehovah's Witnesses",
+  "tracesTo": [
+   "jehovah-s-witnesses-bible-students"
+  ],
+  "latestEntryEnds": 1906,
+  "status": "traced, gap after 1906",
+  "note": "The Jehovah's Witnesses (Bible Students) entry ends in 1906; no later entry carries them."
+ },
+ {
+  "family": "Christian Science",
+  "tracesTo": [
+   "christian-science"
+  ],
+  "latestEntryEnds": 1906,
+  "status": "traced, gap after 1906",
+  "note": "The Christian Science entry ends in 1906; no later entry carries it."
+ },
+ {
+  "family": "Unitarian Universalist",
+  "tracesTo": [
+   "anti-trinitarian-currents-servetus-polish-brethr",
+   "english-unitarianism",
+   "early-american-unitarians-universalists",
+   "american-unitarianism-universalism-consolidations"
+  ],
+  "latestEntryEnds": 1906,
+  "status": "traced, gap after 1906",
+  "note": "American Unitarianism and Universalism: the Consolidations ends in 1906; no later entry carries the Unitarian Universalist Association."
+ },
+ {
+  "family": "Old Believers",
+  "tracesTo": [
+   "the-old-believers"
+  ],
+  "latestEntryEnds": 1815,
+  "status": "traced, gap after 1815",
+  "note": "The Old Believers entry ends in 1815; the Russian entries to c. 2010 do not name them."
+ },
+ {
+  "family": "Messianic",
+  "tracesTo": [
+   "messianic-judaism"
+  ],
+  "latestEntryEnds": 2010,
+  "status": "traced",
+  "note": "Messianic Judaism runs to c. 2010."
+ }
+]
