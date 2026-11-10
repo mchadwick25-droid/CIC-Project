@@ -1245,6 +1245,10 @@ release 33: 395 movements (369 before), 733 links (689 before), 289 living (264 
   Decision Log, both 2026-11-10).
 - **Evidence.** A raw online text carries a link at Widely Accepted at most; Documented needs a
   Library quote. This is the conservative reading of the sweep's rule.
+- **River 4.5 now leaves Latin West.** Kongo after 1650 (VII.42) is now the first movement of the
+  Africa/Latin bridge, so by the rule in "Where each river leaves its parent" (2026-11-10) the
+  river's origin is its "continued as" link from the Kongo entry to 1650, parent river 5. It was
+  river 4, through the Uganda martyrs. This is the parent G-80 (c) named for the bridge.
 
 **Held and open.** Every hold, want and open point is in Open-Gaps, from "Eras 8 and 9 rulings,
 Africa holds" to "Small questions the eras 8 and 9 rulings leave open" (2026-11-10), including
