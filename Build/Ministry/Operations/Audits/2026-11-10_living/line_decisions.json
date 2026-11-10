@@ -1,0 +1,718 @@
+[
+ {
+  "id": "syriac-edessa-nisibis",
+  "atlasId": "I.7",
+  "verdict": "living",
+  "group": "line",
+  "carrier": [
+   "the-sayfo-and-the-syriac-diaspora"
+  ],
+  "basis": "The same tradition, by its line of later entries, as the Sayfo & the Syriac Diaspora, which carries it today.",
+  "descentConfidence": null,
+  "outcome": "kept"
+ },
+ {
+  "id": "armenian-christianity-conversion-era",
+  "atlasId": "I.10",
+  "verdict": "living",
+  "group": "line",
+  "carrier": [
+   "the-armenian-church-after-the-genocide-medz-yegh"
+  ],
+  "basis": "The same tradition, by its line of later entries, as the Armenian Church after the Genocide (Medz Yeghern), which carries it today.",
+  "descentConfidence": null,
+  "outcome": "kept"
+ },
+ {
+  "id": "persian-church-of-the-east-early",
+  "atlasId": "I.12",
+  "verdict": "living",
+  "group": "line",
+  "carrier": [
+   "the-sayfo-and-the-syriac-diaspora"
+  ],
+  "basis": "The same tradition, by its line of later entries, as the Sayfo & the Syriac Diaspora, which carries it today.",
+  "descentConfidence": null,
+  "outcome": "kept"
+ },
+ {
+  "id": "cyrilline-miaphysite-egyptian-christianity",
+  "atlasId": "II.1",
+  "verdict": "living",
+  "group": "line",
+  "carrier": [
+   "the-coptic-monastic-and-sunday-school-revival"
+  ],
+  "basis": "The same tradition, by its line of later entries, as the Coptic Monastic & Sunday-School Revival, which carries it today. The line runs through one link the tree rates a dominant modern reconstruction: Coptic Christianity, Fatimid to Mamluk continued as the Coptic Revival — Cyril IV and After.",
+  "descentConfidence": "Dominant Modern Reconstruction",
+  "outcome": "graded"
+ },
+ {
+  "id": "the-church-of-the-east-under-persia",
+  "atlasId": "II.3",
+  "verdict": "living",
+  "group": "line",
+  "carrier": [
+   "the-sayfo-and-the-syriac-diaspora"
+  ],
+  "basis": "The same tradition, by its line of later entries, as the Sayfo & the Syriac Diaspora, which carries it today.",
+  "descentConfidence": null,
+  "outcome": "kept"
+ },
+ {
+  "id": "armenian-christianity-after-avarayr",
+  "atlasId": "II.4",
+  "verdict": "living",
+  "group": "line",
+  "carrier": [
+   "the-armenian-church-after-the-genocide-medz-yegh"
+  ],
+  "basis": "The same tradition, by its line of later entries, as the Armenian Church after the Genocide (Medz Yeghern), which carries it today.",
+  "descentConfidence": null,
+  "outcome": "kept"
+ },
+ {
+  "id": "armenian-christianity-before-the-bagratids",
+  "atlasId": "II.19",
+  "verdict": "living",
+  "group": "line",
+  "carrier": [
+   "the-armenian-church-after-the-genocide-medz-yegh"
+  ],
+  "basis": "The same tradition, by its line of later entries, as the Armenian Church after the Genocide (Medz Yeghern), which carries it today.",
+  "descentConfidence": null,
+  "outcome": "added"
+ },
+ {
+  "id": "byzantine-imperial-church-justinianic",
+  "atlasId": "II.13",
+  "verdict": "living",
+  "group": "line",
+  "carrier": [
+   "the-greek-church-and-the-ecumenical-patriarchate",
+   "orthodoxy-in-the-communist-balkans"
+  ],
+  "basis": "The same tradition, by its line of later entries, as the Greek Church and the Ecumenical Patriarchate in the Twentieth Century and Orthodoxy in the Communist Balkans — the Serbian, Romanian, Bulgarian and Albanian Churches, which carry it today.",
+  "descentConfidence": null,
+  "outcome": "added"
+ },
+ {
+  "id": "the-church-of-the-east-on-the-silk-road",
+  "atlasId": "III.1",
+  "verdict": "living",
+  "group": "line",
+  "carrier": [
+   "the-sayfo-and-the-syriac-diaspora"
+  ],
+  "basis": "The same tradition, by its line of later entries, as the Sayfo & the Syriac Diaspora, which carries it today.",
+  "descentConfidence": null,
+  "outcome": "kept"
+ },
+ {
+  "id": "church-of-the-east-under-the-abbasids",
+  "atlasId": "III.25",
+  "verdict": "living",
+  "group": "line",
+  "carrier": [
+   "the-sayfo-and-the-syriac-diaspora"
+  ],
+  "basis": "The same tradition, by its line of later entries, as the Sayfo & the Syriac Diaspora, which carries it today.",
+  "descentConfidence": null,
+  "outcome": "added"
+ },
+ {
+  "id": "coptic-christianity-under-early-islam",
+  "atlasId": "III.3",
+  "verdict": "living",
+  "group": "line",
+  "carrier": [
+   "the-coptic-monastic-and-sunday-school-revival"
+  ],
+  "basis": "The same tradition, by its line of later entries, as the Coptic Monastic & Sunday-School Revival, which carries it today. The line runs through one link the tree rates a dominant modern reconstruction: Coptic Christianity, Fatimid to Mamluk continued as the Coptic Revival — Cyril IV and After.",
+  "descentConfidence": "Dominant Modern Reconstruction",
+  "outcome": "graded"
+ },
+ {
+  "id": "byzantine-imperial-church-heraclian-iconoclast",
+  "atlasId": "III.15",
+  "verdict": "living",
+  "group": "line",
+  "carrier": [
+   "the-greek-church-and-the-ecumenical-patriarchate",
+   "orthodoxy-in-the-communist-balkans"
+  ],
+  "basis": "The same tradition, by its line of later entries, as the Greek Church and the Ecumenical Patriarchate in the Twentieth Century and Orthodoxy in the Communist Balkans — the Serbian, Romanian, Bulgarian and Albanian Churches, which carry it today.",
+  "descentConfidence": null,
+  "outcome": "added"
+ },
+ {
+  "id": "byzantine-imperial-church-macedonian",
+  "atlasId": "III.22",
+  "verdict": "living",
+  "group": "line",
+  "carrier": [
+   "the-greek-church-and-the-ecumenical-patriarchate",
+   "orthodoxy-in-the-communist-balkans"
+  ],
+  "basis": "The same tradition, by its line of later entries, as the Greek Church and the Ecumenical Patriarchate in the Twentieth Century and Orthodoxy in the Communist Balkans — the Serbian, Romanian, Bulgarian and Albanian Churches, which carry it today.",
+  "descentConfidence": null,
+  "outcome": "added"
+ },
+ {
+  "id": "bagratid-armenian-christianity",
+  "atlasId": "III.16",
+  "verdict": "living",
+  "group": "line",
+  "carrier": [
+   "the-armenian-church-after-the-genocide-medz-yegh"
+  ],
+  "basis": "The same tradition, by its line of later entries, as the Armenian Church after the Genocide (Medz Yeghern), which carries it today.",
+  "descentConfidence": null,
+  "outcome": "added"
+ },
+ {
+  "id": "byzantine-church-after-1054",
+  "atlasId": "IV.17",
+  "verdict": "living",
+  "group": "line",
+  "carrier": [
+   "the-greek-church-and-the-ecumenical-patriarchate",
+   "orthodoxy-in-the-communist-balkans"
+  ],
+  "basis": "The same tradition, by its line of later entries, as the Greek Church and the Ecumenical Patriarchate in the Twentieth Century and Orthodoxy in the Communist Balkans — the Serbian, Romanian, Bulgarian and Albanian Churches, which carry it today.",
+  "descentConfidence": null,
+  "outcome": "added"
+ },
+ {
+  "id": "latin-papal-church-gregorian",
+  "atlasId": "IV.18",
+  "verdict": "living",
+  "group": "line",
+  "carrier": [
+   "the-post-vatican-ii-parish-world"
+  ],
+  "basis": "The same tradition, by its line of later entries, as the Post-Vatican-II Parish Tradition, which carries it today.",
+  "descentConfidence": null,
+  "outcome": "added"
+ },
+ {
+  "id": "armenian-cilicia",
+  "atlasId": "IV.20",
+  "verdict": "living",
+  "group": "line",
+  "carrier": [
+   "the-armenian-church-after-the-genocide-medz-yegh"
+  ],
+  "basis": "The same tradition, by its line of later entries, as the Armenian Church after the Genocide (Medz Yeghern), which carries it today.",
+  "descentConfidence": null,
+  "outcome": "added"
+ },
+ {
+  "id": "church-of-the-east-under-the-mongols",
+  "atlasId": "IV.22",
+  "verdict": "living",
+  "group": "line",
+  "carrier": [
+   "the-sayfo-and-the-syriac-diaspora"
+  ],
+  "basis": "The same tradition, by its line of later entries, as the Sayfo & the Syriac Diaspora, which carries it today.",
+  "descentConfidence": null,
+  "outcome": "added"
+ },
+ {
+  "id": "coptic-christianity-fatimid-to-mamluk",
+  "atlasId": "IV.26",
+  "verdict": "living",
+  "group": "line",
+  "carrier": [
+   "the-coptic-monastic-and-sunday-school-revival"
+  ],
+  "basis": "The same tradition, by its line of later entries, as the Coptic Monastic & Sunday-School Revival, which carries it today. The line runs through one link the tree rates a dominant modern reconstruction: Coptic Christianity, Fatimid to Mamluk continued as the Coptic Revival — Cyril IV and After.",
+  "descentConfidence": "Dominant Modern Reconstruction",
+  "outcome": "added"
+ },
+ {
+  "id": "muscovite-monastic-christianity",
+  "atlasId": "V.8",
+  "verdict": "living",
+  "group": "line",
+  "carrier": [
+   "the-russian-orthodox-church-council-patriarchate-and-reunion"
+  ],
+  "basis": "The same tradition, by its line of later entries, as the Russian Orthodox Church — Council, Patriarchate and Reunion, which carries it today.",
+  "descentConfidence": null,
+  "outcome": "kept"
+ },
+ {
+  "id": "latin-papal-church-avignon-to-lateran-v",
+  "atlasId": "V.14",
+  "verdict": "living",
+  "group": "line",
+  "carrier": [
+   "the-post-vatican-ii-parish-world"
+  ],
+  "basis": "The same tradition, by its line of later entries, as the Post-Vatican-II Parish Tradition, which carries it today.",
+  "descentConfidence": null,
+  "outcome": "added"
+ },
+ {
+  "id": "byzantine-church-palaiologan",
+  "atlasId": "V.15",
+  "verdict": "living",
+  "group": "line",
+  "carrier": [
+   "the-greek-church-and-the-ecumenical-patriarchate",
+   "orthodoxy-in-the-communist-balkans"
+  ],
+  "basis": "The same tradition, by its line of later entries, as the Greek Church and the Ecumenical Patriarchate in the Twentieth Century and Orthodoxy in the Communist Balkans — the Serbian, Romanian, Bulgarian and Albanian Churches, which carry it today.",
+  "descentConfidence": null,
+  "outcome": "added"
+ },
+ {
+  "id": "church-of-the-east-timur-to-hakkari",
+  "atlasId": "V.17",
+  "verdict": "living",
+  "group": "line",
+  "carrier": [
+   "the-sayfo-and-the-syriac-diaspora"
+  ],
+  "basis": "The same tradition, by its line of later entries, as the Sayfo & the Syriac Diaspora, which carries it today.",
+  "descentConfidence": null,
+  "outcome": "added"
+ },
+ {
+  "id": "armenian-cilicia-after-the-kingdom",
+  "atlasId": "V.21",
+  "verdict": "living",
+  "group": "line",
+  "carrier": [
+   "the-armenian-church-after-the-genocide-medz-yegh"
+  ],
+  "basis": "The same tradition, by its line of later entries, as the Armenian Church after the Genocide (Medz Yeghern), which carries it today.",
+  "descentConfidence": null,
+  "outcome": "added"
+ },
+ {
+  "id": "the-english-reformation-and-elizabethan-settleme",
+  "atlasId": "VI.4",
+  "verdict": "living",
+  "group": "line",
+  "carrier": [
+   "the-anglican-communion-twentieth-century"
+  ],
+  "basis": "The same tradition, by its line of later entries, as the Anglican Communion in the Twentieth Century, which carries it today.",
+  "descentConfidence": null,
+  "outcome": "kept"
+ },
+ {
+  "id": "new-spain-and-andes-mission-born-christianity",
+  "atlasId": "VI.13d",
+  "verdict": "living",
+  "group": "line",
+  "carrier": [
+   "latin-american-catholicism-twentieth-century"
+  ],
+  "basis": "The same tradition, by its line of later entries, as Latin American Catholicism in the Twentieth Century, which carries it today. The line runs through one link the tree rates an inference on thin evidence: Mission-Born Christianity in New Spain and the Andes continued as Colonial Latin American Devotional Catholicism.",
+  "descentConfidence": "Inferential-Thin",
+  "outcome": "graded"
+ },
+ {
+  "id": "orthodoxy-under-the-ottomans-parish-millet-and-n",
+  "atlasId": "VI.17",
+  "verdict": "living",
+  "group": "line",
+  "carrier": [
+   "the-greek-church-and-the-ecumenical-patriarchate",
+   "orthodoxy-in-the-communist-balkans"
+  ],
+  "basis": "The same tradition, by its line of later entries, as the Greek Church and the Ecumenical Patriarchate in the Twentieth Century and Orthodoxy in the Communist Balkans — the Serbian, Romanian, Bulgarian and Albanian Churches, which carry it today.",
+  "descentConfidence": null,
+  "outcome": "kept"
+ },
+ {
+  "id": "philippine-catholicism",
+  "atlasId": "VI.19",
+  "verdict": "living",
+  "group": "line",
+  "carrier": [
+   "philippine-catholicism-twentieth-century"
+  ],
+  "basis": "The same tradition, by its line of later entries, as Philippine Catholicism in the Twentieth Century, which carries it today.",
+  "descentConfidence": null,
+  "outcome": "kept"
+ },
+ {
+  "id": "the-union-of-brest-and-ruthenian-greek-catholic-",
+  "atlasId": "VI.20",
+  "verdict": "living",
+  "group": "line",
+  "carrier": [
+   "the-ukrainian-greek-catholic-underground"
+  ],
+  "basis": "The same tradition, by its line of later entries, as the Ukrainian Greek Catholic Underground, which carries it today.",
+  "descentConfidence": null,
+  "outcome": "kept"
+ },
+ {
+  "id": "the-tridentine-church",
+  "atlasId": "VI.22",
+  "verdict": "living",
+  "group": "line",
+  "carrier": [
+   "the-post-vatican-ii-parish-world"
+  ],
+  "basis": "The same tradition, by its line of later entries, as the Post-Vatican-II Parish Tradition, which carries it today.",
+  "descentConfidence": null,
+  "outcome": "added"
+ },
+ {
+  "id": "russian-church-stoglav-to-nikon",
+  "atlasId": "VI.23",
+  "verdict": "living",
+  "group": "line",
+  "carrier": [
+   "the-russian-orthodox-church-council-patriarchate-and-reunion"
+  ],
+  "basis": "The same tradition, by its line of later entries, as the Russian Orthodox Church — Council, Patriarchate and Reunion, which carries it today.",
+  "descentConfidence": null,
+  "outcome": "added"
+ },
+ {
+  "id": "armenian-christianity-new-julfa",
+  "atlasId": "VI.28",
+  "verdict": "living",
+  "group": "line",
+  "carrier": [
+   "the-armenian-church-after-the-genocide-medz-yegh"
+  ],
+  "basis": "The same tradition, by its line of later entries, as the Armenian Church after the Genocide (Medz Yeghern), which carries it today.",
+  "descentConfidence": null,
+  "outcome": "added"
+ },
+ {
+  "id": "church-of-the-east-schism-of-1552",
+  "atlasId": "VI.30",
+  "verdict": "living",
+  "group": "line",
+  "carrier": [
+   "the-sayfo-and-the-syriac-diaspora"
+  ],
+  "basis": "The same tradition, by its line of later entries, as the Sayfo & the Syriac Diaspora, which carries it today.",
+  "descentConfidence": null,
+  "outcome": "added"
+ },
+ {
+  "id": "colonial-latin-american-devotional-catholicism",
+  "atlasId": "VII.17",
+  "verdict": "living",
+  "group": "line",
+  "carrier": [
+   "latin-american-catholicism-twentieth-century"
+  ],
+  "basis": "The same tradition, by its line of later entries, as Latin American Catholicism in the Twentieth Century, which carries it today. The line runs through one link the tree rates an inference on thin evidence: Colonial Latin American Devotional Catholicism continued as Nineteenth-Century Latin American Catholicism.",
+  "descentConfidence": "Inferential-Thin",
+  "outcome": "graded"
+ },
+ {
+  "id": "orthodoxy-under-the-ottomans-1650-1821",
+  "atlasId": "VII.18",
+  "verdict": "living",
+  "group": "line",
+  "carrier": [
+   "the-greek-church-and-the-ecumenical-patriarchate",
+   "orthodoxy-in-the-communist-balkans"
+  ],
+  "basis": "The same tradition, by its line of later entries, as the Greek Church and the Ecumenical Patriarchate in the Twentieth Century and Orthodoxy in the Communist Balkans — the Serbian, Romanian, Bulgarian and Albanian Churches, which carry it today.",
+  "descentConfidence": null,
+  "outcome": "added"
+ },
+ {
+  "id": "catholic-church-ancien-regime",
+  "atlasId": "VII.19",
+  "verdict": "living",
+  "group": "line",
+  "carrier": [
+   "the-post-vatican-ii-parish-world"
+  ],
+  "basis": "The same tradition, by its line of later entries, as the Post-Vatican-II Parish Tradition, which carries it today.",
+  "descentConfidence": null,
+  "outcome": "added"
+ },
+ {
+  "id": "restoration-georgian-church-of-england",
+  "atlasId": "VII.20",
+  "verdict": "living",
+  "group": "line",
+  "carrier": [
+   "the-anglican-communion-twentieth-century"
+  ],
+  "basis": "The same tradition, by its line of later entries, as the Anglican Communion in the Twentieth Century, which carries it today.",
+  "descentConfidence": null,
+  "outcome": "added"
+ },
+ {
+  "id": "russian-church-nikon-to-holy-synod",
+  "atlasId": "VII.21",
+  "verdict": "living",
+  "group": "line",
+  "carrier": [
+   "the-russian-orthodox-church-council-patriarchate-and-reunion"
+  ],
+  "basis": "The same tradition, by its line of later entries, as the Russian Orthodox Church — Council, Patriarchate and Reunion, which carries it today.",
+  "descentConfidence": null,
+  "outcome": "added"
+ },
+ {
+  "id": "armenian-apostolic-church-era-8",
+  "atlasId": "VII.24a",
+  "verdict": "living",
+  "group": "line",
+  "carrier": [
+   "the-armenian-church-after-the-genocide-medz-yegh"
+  ],
+  "basis": "The same tradition, by its line of later entries, as the Armenian Church after the Genocide (Medz Yeghern), which carries it today.",
+  "descentConfidence": null,
+  "outcome": "added"
+ },
+ {
+  "id": "ruthenian-uniate-18th-century",
+  "atlasId": "VII.28",
+  "verdict": "living",
+  "group": "line",
+  "carrier": [
+   "the-ukrainian-greek-catholic-underground"
+  ],
+  "basis": "The same tradition, by its line of later entries, as the Ukrainian Greek Catholic Underground, which carries it today.",
+  "descentConfidence": null,
+  "outcome": "added"
+ },
+ {
+  "id": "philippine-catholicism-era-8",
+  "atlasId": "VII.29",
+  "verdict": "living",
+  "group": "line",
+  "carrier": [
+   "philippine-catholicism-twentieth-century"
+  ],
+  "basis": "The same tradition, by its line of later entries, as Philippine Catholicism in the Twentieth Century, which carries it today.",
+  "descentConfidence": null,
+  "outcome": "added"
+ },
+ {
+  "id": "the-black-church-in-america",
+  "atlasId": "VIII.1",
+  "verdict": "living",
+  "group": "line",
+  "carrier": [
+   "the-black-church-in-the-twentieth-century"
+  ],
+  "basis": "The same tradition, by its line of later entries, as the Black Church in the Twentieth Century, which carries it today. The line runs through one link the tree rates a dominant modern reconstruction: The Black Church in America continued as the Black Church in the Twentieth Century.",
+  "descentConfidence": "Dominant Modern Reconstruction",
+  "outcome": "graded"
+ },
+ {
+  "id": "restorationist-apocalyptic-ferment-and-adventism",
+  "atlasId": "VIII.10",
+  "verdict": "living",
+  "group": "line",
+  "carrier": [
+   "seventh-day-adventist-church-twentieth-century"
+  ],
+  "basis": "The same tradition, by its line of later entries, as the Seventh-day Adventist Church in the 20th Century, which carries it today.",
+  "descentConfidence": null,
+  "outcome": "kept"
+ },
+ {
+  "id": "the-optina-elders-and-russian-ascetic-renewal",
+  "atlasId": "VIII.11",
+  "verdict": "living",
+  "group": "line",
+  "carrier": [
+   "the-russian-new-martyrs-and-the-catacomb-church"
+  ],
+  "basis": "The same tradition, by its line of later entries, as the Russian New Martyrs & the Catacomb Church, which carries it today. The line runs through one link the tree rates an inference on thin evidence: The Optina Elders & Russian Ascetic Renewal continued as the Russian New Martyrs & the Catacomb Church.",
+  "descentConfidence": "Inferential-Thin",
+  "outcome": "graded"
+ },
+ {
+  "id": "coptic-revival-under-cyril-iv",
+  "atlasId": "VIII.13",
+  "verdict": "living",
+  "group": "line",
+  "carrier": [
+   "the-coptic-monastic-and-sunday-school-revival"
+  ],
+  "basis": "The same tradition, by its line of later entries, as the Coptic Monastic & Sunday-School Revival, which carries it today. The line runs through one link the tree rates a dominant modern reconstruction: The Coptic Revival — Cyril IV and After continued as the Coptic Monastic & Sunday-School Revival.",
+  "descentConfidence": "Dominant Modern Reconstruction",
+  "outcome": "graded"
+ },
+ {
+  "id": "indonesian-christianity",
+  "atlasId": "VIII.26",
+  "verdict": "living",
+  "group": "line",
+  "carrier": [
+   "indonesian-christianity-the-independent-century"
+  ],
+  "basis": "The same tradition, by its line of later entries, as Indonesian Christianity — the Independent Century, which carries it today. The line runs through one link the tree rates a dominant modern reconstruction: Indonesian Christianity continued as Indonesian Christianity — the Independent Century.",
+  "descentConfidence": "Dominant Modern Reconstruction",
+  "outcome": "graded"
+ },
+ {
+  "id": "northeast-india-revivals-and-the-mar-thoma-refor",
+  "atlasId": "VIII.27",
+  "verdict": "living",
+  "group": "line",
+  "carrier": [
+   "northeast-india-and-mar-thoma-twentieth-century"
+  ],
+  "basis": "The same tradition, by its line of later entries, as Northeast India & the Mar Thoma Church — the 20th Century, which carries it today.",
+  "descentConfidence": null,
+  "outcome": "kept"
+ },
+ {
+  "id": "orthodoxy-after-1821-balkan-autocephalies",
+  "atlasId": "VIII.28",
+  "verdict": "living",
+  "group": "line",
+  "carrier": [
+   "the-greek-church-and-the-ecumenical-patriarchate",
+   "orthodoxy-in-the-communist-balkans"
+  ],
+  "basis": "The same tradition, by its line of later entries, as the Greek Church and the Ecumenical Patriarchate in the Twentieth Century and Orthodoxy in the Communist Balkans — the Serbian, Romanian, Bulgarian and Albanian Churches, which carry it today.",
+  "descentConfidence": null,
+  "outcome": "kept"
+ },
+ {
+  "id": "catholic-church-long-nineteenth-century",
+  "atlasId": "VIII.29",
+  "verdict": "living",
+  "group": "line",
+  "carrier": [
+   "the-post-vatican-ii-parish-world"
+  ],
+  "basis": "The same tradition, by its line of later entries, as the Post-Vatican-II Parish Tradition, which carries it today.",
+  "descentConfidence": null,
+  "outcome": "kept"
+ },
+ {
+  "id": "victorian-church-of-england",
+  "atlasId": "VIII.30",
+  "verdict": "living",
+  "group": "line",
+  "carrier": [
+   "the-anglican-communion-twentieth-century"
+  ],
+  "basis": "The same tradition, by its line of later entries, as the Anglican Communion in the Twentieth Century, which carries it today.",
+  "descentConfidence": null,
+  "outcome": "kept"
+ },
+ {
+  "id": "russian-church-synodal-century",
+  "atlasId": "VIII.31",
+  "verdict": "living",
+  "group": "line",
+  "carrier": [
+   "the-russian-orthodox-church-council-patriarchate-and-reunion"
+  ],
+  "basis": "The same tradition, by its line of later entries, as the Russian Orthodox Church — Council, Patriarchate and Reunion, which carries it today.",
+  "descentConfidence": null,
+  "outcome": "kept"
+ },
+ {
+  "id": "armenian-christianity-zartonk",
+  "atlasId": "VIII.32",
+  "verdict": "living",
+  "group": "line",
+  "carrier": [
+   "the-armenian-church-after-the-genocide-medz-yegh"
+  ],
+  "basis": "The same tradition, by its line of later entries, as the Armenian Church after the Genocide (Medz Yeghern), which carries it today.",
+  "descentConfidence": null,
+  "outcome": "kept"
+ },
+ {
+  "id": "ruthenian-greek-catholic-polotsk-to-galicia",
+  "atlasId": "VIII.38",
+  "verdict": "living",
+  "group": "line",
+  "carrier": [
+   "the-ukrainian-greek-catholic-underground"
+  ],
+  "basis": "The same tradition, by its line of later entries, as the Ukrainian Greek Catholic Underground, which carries it today.",
+  "descentConfidence": null,
+  "outcome": "kept"
+ },
+ {
+  "id": "philippine-catholicism-gomburza-to-aglipay",
+  "atlasId": "VIII.39",
+  "verdict": "living",
+  "group": "line",
+  "carrier": [
+   "philippine-catholicism-twentieth-century"
+  ],
+  "basis": "The same tradition, by its line of later entries, as Philippine Catholicism in the Twentieth Century, which carries it today.",
+  "descentConfidence": null,
+  "outcome": "kept"
+ },
+ {
+  "id": "church-of-the-east-chaldean-consolidation",
+  "atlasId": "VIII.40",
+  "verdict": "living",
+  "group": "line",
+  "carrier": [
+   "the-sayfo-and-the-syriac-diaspora"
+  ],
+  "basis": "The same tradition, by its line of later entries, as the Sayfo & the Syriac Diaspora, which carries it today.",
+  "descentConfidence": null,
+  "outcome": "kept"
+ },
+ {
+  "id": "east-african-christianity-uganda-martyrs",
+  "atlasId": "VIII.43",
+  "verdict": "living",
+  "group": "line",
+  "carrier": [
+   "the-catholic-church-in-africa-twentieth-century"
+  ],
+  "basis": "The same tradition, by its line of later entries, as the Catholic Church in Africa in the Twentieth Century, which carries it today.",
+  "descentConfidence": null,
+  "outcome": "kept"
+ },
+ {
+  "id": "japanese-christianity-hidden-emergence-meiji",
+  "atlasId": "VIII.45",
+  "verdict": "living",
+  "group": "line",
+  "carrier": [
+   "japanese-christianity-after-1906"
+  ],
+  "basis": "The same tradition, by its line of later entries, as Japanese Christianity after 1906, which carries it today.",
+  "descentConfidence": null,
+  "outcome": "kept"
+ },
+ {
+  "id": "nineteenth-century-latin-american-catholicism",
+  "atlasId": "VIII.48",
+  "verdict": "living",
+  "group": "line",
+  "carrier": [
+   "latin-american-catholicism-twentieth-century"
+  ],
+  "basis": "The same tradition, by its line of later entries, as Latin American Catholicism in the Twentieth Century, which carries it today.",
+  "descentConfidence": null,
+  "outcome": "kept"
+ },
+ {
+  "id": "ethiopian-christianity-tewodros-to-menelik",
+  "atlasId": "VIII.49",
+  "verdict": "living",
+  "group": "line",
+  "carrier": [
+   "modern-ethiopian-and-eritrean-christianity"
+  ],
+  "basis": "The same tradition, by its line of later entries, as Modern Ethiopian & Eritrean Christianity, which carries it today.",
+  "descentConfidence": null,
+  "outcome": "kept"
+ }
+]

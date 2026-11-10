@@ -1,0 +1,817 @@
+[
+ {
+  "id": "the-quakers-religious-society-of-friends",
+  "atlasId": "VII.1",
+  "era": 8,
+  "name": "The Quakers (Religious Society of Friends)",
+  "dates": "1650s-1815",
+  "lane": "Protestant & Evangelical",
+  "currentFlag": true,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [
+   {
+    "id": "nineteenth-century-quakerism-separations",
+    "atlasId": "VIII.36",
+    "living": true,
+    "confidence": "Widely Accepted"
+   }
+  ],
+  "lineTerminals": [
+   {
+    "atlasId": "VIII.36",
+    "id": "nineteenth-century-quakerism-separations",
+    "era": 9,
+    "living": true,
+    "end": 1906,
+    "weakestLink": "Widely Accepted"
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "this gave rise to VII.12 [Documented] (VII.12 = Shakers, 1774-1815)"
+  ],
+  "statusDescription": "Tiered Strong (Tier 1) — journals are the movement's own native genre, with Woolman and women's ministry records among them. Its doctrinal-floor question is addressed, not deferred. Early Friends stay off the register on purpose, since rejecting creedal subscription is a question about the form of confession, not a divergence in content. This entry covers only the seventeenth-and-eighteenth-century window. Its window ends in 1815, not the round number 1800.",
+  "relationsSummary": "The Quakers grew out of the most radical wing of the Puritan upheaval in England. Many of the first Friends came from Independent and Baptist churches. Later, their campaigning did much to end slavery.",
+  "why": "Quakers built their worship around silence, waiting until someone felt moved by the Spirit to speak, and refused any oath or hat-honor to social superiors — convictions that filled English jails with them in the seventeenth century. Women preached on the same footing as men from the movement's earliest days, and it was a Quaker tailor, John Woolman, who spent decades traveling from meeting to meeting until Friends in America made owning slaves grounds for exclusion.",
+  "legacy": "The Religious Society of Friends is a living body on both sides of the Atlantic, though it divided in the nineteenth century into unprogrammed, evangelical and pastoral branches that persist to this day. Its wider mark is out of all proportion to its size. Quaker campaigning was central to abolition in Britain and America, Quaker refusal to swear or to fight helped push conscience into English law, and Pennsylvania began as a Quaker experiment in governing without an established church. The plain meeting house, the silent meeting and the practice of testing a decision until the whole gathering can consent are all still recognizably theirs."
+ },
+ {
+  "id": "german-pietism-spener-francke-halle",
+  "atlasId": "VII.2",
+  "era": 8,
+  "name": "German Pietism - Spener, Francke, Halle",
+  "dates": "1675-1750",
+  "lane": "Protestant & Evangelical",
+  "currentFlag": true,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "VII.2",
+    "id": "german-pietism-spener-francke-halle",
+    "era": 8,
+    "living": true,
+    "end": 1750,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "this influenced VII.4 [Documented] (VII.4 = The Moravian Church at Herrnhut, 1722-1815)",
+   "this influenced VII.5 [Documented] (VII.5 = The Methodist Revival, 1738-1815)",
+   "this gave rise to VII.3 [Widely Accepted] (VII.3 = Radical Pietism & the Brethren (Dunkers, Ephrata), 1690s-1815)",
+   "this influenced VIII.8 [Dominant Modern Reconstruction] (VIII.8 = The Haugean Awakening, 1796-1842)",
+   "this influenced VIII.22 [Inferential-Thin] (VIII.22 = Laestadianism & the Nordic Revivals, 1844-1906)"
+  ],
+  "statusDescription": "Tiered Viable, secondary (Tier 2) on correspondence networks, conversion narratives and institutional records. Its window ends around 1750, a soft round-off rather than a single event (c. 1727 is the earlier alternative). Württemberg Pietism sits inside its scope.",
+  "relationsSummary": "Pietism grew out of Lutheran devotion. Spener's Pia Desideria first came out as a preface to a book of sermons by Johann Arndt. Pietism may also owe something to the strict Dutch Reformed piety called precisianism, but how much is not clear. Pietism shaped the Moravian Church at Herrnhut. It also sent some of the first Protestant missions out of Europe. Pietism in Württemberg, linked with Johann Albrecht Bengel, belongs to this same movement.",
+  "why": "In 1675 the Lutheran pastor Philipp Jakob Spener argued that correct doctrine preached from the pulpit wasn't enough — Christians needed to meet in small groups, read Scripture together, and expect real change in their lives. That conviction built an orphanage at Halle that grew into schools, a press, and a network reaching across Europe, and sent Bartholomäus Ziegenbalg to Tranquebar in South India in 1706, one of the first organized Protestant missions out of Europe.",
+  "legacy": "Pietism never became a church of its own. It stayed inside the Lutheran churches and in time faded as a separate party. But almost everything it touched outlived it. The Moravians at Herrnhut grew up close to it. Their patron, Count Zinzendorf, was Spener's godson and went to school at Halle. John Wesley learned from the Moravians, and in 1738 he went to Halle himself. George Whitefield took Francke's orphan house as the model for his own in Georgia. Halle also chose and backed the first missionaries the king of Denmark sent to India, in 1706. The Halle foundations still stand and still work in Saxony-Anhalt: the orphanage buildings, the library, the cabinet of curiosities and all. Its habits are now so ordinary across evangelical Protestantism that their origin is easy to miss. Small groups meet midweek to read Scripture. A Christian is expected to tell the story of their own conversion."
+ },
+ {
+  "id": "radical-pietism-and-the-brethren-dunkers-ephrata",
+  "atlasId": "VII.3",
+  "era": 8,
+  "name": "Radical Pietism & the Brethren (Dunkers, Ephrata)",
+  "dates": "1690s-1815",
+  "lane": "Protestant & Evangelical",
+  "currentFlag": true,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "VII.3",
+    "id": "radical-pietism-and-the-brethren-dunkers-ephrata",
+    "era": 8,
+    "living": true,
+    "end": 1815,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "VI.3 influenced this [Documented] (VI.3 = The Anabaptist Movements, 1525-1650)",
+   "VII.2 gave rise to this [Widely Accepted] (VII.2 = German Pietism - Spener, Francke, Halle, 1675-1750)",
+   "VII.32 in contact with this [Documented] (VII.32 = The Mennonites and the Amish, 1650-1890)"
+  ],
+  "statusDescription": "Tiered Viable, secondary (Tier 2) on a moderate-to-rich base. Its position between Pietism and Anabaptism is a real, open uniqueness test rather than a settled fact. Its window ends in 1815, not the round number 1800.",
+  "relationsSummary": "Radical Pietism grew out of German Pietism, among people who left the state churches. Out of it came the Brethren. They joined Pietist inward faith to Anabaptist ways: baptism for believers only, plain living and refusal of the sword.",
+  "why": "In 1708, eight separatists waded into the river Eder at Schwarzenau in Germany and baptized one another, joining Pietist inward renewal to Anabaptist convictions — baptism only for believing adults, plain living, and refusal to bear arms. Driven to Pennsylvania, one of them, Conrad Beissel, founded the celibate community at Ephrata, where a sisterhood called the Roses of Saron composed austere music and hand-lettered manuscripts unlike anything else made in colonial America.",
+  "legacy": "It became an ongoing family of churches: the Brethren bodies of North America — the Church of the Brethren and its relatives. Descend directly from the Schwarzenau baptisms, and they carried the plain-dress, peace-church strand of American Christianity alongside the Mennonites and the Quakers. Ephrata itself died out, but its buildings survive as a Pennsylvania state historic site, along with its Fraktur, its hymnbooks and a body of choral music unlike anything else written in colonial America. The radical Pietist habit of printing — Christopher Sauer's press in Germantown produced the first Bible printed in a European language in North America — left its own long mark on American publishing."
+ },
+ {
+  "id": "the-moravian-church-at-herrnhut",
+  "atlasId": "VII.4",
+  "era": 8,
+  "name": "The Moravian Church at Herrnhut",
+  "dates": "1722-1815",
+  "lane": "Protestant & Evangelical",
+  "currentFlag": true,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "VII.4",
+    "id": "the-moravian-church-at-herrnhut",
+    "era": 8,
+    "living": true,
+    "end": 1815,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "VII.2 influenced this [Documented] (VII.2 = German Pietism - Spener, Francke, Halle, 1675-1750)",
+   "this influenced VII.5 [Documented] (VII.5 = The Methodist Revival, 1738-1815)",
+   "this influenced VIII.7 [Documented] (VIII.7 = The Missionary Movement's Native Churches (Serampore India; Sierra Leone & the Niger; Pacific Islands; China Coast & CIM), 1793-1906)"
+  ],
+  "statusDescription": "Tiered Strong (Tier 1) on the era's strongest sourcing line — daily congregational diaries, choir records, and thousands of member memoirs, including women's and formerly-enslaved members'. It is a direct continuation of the Czech churches across the 1627–1722 hidden-seed century, on the strength of a literal-renewal claim and refugee-carried continuity across that 95-year gap. The episcopal-consecration argument supports this but does not carry it alone.",
+  "relationsSummary": "This community saw itself as the old Bohemian Unity of the Brethren made new. In its own telling, the Unity was suppressed in 1627 and survived in hiding for a century. Then its refugees reached Herrnhut in 1722. In 1735 the old Unity's senior bishop, Daniel Ernst Jablonski, made David Nitschmann a bishop. That tied the new church formally to the old one. Yet its patron, Count Zinzendorf, was a Lutheran Pietist. At first he meant Herrnhut as a gathering inside the Lutheran church. It had a deep effect on John Wesley. From 1732 it sent missionaries far overseas.",
+  "why": "In 1722 a handful of refugee families slipped out of Bohemia. They were remnants of a reformed church that had survived underground for nearly a century. On a Saxon nobleman's land they built the village of Herrnhut. The community kept prayer running in shifts around the clock, and wrote up its life in a diary every single day. From 1732 it sent out missionaries, to the enslaved of St Thomas, to Greenland and to Suriname. Others had gone before them, for Lutherans trained at Halle reached India in 1706. But this was a village of a few hundred people.",
+  "legacy": "The Moravian Church is a living worldwide body, and far larger outside Europe than in it. Most of its members are in Tanzania and the Caribbean, the long fruit of the mission work begun in 1732. Its most important single contact was with a young Anglican priest. John Wesley met Moravians in a storm at sea and again in London, and the Methodist revival carries their fingerprints. The Losungen is a book of daily Bible texts, drawn by lot at Herrnhut and printed every year since 1731. It is still published and read in dozens of languages, one of the longest unbroken publishing runs in the world. And the hidden-seed story, as the Moravians tell it, ended well. A church suppressed in Bohemia in 1627 has descendants on every continent."
+ },
+ {
+  "id": "the-methodist-revival",
+  "atlasId": "VII.5",
+  "era": 8,
+  "name": "The Methodist Revival",
+  "dates": "1738-1815",
+  "lane": "Protestant & Evangelical",
+  "currentFlag": true,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [
+   {
+    "id": "nineteenth-century-methodism",
+    "atlasId": "VIII.34",
+    "living": true,
+    "confidence": "Widely Accepted"
+   }
+  ],
+  "lineTerminals": [
+   {
+    "atlasId": "VIII.34",
+    "id": "nineteenth-century-methodism",
+    "era": 9,
+    "living": true,
+    "end": 1906,
+    "weakestLink": "Widely Accepted"
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "this influenced VIII.4 [Widely Accepted] (VIII.4 = The Holiness Movement, 1835-1906)",
+   "this gave rise to VIII.1 [Documented] (VIII.1 = The Black Church in America, c. 1770s-1906)",
+   "VII.2 influenced this [Documented] (VII.2 = German Pietism - Spener, Francke, Halle, 1675-1750)",
+   "VII.4 influenced this [Documented] (VII.4 = The Moravian Church at Herrnhut, 1722-1815)",
+   "this in contact with VII.10 [Documented] (VII.10 = The Welsh Revival Tradition, 1735-1815)",
+   "this gave rise to VIII.2 [Widely Accepted] (VIII.2 = The Second Great Awakening & Camp-Meeting Tradition, 1795-1840)",
+   "this influenced VIII.7 [Documented] (VIII.7 = The Missionary Movement's Native Churches (Serampore India; Sierra Leone & the Niger; Pacific Islands; China Coast & CIM), 1793-1906)",
+   "VI.1 influenced this [Documented] (VI.1 = Lutheran Wittenberg & Its Congregations, 1517-1580)"
+  ],
+  "statusDescription": "Tiered Strong (Tier 1) — rich at every level, from journals and class-meeting records to thousands of member narratives and the hymn corpus. Its window ends in 1815. Wesley's death (1791) and the Plan of Pacification (1795) are the tradition's own hinges, not the round number 1800, which sat astride both without being either.",
+  "relationsSummary": "Methodism grew from Puritan piety and Moravian influence inside the Church of England, and became the parent of the Holiness movement and, through Holiness, of Pentecostalism. It is also a parent tradition of the Black Church in America, through Richard Allen's African Methodist Episcopal Church, founded in 1816, and the AME Zion Church, founded in 1821.",
+  "why": "In May 1738, John Wesley felt his heart 'strangely warmed' at a meeting in London and began preaching holiness and assurance to crowds shut out of ordinary church pulpits, so he and George Whitefield preached in open fields instead. What made the revival last was Wesley's habit of organizing converts into weekly classes of a dozen, each expected to give an honest account of their lives, while his brother Charles set the movement's whole theology to thousands of singable hymns.",
+  "legacy": "It became one of the largest church families in the world. The British connexion separated from the Church of England after Wesley's death, American Methodism organized itself as a church in 1784, and out of that stem came the nineteenth-century Holiness movement and, from Holiness, Pentecostalism. Now the fastest-growing form of Christianity on earth. Richard Allen's African Methodist Episcopal Church, founded in 1816, made Methodism one of the foundations of the Black Church in America. And the hymns stayed: 'O for a Thousand Tongues to Sing', 'Love Divine, All Loves Excelling' and 'Hark! the Herald Angels Sing' are all Charles Wesley's."
+ },
+ {
+  "id": "the-evangelical-awakening-in-new-england",
+  "atlasId": "VII.6",
+  "era": 8,
+  "name": "The Evangelical Awakening in New England",
+  "dates": "1734-c. 1760",
+  "lane": "Protestant & Evangelical",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "VII.6",
+    "id": "the-evangelical-awakening-in-new-england",
+    "era": 8,
+    "living": false,
+    "end": 1760,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "this influenced VII.16 [Documented] (VII.16 = The Baptists, 1609-1815)",
+   "VII.5 influenced this [Documented] (VII.5 = The Methodist Revival, 1738-1815)"
+  ],
+  "statusDescription": "Tiered Strong (Tier 1): the revival narratives were the era's own documentation project, with Edwards's case histories of ordinary people at their center. It also carries the middle and southern colonies; whether Britain and New England are one tradition or two remains an open question. Its window runs to about 1760, with 1770 as an outer alternative.",
+  "relationsSummary": "The awakening grew out of New England's Puritan churches. Jonathan Edwards built on their books. George Whitefield, the English Methodist preacher, made it normal to preach from town to town. It also reached the middle and southern colonies, through preachers like the Tennents and the revival at Hanover, Virginia. Historians do not agree whether that was the same movement or another one. William Carey, who began the Baptist mission to India, held up its missionary David Brainerd as a model. Later American revivals and the Black Church may owe it a debt too. How direct that debt was is hard to say.",
+  "why": "In the winter of 1734-35, people in an ordinary Massachusetts church began to turn to God in waves. Its pastor, Jonathan Edwards, did something unusual. He wrote down what happened case by case, including a four-year-old girl and a young woman the town had thought beyond hope. The awakening split New England's churches between those who stood up for the revival and those who attacked it. Black and Native Christians of its world also began to write. Among them were the poet Phillis Wheatley and the minister Samson Occom.",
+  "legacy": "It left no church of its own. The awakening ran through the old parish churches and broke some of them. But it reshaped American religion for good. It made the revival meeting and the traveling preacher normal tools of church life. The Separate congregations it threw off may have filled many Baptist churches, though that is hard to measure. In Edwards it gave America its most substantial theologian, still argued over three centuries later. Black and Native Christians of its world began to write. And the missionary movement looked back to it. In 1792 William Carey, pleading for a Baptist mission, held up David Brainerd as a model. Edwards had written Brainerd's life from his diary."
+ },
+ {
+  "id": "the-old-believers",
+  "atlasId": "VII.7",
+  "era": 8,
+  "name": "The Old Believers",
+  "dates": "1666-1815",
+  "lane": "Greek East & Orthodoxy",
+  "currentFlag": true,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "VII.7",
+    "id": "the-old-believers",
+    "era": 8,
+    "living": true,
+    "end": 1815,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "V.8 influenced this [Inferential-Thin] (V.8 = Muscovite Monastic Christianity, c. 1340-1517)",
+   "VIII.31 argued against this [Widely Accepted] (VIII.31 = The Russian Church — the Synodal Century, 1815-1906)"
+  ],
+  "statusDescription": "Tiered Strong (Tier 1) on a rich inside voice: Avvakum's autobiography, verified against the source, is a first-person masterpiece. Its note on the doctrinal floor is a clean example that the floor is the Creed, not liturgical correctness. Its window ends in 1815, with Edinoverie (1800) named as the stated reason.",
+  "relationsSummary": "The Old Believers grew out of Muscovite Christianity, standing as the enduring counterpart to the official church's Nikonian reforms. Edinoverie, established in 1800, sits on the boundary shared between the two churches. In 1846 the priestly Old Believers restored their own episcopate through the Belokrinitsa hierarchy.",
+  "why": "When Patriarch Nikon corrected the Russian service books in the 1650s — changing how the faithful crossed themselves and how Jesus's name was spelled — a large part of the church refused to accept it as a mere detail and was anathematized for it in 1666. Their great voice, Archpriest Avvakum, wrote the first sustained autobiography in Russian from an underground prison before he was burned at the stake in 1682, and the movement survived in the forests and Siberia, in some communities by mass self-immolation rather than submission.",
+  "legacy": "Old Belief is still practiced. Old Believer churches exist today in Russia, Romania, the Baltic states, Alaska, Oregon and South America. Some have their own bishops and some have no clergy at all. All keep the chant, icons and books of the time before Nikon. Their stubbornness saved a whole layer of medieval Russian church culture that the official church had modernized away. Old styles of icon painting, znamenny chant and the copying of books by hand lived on in these groups. Collectors and scholars later found them there. Avvakum's own Life, written in his prison, came out in English in 1924."
+ },
+ {
+  "id": "the-hesychast-revival-paisius-and-the-philokalia",
+  "atlasId": "VII.8",
+  "era": 8,
+  "name": "The Hesychast Revival - Paisius & the Philokalia",
+  "dates": "1746-1815",
+  "lane": "Greek East & Orthodoxy",
+  "currentFlag": true,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "VII.8",
+    "id": "the-hesychast-revival-paisius-and-the-philokalia",
+    "era": 8,
+    "living": true,
+    "end": 1815,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "IV.6 influenced this [Documented] (IV.6 = Athonite & Comnenian Byzantine Monasticism, c. 963-1300)",
+   "V.4 influenced this [Documented] (V.4 = Hesychasm & the Palamite Synthesis, c. 1300-1400)",
+   "this gave rise to VIII.11 [Documented] (VIII.11 = The Optina Elders & Russian Ascetic Renewal, 1821-1906)"
+  ],
+  "statusDescription": "Tiered Viable, secondary (Tier 2) — lives, letters, and the anthology-making itself read as formation evidence. This entry keeps the Philokalia, while the Kollyvades movement itself sits with a later entry; it succeeds into the Optina tradition.",
+  "relationsSummary": "Revival of the Palamite line; direct source of the Optina tradition",
+  "why": "In 1746 a young monk named Paisius Velichkovsky searched the libraries of the monasteries on Mount Athos. He was looking for old Greek teaching on inward prayer that almost nobody read anymore. At Neamț in Moldavia he set his monks to putting it into Slavonic. The Greek texts were printed as the Philokalia at Venice in 1782. Paisius's own Slavonic version came out at Moscow in 1793. The book carried a monk's teaching on the Jesus Prayer out to ordinary readers. Paisius's own disciples, in Russia, trained the first of the Optina elders.",
+  "legacy": "This is one of the clearest cases anywhere of a book changing a church. The Philokalia is still in print and still read — the standard English translation has been appearing volume by volume since 1979. In Russia it fed the elders of Optina, who put out Paisius's life and writings at Moscow in 1847. The Jesus Prayer is now practiced far outside the monasteries the texts were written in. Neamț Monastery still stands and still functions, with Paisius's relics in it; he was canonized in 1988."
+ },
+ {
+  "id": "port-royal-jansenism",
+  "atlasId": "VII.9",
+  "era": 8,
+  "name": "Port-Royal Jansenism",
+  "dates": "1640-1710",
+  "lane": "Latin West & Catholicism",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "VII.9",
+    "id": "port-royal-jansenism",
+    "era": 8,
+    "living": false,
+    "end": 1710,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "I.8 influenced this [Documented] (I.8 = Latin Pastoral-Congregational Christianity, c. 240s-430)",
+   "this argued against VI.11 [Documented] (VI.11 = The Society of Jesus, 1540-1650)",
+   "VI.11 argued against this [Documented] (VI.11 = The Society of Jesus, 1540-1650)"
+  ],
+  "statusDescription": "Tiered Viable, secondary (Tier 2) on the record of a self-documenting community — memoirs, letters, and Pascal from its orbit. Its note on the doctrinal floor stands: an intra-Catholic grace controversy, in which papal condemnation is not floor failure.",
+  "relationsSummary": "Augustine's long shadow inside the Tridentine church",
+  "why": "The convent of Port-Royal, reformed into severity by the young abbess Angélique Arnauld, read Augustine on grace harder than the Jesuits or the French crown could tolerate, and men of rank gave up their careers to live plainly nearby and write in its defense — among them Blaise Pascal, whose Provincial Letters mocked Jesuit moral reasoning so well that the mockery outlived the quarrel. When a core of the nuns refused to sign a formulary swearing to a matter of fact they said they had no way of knowing, Louis XIV had them dispersed in 1709 and the buildings pulled down to the cemetery.",
+  "legacy": "The house was destroyed and the movement formally beaten, yet almost nothing about it truly vanished. Pascal's Provincial Letters and Pensées became lasting French classics. The Port-Royal schools' methods, with the Port-Royal Logic and Grammar, shaped how Europe taught for generations. The quarrel outlived the abbey too. Jansenism became a political force in France in the 1700s. Historians hold that it helped drive the campaign that suppressed the Jesuits. It also left one lasting body: the small Church of Utrecht in the Netherlands. That church made its own archbishop without Rome in the 1720s and became the root of the Old Catholic churches. The abbey ruins and the farm beside them are now a French national museum."
+ },
+ {
+  "id": "the-welsh-revival-tradition",
+  "atlasId": "VII.10",
+  "era": 8,
+  "name": "The Welsh Revival Tradition",
+  "dates": "1735-1815",
+  "lane": "Protestant & Evangelical",
+  "currentFlag": true,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "VII.10",
+    "id": "the-welsh-revival-tradition",
+    "era": 8,
+    "living": true,
+    "end": 1815,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "VII.5 in contact with this [Documented] (VII.5 = The Methodist Revival, 1738-1815)"
+  ],
+  "statusDescription": "Tiered Viable, secondary (Tier 2) — rich for its size, with ordinary and women's voices prominent, though the corpus is in Welsh, a translation limit. Ann Griffiths's work needs care as a source: it reaches the record through oral transmission.",
+  "relationsSummary": "A sister movement to English Methodism. It began at the same time, kept in touch with its leaders, and ran in its own language. Its hymns and habits of revival may lie behind the Welsh revival of 1904-05, but how far is hard to say.",
+  "why": "The Welsh revival ran in its own language from 1735, when Howell Harris and Daniel Rowland began preaching and organizing converts into the seiat, a small meeting where members told each other honestly how things stood with their souls. Its hymn writer William Williams Pantycelyn gave Welsh Christianity a national songbook, and so, more quietly, did Ann Griffiths, a farmer's daughter whose hymns survive only because her maid Ruth Evans memorized them and Ruth's husband wrote them down after Ann died at twenty-nine.",
+  "legacy": "It became a church. The Calvinistic Methodists ordained their own ministers in 1811 and are now the Presbyterian Church of Wales. The revival's wider effect made Nonconformity the ordinary religion of Wales for a century and a half. That meant the religion of the chapels, not of the established church. Its Sunday schools taught a great part of the nation to read Welsh. That is one reason the language came through the age of mines and mills alive. The singing it created may run on to the revival of 1904-05 and into Welsh choral music. That is a likely link, not a proven one."
+ },
+ {
+  "id": "the-antonian-movement-in-kongo",
+  "atlasId": "VII.11",
+  "era": 8,
+  "name": "The Antonian Movement in Kongo",
+  "dates": "1704-1706",
+  "lane": "Africa",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "VII.11",
+    "id": "the-antonian-movement-in-kongo",
+    "era": 8,
+    "living": false,
+    "end": 1706,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "VI.13a gave rise to this [Inferential-Thin] (VI.13a = Kongo Christianity, Afonso I to 1650, 1491-1650)"
+  ],
+  "statusDescription": "Tiered Marginal/deferred (Tier 3) — its evidence is moderate but missionary-pen and hostile, so needs real care. Whether its record speaks for a wider community, or only through its founder's single voice, is genuinely contested on two counts. The answer turns on how the founder's teaching was passed on, and it stays an open question rather than a closed one. A separate question about syncretism is not yet examined at all. Its window ends in 1706, matching its own numbers.",
+  "relationsSummary": "Christianity already two centuries African producing its own prophetess - crushed at the stake",
+  "why": "By 1700 the Kingdom of Kongo had been Christian for two centuries but its capital lay abandoned, broken by war and the slave trade. In 1704 a young noblewoman, Kimpa Vita, announced that Saint Anthony spoke through her and led thousands of followers back to reoccupy the ruined capital, insisting Christ and the saints should be understood as Kongolese rather than European — a claim that ended with her burned at the stake in 1706.",
+  "legacy": "The movement was crushed within two years and left no church behind it. What it left is harder to see but real. São Salvador was reoccupied and the kingdom partially reunited, which is what she had called for, and the idea of a Christianity understood in Kongolese terms did not die with her. Historians now read her as one of the earliest documented African Christian prophets, and she has become a figure of memory in Angola and across the Atlantic diaspora. Mbanza Kongo, the old capital, is a UNESCO World Heritage Site, its sixteenth-century cathedral ruins still standing."
+ },
+ {
+  "id": "shakers",
+  "atlasId": "VII.12",
+  "era": 8,
+  "name": "Shakers",
+  "dates": "1774-1815",
+  "lane": "Non-Nicene Traditions",
+  "currentFlag": true,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "VII.12",
+    "id": "shakers",
+    "era": 8,
+    "living": true,
+    "end": 1815,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "VII.1 gave rise to this [Documented] (VII.1 = The Quakers (Religious Society of Friends), 1650s-1815)"
+  ],
+  "statusDescription": "Carries a named creedal question for a future survey to answer - stated as a question, not a verdict.",
+  "relationsSummary": "By the Shakers' own account, the society began near Manchester about 1747 with James and Jane Wardley. They had left the Quakers and taken up the spirit of the French Prophets. Ann Lee later became its leader.",
+  "why": "The Shakers grew from a small circle of Manchester dissenters who worshipped with shaking, dancing and ecstatic speech, transformed by one of them, Ann Lee, who had buried four children and came to believe celibacy was the way out of the world's fallenness. Their communities held property in common, let men and women govern jointly, and treated work itself as worship; their own published confession identified Christ's second coming with Ann Lee, and the villages they built were so plain and exact that Shaker furniture and architecture remain reference points in American design today.",
+  "legacy": "The society still exists, barely — a single small community at Sabbathday Lake, Maine, has carried it into the twenty-first century. Its material legacy is far larger than its membership ever was. Shaker furniture and architecture are permanent reference points in American design, several of the villages are museums visited by hundreds of thousands of people a year, and the Shaker song 'Simple Gifts' entered the wider culture when Aaron Copland used it in Appalachian Spring. They were also inventive in practical things, from the flat broom to packaged garden seeds sold by mail, and ran them as businesses that paid for the villages."
+ },
+ {
+  "id": "swedenborgian-new-church",
+  "atlasId": "VII.13",
+  "era": 8,
+  "name": "Swedenborgian New Church",
+  "dates": "1780s-1815",
+  "lane": "Non-Nicene Traditions",
+  "currentFlag": true,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "VII.13",
+    "id": "swedenborgian-new-church",
+    "era": 8,
+    "living": true,
+    "end": 1815,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "VII.31 argued against this [Documented] (VII.31 = English Unitarianism, 1774-1813)",
+   "this argued against VII.31 [Documented] (VII.31 = English Unitarianism, 1774-1813)"
+  ],
+  "statusDescription": "Carries a named creedal question for a future survey to answer - stated as a question, not a verdict.",
+  "relationsSummary": "-",
+  "why": "Emanuel Swedenborg was a Swedish scientist who, in his mid-fifties, began having visions and spent the rest of his life writing an enormous body of theology in Latin — describing heaven and hell, the inner meaning of Scripture, and a God who is one person, Jesus Christ, rather than three. He never founded a church and died in 1772, so the New Church that formed afterward, first in Manchester and London in the 1780s and then in Baltimore and Philadelphia, was built entirely by people who had only ever known him through his books.",
+  "legacy": "It became a small but continuous denomination, with New Church bodies still active in Britain, the United States and elsewhere. Its reach through literature and art went far beyond its membership. Blake, Emerson, Balzac, Baudelaire and Yeats all read Swedenborg, and Helen Keller and John Chapman — 'Johnny Appleseed', who distributed Swedenborgian tracts along with his seedlings — were adherents. Bryn Athyn, Pennsylvania, built as a New Church center, has a cathedral and a college still in use, and the Swedenborg Society in London has been publishing his works since 1810."
+ },
+ {
+  "id": "quietist-controversy-molinos-guyon",
+  "atlasId": "VII.14",
+  "era": 8,
+  "name": "Quietist Controversy (Molinos, Guyon)",
+  "dates": "1675-1699",
+  "lane": "Latin West & Catholicism",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "VII.14",
+    "id": "quietist-controversy-molinos-guyon",
+    "era": 8,
+    "living": false,
+    "end": 1699,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "this influenced VII.2 [Documented] (VII.2 = German Pietism - Spener, Francke, Halle, 1675-1750)",
+   "this influenced VII.1 [Widely Accepted] (VII.1 = The Quakers (Religious Society of Friends), 1650s-1815)",
+   "this influenced VII.5 [Documented] (VII.5 = The Methodist Revival, 1738-1815)"
+  ],
+  "statusDescription": "Not counted as a candidate tradition of its own — its story is told plainly inside another tradition's, rather than standing alone.",
+  "relationsSummary": "A quarrel over passive prayer, condemned by Rome in 1687 and 1699. Its French voice, Jeanne Guyon, met one of Port-Royal's circle, Pierre Nicole, who had spoken against her.",
+  "why": "Miguel de Molinos taught a prayer of total interior passivity — stop even asking, and let God act — until he was arrested in 1685 and dozens of his propositions condemned. The argument moved to France around the widow Jeanne Guyon, whose similar teaching found a defender in the archbishop Fénelon and an implacable opponent in Bossuet; Guyon spent years imprisoned, including in the Bastille, and Fénelon read out his own submission from his own pulpit when Rome condemned him in 1699.",
+  "legacy": "The condemnation ended quietism as a movement inside Catholicism, but not its books. They had a long second life among Protestants. In 1687 the young August Hermann Francke put Molinos's Spiritual Guide into Latin; he later led German Pietism. Quaker booksellers sold Molinos, and a Quaker memoir of 1821 still listed Guyon's Life and Short Method. John Wesley at first called Guyon a 'poor Quietist'. By 1770 he praised her 'excellent piety', and in 1776 he wrote a preface for a short Life of her. So a condemned French Catholic widow became a devotional author for English-speaking evangelicals, and still is. Fénelon's Telemachus and his letters of spiritual guidance stayed in print and are still read. The word 'quietism' lived on too, as a charge against any prayer thought too passive."
+ },
+ {
+  "id": "camisard-prophetism",
+  "atlasId": "VII.15",
+  "era": 8,
+  "name": "Camisard Prophetism",
+  "dates": "1700-1710",
+  "lane": "Protestant & Evangelical",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "VII.15",
+    "id": "camisard-prophetism",
+    "era": 8,
+    "living": false,
+    "end": 1710,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "VI.6 gave rise to this [Documented] (VI.6 = The Huguenots, 1559-1685)",
+   "this in contact with VII.5 [Inferential-Thin] (VII.5 = The Methodist Revival, 1738-1815)",
+   "this influenced VII.12 [Documented] (VII.12 = Shakers, 1774-1815)"
+  ],
+  "statusDescription": "Not counted as a candidate tradition of its own — its story is told plainly inside another tradition's, rather than standing alone.",
+  "relationsSummary": "Aftermath of the Huguenot tradition's suppression",
+  "why": "After Protestantism was outlawed in France in 1685, ordinary people in the Cévennes — many of them children and young women with no pastors left to guide them — began falling into trance and speaking as they believed the Spirit directed. A shepherd girl named Isabeau Vincent was the first widely reported case, and by 1702 the movement had become an armed revolt, led in the field by a twenty-year-old baker's apprentice, Jean Cavalier, with prophets traveling alongside the fighters to direct them.",
+  "legacy": "The Camisards left no church of their own. French Protestantism rebuilt itself without them, in a wholly different key, sober and hidden. What the prophets left was a wave that carried. The exiles in London published sworn accounts of what they had seen, and drew crowds and scorn. For a generation they shaped the debate in England and Europe over religious enthusiasm. Faint echoes may have reached later revivals: in 1739 John Wesley went to hear a woman 'commonly called' a French prophet. In the Cévennes the memory was never allowed to fade. Every September an assembly still gathers at the Musée du Désert to mark it."
+ },
+ {
+  "id": "the-baptists",
+  "atlasId": "VII.16",
+  "era": 8,
+  "name": "The Baptists",
+  "dates": "1609-1815",
+  "lane": "Protestant & Evangelical",
+  "currentFlag": true,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [
+   {
+    "id": "nineteenth-century-baptists",
+    "atlasId": "VIII.35",
+    "living": true,
+    "confidence": "Widely Accepted"
+   }
+  ],
+  "lineTerminals": [
+   {
+    "atlasId": "VIII.35",
+    "id": "nineteenth-century-baptists",
+    "era": 9,
+    "living": true,
+    "end": 1906,
+    "weakestLink": "Widely Accepted"
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "this gave rise to VIII.1 [Widely Accepted] (VIII.1 = The Black Church in America, c. 1770s-1906)",
+   "VI.3 influenced this [Contested] (VI.3 = The Anabaptist Movements, 1525-1650)",
+   "this gave rise to VIII.7 [Inferential-Thin] (VIII.7 = The Missionary Movement's Native Churches (Serampore India; Sierra Leone & the Niger; Pacific Islands; China Coast & CIM), 1793-1906)"
+  ],
+  "statusDescription": "Tiered Strong (Tier 1) on church minute books, covenants, Bunyan's Grace Abounding and association records. Its window ends in 1815, bringing the founding of the BMS (1792) - the record's own hinge - inside the window. Its Black Baptist thread carries forward into the next era, where it has its own named parent entry.",
+  "relationsSummary": "The Baptists grew out of Puritan and Separatist ferment in England. In 1609 John Smyth wrote that his people had moved from Puritanism to Separatism, and then to the baptism of believers. They seem to have reached that belief largely on their own. Historians are divided on how much the Anabaptists shaped it. Soon after, Smyth and his followers asked to join a Mennonite church in Amsterdam. From the Baptists came William Carey's mission and the Black Baptist churches. Those churches in turn became one of the founding traditions of the Black Church in America.",
+  "why": "In 1609 an exiled English congregation in Amsterdam concluded that baptism belonged only to believers who could profess faith for themselves, and its pastor John Smyth baptized himself and then the rest. The churches that grew from that governed themselves in writing, week by week, in minute books and covenants — John Bunyan wrote Grace Abounding during twelve years in Bedford gaol for preaching without a license — and in 1792 a shoemaker named William Carey persuaded a small association of ministers to found a missionary society before sailing for India himself.",
+  "legacy": "Baptists are now one of the largest Protestant families in the world. The tradition held that no ruler has power over what people believe. That idea passed into the founding of Rhode Island under Roger Williams. Through many years of Baptist pleas to the state, it also shaped how the American constitution treats religion. Carey's was not the first Protestant mission. Carey himself named the Danes at Tranquebar and the Moravians before him. But his society sent Carey and John Thomas to India, and Baptist work abroad grew from there. The Black Baptist churches begun by Liele, George and those who came after became a pillar of Black life in America. They were also the ground from which the civil rights movement later grew."
+ },
+ {
+  "id": "church-of-the-desert-huguenots",
+  "atlasId": "VII.22",
+  "era": 8,
+  "name": "The Church of the Desert",
+  "dates": "1685-1787",
+  "lane": "Protestant & Evangelical",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [
+   {
+    "id": "the-huguenots",
+    "atlasId": "VI.6",
+    "confidence": "Documented"
+   }
+  ],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "VII.22",
+    "id": "church-of-the-desert-huguenots",
+    "era": 8,
+    "living": false,
+    "end": 1787,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [],
+  "statusDescription": "Proposed for a future survey, carrying an earlier entry forward, filling a completeness gap earlier flags missed. Not yet reviewed.",
+  "relationsSummary": "This is the story of what survived after Louis XIV's 1685 Revocation of the Edict of Nantes outlawed French Protestantism. Antoine Court's first Desert synod in 1715 began rebuilding a proscribed church in hiding, at the cost of galley slavery and, for Marie Durand, thirty-eight years imprisoned in the Tour de Constance. The Edict of Toleration in 1787 finally ended that illegality. The Camisard prophetic uprising belongs to this same story's opening decades.",
+  "why": "When Louis XIV outlawed French Protestantism in 1685, its people met at night in ravines and quarries, calling what they did 'the Desert' after Israel's wilderness. In 1715 a twenty-year-old lay preacher, Antoine Court, began rebuilding an actual church there — holding a synod, restoring ordained ministry, and founding a seminary at Lausanne to train pastors who returned knowing they could hang for it — while Marie Durand spent thirty-eight years imprisoned in a tower rather than recant, until the Edict of Versailles finally granted Protestants a civil existence again in 1787.",
+  "legacy": "It survived, and it is the direct ancestor of the Reformed Church in France. The church that came into the open after 1787 was Antoine Court's church, organized in synods and served by trained pastors. The Revolution finished what the edict began, and Rabaut Saint-Étienne sat in the National Assembly that declared freedom of religion in 1789 — he was guillotined four years later. In the Cévennes the memory is deliberately kept: the Musée du Désert stands in a Camisard leader's birthplace, and an assembly gathers there every September."
+ },
+ {
+  "id": "melkite-greek-catholic-church",
+  "atlasId": "VII.23",
+  "era": 8,
+  "name": "The Melkite Greek Catholic Split",
+  "dates": "1724-1815",
+  "lane": "Greek East / Latin West — bridge",
+  "currentFlag": true,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [
+   {
+    "id": "melkite-greek-catholic-church-after-1815",
+    "atlasId": "VIII.52",
+    "living": true,
+    "confidence": "Documented"
+   }
+  ],
+  "lineTerminals": [
+   {
+    "atlasId": "VIII.52",
+    "id": "melkite-greek-catholic-church-after-1815",
+    "era": 9,
+    "living": true,
+    "end": 1911,
+    "weakestLink": "Documented"
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "III.2 gave rise to this [Dominant Modern Reconstruction] (III.2 = Melkite Arabic Christianity, c. 700-1009)"
+  ],
+  "statusDescription": "Proposed for a future survey; not yet reviewed.",
+  "relationsSummary": "When Patriarch Athanasius III died in 1724, the party at Damascus chose Cyril VI Tanas, who favored union with Rome. Constantinople consecrated a rival, Sylvester, instead. The see of Antioch split for good, and the Melkite Greek Catholic Church began. It is still alive today. The split took a shape seen before, in the Union of Brest and in the Maronites' union with Rome. The Orthodox side of the split stayed part of Orthodoxy under the Ottomans.",
+  "why": "When the Patriarch of Antioch died in 1724, Damascus elected Cyril VI Tanas, who favored union with Rome, but Constantinople refused to accept him and consecrated a rival instead — permanently splitting one Arabic-speaking, Byzantine-rite community into two churches that share the same liturgy, language, and often the same families to this day. Rome recognized Cyril's line in 1729, and the resulting Melkite Greek Catholic church was pressed hard by Ottoman authorities for generations before gaining any recognized civil standing of its own.",
+  "legacy": "Both churches are alive. The Melkite Greek Catholic Church has a patriarch of Antioch today. It is found across the Middle East and in large communities abroad, in the Americas, Europe and Australia. It worships in Arabic in the Byzantine rite, in communion with Rome. The Greek Orthodox Patriarchate of Antioch lives on beside it. The split gave the Christian East one more case of a familiar pattern. An Eastern-rite church in union with Rome stands beside the Orthodox church it came from, with all the everyday strain that brings. Through Aleppo's presses and schools, the Melkites became major carriers of Arabic Christian writing."
+ },
+ {
+  "id": "armenian-christianity-era-8",
+  "atlasId": "VII.24",
+  "era": 8,
+  "name": "Armenian Christianity — the Mekhitarists and the Catholic Patriarchate",
+  "dates": "c. 1700-1815",
+  "lane": "Caucasus",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "VII.24",
+    "id": "armenian-christianity-era-8",
+    "era": 8,
+    "living": false,
+    "end": 1815,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "this influenced VIII.32 [Widely Accepted] (VIII.32 = Armenian Christianity — the Zartonk Century, 1815-1906)"
+  ],
+  "statusDescription": "Proposed for a future survey, carrying forward part of an earlier entry, on the same pattern already used there. Not yet reviewed.",
+  "relationsSummary": "Mekhitar of Sebaste founded his congregation in 1701 and settled it on San Lazzaro in Venice in 1717, where it became the diaspora's scholarly engine. Inside the Ottoman millet system, tension grew between the Armenian Apostolic Church and Armenians in communion with Rome. In 1742 Benedict XIV confirmed Abraham Petros I as Catholic patriarch of Cilicia, with a seat established at Bzommar in 1750.",
+  "why": "In 1701 Mekhitar of Sebaste founded a congregation devoted to gathering, editing, and printing the Armenian inheritance for a people scattered across empires, and settled it on the island of San Lazzaro in Venice in 1717, where its press and library of thousands of manuscripts effectively created modern Armenian lexicography. Meanwhile, inside the Ottoman capital, Armenians in communion with Rome grew numerous enough that Benedict XIV confirmed a separate Armenian Catholic patriarch in 1742, seated at Bzommar in Mount Lebanon from 1750.",
+  "legacy": "Both institutions are still there. The Mekhitarist monastery on San Lazzaro degli Armeni continues, with a library of some four and a half thousand Armenian manuscripts, and receives visitors by arrangement — Lord Byron rowed out to it in 1816 to learn Armenian and helped the monks with a grammar. The Armenian Catholic Church endures as a small Eastern Catholic church with its patriarchal seat historically at Bzommar in Lebanon. And the Mekhitarists' printing and philology laid much of the groundwork for the nineteenth-century Armenian cultural revival, the Zartonk."
+ },
+ {
+  "id": "church-of-utrecht",
+  "atlasId": "VII.25",
+  "era": 8,
+  "name": "The Church of Utrecht",
+  "dates": "1723-1815",
+  "lane": "Latin West & Catholicism",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [
+   {
+    "id": "old-catholic-churches-union-of-utrecht",
+    "atlasId": "VIII.33",
+    "living": true,
+    "confidence": "Documented"
+   }
+  ],
+  "lineTerminals": [
+   {
+    "atlasId": "VIII.33",
+    "id": "old-catholic-churches-union-of-utrecht",
+    "era": 9,
+    "living": true,
+    "end": 1906,
+    "weakestLink": "Documented"
+   }
+  ],
+  "otherLinksToLivingEntries": [],
+  "statusDescription": "Proposed for a future survey; its sourcing still needs verification before any build. Not yet reviewed.",
+  "relationsSummary": "This church grew out of the Jansenist quarrel: the Utrecht cathedral chapter elected Cornelius Steenoven without Rome's approval in 1723, and Dominique Varlet consecrated him in 1724. The small communion that resulted survived and became the root of the later Old Catholic Union of Utrecht.",
+  "why": "When Rome refused for years to confirm an archbishop for the tolerated but legally unrecognized Catholic church of the Dutch Republic, its cathedral chapter fell back on what it held to be its own ancient right and elected Cornelius Steenoven itself in 1723. A French missionary bishop, Dominique Varlet — already in trouble with Rome himself — consecrated him the following year, giving the small church a valid succession and a permanent breach with the papacy in the same act, though it kept the Catholic faith in everything else.",
+  "legacy": "It is still there, and it grew a family. When the First Vatican Council defined papal infallibility in 1870, Catholics in Germany, Switzerland and Austria who rejected the definition needed bishops, and Utrecht — the one Western church with an unquestioned Catholic succession outside Rome — supplied them. The resulting Old Catholic churches bound themselves together in the Declaration of Utrecht in 1889, and that Union of Utrecht continues today, in full communion with the Anglican churches since 1931. St Gertrude's Cathedral in Utrecht is its mother church."
+ },
+ {
+  "id": "english-old-dissent",
+  "atlasId": "VII.26",
+  "era": 8,
+  "name": "English Old Dissent — Presbyterians and Congregationalists",
+  "dates": "1662-1815",
+  "lane": "Protestant & Evangelical",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "VII.26",
+    "id": "english-old-dissent",
+    "era": 8,
+    "living": false,
+    "end": 1815,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "this in contact with VII.5 [Documented] (VII.5 = The Methodist Revival, 1738-1815)",
+   "this in contact with VII.16 [Documented] (VII.16 = The Baptists, 1609-1815)",
+   "this gave rise to VII.31 [Documented] (VII.31 = English Unitarianism, 1774-1813)"
+  ],
+  "statusDescription": "Proposed for a future survey - the other half of the Great Ejection story. Not yet reviewed.",
+  "relationsSummary": "About two thousand ministers were put out of the Church of England in 1662. They built a lasting tradition. It gave England its own schools, the dissenting academies. It also gave Isaac Watts, who changed how English churches sang. In 1719 its ministers met at Salters' Hall in London. After that, many Presbyterian churches drifted away from the Trinity. They moved first toward Arian and then toward Unitarian views. The Congregationalists kept the old faith, and some of their leaders took up the new revival. Watts helped print Jonathan Edwards's story of the awakening in New England. Philip Doddridge asked John Wesley to teach his students. With the Quakers and the Baptists, it makes up the wider family of English Dissent. Baptist ministers sat at Salters' Hall too.",
+  "why": "About two thousand ministers were put out of the Church of England on a single day in 1662, and the Presbyterian and Congregationalist traditions that grew from the ejection built their own dissenting academies, teaching mathematics and modern languages when Oxford and Cambridge largely didn't. Isaac Watts, one of their ministers, broke the old rule that only the Psalms could be sung in worship and wrote hymns instead, while a 1719 meeting at Salters' Hall split the tradition quietly: many English Presbyterian congregations drifted over the following century toward Arian and then Unitarian belief, while the Congregationalists stayed orthodox.",
+  "legacy": "Both halves continue. English Congregationalism ran on into the United Reformed Church and the Congregational Federation, carrying the gathered-church principle into the modern world. The Presbyterian congregations that had moved toward Unitarianism became the core of British Unitarianism. The academies' effect on English intellectual and industrial life was out of all proportion to Dissent's numbers, and the long campaign to remove the legal disabilities Dissenters lived under shaped a century of British politics. Watts's and Doddridge's hymns are sung every week in churches that have never heard of Old Dissent."
+ },
+ {
+  "id": "early-american-unitarians-universalists",
+  "atlasId": "VII.27",
+  "era": 8,
+  "name": "Early American Unitarians & Universalists",
+  "dates": "1770-1815",
+  "lane": "Non-Nicene Traditions",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [
+   {
+    "id": "american-unitarianism-universalism-consolidations",
+    "atlasId": "VIII.37",
+    "living": true,
+    "confidence": "Documented"
+   }
+  ],
+  "lineTerminals": [
+   {
+    "atlasId": "VIII.37",
+    "id": "american-unitarianism-universalism-consolidations",
+    "era": 9,
+    "living": true,
+    "end": 1906,
+    "weakestLink": "Documented"
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "VI.14 influenced this [Inferential-Thin] (VI.14 = Anti-Trinitarian Currents (Servetus; Polish Brethren/Socinians; Transylvanian Unitarians), 1517-1650)",
+   "VII.31 influenced this [Documented] (VII.31 = English Unitarianism, 1774-1813)"
+  ],
+  "statusDescription": "Proposed for a future survey, as a register entry covering two distinct threads. The Unitarian thread reads, by its own confessions, as stepping outside the doctrinal floor. The Universalist thread is a dispute about salvation that may stay inside it. Neither question is decided yet. Not yet reviewed.",
+  "relationsSummary": "In 1785 King's Chapel in Boston revised its prayer book to remove the Trinity. English Unitarian precedent came earlier still, with the opening of the Essex Street Chapel in London in 1774. Separately, John Murray organized the Universalists at Gloucester in 1779, and they adopted the Winchester Profession in 1803. Both threads only became formal denominations later, with the American Unitarian Association founded in 1825.",
+  "why": "Two distinct movements converged in the new American republic. John Murray, an English preacher who believed God would finally save everyone, gathered a Universalist congregation at Gloucester, Massachusetts in 1779, while in 1785 King's Chapel in Boston — an Anglican congregation left leaderless by the Revolution — revised its own prayer book to remove the Trinity, years before either movement had an actual denomination.",
+  "legacy": "Both became denominations in the following decade — the American Unitarian Association in 1825, the Universalists consolidating their conventions. And in 1961 the two merged into the Unitarian Universalist Association, which continues. Their cultural influence in nineteenth-century New England was far larger than their numbers. Harvard, the Transcendentalists, and a great deal of American reform work in education, prisons and abolition came out of this milieu. King's Chapel in Boston still uses a descendant of its 1785 prayer book."
+ },
+ {
+  "id": "swedish-lutherans-of-new-sweden",
+  "atlasId": "VII.30",
+  "era": 8,
+  "name": "The Swedish Lutherans of New Sweden",
+  "dates": "1638-1786",
+  "lane": "Protestant & Evangelical",
+  "currentFlag": false,
+  "existingLivingEvidence": null,
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "VII.30",
+    "id": "swedish-lutherans-of-new-sweden",
+    "era": 8,
+    "living": false,
+    "end": 1786,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "this argued against VII.4 [Documented] (VII.4 = The Moravian Church at Herrnhut, 1722-1815)",
+   "VII.3 in contact with this [Documented] (VII.3 = Radical Pietism & the Brethren (Dunkers, Ephrata), 1690s-1815)"
+  ],
+  "statusDescription": "Proposed for a future survey; not yet reviewed. Thin: one source, Acrelius (1759).",
+  "relationsSummary": "Sweden planted a colony on the Delaware in 1638, with a Swedish pastor. After Swedish rule ended in 1655, few pastors were left. In 1693 the people wrote home to beg for ministers and books. From 1697 the king and archbishop of Sweden sent pastors again. In the 1740s the churches shut out Moravian preachers. Their provost Acrelius visited the cloister at Ephrata in 1753 and argued with its brothers.",
+  "why": "A small Swedish people on an American river kept their Lutheran church for more than a century. For years they had no pastor of their own tongue. Laymen read sermons from a book in the churches. In 1693 they wrote to Sweden in their own words, for \"two Swedish ministers\" and two hundred catechisms. Sweden answered, and went on sending pastors for nearly ninety years.",
+  "legacy": "From 1696 to 1786, Sweden sent twenty-four pastors to the churches on the Delaware. The crown paid for their voyages out and home. In time the Swedish language died out among the settlers' children. Then Sweden stopped sending pastors. What became of the congregations after that is not yet told from the Library."
+ },
+ {
+  "id": "english-unitarianism",
+  "atlasId": "VII.31",
+  "era": 8,
+  "name": "English Unitarianism",
+  "dates": "1774-1813",
+  "lane": "Non-Nicene Traditions",
+  "currentFlag": true,
+  "existingLivingEvidence": {
+   "descentConfidence": "Inferential-Thin",
+   "basis": "The Library carries the Essex Street chapel to Belsham's account of 1812 and the law of 1813. No later text in the repo traces today's British Unitarian churches back to it."
+  },
+  "predecessors": [],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "VII.31",
+    "id": "english-unitarianism",
+    "era": 8,
+    "living": true,
+    "end": 1813,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "this argued against VII.13 [Documented] (VII.13 = Swedenborgian New Church, 1780s-1815)",
+   "VII.13 argued against this [Documented] (VII.13 = Swedenborgian New Church, 1780s-1815)",
+   "VI.14 influenced this [Inferential-Thin] (VI.14 = Anti-Trinitarian Currents (Servetus; Polish Brethren/Socinians; Transylvanian Unitarians), 1517-1650)"
+  ],
+  "statusDescription": "Proposed for a future survey, as a register entry. By its own founding sermon and writings, it reads as stepping outside the doctrinal floor. The question is not decided yet. Not yet reviewed.",
+  "relationsSummary": "Theophilus Lindsey left the Church of England. In 1774 he opened his own chapel in London. Joseph Priestley came to it from the old Dissenting churches. There he had moved from Arian to Unitarian belief. Earlier English writers took up the ideas of Socinus and the Polish Brethren. The evidence for that link is thin. Lindsey's prayer book shaped the first Unitarian liturgy in Boston. Priestley argued in print with the new Swedenborgian church in Birmingham. One of its leaders answered him.",
+  "why": "In 1774 a clergyman who had left the Church of England opened a chapel in London. Its people met, he said, as \"a separate congregation\", so that they might worship God alone. Joseph Priestley, chemist and Dissenting minister, defended the same belief in print each year. In 1791 a mob burned his meeting house and his home in Birmingham. In 1813 the law at last gave Unitarians the same rights as other Dissenters.",
+  "legacy": "For years Unitarians stood outside the law that protected other Dissenters. In 1813 they were given the same rights. By then the chapel's books were read far from London. In 1810 a small society in New York State read sermons by Lindsey, Priestley and Toulmin when it had no minister. The story of the English churches after 1813 is not yet told from the Library."
+ },
+ {
+  "id": "mennonites-and-amish-after-1650",
+  "atlasId": "VII.32",
+  "era": 8,
+  "name": "The Mennonites and the Amish",
+  "dates": "1650-1890",
+  "lane": "Protestant & Evangelical",
+  "currentFlag": true,
+  "existingLivingEvidence": {
+   "basis": "The church's own prefaces claim the martyrs as its forebears, from van Braght (1659) to the English edition of 1886. The grade Documented covers the Mennonite line. The Amish descent is shown only by one mention, in the Elkhart manual of 1890, pending the source pass. The Amish division of the 1690s is not yet in the Library, and no inside text after 1890 is.",
+   "descentConfidence": "Documented"
+  },
+  "predecessors": [
+   {
+    "id": "the-anabaptist-movements",
+    "atlasId": "VI.3",
+    "confidence": "Documented"
+   }
+  ],
+  "successors": [],
+  "lineTerminals": [
+   {
+    "atlasId": "VII.32",
+    "id": "mennonites-and-amish-after-1650",
+    "era": 8,
+    "living": true,
+    "end": 1890,
+    "weakestLink": null
+   }
+  ],
+  "otherLinksToLivingEntries": [
+   "this in contact with VII.3 [Documented] (VII.3 = Radical Pietism & the Brethren (Dunkers, Ephrata), 1690s-1815)"
+  ],
+  "statusDescription": "Proposed for a future survey, carrying forward part of an earlier entry; not yet reviewed.",
+  "relationsSummary": "These churches were heirs of the Swiss and Dutch Anabaptists. The Mennonites of Pennsylvania asked the Ephrata Brethren to print their book of martyrs in German. A church manual of 1890 tells of Amish churches too.",
+  "why": "After 1650 the heirs of the Anabaptists became settled churches. In 1660 Thieleman van Braght of Dordrecht gathered their martyrs into one great book, the Martyrs Mirror. He longed to be like \"my slain fellow brethren and sisters\". The book crossed the sea with his people. In Pennsylvania the Ephrata Brethren printed it in German, and in 1886 an English edition came out.",
+  "legacy": "The martyr book still speaks for these churches. In 1886 its publishers called the martyrs \"especially precious to us, as Mennonites\". Through them, they wrote, God handed down what \"we hold and practice at the present day\". The churches live on, but the Library does not yet hold their story after 1890."
+ }
+]
