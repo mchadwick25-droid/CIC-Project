@@ -1901,5 +1901,5 @@ it, never by deleting it.
     longer ones on built worlds"; "this will be work next week". Coordinator note: the councils and
     other multi-tradition events are the Shared Events workstream (`Build/Ministry/Features/Shared-Events/`,
     charter 2026-10-17); major links would point to their event's story, the link note staying as
-    evidence. Scheduled for the week after 2026-11-14. See also P2-P's narration item (2026-11-10),
-    when it lands.
+    evidence. Scheduled for the week after 2026-11-14. See also "Design idea: a brief that plays
+    first, then an optional deeper story" (2026-11-10).
