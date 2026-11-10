@@ -1,0 +1,328 @@
+[
+ {
+  "id": "the-greek-church-and-the-ecumenical-patriarchate",
+  "evidence": [
+   {
+    "kind": "own-voice",
+    "title": "Announcement on the work of the Holy and Sacred Synod (3 November 2026)",
+    "publisher": "Ecumenical Patriarchate (patriarchate.org)",
+    "date": "2026-11-03",
+    "url": "https://www.patriarchate.org/",
+    "page": "pages/gr1.html",
+    "quote": "Ανακοινωθέν για τις εργασίες της Αγίας και Ιεράς Συνόδου (3 Νοεμβρίου 2026)",
+    "verified": true
+   },
+   {
+    "kind": "independent",
+    "title": "Ecumenical Patriarch: We pray for the Lord to bring lasting peace in the Middle East",
+    "publisher": "Orthodox Times",
+    "date": "2024-10-23",
+    "url": "https://orthodoxtimes.com/ecumenical-patriarch-we-pray-for-the-lord-to-bring-lasting-peace-in-the-middle-east/",
+    "page": "pages/gr3.html",
+    "quote": "On the afternoon of Tuesday, October 22, 2024, Ecumenical Patriarch Bartholomew presided over the Vespers of the Thronal Feast",
+    "verified": true
+   }
+  ],
+  "grade": "CR",
+  "body": "Ecumenical Patriarchate of Constantinople",
+  "note": null
+ },
+ {
+  "id": "the-georgian-orthodox-church-restored",
+  "evidence": [
+   {
+    "kind": "own-voice",
+    "title": "News item, Patriarchate of Georgia (21.05.2026)",
+    "publisher": "Georgian Patriarchate (patriarchate.ge)",
+    "date": "2026-05-21",
+    "url": "https://patriarchate.ge/news/3453",
+    "page": "pages/ge6.html",
+    "quote": "საქართველოს კათოლიკოს-პატრიარქმა შიო III-მ სადღესასწაულო წირვა ამაღლების სახელობის ტაძარში აღავლინა (21.05.2026)",
+    "verified": true
+   },
+   {
+    "kind": "independent",
+    "title": "Georgian Church marks 47 years since Patriarch Ilia II’s enthronement",
+    "publisher": "OrthoChristian",
+    "date": "2024-12-26",
+    "url": "https://orthochristian.com/165924.html",
+    "page": "pages/ge5.html",
+    "quote": "Today there are 47 dioceses and about 2,000 active parishes, as well as about 3,000 clergy.",
+    "verified": true
+   }
+  ],
+  "grade": "CR",
+  "body": "Georgian Orthodox and Apostolic Church (Patriarchate of Georgia)",
+  "note": "The own-voice quote is the page title as held in the page data (data-page JSON), because the site renders by script; Georgian text."
+ },
+ {
+  "id": "northeast-india-and-mar-thoma-twentieth-century",
+  "evidence": [
+   {
+    "kind": "own-voice",
+    "title": "Home page, Malankara Mar Thoma Syrian Church (news list)",
+    "publisher": "Malankara Mar Thoma Syrian Church (uatwp.marthoma.in)",
+    "date": "2026",
+    "url": "https://uatwp.marthoma.in",
+    "page": "pages/mt1.html",
+    "quote": "List of Valid Nominations After Scrutiny – Mandalam Elections 2026",
+    "verified": true
+   },
+   {
+    "kind": "independent",
+    "title": "Maramon Convention, Asia’s biggest Christian meet, begins",
+    "publisher": "Madhyamam Online",
+    "date": "2013-02-11",
+    "url": "https://madhyamamonline.com/amp/en/node/8985",
+    "page": "pages/mt5.html",
+    "quote": "is held under the aegis of the Syrian Mar Thoma Church, headquartered at Thiruvalla",
+    "verified": true
+   }
+  ],
+  "grade": "CR",
+  "body": "Malankara Mar Thoma Syrian Church",
+  "note": "The own-voice item shows the year only; the independent item is from 2013."
+ },
+ {
+  "id": "the-russian-orthodox-church-council-patriarchate-and-reunion",
+  "evidence": [
+   {
+    "kind": "own-voice",
+    "title": "News list, Department for External Church Relations",
+    "publisher": "Moscow Patriarchate (mospat.ru)",
+    "date": "2026-11-05",
+    "url": "https://mospat.ru/en/",
+    "page": "pages/ru1.html",
+    "quote": "His Holiness Patriarch Kirill meets with the Primate of the Orthodox Church of Jerusalem",
+    "verified": true
+   },
+   {
+    "kind": "independent",
+    "title": "Russian Patriarch Mocks Priest for Questioning Church’s Patriotism",
+    "publisher": "The Moscow Times",
+    "date": "2025-02-12",
+    "url": "https://www.themoscowtimes.com/2026/08/05/russian-patriarch-mocks-priest-for-questioning-churchs-patriotism",
+    "page": "pages/ru4.html",
+    "quote": "The head of the Russian Orthodox Church publicly ridiculed a priest",
+    "verified": true
+   }
+  ],
+  "grade": "CR",
+  "body": "Russian Orthodox Church (Moscow Patriarchate)",
+  "note": null
+ },
+ {
+  "id": "the-ukrainian-greek-catholic-underground",
+  "evidence": [
+   {
+    "kind": "own-voice",
+    "title": "Address by the Head of the UGCC, 247th Week of the Full-Scale War",
+    "publisher": "Ukrainian Greek Catholic Church (ugcc.ua)",
+    "date": "2026-11-08",
+    "url": "https://ugcc.ua/en/",
+    "page": "pages/ug1.html",
+    "quote": "Address by the Head of the UGCC for the 247th Week of the Full-Scale War, November 8, 2026",
+    "verified": true
+   },
+   {
+    "kind": "independent",
+    "title": "Shevchuk: There is great hope that the war in Ukraine will end",
+    "publisher": "Vatican News",
+    "date": "2025-08-24",
+    "url": "https://www.vaticannews.va/en/church/news/2025-08/shevchuk-there-is-great-hope-that-the-war-in-ukraine-will-end.print.html",
+    "page": "pages/ug2.html",
+    "quote": "Major Archbishop Sviatoslav Shevchuk speaks about the sufferings and hopes of the Ukrainian people.",
+    "verified": true
+   }
+  ],
+  "grade": "CR",
+  "body": "Ukrainian Greek Catholic Church",
+  "note": null
+ },
+ {
+  "id": "japanese-christianity-after-1906",
+  "evidence": [
+   {
+    "kind": "own-voice",
+    "title": "Greetings from the Newly-elected Church Officers, Kyodan News No. 411",
+    "publisher": "United Church of Christ in Japan (Kyodan) (uccj.org)",
+    "date": "2023-01-10",
+    "url": "https://uccj.org/knl/45176.html",
+    "page": "pages/jp4.html",
+    "quote": "The Kyodan had 1,666 churches and 161,103 members in 2020.",
+    "verified": true
+   }
+  ],
+  "grade": "CR",
+  "body": "United Church of Christ in Japan (Kyodan)",
+  "note": "No dated independent item was found; the Kyodan news page also carries 2026 items."
+ },
+ {
+  "id": "the-black-church-in-the-twentieth-century",
+  "evidence": [
+   {
+    "kind": "own-voice",
+    "title": "COGIC Newsfeed, Presiding Bishop category",
+    "publisher": "Church of God in Christ (cogic.org)",
+    "date": "2026-10-22",
+    "url": "https://www.cogic.org/blog/category/presiding-bishop/",
+    "page": "pages/co1.html",
+    "quote": "2026 COGIC Loyalty Reports",
+    "verified": true
+   },
+   {
+    "kind": "independent",
+    "title": "Religious Landscape Study, Appendix B: Classification of Protestant denominations",
+    "publisher": "Pew Research Center",
+    "date": "2025-02-26",
+    "url": "https://www.pewresearch.org/religion/2025/02/26/appendix-b-classification-of-protestant-denominations/",
+    "page": "pages/pew1.html",
+    "quote": "Church of God in Christ (COGIC)",
+    "verified": true
+   }
+  ],
+  "grade": "CR",
+  "body": "Church of God in Christ (named in the entry; the entry also names the National Baptist bodies)",
+  "note": "The Pew item is a classification list, not a report on the body, so the grade stays CR. The AME site blocked the fetch."
+ },
+ {
+  "id": "ratana-church-and-pacific-adjustment-movements",
+  "evidence": [
+   {
+    "kind": "independent",
+    "title": "Rātana celebrations get underway",
+    "publisher": "RNZ",
+    "date": "2026-01-22",
+    "url": "https://www.rnz.co.nz/news/political/584644/ratana-celebrations-get-underway",
+    "page": "pages/rat5.html",
+    "quote": "The annual Rātana celebrations which traditionally mark the start of the political year are getting underway on Thursday.",
+    "verified": true
+   },
+   {
+    "kind": "independent",
+    "title": "The Rātana Church (Te Haahi Rātana), WelCom March 2024",
+    "publisher": "Catholic Diocese of Palmerston North",
+    "date": "2024-03-03",
+    "url": "https://pndiocese.org.nz/news-and-events/the-ratana-church-te-haahi-ratana/",
+    "page": "pages/rt5.html",
+    "quote": "Ratana Church continues to provide faith and guidance for many",
+    "verified": true
+   }
+  ],
+  "grade": "CR",
+  "body": "Rātana Church (Te Haahi Rātana)",
+  "note": "No dated own-voice item was found; the church’s own site did not load."
+ },
+ {
+  "id": "churches-of-christ-twentieth-century",
+  "evidence": [
+   {
+    "kind": "independent",
+    "title": "Faith Factors (US Religion Census 2020 figures)",
+    "publisher": "Christian Standard",
+    "date": "2023-07-01",
+    "url": "https://christianstandard.com/2023/07/faith-factors/",
+    "page": "pages/cs1.html",
+    "quote": "the noninstrumental Churches of Christ had 11,881 congregations with 1,422,331 adherents",
+    "verified": true
+   },
+   {
+    "kind": "independent",
+    "title": "Religious Landscape Study, Appendix B: Classification of Protestant denominations",
+    "publisher": "Pew Research Center",
+    "date": "2025-02-26",
+    "url": "https://www.pewresearch.org/religion/2025/02/26/appendix-b-classification-of-protestant-denominations/",
+    "page": "pages/pew1.html",
+    "quote": "Church of Christ/Churches of Christ",
+    "verified": true
+   }
+  ],
+  "grade": "CR",
+  "body": "Churches of Christ (noninstrumental, autonomous congregations)",
+  "note": "No own-voice item: the congregations have no central body. The census count reaches the page through a trade magazine, so the grade stays CR."
+ },
+ {
+  "id": "disciples-of-christ-and-independent-christian-churches",
+  "evidence": [
+   {
+    "kind": "own-voice",
+    "title": "Home page, Christian Church (Disciples of Christ): General Assembly 2026 On-Demand",
+    "publisher": "Christian Church (Disciples of Christ) (disciples.org)",
+    "date": "2026",
+    "url": "https://www.disciples.org/",
+    "page": "pages/cc1.html",
+    "quote": "Continue the journey BEYOND: Love Surpassing with General Assembly 2026 On-Demand.",
+    "verified": true
+   },
+   {
+    "kind": "independent",
+    "title": "Faith Factors (US Religion Census 2020 figures)",
+    "publisher": "Christian Standard",
+    "date": "2023-07-01",
+    "url": "https://christianstandard.com/2023/07/faith-factors/",
+    "page": "pages/cs1.html",
+    "quote": "the Disciples of Christ denomination included 3,135 congregations with 398,072 adherents",
+    "verified": true
+   }
+  ],
+  "grade": "CR",
+  "body": "Christian Church (Disciples of Christ); Independent Christian Churches counted in the same Christian Standard article",
+  "note": "The census figures reach the page through a trade magazine, so the grade stays CR."
+ },
+ {
+  "id": "the-russian-new-martyrs-and-the-catacomb-church",
+  "evidence": [
+   {
+    "kind": "own-voice",
+    "title": "News list, Department for External Church Relations",
+    "publisher": "Moscow Patriarchate (mospat.ru)",
+    "date": "2026-11-05",
+    "url": "https://mospat.ru/en/",
+    "page": "pages/ru1.html",
+    "quote": "His Holiness Patriarch Kirill meets with the Primate of the Orthodox Church of Jerusalem",
+    "verified": true
+   },
+   {
+    "kind": "independent",
+    "title": "Russian Patriarch Mocks Priest for Questioning Church’s Patriotism",
+    "publisher": "The Moscow Times",
+    "date": "2025-02-12",
+    "url": "https://www.themoscowtimes.com/2026/08/05/russian-patriarch-mocks-priest-for-questioning-churchs-patriotism",
+    "page": "pages/ru4.html",
+    "quote": "The head of the Russian Orthodox Church publicly ridiculed a priest",
+    "verified": true
+   }
+  ],
+  "grade": "CR",
+  "body": "Russian Orthodox Church (Moscow Patriarchate), which the entry says canonized the new martyrs in 2000",
+  "note": "Evidence shows the Russian Orthodox Church exists now; no dated item was found for catacomb communities."
+ },
+ {
+  "id": "indonesian-christianity-the-independent-century",
+  "evidence": [
+   {
+    "kind": "own-voice",
+    "title": "News and Publications (Berita), HKBP",
+    "publisher": "Huria Kristen Batak Protestan (hkbp.or.id)",
+    "date": "2026-11-10",
+    "url": "https://hkbp.or.id/berita",
+    "page": "pages/hk5.html",
+    "quote": "PEARAJA (10/11) – Peserta Latihan Persiapan Pelayan (LPP) III HKBP memasuki hari kedua pembekalan",
+    "verified": true
+   },
+   {
+    "kind": "independent",
+    "title": "Indonesian churches and congregations protest against the continued operation of the pulp mill PT Toba Pulp Lestari",
+    "publisher": "United Evangelical Mission (press release)",
+    "date": "2025-11-13",
+    "url": "https://www.vemission.org/fileadmin/redakteure/Dokumente/Pressemitteilungen/2025_11_13_Church_Demonstration_against_pulp_factory_North_Sumatra.pdf",
+    "page": "pages/hk3.html",
+    "quote": "including the Huria Kristen Batak Protestan (HKBP)",
+    "verified": true
+   }
+  ],
+  "grade": "CR",
+  "body": "Huria Kristen Batak Protestan (HKBP)",
+  "note": "The independent item comes from a communion that HKBP belongs to, so it is a partner source, not a fully outside one."
+ }
+]
