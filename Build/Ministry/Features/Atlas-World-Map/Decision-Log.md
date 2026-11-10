@@ -13,6 +13,28 @@ actual world-selection flow is a future decision for the front-end thread, not t
 
 ---
 
+## 2026-11-10 — Change order: modern countries for rows labeled "N. America"
+
+**Decided (Mark: "c").** A row whose place label includes "N. America" gets a modern country only
+when the row's own census text names that country or a place inside it. Each such country is
+recorded with place "N. America". A row whose text names no country keeps an empty list. Nothing is
+claimed that the row does not already say. Until now, all 31 such rows listed no country there, so
+the map never showed the United States, Canada or Mexico for them.
+
+**Options weighed.**
+- (a) Leave them all empty.
+- (b) Read "N. America" as the United States and Canada for every row. That would claim Canada for
+  rows that never mention it.
+- (c) Row by row, from each row's own text. Chosen.
+
+**Heart reasoning.** The rule is the project's rule against inventing: a place is shown because the
+row's own story puts the church there, not because a region label implies it.
+
+**Next action.** Draft the 31 rows' country lists with a trace of each row's naming sentence. Then
+an independent review, data release 26, and a PR. It started from IX.44 (Open-Gaps 140).
+
+---
+
 ## 2026-11-09 — P2-E10h carried out: data release 25 adds the global sweep's 15 rows
 
 **Done under the gate ruling, in auto mode.** The ruled rows and named lines of the global sweep
