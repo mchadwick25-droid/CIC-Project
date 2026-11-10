@@ -221,5 +221,32 @@
  ],
  "concerns_skipped": [
   "latin-papal-church-gregorian--latin-papal-church-avignon-to-lateran-v"
+ ],
+ "text_fixes": [
+  [
+   "lactantius",
+   "defence",
+   "defense"
+  ],
+  [
+   "lactantius",
+   "honour",
+   "honor"
+  ],
+  [
+   "innocent-iii",
+   "splendour",
+   "splendor"
+  ],
+  [
+   "hugo-grotius",
+   "defence",
+   "defense"
+  ],
+  [
+   "hugo-grotius",
+   "in favour of",
+   "in favor of"
+  ]
  ]
 }

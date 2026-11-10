@@ -1,6 +1,6 @@
 """P2-G3b apply: merge the reviewed person-entry drafts into the census as one data release.
 Usage (repo root): python3 -I apply_g3b.py <census in> <census out> <release number> <date> <decisions.json> <Draft.json>...
-decisions.json: {"field_overrides": [{"id", "set", "reason"}], "concerns_skip": [link ids], "concerns_add": [...]}"""
+decisions.json: {"field_overrides": [{"id", "set", "reason"}], "concerns_skip": [link ids], "text_fixes": [{"id", "old", "new"}]}"""
 import json, sys, re, collections, os
 HERE = os.path.dirname(os.path.abspath(__file__))
 cin, cout, REL, DATE, decf, *drafts = sys.argv[1:]
@@ -51,6 +51,16 @@ for fo in dec.get('field_overrides', []):
     tgt = E[fo['id']] if fo.get('kind') == 'edge' else M[fo['id']]
     for k, v in fo['set'].items(): tgt[k] = v
     log['overrides'].append((fo['id'], sorted(fo['set']), fo['reason']))
+def _sub(o, old, new):
+    if isinstance(o, str): return o.replace(old, new)
+    if isinstance(o, list): return [_sub(x, old, new) for x in o]
+    if isinstance(o, dict): return {k: (v if k == 'quote' else _sub(v, old, new)) for k, v in o.items()}
+    return o
+for tf in dec.get('text_fixes', []):
+    m = M[tf['id']]; before = json.dumps(m, ensure_ascii=False)
+    for k in list(m): m[k] = _sub(m[k], tf['old'], tf['new'])
+    assert json.dumps(m, ensure_ascii=False) != before, tf
+    log['text_fixes'].append((tf['id'], tf['old'], tf['new']))
 year = lambda i: int(M[i['person']]['start']) if 'person' in i else int(i['year'])
 for m in c['movements']:
     if m.get('kind') != 'person' and m.get('people'):

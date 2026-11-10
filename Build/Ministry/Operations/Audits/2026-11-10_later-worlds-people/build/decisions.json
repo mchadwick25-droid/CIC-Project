@@ -1,3 +1,35 @@
-{"concerns_skip": ["latin-papal-church-gregorian--latin-papal-church-avignon-to-lateran-v"],
+{
+ "concerns_skip": [
+  "latin-papal-church-gregorian--latin-papal-church-avignon-to-lateran-v"
+ ],
  "concerns_skip_reason": "The link rests on the Dictatus Papae, whose authorship Mirbt's heading disputes (Sackur: Cardinal Deusdedit); answer C does not count disputed works as Gregory VII's own words (round 1, B6). Logged in Open-Gaps.",
- "field_overrides": []}
+ "field_overrides": [],
+ "text_fixes": [
+  {
+   "id": "lactantius",
+   "old": "defence",
+   "new": "defense"
+  },
+  {
+   "id": "lactantius",
+   "old": "honour",
+   "new": "honor"
+  },
+  {
+   "id": "innocent-iii",
+   "old": "splendour",
+   "new": "splendor"
+  },
+  {
+   "id": "hugo-grotius",
+   "old": "defence",
+   "new": "defense"
+  },
+  {
+   "id": "hugo-grotius",
+   "old": "in favour of",
+   "new": "in favor of"
+  }
+ ],
+ "text_fixes_reason": "American spelling in the project's own prose and renderings (Decision-Log 77); quotes from editions untouched."
+}

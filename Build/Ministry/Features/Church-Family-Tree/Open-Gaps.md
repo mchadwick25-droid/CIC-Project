@@ -1292,3 +1292,15 @@ it, never by deleting it.
       epilogue to the Apology for Origen, and the fragments on Acts are of disputed authorship.
       Wanted for the Library thread: the Apology for Origen, Book I, in Rufinus's Latin (PG 17) or
       an English translation. He comes in when the text does.
+167. **Open points left by data release 31 (2026-11-10).** Audit:
+    `Build/Ministry/Operations/Audits/2026-11-10_later-worlds-people/build/`.
+    - The link `latin-papal-church-gregorian--latin-papal-church-avignon-to-lateran-v` rests on
+      the Dictatus Papae as Gregory VII's. Mirbt's heading reports Sackur's view that Cardinal
+      Deusdedit wrote it. Its note should say the authorship is disputed. Owner: P2-L11.
+    - Lactantius lists no modern country: the census has no place ID for Nicomedia, Trier or Gaul.
+      Paula lists Rome only (no Bethlehem ID). Owner: the place-label work.
+    - Thirteen new tree pages (11,077 characters) join the one recording batch. Owner: this thread,
+      at the batch.
+    - Wanted for the Library thread, from the drafts: a Patrick chronology study; Justinian's Novel
+      131 and the acts of 553; Cuthbert's letter on Bede's death; a source for Grotius's
+      imprisonment; Mirbt's Dictatus heading in a clean scan.
