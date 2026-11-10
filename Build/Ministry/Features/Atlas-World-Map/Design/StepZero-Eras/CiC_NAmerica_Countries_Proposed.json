@@ -36,8 +36,8 @@
    "evidence": [
     {
      "country": "United States",
-     "field": "why",
-     "quote": "New York doctor's wife"
+     "field": "teaser",
+     "quote": "a movement launched from a New York parlor"
     },
     {
      "country": "Canada",
@@ -121,8 +121,8 @@
    "evidence": [
     {
      "country": "United States",
-     "field": "longDescription",
-     "quote": "New England"
+     "field": "teaser",
+     "quote": "New England and outward"
     }
    ]
   },
@@ -156,8 +156,8 @@
    "evidence": [
     {
      "country": "United States",
-     "field": "why",
-     "quote": "American Civil War"
+     "field": "documentedStories[0].text",
+     "quote": "The brethren of Ogle County, Illinois"
     }
    ]
   },
@@ -303,12 +303,12 @@
     {
      "country": "United States",
      "field": "documentedStories[0].text",
-     "quote": "James Osgood Andrew of Georgia"
+     "quote": "The General Conference met in New York on 1 May"
     },
     {
      "country": "Canada",
      "field": "documentedStories[1].text",
-     "quote": "emigrated to Ontario"
+     "quote": "emigrated to Ontario, where Loveless helped found a Methodist chapel"
     }
    ]
   },
@@ -377,8 +377,8 @@
    "evidence": [
     {
      "country": "United States",
-     "field": "longDescription",
-     "quote": "Long Island"
+     "field": "documentedStories[0].text",
+     "quote": "In April 1827 Philadelphia Yearly Meeting"
     }
    ]
   },
@@ -454,28 +454,28 @@
    "old": [],
    "new": [
     {
-     "country": "Mexico",
-     "countryId": "Q96",
+     "country": "United States",
+     "countryId": "Q30",
      "place": "N. America",
      "placeId": "Q49"
     },
     {
-     "country": "United States",
-     "countryId": "Q30",
+     "country": "Mexico",
+     "countryId": "Q96",
      "place": "N. America",
      "placeId": "Q49"
     }
    ],
    "evidence": [
     {
+     "country": "United States",
+     "field": "documentedStories[1].text",
+     "quote": "The Pentecostal Assemblies of the World was led from Indianapolis"
+    },
+    {
      "country": "Mexico",
      "field": "region",
      "quote": "Mexico"
-    },
-    {
-     "country": "United States",
-     "field": "relationsSummary",
-     "quote": "Azusa Street"
     }
    ]
   },
@@ -498,28 +498,28 @@
      "placeId": "Q483134"
     },
     {
-     "country": "Mexico",
-     "countryId": "Q96",
+     "country": "United States",
+     "countryId": "Q30",
      "place": "N. America",
      "placeId": "Q49"
     },
     {
-     "country": "United States",
-     "countryId": "Q30",
+     "country": "Mexico",
+     "countryId": "Q96",
      "place": "N. America",
      "placeId": "Q49"
     }
    ],
    "evidence": [
     {
-     "country": "Mexico",
-     "field": "region",
-     "quote": "Mexico"
-    },
-    {
      "country": "United States",
      "field": "documentedStories[0].teaser",
      "quote": "Madison Square Garden"
+    },
+    {
+     "country": "Mexico",
+     "field": "region",
+     "quote": "Mexico"
     }
    ]
   },
@@ -571,8 +571,8 @@
    "evidence": [
     {
      "country": "United States",
-     "field": "relationsSummary",
-     "quote": "Durham, North Carolina"
+     "field": "documentedStories[0].text",
+     "quote": "by which time an American conversation had begun to use the same vocabulary"
     }
    ]
   },
@@ -591,8 +591,8 @@
    "evidence": [
     {
      "country": "United States",
-     "field": "relationsSummary",
-     "quote": "Dallas Theological Seminary"
+     "field": "documentedStories[1].text",
+     "quote": "He worked in Dallas, in Northfield, Massachusetts"
     }
    ]
   },
@@ -916,5 +916,8 @@
    "quote": "Azusa Street",
    "why": "Evidence is a street in Los Angeles (also 'Los Angeles', 'Indianapolis', 'United States' in the row). Included; order puts Mexico first because 'Mexico' appears in the region field before any US place."
   }
- ]
+ ],
+ "rev1": {
+  "note": "Round 1 fixes applied as the review gives them: S-1 to S-3 quotes, M-1 (five quotes), M-2 (VIII.34 Canada quote), M-3 (United States before Mexico in IX.15 and IX.16). M-4 (IX.48) goes to Open-Gaps."
+ }
 }

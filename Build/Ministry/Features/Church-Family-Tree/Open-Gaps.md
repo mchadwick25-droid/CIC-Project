@@ -919,3 +919,8 @@ it, never by deleting it.
       parent lane over the next stretch.** The new 4.5 lane shows this at 1906: "Catholics in
       Africa" sits a little above where its river arrives. Every lane born from a parent is drawn
       this way. Owner: Mark's call on whether to change it.
+141. **IX.48, American Orthodoxy, lists no modern country (2026-11-10).** Its place label reads
+    "North America", not "N. America", so the change order of 2026-11-10 (modern countries from each
+    row's own text, Mark's option c) did not reach it. Its country list stays empty, as the "N.
+    America" rows' lists were before. Whether the same rule applies to rows labeled "North America"
+    is Mark's call. Found by the Round 1 review of the N. America countries proposal (M-4).
