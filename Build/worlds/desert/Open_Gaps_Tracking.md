@@ -1077,3 +1077,11 @@ All 57 desert verbatim quotes with no line span in their locus now name one: `ci
 - Where a locus already held a rough pointer for the same file, such as "(npnf211 line 17728)", the exact span replaces it. A labeled pointer to another passage is kept, as in `antony-on-living-near-kin` ("the temptation it answers is stated at line 47186").
 
 Status: CLOSED. Owner: Library record-defects thread.
+
+### OG-50. Bell Part II now context on desert's shelf; voice_craft process wording left for this world's thread, 2026-11-10.
+
+Mark ruled (2026-11-10) that the Melitian papyri in Bell 1924, Part II, are not desert's own voice: "take both recommendations". The M9 shelf gate keeps `desert.source.bell-jews-christians-egypt` on desert's own shelf, so the desert row stays, now as `role: context`, which matches the record's own `register: etic`. The Melitian community's own-voice row is on `melitian-schism`. Under Mark's rule ("if the source is consurant of past and they could likcly know it they can point to it"), desert may still point to it. No desert package went stale. Record: Source-Library Decision-Log, 2026-11-10.
+
+Left for this world's thread: `records/desert/voice_craft/desert.voice.craft.md` calls the Bell record "a newly-registered source". The phrase sits inside the long rationale about the five men named Paphnutius, whose other clauses narrate process the same way ("found while independently verifying"). That paragraph is commentary in a canonical record (CLAUDE.md, live surfaces). Cleaning it means restating the rationale and rebuilding desert's package.
+
+Status: OPEN. Owner: this world's thread.
