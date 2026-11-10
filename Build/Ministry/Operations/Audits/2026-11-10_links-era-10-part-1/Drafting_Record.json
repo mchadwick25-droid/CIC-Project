@@ -245,7 +245,7 @@
    ],
    "major": {
     "major": true,
-    "kind": "council-law",
+    "kind": "rule-changed",
     "evidence": {
      "url": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_19280106_mortalium-animos.html",
      "locus": "section 8",
@@ -272,7 +272,7 @@
    "to": "the-ecumenical-movement-and-the-wcc",
    "type": "gave rise to",
    "confidence": "Inferential-Thin",
-   "note": "The World Council of Churches says it was mostly Protestant and Western in its first years. The mainline churches belonged to that world. But no study of the tie was read, so this link rests on thin evidence.",
+   "note": "The World Council of Churches says it was mostly Protestant and Western in its first years. The mainline churches belonged to that world. But no study shows that the council grew out of them, so this rests on thin evidence.",
    "sources": [
     {
      "kind": "primary",
@@ -393,7 +393,7 @@
    "to": "the-social-gospel",
    "type": "argued against",
    "confidence": "Dominant Modern Reconstruction",
-   "note": "In 1932 Reinhold Niebuhr published Moral Man and Immoral Society. Historians read it as a sharp attack on the Social Gospel's hope that reform would bring in God's kingdom. This reading rests on modern histories, and the book itself is not held here.",
+   "note": "In 1932 Reinhold Niebuhr published Moral Man and Immoral Society. Historians read it as a sharp attack on the Social Gospel's hope that reform would bring in God's kingdom. This reading rests on modern histories.",
    "sources": [
     {
      "kind": "secondary",
@@ -786,7 +786,7 @@
    "to": "the-mainline-century-liberal-and-neo-orthodox",
    "type": "broke with",
    "confidence": "Widely Accepted",
-   "note": "In the 1920s conservatives and liberals fought hard over doctrine, most of all in the Presbyterian church. In 1924 more than a thousand of its ministers and elders signed a statement. They would not let five doctrines become a test for new ministers. In 1936 the church's top court upheld the guilty verdicts on Machen and other conservative ministers. They then formed a church of their own.",
+   "note": "In the 1920s conservatives and liberals fought hard over doctrine, most of all in the Presbyterian church. In 1924 more than a thousand of its ministers signed a statement. They would not let five doctrines become a test for new ministers. In 1936 the church's top court upheld the guilty verdicts on Machen and other conservative ministers. They then formed a church of their own.",
    "sources": [
     {
      "kind": "primary",
@@ -837,7 +837,8 @@
     "The PCA Historical Center page says the January 1924 printing carried 150 names and the 5 May 1924 printing 1,274; the note says 'more than a thousand' on that basis.",
     "'Machen and other conservative ministers': the OPC text lists Machen among the names in the 1936 decisions ('Griffiths, MacPherson, Rian, Woolley, Woodbridge, McIntire, Machen, ...') and says the assembly on 1 June 1936 'affirmed the condemnations of these ministers'; the new church was constituted on 11 June.",
     "Licence: both texts are given as 'rights reserved; short quotation' per the era 10 rule; the Auburn Affirmation (1924) is likely public domain in the US.",
-    "The mainline entry (group C) also names this pair; this record should be the one action on it. Fosdick's 1922 date and Dorrien are dropped from the note, not from the evidence: Dorrien is kept off the source list because nothing seen ties his volumes to the 1936 break; Marsden and Longfield cover it by title."
+    "The mainline entry (group C) also names this pair; this record should be the one action on it. Fosdick's 1922 date and Dorrien are dropped from the note, not from the evidence: Dorrien is kept off the source list because nothing seen ties his volumes to the 1936 break; Marsden and Longfield cover it by title.",
+    "Round 1 (R1-15): the Affirmation is signed 'We, the undersigned, ministers'; 'and elders' dropped from the note."
    ],
    "change_reason": "Note rewritten: the misdated 'split in the early 1920s' is replaced by the dated texts of both sides (1924, 1936). Regraded to Widely Accepted on two primary texts read online plus repo-cited studies; Dorrien replaced by the two primaries.",
    "group": "B"
@@ -848,7 +849,7 @@
    "to": "the-christian-right",
    "type": "gave rise to",
    "confidence": "Dominant Modern Reconstruction",
-   "note": "Jerry Falwell and four other ministers founded the Moral Majority in 1979. Historians such as Daniel K. Williams trace its roots back to the fundamentalists. This link rests on their books.",
+   "note": "Jerry Falwell and other ministers founded the Moral Majority in 1979. Historians such as Daniel K. Williams trace its roots back to the fundamentalists. This rests on their books.",
    "sources": [
     {
      "kind": "secondary",
@@ -877,7 +878,8 @@
    "drafter_flags": [
     "'Gave rise to' rests on the people: the Moral Majority's founding ministers came out of the fundamentalist and separatist Baptist world. No text read in this run shows that in their own words, so the grade is Dominant Modern Reconstruction on repo-cited studies (Williams and Martin are on the Christian Right entry's source list). Williams's details were confirmed on a Cambridge University Press review listing; the book itself was not read.",
     "Read but not cited (not a primary or a study): the Liberty University Archive finding aid MOR RG 2 (updated 24 March 2014) gives the founding on 6 June 1979 by Falwell, LaHaye, Stanley, Kennedy and Dixon, and lists the Moral Majority's 'Fundamentalist Journal'. https://pimcore.liberty.edu/imports/coldfusion/1420/documents/archivefindingaids/MOR_RG-02.pdf, accessed 2026-11-10. A Wheaton College Archives page summarising Williams also says its roots 'go back to the 1920s and 1930s'; a summary, so not used.",
-    "Influenced is the weaker alternative if the reviewer finds the people-continuity unshown."
+    "Influenced is the weaker alternative if the reviewer finds the people-continuity unshown.",
+    "Round 1 (R1-10): 'four other ministers' came from the Liberty University finding aid, which is not cited, so the note now says 'other ministers'."
    ],
    "change_reason": "New link for a relationship both entries name.",
    "group": "B"
@@ -888,7 +890,7 @@
    "to": "lausanne-era-global-evangelicalism",
    "type": "gave rise to",
    "confidence": "Dominant Modern Reconstruction",
-   "note": "After 1942 many fundamentalists joined a wider group of evangelicals. Joel Carpenter's book tells that story. Brian Stanley names the later, worldwide age of this group after Billy Graham and John Stott. This link rests on their books.",
+   "note": "Many fundamentalists later joined a wider group of evangelicals. Billy Graham was their best-known preacher. Brian Stanley names their age after Graham and John Stott. This rests on their books.",
    "sources": [
     {
      "kind": "secondary",
@@ -921,9 +923,10 @@
     "The relationship runs through a middle stage, the neo-evangelical movement of the 1940s-60s, which has no entry of its own. Carpenter covers fundamentalism to 1950; Stanley covers the Graham-Stott age that includes Lausanne. The link joins the two reconstructions, so it is graded no higher than Dominant Modern Reconstruction; Inferential-Thin is defensible if the reviewer reads the two-step chain as the map's own.",
     "Carpenter is not cited elsewhere in the repo; his author, title, publisher and year were confirmed on a Cambridge University Press review listing in this run (named, not read). Stanley and Wacker are repo-cited on the Lausanne and Fundamentalism entries.",
     "The NAE's own history page (https://www.nae.org/history/, accessed 2026-11-10) says the NAE was founded in 1942 as a 'middle way' between 'the fundamentalist American Council of Christian Churches and the progressive Federal Council of Churches'. That supports the 1942 handoff but is undated, so it is not cited on the link.",
-    "Only the Fundamentalism text names this pair; the Lausanne entry (group F) does not."
+    "Only the Fundamentalism text names this pair; the Lausanne entry (group F) does not.",
+    "Round 1 (R1-5): Carpenter was confirmed only by his details, so he supports nothing beyond his title. The note no longer rests on his book, and no longer gives the 1942 date (the NAE page that carries it is undated and not cited). It rests on Stanley and Wacker, both cited in the repo, named. Carpenter stays listed as named, not re-checked. The reviewer's suggested note scored FRE 59.8; 'became' is changed to 'was' (FRE 62.5)."
    ],
-   "change_reason": "New link for the handoff the Fundamentalism legacy names.",
+   "change_reason": "New link for the handoff the Fundamentalism legacy names. Round 1: note rests on the repo-cited studies, not on Carpenter.",
    "group": "B"
   },
   {
@@ -1342,7 +1345,7 @@
    "to": "the-christian-homeschool-movement",
    "type": "influenced",
    "confidence": "Dominant Modern Reconstruction",
-   "note": "In the late 1970s Alan Peshkin spent eighteen months in a fundamentalist Baptist day school in Illinois. Mitchell Stevens later traced one root of Christian homeschooling to such Christian day schools. The link rests on these studies.",
+   "note": "In the late 1970s Alan Peshkin spent eighteen months in a fundamentalist Baptist day school in Illinois. Mitchell Stevens later traced one root of Christian homeschooling to such Christian day schools. This rests on these studies.",
    "sources": [
     {
      "kind": "secondary",
@@ -1521,10 +1524,20 @@
     {
      "kind": "primary",
      "source_id": null,
-     "work": "U.S. Bureau of the Census, Religious Bodies: 1906, Part II: Separate Denominations (Washington: Government Printing Office, 1910)",
+     "work": "U.S. Bureau of the Census, Religious Bodies: 1906, Part II, Separate Denominations: History, Description, and Statistics (Washington, 1910), statement on the Churches of Christ",
+     "url": "https://archive.org/download/religiousbodies01huntgoog/religiousbodies01huntgoog_djvu.txt",
+     "accessed": "2026-11-10",
+     "locus": "Churches of Christ, History, p. 242; archive.org item religiousbodies01huntgoog (Part II), djvu text lines 164015-164018",
+     "quote": "It was inevitable that such divergencies of opinion should result in the formation of opposing parties, and these parties were variously called \"Conservatives\" and \"Progressives,\" or \"Antis\" and \"Digressives.\"",
+     "license": "public-domain (U.S. government work, 1910)"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "U.S. Bureau of the Census, Religious Bodies: 1906, Part II: Separate Denominations (Washington: Government Printing Office, 1910), the bureau's own general statement on the Disciples or Christians (context, not a church body's text)",
      "url": "https://www2.census.gov/library/publications/1910/demographics/religious-bodies-1906/1906-religious-bodies-part-2-sect01.pdf",
      "accessed": "2026-11-10",
-     "locus": "Part II, p. 235, 'Disciples or Christians', General Summary Statement",
+     "locus": "Part II, p. 235, 'Disciples or Christians', General statement (the report's own, introducing both bodies)",
      "quote": "Certain churches which in the report for 1890 were included with the Disciples of Christ have since 1900 withdrawn and class themselves as independent Churches of Christ.",
      "license": "public-domain (United States government work)"
     },
@@ -1569,9 +1582,10 @@
     "U.S. Bureau of the Census, Religious Bodies: 1906, Part II (1910), vendored: would let this reach Documented"
    ],
    "drafter_flags": [
-    "Era 9 drafted this link; this era's text names it, so it is reviewed here as an existing link. from, to and type unchanged."
+    "Era 9 drafted this link; this era's text names it, so it is reviewed here as an existing link. from, to and type unchanged.",
+    "Round 1 (R1-3): the General Statement on p. 235 is the bureau's own text, so it is kept as context (secondary), not as a primary. The link's primary is now the Churches of Christ's own statement (p. 242), the quote the Churches of Christ / Disciples link also uses, re-read by curl of the raw djvu text on 2026-11-10 (whitespace squashed). The grade rests on Q3: if Q3 is ruled 'no', regrade to Dominant Modern Reconstruction on Foster (read) and Hughes (named)."
    ],
-   "change_reason": "Regraded from Dominant Modern Reconstruction to Widely Accepted: the 1910 government report, read online, records the churches' withdrawal, and Foster's article dates it. Note reworded to drop the word 'census'; facts unchanged.",
+   "change_reason": "Regraded from Dominant Modern Reconstruction to Widely Accepted: the 1910 government report, read online, records the churches' withdrawal, and Foster's article dates it. Note reworded to drop the word 'census'; facts unchanged. Round 1: the primary is now the Churches of Christ's own statement; the bureau's general statement is kept as context.",
    "group": "D",
    "pending_ruling": "Q3 (Religious Bodies 1906 statements as the bodies' own texts)"
   },
@@ -1583,17 +1597,17 @@
    "to": "the-emerging-church-and-post-evangelical-movemen",
    "type": "argued against",
    "confidence": "Widely Accepted",
-   "note": "New Calvinist leaders wrote against the emerging church. In 2005 D. A. Carson, a founder of The Gospel Coalition, put out a book on its weak points. In 2006 Mark Driscoll said its theology \"offers obscurity.\"",
+   "note": "New Calvinist leaders wrote against the emerging church. In 2005 D. A. Carson put out a book on the movement and what it meant. In 2006 Mark Driscoll said its theology \"offers obscurity.\"",
    "sources": [
     {
      "kind": "secondary",
      "source_id": null,
-     "work": "D. A. Carson, Becoming Conversant with the Emerging Church: Understanding a Movement and Its Implications (Zondervan, 5 May 2005)",
-     "url": "https://zondervanacademic.com/products/becoming-conversant-with-the-emerging-church",
-     "accessed": "2026-11-10",
-     "locus": "publisher's description",
-     "quote": "Carson addresses some troubling weaknesses of the movement frankly and thoughtfully, while at the same time recognizing that it has important things to say to the rest of Christianity.",
-     "license": "rights reserved; short quotation"
+     "work": "D. A. Carson, Becoming Conversant with the Emerging Church: Understanding a Movement and Its Implications (Zondervan, 2005)",
+     "file": null,
+     "lines": null,
+     "locus": null,
+     "quote": null,
+     "license": null
     },
     {
      "kind": "primary",
@@ -1642,10 +1656,11 @@
    ],
    "drafter_flags": [
     "The text claims a person passing from one side to the other, not a quarrel. The interview shows Driscoll still counted among the emerging churches in 2006 while attacking their theology, so the sentence was qualified and this link drawn instead.",
-    "Carson's source is the publisher's description, which also says he is a founding member of The Gospel Coalition; that page is current, so 'a founder' rests on it and on this entry's own text. Hansen is details only. The interview is Driscoll's own words in a magazine, not a church body's text; flagged for the reviewer."
+    "Round 1 (R1-4): the publisher's description of Carson's book is marketing copy, a summary, so it is no longer a source. Carson stands named, not re-checked (cited in the repo at Build/Ministry/Features/Atlas-World-Map/Design/StepZero-Eras/CiC_Step0_Era10_Sources_E.json). 'On its weak points' and 'a founder of The Gospel Coalition' rested only on that page and are dropped from the note. The only primary is Driscoll's own words in a 2006 interview, a movement writer's own dated text: pending Q2. If Q2 is ruled 'no', regrade to Dominant Modern Reconstruction on Carson and Hansen (both cited in the repo, named)."
    ],
-   "change_reason": "New link: Driscoll's own 2006 words and Carson's 2005 critique show New Calvinist leaders writing against the emerging church by name.",
-   "group": "D"
+   "change_reason": "New link: Driscoll's own 2006 words and Carson's 2005 critique show New Calvinist leaders writing against the emerging church by name. Round 1: publisher's blurb removed as a source; marked pending Q2.",
+   "group": "D",
+   "pending_ruling": "Q2 (a movement writer's own dated text)"
   },
   {
    "id": "messianic-judaism--hebrew-roots-and-torah-observance-movements",
@@ -1655,12 +1670,12 @@
    "to": "hebrew-roots-and-torah-observance-movements",
    "type": "argued against",
    "confidence": "Widely Accepted",
-   "note": "Russ Resnik of the Union of Messianic Jewish Congregations and Daniel Juster wrote against \"One Law\" teaching. It said Jewish and gentile believers must keep the same Torah. They named the writers of First Fruits of Zion among its best-known teachers.",
+   "note": "In 2005 Russ Resnik of the Union of Messianic Jewish Congregations and Daniel Juster wrote against \"One Law\" teaching. It said Jewish and gentile believers must keep the same Torah. They named the writers of First Fruits of Zion among its best-known teachers.",
    "sources": [
     {
      "kind": "primary",
      "source_id": null,
-     "work": "Daniel Juster and Russ Resnik, 'One Law Movements: A Challenge to the Messianic Jewish Community' (Union of Messianic Jewish Congregations position paper; undated, reprinted on the Tikvat Israel Messianic Synagogue site)",
+     "work": "Daniel Juster (Tikkun Ministries International) and Russ Resnik (Executive Director, Union of Messianic Jewish Congregations), 'One Law Movements: A Challenge to the Messianic Jewish Community' (28 January 2005), reprinted on the Tikvat Israel Messianic Synagogue site",
      "url": "https://tikvatisrael.com/one-law-movement.html",
      "accessed": "2026-11-10",
      "locus": "opening section",
@@ -1670,7 +1685,7 @@
     {
      "kind": "primary",
      "source_id": null,
-     "work": "Daniel Juster and Russ Resnik, 'One Law Movements: A Challenge to the Messianic Jewish Community' (Union of Messianic Jewish Congregations position paper; undated, reprinted on the Tikvat Israel Messianic Synagogue site)",
+     "work": "Daniel Juster (Tikkun Ministries International) and Russ Resnik (Executive Director, Union of Messianic Jewish Congregations), 'One Law Movements: A Challenge to the Messianic Jewish Community' (28 January 2005), reprinted on the Tikvat Israel Messianic Synagogue site",
      "url": "https://tikvatisrael.com/one-law-movement.html",
      "accessed": "2026-11-10",
      "locus": "opening section",
@@ -1695,17 +1710,18 @@
     "reason": "A position paper; no council, split or rule changed in the source read. A joint MJAA-UMJC paper on 'The Ephraimite Error' is listed in its bibliography but was not read."
    },
    "wants": [
-    "The paper on the Union of Messianic Jewish Congregations' own site, with its date",
+    "The paper on the Union of Messianic Jewish Congregations' own site, to show whether the Union issued it",
     "Kay Silberling, Daniel Juster and David Sedaca, 'The Ephraimite Error' (MJAA and UMJC position paper)",
     "A pre-2010 One-Law reply (for the reverse link)"
    ],
    "drafter_flags": [
-    "The page is an undated reprint on a Messianic synagogue's site. It names First Fruits of Zion as a One Law teacher, so it predates that body's 2009 change, and its bibliography ends in 2004; nothing in the note is dated.",
     "Rudolph and Willitts named, not read. TorahResource's One-Law reply was opened but cites a 2011 booklet, so it was not used.",
-    "Group B owns Messianic Judaism; only this entry's text names the pair."
+    "Group B owns Messianic Judaism; only this entry's text names the pair.",
+    "Round 1 (R1-7): re-read by curl of the raw page on 2026-11-10. The paper is dated 'January 28, 2005' and signed by two people: 'Dr. Daniel Juster is Director of Tikkun Ministries International' and 'Russ Resnik is Executive Director of the Union of Messianic Jewish Congregations'. Nothing on the page says the Union issued it, so it is two leaders' own dated text, not shown to be a body's text: pending Q2. If Q2 is ruled 'no', regrade to Dominant Modern Reconstruction on Rudolph and Willitts (cited in the repo, named) or lower. Both quotes re-checked verbatim on the same download. The note now gives the 2005 date."
    ],
-   "change_reason": "New link: the text says the two traditions drew the line in their own writing; the Messianic side's paper, read online, does so by name.",
-   "group": "D"
+   "change_reason": "New link: the text says the two traditions drew the line in their own writing; the Messianic side's paper, read online, does so by name. Round 1: source re-described as two leaders' dated paper (2005); marked pending Q2.",
+   "group": "D",
+   "pending_ruling": "Q2 (a movement writer's own dated text)"
   },
   {
    "id": "the-1904-07-revival-family-wales-mukti-india-pyo--korean-protestantism-twentieth-century",
@@ -1843,15 +1859,15 @@
    "to": "disciples-of-christ-and-independent-christian-churches",
    "type": "broke with",
    "confidence": "Widely Accepted",
-   "note": "In 1906 a United States survey of churches listed the Churches of Christ apart from the Disciples for the first time. Its statement for the Churches of Christ told how the two sides split over mission societies and music in worship. Its statement for the Disciples said those churches had left.",
+   "note": "In 1906 a United States survey of churches listed the Churches of Christ apart from the Disciples for the first time. Its general statement on the two bodies said those churches had withdrawn since 1900. The statement for the Churches of Christ told how the two sides split over mission societies and music in worship.",
    "sources": [
     {
      "kind": "primary",
      "source_id": null,
-     "work": "U.S. Bureau of the Census, Religious Bodies: 1906, Part II, Separate Denominations: History, Description, and Statistics (Washington, 1910), general statement on the Disciples or Christians",
+     "work": "U.S. Bureau of the Census, Religious Bodies: 1906, Part II, Separate Denominations: History, Description, and Statistics (Washington, 1910), the bureau's general statement on the Disciples or Christians",
      "url": "https://archive.org/download/religiousbodies01huntgoog/religiousbodies01huntgoog_djvu.txt",
      "accessed": "2026-11-10",
-     "locus": "Disciples or Christians, General statement, p. 235; archive.org item religiousbodies01huntgoog (Part II), djvu text lines 160590-160593",
+     "locus": "General statement (the report's own, introducing both bodies), 'Disciples or Christians', p. 235; archive.org item religiousbodies01huntgoog (Part II), djvu text lines 160590-160593",
      "quote": "Certain churches which in the report for 1890 were included with the Disciples of Christ have since 1900 withdrawn and class themselves as independent Churches of Christ.",
      "license": "public-domain (U.S. government work, 1910)"
     },
@@ -1900,7 +1916,8 @@
     "Group D (Churches of Christ) may draft the same pair; merge to one link.",
     "Both statements sit in one government report, but each was prepared for its own body, so the rupture is recorded from both sides. The Disciples statement's own sentence ('have since withdrawn to form the body known as the \"Churches of Christ\"', p. 237) has OCR damage, so I quote the general statement instead; the reviewer can read p. 237 at the same address.",
     "The note calls the census of religious bodies a 'survey of churches', to keep the word census out of public text.",
-    "Re-checked 2026-11-10 by plain curl of the same djvu text: every quote is there word for word. The OCR puts two spaces between words and breaks lines mid-sentence, so a raw grep for a single-spaced phrase finds nothing; squash whitespace first (e.g. tr -s ' \\n' ' '). Line numbers in the locus are in that text file."
+    "Re-checked 2026-11-10 by plain curl of the same djvu text: every quote is there word for word. The OCR puts two spaces between words and breaks lines mid-sentence, so a raw grep for a single-spaced phrase finds nothing; squash whitespace first (e.g. tr -s ' \\n' ' '). Line numbers in the locus are in that text file.",
+    "Round 1 (R1-2): the general statement on p. 235 is the bureau's own text, introducing both bodies; it is not the Disciples' statement. The note now says so. The Disciples' own statement (pp. 236-237) is not quoted."
    ],
    "change_reason": "New: the 1906 division both texts name had no link.",
    "group": "E",
@@ -1913,7 +1930,7 @@
    "to": "the-ecumenical-movement-and-the-wcc",
    "type": "in contact with",
    "confidence": "Widely Accepted",
-   "note": "The Disciples of Christ in the United States joined the World Council of Churches when it began in 1948. The council's own list of member churches still gives that date.",
+   "note": "The Disciples of Christ in the United States joined the World Council of Churches when it began in 1948. The council's own list of member churches gives that date.",
    "sources": [
     {
      "kind": "primary",
@@ -2082,7 +2099,7 @@
    "to": "dispensational-prophecy-culture",
    "type": "influenced",
    "confidence": "Dominant Modern Reconstruction",
-   "note": "Bible institutes such as Moody's in Chicago trained lay teachers in this way of reading prophecy. Historians from Ernest Sandeen to Timothy Weber treat the schools as its main carriers. This rests on their books.",
+   "note": "Bible schools such as Moody's in Chicago taught lay teachers this plan of the end times. Historians from Ernest Sandeen to Timothy Weber see the schools as its main carriers. This rests on their books.",
    "sources": [
     {
      "kind": "secondary",
@@ -2872,7 +2889,7 @@
    "drafter_flags": [
     "Thin because the arrow's target is inferred. Both texts reject a teaching that, by their own words, crosses denominations; the 2009 statement says outright that it addresses no 'particular denomination or tradition'. It names Pentecostal and Charismatic churches and Africa in particular, which is why the link stands at all.",
     "No secondary work read or cited in the repo was found for the consensus reading, so Widely Accepted was not open.",
-    "The Global South text calls these critiques part of 'the family's own published words'. The Lausanne critics stand outside the Pentecostal family. Left as it is: the sentence's facts hold, and the slip is one phrase."
+    "Round 1 (R1-8): the Global South text called these critiques part of 'the family's own published words'. The Lausanne critics stand outside the Pentecostal family, so the field is rewritten (prose change F 7)."
    ],
    "change_reason": "New: names the Lausanne critique in the Global South longDescription and why.",
    "group": "F"
@@ -4538,7 +4555,7 @@
    "disposition": "qualify",
    "link_id": null,
    "prose_change": 0,
-   "reason": "'Fed directly' is not shown. Miller's publisher calls the Calvary Chapel and Vineyard churches 'new paradigm churches—sometimes called megachurches', so the sentence now says that, and says the debt of the seeker megachurches is less clear.",
+   "reason": "'Fed directly' is not shown. Donald E. Miller, Reinventing American Protestantism: Christianity in the New Millennium (University of California Press, 1997), cited in the repo and named, not re-checked, studies Calvary Chapel and the Vineyard as new paradigm churches, of the kind also called megachurches. The sentence now says that, and says the debt of the seeker megachurches is less clear. (Round 1, R1-18: no longer rests on the publisher's description.)",
    "group": "D"
   },
   {
@@ -4549,7 +4566,7 @@
    "disposition": "qualify",
    "link_id": null,
    "prose_change": 0,
-   "reason": "'Fed directly into the New Calvinist networks' is not shown. Christianity Today (2006) calls C. J. Mahaney 'a charismatic Calvinist', and Hansen's publisher says charismatic worship fueled the growth the New Calvinists reacted to. Too thin for a link; qualified.",
+   "reason": "'Fed directly into the New Calvinist networks' is not shown. Christianity Today (2006) calls C. J. Mahaney 'a charismatic Calvinist'; Collin Hansen, Young, Restless, Reformed (Crossway, 2008), cited in the repo, is named, not re-checked. Too thin for a link; qualified. (Round 1, R1-18: no longer rests on the publisher's description.)",
    "group": "D"
   },
   {
@@ -5571,8 +5588,8 @@
    "other_id": "lausanne-era-global-evangelicalism",
    "disposition": "link",
    "link_id": "lausanne-era-global-evangelicalism--global-south-pentecostal-christianity",
-   "prose_change": null,
-   "reason": "New Inferential-Thin link on the 2009 Lausanne Theology Working Group statement and the Cape Town Commitment, read online.",
+   "prose_change": 7,
+   "reason": "New Inferential-Thin link on the 2009 Lausanne Theology Working Group statement and the Cape Town Commitment, read online. Round 1: the sentence no longer calls the Lausanne critiques the family's own words (prose change F 7).",
    "group": "F"
   },
   {
@@ -5846,8 +5863,8 @@
    "movement": "the-ecumenical-movement-and-the-wcc",
    "field": "relationsSummary",
    "old": "The World Missionary Conference at Edinburgh in 1910 set three streams running: the International Missionary Council, founded in 1921; Life and Work, from 1925; and Faith and Order, from 1927. These converged into the World Council of Churches, constituted at Amsterdam in 1948, with the missionary council merging in at New Delhi in 1961. Orthodox churches were members, while the Roman Catholic Church worked alongside it without joining. It stands as a counterpart to the Lausanne movement of 1974, the evangelical alternative answer to the same question of how divided churches should work together, and it grew out of the institutional world built by mainline liberal Protestantism and neo-orthodoxy. In Africa, churches formed the All Africa Conference of Churches. It was founded at its first assembly in Kampala on 20 April 1963, after a conference at Ibadan in 1958. In 1971 the Kenyan theologian John Gatu first called for a moratorium on missionaries. The conference's third assembly met at Lusaka in May 1974.",
-   "new": "The World Missionary Conference at Edinburgh in 1910 set three streams running. The International Missionary Council began in 1921, Life and Work in 1925, and Faith and Order in 1927. These came together in the World Council of Churches, formed at Amsterdam in 1948. The missionary council joined it at New Delhi in 1961. Orthodox churches were members. In 1920 the Ecumenical Patriarchate had called for a fellowship of churches. The Roman Catholic Church did not join. In 1928 Pope Pius XI ruled that Catholics could not take part. After the Second Vatican Council, Rome worked with it. In its first years most of its member churches were Protestant and Western. It may have grown in part out of the world of the mainline churches, but the evidence for that is thin. This map sets it beside the Lausanne movement of 1974, an evangelical answer to the same question: how should divided churches work together? In Africa, churches formed the All Africa Conference of Churches. It was founded at its first assembly in Kampala on 20 April 1963. A meeting at Ibadan in 1958 came first. In 1971 the Kenyan theologian John Gatu first called for a moratorium on missionaries. The conference's third assembly met at Lusaka in May 1974.",
-   "reason": "Catholic sentence qualified to name the 1928 ruling and date the later cooperation (council's own history; Mortalium Animos). The 1920 Orthodox call added for the new link. 'Grew out of the institutional world built by mainline liberal Protestantism' qualified to 'may have grown in part out of', with the reason. The Lausanne comparison recast as the map's own. Field rewritten for reading level (FRE 37.8 before); every other fact kept.",
+   "new": "The World Missionary Conference at Edinburgh in 1910 set three streams running. The International Missionary Council began in 1921, Life and Work in 1925, and Faith and Order in 1927. These came together in the World Council of Churches, formed at Amsterdam in 1948. The missionary council joined it at New Delhi in 1961. Orthodox churches were members. In 1920 the Ecumenical Patriarchate had called for a fellowship of churches. The Roman Catholic Church did not join. In 1928 Pope Pius XI ruled that Catholics could not take part. After the Second Vatican Council, Rome worked with it. In its first years most of its member churches were Protestant and Western. It may have grown in part out of the world of the mainline churches, but the evidence for that is thin. The Lausanne movement of 1974 gave an evangelical answer to the same question. How should divided churches work together? In Africa, churches formed the All Africa Conference of Churches. It was founded at its first assembly in Kampala on 20 April 1963. A meeting at Ibadan in 1958 came first. In 1971 the Kenyan theologian John Gatu first called for a moratorium on missionaries. The conference's third assembly met at Lusaka in May 1974.",
+   "reason": "Catholic sentence qualified to name the 1928 ruling and date the later cooperation (council's own history; Mortalium Animos). The 1920 Orthodox call added for the new link. 'Grew out of the institutional world built by mainline liberal Protestantism' qualified to 'may have grown in part out of', with the reason. The Lausanne comparison recast as the map's own. Field rewritten for reading level (FRE 37.8 before); every other fact kept. Round 1 (R1-6): the Lausanne comparison is stated plainly, with no map wording.",
    "group": "A"
   },
   {
@@ -5981,8 +5998,8 @@
    "movement": "the-anglican-communion-twentieth-century",
    "field": "relationsSummary",
    "old": "It carries on from the Victorian Church of England and the Oxford Movement. Both of those entries end in 1906. In this era Anglicans also appear inside other stories, such as the East African Revival and the Church of South India.",
-   "new": "It carries on from the Victorian Church of England, whose bishops first met at Lambeth in 1867. The Anglo-Catholic party that grew from the Oxford Movement lived on inside it. Anglicans also took part in other stories of this era, such as the East African Revival and the Church of South India.",
-   "reason": "'Both of those entries end in 1906' is a map-layout remark; removed. The Oxford Movement tie stated as what the sources show: an Anglo-Catholic party living on inside the Communion (drafted as 'influenced').",
+   "new": "It carries on from the Victorian Church of England. That church called the first Lambeth Conference of bishops in 1867. The Anglo-Catholic party that grew from the Oxford Movement lived on inside it. Anglicans also took part in other stories of this era, such as the East African Revival and the Church of South India.",
+   "reason": "'Both of those entries end in 1906' is a map-layout remark; removed. The Oxford Movement tie stated as what the sources show: an Anglo-Catholic party living on inside the Communion (drafted as 'influenced'). Round 1 (R1-14): the 1867 conference gathered bishops of the whole Communion at the Church of England's call, as the Victorian-Church link's note says.",
    "group": "C"
   },
   {
@@ -5990,8 +6007,8 @@
    "movement": "korean-protestantism-twentieth-century",
    "field": "relationsSummary",
    "old": "The Pyongyang revival of 1907 has its own entry, which ends in 1910. Yoido Full Gospel Church, founded in Seoul in 1958, is told with Global South Pentecostal Christianity. Korea's Catholics have their own entry, which ends in 1886.",
-   "new": "The Pyongyang revival of 1907 shaped this church in its first year. Yoido Full Gospel Church, founded in Seoul in 1958, belongs to the wider story of Pentecostal growth in the Global South. Korea's Catholic Church is older. It began in the 1780s, a century before the first Protestant missionaries came.",
-   "reason": "Three map-layout remarks ('has its own entry, which ends in ...'; 'is told with') rewritten as plain statements. The revival tie is drafted as 'influenced'. The Catholic dates come from the Korean Catholic movement's own text.",
+   "new": "The Pyongyang revival of 1907 spread from that city through this church and shaped it. Yoido Full Gospel Church, founded in Seoul in 1958, belongs to the wider story of Pentecostal growth in the Global South. Korea's Catholic Church is older. It began in the 1780s, a century before the first Protestant missionaries came.",
+   "reason": "Three map-layout remarks ('has its own entry, which ends in ...'; 'is told with') rewritten as plain statements. The revival tie is drafted as 'influenced'. The Catholic dates come from the Korean Catholic movement's own text. Round 1 (R1-1): the revival sentence no longer reads the census row's start year as the church's first year; Protestant work dates from 1884.",
    "group": "C"
   },
   {
@@ -6089,8 +6106,8 @@
    "movement": "persecuted-church-worlds-of-the-communist-era-in",
    "field": "relationsSummary",
    "old": "Kin of the Chinese suffering church",
-   "new": "Its Baptist wing grew out of the Russian evangelical churches of the century before. Like China's house churches in the same years, its churches would not register on the state's terms. No direct tie between the two is documented here.",
-   "reason": "'Kin of the Chinese suffering church' claimed a relation no source shows; no contact or influence between the Soviet and Chinese cases is documented in the Library or the cited studies. Qualified to a parallel. The fragment is rewritten as sentences and now names the existing Russian evangelical parent.",
+   "new": "Its Baptist wing grew out of the Russian evangelical churches of the century before. Like China's house churches in the same years, its churches would not register on the state's terms. No direct tie between the two has been shown.",
+   "reason": "'Kin of the Chinese suffering church' claimed a relation no source shows; no contact or influence between the Soviet and Chinese cases is documented in the Library or the cited studies. Qualified to a parallel. The fragment is rewritten as sentences and now names the existing Russian evangelical parent. Round 1 (R1-6): 'documented here' removed.",
    "group": "E"
   },
   {
@@ -6098,8 +6115,8 @@
    "movement": "persecuted-church-worlds-of-the-communist-era-in",
    "field": "legacy",
    "old": "The Communist-era persecution these movements faced ended with the fall of Communism across the Eastern bloc, including the dissolution of the Soviet Union in 1991; the movements themselves lived on. The samizdat these communities produced came to be recognized as among the best documentation anywhere of what religious persecution actually looks like from underneath — not martyrologies written afterwards but bulletins written that week, listing who had been taken and from where. The Keston archive preserved much of it. The pattern of unregistered congregations refusing the state's terms is kin to what happened in China over the same decades, a real historical relation rather than a coincidence.",
-   "new": "The persecution these movements faced ended with the fall of Communism across the Eastern bloc, and with the end of the Soviet Union in 1991. The movements themselves lived on. Their samizdat came to be seen as some of the best records anywhere of what religious persecution looks like from below. These were not lives of martyrs written long after. They were bulletins written that week, listing who had been taken and from where. The Keston archive kept much of it. In China, unregistered churches refused the state's terms over the same decades. The two stories run side by side, but no direct tie between them is documented here.",
-   "reason": "'A real historical relation rather than a coincidence' is asserted without a source; no contact, shared leader or borrowed text is documented. Qualified to the parallel the sources do support. The rest of the field is split into shorter sentences to meet the reading target (it scored FRE 30 before); every fact is kept.",
+   "new": "The persecution these movements faced ended with the fall of Communism across the Eastern bloc, and with the end of the Soviet Union in 1991. The movements themselves lived on. Their samizdat came to be seen as some of the best records anywhere of what religious persecution looks like from below. These were not lives of martyrs written long after. They were bulletins written that week, listing who had been taken and from where. The Keston archive kept much of it. In China, unregistered churches refused the state's terms over the same decades. The two stories run side by side, but no direct tie between them has been shown.",
+   "reason": "'A real historical relation rather than a coincidence' is asserted without a source; no contact, shared leader or borrowed text is documented. Qualified to the parallel the sources do support. The rest of the field is split into shorter sentences to meet the reading target (it scored FRE 30 before); every fact is kept. Round 1 (R1-6): 'documented here' removed.",
    "group": "E"
   },
   {
@@ -6134,8 +6151,8 @@
    "movement": "dispensational-prophecy-culture",
    "field": "legacy",
    "old": "In 2010 the culture was alive and its texts were in print. It gave a large part of English-speaking Protestantism a default way of reading the Bible and a default expectation about how history ends, carried more by study notes, charts and novels than by any pulpit. It had institutional anchors — Dallas Theological Seminary's doctrinal statement among them — but it never needed a denomination. It also produced its own opposition. The reading of the Bible as one story fulfilled in Jesus, carried elsewhere on this map, was in large part a reaction against the chart. By 2010 the scholarship on it was substantial, from Sandeen (1970) and Weber (1979) to Boyer's When Time Shall Be No More (1992). Hummel's study came later, in 2023.",
-   "new": "In 2010 the culture was alive and its texts were in print. It gave a large part of English-speaking Protestantism a default way of reading the Bible. It also gave a default sense of how history ends, carried more by study notes, charts and novels than by any pulpit. It had institutional anchors — Dallas Theological Seminary's doctrinal statement among them — but it never needed a denomination. It also produced its own opposition. The reading of the Bible as one story fulfilled in Jesus, carried elsewhere on this map, became its rival. In 2001 N. T. Wright, one of its main writers, wrote against the rapture. By 2010 the scholarship on it was substantial, from Sandeen (1970) and Weber (1979) to Boyer's When Time Shall Be No More (1992). Hummel's study came later, in 2023.",
-   "reason": "'In large part a reaction against the chart' claims an origin no source opened shows; the story reading grew from Newbigin's and Wright's biblical theology. What is shown is the rivalry and Wright's 2001 article against the rapture teaching. Qualified to that. One 35-word sentence is split in two for the reading target.",
+   "new": "In 2010 the culture was alive and its texts were in print. It gave a large part of English-speaking Protestantism a default way of reading the Bible. It also gave a default sense of how history ends, carried more by study notes, charts and novels than by any pulpit. It had institutional anchors — Dallas Theological Seminary's doctrinal statement among them — but it never needed a denomination. It also produced its own opposition. The reading of the Bible as one story fulfilled in Jesus, carried elsewhere on this map, became its rival. In 2001 N. T. Wright, a leading writer of the story reading, wrote against the rapture. By 2010 the scholarship on it was substantial, from Sandeen (1970) and Weber (1979) to Boyer's When Time Shall Be No More (1992). Hummel's study came later, in 2023.",
+   "reason": "'In large part a reaction against the chart' claims an origin no source opened shows; the story reading grew from Newbigin's and Wright's biblical theology. What is shown is the rivalry and Wright's 2001 article against the rapture teaching. Qualified to that. One 35-word sentence is split in two for the reading target. Round 1 (R1-12): Wright is named as a writer of the story reading, so 'its' cannot make him a dispensational writer.",
    "group": "E"
   },
   {
@@ -6170,8 +6187,8 @@
    "movement": "global-south-pentecostal-christianity",
    "field": "relationsSummary",
    "old": "Child of Azusa + AIC lines; the century's growing edge. El Shaddai, a Catholic movement in the Philippines, is told in the entry on Philippine Catholicism.",
-   "new": "It grew from two roots: the revival that began at Azusa Street, and Africa's own prayer churches. Scholars disagree on how much the first gave. It was the growing edge of the century. El Shaddai, a Catholic movement in the Philippines, is told in the entry on Philippine Catholicism.",
-   "reason": "'Child of Azusa + AIC lines' rewritten as plain sentences. The Azusa parent is Contested and now says so; the prayer-church parent rests on the RCCG founder's own history and Anderson.",
+   "new": "It grew from two roots: the revival that began at Azusa Street, and Africa's own prayer churches. Scholars disagree on how much the first gave. It was the growing edge of the century. El Shaddai, a Catholic movement in the Philippines, belongs to the story of Philippine Catholicism.",
+   "reason": "'Child of Azusa + AIC lines' rewritten as plain sentences. The Azusa parent is Contested and now says so; the prayer-church parent rests on the RCCG founder's own history and Anderson. Round 1 (R1-19): the internal word 'entry' removed.",
    "group": "F"
   },
   {
@@ -6197,8 +6214,17 @@
    "movement": "the-confessing-church",
    "field": "legacy",
    "old": "The Confessing Church ended with the war, and this map treats it as a closed story rather than a living one. What it left is out of all proportion to its twelve years. The Barmen Declaration became a confessional text in Reformed and Lutheran churches worldwide, cited well beyond Germany whenever a church had to say what it would not concede to a state. Bonhoeffer's Letters and Papers from Prison, edited by Bethge and published in 1951, came to be read far outside the church struggle it came from. And the Stuttgart Declaration of Guilt set a pattern — a church saying plainly what it had failed to do — that other churches used in the decades that followed.",
-   "new": "The Confessing Church ended with the war, and this map treats it as a closed story rather than a living one. What it left is out of all proportion to its twelve years. The Barmen Declaration was taken up well beyond Germany. The Presbyterian Church (U.S.A.), for one, made it part of its Book of Confessions. It is cited whenever a church has to say what it will not concede to a state. Bonhoeffer's Letters and Papers from Prison, edited by Bethge and published in 1951, came to be read far outside the church struggle it came from. And the Stuttgart Declaration of Guilt set a pattern that other churches used in the decades that followed. It showed a church saying plainly what it had failed to do.",
-   "reason": "'Became a confessional text in Reformed and Lutheran churches worldwide' overstated: the one church text read (PC(USA) Book of Confessions) is Reformed, and no Lutheran church outside Germany was found adopting it. Qualified to what the source shows.",
+   "new": "The Confessing Church ended with the war, and this map treats it as a closed story rather than a living one. What it left is out of all proportion to its twelve years. The Barmen Declaration was taken up well beyond Germany. The Book of Confessions of the Presbyterian Church (U.S.A.), for one, includes it. It is cited whenever a church has to say what it will not concede to a state. Bonhoeffer's Letters and Papers from Prison, edited by Bethge and published in 1951, came to be read far outside the church struggle it came from. And the Stuttgart Declaration of Guilt set a pattern that other churches used in the decades that followed. It showed a church saying plainly what it had failed to do.",
+   "reason": "'Became a confessional text in Reformed and Lutheran churches worldwide' overstated: the one church text read (PC(USA) Book of Confessions) is Reformed, and no Lutheran church outside Germany was found adopting it. Qualified to what the source shows. Round 1 (R1-13): the 2016 printing read shows the declaration included, not who added it (the PC(USA) dates from 1983), so the sentence says only that it is included.",
+   "group": "F"
+  },
+  {
+   "n": 7,
+   "movement": "global-south-pentecostal-christianity",
+   "field": "longDescription",
+   "old": "By the second half of the century the weight of Pentecostal Christianity had moved south, and the churches carrying it were mostly founded in the Global South by people from it. The Assembleias de Deus in Brazil date from 1911. The Redeemed Christian Church of God was founded in Nigeria in 1952. Yoido Full Gospel Church in Seoul dates from 1958, and the Igreja Universal in Brazil from 1977. They are not one tradition and this map does not pretend otherwise — only a bounded window — one body, one country, one generation — describes anything real here. In South India a Pentecostal movement grew through the twentieth century. Michael Bergunder published its history in 2008. The family's sharpest internal argument, over prosperity teaching, is on the record in the family's own published words: in the sermons that teach it, and in the critiques published by the Lausanne movement and by African evangelical theologians who rejected it.",
+   "new": "By the second half of the twentieth century the weight of Pentecostal faith had moved south. Most of the churches that carried it were founded in the Global South by people from there. The Assembleias de Deus in Brazil date from 1911. The Redeemed Christian Church of God was founded in Nigeria in 1952. Yoido Full Gospel Church in Seoul dates from 1958, and the Igreja Universal in Brazil from 1977. They are not one tradition. Only a close look, at one body in one country in one generation, shows anything real. In South India a Pentecostal movement grew through the twentieth century. Michael Bergunder wrote its history in 2008. The family's sharpest inside argument was over prosperity teaching. It is on the public record in the sermons that teach it. It is also in critiques by the Lausanne movement and by African evangelical writers who rejected it.",
+   "reason": "Round 1 (R1-8): the Lausanne critics stand outside the Pentecostal family, so their critiques are no longer called 'the family's own published words'. The map remark ('this map does not pretend otherwise') is dropped. Field rewritten for reading level (FRE 45.4 before); every other fact kept, including 'the second half of the century'.",
    "group": "F"
   }
  ],
@@ -6486,6 +6512,10 @@
   {
    "group": "F",
    "want": "Bays (2012) and Lian Xi (2010): passages on the mission backgrounds of China's independent church founders."
+  },
+  {
+   "group": "D",
+   "want": "U.S. Bureau of the Census, Religious Bodies: 1906, Part II, Separate Denominations: History, Description, and Statistics (Washington: Government Printing Office, 1910). A US government publication, in the public domain and vendorable (archive.org item religiousbodies01huntgoog; census.gov PDFs). Once in cic/texts/, the three Stone-Campbell links (to the Churches of Christ, to the Disciples, and between them) can be checked in the Library and could reach Documented."
   }
  ],
  "escalations": {
@@ -6514,5 +6544,5 @@
    "None that change a method rule. Two items for the record: (1) the Chinese church's own text dated its first independent churches to 'the 1920s' while naming one from 1917; corrected inside the qualifying prose change, a one-sentence fix. (2) The Chinese church legacy cites a Pew study published in 2011; that is prose, not a link, and was left for the entry's owner."
   ]
  },
- "online_quote_check": "Every quote read online was checked against the page itself: web pages by a raw download and exact match (tags stripped, whitespace squashed), scanned PDFs against the page images by a separate agent (all 7 verbatim). Script: scratchpad l10-qc/check_online.py; results in Online_Quote_Check.json."
+ "online_quote_check": "Every quote read online was checked against the page itself: web pages by a raw download and exact match (tags stripped, whitespace squashed), scanned PDFs against the page images by a separate agent (all 7 verbatim). Script: scratchpad l10-qc/check_online.py; results in Online_Quote_Check.json. Revision round 1: the Churches of Christ statement (p. 242) added to the Stone-Campbell link, and the Juster-Resnik paper's date, signers and both quotes, were re-read by raw curl on 2026-11-10 and match exactly (whitespace squashed)."
 }
