@@ -900,6 +900,25 @@ to" or "continued as" link coming in, down from 48. 9 have no link at all. Open-
 them. Records are in `Build/Ministry/Operations/Audits/2026-11-10_links-era-10-part-1/` and
 `-part-2/`.
 
+---
+
+## 2026-11-10 — P2-G89 starts: the eras 8 and 9 global sweep
+
+Mark: "start the eras 8-9 sweep". This carries out his scope of 2026-11-09 ("eras 8 - 10 for
+now"). Eras 8 and 9 lean on Europe and North America:
+- Era 8 (1650-1815) has 30 entries. 18 are tagged North Europe, and Africa, Latin America and
+  Greater Asia have one each.
+- Era 9 (1815-1906) has 51 entries. 45 region tags are North Europe or North America.
+
+The method is that of the era 10 sweep, with four regional passes: Africa; Latin America and the
+Caribbean; Asia and the Pacific; and the Middle East, Caucasus, Russia and Eastern Europe. Each
+pass covers every river, uses non-English sources, and must answer the timeline breaks of
+Open-Gaps 135 and 142 that fall in its region. That includes Mark's test that a break tied to
+another movement, such as the Jesuits' worldwide missions, is not split off. Eras 8 and 9 are
+frozen, so the results come to Mark's gate as change orders.
+
+---
+
 ## 2026-11-10 — The people list ruled; P2-G3 applied as data release 29
 
 **How it was reached.** P2-G3 published the people list for Mark (https://claude.ai/artifact/BDrnfEJ6WH5rn4tizoGxeE):
@@ -933,3 +952,31 @@ map. Shown with: show them as tradition dots for now, as Tertullian was.
 
 **Applied.** Data release 29: 353 movements, 689 links. Audit:
 `Build/Ministry/Operations/Audits/2026-11-10_agreed-entries/`. Open items: Open-Gaps 150 to 156.
+
+---
+
+## 2026-11-10 — P2-G89 at Mark's gate: the eras 8 and 9 global sweep
+
+**Done.** Four regional passes (Africa; Latin America and the Caribbean; Asia and the Pacific; the
+Middle East, Caucasus, Russia and Eastern Europe) and a river-by-river cross-check. They are merged
+into one record:
+`Build/Ministry/Features/Atlas-World-Map/Design/StepZero-Eras/CiC_Step0_Eras8-9_GlobalSweep_V1_0.md`.
+An independent reviewer read it in three rounds (Round 1 full, Rounds 2 and 3 targeted). Round 3
+passed with no findings, and the cap is reached. The pass files are in
+`Build/Ministry/Operations/Audits/2026-11-10_g89-sweep/passes/`.
+
+**Found.** 68 rows, 62 counted (6 sit inside another candidate): enter 22, enter once 2, named
+line 18, hold 19, already carried 1. Every Open-Gaps 135 and 142 break in 1650-1906 is answered
+under Mark's uniqueness test, except two in North Europe (the Scottish church after 1650 and the
+Swedenborgian New Church after 1815), which no pass covered. New breaks found: Kongo after 1650,
+the Copts c. 1300-1517, the Moravians after 1815, Southern Africa, and China to 1906 (not 1793).
+Data release 29 landed during the sweep; Round 2 checked its new rows against the candidates.
+
+**At the gate.** https://claude.ai/artifact/34vANZonmFxqr9KXUUUdr4 — questions G89-1 to G89-55,
+each with options and a recommendation. The cross-cutting ones come first: a Society of Jesus row
+for 1650-1814, Propaganda Fide and the MEP as carrier lines, VIII.7's four wings, a Moravian row
+after 1815, the home of Southern Africa, and how the frozen-era change orders are handled.
+
+**Not changed.** The census. Eras 8 and 9 are frozen, so every addition Mark admits is a change
+order, drafted and reviewed after his ruling.
+
