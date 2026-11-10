@@ -3,6 +3,18 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: philippine-catholicism-gomburza-to-aglipay
 works:
+- row_id: montero-y-vidal_historia-general-de-filipinas-t3-spa_1895--montero-y-vidal-historia-general-de-filipinas-tomo-iii-1895-the-cofrad
+  work: 'Montero y Vidal, Historia general de Filipinas, tomo III (1895): the Cofradia de
+    San Jose'
+  author: montero-y-vidal
+  locus: OCR lines about 1440-2100; add 12 to OCR line numbers for this file's own
+  role: context
+  confidence: provisional
+  note: A Spanish official's history, hostile to the cofradia, with a summary of Apolinario
+    de la Cruz's own sworn declaration and contemporary letters. The view from outside the
+    movement. The eras 8-9 sweep holds the Cofradia (AP10) for a line in this entry, once
+    a dated primary is read.
+  source_file: montero-y-vidal_historia-general-de-filipinas-t3-spa_1895.txt
 - row_id: morga_sucesos-islas-filipinas-spa_rizal1890--morga-sucesos-spanish-2
   work: Sucesos de las Islas Filipinas (Mexico 1609), Rizal's annotated edition of 1890, with
     Blumentritt's prologue
