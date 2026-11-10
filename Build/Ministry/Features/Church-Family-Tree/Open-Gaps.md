@@ -1818,3 +1818,81 @@ it, never by deleting it.
     - For the census owner: the Compiegne history (1836) sits on the ancien-regime shelf, which ends
       in 1815. A census story rests on that row, so it was left; the long-nineteenth-century shelf was
       added beside it.
+194. **The held eras 8 and 9 items the Library's sources now carry (2026-11-10).** P2-G89c (data
+    release 34) tested each item in "Held items whose sources the Library now holds" (2026-11-10)
+    against its vendored source, and entered what the source carries. Audit:
+    `Build/Ministry/Operations/Audits/2026-11-10_eras8-9-sourced/`.
+    - **Entered:** RV-7, the Transylvanian Unitarian Church 1660-1906, a lane 8 row (Ferencz 1875
+      and 1907; Rees 1818), continuing the anti-Trinitarian entry; AP11 to 1808, a line in the
+      Russian church from Nikon to the Holy Synod (Adoratskii 1887); AP10, the Cofradia de San Jose,
+      a line in Philippine Catholicism 1815-1906 (Montero y Vidal 1895, which prints the intendente's
+      letter of 1841 and the parish priest's Relacion); AP15, the Protestant beginnings in Korea, a
+      line in the Missionary Movement's Native Churches (Underwood 1908, for events to 1890; the
+      Korean Repository 1896); AP12, the Anglican line only, in the Victorian Church of England
+      (Marsden's letters, 1814-1837; three dates are his biographer's and are named so); LA8-6,
+      Saint-Domingue before 1789 in Colonial Latin American Devotional Catholicism (Moreau 1797) and
+      Holly's Haitian Episcopal church in the Black Church in America (the Spirit of Missions,
+      December 1874); LA8-9, the Bethlemites, a line in Colonial Latin American Devotional
+      Catholicism (Montalvo 1683; Garcia de la Concepcion 1723, the bull of 26 March 1687 read on
+      the page image).
+    - **Held, the source does not carry it:**
+      - AP7, the Catholic St Thomas Christians 1815-1906. Mackenzie (1901) prints no Catholic
+        document word for word: one clause of the 1861 rescript, and Roccos's signature. Waits for
+        a Catholic source (Propaganda's acts on Malabar, Syro-Malabar writings, Chavara).
+      - LA8-8, Cuba and Puerto Rico. Claret's Apuntes (1863) is a rule for governing a diocese; it
+        says nothing of the church under the crown's patronage, of Puerto Rico's church or of 1898.
+        Waits for a dated source on the Cuban church under Spain, 1815-1898.
+      - AP11 after 1808, the line in the Russian church's synodal century. No later issue of
+        Adoratskii is held. Waits for it, or Widmer (1976).
+      - AP15, the Korean Catholic church after 1886. Korean Catholic Origins ends in 1886 and its
+        status text keeps 1886-1904 for a later entry. Sources found for that entry: Father
+        Coste's obituary in the Korean Repository (1896; the chapel of 1888, the seminary of 1891,
+        the cathedral stone of 1892) and Underwood's count of over 42,000 Catholics in 1901.
+      - AP12, the Catholic and Methodist lines and the Aboriginal missions. No source.
+      - LA8-6, the Catholic concordat church after 1860 (no French Catholic source; the Concordat
+        printing not found); Holly's emigration of 1861 (not in the 1874 issue); the Code Noir and
+        Bois Caiman (not read or not found).
+      - LA8-9 after 1723: the order's end in 1820 and its spread (Garcia's later books damaged).
+      - AP10: the founding year 1832, the name Hermano Pule, and the bar from Spanish orders (not
+        in Montero's pages). The Cofradia's own letters were seized in 1841; none is held.
+      - AP15: the Nevius plan's rules and date, and the Ross New Testament's date (Underwood's
+        "worked well" is a judgment of 1908, not used).
+    - **Links RV-7 waits for:** English Unitarians after 1813, the Dutch Remonstrants after 1650,
+      and the era 9 Hungarian Protestant row (each has no entry yet); a link from the Society of
+      Jesus waits for a Catholic or Habsburg source on the seizures of 1693 and 1716, since only the
+      Unitarians' own later account blames the Jesuits.
+    - **Also closed:** "Two links with a candidate secondary quote" (2026-11-10): both quotes were
+      re-checked word for word and both links are now Widely Accepted. "The VOC lineage question
+      put to Mark" (2026-11-10): ruled yes by the coordinator; the VOC world's churches continue as
+      Indonesian Christianity, Widely Accepted on Aritonang and Steenbrink, with 1815-1861 named as
+      untold. The living mark there still waits for a dated record of the Protestant Church of the
+      Moluccas.
+    - This closes "Held items whose sources the Library now holds" (2026-11-10) for every item but
+      those above.
+195. **Two Section A questions for Mark: the Tolstoyans and the Dukhobors (2026-11-10).** The
+    Library's texts now let each be assessed. Nothing is entered. The full assessment, with every
+    quote at its lines: `Build/Ministry/Operations/Audits/2026-11-10_eras8-9-sourced/SectionA_ME6_ME20.md`.
+    Owner: the coordinator, for Mark.
+    - **ME-20, the Tolstoyans** (G89-48 a: "out of scope under A1 unless Mark chooses a lane 8
+      entry"). Tolstoy's own words (1885, 1894) bear out the record's report in substance: Christ a
+      teacher, "Son of God" a nature all men share, the bodily resurrection denied. No Tolstoyan
+      community's own confession is in the Library.
+    - **ME-6, the Dukhobors** (G89-46 a: "route the Dukhobors to Mark under A4 if they do not
+      clear"). Their Living Book calls the Son "our God", equal to the Father, but reads his birth,
+      death and rising as happening "in us" and refuses the sacraments in outward form. A1's plain
+      denial is not met; A3 (a non-literal reading) and A4's one-commitment limit are the live
+      questions. The Living Book is dated 1909 and its scan is unchecked, so none of it can enter a
+      record yet. The Molokans' texts were not found.
+196. **Small points P2-G89c leaves open (2026-11-10).** None changes what entered.
+    - The Transylvanian Protestants' entry (1650-1815) still says "The Unitarians are a different
+      church, told to 1650." It is now told to 1906. A frozen row; for a change order.
+    - The anti-Trinitarian entry says the Polish Brethren were expelled in 1658. Rees dates the
+      first decree to 1658 and the order to leave at once to 20 July 1660; Ferencz dates the ban to
+      1659 and the last day to 10 July 1660. A frozen row; for a change order.
+    - Underwood's Call of Korea (1908) stays `needs-ruling` on the Missionary Movement's shelf, which
+      ends in 1906. Korean Protestantism in the Twentieth Century (1907-2010) covers its date of
+      writing. For the Library thread.
+    - Adoratskii's OCR keeps its errors in the quotes ("1115" for 1715, and others). The reviewer
+      checked every date-bearing quote on the page images; two lines were not checked.
+    - No country was added to any changed row: Korea, Australia, New Zealand, Haiti, Guatemala and
+      China are not on the rows' place labels. Owner: the place-label work.

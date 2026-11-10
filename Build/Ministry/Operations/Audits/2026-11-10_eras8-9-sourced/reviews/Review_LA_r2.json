@@ -1,0 +1,19 @@
+{
+ "slice": "G89c-LA (Saint-Domingue and the Bethlemites in VII.17; Holly in VIII.1; Cuba held)",
+ "round": 2,
+ "verdict": "approve",
+ "blocking": [],
+ "substantial": [],
+ "minor": [
+  {
+   "id": "LA2-m1",
+   "where": "neighbor_changes the-black-church-in-america, longDescription, para 2 sentence 1",
+   "problem": "The new bridge sentence (LA-S2 fix) already says the mission board asked for a bishop 'of the African race'. Two sentences later the next paragraph opens 'The board wanted the missionary bishop to be of the African race and a Haitian citizen.' The same point is made twice in close succession. Both sentences are supported; this is a prose wrinkle only.",
+   "evidence": "Draft VIII.1 added text, paragraphs 1-2; Spirit of Missions lines 3090-3092.",
+   "fix": "Optional: 'The board also wanted him to be a Haitian citizen.'"
+  }
+ ],
+ "quotes_checked": 61,
+ "quotes_failed": [],
+ "notes": "Targeted recheck of the round 1 findings against Changes_r1.md. The changes resolve each finding as follows. LA-S1: the opening is now 'is seen here through one long witness'. LA-S2: the bridge is now 'In 1874 a church in the United States made a bishop for Haiti, and its mission board asked that he be of the African race', on lines 3090-3092 and 3147-3150, both re-verified. The closing source-narration paragraph and its rows are gone. No [S] item (James, 1861, emigration, African American) remains in prose or fact-table sentences; 'James' and 1861 appear only in a flag and a hold that say they are absent. LA-S3: 'from the order's side' is removed, and García is said to have written for the order (file header: for the Bethlemite procurator general). LA-m1: 'Of one such wonder…'. LA-m2: the taunt is impersonal and the Creole claim is in its own sentence; the new row 16 (2606-2611) was re-verified and its rendering carries every clause. LA-m3: '26 March 1687' rests on the page image I checked in round 1 (García leaf n456), with the OCR 'i62y' noted in the rendering; the want is closed. LA-m4: there is now one Cuba hold with the corrected reason, and the Claret OCR gloss is removed. LA-m5: row 21 now runs to lines 18656-18658 and was re-verified; the signature rows say 'J. Theodore Holly'; the stale rows are deleted. All 61 Library quotes re-verified verbatim at their lines. check_draft.py prints READ-FAIL only for the two carried frozen first paragraphs (FRE 17 and 35), as in round 1; all new paragraphs pass. Nothing else moved: both neighbor_changes set only longDescription and sources; each new longDescription still begins with the census text unchanged; the census sources lists are an unchanged prefix; the three new VII.17 source entries and the Spirit of Missions entry match round 1. entries, links and retire_links are still empty. The other holds and flags are unchanged except as the fixes required."
+}

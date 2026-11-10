@@ -13,7 +13,7 @@ For Mark. These notes decide nothing. They set out what the Library's texts say,
 ### Summary in three lines
 
 1. In the two books held, Tolstoy never writes one first-person sentence "Christ is not God". He does treat Christ as a prophet and teacher ("I do not say Christ-God"), calls the Son of God a nature every man shares ("of the same nature as God"), and leaves the Trinity and the redemption to what "believers" are taught.
-2. On the resurrection he says Christ never spoke of his own, and that "Christ rose again, and ascended somewhere in heaven" has "no meaning for us" (modern people, in general). On God he writes of "the Father of life" and of God "whom he recognises within himself as love".
+2. On the resurrection he says Christ, "denying individual and carnal resurrection", set it in a life in God, and that the Gospel never mentions his own. He says that "Christ rose again, and ascended" has "no meaning for us", himself included. On God he writes of "the Father of life" and of God "whom he recognises within himself as love".
 3. His own words bear out the record's report in substance, not in one quoted line. The Library holds no Tolstoyan community's own confession, and A4 cannot waive Christ's divinity, so whether this is a plain denial (A1) or a lane 8 case is Mark's call.
 
 ### Sources read
@@ -47,12 +47,14 @@ For Mark. These notes decide nothing. They set out what the Library's texts say,
 ### What he says about the resurrection (commitment 4)
 
 - `tolstoy_what-i-believe_popoff1885.txt` lines 5871-5873: "never, in a single pass- age, does Christ speak of His own personal resurrec- tion."
+- `tolstoy_what-i-believe_popoff1885.txt` lines 5826-5830: "Denying individual and carnal resurrection, Christ asserts that the raising from the dead lies in the trans- fusion of man's life into God. Christ preaches salva- tion from individual life, and sets that salvation in the exaltation of the son of man and a life in God."
+- `tolstoy_what-i-believe_popoff1885.txt` lines 5879-5880: "nor do we find any mention made of His resurrection throughout the whole canonical Gospel."
 - `tolstoy_what-i-believe_popoff1885.txt` line 5836: "Of individual carnal resurrection He never speaks."
 - `tolstoy_what-i-believe_popoff1885.txt` lines 5758-5761: "strange as it may seem to say so of Christ, who Himself rose from the dead, and who promised to raise all men, He never, by a single word, confirmed the belief in individual resurrection,"
   This is the one place in the two books where he writes of Christ as having "Himself rose from the dead". It sits inside a sentence whose point is that Christ never taught individual resurrection, so I read it as a concession to the usual view, not as his own statement.
 - `tolstoy_kingdom-of-god-is-within-you-v1_garnett1894.txt` lines 5723-5726: "men of to-day they have no meaning whatever. Men of the present day can repeat these words with their lips, but believe them they cannot"
 - `tolstoy_kingdom-of-god-is-within-you-v1_garnett1894.txt` lines 5727-5732: "such sentences, as that God lives in heaven, that the heavens opened and a voice from somewhere said something; that Christ rose again, and ascended somewhere in heaven, and again will come from somewhere on the clouds and so on, have no meaning for us."
-  These are said of "men of the present day" in general. They are not written as "I".
+  These are said of "men of the present day" in general, not in the form "I". But he writes "for us" in the same breath, so he counts himself in: for him these sentences have no meaning.
 
 ### What he says about God (commitments 1 and 5)
 
@@ -68,7 +70,7 @@ For Mark. These notes decide nothing. They set out what the Library's texts say,
 The record (§6 ME-20) says "Tolstoy denied Christ's divinity [S]", from outside sources, with no words of his opened. On the two books held:
 
 - **Borne out in substance.** He treats Christ as a prophet and teacher, says the Gospel is silent or "very ambiguous" on Christ as second Person of the Trinity, makes "Son of God" a nature common to all men, lets the charge of not recognising the Trinity and the redemption stand, and says modern people cannot believe that Christ rose and ascended.
-- **Not found.** A first-person sentence of the form "I do not believe Christ is God" or "Christ did not rise". The nearest are "I do not say Christ-God" (1885) and "believe them they cannot" (1894, of modern people). A reader may take these as a denial or as a refusal to affirm.
+- **Not found.** A first-person sentence of the form "I do not believe Christ is God" or "Christ did not rise". The nearest are "I do not say Christ-God" (1885) and "believe them they cannot" (1894, of modern people, himself included). On the resurrection the 1885 lines are stronger than a refusal to affirm: Christ, "denying individual and carnal resurrection", sets it in "the transfusion of man's life into God", and the Gospel nowhere mentions his own. A reader may still take the 1894 passage as a denial or as a refusal to affirm.
 - **What he affirms.** The divine character of Christ's teaching ("the divinity of the Gospel"), God as "the Father of life" and as love within man, and the duty to keep Christ's commands.
 
 ### For A1 and A4 (not a decision)
@@ -76,7 +78,7 @@ The record (§6 ME-20) says "Tolstoy denied Christ's divinity [S]", from outside
 - If these words are read as a plain confession, they deny commitment 2 and commitment 4 as real claims and leave out the Trinity (commitments 1 and 5 in their Nicene form). That is the A1 case the record expected: out of scope, unless Mark chooses a lane 8 entry (§6 ME-20, G89-48).
 - A4 is shut on that reading, because it may never waive Christ's full divinity.
 - A3 is the other way in: he keeps Christian words ("Son of God", "Father") and reads them in a non-literal sense. That also fails the floor as A3 is written.
-- Two cautions for Mark. (1) The Tolstoyans are a circle of followers; the floor is applied to a community's own confession, and the Library holds none, only Tolstoy's books. (2) The books are English translations.
+- Two cautions for Mark. (1) A3 allows the floor to be tested against "the specific ... theologian under consideration", so Tolstoy's own books can be read directly as above. The missing Tolstoyan confession matters for an ME-20 row (a circle of followers with no confession in the Library), not for how his books are read. (2) The books are English translations.
 
 ## ME-6. The Dukhobors (to 1906)
 
@@ -168,10 +170,10 @@ The Trinity as an image of the soul, in the Living Book and in Pinkerton:
 - `platon_present-state-of-the-greek-church-in-russia_pinkerton1814.txt` lines 11367-11369: "They look upon external baptism with water as of no use, and say that it only washes off the impurities of the body."
 - `dukhobors_zhivotnaia-kniga-dukhobortsev-rus_bonch-bruevich1909.txt` lines 2887-2891: "Мы такъ разум$емъ, что хлЪбъ съ пшеницы, а вино съ вино- града, и не полезно душ8 нашей ваше причаст!е; а мы при- чащаемся ко святымъ Его тайнамъ божественнымъ,"  
   *OCR, not checked against the scan.*  
-  *In English (my rendering):* We understand that bread is from wheat and wine from grapes, and your communion is not useful to our soul; but we commune in His holy divine mysteries...
+  *In English (my rendering):* We understand that bread is from wheat and wine from grapes, and your communion is not useful to our soul; but we commune in His holy divine mysteries... [partial: the rendering stops where the quote's sentence runs on]
 - `dukhobors_zhivotnaia-kniga-dukhobortsev-rus_bonch-bruevich1909.txt` lines 4715-4720: "Что есть причащен!е? Причащен!е есть поучен!е слова Христова, глагола Божъяго, съ него же происходить сквозь костей и мозговъ челов чен- скихъ, то наше и причаст!е отъ Господа Бога нашего двло."  
   *OCR, not checked against the scan.*  
-  *In English (my rendering):* What is communion? Communion is the teaching of Christ's word, the utterance of God...
+  *In English (my rendering):* What is communion? Communion is the teaching of Christ's word, the utterance of God... [partial]
 - `platon_present-state-of-the-greek-church-in-russia_pinkerton1814.txt` lines 11404-11416: "In regard to the Lord's supper, they say, that they always communicate in the holy and life-giving, immortal and awful mysteries of Christ to the remission of sins, by spiritually and internally receiving into themselves the word of God, which is Christ ; and such communion, they say, penetrates the judgment of man, through bones and marrow, put the ordinance of com- municating of the body and blood of Christ, un- der the symbols of bread and wine, they do not receive; for they say, that bread and wine enter the mouth, like our common food, and are of no advantage whatever to the soul."
 - `dukhobors_zhivotnaia-kniga-dukhobortsev-rus_bonch-bruevich1909.txt` lines 9710-9711: "Какъ безъ попа Богу молитесь? Отвфтъ. Правдой преподобною, смиреньемъ, любовью."  
   *OCR, not checked against the scan.*  
@@ -185,6 +187,7 @@ The Trinity as an image of the soul, in the Living Book and in Pinkerton:
 - **A1, the plain denial.** In the lines read, the Dukhobors do not deny that Christ is God. The Living Book calls the Son "our God" and equal to the Father "in divinity", and prays to "the Lord our God Jesus Christ". Pinkerton says they confess the Nicene Creed's contents as true and one God in three persons. What they plainly refuse (outward rites, icons, priests, the bread and wine) is not among the five commitments as the Constitution lists them.
 - **A3, the inward reading.** Pinkerton says they take Christ's incarnation, acts, teaching and sufferings "in a spiritual sense", and that Christ must be born, suffer, die and "rise again from the dead in us". The Living Book answers "how did Christ rise" with "in the power of divinity, with what body we do not know" and "in true people", and says there is no reason to seek the body. Read plainly, these do not affirm a bodily resurrection as a real event (commitment 4). They also do not deny it, and the same book narrates the rising in its psalms. The Trinity is glossed as memory, reason and will, yet Pinkerton and the book still call all three persons God.
 - **A4, one commitment at most.** If Mark reads the inward treatment as weakening commitment 4 only, A4's limit of one waived commitment would be met, and on the lines read Christ's divinity is not plainly waived. If he reads it as weakening commitment 3 (incarnation) as well, that is two. This reading is Mark's; the texts do not settle it.
+- **A5.** A5 (the rule on internal strands and rivals) bears on the Dukhobor/Molokan grouping and is for Mark to apply body by body.
 - **Not shown.** What the Dukhobors confessed about Christ before 1814 (the 1791 confession is not in the volume). Which psalms are the Dukhobors' own and which are older church texts (the book holds the Te Deum and the Virgin's dreams). When any psalm was composed. What they hold on the Molokans' side (no Molokan text read). Anything about the Dukhobors after 1899 beyond the book's date.
 
 ### Dates and the shelf rule
