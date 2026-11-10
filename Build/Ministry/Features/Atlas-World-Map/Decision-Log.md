@@ -13,6 +13,39 @@ actual world-selection flow is a future decision for the front-end thread, not t
 
 ---
 
+## 2026-11-10 — Change order: evidence for era 10 links
+
+**Decided (Mark: "b").** The recent-movement evidence rule (2026-11-08, "Change order: evidence
+for recent movements") now applies to era 10's links (P2-L10), with a cap:
+
+- **A church body's own dated text** may be a primary source when it is opened online in the run.
+  Examples are a basis of union, a constitution, a charter, an official statement and a conference
+  report. Each is cited by title, date, publisher, web address and the date it was read, with a
+  short verbatim quote.
+- **A scholarly study** may be cited once its details are confirmed in the run, even if the repo
+  has not cited it before. It supports a claim only where its passage was read and quoted.
+- **The cap.** A link resting on sources read online reaches Widely Accepted at most. Documented
+  still needs a primary quote held in the Library, which anyone can re-check word for word. The
+  text that would raise the link goes on the wanted list.
+- **New verification state.** `verified-online` marks a quote read online in the run.
+- **Unchanged.** Search snippets, summaries and encyclopedias never count.
+
+**Options weighed.**
+- (a) Keep the rule. Few era 10 links, many real relationships unlinked.
+- (b) This rule, with the cap. Chosen.
+- (c) This rule without the cap. Documented would stop meaning a quote re-checkable in the Library.
+
+**Heart reasoning.** It is the same principle Mark set for recent movements: "we have to be able
+to tell an accurate story, but use different criteria". Documented keeps the meaning it has in
+every other era.
+
+**Applied.** `tools/validate-census.mjs` accepts a source with `url` and `accessed` in place of
+`file` and `lines`, and refuses Documented unless a primary quote is held in the Library. Tests
+are in `tools/tests/validate_census_online.test.mjs`. The drafting addendum is
+`Build/Ministry/Operations/Audits/2026-11-10_links-era-10-part-1/Drafting_Brief_Era10.md`.
+
+---
+
 ## 2026-11-09 — P2-E10h carried out: data release 25 adds the global sweep's 15 rows
 
 **Done under the gate ruling, in auto mode.** The ruled rows and named lines of the global sweep

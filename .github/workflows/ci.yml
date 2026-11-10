@@ -177,6 +177,7 @@ jobs:
               - 'tools/tests/validate_census_kind.test.mjs'
               - 'tools/tests/validate_census_retired.test.mjs'
               - 'tools/tests/validate_census_people.test.mjs'
+              - 'tools/tests/validate_census_online.test.mjs'
               - 'cic/texts/**'
               - 'cft-website/index.html'
               - 'engine/m6/**'
@@ -312,7 +313,7 @@ jobs:
           git fetch --quiet --depth=1 --filter=blob:none origin "${{ github.base_ref || 'main' }}"
           git show "FETCH_HEAD:cic-website/data/world-census.json" > "$RUNNER_TEMP/census-base.json"
       - run: node tools/validate-census.mjs --base "$RUNNER_TEMP/census-base.json" --atlas cft-website/index.html --tree cft-website/tree cic-website/data/world-census.json
-      - run: node --test tools/tests/validate_census_outcome.test.mjs tools/tests/validate_census_secondary.test.mjs tools/tests/validate_census_kind.test.mjs tools/tests/validate_census_retired.test.mjs tools/tests/validate_census_people.test.mjs
+      - run: node --test tools/tests/validate_census_outcome.test.mjs tools/tests/validate_census_secondary.test.mjs tools/tests/validate_census_kind.test.mjs tools/tests/validate_census_retired.test.mjs tools/tests/validate_census_people.test.mjs tools/tests/validate_census_online.test.mjs
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"

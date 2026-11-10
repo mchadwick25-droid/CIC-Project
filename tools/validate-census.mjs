@@ -26,7 +26,8 @@ const SYMMETRIC_TYPES = new Set(["broke with", "in contact with"]);
 const MAJOR_BY_TYPE = new Set(["gave rise to", "continued as", "broke with"]);
 const CONFIDENCE = new Set(["Documented", "Widely Accepted", "Dominant Modern Reconstruction", "Contested", "Inferential-Thin"]);
 const SPECIFICITY = new Set(["A", "B", "C", "D", "E"]);
-const VERIFICATION = new Set(["verified-direct", "verified-via-authority", "named-not-rechecked", "unverified"]);
+const VERIFICATION = new Set(["verified-direct", "verified-online", "verified-via-authority", "named-not-rechecked", "unverified"]);
+const ISO_DATE = /^\d{4}-\d{2}-\d{2}$/;
 const SOURCE_KINDS = new Set(["primary", "secondary"]);
 const INTERNAL_NOTE = [/\.\.(?!\.)/, /\b(edges?|continuesAs|grade[ds]?)\b/i, /\b(the|this|our) census\b(?!\s+(recorded|listing|of\s+\d))/i, /\b[IVX]+\.\d+[a-z]?\b/];
 const squash = s => s.replace(/\s+/g, " ").trim();
@@ -108,6 +109,16 @@ const edgeIds = new Set();
     const st = `${tag} source[${j}]`;
     if (!SOURCE_KINDS.has(s.kind)) errs.push(`${st}: kind must be primary or secondary`);
     if (!s.work) errs.push(`${st}: no work`);
+    // A source read online (Decision-Log 2026-11-10, "Change order: evidence for era 10 links"):
+    // a web address and the date it was read stand in for a Library file. It cannot be re-checked
+    // in the Library, so a link resting on it can never be Documented (checked below).
+    if (s.url !== undefined || s.accessed !== undefined) {
+      if (s.file || s.lines) errs.push(`${st}: a source read online carries url and accessed, not file and lines`);
+      if (typeof s.url !== "string" || !/^https:\/\/\S+$/.test(s.url)) errs.push(`${st}: url must be an https address`);
+      if (typeof s.accessed !== "string" || !ISO_DATE.test(s.accessed)) errs.push(`${st}: accessed must be the date read, YYYY-MM-DD`);
+      if (s.kind === "primary") for (const k of ["locus", "quote", "license"]) if (!s[k]) errs.push(`${st}: primary source read online missing ${k}`);
+      return;
+    }
     // A secondary work held in cic/texts/ may carry file, lines and quote (Decision-Log
     // 2026-11-08, whole-set rulings): all three together, and the quote checked like a primary's.
     if (s.kind !== "primary") {
@@ -131,6 +142,7 @@ const edgeIds = new Set();
   if (e.confidence === "Documented") {
     if (!sources.some(s => s.kind === "primary")) errs.push(`${tag}: Documented needs a primary source`);
     if (e.verification_state !== "verified-direct") errs.push(`${tag}: Documented needs verification_state verified-direct`);
+    if (!sources.some(s => s.kind === "primary" && s.file && !s.url)) errs.push(`${tag}: Documented needs a primary source held in the Library, not only read online`);
   }
   if ((e.confidence === "Widely Accepted" || e.confidence === "Dominant Modern Reconstruction") && !sources.some(s => s.kind === "secondary"))
     errs.push(`${tag}: ${e.confidence} needs a secondary source`);

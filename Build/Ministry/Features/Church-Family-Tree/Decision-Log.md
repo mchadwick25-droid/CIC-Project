@@ -838,3 +838,17 @@ out".
   put to Mark is to leave both as they are. That changes nothing, and both stay open in
   Open-Gaps 140.
 
+---
+
+## 2026-11-10 — P2-L10 starts; evidence for era 10 links
+
+Mark: "yes, start P2-L10". The era 10 gate has ruled, so the 2026-11-08 deferral ("The link work
+covers eras 1 to 9") ends. On the evidence question Mark chose (b). A church body's own dated text,
+read online, and a study confirmed in the run may support a link. Such a link reaches Widely
+Accepted at most, and Documented stays reserved for a quote held in the Library. Full entry: Atlas
+World Map Decision-Log, "Change order: evidence for era 10 links".
+
+Era 10 runs in two parts by lane, as era 9 did:
+- part 1: the Protestant, Pentecostal, Cross-Family and Protestant-bridge lanes, 38 movements;
+- part 2: the rest, 33 movements.
+
