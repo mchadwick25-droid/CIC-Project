@@ -1,0 +1,445 @@
+{
+ "entries": [],
+ "fact_table": [
+  {
+   "entry": "the-missionary-movement-s-native-churches-seramp",
+   "field": "longDescription",
+   "sentence": "Before the first missionaries came, two Scots at Mukden, Ross and McIntyre, had done introductory work in China among Koreans.",
+   "file": "cic/texts/underwood_call-of-korea_1908.txt",
+   "lines": "3888-3889",
+   "quote": "Before our arrival, not a little introductory work had been accomplished through the labors of Messrs."
+  },
+  {
+   "entry": "the-missionary-movement-s-native-churches-seramp",
+   "field": "longDescription",
+   "sentence": "Some Koreans there took up the faith.",
+   "file": "cic/texts/underwood_call-of-korea_1908.txt",
+   "lines": "4754-4755",
+   "quote": "Under the work of these two men not a few Koreans professed faith in Christ"
+  },
+  {
+   "entry": "the-missionary-movement-s-native-churches-seramp",
+   "field": "longDescription",
+   "sentence": "They began work in Korean villages on the China side of the Yalu.",
+   "file": "cic/texts/underwood_call-of-korea_1908.txt",
+   "lines": "4755-4757",
+   "quote": "commenced work among the Korean villages on the China side of the Yalu"
+  },
+  {
+   "entry": "the-missionary-movement-s-native-churches-seramp",
+   "field": "longDescription",
+   "sentence": "Ross and McIntyre translated a number of the Gospels, and later the whole New Testament.",
+   "file": "cic/texts/underwood_call-of-korea_1908.txt",
+   "lines": "4751-4752",
+   "quote": "translated a number of the Gospels, and later the whole"
+  },
+  {
+   "entry": "the-missionary-movement-s-native-churches-seramp",
+   "field": "longDescription",
+   "sentence": "Underwood, who reached Korea in 1885, says in his book of 1908 that Dr. Allen settled in Seoul in September 1884.",
+   "file": "cic/texts/underwood_call-of-korea_1908.txt",
+   "lines": "4865-4866",
+   "quote": "Dr. Allen arrived in September, 1884, procured property, and settled in Seoul"
+  },
+  {
+   "entry": "the-missionary-movement-s-native-churches-seramp",
+   "field": "longDescription",
+   "sentence": "He adds that the Methodists sent Dr. McClay from Japan to look over the field in that same year.",
+   "file": "cic/texts/underwood_call-of-korea_1908.txt",
+   "lines": "4850",
+   "quote": "Dr. McClay, of Japan, to overlook the"
+  },
+  {
+   "entry": "the-missionary-movement-s-native-churches-seramp",
+   "field": "longDescription",
+   "sentence": "The first converts, in July and the fall of 1886, were baptized behind closed doors.",
+   "file": "cic/texts/underwood_call-of-korea_1908.txt",
+   "lines": "4926-4927",
+   "quote": "the first converts in July and the fall of 1886 were baptized behind closed doors"
+  },
+  {
+   "entry": "the-missionary-movement-s-native-churches-seramp",
+   "field": "longDescription",
+   "sentence": "The old law of death to Christians had never been repealed.",
+   "file": "cic/texts/underwood_call-of-korea_1908.txt",
+   "lines": "4922-4923",
+   "quote": "The old law of death to the Christian had never been repealed"
+  },
+  {
+   "entry": "the-missionary-movement-s-native-churches-seramp",
+   "field": "longDescription",
+   "sentence": "It seemed plain that it would not be enforced, but no one knew how far to venture.",
+   "file": "cic/texts/underwood_call-of-korea_1908.txt",
+   "lines": "4923-4924",
+   "quote": "it seemed plain that it was not to be enforced"
+  },
+  {
+   "entry": "the-missionary-movement-s-native-churches-seramp",
+   "field": "longDescription",
+   "sentence": "A Korean colporteur, Soh Sang Ryun, told Underwood of 'a small company of Christians' at Sorai.",
+   "file": "cic/texts/underwood_call-of-korea_1908.txt",
+   "lines": "4962-4963",
+   "quote": "a small company of Christians"
+  },
+  {
+   "entry": "the-missionary-movement-s-native-churches-seramp",
+   "field": "longDescription",
+   "sentence": "By 1890 the two churches had over one hundred converts in all Korea.",
+   "file": "cic/texts/underwood_call-of-korea_1908.txt",
+   "lines": "5069-5070",
+   "quote": "over one hundred converts"
+  },
+  {
+   "entry": "the-missionary-movement-s-native-churches-seramp",
+   "field": "longDescription",
+   "sentence": "In 1896 the missionaries' monthly in Seoul spoke of enquirers who had 'finished the study of the Ross catechism'.",
+   "file": "cic/texts/korean-repository_v3-1896_seoul1896.txt",
+   "lines": "13164-13165",
+   "quote": "finished the study of the Ross catechism"
+  },
+  {
+   "entry": "the-missionary-movement-s-native-churches-seramp",
+   "field": "longDescription",
+   "sentence": "Korea lies outside the four wings, but its Protestant church began in these same years.",
+   "record": "census VIII.7 and the status text",
+   "note": "Structural line: Korea is not one of the four named wings; the row's own status text names four wings and is unchanged."
+  },
+  {
+   "entry": "the-missionary-movement-s-native-churches-seramp",
+   "field": "longDescription",
+   "sentence": "It was The Korean Repository.",
+   "record": "Library header of the Korean Repository file",
+   "note": "The Library header names the volume as the monthly of the Protestant missionaries in Seoul."
+  },
+  {
+   "entry": "the-missionary-movement-s-native-churches-seramp",
+   "field": "longDescription",
+   "sentence": "All of this comes to us in the missionaries' own telling.",
+   "record": "Underwood 1908 and the Korean Repository 1896, both missionaries' own",
+   "note": "Statement of the source type; Soh's report reaches us through Underwood."
+  },
+  {
+   "entry": "the-missionary-movement-s-native-churches-seramp",
+   "field": "longDescription",
+   "sentence": "Underwood, who reached Korea in 1885, says in his book of 1908 that Dr. Allen settled in Seoul in September 1884.",
+   "file": "cic/texts/underwood_call-of-korea_1908.txt",
+   "lines": "298",
+   "quote": "since 1885 a missionary in"
+  },
+  {
+   "entry": "the-missionary-movement-s-native-churches-seramp",
+   "field": "longDescription",
+   "sentence": "Before the first missionaries came, two Scots at Mukden, Ross and McIntyre, had done introductory work in China among Koreans.",
+   "file": "cic/texts/underwood_call-of-korea_1908.txt",
+   "lines": "4737",
+   "quote": "also Scotch"
+  },
+  {
+   "entry": "the-missionary-movement-s-native-churches-seramp",
+   "field": "longDescription",
+   "sentence": "It seemed plain that it would not be enforced, but no one knew how far to venture.",
+   "file": "cic/texts/underwood_call-of-korea_1908.txt",
+   "lines": "4925",
+   "quote": "missionaries and natives knew not how far to venture"
+  },
+  {
+   "entry": "the-missionary-movement-s-native-churches-seramp",
+   "field": "longDescription",
+   "sentence": "A Korean colporteur, Soh Sang Ryun, told Underwood of 'a small company of Christians' at Sorai.",
+   "file": "cic/texts/underwood_call-of-korea_1908.txt",
+   "lines": "3895-3896",
+   "quote": "as colporteurs of the British and Foreign Bible Society"
+  },
+  {
+   "entry": "the-missionary-movement-s-native-churches-seramp",
+   "field": "longDescription",
+   "sentence": "A Korean colporteur, Soh Sang Ryun, told Underwood of 'a small company of Christians' at Sorai.",
+   "file": "cic/texts/underwood_call-of-korea_1908.txt",
+   "lines": "4757",
+   "quote": "Among the early converts was a Mr."
+  },
+  {
+   "entry": "the-missionary-movement-s-native-churches-seramp",
+   "field": "longDescription",
+   "sentence": "Ross and McIntyre translated a number of the Gospels, and later the whole New Testament.",
+   "file": "cic/texts/underwood_call-of-korea_1908.txt",
+   "lines": "4754-4755",
+   "quote": "Under the work of these two men not a few Koreans professed faith in Christ"
+  },
+  {
+   "entry": "the-missionary-movement-s-native-churches-seramp",
+   "field": "longDescription",
+   "sentence": "He adds that the Methodists sent Dr. McClay from Japan to look over the field in that same year.",
+   "file": "cic/texts/underwood_call-of-korea_1908.txt",
+   "lines": "4851-4852",
+   "quote": "preparatory to starting work in uethodiats 1884",
+   "note": "'uethodiats 1884' is the book's margin note ('Methodists 1884') merged into the line by the OCR; the sentence itself says the Presbyterians began 'in September of the same year'."
+  },
+  {
+   "entry": "victorian-church-of-england",
+   "field": "longDescription",
+   "sentence": "A pamphlet of his, printed in 1826 by his biographer's account, calls him 'principal Chaplain to the Colony of New South Wales'.",
+   "file": "cic/texts/marsden_life-and-work-of-samuel-marsden_jb-marsden1913.txt",
+   "lines": "7003-7004",
+   "quote": "principal Chaplain to the Colony of New South Wales"
+  },
+  {
+   "entry": "victorian-church-of-england",
+   "field": "longDescription",
+   "sentence": "His biographer dates one letter to 7 October 1814, just before Marsden sailed for New Zealand.",
+   "file": "cic/texts/marsden_life-and-work-of-samuel-marsden_jb-marsden1913.txt",
+   "lines": "3444-3445",
+   "quote": "the 7th of October, 1814"
+  },
+  {
+   "entry": "victorian-church-of-england",
+   "field": "longDescription",
+   "sentence": "In it Marsden wrote that he had 'submitted my views to the Church Missionary Society, and solicited their aid.'",
+   "file": "cic/texts/marsden_life-and-work-of-samuel-marsden_jb-marsden1913.txt",
+   "lines": "3463-3465",
+   "quote": "I have submitted my views to the Church Missionary Society, and solicited their aid."
+  },
+  {
+   "entry": "victorian-church-of-england",
+   "field": "longDescription",
+   "sentence": "On Christmas Day, in 1814 by the biographer's date, Marsden preached in New Zealand.",
+   "file": "cic/texts/marsden_life-and-work-of-samuel-marsden_jb-marsden1913.txt",
+   "lines": "3782-3783",
+   "quote": "it being Christmas Day, I preached from the second chapter of St. Luke's Gospel"
+  },
+  {
+   "entry": "victorian-church-of-england",
+   "field": "longDescription",
+   "sentence": "He wrote, 'In this manner, the Gospel has been introduced into New Zealand'.",
+   "file": "cic/texts/marsden_life-and-work-of-samuel-marsden_jb-marsden1913.txt",
+   "lines": "3797-3799",
+   "quote": "In this manner, the Gospel has been introduced into New Zealand"
+  },
+  {
+   "entry": "victorian-church-of-england",
+   "field": "longDescription",
+   "sentence": "On 5 June 1815 he wrote from Parramatta that the societies in London could not make up their minds to send out a vessel.",
+   "file": "cic/texts/marsden_life-and-work-of-samuel-marsden_jb-marsden1913.txt",
+   "lines": "3148-3150",
+   "quote": "Finding that the societies in London could not make up their minds, neither as a body nor as individuals, to send out a vessel"
+  },
+  {
+   "entry": "victorian-church-of-england",
+   "field": "longDescription",
+   "sentence": "So he 'at last determined to purchase one for the purpose on my own account'.",
+   "file": "cic/texts/marsden_life-and-work-of-samuel-marsden_jb-marsden1913.txt",
+   "lines": "3150-3151",
+   "quote": "I at last determined to purchase one for the purpose on my own account"
+  },
+  {
+   "entry": "victorian-church-of-england",
+   "field": "longDescription",
+   "sentence": "In April 1837 he asked a missionary, 'Have they any meeting in the week-days for prayer and religious instruction?'",
+   "file": "cic/texts/marsden_life-and-work-of-samuel-marsden_jb-marsden1913.txt",
+   "lines": "8358-8359",
+   "quote": "Have they any meeting in the week-days for prayer and religious instruction?"
+  },
+  {
+   "entry": "victorian-church-of-england",
+   "field": "longDescription",
+   "sentence": "A pamphlet of his, printed in 1826 by his biographer's account, calls him 'principal Chaplain to the Colony of New South Wales'.",
+   "file": "cic/texts/marsden_life-and-work-of-samuel-marsden_jb-marsden1913.txt",
+   "lines": "7000-7001",
+   "quote": "though not till the year 1826"
+  },
+  {
+   "entry": "victorian-church-of-england",
+   "field": "longDescription",
+   "sentence": "His biographer dates one letter to 7 October 1814, just before Marsden sailed for New Zealand.",
+   "file": "cic/texts/marsden_life-and-work-of-samuel-marsden_jb-marsden1913.txt",
+   "lines": "3443-3445",
+   "quote": "he wrote just before he sailed, the 7th of October, 1814"
+  },
+  {
+   "entry": "victorian-church-of-england",
+   "field": "longDescription",
+   "sentence": "His biographer dates one letter to 7 October 1814, just before Marsden sailed for New Zealand.",
+   "file": "cic/texts/marsden_life-and-work-of-samuel-marsden_jb-marsden1913.txt",
+   "lines": "3447",
+   "quote": "It is my intention to visit New Zealand"
+  },
+  {
+   "entry": "victorian-church-of-england",
+   "field": "longDescription",
+   "sentence": "On Christmas Day, in 1814 by the biographer's date, Marsden preached in New Zealand.",
+   "file": "cic/texts/marsden_life-and-work-of-samuel-marsden_jb-marsden1913.txt",
+   "lines": "3713-3714",
+   "quote": "the 25th of December, 1814"
+  },
+  {
+   "entry": "victorian-church-of-england",
+   "field": "longDescription",
+   "sentence": "On 5 June 1815 he wrote from Parramatta that the societies in London could not make up their minds to send out a vessel.",
+   "file": "cic/texts/marsden_life-and-work-of-samuel-marsden_jb-marsden1913.txt",
+   "lines": "3136",
+   "quote": "Parramatta, June 5th, 1815."
+  },
+  {
+   "entry": "victorian-church-of-england",
+   "field": "longDescription",
+   "sentence": "In April 1837 he asked a missionary, 'Have they any meeting in the week-days for prayer and religious instruction?'",
+   "file": "cic/texts/marsden_life-and-work-of-samuel-marsden_jb-marsden1913.txt",
+   "lines": "8345",
+   "quote": "April, 1837."
+  },
+  {
+   "entry": "victorian-church-of-england",
+   "field": "longDescription",
+   "sentence": "Samuel Marsden shows the church reaching overseas.",
+   "record": "Marsden 1913 as a whole",
+   "note": "Frame sentence for the line below; no new claim."
+  },
+  {
+   "entry": "victorian-church-of-england",
+   "field": "longDescription",
+   "sentence": "The quoted words are Marsden's own, printed in a biography of 1913. Three of the dates are the biographer's.",
+   "record": "Library header of the Marsden file: a biography of 1913 printing Marsden's letters and journals",
+   "note": "Statement of the source; the three dates attributed are the 1826 pamphlet, 7 October 1814 and 25 December 1814, each from the biographer's frame."
+  },
+  {
+   "entry": "victorian-church-of-england",
+   "field": "longDescription",
+   "sentence": "The book tells the mission from one side only. The Maori side is not in it.",
+   "record": "Marsden 1913: every quoted sentence is Marsden's own and no Maori speaker is quoted in the passages used",
+   "note": "Statement of what the source lacks (absent_detail)."
+  }
+ ],
+ "neighbor_changes": [
+  {
+   "id": "the-missionary-movement-s-native-churches-seramp",
+   "set": {
+    "longDescription": "Between 1793 and 1906 European and American missionary societies planted churches across India, West Africa, the Pacific and the China coast. And almost immediately those churches began to be run, staffed and spread by local Christians the societies had not planned for. Samuel Ajayi Crowther, enslaved as a boy in Yorubaland and freed by an anti-slavery patrol, translated the Bible into Yoruba and in 1864 became the first African Anglican bishop, only for the next generation of the same society to force him aside in 1890. In the Pacific it was hundreds of Polynesian teachers, not Europeans, who carried Christianity from island to island, often at the cost of their lives. In China the preacher Liang Fa wrote a tract in 1832 whose stray reading by Hong Xiuquan helped set the Taiping upheaval in motion, and the former opium addict known as Pastor Xi built a network of his own converts inland. What holds these four wings together is a single problem. Nearly everything written about them was written from the mission's side, and the native voices that do survive are what any honest telling has to be built on.\n\nLiberia's settler church belongs to the West African wing. It came from America. Lott Cary was born a slave near Richmond, Virginia, about 1780, and the church there encouraged him to preach. About 1815 he helped rouse the Black Christians of Richmond to take an interest in Africa. The Richmond African Missionary Society that followed gave between one hundred and one hundred and fifty dollars to the African mission for several years. In 1821 Cary sailed for West Africa. In a letter from Free Town he wrote, 'Before we left the United States, we formed ourselves into a church'. On 16 August 1823 he wrote from Monrovia, 'Our little church has been wonderfully blessed of late.' He had baptized two the day before. Cary's words reach us through a biography by J. B. Taylor, a Richmond Baptist pastor, printed in 1837.\n\nKorea lies outside the four wings, but its Protestant church began in these same years. Before the first missionaries came, two Scots at Mukden, Ross and McIntyre, had done introductory work in China among Koreans. Some Koreans there took up the faith. They began work in Korean villages on the China side of the Yalu. Ross and McIntyre translated a number of the Gospels, and later the whole New Testament.\n\nUnderwood, who reached Korea in 1885, says in his book of 1908 that Dr. Allen settled in Seoul in September 1884. He adds that the Methodists sent Dr. McClay from Japan to look over the field in that same year.\n\nThe first converts, in July and the fall of 1886, were baptized behind closed doors. The old law of death to Christians had never been repealed. It seemed plain that it would not be enforced, but no one knew how far to venture.\n\nA Korean colporteur, Soh Sang Ryun, told Underwood of 'a small company of Christians' at Sorai. By 1890 the two churches had over one hundred converts in all Korea. In 1896 the missionaries' monthly in Seoul spoke of enquirers who had 'finished the study of the Ross catechism'. It was The Korean Repository. All of this comes to us in the missionaries' own telling.",
+    "sources": [
+     {
+      "work": "Samuel Ajayi Crowther: journals (incl. the 1841 Niger Expedition journal), his 1837 enslavement-and-rescue narrative, letters, Yoruba translation work; WITH the 1890-91 Niger crisis record in the CMS archives",
+      "type": "primary",
+      "note": "A Black bishop's own pen — the century's fullest African episcopal self-record. It also documents, in his own words, the Church Missionary Society's own late-century betrayal of him under real colonial and racial pressure."
+     },
+     {
+      "work": "Pacific island teachers' narratives: The Works of Ta'unga (ed. Crocombe, 1968); Joeli Bulu, The Autobiography of a Native Minister in the South Seas (1871); the islander-teacher corpus as a class",
+      "type": "primary"
+     },
+     {
+      "work": "India and China inside voices: Krishna Pal's hymns and letters (Serampore, 1800-); Liang Fa, Good Words to Admonish the Age (1832); Pastor Hsi (Xi Shengmo) - hymns and accounts via Mrs Howard Taylor's CIM biography",
+      "type": "primary"
+     },
+     {
+      "work": "The societies' archives WITH flags: Carey's Enquiry (1792) and Serampore Form of Agreement (1805); Sierra Leone Native Pastorate records; CMS/LMS/WMMS station diaries; CIM records and China's Spiritual Need and Claims (1865); women's missionary society records (zenana missions, women's boards)",
+      "type": "primary",
+      "note": "Worth noting plainly: this material is weighted toward the missionary's own pen, and entangled with empire. Women's missionary societies are represented here too, not just the men's."
+     },
+     {
+      "work": "Lamin Sanneh, Translating the Message (Orbis, 1989; 2nd ed. 2009), with Brian Stanley, The Bible and the Flag (1990) and Andrew Porter, Religion versus Empire? (Manchester, 2004)",
+      "type": "secondary",
+      "note": "The translation-agency thesis (native appropriation) plus the current mission-empire standards."
+     },
+     {
+      "work": "Cambridge History of Christianity vol. 8, chs. 27 & 34 (Stanley), with regional chs. 29 (Frykenberg), 30 (Bays & Grayson), 33 (Piggin & Davidson), 35 (Kalu)",
+      "type": "reference"
+     },
+     {
+      "work": "J. B. Taylor, Biography of Elder Lott Cary, Late Missionary to Africa (Baltimore, 1837)",
+      "type": "secondary",
+      "note": "By the pastor of Second Baptist Church, Richmond. It carries Cary's own letters from West Africa."
+     },
+     {
+      "work": "Horace G. Underwood, The Call of Korea: Political, Social, Religious (New York, 1908)",
+      "type": "primary",
+      "note": "By the founding Presbyterian missionary, written in 1908. Held in the Library. Used here only for events up to 1890. It is one missionary's account."
+     },
+     {
+      "work": "The Korean Repository, volume 3 (Seoul, 1896)",
+      "type": "primary",
+      "note": "A monthly of the Protestant missionaries in Seoul. Held in the Library. The scan is rough in places, and only clear passages are used."
+     }
+    ]
+   },
+   "ruling": "G89-34 (b), then (a); G89c: source now held",
+   "reason": "Adds the Protestant beginnings in Korea (1884-1906) as a line in VIII.7's text, drafted from Underwood (1908) and the Korean Repository (1896). VIII.7's name and its 'four named wings' status text do not change."
+  },
+  {
+   "id": "victorian-church-of-england",
+   "set": {
+    "longDescription": "The Church of England entered the nineteenth century as a comfortable establishment and left it a contested one. Three parties argued for its soul. Evangelicals who had inherited the awakening's fervor and its campaigns against slavery and squalor, high churchmen who rediscovered the church's catholic inheritance, and broad churchmen who wanted room for the new biblical criticism and the new geology. The quarrels went to law: the Gorham case of 1850 over what baptism does, the storm over the essayists of 1860 who applied critical methods to Scripture, ritual prosecutions that put clergymen in prison over vestments and candles. Underneath the controversies the church rebuilt itself, in thousands of new buildings and slum parishes at home and in a mission network abroad that by 1867 had produced enough overseas bishops that a first Lambeth Conference had to be called to hold them together.\n\nSamuel Marsden shows the church reaching overseas. A pamphlet of his, printed in 1826 by his biographer's account, calls him 'principal Chaplain to the Colony of New South Wales'. His biographer dates one letter to 7 October 1814, just before Marsden sailed for New Zealand. In it Marsden wrote that he had 'submitted my views to the Church Missionary Society, and solicited their aid.'\n\nOn Christmas Day, in 1814 by the biographer's date, Marsden preached in New Zealand. He wrote, 'In this manner, the Gospel has been introduced into New Zealand'. On 5 June 1815 he wrote from Parramatta that the societies in London could not make up their minds to send out a vessel. So he 'at last determined to purchase one for the purpose on my own account'.\n\nIn April 1837 he asked a missionary, 'Have they any meeting in the week-days for prayer and religious instruction?' The quoted words are Marsden's own, printed in a biography of 1913. Three of the dates are the biographer's. The book tells the mission from one side only. The Maori side is not in it.",
+    "sources": [
+     {
+      "work": "J. B. Marsden, Life and Work of Samuel Marsden (Christchurch, Wellington and Dunedin, 1913)",
+      "type": "primary",
+      "note": "A biography that prints Samuel Marsden's own letters and journals. Held in the Library. Marsden's own quoted words are used, with the dates his letters give. Three dates come from the biographer and are named as his."
+     }
+    ]
+   },
+   "ruling": "G89-35 (c), then (a); G89c: source now held",
+   "reason": "Adds the Anglican line for Australia and New Zealand to VIII.30, drafted only from Samuel Marsden's own letters and journals as printed in 1913. The Catholic (VIII.29) and Methodist (VIII.34) lines stay held."
+  }
+ ],
+ "links": [],
+ "retire_links": [],
+ "holds": [
+  {
+   "item": "AP12, the Catholic line in VIII.29 (Australia and New Zealand, 1815-1906)",
+   "g89": "G89-35 (c), then (a)",
+   "reason": "No source for Australian or New Zealand Catholicism was opened. The one Library text is Marsden's own letters, and they are an Anglican chaplain's.",
+   "waits_for": "A primary Catholic source for the colonies, for example a bishop's letters or the Suttor (1965) documents read in full."
+  },
+  {
+   "item": "AP12, the Methodist line in VIII.34 (Australia and New Zealand, 1815-1906)",
+   "g89": "G89-35 (c), then (a)",
+   "reason": "No source for colonial Methodism was opened. Marsden names other missionaries but his words do not carry a Methodist sentence.",
+   "waits_for": "A primary Methodist source, for example a mission society report or a missionary's journal."
+  },
+  {
+   "item": "AP12, Aboriginal missions and the rest of the Anglican story in the colonies (the later bishops, the church in Victoria and South Australia)",
+   "g89": "G89-35 (c), then (a)",
+   "reason": "Marsden's own letters carry only the New South Wales chaplaincy and the New Zealand mission to 1837. His memorandum on the Aboriginal people is described by the biographer and not quoted in his words.",
+   "waits_for": "A primary Anglican source for the colonies after 1837, and Marsden's own memorandum on the Aboriginal people if it is printed."
+  },
+  {
+   "item": "AP15, a Catholic line at the end of VIII.21's story (Korea, 1886-1906)",
+   "g89": "G89-34 (b), then (a)",
+   "reason": "Held for the coordinator, as the task asks. The Korean Repository (1896) and Underwood (1908) say something about the Catholic church after 1886; the quotes and lines are in the flags. VIII.21's dates are not changed.",
+   "waits_for": "The coordinator's decision on the report in the flags."
+  },
+  {
+   "item": "AP15, the Protestant line: the Nevius plan and Ross translation beyond what Underwood states",
+   "g89": "G89-34 (b), then (a)",
+   "reason": "Underwood names the Nevius system and says it has worked well, but that is a judgment written in 1908 about results up to 1908, so it is not used. He does not say what its rules were or when the missions adopted it. His date for the Ross New Testament is not given in the passages read. Nothing more is drafted.",
+   "waits_for": "Dated primary sources: Nevius's own book (1886) or the missions' minutes, and a dated edition of the Ross New Testament."
+  }
+ ],
+ "wants": [
+  "Dated primary sources for Korean Protestantism: Nevius, Methods of Mission Work (1886) and the Korean Presbyterian missions' minutes; a dated edition of the Ross New Testament.",
+  "A primary source for the Korean Catholic church after the treaty of 1886: the Paris Foreign Missions annals or Bishop Mutel's letters; the treaty's year from a primary text.",
+  "Primary sources for Catholic and Methodist life in colonial Australia and New Zealand, and for the Aboriginal missions."
+ ],
+ "flags": [
+  "FROZEN TEXT carried unchanged: check_draft prints READ-FAIL for VIII.7 longDescription[0] (FRE 43, FK 13.9) and VIII.30 longDescription[0] (FRE 35, FK 15.4). Both are the existing first paragraphs, left as they are. Only the new last paragraph of each is new, and both new paragraphs pass.",
+  "VIII.7: Korea is added as a line in longDescription and two sources are added to sources. Name, status text ('four named wings'), dates, modernCountries, relationsSummary, voices, legacy and sourcing are unchanged. South Korea is NOT added to modernCountries: the row's place label ('India · W. Africa and beyond') does not name Korea, and the rule is that a country's place must be on the row's place label. The census row for VIII.21 carries South Korea (Q884, place Korea Q483134); a place-label change on VIII.7 would be a separate change order.",
+  "VIII.7 sources: Underwood's The Call of Korea (1908) and The Korean Repository vol. 3 (1896) are both Library files. Underwood is used only for events up to 1890; his 1908 judgments are not used.",
+  "VIII.7 Underwood wording: 'Dr. H. N. Allen' is OCR-garbled in the file ('Dr. H. X. Allen'), so the prose says only 'Dr. Allen'. Underwood's file shows 'Mclntyre' for McIntyre (OCR), and the prose uses McIntyre. Quotes are verbatim, OCR errors kept.",
+  "VIII.7 claims held back on purpose: Underwood does not give a date for the Ross and McIntyre New Testament in the passages read (he says only that the whole New Testament was translated 'later' than the Gospels and published at Shanghai), so no year is given. 'Scottish' rests on his words 'also Scotch'.",
+  "VIII.7 Nevius: the Nevius sentence is cut (reviewer ASB-S2): Underwood's 'has certainly worked well in Korea' is a 1908 judgment. The Korean Repository's article on the native ministry also names Dr. Nevius' book and his first principle, but that passage is too damaged in the OCR to quote (file lines 14830-14845), so it is not used.",
+  "VIII.30: the row had no 'sources' field. The draft sets a new 'sources' list with one entry (Marsden 1913). The row's other fields are unchanged.",
+  "VIII.30 BIOGRAPHER-FRAMED DATES (reviewer ASB-S1): the 1826 pamphlet date, '7 October 1814' for the letter, and '1814' for the Christmas sermon are now each said in the prose to be the biographer's. The datelines used as Marsden's own are 5 June 1815 (file line 3136) and April 1837 (file line 8345).",
+  "VIII.30 title claim: 'principal Chaplain to the Colony of New South Wales' is Marsden's self-description on the title page of his 1826 pamphlet, quoted by the biographer. It carries only that he used the title, not the length or start of his chaplaincy (1794 falls before VIII.30's window and the 1815-1906 window is not reached by the start). The Anglican line therefore names the chaplaincy by title only.",
+  "VIII.30 window: the line names 1814 (the Church Missionary Society letter and the Christmas service) as the start of what it tells, as the brief allows. Every other sentence is dated 1815 or later (the 5 June 1815 letter, the April 1837 letter, the 1826 pamphlet).",
+  "VIII.30 NOT used although present: Marsden's journal sentence of 1823 'I am happy the Church Missionary Society has not relinquished the cause, but has sent out more strength to carry on the work.' (file lines 6198-6208) and his account to the Church Missionary Society in 1837 ('Waimate ... the most orderly and moral place I was ever in', file lines 8308-8318). Both are Marsden's own words, but their year and addressee come from the biographer's frame, not from a dated heading. They are available if the coordinator accepts the frame's dates.",
+  "AP12 NOT drafted: nothing on Maori Christianity as a movement of its own (AP13 held separately). The line ends by saying that the Maori side is not in the source. VIII.29 (Catholic) and VIII.34 (Methodist) are held for lack of a source.",
+  "Country IDs: no new place or country is added to any row. VIII.30 carries only the United Kingdom (England). Australia and New Zealand are not on its place label ('England · the empire'), so they are not added; the census has no row carrying either country for VIII.30's lane that could be copied. Listed for the coordinator if a place-label change is wanted.",
+  "No new rows, no links, no retire_links and no people rows. Nothing is marked living by this draft.",
+  "OPEN-GAPS: items 177 (AP15) and 178 (AP12) change as follows if the coordinator accepts this draft. 177, AP15: the Protestant line in VIII.7 is drafted from Underwood (1908) and the Korean Repository (1896); the Catholic line is held for the coordinator's decision on the report. 178, AP12: the Anglican line in VIII.30 is drafted from Marsden (1913); the Catholic line (VIII.29) and the Methodist line (VIII.34) stay held.",
+  "CATHOLIC AFTER 1886 (report for the coordinator; no Catholic line is drafted and VIII.21's dates are unchanged). What the Library's Korean sources say:",
+  "Korean Repository 1896, file lines 11636: the treaty ('Franco-Korean treaty') 'opened a new era to the Catholic religion': 'The conclusion of the Franco-Korean treaty, in giving to the French missionaries the right of holding property, of building and residing in the Capital and in the open ports, and of travelling freoly and openly thro the whole country, opened a new era to the Catholic religion.' (OCR 'freoly' kept.) This is in the obituary of Father Coste, a Paris Foreign Missions priest, translated from the French by Mrs. Alexander Kenmure (title block at file lines 11149-11165), so it is a Catholic voice printed in the Protestants' monthly. The treaty's year is NOT given in the passage; the passage does not say 1886.",
+  "Korean Repository 1896, Coste obituary, building after the treaty: file lines 11662: 'in 1888, a temporary chapel was built and opened for services'; file lines 11668: 'rose from the ground in 1891'; file lines 11677-11678: 'in the spring of 1892, had the joy of beinp^ able to lay and to bless at Seoul the first stone of the Cathedral' (OCR garbles 'beinp^' and the bishop's name; 'In 1887, a hill was almost razed' is in the same passage). Coste died 28 February 1896 (header at file line 11165, 'Died Febniar>' garbled). The OCR of this passage is damaged in many lines; only these short strings are clean enough to quote.",
+  "Korean Repository 1896, Catholic schools and seminary of Paris Foreign Missions in Seoul: file lines 22590: 'a Latin school bad been opened in 1885'; file lines 22552-22553: 'The object of the school is to train into good Catholics these unfortunate children'. The article is 'Education in the Capital of Korea' (file line 22472, 'EDUCATION IN THE CAPITAL OF KOEEA'); most of its Catholic paragraph is too garbled to quote (file lines 22540-22650).",
+  "Korean Repository 1896, a Protestant view of the toleration: file lines 31386: 'Toleration in religious matters has marked the reign of' (the article on the King of Korea; its next lines say Catholic Christians were slaughtered under the Tai Won Kan but are OCR-garbled and not quotable).",
+  "Underwood 1908, Catholic numbers and the toleration: file lines 4686-4687: 'At first secretly, but since the opening of Korea by treaty more publicly'; file lines 4688-4689: 'in 1901, the reported number of Roman Catholic Christians was over 42,000' (the only post-1886 Catholic fact in the book; he adds that the count includes all baptized infants, file line 4694). file lines 4919-4920: 'A reaction had set in since the persecutions of 1866'; file lines 4922-4923: 'The old law of death to the Christian had never been repealed' (said of the whole country in 1884-86 and about Protestants, but it is the only 'toleration' passage). file lines 4676-4677: 'a Roman Catholic Church has since been erected' (on the hill by the little west gate where the martyrs died; undated).",
+  "WHAT THIS ADDS UP TO: the Library holds one clean dated Catholic count (over 42,000 in 1901, Underwood) and a Catholic obituary that gives building dates (temporary chapel 1888, seminary 1891, cathedral foundation stone spring 1892) and the treaty as the start of open mission. It does not give the year of the treaty or toleration in these passages, and Underwood does not treat the Catholic church after 1886 beyond the 1901 count. A Catholic line could carry: the treaty's effect (quoted), the building dates, and the 1901 count. Whether to enter that at the end of VIII.21's story (which would run past its window of 1784-1886) or hold is the coordinator's decision; VIII.21's status text says the 1886-1904 gap is 'disclosed for a later entry, not absorbed here'.",
+  "DALLET AND VIII.21 (shelf use only, nothing drafted): Dallet (1874, French, to 1866) supports VIII.21's existing text in part. Yi Sung-hun's baptism in Beijing and his return in 1784: file lines 15463: 'Au printemps de l'année kap-tsin (1784), Pierre Seng-houn-i'; his baptism of the others: file lines 15624-15625: 'qui avait reçu le baptême à Péking, conféra lui-même ce sacrement k Piek-i' (OCR 'k' for 'à' kept); no priest had ever preached there: file lines 16112: 'd'un royaume où jamais aucun prêtre n'avait'; 'more than four thousand' Christians ten years after the Beijing baptism: file lines 17715-17716: 'plus de quatre mille chrétiens en Corée' (VIII.21 says 'several thousand'). Not checked in the pages read: the Confucian scholars as the first circle, Chong Yak-chong's vernacular catechism, the 'ten thousand killed' figure, and the 1886 treaty (Dallet ends at 1866). Dallet's name for the first convert is 'Seng-houn-i' (Pierre Ni), not 'Yi Sung-hun', and Underwood says the first Korean baptized in Beijing in 1783 was named Peter (file line 4612: 'the first Korean was baptized and named Peter'), one year earlier than VIII.21's 1784."
+ ]
+}

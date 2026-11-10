@@ -1,0 +1,779 @@
+{
+ "entries": [],
+ "fact_table": [
+  {
+   "entry": "colonial-latin-american-devotional-catholicism",
+   "field": "longDescription",
+   "sentence": "Saint-Domingue, the French colony that became Haiti, is seen here through one long witness.",
+   "record": "census VIII.46 (haitian-church-rupture-to-concordat)",
+   "note": "The colony became Haiti at independence in 1804, as VIII.46 tells it. \"One long witness\" is a statement about what this entry draws on (Moreau, Description, vols. 1 and 2), not about the whole record."
+  },
+  {
+   "entry": "colonial-latin-american-devotional-catholicism",
+   "field": "longDescription",
+   "sentence": "It is the Description of Moreau de Saint-Méry, printed in Philadelphia in 1797.",
+   "file": "cic/texts/moreau-de-saint-mery_description-partie-francaise-saint-domingue-t1-fra_1797.txt",
+   "lines": "103",
+   "quote": "A PHILADELPHIE,"
+  },
+  {
+   "entry": "colonial-latin-american-devotional-catholicism",
+   "field": "longDescription",
+   "sentence": "It is the Description of Moreau de Saint-Méry, printed in Philadelphia in 1797.",
+   "file": "cic/texts/moreau-de-saint-mery_description-partie-francaise-saint-domingue-t1-fra_1797.txt",
+   "lines": "114",
+   "quote": "1797."
+  },
+  {
+   "entry": "colonial-latin-american-devotional-catholicism",
+   "field": "longDescription",
+   "sentence": "It shows the colony as it stood on 18 October 1789.",
+   "file": "cic/texts/moreau-de-saint-mery_description-partie-francaise-saint-domingue-t1-fra_1797.txt",
+   "lines": "80",
+   "quote": "r époque du i8 Oâîobre 1789",
+   "rendering": "the state of the colony \"at the date of 18 October 1789\" (OCR of the title page reads i8 Oâîobre)"
+  },
+  {
+   "entry": "colonial-latin-american-devotional-catholicism",
+   "field": "longDescription",
+   "sentence": "Moreau was at Le Cap in 1783, and in 1788 the Navy minister gave him a drafting task for the colonies.",
+   "file": "cic/texts/moreau-de-saint-mery_description-partie-francaise-saint-domingue-t1-fra_1797.txt",
+   "lines": "20692",
+   "quote": "j'ai vu au greffe de la Sénéchauffée du Cap, en 1783",
+   "rendering": "\"I saw in the registry of the Seneschal's court at Le Cap, in 1783\" (baptism registers)"
+  },
+  {
+   "entry": "colonial-latin-american-devotional-catholicism",
+   "field": "longDescription",
+   "sentence": "Moreau was at Le Cap in 1783, and in 1788 the Navy minister gave him a drafting task for the colonies.",
+   "file": "cic/texts/moreau-de-saint-mery_description-partie-francaise-saint-domingue-t1-fra_1797.txt",
+   "lines": "18699-18700",
+   "quote": "le miniftre de la marine me chargea en 1788 , d'une rédaélion appropriée aux Colonies",
+   "rendering": "\"the Minister of the Navy charged me in 1788 with a drafting suited to the Colonies\""
+  },
+  {
+   "entry": "colonial-latin-american-devotional-catholicism",
+   "field": "longDescription",
+   "sentence": "He writes from the colonists' side, so the picture of the Black people in it is his, not theirs.",
+   "record": "reading of the passages quoted below",
+   "note": "A judgement from reading, not a statement by Moreau. It rests on the quoted passages (2600-2602, 2617-2618 of tome I), where he describes Africans in the third person and in a master's tone. Only the named passages were read."
+  },
+  {
+   "entry": "colonial-latin-american-devotional-catholicism",
+   "field": "longDescription",
+   "sentence": "He says the parishes of the North first had Capuchins as pastors.",
+   "file": "cic/texts/moreau-de-saint-mery_description-partie-francaise-saint-domingue-t1-fra_1797.txt",
+   "lines": "6889-6890",
+   "quote": "Les églifes de la Partie du Nord ont eu originairement des Capucins pour pafteurs",
+   "rendering": "\"The churches of the Northern Part had Capuchins as pastors at the start\""
+  },
+  {
+   "entry": "colonial-latin-american-devotional-catholicism",
+   "field": "longDescription",
+   "sentence": "In 1704 the Capuchins could not supply enough men and gave up the mission.",
+   "file": "cic/texts/moreau-de-saint-mery_description-partie-francaise-saint-domingue-t1-fra_1797.txt",
+   "lines": "6891-6892",
+   "quote": "En 1704, les capucins ne pouvant plus fournir les fujets néceffaires , ils abandonnèrent cette miffion",
+   "rendering": "\"In 1704 the Capuchins, no longer able to supply the men needed, gave up this mission\""
+  },
+  {
+   "entry": "colonial-latin-american-devotional-catholicism",
+   "field": "longDescription",
+   "sentence": "The Jesuits took it over and kept it until their order was expelled from the colony, at the end of 1763.",
+   "file": "cic/texts/moreau-de-saint-mery_description-partie-francaise-saint-domingue-t1-fra_1797.txt",
+   "lines": "6892-6894",
+   "quote": "les fils de Loyola remplacèrent les difciples de Saint-François. Ils la gardèrent jufqu'à leur expulfion de la Colonie , à la fin de T763",
+   "rendering": "\"the sons of Loyola replaced the disciples of Saint Francis. They kept it until their expulsion from the Colony, at the end of 1763\" (OCR reads T763)"
+  },
+  {
+   "entry": "colonial-latin-american-devotional-catholicism",
+   "field": "longDescription",
+   "sentence": "Secular priests held it until 1768, when the Capuchins came back.",
+   "file": "cic/texts/moreau-de-saint-mery_description-partie-francaise-saint-domingue-t1-fra_1797.txt",
+   "lines": "6894-6895",
+   "quote": "Les prêtres féculiers en ont été chargés depuis lors jufqu'en 1768 , qu'elle eft repailée aux Capucins",
+   "rendering": "\"The secular priests were in charge of it from then until 1768, when it passed back to the Capuchins\""
+  },
+  {
+   "entry": "colonial-latin-american-devotional-catholicism",
+   "field": "longDescription",
+   "sentence": "In the West, the Dominicans served the parishes.",
+   "file": "cic/texts/moreau-de-saint-mery_description-partie-francaise-saint-domingue-t2-fra_1797.txt",
+   "lines": "19731-19732",
+   "quote": "fe chargèrent de deflervir les paroiffes de l'Oueft",
+   "rendering": "\"took on the serving of the parishes of the West\""
+  },
+  {
+   "entry": "colonial-latin-american-devotional-catholicism",
+   "field": "longDescription",
+   "sentence": "Moreau judges the Africans of the colony harshly.",
+   "record": "reading of the passage quoted next",
+   "note": "Characterization of the tone of tome I lines 2597-2603. Not a fact about the colony."
+  },
+  {
+   "entry": "colonial-latin-american-devotional-catholicism",
+   "field": "longDescription",
+   "sentence": "He says they could not sort religious ideas in their minds, so that all their belief lay in outward signs.",
+   "file": "cic/texts/moreau-de-saint-mery_description-partie-francaise-saint-domingue-t1-fra_1797.txt",
+   "lines": "2600-2601",
+   "quote": "Incapables de clafTer dans leur efprit les idées religieufes , ils font confiller toute leur croyance dans les démonftrations extérieures",
+   "rendering": "\"Unable to sort religious ideas in their minds, they make all their belief consist in outward shows\""
+  },
+  {
+   "entry": "colonial-latin-american-devotional-catholicism",
+   "field": "longDescription",
+   "sentence": "In church, he says, they mumbled prayers they knew badly, or slept.",
+   "file": "cic/texts/moreau-de-saint-mery_description-partie-francaise-saint-domingue-t1-fra_1797.txt",
+   "lines": "2601-2603",
+   "quote": "ils y marmotent quelques prières qu'ils favent mal , ou bien ils y dorment",
+   "rendering": "\"they mumble there some prayers that they know badly, or else they sleep there\""
+  },
+  {
+   "entry": "colonial-latin-american-devotional-catholicism",
+   "field": "longDescription",
+   "sentence": "Yet he reports that new arrivals from Africa pressed to be baptized.",
+   "file": "cic/texts/moreau-de-saint-mery_description-partie-francaise-saint-domingue-t1-fra_1797.txt",
+   "lines": "2607-2611",
+   "quote": "les Africains qu'on apoflrophe en les appellant Chevaux , font très-empreffés à fe faire baptifer",
+   "rendering": "\"the Africans, whom people taunt by calling them Horses, are very eager to be baptized\"; the lines just before say the Creole Black people claim superiority \"because of the baptism they have received\""
+  },
+  {
+   "entry": "colonial-latin-american-devotional-catholicism",
+   "field": "longDescription",
+   "sentence": "Black people born in the colony claimed to stand far above them because of their baptism, and the newcomers were taunted as \"horses\".",
+   "file": "cic/texts/moreau-de-saint-mery_description-partie-francaise-saint-domingue-t1-fra_1797.txt",
+   "lines": "2606-2611",
+   "quote": "à caufe du baptême qu'ils ont reçu , à une grande fupériorité fur tous les nègres arrivant d'Afrique",
+   "rendering": "\"because of the baptism they have received, [they claim] a great superiority over all the Black people arriving from Africa\"; the taunt \"Horses\" is in the quote of the row before"
+  },
+  {
+   "entry": "colonial-latin-american-devotional-catholicism",
+   "field": "longDescription",
+   "sentence": "Adults were baptized on two Saturdays of the year, often with no preparation.",
+   "file": "cic/texts/moreau-de-saint-mery_description-partie-francaise-saint-domingue-t1-fra_1797.txt",
+   "lines": "2611-2613",
+   "quote": "A certaines époques telles que celles du Samedi Saint & du Samedi xle la Pentecôte , oij l'on baptife les adultes , les nègres fe rendent à l'églife , & trop fouvent fans aucune préparation",
+   "rendering": "\"At certain times such as Holy Saturday and the Saturday of Pentecost, when adults are baptized, they go to the church, and too often with no preparation\" (OCR reads xle for de, oij for où)"
+  },
+  {
+   "entry": "colonial-latin-american-devotional-catholicism",
+   "field": "longDescription",
+   "sentence": "He says they held a godparent in more respect than their own father and mother.",
+   "file": "cic/texts/moreau-de-saint-mery_description-partie-francaise-saint-domingue-t1-fra_1797.txt",
+   "lines": "2617-2618",
+   "quote": "pour leur parrain & leur marraine eft pouffé fi loin , qu'il .l'emporte fur celui qu'ils ont pour leur père & pour leur mère",
+   "rendering": "\"their respect for their godfather and godmother is pushed so far that it outweighs the respect they have for their father and mother\""
+  },
+  {
+   "entry": "colonial-latin-american-devotional-catholicism",
+   "field": "longDescription",
+   "sentence": "At Le Cap, after the parish Mass on Sundays, Black worshippers met in the church.",
+   "file": "cic/texts/moreau-de-saint-mery_description-partie-francaise-saint-domingue-t1-fra_1797.txt",
+   "lines": "18653-18654",
+   "quote": "Le dimanche, immédiatement après la raeffe paroiffiale, les nègres fe réunififent dans l'églife",
+   "rendering": "\"On Sunday, right after the parish Mass, the Blacks gather in the church\" (OCR reads raeffe for messe)"
+  },
+  {
+   "entry": "colonial-latin-american-devotional-catholicism",
+   "field": "longDescription",
+   "sentence": "They prayed and sang hymns, led by some old men and women.",
+   "file": "cic/texts/moreau-de-saint-mery_description-partie-francaise-saint-domingue-t1-fra_1797.txt",
+   "lines": "18654-18656",
+   "quote": "y font la prière & chantent des cantiques ; quelques vieillards des deux fexes fe font les chefs de ces exercices",
+   "rendering": "\"they say the prayer there and sing hymns; some old people of both sexes make themselves the leaders of these exercises\""
+  },
+  {
+   "entry": "colonial-latin-american-devotional-catholicism",
+   "field": "longDescription",
+   "sentence": "A low Mass followed, which Moreau calls la messe des nègres, the Mass of the Black people.",
+   "file": "cic/texts/moreau-de-saint-mery_description-partie-francaise-saint-domingue-t1-fra_1797.txt",
+   "lines": "18656-18658",
+   "quote": "appelée la meffe des. nègres",
+   "rendering": "\"called the Mass of the Blacks\""
+  },
+  {
+   "entry": "colonial-latin-american-devotional-catholicism",
+   "field": "longDescription",
+   "sentence": "A low Mass followed, which Moreau calls la messe des nègres, the Mass of the Black people.",
+   "file": "cic/texts/moreau-de-saint-mery_description-partie-francaise-saint-domingue-t1-fra_1797.txt",
+   "lines": "28794",
+   "quote": "La meffe, appelée des nègres, fut auflî inftituée par lui.",
+   "rendering": "\"The Mass, called the Mass of the Blacks, was also instituted by him\""
+  },
+  {
+   "entry": "colonial-latin-american-devotional-catholicism",
+   "field": "longDescription",
+   "sentence": "He credits the Jesuit Pierre Boutin, who reached Le Cap in 1705, with teaching them each evening, with the baptism of adults at Easter and Pentecost, and with that Mass.",
+   "file": "cic/texts/moreau-de-saint-mery_description-partie-francaise-saint-domingue-t1-fra_1797.txt",
+   "lines": "28774-28775",
+   "quote": "Le père Pierre Boutin , jéluite.",
+   "rendering": "\"Father Pierre Boutin, Jesuit\""
+  },
+  {
+   "entry": "colonial-latin-american-devotional-catholicism",
+   "field": "longDescription",
+   "sentence": "He credits the Jesuit Pierre Boutin, who reached Le Cap in 1705, with teaching them each evening, with the baptism of adults at Easter and Pentecost, and with that Mass.",
+   "file": "cic/texts/moreau-de-saint-mery_description-partie-francaise-saint-domingue-t1-fra_1797.txt",
+   "lines": "28775",
+   "quote": "Arrivé au Cap en 1705, en qualité de miffionnaire",
+   "rendering": "\"Arrived at Le Cap in 1705, as a missionary\""
+  },
+  {
+   "entry": "colonial-latin-american-devotional-catholicism",
+   "field": "longDescription",
+   "sentence": "He credits the Jesuit Pierre Boutin, who reached Le Cap in 1705, with teaching them each evening, with the baptism of adults at Easter and Pentecost, and with that Mass.",
+   "file": "cic/texts/moreau-de-saint-mery_description-partie-francaise-saint-domingue-t1-fra_1797.txt",
+   "lines": "28791-28793",
+   "quote": "Ce fut lui qui établit le premier, l'ufao-e de faire le baptême des adultes , aux deux époques annuelles, des famcdis de Pâques & de la Pentecôte",
+   "rendering": "\"It was he who first established the custom of baptizing adults at the two yearly times, the Saturdays of Easter and of Pentecost\""
+  },
+  {
+   "entry": "colonial-latin-american-devotional-catholicism",
+   "field": "longDescription",
+   "sentence": "He credits the Jesuit Pierre Boutin, who reached Le Cap in 1705, with teaching them each evening, with the baptism of adults at Easter and Pentecost, and with that Mass.",
+   "file": "cic/texts/moreau-de-saint-mery_description-partie-francaise-saint-domingue-t1-fra_1797.txt",
+   "lines": "28793-28794",
+   "quote": "chaque foir il faifaitune inflruftion au-devant du perron que l'églife avait alors",
+   "rendering": "\"each evening he gave an instruction in front of the steps the church then had\""
+  },
+  {
+   "entry": "colonial-latin-american-devotional-catholicism",
+   "field": "longDescription",
+   "sentence": "Guatemala gave this world a brotherhood that ran a hospital.",
+   "file": "cic/texts/montalvo_vida-admirable-pedro-de-san-jose-betancur-spa_1683.txt",
+   "lines": "5165-5166",
+   "quote": "Hofpital de Belem de Guatemala",
+   "rendering": "\"Hospital of Bethlehem of Guatemala\"; the title page calls Pedro the founder of the Bethlemite Company in the West Indies"
+  },
+  {
+   "entry": "colonial-latin-american-devotional-catholicism",
+   "field": "longDescription",
+   "sentence": "It was called the Bethlemites.",
+   "file": "cic/texts/montalvo_vida-admirable-pedro-de-san-jose-betancur-spa_1683.txt",
+   "lines": "709-710",
+   "quote": "Compañía Bethlemitica > que hauia de fundar",
+   "rendering": "\"the Bethlemite Company, which he was to found\""
+  },
+  {
+   "entry": "colonial-latin-american-devotional-catholicism",
+   "field": "longDescription",
+   "sentence": "Pedro de Betancur founded it and took the name Pedro de San José.",
+   "file": "cic/texts/montalvo_vida-admirable-pedro-de-san-jose-betancur-spa_1683.txt",
+   "lines": "5406-5408",
+   "quote": "pidió al Obifpo que le mudafe el apellido de Betancur en el de S- Iofcph",
+   "rendering": "\"he asked the Bishop to change his surname of Betancur to that of S. Joseph\""
+  },
+  {
+   "entry": "colonial-latin-american-devotional-catholicism",
+   "field": "longDescription",
+   "sentence": "One is a Life printed at Rome in 1683, by Francisco Antonio de Montalvo.",
+   "record": "file header, montalvo_vida-admirable-pedro-de-san-jose-betancur-spa_1683.txt",
+   "note": "Title page read directly: author, Rome, Nicolas Angel Tinassi, MDCLXXXIII."
+  },
+  {
+   "entry": "colonial-latin-american-devotional-catholicism",
+   "field": "longDescription",
+   "sentence": "The other is the order's own history of 1723, by Joseph García de la Concepción, a Discalced Franciscan who wrote it for the order.",
+   "record": "file header, garcia-de-la-concepcion_historia-bethlehemitica-spa_1723.txt",
+   "note": "Header: Joseph Garcia de la Concepcion, Discalced Franciscan, for the Bethlemite procurator general; title page 1723, approbation dated Madrid, 27 July 1723. Written for the Bethlemite procurator general Fr. Miguel de la Concepción (file header)."
+  },
+  {
+   "entry": "colonial-latin-american-devotional-catholicism",
+   "field": "longDescription",
+   "sentence": "Two books tell his story, and both are hagiography, written to honor him.",
+   "record": "titles of the two works",
+   "note": "The titles call him \"venerable hermano\" (Montalvo: Vida admirable y muerte preciosa) and \"venerable siervo de Dios\" (Garcia: vida exemplar y admirable). The genre is read from the titles and from the miracle passages in the text."
+  },
+  {
+   "entry": "colonial-latin-american-devotional-catholicism",
+   "field": "longDescription",
+   "sentence": "Montalvo says Pedro was born on Tenerife.",
+   "file": "cic/texts/montalvo_vida-admirable-pedro-de-san-jose-betancur-spa_1683.txt",
+   "lines": "547-548",
+   "quote": "quiflb la diuina prouidenciaque naciefe Pedro de",
+   "rendering": "\"divine providence was pleased that Pedro de Betancur should be born\" in the island of Tenerife (the opening words of the line, N Ja -Isla de Tenerife, are damaged)"
+  },
+  {
+   "entry": "colonial-latin-american-devotional-catholicism",
+   "field": "longDescription",
+   "sentence": "He sailed for the Indies in 1650 and reached Guatemala City in 1651.",
+   "file": "cic/texts/montalvo_vida-admirable-pedro-de-san-jose-betancur-spa_1683.txt",
+   "lines": "648-649",
+   "quote": "De las Islas Canarias falio Pedro de Bctancur para las Indias el año de 1650.",
+   "rendering": "\"From the Canary Islands Pedro de Betancur set out for the Indies in the year 1650.\""
+  },
+  {
+   "entry": "colonial-latin-american-devotional-catholicism",
+   "field": "longDescription",
+   "sentence": "He sailed for the Indies in 1650 and reached Guatemala City in 1651.",
+   "file": "cic/texts/montalvo_vida-admirable-pedro-de-san-jose-betancur-spa_1683.txt",
+   "lines": "691-693",
+   "quote": "Ciudad de Gua- temala , adonde le lleuó fu feliz, eftrclla el año de 1651.",
+   "rendering": "\"the City of Guatemala, where his happy star led him in the year 1651\""
+  },
+  {
+   "entry": "colonial-latin-american-devotional-catholicism",
+   "field": "longDescription",
+   "sentence": "Montalvo writes of the Hospital of Our Lady of Bethlehem.",
+   "file": "cic/texts/montalvo_vida-admirable-pedro-de-san-jose-betancur-spa_1683.txt",
+   "lines": "2040-2041",
+   "quote": "en el Ho/piral de Nueftra Señora de Bethlem",
+   "rendering": "\"in the Hospital of Our Lady of Bethlehem\""
+  },
+  {
+   "entry": "colonial-latin-american-devotional-catholicism",
+   "field": "longDescription",
+   "sentence": "He also writes of a Bethlemite Company that Pedro was to found.",
+   "file": "cic/texts/montalvo_vida-admirable-pedro-de-san-jose-betancur-spa_1683.txt",
+   "lines": "709-710",
+   "quote": "Compañía Bethlemitica > que hauia de fundar",
+   "rendering": "\"the Bethlemite Company, which he was to found\""
+  },
+  {
+   "entry": "colonial-latin-american-devotional-catholicism",
+   "field": "longDescription",
+   "sentence": "It was to shelter the sick, the poor and the abandoned.",
+   "file": "cic/texts/montalvo_vida-admirable-pedro-de-san-jose-betancur-spa_1683.txt",
+   "lines": "710-712",
+   "quote": "albergue dev enfermos , pobres > y defamparados",
+   "rendering": "\"a shelter for the sick, the poor and the abandoned\""
+  },
+  {
+   "entry": "colonial-latin-american-devotional-catholicism",
+   "field": "longDescription",
+   "sentence": "Members of the Third Order of St Francis, he says, moved over to the new house of hospitality.",
+   "file": "cic/texts/montalvo_vida-admirable-pedro-de-san-jose-betancur-spa_1683.txt",
+   "lines": "2560-2563",
+   "quote": "De los que profefauan el fanto jnfti- tuto de Ja Tercera Orden, y beftian extcriormeji- te fu habito fe paíaron Jos mas feruorolos a la nueua Hoípitalidad",
+   "rendering": "\"Of those who professed the holy institute of the Third Order and wore its habit outwardly, the most fervent passed to the new Hospitality\""
+  },
+  {
+   "entry": "colonial-latin-american-devotional-catholicism",
+   "field": "longDescription",
+   "sentence": "Members of the Third Order of St Francis, he says, moved over to the new house of hospitality.",
+   "file": "cic/texts/montalvo_vida-admirable-pedro-de-san-jose-betancur-spa_1683.txt",
+   "lines": "2997-2999",
+   "quote": "Orden Tercera , y de Sacriftan de la Capilla, que tiene en la íglclia del gloriofo Padre S.Francifco",
+   "rendering": "\"the Third Order, and sacristan of the chapel it has in the church of the glorious Father St Francis\""
+  },
+  {
+   "entry": "colonial-latin-american-devotional-catholicism",
+   "field": "longDescription",
+   "sentence": "He died in April 1667.",
+   "file": "cic/texts/montalvo_vida-admirable-pedro-de-san-jose-betancur-spa_1683.txt",
+   "lines": "8901",
+   "quote": "en el de 1667. hauicndopuefto",
+   "rendering": "\"in that of 1667, having put\" (the year of the last list of the dead he wrote)"
+  },
+  {
+   "entry": "colonial-latin-american-devotional-catholicism",
+   "field": "longDescription",
+   "sentence": "He died in April 1667.",
+   "file": "cic/texts/montalvo_vida-admirable-pedro-de-san-jose-betancur-spa_1683.txt",
+   "lines": "8903",
+   "quote": "en el de Abril , que fue quando murió",
+   "rendering": "\"in that of April, which was when he died\""
+  },
+  {
+   "entry": "colonial-latin-american-devotional-catholicism",
+   "field": "longDescription",
+   "sentence": "Montalvo's Life is full of wonders.",
+   "record": "reading of Montalvo",
+   "note": "A summary of the genre. Examples at 5419-5435 (the Virgin's favor) and 8474-8478 (Pedro foretells where the church will be built)."
+  },
+  {
+   "entry": "colonial-latin-american-devotional-catholicism",
+   "field": "longDescription",
+   "sentence": "In one, he says, the Virgin let Pedro know how welcome his service was, by a favor no less rare than miraculous.",
+   "file": "cic/texts/montalvo_vida-admirable-pedro-de-san-jose-betancur-spa_1683.txt",
+   "lines": "5419-5433",
+   "quote": "Alentaua la Reyna de los Cíelos la afé&uofa dcuocion del Venerable Hermano con los efectos de fu mrfericordia",
+   "rendering": "\"The Queen of Heaven encouraged the loving devotion of the Venerable Brother with the effects of her mercy\""
+  },
+  {
+   "entry": "colonial-latin-american-devotional-catholicism",
+   "field": "longDescription",
+   "sentence": "In one, he says, the Virgin let Pedro know how welcome his service was, by a favor no less rare than miraculous.",
+   "file": "cic/texts/montalvo_vida-admirable-pedro-de-san-jose-betancur-spa_1683.txt",
+   "lines": "5433",
+   "quote": "fue vna no menos íingular que milagrofa",
+   "rendering": "\"was one no less singular than miraculous\""
+  },
+  {
+   "entry": "colonial-latin-american-devotional-catholicism",
+   "field": "longDescription",
+   "sentence": "Of one such wonder Montalvo says he offers it only as human report, because the Sacred Congregation of Rites is the body that weighs miracles.",
+   "file": "cic/texts/montalvo_vida-admirable-pedro-de-san-jose-betancur-spa_1683.txt",
+   "lines": "681-682",
+   "quote": "no la propongo con mas euidente crédito , que el que debe atribuiríe á la relatiua",
+   "rendering": "\"I offer it with no clearer credit than is owed to the relative [report] of human news\""
+  },
+  {
+   "entry": "colonial-latin-american-devotional-catholicism",
+   "field": "longDescription",
+   "sentence": "Of one such wonder Montalvo says he offers it only as human report, because the Sacred Congregation of Rites is the body that weighs miracles.",
+   "file": "cic/texts/montalvo_vida-admirable-pedro-de-san-jose-betancur-spa_1683.txt",
+   "lines": "686-687",
+   "quote": "donde fe examinan , y aualoran los pro-",
+   "rendering": "\"where the prodigies and miracles of the Servants of God are examined and weighed, after being legitimately proved\" (the quote ends at a line break)"
+  },
+  {
+   "entry": "colonial-latin-american-devotional-catholicism",
+   "field": "longDescription",
+   "sentence": "García says the brothers sent their constitutions to Brother Antonio de la Cruz at Madrid. He was to go to Rome and seek apostolic confirmation.",
+   "file": "cic/texts/garcia-de-la-concepcion_historia-bethlehemitica-spa_1723.txt",
+   "lines": "27377-27385",
+   "quote": "Madrid el Herma- no Antonio de la Cruz",
+   "rendering": "\"the Brother Antonio de la Cruz was at the Court of Madrid\""
+  },
+  {
+   "entry": "colonial-latin-american-devotional-catholicism",
+   "field": "longDescription",
+   "sentence": "García says the brothers sent their constitutions to Brother Antonio de la Cruz at Madrid. He was to go to Rome and seek apostolic confirmation.",
+   "file": "cic/texts/garcia-de-la-concepcion_historia-bethlehemitica-spa_1723.txt",
+   "lines": "27382-27385",
+   "quote": "vna copia autentica de las Conftítuciones j ordenándole^ que paflaíTe a Roma , yfolicitafle ía dicha Apoftolica confirmación",
+   "rendering": "\"an authentic copy of the Constitutions, ordering him to go to Rome and seek the said Apostolic confirmation\""
+  },
+  {
+   "entry": "colonial-latin-american-devotional-catholicism",
+   "field": "longDescription",
+   "sentence": "Antonio went to the Roman Curia and won papal confirmation of the constitutions.",
+   "file": "cic/texts/garcia-de-la-concepcion_historia-bethlehemitica-spa_1723.txt",
+   "lines": "27386-27390",
+   "quote": "Obedeció efte mandato cl Her- mano Antonio : y aviendo hecho fu pretenfion en la Curia Romana, alcanzó confirmación Pontificia",
+   "rendering": "\"Brother Antonio obeyed this order; and having made his petition in the Roman Curia, he obtained papal confirmation\""
+  },
+  {
+   "entry": "colonial-latin-american-devotional-catholicism",
+   "field": "longDescription",
+   "sentence": "García prints the bull of Clement X for it.",
+   "file": "cic/texts/garcia-de-la-concepcion_historia-bethlehemitica-spa_1723.txt",
+   "lines": "27399-27400",
+   "quote": "expidió el Señor Clemente X fu Bula",
+   "rendering": "\"Clement X issued his Bull\"; the lines before say this was for the confirmation"
+  },
+  {
+   "entry": "colonial-latin-american-devotional-catholicism",
+   "field": "longDescription",
+   "sentence": "García also prints a bull of Innocent XI.",
+   "file": "cic/texts/garcia-de-la-concepcion_historia-bethlehemitica-spa_1723.txt",
+   "lines": "38959-38961",
+   "quote": "INNOCENCIO PAPA VNDEZIMO.",
+   "rendering": "\"Innocent, Pope, the Eleventh\""
+  },
+  {
+   "entry": "colonial-latin-american-devotional-catholicism",
+   "field": "longDescription",
+   "sentence": "It closes with the date 26 March 1687, in the eleventh year of that pope's reign.",
+   "file": "cic/texts/garcia-de-la-concepcion_historia-bethlehemitica-spa_1723.txt",
+   "lines": "40979-40983",
+   "quote": "eldia 26 deMar;^o de i62y,elam 1 1 de nuefiro Ponti-",
+   "rendering": "\"the 26th day of March of 1687, the 11th year of our Pontificate\". The year is read from the page image (García, Libro II, leaf n456 of archive.org historiabethlehe00guat, checked by the reviewer); the OCR reads i62y."
+  },
+  {
+   "entry": "colonial-latin-american-devotional-catholicism",
+   "field": "longDescription",
+   "sentence": "A later memorial recalls the pope's grace in raising the Company to a regular community under the Rule of St Augustine.",
+   "file": "cic/texts/garcia-de-la-concepcion_historia-bethlehemitica-spa_1723.txt",
+   "lines": "41042-41043",
+   "quote": "prefencó vn Memorial á la San- tidad de Innocencio vridecimo",
+   "rendering": "\"presented a Memorial to the Holiness of Innocent the Eleventh\""
+  },
+  {
+   "entry": "colonial-latin-american-devotional-catholicism",
+   "field": "longDescription",
+   "sentence": "A later memorial recalls the pope's grace in raising the Company to a regular community under the Rule of St Augustine.",
+   "file": "cic/texts/garcia-de-la-concepcion_historia-bethlehemitica-spa_1723.txt",
+   "lines": "41045-41048",
+   "quote": "erigir fu Compañia en Comunidad Regu- lar debaxo de la P^egla de elGran Padre San Aguftin",
+   "rendering": "\"to erect his Company into a Regular Community under the Rule of the Great Father St Augustine\""
+  },
+  {
+   "entry": "the-black-church-in-america",
+   "field": "longDescription",
+   "sentence": "In 1874 a church in the United States made a bishop for Haiti, and its mission board asked that he be of the African race.",
+   "file": "cic/texts/spirit-of-missions_v39-1874-12-haiti-triennial-report_1874.txt",
+   "lines": "3090-3092",
+   "quote": "that such Missionary Bishop should be of the African race and invested with Haitien, citizenship."
+  },
+  {
+   "entry": "the-black-church-in-america",
+   "field": "longDescription",
+   "sentence": "The Spirit of Missions for December 1874, the journal of the Protestant Episcopal Church's mission board, prints a triennial report on the Haitian church.",
+   "file": "cic/texts/spirit-of-missions_v39-1874-12-haiti-triennial-report_1874.txt",
+   "lines": "3035-3036",
+   "quote": "TRIENNIAL REPORT* OF THE MISSIONARY JURISDICTION OF HAITI? FOR THE YEARS 1872-74."
+  },
+  {
+   "entry": "the-black-church-in-america",
+   "field": "longDescription",
+   "sentence": "The Spirit of Missions for December 1874, the journal of the Protestant Episcopal Church's mission board, prints a triennial report on the Haitian church.",
+   "record": "file header, spirit-of-missions_v39-1874-12-haiti-triennial-report_1874.txt",
+   "note": "Header: The Spirit of Missions, vol. XXXIX, December 1874 (masthead read directly), of the Domestic and Foreign Missionary Society of the Protestant Episcopal Church; the Board of Missions."
+  },
+  {
+   "entry": "the-black-church-in-america",
+   "field": "longDescription",
+   "sentence": "It is signed by J. Theodore Holly as Dean, at Port-au-Prince on 30 June 1874, but Holly's own part is a table of districts and his signature.",
+   "file": "cic/texts/spirit-of-missions_v39-1874-12-haiti-triennial-report_1874.txt",
+   "lines": "3069-3070",
+   "quote": "Je THEODORE HOLLY, Port-Au-PRIncE, June 30, 1874. Dean."
+  },
+  {
+   "entry": "the-black-church-in-america",
+   "field": "longDescription",
+   "sentence": "It is signed by J. Theodore Holly as Dean, at Port-au-Prince on 30 June 1874, but Holly's own part is a table of districts and his signature.",
+   "record": "reading of lines 3035-3070",
+   "note": "The report proper is a table of six missionary districts with counts (OCR too noisy to quote) and the signature. The Board's text on the episcopate (3073-3150) and the news items are not signed by Holly. "
+  },
+  {
+   "entry": "the-black-church-in-america",
+   "field": "longDescription",
+   "sentence": "The story around it is the board's.",
+   "file": "cic/texts/spirit-of-missions_v39-1874-12-haiti-triennial-report_1874.txt",
+   "lines": "3073-3083",
+   "quote": "The subject of a Missionary Episcopate for ITaiti was committed by the Board of Missions"
+  },
+  {
+   "entry": "the-black-church-in-america",
+   "field": "longDescription",
+   "sentence": "The board wanted the missionary bishop to be of the African race and a Haitian citizen.",
+   "file": "cic/texts/spirit-of-missions_v39-1874-12-haiti-triennial-report_1874.txt",
+   "lines": "3090-3092",
+   "quote": "in the opinion of this Board it is desirable, if not all important, that such Missionary Bishop should be of the African race and invested with Haitien, citizenship."
+  },
+  {
+   "entry": "the-black-church-in-america",
+   "field": "longDescription",
+   "sentence": "The Dean of the Haitian Convocation came to make a covenant with the American church.",
+   "file": "cic/texts/spirit-of-missions_v39-1874-12-haiti-triennial-report_1874.txt",
+   "lines": "3099-3102",
+   "quote": "The Dean of the Haitien Convocation came here clothed with full powers by that Convocation to make a covenant with the Protestant"
+  },
+  {
+   "entry": "the-black-church-in-america",
+   "field": "longDescription",
+   "sentence": "By it, the Church in Haiti was a foreign church, still aided by the American one.",
+   "file": "cic/texts/spirit-of-missions_v39-1874-12-haiti-triennial-report_1874.txt",
+   "lines": "3121-3124",
+   "quote": "but it is to be still aided by the Missionary succour of the Church in the United States during its infant development."
+  },
+  {
+   "entry": "the-black-church-in-america",
+   "field": "longDescription",
+   "sentence": "By it, the Church in Haiti was a foreign church, still aided by the American one.",
+   "file": "cic/texts/spirit-of-missions_v39-1874-12-haiti-triennial-report_1874.txt",
+   "lines": "3121-3123",
+   "quote": "The Church in Haiti was recognized to be a foreign Church in the meaning of Article X."
+  },
+  {
+   "entry": "the-black-church-in-america",
+   "field": "longDescription",
+   "sentence": "The Haitian church promised to keep the doctrine, worship and discipline of the American church.",
+   "file": "cic/texts/spirit-of-missions_v39-1874-12-haiti-triennial-report_1874.txt",
+   "lines": "3137-3140",
+   "quote": "The Haitien Church agrees always to observe a conformity to the doctrines, worship and discipline of the Protestant Episcopal Church in the United States of America, in all essential particulars"
+  },
+  {
+   "entry": "the-black-church-in-america",
+   "field": "longDescription",
+   "sentence": "The House of Bishops chose Holly as the first bishop.",
+   "file": "cic/texts/spirit-of-missions_v39-1874-12-haiti-triennial-report_1874.txt",
+   "lines": "3147-3150",
+   "quote": "the Rev. Dr. Holly was chosen by the House of Bishops to be the first Bishop in Haiti, and was consecrated to the office in Grace Church, New York, on Sunday, November 8, 1874."
+  },
+  {
+   "entry": "the-black-church-in-america",
+   "field": "longDescription",
+   "sentence": "He was consecrated in Grace Church, New York, on 8 November 1874.",
+   "file": "cic/texts/spirit-of-missions_v39-1874-12-haiti-triennial-report_1874.txt",
+   "lines": "3147-3150",
+   "quote": "the Rev. Dr. Holly was chosen by the House of Bishops to be the first Bishop in Haiti, and was consecrated to the office in Grace Church, New York, on Sunday, November 8, 1874."
+  },
+  {
+   "entry": "the-black-church-in-america",
+   "field": "longDescription",
+   "sentence": "In 1874 a church in the United States made a bishop for Haiti, and its mission board asked that he be of the African race.",
+   "file": "cic/texts/spirit-of-missions_v39-1874-12-haiti-triennial-report_1874.txt",
+   "lines": "3147-3150",
+   "quote": "the Rev. Dr. Holly was chosen by the House of Bishops to be the first Bishop in Haiti, and was consecrated to the office in Grace Church, New York, on Sunday, November 8, 1874."
+  }
+ ],
+ "neighbor_changes": [
+  {
+   "id": "colonial-latin-american-devotional-catholicism",
+   "set": {
+    "longDescription": "Once the first missionary generation had passed, Catholicism in Spanish America settled into being the ordinary religion of whole societies, and its real institutions were local: the cofradías, lay confraternities that maintained an altar or an image, buried their members and paid for their funerals, organized by trade, by parish and often by race — with indigenous confraternities and Black brotherhoods running their own devotional life. Its saints were homegrown: Rose of Lima, canonized in 1671 as the first saint of the Americas, and Martín de Porres, the mixed-race Dominican lay brother of the same city. Its convents produced writers of the first rank, among them Sor Juana Inés de la Cruz in Mexico, who defended a woman's right to study, and Úrsula de Jesús in Lima, an enslaved woman later freed, whose spiritual diary survives in her own dictated words. Above all it produced Our Lady of Guadalupe, whose shrine at Tepeyac became the devotional center of Mexico and eventually a symbol of Mexican identity itself.\n\nPortuguese America had its own brotherhoods. In Bahia a sermon of 1633 is headed as preached to the brotherhood of the Blacks of a sugar mill, on the feast of St John the Evangelist. It is by the Jesuit António Vieira, in his Maria Rosa Mystica of 1686. In the same book he tells the enslaved workers of a sugar mill that no labor in the world is more like the Cross and Passion of Christ than theirs (a rendering). In 1711 André João Antonil wrote of the mills. He says some masters keep enslaved people for a long time in the cane fields or the mill without baptism. He tells masters not to object when the enslaved choose their own kings. He tells them to let the enslaved keep their morning feasts of Our Lady of the Rosary, of St Benedict and of the patron of the mill chapel. In 1741 Benedict XIV wrote to the bishops of Brazil, Paraguay and the Río de la Plata. His bull Immensa pastorum principis condemned those who enslaved or sold Indians, even baptized ones.\n\nSaint-Domingue, the French colony that became Haiti, is seen here through one long witness. It is the Description of Moreau de Saint-Méry, printed in Philadelphia in 1797. It shows the colony as it stood on 18 October 1789. Moreau was at Le Cap in 1783, and in 1788 the Navy minister gave him a drafting task for the colonies. He writes from the colonists' side, so the picture of the Black people in it is his, not theirs.\n\nHe says the parishes of the North first had Capuchins as pastors. In 1704 the Capuchins could not supply enough men and gave up the mission. The Jesuits took it over and kept it until their order was expelled from the colony, at the end of 1763. Secular priests held it until 1768, when the Capuchins came back. In the West, the Dominicans served the parishes.\n\nMoreau judges the Africans of the colony harshly. He says they could not sort religious ideas in their minds, so that all their belief lay in outward signs. In church, he says, they mumbled prayers they knew badly, or slept. Yet he reports that new arrivals from Africa pressed to be baptized. Black people born in the colony claimed to stand far above them because of their baptism, and the newcomers were taunted as \"horses\". Adults were baptized on two Saturdays of the year, often with no preparation. He says they held a godparent in more respect than their own father and mother.\n\nAt Le Cap, after the parish Mass on Sundays, Black worshippers met in the church. They prayed and sang hymns, led by some old men and women. A low Mass followed, which Moreau calls la messe des nègres, the Mass of the Black people. He credits the Jesuit Pierre Boutin, who reached Le Cap in 1705, with teaching them each evening, with the baptism of adults at Easter and Pentecost, and with that Mass.\n\nGuatemala gave this world a brotherhood that ran a hospital. It was called the Bethlemites. Pedro de Betancur founded it and took the name Pedro de San José.\n\nTwo books tell his story, and both are hagiography, written to honor him. One is a Life printed at Rome in 1683, by Francisco Antonio de Montalvo. The other is the order's own history of 1723, by Joseph García de la Concepción, a Discalced Franciscan who wrote it for the order.\n\nMontalvo says Pedro was born on Tenerife. He sailed for the Indies in 1650 and reached Guatemala City in 1651. He died in April 1667.\n\nMontalvo writes of the Hospital of Our Lady of Bethlehem. He also writes of a Bethlemite Company that Pedro was to found. It was to shelter the sick, the poor and the abandoned. Members of the Third Order of St Francis, he says, moved over to the new house of hospitality.\n\nMontalvo's Life is full of wonders. In one, he says, the Virgin let Pedro know how welcome his service was, by a favor no less rare than miraculous. Of one such wonder Montalvo says he offers it only as human report, because the Sacred Congregation of Rites is the body that weighs miracles.\n\nGarcía says the brothers sent their constitutions to Brother Antonio de la Cruz at Madrid. He was to go to Rome and seek apostolic confirmation. Antonio went to the Roman Curia and won papal confirmation of the constitutions. García prints the bull of Clement X for it.\n\nGarcía also prints a bull of Innocent XI. It closes with the date 26 March 1687, in the eleventh year of that pope's reign. A later memorial recalls the pope's grace in raising the Company to a regular community under the Rule of St Augustine.",
+    "sources": [
+     {
+      "work": "The cofradia books: confraternity records across New Spain and Peru, incl. indigenous confraternities' books and Black brotherhoods' records (Afro-Peruvian and Afro-Brazilian rosary confraternities)",
+      "type": "primary",
+      "note": "A lay-run devotional economy that was the ordinary institutional life of the piety; the records themselves were kept under clerical oversight."
+     },
+     {
+      "work": "Convent writings, women's: Sor Juana, Respuesta a Sor Filotea (1691; trans. Arenal & Powell); Madre Maria de San Jose's autobiography (ed. Myers & Powell); Ursula de Jesus, The Souls of Purgatory (ed./trans. van Deusen, UNM, 2004)",
+      "type": "primary",
+      "note": "An enslaved-then-freed convent servant's dictated spiritual diary, begun in 1650 - an enslaved woman's own religious voice, though filtered through the confessor who took her dictation. The convent's racial hierarchy is visible within it."
+     },
+     {
+      "work": "The canonization processes: Rose of Lima (canonized 1671), Martin de Porres (process testimony from the 1660s, ordinary witnesses incl. Afro-Peruvians), Mariana de Quito",
+      "type": "primary",
+      "note": "Canonization-process testimony is structured and led by the questioners, but it remains the era's densest record of ordinary devotees speaking for themselves."
+     },
+     {
+      "work": "The devotional-practice layer: the Guadalupan corpus (Nican Mopohua, published 1649 in Huei tlamahuicoltica; its dating and authorship are still debated), shrine and pilgrimage records, novena imprints; Inquisition and extirpation records that policed popular devotion",
+      "type": "primary",
+      "note": "The records that policed popular devotion come from a hostile administrative source."
+     },
+     {
+      "work": "William B. Taylor, Magistrates of the Sacred (Stanford, 1996), with Asuncion Lavrin, Brides of Christ (Stanford, 2008)",
+      "type": "secondary"
+     },
+     {
+      "work": "Cambridge History of Christianity vol. 7, ch. 19 'Christianity in Iberian America' (Riley)",
+      "type": "reference",
+      "note": "A direct fit for this movement, with the chapter number confirmed."
+     },
+     {
+      "work": "António Vieira, Maria Rosa Mystica (Lisbon: Miguel Deslandes, 1686)",
+      "type": "primary",
+      "note": "Thirty sermons on the Rosary. Sermon XIV is headed as preached in Bahia to the Blacks' brotherhood of a sugar mill. Read in full text online. The print is noisy (the long s) and its wording should be checked against the page images."
+     },
+     {
+      "work": "André João Antonil, Cultura e opulencia do Brasil (Lisbon: Officina Real Deslandesiana, 1711)",
+      "type": "primary",
+      "note": "A Jesuit's manual of the sugar mills of Brazil, with advice to masters on the feasts of the enslaved. Read in full text online. The print is noisy."
+     },
+     {
+      "work": "Benedict XIV, bull Immensa pastorum principis (20 December 1741), in Mirbt, Quellen zur Geschichte des Papsttums, 3rd ed. (1911), no. 454",
+      "type": "primary",
+      "note": "A letter to the bishops of Brazil, Paraguay and the Río de la Plata against the enslaving of Indians. Held in the Library."
+     },
+     {
+      "work": "Eduardo Hoornaert and others, História da Igreja no Brasil (Petrópolis: Vozes, 1977)",
+      "type": "secondary",
+      "note": "First author, title, publisher and year confirmed from a catalog record. The contents were not opened."
+     },
+     {
+      "work": "C. R. Boxer, The Golden Age of Brazil, 1695-1750 (University of California Press, 1962)",
+      "type": "secondary",
+      "note": "Author, title, press and year confirmed from a catalog record. The contents were not opened."
+     },
+     {
+      "work": "M. L. E. Moreau de Saint-Méry, Description topographique, physique, civile, politique et historique de la partie française de l'isle Saint-Domingue, tomes 1 and 2 (Philadelphia: printed for the author, 1797)",
+      "type": "primary",
+      "note": "A long description of the French colony as it stood in 1789. It is a colonial author's view of the Black people it describes, and no enslaved voice speaks in the passages read. Held in the Library; the print is noisy (the long s reads as f)."
+     },
+     {
+      "work": "Francisco Antonio de Montalvo, Vida admirable y muerte preciosa del venerable hermano Pedro de S. Joseph Betancur, fundador de la Compañía Bethlemitica en las Yndias Occidentales (Rome: Nicolas Angel Tinassi, 1683)",
+      "type": "primary",
+      "note": "The first printed Life of the founder, written to honor him. Wonders in it are reported as human testimony, as its author says. Held in the Library; the scan is poor to fair."
+     },
+     {
+      "work": "Joseph García de la Concepción, Historia Bethlehemitica: vida exemplar y admirable del venerable siervo de Dios Pedro de San Joseph Betancur (1723)",
+      "type": "primary",
+      "note": "The order's own history, written by a Discalced Franciscan for the order's procurator general. It prints the papal bulls. Held in the Library; the two columns of the scan interleave in places, so only clean lines are quoted."
+     }
+    ]
+   },
+   "ruling": "G89-18 a, G89-21 a: G89c, source now held",
+   "reason": "LA8-6 names Saint-Domingue as a named line in VII.17 and LA8-9 names the Bethlemites as a named line in VII.17. Moreau (1797), Montalvo (1683) and García (1723) are in the Library and sit inside the row's 1600-1810 window. The two existing paragraphs are carried unchanged."
+  },
+  {
+   "id": "the-black-church-in-america",
+   "set": {
+    "longDescription": "Before the Civil War most Black Christians in America worshipped under white supervision. And made something else of it anyway, in praise houses, brush arbors and night meetings where the preaching, the singing and the theology were their own. Independent congregations appear from the 1770s (Silver Bluff in South Carolina, First African Baptist in Savannah in 1788), and in 1816 Richard Allen, who had walked out of a Philadelphia Methodist church with the rest of its Black members after a trustee pulled Absalom Jones up off his knees in the segregated gallery, organized the African Methodist Episcopal Church — the first Black denomination of national reach; AME Zion followed in 1821. Because the law in much of the South forbade the enslaved to read, the tradition's theology comes down to us largely in what it sang and told: the spirituals, conversion accounts, and self-published narratives like Jarena Lee's. By 1906 it was a whole world of its own. Denominations, colleges, newspapers and a worship life that was about to reshape global Christianity from a mission on Azusa Street.\n\nIn 1874 a church in the United States made a bishop for Haiti, and its mission board asked that he be of the African race. The Spirit of Missions for December 1874, the journal of the Protestant Episcopal Church's mission board, prints a triennial report on the Haitian church. It is signed by J. Theodore Holly as Dean, at Port-au-Prince on 30 June 1874, but Holly's own part is a table of districts and his signature. The story around it is the board's.\n\nThe board also wanted him to be a Haitian citizen. The Dean of the Haitian Convocation came to make a covenant with the American church. By it, the Church in Haiti was a foreign church, still aided by the American one.\n\nThe Haitian church promised to keep the doctrine, worship and discipline of the American church. The House of Bishops chose Holly as the first bishop. He was consecrated in Grace Church, New York, on 8 November 1874.",
+    "sources": [
+     {
+      "work": "Richard Allen, The Life Experience and Gospel Labors (pub. 1833); the 1794 yellow-fever vindication pamphlet (with Absalom Jones); AME Doctrines and Discipline (1817) and General Conference minutes; Daniel Coker, A Dialogue between a Virginian and an African Minister (1810)",
+      "type": "primary",
+      "note": "The founding bishop's own narrative and the church's own records from the start."
+     },
+     {
+      "work": "Jarena Lee, The Life and Religious Experience of Jarena Lee (1836; expanded 1849); Zilpha Elaw, Memoirs (1846); Julia Foote, A Brand Plucked from the Fire (1879)",
+      "type": "primary",
+      "note": "Black women preachers' own narratives (Lee self-published, with Allen's authorization recorded in her own words), collected in Andrews's Sisters of the Spirit."
+     },
+     {
+      "work": "Slave narratives as primary religious texts: Douglass, Narrative (1845, with the appendix on slaveholding religion); Sojourner Truth, Narrative (1850 - dictated); God Struck Me Dead (Fisk interviews, 1920s); WPA ex-slave narratives (1930s)",
+      "type": "primary",
+      "note": "These narratives carry real editorial filters: abolitionist framing, dictation rather than self-authorship in some cases, and interviewer bias. The Fisk and WPA interviews were recorded in the 1920s and 1930s, decades after the events they describe."
+     },
+     {
+      "work": "Spirituals as communal theology: Slave Songs of the United States (1867) and the Fisk Jubilee Singers' repertoire; with David Walker, Appeal (1829) and The Confessions of Nat Turner (1831, recorded by Thomas R. Gray)",
+      "type": "primary",
+      "note": "The spirituals survive here through white transcription and concert-stage arrangement, both real filters on the original oral form. Walker's Appeal is a direct work of Black prophetic writing. Turner's Confessions were recorded by Thomas R. Gray, a white lawyer, from a captive man facing execution - a hostile and coercive context for the text."
+     },
+     {
+      "work": "Albert J. Raboteau, Slave Religion (OUP, 1978; updated 2004), with Milton Sernett (ed.), African American Religious History: A Documentary Witness (Duke, 2nd ed. 1999)",
+      "type": "secondary"
+     },
+     {
+      "work": "Cambridge History of Christianity vol. 8, ch. 22 'Christian America' and 'Christian Canada' (Noll)",
+      "type": "reference",
+      "note": "This reference volume has no dedicated chapter on the Black church; chapter 35 (Kalu) touches on the Atlantic diaspora as related context."
+     },
+     {
+      "work": "The Spirit of Missions, vol. 39 (December 1874): the Triennial Report of the Missionary Jurisdiction of Haiti for 1872-74, signed by J. Theodore Holly as Dean, and the Board's account of the Haitien Episcopate",
+      "type": "primary",
+      "note": "Holly's own part is a table and his signature; the narrative is the Mission Board's, an American Episcopal view of the Haitian church. Held in the Library."
+     }
+    ]
+   },
+   "ruling": "G89-18 a: G89c, source now held",
+   "reason": "LA8-6 names Holly as a named line in VIII.1 or VIII.46. VIII.1 is chosen (c. 1770s-1906); the report of December 1874 sits inside it. Only what the report says is drafted; the 1861 emigration is held."
+  }
+ ],
+ "links": [],
+ "retire_links": [],
+ "holds": [
+  {
+   "item": "LA8-6: the Catholic church of Haiti after 1860 (the concordat church)",
+   "g89": "G89-18 a",
+   "reason": "No French or Haitian Catholic source in the Library. The 1860 Concordat printing was not found. VIII.46 is unchanged (no end moved to 1906).",
+   "waits_for": "A pre-1930 source on the concordat church: the Concordat text of 28 March 1860, or a French account of the clergy sent after it."
+  },
+  {
+   "item": "LA8-6: Holly's emigration of 1861 and his early work",
+   "g89": "G89-18 a",
+   "reason": "The December 1874 issue does not mention 1861, Holly's birthplace or the emigrants. The report's table of districts is too noisy to quote.",
+   "waits_for": "Holly's own writings or a pre-1930 source on the 1861 emigration to Haiti."
+  },
+  {
+   "item": "LA8-6: the Code Noir (1685), the religious side of the rising of 1791 (Bois Caïman)",
+   "g89": "G89-18 a",
+   "reason": "Moreau's Description (read for the church passages) gave no Bois Caïman passage on a search of tome I. The Code Noir was not read.",
+   "waits_for": "A source that states them (the Code Noir text; a pre-1930 account of 1791)."
+  },
+  {
+   "item": "LA8-9: the Bethlemites after 1723, their end in 1820, the order's spread outside Guatemala, and the approvals of 1707 and later",
+   "g89": "G89-21 a",
+   "reason": "García's OCR is damaged in the later books; only clean lines are used.",
+   "waits_for": "A clean reading of García's third book and a source for 1820; Clement XI's bulls of 1707 (not read)."
+  },
+  {
+   "item": "LA8-8, Cuba (a line in VIII.48)",
+   "g89": "G89-20 a",
+   "reason": "Claret's Apuntes (1863) is a rule for governing a diocese. It shows him as archbishop of Santiago de Cuba, called to Madrid by the Queen, with Havana and Puerto Rico as suffragans, but says nothing of the church under the crown's patronage, of Puerto Rico's church or of the end of Spanish rule in 1898, the line the gate names. A partial line on Claret alone is possible but is not the gate's line; held for the coordinator.",
+   "waits_for": "a dated source on the church in Cuba under Spanish rule, 1815-1898 (for example Claret's own letters from Santiago, or a diocesan report)"
+  }
+ ],
+ "wants": [
+  "A French Catholic source for Haiti 1860-1906",
+  "The Code Noir (1685)",
+  "A pre-1930 source on Holly's emigration of 1861"
+ ],
+ "flags": [
+  "OCR: Moreau tome I line 6894 reads 'T763' for 1763 (the year is confirmed by the header's content note and by line 19252, 'En 1764, on vit arriver l'abbé de la Roque'). Moreau line 2612 reads 'xle' for 'de' and 'oij' for 'où'. Line 18653 reads 'raeffe' for 'messe'.",
+  "OCR: Montalvo and García use the long s as f throughout and have other damaged letters (quoted verbatim). García line 40982 reads 'i62y' for the year of the bull of Innocent XI; the year 1687 is read from the page image (leaf n456), as the review confirmed, and matches the sweep record.",
+  "'First order founded in the Americas' (sweep record) is not drafted: neither Montalvo nor García states it in the lines read. The titles give 'fundador de la Compañía Bethlemitica en las Yndias Occidentales'.",
+  "Clement X's bull is named but not dated: the lines read give no year. García prints another Clement X bull dated at line 32148-32151 (5 December of a year read 'i<í74>', year 5 of his reign), but it is not clear that it is the confirming bull, so it is not used.",
+  "'James' in Holly's name and 1861 are the sweep record's, not the issue's. The draft says only 'J. Theodore Holly' and nothing of 1861; the emigration stays a hold.",
+  "Moreau 'a white colonist': the Description does not say so in the passages read. The draft says he writes from the colonists' side (a reading of his tone) and records the two things the text shows, that he was at Le Cap in 1783 and was commissioned by the Navy minister in 1788. The coordinator's word 'lawyer' is not in the title page.",
+  "Countries: not added anywhere. VII.17's place label is 'Peru · Brazil and beyond' (the validator allows at most two places drawn from the region text, which reads 'New Spain, Peru, Brazil'), so Haiti (Q790, from VIII.46) and Guatemala cannot go on VII.17. VIII.48's place label is 'Spanish America · Brazil' (region 'Spanish America, Brazil'), so Cuba cannot go on it. VIII.1's place label is 'United States', one place, region 'United States', so Haiti cannot go on it without a region change that no ruling names. No country IDs were invented.",
+  "No link drafted. Holly's issue names the Catholic church of Haiti nowhere (the one 'Roman Catholic' in it, line 5099, is about women's work). Buteau is called 'substantially heathen' by the Board (line 2981); it is not used.",
+  "No frozen paragraph was changed. The existing paragraphs of VII.17, VIII.1 and VIII.48 are carried unchanged; the checker may print readability lines for them (that is not new text).",
+  "Moreau, Montalvo, García and Claret add no people rows: no row is new, and the existing people lists are left as they are. Pierre Boutin and Brother Antonio are named only inside the prose."
+ ]
+}

@@ -1,0 +1,1412 @@
+{
+ "entries": [
+  {
+   "id": "transylvanian-unitarian-church-1660-1906",
+   "atlasId": "TBD",
+   "era": 8,
+   "name": "The Transylvanian Unitarian Church, 1660 to 1906",
+   "shortName": "Hungarian Unitarians",
+   "informalName": "The Unitarians of Transylvania",
+   "dates": "1660-1906",
+   "start": 1660,
+   "end": 1906,
+   "region": "Transylvania, Hungary",
+   "placeLabel": "Transylvania · Hungary",
+   "modernCountries": [
+    {
+     "country": "Romania",
+     "countryId": "Q218",
+     "place": "Transylvania",
+     "placeId": "Q39473"
+    }
+   ],
+   "regions": [
+    "North Europe"
+   ],
+   "lane": "8 Beyond the Floor (researched & explained)",
+   "laneLabel": "Non-Nicene Traditions",
+   "laneOrder": 80,
+   "beyondFloor": true,
+   "status": "Floor Question (register)",
+   "chip": "psc",
+   "glyph": "flq",
+   "statusWord": "Creedal question — not yet resolved",
+   "statusDescription": "Proposed for a future survey, as a register entry. By its own pastor's statement of 1875, it reads as stepping outside the doctrinal floor. The question is not decided yet. Not yet reviewed.",
+   "living": true,
+   "overlayCurrent": false,
+   "c2": null,
+   "sourcing": "Moderate, and almost all of it the church's own voice. The Library holds two books by József Ferencz: a short history in Hungarian from 1875 and an English account of 1907. This entry uses the account of 1907 only for events up to 1906. Thomas Rees, an English Unitarian, wrote about the exile from Poland in 1818.\n\nNo Catholic source and no Latin or Hungarian archive was read, so the seizures of 1693 and 1716 are told as the Unitarians told them. The sources give different years for some events, and this entry says so. The scan of the Hungarian book has accent errors.",
+   "floorNote": "In 1875 their pastor József Ferencz wrote that the Unitarian faith denies the Trinity. In his words, it holds neither Christ nor the Holy Spirit equal to God. He calls Jesus a perfect man and the greatest of the prophets. This is the church's own account, not a charge made by its opponents. Whether it places them outside the floor is not yet decided. Noting this is not a judgment on what was done to them. Poland drove out its Unitarians in 1660, and in 1716 an army commander took their main church at Kolozsvár by force.",
+   "relationsSummary": "This entry carries on the Unitarian church told in the entry for 1517 to 1650. In 1660 Poland drove out its Unitarians, and some joined this church at Kolozsvár. Ferencz says the Jesuits took its college and its main church. American Unitarians were in touch with it from 1868, and English Unitarians from 1821.",
+   "why": "In 1660 Poland told its Unitarians to turn Catholic or leave. Some came to Kolozsvár, where the church that Ferenc Dávid had led still stood. Under Austrian rule from 1691 the church lost its college and its main church. In 1848 it won lawful standing, and in 1861 it chose a bishop again.",
+   "entry": null,
+   "teaser": "Transylvania, 1660 to 1906. A small church took in Poland's exiles, lost its college and main church to Habsburg rule, and won full legal recognition in 1848.",
+   "longDescription": "In 1658 the Diet of Warsaw brought a formal charge against the Polish Unitarians, the English Unitarian Thomas Rees wrote in 1818. A decree then banned their public worship on pain of death. It told them to leave Poland within three years, unless they joined the Catholic, Lutheran or Calvinist church.\n\nJózsef Ferencz, a Unitarian pastor at Kolozsvár, dates the ban to 1659. Rees and Ferencz both put the order to leave in July 1660, though they give different days.\n\nRees says about four hundred went to Transylvania and Hungary. Ferencz says about 380 set out for Hungary. At the border, robbers took all they had.\n\nSome settled in Hungary. Thirty to forty families went on to Transylvania. Their brothers in the faith took them in with love.\n\nMost of them settled at Kolozsvár. There they founded a separate Polish church under the Transylvanian bishop.\n\nThey still worshipped in Polish around 1792. Their last pastor was Izsák Száknovics. Later they merged with the Hungarian congregation.\n\nPál Augustinovics was a descendant of the exiles from Poland. In 1837 he left his whole estate to the church.\n\nBishop Dániel Beké served until 1661. János Járai held the seat from April to June of that year. The seat then stood empty for two years, because the wars made church meetings impossible. Boldizsár Koncz was bishop from 1663 to 1684.\n\nIn 1691 Transylvania stopped being a separate principality and came under the Austrian emperor. In 1693 the Unitarians had to give up their old college at Kolozsvár, which had been theirs since 1566. Ferencz's account of 1907 says the Jesuits fell upon it.\n\nA fire in 1697 burned down part of the church and its buildings. The church restored them. Pál Dimény, the head teacher, collected 9,000 thalers for this from Remonstrant and \"collegian\" brothers in Belgium and Holland.\n\nOn 30 March 1716 an army commander named Steinville took the market church by force. On 2 April a Catholic bishop led worship in it. The bishop's house, the school, the suburban church of Saint Peter and all their property were taken next.\n\nMore churches were lost, among them Torda in 1721 and Brassó in 1777. Under Charles III and Maria Theresa the Unitarians were slowly shut out of every public office. Their equal rights in religion were denied, and their writing was held back.\n\nMihály Szentábrahámi Lombárd led the rebuilding. His contemporaries said he was the eyes, heart and mouth of the Unitarians. In 1718, with nine students, he opened the church's third college. He was bishop from 1737 to 1758.\n\nIn 1791 László Zsuki gave the church all the capital he had gathered, and named the Kolozsvár college in particular. The college building of 1806 rose from his gift. The new Kolozsvár church, beside the college, was opened on 14 December 1796.\n\nIn 1848 the diet gave the Unitarian faith lawful standing. Ferencz calls this a worthy mark of respect for 300 years of struggle.\n\nAfter Bishop Sándor Székely died in 1852, the government in Vienna would not let the church fill his seat. The seat stayed empty for nine years, and the government threatened to close the church's schools. In 1858 English Unitarians came to its aid with 13,000 forints. On 2 July 1861 the synod at Torda elected János Kriza bishop.\n\nIn 1868 the church marked 300 years, and the diet voted it a grant of 5,000 forints a year. On 13 June 1869 it held its first public service in Budapest, in a hall that the Reformed brothers lent. The census of 1869 counted 53,539 Unitarians in Transylvania and 788 in Hungary.\n\nFerencz says English Unitarians first wrote to Kolozsvár in 1821, and the church wrote back. His account of 1907 gives the year 1822. In 1830 and 1847 young men preparing to teach went in person to London.\n\nIn 1831 Sándor Bölöni Farkas toured North America. He was the first to make the Hungarian church known to the Americans.\n\nIn 1868 the Americans sent a greeting for the church's 300th year. Dall, their missionary in India, also came to Kolozsvár.\n\nFerencz says Dall won American help to translate Channing's works into Hungarian. He says it was given. By 1873 American friends were raising money for two chairs at the Kolozsvár college, to be named for Channing and Priestley.\n\nIn 1875 Ferencz wrote that the Unitarian faith differs from other forms of Christianity above all in denying the Trinity. He wrote that it holds neither Christ nor the Holy Spirit equal to God. He calls Jesus the greatest of the prophets, the Christ or Messiah, God's holy son, and a perfect man. He adds that the church does not claim to be infallible.",
+   "voices": [
+    "József Ferencz — pastor at Kolozsvár and teacher at its college, whose short history of 1875 is the church's own account",
+    "Mihály Szentábrahámi Lombárd — bishop from 1737 to 1758, whom his contemporaries called the eyes, heart and mouth of the Unitarians",
+    "János Kriza — elected bishop on 2 July 1861, after nine years in which Vienna would not let the church choose one",
+    "Pál Augustinovics — a descendant of the exiles from Poland, who left his whole estate to the church in 1837"
+   ],
+   "legacy": "Ferencz's account of 1907 calls it the Unitarian Church of Hungary, and names Ferenc Dávid as its founder. The tree has no entry for it after 1906.\n\nThe tree also has no entry yet for the English Unitarians after 1813, the Dutch Remonstrants after 1650, or the Reformed church of Hungary after 1815. This entry tells their ties to this church in words only.",
+   "documentedStories": [],
+   "people": [
+    {
+     "name": "József Ferencz",
+     "year": 1875,
+     "voice": 0,
+     "source": {
+      "work": "József Ferencz, Unitarius kis tükör (Kolozsvár, 1875), the statement of belief",
+      "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+      "lines": "1894-1896",
+      "quote": "Ennél fogva sem a Krisztust, sem a szentlelket nem tartja egyenlőknek aa^ Istennel, még kevésbbé tartja ezt a hármat egynek.",
+      "rendering": "for this reason it holds neither Christ nor the Holy Spirit to be equal to God, and still less does it hold these three to be one"
+     }
+    }
+   ],
+   "reviewStatus": "AI-checked",
+   "livingEvidence": {
+    "basis": "The church calls itself the Unitarian Church of Hungary in its own account of 1907, and the entry for 1517 to 1650 says it still exists as the Hungarian Unitarian Church. No dated present-day record of it is in hand. The tree has no entry for it after 1906.",
+    "grade": "none (no dated item after 2010 found)",
+    "group": "own"
+   },
+   "sources": [
+    {
+     "work": "József Ferencz, Unitarius kis tükör, vagyis az Unitárius egyház története, hitelvei (Kolozsvár, 1875)",
+     "type": "primary",
+     "note": "Held in the Library and read in Hungarian. The church's own short history, by the pastor of its Kolozsvár congregation. The scan has accent errors."
+    },
+    {
+     "work": "A Short Account of the Unitarian Church of Hungary, compiled under the auspices of Right Rev. Bishop Ferencz (Budapest, 1907)",
+     "type": "primary",
+     "note": "Held in the Library and read in English. The church's own account. It was written in 1907, after this entry ends, so it is used only for events up to 1906."
+    },
+    {
+     "work": "Thomas Rees, historical introduction to The Racovian Catechism (London, 1818)",
+     "type": "secondary",
+     "note": "An English Unitarian's history. It is used only for the decrees against the Polish Unitarians and the flight of 1660."
+    }
+   ]
+  }
+ ],
+ "fact_table": [
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "longDescription",
+   "sentence": "In 1658 the Diet of Warsaw brought a formal charge against the Polish Unitarians, the English Unitarian Thomas Rees wrote in 1818.",
+   "file": "cic/texts/racovian-catechism_racovian-catechism_rees1818.txt",
+   "lines": "1845-1846",
+   "quote": "they preferred against them, at the Diet of Warsaw in 1658, a formal accusation,"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "longDescription",
+   "sentence": "A decree then banned their public worship on pain of death.",
+   "file": "cic/texts/racovian-catechism_racovian-catechism_rees1818.txt",
+   "lines": "1852-1860",
+   "quote": "a decree was passed forbidding the public exercise of their religion, or the dissemination of their sentiments in any way whatever, under the penalty of death ; and commanding them to quit the kingdom of Poland and its dependencies, within three years, unless in the mean time they joined the com munion of the Church of Rome, or that of the tole rated reformed churches of the Lutherans or Cal- vinists."
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "longDescription",
+   "sentence": "It told them to leave Poland within three years, unless they joined the Catholic, Lutheran or Calvinist church.",
+   "file": "cic/texts/racovian-catechism_racovian-catechism_rees1818.txt",
+   "lines": "1852-1860",
+   "quote": "a decree was passed forbidding the public exercise of their religion, or the dissemination of their sentiments in any way whatever, under the penalty of death ; and commanding them to quit the kingdom of Poland and its dependencies, within three years, unless in the mean time they joined the com munion of the Church of Rome, or that of the tole rated reformed churches of the Lutherans or Cal- vinists."
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "longDescription",
+   "sentence": "József Ferencz, a Unitarian pastor at Kolozsvár, dates the ban to 1659.",
+   "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+   "lines": "999-1002",
+   "quote": "1659-ban Karwat nevű jezsuita ösz- tönzésére országgyűlésileg meghatároztatta, hogy az uni- tárius tanokat nyiltan vallani és terjeszteni többé nem szabad.",
+   "rendering": "in 1659, at the urging of a Jesuit named Karwat, the diet decided that Unitarian teachings might no longer be openly professed or spread"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "longDescription",
+   "sentence": "József Ferencz, a Unitarian pastor at Kolozsvár, dates the ban to 1659.",
+   "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+   "lines": "131-132",
+   "quote": "A KOLOZSVÁRI UNITÁRIUS EGYHÁZKÖZSÉG LELKÉSZE S FŐISKOLAI HITTANÁR.",
+   "rendering": "pastor of the Unitarian congregation of Kolozsvár and teacher of theology at its college"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "longDescription",
+   "sentence": "Rees and Ferencz both put the order to leave in July 1660, though they give different days.",
+   "file": "cic/texts/racovian-catechism_racovian-catechism_rees1818.txt",
+   "lines": "1960-1961",
+   "quote": "procured a new and more rigorous decree to be passed against them on the 2()th of July 1660."
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "longDescription",
+   "sentence": "Rees and Ferencz both put the order to leave in July 1660, though they give different days.",
+   "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+   "lines": "1009-1010",
+   "quote": "meghatározta, hogy 1660 juL. 10-ig minden unitárius vagy térjen a kath.-vallásra, vagy hagyja el az országot,",
+   "rendering": "decided that by 10 July 1660 every Unitarian must either turn to the Catholic religion or leave the country"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "longDescription",
+   "sentence": "Rees says about four hundred went to Transylvania and Hungary.",
+   "file": "cic/texts/racovian-catechism_racovian-catechism_rees1818.txt",
+   "lines": "1996-1998",
+   "quote": "Of this honourable band about four hundred proceeded to Transylvania and Hun gary;"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "longDescription",
+   "sentence": "Ferencz says about 380 set out for Hungary.",
+   "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+   "lines": "1013-1014",
+   "quote": "mintegy 380 tagból álló csoport Magyarországra indult s hogy sorsuk annál keserűbb legyen, a határon",
+   "rendering": "a group of about 380 members set out for Hungary, and, to make their lot more bitter, at the border"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "longDescription",
+   "sentence": "At the border, robbers took all they had.",
+   "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+   "lines": "1022-1023",
+   "quote": "rablók rohanták meg a hazátlan vándorokat s minde- nökből kifosztották.",
+   "rendering": "robbers fell upon the homeless wanderers and plundered them of everything"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "longDescription",
+   "sentence": "Some settled in Hungary.",
+   "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+   "lines": "1024-1025",
+   "quote": "Magyarországon, különösen Teleki István és Eáday Perencz pártfogása alatt telepedtek meg,",
+   "rendering": "some settled in Hungary, especially under the patronage of István Teleki and Ferenc Ráday (the scan reads \"Eáday Perencz\")"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "longDescription",
+   "sentence": "Thirty to forty families went on to Transylvania.",
+   "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+   "lines": "1025-1027",
+   "quote": "mintegy 30 — 40 család pedig Erdélybe jött, hol unitárius testvéreik- től szeretettel fogadtattak",
+   "rendering": "about 30 to 40 families came to Transylvania, where they were received with love by their Unitarian brothers"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "longDescription",
+   "sentence": "Their brothers in the faith took them in with love.",
+   "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+   "lines": "1025-1027",
+   "quote": "mintegy 30 — 40 család pedig Erdélybe jött, hol unitárius testvéreik- től szeretettel fogadtattak",
+   "rendering": "about 30 to 40 families came to Transylvania, where they were received with love by their Unitarian brothers"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "longDescription",
+   "sentence": "Most of them settled at Kolozsvár.",
+   "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+   "lines": "1029-1031",
+   "quote": "legtöbben azonban Kolozsvártt, hol egy külön lengyel unitárius ekklézsiát is alapitottak, mely az erdélyi uni- tárius püspök felügyelete alatt állott.",
+   "rendering": "most, however, at Kolozsvár, where they also founded a separate Polish Unitarian congregation, which stood under the supervision of the Transylvanian Unitarian bishop"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "longDescription",
+   "sentence": "There they founded a separate Polish church under the Transylvanian bishop.",
+   "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+   "lines": "1029-1031",
+   "quote": "legtöbben azonban Kolozsvártt, hol egy külön lengyel unitárius ekklézsiát is alapitottak, mely az erdélyi uni- tárius püspök felügyelete alatt állott.",
+   "rendering": "most, however, at Kolozsvár, where they also founded a separate Polish Unitarian congregation, which stood under the supervision of the Transylvanian Unitarian bishop"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "longDescription",
+   "sentence": "They still worshipped in Polish around 1792.",
+   "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+   "lines": "1031-1033",
+   "quote": "Imaházukban még 1792 körül is lengyel nyelven tartották isteni tiszteletö* ket. Utolsó papjok Száknovics Izsák volt.",
+   "rendering": "around 1792 they still held their worship in Polish in their house of prayer. Their last pastor was Izsák Száknovics"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "longDescription",
+   "sentence": "Their last pastor was Izsák Száknovics.",
+   "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+   "lines": "1031-1033",
+   "quote": "Imaházukban még 1792 körül is lengyel nyelven tartották isteni tiszteletö* ket. Utolsó papjok Száknovics Izsák volt.",
+   "rendering": "around 1792 they still held their worship in Polish in their house of prayer. Their last pastor was Izsák Száknovics"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "longDescription",
+   "sentence": "Later they merged with the Hungarian congregation.",
+   "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+   "lines": "1033-1034",
+   "quote": "Később beol- vadtak a magyar unitárius ekklézsiába.",
+   "rendering": "Later they merged into the Hungarian Unitarian congregation"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "longDescription",
+   "sentence": "Pál Augustinovics was a descendant of the exiles from Poland.",
+   "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+   "lines": "1227-1231",
+   "quote": "Augustinovics Pálnak, a Lengyelhonból száműzött unitáriusok egyik utódának, nagybecsű hagyománya. E derék férfiú 1837- ben minden javai egyetemes örökösének az unitárius egyházat hagyta.",
+   "rendering": "the valued bequest of Pál Augustinovics, one of the descendants of the Unitarians banished from Poland. This worthy man in 1837 made the Unitarian church the general heir of all his goods"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "longDescription",
+   "sentence": "Pál Augustinovics was a descendant of the exiles from Poland.",
+   "file": "cic/texts/ferencz_short-account-of-the-unitarian-church-of-hungary_1907.txt",
+   "lines": "329-333",
+   "quote": "One of the Polish descendants, Paul Augustinovich, did nobly repay the Transylvanians all the kindness that they had accorded to his forefathers. He made his Will for the benefit of the Unitarian body in 1837, and thus laid a safe foundation for the future."
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "longDescription",
+   "sentence": "In 1837 he left his whole estate to the church.",
+   "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+   "lines": "1227-1231",
+   "quote": "Augustinovics Pálnak, a Lengyelhonból száműzött unitáriusok egyik utódának, nagybecsű hagyománya. E derék férfiú 1837- ben minden javai egyetemes örökösének az unitárius egyházat hagyta.",
+   "rendering": "the valued bequest of Pál Augustinovics, one of the descendants of the Unitarians banished from Poland. This worthy man in 1837 made the Unitarian church the general heir of all his goods"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "longDescription",
+   "sentence": "In 1837 he left his whole estate to the church.",
+   "file": "cic/texts/ferencz_short-account-of-the-unitarian-church-of-hungary_1907.txt",
+   "lines": "329-333",
+   "quote": "One of the Polish descendants, Paul Augustinovich, did nobly repay the Transylvanians all the kindness that they had accorded to his forefathers. He made his Will for the benefit of the Unitarian body in 1837, and thus laid a safe foundation for the future."
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "longDescription",
+   "sentence": "Bishop Dániel Beké served until 1661.",
+   "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+   "lines": "4128",
+   "quote": "VIII. Beké Dániel 1636-tól 1661-ig.",
+   "rendering": "Eighth, Dániel Beké, from 1636 to 1661"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "longDescription",
+   "sentence": "János Járai held the seat from April to June of that year.",
+   "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+   "lines": "4130",
+   "quote": "IX. Járai János 1661 apr. 7-től jun. 3-ig",
+   "rendering": "Ninth, János Járai, from 7 April to 3 June 1661"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "longDescription",
+   "sentence": "The seat then stood empty for two years, because the wars made church meetings impossible.",
+   "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+   "lines": "4130-4133",
+   "quote": "Ekkor két évig üresen állott a püspöki szék, a háborúk miatt egyházi gyűléseket sem lehetvén tartanig)",
+   "rendering": "At that time the bishop's seat stood empty for two years, as no church meetings could be held because of the wars"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "longDescription",
+   "sentence": "Boldizsár Koncz was bishop from 1663 to 1684.",
+   "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+   "lines": "4135",
+   "quote": "X Koncz Boldizsár 1663-tól 1684-ig.",
+   "rendering": "Tenth, Boldizsár Koncz, from 1663 to 1684"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "longDescription",
+   "sentence": "In 1691 Transylvania stopped being a separate principality and came under the Austrian emperor.",
+   "file": "cic/texts/ferencz_short-account-of-the-unitarian-church-of-hungary_1907.txt",
+   "lines": "279-281",
+   "quote": "Transylvania ceased, in 1691, to be an independent principality, and became part of the Kingdom, and subject to the rule of the Emperor of Austria."
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "longDescription",
+   "sentence": "In 1693 the Unitarians had to give up their old college at Kolozsvár, which had been theirs since 1566.",
+   "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+   "lines": "1051-1052",
+   "quote": "Első sor- ban az unitárizmus vétetett üldözőbe s 1693-ban már",
+   "rendering": "the Unitarians were persecuted first of all, and already in 1693"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "longDescription",
+   "sentence": "In 1693 the Unitarians had to give up their old college at Kolozsvár, which had been theirs since 1566.",
+   "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+   "lines": "1060-1061",
+   "quote": "ki kellé üríteni Kolozsvárit az óvári főiskolát, mely 1566- óta az unitáj-iusok birtokában volt.",
+   "rendering": "the old college at Kolozsvár had to be vacated, which had been in the Unitarians' possession since 1566"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "longDescription",
+   "sentence": "Ferencz's account of 1907 says the Jesuits fell upon it.",
+   "file": "cic/texts/ferencz_short-account-of-the-unitarian-church-of-hungary_1907.txt",
+   "lines": "286-287",
+   "quote": "As early as 1693, they fell upon our famous College at Kolozsvir,"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "longDescription",
+   "sentence": "A fire in 1697 burned down part of the church and its buildings.",
+   "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+   "lines": "1073-1076",
+   "quote": "1697-ben ugyanis, egy nagy égés következtében a templom s hoz- zátartozó épületek részben elhamvasztatván, ezeknek hely- reáUitását az unitárius egyház eszközölte,",
+   "rendering": "in 1697, after a great fire had partly burned down the church and its buildings, the Unitarian church carried out the rebuilding"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "longDescription",
+   "sentence": "The church restored them.",
+   "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+   "lines": "1073-1076",
+   "quote": "1697-ben ugyanis, egy nagy égés következtében a templom s hoz- zátartozó épületek részben elhamvasztatván, ezeknek hely- reáUitását az unitárius egyház eszközölte,",
+   "rendering": "in 1697, after a great fire had partly burned down the church and its buildings, the Unitarian church carried out the rebuilding"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "longDescription",
+   "sentence": "Pál Dimény, the head teacher, collected 9,000 thalers for this from Remonstrant and \"collegian\" brothers in Belgium and Holland.",
+   "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+   "lines": "1079-1084",
+   "quote": "részint azon segélyből, melyet Kolozsvári Dimény Pál, igazgató tanár, gyűjtött Belgiumban és Hollandiában, az ottani remonstranö és eollegians atyafiaknál, kiket e vég- re a mondott évben személyesen felkeresett, és a kik az unitáriusok iránti rokonszerrvök nyilvánításául 9000 tallért adakoztak.",
+   "rendering": "partly from the aid that Pál Dimény of Kolozsvár, the head teacher, collected in Belgium and Holland among the Remonstrant and \"collegian\" brothers there, whom he visited in person for the purpose that year, and who, to show their kinship with the Unitarians, gave 9,000 thalers"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "longDescription",
+   "sentence": "On 30 March 1716 an army commander named Steinville took the market church by force.",
+   "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+   "lines": "1084-1087",
+   "quote": "a jezsuiták egyszer sze- met vetettek, annak áldozatul kellett esni. 1716-ban mart. 30-án Steinville tartományi főhadvezér a piaezi templomot erőhatalommal elfoglalta",
+   "rendering": "what the Jesuits once set their eyes on had to fall victim. On 30 March 1716 General Steinville, the provincial commander, took the market church by force"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "longDescription",
+   "sentence": "On 2 April a Catholic bishop led worship in it.",
+   "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+   "lines": "1087-1089",
+   "quote": "abban már ápr. 2-in Mártoníi György kath. püspök tartotta az isteni tiszteletet.",
+   "rendering": "and on 2 April a Catholic bishop already held divine service in it"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "longDescription",
+   "sentence": "The bishop's house, the school, the suburban church of Saint Peter and all their property were taken next.",
+   "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+   "lines": "1089",
+   "quote": "Ezt követte a főpapi lak, oskola, szentpéter",
+   "rendering": "This was followed by the bishop's house, the school, [and] St Peter"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "longDescription",
+   "sentence": "The bishop's house, the school, the suburban church of Saint Peter and all their property were taken next.",
+   "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+   "lines": "1103-1104",
+   "quote": "külvárosi templom s minden ezekhez tartozó javak elvé- tele",
+   "rendering": "the suburban church and all the property belonging to them were taken"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "longDescription",
+   "sentence": "More churches were lost, among them Torda in 1721 and Brassó in 1777.",
+   "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+   "lines": "1109-1112",
+   "quote": "Tordán gr. Hugó Dámján foglalta el az unitáriusoktól a tem- plomot 1721-ben; 1725-ben a sepsi sz. iváni és labor- folvi, 1745-ben a szőkefalvi, 1777-ben a brassói,",
+   "rendering": "Count Damján Hugó took the church at Torda from the Unitarians in 1721; in 1725 those of Sepsi Szent-Iván and Laborfalva, in 1745 that of Szőkefalva, in 1777 that of Brassó"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "longDescription",
+   "sentence": "Under Charles III and Maria Theresa the Unitarians were slowly shut out of every public office.",
+   "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+   "lines": "1115-1119",
+   "quote": "Majd lll.-dik Károly és Mária Therézia alatt az unitáriusok lassanként min- den politikai hivatalból kizárattak, vallási egyenjogúsá- guk megtagadtatott, irodalmi munkásságuk megakaszta- tott",
+   "rendering": "Then under Charles III and Maria Theresa the Unitarians were gradually excluded from every political office, their equality in religion was denied, and their literary work was halted"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "longDescription",
+   "sentence": "Their equal rights in religion were denied, and their writing was held back.",
+   "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+   "lines": "1115-1119",
+   "quote": "Majd lll.-dik Károly és Mária Therézia alatt az unitáriusok lassanként min- den politikai hivatalból kizárattak, vallási egyenjogúsá- guk megtagadtatott, irodalmi munkásságuk megakaszta- tott",
+   "rendering": "Then under Charles III and Maria Theresa the Unitarians were gradually excluded from every political office, their equality in religion was denied, and their literary work was halted"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "longDescription",
+   "sentence": "Mihály Szentábrahámi Lombárd led the rebuilding.",
+   "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+   "lines": "1133-1134",
+   "quote": "Szentáb- rahámi Lombárd Mihály volt a fo építőmester,",
+   "rendering": "Mihály Szentábrahámi Lombárd was the chief master builder"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "longDescription",
+   "sentence": "His contemporaries said he was the eyes, heart and mouth of the Unitarians.",
+   "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+   "lines": "1142-1144",
+   "quote": "kiről nem oknélkt^l mondák kortársai, hogy ö az unitáriusok sze- me, szive és szája volt.",
+   "rendering": "of whom his contemporaries, not without reason, said that he was the eyes, heart and mouth of the Unitarians"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "longDescription",
+   "sentence": "In 1718, with nine students, he opened the church's third college.",
+   "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+   "lines": "1147-1149",
+   "quote": "már 1718-ban máj. 1-én b. magyar- utzában a Huszár-háznál kilencz tanulóval megnyitotta az unitáriusok harmadik főiskoláját.",
+   "rendering": "already on 1 May 1718, at the Huszár house, with nine students, he opened the third college of the Unitarians"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "longDescription",
+   "sentence": "He was bishop from 1737 to 1758.",
+   "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+   "lines": "4147",
+   "quote": "XVI. Szentábrahámi L. Mihály 1737-től I758.ig.",
+   "rendering": "Sixteenth, Mihály L. Szentábrahámi, from 1737 to 1758"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "longDescription",
+   "sentence": "In 1791 László Zsuki gave the church all the capital he had gathered, and named the Kolozsvár college in particular.",
+   "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+   "lines": "1188-1191",
+   "quote": "E férfiú ugyanis 1791-ben kelt ajándék -levelénél fogva minden addig szerzett tőkepénzeit s azoknak kamatait az unitárius vallásközönségnek, jelesen a kolozsvári főiskolának aján-",
+   "rendering": "by a deed of gift dated 1791 this man gave all the capital he had gathered until then, and its interest, to the Unitarian community, in particular to the college at Kolozsvár"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "longDescription",
+   "sentence": "In 1791 László Zsuki gave the church all the capital he had gathered, and named the Kolozsvár college in particular.",
+   "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+   "lines": "1186-1187",
+   "quote": "Zsuki László, Er- dély legrégibb családjainak",
+   "rendering": "László Zsuki, [one] of the oldest families of Transylvania"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "longDescription",
+   "sentence": "The college building of 1806 rose from his gift.",
+   "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+   "lines": "1195-1196",
+   "quote": "Ebből épült fel 1806-ban a ma is álló főiskola Kolozsvártt.",
+   "rendering": "From this the college that still stands at Kolozsvár was built in 1806"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "longDescription",
+   "sentence": "The new Kolozsvár church, beside the college, was opened on 14 December 1796.",
+   "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+   "lines": "1205-1207",
+   "quote": "Lázár István püspöksége alatt épült s 1796. dec. 14-én a közhasználatnak űnn^élyesen átadott ko- lozsvári templom a főiskola szomszédságában.",
+   "rendering": "the Kolozsvár church built under Bishop István Lázár and solemnly handed over for public use on 14 December 1796, beside the college"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "longDescription",
+   "sentence": "In 1848 the diet gave the Unitarian faith lawful standing.",
+   "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+   "lines": "1244-1246",
+   "quote": "1848-ban a pozsonyi ország- gyűlésen hozott 20-ik t. ez. 1 §-ében „Az unitárius val- lás törvényesen bevett vallásnak' nyilváníttatott.\"",
+   "rendering": "in 1848, in article 20 of the law passed at the Pozsony diet, paragraph 1: \"The Unitarian religion was declared a lawfully received religion\""
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "longDescription",
+   "sentence": "In 1848 the diet gave the Unitarian faith lawful standing.",
+   "file": "cic/texts/ferencz_short-account-of-the-unitarian-church-of-hungary_1907.txt",
+   "lines": "976-978",
+   "quote": "Unitarian Religion, received up to this time only in Transylvania, gets henceforth a full and legal recognition in the whole kingdom of Hungary."
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "longDescription",
+   "sentence": "Ferencz calls this a worthy mark of respect for 300 years of struggle.",
+   "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+   "lines": "1246-1248",
+   "quote": "Ez ün- nepélyes tény méltó elismerése lön az unitárius egyház 300 éves küzdelmeinek.",
+   "rendering": "This solemn act was a worthy recognition of the Unitarian church's 300 years of struggle"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "longDescription",
+   "sentence": "After Bishop Sándor Székely died in 1852, the government in Vienna would not let the church fill his seat.",
+   "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+   "lines": "1271-1273",
+   "quote": "Elhalván ugyanis 1852-ben ar. rákosi Székely Sándor, püspök, az egyház a püspöki széket többszöri kérésére sem töltheté bé.",
+   "rendering": "when Bishop Sándor Székely of Rákos died in 1852, the church could not fill the bishop's seat, despite repeated requests"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "longDescription",
+   "sentence": "After Bishop Sándor Székely died in 1852, the government in Vienna would not let the church fill his seat.",
+   "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+   "lines": "4160-4164",
+   "quote": "Kilencz évi üres- ség a miatt, hogy a bécsi kormány megtagadta az egyház püspökválasztási jogát, mialatt mint püspök- helyettes Székely Mózes állott a papság részéről az egyház élén.)",
+   "rendering": "Nine years of vacancy, because the Vienna government denied the church its right to elect a bishop, during which Mózes Székely stood at the head of the church as deputy bishop on the clergy's side"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "longDescription",
+   "sentence": "The seat stayed empty for nine years, and the government threatened to close the church's schools.",
+   "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+   "lines": "4160-4164",
+   "quote": "Kilencz évi üres- ség a miatt, hogy a bécsi kormány megtagadta az egyház püspökválasztási jogát, mialatt mint püspök- helyettes Székely Mózes állott a papság részéről az egyház élén.)",
+   "rendering": "Nine years of vacancy, because the Vienna government denied the church its right to elect a bishop, during which Mózes Székely stood at the head of the church as deputy bishop on the clergy's side"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "longDescription",
+   "sentence": "The seat stayed empty for nine years, and the government threatened to close the church's schools.",
+   "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+   "lines": "1273-1275",
+   "quote": "Fenyegetve lön is- koláinak bezáratásával, ha a kormány kívánalmainak nem tud mindenekben megfelelni.",
+   "rendering": "It was threatened with the closing of its schools if it could not meet the government's demands in everything"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "longDescription",
+   "sentence": "In 1858 English Unitarians came to its aid with 13,000 forints.",
+   "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+   "lines": "1713-1715",
+   "quote": "azonban 1858-ban lett teljessé, midőn az angol unitári- us atyafiak 13,000 frttal jöttek egyházunk akkori nyo- masztó helyzetében segélyünkre,",
+   "rendering": "this relation, however, was completed in 1858, when the English Unitarian brothers came to the help of our church, then in a pressing position, with 13,000 forints"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "longDescription",
+   "sentence": "On 2 July 1861 the synod at Torda elected János Kriza bishop.",
+   "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+   "lines": "1317-1320",
+   "quote": "a püspöki szék ugyan- azon év jul. 2-án a tordai zsinaton köztiszteletben élő derék tudósunk, Kriza János személyében a szokott mó- don betöltetett.",
+   "rendering": "the bishop's seat was filled in the usual way on 2 July of the same year, at the synod of Torda, in the person of János Kriza, a worthy scholar of ours held in public esteem"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "longDescription",
+   "sentence": "In 1868 the church marked 300 years, and the diet voted it a grant of 5,000 forints a year.",
+   "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+   "lines": "1320-1324",
+   "quote": "1868-ban, a mely esztendőben az uni- tárius egyház fennállásának háromszázados évfordulóját ülte meg, a hongyülés czélba vévén a protestáns egy- házak állami segélyezését is, egyházunk részére évi 5000 .frt államsegélyt szavazott 'meg,",
+   "rendering": "in 1868, the year in which the Unitarian church celebrated the 300th anniversary of its existence, the diet, intending to give state aid to the Protestant churches, voted 5,000 forints a year in state aid for our church"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "longDescription",
+   "sentence": "On 13 June 1869 it held its first public service in Budapest, in a hall that the Reformed brothers lent.",
+   "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+   "lines": "1337-1341",
+   "quote": "1869-ben jun. 13-án tar- tatott Budapesten a legelső nyilvános unitárius is- teni tisztelet. E czélra a református atyafiak igaz testvéri készséggel adták át, a főiskolai épületben levő tanácstermüket.",
+   "rendering": "on 13 June 1869 the very first public Unitarian divine service was held at Budapest. For this the Reformed brothers, with true brotherly readiness, handed over their council hall in the college building"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "longDescription",
+   "sentence": "The census of 1869 counted 53,539 Unitarians in Transylvania and 788 in Hungary.",
+   "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+   "lines": "1579-1581",
+   "quote": "Az unitáriusok létszáma az 1869-ki népszámlá- lás szerint Erdélyben 53,539, Magyarországon 788, ^yűtt 54,327.",
+   "rendering": "the number of Unitarians according to the census of 1869: in Transylvania 53,539, in Hungary 788, together 54,327"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "longDescription",
+   "sentence": "Ferencz says English Unitarians first wrote to Kolozsvár in 1821, and the church wrote back.",
+   "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+   "lines": "1704-1708",
+   "quote": "Az angol unitáriusok a magyarországiakkal 1821 óta állanak érintkezésben. Ekkor küldöttek ok egy le- velet Kolozsvárra, melyben röviden előadták történőtö- ket s akkori állásokat, mire az idevalók hasonlóval fe- leltek.",
+   "rendering": "the English Unitarians have been in contact with those of Hungary since 1821. Then they sent a letter to Kolozsvár, in which they briefly set out their history and their standing at the time, and the people here answered with the like"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "longDescription",
+   "sentence": "His account of 1907 gives the year 1822.",
+   "file": "cic/texts/ferencz_short-account-of-the-unitarian-church-of-hungary_1907.txt",
+   "lines": "348-349",
+   "quote": "As early as 1822, the English Unitarians offer their friendship to the Hungarians."
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "longDescription",
+   "sentence": "In 1830 and 1847 young men preparing to teach went in person to London.",
+   "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+   "lines": "1708-1710",
+   "quote": "1830-ban Székely Mózes, 1847-ben Jakab József tanárságra készülő ifjak személyesen megfordulván Lon- donban,",
+   "rendering": "in 1830 Mózes Székely and in 1847 József Jakab, young men preparing to be teachers, went in person to London"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "longDescription",
+   "sentence": "In 1831 Sándor Bölöni Farkas toured North America.",
+   "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+   "lines": "1787-1790",
+   "quote": "A nagynevű Bölöni Far- kas Sándor volt az első, ki 1831-ben Észak-Amerikát beutazván, megismertette az amerikai uiíitáriusokkal a magyar unitáriusokat;",
+   "rendering": "the famous Sándor Bölöni Farkas was the first who, travelling through North America in 1831, made the Hungarian Unitarians known to the American Unitarians"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "longDescription",
+   "sentence": "He was the first to make the Hungarian church known to the Americans.",
+   "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+   "lines": "1787-1790",
+   "quote": "A nagynevű Bölöni Far- kas Sándor volt az első, ki 1831-ben Észak-Amerikát beutazván, megismertette az amerikai uiíitáriusokkal a magyar unitáriusokat;",
+   "rendering": "the famous Sándor Bölöni Farkas was the first who, travelling through North America in 1831, made the Hungarian Unitarians known to the American Unitarians"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "longDescription",
+   "sentence": "In 1868 the Americans sent a greeting for the church's 300th year.",
+   "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+   "lines": "1791-1795",
+   "quote": "1868 óta azonban e viszony is eleveneb- bé lőn. A háromszázados jubileumra ők is küldöttek üdvözlő iratot ; de ugyanez évben fordult meg Kolozs- vártt egy DaH nevű lelkész, az amerikai unitáiius egyesü- letnek Indiában levő missionariussa,",
+   "rendering": "since 1868, however, this relation has become livelier. For the 300th anniversary they too sent a letter of greeting; and in the same year a minister named Dall, the missionary of the American Unitarian association in India, came to Kolozsvár"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "longDescription",
+   "sentence": "Dall, their missionary in India, also came to Kolozsvár.",
+   "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+   "lines": "1791-1795",
+   "quote": "1868 óta azonban e viszony is eleveneb- bé lőn. A háromszázados jubileumra ők is küldöttek üdvözlő iratot ; de ugyanez évben fordult meg Kolozs- vártt egy DaH nevű lelkész, az amerikai unitáiius egyesü- letnek Indiában levő missionariussa,",
+   "rendering": "since 1868, however, this relation has become livelier. For the 300th anniversary they too sent a letter of greeting; and in the same year a minister named Dall, the missionary of the American Unitarian association in India, came to Kolozsvár"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "longDescription",
+   "sentence": "Dall, their missionary in India, also came to Kolozsvár.",
+   "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+   "lines": "1839-1840",
+   "quote": "a nálunk megfor- dult Dall",
+   "rendering": "the Dall who visited us"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "longDescription",
+   "sentence": "Ferencz says Dall won American help to translate Channing's works into Hungarian.",
+   "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+   "lines": "1798-1800",
+   "quote": "kieszközölte, hogy a Channing müveinek magyar fordítására segédkezet nyújtsanak, a mit meg is tettek.",
+   "rendering": "he obtained that they lend a helping hand to the Hungarian translation of Channing's works, which they also did"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "longDescription",
+   "sentence": "He says it was given.",
+   "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+   "lines": "1798-1800",
+   "quote": "kieszközölte, hogy a Channing müveinek magyar fordítására segédkezet nyújtsanak, a mit meg is tettek.",
+   "rendering": "he obtained that they lend a helping hand to the Hungarian translation of Channing's works, which they also did"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "longDescription",
+   "sentence": "By 1873 American friends were raising money for two chairs at the Kolozsvár college, to be named for Channing and Priestley.",
+   "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+   "lines": "1817-1818",
+   "quote": "tartatott 1873 június havában Budapesten egy neveze- tes értekezlet",
+   "rendering": "in June 1873 an important conference was held in Budapest"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "longDescription",
+   "sentence": "By 1873 American friends were raising money for two chairs at the Kolozsvár college, to be named for Channing and Priestley.",
+   "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+   "lines": "1824-1828",
+   "quote": "Halé és Morison atyánkfiai már is tetemes segélyt gyűjtöttek kolozsvári főiskolánk mellett a tanári székek szaporithatására. Ozél- jok az, hogy két tanári széket állitsanak fel nevezett is- kolánknál, egyet a Channing, egyet a Priestley nevére,",
+   "rendering": "Hale and Morison, our brothers, have already collected considerable aid toward adding teaching chairs at our college at Kolozsvár. Their aim is to set up two chairs at that school, one in the name of Channing and one in the name of Priestley"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "longDescription",
+   "sentence": "In 1875 Ferencz wrote that the Unitarian faith differs from other forms of Christianity above all in denying the Trinity.",
+   "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+   "lines": "1889-1893",
+   "quote": "unitárius vallás a keresztény vallás más for- máitól főleg abban különbözik, hogy a szentháromságot, a mint ez a 3-dik ós 4-dik évszáz sjrmbolumaiban ki- fejezést nyert s később Luther és Kálvin által is sértet- lenül fenntartatott, tagadja",
+   "rendering": "the Unitarian religion differs from the other forms of the Christian religion mainly in that it denies the Trinity, as this was expressed in the creeds of the 3rd and 4th centuries and was later kept intact by Luther and Calvin too"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "longDescription",
+   "sentence": "He wrote that it holds neither Christ nor the Holy Spirit equal to God.",
+   "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+   "lines": "1894-1896",
+   "quote": "Ennél fogva sem a Krisztust, sem a szentlelket nem tartja egyenlőknek aa^ Istennel, még kevésbbé tartja ezt a hármat egynek.",
+   "rendering": "for this reason it holds neither Christ nor the Holy Spirit to be equal to God, and still less does it hold these three to be one"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "longDescription",
+   "sentence": "He calls Jesus the greatest of the prophets, the Christ or Messiah, God's holy son, and a perfect man.",
+   "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+   "lines": "1986-1988",
+   "quote": "Minden próféták között a legnagyobb, ama Krisztus vagy Messiás, Istennek szent fia,",
+   "rendering": "among all prophets the greatest, that Christ or Messiah, God's holy son"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "longDescription",
+   "sentence": "He calls Jesus the greatest of the prophets, the Christ or Messiah, God's holy son, and a perfect man.",
+   "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+   "lines": "1992-1993",
+   "quote": "az emberiség mintaképe, ugy szólván, tökéletes ember,",
+   "rendering": "the model of humanity, so to speak a perfect man"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "longDescription",
+   "sentence": "He adds that the church does not claim to be infallible.",
+   "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+   "lines": "2157-2158",
+   "quote": "de az unitárius egyház nem is tulajdonit magának csalhatatlanságot.",
+   "rendering": "but the Unitarian church does not claim infallibility for itself"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "teaser",
+   "sentence": "Transylvania, 1660 to 1906. A small church took in Poland's exiles, lost its college and main church to Habsburg rule, and won full legal recognition in 1848.",
+   "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+   "lines": "1029-1031",
+   "quote": "legtöbben azonban Kolozsvártt, hol egy külön lengyel unitárius ekklézsiát is alapitottak, mely az erdélyi uni- tárius püspök felügyelete alatt állott.",
+   "rendering": "most, however, at Kolozsvár, where they also founded a separate Polish Unitarian congregation, which stood under the supervision of the Transylvanian Unitarian bishop"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "teaser",
+   "sentence": "Transylvania, 1660 to 1906. A small church took in Poland's exiles, lost its college and main church to Habsburg rule, and won full legal recognition in 1848.",
+   "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+   "lines": "1060-1061",
+   "quote": "ki kellé üríteni Kolozsvárit az óvári főiskolát, mely 1566- óta az unitáj-iusok birtokában volt.",
+   "rendering": "the old college at Kolozsvár had to be vacated, which had been in the Unitarians' possession since 1566"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "teaser",
+   "sentence": "Transylvania, 1660 to 1906. A small church took in Poland's exiles, lost its college and main church to Habsburg rule, and won full legal recognition in 1848.",
+   "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+   "lines": "1084-1087",
+   "quote": "a jezsuiták egyszer sze- met vetettek, annak áldozatul kellett esni. 1716-ban mart. 30-án Steinville tartományi főhadvezér a piaezi templomot erőhatalommal elfoglalta",
+   "rendering": "what the Jesuits once set their eyes on had to fall victim. On 30 March 1716 General Steinville, the provincial commander, took the market church by force"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "teaser",
+   "sentence": "Transylvania, 1660 to 1906. A small church took in Poland's exiles, lost its college and main church to Habsburg rule, and won full legal recognition in 1848.",
+   "file": "cic/texts/ferencz_short-account-of-the-unitarian-church-of-hungary_1907.txt",
+   "lines": "976-978",
+   "quote": "Unitarian Religion, received up to this time only in Transylvania, gets henceforth a full and legal recognition in the whole kingdom of Hungary."
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "why",
+   "sentence": "In 1660 Poland told its Unitarians to turn Catholic or leave.",
+   "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+   "lines": "1009-1010",
+   "quote": "meghatározta, hogy 1660 juL. 10-ig minden unitárius vagy térjen a kath.-vallásra, vagy hagyja el az országot,",
+   "rendering": "decided that by 10 July 1660 every Unitarian must either turn to the Catholic religion or leave the country"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "why",
+   "sentence": "Some came to Kolozsvár, where the church that Ferenc Dávid had led still stood.",
+   "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+   "lines": "1029-1031",
+   "quote": "legtöbben azonban Kolozsvártt, hol egy külön lengyel unitárius ekklézsiát is alapitottak, mely az erdélyi uni- tárius püspök felügyelete alatt állott.",
+   "rendering": "most, however, at Kolozsvár, where they also founded a separate Polish Unitarian congregation, which stood under the supervision of the Transylvanian Unitarian bishop"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "why",
+   "sentence": "Some came to Kolozsvár, where the church that Ferenc Dávid had led still stood.",
+   "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+   "lines": "4115",
+   "quote": "I. Dávid Ferencz 1566-tól 1579-ig.",
+   "rendering": "First, Ferenc Dávid, from 1566 to 1579"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "why",
+   "sentence": "Under Austrian rule from 1691 the church lost its college and its main church.",
+   "file": "cic/texts/ferencz_short-account-of-the-unitarian-church-of-hungary_1907.txt",
+   "lines": "279-281",
+   "quote": "Transylvania ceased, in 1691, to be an independent principality, and became part of the Kingdom, and subject to the rule of the Emperor of Austria."
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "why",
+   "sentence": "Under Austrian rule from 1691 the church lost its college and its main church.",
+   "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+   "lines": "1060-1061",
+   "quote": "ki kellé üríteni Kolozsvárit az óvári főiskolát, mely 1566- óta az unitáj-iusok birtokában volt.",
+   "rendering": "the old college at Kolozsvár had to be vacated, which had been in the Unitarians' possession since 1566"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "why",
+   "sentence": "Under Austrian rule from 1691 the church lost its college and its main church.",
+   "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+   "lines": "1084-1087",
+   "quote": "a jezsuiták egyszer sze- met vetettek, annak áldozatul kellett esni. 1716-ban mart. 30-án Steinville tartományi főhadvezér a piaezi templomot erőhatalommal elfoglalta",
+   "rendering": "what the Jesuits once set their eyes on had to fall victim. On 30 March 1716 General Steinville, the provincial commander, took the market church by force"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "why",
+   "sentence": "In 1848 it won lawful standing, and in 1861 it chose a bishop again.",
+   "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+   "lines": "1244-1246",
+   "quote": "1848-ban a pozsonyi ország- gyűlésen hozott 20-ik t. ez. 1 §-ében „Az unitárius val- lás törvényesen bevett vallásnak' nyilváníttatott.\"",
+   "rendering": "in 1848, in article 20 of the law passed at the Pozsony diet, paragraph 1: \"The Unitarian religion was declared a lawfully received religion\""
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "why",
+   "sentence": "In 1848 it won lawful standing, and in 1861 it chose a bishop again.",
+   "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+   "lines": "1317-1320",
+   "quote": "a püspöki szék ugyan- azon év jul. 2-án a tordai zsinaton köztiszteletben élő derék tudósunk, Kriza János személyében a szokott mó- don betöltetett.",
+   "rendering": "the bishop's seat was filled in the usual way on 2 July of the same year, at the synod of Torda, in the person of János Kriza, a worthy scholar of ours held in public esteem"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "relationsSummary",
+   "sentence": "This entry carries on the Unitarian church told in the entry for 1517 to 1650.",
+   "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+   "lines": "374-379",
+   "quote": "Az 6 fellépésével alakult meg Erdélyben az Isten oszthatat- lan egységét valló egyház, mely aztán határozottan az unitárius nevet vette fel s egyedül állotta ki azon viha- rokat, melyek 300 év alatt az unitárizmus felett elvo- nultak.",
+   "rendering": "With his appearance the church that professes the indivisible oneness of God was formed in Transylvania, which then decisively took the Unitarian name and alone withstood those storms that passed over Unitarianism in 300 years"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "relationsSummary",
+   "sentence": "This entry carries on the Unitarian church told in the entry for 1517 to 1650.",
+   "record": "census VI.14 dates 1517-1650",
+   "note": "VI.14 names the Transylvanian Unitarians; link continued as"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "relationsSummary",
+   "sentence": "In 1660 Poland drove out its Unitarians, and some joined this church at Kolozsvár.",
+   "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+   "lines": "1009-1010",
+   "quote": "meghatározta, hogy 1660 juL. 10-ig minden unitárius vagy térjen a kath.-vallásra, vagy hagyja el az országot,",
+   "rendering": "decided that by 10 July 1660 every Unitarian must either turn to the Catholic religion or leave the country"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "relationsSummary",
+   "sentence": "In 1660 Poland drove out its Unitarians, and some joined this church at Kolozsvár.",
+   "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+   "lines": "1029-1031",
+   "quote": "legtöbben azonban Kolozsvártt, hol egy külön lengyel unitárius ekklézsiát is alapitottak, mely az erdélyi uni- tárius püspök felügyelete alatt állott.",
+   "rendering": "most, however, at Kolozsvár, where they also founded a separate Polish Unitarian congregation, which stood under the supervision of the Transylvanian Unitarian bishop"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "relationsSummary",
+   "sentence": "Ferencz says the Jesuits took its college and its main church.",
+   "file": "cic/texts/ferencz_short-account-of-the-unitarian-church-of-hungary_1907.txt",
+   "lines": "286-287",
+   "quote": "As early as 1693, they fell upon our famous College at Kolozsvir,"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "relationsSummary",
+   "sentence": "Ferencz says the Jesuits took its college and its main church.",
+   "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+   "lines": "1084-1087",
+   "quote": "a jezsuiták egyszer sze- met vetettek, annak áldozatul kellett esni. 1716-ban mart. 30-án Steinville tartományi főhadvezér a piaezi templomot erőhatalommal elfoglalta",
+   "rendering": "what the Jesuits once set their eyes on had to fall victim. On 30 March 1716 General Steinville, the provincial commander, took the market church by force"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "relationsSummary",
+   "sentence": "American Unitarians were in touch with it from 1868, and English Unitarians from 1821.",
+   "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+   "lines": "1791-1795",
+   "quote": "1868 óta azonban e viszony is eleveneb- bé lőn. A háromszázados jubileumra ők is küldöttek üdvözlő iratot ; de ugyanez évben fordult meg Kolozs- vártt egy DaH nevű lelkész, az amerikai unitáiius egyesü- letnek Indiában levő missionariussa,",
+   "rendering": "since 1868, however, this relation has become livelier. For the 300th anniversary they too sent a letter of greeting; and in the same year a minister named Dall, the missionary of the American Unitarian association in India, came to Kolozsvár"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "relationsSummary",
+   "sentence": "American Unitarians were in touch with it from 1868, and English Unitarians from 1821.",
+   "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+   "lines": "1704-1708",
+   "quote": "Az angol unitáriusok a magyarországiakkal 1821 óta állanak érintkezésben. Ekkor küldöttek ok egy le- velet Kolozsvárra, melyben röviden előadták történőtö- ket s akkori állásokat, mire az idevalók hasonlóval fe- leltek.",
+   "rendering": "the English Unitarians have been in contact with those of Hungary since 1821. Then they sent a letter to Kolozsvár, in which they briefly set out their history and their standing at the time, and the people here answered with the like"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "legacy",
+   "sentence": "Ferencz's account of 1907 calls it the Unitarian Church of Hungary, and names Ferenc Dávid as its founder.",
+   "file": "cic/texts/ferencz_short-account-of-the-unitarian-church-of-hungary_1907.txt",
+   "lines": "152-153",
+   "quote": "Francis David is therefore duly recognised on all hands as the founder of the Unitarian Church of Hungary."
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "legacy",
+   "sentence": "The tree has no entry for it after 1906.",
+   "record": "census: no Unitarian row after VI.14 and this row",
+   "note": "checked the movements list for Unitarian rows"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "legacy",
+   "sentence": "The tree also has no entry yet for the English Unitarians after 1813, the Dutch Remonstrants after 1650, or the Reformed church of Hungary after 1815.",
+   "record": "census VII.31 ends 1813; VI.26 ends 1650; VII.40 ends 1815",
+   "note": "end dates of the neighbouring rows"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "legacy",
+   "sentence": "This entry tells their ties to this church in words only.",
+   "record": "draft: no link can be made to a row that does not exist",
+   "note": "qualifier for the prose"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "sourcing",
+   "sentence": "Moderate, and almost all of it the church's own voice.",
+   "record": "Library headers, cic/texts",
+   "note": "Ferencz 1875 and 1907 are the church's own; Rees 1818 is an English Unitarian"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "sourcing",
+   "sentence": "The Library holds two books by József Ferencz: a short history in Hungarian from 1875 and an English account of 1907.",
+   "record": "Library headers, cic/texts",
+   "note": "the two Ferencz files"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "sourcing",
+   "sentence": "This entry uses the account of 1907 only for events up to 1906.",
+   "record": "Library shelf rule",
+   "note": "nothing after 1906 enters an era 9 history"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "sourcing",
+   "sentence": "Thomas Rees, an English Unitarian, wrote about the exile from Poland in 1818.",
+   "record": "Library header, Rees 1818",
+   "note": "historical introduction to the Racovian Catechism"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "sourcing",
+   "sentence": "No Catholic source and no Latin or Hungarian archive was read, so the seizures of 1693 and 1716 are told as the Unitarians told them.",
+   "record": "Library: no Catholic source on these events was opened",
+   "note": "absence"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "sourcing",
+   "sentence": "The sources give different years for some events, and this entry says so.",
+   "record": "compared Rees 1818, Ferencz 1875 and 1907",
+   "note": "first decree 1658 or 1659; first English letter 1821 or 1822"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "sourcing",
+   "sentence": "The scan of the Hungarian book has accent errors.",
+   "record": "Library header, Ferencz 1875",
+   "note": "OCR quality note"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "floorNote",
+   "sentence": "In 1875 their pastor József Ferencz wrote that the Unitarian faith denies the Trinity.",
+   "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+   "lines": "1889-1893",
+   "quote": "unitárius vallás a keresztény vallás más for- máitól főleg abban különbözik, hogy a szentháromságot, a mint ez a 3-dik ós 4-dik évszáz sjrmbolumaiban ki- fejezést nyert s később Luther és Kálvin által is sértet- lenül fenntartatott, tagadja",
+   "rendering": "the Unitarian religion differs from the other forms of the Christian religion mainly in that it denies the Trinity, as this was expressed in the creeds of the 3rd and 4th centuries and was later kept intact by Luther and Calvin too"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "floorNote",
+   "sentence": "In 1875 their pastor József Ferencz wrote that the Unitarian faith denies the Trinity.",
+   "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+   "lines": "131-132",
+   "quote": "A KOLOZSVÁRI UNITÁRIUS EGYHÁZKÖZSÉG LELKÉSZE S FŐISKOLAI HITTANÁR.",
+   "rendering": "pastor of the Unitarian congregation of Kolozsvár and teacher of theology at its college"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "floorNote",
+   "sentence": "In his words, it holds neither Christ nor the Holy Spirit equal to God.",
+   "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+   "lines": "1894-1896",
+   "quote": "Ennél fogva sem a Krisztust, sem a szentlelket nem tartja egyenlőknek aa^ Istennel, még kevésbbé tartja ezt a hármat egynek.",
+   "rendering": "for this reason it holds neither Christ nor the Holy Spirit to be equal to God, and still less does it hold these three to be one"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "floorNote",
+   "sentence": "He calls Jesus a perfect man and the greatest of the prophets.",
+   "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+   "lines": "1986-1988",
+   "quote": "Minden próféták között a legnagyobb, ama Krisztus vagy Messiás, Istennek szent fia,",
+   "rendering": "among all prophets the greatest, that Christ or Messiah, God's holy son"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "floorNote",
+   "sentence": "He calls Jesus a perfect man and the greatest of the prophets.",
+   "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+   "lines": "1992-1993",
+   "quote": "az emberiség mintaképe, ugy szólván, tökéletes ember,",
+   "rendering": "the model of humanity, so to speak a perfect man"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "floorNote",
+   "sentence": "This is the church's own account, not a charge made by its opponents.",
+   "record": "Library header, Ferencz 1875",
+   "note": "written by the congregation's own pastor"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "floorNote",
+   "sentence": "Whether it places them outside the floor is not yet decided.",
+   "record": "VII.31 floorNote model",
+   "note": "register wording"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "floorNote",
+   "sentence": "Noting this is not a judgment on what was done to them.",
+   "record": "VI.14 floorNote model",
+   "note": "register wording"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "floorNote",
+   "sentence": "Poland drove out its Unitarians in 1660, and in 1716 an army commander took their main church at Kolozsvár by force.",
+   "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+   "lines": "1009-1010",
+   "quote": "meghatározta, hogy 1660 juL. 10-ig minden unitárius vagy térjen a kath.-vallásra, vagy hagyja el az országot,",
+   "rendering": "decided that by 10 July 1660 every Unitarian must either turn to the Catholic religion or leave the country"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "floorNote",
+   "sentence": "Poland drove out its Unitarians in 1660, and in 1716 an army commander took their main church at Kolozsvár by force.",
+   "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+   "lines": "1084-1087",
+   "quote": "a jezsuiták egyszer sze- met vetettek, annak áldozatul kellett esni. 1716-ban mart. 30-án Steinville tartományi főhadvezér a piaezi templomot erőhatalommal elfoglalta",
+   "rendering": "what the Jesuits once set their eyes on had to fall victim. On 30 March 1716 General Steinville, the provincial commander, took the market church by force"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "statusDescription",
+   "sentence": "Proposed for a future survey, as a register entry.",
+   "record": "VII.31 statusDescription model",
+   "note": "register wording"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "statusDescription",
+   "sentence": "By its own pastor's statement of 1875, it reads as stepping outside the doctrinal floor.",
+   "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+   "lines": "1894-1896",
+   "quote": "Ennél fogva sem a Krisztust, sem a szentlelket nem tartja egyenlőknek aa^ Istennel, még kevésbbé tartja ezt a hármat egynek.",
+   "rendering": "for this reason it holds neither Christ nor the Holy Spirit to be equal to God, and still less does it hold these three to be one"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "statusDescription",
+   "sentence": "The question is not decided yet. Not yet reviewed.",
+   "record": "VII.31 statusDescription model",
+   "note": "register wording"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "voices",
+   "sentence": "József Ferencz — pastor at Kolozsvár and teacher at its college, whose short history of 1875 is the church's own account",
+   "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+   "lines": "131-132",
+   "quote": "A KOLOZSVÁRI UNITÁRIUS EGYHÁZKÖZSÉG LELKÉSZE S FŐISKOLAI HITTANÁR.",
+   "rendering": "pastor of the Unitarian congregation of Kolozsvár and teacher of theology at its college"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "voices",
+   "sentence": "Mihály Szentábrahámi Lombárd — bishop from 1737 to 1758, whom his contemporaries called the eyes, heart and mouth of the Unitarians",
+   "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+   "lines": "1142-1144",
+   "quote": "kiről nem oknélkt^l mondák kortársai, hogy ö az unitáriusok sze- me, szive és szája volt.",
+   "rendering": "of whom his contemporaries, not without reason, said that he was the eyes, heart and mouth of the Unitarians"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "voices",
+   "sentence": "Mihály Szentábrahámi Lombárd — bishop from 1737 to 1758, whom his contemporaries called the eyes, heart and mouth of the Unitarians",
+   "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+   "lines": "4147",
+   "quote": "XVI. Szentábrahámi L. Mihály 1737-től I758.ig.",
+   "rendering": "Sixteenth, Mihály L. Szentábrahámi, from 1737 to 1758"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "voices",
+   "sentence": "János Kriza — elected bishop on 2 July 1861, after nine years in which Vienna would not let the church choose one",
+   "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+   "lines": "1317-1320",
+   "quote": "a püspöki szék ugyan- azon év jul. 2-án a tordai zsinaton köztiszteletben élő derék tudósunk, Kriza János személyében a szokott mó- don betöltetett.",
+   "rendering": "the bishop's seat was filled in the usual way on 2 July of the same year, at the synod of Torda, in the person of János Kriza, a worthy scholar of ours held in public esteem"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "voices",
+   "sentence": "János Kriza — elected bishop on 2 July 1861, after nine years in which Vienna would not let the church choose one",
+   "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+   "lines": "4160-4164",
+   "quote": "Kilencz évi üres- ség a miatt, hogy a bécsi kormány megtagadta az egyház püspökválasztási jogát, mialatt mint püspök- helyettes Székely Mózes állott a papság részéről az egyház élén.)",
+   "rendering": "Nine years of vacancy, because the Vienna government denied the church its right to elect a bishop, during which Mózes Székely stood at the head of the church as deputy bishop on the clergy's side"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "voices",
+   "sentence": "Pál Augustinovics — a descendant of the exiles from Poland, who left his whole estate to the church in 1837",
+   "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+   "lines": "1227-1231",
+   "quote": "Augustinovics Pálnak, a Lengyelhonból száműzött unitáriusok egyik utódának, nagybecsű hagyománya. E derék férfiú 1837- ben minden javai egyetemes örökösének az unitárius egyházat hagyta.",
+   "rendering": "the valued bequest of Pál Augustinovics, one of the descendants of the Unitarians banished from Poland. This worthy man in 1837 made the Unitarian church the general heir of all his goods"
+  },
+  {
+   "entry": "transylvanian-unitarian-church-1660-1906",
+   "field": "voices",
+   "sentence": "József Ferencz — pastor at Kolozsvár and teacher at its college, whose short history of 1875 is the church's own account",
+   "record": "census: Ferencz 1875 is the file the people row quotes",
+   "note": "the 1875 book is by József Ferencz (title page)"
+  },
+  {
+   "entry": "anti-trinitarian-currents-servetus-polish-brethr",
+   "field": "relationsSummary",
+   "sentence": "Its church in Transylvania carries on in the Unitarian church of 1660 to 1906.",
+   "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+   "lines": "374-379",
+   "quote": "Az 6 fellépésével alakult meg Erdélyben az Isten oszthatat- lan egységét valló egyház, mely aztán határozottan az unitárius nevet vette fel s egyedül állotta ki azon viha- rokat, melyek 300 év alatt az unitárizmus felett elvo- nultak.",
+   "rendering": "With his appearance the church that professes the indivisible oneness of God was formed in Transylvania, which then decisively took the Unitarian name and alone withstood those storms that passed over Unitarianism in 300 years"
+  }
+ ],
+ "neighbor_changes": [
+  {
+   "id": "anti-trinitarian-currents-servetus-polish-brethr",
+   "set": {
+    "continuesAs": "transylvanian-unitarian-church-1660-1906",
+    "relationsSummary": "The radical left edge of the Reformation. Michael Servetus was burned by Geneva's own council in 1553, and the Polish Brethren were expelled from Poland in 1658.\n\nIts church in Transylvania carries on in the Unitarian church of 1660 to 1906.",
+    "livingEvidence": {
+     "basis": "The church of this entry carries on in the Transylvanian Unitarian Church, 1660 to 1906, which holds the evidence for the church today.",
+     "carrier": [
+      "transylvanian-unitarian-church-1660-1906"
+     ],
+     "group": "line"
+    }
+   },
+   "ruling": "G89-53 (a) held; G89c: source now held, a lane 8 row entered",
+   "reason": "The new row continues VI.14's Transylvanian church, so VI.14 continues as it. The row is the latest entry of the line, so VI.14's living evidence moves to it, and VI.14 now names it as carrier. Nothing else in VI.14 changes."
+  }
+ ],
+ "links": [
+  {
+   "id": "anti-trinitarian-currents-servetus-polish-brethr--transylvanian-unitarian-church-1660-1906",
+   "from": "anti-trinitarian-currents-servetus-polish-brethr",
+   "to": "transylvanian-unitarian-church-1660-1906",
+   "type": "continued as",
+   "confidence": "Documented",
+   "note": "In 1875 József Ferencz, a Unitarian pastor, wrote that Ferenc Dávid's preaching formed the church in Transylvania. He says that church took the name Unitarian and alone withstood the storms of 300 years. His list of its bishops runs in one numbered line from Dávid in 1566 to János Kriza in 1861.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "József Ferencz, Unitarius kis tükör (Kolozsvár, 1875)",
+     "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+     "lines": "374-379",
+     "locus": "Historical part, on the founding of the church",
+     "quote": "Az 6 fellépésével alakult meg Erdélyben az Isten oszthatat- lan egységét valló egyház, mely aztán határozottan az unitárius nevet vette fel s egyedül állotta ki azon viha- rokat, melyek 300 év alatt az unitárizmus felett elvo- nultak.",
+     "license": "public-domain",
+     "rendering": "With his appearance the church that professes the indivisible oneness of God was formed in Transylvania, which then decisively took the Unitarian name and alone withstood those storms that passed over Unitarianism in 300 years"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "József Ferencz, Unitarius kis tükör (Kolozsvár, 1875)",
+     "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+     "lines": "4113-4115",
+     "locus": "Appendix I, the list of bishops",
+     "quote": "Az unitárius egyház püspökeinek névsora. I. Dávid Ferencz 1566-tól 1579-ig.",
+     "license": "public-domain",
+     "rendering": "The list of the bishops of the Unitarian church. First, Ferenc Dávid, from 1566 to 1579"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "József Ferencz, Unitarius kis tükör (Kolozsvár, 1875)",
+     "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+     "lines": "4166",
+     "locus": "Appendix I, the list of bishops",
+     "quote": "XXII. Kriza János 1861-től.",
+     "license": "public-domain",
+     "rendering": "Twenty-second, János Kriza, from 1861"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "ruling": "G89-53 (a) held; G89c: source now held, a lane 8 row entered, with VI.14 continued as it"
+  },
+  {
+   "id": "american-unitarianism-universalism-consolidations--transylvanian-unitarian-church-1660-1906",
+   "from": "american-unitarianism-universalism-consolidations",
+   "to": "transylvanian-unitarian-church-1660-1906",
+   "type": "in contact with",
+   "confidence": "Documented",
+   "note": "In 1868 Dall, a missionary of the American Unitarians, came to Kolozsvár from India. They also sent a greeting for the church's 300th year. Ferencz says Dall won their help to translate Channing's works into Hungarian. It was given.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "József Ferencz, Unitarius kis tükör (Kolozsvár, 1875)",
+     "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+     "lines": "1791-1795",
+     "locus": "Historical part, on the American Unitarians",
+     "quote": "1868 óta azonban e viszony is eleveneb- bé lőn. A háromszázados jubileumra ők is küldöttek üdvözlő iratot ; de ugyanez évben fordult meg Kolozs- vártt egy DaH nevű lelkész, az amerikai unitáiius egyesü- letnek Indiában levő missionariussa,",
+     "license": "public-domain",
+     "rendering": "since 1868, however, this relation has become livelier. For the 300th anniversary they too sent a letter of greeting; and in the same year a minister named Dall, the missionary of the American Unitarian association in India, came to Kolozsvár"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "József Ferencz, Unitarius kis tükör (Kolozsvár, 1875)",
+     "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+     "lines": "1798-1800",
+     "locus": "Historical part, on the American Unitarians",
+     "quote": "kieszközölte, hogy a Channing müveinek magyar fordítására segédkezet nyújtsanak, a mit meg is tettek.",
+     "license": "public-domain",
+     "rendering": "he obtained that they lend a helping hand to the Hungarian translation of Channing's works, which they also did"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "József Ferencz, Unitarius kis tükör (Kolozsvár, 1875)",
+     "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+     "lines": "1824-1828",
+     "locus": "Historical part, on the American Unitarians",
+     "quote": "Halé és Morison atyánkfiai már is tetemes segélyt gyűjtöttek kolozsvári főiskolánk mellett a tanári székek szaporithatására. Ozél- jok az, hogy két tanári széket állitsanak fel nevezett is- kolánknál, egyet a Channing, egyet a Priestley nevére,",
+     "license": "public-domain",
+     "rendering": "Hale and Morison, our brothers, have already collected considerable aid toward adding teaching chairs at our college at Kolozsvár. Their aim is to set up two chairs at that school, one in the name of Channing and one in the name of Priestley"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "ruling": "G89-53 (a) held; G89c: source now held; the contact the church's own account dates from 1831 and 1868"
+  },
+  {
+   "id": "society-of-jesus-1650-1814--transylvanian-unitarian-church-1660-1906",
+   "from": "society-of-jesus-1650-1814",
+   "to": "transylvanian-unitarian-church-1660-1906",
+   "type": "argued against",
+   "confidence": "Documented",
+   "note": "Ferencz says the Jesuits set their eyes on the main church of the Unitarians at Kolozsvár. In 1716 an army commander took it by force. His account of 1907 says Habsburg rule left the Unitarians an easy prey to the Jesuits. Only the Unitarian side was read.",
+   "outcome": "In 1716 an army commander took the Unitarians' main church at Kolozsvár. A Catholic bishop led worship there days later.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "József Ferencz, Unitarius kis tükör (Kolozsvár, 1875)",
+     "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+     "lines": "1084-1087",
+     "locus": "Historical part, on the seizure of the church",
+     "quote": "a jezsuiták egyszer sze- met vetettek, annak áldozatul kellett esni. 1716-ban mart. 30-án Steinville tartományi főhadvezér a piaezi templomot erőhatalommal elfoglalta",
+     "license": "public-domain",
+     "rendering": "what the Jesuits once set their eyes on had to fall victim. On 30 March 1716 General Steinville, the provincial commander, took the market church by force"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "József Ferencz, Unitarius kis tükör (Kolozsvár, 1875)",
+     "file": "cic/texts/ferencz_unitarius-kis-tukor-hun_1875.txt",
+     "lines": "1087-1089",
+     "locus": "Historical part, on the seizure of the church",
+     "quote": "abban már ápr. 2-in Mártoníi György kath. püspök tartotta az isteni tiszteletet.",
+     "license": "public-domain",
+     "rendering": "and on 2 April a Catholic bishop already held divine service in it"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "A Short Account of the Unitarian Church of Hungary (Budapest, 1907)",
+     "file": "cic/texts/ferencz_short-account-of-the-unitarian-church-of-hungary_1907.txt",
+     "lines": "283-284",
+     "locus": "Historical retrospect",
+     "quote": "Protestants and Unitarians, under their sway, became an easy prey to the zeal of the Jesuits.",
+     "license": "public-domain"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-direct",
+   "ruling": "G89-53 (a) held; G89c: source now held; the Jesuit seizures of 1693 and 1716 as the church tells them"
+  }
+ ],
+ "retire_links": [],
+ "holds": [
+  {
+   "item": "RV-7: the English Unitarians after 1813 (the letters of 1821/1822, the visits of 1830 and 1847, the gift of 13,000 forints in 1858) as links",
+   "g89": "G89-53 (a), G89c",
+   "reason": "Ferencz names these ties in 1875, but the census has no row for English Unitarians after 1813 (VII.31 ends in 1813), so no link can be made. They are told in the new row's prose only.",
+   "waits_for": "A census row for English Unitarianism after 1813; then a link from it to the new row, on lines 1704-1716 of the 1875 book."
+  },
+  {
+   "item": "RV-7: the Dutch Remonstrants and 'collegians' in Belgium and Holland, 1697 (9,000 thalers), and the Dutch schooling of Unitarian ministers",
+   "g89": "G89-53 (a), G89c",
+   "reason": "No census row for the Remonstrants after 1650 (VI.26 ends in 1650). The gift of 1697 is told in prose only.",
+   "waits_for": "A census row for the Dutch Remonstrants after 1650; then a link on lines 1078-1085 of the 1875 book."
+  },
+  {
+   "item": "RV-7: the Reformed church of Hungary, the loan of a Budapest hall for the first public Unitarian service on 13 June 1869",
+   "g89": "G89-53 (a), G89c; G89-45",
+   "reason": "VII.40 ends in 1815 and the era 9 row for Hungarian and Transylvanian Protestantism (G89-45: 'an era 9 row later') does not exist yet. The loan is told in prose only. Ferencz also tells that Reformed bishops and princes took Unitarian churches before 1650 (Dajka Keserű, 1618), which is VI.14's window.",
+   "waits_for": "The era 9 row for Hungarian and Transylvanian Protestantism; then an 'in contact with' link on lines 1337-1341."
+  },
+  {
+   "item": "RV-7: the Unitarian Church of Hungary after 1906 (the living mark)",
+   "g89": "G89-53 (a), G89c",
+   "reason": "The row ends in 1906. The Library holds no dated item after 2010 on the church, so the living grade stays 'none'.",
+   "waits_for": "A dated source on the Hungarian Unitarian Church today (its own site or a report of 2011-2026), to give the living mark CD or CR."
+  }
+ ],
+ "wants": [
+  "A Catholic or Habsburg source on the seizures of the Kolozsvár college (1693) and market church (1716): the 'argued against' link from the Jesuits rests on the Unitarians' own account.",
+  "A Latin or Hungarian Unitarian source from 1660 to 1815 (Szentábrahámi Lombárd's Summa, the church's catechisms, the minutes of the Polish congregation at Kolozsvár): the Library holds none, so the church's own voice in these years is Ferencz's later history.",
+  "The date of the first Polish decree: Rees gives 1658, Ferencz 1659; a Polish diet source would settle it."
+ ],
+ "flags": [
+  "CHECKER: check_draft.py prints one line, a READ-FAIL on VI.14's relationsSummary paragraph 1 (FRE 52). That paragraph is VI.14's own frozen text, carried unchanged; the one sentence I add is its own paragraph and passes. Everything else passes and all quotes verify.",
+  "LIVING: transylvanian-unitarian-church-1660-1906: living true, grade 'none (no dated item after 2010 found)', group 'own'. This moves VI.14's living evidence to the new row, as the task says; the R2 test (a dated CD or CR item) is not met, exactly as for VI.14 today. VI.14 now carries 'line' with the new row as carrier. No descentConfidence is set.",
+  "ERA: the row is era 8 and runs 1660-1906, as the task set it; precedents are VII.18 and VII.32 and the AP2 draft (an era 8 row past 1815). The brief's shelf rule (nothing after 1815 in an era 8 history) is read as applying to texts on the shelf, not to this row's dates. If the reviewer reads it strictly, the row splits at 1815 into two segments; I did not draft that.",
+  "SHELF: the 1907 account (Library) is dated after the row's end (1906). It is used only for events up to 1906 (the Jesuits and 1693, the Austrian emperor in 1691, the founding by Ferenc Dávid, 1822, 1848, Augustinovics 1837). Its numbers for 1906/1907 (congregations, members) and its statement of belief are not used.",
+  "DATES DIFFER: the first decree against the Polish Unitarians is 1658 in Rees and 1659 in Ferencz 1875; the final order is 20 July 1660 in Rees and 10 July 1660 in Ferencz 1875, and Ferencz 1907 says only that they were driven out in 1660. The first English letter is 1821 in Ferencz 1875 and 1822 in Ferencz 1907. The numbers who came: Rees 'about four hundred ... to Transylvania and Hungary'; Ferencz 1875 about 380 to Hungary, of whom 30-40 families went on to Transylvania. The prose says so. Ferencz 1875 gives 7 November 1579 for Ferenc Dávid's death and Ferencz 1907 gives 15 November; that is before the window and is not used.",
+  "OCR: Hungarian quotes keep the scan's errors, such as 'aa^' for 'az' (F_i2), '6' for 'Ő' (F_cont), 'Eáday Perencz' for Ráday Ferenc, 'DaH' for Dall (the name is clean at lines 1839-1840), 'lll.-dik Károly' for III., 'I758.ig.' for 1758, 'remonstranö és eollegians' (F_dimeny), 'Mártoníi' for Mártonffi. Words are broken across lines with a hyphen and a space, as in the file. The Rees quotes carry '2()th' for 20th and 'Hun gary;'. The prose spells the names correctly; the quotes do not.",
+  "RENDERINGS: every Hungarian quote has an English rendering, mine, carrying every clause. 'collegians' (the scan's 'eollegians') is kept in quotation marks in the prose: the source does not say which Dutch body it means, and the modern sense of the word would mislead.",
+  "PEOPLE: one people row, József Ferencz (1875), on his own statement of belief (voices[0]). The Library header names the 1875 author as the one the 1907 title page calls Bishop Ferencz; the 1875 text itself calls him pastor and college teacher, and the prose says only that. The other three voices (Szentábrahámi Lombárd, Kriza, Augustinovics) are not quoted in their own words, so they have no people row.",
+  "LINKS: three. (1) VI.14 continued as the new row, Documented on the church's own account of its founding and its one numbered list of bishops (a self-account; no outside scholar read). (2) in contact with VIII.37 (American Unitarians), Documented, minor (no outcome). (3) the Society of Jesus (VII.44) argued against the new row, Documented, with an outcome: it rests on the church's own account alone, with no Jesuit or Catholic source, so the reviewer may prefer a lower grade; Ferencz names the Jesuits (1875, line 1084; 1907, lines 283-284) but the 1693 and 1716 seizures were carried out by the army and a Catholic bishop. No link to VII.40, VII.31, VI.26 or the Reformed: see holds.",
+  "COUNTRY: Hungary has no census country ID (no row carries one), so modernCountries holds Romania/Transylvania only, from VI.14. 'Hungary' stays on the place label and in the region text. A Hungary ID needs a row that carries it.",
+  "STALE TEXT, NOT TOUCHED: VII.40's relationsSummary says 'The Unitarians are a different church, told to 1650.' With the new row it could name the Unitarian row (told to 1906). This is a frozen row outside the task, so I only flag it for a change order.",
+  "BELIEF: the 1875 statement of belief denies that Christ is equal to God (floor question, Section A A1 and A4 to be assessed). Ferencz 1875 also tells that the 1638 agreement at Dés bound the Unitarians anew to worship Christ and call on him (lines 943-948), and the 1907 account says the clergy signed a confession 'similar to that of 1579' about the worship due to Christ. That is before the window and is not used in the prose. The sources read do not say how the 1638 duty stood in 1875. For the Section A reviewer.",
+  "STATUS: statusWord and statusDescription are modeled on VII.31 (floor question, register). Tier is not named. Chip 'psc', glyph 'flq', as VII.31. Not set to any Section A verdict.",
+  "READ SCOPE: I read the 1907 account whole, the 1875 history of the church to line 2200 (history, doctrine and the start of the constitution) and the two appendices' lists of bishops; I did not read the 1875 book's constitution, rites and officers' register (lines 2200-5554) beyond a search for statements on Christ and worship."
+ ]
+}

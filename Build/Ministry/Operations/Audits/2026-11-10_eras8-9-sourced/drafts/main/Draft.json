@@ -1,0 +1,232 @@
+{
+ "entries": [],
+ "fact_table": [
+  {
+   "entry": "chinese-catholicism-1650-1906--society-of-jesus-1650-1814",
+   "field": "note",
+   "sentence": "In 1703 the Jesuit François Noël wrote to his General on the China missions. He had come to Rome over the honors paid in China to Confucius and to the dead. His order then had three churches at Peking. A Catholic study of 1908 says the Jesuits stood in high favour at the court, as astronomers and interpreters.",
+   "url": "https://archive.org/download/lettresdifiantes03jesu/lettresdifiantes03jesu_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": null,
+   "quote": "AU RÉVÉREND PÈRE GÉNÉRAL DE LA COMPAGNIE DE JESUS,"
+  },
+  {
+   "entry": "chinese-catholicism-1650-1906--society-of-jesus-1650-1814",
+   "field": "note",
+   "sentence": "In 1703 the Jesuit François Noël wrote to his General on the China missions. He had come to Rome over the honors paid in China to Confucius and to the dead. His order then had three churches at Peking. A Catholic study of 1908 says the Jesuits stood in high favour at the court, as astronomers and interpreters.",
+   "url": "https://archive.org/download/lettresdifiantes03jesu/lettresdifiantes03jesu_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": null,
+   "quote": "la grande et importante affaire des honneurs qu'on rend à la Chine à Confucius el aux morts"
+  },
+  {
+   "entry": "chinese-catholicism-1650-1906--society-of-jesus-1650-1814",
+   "field": "note",
+   "sentence": "In 1703 the Jesuit François Noël wrote to his General on the China missions. He had come to Rome over the honors paid in China to Confucius and to the dead. His order then had three churches at Peking. A Catholic study of 1908 says the Jesuits stood in high favour at the court, as astronomers and interpreters.",
+   "url": "https://archive.org/download/lettresdifiantes03jesu/lettresdifiantes03jesu_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": null,
+   "quote": "Quoique nous ayons déjà (rois églises à Pé- kin"
+  },
+  {
+   "entry": "chinese-catholicism-1650-1906--society-of-jesus-1650-1814",
+   "field": "note",
+   "sentence": "In 1703 the Jesuit François Noël wrote to his General on the China missions. He had come to Rome over the honors paid in China to Confucius and to the dead. His order then had three churches at Peking. A Catholic study of 1908 says the Jesuits stood in high favour at the court, as astronomers and interpreters.",
+   "url": "https://archive.org/download/catholicencyclop0003char/catholicencyclop0003char_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/cathen3.txt",
+   "quote": "The Jesuits, as astronomers or interpreters were in high favour at Court"
+  },
+  {
+   "entry": "southern-african-mission-churches--the-moravian-church-at-herrnhut",
+   "field": "note",
+   "sentence": "The Moravians' own report of 1790 tells Schmidt's landing at the Cape in 1737 and his seven baptisms. AF-5 opens with this mission among the churches of southern Africa. A Moravian history of 1901 tells Schmidt's work at the southern end of Africa. No study read says the Moravians shaped the other churches it tells.",
+   "url": "https://archive.org/download/historyofmission00hami/historyofmission00hami_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/hamilton1901.txt",
+   "quote": "Whilst Schmidt was laboring to overcome the prejudices of whites and reach heathen hearts at the southern end of the continent"
+  },
+  {
+   "entry": "southern-african-mission-churches--the-moravian-church-at-herrnhut",
+   "field": "note",
+   "sentence": "The Moravians' own report of 1790 tells Schmidt's landing at the Cape in 1737 and his seven baptisms. AF-5 opens with this mission among the churches of southern Africa. A Moravian history of 1901 tells Schmidt's work at the southern end of Africa. No study read says the Moravians shaped the other churches it tells.",
+   "url": "https://archive.org/download/historyofmission00hami/historyofmission00hami_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/hamilton1901.txt",
+   "quote": "As soon as the call reached Hcrrnhut."
+  },
+  {
+   "entry": "protestant-churches-of-the-voc-world--indonesian-christianity",
+   "field": "note",
+   "sentence": "The Company's Reformed church in the Moluccas went on after 1815. A modern history says Joseph Kam, at Ambon from 1815 to 1833, set out to restore its life after the Company failed. No entry in the tree spans the years 1815 to 1861.",
+   "url": "https://archive.org/download/oapen-20.500.12657-45624/1000344_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/aritonang.txt",
+   "quote": "The strategy of pioneering leaders like Joseph Kam in Ambon (1815-1833) and his colleagues was to seek a reha- bilitation of the life of the church as a consequence of not only the financial but also the moral bankruptcy of the VOC."
+  },
+  {
+   "entry": "protestant-churches-of-the-voc-world--indonesian-christianity",
+   "field": "note",
+   "sentence": "The Company's Reformed church in the Moluccas went on after 1815. A modern history says Joseph Kam, at Ambon from 1815 to 1833, set out to restore its life after the Company failed. No entry in the tree spans the years 1815 to 1861.",
+   "url": "https://archive.org/download/oapen-20.500.12657-45624/1000344_djvu.txt",
+   "accessed": "2026-11-10",
+   "raw_file": "raw/aritonang.txt",
+   "quote": "Joseph Kam (1769-1833), ‘the apostle of the Moluccas, under whose direction the Church of the Moluccas was revitalised."
+  }
+ ],
+ "neighbor_changes": [
+  {
+   "id": "protestant-churches-of-the-voc-world",
+   "set": {
+    "continuesAs": "indonesian-christianity",
+    "relationsSummary": "This is the Reformed church of the Dutch East India Company. It took over the Christians the Portuguese left in the Moluccas. In Ceylon the Company's government turned its law against the Catholics, who are told in the entry on the Catholics of Dutch Ceylon. After 1815 it lived on in the Moluccas. The entry on Indonesian Christianity picks up its story in 1861.",
+    "livingEvidence": {
+     "basis": "The heirs of the Company's church, such as the Protestant Church of the Moluccas, are alive today. No dated present-day record is in hand. The entry continues in the tree's entry on Indonesian Christianity, which opens in 1861; the years 1815 to 1861 are not told. The descent grade rests on a modern study (Aritonang and Steenbrink, ch. 9), which tells Joseph Kam renewing the same church from 1815; the line from there to today's Moluccan church is not yet read from a source. The descent to today's church is graded lower than the link to the 1861 entry because the study tells the church's renewal after 1815, not its line to the present.",
+     "grade": "none (no dated item after 2010 found)",
+     "descentConfidence": "Dominant Modern Reconstruction",
+     "group": "own"
+    }
+   },
+   "ruling": "Open-Gaps 191 (coordinator call)",
+   "reason": "the continued-as link; its successor named in the relations line and the living basis"
+  }
+ ],
+ "links": [
+  {
+   "id": "chinese-catholicism-1650-1906--society-of-jesus-1650-1814",
+   "from": "chinese-catholicism-1650-1906",
+   "to": "society-of-jesus-1650-1814",
+   "type": "in contact with",
+   "confidence": "Widely Accepted",
+   "note": "In 1703 the Jesuit François Noël wrote to his General on the China missions. He had come to Rome over the honors paid in China to Confucius and to the dead. His order then had three churches at Peking. A Catholic study of 1908 says the Jesuits stood in high favour at the court, as astronomers and interpreters.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Lettres édifiantes et curieuses concernant l'Asie, l'Afrique et l'Amérique, vol. III, Chine (Paris: Société du Panthéon littéraire, 1843)",
+     "url": "https://archive.org/download/lettresdifiantes03jesu/lettresdifiantes03jesu_djvu.txt",
+     "accessed": "2026-11-10",
+     "locus": "Noël's memoir on the state of the China missions, 1703: its heading",
+     "quote": "AU RÉVÉREND PÈRE GÉNÉRAL DE LA COMPAGNIE DE JESUS,",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Lettres édifiantes et curieuses concernant l'Asie, l'Afrique et l'Amérique, vol. III, Chine (Paris: Société du Panthéon littéraire, 1843)",
+     "url": "https://archive.org/download/lettresdifiantes03jesu/lettresdifiantes03jesu_djvu.txt",
+     "accessed": "2026-11-10",
+     "locus": "Noël's memoir, opening: why he was sent",
+     "quote": "la grande et importante affaire des honneurs qu'on rend à la Chine à Confucius el aux morts",
+     "license": "public-domain"
+    },
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Lettres édifiantes et curieuses concernant l'Asie, l'Afrique et l'Amérique, vol. III, Chine (Paris: Société du Panthéon littéraire, 1843)",
+     "url": "https://archive.org/download/lettresdifiantes03jesu/lettresdifiantes03jesu_djvu.txt",
+     "accessed": "2026-11-10",
+     "locus": "Noël's memoir, on the Peking churches",
+     "quote": "Quoique nous ayons déjà (rois églises à Pé- kin",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "The Catholic Encyclopedia, vol. 3 (New York: Robert Appleton Company, 1908), article \"China\"",
+     "url": "https://archive.org/download/catholicencyclop0003char/catholicencyclop0003char_djvu.txt",
+     "accessed": "2026-11-10",
+     "locus": "article \"China\", the missions under K'ang-hi",
+     "quote": "The Jesuits, as astronomers or interpreters were in high favour at Court",
+     "license": "public-domain",
+     "raw_file": "raw/cathen3.txt"
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-online",
+   "ruling": "Open-Gaps 185 (candidate secondary quote), added under G89c; regrade from Inferential-Thin"
+  },
+  {
+   "id": "southern-african-mission-churches--the-moravian-church-at-herrnhut",
+   "from": "southern-african-mission-churches",
+   "to": "the-moravian-church-at-herrnhut",
+   "type": "in contact with",
+   "confidence": "Widely Accepted",
+   "note": "The Moravians' own report of 1790 tells Schmidt's landing at the Cape in 1737 and his seven baptisms. AF-5 opens with this mission among the churches of southern Africa. A Moravian history of 1901 tells Schmidt's work at the southern end of Africa. No study read says the Moravians shaped the other churches it tells.",
+   "sources": [
+    {
+     "kind": "primary",
+     "source_id": null,
+     "work": "Periodical Accounts relating to the Missions of the Church of the United Brethren, vol. 1 (London, 1790)",
+     "file": "cic/texts/moravian-church_periodical-accounts-missions-v1_1790.txt",
+     "lines": "7259",
+     "locus": "Account of the Cape mission (George Schmidt named at lines 7250-7251)",
+     "quote": "having landed at the Cape, July gth, 1737",
+     "license": "public-domain"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "J. Taylor Hamilton, A History of the Missions of the Moravian Church during the Eighteenth and Nineteenth Centuries (Bethlehem, Pa.: Times Publishing Co., 1901)",
+     "url": "https://archive.org/download/historyofmission00hami/historyofmission00hami_djvu.txt",
+     "accessed": "2026-11-10",
+     "locus": "ch. I, Schmidt at the Cape",
+     "quote": "Whilst Schmidt was laboring to overcome the prejudices of whites and reach heathen hearts at the southern end of the continent",
+     "license": "public-domain",
+     "raw_file": "raw/hamilton1901.txt"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "J. Taylor Hamilton, A History of the Missions of the Moravian Church during the Eighteenth and Nineteenth Centuries (Bethlehem, Pa.: Times Publishing Co., 1901)",
+     "url": "https://archive.org/download/historyofmission00hami/historyofmission00hami_djvu.txt",
+     "accessed": "2026-11-10",
+     "locus": "ch. I, the call to the Cape (OCR 'Hcrrnhut')",
+     "quote": "As soon as the call reached Hcrrnhut.",
+     "license": "public-domain",
+     "raw_file": "raw/hamilton1901.txt"
+    }
+   ],
+   "citation_specificity": "A",
+   "verification_state": "verified-online",
+   "ruling": "Open-Gaps 185 (candidate secondary quote), added under G89c; regrade from Inferential-Thin; verification_state verified-direct to verified-online, since the regrade rests on a study read online"
+  },
+  {
+   "id": "protestant-churches-of-the-voc-world--indonesian-christianity",
+   "from": "protestant-churches-of-the-voc-world",
+   "to": "indonesian-christianity",
+   "type": "continued as",
+   "confidence": "Widely Accepted",
+   "note": "The Company's Reformed church in the Moluccas went on after 1815. A modern history says Joseph Kam, at Ambon from 1815 to 1833, set out to restore its life after the Company failed. No entry in the tree spans the years 1815 to 1861.",
+   "sources": [
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Jan S. Aritonang and Karel Steenbrink, eds., A History of Christianity in Indonesia (Leiden: Brill, 2008), open access",
+     "url": "https://archive.org/download/oapen-20.500.12657-45624/1000344_djvu.txt",
+     "accessed": "2026-11-10",
+     "locus": "ch. 9, Moluccan Christianity in the 19th and 20th century",
+     "quote": "The strategy of pioneering leaders like Joseph Kam in Ambon (1815-1833) and his colleagues was to seek a reha- bilitation of the life of the church as a consequence of not only the financial but also the moral bankruptcy of the VOC.",
+     "raw_file": "raw/aritonang.txt"
+    },
+    {
+     "kind": "secondary",
+     "source_id": null,
+     "work": "Jan S. Aritonang and Karel Steenbrink, eds., A History of Christianity in Indonesia (Leiden: Brill, 2008), open access",
+     "url": "https://archive.org/download/oapen-20.500.12657-45624/1000344_djvu.txt",
+     "accessed": "2026-11-10",
+     "locus": "ch. 6, the Netherlands Missionary Society",
+     "quote": "Joseph Kam (1769-1833), ‘the apostle of the Moluccas, under whose direction the Church of the Moluccas was revitalised.",
+     "raw_file": "raw/aritonang.txt"
+    }
+   ],
+   "citation_specificity": "B",
+   "verification_state": "verified-online",
+   "ruling": "Open-Gaps 191, ruled by the coordinator 2026-11-10 under Mark's standing instruction: yes, at most Widely Accepted on Aritonang ch. 9, the 1815-1861 gap named"
+  }
+ ],
+ "retire_links": [],
+ "holds": [],
+ "wants": [],
+ "flags": []
+}
