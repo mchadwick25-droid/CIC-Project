@@ -115,27 +115,6 @@ works:
 
     '
   source_file: crespin_histoire-des-martyrs-t3-fra_benoit-lelievre1889.txt
-- row_id: ferencz_short-account-of-the-unitarian-church-of-hungary_1907--bishop-ferencz-a-short-account-of-the-unitarian-church-of-hungary-1907
-  work: Bishop Ferencz, A Short Account of the Unitarian Church of Hungary (1907)
-  author: ferencz
-  locus: the whole booklet; add 11 to OCR line numbers for this file's own
-  role: tradition
-  confidence: needs-ruling
-  note: 'The Transylvanian Unitarian church''s own account of itself, issued under its bishop.
-    Its own voice, but written in 1907, after this entry''s window (1517-1650): the eras 8-9
-    sweep holds the church after the Polish exile (RV-7) as a lane 8 row or a named line closing
-    this entry, so the shelf waits on that ruling.'
-  source_file: ferencz_short-account-of-the-unitarian-church-of-hungary_1907.txt
-- row_id: ferencz_unitarius-kis-tukor-hun_1875--ferencz-unitarius-kis-tukor-kolozsvar-1875-hungarian
-  work: Ferencz, Unitarius kis tukor (Kolozsvar 1875), Hungarian
-  author: ferencz
-  locus: the whole booklet; add 12 to OCR line numbers for this file's own
-  role: tradition
-  confidence: needs-ruling
-  note: The church's own history and creed by a Kolozsvar pastor, later its bishop. Its own
-    voice, but after this entry's window; it waits on the RV-7 ruling like the 1907 Short
-    Account.
-  source_file: ferencz_unitarius-kis-tukor-hun_1875.txt
 - row_id: grotius_defence-of-the-catholic-faith-satisfaction-of-christ_foster1889--a-defence-of-the-catholic-faith-concerning-the-satisfaction-2
   work: A Defence of the Catholic Faith concerning the Satisfaction of Christ, against Faustus
     Socinus (Grotius, Leiden 1617; Foster's English, 1889)

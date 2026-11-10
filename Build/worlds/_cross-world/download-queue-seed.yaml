@@ -23238,3 +23238,285 @@ queue:
       located, djvu.txt fetched, byte count 897,700 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: garcia-pelaez_memorias-historia-reyno-de-guatemala-t2-spa_1852.txt
+
+  - title: 'Le Liber pontificalis: texte, introduction et commentaire par l''abbe L. Duchesne, tome premier'
+    author: The Roman church's book of the popes (Liber pontificalis); Louis Duchesne (editor)
+    translator: The Roman church's book of the popes (Liber pontificalis); Louis Duchesne (editor)
+    year: '1886'
+    world: open-gap
+    why: 'Open-Gaps 158: the Roman Church from 604 to about 1049.'
+    url: https://archive.org/details/duchesne01
+    rights_basis: 'Public Domain (pd-us-by-date: published 1886); the archive.org record carries no rights
+      field, so the imprint date is the basis'
+    verified_by: 'Library thread, 2026-11-10: archive.org metadata read, title page read, the wanted passages
+      located, djvu.txt fetched, byte count 4,110,646 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: liber-pontificalis_texte-introduction-commentaire-t1-lat-fra_duchesne1886.txt
+  - title: 'Le Liber pontificalis: texte, introduction et commentaire par l''abbe L. Duchesne, tome second'
+    author: The Roman church's book of the popes (Liber pontificalis); Louis Duchesne (editor)
+    translator: The Roman church's book of the popes (Liber pontificalis); Louis Duchesne (editor)
+    year: '1892'
+    world: open-gap
+    why: 'Open-Gaps 158: the Roman Church from 604 to about 1049.'
+    url: https://archive.org/details/duchesne02
+    rights_basis: 'Public Domain (pd-us-by-date: published 1892); the archive.org record carries no rights
+      field, so the imprint date is the basis'
+    verified_by: 'Library thread, 2026-11-10: archive.org metadata read, title page read, the wanted passages
+      located, djvu.txt fetched, byte count 3,554,159 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: liber-pontificalis_texte-introduction-commentaire-t2-lat-fra_duchesne1892.txt
+  - title: Reginonis abbatis Prumiensis libri duo de synodalibus causis et disciplinis ecclesiasticis, iussu
+      domini reverendissimi archiep. Treverensis Ratbodi ex diversis sanctorum patrum conciliis atque decretis
+      collecti; recensuit F. G. A. Wasserschleben
+    author: Regino of Prum, abbot; F. G. A. Wasserschleben (editor)
+    translator: Regino of Prum, abbot; F. G. A. Wasserschleben (editor)
+    year: '1840'
+    world: open-gap
+    why: 'Open-Gaps 158: the Latin church in the Frankish lands, 888 to about 1049.'
+    url: https://archive.org/details/reginonisabbati00wassgoog
+    rights_basis: 'Public Domain (pd-us-by-date: published 1840); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread, 2026-11-10: archive.org metadata read, title page read, the wanted passages
+      located, djvu.txt fetched, byte count 1,186,983 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: regino-pruem_libri-duo-de-synodalibus-causis-lat_wasserschleben1840.txt
+  - title: Les Annales de Flodoard, publiees d'apres les manuscrits, avec une introduction et des notes
+      par Ph. Lauer
+    author: Flodoard, canon of Reims (d. 966); Philippe Lauer (editor)
+    translator: Flodoard, canon of Reims (d. 966); Philippe Lauer (editor)
+    year: '1905'
+    world: open-gap
+    why: 'Open-Gaps 158: the Latin church in the Frankish lands, 888 to about 1049.'
+    url: https://archive.org/details/lesannalesdeflod00floduoft
+    rights_basis: 'Public Domain (pd-us-by-date: published 1905); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread, 2026-11-10: archive.org metadata read, title page read, the wanted passages
+      located, djvu.txt fetched, byte count 1,119,794 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: flodoard_annales-lat_lauer1905.txt
+  - title: Recueil des chartes de l'abbaye de Cluny, forme par Auguste Bernard, complete, revise et publie
+      par Alexandre Bruel, tome premier, 802-954
+    author: The abbey of Cluny (charters); Auguste Bernard and Alexandre Bruel (editors)
+    translator: The abbey of Cluny (charters); Auguste Bernard and Alexandre Bruel (editors)
+    year: '1876'
+    world: cluniac-reform-monasticism
+    why: 'Open-Gaps 158: Benedictine monasticism after 604.'
+    url: https://archive.org/details/recueildescharte01clunuoft
+    rights_basis: 'Public Domain (pd-us-by-date: published 1876); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread, 2026-11-10: archive.org metadata read, title page read, the wanted passages
+      located, djvu.txt fetched, byte count 2,047,810 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: cluny_recueil-des-chartes-t1-802-954-lat-fra_bernard-bruel1876.txt
+  - title: 'Annala Rioghachta Eireann: Annals of the Kingdom of Ireland, by the Four Masters, from the earliest
+      period to the year 1616, edited ... by John O''Donovan, second edition, vol. III'
+    author: The Four Masters (Michael O'Clery and his fellow compilers, Donegal, 1632-1636); John O'Donovan
+      (editor and translator)
+    translator: The Four Masters (Michael O'Clery and his fellow compilers, Donegal, 1632-1636); John O'Donovan
+      (editor and translator)
+    year: '1856'
+    world: open-gap
+    why: 'Open-Gaps 158: the Irish church from 1169 to today.'
+    url: https://archive.org/details/annalarioghachta03ocleuoft
+    rights_basis: 'Public Domain (pd-us-by-date: published 1856); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread, 2026-11-10: archive.org metadata read, title page read, the wanted passages
+      located, djvu.txt fetched, byte count 3,376,523 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: four-masters_annals-of-the-kingdom-of-ireland-v3-1172-1378-gle-eng_odonovan1856.txt
+  - title: Decreta synodi plenariae episcoporum Hiberniae apud Thurles habitae anno MDCCCL
+    author: The Catholic bishops of Ireland, in plenary synod at Thurles, 1850
+    translator: The Catholic bishops of Ireland, in plenary synod at Thurles, 1850
+    year: '1850'
+    world: open-gap
+    why: 'Open-Gaps 158: the Irish church from 1169 to today.'
+    url: https://archive.org/details/decretasynodiple00cath
+    rights_basis: 'Public Domain (pd-us-by-date: published 1851); the archive.org record carries no rights
+      field, so the imprint date is the basis'
+    verified_by: 'Library thread, 2026-11-10: archive.org metadata read, title page read, the wanted passages
+      located, djvu.txt fetched, byte count 128,526 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: synod-of-thurles_decreta-synodi-plenariae-hiberniae-lat_1851.txt
+  - title: Y Beibl cyssegr-lan, sef yr hen Destament, a'r newydd (host title; the title page is not captured
+      in the OCR)
+    author: William Morgan (translator), for the Welsh church
+    translator: William Morgan (translator), for the Welsh church
+    year: '1588'
+    world: the-english-reformation-and-elizabethan-settleme
+    why: 'Open-Gaps 158: the Welsh church from 1282 to today.'
+    url: https://archive.org/details/bim_early-english-books-1475-1640_y-beibl-cyssegr-lan-sef_bible-welsh_1588
+    rights_basis: 'Public Domain (pd-us-by-date: published 1588); the archive.org record carries no rights
+      field, so the imprint date is the basis'
+    verified_by: 'Library thread, 2026-11-10: archive.org metadata read, title page read, the wanted passages
+      located, djvu.txt fetched, byte count 5,323,785 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: welsh-bible_y-beibl-cyssegr-lan-cym_morgan1588.txt
+  - title: Llyfr Gweddi Gyffredin (the Book of Common Prayer in Welsh; host title 'The book of common prayer')
+    author: The Church of England in Wales
+    translator: The Church of England in Wales
+    year: '1664'
+    world: restoration-georgian-church-of-england
+    why: 'Open-Gaps 158: the Welsh church from 1282 to today.'
+    url: https://archive.org/details/bim_early-english-books-1641-1700_the-book-of-common-pray_1664
+    rights_basis: 'Public Domain (pd-us-by-date: published 1664); the archive.org record carries no rights
+      field, so the imprint date is the basis'
+    verified_by: 'Library thread, 2026-11-10: archive.org metadata read, title page read, the wanted passages
+      located, djvu.txt fetched, byte count 645,094 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: welsh-prayer-book_llyfr-gweddi-gyffredin-cym_1664.txt
+  - title: 'Liturgia Mozarabica secundum regulam beati Isidori, tomus prior: Missale mixtum, praefatione,
+      notis et appendicibus ab Alexandro Lesleo ornatum (Patrologia Latina 85)'
+    author: The Mozarabic church of Toledo (liturgy); Alexander Leslie (editor, 1755); J.-P. Migne
+    translator: The Mozarabic church of Toledo (liturgy); Alexander Leslie (editor, 1755); J.-P. Migne
+    year: '1862'
+    world: mozarabic-christianity
+    why: 'Open-Gaps 158: the Mozarabic community from 1031 to today.'
+    url: https://archive.org/details/liturgiamozarab01churgoog
+    rights_basis: 'Public Domain (pd-us-by-date: published 1862); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread, 2026-11-10: archive.org metadata read, title page read, the wanted passages
+      located, djvu.txt fetched, byte count 4,622,815 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: mozarabic-liturgy_missale-mixtum-pl85-lat_migne1862.txt
+  - title: 'Liturgia Mozarabica secundum regulam beati Isidori, tomus posterior: Breviarium Gothicum, opera
+      Fr. Ant. Lorenzana recognitum (Patrologia Latina 86)'
+    author: The Mozarabic church of Toledo (liturgy); Francisco Antonio Lorenzana (editor, 1775); J.-P.
+      Migne
+    translator: The Mozarabic church of Toledo (liturgy); Francisco Antonio Lorenzana (editor, 1775); J.-P.
+      Migne
+    year: '1862'
+    world: mozarabic-christianity
+    why: 'Open-Gaps 158: the Mozarabic community from 1031 to today.'
+    url: https://archive.org/details/liturgiamozarab00churgoog
+    rights_basis: 'Public Domain (pd-us-by-date: published 1862); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread, 2026-11-10: archive.org metadata read, title page read, the wanted passages
+      located, djvu.txt fetched, byte count 4,552,809 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: mozarabic-liturgy_breviarium-gothicum-pl86-lat_migne1862.txt
+  - title: 'Los mozarabes de Toledo en los siglos XII y XIII, por Angel Gonzalez Palencia, volumen I: documentos
+      numeros 1-382'
+    author: The Mozarabs of Toledo (deeds, in Arabic, summarised and translated); Angel Gonzalez Palencia
+      (editor)
+    translator: The Mozarabs of Toledo (deeds, in Arabic, summarised and translated); Angel Gonzalez Palencia
+      (editor)
+    year: '1926'
+    world: open-gap
+    why: 'Open-Gaps 158: the Mozarabic community from 1031 to today.'
+    url: https://archive.org/details/gonzalez-palencia-los-mozarabes-de-toledo-en-los-siglos-xii-y-xiii-volumen-i
+    rights_basis: 'Public Domain (pd-us-by-date: published in 1926, more than 95 years ago). The archive.org
+      record carries no rights field. The title page''s 1926 copyright notice has run out under the US 95-year
+      term; the editor''s own apparatus is also 1926.'
+    verified_by: 'Library thread, 2026-11-10: archive.org metadata read, title page read, the wanted passages
+      located, djvu.txt fetched, byte count 974,512 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: mozarabes-de-toledo_documentos-siglos-xii-xiii-v1-spa_gonzalez-palencia1926.txt
+  - title: Cartulaire de l'abbaye de Lerins
+    author: The abbey of Lerins (charters); H. Moris and E. Blanc (editors)
+    translator: The abbey of Lerins (charters); H. Moris and E. Blanc (editors)
+    year: '1883'
+    world: open-gap
+    why: 'Open-Gaps 158: the island monastery of Lerins, about 450 to today.'
+    url: https://archive.org/details/cartulairedelab00honogoog
+    rights_basis: 'Public Domain (pd-us-by-date: published 1883); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread, 2026-11-10: archive.org metadata read, title page read, the wanted passages
+      located, djvu.txt fetched, byte count 1,063,258 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: lerins_cartulaire-de-l-abbaye-de-lerins-pt1-lat-fra_moris-blanc1883.txt
+  - title: Chronologia sanctorum et aliorum virorum illustrium ac abbatum sacrae insulae Lerinensis, a domno
+      Vincentio Barrali Salerno monacho Lerinensi in unum compilata, cum annotationibus
+    author: Vincentius Barralis Salernus, monk of Lerins
+    translator: Vincentius Barralis Salernus, monk of Lerins
+    year: '1613'
+    world: open-gap
+    why: 'Open-Gaps 158: Lerins.'
+    url: https://archive.org/details/bub_gb_uSTTKSeII9sC
+    rights_basis: 'Public Domain (pd-us-by-date: published 1613); the archive.org record carries the Creative
+      Commons Public Domain Mark 1.0 (creativecommons.org/publicdomain/mark/1.0/)'
+    verified_by: 'Library thread, 2026-11-10: archive.org metadata read, title page read, the wanted passages
+      located, djvu.txt fetched, byte count 2,881,243 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: barralis_chronologia-sanctorum-insulae-lerinensis-lat_1613.txt
+  - title: Sacrorum conciliorum nova et amplissima collectio, tomus undecimus (reproduction en fac-simile
+      pour H. Welter)
+    author: Conciliar acts, 7th century, edited by Giovanni Domenico Mansi (the 1901 Welter facsimile)
+    translator: Conciliar acts, 7th century, edited by Giovanni Domenico Mansi (the 1901 Welter facsimile)
+    year: '1901'
+    world: byzantine-imperial-church-heraclian-iconoclast
+    why: 'Open-Gaps 158: the Church of Jerusalem after 450.'
+    url: https://archive.org/details/sacrorumconcilio0000vari_m7f6
+    rights_basis: 'Public Domain (pd-us-by-date: published 1901); the archive.org record carries no rights
+      field, so the imprint date is the basis'
+    verified_by: 'Library thread, 2026-11-10: archive.org metadata read, title page read, the wanted passages
+      located, djvu.txt fetched, byte count 3,389,822 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: mansi_sacrorum-conciliorum-collectio-tomus-11-lat_welter-facsimile1901.txt
+  - title: Analekta Hierosolymitikes Stachyologias, tomos D' (Analecta of Jerusalem gleanings, vol. IV)
+    author: The Patriarchate of Jerusalem and the Brotherhood of the Holy Sepulchre (acts); A. Papadopoulos-Kerameus
+      (editor)
+    translator: The Patriarchate of Jerusalem and the Brotherhood of the Holy Sepulchre (acts); A. Papadopoulos-Kerameus
+      (editor)
+    year: '1897'
+    world: orthodoxy-under-the-ottomans-1650-1821
+    why: 'Open-Gaps 158: the Church of Jerusalem after 450.'
+    url: https://archive.org/details/analektahieroso01papagoog
+    rights_basis: 'Public Domain (pd-us-by-date: published 1897); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread, 2026-11-10: archive.org metadata read, title page read, the wanted passages
+      located, djvu.txt fetched, byte count 2,279,049 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: papadopoulos-kerameus_analekta-hierosolymitikes-stachyologias-t4-grc_1897.txt
+  - title: 'Histoire de la Georgie depuis l''antiquite jusqu''au XIXe siecle, traduite du georgien par M.
+      Brosset, IIe partie: Histoire moderne, IIe livraison'
+    author: Georgian chroniclers (Sekhnia Chkheidze, Papuna Orbeliani, Oman Kherkheulidze and others); Marie-Felicite
+      Brosset (translator)
+    translator: Georgian chroniclers (Sekhnia Chkheidze, Papuna Orbeliani, Oman Kherkheulidze and others);
+      Marie-Felicite Brosset (translator)
+    year: '1857'
+    world: open-gap
+    why: 'Open-Gaps 158: the Georgian church from 1245 to 1917.'
+    url: https://archive.org/details/BrossetHistGeo2
+    rights_basis: 'Public Domain (pd-us-by-date: published 1857); the archive.org record carries no rights
+      field, so the imprint date is the basis'
+    verified_by: 'Library thread, 2026-11-10: archive.org metadata read, title page read, the wanted passages
+      located, djvu.txt fetched, byte count 1,991,784 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: brosset_histoire-de-la-georgie-pt2-histoire-moderne-livr2-fra_1857.txt
+  - title: Antiochus Strategos' Account of the Sack of Jerusalem in A.D. 614, by F. C. Conybeare (The English
+      Historical Review, vol. XXV, 1910)
+    author: Antiochus Strategos, monk of Mar Saba; F. C. Conybeare (translator from the Georgian)
+    translator: Antiochus Strategos, monk of Mar Saba; F. C. Conybeare (translator from the Georgian)
+    year: '1910'
+    world: open-gap
+    why: 'Open-Gaps 158: Judean desert and Sinai monasticism from 614 to today.'
+    url: https://archive.org/details/cony1910ehrstrategosjerusalem
+    rights_basis: 'Public Domain (pd-us-by-date: published 1910); the archive.org record carries no rights
+      field, so the imprint date is the basis'
+    verified_by: 'Library thread, 2026-11-10: archive.org metadata read, title page read, the wanted passages
+      located, djvu.txt fetched, byte count 56,101 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: antiochus-strategos_sack-of-jerusalem-614_conybeare1910.txt
+  - title: 'Patrologia Orientalis, tome XVIII (1924), with fascicle V: Histoire de Yahya-ibn-Sa''id d''Antioche,
+      continuateur de Sa''id-ibn-Bitriq, editee et traduite en francais par I. Kratchkovsky et A. Vasiliev'
+    author: Yahya ibn Sa'id of Antioch (11th century); I. Kratchkovsky and A. Vasiliev (editors); the other
+      fascicles of the tome by their own editors
+    translator: Yahya ibn Sa'id of Antioch (11th century); I. Kratchkovsky and A. Vasiliev (editors); the
+      other fascicles of the tome by their own editors
+    year: '1924'
+    world: open-gap
+    why: 'Open-Gaps 158: Arabic-speaking Chalcedonian Christians from 1009 to 1724.'
+    url: https://archive.org/details/patrologiaorient0018unse
+    rights_basis: 'Public Domain (pd-us-by-date: published 1924); the archive.org record carries no rights
+      field, so the imprint date is the basis'
+    verified_by: 'Library thread, 2026-11-10: archive.org metadata read, title page read, the wanted passages
+      located, djvu.txt fetched, byte count 1,879,071 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: po18_patrologia-orientalis-t18-yahya-ibn-said-histoire-ara-fra_kratchkovsky-vasiliev1924.txt
+  - title: Historia general de Filipinas, desde el descubrimiento de dichas islas hasta nuestros dias, por
+      D. Jose Montero y Vidal, tomo III
+    author: Jose Montero y Vidal, of the Real Academia de la Historia
+    translator: Jose Montero y Vidal, of the Real Academia de la Historia
+    year: '1895'
+    world: philippine-catholicism-gomburza-to-aglipay
+    why: AP10, Hermano Pule.
+    url: https://archive.org/details/afj2218.0001.001.umich.edu
+    rights_basis: 'Public Domain (pd-us-by-date: published 1895). The archive.org record carries no rights
+      field. The title page''s ''Es propiedad del autor (Derechos reservados)'' has run out under the US
+      term by date.'
+    verified_by: 'Library thread, 2026-11-10: archive.org metadata read, title page read, the wanted passages
+      located, djvu.txt fetched, byte count 1,445,852 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: montero-y-vidal_historia-general-de-filipinas-t3-spa_1895.txt
