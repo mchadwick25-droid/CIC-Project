@@ -1874,3 +1874,58 @@ The coordinator's expected figure of LISTED 40 did not add up (25 + 8 + 40 + 4 =
 **What this does not change.** No census, record or site change is made by this sweep. The display
 rule (Who shows only the 39 person entries) lifts on Mark's call after the other eras are sorted.
 Approved to proceed (Mark, 2026-11-11).
+
+## 2026-11-11 — The era 2 Who scan, and the standing OUTSIDE WITNESS label (Mark, 2026-11-11)
+
+**Decided (Mark, 2026-11-11, relayed by the coordinator; his words as given).** The read-only
+scan of era 2 (312–451 CE) used the era 1 standard. Mark ruled on the cases it raised:
+- **Recorders are Whos.** On Palladius of Helenopolis: "he needs to be a who"; then "we need
+  Palladius as a who as a biographer and other things, we need to include people like him as
+  who's". A biographer, church historian or recorder whose work became a main source for how the
+  church knows its people and past is WHO on that body of work. Where the recorder's own life is
+  too thin to tell, the row stays WHO as a judgment call. So Palladius, Possidius, Sulpicius
+  Severus, Paulinus of Milan, Epiphanius, Socrates, Sozomen, Philostorgius, Koriun, Eghishe,
+  Auxentius of Durostorum, Theodoret and Rufinus are WHO, and Pontius the Deacon (era 1) is
+  rescored WHO.
+- **Women.** "women who have 1 source and that source is a who, then that qualifies". Of the
+  readings offered, Mark chose "Who if she shaped": WHO if she founded, taught or led; STORY
+  otherwise. Macrina, Paula, Marcella, Fabiola, Olympias and Melania the Elder are WHO; Monica is
+  STORY; Amma Sarah is LISTED (her sayings come from anonymous collections).
+- **Emperors:** "By the standard". Constantine is WHO as a named exception, Theodosius I is
+  STORY, and the rest are sorted by the standard (Constantius II, Julian, Pulcheria, Justina:
+  LISTED).
+- **Founders known through a disciple's or biographer's record:** "Who". The record counts as
+  developed with them, and the brief marks it as hagiography.
+- **Founders with their own words and a following:** "Own words + following". The two-witness test
+  stays for founders with no words of their own (Melitius, Donatus).
+- **Jovinian:** "Take it down". He is LISTED; his live profile comes down in a later release.
+- **Councils:** "counsels are treated like a tradition with a different icon and title. but
+  people who are a part of it should be on the who click". Councils are not people and carry no
+  verdict; the scan lists each council with its participants.
+
+**The standing OUTSIDE WITNESS label (all eras).** Mark's lines, in order:
+1. "they are who but clearly mentioned as outside witnesses" (Josephus and Tacitus).
+2. "this should be all that are significant witnesses outside the church through the eras".
+3. "these are historians, not doctrine or athiests or others fighting the church, just objective
+   historians".
+OUTSIDE WITNESS is a standing WHO label for historians outside the church who report on it. Its
+profile says who the writer was, exactly what they say, and how far it can be trusted (for
+Josephus, which lines of the Testimonium scholars think were added). Josephus and Tacitus are
+WHO. Suetonius and Ammianus Marcellinus are WHO under it (the coordinator's reading of the second
+and third lines). Polemicists do not qualify; Celsus, Porphyry, Lucian of Samosata, Julian and
+Libanius are LISTED by the standard. Pliny the Younger, a governor's report and not a historian's
+work, is an open judgment call. Future era scans apply the label. The three era 1 rows
+(Josephus, Tacitus, Suetonius), Pliny, the three LISTED polemicists and Pontius the Deacon are
+added to the era 1 record as an addendum; the era 1 counts are unchanged.
+
+**Outcome of the era 2 sweep.** 107 people: WHO 57, STORY 8, LISTED 48, WANTED 2. Judgment-call
+rows: 54. The WANTED rows are Gregory the Illuminator (Agathangelos) and Ezana of Aksum (his
+inscriptions). Four Opus checks read the cited passages: 51 first-pass rows (35 confirmed, 15
+corrected, 1 not supported: Mesrop, whose source, Koriun's Life, is held), 21 new or changed rows
+(9 corrected), the outside-witness rows and the 12 councils (8 corrected). The full table and the
+checks: `Build/Ministry/Operations/Audits/2026-11-11_who-scan-era2/`.
+
+**What this does not change.** No census, record or site change is made by this scan. Jovinian's
+profile comes down in a later release. Councils stay out of the census until a change order on
+frozen eras makes them an entry kind. The display rule (Who shows only the person entries) lifts
+on Mark's call after the other eras are sorted. Approved to proceed (Mark, 2026-11-11).
