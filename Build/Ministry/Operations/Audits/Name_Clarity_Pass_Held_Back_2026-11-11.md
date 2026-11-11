@@ -79,3 +79,13 @@ Also held back: the 12 tradition pages (cic-website/data/worlds, compiled from r
 - the-hesychast-revival-paisius-and-the-philokalia · documentedStories.1.text: 1483 → 1494 characters (+11). “…ury began. Macarius and Nico…” → “…ury began. Macarius of Corinth and Nico…”
 - the-optina-elders-and-russian-ascetic-renewal · documentedStories.0.text: 1386 → 1396 characters (+10). “…ing trained Macarius, who tr…” → “…ing trained Macarius of Optina, who tr…”
 - the-optina-elders-and-russian-ascetic-renewal · documentedStories.1.text: 1473 → 1483 characters (+10). “…ptina since Macarius's death…” → “…ptina since Macarius of Optina's death…”
+
+## Added from Open-Gaps 212 (coordinator, 2026-11-11)
+
+Card fields were fixed in the pass: Rufinus of Aquileia (Origen, Athanasius, Gregory of Nazianzus), Trebonianus Gallus (Origen), Porphyry of Tyre (Methodius), Zachariah of Mitylene (Constantine), Gregory of Nyssa's own complaint (Nyssa), Palladius of Helenopolis (Chrysostom).
+
+Brief wording held back, same reason as above:
+- origen longDescription: “We read that book mostly in Rufinus's Latin, and Jerome said Rufinus changed it.” → “…in Rufinus of Aquileia's Latin…”. About +12 characters on top of the 2241 above, so about 2253.
+- gregory-of-nyssa longDescription: the bare subject “Gregory” appears in later paragraphs; only the first mention carries the place (already listed above).
+- gregory-of-nazianzus longDescription: same; only the first mention carries the place (already listed above).
+- john-chrysostom longDescription: Palladius of Helenopolis, already listed above.
