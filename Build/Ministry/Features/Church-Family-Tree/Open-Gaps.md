@@ -2021,3 +2021,42 @@ it, never by deleting it.
     held, with their reasons" (2026-11-10) say that file holds only Rufinus's preface and epilogue.
     The scan did not rely on it. Open: open `npnf203` at vi.v and say which is true. Owner: the
     Library thread.
+
+206. **The era 2 Who scan's wanted sources (2026-11-11).** Two people would be a Who if the Library
+    held one named source. Owner: the Library thread.
+    - Gregory the Illuminator: Agathangelos, *History of the Armenians* (Thomson, 1976). Only later
+      retellings are held (Moses of Khoren, Chamich).
+    - Ezana of Aksum: his Ge'ez inscriptions (Littmann, *Deutsche Aksum-Expedition* IV, 1913, or RIE
+      270–271).
+    - Mesrop Mashtots left this list: the check found Koriun's Life held in French (Langlois, tome
+      2), so he is WHO as a judgment call.
+    - Source: `Build/Ministry/Operations/Audits/2026-11-11_who-scan-era2/`.
+207. **Jovinian's live profile comes down (2026-11-11).** Mark: "Take it down". Jovinian is LISTED:
+    his book is lost and four points of doctrine survive in opponents. The profile comes down in a
+    later release; no site change is made by the scan. Owner: the coordinator, for the release.
+208. **Councils as tradition-like entries with their own icon and title; participants on their Who
+    click (2026-11-11).** Mark: "counsels are treated like a tradition with a different icon and
+    title. but people who are a part of it should be on the who click". Making councils a census
+    entry kind is later work for the map and data, and a change order on frozen eras. The era 2
+    scan lists 13 councils with their participants. Also named in era 2 text and not yet
+    tabulated: Gangra (c.340), Rome (377), Paris (c.360), the Donatist council that condemned
+    Tyconius (c.380), Saragossa (c.380), Toledo (400), Constantinople (383), the African councils
+    of 418 and the Persian synod of 424. Owner: the coordinator.
+209. **Pliny the Younger: open judgment call (2026-11-11).** A governor's report, not a historian's
+    work, so not decided under the OUTSIDE WITNESS label. The letter (Ep. 10.96 and Trajan's reply)
+    is held only inside McGiffert's note 891 to Eusebius III.33 (`npnf201`, lines 19451–19533). If
+    he is WHO, an edition of Pliny, Book 10, is the source wanted. Owner: Mark's call, then the
+    Library thread.
+210. **Other open points from the era 2 scan (2026-11-11).** Owners as noted.
+    - Recorders under Mark's ruling, era 1: Pontius the Deacon is rescored WHO in the era 1
+      addendum. Philip (Bardaisan's pupil) and Hegesippus may fall under the same ruling and are
+      not yet retested. Owner: the coordinator.
+    - Better sources than the ones held: the Pachomian Lives (Greek), Antony's letters, Possidius's
+      Indiculus (PL 46), Libanius's orations and letters, Porphyry's fragments, an edition of
+      Josephus checked against a critical text. Owner: the Library thread.
+    - Shapers named in no era 2 census text and so not scored: Ossius, Alexander of Alexandria,
+      Liberius, Marcellus of Ancyra, Eusebius of Nicomedia, Eutyches, Dioscorus, Moses the Robber.
+      Owner: the coordinator.
+    - Reccared (589) and Euthymius the Great (377–473) fall in era 3 by date and go to that scan.
+    - OUTSIDE WITNESS is a standing label; each later era scan applies it. Owner: the coordinator.
+    - Source: `Build/Ministry/Operations/Audits/2026-11-11_who-scan-era2/`.
