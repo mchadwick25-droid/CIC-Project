@@ -69,6 +69,15 @@ STRUCTURAL_FIELDS = (
     "kind",
 )
 
+# A tradition's people, a person's home tradition and a person's card: the
+# map's Who stacks and person cards draw them for every movement, built or not.
+PEOPLE_FIELDS = (
+    "people",
+    "peopleNote",
+    "toldWithin",
+    "card",
+)
+
 NON_BUILT_WORLD_FIELDS = (
     "why",
     "relationsSummary",
@@ -103,7 +112,7 @@ def sync_atlas(census: dict, atlas_movements: list[dict]) -> tuple[list[dict], l
         cm = census_by_id.get(mid)
         if cm is None:
             continue
-        fields = STRUCTURAL_FIELDS + (BUILT_WORLD_FIELDS if cm.get("status") == LIVE_STATUS else NON_BUILT_WORLD_FIELDS)
+        fields = STRUCTURAL_FIELDS + PEOPLE_FIELDS + (BUILT_WORLD_FIELDS if cm.get("status") == LIVE_STATUS else NON_BUILT_WORLD_FIELDS)
         for field in fields:
             if field not in cm:
                 continue

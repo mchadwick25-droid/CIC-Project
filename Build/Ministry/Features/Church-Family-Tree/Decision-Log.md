@@ -1587,3 +1587,160 @@ added for the cards.
 The pilot clips were never on the site, and these recordings replace them. Tertullian was not in
 this run. The map still leaves person rows out until the people layer is built, so the recordings
 play on each person's own page.
+
+---
+
+## 2026-11-11 — The people layer: Who beside every tradition and river (P2-P)
+
+**How it was reached.** Mark looked at the first People view (draft PR #1585, a global Traditions |
+People switch) and called the all-names view "a little chaotic". He asked for a Who control beside
+the clicks he already has. Four takes were drawn on the real data
+(https://claude.ai/artifact/Cu4jx1Zx1WVoJZJ386vMfZ, version 4). Mark converged on 2026-11-11.
+His words are quoted where they settle a point.
+
+**Decided (Mark, 2026-11-11).**
+- **The traditions map stays primary.** There is no global People switch. It replaces the switch
+  in the P2-P row of the Build-Plan.
+- **A Who button on every tradition card.** It is full width and carries a count ("Who · 10
+  people"). Mark: "the who needs to be prominate on the card too".
+- **A Who pill on each river in each era.** Mark: "a river who click at the top of each era, so it
+  would only open that river and era, if a stream starts in the era it would be in the beggining
+  of the thick part".
+- **A profile pill beside each tradition label.** Mark: "we need a profile pill next to each
+  tradition also that opens that traditions who".
+- **Names show on the map at once.** Mark: "the profile pills on the main page instantly show the
+  names in the river or next to the tradition as designed". There is no card in between. Tapping
+  the pill again, or the "Who: <scope> ×" chip, clears them.
+- **Vertical stacks that stay with their river.** Mark: "for the world lets to them verticly, not
+  accross other rivers. so if there is three names it would be three rows first one level with the
+  world to the right and other names below it so it looks like they are attatched to the river and
+  not crossing over to other worlds". A name is cut short with "…" where the next river begins, and
+  the card has it in full. Where the right side is too tight, the stack uses the river's left side.
+  A second stack on the same river starts below the first, with a dotted line to its own
+  tradition. A stack shows up to 6 names for one tradition and 4 for a river in an era, then
+  "+N more". Other traditions' labels under an open stack are hidden while it is open.
+- **One profile icon.** Mark: "we are only using a profile icon not real pictures at this point.
+  simple". Everyone gets the same icon, in the river's color. Likenesses (P2-PL) are deferred.
+- **Option C is the base.** Plain stacks, no plates, and a chip in the switch bar.
+- **Every name opens a person card.** Mark: "for each name we can click on and get their card with
+  the voiced intro, standardized template of information and sources", and "the brief then the
+  card context continues the story". The brief plays on open, as a tradition card's does. The card
+  order is: name and other forms; Known for; dates (with "about"); place; tradition; role; the brief
+  and its length; key works (3 at most); Legacy in two parts, "What traces to them" and "How
+  they're remembered" (honoured, disputed or condemned, and by whom; Mark merged "named by other
+  traditions" into it); What is uncertain (the brief's caveat, then more); links on the map;
+  Sources last, in two groups, "Their own words" and "Written about them".
+- **Missing fields are absent, never filled.** A named voice with no brief and no card data shows
+  what exists: name, dates, tradition, and words of theirs the record quotes.
+- **A person shows once.** Within one Who view, each person shows in one stack. The card shows the
+  other traditions that name them, in the words of those traditions' own records ("wrote against
+  him within Marcion's own lifetime"), never as membership.
+
+**Decided in the build, under the rulings.**
+- **Where a name goes when neither side has room.** Where both sides of a tradition are too tight
+  (under 70 map units), the stack starts on the line below the label, beside the dot. This keeps
+  the rule that a stack never crosses another river.
+- **Which stack a repeated person joins.** A person entry joins the stack of the tradition that
+  tells them, if that tradition is in view. Anyone else joins the earliest stack that names them.
+- **A stack pushed below another one is headed by its tradition's name.** The tradition's own
+  label may be hidden under the stack above, so the header and the dotted line both say whose
+  people these are.
+- **A voice is joined to a person entry by name and date.** A row's name joins an entry when it
+  matches the entry's name, short name or informal name and the row's year falls within 30 years
+  of the entry's dates. The date test keeps Ignatius of Antioch (107) apart from Ignatius of Loyola.
+- **People told within no tradition** (Jovinian, Peter the Iberian) show in their river's Who for
+  their era, at their own year.
+- **Links that end at a person** are drawn from that person's home tradition, as #1585 drew them
+  in its Traditions view. A link is not drawn where both ends fall in one tradition. It also is not
+  drawn where the person has no tradition. The person's card lists every link that names them.
+- **Pills show at reading zoom only.** On the whole-map view they would shrink to specks, so the
+  river and profile pills appear with the tradition labels. The card's Who button works at any
+  zoom. It brings the map in close enough to read the names.
+- **A tradition that names no one has no profile pill.** Its card's Who button reads "Who · no one
+  named" and is not active, and its Who section gives the plain reason (`peopleNote`).
+- **Card data has a home.** Person entries take an optional `card` (knownFor, role, keyWorks,
+  legacy {traces, remembered}, uncertain, sources {ownWords, about}). The census validator checks
+  it. It is filled for the 10 pilot people, and nowhere else yet: for eight, from the final cards
+  of data release 35 (`Build/Ministry/Operations/Audits/2026-11-11_person-brief-pilot/final/`); for
+  Bede and Grotius, from the reviewed pilot drafts (`drafts/`).
+  `ownWords` is read from the Library's shelves by author. A work is marked disputed only where its
+  Library row says so.
+
+**Deferred (Mark, 2026-11-11).** P2-PL, likenesses: one profile icon until then. P2-S, search:
+deferred for its own design pass.
+
+**Applied.** Data release 36: the `card` field on the 10 pilot people, described in the census's
+own notes. The map mirrors `people`, `peopleNote`, `toldWithin` and `card`.
+
+**Supersedes.** "The people layer: what the rulings left open (P2-P)", the coordinator's calls on
+#1585 (2026-11-10), were never merged. This entry replaces them. #1585 is closed in favor of the
+new pull request.
+
+---
+
+## 2026-11-11 — Who and the connection lines are never shown together (P2-P)
+
+**Decided (Mark, 2026-11-11, on his first look at the P2-P screenshots, relayed by the
+coordinator).** Mark's words: "so when who is on then connections should be off".
+
+- **Turning Who on hides the connection lines.** This applies to the card's Who button, a river's
+  Who pill and a tradition's profile pill. A link that an open card would light stays hidden too,
+  and so do the dotted "continued as" lines between rivers.
+- **Clearing Who puts the lines back as they were.** If connections were off before, they stay
+  off. The connection switches show the lines as off while Who is showing. The choice saved for
+  the next visit is the one made before Who opened.
+- **Turning a connection on while Who is showing clears Who.** This covers "All connections",
+  "Major links" and any kind of link. The two are never shown together.
+
+**Mark's look (2026-11-11), relayed by the coordinator.** Mark's words: "those are fine, merge it".
+He also accepted the five build calls listed on the review page
+(https://claude.ai/artifact/5uvUNq4maMRVJ8bQjPUT1D): a stack starts below the label when neither
+side has room; a tradition that names no one has no profile pill; pills show at reading zoom only;
+links that end at a person are drawn from the person's home tradition; people told within no
+tradition appear in their river's Who.
+
+---
+
+## 2026-11-11 — Who a Who is: the record stands on its own (Mark, 2026-11-11)
+
+**Decided (Mark, 2026-11-11, relayed by the coordinator; his words in the order he gave them).**
+- "the record has to stand on their own, if not it can become a story, but not a who"
+- "a who is someone who has a source of material they developed or was developed with them,
+  origin, augustine, luther etc. a story might be somone like joan of arc, who followed, but never
+  really entered into the shaping of the church"
+- On "developed with them": "a, both count". A body of work counts when the person wrote it, and
+  also when hearers or disciples recorded it, or a circle produced it jointly, where it carries the
+  person's thought and is attributed to them.
+- "lets add or a following to the body of work". A community or movement that formed around the
+  person and carried what they shaped also counts.
+- "a great starting point and we can look at exeptions or if we are leaving a catagory out"
+
+So a Who is a person with a body of work: their own, recorded by their hearers or disciples,
+produced with their circle, or carried by a following that formed around them. Someone who took
+part in the church's story but did not shape it, as Joan of Arc did not, can be told as a story.
+They are not a Who.
+
+**What this replaces and reverses.**
+- **Replaced:** the counting routes for a person mark in "People on the map (change order to
+  rulings 14 and 15)" (2026-11-09). These were ruling 14's test, 10 or more works of one's own on a
+  tradition's shelf, and repeated mentions in later traditions' own-voice texts. The standard above
+  is now the test for a Who.
+- **Reversed:** answer C of "The people list ruled" (2026-11-10), as it applies to hearers'
+  records. Speech that hearers or disciples recorded and attributed to a person now counts.
+- **Reversed:** the hold on founders in "The later-worlds people ruled (P2-G3b)" (2026-11-10),
+  item A. A following that formed around a founder now counts toward their body of work.
+
+**The interim (Mark: "a, merge with the 39").** Until every person has been sorted against the
+standard, Who shows only the 39 person entries. This covers the map's stacks, its pills, the
+person cards and "+N more", and the tree pages' People section.
+- Named voices are not shown as people, but they stay in the census, because the sweep needs
+  them.
+- A tradition whose people include no person entry shows no Who pill, no Who button and no Who
+  section. A tradition that names no one still shows its `peopleNote`, which stays true.
+- The census notes say what Who shows.
+- One switch lifts the display rule: `WHO_ENTRIES_ONLY`, in `cft-website/index.html` and
+  `Build/tools/generate_tree_pages.mjs`.
+
+**Next.** A read-only sweep, after Friday 2026-11-13, sorts every person into Who, story or
+wanted. Mark sees the result (Open-Gaps, "The Who sweep", 2026-11-11). Until then, the named-voice
+items in "What the people layer leaves open" (2026-11-11) wait on the sweep.

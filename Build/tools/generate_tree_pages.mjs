@@ -344,9 +344,13 @@ function toldWithinLine(movement) {
   return `<p class="told-within">A person. The tradition that tells their story: <a href="${home.id}.html">${escapeHtml(home.name)}</a>.</p>`;
 }
 
+const WHO_ENTRIES_ONLY = true;
+
 function peopleHtml(movement) {
-  const people = movement.people || [];
+  const listed = movement.people || [];
+  const people = WHO_ENTRIES_ONLY ? listed.filter(p => p.person) : listed;
   if (!people.length) {
+    if (listed.length) return '';
     if (!movement.peopleNote) return '';
     return `<section>
     <h2>People</h2>

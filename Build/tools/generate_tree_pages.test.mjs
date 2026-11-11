@@ -159,12 +159,37 @@ test('a person page says which tradition tells it, and carries that world door w
   assert.match(generate(c)(`tree/${person.id}.html`), /A person whose story no single tradition tells\./);
 });
 
-test('the map leaves person entries and their links out until it has a people view', () => {
+test('the map keeps person entries off the rivers and shows them through Who', () => {
   const map = fs.readFileSync(path.join(root, 'cft-website/index.html'), 'utf8');
   const at = map.indexOf("const PERSON_IDS=new Set(DATA.movements.filter(m=>m.kind==='person')");
   assert.ok(at > 0);
   assert.ok(at < map.indexOf('const byId={}; DATA.movements.forEach'));
+  assert.match(map, /const personEntries=DATA\.movements\.filter\(m=>PERSON_IDS\.has\(m\.id\)\);/);
   assert.match(map, /DATA\.edges=DATA\.edges\.filter\(e=>!PERSON_IDS\.has\(e\.from\)&&!PERSON_IDS\.has\(e\.to\)\);/);
+  assert.match(map, /const WHO_TRAD_MAX=6, WHO_RIVER_MAX=4,/);
+  assert.doesNotMatch(map, /data-view-btn=/);
+});
+
+test('Who and the connection lines are never shown together', () => {
+  const map = fs.readFileSync(path.join(root, 'cft-website/index.html'), 'utf8');
+  assert.match(map, /svg\.who-on \.edge-line,svg\.who-on \.edge-hit,svg\.who-on \.continues\{display:none!important\}/);
+  assert.match(map, /if\(whoScope\)whoLinks\.suspend\(\);else whoLinks\.restore\(\);/);
+  assert.match(map, /whoScope=null;whoLinks\.restore\(\);renderWho\(\);/);
+  assert.match(map, /if\(whoLinks\.saved&&\(k==='links-all'\|\|k==='major'\|\|k\.startsWith\('family:'\)\)&&familyKeys\.some\(f=>!hidden\.has\(f\)\)\)\{whoLinks\.saved=null;clearWho\(\);\}/);
+});
+
+test('the map holds every tradition\'s people, every person\'s home tradition and card', () => {
+  const map = fs.readFileSync(path.join(root, 'cft-website/index.html'), 'utf8');
+  const start = map.indexOf('const DATA = ') + 'const DATA = '.length;
+  const data = JSON.parse(map.slice(start, map.indexOf('\n;\n', start)));
+  const held = new Map(data.movements.map(m => [m.id, m]));
+  for (const m of census.movements) {
+    const h = held.get(m.id);
+    assert.deepEqual(h.people, m.people, `${m.id}: people`);
+    assert.equal(h.peopleNote, m.peopleNote, `${m.id}: peopleNote`);
+    assert.equal(h.toldWithin, m.toldWithin, `${m.id}: toldWithin`);
+    assert.deepEqual(h.card, m.card, `${m.id}: card`);
+  }
 });
 
 test('a movement that names no one says why, in its own People section', () => {
@@ -175,6 +200,18 @@ test('a movement that names no one says why, in its own People section', () => {
   assert.match(generate(c)(`tree/${m.id}.html`), /<h2>People<\/h2>\s*<p class="people-note">The Library holds no words of its own leaders\.<\/p>/);
   delete m.peopleNote;
   assert.doesNotMatch(generate(c)(`tree/${m.id}.html`), /<h2>People<\/h2>/);
+});
+
+test('Who shows person entries only: named voices are not listed as people', () => {
+  const c = structuredClone(census);
+  const m = c.movements.find(x => x.kind !== 'person' && !x.people.some(p => p.person));
+  m.people = [{ name: 'Named Voice', year: 100, voice: 0, source: { work: 'w', file: 'f', lines: '1', quote: 'q' } }];
+  const page = generate(c)(`tree/${m.id}.html`);
+  assert.doesNotMatch(page, /<h2>People<\/h2>/);
+  assert.doesNotMatch(page, /Named Voice/);
+  const map = fs.readFileSync(path.join(root, 'cft-website/index.html'), 'utf8');
+  assert.match(map, /const WHO_ENTRIES_ONLY=true;/);
+  assert.match(map, /if\(WHO_ENTRIES_ONLY&&!row\.person\)return;/);
 });
 
 test('every page states its review status in plain words', () => {
