@@ -25,3 +25,12 @@ assignments:
     window ending 1650; placed on window and place, not on a reading for that entry.
 
     '
+- row_id: cavazzi_istorica-descrizione-tre-regni-congo-matamba-angola-ita_alamandini1687--kongo-christianity-after-1650-context
+  work: "Istorica descrizione de' tre regni Congo, Matamba et Angola (1687)"
+  author: cavazzi
+  locus: "whole book"
+  atlas_ids:
+  - kongo-christianity-after-1650
+  role: context
+  confidence: provisional
+  note: "The Capuchin mission's leader on Kongo, printed 1687. The census entry's source; a missionary's view."

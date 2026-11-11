@@ -192,6 +192,15 @@ works:
   note: The community's own witness to its martyrdom, by its surviving sister; the source
     the census story rests on.
   source_file: marie-de-l-incarnation-compiegne_histoire-des-carmelites-de-compiegne-fra_1836.txt
+- row_id: marie-de-l-incarnation-quebec_lettres-t2-fra_richaudeau1876--lettres-de-marie-de-l-incarnation-tome-2-richaudeau-1876
+  work: Lettres de Marie de l'Incarnation, tome 2 (Richaudeau, 1876)
+  author: marie-de-l-incarnation-quebec
+  locus: the whole volume; add 12 to OCR line numbers for this file's own
+  role: tradition
+  confidence: provisional
+  note: The Ursuline founder's own letters from Quebec after 1650, to her death in 1672. Within
+    this entry's window (1650-1815); the tree has no New France entry after 1650.
+  source_file: marie-de-l-incarnation-quebec_lettres-t2-fra_richaudeau1876.txt
 - row_id: merck_captivite-et-mort-de-pie-vi-fra_1814--la-captivite-et-la-mort-de-pie-vi-1814
   work: La Captivité et la mort de Pie VI (1814)
   author: merck
@@ -245,6 +254,16 @@ works:
   confidence: assigned
   note: The restoration that the census uses to close this world's story.
   source_file: clement-xiv_bulls-suppression-and-restoration-of-the-jesuits-lat-eng_1814.txt
+- row_id: quebec-bishops_mandements-lettres-pastorales-et-circulaires-v1-fra_tetu-gagnon1887--mandements-des-v-ques-de-qu-bec-vol-i-laval-and-his-successors
+  work: 'Mandements des évêques de Québec, vol. I: Laval and his successors'
+  author: quebec-bishops
+  locus: the mandements from about OCR line 329; add 12 to OCR line numbers for this file's
+    own
+  role: tradition
+  confidence: provisional
+  note: The New France church's bishops in their own pastoral letters from 1659. Within this
+    entry's window (1650-1815); the tree has no New France entry after 1650.
+  source_file: quebec-bishops_mandements-lettres-pastorales-et-circulaires-v1-fra_tetu-gagnon1887.txt
 - row_id: rance_de-la-saintete-et-des-devoirs-de-la-vie-monastique-t1-fra_1683--de-la-saintete-et-des-devoirs-de-la-vie-monastique-tome-1-1683
   work: De la saintete et des devoirs de la vie monastique, tome 1 (1683)
   author: rance

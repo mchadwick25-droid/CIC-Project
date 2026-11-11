@@ -14,3 +14,12 @@ assignments:
     translation, not the Italian original.
 
     '
+- row_id: zucchelli_missions-und-reise-beschreibung-nach-congo-deu_1715--kongo-christianity-after-1650-context
+  work: "Missions- und Reise-Beschreibung nach Congo (1715)"
+  author: zucchelli
+  locus: "whole book"
+  atlas_ids:
+  - kongo-christianity-after-1650
+  role: context
+  confidence: provisional
+  note: "A Capuchin's account of the Kongo mission around 1700, in German, 1715; a missionary's view."

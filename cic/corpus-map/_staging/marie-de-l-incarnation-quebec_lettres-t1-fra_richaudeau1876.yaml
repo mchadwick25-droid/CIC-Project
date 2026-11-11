@@ -1,0 +1,11 @@
+source_file: marie-de-l-incarnation-quebec_lettres-t1-fra_richaudeau1876.txt
+assignments:
+- row_id: marie-de-l-incarnation-quebec_lettres-t1-fra_richaudeau1876--lettres-de-marie-de-l-incarnation-tome-1-richaudeau-1876
+  work: "Lettres de Marie de l'Incarnation, tome 1 (Richaudeau, 1876)"
+  author: marie-de-l-incarnation-quebec
+  locus: "the whole volume; add 12 to OCR line numbers for this file's own"
+  atlas_ids:
+  - new-france-mission-born-christianity
+  role: tradition
+  confidence: provisional
+  note: "The Ursuline founder's own letters from Quebec from 1639. Most of this tome falls within this entry's window (1610-1650)."

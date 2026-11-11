@@ -48,3 +48,12 @@ assignments:
     note: >
       The Jacobite party's statement of 1869, against which the reforming party of Mar Athanasius
       Matthew (the Mar Thoma line) defined itself. Placed on date; not read for that entry.
+  - row_id: philipos_syrian-christians-of-malabar_howard1869--st-thomas-christians-two-obediences-context
+    work: "The Syrian Christians of Malabar (1869)"
+    author: philipos
+    locus: "whole book"
+    atlas_ids:
+    - st-thomas-christians-two-obediences
+    role: context
+    confidence: provisional
+    note: "A Kerala Syrian priest's history of his church, written in 1869, after this entry's window; the census entry's source for one date. An insider's later account."

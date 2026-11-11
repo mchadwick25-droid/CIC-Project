@@ -196,3 +196,49 @@ beside it.
 
 Batch 5: the rest of Open-Gaps 158's early modern gaps (the St Thomas Christians 1665-1836, the Kongo
 church after 1650, Japanese Christians 1650-1865, Chinese Catholics 1650-1906), then the Protestant gaps.
+
+## 2026-11-10 — Church Family Tree wants, batch 5: Rabinowitz, and the early modern mission gaps
+
+**Done.**
+- **ME-21.** Mark's five Google Books PDFs were processed through INTAKE:
+  - the Google id was read from each PDF's own links, and the title page was read;
+  - the text was extracted with `pdftotext -layout`, as earlier PDF intakes were;
+  - truncation was checked two ways: the extracted text has one page break per PDF page, and each
+    file's end was read;
+  - the PDFs and `NOTES-rabinowitz.md` were cleared from `_intake/`.
+  The Fortgesetzte Documente (Google's "Bikure ta'anah") prints no Hebrew text, so the Hebrew letters
+  stay wanted.
+- **Twelve archive.org files** for six named gaps of Open-Gaps 158, checked as before: host record,
+  title page, wanted passage, byte count, and body identical to the host text.
+- **Held texts shelved.** The census entries for the St Thomas Christians (1665-1815), Kongo after 1650,
+  and Chinese Catholics (1650-1906) cite texts the Library held but had not shelved there. They are now
+  shelved.
+
+**Decided here.**
+- A book written after an entry's window but about it goes on that entry as `context`, which is the
+  practice already on the earlier Malabar and Kongo shelves. Own-voice text written inside the window
+  goes on as `tradition`.
+- Ukrainian Orthodox texts of the 1700s are `needs-ruling` on the Russian church's 1652-1815 entry. The
+  Kyiv metropolis then lay inside that church, but whether the tree tells Ukrainian Orthodoxy there is
+  its own question.
+- New France after 1650 has no entry, so the Quebec texts after 1650 go on the ancien-regime church.
+
+**Corrected.** Batch 4 recorded al-Duwayhi as a new find, but a scan of the same edition had been held
+since October 2026 (the Bibliotheca Alexandrina copy). The holdings check had grepped "douaih" and
+"maron" and caught neither spelling. Batch 4's file stays as a second scan, and its header line and
+registry entry now name the first. The line count is unchanged. The other twenty-six batch 4 files were
+re-checked by archive id and by title, and none is a duplicate. From this batch on, the holdings check
+also greps the registry by title words and transliteration variants.
+
+**Corrected before writing.** I had drafted a first name for Pastor Faltin that the Fortgesetzte
+Documente does not give, and it was removed. The Akty of the Kyiv Academy has a host date of 1904, but
+its own notes cite publications of 1909. Its header gives the evidence and dates the printing between
+1909 and about 1918, not 1904.
+
+### Next action
+
+Batch 6, in a fresh session after the weekly reset (Mark, 2026-11-10: stop after the handover).
+The handover, with the candidates batch 5's session already found: `HANDOVER-batch6.md`. Batch 6 covers
+Europe 1650-1815 (the Transylvanian Unitarians, the Nordic Lutherans, the Hutterites,
+Waldensians and Schwenkfelders, the French Reformed, English Catholics, the Church of Scotland, the
+Remonstrants, the Delaware Swedes).

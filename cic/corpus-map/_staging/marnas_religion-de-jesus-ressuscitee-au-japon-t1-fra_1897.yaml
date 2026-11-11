@@ -1,0 +1,20 @@
+source_file: marnas_religion-de-jesus-ressuscitee-au-japon-t1-fra_1897.txt
+assignments:
+- row_id: marnas_religion-de-jesus-ressuscitee-au-japon-t1-fra_1897--la-religion-de-j-sus-ressuscit-e-au-japon-tome-1-marnas-1897
+  work: "La Religion de Jésus ressuscitée au Japon, tome 1 (Marnas, 1897)"
+  author: marnas
+  locus: "the whole volume; add 12 to OCR line numbers for this file's own"
+  atlas_ids:
+  - japans-hidden-christians
+  role: context
+  confidence: provisional
+  note: "The hidden Christians as the missionaries met them in 1865, their words reported by others; the census entry's source (tome I). Written in the 1890s, after this entry's window."
+- row_id: marnas_religion-de-jesus-ressuscitee-au-japon-t1-fra_1897--la-religion-de-j-sus-ressuscit-e-au-japon-tome-1-marnas-1897-the-re-emergence
+  work: "La Religion de Jésus ressuscitée au Japon, tome 1 (Marnas, 1897): the re-emergence"
+  author: marnas
+  locus: "the whole volume; add 12 to OCR line numbers for this file's own"
+  atlas_ids:
+  - japanese-christianity-hidden-emergence-meiji
+  role: context
+  confidence: provisional
+  note: "The Catholic mission's history of the Urakami Christians and the persecution after 1865, written inside this entry's window (1865-1906)."
