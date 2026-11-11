@@ -2001,3 +2001,23 @@ it, never by deleting it.
     - Lifting the display rule (`WHO_ENTRIES_ONLY` on the map and the tree pages) follows Mark's
       call on the result.
     - Owner: the coordinator.
+204. **The era 1 Who scan's wanted sources (2026-11-11).** Four people would be a Who if the Library
+    held one named source. Owner: the Library thread.
+    - Melito of Sardis: *Peri Pascha* (Perler, Sources Chrétiennes 123, or Bonner 1940). Only
+      fragments are held, in `anf08`.
+    - Ptolemy the Valentinian: Epiphanius, Panarion 33, which holds the Letter to Flora (Holl, GCS
+      25, 1915). The Library's Epiphanius files start at heresy 34.
+    - Paul of Samosata: his fragments in Loofs, *Paulus von Samosata* (1924). The Loofs 1905 file in
+      the Library is *Nestoriana*, not this.
+    - Mani: his followers' own texts, the Cologne Mani Codex (Koenen and Römer 1988), the Kephalaia
+      or the Manichaean Psalm-Book. Augustine and the Acts of Archelaus are one witness for his
+      life.
+    - Mark's rule: a source counts only if it can carry a life, not only writing (the coordinator's
+      routine call, open to Mark).
+    - Source: `Build/Ministry/Operations/Audits/2026-11-11_who-scan-era1/`.
+205. **Pamphilus's Apology for Origen: is an English text held in `npnf203`? (2026-11-11).** The
+    Opus check of the era 1 Who scan reported an English Apology in `npnf203`, section vi.v. The
+    Decision-Log ("The later-worlds people ruled (P2-G3b)", 2026-11-10) and "The later-worlds people
+    held, with their reasons" (2026-11-10) say that file holds only Rufinus's preface and epilogue.
+    The scan did not rely on it. Open: open `npnf203` at vi.v and say which is true. Owner: the
+    Library thread.
