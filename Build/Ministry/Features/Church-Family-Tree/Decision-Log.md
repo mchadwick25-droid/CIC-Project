@@ -1831,3 +1831,46 @@ ElevenLabs' web app, source "Flows":
 
 Another 1,728 credits were charged between 226,417 and 229,821 with no history item at all. None
 of these came from this build.
+
+## 2026-11-11 — The era 1 Who scan: four categories, the story test, two witnesses (Mark, 2026-11-11)
+
+**Decided (Mark, 2026-11-11, relayed by the coordinator; his words as given).** The read-only
+scan of era 1 sorted every candidate under "Who a Who is: the record stands on its own"
+(2026-11-11). It was tuned in five steps:
+- The story test: "there still has to be enough to tell the story, not just theological argument".
+  A writer whose record is only doctrine is not a Who.
+- A fourth category: "not everyone has to be a story, only those that are compelling testemonies.
+  they can just be listed in the source conversation". So there are four categories:
+  - **WHO:** shaped the church, left a body of work or a following, and the record carries enough
+    life to tell a story.
+  - **STORY:** only a compelling testimony, a life or witness worth telling in its own right.
+  - **LISTED:** named in their tradition's sources conversation, with no profile and no story.
+  - **WANTED:** would be a Who if the Library held one named source. The source is named.
+- Founders known only through enemies: "Two witnesses". Such a founder is a Who only when at least
+  two independent opponents agree on the outline of their life, and the brief marks polemic as
+  polemic and names whose it is. Otherwise WANTED, naming the own-tradition source, or LISTED.
+  Epiphanius drawing on Irenaeus is one witness, not two.
+- Perpetua: "Story". A first-person testimony is a STORY; WHO is for those who shaped the church.
+- Methodius of Olympus: first "Keep for now", then "Keep as Who", as a named exception. His live
+  brief tells a story, and he shaped the debate over Origen. It is not a rule change.
+
+**The calls on the judgment cases (Mark).**
+- Valentinus: "Who".
+- Paul of Samosata: "Wanted". The council's letter and Epiphanius are not independent; Loofs 1924
+  is wanted.
+- Alexander of Jerusalem, Cornelius of Rome, Lucian of Antioch and Gregory Thaumaturgus become
+  STORY. Lucian's details are tagged Contested. Gregory's story names Gregory of Nyssa's Life as a
+  later, legendary source.
+- The coordinator's routine call, which Mark can overrule: a WANTED source must be able to carry a
+  life, not only writing.
+
+**Outcome of the era 1 sweep.** 76 people: WHO 25, STORY 8, LISTED 39, WANTED 4. The WANTED rows
+are Melito of Sardis, Ptolemy the Valentinian, Paul of Samosata and Mani. Marcion and Valentinus
+pass the two-witness test; Mani fails it and Callistus is LISTED. An Opus check read the cited
+passages for every WHO, STORY and WANTED row: 14 rows were corrected and none was unsupported.
+The coordinator's expected figure of LISTED 40 did not add up (25 + 8 + 40 + 4 = 77); the rows give
+39. The full table and the check's notes: `Build/Ministry/Operations/Audits/2026-11-11_who-scan-era1/`.
+
+**What this does not change.** No census, record or site change is made by this sweep. The display
+rule (Who shows only the 39 person entries) lifts on Mark's call after the other eras are sorted.
+Approved to proceed (Mark, 2026-11-11).
