@@ -14,3 +14,23 @@ works:
     data release 34). His English account of 1907 is dated after the entry ends, so it has
     no shelf here.
   source_file: ferencz_unitarius-kis-tukor-hun_1875.txt
+- row_id: kereszteny-magveto_kotet-1-hun_kriza-nagy1861--kereszteny-magveto-vol-1-1861
+  work: Keresztény Magvető, vol. I (Kolozsvár, 1861), ed. Kriza and Nagy
+  author: kereszteny-magveto
+  locus: the whole volume; preface at about OCR line 32; add 12 to OCR line numbers for this
+    file's own
+  role: tradition
+  confidence: provisional
+  note: The Unitarian church's own periodical, edited by two Kolozsvár Unitarian ministers;
+    its items are dated 1855-1860, inside this entry's window. Some pieces are translations
+    from English Unitarians (Channing, Tagart).
+  source_file: kereszteny-magveto_kotet-1-hun_kriza-nagy1861.txt
+- row_id: unitarian-church-hungary_egyhazi-torveny-a-hazassagi-jogrol-hun_1889--unitarius-egyhazi-torveny-a-hazassagi-jogrol-1889
+  work: Unitárius egyházi törvény a házassági jogról (Kolozsvár, 1889)
+  author: unitarian-church-hungary
+  locus: the whole law; add 12 to OCR line numbers for this file's own
+  role: tradition
+  confidence: provisional
+  note: The church's own marriage law, enacted by its Főtanács and printed in 1889, inside
+    this entry's window.
+  source_file: unitarian-church-hungary_egyhazi-torveny-a-hazassagi-jogrol-hun_1889.txt

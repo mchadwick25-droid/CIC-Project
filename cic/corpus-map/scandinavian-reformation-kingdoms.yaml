@@ -82,6 +82,16 @@ works:
 
     '
   source_file: calvin_letters-vol4_bonnet1858.txt
+- row_id: cornelius_svenska-kyrkans-historia-efter-reformationen-swe_1886--svenska-kyrkans-historia-cornelius-1886
+  work: C. A. Cornelius, Svenska kyrkans historia efter reformationen (Upsala, 1886-1887)
+  author: cornelius
+  locus: the periods 1520-1593 and 1593-1693, from about OCR line 421; add 12 to OCR line
+    numbers for this file's own
+  role: context
+  confidence: provisional
+  note: A history of the Swedish church, written in the 1880s, after this entry's window,
+    about it. Its later periods (1693-1886) have no entry yet.
+  source_file: cornelius_svenska-kyrkans-historia-efter-reformationen-swe_1886.txt
 - row_id: danske-folkekirke_ordinatio-ecclesiastica-lat_vinitor1537--ordinatio-ecclesiastica-regnorum-daniae-et-norvegiae-1537
   work: Ordinatio ecclesiastica Regnorum Daniae et Norvegiae et Ducatuum Sleswicensis Holtsatiae
     (the Church Ordinance of 1537), Latin
@@ -120,6 +130,16 @@ works:
 
     '
   source_file: glostrup_visitatser-i-oslo-og-hamar-stifter-1617-1637-dan_daae-huitfeldt-kaas1895.txt
+- row_id: helweg_den-danske-kirkes-historie-efter-reformationen-v1-dan_1851--den-danske-kirkes-historie-vol-1-helweg-1851
+  work: Ludvig Helweg, Den danske Kirkes Historie efter Reformationen, vol. I (Kjøbenhavn,
+    1851)
+  author: helweg
+  locus: the whole volume; add 12 to OCR line numbers for this file's own
+  role: context
+  confidence: provisional
+  note: A Danish church history, written in 1851, after this entry's window, about the Danish
+    church from 1536 to 1730. The years after 1650 have no entry yet.
+  source_file: helweg_den-danske-kirkes-historie-efter-reformationen-v1-dan_1851.txt
 - row_id: melanchthon_augsburg-confession_anon-pg275--augsburg-confession-uppsala-1593
   work: The Augsburg Confession (1530), the confession the Uppsala Synod of 1593 adopted 'unaltered'
   author: melanchthon

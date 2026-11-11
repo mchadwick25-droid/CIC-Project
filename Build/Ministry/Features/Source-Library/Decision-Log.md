@@ -242,3 +242,43 @@ The handover, with the candidates batch 5's session already found: `HANDOVER-bat
 Europe 1650-1815 (the Transylvanian Unitarians, the Nordic Lutherans, the Hutterites,
 Waldensians and Schwenkfelders, the French Reformed, English Catholics, the Church of Scotland, the
 Remonstrants, the Delaware Swedes).
+
+## 2026-11-11 — Church Family Tree wants, batch 6: Europe, 1650-1815 and after
+
+**Done.** Twenty-five archive.org files for ten named gaps of Open-Gaps 158: the Transylvanian
+Unitarians, Hutterites, Waldensians, Schwenkfelders, Remonstrants, Nordic state churches, Church of
+Scotland, English Catholics, French Reformed and Delaware Swedes. Each was checked the batch 4 way:
+the host record was re-read, the title page read (by two Opus reviewers, then the doubtful ones by
+me), the wanted passage located and the volume's end read. The byte count matches the host's listed
+size, and for the second truncation check each body after its header is byte for byte the host text.
+File by file: `CFT-Wants.md`, batch 6.
+
+**Decided here: the shelf rule and Marsden (the coordinator asked for a ruling on P2-G89c).** The rule
+reads by the date the shelved words were written, not the date the book was printed. P2-G89c read it
+that way. But its application was incomplete: the 1913 Life prints Marsden's letters from 1810 on, and
+the letters of 1810 and 1814 fall before the Victorian entry's window. So the book now has two rows,
+one per entry. The letters from 1815 are on the Victorian Church of England; those before 1815 are on
+the Restoration and Georgian Church of England, both `tradition`. Batch 3's note that the old Georgian
+row "falls within" its window was right for those letters. The same reading is applied through this
+batch: the Acts of the General Assembly have a row only for the acts of 1638-1650, the Holy Trinity
+records only for those to 1786, and Clay only for the documents of 1684-1765 as tradition. For the
+census owner: the Victorian entry quotes the two 1814 letters.
+
+**Decided here: held back.** The Schwenkfelder sacrament rules (`lehre-und-ordnungs-regeln`, drafted
+1838, approved 1858) were not vendored. The text is public domain by date, but the 2024 upload carries
+a CC BY-NC-ND licence that does not say whether it covers the scan or the text. A no-derivatives
+licence would bar modern renderings, so this is Mark's call.
+
+**Corrected before writing.** Several host records give dates or names the books do not. Helweg I's
+title page reads 1851 on the page image (the OCR says 1831, the host 1854); Helweg II says 1855, not
+1854; Milner's title page reads 1818 on the page image (OCR "1S16"); Cornelius part 2 is 1887; the
+Főtanács volume binds five sets of minutes of 1909-1913, not one of 1912; Muston's record carries
+fields from a 1978 reprint and a copyright note that the 1866 title page does not. Limborch's title
+page is missing from the scan, so his header gives the date and place as the host's only. I had drafted
+office or place details from memory (Cornelius a bishop, Milner a bishop, Vincent of Nîmes, Muston a
+Waldensian pastor, Wolkan Austrian, Limborch a Remonstrant professor, the 1872 synod the first since the
+1650s). None is on the title pages, so all were removed before writing.
+
+### Next action
+
+Batch 7, in a fresh session: the gaps after 1815. Handover: `HANDOVER-batch7.md`.
