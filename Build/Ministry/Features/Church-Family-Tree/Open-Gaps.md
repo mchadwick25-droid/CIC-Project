@@ -1824,3 +1824,10 @@ it, never by deleting it.
       median 46 words; conflict links carry the event, but rarely the tension, the why, or what
       followed. A one-minute telling per link would be new sourced writing. The likely first scope
       is the 122 major links. To be weighed with the deeper readings in the same design pass.
+195. **One man spelled two ways in the people rows (2026-11-11).** Sulpicius Severus is "Sulpitius
+    Severus" in the rows of `gallic-nicene-episcopate` (year 403) and
+    `gallic-monastic-ascetic-christianity` (year 397), and "Sulpicius Severus" in the row of
+    `priscillianist-asceticism` (year 403). The census's links and sources spell him "Sulpicius".
+    Found while mocking up the map's Who control, which joins people named by several traditions by
+    name; this one would show as two people. Owner: the census owner (one spelling, and whether the
+    years should agree).
