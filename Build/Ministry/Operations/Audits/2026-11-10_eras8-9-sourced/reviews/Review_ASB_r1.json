@@ -1,0 +1,62 @@
+{
+ "slice": "ASB (P2-G89c: AP15 Protestant line in VIII.7, AP12 Anglican line in VIII.30; Catholic Korea after 1886 and AP12 Catholic/Methodist held)",
+ "round": 1,
+ "verdict": "revise",
+ "blocking": [],
+ "substantial": [
+  {
+   "id": "ASB-S1",
+   "where": "victorian-church-of-england.longDescription, new paragraph (fact_table rows 22-24, 27-29, 34)",
+   "problem": "Ruling on the drafter's flag: three dates rest on the biographer's frame, not on Marsden's words, and the prose presents them as his and then says 'All of this is Marsden's own account', which is false for them. (1) 1826: the pamphlet title is quoted, but 'though not till the year 1826' is J. B. Marsden's line. (2) 'October 1814': the letter to Avison Terry carries no dateline; 'the 7th of October, 1814' is the biographer's lead-in. (3) 'Christmas Day that year': the journal says only 'it being Christmas Day'; the year (and 'the first Sunday on which Divine Service was held in New Zealand') is the biographer's. Under the brief's Frames rule each must be said to be the frame's, or cut. Attribution is the better fix here: the dates are well placed and the quotes carry the substance. The two letter dates that are datelines (Parramatta, June 5th, 1815; April, 1837) may stand as they are.",
+   "evidence": "marsden...1913, lines 6998-7004 (pamphlet), 3441-3447 ('he wrote just before he sailed, the 7th of October, 1814:—'), 3712-3714 ('Christmas Day, the 25th of December, 1814 ... Mr. Marsden thus describes it'), 3782-3783 and 3797-3799 (journal), 3136 and 8345 (datelines).",
+   "fix": "Replace the paragraph with three: (1) \"Samuel Marsden shows the church reaching overseas. A pamphlet of his, printed in 1826 by his biographer's account, calls him 'principal Chaplain to the Colony of New South Wales'. His biographer dates one letter to 7 October 1814, just before Marsden sailed for New Zealand. In it Marsden wrote that he had 'submitted my views to the Church Missionary Society, and solicited their aid.'\" (FRE 61 / FK 7.9) (2) \"On Christmas Day, in 1814 by the biographer's date, Marsden preached in New Zealand. He wrote, 'In this manner, the Gospel has been introduced into New Zealand'. On 5 June 1815 he wrote from Parramatta that the societies in London could not make up their minds to send out a vessel. So he 'at last determined to purchase one for the purpose on my own account'.\" (FRE 71 / FK 7.2) (3) \"In April 1837 he asked a missionary, 'Have they any meeting in the week-days for prayer and religious instruction?' The quoted words are Marsden's own, printed in a biography of 1913. Three of the dates are the biographer's. The book tells the mission from one side only. The Maori side is not in it.\" (FRE 78 / FK 5.0). Add fact_table rows quoting the biographer for each frame date (lines 6998-6999, 3446-3447, 3712-3713). If the coordinator prefers cutting: drop '1826' ('A pamphlet of his calls him ...'), and drop the October letter and the Christmas sentences."
+  },
+  {
+   "id": "ASB-S2",
+   "where": "the-missionary-movement-s-native-churches-seramp.longDescription, new paragraph, the Nevius sentence (fact_table rows 9, 19)",
+   "problem": "'Underwood writes that the Nevius system, which the missions adopted, \"has certainly worked well in Korea\"' is a judgment written in 1908 about results up to 1908; the sentence before it in Underwood is about the spring of 1906 Bible edition, and the judgment rests on the members' giving and zeal as he saw it then. Nothing dated after 1906 may enter an era 9 history. The adoption itself is undated in the source (the drafter says so in holds), so no pre-1906 part of the sentence survives. The drafter's flag that this 'falls before 1906' is wrong.",
+   "evidence": "underwood...1908, lines 4478-4487 ('in the spring of 1906, when a new edition of 20,000 copies was ordered ... The Nevius system and its adoption by the Missions has certainly worked well in Korea, and seems to have developed a remarkable sturdiness').",
+   "fix": "Cut the sentence and fact_table rows 9 and 19. The Nevius hold already covers it. Update the Underwood source note to: \"By the founding Presbyterian missionary, written in 1908. Held in the Library. Used here only for events up to 1890. It is one missionary's account.\""
+  }
+ ],
+ "minor": [
+  {
+   "id": "ASB-M1",
+   "where": "VIII.7 new paragraph, the law sentence",
+   "problem": "'though it was not being enforced' states as fact what Underwood gives as an impression: 'it seemed plain that it was not to be enforced'.",
+   "evidence": "underwood lines 4922-4925.",
+   "fix": "\"The old law of death to Christians had never been repealed. It seemed plain that it would not be enforced, but no one knew how far to venture.\""
+  },
+  {
+   "id": "ASB-M2",
+   "where": "VIII.7 new paragraph (whole)",
+   "problem": "Fifteen sentences in one paragraph, against the writing standard's one idea per paragraph (1-4 sentences). The paragraph passes the scorer but reads as a list.",
+   "evidence": "CLAUDE.md, Accessible and rigorous, practical shape.",
+   "fix": "Four paragraphs (all scored with engine.m7.turn_readability; with S2 and M1-M3 applied): (a) \"Korea lies outside the four wings, but its Protestant church began in these same years. Before the first missionaries came, two Scots at Mukden, Ross and McIntyre, had done early work in China among Koreans. Some Koreans there took up the faith. They began work in Korean villages on the China side of the Yalu. Ross and McIntyre translated a number of the Gospels, and later the whole New Testament.\" (FRE 71 / FK 6.9) (b) \"Underwood, who reached Korea in 1885, says in his book of 1908 that Dr. Allen settled in Seoul in September 1884. He adds that the Methodists sent Dr. McClay from Japan to look over the field in that same year.\" (FRE 85) (c) \"The first converts, in July and the fall of 1886, were baptized behind closed doors. The old law of death to Christians had never been repealed. It seemed plain that it would not be enforced, but no one knew how far to venture.\" (FRE 80) (d) \"A Korean colporteur, Soh Sang Ryun, told Underwood of 'a small company of Christians' at Sorai. By 1890 the two churches had over one hundred converts in all Korea. In 1896 the missionaries' monthly in Seoul spoke of enquirers who had 'finished the study of the Ross catechism'. It was The Korean Repository. All of this comes to us in the missionaries' own telling.\" (FRE 62 / FK 7.7). 'early work' for 'introductory work' is a paraphrase; keep 'introductory work' if preferred (paragraph then FRE about 66)."
+  },
+  {
+   "id": "ASB-M3",
+   "where": "VIII.7 new paragraph, last sentence",
+   "problem": "'Nearly all of this is the missionaries' own telling' hedges without saying what is not. Every sentence rests on Underwood or the Repository; Soh's report reaches us through Underwood.",
+   "evidence": "fact_table rows 0-10.",
+   "fix": "\"All of this comes to us in the missionaries' own telling.\" (in ASB-M2 (d))"
+  },
+  {
+   "id": "ASB-M4",
+   "where": "fact_table row 21 (McClay, 1884)",
+   "problem": "The quote 'preparatory to starting work in uethodiats 1884' runs a printed margin note ('Methodists 1884') into the sentence. The year 1884 for McClay is the book's sidenote, not the sentence; Underwood's sentence says only 'the same year' as Allen's September start. The prose ('in that same year') is fine; the note should say where the year comes from.",
+   "evidence": "underwood lines 4849-4854 (sidenotes 'uethodiats 1884' and '^Jfi^gt^o^/Jte*' interleaved).",
+   "fix": "Note on row 21: \"'uethodiats 1884' is the book's margin note ('Methodists 1884') merged into the line by the OCR; the sentence itself says the Presbyterians began 'in September of the same year'.\""
+  },
+  {
+   "id": "ASB-M5",
+   "where": "VIII.30 window",
+   "problem": "The October 1814 letter and the Christmas 1814 service fall before VIII.30's 1815 start. The brief bars only what comes after the window, and AP12 is '1788-1906, with era 8 roots', so this is allowed; with ASB-S1's attribution the line now says the year is the biographer's. No change needed beyond S1; noted so the coordinator sees it.",
+   "evidence": "Census: victorian-church-of-england start 1815.",
+   "fix": "None required."
+  }
+ ],
+ "quotes_checked": 31,
+ "quotes_failed": [],
+ "notes": "Checker: no QUOTE-MISS; READ-FAIL only on the frozen first paragraphs of VIII.7 and VIII.30, carried unchanged (verified against the census; VIII.7 paragraphs 0-1 and VIII.30 paragraph 0 untouched; VIII.7's old sources list kept whole, two added; VIII.30 gains a sources list where it had none; nothing else changes). I re-read all 31 quotes at their lines and every date and name in context: Underwood 290-300, 3884-3903, 4478-4490, 4732-4772, 4843-4870, 4915-4930, 4955-4966, 5060-5074; Korean Repository 13150-13170; Marsden 3128-3155, 3430-3470, 3700-3802, 6988-7008, 8335-8362. 'Soh Sang Ryun' as a colporteur is a fair joining of 3898-3899 (a colporteur settled at Sorai) and 4760-4770 (Soh distributing books, settled at Sorai). OCR is good on these files; no page-image check was needed for the dates used (the brief's image rule is for the Adoratskii-grade OCR). HOLDS UPHELD: the Catholic line for Korea after 1886 is rightly held - VIII.21 ends at 1886 and its status text keeps 1886-1904 'for a later entry, not absorbed here', and the coordinator holds it; the drafter's report of what the Repository and Underwood carry (Coste obituary building dates 1888/1891/1892; 'over 42,000' Catholics in 1901) is accurate in what I spot-checked and useful for that later entry. AP12 Catholic (VIII.29) and Methodist (VIII.34) lines rightly held per the coordinator; Marsden carries no sentence for either. The Nevius and Ross-date holds are right. Country IDs: Korea, Australia and New Zealand are not on the rows' place labels; leaving modernCountries alone is right."
+}

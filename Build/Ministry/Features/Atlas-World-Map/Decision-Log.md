@@ -13,6 +13,19 @@ actual world-selection flow is a future decision for the front-end thread, not t
 
 ---
 
+## 2026-11-10 — P2-G89c carried out: data release 34 enters the held eras 8 and 9 items the Library now sources
+
+Under the eras 8 and 9 gate ruling ("take every recommendation"), the items held only for want of
+a source were tested against the texts the Library has since vendored, and entered where the
+source carries them: one lane 8 row (the Transylvanian Unitarian Church, 1660-1906, VII.50), seven
+named lines in existing rows, the VOC world's "continued as" link to Indonesian Christianity (a
+coordinator call on Open-Gaps 191), and two links regraded to Widely Accepted. AP7 and LA8-8 stay
+held, with the parts no source carries. Two Section A questions (the Tolstoyans, the Dukhobors) go
+to Mark. 396 movements, 736 links. Full entry: CFT Decision-Log, "P2-G89c carried out"; audit
+`Build/Ministry/Operations/Audits/2026-11-10_eras8-9-sourced/`.
+
+---
+
 ## 2026-11-10 — P2-G89b carried out: data release 33 adds the eras 8 and 9 sweep's 26 rows
 
 **Done under the gate ruling, in auto mode.** Mark answered the P2-G89 gate "all recommended"

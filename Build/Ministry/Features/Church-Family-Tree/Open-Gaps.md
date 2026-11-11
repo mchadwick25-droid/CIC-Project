@@ -1796,7 +1796,114 @@ it, never by deleting it.
     - Frozen paragraphs that changed rows carry unchanged still score below the reading target,
       for example VIII.7, VIII.27, VII.2, VII.19, VIII.29, VIII.31, VIII.32 and VII.23's teaser.
       The ruling did not name them. They wait for a readability pass on frozen text.
-193. **What the people layer leaves open (2026-11-10).** P2-P adds the map's Traditions | People
+193. **What the Library's fourth wants batch filled (2026-11-10).** For the religious orders and the
+    Maronites in "Living traditions with no entry after a date" (2026-11-10). Each gap still needs a
+    change order to add its row; the Library supplies the sources. Full list:
+    `Build/Ministry/Features/Source-Library/CFT-Wants.md`, batch 4.
+    - Sources now held:
+      - Athos after 1300: Meyer's typika and patriarchal acts, 1394 to the late 18th century;
+        Dapontes, a Xeropotamou monk.
+      - The Carthusians after 1534: Chauncy (1550); the statutes of 1681.
+      - The Cistercians after 1300: Rance (1683); the Trappist constitutions (1894).
+      - The Maronites after 1517: al-Duwayhi's history.
+      - The canons regular after 1246: Barnwell (1295-96); the Premonstratensian statutes (1626).
+      - The Order of Malta after 1291: the statutes of 1589.
+      - The Carmelites after 1300: the general chapters, 1318-1593.
+      - The Franciscans after 1517: the Annales for 1540-1553; the Capuchin constitutions (1638).
+      - The Dominicans after 1300: the general chapters, 1304-1378 and 1601-1628.
+      - The Jesuits after 1650: Thwaites 36-40; the Memoires de la Chine, 1717-1731, shelved on
+        the Society of Jesus 1650-1814 entry, and the China letters also on Chinese Catholicism
+        1650-1906. Thwaites also serves New France after 1650.
+      - The Discalced Carmelites after 1622: Brother Lawrence; the Reforma, tome II (1655).
+    - For the census owner: the Compiegne history (1836) sits on the ancien-regime shelf, which ends
+      in 1815. A census story rests on that row, so it was left; the long-nineteenth-century shelf was
+      added beside it.
+194. **The held eras 8 and 9 items the Library's sources now carry (2026-11-10).** P2-G89c (data
+    release 34) tested each item in "Held items whose sources the Library now holds" (2026-11-10)
+    against its vendored source, and entered what the source carries. Audit:
+    `Build/Ministry/Operations/Audits/2026-11-10_eras8-9-sourced/`.
+    - **Entered:** RV-7, the Transylvanian Unitarian Church 1660-1906, a lane 8 row (Ferencz 1875
+      and 1907; Rees 1818), continuing the anti-Trinitarian entry; AP11 to 1808, a line in the
+      Russian church from Nikon to the Holy Synod (Adoratskii 1887); AP10, the Cofradia de San Jose,
+      a line in Philippine Catholicism 1815-1906 (Montero y Vidal 1895, which prints the intendente's
+      letter of 1841 and the parish priest's Relacion); AP15, the Protestant beginnings in Korea, a
+      line in the Missionary Movement's Native Churches (Underwood 1908, for events to 1890; the
+      Korean Repository 1896); AP12, the Anglican line only, in the Victorian Church of England
+      (Marsden's letters, 1814-1837; three dates are his biographer's and are named so); LA8-6,
+      Saint-Domingue before 1789 in Colonial Latin American Devotional Catholicism (Moreau 1797) and
+      Holly's Haitian Episcopal church in the Black Church in America (the Spirit of Missions,
+      December 1874); LA8-9, the Bethlemites, a line in Colonial Latin American Devotional
+      Catholicism (Montalvo 1683; Garcia de la Concepcion 1723, the bull of 26 March 1687 read on
+      the page image).
+    - **Held, the source does not carry it:**
+      - AP7, the Catholic St Thomas Christians 1815-1906. Mackenzie (1901) prints no Catholic
+        document word for word: one clause of the 1861 rescript, and Roccos's signature. Waits for
+        a Catholic source (Propaganda's acts on Malabar, Syro-Malabar writings, Chavara).
+      - LA8-8, Cuba and Puerto Rico. Claret's Apuntes (1863) is a rule for governing a diocese; it
+        says nothing of the church under the crown's patronage, of Puerto Rico's church or of 1898.
+        Waits for a dated source on the Cuban church under Spain, 1815-1898.
+      - AP11 after 1808, the line in the Russian church's synodal century. No later issue of
+        Adoratskii is held. Waits for it, or Widmer (1976).
+      - AP15, the Korean Catholic church after 1886. Korean Catholic Origins ends in 1886 and its
+        status text keeps 1886-1904 for a later entry. Sources found for that entry: Father
+        Coste's obituary in the Korean Repository (1896; the chapel of 1888, the seminary of 1891,
+        the cathedral stone of 1892) and Underwood's count of over 42,000 Catholics in 1901.
+      - AP12, the Catholic and Methodist lines and the Aboriginal missions. No source.
+      - LA8-6, the Catholic concordat church after 1860 (no French Catholic source; the Concordat
+        printing not found); Holly's emigration of 1861 (not in the 1874 issue); the Code Noir and
+        Bois Caiman (not read or not found).
+      - LA8-9 after 1723: the order's end in 1820 and its spread (Garcia's later books damaged).
+      - AP10: the founding year 1832, the name Hermano Pule, and the bar from Spanish orders (not
+        in Montero's pages). The Cofradia's own letters were seized in 1841; none is held.
+      - AP15: the Nevius plan's rules and date, and the Ross New Testament's date (Underwood's
+        "worked well" is a judgment of 1908, not used).
+    - **Links RV-7 waits for:** English Unitarians after 1813, the Dutch Remonstrants after 1650,
+      and the era 9 Hungarian Protestant row (each has no entry yet); a link from the Society of
+      Jesus waits for a Catholic or Habsburg source on the seizures of 1693 and 1716, since only the
+      Unitarians' own later account blames the Jesuits.
+    - **Also closed:** "Two links with a candidate secondary quote" (2026-11-10): both quotes were
+      re-checked word for word and both links are now Widely Accepted. "The VOC lineage question
+      put to Mark" (2026-11-10): ruled yes by the coordinator; the VOC world's churches continue as
+      Indonesian Christianity, Widely Accepted on Aritonang and Steenbrink, with 1815-1861 named as
+      untold. The living mark there still waits for a dated record of the Protestant Church of the
+      Moluccas.
+    - This closes "Held items whose sources the Library now holds" (2026-11-10) for every item but
+      those above.
+195. **Two Section A questions for Mark: the Tolstoyans and the Dukhobors (2026-11-10).** The
+    Library's texts now let each be assessed. Nothing is entered. The full assessment, with every
+    quote at its lines: `Build/Ministry/Operations/Audits/2026-11-10_eras8-9-sourced/SectionA_ME6_ME20.md`.
+    Owner: the coordinator, for Mark.
+    - **ME-20, the Tolstoyans** (G89-48 a: "out of scope under A1 unless Mark chooses a lane 8
+      entry"). Tolstoy's own words (1885, 1894) bear out the record's report in substance: Christ a
+      teacher, "Son of God" a nature all men share, the bodily resurrection denied. No Tolstoyan
+      community's own confession is in the Library.
+    - **ME-6, the Dukhobors** (G89-46 a: "route the Dukhobors to Mark under A4 if they do not
+      clear"). Their Living Book calls the Son "our God", equal to the Father, but reads his birth,
+      death and rising as happening "in us" and refuses the sacraments in outward form. A1's plain
+      denial is not met; A3 (a non-literal reading) and A4's one-commitment limit are the live
+      questions. The Living Book is dated 1909 and its scan is unchecked, so none of it can enter a
+      record yet. The Molokans' texts were not found.
+196. **Small points P2-G89c leaves open (2026-11-10).** None changes what entered.
+    - The Transylvanian Protestants' entry (1650-1815) still says "The Unitarians are a different
+      church, told to 1650." It is now told to 1906. A frozen row; for a change order.
+    - The anti-Trinitarian entry says the Polish Brethren were expelled in 1658. Rees dates the
+      first decree to 1658 and the order to leave at once to 20 July 1660; Ferencz dates the ban to
+      1659 and the last day to 10 July 1660. A frozen row; for a change order.
+    - Underwood's Call of Korea (1908) stays `needs-ruling` on the Missionary Movement's shelf, which
+      ends in 1906. Korean Protestantism in the Twentieth Century (1907-2010) covers its date of
+      writing. For the Library thread.
+    - Adoratskii's OCR keeps its errors in the quotes ("1115" for 1715, and others). The reviewer
+      checked every date-bearing quote on the page images; two lines were not checked.
+    - No country was added to any changed row: Korea, Australia, New Zealand, Haiti, Guatemala and
+      China are not on the rows' place labels. Owner: the place-label work.
+197. **Narration scope (Mark, 2026-11-10).** Mark, 2026-11-10, verbatim: "the counsels are stories i
+    think" and "we need a minimum of a minute explanations on everything, then stories more, and
+    longer ones on built worlds"; "this will be work next week". Coordinator note: the councils and
+    other multi-tradition events are the Shared Events workstream (`Build/Ministry/Features/Shared-Events/`,
+    charter 2026-10-17); major links would point to their event's story, the link note staying as
+    evidence. Scheduled for the week after 2026-11-14. See also "Design idea: a brief that plays
+    first, then an optional deeper story" (2026-11-10).
+198. **What the people layer leaves open (2026-11-10).** P2-P adds the map's Traditions | People
     switch (Build-Plan, P2-P). Two choices the rulings did not decide were built as recommended and
     go to Mark with the screenshots (https://claude.ai/artifact/RdBJgr232pqBZcJmSotJY3): which three
     people show when a row names more than three (person entries first, then the earliest named
@@ -1811,7 +1918,7 @@ it, never by deleting it.
       not as the person. Owner: the census owner, whether those rows should point to the entry.
     - On a phone the switch bar now wraps to two lines. Owner: P2-K2 (marks, floor, tap areas).
     - The drawn person marks wait for P2-K1; the map shows a plain ringed mark the Key explains.
-194. **Design idea: a brief that plays first, then an optional deeper story (Mark, 2026-11-10).**
+199. **Design idea: a brief that plays first, then an optional deeper story (Mark, 2026-11-10).**
     Mark, verbatim: "i like the brief and longer story combo, we start with the brief automaticly
     launching when a tradition is clicked. if we have the 4 minute that is an ask to you want to go
     deeper, and it should build off the brief, not repeat it. this is design ideas not a build
@@ -1824,7 +1931,7 @@ it, never by deleting it.
       median 46 words; conflict links carry the event, but rarely the tension, the why, or what
       followed. A one-minute telling per link would be new sourced writing. The likely first scope
       is the 122 major links. To be weighed with the deeper readings in the same design pass.
-195. **One man spelled two ways in the people rows (2026-11-11).** Sulpicius Severus is "Sulpitius
+200. **One man spelled two ways in the people rows (2026-11-11).** Sulpicius Severus is "Sulpitius
     Severus" in the rows of `gallic-nicene-episcopate` (year 403) and
     `gallic-monastic-ascetic-christianity` (year 397), and "Sulpicius Severus" in the row of
     `priscillianist-asceticism` (year 403). The census's links and sources spell him "Sulpicius".

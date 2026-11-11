@@ -1,0 +1,19 @@
+{
+ "slice": "ASB",
+ "round": 2,
+ "verdict": "approve",
+ "blocking": [],
+ "substantial": [],
+ "minor": [
+  {
+   "id": "ASB-r2-M1",
+   "where": "victorian-church-of-england.sources[0].note (Marsden 1913)",
+   "problem": "The note was not updated after ASB-S1. It still says 'Only Marsden's own quoted words and the dates his letters give are used. The biographer's frame is not.' The prose now uses three dates from the biographer's frame and says so, so the note contradicts the prose. A one-line fix; apply it before the change is merged.",
+   "evidence": "Draft VIII.30 paragraphs 1-3 ('printed in 1826 by his biographer's account', 'His biographer dates one letter to 7 October 1814', 'in 1814 by the biographer's date', 'Three of the dates are the biographer's'); fact_table rows 30, 31, 33 quote the biographer.",
+   "fix": "Note: \"A biography that prints Samuel Marsden's own letters and journals. Held in the Library. Marsden's own quoted words are used, with the dates his letters give. Three dates come from the biographer and are named as his.\""
+  }
+ ],
+ "quotes_checked": 33,
+ "quotes_failed": [],
+ "notes": "Targeted recheck against round 1. ASB-S1 resolved: VIII.30 carries the three replacement paragraphs as given. Each frame date is attributed in the prose and backed by a new row quoting the biographer: 'though not till the year 1826' (7000-7001), 'he wrote just before he sailed, the 7th of October, 1814' (3443-3445) and 'the 25th of December, 1814' (3713-3714), all verified at their lines. The datelines 5 June 1815 (3136) and April 1837 (8345) remain as Marsden's own. ASB-S2 resolved: the Nevius sentence and its rows are cut, the Underwood note reads 'events up to 1890', and the Nevius hold and flag now give the 1908-judgment reason. M1-M4 are applied as given: the 'seemed plain' law sentence, the four paragraphs, 'All of this comes to us in the missionaries' own telling', and the McClay margin-note note on row 21. M5 needed no change. check_draft.py: 33 quotes, none missing. READ-FAIL appears only on the two frozen first paragraphs (VIII.7 para 0, VIII.30 para 0), which are unchanged; all new paragraphs pass. My own line check found 33/33 quotes present at their lines. Diff against the census: VIII.7 paragraphs 0-1 and its old sources list are unchanged, with two sources added. VIII.30 paragraph 0 is unchanged, with a new sources list. No other field moved. Holds are unchanged apart from the Nevius reason."
+}

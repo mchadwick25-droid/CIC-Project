@@ -1,0 +1,11 @@
+source_file: carthusian-statutes_nova-collectio-statutorum-ordinis-cartusiensis-lat_1681.txt
+assignments:
+- row_id: carthusian-statutes_nova-collectio-statutorum-ordinis-cartusiensis-lat_1681--nova-collectio-statutorum-ordinis-cartusiensis-1681
+  work: "Nova collectio statutorum ordinis Cartusiensis (1681)"
+  author: carthusian-statutes
+  locus: "the whole volume; add 12 to OCR line numbers for this file's own"
+  atlas_ids:
+  - catholic-church-ancien-regime
+  role: tradition
+  confidence: provisional
+  note: "The Carthusians' own law as their general chapter ordered it in 1679-1681. Within this entry's window (1650-1815)."

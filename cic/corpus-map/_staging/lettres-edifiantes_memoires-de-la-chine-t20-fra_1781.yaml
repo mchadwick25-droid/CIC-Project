@@ -1,0 +1,12 @@
+source_file: lettres-edifiantes_memoires-de-la-chine-t20-fra_1781.txt
+assignments:
+- row_id: lettres-edifiantes_memoires-de-la-chine-t20-fra_1781--lettres-edifiantes-et-curieuses-memoires-de-la-chine-tome-20
+  work: "Lettres edifiantes et curieuses: Memoires de la Chine, tome 20"
+  author: lettres-edifiantes
+  locus: "the whole volume; add 12 to OCR line numbers for this file's own"
+  atlas_ids:
+  - society-of-jesus-1650-1814
+  - chinese-catholicism-1650-1906
+  role: tradition
+  confidence: provisional
+  note: "The Jesuits' own letters from the China mission in the eighteenth century. Within the windows of the Jesuit entry (1650-1814) and the Chinese Catholic entry (1650-1906)."

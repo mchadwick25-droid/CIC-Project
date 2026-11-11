@@ -1257,6 +1257,51 @@ VIII.52's 1911 end and the two North Europe breaks, which stay open.
 **Next action.** A follow-up chunk enters the held items whose sources the Library's batch 2 now
 holds. Full entry: Atlas World Map Decision-Log, "P2-G89b carried out".
 
+## 2026-11-10 — P2-G89c carried out: data release 34 enters the held eras 8 and 9 items the Library now sources
+
+**Done under the same gate ruling ("take every recommendation"), in auto mode.** The ruling held
+some items only for want of a source. Entering one once the Library holds it carries out the same
+change order (G89-6 a). Each item was tested against its vendored source first. Data release 34:
+396 movements (395 before), 736 links (733 before). Audit:
+`Build/Ministry/Operations/Audits/2026-11-10_eras8-9-sourced/`.
+
+- **One new row:** the Transylvanian Unitarian Church, 1660-1906 (VII.50), lane 8, continuing the
+  anti-Trinitarian entry, which now names it as the carrier of its living mark.
+- **Seven named lines** in existing rows: the Peking mission to 1808 (the Russian church to the Holy
+  Synod); the Cofradia de San Jose (Philippine Catholicism); Korea's Protestant beginnings (the
+  Missionary Movement's Native Churches); Marsden's chaplaincy and New Zealand mission (the
+  Victorian Church of England); Saint-Domingue and the Bethlemites (Colonial Latin American
+  Devotional Catholicism); Holly's Haitian Episcopal church (the Black Church in America).
+- **Links:** VOC world "continued as" Indonesian Christianity (Widely Accepted, the 1815-1861 gap
+  named); the Unitarian row's two links; two links regraded from Inferential-Thin to Widely
+  Accepted on their candidate study quotes (China and the Jesuits; southern Africa and Herrnhut).
+- **Held, with reasons:** AP7, LA8-8 and the parts no source carries. Open-Gaps, "The held eras 8
+  and 9 items the Library's sources now carry" (2026-11-10).
+- **Coordinator calls** (session 01JMNsSDbFsmawtDvuAiukNQ, under Mark's standing instruction to
+  decide routine calls, 2026-11-10):
+  - Open-Gaps 191 (the VOC lineage question): yes, the VOC world's churches "continued as"
+    Indonesian Christianity, at most Widely Accepted on Aritonang ch. 9 (Joseph Kam's work from
+    1815 as a rehabilitation of the same church), the 1815-1861 gap named in the link and kept in
+    Open-Gaps.
+  - LA8-6's homes: Holly as a line in the Black Church in America, not the Haitian church row (no
+    frozen date change; a Protestant lane); Saint-Domingue in Colonial Latin American Devotional
+    Catholicism. The concordat church after 1860 stays held.
+  - AP12: only the Anglican line enters, on Marsden; the Catholic and Methodist lines stay held.
+  - RV-7: a lane 8 row, not a line closing the anti-Trinitarian entry, which would stretch a
+    frozen era 7 row across the era line.
+  - AP11: a line in the era 8 Russian church row only, since the source ends in 1808.
+- **Worker calls under the same rule:** LA8-8 held (Claret's Apuntes do not carry the line the
+  gate names); AP7 held (no Catholic document printed word for word); the Korean Catholic line
+  after 1886 held for a later entry, as the Korean Catholic row's own status text keeps that gap;
+  the Society of Jesus link to the Unitarian row dropped (only the Unitarians' later account blames
+  the Jesuits; the army and a Catholic bishop did the seizing).
+- **Reviews.** Each slice was drafted by Sonnet and reviewed by Opus from its sources, two rounds at
+  most; every slice approved. The Library shelf rows for Holly, the Korean Repository, Marsden and
+  Ferencz (1875) moved onto the entries that now carry them.
+
+**For Mark, through the coordinator:** two Section A questions, the Tolstoyans and the Dukhobors
+(Open-Gaps, "Two Section A questions for Mark", 2026-11-10).
+
 ---
 
 ## 2026-11-10 — The people layer: what the rulings left open (P2-P)
@@ -1275,7 +1320,7 @@ the result on the screenshots (https://claude.ai/artifact/RdBJgr232pqBZcJmSotJY3
   A named voice gets a small dot; its name shows at close zoom, and a tap opens the tradition's card
   at its People list. Shown with: one mark for both; person entries only on the map.
 - **The Basil link.** `desert-monasticism--iconophile-byzantine-monasticism` concerns Basil, who is
-  told within neither end. The People view leaves it out, and Basil's card lists it (Open-Gaps 193).
+  told within neither end. The People view leaves it out, and Basil's card lists it (Open-Gaps, "What the people layer leaves open", 2026-11-10).
 - **Open-Gaps 174** (showing declared river reasons) stays outside P2-P.
 
 **Readings confirmed (coordinator).** Release 33 has 39 person entries. A row holds every name in a
