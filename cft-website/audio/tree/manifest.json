@@ -2809,122 +2809,162 @@
  },
  "origen": {
   "file": "origen.mp3",
-  "bytes": 1200839,
-  "chars": 2143,
-  "text_sha256": "71322d28b39e4718a8a45de17f6afdc3af36d7524915136edb7456a3d01c1816",
-  "voiceId": "fxnZk29PIJ3WKEC9MDEo",
-  "model": "eleven_multilingual_v2",
-  "outputFormat": "mp3_44100_64",
+  "bytes": 2261620,
+  "chars": 2197,
+  "text_sha256": "734dba48d64dcab5f92fb29e54584c68c2211519403438511cf7898308a3628d",
+  "voiceId": "MFZUKuGQUsGJPQjTS4wC",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_128",
   "voiceSettings": {
-   "stability": 0.45,
-   "similarity_boost": 0.75,
-   "style": 0.3,
-   "use_speaker_boost": true
-  }
+   "stability": 0.85,
+   "similarity_boost": 0.88,
+   "style": 0.05,
+   "use_speaker_boost": true,
+   "speed": 0.95
+  },
+  "charsSent": 2215,
+  "openTag": "[calmly]",
+  "closingTag": "[warmly]",
+  "requestId": "GbRVtMDlNUFgrteCaiuX"
  },
  "athanasius-of-alexandria": {
   "file": "athanasius-of-alexandria.mp3",
-  "bytes": 1070227,
-  "chars": 1836,
-  "text_sha256": "faab7460ab1b4cb0262b9a75fa6d33513a673f4e422a3f4be196f20dc945cbd3",
-  "voiceId": "fxnZk29PIJ3WKEC9MDEo",
-  "model": "eleven_multilingual_v2",
-  "outputFormat": "mp3_44100_64",
+  "bytes": 2051804,
+  "chars": 1890,
+  "text_sha256": "0d604f566783cb80677d3eb039bf9d75f8142afb4a2e24a47cfbe52417808a30",
+  "voiceId": "MFZUKuGQUsGJPQjTS4wC",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_128",
   "voiceSettings": {
-   "stability": 0.45,
-   "similarity_boost": 0.75,
-   "style": 0.3,
-   "use_speaker_boost": true
-  }
+   "stability": 0.85,
+   "similarity_boost": 0.88,
+   "style": 0.05,
+   "use_speaker_boost": true,
+   "speed": 0.95
+  },
+  "charsSent": 1908,
+  "openTag": "[calmly]",
+  "closingTag": "[warmly]",
+  "requestId": "GoFCJ5JtRgTMaXD0UGBd"
  },
  "gregory-of-nyssa": {
   "file": "gregory-of-nyssa.mp3",
-  "bytes": 1056852,
-  "chars": 1913,
-  "text_sha256": "74bedb92485e9eb05f5c9781b480948eb3ebea8fe350274a8391670f20587622",
-  "voiceId": "fxnZk29PIJ3WKEC9MDEo",
-  "model": "eleven_multilingual_v2",
-  "outputFormat": "mp3_44100_64",
+  "bytes": 1974900,
+  "chars": 1925,
+  "text_sha256": "7a1cd05540ae12e7cb6d0378ee10299adb3f104e42c9e5fdae21c3c278f3fab6",
+  "voiceId": "MFZUKuGQUsGJPQjTS4wC",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_128",
   "voiceSettings": {
-   "stability": 0.45,
-   "similarity_boost": 0.75,
-   "style": 0.3,
-   "use_speaker_boost": true
-  }
+   "stability": 0.85,
+   "similarity_boost": 0.88,
+   "style": 0.05,
+   "use_speaker_boost": true,
+   "speed": 0.95
+  },
+  "charsSent": 1943,
+  "openTag": "[calmly]",
+  "closingTag": "[warmly]",
+  "requestId": "BlreHoou0p9eEQfwYKRW"
  },
  "ephrem-the-syrian": {
   "file": "ephrem-the-syrian.mp3",
-  "bytes": 870234,
-  "chars": 1539,
-  "text_sha256": "1ef3166469bcd709646f3f207ef98511153c963286ea96a8baeb46d0c120e405",
-  "voiceId": "fxnZk29PIJ3WKEC9MDEo",
-  "model": "eleven_multilingual_v2",
-  "outputFormat": "mp3_44100_64",
+  "bytes": 1574077,
+  "chars": 1575,
+  "text_sha256": "ba1c39f8f76ad9c7deb1c8d3135084cefc4a1e6b3762db461cc42fb938b2c1b6",
+  "voiceId": "MFZUKuGQUsGJPQjTS4wC",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_128",
   "voiceSettings": {
-   "stability": 0.45,
-   "similarity_boost": 0.75,
-   "style": 0.3,
-   "use_speaker_boost": true
-  }
+   "stability": 0.85,
+   "similarity_boost": 0.88,
+   "style": 0.05,
+   "use_speaker_boost": true,
+   "speed": 0.95
+  },
+  "charsSent": 1593,
+  "openTag": "[calmly]",
+  "closingTag": "[warmly]",
+  "requestId": "GGxB9KPlnaWQpbFCJhYv"
  },
  "john-chrysostom": {
   "file": "john-chrysostom.mp3",
-  "bytes": 1169283,
-  "chars": 2104,
-  "text_sha256": "af631c57217925897d19e88cbe982425e2760d58b0e0184a5f42a8e26000be99",
-  "voiceId": "fxnZk29PIJ3WKEC9MDEo",
-  "model": "eleven_multilingual_v2",
-  "outputFormat": "mp3_44100_64",
+  "bytes": 2293385,
+  "chars": 2187,
+  "text_sha256": "6366709e57e46b5c292da72087de3d4a7119f6a4837636eb3f5f01ec83ae8991",
+  "voiceId": "MFZUKuGQUsGJPQjTS4wC",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_128",
   "voiceSettings": {
-   "stability": 0.45,
-   "similarity_boost": 0.75,
-   "style": 0.3,
-   "use_speaker_boost": true
-  }
+   "stability": 0.85,
+   "similarity_boost": 0.88,
+   "style": 0.05,
+   "use_speaker_boost": true,
+   "speed": 0.95
+  },
+  "charsSent": 2205,
+  "openTag": "[calmly]",
+  "closingTag": "[warmly]",
+  "requestId": "E23hQanNImdAzDD8ZFc3"
  },
  "methodius-of-olympus": {
   "file": "methodius-of-olympus.mp3",
-  "bytes": 703468,
-  "chars": 1254,
-  "text_sha256": "b176b912c1b42a903b62d7d7651855f49b5d7ed6ea6572cb2190af30f562559f",
-  "voiceId": "fxnZk29PIJ3WKEC9MDEo",
-  "model": "eleven_multilingual_v2",
-  "outputFormat": "mp3_44100_64",
+  "bytes": 1370531,
+  "chars": 1264,
+  "text_sha256": "f92378f12ef9cd897ddb9bed06400e2cb57a46b55454af7da817e03b144ddde7",
+  "voiceId": "MFZUKuGQUsGJPQjTS4wC",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_128",
   "voiceSettings": {
-   "stability": 0.45,
-   "similarity_boost": 0.75,
-   "style": 0.3,
-   "use_speaker_boost": true
-  }
+   "stability": 0.85,
+   "similarity_boost": 0.88,
+   "style": 0.05,
+   "use_speaker_boost": true,
+   "speed": 0.95
+  },
+  "charsSent": 1282,
+  "openTag": "[calmly]",
+  "closingTag": "[warmly]",
+  "requestId": "p5guhjRjBT5MkjI3YvOP"
  },
  "constantine-the-great": {
   "file": "constantine-the-great.mp3",
-  "bytes": 944630,
-  "chars": 1774,
-  "text_sha256": "ac6dba45d42928f4ca34bb0f2f3cb318f88e00899cf80d0517224b000752f76d",
-  "voiceId": "fxnZk29PIJ3WKEC9MDEo",
-  "model": "eleven_multilingual_v2",
-  "outputFormat": "mp3_44100_64",
+  "bytes": 1841571,
+  "chars": 1816,
+  "text_sha256": "d31934ded0e35c710a1ad0aadbc1f6638e20e3c2287442d68c86dc7537a3f76f",
+  "voiceId": "MFZUKuGQUsGJPQjTS4wC",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_128",
   "voiceSettings": {
-   "stability": 0.45,
-   "similarity_boost": 0.75,
-   "style": 0.3,
-   "use_speaker_boost": true
-  }
+   "stability": 0.85,
+   "similarity_boost": 0.88,
+   "style": 0.05,
+   "use_speaker_boost": true,
+   "speed": 0.95
+  },
+  "charsSent": 1834,
+  "openTag": "[calmly]",
+  "closingTag": "[warmly]",
+  "requestId": "PSbb8Y1VZ6WSUYNAxgJn"
  },
  "gregory-of-nazianzus": {
   "file": "gregory-of-nazianzus.mp3",
-  "bytes": 1007324,
-  "chars": 1750,
-  "text_sha256": "1ae0437eb98d18368aa901b10ba8249df41750d1db79d3300937c7fe2c6672f5",
-  "voiceId": "fxnZk29PIJ3WKEC9MDEo",
-  "model": "eleven_multilingual_v2",
-  "outputFormat": "mp3_44100_64",
+  "bytes": 1813567,
+  "chars": 1775,
+  "text_sha256": "4caece86bb49b6ca0a74e6e9aa10747081cd59ed98378b974e0bc9f56b86b978",
+  "voiceId": "MFZUKuGQUsGJPQjTS4wC",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_128",
   "voiceSettings": {
-   "stability": 0.45,
-   "similarity_boost": 0.75,
-   "style": 0.3,
-   "use_speaker_boost": true
-  }
+   "stability": 0.85,
+   "similarity_boost": 0.88,
+   "style": 0.05,
+   "use_speaker_boost": true,
+   "speed": 0.95
+  },
+  "charsSent": 1793,
+  "openTag": "[calmly]",
+  "closingTag": "[warmly]",
+  "requestId": "7AdU73Le90wVu2WjK3SP"
  }
 }

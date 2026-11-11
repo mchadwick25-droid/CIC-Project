@@ -1489,6 +1489,8 @@ voice id in each request, the sizes, and Mark's ear on the sample.
 
 ## 2026-11-11 — Person-voice delivery: setting C (Mark: "c is best")
 
+**Superseded** by "Person voice: Jon on Eleven v4, replacing David Baker" (2026-11-11).
+
 **Decided (Mark, relayed by the coordinator, 2026-11-11).** Mark heard the Origen pilot clip and
 found it "not warm and personal enough". He approved a three-way test ("yes, run the three-way
 test") and, after listening, ruled "c is best". Person briefs are recorded with:
@@ -1744,3 +1746,88 @@ person cards and "+N more", and the tree pages' People section.
 **Next.** A read-only sweep, after Friday 2026-11-13, sorts every person into Who, story or
 wanted. Mark sees the result (Open-Gaps, "The Who sweep", 2026-11-11). Until then, the named-voice
 items in "What the people layer leaves open" (2026-11-11) wait on the sweep.
+
+## 2026-11-11 — Person voice: Jon on Eleven v4, replacing David Baker
+
+**Decided (Mark, relayed by the coordinator, 2026-11-11).** Mark's words: "yes this voice will
+work for all people/who texts. lets rerun the 8 and replace the old voice with this and these
+settings. use the earl church people first 8". On the settings: "defaults, nothing changed". On
+the tone: "calm, wise, inviting, documentary biography tone. Not dramatic and not pushy."
+
+Every person brief and every other "who" text is now recorded with:
+- voice: Jon, "Warm, Grounded Storyteller", `MFZUKuGQUsGJPQjTS4wC`;
+- model: `eleven_v4`, output `mp3_44100_128`;
+- settings: `{"stability":0.85,"similarity_boost":0.88,"style":0.05,"use_speaker_boost":true,"speed":0.95}`,
+  which are Jon's defaults;
+- audio tags: `[calmly]` at the start and `[warmly]` before the last sentence. The tags go only
+  into the text sent to ElevenLabs, never into the census text or a page.
+
+The approved sample (206 credits, request `qXoJKGCES7Ib2BN0l5UC`) is at
+https://claude.ai/artifact/EuNdBRSiL8sBwmxfTzHDFn. A person run of
+`Build/tools/generate_tree_narration.mjs` (`--people`) takes these on the command:
+- the voice: `--person-voice-id`;
+- the model: `--model`;
+- the output format: `--output-format`;
+- the settings: `--voice-settings`;
+- the tags: `--open-tag` and `--closing-tag`.
+
+Each is printed before the first request, and none is read from the environment.
+
+## 2026-11-11 — A common name is placed at its first mention
+
+**Decided (Mark, 2026-11-11).** Mark's words: "if a name is common we need to clarify from where".
+At its first mention in a text, a name that could mean more than one person gets a role, a place or
+a time. Examples are "the church historian Socrates", "Theophilus of Alexandria" and "Palladius of
+Helenopolis". The brief and the person card are separate texts, and each gets its own first
+mention. The identifier must come from the vendored sources, and no new claim may come with it.
+
+## 2026-11-11 — A short intro for each person, beside the full brief (Mark: "a")
+
+**Decided (Mark, 2026-11-11).** Each person gets a new intro of about 25 seconds, beside the full
+brief. The full brief stays as it is. The intros come later, and none was made in the Jon run below.
+
+## 2026-11-11 — Cap ruling: the common-name edits to the eight early-church briefs
+
+**Cap ruling (2026-11-11).** The common-name standard is a change Mark ordered to reviewed text,
+not a fourth revision round. Its edits to the eight briefs and their cards had one targeted Opus
+recheck, covering the changed sentences only:
+`Build/Ministry/Operations/Audits/2026-11-11_person-brief-pilot/reviews/R5_common-names_recheck.md`.
+It found nothing blocking. Its eight standard fixes were applied as written. The drafter's change
+list is in that pilot's `names-2026-11-11/CHANGES.md`.
+
+## 2026-11-11 — Data release 37: the eight early-church people in Jon's voice
+
+**Done.** The eight early-church briefs and person cards now place every common name at its first
+mention, in data release 37. All eight are recorded again in Jon's voice, and those recordings
+replace the David Baker clips and their manifest entries.
+
+| Person | Words | Recorded |
+|---|---|---|
+| Origen | 382 | 2:21 |
+| John Chrysostom | 373 | 2:23 |
+| Gregory of Nyssa | 348 | 2:03 |
+| Athanasius of Alexandria | 332 | 2:08 |
+| Constantine the Great | 318 | 1:55 |
+| Gregory of Nazianzus | 311 | 1:53 |
+| Ephrem the Syrian | 274 | 1:38 |
+| Methodius of Olympus | 224 | 1:26 |
+
+**Run "CFT early-church people 8, Jon v4, 2026-11-11".**
+- Characters: 14,629 of brief text, 14,773 sent with the tags, under the 15,000 cap.
+- Credits: 7,162 by the `character-cost` headers.
+- Reconciled by request id against `GET /v1/history`: all 8 ids appear once each (source TTS,
+  `eleven_v4`, `mp3_44100_128`), for 7,162 credits, with no duplicate. For `eleven_v4` the history
+  records only stability and leaves the voice and text empty, as it did for the approved sample.
+  The full settings sent are in the run's printed log.
+- Balance: 230,027 used before and 237,189 after. No other request was billed in the run window.
+- Log: `Build/Ministry/Operations/Audits/2026-11-11_person-brief-pilot/recording/jon-v4-early-people-8.log`.
+
+**Other use of the key the same afternoon (for Mark).** Four `eleven_v4` history items came from
+ElevenLabs' web app, source "Flows":
+- 15:49 UTC, 416 credits;
+- 15:55, 435;
+- 15:55, 435;
+- 15:56, 390.
+
+Another 1,728 credits were charged between 226,417 and 229,821 with no history item at all. None
+of these came from this build.

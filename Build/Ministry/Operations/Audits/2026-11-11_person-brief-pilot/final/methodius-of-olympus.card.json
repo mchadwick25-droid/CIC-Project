@@ -1,62 +1,100 @@
 {
- "known_for": "Lycian bishop and martyr who argued against Origen that the same body rises, and who praised the life of chastity.",
- "role": "Bishop, martyr and writer",
- "key_works": [
-  {
-   "title": "The Banquet of the Ten Virgins",
-   "about": "A dialogue in which ten women praise chastity in a garden."
+  "knownFor": "Lycian bishop and martyr who argued against Origen that the same body rises, and who praised the life of chastity.",
+  "role": "Bishop, martyr and writer",
+  "keyWorks": [
+    {
+      "title": "The Banquet of the Ten Virgins",
+      "about": "A dialogue in which ten women praise chastity in a garden."
+    },
+    {
+      "title": "On the Resurrection",
+      "about": "Argues against Origen that the body is no fetter and rises again."
+    },
+    {
+      "title": "On Free Will",
+      "about": "A treatise Jerome lists as his, also against Origen."
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Epiphanius of Cyprus made great use of him in his own refutations of Origen.",
+      "Most of what he wrote has been lost. His books against Porphyry survive only in slight fragments, and his commentaries are lost. The longer pieces of On the Resurrection come to us through Epiphanius and Photius.",
+      "Theodoret copied a passage from his sermon on the martyrs into a set of testimonies from earlier bishops. In it Methodius says martyrdom is so precious that Christ himself honored it.",
+      "The complete Banquet was first printed at Rome in 1656, from a manuscript in the Vatican."
+    ],
+    "remembered": [
+      "Remembered chiefly as Origen's opponent. The church historian Socrates names him first among the four who reviled Origen.",
+      "Honored as a martyr. Jerome says he was crowned with martyrdom at Chalcis, and Theodoret calls him the holy Methodius, bishop and martyr."
+    ]
   },
-  {
-   "title": "On the Resurrection",
-   "about": "Argues against Origen that the body is no fetter and rises again."
-  },
-  {
-   "title": "On Free Will",
-   "about": "A treatise Jerome lists as his, also against Origen."
+  "uncertain": [
+    "Jerome knew two dates for his death. The later one, around 312, fits his writing against Origen after Origen's death, and the earlier one, under Decius, does not. Some place Chalcis in Syria rather than Greece, because Syria lay nearer his diocese. Epiphanius also calls him Eubulius, which may only be the pen name he used in his Banquet.",
+    "Only Socrates tells of his change of heart, and Socrates admired Origen. He names the dialogue in which Methodius praised him: Xenon."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "From the Discourse on the Resurrection",
+        "file": "cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml",
+        "language": "English"
+      },
+      {
+        "title": "Fragments of Methodius (general fragments; on the Cross and Passion; other and uncertain fragments)",
+        "file": "cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml",
+        "language": "English"
+      },
+      {
+        "title": "Oration Concerning Simeon and Anna",
+        "file": "cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml",
+        "language": "English",
+        "disputed": "widely regarded as later than Methodius"
+      },
+      {
+        "title": "Oration on the Palms",
+        "file": "cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml",
+        "language": "English",
+        "disputed": "doubtful authenticity"
+      },
+      {
+        "title": "The Banquet of the Ten Virgins (Symposium; Concerning Chastity)",
+        "file": "cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml",
+        "language": "English"
+      },
+      {
+        "title": "Concerning Free-Will (De Autexousio)",
+        "file": "cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml",
+        "language": "English"
+      }
+    ],
+    "about": [
+      {
+        "title": "Ecclesiastical History, on Origen's critics",
+        "author": "Socrates",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
+      },
+      {
+        "title": "Lives of Illustrious Men, chapter 83",
+        "author": "Jerome",
+        "date": "392",
+        "language": "English translation",
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+      },
+      {
+        "title": "Bibliotheca, codex 234, summary of On the Resurrection",
+        "author": "Photius",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml"
+      },
+      {
+        "title": "Introduction to Methodius (Ante-Nicene Fathers, vol. 6)",
+        "author": "William R. Clark",
+        "date": null,
+        "language": "English",
+        "file": "cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml"
+      }
+    ]
   }
- ],
- "legacy_traces": [
-  "Epiphanius made great use of him in his own refutations of Origen.",
-  "Most of what he wrote has been lost. His books against Porphyry survive only in slight fragments, and his commentaries are lost. The longer pieces of On the Resurrection come to us through Epiphanius and Photius.",
-  "Theodoret copied a passage from his sermon on the martyrs into a set of testimonies from earlier bishops. In it Methodius says martyrdom is so precious that Christ himself honored it.",
-  "The complete Banquet was first printed at Rome in 1656, from a manuscript in the Vatican."
- ],
- "legacy_remembered": [
-  "Remembered chiefly as Origen's opponent. Socrates names him first among the four who reviled Origen.",
-  "Honored as a martyr. Jerome says he was crowned with martyrdom at Chalcis, and Theodoret calls him the holy Methodius, bishop and martyr."
- ],
- "uncertain": [
-  "Jerome knew two dates for his death. The later one, around 312, fits his writing against Origen after Origen's death, and the earlier one, under Decius, does not. Some place Chalcis in Syria rather than Greece, because Syria lay nearer his diocese. Epiphanius also calls him Eubulius, which may only be the pen name he used in his Banquet.",
-  "Only Socrates tells of his change of heart, and Socrates admired Origen. He names the dialogue in which Methodius praised him: Xenon."
- ],
- "written_about": [
-  {
-   "title": "Ecclesiastical History, on Origen's critics",
-   "author": "Socrates",
-   "date": null,
-   "language": "English translation",
-   "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
-  },
-  {
-   "title": "Lives of Illustrious Men, chapter 83",
-   "author": "Jerome",
-   "date": "392",
-   "language": "English translation",
-   "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
-  },
-  {
-   "title": "Bibliotheca, codex 234, summary of On the Resurrection",
-   "author": "Photius",
-   "date": null,
-   "language": "English translation",
-   "file": "cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml"
-  },
-  {
-   "title": "Introduction to Methodius (Ante-Nicene Fathers, vol. 6)",
-   "author": "William R. Clark",
-   "date": null,
-   "language": "English",
-   "file": "cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml"
-  }
- ]
 }

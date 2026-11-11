@@ -1,0 +1,34 @@
+=== Tree narration  ===
+396 movements total
+8 skipped - no longDescription to narrate
+12 skipped - built world with its own orientation.story, recorded in its Representative's voice
+337 skipped - not a person row (person run)
+0 already narrated and current (use --force to regenerate)
+8 stale - recorded from text that has since changed, re-voiced this run
+8 to generate this run, 14629 characters total
+=== PAID RUN, settings as actually used ===
+approved run     : CFT early-church people 8, Jon v4, 2026-11-11   char cap: 15000
+person voice id  : MFZUKuGQUsGJPQjTS4wC   (kind "person", every item)
+output format    : mp3_44100_128
+model            : eleven_v4
+settings         : {"stability":0.85,"similarity_boost":0.88,"style":0.05,"use_speaker_boost":true,"speed":0.95}
+audio tags       : open [calmly], before the last sentence [warmly]
+items            : 8   characters: 14629 text, 14773 sent
+===========================================
+  ok: origen voice=MFZUKuGQUsGJPQjTS4wC model=eleven_v4 format=mp3_44100_128 settings={"stability":0.85,"similarity_boost":0.88,"style":0.05,"use_speaker_boost":true,"speed":0.95} chars=2197 sent=2215 cost=1074 request-id=GbRVtMDlNUFgrteCaiuX
+  ok: athanasius-of-alexandria voice=MFZUKuGQUsGJPQjTS4wC model=eleven_v4 format=mp3_44100_128 settings={"stability":0.85,"similarity_boost":0.88,"style":0.05,"use_speaker_boost":true,"speed":0.95} chars=1890 sent=1908 cost=925 request-id=GoFCJ5JtRgTMaXD0UGBd
+  ok: gregory-of-nyssa voice=MFZUKuGQUsGJPQjTS4wC model=eleven_v4 format=mp3_44100_128 settings={"stability":0.85,"similarity_boost":0.88,"style":0.05,"use_speaker_boost":true,"speed":0.95} chars=1925 sent=1943 cost=942 request-id=BlreHoou0p9eEQfwYKRW
+  ok: ephrem-the-syrian voice=MFZUKuGQUsGJPQjTS4wC model=eleven_v4 format=mp3_44100_128 settings={"stability":0.85,"similarity_boost":0.88,"style":0.05,"use_speaker_boost":true,"speed":0.95} chars=1575 sent=1593 cost=772 request-id=GGxB9KPlnaWQpbFCJhYv
+  ok: john-chrysostom voice=MFZUKuGQUsGJPQjTS4wC model=eleven_v4 format=mp3_44100_128 settings={"stability":0.85,"similarity_boost":0.88,"style":0.05,"use_speaker_boost":true,"speed":0.95} chars=2187 sent=2205 cost=1069 request-id=E23hQanNImdAzDD8ZFc3
+  ok: methodius-of-olympus voice=MFZUKuGQUsGJPQjTS4wC model=eleven_v4 format=mp3_44100_128 settings={"stability":0.85,"similarity_boost":0.88,"style":0.05,"use_speaker_boost":true,"speed":0.95} chars=1264 sent=1282 cost=622 request-id=p5guhjRjBT5MkjI3YvOP
+  ok: constantine-the-great voice=MFZUKuGQUsGJPQjTS4wC model=eleven_v4 format=mp3_44100_128 settings={"stability":0.85,"similarity_boost":0.88,"style":0.05,"use_speaker_boost":true,"speed":0.95} chars=1816 sent=1834 cost=889 request-id=PSbb8Y1VZ6WSUYNAxgJn
+  ok: gregory-of-nazianzus voice=MFZUKuGQUsGJPQjTS4wC model=eleven_v4 format=mp3_44100_128 settings={"stability":0.85,"similarity_boost":0.88,"style":0.05,"use_speaker_boost":true,"speed":0.95} chars=1775 sent=1793 cost=869 request-id=7AdU73Le90wVu2WjK3SP
+
+8/8 generated. credits charged (character-cost headers): 7162
+
+Reconciled by request id against GET /v1/history: all 8 ids found once each, source TTS, eleven_v4,
+mp3_44100_128, 7,162 credits (equal to the character-cost headers); no duplicate. For eleven_v4 the
+history records only stability (0.85) and leaves voice and text empty, as it did for the approved sample.
+Balance: 230,027 before, 237,189 after (7,162); no other request billed in the run window.
+Durations (s): origen 141.3, athanasius 128.2, chrysostom 143.3, nyssa 123.4, nazianzus 113.3,
+constantine 115.1, ephrem 98.4, methodius 85.6.

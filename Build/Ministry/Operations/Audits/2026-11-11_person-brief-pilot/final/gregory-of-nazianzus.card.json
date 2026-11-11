@@ -1,74 +1,125 @@
 {
- "known_for": "Bishop, preacher and poet whose sermons on the Trinity and letters on Christ's full humanity became standards for the later church.",
- "role": "Bishop, preacher and poet",
- "key_works": [
-  {
-   "title": "The Five Theological Orations",
-   "about": "Sermons defending the Trinity, preached in Constantinople."
+  "knownFor": "Bishop, preacher and poet whose sermons on the Trinity and letters on Christ's full humanity became standards for the later church.",
+  "role": "Bishop, preacher and poet",
+  "keyWorks": [
+    {
+      "title": "The Five Theological Orations",
+      "about": "Sermons defending the Trinity, preached in Constantinople."
+    },
+    {
+      "title": "Two Letters to Cledonius",
+      "about": "Letters against Apollinarius on whether Christ had a human mind."
+    },
+    {
+      "title": "Funeral Oration on Basil",
+      "about": "His speech on his friend, with the story of their student days."
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Gennadius of Marseilles, calling Gregory that most eloquent man, reports that Rufinus put his works into Latin along with those of Basil of Caesarea.",
+      "With Basil he gathered the Philocalia, a book of choice passages from Origen. About Easter in 382 he sent a copy to a friend as a book useful to students of literature.",
+      "In 553 the emperor Justinian's letter to the council at Constantinople named Gregory the Theologian among the holy Fathers it followed."
+    ],
+    "remembered": [
+      "Theodoret remembered him among the great teachers of the imperial city, as Gregory, shining friend and supporter of the truth.",
+      "Jerome called him a most eloquent man and his instructor in the Scriptures, and counted thirty thousand lines of his writing. He remembered asking Gregory about a hard verse, and Gregory teasing that he would explain it in church, where the applause would force Jerome to understand."
+    ]
   },
-  {
-   "title": "Two Letters to Cledonius",
-   "about": "Letters against Apollinarius on whether Christ had a human mind."
-  },
-  {
-   "title": "Funeral Oration on Basil",
-   "about": "His speech on his friend, with the story of their student days."
+  "uncertain": [
+    "Whether he ever took up Sasima is unclear. It seems he did not, with a rival bishop's troops holding the village and his father pleading with him to stay. His own letters pull two ways. In one he says he was appointed to Sasima, though for a short time he governed Nazianzus out of respect for his father. In another he says he was originally appointed to Nazianzus, \"and not to Sasima as some would falsely persuade you\"."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Orations 27-45, PG 36, Greek",
+        "file": "cic/texts/gregory-nazianzen_orationes-27-45-pg36-grc-lat_migne1858.txt",
+        "language": "Greek"
+      },
+      {
+        "title": "The Five Theological Orations (Orations 27-31)",
+        "file": "cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml",
+        "language": "English"
+      },
+      {
+        "title": "Letters and Poems (Epistulae; Carmina), PG 37, Greek",
+        "file": "cic/texts/gregory-nazianzen_epistulae-carmina-pg37-grc-lat_migne1857.txt",
+        "language": "Greek"
+      },
+      {
+        "title": "Select Letters of Saint Gregory Nazianzen",
+        "file": "cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml",
+        "language": "English"
+      },
+      {
+        "title": "First Invective Against Julian the Emperor (Oration 4)",
+        "file": "cic/texts/gregory-nazianzen_first-invective-against-julian_king1888.txt",
+        "language": "English"
+      },
+      {
+        "title": "Gregory of Nazianzus, Orations, PG 35, Greek (including Oration 14, On the Love of the Poor)",
+        "file": "cic/texts/gregory-nazianzen_orationes-pg35-grc-lat_migne1857.txt",
+        "language": "Greek"
+      },
+      {
+        "title": "Second Invective Against Julian the Emperor (Oration 5)",
+        "file": "cic/texts/gregory-nazianzen_second-invective-against-julian_king1888.txt",
+        "language": "English"
+      },
+      {
+        "title": "From the metrical poems of Gregory Theologus, on the canon of Scripture",
+        "file": "cic/texts/npnf214_seven-ecumenical-councils.xml",
+        "language": "English"
+      },
+      {
+        "title": "Select Orations of Saint Gregory Nazianzen",
+        "file": "cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml",
+        "language": "English"
+      }
+    ],
+    "about": [
+      {
+        "title": "Prolegomena to Gregory of Nazianzus (Nicene and Post-Nicene Fathers, series 2, vol. 7)",
+        "author": "Charles Gordon Browne and James Edward Swallow",
+        "date": null,
+        "language": "English",
+        "file": "cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml"
+      },
+      {
+        "title": "Lives of Illustrious Men, chapter 117",
+        "author": "Jerome",
+        "date": "392",
+        "language": "English translation",
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+      },
+      {
+        "title": "Lives of Illustrious Men, on Rufinus",
+        "author": "Gennadius",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+      },
+      {
+        "title": "Letters, the principal works (Nicene and Post-Nicene Fathers, series 2, vol. 6)",
+        "author": "Jerome",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf206_jerome-principal-works.xml"
+      },
+      {
+        "title": "Ecclesiastical History, on the teachers of Constantinople",
+        "author": "Theodoret",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+      },
+      {
+        "title": "Acts of the council of 553",
+        "author": "The council",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf214_seven-ecumenical-councils.xml"
+      }
+    ]
   }
- ],
- "legacy_traces": [
-  "Gennadius, calling Gregory that most eloquent man, reports that Rufinus put his works into Latin along with Basil's.",
-  "With Basil he gathered the Philocalia, a book of choice passages from Origen. About Easter in 382 he sent a copy to a friend as a book useful to students of literature.",
-  "In 553 the emperor Justinian's letter to the council at Constantinople named Gregory the Theologian among the holy Fathers it followed."
- ],
- "legacy_remembered": [
-  "Theodoret remembered him among the great teachers of the imperial city, as Gregory, shining friend and supporter of the truth.",
-  "Jerome called him a most eloquent man and his instructor in the Scriptures, and counted thirty thousand lines of his writing. He remembered asking Gregory about a hard verse, and Gregory teasing that he would explain it in church, where the applause would force Jerome to understand."
- ],
- "uncertain": [
-  "Whether he ever took up Sasima is unclear. It seems he did not, with a rival bishop's troops holding the village and his father pleading with him to stay. His own letters pull two ways. In one he says he was appointed to Sasima, though for a short time he governed Nazianzus out of respect for his father. In another he says he was originally appointed to Nazianzus, \"and not to Sasima as some would falsely persuade you\"."
- ],
- "written_about": [
-  {
-   "title": "Prolegomena to Gregory of Nazianzus (Nicene and Post-Nicene Fathers, series 2, vol. 7)",
-   "author": "Charles Gordon Browne and James Edward Swallow",
-   "date": null,
-   "language": "English",
-   "file": "cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml"
-  },
-  {
-   "title": "Lives of Illustrious Men, chapter 117",
-   "author": "Jerome",
-   "date": "392",
-   "language": "English translation",
-   "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
-  },
-  {
-   "title": "Lives of Illustrious Men, on Rufinus",
-   "author": "Gennadius",
-   "date": null,
-   "language": "English translation",
-   "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
-  },
-  {
-   "title": "Letters, the principal works (Nicene and Post-Nicene Fathers, series 2, vol. 6)",
-   "author": "Jerome",
-   "date": null,
-   "language": "English translation",
-   "file": "cic/texts/npnf206_jerome-principal-works.xml"
-  },
-  {
-   "title": "Ecclesiastical History, on the teachers of Constantinople",
-   "author": "Theodoret",
-   "date": null,
-   "language": "English translation",
-   "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
-  },
-  {
-   "title": "Acts of the council of 553",
-   "author": "The council",
-   "date": null,
-   "language": "English translation",
-   "file": "cic/texts/npnf214_seven-ecumenical-councils.xml"
-  }
- ]
 }
