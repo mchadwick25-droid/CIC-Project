@@ -173,12 +173,39 @@ preface date as June 1890. Neither scan is clean, and a clean witness is still w
 "a clean Duwayhi"). A re-check of the other twenty-six batch 4 files, by archive id and by title,
 found no other duplicate.
 
+## Batch 6 — Europe, 1650-1815 and after
+
+Twenty-five files for ten named gaps of Open-Gaps 158. The batch 5 searchers found the candidates;
+this batch re-read every host record and title page, matched every byte count, and compared each body
+with the host text. Most of these traditions still have no entry after their first window, so many
+files are vendored with no shelf until the entry exists.
+
+| gap | state | file(s) | shelf | unblocks |
+|---|---|---|---|---|
+| The Transylvanian Unitarians after 1650 | filled | `kereszteny-magveto_kotet-1-hun_kriza-nagy1861.txt`; `unitarian-church-hungary_egyhazi-torveny-a-hazassagi-jogrol-hun_1889.txt`; `unitarian-church-hungary_fotanacs-jegyzokonyvei-1909-1913-hun_boros-csifo.txt` | the 1861 periodical and the 1889 marriage law on `transylvanian-unitarian-church-1660-1906`, tradition; the minutes of 1909-1913 no shelf (after 1906) | The church's own periodical, edited by two Kolozsvár Unitarian ministers, and its own marriage law. The minutes volume binds five sets (1909, 1910 twice, 1912, 1913); the host record names only the 1912 one. |
+| The Hutterites after 1785 | outsider only | `wolkan_die-hutterer-deu_1918.txt` | `hutterite-brethren`, context | Wolkan's history to the American colonies, with Hutterite hymns of 1800 and 1849 from Russia in its appendix. The Fraktur OCR is poor. No insider print before 1931 was found. |
+| The Waldensians after 1655 | filled | `arnaud_histoire-de-la-glorieuse-rentree-des-vaudois-fra_1880.txt`; `arnaud_glorious-recovery-by-the-vaudois_acland1827.txt`; `muston_israel-of-the-alps-v1_montgomery1866.txt` | Arnaud (both) no shelf; Muston on `the-waldensian-reformed-union` and `waldensians-in-the-alps`, context | The pastor and colonel's own history of the Return of 1689, in French and in Acland's English. The held Perrin volume's 1689 journal is garbled; Arnaud's 1880 text is clean. |
+| The Schwenkfelders after 1650 | filled, two of three | `kriebel_genealogical-record-of-the-schwenkfelders_1879.txt`; `seipt_schwenkfelder-hymnology_1909.txt` | no shelf | The Society's family register built on its minister Heebner's record, and Christopher Schultz's chronicle on the 1762 hymn-book. Held back: `lehre-und-ordnungs-regeln` (the sacrament rules, drafted 1838, approved 1858): the upload carries a CC BY-NC-ND licence that does not say what it covers. A call for Mark. The 1762 hymnal itself was not found. |
+| The Remonstrants after 1650 | filled | `limborch_compleat-system-of-divinity-v1_1702.txt`; `tideman_remonstrantsche-broederschap-biographische-naamlijst-nld_rogge1905.txt`; `heering_de-remonstranten-gedenkboek-nld_1919.txt` | Limborch no shelf; Tideman and the gedenkboek on `the-remonstrants-and-dort`, context | Limborch's system in English (the title page is missing from the scan, so its date and London imprint are the host's); the Brotherhood's own register of its ministers; its tercentenary essays. |
+| The Nordic state churches after 1650 | outsider-leaning histories | `cornelius_svenska-kyrkans-historia-efter-reformationen-swe_1886.txt`; `helweg_den-danske-kirkes-historie-efter-reformationen-v1-dan_1851.txt`, `-v2-dan_1855.txt` | Cornelius and Helweg I on `scandinavian-reformation-kingdoms`, context; Helweg II no shelf | Church histories of Sweden to 1886 and Denmark to 1836. Helweg I's title page reads 1851 on the page image; the OCR says 1831 and the host 1854. Not found: the Church Law of 1686, Pontoppidan's Sandhed, Kingo, Brorson. |
+| The Church of Scotland after 1650 | filled | `church-of-scotland_acts-of-the-general-assembly-1638-1842_church-law-society1843.txt`; `wodrow_history-of-the-sufferings-of-the-church-of-scotland-v3_burns1829.txt`; `boston_memoirs-of-the-life-time-and-writings_morrison1899.txt` | the Acts of 1638-1650 on `the-scottish-reformation-and-kirk`, tradition; the rest no shelf | The Assembly's own acts to 1842, with the 1842 Claim of Right; Wodrow's documents of 1679-1683; Boston's own memoir of 1730-1731, which its editor abridged and modernised. |
+| English and Welsh Catholics after 1650 | filled in part | `milner_end-of-religious-controversy-part2_1818.txt`; `dodd_church-history-of-england-v4_tierney1841.txt`, `-v5_tierney1843.txt` | Milner on `catholic-church-long-nineteenth-century`, tradition; Dodd-Tierney on `recusant-english-catholicism`, the appendix documents as tradition and the history as context | Milner's own defence of the Catholic Church (1818; the title page reads 1818 on the page image, the OCR 1S16). Dodd-Tierney IV and V reach only 1631 and 1626, so they serve the recusant entry, not the gap after 1650. Kirk's Biographies was not found. |
+| The French Reformed after 1787 | filled | `bersier_histoire-du-synode-general-de-l-eglise-reformee-t1-fra_1872.txt`; `vincent_du-protestantisme-en-france-fra_prevost-paradol1860.txt` | no shelf | The general synod of 1872, sitting by sitting; Samuel Vincent's book of 1829. Bersier attended as a Free Church delegate, not a member. |
+| The Delaware Swedes after 1786 | filled to 1810 | `clay_annals-of-the-swedes-on-the-delaware_1835.txt`; `holy-trinity-wilmington_records-1697-1773_burr1890.txt` | `swedish-lutherans-of-new-sweden`: the congregations' documents and records to 1786 as tradition, Clay's history as context | The Wilmington congregation's own records from 1697, with vestry minutes to 1810, and the Wicaco wardens' notice of 1684 and the 1765 charter. The records after 1786 wait for an entry. |
+
+**Marsden, the ruling asked for.** P2-G89c read the shelf rule rightly, by the date the letters were
+written, not the date the book was printed. But the book's letters begin before 1815 (Parramatta,
+26 October 1810; 7 October 1814; Christmas Day 1814), so the book now has two rows: the letters from
+1815 on the Victorian Church of England, and those before 1815 on the Restoration and Georgian Church
+of England. For the census owner: the Victorian entry's text quotes the two 1814 letters, which fall
+before its window.
+
 ## Later — queued
 
 - ME-21 by a browser; Lang 1834 and the Peking mission after 1808; the
   Brosset Additions (1851) and part II (1856-57); the 1860 Concordat in a period printing.
-- **Living traditions with no entry after a date** (Open-Gaps 158): 79 gaps, worked by era. Batches 3 to 5
-  took 30; next is Europe 1650-1815, then the gaps after 1815, then those after 1906.
+- **Living traditions with no entry after a date** (Open-Gaps 158): 79 gaps, worked by era. Batches 3 to 6
+  took 40; next are the gaps after 1815 (batch 7), then those after 1906.
 - **Families the tree doesn't reach** (Open-Gaps 159): the Patriarchate of Alexandria, Cyprus, the
   Polish, Czech-Slovak and Macedonian churches, and the Eastern Catholic churches never named.
 - **Living marks graded none** (Open-Gaps 162): Kongo, Transylvania, the Schwenkfelders, New France.

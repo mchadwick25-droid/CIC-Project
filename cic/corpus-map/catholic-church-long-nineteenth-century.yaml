@@ -22,6 +22,16 @@ works:
   note: The community's own witness to its martyrdom, by its surviving sister; the source
     the census story rests on.
   source_file: marie-de-l-incarnation-compiegne_histoire-des-carmelites-de-compiegne-fra_1836.txt
+- row_id: milner_end-of-religious-controversy-part2_1818--end-of-religious-controversy-part-2-1818
+  work: John Milner, The End of Religious Controversy, Part II (London, 1818)
+  author: milner
+  locus: the whole part; add 12 to OCR line numbers for this file's own
+  role: tradition
+  confidence: provisional
+  note: A Catholic divine's own defence of the Catholic Church, by the host record John Milner.
+    The letters are undated in the volume; it was printed in 1818 and cites March 1818, so
+    it goes on the entry for 1815-1906.
+  source_file: milner_end-of-religious-controversy-part2_1818.txt
 - row_id: clement-xiv_bulls-suppression-and-restoration-of-the-jesuits-lat-eng_1814--sollicitudo-omnium-ecclesiarum-7-august-1814-latin-and-2
   work: Sollicitudo omnium ecclesiarum (7 August 1814), Latin and English
   author: pius-vii

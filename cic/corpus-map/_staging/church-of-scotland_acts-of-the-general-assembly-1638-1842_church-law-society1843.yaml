@@ -1,0 +1,11 @@
+source_file: church-of-scotland_acts-of-the-general-assembly-1638-1842_church-law-society1843.txt
+assignments:
+- row_id: church-of-scotland_acts-of-the-general-assembly-1638-1842_church-law-society1843--acts-of-the-general-assembly-1638-1650
+  work: 'Acts of the General Assembly of the Church of Scotland, 1638-1842 (Edinburgh, 1843)'
+  author: church-of-scotland
+  locus: 'the acts of the Assemblies from 1638 to 1650, from about OCR line 645; add 12 to OCR line numbers for this file''s own'
+  atlas_ids:
+  - the-scottish-reformation-and-kirk
+  role: tradition
+  confidence: provisional
+  note: 'The Kirk''s own acts, reprinted from the original edition. Only the acts of 1638-1650 fall inside this entry''s window; the acts after 1650, to 1842, have no entry yet.'

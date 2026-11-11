@@ -1922,3 +1922,20 @@ it, never by deleting it.
       church print from 1918 to 1930.
     - Correction to "What the Library's fourth wants batch filled" (2026-11-10): al-Duwayhi was
       already held. The batch 4 file is a second scan of the same edition.
+199. **What the Library's sixth wants batch filled (2026-11-11).** For the Europe 1650-1815 gaps in
+    "Living traditions with no entry after a date" (2026-11-10). Full list:
+    `Build/Ministry/Features/Source-Library/CFT-Wants.md`, batch 6.
+    - Own-voice texts now held: the Transylvanian Unitarians (Keresztény Magvető 1861, the 1889
+      marriage law, Főtanács minutes 1909-1913); the Waldensians (Arnaud's Glorieuse rentrée, French and
+      English); the Schwenkfelders (the 1879 register, Schultz's chronicle in Seipt); the Remonstrants
+      (Limborch, the Brotherhood's register and gedenkboek); the Church of Scotland (the Acts 1638-1842,
+      Wodrow III, Boston's memoir); English Catholics (Milner 1818); the French Reformed (the 1872 synod,
+      Vincent); the Delaware Swedes (Holy Trinity's records to 1810, Clay).
+    - Outsiders or histories only: the Hutterites after 1785 (Wolkan 1918); the Nordic state churches
+      (Cornelius, Helweg).
+    - Most of these have no entry after their first window, so the texts wait unshelved for one.
+    - Held for Mark: the Schwenkfelder sacrament rules (a licence on the upload).
+    - Not found: an insider Hutterite print before 1931; the 1762 Schwenkfelder hymnal; the Church Law
+      of 1686, Pontoppidan, Kingo, Brorson; Kirk's Biographies.
+    - Shelf ruling on Marsden (P2-G89c): see the Source-Library Decision-Log, 2026-11-11. The Victorian
+      Church of England entry quotes two letters of 1814, before its window; this is for the census owner.

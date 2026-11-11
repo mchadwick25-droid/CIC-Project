@@ -1,0 +1,11 @@
+source_file: milner_end-of-religious-controversy-part2_1818.txt
+assignments:
+- row_id: milner_end-of-religious-controversy-part2_1818--end-of-religious-controversy-part-2-1818
+  work: 'John Milner, The End of Religious Controversy, Part II (London, 1818)'
+  author: milner
+  locus: 'the whole part; add 12 to OCR line numbers for this file''s own'
+  atlas_ids:
+  - catholic-church-long-nineteenth-century
+  role: tradition
+  confidence: provisional
+  note: 'A Catholic divine''s own defence of the Catholic Church, by the host record John Milner. The letters are undated in the volume; it was printed in 1818 and cites March 1818, so it goes on the entry for 1815-1906.'
