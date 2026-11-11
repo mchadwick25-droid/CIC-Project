@@ -200,6 +200,10 @@ export function recordingMatchesText(entry, text) {
 }
 
 /**
+ * Person rows are left out: their briefs are being rewritten to the person-brief
+ * standard and will be recorded together in their own voice (CFT Decision-Log,
+ * 2026-11-11, "Person briefs: 60 to 120 seconds, personal and theological").
+ *
  * Movements that need a narration clip generated this run, in stable
  * (declared) order - never a claim about which ones already have one,
  * only which ones this run should act on given the options passed.
@@ -208,7 +212,8 @@ export function planNarration(movements, { only, force, limit, charBudget = null
   const withText = movements.filter((m) => m.longDescription && m.longDescription.trim());
   const skippedNoText = movements.length - withText.length;
   const skippedBuiltWorld = withText.filter((m) => ownWorldStoryFn(m)).map((m) => m.id);
-  let candidates = withText.filter((m) => !skippedBuiltWorld.includes(m.id));
+  const skippedPerson = withText.filter((m) => m.kind === 'person' && !skippedBuiltWorld.includes(m.id)).map((m) => m.id);
+  let candidates = withText.filter((m) => !skippedBuiltWorld.includes(m.id) && !skippedPerson.includes(m.id));
 
   if (only) {
     candidates = candidates.filter((m) => m.id === only);
@@ -245,7 +250,7 @@ export function planNarration(movements, { only, force, limit, charBudget = null
     toGenerate = withinBudget;
   }
 
-  return { toGenerate, alreadyNarrated, stale, skippedNoText, skippedBuiltWorld, skippedBudget };
+  return { toGenerate, alreadyNarrated, stale, skippedNoText, skippedBuiltWorld, skippedPerson, skippedBudget };
 }
 
 /**
@@ -300,13 +305,14 @@ async function run() {
   const opts = parseArgs(process.argv.slice(2));
   const census = JSON.parse(fs.readFileSync(censusPath, 'utf-8'));
   const manifest = readManifest();
-  const { toGenerate, alreadyNarrated, stale, skippedNoText, skippedBuiltWorld, skippedBudget } = planNarration(census.movements, { ...opts, manifest });
+  const { toGenerate, alreadyNarrated, stale, skippedNoText, skippedBuiltWorld, skippedPerson, skippedBudget } = planNarration(census.movements, { ...opts, manifest });
   const totalChars = toGenerate.reduce((sum, m) => sum + narrationTextFor(m).length, 0);
 
   console.log(`=== Tree narration ${opts.dryRun ? '(dry run)' : ''} ===`);
   console.log(`${census.movements.length} movements total`);
   console.log(`${skippedNoText} skipped - no longDescription to narrate`);
   console.log(`${skippedBuiltWorld.length} skipped - built world with its own orientation.story, recorded in its Representative's voice`);
+  console.log(`${skippedPerson.length} skipped - person, held for the person-brief standard and its own voice`);
   console.log(`${alreadyNarrated.length} already narrated and current (use --force to regenerate)`);
   console.log(`${stale.length} stale - recorded from text that has since changed, re-voiced this run`);
   console.log(`${toGenerate.length} to generate this run${opts.limit !== null ? ` (--limit ${opts.limit})` : ''}, ${totalChars} characters total`);

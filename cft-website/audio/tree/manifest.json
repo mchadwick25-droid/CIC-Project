@@ -2140,14 +2140,5 @@
   "voiceId": "onwK4e9ZLuTAKqWW03F9",
   "model": "eleven_multilingual_v2",
   "outputFormat": "mp3_44100_64"
- },
- "origen": {
-  "file": "origen.mp3",
-  "bytes": 359487,
-  "chars": 586,
-  "text_sha256": "98370d0621026bc77a3f20a7baedb68107f72a494020523157ec042acaa6c9aa",
-  "voiceId": "onwK4e9ZLuTAKqWW03F9",
-  "model": "eleven_multilingual_v2",
-  "outputFormat": "mp3_44100_64"
  }
 }

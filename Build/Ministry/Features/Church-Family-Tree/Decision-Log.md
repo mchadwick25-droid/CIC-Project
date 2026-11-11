@@ -1302,29 +1302,45 @@ change order (G89-6 a). Each item was tested against its vendored source first. 
 **For Mark, through the coordinator:** two Section A questions, the Tolstoyans and the Dukhobors
 (Open-Gaps, "Two Section A questions for Mark", 2026-11-10).
 
-## 2026-11-11 — Person briefs: a flexible 60–90 seconds (Mark, 2026-11-11)
+## 2026-11-11 — Person briefs: 60 to 120 seconds, personal and theological (Mark, 2026-11-11)
 
-**Decided (Mark, relayed by the coordinator: "go with option 1, flexible 60–90 seconds").** A
-person's brief runs 60 to 90 seconds when read aloud, about 150 to 220 words. What the sources
-carry sets the length, and a brief is never padded to reach it.
+**Decided (Mark, relayed by the coordinator).** Mark first chose "go with option 1, flexible 60–90
+seconds". The same day he revised it: "i want the brief to be both perosonal (their story) and
+theological (major stanses, "they fought for, they developed, they defended ....)it ok if they run
+long, we can also redo them if they don't meet the standard. lets say 60 - 120 minutes depending
+on their size of scope and influence". He meant seconds.
 
-Options shown: (1) a flexible 60–90 seconds, 150–220 words, set by what the sources carry
-(chosen); (2) a fixed one minute; (3) 90 seconds to 2 minutes for every person.
+The standard is:
+- A brief runs 60 to 120 seconds when read aloud, about 150 to 300 words. The person's scope and
+  influence set the length.
+- Every brief is both personal (their story) and theological (what they fought for, developed
+  and defended).
+- An existing brief that misses the standard is rewritten.
+
+Options shown before the revision: (1) a flexible 60–90 seconds, 150–220 words, set by what the
+sources carry, never padded (chosen, then revised as above); (2) a fixed one minute; (3) 90 seconds
+to 2 minutes for every person.
 
 **The brief's shape.**
 1. Who they were, in one line, with time and place.
-2. What they did or wrote that mattered.
-3. Why it mattered, both to their own tradition and to its opponents.
+2. Their story, and what they did or wrote that mattered.
+3. The positions they fought for, developed or defended, and why these mattered to their own
+   tradition and to its opponents.
 4. One line in their own words, where the Library holds them.
 
 Facts the person's card already shows (dates, place, role, works) are not repeated.
 
-**Where it applies.** Next week's briefs for the 340 named people. The 39 person briefs in the
-census on 2026-11-11 run 58 to 246 words (median 178): 23 fall within 150–220 words, 10 are
-shorter and 6 are longer. No ruling has been made on whether the 16 outside the range are
-rewritten.
-- Shorter: Ephrem the Syrian 58, Origen 99, Hugo Grotius 104, Athanasius of Alexandria 107, John
-  Chrysostom 112, Bede of Jarrow 114, Gregory of Nyssa 117, Gregory of Nazianzus 121, Constantine
-  the Great 123, Methodius of Olympus 141.
-- Longer: Augustine of Hippo 221, Ambrose of Milan 227, Jovinian 230, Thomas à Kempis 224,
-  Bonaventure 239, Heraclius 246.
+**Where it applies.** All 39 existing person briefs and next week's briefs for the 340 named
+people. The 39 person briefs in the census on 2026-11-11 run 58 to 246 words (median 178). None
+is over 300 words. 10 are under 150:
+- Ephrem the Syrian 58, Origen 99, Hugo Grotius 104, Athanasius of Alexandria 107, John Chrysostom
+  112, Bede of Jarrow 114, Gregory of Nyssa 117, Gregory of Nazianzus 121, Constantine the Great
+  123, Methodius of Olympus 141.
+
+All 39 are checked against the whole standard, not only its length, and rewritten where they fall
+short.
+
+**Recording.** No person brief is recorded in the 2026-11-11 batch (the coordinator's decision).
+The 39 are recorded together in the chosen people voice once they meet the standard. The tree
+narration planner leaves out every person row until then. Mark is choosing that voice from three
+candidates (George, Bill, Brian), each heard reading the Athanasius brief.

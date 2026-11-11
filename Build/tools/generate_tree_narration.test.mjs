@@ -87,6 +87,15 @@ test('planNarration: a built world with its own orientation.story is left out, a
   assert.deepEqual(toGenerate.map((m) => m.id), ['unbuilt']);
 });
 
+test('planNarration: person rows are left out, even with --force or --only', () => {
+  const movements = [movement('a-person', { kind: 'person' }), movement('a-church'), movement('a-movement', { kind: 'cross-church movement' })];
+  const plain = planNarration(movements, { only: null, force: true, limit: null, ownWorldStoryFn: () => false });
+  assert.deepEqual(plain.skippedPerson, ['a-person']);
+  assert.deepEqual(plain.toGenerate.map((m) => m.id), ['a-church', 'a-movement']);
+  const only = planNarration(movements, { only: 'a-person', force: true, limit: null, ownWorldStoryFn: () => false });
+  assert.deepEqual(only.toGenerate, []);
+});
+
 test('hasOwnWorldStory: true only for a data file with a non-empty orientation.story', () => {
   const m = movement('x');
   assert.equal(hasOwnWorldStory(m, { existsFn: () => false }), false);
