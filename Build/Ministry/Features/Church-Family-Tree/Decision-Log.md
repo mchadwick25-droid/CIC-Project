@@ -2012,3 +2012,86 @@ participants. The full table and the checks:
 
 **What this does not change.** No census, record or site change is made by this scan. Councils stay
 out of the census until the change order named in the era 2 entry.
+
+## 2026-11-11 — Map Who: how many names, which names, and where they sit (Mark, 2026-11-11)
+
+**Decided (Mark, relayed by the coordinator; his words as given).** A design ruling on the map's
+Who view, which changes the caps in "The people layer: Who beside every tradition and river (P2-P)"
+(2026-11-11).
+- **Names shown.** "i think 1 - 4 names on the voice click per tradition, 1 to 5 names on a river
+  per era. then click for more for each (more click)", and "pick by major name, order by date".
+  The map's Who shows up to 4 names per tradition and up to 5 per river per era. They are chosen
+  from that place's major Whos and shown in date order. A "more" click shows everyone, in date
+  order.
+- **A major mark.** Each Who carries a "major" mark, proposed at writing time and confirmed by Mark
+  in each batch. The era scans propose it in a "Major?" column.
+- **Where "more" sits and where names sit.** "the more should appear under the names for a
+  tradition and next to the who button on the river, the names show up around the dates they were a
+  part on the river". For a tradition, "more" sits under its names. For a river, "more" sits next
+  to the river's Who button. On a river each name sits at the point matching the dates the person
+  was active.
+- **Which side of the river.** "to the right of the river". River names sit to the right of the
+  river, at their dates.
+- **Fading.** "and everything else fades so it is clear if it runs over". While a Who is open,
+  everything else on the map fades back, so the names stay readable where they run over other
+  rivers or labels.
+
+**What this changes.** The build caps of 6 names for a tradition and 4 for a river in an era become
+4 and 5. The live build moves a stack to the river's left when the right side is tight; the build
+slice resolves that against this ruling, with the fade as the likely answer, and brings Mark any
+case where the right side has no room. This is map and data work for a later build slice (Open-Gaps
+217). No map or data change is made here.
+
+## 2026-11-11 — Recordings held back by the name-clarity pass stay as they are for about two months (Mark, 2026-11-11)
+
+**Decided (Mark, relayed by the coordinator; his words as given).** "ok put these on hold for a
+couple of months until we have more credits, this is not a major concern".
+- Every recorded text held back by the name-clarity pass (PR #1597, release 38) stays as it is,
+  text and audio, for about two months. The list is
+  `Build/Ministry/Operations/Audits/Name_Clarity_Pass_Held_Back_2026-11-11.md`. It covers the 8
+  Jon person briefs and the 69 tradition and story recordings.
+- The text of those fields is not edited until then.
+- They are re-recorded together in one approved, capped run when credits allow (Open-Gaps 218).
+
+## 2026-11-11 — The era 4 Who scan: Wanted, Story, Listed for now (Mark, 2026-11-11)
+
+**Decided (Mark, 2026-11-11, relayed by the coordinator; his words as given).** The read-only scan
+of era 4 (622–1054 CE) used the standard of eras 1 to 3, with Mark's pairing ruling ("if two people
+are tied together in their sources with similar identity its ok to make that a single who") and
+the "Major?" proposal column. Mark ruled on the cases it raised:
+- **John of Damascus:** "Wanted". The Library holds his Exposition but no life; the Life by John of
+  Jerusalem is wanted. The row moves from WHO to WANTED.
+- **Charlemagne:** "Story". His held texts are capitularies and official letters.
+- **Vladimir and Olga of Kyiv:** "Listed for now". Both rest on Mouravieff's retelling and the Kyiv
+  Synopsis; rescore both when the Primary Chronicle is held (Open-Gaps 216).
+- **Heraclius (live person entry):** "Story, keep live". He is recorded STORY; his live profile
+  stays until stories are built, then moves over (Open-Gaps 216).
+
+**Coordinator's calls under settled rules (not Mark's words; Mark may overrule).**
+- Pairs: seven paired rows (Cyril and Methodius, Antony and Theodosius of the Caves, Boris and
+  Gleb, Flora and Maria, Benedict Biscop and Ceolfrid, John the Iberian and John Tornike, Mar Sapir
+  Iso and Mar Proth); Karbeas and Chrysocheir, Muirchu and Tirechan, Eulogius and Alvarus, Berno and
+  Odo, Grigol Khandzteli and Giorgi Merchule stay two rows each.
+- The Coptic patriarchs found in the History of the Patriarchs (Agatho, John III, Simon I,
+  Alexander II, Michael I, Isaac, Yusab) are all WHO, Major "no".
+- Dhuoda is WHO under the women's rule (she taught). Alopen is WHO, with the thin life flagged.
+- One supplement scan after all eras covers shapers the Library holds that no census text names.
+- Adam of Bremen and Nestor the chronicler go to the era 5 scan.
+
+**Era 3 addendum.** Mark's pairing ruling arrived after the era 3 scan merged. Barsanuphius and John
+of Gaza are now one paired WHO row, and Mennas (Benjamin I's brother), al-Tabari and Ibn Ishaq moved
+to era 4 by date. Era 3 is now 100 people: WHO 64, STORY 18, LISTED 12, WANTED 6; judgment-call
+rows 64 (Open-Gaps 215).
+
+**Outcome of the era 4 sweep.** 157 rows (a paired row counts once): WHO 46, STORY 9, LISTED 59,
+WANTED 43. Judgment-call rows: 86. Bede is WHO; Heraclius is STORY. Two rows (Adam of Bremen,
+Nestor) are carried to era 5. Thirty-five councils are listed with their participants. An Opus
+check read the cited passages for 105 WHO, STORY and WANTED rows (75 confirmed, 30 corrected, none
+not supported; one row, Braulio, carried another bishop's life from two OCR columns run together),
+21 LISTED rows (15 right), and the 35 councils (7 corrected). A targeted recheck read the rows
+changed by Mark's answers. The full table and the checks:
+`Build/Ministry/Operations/Audits/2026-11-11_who-scan-era4/`.
+
+**What this does not change.** No census, record or site change is made by this scan. Councils stay
+out of the census until the change order named in the era 2 entry. Approved to proceed (Mark,
+2026-11-11).

@@ -2112,12 +2112,13 @@ it, never by deleting it.
     - Ibn Ishaq: *Sirat Rasul Allah* as edited by Ibn Hisham (Wüstenfeld 1858–60). Era 4 by date.
     - Source: `Build/Ministry/Operations/Audits/2026-11-11_who-scan-era3/`.
 215. **Open points from the era 3 scan (2026-11-11).** Owners as noted.
-    - Thirteen rows carried to era 4 and scored there: Muirchu, Adomnán, Jonas of Bobbio, Aidan,
-      Colmán, Cogitosus, Braulio, Ildefonsus, John of Nikiu, Maximus the Confessor, Sophronius,
-      Antony of Choziba, al-Baladhuri. Mennas (Benjamin I's brother, fully era 4 by date), al-Tabari
-      and Ibn Ishaq are also era 4 by date and still sit in the era 3 record; the coordinator
-      places them at the era 4 scan. Brigid of Kildare's WHO row rests on Cogitosus, so it is
-      rechecked when he is scored. Owner: the coordinator.
+    - Thirteen rows carried to era 4 were scored in the era 4 scan (2026-11-11): Muirchu, Adomnán,
+      Jonas of Bobbio, Aidan, Colmán, Cogitosus, Braulio, Ildefonsus, John of Nikiu, Maximus the
+      Confessor, Sophronius, Antony of Choziba, al-Baladhuri. Mennas (Benjamin I's brother),
+      al-Tabari and Ibn Ishaq moved there too, which brings era 3 to 100 people (WHO 64, STORY 18,
+      LISTED 12, WANTED 6). Barsanuphius and John of Gaza are one paired WHO row (Mark's pairing
+      ruling). Brigid of Kildare's WHO row rests on Cogitosus, who is WHO in era 4 (a recorder with a
+      thin own life), so her route stands. Owner: the coordinator.
     - Marcellinus Comes is WHO as a recorder with a thin own-life; the profile marks that. Owner:
       the coordinator.
     - Source gaps: the full acts of Constantinople 553 (Mansi 9; only English extracts are held in
@@ -2137,3 +2138,59 @@ it, never by deleting it.
     - LISTED rows that could be argued as STORY: Proterius, Sahak of Rshtunik, Elias of Jerusalem.
       Owner: the coordinator.
     - Source: `Build/Ministry/Operations/Audits/2026-11-11_who-scan-era3/`.
+
+216. **Open points from the era 4 scan (2026-11-11).** Owners as noted. Source:
+    `Build/Ministry/Operations/Audits/2026-11-11_who-scan-era4/`.
+    - Vladimir the Great and Olga of Kyiv are LISTED "for now" (Mark: "Listed for now"). They rest on
+      Mouravieff's 1838 retelling and the 1762 Kyiv Synopsis. Rescore both together when the
+      Primary Chronicle (Cross and Sherbowitz-Wetzor 1953) is held. Owner: the Library thread, then
+      the coordinator.
+    - Heraclius (live person entry) is recorded STORY (Mark: "Story, keep live"). His live profile
+      stays until stories are built, then moves over. Owner: the coordinator.
+    - John of Damascus is WANTED (Mark: "Wanted"). The Life by John of Jerusalem is wanted (Greek,
+      Migne PG 94; the citation is the checker's recollection and needs confirming). Owner: the
+      Library thread.
+    - 43 WANTED rows, most of them unheld in the Library: the Lives of Cyril and Methodius, the
+      Primary Chronicle and the Kyiv Paterik, Ilarion's Sermon, Theodore the Studite, Stephen the
+      Younger, Nikephoros (Ignatius's Life), Keroularios (Psellos's oration), Eulogius and Alvarus
+      (the Cordoban martyrs), Ardo's Life of Benedict of Aniane, the Cluny abbots' Lives, the
+      Old English reformers (Alfred, Dunstan, Æthelwold, Oswald, Ælfric, Wulfstan), Anskar and
+      Rimbert, the Lives of Grigol Khandzteli and John the Iberian, al-Tabari, Ibn Ishaq and Ibn
+      Hayyan. Owner: the Library thread.
+    - Library material the scan found: the Serpos Armenian history (1786, t1 to t3) and the Kyiv
+      Synopsis (1762) are held, as late retellings. Misleading names: the "toledo-iii" file holds the
+      whole Hispana; the "capitulatio-de-partibus-saxoniae" file holds MGH Capitularia I; the
+      chronicle-of-seert po5 file opens with Evetts's History of the Patriarchs; the po11 and po1
+      synaxaire files hold the Coptic Lives of Isaac and Yusab. Two OCR columns run together in
+      Ildefonsus's De viris illustribus (l.17040-17101). Owner: the Library thread.
+    - The coordinator's calls (Mark may overrule): pairs split as drafted; all seven Coptic
+      patriarchs WHO with Major "no"; Dhuoda WHO; Alopen WHO with the thin life flagged. Owner: the
+      coordinator.
+    - One supplement scan after all eras for shapers the Library holds but no census text names:
+      Wilfrid, Cuthbert of Lindisfarne, Cedd, Chad, Fursey, Elipandus of Toledo, Felix of Urgell and
+      the Lismore saints (Senán, Findian, Brendan, Ciarán, Findchua; sixth century, never scored in
+      era 3). Owner: the coordinator.
+    - Adam of Bremen and Nestor the chronicler go to the era 5 scan; Hugh of Cluny (abbot 1049 to
+      1109) is LISTED here and falls across the era boundary. Owner: the coordinator.
+    - The "Major?" column is a proposal for each WHO; Mark confirms it in each batch.
+
+217. **Map Who build slice: caps, major mark, placement (2026-11-11).** Owner: the map build slice.
+    Mark's ruling is in `Decision-Log.md`, "Map Who: how many names, which names, and where they sit"
+    (2026-11-11).
+    - Change the caps from 6 names for a tradition and 4 for a river in an era to 4 and 5.
+    - Add a "major" mark to each Who in the data, proposed at writing time and confirmed by Mark in
+      each batch. Pick by major, order by date; a "more" click shows everyone, in date order.
+    - "More" sits under a tradition's names and next to the river's Who button. Each river name
+      sits at the dates the person was active, to the right of the river.
+    - Everything else on the map fades while a Who is open.
+    - The live build moves a stack to the river's left when the right side is tight. Resolve that
+      against Mark's "to the right of the river", with the fade as the likely answer, and bring Mark
+      any case where the right side has no room.
+
+218. **Name-clarity recordings held for about two months (2026-11-11).** Mark: "ok put these on hold
+    for a couple of months until we have more credits, this is not a major concern". Every recorded
+    text held back by the name-clarity pass (PR #1597, release 38; list in
+    `Build/Ministry/Operations/Audits/Name_Clarity_Pass_Held_Back_2026-11-11.md`) stays as it is,
+    text and audio: the 8 Jon person briefs and the 69 tradition and story recordings. The text of
+    those fields is not edited until then. Re-record them together in one approved, capped run when
+    credits allow. Owner: the coordinator.
