@@ -1698,3 +1698,49 @@ He also accepted the five build calls listed on the review page
 side has room; a tradition that names no one has no profile pill; pills show at reading zoom only;
 links that end at a person are drawn from the person's home tradition; people told within no
 tradition appear in their river's Who.
+
+---
+
+## 2026-11-11 — Who a Who is: the record stands on its own (Mark, 2026-11-11)
+
+**Decided (Mark, 2026-11-11, relayed by the coordinator; his words in the order he gave them).**
+- "the record has to stand on their own, if not it can become a story, but not a who"
+- "a who is someone who has a source of material they developed or was developed with them,
+  origin, augustine, luther etc. a story might be somone like joan of arc, who followed, but never
+  really entered into the shaping of the church"
+- On "developed with them": "a, both count". A body of work counts when the person wrote it, and
+  also when hearers or disciples recorded it, or a circle produced it jointly, where it carries the
+  person's thought and is attributed to them.
+- "lets add or a following to the body of work". A community or movement that formed around the
+  person and carried what they shaped also counts.
+- "a great starting point and we can look at exeptions or if we are leaving a catagory out"
+
+So a Who is a person with a body of work: their own, recorded by their hearers or disciples,
+produced with their circle, or carried by a following that formed around them. Someone who took
+part in the church's story but did not shape it, as Joan of Arc did not, can be told as a story.
+They are not a Who.
+
+**What this replaces and reverses.**
+- **Replaced:** the counting routes for a person mark in "People on the map (change order to
+  rulings 14 and 15)" (2026-11-09). These were ruling 14's test, 10 or more works of one's own on a
+  tradition's shelf, and repeated mentions in later traditions' own-voice texts. The standard above
+  is now the test for a Who.
+- **Reversed:** answer C of "The people list ruled" (2026-11-10), as it applies to hearers'
+  records. Speech that hearers or disciples recorded and attributed to a person now counts.
+- **Reversed:** the hold on founders in "The later-worlds people ruled (P2-G3b)" (2026-11-10),
+  item A. A following that formed around a founder now counts toward their body of work.
+
+**The interim (Mark: "a, merge with the 39").** Until every person has been sorted against the
+standard, Who shows only the 39 person entries. This covers the map's stacks, its pills, the
+person cards and "+N more", and the tree pages' People section.
+- Named voices are not shown as people, but they stay in the census, because the sweep needs
+  them.
+- A tradition whose people include no person entry shows no Who pill, no Who button and no Who
+  section. A tradition that names no one still shows its `peopleNote`, which stays true.
+- The census notes say what Who shows.
+- One switch lifts the display rule: `WHO_ENTRIES_ONLY`, in `cft-website/index.html` and
+  `Build/tools/generate_tree_pages.mjs`.
+
+**Next.** A read-only sweep, after Friday 2026-11-13, sorts every person into Who, story or
+wanted. Mark sees the result (Open-Gaps, "The Who sweep", 2026-11-11). Until then, the named-voice
+items in "What the people layer leaves open" (2026-11-11) wait on the sweep.

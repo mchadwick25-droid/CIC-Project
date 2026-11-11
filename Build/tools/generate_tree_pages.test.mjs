@@ -202,6 +202,18 @@ test('a movement that names no one says why, in its own People section', () => {
   assert.doesNotMatch(generate(c)(`tree/${m.id}.html`), /<h2>People<\/h2>/);
 });
 
+test('Who shows person entries only: named voices are not listed as people', () => {
+  const c = structuredClone(census);
+  const m = c.movements.find(x => x.kind !== 'person' && !x.people.some(p => p.person));
+  m.people = [{ name: 'Named Voice', year: 100, voice: 0, source: { work: 'w', file: 'f', lines: '1', quote: 'q' } }];
+  const page = generate(c)(`tree/${m.id}.html`);
+  assert.doesNotMatch(page, /<h2>People<\/h2>/);
+  assert.doesNotMatch(page, /Named Voice/);
+  const map = fs.readFileSync(path.join(root, 'cft-website/index.html'), 'utf8');
+  assert.match(map, /const WHO_ENTRIES_ONLY=true;/);
+  assert.match(map, /if\(WHO_ENTRIES_ONLY&&!row\.person\)return;/);
+});
+
 test('every page states its review status in plain words', () => {
   const c = structuredClone(census);
   const [a, b] = c.movements;

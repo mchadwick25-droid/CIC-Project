@@ -89251,6 +89251,7 @@ personEntries.forEach(p=>[p.name,p.shortName,p.informalName].forEach(n=>{if(n)(e
 function entryForVoice(row){
   return (entryNames[normName(row.name)]||[]).find(p=>row.year>=+p.start-30&&row.year<=+p.end+30)||null;
 }
+const WHO_ENTRIES_ONLY=true;
 const whoPeople={}, peopleOf={};
 churchBodies.forEach(m=>{
   const list=[];
@@ -89260,6 +89261,7 @@ churchBodies.forEach(m=>{
     const key=entry?entry.id:'v:'+normName(row.name);
     const P=whoPeople[key]||(whoPeople[key]={key,entry,name:entry?(entry.shortName||entry.name):row.name,rows:[]});
     P.rows.push({home:m,row});
+    if(WHO_ENTRIES_ONLY&&!row.person)return;
     if(!list.includes(P))list.push(P);
   });
   peopleOf[m.id]=list;
@@ -89590,12 +89592,12 @@ function traditionEnd(id){
 
 function whoButtonHTML(m){
   const n=(peopleOf[m.id]||[]).length;
-  if(!n)return `<button type="button" class="who-btn" disabled><span>${esc(whoCountText(m))}</span></button>`;
+  if(!n)return '';
   return `<button type="button" class="who-btn" data-who="${esc(whoScopeKey({type:'trad',m}))}" aria-pressed="false"><span>${esc(whoCountText(m))}</span><span class="who-state">Show on the map</span></button>`;
 }
 function peopleHTML(m){
   const list=peopleOf[m.id]||[];
-  if(!list.length)return m.peopleNote?`<h3 id="people-section">Who</h3><p class="people-note">${esc(m.peopleNote)}</p>`:'';
+  if(!list.length)return !(m.people||[]).length&&m.peopleNote?`<h3 id="people-section">Who</h3><p class="people-note">${esc(m.peopleNote)}</p>`:'';
   return `<h3 id="people-section">Who</h3><ul class="people-list">${list.map(P=>
     `<li><button type="button" class="panel-link" data-person="${esc(P.key)}">${esc(P.entry?P.entry.name:P.name)}</button> · ${esc(personDates(P))}</li>`).join('')}</ul>`;
 }

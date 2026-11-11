@@ -1988,3 +1988,16 @@ it, never by deleting it.
     `priscillianist-asceticism` (year 403). The census's links and sources spell him "Sulpicius".
     The Who stacks join people by name, so he shows as two people, with two cards. Owner: the
     census owner (one spelling, and whether the years should agree).
+203. **The Who sweep (2026-11-11).** Mark set the test for a Who (Decision-Log, "Who a Who is: the
+    record stands on its own", 2026-11-11). Until every person is sorted against it, Who shows
+    only the 39 person entries.
+    - The work: a read-only sweep after Friday 2026-11-13. It sorts every person in the census
+      into Who, story or wanted. That covers the 39 person entries and the named voices in every
+      tradition's `people` list. Each call rests on the body of work the Library holds: their own,
+      recorded by hearers or disciples, produced with their circle, or carried by a following. Mark
+      sees the result, with any exceptions or missing categories.
+    - Waiting on it: the named-voice items in "What the people layer leaves open" (2026-11-11) and
+      "One man spelled two ways in the people rows" (2026-11-11).
+    - Lifting the display rule (`WHO_ENTRIES_ONLY` on the map and the tree pages) follows Mark's
+      call on the result.
+    - Owner: the coordinator.
