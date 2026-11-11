@@ -1533,3 +1533,16 @@ said to make no paid calls, and its revision then arrived too late.
 **Fix.** One line of command. A worker takes paid instructions only from the current coordinator.
 When coordination moves to a new session, the old one stops relaying paid approvals and passes them
 through the new one.
+
+## 2026-11-11 — Cap ruling: one recheck of the six restored person briefs
+
+**Cap ruling (2026-11-11, Mark: "a, run the Opus recheck on the six").** Six early-church
+person briefs had material cut only to fit the old 300-word ceiling. That material was restored
+after Mark ruled that length follows scope ("we are fine going over a little, infact i want to make
+sure we are not cutting off to get a perfect number"). The six are Origen, Athanasius of
+Alexandria, John Chrysostom, Gregory of Nyssa, Gregory of Nazianzus and Constantine the Great. Each
+had already used its three review rounds in the person-brief pilot. Mark ordered one targeted Opus
+recheck of the restored text, which does not count toward the cap:
+`Build/Ministry/Operations/Audits/2026-11-11_person-brief-pilot/reviews/R4_cap-ruling_recheck.md`.
+The restored drafts are in that pilot's `recheck-2026-11-11/` folder. Ephrem and Methodius lost
+nothing substantive and keep their round-3 text.
