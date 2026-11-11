@@ -180,6 +180,65 @@ function shelfAuthor(movementId, rowId) {
   }
   return shelfCache.get(movementId).get(rowId);
 }
+// A person card: one-line summary, role, up to three key works, legacy, open questions and the sources behind it.
+const CARD_KEYS = ["knownFor", "role", "keyWorks", "legacy", "uncertain", "sources"];
+const plain = x => typeof x === "string" && x.trim() !== "";
+const isObj = x => x !== null && typeof x === "object" && !Array.isArray(x);
+function checkCard(m) {
+  const at = p => `${m.id}: card.${p}`;
+  const card = m.card;
+  if (!isPerson(m)) { errs.push(`${m.id}: card is only for a person entry`); return; }
+  if (!isObj(card)) { errs.push(`${m.id}: card must be an object`); return; }
+  Object.keys(card).filter(k => !CARD_KEYS.includes(k)).forEach(k => errs.push(`${at(k)} is not allowed (allowed: ${CARD_KEYS.join(", ")})`));
+  const text = (obj, key, path) => { if (obj[key] !== undefined && !plain(obj[key])) errs.push(`${at(path)} must be a non-empty string`); };
+  const strings = (list, path) => {
+    if (!Array.isArray(list)) errs.push(`${at(path)} must be a list of non-empty strings`);
+    else list.forEach((x, i) => { if (!plain(x)) errs.push(`${at(`${path}[${i}]`)} must be a non-empty string`); });
+  };
+  const only = (obj, allowed, path) => Object.keys(obj).filter(k => !allowed.includes(k)).forEach(k => errs.push(`${at(`${path}.${k}`)} is not allowed (allowed: ${allowed.join(", ")})`));
+  text(card, "knownFor", "knownFor");
+  text(card, "role", "role");
+  if (card.keyWorks !== undefined) {
+    if (!Array.isArray(card.keyWorks)) errs.push(`${at("keyWorks")} must be a list`);
+    else {
+      if (card.keyWorks.length > 3) errs.push(`${at("keyWorks")} holds at most 3 works, has ${card.keyWorks.length}`);
+      card.keyWorks.forEach((w, i) => {
+        if (!isObj(w)) { errs.push(`${at(`keyWorks[${i}]`)} must be an object with title and about`); return; }
+        only(w, ["title", "about"], `keyWorks[${i}]`);
+        ["title", "about"].forEach(k => { if (!plain(w[k])) errs.push(`${at(`keyWorks[${i}].${k}`)} must be a non-empty string`); });
+      });
+    }
+  }
+  if (card.legacy !== undefined) {
+    if (!isObj(card.legacy)) errs.push(`${at("legacy")} must be an object with traces and remembered`);
+    else {
+      only(card.legacy, ["traces", "remembered"], "legacy");
+      ["traces", "remembered"].forEach(k => { if (card.legacy[k] !== undefined) strings(card.legacy[k], `legacy.${k}`); });
+    }
+  }
+  if (card.uncertain !== undefined) strings(card.uncertain, "uncertain");
+  if (card.sources !== undefined) {
+    if (!isObj(card.sources)) { errs.push(`${at("sources")} must be an object with ownWords and about`); return; }
+    only(card.sources, ["ownWords", "about"], "sources");
+    const listing = (key, required, extra) => {
+      const items = card.sources[key];
+      if (items === undefined) return;
+      if (!Array.isArray(items)) { errs.push(`${at(`sources.${key}`)} must be a list`); return; }
+      items.forEach((s, i) => {
+        const path = `sources.${key}[${i}]`;
+        if (!isObj(s)) { errs.push(`${at(path)} must be an object`); return; }
+        only(s, [...required, ...extra], path);
+        required.filter(k => k !== "author").forEach(k => { if (!plain(s[k])) errs.push(`${at(`${path}.${k}`)} must be a non-empty string`); });
+        if (key === "about" && s.author !== null && !plain(s.author)) errs.push(`${at(`${path}.author`)} must be a non-empty string, or null for a work with no named author`);
+        if (plain(s.file) && !(s.file.startsWith("cic/texts/") && existsSync(s.file))) errs.push(`${at(`${path}.file`)} ${s.file} must be an existing file under cic/texts/`);
+        if (s.disputed !== undefined && !plain(s.disputed)) errs.push(`${at(`${path}.disputed`)} must be a non-empty string`);
+        if (key === "about" && s.date !== null && !plain(s.date)) errs.push(`${at(`${path}.date`)} must be a string or null`);
+      });
+    };
+    listing("ownWords", ["title", "file", "language"], ["disputed"]);
+    listing("about", ["title", "author", "language", "file"], ["date"]);
+  }
+}
 (d.movements ?? []).forEach(m => {
   if (isPerson(m)) {
     if (!("toldWithin" in m)) errs.push(`${m.id}: a person entry needs toldWithin (a movement ID, or null)`);
@@ -197,6 +256,7 @@ function shelfAuthor(movementId, rowId) {
     else if (m.people.length && m.peopleNote !== undefined) errs.push(`${m.id}: peopleNote is only for a movement that names no one`);
   }
   if (isPerson(m) && m.peopleNote !== undefined) errs.push(`${m.id}: a person entry has no peopleNote`);
+  if (m.card !== undefined) checkCard(m);
   if (!REVIEW.has(m.reviewStatus)) errs.push(`${m.id}: reviewStatus must be "AI-checked", "partner-contributed" or "scholar-reviewed"`);
   if (m.livingEvidence?.descentConfidence !== undefined) {
     if (!CONFIDENCE.has(m.livingEvidence.descentConfidence)) errs.push(`${m.id}: livingEvidence.descentConfidence must be one of the five formation_confidence levels`);

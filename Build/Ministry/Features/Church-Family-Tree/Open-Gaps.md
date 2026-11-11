@@ -1960,3 +1960,31 @@ it, never by deleting it.
     - **Orphan manifest keys.** One tree key (`deconstruction-and-ex-vangelical-communities`) and
       12 story keys belong to retired or built rows. They cost nothing and play nowhere.
     Owner: the recording thread.
+201. **What the people layer leaves open (2026-11-11).** P2-P builds Mark's Who design (Decision-Log,
+    "The people layer: Who beside every tradition and river (P2-P)", 2026-11-11). Still open:
+    - **Card data for everyone else.** Only the 10 pilot people carry a `card`. The other 29 person
+      entries, and the named voices, show what exists until their cards are written to the pilot's
+      standard. Owner: the person-brief rewrites.
+    - **A named voice's own Library works.** A voice whose words sit on a Library shelf (`held`)
+      shows no works on its card. The map holds the row's ID but not the work's title. Voices quoted
+      from a source show that source's work. Owner: P2-P follow-up; a choice between mirroring the
+      title into the map's data and loading the shelf at run time.
+    - **The Basil link.** `desert-monasticism--iconophile-byzantine-monasticism` concerns Basil of
+      Caesarea, who is told within neither end. The map draws it between the two traditions, and
+      Basil's card lists it under "Links on the map". Owner: the census owner, whether `concerns`
+      should stay on that link.
+    - **Voices joined to entries by name.** Rows that name a person entry as a plain voice (for
+      example Athanasius in the rows of the Aksumite church and the Coptic church) are joined to the
+      entry on the map by name and date. They are not joined in the census. Owner: the census owner,
+      whether those rows should point to the entry.
+    - **Voices of built worlds.** The map leaves a built world's `voices` lines out, so a person
+      named only by a built world (24 rows, for example the post-apostolic house church's) shows
+      "Also named by …" on their card, without that world's own line. Owner: P2-P follow-up.
+    - **A tradition that names no one** has no profile pill, and its card's Who button reads "Who ·
+      no one named". Mark sees this in the screenshots.
+202. **One man spelled two ways in the people rows (2026-11-11).** Sulpicius Severus is "Sulpitius
+    Severus" in the rows of `gallic-nicene-episcopate` (year 403) and
+    `gallic-monastic-ascetic-christianity` (year 397), and "Sulpicius Severus" in the row of
+    `priscillianist-asceticism` (year 403). The census's links and sources spell him "Sulpicius".
+    The Who stacks join people by name, so he shows as two people, with two cards. Owner: the
+    census owner (one spelling, and whether the years should agree).

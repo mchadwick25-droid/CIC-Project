@@ -103,13 +103,13 @@ applied to every shared file, not only the census.
 | P2-ML | Major links: the map switch, the `outcome` field, and the pass over eras 1–5; data release 10 | none (3-round cap) | merged (#1543) |
 | P2-M | Method page, confidence at a glance | none | merged (#1548, with P2-D) |
 | P2-D | Data and citation page | none | merged (#1548, with P2-M) |
-| P2-S | Find-your-church search | none | todo |
+| P2-S | Find-your-church search | none | deferred for its own design pass (Mark, 2026-11-11) |
 | P2-G1 | Gap sweep (read only) | Mark's ruling sitting | merged (#1549, ruling record #1561); ruled 2026-11-09 (Decision-Log, "The gap sweep ruled (P2-G1)") |
 | P2-G2 | Schema additions | none | merged (#1564; data release 24, schema 3): kind, toldWithin, people, concerns, livingEvidence.descentConfidence, reviewStatus; Tertullian a person; I.14 retired into II.1; leftovers in Open-Gaps 2026-11-09, "What P2-G2 leaves for P2-G3" |
 | P2-G3 | The agreed entries | Mark sees the people list (narration waits for one batch after P2-L10 and P2-G3, Mark 2026-11-10) | done (data release 29; people list ruled 2026-11-10; reviews approved; audit `2026-11-10_agreed-entries`) |
 | P2-G3b | The later-worlds people: the count re-run with namesakes checked and editors' notes left out; Mark picks from the clean list (Mark, answer D a) | Mark's pick | done (ruled 2026-11-10, "take every recommendation"; data release 31, 13 person entries; Pamphilus held; audit `2026-11-10_later-worlds-people`; Open-Gaps 164-167) |
-| P2-P | People layer: Traditions \| People switch, rows, gap placement, links by view; removes the map's hold on person entries (Decision-Log 2026-11-10) | none | todo |
-| P2-PL | Likenesses: rights and date check per image | none | todo |
+| P2-P | People layer: Who on every tradition card, a Who pill per river per era, a profile pill per tradition label, vertical stacks, and the person card; removes the map's hold on person entries (Decision-Log, "The people layer: Who beside every tradition and river (P2-P)", 2026-11-11) | Mark sees screenshots before merge | done (#1591, data release 36; Mark's look 2026-11-11: "those are fine, merge it") |
+| P2-PL | Likenesses: rights and date check per image | none | deferred: one profile icon for everyone until then (Mark, 2026-11-11) |
 | P2-V | "Living" definition and every living flag (192 on main, not 169) | none | done (data release 30; the definition on the method page; 264 living after; Opus review approved in round 3; audit `2026-11-10_living`) |
 | P2-K1 | Drawn marks, 2 to 4 options | Mark's pick | todo |
 | P2-K2 | Marks, floor, tap areas; phone, light and color-vision test | none | todo |
@@ -294,8 +294,8 @@ Exact steps, given in chat when P1a has merged:
   grade, and the gold "continues as" thread had none either. Both now show the grade of the
   matching "continued as" link, or "not yet graded" where there is none. The map's Major links
   note now follows the narrowed test (2026-11-08 change order).
-- **P2-S, search.** A new list of everyday names (the census's informal names are titles),
-  sourced, and the search box on the map.
+- **P2-S, search.** Deferred for its own design pass (Mark, 2026-11-11). A new list of everyday
+  names (the census's informal names are titles), sourced, and the search box on the map.
 - **P2-G1, gap sweep.** Read only, by Haiku and Sonnet, of the Library's dossiers, NEEDS-RULING
   and staging notes. Output: one list for Mark's ruling sitting. **Stop.**
 - **P2-G2, schema.** The movement-or-person kind, beside the era 10 `kind` field; a confidence
@@ -307,11 +307,13 @@ Exact steps, given in chat when P1a has merged:
   person count (10 or more own works) and the later-worlds count (a script with an alias list) run
   here, and Mark sees the people list before it ships. Narration for new pages (Open-Gaps item 10):
   sample first, Mark's approval by ear, every setting passed and printed. **Stop for the sample.**
-- **P2-P, people layer.** One switch, Traditions | People, on the same map, opening on
-  Traditions. Each tradition's people in a horizontal row at its place, ordered by date, up to
-  three on the map; people told within no tradition in the gaps; a link drawn from the tradition or
-  the person by view, from one record.
-- **P2-PL, likenesses.** A real likeness only where one was made in the person's lifetime or near
+- **P2-P, people layer.** The traditions map stays primary; there is no People switch (Mark,
+  2026-11-11). A Who button on every tradition card, a Who pill on each river in each era, and a
+  profile pill beside each tradition label show that scope's people on the map at once, in
+  vertical stacks that never cross another river. Every name opens a person card: the brief, then
+  a fixed template, then Sources. Full design: Decision-Log, "The people layer: Who beside every
+  tradition and river (P2-P)", 2026-11-11.
+- **P2-PL, likenesses.** Deferred (Mark, 2026-11-11): one profile icon for everyone until then. A real likeness only where one was made in the person's lifetime or near
   it, public domain, credited and date-checked; later depictions on the person's page, captioned.
   No paid image generation. The silhouette set (period and tradition family, male and female) is
   drawn with P2-K1.
