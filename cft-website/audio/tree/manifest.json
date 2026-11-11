@@ -1,15 +1,21 @@
 {
  "african-diaspora-and-reverse-mission-churches-in": {
   "file": "african-diaspora-and-reverse-mission-churches-in.mp3",
-  "bytes": 506192,
-  "md5": "8a59078ce095edf5224b12cf396edf96",
-  "text_sha256": "59c8db6b3aff2d4244ed95f66258aa359a43ae9b55b11c173a6378c5f6c6e93f"
+  "bytes": 501385,
+  "chars": 796,
+  "text_sha256": "651dc9e9a2308270ed5df809876b0bd2437198b929fb599875699e85a273bc28",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
  },
  "african-initiated-churches-harrist-aladura-zioni": {
   "file": "african-initiated-churches-harrist-aladura-zioni.mp3",
-  "bytes": 643701,
-  "md5": "64db5c7859c05bfd906ae6957c57b312",
-  "text_sha256": "93534a775a96cd75d1adff149861910576fbd7604890ed7d035d2748ad3b2008"
+  "bytes": 1014012,
+  "chars": 1602,
+  "text_sha256": "6203f9e29f0845a33a4ebc506de3f3de16aa8eb6bdc9cdd627f868b13bf4e169",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
  },
  "aksumite-christianity-conversion-era": {
   "file": "aksumite-christianity-conversion-era.mp3",
@@ -46,9 +52,12 @@
  },
  "american-orthodoxy-autocephaly-and-the-convert-wave": {
   "file": "american-orthodoxy-autocephaly-and-the-convert-wave.mp3",
-  "bytes": 601696,
-  "md5": "666be63e053f01e507011a530d46d48a",
-  "text_sha256": "7cf763c1a885a1a7af27a7f5d818007ee3731503d10eb23bf9712c28102ca30a"
+  "bytes": 487592,
+  "chars": 757,
+  "text_sha256": "7b65e36633adbc2074bdf5500244f4196dda45cd3345ec6a46be4ad79d685a97",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
  },
  "american-unitarianism-universalism-consolidations": {
   "file": "american-unitarianism-universalism-consolidations.mp3",
@@ -172,9 +181,12 @@
  },
  "armenian-christianity-zartonk": {
   "file": "armenian-christianity-zartonk.mp3",
-  "bytes": 560736,
-  "md5": "8b7218c79482a925cfb4c4b6e8d553a0",
-  "text_sha256": "a5e24f543ad24b9e534ad38df0f8991e9c86f94f6bfcfb14c4f871cc5048cc7d"
+  "bytes": 820078,
+  "chars": 1308,
+  "text_sha256": "7524280796f923331e20f42aa4bf3147991598d11165479e46a8300182fd2625",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
  },
  "armenian-cilicia-after-the-kingdom": {
   "file": "armenian-cilicia-after-the-kingdom.mp3",
@@ -244,9 +256,12 @@
  },
  "branch-davidians-and-apocalyptic-splinters": {
   "file": "branch-davidians-and-apocalyptic-splinters.mp3",
-  "bytes": 470248,
-  "md5": "15bc40fb9fff229eb765b8e2fbab1190",
-  "text_sha256": "57265af8674bf924b89e16e9b664484ee9e0de6ad07e7c3a0e31d1b3ba820853"
+  "bytes": 466903,
+  "chars": 763,
+  "text_sha256": "585aa1495b57d3501fd64797b7789b4010dded5c2a0149b238290b4fec5e4086",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
  },
  "british-welsh-christianity": {
   "file": "british-welsh-christianity.mp3",
@@ -349,24 +364,30 @@
  },
  "catholic-church-ancien-regime": {
   "file": "catholic-church-ancien-regime.mp3",
-  "bytes": 590620,
-  "md5": "a0c988bd1b674bc600ee25e670486f89",
-  "text_sha256": "e8e7f94def1cbb44d777da7d9591d8853fd57bad450fdcb22fe7196be1957261"
+  "bytes": 1075034,
+  "chars": 1717,
+  "text_sha256": "df7ab5e44126b250b21278ed3a43ed42e8cf9954efc724c41e558e85ac3b12a8",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
  },
  "catholic-church-long-nineteenth-century": {
   "file": "catholic-church-long-nineteenth-century.mp3",
-  "bytes": 590619,
-  "chars": 952,
-  "text_sha256": "f386dc81e136640fac79780ad3e87e55b573546883f83537ec26bfa4aee54341",
+  "bytes": 1356529,
+  "chars": 2176,
+  "text_sha256": "5d6dbcc04094d3ca8ab4b233851e40348959166bac3172b4cf122daca144811b",
   "voiceId": "onwK4e9ZLuTAKqWW03F9",
   "model": "eleven_multilingual_v2",
   "outputFormat": "mp3_44100_64"
  },
  "catholic-lay-renewal-worlds-catholic-worker-foco": {
   "file": "catholic-lay-renewal-worlds-catholic-worker-foco.mp3",
-  "bytes": 610682,
-  "md5": "1b043687efd3b9ddb3f251556310d645",
-  "text_sha256": "915c3f610130d927d070c9efbd2823716c50912824a143d084520a5adca0dfd7"
+  "bytes": 725829,
+  "chars": 1168,
+  "text_sha256": "7843f07e858696d71115358c9fa93494232b07f778fd804f8a95451a8c86112d",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
  },
  "chalcedonian-monasticism-judean-desert-and-gaza": {
   "file": "chalcedonian-monasticism-judean-desert-and-gaza.mp3",
@@ -379,9 +400,12 @@
  },
  "charismatic-renewal-and-the-jesus-movement": {
   "file": "charismatic-renewal-and-the-jesus-movement.mp3",
-  "bytes": 556765,
-  "md5": "c32b3ce060ddaed766bd14a0a7ecde23",
-  "text_sha256": "2073568a56cd8d7a6968c0b9a2063846896c0b01333e3f3240d0d1f502901ac4"
+  "bytes": 558645,
+  "chars": 886,
+  "text_sha256": "fd5cd54149416d357e4ad4857ea85547b477afb71d0d37f99b99f9db882d74ad",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
  },
  "christadelphians": {
   "file": "christadelphians.mp3",
@@ -412,9 +436,12 @@
  },
  "church-of-the-east-chaldean-consolidation": {
   "file": "church-of-the-east-chaldean-consolidation.mp3",
-  "bytes": 572021,
-  "md5": "c07ec915b302ea1e83eada876e68c3c0",
-  "text_sha256": "2d17b2c175c9a454631c46a25660069f2105d642371aa80cce470f83b60ecd64"
+  "bytes": 780372,
+  "chars": 1301,
+  "text_sha256": "bd2184e99ccccdbc8422dcba854455f7c80a041cff2affc792a0e604e2721d46",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
  },
  "church-of-the-east-schism-of-1552": {
   "file": "church-of-the-east-schism-of-1552.mp3",
@@ -448,9 +475,12 @@
  },
  "churches-of-christ-twentieth-century": {
   "file": "churches-of-christ-twentieth-century.mp3",
-  "bytes": 528553,
-  "md5": "2d81f28d8983b8d90e931a04fd6385c8",
-  "text_sha256": "87306062323fdc21a83534d477ce6055b6fe86f1a482bd0a6e8969b637ced848"
+  "bytes": 526253,
+  "chars": 927,
+  "text_sha256": "0dc848a836e160764f20855184bcfe62fccbf9a781cc460bc93823e2505f3457",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
  },
  "cistercian-monasticism": {
   "file": "cistercian-monasticism.mp3",
@@ -469,9 +499,9 @@
  },
  "colonial-latin-american-devotional-catholicism": {
   "file": "colonial-latin-american-devotional-catholicism.mp3",
-  "bytes": 619876,
-  "chars": 1027,
-  "text_sha256": "1a8b681508f60fa916e1810b9f8aceedd26bc63faf32ce936071cfede483914a",
+  "bytes": 3351239,
+  "chars": 5433,
+  "text_sha256": "485f6982f5d950ec8899f9cc612720b85780e14936002f0b861725697eefa0f6",
   "voiceId": "onwK4e9ZLuTAKqWW03F9",
   "model": "eleven_multilingual_v2",
   "outputFormat": "mp3_44100_64"
@@ -505,9 +535,12 @@
  },
  "cyrilline-miaphysite-egyptian-christianity": {
   "file": "cyrilline-miaphysite-egyptian-christianity.mp3",
-  "bytes": 523328,
-  "md5": "671bc0eb0a4eb7088ba7c7b0df536235",
-  "text_sha256": "60619dbe2b3c17942cd08f42acdee7c049a463e07c6d7a141350a06e3a24eb43"
+  "bytes": 1196033,
+  "chars": 1903,
+  "text_sha256": "5e438c920b8ecd2f5b4885c004161ed39167a45cab61786d141e1cbe1b3a813f",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
  },
  "cyrillo-methodian-slavic-christianity": {
   "file": "cyrillo-methodian-slavic-christianity.mp3",
@@ -538,9 +571,9 @@
  },
  "devotio-moderna-brethren-of-the-common-life": {
   "file": "devotio-moderna-brethren-of-the-common-life.mp3",
-  "bytes": 617995,
-  "chars": 992,
-  "text_sha256": "5753eaf38a5e84801e1bbbb29ae662ec6001c7cb9540897efa3db24a6d43ef9c",
+  "bytes": 726874,
+  "chars": 1170,
+  "text_sha256": "aa486a889406d916fb36f87708a86220085d6f2abdf39b9d684fd5438d8c3e5c",
   "voiceId": "onwK4e9ZLuTAKqWW03F9",
   "model": "eleven_multilingual_v2",
   "outputFormat": "mp3_44100_64"
@@ -553,9 +586,9 @@
  },
  "dispensational-prophecy-culture": {
   "file": "dispensational-prophecy-culture.mp3",
-  "bytes": 539628,
-  "chars": 866,
-  "text_sha256": "76a1ada61e0fe96e8bbcbcf15f40a948ec754714e038d40c9545c06806580cad",
+  "bytes": 540673,
+  "chars": 867,
+  "text_sha256": "876268fd9bab795326feb202614417944e409455fba8e3cbd94662a581d0c8aa",
   "voiceId": "onwK4e9ZLuTAKqWW03F9",
   "model": "eleven_multilingual_v2",
   "outputFormat": "mp3_44100_64"
@@ -604,9 +637,9 @@
  },
  "ecumenical-community-worlds-taize-and-iona": {
   "file": "ecumenical-community-worlds-taize-and-iona.mp3",
-  "bytes": 503265,
-  "chars": 788,
-  "text_sha256": "67014b441d99d8417c24f174ea064022ce085983d6e30e3c82eb227e7b238792",
+  "bytes": 463559,
+  "chars": 732,
+  "text_sha256": "caf3336a90460e123eb42b99bacfa3247e1e745fc67b2e5bc8c2d03fc4ada2d3",
   "voiceId": "onwK4e9ZLuTAKqWW03F9",
   "model": "eleven_multilingual_v2",
   "outputFormat": "mp3_44100_64"
@@ -637,9 +670,9 @@
  },
  "ethiopian-christianity-tewodros-to-menelik": {
   "file": "ethiopian-christianity-tewodros-to-menelik.mp3",
-  "bytes": 626981,
-  "chars": 997,
-  "text_sha256": "1cb2142a139387faa6dfd3d34094e85e3b0517a2c0b506e558e432646e054c59",
+  "bytes": 883608,
+  "chars": 1381,
+  "text_sha256": "295f43d00532be804e51a7b7a7e39502db7848fac28f75bd6d1bc35a977ef523",
   "voiceId": "onwK4e9ZLuTAKqWW03F9",
   "model": "eleven_multilingual_v2",
   "outputFormat": "mp3_44100_64"
@@ -712,18 +745,21 @@
  },
  "german-pietism-spener-francke-halle": {
   "file": "german-pietism-spener-francke-halle.mp3",
-  "bytes": 580170,
-  "chars": 956,
-  "text_sha256": "20ada82966dcf46c0767fc6b883bd8d7ebcb0981cf9b3d84e4ae9d6fa199e619",
+  "bytes": 712036,
+  "chars": 1139,
+  "text_sha256": "ae97670d882531cef447cead1537508ae5bbb24efceb21f4340d03d34c7310ba",
   "voiceId": "onwK4e9ZLuTAKqWW03F9",
   "model": "eleven_multilingual_v2",
   "outputFormat": "mp3_44100_64"
  },
  "global-south-pentecostal-christianity": {
   "file": "global-south-pentecostal-christianity.mp3",
-  "bytes": 504311,
-  "md5": "ae5072f490a11aa07fcc393e09fbd65e",
-  "text_sha256": "79398dfa96f05ce595f92b0aba54514e86fc07daa5cb4d89ba44a67ae7bed7d9"
+  "bytes": 519148,
+  "chars": 859,
+  "text_sha256": "ce622e3bf57e90ce02f669d840c3c3dd9e1484b7a6d53c624c4b9b6570351d9d",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
  },
  "gothic-and-vandal-homoian-christianity": {
   "file": "gothic-and-vandal-homoian-christianity.mp3",
@@ -748,9 +784,12 @@
  },
  "hebrew-roots-and-torah-observance-movements": {
   "file": "hebrew-roots-and-torah-observance-movements.mp3",
-  "bytes": 637431,
-  "md5": "8deef886df83b369c0fb680566176219",
-  "text_sha256": "c06fb615d6185664f6e872ebb4be26d49a394ebcfb45e17a0c3aa1ca330658d0"
+  "bytes": 725411,
+  "chars": 1124,
+  "text_sha256": "23a29d5644b8dbd26a5bc66dccdeb183acaa18731ea9b76fc1799b886dd2c405",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
  },
  "hesychasm-and-the-palamite-synthesis": {
   "file": "hesychasm-and-the-palamite-synthesis.mp3",
@@ -781,15 +820,21 @@
  },
  "iglesia-ni-cristo-the-way-international-unificat": {
   "file": "iglesia-ni-cristo-the-way-international-unificat.mp3",
-  "bytes": 615488,
-  "md5": "1d6b7b6fe706e0d300411676ef73bf3d",
-  "text_sha256": "fb40071b05de366033ba1efc02513f02821a42c8aea7c8db49ab2a1712eae1b0"
+  "bytes": 481740,
+  "chars": 707,
+  "text_sha256": "366e8b81a65a30ed27c3a87dc23a2e8f99caacdb1dd60f6e1942d8796b047ec4",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
  },
  "indonesian-christianity-the-independent-century": {
   "file": "indonesian-christianity-the-independent-century.mp3",
-  "bytes": 606084,
-  "md5": "70ff05da11eb20488ced5b82c4f9da00",
-  "text_sha256": "d1f53e28f743530cd705633cbf4937b25c67f958b064b9a7928fa7460907ed76"
+  "bytes": 597933,
+  "chars": 970,
+  "text_sha256": "24e1304e727e81722155394bff98da02ea2648b0aa0ccc2bbcbe9b9bc013c3df",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
  },
  "indonesian-christianity": {
   "file": "indonesian-christianity.mp3",
@@ -817,9 +862,12 @@
  },
  "japanese-christianity-hidden-emergence-meiji": {
   "file": "japanese-christianity-hidden-emergence-meiji.mp3",
-  "bytes": 673794,
-  "md5": "a66f90e65a75199e856320f5613f3286",
-  "text_sha256": "c6e312ae9626b53066621d82e9db0670f7c1ac60a994ec47c76d5aebc73e7fc1"
+  "bytes": 850589,
+  "chars": 1378,
+  "text_sha256": "cdd189efad9147e63fe94b5601bb35e482cad72d82fc43d09fa392275d98d4b6",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
  },
  "jehovah-s-witnesses-bible-students": {
   "file": "jehovah-s-witnesses-bible-students.mp3",
@@ -865,9 +913,12 @@
  },
  "korean-catholic-origins": {
   "file": "korean-catholic-origins.mp3",
-  "bytes": 592083,
-  "md5": "479cab1a8f6e0e6afcf6b334e3797377",
-  "text_sha256": "c0ccbcc1b5ef2fd7c3539a9034b9db6f23f2f82b7ba397808dceef4ee9d6fff0"
+  "bytes": 746518,
+  "chars": 1255,
+  "text_sha256": "fdae1c6c0834dbd99ffc8aaf65b21e2fff4a18c8652436c80c801e92776c10e2",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
  },
  "laestadianism-and-the-nordic-revivals": {
   "file": "laestadianism-and-the-nordic-revivals.mp3",
@@ -907,9 +958,9 @@
  },
  "latin-american-base-communities": {
   "file": "latin-american-base-communities.mp3",
-  "bytes": 592082,
-  "chars": 911,
-  "text_sha256": "69d12ea251972d39c7984e55ace014da29646247817a8872d08f55621ff0f6e5",
+  "bytes": 598769,
+  "chars": 938,
+  "text_sha256": "b52fce3a7db1685135c47d651970f6e8df4e594148ad74a6cc5207a3df319544",
   "voiceId": "onwK4e9ZLuTAKqWW03F9",
   "model": "eleven_multilingual_v2",
   "outputFormat": "mp3_44100_64"
@@ -967,9 +1018,12 @@
  },
  "lausanne-era-global-evangelicalism": {
   "file": "lausanne-era-global-evangelicalism.mp3",
-  "bytes": 549660,
-  "md5": "e289366efeabbf50da6452e08e68934d",
-  "text_sha256": "1a881a8d7ddf0d9208e1e020560d4b82688d4550b7c7c484c22444d4dc8cd9f2"
+  "bytes": 538792,
+  "chars": 868,
+  "text_sha256": "e7945273383ef56f2523067b009f74d4376e152d992ec9f23ddd9a142def5acb",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
  },
  "lollardy": {
   "file": "lollardy.mp3",
@@ -1042,9 +1096,9 @@
  },
  "melkite-greek-catholic-church": {
   "file": "melkite-greek-catholic-church.mp3",
-  "bytes": 480905,
-  "chars": 797,
-  "text_sha256": "6a67ccab5625ff0f287bcb09d30224470d42d5298147b5daad29917dc5d430be",
+  "bytes": 928957,
+  "chars": 1491,
+  "text_sha256": "6f63047154b8545a45fb1b6a9231b94d93ba8083251b6281c1251126103b67ff",
   "voiceId": "onwK4e9ZLuTAKqWW03F9",
   "model": "eleven_multilingual_v2",
   "outputFormat": "mp3_44100_64"
@@ -1057,9 +1111,12 @@
  },
  "messianic-judaism": {
   "file": "messianic-judaism.mp3",
-  "bytes": 663763,
-  "md5": "6a9025450486e1025c13df406caffd43",
-  "text_sha256": "aa1680a11366470b5014928b09fe440100b99ad3c7e0e3b396dfcb1101c9178f"
+  "bytes": 654776,
+  "chars": 1047,
+  "text_sha256": "932b1b16e639c05f53189d39e67c77a7c52d41221a8d436cbe6039f2e7c67d1e",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
  },
  "military-religious-orders-templars-hospitallers": {
   "file": "military-religious-orders-templars-hospitallers.mp3",
@@ -1084,9 +1141,12 @@
  },
  "modern-ethiopian-and-eritrean-christianity": {
   "file": "modern-ethiopian-and-eritrean-christianity.mp3",
-  "bytes": 597516,
-  "md5": "a7436e92d8d5cbf99a661d9df6180936",
-  "text_sha256": "81d68f4cb7d6d4cc0ef92e07b3f3b849901fdf63b4133804d57ad1454972fb4d"
+  "bytes": 664807,
+  "chars": 1052,
+  "text_sha256": "997b86e771115045bdf4ce8206eb65ad844644eb865217162fe416f6c5cb52ae",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
  },
  "montanism-the-new-prophecy": {
   "file": "montanism-the-new-prophecy.mp3",
@@ -1135,9 +1195,12 @@
  },
  "nineteenth-century-latin-american-catholicism": {
   "file": "nineteenth-century-latin-american-catholicism.mp3",
-  "bytes": 680481,
-  "md5": "99e9779b6881a226cb95e0bcf473c340",
-  "text_sha256": "0429396ec88053f88c3c8608aee32219dd7bc3dd939ed8730dbd0383e1e31c0a"
+  "bytes": 1326227,
+  "chars": 2143,
+  "text_sha256": "057188f5dc04b9e46a4e842fee752e0b3821057dcdac26da4e4c53f049374a80",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
  },
  "nineteenth-century-methodism": {
   "file": "nineteenth-century-methodism.mp3",
@@ -1156,9 +1219,12 @@
  },
  "northeast-india-and-mar-thoma-twentieth-century": {
   "file": "northeast-india-and-mar-thoma-twentieth-century.mp3",
-  "bytes": 479025,
-  "md5": "7891aa48a340a2732bd00c53533f4b04",
-  "text_sha256": "09b092d78db31fe6f58d8ad19e5cb4467ab943772e003c91d04c29993a559868"
+  "bytes": 483203,
+  "chars": 814,
+  "text_sha256": "57780332b23aa9cdc024208b0b55b64caeb5a5aa20a432d59f3bc0c89e36e4af",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
  },
  "northeast-india-revivals-and-the-mar-thoma-refor": {
   "file": "northeast-india-revivals-and-the-mar-thoma-refor.mp3",
@@ -1207,24 +1273,27 @@
  },
  "oneness-pentecostalism": {
   "file": "oneness-pentecostalism.mp3",
-  "bytes": 631371,
-  "md5": "6d84b660e8277b28668917ecee42d6e9",
-  "text_sha256": "86796da86e96b6fc6a2cac3587baa24e8a0a86085ebb3cb38b57730c21b220a7"
+  "bytes": 748398,
+  "chars": 1167,
+  "text_sha256": "5a7299b3a90cc0b4ccff819ab5c91794ea689dd48c78ae28f6d58fbe30fc9b51",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
  },
  "orthodoxy-after-1821-balkan-autocephalies": {
   "file": "orthodoxy-after-1821-balkan-autocephalies.mp3",
-  "bytes": 588738,
-  "chars": 944,
-  "text_sha256": "1888b5bd9ca61ca21a629448ba15ed342969e045c958ada081832ca9398d780e",
+  "bytes": 899282,
+  "chars": 1417,
+  "text_sha256": "f85803449818a5bc2c3e9f263436095dca0113bf616219f7ad86b4d11b7611d6",
   "voiceId": "onwK4e9ZLuTAKqWW03F9",
   "model": "eleven_multilingual_v2",
   "outputFormat": "mp3_44100_64"
  },
  "orthodoxy-under-the-ottomans-1650-1821": {
   "file": "orthodoxy-under-the-ottomans-1650-1821.mp3",
-  "bytes": 726456,
-  "chars": 1170,
-  "text_sha256": "77215cb12323a2cf7c860f804995b86b63f00bebb29b547bc97b1ec6b39360cd",
+  "bytes": 1292999,
+  "chars": 2070,
+  "text_sha256": "1101a7e7a68a0049f8a814a8d18bc31d3240f08f18399dd7814f2a95d8d01e5b",
   "voiceId": "onwK4e9ZLuTAKqWW03F9",
   "model": "eleven_multilingual_v2",
   "outputFormat": "mp3_44100_64"
@@ -1294,9 +1363,9 @@
  },
  "philippine-catholicism-gomburza-to-aglipay": {
   "file": "philippine-catholicism-gomburza-to-aglipay.mp3",
-  "bytes": 587902,
-  "chars": 964,
-  "text_sha256": "66c6856703dabd7ea33ecf599721c7bb83e66e5d8868d715158ab54b2fd6e2fc",
+  "bytes": 1721407,
+  "chars": 2768,
+  "text_sha256": "2b6b0989e5b06a6bed16a01a11b04f92cd1ec057a8ed8b8a1bb40225acc708d8",
   "voiceId": "onwK4e9ZLuTAKqWW03F9",
   "model": "eleven_multilingual_v2",
   "outputFormat": "mp3_44100_64"
@@ -1354,9 +1423,12 @@
  },
  "progressive-christianity-a-broad-label-not-one-m": {
   "file": "progressive-christianity-a-broad-label-not-one-m.mp3",
-  "bytes": 577872,
-  "md5": "ff874370638cf72bd31070abe675bd7c",
-  "text_sha256": "7db0426f8948babed715da96c1d542be77251ceca99373cf99993d8c98a545b4"
+  "bytes": 562198,
+  "chars": 912,
+  "text_sha256": "87e7f77d6d2c715e840a1413c114165f2dd7961ebf74718a43bd150b96349460",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
  },
  "puritanism": {
   "file": "puritanism.mp3",
@@ -1381,9 +1453,12 @@
  },
  "ratana-church-and-pacific-adjustment-movements": {
   "file": "ratana-church-and-pacific-adjustment-movements.mp3",
-  "bytes": 561154,
-  "md5": "64b18e9a67fc05c92e2c949ab24600b2",
-  "text_sha256": "a65e4cd0106a9a726ccdb13764a01ef8954732b5feb520c5f768aa868604848e"
+  "bytes": 554465,
+  "chars": 873,
+  "text_sha256": "b29a85836d8a2d3834cfed2f45ef947100f4119d6505f7c497e1e70d40ffe15a",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
  },
  "recusant-english-catholicism": {
   "file": "recusant-english-catholicism.mp3",
@@ -1432,9 +1507,12 @@
  },
  "russian-church-nikon-to-holy-synod": {
   "file": "russian-church-nikon-to-holy-synod.mp3",
-  "bytes": 586022,
-  "md5": "8cf123ee4c49359e677cb1f4b1c416f5",
-  "text_sha256": "6f3ca954376c7760a384ba8372fa4416528443235c33c50dae98c362b1a9c682"
+  "bytes": 1742514,
+  "chars": 2779,
+  "text_sha256": "5d8304b20a200dc1762d9e43faad6d20953641265d5478d352a5549ca8969d57",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
  },
  "russian-church-stoglav-to-nikon": {
   "file": "russian-church-stoglav-to-nikon.mp3",
@@ -1444,9 +1522,12 @@
  },
  "russian-church-synodal-century": {
   "file": "russian-church-synodal-century.mp3",
-  "bytes": 576827,
-  "md5": "8ab9c558a990459752ff29596f9e5c8f",
-  "text_sha256": "fd9964e87eeaf7c8e71d00afb625cb4d914e3bc9e22eca8795e645648da80ca9"
+  "bytes": 1113277,
+  "chars": 1807,
+  "text_sha256": "37198a869b17215c216d7d3996b879ed57b37574152b14308ac1f2f63f1404b1",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
  },
  "russian-evangelicals-stundists": {
   "file": "russian-evangelicals-stundists.mp3",
@@ -1468,9 +1549,12 @@
  },
  "ruthenian-uniate-18th-century": {
   "file": "ruthenian-uniate-18th-century.mp3",
-  "bytes": 598979,
-  "md5": "7be08005853cbb514997b782cd280763",
-  "text_sha256": "fea867672405cbe15a563f66fe3055e194e93c13655b5ee7620c5cacab06fbdf"
+  "bytes": 1151938,
+  "chars": 1907,
+  "text_sha256": "7e05603d1b78e70ce2e67db7ec5f6bbb6552c83268d29a0680dae37811e8828a",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
  },
  "scandinavian-conversion-christianity": {
   "file": "scandinavian-conversion-christianity.mp3",
@@ -1507,9 +1591,12 @@
  },
  "seventh-day-adventist-church-twentieth-century": {
   "file": "seventh-day-adventist-church-twentieth-century.mp3",
-  "bytes": 525836,
-  "md5": "b7a994d9832bc84f3e5d736d600506b9",
-  "text_sha256": "aafdd5594a3371980174542a844c172a36bcb7b0f7aa3bedb73c8b35439b0fed"
+  "bytes": 768878,
+  "chars": 1257,
+  "text_sha256": "5c4cb0ea00312848021738942cac621619f7df661657d48115cd8b908cdf794e",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
  },
  "shakers": {
   "file": "shakers.mp3",
@@ -1621,9 +1708,9 @@
  },
  "the-anabaptist-movements": {
   "file": "the-anabaptist-movements.mp3",
-  "bytes": 483621,
-  "chars": 804,
-  "text_sha256": "6cf2a78e54901a1e6674d9055ad767061ff266934c84c79385f90d11f79e6343",
+  "bytes": 503892,
+  "chars": 825,
+  "text_sha256": "63c94e714185a10221c6058286c09cd0c27b781f54ce0f4a184832b149a2f4df",
   "voiceId": "onwK4e9ZLuTAKqWW03F9",
   "model": "eleven_multilingual_v2",
   "outputFormat": "mp3_44100_64"
@@ -1636,9 +1723,12 @@
  },
  "the-armenian-church-after-the-genocide-medz-yegh": {
   "file": "the-armenian-church-after-the-genocide-medz-yegh.mp3",
-  "bytes": 550078,
-  "md5": "76df874b23f2b735a9e9c60a87acc466",
-  "text_sha256": "78af82a91613ab011d875348c424b4c06bb7eac1df98c503c8b61aa1f91b77a0"
+  "bytes": 446841,
+  "chars": 681,
+  "text_sha256": "9e6a8a3b1ff27115abcc71ce35383dd6cf3a1f61a8abf072515156022e808c49",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
  },
  "the-baptists": {
   "file": "the-baptists.mp3",
@@ -1660,9 +1750,9 @@
  },
  "the-black-church-in-america": {
   "file": "the-black-church-in-america.mp3",
-  "bytes": 665225,
-  "chars": 1094,
-  "text_sha256": "06794a53622c6dc697cca28628c2f2f5efdd78829ad935be1f282f5df6f866fd",
+  "bytes": 1234067,
+  "chars": 1989,
+  "text_sha256": "7f0286bad835be2582a118f3b2caeb409392fe8d5d3b64cf581f4c31121707db",
   "voiceId": "onwK4e9ZLuTAKqWW03F9",
   "model": "eleven_multilingual_v2",
   "outputFormat": "mp3_44100_64"
@@ -1690,18 +1780,21 @@
  },
  "the-catholic-church-pius-x-to-the-council": {
   "file": "the-catholic-church-pius-x-to-the-council.mp3",
-  "bytes": 554883,
-  "chars": 878,
-  "text_sha256": "f8f181b4082988068a5b50981fea2106187c9819286da9d27053f7f82511e063",
+  "bytes": 577871,
+  "chars": 895,
+  "text_sha256": "8b886aaae7b6cf2f644149092bfbd68e5c2416d14b8d132173486bd354ad45b2",
   "voiceId": "onwK4e9ZLuTAKqWW03F9",
   "model": "eleven_multilingual_v2",
   "outputFormat": "mp3_44100_64"
  },
  "the-chinese-church-indigenous-and-suffering": {
   "file": "the-chinese-church-indigenous-and-suffering.mp3",
-  "bytes": 699289,
-  "md5": "f548f83e08ac48c27717d69bc7350adc",
-  "text_sha256": "0178f8addae14ac6cf5af7a9940a077d3bace304a24d8ac8c8002e35cf4d3749"
+  "bytes": 683406,
+  "chars": 1105,
+  "text_sha256": "f31b9ff3936e63f670b5093c7d7e6698a98038ea69035710c50743300c20219e",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
  },
  "the-church-of-the-east-on-the-silk-road": {
   "file": "the-church-of-the-east-on-the-silk-road.mp3",
@@ -1726,9 +1819,12 @@
  },
  "the-coptic-monastic-and-sunday-school-revival": {
   "file": "the-coptic-monastic-and-sunday-school-revival.mp3",
-  "bytes": 586022,
-  "md5": "c329cea0f59558a4878efe2386ddf870",
-  "text_sha256": "88b5c2005ee7e5588afce12503b6902a5ddbfa26b56557273973c190745f5fc5"
+  "bytes": 455618,
+  "chars": 744,
+  "text_sha256": "729ec7121a385bff7e1ccbaa7efab82a36e052f10a451326625b9c2704ebc34b",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
  },
  "the-dominican-order": {
   "file": "the-dominican-order.mp3",
@@ -1741,21 +1837,30 @@
  },
  "the-east-african-revival-balokole": {
   "file": "the-east-african-revival-balokole.mp3",
-  "bytes": 528135,
-  "md5": "db942e340f8d0db1465acc1a44c225f9",
-  "text_sha256": "d5df5910a244acc93ce91dd8c8c71566ff8f93beb2198826c844f2f5113298ce"
+  "bytes": 525835,
+  "chars": 880,
+  "text_sha256": "473c486b7758924cc98d56032f30a5bc6a257ac2858742f43fbd047983c2c97e",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
  },
  "the-ecumenical-movement-and-the-wcc": {
   "file": "the-ecumenical-movement-and-the-wcc.mp3",
-  "bytes": 495325,
-  "md5": "51851f9152b8423016eaaf77e39fb6a3",
-  "text_sha256": "69576309deac102915fe1564945b2c4840745acc53e651eb3b0d0dbb14c5460f"
+  "bytes": 647670,
+  "chars": 1011,
+  "text_sha256": "ae1df060174c1e64f230fcdcd0ade3def746e363d6a421d8e7b48ce91d29afd0",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
  },
  "the-emerging-church-and-post-evangelical-movemen": {
   "file": "the-emerging-church-and-post-evangelical-movemen.mp3",
-  "bytes": 541510,
-  "md5": "0b0a0eeace4ee956b8a8fea7dcb68212",
-  "text_sha256": "0d42803dff16f678c35b40d110b3321bfa96df88c1c49fbb27b1c13fc3230dd9"
+  "bytes": 510998,
+  "chars": 836,
+  "text_sha256": "2672e85234e9cbf7d77f7d264b9d96c7823c885831ec0afd012812db49343100",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
  },
  "the-english-mystics-and-devout": {
   "file": "the-english-mystics-and-devout.mp3",
@@ -1807,9 +1912,12 @@
  },
  "the-georgian-orthodox-church-restored": {
   "file": "the-georgian-orthodox-church-restored.mp3",
-  "bytes": 560736,
-  "md5": "3263a15e30326a86d2184a7c6f32c4d1",
-  "text_sha256": "54aeaf64e1662a000f07dc7e05c8c06c05b4aa38330bd2e736ae56856e6009a2"
+  "bytes": 588738,
+  "chars": 878,
+  "text_sha256": "a51ddc269128795c51efbe3045adb293f0caed393793d0c843ddb01ce43afa11",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
  },
  "the-haugean-awakening": {
   "file": "the-haugean-awakening.mp3",
@@ -1885,15 +1993,18 @@
  },
  "the-malankara-churches-orthodox-and-jacobite": {
   "file": "the-malankara-churches-orthodox-and-jacobite.mp3",
-  "bytes": 502430,
-  "md5": "64c2d0f6ca1ed25ba9284eaac988d8b5",
-  "text_sha256": "93ead76b1edeedb904a9089519ba8b2cd4f709ed547f0b76eb72bcb43af07083"
+  "bytes": 487592,
+  "chars": 760,
+  "text_sha256": "c3668ce775245a5f3f1baadf874212b26d557f2dc62990b9cd774de54bd4fa41",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
  },
  "the-megachurch-and-seeker-movement": {
   "file": "the-megachurch-and-seeker-movement.mp3",
-  "bytes": 603576,
+  "bytes": 606501,
   "chars": 978,
-  "text_sha256": "bfeaa1c0265676c0573a89171909785c9fb31640ac7ce2fd7af097c3003eb4d5",
+  "text_sha256": "b7b6a646324e2a442ae889f9c6cb3378c8aeb92a3603edcc445d51365c69a663",
   "voiceId": "onwK4e9ZLuTAKqWW03F9",
   "model": "eleven_multilingual_v2",
   "outputFormat": "mp3_44100_64"
@@ -1906,24 +2017,27 @@
  },
  "the-missionary-movement-s-native-churches-seramp": {
   "file": "the-missionary-movement-s-native-churches-seramp.mp3",
-  "bytes": 683407,
-  "md5": "61ee18c2893f08d5c6324815a4516638",
-  "text_sha256": "f29add3b5ae8d6ec7e711c53bbc59f7cc296865314d1dcf5654fa64385ce3737"
+  "bytes": 1965914,
+  "chars": 3160,
+  "text_sha256": "d3baeb886b5c34184328d68e1653d3bd5985fe34eceb006fef724391595a66a7",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
  },
  "the-moravian-church-at-herrnhut": {
   "file": "the-moravian-church-at-herrnhut.mp3",
-  "bytes": 662508,
-  "chars": 1076,
-  "text_sha256": "98dc5cbb4a4cd4de76ea9e274f0b8233122fe1d623010fd8db80b35d94cfe6c8",
+  "bytes": 1449107,
+  "chars": 2321,
+  "text_sha256": "9f6618ac7db657dc6252da36936e023f167c6e24b0b88344512b53469883b2dd",
   "voiceId": "onwK4e9ZLuTAKqWW03F9",
   "model": "eleven_multilingual_v2",
   "outputFormat": "mp3_44100_64"
  },
  "the-narrative-kingdom-renewal-the-bible-as-one-s": {
   "file": "the-narrative-kingdom-renewal-the-bible-as-one-s.mp3",
-  "bytes": 617577,
-  "chars": 967,
-  "text_sha256": "06c43ebeab014e8bf8d2cf16cc1e4d607cf96eaa8080f000f81c0d329232cc38",
+  "bytes": 469411,
+  "chars": 690,
+  "text_sha256": "3db617700e75e5fab2cba50c6d12836d228dbca03895ab2840cdd2c318100346",
   "voiceId": "onwK4e9ZLuTAKqWW03F9",
   "model": "eleven_multilingual_v2",
   "outputFormat": "mp3_44100_64"
@@ -1951,9 +2065,12 @@
  },
  "the-post-vatican-ii-parish-world": {
   "file": "the-post-vatican-ii-parish-world.mp3",
-  "bytes": 564079,
-  "md5": "3dc8c233decc76a11f31983ed0b7fe90",
-  "text_sha256": "203b6a2ee3fb4fe030aee6dda0c7ea6b5b07959bf5e0705d792be8ddde9257e7"
+  "bytes": 539628,
+  "chars": 853,
+  "text_sha256": "35caca4a6f57944590418579f9d966f8bf3bb2ae572db03a9d922c5290846280",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
  },
  "the-quakers-religious-society-of-friends": {
   "file": "the-quakers-religious-society-of-friends.mp3",
@@ -1981,9 +2098,12 @@
  },
  "the-russian-new-martyrs-and-the-catacomb-church": {
   "file": "the-russian-new-martyrs-and-the-catacomb-church.mp3",
-  "bytes": 578290,
-  "md5": "99b3fb3b06043bd20921c4676d745313",
-  "text_sha256": "c0f1599f6f91e5a48082e6a5535e5528d44a91f5303dc35c76b7256b94811131"
+  "bytes": 592291,
+  "chars": 928,
+  "text_sha256": "b4ffe6cb81f55a8f83437fc2695113e947be8cd9ecf8b1a754bc9c3f935ca0d3",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
  },
  "the-salvation-army": {
   "file": "the-salvation-army.mp3",
@@ -1996,9 +2116,12 @@
  },
  "the-sayfo-and-the-syriac-diaspora": {
   "file": "the-sayfo-and-the-syriac-diaspora.mp3",
-  "bytes": 607338,
-  "md5": "a3a9e276bb909cedfc1d50d4934bd79b",
-  "text_sha256": "e67e4589a7bd03a3e83c00e9f24e9c942e10b50878a6bd95ecb599bd2ddfd74a"
+  "bytes": 602740,
+  "chars": 938,
+  "text_sha256": "6573aa14d6c9410d8983b046bb7a1c6209ce80bfbf4c4ff649976fc159dbf749",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
  },
  "the-scottish-reformation-and-kirk": {
   "file": "the-scottish-reformation-and-kirk.mp3",
@@ -2065,9 +2188,12 @@
  },
  "the-ukrainian-greek-catholic-underground": {
   "file": "the-ukrainian-greek-catholic-underground.mp3",
-  "bytes": 544017,
-  "md5": "2306992b18f68d87f47f293b9f5db8dc",
-  "text_sha256": "b22e8b616677560e33a6f411aa86a8e3582cb5f5b55a6a08e0bb9af31e276b51"
+  "bytes": 658955,
+  "chars": 1065,
+  "text_sha256": "9138a42d91c95d48785f8e12fe39af3be486a3a546c06c9b8d24ddaa49c83524",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
  },
  "the-union-of-brest-and-ruthenian-greek-catholic-": {
   "file": "the-union-of-brest-and-ruthenian-greek-catholic-.mp3",
@@ -2116,9 +2242,9 @@
  },
  "victorian-church-of-england": {
   "file": "victorian-church-of-england.mp3",
-  "bytes": 531478,
-  "chars": 900,
-  "text_sha256": "4db942840ecdb5ac6ab445dcf7b74f1bf4543a92f869d6c870b1bcc240abcd4d",
+  "bytes": 1205019,
+  "chars": 1952,
+  "text_sha256": "180cade2dda1f1e6c6e2e4dd38150776baadebeb7b69526f7fc5bccccae60541",
   "voiceId": "onwK4e9ZLuTAKqWW03F9",
   "model": "eleven_multilingual_v2",
   "outputFormat": "mp3_44100_64"
@@ -2137,6 +2263,546 @@
   "bytes": 601695,
   "chars": 963,
   "text_sha256": "8055434009727bdd552c91f2e80d7d4b6511c72601db551b59b24d1404c9ba3b",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
+ },
+ "armenian-apostolic-church-era-8": {
+  "file": "armenian-apostolic-church-era-8.mp3",
+  "bytes": 1362172,
+  "chars": 2159,
+  "text_sha256": "4812994b1e11edabdd0956fb3afa4c6030242f216b6a998dc51abf4b70b3ebac",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
+ },
+ "the-christian-right": {
+  "file": "the-christian-right.mp3",
+  "bytes": 498668,
+  "chars": 767,
+  "text_sha256": "2b4d8f911cbef949239b18d30060ff23aaee4bb6aa409eb3e7c79fa5abe32f20",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
+ },
+ "iglesia-ni-cristo": {
+  "file": "iglesia-ni-cristo.mp3",
+  "bytes": 383520,
+  "chars": 608,
+  "text_sha256": "64512b85cd6a0fa4a35643946ce0de209e2b57766228069246c092035f9d4a7d",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
+ },
+ "the-rescue-mission-movement": {
+  "file": "the-rescue-mission-movement.mp3",
+  "bytes": 498459,
+  "chars": 787,
+  "text_sha256": "1b44046c5267c7abeafc4bc6f41b3b888a0b5341ac646c7d61a07980da4872ca",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
+ },
+ "the-christian-homeschool-movement": {
+  "file": "the-christian-homeschool-movement.mp3",
+  "bytes": 554047,
+  "chars": 880,
+  "text_sha256": "cd78602fd868aa8316ce3149a6dce9900efc12b854fa702cec5f7ce55bc9d6de",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
+ },
+ "the-liturgical-movement": {
+  "file": "the-liturgical-movement.mp3",
+  "bytes": 431167,
+  "chars": 691,
+  "text_sha256": "09f2f5083f53cf91ef6e92a64dc5d268609569276d4a8a8135242e3193f6ea09",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
+ },
+ "the-third-wave-and-the-vineyard": {
+  "file": "the-third-wave-and-the-vineyard.mp3",
+  "bytes": 572020,
+  "chars": 903,
+  "text_sha256": "daa3b76f78654d16b0ba6ddf67627261a9fb591c5797cd40c9a22b904c71ffc2",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
+ },
+ "promise-keepers-and-the-christian-mens-movement": {
+  "file": "promise-keepers-and-the-christian-mens-movement.mp3",
+  "bytes": 476098,
+  "chars": 761,
+  "text_sha256": "c5fd185ae5ebc326d0be6fa4634fd83bb5ffe5fd836ce756c46fe2d8bdb9fa88",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
+ },
+ "the-catholic-church-in-africa-twentieth-century": {
+  "file": "the-catholic-church-in-africa-twentieth-century.mp3",
+  "bytes": 845783,
+  "chars": 1277,
+  "text_sha256": "05d2a1e14d427a2c2bba321d9be84bbf21f58abad47a3bb8b4603a08456f68a7",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
+ },
+ "the-church-struggle-against-apartheid": {
+  "file": "the-church-struggle-against-apartheid.mp3",
+  "bytes": 472336,
+  "chars": 718,
+  "text_sha256": "89fd6dc4da81f71911e9c77dc8df777242470e1ad1866d893feb288e97e3b09c",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
+ },
+ "sudanese-christianity-through-the-civil-wars": {
+  "file": "sudanese-christianity-through-the-civil-wars.mp3",
+  "bytes": 598351,
+  "chars": 920,
+  "text_sha256": "e49a174da44c08ddaa0849344325ac64cdcc0f12c9fa2897f0a67fd8876d9a2c",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
+ },
+ "latin-american-catholicism-twentieth-century": {
+  "file": "latin-american-catholicism-twentieth-century.mp3",
+  "bytes": 1072735,
+  "chars": 1693,
+  "text_sha256": "a5d38ad0dcedd21d552c514b59c8671f9cc03cfd16b931c606ef4a89fdec97e3",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
+ },
+ "protestantism-in-latin-america": {
+  "file": "protestantism-in-latin-america.mp3",
+  "bytes": 1232186,
+  "chars": 1940,
+  "text_sha256": "1d0fbb00eda51161f0ea6b30925fb23233ebb4de29068fde8be42f4a4fd0f968",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
+ },
+ "korean-protestantism-twentieth-century": {
+  "file": "korean-protestantism-twentieth-century.mp3",
+  "bytes": 523327,
+  "chars": 806,
+  "text_sha256": "88b211140f467b0c885bdd7e9e063085246fd5be274d03ebc2388761b923218f",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
+ },
+ "chinese-catholicism-twentieth-century": {
+  "file": "chinese-catholicism-twentieth-century.mp3",
+  "bytes": 624265,
+  "chars": 971,
+  "text_sha256": "7f6bd2a93144ed9980520918a57d174c51cb2b9280c12c62373de46de9b25747",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
+ },
+ "philippine-catholicism-twentieth-century": {
+  "file": "philippine-catholicism-twentieth-century.mp3",
+  "bytes": 416957,
+  "chars": 653,
+  "text_sha256": "2d054b747d1c397af751f52d54b63d8d71de08c512ad7242a96b3eff219d5a50",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
+ },
+ "philippine-independent-church-twentieth-century": {
+  "file": "philippine-independent-church-twentieth-century.mp3",
+  "bytes": 598978,
+  "chars": 975,
+  "text_sha256": "0d29fb48e215f468b25d51c1692e19e467a85e8840a6eeff2fb09f2ae7d805ef",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
+ },
+ "japanese-christianity-after-1906": {
+  "file": "japanese-christianity-after-1906.mp3",
+  "bytes": 568258,
+  "chars": 903,
+  "text_sha256": "1dc65d766b44dc4a4573404dea1e7d6f469151cfb9ac37e0b4092dc631f9f6bb",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
+ },
+ "the-russian-orthodox-church-council-patriarchate-and-reunion": {
+  "file": "the-russian-orthodox-church-council-patriarchate-and-reunion.mp3",
+  "bytes": 651850,
+  "chars": 1026,
+  "text_sha256": "622cb0872d6e8646d9f1a6fc5e1d1d0d5e25267f2f968bb4b3607ae950a276e5",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
+ },
+ "polish-catholicism-wyszynski-and-john-paul-ii": {
+  "file": "polish-catholicism-wyszynski-and-john-paul-ii.mp3",
+  "bytes": 687585,
+  "chars": 1023,
+  "text_sha256": "af843e5f9a1b353668439a5df05735146b590f2bbcce737d398f3e2ec2e01833",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
+ },
+ "orthodoxy-in-the-communist-balkans": {
+  "file": "orthodoxy-in-the-communist-balkans.mp3",
+  "bytes": 612144,
+  "chars": 932,
+  "text_sha256": "ebaedf6144dcf18e5a0816c08472e82ebe437199d9fd65d210c9e970a21c4107",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
+ },
+ "the-greek-church-and-the-ecumenical-patriarchate": {
+  "file": "the-greek-church-and-the-ecumenical-patriarchate.mp3",
+  "bytes": 456872,
+  "chars": 703,
+  "text_sha256": "551d322e6a99eb9475458923e39229d990d5babc7f8c288ba8f46f9c6fb95efb",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
+ },
+ "the-romanian-greek-catholic-church-suppression-and-return": {
+  "file": "the-romanian-greek-catholic-church-suppression-and-return.mp3",
+  "bytes": 226367,
+  "chars": 351,
+  "text_sha256": "98760ca5d09e347fd2998907141a2cb22643bac08ec7667816bad646302bbbb8",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
+ },
+ "melitian-schism": {
+  "file": "melitian-schism.mp3",
+  "bytes": 1346916,
+  "chars": 2133,
+  "text_sha256": "7fd925bf49e7dea47991c84473f85904a7c81a670241e2b6f7aa3cc96e6c116b",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
+ },
+ "luciferians": {
+  "file": "luciferians.mp3",
+  "bytes": 1435314,
+  "chars": 2308,
+  "text_sha256": "15d24e1916017c072190ae6c7f7270c709eb53a63c7e218522991717b432bf84",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
+ },
+ "carthusians-later-middle-ages": {
+  "file": "carthusians-later-middle-ages.mp3",
+  "bytes": 1308255,
+  "chars": 2109,
+  "text_sha256": "ef70d73d933b3e96e1e5c3f1d3d1892556799f9404df69ee8b621374228dfe9d",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
+ },
+ "new-france-mission-born-christianity": {
+  "file": "new-france-mission-born-christianity.mp3",
+  "bytes": 1385995,
+  "chars": 2251,
+  "text_sha256": "fdfe1446776ebbec0fe031710e9cd169d491335393bf31dd683d2d0c4415ce33",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
+ },
+ "swedish-lutherans-of-new-sweden": {
+  "file": "swedish-lutherans-of-new-sweden.mp3",
+  "bytes": 1114322,
+  "chars": 1781,
+  "text_sha256": "cf2272888f1217e386691771abf2fcacbddd2ef23b47d39121631d0cd39b5d6d",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
+ },
+ "english-unitarianism": {
+  "file": "english-unitarianism.mp3",
+  "bytes": 1401878,
+  "chars": 2301,
+  "text_sha256": "de8eadb1657d9499f22558c90282ac8e9fcac3ded67f3f5d71c4836fed30341d",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
+ },
+ "hutterite-brethren": {
+  "file": "hutterite-brethren.mp3",
+  "bytes": 819660,
+  "chars": 1315,
+  "text_sha256": "5f911a3992f8ab091e87f81d3b71a0d58b8a78abac7256d1a970064e679b062b",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
+ },
+ "mennonites-and-amish-after-1650": {
+  "file": "mennonites-and-amish-after-1650.mp3",
+  "bytes": 1691732,
+  "chars": 2665,
+  "text_sha256": "a315b6b9763cfa1d7fe6bc95f88a2406bb4b1e1e5cf600a318ddc2c77a67c372",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
+ },
+ "melkite-greek-catholic-church-after-1815": {
+  "file": "melkite-greek-catholic-church-after-1815.mp3",
+  "bytes": 855814,
+  "chars": 1296,
+  "text_sha256": "d179a724dad6229e9c90c130d80c60f15735eac5a4a1768a5443bcf0d444e1b6",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
+ },
+ "the-coptic-church-under-the-ottomans": {
+  "file": "the-coptic-church-under-the-ottomans.mp3",
+  "bytes": 936480,
+  "chars": 1509,
+  "text_sha256": "095597bdfe94da81306269ff7f9a54be9d846db9be2d97104ef4b2eb3b42bd46",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
+ },
+ "catholics-of-the-ottoman-balkans": {
+  "file": "catholics-of-the-ottoman-balkans.mp3",
+  "bytes": 809003,
+  "chars": 1327,
+  "text_sha256": "f556353e369b8f185cf82e02e1bbf6cd7ce8d6724ea32e4bab55236243135071",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
+ },
+ "chinese-catholicism-1650-1906": {
+  "file": "chinese-catholicism-1650-1906.mp3",
+  "bytes": 2148771,
+  "chars": 3389,
+  "text_sha256": "1e1dfcf937954b214ec10da039390b983e2b8fb531a5704e0c02ebd9aaeb14e4",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
+ },
+ "church-of-the-east-three-patriarchates": {
+  "file": "church-of-the-east-three-patriarchates.mp3",
+  "bytes": 1072108,
+  "chars": 1671,
+  "text_sha256": "12931c522e46b7230a9c59d10cd796865a42daef03346d2867b35356f4e02989",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
+ },
+ "ethiopian-christianity-gondar-to-the-zemene-mesafint": {
+  "file": "ethiopian-christianity-gondar-to-the-zemene-mesafint.mp3",
+  "bytes": 1702181,
+  "chars": 2750,
+  "text_sha256": "e7e1bbdcc30a292931341ab70ec839176fbc01d962e16e2ed4b1c43a781cd75c",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
+ },
+ "georgian-church-1650-1811": {
+  "file": "georgian-church-1650-1811.mp3",
+  "bytes": 888206,
+  "chars": 1415,
+  "text_sha256": "4b0f679030c15af8eeebeabe49b7d5d30d5019bc1557e5d02c01143926adee9d",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
+ },
+ "hungarian-and-transylvanian-protestantism-1650-1815": {
+  "file": "hungarian-and-transylvanian-protestantism-1650-1815.mp3",
+  "bytes": 1356529,
+  "chars": 2160,
+  "text_sha256": "26a22d6234afe40ab175b953a3112e4cf45a4a7c13f8a45e786820cc58edf531",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
+ },
+ "japans-hidden-christians": {
+  "file": "japans-hidden-christians.mp3",
+  "bytes": 1132294,
+  "chars": 1815,
+  "text_sha256": "020838d4f355cc6430eb3ec7ab814385d3b76206d660966761c6cf633c79c4ac",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
+ },
+ "kongo-christianity-after-1650": {
+  "file": "kongo-christianity-after-1650.mp3",
+  "bytes": 896356,
+  "chars": 1445,
+  "text_sha256": "1cbeaaa7d000fecd4fe8755034292dea75f87885a23ce49e4dec87efd002dbcf",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
+ },
+ "protestant-churches-of-the-voc-world": {
+  "file": "protestant-churches-of-the-voc-world.mp3",
+  "bytes": 1013385,
+  "chars": 1596,
+  "text_sha256": "ba4caaee45a10c38ffe26f4254db359c688bc121a088654bba3d17c5e0fa885e",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
+ },
+ "society-of-jesus-1650-1814": {
+  "file": "society-of-jesus-1650-1814.mp3",
+  "bytes": 1731020,
+  "chars": 2788,
+  "text_sha256": "9f6e4936d53e3f40bbd34feb4f32f89df9171f54d33e4b28379b7dd249c8b09e",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
+ },
+ "vietnamese-catholicism-to-1815": {
+  "file": "vietnamese-catholicism-to-1815.mp3",
+  "bytes": 1156745,
+  "chars": 1843,
+  "text_sha256": "f045e1378338616601609fc0e540ed647200775615611939c604d4e06f8ba6f5",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
+ },
+ "the-dutch-reformed-church-at-the-cape": {
+  "file": "the-dutch-reformed-church-at-the-cape.mp3",
+  "bytes": 1045985,
+  "chars": 1712,
+  "text_sha256": "0de3d00b69bbb777202fa3bec013f006e1f1b82de048b814a5b0513e3d1b0710",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
+ },
+ "catholics-of-dutch-ceylon": {
+  "file": "catholics-of-dutch-ceylon.mp3",
+  "bytes": 1319749,
+  "chars": 2142,
+  "text_sha256": "8387d73f33a61e7d21e7cf122a7c58dbb9240bbf6c20fa5d1f5b924f295b5126",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
+ },
+ "st-thomas-christians-two-obediences": {
+  "file": "st-thomas-christians-two-obediences.mp3",
+  "bytes": 1452033,
+  "chars": 2303,
+  "text_sha256": "a4f31b8b85bdfc3d657fda7648f8353f254e191c92893395329b9482c9af38aa",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
+ },
+ "romanian-greek-catholic-church-1698-1815": {
+  "file": "romanian-greek-catholic-church-1698-1815.mp3",
+  "bytes": 1633845,
+  "chars": 2630,
+  "text_sha256": "2a052ccc54c263f99f3afd07fc0351e522d04ce69d96ca41e7486eb411767f1d",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
+ },
+ "southern-african-mission-churches": {
+  "file": "southern-african-mission-churches.mp3",
+  "bytes": 1244307,
+  "chars": 2038,
+  "text_sha256": "607a8222c7852c179403df5226334f0e3abda4666b8340e931d2a71842c9c72b",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
+ },
+ "caribbean-churches-of-slavery-and-emancipation": {
+  "file": "caribbean-churches-of-slavery-and-emancipation.mp3",
+  "bytes": 1452033,
+  "chars": 2273,
+  "text_sha256": "c95a52aec575f3db01ec936dfa9d181e09cb0eec2d48c265c1d8ac9c8c15b312",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
+ },
+ "maronite-church-1815-1906": {
+  "file": "maronite-church-1815-1906.mp3",
+  "bytes": 876294,
+  "chars": 1391,
+  "text_sha256": "f47448379f1d81fe14e760185842b159e2643dbe1af85e10a9f87fdea28ce7c9",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
+ },
+ "moravian-church-after-1815": {
+  "file": "moravian-church-after-1815.mp3",
+  "bytes": 1193525,
+  "chars": 1860,
+  "text_sha256": "93f5a6d2f410fa873ce612c02893688d98f9184a8658441dfc75edfb144275a5",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
+ },
+ "old-believers-after-1815": {
+  "file": "old-believers-after-1815.mp3",
+  "bytes": 1618589,
+  "chars": 2571,
+  "text_sha256": "4bc051f3c9cd16049f4dd99e4a8efb88082fb9e4b65b7d2dafbc802d94c7bcb1",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
+ },
+ "polish-and-lithuanian-catholicism-under-the-partitions": {
+  "file": "polish-and-lithuanian-catholicism-under-the-partitions.mp3",
+  "bytes": 826348,
+  "chars": 1295,
+  "text_sha256": "d7963c5295bd7e0c0d725d5b41a1db6c51db6d9e9e1fcf6d810ead4851472601",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
+ },
+ "romanian-greek-catholic-church-1815-1906": {
+  "file": "romanian-greek-catholic-church-1815-1906.mp3",
+  "bytes": 1028849,
+  "chars": 1640,
+  "text_sha256": "5320ed0b4b0e52bb916d08c1bd0190b54bc150b4e693b888eddc357128a1d89e",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
+ },
+ "vietnamese-catholicism-1815-1906": {
+  "file": "vietnamese-catholicism-1815-1906.mp3",
+  "bytes": 924150,
+  "chars": 1492,
+  "text_sha256": "292970048ab6451983247984bc2af8acf93076e59bd8cd8185e6ebf090e4b71a",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
+ },
+ "arab-evangelical-churches": {
+  "file": "arab-evangelical-churches.mp3",
+  "bytes": 1347752,
+  "chars": 2159,
+  "text_sha256": "603e05040dbfaab96c93146a1f5e49168ab5f924bb874b18b07a610d46bee463",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
+ },
+ "canudos-belo-monte": {
+  "file": "canudos-belo-monte.mp3",
+  "bytes": 1482544,
+  "chars": 2352,
+  "text_sha256": "03de804c5a4d4836b54bafd59d78fbda103b20950bf8d34c6725bd8c752eb4c6",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
+ },
+ "transylvanian-unitarian-church-1660-1906": {
+  "file": "transylvanian-unitarian-church-1660-1906.mp3",
+  "bytes": 3220836,
+  "chars": 5122,
+  "text_sha256": "c99adbddb18d06dc2c079e19476348a2dc5f2adbced21aaf14a8762f6ca88adb",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
+ },
+ "the-anglican-communion-twentieth-century": {
+  "file": "the-anglican-communion-twentieth-century.mp3",
+  "bytes": 541509,
+  "chars": 824,
+  "text_sha256": "1752890dc74a0da2dcf4a6e7d555f5be6cf6fb35e2fff1781739624ac97df73d",
   "voiceId": "onwK4e9ZLuTAKqWW03F9",
   "model": "eleven_multilingual_v2",
   "outputFormat": "mp3_44100_64"
