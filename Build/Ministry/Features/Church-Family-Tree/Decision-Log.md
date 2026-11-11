@@ -1330,6 +1330,17 @@ to 2 minutes for every person.
 
 Facts the person's card already shows (dates, place, role, works) are not repeated.
 
+**How it reads aloud (Mark, after the 2026-11-11 recording sample).** Mark's words: "so these
+are a little flat and ai ish, i want it a little more story telling, not fact giving. the years
+read as natural not just reading numbers, the sentences flowing together not all short simple
+sentances for an elementary student". He placed the flatness in one brief: "the flatness was in
+the origin, person". He found that "the bogomils listens better". These notes are part of the
+standard for the person rewrites:
+- A brief tells a story. It does not list facts.
+- Years are written to be spoken naturally, not read out as bare numbers.
+- Sentences flow and connect. They are not all short and simple. Grade 8 is a floor for the
+  reading level, not a target.
+
 **Where it applies.** All 39 existing person briefs and next week's briefs for the 340 named
 people. The 39 person briefs in the census on 2026-11-11 run 58 to 246 words (median 178). None
 is over 300 words. 10 are under 150:
