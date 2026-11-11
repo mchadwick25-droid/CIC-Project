@@ -1,0 +1,79 @@
+{
+  "known_for": "Teacher and Bible scholar at Alexandria and Caesarea, who wrote commentaries on Scripture and a book of doctrine that was argued over for centuries.",
+  "role": "Teacher and Bible scholar",
+  "key_works": [
+    {
+      "title": "On First Principles",
+      "about": "his teaching on God, the Son, souls and Scripture"
+    },
+    {
+      "title": "Against Celsus",
+      "about": "eight books answering a pagan attack on Christians"
+    },
+    {
+      "title": "The Hexapla",
+      "about": "Eusebius says Origen left us copies of it; Jerome says its extra translations came from Origen's library"
+    }
+  ],
+  "legacy_traces": [
+    "Eusebius tells of two brothers, Gregory and Athenodorus, who came to Origen at Caesarea full of zeal for Greek and Roman learning. He gave them a love of philosophy and turned them to the study of divinity. After five years with him, both became bishops in Pontus.",
+    "A letter Origen wrote to that Gregory survives in the Philocalia. It urges him to take from Greek learning whatever serves Christianity, as geometry and grammar serve philosophy.",
+    "Gregory of Nazianzus, sending the Philocalia to a friend, called it a selection of passages useful to students of literature."
+  ],
+  "legacy_remembered": [
+    "Socrates, who defended Origen, names four men who attacked him: Methodius, Eustathius, Apollinaris and Theophilus. He says each blamed a different point, and none charged Origen with unsound teaching on the Trinity.",
+    "Socrates also says Theophilus of Alexandria wrote to the bishops condemning Origen's books, to hide his real aim, which was to move against John Chrysostom.",
+    "Epiphanius charged, and Jerome repeated, that Origen taught even the devil would one day repent.",
+    "The Fifth Council at Constantinople, in 553, named Origen in its eleventh anathema, beside Arius and others. The historian Evagrius says the council also issued special anathemas against him. Whether it did is still disputed."
+  ],
+  "uncertain": [
+    "We read On First Principles mostly in Rufinus's Latin, and Jerome said Rufinus changed it.",
+    "Jerome says Origen was ordained in Palestine on a journey, which so enraged Demetrius that he wrote everywhere to ruin Origen's name. Eusebius orders it differently: Demetrius wrote against Origen first, out of jealousy, and the ordination came after.",
+    "Eusebius is our witness that Origen took a saying of Jesus too literally and made himself a eunuch. He adds that Demetrius at first admired the act, then wrote of it to bishops everywhere as most foolish. Jerome says only that Demetrius was wildly enraged at Origen after his ordination.",
+    "Eusebius says Origen died in the time of Gallus, at sixty-nine. Jerome adds that he died at Tyre and was buried there."
+  ],
+  "written_about": [
+    {
+      "title": "Church History, Books 6 and 7",
+      "author": "Eusebius of Caesarea",
+      "date": null,
+      "language": "English translation",
+      "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
+    },
+    {
+      "title": "Lives of Illustrious Men, chapter 54",
+      "author": "Jerome",
+      "date": null,
+      "language": "English translation",
+      "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+    },
+    {
+      "title": "Church History, Book 6, chapters 7, 10 and 13",
+      "author": "Socrates",
+      "date": null,
+      "language": "English translation",
+      "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
+    },
+    {
+      "title": "Letter 115, sent with the Philocalia",
+      "author": "Gregory of Nazianzus",
+      "date": "about 382",
+      "language": "English translation",
+      "file": "cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml"
+    },
+    {
+      "title": "Anathemas of the Fifth Council",
+      "author": "Council of Constantinople",
+      "date": "553",
+      "language": "English translation",
+      "file": "cic/texts/npnf214_seven-ecumenical-councils.xml"
+    },
+    {
+      "title": "Against John of Jerusalem",
+      "author": "Jerome",
+      "date": null,
+      "language": "English translation",
+      "file": "cic/texts/npnf206_jerome-principal-works.xml"
+    }
+  ]
+}
