@@ -1,0 +1,18 @@
+=== PAID RUN, settings as actually used ===
+approved run : CFT Origen warmth test 2026-11-11   char cap: 6600
+voice id     : fxnZk29PIJ3WKEC9MDEo
+model        : eleven_multilingual_v2   output format: mp3_44100_64
+settings A   : {"stability":0.95,"similarity_boost":0.68,"style":0,"use_speaker_boost":true}
+settings B   : {"stability":0.6,"similarity_boost":0.75,"style":0.15,"use_speaker_boost":true}
+settings C   : {"stability":0.45,"similarity_boost":0.75,"style":0.3,"use_speaker_boost":true}
+items        : 3   characters: 2148 each, 6444 total
+  ok: A voice=fxnZk29PIJ3WKEC9MDEo model=eleven_multilingual_v2 settings={"stability":0.95,"similarity_boost":0.68,"style":0,"use_speaker_boost":true} chars=2148 bytes=1170537 cost=1041
+  ok: B voice=fxnZk29PIJ3WKEC9MDEo model=eleven_multilingual_v2 settings={"stability":0.6,"similarity_boost":0.75,"style":0.15,"use_speaker_boost":true} chars=2148 bytes=1179732 cost=1041
+  ok: C voice=fxnZk29PIJ3WKEC9MDEo model=eleven_multilingual_v2 settings={"stability":0.45,"similarity_boost":0.75,"style":0.3,"use_speaker_boost":true} chars=2148 bytes=1175971 cost=1041
+credits charged (character-cost headers): 3123
+
+Balance (characters used of 600,000): 216,355 before, 219,478 after: 3,123.
+GET /v1/history since the run started: 3 requests, all David Baker, eleven_multilingual_v2, 1,041 each,
+with the A, B and C settings as sent (speed 1.0 reported); no duplicate.
+Durations: A 146.3 s, B 147.4 s, C 147.0 s.
+Clips are on the review page https://claude.ai/artifact/FtrkKBz8BHU9WMmDQLVu8v only, not on the site or in this repository.
