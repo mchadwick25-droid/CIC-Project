@@ -2095,3 +2095,46 @@ changed by Mark's answers. The full table and the checks:
 **What this does not change.** No census, record or site change is made by this scan. Councils stay
 out of the census until the change order named in the era 2 entry. Approved to proceed (Mark,
 2026-11-11).
+
+## 2026-11-11 — The era 5 Who scan: Innocent III Wanted, Henry IV Who, three Georgian stories (Mark, 2026-11-11)
+
+**Decided (Mark, 2026-11-11, relayed by the coordinator; his words as given).** The read-only
+scan of era 5 (1054–1300 CE) used the standard of eras 1 to 4, with Mark's pairing ruling and the
+"Major?" proposal column. Mark ruled on the cases it raised:
+- **Innocent III (live person entry):** "Wanted, keep live". The Library holds his letters and
+  Lateran IV extracts but no life of him. His live profile stays until the Gesta Innocentii III is
+  held, then he is rescored (Open-Gaps 219).
+- **Henry IV:** "Who". His own first-person letters tell his fall, which is the personal-confession
+  branch of the ruler rule.
+- **David IV, Tamar and Rusudan of Georgia:** "All three stories". All three rows are STORY.
+- **Library timing:** "After all scans". The Library thread gets one combined WANTED list after
+  eras 6 to 10 are scanned, ordered by era with major figures first (Open-Gaps 220).
+
+**Coordinator's calls under settled rules (not Mark's words; Mark may overrule).**
+- Sava of Serbia is WANTED (Domentijan's Life). Brother Leo is WANTED (Scripta Leonis; the
+  Library's own header calls the Speculum Perfectionis attribution contested).
+- Dionysius bar Salibi, Mari ibn Sulayman and Abu Salih are all WHO, flagged.
+- The Muslim and Jewish historians that would fit as OUTSIDE WITNESS (Ibn al-Athir, Usama ibn
+  Munqidh, Ibn Jubayr, Rashid al-Din, Benjamin of Tudela) are named in no era 5 census text and none
+  is held. They go in Open-Gaps as wanted sources, with no rows. Anna Komnene is WANTED (OUTSIDE
+  WITNESS) on the Procopius precedent.
+- Pairs: Yahballaha III and Rabban Sauma, Rufino and Angelo, Domentijan and Teodosije, and the
+  awlad al-Assal are one row each. Alberic and Stephen Harding are split into two rows.
+- Humbert of Romans is WANTED as a recorder, to match Gerard de Frachet. Recorders whose named
+  source carries the order's own story stay WANTED (Rimbert and Anskar precedent).
+- By date of work, Symeon the New Theologian, Yahya ibn Said and John of Rila go to an era 4
+  supplement. Bernard Gui, Eckhart, Tauler, Suso, Angelo Clareno, Belibaste, Jacques de Molay, John
+  of Brunn and Guiard of Cressonessart go to the era 6 scan. Marguerite Porete stays in era 5.
+
+**Outcome of the era 5 sweep.** 101 rows (a paired row counts once): WHO 14, STORY 9, LISTED 35,
+WANTED 43. Judgment-call rows: 62. Gregory VII and Bonaventure are WHO; Innocent III is WANTED and
+flagged. Fourteen councils are listed with their participants. An Opus check read the cited passages
+for 67 WHO, STORY and WANTED rows (49 confirmed, 18 corrected, none not supported, no invented
+person-detail), 18 LISTED rows (13 right) and the draft councils (6 confirmed, 9 corrected). A
+targeted recheck read the 12 rows changed afterwards (3 confirmed, 9 corrected, none not supported).
+The Library holds no work by a Muslim, Jewish or Western secular chronicler of 1054–1300. The full
+table and the checks: `Build/Ministry/Operations/Audits/2026-11-11_who-scan-era5/`.
+
+**What this does not change.** No census, record or site change is made by this scan. Councils stay
+out of the census until the change order named in the era 2 entry. Approved to proceed (Mark,
+2026-11-11).
