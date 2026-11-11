@@ -1340,6 +1340,13 @@ standard for the person rewrites:
 - Years are written to be spoken naturally, not read out as bare numbers.
 - Sentences flow and connect. They are not all short and simple. Grade 8 is a floor for the
   reading level, not a target.
+- Attribution is spoken in story terms. Mark's words: "we need to not say his editor, it should be
+  accounts tell of 5 times he...". A spoken brief says "accounts tell…", "the story goes…" or "his
+  own letters say…". It does not name an editor or historian mid-sentence ("Eusebius says…", "his
+  editor writes…"). The named source goes on the card and in the sources list.
+- The exception keeps the brief true to its sources. When the only account is partisan or hostile,
+  or the accounts disagree, the brief says so plainly in story terms ("his enemies claimed…", "one
+  account says…, another…"). A contested claim is never told as settled.
 
 **Where it applies.** All 39 existing person briefs and next week's briefs for the 340 named
 people. The 39 person briefs in the census on 2026-11-11 run 58 to 246 words (median 178). None
