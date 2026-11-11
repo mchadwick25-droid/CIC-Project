@@ -1486,3 +1486,50 @@ whose text fingerprint no longer matches as stale (it used to count any recordin
 
 **Limits.** The voices cannot be confirmed from ElevenLabs' side with this key. They rest on the
 voice id in each request, the sizes, and Mark's ear on the sample.
+
+## 2026-11-11 — Person-voice delivery: setting C (Mark: "c is best")
+
+**Decided (Mark, relayed by the coordinator, 2026-11-11).** Mark heard the Origen pilot clip and
+found it "not warm and personal enough". He approved a three-way test ("yes, run the three-way
+test") and, after listening, ruled "c is best". Person briefs are recorded with:
+- voice David Baker, `fxnZk29PIJ3WKEC9MDEo`;
+- model `eleven_multilingual_v2`, output `mp3_44100_64`;
+- settings `{"stability":0.45,"similarity_boost":0.75,"style":0.3,"use_speaker_boost":true}`.
+
+Tradition briefs and stories keep their own delivery (stability 0.95, similarity 0.68, style 0,
+speaker boost on). A person run of `Build/tools/generate_tree_narration.mjs` (`--people`) takes the
+voice and the settings on the command, `--person-voice-id` and `--voice-settings`. Both are
+required, printed and never read from the environment.
+
+**The test.** The restored Origen brief (2,148 characters) was read three times in David Baker's
+voice, one clip per setting:
+
+| Clip | Settings | Length |
+|---|---|---|
+| A, as before | stability 0.95, similarity 0.68, style 0, speaker boost on | 2:26 |
+| B | stability 0.6, similarity 0.75, style 0.15, speaker boost on | 2:27 |
+| C, chosen | stability 0.45, similarity 0.75, style 0.3, speaker boost on | 2:27 |
+
+The clips are on the review page https://claude.ai/artifact/FtrkKBz8BHU9WMmDQLVu8v only. The run log
+is `Build/Ministry/Operations/Audits/2026-11-11_person-brief-pilot/recording/warmth-test.log`.
+
+## 2026-11-11 — Spend note: the Origen warmth test ran at full length
+
+**What happened.** Run "CFT Origen warmth test 2026-11-11" was approved with a cap of 6,600
+characters and recorded the full Origen brief three times. That came to 6,444 characters and 3,123
+credits, 1,041 a request by the `character-cost` headers. The account went from 216,355 to 219,478
+used. ElevenLabs' history (`GET /v1/history`) shows exactly those three requests, with the settings
+as sent, and no duplicate.
+
+Mark then revised the run: "just do 30 seconds of each", with a cap of 1,400 characters. That
+message was queued at 03:24:24Z, after all three requests had finished (about 03:24 UTC by the
+history). Recording 30 seconds of each, as Mark wanted, would have cost about 650 credits; the run
+spent about 2,470 more.
+
+**Cause.** Two coordinator sessions were relaying to the same worker at once: the outgoing one and
+its successor. The approval came from the outgoing coordinator, a minute after the incoming one had
+said to make no paid calls, and its revision then arrived too late.
+
+**Fix.** One line of command. A worker takes paid instructions only from the current coordinator.
+When coordination moves to a new session, the old one stops relaying paid approvals and passes them
+through the new one.
