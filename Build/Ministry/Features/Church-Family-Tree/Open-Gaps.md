@@ -2060,3 +2060,37 @@ it, never by deleting it.
     - Reccared (589) and Euthymius the Great (377–473) fall in era 3 by date and go to that scan.
     - OUTSIDE WITNESS is a standing label; each later era scan applies it. Owner: the coordinator.
     - Source: `Build/Ministry/Operations/Audits/2026-11-11_who-scan-era2/`.
+211. **Origen's brief ends on a dispute (2026-11-11).** Mark's "dispute in place" ruling (see
+    "The Who profile pattern", 2026-11-11) moves a contested point to where it arises. Origen's live
+    brief closes on the 553 council ("though how far it went is still argued"). It needs a small
+    change order and a cap ruling for its recheck. Not made. Owner: the coordinator.
+212. **Pattern findings in the eight live person texts (2026-11-11).** An Opus read of the eight
+    early-church briefs and cards against `Who_Profile_Pattern.md` found no fabrication. It found
+    the items below. Each changes reviewed text, so each needs a change order. Nothing was changed.
+    Owner: the coordinator.
+    - **Common names, in Mark's name-of-place form.** The live "the church historian Socrates" and
+      similar forms predate "Socrates of Constantinople". Bare shared names still at first mention:
+      Zachariah (Constantine card, "of Mitylene" in the source title), Rufinus (Origen brief and
+      card, Nazianzus card), Gallus (Origen card, "the emperor Gallus"), Porphyry (Methodius card),
+      Palladius without his place (Chrysostom brief), "Gregory" as the subject in the Nazianzus and
+      Nyssa briefs, and "Gregory's" in the Nyssa card. Bare unique names with no context: Jerome,
+      Theodoret, Photius, Lactantius, Licinius, Decius and Valerian.
+    - **Contested claims told as settled, or sides unnamed.** Nazianzus card: "With Basil he
+      gathered the Philocalia" is stated flatly, while the Origen brief says "are thought to have
+      gathered" and Letter 115 does not name Basil. Methodius brief: the narrator settles the
+      Decius dating ("cannot be right"); the card words it better. Nyssa brief and card: the
+      restoration question names no holder of either side. Origen: "though how far it went is still
+      argued" and "are thought to have gathered" name no witness.
+    - **Unattributed modern judgments.** Athanasius brief, "From hiding he wrote more than half of
+      his surviving works" (the NPNF editor's count). Ephrem card, "Most writers date his death to
+      373, and some to 378". Nazianzus card, "It seems he did not". Nyssa card, "It seems to rest on
+      two passages", and "None of his writings speaks of her as his wife" (an absolute).
+    - **Archaic quotes that are hard to hear.** Chrysostom, "Wouldest thou do honor…". Nyssa, "the
+      advance has no check". Nazianzus, the closing quote. Any re-rendering is Opus-authored.
+    - **Beat lines and contrasts.** Athanasius, "But the price was high" and "not joined to God".
+      Ephrem, "It worked". Methodius, "Little else is certain". Chrysostom, "Socrates notes the
+      irony:". Verbless card labels ("Honored beyond Syria.", "Honored as a martyr.").
+213. **No vendored place for Apollinaris (2026-11-11).** The Origen card's "Apollinaris" cannot
+    take a name-of-place identifier, because no vendored source gives one. The pattern leaves the
+    name as the sources have it. Open: whether the Library thread can name a source. Owner: the
+    Library thread.

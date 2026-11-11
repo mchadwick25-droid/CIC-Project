@@ -1929,3 +1929,49 @@ checks: `Build/Ministry/Operations/Audits/2026-11-11_who-scan-era2/`.
 profile comes down in a later release. Councils stay out of the census until a change order on
 frozen eras makes them an entry kind. The display rule (Who shows only the person entries) lifts
 on Mark's call after the other eras are sorted. Approved to proceed (Mark, 2026-11-11).
+## 2026-11-11 — The Who profile pattern (Mark, 2026-11-11)
+
+**Decided (Mark, relayed by the coordinator; his words as given).** One pattern governs every Who
+profile, story and listed line: `Who_Profile_Pattern.md` in this folder. Approved to proceed (Mark,
+2026-11-11).
+- **Writing standard, by reference.** "we use the same principles we used to develop the tradition
+  cards, simple modern english with the accessability and no ai tells etc. it is a full design i
+  dont want to repeat, no tails, no statements that have no context or meaning no xy no wise saying
+  etc. find the quality and follow it". The pattern cites `CLAUDE.md`, the Writing Standard, the
+  NorthStar target and the Voice and Style Guide (1.1 to 1.12) and does not restate them.
+- **No intro.** "why are we bringing an introduction in we have the brief defined and a story goes
+  into the story". This reverses "A short intro for each person, beside the full brief (Mark: 'a')"
+  (2026-11-11). The earlier entry came from a misreading of a pasted voice spec. Person audio is the
+  brief only. The Jon tags, `[calmly]` at the start and `[warmly]` before the closing line, apply to
+  the brief and stay in the audio script.
+- **Length.** "we moved the who to 1 to 2 minutes with streatch for major people". This replaces
+  the 60 to 120 seconds of "Person briefs" (2026-11-11). No bands and no numeric ceiling beyond it.
+- **Opening and disputes.** Scene first. A contested point is told where it arises ("Dispute in
+  place"), not at the close.
+- **Hostile-witness founders.** "teaching two, life one": two independent witnesses for the teaching,
+  and the life outline may rest on one if the brief says so. This refines the era 1 scan ruling
+  ("at least two independent opponents agree on the outline of their life").
+- **The categories stack.** "for whos, they are still in the record or lists." Every named person
+  keeps their list line; a Who or a story is added on top.
+- **Outside witness.** A label on a Who profile for a historian outside the church (Josephus,
+  Tacitus): "these are historians, not doctrine or athiests or others fighting the church, just
+  objective historians".
+- **Councils.** "counsels are treated like a tradition with a different icon and title. but people
+  who are a part of it should be on the who click", and "it is one who listed in two places (counsil
+  and the tradition)". One profile, never a second copy.
+- **Common names.** "dont forget the newer ones like name full or place of common names like we did
+  for socratise", refined to "socrates from constantinopel". The form is name of place ("Socrates of
+  Constantinople"), with a role or time only where a place does not identify the person. This
+  refines "A common name is placed at its first mention" (2026-11-11), whose example "the church
+  historian Socrates" it replaces.
+
+**Resolved by the standard (the coordinator, 2026-11-11).** Old quotes: short plain ones only,
+otherwise told in modern words naming the source. Confidence on the card: plain sentences, no
+labels. Other name forms: the census `informalName`, and an original-language form only where a
+vendored source spells it. Namesake ids: add the place when names collide; an existing id is never
+renamed, because ids name the tree pages and the audio files.
+
+**Opus check (2026-11-11).** One Opus read checked the pattern against the standard and the eight
+live briefs and cards. Its fixes to the pattern are applied. Its findings in the eight are
+registered in Open-Gaps ("Pattern findings in the eight live person texts", 2026-11-11). Nothing
+live was changed: that is a change order.
