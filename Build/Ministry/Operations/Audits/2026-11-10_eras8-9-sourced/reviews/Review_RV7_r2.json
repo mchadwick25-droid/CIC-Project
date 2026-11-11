@@ -1,0 +1,44 @@
+{
+ "slice": "RV7 (P2-G89c: transylvanian-unitarian-church-1660-1906)",
+ "round": 2,
+ "verdict": "approve",
+ "blocking": [],
+ "substantial": [],
+ "minor": [
+  {
+   "id": "r2-m1",
+   "where": "entry longDescription ('In 1693 the Unitarians had to give up their old college at Kolozsvár')",
+   "problem": "The rendering now reads 'the college in the Óvár' (round 1 m6), but the prose still says 'old college'. 'Óvári' names the Óvár quarter, the old castle. It does not mean that the college was old.",
+   "evidence": "Ferencz 1875, lines 1060-1061: 'az óvári főiskolát'.",
+   "fix": "\"In 1693 the Unitarians had to give up their college in the Óvár, the old castle quarter of Kolozsvár. It had been theirs since 1566.\""
+  },
+  {
+   "id": "r2-m2",
+   "where": "wants[0]",
+   "problem": "Stale text. The want still says \"the 'argued against' link from the Jesuits rests on the Unitarians' own account\", but that link has been dropped.",
+   "evidence": "The LINKS flag and links[] now hold only two links.",
+   "fix": "\"A Catholic or Habsburg source on the seizures of the Kolozsvár college (1693) and market church (1716). The prose blames the Jesuits only on the Unitarians' own account, and a link from VII.44 or VII.19 waits for such a source.\""
+  },
+  {
+   "id": "r2-m3",
+   "where": "entry longDescription ('their writing was held back')",
+   "problem": "One part of round 1 m6 was not applied. 'Megakasztatott' means halted.",
+   "evidence": "Ferencz 1875, lines 1118-1119.",
+   "fix": "\"and their writing was halted\"."
+  },
+  {
+   "id": "r2-m4",
+   "where": "SectionA_ME6_ME20.md, the ME-20 summary, line 2",
+   "problem": "The body now says, rightly, that 'for us' counts Tolstoy in, and that the 1885 resurrection lines (5826-5830, 5879-5880) are stronger than a refusal to affirm. Summary line 2 still says '(modern people, in general)' and does not mention them.",
+   "evidence": "The note's lines 16, 57 and 73.",
+   "fix": "Line 2: \"On the resurrection he says Christ, 'denying individual and carnal resurrection', set it in a life in God, and that the Gospel never mentions his own. He says that 'Christ rose again, and ascended' has 'no meaning for us', himself included.\""
+  }
+ ],
+ "quotes_checked": 41,
+ "quotes_failed": [],
+ "notes": "Targeted recheck against the round 1 findings. check_draft.py: 134 quotes verified and 38 paragraphs scored. Its only line is the READ-FAIL on VI.14's frozen relationsSummary paragraph 1, carried unchanged as before. All round 1 findings are closed. S1: the drop option was taken. links[] holds VI.14 continued-as and VIII.37 in-contact only. relationsSummary attributes the Jesuit charge to Ferencz and names Steinville, the bishop and the emperor's army. The longDescription adds 1907 lines 289-291 ('transferred to them through the faithful assistance of the Emperor's army'), re-read at the file. S2: the Rees decree of 20 July 1660 ('instantly to leave', lines 1966-1967) and the Ferencz deadline of 10 July are now told apart, and DATES DIFFER is corrected. S3: 1848 is 'lawful religion at Pozsony; until then only in Transylvania; now all Hungary', and why says 'widened'. S4: the floorNote carries 'the Christ or Messiah, God's holy son', the 'so to speak' perfect man through the holy spirit, and the one-God-alone worship line. New rendering rows (1986-1988, 1992-1995, 1975-1976) were checked clause by clause and are sound. m1 to m9 are applied: the king in the 1659 rendering, the Catholics as accusers in 1658, the 1873 meeting, 1831 contact with the link source at 1787-1790, the Low Countries, 'partly' (new rendering 1076-1078 checked), 'sympathy', Mártonffi, 'that went with them', inner Magyar Street, the 1848 quote marks, 'came forward', the attribution of the 1907 account, its source note (latest item 1904, used to 1848), the floorNote refuge sentence, and the VI.14 1658 and BELIEF flags. The exceptions are r2-m1 and r2-m3, where the prose kept two words. Nothing else moved. The people row, voices, holds, neighbor_changes, sources (other than the 1907 note) and the VI.14 link quotes are unchanged except the note wording. The Section A note now quotes 55 lines, all 55 verbatim at their stated lines by script (including the new Tolstoy 5826-5830 and 5879-5880). Its body changes answer round 1, and only summary line 2 lags (r2-m4). These four minors can be fixed at apply without another round.",
+ "sectionA_note": {
+  "quotes_checked": "55 of 55 verbatim at their lines (by script)",
+  "fairness": "Fair to the texts. The round 1 points are taken in the body: the stronger resurrection lines, 'for us' counting Tolstoy in, A3 allowing one theologian, partial renderings marked, and A5 named. Only summary line 2 still uses the old wording (r2-m4)."
+ }
+}

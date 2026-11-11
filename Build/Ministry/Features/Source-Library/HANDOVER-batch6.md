@@ -21,7 +21,7 @@ with `send_message` after each batch. Read CLAUDE.md first, all of it.
 
 - **The record:** `CFT-Wants.md`, one section per batch.
 - **The decisions:** `Decision-Log.md` in this folder.
-- **Open-Gaps entries:** 170-172, 193 and 194 in `Build/Ministry/Features/Church-Family-Tree/Open-Gaps.md`.
+- **Open-Gaps entries:** 170-172, 193 and 198 in `Build/Ministry/Features/Church-Family-Tree/Open-Gaps.md`.
 - **The page for Mark:** https://claude.ai/artifact/RTJ2uXC4rjqKEguvt4UiDP. Its source is not in the repo.
   Read it with the Artifact tool's `read` action, then republish to the same `url`.
 
@@ -61,7 +61,7 @@ verified yet: re-read each host record and title page yourself before vendoring.
 the record has no rights field, so the imprint date is the basis.
 
 Entries that exist (check main again first):
-- `hungarian-and-transylvanian-protestantism-1650-1815`;
+- `hungarian-and-transylvanian-protestantism-1650-1815` and `transylvanian-unitarian-church-1660-1906` (release 34);
 - `catholic-church-ancien-regime` (1650-1815) and `catholic-church-long-nineteenth-century` (1815-1906);
 - `the-haugean-awakening` (1796-1842) and `laestadianism-and-the-nordic-revivals` (1844-1906).
 
@@ -71,7 +71,7 @@ Delaware Swedes, and none for the Nordic state churches after 1650.
 
 | gap | candidates (archive.org id, date, djvu bytes, rights) | voice | notes |
 |---|---|---|---|
-| Transylvanian Unitarians after 1650 | `kereszteny-magveto_1861_1` (Keresztény Magvető 1861, 497,212, none); `unitriusegyhzit00unkngoog` (church marriage law, 1889, 104,363, NOT_IN_COPYRIGHT); `jegyzoknyv0000magy` (Főtanács minutes, 1912, 1,990,366, none) | insider | The Magvető (Kolozsvár, from 1861) runs to the 1930s; pick volumes. Shelf: the 1650-1815 entry only for texts written then; later ones have none yet. Ferencz (1875, 1907) is held. |
+| Transylvanian Unitarians after 1650 | `kereszteny-magveto_1861_1` (Keresztény Magvető 1861, 497,212, none); `unitriusegyhzit00unkngoog` (church marriage law, 1889, 104,363, NOT_IN_COPYRIGHT); `jegyzoknyv0000magy` (Főtanács minutes, 1912, 1,990,366, none) | insider | The Magvető (Kolozsvár, from 1861) runs to the 1930s; pick volumes. Shelf: data release 34 added `transylvanian-unitarian-church-1660-1906`, which covers the Magvető, the 1889 marriage law and the Ferencz files (release 34 shelved the 1875 one there). The 1912 minutes fall after it. |
 | Hutterites after 1785 | `diehuttererste00wolk` (Wolkan, Die Hutterer, 1918, 429,990, none; Fraktur OCR garbled) | outsider | No insider print before 1931 found. Horsch's The Hutterian Brethren is dated 1931, which is too late. |
 | Waldensians after 1655 | `histoiredelaglor00arna` (Arnaud, Glorieuse rentrée, Pignerol 1880, 496,996, none, clean); `israelofalpscom01must` (Muston, Israel of the Alps, 1866, 1,637,373, none); `gloriousrecover00arnagoog` (Arnaud in English, 1827, 448,026, NOT_IN_COPYRIGHT) | insider (Arnaud led the 1689 Return) | Muston's French original (1851) is also on archive.org. |
 | Schwenkfelders after 1650 | `genealogicalreco00krie` (Genealogical Record, 1879, 568,890, none); `schwenkfelderhym00seip` (Seipt, Schwenkfelder Hymnology, 1909, 231,198, NOT_IN_COPYRIGHT); `lehre-und-ordnungs-regeln` (Schultz, written 1838, 6,747) | insider | `lehre-und-ordnungs-regeln` carries a CC BY-NC-ND licence on its record. Check it before use, and don't take it if the licence covers the text. The 1762 hymnal itself was not found. Kriebel (1904) is held. |
