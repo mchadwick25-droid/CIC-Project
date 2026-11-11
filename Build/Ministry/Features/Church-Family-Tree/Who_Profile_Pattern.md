@@ -107,6 +107,15 @@ Run against any profile, story or listed line. Each item is pass or fail.
 13. Audio tags appear only in the audio script, at the start and before the closing line.
 14. The person keeps their list line. A Who has a body of work or a following; an outside witness is an objective historian and never a polemicist.
 
+## Era 2 scan rulings that bear on profiles
+
+From `Decision-Log.md`, "The era 2 Who scan, and the standing OUTSIDE WITNESS label" (2026-11-11), which this pattern follows.
+
+- **Outside witness is a standing label in every era.** Josephus, Tacitus, Suetonius and Ammianus Marcellinus carry it. Celsus, Porphyry, Lucian of Samosata, Julian and Libanius are polemicists and stay listed. Pliny the Younger is an open judgment call (Open-Gaps 209).
+- **Recorders are Whos.** A biographer, church historian or recorder whose work is a main source for how the church knows its people is a Who on that body of work.
+- **A founder known through a disciple's or biographer's record is a Who.** The record counts as developed with them, and the brief marks it as hagiography.
+- **A council carries no verdict.** Its participants do.
+
 ## Proposed by this spec, not yet ruled
 
 These carry no Mark ruling of their own. They follow from his rulings and stand until he changes them.
