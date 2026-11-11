@@ -1340,10 +1340,13 @@ standard for the person rewrites:
 - Years are written to be spoken naturally, not read out as bare numbers.
 - Sentences flow and connect. They are not all short and simple. Grade 8 is a floor for the
   reading level, not a target.
-- Attribution is spoken in story terms. Mark's words: "we need to not say his editor, it should be
-  accounts tell of 5 times he...". A spoken brief says "accounts tell…", "the story goes…" or "his
-  own letters say…". It does not name an editor or historian mid-sentence ("Eusebius says…", "his
-  editor writes…"). The named source goes on the card and in the sources list.
+- A brief names its real witnesses. Mark's words: "we need to not say his editor, it should be
+  accounts tell of 5 times he...", and then: "i like eusebius says thats great it was the abstract
+  reference to "his editor" that didn". So a brief names the person behind an account ("Eusebius
+  says…", "Palladius tells…", "his own letters say…"). It never refers to whoever produced the text
+  by role alone: "his editor", "the editor", "the translator", "a modern scholar", "the compiler".
+  If the source matters to the story, the brief names the person. If it does not, the brief tells
+  the event with "accounts tell…".
 - The exception keeps the brief true to its sources. When the only account is partisan or hostile,
   or the accounts disagree, the brief says so plainly in story terms ("his enemies claimed…", "one
   account says…, another…"). A contested claim is never told as settled.
