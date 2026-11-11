@@ -58,6 +58,14 @@
  *                      style (numbers from 0 to 1) and use_speaker_boost (true or
  *                      false), and optionally speed (0.7 to 1.2). Never read from
  *                      the environment. Other runs send defaultVoiceSettings.
+ *   --output-format <f>  Required for a paid person run: the ElevenLabs output
+ *                      format, e.g. mp3_44100_128. Other runs use mp3_44100_64.
+ *   --open-tag <tag>   Person runs only: an audio tag such as [calmly], put before
+ *                      the text in the request. Never in the census or on a page.
+ *   --closing-tag <tag>  Person runs only: an audio tag such as [warmly], put before
+ *                      the last sentence in the request. The manifest fingerprint
+ *                      stays the census text's; the cap counts the tagged request.
+ *                      A person run stops at its first failed request.
  *   --limit <n>        Cap the number of NEW clips generated this run (already-narrated
  *                      movements don't count against it). Omit to run the whole batch.
  *   --char-budget <n>  Stop adding movements to this run once their combined
@@ -104,7 +112,7 @@ export const NARRATION_BITRATE = '64k';
 export const defaultVoiceSettings = { stability: 0.95, similarity_boost: 0.68, style: 0.0, use_speaker_boost: true };
 
 export function parseArgs(argv) {
-  const opts = { dryRun: false, only: null, limit: null, charBudget: null, force: false, voiceId: null, model: null, approvedRun: null, charCap: null, people: false, personVoiceId: null, voiceSettings: null };
+  const opts = { dryRun: false, only: null, limit: null, charBudget: null, force: false, voiceId: null, model: null, approvedRun: null, charCap: null, people: false, personVoiceId: null, voiceSettings: null, outputFormat: null, openTag: null, closingTag: null };
   for (let i = 0; i < argv.length; i++) {
     const arg = argv[i];
     if (arg === '--dry-run') opts.dryRun = true;
@@ -114,6 +122,9 @@ export function parseArgs(argv) {
     else if (arg === '--people') opts.people = true;
     else if (arg === '--person-voice-id') opts.personVoiceId = argv[++i];
     else if (arg === '--voice-settings') opts.voiceSettings = parseVoiceSettings(argv[++i]);
+    else if (arg === '--output-format') opts.outputFormat = parseOutputFormat(argv[++i]);
+    else if (arg === '--open-tag') opts.openTag = parseAudioTag('--open-tag', argv[++i]);
+    else if (arg === '--closing-tag') opts.closingTag = parseAudioTag('--closing-tag', argv[++i]);
     else if (arg === '--model') opts.model = argv[++i];
     else if (arg === '--limit') opts.limit = Number(argv[++i]);
     else if (arg === '--char-budget') opts.charBudget = Number(argv[++i]);
@@ -160,12 +171,53 @@ export function parseVoiceSettings(value) {
   return parsed;
 }
 
+/** An ElevenLabs mp3 output format such as mp3_44100_128. */
+export function parseOutputFormat(value) {
+  if (!value || !/^mp3_\d{5}_\d{2,3}$/.test(value)) throw new Error(`--output-format must look like mp3_44100_128, got ${value}`);
+  return value;
+}
+
+/** An audio tag: one bracketed word or short phrase, such as [calmly]. */
+export function parseAudioTag(flag, value) {
+  if (!value || !/^\[[a-z][a-z ]{0,30}\]$/.test(value)) throw new Error(`${flag} must be a bracketed tag such as [calmly], got ${value}`);
+  return value;
+}
+
+/** Where the last sentence of a text starts: after the last sentence end that is followed by more text. */
+export function lastSentenceStart(text) {
+  const re = /[.!?]["\u201d\u2019']?\s+(?=\S)/g;
+  let start = 0;
+  let m;
+  while ((m = re.exec(text)) !== null) start = m.index + m[0].length;
+  return start;
+}
+
+/**
+ * The text sent to ElevenLabs: the narration text with the open tag before it
+ * and the closing tag before its last sentence. With no tags it is the text itself.
+ */
+export function requestTextFor(text, { openTag = null, closingTag = null } = {}) {
+  let out = text;
+  if (closingTag) {
+    const at = lastSentenceStart(out);
+    out = `${out.slice(0, at)}${closingTag} ${out.slice(at)}`;
+  }
+  if (openTag) out = `${openTag} ${out}`;
+  return out;
+}
+
 /**
  * Paid settings are never inherited from the environment: a run that does
  * not name its voice and model on the command refuses to start. A person run
  * names the person voice with --person-voice-id and no default narrator.
  */
-export function requirePaidSettings({ voiceId, model, people = false, personVoiceId = null, voiceSettings = null }) {
+export function requirePaidSettings({ voiceId, model, people = false, personVoiceId = null, voiceSettings = null, outputFormat = null, openTag = null, closingTag = null }) {
+  if (!people && (outputFormat || openTag || closingTag)) {
+    throw new Error('--output-format, --open-tag and --closing-tag need --people: other runs use the fixed tree format and no tags.');
+  }
+  if (people && !outputFormat) {
+    throw new Error('--output-format is required for a person run and is never read from the environment.');
+  }
   if (people && !voiceSettings) {
     throw new Error('--voice-settings is required for a person run and is never read from the environment.');
   }
@@ -361,7 +413,8 @@ export async function synthesizeWithCost(text, { apiKey, voiceId, modelId, outpu
   }
   const arrayBuffer = await response.arrayBuffer();
   const cost = Number(response.headers?.get?.('character-cost') || 0);
-  return { audio: Buffer.from(arrayBuffer), cost };
+  const requestId = response.headers?.get?.('request-id') || null;
+  return { audio: Buffer.from(arrayBuffer), cost, requestId };
 }
 
 export async function synthesize(text, options) {
@@ -397,11 +450,14 @@ async function run() {
   }
 
   const defaultVoiceId = opts.voiceId;
+  const formatSent = opts.people ? opts.outputFormat : NARRATION_OUTPUT_FORMAT;
+  const tags = opts.people ? { openTag: opts.openTag, closingTag: opts.closingTag } : {};
+  const requestChars = toGenerate.reduce((sum, m) => sum + requestTextFor(narrationTextFor(m), tags).length, 0);
   const settingsSent = opts.people ? opts.voiceSettings : defaultVoiceSettings;
   const voiceFor = (id) => (opts.people ? opts.personVoiceId : resolveVoiceId(id, { defaultVoiceId }));
   if (!opts.dryRun) {
     requirePaidSettings(opts);
-    requireApprovedRun(opts, totalChars);
+    requireApprovedRun(opts, requestChars);
   }
 
   if (opts.dryRun) {
@@ -411,8 +467,10 @@ async function run() {
       const text = narrationTextFor(m);
       const source = text === m.longDescription ? '' : ' [orientation.story]';
       const why = stale.includes(m.id) ? ' [stale]' : manifest[m.id] ? ' [forced]' : ' [new]';
-      console.log(`  would generate: ${m.id} (${text.length} chars)${why}${distinct}${source}`);
+      const sent = requestTextFor(text, tags).length;
+      console.log(`  would generate: ${m.id} (${text.length} chars${sent !== text.length ? `, ${sent} with tags` : ''})${why}${distinct}${source}`);
     });
+    if (requestChars !== totalChars) console.log(`${requestChars} characters with tags`);
     return;
   }
 
@@ -428,10 +486,11 @@ async function run() {
   } else {
     console.log(`default voice id : ${defaultVoiceId}`);
   }
-  console.log(`output format    : ${NARRATION_OUTPUT_FORMAT}`);
+  console.log(`output format    : ${formatSent}`);
   console.log(`model            : ${opts.model}`);
   console.log(`settings         : ${JSON.stringify(settingsSent)}`);
-  console.log(`items            : ${toGenerate.length}   characters: ${totalChars}`);
+  if (opts.people) console.log(`audio tags       : open ${opts.openTag || '(none)'}, before the last sentence ${opts.closingTag || '(none)'}`);
+  console.log(`items            : ${toGenerate.length}   characters: ${totalChars} text, ${requestChars} sent`);
   console.log('===========================================');
 
   let succeeded = 0;
@@ -441,16 +500,23 @@ async function run() {
     try {
       const voiceId = voiceFor(movement.id);
       const text = narrationTextFor(movement);
-      const { audio, cost } = await synthesizeWithCost(text, { apiKey, voiceId, modelId: opts.model, outputFormat: NARRATION_OUTPUT_FORMAT, voiceSettings: settingsSent });
+      const sent = requestTextFor(text, tags);
+      const { audio, cost, requestId } = await synthesizeWithCost(sent, { apiKey, voiceId, modelId: opts.model, outputFormat: formatSent, voiceSettings: settingsSent });
       fs.writeFileSync(audioPathFor(movement.id), audio);
-      manifest[movement.id] = { file: `${movement.id}.mp3`, bytes: audio.length, chars: text.length, text_sha256: narrationFingerprint(text), voiceId, model: opts.model, outputFormat: NARRATION_OUTPUT_FORMAT, voiceSettings: settingsSent };
+      const entry = { file: `${movement.id}.mp3`, bytes: audio.length, chars: text.length, text_sha256: narrationFingerprint(text), voiceId, model: opts.model, outputFormat: formatSent, voiceSettings: settingsSent };
+      if (opts.people) Object.assign(entry, { charsSent: sent.length, openTag: opts.openTag, closingTag: opts.closingTag, requestId });
+      manifest[movement.id] = entry;
       fs.writeFileSync(manifestPath, JSON.stringify(manifest, null, 1) + '\n');
       succeeded++;
       credits += cost;
-      console.log(`  ok: ${movement.id} voice=${voiceId} model=${opts.model} settings=${JSON.stringify(settingsSent)} chars=${text.length} cost=${cost}`);
+      console.log(`  ok: ${movement.id} voice=${voiceId} model=${opts.model} format=${formatSent} settings=${JSON.stringify(settingsSent)} chars=${text.length} sent=${sent.length} cost=${cost} request-id=${requestId}`);
     } catch (err) {
       failed.push({ id: movement.id, error: err.message });
       console.log(`  FAILED: ${movement.id} - ${err.message}`);
+      if (opts.people) {
+        console.log('  person run stopped at its first failure: check GET /v1/history before any retry.');
+        break;
+      }
     }
   }
 
