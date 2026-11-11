@@ -235,9 +235,9 @@
  },
  "bogomils": {
   "file": "bogomils.mp3",
-  "bytes": 509953,
-  "chars": 841,
-  "text_sha256": "fa6ac5adde5f15c7753bf55dc2e3407480c102b03bccca6fa6ed04b769ac9da7",
+  "bytes": 492816,
+  "chars": 800,
+  "text_sha256": "6b001ffb8a765a13417377e00c9095c7d04130961d44b8682186af1b5ad305a2",
   "voiceId": "onwK4e9ZLuTAKqWW03F9",
   "model": "eleven_multilingual_v2",
   "outputFormat": "mp3_44100_64"
@@ -2137,6 +2137,15 @@
   "bytes": 601695,
   "chars": 963,
   "text_sha256": "8055434009727bdd552c91f2e80d7d4b6511c72601db551b59b24d1404c9ba3b",
+  "voiceId": "onwK4e9ZLuTAKqWW03F9",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64"
+ },
+ "origen": {
+  "file": "origen.mp3",
+  "bytes": 359487,
+  "chars": 586,
+  "text_sha256": "98370d0621026bc77a3f20a7baedb68107f72a494020523157ec042acaa6c9aa",
   "voiceId": "onwK4e9ZLuTAKqWW03F9",
   "model": "eleven_multilingual_v2",
   "outputFormat": "mp3_44100_64"
