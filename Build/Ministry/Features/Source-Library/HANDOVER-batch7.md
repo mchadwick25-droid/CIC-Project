@@ -16,7 +16,7 @@ with `send_message` after each batch. Read CLAUDE.md first, all of it.
 |---|---|---|
 | 1-4 | #1577, #1579, #1581, #1584 | the people gate; the eras 8-9 holds; the earliest named gaps; the religious orders |
 | 5 | #1587 | ME-21 (Rabinowitz); the early modern mission gaps |
-| 6 | see `CFT-Wants.md`, batch 6 | 25 files for ten Europe 1650-1815 gaps; the Marsden shelf ruling |
+| 6 | #1588 | 25 files for ten Europe 1650-1815 gaps; the Marsden shelf ruling |
 
 - **The record:** `CFT-Wants.md`, one section per batch. **The decisions:** `Decision-Log.md`.
 - **Open-Gaps entries:** 170-172, 193, 198 and 199 in `Build/Ministry/Features/Church-Family-Tree/Open-Gaps.md`.
