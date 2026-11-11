@@ -89,3 +89,9 @@ Brief wording held back, same reason as above:
 - gregory-of-nyssa longDescription: the bare subject “Gregory” appears in later paragraphs; only the first mention carries the place (already listed above).
 - gregory-of-nazianzus longDescription: same; only the first mention carries the place (already listed above).
 - john-chrysostom longDescription: Palladius of Helenopolis, already listed above.
+
+## Census fields that mirror records/ (held back)
+
+These 27 census fields (entry.topics, entry.aliases, entry.shaped for 8 built worlds) are written from records/ by the census sync, so the source is the world record, not the census. They were left as they are. Fixing them means a records change order per world, then a package rebuild and a census sync. Names still bare there: Ignatius, Clement, Athanasius, Basil, Evagrius, Justin, Martin, and the like.
+
+Fields per world: alexandria-catechetical (5), cappadocian-nicene-pastoral-monastic-tradition (5), desert-monasticism (1), gallic-monastic-ascetic-christianity (8), imperial-juridical-christianity (1), post-apostolic-house-church (7).
