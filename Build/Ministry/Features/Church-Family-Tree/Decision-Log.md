@@ -1486,3 +1486,104 @@ whose text fingerprint no longer matches as stale (it used to count any recordin
 
 **Limits.** The voices cannot be confirmed from ElevenLabs' side with this key. They rest on the
 voice id in each request, the sizes, and Mark's ear on the sample.
+
+## 2026-11-11 — Person-voice delivery: setting C (Mark: "c is best")
+
+**Decided (Mark, relayed by the coordinator, 2026-11-11).** Mark heard the Origen pilot clip and
+found it "not warm and personal enough". He approved a three-way test ("yes, run the three-way
+test") and, after listening, ruled "c is best". Person briefs are recorded with:
+- voice David Baker, `fxnZk29PIJ3WKEC9MDEo`;
+- model `eleven_multilingual_v2`, output `mp3_44100_64`;
+- settings `{"stability":0.45,"similarity_boost":0.75,"style":0.3,"use_speaker_boost":true}`.
+
+Tradition briefs and stories keep their own delivery (stability 0.95, similarity 0.68, style 0,
+speaker boost on). A person run of `Build/tools/generate_tree_narration.mjs` (`--people`) takes the
+voice and the settings on the command, `--person-voice-id` and `--voice-settings`. Both are
+required, printed and never read from the environment.
+
+**The test.** The restored Origen brief (2,148 characters) was read three times in David Baker's
+voice, one clip per setting:
+
+| Clip | Settings | Length |
+|---|---|---|
+| A, as before | stability 0.95, similarity 0.68, style 0, speaker boost on | 2:26 |
+| B | stability 0.6, similarity 0.75, style 0.15, speaker boost on | 2:27 |
+| C, chosen | stability 0.45, similarity 0.75, style 0.3, speaker boost on | 2:27 |
+
+The clips are on the review page https://claude.ai/artifact/FtrkKBz8BHU9WMmDQLVu8v only. The run log
+is `Build/Ministry/Operations/Audits/2026-11-11_person-brief-pilot/recording/warmth-test.log`.
+
+## 2026-11-11 — Spend note: the Origen warmth test ran at full length
+
+**What happened.** Run "CFT Origen warmth test 2026-11-11" was approved with a cap of 6,600
+characters and recorded the full Origen brief three times. That came to 6,444 characters and 3,123
+credits, 1,041 a request by the `character-cost` headers. The account went from 216,355 to 219,478
+used. ElevenLabs' history (`GET /v1/history`) shows exactly those three requests, with the settings
+as sent, and no duplicate.
+
+Mark then revised the run: "just do 30 seconds of each", with a cap of 1,400 characters. That
+message was queued at 03:24:24Z, after all three requests had finished (about 03:24 UTC by the
+history). Recording 30 seconds of each, as Mark wanted, would have cost about 650 credits; the run
+spent about 2,470 more.
+
+**Cause.** Two coordinator sessions were relaying to the same worker at once: the outgoing one and
+its successor. The approval came from the outgoing coordinator, a minute after the incoming one had
+said to make no paid calls, and its revision then arrived too late.
+
+**Fix.** One line of command. A worker takes paid instructions only from the current coordinator.
+When coordination moves to a new session, the old one stops relaying paid approvals and passes them
+through the new one.
+
+## 2026-11-11 — Cap ruling: one recheck of the six restored person briefs
+
+**Cap ruling (2026-11-11, Mark: "a, run the Opus recheck on the six").** Six early-church
+person briefs had material cut only to fit the old 300-word ceiling. That material was restored
+after Mark ruled that length follows scope ("we are fine going over a little, infact i want to make
+sure we are not cutting off to get a perfect number"). The six are Origen, Athanasius of
+Alexandria, John Chrysostom, Gregory of Nyssa, Gregory of Nazianzus and Constantine the Great. Each
+had already used its three review rounds in the person-brief pilot. Mark ordered one targeted Opus
+recheck of the restored text, which does not count toward the cap:
+`Build/Ministry/Operations/Audits/2026-11-11_person-brief-pilot/reviews/R4_cap-ruling_recheck.md`.
+The restored drafts are in that pilot's `recheck-2026-11-11/` folder. Ephrem and Methodius lost
+nothing substantive and keep their round-3 text.
+
+## 2026-11-11 — Data release 35: the eight early-church person briefs, recorded
+
+**Done (Mark: "2", "yes, go ahead and record the 8").** The eight early-church person briefs from
+the pilot now meet the standard. They are the census `longDescription` for Origen, Methodius of
+Olympus, Constantine the Great, Athanasius of Alexandria, Ephrem the Syrian, Gregory of Nazianzus,
+Gregory of Nyssa and John Chrysostom, in data release 35. Each person's page plays the brief in
+David Baker's voice.
+
+**Length.** Text cut only to fit 300 words was restored, and six briefs gained material. The
+recheck is in "Cap ruling: one recheck of the six restored person briefs" (2026-11-11), and the
+texts and cards are in `Build/Ministry/Operations/Audits/2026-11-11_person-brief-pilot/final/`.
+Each person card is saved there as JSON, ready for the people-layer build. No census field was
+added for the cards.
+
+| Person | Words | Recorded |
+|---|---|---|
+| Origen | 374 | 2:30 |
+| John Chrysostom | 360 | 2:26 |
+| Gregory of Nyssa | 346 | 2:12 |
+| Athanasius of Alexandria | 325 | 2:14 |
+| Constantine the Great | 312 | 1:58 |
+| Gregory of Nazianzus | 307 | 2:06 |
+| Ephrem the Syrian | 269 | 1:49 |
+| Methodius of Olympus | 222 | 1:28 |
+
+**Run "CFT early-church people 8, 2026-11-11".**
+- Voice and model: David Baker (`fxnZk29PIJ3WKEC9MDEo`), `eleven_multilingual_v2`,
+  `mp3_44100_64`.
+- Settings: `{"stability":0.45,"similarity_boost":0.75,"style":0.3,"use_speaker_boost":true}`
+  (delivery C). They were passed on the command with `--people`, `--person-voice-id` and
+  `--voice-settings`, and printed on every request.
+- Characters: 14,313, under the cap of 15,000.
+- Credits: 6,939 by the `character-cost` headers. The account went from 219,478 used to 226,417.
+  ElevenLabs' history shows the same 8 requests and 6,939 credits, with the settings as sent and
+  no duplicate.
+- Log: `Build/Ministry/Operations/Audits/2026-11-11_person-brief-pilot/recording/early-people-8.log`.
+
+The pilot clips were never on the site, and these recordings replace them. Tertullian was not in
+this run. The map still leaves person rows out until the people layer is built, so the recordings
+play on each person's own page.
