@@ -1,0 +1,66 @@
+{
+ "known_for": "Monk and priest of Wearmouth and Jarrow who wrote the Ecclesiastical History of the English nation.",
+ "role": "Monk, priest and historian",
+ "key_works": [
+  {
+   "title": "Ecclesiastical History of the English Nation",
+   "about": "five books on the English church, sent to King Ceolwulph"
+  },
+  {
+   "title": "Life of Cuthbert",
+   "about": "the monk and bishop, in verse and then in prose"
+  },
+  {
+   "title": "On the Times",
+   "about": "his book on reckoning time, where, he says, he proved Aidan's way of keeping Easter wrong"
+  }
+ ],
+ "legacy_traces": [
+  "About the year 800, Alcuin, in the books against Felix of Urgel that he sent to Charlemagne, cites blessed Bede the priest on the Acts of the Apostles and on the Song of Songs.",
+  "Much later an English Lollard tract still leans on Bede: the signs of miracles, it says with him and with Gregory, were needed only at the church's beginning, as we water plants until they have taken root and then stop."
+ ],
+ "legacy_remembered": [
+  "Rome honors him. Its Breviary keeps Bede the Venerable on the twenty-seventh of May as Confessor and Doctor of the Church, and an English Roman Missal of 1843 calls on God, who enlightened his church by the learning of blessed Bede."
+ ],
+ "uncertain": [
+  "Bede means to be fair but does not hide his side. He praises Aidan's peace, humility and care for the poor while rejecting his Easter, and even defends him: Aidan kept it on the Lord's day, for faith in the resurrection, not on the fourteenth moon like the Jews, as some falsely imagine. Of the Britons he writes that most of them, through innate hatred, oppose the English and the appointed Easter.",
+  "Bede's own account of his life stops in his fifty-ninth year, while he was still at work. The story of his last hours was written by his pupil Cuthbert."
+ ],
+ "written_about": [
+  {
+   "title": "Biographical Notice, printed at the close of the Giles edition of the Ecclesiastical History",
+   "author": "unsigned editor",
+   "date": null,
+   "language": "English",
+   "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt"
+  },
+  {
+   "title": "The Roman Breviary (calendar entry for 27 May)",
+   "author": "translated by the Marquess of Bute",
+   "date": "1908 edition",
+   "language": "English translation",
+   "file": "cic/texts/roman-breviary_bute1908.txt"
+  },
+  {
+   "title": "The Roman Missal (collect for Bede)",
+   "author": null,
+   "date": "1843 edition",
+   "language": "English translation",
+   "file": "cic/texts/roman-missal_england1843.txt"
+  },
+  {
+   "title": "Letter to Charlemagne sending the seven books against Felix of Urgel",
+   "author": "Alcuin",
+   "date": "about 800",
+   "language": "Latin",
+   "file": "cic/texts/alcuin_opera-omnia-letters_migne-pl100-101_1863.txt"
+  },
+  {
+   "title": "An Apology for Lollard Doctrines",
+   "author": "anonymous Lollard writer",
+   "date": null,
+   "language": "Middle English",
+   "file": "cic/texts/apology-for-lollard-doctrines_todd1842.txt"
+  }
+ ]
+}
