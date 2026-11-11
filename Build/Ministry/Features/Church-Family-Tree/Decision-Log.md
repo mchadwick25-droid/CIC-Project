@@ -1546,3 +1546,44 @@ recheck of the restored text, which does not count toward the cap:
 `Build/Ministry/Operations/Audits/2026-11-11_person-brief-pilot/reviews/R4_cap-ruling_recheck.md`.
 The restored drafts are in that pilot's `recheck-2026-11-11/` folder. Ephrem and Methodius lost
 nothing substantive and keep their round-3 text.
+
+## 2026-11-11 — Data release 35: the eight early-church person briefs, recorded
+
+**Done (Mark: "2", "yes, go ahead and record the 8").** The eight early-church person briefs from
+the pilot now meet the standard. They are the census `longDescription` for Origen, Methodius of
+Olympus, Constantine the Great, Athanasius of Alexandria, Ephrem the Syrian, Gregory of Nazianzus,
+Gregory of Nyssa and John Chrysostom, in data release 35. Each person's page plays the brief in
+David Baker's voice.
+
+**Length.** Text cut only to fit 300 words was restored, and six briefs gained material. The
+recheck is in "Cap ruling: one recheck of the six restored person briefs" (2026-11-11), and the
+texts and cards are in `Build/Ministry/Operations/Audits/2026-11-11_person-brief-pilot/final/`.
+Each person card is saved there as JSON, ready for the people-layer build. No census field was
+added for the cards.
+
+| Person | Words | Recorded |
+|---|---|---|
+| Origen | 374 | 2:30 |
+| John Chrysostom | 360 | 2:26 |
+| Gregory of Nyssa | 346 | 2:12 |
+| Athanasius of Alexandria | 325 | 2:14 |
+| Constantine the Great | 312 | 1:58 |
+| Gregory of Nazianzus | 307 | 2:06 |
+| Ephrem the Syrian | 269 | 1:49 |
+| Methodius of Olympus | 222 | 1:28 |
+
+**Run "CFT early-church people 8, 2026-11-11".**
+- Voice and model: David Baker (`fxnZk29PIJ3WKEC9MDEo`), `eleven_multilingual_v2`,
+  `mp3_44100_64`.
+- Settings: `{"stability":0.45,"similarity_boost":0.75,"style":0.3,"use_speaker_boost":true}`
+  (delivery C). They were passed on the command with `--people`, `--person-voice-id` and
+  `--voice-settings`, and printed on every request.
+- Characters: 14,313, under the cap of 15,000.
+- Credits: 6,939 by the `character-cost` headers. The account went from 219,478 used to 226,417.
+  ElevenLabs' history shows the same 8 requests and 6,939 credits, with the settings as sent and
+  no duplicate.
+- Log: `Build/Ministry/Operations/Audits/2026-11-11_person-brief-pilot/recording/early-people-8.log`.
+
+The pilot clips were never on the site, and these recordings replace them. Tertullian was not in
+this run. The map still leaves person rows out until the people layer is built, so the recordings
+play on each person's own page.

@@ -2806,5 +2806,125 @@
   "voiceId": "onwK4e9ZLuTAKqWW03F9",
   "model": "eleven_multilingual_v2",
   "outputFormat": "mp3_44100_64"
+ },
+ "origen": {
+  "file": "origen.mp3",
+  "bytes": 1200839,
+  "chars": 2143,
+  "text_sha256": "71322d28b39e4718a8a45de17f6afdc3af36d7524915136edb7456a3d01c1816",
+  "voiceId": "fxnZk29PIJ3WKEC9MDEo",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64",
+  "voiceSettings": {
+   "stability": 0.45,
+   "similarity_boost": 0.75,
+   "style": 0.3,
+   "use_speaker_boost": true
+  }
+ },
+ "athanasius-of-alexandria": {
+  "file": "athanasius-of-alexandria.mp3",
+  "bytes": 1070227,
+  "chars": 1836,
+  "text_sha256": "faab7460ab1b4cb0262b9a75fa6d33513a673f4e422a3f4be196f20dc945cbd3",
+  "voiceId": "fxnZk29PIJ3WKEC9MDEo",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64",
+  "voiceSettings": {
+   "stability": 0.45,
+   "similarity_boost": 0.75,
+   "style": 0.3,
+   "use_speaker_boost": true
+  }
+ },
+ "gregory-of-nyssa": {
+  "file": "gregory-of-nyssa.mp3",
+  "bytes": 1056852,
+  "chars": 1913,
+  "text_sha256": "74bedb92485e9eb05f5c9781b480948eb3ebea8fe350274a8391670f20587622",
+  "voiceId": "fxnZk29PIJ3WKEC9MDEo",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64",
+  "voiceSettings": {
+   "stability": 0.45,
+   "similarity_boost": 0.75,
+   "style": 0.3,
+   "use_speaker_boost": true
+  }
+ },
+ "ephrem-the-syrian": {
+  "file": "ephrem-the-syrian.mp3",
+  "bytes": 870234,
+  "chars": 1539,
+  "text_sha256": "1ef3166469bcd709646f3f207ef98511153c963286ea96a8baeb46d0c120e405",
+  "voiceId": "fxnZk29PIJ3WKEC9MDEo",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64",
+  "voiceSettings": {
+   "stability": 0.45,
+   "similarity_boost": 0.75,
+   "style": 0.3,
+   "use_speaker_boost": true
+  }
+ },
+ "john-chrysostom": {
+  "file": "john-chrysostom.mp3",
+  "bytes": 1169283,
+  "chars": 2104,
+  "text_sha256": "af631c57217925897d19e88cbe982425e2760d58b0e0184a5f42a8e26000be99",
+  "voiceId": "fxnZk29PIJ3WKEC9MDEo",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64",
+  "voiceSettings": {
+   "stability": 0.45,
+   "similarity_boost": 0.75,
+   "style": 0.3,
+   "use_speaker_boost": true
+  }
+ },
+ "methodius-of-olympus": {
+  "file": "methodius-of-olympus.mp3",
+  "bytes": 703468,
+  "chars": 1254,
+  "text_sha256": "b176b912c1b42a903b62d7d7651855f49b5d7ed6ea6572cb2190af30f562559f",
+  "voiceId": "fxnZk29PIJ3WKEC9MDEo",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64",
+  "voiceSettings": {
+   "stability": 0.45,
+   "similarity_boost": 0.75,
+   "style": 0.3,
+   "use_speaker_boost": true
+  }
+ },
+ "constantine-the-great": {
+  "file": "constantine-the-great.mp3",
+  "bytes": 944630,
+  "chars": 1774,
+  "text_sha256": "ac6dba45d42928f4ca34bb0f2f3cb318f88e00899cf80d0517224b000752f76d",
+  "voiceId": "fxnZk29PIJ3WKEC9MDEo",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64",
+  "voiceSettings": {
+   "stability": 0.45,
+   "similarity_boost": 0.75,
+   "style": 0.3,
+   "use_speaker_boost": true
+  }
+ },
+ "gregory-of-nazianzus": {
+  "file": "gregory-of-nazianzus.mp3",
+  "bytes": 1007324,
+  "chars": 1750,
+  "text_sha256": "1ae0437eb98d18368aa901b10ba8249df41750d1db79d3300937c7fe2c6672f5",
+  "voiceId": "fxnZk29PIJ3WKEC9MDEo",
+  "model": "eleven_multilingual_v2",
+  "outputFormat": "mp3_44100_64",
+  "voiceSettings": {
+   "stability": 0.45,
+   "similarity_boost": 0.75,
+   "style": 0.3,
+   "use_speaker_boost": true
+  }
  }
 }
