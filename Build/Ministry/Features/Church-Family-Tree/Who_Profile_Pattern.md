@@ -19,7 +19,7 @@ This pattern adds nothing to how the words are written. It adopts the standard b
 
 All made on 2026-11-11 and in the Decision-Log. They apply to every participant-facing person text: briefs, cards, stories, tree pages and council Who lists.
 
-- **Common names (Mark: "if a name is common we need to clarify from where"; "dont forget the newer ones like name full or place of common names like we did for socratise").** At its first mention in a text, a name that could mean more than one person gets its full name, a role, a place or a time: "the church historian Socrates", "Eusebius of Caesarea", "Palladius of Helenopolis". The brief and the card are separate texts and each has its own first mention. The identifier comes from the vendored sources and adds no claim.
+- **Common names (Mark: "if a name is common we need to clarify from where"; "dont forget the newer ones like name full or place of common names like we did for socratise").** At its first mention in a text, a name that could mean more than one person gets its name with a place, in the form scholars use (Mark: "socrates from constantinopel"): "Socrates of Constantinople", "Eusebius of Caesarea", "Palladius of Helenopolis". A role or a time is added only where the place does not identify the person. The live briefs' "the church historian Socrates" predates this refinement. The brief and the card are separate texts and each has its own first mention. The identifier comes from the vendored sources and adds no claim.
 - **Real witnesses named.** "Eusebius says", "Palladius tells", "his own letters say". Never "his editor", "the translator" or "a modern scholar".
 - **Natural dates.** Years read as they are spoken, not as bare numbers.
 - **Hostile witnesses.** Named, with polemic marked as polemic and its owner named.
@@ -70,7 +70,7 @@ Mark: "counsels are treated like a tradition with a different icon and title. bu
 ## Naming
 
 - **Display name.** The census `name`, in English, with "of <place>" where the name alone is not enough. `shortName` for second mentions.
-- **First mention.** A name that could mean more than one person gets a role, a place or a time, in each separate text.
+- **First mention.** A name that could mean more than one person gets "name of place" ("Socrates of Constantinople"), in each separate text. A role or a time is added only where a place does not identify the person.
 - **Epithets.** Used where the record uses them, and named as the record's.
 - **Other forms on the card.** The census `informalName`. An original-language form only where a vendored source spells it. Basis: the source-fidelity rule, which allows no claim the sources do not carry.
 - **Namesakes.** Always carry the place or the epithet the record uses: Lucian of Antioch and Lucian of Samosata; Dionysius of Alexandria and Dionysius of Rome.
@@ -98,7 +98,7 @@ Run against any profile, story or listed line. Each item is pass or fail.
 5. No role standing in for a named witness ("his editor", "a modern scholar").
 6. A partisan or hostile witness is named and marked. A hostile-witness founder has two witnesses for the teaching.
 7. A contested claim shows both sides by name and is never told as settled (1.8).
-8. Common names have their full name, role, place or time at first mention in each separate text: brief, card, story, tree page and council Who list. Check the first mention of every name that could mean more than one person.
+8. Common names have their name of place ("Socrates of Constantinople"), with a role or time only where the place does not identify them, at first mention in each separate text: brief, card, story, tree page and council Who list. Check the first mention of every name that could mean more than one person.
 9. One term for one thing across the text (1.9).
 10. The brief reads as a story, opens on a scene, tells disputes in place, and is 1 to 2 minutes, longer only for a major figure.
 11. Readability passes `grade_text`: FK 10 or below, Flesch 60 or above.
