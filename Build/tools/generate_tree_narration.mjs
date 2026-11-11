@@ -53,6 +53,11 @@
  *   --person-voice-id <id>  Required for a paid person run, and used for every person
  *                      row in it. Never read from the environment. A person run
  *                      takes no --voice-id.
+ *   --voice-settings <json>  Required for a paid person run: the delivery sent with
+ *                      every request, as JSON with stability, similarity_boost and
+ *                      style (numbers from 0 to 1) and use_speaker_boost (true or
+ *                      false), and optionally speed (0.7 to 1.2). Never read from
+ *                      the environment. Other runs send defaultVoiceSettings.
  *   --limit <n>        Cap the number of NEW clips generated this run (already-narrated
  *                      movements don't count against it). Omit to run the whole batch.
  *   --char-budget <n>  Stop adding movements to this run once their combined
@@ -99,7 +104,7 @@ export const NARRATION_BITRATE = '64k';
 export const defaultVoiceSettings = { stability: 0.95, similarity_boost: 0.68, style: 0.0, use_speaker_boost: true };
 
 export function parseArgs(argv) {
-  const opts = { dryRun: false, only: null, limit: null, charBudget: null, force: false, voiceId: null, model: null, approvedRun: null, charCap: null, people: false, personVoiceId: null };
+  const opts = { dryRun: false, only: null, limit: null, charBudget: null, force: false, voiceId: null, model: null, approvedRun: null, charCap: null, people: false, personVoiceId: null, voiceSettings: null };
   for (let i = 0; i < argv.length; i++) {
     const arg = argv[i];
     if (arg === '--dry-run') opts.dryRun = true;
@@ -108,6 +113,7 @@ export function parseArgs(argv) {
     else if (arg === '--voice-id') opts.voiceId = argv[++i];
     else if (arg === '--people') opts.people = true;
     else if (arg === '--person-voice-id') opts.personVoiceId = argv[++i];
+    else if (arg === '--voice-settings') opts.voiceSettings = parseVoiceSettings(argv[++i]);
     else if (arg === '--model') opts.model = argv[++i];
     else if (arg === '--limit') opts.limit = Number(argv[++i]);
     else if (arg === '--char-budget') opts.charBudget = Number(argv[++i]);
@@ -124,12 +130,48 @@ export function parseArgs(argv) {
   return opts;
 }
 
+const VOICE_SETTING_KEYS = ['stability', 'similarity_boost', 'style', 'use_speaker_boost', 'speed'];
+
+/**
+ * The delivery a --voice-settings value names. stability, similarity_boost,
+ * style and use_speaker_boost are all required; speed is optional. An unknown
+ * key, a missing key or a value out of range refuses the run.
+ */
+export function parseVoiceSettings(value) {
+  if (!value || value.startsWith('--')) throw new Error('--voice-settings needs a JSON object.');
+  let parsed;
+  try {
+    parsed = JSON.parse(value);
+  } catch {
+    throw new Error(`--voice-settings is not valid JSON: ${value}`);
+  }
+  if (!parsed || typeof parsed !== 'object' || Array.isArray(parsed)) throw new Error('--voice-settings must be a JSON object.');
+  for (const key of Object.keys(parsed)) {
+    if (!VOICE_SETTING_KEYS.includes(key)) throw new Error(`--voice-settings has an unknown key: ${key}`);
+  }
+  for (const key of ['stability', 'similarity_boost', 'style']) {
+    const v = parsed[key];
+    if (typeof v !== 'number' || !Number.isFinite(v) || v < 0 || v > 1) throw new Error(`--voice-settings ${key} must be a number from 0 to 1.`);
+  }
+  if (typeof parsed.use_speaker_boost !== 'boolean') throw new Error('--voice-settings use_speaker_boost must be true or false.');
+  if ('speed' in parsed && (typeof parsed.speed !== 'number' || parsed.speed < 0.7 || parsed.speed > 1.2)) {
+    throw new Error('--voice-settings speed must be a number from 0.7 to 1.2.');
+  }
+  return parsed;
+}
+
 /**
  * Paid settings are never inherited from the environment: a run that does
  * not name its voice and model on the command refuses to start. A person run
  * names the person voice with --person-voice-id and no default narrator.
  */
-export function requirePaidSettings({ voiceId, model, people = false, personVoiceId = null }) {
+export function requirePaidSettings({ voiceId, model, people = false, personVoiceId = null, voiceSettings = null }) {
+  if (people && !voiceSettings) {
+    throw new Error('--voice-settings is required for a person run and is never read from the environment.');
+  }
+  if (!people && voiceSettings) {
+    throw new Error('--voice-settings needs --people: other runs send the converged default delivery.');
+  }
   if (people && voiceId) {
     throw new Error('a person run takes --person-voice-id, not --voice-id.');
   }
@@ -355,6 +397,7 @@ async function run() {
   }
 
   const defaultVoiceId = opts.voiceId;
+  const settingsSent = opts.people ? opts.voiceSettings : defaultVoiceSettings;
   const voiceFor = (id) => (opts.people ? opts.personVoiceId : resolveVoiceId(id, { defaultVoiceId }));
   if (!opts.dryRun) {
     requirePaidSettings(opts);
@@ -387,7 +430,7 @@ async function run() {
   }
   console.log(`output format    : ${NARRATION_OUTPUT_FORMAT}`);
   console.log(`model            : ${opts.model}`);
-  console.log(`settings         : ${JSON.stringify(defaultVoiceSettings)}`);
+  console.log(`settings         : ${JSON.stringify(settingsSent)}`);
   console.log(`items            : ${toGenerate.length}   characters: ${totalChars}`);
   console.log('===========================================');
 
@@ -398,13 +441,13 @@ async function run() {
     try {
       const voiceId = voiceFor(movement.id);
       const text = narrationTextFor(movement);
-      const { audio, cost } = await synthesizeWithCost(text, { apiKey, voiceId, modelId: opts.model, outputFormat: NARRATION_OUTPUT_FORMAT });
+      const { audio, cost } = await synthesizeWithCost(text, { apiKey, voiceId, modelId: opts.model, outputFormat: NARRATION_OUTPUT_FORMAT, voiceSettings: settingsSent });
       fs.writeFileSync(audioPathFor(movement.id), audio);
-      manifest[movement.id] = { file: `${movement.id}.mp3`, bytes: audio.length, chars: text.length, text_sha256: narrationFingerprint(text), voiceId, model: opts.model, outputFormat: NARRATION_OUTPUT_FORMAT };
+      manifest[movement.id] = { file: `${movement.id}.mp3`, bytes: audio.length, chars: text.length, text_sha256: narrationFingerprint(text), voiceId, model: opts.model, outputFormat: NARRATION_OUTPUT_FORMAT, voiceSettings: settingsSent };
       fs.writeFileSync(manifestPath, JSON.stringify(manifest, null, 1) + '\n');
       succeeded++;
       credits += cost;
-      console.log(`  ok: ${movement.id} voice=${voiceId} model=${opts.model} chars=${text.length} cost=${cost}`);
+      console.log(`  ok: ${movement.id} voice=${voiceId} model=${opts.model} settings=${JSON.stringify(settingsSent)} chars=${text.length} cost=${cost}`);
     } catch (err) {
       failed.push({ id: movement.id, error: err.message });
       console.log(`  FAILED: ${movement.id} - ${err.message}`);

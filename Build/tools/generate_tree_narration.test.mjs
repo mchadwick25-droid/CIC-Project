@@ -1,7 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import path from 'path';
-import { parseArgs, requireApprovedRun, requirePaidSettings, onlyIds, planNarration, synthesize, synthesizeWithCost, audioPathFor, audioDir, resolveVoiceId, narrationTextFor, defaultVoiceSettings, narrationFingerprint, recordingMatchesText, hasOwnWorldStory } from './generate_tree_narration.mjs';
+import { parseArgs, requireApprovedRun, requirePaidSettings, parseVoiceSettings, onlyIds, planNarration, synthesize, synthesizeWithCost, audioPathFor, audioDir, resolveVoiceId, narrationTextFor, defaultVoiceSettings, narrationFingerprint, recordingMatchesText, hasOwnWorldStory } from './generate_tree_narration.mjs';
 
 function movement(id, overrides = {}) {
   return { id, name: id, longDescription: `The story of ${id}.`, ...overrides };
@@ -13,7 +13,7 @@ function recorded(m) {
 }
 
 test('parseArgs: defaults with no flags', () => {
-  assert.deepEqual(parseArgs([]), { dryRun: false, only: null, limit: null, charBudget: null, force: false, voiceId: null, model: null, approvedRun: null, charCap: null, people: false, personVoiceId: null });
+  assert.deepEqual(parseArgs([]), { dryRun: false, only: null, limit: null, charBudget: null, force: false, voiceId: null, model: null, approvedRun: null, charCap: null, people: false, personVoiceId: null, voiceSettings: null });
 });
 
 test('parseArgs: recognizes every flag', () => {
@@ -29,6 +29,7 @@ test('parseArgs: recognizes every flag', () => {
     charCap: 9000,
     people: false,
     personVoiceId: null,
+    voiceSettings: null,
   });
   assert.deepEqual(parseArgs(['--people', '--person-voice-id', 'pv']).people, true);
   assert.deepEqual(parseArgs(['--people', '--person-voice-id', 'pv']).personVoiceId, 'pv');
@@ -336,16 +337,55 @@ test('requirePaidSettings: refuses a missing voice or model, never reads the env
   }
 });
 
+const SETTINGS = { stability: 0.5, similarity_boost: 0.75, style: 0.2, use_speaker_boost: true };
+
+test('parseVoiceSettings: accepts the four required keys and an optional speed', () => {
+  assert.deepEqual(parseVoiceSettings(JSON.stringify(SETTINGS)), SETTINGS);
+  assert.deepEqual(parseVoiceSettings(JSON.stringify({ ...SETTINGS, speed: 0.95 })), { ...SETTINGS, speed: 0.95 });
+  assert.deepEqual(parseArgs(['--voice-settings', JSON.stringify(SETTINGS)]).voiceSettings, SETTINGS);
+});
+
+test('parseVoiceSettings: refuses a missing, unknown or out-of-range setting', () => {
+  assert.throws(() => parseVoiceSettings(undefined), /needs a JSON object/);
+  assert.throws(() => parseVoiceSettings('--model'), /needs a JSON object/);
+  assert.throws(() => parseVoiceSettings('{bad'), /not valid JSON/);
+  assert.throws(() => parseVoiceSettings('[1]'), /must be a JSON object/);
+  assert.throws(() => parseVoiceSettings(JSON.stringify({ ...SETTINGS, tone: 1 })), /unknown key: tone/);
+  for (const key of ['stability', 'similarity_boost', 'style']) {
+    const missing = { ...SETTINGS };
+    delete missing[key];
+    assert.throws(() => parseVoiceSettings(JSON.stringify(missing)), new RegExp(`${key} must be a number`));
+    assert.throws(() => parseVoiceSettings(JSON.stringify({ ...SETTINGS, [key]: 1.5 })), new RegExp(`${key} must be a number`));
+  }
+  assert.throws(() => parseVoiceSettings(JSON.stringify({ ...SETTINGS, use_speaker_boost: 'yes' })), /use_speaker_boost/);
+  assert.throws(() => parseVoiceSettings(JSON.stringify({ stability: 0.5, similarity_boost: 0.5, style: 0 })), /use_speaker_boost/);
+  assert.throws(() => parseVoiceSettings(JSON.stringify({ ...SETTINGS, speed: 2 })), /speed/);
+});
+
+test('synthesizeWithCost: sends the voice settings it is given', async () => {
+  let body;
+  const fetchImpl = async (url, init) => {
+    body = JSON.parse(init.body);
+    return { ok: true, arrayBuffer: async () => new ArrayBuffer(1), headers: { get: () => '7' } };
+  };
+  const { cost } = await synthesizeWithCost('t', { apiKey: 'k', voiceId: 'pv', modelId: 'm', voiceSettings: { ...SETTINGS, speed: 0.9 }, fetchImpl });
+  assert.deepEqual(body.voice_settings, { ...SETTINGS, speed: 0.9 });
+  assert.equal(cost, 7);
+});
+
 test('requirePaidSettings: a person run requires --person-voice-id, takes no --voice-id, never reads the environment', () => {
   const saved = process.env.ELEVENLABS_PERSON_VOICE_ID;
   process.env.ELEVENLABS_PERSON_VOICE_ID = 'from-env';
   try {
-    assert.throws(() => requirePaidSettings({ people: true, personVoiceId: null, model: 'm' }), /--person-voice-id is required/);
-    assert.throws(() => requirePaidSettings({ people: true, personVoiceId: '--model', model: 'm' }), /--person-voice-id is required/);
-    assert.throws(() => requirePaidSettings({ people: true, personVoiceId: 'pv', model: null }), /--model is required/);
-    assert.throws(() => requirePaidSettings({ people: true, personVoiceId: 'pv', voiceId: 'v', model: 'm' }), /not --voice-id/);
+    const vs = SETTINGS;
+    assert.throws(() => requirePaidSettings({ people: true, personVoiceId: null, model: 'm', voiceSettings: vs }), /--person-voice-id is required/);
+    assert.throws(() => requirePaidSettings({ people: true, personVoiceId: '--model', model: 'm', voiceSettings: vs }), /--person-voice-id is required/);
+    assert.throws(() => requirePaidSettings({ people: true, personVoiceId: 'pv', model: null, voiceSettings: vs }), /--model is required/);
+    assert.throws(() => requirePaidSettings({ people: true, personVoiceId: 'pv', voiceId: 'v', model: 'm', voiceSettings: vs }), /not --voice-id/);
     assert.throws(() => requirePaidSettings({ people: false, personVoiceId: 'pv', voiceId: 'v', model: 'm' }), /needs --people/);
-    requirePaidSettings({ people: true, personVoiceId: 'pv', model: 'm' });
+    assert.throws(() => requirePaidSettings({ people: true, personVoiceId: 'pv', model: 'm' }), /--voice-settings is required/);
+    assert.throws(() => requirePaidSettings({ people: false, voiceId: 'v', model: 'm', voiceSettings: vs }), /--voice-settings needs --people/);
+    requirePaidSettings({ people: true, personVoiceId: 'pv', model: 'm', voiceSettings: vs });
   } finally {
     if (saved === undefined) delete process.env.ELEVENLABS_PERSON_VOICE_ID; else process.env.ELEVENLABS_PERSON_VOICE_ID = saved;
   }
