@@ -1301,3 +1301,30 @@ change order (G89-6 a). Each item was tested against its vendored source first. 
 
 **For Mark, through the coordinator:** two Section A questions, the Tolstoyans and the Dukhobors
 (Open-Gaps, "Two Section A questions for Mark", 2026-11-10).
+
+## 2026-11-11 — Person briefs: a flexible 60–90 seconds (Mark, 2026-11-11)
+
+**Decided (Mark, relayed by the coordinator: "go with option 1, flexible 60–90 seconds").** A
+person's brief runs 60 to 90 seconds when read aloud, about 150 to 220 words. What the sources
+carry sets the length, and a brief is never padded to reach it.
+
+Options shown: (1) a flexible 60–90 seconds, 150–220 words, set by what the sources carry
+(chosen); (2) a fixed one minute; (3) 90 seconds to 2 minutes for every person.
+
+**The brief's shape.**
+1. Who they were, in one line, with time and place.
+2. What they did or wrote that mattered.
+3. Why it mattered, both to their own tradition and to its opponents.
+4. One line in their own words, where the Library holds them.
+
+Facts the person's card already shows (dates, place, role, works) are not repeated.
+
+**Where it applies.** Next week's briefs for the 340 named people. The 39 person briefs in the
+census on 2026-11-11 run 58 to 246 words (median 178): 23 fall within 150–220 words, 10 are
+shorter and 6 are longer. No ruling has been made on whether the 16 outside the range are
+rewritten.
+- Shorter: Ephrem the Syrian 58, Origen 99, Hugo Grotius 104, Athanasius of Alexandria 107, John
+  Chrysostom 112, Bede of Jarrow 114, Gregory of Nyssa 117, Gregory of Nazianzus 121, Constantine
+  the Great 123, Methodius of Olympus 141.
+- Longer: Augustine of Hippo 221, Ambrose of Milan 227, Jovinian 230, Thomas à Kempis 224,
+  Bonaventure 239, Heraclius 246.
