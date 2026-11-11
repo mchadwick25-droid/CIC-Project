@@ -45,7 +45,14 @@
  *   --voice-id <id>    Required (except --dry-run). Default narrator voice.
  *   --model <id>       Required (except --dry-run). ElevenLabs model id.
  *   --dry-run          Report what would be generated; no API calls, no files written.
- *   --only <id>        Generate (or dry-run) a single movement by its census id.
+ *   --only <ids>       Generate (or dry-run) only these movements: one census id, or
+ *                      several separated by commas.
+ *   --people           A person run: plans person rows only (kind "person"), which
+ *                      every other run leaves out. Combine with --only to name the
+ *                      people whose briefs are approved for recording.
+ *   --person-voice-id <id>  Required for a paid person run, and used for every person
+ *                      row in it. Never read from the environment. A person run
+ *                      takes no --voice-id.
  *   --limit <n>        Cap the number of NEW clips generated this run (already-narrated
  *                      movements don't count against it). Omit to run the whole batch.
  *   --char-budget <n>  Stop adding movements to this run once their combined
@@ -92,13 +99,15 @@ export const NARRATION_BITRATE = '64k';
 export const defaultVoiceSettings = { stability: 0.95, similarity_boost: 0.68, style: 0.0, use_speaker_boost: true };
 
 export function parseArgs(argv) {
-  const opts = { dryRun: false, only: null, limit: null, charBudget: null, force: false, voiceId: null, model: null, approvedRun: null, charCap: null };
+  const opts = { dryRun: false, only: null, limit: null, charBudget: null, force: false, voiceId: null, model: null, approvedRun: null, charCap: null, people: false, personVoiceId: null };
   for (let i = 0; i < argv.length; i++) {
     const arg = argv[i];
     if (arg === '--dry-run') opts.dryRun = true;
     else if (arg === '--force') opts.force = true;
     else if (arg === '--only') opts.only = argv[++i];
     else if (arg === '--voice-id') opts.voiceId = argv[++i];
+    else if (arg === '--people') opts.people = true;
+    else if (arg === '--person-voice-id') opts.personVoiceId = argv[++i];
     else if (arg === '--model') opts.model = argv[++i];
     else if (arg === '--limit') opts.limit = Number(argv[++i]);
     else if (arg === '--char-budget') opts.charBudget = Number(argv[++i]);
@@ -117,14 +126,28 @@ export function parseArgs(argv) {
 
 /**
  * Paid settings are never inherited from the environment: a run that does
- * not name its voice and model on the command refuses to start.
+ * not name its voice and model on the command refuses to start. A person run
+ * names the person voice with --person-voice-id and no default narrator.
  */
-export function requirePaidSettings({ voiceId, model }) {
-  for (const [flag, value] of [['--voice-id', voiceId], ['--model', model]]) {
+export function requirePaidSettings({ voiceId, model, people = false, personVoiceId = null }) {
+  if (people && voiceId) {
+    throw new Error('a person run takes --person-voice-id, not --voice-id.');
+  }
+  if (!people && personVoiceId) {
+    throw new Error('--person-voice-id needs --people: only a person run records person rows.');
+  }
+  const voiceFlag = people ? ['--person-voice-id', personVoiceId] : ['--voice-id', voiceId];
+  for (const [flag, value] of [voiceFlag, ['--model', model]]) {
     if (!value || value.startsWith('--')) {
       throw new Error(`${flag} is required and is never read from the environment.`);
     }
   }
+}
+
+/** The ids an --only value names: one id, or several separated by commas. */
+export function onlyIds(only) {
+  if (!only) return null;
+  return only.split(',').map((id) => id.trim()).filter(Boolean);
 }
 
 /**
@@ -200,23 +223,25 @@ export function recordingMatchesText(entry, text) {
 }
 
 /**
- * Person rows are left out: their briefs are being rewritten to the person-brief
- * standard and will be recorded together in their own voice (CFT Decision-Log,
- * 2026-11-11, "Person briefs: 60 to 120 seconds, personal and theological").
+ * Person rows are recorded in their own voice, only in a person run (--people);
+ * every other run leaves them out.
  *
  * Movements that need a narration clip generated this run, in stable
  * (declared) order - never a claim about which ones already have one,
  * only which ones this run should act on given the options passed.
  */
-export function planNarration(movements, { only, force, limit, charBudget = null, manifest = {}, textForFn = narrationTextFor, ownWorldStoryFn = hasOwnWorldStory }) {
+export function planNarration(movements, { only, force, limit, charBudget = null, people = false, manifest = {}, textForFn = narrationTextFor, ownWorldStoryFn = hasOwnWorldStory }) {
   const withText = movements.filter((m) => m.longDescription && m.longDescription.trim());
   const skippedNoText = movements.length - withText.length;
   const skippedBuiltWorld = withText.filter((m) => ownWorldStoryFn(m)).map((m) => m.id);
-  const skippedPerson = withText.filter((m) => m.kind === 'person' && !skippedBuiltWorld.includes(m.id)).map((m) => m.id);
-  let candidates = withText.filter((m) => !skippedBuiltWorld.includes(m.id) && !skippedPerson.includes(m.id));
+  const notBuilt = withText.filter((m) => !skippedBuiltWorld.includes(m.id));
+  const skippedPerson = people ? [] : notBuilt.filter((m) => m.kind === 'person').map((m) => m.id);
+  const skippedNotPerson = people ? notBuilt.filter((m) => m.kind !== 'person').map((m) => m.id) : [];
+  let candidates = notBuilt.filter((m) => (people ? m.kind === 'person' : m.kind !== 'person'));
 
-  if (only) {
-    candidates = candidates.filter((m) => m.id === only);
+  const ids = onlyIds(only);
+  if (ids) {
+    candidates = candidates.filter((m) => ids.includes(m.id));
   }
 
   const alreadyNarrated = [];
@@ -250,7 +275,7 @@ export function planNarration(movements, { only, force, limit, charBudget = null
     toGenerate = withinBudget;
   }
 
-  return { toGenerate, alreadyNarrated, stale, skippedNoText, skippedBuiltWorld, skippedPerson, skippedBudget };
+  return { toGenerate, alreadyNarrated, stale, skippedNoText, skippedBuiltWorld, skippedPerson, skippedNotPerson, skippedBudget };
 }
 
 /**
@@ -305,14 +330,18 @@ async function run() {
   const opts = parseArgs(process.argv.slice(2));
   const census = JSON.parse(fs.readFileSync(censusPath, 'utf-8'));
   const manifest = readManifest();
-  const { toGenerate, alreadyNarrated, stale, skippedNoText, skippedBuiltWorld, skippedPerson, skippedBudget } = planNarration(census.movements, { ...opts, manifest });
+  const { toGenerate, alreadyNarrated, stale, skippedNoText, skippedBuiltWorld, skippedPerson, skippedNotPerson, skippedBudget } = planNarration(census.movements, { ...opts, manifest });
   const totalChars = toGenerate.reduce((sum, m) => sum + narrationTextFor(m).length, 0);
 
   console.log(`=== Tree narration ${opts.dryRun ? '(dry run)' : ''} ===`);
   console.log(`${census.movements.length} movements total`);
   console.log(`${skippedNoText} skipped - no longDescription to narrate`);
   console.log(`${skippedBuiltWorld.length} skipped - built world with its own orientation.story, recorded in its Representative's voice`);
-  console.log(`${skippedPerson.length} skipped - person, held for the person-brief standard and its own voice`);
+  if (opts.people) {
+    console.log(`${skippedNotPerson.length} skipped - not a person row (person run)`);
+  } else {
+    console.log(`${skippedPerson.length} skipped - person, recorded only in a person run (--people)`);
+  }
   console.log(`${alreadyNarrated.length} already narrated and current (use --force to regenerate)`);
   console.log(`${stale.length} stale - recorded from text that has since changed, re-voiced this run`);
   console.log(`${toGenerate.length} to generate this run${opts.limit !== null ? ` (--limit ${opts.limit})` : ''}, ${totalChars} characters total`);
@@ -326,6 +355,7 @@ async function run() {
   }
 
   const defaultVoiceId = opts.voiceId;
+  const voiceFor = (id) => (opts.people ? opts.personVoiceId : resolveVoiceId(id, { defaultVoiceId }));
   if (!opts.dryRun) {
     requirePaidSettings(opts);
     requireApprovedRun(opts, totalChars);
@@ -333,8 +363,8 @@ async function run() {
 
   if (opts.dryRun) {
     toGenerate.forEach((m) => {
-      const voiceId = resolveVoiceId(m.id, { defaultVoiceId });
-      const distinct = voiceId !== defaultVoiceId ? ' [distinct voice]' : '';
+      const voiceId = voiceFor(m.id);
+      const distinct = !opts.people && voiceId !== defaultVoiceId ? ' [distinct voice]' : '';
       const text = narrationTextFor(m);
       const source = text === m.longDescription ? '' : ' [orientation.story]';
       const why = stale.includes(m.id) ? ' [stale]' : manifest[m.id] ? ' [forced]' : ' [new]';
@@ -350,7 +380,12 @@ async function run() {
 
   console.log('=== PAID RUN, settings as actually used ===');
   console.log(`approved run     : ${opts.approvedRun}   char cap: ${opts.charCap}`);
-  console.log(`default voice id : ${defaultVoiceId}`);
+  if (opts.people) {
+    console.log(`person voice id  : ${opts.personVoiceId}   (kind "person", every item)`);
+  } else {
+    console.log(`default voice id : ${defaultVoiceId}`);
+  }
+  console.log(`output format    : ${NARRATION_OUTPUT_FORMAT}`);
   console.log(`model            : ${opts.model}`);
   console.log(`settings         : ${JSON.stringify(defaultVoiceSettings)}`);
   console.log(`items            : ${toGenerate.length}   characters: ${totalChars}`);
@@ -361,7 +396,7 @@ async function run() {
   const failed = [];
   for (const movement of toGenerate) {
     try {
-      const voiceId = resolveVoiceId(movement.id, { defaultVoiceId });
+      const voiceId = voiceFor(movement.id);
       const text = narrationTextFor(movement);
       const { audio, cost } = await synthesizeWithCost(text, { apiKey, voiceId, modelId: opts.model, outputFormat: NARRATION_OUTPUT_FORMAT });
       fs.writeFileSync(audioPathFor(movement.id), audio);
