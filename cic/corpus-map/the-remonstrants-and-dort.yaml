@@ -121,6 +121,15 @@ works:
 
     '
   source_file: hales_letters-from-the-synod-of-dort_1765.txt
+- row_id: heering_de-remonstranten-gedenkboek-nld_1919--de-remonstranten-gedenkboek-1919
+  work: 'De Remonstranten: gedenkboek, comp. G. J. Heering (Leiden, 1919)'
+  author: heering
+  locus: the whole volume; add 12 to OCR line numbers for this file's own
+  role: context
+  confidence: provisional
+  note: The Brotherhood's own tercentenary essays, written in 1919, after this entry's window,
+    about its founding. A later self-account, not a document of the window.
+  source_file: heering_de-remonstranten-gedenkboek-nld_1919.txt
 - row_id: kirk-of-scotland_records-of-the-kirk-1638-1654_peterkin1838--the-scots-assembly-of-1638-and-the-synod-of-dort-the
   work: 'The Scots Assembly of 1638 and the Synod of Dort: the Arminian articles and the Dort
     answer to the Remonstrants in the Glasgow proceedings'
@@ -357,6 +366,18 @@ works:
 
     '
   source_file: tideman_stichting-der-remonstrantsche-broederschap-nld_1871.txt
+- row_id: tideman_remonstrantsche-broederschap-biographische-naamlijst-nld_rogge1905--de-remonstrantsche-broederschap-naamlijst-1905
+  work: 'J. Tideman, De Remonstrantsche Broederschap: biographische naamlijst, 2nd ed., rev.
+    Rogge and B. Tideman (Amsterdam, 1905)'
+  author: tideman
+  locus: the whole volume; the introduction at about OCR line 368; add 12 to OCR line numbers
+    for this file's own
+  role: context
+  confidence: provisional
+  note: The Brotherhood's own register of its ministers, compiled in 1847 and revised in 1905,
+    after this entry's window. It runs through the years after 1650, which no entry covers
+    yet.
+  source_file: tideman_remonstrantsche-broederschap-biographische-naamlijst-nld_rogge1905.txt
 - row_id: schaff_second-helvetic-confession-heidelberg-catechism_1919--the-heidelberg-catechism-1563-3
   work: The Heidelberg Catechism (1563)
   author: ursinus-olevianus

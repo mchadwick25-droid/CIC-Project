@@ -23817,3 +23817,440 @@ queue:
     verified_by: 'Library thread, 2026-11-10: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 627,938 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: lettres-edifiantes_memoires-de-la-chine-t22-fra_1781.txt
+  - title: 'Documente der national-jüdischen christgläubigen Bewegung in Südrussland, im Original und deutscher Uebersetzung mitgetheilt von Franz Delitzsch (Schriften des Institutum Judaicum in Leipzig, Nr. 4)'
+    author: 'Joseph Rabinowitz and the Kishinev congregation (the documents); Franz Delitzsch (editor and translator)'
+    translator: 'Joseph Rabinowitz and the Kishinev congregation (the documents); Franz Delitzsch (editor and translator)'
+    year: '1884'
+    world: open-gap
+    why: 'ME-21, the Hebrew Christians of Kishinev (Joseph Rabinowitz): an eras 8-9 hold (G89-48 a), ''waits for a pre-1930 source on Rabinowitz and the Kishinev congregation, opened raw''.'
+    url: https://books.google.com/books?id=DBkHAAAAQAAJ
+    rights_basis: 'Public Domain (pd-us-by-date: published 1884); Google Books full view'
+    verified_by: 'Library thread, 2026-11-10: Google id read from the PDF, title page read, the wanted passages located, pdftotext page count equal to the PDF, the volume''s end read; downloaded by Mark in a browser'
+    status: downloaded
+    vendored_as: rabinowitz_documente-der-national-judischen-christglaubigen-bewegung-deu-heb_delitzsch1884-bodleian.txt
+  - title: 'Documente der national-jüdischen christgläubigen Bewegung in Südrussland, im Original und deutscher Uebersetzung mitgetheilt von Franz Delitzsch (Schriften des Institutum Judaicum in Leipzig, Nr. 4)'
+    author: 'Joseph Rabinowitz and the Kishinev congregation (the documents); Franz Delitzsch (editor and translator)'
+    translator: 'Joseph Rabinowitz and the Kishinev congregation (the documents); Franz Delitzsch (editor and translator)'
+    year: '1884'
+    world: open-gap
+    why: 'ME-21, the Hebrew Christians of Kishinev (Joseph Rabinowitz): an eras 8-9 hold (G89-48 a), ''waits for a pre-1930 source on Rabinowitz and the Kishinev congregation, opened raw''.'
+    url: https://books.google.com/books?id=-L8pAAAAYAAJ
+    rights_basis: 'Public Domain (pd-us-by-date: published 1884); Google Books full view'
+    verified_by: 'Library thread, 2026-11-10: Google id read from the PDF, title page read, the wanted passages located, pdftotext page count equal to the PDF, the volume''s end read; downloaded by Mark in a browser'
+    status: downloaded
+    vendored_as: rabinowitz_documente-der-national-judischen-christglaubigen-bewegung-deu-heb_delitzsch1884-harvard.txt
+  - title: 'Kenu bayit ve-ertseh bo (Hagg. I, 8): Fortgesetzte Documente der national-jüdischen christgläubigen Bewegung in Südrussland, mitgeteilt von Franz Delitzsch, nebst Aufruf zur Herstellung eines Bethauses für die Christgläubigen aus Israel in Kischinew (Schriften des Institutum Judaicum in Leipzig, Nr. 5)'
+    author: 'Joseph Rabinowitz (the letters); Pastor Faltin and others (letters and reports); Franz Delitzsch (editor and translator)'
+    translator: 'Joseph Rabinowitz (the letters); Pastor Faltin and others (letters and reports); Franz Delitzsch (editor and translator)'
+    year: '1885'
+    world: open-gap
+    why: 'ME-21, the Hebrew Christians of Kishinev (Joseph Rabinowitz): an eras 8-9 hold (G89-48 a), ''waits for a pre-1930 source on Rabinowitz and the Kishinev congregation, opened raw''.'
+    url: https://books.google.com/books?id=nYotAAAAYAAJ
+    rights_basis: 'Public Domain (pd-us-by-date: published 1885); Google Books full view'
+    verified_by: 'Library thread, 2026-11-10: Google id read from the PDF, title page read, the wanted passages located, pdftotext page count equal to the PDF, the volume''s end read; downloaded by Mark in a browser'
+    status: downloaded
+    vendored_as: rabinowitz_fortgesetzte-documente-der-national-judischen-christglaubigen-bewegung-deu_delitzsch1885.txt
+  - title: 'Neue Documente der südrussischen Christentumsbewegung: Selbstbiographie und Predigten von Joseph Rabinowitsch, herausgegeben von Franz Delitzsch (Schriften des Institutum Judaicum in Leipzig, Nr. 16)'
+    author: 'Joseph Rabinowitz (author); Franz Delitzsch (editor and translator)'
+    translator: 'Joseph Rabinowitz (author); Franz Delitzsch (editor and translator)'
+    year: '1887'
+    world: open-gap
+    why: 'ME-21, the Hebrew Christians of Kishinev (Joseph Rabinowitz): an eras 8-9 hold (G89-48 a), ''waits for a pre-1930 source on Rabinowitz and the Kishinev congregation, opened raw''.'
+    url: https://books.google.com/books?id=u5YtAAAAYAAJ
+    rights_basis: 'Public Domain (pd-us-by-date: published 1887); Google Books full view'
+    verified_by: 'Library thread, 2026-11-10: Google id read from the PDF, title page read, the wanted passages located, pdftotext page count equal to the PDF, the volume''s end read; downloaded by Mark in a browser'
+    status: downloaded
+    vendored_as: rabinowitz_neue-documente-selbstbiographie-und-predigten-deu_delitzsch1887.txt
+  - title: 'Lekhu ve-nashuvah (Hos. VI, 1): Zwei Predigten in dem Gotteshause Bethlehem in Kischinew gehalten von Joseph Rabinowitsch (Schriften des Institutum Judaicum in Leipzig, Nr. 9)'
+    author: 'Joseph Rabinowitz (preacher); Franz Delitzsch (translator)'
+    translator: 'Joseph Rabinowitz (preacher); Franz Delitzsch (translator)'
+    year: '1885'
+    world: open-gap
+    why: 'ME-21, the Hebrew Christians of Kishinev (Joseph Rabinowitz): an eras 8-9 hold (G89-48 a), ''waits for a pre-1930 source on Rabinowitz and the Kishinev congregation, opened raw''.'
+    url: https://books.google.com/books?id=r5YtAAAAYAAJ
+    rights_basis: 'Public Domain (pd-us-by-date: published 1885); Google Books full view'
+    verified_by: 'Library thread, 2026-11-10: Google id read from the PDF, title page read, the wanted passages located, pdftotext page count equal to the PDF, the volume''s end read; downloaded by Mark in a browser'
+    status: downloaded
+    vendored_as: rabinowitz_zwei-predigten-in-dem-gotteshause-bethlehem-in-kischinew-deu_delitzsch1885.txt
+  - title: 'India Orientalis Christiana continens fundationes ecclesiarum, seriem episcoporum, missiones, schismata, persecutiones, reges, viros illustres'
+    author: 'Paulinus a S. Bartholomaeo'
+    translator: 'Paulinus a S. Bartholomaeo'
+    year: '1794'
+    world: st-thomas-christians-two-obediences
+    why: 'Open-Gaps 158: the St Thomas Christians from 1665 to 1836.'
+    url: https://archive.org/details/bub_gb_uwMQAAAAIAAJ
+    rights_basis: 'Public Domain (pd-us-by-date: published 1794); the archive.org record carries the Public Domain Mark (licenseurl publicdomain/mark/1.0)'
+    verified_by: 'Library thread, 2026-11-10: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 427,567 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: paulinus-a-s-bartholomaeo_india-orientalis-christiana-lat_1794.txt
+  - title: 'Christian Researches in Asia: with notices of the translation of the Scriptures into the Oriental languages'
+    author: 'Claudius Buchanan'
+    translator: 'Claudius Buchanan'
+    year: '1811'
+    world: st-thomas-christians-two-obediences
+    why: 'Open-Gaps 158: the St Thomas Christians from 1665 to 1836.'
+    url: https://archive.org/details/christianresearc00buch
+    rights_basis: 'Public Domain (pd-us-by-date: published 1811); the archive.org record says ''The Library of Congress is unaware of any copyright restrictions for this item'''
+    verified_by: 'Library thread, 2026-11-10: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 503,979 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: buchanan_christian-researches-in-asia_1811.txt
+  - title: 'Pioneering on the Congo, vol. I'
+    author: 'W. Holman Bentley'
+    translator: 'W. Holman Bentley'
+    year: '1900'
+    world: kongo-christianity-after-1650
+    why: 'Open-Gaps 158: the Kongo church after 1650.'
+    url: https://archive.org/details/pioneeringoncong01bent
+    rights_basis: 'Public Domain (pd-us-by-date: published 1900); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, 2026-11-10: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,037,685 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: bentley_pioneering-on-the-congo-v1_1900.txt
+  - title: 'Pioneering on the Congo, vol. II'
+    author: 'W. Holman Bentley'
+    translator: 'W. Holman Bentley'
+    year: '1900'
+    world: kongo-christianity-after-1650
+    why: 'Open-Gaps 158: the Kongo church after 1650.'
+    url: https://archive.org/details/pioneeringoncong02bent
+    rights_basis: 'Public Domain (pd-us-by-date: published 1900); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, 2026-11-10: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,021,631 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: bentley_pioneering-on-the-congo-v2_1900.txt
+  - title: 'La ''Religion de Jésus'' (Iaso ja-kyô) ressuscitée au Japon dans la seconde moitié du XIXe siècle, tome premier'
+    author: 'Francisque Marnas'
+    translator: 'Francisque Marnas'
+    year: '1897'
+    world: japans-hidden-christians
+    why: 'Open-Gaps 158: Japanese Christians between 1650 and 1865.'
+    url: https://archive.org/details/lareligiondejsus01marn
+    rights_basis: 'Public Domain (pd-us-by-date: published 1897, by the host record); the archive.org record carries no rights field. The title page''s ''Tous droits réservés'' has run out under the US term by date'
+    verified_by: 'Library thread, 2026-11-10: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,458,277 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: marnas_religion-de-jesus-ressuscitee-au-japon-t1-fra_1897.txt
+  - title: 'La ''Religion de Jésus'' (Iaso ja-kyô) ressuscitée au Japon dans la seconde moitié du XIXe siècle, tome second'
+    author: 'Francisque Marnas'
+    translator: 'Francisque Marnas'
+    year: '1897'
+    world: japans-hidden-christians
+    why: 'Open-Gaps 158: Japanese Christians between 1650 and 1865.'
+    url: https://archive.org/details/lareligiondejsus02marn
+    rights_basis: 'Public Domain (pd-us-by-date: published 1897, by the host record); the archive.org record carries no rights field. The title page''s ''Tous droits réservés'' has run out under the US term by date'
+    verified_by: 'Library thread, 2026-11-10: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,309,863 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: marnas_religion-de-jesus-ressuscitee-au-japon-t2-fra_1897.txt
+  - title: 'Histoire des missions de Chine: Mission du Kouy-tcheou, tome premier'
+    author: 'Adrien Launay'
+    translator: 'Adrien Launay'
+    year: '1907'
+    world: chinese-catholicism-1650-1906
+    why: 'Open-Gaps 158: Chinese Catholics between 1650 and 1906.'
+    url: https://archive.org/details/pts_histoiredesmissi_3720-1133_v1
+    rights_basis: 'Public Domain (pd-us-by-date: published 1907); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread, 2026-11-10: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,976,704 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: launay_histoire-des-missions-de-chine-kouy-tcheou-t1-fra_1907.txt
+  - title: 'Mandements, lettres pastorales et circulaires des évêques de Québec, volume premier, publiés par Mgr H. Têtu et l''abbé C.-O. Gagnon'
+    author: 'The bishops of Quebec; H. Têtu and C.-O. Gagnon (editors)'
+    translator: 'The bishops of Quebec; H. Têtu and C.-O. Gagnon (editors)'
+    year: '1887'
+    world: catholic-church-ancien-regime
+    why: 'Open-Gaps 158: the church in New France after 1650.'
+    url: https://archive.org/details/mandementslettre01quebuoft
+    rights_basis: 'Public Domain (pd-us-by-date: published 1887); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread, 2026-11-10: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,444,924 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: quebec-bishops_mandements-lettres-pastorales-et-circulaires-v1-fra_tetu-gagnon1887.txt
+  - title: 'Lettres de la révérende mère Marie de l''Incarnation (née Marie Guyard), première supérieure du monastère des Ursulines de Québec, augmentée de huit lettres inédites et annotée par l''abbé Richaudeau, tome premier'
+    author: 'Marie de l''Incarnation (Ursuline of Quebec)'
+    translator: 'Marie de l''Incarnation (Ursuline of Quebec)'
+    year: '1876'
+    world: new-france-mission-born-christianity
+    why: 'Open-Gaps 158: the church in New France after 1650.'
+    url: https://archive.org/details/cihm_09968
+    rights_basis: 'Public Domain (pd-us-by-date: published 1876); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, 2026-11-10: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,135,506 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: marie-de-l-incarnation-quebec_lettres-t1-fra_richaudeau1876.txt
+  - title: 'Lettres de la révérende mère Marie de l''Incarnation (née Marie Guyard), première supérieure du monastère des Ursulines de Québec, augmentée de huit lettres inédites et annotée par l''abbé Richaudeau, tome second'
+    author: 'Marie de l''Incarnation (Ursuline of Quebec)'
+    translator: 'Marie de l''Incarnation (Ursuline of Quebec)'
+    year: '1876'
+    world: catholic-church-ancien-regime
+    why: 'Open-Gaps 158: the church in New France after 1650.'
+    url: https://archive.org/details/cihm_09969
+    rights_basis: 'Public Domain (pd-us-by-date: published 1876); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, 2026-11-10: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,046,726 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: marie-de-l-incarnation-quebec_lettres-t2-fra_richaudeau1876.txt
+  - title: 'Arkhiv Iugo-Zapadnoi Rossii, chast'' I, tom II: Materialy dlia istorii pravoslaviia v Zapadnoi Ukraine v XVIII st. Arkhimandrit Melkhisedek Znachko-Iavorskii (1759-1771)'
+    author: 'The Kyiv Archaeographic Commission'
+    translator: 'The Kyiv Archaeographic Commission'
+    year: '1864'
+    world: russian-church-nikon-to-holy-synod
+    why: 'Open-Gaps 158: Ukrainian Orthodoxy between 1700 and today.'
+    url: https://archive.org/details/aruzr-1-2
+    rights_basis: 'Public Domain (pd-us-by-date: published 1864); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, 2026-11-10: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,989,606 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: arkhiv-iugo-zapadnoi-rossii_ch1-t2-pravoslavie-v-zapadnoi-ukraine-xviii-rus_1864.txt
+  - title: 'Akty i dokumenty, otnosiashchiesia k istorii Kievskoi akademii, otdel II (1721-1795), tom I (1721-1750), chast'' II: Prilozheniia, so vvedeniem i primechaniiami N. I. Petrova'
+    author: 'The Kyiv Academy; N. I. Petrov (editor)'
+    translator: 'The Kyiv Academy; N. I. Petrov (editor)'
+    year: '1909-1918'
+    world: russian-church-nikon-to-holy-synod
+    why: 'Open-Gaps 158: Ukrainian Orthodoxy between 1700 and today.'
+    url: https://archive.org/details/akty1904_1
+    rights_basis: 'Public Domain (pd-us-by-date: printed between 1909 and about 1918, by its own citations and orthography; host record 1904); the archive.org record carries no rights field'
+    verified_by: 'Library thread, 2026-11-10: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,511,903 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: kiev-academy_akty-i-dokumenty-t1-ch2-1721-1750-rus_petrov.txt
+  - title: 'Keresztény Magvető, first volume'
+    author: 'Kriza János and Nagy Lajos (editors)'
+    year: '1861'
+    world: transylvanian-unitarian-church-1660-1906
+    why: 'Open-Gaps 158: the Transylvanian Unitarians after 1650.'
+    url: https://archive.org/details/kereszteny-magveto_1861_1
+    rights_basis: 'Public Domain (pd-us-by-date: published 1861, by the host record); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, 2026-11-11: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 497,212 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: kereszteny-magveto_kotet-1-hun_kriza-nagy1861.txt
+  - title: 'Unitárius egyházi törvény a házassági jogról'
+    author: 'Unitarian Church, Főtanács'
+    year: '1889'
+    world: transylvanian-unitarian-church-1660-1906
+    why: 'Open-Gaps 158: the Transylvanian Unitarians after 1650.'
+    url: https://archive.org/details/unitriusegyhzit00unkngoog
+    rights_basis: 'Public Domain (pd-us-by-date: published 1889); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread, 2026-11-11: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 104,363 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: unitarian-church-hungary_egyhazi-torveny-a-hazassagi-jogrol-hun_1889.txt
+  - title: 'A Magyarországi Unitárius Egyház Főtanácsának jegyzőkönyve: five printed sets of minutes, 1909-1913, bound together'
+    author: 'Boros György and Csifó Salamon (editors)'
+    year: '1909-1913'
+    world: open-gap
+    why: 'Open-Gaps 158: the Transylvanian Unitarians after 1650; the entry''s window ends in 1906, so this volume has no shelf yet.'
+    url: https://archive.org/details/jegyzoknyv0000magy
+    rights_basis: 'Public Domain (pd-us-by-date: published 1909-1913, by each item''s title page); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, 2026-11-11: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,990,366 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: unitarian-church-hungary_fotanacs-jegyzokonyvei-1909-1913-hun_boros-csifo.txt
+  - title: 'Die Hutterer: Österreichische Wiedertäufer und Kommunisten in Amerika'
+    author: 'Rudolf Wolkan'
+    year: '1918'
+    world: hutterite-brethren
+    why: 'Open-Gaps 158: the Hutterites after 1785.'
+    url: https://archive.org/details/diehuttererste00wolk
+    rights_basis: 'Public Domain (pd-us-by-date: published 1918); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, 2026-11-11: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 429,990 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: wolkan_die-hutterer-deu_1918.txt
+  - title: 'Histoire de la glorieuse rentrée des Vaudois dans leurs vallées'
+    author: 'Henri Arnaud'
+    year: '1880'
+    world: open-gap
+    why: 'Open-Gaps 158: the Waldensians after 1655; no entry covers the years after 1655, so this text has no shelf yet.'
+    url: https://archive.org/details/histoiredelaglor00arna
+    rights_basis: 'Public Domain (pd-us-by-date: published 1880); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, 2026-11-11: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 496,996 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: arnaud_histoire-de-la-glorieuse-rentree-des-vaudois-fra_1880.txt
+  - title: 'The Glorious Recovery by the Vaudois of their Valleys'
+    author: 'Henri Arnaud; Hugh Dyke Acland'
+    year: '1827'
+    world: open-gap
+    why: 'Open-Gaps 158: the Waldensians after 1655; no entry covers the years after 1655, so this text has no shelf yet.'
+    url: https://archive.org/details/gloriousrecover00arnagoog
+    rights_basis: 'Public Domain (pd-us-by-date: published 1827); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread, 2026-11-11: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 448,026 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: arnaud_glorious-recovery-by-the-vaudois_acland1827.txt
+  - title: 'The Israel of the Alps: a complete history of the Waldenses of Piedmont and their colonies, vol. I'
+    author: 'Alexis Muston'
+    year: '1866'
+    world: the-waldensian-reformed-union
+    why: 'Open-Gaps 158: the Waldensians after 1655.'
+    url: https://archive.org/details/israelofalpscom01must
+    rights_basis: 'Public Domain (pd-us-by-date: published 1866); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, 2026-11-11: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,637,373 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: muston_israel-of-the-alps-v1_montgomery1866.txt
+  - title: 'Genealogical Record of the Descendants of the Schwenkfelders who arrived in Pennsylvania in 1733, 1734, 1736, 1737'
+    author: 'Reuben Kriebel; Balthasar Heebner'
+    year: '1879'
+    world: open-gap
+    why: 'Open-Gaps 158: the Schwenkfelders after 1650; no entry covers the years after 1650, so this text has no shelf yet.'
+    url: https://archive.org/details/genealogicalreco00krie
+    rights_basis: 'Public Domain (pd-us-by-date: published 1879); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, 2026-11-11: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 568,890 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: kriebel_genealogical-record-of-the-schwenkfelders_1879.txt
+  - title: 'Schwenkfelder Hymnology and the Sources of the First Schwenkfelder Hymn-Book Printed in America'
+    author: 'Allen Anders Seipt'
+    year: '1909'
+    world: open-gap
+    why: 'Open-Gaps 158: the Schwenkfelders after 1650; no entry covers the years after 1650, so this text has no shelf yet.'
+    url: https://archive.org/details/schwenkfelderhym00seip
+    rights_basis: 'Public Domain (pd-us-by-date: published 1909); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread, 2026-11-11: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 231,198 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: seipt_schwenkfelder-hymnology_1909.txt
+  - title: 'A Compleat System, or Body of Divinity, both Speculative and Practical, founded on Scripture and Reason, vol. I'
+    author: 'Philippus van Limborch'
+    year: '1702'
+    world: open-gap
+    why: 'Open-Gaps 158: the Remonstrants after 1650; no entry covers the years after 1650, so this text has no shelf yet.'
+    url: https://archive.org/details/compleatsystemor01limb
+    rights_basis: 'Public Domain (pd-us-by-date: published 1702, by the host record); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread, 2026-11-11: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,292,990 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: limborch_compleat-system-of-divinity-v1_1702.txt
+  - title: 'De Remonstrantsche Broederschap: biographische naamlijst van hare professoren, predikanten en proponenten, met historische aanteekeningen omtrent hare kweekschool en gemeenten (tweede druk)'
+    author: 'Joannes Tideman'
+    year: '1905'
+    world: the-remonstrants-and-dort
+    why: 'Open-Gaps 158: the Remonstrants after 1650.'
+    url: https://archive.org/details/deremonstrantsc00rogggoog
+    rights_basis: 'Public Domain (pd-us-by-date: published 1905); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread, 2026-11-11: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,041,721 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: tideman_remonstrantsche-broederschap-biographische-naamlijst-nld_rogge1905.txt
+  - title: 'De Remonstranten: gedenkboek bij het 300-jarig bestaan der Remonstrantsche Broederschap'
+    author: 'G. J. Heering (compiler)'
+    year: '1919'
+    world: the-remonstrants-and-dort
+    why: 'Open-Gaps 158: the Remonstrants after 1650.'
+    url: https://archive.org/details/deremonstranteng0000unse
+    rights_basis: 'Public Domain (pd-us-by-date: published 1919); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, 2026-11-11: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 378,065 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: heering_de-remonstranten-gedenkboek-nld_1919.txt
+  - title: 'Svenska kyrkans historia efter reformationen, parts 1-2'
+    author: 'C. A. Cornelius'
+    year: '1886-1887'
+    world: scandinavian-reformation-kingdoms
+    why: 'Open-Gaps 158: the Nordic state churches after 1650.'
+    url: https://archive.org/details/svenskakyrkansh00corngoog
+    rights_basis: 'Public Domain (pd-us-by-date: published 1886-1887); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread, 2026-11-11: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,680,088 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: cornelius_svenska-kyrkans-historia-efter-reformationen-swe_1886.txt
+  - title: 'Den danske Kirkes Historie efter Reformationen, Første Deel'
+    author: 'Ludvig Helweg'
+    year: '1851'
+    world: scandinavian-reformation-kingdoms
+    why: 'Open-Gaps 158: the Nordic state churches after 1650.'
+    url: https://archive.org/details/dendanskekirkesh01helw
+    rights_basis: 'Public Domain (pd-us-by-date: published 1851); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, 2026-11-11: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,163,497 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: helweg_den-danske-kirkes-historie-efter-reformationen-v1-dan_1851.txt
+  - title: 'Den danske Kirkes Historie efter Reformationen, Anden Deel'
+    author: 'Ludvig Helweg'
+    year: '1855'
+    world: open-gap
+    why: 'Open-Gaps 158: the Nordic state churches after 1650; no entry covers the years after its window, so this text has no shelf yet.'
+    url: https://archive.org/details/dendanskekirkesh02helw
+    rights_basis: 'Public Domain (pd-us-by-date: published 1855); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, 2026-11-11: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,362,485 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: helweg_den-danske-kirkes-historie-efter-reformationen-v2-dan_1855.txt
+  - title: 'Acts of the General Assembly of the Church of Scotland, 1638-1842, reprinted from the original edition under the superintendence of the Church Law Society'
+    author: 'Church of Scotland, General Assembly'
+    year: '1843'
+    world: the-scottish-reformation-and-kirk
+    why: 'Open-Gaps 158: the Church of Scotland after 1650.'
+    url: https://archive.org/details/ActsOfTheGeneralAssemblyOfTheChur
+    rights_basis: 'Public Domain (pd-us-by-date: published 1843); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, 2026-11-11: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 4,875,360 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: church-of-scotland_acts-of-the-general-assembly-1638-1842_church-law-society1843.txt
+  - title: 'The History of the Sufferings of the Church of Scotland from the Restoration to the Revolution, vol. III'
+    author: 'Robert Wodrow'
+    year: '1829'
+    world: open-gap
+    why: 'Open-Gaps 158: the Church of Scotland after 1650; no entry covers the years after its window, so this text has no shelf yet.'
+    url: https://archive.org/details/historyofsufferi03wodr
+    rights_basis: 'Public Domain (pd-us-by-date: published 1829); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread, 2026-11-11: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 2,946,642 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: wodrow_history-of-the-sufferings-of-the-church-of-scotland-v3_burns1829.txt
+  - title: 'Memoirs of the Life, Time, and Writings of the Reverend and Learned Thomas Boston, A.M., written by himself'
+    author: 'Thomas Boston'
+    year: '1899'
+    world: open-gap
+    why: 'Open-Gaps 158: the Church of Scotland after 1650; no entry covers the years after its window, so this text has no shelf yet.'
+    url: https://archive.org/details/memoirsoflifetim00bostrich
+    rights_basis: 'Public Domain (pd-us-by-date: published 1899); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread, 2026-11-11: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,681,214 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: boston_memoirs-of-the-life-time-and-writings_morrison1899.txt
+  - title: 'Dodd''s Church History of England from the Commencement of the Sixteenth Century to the Revolution in 1688, vol. IV'
+    author: 'Charles Dodd; M. A. Tierney'
+    year: '1841'
+    world: recusant-english-catholicism
+    why: 'Open-Gaps 158: English and Welsh Catholics after 1650; this volume reaches only 1631.'
+    url: https://archive.org/details/doddschurchhist04dodduoft
+    rights_basis: 'Public Domain (pd-us-by-date: published 1841); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread, 2026-11-11: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,672,486 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: dodd_church-history-of-england-v4_tierney1841.txt
+  - title: 'Dodd''s Church History of England from the Commencement of the Sixteenth Century to the Revolution in 1688, vol. V'
+    author: 'Charles Dodd; M. A. Tierney'
+    year: '1843'
+    world: recusant-english-catholicism
+    why: 'Open-Gaps 158: English and Welsh Catholics after 1650; this volume reaches only 1626.'
+    url: https://archive.org/details/doddchurchhist05dodduoft
+    rights_basis: 'Public Domain (pd-us-by-date: published 1843); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread, 2026-11-11: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,727,574 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: dodd_church-history-of-england-v5_tierney1843.txt
+  - title: 'The End of Religious Controversy, in a friendly correspondence between a religious society of Protestants and a Roman Catholic divine, Part II: On the Characteristics of the True Church'
+    author: 'John Milner'
+    year: '1818'
+    world: catholic-church-long-nineteenth-century
+    why: 'Open-Gaps 158: English and Welsh Catholics after 1650.'
+    url: https://archive.org/details/endofreligiousco02milniala
+    rights_basis: 'Public Domain (pd-us-by-date: published 1818); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread, 2026-11-11: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 368,630 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: milner_end-of-religious-controversy-part2_1818.txt
+  - title: 'Histoire du Synode général de l''Église réformée de France, Paris, juin-juillet 1872, tome premier'
+    author: 'Eugène Bersier'
+    year: '1872'
+    world: open-gap
+    why: 'Open-Gaps 158: the French Reformed after 1787; no entry covers the years after its window, so this text has no shelf yet.'
+    url: https://archive.org/details/histoiredusynode0001bers
+    rights_basis: 'Public Domain (pd-us-by-date: published 1872); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, 2026-11-11: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 807,899 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: bersier_histoire-du-synode-general-de-l-eglise-reformee-t1-fra_1872.txt
+  - title: 'Du protestantisme en France, nouvelle édition'
+    author: 'Samuel Vincent'
+    year: '1860'
+    world: open-gap
+    why: 'Open-Gaps 158: the French Reformed after 1787; no entry covers the years after its window, so this text has no shelf yet.'
+    url: https://archive.org/details/duprotestantism00prgoog
+    rights_basis: 'Public Domain (pd-us-by-date: published 1860); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread, 2026-11-11: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,284,936 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: vincent_du-protestantisme-en-france-fra_prevost-paradol1860.txt
+  - title: 'Annals of the Swedes on the Delaware'
+    author: 'Jehu Curtis Clay'
+    year: '1835'
+    world: swedish-lutherans-of-new-sweden
+    why: 'Open-Gaps 158: the Delaware Swedes after 1786.'
+    url: https://archive.org/details/annalsofswedes00clay
+    rights_basis: 'Public Domain (pd-us-by-date: published 1835); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread, 2026-11-11: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 215,181 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: clay_annals-of-the-swedes-on-the-delaware_1835.txt
+  - title: 'The Records of Holy Trinity (Old Swedes) Church, Wilmington, Del., from 1697 to 1773, with an abstract of the English records from 1773 to 1810'
+    author: 'Holy Trinity Church, Wilmington; Horace Burr (translator)'
+    year: '1890'
+    world: swedish-lutherans-of-new-sweden
+    why: 'Open-Gaps 158: the Delaware Swedes after 1786.'
+    url: https://archive.org/details/recordsofholytri09holy
+    rights_basis: 'Public Domain (pd-us-by-date: published 1890); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, 2026-11-11: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,452,218 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: holy-trinity-wilmington_records-1697-1773_burr1890.txt

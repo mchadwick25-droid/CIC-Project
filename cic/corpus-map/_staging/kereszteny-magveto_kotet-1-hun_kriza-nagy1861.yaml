@@ -1,0 +1,11 @@
+source_file: kereszteny-magveto_kotet-1-hun_kriza-nagy1861.txt
+assignments:
+- row_id: kereszteny-magveto_kotet-1-hun_kriza-nagy1861--kereszteny-magveto-vol-1-1861
+  work: 'Keresztény Magvető, vol. I (Kolozsvár, 1861), ed. Kriza and Nagy'
+  author: kereszteny-magveto
+  locus: 'the whole volume; preface at about OCR line 32; add 12 to OCR line numbers for this file''s own'
+  atlas_ids:
+  - transylvanian-unitarian-church-1660-1906
+  role: tradition
+  confidence: provisional
+  note: 'The Unitarian church''s own periodical, edited by two Kolozsvár Unitarian ministers; its items are dated 1855-1860, inside this entry''s window. Some pieces are translations from English Unitarians (Channing, Tagart).'

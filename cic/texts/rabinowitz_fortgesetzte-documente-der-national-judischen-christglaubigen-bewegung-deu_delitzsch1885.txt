@@ -1,0 +1,1489 @@
+Title: Kenu bayit ve-ertseh bo (Hagg. I, 8): Fortgesetzte Documente der national-jüdischen christgläubigen Bewegung in Südrussland, mitgeteilt von Franz Delitzsch, nebst Aufruf zur Herstellung eines Bethauses für die Christgläubigen aus Israel in Kischinew (Schriften des Institutum Judaicum in Leipzig, Nr. 5)
+Creator: Joseph Rabinowitz (the letters); Pastor Faltin and others (letters and reports); Franz Delitzsch (editor and translator)
+Publisher: Erlangen: Verlag von Andreas Deichert, 1885 (title page)
+Publication Date: 1885 (title page, read directly)
+Rights: Public Domain (pd-us-by-date: published 1885); Google Books full view, and Google's own cover page in the PDF says the book's copyright has run out
+Language: deu
+Source: Google Books item nYotAAAAYAAJ (books.google.com/books?id=nYotAAAAYAAJ, the id read from the PDF's own links), the Harvard College Library copy (shelfmark Jud 765.15.5). Downloaded by Mark in a browser, 2026-11-10, and pushed to cic/texts/_intake/Bikure_ta_anah.pdf (PR #1583); converted to text by the Library thread with pdftotext -layout. The text has 48 page breaks, one per PDF page (48 pages).
+Provenance note: Extracted unaltered: Google's text layer is reproduced whole after this header, form feeds included; nothing was stripped, normalized or corrected. Rights basis: published 1885, out of US copyright by date. OCR quality: good. Line numbers cited in this header are lines of the extracted text; add 12 for this file's own line numbers.
+Content note: The continuation of the 1884 Documente, with the appeal for a house of prayer in Kishinev. 'Mitteilungen aus unserem Briefwechsel mit Jos. Rabinowitsch' from about text line 940: Rabinowitz's letters of June to September 1884 (one written in his own German, at about 959; the rest translated by the editors from his Hebrew, as the note at about 986 says). Pastor Faltin's letter of 24 October (5 November) 1884 at about 836. Google lists the item as 'Bikure ta'anah'; the book holds no Hebrew text, so the Hebrew letters are not here. Lines 1-45 are Google's own cover notice.
+
+______________________________________________________________________
+
+This is a reproduction of a library book that was digitized
+by Google as part of an ongoing effort to preserve the
+information in books and make it universally accessible.
+
+
+
+
+https://books.google.com
+Über dieses Buch
+
+Dies ist ein digitales Exemplar eines Buches, das seit Generationen in den Regalen der Bibliotheken aufbewahrt wurde, bevor es von Google im
+Rahmen eines Projekts, mit dem die Bücher dieser Welt online verfügbar gemacht werden sollen, sorgfältig gescannt wurde.
+Das Buch hat das Urheberrecht überdauert und kann nun öffentlich zugänglich gemacht werden. Ein öffentlich zugängliches Buch ist ein Buch,
+das niemals Urheberrechten unterlag oder bei dem die Schutzfrist des Urheberrechts abgelaufen ist. Ob ein Buch öffentlich zugänglich ist, kann
+von Land zu Land unterschiedlich sein. Öffentlich zugängliche Bücher sind unser Tor zur Vergangenheit und stellen ein geschichtliches, kulturelles
+und wissenschaftliches Vermögen dar, das häufig nur schwierig zu entdecken ist.
+Gebrauchsspuren, Anmerkungen und andere Randbemerkungen, die im Originalband enthalten sind, finden sich auch in dieser Datei – eine Erin-
+nerung an die lange Reise, die das Buch vom Verleger zu einer Bibliothek und weiter zu Ihnen hinter sich gebracht hat.
+
+Nutzungsrichtlinien
+
+Google ist stolz, mit Bibliotheken in partnerschaftlicher Zusammenarbeit öffentlich zugängliches Material zu digitalisieren und einer breiten Masse
+zugänglich zu machen. Öffentlich zugängliche Bücher gehören der Öffentlichkeit, und wir sind nur ihre Hüter. Nichtsdestotrotz ist diese
+Arbeit kostspielig. Um diese Ressource weiterhin zur Verfügung stellen zu können, haben wir Schritte unternommen, um den Missbrauch durch
+kommerzielle Parteien zu verhindern. Dazu gehören technische Einschränkungen für automatisierte Abfragen.
+Wir bitten Sie um Einhaltung folgender Richtlinien:
+
+   + Nutzung der Dateien zu nichtkommerziellen Zwecken Wir haben Google Buchsuche für Endanwender konzipiert und möchten, dass Sie diese
+     Dateien nur für persönliche, nichtkommerzielle Zwecke verwenden.
+   + Keine automatisierten Abfragen Senden Sie keine automatisierten Abfragen irgendwelcher Art an das Google-System. Wenn Sie Recherchen
+     über maschinelle Übersetzung, optische Zeichenerkennung oder andere Bereiche durchführen, in denen der Zugang zu Text in großen Mengen
+     nützlich ist, wenden Sie sich bitte an uns. Wir fördern die Nutzung des öffentlich zugänglichen Materials für diese Zwecke und können Ihnen
+     unter Umständen helfen.
+   + Beibehaltung von Google-Markenelementen Das "Wasserzeichen" von Google, das Sie in jeder Datei finden, ist wichtig zur Information über
+     dieses Projekt und hilft den Anwendern weiteres Material über Google Buchsuche zu finden. Bitte entfernen Sie das Wasserzeichen nicht.
+   + Bewegen Sie sich innerhalb der Legalität Unabhängig von Ihrem Verwendungszweck müssen Sie sich Ihrer Verantwortung bewusst sein,
+     sicherzustellen, dass Ihre Nutzung legal ist. Gehen Sie nicht davon aus, dass ein Buch, das nach unserem Dafürhalten für Nutzer in den USA
+     öffentlich zugänglich ist, auch für Nutzer in anderen Ländern öffentlich zugänglich ist. Ob ein Buch noch dem Urheberrecht unterliegt, ist
+     von Land zu Land verschieden. Wir können keine Beratung leisten, ob eine bestimmte Nutzung eines bestimmten Buches gesetzlich zulässig
+     ist. Gehen Sie nicht davon aus, dass das Erscheinen eines Buchs in Google Buchsuche bedeutet, dass es in jeder Form und überall auf der
+     Welt verwendet werden kann. Eine Urheberrechtsverletzung kann schwerwiegende Folgen haben.
+
+Über Google Buchsuche
+
+Das Ziel von Google besteht darin, die weltweiten Informationen zu organisieren und allgemein nutzbar und zugänglich zu machen. Google
+Buchsuche hilft Lesern dabei, die Bücher dieser Welt zu entdecken, und unterstützt Autoren und Verleger dabei, neue Zielgruppen zu erreichen.
+Den gesamten Buchtext können Sie im Internet unter http://books.google.com durchsuchen.
+       Deli
+       D
+       j   ocum
+          .atio
+       -.Nd     nal
+           üdtzsc   h
+                 ente
+       Chris
+        Bewegg
+       Südr
+       .in  ussi  b
+            tgläuan
+               15.5
+                          765
+                                  Jud
+
+
+
+
+1885
+                                        WIDENER
+
+
+
+                      HN GEUG U
+จ
+
+
+
+
+    Schriften des Institutum Judaicum in Leipzig.
+                              Nr. 5.
+
+
+
+
+                      ‫בנו בית וארצה בו‬
+                            (Hagg. I, 8)
+
+
+
+
+      Fortgesetzte Documente
+                                der
+
+
+
+    national -jüdischen christgläubigen Bewegung
+                        in Südrussland.
+
+                             Mitgeteilt
+                                von
+
+
+
+
+                   Franz Delitzsch .
+
+
+
+                         Nebst Aufruf
+      zur Herstellung eines Bethauses für die Christgläubigen
+                     aus Israel in Kischinew.
+
+
+
+
+                           Erlangen ,
+                  Verlag von Andreas Deichert.
+                               1885.
+Fred 765.15.5
+              D C O L L EGE
+       MARVAR
+              DEC 15 1931
+
+               LIBRARY
+
+
+           Hayesfeind
+
+
+
+
+                              W
+                   VORWORT.
+
+     Die im Mai d. J. von uns herausgegebenen „Documente
+der national -jüdischen christgläubigen Bewegung in Süd-
+russland" haben überall , wo sie bekannt geworden sind,
+rege Teilnahme hervorgerufen. Wir verkennen nicht die
+dem aufgegangenen Lichte immer noch anhaftende Trü-
+bung. Es spricht sich in ihnen ein starkes nationales
+Selbstgefühl aus, welches uns Heidenchristen anstössig ist
+und jedenfalls über die heidenchristliche Entwickelung des
+kirchlichen Christentums zu abschätzig urteilt. Das Ver-
+hältnis , in welches sie sich zu dem kirchlichen Dogma
+stellen, legt die Besorgnis der Abirrung auf häretische Ab-
+wege nahe. Und die Beibehaltung gewisser gesetzlicher
+Observanzen wie des Sabbats und der Beschneidung als
+nationaler Sitten und Abzeichen, obgleich sie sich nicht in
+Widerspruch mit Paulus zu setzen beabsichtigt, lässt sich
+doch schwerlich vereinbaren mit dem Weltreligionscharak-
+ter des Christentums, welchen der große Heidenapostel M1413
+mit weithinreichendem Scharfblick und eiserner Konsequenz
+zum Durchbruch gebracht hat.
+     Als Kinder der deutschen Reformation stehen wir auf
+ dem Standpunkte des Paulus , dessen heilsgeschichtliches 17-67/68
+                                             1*
+                                           IV
+
+
+              und erfahrungsgemässes Recht Luther wie kein anderer
+              vor ihm durchschaut und verteidigt hat. Aber mit Paulus ,
+              in dessen Römerbrief nicht bloß Kap. 1-8 , sondern auch
+              Kap. 9-11 ein integrierender Bestandteil ist, halten wir
+              auch fest an dem prophetischen Worte von Israels Wieder-
+               bringung, blicken auf Israel mit hoffender Liebe und freuen
+
+el1523enhuns
+          „dassinJesus
+                   der Christus
+                       Gesinnung,
+                                ein welche Luther
+                                    geborener Jude in
+                                                    sei"seiner  Schrift
+                                                           (1523)  aus-
+              gesprochen hat, jeder jüdischen Annäherung an das Christen-
+              tum , zumal wenn das Treibende darin eine so rührende
+              Liebe zu dem Herrn Jesus ist , wie in der bessarabischen
+              Bewegung.
+                  Man würde diese viel zu niedrig taxieren , wenn man
+              sie mit dem Judenchristentum der grossenteils in die
+              Synagoge zurückgefallenen Mînîm der ersten zwei christ-
+              lichen Jahrhunderte auf gleiche Linie stellte. Das Credo
+              der Christgläubigen, deren Haupt und Organ Josef Rabino-
+              witsch ist, steht dem katholischen d. i. gemeinchristlichen
+              Credo um vieles näher, als das ebionitische oder auch
+               das moderne unitarische.   Es sucht sich anders zu vermit-
+              teln und meint sich anders formulieren zu müssen, aber das
+              Verhältnis ist nach keiner Seite hin ein geradezu wider-
+              sprechendes. Schon in den bereits veröffentlichten Do-
+               cumenten lässt sich das Bekenntnis zu Gott dem Drei-
+               einigen, zu dem Gottmenschen, zu dem Gotteslamm , wel-
+               ches der Welt Sünde trägt, nicht vermissen; die neuen
+               Documente , welche wir hier vorlegen , zeigen es in fort-
+               gehender Vertiefung begriffen. Was haben wir denn aber
+               für ein Recht, von Israel , wenn es sich zu dem Christus
+              Gottes bekehrt , unvermittelte Herübernahme unserer aus-
+               geprägten dogmatischen Formen zu fordern! Was wirbe-
+sitzen, wird es ja doch in seiner Weise sich erwerben
+müssen. Man wird ihm freie Bewegung innerhalb der von
+dem neutestamentlichen Gotteswort gezogenen Schranken
+vergönnen müssen , wenn anders man der Hoffnung Raum
+giebt , dass aus seinem Eintritt in die dogmengeschicht-
+liche Entwickelung eine heilsame Frucht für die Gesamt-
+kirche hervorgehen wird.
+    Darum    verharren wir den bessarabischen Brüdern
+gegenüber ohne Verleugnung unserer Ueberzeugung , aber
+auch ohne zudringliche ungestüme Einmischung in zuwar-
+tender Stellung. Wir sind der guten Zuversicht , dass,
+wenn sie Jesus als ihren Messias und Heiland zu lieben
+fortfahren, diese Liebe ihnen über alle Klippen und Sand-
+bänke hinweghelfen wird. Sie wenden sich jetzt durch
+uns an die Christen allerorten , ihnen zur Errichtung und
+Ausstattung eines Gotteshauses , zunächst eines Betsaales ,
+behilflich zu sein , nachdem die kaiserlich russische Regie-
+rung und der orthodoxe Episkopat der Bewegung als einer
+mit den Staatsgesetzen nicht kollidierenden, vielmehr christ-
+licher Sympathie würdigen huldvolle Aufmerksamkeit zu-
+gewendet haben. Möge denn diese Bitte um Mithilfe nicht
+erfolglos verhallen! Ein jüdisches Gotteshaus, dem HErrn
+und seinem in Jesus erschienenen Christus geweiht , soll
+in Kischinew erstehen.     Die Unterzeichneten sind bereit,
+Gaben zu diesem Zwecke in Empfang zu nehmen und nach
+Kischinew zu befördern .
+    Zugleich richten wir an alle , denen das Heil Israels
+am Herzen liegt , eine andere Bitte , mit uns den HErrn
+anzurufen , daß er uns einen Mann zuführe , welcher den
+Pastor Faltin in seinem über menschliche Kraft gehenden
+und kaum lange mehr erträglichen Arbeitsgedränge als
+                            VI
+
+
+Adjunkt an die Seite treten möchte. Die Ernte ist groß
+und der Arbeiter sind wenig , ja weniger noch als wenig.
+Gott wirkt nicht magisch , er wirkt durch menschliche
+Werkzeuge. Wenn sich solche, die sich ihm zu Diensten
+stellen , nicht finden , so gerät sein Werk in Stocken und
+das Ende, das wir ersehnen, rückt in immer weitere Ferne.
+
+    Leipzig , November 1884.
+
+        Professor Franz Delitzsch, Nürnberger Straße 54.
+       Missionar Wilhelm Faber            Institutum Judaicum,
+                                              Roßstraße 9.
+        Secretär Dr. Heinrich Lhotzky /
+Gegen den Melitz.
+Erfüll , Herr, unser Hoffen,
+Zeig eine Thür uns offen
+Zum Volke, dem zu dienen
+Mit Heil du bist erschienen.
+
+Aus Jakobs Stamm geboren
+Hat Gott dich auserkoren,
+Sein armes Volk zu retten
+Aus seiner Knechtschaft Ketten.
+
+Ach, Herr, nimm weg die Hüllen,
+Daß es sich mög erfüllen,
+Was weissagt die Propheten
+Und was du selbst erbeten.
+                         Julius Sturm.
+         In unseren Documenten der „national-jüdischen christ-
+gläubigen Bewegung in Südrussland" haben wir S. XXIV
+das anerkennende Urteil über die Person des Führers
+dieser Bewegung, Josef Rabinowitsch , welches in der
+Petersburger Zeitschrift „Hamelitz" zu lesen war , mitge-
+teilt. Es lautet wie folgt:
+     Es kam uns hart an, solche Dinge zu glauben von diesem
+Manne, den wir nun schon seit 20 Jahren kennen, als er noch
+in Orjejew wohnte , und von dem uns bekannt war , dass er
+gesetzkundig und einsichtig und des Hebräischen sowohl als des
+Russischen mächtig sei , sein Volk liebend und für seinen
+Glauben und zugleich für Aufklärung eifernd, ein Mann von
+Verstand und feinen Sitten, der seit er sich unter seinem Volke
+in Kischinew niedergelassen hochangesehen war in der Ge-
+meinde , so daß auf seinen Rat eine Gesellschaft zur Hebung
+des      Ackerbaus   unter   den Juden       in Bessarabien   zusammen-
+getreten ist.   Später als die schaurigen Verfolgungen aus-
+brachen, regte er in seinen Brüdern den Gedanken der Wieder-
+bevölkerung des Landes Israel an und reiste selber nach
+Constantinopel, Jaffa und Jerusalem. Wenn er damals Anfech-
+tung deshalb erlitt, daß er in dem „Melitz" gegen den Herrn
+Oliphant aufgetreten war , so war Anlass dazu doch nur sein
+Eifer für seine Religion und sein Volk. Wie hätten wir denen
+Glauben schenken können, daß ein solcher Mann noch in hohem
+Alter seine Ueberzeugung geändert! Deshalb meinten wir, daß
+diese Kunde unserem übrigens verlässigen Berichterstatter von ver-
+leumderischen Feinden des Herrn Rabinowitsch zugekommen sei.
+
+                                         3
+                                10
+
+
+
+
+    In ebendieser Petersburger Zeitung „Hamelitz" Nr. 71
+dieses Jahres bekamen wir eine Expektoration über die
+durch Herrn Rabinowitsch angeregte Annäherung an das
+Christentum zu lesen, welche über seine Person einen
+ganz anderen Ton anstimmt und über diese religiöse Be-
+wegung so bitter urteilt, wie man es nicht für möglich
+halten sollte, wenn jüdischerseits das Christentum für etwas
+besseres als Heidentum gehalten wird. Wir geben den Auf-
+satz in treuer Uebersetzung seines hebräischen Wortlauts.
+     Nachdem die Hand des Herrn unser Volk in unserem Ge-
+burtslande hart betroffen und der Pöbel zur Zornesgeißel gegen
+unsere Brüder im Süden geworden ist, ihre Wohnstätten in
+Trümmer zu legen, hat sich der Schlag gegen das Haus Gottes
+in ihrer Mitte gewendet; und es sind einige frevlerisch Abtrün-
+nige daraus hervorgegangen , welche die ererbte Religion ab-
+geschüttelt haben, in der Hoffnung , dadurch sich bei der Welt
+Gunst und Ansehen zu erwerben.       Unter diesen Verstörern be-
+findet sich auch ein alter Mann, welcher vergessen, was er ge-
+lernt hat, Josef Rabinowitsch, welcher sich vermessen hat, eine
+Sekte „christgläubiger Juden" zu schaffen, und der neue, bisher
+unerhörte religiöse Fundamentalartikel aufgestellt und sich ein
+neues Passahmahl-Ritual zurechtgemacht hat. Man sieht daraus,
+daß dieser alte Mann hirnkrank geworden und sich in Phantome
+verirrt hat.   Wir schonten seiner früher und meinten mit ihm
+verfahren zu sollen wie nach dem Ausspruche unserer Rabbinen
+mit den Dreien, von denen sie sagen : Während deine Linke sie
+zurückstößt , soll deine Rechte sie heranziehen. Jedoch , nach-
+dem uns die Einzelheiten bekannt geworden , und was sich
+weiter begeben , haben wir uns von diesem Betagten, der be-
+dachtlos geworden , 1 geschieden, 2 uns an die bekannte Regel 3
+
+     1) Sota 47a u. ö.
+     2( Die Worte ‫ מהאי סבא דאסתאב‬bedeuten : von diesem Alten der
+unrein geworden; es ist ein Wortspiel , welches wir nachzubilden ge-
+sucht haben.
+     3) Schabbath 32a.
+                               11
+
+
+
+
+haltend: Laß den Trunkenen laufen, er wird schon von selber
+fallen.   Aber mit Recht hat uns der Zorn ergriffen , als wir
+sahen , daß ihm gelungen ist , bis in weite Ferne Staub aufzu-
+werfen und die Augen eines so gescheiten und hochgelehrten
+Mannes wie Professor Delitzsch zu verblenden, welcher in seiner
+Treuherzigkeit sich hat aufreden lassen , daß , wie dieser Mann
+ihm gemeldet, die judenchristliche Bewegung durch ihn in ganz
+Bessarabien und den südlichen Ländern immer weiter um sich
+
+greife (so sagt der geehrte Professor in seiner Druckschrift).
+Trotzdem haben wir auch da unser Urteil noch zurückgehalten,
+obwohl wir von unserem verlässigen Korrespondenten in Kischinew
+darüber besser informirt waren         wir wollten doch nicht
+voreilig diese Fiktion , welche weithin die Runde gemacht hat,
+übereilter Weise Lügen strafen, damit man uns nicht als par-
+teiisch ansehe und unserem Dementi den Glauben versage. Um
+so mehr preisen wir den Tag , an welchem das Dementi von
+einer nach allen Seiten hin verlässigen Stelle ausgegangen ist,
+aus Kischinew selbst und aus einer dort zu Lande erscheinenden
+christlichen Zeitschrift , nämlich dem geehrten Odeski Listok
+2/14. September Nr. 199. Wir geben , was dort zu lesen,
+buchstäblich wieder, um unsere Brüder in der Ferne, denen die
+Geschichte des neuen Kalbes in Kischinew Herzklopfen verur-
+sacht, zu beruhigen , zugleich als sachliche Erwiderung an den
+obenerwähnten Herrn Professor, der zu den Lesern des „Ha-
+melitz " gehört, betreffend die Documente, mit deren Uebersendung
+er uns beehrt hat :
+     Vor einiger Zeit wurde in der Zeitschrift Cerkowny)
+obschtschestvennyj Wjestnik (Allgemeiner Kirchenbote) ein Auf-
+satz aus den „ Times " abgedruckt über eine religiöse Bewegung,
+welche unter den Juden Bessarabiens durch einen gewissen
+Josef Rabinowitsch erregt worden sei. Dieser Artikel der
+ Times" ging von da in die in Odessa erscheinende Zeitschrift
+Noworossijskij Telegraf über, indem man dem aus der Ferne
+kommenden Gerüchte glaubte , ohne weiter zu untersuchen , ob
+das , was sich daheim ereignet haben solle , auch wirkliche
+Thatsache sei. Nach der Angabe der „ Times" hätten sich
+                                   12
+
+
+
+dieser Bewegung schon 250 hebräische Familien angeschlossen, 1
+ aber wir können in Wahrheit versichern, daß ein verlässiger
+Forscher aucht nicht Eine Familie finden wird , die sich den
+Träumen und Reden des in Kischinew hervorgetretenen neuen
+Propheten Israels zugewendet. Aber es findet sich hier aller-
+dings ein Mann Namens Josef Rabinowitsch , welcher sich ver-
+mißt in Besitz einer neuen Thora zu sein, welche, wie er sagt,
+Religion und Sitten des hebräischen Volkes von Grund aus um-
+gestalten wird. Er ist einer der Narren, welche Windigem
+nachjagen, dergleichen es viele in der Welt giebt; es fehlt ihm
+alle sowohl allgemeine als religiöse Bildung, er hat eben einige
+Bücher gelesen, die sein Hirn verwirrt und seine schwachen
+Begriffe zerrüttet haben. Dieser Phantast hat sich in theo-
+logische Forschungen vertieft und ist so bei der Schaffung einer
+neuen Thora angelangt , die er den Hebräern geben will , um
+sie aus allen Notständen der Gegenwart herauszureißen. Ich
+weiß bestimmt, daß die neue Thora keine weitere Verbreitung
+in der Welt gefunden hat , sondern auf die Person ihres Er-
+finders beschränkt geblieben ist. Ich vermute fast, daß die aus
+den „Times " stammende Nachricht ihn selber zum Urheber hat,
+und was die 250 Familien betrifft , wer kennt da nicht die
+ Träume und Phantasiebilder, die ein solcher Glaubensmacher
+ träumt und sich einbildet, wenn er sich vermißt, Seelen zu
+ schaffen , indem seine eigene Seele ihm abhanden kommt?
+                                           *
+
+
+
+
+     Es befremdet uns nicht, daß eben jener Rabinowitsch,
+ welcher dem Melitz und andern jüdischen Journalisten als
+ ein hochgebildeter, eifriger, edler Volksfreund galt, nun,
+      1) Das Vorwort der „Documente" enthält die Ziffer 250 nicht, son-
+ dern sagt S. VI : „Es sollen jetzt über 200 Familien dem neuen Juden-
+ christentum sich angeschlossen haben" .
+      2) Anspielung auf Bereschith rabba c. 39 u. ö. , wo mit Bezug auf
+ 1 Mos. 12, 5 gesagt wird, daß wenn einer einen Fernstehenden herzubringt
+ und bekehrt, dies so gut ist als ob er ihn geschaffen .
+                            13
+
+
+nachdem er zu Jesus als dem Messias sich zu bekennen be-
+gonnen, ihnen als ein verblendeter Narr und gefährlicher
+Volksverführer erscheint. Wer den Gekreuzigten bekennt,
+der muss auch sein Kreuz auf sich nehmen und , wie der
+Hebräerbrief (13, 13) sagt, zu ihm hinausgehen außer dem
+Lager und seine Schmach tragen. Auch schon als die Er-
+lösung noch zukünftig war, hat die herrschende Synagoge
+diejenigen exkommunicirt, welche sich zu den wahren und
+nicht zu den demagogischen volksschmeichlerischen Pro-
+pheten hielten und die nahe Heimbringung aus dem Irrsal
+zu ihrer Losung machten. Der Prophet (Jes. 66, 5) tröstet
+die mit dem Banne Belegten, von der öffentlichen Meinung
+Gebrandmarkten, indem er sagt: Höret des HErrn Wort,
+die ihr euch fürchtet vor seinem Wort: Eure Brüder, die
+euch hassen und sondern euch ab um meines Namens
+willen, sprechen : Lasset sehen, wie herrlich der HErr sei,
+lasset ihn erscheinen zu eurer Freude !      die sollen zu-
+schanden werden .
+    Es befremdet uns nicht, daß Rabinowitsch, der bisher
+als gescheiter Mann galt, nun mit einem Male als Be-
+kenner des ans Kreuz Gehängten als ein Ueberspannter
+und nahezu Verrückter gilt. Der gekreuzigte Christus ist,
+wie Paulus (1 Cor. 1, 23) klagt, den Juden ein Aergernis
+und den Griechen eine Thorheit. Jetzt wo die Juden nicht
+bloß Rivalen, sondern auch Hauptstimmführer der modernen
+Weltanschauung geworden sind, ist der Gekreuzigte ihnen
+mehr noch eine Thorheit als ein Aergernis. Die Verachtung
+und der Haß Jesu , den die Synagoge seit Jahrhunderten
+ihren Mitgliedern eingeflößt hat, ihn auf Grund scheuß-
+licher Talmudstellen und der Evangelien-Travestie Toledoth
+Jeschu als uneheliches Soldatenkind und nichtswürdigen Ge-
+hängten und in der Hölle büßenden anderen Bileam be-
+schimpfend , sind jetzt in den Gebildeten einer gewissen
+                                    14
+
+
+        Estimation des bedeutenden Lehrers gewichen. Aber der
+        starre und stolze jüdische Monotheismus kann doch nicht
+        umhin, diesen Jesus blasphemer Selbstvergötterung zu zeihen
+        und ihn als Verführer zum Abfall von dem Einen Einzigen
+        anzusehen. Als er den Jerusalemern sagte : Ehe denn
+        Abraham ward bin ich , da hoben sie Steine auf, daß sie
+δι031   auf ihn würfen (Joh. 8, 59). Diese Steine befinden sich noch
+        in den Händen seiner Volksgenossen, und wer sie aus der
+        Hand gleiten läßt wie Rabinowitsch , der gilt für einen
+        Narren , der von dem Judentum , der Religion des Einen
+        Einzigen , zu der Religion des falschen Messias und also
+        zu halbem Heidentum abgefallen.
+            Es befremdet uns nicht, obwohl wir es weiser und ge-
+        ziemender finden würden, wenn das Judentum der Gegen-
+        wart eine andere Stellung dem Christentum gegenüber ein-
+        nähme als das mittelalterliche. Es wäre weiser, denn das
+        Christentum ist ja doch die Religion der Völker, unter denen
+        das jüdische Volk gastliche Aufnahme, mehr oder weniger
+        sogar gliedliche Aufnahme in den staatlichen Organismus
+        gefunden, und es wäre doch weise, den Antisemitismus,
+        welcher dieses Entgegenkommen und diese Zugeständnisse
+        bereut und rückgängig machen möchte , weder wirkliche
+        noch scheinbare Gründe der Berechtigung dieser Stimmung
+        und Agitation zu liefern. Und geziemend wäre ein maß-
+        haltigeres Verhalten , denn das Geringste , was wir auf
+        jüdischer Seite fordern können, ist doch dies , daß man
+        was uns heilig ist nicht beleidigend heruntersetze, und daß
+        man dem Christentum so viel Ueberzeugungskraft und
+        Liebenswürdigkeit einräume, daß ein Jude Christ werden
+        könne, ohne ebendamit zugleich zum Narren und Unreinen
+        und Frevler zu werden.
+            Aber befremdet hat uns auch das nicht , denn wir
+        kennen den tödlichen Haß , der in den außerdeutschen
+                             15
+
+
+Ländern des Ostens jeden Judenchristen mit dem Fluche
+eines Proscribirten belastet. Nur das hat uns befremdet,
+daß ein jüdisches Organ wie der Melitz die Christentum-
+Bewegung in Südrußland dadurch zu ersticken sucht, daß
+er seinen Lesern einredet , diese Bewegung existire gar
+nicht und sei auf den Einen Mann Rabinowitsch beschränkt,
+welcher mich , den leichtgläubigen Herausgeber der Docu-
+mente, über den Umfang der Bewegung schmählich getäuscht
+habe. „Die neue Thora       sagt die vom Melitz reproducierte
+Korrespondenz      hat über ihren Erfinder hinaus schlecht-
+hin keine Verbreitung gefunden, und der Artikel der Times,
+welcher von 250 Familien redet, mag ihn selber zum Ur-
+heber haben." Das ist eine beleidigende Insinuation , und
+die Versicherung, daß Rabinowitsch allein stehe, ist eine
+gehässige Lüge. Wir brauchten Rabinowitsch gar nicht erst
+zu fragen, um dies zu wissen; denn unser Freund Wilhelm
+Faber hat in Kischinew nicht bloß Josef Rabinowitsch,
+sondern auch dessen gleichgesinnten Bruder und andere,
+die an der Spitze der Bewegung stehen, kennen gelernt,
+und er hat es mit eigenen Augen gesehen, wie hoch die
+Wogen der Bewegung gingen und wie die Volksgenossen
+aus weiter Ferne kamen, um sich über das gerüchtweise
+ihnen bekannt gewordene Ereignis zu unterrichten. Dennoch
+glaubten wir Herrn Rabinowitsch bitten zu sollen, daß er
+uns , wo möglich, in den Stand setze , jene Beschuldigung
+des Melitz, daß er den Erfolg seiner Wirksamkeit trügerisch
+aufgebauscht habe, zurückzuschlagen. Herr Faber schrieb
+an ihn und wir erhielten als Antwort das hier treu aus
+dem Hebräischen übersetzte Schreiben vom 28/16. Oct. d. J.:
+
+        Mein lieber , sehr verehrter Herr Faber !
+    Ich beeile mich, Ihnen auf Ihren Brief vom 6. October
+zu antworten. Was in Nr. 71 des „Hamelitz " zu lesen war,
+                            16
+
+
+ist einem Korrespondenzartikel des Odeski Listok Nr. 194
+(2. September) entnommen. Dieser Artikel hatte zum Ver-
+fasser einen Herrn Schubarski , Agenten dieser Zeitschrift
+hier in Kischinew , einen heftigen Gegner der auch in
+Odessa erscheinenden Zeitschrift Noworossijskij Telegraf,
+welche in Nr. 257 (29. August) den in den Times er-
+schienenen Brief des Bischofs Titcombe in Uebersetzung
+mitgeteilt hatte, und worin zu lesen stand, daß schon
+ 250 Familien in Kischinew sich der christgläubigen Be-
+wegung angeschlossen hätten. Exemplare dieser Nummer
+wurden überallhin verbreitet, hier in Kischinew wurden sie
+von einem Jungen ausgeboten und zuletzt der hohe Preis
+von 25 Kopeken für ein Exemplar bezahlt. Hier zu Lande
+ist der gewaltige und beständige Hader zwischen den beiden
+Redaktionen allgemein bekannt. Der Odeski Listok zählt
+zu den judenfreundlichen Organen und hat meistens Juden
+zu Abonnenten. Die andre Zeitschrift ist antisemitisch und
+wird meist von Christen gehalten. Was die eine Zeitschrift
+anziehend und reizend findet , erklärt die andre für ab-
+stossend und hässlich     sie widersprechen sich grund-
+sätzlich und im Urteil über Einzelnes. Die judenfreundliche
+Zeitschrift schadet insofern noch mehr als die andere , als
+sie sich darin gefällt, unserem Volke zu schmeicheln. Aus
+diesem trüben Brunnen schöpfen die jüdischen Organe der
+Residenzstadt St. Petersburg ihre Kunde der durch mich
+hervorgerufenen religiösen Bewegung , indem sie mich für
+einen ungebildeten Idioten erklären , während vor etwa
+3/4 Jahr der „Hamelitz", das Volksblatt, der Woschod, die
+Zephira und andere Blätter wie aus Einem Munde Zeter
+schrieen über mich , die kluge und mit Wissenschaft und
+Gesetz vertraute Schlange, den allgemein geehrten Mann,
+der nun auf den Irrweg geraten sei und die Seelen zu
+Hunderten auf den Irrweg führe; denn (so war in dem
+                             17
+
+
+„Hamelitz " 1884 Nr. 6, Volksblatt Nr. 11, Woschod Nr. 3
+zu lesen), schon seien viele Familien aus vielen Ortschaften
+Bessarabiens in mein Netz geraten. Auf diese jüdisch-
+russischen Zeitschriften läßt sich der Ausspruch des Herrn
+anwenden : Wem soll ich dies Geschlecht vergleichen ? Es       Vm169
+ist den Kindlein gleich , die an dem Markte sitzen, und
+rufen gegen ihre Gesellen, und sprechen : Wir haben euch
+gepfiffen, und ihr wolltet nicht tanzen; wir haben euch ge-
+klagt und ihr wolltet nicht weinen.
+     Aber sehr gewundert habe ich mich darüber, daß das
+Rauschen eines verweheten Blattes dieses „Hamelitz" mit
+der Aussage, daß ich schlechthin allein stehe, Sie dermaßen
+erschreckt hat. Sie sind ja hier gewesen, haben aus meiner
+Brüder Munde vernommen , daß an zweihundert Volks-
+genossen sich der christlichen Lehre zuneigen ; Sie selber
+haben, als Sie hier waren, in Erfahrung gebracht, daß ein
+Kreis Gleichgesinnter mich umgiebt. Aber es ist nicht
+meine Sache, die Ziffer der mit mir Gehenden mathematisch
+und selbstgefällig zu berechnen, denn ich bin kein Feld-
+herr des Herrn Jesu Christi, welcher die Weisung über-
+kommen, ihm eine Truppe jüdischer Männer von der und
+der bestimmten Anzahl (allerwenigstens 200 Familien) an-
+zuwerben ; auch bin ich nicht Begründer einer Aktien-
+gesellschaft , welche zu Stande zu bringen ich 100 oder
+200 Aktionäre herbeizuschaffen hätte. Nach wie vor sage
+ich nur dies, daß der traurige sittliche und sociale Zustand
+meines Volkes mir wehe thut und daß mir die Augen auf-
+gegangen sind , seit meine Füße das irdische Jerusalem
+betreten haben, um mir und meinen Volkgenossen eine
+Bergungsstätte vor dem Welthasse zu erspähen. Seitdem
+sind mir die Augen aufgegangen, und ich habe den, welchen
+sie durchstochen haben, zu schauen bekommen und habe
+über ihm : „ Wehe , mein Bruder, und wehe , mein Herr ! "
+                                                2
+                                      18
+
+
+          zu klagen begonnen. Seitdem ist mir aus dem Glaubens-
+
+2811811   blicke auf Ihn die wahre Hoffnung erwachsen, welche ihrem
+          Wesen nach das Harren aller Creatur ist , und nach der
+          Gnade , die mir von Gott verliehen , habe ich mich ganz
+          und alles was ich vermag und meinen guten Namen , den
+          ich mir bei meinen israelitischen Brüdern erworben hatte,
+          für die Befreiung und Beglückung meines geliebten Volkes
+          geopfert, habe alles willig und ohne Rückhalt preisgegeben,
+          um meinen ungläubigen und unglücklichen Volksgenossen
+          frank und frei zu verkündigen, daß Jesus , der vor nun
+          bald zwei Jahrtausenden außerhalb des Thores der Stadt
+          Jerusalem mit Schmach und Schande an's Kreuz Ge-
+          schlagene, der verheißene Messias und Erlöser Israels sei,
+ 18,15
+    ✔ der  große Prophet,von demMosegesagt hat: „EinenPro-
+       pheten wie mich wird der HErr, dein Gott, dir aus deiner
+          Mitte , aus deinen Brüdern erwecken; dem sollt ihr ge-
+          horchen" . Und in der Kraft göttlichen Beistands thue ich
+          ihnen kund zu jeder gelegenen Zeit, daß , wenn sie sich
+          zu dem HErrn , ihrem Gott, und zu David , ihrem König,
+          das ist, Jesus von Nazareth von ganzem Herzen bekehren
+          und ihre Schuld vor ihm bekennen wie die Söhne Jakob's
+          vor Joseph, ihrem Bruder, den sie nach Aegypten verkauft,
+          bekannten : „Fürwahr wir haben uns verschuldet"         daß
+          alsdann sie wie alle Kreatur werden frei werden von dem
+          Dienst des vergänglichen Wesens zu der herrlichen Freiheit
+          der Kinder Gottes .
+              Inniglich danke ich Gotte dem Höchsten, daß, wie ich
+          mündlich und schriftlich vernehme, tausende meiner israeliti-
+           schen Brüder an den verschiedensten Orten ihres Wohn-
+          sitzes meiner Sache ihre Aufmerksamkeit zuwenden, und
+          in meinem eigenen Gesichtskreise giebt es Hunderte,
+          welche mir sagen: Der HErr sei mit dir ! Wo du hingehst,
+          und wo du lebst, wollen wir auch hingehen und leben. Denn
+                             19
+
+
+von jeher habe ich keinen Teilnehmer gesucht, ehe ich
+selbst Hand ans Werk gelegt hatte , wie ich z. B. als ich
+den Ackerbau bei meinen Volksgenossen emporbringen
+wollte, selber mit meinem Hause Gartenbau zu treiben be-
+gonnen hatte, und wie ich, als ich die Wiederbevölkerung
+des heiligen Landes ins Auge faßte , selber mich dorthin
+begab, um es unmittelbar kennen zu lernen. So habe ich,
+ehe ich öffentlich auftrat, fast meine ganze und meine beste
+Zeit eingehendem Studium der Thora des neuen Bundes
+gewidmet und bin mit mir selber ernstlich zu Rate gegangen,
+wie ich meine Seele und die Seele der mir nahe stehenden
+Brüder in der Kraft eines von den Toten erstehenden neuen
+Lebens Gotte zuwenden, und wie ich unsre Gegner Gotte
+zu Ehren in Werkzeuge der Gerechtigkeit umwandeln
+könnte. Und freimütig und rückhaltlos habe ich mich und
+mein Haus und meine Brüder in der That und Wahrheit
+unter die Macht der Gnade gestellt, und viele meiner Volks-
+genossen, welche vor Menschenaugen noch auf dem ge-
+setzlichen Standpunkte stehen, pflichten mir dennoch inner-
+lich bei und suchen mit mir solche zu werben, die meiner
+Gottesdienstweise und Lebensordnung in Christo sich an-
+schließen, wie ich durch Briefe , die vor mir liegen, be-
+zeugen kann. Ich weiß , daß der Weg , den ich als ein
+Werkzeug Gottes eingeschlagen , auf das Beste meiner
+Volksgenossen abzielt, und um so weher thut es mir, daß
+es selbstsüchtige und Christusfeindliche Mitglieder der
+Synagoge giebt, welche jeden, der sich von ihrer Gemein-
+schaft absondert, wie einen Fisch zerreißen möchten, während
+andrerseits die hier zu Lande bestehenden Staatsgesetze
+mir es verbieten, so öffentlich wie ich gern möchte Zeugnis
+abzulegen, da Jeder, der eine neue Religionsgenossenschaft
+gründen will, mit dem bestehenden Recht in Conflikt gerät
+und es deshalb auch denen, welche sich dem christlichen
+                                              2*
+                             20
+
+
+
+
+Bekenntnis anschließen möchten, schier unmöglich gemacht
+wird, sich von dem bestehenden ceremonialgesetzlichen
+synagogalen Gottesdienst abzusondern ; sie dürfen es nicht,
+weil sie sonst nicht wissen, wie sie es halten sollen, wenn
+ihnen Söhne geboren werden , wenn sie Kinder zu ver-
+heiraten, wenn sie ihre Toten zn begraben haben, weil
+das Staatsregiment nach der die Juden betreffenden
+gemeingültigen vaterländischen Gesetzgebung sie verpflichtet
+und nötigt, sich dem jüdischen Rabbi ihres Sprengels unter-
+zuordnen. Es giebt viel fromme Leute , welche nach dem
+Vorgange Josephs von Arimathia und des Nikodemus ins-
+geheim in ihrem Herzen Christus und die Gnade , die er
+erwirkt hat, lieben, und die ich besonders im Auge hatte,
+indem ich das, was ich von der messianischen Thora denke,
+offen ausgesprochen habe in jenen Documenten , welche
+nun gedruckt sind und unter meinen Volksgenossen schon
+weite Verbreitung gefunden haben.
+    Und so richte ich denn meine inständige Bitte an alle
+diejenigen, welche die Liebe Christi dränget und die das Alte
+und Ausgelebte aus dem Bereiche Israels, der Brüder Jesu
+nach dem Fleisch, der in tiefem Dunkel langer Erstorben-
+heit befindlichen, schwinden sehen möchten, daß sie nicht
+ruhen und rasten mögen, bis daß der Herr, deß das Reich
+und die Kraft ist , mich und mein Haus und Alle, die
+sich mir bereits angeschlossen und in Zukunft mit mir ver-
+binden werden, durch seine Gnade dem Leibe Jesu Christi
+eingegliedert hat, und daß sie auch uns für Glieder seines
+Leibes erachten möchten , damit auch wir, die wir uns an
+dem Lichtglanze Christi laben, der sein Leben auch für
+uns dahingegeben, das Fest begehen nicht im alten Sauer-
+teig und nicht im Sauerteig der Bosheit und Schalkheit,
+sondern in dem Süßteig der Lauterkeit und Wahrheit.
+    Möchten Sie sich doch , verehrter Herr , erinnern der
+                             21
+
+
+
+
+zwei Bitten, die ich auf unsrer Conferenz in Kischinew an
+unsre heidenchristlichen Brüder richtete, daß sie mit opfer-
+willigem Herzen, getrieben von dem heiligen Geiste, uns den
+Bau eines Bethauses, eines Tempels des HErrn ermöglichen,
+und daß sie uns Tinte und Papier im weitesten Sinne er-
+wirken möchten , um auf literarischem Wege dem übrigen
+Israel im russischen Reiche nahekommen und ihren Blick
+auf die ewige Erlösung richten zu können.
+     Es ist mir nie in den Sinn gekommen, mich anhei-
+schig zu machen , dem HErrn als ein neues Speisopfer
+gerade 200 Mann darzustellen, so daß , wenn an dieser
+Ziffer einer fehlt, die Zeitschriften mich meinem Volke als
+Lügner denuncieren und mich, den sonst wohl bekannten,
+verleugnen könnten. Das Heil, das wir in Christo gefun-
+den haben, ist nicht bedingt durch den Umfang unserer
+Anzahl , aber ich kann bestimmt versichern , daß derer,
+welche auf das Gelingen meiner christlichen Bestrebungen
+harren, eine Unzahl im jüdischen Lager ist. Sie sind noch
+verborgen, so daß das scheele Auge derer, die nur Unheil
+in Jakob wittern , sie nicht zu erschauen vermag. Ich
+meine den „Hamelitz" und ähnliche Organe. Der wahre
+Thatbestand wird nicht ans Licht treten, bis wir gewür-
+digt sein werden , in einem eigenen Gotteshause, einem Tem-
+pel des HErrn, rufen zu können : Hosianna dem Sohne Davids,
+                                                               Vu9
+Hosianna ! Gebenedeiet sei , der da kommt im Namen des
+HErrn.
+
+    Ich bin fern davon, das Werk des HErrn trüglich zu
+betreiben, indem ich in mein Haus lasterhafte und schmutzige
+Menschen aufnehme, welche aus der Gnade Christi eine
+einträgliche Waare machen wollen wie wirklich diejenigen,
+welche mein Volk irre führen, die jüdischen Redaktoren
+Zederbaum , Landau und andere sich einbilden und vor-
+geben, als ob ich von den Missionaren nach der Anzahl
+                                      22
+
+
+
+
+         der Köpfe [gulgoloth] , die ich für das Gesetz des Ber-
+         ges Golgotha gewönne , einen bestimmten Geldpreis er-
+         hielte. Sie wissen wohl , daß das unwahr ist. Und nun,
+         da sie nicht umhin können zu sehen, daß, Gott sei Dank,
+         die Lehre meines Messias und Erlösers Jesu, des Gekreu-
+         zigten , mir lieber ist , als Tausende Goldes und Silbers,
+         gibt ihr Hochmut ihnen so rücksichtslose Worte in den
+         Mund, wie daß ich verrückt sei , und daß die Lektüre
+         außerakademischer Broschüren mich wahnwitzig gemacht
+         habe. Diesen Zeitungsschreibern sage ich : Verehrte Herren,
+         ich bin nicht verrückt, sondern es ist Verstand und Wahr-
+         heit in dem , was ich zu meinen Brüdern rede , und die
+         Zeit ist nicht mehr fern, wo viele meiner israelitischen
+         Brüder erkennen werden, daß der Messias durch Leiden
+         hindurch gehen mußte, um als derErstling derAuferstandenen
+         Licht zu verbreiten unter dem Volke und unter den Nationen.
+
+             Es kommt mir aber nicht darauf an, daß derer, die sich
+         mir anschließen, möglichst viele seien, sondern darauf, daß
+         ihr Glaube rechter Art sei    Meines Herzens Wunsch ist,
+         kraft der Gnade Gottes und seines Sohnes Jesu Christi
+         ein beständig Haus zu bauen aus heiligen, lebendigen und
+         in Wahrheit und Rechtschaffenheit gereinigten Steinen.
+         Und ich kümmere mich nicht um das nichtige Gerede der
+         jüdischen Zeitungen. Mögen diese sich in Schmähungen
+         und Verwünschungen erschöpfen - ich verfolge den ein-
+         mal eingeschlagenen Weg, gewappnet durch die Kraft un-
+Nisill   seres Christus, der gesagt hat: Ich bin der Weinstock und
+         ihr seid die Reben; wer in mir bleibt und ich in ihm, der
+         wird viele Frucht bringen , denn ohne mich könnt ihr
+         nichts thun. Ich werde meine Augen nicht schlafen lassen
+         noch meine Augenlider schlummern, bis ich für meine
+         Brüder in Rußland eine Wohnung gefunden dem Mächtigen
+         Jakobs, das ist, dem Messias Jesus, einzugehen mit ihnen
+                           23
+
+
+zusammen und anzubeten am Schemel seiner Füße, in der
+festen Zuversicht , daß der, welcher Zion erkoren , mich
+Gnade und Mitgefühl und Teilnahme finden lassen wird in
+den erleuchteten Augen aller Gotteskinder, der wahren
+Bekenner Christi, mich aus der Gnadenfülle , die ihnen
+mein Bruder Jesus Christ bereits aufgethan, mit allem
+Guten zu unterstützen , der eine mit Geist, der andere mit
+Stärke , der andere mit Rat, der andere mit Erkenntnis,
+daß ich mein Werk inmitten meiner Brüder vollenden und
+sie zu ihrem Bruder nach dem Fleisch zurückführen könne,
+damit sie durch ihn den Weg der Wahrheit nnd des Le-
+bens finden.   Amen.
+    Mögen Sie immerhin dieses mein Schreiben übersetzen
+und veröffentlichen, damit man erkenne , um was es mir
+zu thun ist, und der Entstellung gewehrt und der Mund
+der Verleumdung gestopft werde, allen, welche die Wahrheit
+lieben, zur Freude.
+    Empfangen Sie den herzlichen Gruß Ihres Freundes,
+dessen Stolz Jesus Christus der Gekreuzigte .
+                                *
+                       *
+
+
+
+
+    Das ist die Antwort des Herrn Josef Rabinowitsch auf
+ unsere Anfrage. Wir sind seiner Wahrhaftigkeit so gewiß,
+daß wir keiner Rechtfertigung seiner Aussagen bedurften,
+aber wir wünschten Materialien, um dem Angriffe des
+Melitz begegnen zu können. Was die Ziffer der von der
+neuen Bewegung Ergriffenen betrifft, so stammt die Angabe
+der Times nicht aus unseren „Documenten", welche sich
+unbestimmter ausdrücken. Die Ergriffenen bilden eine
+Diaspora, welche in Kischinew, wie dort gesagt wird, die
+verhältnismäßig wenigsten Mitglieder zählt. Aber gerade
+in Kischinew ist jetzt die Einrichtung eines Betsaales für
+                                24
+
+
+die Christgläubigen aus Israel im Entstehen begriffen, nach-
+dem die Kaiserlich Russische Regierung eine freundliche
+duldsame Stellung zu dieser judenchristlichen Bewegung
+eingenommen hat. Vor kurzem empfingen wir durch Herrn
+Divisionsprediger Pastor Faltin in Kischinew in dem hier aus-
+zugsweise folgenden Briefe diese hocherfreuliche Nachricht.
+
+Aus einem Briefe des Herrn Pastor Faltin vom 24. Okt. (5. Νον.) 1884
+                       an den Herausgeber.
+
+            Geliebter Bruder in dem Herrn !
+     Es freut mich Ihnen heute gute Nachrichten über den
+weiteren Fortgang der hiesigen national-jüdischen Christen-
+tums-Bewegung geben zu können. Es ist wunderbar, wie
+der HErr bisher alles in Gnaden geführet hat. Die „Do-
+cumente" kamen vorerst nur in einzelnen Exemplaren in
+unsere Hände , die Hauptmasse wurde vorläufig zurück-
+gehalten, wahrscheinlich wohl, weil man fürchtete, daß die
+Bewegung vielleicht einen schädlichen Einfluß auf politi-
+schem Gebiete üben würde. Die eifrigen Agitationen der
+Feinde der Bewegung, welche in den Zeitungen den Mund
+recht vollnahmen , haben hauptsächlich dazu beigetragen,
+daß in den höchsten staatlichen und kirchlichen Kreisen
+man recht viel Notiz von dieser Sache nahm.             Die Docu-
+mente wurden ins Russische übersetzt , gingen bis zum
+Minister einerseits, und bis zur Versammlung der orthodox
+russischen Bischöfe in Kiew andererseits.         Der HErr aber
+hat dies zu Gunsten der Sache gewendet.               Es erhoben
+sich auf den verschiedenen Gebieten Fürsprecher und Ver-
+teidiger der Sache. Gestern traf nun, ohne daß von hier
+aus etwas gethan wurde, ein Schreiben von dem Censur-
+Comité an Rabinowitsch ein, in welchem mitgeteilt wurde,
+daß zufolge besonderer Entscheidung des Herrn Ministers
+                            25
+
+die Verbreitung dieser Schriften und noch einiger anderer
+in hebräischer Sprache, welche von Rabinowitsch angefer-
+tigt, wohlwollend genehmigt werde. Gouverneur und Chef
+der Gensdarmerie stehen wohlwollend zur Sache, auch ist
+es mir möglich gewesen , für sie gut einzustehen und
+manche irrtümliche Meinungen zu verscheuchen. Dieser
+Unterbau ist für die gesegnete Entwickelung in Rußland
+durchaus nötig. Dem HErrn sei Dank, daß bis jetzt alles
+so gut gelungen.
+    Heute war Rabinowitsch bei mir , und wir haben ein-
+gehend unter Gebet zum HErrn über den weiteren Fort-
+gang gesprochen. Es ist bereits ein Schreiben an den
+Gouverneur angefertigt , in welchem er gebeten wird , auf
+Grundlage eines entsprechenden Gesetzesparagraphen die
+unterzeichneten Personen als einen Zweig der jüdischen
+Bevölkerung unter dem Namen „Israeliten des neuen Testa-
+mentes " in einem besonderen Lokale sich versammeln zu
+lassen, um unangefochten von den übrigen Juden sich aus
+dem Gottesworte Alten und Neuen Testamentes zu erbauen
+und Jesum von Nazareth, den sie als ihren und der Welt
+Heiland anerkennen, immer mehr zu erfassen und in Liebe
+sich ihm hinzugeben. Auch bitten sie, daß ein Stück des
+jüdischen Begräbnißplatzes ihnen abgetreten werde , damit
+                                      -
+
+
+
+
+sie dort ihre Toten beerdigen können.   Das ganze Akten-
+stück ist sehr gut abgefaßt und da die Stimmung der
+Obrigkeit durch Gottes gütige Führung geneigt ist , so ist
+mit ziemlicher Gewißheit anzunehmen , daß ein günstiger
+Bescheid kommen wird. Das Versammlungs-Lokal ist be-
+reits bestimmt. Es befindet sich nicht weit vom Pastorate,
+im oberen Stock bei dem jüngeren Rabinowitsch, der eben-
+falls von Herzen gläubig ist und innig den HErrn liebt.
+     Das Versammlungs-Lokal soll ähnlich einer lutherischen
+Kirche eingerichtet werden. Im Fond soll an der Wand
+                             26
+
+
+
+eine sauber gearbeitete Tafel sich befinden, auf welcher
+mit goldenen Lettern die auf dem beigelegten Zettel stehen-
+den Worte dem Eintretenden entgegenleuchten sollen.
+Rabinowitsch legte mir dieses als Entwurf vor und wünscht
+darüber Ihre Meinung. Ich finde die Aufschrift recht pas-
+send , sie weiß in treffender Weise den Israeliten mit drei
+Namen Gottes auf den Dreieinigen hinzuweisen.
+     Unter der Tafel soll eine Art Altartisch stehen, auf
+welchem eine geschriebene Thora, wie in den Synagogen
+gebräuchlich , liegen soll, dabei ein in schönem Einband
+zusammengefaßtes Altes und Neues Testament, also eine
+volle hebräische Bibel .
+    Meine Bitte geht nun im Namen unserer Brüder aus
+den Israeliten des neuen Bundes dahin, daß die Freunde
+der Ausbreitung des Reiches Gottes unter Israel zur Einrich-
+tung und zur Förderung ihre Hand darreichen möchten...
+Es ist ja wunderbar, wie der HErr mich armen Knecht
+auf diesem vorgerückten Posten erhalten hat , so daß die
+lutherische Kirche das Erbteil der Heiligen im Licht über-
+tragen konnte auf die Kinder Israels , deren hier so viele
+sind , für welche im stillen Kämmerlein ich manchmal ge-
+seufzt und gebetet habe.
+     Und nun , teurer lieber Bruder in dem HErrn , ver-
+binden Sie sich mit denen, die das Kommen des Reiches
+Gottes unter Israel lieb haben, zu herzlichem Gebete, damit
+das begonnene Werk hier reichlich gesegnet werde. Grüßen
+Sie herzlich Alle, die für die hiesige Arbeit mit uns beten.
+Gott der HErr segne Sie noch reichlich, um in ungebrochener
+Kraft weiter zu arbeiten und die Gnadensonne über Israel
+aufgehen zu sehen.
+                              In Christo Jesu
+                                      Ihr
+                                             Faltin.
+            Mitteilungen
+aus unserem Briefwechsel mit Jos. Rabinowitsch.
+                                         d
+
+Lieblich ist es, so ihr Jesus            d
+  Liebend euren Bruder nennet,
+Heilsam für euch, so ihr Christus
+  Den Versöhner treu bekennet.
+                                         a
+
+Euren Bruder nehmt zum Haupte,
+  Werdet seines Reiches Glieder
+Und die andern Reichsgenossen
+  Reichen euch die Hand als Brüder.
+                  Nathan Imman. Mossa.
+
+
+
+
+                                         P
+         Aus einem deutschen Briefe vom 1/13. Juni 1884.1
+
+             Hochgeschätzter Herr W. Faber !
+      Dankend und lobend Gott kann ich Ihnen melden,
+ daß ich Ihren Brief und mit Erlaubnis der Censur auch
+ die 5 Exemplare der Documente unter Kreuzband richtig
+ bekommen habe .
+     Ja die Blätter des Feigenbaumes sind uns vor Augen,
+aber wo ist der Sommer? Ich hoffe: er ist nahe , und
+ich wache, denn ich weiß nicht, welche Stunde mein Herr
+kommen wird.        Mit Leib und Seele danke ich Ihnen für
+Ihre Mühe und Kosten, welche Sie so opferwillig an meine
+armen Documente verwandt haben. Ich bete : HErr, thue
+wohl den guten und den frommen Herzen ! Amen.
+     Ich befinde mich immer zu Hause und bekomme viel
+Briefe von verschiedenen Leuten und Orten. Unter an-
+deren meinen Schriften habe ich seither einige Kapitel der
+Psalmen in Jargon umgedichtet, in der Hoffnung, daß diese
+Gedichte im Stande sein werden, das gemeine Volk für
+die messianische Thora anzuregen.
+    Recht notwendig wäre es für mich, Kischinew und die
+Leute dort auf eine kleine Zeit zu verlassen , um eine
+Reise im Interesse der Bewegung zu machen. Vielleicht
+wird es mir möglich .
+     1) Herr R. schreibt das Deutsche nicht so geläufig wie das Rus-
+sische , Hebräische und Jüdisch - Deutsche ; wir haben stilistisch hier
+und da etwas nachgeholfen , aber ohne sachlich etwas zu ändern. Alle
+folgenden Briefe sind von uns aus dem Hebräischen übersetzt.
+                             30
+
+            Aus einem Briefe vom 15/27. Juni 1884.
+
+               An den Herausgeber.
+     Ihre Liebe und Ihr Mitgefühl mit meinen armen in
+Finsternis sitzenden Volksgenossen , welche Sie durch die
+mühevolle Herausgabe der von uns , den an Jesus , den
+Messias unserer Gerechtigkeit, Gläubigen in Südrußland,
+ausgegangenen Schriftstücke bethätigt haben, verpflichten
+uns zu dem innigsten Danke. Im Namen aller meiner
+Brüder habe ich Ihnen zu sagen, daß wir den HErrn,
+welcher unsern Vätern und ihrem Samen nach ihnen sich
+zugewandt hat, anrufen, daß er noch weiterhin Ihr Mühen
+segnen und sich zu dem Werk Ihrer Hände bekennen wolle.
+Der HErr lohne Ihnen diese Erstlingsfeigen, welche Sie in
+einem Korbe , den christliche Liebe geflochten, Ihm dar-
+gebracht haben, und lasse Sie schauen den Anbruch seines
+Erbarmens über die Kinder Israel , nachdem sie so lange
+in ihrem Unglauben seinen heiligen Geist betrübt haben.
+     Indem ich Amen hierzu spreche, darf ich Sie ver-
+sichern , daß die Männer , die Sie im Geiste unter dem
+Feigenbaum gesehn , in Wahrheit Israeliten ohne Falsch
+sind, welche gekommen sind und gesehen haben, daß aus
+Nazaret nur Gutes für sie ausgegangen und daß Jesus
+der Sohn Gottes und der König von Israel ist.
+
+
+
+            Aus einem Briefe vom 9/21. Juli 1884,
+
+                An den Herausgeber.
+     Ja, Sie haben Recht mit der These, die Sie obenan
+stellen : „Das Centrum des Christentums ist Christus". Er
+ists , auf welchen im Hohenliede hingedeutet wird: „Ein-
+geführt hat mich der König in seine Gemächer, lasset uns
+                             31
+
+
+ frohlocken und uns freuen Deiner".        Die Geliebte will
+ sagen: Obwohl der König mich in seine Gemächer hinein-
+ geführt hat und ich da die Pracht der Herrlichkeit Deines
+ Königtums (Deines Messiastums, also des Christentums) zu
+ sehen bekomme, so gelten mein Frohlocken und meine
+ wahre Freude doch vor allem Dir (Dir, dem Messias oder
+ Christus). Was wäre ein Königreich wenn der König fehlt ?
+ Der Geist aus Gott bekennt Jesum den Christ, daß er in
+ das Fleisch gekommen (1 Joh. 4, 3), er ist eine geschicht-
+ liche leibhaftige Größe, kein Gebilde der Speculation oder
+ Phantasie. Wahr und schön bemerken Sie gegen J. Singer's
+ Schrift : Sollen die Juden Christen werden? daß wer die
+ Moral des Christentums anerkennt , aber Christus beiseite
+ thut, einem solchen gleicht, der das Licht genießen, aber von
+ der Sonne nichts wissen will (Saat auf Hoffnung 1884 S. 97) .
+       Ja, mein Teurer, alles Sehnen meines Herzens geht
+ dahin , daß die Tochter meines Volkes sich dem Könige
+ Israels, Jesus Christ, zuwende, der die Urkunde des alten
+Bundes aus dem Mittel gethan und an das Kreuz geheftet
+hat. Noch sagt sie von ihm wie Michal von David : Was
+ist das doch für ein König Israels, der sich vor den Mägden
+seiner Knechte entblößet und zum Schauspiel der losen
+Leute gemacht hat! (2 Sam. 6, 20). Sie nimmt Aergernis
+an seiner Selbsterniedrigung. Aber sie wird noch einmal
+erkennen und glauben, daß Er Jesus, der Heiland, ist und
+daß ihn und keinen anderen Gott erwählt hat, ihn zum
+Herrn und Christ über sein Volk Israel zu bestellen ; noch
+wird es dahin kommen, daß sie ihn liebt mit der christ-
+lichen Liebe , welche alle Erkenntnis übersteigt, um nicht
+ länger den Wahngebilden einer dem Leben aus Gott ent-
+fremdeten Wissenschaft nachzugehen , indem sie ihr von
+den trüglichen Gütern dieser Welt hingenommenes Herz
+verhärtet.
+                             32
+
+
+    Ich habe das feste Vertrauen auf die Gnade des
+Höchsten, daß die Zeit nicht mehr fern ist , wo aus den
+lebendigen Steinen, welche jetzt auf allen Gassen der
+jüdischen Wohnsitze in Südrussland hingeschüttet liegen,
+ein geistlicher Tempel aufgebaut werden wird , wo man
+Opfer des Geistes Gotte zu Wohlgefallen in Christo Jesu
+darbringt, wenn uns diejenigen, welche den HErrn lieben
+und um sein Geheimnis wissen, durch Rat und That mit-
+helfen , die Verstoßenen Israels zu sammeln und sie hin-
+zuweisen auf Ihn und seine Stätte.
+    Von den „Documenten" sind erst zwei Exemplare an
+mich gelangt , mit denen es mir und meinem Freunde er-
+gangen ist wie nach Jes. 28, 4 mit einer „Frühfeige ehe
+Ernte ist , die ansieht wer sie sieht und kaum ist sie in
+seiner Hand , so verschlingt er sie".
+     Ich lege als Probe einige von mir in den jüdischen
+Jargon übertragene Psalmen bei, gerade die davidischen
+Psalmen meinen Volksgenossen geläufiger zu machen thut
+sehr not. Auch ein Machwerk meiner eigenen stümperhaften
+Poesie lege ich bei       ohne Zweifel giebt es in Leipzig
+solche , die den jüdischen Jargon verstehen.
+
+
+            Aus einem Briefe vom 4/16. Sept. 1884.
+
+                An den Herausgeber.
+    Gestern empfing ich von Herrn Müller aus Charkow
+einen Teil der Bücher, mit denen mich zu beschenken Sie
+versprachen. Die übrigen befinden sich , wie Hr. Müller
+schreibt , bei der Censur in Moskau.
+    Wie soll ich Ihnen für all diese Liebesbeweise danken ?
+Ich will den Kelch des Heils nehmen d. i. des Herrn
+Christus (so wird dieses Wort „des Heils" in der Ein-
+                            33
+
+
+leitung des Sohar von R. Hiskia gedeutet) und des HErrn
+Namen anrufen, daß er seinen Segen über all Ihr Vor-
+nehmen entbieten und ihnen Leben auf ewig verleihen möge .
+Amen.
+    Meine Schrift „Sinai und Horeb oder Priester und
+König" ist mit Hülfe Gottes beendigt. Sie umfaßt ungefähr
+12 Bogen und bezweckt durch die Gnade des Höchsten
+meine israelitischen Brüder in ein bisher unerschlossenes
+Geheimnis einzuweihen, nämlich weshalb im Deuteronomium
+und in allen Propheten und Psalmen gesagt wird, daß die
+göttliche Offenbarung an die Kinder Israel auf dem Berge
+Horeb geschehen ist, ohne daß irgendwo die Thora des
+Berges Sinai erwähnt wird , während umgekehrt in den
+mittleren Büchern des Pentateuchs (Exodus , Leviticus,
+Numeri) zu lesen ist, daß alle Satzungen und Rechte an
+Israel auf dem Berge Sinai gegeben und gesprochen worden
+sind, ohne daß des Berges Horeb gedacht wird. Und der
+Berg Sinai als Gesetzgebungsberg wird dann erst seit
+Ezra's Rückkehr aus Babel in Neh. 9, 13 und weiterhin in der
+Mischna : „Mose empfing die Thora vom Sinai" genannt.
+Durch meine Schrift werden außer Lösung dieses Problems
+viele das Neue Testament im Allgemeinen und die Reden
+des Herrn Jesu insbesondere betreffende Schwierigkeiten
+aufgehellt und viele auffällige Stellen im Alten und Neuen
+Testament (Dt. 18, 15 f. Mal. 3, 22. Apostelgesch. 3, 22 .
+Gal. 4, 25) und im Talmud erklärt, so wie auch Licht über
+die drei jüdischen Parteien der Pharisäer, Sadducäer und
+Essäer zur Zeit des zweiten Tempels , ihre Ansichten und
+die Zeit ihrer Entstehung verbreitet werden. Ich habe be-
+schlossen nichts davon zu veröffentlichen, ohne zuvor Ihr
+Urtheil darüber gehört zu haben. Vielleicht finden Sie,
+daß es jetzt noch nicht an der Zeit ist, damit hervor-
+zutreten.
+                                               3
+                                         34
+
+
+
+               Infolge des in den Times erschienenen Schreibens des
+          Bischofs Titcombe hat die kaiserliche Regierung ihre Auf-
+          merksamkeit der hierzulande begonnenen religiösen Be-
+          wegung zugewendet. Ich kann rückhaltlos bekennen, daß
+     ich es mit dem heiligen Paulus halte , welcher an die
+M133 Römer schreibt: Jedermann sei unterthan der Obrigkeit,
+           die Gewalt über ihn hat. Denn die Gewaltigen sind nicht
+           den guten Werken, sondern den bösen zu fürchten.
+
+
+
+                               Antwort des Empfängers.
+
+                                       Leipzig , am 3. October 1884.
+                          Verehrter , geliebter Freund !
+                Wir freuen uns, daß unsere Büchersendung wenigstens
+           teilweise angekommen ist, möchte auch der in Moskau auf
+           der Censur lagernde Teil bald für sie frei werden ! Wenn
+           einmal Gunst und Schutz der russischen Regierung für die
+           von Ihnen ins Leben gerufene judenchristliche Gemeinde
+           anzurufen sein sollten, so ließe sich vielleicht die Für-
+           sprache des Fürsten Bismarck gewinnen; wir würden gern
+           diesen Schritt wagen und , wie wir hoffen , nicht erfolglos.
+               Es ist durchaus nötig, daß wir uns persönlich kennen
+           lernen.   Mein Freund Faber plant schon lange die Er-
+           möglichung Ihrer Hierherreise. Wir werden für den rechten
+           Zeitpunkt Gottes Fingerzeig abwarten.
+               Dann bringen Sie Ihre Schrift „ Sinai und Horeb,
+           Priester und König" mit und wir besprechen ihren Inhalt.
+           Aber eins sage ich Ihnen im voraus : Vor dem Forum der
+           Wissenschaft gilt nur der grammatisch - historische
+           Schriftsinn.   Die Reformation hat den sensus simplex lite-
+           ralis in sein Recht eingesetzt und mit jener Allegorese,
+                                   35
+
+
+jener haggadistischen Auslegung gebrochen, welche allerlei
+Dinge , die außerhalb des Bewußtseins und der Intention
+der heiligen Schriftsteller lagen, in die Schriftworte einträgt
+und herausliest.
+     Daß im Pentateuch die jahvistische Darstellungsweise
+den Berg der Gesetzgebung „Horeb", die elohistische da-
+gegen „Sinai " nennt, ist gleicher Art , wie daß jene für
+Mesopotamien „Aram der zwei Ströme", diese „Paddan
+Aram " sagt. Die jahvistische deuteronomische Darstellungs-
+weise ist die prophetische, die elohistische die priesterliche.
+Alles das hat die Pentateuchforschung im Allgemeinen und
+Wesentlichen über allen Zweifel erhoben.             In einem treffen
+Sie das Wahre. Wie Moses Urheber des jahvistischen
+prophetischen Typus ist, so verhält sich Esra abschließend
+zu dem elohistischen priesterlichen.             Der Priestercodex
+(was weiteren Sinn hat als Leviticus d. i. das dritte Buch
+des Pentateuchs) ist nach dem Exil zum Abschluß ge-
+kommen, obwohl nicht erst damals entstanden, denn seine
+Grundlagen reichen in die Zeit der Sinaigesetzgebung
+zurück . 1
+      Das neue       Testament bekennt sich           zwar zu dem
+Glaubenssatze : „Die Thora ist himmlischen Ursprungs" ,
+bezeugt aber zugleich, daß diese göttliche Thora eine
+menschliche, lokale, temporäre, provisorische Seite hat und
+nicht der reine Ausdruck des göttlichen Willens ist, nicht
+der direkte, sondern nur ein prismatisch gebrochener.
+     Deshalb halte ich am Standpunkte des Paulus fest :
+
+      1) Was soll das hier   wird man fragen - inmitten des Gedanken-
+austausches über fundamentale praktische Fragen? Ich antworte : 1) daß
+des Freundes Brief es mir zur Pflicht zu machen schien, in dieser Weise
+das wissenschaftliche Resultat dem erschlossenen Geheimnis entgegen-
+zuhalten, und 2) daß auch die Wissenschaft berufen ist, zur Befreiung
+Israels von superstitiöser Verehrung des mosaischen Gesetzes mitzuwirken.
+                                                         3*
+                             36
+
+Die Thora vom Sinai hat sich ausgelebt , seit die Thora
+aus Zion (Jes . 2, 3) an ihre Stelle getreten ist. Ein Gesetz,
+welches sich nicht qualificiert, Gesetz der Menschheit zu
+werden, darf auch nicht Gesetz Israels bleiben, nachdem
+an die Stelle der nationalen Theokratie die universale ge-
+treten. Nachdem das jüdische Volk der Welt den Messias
+gegeben, hat die Zeit der nationalen Prärogative aufgehört.
+Das Judentum mumisiert die Blüte, welche diese Frucht ge-
+bracht hat.
+
+    Die von Ihnen hervorgerufene Bewegung findet all-
+gemeine Teilnahme.      Tausende breiten darüber betende
+Hände.   Das Bekenntnis : Jesus unser Bruder ist wie die
+aufsteigende Säule des Morgenrotes. Wir begrüssen es mit
+dem Tempelruf: Der Morgen blitzet. Der HErr aber lasse
+es vom Morgen zum Mittag kommen und erfülle an Ihnen
+und den bessarabischen Brüdern das Psalmwort (84, 8) :
+Sie schreiten von Kraft zu Kraft, und das Chokmawort
+(Spr. 4, 18) : Der Gerechten Pfad ist wie die Helligkeit des
+Morgenglanzes , welche fortgehend heller wird bis zum
+vollen Tage .
+                      In christbrüderlicher Liebe
+                                   Ihr
+                          Professor Franz Delitzsch .
+                          ANHANG.
+ Prosa- Uebersetzung eines hebräischen Gedichts von J. R.
+   (Vierzeilige Strophen, deren Zeilen 1 und 3, 2 und 4 sich reimen.)
+                                   Durch die Teg ün Necht
+                                      Sitz ich allein bei mir in Stüb,
+                                   Denk über mein Volk was is schlecht,
+                                      Nur was hab vün Herzen lieb .
+
+    1. Fern von Menschen einsam in meinem Stübchen,
+Abends und Morgens und auch am Mittag sorge ich um mein
+Volk, dasungehorsame, das ich liebe so lange derHimmel währt.
+     2. Wie und wodurch kann man ihnen verhelfen zu dem
+Erbe und der Ruhe , die ihnen Gott ihr Vater bereitet hat
+in seiner Gnade und Fürsorge !
+    3. Umsonst ziehe ich sie zu dem Gesetze hin, um sie
+da hinzuweisen auf das Zeugnis, und sie zu gemahnen an das
+Heil , das in Gottes lauterem Wort ihnen voraus bestimmte .
+     4. Ihre Augen sind gar zu verblendet, sehr schwer-
+hörig ihre Ohren, seit sie die Treue gebrochen ihrem Vater
+und mit der Aufklärung zu buhlen begonnen.
+     5. „Ich bin ein Jude!" prahlt man auf der Gasse, ohne
+Gottes Gebote zu halten und zu der Väter Gotte zu beten,
+welcher Israel zu dem Erstling seiner Berufenen gemacht hat,
+     6. Sondern indem man es mit den Götzen hält , den welt-
+lichenVergnügungen, dem Silber und Golde und spricht: Es ist
+nichts mit alldemAufschauen, sei es zum Sohne oderzum Vater.
+      7. Es ist als ob alle Sinne des Juden                   erstorben
+wären , er sieht nicht die Größe seines Verfalls. Daheim
+herrscht Lug und Trug, nnd draußen graben Hasser sein Grab.
+     8. Nur Geld ist sein Leben , ja sein Blut; nur Geld
+sind alle seine Gedanken, Einfalt und Gottesfurcht gelten für
+zu nichtig, als daß er sie anbeföhle nach ihm seinen Kindern.
+                             38
+
+    9. Von hier nach dort schweift er, nach Mitteln und
+Wegen suchend, um vor dem Grimme des Verfolgers sich
+zu retten in Länder, die ihm doch verschlossen.
+     10. Tag um Tag fragt er nach seinen Zeitungsschreibern,
+Maggid und Melitz, deren Artikel zu nichts helfen, und doch
+sind das die Helden des Vortrabs, hinter dem man hergeht.
+    11. Ja Helden sind sie, um Subscribenten zu Tausenden
+zu sammeln und Geld einzusacken, aber gegen unsere Wider-
+sacher schützen sie uns nicht.
+     12. Erst nachdem schon die Schlange gebissen und
+der Reiter rückwärts gestürzt ist - da, statt stille zu heilen
+und das Uebel zu beschwören , brummen sie wie Bären
+und machen zum Uebel ihr Notabene .
+    13. Statt wahrhaft zu heilen steigern sie nur mit ihrer
+Zunge voll maßlosen Schmähens die Erbitterung - o daß
+das Grab ihr Geschreibe verschlänge !
+    14. Mein Volk! Arznei und Balsam sind alle vergeudet,
+wenn du nicht hörst auf deine Propheten, die dir Jesus der
+Nazarener verkündet, den Heiland der Weltund deinen Heiland.
+    15. Dieser Mensch Jesus Christus ist, ehe die Berge
+wurden , ersehen, dich und die Heiden zu beglücken und
+den Erdboden zu richten mit Gerechtigkeit.
+     16. Durch sein Fleisch, das er hingegeben zur Schlacht-
+bank, und sein Blut, das er wie Wasser vergossen, hat er allen
+Erlösung und Erquickung erwirkt, Licht, Wohlsein und Leben.
+     17. Ist Er nicht dein Prophet, dein Messias ? Heute
+rufe doch ihn an, eilen wird er als dein Bruder dir Heil
+zu schaffen zur Zeit der Not.
+     18. Meine Brüder ! Wenn ich euch nicht liebte, wenn
+ich euer Weh nicht als eigenes fühlte, so glaubt mir auf
+mein Wort : ich würde euch fahren lassen und mich nicht
+um euch kümmern.
+                          ‫קול קורא‬
+  Aufruf an meine israelitischen Brüder in Russland. 1
+                        Wer unter euch wird solches zu Ohren nehmen,
+                                 aufmerken und hören fernerhin ?
+                                                          Jes. 42, 23.
+
+
+    Meine Brüder , Söhne Jakobs , wer von euch hält das
+Gedächtnis unserer Väter Abraham , Isaak und Jakob in
+Ehren, die als Selbstbezeugung des Höchsten die Verheißung
+empfingen , daß in ihrem Samen gesegnet werden sollen
+ alle Völker der Erde ?
+     Wer von euch ist von dem Bewußtsein der Heiligkeit
+ der Thora, der Satzungen und Rechte durchdrungen, welche
+Gott seinem Knechte Mose auf Horeb für ganz Israel an-
+befohlen?
+     Wer von euch hat ein Herz voll Liebe und Mitgefühl
+für das Haus Davids, des Königs Israels, zu welchem Gott
+vorlängst im Gesichte geredet hat: Er wird mich nennen:
+mein Vater du, mein Gott und Fels meines Heils, und Ich
+werde zum Erstgeborenen ihn machen, zum höchsten unter
+den Königen der Erde. Sein Same soll ewig bestehen
+und sein Thron wie die Sonne vor mir.
+    Wer unter euch hat in seinem Innern noch einen von
+Geld- und Handelsgier nicht ausgelöschten Funken des
+Glaubens an die Worte unserer wahrhaftigen Propheten
+Jesaias, Jeremias und der anderen ihresgleichen ?
+     Wem von euch macht der traurige Zustand unserer
+israelitischen Brüder in Rußland wirkliche Sorge , so daß
+er dem Troste Israels entgegenharret ?
+    1) Hebräisch, russisch und im Jargon auszugehen bestimmt.
+                                            40
+
+                Wer von euch möchte den Tod nicht sehen , ohne
+          daß seine Augen den Messias des HErrn gesehen, den er
+          bereitet hat vor allen Völkern; wer schaut ersehnend aus
+          nach der Herrlichkeit Israels ?
+              Der schweige nicht, berge nicht was er fühlt, sondern
+          sage zu seinem Genossen : Nur Mut! Wir wollen die Hand
+          ausstrecken und zurückkehren zu dem HErrn , wir wollen
+          uns als wahre Kinder Israels zusammenthun, wollen in
+          eins verbunden unsere Kniee beugen vor unserem Bruder
+          Jesus aus Nazaret, vor unserem Messias , welcher gestern
+     13,8Je
+          und heute und derselbe auch in Ewigkeit ist.
+               Wir wollen angesichts aller Völker der Erde beichten
+          und sprechen : Fürwahr, wir haben uns an unserem Bruder
+          verschuldet , daß wir sahen die Angst seiner Seele , da er
+          uns flehete und wir wollten ihn nicht erhören, darum ist
+          diese Trübsal über uns gekommen [1 M. 42, 21] . /
+               Wir wollen aufstehen und auf uns nehmen sein Joch,
+          unter welchem alles Lebendige Ruhe der Seele findet, wie er
+          selbst gesagt hat : MeinJoch ist sanft und meine Last istleicht.
+Vapo           Laßt uns Liebe in Wahrheit fassen zu dem , der ge-
+          sagt hat: Ich bin der Weg, die Wahrheit und das Leben,
+     so werdet ihr die Wahrheit erkennen und die Wahrheit
+ん とと wird euch frei machen.
+              Eilet , ja eilet, Brüder, und blicket auf zu dem, den
+    1     ihr durchstochen habt      -
+
+
+
+                                          wir werden nicht allein bleiben,
+          bald wird ein Volk unseres himmlischen Vaters sich uns
+          anschließen und mit uns zusammenwohnen wollen , und
+          wir werden sie begrüßen: Gebenedeiet sei der da kommt
+2118,24   im Namen des HErrn !
+
+
+
+
+                            DRUCK VON ACKERMANN & GLASER.   LEIPZIG
+                                                                  .
+    Von dem INSTITUTUM JUDAICUM in Leipzig sind bereits
+folgende Schriften ausgegangen und durch die Buchhandlung von An-
+dreas Deichert in Erlangen oder unmittelbar durch das Institutum
+Judaicum , Leipzig, Ross-Strasse 9 zu beziehen :
+                                  Nr. 1.
+
+         Herschel -Augusti.
+   Eine abenteuerliche , wunderliche und doch durchaus
+                          wahre Geschichte
+                                   erzählt
+                       von.C. Wesselhöft .
+                                   30 Pf.
+
+
+
+                                   Nr. 2 .
+
+                Israel Pick.
+   Bekenntnisse aus der Tiefe eines jüdischen Herzens.
+                          Mit Erläuterungen
+                     von Franz Delitzsch .
+                  Zweite erweiterte Auflage.
+                                   30 Pf.
+
+
+
+                                   Nr. 3 .
+
+
+    „ Ganz Israel wird selig werden“ ,
+                           ein Geheimnis .
+           Nach dem Englischen des D. ADOLPH SAPHIR
+                  von Wilhelm Hochbaum ,
+                 Mitglied des Institutum Judaicum in Halle.
+                    Bevorwortet von Franz Delitzsch.
+                                   30 Pf.
+
+              Eine zweite erweiterte Auflage ist in Vorbereitung.
+
+
+                                   Nr. 4.
+
+                     Documente
+der national - jüdischen christgläubigen Bewegung
+                               in Südrussland .
+          Im Original und deutscher Uebersetzung mitgeteilt
+                     von Franz Delitzsch .
+                                  1 Mark .
+     Ausserdem sind im Verlag von A. DEICHERT in Erlangen er-
+schienen :
+
+
+
+
+               Schachmatt
+  den Blutlügnern Rohling und Justus
+                                entboten
+
+                                      von
+
+
+                      Franz Delitzsch .
+
+             Zweiter revidierter Abdruck.
+
+                              1883.     50 Pf.
+
+
+
+
+Neueste Traumgesichte
+                                      des
+
+
+             antisemitischen Propheten.
+      Sendschreiben an Prof. Zöckler in Greifswald
+                                      von
+
+
+                 Prof. Franz Delitzsch .
+
+                              1883.    50 Pf.
+
+
+
+
+                                      火
+
+                                  ত
+
+
+
+
+                  DRUCK VON   ACKERMANN & GLASER.   LEIPZIG
+   This book should be returned to
+the Library on or before the last date
+stamped below.
+   A fine is incurred by retaining it
+beyond the specified time.
+   Please return promptly .
+
+
+
+
+JUL12'60 H
+

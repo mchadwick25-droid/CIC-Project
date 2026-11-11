@@ -95,3 +95,12 @@ assignments:
     f for long s and broken words.
 
     '
+- row_id: geddes_history-of-the-church-of-malabar-synod-of-diamper_1694--st-thomas-christians-two-obediences-context
+  work: "The History of the Church of Malabar (1694)"
+  author: geddes
+  locus: "whole book"
+  atlas_ids:
+  - st-thomas-christians-two-obediences
+  role: context
+  confidence: provisional
+  note: "An Anglican chaplain's history and translation of the Diamper acts, printed 1694, inside this entry's window; an outsider's view."

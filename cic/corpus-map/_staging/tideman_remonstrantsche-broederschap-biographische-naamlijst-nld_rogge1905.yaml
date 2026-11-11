@@ -1,0 +1,11 @@
+source_file: tideman_remonstrantsche-broederschap-biographische-naamlijst-nld_rogge1905.txt
+assignments:
+- row_id: tideman_remonstrantsche-broederschap-biographische-naamlijst-nld_rogge1905--de-remonstrantsche-broederschap-naamlijst-1905
+  work: 'J. Tideman, De Remonstrantsche Broederschap: biographische naamlijst, 2nd ed., rev. Rogge and B. Tideman (Amsterdam, 1905)'
+  author: tideman
+  locus: 'the whole volume; the introduction at about OCR line 368; add 12 to OCR line numbers for this file''s own'
+  atlas_ids:
+  - the-remonstrants-and-dort
+  role: context
+  confidence: provisional
+  note: 'The Brotherhood''s own register of its ministers, compiled in 1847 and revised in 1905, after this entry''s window. It runs through the years after 1650, which no entry covers yet.'

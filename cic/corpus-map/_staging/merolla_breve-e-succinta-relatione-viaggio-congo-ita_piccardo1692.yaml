@@ -13,3 +13,12 @@ assignments:
     hostile to Kongo religion.
 
     '
+- row_id: merolla_breve-e-succinta-relatione-viaggio-congo-ita_piccardo1692--kongo-christianity-after-1650-context
+  work: "Breve e succinta relatione del viaggio nel regno di Congo (1692)"
+  author: merolla
+  locus: "whole book"
+  atlas_ids:
+  - kongo-christianity-after-1650
+  role: context
+  confidence: provisional
+  note: "A Capuchin's account of the mission in Soyo and Kongo, printed 1692; a missionary's view."

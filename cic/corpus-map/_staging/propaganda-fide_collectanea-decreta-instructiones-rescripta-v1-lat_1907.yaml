@@ -16,3 +16,12 @@ assignments:
     entries once verified against the file; later entries are out of window. Clean Latin scan. No public-domain
     English translation found. The Iuris pontificii de propaganda fide (1888, Harvard copies) is a second
     collection of the same Congregation's acts and is recorded in the dossier, not vendored.
+- row_id: propaganda-fide_collectanea-decreta-instructiones-rescripta-v1-lat_1907--chinese-catholicism-1650-1906-context
+  work: "Collectanea S. Congregationis de Propaganda Fide, vol. I (1907)"
+  author: propaganda-fide
+  locus: "the decrees and instructions for China from 1650 onward"
+  atlas_ids:
+  - chinese-catholicism-1650-1906
+  role: context
+  confidence: provisional
+  note: "Rome's rulings for the China mission; the census entry's source. Rome's voice, not the Chinese church's."

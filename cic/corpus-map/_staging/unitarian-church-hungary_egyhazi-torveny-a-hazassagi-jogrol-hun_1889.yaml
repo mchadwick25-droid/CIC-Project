@@ -1,0 +1,11 @@
+source_file: unitarian-church-hungary_egyhazi-torveny-a-hazassagi-jogrol-hun_1889.txt
+assignments:
+- row_id: unitarian-church-hungary_egyhazi-torveny-a-hazassagi-jogrol-hun_1889--unitarius-egyhazi-torveny-a-hazassagi-jogrol-1889
+  work: 'Unitárius egyházi törvény a házassági jogról (Kolozsvár, 1889)'
+  author: unitarian-church-hungary
+  locus: 'the whole law; add 12 to OCR line numbers for this file''s own'
+  atlas_ids:
+  - transylvanian-unitarian-church-1660-1906
+  role: tradition
+  confidence: provisional
+  note: 'The church''s own marriage law, enacted by its Főtanács and printed in 1889, inside this entry''s window.'

@@ -322,6 +322,51 @@ works:
 
     '
   source_file: church-of-england_visitation-articles-injunctions-v3-1559-1575_frere-kennedy1910.txt
+- row_id: dodd_church-history-of-england-v4_tierney1841--dodd-tierney-church-history-vol-4-narrative
+  work: 'Dodd''s Church History of England, ed. Tierney, vol. IV (London, 1841): Dodd''s history
+    and Tierney''s notes'
+  author: dodd
+  locus: the history and notes before the appendix; add 12 to OCR line numbers for this file's
+    own
+  role: context
+  confidence: provisional
+  note: A Catholic history of the reign of James I, by Dodd with Tierney's notes of 1841,
+    written after this entry's window, about it.
+  source_file: dodd_church-history-of-england-v4_tierney1841.txt
+- row_id: dodd_church-history-of-england-v4_tierney1841--dodd-tierney-church-history-vol-4-appendix
+  work: 'Dodd''s Church History of England, ed. Tierney, vol. IV (London, 1841): appendix
+    of documents, 1578-1631'
+  author: dodd
+  locus: the appendix of documents, e.g. Blackwell's letter of 22 July 1605 at about OCR line
+    16755; add 12 to OCR line numbers for this file's own
+  role: tradition
+  confidence: provisional
+  note: English Catholic clergy's own letters and papers of 1578-1631, printed by a Catholic
+    priest-historian; inside this entry's window. Dodd's narrative (1730s) and Tierney's notes
+    (1841) are later frames.
+  source_file: dodd_church-history-of-england-v4_tierney1841.txt
+- row_id: dodd_church-history-of-england-v5_tierney1843--dodd-tierney-church-history-vol-5-supplement
+  work: 'Dodd''s Church History of England, ed. Tierney, vol. V (London, 1843): Tierney''s
+    supplement'
+  author: dodd
+  locus: Tierney's supplement before the appendix; add 12 to OCR line numbers for this file's
+    own
+  role: context
+  confidence: provisional
+  note: A Catholic priest-historian's account of 1843, written after this entry's window,
+    about it.
+  source_file: dodd_church-history-of-england-v5_tierney1843.txt
+- row_id: dodd_church-history-of-england-v5_tierney1843--dodd-tierney-church-history-vol-5-appendix
+  work: 'Dodd''s Church History of England, ed. Tierney, vol. V (London, 1843): appendix of
+    documents, 1597-1626'
+  author: dodd
+  locus: the appendix of documents, e.g. Birkhead's letter of 5 April 1614 at about OCR line
+    17113; add 12 to OCR line numbers for this file's own
+  role: tradition
+  confidence: provisional
+  note: English Catholic clergy's own letters and papers of 1597-1626, inside this entry's
+    window. Tierney's text of 1843 is a later frame.
+  source_file: dodd_church-history-of-england-v5_tierney1843.txt
 - row_id: foxe_acts-and-monuments-v7_cattley-townsend1837--the-acts-and-monuments-vol-vii-the-marian-persecution-of-1555-2
   work: 'The Acts and Monuments of John Foxe, Vol. VII (Cattley/Townsend edition): the Marian
     persecution of 1555'

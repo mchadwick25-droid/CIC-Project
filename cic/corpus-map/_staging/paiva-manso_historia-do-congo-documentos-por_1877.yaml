@@ -55,3 +55,12 @@ assignments:
       looked back on; placed on the entry's place and lineage, not on a reading for that
       entry. The volume's later documents (D. Alvaro II and after, through the seventeenth
       century) run toward that entry's own window.
+  - row_id: paiva-manso_historia-do-congo-documentos-por_1877--kongo-christianity-after-1650-tradition
+    work: "Historia do Congo (Documentos): the documents after 1650"
+    author: paiva-manso
+    locus: "the documents from the provision of 1651 for the Capuchins (file line about 10963) to the end, among them Alexander VII to King Garcia of Kongo (about 11255) and the Count of Soyo's letter to the Capuchin procurator (about 16467)"
+    atlas_ids:
+    - kongo-christianity-after-1650
+    role: tradition
+    confidence: provisional
+    note: "Letters of the Kongo court and of the Count of Soyo, with the popes', Lisbon's and the missionaries' letters, after 1650 and into the 1700s. Within this entry's window (1650-1881). The Kongolese letters are the church's own voice; the rest are its partners'."

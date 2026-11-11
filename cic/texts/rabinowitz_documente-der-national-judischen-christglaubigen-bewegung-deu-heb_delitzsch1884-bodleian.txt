@@ -1,0 +1,2442 @@
+Title: Documente der national-jüdischen christgläubigen Bewegung in Südrussland, im Original und deutscher Uebersetzung mitgetheilt von Franz Delitzsch (Schriften des Institutum Judaicum in Leipzig, Nr. 4)
+Creator: Joseph Rabinowitz and the Kishinev congregation (the documents); Franz Delitzsch (editor and translator)
+Publisher: Erlangen: Verlag von Andreas Deichert, 1884 (title page)
+Publication Date: 1884 (title page, read directly)
+Rights: Public Domain (pd-us-by-date: published 1884); Google Books full view, and Google's own cover page in the PDF says the book's copyright has run out
+Language: deu, heb
+Source: Google Books item DBkHAAAAQAAJ (books.google.com/books?id=DBkHAAAAQAAJ, the id read from the PDF's own links), the Bodleian Library copy (shelfmark 950 e.38). Downloaded by Mark in a browser, 2026-11-10, and pushed to cic/texts/_intake/Documente_der_national_j_dischen_christ_1.pdf (PR #1583); converted to text by the Library thread with pdftotext -layout. The text has 82 page breaks, one per PDF page (82 pages).
+Provenance note: Extracted unaltered: Google's text layer is reproduced whole after this header, form feeds included; nothing was stripped, normalized or corrected. Rights basis: published 1884, out of US copyright by date. OCR quality: good for the German; the Hebrew originals are fair. Line numbers cited in this header are lines of the extracted text; add 12 for this file's own line numbers.
+Content note: The founding documents of Rabinowitz's congregation of Israelites of the New Covenant at Kishinev, in German with the Hebrew originals. The Thirteen Theses at about text line 244; the articles of faith of the national-Jewish congregation of the New Testament at about 391; the declaration of the movement's representatives at the conference of 14/26 March 1884 in Kishinev at about 1647; the Hebrew originals from about 1710 to the end. Lines 1-45 are Google's own cover notice. A second copy of the same edition is held: the Harvard copy, rabinowitz_documente-der-national-judischen-christglaubigen-bewegung-deu-heb_delitzsch1884-harvard.txt.
+
+______________________________________________________________________
+
+This is a reproduction of a library book that was digitized
+by Google as part of an ongoing effort to preserve the
+information in books and make it universally accessible.
+
+
+
+
+https://books.google.com
+Über dieses Buch
+
+Dies ist ein digitales Exemplar eines Buches, das seit Generationen in den Regalen der Bibliotheken aufbewahrt wurde, bevor es von Google im
+Rahmen eines Projekts, mit dem die Bücher dieser Welt online verfügbar gemacht werden sollen, sorgfältig gescannt wurde.
+Das Buch hat das Urheberrecht überdauert und kann nun öffentlich zugänglich gemacht werden. Ein öffentlich zugängliches Buch ist ein Buch,
+das niemals Urheberrechten unterlag oder bei dem die Schutzfrist des Urheberrechts abgelaufen ist. Ob ein Buch öffentlich zugänglich ist, kann
+von Land zu Land unterschiedlich sein. Öffentlich zugängliche Bücher sind unser Tor zur Vergangenheit und stellen ein geschichtliches, kulturelles
+und wissenschaftliches Vermögen dar, das häufig nur schwierig zu entdecken ist.
+Gebrauchsspuren, Anmerkungen und andere Randbemerkungen, die im Originalband enthalten sind, finden sich auch in dieser Datei – eine Erin-
+nerung an die lange Reise, die das Buch vom Verleger zu einer Bibliothek und weiter zu Ihnen hinter sich gebracht hat.
+
+Nutzungsrichtlinien
+
+Google ist stolz, mit Bibliotheken in partnerschaftlicher Zusammenarbeit öffentlich zugängliches Material zu digitalisieren und einer breiten Masse
+zugänglich zu machen. Öffentlich zugängliche Bücher gehören der Öffentlichkeit, und wir sind nur ihre Hüter. Nichtsdestotrotz ist diese
+Arbeit kostspielig. Um diese Ressource weiterhin zur Verfügung stellen zu können, haben wir Schritte unternommen, um den Missbrauch durch
+kommerzielle Parteien zu verhindern. Dazu gehören technische Einschränkungen für automatisierte Abfragen.
+Wir bitten Sie um Einhaltung folgender Richtlinien:
+
+   + Nutzung der Dateien zu nichtkommerziellen Zwecken Wir haben Google Buchsuche für Endanwender konzipiert und möchten, dass Sie diese
+     Dateien nur für persönliche, nichtkommerzielle Zwecke verwenden.
+   + Keine automatisierten Abfragen Senden Sie keine automatisierten Abfragen irgendwelcher Art an das Google-System. Wenn Sie Recherchen
+     über maschinelle Übersetzung, optische Zeichenerkennung oder andere Bereiche durchführen, in denen der Zugang zu Text in großen Mengen
+     nützlich ist, wenden Sie sich bitte an uns. Wir fördern die Nutzung des öffentlich zugänglichen Materials für diese Zwecke und können Ihnen
+     unter Umständen helfen.
+   + Beibehaltung von Google-Markenelementen Das "Wasserzeichen" von Google, das Sie in jeder Datei finden, ist wichtig zur Information über
+     dieses Projekt und hilft den Anwendern weiteres Material über Google Buchsuche zu finden. Bitte entfernen Sie das Wasserzeichen nicht.
+   + Bewegen Sie sich innerhalb der Legalität Unabhängig von Ihrem Verwendungszweck müssen Sie sich Ihrer Verantwortung bewusst sein,
+     sicherzustellen, dass Ihre Nutzung legal ist. Gehen Sie nicht davon aus, dass ein Buch, das nach unserem Dafürhalten für Nutzer in den USA
+     öffentlich zugänglich ist, auch für Nutzer in anderen Ländern öffentlich zugänglich ist. Ob ein Buch noch dem Urheberrecht unterliegt, ist
+     von Land zu Land verschieden. Wir können keine Beratung leisten, ob eine bestimmte Nutzung eines bestimmten Buches gesetzlich zulässig
+     ist. Gehen Sie nicht davon aus, dass das Erscheinen eines Buchs in Google Buchsuche bedeutet, dass es in jeder Form und überall auf der
+     Welt verwendet werden kann. Eine Urheberrechtsverletzung kann schwerwiegende Folgen haben.
+
+Über Google Buchsuche
+
+Das Ziel von Google besteht darin, die weltweiten Informationen zu organisieren und allgemein nutzbar und zugänglich zu machen. Google
+Buchsuche hilft Lesern dabei, die Bücher dieser Welt zu entdecken, und unterstützt Autoren und Verleger dabei, neue Zielgruppen zu erreichen.
+Den gesamten Buchtext können Sie im Internet unter http://books.google.com durchsuchen.
+950 e 38 .
+      e.   38
+950
+ Schriften des Institutum Judaicum in Leipzig.
+                      Nr. 4.
+
+
+
+
+         Documente
+                        der
+
+
+
+
+national -jüdischen christgläubigen Bewegung
+                  in Südrussland.
+
+
+       Im Original und deutscher Uebersetzung
+                     mitgetheilt
+                        von
+
+
+
+
+              Franz Delitzsch .
+
+
+
+
+                    Erlangen,
+      Verlag von Andreas Deichert.
+                       1884.
+               I Mos. 45, 4.5.
+
+   Den einer jüd'schen Mutter Schoos gebar,
+Der Israels verheissner Retter war,
+Um den sich sammelte der Gläub'gen Schaar :
+Ja Er ist euer Bruder Jesus.
+
+   Er nahm den Thron des Königs David ein
+Und alle Macht und Herrlichkeit ist sein;
+Kein Name leuchtet mit so hellem Schein,
+Wie dieser eures Bruders Jesus.
+                               Julius Sturm.
+
+
+
+
+   16 JAN. 1933
+                    VORWORT.
+
+
+    Es sind in mehrfacher Beziehung bedeutsame Docu-
+mente, welche ich hier den Mitgliedern und Freunden des
+Institutum Judaicum und allen denen vorlege, welche sich für
+Religions- und insbesondere Kirchengeschichte interessiren.
+Die Mittheilung geschieht mit Enthaltung von Kritik und
+Reflexion in rein objectiver Weise, indem christlichen wie
+jüdischen Lesern überlassen bleibt, jeder von seinem Stand-
+punkt aus, sich über diese Schriftstücke ein Urtheil zu
+bilden und sach- und zeitgemässe Folgerungen daraus zu
+ziehen.
+    Das Gewöhnliche ist, dass hier oder da ein Einzelner
+aus Israel in dem Christenthum die Offenbarungsreligion
+erkennt, in welcher sich die alttestamentliche Religion des
+geoffenbarten Gesetzes gemäss der bahnbrechenden Ver-
+kündigung der Propheten vollendet hat. Diese Austritte
+Einzelner aus dem Judenthum sind nicht anders als mittelst
+Anschlusses an diese oder jene der christlichen Sonderkirchen
+und also mittelst Aneignung ihres dogmatischen Bekennt-
+ nisses und Eingehens auf ihren eigenthümlichen Cultus voll-
+ ziehbar. Viele damit zusammenhängende berechtigte Be-
+denken fallen weg, wenn massenhafte Austritte aus dem
+Judenthum erfolgen. Dann sind die Austretenden fähig,
+eine selbständige Gemeinde zu bilden, ein eigenes Bekennt
+                                 IV
+
+
+
+
+niss auszuprägen und ihren Cultus mit unmittelbarem An-
+schluss an den synagogalen zu gestalten.
+     Ein solcher Fall liegt hier vor. Wir werden dadurch
+mitten hinein in die Anfangsgeschichte der Kirche zurück-
+versetzt. Die vorliegenden Documente sind ein denkwürdiges
+Seitenstück zu jener von Bryennios ans Licht gezogenen
+ältesten Kirchenordnung aus dem zweiten Jahrhundert, deren
+judenchristliche Basis unverkennbar ist, ein Seitenstück dazu
+aus der Gegenwart, ein thatsächlicher Beweis dafür, dass
+die urkirchliche Reibung des Judenchristenthums und
+Heidenchristenthums sich noch einmal wiederholen kann,
+vielleicht   nicht   ohne   heilsam    wirkende   Lichtfunken   zu
+
+
+entbinden.
+     Wir warten die Entwickelung des vorliegenden Falls
+ruhig ab, ohne sanguinische Erwartungen daran zu knüpfen ;
+der Werth der mitgetheilten Schriftstücke ist unabhängig
+von dem was weiter geschehen wird. Im J. 1868 konnte
+ich irgendwo* von einem national -jüdischen christlichen
+Familiencomplex in Skolian in der Moldau erzählen, „dessen
+Mitglieder sich untereinander die Taufe im Namen Gottes
+des Vaters, des Sohnes und des heiligen Geistes ertheilt
+haben und dabei das mosaische Gesetz zu beobachten fort-
+fahren, obwohl sie ihr Heil nicht auf Gesetzeswerk, sondern
+auf die durch Jesus geleistete blutige Versöhnung gründen. “
+Der Mann, der diese Bewegung hervorgebracht hat, ist
+noch am Leben und wirkt in ihrem Geiste rastlos fort, aber
+zu einer lebenskräftigen Gemeindebildung ist es damals
+nicht gekommen. Vielleicht ist die südrussische Bewegung
+eine fortgesetzte Schwingung infolge des damaligen Impulses
+
+    * Saat auf Hoffnung, Jahrg. 6, S. 189.
+und vielleicht bedarf es noch mancher Schwingung, ehe die
+Bewegung zu fester Ruhe gelangt.
+     Die Seele der südrussischen bessarabischen Bewegung
+ist der Advocat Joseph Rabinowitz, ein bei seinen Volks-
+genossen in weiten Kreisen angesehener Mann, der sich
+seit lange mit Gedanken über die Verbesserung der Lage
+und die Hebung der Bildung seines Volkes trägt. In einer
+Abhandlung der von Abr. Gottlober herausgegebenen Zeit-
+schrift ‫ הבקר אור‬1880 entfaltete er einen idealen Plan zu
+einer durchgreifenden Reorganisation des Rabbinats. Er
+wirkte ferner mit zur Begründung einer Gesellschaft für
+Beförderung des Ackerbau's unter den Juden Bessarabiens,
+und in der südrussischen Verfolgungszeit des J. 1882 trat
+er eifrig für die Wiederbevölkerung des heiligen Landes
+ein und suchte durch eine Reise nach Palästina sich über
+
+Mittel und Wege dazu an Ort und Stelle zu unterrichten.*
+In die Zeit seiner Rückkehr von da fällt der Umschwung
+seiner religiösen Ueberzeugung. Die Petersburger Zeit-
+schriften Hamelitz und Füdisches Volks-Blatt sind im Irr-
+thum, wenn sie diesen Umschwung aus Verkehr mit Missio-
+naren und aus Verkehr mit dem lutherischen Pastor Faltin
+in Kischinew ableiten.        Mit Pastor Faltin ist Rabinowitz
+erst seit etwa einem halben Jahre bekannt und die bisher
+in Kischinew übergetretenen Proselyten stehen fast ohne
+Ausnahme dieser judenchristlichen Bewegung fern; mit
+Missionaren hat er nie einen von Einfluss auf ihn gewor-
+denen Verkehr gepflogen. Lange und langsam ist der
+
+    * Siehe auf S. XXIV des hebräischen Theils dieser unserer Schrift
+das aus der Petersburger Zeitschrift Hamelitz, 20. Jan. (1. Febr.) 1884,
+deren vieljähriger Mitarbeiter und Kischinewer Commissionär er war,
+mitgetheilte ehrenvolle Zeugniss .
+                             VI
+
+
+
+
+Gedanke der Bildung christlicher Gemeinden jüdischer
+Nationalität in ihm gereift. Von Palästina kehrte er mit
+der Losung zurück: „Der Schlüssel des heiligen Landes
+liegt in den Händen unseres Bruders Fesus. " In den zwei
+Worten ‫ ישוע אחינו‬liegt der Schwerpunkt seines Glaubens-
+bekenntnisses und (da was diese zwei Worte besagen un-
+leugbare Thatsache ist) wohl auch die Anziehungskraft, die
+es nicht sowohl in Kischinew selbst als in den kleineren
+bessarabischen Städten geäussert hat. Es sollen jetzt über
+200Familien dem neuenJudenchristenthum sich angeschlossen
+haben, und in einigen ist neulich das Pesachfest nach der
+von Rabinowitz entworfenen Liturgie gefeiert worden.
+     Das Schriftstück Nr. I, wie auch der Friedmann'sche
+Brief S. XXIII, wurde uns durch Herrn Divisionsprediger
+Pastor Faltin in Kischinew nach Leipzig mitgetheilt, alles
+andere brachte mein in Liebe zu dem Herrn Jesus und zu
+Israel verbundener Freund Wilhelm Faber aus Kischinew
+
+hieher mit. Er war zugegen , als Herr Rabinowitz das
+Programm Nr. III eines Nachmittags in grosser Eile skizzirte.
+Manche Härte des Stils, welche die Uebersetzung zu einer
+schwierigen Arbeit machte, und manche Härte des Urtheils
+mögen in der tumultuarischen Entstehung Entschuldigung
+finden.
+
+    Und nun befehlen wir die neue Bewegung der Kritik
+Gottes und seines Geistes, indem wir uns begnügen, der
+Kirche wie auch der Synagoge das Prophetenwort zuzu-
+rufen: Verdirb es nicht, denn es ist ein Segen darinnen !
+     Leipzig, im Mai 1884.
+
+                                  FRANZ DELITZSCH.
+Judenchristliche Documente
+        aus Bessarabien.
+
+
+
+                  ‫התאנה חנטה פגיה‬
+                    Hohesl . 2, 13 .
+                    Matth . 24, 32-35.
+                         I.
+
+
+                Dreizehn Thesen .
+
+
+    I.
+         Der gegenwärtige moralische und materielle
+Zustand unserer israelitischen Brüder in Russland
+ist ein verfallener und verschrobener und tief hinein
+misslicher.
+    2. Faul hinzusitzen in müssigem Nichtsthun
+hiesse gegenwärtig so viel als seine volle Zustim-
+mung zu geben zu dem gänzlichen und immer-
+währenden Ruin unserer israelitischen Brüder in
+Russland.
+
+    3. Für Besserung jenes Zustandes lässt sich
+nicht Hülfe    und Beistand erhoffen von      unseren
+Reichen mit ihrem Gelde, nicht von unseren Rabbi-
+nen mit ihrer Lehre und nicht von unseren Schrift-
+stellern mit ihrem Raisonnement, denn alle sind nur
+auf eigenen Vortheil bedacht und das Beste Israels
+ist nicht ihr Endziel, sie tragen nur zur Verschlim-
+merung bei.
+     4. Auch ist nicht Zuflucht zu suchen im Ver-
+lassen unseres Geburtslandes Russland zur Wieder-
+bevölkerung des Landes Israel und ebensowenig in
+                                          I
+                                 2
+
+
+
+
+ der Verschmelzung mit der eingeborenen nicht-
+jüdischen Bevölkerung Russlands.
+    5. Es liegt uns ob, Hülfe und Beistand hier in
+Russland zu suchen durch eigene Kraftanstrengung
+von unserem Innersten aus mit Unterstützung des
+HErrn*, des Alles vermögenden Helfers.
+   6. Der materielle Zustand der Juden lässt sich
+unmöglich in irgendwelcher Weise bessern, wenn
+nicht zuvor die Verschrobenheit und Misslichkeit
+ihres moralischen und geistigen Zustandes geheilt wird.
+    7. Um den moralischen Zustand zurechtzubringen
+bedarf es einer tiefinnerlichen Erneuerung, einer
+geistigen Neubelebung ; wir müssen wegwerfen un-
+seren Götzen, die Liebe zum Gelde als solchem, und
+müssen an seiner Statt in unserem Herzen heimisch
+machen die Liebe zur Wahrheit als solcher und die
+Furcht vor dem Bösen als solchem.
+   8. Um unser Tiefinnerstes zu erneuern und uns
+zur Liebe der Wahrheit und zum Hasse des Bösen
+zu verhelfen, bedürfen wir eines Führers, eines zuver-
+lässigen und erprobten Mannes, eines Arztes, dessen
+Person und dessen Heilmittel die Probe bestanden.
+   9. Einen solchen Führer haben wir unter den
+Nachkommen Jakobs zu suchen und einen Mann zu
+erwählen, der Israel liebt ; einen solchen der sein
+Leben hingegeben zur Heiligung des göttlichen
+Namens und zur Heiligung der Thora und der
+    * Ueberall wo wir HErr schreiben hat der hebräische Text den
+unaussprechlichen vierbuchstäbigen Gottesnamen JHVH.
+                             -
+
+
+                         3
+
+
+
+Propheten; einen Mann, der allen Bewohnern des
+Erdkreises bekannt geworden durch die Lauterkeit
+seiner redlichen Seele und seine starke Liebe zu
+seinem Volke, den Kindern Israel ; einen Mann, der
+gelebt hat in einer Zeit, in welcher Israel längst
+das traditionelle Gesetz auf sich genommen und
+längst unter den verschiedenen Völkern auf Erden
+sich niedergelassen und eingebürgert hatte; einen
+Mann ,   welcher   einerseits den Herzenshochmuth
+seiner jüdischen Brüder durchschaute, wie sie sich
+ihres Adels von Abraham, Isaak und Jakob, ihren
+Vätern, her, der von dem ewigen Gott gesegneten,
+rühmten und stolz waren auf ihre Weisheit, dass
+ihnen ihre Thora, die vom Sinai empfangene, ver-
+liehen, und welcher andererseits durchschaute ihre
+grosse Hartnäckigkeit und ihre Geneigtheit, in guter
+und glücklicher Zeit den lebendigen Gott, ihren
+himmlischen Vater , zu verlassen und sich neue
+Götter zu erkiesen : die Liebe des Geldes und die
+Herrschaft über ihre Brüder durch Wissenschaft und
+Mammon .
+    10. Den Mann, welcher alles das in sich ver-
+einigt, haben wir nach sorgfältigem Forschen in
+allen Büchern der Geschichte unseres Volkes, der
+Kinder Israel, gefunden nur in dem Einen Jesus
+von Nazaret, welcher getödtet worden ist in Jeru-
+salem vor der Zerstörung unseres letzten Tempels.
+    11. Die Weisen Israels unter seinen Zeitgenossen
+vermochten seine Lehre und den heilsamen Zweck,
+                                        1*
+                         4
+
+
+den er für seine jüdischen Brüder im Auge hatte,
+noch nicht zu begreifen und zu fassen, dies näm-
+lich, dass er den Nachdruck legte auf Beobachtung
+der auf Kopf und Herz bezüglichen Gesetzesvor-
+schriften und nicht auf die Kleinlichkeiten äusserer
+Handlungen und Werke, welche bestimmt sind,
+nach Ort und Zeit und politischem Zustand der
+Juden zu wechseln. Wir, die gegenwärtig im Jahre
+5644 lebenden Juden - erst wir können mit Be-
+stimmtheit sagen, dass Er, Jesus, nur Er das wahre
+Wohl seiner Brüder gesucht und Frieden ihrem
+ganzen Geschlechte entboten hat.
+    12. Darum verpflichtet uns die Macht unserer
+Liebe zu unseren israelitischen Brüdern, den Namen
+dieses Jesus unseres Bruders heilig zu halten und
+zu ehrfürchten ; wir sollen mit Hingabe des Herzens
+lernen seine heiligen, in Wahrheit und Liebe ge-
+sprochenen Worte, wie sie in den Evangelien nieder-
+geschrieben und verdeutlicht sind, sollen sie ein-
+schärfen unseren Kindern in ihren Schulen, sollen
+davon reden wo nur immer in menschlicher Gesell-
+schaft wir uns befinden, sollen die Evangelienbücher
+wie einen Segen in unsere Häuser aufnehmen und
+sie mit all den heiligen Schriften vereinigen, welche
+uns zum Segen hinterlassen worden sind von unseren
+wahren Weisen in allen Geschlechtern.
+    13. Wir hoffen zuversichtlich, dass die Worte
+unseres Bruders Jesus, welche vordem zu unseren
+israelitischen Brüdern in Gerechtigkeit, Liebe und
+                         5
+
+Mitleid geredet worden sind, in unseren Herzen
+Wurzel schlagen und uns eine Frucht der Gerech-
+tigkeit und des Heils bringen werden; sie werden
+unser Herz wenden, die Wahrheit und das Gute
+zu lieben und alsdann wird auch das Herz der
+Völker und der Staatsregierung sich uns gütlich
+zuwenden, uns Bestand und Fortbestand zu gewähren
+unter all den anderen Völkern, welche traulich leben
+unter dem Schatten europäischer Gesetze, die ge-
+geben und geschrieben sind im Sinne dieses unseres
+Bruders, welcher sein Leben dahingegeben, um die
+Welt zu beglücken und das Böse hinwegzuräumen
+von der Erde.    Amen.
+                          II.
+
+
+    Glaubensartikel der national -jüdischen
+          Gemeinde Neuen Testaments .
+
+
+     1. Es giebt nur Einen lebendigen und wahren
+Gott, welcher ewig, körperlos, ohne Theile und ohne
+Leidentlichkeit, reich an Güte, Kraft und unergründ-
+licher Weisheit, welcher alles geschaffen und gebildet,
+bewerkstelligt und erhält durch sein Wort und durch
+seinen heiligen Geist ; alles ist von ihm, alles in
+ihm und alles zu ihm .
+    2.   Der wahre Gott hat zu Abraham unserem
+
+Vater gesprochen : Wandele vor mir und sei fromm,
+du sollst Vater einer Menge von Nationen werden
+und Könige werden von dir ausgehen. Und er
+hat mit ihm einen ewigen Bund geschlossen, sein
+und seines Samens nach ihm Gott zu sein und ihm
+das ganze Land Canaan zu ewigem Besitzthum zu
+geben. Und Zeichen des ewigen Bundes sollte es
+sein, dass alles Männliche der Nachkommen Abra-
+hams am achten Tage nach der Geburt beschnitten
+werde. Und als er seines einzigen Sohnes Isaak
+nicht verschont hatte, ihn Ihm zum Brandopfer dar
+                             -
+
+
+
+                         7
+
+
+zubringen, empfing er die eidliche Verheissung, dass
+in seinem Samen gesegnet werden sollten alle
+Nationen der Erde.
+
+    3. Nach des HErrn Geheiss wanderten Jakob
+unser Vater und seine Söhne nach Aegypten hinab
+und mehrten sich dort und wurden gewaltig viel.
+Da wollten die Aegypter in ihrer Arglist ihnen
+Schaden thun und knechteten und bedrückten sie
+sehr, aber der HErr sandte ihnen Mose, seinen
+Erkorenen, und that Zeichen und Wunder in Aegyp-
+ten und führte sie aus von dort mit starker Hand
+-
+
+
+
+
+   darum hat er uns geboten zu beobachten und
+zu halten den Sabbathtag in späte Geschechter zu
+ewigem Bunde und zu feiern das Passah-Fest.
+    4. Der HErr unser Gott hat mit dem Volke
+Israel einen Bund am Horeb geschlossen und Mose
+stand zwischen Ihm und Israel , ihnen des HErrn
+Wort zu verkündigen, und gab ihnen zu vernehmen
+die zehn Worte, welche von Gottes Finger in die
+zwei steinernen Tafeln geschrieben waren, um da-
+nach zu thun, und redete zu Israel alle die Gebote,
+Satzungen und Rechte, die sie in Ausübung bringen
+sollten in dem Lande, welches der HErr dem Abra-
+ham verheissen hatte, ihnen zu Besitz zu geben,
+alles das was geschrieben steht in den fünf Büchern
+der Thora, die wir noch heute in Händen haben
+   damals aber am Horeb am Tage der Versamm-
+lung verhiess der HErr dem Mose, dass er Israel
+aus ihrer Mitte aus ihren Brüdern einen Propheten
+                         8   -
+
+
+
+
+gleich Moses erwecken und seine Worte in dessen
+Mund geben wolle, dieser würde zu ihnen reden
+alles was Er ihm anbefehlen werde, und der Mann,
+der sein Wort, das in seinem Namen von diesem
+Propheten geredete , nicht hören werde , an dem
+werde er es ahnden.
+
+    5. Der HErr unser Gott hat sein Wort ge-
+halten und hat Israel eingeführt in das Land, welches
+er ihnen zugeschworen, und hat ihnen wahrhaftige
+Seher und Propheten erstehen lassen, welche was
+er ihnen anbefohlen in seinem Namen geredet haben,
+und diese Worte stehen geschrieben in den Büchern
+der Propheten, die wir heute noch in Händen haben,
+und kein einziges Wort davon wird leer zurück-
+kommen (Jes. 55, 11 ).
+   6. Nachdem der erste König Israels, Saul, das
+Wort des HErrn verschmähet hatte, verschmähete
+auch der HErr ihn als König über Israel und entriss
+ihm das Königthum und gab es seinem besseren
+Genossen, David dem Sohne Isai's aus Bethlehem
+Juda. Und es erging an den Propheten Nathan
+das Geheiss des HErrn, David zu sagen, dass Er
+ihm einen grossen Namen machen werde gleich
+dem Namen der Grössesten auf Erden, und dass
+seine Gnade nicht von ihm weichen werde, und
+dass sein Haus und Reich und Thron fest und be-
+
+ständig sein sollen auf ewig. Und der König David,
+                                  9
+
+
+
+ vor dem HErrn sitzend, sprach: dies ist des Men-
+ schen Gesetz.*
+     7. Als der HErr unser Gott Israel von seinem
+Angesicht hinwegthat, da versetzte er sie aus ihrem
+Vaterlande in das Exil, weil sie so viel gesündigt
+und ihn erzürnt hatten. Auch Juda beobachtete
+des HErrn Gebote nicht, sie wandelten in den
+Satzungen ihrer Brüder im Reiche Israel, da sprach
+der HErr durch seine Knechte, die Propheten, dass
+er auch dieses Uebrige seines Erbes preisgeben
+und sie ihren Feinden zur Beute und Plünderung
+überliefern werde. Sie aber spotteten dieser Boten
+Gottes, so dass sein Zorn gegen sein Volk ent-
+brannte, ohne sich weiter beschwichtigen zu lassen
+-
+
+    er versetzte sie aus ihrem Vaterlande als Knechte
+nach Babel.
+
+    8. Noch ehe Juda in das Exil nach Babel zog
+und später als es nach Ablauf der siebzig Jahre in
+sein Land zurückgekehrt war , haben alle wahre
+Propheten einstimmig geweissagt : I. dass der HErr
+gern gnädig sein und dem Uebrigen seines Erbes
+was es gefrevelt verzeihen will, sein Bund mit David
+seinem Knechte soll auf ewig nicht gebrochen
+
+    * Diese Worte Davids 2 Sam. 7, 19 sind ohne Zweifel tiefen Sinnes.
+Vielleicht meint der Concipient dieser Fundamentalartikel, unter Thorath
+ha-adam sei das kindliche Verhältniss des Menschen als solchen zu
+Gott als seinem Vater gemeint, welches das ferne Ziel des kindlichen
+Verhältnisses Davids und seines Samens zu Gott war; vielleicht auch
+bezieht er ha-adam unmittelbar auf den Menschensohn         aus Davids
+Samen, den Mittler dieses Verhältnisses.
+                                  IO
+
+
+
+
+werden, dass nicht auf dessen Thron ein Königs-
+sohn sitze, auf welchem ruhet der Geist des HErrn ,
+der Geist der Erkenntniss und                    der Furcht        des
+HErrn, zu schlagen die Erde mit dem Stabe seines
+Mundes .      Die Treue wird der Gurt seiner Hüften
+sein, und sein Name wird heissen ,HErr unsere
+Gerechtigkeit und ,Gott über die ganze Erde' *.
+Er wird        zum Volkes - Bunde           und     Heiden - Lichte
+
+werden , wird Recht auf Erden pflanzen und auf
+seine Unterweisung werden die Inseln harren, bis
+dass am Ende der Tage alle Nationen hinströmen
+werden zu dem Berge des Hauses des HErrn, denn
+von Zion wird Unterweisung ausgehen und des
+HErrn Wort von Jerusalem. 2. dass der Herr, der
+Engel des Bundes, dieser Davidssohn, nachdem vor
+ihm her der Weg bereitet ist, plötzlich kommen
+wird zu des HErrn Tempel, und er wird wie zum
+Feuer eines Goldschmelzers werden , Einhalt zu
+thun dem Frevel und zuwegezubringen eine ewige
+Gerechtigkeit , dieweil der HErr ihn gesalbt hat,
+frohe Botschaft zu bringen Duldern, blinde Augen
+zu   öffnen      und     herauszuführen       aus     dem     Kerker
+
+Gefangene. 3. dass durch ihn unter den Heiden
+und inmitten der Völker der Same Jakobs und
+dessen Sprossen werden bekannt werden, alle die sie
+     * Dieser Name findet sich Jes. 54, 5, aber nicht als Name des
+Messias, sondern Gottes des Erlösers, der ihn zum Mittler des Erlösers
+bestellt hat. Mit grösserem Recht würde der Name „starker Gott" Jes.
+9, 6 vgl. 10, 21 angeführt sein : er ist die leibhaftige Erscheinung des
+starken Gottes (el gibbor).
+                         II
+
+
+
+
+sehen werden sie als einen Samen Gottgesegneter
+erkennen und werden sie nennen das heilige Volk,
+des HErrn Erlösete. Und von ihnen aus werden
+Einzelne entsendet werden zu den Heiden nach den
+fernen Inseln, zu verkündigen und zu predigen des
+HErrn Herrlichkeit unter den Heiden.      Ein Neues
+wird auf Erden entstehen und der früheren Dinge
+wird man nicht gedenken und sie sich nicht zu
+Herzen nehmen. 4. Denn alle Gottentfremdete, bei
+denen die Predigt ohne Widerhall und Eingang
+bleibt, werden hungern und dursten, zuschanden
+werden und jämmerlich wehklagen und ihren Namen
+zur Schwurformel den Erwählten des HErrn hinter-
+lassen.   5. Dieser Messias, Davids Sohn, wird auf-
+schiessen wie ein Wurzelschoss aus dürrem Erdreich,
+und es wird nicht geglaubt werden, dass der Arm
+des HErrn über ihm offenbar, er wird durchbohrt
+werden ob unserer Frevel und zermalmt ob unserer
+Missethaten, er wird leiden und seinen Mund nicht
+aufthun und weggerissen werden aus dem Lande
+der Lebendigen, und indem er seine Seele in den
+Tod ausgiesst wird er Vieler Sünde tragen und
+für die Frevler fürbittend eintreten, und da er seine
+Seele zum Schuldopfer macht, wird er Nachkommen
+sehen, in die Länge leben und des HErrn Vor-
+nehmen wird durch seine Hand fortgehen.
+   9. Das Wort des HErrn an Abraham unseren
+Vater, an Mose unseren Propheten, an David un-
+seren König und an seine Knechte, die wahrhaftigen
+                         12
+
+
+
+
+Propheten, ist zur Erfüllung und Vollführung gelangt
+ungefähr siebzig Jahre vor Zerstörung unseres
+zweiten Tempels , denn der HErr hat sich ange-
+nommen seines Volkes und hat erhöhet das Horn
+unseres Heils im Hause Davids seines Knechts und
+hat uns sprossen lassen einen gerechten Spross,
+nämlich den Herrn Jesus den Christ, welcher für
+uns hervorgegangen aus Bethlehem, der Stadt
+Davids, um zu werden Herrscher in Israel         er,
+
+der hocherhabene Sohn des Höchsten, dem sein
+Vater den Thron Davids verliehen. Er ist's, welcher
+über das Haus Jakobs herrscht auf ewig und seines
+Königreichs ist kein Ende. Er hat gelitten und ist
+gekreuzigt und begraben worden uns zum Heile,
+ist von den Todten erstanden und lebt und siehe,
+er sitzt zur Rechten unseres Vaters im Himmel.
+    10. Nach dem Rathschluss der unerforschlichen
+Weisheit Gottes waren unsere Väter mit Herzens-
+härtigkeit geschlagen, und der HErr hatte sie mit
+dem Geiste tiefen Schlafes gestraft, dass sie Jesus
+dem Christ widerstrebten und sich an ihm versün-
+
+digten bis auf den heutigen Tag, um die anderen
+Völker des Erdkreises zu desto grösserem Eifer zu
+reizen und so zur Versöhnung der Welt beizutragen,
+indem jene Jesus dem Christ, dem Sohne Davids,
+unserem König Glauben entgegenbrachten, als sie
+seine Heilsbotschaft durch seine den Frieden ver-
+kündigenden Boten (Jes. 52, 7) vernahmen, welche
+schimpflich aus der Gemeinde Israel hinausgestossen
+                                13
+
+
+worden waren. Aber jetzt wo nun seit lange schon
+infolge unserer Versündigung an dem Christus
+Gottes die Welt reich geworden ist im Glauben an
+diesen Christus, und wo infolge unseres Unglaubens
+der Heiden Zeit sich erfüllet hat (Luc. 21, 24) und
+diese vollzählig [in das Reich Gottes] eingegangen
+und bei ihrem Glauben beharren, ist auch unser
+Eingang in Vollzähligkeit herbeigekommen*, dass
+auch wir , die Nachkömmlinge Abrahams , zu ge-
+segneten werden durch unseren Glauben an unseren
+Herrn Jesum Christ, und der Gott unserer Väter
+Abraham, Isaak und Jakob sich unser wieder er-
+barme und die ausgebrochenen Zweige wieder ein-
+pflanze in unsere heilige Wurzel, in Jesus, und so
+ganz Israel ewigen Heils theilhaftig und Jerusalem,
+unsere heilige Stadt, wieder erbauet und der Thron
+Davids aufgerichtet werde auf immer und ewig.
+Amen.
+
+    * Das Glaubensbekenntniss bewegt sich innerhalb dieses 9. Artikels
+bis hieher und weiterhin in paulinischen Anschauungen und Ausdrücken
+aus Röm. c. II. Man muss die dortige Geschichtsbetrachtung des
+Apostels kennen, um das was hier über Vergangenheit, Gegenwart und
+Zukunft Israels im Verhältniss zu den Gojim gesagt wird recht zu
+verstehen.
+                                 III.
+
+
+  Kurze Erläuterung des Glaubens an den
+        Messias Jesus von Nazaret
+im Sinne der im Werden begriffenen national-jüdischen
+              neutestamentlichen Gemeinde.
+
+
+
+                        Grundlegung.
+     Wir Juden, die wir dermalen bei dem Glauben an Jesus
+von Nazaret angelandet sind und die momentanen Impulse
+seines Geistes zu empfinden begonnen haben, sind hierzu
+nicht dadurch gekommen, dass die Bekenner des christ-
+lichen Glaubens, unter denen wir wohnen, uns überredet
+haben, um sich ein Verdienst für das Jenseits durch die
+Einverleibung der fluchbeladenen Kinder Juda's in ihre
+Glaubensgenossenschaft zu erwerben; auch nicht dadurch,
+dass die Fülle des Reichthums und der Ehre, welche die
+neutestamentliche Offenbarung in ihrer Linken mit sich
+bringt, * unseren Neid erregt hat wir Söhne Juda's sind
+                                        -
+
+
+
+
+von jeher ein halsstarriges Volk gleich unseren Vätern und
+es ist uns nicht leicht einzugehen auf das was unserer An-
+sicht widerspricht , wir vermögen wie unsere Väter ob
+unserer unzugänglichen und widersprecherischen Art Trübsal
+und Verachtung zu ertragen. Nein, wir haben in dem
+hellen Spiegel Alten und Neuen Testaments erschaut, wie
+   * Anspielung an Spr. 3, 16.
+                              15
+
+Gott Gefallen daran hat, dass der Sünder nicht sterbe,
+sondern lebe, indem er umkehrt von seinem bösen Wege,
+und wie Er sein Volk Israel liebt, um an uns zu erzeigen
+den Reichthum seiner Güte, Gnade und Wahrheit, und dass
+sein ist der Erdkreis und was ihn füllet - es gibt keinen Gott
+ausser Ihm, er thut von Zeit zu Zeit grosse unausforsch-
+liche Wunder, verneuend und wandelnd was er schöpferisch
+geordnet. Unser Nachdenken ist rege geworden durch all
+die Wunder, die Jesus Christ vollführt hat im Namen und
+kraft der Gnade des Einen Gottes, indem er die Augen
+Blinder öffnete, Krankheiten und Seuchen heilte, und da-
+durch, dass er in den Tod gegangen ist für uns zu unserem
+Heile wie ein Schaf das zur Schlachtbank geführt wird, und
+dadurch, dass er auferstanden von den Todten und sich
+seinen wahren Jüngern mit den Wundenmalen seiner Hände
+und Füsse gezeigt hat. Unsere Väter wollten von seinen
+Thaten nichts wissen und nicht eingestehen, dass des HErrn
+Worte durch seine Propheten sich in Jesus erfüllten. Als-
+dann hat der HErr begonnen Zeichen und Wunder an uns
+zu thun, wie er durch seine Propheten und Jesus uns an-
+gekündigt hatte, in seinem Grimm unsere sehenden Augen
+verblendend und Weh über unseren Leib und unsere Seele
+verhängend, so dass wir gegenwärtig gleich dem ungläubigen
+Thomas mit unseren Händen tasten und nun unsere Finger
+in die tiefen Wunden des Gekreuzigten legen und aufblicken
+zu Dem, den unsere Väter durchstochen haben.         Wir sind
+nun überführt und sehen ein, dass wir uns wirklich ver-
+schuldet an unserem Bruder Jesus dem Messias, indem wir
+seine Seelennoth sahen als er uns anflehete, umzukehren
+und durch ihn zu unserem himmlischen Vater zu kommen
+und von ihm die von Gottes Propheten verheissenen Seg-
+nungen zu empfangen, aber wir haben nicht auf Ihn gehört,
+darum ist all diese Drangsal über uns gekommen wie es
+                             16
+
+
+heisst (Jer. 30, 7) : Es ist eine Zeit der Drangsal für Jakob,
+doch soll ihm daraus geholfen werden. Mit Iob zusammen
+(19, 26) sagen wir nun, dass wir aus unserem Fleische
+heraus Gott schauen.
+
+
+
+
+                       Vom Glauben.
+
+
+    Da wir Juden, Nachkommen Abrahams und Kinder der
+Thora, die Zeit zu erleben gewürdigt sind, wo die Fülle
+der Heiden nahezu eingegangen ist, und da Gott in seiner
+Gnade begonnen hat wegzunehmen von uns den Geist tiefen
+Schlafes, welcher unsere Väter befallen hatte, um die Heiden
+desto mehr zum Glauben an unseren BruderJesus den Messias
+anzueifern, und da wir die Gnade des Neuen Bundes uns
+aneignen gleich allen Kindern Abrahams nach dem Geist
+und alle Bücher des Neuen Bundes als heilig anerkennen
+gleich den andern biblischen Büchern: so liegt uns die
+heilige Pflicht ob, unsern Glauben an den Messias Jesus
+bekenntnissmässig darzulegen und unseren Gottesdienst litur-
+gisch zu ordnen, und zwar wie der heilige Geist uns lehrt
+mittelst des neutestamentlichen Worts, ohne uns bestimmen
+zu lassen durch die Ordnungen der früheren Heidenchristen
+in ihren Gemeinden, welche genöthigt waren sich (die vor-
+maligen Götzendiener) zu heiligen und den nichtjüdischen
+Christen nach    ihnen etwas Schriftliches   zu hinterlassen .
+Diese Glaubensformeln der Heidenchristen zeigen grossen-
+theils, dass diese, als das Licht des jüdischen Christus über
+ihnen aufging, in dieses grosse Licht noch nicht hinein
+zu blicken vermochten; sie sind um deswillen vielfach irre
+gegangen in Betreff der Gottheit und ihrer Einzigkeit,
+in Betreff der Geburt des Davidssohns, der Zeit seines
+Lebens und des Hergangs seiner Auferstehung, und haben
+                                -
+
+
+                           17
+
+
+sich in mancherlei Sondergemeinschaften gespalten, und es
+gab viel Streit und Feindschaft und Hader zwischen all den
+heidenchristlichen Kirchen, und um die Einheit der Kirche
+zu erhalten und dem Hader zu steuern that man sich zu
+Synoden zusammen und stellte Glaubenssymbole auf, welche
+Frieden zwischen den Brüdern zu stiften und für die Zukunft
+im christlichen Glauben und Cultus das Auseinandergehen
+in verschiedene Meinungen und Gebräuche zu verhüten
+bezweckten. Anders aber verhält es sich mit uns Juden,
+die wir glauben und Kinder solcher sind, welche glaubten
+an das Gesetz Mose's und die Propheten ; uns ist von Alters
+her aus Gesetz und Propheten wohlbekannt wie es sich mit
+der Einzigkeit Gottes verhalte, und ebenso wissen wir um
+die Art und Weise des Aufsprossens und Geborenwerdens,
+des Leidens und des Todes und der Auferstehung des
+Messias aus den Propheten und den Psalmen (auch der
+Talmud, der Sohar und überhaupt die Kabbala reden davon)
+    uns fehlte nur der Glaube an den Mann Jesus den
+Nazarener, ob er der Mann, der Herr, der Messias sei, den
+alle Propheten (Luc. 2, 38. 10, 24) und unsere Weisen von
+Zeit zu Zeit bezeugt haben. Wir brauchen nicht all die
+Specialitäten und Distinctionen auf uns zu nehmen, welche
+die christlichen Kirchen im Laufe der Zeit für die Ihrigen
+aufgestellt haben. Denn das Wort von Christus war ihnen
+etwas durchaus Neues, wovon sie nie bisher vernommen,
+denn was wussten sie, ehe das Evangelium Christi durch
+die Heilsboten zu ihnen gelangte, von Abraham, Isaak und
+Jakob, von David unserem König und seinem Hause und
+Throne! Kurz, für sie waren Thora und Propheten nur
+Zeugniss für das Neue Testament, uns aber ist das Neue
+Testament lediglich die Erfüllung der uns gegebenen Ver-
+heissung. Wenn deshalb wir unsere Augen auf die neu-
+testamentlichen Schriften richten, um zu sehen was die
+                                               2
+                              18
+
+
+Jünger Jesu, unseres Christus, in Sachen des Glaubens an
+Ihn vorgetragen haben, so sehen wir, dass Paulus, der her-
+vorragendste und erfolgreichste unter den Aposteln, als die
+Obersten der Synagoge Antiochiens ihn nach Verlesung
+der Thora am Sabbath baten, ein Wort der Vermahnung
+an das Volk zu richten, aufstand und mit der Hand winkte
+und sprach : Ihr Männer von Israel, dieser (David) ist es,
+aus dessen Samen Gott nach seiner Verheissung hat erstehen
+lassen einen Erlöser für Israel, Jesus ; euch ist das Wort
+dieses Heils gesandt; eure Obersten haben mit ihrem Todes-
+urteil die Worte der Propheten erfüllt, Gott aber hat ihn
+von den Todten erweckt und wir bringen euch die freudige
+Kunde, dass er die zu unseren Vätern geschehene Verheissung
+ihren Kindern erfüllt hat, indem er Jesus auferweckte wie
+geschrieben steht. Denn durch diesen verkündigt er euch
+Vergebung der Sünden ; wer da glaubt, wird gerecht durch
+ihn (Apostelg. c. 13). Daraus sehen wir, dass er von den Juden
+nichts weiter verlangt als zu glauben dass Jesus dieser
+Nachkomme Davids ist , welchen der HErr verheissungs-
+gemäss Israel zum Erlöser hat erstehen lassen und dass er
+wiedererstanden von den Todten       wer an ihn glaubt, wird
+des Heils theilhaftig und seine Sünden werden ihm vergeben.
+Ebendas sagt er auch in seinem Briefe an die Römer ( 10, 9) :
+Wenn du mit deinem Munde bekennest Jesum, dass er der
+Christus, und in deinem Herzen glaubest, dass ihn Gott von
+den Todten auferweckt hat, so wirst du selig; denn so man
+von Herzen glaubet, so wird man gerecht, und so man mit
+dem Munde bekennet, so wird man selig - weiter nichts
+als das ! Man hat wohl zu beachten, dass Jesus Christ mit
+Recht vorerst Israel das Wort Gottes verkündigen wollte,
+und was war es, das er seinen israelitischen Brüdern ver-
+kündigen musste ? Nur das was Er selber in Nazaret sagte,.
+dass der Vers :    „Der Geist des HErrn ist über mir,
+                            19
+
+
+darum dass mich der HErr gesalbet" sich erfüllet habe vor
+ihren Ohren (Luc. c. 4). So lange er auf Erden wandelte,
+predigte er unter seinen Brüdern nur den Glauben, dass er
+der Sohn des Vaters Israels, d. h. dass er der Sohn jenes
+Vaters sei, welcher Israel von Anfang und Urzeit her be-
+kannt ist durch seine Zeichen und Wunder an ihren Vätern
+von Abraham bis Johannes, und nur von diesem schlichten
+Glauben ohne irgend welche Beschränkung und Verclausu-
+lirung hängt nach der Schrift Heil und Sündenvergebung
+ab. Sie sagt, dass Glaube an Ihn, welcher eins ist mit dem
+Vater, nur möglich ist bei wahrer Liebe zu dem Vater und
+nicht bei egoistischer Selbstliebe. Alle Wunder, die er in
+des HErrn Namen gethan hat, Kranke heilend und Todte
+erweckend , hat er nur gethan, um ihrem Herzen diese
+Liebe und diesen Glauben einzusenken, dass er der wahre
+Sohn Davids, der Messias und Erlöser, den die Pro-
+pheten vorlängst erschaut haben. Und auch nachdem er
+gelitten, gestorben und auferstanden, ging all sein Augen-
+merk dahin, an seinen Wunden hinterdrein den Thomas zu
+überführen (Joh. 20, 27), dass die Juden lediglich einfach
+zu glauben haben, dass Jesus der Christus ist und dass
+dieser Glaube das ewige Leben in sich schliesst. Und als
+Jesus an Kleophas und seinen Freund auf dem Wege her-
+zutrat , sagte er zu ihnen (Luc. 24, 25) :   O ihr Thoren
+und träges Herzens zu glauben alle dem, das die Propheten
+geredet haben! Und er fing an von Moses und allen Pro-
+pheten und legte ihnen alle Schriften aus, die von ihm
+gesagt waren. Und so sprach er zu den Jüngern (ebend.
+v. 44) : Das sind die Reden die ich zu euch vordem ge-
+sagt; denn es muss alles erfüllet werden was von mir
+geschrieben ist im Gesetz Mose's, in den Propheten und in
+den Psalmen. Und ebenso sagte Petrus, als er den Lahmen
+geheilt hatte: Ihr Männer von Israel, der Gott unserer
+                                             2*
+                              20
+
+
+
+
+Väter hat seinen Knecht Jesum verkläret, den ihr über-
+antwortet und verleugnet habt. So thut nun Busse und
+bekehret euch, dass eure Sünden getilget werden.         Ihn
+musste der Himmel in sich aufnehmen bis zu den Zeiten
+der Wiederbringung aller Dinge, wovon Gott durch seine
+heiligen Propheten von uralters geredet hat. Ihr seid der
+Propheten und des Bundes Kinder, euch zuerst hat Gott
+seinen Knecht Jesus erstehen lassen und hat ihn gesandt
+euch zu segnen, wenn ihr euch zusamt bekehret von eurer
+Argheit (Apostelg. c. 3). Und genau ebenso hat sich
+Paulus ausgesprochen in seiner Rede an die Antiochener
+und in seinem Briefe an die Römer, und das Geheimniss
+der Fülle der Heiden ist nichts anderes als was Petrus dort
+die Wiederbringung aller Dinge nennt, die Hoffnung, für
+welche der heilige Stephanus sein Leben hingegeben und
+getödtet worden ist (Apostelg. c. 7). Auch als Cornelius,
+der Mann heidnischer Abkunft, den Petrus hatte herbeiholen
+lassen, sagte dieser unter dem Eindruck dieses erstmaligen
+Erlebnisses : Nun erfahre ich in Wahrheit, dass Gott die
+Person nicht ansiehet   ..   er hat sein Wort zu den Kindern
+Israel gesandt und verkündigen lassen den Frieden durch
+Jesum Christ, welcher ist ein Herr über alles. Und er
+sprach nur über die Taufe, die Tödtung Jesu und seine
+Auferstehung und davon, dass er Richter der Lebendigen
+und der Todten, und von der Sündenvergebung aller an ihn
+Gläubigen, und nichts weiter. Daraus ersehen wir offenbar,
+dass von den Juden, welchen von alters her die glaubhafte
+Selbstbezeugung Gottes an ihre Väter in der Ausführung
+aus Aegypten und dem Worte der Thora und der Pro-
+pheten besitzen, Christus und seine Jünger nichts weiter als
+den schlichten Glauben, dass er, Jesus, der Verheissene sei,
+verlangten . Denn der wahre Glaube ist zwar nur ein kleiner
+blitzartiger Punkt, aber so überschwenglich erhaben, dass er
+                              21
+
+
+
+
+keine Selbstbeschränkung durch allerlei nähere Bestimmungen
+und Bedingungen zulässt. Er ist die Gesammtsumme, welche
+aus einer, unter Mitwirkung vieler, in wechselvoller Geschichte
+zustande gekommenen Rechnung sich ergiebt mittelst Zu-
+sammenziehung der vielen Ziffern in Einen Punkt, welchen
+nur Verstand und Herz in ihrem Tiefinnersten erkennen
+und zu erfassen vermögen. Das ist, wie mir scheint, der
+wahre Sinn der Worte des Paulus, wenn er im Brief an die
+Römer ( 10, 6) von der Gerechtigkeit aus dem Glauben
+sagt, dass dieser (rechtfertigende) Glaube also spreche :
+„Sprich nicht in deinem Herzen : Wer will hinauf gen
+Himmel fahren ? Das ist nichts anderes als Christum herab-
+holen, " d. h. befasse dich nicht mit vielen Grübeleien und
+Demonstrationen, wie Christus vom Himmel herabgekommen
+und wie es sich mit seiner Geburt vom heiligen Geist ver-
+halte.   Ferner: sprich auch nicht : „ Wer will hinab in die
+Tiefe fahren ?    Das ist nichts anderes denn Christum von
+den Todten holen, " d. h. man soll nicht forschen und
+grübeln, wie es mit der Auferstehung von den Todten be-
+wandt sei ,      welche doch etwas dem Naturlauf Wider-
+sprechendes ist und bleibt; genug, dass du mit deinem
+Munde bekennest und mit deinem Herzen glaubest, dass
+Jesus der Herr ist, der von den Todten auferstanden. Die
+Glaubensgerechtigkeit macht keinen Anspruch an Hirn und
+Vernunft, sondern an Herz und Mund, sie rechtfertigt eben-
+deshalb auch Frauen und Kinder und Nichtphilosophen
+und Unwissenschaftliche, worauf Jeremia zielt, indem er
+sagt, dass dereinst alle, die Kleinen wie die Grossen, den
+HErrn erkennen werden (31, 34) - ebendas ist das Ge-
+heimnis der göttlichen Thorheit ( 1 Cor. 1 , 25) .
+     Sonach hat alles was Jesus Christ zu den Juden sprach
+sein Absehn auf Erfüllung der alten Gottesworte, welche
+auch den Kleinsten im Volke durch die fortwährende
+                              22
+
+
+
+
+sabbathliche Vorlesung in den Synagogen bekannt waren,
+und die Wirksamkeit Jesu und seiner Jünger hatte den
+Hauptzweck, aus ungläubigen Juden mit Anknüpfung an
+den schon der Vernunft des Menschen als solchen (Röm.
+1 , 19) nahe liegenden Glauben an den Einen Gott Gläubige
+mit göttlichem Glauben zu machen, welcher ob seiner Ueber-
+schwenglichkeit sich durch Herz und Mund, aber nicht
+durch Räsonnement vermittelt. Es kam freilich anders, da
+die Juden von wegen der Thora und ihres Vernunftglaubens
+sich der Annahme des Wortes des HErrn und seines
+Christus entzogen und ihm nicht jenen schlichten göttlichen
+Glauben entgegenbrachten. In Folge dessen wendeten sich
+die Jünger Jesu an die Heiden, um seinen Auftrag zu voll-
+ziehen : „Mir ist gegeben alle Gewalt im Himmel und auf
+Erden, darum gehet hin und macht zu Jüngern alle Völker
+und taufet sie im Namen des Vaters und des Sohnes und
+des heiligen Geistes (Matth. c. 28) " . Sie begannen zu arbeiten
+und zu wirken unter den Heiden, welche in den Schmutz
+aller Arten abscheulichen Aberglaubens versunken waren
+und als Einfältige an alles glaubten     sie suchten auch
+aus ihnen Erben des Himmelreichs zu machen und predigten
+ihnen, welche des reinen Vernunftglaubens baar waren, das
+Evangelium von Christus, wie sie es von ihrem Meister
+empfangen hatten, die Taufe im Namen des Vaters, Sohnes
+und heiligen Geistes, die Auferstehung und das Abendmahl
+- Dinge, die sie um ihres Heiles willen wissen mussten,
+aber nicht so schnell fassen konnten, weil Gesetz und Ver-
+nunftglaube und Kenntniss des Wortes des HErrn und
+seiner Verheissung an die Propheten Israels ihnen fehlten
+und auch die heiligen Schriften ihnen unbekannt waren.
+Aber trotzdem fand der schlichte göttliche Glaube in ihren
+Herzen eine feste Stätte durch die grosse Gnade des Höch-
+sten und die Kraft des auf den ersten Verkündigern ruhen-
+                             23
+
+
+den heiligen Geistes und deren göttliche Machterweisung,
+es war lediglich des Höchsten Gnade ohne Mitwirkung des
+Vernunftglaubens, vermöge welcher ihre Augen dem neuen
+Lichte geöffnet wurden.    Aber gerade deshalb erkannten
+sie, nachdem die ersten Verkündiger zu Gott hingenommen
+waren, das bisher in göttlichem Glauben Erkannte auch
+mittelst Vernunftglaubens (auf intellectuellem Wege), aber
+dieser letztere Glaube, indem er mit dem göttlichen Glauben
+rivalisirte, begann dessen Duft in den Herzen der Heiden-
+christen zu zersetzen und die Neubekehrten auf Abwege zu
+drängen, da ihr Verständniss der Worte und Geheimnisse,
+die sie aus dem Munde der Apostel vernommen, noch nicht
+recht gereift war; sie verfielen aus Unkenntniss der reinen
+Gottesidee im Allgemeinen und aus Unkenntniss des von
+Anbeginn und uralters geweissagten Geheimnisses des
+Messias im Besondern auf crass sinnliche Vorstellungen, so
+dass leider der heidenchristlichen Welt kein lauterer Begriff
+von Christus und seinem Heil verblieben wäre, wenn nicht
+von Zeit zu Zeit gottbegeisterte Eiferer für die Wahrheit
+und den reinen Christenglauben aufgetreten wären, um sich
+zusammenzuthun und den Gottesglauben gegen seinen Ri-
+valen, den Vernunftglauben, zu vertheidigen. Diese suchten
+den wahren Glauben zu umzäunen, indem sie mancherlei
+                                           -
+
+
+
+Glaubensartikel in feste Form brachten         alles das nur
+ infolge dessen dass jenen Neubekehrten, denen das Heil
+ von den Juden und den Propheten dieser zugekommen war,
+ keine Erkenntniss und Empfindung des nun durch den
+ Herrn in Erfüllung gebrachten Alten hatten, sie sahen das
+ Neue Testament für eine schlechthin neue Thora an, als
+ ob es keinen jüdischen Stammbaum hätte. Es versteht sich
+ hienach von selber, dass alle die Heilungs- und Zurecht-
+ bringungsversuche, durch welche die Grossen der alten
+ Kirche den Gebrechen der christlichen Erkenntniss ihrer
+                             24
+
+
+heidenchristlichen Zeitgenossen abzuhelfen suchten keinen
+Nutzen bringen können den Juden, welche den Messias nicht
+fassen können einerseits wegen ihres überwuchernden Ver-
+nunftglaubens, andererseits wegen ihrer grossen buchstäbi-
+schen Schriftkenntniss, welche sie hindert, das in der Schrift
+verborgene grosse Licht zu sehen. Brillen für Kurzsichtige
+eignen sich nicht für Weitsichtige.
+
+      Von den positiven (ceremoniellen) Geboten.
+    Da die Ausübung der Gebote nicht lediglich von Herz
+und Mund abhängig, sondern ihrem Wesen nach noth-
+wendigerweise körperlich, örtlich, zeitlich bestimmt ist und
+wie andere materielle und ebendeshalb wandelbare Dinge
+der Veränderung und dem Wechsel unterliegt, so sind wir
+in diesem Betreff genöthigt, zu dem heiligen Geiste, welcher
+den Hintergrund aller von den beiden Testamenten her uns
+obliegenden Pflichterfüllung bildet, unseren Verstand und
+die Sinnesweise der Völker, in deren Ländern und Staaten
+wir wohnen, hinzuzunehmen, denn es handelt sich um Dinge,
+deren Ausführbarkeit die Willigkeit und Geneigtheit unserer
+Umgebung voraussetzt und ohne diese nicht ans Licht
+treten kann. Es ist nun einmal des Höchsten Wille, dass
+die Materie veränderlich, der Geist aber ewig bleibend sei .
+Hienach gestaltet sich das Urtheil über das uralte praktische
+Grundgebot für die Kinder Israel als Abrahams Samen,
+das leibliche Abzeichen des israelitischen Mannes seit dem
+achten Tage nach seiner Geburt, welches als ein heiliges
+Siegel am Fleische des Juden bezeugt, dass er zu dem
+Samen Abrahams gehört, in welchem alle Nationen der
+Erde gesegnet werden sollten. Nach der Ansicht vieler
+Aerzte hat der Beschnittene auch physischen Nutzen davon,
+auch ist sie (die Beschneidung) nicht danach angethan, sich
+                                  -
+
+
+
+                             25
+
+den Angehörigen anderer Nationen aufzudrängen, da sie nicht
+an dem Erwachsenen, der liebe Freunde hat, und nicht
+draussen öffentlich vollzogen wird. Im Gegentheil enthalten
+sich ihrer andere Volksgenossen, weil sie ihrerseits ihre Ab-
+stammung von ihren europäischen Ahnen in Ehren halten ;
+die Beschneidung soll ein Zeichen für ihren Träger sein,
+dass er nicht wie ein Dieb in das Volk eintrete, welches
+seinen Garten und Quell unter Verschluss und Siegel halten
+will. Wir sind gemäss der Thora und dem Neuen Testa-
+mente verpflichtet sie zu vollziehen, aber zu vollziehen nur
+darauf hin, dass sie etwas unseren jüdischen Brüdern zum
+Lobe Gereichendes sei, nicht um uns damit vor Gott zu
+rechtfertigen , wie Paulus in seinem Brief an die Römer
+sagt (Röm. 4, 2) : Wenn Abraham aus Werken gerecht
+worden ist, so hat er wohl Lob, aber nicht vor Gott. Und
+was Paulus in seinem Brief an die Galater sagt : Wenn ihr
+euch beschneiden lasset, so ist euch Christus kein nütze,
+das sagt er zu den Heiden, welche die Rechtfertigung auf
+beides, das Gesetz und die Gnade Christi, gründen wollten,
+und so der Freiheit Christi verlustig gingen und sich dem
+Joche des Gesetzes untergaben, das sie niemals überkommen
+hatten und das sie nicht gewohnt waren. Was Paulus sagt
+kommt überein mit der Meinung des Jacobus, Bruders des
+Herrn, welcher sagt (Apostelg. 15, 19) : Ich halte dafür,
+dass man denen, so aus den Heiden zu Gott sich bekehren,
+nicht zu Schweres auferlege, sondern ihnen schreibe, dass sie
+sich enthalten von der Unreinigkeit der Abgötter und von
+Hurerei und von Ersticktem und von Blut, denn Moses hat
+von langen Zeiten her in allen Städten seine Prediger und
+wird alle Sabbathtage in den Synagogen gelesen darum
+ist es den Juden leicht, die Gebote zu halten, denn es ist
+ihnen zur Gewohnheit geworden durch die Thora, welche
+allsabbathlich vorgetragen wird.
+                        -
+                             26    -
+
+
+
+
+     Was das Sabbathgebot betrifft, so haben wir alles zu
+halten, was in dem „gedenke des Sabbathtages" Kopf und
+Herz angeht, und was insbesondere das Ruhen von Arbeit
+betrifft, so haben wir alle Arbeiten zu unterlassen, deren
+Unterlassung nicht nach Ort, Zeit und Sinn der Völker,
+unter denen wir leben und verkehren, störend in die Lebens-
+ordnung eingreift.
+    Es würde nur überflüssig sein von solchen Geboten zu
+reden, welche bedingt waren durch den Besitz des Landes Israel,
+den Tempeldienst, die Einsetzung eigener Obrigkeiten, das
+heisse Klima, die Fernhaltung des Götzendienstes, welcher
+längst geschwunden und als vernunftwidrig erwiesen von
+der Beobachtung solcher Gebote sind wir entbunden und
+befreit.
+    Was die Ordnungen des Neuen Bundes betrifft, so liegt
+uns lediglich ob, die Taufe und den Genuss von Brot und
+Wein zum Gedächtniss des Herrn zu beobachten, und zwar
+in jenem jüdisch reinen Geiste und Sinne, welcher sich aus
+den alttestamentlichen Schriften ergiebt, nach dem Vorbild
+der Christen lauteren evangelischen Bekenntnisses in Eng-
+land und Deutschland.
+     Von der Einheit Gottes.      Die Kinder Abrahams sind
+dermassen in die Einheit Gottes eingelehrt und eingewohnt,
+dass es ihnen schwer fällt, die bisherige Denkweise gegen
+die Dreizahl (Trinität) aufzugeben, obwohl wir, nach dem
+was aus den heiligen Schriften ersehen wird glauben und
+wissen, dass das Wesen des Einen Gottes drei Personen
+(parzûphim) in sich begreift.     Anders die Heidenchristen,
+denen die Einheit Gottes durch Jesus Christ und seine
+Apostel erst neuerdings kund geworden war, sie waren an
+den Polytheismus gewöhnt und für sie war es nothwendig,
+nachdrücklich zu betonen, dass die drei Personen, die sich
+dem Auge des Gläubigen in den heiligen Schriften und der
+                              27
+
+
+Erfüllungsgeschichte darstellen, eins seien.   Was hat aber
+Israel dermalen mit Lösung eines Problems zu schaffen, welches
+ein solches nur für die Heiden war, als sie eben erst mit
+Christus und seiner Lehre bekannt geworden waren ! Die
+Gläubigen aus den Heiden nennen die drei Personen Vater,
+Sohn und heiliger Geist, bei uns heissen sie der Eine Gott
+und sein Wort und sein heiliger Geist, welche alle eins sind.
+Warum sollten die christlichen Kirchen den Israeliten mit
+Dingen belasten, welche sie, um falschen Vorstellungen
+von Gott vorzubeugen, von ihren Vätern überkommen
+haben; warum sollte man ihnen den Tempel des Herrn
+verschliessen und ihnen den Eingang in das Himmelreich
+wehren, die doch auch Glieder und Theile Jesu Christi sind?
+Hierin haben die Kirchen von den jüdischen Uraposteln zu
+lernen, welche vermöge des heiligen Geistes urtheilten, dass
+man die dem Glauben an Christus sich Zuwendenden nicht mit
+Dingen behelligen soll, welche ungeeignet sind, allgemeine
+Annahme und Vertretung zu finden.          Auch finden wir
+nirgends in den heiligen Schriften, dass der Glaube an die
+drei „ Personen" ein nothwendiger Bestandtheil des Bekennt-
+nisses sei.
+     Ebenso verhält es sich mit dem Glaubensartikel der
+Geburt Christi von der heiligen Jungfrau Maria durch den
+heiligen Geist. Den Juden, die bisher Christo feindlich und
+verneinend gegenüberstanden, fällt es in der Anfangszeit
+ungemein schwer, das Wunderbare an dem Hergang der
+Geburt von der Jungfrau Maria durch den heiligen Geist
+in Worten zu präcisiren, ohne zu besorgen, dass dabei der
+heilige Geist anthropomorphisch herabgezogen werde, und
+darum ist es um der Gotte gebührenden Ehre erforderlich,
+über diesen Glaubensartikel nicht viel Worte zu machen
+oder ihn ganz beiseite zu lassen und sich lediglich auf die
+Schriftaussage zu stützen, oder statt des Obigen einfach zu
+                                28
+
+
+sagen, dass er geboren ist durch den heiligen Geist und
+dass von selbst aufgesprosst ist der gerechte Spross, der
+Heilige Israels.   Versteh' es wohl ! *
+
+    * Wenn ich den Sinn des Verf. richtig fasse, so findet er in dem
+mitarhtav Sach. 6, 12 angedeutet, dass das Aufsprossen geschehen
+wird ohne menschliches Zuthun durch Gottes Veranstaltung.
+                                IV.
+
+
+                           Haggada
+ für die an den Messias Jesus von Nazaret
+            gläubigen Israeliten.
+
+
+Ordnung des Herrnmahls in der Passahnacht.
+    Das Geheimniss des Herrnmahls bezweckt, in
+unseren Leib und unsere Seele in thatsächlicher
+Wirklichkeit die Segnungen einzuführen, welche uns
+entgegengebracht hat der gerechte Priester des
+höchsten Gottes, der König Salems, Jesus unser
+Messias, uns dem Samen Abrahams, des Vaters der
+Völker-Menge, in seinem Brote und Weine, seinem
+Leibe und Blute.         Und indem wir dieses Himmels-
+Brot und diesen Himmels-Wein* geniessen, fassen
+wir in eins zusammen alle unsere Kräfte Leibes
+und der Seelen in dem Leibe Christi und seinem
+Blute, welche geopfert worden in dieser Welt zu
+unserem Heile und gebunden sind in das Bündlein
+   *
+
+       Eig. den aufbehaltenen Wein, Anspielung auf den nach Berachoth
+34b „ seit dem Sechstagewerk für die Frommen in seinen Trauben auf-
+bewahrten Wein."
+                            30
+
+
+des ewigen Lebens zur Rechten unseres himmlischen
+Vaters auf immer und ewig.
+Nach dem Herrngebet stellt man auf den Tisch eine Schüssel
+mit 3 feinen Mazzen und einen Krug voll Wein und Becher
+nach der Zahl der Gläubigen. Der Pastor schenkt den ersten
+Becher ein, welcher heisst der Becher des Hauptes der Väter
+                  „Abraham" und spricht:
+    Pastor. Das ist die dem Herrn geweihte Nacht
+der Obhut für alle Kinder Israel in späte Geschlechter.
+   Gemeinde. Gedenket dieses Tages wo ihr aus-
+gezogen aus Aegypten, aus dem Knechthause, denn
+mit starker Hand hat der HErr euch ausgeführt
+von da, und soll kein Gesäuertes gegessen werden.
+Ex. 13, 3.
+
+   Pastor. Wer sie ängstete, der ängstete ihn auch
+und der Engel seines Angesichtes half ihnen; in
+seiner Liebe und seinem Verschonen hat er sie
+erlöst und hob sie empor und trug sie allezeit von
+alters her. Jes. 63, 9.
+    Gemeinde. Denn du bist unser Vater, denn Abra-
+ham weiss von uns nicht und Israel kennet uns
+nicht, du aber, HErr, bist unser Vater, unser Erlöser
+ist von alters her dein Name.       Ebend. V. 16.
+     Pastor. Es geschah am ersten Tage des Mazzoth-
+Festes da traten die Jünger zu Jesu und sprachen
+zu ihm : Wo willst du, dass wir dir zu essen bereiten
+das Osterlamm ? Er sprach : Gehet hin in die Stadt
+zu einem, und sprecht zum ihm: Der Meister lässt
+dir sagen, meine Zeit ist nahe, ich will bei dir
+Ostern feiern mit meinen Jüngern. Und die Jünger
+                            31
+
+
+thaten, wie ihnen Jesus befohlen hatte und bereiteten
+das Osterlamm. Matth. 26, 17-19.
+    Gemeinde. Und er sprach zu ihnen: Mich hat
+herzlich verlangt dies Osterlamm mit euch zu essen,
+ehe denn ich leide. Denn ich sage euch, dass ich
+hinfort es nicht mehr mit euch essen werde, bis
+dass es erfüllet werde im Reiche Gottes.          Und er
+
+nahm den Kelch und sprach: Nehmet denselbigen
+und theilet ihn unter euch; denn ich sage euch :
+Ich werde nicht trinken vom Gewächse des Wein-
+stocks, bis das Reich Gottes komme.          Luc. 22, 15-18.
+  Dann nimmt jeder seinen Becher und spricht den Segen :
+    Gebenedeiet seist du, o HErr Gott Israels, der
+du Abram erkoren und hast ihn ausgeführt aus Ur
+Chaldaea's und hast ihm den Namen Abraham ge-
+geben, und hast sein Herz treu befunden vor dir
+und hast mit ihm einen Bund geschlossen, ihm das
+Land Kanaan zu geben und hast deine Worte in
+Erfüllung gebracht, denn du bist gerecht. Gebene-
+deiet seist du HErr, der du segnest im Samen
+Abrahams alle Völker der Erde !
+Und es kostet ein Jeder vom dem Weine.     Er schenkt den
+zweiten Becher ein, welcher der Becher des Haupts der Pro-
+                  pheten „Moses" heisst.
+    Pastor. Es sprach Mose zu Gott : Siehe ich komme
+nun zu den Kindern Israel und spreche zu ihnen:
+Der Gott eurer Väter hat mich zu euch gesandt,
+sie aber werden zu mir sagen: Wie heisst sein
+Name? was soll ich ihnen sagen? Und Gott
+                            32
+
+
+sprach zu Mose: Ich werde sein , der ich sein
+werde. Und sprach : Also sollst du zu den
+Kindern Israel sagen:       „Ich werde sein der hat
+mich zu euch gesandt." Und Gott sprach weiter
+zu Mose :       Also sollst du zu den Kindern Israel
+sagen : Der HErr der Gott eurer Väter, der Gott
+Abrahams der Gott Isaaks der Gott Jakobs hat
+mich zu euch gesandt, das ist mein Name ewiglich
+und dabei soll man mein gedenken für und für.
+Gehe hin und versammle die Aeltesten Israels und
+sprich zu ihnen: Der HErr, eurer Väter Gott ist
+mir erschienen, der Gott Abrahams , Isaaks und
+Jakobs, und hat gesagt: Ich habe euch heimgesucht
+und gesehen was euch widerfahren in Aegypten.
+Ex. 3, 13-16.
+
+
+    Gemeinde. Und es half der HErr an jenem Tage
+Isreal aus der Aegypter Hand, und Israel sah die
+Aegypter todt am Ufer des Meeres, und es sah Israel
+die grosse Hand die der HErr an den Aegyptern
+erzeigt hatte. Und das Volk fürchtete den HErrn
+und glaubten an den HErrn und an Mose seinen
+Knecht.     Ex. 14, 30 f.
+
+   Pastor. Und es gedachte der vorigen Zeiten,
+gedachte Mose's sein Volk : Wo ist der sie herauf-
+führte aus dem Meere samt dem Hirten seiner
+Heerde? wo der, der seinen heiligen Geist in ihre
+Mitte gab ? der einherziehen liess zur Rechten Mose's
+seinen herrlichen Arm, der vor ihnen her die Wasser
+                                  -
+
+
+                             33
+
+
+spaltete, auf dass er sich einen ewigen Namen
+machte ? Jes. 63, 11 f.
+    Gemeinde. Meinet nicht, dass ich euch verklagen
+werde vor dem Vater; es ist einer der euch ver-
+klaget, der Moses, auf welchen ihr hoffet. Denn
+wenn ihr Moses glaubtet, so glaubtet ihr auch mir,
+denn er hat von mir geschrieben. So ihr aber
+seinen Schriften nicht glaubet, wie werdet ihr meinen
+Worten glauben ? Joh. 5, 45-47.
+Nun nimmt ein Jeder seinen Becher und spricht den Segen :
+    Gebenedeiet seiest du, o HErr, Gott Israels, der
+du gewesen bist mit dem Munde Mose's deines
+Knechtes, des getreuen in deinem Hause, und hast
+ihn gelehrt was er reden soll; du hast ihm kund
+gethan deinen Namen und hast all deine Güte vor
+seinem Angesicht vorübergeführt , und hast uns
+durch ihn gelehrt zu lieben und zu fürchten deinen
+Namen.     Gebenedeiet seist du HErr, der erkoren
+Mose seinen Knecht und die Propheten der Wahr-
+heit und Gerechtigkeit !
+Ein jeder koste von dem Wein, und alsdann schenke er den
+dritten Becher ein, welcher der Becher des Haupts der Könige
+                „David" heisst, und spreche :
+    Pastor. Zum Könige über dich sollst du setzen
+den der HErr dein Gott erwählen wird. Aus deinen
+Brüdern sollst du einen zum König über dich setzen,
+du kannst nicht einen Fremden, der nicht dein
+Bruder ist, über dich setzen. Das Buch des Gesetzes
+soll bei ihm sein, damit nicht sein Herz sich erhebe
+                                               3
+                             34
+
+über seine Brüder, und damit er nicht weiche von
+dem Gebot weder zur Rechten noch zur Linken,
+auf dass er seine Tage verlänge auf seinem König-
+reich, er und seine Kinder inmitten Israels. Deut.
+17, 15. 20.
+
+   Gemeinde. Da kam der König David und blieb
+vor dem HErrn und sprach: Was bin ich, Herr
+HErr, und was ist mein Haus, dass du mich bis
+hieher gebracht hast? Und noch zu wenig hast du
+das erachtet, Herr HErr, sondern hast dem Hause
+deines Knechts auch von fernem Zukünftigen ge-
+redet, und das nach Menschenweise, Herr HErr!
+Und was soll David mehr reden mit dir            -
+                                                     du
+
+erkennest deinen Knecht, Herr HErr!         Um deines
+Wortes willen und nach deinem Herzen hast du
+solche grosse Dinge alle gethan, dass du sie deinem
+Knechte zu erfahren gäbest. Darum bist du auch
+gross geachtet, HErr Gott, denn es ist keiner wie
+du und ist kein Gott ausser dir nach allem was
+wir mit unseren Ohren gehört haben.           Und wo
+ist ein Volk auf Erden wie dein Volk Israel, um
+desswillen die Gottheit hingegangen, es sich zum
+Volke zu erlösen und sich einen Namen zu machen
+und Grosses an euch und Furchtbares an deinem
+Lande zu thun, vor deinem Volke her, welches du
+dir erlöset von Aegypten, den Heiden und ihren
+Göttern.      Und hast dir dein Volk Israel zubereitet,
+dir zum Volk in Ewigkeit, und du, HErr, bist ihr
+Gott geworden.       2 Sam. 7, 18-24.
+                      -
+
+
+
+                           35
+
+
+    Pastor. Neiget eure Ohren her und kommt her
+zu mir; höret, so wird eure Seele leben und ich
+will mit euch schliessen einen ewigen Bund, die
+Gnaden Davids die wahrhaftigen. Siehe zum Zeugen
+für Völkerschaften habe ich ihn gesetzt, zum Fürsten
+und Gebieter von Völkerschaften. Siehe eine Volks-
+masse, die du nicht kennest, wirst du herbeirufen,
+und eine Volksmasse, die dich nicht kennt, wird dir
+zueilen um des HErrn willen, deines Gottes, und
+des Heiligen in Israel, dieweil er dich herrlich ge-
+macht hat. Jes. 55, 3-5.
+   Gemeinde. Und der Engel sprach zu ihr: Fürchte
+dich nicht, Maria, denn du hast Gnade bei Gott ge-
+funden. Siehe, du wirst schwanger werden und einen
+Sohn gebären, dess Name sollst du Jesus heissen.
+Der wird gross sein und ein Sohn des Höchsten
+genennet werden und Gott der HErr wird ihm den
+Thron seines Vaters David geben. Und er wird
+ein König sein über das Haus Jakob ewiglich, und
+seines Königsreichs wird kein Ende sein. Luc. 1, 31-33.
+    Jeder nehme seinen Becher und spreche den Segen :
+   Gebenedeiet seiest du HErr, Gott Israels, der
+du David, den Sohn Isai's, deinen Knecht, von der
+Schafhürde und hinter den Schafen nahmest , dass
+er sein sollte ein Fürst über dein Volk Israel, und
+hast ihm von ferner Zukunft gesprochen und deine
+Gnade ihm nicht entzogen, sein Haus und König-
+reich zu ewig beständigen zu machen und seinen
+Thron zu befestigen bis in Geschlecht der Ge
+                                            3*
+                          -
+                                     -
+
+
+                                36
+
+schlechter. Gebenedeiet seist du, o HErr, der David
+seinem Knechte einen grossen Namen gemacht
+gleich dem Namen der Grössesten auf Erden!
+Jeder koste von dem Weine und der Pastor schenke den
+vierten Becher ein, welcher der Becher des Heils Jesu Christi
+                     heisst und spreche :
+    Pastor.   Und der HErr redete mit Mose und
+ sprach : Sage den Kindern Israel und sprich : Wenn
+jemand unrein über einem Todten oder ferne über
+Feld ist, unter euch oder unter euren Nachkommen,
+der soll dennoch dem HErrn Passah halten. Num. 9, 9 f.
+Neben ungesäuertem Brot und bitteren Kräutern
+soll er es essen. Ebend. v. II. Und sie gaben ihm
+Essig zu trinken, mit Galle vermischt, und er
+schmeckte es.      Matth. 27, 34.
+   Gemeinde. Er demüthigte dich und liess dich
+hungern und speiste dich mit Man, das du und
+deine Väter nie gekannt hattet, auf dass er dir zu
+erfahren gäbe, dass der Mensch nicht lebet vom
+Brot allein, sondern von allem, das aus dem Mund
+des HErrn gehet. Deut. 8, 3.
+   Pastor. Höret die ihr fern seid was ich gethan,
+und die ihr nahe seid merket meine Stärke.              Die
+Sünder zu Zion sind erschrocken, Zittern ist die
+Heuchler angekommen ; wer möchte wohnen bei ver-
+zehrendem Feuer, wer möchte wohnen bei ewigen
+Gluthen ? Jes. 33, 13 .
+    Gemeinde.     Wer in Gerechtigkeit wandelt und
+redet was recht ist, wer Gewinn hasset mit Be-
+                            37
+
+
+drückung und seine Hände abzeucht, dass er nicht
+Bestechung nehme ; wer seine Ohren zustopft, dass
+er nicht Blutschulden höre, und seine Augen zuhält,
+dass er nichts Arges sehe. Ebend. v. 15.
+    Pastor. Der wird in der Höhe wohnen und Felsen
+werden seine Feste und Schutz sein ; sein Brot wird
+ihm gegeben, seine Wasser versiegen nicht. Den
+König in seiner Schöne werden sehen deine Augen,
+werden sehen ein erweitert Land.        Ebend. v. 16 f.
+    Gemeinde.   Er ist um unserer Missethaten willen
+verwundet und um unserer Sünden willen zerschlagen.
+Die Strafe liegt auf ihm, auf dass wir Frieden hätten,
+und durch seine Wunden sind wir geheilet. Wir
+gingen alle in der Irre wie Schafe, ein jeglicher
+sahe auf seinen Weg, aber der HErr warf unser
+aller Sünden auf ihn. Jes. 53, 5 f.
+Der Pastor tritt vor den Tisch und legt Brot und Wein so
+zurecht, dass er einem jeden schnell und bequem das Brot
+  reichen kann, und alle nehmen den Becher und sprechen :
+   Alle.   Ich will den Kelch des Heils nehmen !
+Gebenedeiet seiest du, o HErr, Gott Israels, unser
+Vater von Ewigkeit zu Ewigkeit, der du bewährt
+und in Erfüllung gebracht hast dein heiliges Wort,
+das du entboten Abraham unserem Vater , Mose
+unserem Propheten, David dem Sohne Isai's, unserem
+König, und hast uns geschenkt in deiner grossen
+Barmherzigkeit Jesus unseren Messias, unseren Er-
+löser von je her, der durch dich gesalbt worden
+frohe Botschaft zu bringen den Elenden, blinde
+                           38
+
+Augen aufzuthun, zu verkündigen den Gefangenen
+Freiheit, und hat vergossen sein Leben, um die
+Sünde Vieler zu tragen, um ein Ende zu machen
+des Frevels und eine ewige Gerechtigkeit zu er-
+wirken, und hat geordnet und geboten in seinem
+heiligen Evangelium, dass wir ewig im Gedächtniss
+halten sollen seinen theuren Tod, bis dass er wieder-
+kommt.       Möge es wohlgefällig vor dir sein, unser
+Vater im Himmel, dass du, indem wir heute dieses
+heilige Brot und diesen heiligen Wein hinnehmen
+zum Gedächtniss des Todes und Leidens Jesu un-
+seres Messias , heiligest und reinigest alle Kräfte
+unseres Leibes und unserer Seele und dass sie
+gesegnet werden aus deinem gesegneten Quellborn,
+sich in eins zusammenzufassen kraft des gesegneten
+Leibes und Blutes des Messias, welche gebunden
+sind in das Bündlein des lieblichen Wesens zu deiner
+Rechten ewiglich, und dass wir und unsere Nach-
+kommen gewürdigt werden, immerdar zu bleiben
+in Christus und er in uns !     Amen.
+Hier nimmt der Pastor die Schüssel mit dem Brote in seine
+                    Hand und spricht :
+   Pastor.    Und er nahm das Brot, dankte und
+brach's und gab's ihnen und sprach: Das ist mein
+Leib, der für euch gegeben wird; das thut zu
+meinem Gedächtniss. Desselbigen gleichen nahm
+er nach dem Mahle den Kelch, dankte und reichte
+ihnen den und sprach: Trinket alle daraus, denn
+das ist mein Blut , das Blut des Neuen Testa-
+                        -
+
+
+
+
+                            39
+
+
+ments, welches vergossen wird für euch und für
+viele zu Vergebung der Sünden; das thut, so oft
+ihr davon trinket, zu meinem Gedächtniss.            Amen.
+     Er reicht das Brot jedem einzelnen und spricht :
+   Pastor. Der Leib unseres Herrn Jesus Christ,
+der für dich hingegeben; er bewahre deinen Leib
+und Seele zum ewigen Leben. Nimm und iss dies
+zum Gedächtniss, dass Christus für dich gestorben
+und glaube an ihn mit deinem Herzen fest und
+dankbar.
+           Indem er den Becher reicht, spricht er:
+   Pastor. Das Blut unseres Herrn Jesus Christ,
+welches für dich vergossen; es bewahre deinen Leib
+und Seele zum ewigen Leben. Trinke das zum
+Gedächtniss, dass das Blut Christi für dich vergossen,
+und sei ihm dankbar.
+           Zum Schlusse spricht er das Herrngebet.
+                  Worte des Friedens. *
+
+
+                          Theure Brüder !
+
+     In der That muss eine rechtschaffene Seele sich freuen
+und ein einsichtiges Herz frohlocken, dass Ihr in Eurer Er-
+kenntniss eine solche Stufe erreicht habt, dass Ihr in Jesus
+unserem Herrn den Mann erkannt habt, der es gut gemeint
+hat mit seinen Brüdern, ihr wahres Bestes suchte und Frieden
+entbot allen ihren Nachkommen .
+     Freilich , wenn Ihr meintet , durch solche Erkenntniss
+irdischen Nutzen zu erreichen und dadurch in den Stand poli-
+tischer Gleichberechtigung mit den übrigen Völkern zu ge-
+langen, wie es nach Eurer 13. These scheint, so wäre Eure
+Erkenntniss in dieser hochwichtigen Sache noch nicht die rechte.
+Unser Heiland will nicht allein, dass die Menschen ihn als
+den Sohn Davids, den Messias Israels bekennen, sondern dass
+sie ihn auch anerkennen als den Sohn Gottes, Jehova unsre
+Gerechtigkeit, den uns von unsern Propheten Verheissenen,
+das Lamm Gottes, welches der Welt Sünden trägt, durch
+dessen Wunden uns ist Heilung geworden.
+     Geliebte Brüder ! Ihr seid nicht mehr ferne von dem Wege
+der Wahrheit und des Friedens, aber Ihr habt ihn noch nicht
+
+    * Dieser Brief des Lehrers Friedmann war der erste Gruss an
+die jüdischen Bekenner Christi, der an sie im Sinne des Pastors Faltin
+erging. Die Folgerung, aus These 13 wird durch die hier vorliegenden
+anderen Documente gehoben ; immerhin ist dieser Brief ein lieblicher
+Ruf von der Peripherie in das Centrum.
+                               41
+
+
+beschritten. Der Schleier Mose's ist ein wenig von Eurem Herzen
+hinweggehoben, aber noch nicht ganz hinweggenommen. Unser
+Heiland ist in die Welt gekommen, nicht um den Juden gleichen
+politischen Stand mit den andern Völkern zu erwirken, nicht um
+ihnen irdisches Glück durch Erreichung sinnlicher Güter zu ge-
+währen      Er hat sich selbst erniedrigt und ist ein Mensch ge-
+worden, um Allen, die dem Tode verfallen sind Vergebung der
+Sünden und ewiges glückseliges Leben zu verleihen und ihnen
+einen offenen Zugang zu schaffen zu dem Herzen unseres himm-
+lischen Vaters (Jer. 31, 31-34) . Darum suchet zuvörderst
+vor allem bei unserem Herrn und Heiland das was Geist
+und Seele befriedigt und bereichert, nämlich Sühne der Sünden,
+und alle andern irdischen Güter werden Euch hinzugegeben
+werden nach seiner Verheissung. Sollte Euch aber wegen
+Eures Glaubens an Ihn Noth und Drangsal, Hohn und Ver-
+achtung treffen, so lasst auch das Euch nicht zaghaft machen
+sondern wisset, dass auch unser Herr und Meister seine
+Schulter geneigt und alles dies getragen hat; freuet Euch dann
+der Vergebung Eurer Sünden und freuet Euch in Hoffnung
+auf die Zukunft unseres Herrn (Joh. 16, 13) .
+     Gebe Gott, dass Ihr auf dieser Stufe, die Ihr erreicht
+habt, nicht verbleibet, sondern vorwärts schreitet und auf
+den Weg kommt, welcher sicher nach dem himmlischen Jeru-
+salem führt. Nach wenigen Tagen werden wir den Tag der
+Geburt unseres Herrn und Heilandes feiern. Gebe Gott,
+dass auch in der Krippe Eures Herzens geboren werde der
+Messias, dieser neue Mensch, welcher mit sich bringt Frieden,
+ewiges Glück und alles himmlische Gute.
+     Thut doch Eure Augen auf und sehet unsern Messias in
+der Dornenkrone und seinem vergossenen heiligen Blute ! Wie
+schön und wie holdselig ist er also ! Blicket auf ihn am
+Kreuze wie er dort seine Arme ausbreitet in Liebe und Mit-
+leid mit den Verirrten und Verlorenen, damit sie kommen
+und von ihm Sühne und Vergebung und ewiges Leben
+empfangen und durch ihn erlöst werden mit ewiger Erlösung
+(Jes. 65 , 2) .
+                             42
+
+
+     Wenn Ihr, geehrte Brüder, so Ihn ansehet, so wird Er
+auferstehen und leben in Eurem Herzen, neues Leben wird
+sich in Euch regen und heilige Empfindungen werden Euer
+Inneres durchdringen. Und dann, ja dann wird all Eurem Weh
+abgeholfen werden, wenn Ihr auf die Frage, welche der Herr
+an die Schriftgelehrten und Pharisäer richtete: Was denket Ihr
+von dem Messias, wess Sohn ist er? aufrichtigen Herzens mit
+Petrus antwortet: Du bist der Messias, der Sohn des lebendigen
+Gottes!
+
+    So rufe ich Euch denn die Worte des Apostels Paulus
+zu (2 Cor. 5, 17-21 ) : Dieweil Gott war in Christo und ver-
+söhnte die Welt mit ihm selber, und ihnen nicht zurechnete
+ihre Ungerechtigkeit, darum  ...bitten wir Euch an Christi
+Statt, lasset Euch versöhnen mit Gott.   Amen.
+                       ANHANG.
+
+
+
+     In einer am 14./26 . März 1884 in Kischinew unter Leitung
+des Pastors Faltin stattgehabten Conferenz gaben die Vertreter
+der Christenthumsbewegung national-jüdischen Charakters fol-
+gende Erklärung ab :
+    Wir von der Wahrheit des Christenthums überzeugte
+Juden wünschen , nach unserm Eintritt in das Christenthum
+die Freiheit zu haben, von unserm, von den Vätern über-
+kommenen Gesetz und unseren Volkssitten alles beibehalten
+zu dürfen, was nicht mit dem Wesen des Christenthums in
+Widerspruch steht. Wir glauben, dass das Gesetz seiner
+religiösen Seite nach in Christus völlig erfüllt ist, glauben aber
+andrerseits, zwar nicht religiös aber patriotisch verpflichtet zu
+sein, das Gesetz, soweit es national ist und es die Umstände
+ermöglichen, zu halten.
+     Die Grundgedanken der nun folgenden lebhaften Debatte
+waren folgende :
+    An zwei Punkte werden sich die Heidenchristen schwer
+gewöhnen : „die Festhaltung der Beschneidung und des
+Sabbaths, da stets die Gefahr vorhanden sein würde, dass die
+Judenchristen in diesen zwei Dingen doch religiöse und nicht
+nur nationale Motive haben".
+     Um die Meinung der anwesenden Vertreter der national-
+jüdischen Christenthumsbewegung klar zu wissen, wird ihnen
+die Frage vorgelegt: „Halten Sie es für einen Christ gewor-
+denen Juden für eine Sünde, wenn er sein Kind nicht
+beschneidet ? " Herr Rabinowitz giebt darauf die Antwort :
+                                 44
+
+
+,,derselbe begehe dadurch keine Sünde, nur entfremde er sich
+hierdurch von seinem Volke." Die gleiche Antwort gab er
+in Betreff Nichthaltung des Sabbaths von Judenchristen .
+Er entwickelte sodann seine Ansicht über das Bestehenbleiben
+der Besonderheit der verschiedenen Nationalitäten nach An-
+nahme der Lehre Christi an der Hand des prophetischen
+Bildes :   „Der Wolf solle ruhen beim Lamme."
+           ‫دو‬                                           Der Wolf
+wird kein Lamm, aber seine Natur wird von allem Verderben
+gereinigt. „Eine Heerde unter einem Hirten." Das besagt
+nicht, dass alle Glieder dieser Heerde völlig gleich geartet
+sind, sondern dass die Eigenthümlichkeiten und besondern
+Gaben der einzelnen Glieder geheiligt sind und alle ohne
+Dissonanz in schönster Harmonie und Einheit Christus, dem
+guten Hirten, anhangen.
+     Betreffs der Gleichstellung des Alten und Neuen Testa-
+mentes erklärt Rabinowitz, dass dieselben für die Christen
+jüdischer Nationalität genau gleiches canonisches Ansehen
+haben sollten.   Talmud und Schriften der Rabbiner haben
+kein autoratives Ansehen, sondern sind Denkmäler der Zeit,
+da Israel in Blindheit und Herzenshärtigkeit im Dunkeln umher
+tappte.     Betreffs der Lehre von den Sacramenten erklärte
+Rabinowitz sich mit den Anschauungen der lutherischen Kirche
+einverstanden.
+
+
+
+
+                   Druck von W. Drugulin in Leipzig .
+                                  ‫‪XXIV‬‬
+
+
+
+
+                 ‫משפט המ"ול מ"הע המליץ‬
+                   ‫על האדון ראבינאוויטש‬
+‫קשה היה לנו להאמין כזאת על האיש הזה אשר ידענוהו זה כעשרים שנה‬
+‫בשבתו עוד בארהיוב ונוכחנו לדעת כי הוא בר אורין ומבין וכותב עברית גם רוסית‬
+‫אוהב עמו ומקנא לאמונתו ולהשכלה יחד חכם לב ומעורב בין הבריות ומאז יצא להשתקע‬
+‫בקישינוב בתוך עמו ישב ויהי נכבד בעדתו ורבים שמעו לעצתו לכונן חברה מחזיקי ידי‬
+‫היהודים לעבודת האדמה " בבסרביא אחרי כן כאשר פרצו השערוריות העיר אחיו לרעיון‬
+‫ישוב ארץ ישראל וילך למסעיו בקונסטנטינופול יפו וירושלים ואף אם מצא מערערים‬
+‫על אשר יצא בהמליץ נגד האדון אליפהאנט אך הלא קנאת דתו ועמו עשתה זאת ואיך‬
+‫ניתן אמון לאומרים כי איש כזה שנה את טעמו לעת זקנותו על כן אמרנו כי בלי ספק‬
+‫באה השמועה הזאת לאיש אמונים שהודיע לנו את זאת מפי מוציאי דבה שונאי האדון‬
+                                                                ‫ראבינאוויטש‪.‬‬
+                             ‫‪-‬‬
+                                  ‫‪XXIII‬‬
+
+
+
+
+                             ‫דברי שלום‬
+‫אחי היקרים אמנם תשמח נפש ישרה ולב נבון יעלוז יען השגתם בידיעתכם‬
+‫מדרגה כזאת למצוא בישוע אדוננו את האיש אשר מחשבתו היתה לטוב עם אחיו‬
+‫הדורש טובתם האמיתית והדובר שלום ‪ .‬לכל זרעם ‪ :‬אולם אם תחשבו להשיג בידיעה‬
+‫כזאת דברים מועילים ארציים ולבוא על ידה למצב ההשתוות עם שאר העמים כאשר‬
+‫אמרתם בהנחה השלוש עשרה אז ידיעתכם בענין הנכבד הזה איננה עוד נכונה וישרה‪:‬‬
+‫רצון מושיענו הוא לא לבד שיודו באי עולם כי הוא בן דוד משיח ישראל אך שיכירו‬
+‫גם כן שהוא בן האלהים יהוה צדקנו המובטח לנו מנביאינו שה האלהים הנושא‬
+                            ‫חטאות העולם אשר בחבורתו נרפא לנו ( ישעיה נ"ג) ‪:‬‬
+‫אהי האהובים לא רחוקים אתם עוד מדרך האמת והשלום אבל עוד לא צעדתם‬
+‫בו מסוה משה הורם מעט מעל לבבכם אבל עוד לא הוסר כלו ‪ :‬מושיענו בא על‬
+‫העולם לא למען המציא ליהודים מצב ההשתוות עם שאר העמים ולתת להם אושר‬
+‫הארצי בהשגת טוב הגשמי הוא השפיל את עצמו ונהיה לבן אדם למען תת לכל בני‬
+‫תמותה סליחת החטאים חיים הנצחיים ואושר הנצחי ולהכין להם פתח פתוח ללב‬
+                                           ‫אבינו שבשמים ‪ ( :‬ירמיהו ל"א ל"ד) ‪.‬‬
+‫לכן בקשו בראשונה קודם לכל אצל מושיענו ואדוננו את ההון הרוחני והרכוש‬
+‫הנפשי הוא כפרת החטאים וכל שאר הדברים הארציים יוספו לכם כהבטחתו ואם לא‬
+‫אם תמצא אתכם בעבור אמונתכם בו צרה ומצוקה בוז וקלון גם אז אל תאמרו נואש‬
+‫אך תדעו כי גם אדוננו ומורנו נט שכמו וסבל כל אלה שמחו אז בסליחת חטאותיכם‬
+                                   ‫ובתקות העתיד של אדוננו ‪( :‬יוחנן ט"ז ל"ג) ‪.‬‬
+‫יאל אלוה שלא תשארו על המדרגה הזאת אשר השגתם אך תצעדו הלאה ותבואו‬
+‫על הדרך העולה בטח לירושלים השמימית ‪ :‬בעוד ימים מעטים נחוג את יום הולדת‬
+‫מושיענו ואדוננו יאל אלוה אשר גם באבוס לבבכם יולד המשיח האדם החדש הזה‬
+                             ‫המביא אתו שלום אושר נצחי וכל טוב שמימין‬
+‫פקחו נא עיניכם וראו את משיחנו בכתר הקוצים ובדמו הקדוש הנשפך מה יפה‬
+‫ומה נעים הוא ככה הביטו אתו על הצלב איך הוא פורש שם ידיו באהבה ובחמלה‬
+‫אל האובדים בפשעיהם והנדחים בחטאותיהם למען יבואו ויקבלו ממנו כפרה וסליחה‬
+                    ‫וחיים הנצחיים ויושעו בו תשועת עולמים ‪( :‬ישעיה ס"ה ב ')‪.‬‬
+‫אם כה אחי הנכבדים תראו אליו אז גם יקום ויחיה בלבבכם גם חיים חדשים‬
+‫יתעוררו בכם ורגשי קדש יתנוססו בקרבכם ‪ :‬הלא אז תעלה ארוכה למחלתכם אם על‬
+‫השאלה אשר שאל אדוננו את הסופרים והפרושים מה תחשבו אדות המשיח בן מי‬
+                     ‫הוא בלב נבון תענו עם פטרוס אתה הוא המשיח בן אל חי ‪:‬‬
+‫ובכן אני קורא לכם דברי השליח פאול (ב' אל הקורנתים ה' י"ט כ') יען אשר‬
+‫אלהים היה במשיה וירצה את העולם לעצמו ולא חשב להם את פשעיהם לכן נבקש‬
+                                 ‫מכם בעד המשיח התרצו נא אל האלהים ‪ :‬אמן ‪.‬‬
+                                   ‫‪-‬‬
+
+
+                            ‫‪XXII‬‬
+
+
+
+‫כהיום את הלחם הקדש הזה והיין הטהור הזה לזכר מיתת וענות‬
+‫ישוע משיחנו תקדש ותטהר את כל כוחותנו הגופנים והנפשיים‬
+‫ויתברכו במעינו ממקורך הברוך להתאחד ולהתכלל בגו ודם הברוכים‬
+‫של המשיח הצרורים בצרור החיים הנעימים בימינך נצח ונזכה אנחנו‬
+‫וזרענו לשכון תמיד במשיח והוא בנו אמן‪ .‬כחן יקס הלועס לת הקערה‬
+‫עס הלקס נילו וילמר ויקח לחם ויודה ויפרוס ויתן להם לאמר זה הוא‬
+‫גויתי הנתנה בעדכם זאת עשו לזכרוני וכמו כן אחרי אכלו לקה‬
+‫את הכוס ויודה ויתן להם לאמר שתו כלכם ממנה כי זה הוא דמי דם‬
+‫ברית חדשה הנשפך בעדכם ובעד רבים לסליחת חטאים זאת עשו‬
+‫בכל עת אשר תשתו אותה לזכרני אמן‪ .‬נתתו לת סלקס לכל לקל ילמר‬
+‫גוית אדונינו ישוע המשיח אשר נתנה בעדך תשמור את גויתך ונפשך‬
+‫לחיי עולמים קח ואכול זאת לזכרון כימשיח מת בעדך ותאמין בובלבך‬
+‫באמונה שלמה ובתודה ‪ .‬נתתן לת סכוס ילמל דם אדונינו ישוע המשיח‬
+‫אשר נשפך בעדך ישמור את גויתך ונפשך לחיי עולמים שתה זאת‬
+‫לזכרון כי דם המשיח נשפך בעדך והודה לו ולקר כך ילמל תפלת החלון‪.‬‬
+                                 ‫‪XXI‬‬
+
+
+
+
+  ‫אביו ועל בית יעקב ימלך לעולם ועד ולמלכותו אין קץ‪ .‬יקס כל לקל‬
+  ‫לת כוסו ויברך ברוך אתה יהוה אלהי ישראל אשר לקחת את דוד בן‬
+   ‫ישי עבדך מן הנוה ואחר הצאן להיות נגיד על עמך ישראל ודברת‬
+   ‫עליו למרחוק ולא הסירות חסדך ממנו להאמין ביתו וממלכתו עד‬
+   ‫עולם ולכונן כסאו ער דור דורים ברוך אתה יהוה העושה לדוד‬
+  ‫עבדו שם גדול כשם הגדולים אשר בארץ‪ .‬יטעוס כל ‪6‬קל מן היין‬
+  ‫וסרועס ימזוג כוס רניעי סכקיס כוס ישועות של ישוע המפיק ויסמל הרועה‬
+  ‫וידבר יהוה אל משה לאמר דבר אל בני ישראל איש איש כי יהיה‬
+  ‫טמא לנפש או בדרך רחוקה לכם או לדרתיכם ועשה פסח ליהוה על‬
+  ‫מצות ומרורים יאכלהו ‪ :‬ויתנו לו לשתות חומץ מזוג במרורה ויטעם‪.‬‬
+  ‫הקהל ויענך וירעבך ויאכלך את המן אשר לא ידעת ולא ידעון אבתיך‬
+  ‫למען הודיעך כי לא על הלחם לבדו יחיה האדם כי על כל מוצא פי‬
+   ‫יהוה יחיה האדם ‪ .‬הרועה שמעו רחוקים אשר עשיתי ודעו קרובים גבורתי‬
+  ‫פחדו בציון חטאים אחזה רעדה חנפים מי יגור לנו אש אוכלה מי‬
+  ‫יגור לנו מוקדי עולם ‪ .‬הקהל הלך צדקות ודבר מישרים מאס בבצע‬
+  ‫מעשקות נער כפיו מתמך בשחר אטם אזנו משמע דמים ועצם עיניו‬
+  ‫מראות ברע ‪ .‬הרועה הוא מרומים ישכן מצדות סלעים משגבו לחמו נתן‬
+  ‫מימיו נאמנים מלך ביפיו תחזינה עיניך תראינה ארץ מרחקים ‪ .‬הקהל‬
+  ‫והוא מחלל מפשעינו מדכא מעונותינו מוסר שלומנו עליו ובחבורתו נרפא‬
+  ‫לנו כלנו כצאן תעינו איש לדרכו פנינו ויהוה הפגיע בו את עון כלנו ‪.‬‬
+  ‫הלועס יעמוד לפכי הסלקן ויסלל לת סלקס וסיין נלכן קשר בזריזות ונכעימות‬
+  ‫יוכל לפרוס לכל לקל ולקל לקס וכל ‪6‬קל יקס הכוס וילמר כוס ישעות אשא‬
+  ‫ברוך אתה יהוה אלהי ישראל אבינו מעולם ועד עולם אשר האמנת‬
+  ‫וקימת את דבר קדשך אשר צוית לאברהם אבינו למשה נביאנו ולדוד בן‬
+   ‫ישי מלכנו ותתן לנו ברוב רחמיך את ישוע משיחנו גואלנו מעולם אשר‬
+‫על ידך נמשח לבשר ענוים לפקוח עינים עורות לקרוא לשבוים דרור ויער **‬
+  ‫למות נפשו לישא חטא רבים להתם פשע ולהביא צדק עולמים ותקן‬
+  ‫וצוה לנו בבשורת קדשו לשמור לזכר עולם זכרון מותו היקר עד כי‬
+  ‫יבוא שנית יהי רצון מלפניך אבינו שבשמים אשר בקחתנו ובאכלנו‬
+                              ‫‪XX‬‬
+
+
+
+
+‫את רעה צאנו איה השם בקרבו את רוח קדשו מוליך לימין משה זרוע‬
+‫תפארתו בוקע מים מפניהם לעשות לו שם עולם ‪ .‬הקהל אל תחשבו‬
+‫כי אנכי אטען עליכם לפני אבי יש טוען עליכם משה אשר לו תיחלו‬
+‫כי לו האמנתם למשה גם לי תאמינו כי הוא כתב עלי ואם לכתביו‬
+‫אינכם מאמינים איכה לדברי תאמינו ‪ .‬יקס כל ‪6‬קל ‪6‬ת כוסו ויברך ברוך‬
+‫אתה יהוה אלהי ישראל אשר היית עם פי משה עבדך נאמן ביתך‬
+‫והורת אותו אשר ידבר הודעת לו שמך והעברת כל טובך על פניו‬
+‫ותלמדנו על ידו לאהבה וליראה את שמך ברוך אתה יהוה הבוחר‬
+‫במשה עבדו ובנביאי האמת וצדק ‪ .‬יטעוס כל לקל מן סיין ולקר כך‬
+‫ימזוג כוס סליסי הנקלס כיס כלס סמלכיס לול וילמל סרועס שום תשים‬
+‫עליך מלך אשר יבחר יהוה אלהיך בו מקרב אחיך תשים עליך מלך‬
+‫לא תוכל לתת עליך איש נכרי אשר לא אחיך הוא לבלתי רום לבבו‬
+‫מאחיו ולבלתי סור מן המצוה ימין ושמאל למען יאריך ימים על‬
+‫ממלכתו הוא ובניו בקרב ישראל ‪ .‬הקהל ויבא המלך דוד וישב לפני‬
+‫יהוה ויאמר מי אנכי אדני יהוה ומי ביתי כי הביאתני עד הלום ותקטן‬
+‫עוד זאת בעיניך אדני יהוה ותדבר גם אל בית עבדך למרחוק וזאת‬
+‫תורת האדם אדני יהוה ומה יוסיף דוד עוד לדבר אליך ואתה ידעת‬
+‫את עבדך אדני יהוה בעבור דברך וכלבך עשית את כל הגדולה הזאת‬
+‫להודיע את עבדך ‪ :‬על כן גדלת יהוה אלהים כי אין כמוך ואין אלהים‬
+‫זולתך ככל אשר שמענו באזנינו ‪ :‬ומי כעמך ישראל גוי אחד בארץ‬
+‫אשר הלכו אלהים לפדות לו לעם ולשים לו שם ולעשות לכם הגדולה‬
+‫ונוראות לארצך מפני עמך אשר פדית לך ממצרים גוים ואלהיו ותכונן‬
+‫לך את עמך ישראל לך לעם עד עולם ואתה יהוה היית להם לאלהים‪.‬‬
+‫הרועה הטו אזנכם ולכו אלי שמעו ותחי נפשכם ואכרתה לכם ברית‬
+‫עולם חסדי דוד הנאמנים הן עד לאומים נתתיו נגיד ומצוה לאומים‬
+‫הן גוי לא תדע תקרא וגוי לא ידעוך אליך ירוצו למען יהוה אלהיך‬
+‫ולקדוש ישראל כי פארך‪ .‬הקהל ויאמר לה המלאך אל תיראי מרים‬
+‫כי מצאת חן לפני האלהים והנך הרה וילדת בן וקראת את שמו‬
+‫ישוע והוא גדול יהיה ובן עליון יקרא ויהוה אלהים יתן לו את כסא דוד‬
+                             ‫‪XIX‬‬
+
+
+
+
+‫קרועה ויהי בראשון לחג המצות ויגשו התלמידים אל ישוע לאמר‬
+‫באיזה מקום תחפץ כי נכין לך לאכל את הפסח ויאמר לכו העירה‬
+‫אל פלני אלמני ואמרתם אליו כה אמר הרב עתי קרובה היא ובביתך‬
+‫אעשה את הפסח עם תלמידי ויעשו התלמידים כאשר צום ישוע‬
+                                                 ‫ויכינו את הפסח‪.‬‬
+
+‫הקהל ויאמר אליהם נכסף נכספתי לאכל אתכם את הפסח הזה‬
+‫לפני ענותי כי אומר אני לכם אינני אוכל אותו עור עד כי ימלא במלכות‬
+‫האלהים ויקח את הכוס ויברך ויאמר קחו אתה וחלקו ביניכם כי‬
+‫אומר אני לכם שתה לא אשתה מעתה מתנובת הגפן עד כי תבוא‬
+                                                 ‫מלכות האלהים ‪.‬‬
+                 ‫חק"כ יקס כל לקל לת כוסו ויברך‬
+‫ברוך אתה יהוה אלהי ישראל אשר בחרת באברם והוצאתו מאור‬
+‫כשדים ושמת שמו אברהם ומצאת את לבבו נאמן לפניך וכרת עמו‬
+‫הברית לתת לו את ארץ כנען ותקם את דבריך כי צדיק אתה ברוך‬
+‫אתה יהוה המברך בזרעו של אברהם כל גויי הארץ אמן ויטעוס כל‬
+                                                      ‫חקר מן היין‪.‬‬
+            ‫ימזוג כוס סכי סכקלס כוס ללס הכניסיס מסס‬
+‫וסרועס יסקר ויאמר משה אל האלהים הנה אנכי בא אל בני‬
+‫ישראל ואמרתי להם אלהי אבותיכם שלחני אליכם ואמרו לי מה‬
+‫שמו מה אומר אליהם ויאמר אלהים אל משה אהיה אשר אהיה ויאמר‬
+‫כה תאמר לבני ישראל אהיה שלחני אליכם ויאמר עוד אלהים אל משה‬
+‫כה תאמר אל בני ישראל יהוה אלהי אבותיכם אלהי אברהם אלהי‬
+‫יצחק ואלהי יעקב שלחני אליכם זה שמי לעולם וזה זכרי לדור דור‬
+‫לך ואספת את זקני ישראל ואמרת אליהם יהוה אלהי אבותיכם‬
+‫נראה אלי אלהי אברהם יצחק ויעקב לאמר פקד פקדתי אתכם ואת‬
+‫העשוי לכם במצרים‪ .‬הקהל ויושע יהוה ביום ההוא את ישראל מיד‬
+‫מצרים וירא ישראל את מצרים מת על שפת הים וירא ישראל את‬
+‫היד הגדלה אשר עשה יהוה במצרים וייראו העם את יהוה ויאמינו‬
+‫ביהוה ובמשה עבדו ‪ .‬הלועס ויזכור ימי עולם משה עמו איה המעלם מים‬
+           ‫*‪B‬‬
+                             ‫‪IV.‬‬
+
+
+                   ‫הגדה לבני ישראל‬
+            ‫המאמינים במשיח ישוע הנוצרי‬
+
+
+              ‫סדר סעודת האדון בליל פסח‬
+‫סוד סעודת האדון הוא לאסוף אל תוך גויתנו ונפשנו בפועל ממש‬
+‫הברכות שהביא לנו הכהן צדק לאל עליון מלך שלם ישוע משיחנו‬
+‫לנו זרע אברהם אב המון גוים בלחמו ויינו בגופו ובדמו ובאכילת‬
+‫הלחם שמים ויין המשומר הזה אנחנו מאחדים ומכללים את כל‬
+‫כוחותינו הגופנים והנפשיים בגוית המשיח ובדמו שנקרבו בעולם‬
+‫הזה למען תשועתנו הצרורים בצרור החיים הנצחיים לימין אבינו‬
+                                              ‫שבשמים לעולמים ‪.‬‬
+‫חקרי תפלת החלון מכיקיס על הסלקן קערס ועליס שלושה קלות יפות וכל‬
+‫קלס יין וכוסות לפי מספר המסמיכיס קלועס ימזוג כוס כלפון סכקיס כוס‬
+                     ‫רקס החנות לנרסס וילמר‬
+‫הכועס הוא הלילה הזה ליהוה שְׁפְּרִים לכל בני ישראל לדרתם‪.‬‬
+‫הקהל זכור את היום הזה אשר יצאתם ממצרים מבית עבדים כי‬
+               ‫בחזק יד הוציא יהוה אתכם מזה ולא יאכל חמץ‪.‬‬
+‫הלועס בכל צרתם לו צר ומלאך פניו הושיעם באהבתו ובחמלתו‬
+                          ‫הוא גאלם וינטלם וינשאם כל ימי עולם‪.‬‬
+ ‫הקהל כי אתה אבינו כי אברהם לא ידענו וישראל לא יכירנו אתה‬
+                                   ‫יהוה אבינו גאלנו מעולם שמך‪.‬‬
+                            ‫‪XVII‬‬
+
+
+
+‫האלהות כ"כ עד שקשה להם לעכב את דעתם ומחשבתם על המספר‬
+‫שלושה אע"פי שמאמינים ויודעים כפי שנראה מכתבי הקודש מהשלשה‬
+‫הפרצופים שישנם בעצמות האל האחד לא כן שארי האומות שהאחדות‬
+‫האלהית נתגלה להם רק זה מחדש ע"י ישוע המשיח ומבשריו הם רגילים‬
+‫היו לרבוי אלהות להם נחוץ היה לקבוע בלבם כי שלושה הפרצופים‬
+‫הנראים לעין המאמין בכתבי קודש ובמלוא העולם הם אחד הם ומה‬
+‫לישראל בעת הזאת לבקש תירוץ על קושיא שהיתה לגוים בראשית‬
+‫התגלות המשיח ותורתו ? שארי מאמינים מהגוים מכנים השלושה הפרצופים‬
+‫אב ובן ורוח הקודש אצלנו מכונים אל אחד דברו ורוח קדשו והכל אחד‬
+‫הוא ומה לקהלות הנוצרים לעמוס על הישראלי דברים שנחלו רק המה‬
+‫מאבותיהם רק מחמת חולשת דעתם באמיתות האלהות ולסגור בעדם דלתי‬
+‫היכל האדון ולמנוע אותם מבא במלכות השמים בישוע המשיח אשר‬
+‫אנחנו אבריו וחלקיו ? עליהם בזה הענין ללמוד מן השליחים הראשונים‬
+‫היהודים שדנו ברוח הקודש כי אין לעמוס על כל השבים ובאים באמונת‬
+‫המשיח בדברים שאין רובם יכולים לעמוד בם ואין אנחנו מוצאים בכל‬
+‫כתבי הקודש בשום מקום מהם כי האמונה בשלושת הפרצופים היתה‬
+                                    ‫מחויבת לאמור ולהודות בפיו‪:‬‬
+‫כמו כן במה שנוגע בעקר מלידת המשיח מהבתולה הקדושה מרים‬
+‫ברוח הקודש יען שהיהודים אשר היו עד הנה מאויבי המשיח ומכחשיו‬
+‫קשה להם הדבר מאוד בעתים הראשונות לפרש בפה את אופן פלאות‬
+‫הלידה על ידי רוח הקודש במלות מבתולה מרים בלי חשש מחשבת‬
+‫פגול מגושמה ולכן בעבור צדק וכבוד האלהים מהנחוץ למעט בדברים‬
+‫בעיקר הזה או לעזבו מכל וכל ולסמוך א"ע על האמונה בכתבי הקודש‬
+‫בכלל או במקום המלות הנ"ל לאמור סתם שנולד ברוח הקודש ומתחתיו‬
+                               ‫צמח צמח צדיק קדוש ישראל והבן‪.‬‬
+
+
+
+
+           ‫‪B‬‬
+                              ‫‪XVI‬‬
+
+
+
+‫לנצחית ‪ :‬ולפי זה המצוה המעשית העקרית לבני ישראל מעולם מצד שהם‬
+‫זרע אברהם התלויה בגופו של איש הישראלי בעודו צעיר לימים בן‬
+‫שמונת ימים המעידה כחותם קודש על בשר היהודי שמזרע אברהם‬
+‫הוא אשר נברכו בו כל גויי הארץ ‪ :‬ויש בה לדעת רוב רופאים תועלת‬
+‫לאיש הנימול ואינה יכולה לאלץ את רוח ונטית שאר העמים שביננו כי‬
+‫אינה נעשית באדם גדול שיש לו רעים אהובים ואינה נעשית בחוץ לעיני‬
+‫הרואים ונהפוך הוא כי רוח שאר בני העמים המוקירים ומכבדים את‬
+‫תולדותיהם מזרע אבותיהם יושבי איירופא תניח מזה כי היא המילה תהיה‬
+‫כאות לבעליה לבל יבוא כגנב בתוך העם אשר ירצה לנעול גנו ולחתום‬
+‫מעינו אנחנו לפי התורה והברית החדשה מחויבים לעשותה אך לעשותה‬
+‫בתור תקוה רק על תהלה מצד אחיו היהודים ולא כהצטדקות לפני אלהים‬
+‫כאשר אמר פולוס באגרתו אל הרומיים (ד' ב') כי אם נצדק אברהם‬
+‫מתוך המעשים לו התהלה אך לא לפני אלהים ומה שאמר פולוס במכתבו‬
+‫אל הגלטים אם תמולו לא יועיל לכם המשיח אמר זאת אל הגוים שרצו‬
+‫להצדיק א"ע בתורה ובחסד המשיח יחד ולאבור עי"ז חרות המשיח ולבא‬
+‫בעול תורה שלא קבלו עליהם מעולם ולא נרגלו בו וזה עולה ביחד לדעת‬
+‫יעקב אחי המשיח שאמר (פה"ש ט"ו י"ט) אני דן שלא להחמיר על‬
+‫השבים מן הגוים לאלהים רק לכתוב אליהם אשר ירחקו מטמאת‬
+‫האלילים ומן הזנות ומבשר הנחנק ומן הדם כי משה מדורות עולם יש‬
+‫לו מגידיו בכל עיר ועיר ונקרא בבתי כנסיות מדי שבת בשבתו ועל כן‬
+‫נקל להיהודים לקיים המצות כי כבר הורגלו עליהם מדור דור ע"י התורה‬
+‫שנדרשה בכל שבת ושבת ‪ :‬בדבר מצות השבת עלינו לקיים כל מה שתלוי‬
+‫במוח ובלב בענין זכור את יום השבת ומה שנוגע לשביתת מלאכה עלינו‬
+‫להתנהג בשביתת מלאכות שאינן מעכבות את סדר החיים לפי המקום‬
+‫הזמן ורוח העמים שבינינו בתהלוכות עסקיהם וחפציהם ‪ :‬ולשפת יתר תהיה‬
+‫לדבר מאיזו מן המצות התלויות באחוזת ארץ ישראל בעבודת בית המקדש‬
+‫בישיבת שופטינו ושוטרינו באקלימא ארצות החמות בהרחקת עבודת‬
+‫אלילים שכבר נעקרה מן העולם אשר עין השכל אינה מקבלת אותם כי‬
+‫פטורים ובעלי חרות אנחנו מלעשותם ‪ :‬במה שנוגע למעשי מצות ברית‬
+‫החדשה עלינו לקיים רק הטבילה ואכילת לחם ויין לזכרון האדון על פי‬
+‫טהרת רוח היהודים ונטית נפשם הנובעות מתוך דברי הת"נך כדוגמת‬
+‫הנוצרים השומרים אמונת ברית החדשה בטהרה ונקיה בארץ אנגליא‬
+‫ואשכנז ‪ :‬מאחדות אלהות בני אברהם נתחנכו והרגלו עם אחדות‬
+                              ‫‪XV‬‬
+
+
+
+‫האמונה האלהית החלו להשיג גם את האמונה השכלית אולם האמונה‬
+‫האחרונה הזאת צרתה המתקנאת בחברתה החלה להבאיש את ריח‬
+‫האמונה האלהית בלב המאמינים מהגוים ולהפוך ולבלבל את המאמינים‬
+‫החדשים שלא נתבשלו עוד כל צרכן במובן המלות והסודות שקבלו מפי‬
+‫המבשרים והגשימו מחסרון דעתם את מושג האלהות בכלל ואת סור המשיח‬
+‫הנבא מראש ומקדם בפרט ועוד מעט לא היתה ח"ו מושג נקי מן‬
+‫המשיח ותשועתו לתבל בין הגוים לו לא קמו פעם בפעם מקנאים לאמת‬
+‫קנאת ה' צבאות ולטהרת אמונת המשיח להקהל ולעמוד על נפש‬
+‫אמונת האלהות מצד צרתה אמונת השכל ותקנו והגבילו ועשו סיג‬
+‫להאמונה בעקרים שונים וכל זאת היתה רק מסבה זאת כי להמאמינים‬
+‫החדשים שבאה להם הישועה רק מהיהודים ונביאיהם לא ידעו ולא‬
+‫הרגישו כל הענינים הקדומים שבא האדון למלאות והביטו על הברית‬
+‫החדשה כעל תורה חדשה מכל וכל אשר אין לה אב ואם בהיהודית ‪:‬‬
+‫וממילא מובן מזה כי כל הרפואות והדרכים שרפאו ותקנו בם הגדולים‬
+‫מהמשיחיים הראשונים עבור אנשי דורם הגוים שלא יכלו להשיג את‬
+‫המשיח מחסרון תורה ומקוטן אמונתם השכלית אינם יכולים להביא‬
+‫שום תועלת להיהודים שאינם משיגים את המשיח מצד רבוי אמונתם‬
+‫השכלית שנתרבה ביניהם ומצד ידיעתם הרבה בת"נך ובאותיותיה אשר‬
+‫עכבו עליהם לראות את האור הגדול הנגנז בו (בתי עינים של קצרי הראות‬
+                                  ‫אינם מועילים לבעלי ראיה חזקה)‪.‬‬
+
+
+                       ‫בדבר המצות עשה‬
+
+‫כפי שעשיית המצות הוא ענין שאיננו תולה רק בלב ובפה ומצד‬
+‫מהותה מוכרחת היא להיות מוגבלה ומגודרה בגוף במקום ובזמן ונופלת‬
+‫תחת השנוי ותמורה כשאר דברים החומרים הצפוים תמיד אל התמורה‬
+‫לכן בענין הזה אנו מוכרחים לצרף לרוח הקודש אשר נגנז בכל עשיה‬
+‫ועשיה של המצות שאנחנו נצטוים עליהם משתי הבריתות גם את שכלנו‬
+‫ונטית רוח נפשנו ושכל ורוח העמים שביננו אשר אנחנו שוכנים בארציהם‬
+‫למקומותם ולחקותיהם כי כל אלו הדברים צריכים להיות מרוצים ונטוים‬
+‫לעשות הדבר הזה לעיניהם ובתוכיהם בלעדם אין מהיכולת לעושה‬
+‫המצוה להביאה ולהוציאה לאור כי כן חפץ עליון החומר להשתנות והרוח‬
+                                   ‫‪-‬‬
+
+                             ‫‪XIV‬‬
+
+
+
+
+‫שנעשו בעתים ובזמנים שונים ע"י אנשים רבים בנקודה אחת אשר רק‬
+‫נקודת המח והלב יודעים ויכולים להשיגה וזה הוא לדעתי פירוש האמיתי‬
+‫של דברי פולוס בדברו באגרתו אל הרומיים (י' ו') על הצדקה אשר‬
+‫מתוך האמונה כי כה אומרת האמונה הזאת אל תאמר בלבבך מי יעלה‬
+‫השמימה הלא זאת היא להוריד המשיח היינו אל תרבה בחקירות‬
+‫והוכחות השכל איך ירד המשיח מן השמים איך היתה לידתו ברוח‬
+‫הקודש או מי ירד לתהום הלא זאת היא להעלות את המשיח מן המתים‬
+‫היינו בל לדרוש ולחקור איך היתה התקומה מן המתים אשר הוא דבר‬
+‫נגד הטבע רק תודה בפיך ותאמין בלבך כי ישוע הוא האדון הקם מעם‬
+‫המתים הצדקה אשר בהאמונה הזאת איננה דורשת שום מוח ושכל‬
+‫רק לב ופה לכן מצדקת היא גם נשים וטף וחסרי פילוסופיא וחכמות‬
+‫וזהו נבואת ירמיה כלם ידעו אותי למקטנם ועד גדולם וזהו כוד‬
+‫הכסילות האלהית ‪ :‬ולכן כל דבר ישוע המשיח ליהודים היה רק למלאות‬
+‫את דבר ה' מקדם שהיו ידועים אפילו לקטן שבקטנים מהם ע"י קריאתם‬
+‫תמיד בימי שבתות בבתי כנסיותיהם ופעולת ישוע ותלמידיו היתה בכלל‬
+‫לעשות מיהודים אינם מאמינים ע"י האמונה השכלית והאנושית שבהם‬
+‫בהאל האחד מאמינים באמונה אלהית היכולה לצאת מצד רוממותה‬
+‫רק ע"י הפה והלב ולא ע"י השכל‪ :‬לא כן היתה כל זאת כאשר היהודים‬
+‫מצד התורה ואמונתם השכלית כחשו ולא רצו לקבל את דבר ה' ומשיחו‬
+‫ולהאמין בו באמונה אלהית הפשוטה והתלמידים של המשיח למען לקיים‬
+‫דבריו אשר אמר (מתיא כ"ח) לי נתן כל השלטן בשמים ובארץ לכו‬
+‫ועשו לתלמידים את כל הגוים וטבלתם אותם לשם האב והבן והרוח הקודש‬
+‫החלו לעבור ולפעול בגוים אשר היו משוקצים ומלוכלכים בכל אמונת‬
+‫הבל ותהו וכפתאים האמינו לכל דבר למען עשות גם מהם יורשים‬
+‫במלכות השמים וקראו לאותם שלא היתה להם אמונה שכלית טהורה‬
+‫בשורת המשיח כמו שקבלוה ממורם הטבילה בשם האב והבן והרוח‬
+‫הקודש התקומה והסעודה דברים אשר יכלו לקבל אותם מהר רק למען‬
+‫ישועתם עי"ז כי היו חסרי תורה ואמונה השכלית ודעת דבר ה' והבטחתו‬
+‫לנביאי ישראל אף לא ידעו ספריהם ואעפי"כ בחסד העליון הרב ובכח‬
+‫רוח הקודש ששרה על המבשרים הראשונים וגבורתם בעוז אלהים‬
+‫נקבעה ונרכבה האמונה הפשוטה האלהית בלבם ויפקחו עיניהם לראות‬
+‫אור מצד חסד העליון לבד ולא בעזר האמונה השכלית ‪ :‬אך עי"ז ומסבה‬
+‫זאת בעצמה אחרי כי נלקחו אל האלהים המבשרים הראשונים בכח‬
+                              ‫‪XIII‬‬
+
+
+
+‫ע"י האמונה הפשוטה הזאת בלי הגבל שום אופן ותנאי יש לפי הכתב‬
+‫להושע ולקבל סליחת החטאים ואמר כי האמונה בו אשר הוא אחר עם‬
+‫האב אי אפשר רק ע"י האהבה האמיתית להאב ולא ע"י אהבת עצמו ‪:‬‬
+‫כל המופתים אשר עשה בשם ה' לרפא חולים ולהחיות מתים היו רק‬
+‫למען לקבוע בלבם האהבה והאמונה הזאת כי הוא בן דוד האמיתי‬
+‫המשיח והגואל לישראל שחזו הנביאים מקדם ‪ :‬וגם אחרי ענותו מותו‬
+‫ותקומתו כל מגמתו היתה להוכיח אחרי כן לתומאס במכאוביו (יוחנן כי‬
+‫כ"ז) כי להיהודים די רק להאמין באמונה פשוטה כי ישוע הוא המשיח‬
+‫ובאמונה הזאת יש חיי עולם ‪ :‬וכאשר נגש ישוע אל קלעאפס ורעו בדרך‬
+‫אמר להם (לוקס כ"ד כ"ה) הוי חסרי דעת וכבדי לב מהאמין בכל אשר‬
+‫דברו הנביאים ויחל ממשה ומכל הנביאים ויפתור להם את כל הכתובים‬
+‫הנאמרים עליו וכן אמר אל התלמידים (שם מ"ד) הם הדברים אשר‬
+‫דברתי אליכם כי המלא ימלא כל הכתוב עלי בתורת משה בנביאים‬
+‫ובתהלים ‪ :‬וכמו כן פעטרוס בעת חזקו את רגלי הפסח אמר אנשי‬
+‫ישראל אלהי אבותינו פאר את עבדו ישוע אשר אתם מסרתם אותו‬
+‫וכחשתם בו לכן הנחמו ושובו וימחו חטאותיכם צריך היה כי יקבלוהו‬
+‫השמים עד ימי שוב כל הדברים לתקונם אשר דבר עליהם אלהים‬
+‫בפי נביאיו הקדושים מימי עולם ‪ :‬אתם בני הנביאים ובני הברית‬
+‫לכם בראשונה העמיד אלהים את עבדו ישוע וישלחהו לברך אתכם‬
+‫בשובכם כל איש מרוע מעלליכם (פה"ש ג') וממש כזה דבר פולוס‬
+‫בדבריו לאנשי אנטיוכיא (פה"ש י"ג) ובאגרתו אל הרומים וסוד מלוא הגוים‬
+‫הוא מה שאמר פעטרוס עד שישובו כל הדברים לתקונן ואך על זה‬
+‫מסר סטעפנוס הקדוש את נפשו ונהרג (פה"ש ז') וגם כאשר שלח‬
+‫קארנעליוס איש מהנכרים אל פעטרוס אמר בפעם הראשון ‪ :‬עתה ידעתי‬
+‫‪ • •:‬וישלח את דברו לבני ישראל ויבשר את השלום ע"י ישוע המשיח‬
+‫והוא אדון הכל ודבר רק על הטבילה ההריגה והתקומה ומשפטו את‬
+‫החיים והמתים ומסליחת החטאים לכל אשר יאמינו בו ולא יותר ‪ :‬מכל זה‬
+‫אנחנו רואים בעליל שבין היהודים אשר יש להם מקדם עדות נאמנה‬
+‫ע"י אבותיהם יציאת מצרים נתינת התורה והנביאים דרשו המשיח‬
+‫ותלמידיו רק אחת האמונה הפשוטה כי ישוע הוא הוא אשר דברו עליו‬
+‫ולא יותר כי האמונה האמיתית היא רק נקודה קטנה מברקת גבוה גבוה‬
+‫מאוד וקשה לה להגביל את עצמה באופנים ובתנאים מוגבלים שונים‬
+‫היא רק סך הכל המתצמצם א"ע מחשבון גדול של הרבה מספרים‬
+                             ‫‪XII‬‬
+
+
+
+‫המשיח ענותו ומיתתו ותקומתו מן המתים מהנביאים והתהלים ( גם‬
+‫התלמוד והזוהר והקבלה מדברים מזה) וחסרה לנו רק האמונה באיש‬
+‫ישוע הנוצרי אם הוא האיש האדון המשיח אשר עליו דברו מה שדברו‬
+‫כל הנביאים (לוקס ב' ל"ח י' כ"ד) וחכמינו השונים בזמניהם אין שום‬
+‫צורך לקבל עלינו כל הפרטים והדקדוקים שתקנו הכנסיות המשיחיות‬
+‫בזמניהם לבני דורם שדבר המשיח בכלל היה להם דבר חדש שלא שמעו‬
+‫ולא האזינו עוד מעולם כי מה היה להם טרם בוא בשורת המשיח בפי‬
+‫המבשרים עם אבותינו אברהם יצחק ויעקב עם דוד מלכנו וביתו וכסאו?‬
+‫בקיצור להם התורה והנביאים רק כתעודה על הברית החדשה ולנו‬
+‫הברית החדשה היא אך ההתמלאות מההבטחה הנתנה לנו ‪ :‬לכן כאשר‬
+‫אנחנו פונים את עיננו אל ספרי ברית החדשה לראות מה דרשו תלמידי‬
+‫ישוע משיחנו אל היהודים בדבר אמונת המשיח אנו רואים כי פולוס‬
+‫הנשיא והפועל הגדול שבהמבשרים טרם שפנה א"ע אל הגוים כאשר‬
+‫בקשו ממנו ראשי בית הכנסת שבאנטיוכיא אחר קריאת התורה ביום‬
+‫השבת שיאמר דבר מוסר לעם קם והניף את ידו ויאמר ‪ :‬אנשי ישראל‬
+‫זה ( דוד) הוא אשר מזרעו הקים אלהים כפי ההבטחה גואל לישראל‬
+‫את ישוע אליכם שלוח דבר הישועה הזאת ראשיכם מלאו במשפטם‬
+‫את דברי הנביאים והאלהים הקימו מן המתים ואנחנו מבשרים‬
+ ‫אתכם את בשורת ההבטחה אשר היתה לאבותינו כי אותה מלא אלהים‬
+‫לבניהם בהקימו את ישוע ככתוב כי עי"ז הגיד לכם סליחת החטאים כל‪.‬‬
+ ‫המאמין יצדק על ידו (פה"ש י"ג) מזה אנו רואים כי דורש הוא מן‬
+ ‫היהודים רק את זאת שיאמינו כי ישוע הוא זה מזרע דוד שהקים ה'‬
+‫כפי ההבטחה לגואל לישראל וכי הוא קם מהמתים והמאמין בו יושע‬
+ ‫ויסלחו חטאיו ‪ :‬וכל זה אמר הוא במכתבו אל הרומים (י' ט') כי אם‬
+‫תודה בפיך אשר ישוע הוא המשיח ותאמין בלבבך אשר אלהים העירו‬
+‫מן המתים תושע כי בלבבו יאמין האדם והיתה לו לצדקה ובפיו יודה‬
+‫והיתה לו לישועה ותו לא מידי ‪ :‬יש לדעת ולהבין כי ישוע המשיח בא‬
+‫בדין בראשונה להשמיע את ישראל את דבר האלהים ומה הוא הדבר‬
+‫אשר היה נחוץ להשמיע לבני ישראל אחיו הוא רק זאת אשר אמר‬
+‫ישוע המשיח בעצמו בנצרת כי הפסוק משח אותי וגו' נתמלא באזניהם‬
+‫ודרש בכל ימי היותו על הארץ בין אחיו אך האמונה כי הוא בן של‬
+ ‫אביהם של ישראל רצוני לומר הוא הוא הבן של האב הידוע מראש‬
+ ‫ומקדם לישראל ע"י אותותיו ומופתיו עם אבותם מאברהם עד יוחנן ואך‬
+                               ‫‪XI‬‬
+
+
+
+‫ומופתים כאשר הגיד לנו ע"י נביאיו וישוע מצר זעמו לעור עינינו הרואות‬
+‫ולהחליא את בשרנו ונפשנו עד כי בעת הזאת כתומאס שלא האמין‬
+‫אנחנו ממששים בידינו ושולחים את אצבעותינו בעומקי חללי גופו‬
+‫הנכאב ומביטים אנחנו אל אשר דקרו אבותינו ואך כעת נוכחנו לדעת‬
+‫כי אבל אשמים אנחנו על אחינו ישוע המשיח אשר ראינו צרת נפשו‬
+‫בהתחננו אלינו לשוב ולבוא על ידו לאבינו שבשמים ולקבל ממנו הברכות‬
+‫שהבטיח לנו ע"י נביאיו ולא שמענו בקולו על כן באה אלינו הצרה הזאת‬
+‫וממנה נושע כנאמר עת צרה היא ליעקב וממנה יושע ויחד עם איוב‬
+                                       ‫נאמר ומבשרינו נחזה אלוה‪:‬‬
+
+
+                         ‫בדבר האמונה‬
+
+
+‫כאשר אנחנו היהודים זרע אברהם ובני התורה אשר כבר זכינו‬
+‫להגיע לעת הזאת שכמעט נתכנס מלוא הגוים והאלהים בחסדו החל‬
+‫להסיר מעלינו רוח התרדמה שהפיל עלינו למען קנאות את הגוים‬
+‫לאמונת אחינו ישוע המשיח ומקבלים עלינו את חסד הברית החדשה‬
+‫ככל בני אברהם אחר הרוח ומקדישים את כל ספרי ברית החדשה‬
+‫כשאר ספרי הת"נך שנשארו לנו לפלטה עלינו מוטל החוב הקדוש להעריך‬
+‫ולסדר את סדר אמונתנו במשיח ישוע וסדר עבודתנו ותפלתנו רק כפי‬
+‫שיורה לנו רוח הקודש היוצא מבין שורות ברית החדשה בלי שים לב‬
+‫להתקנות שעשו הנוצרים הראשונים יוצאי ירך עובדי אליל בקהלותיהם‬
+‫השונות אשר הוכרחו להתקדש ולהיות כתובה על כל הבאים אחריהם‬
+‫מאינם יהודים יען כי רוב סגנון וטופס העקרים של הנוצרים מבני העכו"ם‬
+‫נקבע ונתיסד רק בעבור שבראשית הופעות אור המשיח היהודי לא יכלו‬
+‫עוד להביט אל אורו הרב ועי"ז לרוב נפלו בטעיות ושבושים רבים‬
+‫אודות עצמות האלהות ואחדותו אודות לידת בן דוד זמן חייו ואופן‬
+‫קימתו לתחיה ונפלגו למפלגות שונות ונתרבו המחלקות והקטטות והמריבות‬
+‫בין כל קהלה וקהלה מקהלותיהם ולמען אחדות הקהלות ומניעת‬
+‫המריבות נתאספו פעם בפעם וקבעו מטבע אחת לאמונת המשיח למען‬
+‫לעשות שלום בין האחים ולהרחיק לימים הבאים שנוי הדעות והמנהגים‬
+‫בעבודת ואמונת המשיח ‪ :‬אולם לנו היהודים המאמינים בני מאמינים‬
+‫בתורת משה והנביאים אשר אופן ואיכות אחדות האלהות כבר מפורשים‬
+‫וידועים לנו מהתורה והנביאים וכמו כן ידועים לנו אופני צמיחת ולידת‬
+                                ‫‪III .‬‬
+
+
+           ‫דברים קצרים בענין האמונה במשיח‬
+                          ‫ישוע הנוצרי‬
+     ‫מהיהודים החפצים לבא בבריתו ולחסות תחת‬
+                      ‫כנפי תורתו וחסדו ‪.‬‬
+
+
+                           ‫ראשית דבר‬
+
+‫אנחנו היהודים אשר באנו כעת אל חוף אמונת ישוע הנוצרי והחלנו‬
+‫לרגוש את רוחו המפעם בנו לרגעים הוא לא מצד כי בני אמונת‬
+ ‫הנוצרים אשר אנחנו יושבים בקרבם מפתים אותנו למען לזכות את עצמם‬
+ ‫על ידנו לעולם הבא כי הכניסו תחת כנפי השכינה את בני היהודים‬
+‫הארורים וגם לא מקנאתנו לעשרם וכבודם הרב שזכתה להם הברית‬
+‫חדשה בשמאלה ‪ :‬אנחנו בני היהודים עם קשה עורף מעולם ומזרעם‬
+‫אנחנו ואין מהנקל לנו להטות אוזן לאומר ודברים שנאמרים נגד דעתנו‬
+‫וכאבותינו גם אנחנו יכולים לסבול עוני ובוז עבור קשינו ומרינו החזקים ‪:‬‬
+‫רק כל זאת הוא מצד כי אנחנו רואים באספקלריא המאירה בברית‬
+‫הישנה ובברית החדשה איך האלהים החפץ בחיי החוטא בשובו מדרכו‬
+‫הרע והאוהב את עמו ישראל הוא למען הראות לנו את רב טובו חסדו‬
+‫ואמתו וכי תבל ומלואה לו היא ואין עוד מלבדו פעם בפעם עושה‬
+‫נפלאות גדולות עד אין חקר משנה ומהפך סדרי בראשית ואחר כל‬
+‫המופתים שעשה ישוע המשיח לעיני ישראל בשם יהוה לבדו מצד חסדו‬
+‫בפקחו עיני עורים וברפאו חולים ומדוים ואחרי באו למות כשה לטבח‬
+‫יובל למעננו ולמען ישועתנו ואחרי קומו מהמתים והגלותו במכאובי ידיו‬
+‫ורגליו לעיני תלמידיו האמיתים אבותינו לא רצו לדעת את פעליו ולהודות‬
+‫כי דברי יהוה ע"י נביאיו נתמלאו בישוע אז החל ה' לעשות בנו אותות‬
+                            ‫‪IX‬‬   ‫‪-‬‬
+
+
+
+
+‫כבר נתעשר העולם באמונת המשיח ומחסרון אמונתנו נתמלאו‬
+‫עתות הגוים וכבר בא מלואם וקיימים המה באמונתם בא גם‬
+‫מלואנו להיות גם אנחנו צאצאי אברהם מבורכים ע"י אמונתנו‬
+‫באחינו ישוע המשיח ואלהי אבותינו אברהם יצחק ויעקב ישוב‬
+‫לרחמנו ולנטוע את הענפים הנשברים בתוך שרש הקדוש שלנו‬
+‫ישוע ובכן כל ישראל יושע תשועת עולמים וירושלים עיר קדשנו‬
+                    ‫תבנה וכסא דוד יכון לעד ולנצח נצחים אמן ‪.‬‬
+                             ‫‪VIII‬‬
+
+
+
+‫כל הגוים אל הר בית ה' כי מציון תצא תורה ודבר ה' מירושלים ‪.‬‬
+‫‪ 3‬כי האדון מלאך הברית בן דוד הזה אחרי שיפנו דרך לפניו יבוא‬
+‫פתאום אל היכל ה' ויהיה כאש מצרף לכלא פשע ולהביא צדק‬
+‫עולמים יען כי אותו משח ה' לבשר ענוים לפקוח עינים עורות ולהוציא‬
+‫ממסגר אסיר‪ .‬ג כי על ידו יודע בגוים ובתוך העמים זרע יעקב‬
+‫וצאצאיו כל רואיהם יכירום כי הם זרע ברוכי ה' וקראו להם עם‬
+‫הקדש גאולי ה' ומהם ישלחו פליטים אל הגוים להאיים הרחוקים‬
+‫לקרוא ולהגיד את כבוד ה' בגוים חדשה תהיה בארץ ולא תזכרנה‬
+‫הראשונות ולא תעלינה על לב‪ .‬ד כי כל עוזבי ה' אשר לא יענו על‬
+‫הקריאה ולא ישמעו אשר ידברו ירעבו ויצמאו יבושו ויצעקו מכאב‬
+‫לב ויניחו שמם לשבועה לבחירי ה' ‪ .‬ס המשיח בן דוד הזה יעלה‬
+‫כשרש מארץ ציה ולא יאומן כי זרוע ה' נגלתה עליו יהיה מחולל‬
+‫מפשעינו ומדוכא בעונותינו וענה ולא יפתח פה ויגזר מארץ החיים‬
+‫ובהערותו למות נפשו הוא חטא רבים ישא ולפושעים יפגיע‬
+‫וכאשר ישים אשם נפשו יראה זרע יאריך ימים וחפץ ה' בידו יצלח ‪.‬‬
+‫ט דבר ה ' לאברהם אבינו למשה נביאנו לדוד מלכנו ולעבדיו‬
+‫הנביאים הנאמנים נמלא ונשלם כשבעים שנה טרם שנחרב בית‬
+‫מקדשנו האחרון כי פקד ה' את עמו וירם קרן ישועתנו בבית דוד‬
+‫עבדו ויצמח לנו צמח צדיק הוא האדון ישוע המשיח אשר יצא לנו‬
+‫מבית לחם עיר דוד להיות מושל בישראל רם ונשא ובן עליון וה'‬
+‫נתן לו את כסא דוד אביו והוא המולך על בית יעקב לעולם ולמלכותו‬
+‫אין קץ נענה נצלב ונקבר למען ישועתנו קם מן המתים ויחי והנה‬
+                                    ‫הוא יושב לימין אבינו שבשמים‪.‬‬
+‫בעצת אלהים ובחכמתו העמוקה הוכו אבותינו בקשי הלב‬            ‫‪,‬‬
+
+
+
+‫וניתן להם מאת ה' רוח תרדמה למרות ולפשוע נגד ישוע המשיח‬
+‫עד היום הזה למען הקניא את שאר גויי תבל ולרצות את‬
+‫העולם כלו על ידי אמונתם בישוע המשיח בן דוד מלכנו אשר‬
+‫שמעו בשורתו על ידי המבשרי שלום שלו שנגרשו בחרפה מקרב‬
+‫עדת ישראל אבל לעת הזאת כאשר מפשעינו נגד משיח ה'‬
+                                  ‫‪-‬‬
+
+
+                            ‫‪VII‬‬
+
+
+
+‫בידנו היום ואז בחורב ביום הקהל אמר ה' למשה כי נביא יקים‬
+‫לישראל מקרבם מאחיהם כמשה ויתן דבריו בפיו וידבר אליהם את‬
+‫כל אשר יצוונו והאיש אשר לא ישמע אל דברו אשר ידבר הנביא‬
+                                   ‫הוה בשמו הוא ידרש ממנו ‪.‬‬
+
+‫ס ה' אלהינו הקים את דברו ויבא את ישראל אל הארץ אשר‬
+‫נשבע לתת להם ויקם להם חוזים ונביאים נאמנים אשר דברו בשמו‬
+‫ככל אשר צוום והדברים ההם כתובים בספרי הנביאים הנמצאים‬
+               ‫בידנו היום ודבר אחד מהם לא ישוב אחור ריקם‪.‬‬
+‫ו אחרי מאוס המלך הראשון לישראל שאול את דבר ה'‬
+‫וימאסהו ה' גם הוא מהיות מלך על ישראל ויקרע מעליו את ממלכת‬
+‫ישראל ויתנה לרעו הטוב ממנו הוא דוד בן ישי מבית לחם יהודה‬
+‫ויהי דבר ה' אל נתן הנביא לאמור אל דוד כי יעשה לו שם גדול‬
+‫כשם הגדולים אשר בארץ ולא יסור חסדו ממנו וביתו וממלכתו‬
+‫וכסאו יהיו נכונים ונאמנים עד עולם והמלך דוד בשבתו לפני ה' אמר‬
+                                         ‫כי זאת תורת האדם ‪.‬‬
+
+‫ז כאשר הסיר ה' אלהינו את ישראל מעל פניו ויגל אותו מעל‬
+‫אדמתו על כי הרבה לחטוא ולהכעיסו גם יהודה לא שמר את מצוות‬
+‫ה' וילכו בחקות ישראל אחיהם וידבר ה' ביד עבדיו הנביאים כי‬
+‫ינטוש גם את שארית נחלתו זאת ויתנם ביד אויביהם לבז ולמשיסה‬
+‫ויהיו מלעיבים במלאכי האלהים האלה עד עלות חמת ה' בעמו עד‬
+         ‫לאין מרפא ויגלם גם אותם מעל אדמתם בכלה לעבדים‪.‬‬
+‫ק עוד טרם גלות יהודה בבלה ואחרי כן בשובו לארצו אחרי‬
+‫מלאות שבעים שנים כל נביאי האמת נבאו בפה אחד ח כי ה' חפץ‬
+‫חסד ועובר על פשע לשארית נחלתו ובריתו את דוד עבדו לא תופר‬
+‫לעולם מהיות לו בן מלך על כסאו אשר תניח עליו רוח ה' רוח דעת‬
+‫ויראת ה' להכות ארץ בשבט פיו האמונה תהיה אזור חלציו ושמו‬
+‫יקרא ה' צדקנו ואלהי כל הארץ הוא יהיה לברית עם ולאור גוים‬
+‫ישים בארץ משפט ולתורתו איים ייחלו עד כי באחרית הימים ינהרו‬
+                             ‫‪II.‬‬
+
+
+     ‫שרשי אמונת עם ישראל בני ברית חדשה‬
+
+‫ח יש אך אל אחד חי ואמת נצחי בלי גוף בלי חלקים ובלי‬
+‫התפעלות רב טוב כח וחכמה מאין חקר בורא יוצר ועושה ומקיים‬
+           ‫כל בדברו וברוח קדשו הכל ממנו הכל בו והכל אליו ‪.‬‬
+‫‪ 3‬האל אמת דבר לאברהם אבינו התהלך לפני והיה תמים‬
+‫והיית לאב המון גוים ומלכים ממך יצאו וכרת עמו ברית עולם‬
+‫להיות לו ולזרעו אחריו לאלהים ולתת לו את כל ארץ כנען לאחוזת‬
+‫עולם ואות הברית עולם הוא להמול כל זכר בן שמונת ימים מיוצאי‬
+‫חלצי אברהם וכאשר לא חשך את בנו יחידו יצחק ממנו להעלותו‬
+                ‫לו לעלה נשבע לו כי יתברכו בזרעו כל גויי הארץ‪.‬‬
+‫ג על פי דבר ה' ירד יעקב אבינו ובניו מצרימה ויפרו ויעצמו‬
+‫שמה מאד ויתנכלו המצריים להרע להם ויעבידום ויענו אותם מאד‬
+‫וישלח להם ה' את בחירו את משה וישם אותות ומופתים במצרים‬
+‫ויוציאם משם ביד חזקה על כן צונו לשמור ולעשות את יום השבת‬
+                        ‫לדורת לברית עולם ולחוג את חג הפסח ‪.‬‬
+‫ד ה' אלהינו כרת את עם ישראל ברית בחורב ומשה עמד בינו‬
+‫ובין ישראל להגיד להם את דבר ה' וישמיעם עשרת דברים אשר‬
+‫נכתבו באצבע אלהים על שני לוחות אבן לעשות וידבר אל ישראל‬
+‫את כל המצוה החקים והמשפטים אשר יעשו בארץ אשר נשבע ה'‬
+‫לאברהם לתת להם לרשתה הכתובים בחמשה ספרי תורה הנמצאים‬
+                           ‫‪V‬‬   ‫‪-‬‬
+
+
+
+
+‫יג בטוחים אנחנו מאוד כי דברי אחינו ישוע הנאמרים בצדק‬
+‫באהבה וחמלה מאז לאח"בי יעשו שרש בלבבנו וישאו לנו פרי‬
+‫צדקה וישע יהפכו לבבנו לאהוב את האמת והטוב ואז יהפך גם‬
+‫לב העמים ולב המלכות לטוב לנו לתת לנו מחיה ושארית בין כל‬
+‫שאר העמים החיים וחוסים תחת צל חוקים אורפים שנחקקו מטעם‬
+‫אחינו הזה שמסר נפשו למען הצלחת העולם ועל בעור הרע מקרב‬
+                                              ‫הארץ אמן‪.‬‬
+                           ‫‪IV‬‬
+
+
+
+‫ט האיש המנהיל כזה עלינו לבקש בין זרע יעקב ולבחור באיש‬
+‫אוהב ישראל שמסר את נפשו על קדושת השם ועל קדושת התורה‬
+‫והנביאים באיש הנודע לכל יושבי תבל בתמימת נפשו הישרה‬
+‫ואהבתו העזה לעמו בני ישראל באיש אשר חי בזמן אשר ישראל‬
+‫כבר קבל עליו התורה שבעל פה וכבר בא בין עמים שונים בתבל‬
+‫ונתישב על אדמתם לחיות ולראות זרע ביניהם באיש אשר ידע מצד‬
+‫אחד את רום לבב אחיו היהודים המתהללים ביחוסם באבותם‬
+‫אברהם יצחק ויעקב אשר נתברכו מאל עולם והמתפארים בחכמתם‬
+‫שנתנה למו תורתם שקבלו מסיני ומצד השני את גדל קשית ערפם‬
+‫ונטית נפשם בעת טובה ומצלחת לעזוב את אלהים חיים אביהם‬
+‫שבשמים ולבחור באלהים חדשים אהבת הכסף והשררה על אחיהם‬
+                                      ‫העניים בדעת ובממון‪.‬‬
+‫י האיש אשר כל אלה לו אחרי החפוש והדרישה בכל ספרי‬
+‫דברי הימים לעמנו בני ישראל מצאנו אך את איש ישוע הנוצרי‬
+              ‫הנהרג בירושלם לפני חורבן בית מקדשנו האחרון ‪.‬‬
+‫יה חכמי ישראל שבדורו לא יכלו עוד להבין ולשים לב ללקחו‬
+‫ולעצתו הטובה שיעץ לאחיו היהודים להרבות בשמירת דרכי‬
+‫התורה הנוגעים למוח וללב ובל לדקדק בפעולות ובמעשים חיצונים‬
+‫העלולים להשתנות מצד המקום הזמן ומעמד המדיני של היהודים‬
+‫אנחנו היהודים החיים בזמן ההוה התרמד אך אנחנו יכולים‬
+‫להחליט כי הוא ישוע אך הוא היה הדורש טוב האמתי לאחיו‬
+                                 ‫והדובר שלום לכל זרעם ‪.‬‬
+‫ין על כן אהבתנו העצומה לאח"בי מחייבת אותנו להקדיש‬
+‫ולהעריץ את שם האיש ישוע אחינו הזה ללמוד בשים לב את כל‬
+‫דבריו הקדושים הנאמרים באמת ובאהבה הכתובים והמפורשים‬
+‫בספרי האבנגולים לשננם לבנינו בבתי ספריהם לדבר בם בלכתנו‬
+‫בין אנשים עלי תבל לאסוף את ספרי האבנגולים כברכה אל בתינו‬
+‫לאחד אותם עם כל ספרי הקדש שנשארו לנו לברכה מידי חכמינו‬
+                                     ‫האמתים בכל דור ודור‪.‬‬
+         ‫‪CO‬‬
+           ‫‪LE‬‬
+               ‫‪T‬‬
+
+
+
+                    ‫‪J‬‬
+                ‫‪A‬‬
+                              ‫‪I.‬‬
+
+
+                        ‫שלוש עשרה הנחות‬
+
+‫ח המעמד המוסרי והחומרי הנוכחי של אח"בי ברוסיא נשחת‬
+                                   ‫ונתקלקל ונמצא ברע מאוד‪.‬‬
+‫‪ 3‬לישב בעצלתים בשב ואל תעשה בעת הזאת הוא כמו להסכים‬
+‫בהסכמה שלימה על כליון ואבדון של אח"בי ברוסיא לנצח נצחים ‪.‬‬
+‫ג על הטבת המעמד אין לקוות שום ישועה ועזר לא מן עשירינו‬
+‫בכספם לא מן רבנינו בתורתם ולא מסופרינו בהשכלתם כי כולם‬
+‫אך אל הבצע עיניהם וטובת ישראל אין מזימותם המה עוזרים עוד‬
+                                                    ‫לרעתו ‪.‬‬
+‫ד גם אין לבקש מנוס בעזיבת ארץ מולדתנו רוסיא בישוב ארץ‬
+ ‫ישראל וכן בהתבוללות בין שאר הגוים האזרחים של ארץ רוסיא‪.‬‬
+‫ס הישועה והעזר עלינו לבקש פה ברוסיא בכח עצמנו בלבבנו‬
+                                       ‫בעזר ה ' הרב להושיע‪.‬‬
+‫ו מעמד החומרי של היהודים אין מהיכולת בשום אופן להטיבו‬
+      ‫אם לא יתרפא מקודם קילקול ורוע מעמדם המוסרי והרוחני ‪.‬‬
+‫ז לתקן המעמד המוסרי נחוץ לחדש כליותנו להחיות את רוחנו‬
+‫להשליך את אלילנו אהבת הכסף מפני שהוא כסף ולהביא במקומו‬
+‫לתוך לבנו אהבה אל האמת מפני שהוא האמת ויראה מפני הרע‬
+                                           ‫מחמת שהוא רע‪.‬‬
+
+‫ס לחדש כליותנו ולהנחיל לנו אהבת האמת ושנאת הרע נחוץ‬
+   ‫לנו איש מנהיל בר סמכא ומומחה שנתמחי גברא ונתמחי קמיע‪.‬‬
+          ‫*‪A‬‬
+           ‫מי ומ"י *‬
+
+
+    ‫ירמיהו בוכה תמרורים על עמו‬
+      ‫גדול כים שברך מי ירפא לך‬
+             ‫הד קול אלהים עונה‬
+                  ‫מ"י ירפא לך ‪:‬‬
+
+       ‫ואומרים‬   ‫היהודים מתמיהים‬
+
+           ‫זרוע ה' על מי נגלתה‬
+             ‫הד קול אלהים עונה‬
+                 ‫על מ"י נגלתה ‪:‬‬
+
+  ‫היהודים אינם מאמינים ואומרים‬
+
+                    ‫מי כה' אלהינו‬
+            ‫הד קול אלהים אומר‬
+             ‫מ"י כה ' אלהינו ‪:‬‬
+
+
+
+                                  ‫* ר"ת ‪ :‬משיח ישוע‪.‬‬
+
+
+
+
+‫‪Druck von W. Drugulin in Leipzig.‬‬
+‫בכורי תאנה‬
+
+        ‫קונטרס‬
+  ‫כולל אספת מכתבים‬
+‫על דברי עדת בני ישראל‬
+ ‫המאמינים בישוע המשיח‬
+   ‫ברוסיא הדרומית‪.‬‬
+        e. 38
+950 .
+

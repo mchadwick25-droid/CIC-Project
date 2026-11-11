@@ -1,0 +1,11 @@
+source_file: arkhiv-iugo-zapadnoi-rossii_ch1-t2-pravoslavie-v-zapadnoi-ukraine-xviii-rus_1864.txt
+assignments:
+- row_id: arkhiv-iugo-zapadnoi-rossii_ch1-t2-pravoslavie-v-zapadnoi-ukraine-xviii-rus_1864--arkhiv-iugo-zapadnoi-rossii-i-2-orthodoxy-in-western-ukraine-1759-1771
+  work: "Arkhiv Iugo-Zapadnoi Rossii I.2: Orthodoxy in Western Ukraine, 1759-1771"
+  author: arkhiv-iugo-zapadnoi-rossii
+  locus: "the whole volume; add 12 to OCR line numbers for this file's own"
+  atlas_ids:
+  - russian-church-nikon-to-holy-synod
+  role: tradition
+  confidence: needs-ruling
+  note: "The Ukrainian Orthodox clergy's own letters and reports of the 1760s, when the Kyiv metropolis lay inside the Russian Synodal church. Within this entry's window (1652-1815); whether Ukrainian Orthodoxy belongs on this entry is for the tree to rule."

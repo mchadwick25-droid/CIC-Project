@@ -1,0 +1,11 @@
+source_file: cornelius_svenska-kyrkans-historia-efter-reformationen-swe_1886.txt
+assignments:
+- row_id: cornelius_svenska-kyrkans-historia-efter-reformationen-swe_1886--svenska-kyrkans-historia-cornelius-1886
+  work: 'C. A. Cornelius, Svenska kyrkans historia efter reformationen (Upsala, 1886-1887)'
+  author: cornelius
+  locus: 'the periods 1520-1593 and 1593-1693, from about OCR line 421; add 12 to OCR line numbers for this file''s own'
+  atlas_ids:
+  - scandinavian-reformation-kingdoms
+  role: context
+  confidence: provisional
+  note: 'A history of the Swedish church, written in the 1880s, after this entry''s window, about it. Its later periods (1693-1886) have no entry yet.'

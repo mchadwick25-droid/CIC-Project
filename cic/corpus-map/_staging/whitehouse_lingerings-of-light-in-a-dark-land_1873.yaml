@@ -103,3 +103,12 @@ assignments:
   role: context
   confidence: provisional
   note: An Anglican chaplain's account, a dozen years after the event, of the Chaldean bishop the Romo-Syrian party brought to Malabar in 1861. The view from outside; it predates the 1874 mission of Elias Mellus. The eras 8-9 sweep holds the Thrissur Chaldean body (AP7).
+- row_id: whitehouse_lingerings-of-light-in-a-dark-land_1873--st-thomas-christians-two-obediences-context
+  work: "Lingerings of Light in a Dark Land (1873), with its appendices"
+  author: whitehouse
+  locus: "whole book, and Appendices B, D and E"
+  atlas_ids:
+  - st-thomas-christians-two-obediences
+  role: context
+  confidence: provisional
+  note: "An English chaplain's history of the Syrian church, with documents in its appendices; the census entry's source. Written in 1873, after this entry's window."

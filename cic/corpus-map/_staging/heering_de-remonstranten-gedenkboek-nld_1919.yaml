@@ -1,0 +1,11 @@
+source_file: heering_de-remonstranten-gedenkboek-nld_1919.txt
+assignments:
+- row_id: heering_de-remonstranten-gedenkboek-nld_1919--de-remonstranten-gedenkboek-1919
+  work: 'De Remonstranten: gedenkboek, comp. G. J. Heering (Leiden, 1919)'
+  author: heering
+  locus: 'the whole volume; add 12 to OCR line numbers for this file''s own'
+  atlas_ids:
+  - the-remonstrants-and-dort
+  role: context
+  confidence: provisional
+  note: 'The Brotherhood''s own tercentenary essays, written in 1919, after this entry''s window, about its founding. A later self-account, not a document of the window.'

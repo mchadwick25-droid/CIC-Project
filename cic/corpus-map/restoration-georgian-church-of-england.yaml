@@ -133,6 +133,20 @@ works:
   note: High Church nonjuring devotion in its own voice; the church's inner seriousness against
     its reputation for comfort.
   source_file: law_serious-call-to-a-devout-and-holy-life_1729.txt
+- row_id: marsden_life-and-work-of-samuel-marsden_jb-marsden1913--marsden-s-letters-and-journals-before-1815
+  work: J. B. Marsden, Life and Work of Samuel Marsden (1913), with Marsden's letters
+  author: marsden
+  locus: Marsden's letters and journals dated before 1815, for example his letter from Parramatta
+    of 26 October 1810 at about OCR line 2564, his letter of 7 October 1814 at about 3434,
+    and his account of Christmas Day 1814 at about 3703; add 11 to OCR line numbers for this
+    file's own
+  role: tradition
+  confidence: provisional
+  note: Marsden's own letters and journals written before 1815, as chaplain of New South Wales
+    and on the first voyage of the New Zealand mission, inside a biography of 1913. They were
+    written inside this entry's window. Two of their dates (7 October and 25 December 1814)
+    are the biographer's.
+  source_file: marsden_life-and-work-of-samuel-marsden_jb-marsden1913.txt
 - row_id: moravian-church_acta-fratrum-unitatis-in-anglia_1749--acta-fratrum-unitatis-in-anglia-1749-3
   work: Acta Fratrum Unitatis in Anglia (1749)
   author: moravian-church

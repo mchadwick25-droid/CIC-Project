@@ -1903,7 +1903,43 @@ it, never by deleting it.
     charter 2026-10-17); major links would point to their event's story, the link note staying as
     evidence. Scheduled for the week after 2026-11-14. See also "Design idea: a brief that plays
     first, then an optional deeper story" (2026-11-10).
-198. **What the 2026-11-11 recording batch leaves for later (2026-11-11).** The batch recorded every
+198. **What the Library's fifth wants batch filled (2026-11-10).** For ME-21 and the early modern mission
+    and Eastern gaps in "Living traditions with no entry after a date" (2026-11-10). Full list:
+    `Build/Ministry/Features/Source-Library/CFT-Wants.md`, batch 5.
+    - ME-21 (Rabinowitz): the source the hold waits for is now held, opened raw. It includes the
+      Documente of 1884 with the Hebrew originals, the letters of 1884, and the autobiography and
+      sermons. The Hebrew letters are still wanted.
+    - Now shelved on the new eras 8-9 entries: the St Thomas Christians (Paulinus 1794, Buchanan 1811,
+      and held texts); Kongo after 1650 (Paiva Manso's documents after 1651, with the Count of Soyo's
+      letters; Bentley 1900; held Capuchin accounts); Japan's hidden Christians (Marnas 1897);
+      Chinese Catholics (Launay 1907, the Propaganda Collectanea).
+    - New France after 1650: the Quebec bishops' mandements from 1659 and Marie de l'Incarnation's
+      letters, on the ancien-regime church.
+    - Ukrainian Orthodoxy after 1700: documents of the 1720s-1770s, `needs-ruling` on the Russian
+      church's 1652-1815 entry.
+    - Not found: a Chinese Catholic's own text, a Puthenkoor text of its own, Kongolese texts other
+      than the Paiva Manso letters, hidden Christian prayers in print before 1931, and Ukrainian
+      church print from 1918 to 1930.
+    - Correction to "What the Library's fourth wants batch filled" (2026-11-10): al-Duwayhi was
+      already held. The batch 4 file is a second scan of the same edition.
+199. **What the Library's sixth wants batch filled (2026-11-11).** For the Europe 1650-1815 gaps in
+    "Living traditions with no entry after a date" (2026-11-10). Full list:
+    `Build/Ministry/Features/Source-Library/CFT-Wants.md`, batch 6.
+    - Own-voice texts now held: the Transylvanian Unitarians (Keresztény Magvető 1861, the 1889
+      marriage law, Főtanács minutes 1909-1913); the Waldensians (Arnaud's Glorieuse rentrée, French and
+      English); the Schwenkfelders (the 1879 register, Schultz's chronicle in Seipt); the Remonstrants
+      (Limborch, the Brotherhood's register and gedenkboek); the Church of Scotland (the Acts 1638-1842,
+      Wodrow III, Boston's memoir); English Catholics (Milner 1818); the French Reformed (the 1872 synod,
+      Vincent); the Delaware Swedes (Holy Trinity's records to 1810, Clay).
+    - Outsiders or histories only: the Hutterites after 1785 (Wolkan 1918); the Nordic state churches
+      (Cornelius, Helweg).
+    - Most of these have no entry after their first window, so the texts wait unshelved for one.
+    - Held for Mark: the Schwenkfelder sacrament rules (a licence on the upload).
+    - Not found: an insider Hutterite print before 1931; the 1762 Schwenkfelder hymnal; the Church Law
+      of 1686, Pontoppidan, Kingo, Brorson; Kirk's Biographies.
+    - Shelf ruling on Marsden (P2-G89c): see the Source-Library Decision-Log, 2026-11-11. The Victorian
+      Church of England entry quotes two letters of 1814, before its window; this is for the census owner.
+200. **What the 2026-11-11 recording batch leaves for later (2026-11-11).** The batch recorded every
     tradition brief and documented story whose text had changed or had no recording. That settles
     "176 story recordings wait for the ElevenLabs quota to reset" (2026-11-09). Still open:
     - **Person briefs.** All 39 are rewritten to the person-brief standard (Decision-Log,
