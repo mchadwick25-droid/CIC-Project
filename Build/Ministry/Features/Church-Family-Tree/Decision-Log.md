@@ -1450,6 +1450,23 @@ come from their own reports:
 
 The account read 1,835 used before the batch and 216,355 at the end of the stories.
 
+**ElevenLabs' own history** (`GET /v1/history`, from 23:00 UTC on 2026-11-10) agrees with the
+counter: 317 requests, 216,355 credits, all from these runs.
+
+| Voice | Requests | Credits | What |
+|---|---|---|---|
+| Daniel | 124 | 87,976 | 121 briefs, the Bogomils and Origen samples, the charged 503 failure |
+| Neo | 183 | 124,715 | 181 stories, the story sample, and one duplicate request |
+| David Baker | 4 | 2,395 | the coordinator's comparison (134) and the pilot (2,261) |
+| Six comparison voices | 6 | 1,269 | the people-voice comparisons |
+
+The duplicate is the story `the-missionary-movement-s-native-churches-seramp-0`. It was charged
+twice, 688 credits each, under two request ids 17 seconds apart (02:03:10 and 02:03:27 UTC). The
+run sent one request for it and logged one success. The second request most likely came from a
+retry in the network layer between this session and ElevenLabs. The 503 on the Anglican brief came
+from that same layer. The cause cannot be confirmed from here. Together the two cost 1,088 credits
+with no extra audio. A later paid run should compare the run log with this history afterward.
+
 **Checks.**
 - Every manifest entry records its voice, model, format and text fingerprint.
 - Brief sizes run 568-681 bytes per character and 11.7-14.1 characters per second. Story sizes run
