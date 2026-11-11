@@ -126,3 +126,6 @@ Card: Hexapla key_works line reworded so it continues the brief (Eusebius: copie
 Could not source: nothing missing.
 
 Score: origen.txt {'words': 374, 'secs_at_150wpm': 150, 'secs_at_david_pace': 152, 'fk': 8.6, 'fre': 62.3, 'fails': [], 'below': False}
+
+## Cap-ruling recheck fixes applied (reviews/R4_cap-ruling_recheck.md)
+The reviewer's exact replacement text was applied as given, with no other change. The sources are in the review.

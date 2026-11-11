@@ -104,3 +104,6 @@ COULD NOT SOURCE: "about three years at Cucusus". Palladius says one year at Cuc
 Card unchanged (no line repeats the restored items).
 
 Score: john-chrysostom.txt {'words': 348, 'secs_at_150wpm': 139, 'secs_at_david_pace': 142, 'fk': 8.8, 'fre': 60.0, 'fails': [], 'below': False}
+
+## Cap-ruling recheck fixes applied (reviews/R4_cap-ruling_recheck.md)
+The reviewer's exact replacement text was applied as given, with no other change. The sources are in the review.

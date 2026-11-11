@@ -85,3 +85,6 @@ Card unchanged.
 Could not source: nothing missing.
 
 Score: gregory-of-nyssa.txt {'words': 309, 'secs_at_150wpm': 124, 'secs_at_david_pace': 126, 'fk': 8.9, 'fre': 63.5, 'fails': [], 'below': False}
+
+## Cap-ruling recheck fixes applied (reviews/R4_cap-ruling_recheck.md)
+The reviewer's exact replacement text was applied as given, with no other change. The sources are in the review.
