@@ -19,7 +19,9 @@
  *
  * Output: cft-website/audio/tree/<id>.mp3, one per movement that has a
  * longDescription, and a line for each in cft-website/audio/tree/manifest.json.
- * Idempotent - a movement already in the manifest is skipped unless --force, so a partial run (rate limit, a crashed
+ * Idempotent - a movement whose manifest entry's text fingerprint matches the
+ * text it narrates now is skipped unless --force; one whose text has changed
+ * since its recording is stale and is re-voiced. A partial run (rate limit, a crashed
  * process, a paced multi-day batch) can always resume from where it left
  * off without re-spending on movements already narrated.
  *
@@ -170,6 +172,19 @@ export function narrationTextFor(movement, { dataDir = worldsDataDir, existsFn =
   return movement.longDescription;
 }
 
+/**
+ * True when a movement is a built world with its own compiled
+ * orientation.story. Its story is recorded in its Representative's voice
+ * (generate_world_narration.mjs) and its tree page shows no tree recording
+ * (generate_tree_pages.mjs, hasNarration), so the tree narration plans none.
+ */
+export function hasOwnWorldStory(movement, { dataDir = worldsDataDir, existsFn = fs.existsSync, readFn = fs.readFileSync } = {}) {
+  const dataPath = path.join(dataDir, `${movement.id}.json`);
+  if (!existsFn(dataPath)) return false;
+  const story = JSON.parse(readFn(dataPath, 'utf-8'))?.orientation?.story;
+  return Array.isArray(story) && story.length > 0;
+}
+
 /** sha256 (hex) of the exact narration text, as UTF-8 - the fingerprint a recording stores. */
 export function narrationFingerprint(text) {
   return crypto.createHash('sha256').update(text, 'utf8').digest('hex');
@@ -185,22 +200,34 @@ export function recordingMatchesText(entry, text) {
 }
 
 /**
+ * Person rows are left out: their briefs are being rewritten to the person-brief
+ * standard and will be recorded together in their own voice (CFT Decision-Log,
+ * 2026-11-11, "Person briefs: 60 to 120 seconds, personal and theological").
+ *
  * Movements that need a narration clip generated this run, in stable
  * (declared) order - never a claim about which ones already have one,
  * only which ones this run should act on given the options passed.
  */
-export function planNarration(movements, { only, force, limit, charBudget = null, manifest = {}, textForFn = narrationTextFor }) {
-  let candidates = movements.filter((m) => m.longDescription && m.longDescription.trim());
-  const skippedNoText = movements.length - candidates.length;
+export function planNarration(movements, { only, force, limit, charBudget = null, manifest = {}, textForFn = narrationTextFor, ownWorldStoryFn = hasOwnWorldStory }) {
+  const withText = movements.filter((m) => m.longDescription && m.longDescription.trim());
+  const skippedNoText = movements.length - withText.length;
+  const skippedBuiltWorld = withText.filter((m) => ownWorldStoryFn(m)).map((m) => m.id);
+  const skippedPerson = withText.filter((m) => m.kind === 'person' && !skippedBuiltWorld.includes(m.id)).map((m) => m.id);
+  let candidates = withText.filter((m) => !skippedBuiltWorld.includes(m.id) && !skippedPerson.includes(m.id));
 
   if (only) {
     candidates = candidates.filter((m) => m.id === only);
   }
 
   const alreadyNarrated = [];
+  const stale = [];
   let toGenerate = candidates.filter((m) => {
-    const has = Boolean(manifest[m.id]);
-    if (has && !force) {
+    if (!manifest[m.id]) return true;
+    if (!recordingMatchesText(manifest[m.id], textForFn(m))) {
+      stale.push(m.id);
+      return true;
+    }
+    if (!force) {
       alreadyNarrated.push(m.id);
       return false;
     }
@@ -223,7 +250,7 @@ export function planNarration(movements, { only, force, limit, charBudget = null
     toGenerate = withinBudget;
   }
 
-  return { toGenerate, alreadyNarrated, skippedNoText, skippedBudget };
+  return { toGenerate, alreadyNarrated, stale, skippedNoText, skippedBuiltWorld, skippedPerson, skippedBudget };
 }
 
 /**
@@ -278,13 +305,16 @@ async function run() {
   const opts = parseArgs(process.argv.slice(2));
   const census = JSON.parse(fs.readFileSync(censusPath, 'utf-8'));
   const manifest = readManifest();
-  const { toGenerate, alreadyNarrated, skippedNoText, skippedBudget } = planNarration(census.movements, { ...opts, manifest });
+  const { toGenerate, alreadyNarrated, stale, skippedNoText, skippedBuiltWorld, skippedPerson, skippedBudget } = planNarration(census.movements, { ...opts, manifest });
   const totalChars = toGenerate.reduce((sum, m) => sum + narrationTextFor(m).length, 0);
 
   console.log(`=== Tree narration ${opts.dryRun ? '(dry run)' : ''} ===`);
   console.log(`${census.movements.length} movements total`);
   console.log(`${skippedNoText} skipped - no longDescription to narrate`);
-  console.log(`${alreadyNarrated.length} already narrated (use --force to regenerate)`);
+  console.log(`${skippedBuiltWorld.length} skipped - built world with its own orientation.story, recorded in its Representative's voice`);
+  console.log(`${skippedPerson.length} skipped - person, held for the person-brief standard and its own voice`);
+  console.log(`${alreadyNarrated.length} already narrated and current (use --force to regenerate)`);
+  console.log(`${stale.length} stale - recorded from text that has since changed, re-voiced this run`);
   console.log(`${toGenerate.length} to generate this run${opts.limit !== null ? ` (--limit ${opts.limit})` : ''}, ${totalChars} characters total`);
   if (opts.charBudget !== null) {
     console.log(`${skippedBudget} left for a later run - would exceed the ${opts.charBudget}-character budget`);
@@ -307,7 +337,8 @@ async function run() {
       const distinct = voiceId !== defaultVoiceId ? ' [distinct voice]' : '';
       const text = narrationTextFor(m);
       const source = text === m.longDescription ? '' : ' [orientation.story]';
-      console.log(`  would generate: ${m.id} (${text.length} chars)${distinct}${source}`);
+      const why = stale.includes(m.id) ? ' [stale]' : manifest[m.id] ? ' [forced]' : ' [new]';
+      console.log(`  would generate: ${m.id} (${text.length} chars)${why}${distinct}${source}`);
     });
     return;
   }

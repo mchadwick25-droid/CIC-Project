@@ -1301,3 +1301,188 @@ change order (G89-6 a). Each item was tested against its vendored source first. 
 
 **For Mark, through the coordinator:** two Section A questions, the Tolstoyans and the Dukhobors
 (Open-Gaps, "Two Section A questions for Mark", 2026-11-10).
+
+## 2026-11-11 — Person briefs: 60 to 120 seconds, personal and theological (Mark, 2026-11-11)
+
+**Decided (Mark, relayed by the coordinator).** Mark first chose "go with option 1, flexible 60–90
+seconds". The same day he revised it: "i want the brief to be both perosonal (their story) and
+theological (major stanses, "they fought for, they developed, they defended ....)it ok if they run
+long, we can also redo them if they don't meet the standard. lets say 60 - 120 minutes depending
+on their size of scope and influence". He meant seconds.
+
+The standard is:
+- A brief runs 60 to 120 seconds when read aloud, about 150 to 300 words. The person's scope and
+  influence set the length.
+- Every brief is both personal (their story) and theological (what they fought for, developed
+  and defended).
+- An existing brief that misses the standard is rewritten.
+
+Options shown before the revision: (1) a flexible 60–90 seconds, 150–220 words, set by what the
+sources carry, never padded (chosen, then revised as above); (2) a fixed one minute; (3) 90 seconds
+to 2 minutes for every person.
+
+**The brief's shape.**
+1. Who they were, in one line, with time and place.
+2. Their story, and what they did or wrote that mattered.
+3. The positions they fought for, developed or defended, and why these mattered to their own
+   tradition and to its opponents.
+4. One line in their own words, where the Library holds them.
+
+Facts the person's card already shows (dates, place, role, works) are not repeated.
+
+**How it reads aloud (Mark, after the 2026-11-11 recording sample).** Mark's words: "so these
+are a little flat and ai ish, i want it a little more story telling, not fact giving. the years
+read as natural not just reading numbers, the sentences flowing together not all short simple
+sentances for an elementary student". He placed the flatness in one brief: "the flatness was in
+the origin, person". He found that "the bogomils listens better". These notes are part of the
+standard for the person rewrites:
+- A brief tells a story. It does not list facts.
+- Years are written to be spoken naturally, not read out as bare numbers.
+- Sentences flow and connect. They are not all short and simple. Grade 8 is a floor for the
+  reading level, not a target.
+- A brief names its real witnesses. Mark's words: "we need to not say his editor, it should be
+  accounts tell of 5 times he...", and then: "i like eusebius says thats great it was the abstract
+  reference to "his editor" that didn". So a brief names the person behind an account ("Eusebius
+  says…", "Palladius tells…", "his own letters say…"). It never refers to whoever produced the text
+  by role alone: "his editor", "the editor", "the translator", "a modern scholar", "the compiler".
+  If the source matters to the story, the brief names the person. If it does not, the brief tells
+  the event with "accounts tell…".
+- The exception keeps the brief true to its sources. When the only account is partisan or hostile,
+  or the accounts disagree, the brief says so plainly in story terms ("his enemies claimed…", "one
+  account says…, another…"). A contested claim is never told as settled.
+
+**Where it applies.** All 39 existing person briefs and next week's briefs for the 340 named
+people. The 39 person briefs in the census on 2026-11-11 run 58 to 246 words (median 178). None
+is over 300 words. 10 are under 150:
+- Ephrem the Syrian 58, Origen 99, Hugo Grotius 104, Athanasius of Alexandria 107, John Chrysostom
+  112, Bede of Jarrow 114, Gregory of Nyssa 117, Gregory of Nazianzus 121, Constantine the Great
+  123, Methodius of Olympus 141.
+
+All 39 are checked against the whole standard, not only its length, and rewritten where they fall
+short.
+
+**Recording.** No person brief is recorded in the 2026-11-11 batch (the coordinator's decision).
+The 39 are recorded together in the chosen people voice once they meet the standard. The tree
+narration planner leaves out every person row until then. Mark is choosing that voice from three
+candidates (George, Bill, Brian), each heard reading the Athanasius brief.
+
+## 2026-11-11 — Tradition briefs and documented stories recorded (data release 34)
+
+**Done (Mark: "yes, record the sample and leave the built worlds out"; then "do the stories that
+need updating or are done, then hold for the councils and new stories"; caps chosen on a question
+card, "Caps as suggested").** Every tradition brief and every documented story whose text had
+changed or had no recording is recorded, from `main` at f80e551c.
+
+**Order of work (Mark, 2026-11-11).** Mark's words: "order of work, finish tradition briefs,
+finish stories including counsels and new stores, then the who briefs, then the rivers and
+connections that we will work on next week and maybe next month".
+1. Tradition briefs (this batch).
+2. The stories that are ready (this batch). Stories still being written, the councils and the
+   like are held until their text exists, then get their own run.
+3. The "who" briefs: the person briefs, after their rewrite to the standard set in "Person briefs:
+   60 to 120 seconds, personal and theological" (2026-11-11).
+4. Streams and connections, next week or next month.
+
+**The three tree voices.** Mark's words for the people voice: "this of them all need a mature voice,
+we take people seriousl[y]". Every tree voice sounds mature (40s to 60s), measured and warm,
+serious without being solemn or preachy, and never casual, young or dramatic.
+
+| Voice | Use | Id | Accent |
+|---|---|---|---|
+| Daniel, "Steady Broadcaster" | Tradition briefs | `onwK4e9ZLuTAKqWW03F9` | British |
+| Neo, "Calm and Controlled" | Stories | `onegjDE2z0mQtp1g0HK7` | South African (Voice Library) |
+| David Baker | People | `fxnZk29PIJ3WKEC9MDEo` | Canadian (Voice Library) |
+
+Mark's words for the story voice: "keep neo for stories". For people he asked for "a warm mature
+canadian voice", and he chose "david baker" by ear.
+
+**How the people voice was chosen.** All four comparisons used `eleven_multilingual_v2`,
+`mp3_44100_64` and the Daniel settings.
+- Run "CFT people-voice comparison 2026-11-11": the Athanasius brief (597 characters) read by
+  George (`JBFqnCBsd6RMkjVDRZzb`), Bill (`pqHfZKP75CvOlQylNhV4`) and Brian (`nPczCjzI2devNBz1zQrb`).
+  867 credits. The Origen brief read by Daniel served as a fourth comparison.
+- Brian and Charlie (Australian) were ruled out.
+- Then the coordinator's run "Mark 2026-11-11 'give me a reading of 20 seconds of the origin from
+  each'": 276 characters each, read by David Baker, Jeff (`bE3COCGjWQ0g9MBhv2cf`), Jason Worobec
+  (`3RY5h7DeqeGY5EV6NrAl`) and Charles (`JsrIJzhkegmrtozsL1wV`). 536 credits.
+
+When the person briefs are recorded, David Baker's id is passed on the command, never read from the
+environment. The Athanasius text used in the comparison is real census text that fails the new
+person standard: it opens on who claims him, mentions the Library shelf, says "his editor" and has
+no theology. It is on the rewrite list.
+
+**Settings, as printed by every request.** Model `eleven_multilingual_v2` for the briefs and
+`eleven_v4` for the stories, both at output `mp3_44100_64`. Stability 0.95, similarity 0.68,
+style 0, speaker boost on. Voice and model were passed on each command; none was read from the
+environment.
+
+**Sample (run "CFT sample 2026-11-11").** Three items, 1,996 characters, 968 credits:
+- the stale Bogomils brief (800 characters, 388 credits);
+- the stale story `cyrilline-miaphysite-egyptian-christianity-0` (610 characters, 296 credits);
+- a new person brief, Origen in Daniel (586 characters, 284 credits).
+
+Mark found the Bogomils brief "listens better" and the Origen brief flat. Origen was kept off the
+site when person rows were held.
+
+**Run (run "CFT full batch 2026-11-11 (Mark approved sample and caps)").**
+- **Tradition briefs:** 121 (60 new, 61 stale), 179,236 characters, under the cap of 180,000.
+  86,904 credits by the API's `character-cost` headers. One brief,
+  `the-anglican-communion-twentieth-century`, failed on a 503 connection reset and was re-run. The
+  account was charged for the failed request too, 400 credits with no audio returned.
+- **Stories:** 181 (178 stale, 3 new), 255,204 characters, under the cap of 256,000. 123,731
+  credits, no failures.
+- **Rate:** 0.485 credits per character on both models, against 0.44 on the 2026-11-08 and
+  2026-11-09 runs.
+
+**Credits, reconciled.** This session's runs total 212,870 credits by their own headers:
+- sample, 968;
+- voice comparison, 867;
+- tradition briefs, 86,904;
+- the charged 503 failure, 400;
+- stories, 123,731.
+
+Two approved runs in other sessions used the same account on the same day, and their figures
+come from their own reports:
+- the coordinator's people-voice comparison, 536 credits;
+- the person-brief pilot, run "CFT person pilot 2026-11-11", in David Baker's voice, cap 5,500
+  characters (session_01JMNsSDwnAiKRGQ5GRsfSad). Its first report was Origen, 1,734 characters,
+  841 credits; its final figure is in its own record.
+
+The account read 1,835 used before the batch and 216,355 at the end of the stories.
+
+**ElevenLabs' own history** (`GET /v1/history`, from 23:00 UTC on 2026-11-10) agrees with the
+counter: 317 requests, 216,355 credits, all from these runs.
+
+| Voice | Requests | Credits | What |
+|---|---|---|---|
+| Daniel | 124 | 87,976 | 121 briefs, the Bogomils and Origen samples, the charged 503 failure |
+| Neo | 183 | 124,715 | 181 stories, the story sample, and one duplicate request |
+| David Baker | 4 | 2,395 | the coordinator's comparison (134) and the pilot (2,261) |
+| Six comparison voices | 6 | 1,269 | the people-voice comparisons |
+
+The duplicate is the story `the-missionary-movement-s-native-churches-seramp-0`. It was charged
+twice, 688 credits each, under two request ids 17 seconds apart (02:03:10 and 02:03:27 UTC). The
+run sent one request for it and logged one success. The second request most likely came from a
+retry in the network layer between this session and ElevenLabs. The 503 on the Anglican brief came
+from that same layer. The cause cannot be confirmed from here. Together the two cost 1,088 credits
+with no extra audio. A later paid run should compare the run log with this history afterward.
+
+**Checks.**
+- Every manifest entry records its voice, model, format and text fingerprint.
+- Brief sizes run 568-681 bytes per character and 11.7-14.1 characters per second. Story sizes run
+  491-598 bytes per character and 13.4-16.3 characters per second. None is truncated.
+- Dry runs now plan nothing: 337 tradition briefs and all 503 documented stories match their text.
+- The tree pages were rebuilt, and only Listen players were added, on 122 pages. 338 tree pages
+  now play a recording. The map shows story players from the manifest when a page opens.
+
+**What the batch left out, as ruled.**
+- The 12 built worlds. Their tree pages show no tree recording, and their story plays in the
+  Representative's voice.
+- The 39 person rows.
+- The 8 movements with no `longDescription`.
+
+The tree planner now carries the built-world and person exclusions. It also treats a recording
+whose text fingerprint no longer matches as stale (it used to count any recording as current).
+
+**Limits.** The voices cannot be confirmed from ElevenLabs' side with this key. They rest on the
+voice id in each request, the sizes, and Mark's ear on the sample.

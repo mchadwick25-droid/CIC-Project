@@ -1,10 +1,15 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import path from 'path';
-import { parseArgs, requireApprovedRun, requirePaidSettings, planNarration, synthesize, synthesizeWithCost, audioPathFor, audioDir, resolveVoiceId, narrationTextFor, defaultVoiceSettings, narrationFingerprint, recordingMatchesText } from './generate_tree_narration.mjs';
+import { parseArgs, requireApprovedRun, requirePaidSettings, planNarration, synthesize, synthesizeWithCost, audioPathFor, audioDir, resolveVoiceId, narrationTextFor, defaultVoiceSettings, narrationFingerprint, recordingMatchesText, hasOwnWorldStory } from './generate_tree_narration.mjs';
 
 function movement(id, overrides = {}) {
   return { id, name: id, longDescription: `The story of ${id}.`, ...overrides };
+}
+
+/** A manifest entry recorded from the movement's current text. */
+function recorded(m) {
+  return { file: `${m.id}.mp3`, text_sha256: narrationFingerprint(m.longDescription) };
 }
 
 test('parseArgs: defaults with no flags', () => {
@@ -52,7 +57,7 @@ test('planNarration: skips a movement with no longDescription at all', () => {
 
 test('planNarration: skips a movement that is already in the manifest, unless --force', () => {
   const movements = [movement('narrated'), movement('not-yet')];
-  const manifest = { narrated: {} };
+  const manifest = { narrated: recorded(movements[0]) };
 
   const withoutForce = planNarration(movements, { only: null, force: false, limit: null, manifest });
   assert.deepEqual(withoutForce.toGenerate.map((m) => m.id), ['not-yet']);
@@ -60,6 +65,42 @@ test('planNarration: skips a movement that is already in the manifest, unless --
 
   const withForce = planNarration(movements, { only: null, force: true, limit: null, manifest });
   assert.deepEqual(withForce.toGenerate.map((m) => m.id), ['narrated', 'not-yet']);
+});
+
+test('planNarration: a recording made from text that has since changed is stale and re-voiced', () => {
+  const movements = [movement('current'), movement('edited'), movement('unfingerprinted'), movement('new')];
+  const manifest = {
+    current: recorded(movements[0]),
+    edited: { file: 'edited.mp3', text_sha256: narrationFingerprint('The old text.') },
+    unfingerprinted: { file: 'unfingerprinted.mp3' },
+  };
+  const { toGenerate, alreadyNarrated, stale } = planNarration(movements, { only: null, force: false, limit: null, manifest });
+  assert.deepEqual(alreadyNarrated, ['current']);
+  assert.deepEqual(stale, ['edited', 'unfingerprinted']);
+  assert.deepEqual(toGenerate.map((m) => m.id), ['edited', 'unfingerprinted', 'new']);
+});
+
+test('planNarration: a built world with its own orientation.story is left out, as its tree page shows no tree recording', () => {
+  const movements = [movement('built'), movement('unbuilt')];
+  const { toGenerate, skippedBuiltWorld } = planNarration(movements, { only: null, force: true, limit: null, ownWorldStoryFn: (m) => m.id === 'built' });
+  assert.deepEqual(skippedBuiltWorld, ['built']);
+  assert.deepEqual(toGenerate.map((m) => m.id), ['unbuilt']);
+});
+
+test('planNarration: person rows are left out, even with --force or --only', () => {
+  const movements = [movement('a-person', { kind: 'person' }), movement('a-church'), movement('a-movement', { kind: 'cross-church movement' })];
+  const plain = planNarration(movements, { only: null, force: true, limit: null, ownWorldStoryFn: () => false });
+  assert.deepEqual(plain.skippedPerson, ['a-person']);
+  assert.deepEqual(plain.toGenerate.map((m) => m.id), ['a-church', 'a-movement']);
+  const only = planNarration(movements, { only: 'a-person', force: true, limit: null, ownWorldStoryFn: () => false });
+  assert.deepEqual(only.toGenerate, []);
+});
+
+test('hasOwnWorldStory: true only for a data file with a non-empty orientation.story', () => {
+  const m = movement('x');
+  assert.equal(hasOwnWorldStory(m, { existsFn: () => false }), false);
+  assert.equal(hasOwnWorldStory(m, { existsFn: () => true, readFn: () => JSON.stringify({ orientation: { story: [] } }) }), false);
+  assert.equal(hasOwnWorldStory(m, { existsFn: () => true, readFn: () => JSON.stringify({ orientation: { story: [{ text: 'p' }] } }) }), true);
 });
 
 test('planNarration: --only narrows to a single movement by id', () => {
@@ -105,7 +146,7 @@ test('planNarration: --char-budget combines with already-narrated and --limit fi
     movement('a', { longDescription: 'x'.repeat(1000) }),
     movement('b', { longDescription: 'x'.repeat(1000) }),
   ];
-  const manifest = { narrated: {} };
+  const manifest = { narrated: recorded(movements[0]) };
   const { toGenerate, alreadyNarrated, skippedBudget } = planNarration(movements, {
     only: null,
     force: false,
@@ -120,7 +161,7 @@ test('planNarration: --char-budget combines with already-narrated and --limit fi
 
 test('planNarration: --limit caps only the NEW work, not what is already narrated', () => {
   const movements = [movement('a'), movement('b'), movement('c'), movement('d')];
-  const manifest = { a: {} };
+  const manifest = { a: recorded(movements[0]) };
   const { toGenerate, alreadyNarrated } = planNarration(movements, { only: null, force: false, limit: 2, manifest });
   assert.deepEqual(alreadyNarrated, ['a']);
   assert.deepEqual(toGenerate.map((m) => m.id), ['b', 'c']);

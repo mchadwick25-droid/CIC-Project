@@ -343,25 +343,25 @@
   "chars": 1386
  },
  "cyrilline-miaphysite-egyptian-christianity-0": {
-  "hash": "a0b264c6e2e607a4",
+  "hash": "1addf4f0d5d57fcd",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1343
+  "chars": 610
  },
  "cyrilline-miaphysite-egyptian-christianity-1": {
-  "hash": "0bc0113f30b0a8e8",
+  "hash": "065fe377cb973d13",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1441
+  "chars": 594
  },
  "cyrilline-miaphysite-egyptian-christianity-2": {
-  "hash": "afeee34e6eb688f3",
+  "hash": "3aac100ff25c682a",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1449
+  "chars": 470
  },
  "syriac-orthodox-west-syriac-christianity-0": {
   "hash": "4f4b0f8ef06371f2",
@@ -1393,25 +1393,25 @@
   "chars": 1463
  },
  "the-huguenots-0": {
-  "hash": "659930b9ec669c89",
+  "hash": "f152d27b1ca98c47",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1328
+  "chars": 1327
  },
  "the-huguenots-1": {
-  "hash": "f2204cae1bec7e1b",
+  "hash": "e6598e2bf3764dc0",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1475
+  "chars": 1473
  },
  "recusant-english-catholicism-0": {
-  "hash": "233481fa4c2d3caa",
+  "hash": "648a02e6a873770b",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1341
+  "chars": 1339
  },
  "recusant-english-catholicism-1": {
   "hash": "77e5f1e2ba15bdb8",
@@ -1428,11 +1428,11 @@
   "chars": 1310
  },
  "puritanism-1": {
-  "hash": "dfda742601161a3f",
+  "hash": "8dba4a441b12fb6b",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1430
+  "chars": 1429
  },
  "dutch-further-reformation-and-refuge-culture-0": {
   "hash": "0f35d6e0db4c0cd9",
@@ -1449,11 +1449,11 @@
   "chars": 1481
  },
  "the-society-of-jesus-0": {
-  "hash": "bd7993636a7d668d",
+  "hash": "3dee1240fed1683e",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1332
+  "chars": 1331
  },
  "the-society-of-jesus-1": {
   "hash": "81cbc76ef4d3dc54",
@@ -1463,11 +1463,11 @@
   "chars": 1367
  },
  "tridentine-parish-renewal-borromean-milan-0": {
-  "hash": "4d80ec36bb1ba6f2",
+  "hash": "205586013a5569f3",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1340
+  "chars": 1339
  },
  "tridentine-parish-renewal-borromean-milan-1": {
   "hash": "af1462aabbba7ca9",
@@ -1484,11 +1484,11 @@
   "chars": 1399
  },
  "mission-born-christianities-kirishitan-japan-kon-1": {
-  "hash": "9a6f4a48350cb7a3",
+  "hash": "fcd0dbaf2b47dcdf",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1465
+  "chars": 1464
  },
  "mission-born-christianities-kirishitan-japan-kon-2": {
   "hash": "4b85e659c3109542",
@@ -1498,25 +1498,25 @@
   "chars": 1435
  },
  "anti-trinitarian-currents-servetus-polish-brethr-0": {
-  "hash": "8e35a80387ccf5e3",
+  "hash": "2e64bae67dfe4830",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
   "chars": 1372
  },
  "anti-trinitarian-currents-servetus-polish-brethr-1": {
-  "hash": "262ba059a1dbe234",
+  "hash": "619125003c283df4",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1562
+  "chars": 1560
  },
  "schwenckfelders-0": {
-  "hash": "4daed44cfa02fe5e",
+  "hash": "4d09256022cbeef5",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1472
+  "chars": 1471
  },
  "family-of-love-and-spiritualists-franck-niclaes-0": {
   "hash": "705a395959e98f5a",
@@ -1526,25 +1526,25 @@
   "chars": 1595
  },
  "orthodoxy-under-the-ottomans-parish-millet-and-n-0": {
-  "hash": "d204b96680da7c0b",
+  "hash": "a678ad1bacf20964",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
   "chars": 1422
  },
  "orthodoxy-under-the-ottomans-parish-millet-and-n-1": {
-  "hash": "61aadb994f417288",
+  "hash": "3f277a62aa13139c",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
   "chars": 1463
  },
  "st-thomas-christians-under-portuguese-pressure-d-0": {
-  "hash": "28ff73deeb404ba0",
+  "hash": "75aa11e07428eac4",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1344
+  "chars": 1343
  },
  "st-thomas-christians-under-portuguese-pressure-d-1": {
   "hash": "ab8857eb06f4c8e5",
@@ -1582,18 +1582,18 @@
   "chars": 1384
  },
  "the-kyiv-mohyla-orthodox-revival-0": {
-  "hash": "d205f40e51d86fa9",
+  "hash": "685ef798184c89dd",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1314
+  "chars": 1313
  },
  "the-kyiv-mohyla-orthodox-revival-1": {
-  "hash": "9826044d8256ca5c",
+  "hash": "5c4d643109ff9830",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1264
+  "chars": 1260
  },
  "the-tridentine-church-0": {
   "hash": "0b5fab5e75fdf164",
@@ -1617,32 +1617,32 @@
   "chars": 1343
  },
  "russian-church-stoglav-to-nikon-0": {
-  "hash": "c864d149e35b9b88",
+  "hash": "b763aecea4d60961",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1370
+  "chars": 1369
  },
  "russian-church-stoglav-to-nikon-1": {
-  "hash": "954d2e6a1e30e519",
+  "hash": "ea97a738c4879c38",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1421
+  "chars": 1420
  },
  "russian-church-stoglav-to-nikon-2": {
-  "hash": "de09d4ce0257cacd",
+  "hash": "3b08772a67a8175b",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
   "chars": 1367
  },
  "czech-churches-last-century-0": {
-  "hash": "76817af0d58a67a5",
+  "hash": "bc426ee7a08b531b",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1403
+  "chars": 1402
  },
  "czech-churches-last-century-1": {
   "hash": "7f2893524415d51c",
@@ -1652,7 +1652,7 @@
   "chars": 1343
  },
  "ethiopian-christianity-gragn-to-fasilides-0": {
-  "hash": "426a61015d4008f6",
+  "hash": "a00501eb012243c5",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
@@ -1673,7 +1673,7 @@
   "chars": 1524
  },
  "the-remonstrants-and-dort-1": {
-  "hash": "d8285351567735cf",
+  "hash": "6a12b809f58deed9",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
@@ -1687,7 +1687,7 @@
   "chars": 1357
  },
  "scandinavian-reformation-kingdoms-1": {
-  "hash": "28fa2f7fce502351",
+  "hash": "09f4a8638722740e",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
@@ -1729,18 +1729,18 @@
   "chars": 1357
  },
  "church-of-the-east-schism-of-1552-0": {
-  "hash": "80a760f6e51665b7",
+  "hash": "dc1d72064e98e4ab",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
   "chars": 1442
  },
  "the-quakers-religious-society-of-friends-0": {
-  "hash": "ff1f221ca7f17171",
+  "hash": "58b630ab6508cf0d",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1314
+  "chars": 1313
  },
  "the-quakers-religious-society-of-friends-1": {
   "hash": "c29b91502b4983db",
@@ -1750,14 +1750,14 @@
   "chars": 1411
  },
  "the-quakers-religious-society-of-friends-2": {
-  "hash": "1b5f6c5caee38807",
+  "hash": "f9aa86521b4596b9",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1378
+  "chars": 1377
  },
  "german-pietism-spener-francke-halle-0": {
-  "hash": "78ceab45fe697636",
+  "hash": "2dabd285006f98b0",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
@@ -1785,25 +1785,25 @@
   "chars": 1365
  },
  "radical-pietism-and-the-brethren-dunkers-ephrata-2": {
-  "hash": "cc7b28aa47380045",
+  "hash": "d9953aaf62d921e0",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1440
+  "chars": 1439
  },
  "the-moravian-church-at-herrnhut-0": {
-  "hash": "97504dd88a5a1f7f",
+  "hash": "1ddcc632df94ec33",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1440
+  "chars": 1439
  },
  "the-moravian-church-at-herrnhut-1": {
-  "hash": "89328240eb9a110f",
+  "hash": "da6711b733ed87ab",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1467
+  "chars": 1465
  },
  "the-methodist-revival-0": {
   "hash": "703bbbccea8dce2f",
@@ -1813,11 +1813,11 @@
   "chars": 1275
  },
  "the-methodist-revival-1": {
-  "hash": "278eea859eec3f07",
+  "hash": "133bf0a6f30e705a",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1477
+  "chars": 1475
  },
  "the-methodist-revival-2": {
   "hash": "412cae33ce998c52",
@@ -1834,18 +1834,18 @@
   "chars": 1434
  },
  "the-evangelical-awakening-in-new-england-1": {
-  "hash": "d07a8307d185bba0",
+  "hash": "a666606be0d23639",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1461
+  "chars": 1458
  },
  "the-evangelical-awakening-in-new-england-2": {
-  "hash": "527118a57ea9719c",
+  "hash": "e1807232788260a8",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1371
+  "chars": 1369
  },
  "the-old-believers-0": {
   "hash": "97974fc30e4a5410",
@@ -1855,14 +1855,14 @@
   "chars": 1392
  },
  "the-old-believers-1": {
-  "hash": "82fda605c0b5ae0b",
+  "hash": "8976cf5a4ef0caef",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1397
+  "chars": 1396
  },
  "the-old-believers-2": {
-  "hash": "3e3a2c6f95cc73cc",
+  "hash": "ac22ad5b43943804",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
@@ -1883,7 +1883,7 @@
   "chars": 1483
  },
  "port-royal-jansenism-0": {
-  "hash": "f260b02b89e8b9aa",
+  "hash": "545d5d79961bc0f1",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
@@ -1897,21 +1897,21 @@
   "chars": 1461
  },
  "the-welsh-revival-tradition-0": {
-  "hash": "8d7279d4cc862608",
+  "hash": "36a08a0be2ec0d7e",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1410
+  "chars": 1408
  },
  "the-welsh-revival-tradition-1": {
-  "hash": "e0e895b00dc8272a",
+  "hash": "41bf349e92a53d26",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
   "chars": 1369
  },
  "the-antonian-movement-in-kongo-0": {
-  "hash": "1ec8dbe196abf44f",
+  "hash": "1d6a3693e80a4385",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
@@ -1925,11 +1925,11 @@
   "chars": 1455
  },
  "shakers-1": {
-  "hash": "bf9813f82ed37312",
+  "hash": "060508ef15bfb7b7",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1407
+  "chars": 1406
  },
  "swedenborgian-new-church-0": {
   "hash": "251a65864d169a3d",
@@ -1946,14 +1946,14 @@
   "chars": 1386
  },
  "quietist-controversy-molinos-guyon-0": {
-  "hash": "e4864260b2652073",
+  "hash": "f7ae1ad2f74c65ad",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
   "chars": 1426
  },
  "quietist-controversy-molinos-guyon-1": {
-  "hash": "1f14504c84785532",
+  "hash": "8fc1f4743323eebd",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
@@ -1974,25 +1974,25 @@
   "chars": 1400
  },
  "the-baptists-0": {
-  "hash": "3b81325d74eda7e7",
+  "hash": "5ac4a85dc60231fe",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
   "chars": 1433
  },
  "the-baptists-1": {
-  "hash": "7bf1470a53e27e02",
+  "hash": "ea1df927e94406f4",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1361
+  "chars": 1359
  },
  "the-baptists-2": {
-  "hash": "e4e77005becd8ac2",
+  "hash": "05f4a3c53db9881c",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1445
+  "chars": 1444
  },
  "colonial-latin-american-devotional-catholicism-0": {
   "hash": "d9554119cadaa7f6",
@@ -2023,7 +2023,7 @@
   "chars": 1391
  },
  "orthodoxy-under-the-ottomans-1650-1821-1": {
-  "hash": "ab6a5c52ef6411eb",
+  "hash": "75cdd491262671dc",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
@@ -2037,14 +2037,14 @@
   "chars": 1433
  },
  "catholic-church-ancien-regime-1": {
-  "hash": "05cf077acd931f64",
+  "hash": "c82317e9224797bd",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1364
+  "chars": 1363
  },
  "catholic-church-ancien-regime-2": {
-  "hash": "7a08096bc1e14e0e",
+  "hash": "40c4ee1a0d775d8d",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
@@ -2058,21 +2058,21 @@
   "chars": 1355
  },
  "restoration-georgian-church-of-england-1": {
-  "hash": "c77aa33f20e611cf",
+  "hash": "c28c55b4f727d93b",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1445
+  "chars": 1444
  },
  "restoration-georgian-church-of-england-2": {
-  "hash": "a8a544de1053179d",
+  "hash": "a37be7feaabbfb25",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1356
+  "chars": 1355
  },
  "russian-church-nikon-to-holy-synod-0": {
-  "hash": "632402cb65c3814a",
+  "hash": "0b970639844424f6",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
@@ -2093,14 +2093,14 @@
   "chars": 1418
  },
  "church-of-the-desert-huguenots-0": {
-  "hash": "4bb3f9402ed7efd0",
+  "hash": "39d6d19e2dea2d00",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
   "chars": 1455
  },
  "church-of-the-desert-huguenots-1": {
-  "hash": "6cb18dc40a48c8e0",
+  "hash": "e0b3c847a5f07615",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
@@ -2142,7 +2142,7 @@
   "chars": 1499
  },
  "english-old-dissent-0": {
-  "hash": "bf6165a9ee6e0b39",
+  "hash": "5af12abbeefbf4d7",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
@@ -2156,14 +2156,14 @@
   "chars": 1373
  },
  "english-old-dissent-2": {
-  "hash": "e32a873276cc6b78",
+  "hash": "d31501badd5e3f38",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1377
+  "chars": 1376
  },
  "early-american-unitarians-universalists-0": {
-  "hash": "568af7491dcdac92",
+  "hash": "db75753c80a09c37",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
@@ -2184,11 +2184,11 @@
   "chars": 1489
  },
  "ruthenian-uniate-18th-century-1": {
-  "hash": "a259493250524f37",
+  "hash": "a906da481d0e3c13",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1470
+  "chars": 1469
  },
  "ruthenian-uniate-18th-century-2": {
   "hash": "49a5b1bf5838932e",
@@ -2198,11 +2198,11 @@
   "chars": 1489
  },
  "philippine-catholicism-era-8-0": {
-  "hash": "71649e994ae81f61",
+  "hash": "2fd3abac7d38dd97",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1464
+  "chars": 1463
  },
  "philippine-catholicism-era-8-1": {
   "hash": "4ec3aa45ddc27320",
@@ -2254,32 +2254,32 @@
   "chars": 1522
  },
  "the-holiness-movement-0": {
-  "hash": "ad42660ee5a80d3e",
+  "hash": "cc59e459abcb8689",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1478
+  "chars": 1477
  },
  "the-holiness-movement-1": {
-  "hash": "82b3d09a0ea04171",
+  "hash": "943ade6da865eeaf",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
   "chars": 1422
  },
  "the-oxford-movement-and-anglo-catholic-revival-0": {
-  "hash": "8bcdcf57a6cf90e2",
+  "hash": "2833da7bb7bae8c6",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1412
+  "chars": 1411
  },
  "the-oxford-movement-and-anglo-catholic-revival-1": {
-  "hash": "01495e8e540627d3",
+  "hash": "0e3f66d0c7ccb874",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1404
+  "chars": 1403
  },
  "the-oxford-movement-and-anglo-catholic-revival-2": {
   "hash": "006d4e2f667805f4",
@@ -2296,21 +2296,21 @@
   "chars": 1423
  },
  "the-salvation-army-1": {
-  "hash": "0b856e1b2030a077",
+  "hash": "e2ea98f44d8809c2",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
   "chars": 1452
  },
  "the-missionary-movement-s-native-churches-seramp-0": {
-  "hash": "4e1b213be32bc301",
+  "hash": "c43af652f5270e27",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
   "chars": 1419
  },
  "the-missionary-movement-s-native-churches-seramp-1": {
-  "hash": "07880df4516b6065",
+  "hash": "b2bb1633fa071b8b",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
@@ -2324,25 +2324,25 @@
   "chars": 1525
  },
  "the-haugean-awakening-0": {
-  "hash": "3247b0c0079874a7",
+  "hash": "477f042555cb6e22",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1459
+  "chars": 1458
  },
  "the-haugean-awakening-1": {
-  "hash": "50e096c8a3098aa3",
+  "hash": "2dac8095c1c65e6b",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1420
+  "chars": 1419
  },
  "the-reveil-and-inner-mission-awakening-0": {
-  "hash": "9fd033f69d40b3a6",
+  "hash": "4178bd63629de4b5",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1416
+  "chars": 1413
  },
  "the-reveil-and-inner-mission-awakening-1": {
   "hash": "cef2905c0d5caff8",
@@ -2352,14 +2352,14 @@
   "chars": 1451
  },
  "restorationist-apocalyptic-ferment-and-adventism-0": {
-  "hash": "445c61af68185026",
+  "hash": "ef827b4850252615",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1429
+  "chars": 1426
  },
  "restorationist-apocalyptic-ferment-and-adventism-1": {
-  "hash": "1c188a30f6d17875",
+  "hash": "46f7d5639c6380cf",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
@@ -2394,11 +2394,11 @@
   "chars": 1454
  },
  "coptic-revival-under-cyril-iv-0": {
-  "hash": "6df69fc1d3e278c6",
+  "hash": "8142d1da01d3e959",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1452
+  "chars": 1451
  },
  "coptic-revival-under-cyril-iv-1": {
   "hash": "d955fc7f9eaa2649",
@@ -2415,7 +2415,7 @@
   "chars": 1400
  },
  "latter-day-saints-lds-1": {
-  "hash": "7bc64d6c90f80707",
+  "hash": "a3acb368746b2b34",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
@@ -2436,11 +2436,11 @@
   "chars": 1477
  },
  "jehovah-s-witnesses-bible-students-1": {
-  "hash": "1996b64f7b569a4b",
+  "hash": "a84a7a01e5471e43",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1417
+  "chars": 1416
  },
  "christian-science-0": {
   "hash": "c6fd7b0459c6ac60",
@@ -2450,11 +2450,11 @@
   "chars": 1357
  },
  "christian-science-1": {
-  "hash": "a962f377a7efd525",
+  "hash": "638edfdb449f9c7a",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1488
+  "chars": 1487
  },
  "christadelphians-0": {
   "hash": "7fc6c31537836479",
@@ -2464,7 +2464,7 @@
   "chars": 1399
  },
  "christadelphians-1": {
-  "hash": "7811dcb648572ed6",
+  "hash": "600fb753b844735e",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
@@ -2485,11 +2485,11 @@
   "chars": 1422
  },
  "oneida-community-0": {
-  "hash": "ef317da8dff3ffcd",
+  "hash": "d99a1d89bce4726f",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1419
+  "chars": 1417
  },
  "oneida-community-1": {
   "hash": "3f9a07feb6402055",
@@ -2499,32 +2499,32 @@
   "chars": 1479
  },
  "korean-catholic-origins-0": {
-  "hash": "78e1f71829e68213",
+  "hash": "5dfefd387c8a408b",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1416
+  "chars": 1415
  },
  "korean-catholic-origins-1": {
-  "hash": "cf840bf7f3194697",
+  "hash": "9382fc27eee15781",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
   "chars": 1420
  },
  "laestadianism-and-the-nordic-revivals-0": {
-  "hash": "f953ecd55a98c608",
+  "hash": "7db502fcbd5b9d8f",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1467
+  "chars": 1466
  },
  "laestadianism-and-the-nordic-revivals-1": {
-  "hash": "63aa6ca91ba3f7fb",
+  "hash": "4ad6c87d11d40184",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1425
+  "chars": 1424
  },
  "plymouth-brethren-and-dispensational-formation-0": {
   "hash": "bfd9aa37705b05f6",
@@ -2534,32 +2534,32 @@
   "chars": 1317
  },
  "plymouth-brethren-and-dispensational-formation-1": {
-  "hash": "890e01f73368837f",
+  "hash": "5f9d586338f44769",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1462
+  "chars": 1461
  },
  "the-sunday-school-and-bible-institute-movement-0": {
-  "hash": "78d63555d97f3b2d",
+  "hash": "0fab027d2ae97a07",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1407
+  "chars": 1406
  },
  "the-sunday-school-and-bible-institute-movement-1": {
-  "hash": "8e620587303bbe1d",
+  "hash": "3416bbf98ae60da1",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1481
+  "chars": 1480
  },
  "the-student-volunteer-movement-and-edinburgh-191-0": {
-  "hash": "42d5f7b60317c3ad",
+  "hash": "0e2f0a4c0374bd23",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1449
+  "chars": 1447
  },
  "the-student-volunteer-movement-and-edinburgh-191-1": {
   "hash": "cc39b691f2eaa825",
@@ -2569,25 +2569,25 @@
   "chars": 1524
  },
  "indonesian-christianity-0": {
-  "hash": "4522793f63445945",
+  "hash": "41047b31494b59ca",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
   "chars": 1553
  },
  "indonesian-christianity-1": {
-  "hash": "88c8b53c65d88998",
+  "hash": "b1668c937e241b97",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
   "chars": 1608
  },
  "northeast-india-revivals-and-the-mar-thoma-refor-0": {
-  "hash": "d01c5fd2992dbdfc",
+  "hash": "990652e818ef6886",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1501
+  "chars": 1500
  },
  "northeast-india-revivals-and-the-mar-thoma-refor-1": {
   "hash": "77e128b63bd3a32b",
@@ -2597,21 +2597,21 @@
   "chars": 1499
  },
  "orthodoxy-after-1821-balkan-autocephalies-0": {
-  "hash": "cdd5c83fcaa01364",
+  "hash": "1b7cebf6500e6c1b",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
   "chars": 1464
  },
  "orthodoxy-after-1821-balkan-autocephalies-1": {
-  "hash": "b9f4dbddd793dbb1",
+  "hash": "7a478bd2f3088b8d",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
   "chars": 1483
  },
  "catholic-church-long-nineteenth-century-0": {
-  "hash": "3c0d365cf74a9b2b",
+  "hash": "4ee2482220a3070d",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
@@ -2632,7 +2632,7 @@
   "chars": 1254
  },
  "victorian-church-of-england-0": {
-  "hash": "fdbc1430f9b482d0",
+  "hash": "340347a3993cc06c",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
@@ -2660,7 +2660,7 @@
   "chars": 1335
  },
  "armenian-christianity-zartonk-0": {
-  "hash": "e05c58bc635a32c6",
+  "hash": "937eb390ec16fc34",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
@@ -2674,32 +2674,32 @@
   "chars": 1456
  },
  "old-catholic-churches-union-of-utrecht-0": {
-  "hash": "35ceeb4458e593bc",
+  "hash": "c357825ba566f7c7",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
   "chars": 1434
  },
  "old-catholic-churches-union-of-utrecht-1": {
-  "hash": "32e6cb0ba45814da",
+  "hash": "1624dff0840cb8c8",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
   "chars": 1522
  },
  "nineteenth-century-methodism-0": {
-  "hash": "9d5c6fdc5c6c23a2",
+  "hash": "ca2a08af23c3741e",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
   "chars": 1404
  },
  "nineteenth-century-methodism-1": {
-  "hash": "83623b358f7f3eb3",
+  "hash": "a978e38434e85386",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1523
+  "chars": 1520
  },
  "nineteenth-century-baptists-0": {
   "hash": "aa847ea78bacfccc",
@@ -2709,21 +2709,21 @@
   "chars": 1403
  },
  "nineteenth-century-baptists-1": {
-  "hash": "89ae3129db499cf0",
+  "hash": "c9b0ebbfff3bb331",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
   "chars": 1519
  },
  "nineteenth-century-quakerism-separations-0": {
-  "hash": "9a5fffffed997b5a",
+  "hash": "b8ad7c8bed7280f5",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1484
+  "chars": 1483
  },
  "nineteenth-century-quakerism-separations-1": {
-  "hash": "8e16744d8ad9ff52",
+  "hash": "afae6579d462ea69",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
@@ -2737,14 +2737,14 @@
   "chars": 1470
  },
  "american-unitarianism-universalism-consolidations-1": {
-  "hash": "7a5dc5314d7d6680",
+  "hash": "46d579eaf6bf5791",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1423
+  "chars": 1422
  },
  "ruthenian-greek-catholic-polotsk-to-galicia-0": {
-  "hash": "249d03c698cfb8c1",
+  "hash": "1f687f049c0679be",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
@@ -2765,11 +2765,11 @@
   "chars": 1422
  },
  "philippine-catholicism-gomburza-to-aglipay-1": {
-  "hash": "29613faa5e160626",
+  "hash": "6b9145343d3b29dd",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1507
+  "chars": 1506
  },
  "church-of-the-east-chaldean-consolidation-0": {
   "hash": "9bb19af39340c790",
@@ -2786,7 +2786,7 @@
   "chars": 1457
  },
  "confessional-lutheran-revival-emigrations-0": {
-  "hash": "b08f027a99140ebf",
+  "hash": "4212932ba1dcef3e",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
@@ -2807,11 +2807,11 @@
   "chars": 1374
  },
  "malagasy-christianity-1": {
-  "hash": "2159170b1ac78896",
+  "hash": "dc3b22668af6a32e",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1486
+  "chars": 1485
  },
  "east-african-christianity-uganda-martyrs-0": {
   "hash": "ebbe32b4db469e9b",
@@ -2821,60 +2821,60 @@
   "chars": 1519
  },
  "east-african-christianity-uganda-martyrs-1": {
-  "hash": "01d3086a573b631e",
+  "hash": "88c41ad2611d0f7a",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
   "chars": 1360
  },
  "taiping-heavenly-kingdom-1": {
-  "hash": "f0f125f59fa13e09",
+  "hash": "92c28667ffb0bf31",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
   "chars": 1429
  },
  "japanese-christianity-hidden-emergence-meiji-0": {
-  "hash": "1677367ee8f761b3",
+  "hash": "1c271a033672fc37",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
   "chars": 1467
  },
  "japanese-christianity-hidden-emergence-meiji-1": {
-  "hash": "b58e2bc4335a9294",
+  "hash": "14ae7cf90745e19e",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
   "chars": 1431
  },
  "haitian-church-rupture-to-concordat-0": {
-  "hash": "35b5d931f2ba9c15",
+  "hash": "890e1ce994933af4",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
   "chars": 1460
  },
  "alaskan-mission-herman-veniaminov-0": {
-  "hash": "3fb86594c040f6f6",
+  "hash": "58a42d9b0fcfe33f",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1388
+  "chars": 1387
  },
  "alaskan-mission-herman-veniaminov-1": {
-  "hash": "8b3aef2569ddb4d1",
+  "hash": "b8db01559d53f00f",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
   "chars": 1390
  },
  "nineteenth-century-latin-american-catholicism-0": {
-  "hash": "9ab99e34e39fd3e9",
+  "hash": "2f15b0081270561b",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1501
+  "chars": 1500
  },
  "nineteenth-century-latin-american-catholicism-1": {
   "hash": "5f86c8cc6bc336bb",
@@ -2891,18 +2891,18 @@
   "chars": 1525
  },
  "ethiopian-christianity-tewodros-to-menelik-1": {
-  "hash": "1ef64b541185c475",
+  "hash": "649d29555f6b6848",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1514
+  "chars": 1513
  },
  "dutch-neo-calvinism-secession-churches-0": {
-  "hash": "faf2f52471bc4f7c",
+  "hash": "3aba458f34539eea",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1493
+  "chars": 1492
  },
  "dutch-neo-calvinism-secession-churches-1": {
   "hash": "13c0a556164dbdb6",
@@ -2912,14 +2912,14 @@
   "chars": 1463
  },
  "russian-evangelicals-stundists-0": {
-  "hash": "74e167f014ef6477",
+  "hash": "4af4ed28c14b8337",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1486
+  "chars": 1485
  },
  "russian-evangelicals-stundists-1": {
-  "hash": "396e01a853927636",
+  "hash": "6ea1046b0a16a218",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
@@ -2933,11 +2933,11 @@
   "chars": 1398
  },
  "azusa-street-and-early-pentecostalism-1": {
-  "hash": "957c2ee83eff6ee2",
+  "hash": "5feb637b70b72cf8",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1456
+  "chars": 1455
  },
  "the-1904-07-revival-family-wales-mukti-india-pyo-0": {
   "hash": "20a7fa877f0cad8d",
@@ -2954,25 +2954,25 @@
   "chars": 1427
  },
  "the-east-african-revival-balokole-0": {
-  "hash": "8df97368ec49e5ea",
+  "hash": "11f92c2ceb77be3f",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1439
+  "chars": 1438
  },
  "the-east-african-revival-balokole-1": {
-  "hash": "f9d7253e1534ffab",
+  "hash": "0ead0f7a0a54bcf9",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1396
+  "chars": 1405
  },
  "african-initiated-churches-harrist-aladura-zioni-0": {
-  "hash": "1fbf1861168de247",
+  "hash": "e210b0d249963a2e",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1448
+  "chars": 1453
  },
  "african-initiated-churches-harrist-aladura-zioni-1": {
   "hash": "2e8e6c56476e4ab7",
@@ -2982,28 +2982,28 @@
   "chars": 1491
  },
  "the-chinese-church-indigenous-and-suffering-0": {
-  "hash": "648b4a29ac33e9b3",
+  "hash": "f9965b156ff15a2f",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1418
+  "chars": 1417
  },
  "the-chinese-church-indigenous-and-suffering-1": {
-  "hash": "e1207e38c3017894",
+  "hash": "ea639ca0a1c1d8aa",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1468
+  "chars": 1467
  },
  "the-confessing-church-0": {
-  "hash": "f77252618fa252d1",
+  "hash": "269c42f5fe95d810",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1472
+  "chars": 1471
  },
  "catholic-lay-renewal-worlds-catholic-worker-foco-0": {
-  "hash": "982a1e9687241a80",
+  "hash": "9057970dc4ea9da7",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
@@ -3017,46 +3017,46 @@
   "chars": 1547
  },
  "latin-american-base-communities-0": {
-  "hash": "4f5042c51cea3687",
+  "hash": "8165538abfe01d93",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1463
+  "chars": 1425
  },
  "latin-american-base-communities-1": {
-  "hash": "2c97aa7194d83325",
+  "hash": "dc61542920fefffd",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1410
+  "chars": 1260
  },
  "emigre-orthodoxy-and-the-paris-school-0": {
-  "hash": "caff2ee9e9ca7253",
+  "hash": "ab7fcf715815a638",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1576
+  "chars": 1585
  },
  "emigre-orthodoxy-and-the-paris-school-1": {
-  "hash": "51ee230dc531d764",
+  "hash": "5327e5ef147e4349",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1429
+  "chars": 1428
  },
  "the-coptic-monastic-and-sunday-school-revival-0": {
-  "hash": "eccffaff108084ef",
+  "hash": "295481a455477ccd",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1361
+  "chars": 1246
  },
  "the-coptic-monastic-and-sunday-school-revival-1": {
-  "hash": "6e3d4e2ad27cab8b",
+  "hash": "7310edd9d329f4b5",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1480
+  "chars": 1499
  },
  "global-south-pentecostal-christianity-0": {
   "hash": "1a8d946ae43d547f",
@@ -3080,42 +3080,42 @@
   "chars": 1432
  },
  "persecuted-church-worlds-of-the-communist-era-in-1": {
-  "hash": "f3ef04c4d7f2488f",
+  "hash": "5cbf6cd771407388",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
   "chars": 1453
  },
  "messianic-judaism-0": {
-  "hash": "4515ab5a999ca500",
+  "hash": "31e589a8b4b12df6",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1495
+  "chars": 1508
  },
  "messianic-judaism-1": {
-  "hash": "e5a3156f1c59fe84",
+  "hash": "8455aac706f46266",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1389
+  "chars": 1410
  },
  "ecumenical-community-worlds-taize-and-iona-0": {
-  "hash": "a8d55882786c1401",
+  "hash": "c7a06cbd5bff3a34",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1363
+  "chars": 1220
  },
  "ecumenical-community-worlds-taize-and-iona-1": {
-  "hash": "b1c89a36d4947d70",
+  "hash": "7dc187805a3a98f9",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1431
+  "chars": 1430
  },
  "oneness-pentecostalism-0": {
-  "hash": "e959d01359cae3a0",
+  "hash": "fc639de83a6f8e54",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
@@ -3129,11 +3129,11 @@
   "chars": 1501
  },
  "iglesia-ni-cristo-the-way-international-unificat-0": {
-  "hash": "fbba23281ae6c78b",
+  "hash": "663623f61758dd2b",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1257
+  "chars": 1334
  },
  "iglesia-ni-cristo-the-way-international-unificat-1": {
   "hash": "23480650bd2b9537",
@@ -3143,18 +3143,18 @@
   "chars": 1334
  },
  "branch-davidians-and-apocalyptic-splinters-0": {
-  "hash": "ff6b106c76ce15be",
+  "hash": "962d3f42cdccf14e",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1411
+  "chars": 1410
  },
  "the-sayfo-and-the-syriac-diaspora-0": {
-  "hash": "2abdfcb876441a4b",
+  "hash": "93c53b6ef6b8895e",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1397
+  "chars": 1403
  },
  "the-sayfo-and-the-syriac-diaspora-1": {
   "hash": "f4f08e2bc89a2353",
@@ -3164,60 +3164,60 @@
   "chars": 1362
  },
  "modern-ethiopian-and-eritrean-christianity-0": {
-  "hash": "5e232967eaa91908",
+  "hash": "9d657adaf4abe85f",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1384
+  "chars": 1387
  },
  "modern-ethiopian-and-eritrean-christianity-1": {
-  "hash": "20fd2cd6f4407de5",
+  "hash": "5196078b17c88543",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1462
+  "chars": 1489
  },
  "the-ukrainian-greek-catholic-underground-0": {
-  "hash": "13958e2c8cb01fd9",
+  "hash": "2ac2bd9f2ce95822",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1480
+  "chars": 1486
  },
  "the-ukrainian-greek-catholic-underground-1": {
-  "hash": "e048908a4e376c35",
+  "hash": "860fe6fd0e29923d",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1441
+  "chars": 1440
  },
  "the-russian-new-martyrs-and-the-catacomb-church-0": {
-  "hash": "090cbb29ef30a158",
+  "hash": "df4a7454eeca4c68",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1462
+  "chars": 1454
  },
  "the-russian-new-martyrs-and-the-catacomb-church-1": {
-  "hash": "ae03fc61187236f6",
+  "hash": "4211fc857c85dd31",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1449
+  "chars": 1458
  },
  "the-post-vatican-ii-parish-world-0": {
-  "hash": "4173a5c35180e74b",
+  "hash": "39bfbb77f192616c",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1391
+  "chars": 1397
  },
  "the-post-vatican-ii-parish-world-1": {
-  "hash": "dccc505906457a4a",
+  "hash": "1dcaac25ea49e7c6",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1433
+  "chars": 1447
  },
  "lausanne-era-global-evangelicalism-0": {
   "hash": "d17a3fb9bf8dfce1",
@@ -3234,46 +3234,46 @@
   "chars": 1472
  },
  "african-diaspora-and-reverse-mission-churches-in-0": {
-  "hash": "e0926ed934319384",
+  "hash": "ddc272aaa06ff36f",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1377
+  "chars": 1375
  },
  "african-diaspora-and-reverse-mission-churches-in-1": {
-  "hash": "9a552e2019a78384",
+  "hash": "b804f83eb9987f20",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1493
+  "chars": 1431
  },
  "ratana-church-and-pacific-adjustment-movements-0": {
-  "hash": "4e3eda6420b91306",
+  "hash": "42f4b9fd52bcd066",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1389
+  "chars": 1388
  },
  "ratana-church-and-pacific-adjustment-movements-1": {
-  "hash": "b910cfd0b05c1143",
+  "hash": "1673d3f543ae1dc6",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1350
+  "chars": 1359
  },
  "the-armenian-church-after-the-genocide-medz-yegh-0": {
-  "hash": "90b1d6a1ce465bfd",
+  "hash": "216cd1f6d9484b71",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1393
+  "chars": 1392
  },
  "the-armenian-church-after-the-genocide-medz-yegh-1": {
-  "hash": "1bd2ef10a730f904",
+  "hash": "ebcdde23e2ab27bc",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1427
+  "chars": 1430
  },
  "the-emerging-church-and-post-evangelical-movemen-0": {
   "hash": "795df1662fd71a45",
@@ -3304,11 +3304,11 @@
   "chars": 1535
  },
  "the-megachurch-and-seeker-movement-0": {
-  "hash": "3e12d870363da1e3",
+  "hash": "e0aff00f14a5e09d",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1475
+  "chars": 1470
  },
  "the-megachurch-and-seeker-movement-1": {
   "hash": "cd135acaf24f6a20",
@@ -3332,11 +3332,11 @@
   "chars": 1410
  },
  "the-narrative-kingdom-renewal-the-bible-as-one-s-0": {
-  "hash": "0ac0f6c8ab89e1ad",
+  "hash": "0d0e11786fbb894c",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1318
+  "chars": 1317
  },
  "the-narrative-kingdom-renewal-the-bible-as-one-s-1": {
   "hash": "900627f01adb5a47",
@@ -3346,7 +3346,7 @@
   "chars": 1407
  },
  "fundamentalism-1910-1970s-0": {
-  "hash": "77a02fae30476b20",
+  "hash": "c44945f468af5f7c",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
@@ -3367,11 +3367,11 @@
   "chars": 1402
  },
  "the-social-gospel-1": {
-  "hash": "ed0af63b82ec0d9f",
+  "hash": "25ade471c40f7c47",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1421
+  "chars": 1420
  },
  "the-mainline-century-liberal-and-neo-orthodox-0": {
   "hash": "4a2c3ac23ca27352",
@@ -3402,53 +3402,53 @@
   "chars": 1453
  },
  "indonesian-christianity-the-independent-century-0": {
-  "hash": "10c70e117d5cdf22",
+  "hash": "75ac73ae1d2beee4",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1428
+  "chars": 1390
  },
  "indonesian-christianity-the-independent-century-1": {
-  "hash": "b68ad28d74a2c49f",
+  "hash": "8d1a27474d6f6d8e",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1441
+  "chars": 1387
  },
  "northeast-india-and-mar-thoma-twentieth-century-0": {
-  "hash": "2ea40efea1f2938a",
+  "hash": "c16f040ac19932de",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1437
+  "chars": 1482
  },
  "northeast-india-and-mar-thoma-twentieth-century-1": {
-  "hash": "98f93fa61783500a",
+  "hash": "796c6ede09f35db4",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1415
+  "chars": 1381
  },
  "the-malankara-churches-orthodox-and-jacobite-0": {
-  "hash": "07af57e881e69e79",
+  "hash": "5173b096bc62cfa9",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1597
+  "chars": 1589
  },
  "the-malankara-churches-orthodox-and-jacobite-1": {
-  "hash": "b2091377c13e50a9",
+  "hash": "cb1e31a442c9f8c4",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1529
+  "chars": 1493
  },
  "the-georgian-orthodox-church-restored-0": {
-  "hash": "897f7105f42e932b",
+  "hash": "982ed49aae358d98",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1464
+  "chars": 1405
  },
  "the-georgian-orthodox-church-restored-1": {
   "hash": "4f9debbf71012599",
@@ -3458,60 +3458,60 @@
   "chars": 1476
  },
  "churches-of-christ-twentieth-century-0": {
-  "hash": "4293d657d3c402d9",
+  "hash": "1eb9157f40a9b641",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1465
+  "chars": 1467
  },
  "churches-of-christ-twentieth-century-1": {
-  "hash": "56a8772eb3d938b8",
+  "hash": "3f2dcd5464c561f0",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1552
+  "chars": 1573
  },
  "disciples-of-christ-and-independent-christian-churches-0": {
-  "hash": "acd9753ed20490fe",
+  "hash": "41d7e9174ad44d4a",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1554
+  "chars": 1559
  },
  "disciples-of-christ-and-independent-christian-churches-1": {
-  "hash": "c7fb19bbdbfe629c",
+  "hash": "fac240c655762ab2",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1487
+  "chars": 1481
  },
  "the-black-church-in-the-twentieth-century-0": {
-  "hash": "136ee078847839ba",
+  "hash": "fa604ba515bb13d5",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1515
+  "chars": 1514
  },
  "the-black-church-in-the-twentieth-century-1": {
-  "hash": "ffd2afe1d5f5be28",
+  "hash": "cf75033acb9c0ee4",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1436
+  "chars": 1438
  },
  "seventh-day-adventist-church-twentieth-century-0": {
-  "hash": "191a8fee4644178f",
+  "hash": "2014639aa30bbd48",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1556
+  "chars": 1553
  },
  "seventh-day-adventist-church-twentieth-century-1": {
-  "hash": "1d53e2d5b161b359",
+  "hash": "cdb3c25b18c952c1",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1526
+  "chars": 1430
  },
  "charismatic-renewal-and-the-jesus-movement-0": {
   "hash": "a2cb5e0722c8abe6",
@@ -3528,18 +3528,18 @@
   "chars": 1387
  },
  "the-ecumenical-movement-and-the-wcc-0": {
-  "hash": "1e386d24ef095b64",
+  "hash": "bd91b4b00bd9cb25",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
   "chars": 1476
  },
  "the-ecumenical-movement-and-the-wcc-1": {
-  "hash": "8854b8d2930b5444",
+  "hash": "6b9b0700d91ac377",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1572
+  "chars": 1566
  },
  "the-catholic-church-pius-x-to-the-council-0": {
   "hash": "87baf34af9872d76",
@@ -3549,11 +3549,11 @@
   "chars": 1399
  },
  "the-catholic-church-pius-x-to-the-council-1": {
-  "hash": "53f47b8785996550",
+  "hash": "521e2e8e0f721af6",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1493
+  "chars": 1429
  },
  "american-orthodoxy-autocephaly-and-the-convert-wave-0": {
   "hash": "f8f170334d56efaa",
@@ -3563,18 +3563,18 @@
   "chars": 1519
  },
  "american-orthodoxy-autocephaly-and-the-convert-wave-1": {
-  "hash": "2b58a7f19d6eee41",
+  "hash": "eccb8e9945b54316",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1481
+  "chars": 1520
  },
  "hebrew-roots-and-torah-observance-movements-0": {
-  "hash": "785fe19bada932b6",
+  "hash": "0eb85ae685cba6a4",
   "voiceId": "onegjDE2z0mQtp1g0HK7",
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
-  "chars": 1499
+  "chars": 1495
  },
  "hebrew-roots-and-torah-observance-movements-1": {
   "hash": "7dfa4fbfeef91505",
@@ -3582,5 +3582,26 @@
   "model": "eleven_v4",
   "outputFormat": "mp3_44100_64",
   "chars": 1450
+ },
+ "cyrilline-miaphysite-egyptian-christianity-3": {
+  "hash": "b4a0da501ee0617a",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 591
+ },
+ "cyrilline-miaphysite-egyptian-christianity-4": {
+  "hash": "8118de7748565281",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 584
+ },
+ "melitian-schism-0": {
+  "hash": "4d8465f36566ef9b",
+  "voiceId": "onegjDE2z0mQtp1g0HK7",
+  "model": "eleven_v4",
+  "outputFormat": "mp3_44100_64",
+  "chars": 659
  }
 }
