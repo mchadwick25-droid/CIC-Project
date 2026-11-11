@@ -2194,3 +2194,56 @@ it, never by deleting it.
     text and audio: the 8 Jon person briefs and the 69 tradition and story recordings. The text of
     those fields is not edited until then. Re-record them together in one approved, capped run when
     credits allow. Owner: the coordinator.
+
+219. **Open points from the era 5 scan (2026-11-11).** Owners as noted. Source:
+    `Build/Ministry/Operations/Audits/2026-11-11_who-scan-era5/`.
+    - Innocent III (live person entry) is WANTED (Mark: "Wanted, keep live"). His live profile stays
+      until the Gesta Innocentii III (tr. Powell, 2004; the edition is the checker's recollection
+      and needs confirming) is held; then rescore him. Owner: the Library thread, then the
+      coordinator.
+    - 43 WANTED rows, most of them unheld in the Library. People and their named sources: Innocent
+      III (Gesta), Sava of Serbia and Domentijan and Teodosije (the Lives of Sava, ed. Danicic),
+      Bernard of Clairvaux, Robert of Molesme, Stephen Harding, Aelred, Walter Daniel and William of
+      St Thierry (Matarasso, The Cistercian World, and Waddell, Narrative and Legislative Texts from
+      Early Citeaux), Bruno of Cologne, Hugh of Lincoln and Adam of Eynsham (the Magna Vita), Norbert
+      of Xanten, Hadewijch, Marie d'Oignies and Jacques de Vitry (the Life, Lettres and Historia
+      Orientalis), Marguerite Porete, Clare of Assisi, Brother Leo (Scripta Leonis), Thomas of
+      Celano, Agnes of Prague, Dominic, Jordan of Saxony, Diana d'Andalo, Gerard de Frachet, Humbert
+      of Romans (the Legenda), Thomas Aquinas, Joachim of Fiore, Salimbene, Valdes of Lyon, Rainerius
+      Sacconi, William of Tyre, Anselm of Canterbury, Thomas Becket, Hugh de Payens, Adam of Bremen,
+      Anna Komnene (OUTSIDE WITNESS), Basil the Physician, George the Hagiorite, Gregory
+      Pakourianos, Nestor the chronicler (the Primary Chronicle), Cyril III ibn Laqlaq and Marco Polo
+      (OUTSIDE WITNESS). Edition names from memory are tagged "[suggested; to confirm]" in the
+      audit. Owner: the Library thread (see 220).
+    - Missing outside witnesses, recorded as wanted sources with no rows (coordinator's call): Ibn
+      al-Athir, Usama ibn Munqidh, Ibn Jubayr, Rashid al-Din (the full history, not the held
+      geography excerpt) and Benjamin of Tudela. None is named in an era 5 census text. Owner: the
+      Library thread.
+    - Library material the scan found: Denzinger holds canon extracts of Lateran I to IV, Verona
+      1184 and Lyon II; the Athos Urkunden (Meyer 1894) hold Sava's Typikon and Athanasios's;
+      Brosset's translation of the Georgian royal chronicle holds the Lives of David and Tamar;
+      Ehrle's Archiv bd1 and bd2 hold the Anagni protocol and the Historia tribulationum on Gerard of
+      Borgo San Donnino. Misleading names: Gratian (the emperor), Mechthild of Magdeburg and
+      "von Helfeda", Euthymius the Hagiorite. Owner: the Library thread.
+    - Census text to check by change order: the Beguines sources note says Mechthild finished the
+      Flowing Light at Helfta; the held edition (Morel 1869, MECH 417-422) sets her apart from the
+      Helfta Mechthild and has no line for it. Conflicting dates inside the sources: Innocent IV's
+      confirming bull is 1247 in the census and 1248 in the held text; Richard of St Victor dies
+      1162 on the census people list and 1173 in a held note. Owner: the coordinator.
+    - Moves by date of work, to the era 4 supplement: Symeon the New Theologian, Yahya ibn Said,
+      John of Rila. To the era 6 scan: Bernard Gui (he stays on the Waldensian people list and is
+      scored once, in era 6), Eckhart, Tauler, Suso, Angelo Clareno, Belibaste, Jacques de Molay,
+      John of Brunn, Guiard of Cressonessart, Euthymius of Tarnovo. Owner: the coordinator.
+    - Supplement-scan leads (held, named in no census text): John of Parma, Peter Olivi, Elias of
+      Cortona, Elizabeth of Thuringia, Berengar, Abelard, Gregory IV Dgh'a, Constable Sempad (a
+      lay chronicler like Anna Komnene; the OUTSIDE WITNESS label would cover both) and Maron (era 2
+      by date, no earlier row). Owner: the coordinator.
+    - The coordinator's calls (Mark may overrule): Sava WANTED; Brother Leo WANTED; Dionysius bar
+      Salibi, Mari ibn Sulayman and Abu Salih WHO, flagged; the pairs and the Alberic and Stephen
+      Harding split; Humbert of Romans WANTED; Toros Roslin LISTED. Owner: the coordinator.
+    - The "Major?" column is a proposal for each WHO; Mark confirms it in each batch.
+
+220. **Library timing: one combined WANTED list after all scans (2026-11-11).** Mark: "After all
+    scans". The Library thread gets one combined WANTED list after eras 6 to 10 are scanned, ordered
+    by era with major figures first. Until then the WANTED sources in 216 and 219 are recorded, not
+    acquired. Ruling in `Decision-Log.md`, "The era 5 Who scan" (2026-11-11). Owner: the coordinator.
