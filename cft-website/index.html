@@ -89600,8 +89600,13 @@ function peopleHTML(m){
     `<li><button type="button" class="panel-link" data-person="${esc(P.key)}">${esc(P.entry?P.entry.name:P.name)}</button> · ${esc(personDates(P))}</li>`).join('')}</ul>`;
 }
 function briefLength(seconds){
-  if(seconds<75)return 'about a minute';
+  if(seconds<90)return 'about a minute';
   return `about ${Math.round(seconds/60)} minutes`;
+}
+function clipLength(meta){
+  const kbps=+(/_(\d+)$/.exec(meta.outputFormat||'')||[])[1]||64;
+  const total=Math.round(meta.bytes*8/(kbps*1000)), m=Math.floor(total/60), sec=total%60;
+  return `${m}:${String(sec).padStart(2,'0')}`;
 }
 const listHTML=items=>`<ul class="person-list">${items.map(t=>`<li>${esc(t)}</li>`).join('')}</ul>`;
 function personLinks(p){
@@ -89636,7 +89641,7 @@ function openPersonCard(P){
   if(p&&p.longDescription){
     const meta=treeAudioMeta[p.id], recorded=treeAudioCurrent.has(p.id)&&meta;
     const words=p.longDescription.split(/\s+/).length;
-    const len=recorded&&meta.bytes?briefLength(meta.bytes*8/64000):briefLength(words/150*60);
+    const len=recorded&&meta.bytes?clipLength(meta):briefLength(words/150*60);
     const text=p.longDescription.split('\n\n').map(t=>`<p>${esc(t)}</p>`).join('');
     h+=`<h3>The brief · ${esc(len)}</h3>`;
     if(recorded)h+='<div class="narration"><audio controls preload="none" src="audio/tree/'+esc(p.id)+'.mp3"></audio><p class="narration-disclosure">Synthesized voice — not a recording.</p></div>'
