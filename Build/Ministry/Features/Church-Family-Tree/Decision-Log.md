@@ -1975,3 +1975,40 @@ renamed, because ids name the tree pages and the audio files.
 live briefs and cards. Its fixes to the pattern are applied. Its findings in the eight are
 registered in Open-Gaps ("Pattern findings in the eight live person texts", 2026-11-11). Nothing
 live was changed: that is a change order.
+
+
+## 2026-11-11 — The era 3 Who scan: rulers, carry to era 4, recorders without the label (Mark, 2026-11-11)
+
+**Decided (Mark, 2026-11-11, relayed by the coordinator; his words as given).** The read-only scan
+of era 3 (451–622 CE) used the era 1 and 2 standard. Mark ruled on the cases it raised:
+- **Rulers:** "Story unless own voice". Official texts alone (edicts, chancery letters) make a
+  STORY; an own corpus or a personal confession makes a WHO. Justinian (his Novels) and Reccared
+  (his own confession at Toledo III) are WHO. Anastasius I, Heraclius, Theodoric, Huneric, Clovis
+  and Geiseric are STORY.
+- **People named in era 3 entries who fall after 622:** "Carry to era 4". Thirteen provisional
+  rows (Muirchu, Adomnán, Jonas of Bobbio, Aidan, Colmán, Cogitosus, Braulio, Ildefonsus, John of
+  Nikiu, Maximus the Confessor, Sophronius of Jerusalem, Antony of Choziba, al-Baladhuri) are
+  scored in the era 4 scan and are not counted in era 3.
+- **Marcellinus Comes:** "Recorder, no label". WHO as a recorder. The OUTSIDE WITNESS label stays
+  on Procopius and Agathias (and al-Baladhuri, carried to era 4).
+- **Theodora:** "Who".
+
+**Coordinator's calls under settled rules (not Mark's words; Mark may overrule).** Barsanuphius and
+John of Gaza are two WHO rows, as the census draws them; the brief notes that the held answers are
+not labelled by speaker. Moses of Khoren is WHO as a recorder, with his date tagged Contested.
+
+**Outcome of the era 3 sweep.** 104 people: WHO 65, STORY 19, LISTED 12, WANTED 8, plus 13 rows
+carried to era 4. Judgment-call rows: 67. Justinian is WHO: his Novels are held (Novel 131
+included); the 553 acts are held only as extracts in `npnf214`; his edicts against the Three
+Chapters are not held as text; Procopius's Buildings, Secret History and Wars are held. All five
+live person entries (Simeon of Beth Arsham, Peter the Iberian, Gregory the Great, Patrick,
+Justinian) are WHO, so no live profile is at risk. The WANTED rows are Iakob Tsurtaveli, Vachagan
+III, Movses Daskhurantsi, Sabas, John Malalas, Theophylact Simocatta, al-Tabari and Ibn Ishaq.
+Opus checks read the cited passages: 116 first-pass rows (98 confirmed, 18 corrected, none not
+supported; George of Choziba, Theodoric and Huneric moved to STORY), the 33 draft councils (4
+corrected), and the one row changed by Mark's answers. Thirty-one councils are listed with their
+participants. The full table and the checks:
+`Build/Ministry/Operations/Audits/2026-11-11_who-scan-era3/`.
+
+**What this does not change.** No census, record or site change is made by this scan. Councils stay
+out of the census until the change order named in the era 2 entry.

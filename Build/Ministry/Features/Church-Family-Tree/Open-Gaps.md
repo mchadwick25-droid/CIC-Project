@@ -2094,3 +2094,46 @@ it, never by deleting it.
     take a name-of-place identifier, because no vendored source gives one. The pattern leaves the
     name as the sources have it. Open: whether the Library thread can name a source. Owner: the
     Library thread.
+214. **The era 3 Who scan's wanted sources (2026-11-11).** Eight people would be a Who if the Library
+    held one named source. Owner: the Library thread.
+    - Iakob Tsurtaveli: *The Martyrdom of Shushanik* (Lang, *Lives and Legends of the Georgian
+      Saints*, 1956; Georgian ed. Abuladze). It would also lift Shushanik from LISTED to STORY.
+    - Vachagan III of Albania and Movses Daskhurantsi: Movses Daskhurantsi, *History of the Caucasian
+      Albanians* (Dowsett, 1961, or Patkanian, 1861), with the Canons of Aghuen. One source serves
+      both rows.
+    - Sabas: Cyril of Scythopolis, *Vita Sabae* (Cotelier, *Ecclesiae Graecae Monumenta* III; Schwartz
+      1939). Only Severus-passage extracts are held, in the Kugener PO2 file (l.24694–25324).
+    - John Malalas: *Chronographia* (Dindorf 1831, or Migne PG 97). A short extract is held in the
+      Kugener PO2 file (l.25347–25421).
+    - Theophylact Simocatta: *Historiae* (de Boor 1887, or Migne PG 113). Photius's English epitome
+      is held (`photius_library-v1_freese1920`, l.4812–5400); the work is not.
+    - al-Tabari: *Tarikh al-rusul wa'l-muluk* (de Goeje 1879–1901; Zotenberg's French 1867–74). Era
+      4 by date.
+    - Ibn Ishaq: *Sirat Rasul Allah* as edited by Ibn Hisham (Wüstenfeld 1858–60). Era 4 by date.
+    - Source: `Build/Ministry/Operations/Audits/2026-11-11_who-scan-era3/`.
+215. **Open points from the era 3 scan (2026-11-11).** Owners as noted.
+    - Thirteen rows carried to era 4 and scored there: Muirchu, Adomnán, Jonas of Bobbio, Aidan,
+      Colmán, Cogitosus, Braulio, Ildefonsus, John of Nikiu, Maximus the Confessor, Sophronius,
+      Antony of Choziba, al-Baladhuri. Mennas (Benjamin I's brother, fully era 4 by date), al-Tabari
+      and Ibn Ishaq are also era 4 by date and still sit in the era 3 record; the coordinator
+      places them at the era 4 scan. Brigid of Kildare's WHO row rests on Cogitosus, so it is
+      rechecked when he is scored. Owner: the coordinator.
+    - Marcellinus Comes is WHO as a recorder with a thin own-life; the profile marks that. Owner:
+      the coordinator.
+    - Source gaps: the full acts of Constantinople 553 (Mansi 9; only English extracts are held in
+      `npnf214`), Mansi 8, Justinian's edicts against the Three Chapters (c.543/545 and 551), the
+      acts of Dvin II and III and the Council of Aghuen (only Ormanian's summaries are held),
+      Columbanus's Rules and other letters, Thomson's *Elishe*, Lang 1956, and the Armenian Book of
+      Letters. The Library has Heraclius's Ekthesis in Latin (Mansi 10, l.100125–100714) but not in
+      Greek. Owner: the Library thread.
+    - Misleading file names: the Cogitosus Life of Brigid sits inside
+      `john-biclaro-leander-pl72-lat_migne1878.txt`; the Kugener PO2 file holds Vita Sabae extracts,
+      a Malalas extract and the 536 acts; two near-identical John of Ephesus HE III files have line
+      numbers about 1,850 apart. Owner: the Library thread.
+    - Timothy Aelurus's own refutation is held only in Classical Armenian, with no translation.
+      Owner: the Library thread.
+    - Armenian Christianity before the Bagratids (c.554–884) names nobody in its census text
+      fields, and its sourcing line is stale. Owner: the coordinator.
+    - LISTED rows that could be argued as STORY: Proterius, Sahak of Rshtunik, Elias of Jerusalem.
+      Owner: the coordinator.
+    - Source: `Build/Ministry/Operations/Audits/2026-11-11_who-scan-era3/`.
