@@ -1434,6 +1434,22 @@ site when person rows were held.
 - **Rate:** 0.485 credits per character on both models, against 0.44 on the 2026-11-08 and
   2026-11-09 runs.
 
+**Credits, reconciled.** This session's runs total 212,870 credits by their own headers:
+- sample, 968;
+- voice comparison, 867;
+- tradition briefs, 86,904;
+- the charged 503 failure, 400;
+- stories, 123,731.
+
+Two approved runs in other sessions used the same account on the same day, and their figures
+come from their own reports:
+- the coordinator's people-voice comparison, 536 credits;
+- the person-brief pilot, run "CFT person pilot 2026-11-11", in David Baker's voice, cap 5,500
+  characters (session_01JMNsSDwnAiKRGQ5GRsfSad). Its first report was Origen, 1,734 characters,
+  841 credits; its final figure is in its own record.
+
+The account read 1,835 used before the batch and 216,355 at the end of the stories.
+
 **Checks.**
 - Every manifest entry records its voice, model, format and text fingerprint.
 - Brief sizes run 568-681 bytes per character and 11.7-14.1 characters per second. Story sizes run
