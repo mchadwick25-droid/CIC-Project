@@ -1903,3 +1903,24 @@ it, never by deleting it.
     charter 2026-10-17); major links would point to their event's story, the link note staying as
     evidence. Scheduled for the week after 2026-11-14. See also "Design idea: a brief that plays
     first, then an optional deeper story" (2026-11-10).
+198. **What the 2026-11-11 recording batch leaves for later (2026-11-11).** The batch recorded every
+    tradition brief and documented story whose text had changed or had no recording. That settles
+    "176 story recordings wait for the ElevenLabs quota to reset" (2026-11-09). Still open:
+    - **Person briefs.** All 39 are rewritten to the person-brief standard (Decision-Log,
+      "Person briefs: 60 to 120 seconds, personal and theological", 2026-11-11), then recorded
+      together in David Baker's voice (`fxnZk29PIJ3WKEC9MDEo`).
+      - The tree planner leaves out person rows until then. The exclusion comes out, and a
+        required `--person-voice-id` comes in, with that work.
+      - Tertullian's existing brief plays in Daniel on the live site until it is replaced.
+    - **Councils and new stories.** They have no census text yet (Shared Events, see "Narration
+      scope", 2026-11-10). They get their own sample and run once written.
+    - **8 movements with no `longDescription`.** No brief is recorded until text is written:
+      armenian-christianity-before-the-bagratids, medieval-irish-christianity,
+      medieval-welsh-christianity, church-of-the-east-under-the-abbasids,
+      kongo-christianity-afonso-to-1650, kirishitan-japan, china-mission-born-christianity,
+      new-spain-and-andes-mission-born-christianity.
+    - **The 62 gap stories** (`cic-website/audio/stories/`) store no text fingerprint, so a
+      changed text does not show which recording is stale.
+    - **Orphan manifest keys.** One tree key (`deconstruction-and-ex-vangelical-communities`) and
+      12 story keys belong to retired or built rows. They cost nothing and play nowhere.
+    Owner: the recording thread.
