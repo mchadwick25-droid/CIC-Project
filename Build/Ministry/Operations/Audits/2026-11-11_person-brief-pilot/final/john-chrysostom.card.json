@@ -1,56 +1,252 @@
 {
- "known_for": "Preacher at Antioch and bishop of Constantinople, who spoke plainly about wealth and the poor and died in exile.",
- "role": "Preacher and bishop of Constantinople",
- "key_works": [
-  {
-   "title": "Homilies on Matthew",
-   "about": "verse-by-verse sermons, including Homily 50 on honoring Christ in the poor"
+  "knownFor": "Preacher at Antioch and bishop of Constantinople, who spoke plainly about wealth and the poor and died in exile.",
+  "role": "Preacher and bishop of Constantinople",
+  "keyWorks": [
+    {
+      "title": "Homilies on Matthew",
+      "about": "verse-by-verse sermons, including Homily 50 on honoring Christ in the poor"
+    },
+    {
+      "title": "Homilies on the Statues",
+      "about": "twenty-one sermons from the weeks of fear in Antioch in 387"
+    },
+    {
+      "title": "On the Priesthood",
+      "about": "written, the church historian Socrates says, while he was a deacon at Antioch"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Socrates says his sermons reached readers two ways: some John published himself, and others were taken down in shorthand as he spoke.",
+      "Palladius, a bishop who stood by him, wrote a dialogue on his life and fall, and tells the journey into exile.",
+      "After his deposition John's followers, called Johannites by their opponents, left the church and held their own services in the public baths and elsewhere. They came back, Socrates says, only when Proclus of Constantinople brought John's body home on the twenty-seventh of January, 438. He laid it in the Church of the Apostles."
+    ],
+    "remembered": [
+      "Honored by Palladius, who defends him throughout his dialogue, and by the crowds who kept watch all night to stop his removal from the church.",
+      "Disputed in his lifetime: Severian of Gabala preached that John's haughtiness was reason enough to depose him. Sisinnius, the Novatian bishop, wrote against John's saying 'Approach, although you may have repented a thousand times.' Socrates, who tells of both, writes that John's zeal for strictness sat oddly with that sermon.",
+      "Socrates notes that Theophilus of Alexandria condemned Origen about two hundred years after Origen's death, while John was restored to communion in the thirty-fifth year after his deposition."
+    ]
   },
-  {
-   "title": "Homilies on the Statues",
-   "about": "twenty-one sermons from the weeks of fear in Antioch in 387"
-  },
-  {
-   "title": "On the Priesthood",
-   "about": "written, Socrates says, while he was a deacon at Antioch"
+  "uncertain": [
+    "Socrates reports that the sermon over Eutropius, the emperor's chief eunuch, struck some as cruel. In the sermon itself John says he was blamed for taking Eutropius into the sanctuary, and that he described the man's fall to move the people to mercy. Socrates also passes on that John was said to be stern and severe, and that a friend of his youth found him more prone to irritability than to modesty.",
+    "John ate alone, and Socrates says no one knew why for certain. Palladius, who knew him, says he drank no wine, had a disordered stomach, and sometimes put off his meals while absorbed in prayer and study. Socrates also says people gave other reasons, and that the habit helped his enemies.",
+    "Socrates says John died in Comana. Palladius says the soldiers lodged him at a martyr's shrine five or six miles outside the town and that he died there."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Homily on the Paralytic Let Down Through the Roof",
+        "file": "cic/texts/npnf109_chrysostom-priesthood-ascetic-homilies-statutes.xml",
+        "language": "English"
+      },
+      {
+        "title": "In Sanctum Lucianum Martyrem",
+        "file": "cic/texts/john-chrysostom_homily-martyr-lucian-grc-lat_migne-pg50.txt",
+        "language": "Latin"
+      },
+      {
+        "title": "A Treatise to Prove that No One Can Harm the Man Who Does Not Injure Himself",
+        "file": "cic/texts/npnf109_chrysostom-priesthood-ascetic-homilies-statutes.xml",
+        "language": "English"
+      },
+      {
+        "title": "An Exhortation to Theodore After His Fall",
+        "file": "cic/texts/npnf109_chrysostom-priesthood-ascetic-homilies-statutes.xml",
+        "language": "English"
+      },
+      {
+        "title": "Commentary on Galatians",
+        "file": "cic/texts/npnf113_chrysostom-homilies-galatians-philemon.xml",
+        "language": "English"
+      },
+      {
+        "title": "Early treatises (to Theodore, On the Priesthood, On compunction and others), Greek, PG 47",
+        "file": "cic/texts/john-chrysostom_opera-pg47-palladius-dialogus-grc-lat_migne1863.txt",
+        "language": "Greek"
+      },
+      {
+        "title": "Eulogy on S. Ignatius",
+        "file": "cic/texts/npnf109_chrysostom-priesthood-ascetic-homilies-statutes.xml",
+        "language": "English"
+      },
+      {
+        "title": "Homilies on Colossians",
+        "file": "cic/texts/npnf113_chrysostom-homilies-galatians-philemon.xml",
+        "language": "English"
+      },
+      {
+        "title": "Homilies on Ephesians",
+        "file": "cic/texts/npnf113_chrysostom-homilies-galatians-philemon.xml",
+        "language": "English"
+      },
+      {
+        "title": "Homilies on First Corinthians",
+        "file": "cic/texts/npnf112_chrysostom-homilies-corinthians.xml",
+        "language": "English"
+      },
+      {
+        "title": "Homilies on First Thessalonians",
+        "file": "cic/texts/npnf113_chrysostom-homilies-galatians-philemon.xml",
+        "language": "English"
+      },
+      {
+        "title": "Homilies on First Timothy",
+        "file": "cic/texts/npnf113_chrysostom-homilies-galatians-philemon.xml",
+        "language": "English"
+      },
+      {
+        "title": "Homilies on Philemon",
+        "file": "cic/texts/npnf113_chrysostom-homilies-galatians-philemon.xml",
+        "language": "English"
+      },
+      {
+        "title": "Homilies on Philippians",
+        "file": "cic/texts/npnf113_chrysostom-homilies-galatians-philemon.xml",
+        "language": "English"
+      },
+      {
+        "title": "Homilies on Second Corinthians",
+        "file": "cic/texts/npnf112_chrysostom-homilies-corinthians.xml",
+        "language": "English"
+      },
+      {
+        "title": "Homilies on Second Thessalonians",
+        "file": "cic/texts/npnf113_chrysostom-homilies-galatians-philemon.xml",
+        "language": "English"
+      },
+      {
+        "title": "Homilies on Second Timothy",
+        "file": "cic/texts/npnf113_chrysostom-homilies-galatians-philemon.xml",
+        "language": "English"
+      },
+      {
+        "title": "Homilies on Titus",
+        "file": "cic/texts/npnf113_chrysostom-homilies-galatians-philemon.xml",
+        "language": "English"
+      },
+      {
+        "title": "Homilies on the Acts of the Apostles",
+        "file": "cic/texts/npnf111_chrysostom-homilies-acts-romans.xml",
+        "language": "English"
+      },
+      {
+        "title": "Homilies on the Epistle to the Hebrews",
+        "file": "cic/texts/npnf114_chrysostom-homilies-john-hebrews.xml",
+        "language": "English"
+      },
+      {
+        "title": "Homilies on the Epistle to the Romans",
+        "file": "cic/texts/npnf111_chrysostom-homilies-acts-romans.xml",
+        "language": "English"
+      },
+      {
+        "title": "Homilies on the Gospel of St. John",
+        "file": "cic/texts/npnf114_chrysostom-homilies-john-hebrews.xml",
+        "language": "English"
+      },
+      {
+        "title": "Homilies on the Gospel of St. Matthew",
+        "file": "cic/texts/npnf110_chrysostom-homilies-matthew.xml",
+        "language": "English"
+      },
+      {
+        "title": "Homily Against Marcionists and Manichaeans (on Matt. xxvi. 19)",
+        "file": "cic/texts/npnf109_chrysostom-priesthood-ascetic-homilies-statutes.xml",
+        "language": "English"
+      },
+      {
+        "title": "Homily Against Publishing the Errors of the Brethren",
+        "file": "cic/texts/npnf109_chrysostom-priesthood-ascetic-homilies-statutes.xml",
+        "language": "English"
+      },
+      {
+        "title": "Homily Concerning Lowliness of Mind",
+        "file": "cic/texts/npnf109_chrysostom-priesthood-ascetic-homilies-statutes.xml",
+        "language": "English"
+      },
+      {
+        "title": "Homily to Those Who Had Not Attended the Assembly (on Rom. xii. 20)",
+        "file": "cic/texts/npnf109_chrysostom-priesthood-ascetic-homilies-statutes.xml",
+        "language": "English"
+      },
+      {
+        "title": "Instructions to Catechumens",
+        "file": "cic/texts/npnf109_chrysostom-priesthood-ascetic-homilies-statutes.xml",
+        "language": "English"
+      },
+      {
+        "title": "Letter to a Young Widow",
+        "file": "cic/texts/npnf109_chrysostom-priesthood-ascetic-homilies-statutes.xml",
+        "language": "English"
+      },
+      {
+        "title": "Letters from exile (to Innocent of Rome, to Olympias, from Cucusus) and homilies of 399-404, Greek, PG 52",
+        "file": "cic/texts/john-chrysostom_opera-pg52-epistulae-grc-lat_migne1862.txt",
+        "language": "Greek"
+      },
+      {
+        "title": "Letters of St. Chrysostom to Innocent, Bishop of Rome",
+        "file": "cic/texts/npnf109_chrysostom-priesthood-ascetic-homilies-statutes.xml",
+        "language": "English"
+      },
+      {
+        "title": "Letters of St. Chrysostom to Olympias (with letter to the presbyters of Antioch)",
+        "file": "cic/texts/npnf109_chrysostom-priesthood-ascetic-homilies-statutes.xml",
+        "language": "English"
+      },
+      {
+        "title": "On the Holy Martyr, S. Babylas",
+        "file": "cic/texts/npnf109_chrysostom-priesthood-ascetic-homilies-statutes.xml",
+        "language": "English"
+      },
+      {
+        "title": "The Homilies on the Statues to the People of Antioch",
+        "file": "cic/texts/npnf109_chrysostom-priesthood-ascetic-homilies-statutes.xml",
+        "language": "English"
+      },
+      {
+        "title": "Three Homilies Concerning the Power of Demons",
+        "file": "cic/texts/npnf109_chrysostom-priesthood-ascetic-homilies-statutes.xml",
+        "language": "English"
+      },
+      {
+        "title": "Treatise Concerning the Christian Priesthood (De Sacerdotio)",
+        "file": "cic/texts/npnf109_chrysostom-priesthood-ascetic-homilies-statutes.xml",
+        "language": "English"
+      },
+      {
+        "title": "Two Homilies on Eutropius",
+        "file": "cic/texts/npnf109_chrysostom-priesthood-ascetic-homilies-statutes.xml",
+        "language": "English"
+      },
+      {
+        "title": "Homilies on the Epistle to the Romans, Homily XXIII (on Romans 13:1)",
+        "file": "cic/texts/npnf111_chrysostom-homilies-acts-romans.xml",
+        "language": "English"
+      }
+    ],
+    "about": [
+      {
+        "title": "Dialogue Concerning the Life of Chrysostom",
+        "author": "Palladius",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/palladius_dialogue-life-of-chrysostom_moore1921.txt"
+      },
+      {
+        "title": "Church History, Book 6",
+        "author": "Socrates",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
+      },
+      {
+        "title": "Church History, Book 7, chapter 45",
+        "author": "Socrates",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
+      }
+    ]
   }
- ],
- "legacy_traces": [
-  "Socrates says his sermons reached readers two ways: some John published himself, and others were taken down in shorthand as he spoke.",
-  "Palladius, a bishop who stood by him, wrote a dialogue on his life and fall, and tells the journey into exile.",
-  "After his deposition John's followers, called Johannites by their opponents, left the church and held their own services in the public baths and elsewhere. They came back, Socrates says, only when Proclus brought John's body home on the twenty-seventh of January, 438, and laid it in the Church of the Apostles."
- ],
- "legacy_remembered": [
-  "Honored by Palladius, who defends him throughout his dialogue, and by the crowds who kept watch all night to stop his removal from the church.",
-  "Disputed in his lifetime: Severian preached that John's haughtiness was reason enough to depose him, and Sisinnius, the Novatian bishop, wrote against John's saying 'Approach, although you may have repented a thousand times.' Socrates, who tells of both, writes that John's zeal for strictness sat oddly with that sermon.",
-  "Socrates notes that Theophilus's condemnation of Origen came about two hundred years after Origen's death, while John was restored to communion in the thirty-fifth year after his deposition."
- ],
- "uncertain": [
-  "Socrates reports that the sermon over Eutropius struck some as cruel. In the sermon itself John says he was blamed for taking Eutropius into the sanctuary, and that he described the man's fall to move the people to mercy. Socrates also passes on that John was said to be stern and severe, and that a friend of his youth found him more prone to irritability than to modesty.",
-  "John ate alone, and Socrates says no one knew why for certain. Palladius, who knew him, says he drank no wine, had a disordered stomach, and sometimes put off his meals while absorbed in prayer and study. Socrates also says people gave other reasons, and that the habit helped his enemies.",
-  "Socrates says John died in Comana. Palladius says the soldiers lodged him at a martyr's shrine five or six miles outside the town and that he died there."
- ],
- "written_about": [
-  {
-   "title": "Dialogue Concerning the Life of Chrysostom",
-   "author": "Palladius",
-   "date": null,
-   "language": "English translation",
-   "file": "cic/texts/palladius_dialogue-life-of-chrysostom_moore1921.txt"
-  },
-  {
-   "title": "Church History, Book 6",
-   "author": "Socrates",
-   "date": null,
-   "language": "English translation",
-   "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
-  },
-  {
-   "title": "Church History, Book 7, chapter 45",
-   "author": "Socrates",
-   "date": null,
-   "language": "English translation",
-   "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
-  }
- ]
 }

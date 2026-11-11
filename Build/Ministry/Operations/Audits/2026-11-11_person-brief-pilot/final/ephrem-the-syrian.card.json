@@ -1,70 +1,132 @@
 {
- "known_for": "Deacon of Edessa who taught the church's faith in hymns and sermons, and who ran the city's famine relief.",
- "role": "Deacon, hymnwriter and teacher",
- "key_works": [
-  {
-   "title": "The Nisibene Hymns",
-   "about": "Songs from the years of the Persian sieges and the bishops of Nisibis."
+  "knownFor": "Deacon of Edessa who taught the church's faith in hymns and sermons, and who ran the city's famine relief.",
+  "role": "Deacon, hymnwriter and teacher",
+  "keyWorks": [
+    {
+      "title": "The Nisibene Hymns",
+      "about": "Songs from the years of the Persian sieges and the bishops of Nisibis."
+    },
+    {
+      "title": "Prose Refutations of Mani, Marcion and Bardaisan",
+      "about": "Prose arguments against three rival teachers."
+    },
+    {
+      "title": "Homily Against Heretics",
+      "about": "A metrical homily that names Bardaisan's hymns as poison with sweetness."
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "The church historian Sozomen names his best-known pupils, Abbas, Zenobius, Abraham, Maras and Simeon. He reports it was said that Ephrem wrote three hundred thousand verses, and says his works were put into Greek in his own lifetime.",
+      "Sozomen adds that Basil, later bishop of Caesarea, greatly admired him. Jerome read in Greek a volume of his On the Holy Spirit and found the incisive power of lofty genius even in translation.",
+      "Gregory of Nyssa gave a speech in his praise, the account of his life nearest to his own time."
+    ],
+    "remembered": [
+      "Honored in the Syriac church with the title malpono, teacher. His hymns shaped its ritual, and lessons from his sermons were appointed to be read in its regular worship.",
+      "Honored beyond Syria. Sozomen calls him the greatest ornament of the Catholic Church."
+    ]
   },
-  {
-   "title": "Prose Refutations of Mani, Marcion and Bardaisan",
-   "about": "Prose arguments against three rival teachers."
-  },
-  {
-   "title": "Homily Against Heretics",
-   "about": "A metrical homily that names Bardaisan's hymns as poison with sweetness."
+  "uncertain": [
+    "The later Lives of Ephrem add wonders that the early writers do not tell. They say his father was priest of an idol in Nisibis, and that Ephrem's prayer sent a cloud of gnats against the Persian army. Those stories rest on writers long after him.",
+    "Palladius of Helenopolis says he died in his cell a month after the relief ended, while Sozomen says after a few days. Most writers date his death to 373, and some to 378.",
+    "Sozomen tells that when men came to carry him off to be a bishop, he ran into the market-place, dragged his clothes and ate in public, until they took him for mad and left. He stayed a deacon all his life.",
+    "Sozomen and Theodoret blame Harmonius, Bardaisan's son, for the sweet tunes. In his own homily Ephrem blames Bardaisan alone."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Against Bardaisan (A Discourse Against Bardaisan)",
+        "file": "cic/texts/ephraim_prose-refutations_mitchell1912-1921.txt",
+        "language": "English"
+      },
+      {
+        "title": "Against Bardaisan's 'Domnus'",
+        "file": "cic/texts/ephraim_prose-refutations_mitchell1912-1921.txt",
+        "language": "English"
+      },
+      {
+        "title": "Against Mani",
+        "file": "cic/texts/ephraim_prose-refutations_mitchell1912-1921.txt",
+        "language": "English"
+      },
+      {
+        "title": "Discourses to Hypatius (Five Discourses Against the False Teachings)",
+        "file": "cic/texts/ephraim_prose-refutations_mitchell1912-1921.txt",
+        "language": "English"
+      },
+      {
+        "title": "Against Marcion (Discourses I-III)",
+        "file": "cic/texts/ephraim_prose-refutations_mitchell1912-1921.txt",
+        "language": "English"
+      },
+      {
+        "title": "Fifteen Hymns for the Feast of the Epiphany",
+        "file": "cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+        "language": "English",
+        "disputed": "doubted authenticity for parts of the cycle"
+      },
+      {
+        "title": "Nineteen Hymns on the Nativity of Christ in the Flesh",
+        "file": "cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+        "language": "English"
+      },
+      {
+        "title": "On Virginity (A Discourse of S. Ephraim on Virginity)",
+        "file": "cic/texts/ephraim_prose-refutations_mitchell1912-1921.txt",
+        "language": "English"
+      },
+      {
+        "title": "The Nisibene Hymns",
+        "file": "cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+        "language": "English"
+      },
+      {
+        "title": "The Pearl: Seven Hymns on the Faith",
+        "file": "cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+        "language": "English"
+      },
+      {
+        "title": "Three Homilies (On Our Lord; On Admonition and Repentance; On the Sinful Woman)",
+        "file": "cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml",
+        "language": "English"
+      }
+    ],
+    "about": [
+      {
+        "title": "Introductory essay on Ephraim Syrus (Nicene and Post-Nicene Fathers, series 2, vol. 13)",
+        "author": "John Gwynn",
+        "date": null,
+        "language": "English",
+        "file": "cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml"
+      },
+      {
+        "title": "Ecclesiastical History, Book 3, chapter 16",
+        "author": "Sozomen",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
+      },
+      {
+        "title": "Ecclesiastical History, Book 4, chapter 26",
+        "author": "Theodoret",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+      },
+      {
+        "title": "Lives of Illustrious Men, chapter 115",
+        "author": "Jerome",
+        "date": "392",
+        "language": "English translation",
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+      },
+      {
+        "title": "The Lausiac History, chapter 40",
+        "author": "Palladius",
+        "date": "about 420",
+        "language": "English translation",
+        "file": "cic/texts/palladius_lausiac-history_clarke1918.txt"
+      }
+    ]
   }
- ],
- "legacy_traces": [
-  "Sozomen names his best-known pupils, Abbas, Zenobius, Abraham, Maras and Simeon. He reports it was said that Ephrem wrote three hundred thousand verses, and says his works were put into Greek in his own lifetime.",
-  "Sozomen adds that Basil, later bishop of Caesarea, greatly admired him. Jerome read in Greek a volume of his On the Holy Spirit and found the incisive power of lofty genius even in translation.",
-  "Gregory of Nyssa gave a speech in his praise, the account of his life nearest to his own time."
- ],
- "legacy_remembered": [
-  "Honored in the Syriac church with the title malpono, teacher. His hymns shaped its ritual, and lessons from his sermons were appointed to be read in its regular worship.",
-  "Honored beyond Syria. Sozomen calls him the greatest ornament of the Catholic Church."
- ],
- "uncertain": [
-  "The later Lives of Ephrem add wonders that the early writers do not tell. They say his father was priest of an idol in Nisibis, and that Ephrem's prayer sent a cloud of gnats against the Persian army. Those stories rest on writers long after him.",
-  "Palladius says he died in his cell a month after the relief ended, while Sozomen says after a few days. Most writers date his death to 373, and some to 378.",
-  "Sozomen tells that when men came to carry him off to be a bishop, he ran into the market-place, dragged his clothes and ate in public, until they took him for mad and left. He stayed a deacon all his life.",
-  "Sozomen and Theodoret blame Harmonius, Bardaisan's son, for the sweet tunes. In his own homily Ephrem blames Bardaisan alone."
- ],
- "written_about": [
-  {
-   "title": "Introductory essay on Ephraim Syrus (Nicene and Post-Nicene Fathers, series 2, vol. 13)",
-   "author": "John Gwynn",
-   "date": null,
-   "language": "English",
-   "file": "cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml"
-  },
-  {
-   "title": "Ecclesiastical History, Book 3, chapter 16",
-   "author": "Sozomen",
-   "date": null,
-   "language": "English translation",
-   "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
-  },
-  {
-   "title": "Ecclesiastical History, Book 4, chapter 26",
-   "author": "Theodoret",
-   "date": null,
-   "language": "English translation",
-   "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
-  },
-  {
-   "title": "Lives of Illustrious Men, chapter 115",
-   "author": "Jerome",
-   "date": "392",
-   "language": "English translation",
-   "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
-  },
-  {
-   "title": "The Lausiac History, chapter 40",
-   "author": "Palladius",
-   "date": "about 420",
-   "language": "English translation",
-   "file": "cic/texts/palladius_lausiac-history_clarke1918.txt"
-  }
- ]
 }

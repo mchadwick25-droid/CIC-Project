@@ -1,69 +1,81 @@
 {
- "known_for": "Roman emperor who, with Licinius, gave Christians freedom of worship, and who called the bishops to the council at Nicaea.",
- "role": "Roman emperor",
- "key_works": [
-  {
-   "title": "Edict of Milan, with Licinius",
-   "about": "Christians and all others free to follow the religion each thought best"
+  "knownFor": "Roman emperor who, with Licinius, gave Christians freedom of worship, and who called the bishops to the council at Nicaea.",
+  "role": "Roman emperor",
+  "keyWorks": [
+    {
+      "title": "Edict of Milan, with Licinius",
+      "about": "Christians and all others free to follow the religion each thought best"
+    },
+    {
+      "title": "Letter to Alexander and Arius",
+      "about": "to Bishop Alexander of Alexandria and the presbyter Arius; calls their quarrel trifling and asks both to forgive"
+    },
+    {
+      "title": "Letter to the churches after Nicaea",
+      "about": "one day for Easter everywhere, and obedience to the council"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Nicaea did not end the quarrel. Five bishops would not sign the creed because of the word homoousios, Eusebius of Nicomedia among them. Eusebius of Caesarea signed, he told his church, with peace in view.",
+      "Constantine also wrote to Eusebius of Caesarea asking for fifty copies of the sacred scriptures, on parchment, for the churches of the city that bore his name.",
+      "After the council he wrote to the churches that Easter must fall on one day everywhere, so that some would not be fasting while others feasted."
+    ],
+    "remembered": [
+      "Eusebius honors him as the first sovereign baptized in a church of the martyrs.",
+      "The church historian Sozomen calls him a powerful protector of the Christian religion and the first emperor zealous for the church.",
+      "His letter about Easter speaks of the Jews with contempt, and Eusebius copies it whole."
+    ]
   },
-  {
-   "title": "Letter to Alexander and Arius",
-   "about": "calls their quarrel trifling and asks both to forgive"
-  },
-  {
-   "title": "Letter to the churches after Nicaea",
-   "about": "one day for Easter everywhere, and obedience to the council"
+  "uncertain": [
+    "The two early tellings of the sign do not agree: Eusebius has a cross of light in the sky and then a dream, Lactantius a dream alone. Eusebius adds that at dawn Constantine called in workers in gold and precious stones to make the sign as a standard, and that he saw it with his own eyes.",
+    "Not everyone accepted Eusebius's account of the baptism. A Syriac chronicle that goes under Zachariah's name says Eusebius got it wrong. The emperor was not baptized at the end of his life, it says, since the story of his conversion by Rome's bishop, Silvester, is kept there in writing and in pictures. Pagans told yet another story, that he turned Christian to be cleansed after the killing of his son Crispus, and Sozomen calls it an invention."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "The Oration of Constantine to the Assembly of the Saints",
+        "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml",
+        "language": "English",
+        "disputed": "scholarly dispute about authenticity"
+      }
+    ],
+    "about": [
+      {
+        "title": "Life of Constantine",
+        "author": "Eusebius of Caesarea",
+        "date": null,
+        "language": "English translation (Greek edition also held)",
+        "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
+      },
+      {
+        "title": "On the Deaths of the Persecutors",
+        "author": "Lactantius",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/anf07_lactantius-apostolic-constitutions-didache-liturgies.xml"
+      },
+      {
+        "title": "Ecclesiastical History",
+        "author": "Socrates",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
+      },
+      {
+        "title": "Ecclesiastical History",
+        "author": "Sozomen",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
+      },
+      {
+        "title": "The Syriac Chronicle known as that of Zachariah of Mitylene",
+        "author": "compiler writing under Zachariah's name",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/zachariah-rhetor_chronicle_hamiltonbrooks1899.txt"
+      }
+    ]
   }
- ],
- "legacy_traces": [
-  "Nicaea did not end the quarrel. Five bishops would not sign the creed because of the word homoousios, Eusebius of Nicomedia among them. Eusebius of Caesarea signed, he told his church, with peace in view.",
-  "Constantine also wrote to Eusebius asking for fifty copies of the sacred scriptures, on parchment, for the churches of the city that bore his name.",
-  "After the council he wrote to the churches that Easter must fall on one day everywhere, so that some would not be fasting while others feasted."
- ],
- "legacy_remembered": [
-  "Eusebius honors him as the first sovereign baptized in a church of the martyrs.",
-  "Sozomen calls him a powerful protector of the Christian religion and the first emperor zealous for the church.",
-  "His letter about Easter speaks of the Jews with contempt, and Eusebius copies it whole."
- ],
- "uncertain": [
-  "The two early tellings of the sign do not agree: Eusebius has a cross of light in the sky and then a dream, Lactantius a dream alone. Eusebius adds that at dawn Constantine called in workers in gold and precious stones to make the sign as a standard, and that he saw it with his own eyes.",
-  "Not everyone accepted Eusebius's account of the baptism. A Syriac chronicle that goes under Zachariah's name says Eusebius got it wrong: the emperor was not baptized at the end of his life, it says, since the story of his conversion by Silvester is kept in writing and in pictures at Rome. Pagans told yet another story, that he turned Christian to be cleansed after the killing of his son Crispus, and Sozomen calls it an invention."
- ],
- "written_about": [
-  {
-   "title": "Life of Constantine",
-   "author": "Eusebius of Caesarea",
-   "date": null,
-   "language": "English translation (Greek edition also held)",
-   "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
-  },
-  {
-   "title": "On the Deaths of the Persecutors",
-   "author": "Lactantius",
-   "date": null,
-   "language": "English translation",
-   "file": "cic/texts/anf07_lactantius-apostolic-constitutions-didache-liturgies.xml"
-  },
-  {
-   "title": "Ecclesiastical History",
-   "author": "Socrates",
-   "date": null,
-   "language": "English translation",
-   "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
-  },
-  {
-   "title": "Ecclesiastical History",
-   "author": "Sozomen",
-   "date": null,
-   "language": "English translation",
-   "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
-  },
-  {
-   "title": "The Syriac Chronicle known as that of Zachariah of Mitylene",
-   "author": "compiler writing under Zachariah's name",
-   "date": null,
-   "language": "English translation",
-   "file": "cic/texts/zachariah-rhetor_chronicle_hamiltonbrooks1899.txt"
-  }
- ]
 }
