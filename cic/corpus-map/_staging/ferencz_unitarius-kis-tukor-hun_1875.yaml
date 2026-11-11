@@ -1,0 +1,13 @@
+source_file: ferencz_unitarius-kis-tukor-hun_1875.txt
+assignments:
+- row_id: ferencz_unitarius-kis-tukor-hun_1875--ferencz-unitarius-kis-tukor-1875
+  work: József Ferencz, Unitárius kis tükör (Kolozsvár, 1875)
+  author: ferencz
+  locus: the whole work; add 12 to OCR line numbers for this file's own
+  atlas_ids:
+  - transylvanian-unitarian-church-1660-1906
+  role: tradition
+  confidence: provisional
+  note: The Unitarian church's own short history and statement of belief, by the Kolozsvár pastor who
+    became its bishop. Its own voice, dated 1875, inside the entry's window (RV-7, data release 34). His
+    English account of 1907 is dated after the entry ends, so it has no shelf here.

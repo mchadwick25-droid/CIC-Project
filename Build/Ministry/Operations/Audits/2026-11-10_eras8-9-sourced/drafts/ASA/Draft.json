@@ -1,0 +1,608 @@
+{
+ "entries": [],
+ "fact_table": [
+  {
+   "entry": "russian-church-nikon-to-holy-synod",
+   "field": "longDescription",
+   "sentence": "The church also reached Peking, by way of a lost fort.",
+   "file": "cic/texts/adoratskii_pravoslavnaia-missiia-v-kitae-vyp1-1685-1745-rus_1887.txt",
+   "lines": "499-500",
+   "quote": "духовная наша мисая началась съ конца 1685-го года въ лицф смиреннаго 1ерея Максима",
+   "rendering": "our spiritual mission began from the end of 1685, in the person of the humble priest Maksim",
+   "note": "Supports that the Russian mission at Peking began in 1685 with Father Maksim. The \"lost fort\" image is the drafter's connective: Albazin is the Russian stockade named in the next row."
+  },
+  {
+   "entry": "russian-church-nikon-to-holy-synod",
+   "field": "longDescription",
+   "sentence": "In 1685 Chinese troops took the Russian stockade of Albazin, on the Amur.",
+   "file": "cic/texts/adoratskii_pravoslavnaia-missiia-v-kitae-vyp1-1685-1745-rus_1887.txt",
+   "lines": "1995-1996",
+   "quote": "во 193 (1685) году китайскя воинсыя люди албазинской острогъ взяли",
+   "rendering": "in 193 (1685) Chinese soldiers took the Albazin stockade",
+   "note": "\"193\" is the Russian year-count (7193) cut to its last digits by the OCR; the 1685 in brackets is clean. The Amur is named in the same book, line 485 (the quote in the next row)."
+  },
+  {
+   "entry": "russian-church-nikon-to-holy-synod",
+   "field": "longDescription",
+   "sentence": "The Cossacks taken there were invited to Peking to serve the emperor.",
+   "file": "cic/texts/adoratskii_pravoslavnaia-missiia-v-kitae-vyp1-1685-1745-rus_1887.txt",
+   "lines": "484-486",
+   "quote": "берется въ плфнъ китайцами на ставшемъ отъ того времени спорнымь Амур$ и приглашается въ Пе- кинъ на службу къ китайскому богдыхану",
+   "rendering": "is taken prisoner by the Chinese on the Amur, which has been disputed since then, and is invited to Peking to serve the Chinese emperor",
+   "note": "OCR: the subject of the sentence (\"Горсть русских удальцов\", a handful of Russian dashing fellows) is damaged on the line before; the Library text reads \"Гореть\". The Cossacks are named in the next row. Albazin on the Amur: same sentence."
+  },
+  {
+   "entry": "russian-church-nikon-to-holy-synod",
+   "field": "longDescription",
+   "sentence": "The Cossacks taken there were invited to Peking to serve the emperor.",
+   "file": "cic/texts/adoratskii_pravoslavnaia-missiia-v-kitae-vyp1-1685-1745-rus_1887.txt",
+   "lines": "2178-2180",
+   "quote": "албазинцы должны были прибыть въ Пекинъ и были приняты ласково благодушнымъ богдыханомъ",
+   "rendering": "the Albazinians were to arrive in Peking and were kindly received by the good-natured emperor",
+   "note": "Second witness to the same sentence: the Albazinians reached Peking and were received."
+  },
+  {
+   "entry": "russian-church-nikon-to-holy-synod",
+   "field": "longDescription",
+   "sentence": "Adoratskii says the captives took their priest, Maksim Leontiev, along by force.",
+   "file": "cic/texts/adoratskii_pravoslavnaia-missiia-v-kitae-vyp1-1685-1745-rus_1887.txt",
+   "lines": "2171-2172",
+   "quote": "а также насильно увлекли съ собой и священника Ма- ксима Леонтьева",
+   "rendering": "and also carried off with them by force the priest Maksim Leontiev",
+   "note": "The subject is the Russian prisoners of war leaving Albazin (the sentence before). The intro (lines 499-502) says the same: the priest was \"brought by force to Peking by the Russian prisoners themselves\"."
+  },
+  {
+   "entry": "russian-church-nikon-to-holy-synod",
+   "field": "longDescription",
+   "sentence": "Father Maksim turned a Buddhist temple the emperor gave them into a chapel of St Nicholas.",
+   "file": "cic/texts/adoratskii_pravoslavnaia-missiia-v-kitae-vyp1-1685-1745-rus_1887.txt",
+   "lines": "2761-2763",
+   "quote": "Посл получешя казаками отъ богдыхана буддийской кумирни, о. Максимъ обратиль ее въ часовню во имя св. Николая",
+   "rendering": "After the Cossacks received a Buddhist temple from the emperor, Father Maksim turned it into a chapel in the name of St Nicholas"
+  },
+  {
+   "entry": "russian-church-nikon-to-holy-synod",
+   "field": "longDescription",
+   "sentence": "In 1695, Adoratskii says, the metropolitan of Tobolsk wrote to him.",
+   "file": "cic/texts/adoratskii_pravoslavnaia-missiia-v-kitae-vyp1-1685-1745-rus_1887.txt",
+   "lines": "2764-2769",
+   "quote": "православный пастырь совершаль бого- служеше до 1695 года. Въ этомъ году тобольскй митр. Игнатий (1692—1100), получавиий, безъ сомнфая, свф- дешя о положени албазинцевь и ихъ пастырф въ Пе- кинЪ, отправиль къ нимъ верхотурскаго свящ. Гри- горя и тобольскаго длакона Лаврентия съ антиминсомъ,",
+   "rendering": "the Orthodox pastor served the liturgy until 1695. In that year the metropolitan of Tobolsk, Ignatii (1692-1700), who had no doubt had news of the state of the Albazinians and their pastor in Peking, sent to them the priest Grigorii of Verkhoturye and the deacon Lavrentii of Tobolsk with an altar cloth",
+   "note": "OCR: \"Игнатий\" reads cleanly here; \"(1692-1700)\" is printed \"(1692—1100)\". The letter itself is quoted in the next row; its first words, \"преосв. Игналй написалъ о. Максиму грамоту\", are at line 2806."
+  },
+  {
+   "entry": "russian-church-nikon-to-holy-synod",
+   "field": "longDescription",
+   "sentence": "In English, the letter says: \"though you are in captivity, yet you yourself, with God's help, take captive unknowing men into the knowledge of the gospel's truth.\"",
+   "file": "cic/texts/adoratskii_pravoslavnaia-missiia-v-kitae-vyp1-1685-1745-rus_1887.txt",
+   "lines": "2815-2817",
+   "quote": "аще и въ плЬнЪ пребываеши, но самь, съ Божею помощю, плфняеши человфки не- вфдушя въ познаше евангельсмя правды",
+   "rendering": "though you are in captivity, yet you yourself, with God's help, take captive unknowing men [men who do not know] into the knowledge of the gospel's truth",
+   "note": "A rendering. \"плфняеши\" (take captive) and \"въ плЬнЪ\" (in captivity) share a root in the original: the metropolitan plays on it. OCR: \"познаше\" for \"познание\", \"евангельсмя\" for \"евангельския\", \"невфдушя\" for \"невѣдущя\"."
+  },
+  {
+   "entry": "russian-church-nikon-to-holy-synod",
+   "field": "longDescription",
+   "sentence": "The first permanent Russian mission set out with the emperor's leave in 1715.",
+   "file": "cic/texts/adoratskii_pravoslavnaia-missiia-v-kitae-vyp1-1685-1745-rus_1887.txt",
+   "lines": "550-551",
+   "quote": "Мысль о постоянной мисаи въ Пекинв осуще- ствилась въ 1715 г.",
+   "rendering": "The idea of a permanent mission in Peking was carried out in 1715"
+  },
+  {
+   "entry": "russian-church-nikon-to-holy-synod",
+   "field": "longDescription",
+   "sentence": "The first permanent Russian mission set out with the emperor's leave in 1715.",
+   "file": "cic/texts/adoratskii_pravoslavnaia-missiia-v-kitae-vyp1-1685-1745-rus_1887.txt",
+   "lines": "3441-3442",
+   "quote": "Канси разрЪшиль при- сылку въ Цекинъ росойской духовной мисс",
+   "rendering": "Kangxi allowed the sending to Peking of a Russian spiritual mission"
+  },
+  {
+   "entry": "russian-church-nikon-to-holy-synod",
+   "field": "longDescription",
+   "sentence": "It reached Peking at the end of that year or early in 1716.",
+   "file": "cic/texts/adoratskii_pravoslavnaia-missiia-v-kitae-vyp1-1685-1745-rus_1887.txt",
+   "lines": "3802-3803",
+   "quote": "Въ Пекинъ они прибыли къ концу 1115 или въ на- чалЪ 1716 года",
+   "rendering": "They arrived in Peking at the end of 1715 or the beginning of 1716",
+   "note": "OCR reads 1115 for 1715; the page image reads 1715. Adoratskii is himself unsure which year."
+  },
+  {
+   "entry": "russian-church-nikon-to-holy-synod",
+   "field": "longDescription",
+   "sentence": "Peter the Great had told the metropolitan of Tobolsk to choose its members.",
+   "file": "cic/texts/adoratskii_pravoslavnaia-missiia-v-kitae-vyp1-1685-1745-rus_1887.txt",
+   "lines": "3450-3452",
+   "quote": "предиисаль тобольскому митрополиту Тоанну Максимо- вичу, управлявшему сибирскою епархею съ 1109 до 1715 г., избрать достойнфйшихь людей для служешя",
+   "rendering": "[Peter] ordered the metropolitan of Tobolsk, John Maksimovich, who ruled the Siberian diocese from 1709 to 1715, to choose worthy men for service",
+   "note": "\"Послфдй\" (\"the latter\") on the line before names Peter: \"императору Петру\" (line 3447-3448)."
+  },
+  {
+   "entry": "russian-church-nikon-to-holy-synod",
+   "field": "longDescription",
+   "sentence": "A treaty of 1727 named one priest in the Russian house and three more to come.",
+   "file": "cic/texts/adoratskii_pravoslavnaia-missiia-v-kitae-vyp1-1685-1745-rus_1887.txt",
+   "lines": "5852-5853",
+   "quote": "Въ семъ дом будеть жить одинъ лама (священникъ)",
+   "rendering": "In this house one lama (priest) will live",
+   "note": "Adoratskii prints the treaty article in Russian. \"лама\" is the Chinese text's word for a priest, glossed \"(священникъ)\". The year 1727 is the Burin treaty of 20 August 1727 (line 5745) and the general treaty \"of the same year\" that follows; Adoratskii's next sentence gives the article as V (line 5808)."
+  },
+  {
+   "entry": "russian-church-nikon-to-holy-synod",
+   "field": "longDescription",
+   "sentence": "A treaty of 1727 named one priest in the Russian house and three more to come.",
+   "file": "cic/texts/adoratskii_pravoslavnaia-missiia-v-kitae-vyp1-1685-1745-rus_1887.txt",
+   "lines": "5853-5854",
+   "quote": "и прибавятея друме три ламы",
+   "rendering": "and three other lamas will be added"
+  },
+  {
+   "entry": "russian-church-nikon-to-holy-synod",
+   "field": "longDescription",
+   "sentence": "A treaty of 1727 named one priest in the Russian house and three more to come.",
+   "file": "cic/texts/adoratskii_pravoslavnaia-missiia-v-kitae-vyp1-1685-1745-rus_1887.txt",
+   "lines": "5745-5746",
+   "quote": "20 августа 1727 г. быль заклю- чень буринеюй договоръ",
+   "rendering": "on 20 August 1727 the Burin treaty was concluded"
+  },
+  {
+   "entry": "russian-church-nikon-to-holy-synod",
+   "field": "longDescription",
+   "sentence": "It also said Russians would not be forbidden to pray and to honor their God in their own faith.",
+   "file": "cic/texts/adoratskii_pravoslavnaia-missiia-v-kitae-vyp1-1685-1745-rus_1887.txt",
+   "lines": "5857-5859",
+   "quote": "Росаянамь не будеть за- прещено молиться и почитать своего Бога по своему закону",
+   "rendering": "Russians will not be forbidden to pray and to honor their God by their own law [закон here means faith]",
+   "note": "OCR: \"Росаянамь\" for \"Россиянамъ\". \"закон\" is the word of \"закон Божий\": religion, not statute."
+  },
+  {
+   "entry": "russian-church-nikon-to-holy-synod",
+   "field": "longDescription",
+   "sentence": "In 1732 the Albazinians' church was consecrated as the Dormition church, though it was still called St Nicholas's.",
+   "file": "cic/texts/adoratskii_pravoslavnaia-missiia-v-kitae-vyp1-1685-1745-rus_1887.txt",
+   "lines": "6778-6779",
+   "quote": "освящена 5 августа 1732 года во имя Успешя ВБ. М. (15 августа) °), но попрежнему именовалась Никольскою",
+   "rendering": "was consecrated on 5 August 1732 in the name of the Dormition of the Mother of God (15 August), but was still called the Nicholas church",
+   "note": "OCR: \"Успешя ВБ. М.\" for \"Успения Б. М.\" (Dormition of the Mother of God). The church is the Albazin church, named in the footnote and in the Synod reply on line 6774-6775."
+  },
+  {
+   "entry": "russian-church-nikon-to-holy-synod",
+   "field": "longDescription",
+   "sentence": "Adoratskii says that from 1745 to 1808 the mission was neglected and in a sorry state.",
+   "file": "cic/texts/adoratskii_pravoslavnaia-missiia-v-kitae-vyp2-1745-1808-rus_1887.txt",
+   "lines": "10529-10534",
+   "quote": "Во второй, также 60-лфтый пертодъ (гл. УШ-ХИ) дфя- тельности (съ 1745 до 1808 г.) пекинская мисыя находилась въ заброшенномъь и плачевномъ положении, , вслфдстые затрудненйя сношенй съ Китаемъ и слабости въ умственныхь и нравствен- ныхъ силахъь нфкоторыхъ ея членовъь, а также недостаточности матер!альнаго обезнеченя.",
+   "rendering": "In the second, also sixty-year period (chapters VIII-XII) of its work (from 1745 to 1808) the Peking mission was in a neglected and pitiable state, because of the difficulty of contact with China, the weakness in mind and morals of some of its members, and also insufficient material support",
+   "note": "\"мисыя\" is OCR for \"миссия\"; \"заброшенномъь и плачевномъ\" = neglected and pitiable. The same passage is the source of the next sentence."
+  },
+  {
+   "entry": "russian-church-nikon-to-holy-synod",
+   "field": "longDescription",
+   "sentence": "He gives three causes: hard dealings with China, the weakness of some members, and too little money.",
+   "file": "cic/texts/adoratskii_pravoslavnaia-missiia-v-kitae-vyp2-1745-1808-rus_1887.txt",
+   "lines": "10529-10534",
+   "quote": "Во второй, также 60-лфтый пертодъ (гл. УШ-ХИ) дфя- тельности (съ 1745 до 1808 г.) пекинская мисыя находилась въ заброшенномъь и плачевномъ положении, , вслфдстые затрудненйя сношенй съ Китаемъ и слабости въ умственныхь и нравствен- ныхъ силахъь нфкоторыхъ ея членовъь, а также недостаточности матер!альнаго обезнеченя.",
+   "rendering": "(as above)",
+   "note": "Same quote as the row before: the three causes are the three clauses after \"вслфдстые\"."
+  },
+  {
+   "entry": "russian-church-nikon-to-holy-synod",
+   "field": "longDescription",
+   "sentence": "Yet even then, he adds, it held to the Orthodox faith and to its tasks.",
+   "file": "cic/texts/adoratskii_pravoslavnaia-missiia-v-kitae-vyp2-1745-1808-rus_1887.txt",
+   "lines": "10534-10538",
+   "quote": "Но и въ это время она не переставала держаться основныхъ началь правосхамя и намфченныхь ей за-   дачъ дЪятезьности.",
+   "rendering": "But even in this time it did not cease to hold to the basic principles of Orthodoxy and the tasks set for it",
+   "note": "OCR: \"правосхамя\" for \"православия\"."
+  },
+  {
+   "entry": "russian-church-nikon-to-holy-synod",
+   "field": "longDescription",
+   "sentence": "The details are his, from the Synod's archives, in a Russian history of 1887.",
+   "file": "cic/texts/adoratskii_pravoslavnaia-missiia-v-kitae-vyp2-1745-1808-rus_1887.txt",
+   "lines": "167",
+   "quote": "ПО АРХИВНЫМЪ ДОКУМЕНТАМЪ",
+   "rendering": "from archive documents",
+   "note": "The title page. \"Synod's archives\" is the book's own source list: every chapter lists \"Син. арх. дѣла\" (Synod archive files) first (e.g. line 257)."
+  },
+  {
+   "entry": "russian-church-nikon-to-holy-synod",
+   "field": "longDescription",
+   "sentence": "The details are his, from the Synod's archives, in a Russian history of 1887.",
+   "file": "cic/texts/adoratskii_pravoslavnaia-missiia-v-kitae-vyp2-1745-1808-rus_1887.txt",
+   "lines": "239-240",
+   "quote": "Отдфльный оттискъ изъ журнала Православный Собесздникъ“ за 1887 годъ",
+   "rendering": "Offprint from the journal \"Orthodox Interlocutor\" for 1887",
+   "note": "Year of the issue. The title-page OCR reads \"1881\"; the offprint note says 1887 and so does the Library header."
+  },
+  {
+   "entry": "russian-church-nikon-to-holy-synod",
+   "field": "longDescription",
+   "sentence": "He was an Orthodox churchman.",
+   "file": "cic/texts/adoratskii_pravoslavnaia-missiia-v-kitae-vyp2-1745-1808-rus_1887.txt",
+   "lines": "168",
+   "quote": "Теропонаха Николая",
+   "rendering": "of Hieromonk Nikolai",
+   "note": "A hieromonk is a monk who is also a priest."
+  },
+  {
+   "entry": "russian-church-nikon-to-holy-synod",
+   "field": "longDescription",
+   "sentence": "He was an Orthodox churchman.",
+   "file": "cic/texts/adoratskii_pravoslavnaia-missiia-v-kitae-vyp2-1745-1808-rus_1887.txt",
+   "lines": "172",
+   "quote": "СМОТРИТЕЛЯ ХЕРСОНСКАГО ДУХОВНАГО УЧИЛИЩА",
+   "rendering": "warden of the Kherson church school"
+  },
+  {
+   "entry": "philippine-catholicism-gomburza-to-aglipay",
+   "field": "longDescription",
+   "sentence": "A lay movement inside this church met refusal and then force.",
+   "file": "cic/texts/montero-y-vidal_historia-general-de-filipinas-t3-spa_1895.txt",
+   "lines": "1457-1460",
+   "quote": "Un donado del Hospital de San Juan de Dios de Manila, indio, llamado Apolinario de la Cruz, natural de Luchan (Tayabas), ideó fundar una Cofradía de San José",
+   "rendering": "A donado [a lay servant attached to a religious house] of the Hospital of San Juan de Dios in Manila, an indio [a native of the islands], named Apolinario de la Cruz, a native of Lucban (Tayabas), thought of founding a Confraternity of St Joseph",
+   "note": "Summary sentence: each part is tied to the rows below (inside the church: the declaration, \"católico apostólico romano\", and the licence he asked of church authorities; refusal; force)."
+  },
+  {
+   "entry": "philippine-catholicism-gomburza-to-aglipay",
+   "field": "longDescription",
+   "sentence": "In 1840, by Montero's account, many people began to meet at Lucban, in Tayabas province, as a Confraternity of St Joseph.",
+   "file": "cic/texts/montero-y-vidal_historia-general-de-filipinas-t3-spa_1895.txt",
+   "lines": "1468-1470",
+   "quote": "A mediados de 1840 comenzaron á tener conciliábu- los y juntas en el pueblo de Luchan numerosas perso- nas de ambos sexos",
+   "rendering": "In the middle of 1840 numerous people of both sexes began to hold conventicles and meetings in the town of Lucban",
+   "note": "Montero's own narration, not a quoted document. The confraternity's name is in the previous row."
+  },
+  {
+   "entry": "philippine-catholicism-gomburza-to-aglipay",
+   "field": "longDescription",
+   "sentence": "Its founder was Apolinario de la Cruz, a native lay servant of a Manila hospital.",
+   "file": "cic/texts/montero-y-vidal_historia-general-de-filipinas-t3-spa_1895.txt",
+   "lines": "1457-1460",
+   "quote": "Un donado del Hospital de San Juan de Dios de Manila, indio, llamado Apolinario de la Cruz, natural de Luchan (Tayabas), ideó fundar una Cofradía de San José",
+   "rendering": "(as above)",
+   "note": "\"donado\" glossed as lay servant of the hospital; the Spanish gives donado of the Hospital of San Juan de Dios and indio."
+  },
+  {
+   "entry": "philippine-catholicism-gomburza-to-aglipay",
+   "field": "longDescription",
+   "sentence": "He told his questioners he was a Roman Catholic and meant to honor the saint.",
+   "file": "cic/texts/montero-y-vidal_historia-general-de-filipinas-t3-spa_1895.txt",
+   "lines": "1973-1974",
+   "quote": "su religión católico apostó- lico romano",
+   "rendering": "and his religion Roman apostolic Catholic",
+   "note": "From Montero's summary of the declaration Apolinario gave after capture (a summary in indirect speech, lines 1971-2000)."
+  },
+  {
+   "entry": "philippine-catholicism-gomburza-to-aglipay",
+   "field": "longDescription",
+   "sentence": "He told his questioners he was a Roman Catholic and meant to honor the saint.",
+   "file": "cic/texts/montero-y-vidal_historia-general-de-filipinas-t3-spa_1895.txt",
+   "lines": "1976-1977",
+   "quote": "Que su objeto al constituir la Cofradía fué el de cele- brar el santo San José",
+   "rendering": "That his aim in setting up the Confraternity was to celebrate the saint, St Joseph"
+  },
+  {
+   "entry": "philippine-catholicism-gomburza-to-aglipay",
+   "field": "longDescription",
+   "sentence": "He asked the church authorities for leave to make the group lawful. They refused, and he appealed to the colony's high court.",
+   "file": "cic/texts/montero-y-vidal_historia-general-de-filipinas-t3-spa_1895.txt",
+   "lines": "1523-1525",
+   "quote": "solicitó la competente licencia de las autoridades ecle- siásticas para legalizar la existencia de aquélla; y ha- * biéndosela negado, apeló á la Audiencia",
+   "rendering": "asked the proper licence of the church authorities to make its existence lawful; and, they having refused it, appealed to the Audiencia [the colony's high court]",
+   "note": "The OCR keeps a stray \"*\" mark between \"ha-\" and \"biéndosela\". The declaration (lines 1976-1982) tells the same: the diocesan sent the request to the bishop of Camarines, who refused it."
+  },
+  {
+   "entry": "philippine-catholicism-gomburza-to-aglipay",
+   "field": "longDescription",
+   "sentence": "In October 1841 the governor of Tayabas marched on the group's camp with about 300 men. He was killed.",
+   "file": "cic/texts/montero-y-vidal_historia-general-de-filipinas-t3-spa_1895.txt",
+   "lines": "1622-1623",
+   "quote": "marchó el 23 al encuentro de los rebel- des, cuyo número no bajaba de 3 á 4.000 personas",
+   "rendering": "[on 23 October] he marched to meet the rebels, whose number was not below 3 to 4,000 people",
+   "note": "The governor is Joaquín Ortega (line 1610); the force of \"unos 300 hombres\" is on line 1618; the camp is at Igsaban (lines 1579 and 1601)."
+  },
+  {
+   "entry": "philippine-catholicism-gomburza-to-aglipay",
+   "field": "longDescription",
+   "sentence": "In October 1841 the governor of Tayabas marched on the group's camp with about 300 men. He was killed.",
+   "file": "cic/texts/montero-y-vidal_historia-general-de-filipinas-t3-spa_1895.txt",
+   "lines": "1647",
+   "quote": "diéronle muerte con multitud de heri-",
+   "rendering": "they put him to death with many wounds"
+  },
+  {
+   "entry": "philippine-catholicism-gomburza-to-aglipay",
+   "field": "longDescription",
+   "sentence": "On 1 November troops overran its next camp. On 4 November Apolinario was shot.",
+   "file": "cic/texts/montero-y-vidal_historia-general-de-filipinas-t3-spa_1895.txt",
+   "lines": "1664",
+   "quote": "retiráronse al sitio de Alitao",
+   "rendering": "they withdrew to the site of Alitao",
+   "note": "Montero narrates the troops entering the Alitao camp in the early hours of 1 November (lines 1800-1830)."
+  },
+  {
+   "entry": "philippine-catholicism-gomburza-to-aglipay",
+   "field": "longDescription",
+   "sentence": "On 1 November troops overran its next camp. On 4 November Apolinario was shot.",
+   "file": "cic/texts/montero-y-vidal_historia-general-de-filipinas-t3-spa_1895.txt",
+   "lines": "2098-2099",
+   "quote": "fué fusilado en la mañana del 4 de Noviembre",
+   "rendering": "was shot on the morning of 4 November",
+   "note": "The subject is Apolinario, after his declaration. The year is 1841: the sentence before gives 19 September 1841 and the intendente footnote (next line) is of 16 November 1841."
+  },
+  {
+   "entry": "philippine-catholicism-gomburza-to-aglipay",
+   "field": "longDescription",
+   "sentence": "Montero counts 240 dead in the battle and about 260 more in the pursuit.",
+   "file": "cic/texts/montero-y-vidal_historia-general-de-filipinas-t3-spa_1895.txt",
+   "lines": "1832",
+   "quote": "Murieron en la acción 240 indios",
+   "rendering": "240 indios died in the action"
+  },
+  {
+   "entry": "philippine-catholicism-gomburza-to-aglipay",
+   "field": "longDescription",
+   "sentence": "Montero counts 240 dead in the battle and about 260 more in the pursuit.",
+   "file": "cic/texts/montero-y-vidal_historia-general-de-filipinas-t3-spa_1895.txt",
+   "lines": "1843",
+   "quote": "fueron muertos unos 260 más",
+   "rendering": "about 260 more were killed"
+  },
+  {
+   "entry": "philippine-catholicism-gomburza-to-aglipay",
+   "field": "longDescription",
+   "sentence": "Govantes, whom he cites, says more than a thousand.",
+   "file": "cic/texts/montero-y-vidal_historia-general-de-filipinas-t3-spa_1895.txt",
+   "lines": "1883-1884",
+   "quote": "pagaron con la vida su ceguedad más de mil personas",
+   "rendering": "more than a thousand people, men, women and children, paid with their lives for their blindness"
+  },
+  {
+   "entry": "philippine-catholicism-gomburza-to-aglipay",
+   "field": "longDescription",
+   "sentence": "Montero also quotes a letter of 16 November from the colony's finance chief.",
+   "file": "cic/texts/montero-y-vidal_historia-general-de-filipinas-t3-spa_1895.txt",
+   "lines": "2104-2106",
+   "quote": "al dar cuenta de esta sublevación al Secreta- rio de Estado y del Despacho de H acienda de Indias, en comunicación fecha en Manila á 16 de Noviembre de 184I",
+   "rendering": "[the Intendente general of the Army and Treasury of the Philippines] in reporting this rising to the Secretary of State and of the Office of Finance for the Indies, in a communication dated at Manila on 16 November 1841",
+   "note": "OCR: \"184I\" for 1841 (the page also reads \"1841\" in the printed index of the same chapter at line 27175 ff.). The writer is the Intendente general de Ejército y Hacienda, Juan Manuel de la Matta; \"finance chief\" is a short form for that office."
+  },
+  {
+   "entry": "philippine-catholicism-gomburza-to-aglipay",
+   "field": "longDescription",
+   "sentence": "It praised the officer of Batangas for keeping \"the fire of rebellion\" out of his province.",
+   "file": "cic/texts/montero-y-vidal_historia-general-de-filipinas-t3-spa_1895.txt",
+   "lines": "2112-2115",
+   "quote": "Digno de todo elogio ha sido en estas circunstancias el comporta- miento de los Alcaldes mayores de La Laguna, D. José Ríos (se lla- maba D. Francisco Gutiérrez de los Ríos), que se halló en la acción de Alitao, y de Batangas",
+   "rendering": "Worthy of all praise has been in these circumstances the conduct of the chief magistrates of La Laguna ... and of Batangas",
+   "note": "The quote is cut at Batangas; the clause naming the fire of rebellion follows in the next row."
+  },
+  {
+   "entry": "philippine-catholicism-gomburza-to-aglipay",
+   "field": "longDescription",
+   "sentence": "It praised the officer of Batangas for keeping \"the fire of rebellion\" out of his province.",
+   "file": "cic/texts/montero-y-vidal_historia-general-de-filipinas-t3-spa_1895.txt",
+   "lines": "2116-2117",
+   "quote": "impidió que el fuego de la rebelión prendiese en ella",
+   "rendering": "prevented the fire of rebellion from catching in it",
+   "note": "The officer is the alcalde mayor of Batangas, Valeriano Santos."
+  },
+  {
+   "entry": "philippine-catholicism-gomburza-to-aglipay",
+   "field": "longDescription",
+   "sentence": "The movement speaks here only through its enemies.",
+   "file": "cic/texts/montero-y-vidal_historia-general-de-filipinas-t3-spa_1895.txt",
+   "lines": "1483-1485",
+   "quote": "Ralación expresiva de los principales acontecimientos de la titu- lada Cofradía del señor San José, Formada por el M. R. P. Fr. Manuel Sancho, cura del pueblo de Luchan",
+   "rendering": "Account setting out the main events of the so-called Confraternity of St Joseph, drawn up by the Rev. Fr. Manuel Sancho, parish priest of the town of Lucban",
+   "note": "The report is the parish priest's own and is quoted in Montero's pages (lines 1633-1650 and 1690-1720). Together with the intendente's letter and Mas it shows that no paper in the Library is by the confraternity itself. OCR: \"Ralación\" for \"Relación\"."
+  },
+  {
+   "entry": "philippine-catholicism-gomburza-to-aglipay",
+   "field": "longDescription",
+   "sentence": "Montero wrote in 1895. He draws on a parish priest's report, an official's letter and a writer named Mas.",
+   "file": "cic/texts/montero-y-vidal_historia-general-de-filipinas-t3-spa_1895.txt",
+   "lines": "1483-1485",
+   "quote": "Ralación expresiva de los principales acontecimientos de la titu- lada Cofradía del señor San José, Formada por el M. R. P. Fr. Manuel Sancho, cura del pueblo de Luchan",
+   "rendering": "(as above)",
+   "note": "1895 is the title page year (Library header). The parish priest's report (here), the intendente's letter (earlier rows) and \"(Mas,)\" at line 2170 and \"(Mas.)\" at line 2194."
+  },
+  {
+   "entry": "philippine-catholicism-gomburza-to-aglipay",
+   "field": "longDescription",
+   "sentence": "Montero says Apolinario began it only to live off the gullible.",
+   "file": "cic/texts/montero-y-vidal_historia-general-de-filipinas-t3-spa_1895.txt",
+   "lines": "1460-1461",
+   "quote": "con la única mira, en un principio, de vivir á ex- pensas de los crédulos que le secundaran",
+   "rendering": "with the sole aim, at first, of living at the expense of the credulous who would second him"
+  },
+  {
+   "entry": "philippine-catholicism-gomburza-to-aglipay",
+   "field": "longDescription",
+   "sentence": "Apolinario said he meant to honor St Joseph.",
+   "file": "cic/texts/montero-y-vidal_historia-general-de-filipinas-t3-spa_1895.txt",
+   "lines": "1976-1977",
+   "quote": "Que su objeto al constituir la Cofradía fué el de cele- brar el santo San José",
+   "rendering": "(as above)"
+  },
+  {
+   "entry": "philippine-catholicism-gomburza-to-aglipay",
+   "field": "longDescription",
+   "sentence": "Asked what they wanted, pardoned members answered, as Mas tells it: to pray.",
+   "file": "cic/texts/montero-y-vidal_historia-general-de-filipinas-t3-spa_1895.txt",
+   "lines": "2185",
+   "quote": "los hermanos indultados de la Cofradía. — Rezar.",
+   "rendering": "the brothers of the Confraternity who had been pardoned. - To pray.",
+   "note": "\"(Mas.)\" closes the passage at line 2194. The Library text does not give the date or title of Mas's work."
+  },
+  {
+   "entry": "philippine-catholicism-gomburza-to-aglipay",
+   "field": "longDescription",
+   "sentence": "Asked what they would have done in victory, they said they would have tied the Spaniards and friars to trees for the women to shoot with arrows.",
+   "file": "cic/texts/montero-y-vidal_historia-general-de-filipinas-t3-spa_1895.txt",
+   "lines": "2187-2188",
+   "quote": "Atar á todos los españoles y frailes á los árboles para que las mujeres los matasen á flechazos",
+   "rendering": "To tie all the Spaniards and friars to trees so that the women would kill them with arrows",
+   "note": "The question before it in the text: \"¿Y si hubierais triunfado, qué hubierais hecho?\" (If you had triumphed, what would you have done?)."
+  },
+  {
+   "entry": "philippine-catholicism-gomburza-to-aglipay",
+   "field": "longDescription",
+   "sentence": "Montero says the group let in no Spaniards and no Chinese mestizos. He takes that as proof of a political aim. That is his reading.",
+   "file": "cic/texts/montero-y-vidal_historia-general-de-filipinas-t3-spa_1895.txt",
+   "lines": "2101",
+   "quote": "El no admitir en esta Cofradía españoles ni mestizos",
+   "rendering": "The not admitting into this Confraternity Spaniards or mestizos",
+   "note": "Sentence continues after a footnote at line 2132."
+  },
+  {
+   "entry": "philippine-catholicism-gomburza-to-aglipay",
+   "field": "longDescription",
+   "sentence": "Montero says the group let in no Spaniards and no Chinese mestizos. He takes that as proof of a political aim. That is his reading.",
+   "file": "cic/texts/montero-y-vidal_historia-general-de-filipinas-t3-spa_1895.txt",
+   "lines": "2132-2134",
+   "quote": "de sangley, y sí sólo indios puros, demuestra evidente- isiente que el objeto de Apolinario y de sus consejeros era político",
+   "rendering": "[mestizos] of Chinese descent, and only pure indios, clearly shows that the aim of Apolinario and his advisers was political"
+  },
+  {
+   "entry": "philippine-catholicism-gomburza-to-aglipay",
+   "field": "longDescription",
+   "sentence": "Apolinario's letters were read aloud at the meetings, and were seized in 1841.",
+   "file": "cic/texts/montero-y-vidal_historia-general-de-filipinas-t3-spa_1895.txt",
+   "lines": "1470-1471",
+   "quote": "se leían cartas de Apolinario referentes á la Cofradía por él instituida",
+   "rendering": "letters of Apolinario about the Confraternity he had set up were read",
+   "note": "Meetings of mid-1840 at Lucban."
+  },
+  {
+   "entry": "philippine-catholicism-gomburza-to-aglipay",
+   "field": "longDescription",
+   "sentence": "Apolinario's letters were read aloud at the meetings, and were seized in 1841.",
+   "file": "cic/texts/montero-y-vidal_historia-general-de-filipinas-t3-spa_1895.txt",
+   "lines": "1546-1549",
+   "quote": "pada la extensa correspondencia de Apolinario y su se- cretario Octavio Ignacio de San Jorge y los más signi- ficados cofrades de La Laguna y Tayabas, redújose á prisión al titulado secretario",
+   "rendering": "[once] the extensive correspondence of Apolinario, of his secretary Octavio Ignacio de San Jorge and of the leading members of La Laguna and Tayabas [had been] seized, the so-called secretary was put in prison",
+   "note": "Raid at Majayjay on 19 September 1841 (line 1541). OCR: \"ocu- pada\" split across lines; the quote begins mid-word."
+  },
+  {
+   "entry": "philippine-catholicism-gomburza-to-aglipay",
+   "field": "longDescription",
+   "sentence": "The Library holds none of them.",
+   "file": "cic/texts/montero-y-vidal_historia-general-de-filipinas-t3-spa_1895.txt",
+   "lines": "1470-1471",
+   "quote": "cartas de Apolinario",
+   "rendering": "(statement about the Library, not the history)",
+   "note": "Drafter statement: no letter of the confraternity is in the Library text; Montero only reports them."
+  },
+  {
+   "entry": "philippine-catholicism-gomburza-to-aglipay",
+   "field": "longDescription",
+   "sentence": "A modern study, by Reynaldo Ileto, starts its story of these movements in 1840. It is called Pasyon and Revolution (1979).",
+   "record": "§G89-AP10 recognition (V-s)",
+   "note": "Rests on the book's subtitle, 'Popular Movements in the Philippines, 1840-1910' (V-s). Ileto (Ateneo de Manila University Press, 1979) is verified as a study by title and details only. It sits in the lending part of archive.org and the raw text was refused (HTTP 403) on 2026-11-10, so nothing is quoted from it. No sentence says what it argues."
+  }
+ ],
+ "neighbor_changes": [
+  {
+   "id": "russian-church-nikon-to-holy-synod",
+   "set": {
+    "longDescription": "Patriarch Nikon, elected in 1652, set out to correct Russian service books against Greek models and to assert the priesthood's authority over the tsar's. And lost both fights: the corrections split the church permanently, and Nikon himself was deposed by the council of 1666-67 that condemned his opponents. Half a century later Peter the Great settled the second argument the other way. When the patriarch died in 1700 Peter simply left the office empty, and in 1721 he abolished it, replacing it with a Holy Synod of clergy, watched over by a lay official the tsar appointed. The church became, in effect, a department of the imperial government and stayed one for two hundred years. Catherine II completed the process in 1764 by confiscating the monastic estates. Yet the same church produced Tikhon of Zadonsk's gentle devotional writing, a serious seminary system, and in 1794 sent monks from Valaam across the Pacific to Alaska.\n\nThe church followed the Russian frontier east. The council of 1666 and 1667 raised Tobolsk, in Siberia, to a metropolitan see. It also proposed new bishoprics at Tomsk and on the Lena. They lay far from Tobolsk. In Peter the Great's reign, Mouravieff says, Theodore of Tobolsk converted 10,000 Ostiaks. The numbers are Mouravieff's, in an English version of 1842.\n\nThe church also reached Peking, by way of a lost fort. In 1685 Chinese troops took the Russian stockade of Albazin, on the Amur. The Cossacks taken there were invited to Peking to serve the emperor. Adoratskii says the captives took their priest, Maksim Leontiev, along by force. Father Maksim turned a Buddhist temple the emperor gave them into a chapel of St Nicholas.\n\nIn 1695, Adoratskii says, the metropolitan of Tobolsk wrote to him. In English, the letter says: \"though you are in captivity, yet you yourself, with God's help, take captive unknowing men into the knowledge of the gospel's truth.\"\n\nThe first permanent Russian mission set out with the emperor's leave in 1715. It reached Peking at the end of that year or early in 1716. Peter the Great had told the metropolitan of Tobolsk to choose its members. A treaty of 1727 named one priest in the Russian house and three more to come. It also said Russians would not be forbidden to pray and to honor their God in their own faith. In 1732 the Albazinians' church was consecrated as the Dormition church, though it was still called St Nicholas's.\n\nAdoratskii says that from 1745 to 1808 the mission was neglected and in a sorry state. He gives three causes: hard dealings with China, the weakness of some members, and too little money. Yet even then, he adds, it held to the Orthodox faith and to its tasks.\n\nThe details are his, from the Synod's archives, in a Russian history of 1887. He was an Orthodox churchman.",
+    "sources": [
+     {
+      "work": "A. N. Mouravieff, A History of the Church of Russia, tr. R. W. Blackmore (Oxford, 1842)",
+      "type": "secondary",
+      "note": "A history of the Russian church with an English translator's preface."
+     },
+     {
+      "work": "Hieromonk Nikolai (Adoratskii), The Orthodox Mission in China in the Two Hundred Years of Its Existence, issue 1, 1685-1745 (Kazan, 1887; in Russian)",
+      "type": "secondary",
+      "note": "The mission's own history, written from the Synod's archives by an Orthodox churchman. It tells the Albazin captives, the first mission and the treaty of 1727, and prints the Tobolsk metropolitan's letter of 1695."
+     },
+     {
+      "work": "Hieromonk Nikolai (Adoratskii), The Orthodox Mission in China in the Two Hundred Years of Its Existence, issue 2, 1745-1808 (Kazan, 1887; in Russian)",
+      "type": "secondary",
+      "note": "The second volume of the same history. Its closing summary calls the years 1745 to 1808 a neglected and sorry time for the mission."
+     }
+    ]
+   },
+   "ruling": "G89-36 (a) in part: a named line in VII.21 on the Orthodox of Peking (AP11); G89c: source now held; G89-6 (a): change order",
+   "reason": "The record's recommendation was a named line in VIII.31 'once a source is opened'; the gate option names VII.21/VIII.31. Adoratskii's two volumes cover 1685-1808 only, so the line goes in VII.21 (1652-1815). The first paragraph and the Siberian paragraph (G89-48 a) are carried unchanged. The 1808-1906 part stays held for VIII.31. The row's dates, modernCountries, voices and links are not changed."
+  },
+  {
+   "id": "philippine-catholicism-gomburza-to-aglipay",
+   "set": {
+    "longDescription": "Spanish friars had run the Philippine church for three centuries, and the century's great church fight was over whether Filipinos could run their own parishes. The secularization campaign — transferring parishes from Spanish religious orders to diocesan clergy, most of them native-born — turned into a national grievance, and in 1872, after a mutiny at the Cavite arsenal, three priests who had championed it were garrotted: Mariano Gomez, Jose Burgos and Jacinto Zamora, remembered ever since by the single name Gomburza. Their execution did more for the independence movement than their campaign ever had; Jose Rizal dedicated his second novel to their memory. When Spanish rule ended, part of the church went with it. In 1902 the labor organizer Isabelo de los Reyes proclaimed an Iglesia Filipina Independiente and named the former revolutionary chaplain Gregorio Aglipay its head, and for a few years a substantial minority of Filipino Catholics followed it.\n\nA lay movement inside this church met refusal and then force. In 1840, by Montero's account, many people began to meet at Lucban, in Tayabas province, as a Confraternity of St Joseph. Its founder was Apolinario de la Cruz, a native lay servant of a Manila hospital. He told his questioners he was a Roman Catholic and meant to honor the saint. He asked the church authorities for leave to make the group lawful. They refused, and he appealed to the colony's high court.\n\nIn October 1841 the governor of Tayabas marched on the group's camp with about 300 men. He was killed. On 1 November troops overran its next camp. On 4 November Apolinario was shot. Montero counts 240 dead in the battle and about 260 more in the pursuit. Govantes, whom he cites, says more than a thousand. Montero also quotes a letter of 16 November from the colony's finance chief. It praised the officer of Batangas for keeping \"the fire of rebellion\" out of his province.\n\nThe movement speaks here only through its enemies. Montero wrote in 1895. He draws on a parish priest's report, an official's letter and a writer named Mas. Montero says Apolinario began it only to live off the gullible. Apolinario said he meant to honor St Joseph. Asked what they wanted, pardoned members answered, as Mas tells it: to pray. Asked what they would have done in victory, they said they would have tied the Spaniards and friars to trees for the women to shoot with arrows.\n\nMontero says the group let in no Spaniards and no Chinese mestizos. He takes that as proof of a political aim. That is his reading. Apolinario's letters were read aloud at the meetings, and were seized in 1841. The Library holds none of them. A modern study, by Reynaldo Ileto, starts its story of these movements in 1840. It is called Pasyon and Revolution (1979).",
+    "voices": [
+     "Pedro Pelaez — the Manila cathedral canon who first pressed the case for Filipino priests in Filipino parishes",
+     "Mariano Gomez, Jose Burgos and Jacinto Zamora — the three priests executed in 1872, remembered together as Gomburza",
+     "Gregorio Aglipay — the priest and revolutionary chaplain who became the first head of the Iglesia Filipina Independiente",
+     "Isabelo de los Reyes — the writer and labor organizer who proclaimed the independent church in 1902",
+     "Apolinario de la Cruz — a native lay servant of a Manila hospital who founded the Confraternity of St Joseph; the Library holds him only through hostile Spanish accounts"
+    ],
+    "sources": [
+     {
+      "work": "José Montero y Vidal, Historia general de Filipinas, vol. 3 (Madrid, 1895; in Spanish)",
+      "type": "secondary",
+      "note": "A Spanish history that is hostile to the movement. It summarizes Apolinario de la Cruz's statement and quotes a parish priest's report and the colony's intendente in a letter of 16 November 1841."
+     },
+     {
+      "work": "Reynaldo C. Ileto, Pasyon and Revolution: Popular Movements in the Philippines, 1840-1910 (Ateneo de Manila University Press, 1979)",
+      "type": "secondary",
+      "note": "Named for the movement's recognition in a modern study. Not opened for this entry."
+     }
+    ]
+   },
+   "ruling": "G89-33 (a): a named line in VIII.39 on the Cofradia de San Jose (AP10); G89c: source now held; G89-6 (a): change order",
+   "reason": "The record held AP10 until a dated primary was read. Montero y Vidal (1895) prints a dated letter of the intendente (16 November 1841) and long quotations from the parish priest's Relacion, so the line enters. The row's dates (1815-1906), modernCountries, relationsSummary and links are not changed. The 1832 start, the name Hermano Pule and the carriers' bar from Spanish orders are not in Montero's pages and are not stated."
+  }
+ ],
+ "links": [],
+ "retire_links": [],
+ "holds": [
+  {
+   "item": "AP7 — the Catholic St Thomas Christians and the Chaldean Syrian body at Thrissur, 1815-1906: extend AP1 (VII.48) to 1906 and link it to VIII.40",
+   "g89": "G89-29 (c), then (a)",
+   "reason": "Held. The test was whether Mackenzie (Christianity in Travancore, Trivandrum, 1901) prints a Catholic document verbatim, so that it counts as the one Catholic source the hold waits for. It does not. (1) Pius IX's rescript of 5 September 1861 is not printed: one clause says the Carmelite congregation 'received the thanks of Pope Pius IX in a rescript dated 5th September 1861' (file lines 2136-2138), nothing more. (2) The one verbatim line from the Chaldean side is the signature of Roccos's letter of 13 May 1861, 'Mar Thomas, Metropolitan and Commissioner of the Roman Catholic Chaldean Syrians in Malabar' (file lines 6112-6114), and the title of the Resident's memorandum of 31 December 1861 (6114-6116). That is one clause of a Chaldean-party bishop, not a Latin vicar apostolic, Propaganda or a Syro-Malabar voice. (3) The Latin vicars apostolic, the vicariates at Thrissur and Kottayam and the three Syrian vicars apostolic of 1896 are Mackenzie's own summary (file lines 2073-2090), with no document behind them. A government survey by a British Resident (the Library header calls it a Travancore government survey) is not a Catholic source. Whitehouse (1873), also held, is an Anglican chaplain's study and prints only the Malankara documents of 1787 and 1818-19 (his Appendices D and E), not a Catholic act of the period. The row's era 9 text would therefore rest on the same kind of source as the record's Richards (1908), which is why the record held it. A second reason the Chaldean link cannot be drafted alone: its anchor would be VII.48, which ends in 1815, and nothing after 1815 may enter an era 8 history; the link needs the extension first. Mackenzie's dates are kept for the later drafter: 1831 Mannanam monastery (Stabilini); 1845 Quilon vicariate; 1856 Syrian deputation to the Chaldean Patriarch; 1861 Roccos at Thrissur, gone in 1862; 23 March 1865 Rome repeats its prohibition to the Patriarch; 1874 Mellus; 1877 he leaves; 1889 he submits; Mar Abedjesus (Antony Thondanatta) dies 16 November 1900; 1886 concordat; 1896 three Syrian vicars apostolic. Mackenzie does not state the 1887 vicariates (he says only that the Romo-Syrians' care passed to two European vicars apostolic after Marcellinus died on 21 March 1892).",
+   "waits_for": "One Catholic or Malayalam source for the Catholic half in era 9: Syro-Malabar sources, Chavara's own writings, or a Propaganda act on the Romo-Syrians. The Library's Propaganda Collectanea vol. 1 (1907) was searched: it has one Malabar item (the instruction of 2 June 1832 on fishermen's sons and the Verapoly seminary, at file lines about 83880-83900) and a general line on the Syro-Chaldaic rite (about 94580), but nothing on Roccos, Mellus, Thrissur or the Romo-Syrians' own church. It is a Latin-side Catholic primary: Mark may rule that it is enough for a thin extension; the drafter did not stretch it."
+  },
+  {
+   "item": "AP11 — the Russian Ecclesiastical Mission in Peking: the part of the line in VIII.31 (1808-1906)",
+   "g89": "G89-36 (b), then (a)",
+   "reason": "The line for 1685-1808 is drafted in VII.21. Adoratskii's two volumes end in 1808 and no later issue was found, so the Peking mission from 1808 to 1906 (the Chinese Orthodox martyrs of 1900 are the record's example) has no source. VIII.31 stays untouched.",
+   "waits_for": "A source for the mission after 1808: Adoratskii's later issues (if they exist in a Library batch), Widmer (Harvard, 1976) or a pre-1930 work on the mission in the nineteenth century."
+  },
+  {
+   "item": "AP10 — the Cofradia de San Jose: the start in 1832, the name 'Hermano Pule', and the carriers' bar from Spanish orders",
+   "g89": "G89-33 (a)",
+   "reason": "The line is drafted, but Montero's pages (1840-41) do not give the founding year 1832, the name Hermano Pule, or the claim that Tagalog peasants were barred from Spanish orders. A French writer (Plauchut) says Apolinario wanted to enter an order and was barred as an indio (Montero's footnote, file lines 1937-2005); Montero calls Plauchut's account false, and that claim is not used. Ileto (1979) is named only: the raw text is in archive.org's lending part (HTTP 403 on 2026-11-10), so it could not be opened lawfully.",
+   "waits_for": "The earlier years of the movement from a source that gives them: Ileto 1979 read by someone with lending access, or a Tagalog or Philippine source."
+  }
+ ],
+ "wants": [
+  "Adoratskii, later issues of the Peking mission history for 1808-1906 (Russian, Kazan, 1887 onward), and a clean page-image check of the OCR before any Russian quote is used in a link.",
+  "A Catholic source for the Romo-Syrians in the nineteenth century: Propaganda acts on Malabar (the rescript of 5 September 1861; the Quilon decree of 12 May 1845), Syro-Malabar writings, Chavara's own.",
+  "Sinibaldo de Mas, Informe sobre el estado de las Islas Filipinas en 1842 (the Library text names only '(Mas.)'), and Fr. Manuel Sancho's Relacion on the Cofradia, both printed whole; each is quoted by Montero, so the confraternity's questioners could be read first-hand.",
+  "A Tagalog or Philippine source for the Cofradia de San Jose, written by its members or their families."
+ ],
+ "flags": [
+  "RESULT: AP7 held (test failed, reasons in holds). AP11 drafted as a named line in VII.21 for 1685-1808; the VIII.31 part held. AP10 drafted as a named line in VIII.39 (the Montero test passed for 1840-41; see below). No new rows, no links, no retired links. Every change is a neighbor_change giving the whole new value of the fields set.",
+  "AP11 CARRIED UNCHANGED: the first paragraph of VII.21 and the Siberian paragraph (G89-48 a, added in the data release before this draft) are copied from the current census word for word. They were not re-scored. Only the added paragraphs are ours.",
+  "AP11 OCR: both Adoratskii volumes are 'second witness only' Cyrillic OCR with frequent letter swaps (the Library header). Every Russian quote is verbatim, errors included, and checks against the file at its lines. Quoted errors: 'мисая' for 'миссия', 'мисс' cut short, 'Цекинъ' for 'Пекинъ', 'Росаянамь' for 'Россиянамъ', 'познаше евангельсмя правды', 'невфдушя', 'Успешя' for 'Успения', '1115' for 1715, '1112' for 1712 (not used in prose), '193 (1685)' (the Russian year-count 7193 cut to its last digits), the 'Л' for 'П' in 'Лакинеъ' elsewhere (not used). The Library header says to quote only after checking the page image; I could not. Mark should check the page images (archive.org items pravoslavnajamissijavkitaeza200leteesusc7 and ...22) before the quotes go live. Where a figure was too damaged I used none: the death date of Hilarion Lezhaisky (garbled 'апр...т.'), the baptism counts of the fifth mission (garbled 220, 86, 63), and the number of Albazinians.",
+  "AP11 SHELF RULE: the shelf rule says nothing after 1815 enters an era 8 history. Adoratskii wrote in 1887 but tells only 1685-1808; the Mouravieff line (1842) already on VII.21 is the same case. I read the rule as covering the events and documents a text carries, not its date of writing. If it means the date of writing, Adoratskii and Mouravieff both fail on VII.21.",
+  "AP11 VOICE: Adoratskii is an Orthodox hieromonk and his book is the mission's own history. He blames Catholic missionaries' intrigue for the mission's troubles (his closing theses XI and XII, the last lines of vyp2, file lines 10541-10555). I did not use that claim, and the row names no Catholic relationship, so no link is due. The prose says he was an Orthodox churchman.",
+  "AP11 CHOICES: (1) 'the captives took their priest along by force' follows the sentence 'а также насильно увлекли с собой и священника Максима Леонтьева' (the Russian prisoners are the subject) and the introduction's 'приведеннаго насильно въ Пекинъ самими русскими плѣнниками'. The two readings agree. (2) 'Cossacks' is the word of the line about the temple ('казаками'). (3) 'Peter the Great had told the metropolitan of Tobolsk' rests on 'Послфдй' on line 3447, whose referent is 'императору Петру' (3446-3447). (4) The treaty article is cited as 'a treaty of 1727' because Adoratskii runs the Burin treaty (20 August 1727) and the general treaty of Kiakhta together; he gives article V, not the date of the Kiakhta signing, in a readable form. (5) The year the 1732 consecration happened is clean (5 August 1732).",
+  "AP11 COUNTRIES: VII.21's placeLabel is 'Russia', and there is no census row carrying a China country ID with a place on that label, so modernCountries is not changed. This is the same gap as 'Missing modern-country IDs' (2026-11-10): China has no ID in the census.",
+  "AP10 TEST: Montero y Vidal (1895, vol. 3, file lines 1456-2194) prints a dated primary verbatim: an extract of the intendente's letter of 16 November 1841 (file lines 2104-2127), and long quotations from the parish priest Manuel Sancho's Relacion (undated in the text). Apolinario's declaration is summarised in indirect speech with a few quoted words. So the 'dated primary' test passes for the state's side and the church's side. It does not pass for the movement's own side: no rule, heading or letter of the confraternity is printed. The prose says so.",
+  "AP10 HOSTILITY: every voice is hostile: Montero (1895), a Spanish parish priest, an intendente, and a writer cited as 'Mas' (the Library text gives only '(Mas.)' and no work or date; I have not identified him). The prose names this. Montero's own claim that Apolinario began 'only to live at the expense of the credulous' is set beside Apolinario's stated aim, as the declaration reports it.",
+  "AP10 NOT USED: the founding year 1832 and the name 'Hermano Pule' (not in Montero); Plauchut's and Barrantes's footnotes (the 'King of the Tagalogs' title, the Virgin's son, the 'Supreme Pontiff'), which Montero himself calls invention in one case; the long quotation of the parish priest on Apolinario's camp (lines 1700-1720), which is lurid and adds nothing the line needs; the numbers of those arrested in October 1840 (243), because the arrest and its release ('a matter for the ecclesiastical court') would need a paragraph of their own.",
+  "AP10 DATES CHECK: 23 October (Ortega killed), 1 November (Alitao), 2 November (Apolinario taken), 4 November (shot) and 16 November 1841 (letter) are all in Montero's pages. The year 1841 is stated for 19 September and 16 November, and the days between follow in order. The prose does not say 'two days' or any gap.",
+  "AP10 ILETO: Pasyon and Revolution is named in the prose and in sources only. The archive.org item pasyonrevolution00reyn is in the lending library and its full text returned HTTP 403 on 2026-11-10, so it was not opened. The prose does not say what the book argues. The 'recognition' mark of the record is therefore met by the title and details only (V-s), as the record says.",
+  "AP10 FIELDS: VIII.39 had no `sources` in the census, so the set `sources` is just the two new entries. `voices` gets one added entry (Apolinario). `peopleNote` ('The Library does not yet hold words of their own from the people its story names') is still true: Apolinario's words reach us only inside Montero's summary, so no people row is added.",
+  "READABILITY: see the last check_draft.py run in the reply; every added paragraph passes (Flesch Reading Ease 60 or more, FK grade 10 or less). The carried-over paragraphs of VII.21 and VIII.39 are old text and were not changed.",
+  "LIVING: no row is marked living by this draft. VII.21 and VIII.39 are already marked living in the census and are not changed.",
+  "LINKS: none drafted. Existing edges on VII.21 and VIII.39 still read right; the new lines name no new relationship. The line on Peking does not name the Jesuits or Rome; the Philippine line names Spanish church authorities and the state, both inside the Spanish colonial church that the row already describes."
+ ]
+}
