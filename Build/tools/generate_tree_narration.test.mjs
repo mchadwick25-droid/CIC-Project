@@ -7,6 +7,11 @@ function movement(id, overrides = {}) {
   return { id, name: id, longDescription: `The story of ${id}.`, ...overrides };
 }
 
+/** A manifest entry recorded from the movement's current text. */
+function recorded(m) {
+  return { file: `${m.id}.mp3`, text_sha256: narrationFingerprint(m.longDescription) };
+}
+
 test('parseArgs: defaults with no flags', () => {
   assert.deepEqual(parseArgs([]), { dryRun: false, only: null, limit: null, charBudget: null, force: false, voiceId: null, model: null, approvedRun: null, charCap: null });
 });
@@ -52,7 +57,7 @@ test('planNarration: skips a movement with no longDescription at all', () => {
 
 test('planNarration: skips a movement that is already in the manifest, unless --force', () => {
   const movements = [movement('narrated'), movement('not-yet')];
-  const manifest = { narrated: {} };
+  const manifest = { narrated: recorded(movements[0]) };
 
   const withoutForce = planNarration(movements, { only: null, force: false, limit: null, manifest });
   assert.deepEqual(withoutForce.toGenerate.map((m) => m.id), ['not-yet']);
@@ -60,6 +65,19 @@ test('planNarration: skips a movement that is already in the manifest, unless --
 
   const withForce = planNarration(movements, { only: null, force: true, limit: null, manifest });
   assert.deepEqual(withForce.toGenerate.map((m) => m.id), ['narrated', 'not-yet']);
+});
+
+test('planNarration: a recording made from text that has since changed is stale and re-voiced', () => {
+  const movements = [movement('current'), movement('edited'), movement('unfingerprinted'), movement('new')];
+  const manifest = {
+    current: recorded(movements[0]),
+    edited: { file: 'edited.mp3', text_sha256: narrationFingerprint('The old text.') },
+    unfingerprinted: { file: 'unfingerprinted.mp3' },
+  };
+  const { toGenerate, alreadyNarrated, stale } = planNarration(movements, { only: null, force: false, limit: null, manifest });
+  assert.deepEqual(alreadyNarrated, ['current']);
+  assert.deepEqual(stale, ['edited', 'unfingerprinted']);
+  assert.deepEqual(toGenerate.map((m) => m.id), ['edited', 'unfingerprinted', 'new']);
 });
 
 test('planNarration: --only narrows to a single movement by id', () => {
@@ -105,7 +123,7 @@ test('planNarration: --char-budget combines with already-narrated and --limit fi
     movement('a', { longDescription: 'x'.repeat(1000) }),
     movement('b', { longDescription: 'x'.repeat(1000) }),
   ];
-  const manifest = { narrated: {} };
+  const manifest = { narrated: recorded(movements[0]) };
   const { toGenerate, alreadyNarrated, skippedBudget } = planNarration(movements, {
     only: null,
     force: false,
@@ -120,7 +138,7 @@ test('planNarration: --char-budget combines with already-narrated and --limit fi
 
 test('planNarration: --limit caps only the NEW work, not what is already narrated', () => {
   const movements = [movement('a'), movement('b'), movement('c'), movement('d')];
-  const manifest = { a: {} };
+  const manifest = { a: recorded(movements[0]) };
   const { toGenerate, alreadyNarrated } = planNarration(movements, { only: null, force: false, limit: 2, manifest });
   assert.deepEqual(alreadyNarrated, ['a']);
   assert.deepEqual(toGenerate.map((m) => m.id), ['b', 'c']);

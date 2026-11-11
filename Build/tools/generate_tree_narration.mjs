@@ -19,7 +19,9 @@
  *
  * Output: cft-website/audio/tree/<id>.mp3, one per movement that has a
  * longDescription, and a line for each in cft-website/audio/tree/manifest.json.
- * Idempotent - a movement already in the manifest is skipped unless --force, so a partial run (rate limit, a crashed
+ * Idempotent - a movement whose manifest entry's text fingerprint matches the
+ * text it narrates now is skipped unless --force; one whose text has changed
+ * since its recording is stale and is re-voiced. A partial run (rate limit, a crashed
  * process, a paced multi-day batch) can always resume from where it left
  * off without re-spending on movements already narrated.
  *
@@ -198,9 +200,14 @@ export function planNarration(movements, { only, force, limit, charBudget = null
   }
 
   const alreadyNarrated = [];
+  const stale = [];
   let toGenerate = candidates.filter((m) => {
-    const has = Boolean(manifest[m.id]);
-    if (has && !force) {
+    if (!manifest[m.id]) return true;
+    if (!recordingMatchesText(manifest[m.id], textForFn(m))) {
+      stale.push(m.id);
+      return true;
+    }
+    if (!force) {
       alreadyNarrated.push(m.id);
       return false;
     }
@@ -223,7 +230,7 @@ export function planNarration(movements, { only, force, limit, charBudget = null
     toGenerate = withinBudget;
   }
 
-  return { toGenerate, alreadyNarrated, skippedNoText, skippedBudget };
+  return { toGenerate, alreadyNarrated, stale, skippedNoText, skippedBudget };
 }
 
 /**
@@ -278,13 +285,14 @@ async function run() {
   const opts = parseArgs(process.argv.slice(2));
   const census = JSON.parse(fs.readFileSync(censusPath, 'utf-8'));
   const manifest = readManifest();
-  const { toGenerate, alreadyNarrated, skippedNoText, skippedBudget } = planNarration(census.movements, { ...opts, manifest });
+  const { toGenerate, alreadyNarrated, stale, skippedNoText, skippedBudget } = planNarration(census.movements, { ...opts, manifest });
   const totalChars = toGenerate.reduce((sum, m) => sum + narrationTextFor(m).length, 0);
 
   console.log(`=== Tree narration ${opts.dryRun ? '(dry run)' : ''} ===`);
   console.log(`${census.movements.length} movements total`);
   console.log(`${skippedNoText} skipped - no longDescription to narrate`);
-  console.log(`${alreadyNarrated.length} already narrated (use --force to regenerate)`);
+  console.log(`${alreadyNarrated.length} already narrated and current (use --force to regenerate)`);
+  console.log(`${stale.length} stale - recorded from text that has since changed, re-voiced this run`);
   console.log(`${toGenerate.length} to generate this run${opts.limit !== null ? ` (--limit ${opts.limit})` : ''}, ${totalChars} characters total`);
   if (opts.charBudget !== null) {
     console.log(`${skippedBudget} left for a later run - would exceed the ${opts.charBudget}-character budget`);
@@ -307,7 +315,8 @@ async function run() {
       const distinct = voiceId !== defaultVoiceId ? ' [distinct voice]' : '';
       const text = narrationTextFor(m);
       const source = text === m.longDescription ? '' : ' [orientation.story]';
-      console.log(`  would generate: ${m.id} (${text.length} chars)${distinct}${source}`);
+      const why = stale.includes(m.id) ? ' [stale]' : manifest[m.id] ? ' [forced]' : ' [new]';
+      console.log(`  would generate: ${m.id} (${text.length} chars)${why}${distinct}${source}`);
     });
     return;
   }
