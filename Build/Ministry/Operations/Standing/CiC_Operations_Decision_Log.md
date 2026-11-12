@@ -152,3 +152,9 @@ On the family-history line, he chose "a history you write of your own family or 
 - The fine print: for learning, not advice; accuracy with sources and confidence shown; as-is; limit of responsibility; other sites; Colorado law; changes; privacy page.
 
 The contact is info@churchinconversation.com. Conversations keep their own notices on their own pages. Arbitration, class-action waivers and indemnity are left out. The limit of responsibility and Colorado law stay on the attorney list (open item 1). Every footer on both sites links to it.
+
+## 2026-11-12 - 13. The tree's support page uses Church in Conversation's contribution links
+
+**Project lead.** "i need to set up the stripe contribution links on the church family tree site, set it up with the exact same links as the contribution links on church in conversation"
+
+**Decision.** The tree's "Give once" and "Give monthly" buttons use the same two Stripe links as Church in Conversation (`donate.stripe.com/28E14g3Jp2Vsd1igEl8bS00` and `buy.stripe.com/fZu5kwbbR0NkbXegEl8bS01`), set in `Build/tools/tree_site_pages.json` (`give`). It replaces the earlier plan of two new links for the tree. Contributions from both sites arrive in the same Stripe account and can't be told apart by site.
