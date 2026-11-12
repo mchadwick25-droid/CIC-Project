@@ -2419,3 +2419,35 @@ The approved files are in `Who-Profiles/era1/batch2/` in this folder, and the re
 - **Proposals not applied.** 97 more names are proposed on the "Pronunciation List" page, with an Opus check. Only the seven are live.
 
 **What this does not change.** No census, record or site change is made and no recording is made, so there is no data release number. Approved to proceed (coordinator, 2026-11-12; Mark may overrule).
+
+## 2026-11-12 — Who scan records cleaned: each person once, five change-order items applied, Pliny the Younger Who (coordinator; Pliny ruling by Mark)
+
+These are change orders to merged audit records. The census, `records/`, `packages/`, `cic-website/` and `cft-website/` are not touched.
+
+**Decided (Mark, 2026-11-12, picked from options, relayed by the coordinator).** Pliny the Younger, the one undecided era 1 row, becomes "Who, outside witness", not major, alongside Tacitus and Suetonius. His profile goes in era 1 batch 3. Reason: Mark's ruling.
+
+**Duplicates merged (24 rows removed), reason: the same person stood in two places.** The rule is the settled date-of-work rule: keep each person once, in the era of their main work, and where the rows differ keep the better-evidenced row and merge in any held source the other cites. Every removed row is kept word for word in `Build/Ministry/Operations/Audits/2026-11-12_who-scan-dedupe/Removed_Rows.md`, with where it went.
+- Pontius the Deacon (era 1): the stale LISTED row from the first table goes; the WHO row of the addendum stays.
+- Era 1 rows tagged "era 2 by date", which era 2 had already re-scored: Eusebius of Caesarea, Ephrem the Syrian, Augustine of Hippo, Athanasius of Alexandria, Jerome, Didymus the Blind, Aphrahat, Possidius of Calama (LISTED, now WHO in era 2), Faustus of Milevis, Valens of Mursa with Ursacius of Singidunum, Palladius of Ratiaria. The era 2 rows stay; they already cite every source of the era 1 rows.
+- Era 2 to era 3 (Avarayr 451 and later): Vardan Mamikonian (STORY in era 2, WHO in era 3; the better-evidenced WHO row stays), Eghishe/Elishe (era 3 stays; the era 2 tags Contested and Inferential-Thin are merged in), Euthymius the Great and Reccared (era 2 itself sent both to the era 3 scan).
+- Era 3 to era 4: Elfoddw/Elbodug (era 4 stays) and Heraclius (era 4 stays, the live person entry; the era 3 sources are merged in).
+- Era 7 to era 8: Richard Baxter, Sir John Chardin, Marie de l'Incarnation and Mar Atalla/Ahatallah (LISTED in era 7, STORY in era 8; the era 8 STORY row stays). The era 7 sources are merged into the era 8 rows.
+- Era 8 to era 9: Herman of Alaska and Philiphê Bỉnh (both WANTED; the wanted sources of both rows are merged into the era 9 rows). Herman's work on Spruce Island and Bỉnh's writings are after 1815.
+- The script ran over all ten audits and the supplement with spelling, diacritic, "and"/"/" and bracketed-name tolerance. The other repeated names are different people and stay: Callistus (bishop of Rome, and the Melitian monk), Julian (the Apostate, the Nubian missionary, the patriarch of Antioch, Julian of Eclanum), Symmachus (the prefect, and the pope), the two Thomas Joneses, and the two John Thomases.
+- The provisional "Carried to era 4" (era 3) and "Carried to era 5" (era 4) tables repeated 18 people already scored in the next era. They are removed too; each section keeps the list of names. `Era8_Carry_Rows.md` in the era 7 folder is a separate hand-off file and was not changed.
+
+**Small fixes.** Era 9, James Thomson (supplement table): "died before 1990 (common knowledge)" is replaced by "death not in a held line", since no held file gives his death. Era 10: "101 of the LISTED rows" now reads 102, as the table does. Era 9: "157 of the 249 rows are WANTED" now reads 154, as the table does after the Simeon rescore below. The count lines of eras 1, 2, 3, 6, 7, 8 and 9 follow their tables.
+
+**Change-order items of Open-Gaps 229 and 230, applied under the settled rules.**
+- Isidore of Kyiv (era 6): LISTED to STORY. His letter on the fall of Constantinople is held in full (PG159 55969 on, listed at 337-339), a first-person eyewitness testimony. Not WHO: one letter, no body of work, no following held.
+- Josaphat Kuntsevych (era 7): WANTED to LISTED. Susza's Life is held, but it is a later retelling and an advocacy text (1665), so the later-retelling rule applies. The Polotsk process acts are not held; the row is no longer WANTED and leaves the combined wanted list.
+- Charles Simeon (era 9): WANTED to LISTED. Held: Wesley's entry of 20 December 1784, Curnock's life note, and Marsden's life with one quoted letter. That is a meeting and a few facts told by later hands, with no work of his own. WHO flagged "no own text held" was the other option.
+- The Zoilus note (era 3): he is the Alexandrian patriarch (MOMM2 18879-18881), not one of the African Three Chapters bishops.
+- Anna Komnene (era 5): the Verdict cell no longer says "(OUTSIDE WITNESS)", to match the text ("WANTED without the label").
+- One Opus subagent confirmed the cited lines of the three rescored rows. Its findings are in the audits' rows.
+
+**Combined wanted list.** Josaphat Kuntsevych leaves it, and the era 8 row of Philiphê Bỉnh merges into his era 9 row. It now holds 459 person sources (150 major): era 7 has 8 and era 8 has 42. Audit-row references were re-pointed and `trace_check.py` passes. The Major proposals file drops the era 8 Bỉnh row (174 rows, 35 yes).
+
+**New counts.** Era 1: 72 people (64 in the first table plus 8 addendum rows); WHO 24, STORY 8, LISTED 36, WANTED 4. Era 2: 111. Era 3: 98. Era 6: STORY 22, LISTED 57. Era 7: 255. Era 8: 409. Era 9: WHO 34, STORY 11, LISTED 50, WANTED 154. Total 2,112 people, 254 of them supplement rows. The Who Scan Register page was rebuilt from the corrected audits.
+
+No census, record or site change is made, so there is no data release number. Approved to proceed (coordinator, 2026-11-12; Mark may overrule).

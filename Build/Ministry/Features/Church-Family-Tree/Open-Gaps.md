@@ -3234,3 +3234,7 @@ it, never by deleting it.
       named approval with a cap, through the coordinator. Owner: the coordinator.
     - The `audio/*.audio.txt` files in the era 1 batches are checked-in copies of the brief with tags and
       do not carry the respellings. The run builds its request from the census text. Owner: the coordinator.
+233. **Who scan records cleaned: duplicates merged, change-order items closed (2026-11-12).** Decision-Log, "Who scan records cleaned" (2026-11-12). Records: `Build/Ministry/Operations/Audits/2026-11-12_who-scan-dedupe/Removed_Rows.md` and the ten era audits plus the supplement.
+    - Closed: the change-order items of Open-Gaps 229, "Who scan supplement" (2026-11-12), and 230, "combined wanted list" (2026-11-12): Isidore of Kyiv (now STORY), the Zoilus note, the Anna Komnene Verdict cell, Josaphat Kuntsevych (now LISTED) and Charles Simeon (now LISTED). Owner: the coordinator.
+    - Pliny the Younger is Who, outside witness, not major (Mark, 2026-11-12). His profile goes in era 1 batch 3. Owner: the coordinator.
+    - Still open: `Era8_Carry_Rows.md` in the era 7 folder repeats rows that era 8 re-scored; it was not changed. Owner: the coordinator.

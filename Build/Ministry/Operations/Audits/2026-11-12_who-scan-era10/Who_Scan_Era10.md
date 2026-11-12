@@ -2,7 +2,7 @@
 
 Approved to proceed (coordinator, under Mark's full-auto instruction of 2026-11-12). Read-only scan of era 10 (1906 to about 2010, "The Global Church Era") of the Church Family Tree under Mark's Who standard. The census, the site and the records were not changed by this scan.
 
-Counts, 244 rows (a paired row counts once): **WHO 6, STORY 2, LISTED 108, WANTED 128**. Of the LISTED rows, 101 are living people or people of unknown status, listed only until death under Mark's ruling of 2026-11-12; the other LISTED rows are scored as before.
+Counts, 244 rows (a paired row counts once): **WHO 6, STORY 2, LISTED 108, WANTED 128**. Of the LISTED rows, 102 are living people or people of unknown status, listed only until death under Mark's ruling of 2026-11-12; the other LISTED rows are scored as before.
 
 Judgment-call rows: 57. Major "yes" marks: 48 on WANTED rows (none can reach the map until a source is held) and 1 on WHO rows. Era 10 has no live person entries in the census (all 71 entries are movements, every `people` list is empty), so nothing is flagged on that count. Councils carry no table; gatherings are named in the rows of their participants and new ones are listed as leads. The Library holds almost nothing after 1906: 128 of the 244 rows are WANTED. No row carries the OUTSIDE WITNESS label, because no secular, Jewish, Muslim, Asian or African historian of these churches is held for the period.
 

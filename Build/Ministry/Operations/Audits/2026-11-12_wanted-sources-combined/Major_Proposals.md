@@ -1,6 +1,6 @@
 # Major? proposals for the combined wanted list (2026-11-12)
 
-A Sonnet pass proposed "major" for the 175 wanted rows whose audit carries no clean yes or no (eras 1 to 5 marked only WHO rows; a few later rows carry a conditional note). The test is the audits' own: the person anchors or founded a tradition, or is the figure the census most ties to it, at most about one in five yes. These are proposals; Mark has not seen them. Result: 35 yes, 140 no.
+A Sonnet pass proposed "major" for the 174 wanted rows whose audit carries no clean yes or no (eras 1 to 5 marked only WHO rows; a few later rows carry a conditional note). The test is the audits' own: the person anchors or founded a tradition, or is the figure the census most ties to it, at most about one in five yes. These are proposals; Mark has not seen them. Result: 35 yes, 139 no.
 
 | Person | Era | The audit's own note | Proposal | Reason |
 |---|---:|---|---|---|
@@ -113,7 +113,6 @@ A Sonnet pass proposed "major" for the 175 wanted rows whose audit carries no cl
 | Samson Occom | 8 | no (WANTED now); yes if he becomes WHO | yes | audit note: yes if WHO |
 | Lodovico Antonio Muratori | 8 | judgment call: yes if the Catholic Enlightenment is shown | no | not founder or defining figure |
 | James Bruce of Kinnaird (Scottish traveler at Gondar; OUTSIDE WITNESS if held) | 8 | judgment call: if held, the only outside witness to the Gondar church | no | not founder or defining figure |
-| Philiphê Bỉnh (Vietnamese priest and writer; sailed to Lisbon 1796) | 8 | judgment call: leader of the Padroado community; a minority party | no | not founder or defining figure |
 | Kosmas Aitolos (Kosmas of Aetolia) | 8 | judgment call: widely known, but the map shelf for era 8 Greek East is not decided | no | not founder or defining figure |
 | Hugh Bourne and William Clowes (pair) | 9 | judgment call: yes if kept as one pair; the connexion starts from them | yes | audit note: connexion starts from them |
 | Theodor and Friederike Fliedner (pair) | 9 | judgment call: the deaconess tradition rests on them | yes | deaconess tradition rests on them |
