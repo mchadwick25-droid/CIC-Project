@@ -32,3 +32,4 @@ Open items for operations and protection: the license, copyright, names, rights,
 18. **Short-quotation allowance (2026-11-12).** The license page frees "a short passage" with credit, with no word count. Set a number if requests show people need one.
 19. **Correction to item 3 (2026-11-12).** Item 3 described the Terms as an "educational disclaimer" the project lead asked for. He did not ask for a disclaimer or an AI-transparency note. The Terms were published as decided in decision 12 of 2026-11-12, which closes item 3.
 20. **Tree support page wording (2026-11-12).** The Terms say "voluntary contributions". The tree's support page should use the same words, and its buttons may still say "Give". That is the Church Family Tree coordinator's change.
+21. **Item 15 closed (2026-11-12).** The tree's support page now carries the contribution links, by decision 13 of 2026-11-12.
