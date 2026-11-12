@@ -1,0 +1,85 @@
+{
+  "name": "Tatian",
+  "knownFor": "A hearer of Justin Martyr who attacked Greek learning in his Address to the Greeks and wove the four Gospels into one, the Diatessaron.",
+  "dates": "Broke with the church about 172, by Eusebius's Chronicle",
+  "place": "Born in the land of the Assyrians; at Rome; later in Mesopotamia",
+  "tradition": "Syriac Christianity",
+  "role": "Apologist and teacher",
+  "briefLength": "about 2 minutes 30 seconds",
+  "keyWorks": [
+    {
+      "title": "Address to the Greeks",
+      "about": "his conversion, his scorn for Greek religion and philosophy, and his claim that Moses is older than Homer"
+    },
+    {
+      "title": "Diatessaron",
+      "about": "one gospel woven from the four, long read in the Syriac-speaking churches"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "The Diatessaron. It would seem, writes Hope Hogg, who translated it from Arabic, that at an early stage it was \"very widely if not universally read in the Syriac churches.\" Ephrem the Syrian wrote a commentary on it."
+    ],
+    "remembered": [
+      "Irenaeus of Lyon, his opponent, remembers him as the first to deny that Adam was saved.",
+      "Eusebius of Caesarea and Jerome of Strido name him the founder of the Encratites.",
+      "Theodoret of Cyrus replaced more than two hundred copies of the Diatessaron in his diocese with the four Gospels."
+    ]
+  },
+  "uncertain": [
+    "Irenaeus says Tatian taught invisible powers like the followers of Valentinus, called marriage corruption, and denied Adam's salvation. Irenaeus writes as his opponent. Hippolytus of Rome repeats the three points, following Irenaeus closely.",
+    "Eusebius and Jerome make him the Encratites' founder. Arthur McGiffert, who translated Eusebius, notes that Irenaeus traces the group he describes to Saturninus and Marcion of Pontus, so Tatian found it already in being. McGiffert adds that the name was also used more widely, for anyone who taught extreme abstinence.",
+    "McGiffert reports that Zahn held the Diatessaron was written in Syriac and Harnack in Greek, and he thought Harnack's reasons very strong. Hope Hogg reports that a growing majority of scholars favoured Syriac. Zahn and Harnack both thought it was written before Tatian broke with the church.",
+    "His life is told in two ways. McGiffert reports that Harnack had him at Rome twice, breaking with the church there about 172, and that Zahn had him at Rome once, becoming a heretic in the East. McGiffert thought Harnack's arguments \"seem fully to establish his main positions.\" Hogg says Tatian left Rome for Mesopotamia after Justin's death. McGiffert says the one trustworthy point in Epiphanius is that Tatian went back to Mesopotamia and taught there.",
+    "Eusebius says Tatian made the Diatessaron \"I know not how.\" McGiffert reads this as meaning Eusebius had not seen it. He reports that Lightfoot read it as disapproval."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Address to the Greeks",
+        "language": "English",
+        "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml"
+      },
+      {
+        "title": "Oratio ad Graecos (Greek and Latin, ed. Otto)",
+        "language": "Greek",
+        "file": "cic/texts/tatian_oratio-ad-graecos-grc-lat_otto1851.txt"
+      },
+      {
+        "title": "The Diatessaron (from the Arabic, tr. Hope W. Hogg)",
+        "language": "English",
+        "file": "cic/texts/anf09_gospel-of-peter-diatessaron-origen-commentaries.xml"
+      }
+    ],
+    "about": [
+      {
+        "title": "Against Heresies, Book 1, chapter 28",
+        "author": "Irenaeus of Lyon",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml"
+      },
+      {
+        "title": "Refutation of All Heresies, Book 8",
+        "author": "Hippolytus of Rome",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+      },
+      {
+        "title": "Church History, Book 4, chapters 28 and 29, with McGiffert's notes",
+        "author": "Eusebius of Caesarea",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
+      },
+      {
+        "title": "Lives of Illustrious Men, 29",
+        "author": "Jerome of Strido",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+      }
+    ]
+  }
+}

@@ -1,0 +1,335 @@
+{
+  "tacitus": {
+    "claims": [
+      {
+        "claim": "Nero blamed the Christians for the fire of Rome and had them tortured",
+        "witness": "Tacitus, Annals 15.44; retold by Sulpicius Severus, Sacred History II.29",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Christus was executed under Tiberius by the procurator Pontius Pilatus",
+        "witness": "Tacitus, Annals 15.44",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Tacitus wrote after 96",
+        "witness": "Yonge, preface to Ammianus (his history ends at 96)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "The victims were Christians, not Jews as a whole",
+        "witness": "Tacitus; McGiffert 1890 for; Gibbon and Schiller against",
+        "formation_confidence": "Contested"
+      }
+    ],
+    "contested_claims": [
+      {
+        "claim": "The victims of 64 were Christians, not Jews as a whole",
+        "sides": "Tacitus and McGiffert (Josephus silent on any attack on the Jews) against Gibbon and Schiller"
+      }
+    ]
+  },
+  "suetonius": {
+    "claims": [
+      {
+        "claim": "Claudius expelled Jews who made disturbances at the instigation of Chrestus",
+        "witness": "Suetonius, Claudius 25.4 (Rolfe; Thomson-Forester)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Nero punished the Christians, \"a new and mischievous superstition\"",
+        "witness": "Suetonius, Nero 16.2",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Secretary to Hadrian, dismissed about 121",
+        "witness": "Rolfe introduction (Spartianus); Thomson-Forester preface",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Born about 69 or 77",
+        "witness": "Rolfe: Mommsen 77, Macé 69 (more probable); Thomson-Forester: late in Vespasian's reign",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Chrestus is Christ",
+        "witness": "Rolfe (probable, a chronological error) and Thomson-Forester notes for; Rolfe allows a Jew of that name",
+        "formation_confidence": "Contested"
+      }
+    ],
+    "contested_claims": [
+      {
+        "claim": "Chrestus in Claudius 25.4 is Christ",
+        "sides": "For: Rolfe (a chronological error, since the Latin lacks quodam) and the Thomson-Forester notes. Against: no vendored witness holds it; Rolfe only allows that a Jew of that name may be meant"
+      }
+    ]
+  },
+  "tatian": {
+    "claims": [
+      {
+        "claim": "Born in the land of the Assyrians; converted by reading the Scriptures",
+        "witness": "Tatian, Address 29, 42",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Hearer of Justin at Rome",
+        "witness": "Irenaeus I.28.1; Tatian, Address 18-19",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Separated from the church after Justin's death, about 172",
+        "witness": "Irenaeus I.28.1; Eusebius, Chronicle (McGiffert)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Taught Aeons, condemned marriage, denied Adam's salvation",
+        "witness": "Irenaeus I.28.1 (opponent); Hippolytus, Refutation VIII, following Irenaeus",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Founder of the Encratites",
+        "witness": "Eusebius and Jerome for; McGiffert, from Irenaeus, against",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Made the Diatessaron, widely read in the Syriac churches",
+        "witness": "Eusebius IV.29; Hogg, anf09 introduction; Theodoret (McGiffert, Hogg)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Diatessaron first written in Syriac",
+        "witness": "Zahn for, and a growing majority per Hogg; Harnack for Greek, favoured by McGiffert",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Harnack's outline of his life: twice at Rome, broke about 172",
+        "witness": "McGiffert for Harnack against Zahn; Hogg: left Rome for Mesopotamia",
+        "formation_confidence": "Contested"
+      }
+    ],
+    "contested_claims": [
+      {
+        "claim": "Tatian founded the Encratites",
+        "sides": "Eusebius and Jerome make him founder; McGiffert reads Irenaeus as tracing them to Saturninus and Marcion"
+      },
+      {
+        "claim": "The Diatessaron was first written in Syriac",
+        "sides": "Zahn, followed by Lightfoot, Hilgenfeld and Fuller, and per Hogg a growing majority, for Syriac; Harnack for Greek, whose reasons McGiffert calls very strong"
+      },
+      {
+        "claim": "The outline of his life",
+        "sides": "Harnack (converted about 150, East, back to Rome, broke about 172), whose main positions McGiffert says Harnack's arguments seem fully to establish, against Zahn (once at Rome, became a heretic in the East); Hogg has him leave Rome for Mesopotamia after Justin's death"
+      }
+    ]
+  },
+  "bardaisan-of-edessa": {
+    "claims": [
+      {
+        "claim": "Taught at Edessa; skilled disputant in Syriac; wrote against the Marcionites",
+        "witness": "Eusebius IV.30; Epiphanius, Panarion 56",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The Book of the Laws of Countries gives his argument, written by a disciple",
+        "witness": "The dialogue itself; McGiffert (after Hort)",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "First a Valentinian, then left",
+        "witness": "Eusebius IV.30 and McGiffert (with Hort) against Epiphanius 56 and Barhebraeus (first orthodox, then Valentinian)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Resisted a companion of the emperor who urged him to deny he was a Christian",
+        "witness": "Epiphanius, Panarion 56 (one witness)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Born about 155, died about 223",
+        "witness": "Chronicle of Edessa and Barhebraeus, via McGiffert",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "His son Harmonius made Syriac hymns; Ephrem wrote to his metres",
+        "witness": "Sozomen III.16",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Ephrem knew him only through his followers",
+        "witness": "McGiffert",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      }
+    ],
+    "contested_claims": [
+      {
+        "claim": "The order of his life: Valentinian first, or orthodox first",
+        "sides": "Eusebius (Valentinian, then left it), whom McGiffert thinks may well be right, against Epiphanius and Barhebraeus (orthodox, then Valentinian)"
+      }
+    ]
+  },
+  "hippolytus-of-rome": {
+    "claims": [
+      {
+        "claim": "Exiled to Sardinia in 235 with the bishop Pontianus",
+        "witness": "Liberian catalogue in the book of 354; McGiffert (Lipsius: indisputable)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Wrote the Refutation of All Heresies",
+        "witness": "MacMahon (majority of scholars); McGiffert",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Callistus was a slave, banker and convict who rose to be bishop",
+        "witness": "Hippolytus, Refutation IX (one hostile witness); McGiffert: groundwork true, greatly overdrawn",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "He was a rival bishop to Callistus",
+        "witness": "McGiffert",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Bishop of Portus",
+        "witness": "Tradition; MacMahon for; Döllinger and McGiffert against",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "The 1551 statue is his",
+        "witness": "Coxe; McGiffert (\"has been shown\")",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Buried on the Tiburtine Road",
+        "witness": "Depositio martyrum in the book of 354",
+        "formation_confidence": "Documented"
+      }
+    ],
+    "contested_claims": [
+      {
+        "claim": "Hippolytus was bishop of Portus",
+        "sides": "MacMahon, Bunsen, Wordsworth and the later tradition for; Döllinger against Portus but for a bishopric; McGiffert: \"quite worthless\", a presbyter set up as rival bishop"
+      }
+    ]
+  },
+  "novatian": {
+    "claims": [
+      {
+        "claim": "Made rival bishop at Rome in 251 against Cornelius",
+        "witness": "Cornelius in Eusebius VI.43; Cyprian; Dionysius in VI.45",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Exacted an oath at the Eucharist",
+        "witness": "Cornelius in Eusebius VI.43 (one hostile witness)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Hid during the persecution and refused to help",
+        "witness": "Cornelius (enemy); McGiffert: calumny",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Clinic baptism",
+        "witness": "Cornelius; McGiffert accepts",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "On the Trinity is orthodox",
+        "witness": "McGiffert; Bull (via Coxe)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Died a martyr under Valerian",
+        "witness": "Socrates IV.28 for; Valesius against",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Acesius at Nicaea and Constantine's ladder",
+        "witness": "Socrates I.10, from Auxanon, a Novatian presbyter at Nicaea (I.13); retold by Sozomen I.22",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "His church lasted into the sixth century",
+        "witness": "McGiffert",
+        "formation_confidence": "Widely Accepted"
+      }
+    ],
+    "contested_claims": [
+      {
+        "claim": "Novatian died a martyr under Valerian",
+        "sides": "Socrates of Constantinople for; Valesius against (the Novatian martyrdom book called him a confessor)"
+      },
+      {
+        "claim": "Novatian shirked his duty in the persecution",
+        "sides": "Cornelius for; McGiffert against (calumny); Neander: ascetic withdrawal"
+      }
+    ]
+  },
+  "pontius-the-deacon": {
+    "claims": [
+      {
+        "claim": "Pontius, Cyprian's deacon, wrote the Life and Passion of Cyprian",
+        "witness": "Jerome, Lives 68; Hartel: commonly attributed",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Shared Cyprian's exile at Curubis",
+        "witness": "The Life, 12; Jerome, Lives 68",
+        "formation_confidence": "Documented"
+      }
+    ],
+    "absent_details": [
+      {
+        "detail": "How and when Pontius died",
+        "note": "Coxe says he is said to have died a martyr, and Richardson gives about 260; neither names a source"
+      }
+    ],
+    "contested_claims": []
+  },
+  "dionysius-of-alexandria": {
+    "claims": [
+      {
+        "claim": "Rescued from soldiers by wedding guests under Decius",
+        "witness": "Dionysius, letter to Germanus, in Eusebius VI.40 (his own defence)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Pupil of Origen, head of the school, bishop from about 247",
+        "witness": "Eusebius VI.29, VI.35; McGiffert",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Wrote to Novatian urging him to withdraw",
+        "witness": "Eusebius VI.45",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Christians nursed the sick in the plague",
+        "witness": "Dionysius in Eusebius VII.22 (one witness, a bishop praising his flock)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The Revelation is by a John other than the apostle",
+        "witness": "Dionysius in Eusebius VII.25 (his judgment from style)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "His Refutation and Defence ended the dispute with Dionysius of Rome",
+        "witness": "Robertson, introduction to Athanasius, De Sententia Dionysii",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Died in the twelfth year of Gallienus",
+        "witness": "Eusebius VII.28",
+        "formation_confidence": "Documented"
+      }
+    ],
+    "contested_claims": [
+      {
+        "claim": "The apostle John did not write the Revelation",
+        "sides": "Dionysius (a holy man named John wrote it, but not the apostle) and those before him who rejected the book and gave it to Cerinthus, against the traditional reading that the apostle wrote it; Dionysius adds that many brethren held the book in high esteem"
+      }
+    ]
+  }
+}

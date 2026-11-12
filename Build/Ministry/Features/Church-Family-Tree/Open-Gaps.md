@@ -3207,3 +3207,17 @@ it, never by deleting it.
     - Source names are the audits', many from memory and tagged "[suggested; to confirm]"; confirm each
       edition before acquiring it. The re-run searched names as the audits spell them; a source named
       under another spelling may still be held. Owner: the Library thread.
+231. **Era 1 Who batch 2: site list lines and name gaps (2026-11-12).** The eight batch 2 profiles are
+    approved to proceed and held in `Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era1/batch2/`.
+    None is in the census or on the site. Source: `Build/Ministry/Operations/Audits/2026-11-12_who-profiles-era1-batch2/`;
+    Decision-Log, "Who profiles, era 1 batch 2" (2026-11-12).
+    - List lines in `cft-website/index.html`, reported by the round 1 review and not changed: Hippolytus
+      is listed under two names, "Hippolytus" and "Hippolytus of Rome"; Bardaisan of Edessa has no person
+      line (his tradition lists only his pupil Philip); Tacitus appears only as a source row; Suetonius
+      does not appear. Owner: the map Who build slice, with the placing in "Placing the approved Who
+      profiles" (2026-11-12).
+    - Name gaps, with no place in a vendored source: Paulinus, secretary to Ambrose of Milan (Rolfe gives
+      only "his secretary"), and Germanus, the bishop who accused Dionysius of Alexandria (McGiffert says
+      his see is not known). Both are left as the sources have them. Owner: the Library thread.
+    - Three era 1 WHO rows from the supplement scan are in neither batch: Peter of Alexandria, Anatolius
+      of Alexandria and Laodicea, and Polycrates of Ephesus. Owner: the coordinator.

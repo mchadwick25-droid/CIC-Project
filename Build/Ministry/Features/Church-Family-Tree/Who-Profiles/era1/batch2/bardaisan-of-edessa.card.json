@@ -1,0 +1,79 @@
+{
+  "name": "Bardaisan of Edessa",
+  "otherNames": [
+    "Bardesanes",
+    "Bardesan"
+  ],
+  "knownFor": "A Syriac teacher of Edessa whose pupil's dialogue, the Book of the Laws of Countries, argues that people are free and not ruled by the stars.",
+  "dates": "About 155 to about 223, by later Syriac chronicles",
+  "place": "Edessa, in Mesopotamia",
+  "tradition": "Bardaisan and the Bardaisanites",
+  "role": "Teacher and writer of dialogues",
+  "briefLength": "about 2 minutes",
+  "keyWorks": [
+    {
+      "title": "The Book of the Laws of Countries",
+      "about": "a dialogue in which Bardaisan answers Avida on fate and freedom; written by a disciple"
+    },
+    {
+      "title": "Dialogues against the followers of Marcion",
+      "about": "named by Eusebius of Caesarea; not held in the Library"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "His followers. Sozomen, the church historian, says his son Harmonius is said to have set Syriac verse to metre and music, and that the Syrians still sang the melodies in Sozomen's day."
+    ],
+    "remembered": [
+      "Ephrem the Syrian learned Harmonius's metres and wrote hymns of his own for the church, Sozomen says.",
+      "Ephrem attacked Bardaisan as one of the worst of heretics in his Prose Refutations."
+    ]
+  },
+  "uncertain": [
+    "Eusebius of Caesarea, who calls him \"a powerful defender of the faith,\" says he began as a follower of Valentinus and left him. Epiphanius of Salamis, who wrote against every heresy, says he began as an excellent Christian and fell into the error of Valentinus later. McGiffert thinks Eusebius's order may well be right. Following Hort, he finds no Gnostic system in Bardaisan's teaching.",
+    "The dialogue was written by a disciple, not by Bardaisan, says Arthur McGiffert, who translated Eusebius. In it Bardaisan speaks to \"Philip and Baryama.\"",
+    "McGiffert thinks Ephrem knew Bardaisan only through his followers, and so judged him more harshly.",
+    "His dates come through McGiffert from the Chronicle of Edessa and Barhebraeus. Karl Holl's notes give Barhebraeus's year of death as 221 or 222. Eusebius placed him under Marcus Aurelius. McGiffert, with Hort and Hilgenfeld, takes this as a confusion of the later emperors named Antoninus with the earlier.",
+    "In the dialogue he admits that he once followed the astrologers himself.",
+    "Epiphanius says he refused when a companion of the emperor Antoninus urged him to deny he was a Christian. Karl Holl, who edited Epiphanius, notes that the emperor meant cannot be Marcus Aurelius."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "The Book of the Laws of Countries (his argument, written down by a disciple)",
+        "language": "English translation",
+        "file": "cic/texts/anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml"
+      }
+    ],
+    "about": [
+      {
+        "title": "Church History, Book 4, chapter 30, with McGiffert's notes",
+        "author": "Eusebius of Caesarea",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
+      },
+      {
+        "title": "Panarion 56 (Greek, ed. Holl)",
+        "author": "Epiphanius of Salamis",
+        "date": null,
+        "language": "Greek",
+        "file": "cic/texts/epiphanius_panarion-haer-34-64-gcs-bd2-grc_holl1922.txt"
+      },
+      {
+        "title": "Prose Refutations of Mani, Marcion and Bardaisan",
+        "author": "Ephrem the Syrian",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/ephraim_prose-refutations_mitchell1912-1921.txt"
+      },
+      {
+        "title": "Church History, Book 3, chapter 16",
+        "author": "Sozomen",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
+      }
+    ]
+  }
+}
