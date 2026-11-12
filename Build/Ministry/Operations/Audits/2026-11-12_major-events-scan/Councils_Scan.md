@@ -1,40 +1,40 @@
-# Major events scan, eras 1 to 10 (2026-11-12)
+# Councils, eras 1 to 10: the major councils and the list of all councils (2026-11-12)
 
-Approved to proceed (coordinator, under Mark's full-auto instruction of 2026-11-12). Read-only scan. No census, record or site change.
+Approved to proceed (Mark's rulings of 2026-11-12, relayed by the coordinator, under his full-auto instruction). Read-only scan. No census, record or site change.
 
 Published page: https://claude.ai/artifact/2A1FWYnAr3t8r8JCzG6J8k
 
 ## Rule applied
 
-An event is a gathering that made, or tried to make, a decision, and that brought several traditions together or affected several traditions, so its impact reaches the river level. Mark's words, 2026-11-12: "i do want all the councils and synods"; "they need to be river level, mutliple traditions comming together or impacting multiple traditions"; "if there was a gathering or attempt to come together to make a decision, seeking god together that is what im talking about"; "dont use my rulings use the sources and reliable history to determine"; "keep it in the stories" (the Great Schism of 1054). Persecutions, conquests, edicts, revivals, Bible translations, schisms that were not meetings and political items are on the story list, not here. This refines the entry "2026-11-11 — Events get their own entry when their impact reaches the river level" in the Decision-Log.
+A major council is a gathering that made, or tried to make, a decision, and that brought several traditions together or affected several traditions, so its impact reaches the river level. Mark's words, 2026-11-12: "i do want all the councils and synods"; "they need to be river level, mutliple traditions comming together or impacting multiple traditions"; "if there was a gathering or attempt to come together to make a decision, seeking god together that is what im talking about"; "dont use my rulings use the sources and reliable history to determine"; "keep it in the stories" (the Great Schism of 1054). Persecutions, conquests, edicts, revivals, Bible translations, conversions, schisms that were not meetings and political items are on the story list, not here. Mark's one-word ruling, 2026-11-12: "Use one word for all 182 gatherings. The about 46 that reached a whole river are 'major councils', with their own map entry and icon. The rest show on their tradition. Summits like Lausanne count as councils in this sense." This renames and replaces the "events" category of the Decision-Log entry "2026-11-11 — Events get their own entry when their impact reaches the river level".
 
 ## Counts
 
-Events: 44. Per era (1 to 10): 1, 8, 2, 5, 3, 2, 12, 2, 3, 6.
+Major councils: 46. Per era (1 to 10): 1, 8, 3, 6, 3, 2, 12, 2, 3, 6.
 
-Register of councils and synods: 182 rows (HELD 72, PARTLY 64, WANTED 46, not yet checked 0).
+All councils: 182 rows (HELD 72, PARTLY 64, WANTED 46, not yet checked 0).
 
 Story list: 49 items.
 
 Rivers: 0 Origin; 1 Syriac East; 2 Caucasus; 3 Greek East; 4 Africa; 5 Latin West; 6 Protestant; 7 Revival; 8 Non-Nicene.
 
-## Events
+## Major councils
 
 Library status: HELD = the record is vendored; PARTLY = extracts or a later account; WANTED = not held, source named from memory and tagged [suggested; to confirm].
 
-### Era 1, The Early Church Era (70–312): 1 events
+### Era 1, The Early Church Era (70–312): 1 major councils
 
 | Event | Date | Kind | Rivers | Why river-level | Traditions (census ids) | Library | Participants | Confidence | In the tree |
 |---|---|---|---|---|---|---|---|---|---|
-| Councils of Rome and Carthage on the lapsed | 251, Rome and Carthage | council | Latin West, Africa | Bishops decided how to readmit Christians who had sacrificed under Decius; the Roman synod expelled Novatian, whose party rejected that answer, and the African and Roman churches aligned against it. | novatianism; cyprian-of-carthage; roman-church-third-century | HELD: cyprian_epistulae-lat; cyprian_de-lapsis-lat; hefele-leclercq t1-1 (heading: first councils at Carthage and Rome, 251); anf05. | Cyprian (WHO); Novatian (WHO). | judgment call | The Decian crisis is told in novatianism and 7 other entries; the councils are not named as gatherings. Proposed as a new event node for the map build (Open-Gaps 217); no census change. |
+| Councils of Rome and Carthage on the lapsed | 251, Rome and Carthage | council | Latin West, Africa | Bishops decided how to readmit Christians who had sacrificed under Decius; the Roman synod expelled Novatian, whose party rejected that answer, and the African and Roman churches aligned against it. | novatianism; cyprian-of-carthage; roman-church-third-century | HELD: cyprian_epistulae-lat; cyprian_de-lapsis-lat; hefele-leclercq t1-1 (heading: first councils at Carthage and Rome, 251); anf05. | Cyprian (WHO); Novatian (WHO). | judgment call | The Decian crisis is told in novatianism and 7 other entries; the councils are not named as gatherings. Proposed as a new major-council map entry for the map build (Open-Gaps 217); no census change. |
 
 Considered, not major: Easter controversy and the regional synods under Victor (c. 190–195; Eusebius, Church History 5.23); Council of Carthage on baptism (256); Synod of Antioch against Paul of Samosata (268); Council of Elvira (c. 300).
 
-### Era 2, The Imperial Church Era (312–451): 8 events
+### Era 2, The Imperial Church Era (312–451): 8 major councils
 
 | Event | Date | Kind | Rivers | Why river-level | Traditions (census ids) | Library | Participants | Confidence | In the tree |
 |---|---|---|---|---|---|---|---|---|---|
-| Council of Arles | 314, Arles | council | Latin West, Africa | The first Western council called by an emperor; it heard the Donatist appeal against Caecilian and set canons for Gaul, Spain, Britain and Africa. | donatism; constantine-the-great | HELD: bruns_canones-apostolorum-et-conciliorum-pars-altera (Concilium Arelatense primum, l.7794); Optatus, Against the Donatists, appendix (the council's letter to Silvester); hefele v1. | Constantine the Great (WHO; convened it). | judgment call | Donatism is told in its census entry; the council is not named there. Proposed as a new event node for the map build (Open-Gaps 217); no census change. |
+| Council of Arles | 314, Arles | council | Latin West, Africa | The first Western council called by an emperor; it heard the Donatist appeal against Caecilian and set canons for Gaul, Spain, Britain and Africa. | donatism; constantine-the-great | HELD: bruns_canones-apostolorum-et-conciliorum-pars-altera (Concilium Arelatense primum, l.7794); Optatus, Against the Donatists, appendix (the council's letter to Silvester); hefele v1. | Constantine the Great (WHO; convened it). | judgment call | Donatism is told in its census entry; the council is not named there. Proposed as a new major-council map entry for the map build (Open-Gaps 217); no census change. |
 | Council of Nicaea | 325, Nicaea | council | Greek East, Africa, Latin West, Syriac East, Non-Nicene | The first empire-wide council; its creed is the baseline for the Nicene rivers and the line the non-Nicene river stands outside. | constantine-the-great; athanasius-of-alexandria; imperial-juridical-christianity; homoian-arian-christianity; melitian-schism | HELD: npnf214_seven-ecumenical-councils (creed, canons); patrum-nicaenorum-nomina (subscription lists); mansi tomus 2; hefele v1 (English and German); maruta-of-maipherqat_de-sancta-nicaena-synodo. | Constantine (WHO); Eusebius of Caesarea (WHO). Arius (WHO); Melitius (WHO); Athanasius was a deacon in attendance (WHO in his own right). | clear | Named in 24 entries; the tree tells it widely but has no single event entry. |
 | Council of Sardica | 343, Sardica | council | Greek East, Latin West | Eastern and Western bishops met to settle the Athanasius case and ended in an open split with mutual depositions; the Eastern party withdrew to Philippopolis. | athanasius-of-alexandria; homoian-arian-christianity; roman-church-third-century | HELD: npnf204 (Athanasius, Apology against the Arians, History of the Arians); hilary_collectanea-antiariana (CSEL 65); mansi tomus 3; hefele v2. | Athanasius (WHO); Valens of Mursa and Ursacius (era 1 LISTED); Constantius II (LISTED). | judgment call | Named once in the census, in athanasius-of-alexandria (the Tyre, Rome and Sardica dossier). |
 | Councils of Ariminum and Seleucia | 359, Ariminum and Seleucia | council | Greek East, Latin West, Non-Nicene | Paired councils in the West and East forced one Homoian creed on both halves of the church; the Homoian river rests on them. | homoian-arian-christianity; athanasius-of-alexandria | HELD: Athanasius, De synodis (npnf204); hilary_opera pl10 (Fragmenta historica); Socrates II.37–40 and Sozomen IV.17–22 (npnf202); mansi tomus 3. | Valens and Ursacius (era 1 LISTED); Constantius II (LISTED). | clear | Ariminum is named in 3 entries (athanasius-of-alexandria, gallic-nicene-episcopate, luciferians). |
@@ -45,28 +45,30 @@ Considered, not major: Easter controversy and the regional synods under Victor (
 
 Considered, not major: Council of Tyre (335); Council of Aquileia (381); Synod of Diospolis (415); Synod of the Oak (403); Synod of Seleucia-Ctesiphon (410): one tradition; Council of Gangra (c. 340); Council of Carthage (418).
 
-### Era 3, The Age of Monks and Empires (451–622): 2 events
+### Era 3, The Age of Monks and Empires (451–622): 3 major councils
 
 | Event | Date | Kind | Rivers | Why river-level | Traditions (census ids) | Library | Participants | Confidence | In the tree |
 |---|---|---|---|---|---|---|---|---|---|
 | Second Council of Constantinople (the Three Chapters) | 553, Constantinople | council | Greek East, Latin West, Africa, Syriac East | Justinian forced a Chalcedon reading on the Latin West; the Three Chapters quarrel split North Italy and Africa from Rome. | byzantine-imperial-church-justinianic; latin-africa-under-byzantium; aquileian-christianity | PARTLY: npnf214 (extracts from the acts, sentence, anathemas); collectio-avellana (Vigilius's Constitutum). The full acts (Mansi tomus 9) are not held; WANTED: Mansi tomus 9 [suggested; to confirm]. | Justinian I (WHO); Vigilius (WHO); Theodora (WHO, dead by 548). | clear | Told in 15 entries. |
 | Third Council of Toledo | 589, Toledo | council | Latin West, Non-Nicene | The Visigothic king moved his people from Homoian to Nicene faith; the Homoian river lost its last large state. | nicene-visigothic-iberia; gothic-and-vandal-homoian-christianity; homoian-arian-christianity | HELD: collectio-canonum-ecclesiae-hispanae-toledo-iii-lat_1808 (the acts, the king's confession, signatures). | Reccared (WHO); Leander of Seville (WHO). | clear | Told in 3 entries. |
+| Council of Dvin (the Armenian–Georgian break) | c. 596–609/10, Dvin | council | Caucasus | The Armenian church formally rejected Chalcedon and ended communion with the Georgian church, which kept it; the Georgian church seceded, so two traditions of one river parted. | armenian-christianity-before-the-bagratids; georgian-christianity | WANTED: ormanian_church-of-armenia_gregory1912 gives a summary only (the Third Council of Dvin ratified the Georgian secession, O 2738–2741); the acts are not held. | Kyrion I (LISTED); Abraham of Aghbatank (named in Ormanian, not scored). | judgment call | Named in georgian-christianity (Dvin III, 609) and in the Armenia–Georgia edge (dates 596–609 there); armenian-christianity-before-the-bagratids tells the break without naming the council. Date Contested (596, 607/608, 609). |
 
-Considered, not major: Synods of Beth Lapat and Acacius (484, 486): one tradition; Dvin councils (506, 554, c. 607–609): the last split the Armenian and Georgian churches; Merovingian councils (511–695): Latin only; Council of Orange (529): Latin only.
+Considered, not major: Synods of Beth Lapat and Acacius (484, 486): one tradition; Merovingian councils (511–695): Latin only; Council of Orange (529): Latin only; Dvin councils of 506 and 554: Caucasus only.
 
-### Era 4, The Early Medieval Era (622–1054): 5 events
+### Era 4, The Early Medieval Era (622–1054): 6 major councils
 
 | Event | Date | Kind | Rivers | Why river-level | Traditions (census ids) | Library | Participants | Confidence | In the tree |
 |---|---|---|---|---|---|---|---|---|---|
 | Lateran Council of 649 | 649, Rome | council | Greek East, Africa, Latin West | Pope Martin I called Latin and Greek monks and bishops to condemn Monothelitism without the emperor's consent; Rome opposed imperial policy openly and was punished for it. | latin-africa-under-byzantium; byzantine-imperial-church-heraclian-iconoclast; heraclius | HELD: mansi tomus 10 (Secretaria; the Ekthesis recited). | Martin I (WHO); Maximus the Confessor (WHO; presence not checked); Heraclius (STORY). | clear | Told in about 3 entries (latin-africa-under-byzantium, byzantine-imperial-church-heraclian-iconoclast, heraclius). |
 | Synod of Whitby | 664, Whitby | synod | Latin West | The English, Irish and Welsh churches were brought onto the Roman Easter and tonsure; it ended the Insular church as a separate path. | anglo-saxon-christianity; insular-irish-monastic-christianity; medieval-irish-christianity; british-welsh-christianity | HELD: Bede, History III.25–26 (acts only through Bede; no separate acts exist). | Hild (WHO); Colman (STORY); Wilfrid not scored. | judgment call | Told in 6 entries. |
 | Third Council of Constantinople | 680–681, Constantinople | council | Greek East, Latin West, Syriac East | Condemned Monothelitism; the Maronites held to it in the later tradition and the Eastern churches were again divided. | byzantine-imperial-church-heraclian-iconoclast; maronite-christianity; heraclius | HELD: mansi tomus 11; npnf214 (acts in extract); the 649 Lateran Council in mansi tomus 10. | Maximus the Confessor (WHO); Martin I (WHO, Lateran 649); Heraclius (STORY). | clear | Told in about 6 entries. |
+| Quinisext Council (Council in Trullo) | 691/692, Constantinople | council | Greek East, Latin West, Caucasus | The emperor called the bishops of the East to issue disciplinary canons; Rome refused to sign them, and canons that condemned Roman and Armenian practices became a lasting marker between East and West. | byzantine-imperial-church-heraclian-iconoclast; armenian-christianity-before-the-bagratids; roman-church-gregorian | HELD: npnf214 (the 102 canons of the Quinisext Council, l.26341–30386). | Justinian II and Pope Sergius I (not scored). No Who verdict yet. | judgment call | Named in 2 census places (the edge anatolian-church-third-century to byzantine-imperial-church-heraclian-iconoclast; gregory-of-nyssa), only as the council that ratified older canons. Rome's refusal and the anti-Armenian canons are not told. |
 | Second Council of Nicaea | 787, Nicaea | council | Greek East, Latin West | Ended the first iconoclast period and restored holy images; Charlemagne's court rejected the decrees, which marks a Greek–Latin parting. | byzantine-imperial-church-heraclian-iconoclast; iconophile-byzantine-monasticism; carolingian-reform-christianity | HELD: npnf214 (Sacra and decrees of the Seventh Council, l.37853–41510); annales-regni-francorum_kurze1895 (Frankfurt's rejection). Mansi tomus 12–13 are not held. | Tarasios (LISTED); Empress Irene (LISTED). | clear | Told in about 20 entries. |
 | Councils of Constantinople in the Photian affair | 861–880, Constantinople | council | Greek East, Latin West | The councils that confirmed Photius (861), the Pope's condemnation of him answered by Photius's condemnation of Nicholas (867), the council that deposed him (869–870) and the council that restored him (879–880); Rome and Constantinople contested Bulgaria and the Filioque. | byzantine-imperial-church-macedonian; cyrillo-methodian-slavic-christianity | PARTLY: photius_library-v1_freese1920 (his own work). The acts of 861, 867, 869–870 and 879–880 (Mansi tomus 15–17) are not held; WANTED [suggested; to confirm]. | Photius (WHO). | clear | Told in about 1–2 entries (Photius appears in 6, three of them only as a source). |
 
-Considered, not major: Council of Frankfurt (794); Councils of Aachen (799, 802, 809 on the Filioque, 816–817); Quinisext Council (691/692): Rome rejected its canons; Hieria (754) and the Constantinople synod of 843; Synod of Hertford (672/673/674, sources differ) and Synod of Hatfield (679/680); Toledo IV–XVII (633–694): Iberia only.
+Considered, not major: Council of Frankfurt (794); Councils of Aachen (799, 802, 809 on the Filioque, 816–817); Hieria (754) and the Constantinople synod of 843; Synod of Hertford (672/673/674, sources differ) and Synod of Hatfield (679/680); Toledo IV–XVII (633–694): Iberia only.
 
-### Era 5, The High Medieval Era (1054–1300): 3 events
+### Era 5, The High Medieval Era (1054–1300): 3 major councils
 
 | Event | Date | Kind | Rivers | Why river-level | Traditions (census ids) | Library | Participants | Confidence | In the tree |
 |---|---|---|---|---|---|---|---|---|---|
@@ -76,7 +78,7 @@ Considered, not major: Council of Frankfurt (794); Councils of Aachen (799, 802,
 
 Considered, not major: First and Second Lateran Councils (1123, 1139); Third Lateran Council (1179); Council of Verona (1184); Latin council at Jerusalem (c. 1140–41) and Council of Hromkla (1178/79); Council of Troyes (1129); First Council of Lyon (1245).
 
-### Era 6, The Late Medieval Era (1300–1517): 2 events
+### Era 6, The Late Medieval Era (1300–1517): 2 major councils
 
 | Event | Date | Kind | Rivers | Why river-level | Traditions (census ids) | Library | Participants | Confidence | In the tree |
 |---|---|---|---|---|---|---|---|---|---|
@@ -85,17 +87,17 @@ Considered, not major: First and Second Lateran Councils (1123, 1139); Third Lat
 
 Considered, not major: Council of Vienne (1311–1312); Council of Pisa (1409): folded into Constance; Synods of Constantinople on Palamas (1341–1351); Fifth Lateran Council (1512–1517); Synod of Constantinople repudiating Florence (1484; sometimes 1483); Compacts of Basel with the Hussites (1433).
 
-### Era 7, The Reformation Era (1517–1650): 12 events
+### Era 7, The Reformation Era (1517–1650): 12 major councils
 
 | Event | Date | Kind | Rivers | Why river-level | Traditions (census ids) | Library | Participants | Confidence | In the tree |
 |---|---|---|---|---|---|---|---|---|---|
 | Diet of Worms | 1521, Worms | assembly | Latin West, Protestant | Luther refused to recant before the emperor; the Reformation became a break from Rome. | lutheran-wittenberg-and-its-congregations; martin-luther | PARTLY: luther_works v1–v4 and v6, luther_first-principles-reformation. The Worms acts themselves are WANTED (Deutsche Reichstagsakten [suggested; to confirm]). | Martin Luther (tree person entry). No Who verdict yet. | clear | Told in martin-luther. |
-| Marburg Colloquy | 1529, Marburg | colloquy | Protestant | Luther and Zwingli met and failed to agree on the Supper; it fixed the Lutheran and Reformed parting. | lutheran-wittenberg-and-its-congregations; the-reformed-cities-zurich-and-geneva | PARTLY: zwingli_latin-works-correspondence v1–3; zwingli_selected-works; luther works. The colloquy report is WANTED [suggested; to confirm]. | Luther; Zwingli. No Who verdict yet. | judgment call | Not in census text. Proposed as a new event node for the map build (Open-Gaps 217); no census change. |
-| Diet of Augsburg and the Augsburg Confession | 1530, Augsburg | assembly | Protestant, Latin West | The Lutheran estates presented one confession to the emperor; the process created a church body. | lutheran-wittenberg-and-its-congregations; scandinavian-reformation-kingdoms | HELD: melanchthon_augsburg-confession; melanchthon_apology-augsburg-confession; book-of-concord_jacobs1911. The event is the Diet and its process, not the Confession. | Philip Melanchthon; Martin Luther. No Who verdict yet. | clear | Told in 5 entries. |
+| Marburg Colloquy | 1529, Marburg | colloquy | Protestant | Luther and Zwingli met and failed to agree on the Supper; it fixed the Lutheran and Reformed parting. | lutheran-wittenberg-and-its-congregations; the-reformed-cities-zurich-and-geneva | PARTLY: zwingli_latin-works-correspondence v1–3; zwingli_selected-works; luther works. The colloquy report is WANTED [suggested; to confirm]. | Luther; Zwingli. No Who verdict yet. | judgment call | Not in census text. Proposed as a new major-council map entry for the map build (Open-Gaps 217); no census change. |
+| Diet of Augsburg and the Augsburg Confession | 1530, Augsburg | assembly | Protestant, Latin West | The Lutheran estates presented one confession to the emperor; the process created a church body. | lutheran-wittenberg-and-its-congregations; scandinavian-reformation-kingdoms | HELD: melanchthon_augsburg-confession; melanchthon_apology-augsburg-confession; book-of-concord_jacobs1911. The council is the Diet and its process, not the Confession. | Philip Melanchthon; Martin Luther. No Who verdict yet. | clear | Told in 5 entries. |
 | Synod of Chanforan | 1532, Chanforan, Piedmont | synod | Latin West, Protestant | The Waldensian leaders met in their valleys and decided to join the Reformation, joining the Waldensians to the Reformed churches. | waldensians-in-the-alps; the-waldensian-reformed-union | HELD: perrin_histoire-des-vaudois-fra_1619; perrin_history-ancient-christians-valleys-alps_1847 (the 1532 articles, l.5232 on). | No Who verdict yet. | clear | Told in 2 entries (waldensians-in-the-alps, the-waldensian-reformed-union). |
 | Colloquy of Regensburg | 1541, Regensburg | colloquy | Latin West, Protestant | Catholic and Protestant theologians reached partial agreement on justification and failed on the Supper; the last serious joint attempt before the split hardened. | lutheran-wittenberg-and-its-congregations; the-tridentine-church | PARTLY: calvin_letters-vol1_bonnet1858 (Calvin's letters from Ratisbon, l.10831 on); boero_life-of-peter-faber_coleridge1873. The Regensburg Book is not held. | Calvin attended (tree person entry; no Who verdict yet). | judgment call | Not named in the census. |
 | Council of Trent | 1545–1563, Trent | council | Latin West | The Catholic answer: it defined doctrine against the Protestants and reformed bishops and seminaries for the Latin river. | the-tridentine-church; tridentine-parish-renewal-borromean-milan; the-society-of-jesus | HELD: council-of-trent_canons-and-decrees_waterworth1848; council-of-trent_roman-catechism; sarpi_history-of-the-council-of-trent_brent1676; abdisho-iv_approbatio… (Church of the East 1562). | Ignatius of Loyola (tree person entry); Charles Borromeo. No Who verdict yet. | clear | Told in 10 entries. |
-| Diet of Augsburg (Peace of Augsburg) | 1555, Augsburg | diet | Latin West, Protestant | The first legal toleration for two confessions in the empire (rulers choose); Calvinists were left out. | lutheran-wittenberg-and-its-congregations; the-tridentine-church | PARTLY: mirbt no. 351 (articles of the Religious Peace from the Augsburg Reichstag recess); no. 352 (Paul IV's verdict, 18 Dec 1555). | — | clear | Not in the census text. Proposed as a new event node for the map build (Open-Gaps 217); no census change. |
+| Diet of Augsburg (Peace of Augsburg) | 1555, Augsburg | diet | Latin West, Protestant | The first legal toleration for two confessions in the empire (rulers choose); Calvinists were left out. | lutheran-wittenberg-and-its-congregations; the-tridentine-church | PARTLY: mirbt no. 351 (articles of the Religious Peace from the Augsburg Reichstag recess); no. 352 (Paul IV's verdict, 18 Dec 1555). | — | clear | Not in the census text. Proposed as a new major-council map entry for the map build (Open-Gaps 217); no census change. |
 | Colloquy of Poissy | Sept–Oct 1561, Poissy | colloquy | Latin West, Protestant | Catholic bishops and Reformed ministers, with Beza speaking for the Reformed, met before the French court to seek agreement; it failed, and the hope of a common French church ended. | the-huguenots; the-reformed-cities-zurich-and-geneva; the-tridentine-church | HELD: beza_histoire-ecclesiastique-t1-fra_baum-cunitz1883 (about l.25985–31700: the sessions and Beza's speech of 9 Sept 1561). | Theodore Beza (no Who verdict yet). | clear | Not named as a gathering in the census (to confirm). |
 | Union of Brest | 1596, Brest-Litovsk | union | Greek East, Latin West | Ruthenian Orthodox bishops joined Rome and kept their rite; it created the Greek Catholic churches. | the-union-of-brest-and-ruthenian-greek-catholic-; the-kyiv-mohyla-orthodox-revival | HELD: skarga_synod-brzeski-i-obrona-pol_rzepecki1874; harasiewicz_annales-ecclesiae-ruthenae. | Hypatius Pociej (in the census as Ipatii Potii); Petro Mohyla (later). No Who verdict yet. | clear | Told in 6 entries. |
 | Synod of Diamper | 1599, Malabar | synod | Syriac East, Latin West | The Portuguese archbishop forced the St Thomas Christians to accept Latin rule, rite and doctrine; the Coonan Cross revolt of 1653 split them into two communions. | st-thomas-christians-under-portuguese-pressure-d; st-thomas-christians-1300-1517 | HELD: geddes_history-of-the-church-of-malabar-synod-of-diamper_1694; raulin_historia-ecclesiae-malabaricae-cum-diamperitana-synodo_1745. | No Who verdict yet. | clear | Named in several entries. |
@@ -104,7 +106,7 @@ Considered, not major: Council of Vienne (1311–1312); Council of Pisa (1409): 
 
 Considered, not major: Leipzig Disputation (1519); Diet of Speyer (1529); Synod of Emden (1571); Uppsala Synod (1593); Hampton Court Conference (1604); Cambridge Synod (1646–48); Stoglav Council (1551).
 
-### Era 8, The Enlightenment & Awakening Era (1650–1815): 2 events
+### Era 8, The Enlightenment & Awakening Era (1650–1815): 2 major councils
 
 | Event | Date | Kind | Rivers | Why river-level | Traditions (census ids) | Library | Participants | Confidence | In the tree |
 |---|---|---|---|---|---|---|---|---|---|
@@ -113,7 +115,7 @@ Considered, not major: Leipzig Disputation (1519); Diet of Speyer (1529); Synod 
 
 Considered, not major: Synod of Zamość (1720); Provincial council of the Church of Utrecht (1763; the 'Second' in the Library file is to confirm); Synod of Pistoia (1786); Provincial Council of Manila (1771).
 
-### Era 9, The Missionary Era (1815–1906): 3 events
+### Era 9, The Missionary Era (1815–1906): 3 major councils
 
 | Event | Date | Kind | Rivers | Why river-level | Traditions (census ids) | Library | Participants | Confidence | In the tree |
 |---|---|---|---|---|---|---|---|---|---|
@@ -123,7 +125,7 @@ Considered, not major: Synod of Zamość (1720); Provincial council of the Churc
 
 Considered, not major: Synod of Thurles (1850); Lambeth Conference (1867); Council of Boru Meda (1878); Plenary Council of Latin America (1899); Niagara Bible Conferences (1876/1878 to about 1897/1900; Niagara Creed 1878).
 
-### Era 10, The Global Church Era (1906–c. 2010): 6 events
+### Era 10, The Global Church Era (1906–c. 2010): 6 major councils
 
 | Event | Date | Kind | Rivers | Why river-level | Traditions (census ids) | Library | Participants | Confidence | In the tree |
 |---|---|---|---|---|---|---|---|---|---|
@@ -132,13 +134,13 @@ Considered, not major: Synod of Thurles (1850); Lambeth Conference (1867); Counc
 | World Council of Churches founded | 1948, Amsterdam | ecumenical gathering | Protestant, Greek East, Africa, Revival | Protestant, Anglican and Orthodox churches formed a common council in 1948 (the Ecumenical Patriarchate and the Church of Greece were founding members; the Russian, Romanian, Bulgarian and Polish churches joined in 1961). | the-ecumenical-movement-and-the-wcc; the-anglican-communion-twentieth-century; the-greek-church-and-the-ecumenical-patriarchate; the-russian-orthodox-church-council-patriarchate-and-reunion | WANTED: Amsterdam 1948 report [suggested; to confirm]. | — | clear | Named in 10 entries. Cross-church links proposed for the map build (Open-Gaps 217); no census change. |
 | Second Vatican Council | 1962–1965, Rome | council | Latin West, Greek East, Protestant | Renewed Catholic worship and opened dialogue with other churches. The 1054 excommunications were lifted on 7 December 1965 by a joint declaration of Paul VI and Patriarch Athenagoras, made at the end of the council, not by the council itself. | the-catholic-church-pius-x-to-the-council; the-post-vatican-ii-parish-world; the-liturgical-movement | WANTED: the Council documents (Abbott, The Documents of Vatican II [suggested; to confirm]). | — | clear | Named in 10 entries. |
 | Lausanne Congress on World Evangelization | 1974, Lausanne | ecumenical gathering | Revival, Protestant | Shaped global evangelicalism; the Lausanne Covenant is its shared statement. | lausanne-era-global-evangelicalism; the-ecumenical-movement-and-the-wcc; global-south-pentecostal-christianity | WANTED: the Lausanne Covenant and congress papers [suggested; to confirm]. | — | clear | Named in 7 entries. Cross-church links proposed for the map build (Open-Gaps 217); no census change. |
-| International Summit Conference on Biblical Inerrancy (Chicago Statement) | 1978, Chicago | summit / conference | Protestant | Called by the International Council on Biblical Inerrancy; evangelicals from many denominations adopted one statement on Scripture, which became a test of orthodoxy across the Protestant river. The event is the summit, not the statement. Named from memory; to confirm. | fundamentalism-1910-1970s; lausanne-era-global-evangelicalism; new-calvinism-young-restless-reformed | WANTED: the Chicago Statement and the summit papers [suggested; to confirm]. | No Who verdict yet. | judgment call | Inerrancy appears in 2 entries, both in the Protestant river; the summit itself is not named. Single-river: the multi-tradition claim rests on the denominations it drew from. |
+| International Summit Conference on Biblical Inerrancy (Chicago Statement) | 1978, Chicago | summit / conference | Protestant | Called by the International Council on Biblical Inerrancy; evangelicals from many denominations adopted one statement on Scripture, which became a test of orthodoxy across the Protestant river. The council is the summit, not the statement. Named from memory; to confirm. | fundamentalism-1910-1970s; lausanne-era-global-evangelicalism; new-calvinism-young-restless-reformed | WANTED: the Chicago Statement and the summit papers [suggested; to confirm]. | No Who verdict yet. | judgment call | Inerrancy appears in 2 entries, both in the Protestant river; the summit itself is not named. Single-river: the multi-tradition claim rests on the denominations it drew from. |
 
 Considered, not major: Council of the Russian Orthodox Church (1917–18): one tradition; CELAM at Rio (1955) and Medellín (1968); Chicago Declaration workshop (1973); World's Christian Fundamentals Conference (1919); Manila (1989) and Cape Town (2010); Third Assembly of the WCC at New Delhi (1961).
 
-## Register of councils and synods
+## All councils
 
-Every council, synod, diet, colloquy and conference named in the Who scans (eras 2 to 5), the census text, the era 6 audit leads, or the events above. Recurring bodies are listed once.
+Every council (synod, diet, colloquy, congress, assembly, summit or conference) named in the Who scans (eras 2 to 5), the census text, the era 6 audit leads, or the major councils above. Recurring bodies are listed once.
 
 ### Era 1: 5 rows
 
@@ -208,7 +210,7 @@ Every council, synod, diet, colloquy and conference named in the Who scans (eras
 | Council of Paris | 556-573 | HELD | Yes: concilia-aevi-merovingici-mgh-concilia-1-lat_maassen1893.txt 11527ff; subscribers include Samson (11857). | Who scan era 3 table |
 | Convention of Drumceatt | 575 (annal date; c. 590 in much modern scholarship, Contested) | PARTLY | Adomnan in Huyshe l.5490 | Who scan era 3 table |
 | Toledo III | 589 | HELD | yes: collectio-canonum..toledo-iii-lat_1808 l.36590-38612 (62 bishops; king's statement of faith l.36745-36775; Gothic bishops' confession ~l.36800-37142; signatures) | Who scan era 3 table |
-| Third Council of Dvin | 609 (Ormanian); the break is also dated 607/608 | WANTED | No. Ormanian O 2738-2741 says it ratified the Georgian secession. | Who scan era 3 table |
+| Third Council of Dvin | 609 (Ormanian); the break is dated 596–609/10 (Contested) | WANTED | No. Ormanian O 2738-2741 says it ratified the Georgian secession. | Who scan era 3 table |
 | Seville II | 619 | HELD | yes: Hispana l.59339-60616 (Isidore named l.59360) | Who scan era 3 table |
 
 ### Era 4: 35 rows
@@ -428,6 +430,6 @@ Every council, synod, diet, colloquy and conference named in the Who scans (eras
 
 ## Review and duplicate check
 
-Four Opus checks and a script, 2026-11-12. Events: 17 changed rows rechecked, 3 confirmed, 13 corrected, 1 not supported (Keswick, moved to the story list); Westphalia moved to the story list. Register: the script confirmed the cited file and a keyword for 83 of 106 HELD and PARTLY rows; Opus resolved the other 23 and a 20-row sample (3 corrections); all 66 NOT CHECKED or WANTED rows were searched and 14 gained a record. Story list: 7 dates corrected, 3 items reclassified, 24 items already told as census stories or entries. Duplicates: the 1054 register row dropped (story kept); the Photian councils split into three register rows under one event; the Easter synods added to the register; five register rows lost a major star; the Tamar and Karin councils moved to eras 5 and 4; three Aachen rows given qualifiers; Toledo 400 separated from Saragossa; Chalcedon set to era 2 in both lists. Not duplicates: Ephesus 431 and 449, Constantinople 381 and 360, Nicaea 325 and 787, the Diets of Augsburg 1530 and 1555.
+Four Opus checks and a script, 2026-11-12. Major councils: 17 changed rows rechecked, 3 confirmed, 13 corrected, 1 not supported (Keswick, moved to the story list); Westphalia moved to the story list. Register: the script confirmed the cited file and a keyword for 83 of 106 HELD and PARTLY rows; Opus resolved the other 23 and a 20-row sample (3 corrections); all 66 NOT CHECKED or WANTED rows were searched and 14 gained a record. Story list: 7 dates corrected, 3 items reclassified, 24 items already told as census stories or entries. Duplicates: the 1054 register row dropped (story kept); the Photian councils split into three register rows under one event; the Easter synods added to the register; five register rows lost a major star; the Tamar and Karin councils moved to eras 5 and 4; three Aachen rows given qualifiers; Toledo 400 separated from Saragossa; Chalcedon set to era 2 in both lists. Not duplicates: Ephesus 431 and 449, Constantinople 381 and 360, Nicaea 325 and 787, the Diets of Augsburg 1530 and 1555.
 
-Coordinator calls under Mark's full-auto instruction (Mark may overrule): promoted Poissy 1561, the Conference of Carthage 411, Chanforan 1532 and Polotsk 1839; Quinisext 692 and the Dvin council of 607–609 stay in the register as close calls; cross-church links for Lausanne, the World Council of Churches, Barmen and the 1872 Bulgarian council, and event nodes for the Councils of Rome and Carthage 251, Arles, Clermont, Marburg and the 1555 Diet, are map-build work (Open-Gaps 217), with no census change.
+Mark's ruling of 2026-11-12: the Quinisext Council 692 and the Council of Dvin 607–609 are major councils, checked by Opus (dates, the Library files and the census notes corrected). Coordinator calls under his full-auto instruction (Mark may overrule): promoted Poissy 1561, the Conference of Carthage 411, Chanforan 1532 and Polotsk 1839; cross-church links for Lausanne, the World Council of Churches, Barmen and the 1872 Bulgarian council, and map entries for the Councils of Rome and Carthage 251, Arles, Clermont, Marburg and the 1555 Diet, are map-build work (Open-Gaps 217), with no census change.
