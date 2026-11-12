@@ -2285,3 +2285,29 @@ it, never by deleting it.
       Akindynos; Ruusbroec shared; Gerson and Marsilius WHO; Zara Yaqob WANTED; Tekle Haymanot in
       era 6. Owner: the coordinator.
     - The "Major?" column is a proposal for each WHO; Mark confirms it in each batch.
+
+222. **Open points from the councils scan (2026-11-12).** Owners as noted. Source:
+    `Build/Ministry/Operations/Audits/2026-11-12_major-events-scan/`.
+    - Map build (with 217): cross-church links for the Lausanne Congress, the World Council of
+      Churches founding, the Synod of Barmen and the 1872 Bulgarian council, which each link one
+      census entry now. Map entries for the major councils the census does not name as gatherings,
+      with links to the listed traditions: the Councils of Rome and Carthage 251, the Council of
+      Arles, the Council of Clermont, the Marburg Colloquy, the Diet of Augsburg of 1555, the
+      Quinisext Council and the Council of Dvin. Owner: the map build slice.
+    - Wanted records for the 46 major councils (named from memory; to confirm): the Reichstagsakten
+      for the Diet of Worms; the Marburg colloquy record; the Edinburgh 1910 reports; the Chicago
+      Statement and the Lausanne papers; the Barmen Declaration and synod records; Amsterdam 1948
+      and New Delhi 1961 reports; the Vatican II documents (Vatican copyright); the acts of the
+      Council of Constantinople of 1872 (the census says the acta are verified, the Library holds
+      none: reconcile); the acts of the Council of Dvin (607-609); Mansi tomus 12-13 (Nicaea II),
+      15-17 (the Photian councils) and 9 (Constantinople II). Owner: the Library thread.
+    - The list of all councils holds 46 WANTED rows: see the audit for each council and its named
+      source. The 1844 and 1845 church conferences, the Moscow Council of 1917-18, CELAM Rio 1955
+      and Medellin 1968, and the Cape Town and Manila congresses are all not held. Owner: the
+      Library thread.
+    - Doc-hygiene, not touched: the content note in the Beza Histoire ecclesiastique tome 1 file
+      says tomes 2 and 3 are not vendored, but both are in cic/texts. Owner: the Library thread.
+    - Mark's rulings (2026-11-12): the Quinisext Council and the Council of Dvin are major councils;
+      one word, councils, for every gathering. The coordinator's calls (Mark may overrule): the four
+      other promotions, the story-list placement of Keswick and Westphalia, and the map-build
+      items above. Owner: the coordinator.
