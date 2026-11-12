@@ -2311,3 +2311,47 @@ it, never by deleting it.
       one word, councils, for every gathering. The coordinator's calls (Mark may overrule): the four
       other promotions, the story-list placement of Keswick and Westphalia, and the map-build
       items above. Owner: the coordinator.
+
+222. **Open points from the era 7 scan (2026-11-12).** Owners as noted. Source:
+    `Build/Ministry/Operations/Audits/2026-11-12_who-scan-era7/`. The census was not changed.
+    - WANTED sources the Library does not hold, for the combined list (220): Katharina Schütz Zell's
+      1524 Entschuldigung and 1558 hymn book; Marie Dentière's Epistre tres utile (1539);
+      Gracián's Peregrinación de Anastasio or Diálogos; Fucan's Myōtei mondō and Ha Daiusu (Elison,
+      Deus Destroyed); Xu Guangqi's memorials and prefaces; Guaman Poma's Nueva corónica; Las
+      Casas's Historia de las Indias; Sahagún's Florentine Codex; the acts of the Polotsk process
+      for Kuntsevych. All named from the workers' memory [suggested; to confirm]. Owner: the
+      Library thread.
+    - Sources that would strengthen rows that are now WHO: Camerarius's 1566 Life of Melanchthon;
+      Samuel Clarke's Lives of Perkins; Valignano's Sumario (1583); Rutsky's collected letters; de
+      Nobili's Tamil and Latin works; Argula von Grumbach's 1523 letter and pamphlets; Angela
+      Merici's Rule and Counsels; Kuntsevych-type early lives. Owner: the Library thread.
+    - Outside witnesses with no rows: no Ottoman, Jewish or secular-humanist historian of
+      1517–1650 is held. Wanted sources, no rows: Kâtib Çelebi, Evliya Çelebi, Peçevi, Mustafa Ali,
+      Selaniki; Joseph ha-Kohen, Samuel Usque, Gedaliah ibn Yahya, David Gans, Ibn Verga; de
+      Thou, Guicciardini, Machiavelli, Bodin, Montaigne, Vasari; Leo Africanus; Busbecq. Owner: the
+      Library thread.
+    - Works after 1650 handed to the era 8 scan: van Braght, Lubieniecki, Leger, Morland, Louis XIV,
+      Fontaine, Migault, Brandt, Challoner, Dodd, Zakaria of Kanaker, Ludolf, the Archdeacon Thomas
+      of the Coonan Cross (suggested WANTED there), and eight later Eastern travellers and
+      chroniclers. Baxter stays in era 7 with a flag. Owner: the coordinator (told to the era 8
+      worker 2026-11-12).
+    - Jean Ingoro and Jean Tingoro (Japan): possibly one man; the Pagès narrative volume that
+      indexes Tingoro as a jifiaque is not held, and Ingoro's source note is OCR-garbled and needs a
+      page-image check. Owner: the Library thread.
+    - Library corrections: the OCR spells Katharina Schütz Zell "Zclin" (SCHULTZ 1446); Ursulines
+      do appear in the Library; the Parsons file is Gertrude Parsons's Life of Colette, not Robert
+      Persons; `APOL` is two works (Melanchthon's Apology and Smotryc'kyj's Apologia) across the
+      workers' file keys. Owner: the Library thread.
+    - Leads for the councils list (not scored): the Council of Trent; the Diet of Worms and the
+      Diet of Augsburg 1530; the Colloquy of Marburg; the Synod of Dort; the Westminster Assembly;
+      the Hampton Court Conference; the Synod of Diamper 1599; the Union and Synod of Brest
+      1595–1596; the Stoglav 1551; the Lucaris synods; the Diet of Torda 1568; the Schleitheim
+      assembly 1527; the Jesuit general congregations. Full list with Library files in the audit.
+      Owner: the councils scan.
+    - Dutch Further Reformation has no WHO yet (Teellinck and Voetius LISTED, Schurman STORY); a
+      life source is wanted. Owner: the Library thread.
+    - The coordinator's calls (Mark may overrule): Melanchthon, Perkins, Valignano, Rutsky, Argula
+      von Grumbach and Angela Merici moved from WANTED to WHO; de Nobili WHO witness-only; Neri,
+      Ivan IV, Winthrop and Dávid WHO; Hermogenes STORY; Cocks LISTED; Herberstein unlabelled.
+      Owner: the coordinator.
+    - The "Major?" column is a proposal for each WHO; Mark confirms it in each batch.
