@@ -89,3 +89,43 @@ On the family-history line, he chose "a history you write of your own family or 
 **Project lead.** "the actual charter commitment is creating safe spaces to explore faith and the story of Jesus. that is our public purpose"
 
 **Decision.** Section 1 of the license page names it: "Its charter commits it to a public purpose: creating safe spaces to explore faith and the story of Jesus." It is the same line the Church in Conversation footer already carries as its tagline.
+
+## 2026-11-12 - 9. One Terms of Use, written for the tree first
+
+**Project lead.** On one page or one per product: "a". Then: "actually the family tree will launch first"; "the tree has no api and we will not have the conversation live as it will take more time to get to the context accuracy we need, the tree is a stand alone program at www.churchfamilytree.com"; "for now there is no paid tier or pay as you go, it is free source that asks for contributions"; "it doesn't cost me to run like conversations that spend an api, so i don't charge, but i still want the terms we put in the policy".
+
+**Decision.** One Terms of Use policy covers every product. The tree's part is written first, because the tree launches first, on its own, free, asking for voluntary contributions. The conversation sections wait until conversations go live. The license policy applies to the tree unchanged. Where the Terms page is served is still to settle (open item 3).
+
+## 2026-11-12 - 10. Fees for paid teaching use, set from a price study
+
+**Project lead.** "lets do a study on what home school, christian schools and universityies pay and what they typically use it for". After the study:
+- "i want to include the co-ops in the school catagory, they are a business as much as any"
+- "lets do co-ops and schools by terms"
+- "college and seminary should be per class size students for a class, mabey 10 a student? or a flat fee", then "a" (flat fees by class-size band)
+- "does it need to match the scale they are using it for, if they are using it to inform a website that has a million followers and generates a million dollars of income is that the same as someone using a page in a book"
+- "i dont want to turn it into a business, but want fairness"
+- "and cover my costs including a resonable salary for me"
+- "so keep it simple, ministry feel and fair"
+- "the school or ministry is asked to pay a small fee, but not the students"
+- "fees and contributions help cover..."
+- "add translations and access to global audiences"
+- "add scholorly reviews"
+- "no i dont like they pary for multiple times, turn it into a bullet list"
+- On the final text: "yes".
+
+**The study.** Published prices were gathered on 2026-11-12 for homeschool curricula and co-op licences, Christian-school site licences (RightNow Media, Britannica, Oxford), course-pack permissions (CCC, CLA) and seminary resources. Families pay $40–55 for a single add-on. Christian schools average about 144 students. Course materials come to a few dollars per student per course. Most religious-studies products publish no prices.
+
+**Decision (license page, section 4).**
+- Most use is free: reading, study, churches, sermons, families teaching their own children, using the sites in any class, and quoting a short passage with credit without asking, even in work that is sold.
+- When work earns money from ours, a small fee is asked. Schools and homeschool co-ops pay by term: $75 for fewer than 150 students, $150 for 150 to 500, $300 for more. One college or seminary course pays by class size per term: $75 for up to 25 students, $150 for 26 to 75, $250 for more. A curriculum across a college or seminary program pays $250, $750 or $1,500 a year by size. One person whose work earns money pays about $50 a year. Companies, and work earning more than about $100,000 a year, are by agreement.
+- The school or ministry pays, never its students. Anyone who cannot pay can ask, and cost should never stop a small church.
+- Fees and contributions help cover development and operational costs, listed as: hosting, the narration voices, research, review by scholars, translations that open the work to people around the world, and the people who do the work.
+- The page shows one typical figure ($75 a term). The full amounts are on the request form (Tally `kb97Br`), which gained a "homeschool co-op" choice. The form was published 2026-11-12, with Mark's approval.
+
+**Said to the project lead.** Fees at this level cannot carry a salary on their own, so a salary belongs to the wider funding plan (open item 16).
+
+## 2026-11-12 - 11. Long-term income from Faithways' own curricula
+
+**Project lead.** "it is my hope that after we get it working well we will develop curriculums people can purchase, that is where i think the income eventually comes from"
+
+**What it means.** License fees are about fairness, not the main income. Faithways' own paid curricula are the intended long-term source. The license protects that future: anyone building a paid curriculum from the work shares a fair part back, and large commercial use needs an agreement.
