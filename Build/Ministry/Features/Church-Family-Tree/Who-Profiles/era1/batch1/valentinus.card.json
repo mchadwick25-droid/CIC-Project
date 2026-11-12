@@ -1,0 +1,71 @@
+{
+  "name": "Valentinus",
+  "knownFor": "A teacher at Rome who broke with the church and founded a school that taught a heaven of divine powers in pairs.",
+  "dates": "At Rome from about the time of Bishop Hyginus to Bishop Anicetus",
+  "place": "Rome",
+  "tradition": "Valentinian",
+  "role": "Teacher and founder of a school",
+  "briefLength": "about 1 minute 55 seconds",
+  "keyWorks": [
+    {
+      "title": "Letters",
+      "about": "known only from passages Clement of Alexandria quotes in his Stromata, Book 2"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Tertullian of Carthage names Ptolemaeus, Heraclean, Secundus and Marcus the magician as teachers of his school, and Axionicus at Antioch as the one who kept his rules in full."
+    ],
+    "remembered": [
+      "Irenaeus of Lyon says he adapted the principles of the Gnostic teaching to his own school.",
+      "Tertullian calls him \"the disciple of Platonism.\"",
+      "Hippolytus of Rome says Valentinus claimed to have seen a newborn child who told him he was the Word."
+    ]
+  },
+  "uncertain": [
+    "Almost everything known of him comes from his opponents: Irenaeus of Lyon, Tertullian of Carthage, Clement of Alexandria and Hippolytus of Rome. His own words survive in their quotations, chiefly Clement's.",
+    "The teaching of paired divine powers is described by two opponents, Irenaeus and Hippolytus, though Hippolytus copies long passages of Irenaeus elsewhere in his book, as the American edition's note on his Book 6 shows. The division of people by nature is reported by Irenaeus and Clement, of his followers. The story of the lost bishopric is Tertullian's alone.",
+    "Tertullian places him at Rome under Bishop Eleutherus. Irenaeus places him from Hyginus to Anicetus, earlier.",
+    "That he was taught by Theudas, a pupil of Paul, is his followers' claim, as Clement reports it.",
+    "No source we hold says where he was born."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Fragments of his letters, in Clement of Alexandria, Stromata, Book 2",
+        "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+        "language": "English"
+      }
+    ],
+    "about": [
+      {
+        "title": "Against Heresies, Book 1 chapter 11; Book 3 chapter 4",
+        "author": "Irenaeus of Lyon",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml"
+      },
+      {
+        "title": "Refutation of All Heresies, Book 6",
+        "author": "Hippolytus of Rome",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+      },
+      {
+        "title": "Against the Valentinians 4; Prescription against Heretics 30",
+        "author": "Tertullian of Carthage",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/anf03_tertullian.xml"
+      },
+      {
+        "title": "Stromata, Books 2 and 7",
+        "author": "Clement of Alexandria",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml"
+      }
+    ]
+  }
+}

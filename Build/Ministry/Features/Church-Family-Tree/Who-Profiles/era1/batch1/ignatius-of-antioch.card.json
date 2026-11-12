@@ -1,0 +1,74 @@
+{
+  "name": "Ignatius of Antioch",
+  "otherNames": [
+    "Theophorus"
+  ],
+  "knownFor": "Bishop of Antioch whose seven letters, written under guard on the way to his death at Rome, warn the churches to keep to their bishops and to Christ who truly suffered.",
+  "dates": "Died under the emperor Trajan, or later",
+  "place": "Antioch in Syria; Smyrna and Troas on the road to Rome",
+  "tradition": "Post-apostolic church",
+  "role": "Bishop and martyr",
+  "briefLength": "about 2 minutes 30 seconds",
+  "keyWorks": [
+    {
+      "title": "Letter to the Romans",
+      "about": "his plea that the church at Rome not save him from the beasts"
+    },
+    {
+      "title": "Letter to the Smyrnaeans",
+      "about": "against those who said Christ only seemed to suffer; where the phrase \"Catholic Church\" first appears, Cleveland Coxe says"
+    },
+    {
+      "title": "Letter to Polycarp",
+      "about": "to the bishop of Smyrna, asking him to care for the church at Antioch"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "He told the churches to do nothing without their bishop, and wrote that \"wherever Jesus Christ is, there is the Catholic Church.\" Cleveland Coxe, who edited the American edition of the letters, notes that this is the first use of that phrase in the early church's writings."
+    ],
+    "remembered": [
+      "Polycarp of Smyrna, in his letter to the Philippians, holds up \"the blessed Ignatius\" as an example of patience.",
+      "Irenaeus of Lyon quotes the wheat line as the words of a man of the church condemned to the beasts. Eusebius of Caesarea gives Irenaeus's words as \"As one of our people said.\"",
+      "Eusebius of Caesarea says his fame \"is still celebrated by a great many.\""
+    ]
+  },
+  "uncertain": [
+    "Arthur McGiffert, who translated Eusebius of Caesarea, says almost all we know of him comes from his own letters. Eusebius adds that he was the second bishop of Antioch after Peter, and that report said he died by the beasts at Rome.",
+    "Which letters are his was argued for a long time. Fifteen carry his name; eight are set aside as forgeries. Daillé, in 1666, rejected all of them. Bishop Pearson defended the seven shorter Greek letters in 1672. William Cureton, in 1845, argued that only the three letters in a Syriac version were genuine; Bunsen agreed with him and Hefele did not. McGiffert wrote in 1890 that Zahn and Lightfoot had finally settled it for the shorter Greek letters, though he notes that some still denied them.",
+    "Eusebius's Chronicle dates his death to the tenth year of Trajan, about 107. Zahn and Lightfoot would say only that it was under Trajan. Harnack placed it under Hadrian.",
+    "Accounts of his martyrdom were written from the fourth century on. McGiffert says they contradict one another and cannot be relied on."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "The Epistles of Ignatius, shorter and longer Greek forms, and the Syriac version",
+        "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+        "language": "English"
+      }
+    ],
+    "about": [
+      {
+        "title": "Church History, Book 3, chapter 36",
+        "author": "Eusebius of Caesarea",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
+      },
+      {
+        "title": "Epistle to the Philippians, chapters 9 and 13",
+        "author": "Polycarp of Smyrna",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml"
+      },
+      {
+        "title": "Against Heresies, Book 5, chapter 28",
+        "author": "Irenaeus of Lyon",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml"
+      }
+    ]
+  }
+}

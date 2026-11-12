@@ -1,0 +1,77 @@
+{
+  "name": "Justin Martyr",
+  "knownFor": "A philosopher who became a Christian teacher at Rome, defended Christians to the emperor, and was beheaded for refusing to sacrifice.",
+  "dates": "Died about 165",
+  "place": "Flavia Neapolis in Palestine, then Rome",
+  "tradition": "Greek apologists",
+  "role": "Teacher and apologist",
+  "briefLength": "about 2 minutes 30 seconds",
+  "keyWorks": [
+    {
+      "title": "First Apology",
+      "about": "addressed to Antoninus Pius, with the Word shared by every race and a Sunday service"
+    },
+    {
+      "title": "Second Apology",
+      "about": "a shorter defence, in which he names Crescens"
+    },
+    {
+      "title": "Dialogue with Trypho",
+      "about": "his conversion story, and an argument with a Jew that the prophets spoke of Jesus"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Tatian, who wrote the Address to the Greeks, was his hearer, Irenaeus of Lyon says."
+    ],
+    "remembered": [
+      "The account of his trial before Rusticus was kept as the Martyrdom of Justin.",
+      "Eusebius of Caesarea calls him \"a genuine lover of the true philosophy.\""
+    ]
+  },
+  "uncertain": [
+    "Eusebius says a plot by Crescens the Cynic brought about his death. Arthur McGiffert, who translated Eusebius, notes that Crescens is known only from Justin and Tatian, Crescens's enemies, and that the trial account does not name him.",
+    "One tradition dates his death under Antoninus Pius, another under Marcus Aurelius. McGiffert favours the later one, since Rusticus became prefect of Rome in 163.",
+    "The trial account is of unknown date and author. Dods, who translated it, says it is generally reckoned among the most trustworthy martyr accounts. Some copies add that Justin died by hemlock, which Dods calls an absurd addition."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "First and Second Apology; Dialogue with Trypho",
+        "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml",
+        "language": "English"
+      },
+      {
+        "title": "First Apology (Greek)",
+        "file": "cic/texts/justin-martyr_first-apology-grc_rauschen1911.txt",
+        "language": "Greek"
+      },
+      {
+        "title": "Second Apology (Greek)",
+        "file": "cic/texts/justin-martyr_second-apology-grc_rauschen1911.txt",
+        "language": "Greek"
+      },
+      {
+        "title": "Dialogue with Trypho (Greek)",
+        "file": "cic/texts/justin-martyr_dialogue-with-trypho-grc_archambault1909.txt",
+        "language": "Greek"
+      }
+    ],
+    "about": [
+      {
+        "title": "The Martyrdom of the Holy Martyrs Justin, Chariton and others",
+        "author": "Unknown",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/anf01_apostolic-fathers-justin-irenaeus.xml"
+      },
+      {
+        "title": "Church History, Book 4, chapters 16 to 18",
+        "author": "Eusebius of Caesarea",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
+      }
+    ]
+  }
+}
