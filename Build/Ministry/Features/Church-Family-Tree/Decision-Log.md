@@ -2287,3 +2287,23 @@ proceed (Mark's rulings of 2026-11-12, relayed by the coordinator, under his ful
 **Outcome of the era 9 sweep.** 255 rows (a paired row counts once): WHO 34, STORY 11, LISTED 49, WANTED 161. Judgment-call rows: 128. Era 9 has no live person entries. No row carries the OUTSIDE WITNESS label: no secular, Jewish, Muslim, Asian or African historian of these churches is held for the period. The Library holds almost nothing of 1815–1906, so most named shapers are WANTED. An Opus check read the cited passages for 33 WHO and STORY rows (21 confirmed, 12 corrected, none not supported, no invented person-detail), absence for 168 WANTED rows (157 confirmed, 7 corrected, 1 not supported) and 24 LISTED rows (16 stand). The full table and the checks: `Build/Ministry/Operations/Audits/2026-11-12_who-scan-era9/`.
 
 **What this does not change.** No census, record or site change is made by this scan. Councils stay out of the census until the change order named in the era 2 entry; gatherings found are listed as leads. Approved to proceed (coordinator, under Mark's full-auto instruction of 2026-11-12).
+
+## 2026-11-12 — The era 10 Who scan: deaths in 1990 or later held, Surma Khanim WANTED (coordinator, under Mark's full-auto instruction of 2026-11-12)
+
+**Mark's instruction (2026-11-12, verbatim, relayed by the coordinator).** "you can continue with era 7 - 10 full auto, im stepping our for a few hours, only hold if there is a major decision needed, otherwise use our principles and past decisions to guide you".
+
+**Coordinator calls under that instruction (not Mark's words; Mark may overrule).** The read-only scan of era 10 (1906 to c. 2010) used the standard of eras 1 to 9. Mark has not ruled on living people, so the hold was set by the coordinator in two steps:
+- **Reading of the living-people hold.** The hold is for people who are alive or whose status is unknown. Anyone whose death the census states is scored, flagged in the Dates cell. Anyone certainly dead by common knowledge who died before 1990 is scored and tagged "death not in a held source (Widely Accepted)". Anyone alive, of unknown status, or dead in 1990 or later is held for Mark.
+- **Deaths in 1990 or later are held whatever the source:** Ford (2019), Lefebvre (1991), Schutz (2005) and Antonios of Eritrea (2022) moved from WANTED to the held list. Recent deaths sit too close to Mark's coming rule.
+- **Wigram's 1953 death** is accepted from the Library header.
+- **The Birmingham girls and William Jennings Bryan** stay WANTED.
+- **Surma Khanim:** the women rule applied exactly. The held line (WIGA 10058-10060) names her the best head of the patriarchal house but shows no leading or representing; she is WANTED (not LISTED), her own 1920 book the wanted source.
+- **Four entries with no named person** (Anglican Communion, Church Struggle against Apartheid, Protestantism in Latin America, Ecumenical Movement and WCC) show an empty Who view for now.
+- **Kostelnyk** stays WANTED, the collaboration marked and his motives Contested.
+- **Modern scholars** who write about the churches are not scored; **the 1904–05 Welsh and Korean figures** (Roberts, "Awstin", Stead, Sŏ Sang-yun) stay in era 9; **Tyrrell and Loisy** stay in era 10; **Sheptytsky** stays in era 9.
+
+**Calls made by the scan under settled rules.** Recorders are WHO with a thin life flagged (Malech, Wigram, Ormanian, Scher). Moffett and Gale are WHO on held lines in Underwood's Call of Korea and the Korean Repository. Pius X is STORY on two held encyclicals; Mar Shimun Benyamin is STORY on one witness (the Opus check corrected the draft's "Mar Shimun XXI", a later patriarch). Other popes are WANTED because no text of theirs is held. No row carries the OUTSIDE WITNESS label.
+
+**Outcome of the era 10 sweep.** 134 rows (a paired row counts once): WHO 6, STORY 2, LISTED 6, WANTED 120. A further 124 rows of people are held for Mark and carry no verdict. Judgment-call rows: 55. Era 10 has no live person entries (all 71 entries are movements with empty `people` lists). The Library holds almost nothing of 1906 to c. 2010. An Opus check read 142 rows (124 confirmed, 12 corrected, 6 not supported) and every death tag. The full table and the checks: `Build/Ministry/Operations/Audits/2026-11-12_who-scan-era10/`.
+
+**What this does not change.** No census, record or site change is made by this scan. The held list waits for Mark's rule on living people. Approved to proceed (coordinator, under Mark's full-auto instruction of 2026-11-12).

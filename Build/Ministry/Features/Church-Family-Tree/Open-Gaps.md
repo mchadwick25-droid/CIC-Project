@@ -2660,3 +2660,282 @@ it, never by deleting it.
       Philipos WHO as recorders; Montero y Vidal and Pelesz LISTED; Pobedonostsev STORY.
       Owner: the coordinator.
     - The "Major?" column is a proposal for each WHO; Mark confirms it in each batch.
+
+226. **Open points from the era 10 scan (2026-11-12).** Owners as noted. Source:
+    `Build/Ministry/Operations/Audits/2026-11-12_who-scan-era10/`. The census was not changed.
+    134 rows: WHO 6, STORY 2, LISTED 6, WANTED 120. A further 124 rows of people are held for
+    Mark. The Library holds almost nothing of 1906–c. 2010. Approved to proceed (coordinator,
+    under Mark's full-auto instruction of 2026-11-12).
+    - Held for Mark: 124 rows of living people, people of unknown status and people who died in 1990
+      or later (Ford, Lefebvre, Schutz, Antonios and Gatu among them). No verdict until Mark rules
+      on living people. The list in the audit is the worklist. Owner: Mark.
+    - Four entries name no person (Anglican Communion, Church Struggle against Apartheid,
+      Protestantism in Latin America, Ecumenical Movement and WCC); their Who view stays empty
+      until the combined WANTED list feeds them (coordinator call). Owner: the Library thread.
+    - Surma Khanim is WANTED under the women rule; her own 1920 book is the wanted source
+      [suggested; to confirm]. Owner: the Library thread.
+    - Census flags. The slug `iglesia-ni-cristo-the-way-international-unificat` is truncated: it
+      carries "iglesia-ni-cristo" but holds The Way, the Unification Church and La Luz del Mundo,
+      and Iglesia ni Cristo has its own entry. C. H. Mason (Church of God in Christ) is not named
+      in the Black Church in the Twentieth Century entry. The census owns both.
+      Also noted: the Branch Davidian entry is marked not living although its text says remnant
+      groups outlasted 1993; "Bishops' Council of August 2000" and "Jubilee Council of August
+      2000" are one council under two names. Owner: the census owner.
+    - Rauschenbusch's three books and Machen's Christianity and Liberalism are the sources most
+      likely to be public domain at once: a short first pass for the combined list (220). Owner:
+      the Library thread.
+    - E. Kolodziejczyk (1911), carried from era 9, is a source writer and is not scored. Apolo
+      Kivebulaya, carried from era 9, is a WANTED row here. Sheptytsky stays in era 9 (WANTED).
+      Owner: the Library thread.
+    - WANTED sources the Library does not hold, for the combined list (220), major first, then the
+      rest. Nothing is queued now (coordinator call). Titles tagged "[suggested; to confirm]" were
+      named from the workers' memory. Owner: the Library thread.
+      Major-marked rows (47):
+      - Walter Rauschenbusch: Christianity and the Social Crisis (1907); Christianizing the
+        Social Order (1912); A Theology for the Social Gospel (1917) (the census sources
+        list; rights of the 1917 book to confirm)
+      - J. Gresham Machen: Christianity and Liberalism (Macmillan, 1923); Ned B. Stonehouse,
+        J. Gresham Machen: A Biographical Memoir (1954) (both from the census story sources;
+        rights of the 1954 book to confirm)
+      - Karl Barth: Der Römerbrief (1919; 2nd ed. 1922); the Barmen Declaration (1934)
+        (census sources; rights to confirm)
+      - Reinhold Niebuhr: Moral Man and Immoral Society (1932); The Nature and Destiny of
+        Man (1941-43) (census sources)
+      - Harry Emerson Fosdick: 'Shall the Fundamentalists Win?' (1922); his autobiography
+        [suggested; to confirm]
+      - Cyrus Ingerson Scofield: The Scofield Reference Bible (1909; 1917) (census sources;
+        public domain by date); a life of Scofield that sets out the dispute [suggested; to
+        confirm]
+      - Martin Luther King Jr.: Eulogy for the Martyred Children (18 September 1963) (census
+        story source); the SCLC papers (census sources)
+      - W. B. Riley: A life or his sermons and the WCFA records [suggested; to confirm]
+      - Óscar Romero: His homilies and his diary (census SOURCES: "Martyr records: Romero's
+        homilies and diary") [suggested; to confirm the edition]
+      - Peter Maurin: Maurin's Easy Essays (census SOURCES)
+      - Stefan Wyszynski: Jasnogorskie Sluby Narodu Polskiego (Komancza, 1956) (census
+        SOURCES)
+      - Virgil Michel: Orate Fratres (later Worship), from November 1926; the New Catholic
+        Encyclopedia entry 'Michel, Virgil' (census SOURCES)
+      - Watchman Nee: The Spiritual Man (1928); the Little Flock literature and the Nee-to-
+        Lee corpus [named in the census SOURCES; not held]
+      - Dietrich Bonhoeffer: Discipleship (1937), Life Together (1939), Letters and Papers
+        from Prison (1951, ed. Bethge) [named in census SOURCES; not held]
+      - Martin Niemöller: Niemöller's Dahlem sermons and the Pfarrernotbund records [named
+        in census SOURCES; not held]
+      - J. H. Oldham: Oldham's writings and the Edinburgh 1910 reports [suggested; to
+        confirm]
+      - John R. Mott: Mott's writings and the Edinburgh 1910 reports [suggested; to confirm]
+      - Wei Enbo: A True Jesus Church history and records (1917-) [named in the census
+        SOURCES; not held]
+      - William J. Seymour: William J. Seymour, The Doctrines and Discipline of the Azusa
+        Street Apostolic Faith Mission (1915); The Apostolic Faith (Los Angeles, 1906-1908,
+        13 issues) [both named in the census; rights status to confirm]
+      - Tahupōtiki Wiremu Rātana: Te Whetu Marama (the movement's paper); the church's
+        creed, prayers, hymns and service book; Rātana Pā records [named in the census;
+        rights to confirm]
+      - Janani Luwum: The Janani Luwum martyrdom record (1977; the Westminster Abbey martyrs
+        record, 1998) [named in the census; rights to confirm]
+      - Pandita Ramabai: Mukti Prayer-Bell (her mission press); her own books [named in
+        census; rights to confirm]
+      - Kil Sŏn-ju: Korean church histories (Kil Son-ju); William N. Blair's eyewitness
+        account, with Bruce Hunt, The Korean Pentecost and the Sufferings Which Followed
+        (1977) [named in census sources]
+      - William Nagenda: Nagenda's addresses; the convention record (Kabale 1935-) [named in
+        census]
+      - Festo Kivengere: Festo Kivengere, I Love Idi Amin (1977) [rights to confirm]
+      - William Wadé Harris: Harris's teaching via hearers' records (1926 Benoit interview
+        notes); Harrist catechisms and liturgies [named in census sources]
+      - Moses Orimolade: Cherubim and Seraphim founding records (Orimolade, 1925) [named in
+        census sources]
+      - Simon Kimbangu: The 1921 colonial military-court trial record; the EJCSK's
+        catechetical and doctrinal publications [named in census sources]
+      - R. E. McAlister: Record of the April 1913 Arroyo Seco baptismal sermon [suggested;
+        to confirm]
+      - Frank Ewart and Glenn Cook: Frank Ewart, The Phenomenon of Pentecost (1947) [rights
+        to confirm]
+      - G. T. Haywood: G. T. Haywood's writings and hymns [named in census]
+      - Victor Houteff: Houteff, The Shepherd's Rod (vol. 1 1930, vol. 2 1932) [named in
+        census; rights to confirm]
+      - Felix Y. Manalo: Pasugo (from February 1939); the 1914 government registration
+        [named in census sources]
+      - Dorothy Day: The Long Loneliness (1952); Loaves and Fishes (1963); The Catholic
+        Worker paper (1933-) (census SOURCES)
+      - Josyf Slipyj: Slipyj's Gulag letters and memoirs (1945-63) (census SOURCES)
+      - Dom Lambert Beauduin: The Malines address of 1909 [text not named in the census; to
+        confirm]
+      - Gabriel Hebert: A. G. Hebert, Liturgy and Society (1935); The Parish Communion
+        (1937) (census SOURCES)
+      - Maria Skobtsova: Her essays, Essential Writings (Orbis 2003), and a life of her,
+        e.g. Plekon, Living Icons (2002) (both named in the census SOURCES); rights to be
+        checked by the Library thread [suggested; to confirm]
+      - Habib Girgis: His catechetical writings and Sunday-school magazine; Bishop Suriel,
+        Habib Girgis (SVS Press, Coptic Studies 2, 2017) (census SOURCES); rights to be
+        checked [suggested; to confirm]
+      - Kyrion II: The March 1917 declaration and the council acts, and Kyrion II's
+        correspondence with Moscow (census SOURCES); Mikheil Kartvelishvili's work on the
+        1917 restoration (National Archives of Georgia) [suggested; to confirm]
+      - Sergei Bulgakov: Bulgakov's corpus with the 1935-37 Sophia controversy file, both
+        sides (census SOURCES); rights to be checked [suggested; to confirm]
+      - Georges Florovsky: Ways of Russian Theology (1937) (census SOURCES); rights to be
+        checked [suggested; to confirm]
+      - Vladimir Lossky: Mystical Theology of the Eastern Church (1944) (census SOURCES);
+        rights to be checked [suggested; to confirm]
+      - Iosif Trifa: Oastea Domnului weekly (1923-) and Trifa's books (census SOURCES)
+        [suggested; to confirm]
+      - Grigoris Balakian: Armenian Golgotha (1922; ET 2009) (census SOURCES); rights to be
+        checked [suggested; to confirm]
+      - Tikhon: Tikhon's 1918 anathema and the acts of the Local Council, and a life
+        [suggested; to confirm]
+      - Metropolitan Sergius: The Declaration of 1927 AND the catacomb rejections, both
+        sides (census SOURCES) [suggested; to confirm]
+      Other rows (73):
+      - Victor Paul Wierwille: Victor Paul Wierwille, Power for Abundant Living (1971) and
+        Jesus Christ Is Not God (1975) [named in the census; copyright likely; rights to
+        confirm]
+      - Frank Bartleman: Frank Bartleman, Azusa Street (orig. How Pentecost Came to Los
+        Angeles, 1925) [rights to confirm]
+      - Joe Church: Joe Church, Quest for the Highest (1981) [rights to confirm]
+      - Joseph Babalola: CAC records around Babalola's 1930 revival [named in census
+        sources]
+      - Engenas Lekganyane: Engenas Lekganyane founding record (1924/25); the ZCC's
+        practice-borne record [named in census sources]
+      - Alice Lenshina: Lumpa Church records; Andrew Roberts's chapter (1970) is a later
+        retelling [named in census sources]
+      - Eusebio Joaquín González: La Luz del Mundo Apostleship confession (founding 1926)
+        [named in census sources]
+      - William N. Blair: William N. Blair, eyewitness account (with Bruce Hunt, The Korean
+        Pentecost, 1977) [named in census sources; rights to confirm]
+      - Jessie Penn-Lewis: Penn-Lewis and Roberts, War on the Saints (1913) [named in census
+        sources; rights to confirm]
+      - Reuben Spartas Mukasa: Dictionary of African Christian Biography, 'Spartas, Reuben';
+        his church's records [named in census sources]
+      - Johane Masowe: The apostolics' own records [suggested; to confirm]
+      - André Matswa: Matsouanist records [suggested; to confirm]
+      - Ben and Lois Roden: Ben and Lois Roden's Branch publications [named in census
+        sources]
+      - Michael Joseph Savage: The 1936 Ratana-Savage meeting and alliance record [named in
+        census sources]
+      - Silas Eto: The movement's own records where published [suggested; to confirm]
+      - Apolo Kivebulaya: His diary (Luganda), extracts translated in Anne Luck, African
+        Saint (1963); Kevin Ward, "Apolo Kivebulaya", Dictionary of African Christian
+        Biography (census sources of the era 9 entry) [rights to confirm]
+      - Paul Tillich: Systematic Theology (1951-63) (census sources; in copyright)
+      - Rudolf Bultmann: New Testament and Mythology (1941) (census sources; in copyright)
+      - Clarence Larkin: Dispensational Truth (1918) (census sources; public domain by date)
+      - Curtis Lee Laws: The naming article, Watchman-Examiner (1920) (census sources)
+      - Marshall Keeble: Keeble's stenographed sermons and the Gospel Advocate meeting
+        reports, 1914-1968; Richard T. Hughes, Reviving the Ancient Faith (1996) for the
+        life (the last from the census sources; the first two suggested; to confirm)
+      - M. L. Andreasen: M. L. Andreasen, Letters to the Churches (1959); Seventh-day
+        Adventists Answer Questions on Doctrine (1957; annotated ed., Knight, 2003) (both
+        from the census story sources; the letters circulated privately, so a copy may be
+        hard)
+      - Clarence Orvil Dodd: The Faith (Warren, Ohio, 1937-), C. O. Dodd, editor; Richard C.
+        Nickels, A History of the Seventh Day Church of God (1977; rev. 1999) (both from the
+        census story sources)
+      - William Jennings Bryan: The World's Most Famous Court Trial: Tennessee Evolution
+        Case (1925, the stenographic transcript, the census's primary source)
+      - The four girls of Sixteenth Street Baptist Church: Martin Luther King Jr., Eulogy
+        for the Martyred Children (18 September 1963); Sixteenth Street Baptist Church, its
+        own history and memorial record; the trial records (1977, 2001, 2002) (all from the
+        census story sources)
+      - Jim Jones: Peoples Temple records and the Disciples yearbook entries; Kenneth
+        Teegarden's account [suggested; to confirm]
+      - Donald Grey Barnhouse: 'Are Seventh-day Adventists Christians?', Eternity (September
+        1956) (census story source)
+      - LeRoy Froom: Seventh-day Adventists Answer Questions on Doctrine (1957), signed by
+        no author; Froom's own works [suggested; to confirm]
+      - Walter Martin: His account of the conversations [suggested; to confirm]
+      - B. C. Goodpasture: The Gospel Advocate editorial (December 1954) (census story
+        source)
+      - Roy Cogdill: The Cogdill-Woods Debate (1958); the Gospel Guardian (census story
+        sources)
+      - George Tyrrell: His published works that drew the 1907 condemnations [titles not
+        named in the census; to confirm]; Lamentabili and Pascendi (1907) as the Roman side
+        (census SOURCES)
+      - Havryil Kostelnyk: Bociurkiw, The Ukrainian Greek Catholic Church and the Soviet
+        State (1939-1950) (CIUS, 1996); the acts of the Lviv 'Sobor' and the NKGB/KGB files
+        opened after 1991 (census SOURCES)
+      - Paul VI: His Kampala homily (31 July 1969, French text on vatican.va); the Missal of
+        1969-70; the RCIA (1972) (census SOURCES); the Joint Catholic-Orthodox Declaration,
+        7 December 1965, with Athenagoras I
+      - Alfred Loisy: His published work condemned in 1907 [titles not named in the census;
+        to confirm]
+      - Joseph Kiwanuka: The Dictionary of African Christian Biography entry 'Kiwanuka,
+        Joseph'; Catholic-Hierarchy entry (census SOURCES); his own letters [not named; to
+        confirm]
+      - Joseph-Albert Malula: The Roman Missal for the Dioceses of Zaire (approved 1988);
+        Vatican News report (February 2023) (census SOURCES)
+      - Placide Tempels: Tempels, La philosophie bantoue, trans. A. Rubbens (Lovania, 1945);
+        Fabian, Jamaa (1971) (census SOURCES)
+      - Thomas Tian Gengxin: Ticozzi, 'The 70th anniversary of Church hierarchy in China (11
+        April 1946)' (census SOURCES, a secondary account)
+      - Boleslaw Kominek: Oredzie biskupow polskich do ich niemieckich braci (Rome, 18
+        November 1965) (census SOURCES)
+      - Franciszek Blachnicki: IPN Lublin brochure on Fr Franciszek Blachnicki (census
+        SOURCES); his own Light-Life texts [not named; to confirm]
+      - Rutilio Grande: Martyr records for Rutilio Grande (1977) (census SOURCES, "Martyr
+        records")
+      - Cristobal Magallanes and his 24 companions: John Paul II, homily for the
+        canonization of Cristobal Magallanes and 24 companions (21 May 2000), vatican.va;
+        Jean Meyer, La Cristiada, 3 vols (Siglo XXI, 1973-74) (census SOURCES)
+      - Pius XII: Divino Afflante Spiritu (1943); Ad Apostolorum Principis (29 June 1958)
+        (census SOURCES)
+      - Pius XI: His address to the newly consecrated Chinese bishops (28 October 1926); the
+        1928 encyclical Mortalium Animos, which ruled Catholics could not take part in the
+        ecumenical movement (census, the-ecumenical-movement-and-the-wcc) [suggested; to
+        confirm] [Acta...
+      - A. Kagame: Abblé et al., Des prêtres noirs s'interrogent (Cerf, 1956) (census
+        SOURCES)
+      - Jaime de Barros Camara: The Rio conference documents of 1955 and the Encyclopedia of
+        Religion entry 'CELAM' (census SOURCES)
+      - Leonidas Proaño: Awiti, La trayectoria pastoral de Leonidas Proaño (Quito, 2023, a
+        thesis); his own pastoral writings [not named; to confirm]
+      - Michal Klepacz: His part in the message of 18 November 1965 [not named; to confirm]
+      - Annibale Bugnini: His own account of the reform [not named in the census; to
+        confirm]
+      - John XXIII: His council documents and letters [not named in the census; to confirm]
+      - Tewophilos: The church's own Derg-era martyrology; Binns, The Orthodox Church of
+        Ethiopia: A History (I.B. Tauris, 2017) (census SOURCES) [suggested; to confirm]
+      - Mar Shimun XXIII: Records of the Church of the East in exile (Chicago) and a life;
+        the census SOURCES name the exile records, not a title [suggested; to confirm]
+      - Alexy I: The Tomos of 10 April 1970 granting autocephaly to the Orthodox Church in
+        America (census SOURCES: "The Orthodox Church in America's autocephaly record
+        (1970)") [suggested; to confirm]
+      - Alexander Schmemann: For the Life of the World (1963); The Journals 1973-1983 (SVS
+        2000) (census SOURCES); rights to be checked [suggested; to confirm]
+      - Kyrillos VI: Kyrillos VI papers (1959-71) (census SOURCES) [suggested; to confirm]
+      - Traian Dorz: Traian Dorz's hymns and prison memoirs (census SOURCES) [suggested; to
+        confirm]
+      - Abune Basilios: The Tawahedo church's institutional record of the 1959 autocephaly
+        (census SOURCES) [suggested; to confirm]
+      - Abdul Masih II and Baselios Paulose I: Syriac Orthodox patriarch and the first
+        Catholicos of Malankara: The 1912 consecration record; Malankara synodal records and
+        the Jacobite patriarchate documents (census SOURCES) [suggested; to confirm]
+      - Ambrosi: The 1922 protest memorandum and the trial record (census SOURCES)
+        [suggested; to confirm]
+      - Joseph of Petrograd: The catacomb and True-Orthodox rejections of the Declaration
+        (census SOURCES) [suggested; to confirm]
+      - Athenagoras I: the Joint Declaration of 7 December 1965: Joint Catholic-Orthodox
+        Declaration, 7 December 1965 (vatican.va) (census SOURCES) [suggested; to confirm]
+      - Miron Cristea: Romanian Patriarchate, 'Patriarch Miron Cristea' (patriarhia.ro)
+        (census SOURCES) [suggested; to confirm]
+      - Dimitrije: Novosti (Belgrade), a century since the Tomos for the unification of the
+        Serbian church (census SOURCES) [suggested; to confirm]
+      - Kiril of Plovdiv: Statement of the Bulgarian Orthodox Church on the restoration of
+        the patriarchate, 10 May 1953 (census SOURCES) [suggested; to confirm]
+      - Sandu Tudor: Sandu Tudor's writings and a life; the census names only a 2025 article
+        (Stanciu) [suggested; to confirm]
+      - Khoren I: Etchmiadzin records under Soviet rule (census SOURCES); a life of Khoren I
+        [suggested; to confirm]
+      - Surma Khanim: Her own 1920 account of the murder and of the church's customs
+        (Assyrian Church Customs and the Murdering of Mar Shimun, 1920) [suggested; to
+        confirm]
+      - John Sung: John Sung's diaries as compiled by his family [named in census SOURCES;
+        not held]
+      - V. S. Azariah: Azariah's addresses and a life [suggested; to confirm]
+      - Cheng Jingyi: Cheng's writings and a life [suggested; to confirm]
+      - George W. Peters: Indonesia Revival: Focus on Timor (Zondervan, 1973) [named in
+        census SOURCES; not held]
+      - Ju Gi-cheol: A life of the pastor [suggested; to confirm]; the 2025 news report is a
+        census source, not held
