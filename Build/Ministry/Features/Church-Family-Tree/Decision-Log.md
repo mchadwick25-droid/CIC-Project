@@ -2269,3 +2269,21 @@ proceed (Mark's rulings of 2026-11-12, relayed by the coordinator, under his ful
 **Outcome of the era 7 sweep.** 259 rows (a paired row counts once): WHO 115, STORY 48, LISTED 87, WANTED 9. All five live person entries (Luther, Calvin, Tyndale, Ignatius, Grotius) are WHO, so none is flagged. The Library holds no Ottoman, Jewish or humanist historian of 1517–1650, so no row carries the OUTSIDE WITNESS label. An Opus check read the cited passages for 182 WHO, STORY and WANTED rows (144 confirmed, 35 corrected, 3 not supported, no invented person-detail) and 39 LISTED rows (33 stand, 6 corrected); a second Opus recheck covered the rows the answers changed. Twenty-one first-pass rows were moved to era 8 by date of work and handed to the era 8 scan. The full table and the checks: `Build/Ministry/Operations/Audits/2026-11-12_who-scan-era7/`.
 
 **What this does not change.** No census, record or site change is made by this scan. Councils stay out of the census until the change order named in the era 2 entry; gatherings found are listed as leads for the councils list. Approved to proceed (coordinator, under Mark's full-auto instruction of 2026-11-12).
+
+## 2026-11-12 — The era 9 Who scan: Laestadius and Rosenius Who, Spiritualism held for Mark (coordinator, under Mark's full-auto instruction of 2026-11-12)
+
+**Mark's instruction (2026-11-12, verbatim, relayed by the coordinator).** "you can continue with era 7 - 10 full auto, im stepping our for a few hours, only hold if there is a major decision needed, otherwise use our principles and past decisions to guide you".
+
+**Coordinator calls under that instruction (not Mark's words; Mark may overrule).** The read-only scan of era 9 (1815–1906 CE) used the standard of eras 1 to 7. Five questions went to the coordinator:
+- **Laestadius and Rosenius:** WHO, thin life flagged. An in-era life told from inside their own church (Cornelius, 1886) meets the Dallet standard. Waldenström stays WANTED.
+- **Montero y Vidal and Pelesz:** LISTED (the Gui and Walsingham precedent): hostile recorders with no life to tell.
+- **Pobedonostsev STORY, Ryaboshapka and Ratushny LISTED** on the same book (Conybeare): kept as they are.
+- **Spiritualism / New Thought:** the 6 rows (10 people) stay WANTED and provisional. Whether a movement listed as "Outside Article 4 Scope" belongs on the tree at all is held for Mark.
+- **Source pass:** all WANTED sources are registered in Open-Gaps only, major first, and nothing is queued. The Library gets one combined WANTED list after all scans (Open-Gaps 220).
+- **Boundary people:** Carey, Allen (1816), Hormizd, Marsden, Sheptytsky, Hoyek and Underwood stay in era 9. The era 8 worker has the list of names sent to its desk and the list kept here.
+
+**Calls made by the scan under settled rules.** The Melanchthon rule (era 7) moved Carey, Channing, Filaret (Drozdov) and Holly from WANTED to WHO, thin life flagged. The Opus check found a full life of Leonid of Optina held (OPT1 285-372): WHO. The era 2 recorder ruling moved Dallet, Marnas, Badger, Whitehouse and Edavalikel Philipos to WHO. Pobedonostsev and Nikolai Kasatkin had two worker rows each; one is kept. Popes are STORY. Kolodziejczyk is era 10. Mackenzie carries no OUTSIDE WITNESS label.
+
+**Outcome of the era 9 sweep.** 255 rows (a paired row counts once): WHO 34, STORY 11, LISTED 49, WANTED 161. Judgment-call rows: 128. Era 9 has no live person entries. No row carries the OUTSIDE WITNESS label: no secular, Jewish, Muslim, Asian or African historian of these churches is held for the period. The Library holds almost nothing of 1815–1906, so most named shapers are WANTED. An Opus check read the cited passages for 33 WHO and STORY rows (21 confirmed, 12 corrected, none not supported, no invented person-detail), absence for 168 WANTED rows (157 confirmed, 7 corrected, 1 not supported) and 24 LISTED rows (16 stand). The full table and the checks: `Build/Ministry/Operations/Audits/2026-11-12_who-scan-era9/`.
+
+**What this does not change.** No census, record or site change is made by this scan. Councils stay out of the census until the change order named in the era 2 entry; gatherings found are listed as leads. Approved to proceed (coordinator, under Mark's full-auto instruction of 2026-11-12).

@@ -2355,3 +2355,308 @@ it, never by deleting it.
       Ivan IV, Winthrop and Dávid WHO; Hermogenes STORY; Cocks LISTED; Herberstein unlabelled.
       Owner: the coordinator.
     - The "Major?" column is a proposal for each WHO; Mark confirms it in each batch.
+
+224. **Open points from the era 9 scan (2026-11-12).** Owners as noted. Source:
+    `Build/Ministry/Operations/Audits/2026-11-12_who-scan-era9/`. The census was not changed.
+    255 rows: WHO 34, STORY 11, LISTED 49, WANTED 161. The Library holds almost nothing of
+    1815–1906. Approved to proceed (coordinator, under Mark's full-auto instruction of 2026-11-12).
+    - WANTED sources the Library does not hold, for the combined list (220), major first, then the
+      rest. Nothing is queued now (coordinator call). Titles tagged "[suggested; to confirm]" were named
+      from the workers' memory. Owner: the Library thread.
+      Major-marked rows (50):
+      - Barton W. Stone: Biography of Elder Barton Warren Stone, written by himself (1847)
+        [suggested; to confirm]; the Christian Messenger. Not held (greps: "Biography of Elder",
+        "Christian Messenger")
+      - Alexander Campbell: The Millennial Harbinger (1830-); the Christian Baptist (1823-30); the
+        Campbell-Rice debate; Richardson, Memoirs of Alexander Campbell (1868-70) [all suggested;
+        to confirm]
+      - Charles G. Finney: Lectures on Revivals of Religion (1835); Memoirs of Charles G. Finney
+        (1876) [both suggested; to confirm]
+      - Phoebe Palmer: The Way of Holiness (1843); Wheatley, Life and Letters of Mrs. Phoebe
+        Palmer (1876) [both suggested; to confirm]
+      - Dwight L. Moody: A Life of D. L. Moody by his son (1900) [suggested; to confirm]; his
+        sermons
+      - Charles Haddon Spurgeon: The Metropolitan Tabernacle Pulpit (sermons); Autobiography
+        compiled by his wife and secretary (1897-1900) [both suggested; to confirm]. Greps
+        "Spurgeon" (none his own), "Metropolitan Tabernacle" (none)
+      - Elias Hicks: Journal of the Life and Religious Labours of Elias Hicks (1832) [suggested;
+        to confirm]; the Orthodox side's account
+      - Joseph John Gurney: Memoirs of Joseph John Gurney (1854); his Observations on the
+        Distinguishing Views and Practices of the Society of Friends (1824) [both suggested; to
+        confirm]
+      - William Knibb: Hinton, Memoir of William Knibb (1847); Phillippo, Jamaica: Its Past and
+        Present State (1843) [both suggested; to confirm]
+      - William Miller: His own Views of the Prophecies and a life told by a disciple (Bliss,
+        Memoirs of William Miller) [suggested; to confirm]
+      - Ellen G. White: Her Life Sketches / Spiritual Gifts and a life told by another [suggested;
+        to confirm]
+      - Joseph Smith: His own History and Doctrine and Covenants, with a life told by another
+        [suggested; to confirm]
+      - Brigham Young: The Journal of Discourses and his life told by another [suggested; to
+        confirm]
+      - Charles Taze Russell: Zion's Watch Tower and Studies in the Scriptures [suggested; to
+        confirm]
+      - Mary Baker Eddy: Science and Health and her own memoir Retrospection and Introspection
+        [suggested; to confirm]
+      - John Thomas: Elpis Israel and Eureka [suggested; to confirm]
+      - Edward Irving: His collected writings and a life told by another [suggested; to confirm]
+      - John Humphrey Noyes: His own writings and the community's periodical [suggested; to
+        confirm]
+      - Margaret and Kate Fox (pair): Their own confession and a life told by another [suggested;
+        to confirm]
+      - John Nelson Darby: His Collected Writings and Letters [suggested; to confirm]
+      - Anthony Norris Groves: His journals and the memoir by his widow [suggested; to confirm]
+      - George Mueller (Muller): His Narrative of the Lord's Dealings [suggested; to confirm]
+      - Theodore Parker: His sermons and a life told by a friend [suggested; to confirm]
+      - Hong Xiuquan: The kingdom's own printed edicts and a missionary's record of his visions
+        [suggested; to confirm]
+      - Antonio Conselheiro: Os Sertoes (3rd ed. 1905), plus his own sermon notebooks and a second
+        witness [suggested; to confirm]
+      - Euclides da Cunha: Os Sertoes, 3rd edition (1905) [suggested; to confirm]
+      - John Henry Newman: Apologia pro Vita Sua (1864) [suggested; to confirm]; Tract 90 (named
+        in the census voice line)
+      - John Keble: The 1833 Assize Sermon (census) and a life of Keble [suggested; to confirm:
+        Coleridge, Memoir of Keble, 1869]
+      - Edward Bouverie Pusey: Liddon, Life of Edward Bouverie Pusey (1893-97) [suggested; to
+        confirm]; his own tracts
+      - William and Catherine Booth (pair): Catherine Booth's 1859 argument on women's ministry
+        (census); William Booth, In Darkest England and the Way Out (1890) [suggested; to confirm]
+      - Johann Hinrich Wichern: Wichern's own memorandum on the Inner Mission [suggested; to
+        confirm: the 1849 Denkschrift]
+      - Abraham Kuyper: His writings (census sources note: "Kuyper's writings"); a life [to
+        identify]
+      - Herman Bavinck: Reformed Dogmatics (census: "still in use")
+      - Ignaz von Döllinger: Friedrich, Ignaz von Döllinger (1899-1901) (named in MIRBT 30949);
+        his Briefe und Erklärungen über die Vaticanischen Decrete (named in MIRBT 31054-31055)
+      - C. F. W. Walther: Der Lutheraner and the Missouri Synod founding documents of 1847 (census
+        sources note)
+      - Ambrose of Optina: His letters to laypeople and an early life [suggested; to confirm]
+      - Nikolai (Kasatkin) of Japan: Nikolai's diaries or a life [suggested; to confirm]
+      - Mkrtich Khrimian (Hayrik): Khrimian's writings and a life [suggested; to confirm]
+      - Joseph Audo (Chaldean patriarch): Collectio Lacensis, acts of Vatican I [suggested; to
+        confirm]; his pastoral letters
+      - Cyril IV, Coptic patriarch: A Coptic church history of the 1800s (census note:
+        "institutional and biographical") [suggested; to confirm]
+      - Ioann Veniaminov (Saint Innocent): Veniaminov's journals and Aleut translations (census
+        sources note)
+      - Samuel Ajayi Crowther: Crowther's own Journals and a life, e.g. Page, Samuel Crowther
+        (1908) [suggested; to confirm]; Crowther, Journal of an Expedition up the Niger (1855)
+        [suggested; to confirm]
+      - J. Hudson Taylor: Hudson Taylor, A Retrospect (1894) or Mrs Howard Taylor's life
+        [suggested; to confirm]
+      - Xi Shengmo (Pastor Hsi): A life, e.g. Mrs Howard Taylor, Pastor Hsi (1900) [suggested; to
+        confirm]
+      - Ludwig Ingwer Nommensen: A life of Nommensen, or Batak church records [suggested; to
+        confirm]
+      - Kiai Sadrach: Dutch mission reports and a modern life [suggested; to confirm]
+      - David Jones and David Griffiths (pair): London Missionary Society papers or Ellis, History
+        of Madagascar (1838) [suggested; to confirm]
+      - Johann Ludwig Krapf: Krapf, Travels, Researches and Missionary Labours (1860) [suggested;
+        to confirm]
+      - Charles Lwanga: Martyr accounts [suggested; to confirm]
+      - Tiyo Soga: Chalmers, Tiyo Soga: A Page of South African Mission Work (1877) [suggested; to
+        confirm]
+      Other WANTED rows (111):
+      - Walter Scott: Baxter, Life of Elder Walter Scott (1874) [suggested; to confirm]
+      - "Raccoon" John Smith: Williams, Life of Elder John Smith (1870) [suggested; to confirm]
+      - Peter Cartwright: Autobiography of Peter Cartwright, the Backwoods Preacher (1856)
+        [suggested; to confirm]. Greps "Peter Cartwright" (one list line), "Autobiography of Peter
+        Cartwright" (none)
+      - Daniel Coker: A Dialogue Between a Virginian and an African Minister (1810); Journal of
+        Daniel Coker (1820) [both suggested; to confirm]
+      - Zilpha Elaw: Memoirs of the Life, Religious Experience, Ministerial Travels and Labours of
+        Mrs. Elaw (1846) [suggested; to confirm]
+      - Julia Foote: A Brand Plucked from the Fire (1879) [suggested; to confirm]
+      - Amanda Berry Smith: An Autobiography: The Story of the Lord's Dealings with Mrs. Amanda
+        Smith (1893) [suggested; to confirm]
+      - Hannah Whitall Smith: The Christian's Secret of a Happy Life (1875); her later
+        autobiography The Unselfishness of God (1903) [both suggested; to confirm]
+      - John S. Inskip: A Life of John S. Inskip (1885) [suggested; to confirm]
+      - Robert P. Wilder: Wilder's own account of the 1886 Mount Hermon conference and his campus
+        tours (title to be found)
+      - Hugh Bourne and William Clowes (pair): Bourne's History of the Primitive Methodists
+        (1823); Clowes's Journals (1844) [both suggested; to confirm]
+      - Jabez Bunting: T. P. Bunting, Life of Jabez Bunting (1859) [suggested; to confirm];
+        Conference minutes after 1798
+      - James Varick: Christopher Rush, A Short Account of the Rise and Progress of the African M.
+        E. Church (1843) [suggested; to confirm]
+      - William Taylor: Story of My Life (1895) [suggested; to confirm]
+      - James Robinson Graves: Old Landmarkism: What Is It? (1880); a life such as Hailey, J. R.
+        Graves: Life, Times and Teachings (1929) [both suggested; to confirm]
+      - William Bullein Johnson: Proceedings of the 1845 Augusta convention; Johnson's The Gospel
+        Developed (1846) [suggested; to confirm]. The founding meeting is WANTED on the councils
+        list
+      - John Clifford: Baptist Union records of 1887-88; Marchant, Dr. John Clifford (1924) [both
+        suggested; to confirm]
+      - John Wilbur: Journal of the Life of John Wilbur (1859) [suggested; to confirm]
+      - Lucretia Mott: Hallowell, James and Lucretia Mott: Life and Letters (1884) [suggested; to
+        confirm]
+      - Levi Coffin: Reminiscences of Levi Coffin (1876) [suggested; to confirm]
+      - Samuel Sharpe: Bleby, Death Struggles of Slavery (1853) [suggested; to confirm]
+      - John Smith of Demerara: The 1823-24 Demerara trial papers; Wallbridge, The Demerara Martyr
+        (1848) [both suggested; to confirm]
+      - Henry Bleby: Death Struggles of Slavery (1853) [suggested; to confirm]
+      - Hiram Edson: His own manuscript account of the morning after 1844 [suggested; to confirm]
+      - Joseph Bates: His Autobiography [suggested; to confirm]
+      - Emma Hale Smith: Her 1835 hymnbook and a life told by another [suggested; to confirm]
+      - Eliza R. Snow: Her poetry volumes and her own journal or a life [suggested; to confirm]
+      - Emmeline B. Wells: The Woman's Exponent (periodical) and a told life [suggested; to
+        confirm]
+      - Robert Roberts: His magazine run and a life told by another [suggested; to confirm]
+      - Mary Campbell and Margaret Macdonald (pair): A contemporary account of the 1830
+        prophecies, and a life told by another [suggested; to confirm]
+      - John Bate Cardale: The church's liturgy and his own tracts [suggested; to confirm]
+      - Henry Drummond (banker, patron): A life told by another, and the Albury conference record
+        [suggested; to confirm]
+      - Tirzah Miller: Her diaries, in a printed edition [suggested; to confirm]
+      - Andrew Jackson Davis: His own major book and his autobiography [suggested; to confirm]
+      - Emma Hardinge Britten: Her history of Spiritualism [suggested; to confirm]
+      - Phineas Quimby: His own manuscripts, with an early life [suggested; to confirm]
+      - Emma Curtis Hopkins: Her own lessons and a told life [suggested; to confirm]
+      - Charles and Myrtle Fillmore (pair): The Unity periodical and Charles Fillmore's books
+        [suggested; to confirm]
+      - Benjamin Wills Newton: His own tracts and a neutral told life [suggested; to confirm]
+      - J. G. Bellett: His memoir of the early circle [suggested; to confirm]
+      - Ralph Waldo Emerson: The 1838 Address and a life told by another [suggested; to confirm]
+      - Dorothea Dix: A life told by another [suggested; to confirm]
+      - Feng Yunshan: Taiping texts and a missionary's record [suggested; to confirm]
+      - Yang Xiuqing: The kingdom's proclamations and a witness outside it [suggested; to confirm]
+      - Hong Rengan: His own program and a missionary's record [suggested; to confirm]
+      - Issachar Jacox Roberts: His own letters or a life told by another [suggested; to confirm]
+      - Richard Hurrell Froude: His posthumously published papers (census), Remains [suggested; to
+        confirm]
+      - Priscilla Lydia Sellon: The Devonport sisterhood's own records (census sources note: "the
+        sisterhoods' archives"); a contemporary life [to identify]
+      - Theodor and Friederike Fliedner (pair): Their own accounts of Kaiserswerth [exact title to
+        identify]
+      - Adolphe Monod: The deathbed addresses taken down and published (census); sermons [to
+        identify]
+      - Guillaume Groen van Prinsterer: His own history and political writings [to identify;
+        suggested: Ongeloof en Revolutie, 1847]
+      - Hendrik de Cock: The Afscheiding's own acts of 1834 (census sources note) and a life [to
+        identify]
+      - Paul Petter Waldenström: His articles in Pietisten (from 1872, CORN 26595) and his books
+        [to identify]
+      - Charles Simeon: Carus, Memoirs of the Life of the Rev. Charles Simeon (1847) [suggested;
+        to confirm]
+      - Anthony Ashley Cooper, Lord Shaftesbury: A life of the seventh earl [to identify;
+        suggested: Hodder, 1886]
+      - Samuel Wilberforce: A life of the bishop [to identify; suggested: Ashwell and R. G.
+        Wilberforce, 1880-82]
+      - Frederick Denison Maurice: His Theological Essays and a life told through his letters
+        [suggested; to confirm]
+      - John William Colenso: His Pentateuch and Joshua critical examination [suggested; to
+        confirm]
+      - Charles Longley: The 1867 Lambeth Conference documents (census sources note)
+      - Wilhelm Löhe: His writings and the Neuendettelsau records [to identify]
+      - Bernadette Soubirous: Her own depositions of 1858, or an early life such as Lasserre,
+        Notre-Dame de Lourdes (1869) [suggested; to confirm]
+      - Nicholas Wiseman: His own Pastoral from the Flaminian Gate (1850) and Recollections of the
+        Last Four Popes (1858) [suggested; to confirm]; and a life such as Wilfrid Ward, Life and
+        Times of Cardinal Wiseman (1897) [suggested; to confirm]
+      - Andrey Sheptytsky, metropolitan of Lviv: His pastoral letters (1900-1914) and an early
+        life, such as Korolevsky, Métropolite André Szeptyckyj (1964) [suggested; to confirm]
+      - Gregorio Aglipay and Isabelo de los Reyes (pair): The church's founding texts and Reyes's
+        writings (the census names "the Iglesia Filipina Independiente's own founding texts")
+        [suggested; to confirm editions]
+      - Apolinario de la Cruz: A second account independent of Montero y Vidal, e.g. the friar's
+        Relación cited in MONT 1476-1484 (by Fr. Manuel, title line garbled) or the trial record
+        [suggested; to confirm]
+      - Niijima Jo (Joseph Hardy Neesima): His Life and Letters (Hardy, 1892) [suggested; to
+        confirm]
+      - Uchimura Kanzo: How I Became a Christian (1895) [suggested; to confirm] and the collected
+        works
+      - Fabre Geffrard, president of Haiti: The Concordat of 1860 and its acts [suggested; to
+        confirm]
+      - Benito Juarez: The Reform laws of 1855-1860 (Ley Juárez, Ley Lerdo, Reform decrees)
+        [suggested; to confirm]
+      - Gabriel Garcia Moreno: The decree of consecration (1873-1874) and an early life
+        [suggested; to confirm]
+      - Vital Maria Goncalves de Oliveira and Antonio de Macedo Costa (pair; Brazil, religious
+        question): Their pastoral letters and the trial records of the 1870s [suggested; to
+        confirm]
+      - Philiphê Binh (Philiphê Bỉnh): His book in Vietnamese (a chronicle of the Vietnamese
+        Church, 1822) [suggested; to confirm]
+      - Minh Mang, emperor of Vietnam: The edict of 1833 in French or English translation, in a
+        Paris Mission history [suggested; to confirm]
+      - Peter Paul Massaad, Maronite patriarch: His pastoral letters and patriarchal acts, or a
+        Maronite history of the period [suggested; to confirm]
+      - Joseph Dolci, Maronite patriarch: The acts of the Maronite synod of 1818 [suggested; to
+        confirm]
+      - Elias Hoyek, Maronite patriarch: His letters or memoirs, or a Maronite history of
+        1899-1906 [suggested; to confirm]
+      - Macarius of Optina: His published letters and a life, Optina press [suggested; to confirm]
+      - Ivan Kireevsky: Collected works of Ivan Kireevsky [suggested; to confirm]
+      - Theophan the Recluse: His Russian Dobrotolyubie and letters [suggested; to confirm]
+      - Makary (Glukharev): His writings and a life of the Altai mission founder [suggested; to
+        confirm]
+      - John of Kronstadt: John of Kronstadt's diary (named in the Optina census sources note)
+      - Nerses Varzhapetian: Records of the National Assembly and Nerses's reports (census sources
+        note) [suggested; to confirm titles]
+      - Grigor Odian: The Armenian National Constitution of 1863 and Odian's writings [suggested;
+        to confirm]
+      - Theoklitos Pharmakidis: His writings on the declaration of 1833 [suggested; to confirm]
+      - Konstantinos Oikonomos: His defence of the Patriarchate's authority [suggested; to
+        confirm]
+      - Antim I (first Bulgarian exarch): The firman of 1870 and the 1872 acta (census sources
+        note); a life of Antim
+      - Thomas Jones (Khasi missionary): Welsh mission records and a life [suggested; to confirm]
+      - Edwin W. Clark: American Baptist Naga mission records [suggested; to confirm]
+      - Herman of Alaska: Herman's Spruce Island record (census sources note)
+      - Iakov Netsvetov: Records of the native clergy (census sources note)
+      - Tewodros II: Royal chronicles (census sources note)
+      - Abuna Salama III: Mission-era accounts by outsiders (census sources note)
+      - Yohannes IV: Records of the Boru Meda settlement of 1878 (census sources note)
+      - Menelik II: Royal chronicles (census sources note)
+      - Empress Taytu Betul: Royal chronicles (census sources note)
+      - Liang Fa: His tract (Quanshi liangyan, 1832) plus a life [suggested; to confirm]
+      - Ta'unga: His own narrative, in a modern edition; rights unchecked [suggested; to confirm]
+      - Joeli Bulu: His autobiography, translated 1871 [suggested; to confirm]
+      - Rasalama: The martyr accounts, e.g. in Ellis, Three Visits (1858) [suggested; to confirm]
+      - Rafaravavy: A narrative of her escape [suggested; to confirm]
+      - Ranavalona I: Mission histories of the persecution [suggested; to confirm]
+      - Ranavalona II: Same mission histories [suggested; to confirm]
+      - Joseph Mukasa Balikuddembe: Martyr accounts, Anglican and Catholic [suggested; to confirm]
+      - James Hannington: His journals and a life, e.g. Dawson (1887) [suggested; to confirm]
+      - Mwanga II: Mission and court accounts [suggested; to confirm]
+      - Ntsikana: Chalmers, Tiyo Soga (1877) and Ntsikana's hymn [suggested; to confirm]
+      - Moshoeshoe (Moshesh): Casalis, The Basutos (1861) [suggested; to confirm]
+      - J. Taylor Hamilton: Hamilton's history of the Moravian Church (1901 per census)
+      - Pliny Fisk: Jessup, Fifty-three Years in Syria (1910) [suggested; to confirm] and a memoir
+        of Fisk
+      - Butrus el Bistany and Sheikh Nasif el Yazigy (pair): The Smith-Van Dyck Bible story in
+        Jessup (1910), or Arabic sources [suggested; to confirm]
+      - Asaad es Shidiak: Jessup (1910); a memoir of Shidiak (1830s) [suggested; to confirm]
+    - Scope hold for Mark: Spiritualism / New Thought is "Outside Article 4 Scope" in
+      `ATLAS-TARGETS.md`. Its 6 rows (10 people: the Fox sisters, A. J. Davis, Hardinge Britten,
+      Quimby, Hopkins, the Fillmores) stay WANTED and are provisional until Mark rules whether such a
+      movement belongs on the tree. Owner: Mark.
+    - Carried forward to era 10 (no verdict): Oldham, Azariah, Cheng Jingyi, John R. Mott, Tikhon
+      (Bellavin), Ormanian, Scher, Malech, Wigram, Nurikhan, Kivebulaya, Bramwell Booth's post-1912
+      work, Pius X's 1907 syllabus, Charon's patriarchates volumes, Bonch-Bruevich. Owner: the
+      coordinator.
+    - Handed to the era 8 worker 2026-11-12 (scored once there): Absalom Jones, Asbury, McGready,
+      McNemar, Thomas Campbell, Raikes and Stock, Liele and David George, Coke and Jesse Lee,
+      Ballou and the Universalist hymnbook committee, Freeman, Wells, Belsham, Murray, Winchester,
+      Hauge, Wilberforce, Theodore de Cock and the Utrecht persons of the 1700s, Georg Schmidt,
+      Nikodemos the Hagiorite and the Philokalia circle, Kosmas Aitolos, Paisius Velichkovsky, Tikhon
+      of Zadonsk, Balaam, Paisii Hilendarski, Prokopovich, Chamich, Assemani, Filippov and Denisov,
+      the Compiègne Carmelites, the Szeptyckis, Moreau de Saint-Méry, Volney, Anne Dutton. Kept in
+      era 9: Carey, Allen (1816), Hormizd, Marsden, Sheptytsky, Hoyek, Underwood, Simeon, Gregory V.
+    - Outside witnesses with no rows: no secular, Jewish, Muslim, Asian or African historian of these
+      churches is held for 1815–1906. Owner: the Library thread.
+    - Library corrections: the Pusey volumes on Cyril are by P. E. Pusey, not E. B. Pusey; the
+      Library header's note that Appenzeller's report sits at about KREPO 19633 is wrong (19644 is
+      the editors' list); Dallet's Korean names are French spellings (Ni Seng-houn-i, Tieng,
+      Hoang); Heykamp is printed as Archbishop of Utrecht at MIRBT 31197-31198, where the census
+      says Deventer. Owner: the Library thread.
+    - Leads for the councils list (not scored): see the audit; they include the Melkite election
+      synod of 1902 (Mansi 46, l.114334), the Armenian National Assembly 1863, the Synod of
+      Mulanthuruthy 1876, the Mavelicare assembly 1818, the AME conference 1816, the Utrecht and
+      Old Catholic gatherings 1870–1892, the General Synod of the Reformed Church of France 1872,
+      and the Albury and Powerscourt conferences. Owner: the councils scan.
+    - The coordinator's calls (Mark may overrule): Laestadius and Rosenius WHO; Carey, Channing,
+      Filaret (Drozdov), Holly, Leonid of Optina WHO; Dallet, Marnas, Badger, Whitehouse and
+      Philipos WHO as recorders; Montero y Vidal and Pelesz LISTED; Pobedonostsev STORY.
+      Owner: the coordinator.
+    - The "Major?" column is a proposal for each WHO; Mark confirms it in each batch.
