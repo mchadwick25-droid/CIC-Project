@@ -2321,3 +2321,20 @@ proceed (Mark's rulings of 2026-11-12, relayed by the coordinator, under his ful
 **Coordinator calls (not Mark's words; Mark may overrule).** Ilia II is scored on a death stated in an era 5 census entry (the census as a whole counts). Gatu is scored WANTED on the census citation of his obituary. People who died before 1990 by common knowledge stay scored under the earlier coordinator call; twelve more possible pre-1990 deaths known only from a model's memory stay "status unknown" until a source confirms them.
 
 **What this does not change.** No census, record or site change. Approved to proceed (coordinator, under Mark's full-auto instruction of 2026-11-12), with Mark's four rulings as stated.
+
+## 2026-11-12 — The era 8 Who scan: church heads by the two-witness rule, Quesnel LISTED, one outside witness (coordinator, under Mark's full-auto instruction of 2026-11-12)
+
+**Mark's instruction (2026-11-12, verbatim, relayed by the coordinator).** "you can continue with era 7 - 10 full auto, im stepping our for a few hours, only hold if there is a major decision needed, otherwise use our principles and past decisions to guide you".
+
+**Coordinator calls under that instruction (not Mark's words; Mark may overrule).** The read-only scan of era 8 (1650–1815 CE) used the standard of eras 1 to 7. Five questions went to the coordinator, none a major decision, each answered by a settled precedent:
+- **Heads of churches or parties with no text of their own held:** the two-witness precedent (Ferenc Dávid, de Nobili). WHO, flagged "no own text held", where two independent held witnesses carry the person; STORY where only one does. Hacob IV, Simeon of Erevan, Mar Thoma I, Mar Dionysius I and De Cock all went under the two-witness rule and are WHO.
+- **Compilers:** Freylinghausen stays WHO; Reitz is LISTED.
+- **Arnauld and Quesnel:** Arnauld is WHO, flagged. Quesnel goes by the Melanchthon rule exactly. The bull Unigenitus of 1713 is held but prints only the 101 condemned propositions, not the Réflexions morales, and his life rests on Neale 1858 alone, so he is LISTED under the later-retelling rule.
+- **Outside witness:** the era 7 Herberstein precedent (a Christian writer is inside Christianity, whatever the church). Rycaut, Tournefort and Ludolf are plain WHO recorders. Volney is the only label kept, with his skepticism marked as his standpoint. Moreau de Saint-Méry is plain, as a partisan.
+- **People with no era 8 census entry:** scored here by date of work; the census gaps are in Open-Gaps 225.
+
+**Calls made by the scan under settled rules.** Doctrine-only classics (Barclay, Chauncy, Tennent) LISTED; modern historians who are the sole source of an entry not scored and flagged for era 9; Aquino de Belén and the VOC translators LISTED; Kimpa Vita, da Gallo and Pedro IV WANTED, because the two Capuchin relations are not held; Archdeacon Thomas and Mar Thoma I are one man, one WHO row; Carey, Richard Allen, Yohannan Hormizd and Gregory V left to era 9, by the era 9 scan's own list. Boundary names from the era 7 and era 9 scans are scored once here.
+
+**Outcome of the era 8 sweep.** 411 rows (a paired row counts once): WHO 137, STORY 51, LISTED 179, WANTED 44. Judgment-call rows: 232. The live person entry, John Wesley, is WHO, so none is flagged. An Opus check read the cited passages for 223 WHO, STORY and WANTED rows (211 confirmed, 12 corrected, none unsupported, no invented person-detail), 46 LISTED rows, and 23 later rows (21 confirmed, 2 corrected), and re-tested every WANTED row against the era 7 precedents (eight moved up). The full table and the checks: `Build/Ministry/Operations/Audits/2026-11-12_who-scan-era8/`.
+
+**What this does not change.** No census, record or site change is made by this scan. Councils stay out of the census until the change order named in the era 2 entry; gatherings found are listed as leads for the councils list. Approved to proceed (coordinator, under Mark's full-auto instruction of 2026-11-12).
