@@ -40,11 +40,11 @@ test('with every world closed, built worlds show only the quiet line', () => {
   assert.match(page, /<p class="door-quiet"><a href="https:\/\/churchinconversation.com\/">Church in Conversation<\/a>, from the same team.<\/p>/);
 });
 
-test('the support page carries the not-a-nonprofit line word for word', () => {
+test('the support page carries the not-a-nonprofit words of the Church in Conversation page', () => {
   const source = fs.readFileSync(path.join(root, 'cic-website/support.html'), 'utf8');
-  const line = source.match(/<p class="fine-print">(Church in Conversation is part of Faithways Studio[^<]*)<\/p>/)[1];
+  const line = source.match(/<p class="fine-print">Church in Conversation is part of (Faithways Studio[^<]*)<\/p>/)[1];
   const page = fs.readFileSync(path.join(root, 'cft-website/support.html'), 'utf8');
-  assert.ok(page.includes(`<p>${line}</p>`));
+  assert.ok(page.includes(`<p>The tree is made by ${line}</p>`));
 });
 
 test('major links are marked, and a link with an outcome shows its lasting result', () => {

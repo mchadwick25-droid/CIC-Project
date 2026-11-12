@@ -411,26 +411,20 @@
   "title": "Support the tree",
   "sections": [
    {
-    "heading": "What a gift pays for",
+    "heading": "Help keep the tree free",
     "paragraphs": [
-     "A gift pays for hosting and storage for the site. This includes the narration recordings.",
-     "It pays for the narration itself. We make the recordings with a paid voice service, ElevenLabs, which charges by the length of the text.",
-     "It pays for the research behind each link and place. That work means finding the sources, checking each quotation, and grading how sure the record is.",
-     "It would also help pay for independent scholarly review. That is the project's biggest need, and we hope to fund it."
-    ]
-   },
-   {
-    "heading": "Who you are giving to",
-    "paragraphs": [
-     "One company makes the tree and Church in Conversation.",
-     "Church in Conversation is part of Faithways Studio, Inc., a Colorado public benefit corporation — not a nonprofit. Contributions are not tax-deductible."
-    ]
-   },
-   {
-    "heading": "How to give",
-    "paragraphs": [
-     "Two buttons below let you give through Stripe: \"Give once\" and \"Give monthly\".",
-     "To give another way, email info@churchinconversation.com."
+     "The tree is free for everyone. Voluntary contributions help cover development and operational costs:"
+    ],
+    "list": [
+     "hosting",
+     "the narration voices",
+     "research",
+     "review by scholars",
+     "translations that open the work to people around the world",
+     "the people who do the work"
+    ],
+    "after": [
+     "The tree is made by Faithways Studio, Inc., a Colorado public benefit corporation — not a nonprofit. Contributions are not tax-deductible."
     ],
     "extra": "give"
    },

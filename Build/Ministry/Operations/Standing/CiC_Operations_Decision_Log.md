@@ -158,3 +158,13 @@ The contact is info@churchinconversation.com. Conversations keep their own notic
 **Project lead.** "i need to set up the stripe contribution links on the church family tree site, set it up with the exact same links as the contribution links on church in conversation"
 
 **Decision.** The tree's "Give once" and "Give monthly" buttons use the same two Stripe links as Church in Conversation (`donate.stripe.com/28E14g3Jp2Vsd1igEl8bS00` and `buy.stripe.com/fZu5kwbbR0NkbXegEl8bS01`), set in `Build/tools/tree_site_pages.json` (`give`). It replaces the earlier plan of two new links for the tree. Contributions from both sites arrive in the same Stripe account and can't be told apart by site.
+
+## 2026-11-12 - 14. The tree's support page is about the ask
+
+**Project lead.** "ok to much detail in the ask, use what we had in the contributions, this should be more about the ask than the details". He also chose the tree's own wording for the not-a-nonprofit line ("a").
+
+**Decision.** The tree's support page has two short sections:
+- **"Help keep the tree free."** The tree is free for everyone, and voluntary contributions help cover development and operational costs. The list is the one from the license page: hosting, the narration voices, research, review by scholars, translations that open the work to people around the world, and the people who do the work. Then the line "The tree is made by Faithways Studio, Inc., a Colorado public benefit corporation — not a nonprofit. Contributions are not tax-deductible.", then the Give once and Give monthly buttons.
+- **"Ways to help that cost nothing."** Unchanged.
+
+The longer paragraphs and the ElevenLabs name are removed. The generator test now checks that the tree's line uses the Church in Conversation support page's words after the company name. This closes open item 20.
