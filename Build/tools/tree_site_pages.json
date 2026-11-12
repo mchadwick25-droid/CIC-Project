@@ -402,7 +402,7 @@
     "heading": "Questions",
     "paragraphs": [
      "Faithways Studio, Inc. runs the Church Family Tree. It is a public benefit corporation in Colorado, and it is responsible for the data this page describes.",
-    "Write to info@churchinconversation.com with questions. You can also ask us there to delete a report you sent."
+     "Write to info@churchinconversation.com with questions. You can also ask us there to delete a report you sent."
     ]
    }
   ]
@@ -440,6 +440,60 @@
      "Introduce a scholar, seminary or professor who might review the tree.",
      "Report an error with the \"Report a problem\" button on any page.",
      "Tell someone who would enjoy the map."
+    ]
+   }
+  ]
+ },
+ "terms": {
+  "title": "Terms of Use",
+  "description": "The terms for using the Church Family Tree and Church in Conversation, in plain words.",
+  "sections": [
+   {
+    "heading": "In short",
+    "paragraphs": [
+     "You are welcome here. Read, learn and share freely. Please don't copy our sites in bulk or use them to train AI. Our work can contain mistakes, so check what matters to you, and tell us what we got wrong."
+    ]
+   },
+   {
+    "heading": "Who we are",
+    "paragraphs": [
+     "Faithways Studio, Inc., a Colorado public benefit corporation, makes the Church Family Tree and Church in Conversation. These terms cover both sites. By using them, you agree to these terms."
+    ]
+   },
+   {
+    "heading": "Using our work",
+    "paragraphs": [
+     "Reading, studying and sharing are free. Our license policy explains everything else you may do with our data, writing and recordings: https://churchinconversation.com/license",
+     "Please don't:"
+    ],
+    "list": [
+     "copy our sites in bulk with automated tools (the full data is offered as one file on our [data page](data.html))",
+     "use our sites or data to train AI, unless we have agreed in writing",
+     "try to break or overload our sites",
+     "present our work as yours, or as approved by us or any church"
+    ]
+   },
+   {
+    "heading": "Gifts",
+    "paragraphs": [
+     "Gifts are voluntary and help cover our costs. They don't buy access or any say over our content. They are not tax-deductible, because we are a public benefit corporation, not a charity. If you ask within 30 days, we'll refund your gift."
+    ]
+   },
+   {
+    "heading": "The fine print",
+    "paragraphs": [],
+    "list": [
+     "Our sites are for learning, not pastoral, spiritual or professional advice.",
+     "We work hard to be accurate, and every claim shows its sources and confidence. Still, our work can contain mistakes.",
+     "We offer our sites as they are, and can't promise they will always be available.",
+     "As far as the law allows, we aren't responsible for losses from using our sites.",
+     "Other sites we link to have their own terms.",
+     "Colorado law applies to these terms.",
+     "We may update these terms. This version is dated November 12, 2026.",
+     "Our [privacy page](privacy.html) says what we keep and why."
+    ],
+    "after": [
+     "Questions? Write to info@churchinconversation.com."
     ]
    }
   ]

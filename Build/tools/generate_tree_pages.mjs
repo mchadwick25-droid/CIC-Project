@@ -152,6 +152,7 @@ function siteFooter(up) {
       <a href="${up}method.html">Method</a>
       <a href="${up}data.html">Data and citation</a>
       <a href="${up}privacy.html">Privacy</a>
+      <a href="${up}terms.html">Terms</a>
       <a href="https://churchinconversation.com/license">License</a>
       <a href="${up}support.html">Support the tree</a>
     </nav>
@@ -547,6 +548,9 @@ function lineSample(item) {
 }
 function sectionBody(sec, extra) {
   let html = sec.paragraphs.map(p => `  <p>${linkify(p)}</p>`).join('\n');
+  if (sec.list) {
+    html += `\n  <ul>\n${sec.list.map(item => `    <li>${linkify(item)}</li>`).join('\n')}\n  </ul>`;
+  }
   if (sec.terms) {
     html += `\n  <dl class="terms">\n${sec.terms.map(t => `    <dt>${lineSample(t)}${escapeHtml(fill(t.term))}</dt>\n    <dd>${linkify(t.text)}</dd>`).join('\n')}\n  </dl>`;
   }
@@ -591,7 +595,7 @@ const give = siteContent.give || {};
 const giveButtons = give.once && give.monthly
   ? `  <div class="give"><a href="${give.once}">Give once</a><a href="${give.monthly}">Give monthly</a></div>\n`
   : '';
-const SITE_PAGES = ['about', 'method', 'data', 'privacy', 'support'];
+const SITE_PAGES = ['about', 'method', 'data', 'privacy', 'support', 'terms'];
 for (const key of SITE_PAGES) {
   fs.writeFileSync(path.join(outRoot, 'cft-website', `${key}.html`), sitePage(key, giveButtons), 'utf-8');
 }
@@ -652,6 +656,7 @@ const sitemapUrls = [
   'https://churchinconversation.com/about.html',
   'https://churchinconversation.com/support.html',
   'https://churchinconversation.com/license.html',
+  'https://churchinconversation.com/terms.html',
   ...Array.from(builtWorlds).map(id => `https://churchinconversation.com/traditions/${id}.html`)
 ];
 fs.writeFileSync(path.join(websiteDir, 'sitemap.xml'), sitemapXml(sitemapUrls), 'utf-8');
