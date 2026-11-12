@@ -313,3 +313,23 @@ test('ties come only from census links, and a movement line never runs under a l
   assert.deepEqual(acrossTracks([{ start: 1900, end: 2000 }, { start: 1910, end: 1920 }, { start: 1930, end: 1940 }]), [0, 1, 1]);
   assert.deepEqual(acrossTracks([{ start: 1900, end: 1950 }, { start: 1910, end: 2000 }, { start: 1960, end: 1990 }]), [0, 1, 2]);
 });
+
+test('the Terms page is on both sites with the same text, and every tree footer links to it', () => {
+  const read = generate(census);
+  const strip = s => s.replace(/<[^>]+>/g, '').replace(/&rsquo;/g, '’').replace(/&#0?39;|'/g, '’').replace(/&amp;/g, '&').replace(/\s+/g, ' ').trim();
+  const items = page => [...page.matchAll(/<(?:h2|p|li)>([\s\S]*?)<\/(?:h2|p|li)>/g)].map(m => strip(m[1]));
+  const tree = read('terms.html');
+  const cic = fs.readFileSync(path.join(root, 'cic-website/terms.html'), 'utf8');
+  const treeMain = tree.slice(tree.indexOf('<div class="page">'), tree.indexOf('<footer'));
+  const cicMain = cic.slice(cic.indexOf('<main'), cic.indexOf('</main>'));
+  const terms = JSON.parse(fs.readFileSync(path.join(root, 'Build/tools/tree_site_pages.json'), 'utf8')).terms;
+  for (const sec of terms.sections) {
+    for (const line of [sec.heading, ...sec.paragraphs, ...(sec.list || []), ...(sec.after || [])]) {
+      const text = strip(line.replace(/\[([^\]]+)\]\([^)]+\)/g, '$1'));
+      assert.ok(items(treeMain).includes(text), `tree Terms is missing: ${text}`);
+      assert.ok(items(cicMain).includes(text), `Church in Conversation Terms is missing: ${text}`);
+    }
+  }
+  assert.match(read(`tree/${open.id}.html`), /<a href="\.\.\/terms.html">Terms<\/a>/);
+  assert.ok(read('sitemap.xml').includes('<loc>https://www.churchfamilytree.com/terms.html</loc>'));
+});

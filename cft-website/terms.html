@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Terms of Use — Church Family Tree</title>
+<meta name="description" content="The terms for using the Church Family Tree and Church in Conversation, in plain words.">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,700;1,400;1,500&family=Alegreya+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+:root{
+  --parchment:#F6F6F2; --vellum:#FFFFFF;
+  --ink:#2A2521; --ink-faded:#6C6257; --madder:#A13E2B; --madder-deep:#7E2F20;
+  --tyrian:#6B3FA0; --graphite:#8A837C; --rule:rgba(241,233,221,.16);
+  --ground:#17130F; --surface:#1E1913;
+  --text:#F1E9DD; --muted:#B8AEA1;
+  --action:#E08C74; --action-hover:#F0A98F;
+  --control:#A39B92;
+  --link-grow:#86cf9c; --link-influence:#c79a5e; --link-conflict:#f06a64; --link-contact:#a39a8c;
+  --btn-fill:#A13E2B; --btn-text:#F6EFE0; --btn-edge:#E08C74;
+  --serif:'Alegreya','Iowan Old Style',Georgia,serif;
+  --sans:'Alegreya Sans','Trebuchet MS',system-ui,sans-serif;
+  --wide:64rem; --col:44rem; --measure:38rem;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--ground);color:var(--text);font-family:var(--serif);font-size:1.0625rem;line-height:1.65}
+a{color:var(--action);text-decoration-thickness:1px;text-underline-offset:.16em}
+a:hover{color:var(--action-hover)}
+:focus-visible{outline:2px solid var(--action);outline-offset:3px;border-radius:2px}
+img{max-width:100%;height:auto;display:block}
+h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.15;margin:0;text-wrap:balance}
+h1{font-size:2rem;margin-bottom:1rem}
+h2{font-size:1.4rem;margin:1.5rem 0 .75rem}
+h3{font-size:1.1rem;margin:1rem 0 .5rem}
+p{margin:0 0 1rem}
+ul{padding-left:1.5rem}
+li{margin-bottom:.5rem}
+.vh{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.skip-link{position:absolute;left:-999px;top:auto;background:var(--ink);color:var(--parchment);padding:.6rem 1rem;z-index:100;font-family:var(--sans)}
+.skip-link:focus{position:fixed;left:1rem;top:1rem}
+.eyebrow{font-family:var(--sans);font-size:.8125rem;letter-spacing:.13em;text-transform:uppercase;color:var(--action);font-weight:600;margin:0 0 .6rem}
+.site-header{background:var(--surface);border-bottom:1px solid var(--rule)}
+.site-header .row{max-width:var(--wide);margin:0 auto;padding:.6rem 1.25rem;display:flex;flex-wrap:wrap;align-items:center;gap:.5rem 1rem}
+.wordmark{font-family:var(--serif);font-weight:700;font-size:1.2rem;letter-spacing:.01em;color:var(--text);text-decoration:none;white-space:nowrap;padding:.5rem 0;display:inline-block}
+.wordmark em{font-style:italic;font-weight:400}
+.page{max-width:var(--col);margin:0 auto;padding:2rem 1.25rem;overflow-wrap:break-word}
+.titleblock{margin-bottom:2rem}
+.ident{font-family:var(--sans);font-size:.9rem;color:var(--muted);margin:0 0 .5rem}
+.kind-label{display:inline-block;font-family:var(--sans);font-size:.9rem;color:var(--muted);border:1px dashed currentColor;border-radius:999px;padding:.1rem .7rem;margin:-.4rem 0 0}
+.lineage-section{margin:1.5rem 0;padding-left:.9rem;border-left:3px solid var(--link-contact)}
+.lineage-section.link-grow{border-left-color:var(--link-grow)}.lineage-section.link-grow h3{color:var(--link-grow)}
+.lineage-section.link-influence{border-left-color:var(--link-influence)}.lineage-section.link-influence h3{color:var(--link-influence)}
+.lineage-section.link-conflict{border-left-color:var(--link-conflict)}.lineage-section.link-conflict h3{color:var(--link-conflict)}
+.lineage-section.link-contact h3{color:var(--link-contact)}
+.lineage-list{list-style:none;padding:0}
+.lineage-list li{margin:0 0 .5rem;padding:0}
+.lineage-list a{color:var(--action)}
+.confidence-note{font-style:italic;color:var(--muted);font-size:.95rem}
+.lineage-major{font-family:var(--sans);font-size:.8rem;letter-spacing:.03em;font-weight:600;color:var(--action);white-space:nowrap}
+.lineage-outcome{display:block;font-size:.95rem;margin-top:.2rem}
+.lineage-confidence{font-family:var(--sans);font-size:.8rem;letter-spacing:.03em;color:var(--muted);border:1px solid currentColor;border-radius:3px;padding:0 4px;white-space:nowrap}
+.sources-list{list-style:none;padding:0}
+.sources-list li{margin:0 0 .75rem;padding:0}
+.sources-list a{font-weight:600}
+.source-type{font-family:var(--sans);font-size:.85rem;color:var(--muted)}
+.source-note{font-size:.95rem;color:var(--muted)}
+.narration{display:flex;align-items:center;gap:.6rem;flex-wrap:wrap;margin:1.5rem 0}
+.narration audio{display:block;height:2.2rem;max-width:220px;width:220px;flex:0 0 auto}
+.narration-disclosure{font-family:var(--sans);font-size:.85rem;color:var(--muted);margin:0}
+.action-links{margin:1.5rem 0;padding:1rem;background:var(--surface);border-radius:4px}
+.action-links p{margin:0 0 .8rem;font-family:var(--sans);font-size:.95rem}
+.action-links a{display:inline-block;padding:.6rem 1rem;background:var(--btn-fill);color:var(--btn-text);text-decoration:none;border-radius:4px;margin-right:.5rem;margin-bottom:.5rem}
+.action-links a:hover{background:var(--madder-deep)}
+.door-quiet{font-family:var(--sans);font-size:.92rem;color:var(--muted);margin:1.5rem 0}
+.told-within{font-family:var(--sans);font-size:.95rem;margin:.4rem 0 0}
+.people-list{list-style:none;padding:0;margin:0}
+.people-list li{margin:.4rem 0}
+.people-list .ident{display:inline;margin:0 0 0 .4rem}
+.people-note{color:var(--muted)}
+.review-status{font-family:var(--sans);font-size:.92rem;color:var(--muted);margin:2.5rem 0 0;padding-top:1rem;border-top:1px solid var(--rule)}
+.site-footer{border-top:1px solid var(--rule);background:var(--surface);font-family:var(--sans);font-size:.85rem;color:var(--muted);margin-top:3rem;padding:1.5rem 1.25rem}
+.site-footer .row{max-width:var(--wide);margin:0 auto}
+.site-header nav{display:flex;flex-wrap:wrap;gap:.4rem 1rem;align-items:center;margin-left:auto;font-family:var(--sans);font-size:.92rem}
+.site-header nav a{color:var(--action);text-decoration:none}
+.site-header nav a:hover{color:var(--action-hover)}
+.site-footer nav{display:flex;flex-wrap:wrap;gap:.4rem 1.1rem;margin-top:.6rem}
+.site-footer a{color:var(--action)}
+.give{display:flex;flex-wrap:wrap;gap:.6rem;margin:1rem 0}
+.give a{display:inline-block;padding:.6rem 1.2rem;background:var(--btn-fill);color:var(--btn-text);text-decoration:none;border-radius:4px}
+.terms{margin:0 0 1rem}
+.terms dt{font-family:var(--sans);font-weight:600;margin-top:.9rem}
+.terms dd{margin:.2rem 0 0}
+.terms svg{display:inline-block;vertical-align:middle;margin-right:.5rem}
+.cite{margin:.4rem 0 1.2rem;padding:.6rem .9rem;border-left:3px solid var(--action);background:var(--surface);overflow-wrap:anywhere}
+.cite-label{font-family:var(--sans);font-weight:600;margin:1rem 0 .2rem}
+</style>
+<link rel="stylesheet" href="assets/feedback.css">
+</head>
+<body>
+<a href="/" class="skip-link">Skip to the map</a>
+
+<header class="site-header">
+  <div class="row">
+    <a href="/" class="wordmark">Church Family Tree</a>
+    <nav aria-label="Site">
+      <a href="https://churchinconversation.com/">Church in Conversation &rarr;</a>
+      <a href="/support.html">Support the tree</a>
+      <button type="button" class="feedback-toggle" id="feedback-toggle" aria-haspopup="dialog" aria-expanded="false">Tell us what you think</button>
+    </nav>
+  </div>
+</header>
+<div class="page">
+  <div class="titleblock"><h1>Terms of Use</h1></div>
+<section>
+  <h2>In short</h2>
+  <p>You are welcome here. Read, learn and share freely. Please don&#039;t copy our sites in bulk or use them to train AI. Our work can contain mistakes, so check what matters to you, and tell us what we got wrong.</p>
+</section>
+<section>
+  <h2>Who we are</h2>
+  <p>Faithways Studio, Inc., a Colorado public benefit corporation, makes the Church Family Tree and Church in Conversation. These terms cover both sites. By using them, you agree to these terms.</p>
+</section>
+<section>
+  <h2>Using our work</h2>
+  <p>Reading, studying and sharing are free. Our license policy explains everything else you may do with our data, writing and recordings: <a href="https://churchinconversation.com/license">https://churchinconversation.com/license</a></p>
+  <p>Please don&#039;t:</p>
+  <ul>
+    <li>copy our sites in bulk with automated tools (the full data is offered as one file on our <a href="data.html">data page</a>)</li>
+    <li>use our sites or data to train AI, unless we have agreed in writing</li>
+    <li>try to break or overload our sites</li>
+    <li>present our work as yours, or as approved by us or any church</li>
+  </ul>
+</section>
+<section>
+  <h2>Voluntary contributions</h2>
+  <p>Voluntary contributions help cover our costs. They don&#039;t buy access or any say over our content. They are not tax-deductible, because we are a public benefit corporation, not a charity. If you ask within 30 days, we&#039;ll refund your contribution.</p>
+</section>
+<section>
+  <h2>The fine print</h2>
+
+  <ul>
+    <li>Our sites are for learning, not pastoral, spiritual or professional advice.</li>
+    <li>We work hard to be accurate, and every claim shows its sources and confidence. Still, our work can contain mistakes.</li>
+    <li>We offer our sites as they are, and can&#039;t promise they will always be available.</li>
+    <li>As far as the law allows, we aren&#039;t responsible for losses from using our sites.</li>
+    <li>Other sites we link to have their own terms.</li>
+    <li>Colorado law applies to these terms.</li>
+    <li>We may update these terms. This version is dated November 12, 2026.</li>
+    <li>Our <a href="privacy.html">privacy page</a> says what we keep and why.</li>
+  </ul>
+  <p>Questions? Write to <a href="mailto:info@churchinconversation.com">info@churchinconversation.com</a>.</p>
+</section>
+</div>
+<footer class="site-footer">
+  <div class="row">
+    <p>&copy; 2026 Faithways Studio, Inc., a Colorado public benefit corporation &middot; <a href="https://churchinconversation.com/license">License</a>. The same team makes <a href="https://churchinconversation.com/">Church in Conversation</a>.</p>
+    <nav aria-label="About the tree">
+      <a href="/about.html">About</a>
+      <a href="/method.html">Method</a>
+      <a href="/data.html">Data and citation</a>
+      <a href="/privacy.html">Privacy</a>
+      <a href="/terms.html">Terms</a>
+      <a href="https://churchinconversation.com/license">License</a>
+      <a href="/support.html">Support the tree</a>
+    </nav>
+  </div>
+</footer>
+<script src="assets/feedback.js" defer></script>
+</body>
+</html>

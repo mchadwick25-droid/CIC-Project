@@ -129,3 +129,26 @@ On the family-history line, he chose "a history you write of your own family or 
 **Project lead.** "it is my hope that after we get it working well we will develop curriculums people can purchase, that is where i think the income eventually comes from"
 
 **What it means.** License fees are about fairness, not the main income. Faithways' own paid curricula are the intended long-term source. The license protects that future: anyone building a paid curriculum from the work shares a fair part back, and large commercial use needs an agreement.
+
+## 2026-11-12 - 12. The Terms of Use: short, plain, and the same on both sites
+
+**Project lead.**
+- On where it lives: "a" (the tree's own address, as part of one policy). Then: "we need it on the church in conversation website too, as it is open, but no public announcement so very few users, only a small pilot".
+- On the guidance line: "not their own church as they may be hurt by their church"; "life of faith is not clear, lets say guidance in you own journe of faith, talk with someone you trust or a safe church leader"; "is church leader to specific, i want to encourage them to the church that fits them but not recruitment", then "a".
+- On the voice provider: "so bno take 11 labs out, who i use doesn't matter, i may switch some day, just its a sinthisized voice (b)".
+- On refunds: "a" (30 days on request). On contact: "a" (one address).
+- On length: "this seem way more than most pages have, i want simple"; "lets take the conversations on the actual pages not here"; "i would take the what our sites are out, that is to much information and the what they are is a part of the experience".
+- On a not-advice line: "a" (one line in the fine print).
+- After a comparison with BibleProject, Bible Gateway, CCEL, Christian History Institute, Got Questions and Blue Letter Bible: "i want to follow the wisdom of these sites, but in a way that is not putting the user on the defensive or undermining the site but overdescribing in relms that people don't alwasy understand".
+- On method: "and no overexplaning how we generated the text. it doesn't matter how its built, it matters that it is accruare and valuable". Then "no that works".
+- On wording: "is gifts or contributions a better term for a pbc and not a non-profit", then "what about voluntary contributions".
+
+**Correction recorded.** The project lead: "i never asked for an educational disclaimer or an ai transparecy not. they may be good but don't say i asked for them". The not-advice line is this thread's recommendation, which he accepted.
+
+**Decision.** One Terms of Use, served at churchfamilytree.com/terms.html and churchinconversation.com/terms.html. It has the same text on both, generated for the tree from `Build/tools/tree_site_pages.json`, and a test keeps the two copies in step. It has a short "In short" welcome, then four plain parts:
+- Who we are.
+- Using our work: the license policy, plus four "please don't" lines (bulk copying, AI training, breaking the sites, passing off the work).
+- Voluntary contributions: not tax-deductible, refunded within 30 days on request.
+- The fine print: for learning, not advice; accuracy with sources and confidence shown; as-is; limit of responsibility; other sites; Colorado law; changes; privacy page.
+
+The contact is info@churchinconversation.com. Conversations keep their own notices on their own pages. Arbitration, class-action waivers and indemnity are left out. The limit of responsibility and Colorado law stay on the attorney list (open item 1). Every footer on both sites links to it.
