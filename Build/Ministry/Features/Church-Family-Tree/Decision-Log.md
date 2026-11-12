@@ -2352,3 +2352,24 @@ proceed (Mark's rulings of 2026-11-12, relayed by the coordinator, under his ful
 4. **Name, "Marcion of Pontus".** "This follows the two early witnesses. The brief can mention that Epiphanius later names Sinope, marking that as his claim." The id is `marcion-of-pontus`, and every first mention matches.
 
 A targeted Opus recheck of the trimmed text and the renaming was the third and last review round. The approved files are in `Who-Profiles/era1/batch1/` in this folder, and the reviews are in `Build/Ministry/Operations/Audits/2026-11-12_who-profiles-era1-batch1/`. No census, record or site change is made. The profiles go onto the site with the map Who build (Open-Gaps, "Placing the approved Who profiles", 2026-11-12). Approved to proceed (Mark, 2026-11-12).
+
+## 2026-11-12 — The supplement Who scan: later retelling decides the early-saint Lives, the follow-up pass kept to its named leads (coordinator, under Mark's full-auto instruction of 2026-11-12)
+
+**Mark's instruction (2026-11-12, verbatim, relayed by the coordinator).** "you can continue with era 7 - 10 full auto, im stepping our for a few hours, only hold if there is a major decision needed, otherwise use our principles and past decisions to guide you".
+
+**Coordinator calls under that instruction (not Mark's words; Mark may overrule).** The read-only scan covered people the Library holds but no census text names, so the ten era scans did not reach them (leads from the era audits and Open-Gaps 219 to 227, plus a script over the corpus-map). Ten questions went to the coordinator, none a major decision:
+- **Follow-up pass:** one short pass on the named leads only (Niketas Stethatos, Ruricius, Marcus Cassinensis, the Collectio Avellana popes, John Fletcher of Madeley, the Young volume), with the same check. It was not widened.
+- **People named by a census text who fell between eras:** the 15 WANTED rows (eras 9 and 10) stay in the supplement.
+- **Early saints' Lives:** the later-retelling rule of the era 4 scan applies. A long Life written centuries later is still a later retelling, so length is not the test. Senan, Findian, Cadoc, Paternus, Findchua, Carantoc, Tatheus and Bernacus are LISTED. Brendan stays WHO on Adomnán's Life of Columba and Ciarán on Adomnán and Tirechan, which carry them from near their own time.
+- **Kept as scored:** Sempad WHO and Hayton LISTED (does the book record the church's own events); the Paris Mission of Korea (Imbert, Berneux and Daveluy WHO, the other four one STORY group row); Arnaud WHO flagged and Boyer LISTED; Harasiewicz WHO, McKenzie STORY, Harnack WANTED.
+- **Elipandus and Felix:** WHO (pair, Contested). The condition set was met: Elipandus's letters, Beatus and Heterius, the Frankish annals of 792 and 794 and the Frankfurt capitulary of 794 are held.
+- **Corrections to earlier audits:** four change-order items are logged in Open-Gaps 229 and no earlier audit is edited.
+- **Whitespace-tolerant absence check:** step one of the combined WANTED list (phase 2). Any era-audit WANTED row found to be held is logged by era and dropped from the list.
+
+**Mark confirms the coordinator calls (2026-11-12).** Mark reviewed the full list of coordinator calls from the era 6 to 10 scans, the era 10 follow-up and the councils scan, and said, verbatim: "i think these all work". Those calls now stand as confirmed by Mark. They are the era 6, era 7, era 8, era 9 and era 10 Who-scan entries, the councils scan entry and the living-people follow-up entry, all 2026-11-12. Those entries are not edited.
+
+**Calls made by the scan under settled rules.** Wilfrid, Cuthbert, Cedd and Chad WHO on Bede; recorders WHO with a thin life flagged; Olivi and Payne WHO by the Melanchthon rule; Elizabeth of Thuringia, Eadburga and Bugga WHO by the women rule; Berengar LISTED; popes and rulers STORY on official texts; Abelard WANTED because the census names him; no row carries the OUTSIDE WITNESS label.
+
+**Outcome.** 253 rows (a paired or group row counts once): WHO 108, STORY 36, LISTED 92, WANTED 17. An Opus check opened the cited passages for 158 WHO, STORY and WANTED rows (127 confirmed, 27 corrected, 2 not supported, no invented person-detail), 32 LISTED rows, the ten founders, and 15 follow-up rows (8 confirmed, 7 corrected, none unsupported). The full table and the checks: `Build/Ministry/Operations/Audits/2026-11-12_who-scan-supplement/`.
+
+**What this does not change.** No census, record or site change is made by this scan, so there is no data release number. Approved to proceed (coordinator, 2026-11-12; Mark may overrule).
