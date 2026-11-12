@@ -1,0 +1,67 @@
+{
+  "name": "Clement of Alexandria",
+  "otherNames": [
+    "Titus Flavius Clement"
+  ],
+  "knownFor": "Presbyter and teacher at Alexandria, who held that Greek philosophy prepared the way for Christ and taught Origen.",
+  "dates": "Writing about 190 to 202; last heard of about 212",
+  "place": "Alexandria; later with Alexander of Jerusalem, and at Antioch",
+  "tradition": "Alexandria",
+  "role": "Teacher and presbyter",
+  "briefLength": "about 2 minutes 25 seconds",
+  "keyWorks": [
+    {
+      "title": "Exhortation to the Greeks",
+      "about": "a call to leave the old gods"
+    },
+    {
+      "title": "The Instructor",
+      "about": "three books on how a Christian should live"
+    },
+    {
+      "title": "Stromata",
+      "about": "\"Gnostic Notes on the True Philosophy,\" on faith, knowledge and Greek learning"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Jerome of Strido, in his Lives of Illustrious Men, says Origen was his pupil.",
+      "His Stromata keep words from the letters of Valentinus."
+    ],
+    "remembered": [
+      "Alexander of Jerusalem called him \"the blessed presbyter, a man virtuous and approved.\"",
+      "Arthur McGiffert, who translated Eusebius of Caesarea, notes that he was long honoured as a saint, and that Pope Clement the Eighth removed his name from the list because his teaching was suspected."
+    ]
+  },
+  "uncertain": [
+    "Little of his life is known beyond his own books, a few chapters of Eusebius of Caesarea and one of Jerome of Strido.",
+    "That the \"Sicilian bee\" he found in Egypt was Pantaenus is Eusebius's judgment. Eusebius says Clement names Pantaenus as his teacher in another book, the Hypotyposes.",
+    "Eusebius says all who taught at Alexandria were driven away when persecution came. Arthur McGiffert, who translated Eusebius, reads Clement into that line and dates his leaving to 202. Clement is not named there.",
+    "McGiffert says nothing certain is known of the place and time of his birth, or of his death."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Exhortation to the Heathen; The Instructor; The Stromata",
+        "file": "cic/texts/anf02_hermas-tatian-athenagoras-theophilus-clement-alexandria.xml",
+        "language": "English"
+      }
+    ],
+    "about": [
+      {
+        "title": "Church History, Book 5 chapters 10 and 11; Book 6 chapters 3, 6, 11, 13 and 14",
+        "author": "Eusebius of Caesarea",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
+      },
+      {
+        "title": "Lives of Illustrious Men, chapter 38",
+        "author": "Jerome",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+      }
+    ]
+  }
+}

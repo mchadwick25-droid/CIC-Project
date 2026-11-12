@@ -2338,3 +2338,17 @@ proceed (Mark's rulings of 2026-11-12, relayed by the coordinator, under his ful
 **Outcome of the era 8 sweep.** 411 rows (a paired row counts once): WHO 137, STORY 51, LISTED 179, WANTED 44. Judgment-call rows: 232. The live person entry, John Wesley, is WHO, so none is flagged. An Opus check read the cited passages for 223 WHO, STORY and WANTED rows (211 confirmed, 12 corrected, none unsupported, no invented person-detail), 46 LISTED rows, and 23 later rows (21 confirmed, 2 corrected), and re-tested every WANTED row against the era 7 precedents (eight moved up). The full table and the checks: `Build/Ministry/Operations/Audits/2026-11-12_who-scan-era8/`.
 
 **What this does not change.** No census, record or site change is made by this scan. Councils stay out of the census until the change order named in the era 2 entry; gatherings found are listed as leads for the councils list. Approved to proceed (coordinator, under Mark's full-auto instruction of 2026-11-12).
+
+## 2026-11-12 — Who profiles, era 1 batch 1: Opus drafts the rest, majors capped at 2:30, Marcion of Pontus (Mark, 2026-11-12)
+
+**The test.** Mark's earlier ruling (2026-11-12, picked from options): "Opus drafts the first era 1 batch of 8–10, and a separate fresh Opus agent reviews it. I measure the allowance cost and show you the drafts. Then you decide whether Opus drafts the rest." The batch was Josephus, Ignatius of Antioch, Marcion, Justin Martyr, Clement of Alexandria, Eusebius of Caesarea, Hermas and Valentinus, drafted to `Who_Profile_Pattern.md`. An independent Opus agent reviewed it: round 1 found 16 blocking and 46 minor findings, and round 2 found all 16 resolved. Mark saw the result at https://claude.ai/artifact/L6WmFpm7yFx9YyaJCmwiA3.
+
+**Cost.** The batch came to 22.40 on the session record's `cost_usd` measure, about 2.8 per profile: drafting at most 13.75, review round 1 about 4.84, and fixes with round 2 3.81. The measure is telemetry at API rates, not a bill. On the same measure, each whole Sonnet era scan came to between 15.9 (era 9) and 47.6 (era 8). No paid API calls were made.
+
+**Decided (Mark, 2026-11-12, picked from options, relayed by the coordinator).**
+1. **Drafter, "Opus for all".** Opus drafts every remaining Who profile, and an independent Opus agent reviews each batch. This is a change order against `CLAUDE.md`'s "Sonnet drafts and revises", and that line now names the exception.
+2. **Major marks, "Confirm all".** Josephus, Ignatius of Antioch, Marcion, Justin Martyr, Clement of Alexandria and Eusebius of Caesarea are major. Hermas and Valentinus are not.
+3. **Length, "Cap majors at 2:30".** "Trim each major brief to 2:30 at most." The six majors now run 392 to 404 words, about 2:25 to 2:30 at Jon's pace. Hermas and Valentinus run about 1:55.
+4. **Name, "Marcion of Pontus".** "This follows the two early witnesses. The brief can mention that Epiphanius later names Sinope, marking that as his claim." The id is `marcion-of-pontus`, and every first mention matches.
+
+A targeted Opus recheck of the trimmed text and the renaming was the third and last review round. The approved files are in `Who-Profiles/era1/batch1/` in this folder, and the reviews are in `Build/Ministry/Operations/Audits/2026-11-12_who-profiles-era1-batch1/`. No census, record or site change is made. The profiles go onto the site with the map Who build (Open-Gaps, "Placing the approved Who profiles", 2026-11-12). Approved to proceed (Mark, 2026-11-12).

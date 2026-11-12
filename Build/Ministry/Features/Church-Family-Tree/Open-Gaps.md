@@ -3129,3 +3129,12 @@ it, never by deleting it.
       - Hyphens are used as dashes.
       - Mark's ruling of 2026-11-11 stands: the flood story stays a full story, and its date already reads
         "513 of the Greeks, around the year 201".
+228. **Placing the approved Who profiles (2026-11-12).** The eight era 1 batch 1 profiles (Josephus,
+    Ignatius of Antioch, Marcion of Pontus, Justin Martyr, Clement of Alexandria, Eusebius of Caesarea,
+    Hermas, Valentinus) are approved to proceed and held in
+    `Build/Ministry/Features/Church-Family-Tree/Who-Profiles/era1/batch1/`. None is in the census or on
+    the site. Open: how the map Who build (the slice in 217) takes them in, where each card's fields live,
+    and when the briefs are recorded in Jon's voice (a paid run, gated by sample and approval). Mark's ruling
+    of 2026-11-12 makes the profile "Marcion of Pontus". The census uses that form twice and "Marcion of
+    Sinope" once, and the one "of Sinope" follows the ruling when the profile is placed. Owner: the map
+    build slice.
