@@ -281,3 +281,48 @@ None:
   - Richard Mather is not Cotton Mather.
   - There is no Winthrop row in the supplement; he is scored in era 7.
 
+
+## Part 4: Yared, Pantalewon, Clap, Vinnian
+
+This part applies the coordinator's ruling of 2026-11-12: the later-retelling rule covers Yared and Pantalewon exactly as it covered the ten founders. It also makes two decisions under settled rules. The rows changed are in `Who_Scan_Supplement.md` as "[Opus check (Part 4): ...]".
+
+**Counts after part 4:** 254 rows: WHO 106, STORY 37, LISTED 94, WANTED 17. Era 3: WHO 21, STORY 4, LISTED 25 (50 rows). Era 7: WHO 15, STORY 3, LISTED 5 (23 rows).
+
+| Row | Before | After | Reason (file + line) |
+|---|---|---|---|
+| Yared | WHO | LISTED | Later-retelling rule. See "Dates of the held Lives" below. |
+| Pantalewon | WHO | LISTED | Later-retelling rule. See "Dates of the held Lives" below. |
+| Roger Clap | LISTED | STORY | The Hopper precedent needs no church office. See below. |
+| Vinnian (new row) | none | LISTED | His identity with Findian of Clonard is unsettled, so he gets two rows, cross-referenced (the era 7 Ingoro and Tingoro precedent). See below. |
+
+**Dates of the held Lives.**
+
+- **Yared.** The Gadla Yared is in one manuscript, d'Abbadie 227 (YAR 160-162). The editor says "De auctore compositionisque tempore nihil liquet" (YAR 174), and makes the author a priest of Aksum or Dabra Damo (175-176). "Near Gregory the Great" is the tradition's dating ("dicitur", YAR 154-158). The Ethiopic Synaxarium entry (v2-v4 file, 18382 and 28513-28527) is a late compilation: the same day reaches King Wanag Sagad, "died a.d. 1540" (28508). The earliest held source is the Gadla, undated [suggested: 15th century or later; to confirm].
+- **Pantalewon.** The Gadla names its author as the metropolitan Yeshaq. The editor identifies him with the metropolitan who came in 1480 ("Eum metropolitam esse existimo, qui, cum anno Domini 1480 in Aethiopiam venisset", YAR 1823-1828). The manuscript, d'Abbadie 110, is 18th century (1818-1819). His Synaxarium entry (v1 file, 11686-11741; the Kaleb entry, 19565-19568) is late too. The earliest held source is the Gadla of about 1480, nine centuries after Kaleb.
+
+**The search for an early source.** I searched names and contents with `\s+` between words, for Yared, Pantalewon, Pantaleon, Pentalewon, the Nine Saints, Kaleb and novem sancti. Held near-contemporary witnesses to Aksum and the Himyar war name neither man: Cosmas Indicopleustes, Procopius (Wars I), John of Ephesus (both files) and the Book of the Himyarites. The other hits are the biblical Jared, later namesakes and the Nicomedian Pantaleon. No Aksumite inscription is held as a file. The Kebra Nagast is held but late. Neither row can be kept on an early source.
+
+**Roger Clap: STORY.**
+
+- *What the precedent requires.* The Hopper row says "first-person testimony of an ordinary preacher, one witness ... STORY, not WHO". That draws the line between WHO and STORY for a preacher with no shaping. It does not make a church office a condition of STORY. The governing test is Mark's era 1 STORY line: a compelling testimony, a life or witness worth telling. Perpetua, Monica and Joan of Arc hold no church office.
+- *Why the old reasons fail.* The row's LISTED reasons (shaped no church; one voice; no second witness) are WHO tests.
+- *What the held text still carries.* The editor cut Clap's exhortations and his account of his religious experience (YOUNG 18720-18723), but the memoir that remains is still a first-person testimony:
+  - "some account of God's remarkable providences to me, in bringing me into this land" (17459-17461)
+  - Warham's preaching at Exeter and the call to New England (17494-17510)
+  - "God so inclined his heart, that he never said me nay" (17525-17526)
+- *Consistency.* Anthony Thacher, a layman in the same volume, is STORY on a first-person account.
+- *The alternative.* LISTED holds only if "compelling" is read to exclude a plain emigrant's memoir. That is a judgment the settled lines do not make.
+
+**Vinnian: a separate LISTED row, Findian unchanged.** What the lines say:
+
+- *The Penitential* (WASS 6164 on) is a list of penances. It says nothing about its author. Only the codex heading names him: "Poenitentiale Vinniani" (WASS 6194-6195). The Collectio Hibernensis cites it as "Vinniavus dicit" (1449, 6520).
+- *Columbanus* (c. 600, held in Mansi 10, 22037-22038): "Vennianus auctor Giltam de his interrogavit". That is one act, a question to Gildas about monks leaving for the desert.
+- *Adomnan* has a "holy bishop Vinnian" (ADOM 5859-5860) and "the venerable bishop Finnian, his former master" (9398-9399). The translator reads Moville (5879, 9414). Wasserschleben (1443-1447) and Williams (GILD 9718-9725) lean to Clonard, and Seebass, as Williams reports him, to Moville (15226-15231).
+
+What the rules give:
+
+- The Melanchthon rule (own work plus witnesses that carry a tellable life) is not met. The work is canon law, which fails the story test. The witnesses that could carry a life (Adomnan) do not securely name the author.
+- He stays LISTED. If a held source settles that the author is Adomnan's Finnian, he becomes WHO (own work, Columbanus and Adomnan as witnesses).
+- The two men may differ, so the era 7 precedent for an unsettled identity requires two rows, cross-referenced. One row with a note would merge them. Findian of Clonard stays LISTED (later retelling) and now cross-refers to the new row.
+
+**Header notes updated.** The "Points raised after the answers" lines on Yared, Pantalewon and Clap now state the part 4 outcomes.

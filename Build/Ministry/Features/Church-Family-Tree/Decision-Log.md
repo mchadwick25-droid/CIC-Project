@@ -2373,3 +2373,17 @@ A targeted Opus recheck of the trimmed text and the renaming was the third and l
 **Outcome.** 253 rows (a paired or group row counts once): WHO 108, STORY 36, LISTED 92, WANTED 17. An Opus check opened the cited passages for 158 WHO, STORY and WANTED rows (127 confirmed, 27 corrected, 2 not supported, no invented person-detail), 32 LISTED rows, the ten founders, and 15 follow-up rows (8 confirmed, 7 corrected, none unsupported). The full table and the checks: `Build/Ministry/Operations/Audits/2026-11-12_who-scan-supplement/`.
 
 **What this does not change.** No census, record or site change is made by this scan, so there is no data release number. Approved to proceed (coordinator, 2026-11-12; Mark may overrule).
+
+## 2026-11-12 — The combined wanted list, eras 1 to 10: the re-run first, Yared and Pantalewon LISTED (coordinator, under Mark's full-auto instruction of 2026-11-12)
+
+**Mark's instruction (2026-11-12, verbatim, relayed by the coordinator).** "you can continue with era 7 - 10 full auto, im stepping our for a few hours, only hold if there is a major decision needed, otherwise use our principles and past decisions to guide you".
+
+**Coordinator calls under that instruction (not Mark's words; Mark may overrule).**
+- **One combined list.** Following Mark's ruling of 2026-11-11 ("After all scans", Open-Gaps 220), the Library thread gets one list, ordered by era with major figures first: every WANTED row of the ten era audits and the supplement, the outside-witness sources and council records named in Open-Gaps 219 to 227, and the Library-label corrections. The Spiritualism and New Thought sources stay out (Mark, 2026-11-12).
+- **Re-run first.** Every WANTED row was searched again with whitespace-tolerant patterns before the list was built, because the OCR files double-space names. Any row found held is logged as a change-order item by era and dropped from the list.
+- **Later retelling is a general rule.** The ruling that named ten early saints did not limit the rule. Yared and Pantalewon are LISTED too, unless a held source from near their own time carries them. None is held; Yared's Life survives in one undated manuscript and Pantalewon's is by Metropolitan Yeshaq, about 1480. Roger Clap moved from LISTED to STORY (a first-person testimony needs no church office, the Hopper precedent). Vinnian, author of the held Penitential, has his own LISTED row beside Findian of Clonard because their identity is Contested.
+- **Major marks.** The audits of eras 1 to 5 marked only WHO rows. A Sonnet pass proposed yes or no for the 175 wanted rows with no clean mark, by the audits' own test; the list labels them "(proposed here)". They are not Mark's.
+
+**Outcome.** 461 person sources after merging 2 rows that want the same source and dropping 1 found held (Charles Simeon, era 9): 150 marked major. Plus 27 outside-witness sources with no person row and 46 council records. The supplement audit now reads 254 rows: WHO 106, STORY 37, LISTED 94, WANTED 17. A script check passed on all 552 rows of the list. The list and the checks: `Build/Ministry/Operations/Audits/2026-11-12_wanted-sources-combined/`.
+
+**What this does not change.** No census, record or site change is made, so there is no data release number. Nothing is acquired or queued; the coordinator decides how the list is handed to the Library thread. Approved to proceed (coordinator, 2026-11-12; Mark may overrule).

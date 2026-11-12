@@ -3180,3 +3180,30 @@ it, never by deleting it.
       held becomes a change-order item by era and is dropped from the list. Owner: the coordinator, then
       the Library thread.
     - The "Major?" column is a proposal for each WHO; Mark confirms it in each batch.
+
+230. **Open points from the combined wanted list (2026-11-12).** Owners as noted. Source:
+    `Build/Ministry/Operations/Audits/2026-11-12_wanted-sources-combined/`. The census was not changed.
+    Decision-Log, "The combined wanted list" (2026-11-12). This entry answers the open points of 229.
+    - The list holds 461 person sources (150 major), 27 outside-witness sources with no person row and 46
+      council records. By era (sources / major): 1 (4 / 1), 2 (3 / 2), 3 (6 / 0), 4 (41 / 5), 5 (44 / 12),
+      6 (14 / 4), 7 (9 / 0), 8 (43 / 8), 9 (168 / 63), 10 (129 / 55). Owner: the coordinator, then the
+      Library thread.
+    - Change-order items from the whitespace-tolerant re-run: Charles Simeon (era 9) is held after all,
+      as Wesley's own entry of 20 December 1784 and the editor's life note in Wesley's Journal vol. 7
+      (Curnock), with a line in Marsden's life. The era 9 row says "grepped Charles Simeon: none". The
+      row is dropped from the list; rescore it (WHO flagged "no own text held" by the two-witness rule
+      for heads, or LISTED as a later retelling). No other WANTED row proved held; the hits on the
+      others are mentions, namesakes or sources the audit row already names. The finding is in
+      `Rerun_Findings.md`. Owner: the coordinator.
+    - Resolved from 229: Yared and Pantalewon are LISTED (later-retelling rule, Lives dated); Roger Clap
+      is STORY; Vinnian has a separate LISTED row. The supplement audit now reads 254 rows: WHO 106,
+      STORY 37, LISTED 94, WANTED 17. Owner: the coordinator.
+    - Major marks for 175 rows (all of eras 1 to 5 and the conditional marks later) are proposals by a
+      Sonnet pass, 35 yes; Mark confirms them or changes them. They are in `Major_Proposals.md`. Owner:
+      the coordinator.
+    - "Would move to" is taken from each audit row's own wording; 170 rows say nothing, so the cell
+      reads "inferred" and gives the rule's default. The Library thread should treat those as a guess.
+      Owner: the Library thread.
+    - Source names are the audits', many from memory and tagged "[suggested; to confirm]"; confirm each
+      edition before acquiring it. The re-run searched names as the audits spell them; a source named
+      under another spelling may still be held. Owner: the Library thread.
