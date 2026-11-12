@@ -146,7 +146,7 @@ function siteHeader(up) {
 function siteFooter(up) {
   return `<footer class="site-footer">
   <div class="row">
-    <p>A Faithways Studio project. The same team makes <a href="https://churchinconversation.com/">Church in Conversation</a>.</p>
+    <p>&copy; 2026 Faithways Studio, Inc., a Colorado public benefit corporation &middot; <a href="https://churchinconversation.com/license">License</a>. The same team makes <a href="https://churchinconversation.com/">Church in Conversation</a>.</p>
     <nav aria-label="About the tree">
       <a href="${up}about.html">About</a>
       <a href="${up}method.html">Method</a>
