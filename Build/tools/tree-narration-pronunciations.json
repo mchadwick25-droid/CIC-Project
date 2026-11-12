@@ -1,0 +1,12 @@
+{
+  "paragraphPause": "[pause]",
+  "entries": [
+    { "written": "Origen", "say": "OR-ih-jen", "form": "respelling" },
+    { "written": "Eusebius", "say": "yoo-SEE-bee-us", "form": "respelling" },
+    { "written": "Hexapla", "say": "HEK-suh-pluh", "form": "respelling" },
+    { "written": "Rufinus", "say": "roo-FY-nus", "form": "respelling" },
+    { "written": "Caesarea", "say": "sess-uh-REE-uh", "form": "respelling" },
+    { "written": "Decius", "say": "DEE-shus", "form": "respelling" },
+    { "written": "Nazianzus", "say": "naz-ee-AN-zus", "form": "respelling" }
+  ]
+}

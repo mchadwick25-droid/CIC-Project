@@ -66,6 +66,9 @@
  *                      the last sentence in the request. The manifest fingerprint
  *                      stays the census text's; the cap counts the tagged request.
  *                      A person run stops at its first failed request.
+ *                      A person run also respells the names in
+ *                      tree-narration-pronunciations.json and puts its pause tag between
+ *                      paragraphs, in the request only.
  *   --limit <n>        Cap the number of NEW clips generated this run (already-narrated
  *                      movements don't count against it). Omit to run the whole batch.
  *   --char-budget <n>  Stop adding movements to this run once their combined
@@ -192,16 +195,51 @@ export function lastSentenceStart(text) {
   return start;
 }
 
+export const pronunciationsPath = path.join(__dirname, 'tree-narration-pronunciations.json');
+
+/** The pronunciation list: whole-word respellings and the paragraph pause tag. */
+export function loadPronunciations(file = pronunciationsPath) {
+  const data = JSON.parse(fs.readFileSync(file, 'utf-8'));
+  if (!Array.isArray(data.entries)) throw new Error(`${file} needs an "entries" array.`);
+  for (const e of data.entries) {
+    if (!e.written || !e.say || !e.form) throw new Error(`${file}: every entry needs written, say and form: ${JSON.stringify(e)}`);
+  }
+  return { paragraphPause: data.paragraphPause || null, entries: data.entries };
+}
+
+const escapeRegExp = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+
 /**
- * The text sent to ElevenLabs: the narration text with the open tag before it
- * and the closing tag before its last sentence. With no tags it is the text itself.
+ * The audio script's text with each listed name replaced by its respelling.
+ * A name matches as a whole word, in the exact case written (or in capitals,
+ * which gets the respelling in capitals). A possessive keeps its ending:
+ * "Origen's" becomes "OR-ih-jen's". The longest written form is tried first.
  */
-export function requestTextFor(text, { openTag = null, closingTag = null } = {}) {
-  let out = text;
+export function applyPronunciations(text, entries) {
+  const byWritten = new Map();
+  for (const e of entries) {
+    byWritten.set(e.written, e.say);
+    byWritten.set(e.written.toUpperCase(), e.say.toUpperCase());
+  }
+  const forms = [...byWritten.keys()].sort((a, b) => b.length - a.length).map(escapeRegExp);
+  if (forms.length === 0) return text;
+  const re = new RegExp(`(?<![\\p{L}\\p{M}\\p{N}_])(?:${forms.join('|')})(?![\\p{L}\\p{M}\\p{N}_])`, 'gu');
+  return text.replace(re, (m) => byWritten.get(m));
+}
+
+/**
+ * The text sent to ElevenLabs: the narration text with its names respelled,
+ * the closing tag before its last sentence, the pause tag after every
+ * paragraph but the last, and the open tag before it all. With no options it
+ * is the text itself.
+ */
+export function requestTextFor(text, { openTag = null, closingTag = null, pronunciations = null } = {}) {
+  let out = pronunciations ? applyPronunciations(text, pronunciations.entries) : text;
   if (closingTag) {
     const at = lastSentenceStart(out);
     out = `${out.slice(0, at)}${closingTag} ${out.slice(at)}`;
   }
+  if (pronunciations?.paragraphPause) out = out.replace(/\n{2,}/g, `\n\n${pronunciations.paragraphPause}\n\n`);
   if (openTag) out = `${openTag} ${out}`;
   return out;
 }
@@ -451,7 +489,7 @@ async function run() {
 
   const defaultVoiceId = opts.voiceId;
   const formatSent = opts.people ? opts.outputFormat : NARRATION_OUTPUT_FORMAT;
-  const tags = opts.people ? { openTag: opts.openTag, closingTag: opts.closingTag } : {};
+  const tags = opts.people ? { openTag: opts.openTag, closingTag: opts.closingTag, pronunciations: loadPronunciations() } : {};
   const requestChars = toGenerate.reduce((sum, m) => sum + requestTextFor(narrationTextFor(m), tags).length, 0);
   const settingsSent = opts.people ? opts.voiceSettings : defaultVoiceSettings;
   const voiceFor = (id) => (opts.people ? opts.personVoiceId : resolveVoiceId(id, { defaultVoiceId }));
@@ -489,7 +527,7 @@ async function run() {
   console.log(`output format    : ${formatSent}`);
   console.log(`model            : ${opts.model}`);
   console.log(`settings         : ${JSON.stringify(settingsSent)}`);
-  if (opts.people) console.log(`audio tags       : open ${opts.openTag || '(none)'}, before the last sentence ${opts.closingTag || '(none)'}`);
+  if (opts.people) console.log(`audio tags       : open ${opts.openTag || '(none)'}, before the last sentence ${opts.closingTag || '(none)'}, between paragraphs ${tags.pronunciations.paragraphPause || '(none)'}, ${tags.pronunciations.entries.length} respellings`);
   console.log(`items            : ${toGenerate.length}   characters: ${totalChars} text, ${requestChars} sent`);
   console.log('===========================================');
 
