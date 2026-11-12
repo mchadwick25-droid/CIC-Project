@@ -1,0 +1,70 @@
+{
+  "name": "Dionysius of Alexandria",
+  "otherNames": [
+    "Dionysius the Great"
+  ],
+  "knownFor": "Bishop of Alexandria through the persecutions of Decius and Valerian and the plague, whose letters Eusebius of Caesarea kept.",
+  "dates": "Bishop from about 247; died in the twelfth year of Gallienus, about 264 or 265",
+  "place": "Alexandria",
+  "tradition": "Alexandrian Catechetical / Christian-Platonist Tradition",
+  "role": "Bishop and head of the school at Alexandria",
+  "briefLength": "about 2 minutes 30 seconds",
+  "keyWorks": [
+    {
+      "title": "Letters",
+      "about": "on his flight under Decius, the plague, the lapsed, rebaptism and Novatian, kept in Eusebius's Church History, Books 6 and 7"
+    },
+    {
+      "title": "On Promises",
+      "about": "against Nepos, with his study of who wrote the Revelation of John"
+    },
+    {
+      "title": "Refutation and Defence",
+      "about": "four books answering Dionysius of Rome"
+    }
+  ],
+  "legacy": {
+    "remembered": [
+      "Eusebius calls him the great bishop of the Alexandrians.",
+      "Athanasius of Alexandria wrote a defence of him a century later, when the Arians claimed him.",
+      "Basil of Caesarea, in a letter, charged him with sowing the seeds of the Anomoean heresy, Blomfield Jackson notes. Jackson adds that Lumper put the charge down to Basil's imperfect knowledge of his writings, and that elsewhere Basil calls him \"the Great.\""
+    ]
+  },
+  "uncertain": [
+    "The story of his flight under Decius is his own, written to answer Germanus, a bishop who accused him of running away. McGiffert says Germanus's see is not known.",
+    "On the plague he writes as a bishop praising his own people.",
+    "He judged that the apostle did not write the Revelation, from its thought, words and style beside the Gospel and letter of John, and from its Greek. He still would not reject the book. Before him, he says, some had rejected it altogether.",
+    "Archibald Robertson, an editor of Athanasius, says his four books to Dionysius of Rome ended that dispute.",
+    "Arthur McGiffert, who translated Eusebius, says the word Dionysius used for those with him in his flight is read as children, pupils or servants."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Letters, in Eusebius's Church History, Books 6 and 7",
+        "language": "English translation",
+        "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
+      },
+      {
+        "title": "Extant fragments and letters",
+        "language": "English",
+        "file": "cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml"
+      }
+    ],
+    "about": [
+      {
+        "title": "Church History, Books 6 and 7, with McGiffert's notes",
+        "author": "Eusebius of Caesarea",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
+      },
+      {
+        "title": "Defence of Dionysius, with Robertson's introduction",
+        "author": "Athanasius of Alexandria",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf204_athanasius-select-works-letters.xml"
+      }
+    ]
+  }
+}

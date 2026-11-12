@@ -1,0 +1,74 @@
+{
+  "name": "Hippolytus of Rome",
+  "otherNames": [
+    "Hippolytus"
+  ],
+  "knownFor": "A Greek-writing teacher at Rome who attacked the bishop Callistus in his Refutation of All Heresies and was exiled to Sardinia in 235.",
+  "dates": "Exiled 235",
+  "place": "Rome",
+  "tradition": "The Roman Church in the Third Century",
+  "role": "Presbyter, writer, and rival of Callistus",
+  "briefLength": "about 2 minutes 30 seconds",
+  "keyWorks": [
+    {
+      "title": "Refutation of All Heresies",
+      "about": "every heresy traced to Greek philosophy, ending with Callistus; found at Mount Athos in 1842"
+    },
+    {
+      "title": "Against Noetus",
+      "about": "against the teaching that the Father himself suffered"
+    },
+    {
+      "title": "Tables for the date of Easter",
+      "about": "a sixteen-year cycle, carved on the chair of his statue"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Jerome of Strido says his Easter cycle prompted Eusebius of Caesarea to write a nineteen-year cycle of his own."
+    ],
+    "remembered": [
+      "The calendar in the book of 354 lists his burial on the Tiburtine Road among the martyrs of Rome.",
+      "A seated marble statue with an Easter table and a list of books was found on the Tiburtine Road in 1551. Arthur McGiffert says it has been shown to be his."
+    ]
+  },
+  "uncertain": [
+    "His account of Callistus is an enemy's. McGiffert calls it \"greatly overdrawn,\" though true at its base.",
+    "Eusebius calls him a bishop \"over another church,\" and Jerome could not learn which city. A later tradition makes him bishop of Portus, the harbour of Rome. J. H. MacMahon, who translated the Refutation, accepts it. Döllinger, MacMahon reports, kept him a bishop but refused Portus. McGiffert calls the Portus tradition \"quite worthless.\"",
+    "McGiffert thinks a strict party set him up as a rival bishop against Callistus, and that he returned to the main church after Callistus died. The book of 354 calls him a presbyter.",
+    "The Refutation was printed in 1851 under the name of Origen. MacMahon says most scholars since have decided it is by Hippolytus, among them Döllinger, Bunsen and Wordsworth.",
+    "The poet Prudentius, in a hymn, tells that he was torn apart by wild horses. MacMahon says the details of that hymn are not historic. McGiffert thinks he and Pontianus probably died in the mines of Sardinia."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Refutation of All Heresies; Against Noetus",
+        "language": "English",
+        "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+      }
+    ],
+    "about": [
+      {
+        "title": "The book of 354: the list of the bishops of Rome and the calendar of martyrs (ed. Mommsen)",
+        "author": "Unknown",
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/chronica-minora-liber-genealogus_mommsen1892.txt"
+      },
+      {
+        "title": "Church History, Book 6, chapters 20 to 22, with McGiffert's notes",
+        "author": "Eusebius of Caesarea",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
+      },
+      {
+        "title": "Lives of Illustrious Men, 61",
+        "author": "Jerome of Strido",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+      }
+    ]
+  }
+}

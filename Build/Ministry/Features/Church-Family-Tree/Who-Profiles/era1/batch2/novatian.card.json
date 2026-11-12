@@ -1,0 +1,71 @@
+{
+  "name": "Novatian",
+  "otherNames": [
+    "Novatus (in Eusebius and the Greek writers)"
+  ],
+  "knownFor": "A Roman presbyter, author of On the Trinity, who was made a rival bishop in 251 and refused to readmit those who had denied the faith.",
+  "dates": "Made a rival bishop at Rome in 251",
+  "place": "Rome",
+  "tradition": "Novatianism",
+  "role": "Presbyter, theologian and rival bishop",
+  "briefLength": "about 2 minutes 30 seconds",
+  "keyWorks": [
+    {
+      "title": "On the Trinity",
+      "about": "the rule of faith on Father, Son and Spirit, which McGiffert calls \"both able and orthodox\""
+    },
+    {
+      "title": "On the Jewish Meats",
+      "about": "a letter on the food laws, which Cleveland Coxe thinks was written during the persecution of Decius"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "The Novatian churches, which spread east and west and lasted, McGiffert says, into the sixth century."
+    ],
+    "remembered": [
+      "Socrates of Constantinople tells of the Novatian bishop Acesius at the Council of Nicaea, and of Constantine's answer, \"Place a ladder, Acesius, and climb alone into heaven.\"",
+      "Cyprian of Carthage, writing of him, said that \"he who is not in the Church of Christ is not a Christian.\""
+    ]
+  },
+  "uncertain": [
+    "Much of what is known of him comes from his enemies, Cornelius, bishop of Rome, and those on his side, says Robert Wallis, who translated his works. Lardner, quoted by Cleveland Coxe, observed that not one line of his own defence survives.",
+    "Cornelius says Novatian refused to come out of his room to help in the persecution. McGiffert calls this a calumny. Neander suggested that he had withdrawn to live as an ascetic.",
+    "Cornelius says he wanted the bishopric all along, though he swore he did not. McGiffert sees no reason to doubt Novatian's word, and thinks he may well have been urged against his will.",
+    "Cornelius says he was baptized on his sickbed. McGiffert accepts this.",
+    "Socrates says he died a martyr under Valerian. Valesius disputed this. He held that the Novatians' own book on his martyrdom was full of fables, and that it made him only a confessor.",
+    "Socrates had the Acesius story from Auxanon, an aged Novatian presbyter who went to Nicaea with Acesius, and says no other writer records it. Sozomen tells it after him. Some, among them Baronius, took Socrates for a Novatian. Valesius, followed by most later writers, held him only impartial."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "A Treatise Concerning the Trinity; On the Jewish Meats (tr. Robert Ernest Wallis)",
+        "language": "English",
+        "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+      }
+    ],
+    "about": [
+      {
+        "title": "Church History, Book 6, chapters 43 and 45, with Cornelius's letter and McGiffert's notes",
+        "author": "Eusebius of Caesarea",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
+      },
+      {
+        "title": "Epistle 51, to Antonianus",
+        "author": "Cyprian of Carthage",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/anf05_hippolytus-cyprian-caius-novatian.xml"
+      },
+      {
+        "title": "Church History, Book 1, chapter 10, and Book 4, chapter 28",
+        "author": "Socrates of Constantinople",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
+      }
+    ]
+  }
+}

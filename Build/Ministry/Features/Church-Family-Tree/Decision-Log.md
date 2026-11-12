@@ -2387,3 +2387,17 @@ A targeted Opus recheck of the trimmed text and the renaming was the third and l
 **Outcome.** 461 person sources after merging 2 rows that want the same source and dropping 1 found held (Charles Simeon, era 9): 150 marked major. Plus 27 outside-witness sources with no person row and 46 council records. The supplement audit now reads 254 rows: WHO 106, STORY 37, LISTED 94, WANTED 17. A script check passed on all 552 rows of the list. The list and the checks: `Build/Ministry/Operations/Audits/2026-11-12_wanted-sources-combined/`.
 
 **What this does not change.** No census, record or site change is made, so there is no data release number. Nothing is acquired or queued; the coordinator decides how the list is handed to the Library thread. Approved to proceed (coordinator, 2026-11-12; Mark may overrule).
+
+## 2026-11-12 — Who profiles, era 1 batch 2: the major marks confirmed (Mark, 2026-11-12)
+
+**The batch.** The eight era 1 WHO rows from the first era 1 scan that were neither live nor in batch 1, taken in date order: Tacitus and Suetonius (both labelled outside witness), Tatian, Bardaisan of Edessa, Hippolytus of Rome, Novatian, Pontius the Deacon and Dionysius of Alexandria. Ephrem, Augustine, Athanasius, Jerome and Didymus, marked "era 2 by date" in that scan, are left for era 2. Opus drafted every profile to `Who_Profile_Pattern.md`, per Mark's batch 1 ruling, "Opus for all".
+
+**Review.** Three rounds by fresh Opus agents that had not seen the drafting. Round 1, the full checklist review, found 6 blocking and 47 minor points. The blocking ones were a contested birth date told as settled (Suetonius), a reconstruction told as fact (Tatian), a dispute stopped before its witness's verdict and one altered quote (Bardaisan), a partisan source presented as neutral (Novatian's Auxanon), and a role standing in for a named witness (Pontius). Round 2 found all 6 resolved and 3 new one-sentence points, all fixed. Round 3, the last, found no blocking point. Every quotation was re-checked word for word against its vendored file. No paid calls were made. Mark saw the result at https://claude.ai/artifact/CA5h2Zg38UinqEWFr1V4Lm.
+
+**Decided (Mark, 2026-11-12, picked from options, relayed by the coordinator).** Major marks, "Confirm all". Tatian, Hippolytus of Rome, Novatian and Dionysius of Alexandria are major, at 400 to 403 words, about 2:28. Tacitus, Suetonius, Bardaisan of Edessa and Pontius the Deacon are not, at 302 to 323 words, about 1:51 to 1:59.
+
+**Coordinator calls.** The batch membership and date order, and leaving the "era 2 by date" rows to era 2.
+
+**What is still open.** The supplement Who scan (Open-Gaps 229) adds three era 1 WHO rows that are in neither batch: Peter of Alexandria, Anatolius of Alexandria and Laodicea, and Polycrates of Ephesus. The site-work items and name gaps are in Open-Gaps, "Era 1 Who batch 2: site list lines and name gaps" (2026-11-12).
+
+The approved files are in `Who-Profiles/era1/batch2/` in this folder, and the reviews are in `Build/Ministry/Operations/Audits/2026-11-12_who-profiles-era1-batch2/`. No census, record or site change is made, so there is no data release number. Approved to proceed (Mark, 2026-11-12).
