@@ -2312,7 +2312,7 @@ it, never by deleting it.
       other promotions, the story-list placement of Keswick and Westphalia, and the map-build
       items above. Owner: the coordinator.
 
-222. **Open points from the era 7 scan (2026-11-12).** Owners as noted. Source:
+223. **Open points from the era 7 scan (2026-11-12).** Owners as noted. Source:
     `Build/Ministry/Operations/Audits/2026-11-12_who-scan-era7/`. The census was not changed.
     - WANTED sources the Library does not hold, for the combined list (220): Katharina Schütz Zell's
       1524 Entschuldigung and 1558 hymn book; Marie Dentière's Epistre tres utile (1539);
@@ -2659,6 +2659,146 @@ it, never by deleting it.
       Filaret (Drozdov), Holly, Leonid of Optina WHO; Dallet, Marnas, Badger, Whitehouse and
       Philipos WHO as recorders; Montero y Vidal and Pelesz LISTED; Pobedonostsev STORY.
       Owner: the coordinator.
+    - The "Major?" column is a proposal for each WHO; Mark confirms it in each batch.
+
+225. **Open points from the era 8 scan (2026-11-12).** Owners as noted. Source:
+    `Build/Ministry/Operations/Audits/2026-11-12_who-scan-era8/`. The census was not changed.
+    411 rows: WHO 137, STORY 51, LISTED 179, WANTED 44. Approved to proceed (coordinator, under
+    Mark's full-auto instruction of 2026-11-12).
+    - WANTED sources the Library does not hold, for the combined list (220), major first, then the
+      rest. Nothing is queued now (coordinator call). Titles tagged "[suggested; to confirm]" were
+      named from the workers' memory. Owner: the Library thread.
+      Major-marked rows (7):
+      - Robert Hindmarsh: Hindmarsh, Rise and Progress of the New Jerusalem Church (pub. 1861)
+        (named in census sources)
+      - Dona Beatriz Kimpa Vita: Bernardo da Gallo, Relatione (Capuchin relation on the
+        interrogation, trial and burning, 1706) and Lorenzo da Lucca's relation, both named in the
+        census; Brásio, Monumenta Missionaria Africana, for the Portuguese-side documents [s
+      - António Vieira: Vieira, Maria Rosa Mystica (Lisbon, 1686), named in the census; a life-
+        bearing source: André de Barros, Vida do apostolico padre Antonio Vieira (Lisbon, 1746) and
+        the Cartas [suggested; to confirm].
+      - Charles Maigrot: Maigrot's Mandate of 1693 (Fujian) in a contemporary printing; Launay,
+        Histoire générale de la Société des Missions-Étrangères, vol. 1 (Paris, 1894), named in the
+        census, for the life [suggested; to confirm the printing of the man
+      - François Pallu and Pierre Lambert de la Motte: Pallu's and Lambert's own Relations and
+        letters, and Launay, Histoire générale de la Société des Missions-Étrangères, vol. 1 (Paris:
+        Téqui, 1894), named in the census; the Monita of the first vicars [suggested; to confirm the
+        earl
+      - Alexandre de Rhodes: Rhodes, Divers voyages et missions (Paris, 1653), his own life-telling
+        [suggested; to confirm]; the Catechismus of 1651 (Propaganda) as the work.
+      - Joseph Vaz: Sebastião do Rego, Vida do venerável padre Joseph Vaz (Lisbon, 1744) [suggested;
+        to confirm]; the Sketch of the Rise and Progress of the Catholic Church in Ceylon (Colombo,
+        1848), named in the census.
+      The rest (37):
+      - Samson Occom: Samson Occom, A Short Narrative of My Life (1768), as printed in W. DeLoss
+        Love, Samson Occom and the Christian Indians of New England (1899) [suggested; to confirm]
+      - Ann Griffiths: The 1806 Welsh memoir of Ann Griffiths and her letters, by John Hughes of
+        Pontrobert [recollection; to confirm]
+      - James Davenport: James Davenport, The Reverend Mr. James Davenport's Confession and
+        Retractions (Boston, 1744) [suggested; to confirm]
+      - Nathan Cole: Nathan Cole, Spiritual Travels, as printed in M. J. Crawford, "The Spiritual
+        Travels of Nathan Cole," William and Mary Quarterly 33 (1976) [recollection; to confirm]
+      - Lemuel Haynes: Timothy Mather Cooley, Sketches of the Life and Character of the Rev. Lemuel
+        Haynes (New York, 1837) [suggested; to confirm]
+      - Sarah Crosby: Zechariah Taft, Biographical Sketches of the Lives and Public Ministry of
+        Various Holy Women (1825-1828) [suggested; to confirm]
+      - Samuel Davies: The first volume of the same edition (Sermons on Important Subjects, 1792)
+        with the funeral sermon and life [recollection; to confirm]
+      - Anne Dutton: Dutton, A Brief Account of the Gracious Dealings of God with a Poor, Sinful,
+        Unworthy Creature (1743) [suggested; to confirm]
+      - Isaac Watts: Thomas Gibbons, Memoirs of the Rev. Isaac Watts (1780) [suggested; to confirm]
+      - Philip Doddridge: Job Orton, Memoirs of the Life, Character and Writings of Philip Doddridge
+        (1766) [suggested; to confirm]
+      - Judith Sargent Murray: Judith Sargent Murray, The Gleaner (1798) [suggested; to confirm];
+        her letter books [suggested; to confirm]
+      - Hannah More: William Roberts, Memoirs of the Life and Correspondence of Mrs. Hannah More
+        (1834) [suggested; to confirm]
+      - Thomas Bray: Samuel Smith, The Life of the Rev. Thomas Bray (1746) [suggested; to confirm]
+      - William Wilberforce: R. I. and S. Wilberforce, The Life of William Wilberforce (1838)
+        [suggested; to confirm]
+      - Jakob Ammann: Ammann's letters of 1693 and the Amish division sources, in Die Täufer in der
+        Schweiz (Akten) [suggested; to confirm]
+      - Johanna Eleonora Petersen: Lebens-Beschreibung der Frauen Johannä Eleonora Petersen (1718),
+        the census's own source; Becker-Cantarino's English (Chicago 2005) is the modern edition
+        [suggested; to confirm the early German print]
+      - Gottfried Arnold: Unparteiische Kirchen- und Ketzer-Historie (1699-1700), the census's own
+        source; the Frankfurt edition of 1729 [suggested; to confirm]
+      - Rebecca Protten: Her letters and Lebenslauf from the Unity Archives (Herrnhut), as printed
+        in a published edition [suggested; to confirm]. Sensbach, Rebecca's Revival (Harvard 2005)
+        is a modern secondary book, not an early source
+      - Lodovico Antonio Muratori: Gian Francesco Soli Muratori, Vita del proposto Lodovico Antonio
+        Muratori (Venice, 1756) [suggested; to confirm]; Il cristianesimo felice (1743) is online at
+        archive.org A118051 (the census link).
+      - Armand-Jean de Rancé: A life of Rancé by Pierre Marsollier (1703) [suggested; to confirm],
+        or Rancé's letters [suggested; to confirm].
+      - Nicolas Fontaine and Pierre Thomas du Fossé: Nicolas Fontaine, Mémoires pour servir à
+        l'histoire de Port-Royal (Cologne, 1738) [suggested; to confirm]; Mémoires de Pierre Thomas,
+        sieur du Fossé (Utrecht, 1739) [suggested; to confirm].
+      - Tikhon of Zadonsk: A life by a disciple: Ivan Chebotarev (the monk who served him), Life of
+        Tikhon of Zadonsk (late 18th c.) [suggested; to confirm]; and his Of True Christianity
+        [suggested; to confirm]
+      - Herman of Alaska: The Valaam mission records and a Life: Little Russian Philokalia vol. 3,
+        Saint Herman: Wonderworker of Alaska (Platina, 1971) [suggested; to confirm]; Hieromonk
+        Gideon, journal of his 1804-07 voyage to Russian America [suggested;
+      - Ioan Inocențiu Klein: Augustin Bunea, Episcopul Ioan Inocenţiu Klein (1728-1751) (Blaj,
+        1900) (named by the census) and Nicolaus Nilles, Symbolae ad illustrandam historiam
+        ecclesiae orientalis (Innsbruck, 1885), vol. 2 [suggested volume; to confirm]
+      - James Bruce of Kinnaird: James Bruce, Travels to Discover the Source of the Nile, vols. 2
+        and 3 (Edinburgh, 1790)
+      - Ibrahim al-Jawhari: al-Jabarti, Aja'ib al-athar (Cairo chronicle, obituary of Ibrahim al-
+        Jawhari) [suggested; to confirm]; Butcher, The Story of the Church of Egypt, vol. 2 (London,
+        1897) as named in the census
+      - Bernardo da Gallo: The same Capuchin relation as above.
+      - Pedro IV of Kongo: The da Gallo and Lorenzo da Lucca relations; Zucchelli's Italian original
+        of 1712 [suggested; to confirm] for the pre-1704 court.
+      - Úrsula de Jesús: Úrsula de Jesús, The Souls of Purgatory: The Spiritual Diary of a
+        Seventeenth-Century Afro-Peruvian Mystic, ed. and trans. Nancy van Deusen (UNM Press, 2004),
+        named in the census. A 2004 translation: the Library must check rights,
+      - Philiphê Bỉnh: Bỉnh's own notebook and writings (Sách sổ sang chép) [suggested; to confirm];
+        George E. Dutton, A Vietnamese Moses (University of California Press, 2017), open access,
+        named in the census, as a carrier of the life.
+      - Philippus Baldaeus: Baldaeus, Naauwkeurige beschryvinge van Malabar en Choromandel ... en
+        het machtige eyland Ceylon (Amsterdam, 1672) [suggested; to confirm].
+      - James McGready: McGready, A Short Narrative of the Revival of Religion in Logan County
+        (1801), or his Posthumous Works (1831-32) [suggested; to confirm]
+      - Thomas Campbell: Campbell, Declaration and Address (1809), and Richardson, Memoirs of
+        Alexander Campbell (1868), vol. 1, which carries Thomas's life [suggested; to confirm]
+      - Robert Raikes: Gregory, Robert Raikes: Journalist and Philanthropist (1877); Raikes's
+        letters in the Gentleman's Magazine 1784 [suggested; to confirm]
+      - Hans Nielsen Hauge: Hauge's own Skrifter and the Testament; a life such as Bang, Hans
+        Nielsen Hauge og hans Samtid (1874) [suggested; to confirm]
+      - Kosmas Aitolos: Kosmas, Didachai (Teachings) and a Life, English in Vaporis, Father Kosmas,
+        the Apostle of the Poor (1977) [suggested; to confirm]
+      - Athanasios Parios: Athanasios Parios, Christianike Apologia (1798), and a modern life
+        [suggested; to confirm]
+    - Quesnel is LISTED until the Réflexions morales (1692-94) are vendored; then he is WHO
+      (Melanchthon rule). Owner: the Library thread.
+    - Census gaps for people scored here by date of work. The Polish Brethren in exile
+      (Lubieniecki), the Waldensians after 1655 (Léger, Morland), the Remonstrant brotherhood
+      (Brandt), the Jesuit Ethiopia mission (Lobo) and the Black churches of the new republic
+      (Absalom Jones, with McGready, Campbell and Hauge on an era 9 shelf) have no era 8 census
+      entry. Owner: the census owner.
+    - Leads for the councils list (not scored): see the audit; they include the Moravian synods
+      (Gotha 1740, Marienborn, Zeist 1746, Herrnhut 1789), the Pennsylvania synods of 1742, the
+      Synod of Tonkin 1670, the Moscow council of 1654, Alba Iulia 1701 and 1728, Angamaly 1787, the
+      National Synod of Loudun, the 1653 Coonan Cross assemblies, the Synod of Qarqafe 1806 and the
+      Winchester convention of 1803. Owner: the councils scan.
+    - Library label errors and odd editions found by the scan, listed in the audit under "Open-Gaps
+      items to register": the Chronicon Ephratense header names Peter Miller as Agrippa; the header
+      attributes Mack's memoir to his son but the text shows the 1860 editor; Steenoven's letter to
+      Noailles is dated "1714" in the OCR; the Charon file holds tomes II and III only (tome I tells
+      the 1724 split); the John Hughes dates on the Welsh history file look like a namesake's; Mary
+      Dyer is a namesake trap; the Gomidas quotation in the census is in no held file; the census
+      says Macrina is sister of King Teimuraz I but Brosset has her as sister of King David. Owner:
+      the Library thread.
+    - No Jewish, Muslim or Asian chronicler of 1650-1815 is held, and the Hungarian Protestant entry
+      has no corpus-map file and no held source; its persons are LISTED. Owner: the Library thread.
+    - The coordinator's calls (Mark may overrule): Hacob IV, Simeon of Erevan, Mar Thoma I, Mar
+      Dionysius I and De Cock WHO by the two-witness rule, flagged "no own text held";
+      Freylinghausen WHO and Reitz LISTED; Arnauld WHO, flagged; Quesnel LISTED; Volney the only
+      OUTSIDE WITNESS, with Rycaut, Tournefort, Ludolf and Moreau de Saint-Méry plain; Carey, Allen,
+      Yohannan Hormizd and Gregory V left to era 9. No person in the table is alive. Owner: the
+      coordinator.
     - The "Major?" column is a proposal for each WHO; Mark confirms it in each batch.
 
 226. **Open points from the era 10 scan (2026-11-12).** Owners as noted. Source:
