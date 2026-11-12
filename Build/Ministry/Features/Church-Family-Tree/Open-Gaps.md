@@ -3221,3 +3221,16 @@ it, never by deleting it.
       his see is not known). Both are left as the sources have them. Owner: the Library thread.
     - Three era 1 WHO rows from the supplement scan are in neither batch: Peter of Alexandria, Anatolius
       of Alexandria and Laodicea, and Polycrates of Ephesus. Owner: the coordinator.
+232. **Pronunciation list: proposals awaiting Mark, and a paid test not yet approved (2026-11-12).** Mark's
+    seven names are live in `Build/tools/tree-narration-pronunciations.json`; Decision-Log, "Pronunciation
+    list for the audio script" (2026-11-12). The page is the "Pronunciation List" Artifact.
+    - 97 more names are proposed under the Standard English rule: 53 sure, 33 likely, 11 unsure, by
+      era on the page. A fresh Opus agent disagreed with 14 of them and the page marks those. None is
+      applied. Owner: Mark, to approve, change or drop each; then the coordinator adds the approved rows.
+    - Whether `[pause]` between paragraphs gives the half second Mark asked for on eleven_v4 is unknown.
+      The docs list no pause tags for v4. Fallback: an ellipsis at the paragraph end. Owner: Mark, by ear.
+    - The docs do not say whether pronunciation dictionaries work on v4. Not tested; the list uses respellings.
+    - Paid test: six lines, 459 characters, about 223 credits at 0.485 per character. Not run. Needs Mark's
+      named approval with a cap, through the coordinator. Owner: the coordinator.
+    - The `audio/*.audio.txt` files in the era 1 batches are checked-in copies of the brief with tags and
+      do not carry the respellings. The run builds its request from the census text. Owner: the coordinator.

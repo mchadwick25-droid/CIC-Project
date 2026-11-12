@@ -2401,3 +2401,21 @@ A targeted Opus recheck of the trimmed text and the renaming was the third and l
 **What is still open.** The supplement Who scan (Open-Gaps 229) adds three era 1 WHO rows that are in neither batch: Peter of Alexandria, Anatolius of Alexandria and Laodicea, and Polycrates of Ephesus. The site-work items and name gaps are in Open-Gaps, "Era 1 Who batch 2: site list lines and name gaps" (2026-11-12).
 
 The approved files are in `Who-Profiles/era1/batch2/` in this folder, and the reviews are in `Build/Ministry/Operations/Audits/2026-11-12_who-profiles-era1-batch2/`. No census, record or site change is made, so there is no data release number. Approved to proceed (Mark, 2026-11-12).
+
+## 2026-11-12 — Pronunciation list for the audio script: Standard English, Mark's seven names, a pause between paragraphs (Mark, 2026-11-12)
+
+**Mark's rule, verbatim ("Standard English").** "Use the usual English way of saying these names, as an English-language documentary narrator would: roo-FY-nus, DEE-shus, sess-uh-REE-uh." It governs every name with more than one accepted way to say it.
+
+**Mark's seven fixes, from listening to the live Origen brief.** Origen → OR-ih-jen; Eusebius → yoo-SEE-bee-us; Hexapla → HEK-suh-pluh; Rufinus → roo-FY-nus; Caesarea → sess-uh-REE-uh; Decius → DEE-shus; Nazianzus → naz-ee-AN-zus.
+
+**Mark's pacing note.** In the Origen brief, after "in a book called the True Discourse", the move to "But on a journey through Palestine..." has almost no pause. He suggested a paragraph break such as `<break time="0.5s" />` between paragraphs.
+
+**Built.** `Build/tools/tree-narration-pronunciations.json` holds the seven, each a respelling, and the pause tag. `requestTextFor` in `Build/tools/generate_tree_narration.mjs` applies them in person runs only, to the request and nowhere else. Matching is by whole word in the case written, so possessives and "X of Y" forms are caught. The census text, the recording fingerprint and the page text do not change. Tests are in `generate_tree_narration.test.mjs`.
+
+**Coordinator calls (not Mark's words; Mark may overrule).**
+- **The pause uses `[pause]`, not `<break>`.** ElevenLabs' current docs say "Eleven v4 and Eleven v3 do not support SSML break tags" and point to audio tags, ellipses and text structure. They show `[pause]` in an example but list no pause tags for v4. Whether `[pause]` gives the half second Mark wants is unconfirmed until a paid test is heard.
+- **Respellings, not a pronunciation dictionary.** The docs do not say whether dictionaries work on v4, and the dictionary page could not be read.
+- **Person runs only.** The other tree narration runs are unchanged.
+- **Proposals not applied.** 97 more names are proposed on the "Pronunciation List" page, with an Opus check. Only the seven are live.
+
+**What this does not change.** No census, record or site change is made and no recording is made, so there is no data release number. Approved to proceed (coordinator, 2026-11-12; Mark may overrule).

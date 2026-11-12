@@ -1,7 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import path from 'path';
-import { parseArgs, requireApprovedRun, requirePaidSettings, parseVoiceSettings, parseOutputFormat, parseAudioTag, requestTextFor, lastSentenceStart, onlyIds, planNarration, synthesize, synthesizeWithCost, audioPathFor, audioDir, resolveVoiceId, narrationTextFor, defaultVoiceSettings, narrationFingerprint, recordingMatchesText, hasOwnWorldStory } from './generate_tree_narration.mjs';
+import { parseArgs, requireApprovedRun, requirePaidSettings, parseVoiceSettings, parseOutputFormat, parseAudioTag, requestTextFor, applyPronunciations, loadPronunciations, lastSentenceStart, onlyIds, planNarration, synthesize, synthesizeWithCost, audioPathFor, audioDir, resolveVoiceId, narrationTextFor, defaultVoiceSettings, narrationFingerprint, recordingMatchesText, hasOwnWorldStory } from './generate_tree_narration.mjs';
 
 function movement(id, overrides = {}) {
   return { id, name: id, longDescription: `The story of ${id}.`, ...overrides };
@@ -455,4 +455,42 @@ test('synthesizeWithCost: returns the request-id header', async () => {
   const out = await synthesizeWithCost('t', { apiKey: 'k', voiceId: 'v', modelId: 'm', outputFormat: 'mp3_44100_128', fetchImpl });
   assert.equal(out.requestId, 'req123');
   assert.equal(out.cost, 5);
+});
+
+const SEVEN = [
+  ['Origen', 'OR-ih-jen'], ['Eusebius', 'yoo-SEE-bee-us'], ['Hexapla', 'HEK-suh-pluh'], ['Rufinus', 'roo-FY-nus'],
+  ['Caesarea', 'sess-uh-REE-uh'], ['Decius', 'DEE-shus'], ['Nazianzus', 'naz-ee-AN-zus'],
+];
+const sevenEntries = SEVEN.map(([written, say]) => ({ written, say, form: 'respelling' }));
+
+test('pronunciation list: holds Mark\'s seven exactly, each a respelling', () => {
+  const list = loadPronunciations();
+  assert.deepEqual(list.entries.map((e) => [e.written, e.say]), SEVEN);
+  assert.ok(list.entries.every((e) => e.form === 'respelling'));
+  assert.ok(list.paragraphPause);
+});
+
+test('applyPronunciations: whole words, possessives and "X of Y" forms', () => {
+  const out = applyPronunciations("Origen's Hexapla. Basil of Caesarea; Gregory of Nazianzus. Decius, then Rufinus.", sevenEntries);
+  assert.equal(out, "OR-ih-jen's HEK-suh-pluh. Basil of sess-uh-REE-uh; Gregory of naz-ee-AN-zus. DEE-shus, then roo-FY-nus.");
+  assert.equal(applyPronunciations('Origen\u2019s work', sevenEntries), 'OR-ih-jen\u2019s work');
+});
+
+test('applyPronunciations: never inside a longer word, and case-aware', () => {
+  assert.equal(applyPronunciations('Neocaesarea, Deciusx, Origenist, origen, Caesareans', sevenEntries), 'Neocaesarea, Deciusx, Origenist, origen, Caesareans');
+  assert.equal(applyPronunciations('ORIGEN wrote', sevenEntries), 'OR-IH-JEN wrote');
+});
+
+test('requestTextFor: respells the audio script only, pauses between paragraphs, tags in place', () => {
+  const pronunciations = { paragraphPause: '[pause]', entries: sevenEntries };
+  const text = 'Origen taught. He left.\n\nIn Caesarea he died. Eusebius wrote it down.';
+  const sent = requestTextFor(text, { openTag: '[calmly]', closingTag: '[warmly]', pronunciations });
+  assert.equal(sent, '[calmly] OR-ih-jen taught. He left.\n\n[pause]\n\nIn sess-uh-REE-uh he died. [warmly] yoo-SEE-bee-us wrote it down.');
+  assert.equal(requestTextFor(text), text);
+  assert.equal(narrationFingerprint(text), narrationFingerprint('Origen taught. He left.\n\nIn Caesarea he died. Eusebius wrote it down.'));
+});
+
+test('requestTextFor: a one-sentence last paragraph still gets the closing tag on its own sentence', () => {
+  const sent = requestTextFor('First one.\n\nLast one.', { closingTag: '[warmly]', pronunciations: { paragraphPause: '[pause]', entries: [] } });
+  assert.equal(sent, 'First one.\n\n[pause]\n\n[warmly] Last one.');
 });
