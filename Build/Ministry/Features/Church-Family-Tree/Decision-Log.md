@@ -2208,3 +2208,44 @@ holds no Jewish chronicler of 1300–1517. The full table and the checks:
 **What this does not change.** No census, record or site change is made by this scan. Councils stay
 out of the census until the change order named in the era 2 entry. Approved to proceed (Mark,
 2026-11-12).
+
+## 2026-11-12 — Events are gatherings that decide across traditions: the major-events scan (Mark, 2026-11-12)
+
+**Decided (Mark, 2026-11-12, in the scan thread; his words as given).** The scan of major events
+across the ten eras was narrowed to gatherings, and the full list of councils and synods was added:
+- **All councils and synods:** "i do want all the councils and synods".
+- **The test:** "they need to be river level, mutliple traditions comming together or impacting
+  multiple traditions".
+- **What an event is:** "if there was a gathering or attempt to come together to make a decision,
+  seeking god together that is what im talking about". Some items "are or should be in the story
+  catagory, and maybe we will do a historical events that shaped christianity".
+- **Summits count:** "so we need to include major summits as part of the event catagory".
+- **Sources, not rulings:** "dont use my rulings use the sources and reliable history to
+  determine".
+- **The Great Schism of 1054:** "keep it in the stories". The legates' own account (Mirbt nos.
+  227-228) says the patriarch refused to meet them or to hold a council, so it was not a gathering.
+- **Review:** "yes do a review and a duplication check on everything" (relayed by the coordinator).
+
+**How this refines an earlier entry.** The entry "2026-11-11 — Events get their own entry when their
+impact reaches the river level" (Mark, 2026-11-11) set the river-level test and listed many kinds of
+event. On 2026-11-12 Mark narrowed the kind to gatherings that made or tried to make a decision.
+Persecutions, conquests, edicts, revivals, Bible translations, schisms that were not meetings, and
+political items move to a story and historical-events list. The 2026-11-11 answers on conversions,
+political events and Bible translations, relayed before the narrowing, are withdrawn.
+
+**Outcome.** 44 events (per era 1 to 10: 1, 8, 2, 5, 3, 2, 12, 2, 3, 6); a register of 182 councils,
+synods, diets, colloquies and conferences (HELD 72, PARTLY 64, WANTED 46); 49 items held for the story
+and historical-events categories. Four Opus checks and a script reviewed every row. Keswick
+(a devotional convention that decided nothing) and Westphalia (a congress of states) are on the story
+list. Full table: `Build/Ministry/Operations/Audits/2026-11-12_major-events-scan/`.
+
+**Coordinator's calls under Mark's full-auto instruction of 2026-11-12 (not Mark's words; Mark may
+overrule).** Poissy 1561, the Conference of Carthage 411, Chanforan 1532 and Polotsk 1839 are
+promoted to events, each a gathering that tried to decide something across several traditions with a
+held record. Quinisext 692 and the Dvin council of 607-609 stay in the register as close calls.
+Cross-church links for Lausanne, the World Council of Churches, Barmen and the 1872 Bulgarian
+council, and event nodes for the Councils of Rome and Carthage 251, Arles 314, Clermont, Marburg
+and the 1555 Diet, are map-build work (Open-Gaps 217 and 222), not census changes now.
+
+**What this does not change.** No census, record or site change is made by this scan. Approved to
+proceed (coordinator, under Mark's full-auto instruction of 2026-11-12).

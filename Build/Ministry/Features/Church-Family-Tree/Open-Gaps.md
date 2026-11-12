@@ -2285,3 +2285,29 @@ it, never by deleting it.
       Akindynos; Ruusbroec shared; Gerson and Marsilius WHO; Zara Yaqob WANTED; Tekle Haymanot in
       era 6. Owner: the coordinator.
     - The "Major?" column is a proposal for each WHO; Mark confirms it in each batch.
+
+222. **Open points from the major-events scan (2026-11-12).** Owners as noted. Source:
+    `Build/Ministry/Operations/Audits/2026-11-12_major-events-scan/`.
+    - Map build (with 217): cross-church links for the Lausanne Congress, the World Council of
+      Churches founding, the Synod of Barmen and the 1872 Bulgarian council, which each link one
+      census entry now. Event nodes, with links to the listed traditions, for the Councils of Rome
+      and Carthage 251, the Council of Arles, the Council of Clermont, the Marburg Colloquy and the
+      Diet of Augsburg of 1555, which no census entry names as a gathering. Owner: the map build
+      slice.
+    - Wanted records for the 44 events (named from memory; to confirm): the Reichstagsakten for the
+      Diet of Worms; the Marburg colloquy record; the Regensburg Book of 1541; the Edinburgh 1910
+      reports; the Chicago Statement and the Lausanne papers; the Barmen Declaration and synod
+      records; Amsterdam 1948 and New Delhi 1961 reports; the Vatican II documents (Vatican
+      copyright); the acts of the Council of Constantinople of 1872 (the census says the acta are
+      verified, the Library holds none: reconcile); Mansi tomus 12-13 (Nicaea II), 15-17 (the Photian
+      councils) and 9 (Constantinople II). Owner: the Library thread.
+    - The register holds 46 WANTED rows: see the audit's register for each gathering and its
+      named source. Rows for the 1844 and 1845 church conferences, the Keswick Convention, the
+      Moscow Council of 1917-18, CELAM Rio 1955 and Medellin 1968, and the Cape Town and Manila
+      congresses are all not held. Owner: the Library thread.
+    - Doc-hygiene, not touched: the content note in the Beza Histoire ecclesiastique tome 1 file
+      says tomes 2 and 3 are not vendored, but both are in cic/texts. Owner: the Library thread.
+    - Close calls kept in the register, not promoted: the Quinisext Council 692 and the Dvin
+      council of 607-609. Owner: the coordinator.
+    - The coordinator's calls (Mark may overrule): the four promotions, the story-list placement of
+      Keswick and Westphalia, and the map-build items above. Owner: the coordinator.
