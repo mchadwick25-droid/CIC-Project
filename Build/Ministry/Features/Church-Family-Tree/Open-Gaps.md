@@ -2247,3 +2247,41 @@ it, never by deleting it.
     scans". The Library thread gets one combined WANTED list after eras 6 to 10 are scanned, ordered
     by era with major figures first. Until then the WANTED sources in 216 and 219 are recorded, not
     acquired. Ruling in `Decision-Log.md`, "The era 5 Who scan" (2026-11-11). Owner: the coordinator.
+
+221. **Open points from the era 6 scan (2026-11-12).** Owners as noted. Source:
+    `Build/Ministry/Operations/Audits/2026-11-12_who-scan-era6/`. The census was not changed.
+    - WANTED sources the Library does not hold, for the combined list (220): Margery Kempe's Book
+      (the EETS text, Meech and Allen 1940 [suggested; to confirm]); Henry Pomerius's Life of
+      Ruusbroec; Raymond of Capua's Legenda maior of Catherine of Siena; the Life of Capistrano by
+      Nicholas of Fara or Christopher of Varese (GLASS 23228-23229 names the latter); the Lives of
+      Euthymius of Tarnovo, Teodosij of Trnovo, Stephen of Perm, Joseph of Volotsk, Kirill of
+      Beloozero, and Zosima and Savvatii; Jakoubek's tracts on the chalice; Zara Yaqob's Mashafa
+      Berhan; the Gadla Ewostatewos (the check recalls Turaev's CSCO Acta S. Eustathii, 1905, not
+      Conti Rossini [recollection; to confirm]); Getatchew Haile's Acts of Estifanos. Owner: the
+      Library thread.
+    - Outside witnesses with no rows: Rashid al-Din (only a geography extract is held), Ibn Battuta,
+      Ibn Khaldun, Abu'l-Fida and al-Qalqashandi are named in no era 6 census text and none is held
+      in own text. Wanted sources, no rows (the era 5 call). Owner: the Library thread.
+    - Library correction: the Baluze file the corpus-map calls "the Latin Lives" of the Avignon
+      popes holds the Collectio actorum veterum (letters and bulls); no Avignon pope has a held
+      Life. Owner: the Library thread.
+    - Moves by date of work, to an era 5 supplement: Peter Olivi (all his work is before 1298), Ban
+      Kulin (c.1180-1204) and Nikephoros the Monk. Owner: the coordinator.
+    - Supplement-scan leads (held, named in no census text): Jan Rokycana, Lukáš of Prague,
+      Matthias of Kunvald, Aeneas Sylvius Piccolomini, Peter Payne, Andrew of Perugia, Pascal of
+      Vittoria, Thomas of Metsoph, Hethum II, Maba Seyon, Giyorgis of Sagla and others listed under
+      "Not scored" in the audit. Gerson and Marsilius are scored in era 6, so the supplement scan
+      skips them. Owner: the coordinator.
+    - Leads for the events scan (not scored): the Avignon papacy, the suppression of the Templars,
+      the Western Schism, the Hussite wars and the Compacts of Basel, the Wycliffite Bible, the fall
+      of Constantinople, Timur's campaigns, the Malabar letter of 1504, the Black Death. Owner: the
+      events scan.
+    - Era 5 file line corrected: Doukas, Sphrantzes, Chalkokondyles and Syropoulos are era 6 by date
+      of work, not era 7. Owner: the coordinator.
+    - Tekle Haymanot is kept in era 6 although the only held date is 1270 and the date of the Gadla
+      is not in a held line; confirm when the Gadla is dated. Owner: the Library thread.
+    - The coordinator's calls (Mark may overrule): the thin-life writers LISTED; Kempe WANTED;
+      Savonarola and Colette WHO, Capistrano WANTED; Kantakouzenos WHO; two rows for Barlaam and
+      Akindynos; Ruusbroec shared; Gerson and Marsilius WHO; Zara Yaqob WANTED; Tekle Haymanot in
+      era 6. Owner: the coordinator.
+    - The "Major?" column is a proposal for each WHO; Mark confirms it in each batch.

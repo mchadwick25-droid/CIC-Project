@@ -172,7 +172,7 @@ Order: WHO, STORY, WANTED, LISTED. "Source tag" says how the person entered the 
 - Hayton / Hetum of Korikos (Flower of Histories of the East, dictated at Poitiers in 1307: HETUM, RHC2): a Cilician prince and Premonstratensian canon, inside the church; era 6. Also in RHC2: the Pseudo-Brocard, Daniel of Thaurizio and Jean Dardel's Chronique d'Arménie (to 1384).
 - Ebedjesu of Nisibis (Soba): Collection of canons "compiled in the early fourteenth century", approved at the 1318 synod of Timothy II (header of Mai, vol. X); a Church of the East recorder, era 6. Timothy II (catholicos 1318-32) is era 6.
 - Montecorvino, Jordanus, Marignolli, Pegolotti (CATHAY, JORDANUS): Latin mission letters and travel notes of 1305 onward, mostly Western churchmen and a merchant; era 6.
-- Byzantine historians of the 14th and 15th centuries held in the Library: Nicephorus Callistus, Gregoras, Cantacuzenus (14th c., era 6); Doukas, Sphrantzes, Chalcocondyles, Syropoulos (15th c., era 7; Doukas writes after 1453). None reports on the church of this era's window.
+- Byzantine historians of the 14th and 15th centuries held in the Library: Nicephorus Callistus, Gregoras, Cantacuzenus (14th c., era 6); Doukas, Sphrantzes, Chalcocondyles, Syropoulos (15th c., era 6 by date of work, 1300 to 1517; scored in the era 6 scan). None reports on the church of this era's window.
 
 ## Councils
 
