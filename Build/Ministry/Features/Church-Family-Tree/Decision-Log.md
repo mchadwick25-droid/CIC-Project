@@ -2252,3 +2252,20 @@ the 1555 Diet, are map-build work (Open-Gaps 217 and 222), not census changes no
 
 **What this does not change.** No census, record or site change is made by this scan. Approved to
 proceed (Mark's rulings of 2026-11-12, relayed by the coordinator, under his full-auto instruction).
+
+## 2026-11-12 — The era 7 Who scan: Melanchthon Who, the WANTED rows re-sorted (coordinator, under Mark's full-auto instruction of 2026-11-12)
+
+**Mark's instruction (2026-11-12, verbatim, relayed by the coordinator).** "you can continue with era 7 - 10 full auto, im stepping our for a few hours, only hold if there is a major decision needed, otherwise use our principles and past decisions to guide you".
+
+**Coordinator calls under that instruction (not Mark's words; Mark may overrule).** The read-only scan of era 7 (1517–1650 CE) used the standard of eras 1 to 6. Four questions went to the coordinator, none a major decision:
+- **Melanchthon:** WHO, flagged thin life, Major yes, not WANTED. The Library holds his own Augsburg Confession and Apology and about 80 texts that name him. The coordinator then ordered the other "doctrine only" WANTED rows re-sorted by the same standard: where a person's own held work, plus a following or held witnesses, carries a tellable life, the row is WHO; for women, one held source that shows her shaping the church makes her WHO. Camerarius's Life stays a wanted source.
+- **Philip Neri:** WHO, with the hagiography marked as hagiography (Bacci's Life of 1622).
+- **Ivan IV and John Winthrop:** WHO under the own-voice rule; Ivan's polemic marked as polemic.
+- **Ferenc Dávid:** the two-witness rule for the teaching. WHO: the Torda 1568 diet record, and his opponent Socinus's disputation with him.
+- **Jean Ingoro and Jean Tingoro:** the check could not settle it; two rows, cross-referenced, identity Inferential-Thin.
+
+**Calls made by the scan under settled rules.** Pairs as one row (Grebel and Manz, Ursinus and Olevianus, Melville and Melvill, Field and Wilcox, the Mornays, Ricci and Trigault, Lopes and Pigafetta, Naito and Oumemidono, Houghton with the Carthusians of 1535 as one STORY group); Western envoys and travellers carry no OUTSIDE WITNESS label (Herberstein is a Catholic imperial envoy, inside Christianity); hostile inside writers are tradition-relative (Recusant founders WHO as their tradition's voices; Sarpi WHO as a hostile inside recorder); popes STORY; works after 1650 go to era 8 by date of work; Dutch Further Reformation has no WHO yet. On re-sorting, Robert de Nobili became WHO flagged witness-only (two independent held witnesses, no text of his own), which extends the two-witness rule to a founder with no held text; the coordinator may overrule it.
+
+**Outcome of the era 7 sweep.** 259 rows (a paired row counts once): WHO 115, STORY 48, LISTED 87, WANTED 9. All five live person entries (Luther, Calvin, Tyndale, Ignatius, Grotius) are WHO, so none is flagged. The Library holds no Ottoman, Jewish or humanist historian of 1517–1650, so no row carries the OUTSIDE WITNESS label. An Opus check read the cited passages for 182 WHO, STORY and WANTED rows (144 confirmed, 35 corrected, 3 not supported, no invented person-detail) and 39 LISTED rows (33 stand, 6 corrected); a second Opus recheck covered the rows the answers changed. Twenty-one first-pass rows were moved to era 8 by date of work and handed to the era 8 scan. The full table and the checks: `Build/Ministry/Operations/Audits/2026-11-12_who-scan-era7/`.
+
+**What this does not change.** No census, record or site change is made by this scan. Councils stay out of the census until the change order named in the era 2 entry; gatherings found are listed as leads for the councils list. Approved to proceed (coordinator, under Mark's full-auto instruction of 2026-11-12).
