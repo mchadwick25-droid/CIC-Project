@@ -2138,3 +2138,73 @@ table and the checks: `Build/Ministry/Operations/Audits/2026-11-11_who-scan-era5
 **What this does not change.** No census, record or site change is made by this scan. Councils stay
 out of the census until the change order named in the era 2 entry. Approved to proceed (Mark,
 2026-11-11).
+
+## 2026-11-11 — Events get their own entry when their impact reaches the river level (Mark, 2026-11-11)
+
+**Decided (Mark, 2026-11-11, relayed by the coordinator; his words as given).** The test for an
+event's own entry, with its own icon and title as councils have, is reach:
+- **The test:** "i think the test is it impacts beyond a tradition, it impacts at a river level".
+- **What counts:** "so what are we talking about, counsils obviosly, but even the westminister
+  confession impacted multiple denominations in a river".
+- **The event is the process:** "its not the actual confession but the process/meetings that
+  developed it im talking about".
+- **Failure still counts:** "yes, even if there was no resolution like the great schism".
+
+**What this means (the coordinator's reading).**
+- An event gets its own entry when its impact reaches the river level, beyond any one tradition.
+  Councils are one kind of event. Others: schisms, unions, edicts, persecutions across churches,
+  conquests and falls, meetings between traditions, Bible translations, revivals and ecumenical
+  events. This replaces the earlier plan to show councils as stories under Shared Events.
+- For confessions and creeds, the event is the gathering or process that produced the document,
+  not the document: the Westminster Assembly (1643–1653), the Diet of Augsburg (1530), the Synod of
+  Dort (1618–19), the drafting of the Heidelberg Catechism (1563). The document is told on the
+  event's card and listed among its sources, and the participants go on the event's Who click, as
+  with a council.
+- An event qualifies when the process ended without a resolution (the break of 1054, the Great
+  Western Schism, failed reunion talks). The test is impact at the river level, not how the event
+  ended.
+- Building events on the map is the same later slice as councils (Open-Gaps 217 and the councils
+  entry).
+- The events themselves are being found by a separate scan of major events across all ten eras,
+  which Mark asked for on 2026-11-11. That scan does not write this entry.
+
+## 2026-11-12 — The era 6 Who scan: friars under the Latin papal church, two Greek chroniclers labelled (Mark, 2026-11-12)
+
+**Decided (Mark, 2026-11-12, picked from options, relayed by the coordinator).** The read-only scan
+of era 6 (1300–1517 CE) used the standard of eras 1 to 5, with Mark's pairing ruling and the
+"Major?" proposal column. Mark ruled on the cases it raised:
+- **Friars in Asia:** Montecorvino, Jordanus and Marignolli go under the Latin papal church,
+  cross-linked from the Church of the East and St Thomas entries.
+- **Outside-witness label:** Sphrantzes and Chalkokondyles are labelled. Doukas is a plain
+  recorder, because he is partisan.
+- **Hostile writers:** Gui is WHO as a recorder, with his polemic marked as polemic. Walsingham and
+  Knighton are LISTED until their introductions are read for a life.
+- **Jakoubek of Stříbro:** WANTED, naming his tracts.
+- **Gost Radin:** WHO, flagged, with the old Patarene frame marked as the old reading.
+
+**Coordinator's calls under settled rules (not Mark's words; Mark may overrule).**
+- Hilton, Love, Merswin, the Cloud author, the Theologia Deutsch author and Mirk are LISTED, on the
+  story test.
+- Margery Kempe is WANTED, naming the Book. Savonarola and Colette are WHO (Colette under the
+  women rule); Capistrano is WANTED. Kantakouzenos is WHO. Barlaam and Akindynos get two rows.
+  Ruusbroec gets one shared row, home in Devotio Moderna. Gerson and Marsilius are WHO, noted so
+  the supplement scan skips them. Zara Yaqob is WANTED, for the Mashafa Berhan. Tekle Haymanot
+  stays in era 6, flagged.
+- Made by the scan: Richental is a recorder with no outside-witness label; Olivi and Ban Kulin go
+  to the era 5 supplement by date of work; Rashid al-Din, Ibn Battuta, Ibn Khaldun, Abu'l-Fida and
+  al-Qalqashandi get no rows and go in Open-Gaps as wanted sources (the era 5 call); al-Umari and
+  al-Maqrizi, held in their own text, are WHO (OUTSIDE WITNESS); Doukas, Sphrantzes and
+  Chalkokondyles are era 6 by date of work, and the era 5 file's line sending them to era 7 is
+  corrected.
+
+**Outcome of the era 6 sweep.** 162 rows (a paired row counts once): WHO 69, STORY 21, LISTED 58,
+WANTED 14. Judgment-call rows: 43. Both live person entries, Wyclif and Kempis, are WHO, so none is
+flagged. Thirty-three councils are listed. An Opus check read the cited passages for 103 WHO, STORY
+and WANTED rows (74 confirmed, 29 corrected, none not supported, no invented person-detail) and 36
+LISTED rows (23 confirmed, 8 corrected, 5 not supported as LISTED, all five rescored). The Library
+holds no Jewish chronicler of 1300–1517. The full table and the checks:
+`Build/Ministry/Operations/Audits/2026-11-12_who-scan-era6/`.
+
+**What this does not change.** No census, record or site change is made by this scan. Councils stay
+out of the census until the change order named in the era 2 entry. Approved to proceed (Mark,
+2026-11-12).
