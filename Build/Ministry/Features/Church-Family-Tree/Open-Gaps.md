@@ -2939,3 +2939,53 @@ it, never by deleting it.
         census SOURCES; not held]
       - Ju Gi-cheol: A life of the pastor [suggested; to confirm]; the 2025 news report is a
         census source, not held
+
+227. **Open points from Mark's rulings of 2026-11-12 (living people, recent deaths, Spiritualism, Syriac page).** Owners as noted.
+    Source: `Build/Ministry/Operations/Audits/2026-11-12_who-scan-era10/` and
+    `.../2026-11-12_who-scan-era9/`. The census was not changed. These are Mark's rulings, picked from
+    options and relayed by the coordinator.
+    - Era 10 after the rulings: 244 rows: WHO 6, STORY 2, LISTED 108, WANTED 128.
+      101 of the LISTED rows are living people or people of unknown status, "Listed only until
+      death". This replaces the "held for Mark" list in 226. Era 9 after the rulings: 249 rows:
+      WHO 34, STORY 11, LISTED 49, WANTED 155. Owner: the coordinator.
+    - Open-Gaps 226 is not edited. Its "Held for Mark" bullet is superseded by this entry. Eight
+      people it did not list as WANTED are now WANTED sources for the combined list (220), because their
+      deaths are stated in the census: Ford, Lefebvre, Schutz, Antonios, Gatu, Moon, Abiodun, Ilia II.
+      Owner: the Library thread.
+      - Desmond Ford: Desmond Ford, Daniel 8:14, the Day of Atonement, and the Investigative
+        Judgment (1980); the Glacier View statements in Ministry (October 1980) (both from
+        the census story sources)
+      - Marcel Lefebvre: His Declaration of 1974 and the protocol, sermon and decree of 1988
+        (census SOURCES: "Lefebvre's 1974 Declaration; SSPX (1970; 1988 consecrations...)")
+      - Roger Schutz: The Rule of Taizé (1954; later editions as The Sources of Taizé) and
+        Brother Roger's other writings [named in the census SOURCES; not held]
+      - Antonios: Eritrean church records of the 1993 autocephaly and the 2006 deposition;
+        Binns (2017) (census SOURCES) [suggested; to confirm]
+      - John G. Gatu: Gatu's 1971 moratorium call in his own words [not named in the census;
+        to locate]; Christianity Today, "What's Behind the Idea of a Missionary Moratorium?"
+        (November 1974); the WCC obituary of John G. Gatu (census SOURCES)
+      - Sun Myung Moon: The Divine Principle (1966) [named in the census; not held]
+      - Christianah Abiodun: Christianah Abiodun Emmanuel, account of the vision of June
+        1925 and the founding of the Cherubim and Seraphim, in the Society's own
+        publications; J. D. Y. Peel, Aladura (1968) [named in the census; not held]
+      - Ilia II: His sermons and the Patriarchate's record of his reign [suggested; to
+        confirm]
+    - Spiritualism and New Thought (Mark: "Remove them"): the 6 rows (10 people) are removed from the era 9
+      audit. Strike their sources from the WANTED list of Open-Gaps 224 (not edited): the Fox sisters, A. J.
+      Davis, Hardinge Britten, Quimby, Hopkins, the Fillmores; and the "Scope hold for Mark" bullet of 224 is
+      answered. They can be added back if the scope widens. Owner: the Library thread.
+    - Possible deaths before 1990, known only from common knowledge, left "status unknown": Abrams, Yi Ki
+      Poung, Fernando and Ana Stahl, Melnyk, Pelvetsky, Binsted, Naayem, Burton, Suzuki Masahisa, Isabelo de
+      los Reyes Jr., Anderson. Each can be scored once a source confirms the death. Owner: the Library
+      thread.
+    - Syriac (Edessa/Nisibis) world page faults (Mark: "In the clean-up": fix them with the other 11 built
+      worlds, as one change order, alongside the about 560 bare names). Owner: the clean-up change order.
+      - Ephrem's Who line reads "about 338–373" when he was born c. 306.
+      - "Ephrem" and "Ephraim" are mixed.
+      - "Jacob", "Simeon" and "Marutha (unknown)" are bare names in the Voices headings.
+      - The "This world's own hedge" labels are jargon.
+      - "Not X but Y" lines: "He prayed not for the army's destruction, but for its withdrawal";
+        "not a philosopher's definition - it was praise".
+      - Hyphens are used as dashes.
+      - Mark's ruling of 2026-11-11 stands: the flood story stays a full story, and its date already reads
+        "513 of the Greeks, around the year 201".
