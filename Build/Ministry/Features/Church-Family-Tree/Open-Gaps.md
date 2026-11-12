@@ -3138,3 +3138,45 @@ it, never by deleting it.
     of 2026-11-12 makes the profile "Marcion of Pontus". The census uses that form twice and "Marcion of
     Sinope" once, and the one "of Sinope" follows the ruling when the profile is placed. Owner: the map
     build slice.
+
+
+229. **Open points from the supplement Who scan (2026-11-12).** Owners as noted. Source:
+    `Build/Ministry/Operations/Audits/2026-11-12_who-scan-supplement/`. The census was not changed.
+    Decision-Log, "The supplement Who scan" (2026-11-12).
+    - 253 rows: WHO 108, STORY 36, LISTED 92, WANTED 17. Eras: 1 (18), 2 (22), 3 (49), 4 (21), 5 (12),
+      6 (39), 7 (23), 8 (22), 9 (46), 10 (1). Owner: the coordinator.
+    - 17 WANTED sources for the combined list (220). Each has no held text. Maron (Theodoret's
+      Religious History on Maron; the Maronite tradition's own account); Abelard (the Historia
+      calamitatum); Nehemiah Tile and Mangena Mokone (Sundkler, Bantu Prophets in South Africa, 1948;
+      the church's founding records); Evan Roberts (War on the Saints, 1913; journalism); "Awstin"
+      (the Western Mail revival supplements, 1904-05); W. T. Stead (The Revival in the West, 1905);
+      Washington Gladden (Applied Christianity, 1886); Charles M. Sheldon (In His Steps, 1896);
+      Charles A. Briggs (the heresy trial record, 1891-93); A. A. Hodge and B. B. Warfield
+      ("Inspiration", Presbyterian Review, April 1881); David Lipscomb (the Gospel Advocate);
+      Jerry McAuley (his own account of the Water Street Mission); George and Sarah Clarke (the Pacific
+      Garden Mission); James Thomson (Letters on the Moral and Religious State of South America,
+      1827); Adolf von Harnack (What Is Christianity?, 1900); Josiah Ositelu (the Church of the Lord
+      (Aladura) constitutions). Edition names from memory are tagged "[suggested; to confirm]" in the
+      audit. Also wanted, no row: Paulinus of Aquileia's own Contra Felicem (not held). Owner: the
+      Library thread.
+    - Change-order items on earlier audits (no earlier audit is edited; coordinator's call). (1) Era 6:
+      Isidore of Kiev is LISTED; his letters (PG 159 337-339) and Migne's notice of his career (55512-55516)
+      are held, so the row may be rescored WHO with a thin life. (2) Era 3: the note that groups Zoilus
+      with the African Three Chapters bishops is wrong; Zoilus is the Alexandrian patriarch put in after
+      the deposition of Apollinaris (MOMM2 18879-18881). (3) Era 5: the Verdict cell of Anna Komnene reads
+      "WANTED (OUTSIDE WITNESS)" while its text says "without the label". (4) Era 7: the Josaphat Kuntsevych
+      row says WANTED, yet Susza's life of Josaphat (SUSZJ) is held. Owner: the coordinator.
+    - Rows the scan could not settle alone. Yared and Pantalewon (era 3, WHO) rest on late Lives and may
+      fall under the later-retelling rule used for the early saints; the ruling named only the ten
+      founders. Roger Clap (LISTED) could be STORY on the Hopper precedent. Findian: the early "Vinnian"
+      sources are held but editors split between Clonard and Moville, so a Vinnian row on the Penitential
+      is possible. Owner: the coordinator.
+    - Boundary and placement: Hasan-Jalalean is era 8 by date and was not scored; Philo falls before
+      era 1. Owner: the coordinator.
+    - Library finds. Names are double-spaced in many OCR files, so single-space searches wrongly returned
+      "not held" for John of Parma, Pascal of Vittoria, Joan of Arc and Andrew of Perugia. The check
+      re-ran the 17 WANTED rows of this scan whitespace-tolerant (16 confirmed not held). Step one of the
+      combined WANTED list is the same script over the WANTED rows of the ten era audits; any row found
+      held becomes a change-order item by era and is dropped from the list. Owner: the coordinator, then
+      the Library thread.
+    - The "Major?" column is a proposal for each WHO; Mark confirms it in each batch.
