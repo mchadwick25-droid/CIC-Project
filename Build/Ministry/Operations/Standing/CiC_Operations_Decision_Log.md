@@ -164,7 +164,7 @@ The contact is info@churchinconversation.com. Conversations keep their own notic
 **Project lead.** "ok to much detail in the ask, use what we had in the contributions, this should be more about the ask than the details". He also chose the tree's own wording for the not-a-nonprofit line ("a").
 
 **Decision.** The tree's support page has two short sections:
-- **"Help keep the tree free."** The tree is free for everyone, and voluntary contributions help cover development and operational costs. The list is the one from the license page: hosting, the narration voices, research, review by scholars, translations that open the work to people around the world, and the people who do the work. Then the line "The tree is made by Faithways Studio, Inc., a Colorado public benefit corporation — not a nonprofit. Contributions are not tax-deductible.", then the Give once and Give monthly buttons.
+- **"Help keep the tree free."** The tree is free for everyone, and voluntary contributions help cover development and operational costs. The list is the one from the license page: hosting, the narration voices, research, review by scholars, translations that open the work to people around the world, and the people who do the work. Then the line "Church Family Tree is part of Faithways Studio, Inc., a Colorado public benefit corporation — not a nonprofit. Contributions are not tax-deductible." (Mark: "change it to Church Family Tree is part of Faithways Studio"), then the Give once and Give monthly buttons.
 - **"Ways to help that cost nothing."** Unchanged.
 
 The longer paragraphs and the ElevenLabs name are removed. The generator test now checks that the tree's line uses the Church in Conversation support page's words after the company name. This closes open item 20.

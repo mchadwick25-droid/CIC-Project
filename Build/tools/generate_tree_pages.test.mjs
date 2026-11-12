@@ -44,7 +44,7 @@ test('the support page carries the not-a-nonprofit words of the Church in Conver
   const source = fs.readFileSync(path.join(root, 'cic-website/support.html'), 'utf8');
   const line = source.match(/<p class="fine-print">Church in Conversation is part of (Faithways Studio[^<]*)<\/p>/)[1];
   const page = fs.readFileSync(path.join(root, 'cft-website/support.html'), 'utf8');
-  assert.ok(page.includes(`<p>The tree is made by ${line}</p>`));
+  assert.ok(page.includes(`<p>Church Family Tree is part of ${line}</p>`));
 });
 
 test('major links are marked, and a link with an outcome shows its lasting result', () => {
