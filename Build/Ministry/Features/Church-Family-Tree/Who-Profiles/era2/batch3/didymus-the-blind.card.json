@@ -4,7 +4,7 @@
     "Didymus of Alexandria"
   ],
   "knownFor": "A blind teacher of the church's school at Alexandria, who answered the Arians, admired Origen, and taught Jerome of Strido and Rufinus of Aquileia.",
-  "dates": "Died aged 85, by Palladius's account. Jerome, writing his Lives of Illustrious Men, says he was still living and \"has already passed his eighty-third year.\"",
+  "dates": "Died aged 85, by the account of Palladius of Helenopolis. Jerome of Strido, writing his Lives of Illustrious Men, says he was still living and \"has already passed his eighty-third year.\"",
   "place": "Alexandria",
   "tradition": "Alexandrian Catechetical / Christian-Platonist Tradition",
   "role": "Teacher and biblical commentator",
@@ -12,7 +12,7 @@
   "keyWorks": [
     {
       "title": "On the Trinity, three books",
-      "about": "Socrates names three books on the Trinity; the Library holds the Greek text Mingarelli printed in 1769 from one manuscript, as Didymus's"
+      "about": "Socrates of Constantinople names three books on the Trinity; the Library holds Mingarelli's 1769 edition, printed from one manuscript as Didymus's. Its Greek column did not survive the scan, and his Latin translation is usable"
     },
     {
       "title": "On the Holy Spirit",
@@ -36,7 +36,7 @@
   },
   "uncertain": [
     "The story of Antony and Didymus is told by four writers with differences. Jerome of Strido has Antony speak of \"ants and flies and gnats\", Socrates of Constantinople of \"gnats and flies\", Sozomen of \"rats, mice, and the lowest animals\", and Rufinus of Aquileia of mice, flies and lizards. Sozomen gives it as what \"is related\", and Socrates as what \"is said\".",
-    "His years are not fixed. Palladius says he died at 85. Ernest Cushing Richardson's note to Jerome gives about 311 to 396. Blomfield Jackson's note to Theodoret gives about 309 to 399.",
+    "His years are not fixed. Palladius says he died at 85. Ernest Cushing Richardson's note to Jerome gives about 311 to 396. Blomfield Jackson's note to Theodoret has him flourishing from about 309 to 399.",
     "His praise of Origen is known from Socrates, who quotes it. The commentaries Socrates names are not held.",
     "Sozomen reports, as what \"is said\", that he learned his letters from carved tablets felt with his fingers.",
     "Evagrius Scholasticus names the three condemned men but gives no year in the passage."
@@ -45,7 +45,7 @@
     "ownWords": [
       {
         "title": "On the Trinity, three books (Greek, with Mingarelli's Latin translation)",
-        "language": "Greek and Latin",
+        "language": "Latin (the Greek is unreadable in the scan)",
         "file": "cic/texts/didymus-alexandria_de-trinitate-lat-grc_mingarelli1769.txt"
       }
     ],
@@ -66,7 +66,7 @@
       },
       {
         "title": "Lives of Illustrious Men, chapter 109 (tr. Ernest Cushing Richardson); Theodoret, Ecclesiastical History, Book 4, chapter 26 (tr. Blomfield Jackson)",
-        "author": "Jerome of Strido; Theodoret of Cyrus",
+        "author": "Jerome of Strido; Theodoret of Cyrrhus",
         "date": null,
         "language": "English translation",
         "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"

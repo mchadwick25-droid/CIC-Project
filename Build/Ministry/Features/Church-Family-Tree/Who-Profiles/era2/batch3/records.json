@@ -13,8 +13,8 @@
       },
       {
         "claim": "Not a Christian; held to the old Roman religion",
-        "witness": "Charles Duke Yonge, preface ('it is even uncertain whether he was a Christian or a Pagan; though the general belief is...'); Hefele calls him 'the heathen historian'",
-        "formation_confidence": "Widely Accepted"
+        "witness": "Charles Duke Yonge, preface ('it is even uncertain whether he was a Christian or a Pagan; though the general belief is...'); Hefele calls him 'the heathen historian' (Yonge reports a general belief, not a certainty)",
+        "formation_confidence": "Dominant Modern Reconstruction"
       },
       {
         "claim": "The contest of Damasus and Ursinus for the see of Rome came to blows, and 137 bodies were found in one day in the Basilica of Sicininus",
@@ -27,12 +27,12 @@
         "formation_confidence": "Documented"
       },
       {
-        "claim": "Julian admitted the Christian sects to the palace and let them argue freely, judging that no wild beasts were so hostile to men as Christian sects to one another",
+        "claim": "Julian called the Christian sect leaders to the palace and gave each freedom to follow his religion, expecting the freedom to deepen their quarrels, having found that no wild beasts were so hostile to men as Christian sects to one another",
         "witness": "Ammianus, Roman History XXII.5.3-4",
         "formation_confidence": "Documented"
       },
       {
-        "claim": "Called Julian's ban on Christian teachers of rhetoric and grammar 'a cruel action'",
+        "claim": "Called Julian's law forbidding masters of rhetoric and grammar to instruct Christians 'a cruel action'",
         "witness": "Ammianus, Roman History XXII.10.7",
         "formation_confidence": "Documented"
       },
@@ -249,7 +249,7 @@
         "formation_confidence": "Documented"
       },
       {
-        "claim": "Was the first, or among the first, to teach the eight principal sins",
+        "claim": "Was the first to mention, or among the first at least to teach, the eight principal sins",
         "witness": "Gennadius, Lives of Illustrious Men 11 (his own hedge)",
         "formation_confidence": "Documented"
       },
@@ -270,8 +270,13 @@
       },
       {
         "claim": "His works were later suppressed for their Origenist tendency",
-        "witness": "W. K. Lowther Clarke, note 255 to Palladius 38; Evagrius Scholasticus IV.38-39 (Justinian condemned Origen, Didymus and Evagrius)",
-        "formation_confidence": "Widely Accepted"
+        "witness": "W. K. Lowther Clarke, note 255 to Palladius 38",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The emperor Justinian condemned this Evagrius with Origen and Didymus",
+        "witness": "Evagrius Scholasticus IV.38-39 names only \"Evagrius\"; the identification is a reading of the passage, with Clarke's note on the suppression of his works",
+        "formation_confidence": "Inferential-Thin"
       }
     ],
     "contested_claims": [
