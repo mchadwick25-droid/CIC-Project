@@ -47,8 +47,12 @@ body{margin:0;background:var(--parchment);color:var(--iron-gall);
 .chip:hover,.chip:focus-visible,.chip[aria-expanded="true"]{border-color:var(--gold-leaf);color:var(--gold-leaf)}
 .chip[aria-pressed]{display:inline-flex;align-items:center;gap:.6rem;min-height:44px}
 .chip[aria-pressed]:focus-visible{outline:2px solid var(--madder);outline-offset:2px}
-@media (max-width:480px){.feature-bar.switches{gap:.35rem;padding:.4rem .6rem}.chip{padding:.35rem .5rem}
-  .feature-bar .chip-group{position:static}.feature-bar .chip-panel{left:.6rem;right:.6rem;max-width:none}}
+@media (max-width:480px){.feature-bar.switches{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:.4rem;padding:.5rem .6rem}
+  .feature-bar .chip-group{position:static;grid-column:span 2;display:flex}
+  .feature-bar .chip-group .chip{flex:1;justify-content:center;padding:.35rem .4rem;font-size:.85rem}
+  .feature-bar .chip[aria-pressed]{grid-column:span 3;justify-content:space-between;padding:.35rem .5rem .35rem .8rem;font-size:.85rem}
+  .feature-bar .who-chip{grid-column:1/-1}
+  .feature-bar .chip-panel{left:.6rem;right:.6rem;max-width:none}}
 .chip-panel{position:absolute;top:calc(100% + .35rem);left:0;z-index:25;min-width:15rem;max-width:min(22rem,calc(100vw - 1.6rem));
   max-height:60vh;overflow:auto;background:var(--vellum);border:1px solid var(--rule);border-radius:4px;
   padding:.5rem .6rem;font-size:.76rem;box-shadow:0 4px 14px rgba(0,0,0,.25)}
@@ -90501,10 +90505,9 @@ function buildLegend(){
   key+=`<div class="note">Tap a switch to hide or show it. Your choices stay for your next visit.</div>`;
   key+=`<div class="foot">&copy; 2026 Faithways Studio, Inc., a Colorado public benefit corporation &middot; <a href="license.html">License</a>. The same team makes <a href="https://churchinconversation.com/">Church in Conversation</a>.<br><a href="about.html">About</a> · <a href="method.html">Method</a> · <a href="data.html">Data and citation</a> · <a href="privacy.html">Privacy</a> · <a href="https://churchinconversation.com/license">License</a> · <a href="terms.html">Terms</a> · <a href="support.html">Help us grow</a></div>`;
   const group=(id,label,body)=>`<div class="chip-group"><button type="button" class="chip" aria-expanded="false" aria-controls="sw-${id}">${label} &#9662;</button><div class="chip-panel" id="sw-${id}" hidden>${body}</div></div>`;
-  let bar=group('rivers','Rivers',rivers)+group('links','Connections',links);
+  let bar=group('rivers','Rivers',rivers)+group('links','Connections',links)+group('key','Key',key);
   if(acrossMovements.length)bar+=`<button type="button" class="chip" data-toggle="movements" aria-pressed="false"><span class="sw-name">Movements</span><span class="sw" aria-hidden="true"></span></button>`;
   if((DATA.stories||[]).length)bar+=`<button type="button" class="chip" data-toggle="stories" aria-pressed="true"><span class="sw-name">Stories</span><span class="sw" aria-hidden="true"></span></button>`;
-  bar+=group('key','Key',key);
   wrap.innerHTML=`<button type="button" class="chip who-chip" id="who-chip" hidden><span class="who-chip-label"></span><span aria-hidden="true">&times;</span></button>`+bar;
   document.getElementById('who-chip').addEventListener('click',ev=>{ev.stopPropagation();clearWho();});
   const familyKeys=Object.keys(LINK_FAMILY_LABEL).map(f=>`family:${f}`);
