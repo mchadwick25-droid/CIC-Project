@@ -210,6 +210,7 @@
     '<div class="pf-row">' +
       '<button type="button" class="pf-like" id="pf-like" aria-pressed="false">' + HEART + 'This helped</button>' +
       '<button type="button" class="pf-report" id="pf-report" aria-expanded="false" aria-controls="pf-card">Report a problem</button>' +
+      (onAtlas ? '<button type="button" class="pf-dismiss" id="pf-dismiss" aria-label="Hide this bar">&times;</button>' : '') +
     '</div>' +
     '<p class="pf-status" id="pf-status" role="status"></p>' +
     '<form class="pf-card" id="pf-card" role="dialog" aria-labelledby="pf-title" novalidate hidden>' +
@@ -250,6 +251,19 @@
   }
 
   var likeBtn = root.querySelector('#pf-like');
+  var dismissBtn = root.querySelector('#pf-dismiss');
+  if (dismissBtn) {
+    var DISMISS_KEY = 'cic-page-feedback-hidden';
+    try {
+      if (window.sessionStorage.getItem(DISMISS_KEY) === '1') { root.hidden = true; }
+    } catch (e) {  }
+    dismissBtn.addEventListener('click', function () {
+      root.hidden = true;
+      try { window.sessionStorage.setItem(DISMISS_KEY, '1'); } catch (e) {  }
+      var stage = document.getElementById('stage');
+      if (stage) { stage.focus(); }
+    });
+  }
   var reportBtn = root.querySelector('#pf-report');
   var status = root.querySelector('#pf-status');
   var card = root.querySelector('#pf-card');
