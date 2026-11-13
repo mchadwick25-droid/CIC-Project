@@ -1,0 +1,75 @@
+{
+  "name": "Arius",
+  "knownFor": "A presbyter of Alexandria who taught that the Son of God was made, and not eternal; his teaching was condemned at the Council of Nicaea in 325.",
+  "dates": "A presbyter at Alexandria from the 310s; died in Constantinople in 336",
+  "place": "Alexandria; born in Libya",
+  "tradition": "Arianism",
+  "role": "Presbyter and teacher",
+  "briefLength": "about 2 minutes 20 seconds",
+  "keyWorks": [
+    {
+      "title": "Letter to Eusebius of Nicomedia",
+      "about": "his own statement of belief, kept in Theodoret's Church History, Book 1"
+    },
+    {
+      "title": "The Thalia",
+      "about": "a book of his teaching in verse, known only from the quotations and mockery of Athanasius"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "The Arian churches, who held with him that the Son was not eternal and took his name.",
+      "The creed of Nicaea, which the council wrote to define the faith against his teaching."
+    ],
+    "remembered": [
+      "Socrates of Constantinople records his first clash with Bishop Alexander: \"there was a time when the Son was not.\"",
+      "Athanasius of Alexandria tells of his sudden death in Constantinople, the day before he was to be received back."
+    ]
+  },
+  "uncertain": [
+    "His own words reach us only through others. Theodoret kept his letter to Eusebius of Nicomedia, and Athanasius quotes the Thalia while mocking it. No copy survives in his followers' hands.",
+    "The kind account of Arius is Philostorgius's, who praised him. It survives only in a hostile summary made by Photius, who calls Philostorgius a liar. So the attack on Arius and the defence of him both come through opponents.",
+    "The year of his birth is not given in a held source. Athanasius calls him a native of Libya and places his death in 336."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Letter to Eusebius of Nicomedia, in Church History, Book 1, chapter 4",
+        "author": "Arius, in Theodoret",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+      },
+      {
+        "title": "Extracts from the Thalia, in On the Councils (de Synodis) and the Orations against the Arians",
+        "author": "Arius, quoted by Athanasius of Alexandria",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf204_athanasius-select-works-letters.xml"
+      }
+    ],
+    "about": [
+      {
+        "title": "Church History, Book 1, chapters 5 to 9, on the dispute and the Council of Nicaea",
+        "author": "Socrates of Constantinople",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
+      },
+      {
+        "title": "Select Works and Letters, with Robertson's prolegomena and the account of Arius's death",
+        "author": "Athanasius of Alexandria",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf204_athanasius-select-works-letters.xml"
+      },
+      {
+        "title": "Ecclesiastical History (an Arian account, surviving in Photius's hostile summary)",
+        "author": "Philostorgius",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/philostorgius_ecclesiastical-history_walford1855.txt"
+      }
+    ]
+  }
+}

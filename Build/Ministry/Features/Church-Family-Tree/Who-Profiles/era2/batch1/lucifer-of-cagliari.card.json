@@ -17,17 +17,17 @@
   ],
   "legacy": {
     "traces": [
-      "The Luciferian party, which broke with the wider church over whether former Arians could be forgiven; Jerome says it outlived him, and Theodoret of Cyrrhus says it later faded."
+      "The Luciferian party, which refused church office to anyone who had given way to the Arians. Fremantle says it died out by early in the fifth century, and Theodoret of Cyrrhus says it went out and was forgotten."
     ],
     "remembered": [
-      "Jerome wrote a Dialogue against the Luciferians about 379, granting Lucifer's courage against the Arians while rejecting his schism.",
-      "His consecration of Paulinus at Antioch, Socrates of Constantinople says, deepened a split there that lasted for years."
+      "Jerome, who was ordained by Paulinus, the bishop Lucifer made at Antioch, wrote a Dialogue against the Luciferians about 379. He calls Lucifer \"that saintly man\" and a good shepherd, yet blames him for the split.",
+      "Theodoret of Cyrrhus says Lucifer's consecration of Paulinus prolonged the split at Antioch for eighty-five years."
     ]
   },
   "uncertain": [
-    "How far Lucifer was a true schismatic is not clear. Jerome calls him a good shepherd and a saintly man, yet blames the schism on him; Ambrose and Augustine, Fremantle's edition notes, speak of him as having fallen into schism.",
-    "His date of death is given as about 370 or 371; Jerome's Chronicle gives 371.",
-    "The reports that he acted out of love of glory, or out of a grudge against Eusebius of Vercelli, Jerome says he does not believe."
+    "How far Lucifer himself was a schismatic is not settled. Socrates of Constantinople says he kept to the church's teaching on going home, while his followers stayed apart. Ambrose of Milan and Augustine of Hippo, Fremantle notes, speak of him as fallen into schism. Jerome blames the split on him but calls him saintly.",
+    "Fremantle dates the council at Milan to 354. Jerome's Chronicle gives his death in 371; Richardson, in a note to Jerome's Lives, gives 370.",
+    "Reports that he acted from love of glory, or from a grudge against Eusebius of Vercelli, Jerome says he does not believe."
   ],
   "sources": {
     "ownWords": [
@@ -60,7 +60,7 @@
         "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
       },
       {
-        "title": "Ecclesiastical History, Book 3, chapters 4 and 5 (the exile, Antioch and the schism)",
+        "title": "Ecclesiastical History, Book 2, chapter 12, and Book 3 (the exile, Antioch and the Luciferians), with Blomfield Jackson's notes",
         "author": "Theodoret of Cyrrhus",
         "date": null,
         "language": "English translation",
