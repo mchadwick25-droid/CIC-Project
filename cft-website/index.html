@@ -23,19 +23,19 @@
 html,body{height:100%}
 body{margin:0;background:var(--parchment);color:var(--iron-gall);
   font-family:"Alegreya Sans",system-ui,sans-serif;overflow:hidden}
-.topbar{position:fixed;top:0;left:0;right:0;z-index:20;display:flex;align-items:center;
-  gap:.7rem;padding:.5rem .9rem;background:var(--parchment);border-bottom:1px solid var(--rule)}
-.topbar h1{font-family:"Alegreya",Georgia,serif;font-size:1.05rem;font-weight:700;margin:0}
-.topbar .tag{font-size:.72rem;color:var(--ink-faded);font-style:italic}
+.topbar{position:fixed;top:0;left:0;right:0;z-index:20;display:flex;flex-wrap:wrap;align-items:center;
+  gap:.5rem .8rem;padding:.5rem .9rem;background:var(--parchment);border-bottom:1px solid var(--rule)}
+.topbar h1{font-family:"Alegreya",Georgia,serif;font-size:1.5rem;font-weight:700;margin:0}
+.topbar .tag{flex:1 1 100%;font-size:1rem;color:var(--ink-faded);font-style:italic}
 .topbar .spacer{flex:1}
-.topbar a.cic-link{font-size:.78rem;font-weight:700;color:var(--iron-gall);text-decoration:none;white-space:nowrap;
-  border:1px solid var(--rule);border-radius:999px;padding:.35rem .85rem}
+.topbar a.cic-link{font-size:1.05rem;font-weight:700;color:var(--iron-gall);text-decoration:none;white-space:nowrap;
+  border:1px solid var(--rule);border-radius:999px;padding:.55rem 1.1rem}
 .topbar a.cic-link:hover,.topbar a.cic-link:focus-visible{border-color:var(--gold-leaf);color:var(--gold-leaf)}
-.topbar a.support-link{font-size:.76rem;color:var(--ink-faded);text-decoration:none;white-space:nowrap}
+.topbar a.support-link{font-size:1rem;color:var(--ink-faded);text-decoration:none;white-space:nowrap}
 .topbar a.support-link:hover,.topbar a.support-link:focus-visible{color:var(--gold-leaf)}
 .switches .foot{margin-top:.6rem;padding-top:.5rem;border-top:1px solid var(--rule);font-size:.72rem;color:var(--ink-faded);line-height:1.6}
 .switches .foot a{color:var(--gold-leaf)}
-.topbar button{font:inherit;font-size:.78rem;background:var(--vellum);color:var(--iron-gall);
+.topbar button{font:inherit;font-size:1rem;min-height:44px;background:var(--vellum);color:var(--iron-gall);
   border:1px solid var(--rule);border-radius:3px;padding:.35rem .7rem;cursor:pointer}
 .topbar button:hover{border-color:var(--gold-leaf)}
 .topbar button:focus-visible{outline:2px solid var(--madder);outline-offset:1px}
@@ -43,7 +43,7 @@ body{margin:0;background:var(--parchment);color:var(--iron-gall);
   gap:.5rem;padding:.4rem .9rem;background:var(--parchment);border-bottom:1px solid var(--rule)}
 .chip-group{position:relative}
 .chip-group:last-child{margin-left:auto}
-.chip{font-family:"Alegreya Sans",sans-serif;font-size:.78rem;font-weight:700;background:none;cursor:pointer;
+.chip{font-family:"Alegreya Sans",sans-serif;font-size:1rem;font-weight:700;background:none;cursor:pointer;
   color:var(--iron-gall);padding:.35rem .85rem;border:1px solid var(--rule);border-radius:999px}
 .chip:hover,.chip:focus-visible,.chip[aria-expanded="true"]{border-color:var(--gold-leaf);color:var(--gold-leaf)}
 .chip[aria-pressed]{display:inline-flex;align-items:center;gap:.6rem;min-height:44px}
@@ -51,13 +51,13 @@ body{margin:0;background:var(--parchment);color:var(--iron-gall);
 @media (max-width:480px){.feature-bar.switches{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:.4rem;padding:.5rem .6rem}
   .feature-bar .chip-group{position:static;grid-column:span 3;display:flex}
   .feature-bar .chip-group:last-child{grid-column:1/-1;margin-left:0}
-  .feature-bar .chip-group .chip{flex:1;justify-content:center;padding:.35rem .4rem;font-size:.85rem}
-  .feature-bar .chip[aria-pressed]{grid-column:span 3;justify-content:space-between;padding:.35rem .5rem .35rem .8rem;font-size:.85rem}
+  .feature-bar .chip-group .chip{flex:1;justify-content:center;padding:.35rem .4rem;font-size:1rem}
+  .feature-bar .chip[aria-pressed]{grid-column:span 3;justify-content:space-between;padding:.35rem .5rem .35rem .8rem;font-size:1rem}
   .feature-bar .who-chip{grid-column:1/-1}
   .feature-bar .chip-panel{left:.6rem;right:.6rem;max-width:none}}
 .chip-panel{position:absolute;top:calc(100% + .35rem);left:0;z-index:25;min-width:15rem;max-width:min(22rem,calc(100vw - 1.6rem));
   max-height:60vh;overflow:auto;background:var(--vellum);border:1px solid var(--rule);border-radius:4px;
-  padding:.5rem .6rem;font-size:.76rem;box-shadow:0 4px 14px rgba(0,0,0,.25)}
+  padding:.5rem .6rem;font-size:.9rem;box-shadow:0 4px 14px rgba(0,0,0,.25)}
 #stage{position:absolute;inset:0;overflow:hidden;touch-action:none;cursor:grab}
 #stage.grabbing{cursor:grabbing}
 #stage.pinching svg text{display:none!important}
@@ -214,15 +214,15 @@ svg#world{display:block;overflow:visible}
 .switches .row{display:flex;align-items:center;gap:.4rem;margin:.15rem 0}
 .switches i{width:10px;height:10px;border-radius:50%;display:inline-block;flex:none}
 .switches .linekey{width:26px;height:10px;flex:none;display:inline-block}
-.switches .cap{font-family:"Alegreya Sans",sans-serif;font-size:.68rem;letter-spacing:.08em;
+.switches .cap{font-family:"Alegreya Sans",sans-serif;font-size:.8rem;letter-spacing:.08em;
   text-transform:uppercase;color:var(--gold-leaf);margin-bottom:.3rem;display:block}
-.switches .note{font-size:.68rem;line-height:1.45;color:var(--ink-faded);font-style:italic;margin:.35rem 0 0}
+.switches .note{font-size:.85rem;line-height:1.45;color:var(--ink-faded);font-style:italic;margin:.35rem 0 0}
 .switches button.row{width:100%;background:none;border:0;padding:.1rem .2rem;margin:.1rem 0;border-radius:3px;
   font:inherit;color:inherit;text-align:left;cursor:pointer}
 .switches button.row:hover{background:var(--tyrian-wash)}
 .switches button.row{min-height:44px;padding:.35rem .5rem;gap:.6rem;margin:0}
 .switches button.row:focus-visible{outline:2px solid var(--madder);outline-offset:-2px}
-.switches .sw-name{flex:1;min-width:0;font-size:.82rem;line-height:1.25}
+.switches .sw-name{flex:1;min-width:0;font-size:1rem;line-height:1.25}
 .chip .sw-name{flex:none}
 .sw{position:relative;flex:none;width:2.5rem;height:1.4rem;margin-left:auto;border-radius:999px;box-sizing:border-box;
   background:var(--iron-gall);border:1px solid var(--iron-gall);transition:background .15s,border-color .15s}
@@ -277,13 +277,15 @@ svg.who-on .edge-line,svg.who-on .edge-hit,svg.who-on .continues{display:none!im
 #zoomHint{position:fixed;right:.8rem;bottom:.8rem;z-index:20;font-size:.7rem;
   color:var(--ink-faded);background:var(--vellum);border:1px solid var(--rule);
   border-radius:3px;padding:.4rem .6rem;max-width:230px;text-align:right}
-.topbar button.zoom-btn{min-width:2rem;font-size:1rem;line-height:1;padding:.3rem .6rem}
 @media (prefers-reduced-motion:reduce){.river-calm,.river-organic,#panel{transition:none!important}}
 
 @media (max-width:640px){
-  .topbar{flex-wrap:wrap;row-gap:.2rem}
-  .topbar .tag{flex:1 1 100%;order:1}
-  .topbar button{order:2}
+  .topbar a.cic-link{order:1}
+  .topbar{column-gap:.4rem}
+  .topbar button{order:2;font-size:.95rem;padding:.4rem .7rem}
+  .topbar button{flex:1 1 auto}
+  .topbar button.zoom-btn{order:3;flex:1 1 40%}
+  .topbar .tag{order:4;font-size:.92rem}
 }
 @media (pointer:coarse){
   .node .halo{r:calc(22 / var(--zoom-scale,1))}
@@ -292,7 +294,6 @@ svg.who-on .edge-line,svg.who-on .edge-hit,svg.who-on .continues{display:none!im
   #who .who-hit{height:calc(30 / var(--zoom-scale,1));y:calc(-15 / var(--zoom-scale,1))}
   #panel .who-btn{min-height:44px}
   .edge-hit{stroke-width:calc(30 / var(--zoom-scale,1))}
-  .topbar button{min-height:44px;padding:.6rem 1rem}
     #panel .close{min-width:44px;min-height:44px;display:inline-flex;
     align-items:center;justify-content:center}
   #panel .act{min-height:44px}
@@ -308,14 +309,14 @@ svg.who-on .edge-line,svg.who-on .edge-hit,svg.who-on .continues{display:none!im
 
 <div class="topbar">
   <h1>Church Family Tree</h1>
-  <span class="tag">an interactive map of Christian tradition, from the first house-churches to about 2010</span>
+  <a class="cic-link" href="https://churchinconversation.com/">Church in Conversation</a>
   <div class="spacer"></div>
   <a class="support-link" href="support.html">Help us grow</a>
-  <a class="cic-link" href="https://churchinconversation.com/">Church in Conversation &rarr;</a>
   <button type="button" class="feedback-toggle" id="feedback-toggle" aria-haspopup="dialog" aria-expanded="false">Tell us what you think</button>
-  <button id="zoomOutBtn" type="button" class="zoom-btn" aria-label="Zoom out" title="Zoom out (minus key)">&minus;</button>
-  <button id="zoomInBtn" type="button" class="zoom-btn" aria-label="Zoom in" title="Zoom in (plus key)">+</button>
+  <button id="zoomOutBtn" type="button" class="zoom-btn" title="Zoom out (minus key)">Zoom out</button>
+  <button id="zoomInBtn" type="button" class="zoom-btn" title="Zoom in (plus key)">Zoom in</button>
   <button id="resetBtn" type="button">Reset view</button>
+  <span class="tag">an interactive map of Christian tradition, from the first house-churches to about 2010</span>
 </div>
 <div class="feature-bar switches" id="switchbar" role="toolbar" aria-label="Show or hide parts of the map"></div>
 
