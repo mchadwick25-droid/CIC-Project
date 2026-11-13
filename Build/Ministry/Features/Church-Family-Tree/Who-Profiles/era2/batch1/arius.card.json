@@ -1,7 +1,7 @@
 {
   "name": "Arius",
   "knownFor": "A presbyter of Alexandria who taught that the Son of God was made, and not eternal; his teaching was condemned at the Council of Nicaea in 325.",
-  "dates": "Taught at Alexandria from about 318; died in Constantinople in 336, by Archibald Robertson's dating",
+  "dates": "In dispute with Bishop Alexander of Alexandria from about 318 or 319; died in Constantinople in 336, both by Archibald Robertson's dating",
   "place": "Alexandria",
   "tradition": "Arianism",
   "role": "Presbyter and teacher",
@@ -9,7 +9,7 @@
   "keyWorks": [
     {
       "title": "Letter to Eusebius of Nicomedia",
-      "about": "his own statement of belief, kept by Theodoret of Cyrus in his Church History, Book 1"
+      "about": "his own statement of belief, kept by Theodoret of Cyrrhus in his Church History, Book 1"
     },
     {
       "title": "The Thalia",
@@ -28,16 +28,16 @@
   },
   "uncertain": [
     "How the quarrel began is told more than one way. Socrates of Constantinople starts it at Arius's answer to Bishop Alexander. Archibald Robertson, who edited Athanasius in English, calls the origin obscure, and notes that Constantine's own letter has Alexander asking his clergy about a passage of Scripture. Philostorgius, through Photius, says a presbyter nicknamed Baucalis started it.",
-    "His own words reach us through others. Theodoret of Cyrus kept his letter to Eusebius of Nicomedia, and Athanasius quotes the Thalia while mocking it.",
+    "His own words reach us through others. Theodoret of Cyrrhus kept his letter to Eusebius of Nicomedia, and Athanasius quotes the Thalia while mocking it.",
     "Philostorgius, a historian on his side, praised Arius but also found fault with him. His history survives only in a hostile summary by Photius, patriarch of Constantinople in the 800s, who calls Philostorgius a liar. So the attack on Arius and the defence of him both come through opponents.",
-    "Athanasius was not in Constantinople when Arius died, and had the account from the presbyter Macarius. Sozomen, as Robertson reports, gives three views of the death: his friends blamed magic, Alexander's side saw God's judgment, and most people blamed a weak heart.",
+    "Athanasius was not in Constantinople when Arius died, and had the account from the presbyter Macarius. Sozomen gives three views of the death. Those who held Arius's views blamed magic. Others saw God's judgment, and some a sudden disease of the heart.",
     "The year of his birth is not given in a held source. Robertson reports that he was said to be a native of Libya, and dates his death to 336."
   ],
   "sources": {
     "ownWords": [
       {
         "title": "Letter to Eusebius of Nicomedia, in Church History, Book 1, chapter 4",
-        "author": "Arius, in Theodoret of Cyrus",
+        "author": "Arius, in Theodoret of Cyrrhus",
         "date": null,
         "language": "English translation",
         "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
