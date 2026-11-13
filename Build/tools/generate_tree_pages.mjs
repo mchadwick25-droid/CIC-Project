@@ -112,9 +112,11 @@ li{margin-bottom:.5rem}
 .site-footer{border-top:1px solid var(--rule);background:var(--surface);font-family:var(--sans);font-size:.85rem;color:var(--muted);margin-top:3rem;padding:1.5rem 1.25rem}
 .site-footer .row{max-width:var(--wide);margin:0 auto}
 .site-header nav{display:flex;flex-wrap:wrap;gap:.4rem 1rem;align-items:center;margin-left:auto;font-family:var(--sans);font-size:.92rem}
-.site-header nav a{color:var(--action);text-decoration:none}
+.site-header nav a{color:var(--action);text-decoration:none;display:inline-flex;align-items:center;min-height:44px}
 .site-header nav a:hover{color:var(--action-hover)}
+.site-header nav .feedback-toggle{min-height:44px}
 .site-footer nav{display:flex;flex-wrap:wrap;gap:.4rem 1.1rem;margin-top:.6rem}
+.site-footer nav a{display:inline-flex;align-items:center;min-height:44px}
 .site-footer a{color:var(--action)}
 .give{display:flex;flex-wrap:wrap;gap:.6rem;margin:1rem 0}
 .give a{display:inline-block;padding:.6rem 1.2rem;background:var(--btn-fill);color:var(--btn-text);text-decoration:none;border-radius:4px}
@@ -417,7 +419,7 @@ ${analyticsTag}</head>
 <body>
 ${siteHeader('../')}
 
-<div class="page">
+<main class="page" id="content">
   <div class="titleblock">
     <p class="ident">${escapeHtml(eraName)} · ${escapeHtml(movement.dates)} · ${escapeHtml(movement.region)}</p>
     ${placeLine.includes('today in') ? `<p class="ident">${escapeHtml(placeLine)}</p>` : ''}
@@ -460,7 +462,7 @@ ${siteHeader('../')}
   </section>
 
   ${reviewLine(movement)}
-</div>
+</main>
 
 ${siteFooter('../')}
 ${narrated ? '<script src="../assets/narration-player.js" defer></script>\n' : ''}<script src="../assets/feedback.js" defer></script>
@@ -585,10 +587,10 @@ ${PAGE_STYLE}
 ${analyticsTag}</head>
 <body>
 ${siteHeader('/')}
-<div class="page">
+<main class="page" id="content">
   <div class="titleblock"><h1>${escapeHtml(page.title)}</h1></div>
 ${body}
-</div>
+</main>
 ${siteFooter('/')}
 <script src="assets/feedback.js" defer></script>
 </body>
@@ -628,10 +630,10 @@ ${PAGE_STYLE}
 ${analyticsTag}</head>
 <body>
 ${siteHeader('/')}
-<div class="page">
+<main class="page" id="content">
   <div class="titleblock"><p class="eyebrow">License</p><h1>${hero[1].trim()}</h1></div>
 ${body.trim()}
-</div>
+</main>
 ${siteFooter('/')}
 <script src="assets/feedback.js" defer></script>
 </body>
@@ -661,7 +663,7 @@ ${analyticsTag}</head>
 <body>
 ${siteHeader('../')}
 
-<div class="page" data-retired="true">
+<main class="page" id="content" data-retired="true">
   <div class="titleblock">
     <p class="eyebrow">Retired entry</p>
     <h1>${escapeHtml(r.name)}</h1>
@@ -669,7 +671,7 @@ ${siteHeader('../')}
   <p>This entry was retired from the tree on ${escapeHtml(retiredOn)}.</p>
   <p>${escapeHtml(r.reason)}</p>
   <p><a href="../index.html">Return to the map</a></p>
-</div>
+</main>
 
 ${siteFooter('../')}
 <script src="../assets/feedback.js" defer></script>
