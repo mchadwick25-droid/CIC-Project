@@ -1,15 +1,15 @@
 {
   "name": "Arius",
   "knownFor": "A presbyter of Alexandria who taught that the Son of God was made, and not eternal; his teaching was condemned at the Council of Nicaea in 325.",
-  "dates": "A presbyter at Alexandria from the 310s; died in Constantinople in 336",
-  "place": "Alexandria; born in Libya",
+  "dates": "Taught at Alexandria from about 318; died in Constantinople in 336, by Archibald Robertson's dating",
+  "place": "Alexandria",
   "tradition": "Arianism",
   "role": "Presbyter and teacher",
   "briefLength": "about 2 minutes 20 seconds",
   "keyWorks": [
     {
       "title": "Letter to Eusebius of Nicomedia",
-      "about": "his own statement of belief, kept in Theodoret's Church History, Book 1"
+      "about": "his own statement of belief, kept by Theodoret of Cyrus in his Church History, Book 1"
     },
     {
       "title": "The Thalia",
@@ -18,24 +18,26 @@
   ],
   "legacy": {
     "traces": [
-      "The Arian churches, who held with him that the Son was not eternal and took his name.",
+      "The churches later called Arian, which held with him that the Son was not eternal.",
       "The creed of Nicaea, which the council wrote to define the faith against his teaching."
     ],
     "remembered": [
-      "Socrates of Constantinople records his first clash with Bishop Alexander: \"there was a time when the Son was not.\"",
-      "Athanasius of Alexandria tells of his sudden death in Constantinople, the day before he was to be received back."
+      "Socrates of Constantinople sets the start of the quarrel at his clash with Bishop Alexander, when Arius said \"there was a time when the Son was not.\"",
+      "Athanasius of Alexandria tells of his sudden death in Constantinople, the day before he was to be received back, as the presbyter Macarius told it to him."
     ]
   },
   "uncertain": [
-    "His own words reach us only through others. Theodoret kept his letter to Eusebius of Nicomedia, and Athanasius quotes the Thalia while mocking it. No copy survives in his followers' hands.",
-    "The kind account of Arius is Philostorgius's, who praised him. It survives only in a hostile summary made by Photius, who calls Philostorgius a liar. So the attack on Arius and the defence of him both come through opponents.",
-    "The year of his birth is not given in a held source. Athanasius calls him a native of Libya and places his death in 336."
+    "How the quarrel began is told more than one way. Socrates of Constantinople starts it at Arius's answer to Bishop Alexander. Archibald Robertson, who edited Athanasius in English, calls the origin obscure, and notes that Constantine's own letter has Alexander asking his clergy about a passage of Scripture. Philostorgius, through Photius, says a presbyter nicknamed Baucalis started it.",
+    "His own words reach us through others. Theodoret of Cyrus kept his letter to Eusebius of Nicomedia, and Athanasius quotes the Thalia while mocking it.",
+    "Philostorgius, a historian on his side, praised Arius but also found fault with him. His history survives only in a hostile summary by Photius, patriarch of Constantinople in the 800s, who calls Philostorgius a liar. So the attack on Arius and the defence of him both come through opponents.",
+    "Athanasius was not in Constantinople when Arius died, and had the account from the presbyter Macarius. Sozomen, as Robertson reports, gives three views of the death: his friends blamed magic, Alexander's side saw God's judgment, and most people blamed a weak heart.",
+    "The year of his birth is not given in a held source. Robertson reports that he was said to be a native of Libya, and dates his death to 336."
   ],
   "sources": {
     "ownWords": [
       {
         "title": "Letter to Eusebius of Nicomedia, in Church History, Book 1, chapter 4",
-        "author": "Arius, in Theodoret",
+        "author": "Arius, in Theodoret of Cyrus",
         "date": null,
         "language": "English translation",
         "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
@@ -57,7 +59,7 @@
         "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
       },
       {
-        "title": "Select Works and Letters, with Robertson's prolegomena and the account of Arius's death",
+        "title": "Select Works and Letters, with the letter to Serapion on the death of Arius and Robertson's prolegomena",
         "author": "Athanasius of Alexandria",
         "date": null,
         "language": "English translation",

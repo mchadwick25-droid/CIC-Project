@@ -1,8 +1,7 @@
 {
   "name": "Hilarion of Gaza",
-  "otherNames": [],
   "knownFor": "Antony's disciple, remembered as the first monk of Palestine, who brought the Egyptian desert life to the coast near Gaza.",
-  "dates": "About 291 to about 371",
+  "dates": "About 291 to about 371 (371 is Chester Hartranft's reckoning; Jerome says he died in his eightieth year)",
   "place": "Thabatha, near Gaza, and later Cyprus",
   "tradition": "Early Palestinian Ascetic Monasticism",
   "role": "Hermit and founder of Palestinian monasticism",
@@ -10,7 +9,7 @@
   "legacy": {
     "traces": [
       "Monastic life on the Palestinian coast, which Jerome credits him with originating: \"It was he who originated this mode of life and devotion.\"",
-      "The conversion of families near Gaza, among them that of Sozomen's own grandfather, which Sozomen traces to Hilarion's cure of Alaphion."
+      "The conversion of families near Gaza, among them that of Sozomen's own grandfather, which Sozomen traces, as a thing that \"is said\", to Hilarion's cure of Alaphion."
     ],
     "remembered": [
       "Jerome of Strido wrote his Life about 390 and set him beside Antony: \"The Lord Jesus had in Egypt the aged Antony: in Palestine He had the youthful Hilarion.\"",
@@ -18,12 +17,11 @@
     ]
   },
   "uncertain": [
-    "Hilarion left no writing that is held here. His life is known chiefly from Jerome's Life, a work of praise. The editor of Jerome's works warns that it \"contains, amidst much that is legendary, some statements which attach it to genuine history.\"",
-    "Sozomen, whose own family came from the region, gives an independent notice of Hilarion and of the cure of Alaphion. He drew in part on Jerome's Life and diverges from it on some points.",
-    "His dates rest on the Life and on Sozomen. Jerome says he died in his eightieth year, having served Christ \"nearly seventy years.\""
+    "Hilarion left no writing that is held here. His life is known chiefly from Jerome's Life, a work of praise. W. H. Fremantle's English edition of Jerome warns that it \"contains, amidst much that is legendary, some statements which attach it to genuine history.\" The same edition calls the theory that it was \"a sort of religious romance\" without foundation.",
+    "Sozomen, whose own family came from the region, gives a separate notice of Hilarion and of the cure of Alaphion. He reports the conversions as what \"is said\".",
+    "His dates rest on the Life and on Chester Hartranft's reckoning in his introduction to Sozomen, \"Hilarion passed away about 371\". Jerome says he died in his eightieth year, having served Christ \"nearly seventy years.\""
   ],
   "sources": {
-    "ownWords": [],
     "about": [
       {
         "title": "The Life of S. Hilarion (tr. Fremantle, Lewis and Martley)",
@@ -33,7 +31,7 @@
         "file": "cic/texts/npnf206_jerome-principal-works.xml"
       },
       {
-        "title": "Ecclesiastical History, Book 3, chapter 14, and Book 6, chapter 32",
+        "title": "Ecclesiastical History, Book 3, chapter 14, Book 5, chapter 15, and Book 6, chapter 32",
         "author": "Sozomen",
         "date": null,
         "language": "English translation",

@@ -53,53 +53,67 @@
   "arius": {
     "claims": [
       {
-        "claim": "A presbyter of Alexandria, in charge of the church of Baucalis",
-        "witness": "Athanasius, prolegomena (Robertson); Philostorgius",
+        "claim": "A presbyter of Alexandria, in charge of the church of Baucalis, who also taught Scripture",
+        "witness": "Archibald Robertson, prolegomena to Athanasius (npnf204)",
         "formation_confidence": "Widely Accepted"
       },
       {
-        "claim": "Clashed with Bishop Alexander about 318, arguing the Son had a beginning",
-        "witness": "Socrates, Church History I.5",
+        "claim": "His answer to Bishop Alexander, that there was a time when the Son was not",
+        "witness": "Socrates I.5, writing more than a century later",
         "formation_confidence": "Documented"
       },
       {
-        "claim": "Taught that the Son was made out of nothing and was not eternal",
-        "witness": "Arius's own letter to Eusebius (Theodoret I.4); the Thalia quoted in Athanasius",
+        "claim": "Taught that the Son was made from nothing, yet subsisted before time as perfect God",
+        "witness": "Arius's own letter to Eusebius of Nicomedia (Theodoret I.4); the Thalia quoted by Athanasius",
         "formation_confidence": "Documented"
       },
       {
-        "claim": "Wrote the Thalia and songs to spread his teaching",
-        "witness": "Athanasius, de Synodis and Orations (a hostile witness who quotes it)",
+        "claim": "Wrote songs for sailors, millers and travellers, and the Thalia",
+        "witness": "Philostorgius II.2, through Photius's epitome (songs); Athanasius, Orations (ballads and the Thalia, which he quotes)",
         "formation_confidence": "Documented"
       },
       {
-        "claim": "Condemned and exiled at the Council of Nicaea in 325; the council declared the Son consubstantial with the Father",
-        "witness": "Socrates, Church History I.8-9 (the synod's letter)",
+        "claim": "Condemned at Nicaea in 325; exiled, and his books ordered burned",
+        "witness": "Socrates I.8-9 (the synod's decision and Constantine's letter)",
         "formation_confidence": "Documented"
       },
       {
-        "claim": "Died suddenly in Constantinople in 336, the day before his reception to communion",
-        "witness": "Athanasius (Robertson's account); Sozomen II.29",
+        "claim": "Alexander of Constantinople prayed against his reception, and Arius died suddenly the day before it",
+        "witness": "Athanasius, letter to Serapion, from the presbyter Macarius (Athanasius was not present); Robertson; Sozomen II.29-30",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Died in 336",
+        "witness": "Robertson's chronology",
         "formation_confidence": "Widely Accepted"
       }
     ],
-    "contested_claims": [],
+    "contested_claims": [
+      {
+        "claim": "How the Arian controversy began",
+        "sides": "Socrates I.5: Arius's answer to Alexander's teaching on the Trinity; Constantine's letter (Life of Constantine II.69, as Robertson reports): Alexander's question to his clergy on a passage of Scripture; Philostorgius through Photius: a presbyter nicknamed Baucalis. Robertson: the origin is obscure"
+      },
+      {
+        "claim": "The cause of Arius's sudden death",
+        "sides": "Sozomen, as Robertson reports: his friends blamed magic; Alexander's side, with Athanasius, God's judgment; most people a weak heart"
+      }
+    ],
     "absent_details": [
       {
         "detail": "The year of Arius's birth",
-        "note": "No held source gives it. Athanasius calls him a native of Libya and records his death in 336."
+        "note": "No held source gives it. Robertson reports, with 'We are told', that he was a native of Libya."
       },
       {
         "detail": "A copy of the Thalia or his letters in his followers' own hands",
-        "note": "His words survive only through his opponents (Theodoret, Athanasius). Philostorgius's friendly account survives only in Photius's hostile summary."
+        "note": "His words survive through his opponents (Theodoret of Cyrus, Athanasius). Philostorgius's friendly history survives only in Photius's hostile epitome."
       }
     ]
   },
   "pachomius": {
     "claims": [
       {
-        "claim": "Egyptian monk who founded communal (cenobitic) monasticism at Tabennisi",
-        "witness": "Palladius, Lausiac History 32; Sozomen III.14; Gennadius in Jerome, On Illustrious Men 7",
+        "claim": "Egyptian monk whom Gennadius calls founder of the Egyptian monasteries, at the head of the Tabennesiot houses",
+        "witness": "Gennadius in Jerome, On Illustrious Men 7; Palladius, Lausiac History 32; Sozomen III.14 (following Palladius)",
         "formation_confidence": "Widely Accepted"
       },
       {
@@ -109,7 +123,7 @@
       },
       {
         "claim": "Said an angel gave him the rule on a tablet",
-        "witness": "Palladius, Lausiac History 32 (and the Ethiopic rule's own opening); Sozomen III.14",
+        "witness": "Palladius, Lausiac History 32 (and the Ethiopic rule's own opening); Sozomen III.14; Gennadius 7 (\"received by angelic dictation\")",
         "formation_confidence": "Contested"
       },
       {
@@ -129,20 +143,20 @@
       },
       {
         "claim": "Born about 292, died 348",
-        "witness": "The editor's note to Gennadius's chapter in npnf203",
+        "witness": "George Schodde's introduction; Ernest Cushing Richardson's note to Gennadius 7 (npnf203)",
         "formation_confidence": "Widely Accepted"
       }
     ],
     "contested_claims": [
       {
         "claim": "The angel-and-tablet origin of the rule, and the lettered groups of monks",
-        "sides": "Palladius and Sozomen report both as the tradition of their day; Ladeuze (via Clarke) held the angel legendary and the lettered groups Palladius's own invention, trusting the Greek Lives over the rule; Butler called Palladius's version \"probably the most authentic epitome\""
+        "sides": "Palladius, Sozomen and Gennadius report the angel; Ladeuze (via Clarke) held the angel legendary and the lettered groups Palladius's own invention, trusting the Greek Lives over the rule; Butler did not accept Ladeuze's low view of Palladius's rule and called it \"probably the most authentic epitome\""
       }
     ],
     "absent_details": [
       {
         "detail": "Any writing in Pachomius's own words",
-        "note": "No work of his own is held; the rule survives only in later collections that differ from one another, and his life is told by Palladius and Sozomen"
+        "note": "No writing held here is certainly his own; Schodde thinks the first part of the Ethiopic rules, which is the same as the Greek form, comes close to him; the collections differ, and his life is told by Palladius and by Sozomen after him"
       }
     ]
   },
@@ -150,13 +164,13 @@
     "claims": [
       {
         "claim": "Gave away his inheritance after hearing the Gospel read in church, and withdrew to live as an ascetic",
-        "witness": "Life of Antony 2-3 (attributed to Athanasius)",
-        "formation_confidence": "Widely Accepted"
+        "witness": "Life of Antony 2-3 (attributed to Athanasius) (one hagiographic witness)",
+        "formation_confidence": "Documented"
       },
       {
         "claim": "Withdrew by stages to the tombs, a deserted fort, and the inner mountain, drawing monks after him",
-        "witness": "Life of Antony 8-14, 49-50",
-        "formation_confidence": "Widely Accepted"
+        "witness": "Life of Antony 8-14, 49-50 (one hagiographic witness)",
+        "formation_confidence": "Documented"
       },
       {
         "claim": "Served the confessors at Alexandria under the persecution of Maximinus, seeking martyrdom",
@@ -174,22 +188,22 @@
         "formation_confidence": "Documented"
       },
       {
-        "claim": "Born at Coma in Upper Egypt",
+        "claim": "Born at Coma, near Heraclea",
         "witness": "Sozomen I.13",
-        "formation_confidence": "Widely Accepted"
+        "formation_confidence": "Documented"
       },
       {
-        "claim": "Left seven letters in Coptic",
+        "claim": "Sent seven letters in Coptic to monasteries, later translated into Greek",
         "witness": "Jerome, On Illustrious Men 88",
         "formation_confidence": "Documented"
       },
       {
-        "claim": "Died at about 105 and was buried secretly at his own request",
-        "witness": "Life of Antony 89-92; Jerome's Chronicle gives 356",
-        "formation_confidence": "Widely Accepted"
+        "claim": "Died at near a hundred and five, about 356, and was buried secretly at his own request",
+        "witness": "Life of Antony 89-92 (one hagiographic witness); the years 251 to 356 in Richardson's note to Jerome 88",
+        "formation_confidence": "Documented"
       },
       {
-        "claim": "Reading of Antony turned court officials, and Augustine, toward renouncing the world",
+        "claim": "Two court officials read the Life and resolved to serve God; hearing of Antony moved Augustine",
         "witness": "Augustine, Confessions VIII.6, 12",
         "formation_confidence": "Documented"
       }
@@ -198,12 +212,16 @@
       {
         "claim": "Whether Athanasius of Alexandria wrote the Life of Antony",
         "sides": "The long tradition and the balance of opinion give it to Athanasius; Robertson keeps the question open but judges the external evidence too strong to set the work aside as spurious; Weingarten and others attacked its authorship, and Gwatkin went so far as to pronounce that Antony 'never existed,' which Robertson calls far ahead of the evidence"
+      },
+      {
+        "claim": "Whether the Life's writer was himself Antony's attendant",
+        "sides": "The text Robertson prints makes the writer the attendant who \"poured water on his hands\"; Robertson notes that some Greek and Latin manuscripts make the attendant someone else, and that the text requires further sifting"
       }
     ],
     "absent_details": [
       {
         "detail": "Antony's own words",
-        "note": "His seven Coptic letters survive but are not held in this Library, so his voice cannot be checked here against the hagiographic Life"
+        "note": "Jerome says his seven Coptic letters were translated into Greek; none is held in this Library, so his voice cannot be checked here against the hagiographic Life"
       }
     ]
   },
@@ -216,12 +234,12 @@
       },
       {
         "claim": "Consecrated first bishop of Axum by Athanasius of Alexandria",
-        "witness": "Rufinus X.10 (from Edesius); confirmed independently by the emperor Constantius's letter in Athanasius, Apology to Constantius 31",
+        "witness": "Rufinus X.10 (from Edesius); independently, the emperor Constantius's letter in Athanasius, Apology to Constantius 31 (\"advanced to his present rank by Athanasius\"); Athanasius's own \"Bishop of Auxumis\" (Apology 29)",
         "formation_confidence": "Documented"
       },
       {
-        "claim": "Called Abba Salama, the Father of Peace, in the Ethiopian tradition",
-        "witness": "Hartranft (note to Sozomen II.24); Jackson (note to Theodoret I.23, from the Dictionary of Christian Biography)",
+        "claim": "Called the Abba Salama of Axum, meaning the Father of Peace",
+        "witness": "Hartranft (note to Sozomen II.24); the Dictionary of Christian Biography, quoted in Jackson's note to Theodoret I.23",
         "formation_confidence": "Widely Accepted"
       },
       {
@@ -231,14 +249,19 @@
       },
       {
         "claim": "Consecrated later, under Constantius",
-        "witness": "Valesius; Robertson (prolegomena to Athanasius)",
+        "witness": "Valesius (in Zenos's note to Socrates I.19); Robertson, following Gwatkin (prolegomena to Athanasius)",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Constantius tried to have Frumentius replaced by the Arian Theophilus, without success",
+        "witness": "Dictionary of Christian Biography, quoted in Jackson's note to Theodoret I.23 (not in Apology 31 itself)",
         "formation_confidence": "Dominant Modern Reconstruction"
       }
     ],
     "contested_claims": [
       {
         "claim": "When Frumentius was consecrated bishop of Axum",
-        "sides": "Rufinus places it soon after Athanasius became bishop, about 328; Valesius and Robertson place it later under Constantius, since the dates in the story and the emperor's letter fit a later year"
+        "sides": "Rufinus places it soon after Athanasius became bishop, in 328; Valesius, and Robertson following Gwatkin, place it later under Constantius, since the dates in the story and the emperor's letter fit a later year"
       }
     ],
     "absent_details": [
@@ -376,24 +399,24 @@
       },
       {
         "claim": "Would not restore former Arians to office, beginning the Luciferian schism",
-        "witness": "Socrates III.9; Fremantle's introduction",
+        "witness": "Socrates III.9; Fremantle's introduction to Jerome's Dialogue, quoting an unnamed source on the principle",
         "formation_confidence": "Documented"
       },
       {
         "claim": "Died about 370 or 371",
-        "witness": "Jerome's Chronicle (371), via Fremantle and Jackson; Richardson's note to Lives 95 gives 370",
+        "witness": "Jerome's Chronicle (371; not held), as reported by Fremantle and Jackson; Richardson's note to Lives 95 gives 370",
         "formation_confidence": "Widely Accepted"
       },
       {
         "claim": "How far Lucifer was truly a schismatic",
-        "witness": "Socrates III.9 (he kept the church's teaching); Ambrose and Augustine (schism), via Fremantle; Jerome (saintly, but blamed for the split)",
+        "witness": "J. Ll. Davies (Dictionary of Christian Biography, quoted by Jackson): obscure; Socrates III.9 (he kept the church's teaching); Ambrose and Augustine (schism), via Fremantle; Jerome (saintly, but blamed for the split)",
         "formation_confidence": "Contested"
       }
     ],
     "contested_claims": [
       {
         "claim": "Whether Lucifer was a true schismatic",
-        "sides": "Socrates says he kept to the church's teaching while his followers stayed apart, and Jerome calls him saintly though he blames him for the split; Ambrose and Augustine, as Fremantle reports, say he fell into schism"
+        "sides": "Socrates says he kept to the church's teaching while his followers stayed apart, and Jerome calls him saintly though he blames him for the split; Ambrose and Augustine, as Fremantle reports, say he fell into schism; J. Ll. Davies calls the extent obscure"
       }
     ],
     "absent_details": [
@@ -427,12 +450,12 @@
       },
       {
         "claim": "Died on Cyprus in his eightieth year, about 371",
-        "witness": "Jerome, Life of Hilarion 44-45; Sozomen (about 371, editor's reckoning)",
+        "witness": "Jerome, Life of Hilarion 44-45; Chester Hartranft's introduction to Sozomen (about 371)",
         "formation_confidence": "Widely Accepted"
       },
       {
-        "claim": "Cured Alaphion near Gaza, leading to the conversion of Alaphion's household and Sozomen's grandfather",
-        "witness": "Sozomen VI.32 (and his own family tradition)",
+        "claim": "Cured Alaphion near Gaza; it was said that Alaphion's household and Sozomen's grandfather were converted through Hilarion",
+        "witness": "Sozomen V.15 (\"It is said\"; his own family tradition)",
         "formation_confidence": "Documented"
       },
       {
@@ -445,7 +468,7 @@
     "absent_details": [
       {
         "detail": "Any writing in Hilarion's own words",
-        "note": "None is held; the Life is Jerome's and is openly hagiographic, and Sozomen draws partly on it"
+        "note": "None is held; the Life is Jerome's and is openly hagiographic, and Sozomen gives a separate notice"
       }
     ]
   }

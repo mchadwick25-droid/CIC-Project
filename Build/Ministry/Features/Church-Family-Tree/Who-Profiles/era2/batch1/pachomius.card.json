@@ -3,8 +3,8 @@
   "otherNames": [
     "Pachomius of Tabennisi"
   ],
-  "knownFor": "The Egyptian monk who founded communal monasticism, binding monks under a common rule in houses rather than scattered cells.",
-  "dates": "Born about 292, died 348 (the dates in the editor's note to Gennadius's chapter)",
+  "knownFor": "The Egyptian monk whom Gennadius of Marseilles calls \"founder of the Egyptian monasteries\", who bound monks to a common rule in shared houses.",
+  "dates": "Born about 292, died 348 (George Schodde; Ernest Cushing Richardson's note to Gennadius)",
   "place": "Tabennisi, in the Thebaid of Upper Egypt",
   "tradition": "Desert Monasticism (Pachomian)",
   "role": "Monk and founder of communal monasticism",
@@ -22,13 +22,14 @@
     ],
     "remembered": [
       "George Schodde, translating the Ethiopic rules in 1885, opens by calling Pachomius \"the father of monastic institutions.\"",
-      "Gennadius, in Jerome's On Illustrious Men, calls him \"a man endowed with apostolic grace both in teaching and in performing miracles.\""
+      "Gennadius of Marseilles, continuing Jerome's On Illustrious Men, calls him \"a man endowed with apostolic grace both in teaching and in performing miracles.\""
     ]
   },
   "uncertain": [
-    "Pachomius left no writing of his own that is held here. His life and rule reach us through Palladius, who wrote about 420, some forty years after Pachomius died, and through Sozomen, who follows Palladius.",
-    "Palladius and Sozomen both say an angel gave Pachomius the rule on a tablet. Lowther Clarke, who translated Palladius, reports that Ladeuze held the Greek Lives of Pachomius more reliable than the rule, thought the angel legendary, and took the lettered groups for Palladius's own invention. Butler disagreed and called Palladius's version \"probably the most authentic epitome.\"",
-    "The rule survives in several collections that differ from one another. George Schodde judged that the first part of the Ethiopic version reaches back \"almost to the days of Pachomius himself,\" while its later parts are of different and uncertain origin."
+    "No writing held here is certainly his own. George Schodde thinks the first part of the Ethiopic rules comes close to him: \"if not verbatim from his pen, are yet authentic enough.\" His life and rule otherwise reach us through Palladius of Helenopolis, who tells them as a holy man's story, and through Sozomen, who follows Palladius.",
+    "Palladius and Sozomen say an angel gave Pachomius the rule on a tablet, and Gennadius says the rule was \"received by angelic dictation.\" Lowther Clarke, who translated Palladius, reports that the scholar Ladeuze held the Greek Lives of Pachomius more reliable than the rule, thought the angel legendary, and took the lettered groups for Palladius's own invention. Butler, another scholar Clarke cites, did not accept Ladeuze's low view of Palladius's rule and called it \"probably the most authentic epitome.\"",
+    "Palladius places Pachomius's own house at Tabennisi. Clarke notes that the head house was by then Pabau, not Tabennisi.",
+    "The rule survives in several collections that differ from one another. Schodde says the first part of the Ethiopic version is the same as the Greek form, and judged it reaches back \"almost to the days of Pachomius himself,\" while its later parts are of different origin."
   ],
   "sources": {
     "ownWords": [
