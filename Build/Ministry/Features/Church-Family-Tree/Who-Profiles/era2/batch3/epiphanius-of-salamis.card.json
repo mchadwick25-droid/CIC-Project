@@ -1,0 +1,100 @@
+{
+  "name": "Epiphanius of Salamis",
+  "otherNames": [
+    "Epiphanius of Cyprus",
+    "Epiphanius, bishop of Constantia in Cyprus"
+  ],
+  "knownFor": "Bishop of Salamis in Cyprus, author of the Panarion against the heresies, and a leading accuser of Origen in the quarrels of the 390s and early 400s.",
+  "dates": "Born about 310, bishop about 368 or 369, died in 403 (Ernest Cushing Richardson's note to Jerome's Lives of Illustrious Men)",
+  "place": "Born at Besauduc near Eleutheropolis in Palestine; bishop at Salamis, also called Constantia, in Cyprus",
+  "tradition": "Palestinian / Cyprus",
+  "role": "Bishop and heresy-writer",
+  "briefLength": "about 2 and a half minutes",
+  "keyWorks": [
+    {
+      "title": "Panarion",
+      "about": "his book against the heresies, which Jerome calls \"Against all heresies\"; heresies 34 to 80 are held in Greek"
+    },
+    {
+      "title": "Ancoratus",
+      "about": "\"The Anchored\", which the monk Ammonius says in Sozomen's account he had read often; not held in the Library"
+    },
+    {
+      "title": "Letter to John, bishop of Jerusalem",
+      "about": "his defence of the ordination of Paulinian and his charges against Origen, held in Jerome's Latin version, in English"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "The Panarion's account of the heresies. It keeps writings of some of those it attacks, among them the propositions of Aetius of Antioch, quoted in heresy 76.",
+      "The condemnation of Origen's books in Cyprus, which Socrates of Constantinople and Sozomen say he decreed at a synod there."
+    ],
+    "remembered": [
+      "Sozomen calls him \"the most revered man under the whole heaven\", and says it was reported that demons were driven out and diseases healed at his tomb.",
+      "Jerome of Strido says his books were read by the learned for their matter, \"and also by the plain people, on account of their language.\"",
+      "Socrates of Constantinople says that \"on account of his extraordinary piety\" he was \"a man of simple mind and manners\", and that Theophilus of Alexandria used him."
+    ]
+  },
+  "uncertain": [
+    "Epiphanius wrote against the heresies as their enemy, and his reports of them are a foe's.",
+    "Socrates and Sozomen report his last words to John Chrysostom, and John's answer, as hearsay. Socrates says he cannot be sure his informants spoke the truth.",
+    "Theophilus of Alexandria once accused him of thinking that God has a human form, Socrates says. A. C. Zenos, in a note to his translation of Socrates, says Epiphanius himself rejected that view, on Jerome's testimony.",
+    "Theophilus's own judgment of him changed. The Dialogue on the life of Chrysostom, which Herbert Moore gives to Palladius, says Theophilus first called him \"a heretic, or a paltry schismatic\", and later \"a most holy saint\".",
+    "His dates are Richardson's reckoning. No held ancient source gives the year of his birth.",
+    "The Library holds the Panarion only from heresy 34 on, in Greek, and the Ancoratus not at all."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Panarion, heresies 34 to 64 (ed. Holl)",
+        "language": "Greek",
+        "file": "cic/texts/epiphanius_panarion-haer-34-64-gcs-bd2-grc_holl1922.txt"
+      },
+      {
+        "title": "Panarion, heresies 48 to 69 (ed. Oehler)",
+        "language": "Greek, with Petavius's Latin translation",
+        "file": "cic/texts/epiphanius_panarion-haer-48-69-corpus-haereseologicum-t2-pars-posterior-grc-lat_oehler1860.txt"
+      },
+      {
+        "title": "Panarion, heresies 65 to 80 (Patrologia Graeca 42)",
+        "language": "Greek",
+        "file": "cic/texts/epiphanius_panarion-haer-65-80-pg42-grc-lat_migne1863.txt"
+      },
+      {
+        "title": "Letter 51 in Jerome's letters, to John, bishop of Jerusalem (Jerome's Latin, tr. Fremantle, Lewis and Martley)",
+        "language": "English translation",
+        "file": "cic/texts/npnf206_jerome-principal-works.xml"
+      }
+    ],
+    "about": [
+      {
+        "title": "Ecclesiastical History, Book 6, chapters 10 to 14 (Socrates); Book 6, chapter 32, Book 7, chapter 27, and Book 8, chapters 14 and 15 (Sozomen)",
+        "author": "Socrates of Constantinople; Sozomen",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
+      },
+      {
+        "title": "Lives of Illustrious Men, chapter 114, with Richardson's note",
+        "author": "Jerome of Strido",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+      },
+      {
+        "title": "Letter 57, to Pammachius; Letter 66, to Pammachius",
+        "author": "Jerome of Strido",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf206_jerome-principal-works.xml"
+      },
+      {
+        "title": "The Dialogue Concerning the Life of Chrysostom (tr. Moore)",
+        "author": "Palladius of Helenopolis, as Herbert Moore identifies him",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/palladius_dialogue-life-of-chrysostom_moore1921.txt"
+      }
+    ]
+  }
+}

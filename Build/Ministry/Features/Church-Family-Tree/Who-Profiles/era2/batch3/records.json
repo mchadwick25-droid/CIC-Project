@@ -1,0 +1,730 @@
+{
+  "ammianus-marcellinus": {
+    "claims": [
+      {
+        "claim": "Calls himself 'a Greek by birth, and formerly a soldier'",
+        "witness": "Ammianus, Roman History XXXI.16.9",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Served on the staff of Ursicinus and in Julian's Persian campaign; wrote his history at Rome; a native of Antioch",
+        "witness": "Charles Duke Yonge, translator's preface, gathered from the history itself",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Not a Christian; held to the old Roman religion",
+        "witness": "Charles Duke Yonge, preface ('it is even uncertain whether he was a Christian or a Pagan; though the general belief is...'); Hefele calls him 'the heathen historian'",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "The contest of Damasus and Ursinus for the see of Rome came to blows, and 137 bodies were found in one day in the Basilica of Sicininus",
+        "witness": "Ammianus, Roman History XXVII.3.12-13 (one witness for the figure)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Mocked the luxury of the bishops of Rome and praised the abstinence and plain dress of priests in the provinces",
+        "witness": "Ammianus, Roman History XXVII.3.14-15",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Julian admitted the Christian sects to the palace and let them argue freely, judging that no wild beasts were so hostile to men as Christian sects to one another",
+        "witness": "Ammianus, Roman History XXII.5.3-4",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Called Julian's ban on Christian teachers of rhetoric and grammar 'a cruel action'",
+        "witness": "Ammianus, Roman History XXII.10.7",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Fire burst from the foundations and stopped Julian's rebuilding of the Temple at Jerusalem",
+        "witness": "Ammianus, Roman History XXIII.1.3; E. A. Abbott, quoted by Blomfield Jackson, accepts only that this was generally believed",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "The Christians might have protected Bishop George and his companions at Alexandria had they not also hated George",
+        "witness": "Ammianus, Roman History XXII.11.10 (his judgment)",
+        "formation_confidence": "Documented"
+      }
+    ],
+    "contested_claims": [
+      {
+        "claim": "What stopped Julian's rebuilding of the Temple at Jerusalem",
+        "sides": "Ammianus says 'fearful balls of fire burst forth' near the foundations and the work was laid aside. E. A. Abbott, quoted by Blomfield Jackson, judges Ammianus impartial but accepts only that the stop 'was generally believed' to be a supernatural fiery sign, and thinks it 'was probably stopped by a violent thunderstorm or thunderstorms'."
+      }
+    ],
+    "absent_details": [
+      {
+        "detail": "Years of his birth and death",
+        "note": "Yonge says they are not known. John Rolfe gives 330 to 400 without stating his ground."
+      },
+      {
+        "detail": "The year of the Damasus and Ursinus riot in Ammianus's own text",
+        "note": "The passage gives none. Yonge's running head places it in 367."
+      },
+      {
+        "detail": "The Latin text of the history",
+        "note": "Not held. The Library has Yonge's 1862 English from an uncorrected scan."
+      }
+    ]
+  },
+  "martin-of-tours": {
+    "claims": [
+      {
+        "claim": "Born at Sabaria in Pannonia to pagan parents and raised at Ticinum in Italy",
+        "witness": "Sulpicius Severus, Life of Martin 2; Gregory of Tours, History of the Franks I.36 (Sabaria)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "As a soldier, cut his cloak in two at the gate of the city of the Ambiani and gave half to a naked beggar; saw Christ wearing it that night",
+        "witness": "Sulpicius Severus, Life of Martin 3 (one witness, a disciple's hagiography; Roberts: the city 'is supposed to be the modern Amiens')",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Asked Julian Caesar for discharge before a battle: 'I am the soldier of Christ: it is not lawful for me to fight'",
+        "witness": "Sulpicius Severus, Life of Martin 4 (one witness, hagiographic)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Joined Hilary of Poitiers, who made him an exorcist; was publicly scourged in Illyria for opposing the Arians; was expelled from Milan by Auxentius; founded a monastery near Poitiers",
+        "witness": "Sulpicius Severus, Life of Martin 5-7 (one witness); Edgar Gibson, prolegomena to Cassian (Ligugé shortly after 360)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Chosen bishop of Tours by the people over the objection of some bishops that he was contemptible in looks, dress and hair",
+        "witness": "Sulpicius Severus, Life of Martin 9 (one witness)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Lived as a monk in a monastery two miles outside Tours with eighty disciples who held all things in common",
+        "witness": "Sulpicius Severus, Life of Martin 10; Edgar Gibson (Marmoutier, after 371)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "At Trier urged Ithacius to drop the accusation against Priscillian and Maximus not to shed blood, holding it 'a foul and unheard-of indignity' for a secular ruler to judge a church cause; the hearing was put off while he was at Trier, and Priscillian was executed after he left",
+        "witness": "Sulpicius Severus, Chronicle II.50-51 (English, Roberts; Latin, Halm); a disciple's account, hostile to Ithacius",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Took communion once with the party of Ithacius to save condemned men, regretted it, and never again attended a synod",
+        "witness": "Sulpicius Severus, Dialogue III.11-13, told by one of Martin's monks (one witness)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Fell ill on a peacemaking visit and died at Candes in the eighty-first year of his life and the twenty-sixth of his episcopate, in 397",
+        "witness": "Sulpicius Severus, Letter III (illness; not present at the death); Gregory of Tours, History of the Franks I.48 (Candes, age, episcopate); Ernest Brehaut's note (397)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Wept and prayed, 'O Lord, if I am still necessary to thy people, I do not shrink from toil: thy will be done'",
+        "witness": "Sulpicius Severus, Letter III ('is said to have'; Sulpicius tells it from those present)",
+        "formation_confidence": "Documented"
+      }
+    ],
+    "contested_claims": [
+      {
+        "claim": "The worth of the Life of Martin as history",
+        "sides": "Sulpicius Severus swears he wrote nothing without 'certain knowledge and evidence'. Smith's Dictionary, quoted by Alexander Roberts, calls it 'filled with the most puerile fables'. Roberts finds it 'extremely difficult to decide as to the real value of his narrative', grants that many stories are fables, and leaves the rest 'to the judgment of the reader'."
+      }
+    ],
+    "absent_details": [
+      {
+        "detail": "Any writing of Martin's own",
+        "note": "None is held. His words survive only as Sulpicius Severus and Gregory of Tours report them."
+      },
+      {
+        "detail": "Years of Martin's birth, conversion and consecration from a contemporary",
+        "note": "Sulpicius gives ages but no years. The years held come from Gregory of Tours, about two centuries later, and Ernest Brehaut's note."
+      },
+      {
+        "detail": "The name of the monastery near Poitiers in Sulpicius",
+        "note": "Sulpicius says only 'not far from the town'. The name Ligugé is Edgar Gibson's."
+      }
+    ]
+  },
+  "didymus-the-blind": {
+    "claims": [
+      {
+        "claim": "Antony, in Alexandria to support Athanasius against the Arians, asked Didymus whether he grieved for his eyes and told him not to grieve for a faculty shared with small creatures",
+        "witness": "Jerome, Letter 68.2 (an incident he places in his childhood); Socrates IV.25 (\"It is said\"); Sozomen III.15 (\"It is related\"); Rufinus, Church History XI.7",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Lost his sight at the age of four and never learned to read or went to school",
+        "witness": "Palladius, Lausiac History 4.1 (what Didymus told him); Socrates IV.25 and Sozomen III.15 (blind from early childhood)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Palladius visited him four times over ten years; he died aged 85",
+        "witness": "Palladius, Lausiac History 4.1 (one witness, first-hand)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Learned by listening while others read, and went over it again at night while the readers slept",
+        "witness": "Rufinus, Church History XI.7 (Rufinus heard him speak)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Was said to have learned the alphabet from engraved tablets felt with his fingers",
+        "witness": "Sozomen III.15 (\"It is said\")",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Became teacher of the church's school at Alexandria, approved by Athanasius",
+        "witness": "Rufinus, Church History XI.7 (\"scholae ecclesiasticae doctor\"); Sozomen III.15 (\"president of the school of sacred learning in Alexandria\")",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Defended the Nicene faith against the Arians",
+        "witness": "Socrates IV.25 (\"the great bulwark of the true faith\"); Sozomen III.15",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Wrote commentaries on Origen's First Principles, praising Origen",
+        "witness": "Socrates IV.25 (one witness; the commentaries are not held)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Jerome put his book on the Holy Spirit into Latin",
+        "witness": "Jerome, Lives of Illustrious Men 109",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Jerome studied with him at Alexandria and defended having called him master",
+        "witness": "Jerome, Letter 84.3",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The emperor Justinian condemned Origen, Didymus and Evagrius",
+        "witness": "Evagrius Scholasticus, Ecclesiastical History IV.38-39 (a sixth-century historian)",
+        "formation_confidence": "Documented"
+      }
+    ],
+    "contested_claims": [],
+    "absent_details": [
+      {
+        "detail": "Exact years of birth and death",
+        "note": "No ancient witness held gives them. Palladius gives his age at death (85) and Jerome his age while living (past 83); Richardson's and Jackson's notes give different modern reckonings."
+      },
+      {
+        "detail": "The year of the condemnation under Justinian",
+        "note": "The held passage of Evagrius Scholasticus gives none."
+      },
+      {
+        "detail": "Didymus's commentaries on Origen's First Principles",
+        "note": "Known only from Socrates' report; not held."
+      }
+    ]
+  },
+  "evagrius-ponticus": {
+    "claims": [
+      {
+        "claim": "As a deacon honoured in Constantinople he loved a woman of high rank; a vision of arrest and an oath on the gospel made him leave the city for Jerusalem",
+        "witness": "Palladius, Lausiac History 38.3-7 (as Evagrius told it to him); Sozomen VI.30 (the dream and the oath)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Came from Ibora in Pontus, son of a country bishop",
+        "witness": "Palladius, Lausiac History 38.2; Sozomen VI.30 (\"a citizen of Iberia, near the Euxine\")",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Made reader by Basil of Caesarea and deacon by Gregory of Nazianzus; left with Nectarius at the council of Constantinople in 381 as a skilled debater",
+        "witness": "Palladius, Lausiac History 38.2 (Clarke's note gives 381); Socrates IV.23 and Sozomen VI.30 (Gregory)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Nursed by Melania the Elder in Jerusalem through a six-month illness, after which he promised to become a monk",
+        "witness": "Palladius, Lausiac History 38.8-9 (one witness)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Lived two years at Nitria and fourteen at Cellia, on bread and oil, earning his food as a copyist",
+        "witness": "Palladius, Lausiac History 38.10 (one witness)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Wrote of eight kinds of tempting thought and called acedia the noonday demon",
+        "witness": "Evagrius, Praktikos 6 and 12 (tr. Dysinger); Socrates IV.23 (the Antirrheticus in eight parts)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Was the first, or among the first, to teach the eight principal sins",
+        "witness": "Gennadius, Lives of Illustrious Men 11 (his own hedge)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Warned against defining God: \"Let then what is inexplicable be adored in silence\"",
+        "witness": "Socrates III.7, quoting Evagrius's Monachicus",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Jerome attacked his teaching on freedom from passion and ranked him with the heretics",
+        "witness": "Jerome, Letter 133.3 (415, hostile)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Died at fifty-four, after communion at Epiphany",
+        "witness": "Palladius, Lausiac History 38.1 and 38.13 (Clarke's note: Palladius was present, at Cellia, in 399 or 400)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "His works were later suppressed for their Origenist tendency",
+        "witness": "W. K. Lowther Clarke, note 255 to Palladius 38; Evagrius Scholasticus IV.38-39 (Justinian condemned Origen, Didymus and Evagrius)",
+        "formation_confidence": "Widely Accepted"
+      }
+    ],
+    "contested_claims": [
+      {
+        "claim": "Where Evagrius went after leaving Constantinople",
+        "sides": "Palladius, Lausiac History 38.7-10: to Jerusalem, where Melania the Elder took him in, then to Nitria and Cellia; Sozomen VI.30: to Jerusalem, then Scetis; Socrates IV.23: with Gregory of Nazianzus into Egypt"
+      }
+    ],
+    "absent_details": [
+      {
+        "detail": "Which Evagrius Justinian condemned",
+        "note": "Evagrius Scholasticus names only \"Evagrius\", with Origen and Didymus, in a dispute over Origen. The identification with Evagrius Ponticus is a reading of the passage, supported by Clarke's note on the suppression of his works, and is Inferential-Thin as a statement of Evagrius Scholasticus."
+      },
+      {
+        "detail": "The year of the condemnation",
+        "note": "The held passage of Evagrius Scholasticus gives none."
+      },
+      {
+        "detail": "John Cassian's debt to him",
+        "note": "No held source states it, so the brief does not claim it."
+      }
+    ]
+  },
+  "fabiola-of-rome": {
+    "claims": [
+      {
+        "claim": "Left her first husband for grave faults and married again while he lived; Jerome defends the separation and calls the remarriage a fault, perhaps one of necessity",
+        "witness": "Jerome, Letter 77.3 (one witness, a friend's eulogy)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "After her second husband's death did public penance in the basilica of Lateranus at Rome before bishop, presbyters and people",
+        "witness": "Jerome, Letter 77.4 (one witness)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Sold her large property for the poor and founded a hospital where she nursed the sick herself",
+        "witness": "Jerome, Letter 77.6 (one witness; 'the first person to found a hospital' is his praise)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Supported monasteries on the islands and along the Etruscan and Volscian coasts",
+        "witness": "Jerome, Letter 77.6",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "With Pammachius bought a house at Portus as a home for strangers",
+        "witness": "Jerome, Letter 77.10",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Sailed to Jerusalem against her friends' advice, stayed with Jerome and studied Scripture with him, and returned to Rome when the Huns threatened",
+        "witness": "Jerome, Letter 77.7-8; Letter 64 heading in Fremantle's edition (Bethlehem); Fremantle's chronology (395)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Jerome wrote for her a letter on the high priest's vestments and, after her death, a study of the halting-places in Numbers",
+        "witness": "Jerome, Letter 77.7 and 77.12; Letters 64 and 78",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Died at Rome, about 399, with a great public funeral",
+        "witness": "Jerome, Letter 77.11 (the funeral); W. H. Fremantle's edition (399)",
+        "formation_confidence": "Widely Accepted"
+      }
+    ],
+    "contested_claims": [
+      {
+        "claim": "Whether the remarried woman in Jerome's Letter 55 is Fabiola",
+        "sides": "Thierry, as the edition reports, supposed so, and the edition's heading to Letter 77 points to Letter 55 for her story. The question in Letter 55, as the edition gives it, names only 'a sister'."
+      }
+    ],
+    "absent_details": [
+      {
+        "detail": "Any writing in Fabiola's own words",
+        "note": "None is held. Her life is known from Jerome, a friend writing in praise."
+      },
+      {
+        "detail": "The year and place of her hospital",
+        "note": "Jerome gives neither. The edition's heading places it at Portus; Jerome's letter tells the Portus house separately."
+      },
+      {
+        "detail": "Her family and the names of her husbands",
+        "note": "Jerome alludes to the Fabian line and names neither husband."
+      }
+    ]
+  },
+  "epiphanius-of-salamis": {
+    "claims": [
+      {
+        "claim": "Had Paulinian seized and gagged in a village church and ordained him deacon and then presbyter against his will",
+        "witness": "Epiphanius, letter to John of Jerusalem (Jerome, Letter 51.1, in Jerome's Latin; his own account)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Paulinian was Jerome's brother",
+        "witness": "Jerome, Letter 66 (\"my brother Paulinian\")",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Jerome translated the letter into Latin, at the request of Eusebius of Cremona",
+        "witness": "Jerome, Letter 57.2",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Born at Besauduc near Eleutheropolis; trained under monks, mostly in Egypt; chosen bishop of the chief city of Cyprus",
+        "witness": "Sozomen VI.32 (one witness)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Born about 310, bishop about 368-369, died 403",
+        "witness": "Ernest Cushing Richardson's note to Jerome, Lives 114 (npnf203)",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Wrote books against all heresies, read by the learned and by plain people",
+        "witness": "Jerome, Lives of Illustrious Men 114; the Panarion itself (Holl, Oehler, Migne)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Charged Origen with teaching that souls fell from heaven into bodies and that the devil would be restored",
+        "witness": "Epiphanius, letter to John of Jerusalem (Jerome, Letter 51.4)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Long opposed Origen's writings; called a synod in Cyprus that forbade reading them",
+        "witness": "Socrates VI.10; Sozomen VIII.14",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Theophilus of Alexandria drew him into the move against John Chrysostom",
+        "witness": "Socrates VI.10; Sozomen VIII.14",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Refused to stay or pray with John Chrysostom unless he condemned Origen's books and expelled Dioscorus and his brothers",
+        "witness": "Socrates VI.14; Sozomen VIII.14",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Admitted to Ammonius, one of the Long Brothers, that he had not read their works and had judged them by reports",
+        "witness": "Sozomen VIII.15 (one witness)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "His last exchange with John Chrysostom",
+        "witness": "Socrates VI.14 (\"Some say\"; he cannot vouch for it); Sozomen VIII.15 (\"I have been informed by several persons\")",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Died at sea on the voyage back to Cyprus",
+        "witness": "Socrates VI.14; Sozomen VIII.15",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Healings and exorcisms were reported at his tomb",
+        "witness": "Sozomen VII.27 (\"it was said\")",
+        "formation_confidence": "Documented"
+      }
+    ],
+    "contested_claims": [
+      {
+        "claim": "Whether the last exchange between Epiphanius and John Chrysostom happened as told",
+        "sides": [
+          {
+            "position": "Reported: Epiphanius hoped John would not die a bishop, and John that Epiphanius would not reach home",
+            "witness": "Socrates VI.14 and Sozomen VIII.15, each from unnamed informants"
+          },
+          {
+            "position": "Unverified",
+            "witness": "Socrates VI.14: \"I cannot be sure that those who reported these things to me spoke the truth\""
+          }
+        ]
+      },
+      {
+        "claim": "Whether Epiphanius held that God has a human form",
+        "sides": [
+          {
+            "position": "Theophilus of Alexandria accused him of it",
+            "witness": "Socrates VI.10; Sozomen VIII.14"
+          },
+          {
+            "position": "He rejected that view",
+            "witness": "A. C. Zenos's note to Socrates VI.10, on Jerome's testimony (npnf202)"
+          }
+        ]
+      }
+    ],
+    "absent_details": [
+      {
+        "detail": "Panarion heresies 1 to 33 and the Ancoratus",
+        "note": "Not held in the Library; the Ancoratus is known here only by its title in Sozomen VIII.15"
+      },
+      {
+        "detail": "An English translation of the Panarion",
+        "note": "None is held; the brief quotes Epiphanius only from his letter to John of Jerusalem, in Jerome's Latin as translated into English"
+      },
+      {
+        "detail": "His birth year from an ancient source",
+        "note": "None is held; the year is Richardson's reckoning"
+      }
+    ]
+  },
+  "olympias-of-constantinople": {
+    "claims": [
+      {
+        "claim": "Daughter of Seleucus the ex-count and granddaughter of Ablavius the ex-prefect; married Nebridius, ex-prefect of the city, and was soon widowed",
+        "witness": "Palladius, Lausiac History 56; the Dialogue on the life of Chrysostom (Moore, p. 150-151)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Theodosius tried to marry her to his kinsman Elpidius, held her property in trust until her thirtieth year when she refused, and later restored it",
+        "witness": "The Dialogue on the life of Chrysostom (Moore, p. 151-152; one witness, a partisan of John)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Ordained deaconess by Nectarius, though widowed young",
+        "witness": "Sozomen VIII.9",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Gave to anyone who asked; John Chrysostom told her to distribute her wealth with economy",
+        "witness": "Sozomen VIII.9",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Instructed many women and was counted among the confessors at Constantinople",
+        "witness": "Palladius, Lausiac History 56",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Gave land and money to bishops, among them Nectarius, Amphilochius, Optimus and Epiphanius of Salamis",
+        "witness": "The Dialogue on the life of Chrysostom (Moore, p. 152; one witness)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Tried before the prefect for the cathedral fire after John's exile; the charge was not proved; refused communion with Arsacius; was fined and left for Cyzicus",
+        "witness": "Sozomen VIII.24 (one witness for the trial)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Seventeen of John Chrysostom's surviving letters are addressed to her",
+        "witness": "The letters themselves (npnf109; PG 52); W. R. W. Stephens's introduction; Herbert Moore's note to the Dialogue",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Born about 368",
+        "witness": "W. R. W. Stephens's introduction to the Letters to Olympias (npnf109)",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Died between 408 and 420",
+        "witness": "Philip Schaff's Prolegomena (npnf109)",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "The Dialogue on the life of Chrysostom is by Palladius",
+        "witness": "Herbert Moore's introduction to his translation; the work names no author",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      }
+    ],
+    "contested_claims": [
+      {
+        "claim": "Who set the cathedral fire at Constantinople on the day of John's exile, 404",
+        "sides": [
+          {
+            "position": "Some of John's followers set it",
+            "witness": "Socrates of Constantinople VI.18"
+          },
+          {
+            "position": "Each side blamed the other; the charge against Olympias was not proved",
+            "witness": "Sozomen VIII.22, VIII.24"
+          }
+        ]
+      },
+      {
+        "claim": "How long her marriage lasted",
+        "sides": [
+          {
+            "position": "A few days",
+            "witness": "Palladius, Lausiac History 56 (\"bride for a few days\")"
+          },
+          {
+            "position": "Under twenty months",
+            "witness": "The Dialogue on the life of Chrysostom (\"even for twenty months\")"
+          },
+          {
+            "position": "About two years",
+            "witness": "W. R. W. Stephens's introduction (npnf109)"
+          }
+        ]
+      }
+    ],
+    "absent_details": [
+      {
+        "detail": "Any writing in Olympias's own words",
+        "note": "None is held; her answers to the emperor and the prefect are reported by the Dialogue and by Sozomen"
+      },
+      {
+        "detail": "The place and year of her death",
+        "note": "No held source gives them; Stephens says nothing definite is known of her later life, and Schaff gives a range"
+      },
+      {
+        "detail": "A place-form of her name in a held source",
+        "note": "The display name 'Olympias of Constantinople' follows the Dialogue, where she is 'The deaconess of Constantinople' and the speaker notes 'There are several ladies of that name'; no held source writes 'Olympias of Constantinople'"
+      }
+    ]
+  },
+  "melania-the-elder": {
+    "claims": [
+      {
+        "claim": "When her husband died, two of her sons died at once; she shed no tear, thanked Christ, gave all to her only son and sailed for Jerusalem",
+        "witness": "Jerome, Letter 39.4 (one witness, a letter of consolation)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Spanish by origin, of Rome; widowed at twenty-two; sailed to Alexandria in the reign of Valens",
+        "witness": "Palladius, Lausiac History 46.1",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Daughter of the consul Marcellinus",
+        "witness": "Palladius, Lausiac History 46.1; Jerome, Chronicle (\"Marcellini quondam consulis filia\"); against them Rufinus, Apology II.26 (granddaughter)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Spent half a year with the monks of Nitria; followed the exiled fathers to Palestine, fed them dressed as a slave, and faced down the governor who imprisoned her",
+        "witness": "Palladius, Lausiac History 46.2-4 (from the exiles themselves)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Founded a monastery in Jerusalem and led fifty virgins there for twenty-seven years, with Rufinus of Aquileia living there",
+        "witness": "Palladius, Lausiac History 46.5",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "With Rufinus she received pilgrims and reconciled the schism of Paulinus, some 400 monks",
+        "witness": "Palladius, Lausiac History 46.6 (one witness)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Nursed Evagrius Ponticus in Jerusalem and made him promise to become a monk",
+        "witness": "Palladius, Lausiac History 38.8-9 (one witness)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Received the name of Thecla for her humility",
+        "witness": "Jerome, Chronicle (Fotheringham's edition)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Jerome erased her name from his Chronicle",
+        "witness": "Rufinus, Apology II.26 (her companion, writing against Jerome); Fotheringham's apparatus accepts it, citing Rufinus",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Jerome later attacked her as one 'whose name bears witness to the blackness of her perfidy'",
+        "witness": "Jerome, Letter 133.3 (415, hostile); the identification with Melania is the note in Fremantle's edition",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "At sixty sailed back to Rome, led her granddaughter Melania, Pinianus, Albina and others to sell their goods, then returned to Jerusalem and died within forty days",
+        "witness": "Palladius, Lausiac History 54.3-6",
+        "formation_confidence": "Documented"
+      }
+    ],
+    "contested_claims": [
+      {
+        "claim": "Melania's father",
+        "sides": "Palladius, Lausiac History 46.1, and Jerome's Chronicle: the daughter of the consul Marcellinus; Rufinus, Apology II.26: his granddaughter (Clarke's note 287 reports Rufinus)"
+      }
+    ],
+    "absent_details": [
+      {
+        "detail": "The years of her birth and death",
+        "note": "No held source gives them. Palladius gives her age at widowhood (22) and on her return to Rome (60); Fremantle dates the arrival in Italy to 397; Clarke reports Butler's 398."
+      },
+      {
+        "detail": "Her husband's name",
+        "note": "Palladius says he does not quite remember it; no held source gives it."
+      },
+      {
+        "detail": "Any writing of her own",
+        "note": "None is held. Her words come through Jerome and Palladius."
+      },
+      {
+        "detail": "Paulinus of Nola's Letter 29",
+        "note": "Clarke calls it, with Palladius, the chief source on Melania. It is not held in the Library."
+      }
+    ]
+  },
+  "marcella-of-rome": {
+    "claims": [
+      {
+        "claim": "Widowed before seven months of marriage; refused the old consular Cerealis",
+        "witness": "Jerome, Letter 127.2 (one witness, a friend's memorial)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Heard of Antony and the Pachomian monasteries from Alexandrian clergy, Athanasius among them, who fled to Rome; was the first highborn lady at Rome to profess the monastic life openly",
+        "witness": "Jerome, Letter 127.5 (one witness)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Eustochium was trained in her cell; Paula was her friend",
+        "witness": "Jerome, Letter 127.5",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Questioned Jerome on Scripture while he was at Rome; after he left, disputes on Scripture were referred to her, and she gave her answers as from others",
+        "witness": "Jerome, Letter 127.7; seventeen letters of Jerome to Marcella (npnf206)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Opposed the Origenists at Rome in public and began their condemnation there",
+        "witness": "Jerome, Letter 127.9-10 (one witness, a party to the quarrel, who admits he may be thought rancorous)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The Latin version of Origen's First Principles at issue was Rufinus of Aquileia's",
+        "witness": "Notes to Letter 127 in W. H. Fremantle's English edition of Jerome (npnf206); Jerome's letter does not name Rufinus",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Scourged and beaten by soldiers who entered her house when Rome was taken, and died a few days later in Principia's arms",
+        "witness": "Jerome, Letter 127.13-14 (one witness, at second hand from 'holy men' present; much of it as what 'is said')",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Rome was taken in 410",
+        "witness": "Notes to Letter 127 in W. H. Fremantle's edition; A. C. Zenos's note to Socrates VII.7 (npnf202)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Lived on the Aventine",
+        "witness": "Jerome, Letter 47.3",
+        "formation_confidence": "Documented"
+      }
+    ],
+    "contested_claims": [],
+    "absent_details": [
+      {
+        "detail": "Any writing in Marcella's own words",
+        "note": "None is held; her sayings come only inside Jerome's letters"
+      },
+      {
+        "detail": "Her birth year and age at death",
+        "note": "No held source gives either; Jerome calls her an old woman at the sack"
+      },
+      {
+        "detail": "An account of Marcella from the side of the Roman Origenists she opposed",
+        "note": "None is held"
+      }
+    ]
+  }
+}

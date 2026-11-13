@@ -1,0 +1,102 @@
+{
+  "name": "Evagrius Ponticus",
+  "otherNames": [
+    "Evagrius of Ibora",
+    "Evagrius the Monk (in the Philokalia)"
+  ],
+  "knownFor": "A deacon of Constantinople who became a monk of the Egyptian desert, and wrote of the eight tempting thoughts and of prayer.",
+  "dates": "About 345 to 399 or 400. Palladius says he died at fifty-four. Ernest Cushing Richardson's note to Gennadius gives 345 to 399; W. K. Lowther Clarke's note to Palladius puts the death in 399 or 400.",
+  "place": "Ibora in Pontus; Constantinople; Nitria and Cellia in Egypt",
+  "tradition": "Desert Monasticism",
+  "role": "Monk and writer on the ascetic life",
+  "briefLength": "about 2 minutes 30 seconds",
+  "keyWorks": [
+    {
+      "title": "Praktikos",
+      "about": "a hundred short chapters on the ascetic life, the eight tempting thoughts and freedom from passion (held in Luke Dysinger's English)"
+    },
+    {
+      "title": "Antirrhetikos",
+      "about": "verses of Scripture set against each tempting thought, in eight parts, as Socrates describes it; Gennadius of Marseilles put it into Latin; not held"
+    },
+    {
+      "title": "The Gnostic",
+      "about": "fifty chapters for the learned, which Socrates quotes; not held"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Gennadius of Marseilles says he was the first, \"or among the first at least\", to teach the eight principal sins, and translated his work against them into Latin.",
+      "Palladius of Helenopolis, author of the Lausiac History, was his disciple, as Socrates of Constantinople says.",
+      "The Philokalia, the Greek collection on prayer compiled by Macarius of Corinth and Nikodemos the Hagiorite, lists works of his in its contents under the name of Evagrius the Monk."
+    ],
+    "remembered": [
+      "Socrates of Constantinople copied passages from his books and wrote, \"Whoever shall read these productions will be convinced of their excellence.\"",
+      "Jerome of Strido, writing in 415 against Pelagius, ranked him with the heretics and said his teaching on freedom from passion makes the mind \"either a stone or a God.\"",
+      "Evagrius Scholasticus, writing in the sixth century, reports that the emperor Justinian condemned Origen, Didymus and Evagrius."
+    ]
+  },
+  "uncertain": [
+    "His life is known mainly from his disciple Palladius, who writes in praise of him and tells it as he heard it from Evagrius himself.",
+    "The route from Constantinople differs. Palladius and Sozomen take him to Jerusalem first. Socrates of Constantinople says he went with Gregory of Nazianzus into Egypt.",
+    "Sozomen says the woman's husband plotted his death. Palladius says only that Evagrius imagined her husband had acted.",
+    "W. K. Lowther Clarke, who translated Palladius, notes that most of his works survive only in fragments in Greek and Latin, \"having been suppressed for their Origenistic tendency,\" and that the chapter on him is missing from some copies of Palladius.",
+    "Evagrius Scholasticus names an \"Evagrius\" with Origen and Didymus in a dispute over Origen's teaching. He does not say which Evagrius. That it is this one is a reading of the passage, not his statement."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "The Praktikos (tr. Luke Dysinger, from the Guide to Evagrius Ponticus, CC BY 4.0)",
+        "language": "English translation",
+        "file": "cic/texts/evagrius_praktikos_dysinger.txt"
+      },
+      {
+        "title": "Passages of The Monk, The Practice and The Gnostic, quoted in Socrates, Ecclesiastical History, Book 3, chapter 7, and Book 4, chapter 23",
+        "language": "English translation",
+        "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
+      },
+      {
+        "title": "Philokalia, volume 1 (ed. Tzelatis, 1893), works listed under the name of Evagrius the Monk",
+        "language": "Greek",
+        "file": "cic/texts/philokalia_ton-ieron-neptikon-v1-grc_tzelatis1893.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "The Lausiac History, chapter 38 (tr. W. K. Lowther Clarke)",
+        "author": "Palladius of Helenopolis",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/palladius_lausiac-history_clarke1918.txt"
+      },
+      {
+        "title": "Ecclesiastical History, Book 4, chapter 23 (Socrates); Book 6, chapter 30 (Sozomen)",
+        "author": "Socrates of Constantinople; Sozomen",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
+      },
+      {
+        "title": "Lives of Illustrious Men, chapter 11 (tr. Ernest Cushing Richardson)",
+        "author": "Gennadius of Marseilles",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+      },
+      {
+        "title": "Letter 133, to Ctesiphon (tr. Fremantle, Lewis and Martley)",
+        "author": "Jerome of Strido",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf206_jerome-principal-works.xml"
+      },
+      {
+        "title": "Ecclesiastical History, Book 4, chapters 38 and 39 (tr. Walford)",
+        "author": "Evagrius Scholasticus",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/evagrius-scholasticus_ecclesiastical-history_walford1846.txt"
+      }
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "name": "Melania the Elder",
+  "otherNames": [
+    "Melanium (in Jerome's letters)"
+  ],
+  "knownFor": "A Roman widow who fed the exiled monks of Egypt, founded a monastery in Jerusalem beside Rufinus of Aquileia, and took in the young Evagrius Ponticus.",
+  "dates": "Widowed at twenty-two, and back in Rome at sixty, by Palladius's account. W. H. Fremantle, in his life of Rufinus, has her reach Italy with Rufinus in the spring of 397. No held source gives the year she died.",
+  "place": "Rome; Nitria in Egypt; Jerusalem",
+  "tradition": "Jerusalem Liturgical-Pilgrimage Christianity",
+  "role": "Founder and head of a women's monastery in Jerusalem",
+  "briefLength": "about 2 minutes",
+  "legacy": {
+    "traces": [
+      "A monastery in Jerusalem, which Palladius says she led for twenty-seven years, with fifty women, and left with \"an endowment for it.\"",
+      "The monastic life of Evagrius Ponticus, whom she nursed in Jerusalem and made promise to become a monk, as Palladius tells it.",
+      "The renunciation of her granddaughter Melania the Younger and her husband Pinianus, whom Palladius says she strengthened in Rome and led out to the monastic life."
+    ],
+    "remembered": [
+      "Jerome's Chronicle says her virtues, above all her humility, earned her the name of Thecla.",
+      "Jerome, leaving Rome in 385, named \"Paula and Melanium\" as the only ladies of Rome whose renunciation caused scandal.",
+      "Jerome, after the quarrel, wrote of \"her whose name bears witness to the blackness of her perfidy\"; the notes to W. H. Fremantle's edition read it as a pun on her name, which means black.",
+      "Palladius of Helenopolis calls her \"the thrice-blessed Melania\"."
+    ]
+  },
+  "uncertain": [
+    "Her friends and her critic tell her story. Palladius admired her. Rufinus of Aquileia was her companion and wrote against Jerome. Jerome praised her in his early letters and attacked her after the quarrel over Origen.",
+    "Her father is not agreed. Palladius and Jerome's Chronicle call her the daughter of the consul Marcellinus. Rufinus says she was his granddaughter.",
+    "Rufinus says Jerome erased her name from every copy of his Chronicle because she disapproved of some of his deeds. John Fotheringham's edition of the Chronicle notes the entry as erased by Jerome from his own copies, citing Rufinus.",
+    "Her sons are told differently. Jerome says two sons died with her husband and she gave all to \"her only son.\" Palladius calls him her only son, and W. K. Lowther Clarke notes that she had two other sons.",
+    "Palladius places her monastery \"in Jerusalem\". The notes to W. H. Fremantle's edition of Jerome place her with Rufinus on the Mount of Olives.",
+    "Chapter 55 of the Lausiac History is headed for Silvania, a virgin travelling with Palladius. W. K. Lowther Clarke's notes report that Turner and Butler read it as a continuation of the chapter on Melania, and take Palladius's \"we\" as Palladius and Melania. In it a woman reads the old commentators seven or eight times over. Clarke notes that the mention of Origen there is missing in the leading witnesses to the text."
+  ],
+  "sources": {
+    "about": [
+      {
+        "title": "The Lausiac History, chapters 38, 46 and 54 to 55 (tr. W. K. Lowther Clarke)",
+        "author": "Palladius of Helenopolis",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/palladius_lausiac-history_clarke1918.txt"
+      },
+      {
+        "title": "Letters 39, 45 and 133 (tr. Fremantle, Lewis and Martley)",
+        "author": "Jerome of Strido",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf206_jerome-principal-works.xml"
+      },
+      {
+        "title": "Chronicle, the entry on Melania (ed. Fotheringham)",
+        "author": "Jerome of Strido",
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/jerome_eusebii-chronici-canones-lat_fotheringham1923.txt"
+      },
+      {
+        "title": "Apology against Jerome, Book 2, chapter 26 (tr. W. H. Fremantle)",
+        "author": "Rufinus of Aquileia",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+      }
+    ]
+  }
+}

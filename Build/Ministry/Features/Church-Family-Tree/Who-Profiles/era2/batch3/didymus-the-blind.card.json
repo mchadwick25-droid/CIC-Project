@@ -1,0 +1,97 @@
+{
+  "name": "Didymus the Blind",
+  "otherNames": [
+    "Didymus of Alexandria"
+  ],
+  "knownFor": "A blind teacher of the church's school at Alexandria, who answered the Arians, admired Origen, and taught Jerome of Strido and Rufinus of Aquileia.",
+  "dates": "Died aged 85, by Palladius's account. Jerome, writing his Lives of Illustrious Men, says he was still living and \"has already passed his eighty-third year.\"",
+  "place": "Alexandria",
+  "tradition": "Alexandrian Catechetical / Christian-Platonist Tradition",
+  "role": "Teacher and biblical commentator",
+  "briefLength": "about 2 minutes",
+  "keyWorks": [
+    {
+      "title": "On the Trinity, three books",
+      "about": "Socrates names three books on the Trinity; the Library holds the Greek text Mingarelli printed in 1769 from one manuscript, as Didymus's"
+    },
+    {
+      "title": "On the Holy Spirit",
+      "about": "which Jerome of Strido says he translated into Latin; Jerome's Latin is not held in this Library"
+    },
+    {
+      "title": "Commentaries on Origen's First Principles",
+      "about": "which Socrates says defended Origen; not held"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Rufinus of Aquileia says he became teacher of the church's school at Alexandria, approved by Athanasius, and that he himself heard him speak.",
+      "Jerome of Strido studied with him at Alexandria and called him master: \"for what I did not know I learned from him, and what I knew already I did not forget.\""
+    ],
+    "remembered": [
+      "Socrates of Constantinople says he was then regarded as \"the great bulwark of the true faith\" against the Arians.",
+      "Sozomen says many came to Alexandria \"for the express purpose of hearing, or, at least, of seeing him.\"",
+      "Evagrius Scholasticus, writing in the sixth century, reports that the emperor Justinian condemned Origen, Didymus and Evagrius."
+    ]
+  },
+  "uncertain": [
+    "The story of Antony and Didymus is told by four writers with differences. Jerome of Strido has Antony speak of \"ants and flies and gnats\", Socrates of Constantinople of \"gnats and flies\", Sozomen of \"rats, mice, and the lowest animals\", and Rufinus of Aquileia of mice, flies and lizards. Sozomen gives it as what \"is related\", and Socrates as what \"is said\".",
+    "His years are not fixed. Palladius says he died at 85. Ernest Cushing Richardson's note to Jerome gives about 311 to 396. Blomfield Jackson's note to Theodoret gives about 309 to 399.",
+    "His praise of Origen is known from Socrates, who quotes it. The commentaries Socrates names are not held.",
+    "Sozomen reports, as what \"is said\", that he learned his letters from carved tablets felt with his fingers.",
+    "Evagrius Scholasticus names the three condemned men but gives no year in the passage."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "On the Trinity, three books (Greek, with Mingarelli's Latin translation)",
+        "language": "Greek and Latin",
+        "file": "cic/texts/didymus-alexandria_de-trinitate-lat-grc_mingarelli1769.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "The Lausiac History, chapter 4 (tr. W. K. Lowther Clarke)",
+        "author": "Palladius of Helenopolis",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/palladius_lausiac-history_clarke1918.txt"
+      },
+      {
+        "title": "Letters 68 and 84 (tr. Fremantle, Lewis and Martley)",
+        "author": "Jerome of Strido",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf206_jerome-principal-works.xml"
+      },
+      {
+        "title": "Lives of Illustrious Men, chapter 109 (tr. Ernest Cushing Richardson); Theodoret, Ecclesiastical History, Book 4, chapter 26 (tr. Blomfield Jackson)",
+        "author": "Jerome of Strido; Theodoret of Cyrus",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+      },
+      {
+        "title": "Ecclesiastical History, Book 4, chapter 25 (Socrates); Book 3, chapter 15, and Book 6, chapter 2 (Sozomen)",
+        "author": "Socrates of Constantinople; Sozomen",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
+      },
+      {
+        "title": "Church History, Book 11, chapter 7",
+        "author": "Rufinus of Aquileia",
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/eusebius_werke-bd2-2-historia-ecclesiastica-vi-x-rufinus-x-xi-grc-lat_schwartz-mommsen1908.txt"
+      },
+      {
+        "title": "Ecclesiastical History, Book 4, chapters 38 and 39 (tr. Walford)",
+        "author": "Evagrius Scholasticus",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/evagrius-scholasticus_ecclesiastical-history_walford1846.txt"
+      }
+    ]
+  }
+}
