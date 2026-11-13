@@ -209,3 +209,9 @@ Then "take the second from out": "Every tradition on this map is built from thei
 **Project lead.** "the church traditions archive is registered in colorado as a tradename under faithways studio pbc"
 
 **Record.** All three names are now Statements of Trade Name of Faithways Studio, Inc. (entity ID 20261918758): Church in Conversation, Church Family Tree and Church Traditions Archive. As with the other two, the sites use ™ or no symbol beside the name, never ®. The Archive filing is Colorado SOS ID 20268385008, effective 2026-11-12.
+
+## 2026-11-13 - 18. The tree serves its own license page
+
+**Project lead.** Asked "whats next" and offered the tree's own license page first: "go for it", then "a".
+
+**Decision.** churchfamilytree.com/license.html now carries the license policy. `Build/tools/generate_tree_pages.mjs` builds it from `cic-website/license.html`, so there is one text and the two copies cannot drift. Links to Church in Conversation pages (privacy, the conversations) point back to that site. A test checks that the tree copy has every section of the source. The tree's footers, the map key, the about, data and Terms pages, and the tree sitemap now point to the tree's own copy. The Terms on both sites link to their own site's license page.

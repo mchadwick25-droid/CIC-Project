@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>License — Church Family Tree</title>
+<meta name="description" content="What you may do with the data and writing of Church in Conversation and the Church Family Tree, and how churches, ministries and scholars can do more.">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,700;1,400;1,500&family=Alegreya+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+:root{
+  --parchment:#F6F6F2; --vellum:#FFFFFF;
+  --ink:#2A2521; --ink-faded:#6C6257; --madder:#A13E2B; --madder-deep:#7E2F20;
+  --tyrian:#6B3FA0; --graphite:#8A837C; --rule:rgba(241,233,221,.16);
+  --ground:#17130F; --surface:#1E1913;
+  --text:#F1E9DD; --muted:#B8AEA1;
+  --action:#E08C74; --action-hover:#F0A98F;
+  --control:#A39B92;
+  --link-grow:#86cf9c; --link-influence:#c79a5e; --link-conflict:#f06a64; --link-contact:#a39a8c;
+  --btn-fill:#A13E2B; --btn-text:#F6EFE0; --btn-edge:#E08C74;
+  --serif:'Alegreya','Iowan Old Style',Georgia,serif;
+  --sans:'Alegreya Sans','Trebuchet MS',system-ui,sans-serif;
+  --wide:64rem; --col:44rem; --measure:38rem;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--ground);color:var(--text);font-family:var(--serif);font-size:1.0625rem;line-height:1.65}
+a{color:var(--action);text-decoration-thickness:1px;text-underline-offset:.16em}
+a:hover{color:var(--action-hover)}
+:focus-visible{outline:2px solid var(--action);outline-offset:3px;border-radius:2px}
+img{max-width:100%;height:auto;display:block}
+h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.15;margin:0;text-wrap:balance}
+h1{font-size:2rem;margin-bottom:1rem}
+h2{font-size:1.4rem;margin:1.5rem 0 .75rem}
+h3{font-size:1.1rem;margin:1rem 0 .5rem}
+p{margin:0 0 1rem}
+ul{padding-left:1.5rem}
+li{margin-bottom:.5rem}
+.vh{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.skip-link{position:absolute;left:-999px;top:auto;background:var(--ink);color:var(--parchment);padding:.6rem 1rem;z-index:100;font-family:var(--sans)}
+.skip-link:focus{position:fixed;left:1rem;top:1rem}
+.eyebrow{font-family:var(--sans);font-size:.8125rem;letter-spacing:.13em;text-transform:uppercase;color:var(--action);font-weight:600;margin:0 0 .6rem}
+.site-header{background:var(--surface);border-bottom:1px solid var(--rule)}
+.site-header .row{max-width:var(--wide);margin:0 auto;padding:.6rem 1.25rem;display:flex;flex-wrap:wrap;align-items:center;gap:.5rem 1rem}
+.wordmark{font-family:var(--serif);font-weight:700;font-size:1.2rem;letter-spacing:.01em;color:var(--text);text-decoration:none;white-space:nowrap;padding:.5rem 0;display:inline-block}
+.wordmark em{font-style:italic;font-weight:400}
+.page{max-width:var(--col);margin:0 auto;padding:2rem 1.25rem;overflow-wrap:break-word}
+.titleblock{margin-bottom:2rem}
+.ident{font-family:var(--sans);font-size:.9rem;color:var(--muted);margin:0 0 .5rem}
+.kind-label{display:inline-block;font-family:var(--sans);font-size:.9rem;color:var(--muted);border:1px dashed currentColor;border-radius:999px;padding:.1rem .7rem;margin:-.4rem 0 0}
+.lineage-section{margin:1.5rem 0;padding-left:.9rem;border-left:3px solid var(--link-contact)}
+.lineage-section.link-grow{border-left-color:var(--link-grow)}.lineage-section.link-grow h3{color:var(--link-grow)}
+.lineage-section.link-influence{border-left-color:var(--link-influence)}.lineage-section.link-influence h3{color:var(--link-influence)}
+.lineage-section.link-conflict{border-left-color:var(--link-conflict)}.lineage-section.link-conflict h3{color:var(--link-conflict)}
+.lineage-section.link-contact h3{color:var(--link-contact)}
+.lineage-list{list-style:none;padding:0}
+.lineage-list li{margin:0 0 .5rem;padding:0}
+.lineage-list a{color:var(--action)}
+.confidence-note{font-style:italic;color:var(--muted);font-size:.95rem}
+.lineage-major{font-family:var(--sans);font-size:.8rem;letter-spacing:.03em;font-weight:600;color:var(--action);white-space:nowrap}
+.lineage-outcome{display:block;font-size:.95rem;margin-top:.2rem}
+.lineage-confidence{font-family:var(--sans);font-size:.8rem;letter-spacing:.03em;color:var(--muted);border:1px solid currentColor;border-radius:3px;padding:0 4px;white-space:nowrap}
+.sources-list{list-style:none;padding:0}
+.sources-list li{margin:0 0 .75rem;padding:0}
+.sources-list a{font-weight:600}
+.source-type{font-family:var(--sans);font-size:.85rem;color:var(--muted)}
+.source-note{font-size:.95rem;color:var(--muted)}
+.narration{display:flex;align-items:center;gap:.6rem;flex-wrap:wrap;margin:1.5rem 0}
+.narration audio{display:block;height:2.2rem;max-width:220px;width:220px;flex:0 0 auto}
+.narration-disclosure{font-family:var(--sans);font-size:.85rem;color:var(--muted);margin:0}
+.action-links{margin:1.5rem 0;padding:1rem;background:var(--surface);border-radius:4px}
+.action-links p{margin:0 0 .8rem;font-family:var(--sans);font-size:.95rem}
+.action-links a{display:inline-block;padding:.6rem 1rem;background:var(--btn-fill);color:var(--btn-text);text-decoration:none;border-radius:4px;margin-right:.5rem;margin-bottom:.5rem}
+.action-links a:hover{background:var(--madder-deep)}
+.door-quiet{font-family:var(--sans);font-size:.92rem;color:var(--muted);margin:1.5rem 0}
+.told-within{font-family:var(--sans);font-size:.95rem;margin:.4rem 0 0}
+.people-list{list-style:none;padding:0;margin:0}
+.people-list li{margin:.4rem 0}
+.people-list .ident{display:inline;margin:0 0 0 .4rem}
+.people-note{color:var(--muted)}
+.review-status{font-family:var(--sans);font-size:.92rem;color:var(--muted);margin:2.5rem 0 0;padding-top:1rem;border-top:1px solid var(--rule)}
+.site-footer{border-top:1px solid var(--rule);background:var(--surface);font-family:var(--sans);font-size:.85rem;color:var(--muted);margin-top:3rem;padding:1.5rem 1.25rem}
+.site-footer .row{max-width:var(--wide);margin:0 auto}
+.site-header nav{display:flex;flex-wrap:wrap;gap:.4rem 1rem;align-items:center;margin-left:auto;font-family:var(--sans);font-size:.92rem}
+.site-header nav a{color:var(--action);text-decoration:none}
+.site-header nav a:hover{color:var(--action-hover)}
+.site-footer nav{display:flex;flex-wrap:wrap;gap:.4rem 1.1rem;margin-top:.6rem}
+.site-footer a{color:var(--action)}
+.give{display:flex;flex-wrap:wrap;gap:.6rem;margin:1rem 0}
+.give a{display:inline-block;padding:.6rem 1.2rem;background:var(--btn-fill);color:var(--btn-text);text-decoration:none;border-radius:4px}
+.terms{margin:0 0 1rem}
+.terms dt{font-family:var(--sans);font-weight:600;margin-top:.9rem}
+.terms dd{margin:.2rem 0 0}
+.terms svg{display:inline-block;vertical-align:middle;margin-right:.5rem}
+.cite{margin:.4rem 0 1.2rem;padding:.6rem .9rem;border-left:3px solid var(--action);background:var(--surface);overflow-wrap:anywhere}
+.cite-label{font-family:var(--sans);font-weight:600;margin:1rem 0 .2rem}
+</style>
+<link rel="stylesheet" href="assets/feedback.css">
+</head>
+<body>
+<a href="/" class="skip-link">Skip to the map</a>
+
+<header class="site-header">
+  <div class="row">
+    <a href="/" class="wordmark">Church Family Tree</a>
+    <nav aria-label="Site">
+      <a href="https://churchinconversation.com/">Church in Conversation &rarr;</a>
+      <a href="/support.html">Help us grow</a>
+      <button type="button" class="feedback-toggle" id="feedback-toggle" aria-haspopup="dialog" aria-expanded="false">Tell us what you think</button>
+    </nav>
+  </div>
+</header>
+<div class="page">
+  <div class="titleblock"><p class="eyebrow">License</p><h1>What you may do with our work</h1></div>
+<section class="page-section" id="most-people">
+    <p class="eyebrow">For most people</p>
+    <h2>You never need to ask</h2>
+    <p>Reading, studying and sharing a page with a friend are free. So is using our work in a Bible study, a sermon, or a history you write of your own family or church. Any teacher may send students to our sites or show them in class. There is no form and no permission to get.</p>
+    <p>This page is for people who want to do more: reuse our data, publish it, or build something with it.</p>
+  </section>
+
+  <section class="page-section" id="at-a-glance">
+    <p class="eyebrow">At a glance</p>
+    <h2>Do you need to ask first?</h2>
+    <ul>
+      <li><strong>Reading, studying, sharing, a sermon, or showing our sites in class:</strong> free for everyone (section 3). No need to ask.</li>
+      <li><strong>Non-commercial research, a blog or a study tool, with credit:</strong> free for everyone (section 3). No need to ask.</li>
+      <li><strong>Ministry, teaching or open scholarship:</strong> the Ministry and Scholarship Permission (section 4). Fill in a short form.</li>
+      <li><strong>Work that earns money, a course that charges tuition, or a school&rsquo;s curriculum:</strong> the same permission, with a small fee (section 4).</li>
+      <li><strong>A company using our work commercially:</strong> a written agreement (section 6). Write to us.</li>
+      <li><strong>Training an AI model:</strong> only by written agreement (section 9). Write to us.</li>
+      <li><strong>Using our names or logos beyond a truthful credit:</strong> not licensed (section 7). Ask in writing.</li>
+    </ul>
+  </section>
+
+  <section class="page-section" id="who-we-are">
+    <p class="eyebrow">Section 1 &middot; Who we are</p>
+    <h2>One policy for all our work</h2>
+    <p>Faithways Studio, Inc. is a public benefit corporation in Colorado. Its charter commits it to a public purpose: creating safe spaces to explore faith and the story of Jesus. It makes Church in Conversation and the Church Family Tree. It also keeps the Church Traditions Archive, the library of old texts behind them both.</p>
+    <p>This policy covers our data, our writing and our recordings. It does not cover the talks people have in the app. Our <a href="https://churchinconversation.com/privacy.html">privacy page</a> says how we handle those.</p>
+  </section>
+
+  <section class="page-section" id="what-is-covered">
+    <p class="eyebrow">Section 2 &middot; What is covered</p>
+    <h2>Six kinds of material</h2>
+    <p><strong>Our data.</strong> This is the census of movements, with their dates, regions, lineage links, confidence grades, sources and IDs. It is free for everyone to reuse for non-commercial purposes, with credit. Churches, ministries and scholars can do more.</p>
+    <p><strong>Our writing and recordings.</strong> This means movement, person and tradition pages, descriptions, link notes, narration and our method notes. The terms are the same as for our data.</p>
+    <p><strong>Quotations from old texts.</strong> These are the words of writers like Athanasius, Optatus, Cyprian or Evagrius, quoted as sources. Each one keeps the license of the edition it comes from. Almost all are in the public domain (section 8).</p>
+    <p><strong>Our software and methods.</strong> These are not licensed, and all rights are reserved (section 10).</p>
+    <p><strong>How the Archive is built.</strong> This is not licensed either, and all rights are reserved (section 10).</p>
+    <p><strong>Our names and marks.</strong> These are not licensed. You may use them only to credit us truthfully (section 7).</p>
+  </section>
+
+  <section class="page-section" id="free-for-everyone">
+    <p class="eyebrow">Section 3 &middot; Free for everyone</p>
+    <h2>Non-commercial use, with credit</h2>
+    <p>Our data, writing and recordings are published under the <a href="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International license (CC BY-NC 4.0)</a>. In plain words, anyone may copy, share, translate, adapt and build on them, for any purpose that is not commercial.</p>
+    <p>You must credit us, link to the license, and say if you changed anything. Credit like this is enough: &ldquo;From the Church Family Tree by Faithways Studio, Inc., release [number] ([date]), CC BY-NC 4.0.&rdquo; Our <a href="https://www.churchfamilytree.com/data.html">data page</a> gives the current release.</p>
+  </section>
+
+  <section class="page-section" id="ministry-and-scholarship">
+    <p class="eyebrow">Section 4 &middot; Ministry and scholarship</p>
+    <h2>The Ministry and Scholarship Permission</h2>
+    <p>Ministry and open scholarship often need more than &ldquo;non-commercial.&rdquo; A church sells a study book to cover printing. A seminary charges course fees. A mission agency offers a free app next to a paid edition. An open research project wants to include our links in a dataset anyone can use. This permission allows these.</p>
+    <p><strong>Who can ask for it:</strong></p>
+    <ul>
+      <li>churches, parishes, congregations and denominations</li>
+      <li>ministries, mission agencies and religious orders</li>
+      <li>nonprofits and charities, in any country</li>
+      <li>schools, colleges, seminaries and libraries</li>
+      <li>public benefit corporations, benefit corporations and similar mission-locked companies</li>
+      <li>researchers and open scholarly projects, such as research databases, argument maps and reference works that publish their own data openly</li>
+      <li>individuals doing ministry, teaching or writing on their own, even when their work earns money, such as a self-published study guide, a paid course or a channel with ads. We ask a small fee when it does.</li>
+    </ul>
+    <p><strong>What it adds.</strong> In ministry and teaching, you may use our data, writing and recordings in work you sell or charge for, as long as the work serves your mission. In open scholarship, you may include our data in an open project under that project&rsquo;s own license. Every claim you take from us must keep its confidence grade, its review status and its sources.</p>
+    <p><strong>What it costs.</strong> Most use is free. That includes reading, study, churches, sermons, families teaching their own children, and using our sites in any class. Quoting a short passage with credit is free too, without asking, even in work you sell.</p>
+    <p>When your work earns money from ours, we ask for a small fee. For most schools and homeschool co-ops, that is $75 a term. A college or seminary course is about the same. Larger schools and programs give a little more, and the request form shows the amounts. If you can&rsquo;t pay, tell us. Cost should never stop a small church.</p>
+    <p>Companies, and large commercial work, please write to us (section 6).</p>
+    <p>Fees and voluntary support pay for:</p>
+    <ul>
+      <li>Primary-source research that traces each link back to verified editions</li>
+      <li>Scholarly review by historians and specialists across traditions</li>
+      <li>Audio narration, so the story can be heard as well as read</li>
+      <li>Translations, so people around the world can read it in their own language</li>
+      <li>Hosting and infrastructure that keeps the service fast and online</li>
+      <li>The people who research, write, and maintain the platform</li>
+    </ul>
+    <p><strong>Schools, co-ops and colleges.</strong> Teachers and students are welcome here. A teacher may send students to our sites, show them in class or list them in a syllabus, for free. When a school or co-op that charges for its classes builds our work into its teaching, please ask first with the short form. That means copying our work into course materials, or building assignments around our sites. The school or ministry is asked to pay a small fee, never its students.</p>
+    <p><strong>What it asks of you:</strong></p>
+    <ol>
+      <li>Credit us as in section 3, and name the release you used.</li>
+      <li>Keep the confidence grade with every claim you take from us. Don&rsquo;t present a contested claim as settled.</li>
+      <li>Mark your changes, and don&rsquo;t attribute them to us.</li>
+      <li>Don&rsquo;t imply that we endorse your work. Say &ldquo;uses data from,&rdquo; never &ldquo;by&rdquo; or &ldquo;approved by.&rdquo;</li>
+      <li>Keep the release&rsquo;s review status with the data.</li>
+    </ol>
+    <p>If you break these, the permission ends for that work. The free terms in section 3 still apply.</p>
+    <p><strong>How to get it.</strong> Fill in our <a href="https://tally.so/r/kb97Br">short request form</a>. Tell us who you are and what you plan to make. We approve requests unless there is a clear reason not to, and we reply by email. The form also asks whether you&rsquo;d like to help review our data. That part is optional, and it doesn&rsquo;t affect your request.</p>
+  </section>
+
+  <section class="page-section" id="partnerships">
+    <p class="eyebrow">Section 5 &middot; Partnerships</p>
+    <h2>Academic review is our biggest need</h2>
+    <p>Our data has been checked by AI, but not yet by scholars. We are looking for academics to review it. If you teach or research church history, theology or the early sources, we would like to hear from you.</p>
+    <p><strong>What a reviewer does.</strong> You pick one or more traditions in your field. You check the dates, places and description of each one. You check its links to other traditions, and whether each confidence grade is fair. You check each source and quotation against the original. Then you tell us what is wrong, what is disputed and what is missing.</p>
+    <p><strong>What we do.</strong> We answer every point you raise. We fix what is wrong, or explain why we kept it. The next release names you, your role and your school, and marks exactly what you reviewed. We call it review by an independent scholar only when it is. So please tell us about any tie you have to Faithways Studio. We will talk with you about time and terms.</p>
+    <p><strong>Other ways to help.</strong> Classes, churches and others can also help. They might suggest sources, fix or edit our writing, or check one tradition with a teacher. We check all help before it goes in, and each new source against the text itself. We thank every helper by name, and label their help for what it is.</p>
+    <p>To start, write to <a href="mailto:info@churchinconversation.com">info@churchinconversation.com</a>. If you are also asking for the permission in section 4, you can choose a review option on the <a href="https://tally.so/r/kb97Br">request form</a>.</p>
+  </section>
+
+  <section class="page-section" id="companies">
+    <p class="eyebrow">Section 6 &middot; Companies</p>
+    <h2>Commercial use by agreement</h2>
+    <p>Companies that don&rsquo;t qualify for the permission in section 4 may still use our data, writing and recordings commercially. This needs a separate written agreement, usually for a fee. Write to <a href="mailto:info@churchinconversation.com">info@churchinconversation.com</a>. The fee helps pay for the work and keeps it free for everyone else.</p>
+  </section>
+
+  <section class="page-section" id="names">
+    <p class="eyebrow">Section 7 &middot; Our names</p>
+    <h2>Names and marks are not licensed</h2>
+    <p>&ldquo;Church in Conversation,&rdquo; &ldquo;Church Family Tree,&rdquo; &ldquo;Church Traditions Archive,&rdquo; &ldquo;Faithways Studio&rdquo; and our logos belong to Faithways Studio. You may use our names to credit us truthfully.</p>
+    <p>You may not use them to name your own product or group. You may not use them to suggest we made or approved your work. And no page, app or voice may claim to speak for us, or for a tradition on our behalf.</p>
+  </section>
+
+  <section class="page-section" id="quotations">
+    <p class="eyebrow">Section 8 &middot; Quotations</p>
+    <h2>Old texts keep their own license</h2>
+    <p>Most of the old texts we quote are in the public domain, so anyone may use them. A few come from new digital copies that have a license of their own. Then that license applies. Each quote in our data names the edition it comes from and its license.</p>
+  </section>
+
+  <section class="page-section" id="ai-training">
+    <p class="eyebrow">Section 9 &middot; Training AI</p>
+    <h2>Not for training AI models</h2>
+    <p>We don&rsquo;t permit anyone to train or fine-tune AI models on our websites, data, writing or recordings, or on the Church Traditions Archive. The only exception is a written agreement with us. We also opt out of text and data mining for that purpose. We reserve these rights as far as the law allows. Our websites ask known AI training crawlers to stay out.</p>
+    <p>An assistant that reads a page to answer a person&rsquo;s question is not training. Neither is a search engine.</p>
+  </section>
+
+  <section class="page-section" id="not-licensed">
+    <p class="eyebrow">Section 10 &middot; Not covered</p>
+    <h2>Our software and methods stay ours</h2>
+    <p>This policy covers only what our websites publish. Our software, our build methods, our prompts, our test tools and our internal records are not licensed, and all rights are reserved.</p>
+    <p>The same goes for how the Church Traditions Archive is built. That includes which works belong to which tradition, at which place and in what role. It also includes our lists of authors and works, and the collection as a whole. A list of sources shown on a page is covered as published work. The old texts themselves stay in the public domain.</p>
+  </section>
+
+  <section class="page-section" id="review">
+    <p class="eyebrow">Section 11 &middot; How it was checked</p>
+    <h2>Checked by AI, not yet by scholars</h2>
+    <p>Each release of our data says how it was checked. Today, every quotation is checked word for word against its source file. Every claim has been reviewed by AI models working to our written method. None of it has yet been reviewed by an independent scholar.</p>
+    <p>When that review happens, the release will say which parts were reviewed and by whom.</p>
+    <p><strong>Help us review it.</strong> Academic review is our biggest need. See <a href="#partnerships">how review works</a>.</p>
+  </section>
+
+  <section class="page-section" id="versions">
+    <p class="eyebrow">Section 12 &middot; Versions</p>
+    <h2>Numbered releases and permanent IDs</h2>
+    <p>Our data comes in numbered, dated releases. Movement and link IDs never change. When we correct something, the new release says so, and older releases can still be cited. Please name the release you used.</p>
+  </section>
+
+  <section class="page-section" id="questions">
+    <p class="eyebrow">Questions</p>
+    <h2>Ask us anything</h2>
+    <p>If anything here is unclear, write to <a href="mailto:info@churchinconversation.com">info@churchinconversation.com</a>.</p>
+  </section>
+</div>
+<footer class="site-footer">
+  <div class="row">
+    <p>&copy; 2026 Faithways Studio, Inc., a Colorado public benefit corporation &middot; <a href="/license.html">License</a>. The same team makes <a href="https://churchinconversation.com/">Church in Conversation</a>.</p>
+    <nav aria-label="About the tree">
+      <a href="/about.html">About</a>
+      <a href="/method.html">Method</a>
+      <a href="/data.html">Data and citation</a>
+      <a href="/privacy.html">Privacy</a>
+      <a href="/terms.html">Terms</a>
+      <a href="/license.html">License</a>
+      <a href="/support.html">Help us grow</a>
+    </nav>
+  </div>
+</footer>
+<script src="assets/feedback.js" defer></script>
+</body>
+</html>
