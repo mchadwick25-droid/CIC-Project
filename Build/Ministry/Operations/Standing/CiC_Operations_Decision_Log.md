@@ -208,4 +208,4 @@ Then "take the second from out": "Every tradition on this map is built from thei
 
 **Project lead.** "the church traditions archive is registered in colorado as a tradename under faithways studio pbc"
 
-**Record.** All three names are now Statements of Trade Name of Faithways Studio, Inc. (entity ID 20261918758): Church in Conversation, Church Family Tree and Church Traditions Archive. As with the other two, the sites use ™ or no symbol beside the name, never ®. The document number for the Archive filing is not yet recorded here.
+**Record.** All three names are now Statements of Trade Name of Faithways Studio, Inc. (entity ID 20261918758): Church in Conversation, Church Family Tree and Church Traditions Archive. As with the other two, the sites use ™ or no symbol beside the name, never ®. The Archive filing is Colorado SOS ID 20268385008, effective 2026-11-12.
