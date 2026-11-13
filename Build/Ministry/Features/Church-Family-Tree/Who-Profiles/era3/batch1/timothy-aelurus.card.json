@@ -1,0 +1,92 @@
+{
+  "name": "Timothy Aelurus",
+  "otherNames": [
+    "Timothy the Great",
+    "Timotheus Aelurus",
+    "Timothy the Weasel",
+    "Timothy the Cat"
+  ],
+  "knownFor": "Bishop of Alexandria chosen by the people and monks against Proterius, the bishop Chalcedon had installed; he rejected the council and Leo of Rome's letter, was exiled for many years, and returned under the emperor Basiliscus.",
+  "dates": "Chosen after the emperor Marcian's death, which Charles Lett Feltoe dates to 457; deposed and replaced by 460, by Feltoe's account; recalled in the eighteenth year of his exile, Evagrius of Epiphania and Zachariah of Mitylene say, and died soon after the emperor Zeno's return. B. Evetts's heading in the History of the Patriarchs gives his see as 458 to 480; that History gives him twenty-two years as bishop. No source used here gives his birth",
+  "place": "Alexandria; Gangra; Cherson",
+  "tradition": "The Church of Alexandria and Miaphysite Egypt",
+  "role": "Bishop of Alexandria",
+  "briefLength": "about 2 minutes 30 seconds",
+  "keyWorks": [
+    {
+      "title": "Petition to the emperor Leo",
+      "about": "his refusal of Chalcedon and of Leo of Rome's letter, given in English in the chronicle known as that of Zachariah of Mitylene"
+    },
+    {
+      "title": "Letters from exile against the followers of Eutyches",
+      "about": "letters to Alexandria, Palestine and Constantinople, given in the same chronicle"
+    },
+    {
+      "title": "Refutation of the teaching fixed at Chalcedon",
+      "about": "a long work against the council and Leo's letter, held only in Armenian in the edition of Karapet Ter-Mekerttschian and Erwand Ter-Minassiantz"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "The chronicle known as that of Zachariah names him second, after Dioscorus and before Peter, among those who wrote against the novelties of Chalcedon.",
+      "Zachariah says Peter, consecrated by the bishops of the country, succeeded him at Alexandria.",
+      "Zachariah says he brought the bones of Dioscorus back to Alexandria in a silver coffin."
+    ],
+    "remembered": [
+      "The chronicle known as that of Zachariah of Mitylene calls him \"Timothy the Great\" and \"the friend of the poor\".",
+      "The petition of the Egyptian bishops and clergy of Alexandria to the emperor Leo, quoted by Evagrius: Proterius was killed \"at the instigation of Timotheus\"."
+    ]
+  },
+  "uncertain": [
+    "His story comes mostly through the chronicle known as that of Zachariah of Mitylene, from the side that rejected Chalcedon, and through Evagrius of Epiphania, who quotes the petition of his opponents.",
+    "Who killed Proterius is told two ways. The petition of the Egyptian bishops and clergy of Alexandria, quoted by Evagrius, says Alexandrians did it at Timothy's instigation. Zachariah says a Roman soldier stabbed him, and Evagrius reports that the Life of Peter the Iberian also says a soldier.",
+    "The length of his exile is told two ways. Evagrius and Zachariah say he was recalled in its eighteenth year; the History of the Patriarchs of the Coptic Church says he was banished to Gangra with his brother Anatolius for seven years.",
+    "Zachariah's translators give his nickname as \"the Weasel\"; E. Walford's English of Evagrius and Feltoe give \"the Cat\". Their note gives the Greek word behind it.",
+    "No ancient source used here gives the years of his see or of his death; the years on this card are Feltoe's and Evetts's.",
+    "His long work against Chalcedon is held only in Armenian, and it is not quoted here."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Petition to the emperor Leo, and letters from exile (in the Syriac Chronicle known as that of Zachariah of Mitylene, Book IV, tr. F. J. Hamilton and E. W. Brooks)",
+        "language": "English translation",
+        "file": "cic/texts/zachariah-rhetor_chronicle_hamiltonbrooks1899.txt"
+      },
+      {
+        "title": "Refutation of the teaching fixed at the Synod of Chalcedon (ed. Karapet Ter-Mekerttschian and Erwand Ter-Minassiantz)",
+        "language": "Armenian translation",
+        "file": "cic/texts/timothy-aelurus_widerlegung-der-lehre-von-chalcedon-xcl_ter-mekerttschian-ter-minassiantz1908.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "The Syriac Chronicle known as that of Zachariah of Mitylene, Books IV and V (tr. F. J. Hamilton and E. W. Brooks)",
+        "author": "Zachariah of Mitylene, so called",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/zachariah-rhetor_chronicle_hamiltonbrooks1899.txt"
+      },
+      {
+        "title": "Ecclesiastical History, Book II, chapters 8 to 11, and Book III, chapters 4 to 11 (tr. E. Walford)",
+        "author": "Evagrius of Epiphania",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/evagrius-scholasticus_ecclesiastical-history_walford1846.txt"
+      },
+      {
+        "title": "History of the Patriarchs of the Coptic Church of Alexandria (tr. B. Evetts)",
+        "author": "Ascribed to Severus ibn al-Muqaffa",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt"
+      },
+      {
+        "title": "Charles Lett Feltoe's introduction to the letters of Leo",
+        "author": "Charles Lett Feltoe",
+        "date": null,
+        "language": "English",
+        "file": "cic/texts/npnf212_leo-great-gregory-great.xml"
+      }
+    ]
+  }
+}

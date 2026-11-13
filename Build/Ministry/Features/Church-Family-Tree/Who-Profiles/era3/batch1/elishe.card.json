@@ -1,0 +1,72 @@
+{
+  "name": "Elishe",
+  "otherNames": [
+    "Eghishe",
+    "Elisaeus",
+    "Élisée Vartabed"
+  ],
+  "knownFor": "Armenian historian whose History of Vartan is the main account of the rising against the Persian king's religion that ended at Avarayr in 451.",
+  "dates": "Fifth century. Charles Neumann places him among the bishops at Artashat in 450; Victor Langlois says some writers place his death in 480. Langlois says his birthplace and date are unknown",
+  "place": "Armenia; by Neumann's and Langlois's accounts, the mountain of Mog and the shore of Lake Van",
+  "tradition": "Armenian Christianity after Avarayr",
+  "role": "Historian; vardapet, and by Neumann's account bishop of the Amadunians",
+  "briefLength": "about 2 minutes",
+  "keyWorks": [
+    {
+      "title": "History of Vartan and of the Battle of the Armenians",
+      "about": "seven chapters on the Persian pressure to accept the religion of the Magi, the Armenian league, the battle of Avarayr and the misery that followed, written at the request of the priest David of the Mamikonian house"
+    },
+    {
+      "title": "Discourse to the Solitaries",
+      "about": "by Langlois's account, written to fellow students who had become monks, urging them to follow the first hermits and to pray in their country's sorrows; not in the held translations"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "His History holds the copied edict of the Persian minister Mihrnerseh and the bishops' answer from Artashat.",
+      "Langlois: the History is valued for its account of mid-fifth-century Armenia and for details of Zoroastrian religion."
+    ],
+    "remembered": [
+      "Thomas Ardsruni, a ninth-century historian, as a note in Langlois's edition quotes him: the History of the holy Vartanians \"rédigée par le bienheureux prêtre Elisée\".",
+      "Langlois counts him among the fifth-century scholars who opposed Greek influence on the Armenian language, and says his example was not followed."
+    ]
+  },
+  "uncertain": [
+    "His life rests on Charles Neumann's preface and on the biographers Victor Langlois follows, not on the History, which says only that he saw what he describes. Neumann calls him a disciple of Sahak the Great and Mesrop Mashtots and Vardan Mamikonian's secretary; Langlois reports that view and another, that he served in Vardan's army as a young man.",
+    "That he is the Elishe, bishop of the Amadunians, in his own list of the bishops at Artashat is Neumann's view. Langlois says only that some writers hold it.",
+    "His last years are told two ways. Neumann, citing Thomas Ardsruni, has him retire by Lake Van and die at a great age. Langlois has him live as a hermit in two caves and says hardship shortened his life.",
+    "The death year 480 is one Langlois gives from \"quelques écrivains\", unnamed.",
+    "Langlois reports Thomas Ardsruni's story that a Nestorian named Barsouma borrowed the History and struck out every mention of the Ardzruni house, so that it was left unfinished. Langlois gives no other witness for it.",
+    "Neumann holds that the editors joined to the History a separate work on the sufferings of the priests. Langlois thinks the supplement is Elishe's own, against critics who give it to a continuator."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "History of Vartan and of the Battle of the Armenians (tr. Charles F. Neumann)",
+        "language": "English translation",
+        "file": "cic/texts/eghishe_history-of-vartan-and-the-armenian-war_neumann1830.txt"
+      },
+      {
+        "title": "Histoire de Vartan et de la guerre des Arméniens (tr. Victor Langlois)",
+        "language": "French translation",
+        "file": "cic/texts/langlois_collection-historiens-armenie-tome2-fra_1869.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Preface to the History of Vartan",
+        "author": "Charles F. Neumann",
+        "date": null,
+        "language": "English",
+        "file": "cic/texts/eghishe_history-of-vartan-and-the-armenian-war_neumann1830.txt"
+      },
+      {
+        "title": "Introduction to Elishe, and notes",
+        "author": "Victor Langlois",
+        "date": null,
+        "language": "French",
+        "file": "cic/texts/langlois_collection-historiens-armenie-tome2-fra_1869.txt"
+      }
+    ]
+  }
+}
