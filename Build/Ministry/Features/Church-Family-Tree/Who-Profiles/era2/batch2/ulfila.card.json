@@ -37,7 +37,7 @@
   "uncertain": [
     "Auxentius of Durostorum, his pupil and a partisan, gives Ulfila's deathbed words that he had always believed so. Socrates of Constantinople, a Nicene historian, says he held the Nicene creed until he signed the creed of the council at Constantinople in 360. Sozomen, also Nicene, says he took part in that council without leaving the Nicene faith, and joined the Arians later, under Valens.",
     "Philostorgius, a follower of Eunomius of Cyzicus, calls Ulfila the Goths' first bishop. Socrates names an earlier bishop of the Goths, Theophilus, who signed at Nicaea, and calls Ulfila his disciple. Philostorgius survives mainly in the summary of Photius, who was hostile to him.",
-    "Philostorgius says Ulfila was made bishop by Eusebius and the other bishops with him, while on an embassy to Constantine. Friedrich Kauffmann, Auxentius's editor in 1899, reads Constantius for Constantine, places it at a council of Antioch in 341, and thinks Ulfila was made a country bishop at first. No source in the Library names Eusebius's see in this account.",
+    "Philostorgius says Ulfila was made bishop by Eusebius and the other bishops with him, while on an embassy to Constantine. Friedrich Kauffmann, Auxentius's editor in 1899, reads Constantius for Constantine, places it at a council of Antioch in 341, and thinks Ulfila was made a country bishop at first. Philostorgius gives no see. Louis Duchesne, in his history of the early church (1907), names him Eusebius of Nicomedia. Kauffmann notes that Eusebius of Nicomedia, by then bishop of Constantinople, was at the synod of 341.",
     "Auxentius has Ulfila driven out after seven years as bishop and received by Constantius; Kauffmann dates the crossing to 348 or 349. Sozomen has Ulfila lead the Goths' embassy when they crossed the Danube fleeing the Huns, under Valens.",
     "Auxentius's numbers echo Scripture: bishop at thirty, like David, Joseph and Christ, and forty years in all, the span of the saints he followed. Kauffmann notes that the age often treated numbers this way, but counts them as real years.",
     "The Gothic fragments carry no translator's name. Streitberg sees no doubt that they are the remains of Ulfila's translation. Philostorgius says he left out the Books of Kings.",
@@ -83,6 +83,13 @@
         "date": null,
         "language": "English translation",
         "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
+      },
+      {
+        "title": "Histoire ancienne de l'Église, volume 2",
+        "author": "Louis Duchesne",
+        "date": null,
+        "language": "French",
+        "file": "cic/texts/duchesne_histoire-ancienne-de-leglise-tome2-fra_3e-ed1907.txt"
       }
     ]
   }

@@ -201,6 +201,11 @@
         "claim": "Went to Constantinople when the emperor summoned the bishops, expecting a council and meaning first to debate the Pneumatomachi; fell ill and died there, leaving a written creed",
         "witness": "Auxentius 61-63 (Kauffmann l.15283-15304), read with Kauffmann (l.3702-3706), who follows Sievers against Bessell's reading that he went at the emperor's command for the debate (n. 2, l.3718-3719); Kauffmann dates it June 383",
         "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The Eusebius who consecrated Ulfila was Eusebius of Nicomedia",
+        "witness": "Duchesne, Histoire ancienne II (l.20994-20995); Kauffmann places the consecration at the Antioch synod of 341, which Eusebius of Nicomedia attended (l.2754-2756, 3809-3811). Philostorgius II.5 gives the bare name (Walford l.120).",
+        "formation_confidence": "Dominant Modern Reconstruction"
       }
     ],
     "contested_claims": [
@@ -229,10 +234,6 @@
       {
         "detail": "Whether the deathbed creed was left in Latin as it survives",
         "note": "Kauffmann reports Waitz's doubt (l.3736-3738); no witness settles it."
-      },
-      {
-        "detail": "The see of the Eusebius who consecrated Ulfila",
-        "note": "Philostorgius II.5 says only 'Eusebius and the other prelates' (Walford l.120); Kauffmann speaks of 'Eusebius und die Eusebianer' and the Eusebian synod of Antioch 341 (l.3767-3769, 3809-3811) without naming the consecrator's see. Left as the bare name on the card."
       }
     ]
   },
