@@ -1,0 +1,75 @@
+{
+  "name": "Cyril of Jerusalem",
+  "otherNames": [
+    "Cyril, Archbishop of Jerusalem",
+    "Cyrillus"
+  ],
+  "knownFor": "Priest and then bishop of Jerusalem, whose lectures to the people preparing for baptism survive, and who was driven from his see three times.",
+  "dates": "Born about 315 or a few years before, by Gifford's reckoning; bishop from about 350; died 386",
+  "place": "Jerusalem",
+  "tradition": "Jerusalem Liturgical-Pilgrimage Christianity",
+  "role": "Bishop of Jerusalem",
+  "briefLength": "about 2 minutes 30 seconds",
+  "keyWorks": [
+    {
+      "title": "Procatechesis and Catechetical Lectures 1 to 18",
+      "about": "given in Lent, in 348 by Gifford's date, to those to be baptized at Easter, going through the creed of Jerusalem clause by clause"
+    },
+    {
+      "title": "Mystagogic Lectures 1 to 5",
+      "about": "five lectures to the newly baptized on baptism, the anointing with chrism, and the Eucharist"
+    },
+    {
+      "title": "Letter to the emperor Constantius",
+      "about": "on the cross of light seen over Jerusalem at the start of his time as bishop"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Gifford's chapters on the lectures draw from them the order of baptism, the anointing and the Eucharist as they were kept at Jerusalem.",
+      "Theodoret of Cyrus quotes his fourth lecture as the \"Testimony of Cyril, Bishop of Jerusalem.\""
+    ],
+    "remembered": [
+      "Jerome of Strido calls him \"bishop of Jerusalem often expelled by the church, and at last received.\"",
+      "The bishops at Constantinople in 382 wrote that he \"has in several places fought a good fight against the Arians.\"",
+      "Gifford quotes the Roman Martyrology, which keeps his day on 18 March."
+    ]
+  },
+  "uncertain": [
+    "How he became bishop is disputed. Socrates of Constantinople and Sozomen say the party of Acacius of Caesarea pushed out Maximus and put Cyril in his place. Jerome of Strido, hostile to Cyril, says in his Chronicle, as Gifford quotes it, that Cyril gave up the priesthood Maximus had given him to be made bishop by the Arians, and that he later pushed aside Heraclius, whom Maximus had named. The bishops at Constantinople in 382 wrote that Cyril was canonically ordained by the bishops of the province. Gifford, who defends Cyril, calls the accounts of Socrates and Jerome \"irreconcileable, and both improbable\", and follows Reischl's suggestion that Cyril was named in Maximus's lifetime and ordained in due form. Gifford notes that Jerome and Cyril took opposite sides in the split at Antioch.",
+    "Why Acacius deposed him. Sozomen, who says he looked into it, gives the sale of the church's veil and ornaments in a famine, and calls it a pretext. Socrates says he could not learn the charges, and that Cyril stayed away for two years \"owing to fear.\" Theodoret of Cyrus says Acacius \"seized some small occasion.\" Theodoret also gives Acacius's later tale of a gold-threaded robe sold to a dancer, who fell and died.",
+    "Socrates says that in 381 Cyril accepted the word homoousion, \"having retracted his former opinion.\" Sozomen says he had once followed Macedonius. Gifford, following Touttée, the Benedictine editor, rejects both, since the lectures teach the Son's unity of essence with the Father without the word.",
+    "Some manuscripts name John, Cyril's successor, as the author of the Mystagogic Lectures. Gifford, with Touttée, holds that all the lectures are Cyril's, since the eighteenth lecture promises the later ones and they match it.",
+    "Socrates says that when Julian let the Jews begin to rebuild the Temple, Cyril foretold that one stone would not be left upon another, and an earthquake followed that night. Gifford thinks Cyril may well have expected the attempt to fail, but finds \"no satisfactory evidence that he ventured to foretell any miraculous interposition.\"",
+    "The dates of his exiles are reckoned by Gifford, about 357, 360 and about 367. The names of the men set in his place differ between the witnesses.",
+    "Gifford dates the letter on the cross to 7 May 351, from the letter itself, which is not held in the Library. Gifford reports a doubt over the word \"Consubstantial\" in its last prayer, and holds the letter as a whole genuine.",
+    "No source gives his birth, family or schooling. Gifford reckons his birth from what Cyril seems to have seen of the holy places as a boy."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Procatechesis, Catechetical Lectures 1 to 18, and Mystagogic Lectures 1 to 5, with Gifford's introduction",
+        "author": "Cyril of Jerusalem",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml"
+      }
+    ],
+    "about": [
+      {
+        "title": "Church History, Book 2, chapters 38, 40, 42 and 45; Book 3, chapter 20; Book 5, chapter 8 (Socrates); Book 4, chapters 5, 20 and 25, and Book 7, chapter 7 (Sozomen)",
+        "author": "Socrates of Constantinople; Sozomen",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
+      },
+      {
+        "title": "Church History, Book 2, chapters 22 and 23, and Book 5, chapter 9 (Theodoret); Lives of Illustrious Men, chapter 112 (Jerome)",
+        "author": "Theodoret of Cyrus; Jerome of Strido",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+      }
+    ]
+  }
+}
