@@ -1,0 +1,92 @@
+{
+  "name": "Palladius of Helenopolis",
+  "otherNames": [
+    "Palladius of Galatia",
+    "Palladius of Aspuna"
+  ],
+  "knownFor": "Galatian monk of the Egyptian desert and follower of Evagrius Ponticus, later a bishop and a defender of John Chrysostom, whose Lausiac History records the monks and holy women he met or heard of.",
+  "dates": "First came to Alexandria in the second consulship of Theodosius, which W. K. Lowther Clarke dates to 388; began the Lausiac History in the fifty-sixth year of his life, in 419 or 420 by Clarke's date; died between 420 and 430, by Herbert Moore's account",
+  "place": "Galatia; Alexandria, Nitria and the Egyptian desert; Palestine; Bithynia; Rome; Syene",
+  "tradition": "Desert Monasticism",
+  "role": "Monk, bishop and recorder of the desert fathers",
+  "briefLength": "about 2 minutes",
+  "keyWorks": [
+    {
+      "title": "The Lausiac History",
+      "about": "lives of monks and holy women of Egypt, Palestine, Syria and the West, written for Lausus, a chamberlain at the court"
+    },
+    {
+      "title": "Dialogue on the Life of John Chrysostom",
+      "about": "a defence of Chrysostom cast as a talk between an eastern bishop and a deacon of Rome; Herbert Moore and Cuthbert Butler hold that Palladius wrote it"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Sozomen, a church historian, sends readers who want the lives of the desert monks to the treatise \"composed by the monk Palladius, who was a disciple of Evagrius\".",
+      "The Lausiac History also went into Syriac. E. A. Wallis Budge printed the Syriac Paradise, whose heading names \"Palladius, the Bishop of the city of Helenopolis\".",
+      "Herbert Moore says the letters of John Chrysostom and the Lausiac History both confirm the Dialogue's account of the delegation to Rome."
+    ],
+    "remembered": [
+      "Pope Innocent, writing to the clergy of Constantinople in a letter Sozomen gives, names \"Demetrius, Cyriacus, Eulysius, and Palladius, who visited Rome at different periods and are now with us\".",
+      "Epiphanius of Salamis, in a letter Jerome of Strido put into Latin: \"Beware of Palladius of Galatia\", who \"preaches and teaches the heresy of Origen\".",
+      "Jerome, in his book against the Pelagians, calls a Palladius \"no better than a villainous slave\" who stirred up prejudice against his translation of the Hebrew."
+    ]
+  },
+  "uncertain": [
+    "His own Lausiac History is the main source for his life. Epiphanius and Jerome, who attack him, were on the other side of the quarrel over Origen, and Palladius in turn attacks Jerome.",
+    "The Lausiac History never names his see. Socrates of Constantinople says a Palladius \"was transferred from Helenopolis to Aspuna\". The Syriac heading calls him bishop of Helenopolis, and Herbert Moore makes the identification.",
+    "Whether he wrote the Dialogue on Chrysostom is disputed. Moore says the treatise is anonymous, and its bishop is an imaginary speaker. He follows Cuthbert Butler in giving it to Palladius. Moore reports that Bigot, its first editor, suggested another Palladius who succeeded him at Helenopolis.",
+    "The notes to W. H. Fremantle's edition of Jerome take the Palladius of Epiphanius's letter and of Jerome's prologue for this man. They report that Tillemont, author of the Mémoires of 1707, thought \"another Palladius may be referred to in these passages\".",
+    "W. K. Lowther Clarke takes \"the blessed John\" of his ordination to be John Chrysostom. The Lausiac History does not say who ordained him.",
+    "His age is told two ways. In Clarke's Greek-based text he began the book in his fifty-sixth year. Budge reckons fifty-three from the Syriac.",
+    "Clarke calls the last chapter, on \"the brother who has been with me from youth\", a device by which Palladius speaks of himself. The Preface before the letter to Lausus is one that Butler, as Clarke reports, considers spurious.",
+    "No source used here gives the place or year of his death."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "The Lausiac History (tr. W. K. Lowther Clarke)",
+        "language": "English translation",
+        "file": "cic/texts/palladius_lausiac-history_clarke1918.txt"
+      },
+      {
+        "title": "The Dialogue concerning the Life of Chrysostom (tr. Herbert Moore), if his",
+        "language": "English translation",
+        "file": "cic/texts/palladius_dialogue-life-of-chrysostom_moore1921.txt"
+      },
+      {
+        "title": "Dialogus de vita Joannis Chrysostomi, Greek text (Migne, PG 47)",
+        "language": "Greek",
+        "file": "cic/texts/john-chrysostom_opera-pg47-palladius-dialogus-grc-lat_migne1863.txt"
+      },
+      {
+        "title": "The Paradise of Palladius, Book I, from the Syriac (tr. E. A. Wallis Budge)",
+        "language": "English translation",
+        "file": "cic/texts/palladius_paradise-v1-syriac_budge1907.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Church History, Book 6, chapter 29; Book 8, chapter 26 (Sozomen); Book 7, chapter 36 (Socrates)",
+        "author": "Sozomen; Socrates of Constantinople",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
+      },
+      {
+        "title": "Letter 51, from Epiphanius of Salamis to John of Jerusalem; Against the Pelagians, Prologue",
+        "author": "Epiphanius of Salamis; Jerome of Strido",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf206_jerome-principal-works.xml"
+      },
+      {
+        "title": "Introduction to the Dialogue",
+        "author": "Herbert Moore",
+        "date": null,
+        "language": "English",
+        "file": "cic/texts/palladius_dialogue-life-of-chrysostom_moore1921.txt"
+      }
+    ]
+  }
+}

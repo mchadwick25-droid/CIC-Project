@@ -1,0 +1,128 @@
+{
+  "name": "Rufinus of Aquileia",
+  "otherNames": [
+    "Tyrannius Rufinus",
+    "Rufinus of Concordia"
+  ],
+  "knownFor": "Latin monk and priest who put Origen of Alexandria, the Church History of Eusebius of Caesarea and other Greek works into Latin, and whose quarrel with Jerome of Strido over Origen ended an old friendship.",
+  "dates": "Born about 344 or 345, by W. H. Fremantle's reckoning; back with his family in Italy after nearly thirty years away, by his own account in a letter Fremantle dates to 400; in Sicily in 410, when he wrote his preface to Origen on Numbers; died there in 410, by the notes to Fremantle's edition of Jerome",
+  "place": "Aquileia; Egypt; Jerusalem; Rome; Sicily",
+  "tradition": "The Church of Aquileia",
+  "role": "Monk, priest and translator",
+  "briefLength": "about 2 minutes 30 seconds",
+  "keyWorks": [
+    {
+      "title": "Commentary on the Apostles' Creed",
+      "about": "the creed as he was taught it at his baptism in Aquileia, clause by clause, with the old tradition that the apostles framed it together"
+    },
+    {
+      "title": "Church History, Books 10 and 11",
+      "about": "his Latin Eusebius, with two books of his own added, from Constantine to the death of Theodosius, written at the request of Chromatius of Aquileia"
+    },
+    {
+      "title": "Apology to Apronianus, against Jerome",
+      "about": "two books in answer to Jerome's letter to Pammachius, defending his faith and his way of translating Origen"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "W. H. Fremantle, who translated him, says many works of Origen, On First Principles among them, are known only through his Latin, since they are \"lost in their native Greek\".",
+      "Gennadius of Marseilles credits him with Latin versions of Basil of Caesarea, Gregory of Nazianzus, the Recognitions of Clement of Rome, the Sentences of Xystus and of Evagrius, and the Church History of Eusebius.",
+      "Socrates of Constantinople followed his Church History for his own first two books, then revised them, finding that Rufinus \"has erred in respect to chronology.\"",
+      "His Commentary on the Creed follows the creed of Aquileia, and notes that \"He descended into Hell\" was not in the creed of the Roman church."
+    ],
+    "remembered": [
+      "Palladius of Helenopolis, who took his side against Jerome: \"A more learned man or a kinder than he was not to be found among men.\"",
+      "Gennadius says Rufinus \"was not the least among the doctors of the church and had a fine talent for elegant translation from Greek into Latin.\"",
+      "Augustine of Hippo, writing to Jerome, asked \"where is the friend who may not be feared as possibly a future enemy, if the breach that we deplore could arise between Jerome and Rufinus?\"",
+      "Epiphanius of Salamis, in a letter Jerome put into Latin, prayed that God would free \"especially the presbyter Rufinus, from the heresy of Origen.\""
+    ]
+  },
+  "uncertain": [
+    "Much of his life is told by Rufinus himself and by Jerome of Strido, once his close friend and later his foe. Each is a partisan on the other. Palladius of Helenopolis and Gennadius of Marseilles, who praise him, took his side.",
+    "Fremantle puts his birth about 344 or 345. Ernest Cushing Richardson's note to Gennadius gives 345. No early witness in the sources used here gives the year.",
+    "Jerome, writing to him in 399 by Fremantle's date, speaks of his native country. Fremantle's edition of Jerome names it as Concordia, near Aquileia.",
+    "Rufinus says he cut only passages he believed heretics had put into Origen's books, as Jerome himself had done. Jerome says he left heretical views standing, so that a reader \"would take in these heretical views without warning\".",
+    "Rufinus translated the Defence of Origen as the work of the martyr Pamphilus. Jerome says it was the first of six books by Eusebius of Caesarea. Fremantle quotes Lightfoot's view that it was the joint work of both.",
+    "Anastasius, bishop of Rome, wrote that Rufinus \"must bring his conscience to the bar of the divine majesty.\" Fremantle finds no reason to think the bishop passed sentence on him or summoned him to Rome.",
+    "His imprisonment and exile in Egypt rest on his own word. Socrates of Constantinople says only that Rufinus called himself a witness, and one of the sufferers, when the monks of Egypt were attacked.",
+    "Jerome's line that \"the scorpion lies beneath the ground\" does not name him. The notes to Fremantle's edition of Jerome take the scorpion for Rufinus and date his death to 410, in Sicily."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Apology to Anastasius; Apology to Apronianus; Commentary on the Apostles' Creed; prefaces to his translations (tr. W. H. Fremantle)",
+        "language": "English translation",
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+      },
+      {
+        "title": "Church History, Books 10 and 11, in Latin (ed. Theodor Mommsen)",
+        "language": "Latin",
+        "file": "cic/texts/eusebius_werke-bd2-2-historia-ecclesiastica-vi-x-rufinus-x-xi-grc-lat_schwartz-mommsen1908.txt"
+      },
+      {
+        "title": "Preface to Origen's Homilies on Numbers, in Latin (ed. W. A. Baehrens)",
+        "language": "Latin",
+        "file": "cic/texts/rufinus-aquileia_origenes-werke-bd7-homilien-numeri_baehrens1921.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Apology against Rufinus",
+        "author": "Jerome of Strido",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+      },
+      {
+        "title": "Letters 4 and 81; Letter 51, from Epiphanius of Salamis; Preface to the Commentary on Ezekiel",
+        "author": "Jerome of Strido; Epiphanius of Salamis",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf206_jerome-principal-works.xml"
+      },
+      {
+        "title": "Lausiac History, chapter 46",
+        "author": "Palladius of Helenopolis",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/palladius_lausiac-history_clarke1918.txt"
+      },
+      {
+        "title": "Lives of Illustrious Men, chapter 17",
+        "author": "Gennadius of Marseilles",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+      },
+      {
+        "title": "Letter to John of Jerusalem concerning Rufinus",
+        "author": "Anastasius of Rome",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+      },
+      {
+        "title": "Church History, Book 2, chapter 1; Book 4, chapter 24",
+        "author": "Socrates of Constantinople",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
+      },
+      {
+        "title": "Letter 73, to Jerome",
+        "author": "Augustine of Hippo",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf101_augustine-confessions-letters.xml"
+      },
+      {
+        "title": "Prolegomena on the Life and Works of Rufinus",
+        "author": "W. H. Fremantle",
+        "date": null,
+        "language": "English",
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+      }
+    ]
+  }
+}
