@@ -1,0 +1,67 @@
+{
+  "name": "Socrates of Constantinople",
+  "otherNames": [
+    "Socrates Scholasticus"
+  ],
+  "knownFor": "Church historian of Constantinople whose seven-book Church History carries the story on from Eusebius of Caesarea, from Constantine to 439, with many of the emperors' letters and the bishops' decisions set out in full.",
+  "dates": "Born at Constantinople, no earlier than 379 by A. C. Zenos's reading; his history ends in the emperor Theodosius's seventeenth consulship, 439; he lived some time after, since he revised his first two books",
+  "place": "Constantinople",
+  "tradition": "Constantinople",
+  "role": "Church historian and recorder",
+  "briefLength": "about 2 minutes",
+  "keyWorks": [
+    {
+      "title": "Church History",
+      "about": "seven books from the proclamation of Constantine to 439, one to each emperor as A. C. Zenos describes the plan, written for Theodore, whom Socrates calls \"O holy man of God\"; the first two books were rewritten after he read Athanasius of Alexandria"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "A. C. Zenos, who revised the English translation, says the history was used, \"according to the best authorities\", by Sozomen, and certainly by Liberatus of Carthage and by Theodorus Lector.",
+      "Zenos reports that Epiphanius Scholasticus put the histories of Socrates, Sozomen and Theodoret of Cyrrhus into Latin under Cassiodorus, as the Tripartite History.",
+      "Chester Hartranft, in the same volume, says Sozomen never names Socrates, but that the internal evidence makes Sozomen's use of him sure."
+    ],
+    "remembered": [
+      "Hartranft judges that \"Socrates was the finer mind, that he had larger sympathies\", and that he followed the church's growth \"with a sharper and brighter criticism\" than Sozomen.",
+      "Socrates himself expected that \"The zealots of our churches will condemn us for not calling the bishops 'Most dear to God,' 'Most holy,' and such like.\""
+    ]
+  },
+  "uncertain": [
+    "His life is known almost only from remarks in his own history. Zenos says that reconstructing it from these scattered items \"is a matter of difficult critical investigation.\"",
+    "Whether he was a Novatian is disputed. Zenos reports that Baronius, Labbe and others, after Nicephorus Callistus, held that he was, from how closely and kindly he writes of the Novatians. Valesius, and most later writers, put it down to his fairness, and note that he treats the Novatians as apart from the Catholic Church.",
+    "Whether he was a lawyer is disputed. The name Scholasticus could mean one who had studied for a profession, the advocate's among them. Zenos thinks he was trained as an advocate, and Valesius argued that he was a layman and a lawyer. Harnack, Zenos reports, denies that the History shows any legal knowledge. Hartranft calls it \"simply an uncertified tradition\".",
+    "His birth year rests on no held line. Valesius reasoned from his schooling under Helladius and Ammonius that he was born in 379. Zenos says the only certainty is that he was born no earlier than 379.",
+    "Theodore, to whom the history is written, is not otherwise identified. Zenos infers from the address \"O holy man of God\" that he was a presbyter, and says he cannot be Theodore of Mopsuestia, who died in 429.",
+    "No source used here gives his death."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Church History (tr. A. C. Zenos, revising earlier translations)",
+        "language": "English translation",
+        "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
+      },
+      {
+        "title": "Historia ecclesiastica, Greek text (ed. Robert Hussey), volumes 1 and 2",
+        "language": "Greek",
+        "file": "cic/texts/socrates_historia-ecclesiastica-tomus1-grc-lat_hussey1853.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Introduction to Socrates",
+        "author": "A. C. Zenos",
+        "date": null,
+        "language": "English",
+        "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
+      },
+      {
+        "title": "Introduction to Sozomen, on Sozomen's use of Socrates",
+        "author": "Chester Hartranft",
+        "date": null,
+        "language": "English",
+        "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
+      }
+    ]
+  }
+}
