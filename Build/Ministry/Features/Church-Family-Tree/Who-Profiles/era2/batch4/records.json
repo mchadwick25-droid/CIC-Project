@@ -23,7 +23,7 @@
       },
       {
         "claim": "Suffered imprisonment and exile when heretics persecuted him at Alexandria",
-        "witness": "Rufinus, Apology to Anastasius 2 (npnf203 l.45967-45969); Socrates IV.24 (npnf202 l.13741) repeats it as Rufinus's own claim; one witness",
+        "witness": "Rufinus, Apology to Anastasius 2 (npnf203 l.45967-45969); one witness. Socrates IV.24 (npnf202 l.13741-13742) says only that Rufinus called himself a witness, and one of the sufferers, when the monks of Egypt were driven from their oratories; he says nothing of prison or exile",
         "formation_confidence": "Documented"
       },
       {
@@ -68,7 +68,7 @@
       },
       {
         "claim": "Jerome's 'scorpion' who 'lies beneath the ground' is Rufinus",
-        "witness": "Jerome, Preface to Ezekiel I (npnf206 l.47995) names no one; the identification is W. H. Fremantle's note (l.47992-47994)",
+        "witness": "Jerome, Preface to Ezekiel I (npnf206 l.47995) names no one; the identification is endnote 5438 in Fremantle's edition (l.47992-47994), whose notes Fremantle says were mostly added by G. Lewis and W. G. Martley (l.492-494)",
         "formation_confidence": "Widely Accepted"
       },
       {
@@ -83,7 +83,7 @@
       },
       {
         "claim": "Died in 410, in Sicily",
-        "witness": "W. H. Fremantle's note to Jerome's Ezekiel preface (npnf206 l.47992-47994); Richardson's note (npnf203 l.42466); his last dated preface places him in Sicily in 410",
+        "witness": "endnote 5438 in Fremantle's edition of Jerome (npnf206 l.47992-47994); Richardson's note (npnf203 l.42466); his last dated preface places him in Sicily in 410",
         "formation_confidence": "Dominant Modern Reconstruction"
       }
     ],
@@ -108,11 +108,11 @@
       },
       {
         "detail": "The place and manner of his death",
-        "note": "No early witness used here says where or how he died; Jerome's 'scorpion' line names no one. Fremantle's note supplies 410 and Sicily."
+        "note": "No early witness used here says where or how he died; Jerome's 'scorpion' line names no one. The notes to Fremantle's edition of Jerome supply 410 and Sicily."
       },
       {
         "detail": "His native town from an early witness",
-        "note": "Jerome speaks of his 'native country' (Letter 81); the name Concordia is Fremantle's note. Gennadius calls him a presbyter of Aquileia."
+        "note": "Jerome speaks of his 'native country' (Letter 81); the name Concordia is a note in Fremantle's edition (npnf206 l.18428). Gennadius calls him a presbyter of Aquileia."
       },
       {
         "detail": "Where and when he was ordained priest",
@@ -124,7 +124,7 @@
     "claims": [
       {
         "claim": "Tried by a synod of fourteen bishops at Diospolis late in 415, in the absence of his accusers Heros and Lazarus, and declared in communion with the Catholic Church after answering the charges and anathematizing the opinions he disowned 'as fools, not as heretics'",
-        "witness": "Augustine, On the Proceedings of Pelagius 2, 6, 16, 44 (quoting the synod's record; Augustine was an opponent); date December 415 by B. B. Warfield's Introductory Essay",
+        "witness": "Augustine, On the Proceedings of Pelagius 2, 6, 16, 44 (quoting the synod's record; Augustine was an opponent); date December 415 by B. B. Warfield's Introductory Essay, told in the brief as Warfield's date (see contested_claims)",
         "formation_confidence": "Documented"
       },
       {
@@ -163,8 +163,8 @@
         "formation_confidence": "Widely Accepted"
       },
       {
-        "claim": "After Diospolis the African councils condemned him again, Innocent agreed, the emperor banished the Pelagians from Rome in 418 and Zosimus condemned him",
-        "witness": "B. B. Warfield, Introductory Essay; Gennadius, Lives 44 (Innocent's decree, promulgated by Zosimus)",
+        "claim": "After Diospolis the African councils condemned him again and Innocent agreed; Zosimus, Innocent's successor, at first declared Pelagius and Caelestius orthodox in September 417, then wavered; the emperor banished the Pelagians from Rome in 418 and Zosimus condemned him",
+        "witness": "B. B. Warfield, Introductory Essay (npnf105 l.922-941; an editor on Augustine's side); Gennadius, Lives 44 (Innocent's decree, promulgated by Zosimus)",
         "formation_confidence": "Widely Accepted"
       },
       {
@@ -183,8 +183,8 @@
         "formation_confidence": "Documented"
       },
       {
-        "claim": "Augustine and Jerome worked together against him, so they count as one hostile side",
-        "witness": "W. H. Fremantle's prolegomena and his introduction to the Dialogue against the Pelagians (npnf206); Who scan era 2 and Opus check notes",
+        "claim": "Augustine wrote book after book against him; Jerome, to whom Augustine appealed, wrote against him too, so the two count as one hostile side",
+        "witness": "W. H. Fremantle, prolegomena to Jerome (npnf206 l.1712-1720: Augustine and Ctesiphon appealed to Jerome) and introduction to the Dialogue against the Pelagians (l.42449: 'induced to interest himself in it by his increasing regard for Augustin')",
         "formation_confidence": "Widely Accepted"
       }
     ],
@@ -249,13 +249,13 @@
       },
       {
         "claim": "A deacon Paulinus brought a written charge against Caelestius at Carthage, about 412, and questioned him at the hearing",
-        "witness": "Record of the Carthage hearing, quoted in Augustine, On Original Sin 3-4; Marius Mercator, Commonitorium on the name of Caelestius 1; date by B. B. Warfield and the note in the English edition",
+        "witness": "Record of the Carthage hearing, quoted in Augustine, On Original Sin 3-4; Marius Mercator, Commonitorium on the name of Caelestius 1; date by B. B. Warfield ('Early in 412', npnf105 l.885) and the note in the English edition, told in the brief as Warfield's date (see contested_claims)",
         "formation_confidence": "Documented"
       },
       {
         "claim": "The accuser of Caelestius is the author of the Life of Ambrose",
-        "witness": "Inference: Mercator calls the accuser a deacon of Ambrose of Milan; the Life places its author in Ambrose's household and in Africa; Kaniecka takes them as one man. The note in npnf105 (On Original Sin 3) says Mercator makes the accuser the biographer; the Latin of Mercator held here does not say so",
-        "formation_confidence": "Widely Accepted"
+        "witness": "Reconstruction by Sister Mary Simplicia Kaniecka (1928 introduction), and before her by the note in the Migne edition of Mercator (PL 48, l.3660-3667), which argues from the style of the petition printed by Baronius. Its basis: Mercator calls the accuser a deacon of Ambrose of Milan; the Life places its author in Ambrose's household and in Africa. The note in npnf105 (On Original Sin 3) says Mercator makes the accuser the biographer; the Latin of Mercator held here does not say so",
+        "formation_confidence": "Dominant Modern Reconstruction"
       },
       {
         "claim": "Summoned to Rome by Zosimus in 417 through the subdeacon Basiliscus, he sent a petition instead, thanking the apostolic see for ordering Caelestius to condemn his charges and saying he always wanted Caelestius corrected",
@@ -414,7 +414,7 @@
       },
       {
         "claim": "Bishop of Arles from 426, died January 429",
-        "witness": "Edgar Gibson, Prolegomena to Cassian, from the prefaces to the Conferences",
+        "witness": "Edgar Gibson, Prolegomena to Cassian (npnf211, gives the dates without naming a source and uses them to date Cassian's prefaces)",
         "formation_confidence": "Dominant Modern Reconstruction"
       },
       {
@@ -492,13 +492,13 @@
       },
       {
         "claim": "Charged with teaching Origen's heresy",
-        "witness": "Epiphanius of Salamis, Letter to John of Jerusalem, in Jerome Letter 51 (npnf206 l.11122-11124); an opponent",
-        "formation_confidence": "Documented"
+        "witness": "Epiphanius of Salamis, Letter to John of Jerusalem, in Jerome Letter 51 (npnf206 l.11122-11124); an opponent in the Origenist quarrel. Identification with Palladius of Helenopolis contested (see contested_claims)",
+        "formation_confidence": "Contested"
       },
       {
-        "claim": "Jerome called him 'no better than a villainous slave'",
-        "witness": "Jerome, Against the Pelagians, Prologue (npnf206 l.42618); identification in Fremantle's note (l.42611-42617), with Tillemont's doubt",
-        "formation_confidence": "Widely Accepted"
+        "claim": "Jerome wrote that a Palladius, 'no better than a villainous slave', tried to revive the same heresy (Origenism); whether this is Palladius of Helenopolis is disputed",
+        "witness": "Jerome, Against the Pelagians, Prologue (npnf206 l.42618), an opponent; the identification is in the notes to Fremantle's edition (l.42611-42617; most notes by G. Lewis and W. G. Martley, l.492-494), which report Tillemont's doubt",
+        "formation_confidence": "Contested"
       },
       {
         "claim": "Thought Jerome's temper overshadowed his achievements",
@@ -519,6 +519,10 @@
       {
         "claim": "His age when he began the Lausiac History",
         "sides": "Clarke's text (Prologue 2, l.185): the fifty-sixth year of his life, which Clarke dates to 419-420. Budge (Syriac, l.95): a monk until the thirty-third year of his age, then twenty years a bishop, so fifty-three."
+      },
+      {
+        "claim": "Whether the Palladius of Epiphanius's letter and of Jerome's prologue against the Pelagians is Palladius of Helenopolis",
+        "sides": "The notes to Fremantle's edition of Jerome (npnf206 l.42611-42617): yes, 'Palladius, bishop of Hellenopolis', tainted with Origenism according to Epiphanius and Jerome; Clarke's note 241 (Lausiac, l.1119) adds that Palladius's dislike of Jerome was reciprocated. Tillemont, as those notes report: 'another Palladius may be referred to in these passages'."
       }
     ],
     "absent_details": [
@@ -606,7 +610,7 @@
       },
       {
         "claim": "Whether the teaching of Conference XIII on grace and free will is sound",
-        "sides": "Cassian, through Chaeremon, holds that grace and free will are in harmony and that sometimes a good will begins in man and God meets it. Prosper of Aquitaine, an ardent Augustinian by Gibson's account, attacked the Conference (his book is not held; Gennadius and Gibson report it, and Gibson says Prosper allowed only the first of twelve propositions). Gennadius of Marseilles sides with Cassian, saying the church finds his works salutary. Edgar Gibson, after William Bright, calls the teaching Semi-Pelagian and erroneous, but judges Augustine's teaching one-sided."
+        "sides": "Cassian, through Chaeremon, holds that grace and free will are in harmony and that sometimes a good will begins in man and God meets it. Prosper of Aquitaine, an ardent Augustinian by Gibson's account, attacked the Conference (his book is not held; Gennadius and Gibson report it, and Gibson says Prosper allowed only the first of twelve propositions). Gennadius of Marseilles sides with Cassian, saying the church finds his works salutary. Edgar Gibson, and William Bright whom he quotes, call the teaching Semi-Pelagian (a name Cassian does not use) and erroneous, but judges Augustine's teaching one-sided."
       }
     ],
     "absent_details": [
@@ -730,8 +734,8 @@
         "formation_confidence": "Documented"
       },
       {
-        "claim": "Wrote an encomium of Eunomius and a work against Porphyry",
-        "witness": "Photius, Epitome III.21 (l.190) and X.10 (l.390); Quasten via Pearse (l.56)",
+        "claim": "Wrote an encomium of Eunomius and a work against Porphyry of Tyre",
+        "witness": "Photius, Epitome III.21 (l.190) and X.10 (l.390); Quasten via Pearse (l.56). 'Of Tyre': Socrates III.23 quotes Libanius's 'the Tyrian', which A. C. Zenos's note there identifies as Porphyry (npnf202 l.11733-11735)",
         "formation_confidence": "Documented"
       },
       {
