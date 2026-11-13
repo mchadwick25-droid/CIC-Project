@@ -162,7 +162,7 @@
    },
    {
     "claim": "Whether Mesrop was the first to make Armenian letters",
-    "sides": "Koriun (l.3575-3585): Daniel's help came to nothing and the letters were revealed to Mesrop. Langlois, following Luc Indjidji (l.3053-3061), and the later writers he quotes (Assoghig, Samuel of Ani, Guiragos, Vartan, l.3130-3290): an older alphabet kept by Daniel existed, and Mesrop completed it."
+    "sides": "Koriun (l.3575-3585): Daniel's help came to nothing and the letters were revealed to Mesrop. Lazar of Pharp (l.36299-36318): Daniel held Armenian letters, found insufficient to spell the language. Langlois, following Luc Indjidji (l.3053-3061), and the later writers he quotes (Assoghig, Samuel of Ani, Guiragos, Vartan, l.3130-3290): an older alphabet kept by Daniel existed, and Mesrop completed it."
    },
    {
     "claim": "Where Rufinus came from",
@@ -196,7 +196,7 @@
     "formation_confidence": "Documented"
    },
    {
-    "claim": "The council cried out 'we all anathematize Nestorius as a heretic'",
+    "claim": "After Nestorius's letter was read and judged one by one, the council cried out 'we all anathematize Nestorius as a heretic'",
     "witness": "Acts of Ephesus, Session I (npnf214 l.15840-15846)",
     "formation_confidence": "Documented"
    },
@@ -287,7 +287,7 @@
    },
    {
     "claim": "Whether the Council of Ephesus received the Twelve Anathematisms",
-    "sides": "Henry Percival (npnf214 l.15880-15899): the Acts do not say the letter was read or the anathemas received, while no one disputes Chalcedon received them; the bracket in the acts extract (l.15855-15862) says Cyril's letter 'Cum Salvator noster' was read."
+    "sides": "Henry Percival (npnf214 l.15880-15899): the Acts do not say the letter was read or the anathemas received, while no one disputes Chalcedon received them; he argues that those who defend John of Antioch cannot consistently deny the council adopted them (l.15899-15907), and reports that Hefele moved from 'merely read' to acceptance (l.15908-15912); the bracket in the acts extract (l.15855-15862) says Cyril's letter 'Cum Salvator noster' was read."
    },
    {
     "claim": "Whether Theodoret wrote the letter on Cyril's death (Letter 180)",
@@ -333,7 +333,7 @@
    },
    {
     "claim": "'The other family' founded the first churches and monasteries there, and Sozomen saw some of its good men in his youth",
-    "witness": "Sozomen V.15 (npnf202 l.36386-36393); the family is Alaphion's by Hartranft's note",
+    "witness": "Sozomen V.15 (npnf202 l.36386-36393); the family is probably Alaphion's, by Hartranft's note ('He probably means that of Alaphion', l.36388)",
     "formation_confidence": "Documented"
    },
    {
@@ -498,7 +498,7 @@
    },
    {
     "claim": "Whether Theodoret and Cyril really differed",
-    "sides": "Dioscorus and the bishops of 449 (Perry's Syriac acts) and the council of 553: his writings against Cyril were impious. Blomfield Jackson, and William Bright as Jackson quotes him: the two 'were substantially at one', though Bright finds language 'prima facie Nestorian' (npnf203 l.2746-2760)."
+    "sides": "Dioscorus and the bishops of 449 (Perry's Syriac acts) and the council of 553: his writings against Cyril were impious. Blomfield Jackson: the two 'were substantially at one' (npnf203 l.2756). William Bright, as Jackson quotes him: Theodoret 'uses a good deal of language which is prima facie Nestorian', but he and Cyril 'were essentially nearer to each other in belief than at the time they would have admitted' (l.2766-2771)."
    }
   ],
   "absent_details": [
@@ -662,7 +662,7 @@
     "formation_confidence": "Inferential-Thin"
    },
    {
-    "claim": "Went to Byzantium with Leon of his own accord",
+    "claim": "Went to Byzantium with Leon of his own accord, moved by envy (scan 'TeuTie', most likely 'l'envie')",
     "witness": "Moses of Khoren III (l.24627, 24659)",
     "formation_confidence": "Documented"
    }
@@ -814,7 +814,7 @@
     "formation_confidence": "Documented"
    },
    {
-    "claim": "Took up Arius's cause; Alexander told the bishops to 'pay no attention to anything that Eusebius should write to you'",
+    "claim": "Took up Arius's cause when Alexander put him out",
     "witness": "Alexander's circular letter in Socrates I.6 (npnf202 l.2158-2168); Sozomen I.15 (l.27623-27640)",
     "formation_confidence": "Documented"
    },
@@ -907,7 +907,7 @@
     "formation_confidence": "Widely Accepted"
    },
    {
-    "claim": "Constantine sent him with a letter to Alexander and Arius, and 'greatly loved this man'",
+    "claim": "Constantine sent him with a letter to Alexander and Arius",
     "witness": "Socrates I.7 (npnf202 l.2459-2463); Sozomen I.16 (l.27653-27657, 27713)",
     "formation_confidence": "Documented"
    },
@@ -942,6 +942,11 @@
     "formation_confidence": "Widely Accepted"
    },
    {
+    "claim": "After 'repeated stripes above measure' and plots against his kinsfolk, he 'yielded to them for a time'",
+    "witness": "Athanasius, Defence of his Flight 5 (npnf204 l.36613-36616); partisan",
+    "formation_confidence": "Documented"
+   },
+   {
     "claim": "Beaten and tortured at Sirmium until he signed their creed",
     "witness": "Socrates II.31 (npnf202 l.8202-8213); II.29 places the council after the consulate of Sergius and Nigrinian (l.7861-7862); Sozomen IV.6 (l.32895-32900), 'as it is reported'",
     "formation_confidence": "Contested"
@@ -960,12 +965,16 @@
    {
     "claim": "What he yielded at Sirmium",
     "sides": "Athanasius, History of the Arians 45: communion with Valens and Ursacius, but no signature against Athanasius. Socrates II.31 and Sozomen IV.6: he signed their creed under blows. Zenos notes Socrates confused the councils of Sirmium (npnf202 l.7900-7905)."
+   },
+   {
+    "claim": "When he died",
+    "sides": "Hefele, as Henry Percival quotes him: 'At the time of the Synod of Gangra Hosius was without doubt dead.' Cave, as Percival reports: his episcopate covered seventy years ending with 361. Pagi, as Percival reports: he may have attended the Synod of Gangra in 358 on his way back to Spain (npnf214 l.8435-8448)."
    }
   ],
   "absent_details": [
    {
-    "detail": "Birth, family, death year and place",
-    "note": "No source used here gives them; Athanasius speaks of conspiracies against unnamed kinsfolk (npnf204 l.36614-36615)."
+    "detail": "Birth, family, and an ancient witness to his death",
+    "note": "No ancient source used here gives his birth, family, or the year and place of his death. Henry Percival reports modern views on his death (npnf214 l.8435-8448), recorded as a contested claim."
    },
    {
     "detail": "The original language of his letter",
