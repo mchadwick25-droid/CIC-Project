@@ -40,12 +40,12 @@ test('with every world closed, built worlds show only the quiet line', () => {
   assert.match(page, /<p class="door-quiet"><a href="https:\/\/churchinconversation.com\/">Church in Conversation<\/a>, from the same team.<\/p>/);
 });
 
-test('the support page carries the not-a-nonprofit line word for word', () => {
-  const source = fs.readFileSync(path.join(root, 'cic-website/support.html'), 'utf8');
-  const line = source.match(/<p class="fine-print">(Church in Conversation is part of Faithways Studio[^<]*)<\/p>/)[1];
+test('the support page says who publishes it and that payments are not tax-deductible', () => {
   const page = fs.readFileSync(path.join(root, 'cft-website/support.html'), 'utf8');
-  assert.ok(page.includes(`<p>${line}</p>`));
-});
+  assert.match(page, /Published by Faithways Studio, Inc\., a Colorado public benefit corporation\./);
+  assert.match(page, /not charitable donations\. They are not tax-deductible\./);
+  assert.match(page, />Support once<\/a><a href="[^"]+">Support monthly<\/a>/);
+})
 
 test('major links are marked, and a link with an outcome shows its lasting result', () => {
   const c = structuredClone(census);

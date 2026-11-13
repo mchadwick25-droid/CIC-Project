@@ -411,35 +411,35 @@
   "title": "Support the tree",
   "sections": [
    {
-    "heading": "What a gift pays for",
+    "heading": "Did you find this helpful?",
     "paragraphs": [
-     "A gift pays for hosting and storage for the site. This includes the narration recordings.",
-     "It pays for the narration itself. We make the recordings with a paid voice service, ElevenLabs, which charges by the length of the text.",
-     "It pays for the research behind each link and place. That work means finding the sources, checking each quotation, and grading how sure the record is.",
-     "It would also help pay for independent scholarly review. That is the project's biggest need, and we hope to fund it."
-    ]
-   },
-   {
-    "heading": "Who you are giving to",
-    "paragraphs": [
-     "One company makes the tree and Church in Conversation.",
-     "Church in Conversation is part of Faithways Studio, Inc., a Colorado public benefit corporation — not a nonprofit. Contributions are not tax-deductible."
-    ]
-   },
-   {
-    "heading": "How to give",
-    "paragraphs": [
-     "Two buttons below let you give through Stripe: \"Give once\" and \"Give monthly\".",
-     "To give another way, email info@churchinconversation.com."
+     "Every tradition on this map is traced through what it left behind: its sources, its documents, and the testimonies of its people.",
+     "If this helped your study, teaching, or curiosity, please consider supporting the work behind it so we can keep it free to read and explore."
     ],
     "extra": "give"
    },
    {
+    "heading": "What your payment supports",
+    "paragraphs": [],
+    "list": [
+     "Primary-source research that traces each link back to verified editions",
+     "Scholarly review by historians and specialists across traditions",
+     "Audio narration, so the story can be heard as well as read",
+     "Translations, so people around the world can read it in their own language",
+     "Hosting and infrastructure that keeps the service fast and online",
+     "The people who research, write, and maintain the platform"
+    ],
+    "after": [
+     "Published by Faithways Studio, Inc., a Colorado public benefit corporation. Payments are voluntary support for our research and publishing services, not charitable donations. They are not tax-deductible."
+    ]
+   },
+   {
     "heading": "Ways to help that cost nothing",
-    "paragraphs": [
-     "Introduce a scholar, seminary or professor who might review the tree.",
-     "Report an error with the \"Report a problem\" button on any page.",
-     "Tell someone who would enjoy the map."
+    "paragraphs": [],
+    "list": [
+     "Introduce us to a scholar, seminary, or professor who might review a section of the map.",
+     "Spot a mistake? Use the \"Report a problem\" button on any page.",
+     "Share the map with a pastor, study group, or friend who would find it useful."
     ]
    }
   ]
@@ -474,9 +474,9 @@
     ]
    },
    {
-    "heading": "Voluntary contributions",
+    "heading": "Voluntary support",
     "paragraphs": [
-     "Voluntary contributions help cover our costs. They don't buy access or any say over our content. They are not tax-deductible, because we are a public benefit corporation, not a charity. If you ask within 30 days, we'll refund your contribution."
+     "Voluntary support pays for the research, scholarly review, narration, translation, hosting and people behind our work. It is not a charitable donation, and it doesn't buy access or any say over our content. It is not tax-deductible. If you ask within 30 days, we'll refund your payment."
     ]
    },
    {
@@ -500,7 +500,9 @@
  },
  "give": {
   "once": "https://donate.stripe.com/28E14g3Jp2Vsd1igEl8bS00",
-  "monthly": "https://buy.stripe.com/fZu5kwbbR0NkbXegEl8bS01"
+  "monthly": "https://buy.stripe.com/fZu5kwbbR0NkbXegEl8bS01",
+  "onceLabel": "Support once",
+  "monthlyLabel": "Support monthly"
  },
  "citationExamples": {
   "movement": "desert-monasticism",
