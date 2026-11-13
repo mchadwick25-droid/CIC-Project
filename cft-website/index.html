@@ -17,7 +17,7 @@
   --parchment:#F6F6F2; --vellum:#FBFBF9; --iron-gall:#2A2521; --ink-faded:#6C6257;
   --rule:#E6DFD3; --madder:#A13E2B; --gold-leaf:#B45309; --tyrian:#6B3FA0;
   --tyrian-wash:#F3EFFA; --graphite:#8A837C; --shadow:0 2px 10px rgba(42,37,33,.18);
-  --link-grow:#2F7A45; --link-influence:#8A5A2B; --link-conflict:#C0392B; --link-contact:#8A837C;
+  --link-grow:#2F7A45; --link-influence:#8A5A2B; --link-conflict:#C0392B; --link-contact:#6E675F;
 }
 *{box-sizing:border-box}
 html,body{height:100%}
@@ -78,6 +78,7 @@ svg#world{display:block;overflow:visible}
 .era-tag{font-family:"Alegreya",Georgia,serif;font-style:italic;font-size:16px;fill:var(--ink-faded)}
 .era-context{font-family:"Alegreya",Georgia,serif;font-size:15px;fill:var(--iron-gall)}
 .era-close{font-style:italic;fill:var(--gold-leaf)}
+.lbl-cull{visibility:hidden}
 .lbl{display:none;font-family:"Alegreya Sans",sans-serif;font-size:0.6875rem;fill:var(--iron-gall);
   paint-order:stroke;stroke:var(--parchment);stroke-width:3px;stroke-linejoin:round;
   user-select:none}
@@ -89037,9 +89038,15 @@ const LINK_FAMILY={'gave rise to':'grow','continued as':'grow','influenced':'inf
 const LINK_FAMILY_LABEL={grow:'Grew out of, continued as',influence:'Influenced',conflict:'Argued against, broke with',contact:'In contact with, member of'};
 {
   const defs=el('defs',{});
+  const MARK_SHAPES={
+    grow:{ref:9,node:()=>el('path',{d:'M0,0 L10,5 L0,10 z',fill:'var(--link-grow)'})},
+    influence:{ref:9,node:()=>el('path',{d:'M1,5 L5.5,1 L10,5 L5.5,9 z',fill:'none',stroke:'var(--link-influence)','stroke-width':1.8,'stroke-linejoin':'miter'})},
+    conflict:{ref:7,node:()=>el('path',{d:'M7,-1 L7,11',fill:'none',stroke:'var(--link-conflict)','stroke-width':3.2})},
+    contact:{ref:5,node:()=>el('circle',{cx:5,cy:5,r:4.2,fill:'var(--link-contact)'})}
+  };
   Object.keys(LINK_FAMILY_LABEL).forEach(f=>{
-    const mk=el('marker',{id:`arrow-${f}`,viewBox:'0 0 10 10',refX:'9',refY:'5',markerWidth:'3.5',markerHeight:'3.5',orient:'auto-start-reverse'});
-    mk.appendChild(el('path',{d:'M0,0 L10,5 L0,10 z',fill:`var(--link-${f})`}));
+    const mk=el('marker',{id:`arrow-${f}`,viewBox:'0 0 10 10',refX:String(MARK_SHAPES[f].ref),refY:'5',markerWidth:'3.5',markerHeight:'3.5',orient:'auto-start-reverse',overflow:'visible'});
+    mk.appendChild(MARK_SHAPES[f].node());
     defs.appendChild(mk);
   });
   svg.insertBefore(defs,svg.firstChild);
@@ -89743,7 +89750,7 @@ function wrapText(str,maxChars){
 function render(){
   layoutMarks();
   gBands.innerHTML=''; gRivers.innerHTML=''; gBandFade.innerHTML=''; gEdges.innerHTML=''; gAcross.innerHTML=''; gNodes.innerHTML=''; gStories.innerHTML=''; gLabels.innerHTML=''; gWhoPills.innerHTML=''; gProfPills.innerHTML=''; gWho.innerHTML='';
-  lastOrganic=null; lastPlace=null;
+  lastOrganic=null; lastPlace=null; labelFit.items=null;
 
   eras.forEach((e,i)=>{
     if(isDark())gBands.appendChild(el('rect',{x:BLEED_X,y:eraY0[i],width:BLEED_W,height:eraH[i],fill:eraGround(i),opacity:0.75}));
@@ -89839,7 +89846,7 @@ function render(){
     const d=ga.laneOrder===gb.laneOrder ? sameRiverArc(ga,gb) : `M ${ga._x.toFixed(1)} ${ga._y.toFixed(1)} Q ${((ga._x+gb._x)/2).toFixed(1)} ${((ga._y+gb._y)/2-14).toFixed(1)} ${gb._x.toFixed(1)} ${gb._y.toFixed(1)}`;
     const line=el('path',{
       d, fill:'none', stroke:`var(--link-${LINK_FAMILY[edg.type]||'contact'})`, 'stroke-width':1.3, opacity:EDGE_CALM_OP,
-      ...(SYMMETRIC_EDGE_TYPES.has(edg.type)?{}:{'marker-end':`url(#arrow-${LINK_FAMILY[edg.type]||'contact'})`}),
+      ...linkMarks(edg.type,LINK_FAMILY[edg.type]||'contact'),
       'stroke-dasharray':dash, class:'edge-line', tabindex:'0', role:'button',
       'aria-label':`${edgeSentence(edg,a,b)}, ${edg.confidence}`
     });
@@ -90032,7 +90039,7 @@ function renderAcross(){
       const d=`M ${pa.x.toFixed(1)} ${pa.y.toFixed(1)} C ${(pa.x+bend).toFixed(1)} ${pa.y.toFixed(1)} ${(pb.x-bend).toFixed(1)} ${pb.y.toFixed(1)} ${pb.x.toFixed(1)} ${pb.y.toFixed(1)}`;
       const tie=el('path',{d,fill:'none',class:'tie',stroke:`var(--link-${fam})`,'stroke-width':1.4,
         'stroke-opacity':0.6,'stroke-dasharray':EDGE_DASH[edg.confidence]||'none','vector-effect':'non-scaling-stroke',
-        ...(SYMMETRIC_EDGE_TYPES.has(edg.type)?{}:{'marker-end':`url(#arrow-${fam})`}),
+        ...linkMarks(edg.type,fam),
         'aria-hidden':'true'});
       tie.dataset.across=[a,b].filter(isAcross).map(x=>x.id).join(' ');
       tie.dataset.lanes=[a,b].filter(x=>!isAcross(x)).map(x=>x.laneOrder).join('|');
@@ -90073,6 +90080,7 @@ function tipFor(m){
 }
 const EDGE_DASH={'Widely Accepted':'6,3','Dominant Modern Reconstruction':'6,3','Contested':'2,3','Inferential-Thin':'1,4'};
 const SYMMETRIC_EDGE_TYPES=new Set(['broke with','in contact with']);
+const linkMarks=(type,fam)=>({'marker-end':`url(#arrow-${fam})`,...(SYMMETRIC_EDGE_TYPES.has(type)?{'marker-start':`url(#arrow-${fam})`}:{})});
 function pairLinkNote(aId,bId){
   const other=DATA.edges.find(e=>(e.from===aId&&e.to===bId)||(e.from===bId&&e.to===aId));
   return other?`The checked link between them is “${esc(other.type)}” (${esc(other.confidence)}), listed above.`:'No link between them has been drawn and checked yet.';
@@ -90501,8 +90509,9 @@ function buildLegend(){
   const lanesAll=`<button type="button" class="row" data-toggle="lanes-all" aria-pressed="true"><i style="background:conic-gradient(${FAM.filter(f=>laneKeys.includes(f.k)).slice(0,6).map((f,i,a)=>`${famColor(f)} ${i/a.length}turn ${(i+1)/a.length}turn`).join(',')})"></i><span class="sw-name">All rivers</span><span class="sw" aria-hidden="true"></span></button>`;
   let rivers=lanesAll;
   FAM.filter(f=>laneKeys.includes(f.k)).forEach(f=>{rivers+=`<button type="button" class="row" data-toggle="lane:${f.k}" aria-pressed="true"><i style="background:${famColor(f)}"></i><span class="sw-name">${esc(f.lbl)}</span><span class="sw" aria-hidden="true"></span></button>`;});
-  const colorKey=(f)=>`<svg class="linekey" viewBox="0 0 26 10"><line x1="1" y1="5" x2="25" y2="5" stroke="var(--link-${f})" stroke-width="2.4"/></svg>`;
-  let links=`<div class="note">Lines join traditions where the sources record a link. The color shows the kind of link. The line's pattern shows how sure the record is. Arrows point from the first movement to the second. Hover or click a line to read the link and its sources.</div>`;
+  const KEY_END={grow:'<path d="M20,1 L26,5 L20,9 z" fill="var(--link-grow)"/>',influence:'<path d="M17.5,5 L21.5,1.2 L25.5,5 L21.5,8.8 z" fill="none" stroke="var(--link-influence)" stroke-width="1.5"/>',conflict:'<path d="M24,0 L24,10" stroke="var(--link-conflict)" stroke-width="2.6"/>',contact:'<circle cx="4" cy="5" r="3" fill="var(--link-contact)"/><circle cx="22" cy="5" r="3" fill="var(--link-contact)"/>'};
+  const colorKey=(f)=>`<svg class="linekey" viewBox="0 0 26 10" aria-hidden="true"><line x1="${f==='contact'?4:1}" y1="5" x2="${f==='contact'?22:f==='grow'?20:f==='influence'?17.5:24}" y2="5" stroke="var(--link-${f})" stroke-width="2.4"/>${KEY_END[f]}</svg>`;
+  let links=`<div class="note">Lines join traditions where the sources record a link. The color and the mark at the end show the kind of link. The line's pattern shows how sure the record is. Where a link has a direction, the mark sits at the end it points to. Where a link joins two movements equally, the mark sits at both ends. Hover or click a line to read the link and its sources.</div>`;
   links+=`<button type="button" class="row" data-toggle="major" aria-pressed="false"><svg class="linekey" viewBox="0 0 26 10"><line x1="1" y1="5" x2="25" y2="5" stroke="var(--iron-gall)" stroke-width="3.4"/></svg><span class="sw-name">Major links</span><span class="sw" aria-hidden="true"></span></button>`;
   links+=`<div class="note">Major links show one movement growing out of another, a recorded break, or an act of authority the sources record, such as a council condemning a group. Pick a movement to see all of its links.</div>`;
   links+='<span class="cap">Kind of link</span>';
@@ -90556,6 +90565,7 @@ function buildLegend(){
     });
     document.querySelectorAll('.river-group,.node,.story,.who-stack,.river-pill,.prof-pill').forEach(g=>g.classList.toggle('is-off',laneOff(g.dataset.lane)));
     hideLabelsUnderWho();
+    scheduleLabelFit();
     document.querySelectorAll('.across,.across-col').forEach(g=>g.classList.toggle('is-off',!movementsOn));
     document.querySelectorAll('.tie').forEach(p=>p.classList.toggle('is-off',(p.dataset.lanes||'').split('|').filter(Boolean).some(laneOff)));
     document.querySelectorAll('.continues').forEach(g=>g.classList.toggle('is-off',g.dataset.lanes.split('|').some(laneOff)));
@@ -90608,7 +90618,7 @@ function buildLegend(){
 
 const stage=document.getElementById('stage');
 let scale=Math.min(window.innerWidth/CANVAS_W, window.innerHeight/eraH[0]/2.6), tx=0, ty=0;
-const MIN_S=0.06, MAX_S=3.2, DETAIL_THRESHOLD=0.34, PLACE_THRESHOLD=0.7;
+const MIN_S=0.06, MAX_S=3.2, DETAIL_THRESHOLD=0.34, PLACE_THRESHOLD=1.1;
 let lastOrganic=null, lastPlace=null;
 const BLEED_W=8000/MIN_S, BLEED_X=CANVAS_W/2-BLEED_W/2;
 const ERA_CAPTION_MARGIN=24;
@@ -90616,10 +90626,61 @@ function pinEraCaptions(){
   const x=((ERA_CAPTION_MARGIN-tx)/scale).toFixed(2);
   gLabels.querySelectorAll('text,tspan').forEach(t=>t.setAttribute('x',x));
 }
+const LABEL_MIN_PX=12, LABEL_BASE_PX=11;
+const labelFit={items:null,queued:false};
+function labelFitBuild(){
+  const deg={};
+  DATA.edges.forEach(e=>{deg[e.from]=(deg[e.from]||0)+1;deg[e.to]=(deg[e.to]||0)+1;});
+  const items=[];
+  svg.querySelectorAll('#nodes .node').forEach(g=>{
+    const lbl=g.querySelector('.lbl'), m=byId[g.dataset.id];
+    if(!lbl||!m)return;
+    const built=lbl.getAttribute('font-weight')==='700';
+    items.push({g,lbl,id:m.id,dx:m._x,dy:m._y,x:+lbl.getAttribute('x'),y:+lbl.getAttribute('y'),
+      end:lbl.getAttribute('text-anchor')==='end',w:0,
+      prio:(built?1e6:0)+(deg[m.id]||0)*10-(m.start||0)/1e4});
+  });
+  items.sort((a,b)=>b.prio-a.prio);
+  labelFit.items=items;
+}
+function labelFitRun(){
+  labelFit.queued=false;
+  if(!lastOrganic)return;
+  const fs=Math.max(LABEL_BASE_PX,LABEL_MIN_PX/scale), k=fs/LABEL_BASE_PX, enlarged=k>1.001;
+  if(!labelFit.items)labelFitBuild();
+  const items=labelFit.items;
+  if(!enlarged){
+    items.forEach(it=>{it.lbl.style.fontSize='';it.lbl.style.strokeWidth='';it.lbl.classList.remove('lbl-cull');});
+    return;
+  }
+  items.forEach(it=>{
+    if(it.w)return;
+    it.lbl.style.fontSize='';it.lbl.style.strokeWidth='';
+    it.w=it.lbl.getComputedTextLength();
+  });
+  const CELL=160, grid=new Map();
+  const cells=r=>{const out=[];for(let cx=Math.floor(r.x0/CELL);cx<=Math.floor(r.x1/CELL);cx++)for(let cy=Math.floor(r.y0/CELL);cy<=Math.floor(r.y1/CELL);cy++)out.push(cx+','+cy);return out;};
+  const hits=r=>cells(r).some(c=>(grid.get(c)||[]).some(o=>o.id!==r.id&&o.x0<r.x1&&o.x1>r.x0&&o.y0<r.y1&&o.y1>r.y0));
+  const add=r=>cells(r).forEach(c=>{if(!grid.has(c))grid.set(c,[]);grid.get(c).push(r);});
+  const live=items.filter(it=>!it.g.classList.contains('is-off')&&!it.g.classList.contains('who-under'));
+  live.forEach(it=>add({id:it.id,x0:it.dx-5,x1:it.dx+5,y0:it.dy-5,y1:it.dy+5}));
+  items.forEach(it=>{it.lbl.style.fontSize=fs+'px';it.lbl.style.strokeWidth=(3*k)+'px';});
+  items.forEach(it=>{
+    if(!live.includes(it)){it.lbl.classList.remove('lbl-cull');return;}
+    const w=it.w*k, x0=it.end?it.x-w:it.x;
+    const r={id:'l'+it.id,x0:x0-2,x1:x0+w+2,y0:it.y-fs*0.8,y1:it.y+fs*0.28};
+    const clash=hits(r);
+    it.lbl.classList.toggle('lbl-cull',clash);
+    if(!clash)add(r);
+  });
+}
+function scheduleLabelFit(){if(labelFit.queued)return;labelFit.queued=true;requestAnimationFrame(labelFitRun);}
+if(document.fonts&&document.fonts.addEventListener)document.fonts.addEventListener('loadingdone',()=>{if(labelFit.items)labelFit.items.forEach(it=>{it.w=0;});scheduleLabelFit();});
 function applyTransform(){
   gRoot.setAttribute('transform',`translate(${tx},${ty}) scale(${scale})`);
   if(!stage.classList.contains('pinching'))gRoot.style.setProperty('--zoom-scale',scale);
   pinEraCaptions();
+  scheduleLabelFit();
 }
 function applyDetail(){
   const organic = scale>DETAIL_THRESHOLD;
