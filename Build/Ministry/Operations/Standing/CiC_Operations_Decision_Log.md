@@ -203,3 +203,9 @@ Then "no we go back to from first and then add trusted sources as an add on". Th
 Then "no first": "Every tradition on this map is built from their own words: the letters, treatises, confessions and life stories they left us. Trusted sources fill in the rest." The second sentence keeps it accurate about the later histories.
 Then "take left behind our and add trusted sources on so on their... and trusted sources", "a but take the and out for life stories": "Every tradition on this map is built from their own letters, treatises, confessions, life stories, and from trusted sources."
 Then "take the second from out": "Every tradition on this map is built from their own letters, treatises, confessions, life stories, and trusted sources."
+
+## 2026-11-13 - 17. "Church Traditions Archive" is a Colorado trade name of Faithways Studio, Inc.
+
+**Project lead.** "the church traditions archive is registered in colorado as a tradename under faithways studio pbc"
+
+**Record.** All three names are now Statements of Trade Name of Faithways Studio, Inc. (entity ID 20261918758): Church in Conversation, Church Family Tree and Church Traditions Archive. As with the other two, the sites use ™ or no symbol beside the name, never ®. The document number for the Archive filing is not yet recorded here.
