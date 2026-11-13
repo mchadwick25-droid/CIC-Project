@@ -36,6 +36,7 @@ body{margin:0;background:var(--parchment);color:var(--iron-gall);
 .skip-link{position:absolute;left:-999px;top:auto;z-index:100;display:inline-flex;align-items:center;min-height:44px;padding:0 1rem;background:var(--iron-gall);color:var(--parchment);font-weight:700}
 .skip-link:focus{position:fixed;left:.8rem;top:.8rem}
 #stage:focus{outline:none}
+.sr-only{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0 0 0 0);clip-path:inset(50%);white-space:nowrap;border:0}
 .switches .foot{margin-top:.6rem;padding-top:.5rem;border-top:1px solid var(--rule);font-size:.75rem;color:var(--ink-faded);line-height:1.6}
 .switches .foot a{color:var(--gold-leaf)}
 .topbar button{font:inherit;font-size:1rem;min-height:44px;background:var(--vellum);color:var(--iron-gall);
@@ -324,9 +325,10 @@ svg.who-on .edge-line,svg.who-on .edge-hit,svg.who-on .continues{display:none!im
   <span class="tag">an interactive map of Christian tradition, from the first house-churches to about 2010</span>
 </header>
 <div class="feature-bar switches" id="switchbar" role="toolbar" aria-label="Show or hide parts of the map"></div>
+<div id="mapStatus" class="sr-only" role="status" aria-live="polite"></div>
 
 <main id="stage" tabindex="-1" aria-label="Map of the Church Family Tree">
-  <svg id="world" xmlns="http://www.w3.org/2000/svg"></svg>
+  <svg id="world" xmlns="http://www.w3.org/2000/svg" tabindex="-1" focusable="false"></svg>
 </main>
 
 <div id="tip"></div>
@@ -90530,6 +90532,23 @@ function buildLegend(){
   try{majorOnly=localStorage.getItem('tree-major')==='1';}catch(e){}
   let movementsOn=false;
   try{movementsOn=localStorage.getItem('tree-movements')==='1';}catch(e){}
+  const announceToggle=(b)=>{
+    const k=b.dataset.toggle, name=(b.querySelector('.sw-name')||b).textContent.trim();
+    const laneKeysAll=[...wrap.querySelectorAll('button[data-toggle^="lane:"]')].map(x=>x.dataset.toggle);
+    const riversShowing=laneKeysAll.filter(l=>!hidden.has(l)).length;
+    const riverCount=`${riversShowing} of ${laneKeysAll.length} rivers showing.`;
+    const kindsShowing=familyKeys.filter(f=>!hidden.has(f)).length;
+    const kindCount=`${kindsShowing} of ${familyKeys.length} kinds of link showing.`;
+    let msg;
+    if(k==='lanes-all')msg=(riversShowing?'All rivers shown. ':'All rivers hidden. ')+riverCount;
+    else if(k.startsWith('lane:'))msg=`${name} ${hidden.has(k)?'hidden':'shown'}. ${riverCount}`;
+    else if(k.startsWith('family:'))msg=`${name} links ${hidden.has(k)?'hidden':'shown'}. ${kindCount}`;
+    else if(k==='major')msg=(majorOnly?'Major links only. ':'All kinds of link shown. ')+kindCount;
+    else if(k==='movements')msg=`Movements ${movementsOn?'shown':'hidden'}.`;
+    else if(k==='stories')msg=`Stories ${hidden.has(k)?'hidden':'shown'}.`;
+    else return;
+    announce(msg);
+  };
   const applyToggles=()=>{
     const laneOff=l=>hidden.has(`lane:${l}`);
     document.querySelectorAll('.edge-line,.edge-hit').forEach(p=>{
@@ -90567,6 +90586,7 @@ function buildLegend(){
     if(kept){familyKeys.forEach(f=>keptHidden.delete(f));kept.fam.forEach(f=>keptHidden.add(f));}
     try{localStorage.setItem('tree-hidden',JSON.stringify([...keptHidden]));localStorage.setItem('tree-major',(kept?kept.major:majorOnly)?'1':'0');localStorage.setItem('tree-movements',movementsOn?'1':'0');}catch(e){}
     applyToggles();
+    announceToggle(b);
   }));
   applyToggles();
   whoLinks.suspend=()=>{if(whoLinks.saved)return;whoLinks.saved={fam:familyKeys.filter(f=>hidden.has(f)),major:majorOnly};familyKeys.forEach(f=>hidden.add(f));majorOnly=false;applyToggles();};
@@ -90671,6 +90691,12 @@ function endDrag(ev){
 stage.addEventListener('pointerup',endDrag);
 stage.addEventListener('pointercancel',endDrag);
 
+function announce(msg){
+  const box=document.getElementById('mapStatus');
+  if(!box)return;
+  box.textContent='';
+  setTimeout(()=>{box.textContent=msg;},60);
+}
 const PAN_STEP=90;
 function nudge(dx,dy){ tx+=dx; ty+=dy; applyTransform(); }
 {
@@ -90718,6 +90744,71 @@ document.addEventListener('keydown',(ev)=>{
     default: return;
   }
   ev.preventDefault();
+});
+const MAP_ITEM='[role="button"][tabindex]';
+let mapActive=null, mapSyncQueued=false;
+function mapItemShown(g){const r=g.getBoundingClientRect();return r.width>0||r.height>0;}
+function mapItems(){return [...svg.querySelectorAll(MAP_ITEM)].filter(mapItemShown);}
+function syncMapStop(){
+  mapSyncQueued=false;
+  const all=[...svg.querySelectorAll(MAP_ITEM)];
+  if(!all.length)return;
+  if(!(mapActive&&svg.contains(mapActive)&&mapItemShown(mapActive))){
+    const cx=window.innerWidth/2, cy=window.innerHeight/2;
+    let best=null, bestD=Infinity;
+    all.forEach(g=>{
+      if(!mapItemShown(g))return;
+      const r=g.getBoundingClientRect(), d=Math.hypot((r.left+r.right)/2-cx,(r.top+r.bottom)/2-cy);
+      if(d<bestD){bestD=d;best=g;}
+    });
+    mapActive=best;
+  }
+  all.forEach(g=>g.setAttribute('tabindex',g===mapActive?'0':'-1'));
+}
+function queueMapSync(){if(mapSyncQueued)return;mapSyncQueued=true;requestAnimationFrame(syncMapStop);}
+new MutationObserver(queueMapSync).observe(svg,{childList:true,subtree:true});
+svg.addEventListener('focusin',(ev)=>{
+  const g=ev.target.closest&&ev.target.closest(MAP_ITEM);
+  if(g&&g!==mapActive){if(mapActive)mapActive.setAttribute('tabindex','-1');mapActive=g;g.setAttribute('tabindex','0');}
+});
+function revealInView(g){
+  const r=g.getBoundingClientRect(), top=topInset()+8, m=48;
+  let dx=0, dy=0;
+  if(r.left<m)dx=m-r.left;else if(r.right>window.innerWidth-m)dx=window.innerWidth-m-r.right;
+  if(r.top<top)dy=top-r.top;else if(r.bottom>window.innerHeight-m)dy=window.innerHeight-m-r.bottom;
+  if(dx||dy)nudge(dx,dy);
+}
+function stepMapFocus(from,key){
+  const o=from.getBoundingClientRect(), ox=(o.left+o.right)/2, oy=(o.top+o.bottom)/2;
+  let best=null, bestScore=Infinity;
+  mapItems().forEach(g=>{
+    if(g===from)return;
+    const r=g.getBoundingClientRect(), dx=(r.left+r.right)/2-ox, dy=(r.top+r.bottom)/2-oy;
+    const along=key==='ArrowRight'?dx:key==='ArrowLeft'?-dx:key==='ArrowDown'?dy:-dy;
+    if(along<=1)return;
+    const across=(key==='ArrowRight'||key==='ArrowLeft')?Math.abs(dy):Math.abs(dx);
+    const score=along+2*across;
+    if(score<bestScore){bestScore=score;best=g;}
+  });
+  return best;
+}
+svg.addEventListener('keydown',(ev)=>{
+  if(ev.defaultPrevented||ev.ctrlKey||ev.metaKey||ev.altKey||ev.shiftKey)return;
+  if(panel.classList.contains('open'))return;
+  const g=ev.target.closest&&ev.target.closest(MAP_ITEM);
+  if(!g||g!==ev.target)return;
+  if(ev.key==='Escape'){
+    ev.preventDefault();
+    const out=document.getElementById('zoomInBtn')||stage;
+    out.focus();
+    return;
+  }
+  if(!/^Arrow(Up|Down|Left|Right)$/.test(ev.key))return;
+  ev.preventDefault();
+  const next=stepMapFocus(g,ev.key);
+  if(!next)return;
+  next.focus({preventScroll:true});
+  revealInView(next);
 });
 if(window.matchMedia&&window.matchMedia('(any-pointer:coarse)').matches){
   document.getElementById('zoomHint').textContent='Drag to move \u00b7 pinch to zoom';
