@@ -1,0 +1,46 @@
+{
+  "name": "Fabiola of Rome",
+  "knownFor": "A Roman widow who did public penance, sold her property for the poor, and founded a hospital that Jerome of Strido calls the first.",
+  "dates": "Died in 399, the year W. H. Fremantle's edition of Jerome gives for her death; at Bethlehem in 395, in the same edition's chronology",
+  "place": "Rome, and for a time Jerusalem and Bethlehem",
+  "tradition": "Hieronymian Ascetic-Literary Christianity",
+  "role": "Penitent, founder of a hospital, and patron of the poor",
+  "briefLength": "about 2 minutes",
+  "legacy": {
+    "traces": [
+      "A hospital for the sick poor, which Jerome says she founded \"into which she might gather sufferers out of the streets.\"",
+      "A home for strangers at Portus, which she and Pammachius set up together. Jerome writes that \"Britain has learned in the summer what Egypt and Parthia knew in the spring.\"",
+      "Two of Jerome's works were written for her: a letter on the vestments of the high priest, and a study of the halting-places of Israel in the desert, finished after her death."
+    ],
+    "remembered": [
+      "Jerome calls her \"the praise of the Christians, the marvel of the gentiles, the sorrow of the poor, and the consolation of the monks.\"",
+      "Jerome says that all Rome came to her funeral, and the streets, porches and roofs could not hold the crowd."
+    ]
+  },
+  "uncertain": [
+    "Her story comes from Jerome, her friend and host, above all from his letter of praise to Oceanus after her death. No writing of hers is held.",
+    "Jerome's words \"the first person to found a hospital\" are praise. Gregory of Nazianzus, in his funeral oration for Basil of Caesarea, describes a \"new city\" outside Caesarea, which his translators, Charles Gordon Browne and James Edward Swallow, gloss as a hospital for the sick. Jerome gives no year or place for Fabiola's hospital.",
+    "Jerome's letter tells of the hospital and of the house at Portus as two works. The heading in Fremantle's edition speaks of \"the hospital established by her at Portus\".",
+    "Jerome gives no years. The dates 395 and 399 are those of W. H. Fremantle's edition.",
+    "Jerome's Letter 55 answers a question about a woman who left a vicious husband and married again while he lived. The edition says she was \"supposed by Thierry to have been Fabiola\", and its heading to Letter 77 points to Letter 55 for her story.",
+    "Another Fabiola appears in Jerome's Letter 126. The edition says she \"must be carefully distinguished from the lady so often mentioned by Jerome.\""
+  ],
+  "sources": {
+    "about": [
+      {
+        "title": "Letters 64 and 78 to Fabiola, and Letter 77 to Oceanus on her death (tr. W. H. Fremantle, G. Lewis and W. G. Martley)",
+        "author": "Jerome of Strido",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf206_jerome-principal-works.xml"
+      },
+      {
+        "title": "Funeral Oration on Basil of Caesarea, chapter 63 (tr. Charles Gordon Browne and James Edward Swallow)",
+        "author": "Gregory of Nazianzus",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml"
+      }
+    ]
+  }
+}
