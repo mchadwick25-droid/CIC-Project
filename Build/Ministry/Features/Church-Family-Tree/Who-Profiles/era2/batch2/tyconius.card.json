@@ -1,0 +1,96 @@
+{
+  "name": "Tyconius",
+  "otherNames": [
+    "Tichonius",
+    "Tychonius"
+  ],
+  "knownFor": "Donatist writer of Africa whose Book of Rules gave seven keys for reading Scripture, and who argued against his own party without leaving it.",
+  "dates": "Late fourth century; Gennadius of Marseilles says he flourished under Theodosius and his sons, and F. C. Burkitt reckons he wrote before 383",
+  "place": "Africa",
+  "tradition": "Donatism",
+  "role": "Donatist writer",
+  "briefLength": "about 2 minutes",
+  "keyWorks": [
+    {
+      "title": "The Book of Rules (Liber Regularum)",
+      "about": "seven rules for reading Scripture, from the Lord and his body to the devil and his body"
+    },
+    {
+      "title": "Commentary on the Apocalypse",
+      "about": "the whole book read in a spiritual sense; believed lost, though later writers took much of it into their own"
+    },
+    {
+      "title": "On Internal War",
+      "about": "on the quarrels within the church, named by Gennadius; Burkitt says it has perished"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Augustine of Hippo, a Catholic bishop who wrote against the Donatists, set out all seven rules in On Christian Doctrine, Book 3, and commended the book to students.",
+      "F. C. Burkitt names Primasius, Bede and above all Beatus, a Spanish priest of Charlemagne's time, as writers who used his Apocalypse commentary as their main authority."
+    ],
+    "remembered": [
+      "Augustine calls him one \"who, although a Donatist himself, has written most triumphantly against the Donatists.\"",
+      "Gennadius says he was, \"it is said, sufficiently learned in sacred literature, not wholly unacquainted with secular literature and zealous in ecclesiastical affairs.\"",
+      "Burkitt says that throughout his review Augustine \"treats Tyconius as an authority to be explained rather than as a theorist to be criticised.\""
+    ]
+  },
+  "uncertain": [
+    "Burkitt says the little known of his life comes chiefly from Augustine of Hippo, a Catholic bishop who wrote against the Donatists. Augustine criticised his book and also drew on it. He calls him a Donatist who wrote against the Donatists, and \"of a most inconsistent disposition\" for staying with them.",
+    "What Tyconius reported about a Donatist council of two hundred and seventy bishops reaches us through Augustine's Letter 93. Augustine says Parmenian checked him by his reply but did not refute the facts, and that Tyconius said many were still living who could prove them.",
+    "Augustine faults his teaching that faith is our own and does not come from God. He adds that Tyconius wrote before the Pelagian quarrel, \"having no enemy to guard against\" on this point.",
+    "Burkitt's date before 383 rests on his reading of one passage, and he hedges it: \"it would seem that Tyconius wrote before 383 AD.\"",
+    "The sources used here do not give his birth, death, home town or whether he was ordained."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Liber Regularum, edited with an English introduction by F. C. Burkitt",
+        "language": "Latin",
+        "file": "cic/texts/tyconius_liber-regularum_burkitt1894.txt"
+      },
+      {
+        "title": "Preface of the Book of Rules, quoted in Augustine's On Christian Doctrine, Book 3, chapter 30",
+        "language": "English translation",
+        "file": "cic/texts/npnf102_augustine-city-of-god-christian-doctrine.xml"
+      }
+    ],
+    "about": [
+      {
+        "title": "On Christian Doctrine, Book 3, chapters 30 to 37",
+        "author": "Augustine of Hippo",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf102_augustine-city-of-god-christian-doctrine.xml"
+      },
+      {
+        "title": "Letter 93, to Vincentius, sections 43 to 45",
+        "author": "Augustine of Hippo",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf101_augustine-confessions-letters.xml"
+      },
+      {
+        "title": "On Baptism, against the Donatists, Book 1, with its notes",
+        "author": "Augustine of Hippo",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml"
+      },
+      {
+        "title": "Lives of Illustrious Men, chapter 18",
+        "author": "Gennadius of Marseilles",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+      },
+      {
+        "title": "Introduction to The Book of Rules of Tyconius",
+        "author": "F. C. Burkitt",
+        "date": null,
+        "language": "English",
+        "file": "cic/texts/tyconius_liber-regularum_burkitt1894.txt"
+      }
+    ]
+  }
+}
