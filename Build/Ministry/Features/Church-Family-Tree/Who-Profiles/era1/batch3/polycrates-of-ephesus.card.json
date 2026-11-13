@@ -1,0 +1,80 @@
+{
+  "name": "Polycrates of Ephesus",
+  "otherNames": [
+    "Polycrates"
+  ],
+  "knownFor": "Bishop of Ephesus who led the bishops of Asia in keeping Easter on the fourteenth day of the moon, and defended the custom in a letter to Victor of Rome.",
+  "dates": "Bishop while Victor was bishop of Rome; Jerome of Strido says he flourished under the emperor Severus",
+  "place": "Ephesus",
+  "tradition": "Post-apostolic church",
+  "role": "Bishop of Ephesus",
+  "briefLength": "about 2 minutes",
+  "keyWorks": [
+    {
+      "title": "Letter to Victor and the church of Rome",
+      "about": "the Asian custom of Easter, the great lights buried in Asia, and his own family of bishops; kept in part by Eusebius of Caesarea"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Arthur McGiffert, who translated Eusebius, calls him the leader of the bishops of Asia and \"the leading opponent of Bishop Victor of Rome.\""
+    ],
+    "remembered": [
+      "Eusebius quotes his letter twice, once to show where the apostle John was buried.",
+      "Jerome of Strido copied the letter \"to show through a small example the genius and authority of the man.\"",
+      "McGiffert says the praise of Eusebius and Jerome shows how far the Easter question had been buried before their time."
+    ]
+  },
+  "uncertain": [
+    "The letter is known only in the part Eusebius quotes. McGiffert says it is the only writing of Polycrates that is known, and that the years of his becoming bishop and of his death are not known.",
+    "McGiffert thinks Polycrates confused the apostle Philip with Philip the evangelist of the book of Acts. Lightfoot held that Polycrates was right.",
+    "Whether Victor excommunicated the churches of Asia or only threatened to is disputed. McGiffert holds that he did, and Socrates of Constantinople says so directly. Charles Joseph Hefele, the historian of the councils, follows Valesius: Victor only thought of it, and Irenaeus of Lyon kept him from carrying it out.",
+    "Polycrates says John \"wore the sacerdotal plate\". McGiffert says the Greek word is the term for the high priest's plate, and that its meaning here is uncertain. He takes it as a figure for John's priestly character, or, with Hefele, as a legend that arose later.",
+    "How the break with Rome ended is not recorded. McGiffert says it healed, \"just how and when we do not know.\"",
+    "The date of the synods is commonly given as 198, but McGiffert says there is \"no particular authority for that year.\""
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Letter to Victor, in Eusebius's Church History, Book 3, chapter 31 and Book 5, chapter 24",
+        "language": "English translation",
+        "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
+      },
+      {
+        "title": "Letter to Victor",
+        "language": "English translation",
+        "file": "cic/texts/anf08_twelve-patriarchs-clementina-apocrypha-edessa-syriac.xml"
+      }
+    ],
+    "about": [
+      {
+        "title": "Church History, Book 5, chapters 22 to 25, with McGiffert's notes",
+        "author": "Eusebius of Caesarea",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
+      },
+      {
+        "title": "Lives of Illustrious Men, chapter 45",
+        "author": "Jerome of Strido",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+      },
+      {
+        "title": "Church History, Book 5, chapter 22",
+        "author": "Socrates of Constantinople",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
+      },
+      {
+        "title": "A History of the Councils of the Church, volume 1",
+        "author": "Charles Joseph Hefele",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/hefele_history-of-the-councils-v1-to-nicaea_clark1872.txt"
+      }
+    ]
+  }
+}

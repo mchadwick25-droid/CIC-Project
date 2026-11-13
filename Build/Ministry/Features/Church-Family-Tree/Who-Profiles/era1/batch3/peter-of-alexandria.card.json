@@ -1,0 +1,109 @@
+{
+  "name": "Peter of Alexandria",
+  "otherNames": [
+    "Peter the Martyr",
+    "Peter, Bishop and Martyr"
+  ],
+  "knownFor": "Bishop of Alexandria through the Great Persecution, who wrote the rules for those who had lapsed, broke with Meletius of Lycopolis, and was beheaded in 311.",
+  "dates": "Bishop from about 300; beheaded in the ninth year of the persecution, 25 November 311 by Bell's date",
+  "place": "Alexandria",
+  "tradition": "Alexandrian Catechetical / Christian-Platonist Tradition",
+  "role": "Bishop of Alexandria",
+  "briefLength": "about 2 minutes 30 seconds",
+  "keyWorks": [
+    {
+      "title": "The Canonical Epistle",
+      "about": "his canons of 306 on receiving Christians who lapsed in the persecution, and on those who fled"
+    },
+    {
+      "title": "Letter to the Church at Alexandria",
+      "about": "telling his people to hold no communion with Meletius"
+    },
+    {
+      "title": "Fragments",
+      "about": "On the Godhead, On the Advent of Our Saviour, On the Passover, and others"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "His canons on the lapsed passed into the collections of church law, with the commentaries of Theodore Balsamon and John Zonaras.",
+      "The Meletian church that broke away under him lasted beyond his death. The Council of Nicaea let Meletius keep only \"a nominal dignity.\""
+    ],
+    "remembered": [
+      "Eusebius of Caesarea calls him \"a divine example of a bishop\" and \"one of the most excellent teachers of the religion of Christ.\"",
+      "Athanasius of Alexandria calls him \"the blessed Peter, Bishop and Martyr.\"",
+      "Socrates of Constantinople, retelling Rufinus, speaks of \"the day in which the memory of the martyr and bishop Peter was celebrated\" at Alexandria.",
+      "Arthur Cleveland Coxe, the American editor of the Ante-Nicene Fathers, quotes Dupin's judgment that no canons of antiquity on the lapsed are \"more judicious or more equitable.\""
+    ]
+  },
+  "uncertain": [
+    "How the split with Meletius began is told two ways. Athanasius, an enemy of the Meletians, says Peter's council removed Meletius for many crimes, among them sacrifice to idols. Socrates of Constantinople and Theodoret say the same. Epiphanius of Salamis says both men were in prison together and split over how to receive the fallen, Peter for mercy and Meletius for strictness, and that most of the prisoners took Meletius's side.",
+    "Harold Idris Bell, who edited papyri of the Meletians in 1924, thinks the sacrifice charge \"need not be taken very seriously\", and that Epiphanius had good sources, probably bishops of Egypt banished to Palestine. He reads the two accounts as stages of one quarrel. Charles Joseph Hefele, historian of the councils, says the first letters show neither man was in prison when the split began, and that Epiphanius was mistaken on the main points.",
+    "The letter of the four bishops and Peter's letter are known only in a Latin translation first printed by Scipio Maffei. Arthur McGiffert, who translated Eusebius, sees nothing in the bishops' letter to disprove it.",
+    "Sozomen says Peter ordained Arius a deacon and later cast him out over the Meletians. Sozomen's translator, Chester Hartranft, notes that no one else links Arius with the Meletians early. Archibald Robertson, editor of Athanasius, says such tales \"deserve little credit\".",
+    "The Genuine Acts of Peter, a later Passion, tell of his last night, a vision about Arius and his death at the tomb of Mark. McGiffert calls them \"spurious and historically quite worthless.\"",
+    "No early source gives his birth, family or schooling. Later Coptic and Ethiopic lives give a family, and do not agree with each other.",
+    "The date of the split is given as 301 (Robertson), about 304 or 305 (Hefele) and probably 305 (Bell).",
+    "McGiffert counts fourteen canons; the Ante-Nicene Fathers prints fifteen."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "The Canonical Epistle; Letter to the Church at Alexandria; fragments",
+        "language": "English translation",
+        "file": "cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml"
+      }
+    ],
+    "about": [
+      {
+        "title": "Church History, Book 7, chapter 32; Book 8, chapter 13; Book 9, chapter 6, with McGiffert's notes",
+        "author": "Eusebius of Caesarea",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
+      },
+      {
+        "title": "Letter of Hesychius, Pachomius, Theodorus and Phileas to Meletius, with the account kept with it",
+        "author": "Phileas of Thmuis and three other bishops",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml"
+      },
+      {
+        "title": "Apology against the Arians, 11 and 59, with Robertson's Prolegomena",
+        "author": "Athanasius of Alexandria",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf204_athanasius-select-works-letters.xml"
+      },
+      {
+        "title": "Panarion 68",
+        "author": "Epiphanius of Salamis",
+        "date": null,
+        "language": "Greek and Latin",
+        "file": "cic/texts/epiphanius_panarion-haer-48-69-corpus-haereseologicum-t2-pars-posterior-grc-lat_oehler1860.txt"
+      },
+      {
+        "title": "Church History, Book 1, chapters 6 and 9 (Socrates); Book 1, chapters 15 and 24 (Sozomen)",
+        "author": "Socrates of Constantinople; Sozomen",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
+      },
+      {
+        "title": "Jews and Christians in Egypt, chapter on the Meletian schism",
+        "author": "Harold Idris Bell",
+        "date": null,
+        "language": "English",
+        "file": "cic/texts/bell_jews-christians-egypt-meletian-papyri_1924.txt"
+      },
+      {
+        "title": "A History of the Councils of the Church, volume 1",
+        "author": "Charles Joseph Hefele",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/hefele_history-of-the-councils-v1-to-nicaea_clark1872.txt"
+      }
+    ]
+  }
+}
