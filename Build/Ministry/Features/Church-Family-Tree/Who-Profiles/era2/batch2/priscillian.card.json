@@ -1,0 +1,94 @@
+{
+  "name": "Priscillian",
+  "otherNames": [
+    "Priscillian of Abila",
+    "Priscillianus"
+  ],
+  "knownFor": "Spanish lay teacher of a strict ascetic life, made bishop of Abila, who was condemned by bishops and put to death by the emperor Maximus, and was then honoured by his followers as a martyr.",
+  "dates": "Condemned at Saragossa and put to death at Trèves under Maximus; Ernest Cushing Richardson dates him flourished 379, condemned 380, died 385",
+  "place": "Spain; bishop of Abila; executed at Trèves",
+  "tradition": "Priscillianist Asceticism",
+  "role": "Lay teacher, then bishop of Abila",
+  "briefLength": "about 2 minutes 30 seconds",
+  "keyWorks": [
+    {
+      "title": "Liber apologeticus (Tractate I)",
+      "about": "his defence of his faith, cursing the Patripassians, the Manichaeans and other heresies"
+    },
+    {
+      "title": "Liber ad Damasum episcopum (Tractate II)",
+      "about": "his appeal to Damasus of Rome, saying that at Saragossa none of his group was accused, convicted or condemned"
+    },
+    {
+      "title": "Canons on the letters of Paul",
+      "about": "headings for reading Paul's letters, kept in a revision by Peregrinus"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "After his death, Sulpicius Severus says, his followers honoured him as a martyr, and \"it came to be thought the highest exercise of religion to swear by Priscillian.\"",
+      "A council at Braga in 561 still cursed teachings it named as his, among them that souls sinned in heaven and were cast down into bodies.",
+      "Sulpicius says the quarrel that followed was kept up for fifteen years and \"could not by any means be set at rest.\""
+    ],
+    "remembered": [
+      "Sulpicius calls him \"a man of noble birth, of great riches, bold, restless, eloquent, learned through much reading.\"",
+      "Jerome of Strido says he \"published many short writings, some of which have reached us.\"",
+      "Martin of Tours, Sulpicius says, begged the emperor not to shed the blood of the accused, and called it an unheard-of indignity for a secular ruler to judge a church case."
+    ]
+  },
+  "uncertain": [
+    "What he taught comes to us mostly through opponents. Sulpicius Severus thought him a Gnostic heretic, and was just as hostile to his accusers, Ithacius of Sossuba and Ydacius of Emerita. Orosius, a Spanish priest writing to Augustine of Hippo, says he taught that souls came down from God through circles of evil powers into bodies. The council at Braga in 561 cursed like teachings in his name. Jerome of Strido reports that some accused him of Gnosticism and his defenders denied it.",
+    "Sulpicius says the council at Saragossa condemned Priscillian in his absence. Priscillian, in his book to Damasus, says no one of his group was accused, convicted or condemned there.",
+    "Sulpicius says Priscillian did not deny lewd doctrines, night meetings with women and praying naked. These were the findings of the court of Evodius, and Sulpicius gives no account from Priscillian's side.",
+    "The eleven Würzburg treatises carry no author's name. Georg Schepss, who found them in 1885 and printed them in 1889, judged from the names in the first two that they could only be Priscillian's.",
+    "Alexander Roberts's English Sulpicius says he was made bishop \"in the town of Arles\". Halm's Latin reads Abilensi oppido, the town of Abila, as Jerome also has it.",
+    "Ernest Cushing Richardson's English Jerome says Priscillian \"belonged to the party of Hydatius and Ithacius\". Sulpicius names these two as his accusers.",
+    "The sources used here give no year of birth, parents or schooling. Sulpicius reports that \"it was believed that he had practised magical arts from his boyhood.\""
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Tractates I to XI, the Canons on Paul and the fragment kept by Orosius, edited by Georg Schepss",
+        "language": "Latin",
+        "file": "cic/texts/priscillian_quae-supersunt-lat_schepss1889-csel18.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Chronicle, Book 2, chapters 46 to 51",
+        "author": "Sulpicius Severus",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml"
+      },
+      {
+        "title": "Chronica, Book 2, chapters 46 to 51, edited by Karl Halm",
+        "author": "Sulpicius Severus",
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/sulpicius-severus_libri-qui-supersunt-chronica-vita-martini-lat_halm1866-csel1.txt"
+      },
+      {
+        "title": "Lives of Illustrious Men, chapters 121 to 123",
+        "author": "Jerome of Strido",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+      },
+      {
+        "title": "Commonitorium on the error of the Priscillianists and Origenists",
+        "author": "Orosius",
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/priscillian_quae-supersunt-lat_schepss1889-csel18.txt"
+      },
+      {
+        "title": "First Council of Braga, chapters against the Priscillianist heresy",
+        "author": "The bishops of Gallaecia",
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/bruns_canones-apostolorum-et-conciliorum-pars-altera-lat_1839.txt"
+      }
+    ]
+  }
+}
