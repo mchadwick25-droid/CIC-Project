@@ -1,0 +1,943 @@
+{
+  "vardan-mamikonian": {
+    "claims": [
+      {
+        "claim": "At the Persian court the princes of the three nations begged him to accept the king's religion for a time and in appearance; he refused, crying \"Loin de moi cette pensée de mentir jamais à mon Créateur, soit en apparence, soit réellement\"",
+        "witness": "Lazar of Pharp, tr. Ghesarian (langlois t2 l.38817-38890)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The princes swore on the Gospel; he wept and consented to yield for a time, in appearance, to save the three nations; some of the princes seemed to bow in the fire temple",
+        "witness": "Lazar of Pharp (langlois t2 l.38985-39033)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Some of the princes, on a royal councillor's advice, sent word they would conform to the king's belief",
+        "witness": "Elishe, tr. Neumann (l.2419-2446)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Lazar places himself at the end of the fifth century or the start of the sixth",
+        "witness": "Ghesarian's introduction to Lazar (langlois t2 l.35066-35069); a translator's date",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "General of the Armenians and lord of the Mamikonians, taught the Scriptures by the patriarch Sahak, his grandfather",
+        "witness": "Lazar of Pharp (langlois t2 l.38864-38865, 38943-38945; OCR 'son meul', read as 'son aïeul'); Neumann's preface (l.575-576), 'a grandson of Sahag the Great'",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "The people drove off the Mogbed and the Magi who tried to break open a church",
+        "witness": "Elishe (l.2648-2660)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Vasak, prince of Siunik, went over to the Persians",
+        "witness": "Elishe (l.3138-3139, 3287); Lazar of Pharp (langlois t2 l.39313, 41270-41280)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "In 451 the armies met near the village of Avarayr on the plain of the Deghmut",
+        "witness": "Lazar of Pharp (langlois t2 l.40208-40209); Elishe, river Dekhmud (l.4105)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Speech before the battle: \"Should the object of our lives be completed by a holy death in battle, let us meet it with a joyful heart\"",
+        "witness": "Elishe (l.3910-3911); a speech as Elishe writes it",
+        "formation_confidence": "Inferential-Thin"
+      },
+      {
+        "claim": "Scattered the Persian right wing with the elephants, then was \"found worthy of martyrdom on the spot\"",
+        "witness": "Elishe (l.4150-4152, 4165-4166)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "One thousand and thirty-six Armenians fell",
+        "witness": "Elishe (l.4221-4227); Lazar of Pharp (langlois t2 l.40458-40466, rough OCR); Ormanian, Vardan, eight generals and 1,027 men (l.2261-2262)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "King Yazdegerd grieved on hearing of the death of the brave Vartan",
+        "witness": "Lazar of Pharp (langlois t2 l.40480-40484)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "He promised the Persian court a deed whose fame would ring out for ever; God took the promise and gave him the title of martyr, to last among all nations",
+        "witness": "Lazar of Pharp (langlois t2 l.39118-39137)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Commemorated on Shrove-Thursday; listed among the saints with his 1,035 companions",
+        "witness": "Ormanian (l.2263-2265, 8564-8565)",
+        "formation_confidence": "Documented"
+      }
+    ],
+    "contested_claims": [
+      {
+        "claim": "The day of Avarayr",
+        "sides": "Ormanian: 26 May 451 (l.2256, 2452). Neumann's margin: June 2 (l.4147), and his preface, June 451 (l.758). The note in the French edition of Lazar: Saturday 20 Mareri (2 June) 451 (langlois t2 l.40450-40451). These are modern dates; Lazar's text names the feast of Pentecost (l.40213-40214, rough OCR)."
+      }
+    ],
+    "absent_details": [
+      {
+        "detail": "Birth and age",
+        "note": "No held source gives his birth year."
+      },
+      {
+        "detail": "Words of his own outside the two histories",
+        "note": "His refusal and his speeches survive only as Elishe and Lazar of Pharp wrote them; no letter or writing of his is held."
+      }
+    ]
+  },
+  "dioscorus-of-alexandria": {
+    "claims": [
+      {
+        "claim": "At Chalcedon, during the reading of the acts of Constantinople against Eutyches, said \"I receive 'the of two;' 'the two' I do not receive\" and \"I am forced to be impudent, but the matter is one which touches my soul\"",
+        "witness": "Acts of Chalcedon, Session I (npnf214 l.19246-19260)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Succeeded Cyril as bishop of Alexandria",
+        "witness": "Zachariah, Chronicle (Hamilton-Brooks l.1352-1353: bishop eight years and three months); History of the Patriarchs (Evetts l.34864-34866)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Leo wrote to him in 445 laying down church rules: \"you and we ought to be at one in thought and act\"",
+        "witness": "Leo, Letter 9 (npnf212 l.1915-1935); the year is Charles Lett Feltoe's introduction (l.490-494)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Presided at Ephesus in August 449 by the emperor's order",
+        "witness": "Feltoe's introduction (npnf212 l.636-643); the acts in Perry's English, 'held under the Presidency of Dioscorus' (Perry l.4357)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "His sentence on Flavian and Eusebius of Dorylaeum, 'alien from all the Honor of the Priesthood and of the Episcopate'; Flavian answered 'I repudiate you. I protest.'",
+        "witness": "Acts of Ephesus 449, tr. S. G. F. Perry (l.24090-24137; the quotation runs across a running head at l.24124)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Leo called the council of 449 a meeting 'not of judges but of robbers'",
+        "witness": "Leo, Letter 95 to Pulcheria (npnf212 l.8640)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The council's letter to Leo says he 'purposed excommunication' against Leo",
+        "witness": "Letter 98, from the Council of Chalcedon (npnf212 l.8783-8784); Feltoe dates the excommunication to spring 450 (l.686-688)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Convicted at Chalcedon of suppressing Leo's letter and of procuring the bishops' subscriptions to a blank paper for Flavian's deposition",
+        "witness": "Evagrius, Ecclesiastical History II.4 (Walford l.3089-3098), summarising the acts; a charge by his opponents",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Did not come when summoned three times; told he was deposed on the thirteenth of October",
+        "witness": "The condemnation sent to Dioscorus (npnf214 l.20072-20092); Feltoe gives Session III, 13 October (npnf212 l.762)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Sentenced to live at Gangra in Paphlagonia",
+        "witness": "Evagrius II.5 (Walford l.3366-3368); Zachariah III.1-2 (l.2346, 2524-2526); Feltoe (npnf212 l.764-766)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Deposed, by the anti-Chalcedonian account, for saying Christ became incarnate from two natures and not confessing two after the union; refused to sign for his throne: 'Sooner would Dioscorus see his own hand cut off, and the blood falling on the paper, than do such a thing as that'",
+        "witness": "Zachariah III.1 (Hamilton-Brooks l.2315-2346); partisan. The OCR reads 'two matures' at l.2318, so that phrase is not quoted",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Priests, monks and many of the people broke with Proterius and wrote Dioscorus's name in the book of life",
+        "witness": "Zachariah III.2 (l.2537-2544)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "In Theopistus's History he tells Pulcheria they may take his throne of wood but not the throne the Messiah prepared for him in heaven",
+        "witness": "Theopistus, History of Dioscorus, tr. Nau (l.15187-15191); Nau calls these words fine and plausible (l.15206); hagiography",
+        "formation_confidence": "Inferential-Thin"
+      },
+      {
+        "claim": "Died in exile at Gangra in 454 (Nau: 4 September)",
+        "witness": "Feltoe (npnf212 l.765-766); Nau's introduction (Theopistus file l.176-180, 382-384); Evetts's heading gives 444-458 (l.34864)",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "'He preserved the orthodox faith, which persists in the see of the evangelist Saint Mark to this day and for ever'; no biography after his banishment was found",
+        "witness": "History of the Patriarchs, tr. Evetts (l.35104-35110)",
+        "formation_confidence": "Documented"
+      }
+    ],
+    "contested_claims": [
+      {
+        "claim": "Why he was deposed at Chalcedon",
+        "sides": "The acts and Evagrius: for disregard of the canons, disobedience to the council and refusing three summonses, with charges of suppressing Leo's letter and a blank paper (npnf214 l.20083-20092; Walford l.3089-3098). Zachariah, anti-Chalcedonian: for his teaching of one nature from two, with Anatolius saying 'Not for the faith is Dioscorus deposed' (l.2315-2325)."
+      },
+      {
+        "claim": "The worth of Theopistus's History",
+        "sides": "Nau does not vouch for many details, dates its present form after 512, and reports Assemani's view that it is a fiction (l.420-423, 474-487); Nau also holds that Theopistus did not fabricate every speech (l.424-441)."
+      }
+    ],
+    "absent_details": [
+      {
+        "detail": "Birth, family and career before he became bishop",
+        "note": "No source used here gives them."
+      },
+      {
+        "detail": "His life after his banishment",
+        "note": "The History of the Patriarchs says no biography after his banishment was found (Evetts l.35104-35107); Theopistus's legend is the only held account of the exile."
+      },
+      {
+        "detail": "His own letters and writings",
+        "note": "None are held as texts of his own; his words come through the acts of 449 and 451 and through his partisans."
+      }
+    ]
+  },
+  "euthymius-the-great": {
+    "claims": [
+      {
+        "claim": "Could not begin the book; Euthymius and Sabas appeared to him in sleep; Euthymius put a spoon dipped in a silver flask into his mouth, its look like oil, its taste beyond comparing with honey; on waking he began the work",
+        "witness": "Cyril of Scythopolis, Life of Euthymius, Latin (l.45569-45591, 45664-45699)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The anchorite Cyriacus told Cyril some of the stories",
+        "witness": "Cyril (l.31776-31777, 33086)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Born at Melitene, a city of Armenia on the Euphrates, to Paul and Dionysia, childless until a vision promised a son; born in the fourth consulship of Gratian",
+        "witness": "Cyril (l.26817-26823, 26880-26904); hagiography",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "After his father's death Otreius, bishop of Melitene, made his mother a deaconess and adopted and raised the boy; later ordained priest and given charge of the monasteries",
+        "witness": "Cyril (l.27093, 27150-27153, 27504-27508)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Came to Jerusalem in about his twenty-ninth year; after five years at Pharan left with Theoctistus and found a great cave above a steep torrent",
+        "witness": "Cyril (l.40199-40201, 27729-27738)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Cyril tells that Aspebetus, a Saracen chief accused before King Yazdegerd for letting Christians flee, went over to the Romans, and that his half-paralysed son Terebon was brought to the cave after a dream and healed",
+        "witness": "Cyril (l.28522-28545, 28560-28610); Duchesne (l.21176-21194) also has the son healed by Euthymius",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Euthymius baptized Aspebetus as Peter and asked Juvenal of Jerusalem for a bishop; Peter was ordained the first bishop of the Camps in Palestine",
+        "witness": "Cyril (l.29083, 30637-30642, 30779)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Chalcedon met in his seventy-fifth year; disciples of his attended; he read the definition and found it right",
+        "witness": "Cyril (l.35956-35977, 36060-36068)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Theodosius, whom Cyril calls a most destructive deceiver, won over Eudocia and the monks and seized the see of Jerusalem; Euthymius with his monks alone refused his communion",
+        "witness": "Cyril (l.36071-36095, 36141-36143), partisan for Chalcedon",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Eudocia, widow of Theodosius II",
+        "witness": "Duchesne (l.17335-17336)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Eudocia built a tower in the desert, sent Cosmas and Anastasius for him; he told her to accept Chalcedon with the three earlier councils and to hold communion with Juvenal; she did and brought many monks and lay people",
+        "witness": "Cyril (l.37416-37430, 37480-37505, 37630-37640)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Sabas came to him in his eighty-second year and was sent to Theoctistus",
+        "witness": "Cyril (l.37700-37720)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Died in the sixteenth year of the emperor Leo, in his ninety-ninth year as the held scan reads, after sixty years in the desert",
+        "witness": "Cyril (l.40201-40206); rough OCR",
+        "formation_confidence": "Inferential-Thin"
+      },
+      {
+        "claim": "After Chalcedon, with letters from Marcian, Pulcheria and Leo, Euthymius did his best to calm the monks; his efforts to discipline the solitudes succeeded only in a fairly narrow circle",
+        "witness": "Louis Duchesne (l.17324-17326, 17478-17484)",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Cyril calls the Life fit to cheer its readers and rouse them to zeal",
+        "witness": "Cyril, prologue (l.26598-26604)",
+        "formation_confidence": "Documented"
+      }
+    ],
+    "contested_claims": [
+      {
+        "claim": "Who baptized Aspebetus and made him bishop",
+        "sides": "Cyril's Latin (l.29083, 30637-30642, 30779): Euthymius baptized him as Peter and asked Juvenal for a bishop for the converts. Louis Duchesne (l.21192-21194): Juvenal baptized him as Peter and consecrated him bishop of the Saracens."
+      }
+    ],
+    "absent_details": [
+      {
+        "detail": "Any word of his own",
+        "note": "No writing of Euthymius is held; his teaching reaches us only as Cyril tells it."
+      },
+      {
+        "detail": "A readable Greek text and any English translation",
+        "note": "The held file is Cotelier's 1681 Latin in a rough scan; its Greek column cannot be read. The census cites R. M. Price's English (1991), which is not held."
+      },
+      {
+        "detail": "Years of birth and death in our reckoning",
+        "note": "Cyril dates by consulship and the emperor's year; the sources used here give no conversion."
+      }
+    ]
+  },
+  "timothy-aelurus": {
+    "claims": [
+      {
+        "claim": "After Marcian's death the people and monks of Alexandria seized Timothy and brought him to the great church called Caesarian; two Egyptian bishops were present, and they carried Peter the Iberian on their shoulders to make the third",
+        "witness": "Zachariah IV.1 (Hamilton-Brooks l.3276-3302), anti-Chalcedonian; Evagrius II.8 (Walford l.3613-3626) names Eusebius of Pelusium and Peter the Iberian, from the Life of Peter",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "A man of ascetic life, brought from the wilderness by force to Cyril and ordained priest by him; 'of the same faith as Dioscorus'",
+        "witness": "Zachariah IV.1 (l.3284-3289); Evagrius: formerly a monk, later a presbyter of Alexandria (Walford l.3620-3623)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Called 'the Weasel' in jest by the Proterian party for his thinness",
+        "witness": "Zachariah IV.1 (l.3305-3307); E. Walford's heading 'THE CAT' (Walford l.3584) and Feltoe 'or the Cat' (npnf212 l.888)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Proterius was killed by Alexandrians 'at the instigation of Timotheus' after fleeing to the baptistery",
+        "witness": "The petition of the Egyptian bishops and clergy of Alexandria to the emperor Leo, as Evagrius reports and quotes it (Walford l.3640-3664); hostile",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "A Roman soldier stabbed Proterius",
+        "witness": "Zachariah IV.2 (l.3380-3392); the Life of Peter the Iberian, as Evagrius reports it (Walford l.3626-3628)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "His petition to the emperor Leo: 'I do not agree with the transactions of Chalcedon, because I find in them divisions and cleavage of the dispensation'; the definition of the fathers does not 'require addition'",
+        "witness": "Zachariah IV.6 (l.3612-3614, 3662-3664)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Dragged from the baptistery font by the clergy of the Proterian party and sent away",
+        "witness": "Zachariah IV.9 (l.3842-3868)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Exiled to Gangra, then moved to Cherson",
+        "witness": "Evagrius II.11 (Walford l.3933-3935); Zachariah IV.11 (l.4002-4013)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "In exile wrote against the Eutychianists as well as the Nestorians",
+        "witness": "Zachariah IV.12 (l.4093-4115), with the letters",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "A refutation of Chalcedon and of Leo's Tome by him is held in Armenian",
+        "witness": "Ter-Mekerttschian and Ter-Minassiantz's edition (file header l.1-9)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Recalled by Basiliscus in the eighteenth year of his banishment",
+        "witness": "Evagrius III.4 (Walford l.5394-5397); Zachariah V.1 (l.5219-5248)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Brought back the bones of Dioscorus in a silver coffin",
+        "witness": "Zachariah V.4 (l.5610-5613)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Zeno gave up expelling him on being told he was old and near death; he died soon after",
+        "witness": "Evagrius III.11 (Walford l.5832-5838); Zachariah V.5 (l.5693-5698)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Chosen after Marcian died in 457; deposed and replaced by 460",
+        "witness": "Feltoe's introduction (npnf212 l.880-897)",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      }
+    ],
+    "contested_claims": [
+      {
+        "claim": "Who killed Proterius",
+        "sides": "The Proterian petition quoted by Evagrius: Alexandrians at Timothy's instigation (Walford l.3640-3664). Zachariah: a Roman soldier (l.3380-3392). The Life of Peter, as Evagrius reports: a soldier (Walford l.3626-3628)."
+      },
+      {
+        "claim": "The length of his exile",
+        "sides": "Evagrius and Zachariah: recalled in the eighteenth year (Walford l.5394-5397; l.5219). History of the Patriarchs: banished to Gangra with his brother Anatolius for seven years (Evetts l.35199-35201)."
+      }
+    ],
+    "absent_details": [
+      {
+        "detail": "Birth, family and the year of his death",
+        "note": "No ancient source used here gives them; Feltoe gives 457 and 460, and Evetts's heading gives his see as 458 to 480."
+      },
+      {
+        "detail": "The content of his Armenian refutation",
+        "note": "No translation is held, so it is not quoted or summarised."
+      }
+    ]
+  },
+  "elishe": {
+    "claims": [
+      {
+        "claim": "Wrote the History at the request of the priest David of the Mamikonian house, in seven chapters, to tell the valiant exploits of the brave and the misery which followed",
+        "witness": "Elishe, dedication, tr. Neumann (l.1035-1053)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "\"Truly, not of our own free will, do we describe, in lamenting tones, all the miseries of which we ourselves have been eye-witnesses\"",
+        "witness": "Elishe, ch. I (l.1117-1118)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Birthplace and date unknown",
+        "witness": "Langlois, Introduction (langlois t2 l.25717)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Disciple of Sahak and Mesrop, secretary to Vartan, grandson of Sahak; later bishop of the Amadunians, named in the list of the synod of Artashat in 450",
+        "witness": "Neumann's preface (l.574-581); a translator's claim",
+        "formation_confidence": "Inferential-Thin"
+      },
+      {
+        "claim": "Biographers say he served in Vartan's army in his youth; other writers make him Vartan's secretary; some say he was bishop of the Amadouni and the one in the bishops' list",
+        "witness": "Langlois, Introduction (langlois t2 l.25717-25733), citing a Venice biography of 1854 and Karékin",
+        "formation_confidence": "Inferential-Thin"
+      },
+      {
+        "claim": "The bishops' list names Elishe (Ekhishe/Elisaeus), bishop of the Amadunians, among those assembled at Artashat",
+        "witness": "Elishe (Neumann l.1749, 1766-1767; Langlois's translation l.27345-27351)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Copies the edict of Mihrnerseh, Grand Vizier, and the bishops' answer: \"From this belief no one can move us, neither angels nor men—neither fire nor sword, nor water\"",
+        "witness": "Elishe (Neumann l.1605-1611, 1775, 2136-2137)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "In old age withdrew to Ershedunik on Lake Van and died at a very advanced age",
+        "witness": "Neumann's preface, citing Thomas Ardsruni (l.595-600)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Lived as a hermit in a cave on the mountain of Mog, then in a cave by the lake in the Reschdouni country; hardship shortened his life",
+        "witness": "Langlois, Introduction, after the Venice biography (langlois t2 l.25740-25797)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Some writers place his death in 480",
+        "witness": "Langlois's note (langlois t2 l.25816-25817)",
+        "formation_confidence": "Inferential-Thin"
+      },
+      {
+        "claim": "Resisted Greek influence on the language more than any of his fellow students; the Armenians rightly count the History among the most brilliant pieces of their classical literature",
+        "witness": "Langlois, Introduction (langlois t2 l.26073-26092)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Wrote a Discourse to the Solitaries and commentaries on Joshua and Judges",
+        "witness": "Langlois (langlois t2 l.25854-25898); Neumann's preface (l.600-604)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "A Nestorian named Barsouma borrowed the History and struck out the mentions of the Ardzruni house; Elishe died before revising it",
+        "witness": "Langlois, reporting Thomas Ardsruni (langlois t2 l.25945-25989)",
+        "formation_confidence": "Inferential-Thin"
+      },
+      {
+        "claim": "\"Concord is the mother of good; and Dissension, the nurse of evil\"",
+        "witness": "Elishe, dedication (l.1070-1071)",
+        "formation_confidence": "Documented"
+      }
+    ],
+    "contested_claims": [
+      {
+        "claim": "His last years and death",
+        "sides": "Neumann, citing Thomas Ardsruni (l.595-600): retired to Ershedunik on Lake Van and died at a very advanced age. Langlois, after the Venice biography (langlois t2 l.25740-25797): a hermit in two caves, his life shortened by hardships. Langlois's note: some writers give 480 (l.25816-25817)."
+      },
+      {
+        "claim": "The supplement on the sufferings of the priests",
+        "sides": "Neumann (l.738-748): a separate work the editors joined to the History. Langlois (langlois t2 l.25910-25925): Elishe's own, against critics who give it to an anonymous continuator."
+      }
+    ],
+    "absent_details": [
+      {
+        "detail": "A modern debate on the date of the History",
+        "note": "The Library's file note on Neumann's translation says the History's dating is discussed in scholarship; no held work sets out a later date. Neumann and Langlois both treat him as a fifth-century writer."
+      },
+      {
+        "detail": "Birth and family",
+        "note": "Langlois says his birthplace and date are unknown; Neumann's 'grandson of Sahag the Great' refers to Vartan, not to Elishe."
+      },
+      {
+        "detail": "The Discourse to the Solitaries",
+        "note": "Named by Langlois and Neumann; not in the held translations."
+      }
+    ]
+  },
+  "victor-of-vita": {
+    "claims": [
+      {
+        "claim": "Felix, bishop of Abbir for forty-four years, paralysed and unable to feel or speak, was among those exiled; Victor and others asked that he stay at Carthage; the king, as reported, said wild oxen should drag him; they carried him tied across a mule like a log",
+        "witness": "Victor, History II.26-27 (Petschenig l.2854-2863; Halm l.1772-1776, 'quadraginta quattuor')",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The manuscripts title him bishop of the patria Vitensis",
+        "witness": "Petschenig's apparatus to the titles (l.1000-1068)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Pampinianus, venerable bishop of 'our city', was burned with red-hot iron plates; 'our city' is Vita",
+        "witness": "Victor I (Petschenig l.1241-1242); Halm's note (Halm l.604)",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Writes in the sixtieth year since the Vandals, a cruel and savage people, crossed the strait from Spain to Africa",
+        "witness": "Victor I.1 (Petschenig l.1074-1077)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Calls their faith the Arian heresy",
+        "witness": "Victor III.65 (Petschenig l.6973; Halm l.4778)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "4,966 bishops, priests, deacons and other church members were sent to exile in the desert; gathered at Sicca and Lares they cried that they were Christians and Catholics; Victor and others could go in, encourage them and celebrate the mysteries",
+        "witness": "Victor II.26-28 (Petschenig l.2814-2877; Halm l.1768-1770)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Copies Huneric's edict, dated at Carthage six days before the Kalends of March; Petschenig's margin gives 484",
+        "witness": "Victor III (Petschenig l.5428)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Victor likely inserted the Book of Faith into his history himself",
+        "witness": "Petschenig's preface (l.540-542, 598-603)",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "At Tipasa in Mauretania the king had the tongues and right hands of those who refused the Arian bishop cut off, and they spoke as before; the subdeacon Reparatus could be found at Constantinople, honoured at the palace of Zeno",
+        "witness": "Victor III.29-30 (Petschenig l.5907-5961; Halm l.4084)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Honoric cut out the tongues of many, who up to Procopius's time went about in Byzantium speaking",
+        "witness": "Procopius of Caesarea, Wars III.8 (l.913-919), an outside witness",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Calls on the angels of God to see Africa, once upheld by so many churches, now sitting a widow and cast down",
+        "witness": "Victor III.67 (Petschenig l.7015-7021)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The prologue is printed in brackets and discussed beside the spurious additions as very obscure",
+        "witness": "Petschenig (l.977-979, 512-517)",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      }
+    ],
+    "contested_claims": [
+      {
+        "claim": "That the Tipasa confessors spoke after their tongues were cut out",
+        "sides": "Victor (Petschenig l.5953-5961) tells it as a wonder and names Reparatus at Constantinople; Procopius of Caesarea (l.913-919) says such people still spoke in Byzantium in his day, two of them losing speech later. No held source denies it; both witnesses report it, and the brief tells it as their report."
+      }
+    ],
+    "absent_details": [
+      {
+        "detail": "His birth, family, career and death",
+        "note": "No source used here gives them; his life is known only from what his History says."
+      },
+      {
+        "detail": "A clean English translation",
+        "note": "Only the rough 1605 English OCR is held; John Moorhead's English (1992) is in copyright and not held."
+      }
+    ]
+  },
+  "moses-of-khoren": {
+    "claims": [
+      {
+        "claim": "Hurried home from Byzantium hoping to dance at weddings; found himself at a grave, weeping; did not arrive in time to close Sahak's and Mesrop's eyes or hear their last words",
+        "witness": "Moses of Khoren, History III.68, the lament (Langlois t.2 l.25495-25503)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The lament is the last chapter of the History as held; three books, from the first ancestors to the deaths of Sahak and Mesrop",
+        "witness": "Table of book III (Langlois t.2 l.19907-19913); book I opens on the genealogy of Greater Armenia (l.8715-8721)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Wrote at the request of Sahak Bagratuni",
+        "witness": "Moses, History I.1 (Langlois t.2 l.8723-8731; table l.8586)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "His patron was the Bagratid prince proclaimed marzban in 481 by Armenians in revolt against Persia",
+        "witness": "Langlois, Introduction, note 7 (l.7930-7931, 7963-7965); an identification",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Sahak and Mesrop sent him to Alexandria to study; passed through Edessa and its archives, the holy places of Palestine; at Alexandria a new Plato whose pupil he was not found worthy to be; winds drove him to Italy; a short stay at Athens; then towards Byzantium",
+        "witness": "Moses, History III.61-62 (Langlois t.2 l.24737-24739, 24758-24763, 24829-24832, 24836-24842, 24857-24858)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The new Plato is Cyril of Alexandria",
+        "witness": "Langlois's note, 'sans doute' (l.24853-24854); the Mekhitarist preface, 'forse' (ita l.136-138)",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Lived ten years apart and poor; made bishop of Bagrevand by the patriarch Kiud after Eznik of Kolb died",
+        "witness": "Langlois, Introduction (l.7852-7869), citing Saint-Martin; Langlois adds that tradition has surrounded his life with details history has not kept (l.7870-7874)",
+        "formation_confidence": "Inferential-Thin"
+      },
+      {
+        "claim": "Lived past a hundred, into Zeno's reign",
+        "witness": "Thomas Artsruni, as cited in Langlois's Introduction and note 4 (l.7876-7881, 7896-7897); Langlois says his age cannot be fixed exactly",
+        "formation_confidence": "Inferential-Thin"
+      },
+      {
+        "claim": "Born in the second half of the fourth century, at Khorni in Daron",
+        "witness": "Langlois, Introduction (l.7787-7790); the Mekhitarist preface gives the township of Corene in Daron (ita l.122)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Almost nothing precise is known of Moses of Khoren",
+        "witness": "Frédéric Macler, introduction to Stephen of Taron (macler1917 l.671-674)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "The History earned him his place at the head of the historians of his nation",
+        "witness": "Langlois, Introduction (l.7933-7938)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "The rhetorical treatises attributed to him may be by another Moses of the eighth century",
+        "witness": "Mekhitarist preface (ita l.241-245)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Some critics deny him the Geography; the Book of Chreiai has been thought apocryphal; Langlois defends both",
+        "witness": "Langlois, Introduction (l.7998-8013, 8047-8080)",
+        "formation_confidence": "Contested"
+      }
+    ],
+    "contested_claims": [
+      {
+        "claim": "When Moses of Khoren wrote",
+        "sides": "Fifth century: Langlois, Introduction (born in the later fourth century, l.7787-7790; patron's revolt of 481, l.7963-7965) and the Mekhitarist preface (ita l.122-165), both drawing his life from the History. A later date: argued by no work held in the Library; the Library file header of the Italian edition (l.4-5) and the era 3 scan note only that modern scholarship debates it. Macler (l.671-674): almost nothing precise is known of him."
+      }
+    ],
+    "absent_details": [
+      {
+        "detail": "A held work arguing a later date for the History",
+        "note": "Harnack's bibliography lists Carrière's 1895 study of the Abgar legend in Moses (harnack chronologie l.9336-9337) by title only; the study is not held."
+      },
+      {
+        "detail": "Birth and death years, and any source for his life outside his own History",
+        "note": "Langlois and the Mekhitarists draw on the History and later Armenian tradition (Thomas Artsruni, Saint-Martin); no contemporary witness is held."
+      },
+      {
+        "detail": "An Armenian text or an English translation of the History",
+        "note": "Only the French of Langlois's collection and the Mekhitarist Italian of 1850 are held."
+      }
+    ]
+  },
+  "barsauma-of-nisibis": {
+    "claims": [
+      {
+        "claim": "Confessed to Acacius that Satan stirred up a quarrel between him and Babai; gave way to bishops Babai meant to judge; held the synod of Beth Lapat and made canons by human passion; called it contrary to Christianity; had twice written to annul it",
+        "witness": "His third letter, Synodicon orientale (Chabot l.35391-35406, 35454-35463)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The synod of Beth Lapat in April 484; the reconciliation at Beth Edrai in August 485; the letters between September 485 and February 486",
+        "witness": "Chabot's notes (l.20239, 35228, 35643-35656), from the first letter's own dating, the month Ab of the second year of King Balash (l.35210)",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "First a slave of Mare of Qardu; studied at the school of Edessa, still there in 449; expelled at Ibas's death in 457; bishop through King Peroz",
+        "witness": "Chabot's note (l.20229-20235); Simeon of Beth Arsham as cited by Abbeloos and Lamy (Bar Hebraeus vol. III l.3651-3657, 3676-3683)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Consecrated bishop in 435",
+        "witness": "Elias and Ebedjesu of Nisibis, as cited by Addai Scher (Barhadbeshabba, Cause, l.20624-20625, 20820); a Vatican manuscript cited by Abbeloos and Lamy (l.3651-3653)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Drought for two years; tribes subject to Persia raided Roman lands; he brought a Roman general to Nisibis to meet the marzban; raiders struck while they feasted; the Romans blamed him, so he could not go to the catholicos",
+        "witness": "His second letter (Chabot l.35275-35334)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Nisibis troubled and tossed like a stormy sea; feared the king would issue an edict against all Christians",
+        "witness": "His third letter (Chabot l.35479-35493)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Accused Babai to Peroz as a Roman spy, and Peroz had Babai killed",
+        "witness": "Bar Hebraeus (vol. III l.3836-3847), hostile; Mari ibn Sulayman (Gismondi l.14355-14364), who adds that Barsauma soon regretted it; Chabot after 'Amr (l.20206-20208)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Led Persian soldiers against those who refused his teaching; a report of 7,700 dead",
+        "witness": "Bar Hebraeus (vol. III l.3956-3960, 4052-4075), hostile; Chabot calls him very inaccurate on Barsauma (Chabot l.41054-41056)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Married a nun and made marriage lawful for bishops and priests",
+        "witness": "Mari ibn Sulayman (l.14386-14387); Bar Hebraeus calls her a concubine (vol. III l.3758-3764)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Quick mind; wrote many homilies; welcomed Narsai to Nisibis and helped him found the school",
+        "witness": "Barhadbeshabba, History (PO 9 l.36540-36542, 36936-37076); Cause (PO 4 l.20607-20620, 20738-20743, 20801)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Death year unknown, after 491; killed by nuns of Tur Abdin with the keys of their cells, or buried in the church of Mar Jacob at Nisibis",
+        "witness": "Chabot (l.20206-20212, 35643-35647); Bar Hebraeus's two reports (vol. III l.4546-4552)",
+        "formation_confidence": "Inferential-Thin"
+      }
+    ],
+    "contested_claims": [
+      {
+        "claim": "When he became bishop of Nisibis",
+        "sides": "After his expulsion from Edessa in 457: Chabot (l.20229-20235); Simeon of Beth Arsham, as Abbeloos and Lamy cite him (vol. III l.3654-3657). In 435: Elias and Ebedjesu of Nisibis, as Addai Scher cites them (PO 4 l.20624-20625, 20820); a Vatican manuscript, as Abbeloos and Lamy note (l.3651-3653)."
+      },
+      {
+        "claim": "Whether he caused Babai's death",
+        "sides": "Yes: Bar Hebraeus (l.3836-3847), hostile; Mari ibn Sulayman (l.14355-14364), with his regret; 'Amr, as Chabot reports (l.20206-20208). His own letters speak only of a quarrel (l.35397-35398)."
+      },
+      {
+        "claim": "His wife",
+        "sides": "Mari: a nun he married, making marriage lawful for clergy (l.14386-14387). Bar Hebraeus: a woman kept in his cell whom he called his lawful wife (l.3758-3764)."
+      }
+    ],
+    "absent_details": [
+      {
+        "detail": "Birth, age and family",
+        "note": "Chabot's note gives only that he was first a slave of Mare of Qardu; no held line gives his birth or parents."
+      },
+      {
+        "detail": "Death",
+        "note": "Chabot says the date is unknown, after 491; Bar Hebraeus gives two reports and settles neither."
+      },
+      {
+        "detail": "The canons of Beth Lapat",
+        "note": "The compiler of the Synodicon left the synod out; Chabot gathers fragments (l.41049-41052), which this profile does not use."
+      }
+    ]
+  },
+  "vakhtang-i-gorgasali": {
+    "claims": [
+      {
+        "claim": "In a dream a bishop called him three times: most faithful to Christ among the Persian nations, to build churches and set up bishops and archbishops, to receive the crown of martyrdom; Petre and Samoel read it: death in battle, never in enemy hands",
+        "witness": "Kartlis tskhovreba, tr. Brosset (l.8507-8523); legendary",
+        "formation_confidence": "Inferential-Thin"
+      },
+      {
+        "claim": "Reigned 446-499",
+        "witness": "Brosset's dating (heading l.7555; notes l.7563, 10027); Langlois's note to Lazar gives the same years from Brosset's Annals (Langlois t.2 l.43913-43915)",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "The history up to Vakhtang was written at various times; from him on by Juansher",
+        "witness": "The chronicle's own note, quoted by Brosset, Introduction (brosset intro l.857-861); Brosset: of various hands (l.869-870)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Even long reigns such as Vakhtang's seem written from memory; anonymity deprives the annals of the honours of authenticity but not of all trust",
+        "witness": "Brosset, Introduction (l.875-878, 900-904)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "A giant, twelve spans tall at twenty-two, who could run down a deer on foot",
+        "witness": "Kartlis tskhovreba (l.8111-8115); legendary",
+        "formation_confidence": "Inferential-Thin"
+      },
+      {
+        "claim": "The patriarch of Antioch consecrated twelve bishops and gave Petre the title of catholicos; Vakhtang built Sveti-Tskhoveli at Mtskheta for him and placed bishops in eleven sees",
+        "witness": "Kartlis tskhovreba (l.9587-9591, 9634-9641, 9734-9741)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "The account of the church has very great difficulties; the first catholicos falls between 475 and 488, from Balsamon's hearsay",
+        "witness": "Brosset's notes (l.9659-9662, 9618-9645)",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Killed the treacherous prince Vazken in the twenty-fifth year of Peroz; promised to raise the Huns against Persia",
+        "witness": "Lazar of Pharp (Langlois t.2 l.43910-43916, 43942-43948); Armenian side",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The Vazken events are told only by Lazar; the Georgian annals are silent on them",
+        "witness": "Note in Langlois's edition (Langlois t.2 l.43972-43986)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Sent three hundred Huns and recalled them within a month on a futile pretext; deceived Vahan and the Armenian chiefs with lies; in the battle the cowardly soldiers of Iberia and their king were put to flight",
+        "witness": "Lazar of Pharp (Langlois t.2 l.44753-44760, 45248-45260, 45459-45461; the last quote is hyphenated 'Vakht-/hang' in the file)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Named Gorgasal from the Persians' cry, beware the wolf's head; Brosset reads it as the wolf-lion",
+        "witness": "Kartlis tskhovreba (l.8997-8999); Brosset's note (l.9001)",
+        "formation_confidence": "Inferential-Thin"
+      },
+      {
+        "claim": "A Persian arrow struck his chest and reached the lung; he died and was buried at Mtskheta near the patriarchal column; the faithful envied the king killed for Christ",
+        "witness": "Kartlis tskhovreba (l.9920, 9925-9926, 10007-10009)",
+        "formation_confidence": "Inferential-Thin"
+      },
+      {
+        "claim": "His wife Helena, the emperor's daughter, is named only by Georgian writers",
+        "witness": "Brosset's note (l.9650-9656)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Seven when his father Mirdat died",
+        "witness": "Kartlis tskhovreba (l.7551-7552)",
+        "formation_confidence": "Inferential-Thin"
+      }
+    ],
+    "contested_claims": [
+      {
+        "claim": "What kind of king Vakhtang was",
+        "sides": "The Georgian chronicle (Brosset l.7555-10009): a giant, a builder of churches, the founder of the catholicate, killed for Christ. Lazar of Pharp, for the Armenian side (Langlois t.2 l.43910-45461): he killed Vazken, promised Huns, sent few and recalled them, deceived the Armenians, and fled in battle. Langlois's note: the Georgian annals say nothing of Lazar's events (l.43982-43986)."
+      },
+      {
+        "claim": "When and how the Georgian catholicate began",
+        "sides": "The chronicle: under Vakhtang, by the patriarch of Antioch (l.9587-9591). Brosset: between 475 and 488, from Balsamon's hearsay, with great difficulties in the text (l.9618-9662)."
+      }
+    ],
+    "absent_details": [
+      {
+        "detail": "Words of his own",
+        "note": "His speeches in the chronicle are the chronicler's; Lazar quotes a letter written 'en termes ambigus' (Langlois t.2 l.45208-45209), held only inside Lazar's History. No own corpus is held."
+      },
+      {
+        "detail": "Birth year",
+        "note": "No source used here gives it."
+      }
+    ]
+  },
+  "narsai": {
+    "claims": [
+      {
+        "claim": "Warned by a friend that he would be thrown into the fire unless he fled that night; asked Persians at the church to carry his books, all his treasure, to Nisibis",
+        "witness": "Barhadbeshabba, History, ch. XXXI (PO 9 l.36830-36839), a saint's life",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "The history written near the end of the sixth century; its author probably the bishop of Halwan of 605",
+        "witness": "François Nau's introduction (PO 9 l.31566-31580)",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "From the land of Ma'alta, village of 'Ain Dulba; went to school at seven and learned the Psalter in nine months",
+        "witness": "Barhadbeshabba, History (PO 9 l.36178-36180, 36390-36393)",
+        "formation_confidence": "Inferential-Thin"
+      },
+      {
+        "claim": "Led the school of Edessa twenty years",
+        "witness": "Barhadbeshabba, History (PO 9 l.36626-36634) and Cause (PO 4 l.20553-20559); Connolly (l.279-280, 316-317)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Accused at Edessa of following Theodore and Nestorius, of siding with Persia and of wishing to betray the city",
+        "witness": "Barhadbeshabba, History (PO 9 l.36684-36698)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Left Edessa in 457",
+        "witness": "R. H. Connolly, after Mingana (l.257-260, 299-301)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Barsauma persuaded him to stay at Nisibis and bought a camel stable near the church for the school; students came from all sides",
+        "witness": "Barhadbeshabba, History (PO 9 l.36931-37081); Cause (PO 4 l.20607-20620, 20738-20745)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "\"Edessa was darkened, but Nisibis shone forth\"",
+        "witness": "Barhadbeshabba in Connolly's English (l.4494, note citing Mingana)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "With the school of Nisibis began the formation of what is now known as the Nestorian Church",
+        "witness": "Connolly's judgment (l.4482-4488)",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Barsauma's wife grew jealous of the crowds at his door; he withdrew to Kefar Mari and wrote a poem on her; read at Nisibis, the bishop repented and recalled him",
+        "witness": "Barhadbeshabba, History (PO 9 l.37118-37175, 37210-37215); later Mari (Gismondi l.14104-14108, 14268-14271) and Bar Hebraeus (vol. III l.4410-4420)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "All his skill in Scripture came from Theodore's commentaries, by his homily on the three Doctors",
+        "witness": "Connolly's report (l.4536-4539)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Answered Jacob of Sarug's verse with a verse homily for each day of the year, in twelve volumes",
+        "witness": "Barhadbeshabba, History (PO 9 l.37258-37271)",
+        "formation_confidence": "Inferential-Thin"
+      },
+      {
+        "claim": "Called Narsai the leper",
+        "witness": "Simeon of Beth Arsham, quoted from Assemani by Abbeloos and Lamy (Bar Hebraeus vol. III l.3690, 3787-3788); hostile",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Buried in a good old age; death in 502 or in 503 or 504",
+        "witness": "Barhadbeshabba (PO 9 l.37410-37412); Connolly after Mingana (l.297-302); Nau (l.37421-37428)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "\"instead of our clay He has made us spiritual gold\"",
+        "witness": "Homily XXII (B), On Baptism, tr. Connolly (l.6855-6856)",
+        "formation_confidence": "Documented"
+      }
+    ],
+    "contested_claims": [
+      {
+        "claim": "When he left Edessa",
+        "sides": "457: Connolly after Mingana (l.257-260, 299-301). After 471: Barhadbeshabba's naming of the bishop, if it stands, as Nau notes (PO 9 l.36699-36705); Nau himself prefers an earlier bishop, Nonnus, which keeps 457 to 471."
+      },
+      {
+        "claim": "His years at Nisibis and his death",
+        "sides": "Forty years plus six at the monastery: Barhadbeshabba, History (PO 9 l.37410-37411). Forty-five: Barhadbeshabba, Cause (PO 4 l.20746), giving 502 for Connolly after Mingana (l.297-302). Fifty: Bar Hebraeus (vol. III l.4554-4557), giving 507, as Nau reports (PO 9 l.37425-37427). Nau: 503 or 504 (l.37427-37428)."
+      },
+      {
+        "claim": "The cause of the break with Barsauma",
+        "sides": "Barhadbeshabba: the jealousy of Barsauma's wife (PO 9 l.37123-37166). Mari: the same woman's envy (l.14268-14271). Bar Hebraeus, hostile: a quarrel over a concubine, and Barsauma expelled him (l.4410-4413)."
+      },
+      {
+        "claim": "Whether the Exposition of the Mysteries (Homily XVII) is his",
+        "sides": "One or two late authorities: a writer of the thirteenth century (Connolly l.170-172). Connolly: genuine (l.2412-2416)."
+      }
+    ],
+    "absent_details": [
+      {
+        "detail": "Birth year",
+        "note": "No held source gives it. Nau reckons from Barhadbeshabba's numbers that he lived from about 400 (with a query) to 503 or 504 (PO 9 l.37427-37428); the Library header's c. 413 is not used."
+      },
+      {
+        "detail": "Most of his homilies",
+        "note": "Connolly reports 360 credited by Ebedjesu and 47 printed by Mingana (l.261-263); the Library holds four in English."
+      }
+    ]
+  }
+}
