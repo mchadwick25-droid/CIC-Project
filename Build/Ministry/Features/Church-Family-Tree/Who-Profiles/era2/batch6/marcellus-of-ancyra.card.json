@@ -1,7 +1,7 @@
 {
   "name": "Marcellus of Ancyra",
-  "knownFor": "Bishop of Ancyra in Galatia who opposed the Arians at Nicaea, was deposed for his teaching on the Son, was cleared by Julius of Rome and the Western bishops at Sardica, and was condemned by the Eastern bishops.",
-  "dates": "At the Council of Nicaea, by his own letter. Epiphanius of Salamis says he had died about two years before Epiphanius wrote. The year of his death, 374 by Blomfield Jackson's note or 372 or 374 by E. C. Richardson's, is an editors' date",
+  "knownFor": "Bishop of Ancyra in Galatia who, by his own letter, refuted at Nicaea the men who later accused him, was deposed for his teaching on the Son, was cleared by Julius of Rome and the Western bishops at Sardica, and was condemned by the Eastern bishops.",
+  "dates": "At the Council of Nicaea, by his own letter. Epiphanius of Salamis says he had died about two years before Epiphanius wrote. The year of his death, 374 by Blomfield Jackson's note or 372 or 374 by E. C. Richardson's note, after Ffoulkes, is an editors' date",
   "place": "Ancyra in Galatia; Nicaea; Constantinople; Rome; Sardica",
   "tradition": "Cappadocian Christianity",
   "role": "Bishop",
@@ -30,10 +30,9 @@
   "uncertain": [
     "His own letter survives only in Greek in the Panarion of Epiphanius of Salamis, who files the Marcellians among the heresies; the held scan is rough, so the brief quotes none of it.",
     "What he taught is known mostly through opponents. Socrates of Constantinople and Sozomen give the charges, and Sozomen adds that some held he had only raised questions. The Western bishops at Sardica and Julius of Rome cleared him; the Eastern bishops and Basil of Caesarea condemned him.",
-    "Whether Athanasius of Alexandria broke with him is disputed. Epiphanius says Athanasius only smiled when asked. The dossier of Hilary of Poitiers says Athanasius refused him communion; E. W. Watson calls it \"notorious that he never did so\"; Archibald Robertson speaks of a personal estrangement.",
+    "Whether Athanasius of Alexandria broke with him is disputed. Epiphanius says Athanasius only smiled when asked. The dossier of Hilary of Poitiers says Athanasius refused him communion; E. W. Watson calls it \"notorious that he never did so\"; Archibald Robertson speaks of a personal estrangement. The Benedictine note in the edition of Basil's letters holds that Athanasius removed him from communion in his last years.",
     "Whether he came back to the truth at the end is disputed. Hefele, quoted in Henry Percival's edition, says he did. A Benedictine note in the edition of Basil's letters says he seems to have erred at the end of his life.",
-    "Eusebius of Caesarea's books against him are not held.",
-    "The card's tradition is the scan's, from the Library shelf where Epiphanius is held; it is not his party."
+    "Eusebius of Caesarea's books against him are not held."
   ],
   "sources": {
     "ownWords": [
@@ -64,6 +63,41 @@
         "date": null,
         "language": "Greek and Latin",
         "file": "cic/texts/epiphanius_panarion-haer-65-80-pg42-grc-lat_migne1863.txt"
+      },
+      {
+        "title": "Church History, with notes by Blomfield Jackson; Jerome, Lives of Illustrious Men, with notes by E. C. Richardson",
+        "author": "Theodoret of Cyrrhus; Jerome",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+      },
+      {
+        "title": "Introduction to Hilary of Poitiers",
+        "author": "E. W. Watson",
+        "date": null,
+        "language": "English",
+        "file": "cic/texts/npnf209_hilary-poitiers-john-damascus.xml"
+      },
+      {
+        "title": "Collectanea antiariana (ed. Feder)",
+        "author": "Hilary of Poitiers, compiler",
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/hilary_collectanea-antiariana-parisina-fragmenta-historica-lat_feder1916-csel65.txt"
+      },
+      {
+        "title": "Canons of Constantinople 381, with Hefele's notes (ed. Henry Percival)",
+        "author": null,
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf214_seven-ecumenical-councils.xml"
+      },
+      {
+        "title": "Letters, with the Benedictine notes",
+        "author": "Basil of Caesarea",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf208_basil-letters-select-works.xml"
       }
     ]
   }

@@ -27,8 +27,8 @@
     "formation_confidence": "Contested"
    },
    {
-    "claim": "Signed a Sirmium creed with his own statement",
-    "witness": "Sozomen (npnf202 l.33576-33583)",
+    "claim": "Signed a document compiled at Sirmium by Basil, Eustathius and Eusebius, with a formulary of Antioch, and added his own statement",
+    "witness": "Sozomen (npnf202 l.33564-33583)",
     "formation_confidence": "Contested"
    },
    {
@@ -47,15 +47,15 @@
     "formation_confidence": "Documented"
    },
    {
-    "claim": "Gave the veil to Ambrose's sister at Christmas in Saint Peter's: \"You, my daughter, have desired a good espousal\"",
-    "witness": "Ambrose, On Virgins III (npnf210 l.38125-38137), as Ambrose recalls it",
+    "claim": "Received the profession of Ambrose's sister at Christmas in Saint Peter's: \"You,\" said he, \"my daughter, have desired a good espousal\"",
+    "witness": "Ambrose, On Virgins III (npnf210 l.38125-38137), passing on what his sister told him; the veil is the translator's note (l.38143)",
     "formation_confidence": "Widely Accepted"
    }
   ],
   "contested_claims": [
    {
     "claim": "Whether and how he lapsed in exile",
-    "sides": "Athanasius: signed from fear of death, forced (npnf204 l.39175-39177). Jerome: worn out, signed heresy (Chronicle l.45536-45540; Lives 97). Sozomen: signed at Sirmium with his own statement (npnf202 l.33576-33583). Theodoret: no lapse told. Feder: the fall letters doubtful (l.15187)."
+    "sides": "Athanasius: signed from fear of death, forced (npnf204 l.39175-39177). Jerome: worn out, signed heresy (Chronicle l.45536-45540; Lives 97). Sozomen: signed a document compiled at Sirmium, with his own statement (npnf202 l.33576-33583). Theodoret: no lapse told. Feder: the fall letters doubtful (l.15187)."
    },
    {
     "claim": "Who installed Felix",
@@ -72,7 +72,7 @@
  "marcellus-of-ancyra": {
   "claims": [
    {
-    "claim": "Wrote to Julius from Rome after a year and three months there, in his own hand, with his creed; said he had refuted the Arians at Nicaea; confessed the Word always co-existing with the Father and a kingdom without end",
+    "claim": "Wrote to Julius from Rome after a year and three months there, in his own hand, with his creed; said he had refuted at Nicaea those now writing against him; confessed the Word always co-existing with the Father and a kingdom without end",
     "witness": "His letter, Panarion 72 (PG42 l.28776, 28794, 28825, 28869, 28890-28897); Greek OCR",
     "formation_confidence": "Documented"
    },
@@ -82,7 +82,7 @@
     "formation_confidence": "Contested"
    },
    {
-    "claim": "Taught that the Son began when born of Mary and that his kingdom would end; deposed at Constantinople, Basil installed",
+    "claim": "Taught that the Son began when born of Mary and that his kingdom would end; deposed at Constantinople, Basil installed at Ancyra",
     "witness": "Sozomen (npnf202 l.30604-30611); a charge",
     "formation_confidence": "Contested"
    },
@@ -129,7 +129,7 @@
    },
    {
     "claim": "Whether Athanasius broke with him",
-    "sides": "Epiphanius: Athanasius only smiled, and treated him as cleared (PG42 l.29108). Hilary's dossier: refused him communion (l.12874). Watson: he never did so (npnf209 l.4343-4344)."
+    "sides": "Epiphanius: Athanasius only smiled, and treated him as cleared (PG42 l.29108). Hilary's dossier: refused him communion (l.12874). Watson: he never did so (npnf209 l.4343-4344). The Benedictine note to Basil: Athanasius removed him from communion in his last years (npnf208 l.43532-43534)."
    },
    {
     "claim": "Whether he returned to the truth",
@@ -180,12 +180,12 @@
     "formation_confidence": "Contested"
    },
    {
-    "claim": "Driven from the sanctuary by the clergy to test him, \"Get outside, O Ethiopian\"; answered himself \"They have treated thee rightly\"",
+    "claim": "When one of the clergy, driven from the sanctuary at the bishop's order to test him, \"Get outside, O Ethiopian\"; answered himself \"They have treated thee rightly\"",
     "witness": "Syriac sayings, Budge vol. II (l.1028); the saying names him \"Abba Moses\" and the clergy \"Ethiopian\"",
     "formation_confidence": "Widely Accepted"
    },
    {
-    "claim": "Killed by barbarians at Scete with seven brothers",
+    "claim": "Killed by barbarians at Scete with the brothers who stayed with him (one fled and saw seven crowns)",
     "witness": "Syriac sayings (l.1464), naming only \"Abba Moses\"",
     "formation_confidence": "Inferential-Thin"
    },
@@ -202,11 +202,11 @@
    },
    {
     "claim": "How he died",
-    "sides": "Palladius and Sozomen: died at Scete at seventy-five, with no violence told. A Syriac saying: an Abba Moses killed by barbarians with seven brothers (Budge vol. II l.1464), not named as the Ethiopian."
+    "sides": "Palladius and Sozomen: died at Scete at seventy-five, with no violence told. A Syriac saying: an Abba Moses killed by barbarians with the brothers who stayed (Budge vol. II l.1464), not named as the Ethiopian."
    },
    {
     "claim": "Whether Cassian's Abbot Moses is the same man",
-    "sides": "Cassian's Moses spent his boyhood near Antony (npnf211 l.27198-27199). Gibson: probably another, possibly Moses the Libyan (npnf211 l.24272-24276)."
+    "sides": "Cassian's Moses spent his boyhood near Antony (npnf211 l.27198-27199). Gibson: probably the Moses of the first two Conferences, and possibly Moses the Libyan (npnf211 l.24272-24276)."
    }
   ],
   "absent_details": [
@@ -295,7 +295,7 @@
   "claims": [
    {
     "claim": "Hurried on foot into Rome without horse or pack animal after Celidonius appealed; told Leo he came for courtesy, not for a case",
-    "witness": "Life of Hilary, extract in Mansi VI (l.44880-44901); partisan, authorship doubted by the editors (l.44827-44829)",
+    "witness": "Life of Hilary, extract in Mansi VI (l.44880-44901); partisan, its author left open by the editors, \"Honoratus of Marseilles, or whoever else\" (l.44820-44829)",
     "formation_confidence": "Inferential-Thin"
    },
    {
@@ -329,7 +329,7 @@
     "formation_confidence": "Inferential-Thin"
    },
    {
-    "claim": "A fiery torrent of faith and heavenly eloquence",
+    "claim": "Fiery in faith, a torrent of heavenly eloquence",
     "witness": "Constantius, Life of Germanus (constantius-lyon file l.3376-3378)",
     "formation_confidence": "Documented"
    },

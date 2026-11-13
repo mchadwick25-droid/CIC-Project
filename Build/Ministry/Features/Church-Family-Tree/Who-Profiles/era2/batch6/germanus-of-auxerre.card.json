@@ -46,6 +46,13 @@
         "date": null,
         "language": "English translation",
         "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt"
+      },
+      {
+        "title": "Chronica Gallica of 452 (ed. Theodor Mommsen)",
+        "author": null,
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/prosper_chronica-minora-1-lat_mommsen1892.txt"
       }
     ]
   }

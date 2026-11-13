@@ -12,7 +12,7 @@
   "keyWorks": [
     {
       "title": "Sermon on the Life of Saint Honoratus",
-      "about": "his funeral sermon for Honoratus of Arles, founder of the community on Lérins; held in Latin"
+      "about": "his sermon on the life of Honoratus of Arles, founder of the community on Lérins; held in Latin"
     }
   ],
   "legacy": {
@@ -21,13 +21,13 @@
       "Gennadius of Marseilles calls the sermon a work \"of so great practical value to many\"."
     ],
     "remembered": [
-      "Constantius of Lyon, in his Life of Germanus of Auxerre, calls him a fiery torrent of faith and heavenly speech.",
+      "Constantius of Lyon, in his Life of Germanus of Auxerre, calls him fiery in faith and a torrent of heavenly speech.",
       "Leo of Rome, after his death: \"Hilary of holy memory\".",
       "Charles Lett Feltoe calls Leo's quarrel with him Leo's \"not very creditable encounter with Hilary\"."
     ]
   },
   "uncertain": [
-    "The quarrel with Leo of Rome is told by two partisan sides. The Life of Hilary takes his side and survives here only as a passage quoted in Mansi's collection of council records, whose editors doubt that Honoratus of Marseilles wrote it. Leo was a party to the dispute.",
+    "The quarrel with Leo of Rome is told by two partisan sides. The Life of Hilary takes his side and survives here only as a passage quoted in Mansi's collection of council records, whose editors leave its author open: Honoratus of Marseilles, or another. Leo was a party to the dispute.",
     "Whether Celidonius was rightly deposed is disputed. The Life says the charge was confirmed by witnesses. Leo says Celidonius proved he had been wrongly deposed. Feltoe thinks Celidonius was probably bishop of Vienne or of Besançon.",
     "That he and Honoratus were kinsmen is his editors' reading of his own words, that Honoratus sought in him a vein of faith, as of his own blood.",
     "His birth is disputed among editors: Richardson gives about 401, while Jackson's death at forty-one in 449 implies a later year. Gennadius says he died under the emperors Valentinian and Marcian.",
@@ -62,6 +62,20 @@
         "date": null,
         "language": "Latin",
         "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-6-441-451-lat_welter-facsimile1901.txt"
+      },
+      {
+        "title": "Life of Germanus (ed. Wilhelm Levison)",
+        "author": "Constantius of Lyon",
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/constantius-lyon_vita-germani_levison1920.txt"
+      },
+      {
+        "title": "Notes to Vincent of Lérins (tr. C. A. Heurtley)",
+        "author": "C. A. Heurtley",
+        "date": null,
+        "language": "English",
+        "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml"
       }
     ]
   }
