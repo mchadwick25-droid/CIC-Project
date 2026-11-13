@@ -1,0 +1,68 @@
+{
+  "name": "Eznik of Kolb",
+  "otherNames": [
+    "Eznig de Goghp (Langlois's French)",
+    "Esnig"
+  ],
+  "knownFor": "An Armenian translator, a pupil of Sahak the Great and Mesrop Mashtots, later bishop of Bagrevand, who wrote the Refutation of the Sects against the Persian religion, the Greek philosophers and Marcion.",
+  "dates": "No source used here gives his birth, death or the date of his book. He studied at Edessa and Constantinople after the Armenian letters were made, by Koriun's account, and is listed as bishop of Bagrevand among those who answered the Persian edict, at Artashat by Elishe's account; neither Elishe nor Lazar of Pharp gives a year",
+  "place": "Kolb (Goghp in the French); Edessa; Constantinople; Bagrevand in Armenia",
+  "tradition": "Armenian Christianity after Avarayr",
+  "role": "Translator and bishop",
+  "briefLength": "about 2 minutes",
+  "keyWorks": [
+    {
+      "title": "Refutation of the Sects",
+      "about": "four books, against pagan dualists, the Persian religion, the Greek philosophers and Marcion; only part of the second book is held, in French"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Koriun says he and his companions brought home true copies of the Scriptures and the canons of Nicaea and Ephesus.",
+      "F. C. Burkitt, writing on the Syriac Marcionites, cites his chapters against Marcion as \"well-known\"."
+    ],
+    "remembered": [
+      "The introduction to his book in Victor Langlois's collection calls him, beyond question, one of the most famous writers of fifth-century Armenia."
+    ]
+  },
+  "uncertain": [
+    "His account of the Persian religion is an opponent's, written to refute it.",
+    "His journey is told two ways. Koriun says Sahak and Mesrop sent him to Edessa and that he went on to Constantinople. Moses of Khoren says lying letters drew him and Joseph of Baghin to Byzantium without their teachers' order, and that the translations made from their copies were found faulty.",
+    "No source used here gives the year of the assembly at Artashat. Langlois's note dates only the catholicos Joseph, from 441 to 452. The introduction to his book calls the gathering a council of Ashtishat, though Elishe places it at Artashat; Lazar of Pharp names no place.",
+    "The introduction to his book says no biographer recorded his birth or death, and nothing held dates the Refutation.",
+    "The Maxims once given to him are, by the same introduction, a translation of a Greek collection of Nilus. F. C. Burkitt thinks his book on Marcion likely translates an earlier Syriac writer.",
+    "Lazar of Pharp's list is held in a scan that reads \"Emig\" for Eznig. The English form \"Eznik of Kolb\" is the one in F. C. Burkitt's essay in C. W. Mitchell's edition of Ephraim's Prose Refutations."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Refutation of the Sects, book II, extract, in Victor Langlois, Collection des historiens de l'Arménie, vol. II",
+        "language": "French translation",
+        "file": "cic/texts/langlois_collection-historiens-armenie-tome2-fra_1869.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Life of Mesrop (tr. Emine)",
+        "author": "Koriun",
+        "date": null,
+        "language": "French translation",
+        "file": "cic/texts/langlois_collection-historiens-armenie-tome2-fra_1869.txt"
+      },
+      {
+        "title": "History of Armenia III",
+        "author": "Moses of Khoren",
+        "date": null,
+        "language": "French translation",
+        "file": "cic/texts/langlois_collection-historiens-armenie-tome2-fra_1869.txt"
+      },
+      {
+        "title": "History of Vardan; History of Armenia",
+        "author": "Elishe; Lazar of Pharp",
+        "date": null,
+        "language": "French translation",
+        "file": "cic/texts/langlois_collection-historiens-armenie-tome2-fra_1869.txt"
+      }
+    ]
+  }
+}

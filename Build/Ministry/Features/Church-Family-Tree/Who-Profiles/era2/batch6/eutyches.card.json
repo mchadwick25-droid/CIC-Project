@@ -1,0 +1,78 @@
+{
+  "name": "Eutyches",
+  "otherNames": [
+    "Eutyches the archimandrite"
+  ],
+  "knownFor": "A priest and head of a monastery at Constantinople whose teaching of one nature in Christ after the union was condemned in 448, upheld at Ephesus in 449 and condemned again at Chalcedon in 451.",
+  "dates": "Condemned at a synod under Flavian of Constantinople that S. G. F. Perry and Charles Lett Feltoe date to November 448; restored at Ephesus in 449. He told Leo of Rome that he had spent \"seventy years of life in continence and all chastity\". No source used here gives his birth or death",
+  "place": "Constantinople; Ephesus",
+  "tradition": "The Church of Alexandria and Miaphysite Egypt",
+  "role": "Priest and archimandrite",
+  "briefLength": "about 2 minutes 30 seconds",
+  "keyWorks": [
+    {
+      "title": "Letter to Leo of Rome",
+      "about": "his appeal against Flavian's sentence; the Greek is lost, and the Library holds Feltoe's English of the Latin (Leo, Letter 21)"
+    },
+    {
+      "title": "Petition to the emperors and to the council of 449",
+      "about": "his account of the trial, in the Syriac acts in Perry's English"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "The Council of Chalcedon's definition receives Leo's letter to Flavian \"for the removal of the false doctrines of Eutyches\".",
+      "Later councils name Eutyches beside Nestorius in their lists of condemned teachers."
+    ],
+    "remembered": [
+      "Leo of Rome: \"very unwary and exceedingly ignorant\"; \"the ignorant old man\".",
+      "The Syriac chronicle known as that of Zachariah of Mitylene: he \"affirmed an inaccurate dogma\"."
+    ]
+  },
+  "uncertain": [
+    "His words at his trial come through the minutes of the synod that condemned him. He said the record was false, and at Ephesus in 449 Basil of Seleucia denied a sentence written as his, then said he did not remember.",
+    "Whether he appealed to Rome is disputed. He told Leo he lodged an appeal; Flavian wrote to Leo that \"this he certainly never did\".",
+    "Leo and Flavian were his opponents, and the acts of 449 come from the council that restored him.",
+    "That the court eunuch Chrysaphius was his godson rests here on Liberatus of Carthage, a later Latin writer held only in a rough scan, and on Charles Lett Feltoe's introduction to Leo's letters.",
+    "The date of Flavian's synod, November 448, is an editors' date. No source used here gives his birth, his death, or the name of his monastery.",
+    "That he was exiled further after Chalcedon rests on Feltoe's summary of a letter of Leo that the English edition does not translate.",
+    "The Syriac chronicle cited here comes from the side that rejected Chalcedon; Hamilton and Brooks place its compiler in Mesopotamia, probably at Amida. It faults his teaching, though it says he was received at Ephesus after he confessed the true faith."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Letter to Leo (Leo, Letter 21, tr. Charles Lett Feltoe)",
+        "language": "English translation",
+        "file": "cic/texts/npnf212_leo-great-gregory-great.xml"
+      },
+      {
+        "title": "Petition, and the minutes read at Ephesus in 449 (tr. S. G. F. Perry)",
+        "language": "English translation",
+        "file": "cic/texts/council-of-ephesus-449_second-synod-of-ephesus-syriac-acts_perry1881.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Letters 22, 26, 28 (the Tome) and 29",
+        "author": "Leo of Rome; Flavian of Constantinople",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf212_leo-great-gregory-great.xml"
+      },
+      {
+        "title": "Definition of the Faith, Council of Chalcedon",
+        "author": null,
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf214_seven-ecumenical-councils.xml"
+      },
+      {
+        "title": "The Syriac Chronicle known as that of Zachariah of Mitylene (tr. F. J. Hamilton and E. W. Brooks)",
+        "author": "Zachariah of Mitylene, so called",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/zachariah-rhetor_chronicle_hamiltonbrooks1899.txt"
+      }
+    ]
+  }
+}

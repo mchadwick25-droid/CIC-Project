@@ -1,0 +1,59 @@
+{
+  "name": "Germanus of Auxerre",
+  "knownFor": "A lawyer and governor who became bishop of Auxerre in Gaul and twice crossed to Britain against the Pelagians.",
+  "dates": "Sent to Britain in the year that Theodor Mommsen's edition of Prosper of Aquitaine's chronicle sets in 429. Wilhelm Levison, editor of his Life, puts his death after 444, on 31 July, and his years as bishop near 418 to 448, a reckoning he calls not certain. No source used here gives his birth",
+  "place": "Auxerre in Gaul; Rome; Britain; Arles; Ravenna",
+  "tradition": "British and Welsh Christianity",
+  "role": "Bishop",
+  "briefLength": "about 2 minutes",
+  "legacy": {
+    "traces": [
+      "Prosper of Aquitaine's chronicle names him as Pope Celestine's envoy against the Pelagians in Britain.",
+      "Bede took the British chapters of Constantius of Lyon's Life into his Ecclesiastical History, as Levison shows, so later English readers knew him through Bede."
+    ],
+    "remembered": [
+      "A Gallic chronicle of 452, in Mommsen's edition, says the bishop of Auxerre grew famous for his miracles and the strictness of his life.",
+      "Constantius of Lyon wrote his Life, by Levison's date about 480 or a little after."
+    ]
+  },
+  "uncertain": [
+    "Most of his story comes from Constantius of Lyon's Life, a saint's Life full of wonders, written, by Wilhelm Levison's date, about 480 or a little after. Levison knows no other record of the Saxon and Pictish raid of the Alleluia battle.",
+    "Bede is not a second witness for the British journeys. Levison says Bede copied those chapters of Constantius almost word for word. Bede adds that Severus, Germanus's second companion, became bishop of Trier; Constantius gives Severus no see.",
+    "Who sent him to Britain is told two ways. Prosper of Aquitaine says Pope Celestine, urged by the deacon Palladius. Constantius says a large synod of Gallic bishops, after a request from Britain. Levison calls every way of joining the two accounts mere conjecture.",
+    "His years are Levison's reckoning. Constantius gives no year for his birth, his election, the second journey or his death. Bede's chapter headings of 429 and 447, in J. A. Giles's edition, are bracketed editorial dates.",
+    "Constantius gives his wife no name; Levison reports a name only from the later Gesta of the bishops of Auxerre.",
+    "No writing of his own is held."
+  ],
+  "sources": {
+    "about": [
+      {
+        "title": "Life of Germanus (ed. Wilhelm Levison)",
+        "author": "Constantius of Lyon",
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/constantius-lyon_vita-germani_levison1920.txt"
+      },
+      {
+        "title": "Epitoma Chronicon (ed. Theodor Mommsen)",
+        "author": "Prosper of Aquitaine",
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/prosper_chronica-minora-1-lat_mommsen1892.txt"
+      },
+      {
+        "title": "Ecclesiastical History of the English People I.17-21 (ed. J. A. Giles)",
+        "author": "Bede",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt"
+      },
+      {
+        "title": "Chronica Gallica of 452 (ed. Theodor Mommsen)",
+        "author": null,
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/prosper_chronica-minora-1-lat_mommsen1892.txt"
+      }
+    ]
+  }
+}
