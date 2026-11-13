@@ -1,0 +1,86 @@
+{
+  "name": "Ossius of Cordoba",
+  "otherNames": [
+    "Hosius of Cordova",
+    "Osius"
+  ],
+  "knownFor": "Bishop of Cordoba and a confessor in the persecution under Maximian, a leading bishop at Nicaea and Sardica, who told the emperor Constantius to keep out of church affairs and in great age was forced to yield at Sirmium.",
+  "dates": "A confessor under Maximian, by his own letter; bishop for \"more than sixty years\" and \"now a hundred years old\" when held at Sirmium, by Athanasius of Alexandria, which Archibald Robertson's notes to Athanasius place in 357; no source used here gives his death",
+  "place": "Cordoba in Spain; Alexandria; Nicaea; Sardica; Sirmium",
+  "tradition": "Imperial and Juridical Christianity",
+  "role": "Bishop and confessor",
+  "briefLength": "about 2 minutes",
+  "keyWorks": [
+    {
+      "title": "Letter to the emperor Constantius",
+      "about": "refuses to sign against Athanasius and tells the emperor not to meddle in church affairs; kept by Athanasius in his History of the Arians"
+    },
+    {
+      "title": "Canons of Sardica",
+      "about": "proposals made in his name at the council, beginning with a ban on bishops moving from a small city to a larger one"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "The Latin subscription lists of Nicaea, in the edition of Gelzer, Hilgenfeld and Cuntz, open with Osius, bishop of Cordoba.",
+      "His proposals stand among the Canons of Sardica, many of them introduced \"Bishop Hosius said\" in Henry Percival's English."
+    ],
+    "remembered": [
+      "Athanasius of Alexandria: \"the Abraham-like old man, Hosius, truly so called\".",
+      "Theodoret of Cyrrhus: he \"was the most highly distinguished of all those who assembled at the council of Nicæa; he also obtained the first place among those convened at Sardica\".",
+      "Sozomen: the eastern bishops at Sardica deposed \"Hosius, the confessor\", partly as \"the friend of Paulinus and Eustathius\" of Antioch."
+    ]
+  },
+  "uncertain": [
+    "His letter and the story of his lapse come mainly through Athanasius, whom the letter defends and who praises him, so the account takes a side.",
+    "Whether he presided at Nicaea is disputed. Athanasius asks what council he did not lead. A note in Archibald Robertson's edition of Athanasius says he presided. Henry Percival says there is no evidence for it. Robertson says his name stands first on the extant list of signatures, \"although the lists are bad witnesses\".",
+    "His lapse is told two ways. Athanasius says that after a year's confinement at Sirmium he shared communion with Valens and Ursacius but would not sign against Athanasius. Socrates and Sozomen say he was beaten until he signed a creed there. A. C. Zenos notes that Socrates confused the councils of Sirmium; Zenos dates the one of the lapse to 357.",
+    "Athanasius says that before his death he condemned the Arian heresy and named the force used on him. No other source used here tells his death.",
+    "Athanasius also speaks of conspiracies against his kinsfolk. No source used here names them.",
+    "A note on the letter in Robertson's edition asks whether Athanasius translated it from Latin. The letter survives only in Athanasius's Greek, here in English."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Letter to Constantius, in Athanasius, History of the Arians 44 (ed. Archibald Robertson)",
+        "language": "English translation",
+        "file": "cic/texts/npnf204_athanasius-select-works-letters.xml"
+      },
+      {
+        "title": "Canons of Sardica (ed. Henry Percival)",
+        "language": "English translation",
+        "file": "cic/texts/npnf214_seven-ecumenical-councils.xml"
+      }
+    ],
+    "about": [
+      {
+        "title": "History of the Arians 42-45; Defence of his Flight 5",
+        "author": "Athanasius of Alexandria",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf204_athanasius-select-works-letters.xml"
+      },
+      {
+        "title": "Church History I.7, II.29-31 (Socrates); I.16, III.11, IV.6 (Sozomen)",
+        "author": "Socrates of Constantinople; Sozomen",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
+      },
+      {
+        "title": "Church History II.12",
+        "author": "Theodoret of Cyrrhus",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+      },
+      {
+        "title": "Patrum Nicaenorum nomina",
+        "author": "Heinrich Gelzer, Heinrich Hilgenfeld and Otto Cuntz (editors)",
+        "date": "1898",
+        "language": "Latin",
+        "file": "cic/texts/patrum-nicaenorum-nomina_subscription-lists-lat_gelzer-hilgenfeld-cuntz1898.txt"
+      }
+    ]
+  }
+}
