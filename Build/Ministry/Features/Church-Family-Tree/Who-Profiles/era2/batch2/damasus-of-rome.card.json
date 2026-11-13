@@ -4,8 +4,8 @@
     "Pope Damasus",
     "Damasus"
   ],
-  "knownFor": "Bishop of Rome from 366 after an election fought with clubs and swords, whose councils held to the creed of Nicaea, and who set Jerome of Strido to revise the Latin Gospels.",
-  "dates": "Bishop from 366; died in the reign of Theodosius at almost eighty, by Jerome of Strido's account",
+  "knownFor": "Bishop of Rome from 366 or 367 after an election fought with clubs and swords, whose councils held to the creed of Nicaea, and who set Jerome of Strido to revise the Latin Gospels.",
+  "dates": "Bishop from 366, by the Avellana account's date, or 367, by Jerome of Strido's Chronicle as A. C. Zenos cites it; died in the reign of Theodosius at almost eighty, by Jerome's account",
   "place": "Rome",
   "tradition": "Imperial and Juridical Christianity",
   "role": "Bishop of Rome",
@@ -32,15 +32,15 @@
     "remembered": [
       "Jerome, writing to him from the East in 376 or 377, said he kept communion with none but Damasus, \"that is with the chair of Peter.\"",
       "In his Lives of Illustrious Men, Jerome remembers that he \"had a fine talent for making verses and published many brief works in heroic metre.\"",
-      "Ammianus Marcellinus, a pagan historian, set the riot of his election beside a sharp picture of Rome's bishops, \"enriched by offerings from matrons, riding in carriages, dressing splendidly.\"",
+      "Ammianus Marcellinus, a historian and most likely a pagan, set the riot of his election beside a sharp picture of Rome's bishops, \"enriched by offerings from matrons, riding in carriages, dressing splendidly.\"",
       "Blomfield Jackson, who translated Theodoret, quotes Northcote and Brownlow on his work in the catacombs, \"to rediscover the tombs which had been blocked up for concealment under Diocletian.\""
     ]
   },
   "uncertain": [
-    "The election of 366 is told from three sides. Ammianus Marcellinus, a pagan, blames both rivals and counts a hundred and thirty-seven dead in the Basilica of Sicininus in one day. Socrates of Constantinople and Sozomen blame Ursinus, who had himself ordained in secret. An account from Ursinus's own party, kept in the Collectio Avellana, blames Damasus. It says he paid charioteers, arena men and gravediggers, and counts a hundred and sixty dead in a church he besieged, none on his side.",
+    "Ammianus Marcellinus blames both rivals and counts a hundred and thirty-seven dead in the Basilica of Sicininus in one day. Socrates of Constantinople blames Ursinus, who had himself ordained in secret. Sozomen, a church historian of the fifth century, tells it the same way after him. An anonymous account from Ursinus's own party, kept in the Collectio Avellana, blames Damasus. It says he paid charioteers, arena men and gravediggers, and counts a hundred and sixty dead in a church he besieged, none on his side.",
     "The Avellana account dates Liberius's death and the fighting by the consuls of 366, and Chester Hartranft, who translated Sozomen, dates Liberius's death to September 366. A. C. Zenos, who translated Socrates, notes that Jerome's Chronicle puts it in 367.",
     "The chronological tables in W. H. Fremantle's translation of Jerome's works date his death to December 384. Ernest Cushing Richardson, who translated Jerome's Lives, gives 380 in a note. Jerome himself says only that he died under Theodosius, at almost eighty.",
-    "Zenos notes that he was \"a Spaniard by race\". No early witness in the sources used here gives his birthplace.",
+    "Zenos's note calls him \"a Spaniard by race, native of Mantua\". No early witness in the sources used here gives his birthplace.",
     "Sozomen calls his rival Ursicius. Ammianus, Socrates and the Avellana account call him Ursinus."
   ],
   "sources": {
@@ -68,7 +68,7 @@
       },
       {
         "title": "Quae gesta sunt inter Liberium et Felicem episcopos, the first item of the Collectio Avellana",
-        "author": "The clergy who backed Ursinus",
+        "author": "Anonymous, from Ursinus's party",
         "date": null,
         "language": "Latin",
         "file": "cic/texts/collectio-avellana_epistulae-imperatorum-pontificum-pars1-lat_guenther1895-csel35.txt"

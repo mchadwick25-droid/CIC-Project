@@ -5,7 +5,7 @@
     "Cyrillus"
   ],
   "knownFor": "Priest and then bishop of Jerusalem, whose lectures to the people preparing for baptism survive, and who was driven from his see three times.",
-  "dates": "Born about 315 or a few years before, by Gifford's reckoning; bishop from about 350; died 386",
+  "dates": "Born about 315 or a few years before, by Gifford's reckoning; bishop from about 350; died 386, by Gifford's reckoning from Jerome's eight years under Theodosius",
   "place": "Jerusalem",
   "tradition": "Jerusalem Liturgical-Pilgrimage Christianity",
   "role": "Bishop of Jerusalem",
@@ -27,7 +27,7 @@
   "legacy": {
     "traces": [
       "Gifford's chapters on the lectures draw from them the order of baptism, the anointing and the Eucharist as they were kept at Jerusalem.",
-      "Theodoret of Cyrus quotes his fourth lecture as the \"Testimony of Cyril, Bishop of Jerusalem.\""
+      "Theodoret of Cyrus, in his Dialogues, cites the fourth lecture as a testimony of Cyril, bishop of Jerusalem."
     ],
     "remembered": [
       "Jerome of Strido calls him \"bishop of Jerusalem often expelled by the church, and at last received.\"",
@@ -36,14 +36,14 @@
     ]
   },
   "uncertain": [
-    "How he became bishop is disputed. Socrates of Constantinople and Sozomen say the party of Acacius of Caesarea pushed out Maximus and put Cyril in his place. Jerome of Strido, hostile to Cyril, says in his Chronicle, as Gifford quotes it, that Cyril gave up the priesthood Maximus had given him to be made bishop by the Arians, and that he later pushed aside Heraclius, whom Maximus had named. The bishops at Constantinople in 382 wrote that Cyril was canonically ordained by the bishops of the province. Gifford, who defends Cyril, calls the accounts of Socrates and Jerome \"irreconcileable, and both improbable\", and follows Reischl's suggestion that Cyril was named in Maximus's lifetime and ordained in due form. Gifford notes that Jerome and Cyril took opposite sides in the split at Antioch.",
-    "Why Acacius deposed him. Sozomen, who says he looked into it, gives the sale of the church's veil and ornaments in a famine, and calls it a pretext. Socrates says he could not learn the charges, and that Cyril stayed away for two years \"owing to fear.\" Theodoret of Cyrus says Acacius \"seized some small occasion.\" Theodoret also gives Acacius's later tale of a gold-threaded robe sold to a dancer, who fell and died.",
+    "Socrates of Constantinople and Sozomen, a church historian of the fifth century, say the party of Acacius of Caesarea pushed out Maximus and put Cyril in his place. Jerome of Strido, hostile to Cyril, says in his Chronicle, as Gifford quotes it, that Cyril gave up the priesthood Maximus had given him to be made bishop by the Arians, and that he later pushed aside Heraclius, whom Maximus had named. The bishops at Constantinople in 382 wrote that Cyril was canonically ordained by the bishops of the province. Gifford, who defends Cyril, calls the accounts of Socrates and Jerome \"irreconcileable, and both improbable\", and follows Reischl's suggestion that Cyril was named in Maximus's lifetime and ordained in due form. Gifford notes that Jerome and Cyril took opposite sides in the split at Antioch.",
+    "Sozomen, who says he looked into why Acacius deposed him, gives the sale of the church's veil and ornaments in a famine, and calls it a pretext. Socrates says he could not learn the charges, and that Cyril stayed away for two years \"owing to fear.\" Theodoret of Cyrus says Acacius \"seized some small occasion.\" Theodoret also gives Acacius's later tale of a gold-threaded robe sold to a dancer, who fell and died.",
     "Socrates says that in 381 Cyril accepted the word homoousion, \"having retracted his former opinion.\" Sozomen says he had once followed Macedonius. Gifford, following Touttée, the Benedictine editor, rejects both, since the lectures teach the Son's unity of essence with the Father without the word.",
     "Some manuscripts name John, Cyril's successor, as the author of the Mystagogic Lectures. Gifford, with Touttée, holds that all the lectures are Cyril's, since the eighteenth lecture promises the later ones and they match it.",
     "Socrates says that when Julian let the Jews begin to rebuild the Temple, Cyril foretold that one stone would not be left upon another, and an earthquake followed that night. Gifford thinks Cyril may well have expected the attempt to fail, but finds \"no satisfactory evidence that he ventured to foretell any miraculous interposition.\"",
     "The dates of his exiles are reckoned by Gifford, about 357, 360 and about 367. The names of the men set in his place differ between the witnesses.",
     "Gifford dates the letter on the cross to 7 May 351, from the letter itself, which is not held in the Library. Gifford reports a doubt over the word \"Consubstantial\" in its last prayer, and holds the letter as a whole genuine.",
-    "No source gives his birth, family or schooling. Gifford reckons his birth from what Cyril seems to have seen of the holy places as a boy."
+    "No source used here gives his birth, parents or schooling. Gifford names one relative, his sister's son Gelasius, whom Cyril made bishop of Caesarea. Gifford reckons his birth from what Cyril seems to have seen of the holy places as a boy."
   ],
   "sources": {
     "ownWords": [
@@ -64,7 +64,7 @@
         "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
       },
       {
-        "title": "Church History, Book 2, chapters 22 and 23, and Book 5, chapter 9 (Theodoret); Lives of Illustrious Men, chapter 112 (Jerome)",
+        "title": "Church History, Book 2, chapters 22 and 23, and Book 5, chapter 9, and the Dialogues (Eranistes), Dialogue 2 (Theodoret); Lives of Illustrious Men, chapter 112 (Jerome)",
         "author": "Theodoret of Cyrus; Jerome of Strido",
         "date": null,
         "language": "English translation",

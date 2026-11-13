@@ -18,8 +18,8 @@
       },
       {
         "claim": "She drew Basil from the pride of oratory to the ascetic life",
-        "witness": "Life (l.136); followed by Blomfield Jackson (npnf208 l.1255-1265); one witness with an interest",
-        "formation_confidence": "Documented"
+        "witness": "Gregory of Nyssa, Life (l.136), one witness with an interest. Gregory of Nazianzus (Or. xliii, through Blomfield Jackson, npnf208 l.1252-1264) says Basil had already resolved on it; Jackson gives both",
+        "formation_confidence": "Contested"
       },
       {
         "claim": "She persuaded her mother to live as an equal with her maids",
@@ -27,7 +27,7 @@
         "formation_confidence": "Documented"
       },
       {
-        "claim": "The household was a double monastery, women under Macrina and men under Peter",
+        "claim": "The household was a double monastery, women under Macrina and men under her brother Peter of Sebaste",
         "witness": "W. K. Lowther Clarke, introduction (l.78-80)",
         "formation_confidence": "Dominant Modern Reconstruction"
       },
@@ -47,7 +47,16 @@
         "formation_confidence": "Documented"
       }
     ],
-    "contested_claims": [],
+    "contested_claims": [
+      {
+        "claim": "Whether Macrina turned Basil to the ascetic life",
+        "sides": "Gregory of Nyssa, Life (l.136): Basil came home proud of his oratory and Macrina drew him to philosophy and the life of toil. Gregory of Nazianzus, Or. xliii, as Blomfield Jackson reports him (npnf208 l.1252-1256): Basil had already determined to renounce the world. Jackson (l.1256-1264) gives both and reads Macrina as giving Basil the resolution to carry out his determination."
+      },
+      {
+        "claim": "The size of the family",
+        "sides": "Life (l.132, 212): four sons and five daughters, the estate divided in nine parts. Clarke, introduction (l.44): ten children, of whom four sons and five daughters survived infancy. Moore and Wilson, npnf205 (l.490-492): the father left ten children, five sons and five daughters."
+      }
+    ],
     "absent_details": [
       {
         "detail": "Year of birth",
@@ -86,8 +95,8 @@
         "formation_confidence": "Documented"
       },
       {
-        "claim": "His letter survives inside Maximinus's defence of Palladius and Secundianus against Ambrose, in the margins of Paris cod. lat. 8907",
-        "witness": "Kauffmann l.485-500, 686-715; Streitberg l.613-634",
+        "claim": "His letter survives inside Maximinus's defence of Palladius and Secundianus against Ambrose, written in the margins of Ambrose's On the Faith in Paris cod. lat. 8907, a fifth-century manuscript that also holds Hilary of Poitiers",
+        "witness": "Kauffmann l.485-512 (margins of the first book of Ambrose's De fide, l.509-512), 683-692 (margin text begins after Hilary ends at fol. 297'), 686-715; Streitberg l.613-634",
         "formation_confidence": "Documented"
       },
       {
@@ -96,8 +105,8 @@
         "formation_confidence": "Dominant Modern Reconstruction"
       },
       {
-        "claim": "Sent from Constantinople to the Arians of Moesia soon after Ulfila's death",
-        "witness": "Kauffmann with Bessell (l.3474-3479); Bessell and Jülicher otherwise (for Theodosius)",
+        "claim": "Sent from Constantinople soon after Ulfila's death; its readers the Arians of Moesia",
+        "witness": "Kauffmann n. 3 (l.3474-3479): with Bessell on the place and time of sending; the Moesian readers are Kauffmann's own view. Bessell and Jülicher: written for Theodosius",
         "formation_confidence": "Contested"
       },
       {
@@ -184,13 +193,13 @@
         "formation_confidence": "Contested"
       },
       {
-        "claim": "Joined the Arians later, under Valens, perhaps for help with an embassy",
+        "claim": "Joined the Arians later, under Valens, pressed by the needs of an embassy or, possibly, thinking their view better",
         "witness": "Sozomen VI.37 (npnf202 l.40158-40171)",
         "formation_confidence": "Contested"
       },
       {
-        "claim": "Went to Constantinople at the emperor's command to dispute against the Pneumatomachi, fell ill and died there, leaving a written creed",
-        "witness": "Auxentius 61-63 (Kauffmann l.15283-15304); Kauffmann dates it June 383",
+        "claim": "Went to Constantinople when the emperor summoned the bishops, expecting a council and meaning first to debate the Pneumatomachi; fell ill and died there, leaving a written creed",
+        "witness": "Auxentius 61-63 (Kauffmann l.15283-15304), read with Kauffmann (l.3702-3706), who follows Sievers against Bessell's reading that he went at the emperor's command for the debate (n. 2, l.3718-3719); Kauffmann dates it June 383",
         "formation_confidence": "Documented"
       }
     ],
@@ -220,29 +229,33 @@
       {
         "detail": "Whether the deathbed creed was left in Latin as it survives",
         "note": "Kauffmann reports Waitz's doubt (l.3736-3738); no witness settles it."
+      },
+      {
+        "detail": "The see of the Eusebius who consecrated Ulfila",
+        "note": "Philostorgius II.5 says only 'Eusebius and the other prelates' (Walford l.120); Kauffmann speaks of 'Eusebius und die Eusebianer' and the Eusebian synod of Antioch 341 (l.3767-3769, 3809-3811) without naming the consecrator's see. Left as the bare name on the card."
       }
     ]
   },
   "damasus-of-rome": {
     "claims": [
       {
-        "claim": "Succeeded Liberius as bishop of Rome in 366 after a disputed election with Ursinus",
-        "witness": "Socrates IV.29; Sozomen VI.23 (Hartranft's note: Liberius died 24 September 366); Gesta inter Liberium et Felicem (Avellana 1, consuls of 366); Ammianus XXVII.3.12-13",
+        "claim": "Succeeded Liberius as bishop of Rome after a disputed election with Ursinus",
+        "witness": "Socrates IV.29; Sozomen VI.23; Gesta inter Liberium et Felicem (Avellana 1); Ammianus XXVII.3.12-13. The year (366 or 367) is in the contested record",
         "formation_confidence": "Documented"
       },
       {
         "claim": "On one day 137 dead bodies were found in the Basilica of Sicininus, and Damasus won through the efforts of his partisans",
-        "witness": "Ammianus Marcellinus XXVII.3.13 (pagan outside witness, one source for the figure)",
+        "witness": "Ammianus Marcellinus XXVII.3.13 (outside witness, most likely a pagan per Yonge's preface l.750-752; one source for the figure)",
         "formation_confidence": "Documented"
       },
       {
         "claim": "Ursinus, a deacon, could not bear his defeat and had bishops of little note ordain him in secret",
-        "witness": "Socrates IV.29; Sozomen VI.23 (from Socrates and Rufinus)",
+        "witness": "Socrates IV.29 (following Rufinus, per Zenos's note); Sozomen VI.23 (after Socrates and Rufinus, per Hartranft's note)",
         "formation_confidence": "Contested"
       },
       {
         "claim": "Damasus paid charioteers, arena men and gravediggers and besieged a basilica, killing 160 of the people with none dead on his side",
-        "witness": "Gesta inter Liberium et Felicem (Avellana 1), written by the clergy who backed Ursinus; one partisan witness",
+        "witness": "Gesta inter Liberium et Felicem (Avellana 1), anonymous, from Ursinus's party; one partisan witness",
         "formation_confidence": "Contested"
       },
       {
@@ -274,7 +287,7 @@
     "contested_claims": [
       {
         "claim": "Who was to blame for the violence of the 366 election",
-        "sides": "Ammianus Marcellinus, a pagan outside witness, blames both rivals, says Damasus won by his partisans' efforts and counts 137 dead in one day. Socrates of Constantinople and Sozomen blame Ursinus for a secret ordination and schism. The Gesta, from the clergy who backed Ursinus, blames Damasus for hired violence and counts 160 dead in a besieged basilica, none on his side."
+        "sides": "Ammianus Marcellinus, an outside witness and most likely a pagan, blames both rivals, says Damasus won by his partisans' efforts and counts 137 dead in one day. Socrates of Constantinople blames Ursinus for a secret ordination and schism, and Sozomen tells it the same way after him. The anonymous Gesta, from Ursinus's party, blames Damasus for hired violence and counts 160 dead in a besieged basilica, none on his side."
       },
       {
         "claim": "The year of his accession and of his death",
@@ -284,7 +297,7 @@
     "absent_details": [
       {
         "detail": "Birthplace and family",
-        "note": "Zenos's note on Socrates IV.29 calls him 'a Spaniard by race'; no early witness used here gives his birthplace or family. Left out of the brief."
+        "note": "Zenos's note on Socrates IV.29 calls him 'a Spaniard by race, native of Mantua'; no early witness used here gives his birthplace or family. Left out of the brief."
       },
       {
         "detail": "The martyr shrines and epigrams in the catacombs",
@@ -320,9 +333,9 @@
         "formation_confidence": "Documented"
       },
       {
-        "claim": "Did not deny lewd doctrines, night meetings with women and praying naked",
-        "witness": "Sulpicius II.50, reporting the court's findings; no account from Priscillian's side",
-        "formation_confidence": "Contested"
+        "claim": "Did not deny that he had given himself up to lewd doctrines, held night meetings with women and prayed naked",
+        "witness": "Sulpicius II.50 only; hostile; reports the court of Evodius",
+        "formation_confidence": "Documented"
       },
       {
         "claim": "Taught that souls came down from God through circles of evil powers into bodies, and joined the patriarchs' names to parts of the body",
@@ -463,8 +476,8 @@
     ],
     "absent_details": [
       {
-        "detail": "Birth, family and schooling",
-        "note": "No source gives them. Gifford reckons a birth about 315 or a little before from what Cyril seems to have seen of the holy places; a nephew, Gelasius, appears in Gifford (from Epiphanius and Theodoret) and is not used in the brief."
+        "detail": "Birth, parents and schooling",
+        "note": "No source used here gives them. Gifford reckons a birth about 315 or a little before from what Cyril seems to have seen of the holy places. One relative is named: Gifford names his sister's son Gelasius, whom Cyril made bishop of Caesarea (npnf207 l.586-588); Theodoret names Gelasius of Caesarea too (npnf203 l.15861). Given on the card, not in the brief."
       },
       {
         "detail": "The text of the Letter to Constantius",
@@ -515,7 +528,7 @@
       },
       {
         "claim": "Condemned at Rome under Damasus, in the presence of Peter of Alexandria, in 377 by Lietzmann's date",
-        "witness": "Sozomen VI.25; Damasus's letter in Theodoret V.10 (npnf203 l.16066-16120); Lietzmann chronology (l.~566)",
+        "witness": "Sozomen VI.25; Damasus's letter in Theodoret V.10 (npnf203 l.16066-16120); Lietzmann chronology (l.~566); Hartranft's note at Sozomen VI.25 (npnf202 l.39034) gives 377 after Rade and 374 after Hefele",
         "formation_confidence": "Documented"
       },
       {
@@ -547,7 +560,7 @@
     "contested_claims": [
       {
         "claim": "Who wrote the Scripture paraphrases under Julian",
-        "sides": "Socrates III.16: the father (Moses in heroic verse, the historical books) and the son (the Gospels as Platonic dialogues). Sozomen V.18: the son alone (an epic of Hebrew antiquities in twenty-four parts, comedies, tragedies, odes). Lietzmann finds Sozomen's account the more credible and allows the grammar to the father."
+        "sides": "Socrates III.16: the father (Moses in heroic verse, the historical books) and the son (the Gospels as Platonic dialogues). Sozomen V.18: one Apolinarius only, whom Lietzmann takes for the son (an epic of Hebrew antiquities in twenty-four parts, comedies, tragedies, odes); Sozomen does not mention the Moses verse or the Gospel dialogues. Lietzmann finds Sozomen's account the more credible and allows the grammar to the father."
       },
       {
         "claim": "Why George of Laodicea excommunicated him",
@@ -565,7 +578,7 @@
       },
       {
         "detail": "Year of death",
-        "note": "Lietzmann: unknown; Jerome says under Theodosius; Gregory of Nyssa's Antirrheticus (after 385) presumes him living."
+        "note": "Lietzmann: unknown; Jerome says under Theodosius; Gregory of Nyssa's Antirrheticus (after 385) presumes him living. Richardson's note to Lives 104 gives about 390 (npnf203 l.41392)."
       },
       {
         "detail": "An English text of his own words",
@@ -587,7 +600,12 @@
       },
       {
         "claim": "Wrote in defence of the Church against his own party, reported a Donatist council that received traditors without rebaptism, and was answered and warned by Parmenian, yet stayed with the Donatists",
-        "witness": "Augustine, Letter 93.43-44 (an opponent of his party, one witness for the council report)",
+        "witness": "Augustine, Letter 93.43-44 (a Catholic bishop who wrote against the Donatists, an opponent of his party; one witness for the council report)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Augustine judged his staying with the Donatists, while arguing for a church spread through the world, 'a most inconsistent disposition', and says Parmenian checked him only on that ground",
+        "witness": "Augustine, On Christian Doctrine III.30; Letter 93.44 (an opponent of his party)",
         "formation_confidence": "Documented"
       },
       {
@@ -611,12 +629,7 @@
         "formation_confidence": "Inferential-Thin"
       }
     ],
-    "contested_claims": [
-      {
-        "claim": "Whether Tyconius was right or inconsistent in arguing for a church spread through the world while staying a Donatist",
-        "sides": "Augustine (On Christian Doctrine III.30; Letter 93.44) calls it a most inconsistent disposition and says Parmenian silenced him only on that ground. Parmenian, as Augustine reports him, answered and warned him. No writing of Tyconius on his own choice survives in the sources used here; his Bellum Intestinum has perished (Burkitt)."
-      }
-    ],
+    "contested_claims": [],
     "absent_details": [
       {
         "detail": "Birth, death, home town, and whether he was ordained",
@@ -625,6 +638,10 @@
       {
         "detail": "Condemnation by a Donatist council around 380",
         "note": "Named in the census and the Burkitt file's vendoring header, not in any held source text; Augustine reports only Parmenian's reply and warning."
+      },
+      {
+        "detail": "Tyconius's own case for staying a Donatist",
+        "note": "No writing of his on that choice survives in the sources used here; his Bellum Intestinum has perished (Burkitt). Augustine's verdict is recorded as Augustine's in the claims."
       }
     ]
   },
@@ -666,14 +683,19 @@
         "formation_confidence": "Documented"
       },
       {
-        "claim": "Banished by Theodosius, died soon after, buried at Dacora",
-        "witness": "Sozomen VII.17 (npnf202 l.41523-41532); Philostorgius X.6 (l.382)",
+        "claim": "Banished by Theodosius; died soon after and was buried at Dacora, his birthplace",
+        "witness": "Sozomen VII.17 (npnf202 l.41523-41533); Philostorgius X.6 (Walford l.382) has him living at his country place, the Dacoroenian fields, after his banishments",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The prefect Eutropius later had him moved from the Dacoroenian territory to Tyana, to be kept by monks, and would not let his body lie in his master's tomb",
+        "witness": "Philostorgius XI.5 (Walford l.410); one partisan witness through a hostile epitomator",
         "formation_confidence": "Documented"
       },
       {
         "claim": "Taught that God knows no more of his own substance than we do",
-        "witness": "Socrates IV.7 (npnf202 l.12515-12519); hostile; not in the held Apology",
-        "formation_confidence": "Contested"
+        "witness": "Socrates IV.7 (npnf202 l.12515-12519); one hostile witness. The words are not found in the held Apology (Whiston), which does not speak to the point either way",
+        "formation_confidence": "Documented"
       }
     ],
     "contested_claims": [
@@ -688,10 +710,6 @@
       {
         "claim": "Whether he first taught baptism by single immersion",
         "sides": "Some in Sozomen VI.26 say so; Sozomen thinks Theophronius and Eutychius began it."
-      },
-      {
-        "claim": "Where his body lay",
-        "sides": "Sozomen VII.17: buried at Dacora. Philostorgius XI.5: Eutropius had him moved to Tyana and kept him from his master's tomb."
       },
       {
         "claim": "How Basil died",

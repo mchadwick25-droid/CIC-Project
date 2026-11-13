@@ -6,7 +6,7 @@
     "Apollinaris the younger"
   ],
   "knownFor": "Scholar and bishop of Laodicea in Syria, who taught that the divine Word took the place of a human mind in Christ, and whose followers formed their own churches.",
-  "dates": "Put out of the church by George of Laodicea in 346, by Lietzmann's date; condemned at Rome in 377 and at Constantinople in 381; died in the reign of Theodosius, the year unknown",
+  "dates": "Put out of the church by George of Laodicea in 346, by Lietzmann's date; condemned at Rome in 377, by Lietzmann's date, and at Constantinople in 381; died in the reign of Theodosius; Lietzmann says the year is not known",
   "place": "Laodicea in Syria; he also taught at Antioch",
   "tradition": "Apollinarian Christianity",
   "role": "Bishop of Laodicea; teacher of rhetoric and Scripture",
@@ -18,7 +18,7 @@
     },
     {
       "title": "Against Porphyry",
-      "about": "thirty books against the pagan philosopher, which Jerome of Strido calls among the best of his works; lost"
+      "about": "thirty books against the pagan philosopher, which Jerome of Strido says were generally counted among his best works; lost"
     },
     {
       "title": "The Detailed Confession of Faith",
@@ -27,7 +27,7 @@
   ],
   "legacy": {
     "traces": [
-      "His followers formed churches of their own in various cities, under their own bishops, says Sozomen. At Antioch they followed the priest Vitalius, and were still called Vitalians in Sozomen's day.",
+      "His followers formed churches of their own in various cities, under their own bishops, says Sozomen, a church historian of the fifth century. At Antioch they followed the priest Vitalius, and were still called Vitalians in Sozomen's day.",
       "Theodoret of Cyrus, an opponent, traces to followers of his who returned to the church \"the doctrine of the one nature of the Flesh and of the Godhead.\"",
       "Lietzmann shows that works of his, put under the names of Athanasius, Julius and Felix of Rome and Gregory the Wonderworker, were later cited as orthodox witnesses until the fraud was found out.",
       "Philip Schaff, quoted by Henry Percival in his English edition of the councils, calls him \"the first to apply the results of the Nicene controversy to Christology proper.\""
@@ -41,12 +41,13 @@
   },
   "uncertain": [
     "His teaching on Christ reaches us mostly through opponents: Socrates of Constantinople, Gregory of Nazianzus, Gregory of Nyssa and Theodoret of Cyrus. Lietzmann found that the church destroyed his books of doctrine wherever it could. His own words survive in quotations by opponents, in later collections, and in works put under other names. Which pieces are his is Lietzmann's reconstruction, argued in his study of 1904.",
-    "Who rewrote Scripture in Greek forms under Julian. Socrates gives the verse of the books of Moses to the father and the dialogues on the Gospels to the son. Sozomen gives all the work to the son. Lietzmann finds Sozomen the more credible, and thinks the grammar Socrates names may be the father's.",
-    "Why George of Laodicea put him out. Sozomen says it was for his friendship with Athanasius of Alexandria. Socrates says it was for the friendship with the sophist Epiphanius, or, as some told it, because George wavered in his creed. Lietzmann reads the earlier expulsion under Theodotus as aimed at their stand for Nicaea.",
-    "What he taught about Christ's flesh. Socrates says he first denied Christ a soul, then granted a soul without reason. Gregory of Nazianzus says a pamphlet of his made the flesh eternal and the Godhead able to suffer. Theodoret says he spoke both ways about the flesh. Ullman, whom Gregory's translators Browne and Swallow cite, thinks Gregory may have pushed the pamphlet further than Apollinaris meant.",
+    "Socrates gives the verse of the books of Moses to the father and the dialogues on the Gospels to the son. Sozomen names only one of them, whom Lietzmann takes for the son, and gives him an epic of Hebrew history, plays and odes. Lietzmann finds Sozomen the more credible, and thinks the grammar Socrates names may be the father's.",
+    "Sozomen says George of Laodicea put him out for his friendship with Athanasius of Alexandria. Socrates says it was for the friendship with the sophist Epiphanius, or, as some told it, because George wavered in his creed. Lietzmann reads the earlier expulsion under Theodotus as aimed at their stand for Nicaea.",
+    "Socrates says he first denied Christ a soul, then granted a soul without reason. Gregory of Nazianzus says a pamphlet of his made the flesh eternal and the Godhead able to suffer. Theodoret says he spoke both ways about the flesh. Ullman, whom Gregory's translators Browne and Swallow cite, thinks Gregory may have pushed the pamphlet further than Apollinaris meant.",
     "Socrates and Sozomen both say his teaching grew from resentment at being put out. Sozomen gives this as \"It is said\".",
     "Jerome calls him bishop of Laodicea. Lietzmann says he was perhaps a rival bishop there from about 360. Ernest Cushing Richardson, who translated Jerome's Lives, gives 362.",
-    "The year of his death is not known, says Lietzmann. Jerome says he died under Theodosius. Gregory of Nyssa's book against him, written after 385 by Lietzmann's date, treats him as still alive."
+    "Lietzmann dates the council at Rome that condemned him to 377. Chester Hartranft, who translated Sozomen, notes two dates for it, 377 after Rade and 374 after Hefele.",
+    "The year of his death is not known, says Lietzmann. Jerome says he died under Theodosius. Gregory of Nyssa's book against him, written after 385 by Lietzmann's date, treats him as still alive. Richardson's note gives about 390."
   ],
   "sources": {
     "ownWords": [
