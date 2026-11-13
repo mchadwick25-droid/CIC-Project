@@ -136,7 +136,7 @@ function siteHeader(up) {
     <a href="${up}" class="wordmark">Church Family Tree</a>
     <nav aria-label="Site">
       <a href="https://churchinconversation.com/">Church in Conversation &rarr;</a>
-      <a href="${up}support.html">Support the tree</a>
+      <a href="${up}support.html">Help us grow</a>
       <button type="button" class="feedback-toggle" id="feedback-toggle" aria-haspopup="dialog" aria-expanded="false">Tell us what you think</button>
     </nav>
   </div>
@@ -154,7 +154,7 @@ function siteFooter(up) {
       <a href="${up}privacy.html">Privacy</a>
       <a href="${up}terms.html">Terms</a>
       <a href="https://churchinconversation.com/license">License</a>
-      <a href="${up}support.html">Support the tree</a>
+      <a href="${up}support.html">Help us grow</a>
     </nav>
   </div>
 </footer>`;

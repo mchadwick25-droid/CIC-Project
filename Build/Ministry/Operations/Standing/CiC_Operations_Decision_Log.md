@@ -184,3 +184,9 @@ The longer paragraphs and the ElevenLabs name are removed. The generator test no
 **Project lead.** On where it lives: "i think b for now and i will update later if needed". He named two backups in order, the first and then a second. Their names are recorded in the register, not here.
 
 **Decision.** The account register is a private claude.ai document, outside this repository. This repository is public, and a list of the accounts and their login emails would show an attacker what to target. The register lists each service, what it runs, the login email, whose name it is in, how it is paid, whether two-step login is on, and whether the first backup can get in. It also lists the four domains and gives the backups a short plan if the project lead is unavailable. It holds no passwords, keys or recovery codes. A password manager with emergency access is the recommended later step.
+
+## 2026-11-13 - 16. "Help us grow" in place of "Support the tree"
+
+**Project lead.** "on the main page lets not have support the tree, its catchy but not on target, what about something like help us grow", then "a".
+
+**Decision.** "Help us grow" is now the label in four places: the tree's header menu and footer on every page (`Build/tools/generate_tree_pages.mjs`), the support page's title (`Build/tools/tree_site_pages.json`), and the map's home-page link (`cft-website/index.html`). The same change gives the map's key footer the copyright line and a Terms link. That footer still said "A Faithways Studio project", which decision 1 had missed because the map page is built separately.

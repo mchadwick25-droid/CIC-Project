@@ -293,7 +293,7 @@ svg.who-on .edge-line,svg.who-on .edge-hit,svg.who-on .continues{display:none!im
   <h1>Church Family Tree</h1>
   <span class="tag">an interactive map of Christian tradition, from the first house-churches to about 2010</span>
   <div class="spacer"></div>
-  <a class="support-link" href="support.html">Support the tree</a>
+  <a class="support-link" href="support.html">Help us grow</a>
   <a class="cic-link" href="https://churchinconversation.com/">Church in Conversation &rarr;</a>
   <button type="button" class="feedback-toggle" id="feedback-toggle" aria-haspopup="dialog" aria-expanded="false">Tell us what you think</button>
   <button id="zoomOutBtn" type="button" class="zoom-btn" aria-label="Zoom out" title="Zoom out (minus key)">&minus;</button>
@@ -90487,7 +90487,7 @@ function buildLegend(){
   key+=`<div class="note">Width shows how many recorded movements were active then. A dashed thread marks years with none on record. Rivers lean together or apart where the record shows a link. Hiding a river does not move the others.</div>`;
   key+=`<div class="note">Places are given with the country they lie in today.</div>`;
   key+=`<div class="note">Tap a switch to hide or show it. Your choices stay for your next visit.</div>`;
-  key+=`<div class="foot">A Faithways Studio project. The same team makes <a href="https://churchinconversation.com/">Church in Conversation</a>.<br><a href="about.html">About</a> · <a href="method.html">Method</a> · <a href="data.html">Data and citation</a> · <a href="privacy.html">Privacy</a> · <a href="https://churchinconversation.com/license">License</a> · <a href="support.html">Support the tree</a></div>`;
+  key+=`<div class="foot">&copy; 2026 Faithways Studio, Inc., a Colorado public benefit corporation &middot; <a href="https://churchinconversation.com/license">License</a>. The same team makes <a href="https://churchinconversation.com/">Church in Conversation</a>.<br><a href="about.html">About</a> · <a href="method.html">Method</a> · <a href="data.html">Data and citation</a> · <a href="privacy.html">Privacy</a> · <a href="https://churchinconversation.com/license">License</a> · <a href="terms.html">Terms</a> · <a href="support.html">Help us grow</a></div>`;
   const group=(id,label,body)=>`<div class="chip-group"><button type="button" class="chip" aria-expanded="false" aria-controls="sw-${id}">${label} &#9662;</button><div class="chip-panel" id="sw-${id}" hidden>${body}</div></div>`;
   let bar=group('rivers','Rivers',rivers)+group('links','Connections',links);
   if(acrossMovements.length)bar+=`<button type="button" class="chip" data-toggle="movements" aria-pressed="false">Movements</button>`;
