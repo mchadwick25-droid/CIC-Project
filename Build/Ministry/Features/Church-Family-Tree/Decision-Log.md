@@ -2451,3 +2451,15 @@ These are change orders to merged audit records. The census, `records/`, `packag
 **New counts.** Era 1: 72 people (64 in the first table plus 8 addendum rows); WHO 24, STORY 8, LISTED 36, WANTED 4. Era 2: 111. Era 3: 98. Era 6: STORY 22, LISTED 57. Era 7: 255. Era 8: 409. Era 9: WHO 34, STORY 11, LISTED 50, WANTED 154. Total 2,112 people, 254 of them supplement rows. The Who Scan Register page was rebuilt from the corrected audits.
 
 No census, record or site change is made, so there is no data release number. Approved to proceed (coordinator, 2026-11-12; Mark may overrule).
+
+## 2026-11-13 — Data release 40: the Lactantius quotes on the Tertullian link cite the public-domain English (Mark, 2026-11-13)
+
+**The ruling it carries out.** On 2026-11-12, through the operations thread (ops open item 6), Mark ruled that the two CC BY-SA quotes on the link `tertullian-s-voice--latin-apologists` be replaced with the public-domain 1890 Brandt print, re-verified word for word.
+
+**What was found.** The Library's public-domain scan of the 1890 print (`cic/texts/lactantius_divinae-institutiones-epitome-lat_brandt-csel19.txt`, Internet Archive operaomniaacced00laubgoog) has no page 411. The OCR runs from page 410 straight to page 412, and Div. inst. V.4.3 is on page 411. So the ruled swap could not be made from a held file.
+
+**Decided (Mark, 2026-11-13, picked from options, relayed by the coordinator).** "English now, Latin later." The link now cites William Fletcher's translation in Ante-Nicene Fathers vol. 7 (1886, public domain, `cic/texts/anf07_lactantius-apostolic-constitutions-didache-liturgies.xml`): the chapter heading at line 4565, "Chap. IV.—Why This Work Was Published, and Again of Tertullian and Cyprian.", and at line 4569, "fully pleaded the same cause in that treatise which is entitled the". The ANF text puts markup between "Although", "Tertullian" and "Apology", so the verbatim quote is the run of plain words between them. The link's note, grade and verification state are unchanged. A public-domain scan of the 1890 print that holds page 411 goes on the Library list, so the Latin can be added back (Open-Gaps 234).
+
+**Checked.** Both quotes were checked by two methods: the census validator's verbatim span check, and a separate exact-substring count over the file (each occurs once, on its cited line).
+
+Data release 40 (2026-11-13). The data page's release number follows. Approved to proceed (Mark, 2026-11-13).
