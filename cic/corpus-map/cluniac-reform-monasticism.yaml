@@ -14,3 +14,29 @@ works:
     first abbots. Within this entry's window (909-1109). The charters before 910 are of the
     estates that came to Cluny. It also answers the Benedictine gap after 604 (Open-Gaps 158).
   source_file: cluny_recueil-des-chartes-t1-802-954-lat-fra_bernard-bruel1876.txt
+- row_id: odilo-cluny_opera-with-jotsald-vita-odilonis-pl142-lat_migne1853--odilo-of-cluny-sermons-jotsald-vita-odilonis-pl-142
+  work: Odilo of Cluny, sermons; Jotsald, Vita Odilonis (PL 142)
+  author: odilo-cluny
+  locus: from about OCR line 74093; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  note: Odilo's own sermons and Jotsald's Life of him (abbot to 1049, era 4 audit).
+  source_file: odilo-cluny_opera-with-jotsald-vita-odilonis-pl142-lat_migne1853.txt
+- row_id: odo-cluny_opera-with-john-of-salerno-vita-odonis-pl133-lat_migne1853--odo-of-cluny-collationes-vita-geraldi-sermons-john-of
+  work: Odo of Cluny, Collationes, Vita Geraldi, sermons; John of Salerno, Vita Odonis (PL
+    133)
+  author: odo-cluny
+  locus: the whole volume except Nalgod's twelfth-century Life (from about OCR line 6654),
+    which is later; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  note: Odo's own works and John of Salerno's Life of him, inside this window.
+  source_file: odo-cluny_opera-with-john-of-salerno-vita-odonis-pl133-lat_migne1853.txt
+- row_id: odo-cluny_occupatio-lat_swoboda1900--odo-of-cluny-occupatio-swoboda-1900
+  work: Odo of Cluny, Occupatio (Swoboda 1900)
+  author: odo-cluny
+  locus: from about OCR line 1367; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  note: The abbot's own poem, inside this window.
+  source_file: odo-cluny_occupatio-lat_swoboda1900.txt

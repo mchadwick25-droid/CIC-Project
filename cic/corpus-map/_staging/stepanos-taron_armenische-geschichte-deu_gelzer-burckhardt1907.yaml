@@ -1,0 +1,11 @@
+source_file: stepanos-taron_armenische-geschichte-deu_gelzer-burckhardt1907.txt
+assignments:
+- row_id: stepanos-taron_armenische-geschichte-deu_gelzer-burckhardt1907--stepanos-of-taron-universal-history-tr-gelzer-and-burckhardt
+  work: 'Stepanos of Taron, Universal History, tr. Gelzer and Burckhardt (1907)'
+  author: stepanos-taron
+  locus: 'the whole text; add 12 to OCR line numbers'
+  atlas_ids:
+  - bagratid-armenian-christianity
+  role: tradition
+  confidence: provisional
+  note: 'Stepanos''s history, written about 1000 (era 4 audit), inside this window.'

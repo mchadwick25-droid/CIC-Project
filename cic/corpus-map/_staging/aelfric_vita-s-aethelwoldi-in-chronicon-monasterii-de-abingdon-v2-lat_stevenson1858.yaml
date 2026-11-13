@@ -1,0 +1,11 @@
+source_file: aelfric_vita-s-aethelwoldi-in-chronicon-monasterii-de-abingdon-v2-lat_stevenson1858.txt
+assignments:
+- row_id: aelfric_vita-s-aethelwoldi-in-chronicon-monasterii-de-abingdon-v2-lat_stevenson1858--lfric-life-of-st-thelwold-abingdon-chronicle-ii
+  work: 'Ælfric, Life of St Æthelwold (Abingdon Chronicle II)'
+  author: aelfric
+  locus: 'about OCR lines 19873-20428; add 12 to OCR line numbers'
+  atlas_ids:
+  - late-anglo-saxon-christianity
+  role: tradition
+  confidence: provisional
+  note: 'Ælfric''s Life of Æthelwold (Æthelwold c.904-984, era 4 audit).'

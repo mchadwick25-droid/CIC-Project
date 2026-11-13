@@ -1,0 +1,11 @@
+source_file: dunstan_memorials-of-saint-dunstan-rolls-series-63-lat_stubbs1874.txt
+assignments:
+- row_id: dunstan_memorials-of-saint-dunstan-rolls-series-63-lat_stubbs1874--memorials-of-st-dunstan-stubbs-1874-the-life-by-b-and-the
+  work: 'Memorials of St Dunstan (Stubbs 1874): the Life by B. and the letters'
+  author: dunstan
+  locus: 'from about OCR line 8056; add 12 to OCR line numbers'
+  atlas_ids:
+  - late-anglo-saxon-christianity
+  role: tradition
+  confidence: provisional
+  note: 'The Life by B. and the letters; the later Lives by Osbern and Eadmer are dated in Stubbs''s introduction, not here.'

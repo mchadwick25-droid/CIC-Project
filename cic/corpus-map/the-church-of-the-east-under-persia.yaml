@@ -223,6 +223,16 @@ works:
 
     '
   source_file: evagrius-scholasticus_ecclesiastical-history_walford1846.txt
+- row_id: ishoyahb-iii_liber-epistularum-versio-lat_duval-csco1905--ishoyahb-iii-liber-epistularum-tr-duval-1905
+  work: Ishoyahb III, Liber epistularum, tr. Duval (1905)
+  author: ishoyahb-iii
+  locus: the Latin version, to about OCR line 11600; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  note: The catholicos's own letters. Duval's preface places him from 630 (OCR about 96) to
+    his death in 658 (about 134), across both windows; which letter falls in which window
+    is not settled here.
+  source_file: ishoyahb-iii_liber-epistularum-versio-lat_duval-csco1905.txt
 - row_id: john-ephesus_lives-eastern-saints-po17_brooks1923--life-10-simeon-beth-arsham-persian-debater
   work: 'Lives of the Eastern Saints 10 (Simeon of Beth Arsham, the Persian Debater: his disputes
     with the Catholicos Babai before the Persian king, c. 499-504)'

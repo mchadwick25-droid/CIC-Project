@@ -15,3 +15,12 @@ works:
     was written about 690, so its text is older than any copy. Placed on the early window;
     no single entry fits all the copies.'
   source_file: rituale-armenorum-lectionary_conybeare1905.txt
+- row_id: john-odzun_opera-arm-lat_aucher1834--john-of-odzun-oratio-synodalis-and-canons-aucher-1834
+  work: John of Odzun, Oratio synodalis and canons (Aucher 1834)
+  author: john-odzun
+  locus: from about OCR line 389; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  note: The catholicos's own synodal discourse and canons of 719 (Aucher's preface), inside
+    this window.
+  source_file: john-odzun_opera-arm-lat_aucher1834.txt
