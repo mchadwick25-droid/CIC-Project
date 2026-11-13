@@ -1,0 +1,708 @@
+{
+  "macrina-the-younger": {
+    "claims": [
+      {
+        "claim": "Gregory visited her about nine months after Basil's death, after the council of Antioch, and found her dying on a sack on a board",
+        "witness": "Gregory of Nyssa, Life (clarke1916 l.184-192); Clarke's dates, 379 (l.52)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Eldest child; named for her grandmother, who confessed Christ in the persecutions",
+        "witness": "Life (l.108, 112)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Her father chose a husband for her about her twelfth year; he died and she refused other suitors",
+        "witness": "Life (l.124-128)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "She drew Basil from the pride of oratory to the ascetic life",
+        "witness": "Life (l.136); followed by Blomfield Jackson (npnf208 l.1255-1265); one witness with an interest",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "She persuaded her mother to live as an equal with her maids",
+        "witness": "Life (l.138, 158)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The household was a double monastery, women under Macrina and men under Peter",
+        "witness": "W. K. Lowther Clarke, introduction (l.78-80)",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "She took in children exposed by the roadside in famine",
+        "witness": "Life (l.264)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "On the Soul and the Resurrection gives her teaching in dialogue form",
+        "witness": "Gregory of Nyssa (npnf205 l.38086-38200); Moore and Wilson, preface (l.247-250) and note 1747 (l.40780-40782, probably composed 380)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Her dying prayer",
+        "witness": "Life (l.228-230)",
+        "formation_confidence": "Documented"
+      }
+    ],
+    "contested_claims": [],
+    "absent_details": [
+      {
+        "detail": "Year of birth",
+        "note": "Not given in any held source; the scan's c.327 is not used."
+      },
+      {
+        "detail": "Writings of her own",
+        "note": "None held; her words come only as Gregory records them in the Life and the dialogue."
+      },
+      {
+        "detail": "How much of the dialogue's argument is hers",
+        "note": "Neither Gregory nor Moore and Wilson say; told as Gregory's written form."
+      }
+    ]
+  },
+  "auxentius-of-durostorum": {
+    "claims": [
+      {
+        "claim": "Ulfila took him as a pupil from his earliest years, from his parents, taught him Scripture and raised him like a son",
+        "witness": "Auxentius 55 (Kauffmann l.15234-15238)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Bishop of Durostorum (Silistria) in Lower Moesia",
+        "witness": "Kauffmann l.3397; title of the letter; Maximinus 140 ('Dorostorensi', l.16231)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Ulfila held the see of Durostorum before him",
+        "witness": "Kauffmann's view (l.3434-3435, 3479)",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Distinct from Auxentius of Milan; alive when Maximinus wrote",
+        "witness": "Maximinus, Dissertatio 140 (Kauffmann l.16230-16231)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "His letter survives inside Maximinus's defence of Palladius and Secundianus against Ambrose, in the margins of Paris cod. lat. 8907",
+        "witness": "Kauffmann l.485-500, 686-715; Streitberg l.613-634",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The margin hand dates probably to the sixth century",
+        "witness": "Kauffmann following Traube and Hauler (l.741-753)",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Sent from Constantinople to the Arians of Moesia soon after Ulfila's death",
+        "witness": "Kauffmann with Bessell (l.3474-3479); Bessell and Jülicher otherwise (for Theodosius)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Ready to join Palladius of Ratiaria in public debate",
+        "witness": "Maximinus 140 (Kauffmann l.16233-16236)",
+        "formation_confidence": "Documented"
+      }
+    ],
+    "contested_claims": [
+      {
+        "claim": "How much of the fragment is Auxentius's own wording",
+        "sides": "W. Luft: only to 'in fide educauit' (P 306'), the rest Maximinus's excerpt from another work. Kauffmann: one uniform biblical style throughout, unlike Maximinus (l.3480-3494)."
+      },
+      {
+        "claim": "Who the letter was written for",
+        "sides": "Bessell and A. Jülicher: for Theodosius. Waitz and Kauffmann: not; Kauffmann (with Bessell on the place and time) looks to the Arians of Moesia (l.3474-3479)."
+      },
+      {
+        "claim": "When the margin text was written",
+        "sides": "Waitz and Pertz: 381-384. Bessell: after 438. Delisle: second half of the fifth century. Traube, Hauler, Kauffmann: probably the sixth (l.741-753)."
+      }
+    ],
+    "absent_details": [
+      {
+        "detail": "His birth, death and years as bishop",
+        "note": "No vendored source gives them."
+      },
+      {
+        "detail": "The letter's address, opening and close",
+        "note": "Lost (Kauffmann l.3455-3456; Streitberg l.632). The title is Kauffmann's."
+      }
+    ]
+  },
+  "ulfila": {
+    "claims": [
+      {
+        "claim": "Bishop among the Goths for seven years, then driven out by persecution under a Gothic judge with a great crowd of confessors, crossed the Danube and was received with honour by Constantius",
+        "witness": "Auxentius of Durostorum, Letter 58-59 (Kauffmann l.15271-15286); a pupil writing in praise",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "His forebears were Cappadocian captives taken by Gothic raiders under Valerian and Gallienus, from Sadagolthina near Parnassus",
+        "witness": "Philostorgius II.5 in Photius's epitome (Walford l.120); one partisan witness through a hostile epitomator",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The emperor called him the Moses of his day",
+        "witness": "Philostorgius II.5 (Walford l.120)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Made bishop at thirty from the rank of reader",
+        "witness": "Auxentius 56 (Kauffmann l.15240-15241); Kauffmann l.3766-3768 also reads Philostorgius this way",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Born 311, consecrated 341, crossed 348-349, died June 383 aged 72",
+        "witness": "Friedrich Kauffmann's reconstruction from Auxentius's numbers (Kauffmann l.3740-3765, 3702-3725)",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Made letters for the Goths and translated the Scriptures except the Books of Kings",
+        "witness": "Philostorgius II.5 (Walford l.120); Socrates IV.33 on the letters (npnf202 l.14448-14451)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The surviving Gothic Bible fragments are the remains of Ulfila's translation",
+        "witness": "Wilhelm Streitberg 1908, introduction (Streitberg l.603-607): fragments carry no translator's name but there can be no doubt",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Taught that the Father alone is unbegotten and true God, the Son God and creator of all yet subordinate, rejected homoousios and homoiousios",
+        "witness": "Auxentius 42-51 (Kauffmann l.15111-15180); the deathbed creed 63 (l.15302-15318, 'Ego Ulfila episkopus et confessor')",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Preached forty years in Greek, Latin and Gothic and left treatises in all three",
+        "witness": "Auxentius 53-54 (Kauffmann l.15211-15226)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Held the Nicene faith until he signed the creed of Constantinople in 360",
+        "witness": "Socrates II.41 (npnf202 l.9608-9612)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Joined the Arians later, under Valens, perhaps for help with an embassy",
+        "witness": "Sozomen VI.37 (npnf202 l.40158-40171)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Went to Constantinople at the emperor's command to dispute against the Pneumatomachi, fell ill and died there, leaving a written creed",
+        "witness": "Auxentius 61-63 (Kauffmann l.15283-15304); Kauffmann dates it June 383",
+        "formation_confidence": "Documented"
+      }
+    ],
+    "contested_claims": [
+      {
+        "claim": "When and how Ulfila came to the Homoian faith",
+        "sides": "Auxentius (pupil, partisan): he always believed so, in his deathbed creed. Socrates II.41: Nicene as Theophilus's disciple until he signed at Constantinople in 360. Sozomen VI.37: took part in 360 without leaving Nicaea, joined the Arians later under Valens, compelled by the embassy or thinking it better."
+      },
+      {
+        "claim": "Whether Ulfila was the Goths' first bishop",
+        "sides": "Philostorgius II.5 (via Photius) calls him their first bishop. Socrates II.41 names Theophilus, bishop of the Goths, who signed at Nicaea, and makes Ulfila his disciple."
+      },
+      {
+        "claim": "When the Goths of Ulfila crossed into the empire",
+        "sides": "Auxentius 59: after seven years as bishop, under Constantius (Kauffmann: 348-349). Sozomen VI.37: Ulfila led the embassy when the Goths crossed fleeing the Huns, under Valens."
+      },
+      {
+        "claim": "Who consecrated him and when",
+        "sides": "Philostorgius II.5: Eusebius and the bishops with him, under Constantine. Kauffmann emends to Constantius and the synod of Antioch 341, and thinks he was first a chorbishop."
+      }
+    ],
+    "absent_details": [
+      {
+        "detail": "Ulfila's own treatises and interpretations in Greek, Latin and Gothic",
+        "note": "Auxentius says he left many; none is identified in the Library."
+      },
+      {
+        "detail": "Whether the deathbed creed was left in Latin as it survives",
+        "note": "Kauffmann reports Waitz's doubt (l.3736-3738); no witness settles it."
+      }
+    ]
+  },
+  "damasus-of-rome": {
+    "claims": [
+      {
+        "claim": "Succeeded Liberius as bishop of Rome in 366 after a disputed election with Ursinus",
+        "witness": "Socrates IV.29; Sozomen VI.23 (Hartranft's note: Liberius died 24 September 366); Gesta inter Liberium et Felicem (Avellana 1, consuls of 366); Ammianus XXVII.3.12-13",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "On one day 137 dead bodies were found in the Basilica of Sicininus, and Damasus won through the efforts of his partisans",
+        "witness": "Ammianus Marcellinus XXVII.3.13 (pagan outside witness, one source for the figure)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Ursinus, a deacon, could not bear his defeat and had bishops of little note ordain him in secret",
+        "witness": "Socrates IV.29; Sozomen VI.23 (from Socrates and Rufinus)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Damasus paid charioteers, arena men and gravediggers and besieged a basilica, killing 160 of the people with none dead on his side",
+        "witness": "Gesta inter Liberium et Felicem (Avellana 1), written by the clergy who backed Ursinus; one partisan witness",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "His Roman councils condemned Auxentius of Milan and held to the creed of Nicaea; he condemned Timothy, follower of Apollinarius, by the judgment of the apostolic see",
+        "witness": "Damasus, synodal letters in Theodoret II.17, V.10, V.11",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Jerome helped him with his letters and answers to councils of East and West",
+        "witness": "Jerome, Letter 123.10 (npnf206)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Damasus asked Jerome to revise the Old Latin Gospels against the Greek",
+        "witness": "Jerome, Preface to the Four Gospels (npnf206)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Priscillian, Instantius and Salvianus came to Rome to clear themselves and were not admitted to his presence",
+        "witness": "Sulpicius Severus, Chronicle II.48 (one witness)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Wrote verse in heroic metre; died under Theodosius at almost eighty",
+        "witness": "Jerome, Lives 103",
+        "formation_confidence": "Documented"
+      }
+    ],
+    "contested_claims": [
+      {
+        "claim": "Who was to blame for the violence of the 366 election",
+        "sides": "Ammianus Marcellinus, a pagan outside witness, blames both rivals, says Damasus won by his partisans' efforts and counts 137 dead in one day. Socrates of Constantinople and Sozomen blame Ursinus for a secret ordination and schism. The Gesta, from the clergy who backed Ursinus, blames Damasus for hired violence and counts 160 dead in a besieged basilica, none on his side."
+      },
+      {
+        "claim": "The year of his accession and of his death",
+        "sides": "Accession 366 (Gesta's consuls; Hartranft's note on Sozomen) against 367 (Jerome's Chronicle, per Zenos's note on Socrates). Death December 384 (chronological tables in Fremantle's Jerome) against 380 (Richardson's note to Lives 103)."
+      }
+    ],
+    "absent_details": [
+      {
+        "detail": "Birthplace and family",
+        "note": "Zenos's note on Socrates IV.29 calls him 'a Spaniard by race'; no early witness used here gives his birthplace or family. Left out of the brief."
+      },
+      {
+        "detail": "The martyr shrines and epigrams in the catacombs",
+        "note": "Census names his epigram on Sixtus II (Ferrua edition, not vendored). The Library carries only Jerome's line on his verse and Jackson's note quoting Northcote and Brownlow; kept to the card."
+      }
+    ]
+  },
+  "priscillian": {
+    "claims": [
+      {
+        "claim": "A Spanish layman of noble birth and great wealth, ascetic in habit, who drew many followers",
+        "witness": "Sulpicius Severus, Chronicle II.46 (hostile to him and to his accusers)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Condemned in his absence by a council at Saragossa",
+        "witness": "Sulpicius II.47; denied by Priscillian, Liber ad Damasum (Tractate II)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Made bishop of Abila by Instantius and Salvianus",
+        "witness": "Sulpicius II.47 (Halm's Latin 'in Abilensi oppido'); Jerome, Lives 121 ('bishop of Abila')",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Went to Rome to clear himself before Damasus and was not admitted; Ambrose also opposed him",
+        "witness": "Sulpicius II.48; Priscillian's own appeal to Damasus (Tractate II)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Tried twice by the prefect Evodius, found guilty and put to death at Treves by order of Maximus, about 385",
+        "witness": "Sulpicius II.50-51; Jerome, Lives 121; year from Richardson's note",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Did not deny lewd doctrines, night meetings with women and praying naked",
+        "witness": "Sulpicius II.50, reporting the court's findings; no account from Priscillian's side",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Taught that souls came down from God through circles of evil powers into bodies, and joined the patriarchs' names to parts of the body",
+        "witness": "Orosius, Commonitorium 2 (hostile); like teachings cursed in his name by Braga I, canons 6, 9, 10 (hostile, later)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Cursed anyone who did not condemn Mani and the Manichaeans, and the Patripassians",
+        "witness": "Priscillian, Liber apologeticus (Tractate I)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Martin of Tours begged Maximus not to shed blood and objected to a secular judge in a church case",
+        "witness": "Sulpicius II.50",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "After his death his followers honoured him as a martyr, buried the dead in Spain with great pomp and swore by his name",
+        "witness": "Sulpicius II.51 (one witness)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The eleven Wurzburg treatises are his",
+        "witness": "Georg Schepss 1889, from the names in Tractates I and II; the manuscript carries no author's name",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      }
+    ],
+    "contested_claims": [
+      {
+        "claim": "Whether the council at Saragossa condemned Priscillian",
+        "sides": "Sulpicius Severus: sentence was passed against Instantius, Salvianus, Helpidius and Priscillian in their absence. Priscillian, Liber ad Damasum: none of his group was accused, convicted or condemned there, and Damasus's own letter had forbidden judging the absent and unheard."
+      },
+      {
+        "claim": "Whether he was a Gnostic or Manichaean heretic",
+        "sides": "Sulpicius Severus calls his teaching the heresy of the Gnostics; Orosius calls him worse than the Manichaeans; Braga I (561) curses teachings 'as Manichaeus and Priscillian said'. Jerome of Strido reports both the accusation and his defenders' denial. Priscillian's own Liber apologeticus curses the Manichaeans and other heresies."
+      }
+    ],
+    "absent_details": [
+      {
+        "detail": "Year of birth, parents and schooling",
+        "note": "No source used here gives them; the scan's 'c.340' has no held witness and is not used."
+      },
+      {
+        "detail": "Magic practised from boyhood",
+        "note": "Sulpicius reports it only as something 'believed'; kept to the card as his report."
+      }
+    ]
+  },
+  "cyril-of-jerusalem": {
+    "claims": [
+      {
+        "claim": "A cross of light appeared over Jerusalem, from Calvary to the Mount of Olives, when Cyril had followed Maximus as bishop; people ran to the church; Cyril wrote to the emperor",
+        "witness": "Sozomen IV.5 (npnf202 l.32769-32800); Gifford, introduction ch. I, from Cyril's letter (npnf207 l.764-767, 826-835)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The letter to Constantius is dated 7 May 351",
+        "witness": "Gifford (npnf207 l.764-767), from the letter, which is not held",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "As a priest he gave the Catechetical Lectures to candidates for baptism in Lent of 348",
+        "witness": "Gifford, introduction ch. IX, following Touttée (npnf207 l.4125-4379); Jerome, Lives 112 (lectures composed while a young man)",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "He gave the creed to be learned by heart, since not all could read the Scriptures",
+        "witness": "Cyril, Catechetical Lecture V.12 (npnf207 l.8808-8862)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The party of Acacius of Caesarea ejected Maximus and put Cyril in his place",
+        "witness": "Socrates II.38 (npnf202 l.8968-8975); Sozomen IV.20 (l.34143)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Cyril renounced his priestly orders from Maximus to be made bishop by the Arians, and later degraded Heraclius",
+        "witness": "Jerome, Chronicle, as quoted by Gifford (npnf207 l.640-660); hostile witness, one source",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "The synod at Constantinople in 382 declared Cyril canonically ordained by the bishops of the province",
+        "witness": "Synodical letter in Theodoret V.9 (npnf203 l.16041-16044)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "In a famine Cyril sold the church's veil and ornaments to feed the poor; Acacius used this as a pretext to depose him",
+        "witness": "Sozomen IV.25 (npnf202 l.34700-34730), who says he inquired and found these the facts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Cyril refused for two years to answer Acacius's summons, and appealed to the emperor after his deposition",
+        "witness": "Socrates II.40 (npnf202 l.9430-9445)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Driven from his see three times, about 357, in 360 and about 367",
+        "witness": "Gifford, introduction ch. I (npnf207); Socrates II.42, II.45; Sozomen IV.25; Jerome, Lives 112 (often expelled)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "In 381 Cyril accepted the homoousion, having retracted his former opinion",
+        "witness": "Socrates V.8 (npnf202 l.15085-15092); Sozomen VII.7 (l.40793-40795, renounced the Macedonian tenets); rejected by Gifford and Touttée (npnf207 l.1326-1336)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "He held his see eight years under Theodosius and died in 386",
+        "witness": "Jerome, Lives 112 (npnf203 l.41500-41505); Gifford's reckoning with the Roman Martyrology (npnf207 l.1360-1370)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "The Mystagogic Lectures are Cyril's",
+        "witness": "Gifford, introduction ch. XI, following Touttée and Milles; some manuscripts name John of Jerusalem (npnf207 l.5167-5300)",
+        "formation_confidence": "Contested"
+      }
+    ],
+    "contested_claims": [
+      {
+        "claim": "How Cyril became bishop",
+        "sides": "Socrates II.38 and Sozomen IV.20: the party of Acacius ejected Maximus and installed Cyril. Jerome's Chronicle (hostile; as Gifford quotes it): Cyril renounced his ordination by Maximus to be made bishop by the Arians, and degraded Heraclius, whom Maximus had installed. The synod of 382 (Theodoret V.9): canonically ordained by the bishops of the province. Gifford (who defends Cyril) calls Socrates's and Jerome's accounts irreconcilable and both improbable, and follows Reischl: designated in Maximus's lifetime, then canonically consecrated."
+      },
+      {
+        "claim": "Why Acacius deposed Cyril",
+        "sides": "Sozomen IV.25: the famine sale of the church's veil and ornaments, used as a pretext. Socrates II.40: he does not know the charges; Cyril stayed away two years from fear. Theodoret II.22: Acacius seized some small occasion; II.23 gives Acacius's charge of a robe sold to a stage dancer."
+      },
+      {
+        "claim": "Whether Cyril changed his doctrine before 381",
+        "sides": "Socrates V.8 (retracted his former opinion and accepted homoousion); Sozomen VII.7 (renounced Macedonian tenets). Against: Touttée and Gifford, from the lectures, which teach the Son's unity of essence with the Father without the word."
+      },
+      {
+        "claim": "Authorship of the Mystagogic Lectures",
+        "sides": "Some manuscripts (Augsburg/Munich, as Gifford reports) name John, bishop of Jerusalem; Rivet and Aubertin in the seventeenth century attacked them. Gifford, following Touttée and Milles, holds Cyril wrote all the lectures, since Cat. XVIII.33 promises them."
+      },
+      {
+        "claim": "Cyril's prophecy on the rebuilding of the Temple under Julian",
+        "sides": "Socrates III.20: he foretold it, and an earthquake followed. Gifford: no satisfactory evidence he foretold a miracle, though he may well have expected failure; Rufinus's account seems a conjecture from Cat. XV.15."
+      }
+    ],
+    "absent_details": [
+      {
+        "detail": "Birth, family and schooling",
+        "note": "No source gives them. Gifford reckons a birth about 315 or a little before from what Cyril seems to have seen of the holy places; a nephew, Gelasius, appears in Gifford (from Epiphanius and Theodoret) and is not used in the brief."
+      },
+      {
+        "detail": "The text of the Letter to Constantius",
+        "note": "Not held in the Library in any vendored file found; known here through Gifford's account and Sozomen IV.5."
+      },
+      {
+        "detail": "Jerome's Chronicle",
+        "note": "The Latin continuation is not held (the Fotheringham Chronicle file carries the Eusebian canons); the passage is used as Gifford quotes it."
+      }
+    ]
+  },
+  "apollinaris-of-laodicea": {
+    "claims": [
+      {
+        "claim": "Father and son Apollinaris, priest and reader, stayed at Epiphanius the sophist's recitation of a hymn to Dionysus; Theodotus expelled them and restored them after penance",
+        "witness": "Sozomen VI.25 (npnf202 l.38992-39095); Lietzmann, part I (l.722-760)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The younger Apollinaris was born at Laodicea to a father from Alexandria who had taught at Berytus",
+        "witness": "Socrates II.46 (npnf202 l.9921-9935); Lietzmann (l.722-730)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "George of Laodicea excommunicated him, in 346 by Lietzmann's date",
+        "witness": "Sozomen VI.25 (for receiving Athanasius); Socrates II.46 (for the friendship with Epiphanius, or George's wavering creed); Lietzmann l.800-812 and chronology l.~495",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Under Julian's ban, Scripture was rewritten in Greek literary forms",
+        "witness": "Socrates III.16 (father and son; npnf202 l.11222ff); Sozomen V.18 (the son alone; l.36656ff); Lietzmann judges Sozomen more credible (l.2564-2576)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "He taught that the divine Word took the place of the human mind in Christ",
+        "witness": "Socrates II.46 (l.9955-9961); Gregory of Nazianzus, Ep. 202 (npnf207 l.44530-44540); Theodoret V.3 (npnf203 l.15446-15460); his own fragment 81, from the Apodeixis, kept by Gregory of Nyssa and Justinian (Lietzmann l.11480-11492)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "His followers kept the Nicene teaching on the Trinity",
+        "witness": "Socrates II.46 (l.9961-9965); Schaff's note in npnf214 (l.14084ff)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "His followers formed their own churches and sang his songs at work and at the loom",
+        "witness": "Sozomen VI.25 (l.39015-39030)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Condemned at Rome under Damasus, in the presence of Peter of Alexandria, in 377 by Lietzmann's date",
+        "witness": "Sozomen VI.25; Damasus's letter in Theodoret V.10 (npnf203 l.16066-16120); Lietzmann chronology (l.~566)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The Apollinarians were anathematized in canon 1 of Constantinople 381",
+        "witness": "npnf214 l.13960-13976",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Jerome heard him lecture at Antioch",
+        "witness": "Jerome, Ep. 84.3 (npnf206 l.18997-19000); Lietzmann dates it 374",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "His dogmatic works were destroyed; some survived under the names of Athanasius, Julius and Felix of Rome and Gregory Thaumaturgus",
+        "witness": "Lietzmann, part III (l.4080-4160)",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "He was bishop of Laodicea",
+        "witness": "Jerome, Lives 104 (npnf203 l.41390-41396); Lietzmann (l.818-825; perhaps a rival bishop from 360)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "He died in the reign of Theodosius",
+        "witness": "Jerome, Lives 104; Lietzmann says the year is not known (l.3484-3490)",
+        "formation_confidence": "Documented"
+      }
+    ],
+    "contested_claims": [
+      {
+        "claim": "Who wrote the Scripture paraphrases under Julian",
+        "sides": "Socrates III.16: the father (Moses in heroic verse, the historical books) and the son (the Gospels as Platonic dialogues). Sozomen V.18: the son alone (an epic of Hebrew antiquities in twenty-four parts, comedies, tragedies, odes). Lietzmann finds Sozomen's account the more credible and allows the grammar to the father."
+      },
+      {
+        "claim": "Why George of Laodicea excommunicated him",
+        "sides": "Sozomen VI.25: for receiving Athanasius into communion. Socrates II.46: for continuing the friendship with Epiphanius, or, as some affirm, because the Apollinarii separated over George's wavering creed. Lietzmann: October 346, at Athanasius's passage, and the earlier expulsion under Theodotus aimed at their pro-Nicene stance."
+      },
+      {
+        "claim": "What Apollinaris taught about Christ's flesh and soul",
+        "sides": "Socrates II.46: first a body without soul, then a soul without reason. Gregory of Nazianzus, Ep. 202: flesh eternal, Godhead passible. Theodoret V.3: he varied. Ullman (cited by Browne and Swallow, npnf207 l.44400-44420): Gregory may have exaggerated the pamphlet."
+      }
+    ],
+    "absent_details": [
+      {
+        "detail": "Year of birth",
+        "note": "No held source gives it. The scan's c.310 is not used."
+      },
+      {
+        "detail": "Year of death",
+        "note": "Lietzmann: unknown; Jerome says under Theodosius; Gregory of Nyssa's Antirrheticus (after 385) presumes him living."
+      },
+      {
+        "detail": "An English text of his own words",
+        "note": "None held; fragments are Greek with Lietzmann's German, so the brief tells fragment 81 in modern words and does not quote it."
+      }
+    ]
+  },
+  "tyconius": {
+    "claims": [
+      {
+        "claim": "An African Donatist writer of the latter half of the fourth century",
+        "witness": "Gennadius, Lives 18; Augustine, On Christian Doctrine III.30 and Letter 93.43; Burkitt 1894",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Wrote the Book of Rules, seven rules for reading Scripture, whose preface promises keys and windows into the secret places of the law",
+        "witness": "Tyconius, Liber Regularum (Burkitt's Latin); preface quoted in Augustine, On Christian Doctrine III.30",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Wrote in defence of the Church against his own party, reported a Donatist council that received traditors without rebaptism, and was answered and warned by Parmenian, yet stayed with the Donatists",
+        "witness": "Augustine, Letter 93.43-44 (an opponent of his party, one witness for the council report)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Augustine judged the third rule faulty for holding faith to be our own, and warned the book must be read with caution as a Donatist's, while commending it",
+        "witness": "Augustine, On Christian Doctrine III.30, III.33",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Explained the whole Apocalypse in a spiritual sense",
+        "witness": "Gennadius, Lives 18",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The Apocalypse commentary is lost but much of it survives in Primasius, Bede and Beatus",
+        "witness": "F. C. Burkitt 1894, after Haussleiter 1886",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Wrote before 383",
+        "witness": "F. C. Burkitt 1894, from the 350-year reckoning in Rule 5 ('it would seem')",
+        "formation_confidence": "Inferential-Thin"
+      }
+    ],
+    "contested_claims": [
+      {
+        "claim": "Whether Tyconius was right or inconsistent in arguing for a church spread through the world while staying a Donatist",
+        "sides": "Augustine (On Christian Doctrine III.30; Letter 93.44) calls it a most inconsistent disposition and says Parmenian silenced him only on that ground. Parmenian, as Augustine reports him, answered and warned him. No writing of Tyconius on his own choice survives in the sources used here; his Bellum Intestinum has perished (Burkitt)."
+      }
+    ],
+    "absent_details": [
+      {
+        "detail": "Birth, death, home town, and whether he was ordained",
+        "note": "Not given in the sources used here. The scan's 'lay writer' rests on no held line naming him a layman; the card role is 'Donatist writer' (flagged to coordinator)."
+      },
+      {
+        "detail": "Condemnation by a Donatist council around 380",
+        "note": "Named in the census and the Burkitt file's vendoring header, not in any held source text; Augustine reports only Parmenian's reply and warning."
+      }
+    ]
+  },
+  "eunomius-of-cyzicus": {
+    "claims": [
+      {
+        "claim": "Presented the Eunomian creed to Theodosius at the 383 gathering; Theodosius kept only the homoousian creed",
+        "witness": "Socrates V.10 (npnf202 l.15276-15360); Sozomen VII.12 (l.41115-41126)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Came from Cappadocia and studied with Aetius at Alexandria",
+        "witness": "Philostorgius III.20 (Walford l.188); Socrates IV.7 says he was Aetius's secretary (npnf202 l.12461)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "His father was a poor farmer who carved alphabet letters; he learned shorthand",
+        "witness": "Gregory of Nyssa, Against Eunomius I (npnf205 l.3365-3376); one hostile witness",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Made bishop of Cyzicus",
+        "witness": "Philostorgius V.3 (under Constantius); Socrates IV.7, Sozomen VI.26 (under Valens)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Left Cyzicus after his clergy accused him",
+        "witness": "Philostorgius VI.1-3 (l.246-250); Socrates IV.7 (l.12492-12496); Sozomen VI.26 (l.39133-39146)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Taught that God is the Unbegotten Substance, the Son begotten by the Father's will when he was not, unlike in substance; rejected homoousios as division",
+        "witness": "Eunomius, Apology VII, XV, XI, XXIV, XXVI (Whiston l.38, 58, 48, 94, 98)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Basil wrote against the Apology; Gregory against the Apology for the Apology",
+        "witness": "Philostorgius VIII.12 (l.316); Gregory of Nyssa, Against Eunomius I (npnf205 l.3495-3505)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Banished by Theodosius, died soon after, buried at Dacora",
+        "witness": "Sozomen VII.17 (npnf202 l.41523-41532); Philostorgius X.6 (l.382)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Taught that God knows no more of his own substance than we do",
+        "witness": "Socrates IV.7 (npnf202 l.12515-12519); hostile; not in the held Apology",
+        "formation_confidence": "Contested"
+      }
+    ],
+    "contested_claims": [
+      {
+        "claim": "When he became bishop of Cyzicus",
+        "sides": "Philostorgius V.3 and Theodoret (per A. C. Zenos's note, npnf202 l.12486-12490): under Constantius. Socrates IV.7 and Sozomen VI.8: under Valens."
+      },
+      {
+        "claim": "Why he left Cyzicus",
+        "sides": "Philostorgius: won over Constantinople's clergy, then refused Eudoxius's demands and went home. Socrates: driven out by the people. Sozomen: Eudoxius found no fault; Eunomius refused to return to people who suspected him."
+      },
+      {
+        "claim": "Whether he first taught baptism by single immersion",
+        "sides": "Some in Sozomen VI.26 say so; Sozomen thinks Theophronius and Eutychius began it."
+      },
+      {
+        "claim": "Where his body lay",
+        "sides": "Sozomen VII.17: buried at Dacora. Philostorgius XI.5: Eutropius had him moved to Tyana and kept him from his master's tomb."
+      },
+      {
+        "claim": "How Basil died",
+        "sides": "Philostorgius VIII.12: of remorse after reading Eunomius's first book against him. Photius: a falsehood."
+      }
+    ],
+    "absent_details": [
+      {
+        "detail": "Year of birth and year of death",
+        "note": "The scan row's c.335-c.394 has no vendored witness found; left out of the card."
+      }
+    ]
+  }
+}
