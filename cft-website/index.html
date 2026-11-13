@@ -23,34 +23,48 @@
 html,body{height:100%}
 body{margin:0;background:var(--parchment);color:var(--iron-gall);
   font-family:"Alegreya Sans",system-ui,sans-serif;overflow:hidden}
-.topbar{position:fixed;top:0;left:0;right:0;z-index:20;display:flex;align-items:center;
-  gap:.7rem;padding:.5rem .9rem;background:var(--parchment);border-bottom:1px solid var(--rule)}
-.topbar h1{font-family:"Alegreya",Georgia,serif;font-size:1.05rem;font-weight:700;margin:0}
-.topbar .tag{font-size:.72rem;color:var(--ink-faded);font-style:italic}
+.topbar{position:fixed;top:0;left:0;right:0;z-index:20;display:flex;flex-wrap:wrap;align-items:center;
+  gap:.5rem .8rem;padding:.5rem .9rem;background:var(--parchment);border-bottom:1px solid var(--rule)}
+.topbar h1{font-family:"Alegreya",Georgia,serif;font-size:1.5rem;font-weight:700;margin:0}
+.topbar .tag{flex:1 1 100%;font-size:1rem;color:var(--ink-faded);font-style:italic}
 .topbar .spacer{flex:1}
-.topbar a.cic-link{font-size:.78rem;font-weight:700;color:var(--iron-gall);text-decoration:none;white-space:nowrap;
-  border:1px solid var(--rule);border-radius:999px;padding:.35rem .85rem}
+.topbar a.cic-link{font-size:1.05rem;font-weight:700;color:var(--iron-gall);text-decoration:none;white-space:nowrap;
+  border:1px solid var(--rule);border-radius:999px;padding:.55rem 1.1rem}
 .topbar a.cic-link:hover,.topbar a.cic-link:focus-visible{border-color:var(--gold-leaf);color:var(--gold-leaf)}
-.topbar a.support-link{font-size:.76rem;color:var(--ink-faded);text-decoration:none;white-space:nowrap}
+.topbar a.support-link{font-size:1rem;color:var(--ink-faded);text-decoration:none;white-space:nowrap}
 .topbar a.support-link:hover,.topbar a.support-link:focus-visible{color:var(--gold-leaf)}
 .switches .foot{margin-top:.6rem;padding-top:.5rem;border-top:1px solid var(--rule);font-size:.72rem;color:var(--ink-faded);line-height:1.6}
 .switches .foot a{color:var(--gold-leaf)}
-.topbar button{font:inherit;font-size:.78rem;background:var(--vellum);color:var(--iron-gall);
+.topbar button{font:inherit;font-size:1rem;min-height:44px;background:var(--vellum);color:var(--iron-gall);
   border:1px solid var(--rule);border-radius:3px;padding:.35rem .7rem;cursor:pointer}
 .topbar button:hover{border-color:var(--gold-leaf)}
 .topbar button:focus-visible{outline:2px solid var(--madder);outline-offset:1px}
+#zoomCtl{position:fixed;top:calc(var(--map-top,8rem) + 2.6rem);right:.75rem;z-index:15;display:flex;flex-direction:column;
+  background:var(--vellum);border:1px solid var(--rule);border-radius:8px;box-shadow:var(--shadow);overflow:hidden}
+#zoomCtl button{width:44px;height:44px;padding:0;font:inherit;font-size:1.6rem;line-height:1;color:var(--iron-gall);
+  background:none;border:0;cursor:pointer}
+#zoomCtl button+button{border-top:1px solid var(--rule)}
+#zoomCtl button:hover{background:var(--tyrian-wash);color:var(--gold-leaf)}
+#zoomCtl button:focus-visible{outline:2px solid var(--madder);outline-offset:-2px}
 .feature-bar{position:fixed;top:2.9rem;left:0;right:0;z-index:20;display:flex;flex-wrap:wrap;
   gap:.5rem;padding:.4rem .9rem;background:var(--parchment);border-bottom:1px solid var(--rule)}
 .chip-group{position:relative}
-.chip{font-family:"Alegreya Sans",sans-serif;font-size:.78rem;font-weight:700;background:none;cursor:pointer;
+.chip-group:last-child{margin-left:auto}
+.chip{font-family:"Alegreya Sans",sans-serif;font-size:1rem;font-weight:700;background:none;cursor:pointer;
   color:var(--iron-gall);padding:.35rem .85rem;border:1px solid var(--rule);border-radius:999px}
 .chip:hover,.chip:focus-visible,.chip[aria-expanded="true"]{border-color:var(--gold-leaf);color:var(--gold-leaf)}
-.chip[aria-pressed="false"]{opacity:.45;text-decoration:line-through}
-@media (max-width:480px){.feature-bar.switches{gap:.35rem;padding:.4rem .6rem}.chip{padding:.35rem .5rem}
-  .feature-bar .chip-group{position:static}.feature-bar .chip-panel{left:.6rem;right:.6rem;max-width:none}}
+.chip[aria-pressed]{display:inline-flex;align-items:center;gap:.6rem;min-height:44px}
+.chip[aria-pressed]:focus-visible{outline:2px solid var(--madder);outline-offset:2px}
+@media (max-width:480px){.feature-bar.switches{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:.4rem;padding:.5rem .6rem}
+  .feature-bar .chip-group{position:static;grid-column:span 3;display:flex}
+  .feature-bar .chip-group:last-child{grid-column:1/-1;margin-left:0}
+  .feature-bar .chip-group .chip{flex:1;justify-content:center;padding:.35rem .4rem;font-size:1rem}
+  .feature-bar .chip[aria-pressed]{grid-column:span 3;justify-content:space-between;padding:.35rem .5rem .35rem .8rem;font-size:1rem}
+  .feature-bar .who-chip{grid-column:1/-1}
+  .feature-bar .chip-panel{left:.6rem;right:.6rem;max-width:none}}
 .chip-panel{position:absolute;top:calc(100% + .35rem);left:0;z-index:25;min-width:15rem;max-width:min(22rem,calc(100vw - 1.6rem));
   max-height:60vh;overflow:auto;background:var(--vellum);border:1px solid var(--rule);border-radius:4px;
-  padding:.5rem .6rem;font-size:.76rem;box-shadow:0 4px 14px rgba(0,0,0,.25)}
+  padding:.5rem .6rem;font-size:.9rem;box-shadow:0 4px 14px rgba(0,0,0,.25)}
 #stage{position:absolute;inset:0;overflow:hidden;touch-action:none;cursor:grab}
 #stage.grabbing{cursor:grabbing}
 #stage.pinching svg text{display:none!important}
@@ -207,13 +221,23 @@ svg#world{display:block;overflow:visible}
 .switches .row{display:flex;align-items:center;gap:.4rem;margin:.15rem 0}
 .switches i{width:10px;height:10px;border-radius:50%;display:inline-block;flex:none}
 .switches .linekey{width:26px;height:10px;flex:none;display:inline-block}
-.switches .cap{font-family:"Alegreya Sans",sans-serif;font-size:.68rem;letter-spacing:.08em;
+.switches .cap{font-family:"Alegreya Sans",sans-serif;font-size:.8rem;letter-spacing:.08em;
   text-transform:uppercase;color:var(--gold-leaf);margin-bottom:.3rem;display:block}
-.switches .note{font-size:.68rem;line-height:1.45;color:var(--ink-faded);font-style:italic;margin:.35rem 0 0}
+.switches .note{font-size:.85rem;line-height:1.45;color:var(--ink-faded);font-style:italic;margin:.35rem 0 0}
 .switches button.row{width:100%;background:none;border:0;padding:.1rem .2rem;margin:.1rem 0;border-radius:3px;
   font:inherit;color:inherit;text-align:left;cursor:pointer}
 .switches button.row:hover{background:var(--tyrian-wash)}
-.switches button.row[aria-pressed="false"]{opacity:.38;text-decoration:line-through}
+.switches button.row{min-height:44px;padding:.35rem .5rem;gap:.6rem;margin:0}
+.switches button.row:focus-visible{outline:2px solid var(--madder);outline-offset:-2px}
+.switches .sw-name{flex:1;min-width:0;font-size:1rem;line-height:1.25}
+.chip .sw-name{flex:none}
+.sw{position:relative;flex:none;width:2.5rem;height:1.4rem;margin-left:auto;border-radius:999px;box-sizing:border-box;
+  background:var(--iron-gall);border:1px solid var(--iron-gall);transition:background .15s,border-color .15s}
+.sw::after{content:"";position:absolute;top:50%;left:.16rem;width:1rem;height:1rem;margin-top:-.5rem;border-radius:50%;
+  background:var(--vellum);box-shadow:0 1px 2px rgba(0,0,0,.35);transition:transform .15s}
+[aria-pressed="true"]>.sw{background:var(--link-grow);border-color:var(--link-grow)}
+[aria-pressed="true"]>.sw::after{transform:translateX(1.1rem)}
+@media (prefers-reduced-motion:reduce){.sw,.sw::after{transition:none}}
 .is-off{display:none}
 #who .who-name{cursor:pointer}
 #who .who-name:focus-visible{outline:none}
@@ -260,13 +284,14 @@ svg.who-on .edge-line,svg.who-on .edge-hit,svg.who-on .continues{display:none!im
 #zoomHint{position:fixed;right:.8rem;bottom:.8rem;z-index:20;font-size:.7rem;
   color:var(--ink-faded);background:var(--vellum);border:1px solid var(--rule);
   border-radius:3px;padding:.4rem .6rem;max-width:230px;text-align:right}
-.topbar button.zoom-btn{min-width:2rem;font-size:1rem;line-height:1;padding:.3rem .6rem}
 @media (prefers-reduced-motion:reduce){.river-calm,.river-organic,#panel{transition:none!important}}
 
 @media (max-width:640px){
-  .topbar{flex-wrap:wrap;row-gap:.2rem}
-  .topbar .tag{flex:1 1 100%;order:1}
-  .topbar button{order:2}
+  .topbar a.cic-link{order:1}
+  .topbar{column-gap:.4rem}
+  .topbar button{order:2;font-size:.95rem;padding:.4rem .7rem}
+  .topbar button{flex:1 1 auto}
+  .topbar .tag{order:4;font-size:.92rem}
 }
 @media (pointer:coarse){
   .node .halo{r:calc(22 / var(--zoom-scale,1))}
@@ -275,7 +300,6 @@ svg.who-on .edge-line,svg.who-on .edge-hit,svg.who-on .continues{display:none!im
   #who .who-hit{height:calc(30 / var(--zoom-scale,1));y:calc(-15 / var(--zoom-scale,1))}
   #panel .who-btn{min-height:44px}
   .edge-hit{stroke-width:calc(30 / var(--zoom-scale,1))}
-  .topbar button{min-height:44px;padding:.6rem 1rem}
     #panel .close{min-width:44px;min-height:44px;display:inline-flex;
     align-items:center;justify-content:center}
   #panel .act{min-height:44px}
@@ -291,14 +315,12 @@ svg.who-on .edge-line,svg.who-on .edge-hit,svg.who-on .continues{display:none!im
 
 <div class="topbar">
   <h1>Church Family Tree</h1>
-  <span class="tag">an interactive map of Christian tradition, from the first house-churches to about 2010</span>
+  <a class="cic-link" href="https://churchinconversation.com/">Church in Conversation</a>
   <div class="spacer"></div>
   <a class="support-link" href="support.html">Help us grow</a>
-  <a class="cic-link" href="https://churchinconversation.com/">Church in Conversation &rarr;</a>
   <button type="button" class="feedback-toggle" id="feedback-toggle" aria-haspopup="dialog" aria-expanded="false">Tell us what you think</button>
-  <button id="zoomOutBtn" type="button" class="zoom-btn" aria-label="Zoom out" title="Zoom out (minus key)">&minus;</button>
-  <button id="zoomInBtn" type="button" class="zoom-btn" aria-label="Zoom in" title="Zoom in (plus key)">+</button>
   <button id="resetBtn" type="button">Reset view</button>
+  <span class="tag">an interactive map of Christian tradition, from the first house-churches to about 2010</span>
 </div>
 <div class="feature-bar switches" id="switchbar" role="toolbar" aria-label="Show or hide parts of the map"></div>
 
@@ -308,6 +330,10 @@ svg.who-on .edge-line,svg.who-on .edge-hit,svg.who-on .continues{display:none!im
 
 <div id="tip"></div>
 <div id="panel" role="dialog" aria-modal="true" aria-labelledby="panelTitle" tabindex="-1" inert><button class="close" id="panelClose" aria-label="Close">&times;</button><div id="panelBody"></div></div>
+<div id="zoomCtl" role="group" aria-label="Zoom the map">
+  <button id="zoomInBtn" type="button" aria-label="Zoom in" title="Zoom in (plus key)">+</button>
+  <button id="zoomOutBtn" type="button" aria-label="Zoom out" title="Zoom out (minus key)">&minus;</button>
+</div>
 <div id="zoomHint">Scroll to move &middot; Ctrl + scroll to zoom</div>
 
 <script src="assets/place-line.js"></script>
@@ -89958,14 +89984,14 @@ function render(){
   (DATA.stories||[]).forEach(s=>{
     const g=el('g',{class:'story','data-lane':s.laneOrder,transform:`translate(${s._x.toFixed(1)},${s._y.toFixed(1)})`,
       tabindex:'0',role:'button','aria-label':`Story: ${s.title}, ${s.year}`});
-    const halo=el('circle',{class:'halo',r:11,fill:'var(--tyrian)',opacity:0});
-    const focusRing=el('circle',{class:'focus-ring',r:12,fill:'none',stroke:'var(--gold-leaf)','stroke-width':2,opacity:0});
+    const halo=el('circle',{class:'halo',r:19,fill:'var(--tyrian)',opacity:0});
+    const focusRing=el('circle',{class:'focus-ring',r:20,fill:'none',stroke:'var(--gold-leaf)','stroke-width':2,opacity:0});
     const book=el('path',{
       d:'M0,-4.2 C-2.6,-5.4 -5.2,-5.1 -6.8,-4.6 V3.8 C-5.2,3.3 -2.6,3.6 0,4.8 C2.6,3.6 5.2,3.3 6.8,3.8 V-4.6 C5.2,-5.1 2.6,-5.4 0,-4.2 Z M0,-4.2 V4.8',
-      fill:'var(--tyrian)', stroke:'var(--vellum)', 'stroke-width':0.6, 'stroke-linejoin':'round'});
+      fill:'var(--tyrian)', stroke:'var(--vellum)', 'stroke-width':0.4, 'stroke-linejoin':'round', transform:'scale(1.8)'});
     g.appendChild(halo); g.appendChild(book); g.appendChild(focusRing);
     const left=nameSideLeft(s._x);
-    const st=el('text',{class:'story-title',x:left?-10:10,y:3.5,'text-anchor':left?'end':'start'});
+    const st=el('text',{class:'story-title',x:left?-16:16,y:3.5,'text-anchor':left?'end':'start'});
     st.textContent=s.title;
     g.appendChild(st);
     g.addEventListener('mouseenter',ev=>{halo.setAttribute('opacity','.35');showTip(ev,tipForStory(s));});
@@ -90469,19 +90495,18 @@ panel.addEventListener('keydown',(ev)=>{
 
 function buildLegend(){
   const wrap=document.getElementById('switchbar');
-  const lanesAll=`<button type="button" class="row" data-toggle="lanes-all" aria-pressed="true"><i style="background:conic-gradient(${FAM.filter(f=>laneKeys.includes(f.k)).slice(0,6).map((f,i,a)=>`${famColor(f)} ${i/a.length}turn ${(i+1)/a.length}turn`).join(',')})"></i>All rivers</button>`;
+  const lanesAll=`<button type="button" class="row" data-toggle="lanes-all" aria-pressed="true"><i style="background:conic-gradient(${FAM.filter(f=>laneKeys.includes(f.k)).slice(0,6).map((f,i,a)=>`${famColor(f)} ${i/a.length}turn ${(i+1)/a.length}turn`).join(',')})"></i><span class="sw-name">All rivers</span><span class="sw" aria-hidden="true"></span></button>`;
   let rivers=lanesAll;
-  FAM.filter(f=>laneKeys.includes(f.k)).forEach(f=>{rivers+=`<button type="button" class="row" data-toggle="lane:${f.k}" aria-pressed="true"><i style="background:${famColor(f)}"></i>${esc(f.lbl)}</button>`;});
+  FAM.filter(f=>laneKeys.includes(f.k)).forEach(f=>{rivers+=`<button type="button" class="row" data-toggle="lane:${f.k}" aria-pressed="true"><i style="background:${famColor(f)}"></i><span class="sw-name">${esc(f.lbl)}</span><span class="sw" aria-hidden="true"></span></button>`;});
   const colorKey=(f)=>`<svg class="linekey" viewBox="0 0 26 10"><line x1="1" y1="5" x2="25" y2="5" stroke="var(--link-${f})" stroke-width="2.4"/></svg>`;
   let links=`<div class="note">Lines join traditions where the sources record a link. The color shows the kind of link. The line's pattern shows how sure the record is. Arrows point from the first movement to the second. Hover or click a line to read the link and its sources.</div>`;
-  links+=`<button type="button" class="row" data-toggle="major" aria-pressed="false"><svg class="linekey" viewBox="0 0 26 10"><line x1="1" y1="5" x2="25" y2="5" stroke="var(--iron-gall)" stroke-width="3.4"/></svg>Major links</button>`;
+  links+=`<button type="button" class="row" data-toggle="major" aria-pressed="false"><svg class="linekey" viewBox="0 0 26 10"><line x1="1" y1="5" x2="25" y2="5" stroke="var(--iron-gall)" stroke-width="3.4"/></svg><span class="sw-name">Major links</span><span class="sw" aria-hidden="true"></span></button>`;
   links+=`<div class="note">Major links show one movement growing out of another, a recorded break, or an act of authority the sources record, such as a council condemning a group. Pick a movement to see all of its links.</div>`;
-  links+=`<button type="button" class="row" data-toggle="links-all" aria-pressed="false"><svg class="linekey" viewBox="0 0 26 10">${Object.keys(LINK_FAMILY_LABEL).map((f,i)=>`<line x1="${1+i*6.5}" y1="5" x2="${6+i*6.5}" y2="5" stroke="var(--link-${f})" stroke-width="2.4"/>`).join('')}</svg>All connections</button>`;
   links+='<span class="cap">Kind of link</span>';
-  Object.entries(LINK_FAMILY_LABEL).forEach(([f,lbl])=>{links+=`<button type="button" class="row" data-toggle="family:${f}" aria-pressed="true">${colorKey(f)}${lbl}</button>`;});
+  Object.entries(LINK_FAMILY_LABEL).forEach(([f,lbl])=>{links+=`<button type="button" class="row" data-toggle="family:${f}" aria-pressed="true">${colorKey(f)}<span class="sw-name">${lbl}</span><span class="sw" aria-hidden="true"></span></button>`;});
   const lineKey=(dash)=>`<svg class="linekey" viewBox="0 0 26 10"><line x1="1" y1="5" x2="25" y2="5" stroke="var(--iron-gall)" stroke-width="1.6"${dash?` stroke-dasharray="${dash}"`:''}/></svg>`;
-  const confRow=(key,dash,lbl)=>`<button type="button" class="row" data-toggle="conf:${key}" aria-pressed="true">${lineKey(dash)}${lbl}</button>`;
-  links+='<span class="cap">How sure the record is</span>'+confRow('Documented','', 'Documented')+confRow('Widely Accepted|Dominant Modern Reconstruction','6,3','Widely accepted or a leading reconstruction')+confRow('Contested','2,3','Contested')+confRow('Inferential-Thin','1,4','Thin evidence');
+  const confRow=(dash,lbl)=>`<div class="row">${lineKey(dash)}<span class="sw-name">${lbl}</span></div>`;
+  links+='<span class="cap">How sure the record is</span>'+confRow('','Documented')+confRow('6,3','Widely accepted or a leading reconstruction')+confRow('2,3','Contested')+confRow('1,4','Thin evidence');
   const builtSwatch=`conic-gradient(${famColor(FAM[1])} 0turn .25turn,${famColor(FAM[4])} .25turn .5turn,${famColor(FAM[6])} .5turn .75turn,${famColor(FAM[7])} .75turn 1turn)`;
   let key=`<div class="row"><i style="background:var(--graphite);opacity:.78"></i>Not yet built (graphite)</div>`;
   key+=`<div class="row"><i style="background:${builtSwatch};border:1px solid var(--iron-gall)"></i>Built &amp; Live (full pigment, in that world's own color)</div>`;
@@ -90492,24 +90517,22 @@ function buildLegend(){
   key+=`<div class="foot">&copy; 2026 Faithways Studio, Inc., a Colorado public benefit corporation &middot; <a href="license.html">License</a>. The same team makes <a href="https://churchinconversation.com/">Church in Conversation</a>.<br><a href="about.html">About</a> · <a href="method.html">Method</a> · <a href="data.html">Data and citation</a> · <a href="privacy.html">Privacy</a> · <a href="https://churchinconversation.com/license">License</a> · <a href="terms.html">Terms</a> · <a href="support.html">Help us grow</a></div>`;
   const group=(id,label,body)=>`<div class="chip-group"><button type="button" class="chip" aria-expanded="false" aria-controls="sw-${id}">${label} &#9662;</button><div class="chip-panel" id="sw-${id}" hidden>${body}</div></div>`;
   let bar=group('rivers','Rivers',rivers)+group('links','Connections',links);
-  if(acrossMovements.length)bar+=`<button type="button" class="chip" data-toggle="movements" aria-pressed="false">Movements</button>`;
-  if((DATA.stories||[]).length)bar+=`<button type="button" class="chip" data-toggle="stories" aria-pressed="true">Stories</button>`;
+  if(acrossMovements.length)bar+=`<button type="button" class="chip" data-toggle="movements" aria-pressed="false"><span class="sw-name">Movements</span><span class="sw" aria-hidden="true"></span></button>`;
+  if((DATA.stories||[]).length)bar+=`<button type="button" class="chip" data-toggle="stories" aria-pressed="true"><span class="sw-name">Stories</span><span class="sw" aria-hidden="true"></span></button>`;
   bar+=group('key','Key',key);
   wrap.innerHTML=`<button type="button" class="chip who-chip" id="who-chip" hidden><span class="who-chip-label"></span><span aria-hidden="true">&times;</span></button>`+bar;
   document.getElementById('who-chip').addEventListener('click',ev=>{ev.stopPropagation();clearWho();});
   const familyKeys=Object.keys(LINK_FAMILY_LABEL).map(f=>`family:${f}`);
   const hidden=new Set(familyKeys);
-  try{const saved=localStorage.getItem('tree-hidden');if(saved!==null){hidden.clear();JSON.parse(saved).forEach(k=>hidden.add(k));}}catch(e){}
+  try{const saved=localStorage.getItem('tree-hidden');if(saved!==null){hidden.clear();JSON.parse(saved).filter(k=>!k.startsWith('conf:')).forEach(k=>hidden.add(k));}}catch(e){}
   let majorOnly=false;
   try{majorOnly=localStorage.getItem('tree-major')==='1';}catch(e){}
   let movementsOn=false;
   try{movementsOn=localStorage.getItem('tree-movements')==='1';}catch(e){}
   const applyToggles=()=>{
-    const hiddenConf=new Set();
-    hidden.forEach(k=>{if(k.startsWith('conf:'))k.slice(5).split('|').forEach(c=>hiddenConf.add(c));});
     const laneOff=l=>hidden.has(`lane:${l}`);
     document.querySelectorAll('.edge-line,.edge-hit').forEach(p=>{
-      p.classList.toggle('is-off',hidden.has(`family:${p.dataset.family}`)||hiddenConf.has(p.dataset.conf)||(p.dataset.lanes||'').split('|').some(laneOff)||(majorOnly&&p.dataset.major!=='1'));
+      p.classList.toggle('is-off',hidden.has(`family:${p.dataset.family}`)||(p.dataset.lanes||'').split('|').some(laneOff)||(majorOnly&&p.dataset.major!=='1'));
     });
     document.querySelectorAll('.river-group,.node,.story,.who-stack,.river-pill,.prof-pill').forEach(g=>g.classList.toggle('is-off',laneOff(g.dataset.lane)));
     hideLabelsUnderWho();
@@ -90520,7 +90543,6 @@ function buildLegend(){
     const laneButtons=[...wrap.querySelectorAll('button[data-toggle^="lane:"]')];
     wrap.querySelectorAll('button[data-toggle]').forEach(b=>{
       const on=b.dataset.toggle==='lanes-all'?laneButtons.some(x=>!hidden.has(x.dataset.toggle))
-        :b.dataset.toggle==='links-all'?(!majorOnly&&familyKeys.some(k=>!hidden.has(k)))
         :b.dataset.toggle==='major'?(majorOnly&&familyKeys.some(k=>!hidden.has(k)))
         :b.dataset.toggle==='movements'?movementsOn:!hidden.has(b.dataset.toggle);
       b.setAttribute('aria-pressed',String(on));
@@ -90532,10 +90554,6 @@ function buildLegend(){
       const lanes=[...wrap.querySelectorAll('button[data-toggle^="lane:"]')].map(x=>x.dataset.toggle);
       const anyOn=lanes.some(l=>!hidden.has(l));
       lanes.forEach(l=>anyOn?hidden.add(l):hidden.delete(l));
-    } else if(k==='links-all'){
-      const anyOn=!majorOnly&&familyKeys.some(f=>!hidden.has(f));
-      majorOnly=false;
-      familyKeys.forEach(f=>anyOn?hidden.add(f):hidden.delete(f));
     } else if(k==='major'){
       const on=majorOnly&&familyKeys.some(f=>!hidden.has(f));
       majorOnly=!on;
@@ -90543,7 +90561,7 @@ function buildLegend(){
     } else if(k==='movements'){
       movementsOn=!movementsOn;
     } else if(hidden.has(k))hidden.delete(k);else hidden.add(k);
-    if(whoLinks.saved&&(k==='links-all'||k==='major'||k.startsWith('family:'))&&familyKeys.some(f=>!hidden.has(f))){whoLinks.saved=null;clearWho();}
+    if(whoLinks.saved&&(k==='major'||k.startsWith('family:'))&&familyKeys.some(f=>!hidden.has(f))){whoLinks.saved=null;clearWho();}
     const kept=whoLinks.saved, keptHidden=new Set(hidden);
     if(kept){familyKeys.forEach(f=>keptHidden.delete(f));kept.fam.forEach(f=>keptHidden.add(f));}
     try{localStorage.setItem('tree-hidden',JSON.stringify([...keptHidden]));localStorage.setItem('tree-major',(kept?kept.major:majorOnly)?'1':'0');localStorage.setItem('tree-movements',movementsOn?'1':'0');}catch(e){}
@@ -90779,12 +90797,15 @@ document.getElementById('resetBtn').addEventListener('click',()=>{stopGlide();ce
 function positionFeatureBar(){
   const topbar=document.querySelector('.topbar'), featureBar=document.querySelector('.feature-bar');
   if(featureBar)featureBar.style.top=(topbar?topbar.offsetHeight:0)+'px';
+  document.documentElement.style.setProperty('--map-top',((topbar?topbar.offsetHeight:0)+(featureBar?featureBar.offsetHeight:0))+'px');
 }
 positionFeatureBar();
 window.addEventListener('resize',positionFeatureBar);
 
 render();
 buildLegend();
+positionFeatureBar();
+if(window.ResizeObserver){const ro=new ResizeObserver(positionFeatureBar);document.querySelectorAll('.topbar,.feature-bar').forEach(e=>ro.observe(e));}
 centerView();
 {
   const deepLinkId=new URLSearchParams(location.search).get('world');

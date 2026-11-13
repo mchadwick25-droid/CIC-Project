@@ -189,7 +189,7 @@ test('Who and the connection lines are never shown together', () => {
   assert.match(map, /svg\.who-on \.edge-line,svg\.who-on \.edge-hit,svg\.who-on \.continues\{display:none!important\}/);
   assert.match(map, /if\(whoScope\)whoLinks\.suspend\(\);else whoLinks\.restore\(\);/);
   assert.match(map, /whoScope=null;whoLinks\.restore\(\);renderWho\(\);/);
-  assert.match(map, /if\(whoLinks\.saved&&\(k==='links-all'\|\|k==='major'\|\|k\.startsWith\('family:'\)\)&&familyKeys\.some\(f=>!hidden\.has\(f\)\)\)\{whoLinks\.saved=null;clearWho\(\);\}/);
+  assert.match(map, /if\(whoLinks\.saved&&\(k==='major'\|\|k\.startsWith\('family:'\)\)&&familyKeys\.some\(f=>!hidden\.has\(f\)\)\)\{whoLinks\.saved=null;clearWho\(\);\}/);
 });
 
 test('the map holds every tradition\'s people, every person\'s home tradition and card', () => {
@@ -304,7 +304,7 @@ test('the movements column sits left of the era rivers, its names reading leftwa
 
 test('the Movements switch starts off and is remembered like the other switches', () => {
   const map = fs.readFileSync(path.join(root, 'cft-website/index.html'), 'utf8');
-  assert.match(map, /<button type="button" class="chip" data-toggle="movements" aria-pressed="false">Movements<\/button>/);
+  assert.match(map, /<button type="button" class="chip" data-toggle="movements" aria-pressed="false"><span class="sw-name">Movements<\/span><span class="sw" aria-hidden="true"><\/span><\/button>/);
   assert.match(map, /let movementsOn=false;\n\s*try\{movementsOn=localStorage\.getItem\('tree-movements'\)==='1';\}catch\(e\)\{\}/);
   assert.match(map, /localStorage\.setItem\('tree-movements',movementsOn\?'1':'0'\)/);
   assert.ok(map.includes('The Movements switch shows movements that ran across churches as thin lines beside their era, for the years they lasted.'));
