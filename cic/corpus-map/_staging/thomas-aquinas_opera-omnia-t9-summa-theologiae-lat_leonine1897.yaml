@@ -1,0 +1,11 @@
+source_file: thomas-aquinas_opera-omnia-t9-summa-theologiae-lat_leonine1897.txt
+assignments:
+- row_id: thomas-aquinas_opera-omnia-t9-summa-theologiae-lat_leonine1897--thomas-aquinas-opera-omnia-leonine-edition-tomus-9-summa-theolog
+  work: Thomas Aquinas, Opera omnia, Leonine edition, tomus 9 (Summa theologiae, Secunda secundae, second part)
+  author: thomas-aquinas
+  locus: the whole volume
+  atlas_ids:
+  - the-dominican-order
+  role: tradition
+  confidence: provisional
+  note: The Summa theologiae in the Leonine text, inside this window. The tomus number is the edition's; the part named is from the volume's own contents.

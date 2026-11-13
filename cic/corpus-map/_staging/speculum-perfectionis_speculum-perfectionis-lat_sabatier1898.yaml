@@ -1,0 +1,13 @@
+source_file: speculum-perfectionis_speculum-perfectionis-lat_sabatier1898.txt
+assignments:
+- row_id: speculum-perfectionis_speculum-perfectionis-lat_sabatier1898--speculum-perfectionis-latin-sabatier-1898
+  work: Speculum perfectionis, Latin (Sabatier 1898)
+  author: speculum-perfectionis
+  locus: the Latin text from about OCR line 12409; add 12 to OCR line numbers
+  atlas_ids:
+  - the-franciscan-movement
+  - fraticelli-spiritual-franciscan-rigorists
+  - franciscan-order-era-6
+  role: tradition
+  confidence: needs-ruling
+  note: 'The Latin of the Speculum perfectionis, placed as the held English of Evans 1899 is: its date of writing and its attribution to Leo are contested, and it sits between the Franciscan Movement entry (to 1300) and the Spirituals entries.'

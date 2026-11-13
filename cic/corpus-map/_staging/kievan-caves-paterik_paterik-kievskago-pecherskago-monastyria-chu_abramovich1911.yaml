@@ -9,3 +9,12 @@ assignments:
   role: context
   confidence: provisional
   note: 'The founders'' stories in a collection the edition''s preface gives in its redaction of 1462, after this window.'
+- row_id: kievan-caves-paterik_paterik-kievskago-pecherskago-monastyria-chu_abramovich1911--the-kievan-caves-paterik-abramovich-1911-1054-1240
+  work: 'The Kievan Caves Paterik, including Nestor''s Life of Theodosius (Abramovich 1911)'
+  author: kievan-caves-paterik
+  locus: 'Nestor''s Life of Theodosius from about OCR line 9694 (the signature at about 11954); the Paterik''s list of monks at about 6452; add 12 to OCR line numbers'
+  atlas_ids:
+  - kievan-rus-christianity-1054-1240
+  role: context
+  confidence: provisional
+  note: 'The founders'' stories in a collection the edition''s preface gives in its redaction of 1462, after this window, about it; Nestor''s Life of Theodosius is inside it.'

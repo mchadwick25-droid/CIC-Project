@@ -1,0 +1,11 @@
+source_file: adam-bremen_hamburgische-kirchengeschichte-deu_steinberg1926.txt
+assignments:
+- row_id: adam-bremen_hamburgische-kirchengeschichte-deu_steinberg1926--adam-of-bremen-hamburgische-kirchengeschichte-german-steinberg-1
+  work: Adam of Bremen, Hamburgische Kirchengeschichte, German (Steinberg 1926)
+  author: adam-bremen
+  locus: the whole volume
+  atlas_ids:
+  - scandinavian-conversion-christianity
+  role: tradition
+  confidence: provisional
+  note: A German translation of the same history, for readers of German.

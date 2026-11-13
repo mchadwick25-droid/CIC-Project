@@ -1,0 +1,12 @@
+source_file: martene-durand_thesaurus-novus-anecdotorum-v5-lat_1717.txt
+assignments:
+- row_id: martene-durand_thesaurus-novus-anecdotorum-v5-lat_1717--rainerius-sacconi-summa-de-catharis-thesaurus-novus-anecdotorum
+  work: Rainerius Sacconi, Summa de Catharis (Thesaurus novus anecdotorum V)
+  author: martene-durand
+  locus: the Summa from about OCR line 133105; the rest of the volume is other texts; add 12 to OCR line numbers
+  atlas_ids:
+  - cathars-albigensians
+  - the-waldensians
+  role: context
+  confidence: provisional
+  note: A former Cathar turned inquisitor on the Cathars and the Waldensians, from outside both.

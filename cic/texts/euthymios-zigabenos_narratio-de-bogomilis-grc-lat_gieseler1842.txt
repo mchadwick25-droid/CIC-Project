@@ -1,0 +1,2676 @@
+Title: Euthymii Zygabeni Narratio de Bogomilis seu Panopliae dogmaticae titulus XXIII, edited by Jo. Car. Lud. Gieseler
+Creator: Euthymios Zigabenos; edited by Gieseler (title page)
+Publisher: Göttingen: Vandenhoeck et Ruprecht (title page)
+Publication Date: 1842 (the year MDCCCXLII is at OCR line 2644; the title-page digits are garbled)
+Rights: Public Domain (pd-us-by-date: published 1842); the archive.org record is tagged NOT_IN_COPYRIGHT
+Language: grc
+Source: archive.org item narratiodebogom00giesgoog, full text from the item's own djvu.txt. Fetched directly 2026-11-13 by the Library thread; the byte count of the downloaded file (195,383) equals the size archive.org lists for the djvu.txt.
+Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1842, out of US copyright by date. OCR quality: clean to fair: Greek with a Latin version opposite. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
+Content note: the Greek, 'Κατὰ Βογομίλων' at about OCR line 345.
+
+______________________________________________________________________
+
+Google 
+
+
+This is a digital copy of a book that was preserved for generations on library shelves before it was carefully scanned by Google as part of a project 
+to make the world's books discoverable online. 
+
+
+It has survived long enough for the copyright to expire and the book to enter the public domain. A public domain book is one that was never subject 
+to copyright or whose legal copyright term has expired. Whether a book is in the public domain may vary country to country. Public domain books 
+are our gateways to the past, representing a wealth of history, culture and knowledge that's often difficult to discover. 
+
+
+Marks, notations and other marginalia present in the original volume will appear in this file - a reminder of this book's long journey from the 
+publisher to a library and finally to you. 
+
+
+Usage guidelines 
+
+
+Google is proud to partner with libraries to digitize public domain materials and make them widely accessible. Public domain books belong to the 
+public and we are merely their custodians. Nevertheless, this work is expensive, so in order to keep providing this resource, we have taken steps to 
+prevent abuse by commercial parties, including placing technical restrictions on automated querying. 
+
+
+We also ask that you: 
+
+
+- Make non-commercial use of the files We designed Google Book Search for use by individuals, and we request that you use these files for 
+personal, non-commercial purposes. 
+
+
+- Refrain from automated querying Do not send automated queries of any sort to Google's system: If you are conducting research on machine 
+translation, optical character recognition or other areas where access to a large amount of text is helpful, please contact us. We encourage the 
+use of public domain materials for these purposes and may be able to help. 
+
+
+- Maintain attribution The Google *watermark" you see on each file is essential for informing people about this project and helping them find 
+additional materials through Google Book Search. Please do not remove it. 
+
+
+- Keep it legal Whatever your use, remember that you are responsible for ensuring that what you are doing is legal. Do not assume that just 
+because we believe a book is in the public domain for users in the United States, that the work is also in the public domain for users in other 
+countries. Whether a book is still in copyright varies from country to country, and we can't offer guidance on whether any specific use of 
+any specific book is allowed. Please do not assume that a book's appearance in Google Book Search means it can be used in any manner 
+anywhere in the world. Copyright infringement liability can be quite severe. 
+
+
+About Google Book Search 
+
+
+Google's mission is to organize the world's information and to make it universally accessible and useful. Google Book Search helps readers 
+discover the world's books while helping authors and publishers reach new audiences. You can search through the full text of this book on the web 
+
+
+alhttpo://books.goodle.com/ 
+
+
+
+
+
+&leslugiral raul 
+IN CANDIlIIID (GE. | 
+
+
+The Gift of 
+
+
+COL. BENJAMIN LORNING. 
+
+
+&ralugiral raul 
+IN CAMDLHID ἃ 1". 
+
+
+The Gift of 
+
+
+COL. BENJAMIN LORING. 
+
+
+EUFHYMEI ZYGABDENE 
+
+
+NARRATIO DE BOGOMILIS 
+
+
+SEU 
+
+
+
+
+
+PANOPLIAE DOGMATICAE 
+
+
+TITULUS X'XENN. 
+
+
+———— 
+
+
+GRAECA RECOGNOVIT, ET PRIMUM IN GERMANIA INTEGRA EDIDIT, 
+P. FR. ZINI INTERPRETATIONEM LATINAM ADJECIT 
+
+
+D». JO. CAR. LUD. GIESELER. 
+
+
+
+
+
+GOTTINGAE 
+
+
+PROSTAT APUD VANDENHOECK ET RUPRECHT. 
+| 4 8 A 9. 
+
+A TRITY SCHO... 
+LIBRARY. | 
+
+
+» à 
+"TPVApD) UNNERSV 
+
+
+
+
+
+
+ACADEMIAE GEORGIAE AUGUSTAE 
+PRORECTOR 
+
+
+puyil 9a uAauwug 
+
+
+SACRA PASCHALIA 
+
+
+ANNE MDCCCXILEIE 
+
+
+PIE CONCELEBRANDA 
+
+
+INDICUNT. 
+
+
+Inest Euthymii Zygadeni narratio de Bogomilis. 
+- Edidit B. Jo. Car. Lud. Gieseler. 
+
+
+P. II. 
+
+
+
+
+
+GOTTINGAE 
+
+
+TYPIS ERNESTI AUGUSTI HUT H. 
+
+
+D. Euthymio quae tradita sunt, paucis continentur. Vixit tempore Im- 
+peratoris Alexii initio saeculi XII in monasterio τῆς Περιβλέπτου, i. e. Ma- 
+riae Virginis, quod Constantinopoli prope mare situm, a Romano Argyro 
+Imp. conditum et a Nicephoro Botoniata instauratum fuit ἢ). — Cognomine 
+utebatur, quod perumdue Zino praeeunte Zigabenus scribitur, sed in 
+Codicibus mire variat. Invenitur enim Ζιγαβηνός ?), Ζυγαβηνός 3), Ζηγαβη- 
+vóg 4), Ζιγαδηνός 5), Zvyaómvog 9): quin imo Jo. Hentenius scripsit Ziga- 
+bonus 7), quod autem an in ullo Codice inveniatur dubito. — Quum non 
+in omnibus Euthymii librorum inscriptionibus cognomen illud additum de- 
+prehendamus 8), equidem censuerim, Euthymium ipsum illo non usum 
+esse, sed ubi inveniatur, a librariis illud appositum esse, qui, quum 
+non omnes originem ejus et veram rationem cognitam habuerint, sed obi- 
+ter modo audierint, mirum esse non potest, quod varie scripserint. — Ex 
+inscriptionum igitur auctoritate de genuina illius cognominis forma judi- 
+cari non potest: potest aulem, ut mihi quidem videtur, Annae Comnenae 
+
+
+1) cf. Car. du Fresne Constantinopolis christiana lib. IV. cap. 2. no. 36. 
+
+
+. 9) Xta Cod. Mosquensis Panopliae num. XV. B. cf. Euthymii Zig. comm. in quatuor Evan- 
+gelia ed. Chr. F. Motihaes Τ. 1. Praef. p. 8. 
+
+
+. 3) ta Cod. Mosqu. num. CCCLIII ap. Matthaei |. c. p. 26; &nte Euthymii enarrationem 
+in Psalmos in Le Moyne Variis Sacris I, p. 150; denique scriptor anonymus graecus 
+din Allatii de Eccl. occ. et orient. perp. consensione p. 643. : ' 
+
+
+4) Ita Cod. Mosq. libri Euthymii, quod ex solo patre S. S. procedat, cf. Fabrició Bibl. 
+Gr. ed. Harles VIII, 343; Panopliae Cod. Vindobon. theol. graec. CCXXVII ap. Lam- 
+becium ed. Kollarii V, p. 116. 
+
+
+$) lta editio Panopliae Tergovistana, et Cod. Mosq. num. X. cf. Matthaei 1. c. p. 8. 
+
+
+6) Ita Codex Coislinianus commentarii in Psalmos, cf. Montfaucon Bibl. Coisl. p. 178, et 
+Panopliae Cod. Mosqu. num. L. cf. Matthaei l. c. p. 8. 
+
+7) Ante Commentarii in IV Evangelia latinam editionem Lovan. 1544. fol. 
+
+8) Saepe inscripti sunt: Εὐθυμίου Μοναχοῦ τῆς Πιριβλέπτου μονῆς, cf. Lambeciue ed. Kollar 
+V, p. 85. 269. Anecdota literaria vol. IV, (Romae 1783. 8.) p. 27. 
+
+
+1 
+
+
+* Pu 2 zm 
+testimonio, quam, quum Euthymii aequalis fuerit, cognominis illius ra- 
+tionem accurate novisse dubitari nequeat. Annam autem scripsisse Ζυγα- 
+δηνόν, auctoritate et Codicis Barberini, quo P. Possinus in editione Parisina 
+adornanda usus est!), et Vaticani, quem Leoni Allatio ad manus fuisse 
+Schopenus vir doctissimus evicit 2), edocemur. Quod si Annae testimo- 
+nio et auctoritate efficitur, Euthymio cognomen τοῦ Zvyaónvov fuisse, quae- 
+ritur, unde illud traxerit. Certi quidem nihil de eo aflirinari potest: pro- 
+babile autem est, eum a loco natali, qui vicus fortasse ignobilis Ζύγαδα 
+vel Ζύγαδος fuerit, ita cognominatum esse. 
+
+
+De Euthymii scriptis, inter quae commentarios in libros Novi Te- 
+stamenti atque Panopliam dogmaticam eminere constat, uberius exponere, 
+hujus loci non est.  Accuratius qui ea cognoscere cupit, adeat Caveum, 
+et Fabricium ab Harlesio auctum 3). 
+
+
+Narratio de Bogoimilis Panopliae dogmaticae, cujus Titulo vicesi- 
+mo terlio continetur, ea pars est, quae prae caeteris fontis historici sin- 
+ceri dignitatem habet. Anna Comnena enim narrat, Alexium patrem, 
+postquam Basilium haeresiarcham callide exploravisset, ejusque de doctrina 
+sua expositionem clam a librario calamo excipiendam curasset, Euthymio 
+Monacho, tunc inter theologos eruditissimo, Panopliae opus conscriben- 
+dum mandasse, in quo cunctae ab initio haereses enarrarentur et refelle- 
+rentur, denique autem Bogomilorum errores exponerentur et detegerentur. 
+De wiesen ni haeresibus Euthymius non nisi veterum narrationes re- 
+petere potuit, de recentioribus saepissime non habuit, unde hauriret, nisi 
+famam: de Bogomilis autem non dubium est, quin illis tabulis uti po- 
+tuerit, in quas Imperator omnia, quae Basilius coram eo de doctrina sua 
+ingenue. professus erat, referri jusserat, i. e. fonte limpidissimo et cer- 
+tissimo, qualis vix alii haeresium enarratori . patuerit. — Praeterea autem 
+alias opportunitates Euthymio se obtulisse ad Bogomilorum doctrinam pe- 
+niüus cognoscendam, ipse enarrat in Συγγραφῇ -στηλιετευτιχῇ coutra eos 
+scripta, quam Nic. Fogginius in zneedotis litlerariis vol. IP, p. 27 (Ro- 
+mae 1785. 8.) edidit. Contigit enini. ei non: solum, ut cum Bogomilo 
+quodam iter faceret, qui de haereticis suis opinionibus liberrime expone- 
+
+
+1) Annae Comnenae-Alexias lib. XV. Paris 1651, p. 490. 
+
+2) Leo Allatius de -Eccl. Occ. et Orient. perp. consensione p 638. exscripsit Alexiadis 
+tuac nondum editae locum de Bogomilis. De codice, quo usus sit, cf. Schopenus in 
+praef. ad Alexiadis editionem Bonnensem p. XXIII. 
+
+3) Cave hist. liter 11, 198.  Fabricis Bibl. Gr. ed. Harles VIII, 328. Praeterea conferan- 
+tur du Pin nouvelle Bibl. IX, 197. Cas. Oudini comm. de Scriptt. eccl. 11, 979. R. 
+Ceillicr. hist. gen. des auteurs eacrés el eccl. XXI , 633. 
+
+
+zd xke 
+
+
+vet; sed in ipso suo monasterio doctrinae illius asseclas deprehendit, quos 
+eadem simulatione, qua Imperator Alexius Basilium, ita cepit, ut ex iis 
+omnia eorum arcana minus adhuc ei cognita discere posset. Fieri omnino 
+potuit, ut in bac fontium ubertate Euthymius opinionibus praejudicatis 
+ita teneretur, ut nonnulla male intelligeret: id autem certum est, inter 
+illos scriptores, qui lhaereseon rationes nobis exposuerint, paucis eam 
+opportunitatem fuisse, res de quibus ageretur accuratissime cognoscendi, 
+qua Euthymius usus est, quum de Bogomilorum erroribus exponeret. 
+Quae Oederus 1) protulit, ut Euthymii fidem hac in re infirmaret, ea 
+quum non nisi ex illo studio dudum exploso profecta sint, haereticis ve- 
+teribus puriorem quandam doctrinam aflingendi, non opus est pluribus 
+refutare. 
+
+
+Panoplia dogmatica, etsi in bibliothecis plurimi ejus codices exstant, 
+nonnisi versione latina, quam Petrus Franciscus Zinus Veronensis edidit ?), 
+hodie etiam plerisque viris doctis cognita est. — Graecus enim textus Ter- 
+govisti in. JF'allachia anno 1710, fol. editus in Germania saltem rarissi- 
+mus est et paucis visus. Majorem quidem operis illius partem utrum 
+graece an latine legamus, non tam interest: sunt tamen capita, quae 
+negligere historicis non liceat, atque inter ea narratio de Bogomilis priu- 
+cipem fere locum tenet. Hac ratione commotus Jo. Christoph. JFolfius 
+eam narrationem ex apographo, quod Jo. Fellus Episcopus Oxoniensis ex 
+codice vetustiore describendum curaverat, maxima ex parte edidit 3): sed 
+in edendo ralionem secutus est, quae placere vix possit. Euthymii enim 
+narratio in frusta dissecta et alio prorsus ordine disposita, denique neque 
+integra, neque sine mendis exscripta est. Praeterea quum Wolfii etiam 
+libellus rarior factus sit neque ubique facile obvius: multis non ingratum 
+fore confido, si Panopliae titulum de Bogomilis, eumque integrum, denuo 
+edere constitui. Ut textum genuinum nanciscerer, adii Virum humanitate 
+aeque ac eruditione omnibus Viris doctis cognitum, Ropitarium, Custo- 
+dem primarium Bibliothecae Caesareae Vindobonensis meritissimum , eum- 
+que statim inveni paratissimum ad consilium meum adjuvandum. — Quum 
+unicus Codex Vindobonensis, qui integram Panopliam, atque in ea Ti- 
+tulum nostrum offert 5), siglis et scripturae compendiis tam .crebris uta- 
+
+
+1) cf. Ejusdem diss. inaug. Prodromum historiae Bogomtilorum criticae exhibens. | Gottingae 
+1743. 4., recusa in Heumanni nova sylloge disserit. I1, 492 ss. 
+
+2) Venet. 1555 fol. repetita Lugd. 1556. 8. Paris. 1580. 8. et Tomo XIX. Bibl. PP. Lugd. 
+
+3) J. Chr. Wolfii historia Bogomilorum, qua polissimum ex Panoplia dogmatica Euthymii 
+Zigabeni ejusque codice graeco non edito eorum fala, doctrinae el mores tla exponuntur, 
+ul simul consensio cum veteribus ac recenlioribus fanaticis strictim $ndicetur. | Vitem- 
+bergae 1712. 4. 
+
+4) Est Cod. theol. graecus num. 270. (Lambec. 227.), cf. Lambecius ed. Kollar V , 115. 
+
+
+1* 
+
+
+c Ws unu 
+
+
+tur, ut difficillime modo legi possit, convenimus, ut textus ex Wolfii 
+editione a me descriptus potissimum cum editione Tergovistana conferretur, 
+et ex ea suppleretur, nonnullis autem locis gravioribus Codex ille con- 
+suleretur. Quum enim editio Tergovistana, Zini versio, et Wolfii textus 
+ex diversis codicibus hausta sint, ex iis inter se comparatis sperare licuit 
+textum Euthymii ita restitui posse, ut a genuino non nisi levioribus lectio- 
+nibus sensum non adulterantibus disereparet. ^ Graecitas autem Euthymii 
+cerle non ea est, cui accuratissime restituendae multum laboris impendere 
+operae pretium sit. Textus igitur, qui ad manus fuerunt, inter se contu- 
+li: ubi diserepabant, lectiones quae potiores visae sunt recepi, caeteras in 
+margine addidi. (ua in re monendum censeo, ubi Tergovistana lectio 
+in margine legatur, ibi Wolfianam in textum receptam esse, et vice 
+versa; aliunde si lectio recepta sit, fontem diserte laudari. —Zini ver- 
+sionem, quum dignitatem codicis habeat, intactam addidi. 
+
+
+Scrib. Gottingae d. XXIV Dec. MDCCCXLI. 
+
+
+TITAOX KI. 
+
+
+Κατὰ Βογομίλων. 
+
+
+Bóy !) μὲν γὰρ 5 τῶν Βουλγάρων γλῶσσα καλεῖ τὸν Θεὸν, μίλου, δὲ τὸ ἐλέησον. εἴη 
+δ᾽ ἂν Βογόμιλος κατ᾿ αὐτοὺς Ó τοῦ ϑεοῦ τὸν ἔλεον ἐπισπώμενος ?). 
+
+
+H τῶν Βογομίλων αἵρεσις οὐ πρὸ πολλοῦ συνέστη τῆς καϑ'᾽ ἡμᾶς γενεᾶς, μέ- 
+ρος οὖσα τῆς τῶν Μασσαλιανῶν, xoci συμφερομένη τὰ πολλὰ τοῖς ἐκείνων δόγμασι, 
+
+
+1) Terg. Βόγον. 2) Haec ad verbum exscripsit Nicelas Choniates in Montfauconii Pa- 
+Jaeographia graeca p. 333. Caeterum, ut Kollarius ad Lambecium lib. V. p. 86 monet, 
+et Kopitar, vir rerum Slavicarum peritissimus, literis ad me scriptis confirmavit, cum 
+Slavicae linguae indole illa nominis Bogomilorum explicatio conciliari nequit. Nam 
+Bogu mil slavice est Deo carus, Bogomil (pro quo tamen hodie plerumque Bogoljub 
+dicitor) Deum diligens. Sicuti nomina Bohuslav s. Boguslav, Boguchval s. Bogufal, 
+Bohdan s. Bogdan, quae Deum glorificantem, laudantem atque a Deo datum designant, 
+inter Slavos saepe inveniuntur; ita pristinis certe temporibus nomen Bogomili etiam, 
+quod graeco O:ogilov respondet, passim deprehenditur. lta Jo. Dlugossus hist. Polon. 
+lib. VII. ad ann. 1242 (ed. Lips. 1711. I. p. 688) habet Bogumilum Palatinum Posna- 
+niensem; ann. 1267 Magister Bohemilus vel Bohomilus (quae forma alius dialecti est) 
+Pragae grammaticam et logicam docuit (Pezii praef. ad Thes. Anecdot. T. I. p. 61); 
+Consensui Sendomiriensi d. 14 Aprilis anni 1570 inter alios subscripsit Simeon Theo- 
+philus, alias Bogomil, 'urnovius, Diaconus in Communitate Fratrum Bohemicae Con- 
+fessionis (cf. Jablonski list. consensus Sendomiriensis p. 193). Nomen illud igitur cum 
+precatione κύριε ἐλέησον nihil commune habet, quam Slavi partim Gospodine pomilui, 
+partim Hospodine smilui se vertunt, Sed quum haeretici isti praeter nomina Christi- 
+anorum et Christopolitarum nomine etiam Bogomilorum uterentur, Graeci illud postre. 
+mum ideo arripuisse videntur, quod caetera istis tanquam indignis concedere noluerint: 
+accidit autem 1is, ut hoc nomen a voce pomilui, quam e Slavis saepe audiebant, falso 
+derivarent, atque hanc ipsam vocem, quasi esset Bog milui, falso acciperent. 
+
+
+Titulus X" XII. 
+Adversus Bogomilos. 
+
+
+Bog autem Bulgarorum lingua Deum significat, Milui vero miserere; ut Bo- 
+&omilus apud eos is sit, qui Dei misericordiam implorat. 
+
+
+Bogonilorum haeresis haud multo ante extitit, aetate nostra, Masalianorumque 
+pars fuit, et multis iu rebus convenit cum illorum institutis, quaedam tamen 
+
+
+u— δ 0. 
+
+
+τινὰ δὲ xai προσεξευροῦσα καὶ τὴν λύμην avincaca. Διεγνώσθη δὲ κατὰ τοὺς 
+χρόνους ᾿Αλεξίον τοῦ ϑεοχυβερνήτου βασιλέως ἡμῶν, ὃς ἐντέχνως 1) xai πάνυ ϑαυ- 
+μασίως τὸν ἔξαρχον αὐτῆς ϑηρεύσας. Βασίλειος ἣν ovrog ὁ ἰατρὸς, ἀνὴρ ὁλέ- 
+ϑριος μᾶλλον, καὶ λοιμὸς, καὶ φϑορᾶς μεστὸς, καὶ πάσης κακίας ὄργανον. Καὶ 
+πρὸς ἑαυτὸν μεταγαγὼν xai ἐντίμως ὑποδεξάμενος, καὶ τῆς παρ᾽ ἑαυτῷ καϑέδρας 
+ἀξιώσας, καὶ λόγου μεταδοὺς ἡδέος, χαὶ προσηνοῦς ὁμιλίας καὶ γλυχείας ἐν τῷ 
+προςδιαλέγεσθϑαι 2) χάριτος, xai συνετῶς ὑποχρινάμενος τὸν μαϑητιῶντα, ῥᾷον 
+ἐξηπάτησε τὸν ἐξαπατήσαντα πολλοὺς εἰς ἀπωλειαν, καὶ πᾶσαν τὴν ἐνδομυχοῦσαν 
+τῷ σαπρῷ τούτῳ καὶ χαταπτύστῳ 7έροντι χαχοήϑειαν. ὀξύτητι φρενὸς xai δεξιότητε 
+φύσεως ἀνίχνευσεν, οὐδὲν ὑπολιπὼν ἀνεξερεύνητον, ἢ ἀϑέατον. Ἔνϑεν τοι καὶ 
+χαϑάπερ ἀπό τινος φωλεοῦ παντοδαπὰ xai ποικιλόμορφα ϑηρία τῆς σχοτεινῆς 
+αὐτοῦ καρδίας ἐξελχύσας, τὰ μιαρὰ καὶ ἰοβόλα καὶ πολυπρόσωπα δόγματα ταῖς 
+μηχαναῖς τῆς ὑποχρίσεως, καὶ κατασοφισάμενος εὐφυῶς μάλα τὸν χρονόληρον γέ- 
+ροντα, τὸ παλαιὸν χαχὸν, ἐκέλευσεν ἡμῖν γραφῇ παραδοῦναι ταῦτα, καὶ ϑριαμ- 
+βεῦσαι τὰ χαταγέλαστω μυστήρια τῆς εἰρημένης αἱρέσεως. 
+
+4'.3) ᾿Αϑετοῦσε πάσας τὰς Μωσαϊχὰς βίβλους μετὰ καὶ τοῦ ἐν αὐταῖς 
+ἀναγραφομένου ϑεοῦ χαὶ τῶν εὐαρεστησάντων αὐτῷ δικαίων᾽ ναὶ μὴν 4) καὶ τὰς 
+μετ᾽ αὐτὰς ἁπάσας ὡς κατ᾽ ἐπίπνοιαν 5) τοῦ Σατανᾶ συγγραφείσας. Ἵλεως ἡμῖν 
+εἴη Κύριος τὰ ἐκείνων λέγουσι' όνας δὲ παραδέχονται xoi τιμῶσιν ἑπτὰ, καὶ 
+εἰς ἄκρον ἀποστηϑίζουσι, λέγω δὴ τὸ ψαλτήριον, xci τὸ ἑξκαιδεκαπρόφητον, καὶ 
+
+
+1) Terg. εὐτέχνοςς. 2) Terg. προδιαλέγεσθα:. 3) Priorem hujus capitis partem ex 
+Niceta Choniate descriptam habes apud Montfauconium |. c. 4) Ita Tergov. et Ni- 
+cetas$ Choniates ap. Montf. — — Wolfius p. 46 scripsit μὲν. 6) Zinus et Wolf. ἐπέ- 
+
+
+*vOWXY. 
+
+
+ipsa quoque excogitavit, et pestem adauxit. —Patefacta est autem Alexio Impera- 
+tore nostro regnante, qui Dei numine gubernatus, prudenti et admirabili ratione 
+principem illius venatus est. Hic erat Basilius quidam medicus, homo perni- 
+ciosus, atque pestifer, et corruptelae plenus, atque malorum omnium instru- 
+snentum.— Quem Imperator cum ad se accersisset , honorüccque suscepisset, as- 
+sidereque fecisset, jucunde benigneque allocutus, duleique gratia cum illo dispu- 
+tans, seque prudenter discipulum simulans, facile pir dn cum jam ille mul- 
+tos perniciose decepisset, omnemque in putridi execrandique senis arcano recon- 
+ditam malitiam mentis acumine et naturae facilitate detexit, nihil. omnino relin- 
+quens, quod non investigaret atque perspiceret. — Hic igitur in. tenebricoso nu- 
+gacissimi perniciosique senis corde, tanquam in latebra quadam, diversas varias- 
+que feras, nefarias, venenatas atque multiplices opiniones latitantes ingenio sa- 
+ientiaque sua deprehendit, in apertumque protulit. — Et mihi jussit, ut ridicula 
+istius haeresis mysteria patefacta atque convicta literarum monumentis mandarem. 
+I. Rejiciunt omnes libros Mosaicos, una eum Deo, qui in ipsis memora- 
+
+tur, virisque justis, qui sunt illi carissimi; reliquos item omnes, qui postea 
+scripti sunt, tanquam Diaboli astutia compositi sint. — Propitius eit nobis Deus 
+impias eorum opiniones referentibus. Septem duntaxat suscipiunt et colunt et'in 
+summo habent pretio, id est Psalterium, et librum sexdecim Prophetarum, et 
+
+
+— ES 
+
+
+τὸ κατὰ Ματϑαῖον Εὐαγγέλιον, xai τὸ xara Μάρχον, xoi τὸ χατὰ «ουχᾶν, xai 
+τὸ κατὰ ᾿Ιωάννην, ἕβδομον τὴν βίβλον 1) τῶν πράξεων σὺν ταῖς ἐπιστολαῖς πά- 
+σαις xal τῇ Αἠποχαλύψει τοῦ ϑεολύγου ᾿Ιωάννου.  'H σοφία γάρ φασιν 3) ᾧχο- 
+δόμησεν ἑαυτῇ oixov, καὶ ὑπήρεισε στύλους ἑπτὰ 8), οἶχον μὲν τὴν παμμίαρον 
+συναγωγὴν ἑαυτῶν παρερμηνεύοντες 3), στύλους δὲ ἑπτὰ τὰς ἀπαριϑμηϑείσας βί- 
+βλους. Τὴν μὲν οὖν ἀποβολὴν τῶν Moecaixov βίβλων καὶ τῶν μετ᾽ αὑτὰς ἐχ 
+τῆς τῶν Παυλικιάνων αἱρέσεως μεμαϑήχκασι. Ζητητέον δὲ ἐν τῷ κατ᾽ ἐχείνων 4) 
+τίτλῳ τὰ χεφάλαια, οἷς ἐπιγέγραπται, ὅτε τοῦ ἀγαϑοῦ ϑεοῦ εἰσιν ij re 5) παλαιὰ 
+νομοϑεσία καὶ οἱ ἐν αὐτῇ λάμψαντες, καὶ ἀναγνωστέον τό, τε Ó) πρῶτον xeqa- 
+λαιον, καὶ τὰ ἑξῆς ἑπτὰ, στηλιτεύοντα φανερῶς τὴν τοιαύτην πλάνην. Καὶ τὰ 
+uer! ἐχεῖνα δὲ πάντα σύμφωνα σχεδὸν τοῖς ἑπτὰ τούτοις εἰσὶν, ἀλλ᾽ ἀρκεῖ μόνα 
+τὰ δηλωθϑέντα. Χρὴ δὲ γινώσχειν, ὃτε τὰς Μωσαϊχὰς βίβλους ἀϑετοῦντες ῥήσεις 
+ἐξ αὐτῶν πολλάχις πανούργως εἰς συνηγορίαν ἑαυτῶν προςλαμβάνουσι. Καὶ ὅταν 
+δὲ παρά τινος ῥητοῦ τῶν δηλωϑεισῶν ἑπτὰ βίβλων στενοχωρηϑῶσι, καὶ συνελα- 
+ϑῶσι πρὸς τὴν ἀλήϑειαν, εὐθὺς εἰς ἀλληγορίαν τρέπονται, διαδιδρασκειν πει- 
+ρωώμενοι. 
+
+Β΄. lloooygua μὲν ἀπάτης τῶν ἁπλουστέρων τὸ πιστεύειν εἰς Πατέρα, καὶ 
+Υἱὸν xai ἅγιον Πνεῦμα προβάλλονται. Τὰς τρεῖς δὲ ταῦτας χλήσεις τῷ Πατρὶ 
+προσάπτουσι, καὶ ἀνϑρωποπρόσωπον τοῦτον ὑπολαμβάνουσι, παρ᾽ ἑκατέραν μή- 
+»yya ἀχτῖνα ἐκλάμποντα, τὴν μὲν Υἱοῦ, τὴν δὲ Πνεύματος. Καὶ οὕτω χατα- 
+
+
+1) Terg. τῆς βίβλου. 2) Terg. φησιν. 3) Terg. μεϑερμηνεύοντες. 4) Wolfius p. 49 
+ἐκείψους. 6) Wolf. ἤγε. 6 Wolf. τότε. Ξ atia 
+
+
+8) Prov. 9, 1. 
+
+
+Evangelium secundum Matthaeum, et secundum Marcum, et secundum Lucam, 
+et secondum Joannem, et septimum librum, quo res ab Apostolis gestae conti- 
+nentur eum omnibus Epistolis, et Joannis T heologi Apocalypsi. Sapientia enim, 
+inquiunt, aedificavit sibi domum, septemque columnas substituit. er hane sa- 
+fnac domum scelestissimam synagogam intelligunt suam, per columnas autem 
+ibros illos, quos septem ordinibus dispositos commemoravimus. — In repudiandis 
+igitur libris Mosaicis et caeteris subsequentibus eum Paulicianorum haeresi con- 
+sentiunt.  ltaque in eo titulo, qui adversus illos eonscriptus est, quaerenda 
+sunt ea capita, quibus demonstravimus, boni Dei esse tum Vetus "Testamentum, 
+tmm viros, qui in eo illustres extiterunt, legendumque est primum caput eum 
+septem sequentibus, quibus error iste plane confoditur. ΕἸ quanquam reliqua 
+item capita his septem consentiunt, tamen haec sola satis erit perlegisee. — lllud 
+tamen animadvertendum est, istos callide plerumque ex his libris, quos impro- 
+bant, ad opiniones suas comprobandas verba depromere. Quod si aliquo septem 
+librorum, quos commemoravimus, dicto eonvicti ad veritatem eonfitendam impel- 
+lantur, statüm, ut subterfupgiant, ad allegoriam sese convertunt. 
+
+Il. Ea re decipiunt simpliceiores, quod fingunt, se credere in Patrem et 
+Filium et Spiritum s&nctum, cum tamen Patri tres istas tribuant appellationes, 
+eumque humana forma praeditum putent, et ex binis cerebri pannicults bínos ra- 
+dios emittere, alterum Fili, alterum Spiritus saneti. — Atque ita fides iss in 
+
+
+Gs UE. tus 
+
+
+στρέφει τούτοις ἡ πίστις εἰς σωματοειδῆ τινα καὶ τερατόμορφον Θεὸν, καὶ Ov- 
+τως |) ανύπαρχτον. Τὸ μὲν ovv προσάπτειν τῷ Πατρὶ τὰς εἰρημένας τρεῖς κλή- 
+σεις ἐκ τῆς Σαβελλιανῆς ?) αἱρέσεως ἔλωβον, τὴν δὲ τοῦ τοιούτου δόγματος 
+ἀνατροπὴν ζητητέον ἐν τῷ τίτλῳ τῷ κατὰ Σαβελλιανῶν. — T5 μέντοι τερατομορ- 
+φίᾳ τοῦ κατ᾽ αὐτοὺς ϑεοῦ σωματοειδὲς καὶ τὸ τῆς μορφῆς ἀλλόκοτον ἀρκέσει 
+πρὸς ἔλεγχον. 
+
+Γ΄. «έγουσι, τὸν Υἱὸν καὶ τὸ Πνεῦμα τὸ ἅγιον εἰς τὸν Πατέρα πάλιν, 
+ἀφ᾽ οὗ προῆλθον, ἀναλυϑῆναι, καὶ τριπρύσωπον αὐτὸν ἀπὸ TOU πενταχισχιλιο- 
+στοῦ πεντακοσιοστοῦ ἔτους ἄχρε καὶ τριάκοντα xai τριῶν ἐτῶν γρηματίσαντα πα- 
+λιν γενέσϑαι μονοπρόσωπον, ἀσώματον μὲν, ἀνθρωπόμορφον Óé. Φεῦ τῆς πολ- 
+λῆς ἀναισϑησίας!' ὦ τοῦ πλατέος γέλωτος; εἰ γὰρ ἀσώματος, πῶς ἀνϑρωπό- 
+μορφοςρ; 
+4΄. «Τέγουσι μήτε Υἱὸν εἶναι, μήτε Πνεῦμα ἅγιον ἄχρι τοῦ πενταχισχιλιοστοῦ 
+πεντακοσιοστοῦ ἔτους, Éxrore δὲ λαβεῖν αὐτοὺς ἀρχὴν τοῦ εἶναε καὶ ὀνομάζεσθαι, 
+καίτοι τοῦ Εὐαγγελιστοῦ locvvov βροντῶντος ἐν τῷ λέγειν" ἐν ἀρχῇ ἣν ὁ “16γος, 
+χαὶ ὁ «όγος ἦν πρὸς τὸν Θεὸν, καὶ Θεὸς nv ὁ .fóyog 9). Τὸ δὲ ἐν ἀρχὴ ἣν ὃ 
+λόγος, icov ἐστι τῷ ἀεὶ ἥν ὁ λόγος 9). E? δὲ ὁ Αόγος ἀεὶ ἣν ἐν τῷ Πατρὶ, καὶ 
+τὸ Πνεῦμα τὸ ἅγιον ἀεὶ συνὴν ἄρα τῷ Υἱῷ. Καὶ γὰρ οὐδ᾽ ὁ παρ᾽ ἡμῶν προ- 
+φερόμενος λύγος εὑρίσκεταί ποτε χωρὶς πνεύματος. Οἱ δὲ λέγοντες, τὸν Πατέρα 
+᾿χωρὶς εἶναι τοῦ “Τόγου μέχρι τοῦ πεντακισχιλιοστοῦ πενταχοσιοστοῦ ἔτους, ἄλογον 
+
+
+1) Wolfius p. δὅ οὕτως. 2) Wolf. p. 69 σαβελλιανικῆς. 3) Haec enunciatio apud 
+Wolfium p. 60 vitiose omissa est. : 
+a) Jo. 1, Ι, 
+
+
+Deum corporeum monstrosumque vertitur, cujus nulla plane sit existentia. — Ut 
+ergo Patri tres istas tribuerent appellationes, εχ Sabelliana haeresi didicerunt. 
+Itaque confutatio ex titulo, qui in Sabellianos inscriptus est, petenda erit. Quod 
+autem monstrosa Deum suum forma comminiscantur, ex corporea absurdaque 
+specie, quam illi tribuunt, facile potest intelligi. 
+
+ur. Dicunt, Filium et Spiritum sanctum in Patrem rursum, ex quo pro- 
+venerunt, resolvi, ipsumque qui anno abhinc quinquies millesimo quingentesimo 
+trigesimotertio trium fuerit personarum, rursum unius factum esse personae, in- 
+corporeum quidem, sed humama tamen forma praeditum. — Facessat absurda et 
+ab omni prorsus sensu aliena ratio. .Si enim incorporeus est, quomodo forma 
+sit humana praeditus? | p 
+
+IV. Negant Filium et Spiritum sanctum usque ad millesimum et quingen- 
+tesimum annum extitisse, eoque principium extrinsecus suscepisse, ut essent et 
+nominarentur, cum tamen Kvangelista Joannes clara voce tonet, ἐπ principio. 
+inquiens, erat Verbum, et Verbum erat apud Deum, et Deus erat Verbum. lud 
+autem in principio erat Verbum idem est ac si dicas: semper erat Verbum. Quod 
+si Filius semper fuit in Patre, et Spiritus sanetus semper utique fuit cum Filio. 
+Quando verbum quidem a nobis prolatum invenitur nunquam sine spiritu. — Qui 
+autem Patrem sine Filio usque ad anmum quinquies millesimnm quimgentesimur 
+
+
+p de c 
+
+
+αὐτὸν ἄχρε τότε καὶ ἄσοφον xai ἀδύνατον δογματίζουσιν, ἵνω τὰ περὶ TOU ἁγίου 
+Πνεύματος ἐάσωμεν, καὶ τὰς «ἄλλας ἀτοπίας, αἱ τῇ μωρολογίᾳ τούτων ἐπαχο- 
+λουϑοῦσι. 
+
+Ε΄. «“έγουσιν, ὅτε ὁ μὲν Πατὴρ ἐγέννησε τὸν Υἱὸν, ὁ δὲ Υἱὸς ἐγέννησε 1) 
+τὸ Πνεῦμα τὸ ἅγιον, τοῦτο δὲ ἐγέννησε πνευματιχῶς τὸν προδότην 'lovóav xai 
+τοὺς ἕνδεχα ᾿Α“ποστόλους. — Kai προφέρουσι χρῆσιν Εὐυαγγελιχήν. ᾿“΄βραάμ, φη- 
+σιν, ἐγέννησε τὸν loaGx, ᾿Ισαὰχ δὲ ἐγέννησε τὸν ᾿Ιακωβ, ᾿Ιαχὼβ δὲ ἐγέννησε τὸν 
+'"lovóuv καὶ τοὺς ἀδελφοὺς αὐτοῦ 8), περὶ τῆς ἁγίας Τριάδος ταῦτα γεγράφϑαι 
+διατεινόμενο. Πρῶτον μὲν οὖν οὐ μόνον υἱὸν, ἀλλὰ xol υἱωνὸν ἐπεισάγουσι, 
+καὶ ovy υἱωνὸν μόνον, ἀλλὰ xai δώδεχα τρισεγγόνους, ὅσον πρὸς τὸν llarégo. 
+Ἔπειτα εἰ καὶ ἑ Υἱὸς πατὴρ, καὶ τὸ Πνεῦμα τὸ ἅγιον αὖϑις πατὴρ 3), ἰδοὺ 
+τρεῖς πατέρες" xai πῶς ἕνα Πατέρα δογματίζοντες ὁμολογοῦσι; καὶ πάλιν, εἰ 
+τὸ Πνεῦμα «τὸ ἅγιον υἱὸς τοῦ υἱοῦ 3), ἰδοὺ χἀνταῦϑα δύο vioí' καὶ πῶς ἕνα 
+Yiov ἐν τῇ ϑεολογίᾳ τῆς Τρίαδος συνομολογοῦσιν; ἵνα τὸν ᾿Ιούδαν xai τοὺς - 
+ἀδελφοὺς αὐτοῦ χατὰ τὸ παρὸν ἐάσωμεν. 
+
+ς΄. «4έγουσι τὸν Δαίμονα, τὸν παρὰ τοῦ Σωτῆρος ὀνομασϑέντα Σατανᾶν, 
+υἱὸν xai αὐτὸν εἶναι τοῦ Θεοῦ καὶ Πατρὸς, ὀνομαζόμενον Σαταναὴλ, καὶ πρῶ- 
+τον τοῦ Υἱοῦ καὶ “ὄγου, καὶ ἰσχυρότερον, ἅτε πρωτότοχον, ὡς εἶναι τούτους 
+ἀδελφοὺς ἀλλήλων. Μἶναι δὲ τὸν Xaravar?A οἰχονόμον xai δευτερεύοντα τοῦ lla- 
+τρὸς, τὴν αὐτὴν αὐτῷ περικείμενον καὶ μορφὴν xoi στολὴν, xai ἐν δεξιῷ αὐτοῦ 
+
+
+1) Wolf. p. 60 omittit ἐγέννησε. 2) Wolf. 1. c, om. πατήρ. 3) Wolfius per- 
+peram ϑεοῦ. 
+
+
+8) Matth. 1l, 2. 
+
+
+dicunt fuisse, eum ad illud usque tempus rationis usus, sapientiae, potentiae- 
+que fuisse expertem asserunt. t interim de Spiritu sancto taceamus, omitta- 
+musque caetera incommoda, duae stultam istorum opinionem consequuntur. 
+Pater, inquiunt, Filium genuit, et Filius genuit Spiritum. sanctum, 
+hic .autem Judam genuit proditorem et undecim Apostolos. — Et opinionem suam 
+Evangelii confirmant testimonio. Abraham genuit Isaac, Isaac autem genuit Ja- 
+cob, Jacob autem genuit Judam et fratres ejus. — Haec de sancta Trinitate fuisse 
+scripta contendunt. Primum igitur non solum filium, sed nepotem inducunt, nec 
+nepotem modo, sed duodecim genitos !), quantum ad Patrem pertinet. Praeterea 
+si Filius quoque pater est, et Spiritus sanctus rursum pater est, ecce tres pa- 
+tres: quomodo igitur unum Patrem confitentur? Ad haec si Spiritus sanctus est 
+filius Filii, ecce die item duo filii: quomodo igitur unum Filium in saneta Tri- 
+mitate tradunt? Ut nihil in praesentia de Juda icis et fratribus ejus. 
+|: . VI. Dicunt, Daemonem, qui a Servatore appellatus est Satanas, filium 
+esse ipsum quoque Dei Patris, et vocari Satanaél, et Filio Verbo natu majorem 
+esse praestantioremque, utpote primogenitum , fratres igitur esse. — Sed Satanaeél 
+domus esse procuratorem, et secundas post Patrem partes obtinere, eademque 
+stola et habitu indutum esse, et ad ejus dexteram considere in solio, οἱ secun- 
+
+
+1) Recte: abnepotes. 
+
+
+x «10. ..--: 
+
+
+καϑήμενον ἐπὶ ϑρόνον, καὶ τῆς μετ᾽ αὐτὸν εὐθὺς τιμῆς ἀξιούμενον, ὑφ᾽ ἧς με- 
+ϑυσϑέντα xai εἰς ἀπόνοιαν ἐπαρϑέντα μελετῆσαι ἀποστασίαν, καί ποτε δραξαμε- 
+vov καιροῦ χκαϑεῖναι πεῖραν τισε τῶν λειτουργικῶν δυνάμεων, εἰ βούλοιντο χουφι- 
+ξόμεναι τοῦ βάρους τῆς λειτουργίας ἀχολουϑῆσαι τούτῳ καὶ συγχατεξαναστῆναι 
+τοῦ Πατρός. Εἰς πίστιν δὲ τῆς ληρῳδίας ταύτης παραγουσε τὴν ἐν τῷ xara 
+-dovxaàv Εὐαγγελίῳ παραβολὴν τοῦ οἰχονόμου τῆς ἀδικίας 3), τὰ τῶν ὀφειλόντων 
+χρέη μειώσαντος. Τοῦτον γὰρ τὸν Σαταναὴλ εἶναι, καὶ περὲ τούτου γεγράφϑαι 
+τὴν τοιαύτην παραβολήν. Εἶτα τοὺς εἰρημένους ἀγγέλους δελεασϑέντας τῷ xov- 
+φισμῷ τῆς ἐπιπόνου λειτουργίας, καὶ ταῖς ἄλλαις ὑπερόγκοις ἐπαγγελίαις (ϑήσω 
+γάρ, quat, τὸν ϑρόνον uov ἐπὶ τῶν νεφελῶν, xai ἔσομαι ὅμοιος τῷ ᾿Υψίστῳ b)) 
+συναπαχϑῆναι τούτῳ xai χοινωνῆσαι τῆς ἐπιβουλῆς. «Ἰἰσθόμενον δὲ ταύτης τὸν 
+Θεὸν ῥίψαι τούτους ἄνωϑεν ὁμοῦ πάντας.  '() τῆς ἀναιδεστάτης xoi προδήλου 
+μυϑοπλαστίας!Ϊ Εἰ γὰρ φύσει ϑεοῦ υἱὸς ἣν ὁ Σαταναὴλ, ἣν ἂν καὶ φύσει 
+ϑεὸς, xai παντελῶς ἀτρεπτός τε καὶ ἀναλλοίωτος. Ἴδιον γὰρ τῆς ϑείας φύσεως 
+ἡ ἀτρεψία καὶ τὸ ὡσαύτως ἔχειν ἀεί. ᾿Επεὶ δὲ ἐτράπη καὶ ἐξέπεσε xoi ἄνωϑεν 
+χατενήνεχται, οὐχ ἣν φύσει υἱὸς Θεοῦ, ἀλλά τις ἑτέρα γύσις ἀγγελικὴ xai χτιστὴ, 
+x«i διὰ τοῦτο τρεπτή. — Ei δὲ καὶ μονογενής ἐστιν ὁ τοῦ Πατρὸς “όγος, ὡς ὁ 
+Εὐαγγελιστὴς ἐδίδαξεν ᾿Ιωάννης (ἐϑεασάμεϑα yag, φῆσι, τὴν δόξαν avrov, δόξαν 
+ὡς μονογενοῦς παρὰ Πατρὸς €), καὶ πάλιν 1), ὁ μονογενὴς Υἱὸς, ὁ ὧν εἰς τὸν 
+χόλπον τοῦ Πατρὸς, ἐχεῖνος ἐξηγήσατο 4)}" ληροῦσε xoi παραπαίουσιν οἱ λέγον- 
+τες ἀδελφὸν αὑτοῦ τὸν Σαταναὴλ. Εἰ γὰρ εἶχεν ἀδελφὸν, οὐχ ἂν ὠνομάζετο μο- 
+
+
+1) Terg. αὖθις. 
+8) Luc. 16, 1. b) secundum Jes. 11, 13. 14. c) Jo !, 14. d) Jo. 1, 18. 
+
+
+dam labere dignitatem, qua quidem ebrium stulteque sublatum, de defectione 
+cogitasse, arreptaque quondam occasione ministras tentasse Potestates, ut excusso 
+ministerii jugo se sequerentur, et secum in Patrem consurgerent. Εἰ ad istius- 
+modi nugas confirmandas ex Lucae Evangelio parabolam afferunt villici iniquitatis, 
+qui debita minuit debitoribus. Hunc enim esse Satanaél, et de hoc fuisse scriptam 
+eam parabolam. Angelos igitur, quos memoravimus, sperantes se laboriosi mi- 
+nisterii onere levatum iri, ct magnis aliis promissis fuisse deceptos (ponam enim, 
+dicebat, /Aromum meum in nubibus, éf ero similis aliissimo), proditioni igitur et 
+insidüs consensisse. — Qua quidem re animadversa Deum illos e coelo omnes de- 
+trusisse. jen insulsa et manifesta istorum figmenta non rideat? Si enim natura 
+Dei fius Satanael fuisset, fuisset etiam natura Deus, et omnimo immobilis et 
+immutabilis. — Proprium emim est naturae divinae, ut munquam mutetur, sed 
+eodem modo semper se habeat. — Quare quoniam mutatus est et cecidit et e coelo 
+esce est, non erat matura filius Dei, sed aliam habebat naturam,  mempe an- 
+e icam et procreatam, atque ideo mutabilem. — Quod si unigenitus Patris Filius 
+
+erbum, ut Evangelista Joannes docuit, vidimus, inquiens, gloriam ejus, glo- 
+riam quosi Unigeniti a. Patre, et rursum, unigenitus filius, qui esi in sinu Pa- 
+fris, ipse enarravit: nonne mendaces deprehenduntur et impostores, qui fratrem 
+ipsius dicunt esse Satanaél? Si enim fratrem baberet Filius Verbum , unigenitus 
+
+
+— 44 — 
+
+
+γογενὴς ὁ Λόγος. — Et δὲ xoi ἐν ἀρχῇ ἦν ὁ .dóyog, xci ὁ “Λόγος ἦν πρὸς τὸν 
+Θεὸν, καὶ Θεὸς ἦν ὁ “20γος 8) χατὰ τὸν Ευαγγελιστὴν ᾿Ιωάννην, τουτέστιν, ἀεὶ 
+ἦν μετὰ τοῦ Πατρὸς, xoi ἐν τῷ Πατρί" πῶς ἂν ἦν ἕτερος ἀδελφὸς πρὸ αὐτοῦ 
+τοῦ προαιωνίου xoi συνανάρχου τῷ Πατρὶ, καὶ οὗ χωρὶς οὐδέποτε ἦν ὁ Πατὴρ, 
+ἵγα μὴ ἄλογος xci ἄσοφος xai ἀδύνατος εὑρεϑείη; ταὐτὸ 1) γάρ ἐστιν ὁ φύσει 
+Υἱὸς καὶ “όγος αὐτοῦ. ᾿Επεὶ δὲ οὐκ 5v ὁ Σαταναὴλ φύσει υἱὸς ἢ) Θεοῦ, xa- 
+ϑὼς ἀπεδείξαμεν, πάντως οὐδὲ τὴν τοῦ Θεοῦ περιέκειτο μορφὴν καὶ στολὴν, ἵνα 
+παραδράμωμεν εἰπεῖν, ὕτε τῶν σωμάτων xci τῶν συνϑέτων ἐστὶν ἡ στολὴ καὶ 
+περιβολὴ, οὐδὲ ἐν δεξιᾷ τοῦ ϑρόνου τῆς μεγαλωσύνης ἐχάϑητο, οὐδὲ περὶ τούτου 
+ἡ ἐν τῷ xarà “Ἰουχᾶν Εὐαγγελίῳ περὶ τοῦ οἰχονόμου τῆς ἀδικίας ἐξετέϑη πα- 
+ραβολή. 
+
+Ζ΄. «Τέγουσι, τὸν Σαταναὴλ ἄνωθεν ῥιφέντα xoi μὴ δυνάμενον τοῖς ὕδα- 
+σιν ἐφιζάνειν, ἡ γῆ γάρ φῆσιν 5v ἀόρατος καὶ ἀχατασχεύαστος, ἐπείπερ ἔτε καὶ 
+τὴν ϑείαν περιέχειτο μορφὴν καὶ στολὴν, χαὶ τὴν δημιουργικὴν ἐχέχτητο δύναμεν, 
+συγκαλέσαε τὰς συγχαταπεσούσας αὑτῷ δυνάμεις, καὶ ϑάρσος αὐταῖς ἐμβαλεῖν, 
+καὶ εἰπεῖν" ὡς ἐπεὶ τὸν οὐρανὸν xal τὴν γὴν ὁ Θεὸς ἐποίησεν (ἐν ἀρχῇ γάρ φη- 
+σιν ἐποίησεν ὁ Θεὸς τὸν οὐρανὸν καὶ τὴν γῆν Ὁ)}, ποιήσω χἀγὼ δεύτερον οὐρα- 
+νὸν, ὡς δεύτερος ϑεὸς, xoi τὰ ἑξῆς ἀχολούϑως. Καὶ εἶπε, γενηϑήτω στερέωμα, 
+καὶ ἐγένετο᾽ γενηθήτω τάδε xol τὰδε, χαὶ γεγόνασιν ἅπαντα. — Koi χαταχοσμή- 
+σας μὲν τὸν δεύτερον οὐρανὸν, περιξλὼν δὲ τὸ ὕδωρ ἀπὸ προσώπου τῆς γῆς, καὶ 
+
+
+1) Ita scribendum censeo. Terg. ταῦτα. Wolf. p. 77 τοῦτο. 2) Wolf. p. 78 ὃ υἱὸς. 
+
+
+8) Jo. 1, 1. b) Gen. 1, 1. 
+
+
+non appellaretur. — Quod si et in principio erat Verbum, οἱ Verbum erat apud 
+
+, el Deus erat Verbum, πὶ Évaugelista Joannes ait, id est, semper erat 
+cum Patre et in Patre; quomodo alter esse potuit frater ipsius, qui illo esset 
+natu major, qui est ante saecula, et una cum Patre imperat ιν), et sine quo 
+nunquam Pater fuit? Alioquin sine ratione, et sine sapientia, et sine potentia, 
+
+e quidem omnia est natura Filius et Verbum ejus, extitisset. Quoniam igitur 
+datanacl ut demonstravimus, natura non erat filius Dei; nec formam ejus 
+omnino nec stolam habuit, ut omittamus, quod stola et vestis corporibus et rebus 
+compositis convenit, nec in dextera sedit Majestatis, neque ad ipsum pertinet 
+parabola de villico iniquitatis, quae est in Evangelio Lucae. 
+
+VII. Ajunt, Satanaél e sublimibus dejectum, cum aquis non posset insi- 
+dere, quod terra esset invisibilis et incomposita, divinam autem adhuc formam 
+atque habitum haberet et creandi potestatem, Angelos, qui secum ceciderapt, 
+convocasse, et audaciam illis injecisse dixisseque: quoniam Deus fecit coelum 
+et terram (in principio enim, inquit, Deus fecit coelum el terram), faeiam et ego 
+tanquam alter Deus secundum coelum, et reliqua deinceps eodem ordine. — Dixit 
+igitur, inquiunt, fiat firmamentum, et factum est; fiant haec et haec, et facta sunt. 
+
+cum coelum secundum ornaseset, et aquas a facie terrae contraxisset, easque 
+
+
+1) Recte: el cum Patre omnis initié expers. 
+
+
+Ὁ" 
+
+
+--Ῥ 192 —. 
+
+
+τάξας iv οἷς ἐδοκίμασε τόποις, ὡς ἡ τῆς κοσμογενείας 1) βίβλος διέξεισι, καὶ 
+καλλωπίσας αὐτὴν καὶ καϑωραΐσας, καὶ τὰ ἐκ γῆς πάντα φυόμενα δημιουργῆσας, 
+χαὶ τὰ ζῶα, καὶ εἴ τι ἕτερον, ἀπεχλήρωσε ταύτην ἑαυτῷ τε χαὶ ἀποστατιχαῖς δυ- 
+νάμεσιν οἰχητήριον. ἔπειτα πλάσας τὸ σῶμα τοῦ ᾿“'δὰμ ἀπὸ γῆς ὕδατι φυρα- 
+ϑείσης 3), ἔστησεν ὀρϑὸν, ἀφ᾽ οὗ κχαταῤῥεύσασά τις νοτὶς ἐπὶ τὸν δεξιὸν πόδα, 
+xci διὰ τοῦ μεγάλου δακτύλου χεϑεῖσα xarà τοῦ ἐδάφους ἑλιχοειδῶς ἐρῥύη, καὶ 
+σχῆμα ὄφεως ἀπετέλεσεν. ᾿Αϑροίσας δὲ τὸ ἐν ἑαυτῷ πνεῦμα ὁ Σαταναὴλ ἐνέ- 
+πνευσε τῷ πλασϑέντε σώματε ξωὴν, τὸ δὲ ἐξ αὐτοῦ πνεῦμα διὰ χαυνότητα καταῤῥυὲν 
+ἐπὶ τὸν δεξιὸν ὁμοίως πόδα xui διὰ τοῦ μεγάλου δαχτύλου γεϑὲν, εἰς τὴν ἑλικοειδῇ 
+ῥανίδα χατέσχηψεν 3), ἡ δὲ παραυτίχα ζωοποιηϑεῖσα xai ἀποτμηϑεῖσα τοῦ δακτύ- 
+λου γέγονεν Oqig, καὶ ἕίρπυσες. Διὰ τοῦτο γὰρ καὶ φρόνιμον αὐτὸν γενέσϑαε xai 
+γουνεχῆ, ὡς τοῦ ἐμφυσήματος τοῦ Σαταναὴλ εἰς ψυχὴν αὐτῷ χαταστάντος. Ὅπερ 
+ἰδὼν ὁ καινὸς οὗτος δημιουργὸς, καὶ γνοὺς, ὅτε μάτην πονεῖ, διεπρεσβεύσατο 
+πρὸς τὸν ἀγαϑὸν Πατέρα, καὶ παρεκάλεσε πεμῳφϑῆναι παρ᾽ αὐτοῦ πνοὴν, ἐπαγ- 
+γειλάμενος κοινὸν εἶναι τὸν ἄνθρωπον, εἰ ζωοποιηϑῇ 4), καὶ ἀπὸ τοῦ γένους 
+αὐτοῦ πληροῦσϑαι τοὺς ἐν οὐρανῷ τύπους τῶν ἀποῤῥιφέντων 5) "dyyiAov. Τὸν 
+δὲ Θεὸν, ὡς ἀγαϑὸν, ἐπινεῦσαι xai ἐμᾳφυσῆσαι τῷ παρὰ τοῦ Σαταναὴλ πλα- 
+σϑέντι πνεῦμα ζωῆς, καὶ γενέσϑαι nagavtix« τὸν ἄνθρωπον εἰς ψυχὴν ζῶσαν, 
+λαμπρύνασαν τὸ σῶμα, καὶ πολλαῖς αὐτὸ καταφαιδρύνασαν χάρισιν. — Lira τῆς 
+Evag ὁμοίως ἐχεῖϑεν ποιηϑείσης, καὶ rai; ἴσαις ἀπαστραψάσης λαμπρότησι qOo- 
+νῆσαι τὸν Σαταναὴλ, καὶ μεταμεληϑῆναι, καὶ χινηϑῆναι πρὸς ἐπιβουλὴν τοῦ 
+
+
+1) Woif. p. 67 κοσμογονίας. 2) Wolf p. 70 φωραϑείσης. 3) Tergovw. xartxvyer. 
+4) Apogr. Fell. ap. Wolf. p. 71 ζωοποιηϑεὶς. δ) Wolf. 1 c. ἀποῤῥύιᾳ ϑέντων. 
+
+
+suis in locis, ut ei visum est, collocasset, quemadmodum in libro, qui mundi 
+continet proercationem , descriptum est; terram ornavit et decoravit, et omnia 
+fecit, quae nascuntur e terra, et animalia, ct si quid aliud est, camque sibi et 
+aliis potestatibus, quae defecerant, constituit domicilium, — Deinde cum Adam e 
+terra aqua commixta formasset, eum rectum collocavit, ex quo humor quidam 
+in dextrum pedem defluxit, et per magnum digitum effusus in terram se circum- 
+volvit, et serpentis figuram reddidit. — Satanaél vero spiritum. suum colligens in 
+corpus a se conflatum vitam insufllavit. — Sed spiritus ejus per vacnum eimiliter 
+fluens in dexterum pedem, et per magnum PUN in tortuosam stillam coaluit, 
+quae statim vitani accipiens, ct a digito abscedens serpens effecta cst et serpebat. 
+deireo cnim, inquiunt, est prudens δὲ mente praeditus serpens, quoniam Sa- 
+tanaélis insufflatio illi fuit animae loco. Quod novus iste opifex conspicatus, cum 
+animadverteret, sc frustra laborare, legatos misit ad bonum Patrem, qui pete- 
+rent, ut mitteret spiritum suum, promisitque hominem fore communem, sii 
+
+acciperet, et ex genere ipsius repletas iri sedes, e quibus Angcli dejecti fuerant. 
+Deum autem utpote bonum annuisse, insufllasseque Satanaélis figmento spiritum 
+vitae, et continuo factum esse hominem in animam viventem, quae corpus illu- 
+straret et multiplici gratia decoraret. Post autem cum Eva item ex eo fuisset for- 
+mata, eodemque csset affecta splendore, Satanaél invidia commotum sententiam 
+
+
+— 145 — 
+
+
+πλάσματος τοῦ ἰδίου 1), καὶ εἰσρνῆναι roig ἐγκάτοις τοῦ ὄφεως, καὶ ἐξαπατῆσαι. 
+τὴν Εὖαν, καὶ συγγενέσθαι αὐτῇ, καὶ ποιῆσαι ἔγχυον, ἵνα τὸ σπέρμα τούτου 
+προλαβὼν καταχυριεύῃ τοῦ δαμιαίου σπέρματος, καὶ ὡς οἷόν τε διαφϑείρῃ, xci 
+μὴ συγχωρὴ αὐξάνεσθαι καὶ πληϑύυνεσϑωι. Τὴν δὲ ταχέως ὠδινήσασαν ἀπογεν- 
+γῆσαι τὸν Καὶν ἐκ τῆς συνουσίας τοῦ Σαταναὴλ, καὶ ἀδελφὴν δίδυμον ὁμοιότρο- 
+πον, ὄνομα αὑτῇ Καλωμενὰά 3). Ζηλοτυπήσαντα δὲ τὸν ᾿“δὰμ συνελϑεῖν καὶ 
+αὐτὸν τῇ EVe, καὶ γεννῆσαι τὸν ᾿Αβὲλ, ὃν ἀνελὼν εὐϑὺς ὁ Καὶν τὸν φόνον 3) 
+εἰς τὸν βίον εἰσήγαγε. διὰ τοῦτο xci τὸν ᾿Δπόστολον ᾿Ιωάγννην εἰπεῖν, ὅτε ὁ Καὶν 
+ἐκ τοῦ πονηροῦ ἣν ἃ). Τοῦ Σαταναὴλ μέντοι συμῳφϑαρέντος ἀσελγῶς τῇ Evq διὰ. 
+μέσου τοῦ ὄφεως, ἀφαιρεϑῆναι ἀπ᾿ αὐτοῦ τὴν ϑείαν αὐτίχα xai στολὴν καὶ μορ- 
+φὴν, καὶ τὴν δημιουργικὴν, ὡς εἴρηται, δύναμιν, καὶ τὴν τοῦ ϑεοῦ προσηγο- 
+ρίαν. Θεὸν γὰρ ἄχρι τότε καὶ αὑτὸν ὀνομάζεσϑαι, χαὶ γυμνωϑέντα τούτων ἁπάν- 
+των σχοτεινὸν γενέσθαι καὶ δυσειδῆ. Tov δ᾽ ἀγαϑὸν Πατέρα μέχρε τούτου στή- 
+σαντα τὴν ὀργὴν, ἀφεῖναι τοῦτον χοσμοχράτορα καὶ χύριον, ὧν αὐτὸς ἐδημιούρ- 
+γησε πεσὼν ἄνωϑεν. Ταῦτα μὲν ἐχείνων τὰ μυϑιχα. ᾿Αλλὰ πῶς ovx ἠδύνατο 
+τοῖς ὕδασιν ἐφιζάνειν; μάλλον δὲ ἐπεὶ τὸ ἐφιξζάνειν σωματός ἐστι, πῶς ovx ηδύ- 
+varo μετὰ τῶν συναποστατιχῶν δυνάμεων ἔχειν τὸ ὕδωρ ἐνδιαιτητήριον; χαὶ .γὰρ 
+καὶ νῦν ὕδασιν ἐνδιαιτῶνται, καὶ πηγαῖς, xai ποταμοῖς, καὶ λίμναις, καὶ ϑα- 
+λάσσαις, xci καταχϑόνιοι μένουσιν, ὡς πνεύματα GUÀa, πολλῷ τῶν ἀνεμιαίων 
+πνευμάτων ἀὐλότερα. Εἰ δὲ xai φύσει Θεοῦ υἱὸς "v, ἰσοσϑενὴς ἂν ἣν τῇ φύσει 
+
+
+1) Wolf. p. 73 τοῦ idiov πλάαματος. 2) Ita Cod. Vienn. 270. Tergov. et Wolf. p. 73. 
+In Methodii Patr. Constant. revelationibus (Orthodoxograph. ann. 1569. T. I. p. 93.) 
+vocatur Καλήμερα, latinus earum interprea habet Caímana. 3) Apogr. Fell. φόβον. 
+Zinus legit φϑόνον. 
+
+
+ἃ) 1 Jo. 3, 12. 
+
+
+mutasse, et ad insidias proprio figmento struendas se convertisse, et serpen- 
+tis visceribus influentem decepisse Evam, et cum illa consuetudinem habuisse, 
+ut ea uterum gerente semen ipsius semini Ádam anteiret, ct quoad fieri posset 
+illud corrumperet, nec augeri multiplicarique permitteret. Sed Evam mox dolo- 
+ribus partus affectam peperisse Cain ex concubitu Satanaélis, et sororem ei simi- 
+lem, cui nomen fuit Calomena; Adam vero aemulatione commotum rem ipsum 
+queque habuisse cum Eva, et Abel suscepisse, quem statim interficiens Cain 
+invidiam in vitam intulit. — Ideoque Joannem Apostolum dixisse, quod Cain ex 
+maligno erat. ^ Caeterum cum Satanaél impudice cum Eva per serpentem corrum- 
+
+retur, divina fuisse statim privatum forma ac vestimento, et creandi facultate, 
+et Dei appellatione, quibus ademptis rebus tenebricosum atque omnibus invisum 
+evasisse. — Sed bonum Patrem sic iracundiam temperasse, ut permitteret, eum 
+auctorem δὲ dominum corum esse, quae ipse c sublimibus cadens condiderat. 
+Istiusmodi sunt ipsorum fabulae. — Verum cur non potuit aquis insidere? imo 
+vero, quando corpora quoque insident aquis, cur ipse una cum defectricibus 
+illis potestatibus proprium non habuit in aquis domicilium? quandoquidem nunc 
+etiam in aquis habitant et in fontibus, et in mari, et in locis subterraneis, cum 
+a materia longius absint, quam ipsi ventorum flatus. — Quodsi Satanaél natura 
+
+
+.- 44 uu 
+
+
+Πατρὶ, καϑιάπερ xoi ὁ μονογενὴς Υἱὸς, ὁ λέγων, ἐγὼ xai ὁ Πατὴρ ἕν ἐσμεν 3), 
+καὶ αὖϑις, 0 ἑωρακὼς ἐμὲ ἑώρακε τὸν Πατέρα P), xai πάλιν, ὅσα ἔχει ὁ Πατὴρ, 
+ἐμά ἐστι 9), xoi αὖϑις, εἰ οὐ ποιῶ τὰ ἔργα τοῦ Πατρός μου, μὴ πιστεύετέ μοι 4). 
+᾿Ισοσϑεγῆς δὲ ὧν ἀντέστη ἂν, ἐπειδὴ καὶ ὅλως ἀποστασίαν ἐμελέτησε 1), καὶ ovx 
+ἂν οὕτω ῥαδίως κατεβλήϑη. Πῶς δὲ καὶ ῥιφρεὶς εἶχεν ἔτε τὴν τοῦ ϑεοῦ μορφὴν, 
+καὶ στολὴν, καὶ τὴν δημιουργικὴν αὐτοῦ δύναμιν; ἔδεε γὰρ αὐτὸν πρότερον γυμνω- 
+ϑῆναι τούτων, εἶτα καταῤρῥιφῆναι. ᾿Απιϑάνου δὲ τοῦ μέρους τούτου φανέντος 
+x«i γυμνοῦ πάσης ἀληϑείας, ἀκολούϑως καὶ τὰ ἀχόλουϑα τούτῳ ψευδὴ φαίνον- 
+ται xci ἀσύστατατ. Σχοπητέον δὲ, πῶς ix τῆς ἀϑετουμένης αὐτοῖς Μωσαΐϊκῆς 
+βίβλου παράγουσι μαρτυρίαν, ὅτι ἐν ἀρχῇ ἐποίησεν ὁ Θεὸς τὸν οὐρανὸν xai τὴν 
+γὴν δ). Τὸ δὲ δογματίξειν, ὅτι ὁ Σαταναὴλ ἐδημιούργησε τὸ στερέωμα, καὶ ὅτι 
+συνήγαγε τὰ ὕδατα εἰς τὰς κατασχευασϑείσας αὐτοῖς συναγωγὰς, καὶ ὅτι χατε- 
+χύσμησε τὸ στερέωμα xoci τὴν γῆν, καὶ τὰ ἐρεξῆς ἅπαντα μέχρι τοῦ εἰς τὸν πρω- 
+τόπλαστον ἐμφυσήματος, ix τῆς Μωσωϊκῆς μὲν χοσμογενείας 3) ἐσυλήϑησαν" τῷ 
+Σαταναὴλ δὲ ἀνέϑεντο τὴν τούτων δημιουργίαν οἱ Βογόμιλοε, τῷ δόγματι τῶν 
+Παυλικιάνων ἀχολουϑοῦντες. ᾿Ιιχεῖνοι γὰρ τῷ Πονηρῷ οὐ μόνον τὴν τούτων 
+δημιουργίαν ἀπονέμουσιν, ἀλλὰ καὶ τὴν τοῦ πρώτου οὐρανοῦ καὶ τῆς γῆς, καὶ 
+ἁπλῶς εἰπεῖν, ἁπάντων τῶν ἐγχοσμίων. Καὶ ζήτησον ἐν τῷ xarà τῶν Παυλι- 
+κιάνων Τίτλῳ τὰ κεφάλαια, οἷς ἐπιγέγραπται, ὅτε ov δύο ἀρχαὶ, ἀλλ᾽ εἷς δη- 
+μιουργὸς οὐρανοῦ καὶ γῆς; καὶ τῶν ἐν μέσῳ" καὶ εὑρήσεις ἐν ἐκείνοις τὰς προς- 
+φόρους ἀνατροπὰς, ὅσαι τῷ παρόντι τῶν Βογομίλων δόγματι προσαρμόζουσιν. 
+
+
+1) ᾿Ισοσϑενὴς — ἐμελέτησε deest apud Wolfium p. 69. 2) Wolf. p. 69 κοσμογονείας. 
+a) Jo. 10, 30. b) Jo. 14, 9. c) Jo. 16, 185. d) Jo. 10, 37. e) Gen. 1, 1. 
+
+
+fuisset filius Dei, potentia patri suo par extitisset, quemadmodum et unigenitus 
+Filius, qui dicit: ego e£ Pater unum sumus; et rursum: | omnia quae Pater ha- 
+bet mea sunt; et rursum: qui vidit me, Patrem vidit; et rursum: nisi facio 
+opera Patris mei, ne in me credite. — Quodsi potentia par extitisset, quamvis de 
+defectione omnino cogitasset, haud facile dejectus esset. —Dejectus autem Dei 
+formam atque habitum et procreandi potestatem non retinuisset. — His enim prius 
+illum spoliari V Sidi deinde expelli. — Quare cum pars horum absurda et ab 
+omni veritate aliena perspicue sit; constat, et ea quae consequuntur plane falsa 
+esse, nec ullo modo posse consistere. — Nec illud negligendum est, quod ex 
+Mosis libro, quem improbant, testimonium illud proferunt: ἐπ principio fecit 
+Deus coelum et terram. Nam quod Satanaél firmamentum fecisse dicunt, et aquas 
+in loca ipsis parata congregasse,  ornaeseque firmamentum et terram, et quae se- 
+uuntur omnia usque ad hominis formationem et insufilationem in eum, ex Mosis 
+bro , in quo mundi procreationem enarrat, surrepta sunt a Bogomilis, qui Pau- 
+lieianorum opinionem sequentes opificium eorum Satanaéli tribuerunt. llli enim 
+non solum aliarum rerum, sed etiam primi hominis, et terrae, et omnium quae 
+in mundo sunt procreationem Malo adscribunt. Quaere in Titulo adversus Pauli- 
+ciamos capita, quae inscripta sunt: Non esse duo principia, sed unum auctorem 
+eoeli εἰ terrae, et eorum quae in medio sunt; et in illis invenies varias ra- 
+tiones, quibus haec Bogomilorum opinio confutari facile queat. [δὲ rursum 
+
+
+, — 45 — 
+
+
+Ὅτε δὲ οὐδὲ τὸ σῶμα τοῦ πρωτοπλάστουν δημιούργημα 1) τοῦ Σαταναήλ ἐστιν, 
+ἐκεῖ πάλιν σαφῶς εὑρήσεις ἐν τοῖς ἐφεξῆς κεφαλαίοις, οἷς ὁμοίως ἐπιγέγραπται, 
+ὅτε εἷς δημιουργὸς τοῦ σώματος καὶ τῆς ψυχῆς, ἤτοι τοῦ ἀνθρώπου. Τὴν γὰρ 
+κατὰ τὸν ὄφιν μυϑολογίαν αὐτῶν παρήσομεν, ὡς γέλωτος μᾶλλον ἢ ἀντιῤῥήσεως 
+ἀξίαν. Διὰ τίνος δὲ μεσίτου καὶ τὴν πρὸς τὸν ἐπιβουλευϑέντα Πατέρα xci Θεὸν 
+ἐποιήσατο πρεσβείαν ὁ καταῤῥαγεὶς ἐχϑρός; Οὺὐδεὶς μὲν γὰρ ἐκ τῶν συναποστάν- 
+των αὐτῷ ταύτην ἂν ἐτόλμησεν. ὑποστῆναι, xci αὖϑις οὐδεὶς τῶν παρὰ TQ ϑεῷ 
+λειτουργικῶν ᾿“4γγέλων ἡϑέλησε μεσιτεῦσαι τῷ καὶ τούτων 2) ἐχϑρῷς Πῶς δὲ καὶ ὁ 
+ἀγαθὸς Θεὸς ἐπλήρωσεν ἂν τὴν αἴτησιν τοῦ δυσμενοῦς, τὴν περὶ τοῦ καταπέμψαι 
+πρὸς τὸ δι’ αὐτοῦ πλασϑὲν σῶμα ψυχὴν, ὥστε εἶναε τὸν ἄνϑρωπον κοινόν; tig 
+γὰρ κοινωνία φωτὶ πρὸς σχότος; τίς δὲ συμφώνησις Θεῷ πρὸς Βελίαρ; Πῶς 
+δ᾽ ἂν xai 0 Σαταναὴλ ἀσώματος ὧν σωματικῶς τῇ EUg συνεγένετο, εἰ μήπου 
+κατὰ φαντασίαν εἴποι τις; Εἰ δὲ κατὰ φαντασίαν, πῶς ἂν ἐπαιδοποίησεν ἐξ αὖ- 
+τῆς; Πῶς δὲ 0 Καὶν υἱὸς αὐτοῦ γεγονὼς οὐκ αὐτῷ ἣν ἶσος καὶ ὅμοιος, ἀλλὰ τῷ 
+᾿4δάμ; πᾶν γὰρ γέννημα ἶσον καὶ ὅμοιον τῷ γεγεννηκότι xarà τὴν φύσιν 3) ἐστὶν, 
+ὁ δὲ ᾿Απόστολος ᾿Ιωάννης εἶπεν, ἐκ τοῦ πονηροῦ εἶναι 4) τὸν Καὶν, οὐχ ὡς ἐκ 
+τοῦ πονηροῦ σωματικῶς γεννηθέντα, ἀλλ᾽ ὡς τὴν κακίων ἐξ ἐκείνου μεμαϑηχότα. 
+IloAÀexig γὰρ τέχνον λέγεται xai ὁ μαϑητὴς, καὶ πατὴρ αὖϑις ὁ διδάσκαλος. 
+Ἐπεὶ δὲ οὐδενὸς τῶν ἐγχοσμίων χτισμάτων ἀπεδείχϑη 5) δημιουργὸς ὁ Σατανᾶς, 
+ὡς ἐν τοῖς κατὰ τῶν Παυλικιάνων κεφαλαίοις ἀναγέγραπται, πρὸς ἃ πρὸ μιχροῦ 
+παρεπέμψαμεν 9), οὐδενὸς ἄρα τῶν ἐν τῷ κόσμῳ χτισμάτων χοσμοχράτορα καὶ 
+
+
+1) Wolf p. 72 τὸ δημιούργημα. 2) Wolf. τούτῳ. 3) Wolf κατὰ vow. 4) Terg. 
+omisit εἶναι. 5) Tergov. ἐδείχθη. 6) Tergov. προεπέμψαμεν. 
+
+
+aperte deprehendes in capitibus subsequentibus, quae similiter inscripta sunt, 
+unum esse corporis et animae auctorem. Nam &bulam de serpente ab ipsis con- 
+fectam, ut risu potius quam confutatione MM: omittemus. —. Quem porro le- 
+gatum misit ad Patrem et Deum, quem insidiis petieret, ipse jam hostis decla- 
+ratus? Nemo enim eorum, qui simul defecerant, co munere fungi ausus csset, 
+et nemo rursum Angelorum Deo ministrantium eam provinciam cepisset, «ut ei 
+hostem ipsius et suum reconciliaret. Αἀ haec quomodo bonus Deus inimico con- 
+sensisset postulanti, "ut animam in corpus a se formatum demitteret, ut homo 
+communis foret? — Quae enim communio luei cum tenebris? aut qui consensus 
+Deo eum Belial? Jam quomodo Satanaél corporis expers ratione corporea eum 
+Eva eoneubuit? Per visumne? At si per visum !), quomodo ex illa filios pro- 
+creavit? Amt eur Cain filius ejus non ipsi par et similis fuit, sed Adam? . Omnis 
+euim proles geniteri natura par et similis est. Nam qnod Joannes Apostolus di- 
+xit, Cain ex malo fuisse, non 60 spectant haec veibà quod corpore ab illo 
+fuerit procreatus, sed quod ab illo malitiam didicerit. Saepe enim et discipulus 
+vecatur filius, et magister pater. — Verum quoniam nollius rerum procreatarum, 
+quae in mundo sunt, auctor est Satanas, ut in illis capitibus adversus Paulicianos 
+scriptis,» ad quae paulo ante lectorem rejecimus , demonstratum est, constat, 
+
+
+J) Wecte: Num corpore simulato? At δὲ corpore simulato, — 
+
+
+— 16 — 
+
+
+κύριον αὑτὸν ὁ Θεὸς κατέστησεν. —4AÀ ind πολυσήμαντον ὄνομα τοῦ χόσμηυ 
+πέφυχεν, ἕν δὲ τῶν σημαινομένων ἐστὶ καὶ ἡ κοσμικὴ καχία καὶ μοχϑηρία, περὶ 
+ἧς ὁ Κύριος ἔλεγε πρὸς τοὺς μαϑητὰς, ὕτι εἰ ἐκ τοῦ κόσμου ἦτε, ὁ χόσμος ἂν 
+τὸ ἴδιον ἐφίλει 9), ταύτης καὶ μόνης ὀνομάζεται κοσμοχράτωρ αὐτὸς, τὴν καχίαν 
+ταύτην δημιουργήσας τὴ τοῦ καλοῦ φυγῇ, καὶ δι᾿ αὐτῆς ἄρχων καὶ κυριεύων τῶν 
+ὑπ᾽ αὐτῆς δελεαξζομένων, καὶ ὑποταττομένων ἑχουσίως αὑτῷ. 
+
+H'. 4éyovow, ὅτε τῶν ἀνθρώπων πιχρῶς τυραννουμένων xai ἀπηνῶς ἀπολ- 
+λυμένων μόγις ὀλίγοι τινὲς τῆς τοῦ πατρὸς 1) μερίδος ἐγένοντο, xoi εἰς τὴν τῶν 
+᾿“γγέλων τάξιν ἀνέβησαν 3). Τούτους δὲ εἶναε τοὺς ἐν ταῖς γενεαλογίαις τοῦτε 
+κατὰ Ματϑαῖον Εὐαγγελίου, καὶ τοῦ κατὰ “ουχᾶν μνημονευομένους. ᾿Οψέ ποτε 
+δὲ συνῆκε χατασοφισϑεὶς ὁ Πατὴρ, καὶ ἀδικεῖσϑαι γνοὺς, ὅτε τὸ τιμιώτερον 
+μέρος τοῦ ἀνθρώπον δοὺς, τὰ καιριώτατα 8) συντελέσας εἰς τὸν ἀπαρτισμὸν αὖ- 
+τοῦ, πολλοστημόριον 4) ἀποφέρεται 5) τοῦ γένους, καὶ ἅμα κατελεήσας τὴν ψυ- 
+χὴν, τὸ ἴδιον ἐμφύσημα, πάσχουσαν οὕτως ἀϑλίως καὶ καταδυναστευομένην, δια- 
+γαστῆναι πρὸς ἄμυναν, καὶ ἐν τῷ πεντακισχιλιοστῷ πενταχοσιοστῷ ἔτει ἐξερεύξα- 
+σϑαι 9) τῆς ἑαυτοῦ καρδίας λόγον, τοῦτον δὲ τὸν Υἱὸν xai Θεόν. ᾿Βξηρεῤξατο ?) 
+γάρ, φῆσιν, ᾿ ῇ καρδία μου λόγον ἀγαϑὸόν ὃ). Τοῦτον δὲ τὸν “όγον καὶ Υἱὸν 
+ἰσχυρίζονται είναι τὸν “ρχαγγελον MiyorA' καλεῖται yoQ, φησι, τὸ ὄνομα αὐτοῦ 
+μεγάλης βουλῆς ““γγελος *)' ᾿Αρχάγγελον μὲν χαλούμενον, ὡς ϑειότερον ὅλων 
+
+
+1) Ita Terg. et Zinus. —  Apogr. Fell. apud Wolfium p. 61 habet σωτῆρος. 2) ἀνέ- 
+βησαν deest apud Wolfium. 3) i. 4. πυριώτατα cf. Stephani thes. 5. v. καίριος. 4) 
+on p. 61 πολυστημόριον. 6) Terg. ἀποφαίνεται. 6) Wolf. é&otvcacÓa:. 7) Wolf. 
+Eyotvcaro. 
+
+
+a) Jo. 15, 19. b) Psalm. 45, 1. sec. LXX. c) Jes. 9, 6. sec. LXX. 
+
+
+eum nullius rei, quae iu mundo sit, dominum a Deo fuisse constitutum. — Sed 
+quoniam vocabulum hoc, mundus, multiplex est, et significat etiam malitiam 
+et nequitiam, quae in mundo est, de qua Dominus ad discipulos loquens intel- 
+lexit, si ex mundo, inquiens, essetis, mundus quod. suum est, diligeret; istius 
+solius dominus appellatur: ipsc enim ab honesto recedens malitiam peperit, et 
+per ipsam princeps ac dominus eorum constituitur, qui ab illa decepti, ei sese 
+ultro subjiciunt. 
+
+II. Dicunt, cum homines acerbo Daemonum dominata premerentur, 
+erudeliterque perderentur, vix paucos ex parte Patris extitisse, et in Angelorum 
+ordinem adscendisse, eos nimirum, qui in genealogus Evangelii secundum 
+Matthaeum et secundum Lucam recensentur. — Tandem autem aliquando Patrem, 
+se decipi atque injuria affici, animadvertisse, qui cum praestantiorem hominis 
+partem tribuisset, in eoque perficiendo, quae praecipuae sunt partes, absolvis- 
+set, majore tamen geueris hominum numero privaretur, animamque commisera- 
+tus, quam ipse insufHasset, quae tam misera servitute aflligeretur, ad ejus ul- 
+tionem anno quinquies millesimo quingentesimo ex corde suo Verbum eructasse, 
+id cst, Filium et Deum. — Scriptum est enim:  eructavit. cor meum verbum bo- 
+num. Hoc autem Verbum et Filium Michaélem Archangelum esse contendunt: 
+vocabitur enim, inquit, nomen ejus magni consilii Angelus; Archangelum vocari, 
+
+
+— 47 — 
+
+
+τῶν ᾿4γγέλων, ᾿Ιησοῦν δὲ, ὡς πᾶσαν νόσον καὶ πᾶσαν 1) μαλαχίαν ἰώμενον, 
+Χριστὸν δὲ, ὡς χρισϑέντα τὴ σαρχί. Κατελθϑεῖν δὲ ἀνωϑὲν xci εἰσρυῆναι διὰ 
+τοῦ δεξιοῦ ὠτὸς τῆς παρϑένου, xoi περιϑέσϑαι σάρχα, τῷ φαινομένῳ μὲν ὑλι- 
+κὴν καὶ ὁμοίαν ἀνθρώπου σώματι, τῇ δ᾽ ἀληϑείᾳ ἀὔλον καὶ ϑεοπρεπῇ, καὶ ἐξελ- 
+ϑεῖν αὖϑις, ὅϑεν εἰσῆλϑε, τῆς παρϑένου μήτε τὴν εἴσοδον αὐτοῦ γνούσης, μήτε 
+τὴν ἔξοδον, ἀλλ᾽ ἁπλῶς εὑρούσης αὑτὸν ἐν τῷ σπηλαίῳ κείμενον ἐσπαργανωμένον. 
+Καὶ τελέσαι τὴν ἔνσαρκον οἰχονομίαν, καὶ ποιῆσαι καὶ διδάξαι τὰ ἐν τοῖς δυαγ- 
+γελίοις ἀναταττόμένα, πλὴν ἐν φαντασίᾳ τοῖς ἀνθρωποπρεπέσιν ὑποχείμενον πά- 
+ϑεσι, σταυρωϑέντα δὲ καὶ ἀποϑανεῖν, χαὶ ἀναστῆναι, δόξαντα λῦσαι τὴν σχὴη- 
+γὴν καὶ γυμνῶσαι τὸ δρᾶμα, καὶ ἀποϑέμενον τὸ προσωπεῖον συσχεῖν τὸν ἀπο- 
+στάτην, καὶ παχεῖ xai βαρεῖ χλοιῷ καταδῆσαι καὶ ἐγχλεῖσαν τῷ ταρτάρῳ, περι- 
+ἑλόντα xoi ἐκ τοῦ ὀνόματος αὐτοῦ τὸ 5À, ὡς ἀγγελικόν. Σαταναὴλ γὰρ καλού- 
+μένον Σατανᾶν ἀφῆκεν ὀνομαζεσϑαι. Καὶ λοιπὸν πληρώσαντα τὴν 32) ἐγχειρι- 
+σϑεῖσων διακονίαν ἀναδραμεῖν εἰς τὸν Πατέρα, καὶ καϑίσαι ἐν δεξιᾷ εἰς τὸν ϑρό- 
+voy τοῦ ἀποῤῥιφέντος Σαταναὴλ, εἶτα εἰσελθεῖν, ὅϑεν ἐξῆλϑε, καὶ ἀναλυϑῆναι 
+πάλιν εἰς τὸν Πατέρα, εἰς ὃν ἐν ἀρχῇ ἦν 3), τῇ γαστρὶ τούτου συγκεκλεισμένος. 
+᾿4λλ᾽ ἱτέον ἡμῖν πρὸς τὸν ἔλεγχον. τῶν ἐν τοῖς ἤδη ῥηϑεῖσιν ἀτοπημάτων. Πρῶ- 
+τον μὲν οὐ πάντες οἱ μνημονευϑέντες ἐν ταῖς γενεαλογίαις τῶν Ζ'υαγγελιστῶν, τοῦτε 
+Ματϑαίου xai τοῦ “ουκᾶ, ϑεοφιλεῖς ἦσαν, ἀλλὰ πλὴν ὀλίγων οἱ λοιποὶ παντά- 
+πασιν ἀδόχιμοι xoi δυσσεβεῖς xoi παράνομοι. καὶ τοῦτο δῆλον ἀπὸ τῶν βίβλων, 
+αἵ τοὺς βίους αὑτῶν ἀναγράπτους ἔχουσιν. Εἰ γὰρ καὶ ἀϑετοῦσι ταῦτας οἱ Βο- 
+
+
+1)ὴ πᾶσαν om. Tergov. 2) Terg. om. τὴν. 3) Terg. om. ἤν. 
+
+
+quod Angelis omnibus antecellat, Jesum autem, quod omnem morbum, omnem- 
+que dolorem curet, Christum vero, quod unctus sit carne. —Descendisse de 
+coelis, et per aurem virginis dexteram influxisse, carnem induisse, quae ad- 
+spectu quidem videatur ex materia constare, et humani corporis esse similis, cum 
+tamen revera materiae sit expers ac divina. — Rursum autem egressum esse per il- 
+lam partem, per quam introierat, virgine nec introitum ipsius nec exitum sen- 
+tiente: simpliciter enim eum in spelunca jacentem et pannis involutum reperisse. 
+Ac dispensationem quidem in carne peregisse, fecisseque et docuisse ea, quae 
+in Evangeliis continentur, specie tamen et opinione duntaxat fuisse humanis af- 
+fectionibus obnoxium, et cum videretur crucifigi, ct mori, et resurgere, scenam 
+solvisse, et fabulam patefecisse, depositaque persona confudisse desertorem, et 
+crassa gravique catena vinctum in Tartaro includes ademisseque illius nomini 
+syllabam εἰ, ae est angelica, permisisseque, ut non Satanaél, sed Satana 
+nominaretur. xpleto autem ministerio, propter quod venerat, ad Patrem re- 
+vertisse, et ad illius dexteram assidere in solio, ex quo Satanaél fuerat ejectus. 
+Deinde illuc introisse, unde exierat, et in Patrem iterum fuisse resolutum, in 
+quo quidem Patre initio erat, utero ipsius conclusus. Sed jam nobis accedendum 
+est.ad istorum ineptias eonfutandas. — Primum non omnes, qui commemorantur 
+in gencalogiis Matthaei et Lucae Evangelistarum, grati fuerunt Deo, quin etiam 
+multi omnino improbi, et injusti, .atque unpii, ut ex libris, qui vitas eorum 
+continent, intellgi potest. Quos quidem libros licet rejiciant. Bogomili, non 
+
+
+à 
+
+
+— 148 — 
+
+
+γόμιλοι, ἀλλ᾽ οὐκ ἂν ἔχοιεν εἰπεῖν, ὅτι dq ἑτέρων oi Εὐαγγελιστωὶ τὰς τούτων 
+ἐποιήσαντο μνήμας. Καὶ πῶς, ὧν ἦν ὃ βίος ἀνάξιος καὶ τῆς γῆς, εἰς τὸν 
+οὐρανὸν ἀναβάντες τοὺς τόπους ἐχληρώσαντο τῶν ἀποπεσόντων ἀγγέλων; Πῶς δὲ 
+καὶ ὀψέ ποτε συνῆχε χκατασοφισϑεὶς ὑπὸ τοῦ Σαταναὴλ ὁ πᾶντα εἰδὼς πρὶν γενέ- 
+σεως αὐτῶν; Ἵνα δὲ καὶ ἐφεξῆς παραδράμωμεν μιχρὰ 1) οὐδὲν λυμαινόμενα τῇ 
+ἀληϑείᾳ, εἰ ἐν τῷ πεντακισχιλιοστῷ πεντακυσιοστῷ ἔτει τὸν “όγον xoi Υἱὸν ἐγέν- 
+γησεν o Πατὴρ ἢ) κατὰ τὴν ϑείαν καὶ ἀπόῤῥητον γέννησιν, πῶς ὁ ᾿Απόστολος 
+᾿Ιωάννης xéxgaysv ἐν ἀρχῇ ἣν ὃ “όγος, καὶ ὁ Αόγος ἣν πρὸς τὸν Θεὸν, καὶ 
+Θεὸς ἦν ὁ .doóyog 8); Πῶς δὲ καὶ" πάντα δι’ αὐτοῦ ἐγένετο, καὶ χωρὶς αὑτοῦ 
+m » T «a , b € € YN , ys - a PT ἢ 
+
+ἐγένετο οὐδὲ ἕν, ὃ γέγονεν D), ὡς ὁ αὐτὸς πάλιν φησί; Πῶς δὲ xoi ὁ ᾿Α΄πόστο- 
+Aog Παῦλος ἔλεγεν, ὅτι δι’ αὐτοῦ καὶ τοὺς αἰῶνας ἐποίησεν €) ὁ Πατήρ;  'Ex- 
+πλήττομαι δὲ καὶ τὸ ὑπερβάλλον τῆς ἐφεξῆς ἀνοίας αὐτῶν. Πῶς οὐκ ἐρυϑριῶσι 
+λέγειν τὸν ᾿Αρχαγγελον Μιχαὴλ φύσει υἱὸν τοῦ Θεοῦ, καὶ τοῦτον εἶναι τὸν ἐναν- 
+ϑροωπήσαντα Αυριον, τὸν xoci τὴν τῶν ἀνθρώπων ἐργασάμενον σωτηρίαν; Εἰ 
+γὰρ ὃ ᾿Αρχάγγελος Μιχαὴλ κτιστὸς ?) xai δοῦλος, ὥσπερ καὶ πᾶσαι αἱ οὐράνιαι 
+δυνάμεις, πῶς φύσει υἱὸς καὶ τῷ Πατρὶ ὁμοούσιος; εἰ μὴ καὶ τὸν Πατέρα χτυ- 
+στὸν εἴποιεν καὶ ἑαυτοῦ δοῦλον, 0 xoi παράδοξον xoi μαχόμενον. ᾿Ὀνομάζεταε 
+δὲ μεγάλης βουλὴς “γγελος ὁ φύσει Υἱὸς, ἤγουν ὁ Κύριος ἡμῶν ᾿Ιησοῦς Χριστὸς, 
+ὅτι ὥσπερ ὁ ἀνθρώπινος λόγος ὁ προφοριχὸς ἐξαγγέλλει τὰ. τοῦ γεννήσαντος αὐτὸν 
+νοῦ κινήματα, οὕτω καὶ οὗτος ἀπήγγειλε τοῖς μαϑηταῖς τὴν μεγάλην τοῦ Πατρὸς 
+avrov βουλὴν, ἤτοι τὲ τῆς ἐνανθρωπήσεως αὐτοῦ μυστήριον, xci τὰς εὑὐαγγεέλι- 
+
+
+1) Wolf. p. 65. perperam πῶς ὁ πατὴρ -- 2) Wolf. p. 65. perperam χτιστῆς, 
+8) Jo. 1, 1. b) Jo 1,93. c) Hebr. 1, 2. 
+
+
+tamen possunt dicere,  Evangelistas aliis ex libris ipsorum nomina depromeisse. 
+Quomodo igitur quorum vita vel ipsa terra fuit indigna, ii in coelum adscenden- 
+tes ea sortiti sunt loca, ex quibus Angeli deciderant? — Praeterea quomodo is, 
+qui omnia novit, non nisi sero sc a Satanaéle xoci animadvertit? — Ac ne ain- 
+gula, εἰ quae nihil aut parum officiunt veritati subtilius persequamur, si anno 
+guaquies millesimo quingentesimo Verbum et Filium divina et arcana generatione 
+ater genuit, quomodo Joannes Apostolus clamat: ἐπ principio erat Verbum, et 
+Verbum erat apud Deum, et Deus erat Verbum? Item quomodo omnia per ipsum 
+facta sunt, et sine ipso ne unum quidem factum est, ut idem ait? Cur et A 
+stolus Paulus per ipsum dixit et saecula Patrem fecisse? | Nam quod Michaélem 
+Archangelum natura dicunt esse filium Dei et dominum, qui homo factus salutem 
+humanam executus est, incredibilem ipsorum impudentiam admiror. Si enim 
+Micbaél Archangelus creatus est et servus, ut reliquae item omnes coelestes 
+testates, quomodo natura filius et ejusdem essentiae cum Patre? — Nisi forte Pa- 
+trem quoque ereatum, εἴ sui ipsius servum esse dicant, quod quidem absurdum 
+est sibique repugnans. — Appellatur autem magni consili Angelus ipse Filius na- 
+turalis et Dominus noster jenes Christus, quoniam, quemadmodum hominis ver- 
+bum, quod ore profertur, mentis, unde-*profectum est, motus enunciat, sic 
+et Verbum Dei discipulis suis magnum Patris consilium , sive humanitatis a se 
+
+
+τὰ: AO — 
+
+
+κὰς ἐντολὰς, καὶ τὴν δι’ αὐτῶν σωτηρίαν τῶν πιστευόντων. Διὸ καὶ ἔλεγεν, ὅτι 
+ἀπ᾽ ἐμαυτοῦ λαλῶ οὐδὲν, ἀλλ᾽ ὅσα ἂν ἤχουσα παρὰ τοῦ Πατρὸς, ταῦτα ἀπαγ- 
+γέλλω ὑμῖν 9). ᾿Αποδειχϑέντος δὲ λοιπὸν, ὅτι δοῦλος μὲν ὁ "Aoyayytlog Μιχαὴλ, 
+δεσπότης δὲ ὁ φύσει Υἱὸς, ὁ ἐνανθρωπήσας, ἐσχόλασαν καὶ αἱ προσαφϑεῖσαι τῷ 
+᾿Πρχαγγέλῳ Μιχαὴλ κλήσεις, ἥτε τοῦ ᾿Ιησοῦ καὶ ἡ τοῦ Χριστοῦ, καὶ mapuópouy- 
+τέον !) αὐτάς. Π δὲ περίϑεσις 3) τῆς ἀύλου σαρκὸς xoi ὅσα τῆς φαντασιώδους 
+ἀχολουϑίας, καὶ τῆς ἀληϑινῆς ἐκ παρϑένου γεννήσεως ἀναιρετικὰ, ἐκ τῆς Ma- 
+νιχαϊχης αὐτοῖς ἐνεσπάρη παραφροσύνης, καὶ τῶν πρὸ αὐτῆς 3) τοιούτων αἱρέ- 
+σεων. ᾿Ανάγνωϑε δὲ ἐν τῷ xarà ᾿Αρμενίων τίτλῳ τὸ ἕβδομον κεφάλαιον, καὶ 
+κατάβηϑι, ἐφ᾽ ἃ τοῦτο παραπέμπει, καὶ ovx ἀγεννεῖς 1) εὑρήσεις παρατροπάς. 
+Γελοῖον δὲ καὶ τὸ περιελεῖν τὸ yÀ τοῦ Σαταναὴλ, καὶ ovx ἀξιόλογον. Καὶ γὰρ 
+καὶ πρὸ τοῦ καϑελεῖν τὴν τυραννίδα τούτου ἔλεγεν ὁ ἐνανθρωπήσας ϑεὸς ὅ)" ἐϑε- 
+ὦρουν τὸν Σατανᾶν ὡς ἀστραπὴν ix τοῦ οὐρανοῦ πεσόντα D), μήπω κατ᾽ αὐτοὺς 
+τοῦ ηλ περιαιρεϑέντος. Περιττὸν δὲ xai τὸ ἀντειπεῖν πρὸς τὴν ἀνάληψιν ἐν 
+δεξιᾷ καϑέδραν 9) τοῦ σαρχωθϑέντος, τὴν ἐπὶ τοῦ ϑρόνου τοῦ Σαταναήλ. — Ilo- 
+αποδέδειχται γὰρ, ὅτι οὔτε φύσει υἱὸς ἦν ἐχεῖνος, οὔτε πρωτότοχος, οὔτε ϑρό- 
+voy εἶχεν, οὔτε ἐν δεξιᾷ more τοῦ Πατρὸς ἐχάϑισε. 
+
+Θ΄. “έγουσι, τοὺς ἀποπεσόντας ᾿Αγγέλους, ἀχούσαντας, ὅτε ὁ Σαταναὴλ 
+
+
+1) Wolf. p. 66. perperam παραδραματέον. 2) Tergov. σπρόϑεσις. 3) Apogr. Fell. 
+ap. Wolf. p. 66. perperam αὐτοῦ. 4) Terg. ἀγενεῖς. 5$) lta Terg. et Zinus. — 
+Wolf. p. 66 υἱὸς. 6) Ita Tergov. et Wolfius p. 66. Scripserim πρὸς τὴν iv δεξιᾷ xa8- 
+ἐδραν, quum librarius alterum πρὸς τὴν facile omittere potuerit. 
+
+
+8) Ad sensum Jo. 12, 49. 8, 26. b) Luc. 10, 18. 
+
+
+, Susceptae mysterium, εἰ Evangelica praecepta, et salutem credentium ex ipsis 
+proficiscentem enuntiavit. — Quamobrem dicebat: ὦ me ipso mihil loquor, sed 
+quaecunque audivi a Patre meo, ea vobis nuntio. Cum igitur Michaél Archangelus 
+servus sit, Dominus autem is, qui natura Filius est, et humanitatem assumpsit, 
+inanes esse constat appellationes, quas Archangelo tribuunt Michaéli, cum illum 
+vel Jesum, vel Christum vocant: itaque silentio praetereatur. — Quod autem di- 
+cunt, eum carnem materiae expertem induisse, et quae veram ex virgine tollunt 
+generationem, ex Manichaeorum insania Teprospta sunt, et ex illis haeresibus, 
+quae ante ipsam extiterunt. In eo igitur Titulo, qui adversus Armenios scriptus 
+est, lege septimum caput, et ad ea progredere, a quee inde rejiceris, et stre- 
+nuas invenies confutationes. — Jam illud ridiculum et absurdum est, quod ex no- 
+mine Satanaél syllabam εἰ ademptam dicunt. — Etenim ctiam antequam tyrannidem 
+ejus evertisset, videbam, inquit Deus homo factus, Satanam tanquam fulgur 
+e coelo cadentem, cum nondum el syllaba fuisset sublata. —Supervacaneum est 
+etiam ostendere !), eum post ascensionem suam in solio Satanaélis ad dexteram 
+Patris consedisse. — Satanaél enim, ut demonstravimus, neque natura filius fuit, 
+neque primogenitus, nec solium habuit, nec ad dexteram Patris unquam assedit. 
+
+, icunt, Angelos, qui ceciderant, cum intellexissent , Satanaélem 
+
+
+1) Recte: refellere. 
+3* 
+
+
+zu 9.0). .--Ξ- 
+
+
+ὑπέσχετο τῷ Πατρὶ πληροῦσϑαι τοὺς ἐν “οὐρανῷ τόπους αὐτῶν ἀπὸ τοῦ γένους 
+τῶν ἀνθρώπων, ἰδεῖν ἀσελγῶς τὰς ϑυγατέρας τῶν ἀνθρώπων, καὶ λαβεῖν αὐτὰς 
+εἰς γυναῖχας, ἵνα τὰ σπέρματα αὐτῶν εἰς τὸν οὐρανὸν ἀνέλθωσιν, εἰς τοὺς τό- 
+πους τῶν πατέρων αὐτῶν. ᾿Ιδόντες yag, φησιν 1), οἱ υἱοὶ τοῦ Θεοῦ τὰς ϑυ- 
+γατέρας τῶν ἀνϑρώπων, ὅτε χαλαί εἰσιν, ἔλαβον ἑαυτοῖς γυναῖχας 8. ^ Yiovg δὲ 
+τοῦ Θεοῦ τούτους ὀνομάζουσιν, ὡς καὶ αὐτοὺς ἀπ᾽ ἐχείνου γεγονότας. Ἔχ δὲ 
+τῆς συνουσίας αὐτῶν ἀπογεννηϑῆναι τοὺς γιγάντας, οὖς ἀντιστῆναι τῷ Σαταναὴλ 
+καὶ ϑριαμβεῦσαι τοῖς ἀνθρώποις τὴν ἀποστασίαν avrov. | Tov δὲ ϑυμωϑέντα 
+ἐπαγαγεῖν αὑτοῖς τὸν καταχλυσμὸν, xai διαφρϑεῖραι σὺν αὐτοῖς πᾶσαν ζῶσαν σάρκα, 
+μόνον δὲ rov ΝδΡωῶε ϑυγατέρα μὴ κεχτημένον ἀγνοῆσαι τὴν ἀποστασίαν τοῦ Σατα- 
+ναὴλ, καὶ διαμεῖναι θεραπεύοντα τοῦτον. Οὗ τῇ λατρείᾳ τὸν Σαταναὴλ ἀρεσχό- 
+μένον ὑποϑέσϑαι τὰ περὶ τῆς χιβωτοῦ, xai διασώσαι τοῦτον μόνον μετὰ τῶν ἐν 
+αὑτῇ. Ταῦτα μὲν ἐκείνων τὰ ληρήματα. «Τέγομεν δὲ περὶ τῆς ἀσελγοῦς συν- 
+ουσίας καὶ παιδογονίας τῶν ἀποπεσόντων τούτων ᾿“γγέλων, ὅσαπερ ἀνωτέρω xai 
+περὶ τῆς τοῦ Σαταναὴλ ἀκολάστου πρὸς τὴν ἔναν συνουσίας καὶ τεχνογονίας εἰ- 
+ρήκαμεν. Ὑἱοὺς μὲν οὖν τοῦ Θεοῦ λαβόντας γυναῖκας ὠνόμασεν ἡ γραφὴ τοὺς 
+ἀπογόνους τοῦ Σὴηϑ, ὃς ἐπωνομασϑὴηὴ ϑεὸς διὰ τὸν ϑεομίμητον avrov βίον καὶ 
+τὸ τῆς πολιτείας ἀνεπίληπτον, ϑυγατέρας δὲ ἀνθρώπων τὰς ἀπὸ τοῦ γένους τοῦ 
+Καὶν, καὶ rov?) ἐξ αὐτοῦ καταγομένας. Τὸν μὲν οὖν καταχλυσμὸν ἐπήγαγεν 
+οὐχ ὁ Σαταναὴλ, ἀλλ᾽ ὁ Θεὸς roig χαταχλυσϑεῖσιν, ὃν xai ὁ Νῶε Θεὸν ἐγίνω- 
+σχέ τὲ Xni προσεχύνει, καὶ ὕφ᾽ οὗ τὴν τῆς κιβωτοῦ χατασχευὴν ἐπετράπη. Οὗτος 
+
+
+}) Wolf. p. 81 φασιν. 2) Wolf. p. 83 τας. - 
+a) Gen. 6, 3. 
+
+
+Patri esse pollicitum, loca ipsorum ex hominum genere completum iri, filias 
+hominum impudice conspexisse, casque in uxores accepisse, quo semen ipsorum 
+in coelum reverteretur ad loca patrum suorum. Videntes enim, inquiunt, Μὲ 
+Dei filias hominum, quod essent pulchrae, | acceperunt sibi ipsis uxores. — Porro 
+Dei filios appellant hos, quemadmodum et sc ab illo genitos. — Ex horum autem 
+conjunctione figantes fuisse dicunt procreatos, qui cum Satanaéle pugnaverint, 
+et pro hominibus de illo triumphum reportarint. — Quapropter illum indignatum 
+diluvium intulisse, οἱ una cum ipsis omnem carnem viventem delevisse. — Solum 
+autem Noé, qui filiam non habebat, defectionem Satanaélis iguorasse, et in 
+illius observantia permansisse, cujus quidem cultu Satanaélem placatum permi- 
+sisse, ut arcam construeret, seque solum servaret cum illis, qui in ea erant. 
+Istiusmodi sunt eorum nugac. Nos autem quantum pertinet ad impudicam Ange- 
+lorum cum foeminis consuetudinem, ct liberorum procreationem, id respondemus, 
+quod superius diximus, cum de impudica Satanaélis cum Eva consuetudine et li- 
+berorum procreatione loqueremur. — Scriptura autem Dei filios, qui mulieres uxo- 
+res acceperint, vocat filios Seth, qui propter divinam vitam et innocentiam ap- 
+pellatus est Deus. — Filias autem hominum eas vocat, quae ex genere Cain et 
+posteris ejus descenderunt.  Diluvium igitur intulit non Satanaél, sed ipse Deus, 
+quem quidem Deum et Noé cognoscebat et adorabat, et ab eo mandatum accepe- 
+
+
+— 94 — 
+
+
+δὲ ἣν ὁ τῆς παλαιᾶς διαϑήκης νομοϑέτης. Ὅτι δὲ χυρίως xai ἀληθῶς ovrog 
+Θεὸς, προαποδέδεικται σαφῶς ἐν τῷ κατὰ τῶν Παυλικιάνων Τίτλῳ, ἐν τοῖς κε- 
+φαλαίοις δηλονότι, οἷς ἐπιγέγραπται, ὅτι τοῦ ἀγαϑοῦ Θεοῦ 1) εἰσιν ἥτε παλαιὰ 
+γομοϑεσία καὶ οἱ ἐν αὑτῇ ?) λαμψαντὲς, ἔτι δὲ xoi ἐν roig ἐφεξὴς τούτων χε- 
+«αλαίοις. 
+1΄. «“έγουσι, τὸν Movogv πλανηϑέντα παρὰ τοῦ Σαταναὴλ ἀπελϑεῖν εἰς 
+
+“Αἴγυπτον αὖϑις, καὶ ἀπατῆσαι τὸν λαὸν τῶν ᾿Ιουδαίων, xai ἐξαγαγεῖν αὐτοὺς | 
+ποιήσαντα τέρατα xul σημεῖα διὰ τῆς ἐνεργείας τοῦ Σαταναὴλ, καὶ ἀνελϑεῖν εἰς 
+τὸ ὅρος τὸ 3) Σινᾶ, xoi λαβεῖν τὸν νόμον ὑφηγηϑέντα παρὰ τοῦ Σαταναὴλ, καὶ 
+ἀπολέσαι δι᾿ αὑτοῦ μυριάδας ἀναριϑμήτου. Καὶ μαρτυρεῖν περὶ τούτου τὸν 
+᾿Απόστολον, λέγοντα᾽ τὴν ἁμαρτίαν οὐκ ἔγνων, εἰ μὴ διὰ νόμου 8), καὶ αὖ- 
+ϑις᾽ ἐλϑοίσης δὲ τῆς ἐντολῆς ἡ ἁμαρτία ἀνέζησεν D). ᾿4λλ᾽, ὦ σοφισταὶ τῆς 
+χαχίας, τί τὸ ἑξῆς καχοήϑως ὑπεχρατήσατε; γέγραπται γὰρ εὐθὺς, ὅτι ὃ νόμος 
+ἅγιος, xai ἡ ἐντολὴ ἀγία,- καὶ δικαία, καὶ ἀγαϑὴ €). δὶ δὲ xarà τὴν τοῦ 
+᾿Αποστόλου μαρτυρίαν ὁ νόμος ἅγιος, xoi ἡ ἐντολὴ ἁγία, καὶ δικαία, καὶ ἀγα- 
+ϑὴ, οὐκ ἄρα τοῦ ἀνάγνου, xai ἀδίκου, χαὶ πονηροῦ Σαταναὴλ εἶεν ἂν ταῦτα 
+νομοϑεσίαι xai ἐντάλματα *). Σαπροῦ μὲν γὰρ δένδρου σαπρὸς ἔσται χαρπὸς, 
+ὁ δὲ καλὸς πάντως καλοῦ, χαϑὼς xal ὁ Κύριος ἀπεφήνατος Ἵνα δὲ καὶ τὰ δη- 
+λωθέντα τοῦ ᾿Αποστόλου σαφηνισϑείη ῥητὰ, προσεχτέον, ὅτι οὐ ποιητικὸν τῆς 
+ἁμαρτίας εἴρηκε τὸν νόμον, ἀλλὰ γνωστιχὸν αὐτῆς, ὡς ὑποδεικνύοντα ταύτην καὶ 
+προστάττοντα φεύγειν αὑτὴν ὡς φϑοροποιόν. Μήπω γὰρ δοθέντος τοῦ γραπτοῦ 
+
+
+1) Ita. Tergov. εἰ Zinus. — — Wolf. p.83 τοῦ ϑεοῦ. 2) Wolf. αὐτῶ. 3) Wolf. 
+p. 47 τοῦ. 4) Terg. ἐπιτάγματα. 
+.&) Rom. 7, 7. b) l.c. v. 9. c) l. c. v. 12. 
+
+
+rat, ut arcam exaedificaret. — Hic fuit auctor antiqui testamenti, quem proprie 
+et vere Deum esse, perspicue in: Titulo adversus Pialicnnos conscripto demon- 
+stravimus in illis capitibus, in quibus ostendimus, boni Dei esse testamentum 
+vetus, .et qui in eo illustres extiterunt, et in illis item capitibus, quae subse- 
+quuntur. | 
+
+' . X. Dieunt, Mosem a Satanaéle deceptum in Aegyptum revertisse, et Ju- 
+daeorum populum decepisse, et eos eduxisse portentis et signis, quae virtute 
+Satanaélis efficiebat, et montem Sinai conscendisse, et legem a Satanaele traditam 
+accepisse, per illamque innumerabilia hominum millia perdidisse. Atque hujusce 
+rei testem esse Paulum, qui concupiscentiam, inquit, nesciebam, rst per legem, 
+et rursum: adveniente autem mandato peccatum revixit. — Verum, o fraudis arti- 
+fices, cur id quod sequitur omisistis? Nempe: ex sancía, mandatum sanctum, 
+εἰ justum, el bonum. — Quod si lex Apostoli testimonio est sancta, et mandatum 
+sanctum et bonum; non est impuri,, et injusti, εἴ improbi Satanaélis. — Malae 
+enim arboris malus est fructus, bonus autem fructus est arboris bonae, quemad- 
+modum et Dominus ait. Sed ut clarius etiam illa Apostoli verba intelligantur, 
+notandum est, eum non dixisse, legem esse peccati effectricem, sed indicem, 
+quippe quae ipsum ostendit, et praecipit ut evitetur, tanquam interitus causa. 
+
+
+
+
+
+, 
+
+τούτου νόμου, TOU χωλύοντος αὐτὴν, εἰ xci ἐνηργεῖτο, ἀλλ᾽ ovy οὕτω λυμαντιχὴ 
+καὶ φευχτὴ τοῖς ἀνθρώποις ἐγνωρίζετο. Πῶς δὲ ἐλθούσης τῆς ἐντολῆς ἡ ἁμαρ- 
+ría ἀνέζησεν, ἄχουσον. Ὅτε πρὸ μὲν τῆς νομικῆς ἐντολῆς ἀσϑενὴς ἦν καὶ οἷον 
+γεχρὰ, μὴ δυναμένη τοσαύτην καταδίχην προξενεῖν τοῖς ἁμαρτάνουσιν, ὅσην προ- 
+ξενεῖ μετὰ τὸν νόμον, xai διὰ τοῦτο μὴ πάνυ πολεμοῦσα. Ὅτε δὲ ὁ νόμος ἐδό- 
+ϑη τοῖς ἀνθρώποις ὁ τῆς ἁμαρτίας ἀναιρετικὸς xal πολέμιος, τότε μάλιστα διη- 
+γέρϑη, καὶ οἷον ἀνέζησεν αὕτη, τουτέστε λυγρὸν 1) ἔπνευσε καὶ μανικὸν ἐλύττησε 
+κατὰ τῶν ὑποδεξαμένων τὰς vouixag ἐντολᾶς. Ὅτι δὲ ὁ Μωῦσῆς οὐχ ἐπλανήϑη 
+παρὰ τοῦ Σαταναὴλ, ἀλλ᾽ ὁ ὧν ϑεὸς ἀπέστειλεν αὑτὸν, xci αὐτὸς αὐτῷ δέδωχε 
+τὸν νόμον, καὶ οὐκ ἀπώλεσεν, ἀλλ᾽ ὡδήγησε δι᾿ αὐτοῦ τὰς πολλὰς ἐκείνας μυ- 
+ριάδας, εὑρήσεις ἐν τῷ κατὰ τῶν Παυλικιάνων τίτλῳ, καϑὼς ἐν τῷ πρὸ τούτου 
+κεφαλαίῳ διελάβομεν. 
+
+Ι4΄. «“Ἰέγουσιν ἁγίους μόνους εἶναι τούς τὲ παρὰ τῷ Ματϑαίῳ xai τῷ 
+-ovxà γενεαλογηθέντας, ὡς προείρηται, xai τοὺς ἑξκαίδεκα Προφήτας,) καὶ 
+τοὺς ᾿Αποστόλους, xci τοὺς Μάρτυρας, ὅσοι διὰ τὸ μὴ προσχυνῆσοι τὰ εἴδωλα 
+χατεσφάγησαν. Τοὺς legagyag δὲ καὶ τοὺς Πατέρας ὁμοῦ πάντας ἀποδοχιμά- 
+ζουσιν, ὡς εἰδωλολάτρας διὰ τὴν τῶν εἰχόνων προσχύνησιν, xoci τοὺς μὲν εὐσε- 
+βεῖς ἅπαντας βασιλεῖς ἀλλοτριοῦσι τοῦ κλήρου τῶν Χριστιανῶν, μόνους δὲ χαλοῦ- 
+σιν ὀρϑοδόξους καὶ πιστοὺς τοὺς εἰχονομάχους xai μάλιστα τὸν Κοπρώνυμον. 
+᾿4τιμάξουσι γὰρ καὶ τὰς σεβασμίους εἰχόνας, τὰ εἴδωλα λέγοντες τῶν ἐθνῶν, ἀρ- 
+γύριον xol χρυσίον, ἔργα χειρῶν ἀνθρώπων, ἀγνοοῦντες, ὅτε ἄλλο εἴδωλον, xoci 
+
+
+: ἢ) Terg. σφοδρὸν. 
+
+
+Cum enim lex scripta nondum esset lata, quae peccatum probibet, licet commit- 
+teretur, non tamen adeo perniciosum et fugiendum cognoscebatur. Quomodo au- 
+tem veniente mandato peccatum revixerit, audi. — Ántequam lex promulgaretur, 
+imbecillum erat et tanquam mortuum peccatum; nec tantum peccantibus supplhi- 
+cium afferre poterat, quantum post legis affert promulgationem, et iccirco non 
+admodum oppugnabat. Posteaquam autem lex hominibus data est, quae peccati 
+debellatrix est et adversaria, tunc ipsum peccatum excitatum est, et quodam- 
+modo revixit, id est, magnas vires sumpsit, atque crudeliter saeviit in eos, qui 
+legem susceperant. "Quod autem Moses a Satanaéle deceptus non fuerit, sed ab 
+eo, qui vere est Deus, missus sit, et legem acceperit, multaque hominum 
+millia non perdiderit, sed ucc: intelliges ex "Titulo, quem contra Pau- 
+licianos scripsimus, quemadmodum in superiore capite declaravimus. 
+
+I. Eos solos .dicunt esse sanctos, qui apud Matthaeum et Lucam, ut 
+diximus, in genealogiis commemorantur, et sexdecim Prophetas, et Apostolos, 
+et Martyres, qui ne Idola adorarent, occisi sunt. ^ Sacerdotes autem et Patres 
+omnes tanquam ldolorum cultores, quoniam adorant imagines, reprobos existi- 
+mant, et omnes Reges pios e sorte Christianorum rejiciendos putant: solos au- 
+tem imaginum oppugnatores orthodoxos fidelesque vocant, inprimisque Coprony- 
+mum. enerandas enim imagines aspernantur, et Idola gentium appellant, ar- 
+gentumque et aurum, et opera manuum hominum: ignorantes, aliud esse ima- 
+
+
+-- 95 — 
+
+
+ἄλλο εἰχὼν, xci ὅτι TOig μὲν εἰδώλοις τὰ πρωτότυπα ἀνυπόστατα καὶ ψευδῆ" 
+ϑεοὺς γὰρ ἐπεφήμιζον αὑτοῖς μὴ 1) ὄντας ϑεοὺς, ἀλλὰ δαίμονας, ψευδομένους 
+τὴν ϑεότητα. Τῶν δὲ παρ᾽ ἡμῖν εἰχόνων τὰ πρωτότυπα ὄντως ὄντα καὶ ἀλη- 
+ϑεύοντα, 0 καλοῦνται. Κακχεῖνα μὲν εἴδωλα μιαρῶν, ταῦτα δὲ εἰχόνες ἁγίων. 
+Πλατύτερον δὲ περὶ τῶν ἁγίων εἰχόνων εἴρηται ἐν τῷ χατὰ τῶν Εἰχονομάχων τίτλῳ. 
+
+1B 3). ᾿Ερωτηϑεὶς παρ᾽ ἡμῶν ὁ τῆς αἱρέσεως αὐτῶν ἔξαρχος" πῶς ἀποδο- 
+κιμάξετε τοὺς ἐν ἁγίοις legagyag, καὶ τοὺς μαχαρίους Πατέρας, ὧν τὰ λείψανα 
+ϑαυματουργοῦσι; διάρας τὰ βέβηλα χείλη ἐξηρεύξατο λόγον πονηρόν. Εἶπε γὰρ, 
+ὅτι συγχεκλήρωνται τούτοις δαίμονες, οἱ διδάξαντες avrovg ἔτι ζῶντας, οἵ τοῖς 
+τάφοις αὐτῶν παραμένοντες τερατουργοῦσιν εἰς πρόσωπον αὐτῶν, ἵνα τοὺς ἀνοήτους 
+ἐξαπατήσωσι, καὶ πείσωσι τιμᾷν τοὺς ἀνάγνους, ὡς ἁγίους. ἘἸοσαῦτα γὰρ Óv- 
+νασϑαι τοὺς δαίμονας, ὅσα δὴ καὶ βούλονται, λαβόντας ἄνωϑεν ἐξουσίαν ἄχρι πέ- 
+parog τῶν ἑπτὰ αἰώνων. ᾿Δλλὰ πόϑεν τοῦτο μεμαϑηχὼς ἔχεις, ὦ Amos, καὶ πα- 
+ράφορε; ποῦ δὲ καὶ ϑῆήσεις τὸ εὐαγγελικὸν ἐχεῖνο τὸ xara τὸν χαιρὸν τοῦ δε- 
+σποτιχοῦ πάϑους ῥηϑὲν, τὸ λέγον" νῦν ὁ ἄρχων τοῦ χόσμου τούτου ἐκβληϑήσεται 
+ἔξω 9); εἰ δὲ ὁ ἄρχων, πολλῷ μᾶλλον οἱ ἀρχόμενοι δαίμονες. Πῶς δὲ καὶ τοῖς 
+Asmpavoig τῶν μακαρίων ]]ατέρων συγχεχλήρωνται οἱ φρίσσοντες αὑτὰ δαίμονες ; 
+πολλάκις γὰρ τῶν δαιμονιζομένων ἐγγιζόντων τοῖς τάφοις αὑτῶν, δραπετεύουσιν ol 
+δαίμονες, καϑάπερ ὑπὸ πυρὸς τῆς δυνάμεως τῶν λειψάνων μαστιζόμενοί τε, καὶ 
+ἐλαυνόμενο. Εἰ δὲ τὰ λείψανα τούτων δραπετεύουσι τοὺς δαίμονας 3), πολλῷ 
+
+
+1) Wolf. p. 117 οὐκ. 2) Integrum hoc- caput apud Wolfium non legitur. 3) Le- 
+gendum videtur oi δαίμονες, 
+
+
+a) Jo. 12, 3l. 
+
+
+inem, et aliud Idolum, nulla enim aut falsa esse Idolorum exemplaria, cum 
+
+eos appellent eos, qui non sunt Dii, sed daemones, qui sibi falso divinita- 
+tem arrogant. Αἱ imaginum apud nos vera sunt exemplaria , et vere referunt id, 
+quod appellantur. Atque Idoía quidem sceleratorum sunt simulacra: imagines 
+vero sanctorum effigies. — Sed de Sanciorami imaginibus in Titulo adversus imagi- 
+num oppugoatores Tatius disputavimus. 
+
+I. Princeps istorum haeresis, cum ex eo quaereretur, cur sanctos Sa- 
+cermdotes, beatosque Patres rejiciant, quorum reliquias venerantur, labiis profa- 
+mi$ patefactis verbum malum eructavit. Quoniam, inquit, cum illis sunt Dae- 
+MORes, qui eos dum viverent docuerunt, et ad eorum tumulos assidentes por- 
+tenta faciunt sub eorum persona, ut ignaros decipiant, suadeantque, ut impu- 
+rO8 tanquam sauctos adorent. Tantum enim daemones posse, quantum volunt 
+cum eam e sublimi potestatem ad septem usque saeculorum finem acceperint. Sed 
+umde tu haec didicisti, nugator, stulteque senex? — Aut ubi Evangelicum illud, 
+
+uod Dominus paulo ante mortis suae tempus dixit, collocabis: — Nunc Princeps 
+hujus mundi ejicietur foras? — Quod si Princeps, multo magis Daemones, qui 
+Sub ejus sunt principatu. — Praeterea quomodo beatorum Patrum reliquiis inhae- 
+rent Daemones , qui eas reformidant? Plerumque enim cum homines ἃ Daemoni- 
+bus vexati ad eorum accedunt sepulchra, a virtute reliquiarum , tanquam ab igne, 
+ipsi Daemones aufugiunt vexati ct excruciati. Quod si reliquiae ipsorum Daemones 
+
+
+— 94 — 
+
+
+- » » , , 2 * LI 3 , , , y - 
+μᾶλλον ἐκεῖνοι ξζώντες ἐδίωχον avtovg, καὶ οὐδὲ προσεγγίσαι τούτοις ἐτόλμων ἐκεῖ 
+vo: φεύγοντες ὡς αἰκίζοντας. Εἰ δὲ ἔφευγον αὐτοὺς, πρόδηλον, ὅτι ov συνῴ- 
+χουν, οὐδὲ ἐδίδασχον. 
+
+II'. .éyovaw, ἀπ᾿ αὐτῶν μὲν μόνων, ἤτοι τῶν Βογομίλων, φεύγειν ἀεὶ 
+τοὺς Δαίμονας, ὡσεὶ τόξου βολὴν, ἑκάστῳ δὲ τῶν ἄλλων ἁπάντων ἐνοιχεῖν daí- 
+μονα, καὶ διδάσκειν αὐτὸν τὰ πονηρὰ, καὶ ἄγειν ἐπὶ τὰς ἀνοσιουργίας, καὶ 
+ἀποϑνήσχοντος ἐνοιχεῖν αὖϑις τοῖς λειψάνοις αὐτοῦ, xal παραμένειν τῷ TOT, 
+xoi ἀναμένειν τὴν ἀνάστασιν, ἵνα σὺν αὐτῷ χολασϑείη, xai μηδ᾽ ἐν κολάσει τού- 
+rov διαχωρίζοιτος Τὸ μὲν οὖν ἐνοικεῖν ἑκάστῳ τῶν ἀνθρώπων Δαίμονα, ἀπὸ 
+τῆς τῶν ΜΜὝασαλιανῶν ἔχουσιν αἱρέσεως, καὶ ζήτησον ἐν τῷ xar ἐχείνων Τίτλῳ 
+τὸ πέμπτον τε χεράλαιον xoi τὰ ἐφεξῆς Oxrw, καὶ μαϑήσῃ τὴν ἀτοπίαν τοῦ 
+δόγματος. Τῆς ἀρχῆς δὲ ψευδοῦς ἐλεγχϑείσης, καὶ τὸ τέλος τοιοῦτον συναπο- 
+δείχνυται, τὸ περὶ τῶν λειψάνων λέγω καὶ τῆς ἐν αὑτοῖς οἰκήσεως τῶν Δαιμόνων. 
+Καὶ xaO ἕτερον δὲ λόγον, εἰ παρέμενεν ἑκάστῳ τῶν τεϑνεώτων Δαίμων, ἐκδεχό- 
+μένος τὴν τελευταίαν ἀνάστασιν, ἐπέλειψαν ἂν οἱ 4daoiuowg. — dno γὰρ ᾿Αδὰμ 
+ἄχρι καὶ νῦν ἀπέϑανον ἄνθρωποι, μυριάδες ἀναρίϑμητοι.. Ὅτι δὲ οὐ qevyov- 
+σιν ἀπὸ μόνων τῶν Βογομίλων οἱ Δαίμονες, ἀλλὰ xai συνδιάγουσι μᾶλλον, καὶ 
+παῤρησιάζονται πρὸς αὐτοὺς, δῆλον ἀπό τε τῆς ἄλλης πλάνης αὐτῶν καὶ τοῦ 
+φαίνεσϑαι τούτοις ἐν σχήμασι διαφόροις, καὶ ὑποχατιὼν εὑρήσεις. 
+
+IA'. ᾿Δτιμάζουσι τὸν ϑεῖον σταυρὸν, ὡς ἀναιρέτην τοῦ Σωτῆρος, ὃν ἔδει 
+μᾶλλον τιμᾷν ὡς καϑαιρέτην τοῦ Διαβόλου. Μέχρε γὰρ τότε ϑανατηφόρον ὄργα- 
+
+
+ejiciunt, multo magis ipsi, cum in hac vita degerent, eos persequebantur, nec 
+ipsi ad eos audebant accedere, sed illos tauquam ab eis verberati declinabant. 
+din evitabant, non utique habitabant cum illis, nec eos docebant. 
+
+XIH. Dicunt Bogomili, Daemones tanquam arcus !) sagittam a se solis au- 
+fugere, singulos autem reliquis hominum singulis inhabitare, οἵ facinora edo- 
+cere, et ad flagitia et impia facta perducere, et cum mortui fuerint, in ipsorum 
+reliquiis insidere, et sepulchris assistere , atque resurrectionem expectare, at 
+una cum illis puniantur, ac ne in supplicio quidem eos deserere. (uod in sin- 
+gulis hominibus singuli Daemones inliabitent, ex Massalianorum haeresi didice- 
+runt.  Quaerito in eorum Titulo quintum caput, et octo quae deinceps conse- 
+quuntur, et quam sit absurda haec opinio, intelliges. Jam cum principium de- 
+monstratum fuerit esse falsum , et extremum esse simile coarguitur, cum Daemo- 
+nes dicunt in reliquiis inhabitare. — Quamquam si Daemones singuli in mortuis 
+singulis inhabitarent, et extremam in illis resurrectionem morarentur, deficerent 
+Daemones. Ab Adam enim ad hoc usque tempus interierunt millia hominum in- 
+numerabilia. Quod autem a solis Bogomilis non fugiant Daemones, sed cum 
+illis degant, audacterque versentur, perspicuum fit tum ex aliis ipsorum errori- 
+' bus, tum ex eo, quod illis sua varia specie atque forma sese conspicuos prae- 
+bent. 
+
+XIV. Crucem divinam despiciunt, quod in ea Servator occiderit, cum il. 
+lam potius deberent honorare tanquam Diaboli perditricem. — Cum enim ad illud 
+
+
+1) Recte: ab arcu. 
+
+
+— 985 .. 
+
+
+vov χρηματίζων, ἐκ τότε ζωηφόρον ὅπλον ἐγένετο, βασιλικώτατόν τε xoi φοβε- 
+ρώτατον τοῖς ἐχϑροῖς, ἅτε τῷ δεσποτιχῷ αἵματι xai ὕδατι χαταῤῥαντισϑ εἰς. 
+Εἴρηται δὲ περὶ τούτου καὶ ἐν τῷ xarà τῶν ᾿Δρμενίων Τίτλῳ, καὶ ζητητέον ἐκεῖ 
+κεφάλαιον ιδ΄. 
+
+IE'. ᾿Ερωτηϑεὶς αὖϑις παρ᾽ ἡμῶν ὁ δηλωθεὶς ἔξαρχος τῆς αἱρέσεως, πῶς 
+οἱ δαιμονῶντες προστρέχουσε τῷ σταυρῷ. καὶ χαϑυλαχτοῦσιν, ἀπεχρίνατο, φρελεῖ- 
+σθαι μάλιστα τὸν σταυρὸν ὑπὸ τῶν ἐνοιχούντων αὐτοῖς Δαιμόνων, ὡς οἰχεῖον 
+ἔργον. ΑΑὐτοὶ yaQ, φησι, τοῦτον τότε 1) κατεσχεύασαν εἰς ἀναίρεσιν τοῦ Σω- 
+τῆρος. στὶ δ᾽ ὅτε xai χκαϑυβρίξειν τοῦτον ἐν ὑποχρίσεε xai φεύγειν αὑτὸν 
+πολλάχις ἱχουσίως, ἵνα βλέποντες οἱ ἄνϑρωποι τιμῶσε μᾶλλον αὐτὸν ὡς ἐχϑρὸν 
+xai διώχτην τῶν Δαιμονίων. Ἔχει δὲ παρ᾽ ἡμῖν οὐχ οὕτω τὸ ἀληϑές.  "EAxc- 
+σϑαι μὲν γὰρ καὶ ἄκοντας ὑπὸ τῆς τοῦ σταυροῦ δυνάμεως, xol χαϑυλαχτεῖν, ἵνα 
+τὸ λυσσῶδες αὐτῶν φανείη, καὶ ἵνα βασανίζωντα. Η γὰρ ὑλακὴ καὶ αἱ στρε- 
+βλώσεις τοῦ σώματος τῶν δαιμονιζομένων, xoci οἱ τιναγμοὶ 3) τεχμήριον εἰσι τῆς 
+βασάνου τῶν Δαιμόνων. ὉὙβρίζουσι δὲ αὐτὸν ὡς ἐχϑρὸν, xoi φεύγουσιν ὡς 
+δεωχτην. 
+
+lg. Τὸ μὲν παρ᾽ ἡμῖν βάπτισμα τοῦ ᾿Ιωάννου λέγουσιν ὡς δι᾿ ὕδατος 
+ἐπιτελούμενον, τὸ δὲ παρ᾽ αὑτοῖς τοῦ Χριστοῦ διὰ πνεύματος, ὡς δοκεῖ αὑτοῖς, 
+τελούμενον, διὸ καὶ τὸν προσερχόμενον αὐτοῖς ἀναβαπείζουσιν, πρῶτα μὲν ἀφο- 
+οίζοντες αὐτῷ καιρὸν εἰς ἐξομολόγησιν καὶ ἁγνείαν χαὶ σύντονον προσευχὴν, εἶτα 
+τῇ κεφαλῇ αὐτοῦ τὸ χατὰ ᾿Ιωαννην Εὐαγγέλιον ἐπιτιϑέντες, καὶ τὸ παρ᾽ αὑτοῖς 
+
+
+1) Terg. om. τότε. 2) Wolf p. 109 στεναγμοὶ. 
+
+
+usque tempus mortifera extiterit, ex eo salutis instrumentum effecta est augustis- 
+simum, οἱ hostibus maxime formidandum, qnippe quae Domini sanguine et 
+aqua conspersa est. Sed hac item de re in Titulo adversus Armenios scripto 
+bictum est.  lllic caput quaerito quartum decimum. - 
+
+V. Quum rursus ex illo sene, quem haeresis Principem ostendimus, quae 
+rerem , cur a Daemonibus vexati ad crucem accurrunt et vociferantur, respondit, 
+crucem ut proprium opus amari vehementer a Daemonibus, qui in eis inhabitant. 
+Ipsi enim, inquit, illam tune excogitarunt, ut Servatorem e medio tollerent. 
+Aliquando autem eam se fingunt afficere contumelia, et ultro illam fugiunt, ut id 
+homines adspicientes eam magis honorent, tanquam Daemonum inimicam et ex- 
+pultricem. — Veritas autem apud nos haud ita se habet. Nam vel inviti trahuntur 
+a crucis virtute, et allatrant, ut rabies ipsorum ostendatur. ^ Latratus enim, 
+corporisque vexatio, et gemitus eorum, qui a Daemonibus opprimuntur, tor- 
+mentum et cruciatus Daemonum indicant, qui crucem ut inimicam despiciunt et 
+expultricem. 
+
+XVI. Baptismum nostrum Joannis baptismum esse dicunt, per aquam enim 
+fleri; suum vero Christi, per spiritum enim fieri, ut ipsis videtur. (Quamobrem 
+si quis ad ipsos confugit, eum rebaptizant. Ac primum quidem illi tempus prae- 
+scribunt ad confessionem, et expurgationem, et continuam precationem. — Deinde 
+Joannis Evangelium capiti ejus unponunt, et Spiritum sanctum suum invocant, 
+
+
+4 
+
+
+m 2606 -.ὄ- 
+
+
+ἅγιον πνεῦμα ἐπικαλούμενοι, καὶ τὸ Πατερ ἡμῶν ἐπάδοντε. Μετὰ δὲ τὸ τοι- 
+οὔτον βάπτισμα χαιρὸν αὖϑις ἀποκληροῦσιν εἰς ἀχριβεστέραν ἀγωγὴν καὶ πολι- 
+τείαν ἐγχρατεστέραν xai καϑαρωτέραν προσευχήν. Εἶτα μαρτυρίαν ἀπαιτοῦσιν, 
+εἰ ἐφύλαξε πάντα, εἰ σπουδαίως διηγωνίσατο. Καὶ μαρτυρούντων ἀνδρῶν ὁμοῖ 
+καὶ γυναικῶν ἄγουσιν αὐτὸν ἐπὶ τὴν ϑρυλλουμένην τελείωσιν, xoi στήσαντες τὸν 
+ἄϑλιον κατὰ ἀνατολὰς ἐπιτιϑέασιν αὖϑις τῇ μιαρᾷ τούτου κεφαλῇ τὸ Εὐαγγέλιον, 
+xci τὰς ἐναγεῖς αὐτῶν ἐπέχοντες χεῖρας οἱ παρατυχόντες ἄνδρες xai γυναῖχες τὴν 
+ἀνόσιον ἐπάδουσι τελετὴν, αὕτη δέ ἐστιν εὐχαριστήριος ὕμνος, ὅτε διεφύλαξε τὴν 
+παραδεδομένην ἀσέβειαν. Καὶ οὕτω τελοῦσι καὶ τελειοῦσι, μάλλον δὲ συντελοῦσι 
+καὶ καταποντίζουσε τὸν βυϑοῦ καὶ διαφϑορᾶς ἐπάξιον. — Ei μὲν ovv ὕδατε μό- 
+γον !) τὸ x«Ó' ἡμᾶς ἐτελεῖτο βάπτισμα, ἦν ἂν οὕτω τοῦ ᾿Ιωάγνου τὸ ἡμέτερον 
+βάπτισμα. — End δὲ οὐχ ὕδατι μόνον, ἀλλὰ καὶ ayío Πνεύματι τελεσιουργεῖταε, 
+καϑὼς ὁ Κύριος ἐδίδαξεν, εἰπὼν ἐὰν μή τις γεννηθῇ δι᾿ ὕδατος καὶ πνεύματος, 
+οὗ μὴ εἰσέλϑῃ εἰς τὴν βασιλείαν τοῦ Θεοῦ 8), μάτην ὑλαχτοῦσιν. Εἴρηται δὲ 3) 
+καὶ ἐν τῷ κατὰ τῶν Παυλικιάνων Τίτλῳ περὶ τοῦ ἁγίου βαπτίσματος ἀχριβέστε- 
+gov, xoi ζήτησον ἐχεῖ τὰ περὶ τούτου χεφάλαια. ᾿Αλλὰ τὸ μὲν ἡμέτερον βάπει- 
+σμα κατὰ τὸ ῥηθὲν ὑπὸ τοῦ Κυρίου δι’ ὕδατος γίνεται xal ἀχίον Πνεύματος, 
+τὸ δὲ παρ᾽ ἐκείνων πόϑεν παρεδόϑη δειξαάτωσαν. Ἂν ποίᾳ τῶν δεχτῶν αὑτοῖς 
+ἑπτὰ βίβλων περὶ τούτου γέγραπται; «Ιείπεται οὖν, ὑπὸ τῶν Δαιμόνων τοῦτο 
+μαϑεῖν αὐτοὺς, ἵνα γυμνωθῶσι τοῦ ἀληϑινοῦ καὶ ϑείου βαπτίσματος. 
+
+IZ'. ᾿Ατιμάζουσι τὴν μυστιχὴν καὶ φριχτὴν ἱερουργίαν, καὶ τὴν τοῦ δε- 
+
+
+1) Terg. μόνῳ. 2) Terg. γὰρ. 
+a) Jo. 3, 5 
+
+
+et Paler nosler canunt. — Et post baptismum ejusmodi tempus iterum assignant ad 
+aecuratiorem institutionem ,  temperatioremque vitam, et puriorem precationem. 
+Deinde testimonium exigunt, au haec observarit. — Quod si viri mulieresque af- 
+fÉrmarint, ducunt eum ad celebriorem initiationem, statuunt enim miserum ad 
+orientem solem, et impio ipsius capiti rureus Evangelium imponunt, et profanas 
+manus adhibent suas, qui adsunt viri atque foeminae, et preces nefarias canunt, 
+id est, hymnum, quo gratias agunt, quod traditam impietatem observarit. — At- 
+que ita initiant, atque perficiunt, imo vero conficiunt et summergunt eum, qui 
+profunde dignus est tartaro alque interitu. Si noster igitur baptismus aqua solum 
+perageretur, Joannis nimirum esset: nunc autem quum aqua peragatur et spi- 
+ritu, quemadmodum Dominus docuit, misí quis baptizatus fuerit, inquiens, ex 
+aqua et Spirilu sancto, non intrabit in. regnum Dei; incassum latrant. — Verum 
+de baptismo quoque dictum est in Titulo, quem adversus Paulicianos conscripsi- 
+mus: inde petito capita, quae ad rem pertinent. — Noster igitur baptismus, ut 
+Dominus docuit, per aquam et spiritum. sanctum perficitur: baptismus autem 
+istorum unde sumptus sit, ipsi dicant: in nullo enim septem librorum, quos 
+probant, reperitur. — Quamobrem illum a Daemonibus didicisse perspicuum est, 
+ut vero divinoque baptismo spoliarentur. 
+
+XVII. Mystieum, venerandum sacrificium contemnunt aique despiciunt, et 
+
+
+— ὦ. 
+
+
+σποτικοῦ σώματος καὶ αἵματος ἁγίαν μετάληψιν, ϑυσίαν τῶν ἐνοικούντων τοῖς 
+ναοῖς Δαιμόνων ταύτην ἀποκαλοῦντες. — 42 μιαρῶν χειλέων, ὦ γλώσσης μεαρωτέ- 
+ρας’ Καὶ παριστῶσε μάρτυρα τὸν Προφήτην ᾿Ησαΐαν λέγοντα" οἱ ἑτοιμάζοντες 
+τῇ τύχῃ τράπεζαν, καὶ πληροῦντες τῷ Δαίμονε χέρασμα 9)' μὴ συνιέντες οἱ πα- 
+ρθαπλῆγες, ὕτι πρὸς τοὺς εἰδωλολατροῦντας ὁ λόγος. Τὸ δὲ μυστικὸν παρ᾽ ἡμῖν 
+δεῖπνον ὁ Χριστὸς παρέδωκεν, εἰπών" τοῦτο ποιεῖτε εἰς τὴν ἐμὴν ἀνάμνησιν b), 
+ὡς οἱ δὐαγγελισταὶ διδάσκουσιν. Εἴρηται δὲ ἐν τῷ κατὰ τῶν Παυλικιάνων λόγῳ 
+xci περὶ τῆς ϑείας ταύτης μεταλήψεως, xoi ξήτησον ἐχεῖ περὶ ταύτης. Οἷον δὲ 
+αὐτῶν χαὶ τοῦτο" ἄρτον μὲν γὰρ τῆς 1) χοινωνίας ὀνομάζουσε τὴν προσευχὴν τοῦ 
+Πάτερ ἡμῶν, τὸν ἄρτον γάρ φῆσι τὸν ἐπιούσιον €)' ποτήριον δὲ κοινωνίας 
+ὁμοίως τὴν λεγομένην ἐν τῷ δυαγγελίῳ διαϑήκην, τοῦτο γάρ quas τὸ ποτήριον 
+ἡ καινὴ διαϑήχη 4)" μυστικὸν δὲ δεῖπνον τὴν ἀμφοτέρων τούτων μετάληψιν. Δὲ 
+δέ τις ἀνθυπαγάγοι, xoci πῶς τὸ Πάτερ ἡμῶν ὡς σῶμα δεσποτικὸν κλᾶται xci 
+διαμερίξεται, πῶς δὲ καὶ τὸ, νῦν ἐδοξασϑὴ ὁ υἱὸς τοῦ ανϑρώπου καὶ τὰ ἑξῆς 9), 
+ὡς αἷμα 3) τοῦ Σωτῆρος ὑπὲρ ἡμῶν ἐξεχύϑη, μὴ γινώσχειν ὁμολογοῦσι. 
+
+IH'. .4éíyovsw, ἐν πᾶσι τοῖς ἱεροῖς ναοῖς κατοικεῖν τοὺς Δαίμονως, διαλα- 
+χόντας αὑτοὺς ἀναλόγως τῆς ἑχάστου ταξεως xci δυνάμεως. Τὸν μέντοι Σατανᾶν 
+πάλαι μὲν ἀποχληρῶσαι ἑαυτῷ 9) τὸν πολυϑρύλλητον ἐν 'Ιεροσολύμοις ναὸν, μετὰ 
+δὲ τὴν ἐχείνου καταστροφὴν 4) ἐξιδιώσασθαι τὸν ἐν τῇ βασιλίδι ταύτῃ τῶν πόλεων 
+
+
+1) Tergov. om. τῆς. 2) Ita secundum Zinum scribendum est. Wolf. p. 89 habet: 
+πῶς αἷμα.  Tergov. ὡς αἵματος. 3) Tergov. αὐτῷ. 4) Ita Tergov. — Wolf. 
+p. 102 ἀναστροφὴν. 
+
+
+8) Jes. 65, 11. b) Luc. 22, 19. c) Matth. 6, 11. d) Luc. 22, 20. e) 
+Jo. 13, 31. 
+
+
+sanetam corporis et sanguinis Domini communionem Daemonum, qui in templis 
+habitant, sacrificium appellant. Ο impia labra, o linguas execrandas! — Esaiae 
+Prophetae ad hoc probandum afferunt testimonium dicentis: qui paraverunt men- 
+sam fortunae, et Daemoni poculum impleverunt. — Nec intelhgunt homines stulti, 
+verba illa ad idololatras diei: quum inystica coena, quam nos celebramus, a Do- 
+màmo tradita sit dicente: ὅσο facite in meam commemorationem , ut docent Evan- 
+gelistae. — Caeterum et de divina hac perceptione dictum est in "Titulo Pauliciano- 
+rum: ilhe igitur quaere. — Porro communionis panem precationem illm  Pa£er 
+nosfer appellant: panem enim, inquit, quolidianum. Coninapniod duhecis íe- 
+stamentum esse dicunt, quod in Evangelio memoratur; Jic enim, inquit, calix 
+novum lestamentum. .. Utriusque autem. perceptionem mysticam coenam vocant. 
+Si quis vero subjecerit, quomodo, iuquiens, Pa£er noster ut corpus Domini 
+frangitur atque dividitur? quomodo item illud, uunc glorificafus est filius homi-. 
+"is, tanquam Servatoris senguis a vobis effunditur? se dicunt ignorare... | 
+ps xvin. In saeris omnibus templis habitare Dsemones , dicunt, quum ea 
+quisque sortitus sit pro portione ordinis et virtutie. — Satanam quidem sibi cele- 
+berrimum quondam illad Hierosolymorum templum delegiase,. quo everso eximium 
+et deeantatum ; Dei Sophiae: templusma. in hae urbium regina suscepisse.. Neque 
+
+
+A* 
+
+
+— 98 — 
+
+
+ὑπερφερὴ καὶ περιώνυμον τῆς τοῦ Θεοῦ Σοφίας oixov. Οὐ yag ὁ ὕψιστός φασιν 
+ἐν χειροποιήτοις ναοῖς κατοικεῖ 8), τὸν οὐρανὸν ἔχων χατοιχητήριον 1). 
+
+Καὶ μὴν ὁ οἶκός μου, φησὶν ὁ Κύριος, οἶχος προσευχῆς κληϑήσεται b.) 
+Καὶ αὖϑις ἔλεγεν ὁ Χριστός" μὴ ποιεῖτε τὸν οἶχον τοῦ Πατρός μου οἶχον ἐμπο-. 
+píov ^), περὶ τοῦ χειροποιήτου ναοῦ τῆς ᾿Ιερουσαλὴμ τοῦτο λέγων.. Μὲ δὲ ὁ ἐν 
+Ἱερουσαλὴμ ναὸς oixog ἦν τοῦ Θεοῦ, πολλῷ μᾶλλον ὃ ἐν τῇ βασιλίδι τῶν πόλεων. 
+Καὶ ἁπλῶς εἰπεῖν, πάντες οἱ xara τόπον ἀφιερωμένοι τῷ Θεῷ, xei τῇ ϑεομή- 
+τορι, καὶ πᾶσι τοῖς ἁγίοις ναοὶ ϑεῖοί τέ εἶσε, καὶ ἁγιαστήρια, καὶ τῶν δαιμόνων 
+φυγαδευτήρια. — "Ünov γὰρ οἰχεῖ ϑεία χάρις, ἐκεῖϑεν ἀπελήλαται πᾶν πνεῦμα πο- 
+νηρὸν, καὶ πᾶσα τῶν Δαιμόνων ἐνέργεια. 
+
+10. Móvgv ὀνομάζουσε προσευχὴν τὴν ὑπὸ τοῦ Κυρίου παραδυϑεῖσαν ἐν 
+roig EvayyeMow, ἤγουν τὸ Πάτερ ἡμῶν 3). Καὶ ταύτην μόνην προσεύχονται, 
+ἑπτάκις μὲν τῆς ἡμέρας, πεντάχις δὲ τῆς νυχτός. ὋὉσάχις δὲ εἰς προσευχὴν 9) 
+ἵστανται, λέγουσι τὴν προσευχὴν ταύτην, οἱ μὲν δεχάχις μετὰ γονυχλισίας, oi δὲ 
+πεντεχαιδεχάχις, οἱ δὲ πλεῖον, οἱ δὲ ἔλαττον 4). Τὰς δ᾽ ἄλλας πάσας προσεῦυ- 
+χὰς ἀτιμάζουσι, βαττολογίας αὐτὰς ἀποχαλοῦντες, καὶ τῆς ἐϑνικῆς μερίδος, τὴν 
+ἐν τοῖς Ευαγγελίοις εἰρημένην βαττολογίαν ἐπὶ ταύτας μετάγοντες, μὴ γινώσχον- 
+τες, ὅτι βαττολογίὰν 5) οἷδεν ὁ Εὐαγγελιχὸς λόγος οὐ τὴν ἁπλῶς πολυλογίαν, ἀλλὰ 
+τὴν περὶ τῶν μὴ προσηχόντων αἴτησιν. ὋὉ δὲ Κύριος παρέδωκε τοῖς ᾿Αποστόλοις 
+τὴν τοῦ Πάτερ ἡμῶν προσευχὴν ῥίζαν προσευχῆς καὶ εἶδος, οὐ ταύτῃ μόνῃ τὴν 
+
+
+1) Terg. οἰκητήριον. 2) Terg. addit x. v. &. (καὶ τὰ ἑξῆς). 3) Wolf. p. 114 εἰς τὴν 
+προσεύχην. 4) Terg. πλεῖον 5 ἔλαττον, δ) ἐπὶ ταύτας --- βαττολογίαν. om. Wolf. p. 118. 
+
+
+8) Act. 7, 48. b) Matth. 21, 13. c) Joh. 2, 16. 
+
+
+enim, inquiunt, in manu foctis templis altissimus habitat, cum coelum sit ejus 
+domicilium. 
+
+Atqui, Domus mea, inquit Deus, domus orationis vocabitur, et rursum, 
+ποδί, mquit Christus, facere domum Patris mei domum negotiationis, quum 
+de Hierosolymorum templo loqueretur. — Quod si templum illud erat Dei, multo 
+mepis hoc, quod est in hac urbium regina, et, ut breviter dicam, omnia templa, 
+quae quovis in loco tum Deo, tum matri ejus, tum omnibus Sanctis consecrata 
+sunt, divina sanctaque sunt, et Daemones expellunt. — Ubi enim divina habitat 
+gfatie , - inde omnis malus spiritus et omnis Daemonum vis expellitur. 
+^^ XIX. Solam preeationem appellant, quam Dominus tradidit in Evangeliis, 
+id.est Pater nosíe». — Et ca sola utuntur septies quidem die, quinquies autem 
+noete. — Sed quoties ad precandum accedunt, toties eam adhibent, ali quidem 
+decies genibus flexis, ali decies et quinquies, alii saepius, alii rarius. — Reli- 
+quas precationes contemnunt, -et multiloquia voeant, et gentibus convenire, eo- 
+que spectare multiloquium illud, de. quo in Evangelio scriptum est.. Nec ani- 
+madvertunt, im eo Evangelii loco non tam verborum multitudinem, quam rerum 
+non convenientium petitionem reprehendi. Porro Dominus noster precationem 
+iHam Paíer noster nobis tradidit tanquam obseerandi formulam , . et exemplum, ac 
+
+
+— 99 — 
+
+
+προσευχὴν περιορίζων, ἀλλ᾽ ἵνα λαμβάνοντες ἐκ ταύτης τὰς ἀφορμὰς δύνωνται 
+ποιεῖν καὶ ἑτέρας, αὐξανομένης τῆς πίστεως !). ᾿Επεὶ καὶ οὐδὲ νηστεύειν αὐτοῖς 
+κατ᾿ ἀρχὰς ἐπέταξεν, οὐδὲ παρεχώρησε σχληραγωγεῖσϑαι τοσοῦτον, ὅσον μετὰ 
+τὴν εἰς οὐρανοὺς ἀνάληψιν αὐτοῦ xci ἀποχατάστασιν. Διὸ καὶ ἔλεγε᾽ μὴ δύναν- 
+ται οἱ υἱοὶ τοῦ νυμφῶνος πενϑεῖν, ip ὅσον μετ᾽ αὐτῶν ἐστιν ὁ νυμφίος" ἐλευ- 
+σονται δὲ ἡμέραι, ὅταν ἀπαρϑῇ ἀπ᾽ αὐτῶν ὁ νυμφίος, xol τότε νηστεύσουσιν 3). 
+
+Κ΄. Ἔλεγεν ὁ τῆς αἱρέσεως αὑτῶν ἔξαρχος, ἐγγεγράφϑαι τοῖς Εὐαγγελίοις 
+αὐτῶν φωνὴν τοῦ Κυρίου λέγουσαν" τιμᾶτε τὰ δαιμόνια, οὐχ ἵνα ὠφεληϑῆτε 
+παρ᾽ αὑτῶν, ἀλλ᾽ ἵνα μὴ βλάψωσιν ὑμᾶς. Καὶ ἑρμηνεύων τὴν τοιαύτην φωνὴν 
+προσετίϑη, Ori χρῆ τιμᾷν τὰ ἐνοιχοῦντα τοῖς χειροποιήτοις ναοῖς δαιμόνια, προσ- 
+κυνοῦντας αὐτὰ, ἵνα μὴ ὀργισϑέντα διαφϑείρωσι τοὺς μὴ τοῦτο ποιοῦντας, με- 
+γάλην τοῦ βλάπτειν ἔχοντα χαὶ ἄμαχον δύναμιν, πρὸς ἣν οὔτε τὸν Χριστὸν ἐξαρ- 
+χκεῖν, οὔτε σὺν avro τὸ Πνεῦμα τὸ ἅγιον, διὰ τὸ τὸν Πατέρα φείδεσϑαι αὐτῶν 
+ἔτι, xoi μὴ περιελεῖν τὴν ἰσχὺν αὐτῶν, ἀλλὰ συγχωρῆσαι τούτοις τὴν χυριαρχίαν 
+τοῦ σύμπαντος χόσμου μέχρε συντελείας. Κααὶ γὰρ καὶ τὸν Υἱὸν χατ᾽ ἀρχὰς εἰς 
+τὸν χύόσμον ἀποστελλόμενον αἰτῆσαι μὲν τὴν παντελῆ κατάλυσιν αὐτῶν, μὴ λαβεῖν 
+δὲ ταύτην διὰ τὴν ἀγαθότητα τοῦ Πατρός. 
+
+᾿Επεὶ δὲ καὶ τὴν φλυαρίαν ταύτην ἀπὸ τῆς αἱρέσεως τῶν Μασαλιανῶν με- 
+μαϑήχασι, ζήτησον ἐν τῷ κατ᾽ ἐχείνων Τίτλῳ τὸ πέμπτον χεφάλαιον, καὶ τὰ 
+ἐφεξῆς ὀχτὼ, καὶ τοὺς ἐλέγχους εὑρήσεις i» ἐχείνοις ἀναντιῤῥήτους ?)) Εἴρηται 
+δὲ καὶ ἀνωτέρω περὶ τούτων ἐν τῷ δωδεχάτῳ κεφαλαίῳ τοῦ παρόντος Τίτλου. 
+
+
+1) Terg. προσευχῆς. 2) Terg. ἀναντειῤῥήτως. 
+a) Mattb. 9, 16. 
+
+
+radicem , non ut illis verbis precandi rationem concluderet, sed ut inde aliarum 
+precationum argumenta, propagata jam fide, sumeremus. Etenim ne ut jeju- 
+narent quidem, illis initio praecepit, neque ut aspere et duriter vitam. traduce- 
+rent, uti post illius in coelum ascensum traduxerunt. Quamobrem dicebat: non 
+possunt fili sponsi moesii esse, quamdiu cum illis est sponsus; venient. autem 
+dies, cum sponsus auferetur ab eis, et tunc jejunabunt. 
+
+XX.  Haeresis istorum princeps affirmabat, hanc Domini vocem suis in 
+Evangelüs esse scriptam: — Daemonia colite, on ut vobis prosint, sed ne obsint. 
+Quae quidem verba explicans adjiciebat, colenda esse Daemonia, quae in tem- 
+plis manu factis habitant, ne irascantur, et perdant eos, qui id facere recusa- 
+rint, cum magnam atque invictam habeant nocendi vim , cui ne Christus quidem, 
+aut Spiritus sanctus resistere valent, quoniam Pater illis adhuc ignoscit, ncc 
+adimit robur ipsorum, sed eis mundi dominatum usque ad consummationem con- 
+cedit, Neque enim Filium, quum in mundum mitteretur, et ἃ Patre totam ipeo- 
+rum eversionem postularet, eam propter bonitatem Patris impetrare potuisse. - 
+
+Verum quoniam has nugas ex Massalianorum haeresi perceperunt, quaerito 
+in eo 'itulo, qui adversus illos comscriptus est, quintum caput, et octo, quae 
+deinceps sequuntur, et argumenta ad eas evertendas aptissima reperies. — De his 
+et superius dictum est in duodecimo capite hujusce Tituli. Nam quod Daemonas 
+
+
+zc WO .ς.: 
+
+
+"Ot. δὲ καὶ τοὺς Δαίμονας ἰσχυροτέρους εἶναι λέγουσι τοῦ Χριστοῦ τε καὶ τοῦ ἁγίου 
+Πνεύματος, τίνος οὐκ ἂν sey ἄξιοι χολάσεως οἱ ϑεομάχοι xai βλάσφημοι, καὶ 
+προσκυνηταὶ καὶ ϑεραπευταὶ τῶν Δαιμόνων, xoi δαιμονιώδεις ὄντως 1) xai φιλο- 
+δαίμονες ; 
+
+ΚΑ΄. "Eun προσεγγεγράφϑαι xoi ταύτην ἔλεγε τοῦ 29) Κυρίου φωνήν" 
+τρόπῳ 3) σώϑητε, τουτέστι, μετὰ μηχανῆς καὶ ἀπάτης, ὑποχρινόμενοι τὴν πίστιν 
+τῶν ἀναγκαζόντων ὑμᾶς, καὶ οὕτω σωζόμενοι ἀπὸ χινδύνου xai ϑανάτου, τοῦ 
+map αὐτῶν. Εἷς τοῦτο γὰρ φέρειν xoi r0' ὅσα ἂν εἴπωσιν ὑμῖν ποιεῖν, ποι- 
+εἶτε, ἐν ὑποχρίσει δηλονότι, κατὰ δὲ τὰ ἔργα αὐτῶν μὴ ποιεῖτε 8) ἐν ἀληϑείᾳ. 
+Καὶ γὰρ καὶ αὐτὸν τὸν Κύριον τοῖς μὲν μαϑηταῖς ὀρϑῶς λαλεῖν, τοῖς δὲ ἀπί- 
+στοις ἐν παραβολαῖς, ἵνα βλέποντες οἱ ἄπιστοι τὸ φαινόμενον τῆς ὑποχρίσεως μὴ 
+βλέπωσι τὸ χρυπτόμενον ἐν ταῖς καρδίαις ὑμῶν, xoci ἀκούοντες μὴ ἀχούωσι, πα- 
+ραβολὴν ὀνομάζων τὴν ἀπάτην καὶ τὴν ὑπόκρισιν. | 
+
+Ἐγὼ δὲ τὴν βίβλον τῶν Εὐαγγελίων τοῦ ταῦτα διδάσχοντος εἰς χεῖρας 
+λαβὼν, καὶ διερευνησάμενος ἀκριβῶς, οὔτε. τὴν πρὸ ταύτης δηλωθεῖσαν εὗρον φω- 
+γὴν, οὔτε τὴν παροῦσαν. ᾿«“λλὰ τοιαῦτα ἤσαν τοιούτως ἔχοντα 4), xoi ἀνήγγειλα 
+
+" " , c , ἢ , € 5 , 
+τοῦτο περὶ TOVTOV. Ο δὲ σχυϑρωπάσας 9) xoi δεινοπαϑήσας ὡς ἐληλεγμένος 9) 
+ὡμολόγησε, μηδέποτε μηδ᾽ αὐτὸς ἐντετυχηκέναι 7) ταῖς δύο ταύταις φωναῖς, καί- 
+
+
+l1) Wolf. p. 80 ὄντες.Ό. 242) WoM. p. 99. τὴν. 3) Ita Tergov. Magis placet, quam quod 
+Wolfius p. 99 habet, et Zinus legit: παντὶ τρόπῳ. 4) τοιαῦτα — ἔχοντα ita Wolfius 
+p. 100 pro quo Tergovist. τοιαῦτα ἦσαν τὰ τέσσαρα Εὐαγγέλια, ola καὶ τὰ παρ᾽ ἡμῖν, ἀπα- 
+ραποιήτως ἔχοντα, quod glossam sapere videtur. δ) Wolf. l.c. σκυϑρωπήσας. 6) Wolf. 
+|l. c. ἐξηλεγμένος. 7) Wolf. l. c. évretvyéva:. 
+
+
+a) Matth. 23, 3. 
+
+
+Christo et Spiritu sancto fortiores asserunt, quo Mr nia digni non sint homines 
+impii, hostesque Dei, adorateresque et cultores Daemonum, vere a Daemoni- 
+bus vexati !)), et Daemonum amici) 
+. Hane item Domini vocem in Evangelüs scriptam asserunt: omni ra- 
+lione saluti vestrae consulite, hoc est, omni arte et dolo simulantes fidem eorum, 
+ui vos opprimunt, servate vos a periculo et morte, quae vobis ab illis Àmminet. 
+uc enim et illud spectare: quaecunque dixerint vobis, cum simulatione nimirum, 
+facile, secundum opera autem ipsorum nolite facere in veritate. — Etenim. ipeuni 
+quoque Dominum diseipulis aperte locutum esse, incredulis autem in parabolis, ut 
+increduli simulationis speciem iatuentes, nou videant id "in cordibus nestris 
+reconditum est, et audientes non audiant. — Parabolam emm, .inquiunt,. appellat 
+dolum et simulationem. E d ] ἘΝ 
+Ego vero quum. Evangeliorum librum istius doetoris in . manus cepissem , . et 
+diligenter evolvissem, neque voeem superiorem, .neque bane reperi. Sed talia 
+erant quatuor Eyangelia,. qualia sunt apud nos, neque ulla re. diserepabant. Quod 
+eum ad ipsum detulissem, ille tristis ,; et rem aegre ferens , utpote deprehensus, 
+cenfessus est, ne se quidem duas has voces, eum saepe relegeret Evaugelium, de- 
+1) Recte:  Daemonibus similes. 
+
+
+00$ 
+
+
+eu AA. πος 
+
+
+τοι πολλάχις ἀναγινώσχων τὸ Εὐαγγέλιον. — "Ore δέ, quoi, τὴν παροῦσαν βίβλον 
+τῶν Εὐαγγελίων ἐξωνησάμην, ἀπήντησα γέροντε χατά τινα τόπον ἔρημον, xoi xa- 
+λέσας ἀπὸ τοῦ ὀνόματος εἶπέ μοι, ὅτι μέγαν ἐξωνήσω ϑησαυρόν᾽ ταύτην γὰρ μό- 
+γην τὴν βίβλον διαφυγοῦσαν τὰς γεῖρας ᾿Ιωάννου τοῦ Φυρσοστόμου 1), τὸν γὰρ 
+Χρυσόστομον οὕτως οἱ ἀχαϑαρτόατομοι προσωνόμαζον, ἔχειν ἐγγεγραμμένας τὰς 
+εἰρημένας δύο φωνὰς, ἐχβληϑείσας ἀπὸ τῶν ἄλλων Ευαγγελίων. Πιστεύσας δὲ 
+τοῖς ἐχείνου λόγοις ἐγὼ κηρύττω xai ταύτας, ὡς T5 ἐμὴ βίβλῳ τῶν Εὐαγγελίων 3) 
+ἐγγεγραμμένας. Ὁ μὲν οὖν τοιαύτην ἐποιήσατο τὴν ἀπολογίαν, ἐγὼ δὲ συνῆχα 
+ταχέως, ὅτι ὁ Σατανᾶς ἦν ὁ τὸν ψευδόγηρυν 8) ἐχεῖνον ὑποχρινάμενος. 
+
+KB'. .4íyovos τοὺς 4) τῆς πίστεως αὐτῶν, ὅσοις ἐνοικήσει τὸ παρ᾽ αὑτοῖς 
+ἅγιον πνεῦμα, πάντας 5) ϑεοτύχους xai εἶναε καὶ ὀνομάζεσϑαι, βαστάσαντας καὶ 
+αὐτοὺς τὸν “όγον τοῦ Θεοῦ, καὶ γεννήσαντας αὐτὸν διὰ τοῦ διδάσχειν ἑτέρους, 
+καὶ μηδὲν πλέον αὐτῶν ἔχειν τὴν πρώτην ϑεοτόχον. Καὶ οὐδὲ τοσοῦτον γοῦν 
+φρονοῦσιν, ὅσον εἰδέναι διαφορὰν ἐνυποστάτου xai ζῶντος “όγου ἁπλῶς 9) λόγου 
+προφορικοῦ, ἵνα παραδράμωμεν τὰ κατὰ τὴν χυρίως ϑεοτόχον φριχτὰ καὶ παρᾶ- 
+δοξα μυστήρια. «“Τέγουσι, τοὺς τοιούτους μὴ ἀποθϑνήσχειν, ἀλλὰ μεϑίστασθαι, 
+χαϑάπερ ἐν ὕπνῳ, τὸ πηλενὸν τουτὶ καὶ σαρχινὸν περιβόλαιον ἀπόψγως ἐχδυομένους, 
+
+
+1) lta Cod. Vienn. 270 et Euthymius noster in Fogginii anecdotés litterarise vol. IV, 
+p.97 recte. Apogr. Fell. et Zinus perperam zQucootógov, Tergovist. φρισοστόμου. Lecti- 
+one vera restituta per se cadunt conjecturae et Wolfii p. 101 κοπροστόμου et Oederi p..26 
+χρηστοστόμου. 24) τῶν Εὐαγγελίων om. Wolf. l. c. — 3) Ita Tergov. et Wolfius pro vtv- 
+δογέροντα. 4) Wolf. p. 83 τοῖς. 5) Wolf. l. c. om, πάντας. 6) Apogr. Fell. et 
+Tergov. λόγου, ἁπλῶς λόγου. Wolfius p. 84 conjicit, pro ἁπλῶς aut ἀπὸ τοῦ aut καὶ 
+ἁπλῶς legendum esse.  Equidem.scripserim ἁπλῶς ἀπὸ λόγον. ᾿ 
+
+
+rehendisse. — Sed quum librum hunc, inquit, Evangeliorum emi, in quadam so- 
+itudine senem offendi , qui me nomine compellans ait, me thesaurum magnum 
+emisse; illum enim librum solum Joannis Chrysostomi !), sic enim aureum illud 
+os impurissimae istorum linguae appellant, manus effugisse, et duas illas voces, 
+quas diximus, continere, quae ss pai voces ex aliis Evangeliis exclusae sint. Cu- 
+jus ego verbis, imquit, fidem habens praedico, duas item has voces in Evange- 
+116 scriptas esse. — llle isses hanc attulit defensionem. — Ego vero statim intel- 
+lexi, Daemonem fuisse illam, qui sub mendacis senis persona locutus fuerat. 
+
+. Ajunt, suos omnes, in quibus Spiritus sanctus habitat, Dei parentes 
+et esse et nominari, quum ipsi quoque Dei Verbum coneipiant, ct in utero ge- 
+rant, atque etiam pariant, dum alios docent; et nihil amplius, quam ipsi habeant, 
+habere primam illam Dei genitrieem. — Nec tantum habent mentis, ut intelligere 
+valeant, quid intersit inter Verbum in sua subeistens persona, et verbum , quod 
+ore pronuntiatur, ut omittamus res venerandas et admirabiles, quae in Dei geni- 
+trice propriae sunt. Αἱ qui sint ejusmodi, eos negant mori, sed tanquam in 
+somno transmutari, et sine ullo labore coenosum hoc carnis indumentum exuere, 
+
+
+1) Recte: Joannée émpuriée oris. 
+
+
+— 853 -- 
+
+
+καὶ τὴν ἄφϑαρτον xai ϑείαν τοῦ Χριστοῦ στολὴν ἐνδυομένους, καὶ γενομένους 
+συσσωμοὺς καὶ συμμόρφους αὑτοῦ, μεϑισταμένους διὰ προπομπῆς «γγέλων καὶ 
+᾿“ποστόλων εἰς τὴν βασιλείαν τοῦ Πατρὸς, τὸ δ᾽ ἀποδυϑὲν σῶμα τούτων εἰς τέ- 
+φραν καὶ κόνιν διαλύεσθαι μηχέτε μηδαμῶς ἀνιστάμενον. 
+
+Ὅτι δὲ ov καϑάπερ ἐν ὕπνω xai ἀπεχδύσει περιβολαίον γίνεται τούτοις 
+ἀνώδυνος ὁ ϑάνατος, ἔδειξεν ὁ τῆς αἱρέσεως αὑτῶν ἔξαρχος, πολλαῖς ὀδύναις ὑπο- 
+βληϑεὶς, μετὰ τὸ δοϑῆναι κατ᾽ αὐτοῦ τὴν διὰ πυρὸς ἀπόφασιν, καὶ τῷ φόβῳ 
+προσκαταδαπανηϑεὶς, xai καιρίας πληγὰς εἰς τὴν καρδίαν δεξάμενος, ὅτε τοῦ δρά- 
+μώτος ἀπογυμνωθέντος ἔγνω κατασοφισϑεὶς, τῶν μυστηρίων μὲν τῆς πίστεως αὖ- 
+τοῦ δημοσιευϑέντων καὶ παραδοϑέντων γραφῇ πρὸς ϑρίαμβον, τῶν μαϑητὼν δὲ 
+αὐτοῦ xai μάλιστα συγγενῶν καὶ τῶν ἄλλως γνησιωτέρων σαγηνευϑέντων, καὶ ταῖς 
+εἱρχταῖς ἐναποκλεισϑέντων, καὶ παᾶσης αὐτῷ πανταχόϑεν βοηϑείας ἀπολωλυίας, καὶ 
+φρούδων τῶν ἐλπίδων γεγενημένων. Τοὺς γὰρ μαϑητάς, ὡς εἴρηται, καὶ συγγε- 
+νεῖς οὕτως ἐλεεινῶς ἔχοντας ἰδὼν παρὰ πᾶσαν προσδοχίαν, μέχρε γὰρ τῆς τελευ- 
+ταίας ἡμέρας ᾧετω πάντας ἐν ἀγαϑοῖς yas xarà τὴν τοῦ βασιλέως ὑπόσχεσιν, 
+καὶ προδοσίαν παρ᾽ αὐτῶν 1) ἐγκληϑεὶς, ἀφῆκε μὲν πιχρῶν δακρύων πηγὰς, ἂν- 
+ἑπεμψε δὲ στεναγμοὺς βυϑίους τὴν ἔνδον τῆς καρδίας φλόγα μηνύοντας, καὶ χα- 
+ϑάπερ τυφῶνι ταῖς συμφοραῖς βληθεὶς ἐλειποϑύμει, xci ἀναχτώμενος αὖϑις κατ- 
+ἐφέρετο, στῆναι μὴ δυνάμενος, ἕως ὑπὸ τῶν Cyn» κελευσϑέντων ἀρϑεὶς, βασταζό- 
+μένος ἀπηχϑὴ πρὸς τὴν πυρὰν, καὶ τῆς φωνῆς αὐτὸν ἐπιλειπούσης πυχνῷ τῷ 
+ἄσϑματι κατασχεϑεὶς ἠχοντίσϑη κατὰ τῆς φλογὸς, xai ὡλοκαυτώϑη τῷ προσχυ- 
+γουμένῳ παρ᾽ αὐτοῦ δαίμονι. Καὶ αὐτὸς μὲν ἐξεδήμησεν ἐπὶ 3) τὸν ἡτοιμασμένον 
+Ἀ 
+
+
+1) παρ᾽ αὐτῶν Wolf. p 33 omittit. 4) Tergov. πρὸς. 
+
+
+atque immortalem δὲ divinam Christi stolam induere, idemque corpus et formam 
+eandem induere, et praeeuntibus Angelis et Apostolis in Patris regnum admitti : 
+corpus àutem , quod exuerint, in cinerem pulveremque dissolvi, nunquam amplius 
+surrecturum. | 
+Sed falsum esse, quod tanquam in somno corporis exuant vestimentum, et 
+sine dolore moriantur, Princeps haeresis ipsorum ostendit, qwi magnis affectus 
+doloribus, et post latam adversus eum sententiam, ut igne cremaretur, formidiue 
+excruciatus, letalis vulnera in cor accipiens, tanquam histrionis habitu deposito, 
+impostor cognitus est, mysteriis fidei ipsius quee patefactis , et literarum monu- 
+mentis trophaei loco consignatis, quum et discipuli ejds, et illi praesertim, qui 
+sanguine et necessitudine conjuncti erant, in carcerem et vincula conjecti sunt, et 
+omnibus ipse er auxiliis et inani spe spoliatus est. Quum enim discipulos 
+et necessarios , ut dictum est, tam misere allectos perspiceret, quos ad extremum 
+usque diem felices futuros ex Regis promissis cxislimabat , seque ab illis proditio- 
+nis ineusari, fontes emisit lacrymarum, et profundos edidit gemitus, quibos cor- 
+dis flamma indicabatur. — Calamitatum igitur tauquem turbine quodam  jactatus 
+animo defieiebat, et spiritum recipiens rursum torquebatur, et consistere nou pot- 
+erat, donec a ministrie sublatus ad pyram tractus, et voce deficiente anhelituque 
+rpetuo laborans in flammam conjectus est, atque ita Daemoni, qu adoraverat, 
+effectus holocaustum. — Sic ipse quidem in locum tenebrarum et aliorum malorum 
+
+
+"TM. 
+
+
+αὐτῷ τόπον τοῦ σχότους xal τῆς ἄλλης xaxccsog. Τὸ σῶμα δὲ τοῦ τρισαϑλίου 
+τούτου γέροντος ἀναστήσεται πάντως ἐν τῇ ἡμέρᾳ τῆς κοινῆς ἀναστάσεως χατὰ 
+τὴν τοῦ Σωτῆρος ἀπόφασιν, εἰρηκότος, ἀναστήσεσθαι καὶ τοὺς τὰ φαῦλα πραξαν- 
+τας εἰς χόλασιν αἰώνιον" εἰ χαὶ αὐτὸς μὴ εἶναι τῶν τεϑνεώτων ἀνάστασιν ἐδογμά- 
+Tie, τὰς τοσαύτας τοῦ ᾿Αἰποστόλου περὶ ταύτης μαρτυρίας xal γενναίας ἀποδεί- 
+ξεις ὡς ψευδεῖς παρωϑούμενος | 
+
+KI". «έγουσιν, ovx ὄναρ μόνον πολλάκις, ἀλλὰ καὶ ὕπαρ βλέπειν τὸν 
+Πατέρα μὲν ὡς γέροντα βαϑυγένειον, τὸν δὲ Υἱὸν ὡς ὑπηνήτην ἄνδρα, τὸ δὲ 
+Πνεῦμα τὸ ἅγιον ὡς λειοπρόσωπον νεανίαν, τῶν Δαιμόνων εἰς τὰ εἴδη ταῦτα ῥα- 
+δίως μετασχηματιζομένων, καὶ ἐξαπατώντων αὑτοὺς xai διδασχόντων, ἄνισον εἶναι 
+τὴν ἁγίαν Τριάδα xal διάφορον xarà τὴν τῶν σχημάτων τούτων 1) διαφορὰν, καὶ 
+τὴν ᾿Δρειανικὴν χατατομὴν τῆς μιᾶς φύσεως τούτοις ἐγχατασπειρόντων. 
+
+Κ4᾽. Στολίξονται κατὰ Μοναχοὺς, καὶ τὸ σχῆμα τούτων ὡς δέλεαρ περι- 
+βάλλονται, τῷ χωδίῳ τὸν λύχον ὑποχρύπτοντες, ὡς ἂν εὐλαβῶς διὰ τὸ σχῆμα πα- 
+ραδεχόμενοι, καὶ χώραν ὁμιλίας λαμβάνοντες ἀνυπόπτως διὰ τῆς χρηστολογίας 3) 
+ἐναποπτύωσι τὸν ἰὸν ταῖς ἀχοαῖς τῶν ἀχροωμένων. 
+
+KE. Πάσης ἑβδομάδος δευτέραν καὶ τετράδα καὶ παρασχευὴν παραγγέλ- 
+λουδι νηστεύειν ἕως ὥρας ἐννάτης. Εἰ δὲ τις αὐτοὺς ἐπὶ τράπεζαν χαλέσειεν, εἰ- 
+ϑὺς ἐχλαϑόμενοι τῆς παραγγελίας ἐσθίουσι καὶ πίνουσιν ὡς ἐλέφαντες. — 'Ex τού- 
+του δὲ πρόδηλον, ὃτε ἀσελγαίνουσιν, εἰ xoà πορνείαν καὶ τὴν ἄλλην ἀχαϑαρσίαν 
+λόγῳ χολάζουσιν, ὡς ἄσαρχοι xal ἀσώματοι. 
+
+
+. 1) τούτων Wolf. p. 56 omittit. — 2) Wolf. p. 133. χριστολογίας. 
+
+
+sibi paratum profectus est. ^ Corpus autem infelicissimi senis resurget omnino in 
+die communis resurrectionis ex Domini sententia, qui dixit, homines resurrectu- 
+ros, iturosque, qui mala egerint, in supplicium sempiternum; quamvis iste mor- 
+tuorum resurrectionem tam multis Apostoh testimoniis de illa demonstrationibus- 
+que tanquam falsis rejectis futuram negavit. 
+
+Ill. Dicunt, se non in somnis solum, sed ctiam re vera cernere Pa- 
+trem tanquam senem profunda barba praeditum, Filium tanquam juvenem pube- 
+scentem, Spiritum sanctum imberbem adolescentem ; qaum eis Daemones ita se fa- 
+eile eonspicuos praebeant, quo illos hae formarum varietate decipiant, doceantque 
+imparem esse sanetam "Trinitatem et discrepantem , Arianamque unius naturae 
+seetionem illis injiciant. 
+
+IV. Monachorum more se vestiunt, et eorum habitum tanquam escam 
+assumunt, veste lupum abscondentes, quo faciliores aditus et colloquendi faculta- 
+tem propter habitam assequantur, et sine suspicione per sermonum benignitatem 
+auribus audientium venenum injiciant. | ; 
+᾿ 'Seceunda, et quarta, et sexta die singularum hebdomadum jejunium 
+imdieunt usque ad horam nonam. (Quod si quis eos ad convivium vocet, statim 
+obliti praecepti sui edunt et bibunt tanquam elenhantes. Ex quo patet, eos etiam 
+impudice vivere, lieet fornicationem et omnem aliam libidinem tanquam carnis et 
+eorporis expertes verbis insectentur. 
+
+Jj 
+
+
+uu Ἰ nex 
+
+
+Kg'. Ἔν ἀρχῇ μὲν τοὺς εἰσαγωγικοὺς ἁπλῶς διδάσκουσι, παρεγγυώμενοι 
+πιστεύειν εἰς Πατέρα καὶ Υἱὸν καὶ ἅγιον Πνεῦμα, καὶ γινώσχειν, τὸν Χριστὸν 
+σεσαρχῶσϑαι, καὶ δοῦναι τοῖς ἁγίοις ᾿Αποστόλοις τὸ ἱερὸν Εὐαγγέλιον, xal ὑποτι- 
+ϑέμενοι τηρεῖν τὰς Εὐαγγελικὰς ἐντολὰς, xai προσεύχεσθαι, καὶ νηστεύειν, καὶ 
+ἄγνευύειν πάσης ἀχαϑαρσίας, καὶ ἀχτημονεῖν, xci ἀνεξικαχεῖν, xai ταπεινοφρονεῖν, 
+καὶ ἀληϑεύειν 1), χαὶ ἀγαπᾷν ἀλλήλους. Καὶ ἁπλῶς χρηστὰ πάντα κατηχοῦσι, 
+σαίνοντες μὲν τῇ χρησίμῳ διδασκαλίᾳ, ϑηρεύοντες δὲ κατὰ μικρὸν καὶ λεληϑότως 
+ἄγοντες εἰς ἀπώλειαν. Καιροῦ γὰρ προβαίνοντος ἐπισπείρουσε τῷ σίτῳ καὶ ξιζά- 
+v4, καὶ ὅταν 2) τοὺς ἀϑλίους χειροήϑεις xai πειϑηνίους ἐργάσωνται, καὶ λαβω- 
+σιν εἴσω τῶν ἀρχύων, τότε δὴ, τότε τὸν χκυχεώνα τοῦ δηλητηρίου ποτίζουσιν asa- 
+ραχαλύπτως βλασφημοῦντες, καὶ τὰ δόγματα τοῦ διαβόλου μυσταγωγοῦντες 
+αὑτούς. | 
+
+KZ'. ἡηαρερμηνεύουσιν ὅλας τὰς προειρημένας ἑπτὰ βίβλους, τὰ ῥήματα 
+τούτων στρεβλοῦντες, καὶ τῆς ὀρϑῆς ἐχτρέποντες ἐννοίας, xai πρὸς τὸ δοκοῦν av- 
+τοῖς μεταφέροντες. Καὶ ὅσα μὲν περὶ ἁμαρτανόντων xai ἀσεβούντων xal εὐδωλο- 
+λατρούντων ἐν αὐτοῖς εἴρηται, ταῦτα τοῖς καϑ᾽ ἡμᾶς πιστοῖς ἀνατιϑέασιν' ὅσα 
+δὲ περὶ εὐαρεστούντων ϑεῷ, πρὸς ἑαυτοὺς ἕλχουσε, καὶ μετὰ πληροφορίας ἕἑαυ- 
+τοὺς εἶναι τοὺς ἐχλεχτοὺς xoi δικαίους καὶ κληρονόμους τοῦ ϑεοῦ λέγουσιν.  'Exa- 
+στην 9) μὲν οὖν ἐξήγησιν βίβλου παρ᾽ ἐχείνων ὑφηγουμένην, μᾶλλον δὲ σπαρατρο- 
+πὴν xui τοῦ καϑεστηκότος ἐξαλλαγὴν, μαχρὸν ἂν εἴη συγγράφειν, καὶ χρόνου πολ- 
+λοῦ δεόμενον, xal σαφὴς ματαιοπονία, καὶ χόπος εἰς οὐδὲν χρήσιμον καταλήγων. 
+yos γὰρ ὀλίγου προβαίνοντες, οἱ ἀναγινώσκοντες, καὶ πρὸς τὰς ἀτοπίας τῶν 
+
+
+1) καὶ ἀληϑεύειν om. Wolfius p. [3]. 2) Wolf. |. c. ὅτε. 3) Wolf. p. 52. ἑχάστης. 
+
+
+XXVI. Principio quidem initiandos simpliciter docent et hortantur, ut ere- 
+dant in Patrem, et Filium, et Spiritum sanctum, discantque, Christum carnem 
+induisse, dedisseque sanctis Apostolis sacrum Evangelium. Et jubent, ut evange- 
+liea mandata custodiant, ct precentur, et jejunent, seque ab omni nequitia puros 
+integrosque conservent, et nihil possideant, clementesque sint atque humiles, et 
+veritatis studiosi , mutnaeque benevolentiae. Omnia denique boua praecipiunt, uti- 
+lue doctrina pelliciunt, paulatimque venantur, et ad interitum trahunt. Tem 
+ri$ enim asy o aes &üiüco zizania injiciunt. Εἰ cum miseros sibi subjectos obedi- 
+entesque reddiderint, atque intra retia habuerint, tunc veneni potionem propinant, 
+aperteque maledicunt, et Diaboli mysteria tradunt. | 
+
+XXVII. Totos septem libros, quos diximus, sic interpretantur, ut eos 
+vertant, verbaque detorqueant a recta sententia, et suis accommodant opinionibus. 
+Et quicquid in illis adversus peccatores, et impios, εἰ idololatras dictum est, id 
+contra mos dictum asserunt; quicquid autem de amicis Dei, id δά δὲ trahunt, con- 
+fidenterque electos, et justos, et haeredes Dei suos esse contendunt. Magnus igitur 
+laber esset, et longus, et stultus, atque inutilis, si quis librorum singaleram perrer- 
+sas.expositiones, qe«as afferunt, a proposito abhorrentes, velit refellere. | Vereor 
+enim, ne, qui legunt, paululum progredientes ineptis ipsorum maledictis sic of- 
+
+
+-.- δᾷ ... 
+
+
+βλασφημιῶν εὐθὺς ἀποχναίοντες. καὶ καϑάπερ οἱ ναυτιῶγτες ἰλίγγου xal σχοτοδι- 
+víag μεστοὶ γενόμενοι, ῥίψουσιν εὐθὺς, εὖ 1) οἶδα, τὰ περὶ τούτων συντάγματα, 
+καὶ καταπτύσουσι, χαὶ ἀποστραφήσονται, πολλὴν ἀχαιρίαν χατασχεδαννύντες ἡμῶν. 
+: Ἵνα δὲ μὴ δοκῶμεν πλάττειν ἀπολογίαν, καὶ πειρᾶσϑαι διαδιδράσχειν τὸν ἐν τού-- 
+τοις πόνον, ὀὠλίγα ῥητὰ τοῦ χατὰ Ματϑαῖον Εὐαγγελίου χατὰ τὴν ἐχείνων πα- 
+ραπληξίαν διερμηνεύσαντες, ἵνα μὴ λέγω 3) διαστρέψαντες, δείξομεν ἀπὸ τοῦ γεύ- 
+ματος τὸν πίϑον, καὶ ἀπὸ τοῦ ῥεέϑρου 3) τὴν πηγὴν, καὶ ἀπὸ τοῦ χρασπέδου 
+τὸ ὕφασμα. — Ovx ἐπαξομὲν δὲ ταῖς διεστραμμέναις ταύταις ἑρμηνείαις ἐλέγχους, 
+αὐτελέγχτοις οὔσαις. Οὐδὲ γὰρ ἀντιῤῥητικὸς ἡμῖν ὁ ἐφεξῆς λόγος, ἀλλὰ μόνον 
+ἐνδειχτικὸς τῆς ἐνδιαστρόφου τούτων ἐξηγήσεως τῶν παραδεχϑέντων αὑτοῖς βιβλίων. 
+
+KH'. Βδηϑλεὲμ ὀνομάζουσι τὴν συναγωγὴν ἑαυτῶν. Ἔν αὐτοῖς γὰρ γεν- 
+νηϑῆναί φασι 4) τὸν Χριστὸν, ἤτοι τὸν ,Τόγον τοῦ Θεοῦ, τὸν κηρύττοντα τῆς 
+πίστεως τὴν ἀληϑειαν. Ἡρώδην δὲ νοοῦσι τὴν χαϑ᾽ ἡμᾶς ᾿Εχχλησίαν πειρωμέ- 
+γὴν ἀνελεῖν τὸν παρ᾽ αὑτοῖς γεννηθέντα “ύγον τῆς ἀληϑείας. Καὶ Μαγους μὲν 
+αὖϑις προσαγορεύουσιν ἑαυτοὺς, τοῦτο μόνον ἀληϑεύοντες᾽" γόητες γὰρ εἰσιν ὃν- 
+τως, χαὶ λυμεῶνες, xol ἀλάστορες. “Ἱεροσόλυμα δὲ πάλιν ὀνομάζουσι τὴν ἡμετέ- 
+pav ᾿Εχχλησίαν, ἀστέρα δὲ τὸν Μωσέως vouov' ὑπ᾽ αὐτοῦ γὰρ ὁδηγηϑῆναί φα- 
+σε 9) μέχρι τῆς καϑ᾽ ἡμᾶς πίστεως — Etva παρὰ τῶν doyuwgéov αὐτῆς καὶ τῶν 
+ἄλλων Τραμματέων καὶ διδασχάλων μαϑεῖν avrovg, ὅτι ὁ Χριστὸς ἐν τῇ δηλω- 
+ϑείσῃ γεννᾶται Βηϑλεέμ᾽ ἀφ᾽ ἡμῶν γὰρ γενέσθαι τοὺς πρώτους διδασχάλους 
+αὐτῶν. 
+
+ΚΘ΄. "Μυϑεύονταει, ' Ῥαχὴλ 8) γεγονέναι τινὰ γυναῖχα χήραν, δύο ϑυγατέρας 
+
+
+1) Terg. om. εὖ, 2) Tergov. λόγῳ. 3) Tergov. $ei8gov. 4) et 5) Wolf. p. 123 
+om. φασι. 
+
+
+a) Cf. Matth 2, 18. 
+
+
+fendantur, ut nauseantium instar vertigine et tenebris pleni, quae de illis scribi- 
+mus statim abjiciant, despiciantque, et aspernentur, nosque ut importune laboran- 
+tes accusent. — Verum ne videamur fingere apologiam, laboremque fugere, pauca 
+quaedam er dicta in Evangelium Matthaei strictim attingemus, quae tanquam 
+ex gustu dolium, et ex rivulo fontem , et ex ora vestimentum indicabunt. eque 
+vero ea conabimur confutare, cum semet ipsa confutent. Neque ea nunc recense- 
+mus, ut refellamus, sed ut ex 1llis tuis. quam iuepta sit et absurda ipso- 
+rum interpretatio in eos libros, quos approbant. 
+
+XXVII — Synagogam suam appellant Bethleem. — In. se enim Christum 
+nasci, seu Verbum Dei, quo fidei veritas praedicatur. — Nostram autem Ec- 
+clesiam Herodem interpretantur, quae verbum apud eos matum conetur occidere. 
+Magos item se ipsos vocant, qua quidem in re sola verum dicunt: sunt enim vere 
+perniciosi praestigiatores et impostores. ^ Hierosolymam nostram appellant Eccle- 
+siam, stellam autem Mosis legem: ea enim duce ad nostram usquc fidem per- 
+veniri. Deinde a sacerdotibus ipsius, et scribis, et doctoribus dicunt se discere, 
+Christum nasci in Bethleem, antedicta: a nobis enim primos ipsorum magistros 
+esee pecctoe " ! 
+
+. Fingunt, Rachelem fuisse mulierem quandam viduam , quae quum 
+5* 
+
+
+x ὅδ... 
+
+
+ἔχουσαν, νηπίαν ἀγούσας ἡλικίαν. — "Ore δὲ τὰ ἄῤῥενα βρέφη συνῆγεν ὁ ἩΗρώδης, 
+ὑπολαβοῦσαν, τιμῆς αὐτὰ xoi χαρίτων ἀξιοῖσϑαι παρ᾽ αὐτοῦ, μετασχηματίσαι 
+ταῦτας εἰς ἀρῥένας, καὶ προσαγαγεῖν ὡς υἱούς. ᾿Επεὶ δὲ καὶ ταῦτα τοῖς ἄλλοις 
+ὡς ἄῤῥενα συνανῃρέϑη, τὰς μὲν ἄλλας μητέρας χλαίειν ἁπλῶς, τὴν δὲ ᾿Ῥαχὴλ 
+ἀπαράκλητα, διότι σπεύσασα κατασοφίσασϑαι χκατεσοφίσϑη μᾶλλον, καὶ τὰς ϑυ- 
+γατέρας αὐτὴ μάτην 1) ἀπώλεσεν. ᾿Ω“λληγοροῦντες δὲ τὸν λόγον φασὶ 'Payr μὲν 
+τὸν ἐπουράνιον πατέρα, τέχνα δὲ αὐτοῦ τήντε ψυχὴν τοῦ ᾿Αδὰμ xai τὴν ψυχὴν 
+τοῦ 2) Χριστοῦ, ὧν ἀναιρεϑεισῶν παρὰ τοῦ Ἡρώδου, δηλονότι τοῦ Κοσμοχράτο- 
+ρος, χλαίειν ἀπαράκλητα τὸν Πατέρα διὰ τὴν τούτων ἀναίρεσιν. 
+
+Α΄. Αὐτὸς δέ, φησιν 3), ὁ ᾿Ιωάννης εἶχε τὸ ἔνδυμα αὐτοῦ ἀπὸ τριχῶν 
+καμήλου, καὶ ζώνην δερματίνην περὶ τὴν ὑσφὺν αὐτοῦ, ἡ δὲ τροφὴ αὐτοῦ ἣν 
+ἀχρίδες καὶ μέλι ἄγριον ἃ. Ταῦτα μὲν τὰ τοῦ Εὐαγγελιστοῦ ἢ) ῥητά. Σκοπη- 
+τέον δὲ καὶ, τί λέγουσι περὶ τούτων oi ἐμβρόντητοι καὶ μεμηνότες καὶ maganai- 
+οντες. Τρίχας uiv χαμήλου φασὶ τὰς ἐντολὰς τοῦ Μωσαϊκοῦ νόμου, καὶ τοῦτον 
+γὰρ ἀκάϑαρτον εἶναι κατὰ τὸν 5) κάμηλον, ὡς κρεωφαγίαν, καὶ γάμον, καὶ 0Q- 
+xor, καὶ ϑυσίας, καὶ φόνους, xai πολλὰ τοιαῦτα τοῖς ὑπηχόοις ἐντελλόμενον 9). 
+Ζώνην δὲ λέγουσι δερματίνην τὸ ἱερὸν Εὐαγγέλιον ὡς δέρμασι προβάτων ἐγγεγραμ- 
+μένον" καὶ αὖϑις ἀχρίδας μὲν τὰς τοῦ Μωσαϊχοῦ νόμου παραγγελίας, ὡς μὴ κρι- 
+νοῦσας ὀρϑὰ, μηδὲ διαχρινούσας τὸ βέλτιον" μέλι δὲ ἄγριον τὸ ϑεῖον Εὐαγγέλιον; 
+
+
+1) Wolf. p. 53 πάλιν. 2) Wolf. 1. c. om. ψυχὴν τοῦ. 3) Wolf. p. 91 φασιν. 4) Wolf. 
+|l. c. Evayyciov. δ) Tergov. τὴν. 6) Wolf. l. c. ἐντελλόμενα. 
+
+
+a) Matth. 3, 4. 
+
+
+duas haberet infantes filias , quo tempore Herodes pueros mares congregavit , ho- 
+norem et gratiam apud ipsum se existimans inituram , eas in marium speciem 
+mutatas attulit. Verum quum et filiae suae tanquam mares una cum aliis essent in- 
+terfectae, et reliquae matres lugerent; Rachel ita plorabat, ut nullam admitteret 
+consolationem: quoniam, dum: conaretur decipere, decepta fuerat, ser nd jn 
+suas temere perdiderat. Atque hoc allegorice iuterpretantes dicunt, Rachelem Pa- 
+trem esse coelestem , cujus filiae sint anima Adae ct anima Christi, quibus ab 
+Herode, id est a mundi Principe, sublatis Patrem lugere mortem illarum, nec 
+ullam consolationem admittere. 
+
+Ipse Joannes, inquit, Aabebat vestimentum suum de pilis camelorum, 
+el zonam pelliceum circa lumbos suos , et cibus ejus erant locustae et mel sylvestre. 
+Haec sunt Evangelistae verba. Consideremus, quid de his etiam dicant attoniti et 
+insani ac nugatores isti. — Cameli pilos Mosaicae legis dicunt esse praecepta, quae 
+ipsa quoque, ut camelus, impura sit, quum et esum carnium, et nuptias, et jus- 
+jns um, et sacrificia, et caedes, et alia multa his similia subditis permittat. 
+
+onam vero pelliceam sacrum Evangelium interpretantur, quod ovium pellibus 
+inscriptum est. Rursumque Mosaicae legis adhortationes locustas appellant , quae 
+dijudicare nequeunt ea, quae recta sunt, neque id perspicere, quod melius est. 
+el autem ss γεοῖρε vocant Evangelium , quod mel videtar ilis, & quibus suscipi- 
+
+
+uc d cu 
+
+
+μέλε μὲν φαινόμενον τοῖς παραδεχομένοις αὐτὸ (ὡς yÀvxéu yap, φησι, τῇ λάρυγ- 
+γί μου τὰ λόγιά σου 9)), ἄγριον δὲ τοῖς μὴ παραδεχομένοις διὰ τὴν πιχρίαν τῆς 
+xat αὐτὸ στενῆς πύλης καὶ τεϑλιμμένης ὁδοῦ. Τὸν πρόδρομον γὰρ μέσον γενέ- 
+σθαι χαὶ τοῦ παλαιοῦ νόμου xci τοῦ νέου, χαὶ μετασχεῖν ἀμφοτέρων, τοῦ μὲν 
+πρότερον, τοῦ δὲ ὕστερον. ᾿ 
+
+.14΄. Φαρισαίους καὶ Σαδδουκαίους ἐρχομένους ἐπὶ τὸ βάπτισμα ᾿Ιωαν- 
+vov P) προσαγορεύουσι τοὺς xaÜ' ἡμᾶς πιστούς ὠ τῆς ἀναισχυντίας!' ^ Eia 
+καϑυβρίξοντες ὀνομάζουσιν ἡμᾶς γεννήματα ἐχιδνῶν, ἤγουν σπέρματα τοῦ ὄφεως, 
+τοῦ συγκαταχλιϑέντος, ὡς προδεδήλωται, τῇ δῦᾳ. Καὶ παραινοῦσι μὴ δυσχεραί- 
+νειν, ὡς ὑπὸ τοῦ Βαπτιστοῦ ᾿Ιωάννου ἀψευδῶς τοῦτο προσαγορευϑέντας V). 
+
+AB'. Ὑποδήματα μὲν τοῦ Χριστοῦ “) λέγουσε τὰ ὑποδείγματα τῶν ση- 
+μείων, ἅπερ ὑπέδειξε τοῖς μαϑηταῖς καὶ τοῖς ὄχλοις, ἃ μὴ ÓvvaoO a, βαστάσαι 
+τὸν loavygv, ὡς ἀδυνατοῦντα πάντως ὑποδεῖξαι τοιαῦτα χαὶ αὐτόν. ΠΠτύον δὲ 
+τοῦ Χριστοῦ 9) τὸν Ευαγγελιχὸν λόγον ὡς ἀποπτυσϑέντα διὰ τοῦ στόματος αὐτοῦ" 
+xai ἅλωνα μὲν τοὺς Χριστιανοὺς, ὡς ἄλλους καὶ ἄλλους, τοὺς μὲν γὰρ ὀρϑοδό- 
+ἕρυς εἶναι, τοὺς δὲ τοὐναντίον ἑτεροδόξους᾽ σῖτον δὲ τὴν ἑαυτῶν πίστιν, ὡς xa- 
+ϑαράν τὲ καὶ τρόφιμον᾽ ἄχυρον δὲ τὴν καϑ᾽ ἡμᾶς ὡς ἄχρηστον καὶ πυρὸς ἀξίαν. 
+Tíg ἂν εὐσεβὴς ἀκοὴ τοιούτων ἀνάσχοιτο βλασφημιῶν; Οἰδεῖ πρὸς τὰς ἀτοπίας 
+ταῦτας ἡ ἐμὴ ψυχὴ, καὶ τὰ αἰσϑητήρια μου μαιμάσσει xarà τὸν προφήτην 5), καὶ 
+βούλομαι τὸν λόγον ἐχχόψαι χαὶ μὴ προβῆναι περαιτέρω, μηδὲ φωτὶ xoi μνήμῃ 
+
+
+1) Tergov. προσαγορευϑέντα. 
+a) Ps.119, 103. b) Matth. 8,7. c) Cf. Mattb. 3,11. d) Cf. Matth. 3, 12. e) Jer. 4, 19. 
+
+
+tur, quam dulcia enim, inquit, gutturi meo eloquia tua, super mel, ori meo: 
+sylvestre autem illis, qui ipsum non suscipiunt, propter acerbitatem angustae 
+portae, et arctae viae, quam ostendit. Praecursorem enim esse medium inter an- 
+tiquam legem et novam, et utriusque fuisse participem, illius quidem prius, hu- 
+jus autem posterius. 
+
+XXXI. Nos dicunt csse Pharisaeos et Sadducaeos i'los, qui ad Joannis 
+baptismum accedebant. Ὁ impudentia! Deinde cum ignominia nos vocant geni- 
+mina viperarum, sive serpentis semina, qui, ut ipsi ajunt, cum Eva concubuit. 
+Et monent, nt non aegre ferant, quod a Haptista oanne vere nominati sint. 
+
+|. Christi calceamenta dicunt esse miracula, quae discipulis et turbis 
+demonstravit. Quae quidem calceamenta Joannes gestare non poterat, quippe qui 
+nullo modo valebat ea miracula demonstrare. Αἱ ventilabrum Christi vocant Evan- 
+geli! sermonem , ut qui ex illius ore profectus sit; aream homines Christianos, in 
+qua varii diversique sunt, tum recte, tum contra sentientes; frifícum autem suam 
+ipsorum fidem, utpote puram et salutarem; paleam vero fidem nostram, tanquam 
+inutilem atque igne dignam appellant. — Quaenam auris pia possit istorum maledi- 
+corum impietatem erre? — Stomachatur anima mea ad istorum ineptias, et 
+sensus mei perturbantur, ut ait Propheta, et velim sermoni modum imponere, nec 
+
+
+. 58 — 
+
+
+δοῦναι τὰ σχότους xai λήϑης ab. —llapgefacréov δὲ μιχρὸν ὅτε καὶ καρτερητέον 
+ἄχρι τινὸς τὴν γλωσσαλγίαν τῶν ἀπεραντολόγων !) τούτων καὶ παραφόρων καὶ 
+βδελυρῶν. 
+
+.. AAI'. ."Ügog ὑψηλὸν *) λέγουσι τὸν δεύτερον οὐρανὸν, εἰς ὃ τὸν Χριστὸν 
+ἀναβιβασϑῆναι παρὰ τοῦ Διαβόλου, καὶ ἰδεῖν nacoag τὰς βασιλείας τοῦ χόσμου. 
+Καὶ φασιν, ὅει οὐκ ἂν ὁ Διάβολος ἀνῆλϑεν εἰς αὐτὸν, εἰ μὴ ποίημα τοῦτον ἴδιον 
+ἐγένωσχεν, οὐδ᾽ ἂν ἑαυτῷ παραδεδόσϑαι πάσας τὰς βασιλείας εἶπεν, εἰ μὴ xai 
+τὴν τούτων συνεχωρήϑη χυριαρχίαν, ὡς παρ᾽ αὑτοῦ γεγενημένων, χαϑὼς προ- 
+δεδήλωται. 
+
+444. Καὶ καταλιπών, φησι, τὴν Ναζαρὲτ, ἐλθὼν χατῳχησεν εἰς Καπερ- 
+γαουμ b). Ναζαρὲτ μὲν ἡμᾶς προσαγορεύουσι, Καπερναοὺμ δὲ ἑαυτοὺς, καὶ νῦν 
+κατοικεῖν 2) παρ᾽ αὑτοῖς λέγουσε τὸν Χριστὸν, χαταλιπόντα τὴν ἡμετέραν συναω- 
+γωγήν. 
+
+ALE'. Τοὺς μακαρισμοὺς πάντας “) περὶ μόνων τῶν κατ᾽ αὐτοὺς πιστῶν, 
+ἤτοι τῶν Βογομίλων, εἰπεῖν τὸν Χριστὸν διαβεβαιοῦνται. Τοιούτους γὰρ avrovg 
+εἶναι, πτωχοὺς τῷ πνεύματι, καὶ πενϑοῦντας, xai πεινῶντας, xci διψῶντας τὴν 
+δικαιοσύνην x. T. E. Τούτους δὲ χληϑῆναι xai ἅλας τῆς γῆς, καὶ φῶς τοῦ x0- 
+σμου 9), xoi ὅσα περὶ τῶν ᾿Απυστόλων ὁ Χριστὸς εἴρηκεν. 
+
+Je. lora, φησιν, ἕν ἢ μία κεραία οὐ μὴ παρέλϑῃ ἀπὸ τοῦ νόμου, ἕως 
+ἂν πάντα γένηται *). — lura μὲν τὴν δεχάλογον τοῦ νόμου νοοῦντες, χεραίαν δὲ 
+
+
+πάλιν τὴν αὐτήν. Τὴν γὰρ κεραίαν εἴ τις ὀρϑώσει πλαγίως κειμένην, ἰῶτα 
+1) Wolf. p 124 ἀπερατολόγων. 2) Tergov. addit μὲν. 
+a) cf. Matth. 4, 8. b) Matth. 4, 13. c) cf. Matth. 5, 3 ss. d) Matth. 6, 
+13. 4. — e) Matth. 5, 18. 
+
+
+longius progredi, nec in lucem proferre, et memoriae commendare ea, quae tene- 
+bris et oblivione sunt digna. 
+
+XXXIII. Montem altum dicunt esse. secundum coelum, quo Christus a 
+Diabolo sublatus viderit omnia regna mundi. Adduntque Diabolum in illud secun- 
+dum coelum non fuisse conscensurum, nisi proprium ipsum esse opus agnovisset. 
+Neque omnia, inquiunt, illi regna dixisset esse daturum, nisi obtinuisset eorum 
+dominatum, ut quae a se essent facta, ut declaratum est. 
+
+XXXIV. Et relicto, inquit, Nazareth, profectus habitavit in Capernaum. 
+Nos dicunt esse Nazareth, se vero Capernaum, et nunc apud se Christum ha- , 
+bitare relicta Ecclesia nostra. 
+
+XXXV.  Beatitudines omnes de Bogomilis Christum dixisse contendunt. 
+Se enim esse pauperes spiritu, et lugere, et esurire, atque silire justitiam, et 
+quae sequuntur. — Se vocari sal ferrae, et mundi lucem, et quicquid de Apo- 
+stolis Christus dixit. 
+
+XXXVII. lota, inquit , unum, aut unus apex non praeteribit a lege, do- 
+mec omnia fiant. lota legis Decalogum arbitrantur, apicem rursus eandem legem. 
+Si quis enum apicem ex transverso jacentem erexerit, lota eonstituet. — Atque ita 
+
+
+zt AO uuu 
+
+
+moujcu. Εἶτα ἑρμηνεύουσιψ, ὅτε oU μὴ παρέλϑῃ ἡ δεχάλογος τοῦ νόμου, ἀλλὰ 
+μενεῖ φυλαττομένη παρὰ τοῖς Ἑβραίοις, ἕως ἂν παρέλθῃ ὁ οὐρανὸς καὶ ἡ γὴ- 
+Οὐκ ἦλθον γάρ, φησι, καταλῦσαι τὸν νόμον Μωσέως, ἀλλὰ πληρῶσαι 8) τὸν 
+οὐρανὸν κενωϑέντα πάλαι τῶν ἐνοικούντων MyyéAov, xai ἀναπληρῶσαι τὰ τάγματα 
+τῶν ἀποπεπτωχυιῶν δυνάμεων. j 
+
+-AZ'. 'Éav μὴ περισσεύσῃ, φησὶν, ἡ δικαιοσύνη ὑμῶν πλεῖον τῶν γραμ- 
+ματέων καὶ Φαρισαίων, οὐ μὴ εἰσέλθητε εἰς τὴν. βασιλείαν τῶν οὐρανῶν ὃ). 
+Τραμματεῖς μὲν καὶ Φαρισαίους ἡμᾶς προσαγορεύουσιν, ὡς τὴν γραμματικὴν maí- 
+δευσιν ἀσχοῦντας, καὶ μεγαλαυχοῦντας ἐπ᾽ αὐτῇ, περισσεύειν δὲ ἡμῶν τὴν δικαιο- 
+σύνην αὐτῶν λέγουσιν ἐν τῷ διδάσχειν ἀληϑέστερα, καὶ μετιέναι πολιτείαν ἀχριβε- 
+στέραν τε καὶ καϑαρωτέραν, ἀπεχομένους κρεωφαγίας, xai τυροῦ, καὶ ὠοῦ, καὶ 
+γάμου, καὶ τῶν τοιούτων. ᾿ 
+
+AH' 1). Ἴσϑι, φησὶν, εὐνοῶν τῷ ἀντιδίχῳ aov €): ἀντίδικον τῶν ἀνθρώπων 
+λέγοντες τὸν διάβολον, xai φρενοβλαβῶς ἑρμηνεύοντες, ὅτι yor εὐνοεῖν αὐτῷ, καὶ 
+ϑεραπεύειν διὰ προσχυνήσεως, ὡς ἀνωτέρω παραδεδώχαμεν, ἵνα μὴ πτερνίσας, 
+xci καταβαλὼν τοὺς ἀπειϑοῦντας παραδώσῃ τῷ κριτῇ καὶ Θεῷ, xarà τὴν ἡμέ- 
+ραν τῆς χρίσεως λόγον ὑφέξοντας τῆς ὑποσχελίσεως. E 
+
+“Θ΄. 'End τὸ, πᾶς, ὃς ἂν ἀπολύσῃ. τὴν γυναῖχα αὐτοῦ παρεχτὸς λόγου 
+πορνείας x. v. ἐξ, τοῦ ῥητοῦ 9) περὶ τοῦ μὴ συζεύγνυσθαι γυναικὶ δόγματι τού- 
+των ἀντίχειται" φασὶν, ἀπόῤῥητα πᾶσιν εἶναι ταῦτα xai ἀνερμήνευτα, καὶ μύ- 
+volg γνώριμα τοῖς ἀποτιϑεμένοις τὴν σάρχα. Βεβαιοῦντες δὲ τὸ δόγμα τῆς ἀγα- 
+
+
+1) Hoc caput apud Wolfium deest. 
+a) Matth. 5, 17. b) Math. 5, 20. c) Matth. 5, 25. d) Matth. 5, 32. 
+
+
+exponunt, Decalogum non transiturum , sed permansurum observatum apud He- 
+braeos, donec transeat coelum et terra. — Non veni, inquit, ui legem solverem, 
+sed u£ coelum implerem, quod Angelis, qui illud incolebant, exclusis vacuum 
+mansit, et ut ordines Potestatum explerem, quae ceciderunt. 
+
+XXXVII — Nisi abundaverit, inquit, justitia vestra plus quam Scribarum 
+et Pharisaeorum, | mon intrabitis n regnum coelorum. — Scribas et Pharisaeos nos 
+appellant, ut qui literarum studiis ineumbamus, et ipsis gloriemur; justitiam 
+vero ipsorum nostrae praestare in iis docendis, quae veriora sunt, et magis ad 
+vitam recte et pure iustituendam aecommodata, «quum ab esu carnis, et ovis, et 
+nuptus, et aliis ejusmodi rebus abstineant. 
+
+, XXXVII. io, ànquit, consentiens adversario tuo.  Adversarium nostrum 
+hic Diabolum intelligunt, et mente capti eum benevoleatia, et observantia, . at- 
+que adoratione observandum dicunt, ut superius ostendimus , ne supplantans et 
+subjiciens eontumaces tradat eos judiei et Deo in die judicii supplantationis poe- 
+nas subituros. 
+
+XXXIX. Quoniam illud, Ornnis qui dimiserit uxorem excepta fornicationis 
+cawsa et quae sequuntur, dogmati ipsorum de uxore non ducenda repugnat et 
+adversatur, dicumt, ea verba esse arcana, nec ab ullo posse imtelligi, misi qui 
+carnem exueri, Confürmantesque caelibatus rationem, al runt sermonem Domini, 
+
+
+— 40 — 
+
+
+, te - ] K , À ' 2 , er , - 5 , » 
+μίας προχομίζουσι TOU υρίυν λόγον, εἰρηκότος, ὅτι ἐν τῇ ἀναστάσει οὔτε γα- 
+-- » , --. [2 Y 
+μοῦσιν οὔτε ἐχγαμίζονται 8), νοοῦντες ἀνοήτως ἀνάστασιν τὴν μετάνοιαν xai τὴν 
+Εὐαγγελικὴν πολιτείαν. | | "Y 
+
+
+Μ΄. Μήτε εἰς Ἱἱεροσόλυμά, φησιν, ὁμώσῃς, ὅτι πόλις ἐστὶ τοῦ βασιλὲϊσς, 
+τοῦ μεγάλου b). Μέγαν βασιλέα λέγοντες νῦν τὸν 4ιάβολον, ὡς κοσμοχράτορα. 
+Ἵλεως ἡμῖν εἴης, Κύριε, τὰς ἐκείνων βλασφημίας διηγουμένοις ! 
+
+MA'. 'Hxovoaré 3), φησιν, ὅτι ἐρῥέϑη, ὀφϑαλμὸν ἀντὶ ὀγϑαλμοῦ, xoci 
+ὀδόντα ἀντὶ ὑδόντος €). Ορφϑαλμοὺς μέν φασι τοὺς δύο νόμους, τὸν Μωσαϊχὸν 
+καὶ τὸν Εὐαγγελικὸν, ὀδόντας δὲ τὰς δύο ὁδοὺς, τὴν πλατείαν xci τὴν στενήν. 
+Τὸν Χριστὸν γὰρ ἐλϑόντα δοῦναι νόμον ἀντὶ νόμου, τὸν Εὐαγγελικὸν ἀντὶ τοῦ 
+Μωσαϊχοῦ, xai ὁδὸν ἀντὶ ὁδοῦ, τὴν στενὴν ἀντὶ τῆς πλατείας" ὦ τῆς πλατείας 
+ἀγροικέας τῶν ἀπαιδεύτων ! 
+
+ΜΒ΄. Σὺ δὲ ὅταν προσεύχῃ, φησὶν, εἴσελϑε εἰς τὸ ταμιεῖόν σου 9). Τα- 
+μιεῖον 9) λέγουσε τὸν νοῦν, xci ἀπὸ τοῦδε τοῦ ῥητοῦ κινούμενοι διδάσχουσι, μὴ 
+προσεύχεσθαι μηδένα τούτων ἐν ᾿Εχχλησίαις, καίτοι σαφῶς ἀχούοντες τοῦ Προφή- 
+του Δαβὶδ, κελεύοντος ἐν ᾿Εχχλησίαις εὐλογεῖν τὸν Θεόν *). 
+
+MI'. ᾿Εμβλέψατέ, φησιν, εἰς τὰ πετεινὰ τοῦ οὐρανοῦ, ὅτι οὐ σπείρου- 
+σιν, οὐδὲ ϑερίζουδι xol τὰ ἑξῆς ἢ. Πετεινὰ τοῦ οὐρανοῦ τοὺς ἐπὶ κιόνων 
+ἀσκοῦντας Μοναχοὺς νοοῦσιν, οὖς ἀργὸν ἄγοντας βίον τρέφεσϑαι μάτην παρὰ 
+τοῦ ἐπουρανίου Πατρὸς. Κρίνα δὲ τοῦ ἀγροῦ χαλοῦσιν ἑαυτοὺς, ὡς λευκοὺς ἐν 
+
+
+1) Wolf. p. 94. τὸν. 2) Terg. ᾿Ακουσατέ. 3) Wolf. p. 116. ταμεῖον. 
+a) Matth. 22, 30. b) Matth. 6, 35. c) Matth. 5, 38. d) Matth. 6, 6. e) 
+Ps. 68 (hebr. 67), 26. f) Matth. 6, 26. ; 
+
+
+qui, in resurrectione, inquit, neque nubent, neque ducenl uxores: resurrectio- 
+nemque poenitentiam et vitam evangelicam interpretantur. 
+
+XL. Neque per Hierosolymam, inquit, juraveris, quoniam civitas est magni 
+Regis. Magnum Tepem dicunt nunc esse Diabolum, ut mundi Principem.  Pro- 
+pitius esto nobis, Domine, istorum uarrantibus maledicta. 
+
+XLI.  4udistis, inquit, dictum esse, oculum pro oculo, et dentem pro 
+dente. — Oculos duas dicunt esse leges, Mosaicam et Evan licam; dentes autem 
+duas vias, latam et arctam. — Christum enim legem pro lege dedisse, nimirum 
+Evangelicam pro Mosaica, et viam pro via, nempe arctam pro lata: o lata in- 
+sipientium hominum imperitia ! 
+
+XLII. Tu autem quum oras, inquit, intra in cubiculum tuum. — Cubiculum 
+mentem intelligunt, et his verbis adducti monent, ut nemo in Ecclesiis prece- 
+tur, quum tamen Prophetam Davidem audiant jubentem, ut in Ecclesiis Deo 
+benedicamus. 
+
+XLIHL. — Respicite, nto volatilia coeli, quod non serunt, meque metwnt, 
+et quae sequuntur. — Volatilia coeli Monachos appellant, qui in columnis degunt, 
+et quum inertem vitam traducant, tamen a Patre coelesti nutriantur. — Lilia vero 
+
+
+— ΑἹ — 
+
+
+καϑαρότητε ψυχῆς καὶ μυριπνόους ἐν ἀρεταῖς, ὧν μηδενὶ δύνασϑαι παραβληϑὴ- 
+ves ἢ) τὸν Σολομῶντα, κατεσπιλωμένον ἔχοντα τὸ τῆς ψυχῆς περιβόλαιον. 
+
+Μ΄. Μὴ δῶτέ, φησι, τὸ ἅγιον roig χυσὶ, μηδὲ ῥίπτετε τοὺς μαργαρί- 
+τὰς ὑμῶν ἔμπροσθεν τῶν χοίρων 8). “Ἅγιον μὲν λέγουσι τὴν κατ᾿ αὐτοὺς ἁπλου- 
+στέραν πίστιν, μαργαρίτας δὲ τὰ μυστιχώτερα xai πολυτελέστερα δόγματα τῆς 
+πλάνης αὐτῶν" xvvag δὲ καὶ χοίρους, ὦ τῆς ὑπερβαλλούσης ὕβρεως τοὺς xaO" 
+ἡμᾶς εὐσεβεῖς, ὡς εἰδωλολάτρας" φρίσσω γὰρ εἰπεῖν τὴν ἄλλην ἀῤῥητολογίαν αὐ- 
+τῶν. Εἶτα προστιϑέασιν, ὅτι τὸν προσερχόμενον αὐτοῖς παραλαμβάνουσιν ὡς 
+χύνα καὶ γοῖρον. Καὶ πρῶτα μὲν ἀφανίζουσι διὰ νηστείας xai προσευχῆς, εἶτα 
+βαπτίξουσιν, ὡς προπαραδεδώκαμεν, HÓ' οὕτω λαμπρυνομένῳ ταῖς κατὰ μικρὸν 
+προχοπαῖς τε xal ἀναβάσεσι καταπιστεύουσιν ἠρέμα 3) τὸ ἅγιον xoi τοὺς μαργα- 
+ρίτας. : 
+
+ΜΕ΄. Προσέχετέ, φησιν, ἀπὸ τῶν ψευδοπροφητῶν b). αἱψευδοπροφήτας 
+λέγουσιν, ὦ τῆς ἀτοπίας! τὸν μέγαν ἐν δόγμασι Βασίλειον, τὸν ἀστέρα τῆς 
+ϑεολογίας Γρηγόριον, τὸν χρυσοῦν τὴν yÀorrav ᾿Ιωάννην, ὡς οἰχόϑεν δογματί- 
+σάντας. Σιωπῶ γὰρ τὰς ἄλλας παροινίας τῶν 3) σχηπτοῦ,) xoi πρηστῆρος, καὶ 
+χάσματος, καὶ πάσης τιμωρίας ἀξίων, ἃς κατὰ τῶν ἁγίων τούτων πλέον τῶν ἀλ- 
+λῶν ἐχφέρουσι. | 
+
+Mc'. Πολλοί, φησι, ἐροῦσί now ἐν ἐχείνῃ τῇ ἡμέρᾳ᾽ Κύριε, κχύριε, ov 
+τῷ σῷ ὀνόματι προειφητεύσαμεν, καὶ τῷ σῷ ὀνόματι δαιμόνια ἐξεβάλομεν; καὶ 
+
+
+1) [ta recte Tergov. et Wolf. p. 93.  Zinus legisse videtur περιβληϑῆναι. 2) Wolf. 
+p. 126 om. ἠρέμα. 3) Wolf. p. 127 τοῦ. 
+8) Matth. 7, 6. b) Matth. 7, 13. 
+
+
+campi se J resa vocant, quod animae candore puri sint, virtutibusque ornati, 
+quarum nulla potuerit indui !) Salomon, qui animae vestem habuit inquinatam. 
+
+XLIV. Nolite, inquit, dare sancium canibus, neque projicere margaritas 
+vesiras ante porcos. * Sanctum appellant simpliciorem, quam ipsi profitentur, 
+fldem; margaritas vero magis recondita et accuratiora erroris ipsorum instituta ; 
+canes autem et porcos (proli incredibilem contumeliam!) homiues, qui apud nos 
+p sunt, tanquam idololatras. — Horresco enim referens PR eorum secreta. 
+
+einde subjiciunt, se ita suscipere cos, qui ad ipsos accedunt, ut canes et 
+pee Ac primum quidem illos expurgant jejuniis ct precationibus; deinde 
+
+aptizant, ut demonstravimusg post autem, cum paulatim profecerint, cet per- 
+fectiores evaserint, sanctum illis margaritasque tradunt. 
+
+XLV. Cavetre, inquit, a falsis Prophetis. — F'alsos appellant Prophetas ho- 
+mines imperiti magnum Basilium; theologiae splendorem, Gregorium; linguam 
+illam auream Joannem, quos, ut domesticos, sequimur ?). Praetereo caetera, quae 
+adversus hos sanctos isti, qui fulmine, et igne coelesti, atque flamma digvi sunt, 
+debacchantur. 
+
+XLVI. Multi, inquit, dicent mihi in illa die: Domine, Domine, nonne 
+in momine (uo prophetavimus, nonne in nomine tuo Daemonia ejecimus? el. lunc 
+
+
+l) Recte: viriutibusque suaviter olenles, quorum nulli potuerit comparari. 2) Recte: 
+funquam de suo praecipientea. 
+6" 
+
+
+
+
+
+a. Me. ,-.. 
+
+
+τότε ὁμολογήσω αὐτοῖς" ὅτι οὐδέποτε ἔγνων ὑμᾶς" ἀποχωρεῖτε ἀπ᾿ ἐμοῦ οἱ ἐργα- 
+ζόμενοι τὴν ἀνομίαν *). — Tavri !) δὲ τὰ ῥήματα τοῦ δὐαγγελίου διερμηνεύοντές 
+φασι, τούτους εἶναι τοὺς παρ᾽ ἡμῖν ἁγίους [Ἰεράρχας xoi ϑείους Πατέρας, ὅσοι 
+προφητιχῆς χάριῖος ἠξιώϑησαν, xai δαίμονας ἀπήλασαν, καὶ ἄλλα πάμπολλα τε- 
+ϑαυματουργήχασ. Πάντα γὰρ τοὺς ἐνοιχοῦντας αὐτοῖς Δαίμονας τερατουρχγεῖν 
+εἰς ἔκπληξιν τῶν ἀνοητοτέρων. Καὶ μὴν Δαίμων οὐχ ἐχβάλλεε Δαίμονα. Τοῦτο 
+γὰρ ἡ αὐτοαλήϑεια φησὶν ὁ Χριστὸς Ὁ), λυσσωδέστατε κύον, ἰὸς ἀσπίδων ὑπὸ 
+τὰ χείλη Gov. | 
+
+MZ'. "4vópa μὲν φρόνιμον *) ὀνομάζουσιν ἑαυτοὺς, οἰχοδομήσαντας τὴν 
+οἰκίαν ἐπὶ τὴν πέτραν τῆς προσευχῆς τοῦ Πάτερ ἡμῶν" μωρὸν δὲ ἡμᾶς, τοὺς 
+οἰχοδομήσαντας 3) τὴν οἰχίαν ἐπὶ τὴν ψάμμον τῶν ἄλλων προσευχῶν, τῶν πολλῶν 
+μὲν, ἀσϑενῶν δὲ χαὶ ἀνοήτων, ὡς τοῖς ἀνοήτοις τούτοις 3) δοχεῖ. 
+
+ΜΗ΄. &Koei προσελϑών, φησιν, εἷς γραμματεὺς, εἶπεν αὐτῷ" Διδάσκαλε, 
+ἀχολουϑήσω σοι, ὅπου ἐὰν ἀπέρχῃςε Καὶ λέγει αὐτῷ ὁ ᾿Ιησοῦς᾽ αἱ ἀλώπεκες 
+φωλεοὺς ἔχουσι, xai τὰ πετεινὰ τοῦ οὐρανοῦ χατασχηνωσεις᾽ 0 δὲ υἱὸς τοῦ ἀν- 
+ϑρώπου οὐκ ἔχει, ποῦ τὴν χεφραλὴν κλίνῃ 5). Τραμματέα μὲν λέγουσι πάντα 
+γραμματικὸν, xai παραγγέλλουσιν ἀλλήλοις μὴ παραδέχεσϑαι γραμματικοὺς 3) εἰς 
+μαϑητὰς, χατὰ μίμησιν, ὡς εἴρηται, τοῦ Χριστοῦ, μὴ παραδεξαμένου τὸν γραμ- 
+ματέα. ᾿“λώπεχας δὲ νοοῦσε τοὺς ἐν στενοχώροις οἰχίσχοις χαϑειργμένους ἀσχη- 
+τὰς, ὡς ἐν τισὶ φωλεοῖς, πετεινὰ δὲ τοῦ οὐρανοῦ τοὺς χιονίτας, ὡς ἀνωτέρω 
+
+
+1) Wolf. ]. c. ταῦτα. 2) Terg. ἄνδρα δὲ μωρὸν καλοῦσι ἡμᾶς οἰκοδομήσανεας. 3) 
+
+Wolf. p. 127. τοῦτο. 4) Ita Zinus legisse videtur. Tergov. et Wolf. p. 129 babent 
+
+γραμματικόν. 
+
+8) DR 7 , 22. 23. b) cf. Matth. 12, 26 6. c) Matth. 7, 24 s. d) Matth. 
+, 19. 20. 
+
+
+confitebor illis: nunquam novi vos, discedite a me, operarii iniquitatis. — Haee 
+illi verba interpretantes, hos esse dicunt sanetos Pontifices nostros, divinosque 
+Patres, qui prophetiae munere donati sunt, quique Daemonas ejecerunt, et alia 
+multa miracula ediderunt. — Quac quidem omnia a Daemonibus, qui in ipsis he- 
+bitabant, fuisse faeta contendunt, ut oculos praestringerent imperitiorum. — At- 
+ui Daemon non ejicit Daemonem, ut ipsa veritas, Christus, testatur, rabidis- 
+sime canis: venenum aspidum sub labiis tuis. 
+
+XLVII. Virum prudentem se ipsos interpretentur, quod super precationis 
+illius, Pater noster, petram domum aedificent; stultum autem nos, qui domum 
+aedificemus super alias preces, quae multae quidem sint, scd infirmae et stultae, 
+ut ipsis stultis videtur. 
+
+XLVIIEL ΕΠ accedens, iuquit, unus Scriba dixit ei: magister, sequar te, 
+quocunque ieris. ἘΠ dicit ei Jesus: vulpes foveas habent, et volucres coeli mi- 
+dos: filius autem hominis non habet, ubi caput reclinet.  Scribas appellant omnes 
+literatos, quos in disciplinam non esse recipiendos sese mutuo admoment, ad 
+Christi admonitionem, πὲ dictum est, qui Seribam non recepit. — Valpes autem 
+intelligunt monachos, qui in domunculis angustis, tanquam in latebris, inclusi 
+sunt. —Volatilia cocli eos existimant, qui in columnis vitam degunt, ut ante 
+
+
+— AS — 
+
+
+προείρηται, παρ᾽ oig μὴ κατοικεῖν τὸν Χριστὸν, ὡς ἀναξίοις 1) τῆς ἐπιδημίας 
+αὐτοῦ. Τάφος ὄντως ἀνεῳγμένος ὁ λαρυγὲ τῶν ἀλαστόρων, πολλὴν ἀναπέμπων 
+δυσωδίαν, καὶ φϑοροποιὸν ἰὸν προχέων διὰ τοῦ ϑεομάχου στόματος. 
+
+MO'. δύο δαιμονιδομένους λέγουσιν ἐκ τῶν μνημείων ἐξερχομένους 8) τότε 
+τάγμα τῶν Κληριχὼῶν xol τὸ ταγμα τῶν Μοναχῶν 3). ᾿ΔΑεὶ γὰρ ἐν τοῖς χειρο- 
+ποιήτοις ναοῖς διατρίβειν, οὕστινας εἶναι τάφους ϑησαυρίζοντας ὀστέα νεχρῶν. 
+Οὕτω γὰρ οἱ ἐναγεῖς ὀνομάζουσι τὰ λείψανα τῶν ἁγίων. Εἶναι δὲ τὰ δύο ταῦτα 
+τάγματα φοβερὰ λίαν τοῖς ογομίλοις, ὥστε μηδένα τούτων ἰσχύειν παρελϑεῖν 
+διὰ τῆς ὁδοῦ ἐχείνης. ᾿Αγέλην δὲ χοίρων πολλῶν βοσχομένων 3) ὑπάρχειν τοὺς 
+ἀγελαίους καὶ ἀμαϑεῖς xci χοιρώδεις ἀνθρώπους 4), εἰς οὖς ἀπέρχεσθαι τούτους 
+καὶ διδάσχειν, xoi καταχρημνίζειν, xci ἀποπνίγειν δ) αὐτοὺς ἐν τῇ ϑαλασσῃ τῆς 
+ἁμαρτίας. 
+
+Ν΄. Οἶνον μὲν χαλοῦσε νέον P) τὴν διδασχαλίαν ἑαυτῶν, ἀσχοὺς δὲ πα- 
+λαιοὺς τοὺς μὴ προσιεμένους αὐτὴν, ἀσχοὺς δὲ νέους τοὺς ὑποδεχομένους ταύτην 
+χαὶ συντηροῦντας ἐν ἑαυτοῖς. 
+
+ΝΑ͂΄. Πυναῖκα νοοῦσιν αἱμοῤῥοοῦσαν ἔτη δώδεκα €) τὴν ἐν “Ἱεροσολύμοις 
+᾿᾿χαχλησίαν, αἱμοῤῥοοῦσαν τοῖς χεομένοις αἵμασι τῶν ϑυσιῶν ἐν ταῖς. δώδεχα φυ- 
+λαῖς τοῦ ᾿Ισραήλ. Ταύτης γὰρ τὴν αἱμόῤῥοιαν στῆσαι τὸν Χριστὸν ἐξολοθϑρεύ- 
+σαντα μετὰ μιχρὸν τὰ ᾿]εροσόλυμας. ᾿Αλλὰ πῶς ἂν ἔτη δώδεκα νοηϑεῖεν ἂν ai 
+
+
+1) ὡς ἀνωτέρω — ἀναξίοις. Wolfius p. 129 plurimis omissis nihil habet nisi ὡς ἀναξίους. 
+4) Terg ordine inverso: τότε v. «. Mov. xoi τ. «. €. KÀyo. 8) Wolf. p. 96. ῥοσκομένην. 
+4) Wolf. 1. c. om. ἀνθρώπους. 5) Wolf. 1. c. om. καὶ ἀποπνίγειν. 
+
+
+a) Matth, 8, 28. b) Matth. 9, 17. c) Matth. 9, 29. 
+
+
+diximus, apud quos Christus omnino non habitet, quum illius praesentia sint in- 
+digni. Sepulchrum vero patens guttur istorum hominum scelestorum , quod nul- 
+tum foctorem emittit. 
+
+
+XLIX. Duos illos Daemonibus vexatos, qui de sepulchris exibant, duos 
+erdines interpretantur, nempe Clericorum et Monachorum. — Semper enim in 
+manu factis templis, quae isti sepulchra vocant, inhabitare, in quibus mortuo- 
+rum ossa recondita sint. Sic enim homines nefarii appellant reliquias Sanctorum. 
+Hos porro duos ordines Bogomilis esse valde formidahdos , adeo ut nemo ipsorum 
+per illam viam transire queat. —Gregem autem porcorum multorum pasceutium 
+esse homines viles et imperitos, δὲ vitam suillam agentes, quos illi suffocant in 
+mari peccatorum. 
+
+
+L. Vinum novum appellant doctrinam suam; utres autem veteres eos, qui 
+illam non admittunt; novos vero, qui illam suscipiunt atque conservant. 
+
+
+Ll. Mulierem, quae duodecim annos sanguinis fluxu laboraverat, Hiüeroso- 
+lymitanam appellant Ecclesiam, quae sanguinis victimarum cffusionem in duode- 
+cum tribubus fsraelis patiebatur. — Huuc sanguinis fluxum stetisse Christum, quum 
+paulo post evertit Hierosolymam. Sed quomodo per annos duodecim intelligi pos- 
+
+
+.- ΔΑ uo 
+
+
+δώδεκα φυλαί; τὸ μὲν γὰρ ἕτος γχρονιχὸν τι κίνημα καὶ διαστήμωα, ἡ δὲ φυλὴ γέ- 
+γος ἀνθρώπων. Ὅσον δὲ τὸ διάφορον ἀνθρώπου xal γρόνου! 
+
+NB'. ᾿ΑἸκούσατε καὶ γελοιωδεστέραν ἑρμηνείαν, χἀντεῦϑεν χαταμάϑετε τὴν 
+ἀλογίαν τῶν μηδὲν ἄμεινον γραῶν κωδωνιζομένων, μυϑολογούντων. Τὸ γὰρ ἐνε- 
+βΒριμήσατο αὐτοῖς ὁ ᾿]ησοῦς λέγων 8), ἑρμηνεύουσιν, ὅτε ἐνεβρωμάτισεν αὐτοῖς ὃ 
+᾿Ιησοῦς λύγον 1). '4o' οὐ δοχῶ xoi αὐτὸς παραπαίειν τὰ τῶν παραπαιόντων ὑπο- 
+κρινόμενος; ΑΑϊσχύνομαι, πιστεύσατε, Xal ἀβουλήτως τοιαῦτα φϑέγγομαι. Διὰ 
+τοῦτο γὰρ καὶ τὰ πολλὰ παρέδραμον ἐπίτηδες, χαὶ σποράδην τὰ ῥηθέντα συνε- 
+γραψάμην᾽ χρὴ δὲ τοὺς ἐντυγχάνοντας ἀπὸ τῶν ὀλίγων τούτων διαγνῶναι καὶ τὰ 
+λειπόμενα τῆς αὐτῆς, 0 φασιν, ὄντα κεραμείας. Πέλαγος γὰρ ἀσεβείας ἀχανὲς 
+ἠνοίξαμεν πολλῶν ἡμερῶν εἰς τὸ διαπεραιωϑῆναι δεύμενον, καὶ μιχρὸν ἀπεσπά- 
+σαμεν τῆς γῆς ἔτι, καὶ ναυτιώντων ὑμῶν αἰσϑάνομαι. Μᾶλλον δὲ καὶ πρὸ 
+ὑμῶν αὐτὸς ἐγὼ τοῦτο πέπονθα, χαί μοι δοχεὶ βέλτιον γαλάσαντα τὴν Οϑόνην 
+τοῦ λόγου x«i πρύμναν χρουσάμενον εἰς τὸν τὴς σιωπῆς κατᾶρωε λιμένα. Καὶ 
+μᾶλλον, τι σεσίγηκεν ἡ πονηρὰ καὶ λάλος γλῶσσα, xci τὰ ἔμμυσα μέμυχε χείλη 
+τοῦ τὴν ἐναγῆ ταύτην ἀδολεσχίαν ὑφηγησαμένου, x«i ἐνεφράγη στόμα λαλούντων 
+ἄδικα. ΜΠαραστησάμενος γὰρ αὐτὸν ὁ σοφώτατος xoi μεγαλόψυχος ἡμῶν βασι- 
+λεὺς, καὶ τὴν ὑπόχρισιν 3) τοῦ δράματος ἀποκαλύψας, καὶ διακωδωνίσας τοῦτον, 
+ἐπείπερ εὗρε πανταχόϑεν ὑπόχαλχον ἠχοῦντα xai χίβδηλον, καὶ νῦν μὲν ἐπαγγελ- 
+λόμενον μεταβολὴν, ἄρτι δὲ χαϑάπερ κύνα πρὸς τὸν ἴδιον ἐπανερχόμενον ἔμετον, 
+
+
+.9) Hoc capitis initium déest apud Wolfium. 2) Ita legendum praeeunte Zino. 
+Terg. et Wolf. p. 136 habent ἀπόκρεσυν. 
+
+
+a) Matth. 9, 30. 
+
+
+sunt duodecim tribus, quum annus sit temporarius quidam motus, atque inter- 
+vallum, tribus autem sit genus hominum? Quid autem intersit inter hominem et 
+tempus, quis non videt? 
+
+LII. Audite magis adhue ridiculam interpretationem, atque inde colligite, 
+ineptias nihil ab anilibus nugis et fabulis nei nd Illud enim, increpuit eos 
+Jesus, sic interpretantur, ut idem sit, ac si dixisset: injecit illis Jesus sermo- 
+nem. Cum pudore, mihi credite, et invitus haec loquor. — Ridicula enim com- 
+memorans ridieulus videor, quamquam paucis dedita opera multa coacervavi, ut 
+ex his paucis reliqua lectores judicarent: sunt enim omnia ejusdem, ut ajunt, 
+officinae. — Vastum enim impietatis pelagus aperuimus, ad quod trajiciendum mul- 
+torum esset opus dierum spatio. Nos autem paululum a terra adhuc movimus, 
+et tamen vos nauscantes sentio, imo vero mihi prius quam vobis id accidit, — Ac 
+mihi melius videtur, ut orationis vela contrahamus, et inhibentes in silentii por- 
+tum contendamus. — Et eo magis, quod lingua illa scelesta garrulaque conticuit, 
+et nefaria illius labra, qui impias istius modi nugas excogitabat, oppressa sunt, 
+et obturatum est os loquentium iniqua. — Quum enim hunc sapientissimus et 
+magnanimus noster Imperator accersendum curasset, et ex verbis ipsius fabulae 
+simulationem patefecisset, eumque nihil aliud esse, nisi aes undique tinniens et 
+fallax reperisset, quum modo fingeret, se resipiscere, modo tanquam canis 
+
+
+m— wu .ς...: 
+
+
+σχέψιν περὶ τούτου προϑεὶς, xal συμψήφους rovg ἐν τέλει πάντας λαβὼν ἐκχκχλὴη- 
+διαστιχοὺς. ἅμα καὶ πολιτιχοὺς, χατεδίχασε τὴν διὰ πυρὸς ὑποστῆναι τιμωρίαν 
+τὸν πολλοὺς εἰς τὸ τῆς γεέννης παραπέμψαντα πῦρ. Καὶ viv ὁ μὲν πυρίκαυστος 
+ὥχετο, πονηρὸν ἐντάφιον ἀπενεγχάμενος τὴν ἀσέβειαν. Τίς δ᾽ ἂν εἰδὼς πάϑεσι 
+ϑρήνους ἐξισοὺν ἀξίως αὑτὸν οδύραιτο, μαϑόντα μὲν τὰ δόγματα τῆς πλάνης ἐν 
+ἔτεσι πεντεχαίδεκα, διδαξαντα δὲ ταῦτα πάλιν ἐν πλείοσι τῶν τεσσαράχοντα, μυ- 
+olov; δὲ μαϑητὰς εἰς τὸ βάραϑρον ὥσαντα τῆς ἀπωλείας, xoi τελευταῖον οὐκ 
+εὐαγῶς αὐτοῖς ἐπαπελϑόντα, xoi ζωῆς μὲν ἑκατέρας ἐχπεπτωχότα, πυρὸς δὲ rov- 
+του χαχείνου τετυχηχότα, καὶ διὰ τοῦ σβεσϑέντος ἐπὶ τὸ μὴ σβεννύμενον ἐχδημή- 
+σαντα; Χρὴ μέντοι ϑαῤῥεῖν xoi περὶ τῶν ὑπολελειμμένων. — XurrétQuntes γὰρ ἡ 
+τοῦ δράχοντος ἤδη κεφαλὴ, τῶν δὲ μερῶν αὐτοῦ xai μελῶν τὰ καιριώτατα μὲν 
+συνείληπται, τὰ δὲ μέλλει, τὰ δὲ προσαγγέλλεται χαϑ᾽ ἑκάστην. | Koi τρεφόμεϑα 
+χρησταῖς ἐλπίσιν, ὡς οὐδὲ τὸ οὐραῖον ἐχιεύξεταε τὴν ἐμμελὴ τοῦ Ütocvvipyntov 
+βασιλέως ἔρευναν καὶ κατεσπουδασμένην ἀναζήτησιν, μεγάλαις φροντίσι χατατεινο- 
+μένου παντὶ τρόπῳ πάντας αὐτοὺς εἴσω σαγήνης λαβεῖν, καὶ χαϑαρὰ ξιζανίων 
+ἀποφῆναι τῆς εὐσεβείας τὰ Ania. 
+
+
+ad vomitum suum rediret, re considerata, omnibusque magistratibus tam civili- 
+bus, quam ecclesiasticis convocatis, sententiam tulit, ut igne combureretur, qui 
+multos iu Gehennae ignem conjecerat. Ac nunc ille quidem crematus abiit. Quis 
+autem dolori questum exaequans satis ipsius meritis conqueratur, cui quum quin- 
+decim annorum spatio dogmata didicisset, «ca decuit annis amplius quadraginta, 
+innumerabilesque discipulos in barathrum perditionis detrusit, ac denique ab illis 
+minime sancte discedens, et ab utraque vita exclusus, sic utrumque ignem cst 
+consecutus, ut ab extincto ad illum, qui non extinguitur, profeetus sit? — De 
+reliquis item fidendum est. — Caput enim draconis jam confractum est, partesque 
+ipsius, ac membra praecipua sublata, reliqua autem similem exitum aut celeriter, 
+aut paulo post eonsequentur. Bona autem sumus in spe, nme caudam quidem 
+evitaturam diligentem ct accuratam Imperatoris indagationem, qui magno studio 
+atque omni ratione cunctos venatur, ut eos retibus comprehendat, quo pietatis 
+triticum a zizaniis expurgatum ostendatur. 
+
+
+ΤΥΡΙΒ ERNESTI AUGUSTI HUTH. 
+
+
+zn 7 uu 
+
+
+Haec Bogomilorum portenta, quae Euthymius enarravit, quum legi- 
+mus, sponte fere quaestio nobis suboritur, qui fieri potuerit, ut homi- 
+nes Christiani ad ejusmodi somnia delaberentur. Neque certe haec quae- 
+stio indigna est, quam accuratius mente perpendamus; quo magis enim 
+errorum causas cognoverimus, eo facilius errores ipsos cavebimus. De 
+errore primario, qui omnibus his sectis subest, incerti esse non possu- 
+mus: positus est in opinione perniciosa, homines non rationis usu, sed 
+contemplatione quadam ad rerum divinarum et coelestium cognitionem al- 
+tiorem et perceptionem vividiorem pervenire posse, atque hunc esse finem, 
+quo summa Christianae religionis et hominum salus contineatur. Qui ita 
+sentiunt, quum neque veros cognitionis humanae fontes, neque cancel- 
+los, quibus circumscripta est, attendant, in errores gravissimos neces- 
+sario abduci, non est quod demonstremus. Quorum autem exempla no- 
+bis in memoriam revocent, tenuem esse hominum scientiam et angustam, 
+multumque abesse, ut ipsam Dei naturam infinitam intueri ejusque con- 
+silia plane cognoscere nobis liceat: decere nos potius, revelationem illam, 
+quam partim in rerum conditarum natura, partim in generis humani gu- 
+bernatione Deus nobis benigne concessit, fide verecunda et submissa su- 
+scipere et in nostrum usum convertere. ta his praesertim diebus festis 
+in resurrectionem Christi animum defigamus, factum illud divinum, quo 
+Deus ostendit, se cum Christo fuisse, et in eo mundum sibi reconci- 
+liasse. Hos igitur dies, Commilitones, ita peragite, ut non solum sacris 
+mtr quae Ecclesia celebrabit, adsitis , sed etiam recte perpensa festi 
+
+etitia fidem vestram confirmetis et pietatem augeatis. 
+
+
+Scrib. in Georgia Augusta d. XXVI Mart. MDCCCXLII. 
+
+
+ΠΙΜΠΜΠΠ 
+
+
+3 2044 020 333 522 
+
+
+ΕΠ} ΝΟΥ 23 1933 
+
+
+DEC 0 ? 1903 
+
+
+
+
+
+
+
+

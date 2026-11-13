@@ -1,0 +1,11 @@
+source_file: acta-sanctorum_augusti-tomus-1-lat_1750.txt
+assignments:
+- row_id: acta-sanctorum_augusti-tomus-1-lat_1750--jordan-of-saxony-libellus-de-principiis-life-of-dominic-in-the-a
+  work: Jordan of Saxony, Libellus de principiis (Life of Dominic) in the Acta Sanctorum, August I
+  author: acta-sanctorum
+  locus: Dominic from about OCR line 61888, Jordan's Vita from about 92226; the rest of the volume is other saints; add 12 to OCR line numbers
+  atlas_ids:
+  - the-dominican-order
+  role: tradition
+  confidence: provisional
+  note: The master general's account of the beginnings of the order, written inside this window. The volume's other saints are not shelved.

@@ -1,0 +1,11 @@
+source_file: rhc-historiens-orientaux_t2-pt1-fra_academie1887.txt
+assignments:
+- row_id: rhc-historiens-orientaux_t2-pt1-fra_academie1887--ibn-al-athir-al-kamil-585-628-ah-in-french-rhc-historiens-orient
+  work: Ibn al-Athir, al-Kamil, 585-628 AH, in French (RHC Historiens orientaux II, part 1)
+  author: rhc-historiens-orientaux
+  locus: Ibn al-Athir from about OCR line 297 to about 9809; later authors follow; add 12 to OCR line numbers
+  atlas_ids:
+  - latin-church-of-outremer
+  role: context
+  confidence: provisional
+  note: The second half of the extract, an outside witness written inside this window.

@@ -1,0 +1,11 @@
+source_file: joachim-fiore_tractatus-super-quatuor-evangelia-lat_buonaiuti1930.txt
+assignments:
+- row_id: joachim-fiore_tractatus-super-quatuor-evangelia-lat_buonaiuti1930--joachim-of-fiore-tractatus-super-quatuor-evangelia-buonaiuti-193
+  work: Joachim of Fiore, Tractatus super quatuor Evangelia (Buonaiuti 1930)
+  author: joachim-fiore
+  locus: the whole volume
+  atlas_ids:
+  - joachimite-current
+  role: tradition
+  confidence: provisional
+  note: One of Joachim's own works, inside this window. Published in 1930, the last year the Library's date rule clears.

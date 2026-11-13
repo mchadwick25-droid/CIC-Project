@@ -1,0 +1,11 @@
+source_file: bernard-clairvaux_life-and-works-v1_eales1889.txt
+assignments:
+- row_id: bernard-clairvaux_life-and-works-v1_eales1889--bernard-of-clairvaux-life-and-works-eales-vol-1-the-general-pref
+  work: 'Bernard of Clairvaux, Life and Works (Eales), vol. 1: the General Preface and letters I-CXLV'
+  author: bernard-clairvaux
+  locus: the whole volume
+  atlas_ids:
+  - cistercian-monasticism
+  role: tradition
+  confidence: provisional
+  note: Bernard's own letters and sermons in English (Mabillon's text, translated), inside this window.

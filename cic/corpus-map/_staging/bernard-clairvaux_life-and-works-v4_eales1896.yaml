@@ -1,0 +1,11 @@
+source_file: bernard-clairvaux_life-and-works-v4_eales1896.txt
+assignments:
+- row_id: bernard-clairvaux_life-and-works-v4_eales1896--bernard-of-clairvaux-life-and-works-eales-vol-4-eighty-six-sermo
+  work: 'Bernard of Clairvaux, Life and Works (Eales), vol. 4: eighty-six sermons on the Song of Songs'
+  author: bernard-clairvaux
+  locus: the whole volume
+  atlas_ids:
+  - cistercian-monasticism
+  role: tradition
+  confidence: provisional
+  note: Bernard's own letters and sermons in English (Mabillon's text, translated), inside this window.

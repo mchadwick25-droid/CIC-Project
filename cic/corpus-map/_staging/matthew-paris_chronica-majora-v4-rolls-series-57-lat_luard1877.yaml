@@ -1,0 +1,11 @@
+source_file: matthew-paris_chronica-majora-v4-rolls-series-57-lat_luard1877.txt
+assignments:
+- row_id: matthew-paris_chronica-majora-v4-rolls-series-57-lat_luard1877--matthew-paris-chronica-majora-iv-the-first-council-of-lyon-1245
+  work: 'Matthew Paris, Chronica majora IV: the First Council of Lyon (1245)'
+  author: matthew-paris
+  locus: the council of Lyon from about OCR line 28311, and the articles at about 34751; add 12 to OCR line numbers
+  atlas_ids:
+  - latin-papal-church-gregorian
+  role: context
+  confidence: provisional
+  note: A St Albans monk's narrative of the council, from outside the curia. No decree text of Lyon I was found.

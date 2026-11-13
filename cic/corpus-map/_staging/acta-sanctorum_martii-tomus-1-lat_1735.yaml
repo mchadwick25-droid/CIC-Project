@@ -1,0 +1,11 @@
+source_file: acta-sanctorum_martii-tomus-1-lat_1735.txt
+assignments:
+- row_id: acta-sanctorum_martii-tomus-1-lat_1735--william-of-tocco-s-life-of-thomas-aquinas-and-the-canonization-p
+  work: William of Tocco's Life of Thomas Aquinas and the canonization process, Acta Sanctorum March I
+  author: acta-sanctorum
+  locus: Aquinas from about OCR line 109094, the process 113710-117887; the rest of the volume is other saints; add 12 to OCR line numbers
+  atlas_ids:
+  - the-dominican-order
+  role: context
+  confidence: provisional
+  note: A later hagiographer's Life of Thomas; written after the window and about it.

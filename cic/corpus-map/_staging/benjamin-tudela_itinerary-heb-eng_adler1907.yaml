@@ -1,0 +1,12 @@
+source_file: benjamin-tudela_itinerary-heb-eng_adler1907.txt
+assignments:
+- row_id: benjamin-tudela_itinerary-heb-eng_adler1907--benjamin-of-tudela-itinerary-hebrew-and-english-adler-1907
+  work: Benjamin of Tudela, Itinerary, Hebrew and English (Adler 1907)
+  author: benjamin-tudela
+  locus: the English from about OCR line 1100 (Constantinople 1343-1500, Antioch 1563-1627, Acre 1788, Jerusalem 1957-2073); the Hebrew from 7952; add 12 to OCR line numbers
+  atlas_ids:
+  - latin-church-of-outremer
+  - byzantine-church-after-1054
+  role: context
+  confidence: provisional
+  note: A Jewish traveller's notes on the Christians of Constantinople and the Latin states, an outside witness written inside this window.

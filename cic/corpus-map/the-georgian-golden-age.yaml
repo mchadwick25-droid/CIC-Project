@@ -29,6 +29,17 @@ works:
     French. On the Golden Age shelf it is that age's own history-writing; for the earlier
     church it is later memory. Second witness only.
   source_file: kartlis-tskhovreba_histoire-de-la-georgie-pt1-histoire-ancienne-fra_brosset1849.txt
+- row_id: pakourianos_typikon-in-commentationes-philologae-ienenses-4-grc-lat_mousaios1890--gregory-pakourianos-typikon-of-the-petritzonitissa-monastery-mus
+  work: Gregory Pakourianos, Typikon of the Petritzonitissa monastery (Musaeus 1890, in Commentationes
+    philologae Ienenses IV)
+  author: pakourianos
+  locus: the Typikon from about OCR line 7893; the rest of the volume is other dissertations;
+    add 11 to OCR line numbers
+  role: tradition
+  confidence: needs-ruling
+  note: The founder's own testament. The editor says in his own words that he prints the later
+    simplified Greek version, not the original, and no Georgian or Armenian version.
+  source_file: pakourianos_typikon-in-commentationes-philologae-ienenses-4-grc-lat_mousaios1890.txt
 - row_id: peeters_histoires-monastiques-georgiennes-in-analecta-bollandiana-36-37-lat-fra_1917-1919--life-of-john-and-euthymius-life-of-george-the-hagiorite
   work: Life of John and Euthymius; Life of George the Hagiorite, Latin tr. Peeters
   author: peeters

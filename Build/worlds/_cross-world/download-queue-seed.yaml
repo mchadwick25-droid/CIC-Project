@@ -24764,3 +24764,713 @@ queue:
     verified_by: 'Library thread, 2026-11-13: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,509,089 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: alfred-the-great_west-saxon-version-of-gregorys-pastoral-care-ang-eng_sweet1871.txt
+  - title: Patrologiae cursus completus, series Latina, tomus CCXIV
+    author: Innocent III
+    year: '1853'
+    world: innocent-iii
+    why: Wanted Sources, era 5 row 55 (Innocent III).
+    url: https://archive.org/details/patrologiaecurs202unkngoog
+    rights_basis: 'Public Domain (pd-us-by-date: published 1853); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread, 2026-11-13: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 4,934,380 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: innocent-iii_opera-with-gesta-innocentii-pl214-lat_migne1853.txt
+  - title: Patrologiae cursus completus, series Latina, tomus CLVIII
+    author: Anselm of Canterbury
+    year: '1864'
+    world: latin-papal-church-gregorian
+    why: Wanted Sources, era 5 row 85 (Anselm of Canterbury).
+    url: https://archive.org/details/patrologiaecur158mign
+    rights_basis: 'Public Domain (pd-us-by-date: published 1864); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, 2026-11-13: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 4,279,719 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: anselm-canterbury_opera-with-eadmer-vita-anselmi-pl158-lat_migne1864.txt
+  - title: Patrologiae cursus completus, series Latina, tomus CLIX
+    author: Anselm of Canterbury
+    year: '1903'
+    world: latin-papal-church-gregorian
+    why: Wanted Sources, era 5 row 85 (Anselm of Canterbury).
+    url: https://archive.org/details/patrologiaecur159mign
+    rights_basis: 'Public Domain (pd-us-by-date: published 1903); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, 2026-11-13: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 4,071,446 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: anselm-canterbury_opera-with-eadmer-historia-novorum-pl159-lat_migne1903.txt
+  - title: Patrologiae cursus completus, series Latina, tomus CXC
+    author: Thomas Becket's letters and the early Lives
+    year: '1893'
+    world: latin-papal-church-gregorian
+    why: Wanted Sources, era 5 row 86 (Thomas Becket).
+    url: https://archive.org/details/patrologiaecur190mign
+    rights_basis: 'Public Domain (pd-us-by-date: published 1893); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, 2026-11-13: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 4,878,706 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: thomas-becket_epistolae-with-vitae-pl190-lat_migne1893.txt
+  - title: Patrologiae cursus completus, series Latina, tomus CLXXVIII
+    author: Peter Abelard
+    year: '1885'
+    world: latin-papal-church-gregorian
+    why: Wanted Sources, era 5 row 98 (Peter Abelard).
+    url: https://archive.org/details/patrologiaecur178mign
+    rights_basis: 'Public Domain (pd-us-by-date: published 1885); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, 2026-11-13: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 7,155,793 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: abelard_opera-pl178-lat_migne1885.txt
+  - title: Adam von Bremen, Hamburgische Kirchengeschichte (Magistri Adam Bremensis Gesta Hammaburgensis ecclesiae pontificum), third edition
+    author: Adam of Bremen
+    year: '1917'
+    world: scandinavian-conversion-christianity
+    why: Wanted Sources, era 5 row 67 (Adam of Bremen).
+    url: https://archive.org/details/adamvonbremenham00adam
+    rights_basis: 'Public Domain (pd-us-by-date: published 1917); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, 2026-11-13: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,485,374 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: adam-bremen_gesta-hammaburgensis-ecclesiae-pontificum-lat_schmeidler1917.txt
+  - title: Hamburgische Kirchengeschichte, nach der Ausgabe der Scriptores rerum Germanicarum (Adam of Bremen), in German
+    author: Adam of Bremen
+    year: '1926'
+    world: scandinavian-conversion-christianity
+    why: Wanted Sources, era 5 row 67 (Adam of Bremen).
+    url: https://archive.org/details/steinberghamburgischeki
+    rights_basis: 'Public Domain (pd-us-by-date: published 1926); the archive.org record carries the Public Domain Mark (licenseurl http://creativecommons.org/publicdomain/mark/1.0/), and the imprint date agrees'
+    verified_by: 'Library thread, 2026-11-13: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 634,730 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: adam-bremen_hamburgische-kirchengeschichte-deu_steinberg1926.txt
+  - title: 'Recueil des historiens des croisades. Historiens occidentaux, tome I, part 1: Willelmi Tyrensis archiepiscopi Historia rerum in partibus transmarinis gestarum, with the Old French Estoire d''Eracles in parallel columns'
+    author: William of Tyre
+    year: '1844'
+    world: latin-church-of-outremer
+    why: Wanted Sources, era 5 row 84 (William of Tyre); era 5 council row 17 (Council of Jerusalem c.1141).
+    url: https://archive.org/details/RecueilDesHistoriensDesCroisadesOccidentaux11
+    rights_basis: 'Public Domain (pd-us-by-date: published 1844); the archive.org record carries the Public Domain Mark (licenseurl http://creativecommons.org/publicdomain/mark/1.0/), and the imprint date agrees'
+    verified_by: 'Library thread, 2026-11-13: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 3,116,444 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: william-tyre_historia-rerum-in-partibus-transmarinis-gestarum-v1-lat-fra_rhc1844.txt
+  - title: 'Recueil des historiens des croisades. Historiens occidentaux, tome I, part 2: William of Tyre, Historia, books XVI-XXIII, with the Old French Estoire d''Eracles in parallel columns'
+    author: William of Tyre
+    year: '1844'
+    world: latin-church-of-outremer
+    why: Wanted Sources, era 5 row 84 (William of Tyre).
+    url: https://archive.org/details/RecueilDesHistoriensDesCroisadesOccidentaux12
+    rights_basis: 'Public Domain (pd-us-by-date: published 1844); the archive.org record carries the Public Domain Mark (licenseurl http://creativecommons.org/publicdomain/mark/1.0/), and the imprint date agrees'
+    verified_by: 'Library thread, 2026-11-13: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 2,077,243 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: william-tyre_historia-rerum-in-partibus-transmarinis-gestarum-v2-lat-fra_rhc1844.txt
+  - title: Iacobi de Vitriaco ... Libri duo, quorum prior Orientalis sive Hierosolymitanae, alter Occidentalis historiae nomine inscribitur
+    author: Jacques de Vitry
+    year: '1597'
+    world: latin-church-of-outremer
+    why: Wanted Sources, era 5 row 87 (Jacques de Vitry).
+    url: https://archive.org/details/bub_gb_85gfLAldnzsC
+    rights_basis: 'Public Domain (pd-us-by-date: published 1597); the archive.org record carries the Public Domain Mark (licenseurl http://creativecommons.org/publicdomain/mark/1.0/), and the imprint date agrees'
+    verified_by: 'Library thread, 2026-11-13: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 868,466 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: jacques-de-vitry_historia-orientalis-et-occidentalis-lat_1597.txt
+  - title: Zeitschrift für Kirchengeschichte, Band XIV, containing R. Röhricht, 'Briefe des Jacobus de Vitriaco (1216-1221)'
+    author: Jacobus de Vitriaco, letters, edited by R. Röhricht
+    year: '1894'
+    world: latin-church-of-outremer
+    why: Wanted Sources, era 5 row 87 (Jacques de Vitry).
+    url: https://archive.org/details/zeitschriftfrki17unkngoog
+    rights_basis: 'Public Domain (pd-us-by-date: published 1894); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread, 2026-11-13: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,714,967 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: jacques-de-vitry_briefe-in-zeitschrift-fuer-kirchengeschichte-14-lat-deu_rohricht1894.txt
+  - title: Sacrorum conciliorum nova et amplissima collectio, tomus vigesimus primus (Welter facsimile reprint)
+    author: J. D. Mansi
+    year: '1903'
+    world: military-religious-orders-templars-hospitallers
+    why: Wanted Sources, era 5 council row 16 (Council of Troyes, 1129).
+    url: https://archive.org/details/sacrorumconcilio0021joan
+    rights_basis: 'Public Domain (pd-us-by-date: published 1903); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, 2026-11-13: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 3,785,561 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: mansi_sacrorum-conciliorum-collectio-tomus-21-lat_welter-facsimile1903.txt
+  - title: Matthaei Parisiensis, monachi Sancti Albani, Chronica majora, vol. IV, A.D. 1240 to A.D. 1247 (Rolls Series)
+    author: Matthew Paris
+    year: '1877'
+    world: latin-papal-church-gregorian
+    why: Wanted Sources, era 5 council row 19 (First Council of Lyon, 1245).
+    url: https://archive.org/details/matthaeiparisien0004henr
+    rights_basis: 'Public Domain (pd-us-by-date: published 1877); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, 2026-11-13: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,442,531 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: matthew-paris_chronica-majora-v4-rolls-series-57-lat_luard1877.txt
+  - title: 'Patrologiae cursus completus, series Latina, tomus CLXXXII: S. Bernardus abbas Clarae-Vallensis, Opera, volumen primum (operum tomi I-II)'
+    author: Bernard of Clairvaux
+    year: '1879'
+    world: cistercian-monasticism
+    why: 'Wanted Sources, era 5 row 57 (Bernard of Clairvaux); row 66 (Hugh de Payens, the Templars: De laude novae militiae).'
+    url: https://archive.org/details/patrologiaecursu0182mign
+    rights_basis: 'Public Domain (pd-us-by-date: published 1879); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, 2026-11-13: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 3,621,335 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: bernard-clairvaux_opera-t1-pl182-lat_migne1879.txt
+  - title: 'Patrologiae cursus completus, series Latina, tomus CLXXXIII: S. Bernardus, Sermones in Cantica and other sermons'
+    author: Bernard of Clairvaux
+    year: '1854'
+    world: cistercian-monasticism
+    why: Wanted Sources, era 5 row 57 (Bernard of Clairvaux).
+    url: https://archive.org/details/patrologiaecursu0183mign
+    rights_basis: 'Public Domain (pd-us-by-date: published 1854); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, 2026-11-13: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 4,127,764 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: bernard-clairvaux_opera-t2-sermones-pl183-lat_migne1854.txt
+  - title: 'Patrologiae cursus completus, series Latina, tomus CLXXXV: S. Bernardi Vita prima (book I by William of St Thierry) and other lives and writings'
+    author: Bernard of Clairvaux's early Lives
+    year: '1855'
+    world: cistercian-monasticism
+    why: Wanted Sources, era 5 rows 57 (Bernard of Clairvaux) and 95 (William of St Thierry).
+    url: https://archive.org/details/bub_gb_rbDCflprWbkC
+    rights_basis: 'Public Domain (pd-us-by-date: published 1855); the archive.org record carries the Public Domain Mark (licenseurl http://creativecommons.org/publicdomain/mark/1.0/), and the imprint date agrees'
+    verified_by: 'Library thread, 2026-11-13: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 7,061,563 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: bernard-clairvaux_opera-t5-with-vita-prima-pl185-lat_migne1855.txt
+  - title: 'Life and Works of Saint Bernard, Abbot of Clairvaux, vol. 1: the General Preface and letters I-CXLV'
+    author: Bernard of Clairvaux
+    year: '1889'
+    world: cistercian-monasticism
+    why: Wanted Sources, era 5 row 57 (Bernard of Clairvaux).
+    url: https://archive.org/details/LifeWorksOfSBernardClairvauxV1
+    rights_basis: 'Public Domain (pd-us-by-date: published 1889); the archive.org record carries the Public Domain Mark (licenseurl http://creativecommons.org/publicdomain/mark/1.0/), and the imprint date agrees'
+    verified_by: 'Library thread, 2026-11-13: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,004,831 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: bernard-clairvaux_life-and-works-v1_eales1889.txt
+  - title: 'Life and Works of Saint Bernard, Abbot of Clairvaux, vol. 2: letters CXLVI-CCCLXXX'
+    author: Bernard of Clairvaux
+    year: '1889'
+    world: cistercian-monasticism
+    why: Wanted Sources, era 5 row 57 (Bernard of Clairvaux).
+    url: https://archive.org/details/LifeWorksOfSBernardClairvauxV2
+    rights_basis: 'Public Domain (pd-us-by-date: published 1889); the archive.org record carries the Public Domain Mark (licenseurl http://creativecommons.org/publicdomain/mark/1.0/), and the imprint date agrees'
+    verified_by: 'Library thread, 2026-11-13: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,250,084 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: bernard-clairvaux_life-and-works-v2_eales1889.txt
+  - title: 'Life and Works of Saint Bernard, Abbot of Clairvaux, vol. 3: letters CCCLXXXI-CDXC and sermons de tempore'
+    author: Bernard of Clairvaux
+    year: '1896'
+    world: cistercian-monasticism
+    why: Wanted Sources, era 5 row 57 (Bernard of Clairvaux).
+    url: https://archive.org/details/LifeWorksOfSBernardClairvauxV3
+    rights_basis: 'Public Domain (pd-us-by-date: published 1896); the archive.org record carries the Public Domain Mark (licenseurl http://creativecommons.org/publicdomain/mark/1.0/), and the imprint date agrees'
+    verified_by: 'Library thread, 2026-11-13: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 815,333 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: bernard-clairvaux_life-and-works-v3_eales1896.txt
+  - title: 'Life and Works of Saint Bernard, Abbot of Clairvaux, vol. 4: eighty-six sermons on the Song of Songs'
+    author: Bernard of Clairvaux
+    year: '1896'
+    world: cistercian-monasticism
+    why: Wanted Sources, era 5 row 57 (Bernard of Clairvaux).
+    url: https://archive.org/details/LifeWorksOfSBernardClairvauxV4
+    rights_basis: 'Public Domain (pd-us-by-date: published 1896); the archive.org record carries the Public Domain Mark (licenseurl http://creativecommons.org/publicdomain/mark/1.0/), and the imprint date agrees'
+    verified_by: 'Library thread, 2026-11-13: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 2,087,239 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: bernard-clairvaux_life-and-works-v4_eales1896.txt
+  - title: 'Patrologiae cursus completus, series Latina, tomus CLXVI (S. Stephanus abbas Cisterciensis III: Censura de aliquot locis bibliorum, Charta caritatis, Usus antiquiores, Exordium coenobii et ordinis Cisterciensis)'
+    author: Stephen Harding and the early Cistercian foundation texts
+    year: '1894'
+    world: cistercian-monasticism
+    why: Wanted Sources, era 5 rows 58 (Robert of Molesme) and 96 (Stephen Harding).
+    url: https://archive.org/details/patrologiaecursu0166mign
+    rights_basis: 'Public Domain (pd-us-by-date: published 1894); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, 2026-11-13: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 4,578,436 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: stephen-harding_charta-caritatis-and-exordium-in-pl166-lat_migne1894.txt
+  - title: Annales Ordinis Cartusiensis, vol. I (the years 1084-1151)
+    author: the Annales of D. Carolus Le Couteulx
+    year: '1887'
+    world: carthusian-life
+    why: Wanted Sources, era 5 row 59 (Bruno of Cologne).
+    url: https://archive.org/details/annalesordinisca01leco
+    rights_basis: 'Public Domain (pd-us-by-date: published 1887); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, 2026-11-13: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,311,064 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: le-couteulx_annales-ordinis-cartusiensis-v1-lat_1887.txt
+  - title: 'Patrologiae cursus completus, series Latina, tomus CLII: S. Bruno Carthusianorum institutor, with the other leading Carthusian fathers of the same century, Opera omnia'
+    author: S. Bruno, institutor of the Carthusians, Opera omnia, with the other leading Carthusian fathers of the same century
+    year: '1879'
+    world: carthusian-life
+    why: Wanted Sources, era 5 row 59 (Bruno of Cologne).
+    url: https://archive.org/details/patrologiaecursu152mign
+    rights_basis: 'Public Domain (pd-us-by-date: published 1879); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, 2026-11-13: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 4,780,303 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: bruno-cologne_opera-omnia-with-acta-pl152-lat_migne1879.txt
+  - title: 'Patrologiae cursus completus, series Latina, tomus CXCV: Aelredus Rievallensis, Opera (Sermones, Speculum charitatis, De spirituali amicitia, De bello Standartii, Genealogia, Vita S. Edwardi)'
+    author: Aelred of Rievaulx
+    year: '1855'
+    world: cistercian-monasticism
+    why: Wanted Sources, era 5 row 69 (Aelred of Rievaulx).
+    url: https://archive.org/details/patrologiaecursu0195mign
+    rights_basis: 'Public Domain (pd-us-by-date: published 1855); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, 2026-11-13: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 3,820,450 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: aelred-rievaulx_opera-pl195-lat_migne1855.txt
+  - title: 'Magna Vita S. Hugonis episcopi Lincolniensis (Rerum Britannicarum medii aevi scriptores: Chronicles and Memorials of Great Britain and Ireland during the Middle Ages)'
+    author: Adam of Eynsham
+    year: '1864'
+    world: carthusian-life
+    why: Wanted Sources, era 5 rows 71 (Hugh of Lincoln) and 72 (Adam of Eynsham).
+    url: https://archive.org/details/magnavitashugoni00adam
+    rights_basis: 'Public Domain (pd-us-by-date: published 1864); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, 2026-11-13: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,197,963 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: adam-eynsham_magna-vita-sancti-hugonis-lat_dimock1864.txt
+  - title: Patrologiae cursus completus, series Latina, tomus CLXX (containing the Vita S. Norberti by a Premonstratensian canon of his own time, and Norbert material)
+    author: Several authors
+    year: '1894'
+    world: canons-regular-victorine-school
+    why: Wanted Sources, era 5 row 60 (Norbert of Xanten).
+    url: https://archive.org/details/patrologiaecursu0170mign
+    rights_basis: 'Public Domain (pd-us-by-date: published 1894); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, 2026-11-13: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 4,217,071 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: norbert-xanten_vita-b-and-sermons-in-pl170-lat_migne1894.txt
+  - title: La Règle du Temple, publiée pour la Société de l'histoire de France
+    author: Henri de Curzon
+    year: '1886'
+    world: military-religious-orders-templars-hospitallers
+    why: Wanted Sources, era 5 row 66 (Hugh de Payens).
+    url: https://archive.org/details/largleduhenride00tempuoft
+    rights_basis: 'Public Domain (pd-us-by-date: published 1886); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread, 2026-11-13: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 827,022 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: templars_la-regle-du-temple-fra-lat_curzon1886.txt
+  - title: Die ursprüngliche Templerregel (Studien und Darstellungen aus dem Gebiete der Geschichte, III. Band, 1. und 2. Heft)
+    author: the Latin Rule of the Templars with a German study
+    year: '1903'
+    world: military-religious-orders-templars-hospitallers
+    why: Wanted Sources, era 5 row 66 (Hugh de Payens).
+    url: https://archive.org/details/dieursprnglichet00temp
+    rights_basis: 'Public Domain (pd-us-by-date: published 1903); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, 2026-11-13: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 450,312 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: templars_die-urspruengliche-templerregel-lat-deu_1903.txt
+  - title: S. Francisci Assisiensis Vita et Miracula additis opusculis liturgicis auctore Fr. Thoma de Celano (Vita prima, Vita secunda, Tractatus de miraculis)
+    author: Thomas of Celano
+    year: '1906'
+    world: the-franciscan-movement
+    why: Wanted Sources, era 5 row 77 (Thomas of Celano).
+    url: https://archive.org/details/sfrancisciassisi00thom
+    rights_basis: 'Public Domain (pd-us-by-date: published 1906); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, 2026-11-13: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,198,448 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: thomas-celano_vita-et-miracula-sancti-francisci-lat_d-alencon1906.txt
+  - title: The Lives of S. Francis of Assisi by Brother Thomas of Celano
+    author: Thomas of Celano
+    year: '1908'
+    world: the-franciscan-movement
+    why: Wanted Sources, era 5 row 77 (Thomas of Celano).
+    url: https://archive.org/details/livesofsfranciso00thom
+    rights_basis: 'Public Domain (pd-us-by-date: published 1908); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, 2026-11-13: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 675,320 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: thomas-celano_lives-of-st-francis_howell1908.txt
+  - title: The Life of Saint Clare ascribed to Fr. Thomas of Celano [A.D. 1255-1261], with the Rule of St Clare in an appendix
+    author: ascribed to Thomas of Celano
+    year: '1910'
+    world: the-franciscan-movement
+    why: Wanted Sources, era 5 row 61 (Clare of Assisi).
+    url: https://archive.org/details/TheLifeOfSaintClare
+    rights_basis: 'Public Domain (pd-us-by-date: published 1910); the archive.org record carries the Public Domain Mark (licenseurl http://creativecommons.org/publicdomain/mark/1.0/), and the imprint date agrees'
+    verified_by: 'Library thread, 2026-11-13: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 269,707 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: clare-assisi_life-of-saint-clare-ascribed-to-thomas-of-celano_robinson1910.txt
+  - title: 'Documenta antiqua Franciscana, pars I: Scripta fratris Leonis socii S. P. Francisci'
+    author: Fr. Leonardus Lemmens, O.F.M.
+    year: '1901'
+    world: the-franciscan-movement
+    why: Wanted Sources, era 5 row 76 (Brother Leo).
+    url: https://archive.org/details/documentaantiqua00lemm
+    rights_basis: 'Public Domain (pd-us-by-date: published 1901); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, 2026-11-13: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 172,361 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: leo-assisi_scripta-fratris-leonis-lat_lemmens1901.txt
+  - title: Speculum perfectionis seu S. Francisci Assisiensis legenda antiquissima auctore fratre Leone
+    author: Paul Sabatier, editor
+    year: '1898'
+    world: the-franciscan-movement
+    why: Wanted Sources, era 5 row 76 (Brother Leo).
+    url: https://archive.org/details/speculumperfecti0000unse
+    rights_basis: 'Public Domain (pd-us-by-date: published 1898); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, 2026-11-13: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,258,037 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: speculum-perfectionis_speculum-perfectionis-lat_sabatier1898.txt
+  - title: Some new sources for the life of Blessed Agnes of Bohemia (British Society of Franciscan Studies)
+    author: Seton, editor
+    year: '1915'
+    world: the-franciscan-movement
+    why: Wanted Sources, era 5 row 78 (Agnes of Prague).
+    url: https://archive.org/details/somenewsourcesfo00setorich
+    rights_basis: 'Public Domain (pd-us-by-date: published 1915); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread, 2026-11-13: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 417,224 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: agnes-prague_some-new-sources-for-the-life-of-blessed-agnes-of-bohemia_seton1915.txt
+  - title: Fratris Gerardi de Fracheto O.P. Vitae fratrum ordinis praedicatorum necnon Cronica ordinis ab anno MCCIII usque ad MCCLIV
+    author: Gerard de Frachet
+    year: '1896'
+    world: the-dominican-order
+    why: Wanted Sources, era 5 row 81 (Gerard de Frachet).
+    url: https://archive.org/details/vitaefratrumordi00gera
+    rights_basis: 'Public Domain (pd-us-by-date: published 1896); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, 2026-11-13: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,309,319 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: gerard-de-frachet_vitae-fratrum-lat_reichert1896.txt
+  - title: The Lives of the Brethren of the Order of Preachers, 1206-1259
+    author: Gerard de Frachet
+    year: '1924'
+    world: the-dominican-order
+    why: Wanted Sources, era 5 row 81 (Gerard de Frachet).
+    url: https://archive.org/details/livesofbrethreno0000frbe
+    rights_basis: 'Public Domain (pd-us-by-date: published 1924); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, 2026-11-13: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 549,126 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: gerard-de-frachet_lives-of-the-brethren_conway1924.txt
+  - title: Die Briefe Jordans von Sachsen, des zweiten Dominikanergenerals (1222-37) (Quellen und Forschungen zur Geschichte des Dominikanerordens in Deutschland, Heft 20)
+    author: Jordan of Saxony, letters
+    year: '1925'
+    world: the-dominican-order
+    why: Wanted Sources, era 5 rows 79 (Jordan of Saxony) and 80 (Diana d'Andalo).
+    url: https://archive.org/details/altaner-die-briefe-jordans-von-sachsen
+    rights_basis: 'Public Domain (pd-us-by-date: published 1925); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, 2026-11-13: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 363,606 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: jordan-saxony_die-briefe-lat-deu_altaner1925.txt
+  - title: 'Acta Sanctorum, Augusti tomus I (the Venice reprint), with the Life of Dominic: Jordan of Saxony''s Libellus de principiis'
+    author: the Bollandists
+    year: '1750'
+    world: the-dominican-order
+    why: Wanted Sources, era 5 row 62 (Dominic de Guzman).
+    url: https://archive.org/details/bub_gb_JKHCfGc1iy8C
+    rights_basis: 'Public Domain (pd-us-by-date: published 1750); the archive.org record carries the Public Domain Mark (licenseurl http://creativecommons.org/publicdomain/mark/1.0/), and the imprint date agrees'
+    verified_by: 'Library thread, 2026-11-13: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 7,209,339 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: acta-sanctorum_augusti-tomus-1-lat_1750.txt
+  - title: B. Humberti de Romanis, quinti Praedicatorum magistri generalis, Opera de vita regulari, vol. 1
+    author: Humbert of Romans
+    year: '1888'
+    world: the-dominican-order
+    why: Wanted Sources, era 5 row 97 (Humbert of Romans).
+    url: https://archive.org/details/HumbertusOpera18881
+    rights_basis: 'Public Domain (pd-us-by-date: published 1888); the archive.org record carries the Public Domain Mark (licenseurl http://creativecommons.org/publicdomain/mark/1.0/), and the imprint date agrees'
+    verified_by: 'Library thread, 2026-11-13: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,701,114 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: humbert-romans_opera-de-vita-regulari-v1-lat_berthier1888.txt
+  - title: B. Humberti de Romanis, quinti Praedicatorum magistri generalis, Opera de vita regulari, vol. 2
+    author: Humbert of Romans
+    year: '1889'
+    world: the-dominican-order
+    why: Wanted Sources, era 5 row 97 (Humbert of Romans).
+    url: https://archive.org/details/HumbertusOpera18892
+    rights_basis: 'Public Domain (pd-us-by-date: published 1889); the archive.org record carries the Public Domain Mark (licenseurl http://creativecommons.org/publicdomain/mark/1.0/), and the imprint date agrees'
+    verified_by: 'Library thread, 2026-11-13: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,450,182 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: humbert-romans_opera-de-vita-regulari-v2-lat_berthier1889.txt
+  - title: Thomae Aquinatis Doctoris Angelici Opera omnia iussu impensaque Leonis XIII P. M. edita, tomus 4 (Summa theologiae with the commentary of Cajetan)
+    author: Thomas Aquinas, Ordinis Praedicatorum
+    year: '1888'
+    world: the-dominican-order
+    why: Wanted Sources, era 5 row 63 (Thomas Aquinas).
+    url: https://archive.org/details/operaomniaiussui04thom
+    rights_basis: 'Public Domain (pd-us-by-date: published 1888); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, 2026-11-13: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 3,665,055 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: thomas-aquinas_opera-omnia-t4-summa-theologiae-lat_leonine1888.txt
+  - title: Thomae Aquinatis Doctoris Angelici Opera omnia iussu impensaque Leonis XIII P. M. edita, tomus 5 (Summa theologiae with the commentary of Cajetan)
+    author: Thomas Aquinas, Ordinis Praedicatorum
+    year: '1889'
+    world: the-dominican-order
+    why: Wanted Sources, era 5 row 63 (Thomas Aquinas).
+    url: https://archive.org/details/operaomniaiussui5thom
+    rights_basis: 'Public Domain (pd-us-by-date: published 1889); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, 2026-11-13: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 3,765,717 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: thomas-aquinas_opera-omnia-t5-summa-theologiae-lat_leonine1889.txt
+  - title: Thomae Aquinatis Doctoris Angelici Opera omnia iussu impensaque Leonis XIII P. M. edita, tomus 6 (Summa theologiae with the commentary of Cajetan)
+    author: Thomas Aquinas, Ordinis Praedicatorum
+    year: '1891'
+    world: the-dominican-order
+    why: Wanted Sources, era 5 row 63 (Thomas Aquinas).
+    url: https://archive.org/details/operaomniaiussui06thom
+    rights_basis: 'Public Domain (pd-us-by-date: published 1891); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, 2026-11-13: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 2,904,194 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: thomas-aquinas_opera-omnia-t6-summa-theologiae-lat_leonine1891.txt
+  - title: Thomae Aquinatis Doctoris Angelici Opera omnia iussu impensaque Leonis XIII P. M. edita, tomus 7 (Summa theologiae with the commentary of Cajetan)
+    author: Thomas Aquinas, Ordinis Praedicatorum
+    year: '1892'
+    world: the-dominican-order
+    why: Wanted Sources, era 5 row 63 (Thomas Aquinas).
+    url: https://archive.org/details/operaomniaiussui07thom
+    rights_basis: 'Public Domain (pd-us-by-date: published 1892); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, 2026-11-13: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 2,303,770 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: thomas-aquinas_opera-omnia-t7-summa-theologiae-lat_leonine1892.txt
+  - title: Thomae Aquinatis Doctoris Angelici Opera omnia iussu impensaque Leonis XIII P. M. edita, tomus 8 (Summa theologiae with the commentary of Cajetan)
+    author: Thomas Aquinas, Ordinis Praedicatorum
+    year: '1895'
+    world: the-dominican-order
+    why: Wanted Sources, era 5 row 63 (Thomas Aquinas).
+    url: https://archive.org/details/operaomniaiussui08thom
+    rights_basis: 'Public Domain (pd-us-by-date: published 1895); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, 2026-11-13: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 2,877,057 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: thomas-aquinas_opera-omnia-t8-summa-theologiae-lat_leonine1895.txt
+  - title: Thomae Aquinatis Doctoris Angelici Opera omnia iussu impensaque Leonis XIII P. M. edita, tomus 9 (Summa theologiae with the commentary of Cajetan)
+    author: Thomas Aquinas, Ordinis Praedicatorum
+    year: '1897'
+    world: the-dominican-order
+    why: Wanted Sources, era 5 row 63 (Thomas Aquinas).
+    url: https://archive.org/details/operaomniaiussui09thom
+    rights_basis: 'Public Domain (pd-us-by-date: published 1897); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, 2026-11-13: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 3,452,518 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: thomas-aquinas_opera-omnia-t9-summa-theologiae-lat_leonine1897.txt
+  - title: Thomae Aquinatis Doctoris Angelici Opera omnia iussu impensaque Leonis XIII P. M. edita, tomus 10 (Summa theologiae with the commentary of Cajetan)
+    author: Thomas Aquinas, Ordinis Praedicatorum
+    year: '1899'
+    world: the-dominican-order
+    why: Wanted Sources, era 5 row 63 (Thomas Aquinas).
+    url: https://archive.org/details/operaomniaiussui10thom
+    rights_basis: 'Public Domain (pd-us-by-date: published 1899); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, 2026-11-13: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 4,178,026 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: thomas-aquinas_opera-omnia-t10-summa-theologiae-lat_leonine1899.txt
+  - title: Thomae Aquinatis Doctoris Angelici Opera omnia iussu impensaque Leonis XIII P. M. edita, tomus 11 (Summa theologiae with the commentary of Cajetan)
+    author: Thomas Aquinas, Ordinis Praedicatorum
+    year: '1903'
+    world: the-dominican-order
+    why: Wanted Sources, era 5 row 63 (Thomas Aquinas).
+    url: https://archive.org/details/operaomniaiussui11thom
+    rights_basis: 'Public Domain (pd-us-by-date: published 1903); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, 2026-11-13: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 4,021,244 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: thomas-aquinas_opera-omnia-t11-summa-theologiae-lat_leonine1903.txt
+  - title: Thomae Aquinatis Doctoris Angelici Opera omnia iussu impensaque Leonis XIII P. M. edita, tomus 12 (Summa theologiae with the commentary of Cajetan)
+    author: Thomas Aquinas, Ordinis Praedicatorum
+    year: '1906'
+    world: the-dominican-order
+    why: Wanted Sources, era 5 row 63 (Thomas Aquinas).
+    url: https://archive.org/details/operaomniaiussui12thom
+    rights_basis: 'Public Domain (pd-us-by-date: published 1906); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, 2026-11-13: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 5,640,079 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: thomas-aquinas_opera-omnia-t12-summa-theologiae-lat_leonine1906.txt
+  - title: Acta Sanctorum, Martii tomus I (Venice), with the Life of Thomas Aquinas and the process of his canonization (William of Tocco)
+    author: the Bollandists
+    year: '1735'
+    world: the-dominican-order
+    why: Wanted Sources, era 5 row 63 (Thomas Aquinas).
+    url: https://archive.org/details/bub_gb_8FUWzTPcLVsC
+    rights_basis: 'Public Domain (pd-us-by-date: published 1735); the archive.org record carries the Public Domain Mark (licenseurl http://creativecommons.org/publicdomain/mark/1.0/), and the imprint date agrees'
+    verified_by: 'Library thread, 2026-11-13: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 8,355,305 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: acta-sanctorum_martii-tomus-1-lat_1735.txt
+  - title: Gioacchino da Fiore, Tractatus super quatuor Evangelia (Fonti per la storia d'Italia)
+    author: Joachim of Fiore
+    year: '1930'
+    world: joachimite-current
+    why: Wanted Sources, era 5 row 64 (Joachim of Fiore).
+    url: https://archive.org/details/tractatussuperqu0001erne
+    rights_basis: 'Public Domain (pd-us-by-date: published 1930); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, 2026-11-13: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,131,733 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: joachim-fiore_tractatus-super-quatuor-evangelia-lat_buonaiuti1930.txt
+  - title: Acta Sanctorum, Maii tomus VI (Venice), with the Life of Joachim of Fiore and Luke of Cosenza
+    author: the Bollandists
+    year: '1739'
+    world: joachimite-current
+    why: Wanted Sources, era 5 row 64 (Joachim of Fiore).
+    url: https://archive.org/details/bub_gb_qzgadEN6EcQC
+    rights_basis: 'Public Domain (pd-us-by-date: published 1739); the archive.org record carries the Public Domain Mark (licenseurl http://creativecommons.org/publicdomain/mark/1.0/), and the imprint date agrees'
+    verified_by: 'Library thread, 2026-11-13: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 6,922,062 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: acta-sanctorum_maii-tomus-6-lat_1739.txt
+  - title: Anecdotes historiques, légendes et apologues tirés du recueil inédit d'Étienne de Bourbon, dominicain du XIIIe siècle
+    author: Stephen of Bourbon
+    year: '1877'
+    world: the-waldensians
+    why: Wanted Sources, era 5 row 65 (Valdes of Lyon).
+    url: https://archive.org/details/anecdoteshistori00stepuoft
+    rights_basis: 'Public Domain (pd-us-by-date: published 1877); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread, 2026-11-13: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 987,295 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: stephen-bourbon_anecdotes-historiques-lat_lecoy-de-la-marche1877.txt
+  - title: 'Beiträge zur Sektengeschichte des Mittelalters, zweiter Theil: Dokumente vornehmlich zur Geschichte der Valdesier und Katharer'
+    author: Ign. v. Döllinger
+    year: '1890'
+    world: the-waldensians
+    why: Wanted Sources, era 5 rows 65 (Valdes of Lyon) and 83 (Rainerius Sacconi).
+    url: https://archive.org/details/beitrgezursekt02dl
+    rights_basis: 'Public Domain (pd-us-by-date: published 1890); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, 2026-11-13: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,774,734 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: doellinger_beitraege-zur-sektengeschichte-des-mittelalters-v2-lat-deu_1890.txt
+  - title: Thesaurus novus anecdotorum, tomus quintus (with the Summa fratris Renerii)
+    author: Edmond Martène and Ursin Durand
+    year: '1717'
+    world: cathars-albigensians
+    why: Wanted Sources, era 5 row 83 (Rainerius Sacconi).
+    url: https://archive.org/details/ThesaurusNovusAnecdotorum5
+    rights_basis: 'Public Domain (pd-us-by-date: published 1717); the archive.org record carries the Public Domain Mark (licenseurl http://creativecommons.org/publicdomain/mark/1.0/), and the imprint date agrees'
+    verified_by: 'Library thread, 2026-11-13: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 5,970,941 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: martene-durand_thesaurus-novus-anecdotorum-v5-lat_1717.txt
+  - title: 'From St. Francis to Dante: Translations from the Chronicle of the Franciscan Salimbene (1221-1288)'
+    author: Salimbene de Adam
+    year: '1907'
+    world: joachimite-current
+    why: Wanted Sources, era 5 row 82 (Salimbene de Adam).
+    url: https://archive.org/details/fromstfrancistod00couliala
+    rights_basis: 'Public Domain (pd-us-by-date: published 1907); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread, 2026-11-13: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,397,983 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: salimbene_from-st-francis-to-dante_coulton1907.txt
+  - title: Acta Sanctorum, Junii tomus V (Palmé), with the Life of Marie d'Oignies by Jacques de Vitry
+    author: the Bollandists
+    year: '1867'
+    world: the-beguines
+    why: Wanted Sources, era 5 row 74 (Marie d'Oignies).
+    url: https://archive.org/details/actasanctorumquo24boll
+    rights_basis: 'Public Domain (pd-us-by-date: published 1867); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, 2026-11-13: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 8,885,532 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: acta-sanctorum_junii-tomus-5-lat_palme1867.txt
+  - title: Revue historique, tome cinquante-quatrième, janvier-avril 1894, containing 'Marguerite Porete'
+    author: Langlois
+    year: '1894'
+    world: free-spirit-heresy
+    why: Wanted Sources, era 5 row 75 (Marguerite Porete).
+    url: https://archive.org/details/revuehistorique108krakgoog
+    rights_basis: 'Public Domain (pd-us-by-date: published 1894); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread, 2026-11-13: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,435,514 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: porete_marguerite-in-revue-historique-54-fra_langlois1894.txt
+  - title: The Mirror of Simple Souls, a Middle English translation
+    author: Marguerite Porete
+    year: '1927'
+    world: free-spirit-heresy
+    why: Wanted Sources, era 5 row 75 (Marguerite Porete).
+    url: https://archive.org/details/mirrorofsimpleso0000clar
+    rights_basis: 'Public Domain (pd-us-by-date: published 1927); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, 2026-11-13: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 462,895 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: porete_mirror-of-simple-souls_kirchberger1927.txt
+  - title: Живот светога Симеуна и светога Саве (Life of St Simeon and St Sava), written by Domentijan, edited by Đ. Daničić
+    author: Domentijan
+    year: '1865'
+    world: serbian-and-bulgarian-medieval-monasticism
+    why: Wanted Sources, era 5 rows 56 (Sava of Serbia) and 92 (Domentijan and Teodosije).
+    url: https://archive.org/details/DomentijanZivotSv.SimeonaISv.SaveUredioDjuraDanicic
+    rights_basis: 'Public Domain (pd-us-by-date: published 1865); the archive.org record carries the Public Domain Mark (licenseurl http://creativecommons.org/publicdomain/mark/1.0/), and the imprint date agrees'
+    verified_by: 'Library thread, 2026-11-13: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,028,169 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: domentijan_zivot-svetoga-simeuna-i-svetoga-save-chu_danicic1865.txt
+  - title: Annae Comnenae Porphyrogenitae Alexias ex recensione Augusti Reifferscheidii, volumen I (the whole of the fifteen books)
+    author: Anna Komnene
+    year: '1884'
+    world: balkan-bogomil-continuation
+    why: Wanted Sources, era 5 rows 88 (Anna Komnene) and 89 (Basil the Physician).
+    url: https://archive.org/details/alexiasemper00comnuoft
+    rights_basis: 'Public Domain (pd-us-by-date: published 1884); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, 2026-11-13: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 2,324,761 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: anna-komnene_alexias-grc_reifferscheid1884.txt
+  - title: Euthymii Zygabeni Narratio de Bogomilis seu Panopliae dogmaticae titulus XXIII, edited by Jo. Car. Lud. Gieseler
+    author: Euthymios Zigabenos
+    year: '1842'
+    world: balkan-bogomil-continuation
+    why: Wanted Sources, era 5 row 89 (Basil the Physician).
+    url: https://archive.org/details/narratiodebogom00giesgoog
+    rights_basis: 'Public Domain (pd-us-by-date: published 1842); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread, 2026-11-13: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 195,383 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: euthymios-zigabenos_narratio-de-bogomilis-grc-lat_gieseler1842.txt
+  - title: Commentationes philologae Ienenses, vol. IV, containing the dissertation on Gregory Pakourianos and the Typikon of the monastery of the Mother of God Petritzonitissa (Georgius Musaeus)
+    author: Georgius Musaeus
+    year: '1890'
+    world: the-georgian-golden-age
+    why: Wanted Sources, era 5 row 91 (Gregory Pakourianos).
+    url: https://archive.org/details/commentationesp01unkngoog
+    rights_basis: 'Public Domain (pd-us-by-date: published 1890); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread, 2026-11-13: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 2,214,761 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: pakourianos_typikon-in-commentationes-philologae-ienenses-4-grc-lat_mousaios1890.txt
+  - title: The Book of Ser Marco Polo the Venetian, concerning the kingdoms and marvels of the East, third edition, vol. I
+    author: Marco Polo
+    year: '1903'
+    world: church-of-the-east-under-the-mongols
+    why: Wanted Sources, era 5 row 94 (Marco Polo).
+    url: https://archive.org/details/bookofsermarcopo00polo
+    rights_basis: 'Public Domain (pd-us-by-date: published 1903); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, 2026-11-13: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 2,321,346 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: marco-polo_book-of-ser-marco-polo-v1_yule-cordier1903.txt
+  - title: The Book of Ser Marco Polo the Venetian, third edition, vol. II
+    author: Marco Polo
+    year: '1903'
+    world: church-of-the-east-under-the-mongols
+    why: Wanted Sources, era 5 row 94 (Marco Polo).
+    url: https://archive.org/details/bookofsermarcopo21903polo
+    rights_basis: 'Public Domain (pd-us-by-date: published 1903); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, 2026-11-13: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 2,249,421 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: marco-polo_book-of-ser-marco-polo-v2_yule-cordier1903.txt
+  - title: Historia patriarcharum Alexandrinorum Jacobitarum a D. Marco usque ad finem seculi XIII
+    author: Eusèbe Renaudot
+    year: '1713'
+    world: coptic-christianity-fatimid-to-mamluk
+    why: Wanted Sources, era 5 row 93 (Cyril III ibn Laqlaq).
+    url: https://archive.org/details/bub_gb_r5tk9rAzY6AC
+    rights_basis: 'Public Domain (pd-us-by-date: published 1713); the archive.org record carries the Public Domain Mark (licenseurl http://creativecommons.org/publicdomain/mark/1.0/), and the imprint date agrees'
+    verified_by: 'Library thread, 2026-11-13: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,845,852 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713.txt
+  - title: Recueil des historiens des croisades. Historiens orientaux, tome premier (French translations of the Arabic chroniclers, including Ibn al-Athir's Kamil)
+    author: Académie des inscriptions et belles-lettres
+    year: '1872'
+    world: latin-church-of-outremer
+    why: Wanted Sources, era 5 outside-witness row 1 (Ibn al-Athir).
+    url: https://archive.org/details/recueildeshistor01acad
+    rights_basis: 'Public Domain (pd-us-by-date: published 1872); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, 2026-11-13: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 3,933,477 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: rhc-historiens-orientaux_t1-fra_academie1872.txt
+  - title: Recueil des historiens des croisades. Historiens orientaux, tome II, première partie (Ibn al-Athir, 585 to 628 AH, and later authors)
+    author: Académie des inscriptions et belles-lettres
+    year: '1887'
+    world: latin-church-of-outremer
+    why: Wanted Sources, era 5 outside-witness row 1 (Ibn al-Athir).
+    url: https://archive.org/details/recueildeshistor02acad
+    rights_basis: 'Public Domain (pd-us-by-date: published 1887); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, 2026-11-13: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 2,162,123 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: rhc-historiens-orientaux_t2-pt1-fra_academie1887.txt
+  - title: 'An Arab-Syrian Gentleman and Warrior in the Period of the Crusades: Memoirs of Usamah ibn-Munqidh (Kitab al I''tibar), translated by Philip K. Hitti (Records of Civilization)'
+    author: Usama ibn Munqidh
+    year: '1929'
+    world: latin-church-of-outremer
+    why: Wanted Sources, era 5 outside-witness row 2 (Usama ibn Munqidh).
+    url: https://archive.org/details/arabsyriangentle00usma
+    rights_basis: 'Public Domain (pd-us-by-date: published 1929); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, 2026-11-13: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 638,059 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: usama-ibn-munqidh_arab-syrian-gentleman-and-warrior_hitti1929.txt
+  - title: 'Rihla of Ibn Jubayr, Arabic text (host title: ''Rilat al-ktib ... Ibn Jubayr'')'
+    author: Ibn Jubayr, 1145-1217
+    year: '1852'
+    world: latin-church-of-outremer
+    why: Wanted Sources, era 5 outside-witness row 3 (Ibn Jubayr).
+    url: https://archive.org/details/rilatalktibibnju00ibnjuoft
+    rights_basis: 'Public Domain (pd-us-by-date: published 1852); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    verified_by: 'Library thread, 2026-11-13: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 900,287 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: ibn-jubayr_rihla-ara_wright1852.txt
+  - title: 'The Itinerary of Benjamin of Tudela: critical text, translation and commentary'
+    author: Benjamin of Tudela
+    year: '1907'
+    world: latin-church-of-outremer
+    why: Wanted Sources, era 5 outside-witness row 4 (Benjamin of Tudela).
+    url: https://archive.org/details/the-itinerary-of-benjamin-of-tudela
+    rights_basis: 'Public Domain (pd-us-by-date: published 1907); the archive.org record carries no rights field, so the imprint date is the basis'
+    verified_by: 'Library thread, 2026-11-13: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 633,508 equal to the listed size, the volume''s end read'
+    status: downloaded
+    vendored_as: benjamin-tudela_itinerary-heb-eng_adler1907.txt

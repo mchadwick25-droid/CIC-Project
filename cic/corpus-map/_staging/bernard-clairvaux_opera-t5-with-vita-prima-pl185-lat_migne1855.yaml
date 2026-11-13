@@ -1,0 +1,11 @@
+source_file: bernard-clairvaux_opera-t5-with-vita-prima-pl185-lat_migne1855.txt
+assignments:
+- row_id: bernard-clairvaux_opera-t5-with-vita-prima-pl185-lat_migne1855--s-bernardi-vita-prima-book-i-by-william-of-st-thierry-pl-185
+  work: S. Bernardi Vita prima, book I by William of St Thierry (PL 185)
+  author: bernard-clairvaux
+  locus: book I from about OCR line 15474; the rest of the volume is other Bernard material; add 12 to OCR line numbers
+  atlas_ids:
+  - cistercian-monasticism
+  role: tradition
+  confidence: provisional
+  note: The first Life of Bernard, by a friend and fellow Cistercian, written inside this window.

@@ -1,0 +1,11 @@
+source_file: agnes-prague_some-new-sources-for-the-life-of-blessed-agnes-of-bohemia_seton1915.txt
+assignments:
+- row_id: agnes-prague_some-new-sources-for-the-life-of-blessed-agnes-of-bohemia_seton1915--blessed-agnes-of-bohemia-the-latin-legend-and-german-texts-seton
+  work: Blessed Agnes of Bohemia, the Latin Legend and German texts (Seton 1915)
+  author: agnes-prague
+  locus: the Legend from about OCR line 3396; add 12 to OCR line numbers
+  atlas_ids:
+  - the-franciscan-movement
+  role: context
+  confidence: provisional
+  note: The Legend is a later text (fourteenth century by its own heading), outside this window and about it.

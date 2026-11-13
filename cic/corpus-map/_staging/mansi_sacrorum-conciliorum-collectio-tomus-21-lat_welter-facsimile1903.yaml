@@ -1,0 +1,12 @@
+source_file: mansi_sacrorum-conciliorum-collectio-tomus-21-lat_welter-facsimile1903.txt
+assignments:
+- row_id: mansi_sacrorum-conciliorum-collectio-tomus-21-lat_welter-facsimile1903--mansi-xxi-the-council-of-troyes-1129-and-the-latin-rule-of-the-t
+  work: Mansi XXI, the Council of Troyes (1129) and the Latin Rule of the Templars
+  author: mansi
+  locus: the council of Troyes from about OCR line 34360; add 12 to OCR line numbers
+  atlas_ids:
+  - military-religious-orders-templars-hospitallers
+  - latin-papal-church-gregorian
+  role: tradition
+  confidence: provisional
+  note: The council that gave the Templars their Rule, printed from William of Tyre and the Rule text. Mansi's own note dates it to 1127; the Library's council scan gives January 1129.

@@ -1,0 +1,11 @@
+source_file: bruno-cologne_opera-omnia-with-acta-pl152-lat_migne1879.txt
+assignments:
+- row_id: bruno-cologne_opera-omnia-with-acta-pl152-lat_migne1879--bruno-acta-s-brunonis-and-commentarium-in-psalmos-pl-152
+  work: Bruno, Acta S. Brunonis and Commentarium in Psalmos (PL 152)
+  author: bruno-cologne
+  locus: the whole volume
+  atlas_ids:
+  - carthusian-life
+  role: tradition
+  confidence: needs-ruling
+  note: The Acta are a later compilation of the saint's life; the Psalm commentary is printed under Bruno's name. The letters themselves are not in this volume.

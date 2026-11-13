@@ -253,6 +253,80 @@ every file, and a third rechecked their corrections.
 "Permission Granted to Digitize". A CC BY 3.0 upload that may be Graf's Abu Qurrah. All other duplicate
 and garbled scans are listed in the search log.
 
+## Era 5 (1054-1300): the Who scan's wanted sources and the council records
+
+Seventy-one files for the era 5 rows of `Build/Ministry/Operations/Audits/2026-11-12_wanted-sources-combined/Wanted_Sources.md`:
+person rows 55-98, the four outside-witness rows, and the council rows 16-19. The search record is
+`Build/Ministry/Operations/Audits/2026-11-13_library-era5/Search_Log.md`. Every modern edition the audits named
+(Powell, Matarasso, Waddell, Tugwell, Armstrong, Upton-Ward, Duggan, Sewter, Tschan, Babcock and Krey, Brooke and the
+rest) is in copyright and was replaced by an older public-domain edition of the same text, or reported not found.
+Two Opus reviewers checked every file and a third rechecked their corrections.
+
+| want (Wanted Sources row) | state | file(s) | shelf |
+|---|---|---|---|
+| era 5 row 55 (Innocent III) | filled | `innocent-iii_opera-with-gesta-innocentii-pl214-lat_migne1853.txt` | innocent-iii, latin-papal-church-gregorian, tradition |
+| era 5 row 85 (Anselm of Canterbury) | filled | `anselm-canterbury_opera-with-eadmer-vita-anselmi-pl158-lat_migne1864.txt`; `anselm-canterbury_opera-with-eadmer-historia-novorum-pl159-lat_migne1903.txt` | latin-papal-church-gregorian, tradition |
+| era 5 row 86 (Thomas Becket) | filled | `thomas-becket_epistolae-with-vitae-pl190-lat_migne1893.txt` | latin-papal-church-gregorian, tradition |
+| era 5 row 98 (Peter Abelard) | filled | `abelard_opera-pl178-lat_migne1885.txt` | latin-papal-church-gregorian, tradition |
+| era 5 row 67 (Adam of Bremen) | filled | `adam-bremen_gesta-hammaburgensis-ecclesiae-pontificum-lat_schmeidler1917.txt`; `adam-bremen_hamburgische-kirchengeschichte-deu_steinberg1926.txt` | scandinavian-conversion-christianity, tradition |
+| era 5 row 84 (William of Tyre); era 5 council row 17 (Council of Jerusalem c.1141) | filled | `william-tyre_historia-rerum-in-partibus-transmarinis-gestarum-v1-lat-fra_rhc1844.txt` | latin-church-of-outremer, tradition |
+| era 5 row 84 (William of Tyre) | filled | `william-tyre_historia-rerum-in-partibus-transmarinis-gestarum-v2-lat-fra_rhc1844.txt` | latin-church-of-outremer, tradition; maronite-christianity, context |
+| era 5 row 87 (Jacques de Vitry) | filled | `jacques-de-vitry_historia-orientalis-et-occidentalis-lat_1597.txt`; `jacques-de-vitry_briefe-in-zeitschrift-fuer-kirchengeschichte-14-lat-deu_rohricht1894.txt` | latin-church-of-outremer, tradition |
+| era 5 council row 16 (Council of Troyes, 1129) | filled | `mansi_sacrorum-conciliorum-collectio-tomus-21-lat_welter-facsimile1903.txt` | military-religious-orders-templars-hospitallers, latin-papal-church-gregorian, tradition |
+| era 5 council row 19 (First Council of Lyon, 1245) | filled | `matthew-paris_chronica-majora-v4-rolls-series-57-lat_luard1877.txt` | latin-papal-church-gregorian, context |
+| era 5 row 57 (Bernard of Clairvaux); row 66 (Hugh de Payens, the Templars: De laude novae militiae) | filled | `bernard-clairvaux_opera-t1-pl182-lat_migne1879.txt` | cistercian-monasticism, tradition; military-religious-orders-templars-hospitallers, context |
+| era 5 row 57 (Bernard of Clairvaux) | filled | `bernard-clairvaux_opera-t2-sermones-pl183-lat_migne1854.txt`; `bernard-clairvaux_life-and-works-v1_eales1889.txt`; `bernard-clairvaux_life-and-works-v2_eales1889.txt`; `bernard-clairvaux_life-and-works-v3_eales1896.txt`; `bernard-clairvaux_life-and-works-v4_eales1896.txt` | cistercian-monasticism, tradition |
+| era 5 rows 57 (Bernard of Clairvaux) and 95 (William of St Thierry) | filled | `bernard-clairvaux_opera-t5-with-vita-prima-pl185-lat_migne1855.txt` | cistercian-monasticism, tradition |
+| era 5 rows 58 (Robert of Molesme) and 96 (Stephen Harding) | filled | `stephen-harding_charta-caritatis-and-exordium-in-pl166-lat_migne1894.txt` | cistercian-monasticism, tradition (needs-ruling) |
+| era 5 row 59 (Bruno of Cologne) | filled | `le-couteulx_annales-ordinis-cartusiensis-v1-lat_1887.txt`; `bruno-cologne_opera-omnia-with-acta-pl152-lat_migne1879.txt` | carthusian-life, tradition; carthusian-life, context; carthusian-life, tradition (needs-ruling) |
+| era 5 row 69 (Aelred of Rievaulx) | filled | `aelred-rievaulx_opera-pl195-lat_migne1855.txt` | cistercian-monasticism, tradition |
+| era 5 rows 71 (Hugh of Lincoln) and 72 (Adam of Eynsham) | filled | `adam-eynsham_magna-vita-sancti-hugonis-lat_dimock1864.txt` | carthusian-life, tradition |
+| era 5 row 60 (Norbert of Xanten) | filled | `norbert-xanten_vita-b-and-sermons-in-pl170-lat_migne1894.txt` | canons-regular-victorine-school, tradition |
+| era 5 row 66 (Hugh de Payens) | filled | `templars_la-regle-du-temple-fra-lat_curzon1886.txt`; `templars_die-urspruengliche-templerregel-lat-deu_1903.txt` | military-religious-orders-templars-hospitallers, tradition |
+| era 5 row 77 (Thomas of Celano) | filled | `thomas-celano_vita-et-miracula-sancti-francisci-lat_d-alencon1906.txt`; `thomas-celano_lives-of-st-francis_howell1908.txt` | the-franciscan-movement, tradition |
+| era 5 row 61 (Clare of Assisi) | filled | `clare-assisi_life-of-saint-clare-ascribed-to-thomas-of-celano_robinson1910.txt` | the-franciscan-movement, tradition |
+| era 5 row 76 (Brother Leo) | filled | `leo-assisi_scripta-fratris-leonis-lat_lemmens1901.txt`; `speculum-perfectionis_speculum-perfectionis-lat_sabatier1898.txt` | the-franciscan-movement, tradition (needs-ruling); the-franciscan-movement, fraticelli-spiritual-franciscan-rigorists, franciscan-order-era-6, tradition (needs-ruling) |
+| era 5 row 78 (Agnes of Prague) | filled | `agnes-prague_some-new-sources-for-the-life-of-blessed-agnes-of-bohemia_seton1915.txt` | the-franciscan-movement, context |
+| era 5 row 81 (Gerard de Frachet) | filled | `gerard-de-frachet_vitae-fratrum-lat_reichert1896.txt`; `gerard-de-frachet_lives-of-the-brethren_conway1924.txt` | the-dominican-order, tradition |
+| era 5 rows 79 (Jordan of Saxony) and 80 (Diana d'Andalo) | filled | `jordan-saxony_die-briefe-lat-deu_altaner1925.txt` | the-dominican-order, tradition |
+| era 5 row 62 (Dominic de Guzman) | filled | `acta-sanctorum_augusti-tomus-1-lat_1750.txt` | the-dominican-order, tradition |
+| era 5 row 97 (Humbert of Romans) | filled | `humbert-romans_opera-de-vita-regulari-v1-lat_berthier1888.txt`; `humbert-romans_opera-de-vita-regulari-v2-lat_berthier1889.txt` | the-dominican-order, tradition |
+| era 5 row 63 (Thomas Aquinas) | filled | `thomas-aquinas_opera-omnia-t4-summa-theologiae-lat_leonine1888.txt`; `thomas-aquinas_opera-omnia-t5-summa-theologiae-lat_leonine1889.txt`; `thomas-aquinas_opera-omnia-t6-summa-theologiae-lat_leonine1891.txt`; `thomas-aquinas_opera-omnia-t7-summa-theologiae-lat_leonine1892.txt`; `thomas-aquinas_opera-omnia-t8-summa-theologiae-lat_leonine1895.txt`; `thomas-aquinas_opera-omnia-t9-summa-theologiae-lat_leonine1897.txt`; `thomas-aquinas_opera-omnia-t10-summa-theologiae-lat_leonine1899.txt`; `thomas-aquinas_opera-omnia-t11-summa-theologiae-lat_leonine1903.txt`; `thomas-aquinas_opera-omnia-t12-summa-theologiae-lat_leonine1906.txt`; `acta-sanctorum_martii-tomus-1-lat_1735.txt` | the-dominican-order, tradition; the-dominican-order, context |
+| era 5 row 64 (Joachim of Fiore) | filled | `joachim-fiore_tractatus-super-quatuor-evangelia-lat_buonaiuti1930.txt`; `acta-sanctorum_maii-tomus-6-lat_1739.txt` | joachimite-current, tradition; joachimite-current, context (needs-ruling) |
+| era 5 row 65 (Valdes of Lyon) | filled | `stephen-bourbon_anecdotes-historiques-lat_lecoy-de-la-marche1877.txt` | the-waldensians, context |
+| era 5 rows 65 (Valdes of Lyon) and 83 (Rainerius Sacconi) | filled | `doellinger_beitraege-zur-sektengeschichte-des-mittelalters-v2-lat-deu_1890.txt` | the-waldensians, cathars-albigensians, context |
+| era 5 row 83 (Rainerius Sacconi) | filled | `martene-durand_thesaurus-novus-anecdotorum-v5-lat_1717.txt` | cathars-albigensians, the-waldensians, context |
+| era 5 row 82 (Salimbene de Adam) | filled | `salimbene_from-st-francis-to-dante_coulton1907.txt` | joachimite-current, the-franciscan-movement, tradition |
+| era 5 row 74 (Marie d'Oignies) | filled | `acta-sanctorum_junii-tomus-5-lat_palme1867.txt` | the-beguines, context |
+| era 5 row 75 (Marguerite Porete) | filled | `porete_marguerite-in-revue-historique-54-fra_langlois1894.txt`; `porete_mirror-of-simple-souls_kirchberger1927.txt` | free-spirit-heresy, the-beguines, context; free-spirit-heresy, the-beguines, tradition |
+| era 5 rows 56 (Sava of Serbia) and 92 (Domentijan and Teodosije) | filled | `domentijan_zivot-svetoga-simeuna-i-svetoga-save-chu_danicic1865.txt` | serbian-and-bulgarian-medieval-monasticism, tradition |
+| era 5 rows 88 (Anna Komnene) and 89 (Basil the Physician) | filled | `anna-komnene_alexias-grc_reifferscheid1884.txt` | balkan-bogomil-continuation, byzantine-church-after-1054, context |
+| era 5 row 89 (Basil the Physician) | filled | `euthymios-zigabenos_narratio-de-bogomilis-grc-lat_gieseler1842.txt` | balkan-bogomil-continuation, context |
+| era 5 row 91 (Gregory Pakourianos) | filled | `pakourianos_typikon-in-commentationes-philologae-ienenses-4-grc-lat_mousaios1890.txt` | the-georgian-golden-age, tradition (needs-ruling) |
+| era 5 row 94 (Marco Polo) | filled | `marco-polo_book-of-ser-marco-polo-v1_yule-cordier1903.txt`; `marco-polo_book-of-ser-marco-polo-v2_yule-cordier1903.txt` | church-of-the-east-under-the-mongols, context |
+| era 5 row 93 (Cyril III ibn Laqlaq) | filled | `renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713.txt` | coptic-christianity-fatimid-to-mamluk, context |
+| era 5 outside-witness row 1 (Ibn al-Athir) | filled | `rhc-historiens-orientaux_t1-fra_academie1872.txt`; `rhc-historiens-orientaux_t2-pt1-fra_academie1887.txt` | latin-church-of-outremer, context |
+| era 5 outside-witness row 2 (Usama ibn Munqidh) | filled | `usama-ibn-munqidh_arab-syrian-gentleman-and-warrior_hitti1929.txt` | latin-church-of-outremer, context |
+| era 5 outside-witness row 3 (Ibn Jubayr) | filled | `ibn-jubayr_rihla-ara_wright1852.txt` | latin-church-of-outremer, context |
+| era 5 outside-witness row 4 (Benjamin of Tudela) | filled | `benjamin-tudela_itinerary-heb-eng_adler1907.txt` | latin-church-of-outremer, byzantine-church-after-1054, context |
+
+**Already held, checked this batch (no new file).** Row 68, Nestor: his Life of Theodosius is in the held Abramovich
+Paterik, and the chronicle is held; both now also shelved on `kievan-rus-christianity-1054-1240` (the chronicle as
+tradition, the Paterik as context). Row 90, George the Hagiorite: his Life is in the held Peeters volume, which was
+already on the Georgian golden age entry.
+
+**Not found or not obtainable.** Teodosije's Life of Sava (row 92); Walter Daniel's Life of Ailred (row 70); a Life of
+Robert of Molesme (row 58); Clare's Letters, Testament and Process (row 61); Dominic's canonization process (row 62);
+Humbert's Legenda (row 97); Waldo's Profession of 1180 as a separate text (row 65); the Old French and Latin Mirror
+of Simple Souls (row 75); Cyril III's own record (row 93); Nerses of Lambron's speech at Hromkla (council 18); the
+decree text of Lyon I (council 19; Matthew Paris's narrative is held).
+
+**Held for Mark, not vendored.** Hadewijch's Dutch editions (row 73) are on dbnl.org, whose terms give no per-item
+licence. Dawes's English Alexiad (row 88) is a transcription whose notice limits it to non-commercial use. The Greek of
+Anna Komnene is held.
+
+**Not taken.** Every duplicate, garbled or secondary scan is listed in the search log.
+
 ## Later — queued
 
 - ME-21 by a browser; Lang 1834 and the Peking mission after 1808; the

@@ -1,0 +1,11 @@
+source_file: templars_die-urspruengliche-templerregel-lat-deu_1903.txt
+assignments:
+- row_id: templars_die-urspruengliche-templerregel-lat-deu_1903--die-urspr-ngliche-templerregel-the-latin-rule-1903
+  work: Die ursprüngliche Templerregel, the Latin Rule (1903)
+  author: templars
+  locus: the Latin Rule from about OCR line 7363; the German study around it is a later scholar; add 12 to OCR line numbers
+  atlas_ids:
+  - military-religious-orders-templars-hospitallers
+  role: tradition
+  confidence: provisional
+  note: The Latin Rule of the Templars, inside this window.

@@ -1,0 +1,11 @@
+source_file: pakourianos_typikon-in-commentationes-philologae-ienenses-4-grc-lat_mousaios1890.txt
+assignments:
+- row_id: pakourianos_typikon-in-commentationes-philologae-ienenses-4-grc-lat_mousaios1890--gregory-pakourianos-typikon-of-the-petritzonitissa-monastery-mus
+  work: Gregory Pakourianos, Typikon of the Petritzonitissa monastery (Musaeus 1890, in Commentationes philologae Ienenses IV)
+  author: pakourianos
+  locus: the Typikon from about OCR line 7893; the rest of the volume is other dissertations; add 11 to OCR line numbers
+  atlas_ids:
+  - the-georgian-golden-age
+  role: tradition
+  confidence: needs-ruling
+  note: The founder's own testament. The editor says in his own words that he prints the later simplified Greek version, not the original, and no Georgian or Armenian version.

@@ -1,0 +1,11 @@
+source_file: thomas-aquinas_opera-omnia-t12-summa-theologiae-lat_leonine1906.txt
+assignments:
+- row_id: thomas-aquinas_opera-omnia-t12-summa-theologiae-lat_leonine1906--thomas-aquinas-opera-omnia-leonine-edition-tomus-12-summa-theolo
+  work: Thomas Aquinas, Opera omnia, Leonine edition, tomus 12 (Summa theologiae, Tertia pars, continued)
+  author: thomas-aquinas
+  locus: the whole volume
+  atlas_ids:
+  - the-dominican-order
+  role: tradition
+  confidence: provisional
+  note: The Summa theologiae in the Leonine text, inside this window. The tomus number is the edition's; the part named is from the volume's own contents.

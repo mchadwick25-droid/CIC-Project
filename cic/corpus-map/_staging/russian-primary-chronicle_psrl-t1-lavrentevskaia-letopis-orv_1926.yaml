@@ -9,3 +9,12 @@ assignments:
   role: context
   confidence: provisional
   note: 'The Old Russian text of the chronicle, compiled after this window, about it.'
+- row_id: russian-primary-chronicle_psrl-t1-lavrentevskaia-letopis-orv_1926--laurentian-chronicle-psrl-1-1054-1240
+  work: 'The Laurentian Chronicle (PSRL I, 1926)'
+  author: russian-primary-chronicle
+  locus: 'the whole text'
+  atlas_ids:
+  - kievan-rus-christianity-1054-1240
+  role: tradition
+  confidence: provisional
+  note: 'The Laurentian text of the chronicle, inside this window.'

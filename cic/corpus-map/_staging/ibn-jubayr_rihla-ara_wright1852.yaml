@@ -1,0 +1,11 @@
+source_file: ibn-jubayr_rihla-ara_wright1852.txt
+assignments:
+- row_id: ibn-jubayr_rihla-ara_wright1852--ibn-jubayr-rihla-arabic-wright-1852
+  work: Ibn Jubayr, Rihla, Arabic (Wright 1852)
+  author: ibn-jubayr
+  locus: the whole volume; Acre at about OCR lines 3485-3738, Tyre at 3785; add 11 to OCR line numbers
+  atlas_ids:
+  - latin-church-of-outremer
+  role: context
+  confidence: provisional
+  note: A Spanish Muslim pilgrim's travel account, an outside witness who passed through Acre and Tyre in the 1180s. The Library holds no English or French translation of it in public-domain print.

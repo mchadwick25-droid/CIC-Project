@@ -1,0 +1,11 @@
+source_file: thomas-aquinas_opera-omnia-t5-summa-theologiae-lat_leonine1889.txt
+assignments:
+- row_id: thomas-aquinas_opera-omnia-t5-summa-theologiae-lat_leonine1889--thomas-aquinas-opera-omnia-leonine-edition-tomus-5-summa-theolog
+  work: Thomas Aquinas, Opera omnia, Leonine edition, tomus 5 (Summa theologiae, Prima pars, qq. 50-119)
+  author: thomas-aquinas
+  locus: the whole volume
+  atlas_ids:
+  - the-dominican-order
+  role: tradition
+  confidence: provisional
+  note: The Summa theologiae in the Leonine text, inside this window. The tomus number is the edition's; the part named is from the volume's own contents.
