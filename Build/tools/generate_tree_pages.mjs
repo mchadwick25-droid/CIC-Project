@@ -36,6 +36,7 @@ const audioDir = argAt('--audio') || path.join(rootDir, 'cft-website/audio/tree'
 const census = JSON.parse(fs.readFileSync(censusPath, 'utf-8'));
 const anyWorldOpen = census.movements.some(m => m.publicOpen);
 const siteContent = JSON.parse(fs.readFileSync(path.join(rootDir, 'Build/tools/tree_site_pages.json'), 'utf-8'));
+const conversationsLive = siteContent.conversationsLive === true || process.argv.includes('--conversations-live');
 
 const PAGE_STYLE = `<style>
 :root{
@@ -425,10 +426,12 @@ ${siteHeader('../')}
     ${KIND_LABEL[movement.kind] ? `<p class="kind-label">${escapeHtml(KIND_LABEL[movement.kind])}</p>` : ''}
   </div>
 
-  ${isBuilt && doorWorld.publicOpen ? `
+  ${isBuilt && doorWorld.publicOpen && conversationsLive ? `
   <div class="action-links">
     <a href="https://churchinconversation.com/traditions/${doorWorld.id}.html">Meet ${escapeHtml(doorWorld.entry?.representativeName || 'this tradition')} on Church in Conversation</a>
   </div>
+  ` : isBuilt && doorWorld.publicOpen ? `
+  <p class="door-quiet">Conversations with ${escapeHtml(doorWorld.entry?.representativeName || 'this tradition')} are coming soon to Church in Conversation.</p>
   ` : isBuilt && !anyWorldOpen ? `
   <p class="door-quiet"><a href="https://churchinconversation.com/">Church in Conversation</a>, from the same team.</p>
   ` : ''}

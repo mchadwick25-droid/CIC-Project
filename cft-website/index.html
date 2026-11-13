@@ -90170,10 +90170,12 @@ panelBody.addEventListener('toggle',ev=>{
   if(!a)return;
   if(!d.open){a.pause();try{a.currentTime=0;}catch(e){}}
 },true);
+const CONVERSATIONS_LIVE=false;
 const ANY_WORLD_OPEN=DATA.movements.some(m=>m.publicOpen);
 function worldDoor(m){
   const entry=m.entry;
   if(!entry)return '';
+  if(m.publicOpen&&!CONVERSATIONS_LIVE)return `<p class="door-quiet">Conversations with ${esc(entry.representativeName)} are coming soon to Church in Conversation.</p>`;
   if(m.publicOpen)return `<a class="act" href="https://churchinconversation.com/traditions/${encodeURIComponent(m.id)}.html">Meet ${esc(entry.representativeName)} on Church in Conversation</a>`;
   if(!ANY_WORLD_OPEN)return `<p class="door-quiet"><a href="https://churchinconversation.com/">Church in Conversation</a>, from the same team.</p>`;
   return '';
