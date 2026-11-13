@@ -1,0 +1,77 @@
+{
+  "name": "Arius",
+  "knownFor": "A presbyter of Alexandria who taught that the Son of God was made, and not eternal; his teaching was condemned at the Council of Nicaea in 325.",
+  "dates": "In dispute with Bishop Alexander of Alexandria from about 318 or 319; died in Constantinople in 336, both by Archibald Robertson's dating",
+  "place": "Alexandria",
+  "tradition": "Arianism",
+  "role": "Presbyter and teacher",
+  "briefLength": "about 2 minutes 30 seconds",
+  "keyWorks": [
+    {
+      "title": "Letter to Eusebius of Nicomedia",
+      "about": "his own statement of belief, kept by Theodoret of Cyrrhus in his Church History, Book 1"
+    },
+    {
+      "title": "The Thalia",
+      "about": "a book of his teaching in verse, known only from the quotations and mockery of Athanasius"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "The churches later called Arian, which held with him that the Son was not eternal.",
+      "The creed of Nicaea, which the council wrote to define the faith against his teaching."
+    ],
+    "remembered": [
+      "Socrates of Constantinople sets the start of the quarrel at his clash with Bishop Alexander, when Arius said \"there was a time when the Son was not.\"",
+      "Athanasius of Alexandria tells of his sudden death in Constantinople, the day before he was to be received back, as the presbyter Macarius told it to him."
+    ]
+  },
+  "uncertain": [
+    "How the quarrel began is told more than one way. Socrates of Constantinople starts it at Arius's answer to Bishop Alexander. Archibald Robertson, who edited Athanasius in English, calls the origin obscure, and notes that Constantine's own letter has Alexander asking his clergy about a passage of Scripture. Philostorgius, through Photius, says a presbyter nicknamed Baucalis started it.",
+    "His own words reach us through others. Theodoret of Cyrrhus kept his letter to Eusebius of Nicomedia, and Athanasius quotes the Thalia while mocking it.",
+    "Philostorgius, a historian on his side, praised Arius but also found fault with him. His history survives only in a hostile summary by Photius, patriarch of Constantinople in the 800s, who calls Philostorgius a liar. So the attack on Arius and the defence of him both come through opponents.",
+    "Athanasius was not in Constantinople when Arius died, and had the account from the presbyter Macarius. Sozomen gives three views of the death. Those who held Arius's views blamed magic. Others saw God's judgment, and some a sudden disease of the heart.",
+    "The year of his birth is not given in a held source. Robertson reports that he was said to be a native of Libya, and dates his death to 336."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Letter to Eusebius of Nicomedia, in Church History, Book 1, chapter 4",
+        "author": "Arius, in Theodoret of Cyrrhus",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+      },
+      {
+        "title": "Extracts from the Thalia, in On the Councils (de Synodis) and the Orations against the Arians",
+        "author": "Arius, quoted by Athanasius of Alexandria",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf204_athanasius-select-works-letters.xml"
+      }
+    ],
+    "about": [
+      {
+        "title": "Church History, Book 1, chapters 5 to 9, on the dispute and the Council of Nicaea",
+        "author": "Socrates of Constantinople",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
+      },
+      {
+        "title": "Select Works and Letters, with the letter to Serapion on the death of Arius and Robertson's prolegomena",
+        "author": "Athanasius of Alexandria",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf204_athanasius-select-works-letters.xml"
+      },
+      {
+        "title": "Ecclesiastical History (an Arian account, surviving in Photius's hostile summary)",
+        "author": "Philostorgius",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/philostorgius_ecclesiastical-history_walford1855.txt"
+      }
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "name": "Frumentius",
+  "otherNames": [
+    "Abba Salama of Axum (Hartranft's note to Sozomen; \"the Father of Peace\" in the Dictionary of Christian Biography, quoted by Jackson)"
+  ],
+  "knownFor": "A Roman captive, taken as a boy when his ship's company was killed, who gathered Christians in the kingdom of Axum and was made its first bishop by Athanasius of Alexandria.",
+  "dates": "Fourth century; the date of his consecration is disputed (see What is uncertain)",
+  "place": "Axum (Auxumis), in the kingdom of Aksum, in what is now Ethiopia",
+  "tradition": "Aksumite",
+  "role": "Captive, royal official, missionary and first bishop of Axum",
+  "briefLength": "about 2 minutes 30 seconds",
+  "legacy": {
+    "traces": [
+      "The church of Axum, which Rufinus of Aquileia says he began among the Roman merchants and the king's household, and over which Athanasius of Alexandria made him bishop."
+    ],
+    "remembered": [
+      "Chester Hartranft, who translated Sozomen, notes that he was called the Abba Salama of Axum.",
+      "Blomfield Jackson, in a note to Theodoret, says the emperor Constantius later asked the prince of Axum to replace Frumentius with an Arian, Theophilus, without success. The chapter of Athanasius he cites does not name Theophilus."
+    ]
+  },
+  "uncertain": [
+    "Rufinus says he had the whole account from Edesius, Frumentius's companion, after Edesius became a presbyter at Tyre. So the story of his early life rests on that one chain. Socrates of Constantinople, Sozomen and Theodoret of Cyrrhus retell Rufinus, and Valesius, in A. C. Zenos's edition, says Socrates copied him almost word for word.",
+    "When he was consecrated is disputed. Rufinus places it soon after Athanasius became bishop, in 328. Valesius put it later, under Constantius. Archibald Robertson, who edited Athanasius in English, also puts it later, following Gwatkin: the dates in the story rule out the early year, and the emperor's letter fits a recent consecration.",
+    "The year of his death is not given in any held source.",
+    "\"India\" in these writers means Ethiopia, Zenos notes; the kingdom is Aksum, with its city of Axum."
+  ],
+  "sources": {
+    "about": [
+      {
+        "title": "Church History, Book 10, chapters 9 and 10 (Rufinus's own continuation, in Latin)",
+        "author": "Rufinus of Aquileia",
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/eusebius_werke-bd2-2-historia-ecclesiastica-vi-x-rufinus-x-xi-grc-lat_schwartz-mommsen1908.txt"
+      },
+      {
+        "title": "Ecclesiastical History, Book 1, chapter 19 (translating Rufinus), with Valesius's and Zenos's notes",
+        "author": "Socrates of Constantinople",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
+      },
+      {
+        "title": "Ecclesiastical History, Book 2, chapter 24, with Hartranft's notes",
+        "author": "Sozomen",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
+      },
+      {
+        "title": "Apology to Constantius 29-31, with the emperor's letter to the princes of Auxumis, and Robertson's prolegomena",
+        "author": "Athanasius of Alexandria",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf204_athanasius-select-works-letters.xml"
+      },
+      {
+        "title": "Ecclesiastical History, Book 1, chapter 23, with Blomfield Jackson's notes",
+        "author": "Theodoret of Cyrrhus",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+      }
+    ]
+  }
+}

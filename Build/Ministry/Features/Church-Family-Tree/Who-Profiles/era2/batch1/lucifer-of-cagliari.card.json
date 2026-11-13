@@ -1,0 +1,71 @@
+{
+  "name": "Lucifer of Cagliari",
+  "otherNames": [
+    "Luciferus; Lucifer Calaritanus (the Latin forms; Calaris is Cagliari)"
+  ],
+  "knownFor": "The bishop of Cagliari who defied the emperor over Athanasius, and whose refusal to forgive former Arians began the Luciferian schism.",
+  "dates": "Bishop by 353; died about 370 or 371",
+  "place": "Cagliari, in Sardinia",
+  "tradition": "Luciferian",
+  "role": "Bishop, polemicist and leader of a schism",
+  "briefLength": "about 2 minutes",
+  "keyWorks": [
+    {
+      "title": "Pamphlets against Constantius (On Apostate Kings; On not holding communion with heretics; and others)",
+      "about": "the hard Nicene attacks on the emperor's church policy, written in exile; the Latin texts survive"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "The Luciferian party, which refused church office to anyone who had given way to the Arians. Fremantle says it died out by early in the fifth century, and Theodoret of Cyrrhus says it went out and was forgotten."
+    ],
+    "remembered": [
+      "Jerome, who was ordained by Paulinus, the bishop Lucifer made at Antioch, wrote a Dialogue against the Luciferians about 379. He calls Lucifer \"that saintly man\" and a good shepherd, yet blames him for the split.",
+      "Theodoret of Cyrrhus says Lucifer's consecration of Paulinus prolonged the split at Antioch for eighty-five years."
+    ]
+  },
+  "uncertain": [
+    "How far Lucifer himself was a schismatic is unclear. J. Ll. Davies, in the Dictionary of Christian Biography quoted by Blomfield Jackson, writes that \"To what extent he was an actual schismatic remains obscure.\" Socrates of Constantinople says he kept to the church's teaching on going home, while his followers stayed apart. Ambrose of Milan and Augustine of Hippo, Fremantle notes, speak of him as fallen into schism. Jerome blames the split on him but calls him saintly.",
+    "Fremantle dates the council at Milan to 354. Jerome's Chronicle, which Fremantle and Jackson report, gives his death in 371; Richardson, in a note to Jerome's Lives, gives 370.",
+    "Reports that he acted from love of glory, or from a grudge against Eusebius of Vercelli, Jerome says he does not believe."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Opuscula (the pamphlets written in exile)",
+        "language": "Latin",
+        "file": "cic/texts/lucifer-cagliari_opuscula-lat_hartel1886-csel14.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Lives of Illustrious Men 95",
+        "author": "Jerome of Strido",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+      },
+      {
+        "title": "The Dialogue Against the Luciferians, with Fremantle's introduction",
+        "author": "Jerome of Strido",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf206_jerome-principal-works.xml"
+      },
+      {
+        "title": "Ecclesiastical History, Book 3, chapters 6 and 9 (Antioch and the Luciferians)",
+        "author": "Socrates of Constantinople",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
+      },
+      {
+        "title": "Ecclesiastical History, Book 2, chapter 12, and Book 3 (the exile, Antioch and the Luciferians), with Blomfield Jackson's notes",
+        "author": "Theodoret of Cyrrhus",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+      }
+    ]
+  }
+}
