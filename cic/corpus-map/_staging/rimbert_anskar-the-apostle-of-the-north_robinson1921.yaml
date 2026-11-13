@@ -1,0 +1,11 @@
+source_file: rimbert_anskar-the-apostle-of-the-north_robinson1921.txt
+assignments:
+- row_id: rimbert_anskar-the-apostle-of-the-north_robinson1921--rimbert-life-of-anskar-tr-robinson-1921
+  work: 'Rimbert, Life of Anskar, tr. Robinson (1921)'
+  author: rimbert
+  locus: 'from about OCR line 1121; add 12 to OCR line numbers'
+  atlas_ids:
+  - scandinavian-conversion-christianity
+  role: tradition
+  confidence: provisional
+  note: 'Anskar''s successor''s own Life of him, written after 865, inside this window.'

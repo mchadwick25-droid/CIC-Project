@@ -28,6 +28,15 @@ works:
 
     '
   source_file: annales-regni-francorum_kurze1895.txt
+- row_id: benedict-aniane_concordia-regularum-with-ardo-vita-pl103-lat_migne1851--benedict-of-aniane-concordia-regularum-ardo-vita-benedicti
+  work: Benedict of Aniane, Concordia regularum; Ardo, Vita Benedicti (PL 103)
+  author: benedict-aniane
+  locus: the whole volume
+  role: tradition
+  confidence: provisional
+  note: Benedict's own Concordia and Ardo's Life of him, inside this window (Benedict d. 821,
+    era 4 audit).
+  source_file: benedict-aniane_concordia-regularum-with-ardo-vita-pl103-lat_migne1851.txt
 - row_id: capitulatio-de-partibus-saxoniae_pertz1881--capitulatio-de-partibus-saxoniae
   work: Capitulatio de partibus Saxoniae
   author: capitulatio-partibus-saxoniae
@@ -63,6 +72,23 @@ works:
 
     '
   source_file: dhuoda_liber-manualis_bondurand1887.txt
+- row_id: mansi_sacrorum-conciliorum-collectio-tomus-14-lat_welter-facsimile1902--mansi-xiv-councils-of-814-856-title-page-with-earlier
+  work: 'Mansi XIV: councils of 814-856 (title page), with earlier additions'
+  author: mansi
+  locus: the whole volume
+  role: tradition
+  confidence: provisional
+  note: The councils' own acts and canons, inside this window.
+  source_file: mansi_sacrorum-conciliorum-collectio-tomus-14-lat_welter-facsimile1902.txt
+- row_id: mansi_sacrorum-conciliorum-collectio-tomus-15-lat_welter-facsimile1902--mansi-xv-councils-of-855-868
+  work: 'Mansi XV: councils of 855-868'
+  author: mansi
+  locus: the whole volume
+  role: tradition
+  confidence: provisional
+  note: The councils' own acts, including the Constantinople synods of the Photian affair,
+    inside these windows.
+  source_file: mansi_sacrorum-conciliorum-collectio-tomus-15-lat_welter-facsimile1902.txt
 - row_id: nithard_historiarum-libri-iv_pertz-muller1907--historiarum-libri-iiii
   work: Historiarum Libri IIII
   author: nithard

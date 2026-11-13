@@ -26,3 +26,11 @@ works:
     act. The documents before 1300 (the contents list reaches Gregory X at no. 304) serve
     the Gregorian entry.
   source_file: mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt
+- row_id: will_acta-et-scripta-de-controversiis-ecclesiae-graecae-et-latinae-saec-xi-grc-lat_1861--acta-et-scripta-de-controversiis-saec-xi-will-1861-the-latin
+  work: 'Acta et scripta de controversiis saec. XI (Will 1861): the Latin side'
+  author: will
+  locus: the Latin documents; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  note: The Latin side's letters and the legates' sentence of 1054, inside this window.
+  source_file: will_acta-et-scripta-de-controversiis-ecclesiae-graecae-et-latinae-saec-xi-grc-lat_1861.txt

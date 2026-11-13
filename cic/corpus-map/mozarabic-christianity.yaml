@@ -3,6 +3,24 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: mozarabic-christianity
 works:
+- row_id: eulogius-cordoba_opera-with-alvarus-vita-eulogii-pl115-lat_migne1852--eulogius-memoriale-sanctorum-documentum-martyriale-liber
+  work: Eulogius, Memoriale sanctorum, Documentum martyriale, Liber apologeticus; Alvarus,
+    Vita Eulogii (PL 115)
+  author: eulogius-cordoba
+  locus: from about OCR line 56492; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  note: Eulogius's own works and Alvarus's Life of him, inside this window (Eulogius d. 859,
+    era 4 audit).
+  source_file: eulogius-cordoba_opera-with-alvarus-vita-eulogii-pl115-lat_migne1852.txt
+- row_id: mansi_sacrorum-conciliorum-collectio-tomus-14-lat_welter-facsimile1902--mansi-xiv-the-cordoba-conciliabulum
+  work: 'Mansi XIV: the Cordoba conciliabulum'
+  author: mansi
+  locus: about OCR line 102256; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  note: The council's record, inside this window.
+  source_file: mansi_sacrorum-conciliorum-collectio-tomus-14-lat_welter-facsimile1902.txt
 - row_id: mozarabic-liturgy_breviarium-gothicum-pl86-lat_migne1862--the-mozarabic-breviarium-gothicum-pl-86
   work: The Mozarabic Breviarium Gothicum (PL 86)
   author: mozarabic-liturgy
@@ -24,3 +42,11 @@ works:
     Toledo after the reconquest of 1085. Its own voice; the dating of individual prayers is
     the editors'. Second witness only.
   source_file: mozarabic-liturgy_missale-mixtum-pl85-lat_migne1862.txt
+- row_id: paulus-alvarus_confessio-epistolae-indiculus-luminosus-pl121-lat_migne1852--paulus-alvarus-confessio-epistolae-indiculus-luminosus-pl
+  work: Paulus Alvarus, Confessio, Epistolae, Indiculus luminosus (PL 121)
+  author: paulus-alvarus
+  locus: from about OCR line 30855; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  note: His own writings, inside this window (active 850s, era 4 audit).
+  source_file: paulus-alvarus_confessio-epistolae-indiculus-luminosus-pl121-lat_migne1852.txt

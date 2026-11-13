@@ -1,0 +1,21 @@
+source_file: peeters_histoires-monastiques-georgiennes-in-analecta-bollandiana-36-37-lat-fra_1917-1919.txt
+assignments:
+- row_id: peeters_histoires-monastiques-georgiennes-in-analecta-bollandiana-36-37-lat-fra_1917-1919--giorgi-merchule-life-of-grigol-of-khandzta-latin-tr-peeters
+  work: 'Giorgi Merchule, Life of Grigol of Khandzta, Latin tr. Peeters'
+  author: peeters
+  locus: 'from about OCR line 11982; add 12 to OCR line numbers'
+  atlas_ids:
+  - georgian-revival-tao-klarjeti
+  role: tradition
+  confidence: provisional
+  note: 'The Klarjeti monk''s Life of the founder, written in 951 (era 4 audit), inside this window.'
+- row_id: peeters_histoires-monastiques-georgiennes-in-analecta-bollandiana-36-37-lat-fra_1917-1919--life-of-john-and-euthymius-life-of-george-the-hagiorite
+  work: 'Life of John and Euthymius; Life of George the Hagiorite, Latin tr. Peeters'
+  author: peeters
+  locus: 'from about OCR line 402; add 12 to OCR line numbers'
+  atlas_ids:
+  - georgian-revival-tao-klarjeti
+  - the-georgian-golden-age
+  role: tradition
+  confidence: needs-ruling
+  note: 'The Iviron Lives; their dates of writing against these two windows are the tree''s question.'

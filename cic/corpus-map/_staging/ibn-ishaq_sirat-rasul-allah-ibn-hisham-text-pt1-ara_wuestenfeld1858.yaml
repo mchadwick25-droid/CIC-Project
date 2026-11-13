@@ -1,0 +1,12 @@
+source_file: ibn-ishaq_sirat-rasul-allah-ibn-hisham-text-pt1-ara_wuestenfeld1858.txt
+assignments:
+- row_id: ibn-ishaq_sirat-rasul-allah-ibn-hisham-text-pt1-ara_wuestenfeld1858--ibn-ishaq-sira-arabic-text-pt-1-wustenfeld-1858
+  work: 'Ibn Ishaq, Sira, Arabic text pt. 1 (Wüstenfeld 1858)'
+  author: ibn-ishaq
+  locus: 'the whole text; add 12 to OCR line numbers'
+  atlas_ids:
+  - aksumite-christianity
+  - post-aksumite-ethiopian-christianity
+  role: context
+  confidence: provisional
+  note: 'The Arabic original of the outside witness''s Sira.'

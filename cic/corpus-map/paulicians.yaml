@@ -16,3 +16,21 @@ works:
 
     '
   source_file: ormanian_church-of-armenia_gregory1912.txt
+- row_id: peter-of-sicily_historia-manichaeorum-seu-paulicianorum-grc-lat_gieseler1846--peter-of-sicily-history-of-the-paulicians-gieseler-1846
+  work: Peter of Sicily, History of the Paulicians (Gieseler 1846)
+  author: peter-of-sicily
+  locus: the whole text; add 12 to OCR line numbers
+  role: context
+  confidence: provisional
+  note: A Byzantine envoy's hostile account (fl. c.870, era 4 audit). Their enemies' words,
+    not the Paulicians' own.
+  source_file: peter-of-sicily_historia-manichaeorum-seu-paulicianorum-grc-lat_gieseler1846.txt
+- row_id: theophanes-continuatus_historiae-byzantinae-scriptores-post-theophanem-pg109-grc-lat_migne1863--theophanes-continuatus-pg-109
+  work: Theophanes Continuatus (PG 109)
+  author: theophanes-continuatus
+  locus: the whole volume
+  role: context
+  confidence: needs-ruling
+  note: Court history of the Paulician wars; its date of writing is not given on the title
+    page.
+  source_file: theophanes-continuatus_historiae-byzantinae-scriptores-post-theophanem-pg109-grc-lat_migne1863.txt

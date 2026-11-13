@@ -1,0 +1,11 @@
+source_file: russian-primary-chronicle_psrl-t1-lavrentevskaia-letopis-orv_1926.txt
+assignments:
+- row_id: russian-primary-chronicle_psrl-t1-lavrentevskaia-letopis-orv_1926--the-laurentian-chronicle-psrl-i-1926
+  work: 'The Laurentian Chronicle (PSRL I, 1926)'
+  author: russian-primary-chronicle
+  locus: 'the Povest'' vremennykh let; add 12 to OCR line numbers'
+  atlas_ids:
+  - kievan-rus-christianity
+  role: context
+  confidence: provisional
+  note: 'The Old Russian text of the chronicle, compiled after this window, about it.'

@@ -1,0 +1,11 @@
+source_file: asser_life-of-king-alfred-lat_stevenson1904.txt
+assignments:
+- row_id: asser_life-of-king-alfred-lat_stevenson1904--asser-life-of-king-alfred-stevenson-1904
+  work: 'Asser, Life of King Alfred (Stevenson 1904)'
+  author: asser
+  locus: 'from about OCR line 6103; add 12 to OCR line numbers'
+  atlas_ids:
+  - late-anglo-saxon-christianity
+  role: tradition
+  confidence: provisional
+  note: 'Asser''s Life of Alfred (849-899, era 4 audit); Stevenson''s introduction dates it.'
