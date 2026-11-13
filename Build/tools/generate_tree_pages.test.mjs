@@ -10,11 +10,11 @@ import crypto from 'node:crypto';
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..', '..');
 const census = JSON.parse(fs.readFileSync(path.join(root, 'cic-website/data/world-census.json'), 'utf8'));
 
-function generate(c, audio = null) {
+function generate(c, audio = null, live = true) {
   const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'tree-pages-'));
   const file = path.join(dir, 'census.json');
   fs.writeFileSync(file, JSON.stringify(c));
-  execFileSync('node', [path.join(root, 'Build/tools/generate_tree_pages.mjs'), '--census', file, '--out', dir, ...(audio ? ['--audio', audio] : [])], { stdio: 'ignore' });
+  execFileSync('node', [path.join(root, 'Build/tools/generate_tree_pages.mjs'), '--census', file, '--out', dir, ...(audio ? ['--audio', audio] : []), ...(live ? ['--conversations-live'] : [])], { stdio: 'ignore' });
   return name => fs.readFileSync(path.join(dir, 'cft-website', name), 'utf8');
 }
 
@@ -30,6 +30,20 @@ test('an open world gets a door to Church in Conversation', () => {
   const page = read(`tree/${open.id}.html`);
   assert.match(page, new RegExp(`href="https://churchinconversation.com/traditions/${open.id}.html">Meet `));
   assert.doesNotMatch(page, /class="door-quiet"/);
+});
+
+test('while conversations are not live, an open world names its Representative with no link to Church in Conversation', () => {
+  const page = generate(census, null, false)(`tree/${open.id}.html`);
+  assert.doesNotMatch(page, /churchinconversation.com\/traditions\//);
+  assert.match(page, new RegExp(`<p class="door-quiet">Conversations with ${open.entry.representativeName} are coming soon to Church in Conversation.</p>`));
+});
+
+test('the map and the tree pages agree on whether conversations are live', () => {
+  const site = JSON.parse(fs.readFileSync(path.join(root, 'Build/tools/tree_site_pages.json'), 'utf8'));
+  const map = fs.readFileSync(path.join(root, 'cft-website/index.html'), 'utf8');
+  assert.match(map, new RegExp(`const CONVERSATIONS_LIVE=${site.conversationsLive === true};`));
+  const page = fs.readFileSync(path.join(root, `cft-website/tree/${open.id}.html`), 'utf8');
+  assert.equal(/churchinconversation.com\/traditions\//.test(page), site.conversationsLive === true);
 });
 
 test('with every world closed, built worlds show only the quiet line', () => {

@@ -2463,3 +2463,13 @@ No census, record or site change is made, so there is no data release number. Ap
 **Checked.** Both quotes were checked by two methods: the census validator's verbatim span check, and a separate exact-substring count over the file (each occurs once, on its cited line).
 
 Data release 40 (2026-11-13). The data page's release number follows. Approved to proceed (Mark, 2026-11-13).
+
+## 2026-11-13 — Conversations not yet live: the tree names each Representative but does not link to the conversation (Mark, 2026-11-13)
+
+**The question.** On 2026-11-12 Mark told the operations thread that the tree stands alone and that "we will not have the conversation live as it will take more time to get to the context accuracy we need". The tree still carried "Meet [Representative] on Church in Conversation" on 25 tree pages and on the map card. Each link led to a Church in Conversation tradition page whose "Begin a conversation" button starts the engine.
+
+**Decided (Mark, 2026-11-13, picked from options, relayed by the coordinator).** "Keep, say 'coming soon'." The Representatives' names stay. Each link becomes a plain line with no link: "Conversations with [Representative] are coming soon to Church in Conversation." The map's "representative voice" lines and the footer link to the Church in Conversation home stay.
+
+**How.** One setting, `conversationsLive` in `Build/tools/tree_site_pages.json`, set to false. The tree page generator and the map (`CONVERSATIONS_LIVE` in `cft-website/index.html`) both follow it, and a test checks that they agree. Setting it to true restores the links in one change. No census change, so there is no data release number.
+
+Approved to proceed (Mark, 2026-11-13).

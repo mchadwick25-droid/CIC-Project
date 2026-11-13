@@ -508,5 +508,6 @@
   "movement": "desert-monasticism",
   "link": "alexandria-catechetical--desert-monasticism"
  },
- "analyticsToken": null
+ "analyticsToken": null,
+ "conversationsLive": false
 }
