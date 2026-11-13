@@ -65,5 +65,5 @@ Each R1 finding, what was done, and where. Every cited line was opened in its ve
 | Hilary of Arles | 324 | 2:00 | 7.6 | 67.9 |
 | Marius Mercator | 324 | 2:00 | 8.0 | 60.1 |
 | Eutyches (MAJOR) | 400 | 2:28 | 8.1 | 60.8 |
-| Prosper of Aquitaine | 339 | 2:05 | 8.6 | 61.0 |
+| Prosper of Aquitaine | 339 | 2:05 | 8.5 | 61.5 |
 | Eznik of Kolb | 330 | 2:02 | 8.0 | 64.3 |
