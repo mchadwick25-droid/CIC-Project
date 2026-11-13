@@ -1,0 +1,69 @@
+{
+  "name": "Honoratus of Arles",
+  "otherNames": [
+    "Honoratus"
+  ],
+  "knownFor": "Founder of the monastery on the island of Lérins, off the coast of Provence, who later became bishop of Arles.",
+  "dates": "Bishop of Arles from 426 and died in January 429, both by Edgar Gibson's dating; Hilary of Arles gives no years",
+  "place": "Lérins and Arles",
+  "tradition": "Gallic Monastic-Ascetic Christianity",
+  "role": "Monastic founder and bishop of Arles",
+  "briefLength": "about 2 minutes",
+  "legacy": {
+    "traces": [
+      "Eucherius of Lyons, in his letter In Praise of the Desert, names Lérins as founded by Honoratus, and says it now has his successor, Maximus.",
+      "John Cassian dedicated the second part of his Conferences to \"holy brothers Honoratus and Eucherius\", and in a later preface calls him \"Honoratus, a Bishop blessed in\" name as well as merits.",
+      "C. A. Heurtley, who translated Vincent of Lérins, notes that the island is now called St. Honorat after him."
+    ],
+    "remembered": [
+      "Gennadius of Marseilles lists among the works of Hilary of Arles a Life of Saint Honoratus, his predecessor, \"of so great practical value to many\".",
+      "Hilary of Arles says he asked his monks to rest when they worked too hard and roused the idle, and that he gave away the last gold coin in the chest to a poor man."
+    ]
+  },
+  "uncertain": [
+    "Almost all that is told of his life rests on one witness, the sermon in his memory by his disciple and successor, Hilary of Arles. It is a sermon of praise and tells his life as a saint's life, with wonders. Eucherius of Lyons and John Cassian confirm only that he founded Lérins and was a bishop.",
+    "Hilary says his family had risen to the consulship, but names no town and gives no years. The sources used here give no birthplace or birth year.",
+    "Gibson gives 426 and January 429 without naming a source. He uses them to date Cassian's prefaces, where Honoratus is styled brother in one and bishop in the next. His date of 410 for the founding of Lérins is also his own.",
+    "Hilary says Honoratus won him after a few days of prayer; the manuscripts Migne records differ on whether it was two days or three.",
+    "The Latin of the sermon used here is a rough scan of Migne's edition, and no English translation is held. The brief tells it in modern words and quotes none of it."
+  ],
+  "sources": {
+    "about": [
+      {
+        "title": "Sermon on the Life of St. Honoratus",
+        "author": "Hilary of Arles",
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/hilary-arles_sermo-de-vita-sancti-honorati_migne-pl50.txt"
+      },
+      {
+        "title": "In Praise of the Desert (De laude eremi), section 42",
+        "author": "Eucherius of Lyons",
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/eucherius-lyon_de-laude-eremi_migne-pl50.txt"
+      },
+      {
+        "title": "Conferences, prefaces to Parts II and III",
+        "author": "John Cassian",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml"
+      },
+      {
+        "title": "Lives of Illustrious Men, chapter 70",
+        "author": "Gennadius of Marseilles",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+      },
+      {
+        "title": "Prolegomena to The Works of John Cassian",
+        "author": "Edgar C. S. Gibson",
+        "date": null,
+        "language": "English",
+        "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml"
+      }
+    ]
+  }
+}

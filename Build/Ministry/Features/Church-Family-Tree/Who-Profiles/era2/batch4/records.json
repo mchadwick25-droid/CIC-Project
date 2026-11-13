@@ -1,0 +1,787 @@
+{
+  "rufinus-of-aquileia": {
+    "claims": [
+      {
+        "claim": "In Sicily, in 410 by Fremantle's date, translating Origen on Numbers while the barbarian burned Rhegium across the strait",
+        "witness": "Rufinus, Preface to Origen's Homilies on Numbers (npnf203 l.58989-58997; Latin in Baehrens 1921); date: Fremantle's note (npnf203 l.58976-58978)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Baptized in the church of Aquileia",
+        "witness": "Rufinus, Apology to Anastasius 4 (npnf203 l.45998-45999); Commentary on the Creed 3 (l.56738)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Once Jerome's close friend: 'inseparably bound to me in brotherly love'",
+        "witness": "Jerome, Letter 4 (npnf206 l.3978)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Six years in Egypt and two more after an interval, among Didymus and the desert teachers",
+        "witness": "Rufinus, Apology to Apronianus II.15 (npnf203 l.49435-49446); his own word, against Jerome",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Suffered imprisonment and exile when heretics persecuted him at Alexandria",
+        "witness": "Rufinus, Apology to Anastasius 2 (npnf203 l.45967-45969); one witness. Socrates IV.24 (npnf202 l.13741-13742) says only that Rufinus called himself a witness, and one of the sufferers, when the monks of Egypt were driven from their oratories; he says nothing of prison or exile",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Lived at Jerusalem with Melania the Elder, receiving pilgrims at their own cost; afterwards made a priest",
+        "witness": "Palladius, Lausiac History XLVI.5-6 (Clarke l.501); Palladius a partisan for Rufinus (Clarke's note 292, l.1223)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Returned to Italy and his family after nearly thirty years",
+        "witness": "Rufinus, Apology to Anastasius 1 (npnf203 l.45954-45955)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Translated On First Principles, praising an unnamed predecessor (Jerome) who had cleared Origen of stumbling blocks, and cutting passages he believed heretics had inserted",
+        "witness": "Rufinus, Preface to On First Principles (npnf203 l.45720-45760); Apology to Anastasius 7 (l.46054-46064); Jerome, Apology I recognises himself in it (l.51053)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Jerome took the preface's praise as an enemy's snare",
+        "witness": "Jerome, Apology against Rufinus I (npnf203 l.51053); a partisan",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Told Anastasius of Rome he was not a defender or champion of Origen",
+        "witness": "Rufinus, Apology to Anastasius 7 (npnf203 l.46070)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "At Chromatius's request, as Alaric broke into Italy, translated Eusebius and added two books of his own",
+        "witness": "Rufinus, Preface to the two books (npnf203 l.58735-58790); Gennadius 17 (l.42488-42489)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Socrates built his first two books on Rufinus and later revised them",
+        "witness": "Socrates II.1 (npnf202 l.5640-5668)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "His Commentary on the Creed hands on the tradition that the apostles framed the creed together, each giving a sentence",
+        "witness": "Rufinus, Commentary on the Creed 2 (npnf203 l.56656-56672), told as tradition ('Our forefathers have handed down')",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Jerome's 'scorpion' who 'lies beneath the ground' is Rufinus",
+        "witness": "Jerome, Preface to Ezekiel I (npnf206 l.47995) names no one; the identification is endnote 5438 in Fremantle's edition (l.47992-47994), whose notes Fremantle says were mostly added by G. Lewis and W. G. Martley (l.492-494)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Opened to the Latin church the greater part of Greek literature",
+        "witness": "Gennadius 17 (npnf203 l.42469); favourable to Rufinus against his 'detractor'",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Born about 344 or 345",
+        "witness": "W. H. Fremantle, Prolegomena (npnf203 l.44048); Richardson's note to Gennadius 17 gives 345 (l.42466)",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Died in 410, in Sicily",
+        "witness": "endnote 5438 in Fremantle's edition of Jerome (npnf206 l.47992-47994); Richardson's note (npnf203 l.42466); his last dated preface places him in Sicily in 410",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      }
+    ],
+    "contested_claims": [
+      {
+        "claim": "How faithfully he translated Origen",
+        "sides": "Rufinus (Preface to On First Principles; Apology to Anastasius 7): he cut only what he believed heretics had inserted, following Jerome's own practice. Jerome (Apology I, npnf203 l.51296-51302): he left heretical views standing, so that readers would take them in without warning."
+      },
+      {
+        "claim": "Who wrote the Defence of Origen that Rufinus translated",
+        "sides": "Rufinus: Pamphilus the martyr. Jerome (Apology I, npnf203 l.51378-51384): Eusebius of Caesarea, the first of his six books. Lightfoot, quoted in Fremantle's note (l.51373-51374): the joint work of Pamphilus and Eusebius."
+      },
+      {
+        "claim": "Whether Anastasius of Rome condemned Rufinus",
+        "sides": "Anastasius's letter to John of Jerusalem leaves Rufinus to his own conscience while condemning Origen's books. Fremantle (Prolegomena, npnf203 l.44414-44416) finds no reason to think he passed sentence on Rufinus or summoned him; Fremantle notes this has often been supposed."
+      }
+    ],
+    "absent_details": [
+      {
+        "detail": "His year of birth from an early witness",
+        "note": "Only Fremantle's and Richardson's modern reckonings are held."
+      },
+      {
+        "detail": "The place and manner of his death",
+        "note": "No early witness used here says where or how he died; Jerome's 'scorpion' line names no one. The notes to Fremantle's edition of Jerome supply 410 and Sicily."
+      },
+      {
+        "detail": "His native town from an early witness",
+        "note": "Jerome speaks of his 'native country' (Letter 81); the name Concordia is a note in Fremantle's edition (npnf206 l.18428). Gennadius calls him a presbyter of Aquileia."
+      },
+      {
+        "detail": "Where and when he was ordained priest",
+        "note": "Palladius says only that he was 'afterwards judged worthy of the priesthood'; Fremantle's Jerusalem ordination about 386 is his own reconstruction and is not used."
+      }
+    ]
+  },
+  "pelagius": {
+    "claims": [
+      {
+        "claim": "Tried by a synod of fourteen bishops at Diospolis late in 415, in the absence of his accusers Heros and Lazarus, and declared in communion with the Catholic Church after answering the charges and anathematizing the opinions he disowned 'as fools, not as heretics'",
+        "witness": "Augustine, On the Proceedings of Pelagius 2, 6, 16, 44 (quoting the synod's record; Augustine was an opponent); date December 415 by B. B. Warfield's Introductory Essay, told in the brief as Warfield's date (see contested_claims)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Answered at Diospolis that a man can be without sin and keep God's commandments if he wishes, a capacity given by God",
+        "witness": "His own answer in the synod's record, quoted by Augustine, On the Proceedings of Pelagius 16",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Lived at Rome as a monk in the early fifth century and was well thought of there",
+        "witness": "Augustine, On the Merits and Forgiveness of Sins III.1 ('a holy man, as I am told'); B. B. Warfield; Peter Holmes (Edinburgh preface). Fremantle's prolegomena to Jerome give 409 for his coming to Rome (see contested_claims)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Called a Briton by Augustine, Prosper, Gennadius, Orosius and Marius Mercator; tied by Jerome to the Scots near Britain",
+        "witness": "Peter Holmes, Edinburgh preface to vol. I, citing those writers; the Latin passages are not checked here, and the English of Gennadius held here does not name his country",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "At Rome could not bear Augustine's prayer 'Give what Thou commandest' and nearly quarrelled with the bishop who quoted it",
+        "witness": "Augustine, On the Gift of Perseverance 53 (an opponent; one witness; Warfield retells it after him)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Wrote the Letter to Demetrias from the East, at her mother's request, about 413",
+        "witness": "The letter itself, ch. 1 (Migne PL 30: 'petente sancta matre ejus ... transmarinis litteris'); Pelagius's letter to Innocent, quoted in Augustine, On the Grace of Christ 40 ('when I was in the East'); date 413 by Warfield, 413 or 414 by the Monitum printed before the letter in Migne",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "In the letter he says he always begins moral teaching by showing the power of human nature, since it does no good to call people to what they think impossible; he calls the plea that God's commands are too hard 'blind madness', and says long habit of sin seems to gain the force of nature",
+        "witness": "Letter to Demetrias 2, 8, 16 (Latin checked in Migne PL 30, lines 169-185, 606-611, 1022-1030); English phrases from B. B. Warfield's Introductory Essay",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Went with Caelestius from Rome to Africa in 411, fleeing Alaric, and then on to Palestine",
+        "witness": "B. B. Warfield, Introductory Essay (an editor on Augustine's side)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "After Diospolis the African councils condemned him again and Innocent agreed; Zosimus, Innocent's successor, at first declared Pelagius and Caelestius orthodox in September 417, then wavered; the emperor banished the Pelagians from Rome in 418 and Zosimus condemned him",
+        "witness": "B. B. Warfield, Introductory Essay (npnf105 l.922-941; an editor on Augustine's side); Gennadius, Lives 44 (Innocent's decree, promulgated by Zosimus)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Told Innocent that his letter to Demetrias so commends human nature as always to add the help of God's grace",
+        "witness": "His letter to Innocent, quoted by Augustine, On the Grace of Christ 40",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Augustine judged that by grace Pelagius meant teaching, forgiveness of past sins and Christ's example, and not help in each act",
+        "witness": "Augustine, On the Grace of Christ 40-43 (an opponent; see contested_claims)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Before he was proclaimed a heretic, wrote three books on belief in the Trinity and a book of selections from Scripture on the Christian life",
+        "witness": "Gennadius of Marseilles, Lives of Illustrious Men 43",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Augustine wrote book after book against him; Jerome, to whom Augustine appealed, wrote against him too, so the two count as one hostile side",
+        "witness": "W. H. Fremantle, prolegomena to Jerome (npnf206 l.1712-1720: Augustine and Ctesiphon appealed to Jerome) and introduction to the Dialogue against the Pelagians (l.42449: 'induced to interest himself in it by his increasing regard for Augustin')",
+        "formation_confidence": "Widely Accepted"
+      }
+    ],
+    "contested_claims": [
+      {
+        "claim": "Whether Pelagius answered honestly at Diospolis",
+        "sides": "The synod's verdict, as Augustine quotes it, declared him in communion with the Catholic Church because he condemned the opinions charged. Augustine grants the judges acted rightly on what was before them, but holds that he disowned views that were his own and later boasted, in a letter Augustine doubts is his, that fourteen bishops had approved that a man can 'easily' keep the commandments. B. B. Warfield, on Augustine's side, calls his acquittal 'most ingenious disingenuousness'. No account from Pelagius's side survives beyond his answers in the record."
+      },
+      {
+        "claim": "What Pelagius meant by grace",
+        "sides": "Pelagius, in his letter to Innocent, says he always adds the help of God's grace to his praise of nature. Augustine, having read the Letter to Demetrias and his other books, judges that he meant teaching, forgiveness and Christ's example, and no help within each act of the will."
+      },
+      {
+        "claim": "When Pelagius came to Rome",
+        "sides": "B. B. Warfield and Peter Holmes place him at Rome from about the opening of the fifth century. W. H. Fremantle's prolegomena to Jerome say he and Caelestius came to Rome in 409."
+      },
+      {
+        "claim": "The date of the Synod of Diospolis",
+        "sides": "December 415 (B. B. Warfield; Fremantle's chronological table) against 416 (Fremantle's introduction to Jerome's Dialogue against the Pelagians)."
+      }
+    ],
+    "absent_details": [
+      {
+        "detail": "Birth, death and place of death",
+        "note": "Not given in any held source. The census gives c.350-c.420 without a held witness; left out of the brief and card."
+      },
+      {
+        "detail": "His own case in his other works",
+        "note": "On Nature, In Defence of Free Will, the Expositions on Paul and the Confession of Faith are not held whole; only passages quoted by Augustine and Warfield are used."
+      },
+      {
+        "detail": "An English translation of the Letter to Demetrias",
+        "note": "The Library holds the Latin only (Migne PL 30). English phrases come from Warfield's and Augustine's quotations; other passages are told in modern words. B. R. Rees's translation, named in the census story, is not vendored."
+      },
+      {
+        "detail": "Jerome's Dialogue as a witness to his life",
+        "note": "The Dialogue quotes the headings of a work of Pelagius but gives no life detail; Jerome's personal remarks on his origin are reported only through Holmes's preface. Kept to the card."
+      }
+    ]
+  },
+  "paulinus-of-milan": {
+    "claims": [
+      {
+        "claim": "Took down Ambrose's dictation of the forty-third Psalm and saw a fire like a small shield cover his head and enter his mouth, a few days before Ambrose took to his bed",
+        "witness": "Paulinus, Life of Ambrose 42 (his own account; hagiography by Kaniecka's description)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Wrote the Life of Ambrose at Augustine's request, in Africa, drawing on men who served Ambrose, on Ambrose's sister Marcellina and on what he saw himself",
+        "witness": "Life of Ambrose 1, 51, 56; Kaniecka 1928, introduction",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Lived in Ambrose's household under the care of the deacon Castus",
+        "witness": "Life of Ambrose 42 ('under whose care I lived'); 35 ('by virtue of our office')",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The Life was written between 412 and 422",
+        "witness": "Sister Mary Simplicia Kaniecka, from the Life's mention of John as prefect, Venerius and Zenobius",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "A deacon Paulinus brought a written charge against Caelestius at Carthage, about 412, and questioned him at the hearing",
+        "witness": "Record of the Carthage hearing, quoted in Augustine, On Original Sin 3-4; Marius Mercator, Commonitorium on the name of Caelestius 1; date by B. B. Warfield ('Early in 412', npnf105 l.885) and the note in the English edition, told in the brief as Warfield's date (see contested_claims)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The accuser of Caelestius is the author of the Life of Ambrose",
+        "witness": "Reconstruction by Sister Mary Simplicia Kaniecka (1928 introduction), and before her by the note in the Migne edition of Mercator (PL 48, l.3660-3667), which argues from the style of the petition printed by Baronius. Its basis: Mercator calls the accuser a deacon of Ambrose of Milan; the Life places its author in Ambrose's household and in Africa. The note in npnf105 (On Original Sin 3) says Mercator makes the accuser the biographer; the Latin of Mercator held here does not say so",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Summoned to Rome by Zosimus in 417 through the subdeacon Basiliscus, he sent a petition instead, thanking the apostolic see for ordering Caelestius to condemn his charges and saying he always wanted Caelestius corrected",
+        "witness": "His own Libellus, Collectio Avellana 47 (Günther 1895, Latin); Kaniecka's introduction",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Closed the Life by asking Augustine's prayers for himself as 'the most humble man and sinner Paulinus'",
+        "witness": "Life of Ambrose 56 (Kaniecka's translation)",
+        "formation_confidence": "Documented"
+      }
+    ],
+    "contested_claims": [
+      {
+        "claim": "The date of the Carthage hearing against Caelestius",
+        "sides": "412 by B. B. Warfield, Peter Holmes and the note in the English edition of On Original Sin (citing Augustine's Letter 175). Kaniecka's note gives 416 for the synod, while she also calls Paulinus the accuser 'of five years before' in 417."
+      },
+      {
+        "claim": "The date of the petition to Zosimus",
+        "sides": "8 November 417 by Otto Günther's dating in the Collectio Avellana; Kaniecka reports some historians give 8 November 416, and Baronius a year later."
+      },
+      {
+        "claim": "His rank in the church",
+        "sides": "Kaniecka reads the Life as showing him in minor orders under Ambrose; Mercator and Augustine call him deacon; Isidore of Seville, as Kaniecka reports, calls him a presbyter, which she doubts."
+      }
+    ],
+    "absent_details": [
+      {
+        "detail": "Birth, family, home town and death",
+        "note": "Kaniecka: 'Of the life of Paulinus we know very little.' No held source gives them."
+      },
+      {
+        "detail": "Census and list line",
+        "note": "No census people row; he appears in the voices line of the Ambrose of Milan person entry. Card tradition set to 'Ambrosian Milan' (flagged to coordinator)."
+      },
+      {
+        "detail": "The Carthage hearing's outcome in Paulinus's own words",
+        "note": "The petition to Zosimus is held in Latin only; it is told in modern words, not quoted."
+      }
+    ]
+  },
+  "sulpicius-severus": {
+    "claims": [
+      {
+        "claim": "Travelled to see Martin of Tours, who washed his hands and feet, and gathered his Life partly from Martin himself",
+        "witness": "Sulpicius, Life of Martin 25 (his own account)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Martin held up Paulinus as the model of one who gave up great wealth for Christ",
+        "witness": "Sulpicius, Life of Martin 25",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "A presbyter of Aquitaine, distinguished by birth and learning, given to poverty and humility, loved by Martin and Paulinus of Nola",
+        "witness": "Gennadius, Lives 19",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Left a career at the bar after his wife's early death, about 392, against his father's wishes",
+        "witness": "Alexander Roberts, introduction (no source named)",
+        "formation_confidence": "Inferential-Thin"
+      },
+      {
+        "claim": "The Life of Martin was written before Martin's death",
+        "witness": "Sulpicius, Letter II to Aurelius (Martin in the dream holds the finished book before the news of his death arrives)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Wrote Dialogues on the monks of the East and on Martin, and a Chronicle from the Creation to his own day",
+        "witness": "Gennadius, Lives 19; Sulpicius, Sacred History I.1; Dialogues (held)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Approved putting down the Priscillianists but found the accusing bishops as distasteful as the accused, and records Martin's plea to Maximus",
+        "witness": "Sulpicius, Sacred History II.50 (a witness opposed to both parties)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Born about 363, died about 420",
+        "witness": "Alexander Roberts ('as is generally supposed')",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Born after 353, died about 410",
+        "witness": "Ernest Cushing Richardson, note to Gennadius 19",
+        "formation_confidence": "Contested"
+      }
+    ],
+    "contested_claims": [
+      {
+        "claim": "Whether Sulpicius was led astray by the Pelagians in old age",
+        "sides": "Gennadius of Marseilles, writing in the later fifth century, says he was, and that he kept silent until death in penance. Alexander Roberts says some ancient writers make the charge but finds no ground for it in his writings, where he always upholds what he calls catholic doctrine."
+      },
+      {
+        "claim": "His dates",
+        "sides": "Alexander Roberts: born in Aquitaine about 363, died as generally supposed in 420. Ernest Cushing Richardson: born after 353, died about 410."
+      }
+    ],
+    "absent_details": [
+      {
+        "detail": "His wife, his father and his career at the bar",
+        "note": "Told only in Roberts's introduction, without a named source. Paulinus of Nola's letters to Sulpicius are not held. Library item wanted."
+      },
+      {
+        "detail": "The year and place of his death",
+        "note": "Not given by Gennadius; Roberts and Richardson differ."
+      },
+      {
+        "detail": "Which of the letters are his",
+        "note": "Roberts reports that Halm deems most of them spurious; Gennadius's letters to his sister may or may not be the two held to Claudia."
+      }
+    ]
+  },
+  "honoratus-of-arles": {
+    "claims": [
+      {
+        "claim": "Found an empty island, shunned for its wildness and its poisonous snakes, entered it unafraid, and set up a monastery there",
+        "witness": "Hilary of Arles, Sermon on the Life of Honoratus 15-17 (one witness; hagiography)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Founded Lérins",
+        "witness": "Eucherius of Lyons, De laude eremi 42 (Lérins founded with Honoratus as its author); Hilary of Arles, Sermon; C. A. Heurtley's note in npnf211",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Of a family raised to the consulship; his father kept him from baptism as long as he could",
+        "witness": "Hilary of Arles, Sermon 4-6 (one witness)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "With his elder brother Venantius sold his property for the poor and left with the old monk Caprasius as guide; sailed to Greece, where Venantius died at Methone",
+        "witness": "Hilary of Arles, Sermon 9-14 (one witness); Eucherius names Caprasius at Lérins",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Was made a presbyter on the island against his will; a church and monks' dwellings were built; monks came from many lands and tongues",
+        "witness": "Hilary of Arles, Sermon 16-19 (one witness)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Hilary tells that fresh water broke from the rock in the sea",
+        "witness": "Hilary of Arles, Sermon 17 (one witness; a wonder told in a sermon of praise)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Won Hilary to the monastic life by returning to the home country he had left and praying for him",
+        "witness": "Hilary of Arles, Sermon 22-24 (his own account)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Became bishop of Arles, worked for peace in a church divided over the choice of a bishop, and preached his last sermon on Epiphany",
+        "witness": "Hilary of Arles, Sermon 28-29 (one witness); Cassian, Preface to Conference XVIII, calls him a bishop",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Bishop of Arles from 426, died January 429",
+        "witness": "Edgar Gibson, Prolegomena to Cassian (npnf211, gives the dates without naming a source and uses them to date Cassian's prefaces)",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Eucherius, on receiving a letter from him on wax tablets, said he had given the wax its honey back",
+        "witness": "Hilary of Arles, Sermon 22 (reports Eucherius's words)",
+        "formation_confidence": "Documented"
+      }
+    ],
+    "contested_claims": [],
+    "absent_details": [
+      {
+        "detail": "His birthplace and the year of his birth",
+        "note": "Hilary names no town and gives no years. The census 'c. 350' rests on no held line."
+      },
+      {
+        "detail": "Any writing of his own",
+        "note": "Hilary praises his letters, but none is held."
+      },
+      {
+        "detail": "An English translation of Hilary's sermon",
+        "note": "Only Migne's Latin, in rough OCR, is held. Library item wanted."
+      },
+      {
+        "detail": "The rule of Lérins",
+        "note": "The sources used here do not give the monastery's written rule or its daily customs."
+      }
+    ]
+  },
+  "palladius-of-helenopolis": {
+    "claims": [
+      {
+        "claim": "Went from Nitria to the Thebaid to see John of Lycopolis after hearing Evagrius wish to know him; eighteen days on foot and by boat",
+        "witness": "Palladius, Lausiac History XXXV.3-4 (Clarke l.423)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "John of Lycopolis foretold that he would be made bishop and suffer, after Palladius joked that gluttony had made him bishop of the pots",
+        "witness": "Palladius, Lausiac History XXXV.10-11 (Clarke l.423-425); his own account",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Came from Galatia",
+        "witness": "Palladius, Lausiac History XXXV.5 (Clarke l.423); Epiphanius, in Jerome Letter 51 (npnf206 l.11122)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "A monk near Alexandria, at Nitria and in the inner desert",
+        "witness": "Palladius, Lausiac History I-II, VII (Clarke l.197-201, l.225)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "A disciple of Evagrius",
+        "witness": "Sozomen VI.29 (npnf202 l.13711); Palladius, Lausiac History XXXV.5 ('I belonged to Evagrius' society')",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Illness took him to Alexandria, Palestine and Bithynia, where he was made bishop amid the trouble over 'the blessed John', then hid eleven months",
+        "witness": "Palladius, Lausiac History XXXV.11-13 (Clarke l.427)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "'The blessed John' is John Chrysostom",
+        "witness": "W. K. Lowther Clarke, note 238 (l.1113)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "His see was Helenopolis, later Aspuna",
+        "witness": "Socrates VII.36 (npnf202 l.21072) names a Palladius moved from Helenopolis to Aspuna; Syriac heading (Budge l.721); Herbert Moore's introduction (l.775-800)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Brought news of the persecution to Rome with a copy of the edict, and was later held under guard at Syene",
+        "witness": "Dialogue (Moore l.2631-2637, l.10754-10776), if by Palladius; Innocent's letter in Sozomen VIII.26 (npnf202 l.44399) names him among bishops who came to Rome",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Charged with teaching Origen's heresy",
+        "witness": "Epiphanius of Salamis, Letter to John of Jerusalem, in Jerome Letter 51 (npnf206 l.11122-11124); an opponent in the Origenist quarrel. Identification with Palladius of Helenopolis contested (see contested_claims)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Jerome wrote that a Palladius, 'no better than a villainous slave', tried to revive the same heresy (Origenism); whether this is Palladius of Helenopolis is disputed",
+        "witness": "Jerome, Against the Pelagians, Prologue (npnf206 l.42618), an opponent; the identification is in the notes to Fremantle's edition (l.42611-42617; most notes by G. Lewis and W. G. Martley, l.492-494), which report Tillemont's doubt",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Thought Jerome's temper overshadowed his achievements",
+        "witness": "Palladius, Lausiac History XXXVI.6 (Clarke l.433); Clarke's note 241 (l.1119) says the dislike was mutual",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Wrote the Lausiac History for Lausus the chamberlain, of saints he saw or heard of, after journeys of thirty days and more on foot",
+        "witness": "Palladius, Letter to Lausus and Prologue 2, 5 (Clarke l.179-187)",
+        "formation_confidence": "Documented"
+      }
+    ],
+    "contested_claims": [
+      {
+        "claim": "Whether Palladius of Helenopolis wrote the Dialogue on Chrysostom",
+        "sides": "Herbert Moore (introduction, l.731-930), following Cuthbert Butler (1908): yes, the same author as the Lausiac History. Bigot, the first editor, as Moore reports: another Palladius who succeeded him at Helenopolis. Bardenhewer, as Moore reports, identifies the two authors but denies he was the bishop of Helenopolis. The title's 'Palladius, Bishop of Helenopolis' names the speaker, and Moore holds the speaker imaginary."
+      },
+      {
+        "claim": "His age when he began the Lausiac History",
+        "sides": "Clarke's text (Prologue 2, l.185): the fifty-sixth year of his life, which Clarke dates to 419-420. Budge (Syriac, l.95): a monk until the thirty-third year of his age, then twenty years a bishop, so fifty-three."
+      },
+      {
+        "claim": "Whether the Palladius of Epiphanius's letter and of Jerome's prologue against the Pelagians is Palladius of Helenopolis",
+        "sides": "The notes to Fremantle's edition of Jerome (npnf206 l.42611-42617): yes, 'Palladius, bishop of Hellenopolis', tainted with Origenism according to Epiphanius and Jerome; Clarke's note 241 (Lausiac, l.1119) adds that Palladius's dislike of Jerome was reciprocated. Tillemont, as those notes report: 'another Palladius may be referred to in these passages'."
+      }
+    ],
+    "absent_details": [
+      {
+        "detail": "Who ordained him bishop, and when",
+        "note": "The Lausiac History names neither. Budge's 400 and Moore's 400 are modern reckonings."
+      },
+      {
+        "detail": "The year and place of his death",
+        "note": "Moore gives 'some time between 420 and 430'; no early witness used here dates it."
+      },
+      {
+        "detail": "His family",
+        "note": "John of Lycopolis speaks of his father, brother and sister (Lausiac XXXV.8-9). The Dialogue names a 'Brisson, brother of Palladius' (Moore l.10793), but whether this is the same Palladius is not stated there, so it is not used."
+      }
+    ]
+  },
+  "john-cassian": {
+    "claims": [
+      {
+        "claim": "Was present in the desert of Scete when Theophilus's festal letter against the Anthropomorphites arrived, and saw the old monk Sarapion cry that 'they have taken away my God from me'",
+        "witness": "Cassian, Conferences X.2-3 (his own first-person account)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Gibson dates the festal letter to 399",
+        "witness": "Edgar Gibson's note to Conferences X.2 (npnf211)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Joined a monastery at Bethlehem with his friend Germanus and spent years among the monks of Egypt, about 380 to 400",
+        "witness": "Edgar Gibson, Prolegomena ch. I, drawn from Institutes and Conferences (Gibson's dating)",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Admitted to the ministry at Constantinople by Bishop John; Gennadius says ordained deacon by John the Great",
+        "witness": "Cassian, On the Incarnation VII.31; Gennadius, Lives 62; Gibson identifies John Chrysostom",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Became a presbyter at Marseilles and founded two monasteries there, one for men and one for women",
+        "witness": "Gennadius, Lives 62",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Wrote the Institutes, twelve books, for Bishop Castor, leaving out miracles to write about character and the rules of the monasteries",
+        "witness": "Cassian, Institutes, Preface; Conferences, Preface to Part II",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Wrote the Conferences in three parts, the second dedicated to Honoratus and Eucherius",
+        "witness": "Cassian, Prefaces to Conferences I, XI and XVIII; Gennadius, Lives 62",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Conference XIII has Chaeremon teach that grace and free will seem opposed but are in harmony, and that God meets a good will he sees beginning in us",
+        "witness": "Cassian, Conferences XIII.11-12",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Prosper of Aquitaine wrote against Conference XIII",
+        "witness": "Gennadius, Lives 85 (attributes an anonymous book against Cassian's works to Prosper); Edgar Gibson, Prolegomena (identifies it as Contra Collatorem). Prosper's text is not held.",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Wrote seven books On the Incarnation against Nestorius at the request of Leo, archdeacon of Rome, and ended his writing and his life at Marseilles under Theodosius and Valentinian",
+        "witness": "Gennadius, Lives 62; Cassian, On the Incarnation (text held)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Eucherius of Lyons condensed works of Cassian into one volume",
+        "witness": "Gennadius, Lives 64",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Benedict's Rule has the Conferences read to the monks and names the Conferences and Institutes among a monk's tools",
+        "witness": "Rule of Benedict 42 and 73 (Hunter Blair; the translator's bracket 'of Cassian'); Edgar Gibson, Prolegomena",
+        "formation_confidence": "Widely Accepted"
+      }
+    ],
+    "contested_claims": [
+      {
+        "claim": "Where Cassian was born",
+        "sides": "Gennadius of Marseilles calls him Scythian by race. Edgar Gibson doubts it, suggests the word may refer to the desert of Scete, and holds a Western birth, perhaps in Provence, most probable, while granting it cannot be known. Gibson reports that Photius calls him a Roman and that Honorius of Autun, too late to count, calls him African."
+      },
+      {
+        "claim": "Whether the teaching of Conference XIII on grace and free will is sound",
+        "sides": "Cassian, through Chaeremon, holds that grace and free will are in harmony and that sometimes a good will begins in man and God meets it. Prosper of Aquitaine, an ardent Augustinian by Gibson's account, attacked the Conference (his book is not held; Gennadius and Gibson report it, and Gibson says Prosper allowed only the first of twelve propositions). Gennadius of Marseilles sides with Cassian, saying the church finds his works salutary. Edgar Gibson, and William Bright whom he quotes, call the teaching Semi-Pelagian (a name Cassian does not use) and erroneous, but judges Augustine's teaching one-sided."
+      }
+    ],
+    "absent_details": [
+      {
+        "detail": "His birthplace, parents and the year of his birth",
+        "note": "Gennadius's 'Scythian' is disputed (Gibson). Gibson says nothing is known of his family but a sister; 'about 360' is Gibson's estimate."
+      },
+      {
+        "detail": "Prosper of Aquitaine's own book against him (Contra Collatorem) and Prosper's letter to Augustine",
+        "note": "Not held. Known here through Gennadius, Lives 85, and Gibson's Prolegomena. Library item wanted."
+      },
+      {
+        "detail": "The year of his death",
+        "note": "Gennadius gives only the reign of Theodosius and Valentinian; Richardson's note gives 450; Gibson puts it soon after 432."
+      },
+      {
+        "detail": "How far the Conferences record the fathers' own words",
+        "note": "Gibson says this cannot be determined."
+      }
+    ]
+  },
+  "possidius-of-calama": {
+    "claims": [
+      {
+        "claim": "Was in Hippo through the Vandal siege and heard Augustine's prayer at table that God free the city, strengthen his servants, or take him",
+        "witness": "Possidius, Life of Augustine 28-29 (his own eyewitness account)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Was present at Augustine's death and burial in 430",
+        "witness": "Life 31 ('while we stood by and watched and prayed'); year by Weiskotten's introduction and Prosper",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Lived on terms of close friendship with Augustine for almost forty years",
+        "witness": "Life, closing paragraph",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Wrote the Life to build up the church, from what he saw in Augustine and heard from him, and added an Indiculus of his works",
+        "witness": "Life, preface and ch. 18",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "In 408 the church at Calama was stoned three times and set on fire, and its bishop hid in a crevice while the rioters searched for him",
+        "witness": "Augustine, Letter 91.8, to Nectarius (bishop unnamed there)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "That bishop was Possidius",
+        "witness": "Inference from Augustine, Letter 104.1 (Possidius's voyage and Nectarius's fears for Calama's citizens), Letter 95.1 (his sad errand to Italy), the 411 list of the Carthage conference naming 'Possidius Calamensis', and J. G. Cunningham's notes to Letters 95 and 245",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Augustine called him one 'very much the same as myself', nourished by his labours with the Lord's bread",
+        "witness": "Augustine, Letter 101.1, to Memor (409)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Was one of the seven Catholic bishops chosen to speak at the Conference of Carthage in 411, as bishop of Calama",
+        "witness": "Gesta collationis Carthaginiensis, list of actores (PL 11, line 113084)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Was driven from his see by Geiseric in 437",
+        "witness": "Prosper of Aquitaine, Epitoma Chronicon, year 437 ('Posidius', no see given); identification by Weiskotten",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Became bishop of Calama in 397, after Megalius; born between 360 and 370",
+        "witness": "Herbert Weiskotten 1919, introduction (his own estimates)",
+        "formation_confidence": "Inferential-Thin"
+      }
+    ],
+    "contested_claims": [],
+    "absent_details": [
+      {
+        "detail": "The Indiculus",
+        "note": "Possidius's catalogue of Augustine's works is not held; the Weiskotten file is the Life only."
+      },
+      {
+        "detail": "Birth, family, home town and death",
+        "note": "No early witness used here gives them; Weiskotten estimates his birth and says there is no evidence for his last years."
+      },
+      {
+        "detail": "His own part in the Crispinus case",
+        "note": "The Life (ch. 12) tells of an unnamed bishop of Calama ambushed by Donatists; the naming rests on Cunningham's note to Letter 88 citing Letter 105 and Against Cresconius, which are not held. Kept to the card."
+      }
+    ]
+  },
+  "philostorgius": {
+    "claims": [
+      {
+        "claim": "At twenty he came to Constantinople and saw Eunomius, and praised him, lisp included",
+        "witness": "Photius, Epitome X.6 (Walford l.382); hostile summary",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "His history is lost and survives mainly in Photius's hostile summary",
+        "witness": "Walford, Biographical Notice (l.38); Quasten via Pearse (l.54); Photius's own judgments throughout (e.g. II.11, l.132)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "His grandfather Anysius was a presbyter at Borissus in Cappadocia; his mother Eulampia came of Nicene families; his father Carterius, a Eunomian, won her over, and she won her brothers, father and relatives",
+        "witness": "Photius, Epitome IX.9 (Walford l.348); one witness, reporting Philostorgius",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Aetius and Eunomius led those who held the Son unlike the Father in substance",
+        "witness": "Photius, Epitome IV.12 (Walford l.230)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Rated Aetius above Eunomius in argument, and Eunomius above Aetius in clear teaching",
+        "witness": "Photius, Epitome VIII.18 (Walford l.328)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Praised Arius but faulted him for holding that God cannot be known, even by the Son",
+        "witness": "Photius, Epitome II.3 (Walford l.116)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Wrote an encomium of Eunomius and a work against Porphyry of Tyre",
+        "witness": "Photius, Epitome III.21 (l.190) and X.10 (l.390); Quasten via Pearse (l.56). 'Of Tyre': Socrates III.23 quotes Libanius's 'the Tyrian', which A. C. Zenos's note there identifies as Porphyry (npnf202 l.11733-11735)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "His history ran in twelve books from Arius and Alexander to the proclamation of Valentinian the Younger, and the first letters of the books spelled his name",
+        "witness": "Photius, opening of the Epitome (Walford l.82)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The history ends in 425",
+        "witness": "Edward Walford, Biographical Notice (l.36)",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Interested in far countries and inclined to credulity about wonders",
+        "witness": "Edward Walford, Biographical Notice (l.40); the geographical chapters of Book III (l.162-170)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Said that Basil of Caesarea, Gregory of Nazianzus and Apollinaris of Laodicea so outdid the earlier leaders that Athanasius seemed a child beside them",
+        "witness": "Fragment in Suidas, 'in the words of Philostorgius' (Walford l.470-472)",
+        "formation_confidence": "Documented"
+      }
+    ],
+    "contested_claims": [
+      {
+        "claim": "When he was born",
+        "sides": "Edward Walford (Biographical Notice, l.36): about 364. J. Quasten (quoted by Roger Pearse, l.48): about 368, at Borissus."
+      }
+    ],
+    "absent_details": [
+      {
+        "detail": "His year of death",
+        "note": "No source used here gives it. The scan's c.439 rests on no held line."
+      },
+      {
+        "detail": "His trade or calling",
+        "note": "Walford says it is uncertain whether he trained for the law or the church; Quasten calls him a layman. Neither rests on a line of Philostorgius held here."
+      },
+      {
+        "detail": "Discipleship of Aetius",
+        "note": "Not claimed. Aetius died before Philostorgius came to Constantinople on any dating held here (Opus_Check_Notes, Aetius)."
+      },
+      {
+        "detail": "What he saw at Paneas",
+        "note": "Photius says he 'witnessed with his own eyes' the Paneas statue story (VII.3, l.266), but places its destruction under Julian; the summary does not make clear what he saw, so it is left out."
+      }
+    ]
+  }
+}
