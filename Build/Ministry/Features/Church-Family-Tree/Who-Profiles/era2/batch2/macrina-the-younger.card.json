@@ -1,0 +1,58 @@
+{
+  "name": "Macrina the Younger",
+  "otherNames": [
+    "Macrina",
+    "Saint Macrina",
+    "Thecla (her secret name, in Gregory's Life)"
+  ],
+  "knownFor": "Eldest child of the family of Basil of Caesarea and Gregory of Nyssa, who led her household into a life of prayer and shared work, and whose deathbed teaching Gregory wrote down.",
+  "dates": "Died in 379, after the council of Antioch that September, by W. K. Lowther Clarke's dates; her birth year is not given",
+  "place": "Pontus; Clarke places the family estate at Annesi, on the river Iris",
+  "tradition": "Cappadocian Christianity",
+  "role": "Head of the women's community on the family estate; teacher of her brothers",
+  "briefLength": "about 2 minutes",
+  "legacy": {
+    "traces": [
+      "Gregory of Nyssa says she drew their brother Basil from the pride of oratory to a life of prayer and work. Gregory of Nazianzus, Basil's friend, says Basil had already resolved on that life. Blomfield Jackson, who translated Basil's letters, gives both, and reads Macrina as giving Basil the resolve to carry it out.",
+      "W. K. Lowther Clarke reads the community she led with her brother Peter of Sebaste as a double monastery, and says the Life throws light on such houses in early times.",
+      "Gregory's dialogue On the Soul and the Resurrection gives its teaching in her voice."
+    ],
+    "remembered": [
+      "Gregory calls her \"the Teacher\" in the dialogue, and \"the great Macrina\" in the Life.",
+      "William Moore and Henry Austin Wilson, who translated the dialogue, write that \"the Church should possess her Phædo, or Death-bed Dialogue\", and that Gregory supplied it.",
+      "Lampadia, the deaconess who led the sisters, told Gregory at her death, \"you have in front of you all her treasure.\""
+    ]
+  },
+  "uncertain": [
+    "Her life is known from her brother Gregory. His Life of her is a loving record, written in her honour, and it tells dreams and healings as signs from God. Clarke holds that the plain style of its later pages shows a true account written soon after the events.",
+    "On the Soul and the Resurrection is Gregory's written form of their talk. It does not say how much of the argument is hers and how much his. Moore and Wilson think it was probably written in 380.",
+    "The double monastery is Clarke's reading. He says it is not clear whether Basil's own monastery across the Iris still stood when Gregory came.",
+    "The healing of a tumour by the sign of the cross was told to Gregory by Vestiana, a widow who lived with the sisters, after Macrina's death. The healing of a soldier's young daughter's eye was told to him by her father. Gregory says he leaves out more wonders he heard, among them corn that did not run out in a famine. The secret name Thecla comes from a dream of her mother's, as Gregory tells it.",
+    "The Life speaks of four sons and five daughters, and an estate divided in nine parts. Clarke says the parents had ten children, of whom those nine survived infancy. Moore and Wilson say the father left ten children, five sons and five daughters."
+  ],
+  "sources": {
+    "about": [
+      {
+        "title": "The Life of Saint Macrina, with Clarke's introduction",
+        "author": "Gregory of Nyssa; translated by W. K. Lowther Clarke",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/gregory-nyssa_life-of-macrina_clarke1916.txt"
+      },
+      {
+        "title": "On the Soul and the Resurrection, with the preface and notes of Moore and Wilson",
+        "author": "Gregory of Nyssa",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf205_gregory-nyssa-dogmatic-treatises.txt"
+      },
+      {
+        "title": "Prolegomena to the letters of Basil",
+        "author": "Blomfield Jackson",
+        "date": null,
+        "language": "English",
+        "file": "cic/texts/npnf208_basil-letters-select-works.xml"
+      }
+    ]
+  }
+}

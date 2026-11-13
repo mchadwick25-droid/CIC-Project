@@ -1,0 +1,68 @@
+{
+  "name": "Auxentius of Durostorum",
+  "otherNames": [
+    "Auxentius Dorostorensis"
+  ],
+  "knownFor": "Pupil of Ulfila, bishop of the Goths, and a Homoian ('Arian') bishop at Durostorum, whose letter is the main record of Ulfila's faith, life and death.",
+  "dates": "Ulfila's pupil from childhood; still living when Maximinus wrote, after Ulfila's death in 383",
+  "place": "Durostorum (modern Silistria), in Lower Moesia",
+  "tradition": "Gothic, Vandal & Lombard Homoian Christianity",
+  "role": "Bishop and recorder",
+  "briefLength": "about 2 minutes",
+  "keyWorks": [
+    {
+      "title": "Letter on the Faith, Life and Death of Ulfila",
+      "about": "his teacher's faith, his years as bishop among the Goths and in Roman lands, and his death at Constantinople with the creed he left; the title is Kauffmann's"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Wilhelm Streitberg puts the letter first among the sources for Ulfila's life in his edition of the Gothic Bible, 1908.",
+      "Maximinus, an Arian bishop writing against Ambrose of Milan, built the letter into his own defence of the bishops condemned at Aquileia."
+    ],
+    "remembered": [
+      "Friedrich Kauffmann, his editor in 1899, says almost nothing else of the Arians' writing about their saints has come down, which makes this fragment all the more valuable."
+    ]
+  },
+  "uncertain": [
+    "In Kauffmann's day, W. Luft held that only the first part of the letter keeps Auxentius's own words, and the rest is Maximinus's summary of another work by him. Kauffmann answered that the whole fragment has one biblical style, unlike Maximinus's.",
+    "Bessell, and A. Jülicher after him, thought the letter was written for the emperor Theodosius. Georg Waitz and Kauffmann did not. Kauffmann looked for its readers among the Arians of Moesia. With Bessell, he thought Auxentius sent it from Constantinople soon after Ulfila's death.",
+    "That Ulfila held the see of Durostorum before Auxentius is Kauffmann's view. Sozomen names Selinus, once Ulfila's secretary, as his successor as bishop of the Goths.",
+    "Auxentius writes as a pupil and an admirer, and tells Ulfila's faith as his own party held it.",
+    "He gives Ulfila's life in the numbers of Scripture: bishop at thirty, like David, Joseph and Christ, and forty years in all, the span of the saints he followed. Kauffmann notes that writers of that time often used numbers so, but counts them as real years.",
+    "The letter survives inside Maximinus's book, written in the margins of Ambrose's On the Faith in a fifth-century Paris manuscript, cod. lat. 8907, which also holds Hilary of Poitiers. Georg Waitz and Pertz dated the writing to 381 to 384; Bessell showed it was written after 438; Kauffmann follows Ludwig Traube's date, probably the sixth century. The letter has lost its address, its opening and its end.",
+    "No source gives his birth, his death or the years of his time as bishop."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Letter on the Faith, Life and Death of Ulfila (Epistula de fide, vita et obitu Wulfilae)",
+        "language": "Latin",
+        "file": "cic/texts/auxentius-durostorum_epistula-de-fide-vita-obitu-wulfilae_kauffmann1899.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Aus der Schule des Wulfila: Maximinus's book against Ambrose, with Kauffmann's introduction",
+        "author": "Maximinus; Friedrich Kauffmann",
+        "date": null,
+        "language": "Latin, with German",
+        "file": "cic/texts/auxentius-durostorum_epistula-de-fide-vita-obitu-wulfilae_kauffmann1899.txt"
+      },
+      {
+        "title": "Die gotische Bibel, volume 1, introduction: the sources for Ulfila",
+        "author": "Wilhelm Streitberg",
+        "date": null,
+        "language": "German, with Latin and Greek",
+        "file": "cic/texts/wulfila_gothic-bible-v1-got_streitberg1908.txt"
+      },
+      {
+        "title": "Church History, Book 7, chapter 17",
+        "author": "Sozomen",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
+      }
+    ]
+  }
+}
