@@ -147,14 +147,14 @@ function siteHeader(up) {
 function siteFooter(up) {
   return `<footer class="site-footer">
   <div class="row">
-    <p>&copy; 2026 Faithways Studio, Inc., a Colorado public benefit corporation &middot; <a href="https://churchinconversation.com/license">License</a>. The same team makes <a href="https://churchinconversation.com/">Church in Conversation</a>.</p>
+    <p>&copy; 2026 Faithways Studio, Inc., a Colorado public benefit corporation &middot; <a href="${up}license.html">License</a>. The same team makes <a href="https://churchinconversation.com/">Church in Conversation</a>.</p>
     <nav aria-label="About the tree">
       <a href="${up}about.html">About</a>
       <a href="${up}method.html">Method</a>
       <a href="${up}data.html">Data and citation</a>
       <a href="${up}privacy.html">Privacy</a>
       <a href="${up}terms.html">Terms</a>
-      <a href="https://churchinconversation.com/license">License</a>
+      <a href="${up}license.html">License</a>
       <a href="${up}support.html">Help us grow</a>
     </nav>
   </div>
@@ -603,6 +603,42 @@ for (const key of SITE_PAGES) {
   fs.writeFileSync(path.join(outRoot, 'cft-website', `${key}.html`), sitePage(key, giveButtons), 'utf-8');
 }
 
+// The license policy is one text for both sites. The tree serves its own copy, built from
+// cic-website/license.html, so the tree links to its own address and the two copies cannot drift.
+function licensePage() {
+  const source = fs.readFileSync(path.join(rootDir, 'cic-website/license.html'), 'utf-8');
+  const main = source.slice(source.indexOf('<main id="main">') + '<main id="main">'.length, source.indexOf('</main>'));
+  const hero = main.match(/<section class="hero"[\s\S]*?<h1>([\s\S]*?)<\/h1>[\s\S]*?<\/section>/);
+  const body = main.replace(hero[0], '')
+    .replace(/href="(?!https?:|mailto:|#)(?!license\.html|terms\.html)([a-z-]+\.html(?:#[a-z-]+)?)"/g, 'href="https://churchinconversation.com/$1"');
+  const description = source.match(/<meta name="description" content="([^"]*)"/)[1];
+  return `<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>License — Church Family Tree</title>
+<meta name="description" content="${description}">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,700;1,400;1,500&family=Alegreya+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+${PAGE_STYLE}
+<link rel="stylesheet" href="assets/feedback.css">
+${analyticsTag}</head>
+<body>
+${siteHeader('/')}
+<div class="page">
+  <div class="titleblock"><p class="eyebrow">License</p><h1>${hero[1].trim()}</h1></div>
+${body.trim()}
+</div>
+${siteFooter('/')}
+<script src="assets/feedback.js" defer></script>
+</body>
+</html>`;
+}
+fs.writeFileSync(path.join(outRoot, 'cft-website', 'license.html'), licensePage(), 'utf-8');
+
 // A retired movement with no redirect keeps its address. Its page says only what the census records:
 // the name, the date it was retired, and the reason.
 function retiredPageHtml(r) {
@@ -666,6 +702,7 @@ fs.writeFileSync(path.join(websiteDir, 'sitemap.xml'), sitemapXml(sitemapUrls), 
 const treeSitemapUrls = [
   'https://www.churchfamilytree.com/',
   ...SITE_PAGES.map(key => `https://www.churchfamilytree.com/${key}.html`),
+  'https://www.churchfamilytree.com/license.html',
   ...census.movements.map(m => `https://www.churchfamilytree.com/tree/${m.id}`)
 ];
 fs.writeFileSync(path.join(outRoot, 'cft-website/sitemap.xml'), sitemapXml(treeSitemapUrls), 'utf-8');

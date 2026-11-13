@@ -347,3 +347,15 @@ test('the Terms page is on both sites with the same text, and every tree footer 
   assert.match(read(`tree/${open.id}.html`), /<a href="\.\.\/terms.html">Terms<\/a>/);
   assert.ok(read('sitemap.xml').includes('<loc>https://www.churchfamilytree.com/terms.html</loc>'));
 });
+
+test('the tree serves its own copy of the license page, with every section of the Church in Conversation page', () => {
+  const read = generate(census);
+  const tree = read('license.html');
+  const cic = fs.readFileSync(path.join(root, 'cic-website/license.html'), 'utf8');
+  const headings = page => [...page.matchAll(/<h2>([\s\S]*?)<\/h2>/g)].map(m => m[1]);
+  assert.ok(headings(cic).length > 10);
+  assert.deepEqual(headings(tree), headings(cic));
+  assert.ok(tree.includes('Ministry and Scholarship Permission'));
+  assert.match(read(`tree/${open.id}.html`), /<a href="\.\.\/license.html">License<\/a>/);
+  assert.ok(read('sitemap.xml').includes('<loc>https://www.churchfamilytree.com/license.html</loc>'));
+});
