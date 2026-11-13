@@ -22,3 +22,7 @@ What the drafter changed in answer to `R2_recheck.md`. Every new or changed quot
 ## Not changed
 
 - **N8, card sentences over 25 words.** As in era 1 batch 2 (R2_changes, "Not changed"), card text is read by eye and is not scored by `grade_text`. These sentences each tie a claim to its named witness, and splitting them would separate the two. None of them is in a brief.
+
+## After round 3
+
+R3 found no blocking finding. Its one minor point was fixed without a further round: the Aetius brief now reads "Sozomen, the church historian, says", with the commas.
