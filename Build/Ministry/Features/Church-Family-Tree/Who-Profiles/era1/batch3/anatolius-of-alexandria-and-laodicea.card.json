@@ -1,0 +1,78 @@
+{
+  "name": "Anatolius of Alexandria and Laodicea",
+  "otherNames": [
+    "Anatolius of Alexandria",
+    "Anatolius of Laodicea"
+  ],
+  "knownFor": "A learned Alexandrian who led people out of a besieged quarter of Alexandria, became bishop of Laodicea in Syria, and wrote on how to fix the date of Easter.",
+  "dates": "Made bishop of Laodicea on his way to the synod at Antioch on Paul of Samosata; Jerome of Strido says he flourished under the emperors Probus and Carus",
+  "place": "Alexandria; Caesarea in Palestine; Laodicea in Syria",
+  "tradition": "Alexandrian Catechetical / Christian-Platonist Tradition",
+  "role": "Scholar, then bishop of Laodicea",
+  "briefLength": "about 2 minutes",
+  "keyWorks": [
+    {
+      "title": "Paschal Canons",
+      "about": "his rules for fixing Easter by a cycle of nineteen years; Eusebius of Caesarea quotes a long extract"
+    },
+    {
+      "title": "Institutes of Arithmetic",
+      "about": "ten books, of which a few fragments survive"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Arthur McGiffert, who translated Eusebius, calls him the first Christian to use the nineteen-year cycle to find Easter, \"so far as we know.\""
+    ],
+    "remembered": [
+      "Eusebius says he \"stood first among the ablest men of our time\" in arithmetic, geometry, astronomy, logic and physics.",
+      "Jerome of Strido calls him a man of wonderful learning.",
+      "At the synod at Whitby in 664, Bede tells, both sides cited him. Colman called him \"a holy man, and much commended in church history.\" Wilfrid called him \"a most holy, learned, and commendable man\", but said Colman's side did not keep his cycle."
+    ]
+  },
+  "uncertain": [
+    "Eusebius tells the story of the siege as others told it to him (\"They say\").",
+    "McGiffert thinks the siege was most likely the one during the revolt of Aemilian, in 260. Valesius and others place it later, under Claudius.",
+    "Eusebius reports that the Alexandrians asked him to found a school of Aristotle's philosophy. He gives it as a report, and does not say Anatolius held any church office in Alexandria, McGiffert notes.",
+    "A longer Latin book on Easter, first printed in 1634, carries his name. Ideler held it to be a work of the seventh century. McGiffert, following Zahn, thinks there are \"the best of reasons\" for taking it as an early translation of his genuine work.",
+    "No held source gives the year of his birth or death. Ernest Cushing Richardson, in a note to his translation of Jerome, gives born about 230, bishop 270, died about 283, and names no source. S. D. F. Salmond, who translated his works, calls the dates 230, 270 and 280 conjectural.",
+    "Eusebius lists arithmetic, geometry, astronomy, logic and physics among his subjects. Jerome has grammar in place of physics."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Paschal Canons (extract), in Eusebius's Church History, Book 7, chapter 32",
+        "language": "English translation",
+        "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
+      },
+      {
+        "title": "The Paschal Canon (Latin version) and fragments of the Institutes of Arithmetic",
+        "language": "English translation",
+        "file": "cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml"
+      }
+    ],
+    "about": [
+      {
+        "title": "Church History, Book 7, chapter 32, with McGiffert's notes",
+        "author": "Eusebius of Caesarea",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
+      },
+      {
+        "title": "Lives of Illustrious Men, chapter 73, with Richardson's notes",
+        "author": "Jerome of Strido",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+      },
+      {
+        "title": "Ecclesiastical History of the English People, Book 3, chapters 3 and 25",
+        "author": "Bede",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt"
+      }
+    ]
+  }
+}
