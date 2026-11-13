@@ -1,0 +1,79 @@
+{
+  "name": "Eunomius of Cyzicus",
+  "knownFor": "Leader of the Anomoeans and for a time bishop of Cyzicus, whose Apology argued that God is the one unbegotten being, so that the Son, begotten by the Father's will, cannot share his substance.",
+  "dates": "Bishop of Cyzicus under Constantius (Philostorgius) or Valens (Socrates, Sozomen); gave his creed to Theodosius in 383; died soon after Theodosius banished him (Sozomen)",
+  "place": "Cappadocia; Cyzicus; Constantinople",
+  "tradition": "Anomoean (Eunomian) Christianity",
+  "role": "Bishop of Cyzicus and teacher",
+  "briefLength": "about 2 minutes 30 seconds",
+  "keyWorks": [
+    {
+      "title": "The Apology",
+      "about": "his defence and statement of faith, addressed to readers then living and to come; Basil of Caesarea wrote against it"
+    },
+    {
+      "title": "The Apology for the Apology",
+      "about": "his reply to Basil, known from the passages Gregory of Nyssa quotes to refute it"
+    },
+    {
+      "title": "A Confession of Faith",
+      "about": "a short Eunomian creed copied after the Apology in its manuscripts"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "His followers were called by his name, the Eunomians. Sozomen says Eunomius only renewed the teaching of Aetius of Antioch, and spread it more boldly.",
+      "His circle later split. Sozomen and Socrates of Constantinople tell how Theophronius and Eutychius, once his followers, founded parties of their own.",
+      "Sozomen says much of the church would have gone over to this teaching \"had it not found opponents in Basil and Gregory, the Cappadocians.\"",
+      "Philostorgius says the prefect Eutropius ordered his books destroyed by public edict."
+    ],
+    "remembered": [
+      "Philostorgius, in Photius's summary, praised his clear teaching and \"a style well suited to learners\", though he rated Aetius higher in argument.",
+      "Socrates, an opponent, found in his books \"a great scarcity of sense, amidst a profusion of verbiage.\"",
+      "William Whiston, who put the Apology into English in 1711, quotes Dr. Cave's verdict that \"the Sly Arch-Heretick reasons shrewdly.\""
+    ]
+  },
+  "uncertain": [
+    "Most of his life is told by opponents, or by Philostorgius, a partisan who praised him and who survives mainly in the summary of Photius, a hostile patriarch of Constantinople. Gregory of Nyssa's account of his family and his rise is polemic.",
+    "When he became bishop of Cyzicus is told two ways. Philostorgius and Theodoret, as A. C. Zenos notes in his translation of Socrates, place it under Constantius. Socrates and Sozomen place it under Valens.",
+    "Why he left Cyzicus is told three ways. Philostorgius says he won over the clergy of Constantinople, then would not sign what Eudoxius asked and went home to Cappadocia. Socrates says the people drove him out. Sozomen says Eudoxius found no fault in him, but he would not return to people who suspected him.",
+    "Socrates quotes him as teaching that \"God knows no more of his own substance than we do\". The words do not appear in the Apology as the Library holds it.",
+    "Gregory of Nyssa says the Apology answered no real trial. Eunomius, as Gregory quotes him, said \"that we were condemned by default\" by a hostile panel.",
+    "Philostorgius says Basil of Caesarea died of remorse after reading the first of Eunomius's five books against him. Photius calls this falsehood.",
+    "Sozomen reports that some made Eunomius the first to baptize with a single immersion, and thinks it more likely that Theophronius and Eutychius began it.",
+    "Sozomen says he was buried at Dacora, his birthplace. Philostorgius says Eutropius had him moved from there to Tyana, to be kept by monks, and would not let his body lie in his master's tomb.",
+    "No source in the Library gives the year of his birth or of his death."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "The Apology, with the Confession of Faith copied after it (tr. William Whiston, 1711)",
+        "language": "English translation",
+        "file": "cic/texts/eunomius_first-apology_whiston1711.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Church History, in the summary of Photius, Books 3 to 11 (tr. Edward Walford)",
+        "author": "Philostorgius",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/philostorgius_ecclesiastical-history_walford1855.txt"
+      },
+      {
+        "title": "Church History, Book 4, chapter 7; Book 5, chapters 10 and 24 (Socrates); Book 6, chapter 26; Book 7, chapters 6, 12 and 17 (Sozomen)",
+        "author": "Socrates of Constantinople; Sozomen",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
+      },
+      {
+        "title": "Against Eunomius, Books 1 and 3 (tr. William Moore and Henry Austin Wilson)",
+        "author": "Gregory of Nyssa",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf205_gregory-nyssa-dogmatic-treatises.txt"
+      }
+    ]
+  }
+}

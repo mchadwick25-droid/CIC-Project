@@ -1,0 +1,89 @@
+{
+  "name": "Ulfila",
+  "otherNames": [
+    "Wulfila",
+    "Ulfilas",
+    "Ulphilas",
+    "Urphilas"
+  ],
+  "knownFor": "Bishop of the Goths, who led a crowd of Gothic Christians across the Danube into the Roman Empire, gave the Goths an alphabet and the Scriptures in their own language, and taught the Homoian faith.",
+  "dates": "Born about 311; made bishop at thirty; died at Constantinople in 383 (Kauffmann's dates, worked from Auxentius's numbers)",
+  "place": "The Goths' land beyond the Danube; later Moesia, on the Roman side",
+  "tradition": "Homoian ('Arian') Christianity",
+  "role": "Bishop of the Goths",
+  "briefLength": "about 2 minutes 30 seconds",
+  "keyWorks": [
+    {
+      "title": "The Gothic Bible",
+      "about": "the Scriptures in Gothic; the Gospels survive in part in the Codex Argenteus at Uppsala, written in silver and gold on purple parchment, and Paul's letters in palimpsests from Bobbio, now at Milan"
+    },
+    {
+      "title": "His creed, left in his testament",
+      "about": "the faith he left to his people at his death, as Auxentius of Durostorum gives it in Latin"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Socrates of Constantinople and Sozomen both say the Goths of their own day held the Arian faith, and Sozomen traces it to Ulfila's teaching.",
+      "Sozomen says Selinus, once Ulfila's secretary, succeeded him as bishop and could teach in Gothic and in Greek.",
+      "The Gothic Bible survives in fragments, edited by Ernst Bernhardt in 1884 and by Wilhelm Streitberg in 1908."
+    ],
+    "remembered": [
+      "Photius, in his summary of Philostorgius, says the emperor called Ulfila \"the Moses of his day\" and that Philostorgius \"is loud in his praises of this Urphilas\".",
+      "Sozomen, who calls his teaching Arian, still says he \"had exposed himself to innumerable perils in defense of the faith\" while the Goths were pagan.",
+      "His pupil Auxentius of Durostorum calls him a most holy man, a confessor of Christ and a teacher of piety."
+    ]
+  },
+  "uncertain": [
+    "When Ulfila took the Homoian side is told three ways. Auxentius of Durostorum, his pupil and a partisan, gives Ulfila's own deathbed words that he had always believed so. Socrates of Constantinople says he held the Nicene creed until he signed the creed of the council at Constantinople in 360. Sozomen says he took part in that council without leaving the Nicene faith, and joined the Arians later, under Valens.",
+    "Philostorgius, a follower of Eunomius of Cyzicus, calls Ulfila the Goths' first bishop. Socrates names an earlier bishop of the Goths, Theophilus, who signed at Nicaea, and calls Ulfila his disciple. Philostorgius survives mainly in the summary of Photius, who was hostile to him.",
+    "Philostorgius says Ulfila was made bishop by a bishop named Eusebius and those with him, while on an embassy to Constantine. Friedrich Kauffmann, Auxentius's editor in 1899, reads Constantius for Constantine, places it at a council of Antioch in 341, and thinks Ulfila was made a country bishop at first.",
+    "Auxentius has Ulfila driven out after seven years as bishop and received by Constantius; Kauffmann dates the crossing to 348 or 349. Sozomen has Ulfila lead the Goths' embassy when they crossed the Danube fleeing the Huns, under Valens.",
+    "Auxentius's numbers echo Scripture: bishop at thirty, like David, Joseph and Christ, and forty years in all, like Moses. Kauffmann notes that the age often treated numbers this way, but counts them as real years.",
+    "The Gothic fragments carry no translator's name. Streitberg sees no doubt that they are the remains of Ulfila's translation. Philostorgius says he left out the Books of Kings.",
+    "Photius reports Philostorgius as saying that Ulfila and his Goths held Philostorgius's own views. Auxentius has Ulfila call the Son like the Father according to the Scriptures.",
+    "Kauffmann reports Georg Waitz's doubt whether the deathbed creed was left in Latin in the form that survives."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Die gotische Bibel, volume 1 (ed. Wilhelm Streitberg), with his introduction on the sources for Ulfila",
+        "language": "Gothic, with German",
+        "file": "cic/texts/wulfila_gothic-bible-v1-got_streitberg1908.txt"
+      },
+      {
+        "title": "Die gotische Bibel des Vulfila (ed. Ernst Bernhardt)",
+        "language": "Gothic, with German",
+        "file": "cic/texts/wulfila_gothic-bible-skeireins-calendar-got-deu_bernhardt1884.txt"
+      },
+      {
+        "title": "His deathbed creed, in Auxentius's letter",
+        "language": "Latin",
+        "file": "cic/texts/auxentius-durostorum_epistula-de-fide-vita-obitu-wulfilae_kauffmann1899.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Letter on the Faith, Life and Death of Ulfila, with Kauffmann's introduction",
+        "author": "Auxentius of Durostorum",
+        "date": null,
+        "language": "Latin, with German",
+        "file": "cic/texts/auxentius-durostorum_epistula-de-fide-vita-obitu-wulfilae_kauffmann1899.txt"
+      },
+      {
+        "title": "Church History, Book 2, chapter 5, in the summary of Photius (tr. Edward Walford)",
+        "author": "Philostorgius",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/philostorgius_ecclesiastical-history_walford1855.txt"
+      },
+      {
+        "title": "Church History, Book 2, chapter 41; Book 4, chapter 33 (Socrates); Book 4, chapter 24; Book 6, chapter 37; Book 7, chapter 17 (Sozomen)",
+        "author": "Socrates of Constantinople; Sozomen",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
+      }
+    ]
+  }
+}
