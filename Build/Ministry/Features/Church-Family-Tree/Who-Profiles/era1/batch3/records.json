@@ -34,13 +34,17 @@
       {
         "claim": "Peter ordained Arius a deacon and later cast him out",
         "witness": "Sozomen I.15 (one witness; Hartranft notes no one else links Arius with the Meletians early); Robertson doubts it",
-        "formation_confidence": "Inferential-Thin"
+        "formation_confidence": "Contested"
       }
     ],
     "contested_claims": [
       {
         "claim": "How the Meletian schism began",
         "sides": "Athanasius, Socrates and Theodoret (Meletius removed for crimes and sacrifice) against Epiphanius (Peter and Meletius jailed together, split over the lapsed, Peter for mercy). Bell reads them as stages of one quarrel; Hefele says the first letters show neither man was then in prison and that Epiphanius erred on the main points."
+      },
+      {
+        "claim": "Peter ordained Arius a deacon and later cast him out over the Meletians",
+        "sides": "Sozomen I.15 reports it. Against: Chester Hartranft, Sozomen's translator, notes that no one else links Arius with the Meletians early; Archibald Robertson, editor of Athanasius, says such tales \"deserve little credit\" and are unsupported by Athanasius."
       }
     ],
     "absent_details": [

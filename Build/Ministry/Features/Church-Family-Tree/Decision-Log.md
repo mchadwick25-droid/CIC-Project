@@ -2482,3 +2482,15 @@ Approved to proceed (Mark, 2026-11-13).
 - The tree's privacy page, section "The feedback bar", no longer says feedback goes to Church in Conversation's server. It now says: "Feedback comes straight to our team. It carries no visitor ID and no cookie. We use it to fix and improve the tree." What each button sends is unchanged, and so is the feedback bar itself.
 
 No census change, so there is no data release number. Approved to proceed (Mark, 2026-11-13).
+
+## 2026-11-13 — Who profiles, era 1 batch 3: Peter of Alexandria major, Pliny the Younger an outside witness (Mark, 2026-11-13)
+
+**The batch.** The three era 1 WHO rows from the supplement Who scan that were in neither earlier batch, Peter of Alexandria, Anatolius of Alexandria and Laodicea and Polycrates of Ephesus, and Pliny the Younger, ruled a Who as an outside witness, not major (Mark, 2026-11-12). Opus drafted each profile to `Who_Profile_Pattern.md`, per Mark's batch 1 ruling, "Opus for all". Pliny follows the outside-witness form of Tacitus and Suetonius in batch 2.
+
+**Decided (Mark, 2026-11-13, picked from options, relayed by the coordinator).** Major marks, "As proposed". Peter of Alexandria is major, at 402 words, about 2:29. Anatolius of Alexandria and Laodicea and Polycrates of Ephesus are not, at 323 words each, about 2:00. Pliny the Younger is not major, as an outside witness, at 310 words, about 1:55.
+
+**Review.** Two rounds by fresh Opus agents that had not seen the drafting. Round 1, the full checklist review, found no blocking point and 7 minor ones. Six were fixed: one dispute-announcing opener, three sentences over 25 words, two men named Eusebius in one scene, and a records.json tag. The seventh, where the outside-witness label renders, belongs to the page. Round 2, a targeted recheck, found all six resolved and nothing new. Every quotation was re-checked word for word against its vendored file. No paid calls were made.
+
+**What is still open.** The Library holds no edition of Pliny's Letters. Open-Gaps 235, "Era 1 Who batch 3" (2026-11-13), logs that need and closes the batch 2 and Pliny items.
+
+The approved files are in `Who-Profiles/era1/batch3/` in this folder, and the reviews are in `Build/Ministry/Operations/Audits/2026-11-13_who-profiles-era1-batch3/`. No census, record or site change is made, so there is no data release number. Mark ruled on the major marks; the review outcome and merge are the coordinator's call under Mark's full-auto instruction of 2026-11-13. Approved to proceed (coordinator, 2026-11-13; Mark may overrule).
