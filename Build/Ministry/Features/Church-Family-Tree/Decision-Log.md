@@ -2473,3 +2473,12 @@ Data release 40 (2026-11-13). The data page's release number follows. Approved t
 **How.** One setting, `conversationsLive` in `Build/tools/tree_site_pages.json`, set to false. The tree page generator and the map (`CONVERSATIONS_LIVE` in `cft-website/index.html`) both follow it, and a test checks that they agree. Setting it to true restores the links in one change. No census change, so there is no data release number.
 
 Approved to proceed (Mark, 2026-11-13).
+
+## 2026-11-13 — Church in Conversation keeps its conversations on for the pilot; the tree's privacy page names no system (Mark, 2026-11-13)
+
+**Decided (Mark, 2026-11-13).** "keep it on for church in conversation for the pilot, fix the feedback bar keeping it simple doesnt have to tell our system info."
+
+- The "Begin a conversation" buttons on the Church in Conversation site stay on for the pilot. The tree keeps its "coming soon" lines (Decision-Log, "Conversations not yet live", 2026-11-13).
+- The tree's privacy page, section "The feedback bar", no longer says feedback goes to Church in Conversation's server. It now says: "Feedback comes straight to our team. It carries no visitor ID and no cookie. We use it to fix and improve the tree." What each button sends is unchanged, and so is the feedback bar itself.
+
+No census change, so there is no data release number. Approved to proceed (Mark, 2026-11-13).
