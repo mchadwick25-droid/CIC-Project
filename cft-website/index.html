@@ -39,11 +39,13 @@ body{margin:0;background:var(--parchment);color:var(--iron-gall);
   border:1px solid var(--rule);border-radius:3px;padding:.35rem .7rem;cursor:pointer}
 .topbar button:hover{border-color:var(--gold-leaf)}
 .topbar button:focus-visible{outline:2px solid var(--madder);outline-offset:1px}
-#zoomCtl{position:fixed;top:calc(var(--map-top,8rem) + 2.1rem);left:.6rem;z-index:15;display:flex;flex-direction:column;gap:.4rem}
-#zoomCtl button{font:inherit;font-size:1rem;min-height:44px;padding:.4rem 1rem;color:var(--iron-gall);background:var(--vellum);
-  border:1px solid var(--rule);border-radius:3px;cursor:pointer;box-shadow:var(--shadow)}
-#zoomCtl button:hover{border-color:var(--gold-leaf)}
-#zoomCtl button:focus-visible{outline:2px solid var(--madder);outline-offset:1px}
+#zoomCtl{position:fixed;top:calc(var(--map-top,8rem) + 2.6rem);right:.75rem;z-index:15;display:flex;flex-direction:column;
+  background:var(--vellum);border:1px solid var(--rule);border-radius:8px;box-shadow:var(--shadow);overflow:hidden}
+#zoomCtl button{width:44px;height:44px;padding:0;font:inherit;font-size:1.6rem;line-height:1;color:var(--iron-gall);
+  background:none;border:0;cursor:pointer}
+#zoomCtl button+button{border-top:1px solid var(--rule)}
+#zoomCtl button:hover{background:var(--tyrian-wash);color:var(--gold-leaf)}
+#zoomCtl button:focus-visible{outline:2px solid var(--madder);outline-offset:-2px}
 .feature-bar{position:fixed;top:2.9rem;left:0;right:0;z-index:20;display:flex;flex-wrap:wrap;
   gap:.5rem;padding:.4rem .9rem;background:var(--parchment);border-bottom:1px solid var(--rule)}
 .chip-group{position:relative}
@@ -329,8 +331,8 @@ svg.who-on .edge-line,svg.who-on .edge-hit,svg.who-on .continues{display:none!im
 <div id="tip"></div>
 <div id="panel" role="dialog" aria-modal="true" aria-labelledby="panelTitle" tabindex="-1" inert><button class="close" id="panelClose" aria-label="Close">&times;</button><div id="panelBody"></div></div>
 <div id="zoomCtl" role="group" aria-label="Zoom the map">
-  <button id="zoomOutBtn" type="button" title="Zoom out (minus key)">Zoom out</button>
-  <button id="zoomInBtn" type="button" title="Zoom in (plus key)">Zoom in</button>
+  <button id="zoomInBtn" type="button" aria-label="Zoom in" title="Zoom in (plus key)">+</button>
+  <button id="zoomOutBtn" type="button" aria-label="Zoom out" title="Zoom out (minus key)">&minus;</button>
 </div>
 <div id="zoomHint">Scroll to move &middot; Ctrl + scroll to zoom</div>
 
