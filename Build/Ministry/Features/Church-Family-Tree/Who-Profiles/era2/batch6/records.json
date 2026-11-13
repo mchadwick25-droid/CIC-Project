@@ -1,0 +1,662 @@
+{
+ "liberius-of-rome": {
+  "claims": [
+   {
+    "claim": "Refused Constantius's demand to condemn Athanasius: \"My standing alone does not make the truth a whit the weaker\"; \"Neither three days nor three months can change my sentiments\"",
+    "witness": "A record copied by Theodoret, Church History II.13 (npnf203 l.9655-9659, 9749, 9829-9830)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Banished to Beroea in Thrace; returned the emperor's gold, \"he has need of them to pay his troops\"",
+    "witness": "Theodoret (npnf203 l.9834-9838); Sozomen (npnf202 l.33270)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Taken from Rome by night for fear of the people",
+    "witness": "Ammianus Marcellinus (l.4175, 4215-4216), an outside witness",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Gave way after two years and subscribed from fear of death",
+    "witness": "Athanasius, History of the Arians 41 (npnf204 l.39175-39177), an ally",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Worn out by exile, signed heresy and entered Rome as a victor; urged by Fortunatianus",
+    "witness": "Jerome, Chronicle (l.45536-45540); Jerome, Lives 97 (npnf203 l.41296-41300)",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Signed a Sirmium creed with his own statement",
+    "witness": "Sozomen (npnf202 l.33576-33583)",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "The letters of his lapse are doubtful",
+    "witness": "Feder's preface (l.2796, 15187)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "The crowd cried \"One God, one Christ, one bishop\"; Liberius returned and Felix withdrew",
+    "witness": "Theodoret II.14 (npnf203 l.9857-9908)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Died on 24 September, in the consulship of Gratian and Dagalaifus",
+    "witness": "Gesta inter Liberium et Felicem (Collectio Avellana l.5098-5099); Hartranft's year 366 (npnf202 l.38766)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Gave the veil to Ambrose's sister at Christmas in Saint Peter's: \"You, my daughter, have desired a good espousal\"",
+    "witness": "Ambrose, On Virgins III (npnf210 l.38125-38137), as Ambrose recalls it",
+    "formation_confidence": "Widely Accepted"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "Whether and how he lapsed in exile",
+    "sides": "Athanasius: signed from fear of death, forced (npnf204 l.39175-39177). Jerome: worn out, signed heresy (Chronicle l.45536-45540; Lives 97). Sozomen: signed at Sirmium with his own statement (npnf202 l.33576-33583). Theodoret: no lapse told. Feder: the fall letters doubtful (l.15187)."
+   },
+   {
+    "claim": "Who installed Felix",
+    "sides": "Socrates: the party of Ursacius (npnf202 l.8934). Jerome: Acacius (npnf203 l.41312). Book of the Popes: Liberius himself, an account Loomis calls a medley of fact and legend."
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "Birth, family and career before his election",
+    "note": "Only the late Book of the Popes gives a father's name; no early source used here gives them."
+   }
+  ]
+ },
+ "marcellus-of-ancyra": {
+  "claims": [
+   {
+    "claim": "Wrote to Julius from Rome after a year and three months there, in his own hand, with his creed; said he had refuted the Arians at Nicaea; confessed the Word always co-existing with the Father and a kingdom without end",
+    "witness": "His letter, Panarion 72 (PG42 l.28776, 28794, 28825, 28869, 28890-28897); Greek OCR",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Wrote against Asterius and fell into the error of Paul of Samosata, that Christ was a mere man",
+    "witness": "Socrates (npnf202 l.5379-5422); a charge",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Taught that the Son began when born of Mary and that his kingdom would end; deposed at Constantinople, Basil installed",
+    "witness": "Sozomen (npnf202 l.30604-30611); a charge",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Some held he had only propounded questions, misconstrued by his enemies",
+    "witness": "Sozomen (npnf202 l.30624-30626)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Cleared by Julius and the Western bishops at Sardica",
+    "witness": "Julius and the Council of Sardica, quoted by Athanasius (npnf204 l.23394, 24186-24193)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "\"The most execrable of all heretics\"",
+    "witness": "The Eastern bishops' letter, quoted in Zenos's note (npnf202 l.6704-6708); hostile",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Athanasius only smiled when asked about him",
+    "witness": "Epiphanius, Panarion 72 (PG42 l.29100-29108)",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Athanasius refused him communion",
+    "witness": "Hilary's dossier (l.12874); denied by Watson (npnf209 l.4343-4344)",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Died about two years before Epiphanius wrote",
+    "witness": "Epiphanius (PG42 l.28607-28609)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The Marcellians condemned in canon 1 of Constantinople 381; Marcellus himself afterwards acknowledged the truth",
+    "witness": "Canon 1 (npnf214 l.13975); Hefele as quoted by Percival (l.14004-14007)",
+    "formation_confidence": "Contested"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "Whether his teaching was orthodox",
+    "sides": "Julius and the Western bishops at Sardica: cleared (npnf204 l.23394, 24193). The Eastern bishops, Socrates's and Sozomen's accounts of the charges, and Basil (npnf208 l.43341-43343): condemned. Epiphanius: left to God (PG42 l.28684)."
+   },
+   {
+    "claim": "Whether Athanasius broke with him",
+    "sides": "Epiphanius: Athanasius only smiled, and treated him as cleared (PG42 l.29108). Hilary's dossier: refused him communion (l.12874). Watson: he never did so (npnf209 l.4343-4344)."
+   },
+   {
+    "claim": "Whether he returned to the truth",
+    "sides": "Hefele, quoted by Percival: yes (npnf214 l.14004-14007). The Benedictine note to Basil: he seems to have erred at the end (npnf208 l.43542)."
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "Birth, family, and when he became bishop",
+    "note": "No held line gives them."
+   },
+   {
+    "detail": "His book and Eusebius's replies",
+    "note": "Neither is held; the book is known through opponents and the Sardica letter."
+   }
+  ]
+ },
+ "moses-the-black": {
+  "claims": [
+   {
+    "claim": "Tied four robbers together and carried them to the church, asking \"what do you bid me do with these?\"; they too left the world",
+    "witness": "Palladius, Lausiac History 19 (l.335); a book of holy lives",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "An Ethiopian, black, a house-servant driven out by his master for immorality and brigandage; said to have led a robber band and murdered",
+    "witness": "Palladius (l.333), as report",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Gave himself up to a monastery after one of his adventures",
+    "witness": "Palladius (l.335)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Tempted by demons toward lust; stood praying at night for six years; answered Isidore \"I will never cease until the appearance of the demons ceases\"",
+    "witness": "Palladius (l.337)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Died at Scete aged seventy-five, a priest, leaving seventy disciples",
+    "witness": "Palladius (l.337); Sozomen VI.29 (npnf202 l.39499-39525), following Palladius",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "\"An Egyptian\"",
+    "witness": "Sozomen VI.29 (npnf202 l.39461)",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Driven from the sanctuary by the clergy to test him, \"Get outside, O Ethiopian\"; answered himself \"They have treated thee rightly\"",
+    "witness": "Syriac sayings, Budge vol. II (l.1028); the saying names him \"Abba Moses\" and the clergy \"Ethiopian\"",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Killed by barbarians at Scete with seven brothers",
+    "witness": "Syriac sayings (l.1464), naming only \"Abba Moses\"",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "The Moses of the sayings is the robber",
+    "witness": "Clarke's note 143, after Butler (Palladius l.919)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "Ethiopian or Egyptian",
+    "sides": "Palladius: \"an Ethiopian by race and black\" (l.333). Sozomen: \"Moses, an Egyptian\" (npnf202 l.39461)."
+   },
+   {
+    "claim": "How he died",
+    "sides": "Palladius and Sozomen: died at Scete at seventy-five, with no violence told. A Syriac saying: an Abba Moses killed by barbarians with seven brothers (Budge vol. II l.1464), not named as the Ethiopian."
+   },
+   {
+    "claim": "Whether Cassian's Abbot Moses is the same man",
+    "sides": "Cassian's Moses spent his boyhood near Antony (npnf211 l.27198-27199). Gibson: probably another, possibly Moses the Libyan (npnf211 l.24272-24276)."
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "Years of birth and death; family; his master's name; his ordaining bishop",
+    "note": "No held line gives them; Palladius gives only his age at death."
+   },
+   {
+    "detail": "Writings",
+    "note": "None; his words survive only in Palladius and in collected sayings."
+   }
+  ]
+ },
+ "germanus-of-auxerre": {
+  "claims": [
+   {
+    "claim": "Led the newly baptized British army against Saxons and Picts; the bishops shouted Alleluia three times and the enemy fled",
+    "witness": "Constantius, Life (l.2993-3073); hagiography; Levison knows no other record of the raid (l.3026)",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Constantius wrote about 480 or a little after",
+    "witness": "Levison (l.430-432)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Born at Auxerre of noble parents; studied law at Rome; pleaded in the prefect's courts; married; made governor of provinces",
+    "witness": "Constantius, Life (l.2041-2051)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Demanded as bishop by clergy and people with one voice; took the office unwilling",
+    "witness": "Constantius, Life (l.2120-2128)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Pope Celestine, urged by the deacon Palladius, sent him against the Pelagian Agricola in Britain",
+    "witness": "Prosper's Chronicle (Mommsen l.54151-54155); the year 429 is Mommsen's",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "A large synod of Gallic bishops chose Germanus and Lupus after an embassy from Britain",
+    "witness": "Constantius, Life 12 (l.2664-2670)",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "A second journey with a bishop named Severus",
+    "witness": "Constantius, Life (l.3474-3480)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Bede copied Constantius almost word for word for the British chapters",
+    "witness": "Levison (l.585-589)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Went to Ravenna, where Placidia ruled with Valentinian; asked that his body be sent home, which she granted unwillingly; died on the seventh day of his illness",
+    "witness": "Constantius, Life (l.4018-4022, 4407-4413)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Died after 444, on 31 July",
+    "witness": "Levison (l.74-77)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Famous for miracles and strictness of life",
+    "witness": "Chronica Gallica of 452 (Mommsen l.71158-71159)",
+    "formation_confidence": "Documented"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "Who sent him to Britain",
+    "sides": "Prosper: Pope Celestine, at the urging of the deacon Palladius (Mommsen l.54151-54155). Constantius, with Bede after him: a Gallic synod, after an embassy from Britain (l.2664-2670). Levison: attempts to join them are \"merae coniecturae\" (l.193-194)."
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "Birth year, his wife's name in an early source, writings",
+    "note": "Constantius gives no year and no name; Levison reports the wife's name only from the later Gesta of Auxerre; no writing of his is held."
+   }
+  ]
+ },
+ "hilary-of-arles": {
+  "claims": [
+   {
+    "claim": "Hurried on foot into Rome without horse or pack animal after Celidonius appealed; told Leo he came for courtesy, not for a case",
+    "witness": "Life of Hilary, extract in Mansi VI (l.44880-44901); partisan, authorship doubted by the editors (l.44827-44829)",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Celidonius proved he was wrongly deposed; Hilary used words no layman could make and no priest listen to; travelled like a courier, with soldiers; lost his power over the province of Vienne",
+    "witness": "Leo, Letter 10 (npnf212 l.2150-2166, 2255-2263, 2297-2298, 2349-2351); a party to the dispute",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Leo's \"not very creditable encounter with Hilary\"",
+    "witness": "Feltoe, Introduction (npnf212 l.496-497)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Of noble birth and very differently brought up; chose poverty and farmed beyond his strength",
+    "witness": "Gennadius 70 (npnf203 l.43388-43397)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Honoratus came back to their homeland for his sake; he resisted; then thanked Jesus who broke his chains",
+    "witness": "His sermon (PL50 l.1047-1048, 1084-1085, 1202-1206)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Succeeded Honoratus as bishop of Arles",
+    "witness": "His sermon (l.1782-1783); Heurtley (npnf211 l.11791-11792)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Kinsman of Honoratus",
+    "witness": "His own words, \"sicut sanguinis sui venam\" (PL50 l.1811-1812), with the editors' chapter head (l.1778)",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "A fiery torrent of faith and heavenly eloquence",
+    "witness": "Constantius, Life of Germanus (constantius-lyon file l.3376-3378)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Dead by 22 August 449",
+    "witness": "Leo, Letter 40 (npnf212 l.6513-6528); the year is Feltoe's from the consuls",
+    "formation_confidence": "Documented"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "Whether Celidonius was rightly deposed",
+    "sides": "Life of Hilary: the charge was confirmed by witnesses (Mansi l.44883-44884). Leo: he proved himself wrongly deposed (npnf212 l.2163-2166)."
+   },
+   {
+    "claim": "When he was born",
+    "sides": "Richardson: about 401 (npnf203 l.43388). Jackson: he died at forty-one in 449 (npnf203 l.3089-3090)."
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "Birthplace, parents, and the year of his turning",
+    "note": "No held line names them."
+   },
+   {
+    "detail": "The full Life of Hilary",
+    "note": "Held only as the extract quoted in Mansi VI."
+   }
+  ]
+ },
+ "marius-mercator": {
+  "claims": [
+   {
+    "claim": "In 429 gave a Commonitorium in Greek on Caelestius to the church of Constantinople, offered to the emperor Theodosius; Caelestius and Julian were then driven from the city and later condemned at Ephesus",
+    "witness": "The work's title, quoted by Garnier (PL48 l.396-403); the year from its consuls, Garnier (l.404)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Caelestius a follower of Pelagius",
+    "witness": "Warfield (npnf105 l.880)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Not named by Gennadius",
+    "witness": "Garnier (PL48 l.300-305)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Augustine wrote to him as son, received his letters at Carthage, and had not known how far he had progressed",
+    "witness": "Augustine, Ep. 193 (PL33 l.63822-63883)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Origin: southern Italy or Africa",
+    "witness": "Garnier (PL48 l.459-462); Baluze (l.2220-2224); Schoenemann (l.2290-2296)",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "A layman",
+    "witness": "Garnier's inference (PL48 l.486-515); Hefele (l.1242-1243)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Translated sermons of Nestorius with letters of Nestorius and Cyril, so that Latin readers might know and avoid them",
+    "witness": "His preface (PL48 l.58505-58515); dated after Ephesus by Garnier's note",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Nestorius's twelve anathemas survive only in his Latin",
+    "witness": "Hefele (l.2428-2431)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Traced the error back to Theodore of Mopsuestia in his book against Julian",
+    "witness": "Preface to the Liber Subnotationum (PL48 l.6828-6844); partisan",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Translated word for word so as not to be proved a forger",
+    "witness": "His preface (PL48 l.58547-58549)",
+    "formation_confidence": "Documented"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "Where he came from",
+    "sides": "Garnier: Campania, Apulia or southern Italy (PL48 l.459-462). Baluze: Africa (l.2220-2224). Schoenemann: both rest on conjecture (l.2290-2296). Warfield: an African layman (npnf105 l.1468)."
+   },
+   {
+    "claim": "Whether he wrote after Chalcedon",
+    "sides": "Garnier: he did not reach it, or wrote nothing after it (as Baluze reports, l.2262-2266). Baluze: he outlived it, since he names the Eutychians (l.2266-2273)."
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "Birth, death, family and office",
+    "note": "No ancient line gives them; his lay status is an editors' inference."
+   }
+  ]
+ },
+ "eutyches": {
+  "claims": [
+   {
+    "claim": "\"I confess that our LORD was of Two Natures before the Union, but after the Union I confess Him to be of One Nature\"",
+    "witness": "Minutes of Flavian's synod, read at Ephesus 449 (Perry l.23843-23845); Leo's Tome quotes it (npnf212 l.5597)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Accused by Eusebius of Dorylaeum and deposed by Flavian",
+    "witness": "Eutyches to Leo (npnf212 l.4518-4520); Flavian's sentence (Perry l.23980-23981)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The synod met in November 448",
+    "witness": "Perry's note (l.19121); Feltoe (npnf212 l.580-581)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Dedicated to God at birth; spent seventy years in continence",
+    "witness": "His petition (Perry l.23388-23390); his letter to Leo (npnf212 l.4605)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Took refuge with Leo, anathematizing Apollinaris, Nestorius and other heretics; \"I stand in jeopardy of my life as a heretic\"",
+    "witness": "His letter to Leo (npnf212 l.4592-4600)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Said the minutes were falsified",
+    "witness": "His petition (Perry l.23308-23311)",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Basil of Seleucia denied a sentence; Juvenal: \"This sentence, therefore, was altered\"",
+    "witness": "Acts of Ephesus 449 (Perry l.23864-23873)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Appealed to Rome at the trial",
+    "witness": "Eutyches (npnf212 l.4527); denied by Flavian (l.5023)",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Restored \"to his Monastery and to his Grade\" at Ephesus 449",
+    "witness": "Acts of Ephesus 449 (Perry l.24020)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "\"Very unwary and exceedingly ignorant\"",
+    "witness": "Leo, the Tome (npnf212 l.5122); hostile",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Chalcedon received the Tome \"for the removal of the false doctrines of Eutyches\"",
+    "witness": "Definition of Chalcedon (npnf214 l.20262-20267)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Leo urged that he be banished further",
+    "witness": "Feltoe's summary of an untranslated letter (npnf212 l.11331-11333)",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Chalcedon \"introduced and increased the heresy of Nestorius\", yet Eutyches \"affirmed an inaccurate dogma\"",
+    "witness": "Chronicle of Zachariah of Mitylene, so called (l.2174-2178, 1168-1172)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Chrysaphius was his godson",
+    "witness": "Liberatus, Breviarium 11 (PL68 l.78115-78118, rough OCR); Feltoe (npnf212 l.588-589)",
+    "formation_confidence": "Inferential-Thin"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "Whether the minutes of 448 were true",
+    "sides": "Eutyches: what he said was not written, and what he did not say was (Perry l.23308-23311). At Ephesus 449 Basil of Seleucia denied a sentence, and Juvenal said it was altered (l.23864-23873). Flavian's synod and Leo rely on them."
+   },
+   {
+    "claim": "Whether he appealed to Rome",
+    "sides": "Eutyches: he lodged a writ of appeal (npnf212 l.4527). Flavian: \"this he certainly never did\" (l.5023)."
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "Birth, death, family, and the name of his monastery",
+    "note": "No held line gives them; his age rests on his own \"seventy years\"."
+   }
+  ]
+ },
+ "prosper-of-aquitaine": {
+  "claims": [
+   {
+    "claim": "Wrote to Augustine that they had exchanged letters through the deacon Leontius, and that many servants of Christ at Marseilles thought his teaching on the calling of the elect went against the Fathers",
+    "witness": "His letter, Augustine Ep. 225 (PL33 l.73494-73525); partisan on the Massilians",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "A man of Aquitaine, \"scholastic in style and vigorous in statement\"",
+    "witness": "Gennadius, Lives 85 (npnf203 l.43663)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "A layman",
+    "witness": "Gibson (npnf211 l.15695); Garnier (PL48 l.571); against: Mommsen (l.42769-42771)",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "The letter to Augustine dates to 429",
+    "witness": "Gibson, from Hilary's recent succession at Arles (npnf211 l.15720-15721)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Wrote the poem On the Ungrateful after Augustine's replies",
+    "witness": "Gibson (npnf211 l.15740-15747)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "With the layman Hilary, appealed to Pope Celestine and won a letter to the bishops of Gaul",
+    "witness": "Gibson (npnf211 l.15745-15750)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Wrote an unsigned book against works of Cassian",
+    "witness": "Gennadius, who sided with Cassian (npnf203 l.43667-43671); Gibson (npnf211 l.15770-15772)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "His chronicle ran to the Vandal capture of Rome",
+    "witness": "Gennadius (npnf203 l.43664-43667)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Pope Celestine, urged by the deacon Palladius, sent Germanus of Auxerre against the Pelagians in Britain",
+    "witness": "Prosper's Chronicle (Mommsen l.54151-54155), the year 429 being Mommsen's",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Letters of Leo against Eutyches were thought to have been dictated by him",
+    "witness": "Gennadius (npnf203 l.43672-43675), with the variant \"said\" in Richardson's note",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Gennadius's account does not show that he left Gaul; the notary of the Roman church is a medieval inference",
+    "witness": "Mommsen (l.42785-42793)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Augustine died during the Vandal siege, answering Julian's books and defending the grace of Christ",
+    "witness": "Prosper's Chronicle (Mommsen l.54206-54209); Julian named \"Aeclanensis\" by Prosper at l.54540",
+    "formation_confidence": "Documented"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "Whether he was a layman",
+    "sides": "Gibson, \"also a layman\" (npnf211 l.15695), and Garnier (PL48 l.571): yes. Mommsen: a cleric when he wrote to Augustine, since he calls the deacon Leontius his brother (l.42769-42771)."
+   },
+   {
+    "claim": "Whether he was Leo's secretary",
+    "sides": "Gennadius: Leo's letters against Eutyches \"are also thought\" to have been dictated by him (some manuscripts \"said\"). Medieval writers: a notary of the Roman church. Mommsen: the account does not show he even left Gaul (l.42790-42793)."
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "Birth, death and city",
+    "note": "No ancient source used here gives them. Mommsen: his city is unknown (l.42726-42727), and he lived at least to 455 (l.42793-42794). The years 403 to 463 are Richardson's note (npnf203 l.43663) and Freese's note to Photius (l.3543)."
+   },
+   {
+    "detail": "His books against Cassian and On the Ungrateful",
+    "note": "Not held, except one verse of On the Ungrateful quoted in a note to Leo's letters."
+   }
+  ]
+ },
+ "eznik-of-kolb": {
+  "claims": [
+   {
+    "claim": "Retold the magi's story of Zurvan's sacrifice and doubt, Ormizd and Ahriman, and refuted it",
+    "witness": "Refutation of the Sects II, extract (Langlois l.49638-49649, 49828-49842); a polemicist on an opposing faith",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Pupil of Sahak and Mesrop, sent with Joseph to Edessa to translate the Scriptures from Syriac, then to Constantinople; joined there by Leon and Koriun; returned with the Scriptures and the canons of Nicaea and Ephesus",
+    "witness": "Koriun, Life of Mesrop (Langlois l.3807-3861)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Went to Byzantium without orders, misled by lying letters",
+    "witness": "Moses of Khoren III (Langlois l.24608-24622)",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Translations made from the copies were found faulty",
+    "witness": "Moses of Khoren III (Langlois l.24730-24737)",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Bishop of Bagrevand among the bishops at Artashat who answered the edict of Mihr-Nerseh",
+    "witness": "Elishe (Langlois l.27326-27354; edict l.27118-27129); Lazar of Pharp (l.38316-38342, OCR \"Emig\")",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "No biographer recorded his birth or death",
+    "witness": "Introduction to the Refutation in Langlois's collection (l.49402-49405)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "One of the most famous Armenian writers of the fifth century",
+    "witness": "The same introduction (l.49331-49334)",
+    "formation_confidence": "Widely Accepted"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "How he came to Constantinople",
+    "sides": "Koriun: Sahak and Mesrop sent him to Edessa, and he went on to Byzantium to study (Langlois l.3807-3849). Moses of Khoren: lying letters drew him there without his teachers' order (l.24619-24622)."
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "Birth, death, and the date of his book",
+    "note": "The introduction in Langlois's collection says no one recorded his birth or death (l.49402-49405); no held line dates the Refutation or the assembly at Artashat."
+   },
+   {
+    "detail": "The rest of the Refutation",
+    "note": "Only part of book II is held, in French (Langlois l.49545-49550)."
+   }
+  ]
+ }
+}

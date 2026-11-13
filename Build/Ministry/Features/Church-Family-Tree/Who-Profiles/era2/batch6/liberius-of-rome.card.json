@@ -1,0 +1,70 @@
+{
+  "name": "Liberius of Rome",
+  "knownFor": "Bishop of Rome who refused the emperor Constantius's demand to condemn Athanasius of Alexandria, was exiled to Beroea, and, by some accounts, gave way there.",
+  "dates": "Followed Julius as bishop of Rome, by Socrates of Constantinople and Theodoret of Cyrrhus. Died on 24 September, in a year named by its consuls in the account of Liberius and Felix; Chester Hartranft gives 366. The year 352 for his election is an editors' date, from the Liberian Catalogue as Louise Ropes Loomis reports it",
+  "place": "Rome; Milan, by Blomfield Jackson's note; Beroea in Thrace",
+  "tradition": "Imperial and Juridical Christianity",
+  "role": "Bishop of Rome",
+  "briefLength": "about 2 minutes",
+  "keyWorks": [
+    {
+      "title": "Letters",
+      "about": "his letters to Constantius and to bishops, held in Latin in the dossier gathered by Hilary of Poitiers; some, which say he gave up Athanasius, are marked doubtful by their editor, Feder"
+    },
+    {
+      "title": "Letter to the Macedonian bishops",
+      "about": "quoted by Socrates of Constantinople"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Theodoret of Cyrrhus copies a record of his talk with Constantius into his Church History, to stir others to the same zeal.",
+      "Ambrose of Milan recalls the sermon he gave when Ambrose's sister took the veil."
+    ],
+    "remembered": [
+      "Theodoret of Cyrrhus: \"This victorious champion of the truth\".",
+      "Ammianus Marcellinus: the people of Rome, \"among whom he was exceedingly popular\".",
+      "Athanasius of Alexandria: he signed \"from fear of threatened death\", which shows \"the hatred of Liberius against the heresy\"."
+    ]
+  },
+  "uncertain": [
+    "What happened in exile is disputed. Athanasius, his ally, says he signed after two years from fear of death, and blames those who forced him. Jerome says that, worn out by exile, he signed heresy and entered Rome as if he had won, and in his Lives of Illustrious Men blames Fortunatianus. Sozomen says he signed a creed made at Sirmium, with his own statement added. Theodoret tells no lapse.",
+    "The letters in which he says he did not defend Athanasius survive in Latin in the dossier of Hilary of Poitiers, who adds his own angry notes to them. Feder, who edited the dossier, marks those letters as doubtful.",
+    "Who put Felix in his place is told several ways. Socrates says the party of Ursacius; Jerome says Acacius; the Book of the Popes, which its translator Loomis calls a medley of fact and legend, says Liberius himself.",
+    "Why he was recalled is told several ways: a riot, by Socrates; a Western embassy, by Sozomen; the noblewomen of Rome, by Theodoret.",
+    "Theodoret copies the talk with Constantius from a record kept by others. The place, Milan, is Blomfield Jackson's note.",
+    "His years as bishop, 352 to 366, are editors' dates."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Letters, in Hilary of Poitiers, Collectanea antiariana (ed. Feder)",
+        "language": "Latin",
+        "file": "cic/texts/hilary_collectanea-antiariana-parisina-fragmenta-historica-lat_feder1916-csel65.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Church History II.13-14 (tr. Blomfield Jackson)",
+        "author": "Theodoret of Cyrrhus",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+      },
+      {
+        "title": "History of the Arians",
+        "author": "Athanasius of Alexandria",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf204_athanasius-select-works-letters.xml"
+      },
+      {
+        "title": "Church History (Socrates); Church History (Sozomen)",
+        "author": "Socrates of Constantinople; Sozomen",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
+      }
+    ]
+  }
+}

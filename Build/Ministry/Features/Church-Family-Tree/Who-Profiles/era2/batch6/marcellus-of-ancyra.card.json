@@ -1,0 +1,70 @@
+{
+  "name": "Marcellus of Ancyra",
+  "knownFor": "Bishop of Ancyra in Galatia who opposed the Arians at Nicaea, was deposed for his teaching on the Son, was cleared by Julius of Rome and the Western bishops at Sardica, and was condemned by the Eastern bishops.",
+  "dates": "At the Council of Nicaea, by his own letter. Epiphanius of Salamis says he had died about two years before Epiphanius wrote. The year of his death, 374 by Blomfield Jackson's note or 372 or 374 by E. C. Richardson's, is an editors' date",
+  "place": "Ancyra in Galatia; Nicaea; Constantinople; Rome; Sardica",
+  "tradition": "Cappadocian Christianity",
+  "role": "Bishop",
+  "briefLength": "about 2 minutes",
+  "keyWorks": [
+    {
+      "title": "Letter to Julius of Rome",
+      "about": "his defence and creed, written in Rome; held only in Greek, in Epiphanius's Panarion 72"
+    },
+    {
+      "title": "Book against Asterius",
+      "about": "the book for which he was deposed; not held, and known through his opponents and the council that cleared him"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "The Council of Constantinople of 381 names the Marcellians in its first canon.",
+      "Socrates of Constantinople says Photinus of Sirmium was his disciple."
+    ],
+    "remembered": [
+      "The Western bishops at Sardica: \"he had written that His kingdom was both without beginning and without end\".",
+      "The Eastern bishops: \"the most execrable of all heretics\".",
+      "Epiphanius of Salamis: the hidden things of his mind are known to God."
+    ]
+  },
+  "uncertain": [
+    "His own letter survives only in Greek in the Panarion of Epiphanius of Salamis, who files the Marcellians among the heresies; the held scan is rough, so the brief quotes none of it.",
+    "What he taught is known mostly through opponents. Socrates of Constantinople and Sozomen give the charges, and Sozomen adds that some held he had only raised questions. The Western bishops at Sardica and Julius of Rome cleared him; the Eastern bishops and Basil of Caesarea condemned him.",
+    "Whether Athanasius of Alexandria broke with him is disputed. Epiphanius says Athanasius only smiled when asked. The dossier of Hilary of Poitiers says Athanasius refused him communion; E. W. Watson calls it \"notorious that he never did so\"; Archibald Robertson speaks of a personal estrangement.",
+    "Whether he came back to the truth at the end is disputed. Hefele, quoted in Henry Percival's edition, says he did. A Benedictine note in the edition of Basil's letters says he seems to have erred at the end of his life.",
+    "Eusebius of Caesarea's books against him are not held.",
+    "The card's tradition is the scan's, from the Library shelf where Epiphanius is held; it is not his party."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Letter to Julius, in Epiphanius, Panarion 72 (Migne, Patrologia Graeca 42)",
+        "language": "Greek and Latin",
+        "file": "cic/texts/epiphanius_panarion-haer-65-80-pg42-grc-lat_migne1863.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Church History (Socrates); Church History (Sozomen)",
+        "author": "Socrates of Constantinople; Sozomen",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
+      },
+      {
+        "title": "Defence against the Arians",
+        "author": "Athanasius of Alexandria, quoting Julius of Rome and the Council of Sardica",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf204_athanasius-select-works-letters.xml"
+      },
+      {
+        "title": "Panarion 72",
+        "author": "Epiphanius of Salamis",
+        "date": null,
+        "language": "Greek and Latin",
+        "file": "cic/texts/epiphanius_panarion-haer-65-80-pg42-grc-lat_migne1863.txt"
+      }
+    ]
+  }
+}
