@@ -1,0 +1,11 @@
+source_file: acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt
+assignments:
+- row_id: acta-sanctorum_martii-tomus-3-lat-grc_palme1865--stephen-the-sabaite-acts-of-the-twenty-martyrs-of-mar-saba
+  work: 'Stephen the Sabaite, Acts of the twenty martyrs of Mar Saba (AASS Mar. III)'
+  author: acta-sanctorum
+  locus: 'from about OCR line 50340'
+  atlas_ids:
+  - melkite-arabic-christianity
+  role: tradition
+  confidence: provisional
+  note: 'The monk''s own account of the killings at Mar Saba in 797 (census), in the Bollandists'' Latin.'

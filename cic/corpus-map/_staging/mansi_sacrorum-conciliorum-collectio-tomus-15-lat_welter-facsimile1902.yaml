@@ -1,0 +1,12 @@
+source_file: mansi_sacrorum-conciliorum-collectio-tomus-15-lat_welter-facsimile1902.txt
+assignments:
+- row_id: mansi_sacrorum-conciliorum-collectio-tomus-15-lat_welter-facsimile1902--mansi-xv-councils-of-855-869
+  work: 'Mansi XV: councils of 855-869'
+  author: mansi
+  locus: 'the whole volume'
+  atlas_ids:
+  - byzantine-imperial-church-macedonian
+  - carolingian-reform-christianity
+  role: tradition
+  confidence: provisional
+  note: 'The councils'' own acts, including Constantinople 861 and 867, inside these windows.'

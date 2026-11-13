@@ -1,0 +1,11 @@
+source_file: odo-cluny_occupatio-lat_swoboda1900.txt
+assignments:
+- row_id: odo-cluny_occupatio-lat_swoboda1900--odo-of-cluny-occupatio-swoboda-1900
+  work: 'Odo of Cluny, Occupatio (Swoboda 1900)'
+  author: odo-cluny
+  locus: 'the whole text; add 12 to OCR line numbers'
+  atlas_ids:
+  - cluniac-reform-monasticism
+  role: tradition
+  confidence: provisional
+  note: 'The abbot''s own poem, inside this window.'

@@ -1,0 +1,11 @@
+source_file: benedict-aniane_concordia-regularum-with-ardo-vita-pl103-lat_migne1851.txt
+assignments:
+- row_id: benedict-aniane_concordia-regularum-with-ardo-vita-pl103-lat_migne1851--benedict-of-aniane-concordia-regularum-ardo-vita-benedicti
+  work: 'Benedict of Aniane, Concordia regularum; Ardo, Vita Benedicti (PL 103)'
+  author: benedict-aniane
+  locus: 'the whole volume'
+  atlas_ids:
+  - carolingian-reform-christianity
+  role: tradition
+  confidence: provisional
+  note: 'Benedict''s own Concordia and Ardo''s Life of him, inside this window (Benedict d. 821, census).'

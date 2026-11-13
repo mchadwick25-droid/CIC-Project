@@ -1,0 +1,11 @@
+source_file: theophylact-ohrid_opera-t4-with-vita-clementis-pg126-grc-lat_migne1864.txt
+assignments:
+- row_id: theophylact-ohrid_opera-t4-with-vita-clementis-pg126-grc-lat_migne1864--life-of-clement-of-ohrid-pg-126-appendix
+  work: 'Life of Clement of Ohrid (PG 126, appendix)'
+  author: theophylact-ohrid
+  locus: 'from about OCR line 96746'
+  atlas_ids:
+  - cyrillo-methodian-slavic-christianity
+  role: tradition
+  confidence: needs-ruling
+  note: 'The Life of Clement; the volume''s heading does not date its writing against this window.'

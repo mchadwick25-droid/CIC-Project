@@ -1,0 +1,22 @@
+source_file: john-damascus_opera-omnia-t1-with-vita-pg94-grc-lat_migne1860.txt
+assignments:
+- row_id: john-damascus_opera-omnia-t1-with-vita-pg94-grc-lat_migne1860--john-of-damascus-works-pg-94
+  work: 'John of Damascus, works (PG 94)'
+  author: john-damascus
+  locus: 'the whole volume except the Vita'
+  atlas_ids:
+  - byzantine-imperial-church-heraclian-iconoclast
+  - iconophile-byzantine-monasticism
+  - melkite-arabic-christianity
+  role: tradition
+  confidence: provisional
+  note: 'John of Damascus''s own works, written in these entries'' windows by the census''s dating of him (c.675-749).'
+- row_id: john-damascus_opera-omnia-t1-with-vita-pg94-grc-lat_migne1860--john-of-jerusalem-life-of-john-of-damascus-pg-94-cols-429
+  work: 'John of Jerusalem, Life of John of Damascus (PG 94, cols. 429-490)'
+  author: john-damascus
+  locus: 'from about OCR line 30172'
+  atlas_ids:
+  - melkite-arabic-christianity
+  role: tradition
+  confidence: needs-ruling
+  note: 'The hagiographer''s Life. Its date of writing is not given in this volume''s heading, so its window is the tree''s question.'

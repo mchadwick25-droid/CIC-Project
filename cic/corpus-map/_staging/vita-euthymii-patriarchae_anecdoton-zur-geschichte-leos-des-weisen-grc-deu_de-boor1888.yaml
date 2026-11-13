@@ -1,0 +1,11 @@
+source_file: vita-euthymii-patriarchae_anecdoton-zur-geschichte-leos-des-weisen-grc-deu_de-boor1888.txt
+assignments:
+- row_id: vita-euthymii-patriarchae_anecdoton-zur-geschichte-leos-des-weisen-grc-deu_de-boor1888--vita-euthymii-de-boor-1888
+  work: 'Vita Euthymii (de Boor 1888)'
+  author: vita-euthymii-patriarchae
+  locus: 'the Greek text; add 12 to OCR line numbers'
+  atlas_ids:
+  - byzantine-imperial-church-macedonian
+  role: tradition
+  confidence: needs-ruling
+  note: 'A Life of Patriarch Euthymios; its date of writing is not given on the title page.'

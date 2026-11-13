@@ -1,0 +1,11 @@
+source_file: odilo-cluny_opera-with-jotsald-vita-odilonis-pl142-lat_migne1853.txt
+assignments:
+- row_id: odilo-cluny_opera-with-jotsald-vita-odilonis-pl142-lat_migne1853--odilo-of-cluny-sermons-jotsald-vita-odilonis-pl-142
+  work: 'Odilo of Cluny, sermons; Jotsald, Vita Odilonis (PL 142)'
+  author: odilo-cluny
+  locus: 'from about OCR line 74093'
+  atlas_ids:
+  - cluniac-reform-monasticism
+  role: tradition
+  confidence: provisional
+  note: 'Odilo''s own sermons and Jotsald''s Life of him (abbot to 1049, census).'

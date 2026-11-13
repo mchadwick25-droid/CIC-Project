@@ -1,0 +1,11 @@
+source_file: nicholas-mystikos_epistolae-with-eutychius-alexandrinus-pg111-grc-lat_migne1863.txt
+assignments:
+- row_id: nicholas-mystikos_epistolae-with-eutychius-alexandrinus-pg111-grc-lat_migne1863--nicholas-i-mystikos-letters-pg-111
+  work: 'Nicholas I Mystikos, Letters (PG 111)'
+  author: nicholas-mystikos
+  locus: 'from about OCR line 1112'
+  atlas_ids:
+  - byzantine-imperial-church-macedonian
+  role: tradition
+  confidence: provisional
+  note: 'The patriarch''s own letters, inside this window (patriarch 901-907 and 912-925, census).'

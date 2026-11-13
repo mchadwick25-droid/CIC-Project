@@ -12,3 +12,20 @@ works:
   note: The Georgian conversion narrative in its 9th- and 10th-century redactions. Placed
     on that window.
   source_file: studia-biblica-et-ecclesiastica-v5-life-of-st-nino_wardrop1903.txt
+- row_id: peeters_histoires-monastiques-georgiennes-in-analecta-bollandiana-36-37-lat-fra_1917-1919--giorgi-merchule-life-of-grigol-of-khandzta-latin-tr-peeters
+  work: Giorgi Merchule, Life of Grigol of Khandzta, Latin tr. Peeters
+  author: peeters
+  locus: from about OCR line 11982; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  note: The Klarjeti monk's Life of the founder, written in 951 (census), inside this window.
+  source_file: peeters_histoires-monastiques-georgiennes-in-analecta-bollandiana-36-37-lat-fra_1917-1919.txt
+- row_id: peeters_histoires-monastiques-georgiennes-in-analecta-bollandiana-36-37-lat-fra_1917-1919--life-of-john-and-euthymius-life-of-george-the-hagiorite
+  work: Life of John and Euthymius; Life of George the Hagiorite, Latin tr. Peeters
+  author: peeters
+  locus: from about OCR line 402; add 12 to OCR line numbers
+  role: tradition
+  confidence: needs-ruling
+  note: The Iviron Lives; their dates of writing against these two windows are the tree's
+    question.
+  source_file: peeters_histoires-monastiques-georgiennes-in-analecta-bollandiana-36-37-lat-fra_1917-1919.txt

@@ -1,0 +1,11 @@
+source_file: eulogius-cordoba_opera-with-alvarus-vita-eulogii-pl115-lat_migne1852.txt
+assignments:
+- row_id: eulogius-cordoba_opera-with-alvarus-vita-eulogii-pl115-lat_migne1852--eulogius-memoriale-sanctorum-documentum-martyriale-liber
+  work: 'Eulogius, Memoriale sanctorum, Documentum martyriale, Liber apologeticus; Alvarus, Vita Eulogii (PL 115)'
+  author: eulogius-cordoba
+  locus: 'from about OCR line 56608'
+  atlas_ids:
+  - mozarabic-christianity
+  role: tradition
+  confidence: provisional
+  note: 'Eulogius''s own works and Alvarus''s Life of him, inside this window (Eulogius d. 859, census).'

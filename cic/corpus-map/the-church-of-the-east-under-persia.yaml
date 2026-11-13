@@ -223,6 +223,15 @@ works:
 
     '
   source_file: evagrius-scholasticus_ecclesiastical-history_walford1846.txt
+- row_id: ishoyahb-iii_liber-epistularum-versio-lat_duval-csco1905--ishoyahb-iii-liber-epistularum-tr-duval-1905
+  work: Ishoyahb III, Liber epistularum, tr. Duval (1905)
+  author: ishoyahb-iii
+  locus: the whole text; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  note: The catholicos's own letters. They fall on both sides of 651; which letter belongs
+    to which window is not settled here.
+  source_file: ishoyahb-iii_liber-epistularum-versio-lat_duval-csco1905.txt
 - row_id: john-ephesus_lives-eastern-saints-po17_brooks1923--life-10-simeon-beth-arsham-persian-debater
   work: 'Lives of the Eastern Saints 10 (Simeon of Beth Arsham, the Persian Debater: his disputes
     with the Catholicos Babai before the Persian king, c. 499-504)'

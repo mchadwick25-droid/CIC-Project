@@ -1,0 +1,20 @@
+source_file: mansi_sacrorum-conciliorum-collectio-tomus-14-lat_welter-facsimile1902.txt
+assignments:
+- row_id: mansi_sacrorum-conciliorum-collectio-tomus-14-lat_welter-facsimile1902--mansi-xiv-councils-of-803-852
+  work: 'Mansi XIV: councils of 803-852'
+  author: mansi
+  locus: 'the whole volume'
+  atlas_ids:
+  - carolingian-reform-christianity
+  role: tradition
+  confidence: provisional
+  note: 'The councils'' own acts and canons, inside this window.'
+- row_id: mansi_sacrorum-conciliorum-collectio-tomus-14-lat_welter-facsimile1902--mansi-xiv-the-council-of-cordoba-852
+  work: 'Mansi XIV: the council of Cordoba (852)'
+  author: mansi
+  locus: 'about OCR line 102257'
+  atlas_ids:
+  - mozarabic-christianity
+  role: tradition
+  confidence: provisional
+  note: 'The council''s own record, inside this window.'

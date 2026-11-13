@@ -64,6 +64,15 @@ works:
 
     '
   source_file: mansi_sacrorum-conciliorum-collectio-tomus-10-lat_welter-facsimile1901.txt
+- row_id: john-damascus_opera-omnia-t1-with-vita-pg94-grc-lat_migne1860--john-of-damascus-works-pg-94
+  work: John of Damascus, works (PG 94)
+  author: john-damascus
+  locus: the whole volume except the Vita
+  role: tradition
+  confidence: provisional
+  note: John of Damascus's own works, written in these entries' windows by the census's dating
+    of him (c.675-749).
+  source_file: john-damascus_opera-omnia-t1-with-vita-pg94-grc-lat_migne1860.txt
 - row_id: mansi_sacrorum-conciliorum-collectio-tomus-11-lat_welter-facsimile1901--sophronius-of-jerusalem-synodical-letter-634-as-read-at-constantinople
   work: Sophronius of Jerusalem, Synodical Letter (634), as read at Constantinople III (Mansi
     XI)
@@ -91,6 +100,14 @@ works:
 
     '
   source_file: maximus-confessor_relatio-motionis-disputatio-bizyae-grc-lat_migne-pg90.txt
+- row_id: nikephoros-cp_opera-with-vita-stephani-iunioris-pg100-grc-lat_migne1860--nikephoros-of-constantinople-breviarium-antirrhetici
+  work: Nikephoros of Constantinople, Breviarium, Antirrhetici, Apologeticus (PG 100)
+  author: nikephoros-cp
+  locus: the whole volume except the Life of Stephen
+  role: tradition
+  confidence: provisional
+  note: The patriarch's own writings, inside these windows by the census's dating of him (c.758-828).
+  source_file: nikephoros-cp_opera-with-vita-stephani-iunioris-pg100-grc-lat_migne1860.txt
 - row_id: john-moschus_pratum-spirituale-sophronius-opera-grc-lat_migne-pg87-3--sophronius-synodical-letter-and-works
   work: Sophronius of Jerusalem, Epistola synodica ad Sergium (634), Orationes, Miracula Cyri
     et Joannis, Vita Mariae Aegyptiacae, Anacreontica
@@ -106,3 +123,37 @@ works:
 
     '
   source_file: john-moschus_pratum-spirituale-sophronius-opera-grc-lat_migne-pg87-3.txt
+- row_id: tabari_annales-prima-series-iv-ara-lat_de-goeje1890--al-tabari-annales-prima-series-iv
+  work: al-Tabari, Annales, prima series IV
+  author: tabari
+  locus: the whole volume; add 12 to OCR line numbers
+  role: context
+  confidence: provisional
+  note: A Muslim historian (839-923, census) on the conquests of Syria and Iraq, from the
+    conquerors' side; outside witness.
+  source_file: tabari_annales-prima-series-iv-ara-lat_de-goeje1890.txt
+- row_id: tabari_annales-prima-series-v-ara-lat_de-goeje1893--al-tabari-annales-prima-series-v
+  work: al-Tabari, Annales, prima series V
+  author: tabari
+  locus: the whole volume; add 12 to OCR line numbers
+  role: context
+  confidence: provisional
+  note: A Muslim historian (839-923, census) on the conquests of Syria and Iraq, from the
+    conquerors' side; outside witness.
+  source_file: tabari_annales-prima-series-v-ara-lat_de-goeje1893.txt
+- row_id: theodore-studite_opera-omnia-pg99-grc-lat_migne1860--theodore-the-studite-antirrhetici-letters-and-other-works-pg
+  work: Theodore the Studite, Antirrhetici, Letters and other works (PG 99)
+  author: theodore-studite
+  locus: the whole volume except the Vita
+  role: tradition
+  confidence: provisional
+  note: His own writings, inside these windows by the census's dating of him (759-826).
+  source_file: theodore-studite_opera-omnia-pg99-grc-lat_migne1860.txt
+- row_id: theophanes-confessor_chronographia-pg108-grc-lat_migne1863--theophanes-the-confessor-chronographia-pg-108
+  work: Theophanes the Confessor, Chronographia (PG 108)
+  author: theophanes-confessor
+  locus: from about OCR line 3707
+  role: tradition
+  confidence: provisional
+  note: A monk inside the church writing in this window, by the census's dating of him (c.760-818).
+  source_file: theophanes-confessor_chronographia-pg108-grc-lat_migne1863.txt

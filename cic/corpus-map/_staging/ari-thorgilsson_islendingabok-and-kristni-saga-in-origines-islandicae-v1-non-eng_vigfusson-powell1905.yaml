@@ -1,0 +1,11 @@
+source_file: ari-thorgilsson_islendingabok-and-kristni-saga-in-origines-islandicae-v1-non-eng_vigfusson-powell1905.txt
+assignments:
+- row_id: ari-thorgilsson_islendingabok-and-kristni-saga-in-origines-islandicae-v1-non-eng_vigfusson-powell1905--ari-islendingabok-kristni-saga-origines-islandicae-i
+  work: 'Ari, Íslendingabók; Kristni saga (Origines Islandicae I)'
+  author: ari-thorgilsson
+  locus: 'from about OCR line 19869; add 12 to OCR line numbers'
+  atlas_ids:
+  - scandinavian-conversion-christianity
+  role: context
+  confidence: provisional
+  note: 'Ari writes in 1122-1133 (the era 4 audit), after this window''s end in 1104, about the conversion of 999-1000.'

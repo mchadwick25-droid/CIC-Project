@@ -1,0 +1,11 @@
+source_file: odo-cluny_opera-with-john-of-salerno-vita-odonis-pl133-lat_migne1853.txt
+assignments:
+- row_id: odo-cluny_opera-with-john-of-salerno-vita-odonis-pl133-lat_migne1853--odo-of-cluny-collationes-vita-geraldi-sermons-john-of
+  work: 'Odo of Cluny, Collationes, Vita Geraldi, sermons; John of Salerno, Vita Odonis (PL 133)'
+  author: odo-cluny
+  locus: 'the whole volume'
+  atlas_ids:
+  - cluniac-reform-monasticism
+  role: tradition
+  confidence: provisional
+  note: 'Odo''s own works and John of Salerno''s Life of him, inside this window.'

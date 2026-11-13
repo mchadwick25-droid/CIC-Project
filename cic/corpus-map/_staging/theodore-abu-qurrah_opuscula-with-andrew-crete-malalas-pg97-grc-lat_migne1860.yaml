@@ -1,0 +1,11 @@
+source_file: theodore-abu-qurrah_opuscula-with-andrew-crete-malalas-pg97-grc-lat_migne1860.txt
+assignments:
+- row_id: theodore-abu-qurrah_opuscula-with-andrew-crete-malalas-pg97-grc-lat_migne1860--theodore-abu-qurrah-greek-opuscula-pg-97-cols-1445ff
+  work: 'Theodore Abu Qurrah, Greek opuscula (PG 97, cols. 1445ff)'
+  author: theodore-abu-qurrah
+  locus: 'from about OCR line 121366'
+  atlas_ids:
+  - melkite-arabic-christianity
+  role: tradition
+  confidence: provisional
+  note: 'The bishop''s own writings, inside this window by the census''s dating of him (c.795-c.815).'

@@ -1,0 +1,21 @@
+source_file: theodore-studite_opera-omnia-pg99-grc-lat_migne1860.txt
+assignments:
+- row_id: theodore-studite_opera-omnia-pg99-grc-lat_migne1860--theodore-the-studite-antirrhetici-letters-and-other-works-pg
+  work: 'Theodore the Studite, Antirrhetici, Letters and other works (PG 99)'
+  author: theodore-studite
+  locus: 'the whole volume except the Vita'
+  atlas_ids:
+  - iconophile-byzantine-monasticism
+  - byzantine-imperial-church-heraclian-iconoclast
+  role: tradition
+  confidence: provisional
+  note: 'His own writings, inside these windows by the census''s dating of him (759-826).'
+- row_id: theodore-studite_opera-omnia-pg99-grc-lat_migne1860--michael-the-monk-life-of-theodore-the-studite-pg-99-col-233
+  work: 'Michael the Monk, Life of Theodore the Studite (PG 99, col. 233)'
+  author: theodore-studite
+  locus: 'from about OCR line 18804'
+  atlas_ids:
+  - iconophile-byzantine-monasticism
+  role: tradition
+  confidence: needs-ruling
+  note: 'The hagiographer''s Life; its date of writing is not given in its heading.'
