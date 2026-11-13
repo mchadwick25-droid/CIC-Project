@@ -1,0 +1,85 @@
+{
+  "name": "Hilary of Poitiers",
+  "otherNames": [
+    "Hilarius (the Latin form; Hilary of Pictavium in Jerome)"
+  ],
+  "knownFor": "The leading Latin defender of the Nicene faith in the West, bishop of Poitiers, exiled under Constantius, and author of On the Trinity.",
+  "dates": "Born about 300; bishop by 356; died about 367",
+  "place": "Poitiers, in Aquitania, in Gaul",
+  "tradition": "Gallic Nicene",
+  "role": "Bishop and theologian",
+  "briefLength": "about 2 minutes 30 seconds",
+  "keyWorks": [
+    {
+      "title": "On the Trinity",
+      "about": "twelve books against the Arians, begun in exile; Jerome counts twelve, and Watson treats it as his chief work"
+    },
+    {
+      "title": "On the Councils",
+      "about": "a letter to the bishops of Gaul; Watson says it argued that the newer Eastern creeds could be read in an orthodox sense"
+    },
+    {
+      "title": "To Constantius; On Constantius; Against Auxentius",
+      "about": "his writings on the emperor's church policy and against the Arian bishop of Milan, which Jerome lists"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "The Nicene cause in Gaul, which Sulpicius Severus credits him with clearing of heresy after Ariminum."
+    ],
+    "remembered": [
+      "Augustine of Hippo named him with Cyprian of Carthage and Lactantius as men who brought the learning of the pagan world into the church.",
+      "Orosius, Watson notes, ranked him within a generation of his death with Cyprian and Ambrose as one of the three chief glories of Western Christendom."
+    ]
+  },
+  "uncertain": [
+    "Watson, who wrote the life in the English edition, warns that Hilary's own account of his search for God in On the Trinity is too neatly shaped to read as literal history, though it shows a real search.",
+    "Little of his life is dated firmly. Watson puts his birth about 300, from Hilary's own words rather than any record, and his death in 367, following Sulpicius Severus's \"sixth year after his return\".",
+    "Hilary is silent about himself and is never named in all the works of Athanasius, Watson notes, so the narrative is short and drawn mostly from Hilary's own writings.",
+    "His legendary daughter Abra, named in a letter once printed with his works, is now generally abandoned, Watson says."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "On the Trinity; On the Councils; homilies and shorter works (tr. E. W. Watson, L. Pullan and others)",
+        "language": "English",
+        "file": "cic/texts/npnf209_hilary-poitiers-john-damascus.xml"
+      },
+      {
+        "title": "Collected anti-Arian fragments (Collectanea antiariana Parisina)",
+        "language": "Latin",
+        "file": "cic/texts/hilary_collectanea-antiariana-parisina-fragmenta-historica-lat_feder1916-csel65.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "The Life and Writings of St. Hilary of Poitiers (the introduction to the English edition)",
+        "author": "E. W. Watson",
+        "date": null,
+        "language": "English",
+        "file": "cic/texts/npnf209_hilary-poitiers-john-damascus.xml"
+      },
+      {
+        "title": "Chronicle (Sacred History), Book 2 (the councils, the exile and the return)",
+        "author": "Sulpicius Severus",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml"
+      },
+      {
+        "title": "Lives of Illustrious Men 100",
+        "author": "Jerome of Strido",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+      },
+      {
+        "title": "On Christian Doctrine, Book 2, chapter 40 (the gold of Egypt)",
+        "author": "Augustine of Hippo",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf102_augustine-city-of-god-christian-doctrine.xml"
+      }
+    ]
+  }
+}

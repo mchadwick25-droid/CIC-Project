@@ -1,0 +1,65 @@
+{
+  "name": "Pachomius",
+  "otherNames": [
+    "Pachomius of Tabennisi"
+  ],
+  "knownFor": "The Egyptian monk who founded communal monasticism, binding monks under a common rule in houses rather than scattered cells.",
+  "dates": "Born about 292, died 348 (the dates in the editor's note to Gennadius's chapter)",
+  "place": "Tabennisi, in the Thebaid of Upper Egypt",
+  "tradition": "Desert Monasticism (Pachomian)",
+  "role": "Monk and founder of communal monasticism",
+  "briefLength": "about 2 minutes 30 seconds",
+  "keyWorks": [
+    {
+      "title": "The Rule of Pachomius",
+      "about": "the common life of the houses, reported by Palladius and Sozomen and surviving in several later collections, among them an Ethiopic version"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Communal monasteries bound by a shared rule, which Palladius counts at seven thousand monks under the rule in his own day.",
+      "A rule for women's houses, which Palladius and the Ethiopic version both record living across the river from the men."
+    ],
+    "remembered": [
+      "George Schodde, translating the Ethiopic rules in 1885, opens by calling Pachomius \"the father of monastic institutions.\"",
+      "Gennadius, in Jerome's On Illustrious Men, calls him \"a man endowed with apostolic grace both in teaching and in performing miracles.\""
+    ]
+  },
+  "uncertain": [
+    "Pachomius left no writing of his own that is held here. His life and rule reach us through Palladius, who wrote about 420, some forty years after Pachomius died, and through Sozomen, who follows Palladius.",
+    "Palladius and Sozomen both say an angel gave Pachomius the rule on a tablet. Lowther Clarke, who translated Palladius, reports that Ladeuze held the Greek Lives of Pachomius more reliable than the rule, thought the angel legendary, and took the lettered groups for Palladius's own invention. Butler disagreed and called Palladius's version \"probably the most authentic epitome.\"",
+    "The rule survives in several collections that differ from one another. George Schodde judged that the first part of the Ethiopic version reaches back \"almost to the days of Pachomius himself,\" while its later parts are of different and uncertain origin."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "The Rules of Pachomius (tr. George H. Schodde, from the Ethiopic)",
+        "language": "English",
+        "file": "cic/texts/pachomius_rules-ethiopic_schodde1885.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "The Lausiac History, chapters 18 and 32 (tr. W. K. Lowther Clarke)",
+        "author": "Palladius of Helenopolis",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/palladius_lausiac-history_clarke1918.txt"
+      },
+      {
+        "title": "Ecclesiastical History, Book 3, chapter 14",
+        "author": "Sozomen",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
+      },
+      {
+        "title": "On Illustrious Men, chapter 7 (Gennadius's continuation)",
+        "author": "Gennadius of Marseilles",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+      }
+    ]
+  }
+}

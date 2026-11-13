@@ -1,0 +1,71 @@
+{
+  "name": "Lucifer of Cagliari",
+  "otherNames": [
+    "Luciferus; Lucifer Calaritanus (the Latin forms; Calaris is Cagliari)"
+  ],
+  "knownFor": "The bishop of Cagliari who defied the emperor over Athanasius, and whose refusal to forgive former Arians began the Luciferian schism.",
+  "dates": "Bishop by 353; died about 370 or 371",
+  "place": "Cagliari, in Sardinia",
+  "tradition": "Luciferian",
+  "role": "Bishop, polemicist and leader of a schism",
+  "briefLength": "about 2 minutes",
+  "keyWorks": [
+    {
+      "title": "Pamphlets against Constantius (On Apostate Kings; On not holding communion with heretics; and others)",
+      "about": "the hard Nicene attacks on the emperor's church policy, written in exile; the Latin texts survive"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "The Luciferian party, which broke with the wider church over whether former Arians could be forgiven; Jerome says it outlived him, and Theodoret of Cyrrhus says it later faded."
+    ],
+    "remembered": [
+      "Jerome wrote a Dialogue against the Luciferians about 379, granting Lucifer's courage against the Arians while rejecting his schism.",
+      "His consecration of Paulinus at Antioch, Socrates of Constantinople says, deepened a split there that lasted for years."
+    ]
+  },
+  "uncertain": [
+    "How far Lucifer was a true schismatic is not clear. Jerome calls him a good shepherd and a saintly man, yet blames the schism on him; Ambrose and Augustine, Fremantle's edition notes, speak of him as having fallen into schism.",
+    "His date of death is given as about 370 or 371; Jerome's Chronicle gives 371.",
+    "The reports that he acted out of love of glory, or out of a grudge against Eusebius of Vercelli, Jerome says he does not believe."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Opuscula (the pamphlets written in exile)",
+        "language": "Latin",
+        "file": "cic/texts/lucifer-cagliari_opuscula-lat_hartel1886-csel14.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Lives of Illustrious Men 95",
+        "author": "Jerome of Strido",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+      },
+      {
+        "title": "The Dialogue Against the Luciferians, with Fremantle's introduction",
+        "author": "Jerome of Strido",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf206_jerome-principal-works.xml"
+      },
+      {
+        "title": "Ecclesiastical History, Book 3, chapters 6 and 9 (Antioch and the Luciferians)",
+        "author": "Socrates of Constantinople",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
+      },
+      {
+        "title": "Ecclesiastical History, Book 3, chapters 4 and 5 (the exile, Antioch and the schism)",
+        "author": "Theodoret of Cyrrhus",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+      }
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "name": "Melitius of Lycopolis",
+  "otherNames": [
+    "Meletius (the usual spelling in the Greek and Latin writers)"
+  ],
+  "knownFor": "An Egyptian bishop whose quarrel with Peter of Alexandria over the lapsed led to a long schism, the Church of the Martyrs.",
+  "dates": "Bishop of Lycopolis; deposed about 306; died after the Council of 325",
+  "place": "Lycopolis, in the Thebaid of Upper Egypt",
+  "tradition": "The Melitian Schism",
+  "role": "Bishop and schism leader",
+  "briefLength": "about 2 minutes",
+  "keyWorks": [
+    {
+      "title": "A list of his clergy, presented to Bishop Alexander",
+      "about": "the one surviving piece of his own, a schedule of his bishops, presbyters and deacons, kept in Athanasius's Defence against the Arians"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "The Melitian churches, which called themselves the Church of the Martyrs. H. Idris Bell traces Melitian monks in Egypt into the eighth century."
+    ],
+    "remembered": [
+      "Epiphanius of Salamis tells of the prison during the Great Persecution, where Peter of Alexandria hung a cloak like a curtain and most of the clergy went to Melitius's side.",
+      "The Council of Nicaea in 325 left him the title of bishop but took away his right to ordain."
+    ]
+  },
+  "uncertain": [
+    "Athanasius of Alexandria wrote that Peter deposed Melitius for many crimes, among them offering sacrifice to idols. H. Idris Bell, who published the Melitian papyri in 1924, doubts the charge, since it came readily to quarrelling churchmen after a persecution. Bell and Archibald Robertson both hold that the schism began over church discipline, not doctrine.",
+    "The two main accounts differ. The contemporary letters of the four bishops and of Peter describe the quarrel over ordinations. Epiphanius of Salamis, writing about seventy years later, tells the prison scene and the order of events differently. Bell holds that both can be reconciled as stages of one schism.",
+    "His birth and the year of his death are not given in a held source. He died after the Council of 325, since near his end he named John as his successor, against the council's decree."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "A schedule of his clergy, in Defence against the Arians 71 (his list, kept by Athanasius)",
+        "language": "English translation",
+        "file": "cic/texts/npnf204_athanasius-select-works-letters.xml"
+      }
+    ],
+    "about": [
+      {
+        "title": "The letter of the four bishops to Melitius, and the letter of Peter of Alexandria to his flock",
+        "author": "Phileas of Thmuis and others; Peter of Alexandria",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/anf06_gregory-thaumaturgus-dionysius-julius-africanus-methodius-arnobius.xml"
+      },
+      {
+        "title": "Defence against the Arians, with Robertson's notes on the Melitian account",
+        "author": "Athanasius of Alexandria",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf204_athanasius-select-works-letters.xml"
+      },
+      {
+        "title": "Panarion 68 (the Melitians), in Oehler's Greek-and-Latin edition",
+        "author": "Epiphanius of Salamis",
+        "date": null,
+        "language": "Latin translation",
+        "file": "cic/texts/epiphanius_panarion-haer-48-69-corpus-haereseologicum-t2-pars-posterior-grc-lat_oehler1860.txt"
+      },
+      {
+        "title": "Church History, Book 1, with the Council of Nicaea's letter on Melitius; Sozomen on his successor",
+        "author": "Socrates of Constantinople; Sozomen",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
+      },
+      {
+        "title": "Jews and Christians in Egypt: the Meletian papyri and their commentary",
+        "author": "H. Idris Bell",
+        "date": "1924",
+        "language": "English",
+        "file": "cic/texts/bell_jews-christians-egypt-meletian-papyri_1924.txt"
+      }
+    ]
+  }
+}

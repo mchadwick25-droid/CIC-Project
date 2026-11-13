@@ -1,0 +1,67 @@
+{
+  "name": "Antony the Great",
+  "otherNames": [
+    "Antony of Egypt",
+    "Antony the Abbot"
+  ],
+  "knownFor": "The Egyptian hermit whose withdrawal to the desert, and the Life written of him, drew the first monks after him and spread monasticism east and west.",
+  "dates": "About 251 to 356, by the Life of Antony",
+  "place": "Coma, in Upper Egypt, and the Egyptian desert",
+  "tradition": "Desert Monasticism",
+  "role": "Hermit and father of the desert monks",
+  "briefLength": "about 2 minutes 30 seconds",
+  "keyWorks": [
+    {
+      "title": "Seven Letters",
+      "about": "letters in Coptic to various monasteries, which Jerome lists in his book on illustrious men; not held here"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Monks who settled the Egyptian desert in his lifetime, so that the Life says \"the desert was colonised by monks.\"",
+      "A pattern of withdrawal that spread west: Augustine of Hippo recounts in his Confessions how reading of Antony turned two court officials, and himself, toward renouncing the world."
+    ],
+    "remembered": [
+      "The Life of Antony, long read as the work of Athanasius of Alexandria, carried his name across the Latin West.",
+      "Jerome of Strido modelled his own Life of Hilarion on it, and Robertson notes it \"kindled the flame of monastic aspirations\" at Rome and across the West."
+    ]
+  },
+  "uncertain": [
+    "Antony's life is known chiefly from the Life of Antony, a work of praise. Archibald Robertson, its editor, grants there is \"idealisation, panegyric\" in it.",
+    "Who wrote the Life is disputed. The church has long given it to Athanasius of Alexandria. Robertson holds the dispute open but judges \"the external evidence for the Vita is too strong to allow us to set it aside as spurious.\" He also records that Gwatkin went so far as to pronounce that Antony \"never existed,\" and calls that far ahead of the evidence.",
+    "The seven Coptic letters survive, but are not held in this Library, so Antony's own voice cannot be checked here against the Life."
+  ],
+  "sources": {
+    "ownWords": [],
+    "about": [
+      {
+        "title": "Life of Antony (tr. H. Ellershaw; introduction by Archibald Robertson)",
+        "author": "attributed to Athanasius of Alexandria",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf204_athanasius-select-works-letters.xml"
+      },
+      {
+        "title": "Ecclesiastical History, Book 1, chapter 13 (Antony's birthplace of Coma)",
+        "author": "Sozomen",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
+      },
+      {
+        "title": "On Illustrious Men, chapter 88, and the Confessions, Book 8",
+        "author": "Jerome of Strido; Augustine of Hippo",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+      },
+      {
+        "title": "Confessions, Book 8, chapters 6 and 12 (Antony's Life read at the court)",
+        "author": "Augustine of Hippo",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf101_augustine-confessions-letters.xml"
+      }
+    ]
+  }
+}
