@@ -411,9 +411,16 @@
   "title": "Support the tree",
   "sections": [
    {
-    "heading": "Help keep the tree free",
+    "heading": "Partner with us",
     "paragraphs": [
-     "The tree is free for everyone. Voluntary contributions help cover development and operational costs:"
+     "We ask you to prayerfully consider partnering with us, so that people everywhere can explore the two-thousand-year story of the Church, built from the sources, documents and testimonies they left behind."
+    ],
+    "extra": "give"
+   },
+   {
+    "heading": "What contributions cover",
+    "paragraphs": [
+     "Voluntary contributions help cover development and operational costs:"
     ],
     "list": [
      "hosting",
@@ -425,8 +432,7 @@
     ],
     "after": [
      "Church Family Tree is part of Faithways Studio, Inc., a Colorado public benefit corporation — not a nonprofit. Contributions are not tax-deductible."
-    ],
-    "extra": "give"
+    ]
    },
    {
     "heading": "Ways to help that cost nothing",
