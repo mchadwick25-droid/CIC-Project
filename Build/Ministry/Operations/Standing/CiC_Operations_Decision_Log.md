@@ -178,3 +178,15 @@ The longer paragraphs and the ElevenLabs name are removed. The generator test no
 **One list everywhere, the same day (project lead).** "i dont like the dual perspectives one place we say pay for research and publishing other place is a different list", then "a". The six lines of the tree support page ("What your payment supports") are now the one list. The license page's costs list uses them under "Fees and voluntary support pay for:". The Terms give them in one sentence: "Voluntary support pays for primary-source research, scholarly review, audio narration, translations, hosting, and the people who research, write, and maintain the platform."
 
 **Short where we ask, full where we explain (project lead).** "i dont mind shortening or sumerizing the list like operations for those things in the asks and longer in the detail, but they must align", then "a". The Terms now summarise the same six items in the same order: "Voluntary support pays for the research, scholarly review, narration, translation, hosting and people behind our work." The support page and the license page keep the full six lines.
+
+## 2026-11-13 - 15. The account register is kept privately, with two named backups
+
+**Project lead.** On where it lives: "i think b for now and i will update later if needed". He named two backups in order, the first and then a second. Their names are recorded in the register, not here.
+
+**Decision.** The account register is a private claude.ai document, outside this repository. This repository is public, and a list of the accounts and their login emails would show an attacker what to target. The register lists each service, what it runs, the login email, whose name it is in, how it is paid, whether two-step login is on, and whether the first backup can get in. It also lists the four domains and gives the backups a short plan if the project lead is unavailable. It holds no passwords, keys or recovery codes. A password manager with emergency access is the recommended later step.
+
+## 2026-11-13 - 16. "Help us grow" in place of "Support the tree"
+
+**Project lead.** "on the main page lets not have support the tree, its catchy but not on target, what about something like help us grow", then "a".
+
+**Decision.** "Help us grow" is now the label in four places: the tree's header menu and footer on every page (`Build/tools/generate_tree_pages.mjs`), the support page's title (`Build/tools/tree_site_pages.json`), and the map's home-page link (`cft-website/index.html`). The same change gives the map's key footer the copyright line and a Terms link. That footer still said "A Faithways Studio project", which decision 1 had missed because the map page is built separately.
