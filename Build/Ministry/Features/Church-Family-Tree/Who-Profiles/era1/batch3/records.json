@@ -1,0 +1,174 @@
+{
+  "peter-of-alexandria": {
+    "claims": [
+      {
+        "claim": "Bishop of Alexandria after Theonas, from about 300; less than three years before the persecution",
+        "witness": "Eusebius, Church History VII.32, IX.6; Jerome, Chronicle",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Wrote canons in 306 on receiving the lapsed, and would not condemn those who fled",
+        "witness": "Peter, Canonical Epistle (anf06), Canons I and XIII",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Broke with Meletius of Lycopolis; wrote to Alexandria to hold no communion with him",
+        "witness": "Peter, Letter to the Church at Alexandria (anf06); letter of the four bishops (anf06)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Meletius was removed by a council under Peter for crimes including sacrifice to idols",
+        "witness": "Athanasius, Apology against the Arians 59; Socrates I.6; Theodoret I.8",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "The split began over how to receive the lapsed, with Peter and Meletius in prison together",
+        "witness": "Epiphanius, Panarion 68 (a pro-Meletian account, used by Bell)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Beheaded in the ninth year of the persecution, about 25 November 311",
+        "witness": "Eusebius IX.6; Bell 1924",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Peter ordained Arius a deacon and later cast him out",
+        "witness": "Sozomen I.15 (one witness; Hartranft notes no one else links Arius with the Meletians early); Robertson doubts it",
+        "formation_confidence": "Contested"
+      }
+    ],
+    "contested_claims": [
+      {
+        "claim": "How the Meletian schism began",
+        "sides": "Athanasius, Socrates and Theodoret (Meletius removed for crimes and sacrifice) against Epiphanius (Peter and Meletius jailed together, split over the lapsed, Peter for mercy). Bell reads them as stages of one quarrel; Hefele says the first letters show neither man was then in prison and that Epiphanius erred on the main points."
+      },
+      {
+        "claim": "Peter ordained Arius a deacon and later cast him out over the Meletians",
+        "sides": "Sozomen I.15 reports it. Against: Chester Hartranft, Sozomen's translator, notes that no one else links Arius with the Meletians early; Archibald Robertson, editor of Athanasius, says such tales \"deserve little credit\" and are unsupported by Athanasius."
+      }
+    ],
+    "absent_details": [
+      {
+        "detail": "Peter's birth, family and schooling",
+        "note": "No early source gives them. Later Coptic and Ethiopic lives supply a family and disagree with each other; Inferential-Thin at best, not used as fact."
+      }
+    ]
+  },
+  "anatolius-of-alexandria-and-laodicea": {
+    "claims": [
+      {
+        "claim": "Alexandrian by birth; first among his contemporaries in arithmetic, geometry, astronomy, logic and physics",
+        "witness": "Eusebius, Church History VII.32; Jerome, Lives 73",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Led people out of the besieged Pyrucheium quarter of Alexandria",
+        "witness": "Eusebius VII.32 (\"They say\")",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Ordained bishop by Theotecnus at Caesarea, then made bishop of Laodicea on the way to the Antioch synod",
+        "witness": "Eusebius VII.32",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Wrote Paschal Canons using a nineteen-year cycle, and ten books of arithmetic",
+        "witness": "Eusebius VII.32 (quoting the extract); anf06",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The first Christian to use the nineteen-year cycle for Easter",
+        "witness": "Arthur McGiffert, note to Eusebius (\"so far as we know\")",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "The longer Latin book on Easter under his name is genuine",
+        "witness": "McGiffert, following Zahn, for; Ideler against",
+        "formation_confidence": "Contested"
+      }
+    ],
+    "contested_claims": [
+      {
+        "claim": "Whether the Latin Paschal Canon (first printed 1634) is Anatolius's own work",
+        "sides": "McGiffert, following Zahn, sees \"the best of reasons\" for an early translation of his genuine work; Ideler held it a seventh-century work. Only the extract Eusebius quotes, and the arithmetic fragments, are firm."
+      }
+    ],
+    "absent_details": [
+      {
+        "detail": "Anatolius's birth and death dates",
+        "note": "No held source gives them. Richardson (born about 230, died about 283) and Salmond (230, 270, 280, called conjectural) only estimate; Eusebius says his death came before the persecution."
+      }
+    ]
+  },
+  "polycrates-of-ephesus": {
+    "claims": [
+      {
+        "claim": "Bishop of Ephesus while Victor was bishop of Rome; led the bishops of Asia in the Easter dispute",
+        "witness": "Eusebius, Church History V.22-25; Jerome, Lives 45",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Wrote to Victor defending the fourteenth-day Easter, citing the lights of Asia and his seven bishop relatives",
+        "witness": "Polycrates, letter in Eusebius V.24 and III.31",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Victor cut off the churches of Asia from communion",
+        "witness": "Eusebius V.24 (McGiffert reads it as done; Socrates V.22 says so); Hefele, following Valesius, reads it as a threat only",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "The Philip buried at Hierapolis was the apostle",
+        "witness": "Polycrates in Eusebius; McGiffert holds it a confusion with Philip the evangelist; Lightfoot defends Polycrates",
+        "formation_confidence": "Contested"
+      }
+    ],
+    "contested_claims": [
+      {
+        "claim": "Whether Victor actually excommunicated the churches of Asia",
+        "sides": "McGiffert holds he did, and Socrates of Constantinople says so directly; Hefele, following Valesius, holds that Victor only threatened it and was held back by Irenaeus."
+      },
+      {
+        "claim": "Whether the Philip at Hierapolis was the apostle or the evangelist",
+        "sides": "Polycrates (and Eusebius) say the apostle; McGiffert holds it a confusion with Philip the evangelist of Acts; Lightfoot defends Polycrates."
+      }
+    ],
+    "absent_details": [
+      {
+        "detail": "Polycrates's birth, death and personal end",
+        "note": "McGiffert says the years of his accession and death are not known. The only dated claims (anf08 \"about 200\" and the editor's \"130-196\") are unsourced and disagree."
+      }
+    ]
+  },
+  "pliny-the-younger": {
+    "claims": [
+      {
+        "claim": "Roman governor of Bithynia from 110 or 111 who tried Christians and wrote to Trajan for guidance",
+        "witness": "Pliny, Letters 10.96, in McGiffert's note to Eusebius III.33",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Reported Christians meeting before dawn to sing to Christ as God, and questioned two deaconesses under torture",
+        "witness": "Pliny, Letters 10.96, in McGiffert's note",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Trajan replied that Christians were not to be sought out, but punished if accused and convicted",
+        "witness": "Trajan, Letters 10.97, in McGiffert's note; Tertullian, Apology 2; Eusebius III.33",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Nephew of Pliny the Elder and a friend of Trajan",
+        "witness": "McGiffert, note to Eusebius III.33",
+        "formation_confidence": "Widely Accepted"
+      }
+    ],
+    "contested_claims": [],
+    "absent_details": [
+      {
+        "detail": "Pliny's birth and death years and his family",
+        "note": "No held primary source gives them. The only dated figures are in the secondary Malech (lived 61-115), unsourced. No held source attests his friendship with Tacitus."
+      }
+    ]
+  }
+}

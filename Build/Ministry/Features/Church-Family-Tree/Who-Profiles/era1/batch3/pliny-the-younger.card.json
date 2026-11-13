@@ -1,0 +1,72 @@
+{
+  "name": "Pliny the Younger",
+  "otherNames": [
+    "Plinius Caecilius Secundus",
+    "Plinius Secundus"
+  ],
+  "label": "Outside witness",
+  "knownFor": "A Roman governor whose letter to the emperor Trajan tells how he tried Christians in Bithynia and what they told him of their worship.",
+  "dates": "Governor of Bithynia from 110 or 111; wrote to Trajan probably within a year",
+  "place": "Bithynia",
+  "tradition": "Outside the church",
+  "role": "Roman governor",
+  "briefLength": "about 1 minute 55 seconds",
+  "keyWorks": [
+    {
+      "title": "Letters, Book 10, letter 96, with Trajan's reply",
+      "about": "his trials of Christians, their worship before dawn, and Trajan's ruling that they were not to be sought out"
+    }
+  ],
+  "legacy": {
+    "remembered": [
+      "Tertullian of Carthage, defending the Christians, attacked Trajan's reply to him: \"It forbids them to be sought after as innocent, and it commands them to be punished as guilty.\"",
+      "Eusebius of Caesarea, working from Tertullian, calls him \"one of the most noted of governors\" and says the persecution \"was to a certain degree checked\" after Trajan's reply.",
+      "John Rolfe, who translated Suetonius, says Suetonius's life is known largely from Pliny's letters, and that Pliny got him a military post."
+    ]
+  },
+  "uncertain": [
+    "Pliny writes as the official who held the trials. What he reports of the Christians' worship, he says, came from those who had left the faith.",
+    "The Library holds no edition of Pliny. The full English of the letter and of Trajan's reply is in Arthur McGiffert's note to Eusebius. Tertullian and Eusebius give only a short summary, without the deaconesses, the torture or the temples.",
+    "McGiffert dates his governorship to 110 or 111. Adolf Harnack dates the letter about 111 to 113.",
+    "No held primary source gives the years of his birth or death."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Letters, Book 10, letters 96 and 97, in English in McGiffert's note to Eusebius's Church History, Book 3, chapter 33",
+        "language": "English translation",
+        "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
+      }
+    ],
+    "about": [
+      {
+        "title": "Apology, chapter 2",
+        "author": "Tertullian of Carthage",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/anf03_tertullian.xml"
+      },
+      {
+        "title": "Church History, Book 3, chapter 33, with McGiffert's notes",
+        "author": "Eusebius of Caesarea",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
+      },
+      {
+        "title": "The Life and Works of Suetonius (introduction)",
+        "author": "John C. Rolfe",
+        "date": null,
+        "language": "English",
+        "file": "cic/texts/suetonius_lives-of-the-caesars-loeb_rolfe1914.txt"
+      },
+      {
+        "title": "Die Mission und Ausbreitung des Christentums, volume 2",
+        "author": "Adolf Harnack",
+        "date": null,
+        "language": "German",
+        "file": "cic/texts/harnack_mission-und-ausbreitung-des-christentums-band2-deu_2e-aufl1906.txt"
+      }
+    ]
+  }
+}
