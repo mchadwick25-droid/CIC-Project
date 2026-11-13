@@ -275,6 +275,23 @@
   font-size: .8rem;
 }
 .page-feedback--fixed .pf-row { flex-wrap: nowrap; gap: 0 1rem; }
+.page-feedback .pf-dismiss {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  min-width: 44px;
+  min-height: 44px;
+  margin-right: -.9rem;
+  padding: 0;
+  background: none;
+  border: 0;
+  color: inherit;
+  font: inherit;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+.page-feedback .pf-dismiss:hover,
+.page-feedback .pf-dismiss:focus-visible { color: #E08C74; }
 .page-feedback--fixed .pf-status {
   position: absolute;
   bottom: calc(100% + .5rem);
@@ -300,6 +317,7 @@
 }
 @media (max-width: 760px) {
   .page-feedback--fixed { bottom: 3.6rem; }
+  .page-feedback--fixed .pf-dismiss { display: inline-flex; }
   .page-feedback--fixed .pf-card {
     position: fixed;
     left: .8rem;
