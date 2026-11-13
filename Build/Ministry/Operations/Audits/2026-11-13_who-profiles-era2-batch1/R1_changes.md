@@ -30,7 +30,7 @@ What the drafter changed in answer to `R1_review.md`. Every new or changed quota
 
 What the drafter changed in answer to `R1_review.md`. Every new or changed quotation was searched again in its vendored file with whitespace-tolerant matching. Audio scripts were rebuilt from the briefs.
 
-## Blocking
+### Blocking
 
 | Profile | Finding | Change |
 |---|---|---|
@@ -38,17 +38,17 @@ What the drafter changed in answer to `R1_review.md`. Every new or changed quota
 | Antony | B1: "poured water on his hands" given as the writer's own claim, dropping the manuscript note | Brief: "In the text he prints, the writer was Antony's attendant and 'poured water on his hands.' Robertson notes that some manuscripts make the attendant someone else." Card uncertain adds the note, with "requires further sifting". New contested_claim. |
 | Hilarion | B1: "The editor of Jerome's works", a role for a witness | Brief and card: "W. H. Fremantle's English edition of Jerome warns that..." The card adds the same edition's view that the "religious romance" theory lacks foundation. |
 
-## Minor
+### Minor
 
 - **Pachomius.** M1: card dates now name George Schodde and Ernest Cushing Richardson's note to Gennadius; records.json matches. M2: "the Tabennesiot monastery"; Clarke's Pabau note added to the card. M3: Gennadius's "received by angelic dictation" added to the card and records; brief now says Butler "did not accept Ladeuze's low view". M4: card uncertain now opens "No writing held here is certainly his own", with Schodde's "if not verbatim from his pen, are yet authentic enough". M5: knownFor now cites Gennadius of Marseilles, "founder of the Egyptian monasteries"; records claim restated. M6: Butler is "another scholar Clarke cites". M7: brief and card say the Ethiopic first part follows the Greek.
 - **Antony.** M1: "drew monks after him". M2: "Less than six months after". M3: the years are Richardson's note to Jerome 88 in brief, card and records; the Life's "near a hundred and five" on the card. M4: card legacy now says two court officials read the Life and resolved to serve God, and hearing of Antony moved Augustine. M5: npnf203 source entry is Jerome 88 with Richardson's note only. M6: card and records now say Jerome reports the letters translated into Greek and none is held. M7: `[warmly]` now before the last sentence. M8: empty `ownWords` removed. M9: Life-only claims re-tagged Documented with a one-witness note; "Jerome's Chronicle" replaced by Richardson's note. Coma is now "near Heraclea", as Sozomen has it; "in Upper Egypt" was the editor's note.
 - **Hilarion.** M1: Sozomen's hedge kept ("It was said, Sozomen writes, that the cure made Christians..."). M2: Sozomen V.15 added to the card and records. M3: the "drew in part on Jerome" sentence dropped from the card and records; Sozomen's notice is called separate. M4: paragraph now opens "Sozomen, the church historian, had a family reason to remember Hilarion." M5: `[warmly]` now before the last sentence. M6: empty `otherNames` and `ownWords` removed. M7: 371 is Chester Hartranft's reckoning, named in dates, uncertain and records.
 
-## Lengths
+### Lengths
 
 Pachomius 401 words (2:29), FK 8.4, Flesch 62.3. Antony 404 (2:30), FK 7.2, Flesch 69.2. Hilarion 323 (2:00), FK 6.7, Flesch 70.0. To fit, Antony's opening clause "turning over a thought" and the "This is how Antony's life is told" opener were removed, and two Hilarion phrases were tightened.
 
-## Not changed
+### Not changed
 
 - Report-only items (tradition names against the site, people-list lines) are for the map Who build.
 - Pachomius's Ethiopic rules stay under "Their own words", since Schodde judges the first part authentic enough; the uncertain line now says plainly that nothing held is certainly his.
