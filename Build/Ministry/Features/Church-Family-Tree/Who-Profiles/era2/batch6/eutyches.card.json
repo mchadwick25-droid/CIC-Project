@@ -12,7 +12,7 @@
   "keyWorks": [
     {
       "title": "Letter to Leo of Rome",
-      "about": "his appeal against Flavian's sentence; held in Latin, in Feltoe's English (Leo, Letter 21)"
+      "about": "his appeal against Flavian's sentence; the Greek is lost, and the Library holds Feltoe's English of the Latin (Leo, Letter 21)"
     },
     {
       "title": "Petition to the emperors and to the council of 449",
@@ -30,13 +30,13 @@
     ]
   },
   "uncertain": [
-    "His words at his trial come through the minutes of the synod that condemned him. He said the record was false, and at Ephesus in 449 Basil of Seleucia denied a sentence written as his.",
+    "His words at his trial come through the minutes of the synod that condemned him. He said the record was false, and at Ephesus in 449 Basil of Seleucia denied a sentence written as his, then said he did not remember.",
     "Whether he appealed to Rome is disputed. He told Leo he lodged an appeal; Flavian wrote to Leo that \"this he certainly never did\".",
     "Leo and Flavian were his opponents, and the acts of 449 come from the council that restored him.",
-    "That the court eunuch Chrysaphius was his godson rests here on Liberatus of Carthage, a later Latin writer held only in a rough scan, and on modern notes.",
+    "That the court eunuch Chrysaphius was his godson rests here on Liberatus of Carthage, a later Latin writer held only in a rough scan, and on Charles Lett Feltoe's introduction to Leo's letters.",
     "The date of Flavian's synod, November 448, is an editors' date. No source used here gives his birth, his death, or the name of his monastery.",
     "That he was exiled further after Chalcedon rests on Feltoe's summary of a letter of Leo that the English edition does not translate.",
-    "The card's tradition is the scan's; that church's own Syriac chronicle faults his teaching."
+    "The card's tradition is the scan's. The Syriac chronicle cited here comes from the side that rejected Chalcedon; Hamilton and Brooks place its compiler in Mesopotamia, probably at Amida. It faults his teaching, though it says he was received at Ephesus after he confessed the true faith."
   ],
   "sources": {
     "ownWords": [
@@ -53,7 +53,7 @@
     ],
     "about": [
       {
-        "title": "Letters 22, 26 and 28 (the Tome)",
+        "title": "Letters 22, 26, 28 (the Tome) and 29",
         "author": "Leo of Rome; Flavian of Constantinople",
         "date": null,
         "language": "English translation",

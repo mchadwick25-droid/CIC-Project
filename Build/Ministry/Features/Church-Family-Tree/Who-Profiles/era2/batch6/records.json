@@ -463,8 +463,8 @@
     "formation_confidence": "Contested"
    },
    {
-    "claim": "Basil of Seleucia denied a sentence; Juvenal: \"This sentence, therefore, was altered\"",
-    "witness": "Acts of Ephesus 449 (Perry l.23864-23873)",
+    "claim": "Basil of Seleucia denied a sentence, then said \"I do not remember and I do. not know if I did say so\"; Juvenal: \"This sentence, therefore, was altered\"",
+    "witness": "Acts of Ephesus 449 (Perry l.23864-23877)",
     "formation_confidence": "Documented"
    },
    {
@@ -473,8 +473,8 @@
     "formation_confidence": "Contested"
    },
    {
-    "claim": "Restored \"to his Monastery and to his Grade\" at Ephesus 449",
-    "witness": "Acts of Ephesus 449 (Perry l.24020)",
+    "claim": "Restored \"to his Monastery and to his Grade\" at Ephesus 449, on Juvenal of Jerusalem's vote, which the synod approved",
+    "witness": "Acts of Ephesus 449 (Perry l.24015-24024)",
     "formation_confidence": "Documented"
    },
    {
@@ -506,7 +506,7 @@
   "contested_claims": [
    {
     "claim": "Whether the minutes of 448 were true",
-    "sides": "Eutyches: what he said was not written, and what he did not say was (Perry l.23308-23311). At Ephesus 449 Basil of Seleucia denied a sentence, and Juvenal said it was altered (l.23864-23873). Flavian's synod and Leo rely on them."
+    "sides": "Eutyches: what he said was not written, and what he did not say was (Perry l.23308-23311). At Ephesus 449 Basil of Seleucia denied a sentence, then said he did not remember, and Juvenal said it was altered (l.23864-23873). Flavian's synod and Leo rely on them."
    },
    {
     "claim": "Whether he appealed to Rome",
@@ -591,6 +591,10 @@
    {
     "claim": "Whether he was Leo's secretary",
     "sides": "Gennadius: Leo's letters against Eutyches \"are also thought\" to have been dictated by him (some manuscripts \"said\"). Medieval writers: a notary of the Roman church. Mommsen: the account does not show he even left Gaul (l.42790-42793)."
+   },
+   {
+    "claim": "Whether the Hilary who wrote to Augustine with him was Hilary of Arles",
+    "sides": "Mommsen: yes, writing as a layman before he became bishop of Arles (l.42729-42731, 42748-42750). Gibson: a layman, not to be confounded with the bishop of Arles (npnf211 l.15694-15695). The Maurist note: another than Hilary of Arles (PL33 l.73873)."
    }
   ],
   "absent_details": [
@@ -627,8 +631,8 @@
     "formation_confidence": "Inferential-Thin"
    },
    {
-    "claim": "Bishop of Bagrevand among the bishops at Artashat who answered the edict of Mihr-Nerseh",
-    "witness": "Elishe (Langlois l.27326-27354; edict l.27118-27129); Lazar of Pharp (l.38316-38342, OCR \"Emig\")",
+    "claim": "Listed as bishop of Bagrevand among the bishops who answered a Persian edict: at Artashat, answering Mihr-Nerseh, by Elishe; answering King Yazdegerd's edict, with no place named, by Lazar of Pharp",
+    "witness": "Elishe (Langlois l.27326-27354; edict l.27118-27129); Lazar of Pharp (l.38316-38342, OCR \"Emig\"; the edict l.38239-38243, 38369-38373)",
     "formation_confidence": "Documented"
    },
    {

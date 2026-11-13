@@ -3,7 +3,7 @@
   "otherNames": [
     "Prosper Tiro"
   ],
-  "knownFor": "A writer from Gaul who took Augustine of Hippo's side on grace against the monks of Marseilles, wrote against John Cassian, and kept a chronicle of his own times.",
+  "knownFor": "A writer from Gaul who took Augustine of Hippo's side on grace against many at Marseilles, wrote against John Cassian, and kept a chronicle of his own times.",
   "dates": "Wrote to Augustine shortly before Augustine's death; Edgar Gibson dates the letter to 429. His chronicle runs, as Gennadius of Marseilles read it, to the Vandal capture of Rome; Theodor Mommsen, its editor, reasons from it that he lived at least to 455. No ancient source used here gives his birth or death. The years 403 to 463 are an editor's note in E. C. Richardson's translation of Gennadius",
   "place": "Gaul; Aquitaine, by Gennadius",
   "tradition": "Gallic Monastic-Ascetic Christianity",
@@ -30,7 +30,7 @@
     ],
     "remembered": [
       "Gennadius of Marseilles: \"a man scholastic in style and vigorous in statement\".",
-      "Photius, in his Library, calls him \"truly a man of God\".",
+      "Photius of Constantinople, in his Library, calls him \"truly a man of God\".",
       "Edgar Gibson, translator of John Cassian, on his book against Cassian: \"a treatise of considerable power and force, although not scrupulously fair\"."
     ]
   },
@@ -38,7 +38,7 @@
     "Whether he was a layman is disputed. Edgar Gibson calls him \"also a layman\", and Garnier, editor of Marius Mercator, counts him among laymen. Theodor Mommsen thinks him a cleric when he wrote to Augustine, since he calls the deacon Leontius his brother. Mommsen also rejects the view that he was a bishop.",
     "That the unsigned book against Cassian is Prosper's is the judgment of Gennadius of Marseilles, who sided with Cassian. The book is not held.",
     "Gennadius says letters of Leo against Eutyches \"are also thought\" to have been dictated by him; some manuscripts read \"said\", as Richardson's note gives it. Mommsen says medieval writers made him a notary of the Roman church, and that Gennadius's account does not show he even left Gaul.",
-    "Gibson dates the letter to Augustine to 429 because it names Hilary as newly bishop of Arles. The appeal to Pope Celestine with a layman named Hilary is Gibson's account.",
+    "Gibson dates the letter to Augustine to 429 because it names Hilary as newly bishop of Arles. The appeal to Pope Celestine with a layman named Hilary is Gibson's account. Mommsen takes the Hilary who wrote with him for Hilary of Arles before he became bishop; Gibson and the Maurist note in Augustine's letters keep them apart.",
     "No ancient source used here gives his birth, death or city. Gennadius gives his region, Aquitaine. The years 403 to 463 are Richardson's note to Gennadius and a note in J. H. Freese's translation of Photius; Mommsen says only that he lived at least to 455.",
     "The chronicle's years are Mommsen's: Prosper dates by consuls."
   ],
@@ -76,6 +76,13 @@
         "date": "1892",
         "language": "Latin",
         "file": "cic/texts/prosper_chronica-minora-1-lat_mommsen1892.txt"
+      },
+      {
+        "title": "Library (tr. J. H. Freese)",
+        "author": "Photius of Constantinople",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/photius_library-v1_freese1920.txt"
       }
     ]
   }
