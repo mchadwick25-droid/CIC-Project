@@ -1,33 +1,33 @@
 {
   "name": "Aetius of Antioch",
   "otherNames": [
-    "Aetius the Godless (\"Atheus\"), the nickname given him by the Arians"
+    "Atheus, \"the godless\", a name Socrates and Sozomen report and Athanasius uses"
   ],
-  "knownFor": "A sharp-tongued Arian logician who taught that the Son is unlike the Father, founding the Anomoean party; even the Arians cast him out.",
-  "dates": "Active from about 350; died at Constantinople, about 367",
+  "knownFor": "A bold Arian logician who taught that the Son is unlike the Father, founding the Anomoean party; his own allies gave him up in 360.",
+  "dates": "Active from about 350; died at Constantinople after 366",
   "place": "From Coele-Syria; taught at Antioch and Alexandria",
   "tradition": "Anomoean (Eunomian) Christianity",
   "role": "Deacon, teacher and logician",
+  "briefLength": "about 2 minutes",
   "keyWorks": [
     {
       "title": "The Syntagmation",
       "about": "a short book of logical propositions arguing the Son is unlike the Father, kept inside Epiphanius's Panarion 76, which copies it out to refute it"
     }
   ],
-  "briefLength": "about 1 minute 45 seconds",
   "legacy": {
     "traces": [
       "The Anomoeans, later called Eunomians after his pupil Eunomius of Cyzicus, who carried his teaching on."
     ],
     "remembered": [
-      "Socrates of Constantinople records the nickname his own side gave him, Atheus, the godless one.",
-      "At the Council of Constantinople in 360 his own party deposed him from the diaconate to satisfy the emperor."
+      "Sozomen says he reasoned so boldly about God that many people called him Atheus, the godless one.",
+      "At the Council of Constantinople in 360 his friend Eudoxius, then bishop of Antioch, gave him up, and the council took away his office of deacon."
     ]
   },
   "uncertain": [
     "His life is told mostly through partisans. Philostorgius, who praised him, gives the story of the poor goldsmith who rose by logic; his history survives only in a hostile summary by Photius. Socrates, Sozomen and Epiphanius, who opposed him, tell the rest.",
-    "He leaned on Aristotle's Categories, Socrates says, and framed arguments that even fellow Arians could not follow, so they called him a heretic. Whether this was depth or vain subtlety, his friends and his foes disagreed.",
-    "The years of his birth and death are not given in a held source. Philostorgius places his death at Constantinople, after Julian had given him land on Lesbos."
+    "Socrates of Constantinople, a hostile witness, says he leaned on Aristotle's Categories and framed arguments that deceived himself, and that his fellow Arians pronounced him a heretic. Philostorgius praised the force of his arguments.",
+    "The years of his birth and death are not given in a held source. Philostorgius places his death at Constantinople, after the revolt of Procopius and after Julian had given him land on Lesbos."
   ],
   "sources": {
     "ownWords": [

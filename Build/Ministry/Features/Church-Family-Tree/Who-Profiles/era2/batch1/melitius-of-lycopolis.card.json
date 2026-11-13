@@ -4,7 +4,7 @@
     "Meletius (the usual spelling in the Greek and Latin writers)"
   ],
   "knownFor": "An Egyptian bishop whose quarrel with Peter of Alexandria over the lapsed led to a long schism, the Church of the Martyrs.",
-  "dates": "Bishop of Lycopolis; deposed about 306; died after the Council of 325",
+  "dates": "Bishop of Lycopolis; excommunicated by Peter about 306, by H. Idris Bell's dating; died after the Council of 325",
   "place": "Lycopolis, in the Thebaid of Upper Egypt",
   "tradition": "The Melitian Schism",
   "role": "Bishop and schism leader",
@@ -20,13 +20,13 @@
       "The Melitian churches, which called themselves the Church of the Martyrs. H. Idris Bell traces Melitian monks in Egypt into the eighth century."
     ],
     "remembered": [
-      "Epiphanius of Salamis tells of the prison during the Great Persecution, where Peter of Alexandria hung a cloak like a curtain and most of the clergy went to Melitius's side.",
-      "The Council of Nicaea in 325 left him the title of bishop but took away his right to ordain."
+      "Epiphanius of Salamis tells of the prison during the Great Persecution, where Peter of Alexandria hung a cloak like a curtain and most of the clergy went to Melitius's side."
     ]
   },
   "uncertain": [
-    "Athanasius of Alexandria wrote that Peter deposed Melitius for many crimes, among them offering sacrifice to idols. H. Idris Bell, who published the Melitian papyri in 1924, doubts the charge, since it came readily to quarrelling churchmen after a persecution. Bell and Archibald Robertson both hold that the schism began over church discipline, not doctrine.",
-    "The two main accounts differ. The contemporary letters of the four bishops and of Peter describe the quarrel over ordinations. Epiphanius of Salamis, writing about seventy years later, tells the prison scene and the order of events differently. Bell holds that both can be reconciled as stages of one schism.",
+    "Epiphanius of Salamis, a foe of every heresy, tells the prison story some seventy years later. Archibald Robertson calls it the Melitians' own account, and H. Idris Bell thinks Epiphanius had excellent informants, probably Egyptian bishops exiled to Palestine.",
+    "Athanasius of Alexandria wrote that Peter deposed Melitius for many crimes, among them offering sacrifice to idols. Socrates of Constantinople also says he denied the faith and sacrificed. Bell doubts the charge, since it came readily to quarrelling churchmen after a persecution. Bell and Robertson both hold that the schism did not begin over doctrine; Sozomen says the Melitians later took up Arian teaching.",
+    "The two main accounts differ. The contemporary letters of the four bishops and of Peter describe the quarrel over ordinations. Epiphanius tells the prison scene and the order of events differently. Bell holds that both can be reconciled as stages of one schism.",
     "His birth and the year of his death are not given in a held source. He died after the Council of 325, since near his end he named John as his successor, against the council's decree."
   ],
   "sources": {
@@ -60,7 +60,7 @@
         "file": "cic/texts/epiphanius_panarion-haer-48-69-corpus-haereseologicum-t2-pars-posterior-grc-lat_oehler1860.txt"
       },
       {
-        "title": "Church History, Book 1, with the Council of Nicaea's letter on Melitius; Sozomen on his successor",
+        "title": "Church History, Book 1, chapters 6 and 9, with the Council of Nicaea's letter on Melitius; Sozomen, Book 2, chapter 21, on his successor",
         "author": "Socrates of Constantinople; Sozomen",
         "date": null,
         "language": "English translation",
