@@ -45,7 +45,8 @@ body{margin:0;background:var(--parchment);color:var(--iron-gall);
 .chip{font-family:"Alegreya Sans",sans-serif;font-size:.78rem;font-weight:700;background:none;cursor:pointer;
   color:var(--iron-gall);padding:.35rem .85rem;border:1px solid var(--rule);border-radius:999px}
 .chip:hover,.chip:focus-visible,.chip[aria-expanded="true"]{border-color:var(--gold-leaf);color:var(--gold-leaf)}
-.chip[aria-pressed="false"]{opacity:.45;text-decoration:line-through}
+.chip[aria-pressed]{display:inline-flex;align-items:center;gap:.6rem;min-height:44px}
+.chip[aria-pressed]:focus-visible{outline:2px solid var(--madder);outline-offset:2px}
 @media (max-width:480px){.feature-bar.switches{gap:.35rem;padding:.4rem .6rem}.chip{padding:.35rem .5rem}
   .feature-bar .chip-group{position:static}.feature-bar .chip-panel{left:.6rem;right:.6rem;max-width:none}}
 .chip-panel{position:absolute;top:calc(100% + .35rem);left:0;z-index:25;min-width:15rem;max-width:min(22rem,calc(100vw - 1.6rem));
@@ -213,7 +214,17 @@ svg#world{display:block;overflow:visible}
 .switches button.row{width:100%;background:none;border:0;padding:.1rem .2rem;margin:.1rem 0;border-radius:3px;
   font:inherit;color:inherit;text-align:left;cursor:pointer}
 .switches button.row:hover{background:var(--tyrian-wash)}
-.switches button.row[aria-pressed="false"]{opacity:.38;text-decoration:line-through}
+.switches button.row{min-height:44px;padding:.35rem .5rem;gap:.6rem;margin:0}
+.switches button.row:focus-visible{outline:2px solid var(--madder);outline-offset:-2px}
+.switches .sw-name{flex:1;min-width:0;font-size:.82rem;line-height:1.25}
+.chip .sw-name{flex:none}
+.sw{position:relative;flex:none;width:2.5rem;height:1.4rem;margin-left:auto;border-radius:999px;box-sizing:border-box;
+  background:var(--iron-gall);border:1px solid var(--iron-gall);transition:background .15s,border-color .15s}
+.sw::after{content:"";position:absolute;top:50%;left:.16rem;width:1rem;height:1rem;margin-top:-.5rem;border-radius:50%;
+  background:var(--vellum);box-shadow:0 1px 2px rgba(0,0,0,.35);transition:transform .15s}
+[aria-pressed="true"]>.sw{background:var(--link-grow);border-color:var(--link-grow)}
+[aria-pressed="true"]>.sw::after{transform:translateX(1.1rem)}
+@media (prefers-reduced-motion:reduce){.sw,.sw::after{transition:none}}
 .is-off{display:none}
 #who .who-name{cursor:pointer}
 #who .who-name:focus-visible{outline:none}
@@ -90469,18 +90480,18 @@ panel.addEventListener('keydown',(ev)=>{
 
 function buildLegend(){
   const wrap=document.getElementById('switchbar');
-  const lanesAll=`<button type="button" class="row" data-toggle="lanes-all" aria-pressed="true"><i style="background:conic-gradient(${FAM.filter(f=>laneKeys.includes(f.k)).slice(0,6).map((f,i,a)=>`${famColor(f)} ${i/a.length}turn ${(i+1)/a.length}turn`).join(',')})"></i>All rivers</button>`;
+  const lanesAll=`<button type="button" class="row" data-toggle="lanes-all" aria-pressed="true"><i style="background:conic-gradient(${FAM.filter(f=>laneKeys.includes(f.k)).slice(0,6).map((f,i,a)=>`${famColor(f)} ${i/a.length}turn ${(i+1)/a.length}turn`).join(',')})"></i><span class="sw-name">All rivers</span><span class="sw" aria-hidden="true"></span></button>`;
   let rivers=lanesAll;
-  FAM.filter(f=>laneKeys.includes(f.k)).forEach(f=>{rivers+=`<button type="button" class="row" data-toggle="lane:${f.k}" aria-pressed="true"><i style="background:${famColor(f)}"></i>${esc(f.lbl)}</button>`;});
+  FAM.filter(f=>laneKeys.includes(f.k)).forEach(f=>{rivers+=`<button type="button" class="row" data-toggle="lane:${f.k}" aria-pressed="true"><i style="background:${famColor(f)}"></i><span class="sw-name">${esc(f.lbl)}</span><span class="sw" aria-hidden="true"></span></button>`;});
   const colorKey=(f)=>`<svg class="linekey" viewBox="0 0 26 10"><line x1="1" y1="5" x2="25" y2="5" stroke="var(--link-${f})" stroke-width="2.4"/></svg>`;
   let links=`<div class="note">Lines join traditions where the sources record a link. The color shows the kind of link. The line's pattern shows how sure the record is. Arrows point from the first movement to the second. Hover or click a line to read the link and its sources.</div>`;
-  links+=`<button type="button" class="row" data-toggle="major" aria-pressed="false"><svg class="linekey" viewBox="0 0 26 10"><line x1="1" y1="5" x2="25" y2="5" stroke="var(--iron-gall)" stroke-width="3.4"/></svg>Major links</button>`;
+  links+=`<button type="button" class="row" data-toggle="major" aria-pressed="false"><svg class="linekey" viewBox="0 0 26 10"><line x1="1" y1="5" x2="25" y2="5" stroke="var(--iron-gall)" stroke-width="3.4"/></svg><span class="sw-name">Major links</span><span class="sw" aria-hidden="true"></span></button>`;
   links+=`<div class="note">Major links show one movement growing out of another, a recorded break, or an act of authority the sources record, such as a council condemning a group. Pick a movement to see all of its links.</div>`;
-  links+=`<button type="button" class="row" data-toggle="links-all" aria-pressed="false"><svg class="linekey" viewBox="0 0 26 10">${Object.keys(LINK_FAMILY_LABEL).map((f,i)=>`<line x1="${1+i*6.5}" y1="5" x2="${6+i*6.5}" y2="5" stroke="var(--link-${f})" stroke-width="2.4"/>`).join('')}</svg>All connections</button>`;
+  links+=`<button type="button" class="row" data-toggle="links-all" aria-pressed="false"><svg class="linekey" viewBox="0 0 26 10">${Object.keys(LINK_FAMILY_LABEL).map((f,i)=>`<line x1="${1+i*6.5}" y1="5" x2="${6+i*6.5}" y2="5" stroke="var(--link-${f})" stroke-width="2.4"/>`).join('')}</svg><span class="sw-name">All connections</span><span class="sw" aria-hidden="true"></span></button>`;
   links+='<span class="cap">Kind of link</span>';
-  Object.entries(LINK_FAMILY_LABEL).forEach(([f,lbl])=>{links+=`<button type="button" class="row" data-toggle="family:${f}" aria-pressed="true">${colorKey(f)}${lbl}</button>`;});
+  Object.entries(LINK_FAMILY_LABEL).forEach(([f,lbl])=>{links+=`<button type="button" class="row" data-toggle="family:${f}" aria-pressed="true">${colorKey(f)}<span class="sw-name">${lbl}</span><span class="sw" aria-hidden="true"></span></button>`;});
   const lineKey=(dash)=>`<svg class="linekey" viewBox="0 0 26 10"><line x1="1" y1="5" x2="25" y2="5" stroke="var(--iron-gall)" stroke-width="1.6"${dash?` stroke-dasharray="${dash}"`:''}/></svg>`;
-  const confRow=(key,dash,lbl)=>`<button type="button" class="row" data-toggle="conf:${key}" aria-pressed="true">${lineKey(dash)}${lbl}</button>`;
+  const confRow=(key,dash,lbl)=>`<button type="button" class="row" data-toggle="conf:${key}" aria-pressed="true">${lineKey(dash)}<span class="sw-name">${lbl}</span><span class="sw" aria-hidden="true"></span></button>`;
   links+='<span class="cap">How sure the record is</span>'+confRow('Documented','', 'Documented')+confRow('Widely Accepted|Dominant Modern Reconstruction','6,3','Widely accepted or a leading reconstruction')+confRow('Contested','2,3','Contested')+confRow('Inferential-Thin','1,4','Thin evidence');
   const builtSwatch=`conic-gradient(${famColor(FAM[1])} 0turn .25turn,${famColor(FAM[4])} .25turn .5turn,${famColor(FAM[6])} .5turn .75turn,${famColor(FAM[7])} .75turn 1turn)`;
   let key=`<div class="row"><i style="background:var(--graphite);opacity:.78"></i>Not yet built (graphite)</div>`;
@@ -90492,8 +90503,8 @@ function buildLegend(){
   key+=`<div class="foot">&copy; 2026 Faithways Studio, Inc., a Colorado public benefit corporation &middot; <a href="license.html">License</a>. The same team makes <a href="https://churchinconversation.com/">Church in Conversation</a>.<br><a href="about.html">About</a> · <a href="method.html">Method</a> · <a href="data.html">Data and citation</a> · <a href="privacy.html">Privacy</a> · <a href="https://churchinconversation.com/license">License</a> · <a href="terms.html">Terms</a> · <a href="support.html">Help us grow</a></div>`;
   const group=(id,label,body)=>`<div class="chip-group"><button type="button" class="chip" aria-expanded="false" aria-controls="sw-${id}">${label} &#9662;</button><div class="chip-panel" id="sw-${id}" hidden>${body}</div></div>`;
   let bar=group('rivers','Rivers',rivers)+group('links','Connections',links);
-  if(acrossMovements.length)bar+=`<button type="button" class="chip" data-toggle="movements" aria-pressed="false">Movements</button>`;
-  if((DATA.stories||[]).length)bar+=`<button type="button" class="chip" data-toggle="stories" aria-pressed="true">Stories</button>`;
+  if(acrossMovements.length)bar+=`<button type="button" class="chip" data-toggle="movements" aria-pressed="false"><span class="sw-name">Movements</span><span class="sw" aria-hidden="true"></span></button>`;
+  if((DATA.stories||[]).length)bar+=`<button type="button" class="chip" data-toggle="stories" aria-pressed="true"><span class="sw-name">Stories</span><span class="sw" aria-hidden="true"></span></button>`;
   bar+=group('key','Key',key);
   wrap.innerHTML=`<button type="button" class="chip who-chip" id="who-chip" hidden><span class="who-chip-label"></span><span aria-hidden="true">&times;</span></button>`+bar;
   document.getElementById('who-chip').addEventListener('click',ev=>{ev.stopPropagation();clearWho();});

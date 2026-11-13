@@ -304,7 +304,7 @@ test('the movements column sits left of the era rivers, its names reading leftwa
 
 test('the Movements switch starts off and is remembered like the other switches', () => {
   const map = fs.readFileSync(path.join(root, 'cft-website/index.html'), 'utf8');
-  assert.match(map, /<button type="button" class="chip" data-toggle="movements" aria-pressed="false">Movements<\/button>/);
+  assert.match(map, /<button type="button" class="chip" data-toggle="movements" aria-pressed="false"><span class="sw-name">Movements<\/span><span class="sw" aria-hidden="true"><\/span><\/button>/);
   assert.match(map, /let movementsOn=false;\n\s*try\{movementsOn=localStorage\.getItem\('tree-movements'\)==='1';\}catch\(e\)\{\}/);
   assert.match(map, /localStorage\.setItem\('tree-movements',movementsOn\?'1':'0'\)/);
   assert.ok(map.includes('The Movements switch shows movements that ran across churches as thin lines beside their era, for the years they lasted.'));
