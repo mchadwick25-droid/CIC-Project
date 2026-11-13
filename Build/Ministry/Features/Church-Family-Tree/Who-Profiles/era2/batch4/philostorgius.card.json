@@ -1,0 +1,75 @@
+{
+  "name": "Philostorgius",
+  "knownFor": "Church historian of the Eunomian party, whose twelve-book history survives only in the hostile summary of Photius, a later patriarch of Constantinople.",
+  "dates": "Born about 364, by Edward Walford's reckoning, or about 368, by J. Quasten's; came to Constantinople at twenty; his history runs down to 425, by Walford's date",
+  "place": "Borissus in Cappadocia; Constantinople",
+  "tradition": "Anomoean (Eunomian) Christianity",
+  "role": "Church historian",
+  "briefLength": "about 2 minutes",
+  "keyWorks": [
+    {
+      "title": "Church History",
+      "about": "twelve books from the quarrel of Arius with Alexander of Alexandria to the proclamation of Valentinian the Younger; the first letters of the books spelled his name; lost, and known from Photius's summary and a few fragments"
+    },
+    {
+      "title": "Encomium of Eunomius",
+      "about": "a work in praise of Eunomius of Cyzicus, which Photius says he \"does not blush to avow\"; not held"
+    },
+    {
+      "title": "Against Porphyry",
+      "about": "a book he wrote \"on behalf of the Christians\", as Photius reports; not held"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Photius, a patriarch of Constantinople whom Edward Walford dates to 853, kept a summary of the history in extracts. It is the main way the work is known.",
+      "J. Quasten, quoted in the 2002 note to the electronic edition, says the surviving remains show that he used excellent sources no longer extant, especially documents of Arian origin."
+    ],
+    "remembered": [
+      "Photius opens his summary by calling the history \"an encomium on the heretical party, and an attack and assault upon the orthodox, rather than a history.\"",
+      "Photius calls him an \"impious contriver of lies\".",
+      "Edward Walford, who put the summary into English in 1855, says he was \"rather inclined to credulity\" about portents and wonders, and filled his work with details of remote countries."
+    ]
+  },
+  "uncertain": [
+    "His history is lost. It survives mainly in the summary of Photius, who was hostile to it throughout. What Philostorgius says reaches us in Photius's words and with Photius's judgments.",
+    "Walford puts his birth about 364. Quasten, quoted in the 2002 note, puts it about 368 and calls him a layman. No source used here gives his own date of birth.",
+    "Through Photius, Philostorgius says that at twenty he came to Constantinople and saw Eunomius. Photius reports his praise of Eunomius's looks, his speech and even his lisp.",
+    "Photius reports that he told how Basil of Caesarea died of remorse after reading Eunomius's first book against him, and calls it falsehood.",
+    "Photius says the ninth book is full of miracles worked by Aetius of Antioch, Eunomius and others, \"inventions of the author\".",
+    "The fragment that praises Basil, Gregory of Nazianzus and Apollinaris of Laodicea comes from the later Greek dictionary Walford calls Suidas, which gives it in Philostorgius's own words. It calls the teaching of his own side \"that heresy\".",
+    "Walford says it is uncertain whether he trained for the law or the church."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Fragments of Philostorgius in Suidas (tr. Edward Walford)",
+        "language": "English translation",
+        "file": "cic/texts/philostorgius_ecclesiastical-history_walford1855.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Epitome of the Church History of Philostorgius, Books 1 to 12 (tr. Edward Walford)",
+        "author": "Photius",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/philostorgius_ecclesiastical-history_walford1855.txt"
+      },
+      {
+        "title": "Biographical Notice of Philostorgius",
+        "author": "Edward Walford",
+        "date": null,
+        "language": "English",
+        "file": "cic/texts/philostorgius_ecclesiastical-history_walford1855.txt"
+      },
+      {
+        "title": "Additional note to the electronic edition, quoting J. Quasten's Patrology",
+        "author": "Roger Pearse; J. Quasten",
+        "date": null,
+        "language": "English",
+        "file": "cic/texts/philostorgius_ecclesiastical-history_walford1855.txt"
+      }
+    ]
+  }
+}

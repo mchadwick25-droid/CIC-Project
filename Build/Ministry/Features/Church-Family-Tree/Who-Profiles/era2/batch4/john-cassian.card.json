@@ -1,0 +1,85 @@
+{
+  "name": "John Cassian",
+  "otherNames": [
+    "Cassian",
+    "Cassianus",
+    "Johannes Cassianus"
+  ],
+  "knownFor": "Monk of Marseilles who carried the teaching of the Egyptian desert monks into Latin in his Institutes and Conferences, and whose thirteenth Conference Prosper of Aquitaine wrote against.",
+  "dates": "Born about 360 and in Egypt between about 380 and 400, both by Edgar Gibson's reckoning; died at Marseilles in the reign of Theodosius and Valentinian, by Gennadius of Marseilles, which Gibson places not long after 432",
+  "place": "Bethlehem, the desert of Scete in Egypt, Constantinople and Marseilles",
+  "tradition": "Gallic Monastic-Ascetic Christianity",
+  "role": "Monk, presbyter and founder of two monasteries at Marseilles",
+  "briefLength": "about 2 minutes 30 seconds",
+  "keyWorks": [
+    {
+      "title": "The Institutes",
+      "about": "twelve books for Castor, a bishop in Gaul, on the dress, prayers and rules of the monks of Egypt and Palestine, and the remedies for eight principal faults"
+    },
+    {
+      "title": "The Conferences",
+      "about": "twenty-four talks with the fathers of the Egyptian desert, in three parts; the thirteenth, on the protection of God, is the one Prosper of Aquitaine attacked"
+    },
+    {
+      "title": "On the Incarnation of the Lord, against Nestorius",
+      "about": "seven books written at the request of Leo, then archdeacon of Rome"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "The Rule of Benedict of Nursia has the \"Conferences\" read aloud to the monks after supper, and later names the Conferences of the Fathers and their Institutes among a monk's tools. Edgar Gibson takes these for Cassian's books.",
+      "Gennadius of Marseilles says Eucherius of Lyons, \"revising and condensing certain works of Saint Cassianus, he compressed them into one volume.\"",
+      "Gibson calls him \"the first organizer and systematizer, of Western monachism\", though not its founder."
+    ],
+    "remembered": [
+      "Gennadius of Marseilles says \"He wrote from experience, and in forcible language\".",
+      "Gibson says he was \"Never formally canonized\" and is known in the West as \"the blessed Cassian\", while in the East he is regarded as a saint."
+    ]
+  },
+  "uncertain": [
+    "His early life is known mainly from his own writings. Gennadius of Marseilles calls him \"Scythian by race.\" Edgar Gibson, who translated his works, doubts it. The word may point to the desert of Scete, he suggests, and he thinks a Western birth, perhaps in Provence, most likely, while granting \"it is impossible to speak with certainty\". Gibson adds that Photius calls him a Roman.",
+    "Gibson says the Conferences were written many years after the visits, and that no one can tell \"how far they really represent the discourses actually spoken by the Egyptian\" fathers, or how far they are Cassian's own.",
+    "Prosper of Aquitaine, a layman and, by Gibson's account, \"an ardent Augustinian\", wrote against the thirteenth Conference. Prosper's book is not among the sources used here. Gennadius, who takes Cassian's side, believed an anonymous book \"against certain works of Cassianus, which the church of God finds salutary, but which he brands as injurious\" was Prosper's. Gibson says Prosper took twelve propositions from that Conference and allowed only the first, and \"never once names him directly\".",
+    "The name Semi-Pelagian is Gibson's, and William Bright's, whom he quotes; Cassian does not use it. Gibson judges that \"a verdict of guilty must be returned on the charge of Semi-Pelagianism\", and adds that \"the teaching of Augustine was one-sided and required to be balanced.\"",
+    "Gibson notes that the monks of Egypt called him John in his own writings, and that Prosper joins the two names. Gennadius calls him only Cassianus.",
+    "Gennadius gives no year for his death. Ernest Cushing Richardson's note gives 450. Gibson says his last known act is Prosper's attack, after 432, and that he probably died soon after.",
+    "Gibson says \"Of his family we know nothing\", except a sister he mentions once."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "The Institutes, the Conferences and On the Incarnation against Nestorius, translated by Edgar C. S. Gibson",
+        "language": "English translation",
+        "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml"
+      },
+      {
+        "title": "Institutionum libri XII and Contra Nestorium, edited by Michael Petschenig",
+        "language": "Latin",
+        "file": "cic/texts/cassian_institutes-and-contra-nestorium_petschenig1888.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Lives of Illustrious Men, chapters 62, 64 and 85",
+        "author": "Gennadius of Marseilles",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+      },
+      {
+        "title": "Prolegomena to The Works of John Cassian",
+        "author": "Edgar C. S. Gibson",
+        "date": null,
+        "language": "English",
+        "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml"
+      },
+      {
+        "title": "The Rule of Saint Benedict, chapters 42 and 73",
+        "author": "Benedict of Nursia",
+        "date": null,
+        "language": "Latin and English",
+        "file": "cic/texts/benedict_rule-of-st-benedict-lat-eng_hunter-blair1907.txt"
+      }
+    ]
+  }
+}

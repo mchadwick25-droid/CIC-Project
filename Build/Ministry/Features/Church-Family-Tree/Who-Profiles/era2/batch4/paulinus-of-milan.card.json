@@ -1,0 +1,85 @@
+{
+  "name": "Paulinus of Milan",
+  "otherNames": [
+    "Paulinus, deacon of Milan"
+  ],
+  "knownFor": "Secretary in the household of Ambrose of Milan, who wrote the Life of Ambrose at the request of Augustine of Hippo, and who is taken to be the deacon Paulinus who accused Caelestius at Carthage.",
+  "dates": "Flourished between about 375 and 422, by Sister Mary Simplicia Kaniecka's reckoning; wrote the Life in Africa between 412 and 422, by her dating; his petition to Zosimus of Rome is dated 8 November 417 by its editor Otto Günther",
+  "place": "Milan; later Africa, where he was at Carthage",
+  "tradition": "Ambrosian Milan (standalone)",
+  "role": "Secretary to Ambrose, deacon and biographer",
+  "briefLength": "about 2 minutes",
+  "keyWorks": [
+    {
+      "title": "Life of Ambrose (Vita Sancti Ambrosii)",
+      "about": "the bishop's life from birth to death and the wonders after it, written in Africa at Augustine's request from his own memory, Ambrose's sister Marcellina and men who served Ambrose"
+    },
+    {
+      "title": "Petition against Caelestius, given to Zosimus of Rome",
+      "about": "a short Latin letter explaining why he did not answer the summons to Rome, and thanking Zosimus for ordering Caelestius to condemn the charges; kept in the Collectio Avellana"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Sister Mary Simplicia Kaniecka says the Life \"contains many interesting details of St. Ambrose's private life which have not come down to us in any other work.\"",
+      "Kaniecka says he took the Life of Martin by Sulpicius Severus as his chief model.",
+      "Augustine of Hippo says Zosimus required Caelestius to condemn \"all the objectionable points which had been alleged against him by the deacon Paulinus.\""
+    ],
+    "remembered": [
+      "Kaniecka writes, \"The integrity of the writer cannot be questioned.\"",
+      "She also says that, judged as biography, \"the Vita is something of a disappointment,\" since it pays no heed to dates and touches Ambrose's public work only in passing.",
+      "Of the petition to Zosimus she says it \"does not give evidence of any great theological depth or learning.\""
+    ]
+  },
+  "uncertain": [
+    "Kaniecka calls the Life hagiography, written to edify. Its wonders, such as the fire on Ambrose's head as he dictated, are told as Paulinus saw them or heard them from others.",
+    "That the accuser of Caelestius is the author of the Life is an inference. Marius Mercator, a Latin layman who wrote against the Pelagians, calls the accuser a deacon of Ambrose of Milan. The Life puts its author in Ambrose's household and later in Africa. Kaniecka takes them to be one man. A note in the English edition of Augustine's On Original Sin says Mercator makes him the author of the Life, but the Latin of Mercator held here names him only as Ambrose's deacon.",
+    "His orders are unclear. Kaniecka says the Life shows him in minor orders under Ambrose, that Mercator and Augustine call him a deacon, and that Isidore of Seville makes him a priest.",
+    "Kaniecka dates the Life by John's term as praetorian prefect, 412 to 413 or 422, and settles on the years 412 to 422.",
+    "The Carthage hearing is dated 412 by B. B. Warfield and by the note in the English edition of Augustine. Kaniecka's own note gives 416 for the synod, though she calls Paulinus the accuser \"of five years before\" when Zosimus summoned him in 417.",
+    "Otto Günther dates the petition to 8 November 417. Kaniecka reports that some historians date it 8 November 416, and that Baronius, in his church annals, puts it a year later.",
+    "Kaniecka writes, \"Of the life of Paulinus we know very little.\" The sources used here do not give his birth, his family or his death."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Life of Ambrose, edited with a translation by Sister Mary Simplicia Kaniecka (1928)",
+        "language": "Latin, with English translation",
+        "file": "cic/texts/paulinus-milan_vita-ambrosii_kaniecka1928.txt"
+      },
+      {
+        "title": "Petition of the deacon Paulinus against Caelestius, given to Bishop Zosimus, Collectio Avellana 47 (ed. Otto Günther)",
+        "language": "Latin",
+        "file": "cic/texts/collectio-avellana_epistulae-imperatorum-pontificum-pars1-lat_guenther1895-csel35.txt"
+      },
+      {
+        "title": "His questions to Caelestius in the record of the Carthage hearing, quoted in Augustine's On Original Sin, chapters 3 and 4",
+        "language": "English translation",
+        "file": "cic/texts/npnf105_augustine-anti-pelagian-writings.xml"
+      }
+    ],
+    "about": [
+      {
+        "title": "Introduction to the Vita Sancti Ambrosii",
+        "author": "Sister Mary Simplicia Kaniecka",
+        "date": null,
+        "language": "English",
+        "file": "cic/texts/paulinus-milan_vita-ambrosii_kaniecka1928.txt"
+      },
+      {
+        "title": "Commonitorium on the name of Caelestius, chapter 1",
+        "author": "Marius Mercator",
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/marius-mercator_opera-omnia-lat_migne-pl48.txt"
+      },
+      {
+        "title": "On Original Sin; Introductory Essay by B. B. Warfield",
+        "author": "Augustine of Hippo; B. B. Warfield",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf105_augustine-anti-pelagian-writings.xml"
+      }
+    ]
+  }
+}

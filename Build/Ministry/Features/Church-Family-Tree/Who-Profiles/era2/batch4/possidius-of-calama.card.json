@@ -1,0 +1,81 @@
+{
+  "name": "Possidius of Calama",
+  "otherNames": [
+    "Possidius",
+    "Posidius"
+  ],
+  "knownFor": "Bishop of Calama and the friend of Augustine of Hippo for almost forty years, who was with him through the Vandal siege of Hippo and wrote his Life, with a list of his works.",
+  "dates": "Bishop of Calama by 411, when the Carthage conference lists him, and probably by 408, by Augustine's letters; from 397, by Herbert Weiskotten's reckoning; at Augustine's deathbed in 430; driven from his see in 437, if he is the Posidius of Prosper of Aquitaine's Chronicle",
+  "place": "Hippo; Calama, about forty miles from Hippo",
+  "tradition": "Latin Pastoral-Congregational Christianity",
+  "role": "Bishop of Calama and biographer",
+  "briefLength": "about 2 minutes",
+  "keyWorks": [
+    {
+      "title": "Life of Augustine (Sancti Augustini Vita)",
+      "about": "Augustine's life from his conversion to his death in the siege of Hippo, written by a friend from what he saw and heard"
+    },
+    {
+      "title": "The Indiculus",
+      "about": "his list of Augustine's books, sermons and letters, added at the end of the Life so readers could find copies; not held in the Library"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Herbert Weiskotten names his Life, with Augustine's Confessions, as one of the two main sources for the life of Augustine.",
+      "He wrote that readers could seek copies of Augustine's works \"from the library of the church of Hippo.\""
+    ],
+    "remembered": [
+      "Augustine wrote that in Possidius \"you will find one who is very much the same as myself,\" a man nourished by his labours \"with the Lord's bread.\"",
+      "To Nectarius of Calama, Augustine said Possidius loved the town's people \"in a way more likely to promote their welfare than you do yourself.\"",
+      "Weiskotten says that, apart from his ties with Augustine, Possidius is practically unknown."
+    ]
+  },
+  "uncertain": [
+    "His Life is a friend's memorial, written, he says, to build up the church, and it records what he saw in Augustine and heard from him.",
+    "Augustine's letter on the riot at Calama in 408 speaks of \"the bishop\" without a name. The bishop is taken to be Possidius from Augustine's next letter to Nectarius of Calama, from the list of the 411 conference, which names \"Possidius Calamensis\", and from a note in J. G. Cunningham's English translation of the letters.",
+    "The Life tells of a bishop of Calama, trained in Augustine's monastery, who was ambushed and wounded by Donatists. Possidius does not name him. A note to Letter 88 in Cunningham's translation names Possidius as the bishop Crispinus was charged with trying to kill.",
+    "Prosper of Aquitaine names a Posidius among the bishops the Vandal king Geiseric drove out in 437, but gives no see. Weiskotten takes him for Possidius of Calama.",
+    "Weiskotten puts his birth between 360 and 370 and his consecration in 397, after Bishop Megalius of Calama. These are his estimates, and no early witness used here gives either date.",
+    "Of his last years after 437 Weiskotten writes, \"He may have gone to Italy, but there is no evidence to that effect.\""
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Life of Augustine, edited with an English version by Herbert T. Weiskotten (1919)",
+        "language": "Latin, with English translation",
+        "file": "cic/texts/possidius_vita-augustini_weiskotten1919.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Letters 91, 95, 101 and 104, and Letter 245, to Possidius",
+        "author": "Augustine of Hippo",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf101_augustine-confessions-letters.xml"
+      },
+      {
+        "title": "Acts of the Conference of Carthage, 411: the list of the seven Catholic speakers",
+        "author": null,
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/pl11-zeno-optatus-collatio-carthaginiensis_migne.txt"
+      },
+      {
+        "title": "Epitoma Chronicon, year 437",
+        "author": "Prosper of Aquitaine",
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/prosper_chronica-minora-1-lat_mommsen1892.txt"
+      },
+      {
+        "title": "Introduction to the Life of Saint Augustine",
+        "author": "Herbert T. Weiskotten",
+        "date": null,
+        "language": "English",
+        "file": "cic/texts/possidius_vita-augustini_weiskotten1919.txt"
+      }
+    ]
+  }
+}
