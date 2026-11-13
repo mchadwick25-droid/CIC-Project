@@ -1,0 +1,60 @@
+{
+  "name": "Olympias of Constantinople",
+  "otherNames": [
+    "Olympias the deaconess"
+  ],
+  "knownFor": "A deaconess of Constantinople who gave her great fortune to the church and the poor, stood by John Chrysostom when he was exiled, and received seventeen of his surviving letters.",
+  "dates": "Born about 368, by W. R. W. Stephens's reckoning; died between 408 and 420, by Philip Schaff's",
+  "place": "Constantinople, and later Cyzicus",
+  "tradition": "Constantinople",
+  "role": "Deaconess and patron",
+  "briefLength": "about 2 minutes",
+  "legacy": {
+    "traces": [
+      "The support of bishops and ascetics in and beyond Constantinople. The Dialogue on the life of Chrysostom names bishops she provided for, Nectarius and Epiphanius of Salamis among them.",
+      "Seventeen letters of John Chrysostom, written to her and kept."
+    ],
+    "remembered": [
+      "Palladius of Helenopolis says the people of Constantinople \"reckon her life among the confessors.\"",
+      "In the Dialogue, when asked about her, the bishop who speaks answers, \"she is a man in everything but body.\""
+    ]
+  },
+  "uncertain": [
+    "W. R. W. Stephens, John's translator, says nothing definite is known of her later life, nor whether she was driven from Constantinople or left of her own accord. Sozomen says she left for Cyzicus after the prefect fined her.",
+    "The length of her marriage differs. Palladius's Lausiac History calls her a \"bride for a few days\". The Dialogue says the marriage did not last \"even for twenty months\". Stephens puts her husband's death about two years after the wedding.",
+    "Who set the cathedral fire is disputed. Socrates of Constantinople says some of John's followers did. Sozomen says each side blamed the other, and that the charge against Olympias was not proved.",
+    "The Dialogue is a defence of John, and Herbert Moore, its translator, argues that Palladius wrote it. The work does not name its author."
+  ],
+  "sources": {
+    "about": [
+      {
+        "title": "The Lausiac History, chapter 56 (tr. Clarke)",
+        "author": "Palladius of Helenopolis",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/palladius_lausiac-history_clarke1918.txt"
+      },
+      {
+        "title": "The Dialogue Concerning the Life of Chrysostom (tr. Moore)",
+        "author": "Palladius of Helenopolis, as Herbert Moore identifies him",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/palladius_dialogue-life-of-chrysostom_moore1921.txt"
+      },
+      {
+        "title": "Letters to Olympias, with W. R. W. Stephens's introduction",
+        "author": "John Chrysostom",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf109_chrysostom-priesthood-ascetic-homilies-statutes.xml"
+      },
+      {
+        "title": "Ecclesiastical History, Book 8, chapters 9, 22 and 24 (Sozomen); Book 6, chapter 18 (Socrates)",
+        "author": "Sozomen; Socrates of Constantinople",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
+      }
+    ]
+  }
+}
