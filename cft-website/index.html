@@ -28,11 +28,14 @@ body{margin:0;background:var(--parchment);color:var(--iron-gall);
 .topbar h1{font-family:"Alegreya",Georgia,serif;font-size:1.5rem;font-weight:700;margin:0}
 .topbar .tag{flex:1 1 100%;font-size:1rem;color:var(--ink-faded);font-style:italic}
 .topbar .spacer{flex:1}
-.topbar a.cic-link{font-size:1.05rem;font-weight:700;color:var(--iron-gall);text-decoration:none;white-space:nowrap;
+.topbar a.cic-link{display:inline-flex;align-items:center;min-height:44px;font-size:1.05rem;font-weight:700;color:var(--iron-gall);text-decoration:none;white-space:nowrap;
   border:1px solid var(--rule);border-radius:999px;padding:.55rem 1.1rem}
 .topbar a.cic-link:hover,.topbar a.cic-link:focus-visible{border-color:var(--gold-leaf);color:var(--gold-leaf)}
-.topbar a.support-link{font-size:1rem;color:var(--ink-faded);text-decoration:none;white-space:nowrap}
+.topbar a.support-link{display:inline-flex;align-items:center;min-height:44px;font-size:1rem;color:var(--ink-faded);text-decoration:none;white-space:nowrap}
 .topbar a.support-link:hover,.topbar a.support-link:focus-visible{color:var(--gold-leaf)}
+.skip-link{position:absolute;left:-999px;top:auto;z-index:100;display:inline-flex;align-items:center;min-height:44px;padding:0 1rem;background:var(--iron-gall);color:var(--parchment);font-weight:700}
+.skip-link:focus{position:fixed;left:.8rem;top:.8rem}
+#stage:focus{outline:none}
 .switches .foot{margin-top:.6rem;padding-top:.5rem;border-top:1px solid var(--rule);font-size:.72rem;color:var(--ink-faded);line-height:1.6}
 .switches .foot a{color:var(--gold-leaf)}
 .topbar button{font:inherit;font-size:1rem;min-height:44px;background:var(--vellum);color:var(--iron-gall);
@@ -50,7 +53,7 @@ body{margin:0;background:var(--parchment);color:var(--iron-gall);
   gap:.5rem;padding:.4rem .9rem;background:var(--parchment);border-bottom:1px solid var(--rule)}
 .chip-group{position:relative}
 .chip-group:last-child{margin-left:auto}
-.chip{font-family:"Alegreya Sans",sans-serif;font-size:1rem;font-weight:700;background:none;cursor:pointer;
+.chip{min-height:44px;font-family:"Alegreya Sans",sans-serif;font-size:1rem;font-weight:700;background:none;cursor:pointer;
   color:var(--iron-gall);padding:.35rem .85rem;border:1px solid var(--rule);border-radius:999px}
 .chip:hover,.chip:focus-visible,.chip[aria-expanded="true"]{border-color:var(--gold-leaf);color:var(--gold-leaf)}
 .chip[aria-pressed]{display:inline-flex;align-items:center;gap:.6rem;min-height:44px}
@@ -112,7 +115,7 @@ svg#world{display:block;overflow:visible}
   border-left:2px solid var(--gold-leaf);z-index:30;transform:translateX(105%);
   transition:transform .22s ease;overflow-y:auto;padding:1.2rem 1.3rem 2rem}
 #panel.open{transform:translateX(0)}
-#panel .close{position:sticky;top:0;float:right;background:var(--vellum);border:none;
+#panel .close{min-width:44px;min-height:44px;display:inline-flex;align-items:center;justify-content:center;position:sticky;top:0;float:right;background:var(--vellum);border:none;
   font-size:1.3rem;color:var(--ink-faded);cursor:pointer;line-height:1;padding:.2rem}
 #panel h2{font-family:"Alegreya",serif;font-size:1.3rem;margin:.2rem 0 .1rem}
 #panel .meta{font-style:italic;color:var(--ink-faded);font-size:.88rem;margin:0 0 .8rem}
@@ -300,10 +303,7 @@ svg.who-on .edge-line,svg.who-on .edge-hit,svg.who-on .continues{display:none!im
   #who .who-hit{height:calc(30 / var(--zoom-scale,1));y:calc(-15 / var(--zoom-scale,1))}
   #panel .who-btn{min-height:44px}
   .edge-hit{stroke-width:calc(30 / var(--zoom-scale,1))}
-    #panel .close{min-width:44px;min-height:44px;display:inline-flex;
-    align-items:center;justify-content:center}
   #panel .act{min-height:44px}
-  .chip{min-height:44px}
 }
 </style>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -313,7 +313,8 @@ svg.who-on .edge-line,svg.who-on .edge-hit,svg.who-on .continues{display:none!im
 </head>
 <body>
 
-<div class="topbar">
+<a class="skip-link" href="#stage">Skip to the map</a>
+<header class="topbar">
   <h1>Church Family Tree</h1>
   <a class="cic-link" href="https://churchinconversation.com/">Church in Conversation</a>
   <div class="spacer"></div>
@@ -321,12 +322,12 @@ svg.who-on .edge-line,svg.who-on .edge-hit,svg.who-on .continues{display:none!im
   <button type="button" class="feedback-toggle" id="feedback-toggle" aria-haspopup="dialog" aria-expanded="false">Tell us what you think</button>
   <button id="resetBtn" type="button">Reset view</button>
   <span class="tag">an interactive map of Christian tradition, from the first house-churches to about 2010</span>
-</div>
+</header>
 <div class="feature-bar switches" id="switchbar" role="toolbar" aria-label="Show or hide parts of the map"></div>
 
-<div id="stage">
+<main id="stage" tabindex="-1" aria-label="Map of the Church Family Tree">
   <svg id="world" xmlns="http://www.w3.org/2000/svg"></svg>
-</div>
+</main>
 
 <div id="tip"></div>
 <div id="panel" role="dialog" aria-modal="true" aria-labelledby="panelTitle" tabindex="-1" inert><button class="close" id="panelClose" aria-label="Close">&times;</button><div id="panelBody"></div></div>

@@ -83,9 +83,11 @@ li{margin-bottom:.5rem}
 .site-footer{border-top:1px solid var(--rule);background:var(--surface);font-family:var(--sans);font-size:.85rem;color:var(--muted);margin-top:3rem;padding:1.5rem 1.25rem}
 .site-footer .row{max-width:var(--wide);margin:0 auto}
 .site-header nav{display:flex;flex-wrap:wrap;gap:.4rem 1rem;align-items:center;margin-left:auto;font-family:var(--sans);font-size:.92rem}
-.site-header nav a{color:var(--action);text-decoration:none}
+.site-header nav a{color:var(--action);text-decoration:none;display:inline-flex;align-items:center;min-height:44px}
 .site-header nav a:hover{color:var(--action-hover)}
+.site-header nav .feedback-toggle{min-height:44px}
 .site-footer nav{display:flex;flex-wrap:wrap;gap:.4rem 1.1rem;margin-top:.6rem}
+.site-footer nav a{display:inline-flex;align-items:center;min-height:44px}
 .site-footer a{color:var(--action)}
 .give{display:flex;flex-wrap:wrap;gap:.6rem;margin:1rem 0}
 .give a{display:inline-block;padding:.6rem 1.2rem;background:var(--btn-fill);color:var(--btn-text);text-decoration:none;border-radius:4px}
@@ -111,7 +113,7 @@ li{margin-bottom:.5rem}
     </nav>
   </div>
 </header>
-<div class="page">
+<main class="page" id="content">
   <div class="titleblock"><h1>Terms of Use</h1></div>
 <section>
   <h2>In short</h2>
@@ -151,7 +153,7 @@ li{margin-bottom:.5rem}
   </ul>
   <p>Questions? Write to <a href="mailto:info@churchinconversation.com">info@churchinconversation.com</a>.</p>
 </section>
-</div>
+</main>
 <footer class="site-footer">
   <div class="row">
     <p>&copy; 2026 Faithways Studio, Inc., a Colorado public benefit corporation &middot; <a href="/license.html">License</a>. The same team makes <a href="https://churchinconversation.com/">Church in Conversation</a>.</p>
