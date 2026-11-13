@@ -36,7 +36,7 @@ body{margin:0;background:var(--parchment);color:var(--iron-gall);
 .skip-link{position:absolute;left:-999px;top:auto;z-index:100;display:inline-flex;align-items:center;min-height:44px;padding:0 1rem;background:var(--iron-gall);color:var(--parchment);font-weight:700}
 .skip-link:focus{position:fixed;left:.8rem;top:.8rem}
 #stage:focus{outline:none}
-.switches .foot{margin-top:.6rem;padding-top:.5rem;border-top:1px solid var(--rule);font-size:.72rem;color:var(--ink-faded);line-height:1.6}
+.switches .foot{margin-top:.6rem;padding-top:.5rem;border-top:1px solid var(--rule);font-size:.75rem;color:var(--ink-faded);line-height:1.6}
 .switches .foot a{color:var(--gold-leaf)}
 .topbar button{font:inherit;font-size:1rem;min-height:44px;background:var(--vellum);color:var(--iron-gall);
   border:1px solid var(--rule);border-radius:3px;padding:.35rem .7rem;cursor:pointer}
@@ -77,7 +77,7 @@ svg#world{display:block;overflow:visible}
 .era-tag{font-family:"Alegreya",Georgia,serif;font-style:italic;font-size:16px;fill:var(--ink-faded)}
 .era-context{font-family:"Alegreya",Georgia,serif;font-size:15px;fill:var(--iron-gall)}
 .era-close{font-style:italic;fill:var(--gold-leaf)}
-.lbl{display:none;font-family:"Alegreya Sans",sans-serif;font-size:11px;fill:var(--iron-gall);
+.lbl{display:none;font-family:"Alegreya Sans",sans-serif;font-size:0.6875rem;fill:var(--iron-gall);
   paint-order:stroke;stroke:var(--parchment);stroke-width:3px;stroke-linejoin:round;
   user-select:none}
 .portrait-plate{display:none;pointer-events:auto;cursor:pointer}
@@ -96,9 +96,9 @@ svg#world{display:block;overflow:visible}
 .story{cursor:pointer}
 .story:focus-visible{outline:none}
 .story:hover circle.halo{opacity:.35}
-.story-title{display:none;font-family:"Alegreya",Georgia,serif;font-style:italic;font-size:10px;fill:var(--iron-gall);fill-opacity:.85;paint-order:stroke;stroke:var(--parchment);stroke-width:2.5px;stroke-linejoin:round}
-.node .pl{display:none;font-family:"Alegreya Sans",sans-serif;font-size:10px;fill:var(--iron-gall);fill-opacity:.82;paint-order:stroke;stroke:var(--parchment);stroke-width:2.5px;stroke-linejoin:round}
-.node .lbl{font-family:"Alegreya",Georgia,serif;font-size:11px;fill:var(--iron-gall);
+.story-title{display:none;font-family:"Alegreya",Georgia,serif;font-style:italic;font-size:0.625rem;fill:var(--iron-gall);fill-opacity:.85;paint-order:stroke;stroke:var(--parchment);stroke-width:2.5px;stroke-linejoin:round}
+.node .pl{display:none;font-family:"Alegreya Sans",sans-serif;font-size:0.625rem;fill:var(--iron-gall);fill-opacity:.82;paint-order:stroke;stroke:var(--parchment);stroke-width:2.5px;stroke-linejoin:round}
+.node .lbl{font-family:"Alegreya",Georgia,serif;font-size:0.6875rem;fill:var(--iron-gall);
   paint-order:stroke;stroke:var(--parchment);stroke-width:3px}
 .edge-line{pointer-events:stroke;cursor:pointer;stroke-width:calc(2.4 / var(--zoom-scale,1))}
 .edge-line:hover{stroke-width:calc(4 / var(--zoom-scale,1))}
@@ -120,9 +120,9 @@ svg#world{display:block;overflow:visible}
 #panel h2{font-family:"Alegreya",serif;font-size:1.3rem;margin:.2rem 0 .1rem}
 #panel .meta{font-style:italic;color:var(--ink-faded);font-size:.88rem;margin:0 0 .8rem}
 #panel .statuspill{display:inline-block;font-family:"Alegreya Sans",sans-serif;
-  font-size:.68rem;letter-spacing:.06em;text-transform:uppercase;border:1px solid var(--rule);
+  font-size:.75rem;letter-spacing:.06em;text-transform:uppercase;border:1px solid var(--rule);
   border-radius:999px;padding:.12rem .55rem;margin-bottom:.7rem}
-#panel h3{font-family:"Alegreya Sans",sans-serif;font-size:.72rem;letter-spacing:.1em;
+#panel h3{font-family:"Alegreya Sans",sans-serif;font-size:.75rem;letter-spacing:.1em;
   text-transform:uppercase;color:var(--gold-leaf);margin:1rem 0 .3rem}
 #panel p{font-size:.92rem;line-height:1.6;margin:.3rem 0}
 #panel .edge{font-size:.85rem;padding:.4rem 0;border-bottom:1px solid var(--rule)}
@@ -146,7 +146,7 @@ svg#world{display:block;overflow:visible}
 .across-dot{fill:var(--iron-gall)}
 .across:hover .across-line,.across:focus-visible .across-line,.across.is-lit .across-line{stroke:var(--gold-leaf);stroke-opacity:1}
 .across:hover .across-dot,.across:focus-visible .across-dot,.across.is-lit .across-dot{fill:var(--gold-leaf)}
-.across-lbl{display:none;font-family:"Alegreya",Georgia,serif;font-size:11px;fill:var(--iron-gall);
+.across-lbl{display:none;font-family:"Alegreya",Georgia,serif;font-size:0.6875rem;fill:var(--iron-gall);
   paint-order:stroke;stroke:var(--parchment);stroke-width:3px;stroke-linejoin:round;user-select:none}
 .across.is-off.is-lit{display:inline}
 .tie{display:none;cursor:pointer;pointer-events:stroke}
@@ -171,7 +171,7 @@ svg#world{display:block;overflow:visible}
 #panel details.sources-panel{margin:.8rem 0 .3rem;border-top:1px solid var(--rule);
   padding-top:.6rem}
 #panel details.sources-panel summary{cursor:pointer;font-family:"Alegreya Sans",sans-serif;
-  font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--gold-leaf)}
+  font-size:.75rem;letter-spacing:.1em;text-transform:uppercase;color:var(--gold-leaf)}
 #panel details.sources-panel summary:focus-visible{outline:2px solid var(--gold-leaf);
   outline-offset:2px}
 #panel .docstories-row{display:flex;flex-wrap:wrap;gap:.5rem;margin:.6rem 0 .3rem}
@@ -275,7 +275,7 @@ svg.who-on .edge-line,svg.who-on .edge-hit,svg.who-on .continues{display:none!im
 #panel .people-list li{margin:.25rem 0}
 #panel .people-note{color:var(--ink-faded)}
 #panel dl.person-facts{display:grid;grid-template-columns:auto 1fr;gap:.25rem .8rem;margin:.6rem 0}
-#panel dl.person-facts dt{font-family:"Alegreya Sans",sans-serif;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;color:var(--gold-leaf);padding-top:.2rem}
+#panel dl.person-facts dt{font-family:"Alegreya Sans",sans-serif;font-size:.75rem;letter-spacing:.08em;text-transform:uppercase;color:var(--gold-leaf);padding-top:.2rem}
 #panel dl.person-facts dd{margin:0;min-width:0}
 #panel h4{font-family:"Alegreya Sans",sans-serif;font-size:.85rem;margin:.7rem 0 .2rem}
 #panel .person-list{padding-left:1.1rem;margin:.2rem 0 .6rem}
@@ -284,7 +284,7 @@ svg.who-on .edge-line,svg.who-on .edge-hit,svg.who-on .continues{display:none!im
 #panel .disputed{color:var(--madder);font-size:.8rem}
 #panel details.brief-text summary{cursor:pointer;color:var(--tyrian);font-size:.85rem}
 .edge-line.is-off.is-lit,.edge-hit.is-off.is-lit{display:inline}
-#zoomHint{position:fixed;right:.8rem;bottom:.8rem;z-index:20;font-size:.7rem;
+#zoomHint{position:fixed;right:.8rem;bottom:.8rem;z-index:20;font-size:.75rem;
   color:var(--ink-faded);background:var(--vellum);border:1px solid var(--rule);
   border-radius:3px;padding:.4rem .6rem;max-width:230px;text-align:right}
 @media (prefers-reduced-motion:reduce){.river-calm,.river-organic,#panel{transition:none!important}}
