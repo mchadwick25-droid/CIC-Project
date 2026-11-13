@@ -1,0 +1,66 @@
+{
+  "name": "Aetius of Antioch",
+  "otherNames": [
+    "Aetius the Godless (\"Atheus\"), the nickname given him by the Arians"
+  ],
+  "knownFor": "A sharp-tongued Arian logician who taught that the Son is unlike the Father, founding the Anomoean party; even the Arians cast him out.",
+  "dates": "Active from about 350; died at Constantinople, about 367",
+  "place": "From Coele-Syria; taught at Antioch and Alexandria",
+  "tradition": "Anomoean (Eunomian) Christianity",
+  "role": "Deacon, teacher and logician",
+  "keyWorks": [
+    {
+      "title": "The Syntagmation",
+      "about": "a short book of logical propositions arguing the Son is unlike the Father, kept inside Epiphanius's Panarion 76, which copies it out to refute it"
+    }
+  ],
+  "briefLength": "about 1 minute 45 seconds",
+  "legacy": {
+    "traces": [
+      "The Anomoeans, later called Eunomians after his pupil Eunomius of Cyzicus, who carried his teaching on."
+    ],
+    "remembered": [
+      "Socrates of Constantinople records the nickname his own side gave him, Atheus, the godless one.",
+      "At the Council of Constantinople in 360 his own party deposed him from the diaconate to satisfy the emperor."
+    ]
+  },
+  "uncertain": [
+    "His life is told mostly through partisans. Philostorgius, who praised him, gives the story of the poor goldsmith who rose by logic; his history survives only in a hostile summary by Photius. Socrates, Sozomen and Epiphanius, who opposed him, tell the rest.",
+    "He leaned on Aristotle's Categories, Socrates says, and framed arguments that even fellow Arians could not follow, so they called him a heretic. Whether this was depth or vain subtlety, his friends and his foes disagreed.",
+    "The years of his birth and death are not given in a held source. Philostorgius places his death at Constantinople, after Julian had given him land on Lesbos."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "The Syntagmation, in Panarion 76 (Greek, Migne's edition)",
+        "author": "Aetius, quoted by Epiphanius of Salamis",
+        "date": null,
+        "language": "Greek",
+        "file": "cic/texts/epiphanius_panarion-haer-65-80-pg42-grc-lat_migne1863.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Church History, Book 2, chapter 35, and the later chapters on his deposition",
+        "author": "Socrates of Constantinople",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
+      },
+      {
+        "title": "Ecclesiastical History (an Arian account, surviving in Photius's hostile summary)",
+        "author": "Philostorgius",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/philostorgius_ecclesiastical-history_walford1855.txt"
+      },
+      {
+        "title": "Select Works and Letters, with Robertson's account of the Council of 360",
+        "author": "Athanasius of Alexandria",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf204_athanasius-select-works-letters.xml"
+      }
+    ]
+  }
+}
