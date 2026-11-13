@@ -1,0 +1,92 @@
+{
+  "name": "Eusebius of Nicomedia",
+  "knownFor": "Bishop of Berytus, Nicomedia and at last Constantinople, who took up Arius's cause against Alexander of Alexandria and led the party his opponents named after him.",
+  "dates": "Exiled within three months of the Council of Nicaea of 325, by Philostorgius; recalled after three years, by Philostorgius, in 328 by A. C. Zenos's note to Socrates of Constantinople; died soon after the synod of Antioch held in the fifth year after Constantine's death, by Socrates, which Zenos dates to 341",
+  "place": "Berytus; Nicomedia in Bithynia; Nicaea; Constantinople; Antioch",
+  "tradition": "Homoian ('Arian') Christianity",
+  "role": "Bishop and leader of a church party",
+  "briefLength": "about 2 minutes 30 seconds",
+  "keyWorks": [
+    {
+      "title": "Letter to Paulinus of Tyre",
+      "about": "urges Paulinus to write for Arius's side and holds that the Son was not made from the Father's substance; kept by Theodoret of Cyrrhus"
+    },
+    {
+      "title": "Plea of Eusebius and Theognis to the bishops",
+      "about": "asks to be restored, saying they signed the creed of Nicaea but not the condemnation of Arius; kept by Socrates"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Philostorgius says Ulfila was made bishop of the Goths \"by Eusebius and the other prelates that were with him\". Louis Duchesne names this Eusebius as Eusebius of Nicomedia.",
+      "Socrates names Theognis of Nicaea, Maris of Chalcedon, Theodore of Heraclea, Ursacius of Singidunum and Valens of Mursa as those who \"had formerly co-operated with Eusebius\" and took up his authority after his death.",
+      "Blomfield Jackson's note to Theodoret says Constantine was baptised \"At the hand of Eusebius of Nicomedia\"."
+    ],
+    "remembered": [
+      "Athanasius of Alexandria, in his Encyclical Letter: \"Eusebius and his fellows have always been the supporters and associates of the impious heresy of the Arian madmen\".",
+      "Constantine, writing to the people of Nicomedia: \"the co-operator in the cruelty of the tyrants\".",
+      "Archibald Robertson, editor of Athanasius, calls the Eusebians the \"personal entourage, of one man, a master of intrigue\"."
+    ]
+  },
+  "uncertain": [
+    "Most accounts of him come from opponents: Alexander of Alexandria, Athanasius, Constantine's letter and the Nicene historians. Philostorgius was on his side, but survives only in the hostile summary of Photius of Constantinople.",
+    "Whether he signed the creed of Nicaea is told two ways. Philostorgius says he signed and has Secundus of Ptolemais taunt him for it. Socrates says he was one of five who would not accept it. His own plea, in Socrates, says he signed the creed but not the condemnation of Arius. Walford, translating Philostorgius, takes Socrates to be mistaken.",
+    "Why he was exiled is told two ways. Constantine's letter blames his sheltering of men from Alexandria. Socrates ties it to his support for Arius, and Zenos says Socrates \"does not give the correct reason\".",
+    "When he took the see of Constantinople is told two ways. Socrates says Constantius moved him there after deposing Paul, bishop of Constantinople. Theodoret and Philostorgius place it at the death of Alexander of Constantinople, which Walford's note calls a mistake.",
+    "Theodoret does not say who baptised Constantine. The name is Blomfield Jackson's note.",
+    "Philostorgius gives Ulfila's consecrator only as \"Eusebius\". The identification is Duchesne's.",
+    "Philostorgius's story that Constantine's will was entrusted to him comes only through Photius's summary.",
+    "The year of his death, 341, is Zenos's reckoning from Socrates's dating of the synod of Antioch."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Letter to Paulinus of Tyre, in Theodoret, Church History I.5 (tr. Blomfield Jackson)",
+        "language": "English translation",
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+      },
+      {
+        "title": "Plea of Eusebius and Theognis, in Socrates, Church History I.14 (tr. A. C. Zenos)",
+        "language": "English translation",
+        "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
+      }
+    ],
+    "about": [
+      {
+        "title": "Church History I.4, I.18-19, I.30",
+        "author": "Theodoret of Cyrrhus; with letters of Arius and Constantine",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+      },
+      {
+        "title": "Church History I.6, I.8, I.14, II.7-8, II.12 (Socrates); I.15 (Sozomen)",
+        "author": "Socrates of Constantinople; Sozomen; with Alexander of Alexandria's circular letter",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
+      },
+      {
+        "title": "Ecclesiastical History, epitome by Photius, I.9-10, II.5, II.7, II.14, II.16",
+        "author": "Philostorgius",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/philostorgius_ecclesiastical-history_walford1855.txt"
+      },
+      {
+        "title": "Encyclical Letter; Prolegomena",
+        "author": "Athanasius of Alexandria; Archibald Robertson",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf204_athanasius-select-works-letters.xml"
+      },
+      {
+        "title": "Histoire ancienne de l'Église, tome 2",
+        "author": "Louis Duchesne",
+        "date": "1907",
+        "language": "French",
+        "file": "cic/texts/duchesne_histoire-ancienne-de-leglise-tome2-fra_3e-ed1907.txt"
+      }
+    ]
+  }
+}

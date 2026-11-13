@@ -1,0 +1,68 @@
+{
+  "name": "Mesrop Mashtots",
+  "otherNames": [
+    "Mesrob",
+    "Maschdotz",
+    "Maschthotz"
+  ],
+  "knownFor": "Armenian monk who, by the account of his pupil Koriun, made the Armenian letters with a hermit named Rufinus, whom Koriun's text calls a man of Samos, began putting the Scriptures into Armenian, and set up schools in the Persian and Roman parts of Armenia.",
+  "dates": "Born in 361 and died in 441, at eighty, by a note in Victor Langlois's edition; Koriun gives no years. Koriun places the making of the letters under the emperor Theodosius the Younger, and Mesrop's death on the eighteenth of the month méhégan, in the year Sahak died",
+  "place": "Daron; Koghten; Syrian Mesopotamia; Constantinople and the Roman part of Armenia; Georgia; the New City, in Ararat",
+  "tradition": "Armenian Christianity (conversion era)",
+  "role": "Monk, teacher and maker of the Armenian letters",
+  "briefLength": "about 2 minutes 30 seconds",
+  "legacy": {
+    "traces": [
+      "Koriun says Sahak and Mesrop sent pupils, Eznik of Goghp and Joseph of Baghin among them, to Edessa and Constantinople. They brought back sound copies of the Scriptures, and the first hasty translations were corrected against them; the French supplies Sahak's name in brackets.",
+      "Koriun says Mesrop gave the Georgians letters, renewed the letters of the Aghouank, and left teachers in both lands.",
+      "Langlois writes that the name \"caractères mesrobiens\" became the usual name for the Armenian alphabet."
+    ],
+    "remembered": [
+      "Moses of Khoren, whom Langlois takes for Mesrop's nephew and pupil, says he died as one \"qui surpassait en vertu ses contemporains les plus vertueux\".",
+      "Lazar of Pharp, a later Armenian historian, sends readers to Koriun's Life to learn when, where and through whom the letters were found."
+    ]
+  },
+  "uncertain": [
+    "Almost all that is known of him comes from the Life by his pupil Koriun, the work of a disciple honouring a saint, with demons put to flight and a cross of light over the house where he died. It is held only in J.-Raphaël Emine's French translation, in Langlois's edition. Moses of Khoren and Lazar of Pharp retell parts of it.",
+    "Koriun gives no year for the letters or for Mesrop's birth or death. The years 361 and 441 and the age of eighty come from a note in Langlois's edition.",
+    "The day and place of his death are told two ways. Koriun gives the eighteenth of méhégan, in the New City, in Ararat, in the same year as Sahak's death and ten months after it, as the French reads. Moses of Khoren and Lazar of Pharp give the thirteenth of méhégan, six months after Sahak, at Vagharschabad, which Lazar says was also called the New City.",
+    "Koriun says the Syrian bishop Daniel's help came to nothing. Langlois, following Luc Indjidji, holds that earlier attempts at Armenian letters had been made, and that Mesrop \"ne fit que reprendre un travail\" begun long before. Later writers whom Langlois quotes tell of letters kept by Daniel that Mesrop completed.",
+    "Koriun's text calls Rufinus a hermit of Samos and a disciple of an Epiphanius whom it does not identify. A note citing Saint-Martin, and Langlois's introduction, read Samosata, a town of Syria near Armenia, and Langlois says the copyists all wrote Samos.",
+    "The French calls the man driven out after the Council of Ephesus \"Théodore\", and adds \"[de Mopsueste]\" in brackets. The identification is the bracket's, not Koriun's.",
+    "That Mesrop gave the Georgians an alphabet and renewed that of the Aghouank rests on Koriun here.",
+    "Koriun names his father as Vartan. A note in Langlois's edition reports a supposition, by Emin, that he was of the Mamikonian family. Langlois says some authors claim Mesrop once served in the army, and thinks the post in the royal archives more likely.",
+    "No writing of Mesrop's own is held. Koriun says he composed many discourses for ordinary people."
+  ],
+  "sources": {
+    "about": [
+      {
+        "title": "Life of Mesrop (Biographie du bienheureux et saint docteur Mesrob), tr. J.-Raphaël Emine",
+        "author": "Koriun",
+        "date": null,
+        "language": "French translation",
+        "file": "cic/texts/langlois_collection-historiens-armenie-tome2-fra_1869.txt"
+      },
+      {
+        "title": "History of Armenia, Book III",
+        "author": "Moses of Khoren",
+        "date": null,
+        "language": "French translation",
+        "file": "cic/texts/langlois_collection-historiens-armenie-tome2-fra_1869.txt"
+      },
+      {
+        "title": "History of Armenia (tr. Samuel Ghesarian)",
+        "author": "Lazar of Pharp",
+        "date": null,
+        "language": "French translation",
+        "file": "cic/texts/langlois_collection-historiens-armenie-tome2-fra_1869.txt"
+      },
+      {
+        "title": "Introduction to Koriun, and notes",
+        "author": "Victor Langlois",
+        "date": null,
+        "language": "French",
+        "file": "cic/texts/langlois_collection-historiens-armenie-tome2-fra_1869.txt"
+      }
+    ]
+  }
+}

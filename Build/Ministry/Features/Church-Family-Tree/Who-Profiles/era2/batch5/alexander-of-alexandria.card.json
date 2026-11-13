@@ -1,0 +1,81 @@
+{
+  "name": "Alexander of Alexandria",
+  "knownFor": "Bishop of Alexandria who put his presbyter Arius out of the church, and whose letters against him, kept by Socrates of Constantinople and Theodoret of Cyrrhus, tell the start of the quarrel from his side.",
+  "dates": "Bishop from 312 to 326 by Blomfield Jackson's note to Theodoret; died five months after the Council of Nicaea by Theodoret, or on 17 April 328 by Archibald Robertson's reading of the index to the Festal Letters of Athanasius",
+  "place": "Alexandria; Nicaea",
+  "tradition": "Alexandrian Catechetical / Christian-Platonist Tradition",
+  "role": "Bishop of Alexandria",
+  "briefLength": "about 2 minutes",
+  "keyWorks": [
+    {
+      "title": "Letter to Alexander, bishop of Constantinople",
+      "about": "on the teaching of Arius and his followers and their expulsion, with Alexander's case that the Son was never made out of nothing; kept by Theodoret"
+    },
+    {
+      "title": "Circular letter to the bishops of the Catholic Church everywhere",
+      "about": "announces that nearly a hundred bishops of Egypt and Libya condemned Arius, and warns against Eusebius of Nicomedia; kept by Socrates and printed among the works of Athanasius"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Athanasius, his deacon, came to Nicaea \"as one of the retinue of Alexander\" and succeeded him as bishop, Theodoret says.",
+      "The circular letter is printed among the anti-Arian writings of Athanasius in Archibald Robertson's edition, as \"one of the earliest documents of the Arian controversy\"."
+    ],
+    "remembered": [
+      "Theodoret of Cyrrhus: \"that admirable bishop, who had successfully withstood the blasphemies of Arius\".",
+      "Sozomen gives a story from a writer he calls \"Apolinarius, the Syrian\", in which the dying Alexander foretells that Athanasius will be his successor.",
+      "Philostorgius, on Arius's side and known through the summary of Photius of Constantinople, says the party of Eusebius of Nicomedia deposed Alexander \"because he afterwards returned to the Homoousian faith\". Valesius, in Walford's note, calls this false."
+    ]
+  },
+  "uncertain": [
+    "Most of his story comes through his own side: his letters and the church historians who held to Nicaea. From Arius's side, the held sources include Arius's own letter to Eusebius of Nicomedia, kept by Theodoret, and a letter from Arius and his fellow clergy to Alexander himself, kept by Athanasius. Philostorgius, also on that side, survives only in a hostile summary by Photius.",
+    "How the quarrel began is told three ways. Socrates of Constantinople says Alexander taught on the Trinity \"with perhaps too philosophical minuteness\". Theodoret says Arius was jealous of his election. Sozomen says Alexander at first seemed to lean to each side, which Chester Hartranft, who revised Sozomen's English, calls \"A doubtful and unsupported assertion\".",
+    "Who wrote the circular letter is disputed. Archibald Robertson reports John Henry Newman's case that Athanasius, then Alexander's deacon and secretary, drew it up, and judges it strong. He names Kölling, author of a German history of the Arian heresy, as arguing against it.",
+    "The year of his death is disputed. Theodoret says five months after Nicaea, and A. C. Zenos, who translated Socrates, follows him. Socrates and Sozomen tell it after Eusebius of Nicomedia returned from exile, which Zenos calls a mistake. Robertson reads the index to Athanasius's Festal Letters as giving 17 April 328.",
+    "Blomfield Jackson's dates of 312 to 326 are his own note to Theodoret.",
+    "The deathbed story rests on Sozomen alone. Hartranft notes that this quotation is \"found nowhere else\".",
+    "No source used here gives his birth, family or age."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Letter to Alexander of Constantinople, in Theodoret, Church History I.3 (tr. Blomfield Jackson)",
+        "language": "English translation",
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+      },
+      {
+        "title": "Circular letter, in Socrates, Church History I.6 (tr. A. C. Zenos)",
+        "language": "English translation",
+        "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
+      },
+      {
+        "title": "Deposition of Arius and Encyclical Letter of Alexander (ed. Archibald Robertson)",
+        "language": "English translation",
+        "file": "cic/texts/npnf204_athanasius-select-works-letters.xml"
+      }
+    ],
+    "about": [
+      {
+        "title": "Church History I.1, I.3, I.25",
+        "author": "Theodoret of Cyrrhus",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+      },
+      {
+        "title": "Church History I.5-6 (Socrates); I.15, II.17 (Sozomen)",
+        "author": "Socrates of Constantinople; Sozomen",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
+      },
+      {
+        "title": "Index to the Festal Letters, with Archibald Robertson's notes",
+        "author": "Archibald Robertson (editor)",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf204_athanasius-select-works-letters.xml"
+      }
+    ]
+  }
+}

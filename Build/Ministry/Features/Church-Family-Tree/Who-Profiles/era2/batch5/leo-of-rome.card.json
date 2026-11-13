@@ -1,0 +1,85 @@
+{
+  "name": "Leo of Rome",
+  "otherNames": [
+    "Leo the Great",
+    "Leo Magnus"
+  ],
+  "knownFor": "Bishop of Rome whose letter to Flavian of Constantinople, the Tome, set out the two natures of Christ and was received at the Council of Chalcedon in 451.",
+  "dates": "Made bishop of Rome in 440, on 29 September by Charles Lett Feltoe's account; died late in 461, by Feltoe, after twenty-one years as bishop. Feltoe thinks it probable that he was born between 390 and 400",
+  "place": "Rome; Gaul, on an embassy; northern Italy, on the embassy to Attila",
+  "tradition": "Imperial and Juridical Christianity",
+  "role": "Deacon, then bishop of Rome",
+  "briefLength": "about 2 minutes 30 seconds",
+  "keyWorks": [
+    {
+      "title": "Letter 28, the Tome, to Flavian of Constantinople",
+      "about": "his answer of 449 to the case of Eutyches, read at Chalcedon in 451, on the two natures in the one person of Christ"
+    },
+    {
+      "title": "Letters",
+      "about": "letters to bishops, emperors and the empress Pulcheria, among them Letter 95, which calls the Ephesus meeting of 449 one \"not of judges but of robbers\""
+    },
+    {
+      "title": "Sermons",
+      "about": "sermons to the people of Rome on the feasts of the year and on the anniversaries of his ordination"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "At Chalcedon in 451, after the reading of the Tome, the bishops cried, \"Peter has spoken thus through Leo.\" Feltoe says the fourth session adopted it.",
+      "Prosper of Aquitaine closes his entry on Chalcedon by saying the faith confirmed there was the one \"per sanctum papam Leonem praedicabatur\", preached by the holy pope Leo.",
+      "Feltoe says Leo saw his office as carrying an authority that \"extended over the whole of Christendom as the successor of S. Peter\", and calls the Eutychian quarrel the one \"on which Leo’s chief claim to our thanks and praise rests\"."
+    ],
+    "remembered": [
+      "Charles Gore, quoted by Feltoe, on the Tome: \"a Latin bishop, ignorant of Greek, defining the faith for Greek-speaking bishops\".",
+      "Feltoe calls him \"the first great Latin-speaking pope and bishop of Rome\", and says the Church owes to his part in the Eutychian quarrel \"the final and complete definition of the cardinal doctrine of the Incarnation\".",
+      "Prosper of Aquitaine, in his chronicle, calls him \"beatissimus papa Leo\", the most blessed pope Leo, when he goes to meet Attila."
+    ]
+  },
+  "uncertain": [
+    "The meetings with Attila in 452 and with Geiseric in 455 are told by Prosper of Aquitaine, who writes of Leo with reverence and credits God's help. Feltoe says Leo himself makes \"none but the slightest indirect allusion\" to either. He sees \"no reason, however, to doubt the substantial truth\" of what Prosper and others relate. He adds that Leo's arguments were \"aided, it is thought, by rumours of threatened invasion at home\". The place of the meeting with Attila, Lake Benacus, is Feltoe's and is not in Prosper's entry.",
+    "His birthplace is uncertain. Feltoe reports a tradition that his father was a Tuscan named Quintian and that Volaterrae was his birthplace. Prosper and Leo both call Rome his home, and Feltoe says no city \"can claim the honour with certainty\".",
+    "Feltoe reports that \"it is thought\" the acolyte Leo whom Augustine of Hippo mentions in the Pelagian quarrel is the future pope.",
+    "Prosper counts him the forty-third bishop of Rome. Feltoe calls him the forty-seventh.",
+    "What happened at Ephesus in 449 is told here as Feltoe tells it. Leo, who was not there, calls it a meeting of robbers. The acts of that council, held in Syriac, are not among the sources used here.",
+    "The words of Eutyches are given as Leo quotes them in the Tome, from the record of the synod at Constantinople.",
+    "Prosper dates his entries by the consuls of each year. The years 440, 452 and 455 are given by Theodor Mommsen's edition and by Feltoe."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Letters and Sermons (tr. Charles Lett Feltoe)",
+        "language": "English translation",
+        "file": "cic/texts/npnf212_leo-great-gregory-great.xml"
+      },
+      {
+        "title": "The Tome, in the acts of Chalcedon (tr. William Bright)",
+        "language": "English translation",
+        "file": "cic/texts/npnf214_seven-ecumenical-councils.xml"
+      }
+    ],
+    "about": [
+      {
+        "title": "Epitoma Chronicon, years 440, 452, 453 and 455 (ed. Theodor Mommsen)",
+        "author": "Prosper of Aquitaine",
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/prosper_chronica-minora-1-lat_mommsen1892.txt"
+      },
+      {
+        "title": "Introduction to the Letters and Sermons",
+        "author": "Charles Lett Feltoe",
+        "date": null,
+        "language": "English",
+        "file": "cic/texts/npnf212_leo-great-gregory-great.xml"
+      },
+      {
+        "title": "Acts of the Council of Chalcedon, Session II (extracts)",
+        "author": null,
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf214_seven-ecumenical-councils.xml"
+      }
+    ]
+  }
+}

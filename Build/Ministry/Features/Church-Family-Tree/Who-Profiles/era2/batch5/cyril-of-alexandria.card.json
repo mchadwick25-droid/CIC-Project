@@ -1,0 +1,98 @@
+{
+  "name": "Cyril of Alexandria",
+  "otherNames": [
+    "Cyril",
+    "Cyrillus"
+  ],
+  "knownFor": "Bishop of Alexandria who opposed Nestorius of Constantinople over calling Mary the Mother of God, and whose letter the Council of Ephesus of 431 judged to agree with the creed of Nicaea.",
+  "dates": "Became bishop on the third day after the death of Theophilus, 15 October, in a year Socrates of Constantinople gives by its consuls and the notes to A. C. Zenos's edition give as 412; died in 444, by Blomfield Jackson, who quotes Canon Venables for \"June 9, or 27, 444\"",
+  "place": "Alexandria; Ephesus",
+  "tradition": "The Church of Alexandria and Miaphysite Egypt",
+  "role": "Bishop of Alexandria",
+  "briefLength": "about 2 minutes 30 seconds",
+  "keyWorks": [
+    {
+      "title": "Second Letter to Nestorius",
+      "about": "the letter read at Ephesus in 431, which says the Word united to himself \"flesh animated by a rational soul\" and that the Fathers called the Virgin the Mother of God"
+    },
+    {
+      "title": "Third Letter to Nestorius, with the Twelve Anathematisms",
+      "about": "twelve condemnations, the first of anyone who will not confess that \"the Holy Virgin is the Mother of God\""
+    },
+    {
+      "title": "Five Tomes against Nestorius",
+      "about": "five books answering a book of Nestorius's words, passage by passage, beginning with his attack on the word Mother of God"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "At Chalcedon in 451 his letter to Nestorius and his letter to John of Antioch were read, and Aëtius, archdeacon of Constantinople, said the first had been \"confirmed by the subscription of all\" at Ephesus.",
+      "His letter to John of Antioch, which begins \"Let the heavens rejoice\", sealed the peace of 433. Blomfield Jackson says both sides accepted a formula which Theodoret of Cyrrhus \"himself had drawn up at Ephesus two years before\".",
+      "Henry Percival, who edited the English volume of the councils, says the Fifth Council condemned Theodoret \"because he wrote against these very Anathemas\"."
+    ],
+    "remembered": [
+      "The bishops at Chalcedon, after the reading of Leo of Rome's letter: \"Everlasting be the memory of Cyril. Leo and Cyril taught the same thing.\"",
+      "Socrates of Constantinople, on the murder of Hypatia: it brought \"not the least opprobrium, not only upon Cyril\", \"but also upon the whole Alexandrian church\".",
+      "Nestorius, his opponent, in the Bazaar of Heracleides, accuses him of winning by \"the gold of iniquity\".",
+      "A letter on his death, \"ascribed to Theodoret\" by the Fifth Council, begins \"At last and with difficulty the villain has gone.\" Its authorship is doubted; see What is uncertain."
+    ]
+  },
+  "uncertain": [
+    "Much of his story comes through Socrates of Constantinople, who blames Cyril for the shame of the murder of the philosopher Hypatia. A. C. Zenos, who edited Socrates in English, says this \"severe censure\" is more easily accounted for by Socrates's closeness to the Novatians, since Cyril was their declared enemy. Socrates does not say Cyril ordered the murder.",
+    "His part in Hypatia's death is weighed differently. The notes to Zenos's edition report that the historians Walch, Gibbon and Milman lean to holding him guilty. They quote William Bright: \"Cyril was no party to this hideous deed, but it was the work of men whose passions he had originally called out.\"",
+    "Nestorius, in his own defence, says Cyril won at Ephesus by bribery. G. R. Driver and Leonard Hodgson, who translated it, say the other evidence is in letters of Acacius of Beroea and of Epiphanius, Cyril's own archdeacon. Those letters are not among the sources used here.",
+    "Socrates says Cyril's party deposed Nestorius before John of Antioch arrived, and that Nestorius's party then deposed Cyril. Nestorius's own account has the council that met with John depose Cyril and Memnon of Ephesus.",
+    "Whether Ephesus received the Twelve Anathematisms is disputed. Henry Percival says \"the Acts do not recite that this letter of Cyril's was read, nor do they state that the Anathemas were received\", though the extract he prints has a bracket saying the letter was read. He argues that the council's critics cannot consistently deny it adopted them, and reports that Bishop Hefele first thought the letter merely read, then changed his mind. Percival adds that no one disputes that Chalcedon received them twenty years later.",
+    "The letter on his death \"ascribed to Theodoret\" is contested. Blomfield Jackson's note reports that Baronius rejected it and that Garnerius thought its bitterness no argument against Theodoret's authorship. Jackson quotes Canon Bright, who rejects it, and Canon Venables, who would be glad to reject it with Tillemont, Newman and Bright, but says \"A painful suspicion of their genuineness, however, still lingers\", and that Neander leans to accepting it.",
+    "The years 412 and 415 are given by the notes to Zenos's edition from Socrates's consuls. The year 433 for the peace is Blomfield Jackson's. Socrates gives no year for his death."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Letters to Nestorius and to John of Antioch, and the Twelve Anathematisms (in the acts of Ephesus and Chalcedon)",
+        "language": "English translation",
+        "file": "cic/texts/npnf214_seven-ecumenical-councils.xml"
+      },
+      {
+        "title": "The Three Epistles, edited by P. E. Pusey",
+        "language": "Greek with English translation",
+        "file": "cic/texts/cyril-alexandria_three-epistles-grc-eng_pusey1872.txt"
+      },
+      {
+        "title": "Five Tomes against Nestorius, Scholia, That Christ is One (tr. P. E. Pusey)",
+        "language": "English translation",
+        "file": "cic/texts/cyril-alexandria_five-tomes-against-nestorius-scholia-christ-is-one_pusey1881.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Church History, Book 7, chapters 7, 13 to 15, 32 and 34",
+        "author": "Socrates of Constantinople",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
+      },
+      {
+        "title": "The Bazaar of Heracleides (tr. G. R. Driver and Leonard Hodgson)",
+        "author": "Nestorius",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/nestorius_bazaar-of-heracleides_driver-hodgson1925.txt"
+      },
+      {
+        "title": "Acts of the Councils of Ephesus and Chalcedon (extracts), with Henry Percival's introductions",
+        "author": null,
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf214_seven-ecumenical-councils.xml"
+      },
+      {
+        "title": "Letter 180, ascribed to Theodoret, with Blomfield Jackson's notes",
+        "author": "Theodoret of Cyrrhus, if his",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+      }
+    ]
+  }
+}

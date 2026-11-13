@@ -1,0 +1,68 @@
+{
+  "name": "Koriun",
+  "otherNames": [
+    "Gorioun"
+  ],
+  "knownFor": "Armenian pupil of Mesrop Mashtots and of Sahak, patriarch of the Armenians, whose Life of Mesrop is the main account of how the Armenian letters were made and the Scriptures first put into Armenian.",
+  "dates": "Fifth century; at Constantinople with Eznik of Goghp before the return that brought home the canons of the Council of Ephesus, by the Life of Mesrop; no source used here gives his birth or death",
+  "place": "Armenia; Constantinople; Georgia, by Victor Langlois's account",
+  "tradition": "Armenian Christianity (conversion era)",
+  "role": "Translator and recorder",
+  "briefLength": "about 2 minutes",
+  "keyWorks": [
+    {
+      "title": "Life of Mesrop",
+      "about": "the lives and deaths of Mesrop Mashtots and Sahak, the making of the Armenian letters and the first translations, written, Koriun says, of men he saw himself"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Lazar of Pharp sends readers to Koriun's Life to learn when, where and through whom the Armenian letters were found.",
+      "Langlois calls the Life the main source for Armenian literary history from the late fourth century into the fifth.",
+      "Langlois reports that some critics have thought Koriun may have put Agathangelos's History of Tiridates into Armenian. He calls the question far from settled."
+    ],
+    "remembered": [
+      "Lazar of Pharp: \"Cette histoire a été écrite véridiquement par le célèbre Gorioun\".",
+      "Langlois finds Koriun's style \"fort élevé\" but often obscure, and blames cuts made by copyists."
+    ]
+  },
+  "uncertain": [
+    "The Life names Koriun once, in the third person, as one of two companions who came to Constantinople. That this Koriun wrote it rests on a note in Langlois's edition and on Lazar of Pharp, who calls Koriun a disciple of Mashtots.",
+    "Who asked him to write is told two ways. Lazar of Pharp says King Vramshapuh. Langlois says Joseph, who led the Armenian church after Sahak. The held French text names no patron.",
+    "His later life is known only from Langlois's introduction: sent to Byzantium with Ghevont, the Leon of the Life by a note in the edition, then to Jerusalem, then made bishop of the Georgians by Sahak. Langlois says he is believed to have died in Georgia, and that nothing certain can be said, since writers of his time give no details.",
+    "Moses of Khoren also names Leon and Koriun among the pupils who went to Byzantium. He says they went of their own accord, moved by envy of those already there; the held scan reads \"TeuTie\", most likely \"l'envie\".",
+    "The held text is J.-Raphaël Emine's French, made from the Mekhitarist edition of 1854. Langlois says the copyists' cuts make parts of it obscure. No Armenian text or English translation of the Life is held."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Life of Mesrop (Biographie du bienheureux et saint docteur Mesrob), tr. J.-Raphaël Emine",
+        "language": "French translation",
+        "file": "cic/texts/langlois_collection-historiens-armenie-tome2-fra_1869.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "History of Armenia (tr. Samuel Ghesarian)",
+        "author": "Lazar of Pharp",
+        "date": null,
+        "language": "French translation",
+        "file": "cic/texts/langlois_collection-historiens-armenie-tome2-fra_1869.txt"
+      },
+      {
+        "title": "History of Armenia, Book III",
+        "author": "Moses of Khoren",
+        "date": null,
+        "language": "French translation",
+        "file": "cic/texts/langlois_collection-historiens-armenie-tome2-fra_1869.txt"
+      },
+      {
+        "title": "Introduction to Koriun, and notes",
+        "author": "Victor Langlois",
+        "date": null,
+        "language": "French",
+        "file": "cic/texts/langlois_collection-historiens-armenie-tome2-fra_1869.txt"
+      }
+    ]
+  }
+}

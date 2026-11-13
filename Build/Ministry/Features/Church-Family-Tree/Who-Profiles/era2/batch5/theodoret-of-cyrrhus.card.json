@@ -1,0 +1,99 @@
+{
+  "name": "Theodoret of Cyrrhus",
+  "otherNames": [
+    "Theodoret of Cyrus",
+    "Theodoretus"
+  ],
+  "knownFor": "Bishop of Cyrrhus in Syria and a leading voice of the Antiochene side, who answered the anathemas of Cyril of Alexandria, was deposed at Ephesus in 449 and admitted at Chalcedon in 451, and wrote a Church History that takes up where Eusebius of Caesarea stopped.",
+  "dates": "Born in 393 by Tillemont's reckoning, which Blomfield Jackson follows (Garnier gave 386 and Möller 390); bishop from 423 by Jackson's reckoning; deposed at Ephesus in 449; died in the reign of the emperor Leo, by Gennadius of Marseilles, which Jackson thinks was probably not later than 458",
+  "place": "Antioch, by Jackson's account; Cyrrhus in Syria; Chalcedon",
+  "tradition": "Antiochene Exegetical Christianity (Chrysostom-centered)",
+  "role": "Bishop, theologian and church historian",
+  "briefLength": "about 2 minutes 30 seconds",
+  "keyWorks": [
+    {
+      "title": "Church History",
+      "about": "five books from the rise of Arius to the death of Theodore of Mopsuestia, a span the author counts as 105 years, beginning where Eusebius of Caesarea's history ends"
+    },
+    {
+      "title": "Counter-statements to the anathemas of Cyril",
+      "about": "his answers, one by one, to the twelve anathemas Cyril of Alexandria issued against Nestorius"
+    },
+    {
+      "title": "Eranistes, or Polymorphus",
+      "about": "dialogues against a speaker whom Blomfield Jackson reads as a picker-up of scraps of heresy from different quarters"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "At Chalcedon the council's officials ordered that he enter \"because the holy Archbishop Leo had restored the bishopric to him\", as the acts quoted by Blomfield Jackson record.",
+      "In 553 a council at Constantinople condemned \"those things which Theodoret impiously wrote against the right faith, and against the Twelve Chapters of the holy Cyril\". Jackson notes that he was reinstated at Chalcedon in spite of what he had written, and what he had written was condemned in spite of his reinstatement.",
+      "A. C. Zenos, in the edition of Socrates of Constantinople, reports that Epiphanius Scholasticus put the histories of Socrates, Sozomen and Theodoret into Latin under Cassiodorus, as the Tripartite History."
+    ],
+    "remembered": [
+      "Leo of Rome, writing to him after Chalcedon, speaks of \"the victory you and we together had won by assistance from on high over the blasphemy of Nestorius, as well as over the madness of Eutyches.\"",
+      "Dioscorus of Alexandria, in the Syriac acts of the council of 449 that deposed him, calls him one \"who has brought trouble on all the Churches of the East\".",
+      "Gennadius of Marseilles lists his works, among them books \"Against Eutyches the presbyter and Dioscorus bishop of Alexandria\"."
+    ]
+  },
+  "uncertain": [
+    "Much of his life comes from his own letters, written to answer his accusers and to win the help of Leo of Rome. The sentence of 449 is in the acts of the council that deposed him, which his opponents led. Blomfield Jackson, his translator, is the source for his friendship with Nestorius of Constantinople and for John of Antioch's request that he answer Cyril.",
+    "Jackson takes his birth and childhood at Antioch from Theodoret's Religious History, which the Library does not hold. Jackson gives 393, after Tillemont; he reports that Garnier gave 386 and Möller 390.",
+    "Whether his views changed at Chalcedon is disputed. Jackson reports that Bertram, writing in 1883, thinks Theodoret changed them, and Möller that he kept them, though put differently under pressure.",
+    "Jackson says the letter from John of Antioch's synod urging Nestorius to accept the title Theotokos \"has been generally attributed to Theodoret\". He does not settle it.",
+    "His death is not dated in any held line. Gennadius of Marseilles says he died in the reign of the emperor Leo. Ernest Cushing Richardson's note gives 457. Jackson finds \"some probability that Theodoret survived till 458; none that he lived longer.\"",
+    "Gennadius speaks of ten books of his Church History. The held translation has five.",
+    "The English of his letters spells his see Cyrus; Richardson's note spells it Cyrrhaus."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Church History, Dialogues (Eranistes) and Letters (tr. Blomfield Jackson)",
+        "language": "English translation",
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+      },
+      {
+        "title": "Counter-statements to the anathemas of Cyril (tr. Blomfield Jackson)",
+        "language": "English translation",
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+      }
+    ],
+    "about": [
+      {
+        "title": "Prolegomena, with the acts of Chalcedon quoted",
+        "author": "Blomfield Jackson",
+        "date": null,
+        "language": "English",
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+      },
+      {
+        "title": "The Second Synod of Ephesus, Syriac acts (tr. S. G. F. Perry)",
+        "author": "Dioscorus of Alexandria and the bishops of the council of 449",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/council-of-ephesus-449_second-synod-of-ephesus-syriac-acts_perry1881.txt"
+      },
+      {
+        "title": "Letter 120, to Theodoret",
+        "author": "Leo of Rome",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf212_leo-great-gregory-great.xml"
+      },
+      {
+        "title": "Sentence of the council of Constantinople, 553",
+        "author": "Council of Constantinople",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf214_seven-ecumenical-councils.xml"
+      },
+      {
+        "title": "Lives of Illustrious Men 89",
+        "author": "Gennadius of Marseilles",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+      }
+    ]
+  }
+}
