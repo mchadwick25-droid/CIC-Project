@@ -37,4 +37,4 @@ N1 to N5 are all resolved and hold against the sources, and there is no new find
 
 ## After round 3
 
-The observation on "They won a letter from him" was taken: the Prosper brief and audio now read "from Celestine". No other change was made.
+The observation on "They won a letter from him" was taken: the Prosper brief and audio now read "from the pope" ("from Celestine" put the brief under the Flesch floor, at 59.9). No other change was made.
