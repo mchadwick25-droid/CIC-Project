@@ -1,1 +1,59 @@
-{}
+{
+  "name": "Vakhtang I Gorgasali",
+  "otherNames": [
+    "Vakhtang Gorgasal",
+    "Wakhtang Gourgaslan",
+    "Waran-Khosro-Tang",
+    "Vakhthang, king of the Iberians"
+  ],
+  "knownFor": "King of Georgia whom the Georgian royal chronicle credits with the first Georgian catholicos and the great church of the Apostles at Mtskheta, and who, by Lazar of Pharp's account, rose against Persia and failed his Armenian allies.",
+  "dates": "Reigned 446 to 499, by Marie-Félicité Brosset's dating of the chronicle. Lazar of Pharp places his killing of Vazken in the twenty-fifth year of the Persian king Peroz",
+  "place": "Georgia (Kartli); Mtskheta",
+  "tradition": "Georgian Christianity",
+  "role": "King",
+  "briefLength": "about 2 minutes",
+  "legacy": {
+    "traces": [
+      "The chronicle has Vakhtang build the great church of the Apostles, Sveti-Tskhoveli, at Mtskheta for the catholicos Petre, and place bishops in eleven sees across Georgia.",
+      "It says he was buried at Mtskheta, near the patriarchal column. Brosset reports a painting of him on the vault of the church there, damaged by time and copied in 1839."
+    ],
+    "remembered": [
+      "The Georgian chronicle: the faithful people envied the lot of the king killed for Christ.",
+      "Lazar of Pharp: \"les lâches soldats d'Ibérie avec leur roi Vakhthang\".",
+      "The chronicle says the Persians cried \"Beware the wolf's head\" when they saw him, and so he was named Gorgasal; Brosset reads the Persian as \"Beware the wolf-lion\"."
+    ]
+  },
+  "uncertain": [
+    "His life comes almost wholly from the Georgian royal chronicle, which says its history up to Vakhtang was written at various times. Brosset says even its long reigns, such as Vakhtang's, seem written from memory, and that its anonymous authors deprive it of the honours of authenticity, though not of every claim to trust.",
+    "The chronicle's Vakhtang is a giant, twelve spans tall at twenty-two, who could run down a deer, and its account is full of dreams and speeches. His words in it are the chronicler's.",
+    "Lazar of Pharp, writing for the Armenian side, tells of his killing of Vazken, his call to the Huns and his failure of the Armenians. A note in Victor Langlois's edition says these events are told only by Lazar, and that the Georgian chronicle is silent on them.",
+    "That the patriarch of Antioch made Petre the first catholicos of Georgia rests on the chronicle. Brosset finds very great difficulties in the account of the church, and dates the first catholicos between 475 and 488 by reasoning from the Greek canonist Balsamon, who reports it only as hearsay.",
+    "His Greek wife Helena, daughter of the emperor, is named only by Georgian writers, Brosset says. He accepts the marriage until it is shown false.",
+    "The years of his reign are Brosset's. No source used here gives his birth year; the chronicle says he was seven when his father died."
+  ],
+  "sources": {
+    "about": [
+      {
+        "title": "Kartlis tskhovreba (Histoire de la Géorgie, part 1), the reign of Vakhtang Gorgasal, tr. Marie-Félicité Brosset",
+        "author": "The Georgian royal chronicle",
+        "date": null,
+        "language": "French translation",
+        "file": "cic/texts/kartlis-tskhovreba_histoire-de-la-georgie-pt1-histoire-ancienne-fra_brosset1849.txt"
+      },
+      {
+        "title": "Introduction to the Histoire de la Géorgie",
+        "author": "Marie-Félicité Brosset",
+        "date": null,
+        "language": "French",
+        "file": "cic/texts/brosset_histoire-de-la-georgie-pt1-fra_1849.txt"
+      },
+      {
+        "title": "History of Armenia (tr. Samuel Ghesarian), with Victor Langlois's notes",
+        "author": "Lazar of Pharp",
+        "date": null,
+        "language": "French translation",
+        "file": "cic/texts/langlois_collection-historiens-armenie-tome2-fra_1869.txt"
+      }
+    ]
+  }
+}
