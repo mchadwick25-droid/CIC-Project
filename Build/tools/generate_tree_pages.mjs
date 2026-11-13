@@ -593,7 +593,7 @@ ${siteFooter('/')}
 }
 const give = siteContent.give || {};
 const giveButtons = give.once && give.monthly
-  ? `  <div class="give"><a href="${give.once}">Give once</a><a href="${give.monthly}">Give monthly</a></div>\n`
+  ? `  <div class="give"><a href="${give.once}">${escapeHtml(give.onceLabel || 'Give once')}</a><a href="${give.monthly}">${escapeHtml(give.monthlyLabel || 'Give monthly')}</a></div>\n`
   : '';
 const SITE_PAGES = ['about', 'method', 'data', 'privacy', 'support', 'terms'];
 for (const key of SITE_PAGES) {
