@@ -267,7 +267,7 @@ test('a retired movement with no redirect gets a retired page with only its cens
   ];
   const read = generate(c);
   const page = read('tree/gone-movement.html');
-  assert.match(page, /<div class="page" data-retired="true">/);
+  assert.match(page, /<main class="page" id="content" data-retired="true">/);
   assert.match(page, /<h1>Gone &amp; Movement<\/h1>/);
   assert.match(page, /<p>This entry was retired from the tree on November 8, 2026\.<\/p>/);
   assert.match(page, /<p>Its story falls after the tree ends\.<\/p>/);
@@ -334,7 +334,7 @@ test('the Terms page is on both sites with the same text, and every tree footer 
   const items = page => [...page.matchAll(/<(?:h2|p|li)>([\s\S]*?)<\/(?:h2|p|li)>/g)].map(m => strip(m[1]));
   const tree = read('terms.html');
   const cic = fs.readFileSync(path.join(root, 'cic-website/terms.html'), 'utf8');
-  const treeMain = tree.slice(tree.indexOf('<div class="page">'), tree.indexOf('<footer'));
+  const treeMain = tree.slice(tree.indexOf('<main class="page" id="content">'), tree.indexOf('<footer'));
   const cicMain = cic.slice(cic.indexOf('<main'), cic.indexOf('</main>'));
   const terms = JSON.parse(fs.readFileSync(path.join(root, 'Build/tools/tree_site_pages.json'), 'utf8')).terms;
   for (const sec of terms.sections) {
