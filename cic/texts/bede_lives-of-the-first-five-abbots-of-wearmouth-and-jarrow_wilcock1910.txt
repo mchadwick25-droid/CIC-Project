@@ -6,7 +6,7 @@ Rights: Public Domain (pd-us-by-date: published 1910); the archive.org record is
 Language: eng
 Source: archive.org item livesoffirstfive00bederich, full text from the item's own djvu.txt. Fetched directly 2026-11-13 by the Library thread; the byte count of the downloaded file (176,451) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1910, out of US copyright by date. OCR quality: good. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: Bede's History of the Abbots in English, from about OCR line 109, with a life of Bede prefixed.
+Content note: Wilcock's Life of Bede from about OCR line 212; Bede's Lives of the Abbots in English from about 2398.
 
 ______________________________________________________________________
 

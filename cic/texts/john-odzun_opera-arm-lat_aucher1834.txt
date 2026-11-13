@@ -1,12 +1,12 @@
 Title: Domini Johannis philosophi Ozniensis Armeniorum catholici opera
-Creator: John of Odzun; Latin translation by J. B. Aucher (record; the Latin title page is garbled in the OCR)
-Publisher: Venice: the press of St Lazarus, 1834 (the Armenian title page, read on the page image)
+Creator: John of Odzun; Latin translation by J. B. Aucher (record; the Latin title page, partly readable at about OCR 118-150, names Johannes Ozniensis)
+Publisher: Venice: the press of St Lazarus, 1834 (the Armenian title page, read on the page image; the Latin title page reads 'In insula S. Lazari MDCCCXXXIV')
 Publication Date: 1834 (title page)
 Rights: Public Domain (pd-us-by-date: published 1834); the archive.org record is tagged NOT_IN_COPYRIGHT
 Language: hye, lat
 Source: archive.org item dominijohannisp00joangoog, full text from the item's own djvu.txt. Fetched directly 2026-11-13 by the Library thread; the byte count of the downloaded file (556,565) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1834, out of US copyright by date. OCR quality: fair for the Latin; the Armenian garbled. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: John of Odzun's works, Armenian and Latin. Aucher's preface on the synodal oration given 'anno 719 in urbe Tvin' at about OCR line 235; the Oratio synodalis at about 389, its argumenta at about 395-530; the canons in Latin at about 2900-3700.
+Content note: John of Odzun's works, Armenian and Latin. Aucher's preface on the synodal oration given 'anno 719 in urbe Tvin' at about OCR line 235; the Oratio synodalis at about 389, its argumenta at about 395-530; the canons in Latin at about 2912-3880.
 
 ______________________________________________________________________
 

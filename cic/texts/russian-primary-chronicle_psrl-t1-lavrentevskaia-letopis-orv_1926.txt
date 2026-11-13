@@ -2,11 +2,11 @@ Title: Polnoe sobranie russkikh letopisei, tom pervyi: Lavrent'evskaia letopis' 
 Creator: The Permanent Historical-Archaeographic Commission of the Academy of Sciences of the USSR (title page)
 Publisher: Leningrad: Academy of Sciences of the USSR, 1926-1928 (title page)
 Publication Date: 1926-1928 (title page); the record gives 1926
-Rights: Public Domain (pd-us-by-date: published 1926); the archive.org record carries no rights field, so the imprint date is the basis
+Rights: Public Domain (pd-us-by-date: published 1926-1928); the archive.org record carries no rights field, so the imprint date is the basis
 Language: orv
 Source: archive.org item psrl_tom1_lavrentyevskaya_letopis_1926, full text from the item's own djvu.txt (file "psrl_tom01_lavrentjevskaya_letopis_1926_djvu.txt"). Fetched directly 2026-11-13 by the Library thread; the byte count of the downloaded file (1,856,019) equals the size archive.org lists for the djvu.txt.
-Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1926, out of US copyright by date. OCR quality: good. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: The Laurentian Chronicle: the Povest' vremennykh let, then the Suzdal chronicle, to 1419. The year 6523 (1015), Boris and Gleb, at about OCR line 5748-5927.
+Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1926-1928, out of US copyright by date. OCR quality: good; the '[Str. N iz 379]' markers and the typed title page suggest a born-digital transcription, and the Greek in the notes is mis-encoded. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
+Content note: The Laurentian copy to Lavrentii's colophon of 6885 (1377) at about OCR line 21067-21102, then the continuation from the Academic copy to 1419 from about 21109. Boris and Gleb under 6523 (1015) at about 5748-6233. The appendices (vyp. 3) are not in this file, which ends at page 379.
 
 ______________________________________________________________________
 

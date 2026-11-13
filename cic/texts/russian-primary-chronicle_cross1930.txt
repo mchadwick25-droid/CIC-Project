@@ -1,12 +1,12 @@
 Title: The Russian Primary Chronicle (Harvard Studies and Notes in Philology and Literature, vol. XII, bound with F. W. C. Lieder, The Don Carlos Theme)
-Creator: Translated by Samuel H. Cross (title page, OCR about line 195-255)
+Creator: By Samuel H. Cross (title page, OCR about line 195-255)
 Publisher: Cambridge, Mass.: Harvard University Press; London: Humphrey Milford, 1930 (title page; copyright notice 1930)
 Publication Date: 1930 (title page)
 Rights: Public Domain (pd-us-by-date: published 1930); the archive.org record carries no rights field, so the imprint date is the basis
 Language: eng
 Source: archive.org item doncarlosthemeha0000fred, full text from the item's own djvu.txt. Fetched directly 2026-11-13 by the Library thread; the byte count of the downloaded file (844,509) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1930, out of US copyright by date. OCR quality: good. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: Cross's introduction, then the Chronicle in English from about OCR line 4298 to the year 6620 (1112) at about 16167. Boris and Gleb under the year 6523 (1015) at about 10968-11080; Nestor's Life discussed at about 4518-4575. The volume begins with Lieder's Don Carlos study.
+Content note: Cross's introduction from about OCR line 4298; the Chronicle in English from about 7300 to Sylvester's colophon dated 6624 (1116) at about 15097-15099; appendices I-III after it. Boris and Gleb under 6523 (1015) at about 10968-11323; Nestor's Life discussed at about 4518-4575. The volume begins with Lieder's Don Carlos study.
 
 ______________________________________________________________________
 

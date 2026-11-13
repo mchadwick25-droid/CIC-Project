@@ -1,11 +1,11 @@
 Title: Geschichte der Slawenapostel Cyrill und Method und der slawischen Liturgie
 Creator: Joseph Augustin Ginzel (the record; the title page is garbled in the OCR)
-Publisher: Vienna: W. Braumüller, 1861 (the record; the OCR title page shows 'Wien 1861')
+Publisher: Vienna: W. Braumüller, 1861 (the record; the OCR title page is garbled, reading 'Witw. 1861' at about line 265)
 Publication Date: 1861 (record and OCR title page)
 Rights: Public Domain (pd-us-by-date: published 1861); the archive.org record is tagged NOT_IN_COPYRIGHT
 Language: deu, lat
 Source: archive.org item geschichtedersl02ginzgoog, full text from the item's own djvu.txt. Fetched directly 2026-11-13 by the Library thread; the byte count of the downloaded file (849,328) equals the size archive.org lists for the djvu.txt.
-Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1861, out of US copyright by date. OCR quality: Latin fair to good; the German Fraktur garbled. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
+Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1861, out of US copyright by date. OCR quality: Latin fair to good; the German Fraktur garbled; Google's notice at the head. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
 Content note: Ginzel's history, then his Codex legendarum et monumentorum (contents at about OCR line 818): the Legenda Italica at about 11207, the Moravian legend at 11558, the Pannonian Life of Methodius in Latin at 11970, the Bulgarian legend (Life of Clement, Latin) at 12564, and the genuine letters of Pope John VIII at 13716.
 
 ______________________________________________________________________

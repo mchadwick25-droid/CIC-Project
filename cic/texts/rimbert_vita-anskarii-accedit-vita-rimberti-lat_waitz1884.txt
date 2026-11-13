@@ -1,12 +1,12 @@
 Title: Vita Anskarii auctore Rimberto. Accedit Vita Rimberti
-Creator: Rimbert; the Life of Rimbert anonymous; edited by G. Waitz (title page)
+Creator: Rimbert; the Life of Rimbert, author not named; edited by G. Waitz (title page)
 Publisher: Hanover: Hahn, 1884 (title page; Scriptores rerum Germanicarum in usum scholarum)
 Publication Date: 1884 (title page)
 Rights: Public Domain (pd-us-by-date: published 1884); the archive.org record is tagged NOT_IN_COPYRIGHT
 Language: lat
 Source: archive.org item vitaanskariiauc00waitgoog, full text from the item's own djvu.txt. Fetched directly 2026-11-13 by the Library thread; the byte count of the downloaded file (266,757) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1884, out of US copyright by date. OCR quality: fair; Google's notice at the head. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: The Latin Life of Anskar from about OCR line 300; the Life of Rimbert from about 4367.
+Content note: The preface; the chapter list at about OCR line 534; the Life of Anskar from 'Incipit libellus' at about 855; the Life of Rimbert from about 4367. The scan ends at p. 98, mid-sentence in chapter 23 of the Life of Rimbert (about 5411); the rest and the index are not in it.
 
 ______________________________________________________________________
 

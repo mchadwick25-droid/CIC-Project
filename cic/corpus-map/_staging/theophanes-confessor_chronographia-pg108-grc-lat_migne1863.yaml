@@ -3,9 +3,9 @@ assignments:
 - row_id: theophanes-confessor_chronographia-pg108-grc-lat_migne1863--theophanes-the-confessor-chronographia-pg-108
   work: 'Theophanes the Confessor, Chronographia (PG 108)'
   author: theophanes-confessor
-  locus: 'from about OCR line 3707'
+  locus: 'from about OCR line 3707; add 12 to OCR line numbers'
   atlas_ids:
   - byzantine-imperial-church-heraclian-iconoclast
   role: tradition
   confidence: provisional
-  note: 'A monk inside the church writing in this window, by the census''s dating of him (c.760-818).'
+  note: 'A monk inside the church writing in this window, by the era 4 audit''s dating of him (c.760-818).'

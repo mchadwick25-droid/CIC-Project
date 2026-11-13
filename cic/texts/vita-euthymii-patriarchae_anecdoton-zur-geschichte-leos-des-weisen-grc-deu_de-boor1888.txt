@@ -5,7 +5,7 @@ Publication Date: 1888 (title page)
 Rights: Public Domain (pd-us-by-date: published 1888); the archive.org record carries the Public Domain Mark
 Language: grc, deu
 Source: archive.org item bub_gb_MWvPAAAAMAAJ, full text from the item's own djvu.txt. Fetched directly 2026-11-13 by the Library thread; the byte count of the downloaded file (523,669) equals the size archive.org lists for the djvu.txt.
-Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1888, out of US copyright by date. OCR quality: fair; Google's notice at the head. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
+Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1888, out of US copyright by date. OCR quality: fair for the German; the Greek text comes out as Latin-letter garble; 'Digitized by Google' marks on the pages. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
 Content note: The Greek Life of Patriarch Euthymios, with de Boor's German introduction and commentary; on Leo VI's reign, which the title dates 886-912.
 
 ______________________________________________________________________

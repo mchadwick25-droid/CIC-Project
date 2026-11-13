@@ -18,7 +18,8 @@ works:
   locus: from about OCR line 11982; add 12 to OCR line numbers
   role: tradition
   confidence: provisional
-  note: The Klarjeti monk's Life of the founder, written in 951 (census), inside this window.
+  note: The Klarjeti monk's Life of the founder, written in 951 (era 4 audit), inside this
+    window.
   source_file: peeters_histoires-monastiques-georgiennes-in-analecta-bollandiana-36-37-lat-fra_1917-1919.txt
 - row_id: peeters_histoires-monastiques-georgiennes-in-analecta-bollandiana-36-37-lat-fra_1917-1919--life-of-john-and-euthymius-life-of-george-the-hagiorite
   work: Life of John and Euthymius; Life of George the Hagiorite, Latin tr. Peeters

@@ -1,12 +1,12 @@
 Title: Patrologiae cursus completus, series Latina, tomus CXXXIII
-Creator: Odo of Cluny; John of Salerno's Life of Odo, and others (title page)
+Creator: Odo of Cluny and others (title page); the Life of Odo 'scripta a Joanne monacho, ejus discipulo' (OCR about 2777), whom the era 4 audit lists as John of Salerno
 Publisher: Paris (Petit-Montrouge): J.-P. Migne (title page)
 Publication Date: 1853 (title page)
 Rights: Public Domain (pd-us-by-date: published 1853); the archive.org record carries no rights field, so the imprint date is the basis
 Language: lat
 Source: archive.org item bim_early-english-books-1641-1700_patrologiae-cursus-completus-_1853_133, full text from the item's own djvu.txt. Fetched directly 2026-11-13 by the Library thread; the byte count of the downloaded file (3,135,524) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1853, out of US copyright by date. OCR quality: fair: two columns. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: John of Salerno's Life of Odo, prologue at about OCR line 2783; the second Life at about 6654; Odo's Collationes at about 40341; his Life of Gerald of Aurillac at about 49541; sermons at about 55719.
+Content note: John's Life of Odo, prologue at about OCR line 2783; a second Life, by Nalgod, 'saeculi XII', at about 6654; Odo's Collationes at about 40341; his Life of Gerald of Aurillac at about 49541; sermons at about 55719.
 
 ______________________________________________________________________
 

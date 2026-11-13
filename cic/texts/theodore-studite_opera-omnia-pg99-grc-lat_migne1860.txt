@@ -6,7 +6,7 @@ Rights: Public Domain (pd-us-by-date: published 1860); the archive.org record ca
 Language: grc, lat
 Source: archive.org item bim_early-english-books-1641-1700_1860_99, full text from the item's own djvu.txt. Fetched directly 2026-11-13 by the Library thread; the byte count of the downloaded file (5,156,669) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1860, out of US copyright by date. OCR quality: fair: two columns; the Latin is readable, the Greek often garbled. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: Theodore the Studite's works: the Life by Michael the Monk (Vita B, col. 233) at about OCR line 18804; the three Antirrhetici on the icons from about 27084; the Letters, book I from about 76286 and book II from about 93676; the Testament near the end.
+Content note: Theodore the Studite's works: the Life by Michael the Monk (Mai's edition, col. 233) at about OCR line 18804; the three Antirrhetici on the icons from about 27047; the Letters, book I from about 76286 and book II from about 93676; the Testament at about 154784.
 
 ______________________________________________________________________
 

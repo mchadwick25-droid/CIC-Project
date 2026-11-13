@@ -25,8 +25,10 @@ works:
 - row_id: theophylact-ohrid_opera-t4-with-vita-clementis-pg126-grc-lat_migne1864--life-of-clement-of-ohrid-pg-126-appendix
   work: Life of Clement of Ohrid (PG 126, appendix)
   author: theophylact-ohrid
-  locus: from about OCR line 96746
+  locus: from about OCR line 96746; add 12 to OCR line numbers
   role: tradition
   confidence: needs-ruling
-  note: The Life of Clement; the volume's heading does not date its writing against this window.
+  note: The Life of Clement. The volume's Monitum (OCR about 96713-96740) reports Miklosich's
+    view that its author lived with Clement and was not Theophylact; its date of writing is
+    disputed there.
   source_file: theophylact-ohrid_opera-t4-with-vita-clementis-pg126-grc-lat_migne1864.txt

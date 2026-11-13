@@ -5,8 +5,8 @@ Publication Date: 1861 (title page)
 Rights: Public Domain (pd-us-by-date: published 1861); the archive.org record carries the Public Domain Mark
 Language: lat, grc
 Source: archive.org item Will1861ActaEtScripta, full text from the item's own djvu.txt (file "Will 1861 Acta et scripta_djvu.txt"). Fetched directly 2026-11-13 by the Library thread; the byte count of the downloaded file (1,209,274) equals the size archive.org lists for the djvu.txt.
-Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1861, out of US copyright by date. OCR quality: fair; the Greek is readable in places. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: Greek and Latin documents of the eleventh-century controversy, after Will's prolegomena; the sentence of excommunication against Keroularios at about OCR line 14954; Will's prolegomena first.
+Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1861, out of US copyright by date. OCR quality: fair; the Greek is readable in places; Google's notice at the head. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
+Content note: Greek and Latin documents of the eleventh-century controversy, after Will's prolegomena: the sentence of excommunication against Keroularios at about OCR line 14954, the synodal edict at about 15076, Keroularios's letters at about 16715 and 17810; the errata at the end.
 
 ______________________________________________________________________
 

@@ -200,6 +200,59 @@ written, not the date the book was printed. But the book's letters begin before 
 of England. For the census owner: the Victorian entry's text quotes the two 1814 letters, which fall
 before its window.
 
+## Era 4 (622-1054): the Who scan's wanted sources and the council records
+
+Fifty-one files for the era 4 rows of `Build/Ministry/Operations/Audits/2026-11-12_wanted-sources-combined/Wanted_Sources.md`:
+41 person sources (5 major) and 7 council records. The search record is
+`Build/Ministry/Operations/Audits/2026-11-13_library-era4/Search_Log.md`. Every edition the audits named in
+copyright (Kantor, Heppell, Hollingsworth, Franklin, Hamilton, Mango, Lamoreaux, Greenwood and the rest) was
+replaced by an older public-domain edition of the same text, or reported not found. Two Opus reviewers checked
+every file, and a third rechecked their corrections.
+
+| want (Wanted Sources row) | state | file(s) | shelf |
+|---|---|---|---|
+| 14 John of Damascus, the Life by John of Jerusalem | filled | `john-damascus_opera-omnia-t1-with-vita-pg94-grc-lat_migne1860.txt` | his works on the Heraclian-iconoclast, iconophile and Melkite entries, tradition; the Life on the Melkite entry, `needs-ruling` (its date of writing is not given) |
+| 15, 21 Anskar; Rimbert | filled | `rimbert_anskar-the-apostle-of-the-north_robinson1921.txt`; `rimbert_vita-anskarii-accedit-vita-rimberti-lat_waitz1884.txt` (the scan stops in ch. 23 of the Life of Rimbert) | `scandinavian-conversion-christianity`, tradition |
+| 16 Theodore the Studite | filled | `theodore-studite_opera-omnia-pg99-grc-lat_migne1860.txt` | his works, tradition; Michael's Life, `needs-ruling` |
+| 17 Cyril and Methodius | filled in Latin | `ginzel_geschichte-der-slawenapostel-cyrill-und-method-deu-lat_1861.txt`: the Life of Methodius in Latin and John VIII's letters | `cyrillo-methodian-slavic-christianity`: the appendix as tradition, Ginzel's history as context. No Slavonic text with usable OCR was found. |
+| 18 Antony and Theodosius of the Caves | filled, later redaction | `kievan-caves-paterik_paterik-kievskago-pecherskago-monastyria-chu_abramovich1911.txt`; the Primary Chronicle (below) | `kievan-rus-christianity`, context (the Cassian redaction of 1462) |
+| 19 al-Tabari | filled | `tabari_annales-prima-series-iv-ara-lat_de-goeje1890.txt`; `tabari_annales-prima-series-v-ara-lat_de-goeje1893.txt` | the Heraclian-iconoclast and Silk Road entries, context (outside witness) |
+| 20 Ibn Ishaq | filled | `ibn-ishaq_leben-mohammeds-nach-ibn-hischam-deu_weil1864.txt`; `ibn-ishaq_sirat-rasul-allah-ibn-hisham-text-pt1-ara_wuestenfeld1858.txt` | the two Aksumite entries, context (outside witness) |
+| 22 Alfred the Great | filled | `alfred-the-great_west-saxon-version-of-gregorys-pastoral-care-ang-eng_sweet1871.txt`; `asser_life-of-king-alfred-lat_stevenson1904.txt`; `asser_life-of-king-alfred_cook1906.txt` | `late-anglo-saxon-christianity`, tradition |
+| 23 Dunstan | filled | `dunstan_memorials-of-saint-dunstan-rolls-series-63-lat_stubbs1874.txt` | the same, tradition |
+| 24 Æthelwold; the Regularis Concordia | filled | `aelfric_vita-s-aethelwoldi-in-chronicon-monasterii-de-abingdon-v2-lat_stevenson1858.txt`; `wulfstan-winchester_vita-s-ethelwoldi-pl137-lat_migne1853.txt`; `regularis-concordia_de-consuetudine-monachorum-in-anglia-13-lat-ang_logeman1891.txt` | the same, tradition |
+| 25 Oswald | filled | `byrhtferth_vita-s-oswaldi-in-historians-of-the-church-of-york-v1-lat_raine1879.txt` | the same, tradition |
+| 26 Benedict Biscop and Ceolfrid | filled | `bede_opera-historica-v1-historia-abbatum-lat_plummer1896.txt`; `bede_lives-of-the-first-five-abbots-of-wearmouth-and-jarrow_wilcock1910.txt` | `anglo-saxon-christianity` and `bede-of-jarrow`, tradition |
+| 27 Þorgeir; council 15, the Althing | filled, later witness | `ari-thorgilsson_islendingabok-and-kristni-saga-in-origines-islandicae-v1-non-eng_vigfusson-powell1905.txt` | `scandinavian-conversion-christianity`, context (Ari writes 1122-1133) |
+| 28 Benedict of Aniane | filled | `benedict-aniane_concordia-regularum-with-ardo-vita-pl103-lat_migne1851.txt` | `carolingian-reform-christianity`, tradition |
+| 29-31 Eulogius; Paulus Alvarus; Flora and Maria | filled | `eulogius-cordoba_opera-with-alvarus-vita-eulogii-pl115-lat_migne1852.txt`; `paulus-alvarus_confessio-epistolae-indiculus-luminosus-pl121-lat_migne1852.txt` | `mozarabic-christianity`, tradition |
+| 32 Berno | not found | — | The Bibliotheca Cluniacensis (1614) is not on archive.org. PL 133 does not print the testament; the held Cluny Recueil gives its incipit only. |
+| 33, 35 Odo of Cluny; Gerald of Aurillac | filled | `odo-cluny_opera-with-john-of-salerno-vita-odonis-pl133-lat_migne1853.txt`; `odo-cluny_occupatio-lat_swoboda1900.txt` | `cluniac-reform-monasticism`, tradition (Nalgod's twelfth-century Life excluded) |
+| 34 Odilo of Cluny | filled | `odilo-cluny_opera-with-jotsald-vita-odilonis-pl142-lat_migne1853.txt` | the same, tradition |
+| 36 Ibn Hayyan | not found | — | No edition of al-Muqtabis before 1937. |
+| 37, 38 Stephen the Younger; Nikephoros I | filled | `nikephoros-cp_opera-with-vita-stephani-iunioris-pg100-grc-lat_migne1860.txt` | Nikephoros's works, tradition; the Life of Stephen, `needs-ruling` |
+| 39 Clement of Ohrid | filled | `theophylact-ohrid_opera-t4-with-vita-clementis-pg126-grc-lat_migne1864.txt`; the Latin Life in Ginzel | `cyrillo-methodian-slavic-christianity`, `needs-ruling`: the volume's Monitum disputes the Life's author and date |
+| 40 Boris and Gleb | filled, chronicle only | `russian-primary-chronicle_cross1930.txt`; `russian-primary-chronicle_psrl-t1-lavrentevskaia-letopis-orv_1926.txt` | `kievan-rus-christianity`, context. The separate Tale (Abramovich 1916) was not found. |
+| 41 Ilarion | filled | `ilarion-kiev_slovo-o-zakone-i-blagodati-chu-rus_gorskii1844.txt` | `kievan-rus-christianity`, tradition |
+| 42-45 the Paulicians; Peter of Sicily | filled, hostile witnesses | `peter-of-sicily_historia-manichaeorum-seu-paulicianorum-grc-lat_gieseler1846.txt`; `theophanes-continuatus_historiae-byzantinae-scriptores-post-theophanem-pg109-grc-lat_migne1863.txt` | `paulicians`, context; Peter also on the Macedonian entry as tradition. Peter the Higumen was not found. |
+| 46 Michael Keroularios | filled | `will_acta-et-scripta-de-controversiis-ecclesiae-graecae-et-latinae-saec-xi-grc-lat_1861.txt`; `psellos_chronographia-and-orations-in-mesaionike-bibliotheke-v4-grc_sathas1874.txt` | Will on the Macedonian and Gregorian entries, tradition; Psellos context |
+| 47 Nicholas I Mystikos | filled | `nicholas-mystikos_epistolae-with-eutychius-alexandrinus-pg111-grc-lat_migne1863.txt`; `vita-euthymii-patriarchae_anecdoton-zur-geschichte-leos-des-weisen-grc-deu_de-boor1888.txt` | the Macedonian entry: the letters as tradition, the Vita Euthymii `needs-ruling` |
+| 48 Theophanes the Confessor | filled | `theophanes-confessor_chronographia-pg108-grc-lat_migne1863.txt` | the Heraclian-iconoclast entry, tradition |
+| 49 Stepanos of Taron | filled | `stepanos-taron_armenische-geschichte-deu_gelzer-burckhardt1907.txt`; `stepanos-taron_histoire-universelle-deuxieme-partie-fra_macler1917.txt` (book III) | `bagratid-armenian-christianity`, tradition |
+| 50 Theodore Abu Qurrah | filled | `theodore-abu-qurrah_opuscula-with-andrew-crete-malalas-pg97-grc-lat_migne1860.txt`; `theodore-abu-qurrah_arabischen-schriften-deu_graf1910.txt` | `melkite-arabic-christianity`, tradition |
+| 51 Stephen Mansur | filled in Latin | `acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt` | the same, tradition. The Greek (Papadopoulos-Kerameus 1907) was not found. |
+| 52 Grigol Khandzteli; Giorgi Merchule | filled in Latin | `peeters_histoires-monastiques-georgiennes-in-analecta-bollandiana-36-37-lat-fra_1917-1919.txt` | `georgian-revival-tao-klarjeti`, tradition |
+| 53 John the Iberian and John Tornike; Euthymius | filled in Latin | the same | Tao-Klarjeti and the Georgian golden age, `needs-ruling` |
+| 54 Ishoyahb III | filled | `ishoyahb-iii_liber-epistularum-versio-lat_duval-csco1905.txt` (the Syriac textus is bound in, garbled) | both Church of the East entries, tradition |
+| Council 9, Dvin 719 | filled | `john-odzun_opera-arm-lat_aucher1834.txt` | `armenian-christianity-before-the-bagratids`, tradition |
+| Councils 10-12, Constantinople 861-880 | filled | `mansi_sacrorum-conciliorum-collectio-tomus-15-lat_welter-facsimile1902.txt`; `-tomus-16-`; `-tomus-17-18-` | the Macedonian entry (and the Carolingian for XV), tradition |
+| Council 13, the synod of 843 | not confirmed | `mansi_...-tomus-14-...` held | Not located in Mansi XIV, which covers 814-856. |
+| Council 14, Cordoba 852 | filled | `mansi_sacrorum-conciliorum-collectio-tomus-14-lat_welter-facsimile1902.txt` | `mozarabic-christianity` and the Carolingian entry, tradition |
+
+**Not taken.** The 1930 Kyiv Paterik, which prints both 1930 and 1931. The 1930 Loeb Bede, whose record reads
+"Permission Granted to Digitize". A CC BY 3.0 upload that may be Graf's Abu Qurrah. All other duplicate
+and garbled scans are listed in the search log.
+
 ## Later — queued
 
 - ME-21 by a browser; Lang 1834 and the Peking mission after 1808; the

@@ -5,8 +5,8 @@ Publication Date: 1904 (title page)
 Rights: Public Domain (pd-us-by-date: published 1904); the archive.org record is tagged NOT_IN_COPYRIGHT
 Language: lat, eng
 Source: archive.org item asserslifekinga00stevgoog, full text from the item's own djvu.txt. Fetched directly 2026-11-13 by the Library thread; the byte count of the downloaded file (1,347,620) equals the size archive.org lists for the djvu.txt.
-Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1904, out of US copyright by date. OCR quality: good. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: Stevenson's introduction, then Asser's Latin Life from about OCR line 6103; the Annals of St Neots after it.
+Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1904, out of US copyright by date. OCR quality: good; Google's notice at the head. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
+Content note: Stevenson's introduction, then Asser's Latin Life from about OCR line 6103; the Annals of St Neots from about 11956. The scan ends inside the index at p. 384 ('Wido ... See Witha'); the later index entries are missing.
 
 ______________________________________________________________________
 

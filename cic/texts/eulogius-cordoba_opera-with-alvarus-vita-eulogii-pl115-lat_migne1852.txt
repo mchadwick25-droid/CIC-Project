@@ -1,12 +1,12 @@
 Title: Patrologiae cursus completus, series Latina, tomus CXV
-Creator: Eulogius of Cordoba; the Life of Eulogius by Paulus Alvarus, and others (title page)
+Creator: Eulogius of Cordoba and others (title page); Alvarus's Life of Eulogius inside (OCR about 56726)
 Publisher: Paris (Petit-Montrouge): J.-P. Migne (title page)
 Publication Date: 1852 (title page)
 Rights: Public Domain (pd-us-by-date: published 1852); the archive.org record carries no rights field, so the imprint date is the basis
 Language: lat
 Source: archive.org item bim_early-english-books-1641-1700_patrologiae-cursus-completus-_1852_115, full text from the item's own djvu.txt. Fetched directly 2026-11-13 by the Library thread; the byte count of the downloaded file (4,415,565) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1852, out of US copyright by date. OCR quality: fair: two columns. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: Alvarus's Life of Eulogius (col. 703) at about OCR line 56608; the Memoriale sanctorum (col. 731) at about 59137, Flora and Maria at about 62886-63062; the Documentum martyriale at about 65863; letters at about 67748; the Liber apologeticus martyrum at about 68559.
+Content note: The notice at about OCR line 56492 and Alvarus's Life of Eulogius ('auctore Alvaro') from about 56723; the Memoriale sanctorum (col. 731) at about 59137, Flora and Maria at about 62886-63062; the Documentum martyriale at about 65863; letters at about 67748; the Liber apologeticus martyrum at about 68559.
 
 ______________________________________________________________________
 

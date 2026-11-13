@@ -1,7 +1,7 @@
 source_file: mansi_sacrorum-conciliorum-collectio-tomus-14-lat_welter-facsimile1902.txt
 assignments:
-- row_id: mansi_sacrorum-conciliorum-collectio-tomus-14-lat_welter-facsimile1902--mansi-xiv-councils-of-803-852
-  work: 'Mansi XIV: councils of 803-852'
+- row_id: mansi_sacrorum-conciliorum-collectio-tomus-14-lat_welter-facsimile1902--mansi-xiv-councils-of-814-856-title-page-with-earlier
+  work: 'Mansi XIV: councils of 814-856 (title page), with earlier additions'
   author: mansi
   locus: 'the whole volume'
   atlas_ids:
@@ -9,12 +9,12 @@ assignments:
   role: tradition
   confidence: provisional
   note: 'The councils'' own acts and canons, inside this window.'
-- row_id: mansi_sacrorum-conciliorum-collectio-tomus-14-lat_welter-facsimile1902--mansi-xiv-the-council-of-cordoba-852
-  work: 'Mansi XIV: the council of Cordoba (852)'
+- row_id: mansi_sacrorum-conciliorum-collectio-tomus-14-lat_welter-facsimile1902--mansi-xiv-the-cordoba-conciliabulum
+  work: 'Mansi XIV: the Cordoba conciliabulum'
   author: mansi
-  locus: 'about OCR line 102257'
+  locus: 'about OCR line 102256; add 12 to OCR line numbers'
   atlas_ids:
   - mozarabic-christianity
   role: tradition
   confidence: provisional
-  note: 'The council''s own record, inside this window.'
+  note: 'The council''s record, inside this window.'

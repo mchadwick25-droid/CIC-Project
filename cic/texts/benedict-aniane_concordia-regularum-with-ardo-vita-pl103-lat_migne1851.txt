@@ -1,12 +1,12 @@
 Title: Patrologiae cursus completus, series Latina, tomus CIII
-Creator: Benedict of Aniane; Ardo's Life of Benedict, and others (title page)
+Creator: Benedict of Aniane and Sedulius Scottus (title page); Ardo's Life of Benedict inside (OCR about 28349)
 Publisher: Paris (Petit-Montrouge): J.-P. Migne (title page)
 Publication Date: 1851 (title page)
 Rights: Public Domain (pd-us-by-date: published 1851); the archive.org record carries no rights field, so the imprint date is the basis
 Language: lat
 Source: archive.org item bim_early-english-books-1641-1700_patrologiae-cursus-completus-_1851_103, full text from the item's own djvu.txt. Fetched directly 2026-11-13 by the Library thread; the byte count of the downloaded file (4,622,482) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1851, out of US copyright by date. OCR quality: fair: two columns. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: Ardo's Life of Benedict of Aniane at about OCR line 28346 (introduction at 28320); Benedict's Concordia regularum at about 58274; the Codex regularum.
+Content note: Ardo's Life of Benedict of Aniane: the heading at about OCR line 28346, the editor's notice at about 28351-28562, the text from about 28563; the Codex regularum at about 32236; Benedict's Concordia regularum at about 58274.
 
 ______________________________________________________________________
 

@@ -3,9 +3,9 @@ assignments:
 - row_id: russian-primary-chronicle_cross1930--the-russian-primary-chronicle-tr-cross-1930
   work: 'The Russian Primary Chronicle, tr. Cross (1930)'
   author: russian-primary-chronicle
-  locus: 'from about OCR line 4298; add 12 to OCR line numbers'
+  locus: 'from about OCR line 7300; add 12 to OCR line numbers'
   atlas_ids:
   - kievan-rus-christianity
   role: context
   confidence: provisional
-  note: 'A chronicle that runs to 1112, after this window, about it.'
+  note: 'A chronicle whose colophon dates it 6624 (1116), after this window, about it.'

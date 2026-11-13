@@ -6,7 +6,7 @@ Rights: Public Domain (pd-us-by-date: published 1860); the archive.org record ca
 Language: grc, lat
 Source: archive.org item bim_early-english-books-1641-1700_1860_97, full text from the item's own djvu.txt. Fetched directly 2026-11-13 by the Library thread; the byte count of the downloaded file (4,431,311) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1860, out of US copyright by date. OCR quality: fair: two columns; the Latin is readable, the Greek often garbled. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: Theodore Abu Qurrah's Greek opuscula: the notice at about OCR line 121366 (col. 1445), the texts from about 121450 (col. 1461). The rest of the volume holds Andrew of Crete and Malalas.
+Content note: Theodore Abu Qurrah's Greek opuscula: the notice at about OCR line 121450 (col. 1445), the texts from about 122398 (col. 1461). The rest of the volume holds Andrew of Crete and Malalas.
 
 ______________________________________________________________________
 

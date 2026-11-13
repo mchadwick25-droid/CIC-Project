@@ -6,7 +6,7 @@ Rights: Public Domain (pd-us-by-date: published 1902); the archive.org record ca
 Language: lat, grc
 Source: archive.org item sacrorumconcilio0000vari, full text from the item's own djvu.txt. Fetched directly 2026-11-13 by the Library thread; the byte count of the downloaded file (3,445,930) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1902, out of US copyright by date. OCR quality: fair: long s. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: The councils from 803 (about OCR line 1599) to 852 (about 102415); Cordoba material at about 767 and 102257.
+Content note: The councils of 814-856 by the title page (OCR about 201-204), with additions from 802; the last acts are Verberie at about 105225 and Rome 853 at about 106404. The Cordoba conciliabulum at about 102256.
 
 ______________________________________________________________________
 

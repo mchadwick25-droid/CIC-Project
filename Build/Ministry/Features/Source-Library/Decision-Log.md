@@ -282,3 +282,55 @@ Waldensian pastor, Wolkan Austrian, Limborch a Remonstrant professor, the 1872 s
 ### Next action
 
 Batch 7, in a fresh session: the gaps after 1815. Handover: `HANDOVER-batch7.md`.
+
+## 2026-11-13 — Church Family Tree wants, era 4 (622-1054)
+
+**Done.** Fifty-one archive.org files for the era 4 rows of the combined wanted list (Open-Gaps 220 and
+222): 41 person sources and 7 councils. Each was checked the batch 4 way. The host record was re-read and the
+title page read; six doubtful years were read on page images (Macler 1917, not the record's 1897; Anglia 13
+1891, not 1877; the Paterik 1911; Gorskii 1844; Swoboda 1900; Wüstenfeld 1858). The byte count matches the
+host's listed size, and each body after its header is byte for byte the host text. Two Opus reviewers took
+23 and 28 files, and a third rechecked their corrections. File by file: `CFT-Wants.md`, era 4. The search
+record, with every host and language, is `Build/Ministry/Operations/Audits/2026-11-13_library-era4/Search_Log.md`.
+
+**Decided here.**
+- A Life whose date of writing the volume does not give goes on its subject's entry as `needs-ruling`. Five
+  are shelved this way: John of Jerusalem's Life of John of Damascus, Michael's Life of Theodore, the Life of
+  Stephen the Younger, the Vita Euthymii, and the Iviron Lives. The subject's own works in the same volume are
+  shelved by the audit's dating of the subject.
+- Muslim historians (al-Tabari, Ibn Ishaq) are outside witnesses. They are shelved as `context` on the entries
+  they write about, as Baladhuri is.
+- Where a scan binds two volumes, the shelf row's locus covers only the volume the want names: Mansi XVII
+  (bound with XVIII), Duval's Latin version (bound with the Syriac textus).
+
+**Corrected before writing.** I drafted these from memory, and all were removed before the first write:
+- Brussels as the Analecta's place (the title page later confirmed it, so it is now cited);
+- "Osbern and Eadmer after the Conquest";
+- "the Ramsey Life" and "a Winchester-trained monk";
+- three "disciple" Lives;
+- "a Catholic historian";
+- the tetragamy affair;
+- the March days of the Acta Sanctorum volume.
+
+**Corrected after review.** The reviewers found:
+- Mansi XVII also holds all of tomus XVIII, so it was renamed and its locus restricted;
+- the printer of XVI and XVIII is Reinecke of Berlin, not Geidel;
+- the ranges of XIV and XV were wrong (814-856 and 855-868, by their title pages);
+- Waitz's scan stops in chapter 23 of the Life of Rimbert;
+- Sweet's announced Latin text never appeared;
+- Macler's volume is book III only;
+- Duval's file binds the Syriac textus;
+- the Analecta volume appeared in 1922;
+- four PL Creator lines named people the title pages do not;
+- about twenty passage lines were wrong;
+- person dates were cited to the census when they are in the era 4 audit.
+
+All were fixed and rechecked.
+
+**For the tree, not the Library.** The Paulicians remain known only through enemies. Peter of Sicily and
+Theophanes Continuatus are both hostile, so the choice of edition does not change that. The census
+should keep the two-witness caveat it already carries.
+
+### Next action
+
+The era 5 wants (1054-1300, 44 person sources, 12 major) in a fresh session, the same way.

@@ -6,7 +6,7 @@ Rights: Public Domain (pd-us-by-date: published 1893); the archive.org record ca
 Language: ara, lat
 Source: archive.org item india.history.resource.86986, full text from the item's own djvu.txt (file "86986_djvu.txt"). Fetched directly 2026-11-13 by the Library thread; the byte count of the downloaded file (1,269,402) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1893, out of US copyright by date. OCR quality: fair for the Arabic. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: The years 15 to 31 AH: argumentum at about OCR line 92; al-Qadisiyya at about 932-1186; Umar's covenant with Jerusalem at about 6609, other treaties at about 13343, 15014, 15863 and 16113.
+Content note: From the end of year 14 to year 32 AH (argumentum at about OCR line 92-182; year 15 at about 183, year 32 at about 24237): al-Qadisiyya at about 932-1186; Umar's covenant with Jerusalem at about 6609, other treaties at about 13343, 15014, 15863 and 16113.
 
 ______________________________________________________________________
 

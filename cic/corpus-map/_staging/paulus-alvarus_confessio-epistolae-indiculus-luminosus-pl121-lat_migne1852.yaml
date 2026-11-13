@@ -3,9 +3,9 @@ assignments:
 - row_id: paulus-alvarus_confessio-epistolae-indiculus-luminosus-pl121-lat_migne1852--paulus-alvarus-confessio-epistolae-indiculus-luminosus-pl
   work: 'Paulus Alvarus, Confessio, Epistolae, Indiculus luminosus (PL 121)'
   author: paulus-alvarus
-  locus: 'from about OCR line 30855'
+  locus: 'from about OCR line 30855; add 12 to OCR line numbers'
   atlas_ids:
   - mozarabic-christianity
   role: tradition
   confidence: provisional
-  note: 'His own writings, inside this window (active 850s, census).'
+  note: 'His own writings, inside this window (active 850s, era 4 audit).'

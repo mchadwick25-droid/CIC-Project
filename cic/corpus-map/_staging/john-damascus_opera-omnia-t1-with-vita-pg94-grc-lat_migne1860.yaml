@@ -10,11 +10,11 @@ assignments:
   - melkite-arabic-christianity
   role: tradition
   confidence: provisional
-  note: 'John of Damascus''s own works, written in these entries'' windows by the census''s dating of him (c.675-749).'
+  note: 'John of Damascus''s own works, written in these entries'' windows by the era 4 audit''s dating of him (c.675-749).'
 - row_id: john-damascus_opera-omnia-t1-with-vita-pg94-grc-lat_migne1860--john-of-jerusalem-life-of-john-of-damascus-pg-94-cols-429
   work: 'John of Jerusalem, Life of John of Damascus (PG 94, cols. 429-490)'
   author: john-damascus
-  locus: 'from about OCR line 30172'
+  locus: 'from about OCR line 30172; add 12 to OCR line numbers'
   atlas_ids:
   - melkite-arabic-christianity
   role: tradition

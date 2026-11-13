@@ -6,7 +6,7 @@ Rights: Public Domain (pd-us-by-date: published 1844); the archive.org record ca
 Language: chu, rus
 Source: archive.org item pamjatnikiduhovnojliteraturyvremenveliko76, full text from the item's own djvu.txt. Fetched directly 2026-11-13 by the Library thread; the byte count of the downloaded file (229,142) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1844, out of US copyright by date. OCR quality: fair to good. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: From the Pribavleniia k Tvoreniiam sv. Ottsov for 1844, part II (contents page, OCR about line 71). Ilarion's Sermon on Law and Grace in Church Slavonic from about OCR line 94 to 2217, his Confession of faith after it, and a Russian translation from about 2603.
+Content note: From the Pribavleniia k Tvoreniiam sv. Ottsov for 1844, part II (contents page, OCR about line 71). The editor's foreword from about OCR line 89; Ilarion's Sermon on Law and Grace in Church Slavonic from about 1124 to 2217; his Confession of faith at about 2489-2604; a Russian translation from about 2606.
 
 ______________________________________________________________________
 

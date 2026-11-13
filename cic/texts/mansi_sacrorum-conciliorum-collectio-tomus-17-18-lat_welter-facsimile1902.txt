@@ -1,12 +1,12 @@
-Title: Sacrorum conciliorum nova et amplissima collectio, tomus XVII
+Title: Sacrorum conciliorum nova et amplissima collectio, tomi XVII and XVIII (two volumes in one scan)
 Creator: Edited by J. D. Mansi; facsimile reprint (title page)
-Publisher: Paris: H. Welter, 1902 (title page, a facsimile printed by F. M. Geidel of Leipzig; the reprint line names Welter, Paris)
-Publication Date: 1902 (title page); the reprint line reads MDCCCCI
+Publisher: Paris: H. Welter, 1902 (title pages; the tomus XVIII title page names the printer C. Reinecke, Berlin, OCR about 68665; tomus XVII's printer line is garbled)
+Publication Date: 1902 (title pages); the reprint lines read MDCCCCI (tomus XVII, OCR about 132) and MDCCCCII (tomus XVIII, about 68739)
 Rights: Public Domain (pd-us-by-date: published 1902); the archive.org record carries no rights field, so the imprint date is the basis
 Language: lat, grc
 Source: archive.org item sacrorumconcilio0017vari, full text from the item's own djvu.txt. Fetched directly 2026-11-13 by the Library thread; the byte count of the downloaded file (3,850,779) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1902, out of US copyright by date. OCR quality: fair: long s. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: The councils from 871 (about OCR line 509); the council of Constantinople of 879-880 at about 37991.
+Content note: Tomus XVII: the councils from 871 (about OCR line 509), Constantinople 879-880 at about 37991, to 'Finis tomi decimi septimi' at about 57606. Then tomus XVIII, its own title page at about 68650-68739 (to 967), to 'Finis tomi decimi octavi' at about 122813.
 
 ______________________________________________________________________
 

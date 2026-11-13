@@ -1,0 +1,11 @@
+source_file: mansi_sacrorum-conciliorum-collectio-tomus-17-18-lat_welter-facsimile1902.txt
+assignments:
+- row_id: mansi_sacrorum-conciliorum-collectio-tomus-17-18-lat_welter-facsimile1902--mansi-xvii-councils-from-871-constantinople-879-880
+  work: 'Mansi XVII: councils from 871, Constantinople 879-880'
+  author: mansi
+  locus: 'tomus XVII, about OCR lines 509-57606; add 12 to OCR line numbers'
+  atlas_ids:
+  - byzantine-imperial-church-macedonian
+  role: tradition
+  confidence: provisional
+  note: 'The councils'' own acts, inside this window. Tomus XVIII, bound in the same scan, is not shelved here.'

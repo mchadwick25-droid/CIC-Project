@@ -3,7 +3,7 @@ assignments:
 - row_id: wulfstan-winchester_vita-s-ethelwoldi-pl137-lat_migne1853--wulfstan-of-winchester-vita-s-ethelwoldi-pl-137
   work: 'Wulfstan of Winchester, Vita S. Ethelwoldi (PL 137)'
   author: wulfstan-winchester
-  locus: 'from about OCR line 6011'
+  locus: 'from about OCR line 6011; add 12 to OCR line numbers'
   atlas_ids:
   - late-anglo-saxon-christianity
   role: tradition

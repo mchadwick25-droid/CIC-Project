@@ -6,11 +6,11 @@ works:
 - row_id: acta-sanctorum_martii-tomus-3-lat-grc_palme1865--stephen-the-sabaite-acts-of-the-twenty-martyrs-of-mar-saba
   work: Stephen the Sabaite, Acts of the twenty martyrs of Mar Saba (AASS Mar. III)
   author: acta-sanctorum
-  locus: from about OCR line 50340
+  locus: from about OCR line 50233; add 12 to OCR line numbers
   role: tradition
   confidence: provisional
-  note: The monk's own account of the killings at Mar Saba in 797 (census), in the Bollandists'
-    Latin.
+  note: Stephen the Sabaite's own account of the killings at Mar Saba in 797 (the commentary,
+    OCR about 50375), in Latin from a Greek manuscript.
   source_file: acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt
 - row_id: npnf209_hilary-poitiers-john-damascus--an-exact-exposition-of-the-orthodox-faith-de-fide-orthodoxa
   work: An Exact Exposition of the Orthodox Faith (De Fide Orthodoxa)
@@ -33,13 +33,13 @@ works:
   locus: the whole volume except the Vita
   role: tradition
   confidence: provisional
-  note: John of Damascus's own works, written in these entries' windows by the census's dating
-    of him (c.675-749).
+  note: John of Damascus's own works, written in these entries' windows by the era 4 audit's
+    dating of him (c.675-749).
   source_file: john-damascus_opera-omnia-t1-with-vita-pg94-grc-lat_migne1860.txt
 - row_id: john-damascus_opera-omnia-t1-with-vita-pg94-grc-lat_migne1860--john-of-jerusalem-life-of-john-of-damascus-pg-94-cols-429
   work: John of Jerusalem, Life of John of Damascus (PG 94, cols. 429-490)
   author: john-damascus
-  locus: from about OCR line 30172
+  locus: from about OCR line 30172; add 12 to OCR line numbers
   role: tradition
   confidence: needs-ruling
   note: The hagiographer's Life. Its date of writing is not given in this volume's heading,
@@ -57,8 +57,8 @@ works:
 - row_id: theodore-abu-qurrah_opuscula-with-andrew-crete-malalas-pg97-grc-lat_migne1860--theodore-abu-qurrah-greek-opuscula-pg-97-cols-1445ff
   work: Theodore Abu Qurrah, Greek opuscula (PG 97, cols. 1445ff)
   author: theodore-abu-qurrah
-  locus: from about OCR line 121366
+  locus: from about OCR line 121450; add 12 to OCR line numbers
   role: tradition
   confidence: provisional
-  note: The bishop's own writings, inside this window by the census's dating of him (c.795-c.815).
+  note: The bishop's own writings, inside this window by the era 4 audit's dating of him (c.795-c.815).
   source_file: theodore-abu-qurrah_opuscula-with-andrew-crete-malalas-pg97-grc-lat_migne1860.txt

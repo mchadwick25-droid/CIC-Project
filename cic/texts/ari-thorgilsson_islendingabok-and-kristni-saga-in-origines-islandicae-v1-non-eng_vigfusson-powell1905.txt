@@ -6,7 +6,7 @@ Rights: Public Domain (pd-us-by-date: published 1905); the archive.org record ca
 Language: non, eng
 Source: archive.org item originesislandic01gudb, full text from the item's own djvu.txt. Fetched directly 2026-11-13 by the Library thread; the byte count of the downloaded file (2,708,288) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1905, out of US copyright by date. OCR quality: good. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: Icelandic texts with English. Ari's Libellus Islandorum (Íslendingabók) from about OCR line 19869 (p. 281); the conversion at the Althing in the English at about 20470-20545; Kristni saga from about 25327 (p. 371).
+Content note: Icelandic texts with English. Ari's Libellus Islandorum (Íslendingabók) from about OCR line 19869 (p. 288); the conversion at the Althing in the English at about 20470-20545; the editors' introduction to Kristni saga from about 25279, the saga from about 25625.
 
 ______________________________________________________________________
 

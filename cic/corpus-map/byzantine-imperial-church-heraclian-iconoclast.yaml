@@ -70,8 +70,8 @@ works:
   locus: the whole volume except the Vita
   role: tradition
   confidence: provisional
-  note: John of Damascus's own works, written in these entries' windows by the census's dating
-    of him (c.675-749).
+  note: John of Damascus's own works, written in these entries' windows by the era 4 audit's
+    dating of him (c.675-749).
   source_file: john-damascus_opera-omnia-t1-with-vita-pg94-grc-lat_migne1860.txt
 - row_id: mansi_sacrorum-conciliorum-collectio-tomus-11-lat_welter-facsimile1901--sophronius-of-jerusalem-synodical-letter-634-as-read-at-constantinople
   work: Sophronius of Jerusalem, Synodical Letter (634), as read at Constantinople III (Mansi
@@ -106,7 +106,8 @@ works:
   locus: the whole volume except the Life of Stephen
   role: tradition
   confidence: provisional
-  note: The patriarch's own writings, inside these windows by the census's dating of him (c.758-828).
+  note: The patriarch's own writings, inside these windows by the era 4 audit's dating of
+    him (c.758-828).
   source_file: nikephoros-cp_opera-with-vita-stephani-iunioris-pg100-grc-lat_migne1860.txt
 - row_id: john-moschus_pratum-spirituale-sophronius-opera-grc-lat_migne-pg87-3--sophronius-synodical-letter-and-works
   work: Sophronius of Jerusalem, Epistola synodica ad Sergium (634), Orationes, Miracula Cyri
@@ -129,8 +130,8 @@ works:
   locus: the whole volume; add 12 to OCR line numbers
   role: context
   confidence: provisional
-  note: A Muslim historian (839-923, census) on the conquests of Syria and Iraq, from the
-    conquerors' side; outside witness.
+  note: A Muslim historian (839-923, era 4 audit) on the conquests of Syria and Iraq, from
+    the conquerors' side; outside witness.
   source_file: tabari_annales-prima-series-iv-ara-lat_de-goeje1890.txt
 - row_id: tabari_annales-prima-series-v-ara-lat_de-goeje1893--al-tabari-annales-prima-series-v
   work: al-Tabari, Annales, prima series V
@@ -138,8 +139,8 @@ works:
   locus: the whole volume; add 12 to OCR line numbers
   role: context
   confidence: provisional
-  note: A Muslim historian (839-923, census) on the conquests of Syria and Iraq, from the
-    conquerors' side; outside witness.
+  note: A Muslim historian (839-923, era 4 audit) on the conquests of Syria and Iraq, from
+    the conquerors' side; outside witness.
   source_file: tabari_annales-prima-series-v-ara-lat_de-goeje1893.txt
 - row_id: theodore-studite_opera-omnia-pg99-grc-lat_migne1860--theodore-the-studite-antirrhetici-letters-and-other-works-pg
   work: Theodore the Studite, Antirrhetici, Letters and other works (PG 99)
@@ -147,13 +148,14 @@ works:
   locus: the whole volume except the Vita
   role: tradition
   confidence: provisional
-  note: His own writings, inside these windows by the census's dating of him (759-826).
+  note: His own writings, inside these windows by the era 4 audit's dating of him (759-826).
   source_file: theodore-studite_opera-omnia-pg99-grc-lat_migne1860.txt
 - row_id: theophanes-confessor_chronographia-pg108-grc-lat_migne1863--theophanes-the-confessor-chronographia-pg-108
   work: Theophanes the Confessor, Chronographia (PG 108)
   author: theophanes-confessor
-  locus: from about OCR line 3707
+  locus: from about OCR line 3707; add 12 to OCR line numbers
   role: tradition
   confidence: provisional
-  note: A monk inside the church writing in this window, by the census's dating of him (c.760-818).
+  note: A monk inside the church writing in this window, by the era 4 audit's dating of him
+    (c.760-818).
   source_file: theophanes-confessor_chronographia-pg108-grc-lat_migne1863.txt

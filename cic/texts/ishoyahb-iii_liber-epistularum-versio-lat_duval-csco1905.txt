@@ -1,12 +1,12 @@
-Title: Iso'yahb Patriarchae III Liber epistularum (Corpus Scriptorum Christianorum Orientalium, Scriptores Syri, series secunda, tomus LXIV: versio)
+Title: Iso'yahb Patriarchae III Liber epistularum (Corpus Scriptorum Christianorum Orientalium, Scriptores Syri, series secunda, tomus LXIV: versio; bound with the textus)
 Creator: Ishoyahb III; translated by Rubens Duval (title page)
 Publisher: Paris: Charles Poussielgue; Leipzig: Otto Harrassowitz, MDCCCCV (title page); the preface is dated 1 September 1905
 Publication Date: 1905 (title page)
 Rights: Public Domain (pd-us-by-date: published 1905); the archive.org record carries the Public Domain Mark
-Language: lat
+Language: lat, syr
 Source: archive.org item DuvalIshoyahb, full text from the item's own djvu.txt (file "CSCO 12_djvu.txt"). Fetched directly 2026-11-13 by the Library thread; the byte count of the downloaded file (1,049,961) equals the size archive.org lists for the djvu.txt.
-Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1905, out of US copyright by date. OCR quality: good. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: The Latin version of the letters, in three parts, from about OCR line 330. The Arabs and the Mazunaye at about 3526, 8703 and 8710; Hira at about 7543.
+Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1905, out of US copyright by date. OCR quality: good for the Latin to about OCR line 11600; the Syriac textus that follows, scanned in reverse with its title page at about 44426-44449 (MDCCCCIV), is garbled. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
+Content note: The Latin version of the letters, in three parts, from about OCR line 330 with its index to about 11600; then the Syriac text volume. The Arabs and the Mazunaye at about 3526, 8703 and 8710; Hira at about 7543. Duval's preface gives the year 630 (about 96), the three parts (about 210-214) and his death in 658 (about 134).
 
 ______________________________________________________________________
 

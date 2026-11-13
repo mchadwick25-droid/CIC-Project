@@ -9,13 +9,13 @@ assignments:
   - byzantine-imperial-church-heraclian-iconoclast
   role: tradition
   confidence: provisional
-  note: 'The patriarch''s own writings, inside these windows by the census''s dating of him (c.758-828).'
+  note: 'The patriarch''s own writings, inside these windows by the era 4 audit''s dating of him (c.758-828).'
 - row_id: nikephoros-cp_opera-with-vita-stephani-iunioris-pg100-grc-lat_migne1860--stephen-the-deacon-life-of-stephen-the-younger-pg-100
   work: 'Stephen the Deacon, Life of Stephen the Younger (PG 100)'
   author: nikephoros-cp
-  locus: 'from about OCR line 88621'
+  locus: 'from about OCR line 88621; add 12 to OCR line numbers'
   atlas_ids:
   - iconophile-byzantine-monasticism
   role: tradition
   confidence: needs-ruling
-  note: 'The hagiographer''s Life of the monk killed in 765 (census); its date of writing is not given in its heading.'
+  note: 'The hagiographer''s Life of the monk killed in 765 (era 4 audit); its date of writing is not given in its heading.'

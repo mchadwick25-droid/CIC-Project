@@ -1,12 +1,12 @@
 Title: Chronicon monasterii de Abingdon, vol. II (Rolls Series)
-Creator: Abingdon Abbey; edited by Joseph Stevenson (title page)
+Creator: Edited by Joseph Stevenson (title page); the record names Abingdon Abbey
 Publisher: London: Longman, Brown, Green, Longmans, and Roberts, 1858 (title page)
 Publication Date: 1858 (title page)
 Rights: Public Domain (pd-us-by-date: published 1858); the archive.org record carries no rights field, so the imprint date is the basis
 Language: lat, eng
 Source: archive.org item chroniconmonaste02abin, full text from the item's own djvu.txt. Fetched directly 2026-11-13 by the Library thread; the byte count of the downloaded file (1,576,318) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1858, out of US copyright by date. OCR quality: fair to good. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: The Abingdon chronicle, vol. II, with appendices; Ælfric's Life of St Æthelwold from about OCR line 19873 to about 20260.
+Content note: The Abingdon chronicle, vol. II, with appendices; Ælfric's Life of St Æthelwold (Appendix I) from about OCR line 19873 to about 20428.
 
 ______________________________________________________________________
 

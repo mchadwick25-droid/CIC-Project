@@ -6,26 +6,26 @@ works:
 - row_id: aelfric_vita-s-aethelwoldi-in-chronicon-monasterii-de-abingdon-v2-lat_stevenson1858--lfric-life-of-st-thelwold-abingdon-chronicle-ii
   work: Ælfric, Life of St Æthelwold (Abingdon Chronicle II)
   author: aelfric
-  locus: about OCR lines 19873-20260; add 12 to OCR line numbers
+  locus: about OCR lines 19873-20428; add 12 to OCR line numbers
   role: tradition
   confidence: provisional
-  note: Ælfric's Life of Æthelwold (Æthelwold c.904-984, census).
+  note: Ælfric's Life of Æthelwold (Æthelwold c.904-984, era 4 audit).
   source_file: aelfric_vita-s-aethelwoldi-in-chronicon-monasterii-de-abingdon-v2-lat_stevenson1858.txt
-- row_id: alfred-the-great_west-saxon-version-of-gregorys-pastoral-care-ang-lat-eng_sweet1871--alfred-preface-and-west-saxon-pastoral-care-sweet-1871
+- row_id: alfred-the-great_west-saxon-version-of-gregorys-pastoral-care-ang-eng_sweet1871--alfred-preface-and-west-saxon-pastoral-care-sweet-1871
   work: Alfred, preface and West-Saxon Pastoral Care (Sweet 1871)
   author: alfred-the-great
   locus: the whole text; add 12 to OCR line numbers
   role: tradition
   confidence: provisional
-  note: The king's own preface and translation, inside this window (849-899, census).
-  source_file: alfred-the-great_west-saxon-version-of-gregorys-pastoral-care-ang-lat-eng_sweet1871.txt
+  note: The king's own preface and translation, inside this window (849-899, era 4 audit).
+  source_file: alfred-the-great_west-saxon-version-of-gregorys-pastoral-care-ang-eng_sweet1871.txt
 - row_id: asser_life-of-king-alfred-lat_stevenson1904--asser-life-of-king-alfred-stevenson-1904
   work: Asser, Life of King Alfred (Stevenson 1904)
   author: asser
   locus: from about OCR line 6103; add 12 to OCR line numbers
   role: tradition
   confidence: provisional
-  note: Asser's Life of Alfred (849-899, census); Stevenson's introduction dates it.
+  note: Asser's Life of Alfred (849-899, era 4 audit); Stevenson's introduction dates it.
   source_file: asser_life-of-king-alfred-lat_stevenson1904.txt
 - row_id: asser_life-of-king-alfred_cook1906--asser-life-of-king-alfred-tr-cook-1906
   work: Asser, Life of King Alfred, tr. Cook (1906)
@@ -41,7 +41,8 @@ works:
   locus: from about OCR line 29580; add 12 to OCR line numbers
   role: tradition
   confidence: provisional
-  note: The Life of Oswald (d. 992, census); Raine's preface discusses its author and date.
+  note: The Life of Oswald (d. 992, era 4 audit); Raine's preface discusses its author and
+    date.
   source_file: byrhtferth_vita-s-oswaldi-in-historians-of-the-church-of-york-v1-lat_raine1879.txt
 - row_id: dunstan_memorials-of-saint-dunstan-rolls-series-63-lat_stubbs1874--memorials-of-st-dunstan-stubbs-1874-the-life-by-b-and-the
   work: 'Memorials of St Dunstan (Stubbs 1874): the Life by B. and the letters'
@@ -63,7 +64,7 @@ works:
 - row_id: wulfstan-winchester_vita-s-ethelwoldi-pl137-lat_migne1853--wulfstan-of-winchester-vita-s-ethelwoldi-pl-137
   work: Wulfstan of Winchester, Vita S. Ethelwoldi (PL 137)
   author: wulfstan-winchester
-  locus: from about OCR line 6011
+  locus: from about OCR line 6011; add 12 to OCR line numbers
   role: tradition
   confidence: provisional
   note: The Life of Æthelwold that the notice attributes to Wulfstan; the notice discusses

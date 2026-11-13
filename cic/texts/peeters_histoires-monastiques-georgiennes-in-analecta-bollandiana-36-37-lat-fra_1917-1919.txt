@@ -1,11 +1,11 @@
 Title: Analecta Bollandiana, tomi XXXVI-XXXVII (1917-1919): P. Peeters, Histoires monastiques géorgiennes
-Creator: P. Peeters, Histoires monastiques géorgiennes (the article); the Bollandists' journal
-Publisher: The record gives no publisher or place; the volume is the complementary series of 1915-1919 (OCR line 341)
-Publication Date: 1917-1919 (the volume's own series statement); the record gives 1919
-Rights: Public Domain (pd-us-by-date: published 1919); the archive.org record carries the Public Domain Mark
+Creator: P. Peeters, Histoires monastiques géorgiennes (the article); the volume edited by Franciscus van Ortroy, Hippolytus Delehaye, Paulus Peeters and Carolus van de Vorst (title page)
+Publisher: Brussels: Société des Bollandistes; Paris: Librairie Auguste Picard (title page, OCR about 227-266, and the page image)
+Publication Date: 1917-1919 (the volume); 'a paru en 1922' (title page, read on the page image); the record gives 1919
+Rights: Public Domain (pd-us-by-date: published 1922); the archive.org record carries the Public Domain Mark
 Language: lat, fra
 Source: archive.org item analectabollandianatom3637, full text from the item's own djvu.txt. Fetched directly 2026-11-13 by the Library thread; the byte count of the downloaded file (2,069,809) equals the size archive.org lists for the djvu.txt.
-Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1919, out of US copyright by date. OCR quality: good for the Latin; the Georgian script poor. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
+Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1922, out of US copyright by date. OCR quality: good for the Latin; the Georgian script poor. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
 Content note: Peeters's Latin translations of four Georgian monastic Lives, with a French introduction at about OCR line 296-390: the Life of John and Euthymius at about 402; the Life of George the Hagiorite at about 3811; the Life of Serapion of Zarzma at about 8986; Giorgi Merchule's Life of Grigol of Khandzta at about 11982.
 
 ______________________________________________________________________

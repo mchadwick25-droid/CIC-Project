@@ -1,11 +1,11 @@
 Title: Patrologiae cursus completus, series Graeca, tomus CVIII: Theophanes, Leo Grammaticus, auctor incertus, Anastasius Bibliothecarius
 Creator: Theophanes the Confessor, Leo the Grammarian, an anonymous author, Anastasius the Librarian (title page)
 Publisher: Paris (Petit-Montrouge): J.-P. Migne (title page)
-Publication Date: 1863 (title page)
-Rights: Public Domain (pd-us-by-date: published 1863); the archive.org record carries no rights field, so the imprint date is the basis
+Publication Date: 1863 (series title page); the volume's own title page reads 1861 (OCR line 165, and the page image)
+Rights: Public Domain (pd-us-by-date: published 1861); the archive.org record carries no rights field, so the imprint date is the basis
 Language: grc, lat
 Source: archive.org item bim_early-english-books-1641-1700_1863_108, full text from the item's own djvu.txt. Fetched directly 2026-11-13 by the Library thread; the byte count of the downloaded file (4,063,848) equals the size archive.org lists for the djvu.txt.
-Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1863, out of US copyright by date. OCR quality: fair: two columns; the Latin is readable, the Greek often garbled. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
+Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1861, out of US copyright by date. OCR quality: fair: two columns; the Latin is readable, the Greek often garbled. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
 Content note: Theophanes's Chronographia, Greek with Latin, from about OCR line 3707; Leo the Grammarian and Anastasius's Latin follow.
 
 ______________________________________________________________________

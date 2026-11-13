@@ -6,7 +6,7 @@ Rights: Public Domain (pd-us-by-date: published 1902); the archive.org record ca
 Language: lat, grc
 Source: archive.org item sacrorumconcilio0000vari_s4j3, full text from the item's own djvu.txt. Fetched directly 2026-11-13 by the Library thread; the byte count of the downloaded file (3,122,690) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1902, out of US copyright by date. OCR quality: fair: long s. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: The councils from 855 (about OCR line 360): 861 at about 49948, 867 at about 85456, 868-869 at about 94180.
+Content note: The councils of 855-868 by the title page (OCR about 151): Constantinople conciliabula at about 58466 (headed 859), 63815 (861) and 85636 (Photius against Nicholas); the Roman council of 868 at about 94180; a chronological table of Nicholas I's letters at about 49941.
 
 ______________________________________________________________________
 

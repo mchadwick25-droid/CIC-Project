@@ -3,7 +3,7 @@ assignments:
 - row_id: rimbert_vita-anskarii-accedit-vita-rimberti-lat_waitz1884--rimbert-vita-anskarii-vita-rimberti-waitz-1884
   work: 'Rimbert, Vita Anskarii; Vita Rimberti (Waitz 1884)'
   author: rimbert
-  locus: 'the whole text; add 12 to OCR line numbers'
+  locus: 'from about OCR line 855; add 12 to OCR line numbers'
   atlas_ids:
   - scandinavian-conversion-christianity
   role: tradition

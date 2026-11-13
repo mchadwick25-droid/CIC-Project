@@ -9,11 +9,11 @@ assignments:
   - byzantine-imperial-church-heraclian-iconoclast
   role: tradition
   confidence: provisional
-  note: 'His own writings, inside these windows by the census''s dating of him (759-826).'
+  note: 'His own writings, inside these windows by the era 4 audit''s dating of him (759-826).'
 - row_id: theodore-studite_opera-omnia-pg99-grc-lat_migne1860--michael-the-monk-life-of-theodore-the-studite-pg-99-col-233
   work: 'Michael the Monk, Life of Theodore the Studite (PG 99, col. 233)'
   author: theodore-studite
-  locus: 'from about OCR line 18804'
+  locus: 'from about OCR line 18804; add 12 to OCR line numbers'
   atlas_ids:
   - iconophile-byzantine-monasticism
   role: tradition

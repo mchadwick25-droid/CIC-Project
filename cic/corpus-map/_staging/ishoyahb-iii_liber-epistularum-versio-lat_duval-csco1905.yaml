@@ -3,10 +3,10 @@ assignments:
 - row_id: ishoyahb-iii_liber-epistularum-versio-lat_duval-csco1905--ishoyahb-iii-liber-epistularum-tr-duval-1905
   work: 'Ishoyahb III, Liber epistularum, tr. Duval (1905)'
   author: ishoyahb-iii
-  locus: 'the whole text; add 12 to OCR line numbers'
+  locus: 'the Latin version, to about OCR line 11600; add 12 to OCR line numbers'
   atlas_ids:
   - the-church-of-the-east-under-persia
   - the-church-of-the-east-on-the-silk-road
   role: tradition
   confidence: provisional
-  note: 'The catholicos''s own letters. They fall on both sides of 651; which letter belongs to which window is not settled here.'
+  note: 'The catholicos''s own letters. Duval''s preface places him from 630 (OCR about 96) to his death in 658 (about 134), across both windows; which letter falls in which window is not settled here.'

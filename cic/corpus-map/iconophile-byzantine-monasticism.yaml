@@ -25,8 +25,8 @@ works:
   locus: the whole volume except the Vita
   role: tradition
   confidence: provisional
-  note: John of Damascus's own works, written in these entries' windows by the census's dating
-    of him (c.675-749).
+  note: John of Damascus's own works, written in these entries' windows by the era 4 audit's
+    dating of him (c.675-749).
   source_file: john-damascus_opera-omnia-t1-with-vita-pg94-grc-lat_migne1860.txt
 - row_id: nikephoros-cp_opera-with-vita-stephani-iunioris-pg100-grc-lat_migne1860--nikephoros-of-constantinople-breviarium-antirrhetici
   work: Nikephoros of Constantinople, Breviarium, Antirrhetici, Apologeticus (PG 100)
@@ -34,21 +34,22 @@ works:
   locus: the whole volume except the Life of Stephen
   role: tradition
   confidence: provisional
-  note: The patriarch's own writings, inside these windows by the census's dating of him (c.758-828).
+  note: The patriarch's own writings, inside these windows by the era 4 audit's dating of
+    him (c.758-828).
   source_file: nikephoros-cp_opera-with-vita-stephani-iunioris-pg100-grc-lat_migne1860.txt
 - row_id: nikephoros-cp_opera-with-vita-stephani-iunioris-pg100-grc-lat_migne1860--stephen-the-deacon-life-of-stephen-the-younger-pg-100
   work: Stephen the Deacon, Life of Stephen the Younger (PG 100)
   author: nikephoros-cp
-  locus: from about OCR line 88621
+  locus: from about OCR line 88621; add 12 to OCR line numbers
   role: tradition
   confidence: needs-ruling
-  note: The hagiographer's Life of the monk killed in 765 (census); its date of writing is
-    not given in its heading.
+  note: The hagiographer's Life of the monk killed in 765 (era 4 audit); its date of writing
+    is not given in its heading.
   source_file: nikephoros-cp_opera-with-vita-stephani-iunioris-pg100-grc-lat_migne1860.txt
 - row_id: theodore-studite_opera-omnia-pg99-grc-lat_migne1860--michael-the-monk-life-of-theodore-the-studite-pg-99-col-233
   work: Michael the Monk, Life of Theodore the Studite (PG 99, col. 233)
   author: theodore-studite
-  locus: from about OCR line 18804
+  locus: from about OCR line 18804; add 12 to OCR line numbers
   role: tradition
   confidence: needs-ruling
   note: The hagiographer's Life; its date of writing is not given in its heading.
@@ -59,5 +60,5 @@ works:
   locus: the whole volume except the Vita
   role: tradition
   confidence: provisional
-  note: His own writings, inside these windows by the census's dating of him (759-826).
+  note: His own writings, inside these windows by the era 4 audit's dating of him (759-826).
   source_file: theodore-studite_opera-omnia-pg99-grc-lat_migne1860.txt

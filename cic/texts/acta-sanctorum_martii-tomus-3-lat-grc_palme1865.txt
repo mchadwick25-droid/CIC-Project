@@ -1,12 +1,12 @@
 Title: Acta sanctorum quotquot toto orbe coluntur: Martii tomus tertius
-Creator: The Bollandists (the Acta Sanctorum)
+Creator: Joannes Bollandus, G. Henschenius and D. Papebrochius; edited by Joannes Carnandet (title page, OCR about 635-646)
 Publisher: Paris and Rome: Victor Palme, MDCCCLXV (title page, OCR line 589); the record gives 1863
 Publication Date: 1865 (title page)
 Rights: Public Domain (pd-us-by-date: published 1865); the archive.org record carries no rights field, so the imprint date is the basis
 Language: lat, grc
 Source: archive.org item actasanctorumquo0000unse, full text from the item's own djvu.txt. Fetched directly 2026-11-13 by the Library thread; the byte count of the downloaded file (8,165,632) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1865, out of US copyright by date. OCR quality: fair. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: The third March volume of the Acta Sanctorum. The twenty martyrs of Mar Saba, with the Acts by Stephen the Sabaite, from about OCR line 50340; the 20 March section from about 28239.
+Content note: The third March volume of the Acta Sanctorum. The commentary on the twenty martyrs of Mar Saba from about OCR line 50233, the year 797 at about 50375, and the Acts 'auctore Stephano monacho Sabaita', given from a Greek manuscript in Latin, from about 50484; the 20 March section from about 28239.
 
 ______________________________________________________________________
 

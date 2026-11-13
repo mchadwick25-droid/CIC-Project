@@ -6,7 +6,7 @@ Rights: Public Domain (pd-us-by-date: published 1871); the archive.org record is
 Language: ang, eng
 Source: archive.org item kingalfredswest00sweegoog, full text from the item's own djvu.txt. Fetched directly 2026-11-13 by the Library thread; the byte count of the downloaded file (1,509,089) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1871, out of US copyright by date. OCR quality: fair to good; Google's notice at the head. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: Alfred's prefatory letter in Old English at about OCR line 183 and the translation of the Pastoral Care with Sweet's English facing; a second preface at about 23327.
+Content note: Alfred's prefatory letter in Old English at about OCR line 183, and the translation of the Pastoral Care with Sweet's English facing. Sweet's own preface is bound at the end (about 23327), his introduction from about 23610. The Latin text the title page announces is not in the volume: the notice at about 24984 (15 February 1872) says it has not appeared.
 
 ______________________________________________________________________
 

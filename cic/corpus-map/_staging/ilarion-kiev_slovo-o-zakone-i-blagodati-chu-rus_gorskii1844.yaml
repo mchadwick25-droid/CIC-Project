@@ -3,7 +3,7 @@ assignments:
 - row_id: ilarion-kiev_slovo-o-zakone-i-blagodati-chu-rus_gorskii1844--ilarion-sermon-on-law-and-grace-and-confession-1844
   work: 'Ilarion, Sermon on Law and Grace and Confession (1844)'
   author: ilarion-kiev
-  locus: 'from about OCR line 94; add 12 to OCR line numbers'
+  locus: 'about OCR lines 1124-2604; add 12 to OCR line numbers'
   atlas_ids:
   - kievan-rus-christianity
   role: tradition

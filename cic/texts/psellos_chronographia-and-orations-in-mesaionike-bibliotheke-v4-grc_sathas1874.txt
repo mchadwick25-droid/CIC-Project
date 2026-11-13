@@ -6,7 +6,7 @@ Rights: Public Domain (pd-us-by-date: published 1874); the archive.org record ca
 Language: grc
 Source: archive.org item satha-mesaionike-bibliotheke, full text from the item's own djvu.txt (file "Satha, Mesaionike bibliotheke 4_djvu.txt"). Fetched directly 2026-11-13 by the Library thread; the byte count of the downloaded file (2,299,659) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1874, out of US copyright by date. OCR quality: good for Greek. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: Psellos's Chronographia and his orations; the funeral oration for Michael Keroularios is listed in the contents at about OCR line 2517 (p. 353), with running heads 'Michael Keroullarios' at about 20586-23180. Volume IV of the series only (volume III is held).
+Content note: Psellos's Chronographia and orations. The funeral oration for Michael Keroularios begins at about OCR line 20500, with running heads 'Michael Keroullarios' to about 25362, where the oration for Leichoudes follows; a footnote in Sathas's prologue on it at about 2517. The Xiphilinos oration breaks off in the source (Sathas's note at about 28540). Volume IV of the series only (volume III is held).
 
 ______________________________________________________________________
 
