@@ -648,3 +648,4 @@ The 46 councils the Library does not hold (`Councils_Scan.md`, status WANTED). "
 | 16 | The Gomidas quotation in the census is in no held file. | 225 |
 | 17 | The census says Macrina is sister of King Teimuraz I but Brosset has her as sister of King David. | 225 |
 | 18 | Dutch Further Reformation has no WHO yet (Teellinck and Voetius LISTED, Schurman STORY); a life source is wanted (no source named). | 223 |
+| 19 | The held CSEL 19 scan of Lactantius (Brandt 1890, operaomniaacced00laubgoog) has no page 411; it runs from 410 to 412. A public-domain scan with that page is wanted for Div. inst. V.4.3. | 234 |
