@@ -90487,12 +90487,11 @@ function buildLegend(){
   let links=`<div class="note">Lines join traditions where the sources record a link. The color shows the kind of link. The line's pattern shows how sure the record is. Arrows point from the first movement to the second. Hover or click a line to read the link and its sources.</div>`;
   links+=`<button type="button" class="row" data-toggle="major" aria-pressed="false"><svg class="linekey" viewBox="0 0 26 10"><line x1="1" y1="5" x2="25" y2="5" stroke="var(--iron-gall)" stroke-width="3.4"/></svg><span class="sw-name">Major links</span><span class="sw" aria-hidden="true"></span></button>`;
   links+=`<div class="note">Major links show one movement growing out of another, a recorded break, or an act of authority the sources record, such as a council condemning a group. Pick a movement to see all of its links.</div>`;
-  links+=`<button type="button" class="row" data-toggle="links-all" aria-pressed="false"><svg class="linekey" viewBox="0 0 26 10">${Object.keys(LINK_FAMILY_LABEL).map((f,i)=>`<line x1="${1+i*6.5}" y1="5" x2="${6+i*6.5}" y2="5" stroke="var(--link-${f})" stroke-width="2.4"/>`).join('')}</svg><span class="sw-name">All connections</span><span class="sw" aria-hidden="true"></span></button>`;
   links+='<span class="cap">Kind of link</span>';
   Object.entries(LINK_FAMILY_LABEL).forEach(([f,lbl])=>{links+=`<button type="button" class="row" data-toggle="family:${f}" aria-pressed="true">${colorKey(f)}<span class="sw-name">${lbl}</span><span class="sw" aria-hidden="true"></span></button>`;});
   const lineKey=(dash)=>`<svg class="linekey" viewBox="0 0 26 10"><line x1="1" y1="5" x2="25" y2="5" stroke="var(--iron-gall)" stroke-width="1.6"${dash?` stroke-dasharray="${dash}"`:''}/></svg>`;
-  const confRow=(key,dash,lbl)=>`<button type="button" class="row" data-toggle="conf:${key}" aria-pressed="true">${lineKey(dash)}<span class="sw-name">${lbl}</span><span class="sw" aria-hidden="true"></span></button>`;
-  links+='<span class="cap">How sure the record is</span>'+confRow('Documented','', 'Documented')+confRow('Widely Accepted|Dominant Modern Reconstruction','6,3','Widely accepted or a leading reconstruction')+confRow('Contested','2,3','Contested')+confRow('Inferential-Thin','1,4','Thin evidence');
+  const confRow=(dash,lbl)=>`<div class="row">${lineKey(dash)}<span class="sw-name">${lbl}</span></div>`;
+  links+='<span class="cap">How sure the record is</span>'+confRow('','Documented')+confRow('6,3','Widely accepted or a leading reconstruction')+confRow('2,3','Contested')+confRow('1,4','Thin evidence');
   const builtSwatch=`conic-gradient(${famColor(FAM[1])} 0turn .25turn,${famColor(FAM[4])} .25turn .5turn,${famColor(FAM[6])} .5turn .75turn,${famColor(FAM[7])} .75turn 1turn)`;
   let key=`<div class="row"><i style="background:var(--graphite);opacity:.78"></i>Not yet built (graphite)</div>`;
   key+=`<div class="row"><i style="background:${builtSwatch};border:1px solid var(--iron-gall)"></i>Built &amp; Live (full pigment, in that world's own color)</div>`;
@@ -90510,17 +90509,15 @@ function buildLegend(){
   document.getElementById('who-chip').addEventListener('click',ev=>{ev.stopPropagation();clearWho();});
   const familyKeys=Object.keys(LINK_FAMILY_LABEL).map(f=>`family:${f}`);
   const hidden=new Set(familyKeys);
-  try{const saved=localStorage.getItem('tree-hidden');if(saved!==null){hidden.clear();JSON.parse(saved).forEach(k=>hidden.add(k));}}catch(e){}
+  try{const saved=localStorage.getItem('tree-hidden');if(saved!==null){hidden.clear();JSON.parse(saved).filter(k=>!k.startsWith('conf:')).forEach(k=>hidden.add(k));}}catch(e){}
   let majorOnly=false;
   try{majorOnly=localStorage.getItem('tree-major')==='1';}catch(e){}
   let movementsOn=false;
   try{movementsOn=localStorage.getItem('tree-movements')==='1';}catch(e){}
   const applyToggles=()=>{
-    const hiddenConf=new Set();
-    hidden.forEach(k=>{if(k.startsWith('conf:'))k.slice(5).split('|').forEach(c=>hiddenConf.add(c));});
     const laneOff=l=>hidden.has(`lane:${l}`);
     document.querySelectorAll('.edge-line,.edge-hit').forEach(p=>{
-      p.classList.toggle('is-off',hidden.has(`family:${p.dataset.family}`)||hiddenConf.has(p.dataset.conf)||(p.dataset.lanes||'').split('|').some(laneOff)||(majorOnly&&p.dataset.major!=='1'));
+      p.classList.toggle('is-off',hidden.has(`family:${p.dataset.family}`)||(p.dataset.lanes||'').split('|').some(laneOff)||(majorOnly&&p.dataset.major!=='1'));
     });
     document.querySelectorAll('.river-group,.node,.story,.who-stack,.river-pill,.prof-pill').forEach(g=>g.classList.toggle('is-off',laneOff(g.dataset.lane)));
     hideLabelsUnderWho();
@@ -90531,7 +90528,6 @@ function buildLegend(){
     const laneButtons=[...wrap.querySelectorAll('button[data-toggle^="lane:"]')];
     wrap.querySelectorAll('button[data-toggle]').forEach(b=>{
       const on=b.dataset.toggle==='lanes-all'?laneButtons.some(x=>!hidden.has(x.dataset.toggle))
-        :b.dataset.toggle==='links-all'?(!majorOnly&&familyKeys.some(k=>!hidden.has(k)))
         :b.dataset.toggle==='major'?(majorOnly&&familyKeys.some(k=>!hidden.has(k)))
         :b.dataset.toggle==='movements'?movementsOn:!hidden.has(b.dataset.toggle);
       b.setAttribute('aria-pressed',String(on));
@@ -90543,10 +90539,6 @@ function buildLegend(){
       const lanes=[...wrap.querySelectorAll('button[data-toggle^="lane:"]')].map(x=>x.dataset.toggle);
       const anyOn=lanes.some(l=>!hidden.has(l));
       lanes.forEach(l=>anyOn?hidden.add(l):hidden.delete(l));
-    } else if(k==='links-all'){
-      const anyOn=!majorOnly&&familyKeys.some(f=>!hidden.has(f));
-      majorOnly=false;
-      familyKeys.forEach(f=>anyOn?hidden.add(f):hidden.delete(f));
     } else if(k==='major'){
       const on=majorOnly&&familyKeys.some(f=>!hidden.has(f));
       majorOnly=!on;
@@ -90554,7 +90546,7 @@ function buildLegend(){
     } else if(k==='movements'){
       movementsOn=!movementsOn;
     } else if(hidden.has(k))hidden.delete(k);else hidden.add(k);
-    if(whoLinks.saved&&(k==='links-all'||k==='major'||k.startsWith('family:'))&&familyKeys.some(f=>!hidden.has(f))){whoLinks.saved=null;clearWho();}
+    if(whoLinks.saved&&(k==='major'||k.startsWith('family:'))&&familyKeys.some(f=>!hidden.has(f))){whoLinks.saved=null;clearWho();}
     const kept=whoLinks.saved, keptHidden=new Set(hidden);
     if(kept){familyKeys.forEach(f=>keptHidden.delete(f));kept.fam.forEach(f=>keptHidden.add(f));}
     try{localStorage.setItem('tree-hidden',JSON.stringify([...keptHidden]));localStorage.setItem('tree-major',(kept?kept.major:majorOnly)?'1':'0');localStorage.setItem('tree-movements',movementsOn?'1':'0');}catch(e){}

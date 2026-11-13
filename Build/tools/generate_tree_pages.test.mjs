@@ -189,7 +189,7 @@ test('Who and the connection lines are never shown together', () => {
   assert.match(map, /svg\.who-on \.edge-line,svg\.who-on \.edge-hit,svg\.who-on \.continues\{display:none!important\}/);
   assert.match(map, /if\(whoScope\)whoLinks\.suspend\(\);else whoLinks\.restore\(\);/);
   assert.match(map, /whoScope=null;whoLinks\.restore\(\);renderWho\(\);/);
-  assert.match(map, /if\(whoLinks\.saved&&\(k==='links-all'\|\|k==='major'\|\|k\.startsWith\('family:'\)\)&&familyKeys\.some\(f=>!hidden\.has\(f\)\)\)\{whoLinks\.saved=null;clearWho\(\);\}/);
+  assert.match(map, /if\(whoLinks\.saved&&\(k==='major'\|\|k\.startsWith\('family:'\)\)&&familyKeys\.some\(f=>!hidden\.has\(f\)\)\)\{whoLinks\.saved=null;clearWho\(\);\}/);
 });
 
 test('the map holds every tradition\'s people, every person\'s home tradition and card', () => {
