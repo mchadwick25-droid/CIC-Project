@@ -39,6 +39,11 @@ body{margin:0;background:var(--parchment);color:var(--iron-gall);
   border:1px solid var(--rule);border-radius:3px;padding:.35rem .7rem;cursor:pointer}
 .topbar button:hover{border-color:var(--gold-leaf)}
 .topbar button:focus-visible{outline:2px solid var(--madder);outline-offset:1px}
+#zoomCtl{position:fixed;top:calc(var(--map-top,8rem) + 2.1rem);left:.6rem;z-index:15;display:flex;flex-direction:column;gap:.4rem}
+#zoomCtl button{font:inherit;font-size:1rem;min-height:44px;padding:.4rem 1rem;color:var(--iron-gall);background:var(--vellum);
+  border:1px solid var(--rule);border-radius:3px;cursor:pointer;box-shadow:var(--shadow)}
+#zoomCtl button:hover{border-color:var(--gold-leaf)}
+#zoomCtl button:focus-visible{outline:2px solid var(--madder);outline-offset:1px}
 .feature-bar{position:fixed;top:2.9rem;left:0;right:0;z-index:20;display:flex;flex-wrap:wrap;
   gap:.5rem;padding:.4rem .9rem;background:var(--parchment);border-bottom:1px solid var(--rule)}
 .chip-group{position:relative}
@@ -284,7 +289,6 @@ svg.who-on .edge-line,svg.who-on .edge-hit,svg.who-on .continues{display:none!im
   .topbar{column-gap:.4rem}
   .topbar button{order:2;font-size:.95rem;padding:.4rem .7rem}
   .topbar button{flex:1 1 auto}
-  .topbar button.zoom-btn{order:3;flex:1 1 40%}
   .topbar .tag{order:4;font-size:.92rem}
 }
 @media (pointer:coarse){
@@ -313,8 +317,6 @@ svg.who-on .edge-line,svg.who-on .edge-hit,svg.who-on .continues{display:none!im
   <div class="spacer"></div>
   <a class="support-link" href="support.html">Help us grow</a>
   <button type="button" class="feedback-toggle" id="feedback-toggle" aria-haspopup="dialog" aria-expanded="false">Tell us what you think</button>
-  <button id="zoomOutBtn" type="button" class="zoom-btn" title="Zoom out (minus key)">Zoom out</button>
-  <button id="zoomInBtn" type="button" class="zoom-btn" title="Zoom in (plus key)">Zoom in</button>
   <button id="resetBtn" type="button">Reset view</button>
   <span class="tag">an interactive map of Christian tradition, from the first house-churches to about 2010</span>
 </div>
@@ -326,6 +328,10 @@ svg.who-on .edge-line,svg.who-on .edge-hit,svg.who-on .continues{display:none!im
 
 <div id="tip"></div>
 <div id="panel" role="dialog" aria-modal="true" aria-labelledby="panelTitle" tabindex="-1" inert><button class="close" id="panelClose" aria-label="Close">&times;</button><div id="panelBody"></div></div>
+<div id="zoomCtl" role="group" aria-label="Zoom the map">
+  <button id="zoomOutBtn" type="button" title="Zoom out (minus key)">Zoom out</button>
+  <button id="zoomInBtn" type="button" title="Zoom in (plus key)">Zoom in</button>
+</div>
 <div id="zoomHint">Scroll to move &middot; Ctrl + scroll to zoom</div>
 
 <script src="assets/place-line.js"></script>
@@ -90789,12 +90795,15 @@ document.getElementById('resetBtn').addEventListener('click',()=>{stopGlide();ce
 function positionFeatureBar(){
   const topbar=document.querySelector('.topbar'), featureBar=document.querySelector('.feature-bar');
   if(featureBar)featureBar.style.top=(topbar?topbar.offsetHeight:0)+'px';
+  document.documentElement.style.setProperty('--map-top',((topbar?topbar.offsetHeight:0)+(featureBar?featureBar.offsetHeight:0))+'px');
 }
 positionFeatureBar();
 window.addEventListener('resize',positionFeatureBar);
 
 render();
 buildLegend();
+positionFeatureBar();
+if(window.ResizeObserver){const ro=new ResizeObserver(positionFeatureBar);document.querySelectorAll('.topbar,.feature-bar').forEach(e=>ro.observe(e));}
 centerView();
 {
   const deepLinkId=new URLSearchParams(location.search).get('world');
