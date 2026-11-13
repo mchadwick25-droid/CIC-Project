@@ -42,13 +42,15 @@ body{margin:0;background:var(--parchment);color:var(--iron-gall);
 .feature-bar{position:fixed;top:2.9rem;left:0;right:0;z-index:20;display:flex;flex-wrap:wrap;
   gap:.5rem;padding:.4rem .9rem;background:var(--parchment);border-bottom:1px solid var(--rule)}
 .chip-group{position:relative}
+.chip-group:last-child{margin-left:auto}
 .chip{font-family:"Alegreya Sans",sans-serif;font-size:.78rem;font-weight:700;background:none;cursor:pointer;
   color:var(--iron-gall);padding:.35rem .85rem;border:1px solid var(--rule);border-radius:999px}
 .chip:hover,.chip:focus-visible,.chip[aria-expanded="true"]{border-color:var(--gold-leaf);color:var(--gold-leaf)}
 .chip[aria-pressed]{display:inline-flex;align-items:center;gap:.6rem;min-height:44px}
 .chip[aria-pressed]:focus-visible{outline:2px solid var(--madder);outline-offset:2px}
 @media (max-width:480px){.feature-bar.switches{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:.4rem;padding:.5rem .6rem}
-  .feature-bar .chip-group{position:static;grid-column:span 2;display:flex}
+  .feature-bar .chip-group{position:static;grid-column:span 3;display:flex}
+  .feature-bar .chip-group:last-child{grid-column:1/-1;margin-left:0}
   .feature-bar .chip-group .chip{flex:1;justify-content:center;padding:.35rem .4rem;font-size:.85rem}
   .feature-bar .chip[aria-pressed]{grid-column:span 3;justify-content:space-between;padding:.35rem .5rem .35rem .8rem;font-size:.85rem}
   .feature-bar .who-chip{grid-column:1/-1}
@@ -89973,14 +89975,14 @@ function render(){
   (DATA.stories||[]).forEach(s=>{
     const g=el('g',{class:'story','data-lane':s.laneOrder,transform:`translate(${s._x.toFixed(1)},${s._y.toFixed(1)})`,
       tabindex:'0',role:'button','aria-label':`Story: ${s.title}, ${s.year}`});
-    const halo=el('circle',{class:'halo',r:11,fill:'var(--tyrian)',opacity:0});
-    const focusRing=el('circle',{class:'focus-ring',r:12,fill:'none',stroke:'var(--gold-leaf)','stroke-width':2,opacity:0});
+    const halo=el('circle',{class:'halo',r:19,fill:'var(--tyrian)',opacity:0});
+    const focusRing=el('circle',{class:'focus-ring',r:20,fill:'none',stroke:'var(--gold-leaf)','stroke-width':2,opacity:0});
     const book=el('path',{
       d:'M0,-4.2 C-2.6,-5.4 -5.2,-5.1 -6.8,-4.6 V3.8 C-5.2,3.3 -2.6,3.6 0,4.8 C2.6,3.6 5.2,3.3 6.8,3.8 V-4.6 C5.2,-5.1 2.6,-5.4 0,-4.2 Z M0,-4.2 V4.8',
-      fill:'var(--tyrian)', stroke:'var(--vellum)', 'stroke-width':0.6, 'stroke-linejoin':'round'});
+      fill:'var(--tyrian)', stroke:'var(--vellum)', 'stroke-width':0.4, 'stroke-linejoin':'round', transform:'scale(1.8)'});
     g.appendChild(halo); g.appendChild(book); g.appendChild(focusRing);
     const left=nameSideLeft(s._x);
-    const st=el('text',{class:'story-title',x:left?-10:10,y:3.5,'text-anchor':left?'end':'start'});
+    const st=el('text',{class:'story-title',x:left?-16:16,y:3.5,'text-anchor':left?'end':'start'});
     st.textContent=s.title;
     g.appendChild(st);
     g.addEventListener('mouseenter',ev=>{halo.setAttribute('opacity','.35');showTip(ev,tipForStory(s));});
@@ -90505,9 +90507,10 @@ function buildLegend(){
   key+=`<div class="note">Tap a switch to hide or show it. Your choices stay for your next visit.</div>`;
   key+=`<div class="foot">&copy; 2026 Faithways Studio, Inc., a Colorado public benefit corporation &middot; <a href="license.html">License</a>. The same team makes <a href="https://churchinconversation.com/">Church in Conversation</a>.<br><a href="about.html">About</a> · <a href="method.html">Method</a> · <a href="data.html">Data and citation</a> · <a href="privacy.html">Privacy</a> · <a href="https://churchinconversation.com/license">License</a> · <a href="terms.html">Terms</a> · <a href="support.html">Help us grow</a></div>`;
   const group=(id,label,body)=>`<div class="chip-group"><button type="button" class="chip" aria-expanded="false" aria-controls="sw-${id}">${label} &#9662;</button><div class="chip-panel" id="sw-${id}" hidden>${body}</div></div>`;
-  let bar=group('rivers','Rivers',rivers)+group('links','Connections',links)+group('key','Key',key);
+  let bar=group('rivers','Rivers',rivers)+group('links','Connections',links);
   if(acrossMovements.length)bar+=`<button type="button" class="chip" data-toggle="movements" aria-pressed="false"><span class="sw-name">Movements</span><span class="sw" aria-hidden="true"></span></button>`;
   if((DATA.stories||[]).length)bar+=`<button type="button" class="chip" data-toggle="stories" aria-pressed="true"><span class="sw-name">Stories</span><span class="sw" aria-hidden="true"></span></button>`;
+  bar+=group('key','Key',key);
   wrap.innerHTML=`<button type="button" class="chip who-chip" id="who-chip" hidden><span class="who-chip-label"></span><span aria-hidden="true">&times;</span></button>`+bar;
   document.getElementById('who-chip').addEventListener('click',ev=>{ev.stopPropagation();clearWho();});
   const familyKeys=Object.keys(LINK_FAMILY_LABEL).map(f=>`family:${f}`);
