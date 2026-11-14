@@ -1,0 +1,80 @@
+{
+  "name": "Theodosius I of Alexandria",
+  "otherNames": [
+    "Theodosius, patriarch of Alexandria",
+    "Pope Theodosius (in John of Ephesus)"
+  ],
+  "knownFor": "The patriarch of Alexandria who refused the council of Chalcedon, lived most of his patriarchate in exile near Constantinople, and gave his name to the Theodosians of Egypt.",
+  "dates": "Made patriarch on the death of Timothy III, in 535 by B. Evetts's heading and E. W. Brooks's notes; died at Constantinople nine months after Justinian, by John of Ephesus, which Brooks puts in 566. Evetts's heading gives 567",
+  "place": "Alexandria; Upper Egypt in his first exile; Constantinople and the fortress of Dercus in Thrace in his long exile",
+  "tradition": "The Church of Alexandria and Miaphysite Egypt",
+  "role": "Patriarch of Alexandria",
+  "briefLength": "about 2 minutes 30 seconds",
+  "keyWorks": [
+    {
+      "title": "Letter to Severus of Antioch",
+      "about": "a letter of communion and praise, given in English in the chronicle under the name of Zachariah Rhetor"
+    },
+    {
+      "title": "Letter to Anthimus of Constantinople",
+      "about": "a letter of communion setting out his faith: the creed of Nicaea, the formula of Zeno, and one nature of God the Word made flesh"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Liberatus says Alexandria was split into Theodosians and Gaianites. The History of the Patriarchs calls the believers of Egypt Theodosians after his name.",
+      "From exile, by John of Ephesus's account, he gave the mandate for twelve bishops for Egypt, permitted Jacob Baradaeus's work in Alexandria, and had the first charge of the new converts among the Nobadae."
+    ],
+    "remembered": [
+      "The Syriac chronicle under Zachariah's name calls him \"a man of conspicuous faith and learned and kind and gentle\", and a friend of Severus.",
+      "Chalcedonian writers remembered him as a heretic. Victor of Tunnuna calls him one, and Sophronius of Jerusalem and the Lateran council of 649 condemned him."
+    ]
+  },
+  "uncertain": [
+    "Who was made patriarch first. The History of the Patriarchs says Theodosius, with Gaianus made two months later. Liberatus says Theodosius was ordained and then driven out during the funeral rite, and Gaianus held the see for 103 days. The chronicle under Zachariah's name has Gaianus there three months first. Victor of Tunnuna has both ordained on one day.",
+    "How he was restored. Liberatus says Theodora's chamberlain Narses did it by force and fire. The History of the Patriarchs tells of an inquiry and Gaianus's confession. Michael the Syrian has a general with six thousand men.",
+    "His witnesses. Liberatus and John of Ephesus wrote in his lifetime, Liberatus from the side of Chalcedon and John from his own. The History of the Patriarchs is a later Coptic history; Eusèbe Renaudot judged its account far from Liberatus's, whom he calls the most truthful historian.",
+    "His speeches before the emperor's envoys are the History of the Patriarchs' telling, not a document of his.",
+    "Where his exile was. John of Ephesus says the fortress of Dercus in Thrace; Liberatus, six miles from Constantinople; Michael the Syrian, ten years in Theodora's palace. The Coptic and Ethiopic notices give twenty-eight years in Upper Egypt.",
+    "When he died. John of Ephesus says nine months after Justinian, which Brooks puts in August 566, noting that 'Dionysius' gives 19 June. Jean Garnier, after Victor, gives 566; Evetts's heading and R. Payne Smith give 567. Brooks thinks John's sentence on the death was added later by the author."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Letters to Severus and to Anthimus, in the Syriac chronicle under the name of Zachariah Rhetor, Book IX (tr. F. J. Hamilton and E. W. Brooks)",
+        "language": "English translation",
+        "file": "cic/texts/zachariah-rhetor_chronicle_hamiltonbrooks1899.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Breviarium, chapter 20",
+        "author": "Liberatus of Carthage",
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/liberatus-victor-tunnunensis-primasius-junillus-pl68-lat_migne1866.txt"
+      },
+      {
+        "title": "Lives of the Eastern Saints (tr. E. W. Brooks)",
+        "author": "John of Ephesus",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/john-ephesus_lives-eastern-saints-po18_brooks1924.txt"
+      },
+      {
+        "title": "History of the Patriarchs of the Coptic Church of Alexandria (tr. B. Evetts)",
+        "author": "Attributed to Severus ibn al-Muqaffa",
+        "date": null,
+        "language": "Arabic with English translation",
+        "file": "cic/texts/severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt"
+      },
+      {
+        "title": "Historia patriarcharum Alexandrinorum Jacobitarum",
+        "author": "Eusèbe Renaudot",
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713.txt"
+      }
+    ]
+  }
+}

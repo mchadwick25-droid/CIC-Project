@@ -1,0 +1,60 @@
+{
+  "name": "Longinus, bishop of the Nobadae",
+  "otherNames": [
+    "Longinus"
+  ],
+  "knownFor": "The anti-Chalcedonian bishop of the Nobadae, beyond Egypt, who escaped from Constantinople in disguise to reach them and later baptized the king of the Alodaei, known from John of Ephesus and a letter of his own.",
+  "dates": "Consecrated soon after the death of the patriarch Theodosius of Alexandria; with the Alodaei in the Seleucid year 891, which R. Payne Smith gives as 580",
+  "place": "Constantinople; among the Nobadae on the eastern borders of the Thebais beyond Egypt; Mareotis outside Alexandria; Hirah; among the Alodaei, beyond the Nobadae",
+  "tradition": "Nubian Christianity",
+  "role": "Missionary bishop",
+  "briefLength": "about 2 minutes",
+  "keyWorks": [
+    {
+      "title": "Letter from the land of the Alodaei",
+      "about": "a letter to the king of the Nobadae, to be sent on to Alexandria, telling of the desert journey and the baptism of the Alodaei king; John of Ephesus gives part of it"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Among the Nobadae he built a church, ordained clergy and taught the order of worship, by John of Ephesus's account.",
+      "He baptized the king of the Alodaei and his nobles. The Alodaei king's letter to the king of the Nobadae calls him \"my father, the holy father Longinus\"."
+    ],
+    "remembered": [
+      "The Nobadae envoy at Constantinople: \"Though we were Christians in name, yet we did not really know what Christianity was until Longinus came to us.\"",
+      "Michael the Syrian, a twelfth-century patriarch of John's church, retells his mission from John."
+    ]
+  },
+  "uncertain": [
+    "Almost all that is known of him comes from John of Ephesus, who wrote from Longinus's own party and calls the Alexandrian clergy who opposed him envious. Michael the Syrian abridges John.",
+    "Who ordered his appointment. John's narrative says the empress Theodora had ordered it, and that it was carried out at the death of Theodosius. John's own chapter heading, and Michael, say Theodosius ordered it.",
+    "How long he first stayed in Nubia. John says about five years in one place and six in another.",
+    "His earlier life. Payne Smith says he was a priest who served in the aged Theodosius's place; that line is Payne Smith's own bridge, with no source in the surviving text.",
+    "No held source gives his origin, his age or his death."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Letter of Longinus from the land of the Alodaei, in John of Ephesus, Ecclesiastical History IV.53 (tr. R. Payne Smith)",
+        "language": "English translation",
+        "file": "cic/texts/john-of-ephesus_ecclesiastical-history-part3_paynesmith1860.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Ecclesiastical History, part 3 (tr. R. Payne Smith)",
+        "author": "John of Ephesus",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/john-of-ephesus_ecclesiastical-history-part3_paynesmith1860.txt"
+      },
+      {
+        "title": "Chronique, tome 2 (tr. J.-B. Chabot)",
+        "author": "Michael the Syrian",
+        "date": null,
+        "language": "French translation",
+        "file": "cic/texts/michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt"
+      }
+    ]
+  }
+}

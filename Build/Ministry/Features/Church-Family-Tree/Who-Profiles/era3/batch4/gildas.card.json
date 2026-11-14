@@ -1,0 +1,107 @@
+{
+  "name": "Gildas",
+  "otherNames": [
+    "Gildas the Wise (Gildas Sapiens)",
+    "Giltas (in Columbanus's letter)",
+    "Gildus (in Bede)"
+  ],
+  "knownFor": "A British churchman of the sixth century whose long Latin letter, The Ruin of Britain, condemns the kings and clergy of his country, and is almost the only voice of the British church that survives from his time.",
+  "dates": "Born in the year of the siege of Badon Hill, by his own words, and writing some forty-three years later, in Hugh Williams's reading. Williams puts his birth about 500 and the book after 540 and before 547. The Welsh annals, in the text Williams quotes, give his death in 570; other annals he lists give 569, 571 and 562",
+  "place": "Britain, where Williams holds he wrote; by the Breton Life, born in Arecluta, which Williams glosses as on the Clyde, and later a hermit and abbot at Ruys in Brittany",
+  "tradition": "British and Welsh Christianity",
+  "role": "Monk, preacher and writer",
+  "briefLength": "about 2 minutes 30 seconds",
+  "keyWorks": [
+    {
+      "title": "The Ruin of Britain (De Excidio Britanniae)",
+      "about": "a long letter in Latin, part history and mostly rebuke, against five British kings and the clergy, which Williams calls a sermon"
+    },
+    {
+      "title": "Fragments of lost letters",
+      "about": "short sayings quoted under his name in early Irish collections of church law"
+    },
+    {
+      "title": "A penitential (De Paenitentia)",
+      "about": "rules of penance for monks, printed under his name; Williams thinks some parts are later than Gildas"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Columbanus, writing to Pope Gregory the Great between 595 and 600 by Williams's dating, asks about bishops whom \"the writer Giltas\" calls pests, and says Gildas answered a question from Vennianus \"most elegantly\".",
+      "Bede called him the Britons' \"own historian\" and drew on his account of Badon. Williams says the habit of reading him as a historian began with Bede."
+    ],
+    "remembered": [
+      "Alcuin of York, in letters Williams dates to 793 and 797, called him the wisest of the Britons and told his readers to learn from his book why the Britons lost their land.",
+      "Williams: \"he is a preacher, a revivalist\", and the book \"has been mistakenly read as history\"."
+    ]
+  },
+  "uncertain": [
+    "His own book tells almost nothing of his life: not his monastery, teacher, family or birthplace. Those come from two Lives written long after him. Williams dates the core of the Breton Life, by a monk of Ruys, to the ninth century, with later additions. Caradoc of Llancarfan wrote the Welsh Life in the twelfth century, and Williams calls its Glastonbury chapters \"a piece of literary fiction\".",
+    "The sentence on Badon and his birth. Bede took the forty-four years to run from the coming of the Saxons. M. de la Borderie followed Bede and put Badon in 493. Ussher, whom Williams follows, read Gildas as born in Badon's year and writing forty-three years and a month later. Mommsen proposed an emendation that gives the same sense.",
+    "His dates. Williams's birth about 500 is an estimate, and he says the Welsh annals' 516 for Badon cannot be right. The annals Williams lists differ on his death: 570, 569, 571 and 562. Wasserschleben says he died in 583 at Bangor in Wales, giving no source.",
+    "The Lorica, a prayer printed under his name. In his opening note Williams calls it probably genuine. After weighing the manuscripts he concludes it is by an unknown South Welsh writer of the late seventh century, \"nor by him\".",
+    "Where he wrote. The Breton Life has him write in Brittany, ten years after leaving Britain. Williams thinks the writer misread Gildas's \"ten years\" of silence, and that Gildas wrote in Britain.",
+    "Where he died. The Breton Life has him drift to sea at his death and his body found at Croes-dy and buried at Ruys. Caradoc has him buried at Glastonbury.",
+    "Whether he was a monk. His book speaks of true monks and, in Taylor's rendering, of \"our own order\". Williams and Thomas Taylor read him as a monk."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "De Excidio Britanniae, the Fragments, the Penitential (ed. and tr. Hugh Williams)",
+        "language": "Latin with English translation",
+        "file": "cic/texts/gildas_de-excidio-britanniae-lorica-penitential-lat-eng_williams1899.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Notes and appendices to Gildas",
+        "author": "Hugh Williams",
+        "date": null,
+        "language": "English",
+        "file": "cic/texts/gildas_de-excidio-britanniae-lorica-penitential-lat-eng_williams1899.txt"
+      },
+      {
+        "title": "Life of Gildas by a monk of Ruys; Life of Gildas by Caradoc of Llancarfan (ed. and tr. Hugh Williams)",
+        "author": "A monk of Ruys; Caradoc of Llancarfan",
+        "date": null,
+        "language": "Latin with English translation",
+        "file": "cic/texts/gildas_de-excidio-britanniae-lorica-penitential-lat-eng_williams1899.txt"
+      },
+      {
+        "title": "Letter of Columbanus to Pope Gregory",
+        "author": "Columbanus",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml"
+      },
+      {
+        "title": "Ecclesiastical History of the English People (tr. J. A. Giles)",
+        "author": "Bede",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt"
+      },
+      {
+        "title": "Annales Cambriae (ed. John Williams ab Ithel)",
+        "author": null,
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/annales-cambriae-rolls-series-20-lat_williams-ab-ithel1860.txt"
+      },
+      {
+        "title": "Introduction and notes to The Life of St. Samson of Dol",
+        "author": "Thomas Taylor",
+        "date": null,
+        "language": "English",
+        "file": "cic/texts/samson-of-dol_life-of-st-samson_taylor1925.txt"
+      },
+      {
+        "title": "Die Bussordnungen der abendlandischen Kirche",
+        "author": "F. W. H. Wasserschleben",
+        "date": null,
+        "language": "Latin and German",
+        "file": "cic/texts/wasserschleben_die-bussordnungen-der-abendlaendischen-kirche-lat-deu_1851.txt"
+      }
+    ]
+  }
+}

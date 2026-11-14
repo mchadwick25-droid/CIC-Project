@@ -1,0 +1,80 @@
+{
+  "name": "John of Ephesus",
+  "otherNames": [
+    "John of Asia (Jean d'Asie)",
+    "John of Amida (in Michael the Syrian)",
+    "John the Syrian, the converter of the pagans (in his Lives)"
+  ],
+  "knownFor": "A bishop and historian of the party that refused the council of Chalcedon, who converted pagans in western Asia Minor for Justinian and wrote the Lives of the Eastern Saints and a Church History of his own times.",
+  "dates": "Born about 507, by E. W. Brooks's reckoning; R. Payne Smith gives about 516. His history ends in 585, and Brooks thinks he probably died in 586",
+  "place": "Born in the country around Amida, by Brooks; a monk at Amida; worked in Asia, Caria, Phrygia and Lydia; bishop of Ephesus in title; lived mostly at Constantinople",
+  "tradition": "Syriac Orthodox (West Syriac) Christianity",
+  "role": "Monk, missionary and bishop; historian",
+  "briefLength": "about 2 minutes",
+  "keyWorks": [
+    {
+      "title": "Lives of the Eastern Saints",
+      "about": "short Lives of holy men and women of his party, written, he says, only of people he saw himself"
+    },
+    {
+      "title": "Ecclesiastical History, part 3",
+      "about": "the church of his own day, ending in 585 by Brooks's account, written amid persecution and surviving in pieces"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "In the hills above Tralles he converted many thousands, built twenty-four churches and four monasteries, and levelled the temple at Derira, by his own history.",
+      "His Lives and History tell of Jacob Baradaeus, Theodora's refugees and the mission to Nubia, and later chroniclers copied him. Michael the Syrian quotes him by name."
+    ],
+    "remembered": [
+      "R. Payne Smith: the History's chief value is that it is contemporary, and its author \"a busy actor in the scenes which he describes\".",
+      "Brooks: \"John is not a literary writer\", and \"he shows little interest in theology\"."
+    ]
+  },
+  "uncertain": [
+    "He wrote from inside his own party, which Payne Smith notes refused Chalcedon. In the quarrel of 575 he stood apart from the side of Jacob Baradaeus, whom Brooks calls his hero.",
+    "His years. Brooks's dates are his own, built on Dyakonov's work, and John gives few years himself. Brooks puts the birth about 507 and Payne Smith about 516.",
+    "The terms of his mission. John says only that he was made teacher of the heathen in Justinian's time. Brooks says the emperor made it a condition that the converts be brought to the faith of Chalcedon.",
+    "How many he converted. His own history says many thousands in the hills above Tralles. Michael the Syrian, quoting him, gives seventy thousand; that figure is J.-B. Chabot's correction of a manuscript reading of seven thousand.",
+    "When he was made bishop. Brooks thinks probably 558. Michael says forty years before the quarrel of the 570s.",
+    "His death. Brooks says he probably died in 586 after a year in prison at Chalcedon. No ancient source for that prison is held.",
+    "Payne Smith joined the broken pieces of the History with lines of his own, and marks in the margin where John's words begin."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Lives of the Eastern Saints (tr. E. W. Brooks, Patrologia Orientalis 17-19)",
+        "language": "Syriac with English translation",
+        "file": "cic/texts/john-ephesus_lives-eastern-saints-po17_brooks1923.txt"
+      },
+      {
+        "title": "Ecclesiastical History, part 3 (tr. R. Payne Smith)",
+        "language": "English translation",
+        "file": "cic/texts/john-ephesus_ecclesiastical-history-part3_paynesmith1860.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Introduction to the Lives of the Eastern Saints",
+        "author": "E. W. Brooks",
+        "date": null,
+        "language": "English",
+        "file": "cic/texts/john-ephesus_lives-eastern-saints-po17_brooks1923.txt"
+      },
+      {
+        "title": "Preface to the Ecclesiastical History",
+        "author": "R. Payne Smith",
+        "date": null,
+        "language": "English",
+        "file": "cic/texts/john-ephesus_ecclesiastical-history-part3_paynesmith1860.txt"
+      },
+      {
+        "title": "Chronique, tome 2 (tr. J.-B. Chabot)",
+        "author": "Michael the Syrian",
+        "date": null,
+        "language": "French translation",
+        "file": "cic/texts/michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt"
+      }
+    ]
+  }
+}

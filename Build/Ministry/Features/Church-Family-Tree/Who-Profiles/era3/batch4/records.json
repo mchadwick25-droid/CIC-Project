@@ -1,0 +1,1231 @@
+{
+  "victor-of-tunnuna": {
+    "claims": [
+      {
+        "claim": "'Victor Tunnennensis ecclesiae episcopus huius auctor operis post custodias simulque et plagas, quas in insulis est Balearicis perpessus nec non etiam in monasterio de Mandracio primo, ac secundo exilio Aegimuritanae insulae, tertio Alexandriam una cum Theodoro Cebarsusitanae ecclesiae episcopo pro praefatorum trium capitulorum defensione exilio mittitur et carceri castelli Diocletiani post praetorianum carcerem truditur'; under post consulatum Basili XV, which Mommsen numbers 555",
+        "witness": "Victor, Chronicle (chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894.txt l.19194-19198)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "'in insulis est Balearicis' is Mommsen's correction ('scripsi'); the manuscripts read 'in sala est ualericis'",
+        "witness": "Mommsen's apparatus (l.19236); Migne's text 'quas Sala et Valericis perpessus' (liberatus-victor-tunnunensis-primasius-junillus-pl68-lat_migne1866.txt l.74762-74764)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Mommsen's summary: exiled in 555, held first in the Balearics, then the monastery of Aegimurus, then at Carthage by Mandracium, then at Alexandria and Canopus, finally at Constantinople",
+        "witness": "Mommsen's introduction (l.17309-17312)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Of the town 'quomodo vere appellandum sit, parum constat'; Mommsen calls him Tonnennensis by conjecture; it lay in the proconsular province, 'fortasse non longe a Carthagine magna'",
+        "witness": "Mommsen's introduction (l.17264-17265, 17297-17300)",
+        "formation_confidence": "Inferential-Thin"
+      },
+      {
+        "claim": "The African bishops excommunicated Vigilius, condemner of the Three Chapters, 'reservato ei paenitentiae loco'",
+        "witness": "Victor, Chronicle, year Mommsen numbers 550 (l.19047-19049)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "After fifteen days of continuous disputes 'in praetorio', Victor and Theodore were sent to the monastery of the Tabennesiots at Canopus, twelve miles from Alexandria",
+        "witness": "Victor, Chronicle, year Mommsen numbers 556 (l.19206-19209)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Summoned to Constantinople with other African bishops; resisted Justinian and the bishop Eutychius; separated and held in the city's monasteries",
+        "witness": "Victor, Chronicle, 'anno XXXVIII imperii', which Mommsen numbers 565? (l.19304-19310)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Theodore of Cebarsussi died in exile at the capital 'eo mense et die quo Iustinianus moritur'",
+        "witness": "Victor, Chronicle, Justinian's year XL, Mommsen's 567? (l.19347-19354)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Theodora, 'Calchedonensis synodi inimica', died covered all over by the plague of cancer",
+        "witness": "Victor, Chronicle, Mommsen's 549 (l.19042-19043)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The chronicle ran 'a principio mundi usque ad primum Justini Junioris imperii annum'; praised as 'memoria dignissimam'; Victor, driven from his church, was taken to Egypt, called back to Constantinople, held in a monastery there, and died in that condemnation '(ut dicunt)'",
+        "witness": "Isidore of Seville, De viris illustribus c.38 (isidore-seville_sententiae-eccl-officiis-historia-gothorum-pl83-lat_migne1860.txt l.122568-122582)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "What survives begins where Prosper ends ('Huc usque Prosper ... cui et nos ista subiecimus')",
+        "witness": "Victor, Chronicle (l.17599-17600)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "What is known of the author comes from himself, and Isidore drew his life only from him",
+        "witness": "Mommsen's introduction (l.17302-17303)",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Liberatus and Victor were of the same age and land and party, 'acerrimi orthodoxae fidei defensores', embittered against Vigilius",
+        "witness": "Mommsen's introduction (l.17574-17577)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Victor is trustworthy on facts, but his chronicle is 'plenum mendis' in its years, through a corruptor rather than Victor",
+        "witness": "Noris, quoted in Gallandi's notice (liberatus-victor-tunnunensis-primasius-junillus-pl68-lat_migne1866.txt l.73050-73058)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "He died shortly after 566, when he finished the chronicle ('existimamus')",
+        "witness": "Gallandi's notice (liberatus-victor-tunnunensis-primasius-junillus-pl68-lat_migne1866.txt l.72916-72925; OCR heavy)",
+        "formation_confidence": "Inferential-Thin"
+      },
+      {
+        "claim": "The chronicle 'est très précieuse pour l'histoire religieuse de l'Afrique au vie siècle'",
+        "witness": "Mesnage (mesnage_afrique-chretienne-eveches-ruines-fra_1912.txt l.14675-14677)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "The Three Chapters were the writings of Theodore of Mopsuestia, Theodoret's writings against Cyril, and the letter of Ibas of Edessa to Maris",
+        "witness": "Bossuet, as printed by Percival (npnf214_seven-ecumenical-councils.xml l.22886-22889)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "'Huc usque Victor Tunnunensis ecclesiae episcopus ... ordinem praecedentium digessit annorum: nos quae consecuta sunt adicere curavimus'; Isidore compiled from the chronicle",
+        "witness": "John of Biclaro, Chronicle (l.19766-19767); Mommsen (l.17594-17595, 19763)",
+        "formation_confidence": "Documented"
+      }
+    ],
+    "contested_claims": [
+      {
+        "claim": "Where and in what order Victor was held",
+        "sides": "Victor's own entry: guard and beatings in a place the manuscripts read 'sala est ualericis', which Mommsen corrects to the Balearics; Mandracium first, Aegimurus second, Alexandria third (l.19194-19198, 19236). Mommsen's summary: Balearics, Aegimurus, Carthage at Mandracium, Alexandria, Canopus, Constantinople (l.17309-17312). Isidore: driven from his church and taken to Egypt (PL83 l.122572-122574)."
+      },
+      {
+        "claim": "When he died",
+        "sides": "Isidore: in custody at Constantinople, 'ut dicunt', no year (PL83 l.122581-122582). Gallandi: shortly after 566 (PL68 l.72916-72925). Hodgkin's index: 569 (cassiodorus_variae-letters-hodgkin1886.txt l.25466). Kugener: about 569 (zacharias-scholasticus_vie-de-severe-po2-syr-fra_kugener1903.txt l.26975-26976)."
+      }
+    ],
+    "absent_details": [
+      {
+        "detail": "His birth, family and the year he became bishop",
+        "note": "No held source gives them."
+      },
+      {
+        "detail": "An English translation of the chronicle",
+        "note": "None is held; the brief tells his entries in modern words, naming the chronicle."
+      },
+      {
+        "detail": "A return to Africa",
+        "note": "No held source says he returned. Mommsen thinks it unlikely before he finished writing (l.17313-17316)."
+      }
+    ]
+  },
+  "theodosius-i-of-alexandria": {
+    "claims": [
+      {
+        "claim": "The successor keeps vigil over the dead patriarch, lays the dead man's right hand on his own head, buries him and takes St Mark's pallium; while Theodosius did this at night, the people and monasteries learned what had been done and drove him out 'ne colligeret funus Timothei'",
+        "witness": "Liberatus, Breviarium 20 (liberatus-victor-tunnunensis-primasius-junillus-pl68-lat_migne1866.txt l.81263-81288)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Liberatus wrote while Theodosius still lived: 'vivitque usque nunc'",
+        "witness": "Liberatus (l.81331-81332); Renaudot (renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713.txt l.9932-9934)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Theodosius ordained 'studio et permissione Calotychii cubicularii, partis Theodorae Augustae'; the monks were for Gaianus",
+        "witness": "Liberatus (l.81256-81261)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "'a man of conspicuous faith and learned and kind and gentle; and he was an acquaintance and a friend of the holy Severus'; Gaian, a Julianist, there three months after Timothy's death",
+        "witness": "Chronicle under Zachariah's name, tr. Hamilton and Brooks (zachariah-rhetor_chronicle_hamiltonbrooks1899.txt l.13195-13199)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Narses, sent by Theodora, enthroned Theodosius and exiled Gaianus; 'igne vicit, quod ferro non potuit'; the city divided into Gaianites and Theodosians",
+        "witness": "Liberatus (l.81298-81318)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Justinian offered him the civil governorship with the patriarchate if he would receive the Tome of Leo; he refused: 'The prince has no power except over my body; but the Lord Jesus Christ, the true and great prince, has power over my soul and body together'",
+        "witness": "History of the Patriarchs, tr. Evetts (severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt l.38467-38594)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "He went to Constantinople, would not accept Chalcedon, and was exiled at the sixth milestone near the basilica of Arisphoea",
+        "witness": "Liberatus (l.81320-81332)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "He, with about three hundred bishops and clergy, held at the fortress of Dercus in Thrace, 'to which also we often used to go to visit the same saints'",
+        "witness": "John of Ephesus, Lives, tr. Brooks (john-ephesus_lives-eastern-saints-po18_brooks1924.txt l.32346-32354)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "He would not ordain priests after he left his see; by his mandate twelve bishops were ordained for Egypt in the royal city",
+        "witness": "John of Ephesus, Lives ch. 50 (john-of-ephesus_lives-of-the-eastern-saints_brooks1923.txt l.26920-26924)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "James went to Alexandria having received the advice and permission of Theodosius",
+        "witness": "John of Ephesus, Lives ch. 50 (john-of-ephesus_lives-of-the-eastern-saints_brooks1923.txt l.26805-26811)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "'For I, who am feeble, judge that it is on account of my shortcomings that I endure all the troubles which befall me'",
+        "witness": "Theodosius, Letter to Anthimus, in the Chronicle IX.26 (zachariah-rhetor_chronicle_hamiltonbrooks1899.txt l.14484-14485)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "He confesses the faith of Nicaea and accepts 'the formula of Zeno uniting the Churches, which aimed at the annulling of the Synod of Chalcedon and of the Tome of Leo'",
+        "witness": "Letter to Anthimus (l.14550-14559)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Letter to Severus: 'O being beloved by me above all things, rock of Christ, and guardian of the pure faith who cannot be shaken'",
+        "witness": "Letter to Severus, Chronicle IX.24 (l.14103-14104)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Died in the royal city nine months after Justinian, having completed thirty-one years and a half in the conflicts",
+        "witness": "John of Ephesus, Lives (john-ephesus_lives-eastern-saints-po18_brooks1924.txt l.39353-39357)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "That would place his death in August 566; 'Dionysius' gives 19 June; the sentence is a later addition of the author",
+        "witness": "Brooks's notes (john-ephesus_lives-eastern-saints-po18_brooks1924.txt l.39360-39363)",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Twenty-eight years in banishment and otherwise and four in Upper Egypt; a patriarchate of thirty-two years; died on the 28th of Baounah; believers 'counted worthy to be called Theodosians after his name'",
+        "witness": "History of the Patriarchs (severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt l.39586-39596, OCR heavy)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Severus's account 'ab Historici sincerissimi testimonio longe discrepat'",
+        "witness": "Renaudot (renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713.txt l.9932-9936)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "The heading 'A. D. 535-567'",
+        "witness": "Evetts's heading in the History of the Patriarchs (severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt l.37025)",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "He died in the first year of Justin the younger, 566",
+        "witness": "Garnier, after Victor of Tunnuna (liberatus-victor-tunnunensis-primasius-junillus-pl68-lat_migne1866.txt l.75135-75136, 81430-81432)",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Victor of Tunnuna calls him 'haereticus'",
+        "witness": "Victor, Chronicle (chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894.txt l.18846, 18872)",
+        "formation_confidence": "Documented"
+      }
+    ],
+    "contested_claims": [
+      {
+        "claim": "Who was ordained first, Theodosius or Gaianus",
+        "sides": "History of the Patriarchs: Theodosius first, Gaianus two months after (l.38041-38043, 38223-38224). Liberatus: Theodosius ordained and driven out; Gaianus held the see 103 days (PL68 l.81256-81297). Chronicle under Zachariah's name: Gaian three months first (l.13195-13197). Victor of Tunnuna: both on one day (Mommsen l.18804)."
+      },
+      {
+        "claim": "Where his long exile was",
+        "sides": "John of Ephesus: Dercus in Thrace (PO18 l.32353). Liberatus: six miles from Constantinople (PL68 l.81327-81331). Michael the Syrian: ten years in Theodora's palace (michael tome2 l.14043-14046). The Ethiopic and Arabic synaxaries: twenty-eight years in Upper Egypt (ethiopian-synaxarium l.37624-37626)."
+      },
+      {
+        "claim": "When he died",
+        "sides": "John of Ephesus: nine months after Justinian (PO18 l.39353-39355), Brooks's August 566. Brooks's Dionysius: 19 June. Garnier after Victor: 566 (PL68 l.75135-75136). Evetts's heading: 567 (l.37025). Payne Smith: 567 (john-of-ephesus EH l.2519-2520)."
+      }
+    ],
+    "absent_details": [
+      {
+        "detail": "His birthplace, family and age",
+        "note": "No held source gives them."
+      },
+      {
+        "detail": "His treatise against the Tritheites and his letter to the Alexandrians",
+        "note": "Reported by Michael the Syrian and Renaudot; the texts, which Migne's index places in PG 86, are not held."
+      },
+      {
+        "detail": "An early source for the year 535",
+        "note": "It rests on Evetts's heading and Brooks's notes; no ancient held text gives it."
+      }
+    ]
+  },
+  "gildas": {
+    "claims": [
+      {
+        "claim": "'I have kept silence, I confess, with infinite sorrow of heart, as the Lord, the searcher of the reins, is my witness, for the past ten years or even longer'; held back by 'a sense of inexperience'",
+        "witness": "Gildas, De Excidio c.1, tr. Williams (gildas_de-excidio-britanniae-lorica-penitential-lat-eng_williams1899.txt l.393-399)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "He writes 'more in tears than in denunciation, in poor style, I allow, but with good intent'",
+        "witness": "Gildas, De Excidio c.1, tr. Williams (l.383-385)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The work 'has been mistakenly read as history; it is, really, in no way a history'; 'he is a preacher, a revivalist'",
+        "witness": "Williams's preliminary note (l.141-145, 260-261)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Badon, 'almost the last great slaughter' of the enemy; 'this commences, a fact I know, as the forty-fourth year, with one month now elapsed; it is also the year of my birth'",
+        "witness": "Gildas, De Excidio c.26, tr. Williams (l.3864-3866, 3949-3953)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Bede read the forty-four years as from the coming of the Saxons; de la Borderie followed Bede and reached 493; Ussher read them from Badon, known from his own age; Mommsen's emendation gives the same meaning as Ussher's, which Williams accepts",
+        "witness": "Williams's note (l.3927-3987)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Gildas born in the year of Badon, forty-three years and one month before his time of writing",
+        "witness": "Williams's note (l.3643-3644)",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Birth about 500, and the De Excidio written a few years after 540",
+        "witness": "Williams's note (l.19788-19790)",
+        "formation_confidence": "Inferential-Thin"
+      },
+      {
+        "claim": "Written before 547, since Maglocunus was alive when Gildas wrote and the Annales Cambriae put his death in the great plague of 547",
+        "witness": "Williams's notes (l.4742-4744, 4797-4800)",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "'KINGS Britain has, but they are as her tyrants'",
+        "witness": "Gildas, De Excidio c.27, tr. Williams (l.4135)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Maglocunus: 'the island dragon ... thou last in my writing, first in wickedness'",
+        "witness": "Gildas, De Excidio c.33, tr. Williams (l.4760-4763; OCR 'clragon')",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "'Priests Britain has, but foolish ones'",
+        "witness": "Gildas, De Excidio c.66, tr. Williams (l.9800)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "He excepts 'a few — a very few', 'the only real children' of the church, 'by whom my weakness is supported'",
+        "witness": "Gildas, De Excidio c.26, tr. Williams (l.4046-4051)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Columbanus to Gregory: bishops 'whom the writer Giltas ... calls pests'; Vennianus 'enquired about these of Giltas, who replied to him most elegantly'",
+        "witness": "Columbanus, Letter to Gregory, NPNF (npnf213 l.4513-4515, 4535-4536); the NPNF note calls him 'the Irish saint Columbanus' (l.4174)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The Columbanus letter written between 595 and 600",
+        "witness": "Williams (l.23750; l.15217)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Bede: 'their own historian, Gildas, mournfully takes notice of'",
+        "witness": "Bede, HE I.22, tr. Giles (bede l.1783-1784)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The 'historian' label began with Bede; medieval writers fixed it",
+        "witness": "Williams (l.254-259)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Alcuin: 'Legitur in libro Gildi Brettonum sapientissimi' and 'Discite Gyldam Brittonem sapientissimum et videte ex quibus causis parentes Brittonum perdiderunt regnum et patriam'; the years 793 and 797 are Williams's",
+        "witness": "Alcuin, letters, as printed by Williams (l.23778-23784; years l.23771-23776)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The Life by a monk of Ruys, cc. 1-32, is 'a production of the ninth century'; cc. 33 to the end appear to be a later addition",
+        "witness": "Williams (l.18861-18865, 18745-18752)",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Caradoc's Life is three to four centuries later than the earlier part of Vita I; Caradoc was a contemporary of Geoffrey of Monmouth (d. 1154); its sections 10-14 on Glastonbury are 'a piece of literary fiction'",
+        "witness": "Williams (l.22574-22575, 22716-22718, 22598-22602)",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Dying, he asked to be laid in a ship on the stone on which he used to lie, and pushed out to sea; he died 29 January 'an old man and full of days'; the body was found at Croes-dy",
+        "witness": "Life by a monk of Ruys, tr. Williams (l.21376-21384, 21447-21465)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Annales Cambriae, in Phillimore's text as quoted by Williams: '570. Gildas obiit.'; Ulster 569; Chronicon Scotorum 571; Inisfallen 562",
+        "witness": "Williams (l.23920, 23928-23940, 19962-19966)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Gildas died in 583 in the monastery of Bangor in Wales",
+        "witness": "Wasserschleben (wasserschleben l.1253-1255), with no source given",
+        "formation_confidence": "Inferential-Thin"
+      },
+      {
+        "claim": "The Lorica 'is the work of some unknown writer, who, late in the seventh century belonged to that South-Wales-British circle where Gildas's name was pre-eminent, and, therefore, is not of the time of Gildas himself, nor by him'; earlier, in the preliminary note, 'a probably genuine production of Gildas'",
+        "witness": "Williams (l.18024-18028; l.178-180)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Some parts of the Penitential may belong to a date after Gildas",
+        "witness": "Williams (l.16567-16571)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "The Ruys Life has him write in Brittany ten years after leaving Britain; Williams: a misreading of 'spatio bilustri temporis', and he wrote in Britain",
+        "witness": "Life by a monk of Ruys (l.20605-20609); Williams (l.20557-20566)",
+        "formation_confidence": "Contested"
+      }
+    ],
+    "contested_claims": [
+      {
+        "claim": "What Gildas's forty-four years count from",
+        "sides": "Bede: from the coming of the Saxons (bede l.1362-1365; Williams l.3927-3931); de la Borderie with Bede, Badon in 493 (l.3931-3943). Ussher: from Badon, the year of Gildas's birth; Mommsen's emendation gives the same sense; Williams accepts it (l.3969-3987, 3643-3644)."
+      },
+      {
+        "claim": "The year of his death",
+        "sides": "Annales Cambriae 570 (Williams l.23920); Annals of Ulster 569; Chronicon Scotorum 571; Inisfallen 562 (l.19962-19966); Anscombe 554, which Williams calls far too early (l.21424-21431); Wasserschleben 583 at Bangor, unsourced (wasserschleben l.1253-1255)."
+      },
+      {
+        "claim": "Whether the Lorica is by Gildas",
+        "sides": "The Leabhar Breac preface gives it to Gildas (Williams l.18103-18111); Zimmer argued for early British authorship (l.17609-17612). Williams, in his final view, against Gildas (l.18024-18028); Thurneysen for Irish authorship (l.17609-17612)."
+      },
+      {
+        "claim": "Where he died and was buried",
+        "sides": "Life by a monk of Ruys: at sea off Brittany, found at Croes-dy, buried at Ruys (l.21448-21470). Caradoc: Glastonbury, St Mary's church (l.23647-23663), which Williams calls fiction (l.22598-22602)."
+      }
+    ],
+    "absent_details": [
+      {
+        "detail": "His birthplace, family, teacher and monastery from his own hand",
+        "note": "The De Excidio names none of them; they come from the two Lives and the Welsh genealogies in Rees."
+      },
+      {
+        "detail": "A birth year in an early source",
+        "note": "No held source gives one. Williams's about 500 is his estimate."
+      },
+      {
+        "detail": "Williams's general Introduction",
+        "note": "His notes refer to it for the full argument on date and life, but it is not in the held file."
+      },
+      {
+        "detail": "The substance of his answer to Vennianus",
+        "note": "Williams: 'We are not told what the substance of that answer was' (l.9726)."
+      }
+    ]
+  },
+  "jacob-baradaeus": {
+    "claims": [
+      {
+        "claim": "Pursuers met him and asked 'Have you heard any secret news of that deceiver James anywhere there?'; he named a place far behind him, 'and, if you set out, perhaps you will catch him'; they ran after him",
+        "witness": "John of Ephesus, Lives ch. 49, tr. Brooks (john-ephesus_lives-eastern-saints-po18_brooks1924.txt l.39661-39670)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Born at Tella; trained in the monastery of Fsiltha",
+        "witness": "John of Ephesus, Lives ch. 49 (l.39447-39449)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Presbyter of Pesilta, from the village of Gamoua on Mount Izla",
+        "witness": "Michael the Syrian (michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt l.18407-18410); Bar Hebraeus (barhebraeus_chronicon-ecclesiasticum-vol1-lat_abbeloos-lamy1872.txt l.13273-13275)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Theodora received him and gave a house; he lived alone in a cell and cut one thick ugly cloak in two for his clothing",
+        "witness": "John of Ephesus, Lives ch. 49 (l.39476-39483)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "From this attire he got the nickname Burd'aya or Burd'ana, 'the man of the patchwork garment'",
+        "witness": "Brooks's note (l.39494-39496)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "About fifteen years in his cell, then made bishop at the queen's instigation with Theodore",
+        "witness": "John of Ephesus, Lives ch. 49 (john-of-ephesus_lives-of-the-eastern-saints_brooks1923.txt l.26270-26276)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "In the sixteenth year of Justinian, Hereth Bar Gabala, king of the Saracens, asked Theodora that two or three bishops be made; James for Edessa, Theodore for Hirtha of the Saracens",
+        "witness": "John of Ephesus, Lives ch. 50 (john-ephesus_lives-eastern-saints-po19-mixed-issue_brooks1926.txt l.10499-10546)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "The year 542",
+        "witness": "Brooks's note (john-ephesus_lives-eastern-saints-po19-mixed-issue_brooks1926.txt l.10511)",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "He went through Syria, Armenia, Cappadocia, Cilicia, Isauria, Pamphylia, Lycaonia, Lycia, Phrygia, Caria, Asia and the islands; to Alexandria; on foot; a district in a night and a day, then thirty or forty miles on",
+        "witness": "John of Ephesus, Lives chs. 49-50 (john-of-ephesus_lives-of-the-eastern-saints_brooks1923.txt l.26323-26336, 26389-26399, 26751-26760)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "The emperor gave gold to those who promised to capture him",
+        "witness": "John of Ephesus, Lives ch. 49 (john-of-ephesus_lives-of-the-eastern-saints_brooks1923.txt l.26478-26487)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Twenty-seven bishops and archbishops, besides two patriarchs, and many clergy; many in John's presence",
+        "witness": "John of Ephesus, Lives ch. 50 (john-ephesus_lives-eastern-saints-po19-mixed-issue_brooks1926.txt l.10757-10762)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "'if a man take upon himself to say that a hundred thousand were ordained by him, ... I do not think he will depart from the truth'",
+        "witness": "John of Ephesus, Lives ch. 49 (john-ephesus_lives-eastern-saints-po18_brooks1924.txt l.39719-39745, OCR 'bim', 'tlie')",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "In the Paul schism, 'being, as we have said above, a simple man, he was influenced by the violent persons who surrounded him'",
+        "witness": "John of Ephesus, Ecclesiastical History IV.17, tr. Payne Smith (john-ephesus_ecclesiastical-history-part3_paynesmith1860.txt l.11964-11968)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Many agreed with the old man Jacques; 'De là, ils furent appelés Jacobites'",
+        "witness": "Michael the Syrian (michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt l.25345-25347)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "The name 'probably arose out of the schism about the deprivation of Paul of Antioch and is opposed to Paulites'",
+        "witness": "Brooks's note (john-ephesus_lives-eastern-saints-po19-mixed-issue_brooks1926.txt l.15652-15653)",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Death at the monastery of Cassianus on the borders of Egypt; four died within twelve days; Damianus came too late",
+        "witness": "John of Ephesus, Ecclesiastical History IV.33 (john-ephesus_ecclesiastical-history-part3_paynesmith1860.txt l.12440-12468)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "'And which of these stories is true, God knows; but we cannot say for certain'",
+        "witness": "John of Ephesus, Ecclesiastical History IV.58 (l.13999-14001)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "'Le vieillard Jacques mourut le 30 de tamouz (juillet) de l'an 889'; bishop 33 years; up to a hundred thousand ordained 'd'après ce qu'on a trouvé dans ses papiers'",
+        "witness": "Michael the Syrian (michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt l.26331-26333)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Died 30 July 578",
+        "witness": "Brooks's note (john-ephesus_lives-eastern-saints-po19-mixed-issue_brooks1926.txt l.16188)",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Brooks calls James John's 'hero'; in the 575 schism John is on the opposite side",
+        "witness": "Brooks's introduction (john-of-ephesus_lives-of-the-eastern-saints_brooks1923.txt l.275-278)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "The longer Life of James is spurious (Kleyn); its colophon gives it to Theodosius of Fsiltha in Seleucid 1052, Brooks's 741",
+        "witness": "Brooks (john-of-ephesus_lives-of-the-eastern-saints_brooks1923.txt l.682-684, 724-726)",
+        "formation_confidence": "Widely Accepted"
+      }
+    ],
+    "contested_claims": [
+      {
+        "claim": "Where Jacob was born",
+        "sides": "John of Ephesus: from Tella (PO18 l.39448). Michael the Syrian and Bar Hebraeus: from the village of Gamoua on Mount Izla (Michael l.18407-18410; Bar Hebraeus l.13273-13275). The spurious Life: son of a presbyter of Tella (PO19 l.14281-14290)."
+      },
+      {
+        "claim": "The year of his death",
+        "sides": "Michael and Bar Hebraeus: Seleucid 889 (Michael l.26331; Bar Hebraeus l.14829-14830), which Brooks gives as 578 (PO19 l.16188). Elias of Nisibis: Seleucid 879 (elias-of-nisibis_opus-chronologicum-lat_brooks-chabot-csco1910.txt l.5465-5467)."
+      },
+      {
+        "claim": "How he died",
+        "sides": "John, Ecclesiastical History IV.33: four died one after another at Cassianus within twelve days (l.12440-12460). John, IV.58: a report that the ship sank, and another that they reached Cassian's monastery and four died within three days; 'which of these stories is true, God knows' (l.13995-14001). John, IV.34, rejects a rumour that he was stoned (l.12490-12507)."
+      },
+      {
+        "claim": "How the name Jacobites arose",
+        "sides": "Michael: from those who held with the old man in the Paul schism (l.25345-25347). Brooks: probably from that schism, against Paulites (PO19 l.15652-15653). The spurious Life: from the cry 'We are of the faith of James' (PO19 l.15640-15648). Bar Hebraeus: from the priests he multiplied (l.13365-13367)."
+      }
+    ],
+    "absent_details": [
+      {
+        "detail": "Writings of his own",
+        "note": "No letter or treatise by him is held as text."
+      },
+      {
+        "detail": "A year of birth",
+        "note": "No held source gives one."
+      },
+      {
+        "detail": "What Theodora said to him",
+        "note": "No held source gives her words."
+      }
+    ]
+  },
+  "agathias": {
+    "claims": [
+      {
+        "claim": "In the winter of the earthquake, people turned for a time to justice and charity, some to a solitary mountain life, the rich giving food and clothes to the poor at night; when the fear passed most went back to their old ways; 'Bona itaque opera, ita demum necessitate cogente, degustamus, quandiu metus premit'",
+        "witness": "Agathias, Histories V, Latin version (dorotheus-gaza_doctrinae-barsanuphius-climacus-agathias-grc-lat_migne-pg88.txt l.116925-116959)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "'Nomen itaque mihi Agathias, Myrina patria; Memnonius pater; ars vero Romanorum instituta ac leges et fori certamina'",
+        "witness": "Agathias, preface, Latin version (l.94967-94969; OCR 'ito9que', 'Memuonius')",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "He studied at Alexandria and returned to Constantinople in 554 after the earthquake; he pleaded cases in the basilica, against his will, to earn a living",
+        "witness": "Niebuhr's Life (l.94020-94032)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "He turned from his Daphniaca to history so that his life should bring some use to the public",
+        "witness": "Agathias, preface, Latin version (l.94850-94859, 94884-94887)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Agathias and John of Epiphania continued Procopius",
+        "witness": "Evagrius V.24, tr. Walford (evagrius-scholasticus_ecclesiastical-history_walford1846.txt l.11140-11146)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Justinian raised the fallen middle part of Hagia Sophia's roof, made it firmer and higher; Anthemius was long dead; Isidore the younger and other builders did the work",
+        "witness": "Agathias, Histories V.9, Latin version (l.117349-117375)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The Franks: 'Christiani enim omnes sunt, rectissimeque de Deo sentiunt. Habent et magistratus in urbibus et sacerdotes; festa etiam perinde atque nos celebrant'",
+        "witness": "Agathias, Histories I, Latin version (l.95635-95638)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "'commiseratione et venia, potius quam odio, digni sunt quotquot a vero aberrant'",
+        "witness": "Agathias, Histories I, Latin version (l.96422-96424)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "'Gentilem fuisse ... ostendit illud φασίν, quo ... utitur cum sermo fit de martyrio B. Stephani'",
+        "witness": "G. J. Vossius, in the Bonn testimonia (l.94359-94363); the passage, 'quem quidem ... olim aiunt' (l.106104-106121)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "The epigram dedicating a picture to the archangel puts beyond doubt that he professed the religion; probably born to a pagan father, he joined the Christians to escape the laws, not by conviction",
+        "witness": "Niebuhr's Life (l.94204-94215)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Died before 582, under Tiberius",
+        "witness": "Niebuhr's Life (l.94138-94141)",
+        "formation_confidence": "Inferential-Thin"
+      },
+      {
+        "claim": "Born in 536 or the following year (the scan reads '556', OCR; Niebuhr reckons he was not past eighteen in 554)",
+        "witness": "Niebuhr's Life (l.94022-94024)",
+        "formation_confidence": "Inferential-Thin"
+      },
+      {
+        "claim": "His style and judgment are poor; 'immunis ab insectatione pariter atque ab adulatione'; 'virum autem multo meliorem esse Procopio'",
+        "witness": "Niebuhr's Life (l.94164-94179)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Niebuhr would rather have thrown out the Latin version ('quam abjicere maluissem')",
+        "witness": "Niebuhr's preface (l.92892-92893)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "'these great victories have been carefully recorded by Agathias, one of the renowned scholars of the city of Constantinople'",
+        "witness": "John of Nikiu, tr. Charles (john-nikiu_chronicle_charles1916.txt l.8946-8948)",
+        "formation_confidence": "Documented"
+      }
+    ],
+    "contested_claims": [
+      {
+        "claim": "Whether Agathias was a Christian",
+        "sides": "G. J. Vossius: a pagan, from his 'they say' of Stephen (l.94359-94363). Niebuhr: he professed Christianity, from the archangel epigram, but probably joined the Christians to escape the laws (l.94204-94215). His own text speaks of Christian feasts kept 'as we do' (l.95637)."
+      }
+    ],
+    "absent_details": [
+      {
+        "detail": "Church councils and doctrine",
+        "note": "The held Latin of all five books names no council or doctrinal dispute; church matters appear as buildings and events."
+      },
+      {
+        "detail": "His epigrams, including the one to the archangel",
+        "note": "Not held; Niebuhr cites them by number."
+      },
+      {
+        "detail": "An English translation",
+        "note": "None is held; the brief tells his words in modern English from the Latin version and says so."
+      }
+    ]
+  },
+  "cassiodorus": {
+    "claims": [
+      {
+        "claim": "In his ninety-third year he wrote the De orthographia after his monks asked 'What doth it profit us to study either those works which the ancients have composed or those which your Wisdom has caused to be added to the list, if we are altogether ignorant how we ought to write these things'",
+        "witness": "Cassiodorus, De orthographia preface, as told and translated by Hodgkin (cassiodorus_variae-letters-hodgkin1886.txt l.3490-3497); Latin 'anno aetatis meae nonagesimo tertio' (l.3517-3518; cassiodorus_opera-institutiones-pl70-lat_migne1847.txt l.91802-91804)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Senator was part of his original name, not a title",
+        "witness": "Hodgkin (l.1247-1249); Mommsen (chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894.txt l.9268-9271)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "'Cassiodorus Senator ... Juvenis adeo, dum patris Cassiodori Patricii et Praefecti Praetorii Consiliarius fieret et laudes Theodorichi regis Gothorum facundissime recitasset, ab eo Quaestor est factus. Patricius et Consul Ordinarius, postmodum dehinc Magister Officiorum'",
+        "witness": "Anecdoton Holderi, printed by Hodgkin (l.3747-3752)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "'Me etiam consule in vestrorum laude temporum adunato clero vel populo Romanae ecclesiae rediit optata concordia'; the year 514 is Mommsen's",
+        "witness": "Cassiodorus, Chronica (chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894.txt l.16040-16044); Fasti Vindobonenses '514 Senatore v. c. consule' (prosper_chronica-minora-1-lat_mommsen1892.txt l.41850)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Praetorian prefect from the twelfth indiction, which Hodgkin brackets as 1 September 533",
+        "witness": "Variae IX.24-25, tr. Hodgkin (l.17107-17108, 17201-17202)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "'The author is told to keep his writings by him for nine years for reflection; but I have not as many hours, hardly as many moments.'",
+        "witness": "Variae, preface to Book I, tr. Hodgkin in full (l.6231-6232)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "He gathered his official letters, dictated as Quaestor, Magister and Praefect, into twelve books",
+        "witness": "Variae, preface to Book I, tr. Hodgkin (l.6385-6388)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Jordanes condensed 'the twelve volumes of the Senator on the origin and deeds of the Getae', having read them 'by his steward's loan for a three days' reading'",
+        "witness": "Jordanes, preface, tr. Mierow (jordanes_origin-and-deeds-of-the-goths_mierow1908.txt l.121-135)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Jordanes's three days' reading is 'thoroughly false'",
+        "witness": "Hodgkin (l.2311), quoting Usener (l.2342-2343)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "With Pope Agapetus he tried to have Christian teachers at Rome, paid from collected funds, as at Alexandria and now at Nisibis; wars in the Italian kingdom stopped it",
+        "witness": "Cassiodorus, Institutiones preface (Latin in Hodgkin l.3151-3157; cassiodorus_opera-institutiones-pl70-lat_migne1847.txt l.81295-81310); Agapetus's years, Hodgkin (l.3149)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "He retired to his ancestral Scyllacium and founded two monasteries, one for hermits on Mons Castellius and one among gardens named from the Vivaria (fish-ponds) he had made",
+        "witness": "Hodgkin (l.3076-3086), from the Institutiones ch. 29 (cassiodorus_opera-institutiones-pl70-lat_migne1847.txt l.83971-84000)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Of the copyist: 'With his fingers he gives life to men and arms them against the wiles of the devil.'",
+        "witness": "Cassiodorus, Institutiones ch. 30, tr. Hodgkin (l.3196-3199)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Mechanical lamps that 'appears to have made them self-trimming', sundials and water-clocks",
+        "witness": "Hodgkin (l.3233-3238), from 'Paravimus etiam nocturnis vigiliis mechanicas lucernas' (l.3240-3244; cassiodorus_opera-institutiones-pl70-lat_migne1847.txt l.84039-84060)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "No allusion to Benedict in the whole of his writings; the Rule drawn from Cassian",
+        "witness": "Hodgkin (l.3089-3101)",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Probably never formally abbot",
+        "witness": "Hodgkin (l.3125-3128), against Trithemius 'abbas electus est' (l.3141-3147); the abbots Chalcedonius and Gerontius named in Institutiones ch. 32 (cassiodorus_opera-institutiones-pl70-lat_migne1847.txt l.84182-84183)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Born about 480; died, 'as I believe', in 575 in his ninety-sixth year",
+        "witness": "Hodgkin (l.1206-1207, 1474-1476, 3542-3546), from Trithemius, 'a very late and somewhat unsatisfactory source' (l.1388-1393)",
+        "formation_confidence": "Inferential-Thin"
+      },
+      {
+        "claim": "'Cassiodorus, who died a.d. 570'",
+        "witness": "Hugh Williams (gildas_de-excidio-britanniae-lorica-penitential-lat-eng_williams1899.txt l.286)",
+        "formation_confidence": "Inferential-Thin"
+      },
+      {
+        "claim": "'a statesman of considerable sagacity and of unblemished honour, a well-read scholar, and a devout Christian; but he was apt to crouch before the possessors of power however unworthy'",
+        "witness": "Hodgkin (l.1077-1080)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "'Cassiodorus item, Chrysostomus atque Joannes.' in the poem on the library of York",
+        "witness": "Alcuin (alcuin_opera-omnia-letters_migne-pl100-101_1863.txt l.67435)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "'He was in the first place a consul, then a senator, and at last a monk'",
+        "witness": "Paul the Deacon, tr. Foulke (paul-the-deacon_history-of-the-langobards_foulke1907.txt l.3234-3235)",
+        "formation_confidence": "Contested"
+      }
+    ],
+    "contested_claims": [
+      {
+        "claim": "The years of his birth and death",
+        "sides": "Hodgkin, from Trithemius: about 480 and 575 (l.1474-1476, 3544-3546). Hugh Williams: died 570 (gildas williams1899 l.286). Strauch: died 563 (langmann_offenbarungen-gmh_strauch1878.txt l.22202). His own 'ninety-third year' is undated (PL70 l.91802-91804)."
+      },
+      {
+        "claim": "Whether he was abbot of his monastery",
+        "sides": "Trithemius, as Hodgkin quotes him: 'abbas electus est' (l.3141-3147). Hodgkin: probably never formally (l.3127-3128), since he names the abbots Chalcedonius and Gerontius (PL70 l.84182-84183)."
+      }
+    ],
+    "absent_details": [
+      {
+        "detail": "A Life of him from his own century",
+        "note": "None is held. Garet's Vita and his essay on Cassiodorus's monastic life are in Patrologia Latina 69, which is not held."
+      },
+      {
+        "detail": "The year he founded Vivarium or left office",
+        "note": "No held source gives one. Hodgkin thinks he retired in 538 or 539 (l.2927-2928)."
+      },
+      {
+        "detail": "A wife or children",
+        "note": "No held source names any. Hodgkin: 'his wife, if he had ever married, was probably by this time dead; and we hear nothing of any children' (l.3060-3061)."
+      }
+    ]
+  },
+  "longinus-bishop-of-the-nobadae": {
+    "claims": [
+      {
+        "claim": "Watched and kept from leaving for three years, 'he disguised himself, and put a wig on his head,—for he was very bald ;—and taking with him two servants, he fled'",
+        "witness": "John of Ephesus, Ecclesiastical History IV.7, tr. Payne Smith (john-of-ephesus_ecclesiastical-history-part3_paynesmith1860.txt l.13004-13014)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Julian first taught the people 'on the eastern borders of the Thebais beyond Egypt'",
+        "witness": "John of Ephesus, IV.6 (l.12755-12760)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Theodora had ordered that Longinus be made bishop; he was consecrated immediately after the death of Theodosius",
+        "witness": "John of Ephesus, IV.7 (l.12973-12986)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Theodosius at his death commanded that Longinus be made their bishop",
+        "witness": "John's chapter heading IV.8 (john-ephesus_ecclesiastical-history-part3_paynesmith1860.txt l.1050-1054); Michael the Syrian (michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt l.20413-20415)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "He built a church, ordained clergy, and taught them the order of divine service",
+        "witness": "John of Ephesus, IV.7 (l.13019-13021)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "The envoy, 'in the presence of myself and the rest of the court', said 'Though we were Christians in name, yet we did not really know what Christianity was until Longinus came to us'",
+        "witness": "John of Ephesus, IV.7-8 (l.13031-13045)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "After 'five years, more or less' he was called to Alexandria to consecrate a patriarch",
+        "witness": "John of Ephesus, IV.9 (l.13049-13059)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "He went on beyond the Nobadae to the Alodaei, 'many score leagues beyond them'",
+        "witness": "John of Ephesus, IV.48 (l.15395-15401)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "The Alexandrians sent an act of deposition and bishops saying he was a heretic; the Alodaei replied 'we will receive him who baptized the Nobadæ, and by him will we be baptized'",
+        "witness": "John of Ephesus, IV.50-51 (l.15499-15502, 15590-15598)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "From his letter: 'so that we lost no less than seventeen camels'; 'the king hearing of our coming rejoiced, and came out in person to meet us, and received us with great joy'; 'For I desire neither silver, nor gold, nor dresses, as God is my witness'",
+        "witness": "Longinus, letter, in John of Ephesus IV.53 (l.15764-15765, 15780-15782, 15826-15827); John: 'This then was written by the holy Longinus himself' (l.15832-15833)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The king and his nobles were baptized",
+        "witness": "John of Ephesus, IV.51 (l.15669-15671); Longinus's letter (l.15783-15784)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Done in the year 891, which Payne Smith gives as A. D. 580",
+        "witness": "John of Ephesus, IV.54 (l.15942-15944)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "'my father, the holy father Longinus'",
+        "witness": "Letter of the Alodaei king, in John IV.52 (l.15707-15709)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "A priest who officiated in Theodosius's stead",
+        "witness": "Payne Smith's bridging paragraph (l.12742-12746), without a source in the surviving text",
+        "formation_confidence": "Inferential-Thin"
+      }
+    ],
+    "contested_claims": [
+      {
+        "claim": "Who ordered Longinus's appointment",
+        "sides": "John's narrative: Theodora had ordered it, carried out at Theodosius's death (l.12973-12986). John's heading IV.8 and Michael: Theodosius commanded it as he died (alt file l.1050-1054; Michael l.20413-20415)."
+      },
+      {
+        "claim": "How long his first stay in Nubia lasted",
+        "sides": "John IV.9: 'five years, more or less' (l.13049-13050). John IV.49 and Michael: six years (l.15481; Michael l.20418)."
+      }
+    ],
+    "absent_details": [
+      {
+        "detail": "His origin, age and death",
+        "note": "No held source gives them; John's last dated event is the year 891."
+      },
+      {
+        "detail": "Whether John of Ephesus met him",
+        "note": "John met the Nobadae envoys and received the letters; he does not say he met Longinus."
+      },
+      {
+        "detail": "The name of the emperor who held him",
+        "note": "John says only 'the king'."
+      }
+    ]
+  },
+  "radegund": {
+    "claims": [
+      {
+        "claim": "At Noyon the nobles dragged Medard from the altar; she put on a nun's dress in the sacristy and said 'Si me consecrare distuleris et plus hominem quam Deum timueris, de manu tua, pastor, ovis anima requiratur'; he consecrated her a deacon",
+        "witness": "Fortunatus, Life I.12 (fredegar-liber-historiae-francorum-vitae-mgh-srm-2-lat_krusch1888.txt l.28796-28809)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Fortunatus wrote the first Life, being her friend; Baudonivia wrote the second after 600, and not long after",
+        "witness": "Krusch's introduction (l.28175, 28186-28193)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Hermanfrid slew his brother Berthar, who left an orphan daughter, Radegund",
+        "witness": "Gregory, History III.4, tr. Dalton (gregory-tours_history-of-the-franks-v2_dalton1927.txt l.4191-4195)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Lothar took her captive, wedded her, and afterwards had her brother slain",
+        "witness": "Gregory, History III.7 (l.4379-4381)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "After her brother's death she came from the king ('directa a rege veniens') to Medard; Baudonivia says she 'a rege terreno discessit'",
+        "witness": "Fortunatus, Life I.12 (fredegar-liber-historiae-francorum-vitae-mgh-srm-2-lat_krusch1888.txt l.28796-28799); Baudonivia, Life II.3 (l.29677)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "'I established at Poitiers a monastery for nuns, founded and enriched by the most excellent lord King Lothar'; she gave it the Rule of Caesaria compiled by Caesarius of Arles; she appointed Agnes abbess and submitted herself to her",
+        "witness": "Radegund, letter in Gregory, History IX.42, tr. Dalton (l.19841-19860)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "'I turned of my own will to the Rule of religion under Christ's guidance'",
+        "witness": "Radegund, letter (l.19841-19843)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Clerics sent to the East for wood of the True Cross; Maroveus 'disregarded her proposal, mounting his horse, and going off to a country estate'; Eufronius of Tours installed the relics",
+        "witness": "Gregory, History IX.40 (l.19601-19624)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "She 'was forced to go to Arles with the abbess'",
+        "witness": "Gregory, History IX.40 (l.19626-19628); Krusch 1888 follows him (fredegar-liber-historiae-francorum-vitae-mgh-srm-2-lat_krusch1888.txt l.28154-28155)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Gregory was wrong that she went to Arles, as Arnold showed; Malnory follows Gregory",
+        "witness": "Krusch 1896 (passiones-vitaeque-sanctorum-merovingici-mgh-srm-3-lat_krusch1896.txt l.35704-35709)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "'Monasterium autem quod construxit Pictavicum nomen S. Crucis accepit'",
+        "witness": "Krusch's introduction (fredegar-liber-historiae-francorum-vitae-mgh-srm-2-lat_krusch1888.txt l.28153)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Gregory present at her burial; she died on the thirteenth day of the sixth month and was buried three days later",
+        "witness": "Gregory, History IX.2 (l.17574-17580)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "About two hundred nuns stood round the bier",
+        "witness": "Gregory, Glory of the Confessors 104 (gregory-tours_opera-mgh-srm-1-lat_arndt-krusch1885.txt l.61577-61578)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The abbess showed the book she read and the spindles she spun with 'per longa ieiunia et profluas lacrimas'",
+        "witness": "Gregory, Glory of the Confessors 104 (gregory-tours_opera-mgh-srm-1-lat_arndt-krusch1885.txt l.61705-61711)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Died 13 August 587",
+        "witness": "Krusch (fredegar-liber-historiae-francorum-vitae-mgh-srm-2-lat_krusch1888.txt l.28196-28197); Dalton (gregory-tours_history-of-the-franks-v2_dalton1927.txt l.29609), from Gregory's twelfth year of Childebert and Baudonivia's Ides of August",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "The poems De excidio Thoringiae, Ad Iustinum et Sophiam and Ad Artachin are Fortunatus's, written in Radegund's name",
+        "witness": "Leo's edition, appendix poems I-III under Fortunatus's works (venantius-fortunatus_opera-mgh-aa-4-lat_leo-krusch1881.txt l.23125-23128, 1021); Krusch (fredegar-liber-historiae-francorum-vitae-mgh-srm-2-lat_krusch1888.txt l.28607-28608); Dalton (gregory-tours_history-of-the-franks-v2_dalton1927.txt l.24443-24445)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Baudonivia copied passages word for word from Book II of the Life of Caesarius",
+        "witness": "Krusch (fredegar-liber-historiae-francorum-vitae-mgh-srm-2-lat_krusch1888.txt l.30493-30496)",
+        "formation_confidence": "Widely Accepted"
+      }
+    ],
+    "contested_claims": [
+      {
+        "claim": "Whether Radegund went to Arles for the Rule",
+        "sides": "Gregory, History IX.40: yes, with the abbess (Dalton l.19626-19628); Krusch in 1888 followed him (l.28154-28155); Malnory follows Gregory. Arnold, and Krusch in 1896: Gregory was wrong, comparing her letter with Caesaria's (srm-3 l.35704-35709)."
+      },
+      {
+        "claim": "When the letter to the bishops was written",
+        "sides": "Sirmond, in Migne's PL 72 notes: at the beginning of the community, offered to the council of Tours of 567 (john-biclaro-leander-pl72-lat_migne1878.txt l.51747-51766, 51808-51818); those Sirmond rejects put it twenty years later, shortly before her death. Maassen: the link to Tours rests on the signers' names (concilia-aevi-merovingici-mgh-concilia-1-lat_maassen1893.txt l.10036-10044)."
+      }
+    ],
+    "absent_details": [
+      {
+        "detail": "Her year of birth, and the year of her capture and marriage",
+        "note": "No held source gives them."
+      },
+      {
+        "detail": "Poems of her own",
+        "note": "No held editor gives any poem to her; the three in her voice are Fortunatus's by every held edition."
+      },
+      {
+        "detail": "An English translation of the two Lives",
+        "note": "None is held; the brief tells Fortunatus's scene in modern words and names him."
+      }
+    ]
+  },
+  "john-of-ephesus": {
+    "claims": [
+      {
+        "claim": "Every son born to his parents died at a year and a half or two; they carried him to Maro, who said 'Be quiet, be quiet. John shall not die before Maro'",
+        "witness": "John of Ephesus, Lives ch. 4, tr. Brooks (john-ephesus_lives-eastern-saints-po17_brooks1923.txt l.4140-4162)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Born about 507 in the territory of Ingila, united for church purposes with Mesopotamia, whose capital was Amida; at 3 or 4 placed in the monastery of Maro",
+        "witness": "Brooks's introduction (l.243-247)",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Born at Amid, probably about 516",
+        "witness": "Payne Smith's preface (john-ephesus_ecclesiastical-history-part3_paynesmith1860.txt l.148-151)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Appointed teacher of the heathen in Justinian's time in Asia, Caria, Phrygia and Lydia; in the Tralles territory alone converted many thousands and built twenty-four churches and four monasteries; levelled the temple at Derira and built the chief monastery on its site",
+        "witness": "John of Ephesus, Ecclesiastical History III.36, tr. Payne Smith (l.10134-10160)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "In 542 the emperor chose him to convert the pagans of Asia 'on condition that he should convert them to the Chalcedonian faith'",
+        "witness": "Brooks's introduction (john-ephesus_lives-eastern-saints-po17_brooks1923.txt l.308-310)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Made bishop in Ephesus by James: 'one in Ephesus a man whose name was John the Syrian, the converter of the pagans'",
+        "witness": "John of Ephesus, Lives ch. 50 (john-ephesus_lives-eastern-saints-po19-mixed-issue_brooks1926.txt l.10705-10708, OCR)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "'There is nothing to show that he ever resided at Ephesus'; after the death of Theodosius in 566 he became the acknowledged head of his party in Constantinople",
+        "witness": "Brooks's introduction (john-ephesus_lives-eastern-saints-po17_brooks1923.txt l.323-325)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Held in the hospital of Eubulus, he told the envoys 'Even though you eat me roasted, if I be but quit of the sight of you, I am ready on these terms to be delivered to a painful death'",
+        "witness": "John of Ephesus, Ecclesiastical History II.4 (john-ephesus_ecclesiastical-history-part3_paynesmith1860.txt l.4914-4987)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Imprisoned again under Eutychius in a leaking prison",
+        "witness": "John of Ephesus, Ecclesiastical History III.15 (l.8736-8806)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "In the Lives he will write only of those of whom he has been an eye-witness",
+        "witness": "John of Ephesus, Lives, preface (john-ephesus_lives-eastern-saints-po17_brooks1923.txt l.1044-1050, OCR garbled)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Payne Smith connected the fragments 'by inserting a few lines here and there' and marked in the margin where the author's own words begin",
+        "witness": "Payne Smith's preface (john-ephesus_ecclesiastical-history-part3_paynesmith1860.txt l.248-257)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "'John is not a literary writer'; his chronological statements are 'often loose or even wild'",
+        "witness": "Brooks's introduction (john-ephesus_lives-eastern-saints-po17_brooks1923.txt l.732, 771)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "'His history ends in 585, and he probably died in 586 after a year spent in prison at Chalcedon'",
+        "witness": "Brooks's introduction (john-ephesus_lives-eastern-saints-po17_brooks1923.txt l.359-360)",
+        "formation_confidence": "Inferential-Thin"
+      },
+      {
+        "claim": "The History's chief value is that it is 'contemporaneous with the events which it records'; the author was 'a busy actor in the scenes which he describes'",
+        "witness": "Payne Smith's preface (john-ephesus_ecclesiastical-history-part3_paynesmith1860.txt l.104-108)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "He was a Monophysite; his party refused to receive the council of Chalcedon",
+        "witness": "Payne Smith's preface (john-ephesus_ecclesiastical-history-part3_paynesmith1860.txt l.225-229)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Through John, Justinian built ninety-six churches, twelve monasteries and four hospices, and seventy thousand were baptized; the 70,000 is Chabot's reading, the manuscript has 7,000",
+        "witness": "Michael the Syrian, quoting John (michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt l.20698-20713); Chabot's note (l.20722-20723)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Forty years before the schism, John of Amid was made bishop at Ephesus by Jacques",
+        "witness": "Michael the Syrian (michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt l.25318-25320)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Brooks's consecration date: probably 558",
+        "witness": "Brooks's introduction (john-ephesus_lives-eastern-saints-po17_brooks1923.txt l.314-321)",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      }
+    ],
+    "contested_claims": [
+      {
+        "claim": "Where and when he was born",
+        "sides": "Brooks: about 507, in Ingila near Amida (PO17 l.243-246). Payne Smith, from the Dionysius extracts in Assemani: at Amid, probably about 516 (EH l.148-151)."
+      },
+      {
+        "claim": "How many he converted",
+        "sides": "John's History: many thousands in the Tralles hills (EH l.10140-10141). Michael quoting John: seventy thousand, Chabot's correction of the manuscript's seven thousand (Michael l.20711, 20722-20723). Payne Smith: seventy thousand in four years (EH l.157-161)."
+      },
+      {
+        "claim": "When he was made bishop of Ephesus",
+        "sides": "Brooks: probably 558 (PO17 l.320-321). Michael: forty years before the schism of the 570s (Michael l.25318-25320)."
+      }
+    ],
+    "absent_details": [
+      {
+        "detail": "His parents' names and family",
+        "note": "John names neither; he speaks only of 'my parents' and 'my mother'."
+      },
+      {
+        "detail": "An ancient source for his last prison and death",
+        "note": "Brooks alone gives the year in prison at Chalcedon; no ancient source for it is held."
+      },
+      {
+        "detail": "The date of his ordination as priest",
+        "note": "Brooks: 'the date of his presbyterate is unknown' (PO17 l.322-323)."
+      }
+    ]
+  },
+  "david-of-wales": {
+    "claims": [
+      {
+        "claim": "At Brefi he would not stand on the hill; preaching from the flat ground, 'the ground arose as a high mount under his feet'; 'that miracle, and marvellous act was done by God to David at Llanddewibrefi'",
+        "witness": "Welsh Life, tr. Rees (rees_lives-of-the-cambro-british-saints-lat-eng_1853.txt l.18470-18484)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "The synod met against the revived Pelagian heresy, 'one hundred and eighteen bishops' present",
+        "witness": "Latin Life, tr. Rees (l.19572-19577)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Paulinus named David as the one to send for",
+        "witness": "Welsh Life, tr. Rees (l.18378-18393)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "The Latin Life is signed 'Ricemarch' / 'who am named Ricemarchus'",
+        "witness": "Latin Life, tr. Rees (l.18656-18660, 19890-19891)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Ricemarcus is 'this biographer of the eleventh century'; the Brut: 'Rychmarch doeth mab Sulyen escob' (a.D. 1096)",
+        "witness": "Williams (gildas_de-excidio-britanniae-lorica-penitential-lat-eng_williams1899.txt l.23070-23074, 22761-22762)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "The Welsh Life is an abridgement of the Latin",
+        "witness": "Rees's preface (l.340-342)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Son of Sant and of Non; founded twelve monasteries; settled in the Rosina valley, called Hodnant",
+        "witness": "Welsh Life (l.18015-18061, 18148-18161, 18171-18226); Latin Life (l.18954-18961; Latin l.6114)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "'they make no use of oxen for ploughing. Every one is rich to himself, and to the brethren, and every one is an ox to himself'",
+        "witness": "Latin Life, tr. Rees (l.19140-19142)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Made archbishop at Brefi and his city the metropolis",
+        "witness": "Latin Life, tr. Rees (l.19694-19695)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "'his old age completed the bounds of one hundred and forty seven years'",
+        "witness": "Latin Life, tr. Rees (l.19754-19755)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "'Perhaps David appears to us in the wonders by which he is known, because clothed in them by this biographer of the eleventh century; he is the creation, probably, of Ricemarcus: such a character, with the intent of magnifying the see of St. David'",
+        "witness": "Williams (l.23070-23074)",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "The Lives' foundation 'was in general truth, although they were principally intended to excite devotion, by exalting and perhaps exaggerating' the saints' deeds",
+        "witness": "Rees's preface (l.401-406)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "The second order of Irish saints 'A Davide episcopo et Gilla (Cilda) et a Doco Britonibus missam acceperunt'; Williams dates the Catalogue about 730 and elsewhere about 750",
+        "witness": "Catalogue of Irish Saints, quoted by Williams (l.23811-23813; l.23793, 19906)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "'David episcopus Moni iudeorum', in the annus the editor numbers 601",
+        "witness": "Annales Cambriae (annales-cambriae-rolls-series-20-lat_williams-ab-ithel1860.txt l.2562-2566); Williams reads Moni as Mynyw (l.23922)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Annals of Ulster and Book of Leinster: 588, 'Dabid Cille Muni'",
+        "witness": "Williams (l.23933-23941)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Last words: 'Lords, brethren, and sisters, be joyful, and keep your faith and belief, and perform the small things which you have heard and seen with me'",
+        "witness": "Welsh Life, tr. Rees (l.18592-18595)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Latin Life's last words: 'persevere in those things, which ye have learned of me, and have seen with me'",
+        "witness": "Latin Life, tr. Rees (l.19806-19808)",
+        "formation_confidence": "Contested"
+      }
+    ],
+    "contested_claims": [
+      {
+        "claim": "The year of his death",
+        "sides": "Annales Cambriae, base text: the year the editor numbers 601 (AC l.2562-2566). Annals of Ulster and Book of Leinster: 588 (Williams l.23933-23941). Ussher: 554, aged 82, and Rice Rees: short of 566, both as reported by W. J. Rees (l.18004-18008). Wasserschleben: 544 (wasserschleben l.1340-1341)."
+      },
+      {
+        "claim": "How far the Lives can be trusted",
+        "sides": "Williams: the David of the wonders is 'the creation, probably, of Ricemarcus' (l.23070-23074). Rees: rooted in general truth, written to excite devotion (l.401-406). The Bollandists: none of his Acts were written by contemporaries (acta-sanctorum_martii-tomus-1-lat_1735.txt l.15297-15298, OCR damaged)."
+      }
+    ],
+    "absent_details": [
+      {
+        "detail": "A contemporary account or a writing of his own",
+        "note": "None is held. The 'De libro Davidis' canons carry his name by the manuscript heading; no held editor argues they are his."
+      },
+      {
+        "detail": "A year for the synod of Brefi",
+        "note": "No held source gives one."
+      },
+      {
+        "detail": "The date of the Latin Life",
+        "note": "No held editor gives a year of writing; Williams says eleventh century."
+      }
+    ]
+  }
+}
