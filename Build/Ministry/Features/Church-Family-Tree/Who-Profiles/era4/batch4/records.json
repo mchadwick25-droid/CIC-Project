@@ -2,12 +2,12 @@
  "humbert-of-silva-candida": {
   "claims": [
    {
-    "claim": "Scene, the Commemoratio: 'praefati nuntii XVII Kal Augusti adierunt ecclesiam Sanctae Sophiae et super obstinatione illius conquesti clero ex more ad missas praeparato jam hora tertia diei sabbati chartam excommunicationis super principale altare posuerunt sub oculis praesentis cleri et populi. Inde mox egressi etiam pulverem pedum suorum excussere in testimonium illis juxta dictum evangelii proclamantes: Videat Deus et judicet'. Will reads XVII Kal. Aug. as 16 July (his note 80 to the Edict)",
+    "claim": "Scene, the Commemoratio: 'praefati nuntii XVII Kal Augusti adierunt ecclesiam Sanctae Sophiae et super obstinatione illius conquesti clero ex more ad missas praeparato jam hora tertia diei sabbati chartam excommunicationis super principale altare posuerunt sub oculis praesentis cleri et populi. Inde mox egressi etiam pulverem pedum suorum excussere in testimonium illis juxta dictum evangelii proclamantes: Videat Deus et judicet'. Will reads XVII Kal. Aug. as 16 July (his note 80 to the Edict). The brief gives 'a Saturday in July' and names both readings (Will 16 July; Mirbt 13 July)",
     "witness": "WILL (will_acta-et-scripta-de-controversiis-ecclesiae-graecae-et-latinae-saec-xi-grc-lat_1861.txt) l.14825-14827, 14872-14880; Will's note l.16294-16295 [two-column OCR interleaved; OCR forms 'Sic?ab', 'juxta*']",
     "formation_confidence": "Documented"
    },
    {
-    "claim": "Envoys named: 'advenientibus a domino papa Leone nono apocrisiariis sanctae Romanae et Apostolicae sedis, Humberto scilicet cardinali episcopo Silvae Candidae et Petro Amalphitanorum archiepiscopo, Friderico quoque diacono et cancellario', on 'ipso die nativitatis beati Ioannis Baptistae' (24 June), 'Anno duodecimo imperii Constantini Monomachi indictione VII'",
+    "claim": "Envoys named: 'advenientibus a domino papa Leone nono apocrisiariis sanctae Romanae et Apostolicae sedis, Humberto scilicet cardinali episcopo Silvae Candidae et Petro Amalphitanorum archiepiscopo, Friderico quoque diacono et cancellario', the day 'ipso die nativitatis beati Ioannis Baptistae' (24 June) belongs to Nicetas's recantation ('anathematizavit'), with the envoys' coming as background, 'Anno duodecimo imperii Constantini Monomachi indictione VII'",
     "witness": "WILL (will_acta-et-scripta-de-controversiis-ecclesiae-graecae-et-latinae-saec-xi-grc-lat_1861.txt) l.14779-14783, 14803-14804; MIRBT (mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt) l.9876-9879 [OCR 'scilicet' split as 'sci- licet' across columns; Mirbt OCR 'eardinali']",
     "formation_confidence": "Documented"
    },
@@ -42,13 +42,13 @@
     "formation_confidence": "Documented"
    },
    {
-    "claim": "The sentence's charges: 'sicut Simoniaci donum Dei vendunt ... sicut Pneumatomachi vel Theumachi absciderunt a symbolo Spiritus sancti processionem a Filio'; curse: 'Michaël abusivus patriarcha ... atque cum eo Leo Achridanus episcopus dictus ... et omnes sequaces eorum ... sint anathema Maranatha'. 'Spirit's going forth from the Son' renders 'processionem a Filio'",
+    "claim": "The sentence's charges: 'sicut Simoniaci donum Dei vendunt ... sicut Pneumatomachi vel Theumachi absciderunt a symbolo Spiritus sancti processionem a Filio'; curse: 'Michaël abusivus patriarcha ... atque cum eo Leo Achridanus episcopus dictus ... et omnes sequaces eorum ... sint anathema Maranatha'. 'Spirit's going forth from the Son' renders 'processionem a Filio'; condition 'nisi forte resipuerint' (Greek 'ἐὰν μὴ πεισθῶσιν', Will l.16036)",
     "witness": "WILL (will_acta-et-scripta-de-controversiis-ecclesiae-graecae-et-latinae-saec-xi-grc-lat_1861.txt) l.14969-14985, 15029-15046",
     "formation_confidence": "Documented"
    },
    {
-    "claim": "The Edict of the synod: 'homines e tenebris erumpentes, nam ex Hesperia originem ducunt' and 'veluti silvester porcus irruerunt' (Greek 'μονιὸς ἄγριος'); the envoys 'ipsi ex se advenerant nullo modo a papa missi' on 'consilis Argyri'; 'litterarum sigilla adulterata esse deprehensa sunt'. Argyrus: 'ad Argyroum catapanum graecum in Italiam' (Will's prolegomena). 'Greek governor' renders 'catapanum graecum'",
-    "witness": "WILL (will_acta-et-scripta-de-controversiis-ecclesiae-graecae-et-latinae-saec-xi-grc-lat_1861.txt) l.15269-15283; 15640-15657; prolegomena l.4151 [OCR 'consilis' for 'consiliis', 'Árgyroum']",
+    "claim": "The Edict of the synod: 'homines e tenebris erumpentes, nam ex Hesperia originem ducunt' and 'veluti silvester porcus irruerunt' (Greek 'μονιὸς ἄγριος'); the envoys 'ipsi ex se advenerant nullo modo a papa missi' on 'consilis Argyri'; 'litterarum sigilla adulterata esse deprehensa sunt'. Argyrus: 'ad Argyroum catapanum graecum in Italiam' (Will's prolegomena). 'Greek governor' renders 'catapanum graecum'; the letters themselves 'commenti sunt'",
+    "witness": "WILL (will_acta-et-scripta-de-controversiis-ecclesiae-graecae-et-latinae-saec-xi-grc-lat_1861.txt) l.15269-15283; 15640-15657; prolegomena l.4151 [OCR 'consilis' for 'consiliis', 'Árgyroum']; l.15608-15612",
     "formation_confidence": "Documented"
    },
    {
@@ -67,7 +67,7 @@
     "formation_confidence": "Documented"
    },
    {
-    "claim": "Leo of Ostia, Chronicle of Monte Cassino, quoted by Will: 'Sed quum jam intra hos dies defuncto papa redire disponerent'; Will dates Leo IX's death 'XIII Cal. Maj. 1054'",
+    "claim": "Leo of Ostia, Chronicle of Monte Cassino, quoted by Will: 'Sed quum jam intra hos dies defuncto papa redire disponerent'; Will dates Leo IX's death 'XIII Cal. Maj. 1054'. The brief now gives Will's date for the death (19 April) instead of Leo of Ostia's line",
     "witness": "WILL (will_acta-et-scripta-de-controversiis-ecclesiae-graecae-et-latinae-saec-xi-grc-lat_1861.txt) l.4138-4143; l.4111-4112",
     "formation_confidence": "Documented"
    },
@@ -120,6 +120,26 @@
     "claim": "Card: Wibert gives the reply to Nicetas to Frederick: 'Dominus quoque Fredericus tunc cancellarius ... invective respondit quibusdam objectionibus, quas ediderat Niceta'; Will: Höfler, Giesebrecht 'aliique recentiores secuti'; Will's case for Humbert from 'in superiori nostra narratione, ubi commentis complicum tuorum, Michaelis ... et Leonis Acridani voluimus obviare'",
     "witness": "WILL (will_acta-et-scripta-de-controversiis-ecclesiae-graecae-et-latinae-saec-xi-grc-lat_1861.txt) l.13143-13147, 13153-13158 [OCR 'Hóffer']",
     "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Will dates the sending: 'quos Leo ad pacem restituendam Constantinopolim mittere non neglexit (m. Januario 1054)'; the emperor 'benigne excepit et nonnullos dies in palatio suo retinuit'",
+    "witness": "WILL l.4075-4080",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Michael's side on the meeting: letter I to Peter of Antioch, 'nulla penitus nos salutatione impertiti nec sustinentes vel minimum capita sua inclinare ... neque etiam omnino admittentes post metropolitanos ... sedere'; letter II, they refused to come before him; Will's note 9: 'prorsus adversatur Humberti narrationi'; Will note 6: 'quomodo factum sit, ut colloquium non institueretur'",
+    "witness": "WILL l.17206-17225, 18183-18195, 18241; l.14855-14866, 14939-14943",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The edict on the creed: 'quod sacrosanctum symbolum ... adulterare nolumus nec, ut illi, ex Patre et Filio Spiritum sanctum ... sed ex Patre dicimus procedere'; Will note 18: the question first raised here in these quarrels",
+    "witness": "WILL l.15380-15388 (Greek l.15326-15333); l.15417-15419",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Gfrörer held the Dialogue was brought from Rome: 'id quod Gfrörer ... opinatur'; Will argues against",
+    "witness": "WILL l.8350-8351",
+    "formation_confidence": "Contested"
    }
   ],
   "contested_claims": [
@@ -141,8 +161,22 @@
    {
     "claim": "The day of the sentence",
     "sides": [
-     "The Commemoratio's 'XVII Kal Augusti', read by Will as 16 July (l.14825; note l.15736-15740)",
+     "The Commemoratio's 'XVII Kal Augusti', read by Will as 16 July (note 80, l.16290-16296; note 4, l.15213-15216)",
      "Mirbt's heading, '13. Juli 1054' (l.9865)"
+    ]
+   },
+   {
+    "claim": "Why the envoys and the patriarch never met",
+    "sides": [
+     "The envoys' account and sentence: Michael avoided them and refused to meet (l.14823-14824, 15031)",
+     "Michael's letters to Peter of Antioch: they would not greet him, bow, or sit below his metropolitans, and refused to come before him (l.17206-17225, 18183-18195); Will grants the description shows why no meeting happened (note 6)"
+    ]
+   },
+   {
+    "claim": "Where the Dialogue was written",
+    "sides": [
+     "Wibert of Toul, quoted by Will: at Constantinople during the legation (l.8345-8348)",
+     "Gfrörer, reported by Will: brought from Rome (l.8350-8351)"
     ]
    }
   ],
@@ -160,7 +194,7 @@
  "hincmar-of-reims": {
   "claims": [
    {
-    "claim": "Scene, Annals 882: the Northmen 'usque circa Laudunum castellum venerunt ... disponentes Remi venire'; 'Quod pro certo audiens Hincmarus episcopus ... vix noctu cum corpore sancti Remigii et ornamentis Remensis ecclesiae, sicut infirmitas corporis eius poscebat, sella gestatoria deportatus, et canonicis ac monachis atque sanctimonialibus hac illacque dispersis, ultra Matronam in quadam villa quae Sparnacus nominatur vix fuga lapsus pervenit'; 'civitatem, quam nec murus nec humana manus defendit, Dei potentia et sanctorum merita, ne illam ingrederentur, defenderunt'",
+    "claim": "Scene, Annals 882: the Northmen 'usque circa Laudunum castellum venerunt ... disponentes Remi venire'; 'Quod pro certo audiens Hincmarus episcopus ... vix noctu cum corpore sancti Remigii et ornamentis Remensis ecclesiae, sicut infirmitas corporis eius poscebat, sella gestatoria deportatus, et canonicis ac monachis atque sanctimonialibus hac illacque dispersis, ultra Matronam in quadam villa quae Sparnacus nominatur vix fuga lapsus pervenit'; 'civitatem, quam nec murus nec humana manus defendit, Dei potentia et sanctorum merita, ne illam ingrederentur, defenderunt'. One clause: no wall or human hand defended the city",
     "witness": "BERT (prudentius-troyes_annales-bertiniani_waitz1883.txt) l.9067-9083",
     "formation_confidence": "Documented"
    },
@@ -170,8 +204,8 @@
     "formation_confidence": "Documented"
    },
    {
-    "claim": "Authorship from 861: heading 'AUCTORE HINCMARO ARCHIEPISCOPO REMENSI'; Waitz: 'annalium inde ab a. 861. auctorem ipsum Hincmarum fuisse, extra dubium venit'; 'quaedam ab eo allata vix cuiquam praeter Hincmarum nota esse potuerunt'; Waitz: 'archiepiscopi illius, non solum in iure canonico, sed et in rebus ipsis suo tempore gestis versatissimi'",
-    "witness": "BERT (prudentius-troyes_annales-bertiniani_waitz1883.txt) l.3530; l.203-214",
+    "claim": "Authorship from 861: heading 'AUCTORE HINCMARO ARCHIEPISCOPO REMENSI'; Pertz's preface (signed 'G. H PERTZ.', l.249): 'annalium inde ab a. 861. auctorem ipsum Hincmarum fuisse, extra dubium venit'; 'quaedam ab eo allata vix cuiquam praeter Hincmarum nota esse potuerunt'; Pertz: 'archiepiscopi illius, non solum in iure canonico, sed et in rebus ipsis suo tempore gestis versatissimi'; Pertz: 'Hincmarum vero, in rebus praecipue suis, maiore circumspectione consulendum esse'",
+    "witness": "BERT l.3530; Pertz's preface in BERT l.203-214, 247-249",
     "formation_confidence": "Documented"
    },
    {
@@ -195,8 +229,8 @@
     "formation_confidence": "Documented"
    },
    {
-    "claim": "Mansi's note on Douzy: 'Quo autem pacto ad synodum hanc perductus ... ab episcopali remotus sit officio, tum deinde in exilium missus, ferro vinctus, ac denique oculis caecatus, fuse narrat Hincmarus ipse in libello proclamationis quem Joanni papae postea oblatum'",
-    "witness": "MANSI16 l.53114-53133 [OCR 'oculis cacatus', 'Joanni pape']",
+    "claim": "Mansi's note on Douzy: 'Quo autem pacto ad synodum hanc perductus ... ab episcopali remotus sit officio, tum deinde in exilium missus, ferro vinctus, ac denique oculis caecatus, fuse narrat Hincmarus ipse in libello proclamationis quem Joanni papae postea oblatum'; 'extat tamen Hadriani rescriptum ad synodum, in quo Hincmari depositionem improbat'",
+    "witness": "MANSI16 l.53114-53133 [OCR 'oculis cacatus', 'Joanni pape']; l.53133-53137",
     "formation_confidence": "Documented"
    },
    {
@@ -225,8 +259,53 @@
     "formation_confidence": "Documented"
    },
    {
-    "claim": "Card: Lebeuf on the 849 entry",
-    "witness": "BERT (prudentius-troyes_annales-bertiniani_waitz1883.txt) l.2495-2505",
+    "claim": "Card: the 849 entry: Bouquet's note (signed 'BOUQ.'), 'ab Hincmaro interpolatum suspicatur'; Pertz: Hincmar's correcting 're ipsa patet'",
+    "witness": "BERT l.2495-2505; l.220-225, 240-242",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Ordination 845: 'Concilium Belvacense ... in quo inter cetera ordinatus est Hincmarus'",
+    "witness": "MANSI15 l.5421-5428 [OCR 'Belvacenfe', 'inquointer']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Death 882: Mommsen, the annals 'finientes anno quo hic obiit 882'",
+    "witness": "AA11 (chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894.txt) l.3737-3739 [OCR 'Mc obiit']",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "The nephew's complaint to John VIII: 'Reclamatio et proclamatio Hincmari, qui quondam praeerat ecclesiae Laudunensi'; 'violentia hostili in medio itinere segregatus sum ab ovibus meis'; 'transmissus sum in exilium ... ferro vinctus custoditus sum. Duobus annis ferme peractis, insuper caecatus sum'",
+    "witness": "MANSI17 (mansi_sacrorum-conciliorum-collectio-tomus-17-18-lat_welter-facsimile1902.txt) l.36782-36950; excerpt MANSI16 l.53955-53964",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "John VIII to the uncle: 'agnovimus justum fuisse omnino judicium'",
+    "witness": "MANSI16 l.53945-53951",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Troyes: the supporters acted 'sine praeceptione papae'",
+    "witness": "BERT l.8506-8509",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The Douzy bishops' letter to Hadrian II, Hincmar named first: the metropolitan 'qui orfanum benigne illum nutrivit, in clericum totondit, litteris erudivit, per singulos gradus ... ad apicem episcopatus provexit'; 'si forte ... apostolicae sedi surreptum fuerit, ut idem ... in gradu restitutus ... quicquid vellet, licenter agere posset, sciens nos de singulis Romam mittere non posse'",
+    "witness": "MANSI16 l.66365-66390, 66901-66916 [two columns interleaved; long s]",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Hincmar's own letter to Hadrian II: the pope's charge that the nephew 'si me tepescente nullam potuit consolationem invenire'; 'Quem utinam non vidissem, minime autem illum me ordinare in episcopum contigisset'",
+    "witness": "MANSI16 l.66960, 67136-67141, 67153-67155",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Antonio blames 'laudatus auctor Annalium Bertinianorum', the 'Bertinianus Anonymus, Hincmari metropolitae ... velificatus partibus'",
+    "witness": "PL115 l.79379-79380, 79623-79630",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Cellotius's partisanship: 'illustrius aliquid ad Hincmari Rhemensis gloriam'; the nephew brought 'excaecationem sibi carceremque' by 'nova aliqua machinatione in regem'",
+    "witness": "MANSI16 l.75450-75451; l.75040-75046",
     "formation_confidence": "Dominant Modern Reconstruction"
    }
   ],
@@ -235,18 +314,21 @@
     "claim": "The conduct of Hincmar of Laon",
     "sides": [
      "Hincmar of Reims's annals: insolent, a rebel against the king, deposed by rule at Douzy (BERT l.6939-6977)",
-     "The nephew's own complaint to Pope John, as Mansi's note reports it: harshly treated, exiled, chained and blinded (MANSI16 l.53126-53133); his supporters at Troyes (BERT l.8504-8512)"
+     "The nephew's own complaint to Pope John VIII: seized, exiled, chained and blinded (MANSI17 l.36782-36950); his supporters at Troyes (BERT l.8504-8512)"
+    ]
+   },
+   {
+    "claim": "Whether the deposition at Douzy was just",
+    "sides": [
+     "Pope Hadrian II rejected it, by Mansi's note (MANSI16 l.53133-53137)",
+     "Pope John VIII called the judgment just (MANSI16 l.53945-53951)"
     ]
    }
   ],
   "absent_details": [
    {
-    "detail": "His birth, family, election as archbishop and death",
-    "note": "No held line gives them. The annals stop in 882. Flodoard's History of the Church of Reims is not held"
-   },
-   {
-    "detail": "His letter to Pope Hadrian II",
-    "note": "Held in Mansi 16 (l.66960 on) but not drawn on here; its two-column OCR was not read through"
+    "detail": "His birth and family",
+    "note": "No held line gives them. Flodoard's History of the Church of Reims is not held"
    }
   ]
  },
