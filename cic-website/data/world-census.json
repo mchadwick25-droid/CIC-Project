@@ -81722,7 +81722,7 @@
    "documentedStories": [],
    "kind": "person",
    "toldWithin": "devotio-moderna-brethren-of-the-common-life",
-   "major": false,
+   "major": true,
    "activeYear": 1406,
    "reviewStatus": "AI-checked"
   },
