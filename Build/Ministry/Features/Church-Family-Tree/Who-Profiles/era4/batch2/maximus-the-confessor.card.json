@@ -1,0 +1,131 @@
+{
+  "name": "Maximus the Confessor",
+  "otherNames": [
+    "Maximus Confessor",
+    "Maximus the Theologian"
+  ],
+  "knownFor": "Monk of Constantinople who taught that Christ has two wills and two workings, against the court's teaching of one will. He was tried, had his tongue and right hand cut off, and died in exile among the Lazi.",
+  "dates": "Debated Pyrrhus in Africa in 645, by J. A. Fabricius's date. Tried at Constantinople in 655, by Louis Duchesne's dates. Died on 13 August, a Saturday, in the fifth indiction, as Anastasius the envoy writes; Migne's Patrologia sets the year at 662",
+  "place": "Born in Constantinople, his Greek Life says, and a monk at Chrysopolis, across the water from the city. Later in Africa, Rome and Bizya in Thrace; he died at Schemaris, a fort among the Lazi near the Alans",
+  "tradition": "The Byzantine Imperial Church (Heraclian & Iconoclast Eras); Latin African Christianity under Byzantium",
+  "role": "Monk and abbot, writer on Christ's two wills; before that, by his Greek Life, first among the emperor Heraclius's secretaries",
+  "briefLength": "about 2 minutes 30 seconds",
+  "keyWorks": [
+    {
+      "title": "Disputation with Pyrrhus",
+      "about": "his debate in Africa with Pyrrhus, a former patriarch of Constantinople, held through the efforts of the patrician Gregory. Fabricius dates it to 645"
+    },
+    {
+      "title": "Chapters on Charity",
+      "about": "four hundred short chapters, set in hundreds to match the four Gospels, sent to Father Elpidius. In his prologue Maximus says he gathered them from the books of the holy Fathers"
+    },
+    {
+      "title": "Questions to Thalassius",
+      "about": "his answers to Thalassius, a priest and abbot, on hard questions in Holy Scripture. He signs as Maximus, a humble monk"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "A council at Constantinople met from November 680 into 681. It declared two natural wills and two natural workings in Christ, the teaching Maximus had argued.",
+      "That council said the two wills are not contrary to each other. The human will follows the divine will and is subject to it, in Henry R. Percival's English.",
+      "At the same council, Macarius of Antioch held to one will. His profession of faith cursed Maximus and his disciples among the heretics. The council anathematized Macarius and deposed him."
+    ],
+    "remembered": [
+      "Anastasius the envoy wrote that three bright lamps lit his tomb every night. He says the people of the fort and the land around it saw this and spoke of it.",
+      "Theophanes the Confessor, in his chronicle, says the emperor Constans cut out his tongue and right hand. The reason he gives is that Maximus and his disciples had written much against the emperor's teaching.",
+      "Fabricius, in a notice Migne prints, says the Greeks call him Theologian and Confessor. The church counts him among the saints with his disciple Anastasius, Fabricius adds."
+    ]
+  },
+  "uncertain": [
+    "Who wrote his Greek Life. Fabricius names Anastasius the envoy, his disciple. He also reports that Leo Allatius called its author uncertain. The Life itself cites Anastasius the envoy as its source in one place. François Combefis, who edited it, notes that Maximus never calls the envoy his disciple.",
+    "The year of the first hearing. The record says Rome's envoys had arrived the day before. Louis Duchesne dates their arrival to May 655 and draws that date from the record of Maximus's questioning.",
+    "Whether he was at the Lateran synod of 649. Fabricius says he took part, and Theophanes says he moved Pope Martin I of Rome to hold it.",
+    "Severinus Binius, whose notes Mansi reprints, finds no mention of Maximus in the synod's acts. Abbots could attend only to advise, Binius says. A \"Maximus monachus\" signs a petition of Greek monks there, but the acts do not say which Maximus.",
+    "His last exile. The sentence and Anastasius the envoy send him to the land of the Lazi. Theophanes has Constans exile Martin and Maximus together to the region of Cherson.",
+    "How long he lived in his last prison. The Greek Life, in Combefis's Latin, keeps him three years in the fort, the word set in brackets. Anastasius the envoy dates their arrival among the Lazi to 8 June and his death to 13 August, both in the fifth indiction.",
+    "His age. Fabricius says he died aged eighty-two; the year in that line cannot be read in the held copy. No held source gives his birth year.",
+    "The record of his hearings is written from his side and calls him the servant of God. The court's charges come down through it and through the sentence of his last trial.",
+    "He named three acts when asked why he would not take communion with Constantinople. They were the nine chapters made at Alexandria, the Ekthesis of the patriarch Sergius and the Typos. The brief tells of the last two."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Chapters on Charity, Questions to Thalassius, and other works, in Patrologia Graeca 90 (ed. François Combefis)",
+        "author": "Maximus the Confessor",
+        "language": "Greek, with Latin translation",
+        "file": "cic/texts/maximus-confessor_relatio-motionis-disputatio-bizyae-grc-lat_migne-pg90.txt"
+      },
+      {
+        "title": "Disputation with Pyrrhus, and the Opuscula theologica et polemica, in Patrologia Graeca 91",
+        "author": "Maximus the Confessor",
+        "date": "1860",
+        "language": "Greek, with Latin translation",
+        "file": "cic/texts/maximus-confessor_disputatio-cum-pyrrho-pg91-grc-lat_migne1860.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Record of the hearing (Relatio motionis), the dispute at Bizya, and the acts of his last trial, in Patrologia Graeca 90",
+        "language": "Greek, with the Latin of Anastasius the Librarian",
+        "file": "cic/texts/maximus-confessor_relatio-motionis-disputatio-bizyae-grc-lat_migne-pg90.txt"
+      },
+      {
+        "title": "Life and Struggle of Maximus (Vita ac Certamen), in Patrologia Graeca 90",
+        "author": "Anonymous",
+        "language": "Greek, with François Combefis's Latin translation",
+        "file": "cic/texts/maximus-confessor_relatio-motionis-disputatio-bizyae-grc-lat_migne-pg90.txt"
+      },
+      {
+        "title": "Letter to Theodosius of Gangra on the exile and deaths, in Patrologia Graeca 90",
+        "author": "Anastasius the envoy (apocrisiarius)",
+        "language": "Latin",
+        "file": "cic/texts/maximus-confessor_relatio-motionis-disputatio-bizyae-grc-lat_migne-pg90.txt"
+      },
+      {
+        "title": "Notice from the Bibliotheca Graeca, printed in Patrologia Graeca 90",
+        "author": "Fabricius (ed. Harles)",
+        "language": "Latin",
+        "file": "cic/texts/maximus-confessor_relatio-motionis-disputatio-bizyae-grc-lat_migne-pg90.txt"
+      },
+      {
+        "title": "Chronographia, in Patrologia Graeca 108",
+        "author": "Theophanes the Confessor",
+        "date": "1863",
+        "language": "Greek, with Latin translation",
+        "file": "cic/texts/theophanes-confessor_chronographia-pg108-grc-lat_migne1863.txt"
+      },
+      {
+        "title": "Acts of the Lateran synod of 649, with the notes of Severinus Binius, in Mansi, Sacrorum conciliorum collectio, volume 10",
+        "date": "1901",
+        "language": "Latin, with garbled Greek",
+        "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-10-lat_welter-facsimile1901.txt"
+      },
+      {
+        "title": "The trials of Maximus, and the acts of the Third Council of Constantinople, in Mansi, Sacrorum conciliorum collectio, volume 11",
+        "date": "1901",
+        "language": "Latin, with garbled Greek",
+        "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-11-lat_welter-facsimile1901.txt"
+      },
+      {
+        "title": "The Seven Ecumenical Councils, the Sixth Ecumenical Council (Nicene and Post-Nicene Fathers, second series, volume 14)",
+        "author": "Henry R. Percival (ed.)",
+        "language": "English translation",
+        "file": "cic/texts/npnf214_seven-ecumenical-councils.xml"
+      },
+      {
+        "title": "Le Liber pontificalis, volume 1, notes to the Life of Martin",
+        "author": "Louis Duchesne",
+        "date": "1886",
+        "language": "Latin, with French notes",
+        "file": "cic/texts/liber-pontificalis_texte-introduction-commentaire-t1-lat-fra_duchesne1886.txt"
+      },
+      {
+        "title": "History of the Langobards, with the translator's notes",
+        "author": "William Dudley Foulke (tr.)",
+        "date": "1907",
+        "language": "English",
+        "file": "cic/texts/paul-the-deacon_history-of-the-langobards_foulke1907.txt"
+      }
+    ]
+  }
+}

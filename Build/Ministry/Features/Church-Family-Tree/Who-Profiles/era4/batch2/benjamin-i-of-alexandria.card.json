@@ -1,0 +1,104 @@
+{
+  "name": "Benjamin I of Alexandria",
+  "knownFor": "Patriarch of the Coptic church of Alexandria who hid in Upper Egypt from the Chalcedonian patriarch Cyrus. He came back after the Arab conquest. The History says he came under a safe-conduct from 'Amr and won back many who had left his church.",
+  "dates": "B. Evetts heads his life in the History of the Patriarchs 622 to 661, and his successor Agathon's 661 to 677. The History says he was patriarch thirty-nine years and died on the eighth of the Coptic month Tubah. René Basset's French of the Arabic Synaxarium adds 630 to 648 in parentheses, though its text also counts thirty-nine years",
+  "place": "Alexandria. Born at Barshut, in the province of Al-Buhairah, the History says. In hiding at Wadi Habib, then in a small monastery in the desert of Upper Egypt",
+  "tradition": "Coptic Christianity under Early Islam; The Church of Alexandria and Miaphysite Egypt",
+  "role": "Patriarch of Alexandria, the thirty-eighth in the History's count",
+  "briefLength": "about 2 minutes 30 seconds",
+  "keyWorks": [
+    {
+      "title": "Rules for the sanctuary of the church of Saint Macarius",
+      "about": "a short list of canons for the new church in Wadi Habib, kept in the account Agathon gives in the History of the Patriarchs. The Ethiopic Synaxarium says he wrote a Canon and placed it in the church. Eusèbe Renaudot judged that their threats do not fit Benjamin's time"
+    },
+    {
+      "title": "Homily on the wedding at Cana",
+      "about": "known here only from Joseph Assemani's list of the Coptic manuscripts he brought from the East. It names the homily in an undated parchment volume. The text is not held"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Agathon, his successor, served the hidden faithful in Alexandria for ten years disguised as a carpenter. When Benjamin returned, the History says, he took Agathon as his son in governing the church.",
+      "Agathon's own life in the History opens by saying that Benjamin, back from banishment, restored what Heraclius had overthrown.",
+      "By his prayers, the History says, the rebuilding of the monasteries of Wadi Habib and Al-Muna began. A note in B. T. A. Evetts's 1895 English Abu Salih says those monasteries were restored in Benjamin's time.",
+      "Michael the Syrian writes that from Benjamin's return to his own day, the Chalcedonians could not prosper in Alexandria and Egypt. The Orthodox, he says, held the churches and monasteries.",
+      "The History's life of Alexander II, patriarch from 705, tells how he went round Upper Egypt begging alms. People said they had not seen a patriarch there since the time of the Father Benjamin."
+    ],
+    "remembered": [
+      "The Arabic Synaxarium of the Coptic church, in René Basset's French, keeps his death on the eighth of Toubeh. It keeps the consecration of the sanctuary at the monastery of Macarius on the same day.",
+      "The Ethiopic Synaxarium, in E. A. Wallis Budge's English, keeps both on the eighth of Ter. It greets him as one \"so learned in the Scriptures that he was made Archbishop of Alexandria.\"",
+      "Eusèbe Renaudot reports that the Coptic calendar joins his memory and the consecration of the church of Saint Macarius. He gives the day as 13 January."
+    ]
+  },
+  "uncertain": [
+    "How he came back. The History of the Patriarchs, a later history of his own church, and John of Nikiu have him return after the conquest. In the History he comes on 'Amr's safe-conduct. Michael the Syrian found in histories that Benjamin promised the Arabs Alexandria if they drove out Cyrus and gave him back the churches.",
+    "Whether the Copts helped the Arabs. Eusèbe Renaudot thinks they did, and reads the History's duke Sanutius as a go-between for the peace between 'Amr and Benjamin. Renaudot writes as an opponent, and calls the line of these patriarchs heretical.",
+    "The church of Saint Macarius. The account of its consecration, with Benjamin's vision and his rules, comes from Agathon's telling within the History. Renaudot calls it a fable made up by later Copts to give their new monastery standing. He finds nothing in it worth noting except the consecration and its rite.",
+    "How long he hid. The History has an angel foretell ten years of trouble. John of Nikiu says he returned in the thirteenth year after his flight. Basset's synaxarium counts thirteen years, ten under Heraclius and three under the Arabs. Budge's Ethiopic has him come out in the tenth year of Heraclius, with a query, and the third of the Muslims.",
+    "His years as patriarch. Evetts's heading gives 622 to 661. Basset's synaxarium has 630 to 648 in parentheses, though its text counts thirty-nine years. A note in B. T. A. Evetts's 1895 Abu Salih gives 622 to 660 with a question mark. Renaudot rejects the count of the Chronological Canon that Abulbircat gives, which would put the death in 648. That is a decade earlier than the historian Elmacinus and others give, Renaudot says.",
+    "Who ruled Egypt with Heraclius. The History names Cyrus, whom it calls the Colchian; Evetts's note makes him Cyrus, bishop of Phasis. Abu Salih's book names George, son of Mennas, as the Mukaukis.",
+    "His last illness. The History says he was sick in his feet for two years; the Ethiopic Synaxarium says twenty.",
+    "His birthplace. The History spells it Barshut; Basset's synaxarium, Farchout; the Ethiopic Synaxarium, Barset."
+  ],
+  "sources": {
+    "about": [
+      {
+        "title": "History of the Patriarchs of the Coptic Church of Alexandria, life of Benjamin I (tr. B. Evetts)",
+        "author": "Attributed to Severus ibn al-Muqaffa",
+        "language": "Arabic with English translation",
+        "file": "cic/texts/severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt"
+      },
+      {
+        "title": "History of the Patriarchs of the Coptic Church of Alexandria, Agathon to Michael I, in Patrologia Orientalis 5 (tr. B. Evetts)",
+        "author": "Attributed to Severus ibn al-Muqaffa",
+        "language": "Arabic with English translation",
+        "file": "cic/texts/chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt"
+      },
+      {
+        "title": "Chronicle, chapter CXXI (tr. R. H. Charles)",
+        "author": "John of Nikiu",
+        "date": "1916",
+        "language": "English translation from the Ethiopic",
+        "file": "cic/texts/john-nikiu_chronicle_charles1916.txt"
+      },
+      {
+        "title": "Chronique, tome 2, book XI (tr. J.-B. Chabot)",
+        "author": "Michael the Syrian",
+        "language": "French translation",
+        "file": "cic/texts/michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt"
+      },
+      {
+        "title": "Historia patriarcharum Alexandrinorum Jacobitarum",
+        "author": "Eusèbe Renaudot",
+        "date": "1713",
+        "language": "Latin",
+        "file": "cic/texts/renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713.txt"
+      },
+      {
+        "title": "Le Synaxaire arabe jacobite, Toubeh and Amchir, 8 Toubeh, in Patrologia Orientalis 11 (tr. René Basset)",
+        "language": "Arabic with French translation",
+        "file": "cic/texts/synaxaire-arabe-jacobite_po11-toubeh-amshir-fra_basset1915.txt"
+      },
+      {
+        "title": "The Book of the Saints of the Ethiopian Church, volume 2, 8 Ter (tr. E. A. Wallis Budge)",
+        "date": "1928",
+        "language": "English translation",
+        "file": "cic/texts/ethiopian-synaxarium_book-of-saints-ethiopian-church-v2-takhshash-yakatit_budge1928.txt"
+      },
+      {
+        "title": "The Churches and Monasteries of Egypt (tr. B. T. A. Evetts, notes by Alfred J. Butler)",
+        "author": "Attributed to Abu Salih the Armenian",
+        "date": "1895",
+        "language": "English translation",
+        "file": "cic/texts/abu-salih_churches-and-monasteries-of-egypt_evetts1895.txt"
+      },
+      {
+        "title": "Bibliotheca Orientalis Clementino-Vaticana, volume 1, index of manuscripts: the Coptic codices Assemani brought from the East",
+        "author": "Joseph Simonius Assemani",
+        "date": "1719",
+        "language": "Latin",
+        "file": "cic/texts/assemani_bibliotheca-orientalis-tomus1-de-scriptoribus-syris-orthodoxis-lat_1719.txt"
+      }
+    ]
+  }
+}
