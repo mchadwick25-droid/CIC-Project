@@ -853,7 +853,7 @@
       },
       {
         "detail": "A second, independent witness",
-        "note": "Michael the Syrian's account is abridged from John (Chabot's note, l.20293). No held source tells the race from the emperor's side."
+        "note": "Michael the Syrian's account is abridged from John (Chabot's note, l.20293). No held source tells the race from the emperor's side. Bar Hebraeus's Chronicon ecclesiasticum retells the mission (barhebraeus vol1 l.14057-14188); it is later and adds that Julian served Theodosius at Constantinople (l.14057-14060)."
       },
       {
         "detail": "Julian's origin, birth and writings",
@@ -879,7 +879,7 @@
       },
       {
         "claim": "The Romans asked whether anyone may be condemned after death",
-        "witness": "The anonymous book on twelve church writers usually attached to Isidore of Seville and Ildefonsus of Toledo, as quoted in a Migne note (pl67 l.49140-49150) and by Gallandi (l.68266-68272)",
+        "witness": "The book on church writers printed with Isidore of Seville (pl83 l.121206-121290, as chapter 11 of Isidore's De viris illustribus in Arevalo's edition), quoted in a Migne note (pl67 l.49140-49150) and by Gallandi (l.68266-68291)",
         "formation_confidence": "Widely Accepted"
       },
       {
@@ -937,6 +937,10 @@
       {
         "claim": "Ferrandus wrote the Life of Fulgentius of Ruspe",
         "sides": "For: Chifflet (preface to Ferrandus, Dijon 1649; pl65 note l.7960-7963; his reasons as Gallandi quotes them, pl67 l.68593-68630), with Pithou, Miraeus, Christianus Lupus and Natalis Alexander as Gallandi lists them (l.68672-68678); Gallandi argues that Noris later changed his mind (l.68645-68660) and prints the Life after Ferrandus's undoubted works (l.68588-68592). Against: Noris, followed by Pagi, Mangeant and Fontanini (pl67 l.68678-68681); the note in Migne's Fulgentius: the Life's author seems never to have left Fulgentius's side, which cannot be said of Ferrandus (pl65 l.7963-7966)."
+      },
+      {
+        "claim": "The author of the book on church writers that quotes Ferrandus's letter",
+        "sides": "Unknown: Gallandi, 'incertus auctor libelli de xii Scriptoribus ecclesiasticis' (pl67 l.68268-68270, 68287); Miraeus, as Arevalo reports him, held the twelve chapters not Isidore's (pl83 l.120512-120514). Isidore: Baronius, as Gallandi reports him (pl67 l.68296-68297); Arevalo's edition, which prints the notice as chapter 11 of Isidore's De viris illustribus and sets 'Hactenus Isidorus' after chapter 46 (pl83 l.120512-120535, 121206)."
       }
     ],
     "absent_details": [
@@ -988,8 +992,8 @@
         "formation_confidence": "Documented"
       },
       {
-        "claim": "At Cassino broke the idol of Apollo, overthrew the altar, burned the woods, and built the oratories of St. Martin and St. John",
-        "witness": "Gregory, Dialogues II, tr. P.W. 1608, ed. Gardner (l.4166-4183)",
+        "claim": "At Cassino broke the idol of Apollo, overthrew the altar, burned the woods, and built the oratories of St. Martin and St. John the Baptist",
+        "witness": "Gregory, Dialogues II, tr. P.W. 1608, ed. Gardner (l.4166-4183; St. John Baptist named at the burial, l.5612-5613)",
         "formation_confidence": "Documented"
       },
       {

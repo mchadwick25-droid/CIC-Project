@@ -25,7 +25,7 @@
   ],
   "legacy": {
     "traces": [
-      "His letter to Pelagius and Anatolius was quoted in a short anonymous book on church writers printed with Isidore of Seville's; Gallandi says the quotation there is cut and corrupt, and gives it from the letter.",
+      "His letter to Pelagius and Anatolius was quoted in a short book on church writers printed with Isidore of Seville's works. Gallandi calls its author unknown; Baronius, as Gallandi reports, and Faustino Arevalo, Isidore's editor, give it to Isidore. Gallandi says the quotation there is cut and corrupt, and gives it from the letter.",
       "Other letters go to Eugippius, a priest, to Severus, a scholar at Constantinople, and to Anatolius on the two natures of Christ."
     ],
     "remembered": [
@@ -77,6 +77,12 @@
         "author": "Anonymous, given by some to Ferrandus",
         "language": "Latin",
         "file": "cic/texts/fulgentius-ruspe_opera-contra-arianos-pl65-lat_migne1847.txt"
+      },
+      {
+        "title": "De viris illustribus, chapter 11 (ed. Faustino Arevalo)",
+        "author": "Isidore of Seville, or an unknown author",
+        "language": "Latin",
+        "file": "cic/texts/isidore-seville_sententiae-eccl-officiis-historia-gothorum-pl83-lat_migne1860.txt"
       }
     ]
   }
