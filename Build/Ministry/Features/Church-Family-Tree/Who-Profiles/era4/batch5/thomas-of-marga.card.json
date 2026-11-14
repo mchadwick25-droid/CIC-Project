@@ -1,0 +1,97 @@
+{
+  "name": "Thomas of Marga",
+  "otherNames": [
+    "Mar Thomas, Bishop of Marga"
+  ],
+  "knownFor": "Monk of Beth 'Abhe and author of the Book of Governors, the histories of the holy men and monks of his monastery in the Church of the East. He was secretary to the catholicos Abraham, then bishop of Marga and metropolitan of Beth Garmai.",
+  "dates": "Ninth century. He came to Beth 'Abhe as a young man in the Arab year 217, which E. A. Wallis Budge reckons as 832. Budge has him secretary to Abraham from 837. Budge's title dates the Book of Governors to 840, and Jérôme Labourt says he wrote between 832 and 850. No source used here gives his birth or death",
+  "place": "Beth Sharonaye, in the district of Salakh, his family's home, by Budge; the monastery of Beth 'Abhe; the patriarch's court, which Budge takes to be Seleucia; Marga and Beth Garmai, his sees",
+  "tradition": "The Church of the East on the Silk Road; The Church of the East under the Abbasids",
+  "role": "Monk, secretary to the catholicos, bishop and metropolitan; recorder of the monks of Beth 'Abhe",
+  "briefLength": "about 2 minutes",
+  "keyWorks": [
+    {
+      "title": "The Book of Governors (Historia Monastica)",
+      "about": "six books of histories of the holy men and monks of Beth 'Abhe and of the monks who went out from it as bishops, written at the request of the monk 'Abhd-Isho'. Held in E. A. Wallis Budge's English of 1893, volume 2. The Syriac volume is not among the sources used here"
+    },
+    {
+      "title": "Metrical homily on Maran-'ammeh",
+      "about": "a homily in verse on Maran-'ammeh, metropolitan of Adiabene, printed in the Book of Governors after Book III. In Budge's English"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Alphonse Mingana cites him for how Timothy I chose and ordained bishops and sent them to all the countries of the East.",
+      "Thomas records that he learned of David, metropolitan of Beth Sinaye, from Timothy's letters. Budge glosses Beth Sinaye as China.",
+      "Jérôme Labourt uses his silence about Saint Eugene, the monk Awgin, to doubt that tradition. W. A. Wigram notes the same silence."
+    ],
+    "remembered": [
+      "The copyist's closing note to the Book of Governors calls him \"the divinely pious man and spiritual philosopher\".",
+      "Joseph Assemani says the history adds much to a general knowledge of the monks and also of the clergy of his church.",
+      "Mari ibn Sulayman says that while the caliph al-Mutawakkil held the patriarch Theodosius in prison, his brother Thomas, metropolitan of Beth Garmai, stood by him and showed him every kindness. Assemani tells the same from the chronicler Amr."
+    ]
+  },
+  "uncertain": [
+    "When he wrote. Budge's title gives 840. Jérôme Labourt says between 832 and 850, and Joseph Assemani says he flourished at the start of the ninth century.",
+    "His age on arrival. Budge's English has \"a young man\", and Assemani's Latin of the same line has a boy.",
+    "The year 832. Budge thinks the Syriac of that line is corrupt, and reads the Arab year 217 as 832.",
+    "Who made him metropolitan. Budge says Abraham made him bishop of Marga, and that he afterwards became metropolitan of Beth Garmai. Assemani thinks his brother Theodosius seems to have raised him.",
+    "Mari's line names the patriarch only as the patriarch. It falls in his life of Theodosius, and Budge and Assemani both name Theodosius as Thomas's brother.",
+    "Budge's introduction, in his first volume, is not among the sources used here. His note on Thomas's life is one footnote in the second volume."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "The Book of Governors: the Historia Monastica of Thomas, Bishop of Marga, volume 2 (tr. E. A. Wallis Budge)",
+        "author": "Thomas of Marga; E. A. Wallis Budge (tr.)",
+        "date": "1893",
+        "language": "English translation",
+        "file": "cic/texts/thomas-of-marga_book-of-governors-v2-english_budge1893.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "The Book of Governors, volume 2: notes",
+        "author": "E. A. Wallis Budge",
+        "date": "1893",
+        "language": "English",
+        "file": "cic/texts/thomas-of-marga_book-of-governors-v2-english_budge1893.txt"
+      },
+      {
+        "title": "Lives of the patriarchs, in De patriarchis Nestorianorum commentaria (Latin tr. Henricus Gismondi)",
+        "author": "Mari ibn Sulayman",
+        "date": "1899",
+        "language": "Latin translation",
+        "file": "cic/texts/mari-ibn-sulayman_de-patriarchis-nestorianorum-commentaria-pars-prior-ara-lat_gismondi1899.txt"
+      },
+      {
+        "title": "Bibliotheca Orientalis, volume 3, part 1",
+        "author": "Joseph Assemani",
+        "date": "1725",
+        "language": "Latin",
+        "file": "cic/texts/assemani_bibliotheca-orientalis-tomus3-pars1-de-scriptoribus-syris-nestorianis-lat_1725.txt"
+      },
+      {
+        "title": "Le christianisme dans l'empire perse sous la dynastie sassanide",
+        "author": "Jérôme Labourt",
+        "date": "1904",
+        "language": "French",
+        "file": "cic/texts/labourt_le-christianisme-dans-l-empire-perse-sassanide-fra_1904.txt"
+      },
+      {
+        "title": "The Early Spread of Christianity in India",
+        "author": "Alphonse Mingana",
+        "date": "1926",
+        "language": "English",
+        "file": "cic/texts/mingana_early-spread-of-christianity-in-india_mingana1926.txt"
+      },
+      {
+        "title": "An Introduction to the History of the Assyrian Church",
+        "author": "W. A. Wigram",
+        "date": "1910",
+        "language": "English",
+        "file": "cic/texts/wigram_introduction-to-the-history-of-the-assyrian-church-100-640_1910.txt"
+      }
+    ]
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "name": "Sophronius of Jerusalem",
+  "otherNames": [
+    "Sophronius the Sophist (John Moschus)"
+  ],
+  "knownFor": "Monk of Theodosius and disciple of John Moschus, then patriarch of Jerusalem in the 630s. He opposed the teaching that Christ acted with one operation, and his synodal letter was received as true to the faith by the Third Council of Constantinople in 680-681. Later chroniclers say he was patriarch when Jerusalem surrendered to the caliph Umar.",
+  "dates": "Daniel Papebroch dates his election to 634 and his death to March 638. Mansi's editor says he was still a monk in May 633. Theophanes puts the surrender of Jerusalem after a two-year siege, and Eutychius of Alexandria says Sophronius died after four years in office. Angelo Mai gives about 640 for his death. No source used here gives his birth year",
+  "place": "Damascus, by his own poem; the monastery of Theodosius, near Jerusalem, where he was a monk; Alexandria, with John Moschus; Jerusalem, as patriarch",
+  "tradition": "The Byzantine Imperial Church (Heraclian & Iconoclast Eras); Chalcedonian Monasticism - Judean Desert & Gaza",
+  "role": "Monk and writer; patriarch of Jerusalem",
+  "briefLength": "about 2 minutes",
+  "keyWorks": [
+    {
+      "title": "Synodal letter",
+      "about": "the letter he sent out on taking office as patriarch, setting out the two natures and two operations of Christ. Read out at the Third Council of Constantinople. In Patrologia Graeca 87.3, in Greek with Latin"
+    },
+    {
+      "title": "Miracles of Cyrus and John",
+      "about": "the healings at the shrine of the martyrs Cyrus and John near Alexandria. He says he wrote them because they cured his eyes. In Angelo Mai's edition, in Greek with Latin"
+    },
+    {
+      "title": "Sermons and poems",
+      "about": "among them a Christmas sermon given when Bethlehem was cut off by the Saracens, and short poems in the Anacreontic meter, one of them on his longing for the holy places of Jerusalem"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "The Third Council of Constantinople, in 680-681, examined \"the synodal letter of Sophronius of holy memory\" and received it \"as orthodox\". It decreed that his name be put in the diptychs, in Henry Percival's English of the acts.",
+      "Stephen, bishop of Dor, told the Lateran synod of 649 that Sophronius had sent him to Rome under oath at Calvary.",
+      "Symeon of Thessalonica, quoted by Daniel Papebroch, says Sophronius as patriarch restored the order of Saint Sabas's services, lost when barbarians ravaged those places, and that John of Damascus later renewed it.",
+      "John of Damascus cites his Miracles of Cyrus and John in his defense of icons."
+    ],
+    "remembered": [
+      "Theophanes calls him a great champion of piety.",
+      "Maximus the Confessor calls him the divine and great Sophronius, and says Sophronius stayed with him and the other foreign monks in Africa.",
+      "Leontius of Neapolis, in his Life of John the Almsgiver as Daniel Papebroch quotes it, calls John Moschus and Sophronius wise men and good counselors to that patriarch of Alexandria.",
+      "Eusèbe Renaudot says the Arab historians also mention him with praise, since the city was taken while he governed its church."
+    ]
+  },
+  "uncertain": [
+    "Theophanes's account of Umar at Jerusalem, with Sophronius's words on the abomination of desolation, was written in the early ninth century. No text of Sophronius's own time gives those words.",
+    "The year he became patriarch. Fabricius and Harles give 629. Mansi's editor says he was still a monk in May 633, and Daniel Papebroch gives 634. Eutychius of Alexandria puts it in the second year of Umar's rule.",
+    "The year of his death. Papebroch gives March 638, a few months after the city's surrender. Angelo Mai says about 640. A note in the Bibliotheca Patrum gives 14 March 636.",
+    "What happened at Constantinople. Sergius says Sophronius agreed to keep silent on one or two operations. Eutychius says Sergius turned against him after gifts came from Cyrus.",
+    "Whether the Sophist of John Moschus is the patriarch. Papebroch, Angelo Mai and Cyrille Charon hold that they are one man. The poem and the Miracles give the author as a monk of Theodosius from Damascus.",
+    "His monastery. His poem and the last of the Miracles say Theodosius. Fabricius and Harles say Saint Sabas, without a source.",
+    "The Life of Mary of Egypt is given to him by Nicephorus Callistus and the Greek service books. Papebroch says nothing in it settles whether it is his.",
+    "The Spiritual Meadow was cited under his name by John of Damascus and the Second Council of Nicaea. It is John Moschus's book, written for him."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Works of Sophronius, in Patrologia Graeca 87.3: synodal letter, sermons, Miracles of Cyrus and John, poems",
+        "author": "Sophronius of Jerusalem; Angelo Mai and others (ed.); J.-P. Migne",
+        "date": "1860",
+        "language": "Greek and Latin",
+        "file": "cic/texts/john-moschus_pratum-spirituale-sophronius-opera-grc-lat_migne-pg87-3.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Life of Sophronius, collected from various sources, from the Acta Sanctorum for March, in Patrologia Graeca 87.3",
+        "author": "Daniel Papebroch",
+        "date": "1860",
+        "language": "Latin",
+        "file": "cic/texts/john-moschus_pratum-spirituale-sophronius-opera-grc-lat_migne-pg87-3.txt"
+      },
+      {
+        "title": "Spiritual Meadow, in Patrologia Graeca 87.3",
+        "author": "John Moschus",
+        "date": "1860",
+        "language": "Greek and Latin",
+        "file": "cic/texts/john-moschus_pratum-spirituale-sophronius-opera-grc-lat_migne-pg87-3.txt"
+      },
+      {
+        "title": "Acts of the Lateran synod of 649: the petition of Stephen of Dor, and Maximus's letter to Peter, in Sacrorum conciliorum collectio, volume 10",
+        "author": "Stephen of Dor; Maximus the Confessor; J. D. Mansi (ed.)",
+        "date": "1901",
+        "language": "Latin and Greek",
+        "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-10-lat_welter-facsimile1901.txt"
+      },
+      {
+        "title": "The Seven Ecumenical Councils: the sentence of the Third Council of Constantinople",
+        "author": "Henry R. Percival (ed. and tr.)",
+        "date": "1900",
+        "language": "English translation",
+        "file": "cic/texts/npnf214_seven-ecumenical-councils.xml"
+      },
+      {
+        "title": "Chronographia, in Patrologia Graeca 108",
+        "author": "Theophanes",
+        "date": "1863",
+        "language": "Greek and Latin",
+        "file": "cic/texts/theophanes-confessor_chronographia-pg108-grc-lat_migne1863.txt"
+      },
+      {
+        "title": "Annals, in Patrologia Graeca 111 (Latin tr. Edward Pococke)",
+        "author": "Eutychius of Alexandria",
+        "date": "1863",
+        "language": "Latin translation",
+        "file": "cic/texts/nicholas-mystikos_epistolae-with-eutychius-alexandrinus-pg111-grc-lat_migne1863.txt"
+      }
+    ]
+  }
+}

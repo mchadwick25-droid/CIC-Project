@@ -1,0 +1,95 @@
+{
+  "name": "Athanasios the Athonite",
+  "otherNames": [
+    "Abramios, his name in the world (Philipp Meyer, from the Life)",
+    "Athanasius"
+  ],
+  "knownFor": "Founder of the Lavra on Mount Athos, the first great monastery of the Holy Mountain, with the help of his friend the emperor Nikephoros Phokas. He wrote its rule and his own testament for it. Philipp Meyer says that rule became the general standard for the other houses of Athos.",
+  "dates": "Philipp Meyer says his birth year is unknown. Meyer dates the visit to Crete between July 960 and March 961, and reckons the church of the Lavra begun in 963. Meyer places his death between 997 and 1011, since he was still alive in 997 and his successor Eustratios is named in 1011. Paul Peeters says he died about the year 1000",
+  "place": "Trebizond, by the Life, and Constantinople, where it says he was raised; Mount Kyminas, where he became a monk under Michael Maleinos; Mount Athos, where he founded the Lavra. His testament calls the place Melana",
+  "tradition": "The Byzantine Imperial Church (Macedonian Era); Athonite & Comnenian Byzantine Monasticism",
+  "role": "Monk and abbot; founder of the Lavra on Mount Athos and author of its rule",
+  "briefLength": "about 2 minutes 30 seconds",
+  "keyWorks": [
+    {
+      "title": "Rule of the Lavra (Typikon, or Kanonikon)",
+      "about": "his account of how the Lavra was founded, with Nikephoros's charter copied into it, and rules for the abbot and monks. In Greek, in Meyer's edition. Meyer dates it perhaps to early 970, after Nikephoros was murdered on 16 December 969"
+    },
+    {
+      "title": "Testament (Diatyposis)",
+      "about": "his last instructions to the Lavra, written to be opened after his death. He names John the Iberian, then John's son Euthymios, as guardians of the house. In Greek, in Meyer's edition, which dates it to the reign of Basil II"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Philipp Meyer says the Lavra's rule became the general standard for the other houses of Athos, and that its constitution set the pattern for them.",
+      "Meyer says Athanasios is the first who can be shown to have used the rule of Theodore of Stoudios. He finds the opening of Athanasios's charge to the abbot almost word for word in Theodore's testament.",
+      "Meyer writes that the first great monastery on the Holy Mountain was a Greek one, the Lavra of Athanasios.",
+      "George the Hagiorite, writing in Georgian about 1045, tells how John the Iberian served two years or more in the Lavra's kitchen. On Athanasios's advice, John's company then built a church and cells about a mile from the Lavra. Meyer says John founded his great monastery, Iviron, while Athanasios was alive."
+    ],
+    "remembered": [
+      "Meyer says Athanasios organized flight from the world after the model of Theodore of Stoudios.",
+      "George the Hagiorite calls him \"magnus Athanasius\", the great Athanasios, in Paul Peeters's Latin. He says John the Iberian, dying, told his monks to keep the memory of their spiritual father Athanasios every year.",
+      "Old copies of the works of Gregory Palamas, described in Migne's Greek Fathers, are marked as books of the holy Lavra of Saint Athanasios on Athos."
+    ]
+  },
+  "uncertain": [
+    "His early life rests on a Life by a monk of the Lavra who lived under Eustratios, Athanasios's successor. Philipp Meyer knew it only in the Modern Greek version of the monk Agapios, printed at Venice in 1657. The Life's own Greek is not among the sources used here.",
+    "Whether he went to Crete. His own rule and the Life say he did. A manuscript cited in the notes to Leo the Deacon's history says he only foretold Nikephoros's victory, and was given money from the spoils to build. Meyer calls that a legend.",
+    "What he did when Nikephoros was crowned. His rule says he went straight to Constantinople and reproached him. The Life, as Meyer reports it, says he first fled the monastery in grief and reached the city by a miracle.",
+    "The year of his death. Meyer gives 997 to 1011. Paul Peeters, editing the Georgian Life of John and Euthymius, says about the year 1000.",
+    "How he died rests on the Life alone. Meyer reports that a dome fell on him and six monks as they set its keystone, and that they were pulled from the rubble dead.",
+    "His teacher. His own rule calls Michael, uncle of Nikephoros, \"my abbot\" at Mount Kyminas. The family name Maleinos comes from Meyer, who draws on Michael's own Life.",
+    "A third text, rules for the services and meals of the Lavra, is printed after the testament. Meyer says it is uncertain whether Athanasios wrote it in that form, since it first appears in the later of the two old copies.",
+    "His origin. Marie-Félicité Brosset, citing the Georgian Life of Euthymius, calls the founder of the house on Athos a Georgian. Frédéric Macler calls the Lavra that of John the Iberian's countryman. The Life, as Meyer reports it, says Athanasios came from Trebizond, and George the Hagiorite's Life of John and Euthymius does not call him Georgian.",
+    "The Athanasios who brought the complaint of 972 is a different man: Athanasios, chief of the monks of the Mountain. Both sign the ruling of John Tzimiskes."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Rule of the Lavra (Typikon) and Testament (Diatyposis), Documents I and II in Die Haupturkunden für die Geschichte der Athosklöster",
+        "author": "Athanasios the Athonite; Philipp Meyer (ed.)",
+        "date": "1894",
+        "language": "Greek",
+        "file": "cic/texts/athos-monasteries_haupturkunden-fur-die-geschichte-der-athoskloster-ger-grc_meyer1894.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Die Haupturkunden für die Geschichte der Athosklöster: introduction, with the ruling of John Tzimiskes (Document IV)",
+        "author": "Philipp Meyer",
+        "date": "1894",
+        "language": "German, with Greek",
+        "file": "cic/texts/athos-monasteries_haupturkunden-fur-die-geschichte-der-athoskloster-ger-grc_meyer1894.txt"
+      },
+      {
+        "title": "Life of John and Euthymius, in Histoires monastiques géorgiennes (Latin tr. Paul Peeters)",
+        "author": "George the Hagiorite",
+        "date": "1917-1919",
+        "language": "Latin translation, with French",
+        "file": "cic/texts/peeters_histoires-monastiques-georgiennes-in-analecta-bollandiana-36-37-lat-fra_1917-1919.txt"
+      },
+      {
+        "title": "Histoire de la Géorgie, part 1, notes",
+        "author": "Marie-Félicité Brosset",
+        "date": "1849",
+        "language": "French",
+        "file": "cic/texts/kartlis-tskhovreba_histoire-de-la-georgie-pt1-histoire-ancienne-fra_brosset1849.txt"
+      },
+      {
+        "title": "Histoire universelle d'Étienne Asolik de Tarôn, part 2, notes",
+        "author": "Frédéric Macler",
+        "date": "1917",
+        "language": "French",
+        "file": "cic/texts/stepanos-taron_histoire-universelle-deuxieme-partie-fra_macler1917.txt"
+      },
+      {
+        "title": "Opera omnia of Gregory Palamas, Patrologia Graeca 150, notes",
+        "author": "J.-P. Migne (ed.)",
+        "date": "1865",
+        "language": "Greek and Latin",
+        "file": "cic/texts/palamas_opera-omnia-pg150-grc-lat_migne1865.txt"
+      }
+    ]
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "name": "John of Nikiu",
+  "otherNames": [
+    "John, bishop of Niciu (History of the Patriarchs)",
+    "John the rector, bishop of Nikius (the Chronicle's closing words)"
+  ],
+  "knownFor": "Coptic bishop of Nikiu whose Chronicle, from the creation to the Arab conquest of Egypt, survives only in Ethiopic. It is the Coptic church's own account of the conquest. The History of the Patriarchs tells that he was given charge of the monasteries and then deposed.",
+  "dates": "Seventh century. R. H. Charles thinks he was born about the time of the Arab conquest of Egypt. The History of the Patriarchs places him at the death of the patriarch John III and at the election of Isaac, whose life it heads 686 to 689. Charles gives 690 for that election and 696 for his charge of the monasteries. No source used here gives his death",
+  "place": "Nikiu, which the Chronicle calls Nakius and Absai; B. Evetts places it at the modern village of Ibshadi, east of the Rosetta branch of the Nile. Alexandria, where the bishops met",
+  "tradition": "Coptic Christianity under Early Islam",
+  "role": "Bishop; overseer of the monasteries; recorder of the Arab conquest of Egypt",
+  "briefLength": "about 2 minutes",
+  "keyWorks": [
+    {
+      "title": "Chronicle",
+      "about": "a history from the creation to the Arab conquest of Egypt, in one hundred and twenty-two chapters. R. H. Charles, following Hermann Zotenberg, says it was written in Greek, perhaps with some chapters in Coptic. It was put into Arabic, now lost, and from Arabic into Ethiopic in 1602. Held in Charles's English of 1916"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "R. H. Charles quotes A. J. Butler: the finding of John's manuscript has made it possible \"to write a history of the Arab conquest of Egypt\".",
+      "Charles writes that his Chronicle, even in its broken state, is of immense value to historians of Egypt.",
+      "Its account of the conquest is the source for Benjamin I of Alexandria's return to the city, in the thirteenth year after his flight."
+    ],
+    "remembered": [
+      "The History of the Patriarchs calls him \"this holy bishop\" and says his words against the bishops who deposed him came true within days.",
+      "It survives because, as R. H. Charles reports from the manuscript, the Abyssinian general Athanasius and the wife of King Jacob had it put into Ethiopic in 1602."
+    ]
+  },
+  "uncertain": [
+    "The Chronicle reaches us at many removes: from Greek, through a lost Arabic version, into the Ethiopic of 1602, then into Charles's English. Charles says the question of Greek or Coptic still needs to be threshed out.",
+    "Whether the deposed bishop wrote the Chronicle. The History of the Patriarchs does not say its John of Niciu wrote one. The Chronicle calls its author John, administrator and bishop of Nakius, and Charles takes them as one man.",
+    "His dates. Charles gives 690 for the election after John III and 696 for the charge of the monasteries. The History heads Isaac's life 686 to 689, and Eusèbe Renaudot sets John III's death in 686. Charles's sources for 690 and 696 are not among those used here.",
+    "Why he was deposed. The History says he went beyond what humanity required of him when the monk he had beaten died. Charles says he abused his powers.",
+    "How he took it. The History says he was silent while they deposed him, then cursed them. Renaudot says he bore it impatiently.",
+    "Charles calls him rector of the bishops of Upper Egypt. At the election, the History names Gregory, bishop of Al-Kais, as presiding.",
+    "Thirty years are missing from the Chronicle, from 610 to 640, Charles says, so its account of the Persian wars is lost.",
+    "The words blaming Heraclius and Cyrus are what \"every one said\", in John's report. They are not given as his own judgment."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "The Chronicle of John, Bishop of Nikiu (tr. R. H. Charles)",
+        "author": "John of Nikiu; R. H. Charles (tr.)",
+        "date": "1916",
+        "language": "English translation",
+        "file": "cic/texts/john-nikiu_chronicle_charles1916.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "The Chronicle of John, Bishop of Nikiu: introduction",
+        "author": "R. H. Charles",
+        "date": "1916",
+        "language": "English",
+        "file": "cic/texts/john-nikiu_chronicle_charles1916.txt"
+      },
+      {
+        "title": "History of the Patriarchs of the Coptic Church of Alexandria, Agathon to Michael I, in Patrologia Orientalis 5 (tr. B. Evetts)",
+        "author": "Attributed to Severus ibn al-Muqaffa",
+        "date": "1910",
+        "language": "Arabic with English translation",
+        "file": "cic/texts/chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt"
+      },
+      {
+        "title": "Historia patriarcharum Alexandrinorum Jacobitarum",
+        "author": "Eusèbe Renaudot",
+        "date": "1713",
+        "language": "Latin",
+        "file": "cic/texts/renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713.txt"
+      },
+      {
+        "title": "The Churches and Monasteries of Egypt, notes",
+        "author": "B. Evetts",
+        "date": "1895",
+        "language": "English",
+        "file": "cic/texts/abu-salih_churches-and-monasteries-of-egypt_evetts1895.txt"
+      }
+    ]
+  }
+}

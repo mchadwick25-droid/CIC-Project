@@ -1,0 +1,63 @@
+{
+  "name": "Antony of Choziba",
+  "knownFor": "Monk of Choziba and disciple of George of Choziba, whose Life he wrote in Greek. It tells of the Persian attack on the holy city and of monastic life at Choziba. He also wrote down miracles of the Mother of God at Choziba.",
+  "dates": "Seventh century. He lived through the Persian invasion and wrote after George's death. No source used here gives a year for his birth, his arrival at Choziba or his death",
+  "place": "His father's house, which he does not name; the monastery of Choziba; the guesthouse at Jericho, where he was cellarer after the invasion; the holy city, where George then lived",
+  "tradition": "Chalcedonian Monasticism - Judean Desert & Gaza",
+  "role": "Monk and cellarer; recorder of his teacher George and of the monastery of Choziba",
+  "briefLength": "about 2 minutes",
+  "keyWorks": [
+    {
+      "title": "Life of George of Choziba",
+      "about": "the life of his teacher, told in large part from what he saw and from what George told him. In Greek, edited by C. Houze for the Bollandists in 1888, with a Latin translation"
+    },
+    {
+      "title": "Miracles of the Mother of God at Choziba",
+      "about": "stories of the monastery's church, which the Bollandist heading gives to Antony as author. Printed after the Life in the same volume"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "His Life is the only held account of George of Choziba, and one of the held accounts of the Persian invasion as the desert monks lived it.",
+      "John Moschus, in his Spiritual Meadow, tells stories of monks who lived in the cells of Choziba."
+    ],
+    "remembered": [
+      "C. Houze, his editor, finds that the Life plainly bears the marks of sincerity, and notes the Graeco-barbarous words in Antony's writing.",
+      "Antony himself closes the Life by asking the fathers to pray for him, a sinner and the least of them."
+    ]
+  },
+  "uncertain": [
+    "All that is known of him comes from his own two works. No other held source names him.",
+    "His name appears in the Life where George speaks to him, and in the editor's headings. The opening of the Life is lost in the held copy.",
+    "When he came to Choziba. He set out while Saracens were raiding the roads, and after the Persian invasion he was cellarer at Jericho. The held text does not fix whether he arrived before or after the invasion.",
+    "Whether he saw the Persians in the ravine himself. He tells that part of George.",
+    "The Greek of the held copy is badly damaged. Some passages are clear only in the Latin translation printed with it."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Life of George of Choziba and Miracles of the Mother of God at Choziba, in Analecta Bollandiana 7",
+        "author": "Antony of Choziba; C. Houze (ed.)",
+        "date": "1888",
+        "language": "Greek, with Latin translation",
+        "file": "cic/texts/antony-of-choziba_vita-georgii-chozibitae-analecta-bollandiana-7-grc_1888.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Preface to the Life of George of Choziba, in Analecta Bollandiana 7",
+        "author": "C. Houze",
+        "date": "1888",
+        "language": "Latin",
+        "file": "cic/texts/antony-of-choziba_vita-georgii-chozibitae-analecta-bollandiana-7-grc_1888.txt"
+      },
+      {
+        "title": "Spiritual Meadow, in Patrologia Graeca 87.3",
+        "author": "John Moschus",
+        "date": "1860",
+        "language": "Greek and Latin",
+        "file": "cic/texts/john-moschus_pratum-spirituale-sophronius-opera-grc-lat_migne-pg87-3.txt"
+      }
+    ]
+  }
+}

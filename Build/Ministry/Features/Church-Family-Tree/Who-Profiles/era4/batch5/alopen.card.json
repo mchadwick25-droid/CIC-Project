@@ -1,0 +1,83 @@
+{
+  "name": "Alopen",
+  "otherNames": [
+    "Olopun (A. Wylie's English of the Xi'an stele)",
+    "Olopen",
+    "Olopuen (Joseph Assemani)",
+    "A-lo-pen (E. A. Wallis Budge)"
+  ],
+  "knownFor": "The man from Syria who, by the Xi'an stele, brought the Church of the East's sacred books to the Tang capital, Chang-an, in 635. The emperor had them translated and ordered the religion spread. A decree of 638 ordered a church built in the capital for twenty-one priests.",
+  "dates": "Reached Chang-an in 635, by A. Wylie's English of the stele and by Henry Yule. Joseph Assemani gives 636. The stele names the decree of 638 and the honor he received under the next emperor, Kautsung. No source used here gives his birth or death",
+  "place": "Syria, as A. Wylie renders the stele's Ta-ts'in, which Henry Yule says Chinese writers used of the Roman Empire, here apparently Syria; Chang-an, the Tang capital",
+  "tradition": "The Church of the East on the Silk Road",
+  "role": "Missionary of the Church of the East to China",
+  "briefLength": "about 2 minutes 15 seconds",
+  "legacy": {
+    "traces": [
+      "The stele says the next emperor, Kautsung, had churches built in every province, and that every city was full of churches.",
+      "The stele says the church kept its ground against the Buddhists in 699 and against slanders in 713, and that a later emperor restored its buildings.",
+      "S. Wells Williams reports that in 845 an edict of the emperor Wu-tsung sent the priests of the sect from Ta Tsin, no fewer than three thousand, back to private life."
+    ],
+    "remembered": [
+      "The stele's closing verse begins: \"When the pure, bright Illustrious Religion / Was introduced to our Tang dynasty, / The Scriptures were translated, and churches built\".",
+      "E. A. Wallis Budge's index calls him the introducer of Christianity into China.",
+      "T. J. Lamy, as J.-B. Chabot quotes him, calls him a Syrian priest who brought Nestorianism to China."
+    ]
+  },
+  "uncertain": [
+    "Everything about him comes from one witness, the Xi'an stele of 781, set up by his own church nearly a century and a half after he came. Its Chinese text names King-Tsing, a priest, as its author. No words of his own are held, and nothing of his death.",
+    "The year he came. A. Wylie's English of the stele, Henry Yule and Budge's appendix give 635. Joseph Assemani gives 636, and so do the editors of Bar Hebraeus, J. B. Abbeloos and T. J. Lamy, and Budge's own introduction.",
+    "His name. Yule takes Olopan for a Chinese form of Rabban, meaning monk. F. Hirth suggests Ruben. Assemani guesses the Syriac Jaballaha. No source used here gives his Syriac name from a Syriac text.",
+    "His title under Kautsung. Wylie renders it great conservator of doctrine for the preservation of the State. Kircher's Latin, as Assemani gives it, has bishop of the great law that governs China. Saeki, as Budge gives him, has Great Patron and Spiritual Lord of the Empire.",
+    "Whose portrait hung in the church. Wylie and Yule say the emperor's. Assemani's Latin summary can be read as Alopen's.",
+    "Who translated the books. The stele says only that they were translated in the imperial library. S. Wells Williams reads it as Alopen's work, in part or in whole.",
+    "Who sent him, and his rank. No source used here says. Monk is Yule's and Budge's word, bishop Assemani's, and priest Lamy's.",
+    "The stone. S. Wells Williams says it was found at Si-ngan fu in 1625, and that the Jesuits and their opponents argued warmly over whether it is genuine. The weight of evidence, he writes, leaves no doubt. He quotes Dr. Bridgman: a hundred Chinese students would each read some parts differently."
+  ],
+  "sources": {
+    "about": [
+      {
+        "title": "Translation of the Nestorian Inscription (tr. A. Wylie), in History of the Syrian Nation and the Old Evangelical-Apostolic Church of the East",
+        "author": "King-Tsing (the stele); A. Wylie (tr.); George David Malech",
+        "date": "1910",
+        "language": "English translation",
+        "file": "cic/texts/malech_history-of-the-syrian-nation-and-old-evangelical-apostolic-church-of-the-east_1910.txt"
+      },
+      {
+        "title": "The Nestorians in China, in the same volume",
+        "author": "S. Wells Williams",
+        "date": "1910",
+        "language": "English",
+        "file": "cic/texts/malech_history-of-the-syrian-nation-and-old-evangelical-apostolic-church-of-the-east_1910.txt"
+      },
+      {
+        "title": "The Book of Ser Marco Polo, volume 2, note on the Christian monument at Si-ngan fu",
+        "author": "Henry Yule; Henri Cordier",
+        "date": "1903",
+        "language": "English",
+        "file": "cic/texts/marco-polo_book-of-ser-marco-polo-v2_yule-cordier1903.txt"
+      },
+      {
+        "title": "Bibliotheca Orientalis, volume 3, part 2",
+        "author": "Joseph Assemani",
+        "date": "1728",
+        "language": "Latin",
+        "file": "cic/texts/assemani_bibliotheca-orientalis-tomus3-pars2-de-syris-nestorianis-lat_1728.txt"
+      },
+      {
+        "title": "The Monks of Kublai Khan, introduction and Appendix B",
+        "author": "E. A. Wallis Budge",
+        "date": "1928",
+        "language": "English",
+        "file": "cic/texts/yahballaha-sauma_monks-of-kublai-khan_budge1928.txt"
+      },
+      {
+        "title": "Histoire de Mar Jabalaha III et du moine Rabban Çauma, notes",
+        "author": "J.-B. Chabot",
+        "date": "1895",
+        "language": "French",
+        "file": "cic/texts/yahballaha-sauma_histoire-de-mar-jabalaha-iii-et-rabban-cauma-fra_chabot1895.txt"
+      }
+    ]
+  }
+}
