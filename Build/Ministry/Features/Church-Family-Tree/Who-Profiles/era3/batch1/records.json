@@ -751,14 +751,14 @@
         "formation_confidence": "Widely Accepted"
       },
       {
-        "claim": "The history written near the end of the sixth century; its author probably the bishop of Halwan of 605",
-        "witness": "François Nau's introduction (PO 9 l.31566-31580)",
-        "formation_confidence": "Dominant Modern Reconstruction"
+        "claim": "The History written near the end of the sixth century; its author Barhadbeshabba 'Arbaia; Nau thinks his identity with the bishop of Halwan of 605, author of the Cause, not impossible",
+        "witness": "François Nau's introduction (PO 9 l.31556-31604)",
+        "formation_confidence": "Inferential-Thin"
       },
       {
         "claim": "From the land of Ma'alta, village of 'Ain Dulba; went to school at seven and learned the Psalter in nine months",
-        "witness": "Barhadbeshabba, History (PO 9 l.36178-36180, 36390-36393)",
-        "formation_confidence": "Inferential-Thin"
+        "witness": "Barhadbeshabba, History (PO 9 l.36178-36180, 36390-36393); Mari ibn Sulayman, 'Ma'allaia oriundus' (Gismondi l.14346)",
+        "formation_confidence": "Widely Accepted"
       },
       {
         "claim": "Led the school of Edessa twenty years",
@@ -782,7 +782,7 @@
       },
       {
         "claim": "\"Edessa was darkened, but Nisibis shone forth\"",
-        "witness": "Barhadbeshabba in Connolly's English (l.4494, note citing Mingana)",
+        "witness": "The Cause of the Foundation of the Schools in Connolly's English (l.4494; Connolly calls it a fragment of a chronicle by Barhadbeshabba, l.274-276); Scher's French, PO 4 l.20744",
         "formation_confidence": "Documented"
       },
       {
@@ -793,7 +793,7 @@
       {
         "claim": "Barsauma's wife grew jealous of the crowds at his door; he withdrew to Kefar Mari and wrote a poem on her; read at Nisibis, the bishop repented and recalled him",
         "witness": "Barhadbeshabba, History (PO 9 l.37118-37175, 37210-37215); later Mari (Gismondi l.14104-14108, 14268-14271) and Bar Hebraeus (vol. III l.4410-4420)",
-        "formation_confidence": "Widely Accepted"
+        "formation_confidence": "Contested"
       },
       {
         "claim": "All his skill in Scripture came from Theodore's commentaries, by his homily on the three Doctors",
@@ -824,7 +824,7 @@
     "contested_claims": [
       {
         "claim": "When he left Edessa",
-        "sides": "457: Connolly after Mingana (l.257-260, 299-301). After 471: Barhadbeshabba's naming of the bishop, if it stands, as Nau notes (PO 9 l.36699-36705); Nau himself prefers an earlier bishop, Nonnus, which keeps 457 to 471."
+        "sides": "457: Connolly after Mingana (l.257-260, 299-301). After 471: Barhadbeshabba's naming of the bishop, if it stands, as Nau notes (PO 9 l.36699-36705); Nau himself prefers an earlier bishop, Nonnus, which keeps 457 to 471. Addai Scher, editing the Cause: it is inexact that Narsai and his companions were all expelled together in 457, as Simeon of Beth Arsham told it (PO 4 l.20622-20623), and he reckons his own dates only 'if' the expulsion was in 457 (l.20750)."
       },
       {
         "claim": "His years at Nisibis and his death",
@@ -853,8 +853,8 @@
   "lazar-parpetsi": {
     "claims": [
       {
-        "claim": "Saw some of the captive Armenian princes with his own eyes; they set up schools to learn the church's teaching, even in the camp, and recited psalms in their minds as they took up arms",
-        "witness": "Lazar, History ch.53 (langlois t2 l.43182-43198)",
+        "claim": "Saw some of the captive Armenian princes with his own eyes; they set up schools to learn the church's teaching, kept up their spiritual exercises even in the camp, and recited psalms in their minds as they took up arms",
+        "witness": "Lazar, History ch.53 (langlois t2 l.43182-43199)",
         "formation_confidence": "Documented"
       },
       {
@@ -873,9 +873,14 @@
         "formation_confidence": "Inferential-Thin"
       },
       {
-        "claim": "Vahan, made governor by the Persian court, restored Etchmiadzin and put Lazar in charge of the mother church (\"métropole\") with the consent of the patriarch John Mandakuni; Lazar restored discipline among the monks",
+        "claim": "Vahan, made governor by the Persian court, restored Etchmiadzin and put Lazar in charge of the mother church (\"métropole\") with the consent of the patriarch John Mandakuni; Lazar restored discipline among the monks; Stephen of Taron instead has Vahan make him head of the monks of Surenay-Anapat (see the next claim)",
         "witness": "Langlois's introduction (l.35172-35209)",
         "formation_confidence": "Inferential-Thin"
+      },
+      {
+        "claim": "Vahan renewed the great mother church of Armenia, increased the monks of Surenay-Anapat and made the orator and historian Lazar Pharbeci their head",
+        "witness": "Stephen of Taron, Universal History, c.1000 (stepanos-taron gelzer1907 l.2930-2936)",
+        "formation_confidence": "Documented"
       },
       {
         "claim": "Jealous clergy accused his teaching of being against the true faith; John Mandakuni refused to hear him; his enemies drove him out and kept his Greek books",
@@ -926,13 +931,18 @@
         "claim": "Vahan governor of Armenia from 486 to 511",
         "witness": "Notes in the French edition (langlois t2 l.35473-35475, 48958-48962); editor's dates",
         "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "The History runs from 428 to 485",
+        "witness": "Charles Neumann, preface to Elishe (eghishe_neumann1830 l.1019-1021); an editor's date",
+        "formation_confidence": "Dominant Modern Reconstruction"
       }
     ],
     "contested_claims": [],
     "absent_details": [
       {
         "detail": "His birth, death and family",
-        "note": "No held line gives his years. Langlois infers a noble family from the Letter to Vahan (l.35103-35106), which is not held; the census year 485 rests on no held line."
+        "note": "No held line gives his years. Langlois infers a noble family from the Letter to Vahan (l.35103-35106), which is not held. The census year 485 matches Charles Neumann's end date for the History, 'from 428 to 485' (eghishe_neumann1830 l.1019-1021); Langlois's own year for it (langlois t2 l.35267-35268) is lost in the OCR."
       },
       {
         "detail": "The Letter to Vahan Mamikonian",

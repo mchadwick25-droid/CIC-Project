@@ -1,7 +1,7 @@
 {
-  "name": "Narsai",
+  "name": "Narsai of Nisibis",
   "otherNames": [
-    "Narsai of Nisibis",
+    "Narsai",
     "Narses"
   ],
   "knownFor": "A Persian Christian poet and teacher of Scripture who led the school of Edessa for twenty years, fled to Nisibis when accused of heresy and of siding with Persia, and founded there, with Barsauma of Nisibis, the school of the Church of the East.",
@@ -26,19 +26,19 @@
   ],
   "legacy": {
     "traces": [
-      "Barhadbeshabba, as R. H. Connolly translates him: \"Edessa was darkened, but Nisibis shone forth\". He names Narsai and his successors as the heads of the school of Nisibis.",
+      "The Cause of the Foundation of the Schools, as R. H. Connolly translates it: \"Edessa was darkened, but Nisibis shone forth\". It names Narsai and his successors as the heads of the school of Nisibis.",
       "Connolly writes that with the school of Nisibis began the formation of \"what is now known as the Nestorian Church\"."
     ],
     "remembered": [
-      "Mari ibn Sulayman, writing in the 1100s, reports that the monk Theodulus called him the tongue of the East.",
-      "Barhadbeshabba tells his life as a saint's life, with the healing of a boy and a long fight against Satan.",
+      "Mari ibn Sulayman, writing in the 1100s, reports that Theodulus, a disciple of Mar Diodore, blessed him and called him the tongue of the East and the poet of the Christian religion.",
+      "Barhadbeshabba 'Arbaia tells his life as a saint's life, with the healing of a boy and a long fight against Satan.",
       "Simeon of Beth Arsham, of the opposing side, calls him Narsai the leper, in a letter that Bar Hebraeus's editors quote from Assemani."
     ]
   },
   "uncertain": [
-    "His life comes almost wholly from Barhadbeshabba, who wrote in praise of the saints of his own church near the end of the 500s, by François Nau's dating. Mari ibn Sulayman and Bar Hebraeus wrote centuries later.",
-    "When he left Edessa is disputed. Connolly gives 457, the year the followers of Ibas were expelled. Barhadbeshabba names a bishop of Edessa who took office in 471, Nau notes; Nau thinks an earlier bishop is meant, since otherwise Narsai would have left after 471 and died after 512.",
-    "His years at Nisibis are told three ways: forty in Barhadbeshabba's history, forty-five in his other work on the schools, and fifty in Bar Hebraeus. So his death is put in 502 by Connolly after Mingana, in 503 or 504 by Nau, and in 507 by those who follow Bar Hebraeus, as Nau reports.",
+    "His life comes almost wholly from Barhadbeshabba 'Arbaia, who wrote in praise of the saints of his own church near the end of the 500s, by François Nau's dating. Mari ibn Sulayman and Bar Hebraeus wrote centuries later. François Nau gives the History to Barhadbeshabba 'Arbaia, and the Cause of the Foundation of the Schools to Barhadbeshabba, bishop of Halwan in 605; he thinks it not impossible that they are one man.",
+    "When he left Edessa is disputed. Connolly gives 457, the year the followers of Ibas were expelled. Barhadbeshabba names a bishop of Edessa who took office in 471, Nau notes; Nau thinks an earlier bishop is meant, since otherwise Narsai would have left after 471 and died after 512. Addai Scher, editing the Cause, doubts that Narsai and his companions were expelled together in 457, as Simeon of Beth Arsham told it.",
+    "His years at Nisibis are told three ways: forty in Barhadbeshabba's History, forty-five in the Cause of the Foundation of the Schools, and fifty in Bar Hebraeus. So his death is put in 502 by Connolly after Mingana, in 503 or 504 by Nau, and in 507 by those who follow Bar Hebraeus, as Nau reports.",
     "Barhadbeshabba gives the quarrel with Barsauma to the jealousy of Barsauma's wife. Bar Hebraeus, hostile, says Barsauma expelled Narsai over a concubine. All three tellers say the two were reconciled.",
     "That all his skill in Scripture came from Theodore of Mopsuestia rests on his homily on the three Doctors, as Connolly reports it; the Library does not hold that homily.",
     "Connolly treats three of the four held homilies as certainly his. The Exposition of the Mysteries was given by one or two late authorities to a writer of the 1200s; Connolly argues it is Narsai's."
@@ -54,14 +54,14 @@
     "about": [
       {
         "title": "Ecclesiastical History, the life of Narsai (tr. François Nau)",
-        "author": "Barhadbeshabba",
+        "author": "Barhadbeshabba 'Arbaia",
         "date": null,
         "language": "French translation",
         "file": "cic/texts/po09_barhadbeshabba-ecclesiastical-history-part2-and-others-fra_1913.txt"
       },
       {
         "title": "Cause of the Foundation of the Schools (tr. Addai Scher)",
-        "author": "Barhadbeshabba",
+        "author": "Barhadbeshabba 'Arbaya, bishop of Halwan",
         "date": null,
         "language": "French translation",
         "file": "cic/texts/barhadbeshabba_cause-de-la-fondation-des-ecoles-po4-syr-fra_scher1908.txt"
