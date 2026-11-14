@@ -624,6 +624,11 @@
     "claim": "Aedan, king of the Scots in Britain: 'Hereupon, Aedan, king of the Scots that inhabit Britain'",
     "witness": "Bede HE I.34, GILES l.3189-3190 (OCR '^dan')",
     "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Brief P2 wording: 'the king appointed him his episcopal see in the isle of Lindisfarne, as he desired' (told as 'Oswald made Lindisfarne ... the seat of Aidan's bishopric'); Bede wrote in 731 (V.23), eighty years after the 651 death (V.24), 'as near as I could be informed by those that knew him'",
+    "witness": "GILES l.5763-5765, 15189-15191, 15317-15318, 7003-7004",
+    "formation_confidence": "Documented"
    }
   ],
   "contested_claims": [
@@ -830,6 +835,11 @@
    {
     "claim": "Caedmon compared with later poets: 'Others after him attempted, in the English nation, to compose religious poems, but none could ever compare with him'",
     "witness": "GILES l.11147-11150 [OCR form: 'In the English']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Name forms (card otherNames): nominative 'Hild, abbatissa monasterii' in Bede's Latin and 'Hilda, abbess' in Giles's English; AASS 'S. Hilda, Abbatissa'. 'Hilde' and 'Hylde' in Stephen's Latin ('matre piissima Hilde', 'Hylde religiose memorie abbatisse') and the rubric 'uita Sce. Hilde' are oblique cases, not separate names, and are not given as other names.",
+    "witness": "PLUMMER l.24823; GILES l.10891-10892; AASS JUN 5 l.95275; RAINE l.5083, 9425; PLUMMER l.33990",
     "formation_confidence": "Documented"
    }
   ],
@@ -1047,6 +1057,11 @@
    {
     "claim": "Lebar Brecc as late medieval: Huyshe 'the fifteenth-century manuscript, the Leabhar Breac'; F. E. Warren's Antiphonary volume: 'compiled from ancient sources about the end of the fourteenth century' (the brief says 'late medieval' to cover both; the card names Huyshe)",
     "witness": "HUY l.1684-1685; antiphonary-of-bangor-pt2 l.17717-17719",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Aedh of Sletty: 'his own intimate connexion with Aedh, bishop of Sleibte (Sletty)'; 'Both Aedh and Muirchu subscribed the Acts of the Synod held at Birr, by Adamnan, a.d. 695-697'",
+    "witness": "WHITE l.3763-3768 (OCR '^dh', '-^dh')",
     "formation_confidence": "Documented"
    }
   ],
