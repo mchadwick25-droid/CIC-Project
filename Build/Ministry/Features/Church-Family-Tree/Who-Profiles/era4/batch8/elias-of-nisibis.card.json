@@ -1,0 +1,104 @@
+{
+  "name": "Elias of Nisibis",
+  "otherNames": [
+    "Elias bar Shinaya",
+    "Elias Bar-Sinaeus (Joseph Assemani)",
+    "Elias Barsinaeus (J. Parisot)",
+    "Elias Bar Shinaji (George David Malech)"
+  ],
+  "knownFor": "The metropolitan of Nisibis in the Church of the East who wrote the Chronography, a year-by-year record finished in 1019. For almost every year it names its source, and most of those sources are lost.",
+  "dates": "Born 975, by a note later hands added to his Chronography. He finished the Chronography in 1019, by E. W. Brooks's reckoning. Joseph Assemani puts his death after 1049. These years are reckoned from the Greek and Arab years the sources give",
+  "place": "Nisibis; earlier Beth Nuhadra, and the monastery of Father Simeon in the region of Senn",
+  "tradition": "The Church of the East under the Abbasids",
+  "role": "Metropolitan of Nisibis; chronicler and writer",
+  "briefLength": "about 2 minutes 10 seconds",
+  "keyWorks": [
+    {
+      "title": "Chronography",
+      "about": "in two parts. The first holds lists of patriarchs and kings, a short history of the catholicoi, and year-by-year tables, each year naming its sources. The second sets out how peoples reckon their years and feasts"
+    },
+    {
+      "title": "Grammar",
+      "about": "a Syriac grammar in ten headings, on letters, points and sounds. Assemani adds a Syriac-Arabic word list"
+    },
+    {
+      "title": "Four books on judging church cases",
+      "about": "named in Ebedjesu's catalogue, as Assemani prints it"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "E. W. Brooks lists the works the Chronography cites, Greek, Syriac and Arabic, and says most of them are lost.",
+      "Passages of Jacob of Edessa's chronicle, which E. W. Brooks calls partly lost, survive in his quotations. The Chronica Minora prints them as Jacob's testimonies quoted by Elias.",
+      "J. Parisot notes that a British Museum manuscript gives the Chronography in Syriac and Arabic."
+    ],
+    "remembered": [
+      "Joseph Assemani writes that he died having won great fame for learning among his people.",
+      "George David Malech names him among the writers of the Syrian church, as Elias Bar Shinaji.",
+      "J. B. Abbeloos and T. J. Lamy, editing Bar Hebraeus's church history, often cite him on dates."
+    ]
+  },
+  "uncertain": [
+    "His life is told in a note that later hands added to his Chronography, and in Assemani. Neither is his own account.",
+    "When he died. Assemani reasons that he outlived the catholicos Elias I, who died in 1049. A preface of his prays for that patriarch's soul.",
+    "The Isho'yahb affair. Assemani says Elias opposed Isho'yahb son of Ezekiel and called him a simoniac. The letter is not among the sources used here.",
+    "Peace with Elias I. Mari ibn Sulayman says Elias I kept writing to the metropolitan of Nisibis until they met at Hazza and made peace. Mari does not name the metropolitan.",
+    "Why he wrote the second part. J.-B. Chabot thinks it not unlikely that al-Biruni's book on reckoning moved him to write. Chabot adds that Elias seems to have taken nothing from it.",
+    "His own monastery. The note says he was ordained priest at the monastery of Father Simeon. Assemani says he was a monk at Saint Michael's near Mosul."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Opus chronologicum (Latin tr. E. W. Brooks and J.-B. Chabot)",
+        "author": "Elias of Nisibis",
+        "date": "1910",
+        "language": "Latin translation",
+        "file": "cic/texts/elias-of-nisibis_opus-chronologicum-lat_brooks-chabot-csco1910.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Opus chronologicum, prefaces and notes",
+        "author": "E. W. Brooks and J.-B. Chabot",
+        "date": "1910",
+        "language": "Latin",
+        "file": "cic/texts/elias-of-nisibis_opus-chronologicum-lat_brooks-chabot-csco1910.txt"
+      },
+      {
+        "title": "Bibliotheca Orientalis, volume 3, part 1: Ebedjesu's catalogue, chapter 183, with notes",
+        "author": "Joseph Assemani",
+        "date": "1725",
+        "language": "Latin",
+        "file": "cic/texts/assemani_bibliotheca-orientalis-tomus3-pars1-de-scriptoribus-syris-nestorianis-lat_1725.txt"
+      },
+      {
+        "title": "Chronicon ecclesiasticum, volume 3 (Latin tr. J. B. Abbeloos and T. J. Lamy)",
+        "author": "Bar Hebraeus",
+        "date": "1877",
+        "language": "Latin",
+        "file": "cic/texts/barhebraeus_chronicon-ecclesiasticum-vol3-lat_abbeloos-lamy1877.txt"
+      },
+      {
+        "title": "De patriarchis Nestorianorum commentaria (Latin tr. H. Gismondi)",
+        "author": "Mari ibn Sulayman",
+        "date": "1899",
+        "language": "Latin",
+        "file": "cic/texts/mari-ibn-sulayman_de-patriarchis-nestorianorum-commentaria-pars-prior-ara-lat_gismondi1899.txt"
+      },
+      {
+        "title": "Aphraatis Demonstrationes, preface",
+        "author": "J. Parisot",
+        "date": "1894",
+        "language": "Latin",
+        "file": "cic/texts/aphrahat_demonstrationes-1-22-syr-lat_parisot1894.txt"
+      },
+      {
+        "title": "History of the Syrian Nation and the Old Evangelical-Apostolic Church of the East",
+        "author": "George David Malech",
+        "date": "1910",
+        "language": "English",
+        "file": "cic/texts/malech_history-of-the-syrian-nation-and-old-evangelical-apostolic-church-of-the-east_1910.txt"
+      }
+    ]
+  }
+}

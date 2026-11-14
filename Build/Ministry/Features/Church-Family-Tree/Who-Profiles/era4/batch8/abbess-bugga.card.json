@@ -1,0 +1,87 @@
+{
+  "name": "Abbess Bugga",
+  "otherNames": [
+    "Heaburg, called Bugga (her mother's letter)",
+    "Bugga"
+  ],
+  "knownFor": "An English abbess and friend of Boniface of Mainz. Her own letter of thanks to him survives. She governed a house of women, went to Rome to pray, and met Boniface there.",
+  "dates": "Eighth century. Edward Kylie dates her letter to between 720 and 722, and the last letters about her to between 748 and 754. Bregwin of Canterbury gives her burial day as 27 December, with no year",
+  "place": "England. King Ethelbert of Kent calls her his kinswoman. No source used here names her monastery",
+  "tradition": "Anglo-Saxon Christianity",
+  "role": "Abbess; letter-writer to Boniface",
+  "briefLength": "about 2 minutes 20 seconds",
+  "keyWorks": [
+    {
+      "title": "Letter to Boniface",
+      "about": "she gives thanks for his safe journey and his success, asks his prayers, and promises The Sufferings of the Martyrs. Kylie dates it to between 720 and 722 and gives it in English only"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "With her mother, the abbess Eangyth, she wrote to Boniface of the souls in their care, their poverty and the hostility of the king.",
+      "King Ethelbert of Kent writes that she governed a monastery of consecrated women \"well under the law of the Church\".",
+      "She sent Boniface fifty shillings, an altar pall, gifts and garments, and asked him for passages of Scripture."
+    ],
+    "remembered": [
+      "Boniface wrote to her as \"dearest friend and sister\" and called her \"mother and sweet lady\".",
+      "Kylie writes that of Boniface's older friends, Bugga alone outlived the rest.",
+      "Bregwin, archbishop of Canterbury, wrote to Lul at Mainz that they kept the burial day of an abbess Bugga, whose father in Christ was Boniface."
+    ]
+  },
+  "uncertain": [
+    "Her life is known from a few letters, her own and others', in Kylie's English. No source used here names her monastery or gives her years.",
+    "Whether she was also Eadburga. The Bollandists, editors of the Acta Sanctorum, report a belief that Eadburga of Thanet was surnamed Bugga. Kylie keeps the two women apart.",
+    "Whether Bregwin's Bugga is she. Bregwin names an abbess Bugga whose father in Christ was Boniface. He gives no other mark.",
+    "A Bugga who built a church. The index to Migne's Alcuin asks whether a Bugga who built a church, a West Saxon king's daughter, is the Bugga who wrote to Boniface. The same volume calls the poem about her spurious.",
+    "Kylie's dates. He dates Boniface's letter of advice to her to \"About 725 (?)\", with a question mark.",
+    "Her journey. Ethelbert says she met Boniface in Rome. No source used here gives the year."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Letter IV, Bugga to Boniface, and letter VII, Eangyth and Heaburg to Wynfrith, in The English Correspondence of Saint Boniface",
+        "author": "Bugga; Eangyth; Edward Kylie (tr.)",
+        "date": "1911",
+        "language": "English translation",
+        "file": "cic/texts/boniface_english-correspondence_kylie1911.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "The English Correspondence of Saint Boniface: letters IX, XXIX and XXXVIII, and the introduction",
+        "author": "Boniface; Ethelbert of Kent; Edward Kylie (tr. and ed.)",
+        "date": "1911",
+        "language": "English translation",
+        "file": "cic/texts/boniface_english-correspondence_kylie1911.txt"
+      },
+      {
+        "title": "Letter of Bregwin to Lul, in Patrologia Latina 96",
+        "author": "Bregwin of Canterbury",
+        "date": "1862",
+        "language": "Latin",
+        "file": "cic/texts/ildefonsus-julian-toledo-pl96-lat_migne1862.txt"
+      },
+      {
+        "title": "Life of Bregwin, archbishop of Canterbury, in Patrologia Latina 159",
+        "author": "Eadmer",
+        "date": "1903",
+        "language": "Latin",
+        "file": "cic/texts/anselm-canterbury_opera-with-eadmer-historia-novorum-pl159-lat_migne1903.txt"
+      },
+      {
+        "title": "Acta Sanctorum, March, volume 3: commentary on Saint Hildelitha",
+        "author": "The Bollandists",
+        "date": "1865",
+        "language": "Latin",
+        "file": "cic/texts/acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt"
+      },
+      {
+        "title": "Alcuini opera omnia, index and editors' list of spurious poems",
+        "author": "J.-P. Migne (compiler)",
+        "date": "1863",
+        "language": "Latin",
+        "file": "cic/texts/alcuin_opera-omnia-letters_migne-pl100-101_1863.txt"
+      }
+    ]
+  }
+}

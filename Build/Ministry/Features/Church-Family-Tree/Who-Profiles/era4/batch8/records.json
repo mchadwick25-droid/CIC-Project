@@ -1,0 +1,434 @@
+{
+  "eadburga-of-thanet": {
+    "claims": [
+      {
+        "claim": "Letter XIV, heading and date: \"Boniface asks Eadburga, Abbess of Thanet, to copy for him the Epistles of Saint Peter in letters of gold. 735.\"; salutation \"To his revered and beloved sister, Abbess Eadburga\"; \"by helpful and consoling gifts of books and vestments, thou hast of thy goodness often relieved my distress\"; \"to copy in gold the Epistles of my lord, Saint Peter, that the Holy Scriptures my be honoured and reverenced when the preacher holds them before the eyes of the heathen\" (OCR \"my be\")",
+        "witness": "BONI (boniface_english-correspondence_kylie1911.txt) l.3908-3926",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Letter XIII, heading \"Wynfrith describes to Eadburge, Abbess of Thanet, a vision seen in the monastery at Wenlock. —About 717.\"; \"Thou didst ask me, dear sister, to send you an account ... of the wonderful vision seen by the man who recently, in the convent of Abbess Milburga, died and came back to life\"; \"he set forth to me in his own words the marvellous spectacle\"",
+        "witness": "BONI l.3441-3462",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Letter XV, heading \"Boniface thanks Eadburga, Abbess of Thanet, for books she has sent him. Alout 735.\" (OCR); \"To the Abbess Eadburga, beloved sister, now long bound to him in the kinship of spiritual love\"; \"by sending a gift of scriptural books she has consoled with spiritual light an exile in Germany\"",
+        "witness": "BONI l.3951-3963",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Letter XXVIII, heading dated \"742-740-\" (OCR, read 742-746); \"To his sister, Abbess Eadburga\"; \"the snares of false brethren surpass the malice of the heathen\"",
+        "witness": "BONI l.5166-5182",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Letter XXII, Lul to Eadburga, 745-746: \"To the Abbess Eadburga, revered and beloved in Christ, Lul, an unworthy and lowly deacon\"; \"a silver style and some pieces of storax and cinnamon\"; \"I ask that thou mayst not refuse to send me a letter\"",
+        "witness": "BONI l.4464-4495",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Leoba's letter XXIII, after 732: \"These little verses below I tried to compose according to the rules of poetic art\"; \"The art I have learned from the teaching of Eadburga, who continues without ceasing to search into the divine law\"",
+        "witness": "BONI l.4509, 4545-4550",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Kylie's introduction: \"At Thanet, whither she had been sent, an only child of noble Wessex parents, Abbess Eadburga taught her the art of verses and the love of Boniface\"; \"he trusted to the skilled hands of Abbess Eadbur[ga] (XIV, XV). From the English convents there we[re] constantly conveyed to him presents of books, vestmen[ts] and clothing\" (right margin cut in the scan)",
+        "witness": "BONI l.1188-1190, 1104-1110",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Kylie's index lists Bugga and Eadburga as separate entries; letter VII names \"her only daughter Heaburg, called Bugga\"",
+        "witness": "BONI l.8029, 8056, 2876",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Bollandists, on Hildelitha: \"Creditur Eadburga, cognomento Buggan, Abbatissa fuisse in Cantio\" (it is believed that Eadburga, surnamed Bugga, was an abbess in Kent), with a death day in December whose figures the OCR garbles (\"γι Kalendas Januarii anno. Dccurx\")",
+        "witness": "AASS3 (acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt) l.126352, 126368-126371",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Plummer: \"Nuns as well as monks acted as copyists ... St. Boniface writes to Eadburg, abbess of Thanet: 'deprecor ut ... mihi cum auro conscribas epistolas domini mei Sancti Petri.'\"; \"Lullus, afterwards Archbishop of Mainz, ... to Eadburg, Abbess of Thanet, sending: 'storacis et cinnamomi partem aliquam'\" (two-column OCR)",
+        "witness": "PLUM (bede_opera-historica-v1-historia-abbatum-lat_plummer1896.txt) l.1188-1193, 5862-5868",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Note on the poem \"Hanc Petrus absidam\": \"Forte ecclesiam Tanetensem in Anglia, quam Eadburga abbatissa eodem pene tempore aedificavit in honorem principis apostolorum\" (perhaps the church of Thanet, which the abbess Eadburga built at about the same time in honor of the prince of the apostles)",
+        "witness": "ALC (alcuin_opera-omnia-letters_migne-pl100-101_1863.txt) l.60661-60662, 60695-60697",
+        "formation_confidence": "Inferential-Thin"
+      },
+      {
+        "claim": "Duchesne: \"Eadburge, abbesse du monastère de Thanet, recevait du diacre Lullus, le futur évêque de Mayence, un cadeau de storax et de cannelle\"",
+        "witness": "LP1 (liber-pontificalis_texte-introduction-commentaire-t1-lat-fra_duchesne1886.txt) l.38292-38295",
+        "formation_confidence": "Documented"
+      }
+    ],
+    "contested_claims": [
+      {
+        "claim": "Whether Eadburga and Bugga are one woman",
+        "sides": [
+          "One woman: the Bollandists report the belief that Eadburga was surnamed Bugga, an abbess in Kent (AASS3 l.126368-126370)",
+          "Two women: Kylie heads and indexes them separately (BONI l.8029, 8056), and letter VII gives Bugga's own name as Heaburg, daughter of the abbess Eangyth (BONI l.2874-2876)"
+        ]
+      }
+    ],
+    "absent_details": [
+      {
+        "detail": "Any letter of her own",
+        "note": "Every Eadburga line in Kylie's book was read; all are letters to her, Leoba's line and Kylie's own account. No other held file gives a letter of hers."
+      },
+      {
+        "detail": "Her birth, death, family and the founding of her house",
+        "note": "Not in the held lines. The Bollandists' death day belongs to their merged Eadburga-Bugga, and the OCR garbles it."
+      },
+      {
+        "detail": "The place of her house in the letters themselves",
+        "note": "Thanet is in Kylie's headings, his introduction, Plummer's note and Duchesne; no letter text names it."
+      }
+    ]
+  },
+  "abbess-bugga": {
+    "claims": [
+      {
+        "claim": "Letter IV, heading \"Bugga congratulates Boniface on the successful issue of his affairs. She promises that she will send later 'The Sufferings of the Martyrs' for which he has asked, and sends other gifts. 720-722\"; \"Bugga, a lowly handmaiden, sends her undying love\"; \"jealously guarded thee on thy way through unknown countries\"; \"he inclined the pontiff ... to smile on thy heart's wish\"; \"Rathbod, that enemy of the Catholic Church\"; \"I send thee now fifty shillings and an altar pall\"",
+        "witness": "BONI (boniface_english-correspondence_kylie1911.txt) l.2432-2481",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Closing quote: \"I acknowledge the more freely that no temporal vicissitudes can move my mind from its steady guardianship of thy love\" (a page break and running head fall between \"my\" and \"mind\")",
+        "witness": "BONI l.2451-2459",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Letter VII, 719-722: \"Eangyth, unworthy handmaid among the Lord's handmaidens, who, though undeserving, holds the place of abbess, and her only daughter Heaburg, called Bugga\"; \"thought on the souls of all those of different sex and age committed to us\"; \"poverty and the scarcity of temporal things\"; \"the hostility of the king\"; \"my only daughter was still in the years of her youth, and could not feel the same longing\"",
+        "witness": "BONI l.2865-2876, 2921-2923, 2947-2950, 3029-3038",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Letter IX, \"About 725 (?)\": \"To the lady Bugga, abbess, dearest friend and sister\"; \"I cannot presume either to forbid or to urge strongly upon thee a journey abroad\"; \"our sister Wiethburga ... has found by the shrine of Saint Peter such quiet of life\"; \"she bade me have thee wai[t] until the wars and dangers threatening from the Saracens, which have lately manifested themselves in Italy, shall have ceased\"; \"I thank thee for the gitts and garments\"; \"nay, mother and sweet lady\" (OCR)",
+        "witness": "BONI l.3118-3176",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Letter XXXVIII, Ethelbert II of Kent, 748-754: \"the venerable Abbess Bugga, after she had visited the sacred places in the city of Rome for the purpose of prayer, and returning thither had reached her fatherland and the monastery of consecrated women, which formerly she governed well under the law of the Church\"; \"while you were both in Rome\"; \"by the ties of our blood relationship\"",
+        "witness": "BONI l.6030-6066",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Letter XXIX, 723-745: \"the storms of tribulation, which by God's will have come upon thee in thine old age\"; \"when thou hadst put aside the greater anxiety of caring for the monasteries and sought the quiet of the contemplative life, more numerous and pressing sorrows visited thee\"",
+        "witness": "BONI l.5275-5290",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Kylie: \"Of his older correspondents only Bugga survived (XXIX)\"; \"Abbess Eangyth and her daughter, Bugga, confided to him without restraint their griefs and perplexities\"; \"Lul was to follow him in Mainz\"",
+        "witness": "BONI l.1563-1564, 1074-1076, 1753-1754",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Bregwin to Lul: \"Diem vero depositionis religiosae Christi famulae Buggan celebramus, quae fuit honorabilis abbatissa, cujus etiam dies depositionis fuit vi Kal. Jan. Rogavit me obnixe, dum adhuc viveret, ut hoc vestrae beatitudini transmitterem ... quoniam illius pater atque patronus fuit in Christo Bonifacius episcopus\" (OCR cleaned; vi Kal. Jan. is 27 December); heading \"Bregwinus Lullo\", \"Lullo episcopo Bregwinus\"",
+        "witness": "PL96 (ildefonsus-julian-toledo-pl96-lat_migne1862.txt) l.69758-69763, 69812-69818, 130232",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Bregwin archbishop of Canterbury: \"VITA B. BREGWINI ARCHIEPISCOPI CANTUARIENSIS AUCTORE EADMERO MONACHO\" (OCR \"ARCIIIEPISCOPI\")",
+        "witness": "PL159 (anselm-canterbury_opera-with-eadmer-historia-novorum-pl159-lat_migne1903.txt) l.58224-58230",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Bollandists: \"Creditur Eadburga, cognomento Buggan, Abbatissa fuisse in Cantio\"",
+        "witness": "AASS3 (acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt) l.126368-126370",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Alcuin index: \"Bugga filia regis [OCR res] Eutwini ... Pulchro molimine templum struxit ... An eadem, cujus exstat epistola ad S. Bonifacium\"; list of spurious poems: \"carmen seu epigramma 3 de Bugga, quod scriptum est regnante Ina Westsaxonum rege\" (two-column OCR)",
+        "witness": "ALC (alcuin_opera-omnia-letters_migne-pl100-101_1863.txt) l.116659-116661, 115017-115023, 118132",
+        "formation_confidence": "Inferential-Thin"
+      }
+    ],
+    "contested_claims": [
+      {
+        "claim": "Whether Bugga and Eadburga of Thanet are one woman",
+        "sides": [
+          "One woman: the Bollandists report the belief (AASS3 l.126368-126370)",
+          "Two women: Kylie gives Bugga as Heaburg, daughter of Eangyth, and indexes the two apart (BONI l.2876, 8029, 8056)"
+        ]
+      }
+    ],
+    "absent_details": [
+      {
+        "detail": "Her monastery's name and place",
+        "note": "No held line names it. The Bollandists' \"in Kent\" is said of their merged Eadburga-Bugga; Ethelbert of Kent calls her kin but does not name her house."
+      },
+      {
+        "detail": "Her birth and the year of her death",
+        "note": "Bregwin gives a burial day, 27 December, with no year. No held line gives her birth."
+      },
+      {
+        "detail": "Her letters in Latin",
+        "note": "Kylie gives English only. Searched all held files for Bugga, Heaburg and Eangyth."
+      }
+    ]
+  },
+  "yahya-ibn-said-of-antioch": {
+    "claims": [
+      {
+        "claim": "Editors: \"Yahya d'Antioche (al-Antaki), historien arabe chrétien du XIe siècle, continuateur de l'histoire d'Eutychius (Said ibn al-Bithriq)\" (OCR \"x1°\", \"d'Kutychius\")",
+        "witness": "PO18 (po18_patrologia-orientalis-t18-yahya-ibn-said-histoire-ara-fra_kratchkovsky-vasiliev1924.txt) l.44372-44374",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Title: \"Livre que composa Yahya, fils de Sa'id, d'Antioche, comme suite de l'histoire de Sa'id, fils de Bithriq\"",
+        "witness": "PO18 l.44595-44596",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Aim: \"donner tous les récits des temps passés, venus à ma connaissance et, à mon avis, authentiques, et aussi les événements qui ont eu lieu depuis l'époque à laquelle s'arrête l'histoire de Sa'id, fils de Bithriq, patriarche d'Alexandrie, jusqu'à notre temps\"; written for \"celui qui m'a prié de faire (ce livre)\" (OCR \"4\", \"|'\")",
+        "witness": "PO18 l.44598-44604",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Sa'id stops \"à la cinquième année du califat d'ar-Radhi, c'est-à-dire à l'année 326 de l'hégire\"; editors' note \"L'année 326 de l'hégire = 8 nov. 937-28 oct. 938\"",
+        "witness": "PO18 l.44606-44608, 44614",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Plan: \"j'éviterai la longueur dans l'exposition (des détails) et la concision (excessive) dans le récit abrégé, et je suivrai un juste milieu entre les deux. Car les esprits recherchent plus souvent et aspirent davantage à la connaissance des événements proches de l'actualité\"; \"les noms des patriarches d'Alexandrie, de Jérusalem, d'Antioche et de Constantinople\"",
+        "witness": "PO18 l.44666-44673",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Revisions: \"J'ai écrit ce livre pour celui qui m'avait chargé de le composer; mais plus tard il m'est venu entre les mains des chroniques que je n'avais pas connues ... Je l'ai donc refait tout entier\"; \"après m'être transporté dans la ville d'Antioche, en l'an 405 de l'hégire\"; \"afin que, s'il se trouvait d'autres manuscrits de ce livre, contenant des différences, la cause de ceci fût connue\"; editors' note AH 405 = \"2 juillet 1014-20 juin 1015\" (OCR)",
+        "witness": "PO18 l.44779-44793, 44802-44803",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Jerusalem, 966: a governor \"réclamant plus de cadeaux que cela n'était reçu par l'usage\"; at Pentecost the patriarch refused; \"Le patriarche ordonna de fermer les portes de l'église de la Résurrection et s'y retrancha\"; the doors burned; \"La coupole (de l'église) de la Résurrection s'écroula\"; \"le lundi qui précède la fête de la Pentecôte\"; \"ils eurent trouvé le patriarche caché dans une citerne à huile dans l'église de la Résurrection, ils le tuèrent ... et le brûlèrent, après l'avoir attaché à un pilier\"; editors' note \"28-29 mai 966\" (OCR)",
+        "witness": "PO18 l.50319-50325, 50388-50410, 50451-50504, 50528",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Manuscripts: P (long version), B (short), S (mixed)",
+        "witness": "PO18 l.44431-44462",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Schlumberger, as Macler quotes him: \"les historiens orientaux Yahia, Elmacin, Ibn el-Athir, presque toujours très exactement informés pour ce qui concerne l'Asie, le sont ... beaucoup moins\" for the distant European war; \"nous le savons depuis peu, grâce à la Chronique de Yahia, quatre années entières\"; \"les affirmations si nettes de Yahia\" (OCR)",
+        "witness": "MAC (stepanos-taron_histoire-universelle-deuxieme-partie-fra_macler1917.txt) l.13264-13275, 13290-13293, 13312",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Vasiliev: Krumbacher's history of Byzantine literature, \"où d'autres chroniqueurs arabes chrétiens, comme Yahya d'Antioche et al-Makin, ont trouvé leur place\"",
+        "witness": "PO5A (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt) l.29408-29412",
+        "formation_confidence": "Documented"
+      }
+    ],
+    "contested_claims": [],
+    "absent_details": [
+      {
+        "detail": "His birth, death, family, and where he lived before Antioch",
+        "note": "Searched all held files for Yahya, Yahia, Iahia, Jahia and Antioche. Only his preface tells of his life. His editors' fuller study, promised at the end of the work, is not in the held fascicle."
+      },
+      {
+        "detail": "The rest of his history after about 970",
+        "note": "Not held; the PO 18 fascicle ends there (Library header)."
+      },
+      {
+        "detail": "A held line calling him a Melkite",
+        "note": "None found; he writes of \"chrétiens melkites\" (PO18 l.45071-45072) and continues a patriarch of the Melkite flock. The card tradition is the scan's placing."
+      }
+    ]
+  },
+  "elias-of-nisibis": {
+    "claims": [
+      {
+        "claim": "AH 397: \"Et eo fuit schisma inter Christianos Occidentis et Christianos Orientis propter calculum ieiunii ac festorum: et Occidentales initium ieiunii die 17° sebat statuerunt, et Orientales die 24° eius\"; the year began \"die 27° ilul anni 1317 Graecorum\" (27 September 1006, worker's reckoning)",
+        "witness": "ELI (elias-of-nisibis_opus-chronologicum-lat_brooks-chabot-csco1910.txt) l.8465-8473",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Brooks: \"Chronographia Eliae, metropolitae Nisibis (de cuius vita vide p. 228, 229), A. S. 1330, i. e. A. C. 1019, conscripta\"; \"Ad unumquemque annum fontes paene ubique citantur, opera graeca, syriaca et arabica, quorum maior pars periit\"; \"In ea parte quae ultimam lacunam sequitur nullos fontes citat auctor, sed quae ipse meminerat vel audierat narrat\" (the last gap falls between AH 360 and 385, l.119-120)",
+        "witness": "ELI l.90-92, 119-122, 213-214",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Life note: \"[[Fuit nativitas Mar Eliae metropolitae Nisibis auctoris huius libri. Natus est nocte feriae 5ae diei 11 mensis sebat anni 1286 Graecorum, et erat dies 26us gumada i anni 364 Saracenorum. Et institutus est etiam presbyter a Ioanne episcopo Sennae urbis qui fuit postea catholicus ... in coenobio patris Simeonis e regione Sennae ... 15° mensis ilul anni 1305 Graecorum ... et ab eodem Ioanne catholico institutus est episcopus ... gregi Beth Nuhadran ... 15° sebat anni 1313 Graecorum ... Et ipse etiam Ioannes metropolitam eum Nisibi instituit die dominica 26° kanun i anni 1320 Graecorum\" (OCR cleaned). Worker's reckoning: February 975, September 994, February 1002, December 1008",
+        "witness": "ELI l.8568-8583",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Brooks's note at the end of the canon: \"Hic canon Eliae finitus est. Seqq. serius ab aliis addita sunt\" (OCR \"linitus\"); the AH 392 and AH 399 entries on Elias are marked \"Seriore manu addita\" and \"Haec notitia manu seriore scr. est\"",
+        "witness": "ELI l.8566, 8601, 8409-8410, 8447, 8481-8482, 8505",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Second part, opening: \"scribimus partem posteriorem chronographiae compositae a peccatore Elia, metropolita Nisibis. In parte priore huius descriptionis, o frater noster dilecte, — dirigat te Dominus noster ut ei placeas in cogitationibus, verbis et operibus tuis, — exposui omnia quae existimo sufficientia tibi\"; \"Hac autem parte posteriore dispono computationem annorum et festorum\" (OCR cleaned)",
+        "witness": "ELI l.8846-8858",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Bar Hebraeus: in AH 411 (begun 27 April 1020) \"Successit illi Jesujab, Ezechielis filius, episcopus Kosrae ... postquam praefecto pretium quinque mille denariorum solvisset, illeque jussisset ut omnes qui consensum detrectarent aquis mergerentur\"; \"multi episcopi eum in dyptichis proclamare noluerunt\"; died AH 416 (OCR cleaned)",
+        "witness": "BH3 (barhebraeus_chronicon-ecclesiasticum-vol3-lat_abbeloos-lamy1877.txt) l.15968-15994",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Assemani: Elias Bar-Sinaeus was a monk at the monastery of Saint Michael near Mosul, ordained bishop of Soba, that is Nisibis; Isho'yahb son of Ezekiel \"Sedem illegitime occupaverat\"; Elias \"fortiter restitit, data etiam ad Bagdadenses epistola, in qua illum velut simoniacum traducit, irritamque ac nullam fuisse ipsius ordinationem, prolatis Synodorum ac Patrum testimoniis demonstrat\"; a disputation with \"Hosaino Abulcasemo mahometano\" in seven sessions; \"Obiit magnam apud suos doctrinae famam adeptus, post eiusdem Eliae primi obitum\"; Elias I died \"7. Maii anno Graecorum 1360. Christi 1049\"; \"Elias de Elia primo Patriarcha tamquam de pridem defuncto loquitur, dum requiem animae ipsius apprecatur\" (OCR cleaned)",
+        "witness": "ASS1 (assemani_bibliotheca-orientalis-tomus3-pars1-de-scriptoribus-syris-nestorianis-lat_1725.txt) l.46183-46216",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Ebedjesu's catalogue, chapter 183: Elias Bar-Sinaeus, metropolitan of Soba: \"Composuit Annales: Et Orationes: & Grammaticam\"; \"Item quatuor libros continentes Decisionem judiciorum ecclesiasticorum\"; Assemani on the grammar's ten headings and a \"Nomenclator Syro-Arabicus\" (OCR cleaned)",
+        "witness": "ASS1 l.46113-46126, 46235-46240, 46245-46293",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Mari: of Isho'yahb, the metropolitan of Mosul \"de his omnibus scripsit ad metropolitam nisibenum atque ad alios\"; of Elias I, \"Non destitit autem ad metropolitam Nisibis epistolas scribere donec Hazzam ad ipsum profectus, ibidem in coenobio congressi, omnem animi simultatem deposuit\"; Elias I died \"die sexta maii anni ab Alexandro 1360\" (OCR cleaned)",
+        "witness": "MARI (mari-ibn-sulayman_de-patriarchis-nestorianorum-commentaria-pars-prior-ara-lat_gismondi1899.txt) l.10989-10999, 10936-10941",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Chabot, addenda: \"haud improbabile est evulgationem libri ab Albiruni editi ... causam fuisse cur Elias ... consilium inierit operis scribendi, sed metropolita, si arabicum librum prae oculis habuit, nihil ab eo deprompsisse videtur\"",
+        "witness": "ELI l.60320-60342",
+        "formation_confidence": "Inferential-Thin"
+      },
+      {
+        "claim": "Parisot: \"Cod. Musaei britannici Rich. 7,197 ... exhibet syriace et arabice Chronicon Eliae Barsinaei, metropolitae Nisibis\"; \"saeculo undecimo perscripsit vel breviavit Elias Barsinaeus\"",
+        "witness": "PAR (aphrahat_demonstrationes-1-22-syr-lat_parisot1894.txt) l.3104-3105, 3125-3126",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Chronica Minora: \"TESTIMONIA IACOBI EDESSENI APUD ELIAM NISIBENUM RECITATA\" (OCR \"RECITA TA\")",
+        "witness": "chronica-minora-pars-prior-versio-lat_guidi1903.txt l.19369-19372, 25278-25281",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Abbeloos and Lamy cite Elias in their notes, e.g. \"Juxta Eliam Nisibenum\", \"consentit Elias Nisibenus\", \"Concinit Elias Nisibenus\"",
+        "witness": "BH3 l.2729, 4662, 5537, 12116",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Malech: \"Elias Bar Shinaji\" among the Syrian writers; \"Elias of Nisibis wrote a book about Jews and Jacobites, but he did not affix his name to the book\"",
+        "witness": "MAL (malech_history-of-the-syrian-nation-and-old-evangelical-apostolic-church-of-the-east_1910.txt) l.1136, 15604-15605",
+        "formation_confidence": "Documented"
+      }
+    ],
+    "contested_claims": [
+      {
+        "claim": "When he died",
+        "sides": [
+          "After 1049: Assemani, from a preface that prays for the dead catholicos Elias I (ASS1 l.46204-46216)",
+          "The Library header of the Chronography file gives 1046 (ELI header l.2); it cites no source, and no held line was found for it"
+        ]
+      },
+      {
+        "claim": "Where he was a monk",
+        "sides": [
+          "Ordained priest at the monastery of Father Simeon in the region of Senn: the later-hand note (ELI l.8573-8574)",
+          "A monk at Saint Michael's near Mosul: Assemani, from Elias's own words (ASS1 l.46184-46186)"
+        ]
+      }
+    ],
+    "absent_details": [
+      {
+        "detail": "A held source for the death year 1046",
+        "note": "The file header gives 975-1046. Searched ELI, ASS1, BH3, MARI and Malech; none gives 1046. Assemani puts the death after 1049."
+      },
+      {
+        "detail": "His letter against Isho'yahb, his Sessions and his other works",
+        "note": "Not held; Assemani names them."
+      },
+      {
+        "detail": "The Syriac and Arabic text of the Chronography",
+        "note": "Not in the held file, which is the Latin translation."
+      }
+    ]
+  },
+  "adam-jingjing": {
+    "claims": [
+      {
+        "claim": "Heading: \"Tablet Eulogizing the Propagation of the Illustrious Religion in China, With a Preface; Composed by King-Tsing, A Priest of the Syrian Church\"",
+        "witness": "MAL (malech_history-of-the-syrian-nation-and-old-evangelical-apostolic-church-of-the-east_1910.txt) l.13565-13567",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Opening: \"Behold the unchangeably true and invisible, who existed through all eternity without origin\"; \"This is our eternal true lord God, triune and mysterious in substance. He appointed the cross as the means for determining the four cardinal points\"",
+        "witness": "MAL l.13570-13576",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "\"a virgin gave birth to the Holy One in Syria\"; \"Twenty-seven sacred books' have been left\" (OCR footnote mark); baptism and the cross; \"they do not keep slaves, but put noble and mean all on an equality\"; \"It is difficult to find a name to express the excellence of the true and unchangeable doctrine; but as its meritorious operations are manifestly displayed, by accommodation it is named the Illustrious Religion\"",
+        "witness": "MAL l.13609, 13623-13627, 13632-13633, 13641-13643",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Alopen in 635, and Kautsung's honor and churches (as in the Alopen profile, era 4 batch 5)",
+        "witness": "MAL l.13681-13693, 13738-13743",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "I-sz': \"now he repaired the old churches\"; \"the naked came and were clothed; the sick were attended to and restored; the dead were buried in repose\"; the congregation \"have desired to engrave a broad tablet, in order to set forth a eulogy of their magnanimous deeds\"",
+        "witness": "MAL l.13959, 13980, 13998-14003",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "\"This was erected in the 2d year of Kienchung, of the Tang dynasty (A. D. 781)\"; \"Written by Lu Siu-yen, Secretary to Council\"",
+        "witness": "MAL l.14141-14145",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Kircher's English of the Syriac, in Malech: \"Adam, Deacon, Vicar-episcopal and Pope of China\"; \"the Lord Jazedbuzid, Priest and Vicar-episcopal of Cumdan ... set up this tablet\"; \"Adam the Deacon, son of Jazedbuzid, Vicar-episcopal\"",
+        "witness": "MAL l.14150-14172",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Yule: the Syriac gives \"that of Adam, Bishop and Pope of Tzinisthan (i.e. China)\"; Cordier's bracket: \"It appears that Adam (King-tsing), who erected the monument under Te-Tsung was, under the same Emperor, with a Buddhist the translator of a Buddhist sutra, the Satparamita, from a Hu text. (See a curious paper by Mr. J. Takakusu, in the T'oung Pao, VII. pp. 589-591.)\" (OCR braces)",
+        "witness": "YULE (marco-polo_book-of-ser-marco-polo-v2_yule-cordier1903.txt) l.2991-2995, 3000-3002",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Assemani: \"Adam Presbyter, & Chorepiscopus, & Papas Sinestani, hoc est, Sinensis regionis\"; Kircher \"vocem Chorepiscopus, nunc Archiepiscopum, nunc Vicarium Episcopi interpretatur; & vocem, quae Presbyterum sonat, in altera versione perperam legit Diaconus\"; \"Mar Jazedbuzid Presbyter & Chorepiscopus Chumdan urbis regiae ... erexit hanc tabulam lapideam\"; \"Adam Diaconus filius Jazedbuzid Chorepiscopi: nimirum ejus, cujus modo facta est mentio\" (OCR cleaned)",
+        "witness": "ASS2 (assemani_bibliotheca-orientalis-tomus3-pars2-de-syris-nestorianis-lat_1728.txt) l.33003, 36635-36649, 36709-36716, 36791-36792",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Lamy, as Chabot quotes him: the inscription was engraved in 781, \"Hanan Jésus étant catholique ou patriarche, et Adam étant évêque de la Chine. La pierre a été érigée par les soins de Mar Jadbouzid, chorévêque de Koumdan\"",
+        "witness": "CHAB (yahballaha-sauma_histoire-de-mar-jabalaha-iii-et-rabban-cauma-fra_chabot1895.txt) l.1347-1370",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Budge: \"A paragraph in Syriac says that it was set up by Yazdbizid, a priest of Kimdan, son of Milio\"",
+        "witness": "BUDGE (yahballaha-sauma_monks-of-kublai-khan_budge1928.txt) l.5224-5236",
+        "formation_confidence": "Documented"
+      }
+    ],
+    "contested_claims": [
+      {
+        "claim": "Adam's rank on the stone",
+        "sides": [
+          "Priest, chorepiscopus and papas of China: Assemani (ASS2 l.36635-36636)",
+          "Deacon, vicar-episcopal and pope: Kircher, in Malech (MAL l.14153), which Assemani calls a misreading (ASS2 l.36647-36648)",
+          "Bishop and pope: Yule (YULE l.2994); bishop of China: Lamy via Chabot (CHAB l.1369)"
+        ]
+      },
+      {
+        "claim": "Who set up the stone",
+        "sides": [
+          "Jazedbuzid, by the Syriac: Kircher in Malech (MAL l.14162-14165), Assemani (ASS2 l.36709-36711), Lamy via Chabot (CHAB l.1369-1370), Budge (BUDGE l.5232-5234)",
+          "Adam: Cordier, \"who erected the monument\" (YULE l.3000)"
+        ]
+      }
+    ],
+    "absent_details": [
+      {
+        "detail": "His birth, death, homeland and any other work",
+        "note": "Searched all held files for King-Tsing, King-tsing, Jingjing, Ching-ching and Adam with the stele. Cordier's sutra note is the only line beyond the stone; Takakusu's paper is not held."
+      },
+      {
+        "detail": "The Chinese text",
+        "note": "Not legible in any held file."
+      },
+      {
+        "detail": "A held line joining the Chinese name King-Tsing to the Syriac Adam, other than Cordier",
+        "note": "None found. The census also joins them."
+      }
+    ]
+  }
+}
