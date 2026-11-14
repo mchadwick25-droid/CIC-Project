@@ -1,0 +1,89 @@
+{
+  "name": "Procopius of Caesarea",
+  "label": "Outside witness",
+  "knownFor": "The historian of Justinian's reign, whose Wars, Buildings and Secret History report the church of his day from a layman's distance, and who refused to set down the points Christians argued over.",
+  "dates": "Born late in the fifth century, by H. B. Dewing's account; chosen as Belisarius's adviser in 527, Dewing's year for the event Procopius tells. The Palestine Pilgrims' Text Society's preface says he is supposed to have died in 565",
+  "place": "Born at Caesarea in Palestine; worked at Constantinople and on campaign in the East, Africa and Italy",
+  "tradition": "Outside the church",
+  "role": "Historian; legal adviser and secretary to the general Belisarius",
+  "briefLength": "about 2 minutes",
+  "keyWorks": [
+    {
+      "title": "History of the Wars",
+      "about": "eight books on Justinian's wars with Persia, the Vandals and the Goths, written as an eyewitness, with the Nika riot and the plague along the way"
+    },
+    {
+      "title": "On the Buildings",
+      "about": "six books of praise for Justinian's buildings, beginning with Hagia Sophia and the churches of Constantinople"
+    },
+    {
+      "title": "Secret History (Anecdota)",
+      "about": "a private attack on Justinian, Theodora, Belisarius and Antonina, published after Justinian's death, by Dewing's account"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "The Wars tell church matters as part of the war: the envoys to Rome on a point of faith, and Belisarius sending Silverius of Rome to Greece and putting Vigilius in his place.",
+      "The Buildings opens with Hagia Sophia, rebuilt after the Nika riot burned the church, and is, in Dewing's words, \"a storehouse of information concerning the internal administration of the empire\"."
+    ],
+    "remembered": [
+      "Dewing: \"Procopius is known to posterity as the historian of the eventful reign of Justinian\".",
+      "The unnamed translator of the 1896 Secret History calls him \"the first and most talented of Byzantine historians\"."
+    ]
+  },
+  "uncertain": [
+    "His religion. Dewing says he \"writes at times as a Christian, and at times as one imbued with the ideas of the ancient religion of Greece\". The 1896 translator says his own writings do not decide it and thinks he was a sceptic who \"affected the forms and language of Christianity\". Outside the church marks him as a historian who reports on the church and, by his own word, would not set down the points of faith in dispute. It makes no claim about his faith.",
+    "Who wrote the Secret History. Dewing says serious doubts were once held, and that it is now believed \"highly probable at least\" to be his. The 1896 translator says direct proofs are wanting, since the first writers to give it to him, the Suda (\"Suidas\") and Nicephorus Callistus, lived centuries later, but judges it the work of a court official of the time.",
+    "How far the Secret History can be trusted. Dewing: \"the very extravagance of the calumny makes it impossible to be believed\", though it has \"very few contradictions in statements of fact\". The 1896 translator: details may be exaggerated, but it gives on the whole \"a faithful picture of the Byzantine Court\".",
+    "The Buildings is court praise. Dewing calls it \"written in the empty style of the fawning flatterer\".",
+    "His birth. Dewing says late in the fifth century; the 1896 translator, towards the beginning of the sixth; the Palestine Pilgrims' Text Society's preface, early in the sixth or at the end of the fifth.",
+    "His later career. The 1896 translator says Justinian made him a senator and Prefect of Byzantium in 562, and that he died shortly before or after 565; the Palestine Pilgrims' Text Society's preface gives the same prefecture and says he \"is supposed to have died in 565\". Dewing says his work went on till near the end of Justinian's life, and that he seems to have outlived Belisarius."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "History of the Wars, books 1 and 2 (tr. H. B. Dewing)",
+        "language": "English translation",
+        "file": "cic/texts/procopius_wars-1-2-persian_dewing1914.txt"
+      },
+      {
+        "title": "History of the Wars, books 5 and 6 (tr. H. B. Dewing)",
+        "language": "English translation",
+        "file": "cic/texts/procopius_wars-5-6-gothic_dewing1919.txt"
+      },
+      {
+        "title": "Of the Buildings of Justinian (tr. Aubrey Stewart)",
+        "language": "English translation",
+        "file": "cic/texts/procopius_buildings_stewart1888.txt"
+      },
+      {
+        "title": "The Secret History (anonymous translation, Athenian Society)",
+        "language": "English translation",
+        "file": "cic/texts/procopius_secret-history_athenian-society1896.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Introduction to the History of the Wars",
+        "author": "H. B. Dewing",
+        "date": null,
+        "language": "English",
+        "file": "cic/texts/procopius_wars-1-2-persian_dewing1914.txt"
+      },
+      {
+        "title": "Preface to the Secret History",
+        "author": "Unnamed translator (Athenian Society)",
+        "date": null,
+        "language": "English",
+        "file": "cic/texts/procopius_secret-history_athenian-society1896.txt"
+      },
+      {
+        "title": "Preface to Of the Buildings of Justinian",
+        "author": "Palestine Pilgrims' Text Society",
+        "date": null,
+        "language": "English",
+        "file": "cic/texts/procopius_buildings_stewart1888.txt"
+      }
+    ]
+  }
+}
