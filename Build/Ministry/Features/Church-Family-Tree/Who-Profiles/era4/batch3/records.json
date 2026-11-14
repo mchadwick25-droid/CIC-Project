@@ -866,7 +866,7 @@
     "formation_confidence": "Documented"
    },
    {
-    "claim": "Clonmacnois spelled so by White: \"Ciaran of Clonmacnois\"",
+    "claim": "Clonmacnois, the spelling of R. A. S. Macalister's title as listed in White's volume: \"Ciaran of Clonmacnois\"",
     "witness": "WHITE (patrick_writings-and-life-with-muirchu-eng_white1920.txt) l.8554",
     "formation_confidence": "Documented"
    }
@@ -1536,8 +1536,8 @@
     "formation_confidence": "Documented"
    },
    {
-    "claim": "Ripon in Bede's prose Life: Eata took \"quosdam e Fratibus secum, in\" ... \"quibus et Cuthbertum\"; the Bollandists: \"SS. Eata,\" ... \"Cuthbertus aliique propter Pascha Catholicum ceteros-\" ... \"que ritus reliquerunt Riponense monasterium\"",
-    "witness": "AASS3 (acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt) l.33599-33601, 34606-34612",
+    "claim": "Ripon in Bede's prose Life: Eata took \"quosdam e Fratibus secum, in\" ... \"quibus et Cuthbertum\"; the Bollandists: \"SS. Eata,\" ... \"Cuthbertus aliique propter Pascha Catholicum ceteros-\" ... \"que ritus reliquerunt Riponense monasterium\"; and later \"Abbas Eata cum Cuthberto et ceteris, quos secum adduxerat, Fratribus domum repulsus est\"; the Bollandists alone join this to the History's Easter reason",
+    "witness": "AASS3 (acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt) l.33599-33601, 34606-34612, 34679-34684",
     "formation_confidence": "Inferential-Thin"
    },
    {

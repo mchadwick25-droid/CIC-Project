@@ -31,7 +31,7 @@ The drafter opened every cited line before applying each fix. Cards and records 
 | A-M19 | Taken, split in two sentences to stay under 25 words. |
 | A-M20 | Taken as worded: other names are Wilfred, Wilfridus, Wilfrithus. |
 | A-M21 | Taken as worded: a `contested_claim` for Ripon's size; the Eadmer claim retagged Inferential-Thin; l.15351-15353 added. |
-| A-M22 | Taken as worded. The call is logged in the batch's Decision-Log entry. |
+| A-M22 | Taken as worded. The call is to be logged in the batch's Decision-Log entry. |
 | A-M23 | Taken as worded. |
 | A-M24 | Taken, in two sentences. |
 | A-M25 | Taken as worded, with "against the supplement scan's 'Wilfrid of York'" added. |
