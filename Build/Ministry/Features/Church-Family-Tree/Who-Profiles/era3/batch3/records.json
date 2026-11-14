@@ -3,7 +3,7 @@
     "claims": [
       {
         "claim": "Mare bishop of Amida, exiled at Petra, sent his deacon and notary Stephen to the royal city; God 'directed the virtuous Stephen to Theodora who came from the brothel (πορνεῖον), who was at that time a patrician, but eventually became queen also with King Justinian'; she made entreaty 'even with tears' to Justinian her husband, the king's nephew, to inform his uncle; an order went out for them to come to Alexandria",
-        "witness": "John of Ephesus, Lives of the Eastern Saints, tr. Brooks (combined file l.10440-10475; PO17 file l.10990-11005); a friendly witness",
+        "witness": "John of Ephesus, Lives of the Eastern Saints, tr. Brooks (combined file l.10440-10475; PO17 file l.10990-11005); a witness of the party she sheltered",
         "formation_confidence": "Documented"
       },
       {
@@ -33,7 +33,7 @@
       },
       {
         "claim": "Chabot: 'Ce récit paraît inventé par les Monophysites. Selon Evagrius et Niceph. Call., Theodora était originaire de Chypre'",
-        "witness": "Chabot's note 5 (tome 2 l.13545-13547); the held English Evagrius has no Cyprus line",
+        "witness": "Chabot's note 5 (tome 2 l.13545-13547); the held Evagrius, English (Walford) and Greek (Bidez-Parmentier), has no Cyprus line",
         "formation_confidence": "Contested"
       },
       {
@@ -95,16 +95,30 @@
         "claim": "'the Christ-loving Theodora, who was perhaps appointed queen by God to be a support for the persecuted against the cruelty of the times'",
         "witness": "John of Ephesus, Lives (combined l.17536-17538; OCR 'Fheodora', 'à support', 'eruelty')",
         "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Justinian honoured Cyprus for the glory of his wife Theodora, 'Κύπρον λαχούσης πατρίδα', whose homeland was Cyprus; and again 'εἰς τιμὴν τῆς γαμετῆς Θεοδώρας ... ἐκεῖθεν γὰρ ὥρμητο' (Latin 'conjugis suae Theodorae Augustae inde ortae')",
+        "witness": "Nicephorus Callistus, Ecclesiastical History, PG 147 (l.9790-9791, 14762-14765; Latin l.14727); a later Greek church historian",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Justinian's reign began in 527",
+        "witness": "Dewing's introduction to the Wars (wars-1-2 l.68-69, 78-80); an editor's year",
+        "formation_confidence": "Widely Accepted"
       }
     ],
     "contested_claims": [
       {
         "claim": "Theodora's origins",
-        "sides": "Procopius, Secret History IX: daughter of Acacius the bear-keeper at Byzantium, on the stage and in a brothel as a girl (hostile; Dewing: 'we are not forced to regard as true'). John of Ephesus, a friend: 'Theodora who came from the brothel'. Michael the Syrian (12th c.): a priest's daughter from Daman near Callinicus, raised in chastity. Chabot, on the Mabboug version: the story seems invented by the Monophysites; Evagrius and Nicephorus Callistus make her a native of Cyprus (not found in the held Walford Evagrius)."
+        "sides": "Procopius, Secret History IX: daughter of Acacius the bear-keeper at Byzantium, on the stage and in a brothel as a girl (hostile; Dewing: 'we are not forced to regard as true'). John of Ephesus, of the party she sheltered: 'Theodora who came from the brothel'. Michael the Syrian (12th c.): a priest's daughter from Daman near Callinicus, raised in chastity. Chabot, on the Mabboug version: the story seems invented by the Monophysites; Evagrius and Nicephorus Callistus make her a native of Cyprus (not found in the held Walford Evagrius). Nicephorus Callistus (PG 147 l.9790-9791, 14762-14765): Cyprus was her homeland."
       },
       {
         "claim": "Why Justinian and Theodora backed opposite sides on Chalcedon",
         "sides": "Evagrius IV.10: either real conviction or a mutual understanding; he does not decide. Procopius, Secret History X: a disagreement purposely arranged to divide their subjects (hostile)."
+      },
+      {
+        "claim": "How long Anthimus stayed hidden",
+        "sides": "John of Ephesus, Lives (combined l.26000-26002): ten years, until her death. John's Church History, as Brooks reports it (l.26024-26025): seven years. Brooks: she lived twelve years after his deprivation."
       }
     ],
     "absent_details": [
@@ -170,9 +184,14 @@
         "formation_confidence": "Dominant Modern Reconstruction"
       },
       {
-        "claim": "The continuation 534-548, found in one of the two archetypes, is not by Marcellinus: Cassiodorus does not know it and the preface does not mention it; probably written in the East",
+        "claim": "The continuation 534-548, found in one of the two archetypes from which the manuscripts descend, and breaking off in 548, is not by Marcellinus: Cassiodorus does not know it and the preface does not mention it; probably written in the East",
         "witness": "Mommsen's preface (l.3187-3194, 3717-3721)",
         "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "The men who kept the old words were struck down in the church and, led off to prison, died there ('in eiusdem ecclesiae gremio caesi sunt ductique in carceres perierunt')",
+        "witness": "Marcellinus (Mommsen l.8305-8306)",
+        "formation_confidence": "Documented"
       }
     ],
     "contested_claims": [],
@@ -263,6 +282,16 @@
         "claim": "Photius's verdict 'has not been endorsed by modern opinion'",
         "witness": "McCrindle (l.886-888)",
         "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Cosmas wrote his Topography about 547, his voyages falling between 520 and 525; his account gives 'des renseignements précieux sur l'extension de l'Église de Perse à cette époque'",
+        "witness": "Labourt (labourt_le-christianisme-dans-l-empire-perse-sassanide-fra_1904.txt l.9618-9622)",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Card tradition: the census lists him among the people of Aksumite Christianity (year 522); the corpus map files his whole work under the Church of the East as context, 'Provisional on his affiliation'",
+        "witness": "cic-website/data/world-census.json, aksumite-christianity people; cic/corpus-map/the-church-of-the-east-under-persia.yaml l.113-123",
+        "formation_confidence": "Inferential-Thin"
       }
     ],
     "contested_claims": [
@@ -278,7 +307,7 @@
     "absent_details": [
       {
         "detail": "His birth, death and monastery",
-        "note": "No held source names them. McCrindle says the Topography is the source for his life; the Library holds no other."
+        "note": "No held source names them. McCrindle says the Topography is the source for his life; the Library holds no other account of his life."
       },
       {
         "detail": "His other works",
@@ -398,7 +427,7 @@
         "formation_confidence": "Documented"
       },
       {
-        "claim": "A longer History of Mar Aba, edited by Bedjan (1895), 'aurait besoin d'un examen critique minutieux' and lacks chronological data; Chabot's outline: born a Zoroastrian, baptized at Hira, studied at Nisibis, learned Greek at Edessa from his disciple Thomas, journeyed to Constantinople, taught at Nisibis, elected January 540, founded a school at Seleucia, worked to restore peace and discipline after the schism of Narses and Elisha, was persecuted after controversies with the magi, spent several years in prison and was exiled to Adherbaidjan",
+        "claim": "A longer History of Mar Aba, edited by Bedjan (1895) and held in Braun's German,, 'aurait besoin d'un examen critique minutieux' and lacks chronological data; Chabot's outline: born a Zoroastrian, baptized at Hira, studied at Nisibis, learned Greek at Edessa from his disciple Thomas, journeyed to Constantinople, taught at Nisibis, elected January 540, founded a school at Seleucia, worked to restore peace and discipline after the schism of Narses and Elisha, was persecuted after controversies with the magi, spent several years in prison and was exiled to Adherbaidjan",
         "witness": "Chabot's note (l.20963-20995); the Bedjan Life is not held",
         "formation_confidence": "Dominant Modern Reconstruction"
       },
@@ -456,26 +485,79 @@
         "claim": "Patricius, Cosmas's teacher, who became Bishop Catholic of all Persia, 'was a Magian and was called by the Syrians Abas or Mar-Abas'",
         "witness": "McCrindle's note to Cosmas Book II (cosmas mccrindle1897 l.2557-2563); McCrindle's identification",
         "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "The Life: Mar Aba was at first a pagan, learned in Persian letters; notables of his district drew him into state service and made him Arzabed",
+        "witness": "Life of Mar Aba, tr. Braun (persian-martyr-acts braun1915 l.10670-10678); Labourt: born to a Mazdean family, in the administrative career (labourt1904 l.9483-9492)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The Life: he was baptized in the village of 'KD (Labourt: Akda)",
+        "witness": "Life, tr. Braun (persian-martyr-acts braun1915 l.10826); Labourt l.9556, 'Au bourg d''Akda, d'après sa Vie, p. 211; à Hira, d'après MARE, p. 44'",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "The Life: he studied at the school of Nisibis, went to Edessa, where Thomas taught him Greek, and later taught",
+        "witness": "Life, tr. Braun (persian-martyr-acts braun1915 l.10833-10885); Labourt quoting the Life, 'il passa un certain temps dans l'enseignement' (l.9816-9818)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The Life: he came back to his see after nine years of struggle",
+        "witness": "Life, tr. Braun (persian-martyr-acts braun1915 l.12234-12240)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The Life: he lived beside the church of Bet Narkos; ill after his long imprisonment, he died on the Friday of the second week of Lent; doctors the king sent could not heal him",
+        "witness": "Life, tr. Braun (persian-martyr-acts braun1915 l.12290, 12318-12322)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The Life: after seven days in the cathedral of Koke his body was carried with honour to the monastery of Seleucia; Braun notes that Mari has him buried at Hira by his disciple",
+        "witness": "Life, tr. Braun (persian-martyr-acts braun1915 l.12329-12355, note l.12361-12362)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "He died on 29 February 552 at Seleucia, near the church of Beit Narqos; later chroniclers may set his death at Hira because of the Arab king's retinue",
+        "witness": "Labourt (labourt1904 l.10928-10931, 10974-10977)",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "The author of the Life was really, as he claims, a disciple of the catholicos",
+        "witness": "Labourt (l.9559-9562)",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "The existence of the school of Seleucia at this time seems problematic",
+        "witness": "Labourt (l.9843-9844)",
+        "formation_confidence": "Dominant Modern Reconstruction"
       }
     ],
     "contested_claims": [
       {
         "claim": "How Mar Aba died",
-        "sides": "The Life (Bedjan, not held), as Chabot reports it: he regained the king's favour and died in peace on his see (l.20994-20995). Bar Hebraeus: returned to Seleucia against the king's ban, chained and died in prison (vol3 l.5519-5525; reported by Chabot l.20995-20998, 20929-20931). Mari ibn Sulayman: died of an illness after some days, grieving (l.13991-13997)."
+        "sides": "The Life, held in Braun's German (l.12318-12322), and as Chabot reports it: he regained the king's favour and died in peace on his see (l.20994-20995). Bar Hebraeus: returned to Seleucia against the king's ban, chained and died in prison (vol3 l.5519-5525; reported by Chabot l.20995-20998, 20929-20931). Mari ibn Sulayman: died of an illness after some days, grieving (l.13991-13997)."
       },
       {
         "claim": "The year of his election",
         "sides": "Chabot: January 540, from the synod's dating (l.20945-20953, 20979). Abbeloos and Lamy: 538 (vol3 l.5254). Mari's sixteen years of rule (l.13999) fit neither with 552."
+      },
+      {
+        "claim": "Where he was baptized",
+        "sides": "The Life: the village of 'KD, Akda in Labourt's reading (Braun l.10826; Labourt l.9556). Mari ibn Sulayman: Hira (Labourt l.9556, citing Mari p. 44); Chabot's outline follows Hira (Chabot l.20963-20979)."
+      },
+      {
+        "claim": "Where he was buried",
+        "sides": "The Life: the monastery of Seleucia (Braun l.12350-12355; Labourt l.10985-10987). Mari ibn Sulayman: at Hira, by his disciple Qyura, under a monastery (Gismondi l.13997-13999; Braun's note l.12361-12362)."
       }
     ],
     "absent_details": [
       {
-        "detail": "The Life of Mar Aba",
-        "note": "Paul Bedjan's edition (1895) is not held; everything from it comes through Chabot's summary. The census entry also cites Oskar Braun's German and Richard Payne's English excerpts; neither was checked here."
+        "detail": "The Syriac Life",
+        "note": "The Syriac of Paul Bedjan's edition is not held; the Life is held in Braun's German (l.10660-12360) and retold by Labourt (l.9479-11010). Richard Payne's English, which the census entry cites, was not checked."
       },
       {
-        "detail": "His birth year and family",
-        "note": "No held source gives them."
+        "detail": "His birth year",
+        "note": "No held source gives it. Labourt gives his home on the Tigris opposite Hale, in the district of Radan, and his Mazdean family (l.9483-9488)."
       }
     ]
   },
@@ -488,7 +570,7 @@
       },
       {
         "claim": "The Romans accuse Vigilius of murder ('We declare him to be a murderer')",
-        "witness": "Book of the Popes, tr. Loomis (liber-pontificalis_book-of-the-popes-v1_loomis1916.txt l.11655-11660); the Book of the Popes' report, hostile to him",
+        "witness": "Book of the Popes, tr. Loomis (liber-pontificalis_book-of-the-popes-v1_loomis1916.txt l.11655-11660); the Book of the Popes' report; Loomis calls this part of the book often partisan (l.575-576). The same life has Vigilius refuse Theodora (l.11646-11651)",
         "formation_confidence": "Documented"
       },
       {
@@ -523,7 +605,7 @@
       },
       {
         "claim": "Theodora had Vigilius promise in secret that as pope he would annul Chalcedon and approve the faith of Theodosius, Anthemius and Severus, and offered an order to Belisarius and seven hundred thousand sesterces",
-        "witness": "Liberatus, Breviarium 22, as quoted in English by Loomis (Book of the Popes, tr. Loomis (liber-pontificalis_book-of-the-popes-v1_loomis1916.txt l.11389-11400); hostile to Vigilius by Mommsen's judgment",
+        "witness": "Liberatus, Breviarium 22 (PL 68, liberatus-victor-tunnunensis-primasius-junillus-pl68-lat_migne1866.txt l.81553-81640), as quoted in English by Loomis (liber-pontificalis_book-of-the-popes-v1_loomis1916.txt l.11389-11400); hostile to Vigilius by Mommsen's judgment (chronica-minora-2 l.17574-17578) and by the PL 68 editor's note that Liberatus tells it to cast odium on Vigilius (l.81654-81657)",
         "formation_confidence": "Contested"
       },
       {
@@ -598,8 +680,8 @@
       },
       {
         "claim": "A contemporary record gives his death as 7 June 555",
-        "witness": "Loomis's note, citing Duchesne (Book of the Popes, tr. Loomis (liber-pontificalis_book-of-the-popes-v1_loomis1916.txt l.11934-11937)",
-        "formation_confidence": "Widely Accepted"
+        "witness": "Loomis's note, citing Duchesne (Book of the Popes, tr. Loomis (liber-pontificalis_book-of-the-popes-v1_loomis1916.txt l.11934-11937); the year 555 is the reckoning of the third indiction in Loomis's bracket from Duchesne",
+        "formation_confidence": "Contested"
       },
       {
         "claim": "He died at the end of 554 or the beginning of 555",
@@ -620,6 +702,16 @@
         "claim": "Liberatus says Silverius was handed to Vigilius's guards and died of starvation on Palmaria; the guilt seems to rest partly on Antonina and partly on Vigilius",
         "witness": "Liberatus as quoted by Loomis; Loomis's judgment (Book of the Popes, tr. Loomis (liber-pontificalis_book-of-the-popes-v1_loomis1916.txt l.11477-11493)",
         "formation_confidence": "Contested"
+      },
+      {
+        "claim": "The Book of the Popes' life of Silverius: Vigilius took Silverius 'as if in his own charge', sent him into exile to Pontiae and fed him with the bread of tribulation; he died a confessor",
+        "witness": "Book of the Popes, tr. Loomis (l.11443-11471); Loomis, after Duchesne, gives this part to a later biographer sympathetic to Silverius (l.11328-11338)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "A chronicle note printed with Marcellinus puts his death in Sicily under 'Indictione II. XIII p. c. Basilii'",
+        "witness": "chronica-minora-2 (Mommsen 1894) l.3260-3263",
+        "formation_confidence": "Contested"
       }
     ],
     "contested_claims": [
@@ -637,7 +729,11 @@
       },
       {
         "claim": "The date of his death",
-        "sides": "A contemporary record cited by Duchesne, via Loomis (l.11934-11937): 7 June 555. Percival (l.24512-24513): the end of 554 or the start of 555."
+        "sides": "A contemporary record cited by Duchesne, via Loomis (l.11934-11937): 'the seventh day before the Ides of June in the third indiction', which Duchesne's bracket gives as 7 June 555. Percival (l.24512-24513): the end of 554 or the start of 555. A chronicle note printed with Marcellinus (Mommsen l.3260-3263): the second indiction, thirteenth year after Basil's consulship."
+      },
+      {
+        "claim": "Vigilius's part in the death of Silverius",
+        "sides": "Liberatus (Breviarium 22, PL 68 l.81613-81617, via Loomis l.11484-11488): Silverius was handed to Vigilius's guards and starved on Palmaria. The Book of the Popes' life of Silverius (Loomis l.11443-11471): Vigilius took him into his own charge and sent him into exile, where he died a confessor. Procopius's Secret History, as Loomis reports it (l.11488-11491): Antonina, wife of Belisarius, brought about his death. Loomis (l.11492-11493): the guilt rests partly on Antonina and partly on Vigilius."
       }
     ],
     "absent_details": [
@@ -648,10 +744,6 @@
       {
         "detail": "The Judicatum itself",
         "note": "Reported by Loomis and by Bossuet in Percival; its text is not in the sources used here."
-      },
-      {
-        "detail": "Liberatus's own Latin",
-        "note": "Liberatus is cited through Loomis's English quotations; the Latin Breviarium is in liberatus-victor-tunnunensis-primasius-junillus-pl68-lat_migne1866.txt but chapter 22 was not located in its OCR."
       }
     ]
   },
@@ -663,9 +755,14 @@
         "formation_confidence": "Documented"
       },
       {
-        "claim": "The notice comes from the Menologion of the emperor Constantine Porphyrogenitus (Vatican codex 1613); it is a very short eulogy, and almost nothing more is recorded of Romanos elsewhere",
-        "witness": "Pitra's note (Pitra, romanos-melodist_cantica-grc_pitra1888.txt l.6791-6797)",
-        "formation_confidence": "Widely Accepted"
+        "claim": "Pitra says the notice comes from the Menologion of the emperor Constantine Porphyrogenitus (Vatican codex 1613); it is a very short eulogy, and almost nothing more is recorded of Romanos elsewhere",
+        "witness": "Pitra's note (romanos-melodist_cantica-grc_pitra1888.txt l.6791-6797); Pitra's attribution of the manuscript",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Vatican codex 1613 is the Menologion of the emperor Basil",
+        "witness": "Migne, PG 99, 'Ex Menologio Basilii imperatoris. Cod. Vatic. n. 1613' (theodore-studite_opera-omnia-pg99-grc-lat_migne1860.txt l.7839); the Bollandists, 'Menologio Graecorum, jussu Basilii Porphyrogeniti Imperatoris' (acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt l.180301-180302); Assemani (assemani_bibliotheca-orientalis-tomus3-pars2-de-syris-nestorianis-lat_1728.txt l.39715-39716); 'the menologion of Basilius II (976-1025) in the Vatican Library' (studia-biblica-et-ecclesiastica-v5-life-of-st-nino_wardrop1903.txt l.16382-16386)",
+        "formation_confidence": "Contested"
       },
       {
         "claim": "Constantine Porphyrogenitus reigned 944-959",
@@ -711,12 +808,21 @@
         "claim": "The Greek of the kontakia is not recoverable from the scanned file; only Pitra's Latin and apparatus can be read",
         "witness": "The Library file's own content note (l.27-36), checked: no Greek-script characters",
         "formation_confidence": "Documented"
+      },
+      {
+        "claim": "A later Greek Synaxaristes, revised by Nikodemos the Hagiorite, gives Romanos's home city as Emesa, now Homs, makes him a deacon of Berytus who came to Constantinople in the time of the emperor Anastasius, and retells the dream, the ambo and the thousand kontakia",
+        "witness": "Synaxaristes, 1 October (nikodemos-hagiorite_synaxaristes-vol1-sep-feb-grc_1900.txt l.13987-14063); later than the Menologion and in the same tradition",
+        "formation_confidence": "Documented"
       }
     ],
     "contested_claims": [
       {
+        "claim": "Whose Menologion holds the notice",
+        "sides": "Pitra (l.6791): the Menologion of the emperor Constantine Porphyrogenitus, Vatican 1613. Migne, PG 99 (l.7839), the Bollandists (Acta Sanctorum Martii III l.180301-180302), Assemani (l.39715-39716) and the Studia Biblica essay (l.16382-16386): the Menologion of the emperor Basil."
+      },
+      {
         "claim": "Which emperor Anastasius the Menologion notice means, and so when Romanos lived",
-        "sides": "Pitra (l.6808-6811, 8230-8250) asks whether Anastasius I or Anastasius II (713-716) is meant and sets out events of both reigns; he says it is not at all clear that Romanos flourished under the second. The Library file header's 'c. 490-c. 556' and the era 3 scan's dates rest on no held scholar's argument."
+        "sides": "Pitra (l.6808-6811, 8230-8250) asks whether Anastasius I or Anastasius II (713-716) is meant and sets out events of both reigns; he says it is not at all clear that Romanos flourished under the second. The Library file header's 'c. 490-c. 556' and the era 3 scan's dates rest on no held scholar's argument. Nikodemos's Synaxaristes (l.13998-13999) also places his coming under the emperor Anastasius; the year it gives is garbled in the OCR (read by the R1 reviewer as 496, under Anastasius I) and is not used."
       }
     ],
     "absent_details": [
@@ -729,8 +835,8 @@
         "note": "Printed in Pitra's volume but unreadable in the scanned copy; the brief quotes only Pitra's Latin."
       },
       {
-        "detail": "A second witness to his life",
-        "note": "Pitra says almost nothing more is recorded of him; no other held file was found that tells his life (the Akathist file header names him only as a possible author)."
+        "detail": "A witness older than the Menologion notice",
+        "note": "Pitra says almost nothing more is recorded of him. Nikodemos's Synaxaristes (l.13987-14063) is later and follows the same tradition; its year for his coming to Constantinople is not legible in the OCR and is not used."
       }
     ]
   },
@@ -854,6 +960,11 @@
         "claim": "Made senator and Prefect of Byzantium in 562; died shortly before or after 565",
         "witness": "Athenian Society translator's preface (l.76-84); the Palestine Pilgrims' Text Society preface (Buildings l.96-110: 'is supposed to have died in 565')",
         "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "His own activity continued till well nigh the end of Justinian's life",
+        "witness": "Dewing's introduction (wars-1-2 l.81-82)",
+        "formation_confidence": "Widely Accepted"
       }
     ],
     "contested_claims": [
@@ -958,12 +1069,17 @@
         "claim": "A later Life of Illtud counts Samson, Paulinus, Gildas and Dewi among Illtud's pupils",
         "witness": "Vita Iltuti, ed. Rees (rees_lives-of-the-cambro-british-saints-lat-eng_1853.txt l.7949-7951)",
         "formation_confidence": "Inferential-Thin"
+      },
+      {
+        "claim": "The Vita Samsonis cannot be earlier than the seventh century, because its writer knows the Homilies of Gregory I, nor later than Nominoe, that is 824",
+        "witness": "Hugh Williams, note in his edition of Gildas (gildas_de-excidio-britanniae-lorica-penitential-lat-eng_williams1899.txt l.18737-18740)",
+        "formation_confidence": "Contested"
       }
     ],
     "contested_claims": [
       {
         "claim": "When the Life of Samson was written, and whether its account of its sources is true",
-        "sides": "Taylor (l.742-743, 1651-1652, 1708-1715), following Abbé Duine (l.725-731): 610-615, by a truthful writer. Fawtier, as Taylor reports him (l.567-575, 1652-1654): spurious, its statements on authorship and provenance rejected. Duine and Loth answered Fawtier (l.574-575). Fawtier's own date is not given in the held file."
+        "sides": "Taylor (l.742-743, 1651-1652, 1708-1715), following Abbé Duine (l.725-731): 610-615, by a truthful writer. Fawtier, as Taylor reports him (l.567-575, 1652-1654): spurious, its statements on authorship and provenance rejected. Duine and Loth answered Fawtier (l.574-575). Fawtier's own date is not given in the held file. Hugh Williams, editing Gildas (gildas_de-excidio-britanniae-lorica-penitential-lat-eng_williams1899.txt l.18737-18740): no earlier than the seventh century, since the writer knows Gregory I's Homilies, and no later than Nominoe, that is 824."
       }
     ],
     "absent_details": [

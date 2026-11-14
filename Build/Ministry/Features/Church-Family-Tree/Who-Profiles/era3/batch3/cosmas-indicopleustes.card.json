@@ -1,20 +1,20 @@
 {
   "name": "Cosmas Indicopleustes",
   "knownFor": "A merchant turned monk whose Christian Topography sets out a world built like the tabernacle of Moses and reports churches with clergy in Ceylon, in India and across the East.",
-  "dates": "At Adulis at the start of the emperor Justin's reign, some twenty-five years before he wrote, by his own account; J. W. McCrindle dates the visit to 525 and the writing to about 547, with Book X probably written about 535. Photius says only that he flourished under Justin. No source used here gives his birth or death",
+  "dates": "At Adulis at the start of the reign of the emperor Justin I, as McCrindle identifies him, some twenty-five years before he wrote, by his own account; J. W. McCrindle dates the visit to 525 and the writing to about 547, with Book X probably written about 535. Photius says only that he flourished under Justin. No source used here gives his birth or death",
   "place": "Most probably Alexandria, in McCrindle's view; voyages on the Mediterranean, the Red Sea and the Persian Gulf; Adulis and Axum in Ethiopia",
-  "tradition": "The Church of the East under Persia",
+  "tradition": "Aksumite Christianity",
   "role": "Merchant, traveller and monk; writer on the shape of the world and recorder of the churches he saw",
   "briefLength": "about 2 minutes",
   "keyWorks": [
     {
       "title": "Christian Topography",
-      "about": "twelve books in Greek, arguing from Scripture that the world is made like the tabernacle of Moses, with an eyewitness account of Adulis, Ethiopia, Ceylon and the trade of India; Photius knew it as the Book of Christians"
+      "about": "twelve books in Greek, arguing from Scripture that the world is made like the tabernacle of Moses, with an eyewitness account of Adulis and Ethiopia and reports of Ceylon and the trade of India; Photius knew it as the Book of Christians"
     }
   ],
   "legacy": {
     "traces": [
-      "His notes of churches with clergy in Ceylon, on the pepper coast of Male, at Calliana under a bishop appointed from Persia, and on the island of Dioscorides, are among the earliest reports of Christians in those places.",
+      "His notes of churches with clergy in Ceylon, on the pepper coast of Male, at Calliana under a bishop appointed from Persia, and on the island of Dioscorides are, in J. Labourt's words, precious evidence for the spread of the church of Persia in his day.",
       "He and his companion Menas copied the Greek inscriptions on the throne and tablet at Adulis for the governor, and kept a set of copies that he put in the book."
     ],
     "remembered": [
@@ -27,7 +27,7 @@
     "Whether he reached India. He does not say whether the frightening voyage got there. McCrindle believes his account of Ceylon and India shows personal knowledge. J. H. Freese, translating Photius, says it is doubtful whether he deserves the title Indian Navigator.",
     "His name. Isaac Voss and Fabricius thought he was called Cosmas because his book describes the kosmos. McCrindle says it must remain an open question.",
     "Whether his teacher Patricius is Mar Aba I. McCrindle says so, from the list of the patriarchs of the Church of the East. The Latin of Montfaucon, the Benedictine who first edited the Greek, which McCrindle rejects, reads the passage as making Thomas of Edessa the head of the church of Persia.",
-    "The years. Cosmas gives only the start of Justin's reign and twenty-five years more or less. McCrindle gives 525 for the visit, and his notes report the traveller Salt's dates of 522 for the killing that set off the king's war and about 530 for the expedition."
+    "The years. Cosmas gives only the start of Justin's reign, Justin I in McCrindle's note, and twenty-five years more or less. McCrindle gives 525 for the visit, and his notes report the traveller Salt's dates of 522 for the killing that set off the king's war and about 530 for the expedition."
   ],
   "sources": {
     "ownWords": [
@@ -51,6 +51,13 @@
         "date": "1920",
         "language": "English translation",
         "file": "cic/texts/photius_library-v1_freese1920.txt"
+      },
+      {
+        "title": "Le christianisme dans l'empire perse",
+        "author": "J. Labourt",
+        "date": "1904",
+        "language": "French",
+        "file": "cic/texts/labourt_le-christianisme-dans-l-empire-perse-sassanide-fra_1904.txt"
       }
     ]
   }

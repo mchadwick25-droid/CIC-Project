@@ -4,8 +4,8 @@
     "Pope Vigilius",
     "Vigilius papa"
   ],
-  "knownFor": "Bishop of Rome from 537 to 555, made pope in place of Silverius, who was held at Constantinople through the quarrel over the Three Chapters and the council of 553, first defending them and then condemning them.",
-  "dates": "Made pope in 537, when Belisarius removed Silverius (the continuation of Marcellinus's chronicle and the Book of the Popes; Procopius gives no year). Taken from Rome in 544 or 545, by Louise Loomis's date. Died in Sicily on his way home; a record of the time that Loomis reports gives 7 June 555, and Henry Percival gives the end of 554 or the start of 555",
+  "knownFor": "Bishop of Rome from 537 to 555. Made pope in place of Silverius, he was held at Constantinople through the quarrel over the Three Chapters and the council of 553, condemning them in 548, defending them in his Constitutum of May 553, and condemning them again that December.",
+  "dates": "Made pope in 537, when Belisarius removed Silverius (the continuation of the chronicle of Marcellinus Comes; Louis Duchesne, as Loomis reports, gives 20 March 537; Procopius of Caesarea gives no year). Taken from Rome in 544 or 545, by Louise Loomis's date. Died in Sicily on his way home; a record of the time that Loomis reports gives 7 June 555, and Henry Percival gives the end of 554 or the start of 555",
   "place": "Rome; Constantinople, where he was held after being taken from Rome; Sicily, where he died on his way home",
   "tradition": "Byzantine Imperial Church (Justinianic)",
   "role": "Bishop of Rome; before that a Roman deacon and the pope's envoy at Constantinople",
@@ -30,15 +30,15 @@
       "Loomis says the quarrel over the Three Chapters brought a new schism between East and West, \"which lasted seventy years\"."
     ],
     "remembered": [
-      "The Book of the Popes gives a hostile life of him: Romans call him a murderer, the crowd throws stones after his ship, and he is dragged from an altar at Constantinople. Loomis judges that last account partly legendary.",
+      "The Book of the Popes gives a mixed life of him. Romans call him a murderer and the crowd throws stones after his ship, but he refuses the empress and, at Constantinople, is dragged from an altar rather than yield. Loomis judges that last account partly legendary.",
       "Liberatus of Carthage and Victor of Tunnuna, stern defenders of Chalcedon by Mommsen's account, tell how he won the see through the empress Theodora. Theodor Mommsen says both were embittered against him \"iusto odio\", with just hatred, and calls him perhaps the worst of the bad popes."
     ]
   },
   "uncertain": [
-    "The scene of his leaving Rome comes from the Book of the Popes, whose life of him is hostile. Loomis finds that life full of mistakes and the scene told nowhere else. Louis Duchesne, whom Loomis follows, argues its author wrote no earlier than the time of Pope Pelagius the Second, who began in 579.",
-    "How he became pope. Procopius of Caesarea says only that Belisarius appointed him after sending Silverius away. Liberatus says the empress Theodora had him promise in secret to set aside Chalcedon and offered him money; Victor of Tunnuna says she drew a secret written pledge from him. Both are hostile to him, by Mommsen's judgment.",
+    "The scene of his leaving Rome comes from the Book of the Popes, which Loomis finds full of mistakes and calls often partisan in this part; she says the scene is told nowhere else. Louis Duchesne, whom Loomis follows, argues its author wrote no earlier than the time of Pope Pelagius the Second, who began in 579.",
+    "How he became pope. Procopius of Caesarea says only that Belisarius appointed him after sending Silverius away. Liberatus says the empress Theodora had him promise in secret to set aside Chalcedon and that she offered him money; Victor of Tunnuna says she drew a secret written pledge from him. Liberatus and Victor are both hostile to him, by Mommsen's judgment.",
     "The letter in which he tells Theodosius of Alexandria, Anthimus of Constantinople and Severus of Antioch that he shares their faith. Liberatus and Victor copy it. Loomis, citing Duchesne, holds it must be a forgery unless Vigilius was a shameless double-dealer; Mommsen leaves open whether it is his or forged, and says it was taken as genuine at the time.",
-    "The death of Silverius. Liberatus, as Loomis translates him, says Silverius was handed to Vigilius's guards and starved on an island; the Book of the Popes says only that he was exiled and died a confessor. Loomis judges the guilt to rest partly on Vigilius.",
+    "The death of Silverius. Liberatus, as Loomis gives him, says Silverius was handed to Vigilius's guards and starved on the island of Palmaria. The Book of the Popes says Vigilius took him into his own charge, sent him into exile and fed him 'the bread of tribulation', and that he died a confessor. Loomis judges the guilt to rest partly on Antonina, the wife of Belisarius, and partly on Vigilius.",
     "Whether the letter to Eutychius is genuine. Percival reports that Harduin held the Jesuit Garnerius had proved it a forgery, and says the learned have generally accepted it as genuine.",
     "The year of his death: 7 June 555 in the record of the time Loomis reports, the end of 554 or the start of 555 in Percival."
   ],
@@ -85,6 +85,12 @@
         "author": "Henry R. Percival, quoting Hefele and Bossuet",
         "language": "English",
         "file": "cic/texts/npnf214_seven-ecumenical-councils.xml"
+      },
+      {
+        "title": "Breviarium, chapter 22, with the editor's note (ed. J.-P. Migne, Patrologia Latina 68)",
+        "author": "Liberatus of Carthage",
+        "language": "Latin",
+        "file": "cic/texts/liberatus-victor-tunnunensis-primasius-junillus-pl68-lat_migne1866.txt"
       }
     ]
   }

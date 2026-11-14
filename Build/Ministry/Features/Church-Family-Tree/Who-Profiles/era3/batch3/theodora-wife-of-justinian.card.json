@@ -4,8 +4,8 @@
     "Theodora the queen",
     "the empress Theodora"
   ],
-  "knownFor": "The empress, wife of Justinian, who by John of Ephesus's account sheltered the leaders and monks of the party that refused the Council of Chalcedon, and gave the order for the bishops James and Theodore.",
-  "dates": "Married to Justinian before he became emperor, by John of Ephesus's account; empress from his accession in 527. She died in the twentieth year of Justinian's reign, by Michael the Syrian's count; E. W. Brooks gives 548. Her birth year is in no held source",
+  "knownFor": "The empress, wife of Justinian, who by John of Ephesus's account sheltered the leaders and monks of the party that refused the Council of Chalcedon, and gave the order for James, bishop for Edessa, and Theodore, bishop for Hirtha of the Saracens.",
+  "dates": "Married to Justinian before he became emperor, by John of Ephesus's account; empress from his accession, in 527 by H. B. Dewing's year. She died in the twentieth year of Justinian's reign, by Michael the Syrian's count; E. W. Brooks gives 548. Her birth year is in no held source",
   "place": "Constantinople. Procopius of Caesarea makes her a child of Byzantium; Michael the Syrian says she was from Daman, near Callinicus",
   "tradition": "Byzantine Imperial Church (Justinianic)",
   "role": "Empress; patron of the party that refused Chalcedon",
@@ -13,8 +13,8 @@
   "legacy": {
     "traces": [
       "John of Ephesus says she gathered no fewer than five hundred persecuted monks into the palace of Hormisdas in Constantinople, and that after her death the community was kept by her charge to the emperor.",
-      "At the request of the Saracen king Hereth Bar Gabala, in the sixteenth year of Justinian's reign, she gave the order by which James and Theodore were made bishops, James for Edessa, John says.",
-      "She hid Anthimus of Constantinople in her palace until her death, John says, and Evagrius of Epiphania says she persuaded Justinian to send for Severus of Antioch."
+      "At the request of the Saracen king Hereth Bar Gabala, in the sixteenth year of Justinian's reign, she gave the order by which James was made bishop for Edessa and Theodore for Hirtha of the Saracens, John says.",
+      "She hid Anthimus of Constantinople in her palace for years, John says, and Evagrius of Epiphania says she persuaded Justinian to send for Severus of Antioch."
     ],
     "remembered": [
       "John of Ephesus calls her the Christ-loving Theodora, \"who was perhaps appointed queen by God to be a support for the persecuted\".",
@@ -24,8 +24,8 @@
     ]
   },
   "uncertain": [
-    "Her witnesses take sides. John of Ephesus wrote as her friend and belonged, R. Payne Smith notes, to the party that refused Chalcedon. Procopius of Caesarea wrote the Secret History as her enemy. Evagrius of Epiphania wrote later, from Chalcedon's side.",
-    "Her origins. Procopius's Secret History makes her the daughter of Acacius, bear-keeper of the Green faction at Byzantium, and an actress and harlot as a girl. John of Ephesus, her friend, also calls her \"Theodora who came from the brothel\". Michael the Syrian, in the twelfth century, makes her a priest's daughter from Daman, near Callinicus, raised in chastity; in another place he says Justinian married her at Mabboug. J.-B. Chabot, Michael's French translator, judges the Mabboug story \"inventé par les Monophysites\" and says Evagrius and Nicephorus Callistus make her a native of Cyprus. The held English Evagrius has no such line.",
+    "Her witnesses take sides. John of Ephesus wrote from the party she sheltered and belonged, R. Payne Smith notes, to the party that refused Chalcedon. Michael the Syrian, a twelfth-century patriarch of John's church, wrote later from the same side. Procopius of Caesarea wrote the Secret History as her enemy. Evagrius of Epiphania wrote later, from Chalcedon's side.",
+    "Her origins. Procopius's Secret History makes her the daughter of Acacius, bear-keeper of the Green faction at Byzantium, and an actress and harlot as a girl. John of Ephesus, of the party she sheltered, also calls her \"Theodora who came from the brothel\". Michael the Syrian, in the twelfth century, makes her a priest's daughter from Daman, near Callinicus, raised in chastity; in another place he says Justinian married her at Mabboug. J.-B. Chabot, Michael's French translator, judges the Mabboug story \"inventé par les Monophysites\". Nicephorus Callistus, a later Greek church historian, says Cyprus was her homeland. Chabot gives the same to Evagrius, but the held Evagrius has no such line.",
     "The Nika speech in Procopius's Wars is Procopius's composition, not a record of her own words. H. B. Dewing notes that in the speeches he is fond of sounding phrases.",
     "Why the emperor and empress backed different sides. Evagrius gives two possible reasons, real conviction or a mutual understanding. Procopius's Secret History says the disagreement was \"purposely arranged\" to divide their subjects.",
     "How long Anthimus stayed hidden. John's Lives say about ten years, until her death; E. W. Brooks notes that she lived twelve years after his deposition, and that John's Church History gives seven."
@@ -73,6 +73,13 @@
         "date": null,
         "language": "English translation",
         "file": "cic/texts/evagrius-scholasticus_ecclesiastical-history_walford1846.txt"
+      },
+      {
+        "title": "Ecclesiastical History, Patrologia Graeca 147 (ed. J.-P. Migne)",
+        "author": "Nicephorus Callistus",
+        "date": null,
+        "language": "Greek, with Latin translation",
+        "file": "cic/texts/nicephorus-callistus_historia-ecclesiastica-with-hesychast-tracts-pg147-grc-lat_migne1865.txt"
       },
       {
         "title": "Chronicle, books 8 to 11 (tr. J.-B. Chabot)",

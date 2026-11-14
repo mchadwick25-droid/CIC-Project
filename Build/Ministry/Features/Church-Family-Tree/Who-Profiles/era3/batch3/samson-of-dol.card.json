@@ -21,12 +21,19 @@
     ]
   },
   "uncertain": [
-    "Nearly all that is known of him comes from one Life, a book of miracles whose writer gives no name. The writer says he drew on an old man of Samson's family and on writings of the deacon Henoc.",
-    "When the Life was written. Taylor accepts 610 to 615, following Abbé Duine, who found in it nothing borrowed from writings later than the end of the 500s. Taylor reports that Fawtier called the work spurious and did not accept its writer's statements on its authorship and origin; Duine and Professor Loth answered him.",
+    "Nearly all that is known of him comes from one Life, a book of miracles whose writer gives no name. The writer says he drew on an old man of Samson's family and on accounts the deacon Henoc brought from overseas.",
+    "When the Life was written. Taylor accepts 610 to 615, following Abbé Duine, who found in it nothing borrowed from writings later than the end of the 500s. Taylor reports that Fawtier called the work spurious and did not accept its writer's statements on its authorship and origin; Duine and Professor Loth answered him. Hugh Williams, editing Gildas in 1899, puts it no earlier than the seventh century and no later than 824.",
     "The council signature is a second witness to the man, not to the Life's details. It reads only \"Samson\", with no see; Maassen's note gives Dol with a question mark, and his index lists him as bishop of Dol.",
     "His birth and consecration years are Taylor's reckoning from the Life's notes on the day of his consecration, and the Life gives no year."
   ],
   "sources": {
+    "ownWords": [
+      {
+        "title": "Signature at the council of Paris, 556 to 573, if the signer is he (in Concilia aevi Merovingici, ed. Friedrich Maassen)",
+        "language": "Latin",
+        "file": "cic/texts/concilia-aevi-merovingici-mgh-concilia-1-lat_maassen1893.txt"
+      }
+    ],
     "about": [
       {
         "title": "The Life of St. Samson of Dol",
@@ -51,6 +58,12 @@
         "author": "W. J. Rees (ed.)",
         "language": "Latin, with English translation",
         "file": "cic/texts/rees_lives-of-the-cambro-british-saints-lat-eng_1853.txt"
+      },
+      {
+        "title": "Note on the date of the Life of Samson, in his edition of Gildas",
+        "author": "Hugh Williams",
+        "language": "English",
+        "file": "cic/texts/gildas_de-excidio-britanniae-lorica-penitential-lat-eng_williams1899.txt"
       }
     ]
   }
