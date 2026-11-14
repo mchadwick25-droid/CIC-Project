@@ -670,8 +670,8 @@
    },
    {
     "claim": "Bishop after Quiricus; signs first at four councils: Antonio, 'post Quiricum, qui anno obiit 681, electus antistes'; 'Interfuit, et ante alios subscripsit quatuor conciliis Toletanis: duodecimo, anno 681, decimo tertio, anno 683, decimo quarto, anno 684 ... necnon decimo quinto ... 688'; Toledo XV: 'Ego Julianus urbis regiae metropolitanus'",
-    "witness": "PL96 (ildefonsus-julian-toledo-pl96-lat_migne1862.txt) l.36889-36899; HISP (collectio-canonum-ecclesiae-hispanae-toledo-iii-lat_1808.txt) l.52960",
-    "formation_confidence": "Widely Accepted"
+    "witness": "PL96 (ildefonsus-julian-toledo-pl96-lat_migne1862.txt) l.36887-36899; HISP (collectio-canonum-ecclesiae-hispanae-toledo-iii-lat_1808.txt) l.49064 (Toledo XII, era 719, l.49058-49060), l.50783 (XIII), l.51683 (XIV), l.52960 (XV)",
+    "formation_confidence": "Documented"
    },
    {
     "claim": "History of Wamba: contents 'Historia rebellionis Pauli adversus Wambam Gothorum regem'",
@@ -679,7 +679,7 @@
     "formation_confidence": "Documented"
    },
    {
-    "claim": "On the Proof of the Sixth Age, dedicated 'Inclyto et glorioso ... domino Ervigio regi'; the surgeon image 'Peritorum mos est iste medicorum, ubilibet vulnus serpit in corpore, ferro vulneris materiam praevenire'; 'Horum igitur membrorum evitandam putredinem linguas dixerim Judaeorum, qui promissum ex lege Christum Dei Filium necdum adhuc natum fuisse putant'; 'impositum mihi a vobis onus'",
+    "claim": "On the Proof of the Sixth Age, dedicated 'Inclyto et glorioso ... domino Ervigio regi'; the surgeon image 'Peritorum mos est iste medicorum, ubilibet vulnus serpit in corpore, ferro vulneris materiam praevenire'; 'Horum igitur membrorum evitandam putredinem linguas dixerim Judaeorum, qui promissum ex lege Christum Dei Filium necdum adhuc natum fuisse putant'; 'impositum mihi a vobis onus'; 'Hujus admirabilis medelae peritiam credo vestram ... voluisse imitari clementiam'; 'ne locus vulneris sana membra contingat'; 'sanis adhuc membris me praecipis impendere curam'; the Jews' argument that by the Hebrew books the world is in its fifth age",
     "witness": "PL96 (ildefonsus-julian-toledo-pl96-lat_migne1862.txt) l.413, 45561-45569, 45611-45614, 45657-45660 [OCR 'Judacorum', 'lingnas']",
     "formation_confidence": "Documented"
    },
@@ -722,6 +722,16 @@
     "claim": "Card: monk: 'Qui S. Julianum monachis annumerarunt, ut Arnoldus Wion ... et Hugo Menardus in Menologio Benedictino'",
     "witness": "PL96 (ildefonsus-julian-toledo-pl96-lat_migne1862.txt) l.37630-37637",
     "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Felix: 'pontificatus dignitatem annis decem obtinuit, mense uno, diebus septem ... anno tertio Egicanis principis, pridie Nonas Martii, aera septingentesima vigesima octava, diem vitae clausit extremum, ac sic in basilica gloriosissimae sanctae Leocadiae virginis ... est tumulatus'; the Toledo edition's note: 6 March 690, consecration 29 January 680",
+    "witness": "PL96 l.37355-37360 [OCR 'Noiias', 'Mariii', 'tnmn- latus']; note l.37362-37389",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Isidore Pacensis placed 'medio saeculo post Felicem auctor'; Antonio: 'Increbuit apud posteros fama', 'subdubitari a quibusdam video'; PL96 prints the editor as 'Antonio Lorenza'/'Antonii Lorenza'",
+    "witness": "PL96 l.45586-45587; l.36870-36873; l.3640, 16518",
+    "formation_confidence": "Documented"
    }
   ],
   "contested_claims": [
@@ -729,7 +739,14 @@
     "claim": "Whether Julian came of a Jewish family",
     "sides": [
      "Rodericus of Toledo and Isidore Pacensis, reported by Nicolás Antonio, who thinks many believe it with reason (l.36870-36876)",
-     "The notes of Lorenzana's Toledo edition: the reader should not trust Isidore Pacensis, whose source is unknown; Felix is silent (l.37574-37580)"
+     "The notes of Cardinal Lorenzana's Toledo edition: the reader should not trust Isidore Pacensis, whose source is unknown; Felix is silent (l.37574-37580)"
+    ]
+   },
+   {
+    "claim": "When he became bishop",
+    "sides": [
+     "Nicolás Antonio: Quiricus died in 681 (PL96 l.36887-36889)",
+     "The Toledo edition's note: consecrated 29 January 680, from Felix's count (l.37362-37389)"
     ]
    }
   ],
@@ -737,10 +754,6 @@
    {
     "detail": "His birth year",
     "note": "No held line gives it. The Library header's c.642 rests on no held text"
-   },
-   {
-    "detail": "His death date",
-    "note": "Antonio gives the third year of Egica, 690, as his last (l.36897-36899); Felix's death notice is not in the held lines read"
    }
   ]
  },
@@ -762,8 +775,8 @@
     "formation_confidence": "Dominant Modern Reconstruction"
    },
    {
-    "claim": "Other held accounts are late: the Latin Life of Winefred in Rees (no date given); Mirk's Festial (Mirk active about 1403); the Ancient Laws of Wales cited by Hugh Williams",
-    "witness": "REES (rees_lives-of-the-cambro-british-saints-lat-eng_1853.txt) l.9203-9372; MIRK (mirk_festial-enm_erbe1905.txt) header, l.9392; GILDAS (gildas_de-excidio-britanniae-lorica-penitential-lat-eng_williams1899.txt) l.15568-15570",
+    "claim": "Other held accounts are late: the Latin Life of Winefred in Rees (no date given); Mirk's Festial (no held line gives its date; the 'about 1403' is the Library header's); the Ancient Laws of Wales cited by Hugh Williams",
+    "witness": "REES (rees_lives-of-the-cambro-british-saints-lat-eng_1853.txt) l.9203-9372; MIRK (mirk_festial-enm_erbe1905.txt) l.9392; GILDAS (gildas_de-excidio-britanniae-lorica-penitential-lat-eng_williams1899.txt) l.15568-15570",
     "formation_confidence": "Documented"
    },
    {
@@ -805,17 +818,22 @@
     "claim": "Card: Mirk: 'a holy heremyt that was callet Bewnow'",
     "witness": "MIRK l.9392 [OCR 'pat' for 'that']",
     "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The Life: Beuno 'took orders, and became a clergyman'; Ynyr Gwent became 'a disciple and monk to Saint Beino'; Cadwallon, Cadvan's son, 'king after him'; festival April 21",
+    "witness": "REES l.13440, 13445-13446, 13637-13641; l.13457-13458",
+    "formation_confidence": "Inferential-Thin"
    }
   ],
   "contested_claims": [],
   "absent_details": [
    {
     "detail": "Any witness near his own time",
-    "note": "Every held account is late: the Welsh Life (probably compiled about the twelfth century, Rees thinks), the Latin Life of Winefred, Mirk's Festial (about 1403), and the Laws of Wales cited by Williams. The Annales Cambriae, Bede and Adomnan, searched, do not name him"
+    "note": "Every held account is late: the Welsh Life (probably compiled about the twelfth century, Rees thinks), the Latin Life of Winefred, Mirk's Festial (undated in any held line), and the Laws of Wales cited by Williams. The Annales Cambriae, Bede and Adomnan, searched, do not name him"
    },
    {
     "detail": "The year of his death",
-    "note": "The Life gives only the day, the seventh after Easter"
+    "note": "The Life gives only the day of his last vision, the seventh after Easter"
    }
   ]
  }

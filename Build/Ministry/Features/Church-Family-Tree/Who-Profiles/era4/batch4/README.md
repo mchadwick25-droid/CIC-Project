@@ -11,7 +11,7 @@ The held witnesses go well past those the scans list:
 - **Hincmar.** Beyond the annals, Mansi 15 holds his chapters for his priests and letters, and Mansi 16 the council of Douzy and the writings of both Hincmars. Krusch's MGH volume holds his Life of Remigius. The scan says his canon-law and theological work is not held.
 - **Prudentius.** Patrologia Latina 115 holds his own works, among them his treatise against John Scotus Eriugena, with Nicolás Antonio's notice. The scan has only the annals and Hincmar's notice.
 - **Jonas.** His preface to the Life of Columbanus is held in Latin, in Barralis's book of 1613. His Life of John of Réomé, with its opening on his journey of 659, is held in Krusch's MGH volume.
-- **Julian.** Toledo XV's reply to Pope Benedict, with a section under Julian's name, is held in the Collectio canonum Ecclesiae Hispanae.
+- **Julian.** Toledo XV's answer to the points Pope Benedict had raised, with a section under Julian's name, is held in the Collectio canonum Ecclesiae Hispanae. Felix's notice of his death is held in Patrologia Latina 96.
 
 Many lines of these men are held only in Latin. The briefs tell those lines in modern words, with the source named, and keep quotation marks for held English (Munro's Jonas, Brehaut's Braulio, Rees's Beuno).
 

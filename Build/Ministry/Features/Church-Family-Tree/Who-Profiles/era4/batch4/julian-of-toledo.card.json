@@ -4,7 +4,7 @@
     "Julianus"
   ],
   "knownFor": "Bishop of Toledo in Visigothic Spain, who signed first at four councils of Toledo. He wrote the Prognosticon, on death and what follows it, and a history of King Wamba's war.",
-  "dates": "Bishop after Quiricus, whom Nicolás Antonio has dying in 681, until the third year of King Egica, which Antonio reckons as 690. He signed the councils of Toledo of 681, 683, 684 and 688. No held source gives his birth year",
+  "dates": "Bishop after Quiricus. Felix says he held the see ten years, one month and seven days, and died in the third year of King Egica, in era 728. The Toledo edition's notes read this as 6 March 690, with his consecration on 29 January 680. Nicolás Antonio has Quiricus dying in 681. He signed the councils of Toledo of 681, 683, 684 and 688. No held source gives his birth year",
   "place": "Born, baptized and brought up at Toledo, Felix of Toledo says; bishop of Toledo",
   "tradition": "Nicene Visigothic Iberia",
   "role": "Bishop of Toledo",
@@ -16,7 +16,7 @@
     },
     {
       "title": "On the Proof of the Sixth Age",
-      "about": "three books written at King Ervig's command, arguing against the Jews of his day that Christ had already come. The opening letter calls their tongues the rotting limbs a surgeon must cut away"
+      "about": "three books written at King Ervig's command, against Jews of his day. They reckoned the world was still in its fifth age, so Christ had not yet come. The opening letter calls their tongues the rot a surgeon cuts away before it reaches healthy limbs"
     },
     {
       "title": "History of King Wamba",
@@ -31,14 +31,15 @@
     ],
     "remembered": [
       "Felix calls him a man full of the fear of the Lord, generous in alms and quick to help the oppressed.",
-      "Nicolás Antonio says the Breviary of Toledo keeps his feast on 8 March, and Usuard's martyrology on 6 March."
+      "Nicolás Antonio says the Breviary of Toledo keeps his feast on 8 March, and Usuard's martyrology on 6 March. The Toledo edition's notes take 6 March as his death day."
     ]
   },
   "uncertain": [
     "His life rests on his own letters and on Felix's short Life, a tribute by a later bishop of Toledo who lived in his time.",
-    "Whether he came from a Jewish family. Nicolás Antonio reports that Rodericus of Toledo and Isidore Pacensis say so, and that Felix does not. Antonio thinks many believe it with reason. The notes of Francisco Antonio Lorenzana's Toledo edition, which Migne follows, warn the reader not to trust it, since its source is unknown.",
-    "The year of the Prognosticon. The preface in Patrologia Latina 96 puts it in 688 or 689. Idalius is known to have come to Toledo only for the council of 688, it says.",
-    "Whether he was a monk. Felix says he and Gudila wished to be, but God judged otherwise. Lorenzana's notes reject later writers who counted him among the Benedictines."
+    "Whether he came from a Jewish family. Nicolás Antonio reports this as a story among later writers, from Rodericus of Toledo and Isidore Pacensis, a chronicler of half a century after Felix. Felix does not say it. Some doubt it, Antonio says, but many believe it with reason. The notes of Cardinal Lorenzana's Toledo edition, which Migne follows, warn the reader not to believe it readily, since its source is unknown.",
+    "When he became bishop. Nicolás Antonio has Quiricus dying in 681. The Toledo edition's notes count back from Felix's ten years, one month and seven days to 29 January 680.",
+    "The year of the Prognosticon. The preface in Patrologia Latina 96 guesses 688 or 689. Idalius is not known to have come to Toledo except for the council of 688, it says.",
+    "Whether he was a monk. Felix says he and Gudila wished to be, but God judged otherwise. Cardinal Lorenzana's notes reject later writers who counted him among the Benedictines."
   ],
   "sources": {
     "ownWords": [
@@ -66,7 +67,7 @@
       },
       {
         "title": "Notice of Julian, and the notes of the Toledo edition, in Patrologia Latina 96",
-        "author": "Nicolás Antonio; Francisco Antonio Lorenzana (ed.)",
+        "author": "Nicolás Antonio; Cardinal Lorenzana (ed.)",
         "date": "1862",
         "language": "Latin",
         "file": "cic/texts/ildefonsus-julian-toledo-pl96-lat_migne1862.txt"
