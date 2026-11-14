@@ -363,9 +363,9 @@
     "formation_confidence": "Documented"
    },
    {
-    "claim": "The old man served in Doctrina IV §9 is 'abbatis Joannis', with no epithet; his identity with John called the Prophet, disciple of Barsanuphius, rests on Gallandi's notice and the heading of the Questions ('ad ejus discipulum abbatem Joannem, cognomento Prophetam', l.139574-139581)",
-    "witness": "PG 88 (dorotheus-gaza_doctrinae-barsanuphius-climacus-agathias-grc-lat_migne-pg88 l.126277, 121957-121958, 139574-139581)",
-    "formation_confidence": "Inferential-Thin"
+    "claim": "The abbot John Dorotheus served is John, disciple of Barsanuphius: Dorotheus himself writes 'Memini me quandoque abbatem Joannem beati Barsanuphii discipulum interrogasse' (OCR 'Barsanuplii'); the old man of Doctrina IV §9 is the same 'abbatis Joannis', with no epithet there; Gallandi's notice and the heading of the Questions agree. The epithet 'the Prophet' is the heading's ('ad ejus discipulum abbatem Joannem, cognomento Prophetam') and Gallandi's ('Prophetae titulo clarum'), not Dorotheus's",
+    "witness": "Dorotheus, Doctrina I, PG 88 (dorotheus-gaza_doctrinae-barsanuphius-climacus-agathias-grc-lat_migne-pg88 l.124096-124098); Doctrina IV §9 (l.126277); Gallandi's Notitia (l.121957-121958); heading of the Questions (l.139574-139581)",
+    "formation_confidence": "Documented"
    },
    {
     "claim": "Migne heads the notice 'ANNO DOMINI DXCVI'; the notice is Gallandi's ('Galland., Veterum Patrum Biblioth., tom. XII, Proleg., p. xxvii, et p. 571', OCR 'Garcaxo.')",
@@ -388,8 +388,8 @@
     "formation_confidence": "Contested"
    },
    {
-    "claim": "'Dorothée est né vers 540'; the monastery's heads 'au VIe siècle' were 'Barsanuphios, Séridos et enfin Dorothée?'",
-    "witness": "Nau, appendix to the Plerophories (po08_john-rufus-plerophories-and-others-fra_1912 l.11421-11424, 11524); Nau's own query mark",
+    "claim": "'Dorothée est né vers 540' (Nau's footnote 3); the monastery's heads 'au VIe siècle' were 'Barsanuphios, Séridos et enfin Dorothée' (the '?' after 'Dorothée' in the file is the OCR of the footnote number 3), so Nau has Dorotheus succeed Seridus as head of the same house",
+    "witness": "Nau, appendix to the Plerophories (po08_john-rufus-plerophories-and-others-fra_1912 l.11421-11424, 11524)",
     "formation_confidence": "Dominant Modern Reconstruction"
    },
    {
@@ -415,6 +415,11 @@
    {
     "claim": "'Hujus rei mirabile exemplar fuit beatus ille Dositheus, qui a vita deliciosissima et molli veniens, nullis divinarum rerum doctrinis imbutus, brevi tempore in summam perfectionem provectus est, dum obedientiam unicam amplectitur, et propriam voluntatem abscindit'; the passage opens on 'propriam abscindere voluntatem quantum conferat'",
     "witness": "Dorotheus, Doctrina I §10, PG 88 (dorotheus-gaza_doctrinae-barsanuphius-climacus-agathias-grc-lat_migne-pg88 l.123809-123815, OCR 'exem- nlar', 'nuliis', 'cst')",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Dositheus was Dorotheus's first disciple: the Greek of the letter printed before the Teachings speaks of 'the blessed Dositheus, who became the first disciple of the blessed abba Dorotheus while he was still among abba Seridus's monks' (OCR 'Aozídsos ... pa0nziyy to$ paxapiou àC6d Auoo0£ou Ext bvtoc avtoð èy xol; tod a66à Espiüus'); the Synaxaristes puts Dositheus in Seridus's monastery 'ὑπὸ τὴν προστασίαν τοῦ ἁγίου Δωροθέου'",
+    "witness": "Anonymous letter, Greek, PG 88 (dorotheus-gaza_doctrinae-barsanuphius-climacus-agathias-grc-lat_migne-pg88 l.122463-122465); Synaxaristes vol. 2, 13 August (nikodemos-hagiorite_synaxaristes-vol2-mar-aug-grc_1900 l.37925-37927, OCR)",
     "formation_confidence": "Documented"
    },
    {
@@ -471,6 +476,14 @@
    {
     "claim": "Whether the Dorotheus of the Teachings is the one condemned with the Acephali",
     "sides": "The anonymous preface: two of each name, and the Teachings belong to the sound one (dorotheus-gaza_doctrinae-barsanuphius-climacus-agathias-grc-lat_migne-pg88 l.122103-122108); Theodore the Studite separates the condemned from those he accepts (l.122119-122131). Theodore's own profession anathematizes Barsanuphius, Isaiah, Dorotheus and Dositheus 'quos sanctus Sophronius anathematizavit' (PG 99 l.85908-85910). Already a contested claim for batch 3's Barsanuphius and John; no held modern scholar was found discussing it."
+   },
+   {
+    "claim": "Which monastery Dorotheus headed",
+    "sides": [
+     "The Synaxaristes revised by Nikodemos the Hagiorite: after John died he founded a monastery of his own (nikodemos-hagiorite_synaxaristes-vol2-mar-aug-grc_1900 l.37916-37921, OCR very rough)",
+     "Nau: the heads in turn of Seridus's monastery were Barsanuphius, Seridus and at last Dorotheus (po08_john-rufus-plerophories-and-others-fra_1912 l.11421-11424)",
+     "Gallandi calls him archimandrite without saying of which house (dorotheus-gaza_doctrinae-barsanuphius-climacus-agathias-grc-lat_migne-pg88 l.121957)"
+    ]
    }
   ],
   "absent_details": [
@@ -484,7 +497,7 @@
    },
    {
     "detail": "An early witness that he founded his own monastery",
-    "note": "The founding is told only by the Synaxaristes revised by Nikodemos the Hagiorite (l.37916-37921), in very rough OCR. Gallandi calls him archimandrite; Nau lists him, with a query mark, as a later head of Seridus's monastery."
+    "note": "The founding is told only by the Synaxaristes revised by Nikodemos the Hagiorite (l.37916-37921), in very rough OCR. Gallandi calls him archimandrite; Nau lists him as the last of the heads of Seridus's monastery (po08 l.11421-11424)."
    },
    {
     "detail": "English of Dorotheus",
@@ -942,7 +955,7 @@
    },
    {
     "claim": "Paul took the birthplace, the healing of the eyes at Ravenna and the journey to Tours from Fortunatus's Vita Martini IV",
-    "witness": "Foulke's note (paul-the-deacon foulke1907 l.15709-15722)",
+    "witness": "Foulke's note, citing R. Jacobi's 1877 study of Paul's sources ('(Jacobi, 27, 28)'; paul-the-deacon foulke1907 l.15709-15722; Jacobi's study named in Foulke's preface l.174-177); Jacobi's finding, reported by Foulke",
     "formation_confidence": "Widely Accepted"
    },
    {
@@ -978,6 +991,11 @@
    {
     "claim": "To Agnes: 'Matcr lionore iiiilii , soror aiitciu diilcis aiiiorc' [OCR: Mater honore mihi, soror autem dulcis amore]; 'caclesti aftcctu , iion criniine corporis ullo: nou caro , scd lioc quod s|)iritas optat aino. tcstis adest Cliristus' [OCR: caelesti affectu, non crimine corporis ullo: non caro, sed hoc quod spiritus optat amo. testis adest Christus]",
     "witness": "Fortunatus, Carm. XI.6 (venantius-fortunatus leo-krusch1881 l.22363-22369)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Agnes was abbess of the monastery of the Holy Cross: Carm. XI.5 is headed to the abbess ('ad abbatissam', OCR 'ail ahliatissain') and names 'Agnes' (OCR 'Afjncs'); Leo's index lists his poems to Agnes",
+    "witness": "Fortunatus, Carm. XI.5 (venantius-fortunatus leo-krusch1881 l.22331-22334); Leo, Index personarum (venantius-fortunatus leo-krusch1881 l.50812-50816)",
     "formation_confidence": "Documented"
    },
    {
@@ -1031,7 +1049,7 @@
     "formation_confidence": "Documented"
    },
    {
-    "claim": "Dalton: 'Gregory never alludes to Fortunatus as bishop, because the latter was only consecrated to the see of Poitiers after his death (cf. Introduction, p. 83 n. i)'; the Introduction is not held",
+    "claim": "Dalton: 'Gregory never alludes to Fortunatus as bishop, because the latter was only consecrated to the see of Poitiers after his death (cf. Introduction, p. 83 n. i)'; the Introduction is not held; Dalton is Gregory's English translator, and the brief gives his view as what he thinks, not as fact",
     "witness": "Dalton's note (gregory-tours dalton1927 l.26296-26299)",
     "formation_confidence": "Dominant Modern Reconstruction"
    },
@@ -1051,7 +1069,7 @@
     "formation_confidence": "Dominant Modern Reconstruction"
    },
    {
-    "claim": "Born 'crediiur circ:i annum 530' [OCR: creditur circa annum 530]; died old at Poitiers early in the seventh century",
+    "claim": "Luchi reports the common belief that he was born about 530 ('natus crediiur circ:i annum 530' [OCR: natus creditur circa annum 530], 'is believed to have been born'); died old at Poitiers early in the seventh century",
     "witness": "Luchi (regula-magistri-cresconius pl88 migne1862 (Luchi's Vita) l.1101-1103)",
     "formation_confidence": "Inferential-Thin"
    },
@@ -1109,6 +1127,13 @@
      "Luchi: born about 530, died early in the seventh century (regula-magistri-cresconius pl88 migne1862 (Luchi's Vita) l.1101-1103)",
      "Hugh Williams: died about 609 (gildas williams1899 l.12820)",
      "Coming to Gaul: Krusch 565 (venantius-fortunatus leo-krusch1881 l.41199); Leo's index between 561 and 567 (venantius-fortunatus leo-krusch1881 l.51727-51733); Paul: a little before the Lombards invaded (paul-the-deacon foulke1907 l.4091-4093)"
+    ]
+   },
+   {
+    "claim": "Which prose Lives are his",
+    "sides": [
+     "Earlier scholars gave him the Life of Medard: Krusch quotes the codex clause 'Fortunatus pruesbitcr cim- piisuit hucc vita vcl actus sancti Mcdunli' [OCR: Fortunatus presbiter composuit haec vita vel actus sancti Medardi] and two Soissons monks (venantius-fortunatus leo-krusch1881 l.42457-42468); Tillemont gave the Life of Marcellus to an older Fortunatus (venantius-fortunatus leo-krusch1881 l.41188-41193)",
+     "Krusch: the extant Life of Medard was written after 602 ('post a. dcniuin (1(12' [OCR: post a. demum 602]) and is not his, and whether the older lost book was his is 'quaestio inanis'; the Life of Marcellus is the poet's (venantius-fortunatus leo-krusch1881 l.42540-42550, 41192-41193); Arndt and Krusch: the short Life of Remigius is 'Fortunato male tributa' (gregory-tours arndt-krusch1885 l.60195-60196)"
     ]
    }
   ],
@@ -1674,6 +1699,11 @@
     "formation_confidence": "Widely Accepted"
    },
    {
+    "claim": "Radegund, queen of the Thuringians ('regina Thoringorum'), founded the monastery of the Holy Cross at Poitiers: 'the blessed Radegund founded the monastery'",
+    "witness": "Krusch, Proemium (venantius-fortunatus leo-krusch1881 l.41894); Gregory HF IX.40, tr. Dalton (gregory-tours dalton1927 l.19597-19598)",
+    "formation_confidence": "Documented"
+   },
+   {
     "claim": "Dalton: 'Baudonivia, also a contemporary, and a nun of the queen's monastery of the Holy Cross'; 'Baudonivia the nun, who was in the monastery during Radegund's life'",
     "witness": "Dalton's notes (gregory-tours dalton1927 l.24356-24358, 29583-29584)",
     "formation_confidence": "Widely Accepted"
@@ -1714,8 +1744,8 @@
     "formation_confidence": "Documented"
    },
    {
-    "claim": "Her prologue: 'quam ab ipsis cunabulis ante sua vestigia peculiarem vernulam familiariter enutrivit' (OCR 'vp,'stigia'); the same words in Fortunatus's prologue to the Life of Hilary, of Hilary and the abbot Pascentius: 'qui te ab ipsis cunabulis ante sua vestigia quasi peculiarem vernulam familiaiiter [OCR] enutrivit'. A borrowed formula; it does not prove she was Radegund's foster-child",
-    "witness": "fredegar ... mgh-srm-2 krusch1888 l.29449-29450; venantius-fortunatus leo-krusch1881 l.43008-43009",
+    "claim": "Her prologue: 'quam ab ipsis cunabulis ante sua vestigia peculiarem vernulam familiariter enutrivit' (OCR 'vp,'stigia'); the same words in Fortunatus's prologue to the Life of Hilary, said of Hilary and Pascentius, bishop of Poitiers, once abbot of St Hilary: 'qui te ab ipsis cunabulis ante sua vestigia quasi peculiarem vernulam familiaiiter [OCR] enutrivit'. Krusch reads the phrase there as meaning Hilary's monastery, not the living Hilary, raised Pascentius ('Erat quidem Pascentius S. Hilarii alumnus, neque vivi, sed monasterii'), and says those who read it literally erred. A borrowed formula; the phrase alone does not show that Radegund raised her",
+    "witness": "fredegar ... mgh-srm-2 krusch1888 l.29449-29450; venantius-fortunatus leo-krusch1881 l.42997, 43008-43011 (Fortunatus addresses Pascentius as 'papa'); Krusch, Proemium (venantius-fortunatus leo-krusch1881 l.41117-41123); Gregory HF IV.18 on Pascentius, abbot of St Hilary, made bishop (gregory-tours dalton1927 l.6282-6284)",
     "formation_confidence": "Documented"
    },
    {
@@ -1734,8 +1764,8 @@
     "formation_confidence": "Documented"
    },
    {
-    "claim": "At Poitiers 'inimicus humani generis per satellites suos egit, ut pretium mundi repellerent nec in civitatem recipere vellent' (OCR); she does not name the bishop, saying 'pontifex loci'",
-    "witness": "Baudonivia II.16 (fredegar ... mgh-srm-2 krusch1888 l.30257-30259)",
+    "claim": "When the relic reached Poitiers, 'pontifex loci cum omni populo devote hoc vellet excipere' (the bishop of the place with all the people wished to receive it devoutly), and then 'inimicus humani generis per satellites suos egit, ut pretium mundi repellerent nec in civitatem recipere vellent' (OCR 'veUet', 'repcnerent'); she names no one",
+    "witness": "Baudonivia II.16 (fredegar ... mgh-srm-2 krusch1888 l.30256-30260); Dalton quotes the same Latin (gregory-tours dalton1927 l.29584-29588)",
     "formation_confidence": "Documented"
    },
    {
@@ -1823,7 +1853,7 @@
    {
     "claim": "Who would not receive the relic of the Cross at Poitiers",
     "sides": [
-     "Baudonivia: the enemy of mankind worked through his agents; she names no one and calls the bishop only 'pontifex loci' (fredegar ... mgh-srm-2 krusch1888 l.30257-30259)",
+     "Baudonivia: the bishop of the place with all the people wished to receive it devoutly ('pontifex loci cum omni populo devote hoc vellet excipere'), and the enemy of mankind worked through his agents; she names no one (fredegar ... mgh-srm-2 krusch1888 l.30256-30260)",
      "Gregory: Bishop Maroveus disregarded the request and rode off to a country estate (gregory-tours dalton1927 l.19600-19610); Krusch's note names Maroveus (fredegar ... mgh-srm-2 krusch1888 l.30297); Dalton says she has the devil seduce Maroveus and the people (gregory-tours dalton1927 l.29584-29586)"
     ]
    }
@@ -1847,7 +1877,7 @@
    },
    {
     "detail": "Proof that Radegund raised her",
-    "note": "The only line is the borrowed formula from Fortunatus's Hilary prologue; no other held line says it."
+    "note": "The only line is the formula borrowed from Fortunatus's Hilary prologue, where Krusch reads it as meaning Hilary's monastery raised Pascentius (venantius-fortunatus leo-krusch1881 l.41117-41123); no other held line says it."
    }
   ]
  }
