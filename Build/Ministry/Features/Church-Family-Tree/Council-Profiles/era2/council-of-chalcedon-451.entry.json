@@ -1,0 +1,310 @@
+{
+  "id": "council-of-chalcedon-451",
+  "kind": "major-council",
+  "kindLabel": "Major council",
+  "era": 2,
+  "name": "Council of Chalcedon",
+  "shortName": "Chalcedon 451",
+  "informalName": "The Fourth Ecumenical Council",
+  "dates": "451",
+  "start": 451,
+  "end": 451,
+  "region": "Chalcedon, in Bithynia",
+  "placeLabel": "Chalcedon",
+  "modernCountries": [
+    {
+      "country": "Turkey",
+      "countryId": "Q43",
+      "place": "Chalcedon"
+    }
+  ],
+  "rivers": [
+    "Greek East",
+    "Africa",
+    "Caucasus",
+    "Syriac East",
+    "Latin West"
+  ],
+  "teaser": "Chalcedon, 451. Bishops called by the emperor Marcian deposed Dioscorus of Alexandria, received Leo of Rome's Tome, and defined Christ as one person in two natures. Egypt, Syria and Armenia would not accept it.",
+  "knownFor": "The council of 451 that deposed Dioscorus of Alexandria, took Leo of Rome's Tome as its guide, and defined Christ as one person known in two natures, a definition the churches of Egypt, Syria and Armenia refused.",
+  "datesNote": "451. The sessions ran from 8 October to 1 November by Charles Joseph Hefele's dating. The acts themselves date Dioscorus's deposition to 13 October",
+  "issue": [
+    "In 448 a synod at Constantinople under its bishop, Flavian, condemned Eutyches, the head of a monastery there, who confessed two natures before the union and one after it (the minutes, read again at Ephesus in 449, in S. G. F. Perry's English).",
+    "Leo of Rome answered Flavian in 449 with the letter known as the Tome: each nature keeps what is its own, and \"each “form” does the acts which belong to it, in communion with the other\" (the Tome, as read at Chalcedon).",
+    "In 449 a council at Ephesus under Dioscorus of Alexandria restored Eutyches \"to his Monastery and to his Grade\" and deposed Flavian, who protested (the Syriac acts of 449, Perry's English). Leo called it a meeting \"not of judges but of robbers\" (Leo, letter to Pulcheria).",
+    "The question was whether Christ is to be confessed from two natures only, as Dioscorus would have it (\"I receive “the of two;” “the two” I do not receive\"), or in two natures after the union, as Leo taught (acts, Sessions I and V).",
+    "On one side stood Leo, his legates and, by the end, most of the bishops and the court; on the other, Dioscorus and the Egyptian bishops. The chronicle known as that of Zachariah of Mitylene says the Nestorian party at court pressed for Theodoret of Cyrrhus to preside (Zachariah, Chronicle III.1)."
+  ],
+  "calledBy": "The emperor Marcian, with Valentinian III in the West, after the death of Theodosius II in 450; the empress Pulcheria acted with him (Definition of Chalcedon; Hefele). The chronicle known as Zachariah's says the council was brought together by Leo's exertion and his letter to Marcian and Pulcheria. It was called to Nicaea and moved to Chalcedon so the emperor could attend (Hefele, from Marcian's letters; Zachariah)",
+  "attended": [
+    "520, by the Greek text of the council's letter to Leo; 567, by the chronicle known as Zachariah's. Hefele says Leo speaks of about 600, and the number usually reckoned, with representatives, is 630. The lists of those present are not complete, Hefele says.",
+    "In Session IV, 161 bishops gave their opinions one by one before the rest voted together (acts). Henry Percival, the English editor, notes that 350 signed the definition and 192 the canon on Constantinople's rank.",
+    "Leo was represented by the bishops Paschasinus of Lilybaeum and Lucentius and the presbyter Boniface (acts). The emperor's commissioners and the senate sat as judges (acts).",
+    "All were Greek and Eastern bishops except the Roman legates and two Africans, Aurelius of Adrumetum and Rusticianus, whom Hefele takes to be refugees from the Vandals.",
+    "Armenia took no part, by the account of Malachia Ormanian. The councils on Eutyches met without her knowledge, he says, and Chalcedon met after the battle of Avarayr, with her bishops in prison or in exile."
+  ],
+  "traditions": [
+    {
+      "id": "imperial-juridical-christianity",
+      "name": "Imperial and Juridical Christianity",
+      "part": "Gathered",
+      "note": "Marcian called the council and came to receive its definition; Leo's legates presided over the votes, and the council raised Constantinople to rank next after Rome."
+    },
+    {
+      "id": "cyrilline-miaphysite-egyptian-christianity",
+      "name": "The Church of Alexandria and Miaphysite Egypt",
+      "part": "Condemned",
+      "note": "The council deposed Dioscorus of Alexandria on 13 October and put Proterius in his place; Evagrius tells of riots in Alexandria."
+    },
+    {
+      "id": "syriac-orthodox-west-syriac-christianity",
+      "name": "Syriac Orthodox (West Syriac) Christianity",
+      "part": "Refused",
+      "note": "The Syriac chronicle known as Zachariah's anathematises the council, and Severus of Antioch's letters anathematise \"the things done at Chalcedon\"."
+    },
+    {
+      "id": "the-church-of-the-east-under-persia",
+      "name": "The Church of the East under Persia",
+      "part": "Affected",
+      "note": "Its own collection of synods, the Synodicon orientale, includes Chalcedon's canons, profession of faith and Leo's Tome; Jean-Baptiste Chabot, its editor, says it accepted Chalcedon in so far as it condemned Eutyches."
+    },
+    {
+      "id": "armenian-christianity-after-avarayr",
+      "name": "Armenian Christianity after Avarayr",
+      "part": "Refused",
+      "note": "Ormanian says a synod at Dvin in 506 rejected the acts of Chalcedon, and a second at Dvin in 554 confirmed it."
+    }
+  ],
+  "decided": [
+    "Flavian had expounded the faith rightly and had been condemned unjustly at Ephesus in 449 (acts, Sessions I and II).",
+    "Leo's Tome agreed with the creeds of Nicaea and Constantinople and with Cyril; the bishops cried, \"Peter has spoken thus through Leo\" (acts, Sessions II and IV).",
+    "Dioscorus, called three times and not coming, was deposed \"on the thirteenth day of the month of October\" (the sentence sent to Dioscorus, Session III).",
+    "The Definition: the creeds of 325 and 381 stand; Cyril's letters and Leo's Tome are received; Christ is one and the same Son, confessed \"in two natures,\" \"unconfusedly, immutably, indivisibly, inseparably\" united in one person (the Definition of Faith, Session V).",
+    "No one may bring forward a different faith; bishops and clerics who do are deposed, monks and laymen anathematized (the Definition).",
+    "Jerusalem was to hold the three Palestines and Antioch the two Phoenicias and Arabia, by agreement of Juvenal and Maximus (Session VII).",
+    "Canon 28 gave Constantinople, New Rome, privileges equal to old Rome's and rank next after her, with the right to ordain the metropolitans of Pontus, Asia and Thrace (the canons; Session XVI).",
+    "Theodoret of Cyrrhus was received after he anathematized Nestorius (acts, as Blomfield Jackson quotes them)."
+  ],
+  "outcome": [
+    "Leo's legates protested canon 28 in Session XVI. Leo wrote to Pulcheria that by the authority of the apostle Peter \"we absolutely dis-annul\" the bishops' assents against the canons of Nicaea (Leo, Letter CV).",
+    "Dioscorus was sent to live at Gangra in Paphlagonia and Proterius made bishop of Alexandria. A riot followed; Evagrius of Epiphania, quoting the historian Priscus, says a crowd burned soldiers alive in the old temple of Serapis (Evagrius II.5).",
+    "In Palestine, monks who had been at the council raised the people against it and made the monk Theodosius bishop of Jerusalem in Juvenal's place (Evagrius II.5; Zachariah III.3).",
+    "The Syriac chronicle known as Zachariah's says the council \"tore into ten thousand rents the perfect Robe of Christ\"; Timothy Aelurus, later bishop of Alexandria, wrote a long work against it, which comes down only in Classical Armenian.",
+    "Malachia Ormanian, a former Armenian patriarch of Constantinople, says a synod at Dvin in 506 rejected the acts of Chalcedon and a synod at Dvin in 554 confirmed it; the Greek and Latin churches came to count Chalcedon the fourth ecumenical council, and the Armenian Church \"would have nothing to do with this transaction\" (Ormanian, 1912)."
+  ],
+  "record": [
+    {
+      "witness": "The acts of Chalcedon (extracts, Definition and canons in the English edition of the canons; Latin and Greek in Mansi, tomus 6 and 7)",
+      "kind": "acts",
+      "note": "The council's minutes, sentence, definition, canons and letters. The record of the side that won."
+    },
+    {
+      "witness": "Leo of Rome, letters (the Tome; letters to Pulcheria and Marcian; the council's letter to him)",
+      "kind": "participant",
+      "note": "Leo did not attend but sent the legates and the Tome. On the council's side for its faith, against it on canon 28."
+    },
+    {
+      "witness": "The Syriac acts of the Second Council of Ephesus, 449 (Perry's English; Flemming and Hoffmann's German)",
+      "kind": "acts",
+      "note": "The minutes of the council Chalcedon undid, with the 448 trial of Eutyches inside them. Background, not Chalcedon's own record."
+    },
+    {
+      "witness": "The Chronicle known as that of Zachariah of Mitylene (Hamilton and Brooks's English)",
+      "kind": "later narrative",
+      "note": "A Syriac compilation whose Book III is drawn from Zachariah's Greek history; its English editors say Zachariah's work ended in 491. From the side that rejected Chalcedon."
+    },
+    {
+      "witness": "Evagrius of Epiphania, Ecclesiastical History II (Walford's English)",
+      "kind": "later narrative",
+      "note": "Written more than a century later, on Chalcedon's side; he copied the definition and drew on Priscus."
+    },
+    {
+      "witness": "Timothy Aelurus, Refutation of the teaching of Chalcedon",
+      "kind": "later narrative",
+      "note": "The case against the council by a bishop of Alexandria who rejected it, kept only in Classical Armenian; no translation is held."
+    },
+    {
+      "witness": "Synodicon orientale (Chabot's French)",
+      "kind": "later narrative",
+      "note": "The Church of the East's own collection of synods, which carries Chalcedon's canons and profession of faith and Leo's Tome among the western councils it received."
+    },
+    {
+      "witness": "Charles Joseph Hefele, A History of the Councils, vol. 3",
+      "kind": "modern reconstruction",
+      "note": "Supplies the dates of the sessions, the usual count of 630 and the sequence. A Roman Catholic historian, on the council's side."
+    },
+    {
+      "witness": "W. A. Wigram, An Introduction to the History of the Assyrian Church (1910)",
+      "kind": "modern reconstruction",
+      "note": "An Anglican historian of the Church of the East; on who rejected Chalcedon in the East and how the Church of the East received it."
+    },
+    {
+      "witness": "Malachia Ormanian, The Church of Armenia (1912)",
+      "kind": "modern reconstruction",
+      "note": "A former Armenian patriarch of Constantinople; the Armenian Church's own account of its refusal."
+    }
+  ],
+  "people": [
+    {
+      "name": "Leo of Rome",
+      "id": "leo-of-rome",
+      "verdict": "WHO",
+      "part": "Not present; sent the legates and the Tome; rejected canon 28"
+    },
+    {
+      "name": "Dioscorus of Alexandria",
+      "id": "dioscorus-of-alexandria",
+      "verdict": "WHO",
+      "part": "Accused for his conduct at Ephesus in 449; deposed and exiled"
+    },
+    {
+      "name": "Theodoret of Cyrrhus",
+      "id": "theodoret-of-cyrrhus",
+      "verdict": "WHO",
+      "part": "Deposed in 449; admitted at Chalcedon after he anathematized Nestorius"
+    },
+    {
+      "name": "Eutyches",
+      "id": "eutyches",
+      "verdict": "WHO",
+      "part": "Not present; the monk whose condemnation and restoration lay behind the council; his teaching condemned"
+    },
+    {
+      "name": "Pulcheria",
+      "verdict": "LISTED",
+      "part": "Empress; acted with Marcian in calling the council; acclaimed at Session VI"
+    },
+    {
+      "name": "Juvenal of Jerusalem",
+      "verdict": "LISTED",
+      "part": "Sat first with Dioscorus, then with the majority; gained the three Palestines for Jerusalem"
+    },
+    {
+      "name": "Marcian",
+      "verdict": "NOT SCORED",
+      "part": "Emperor; called the council and attended Session VI"
+    },
+    {
+      "name": "Anatolius of Constantinople",
+      "verdict": "NOT SCORED",
+      "part": "Bishop of the capital; first to vote for the Tome; beneficiary of canon 28"
+    },
+    {
+      "name": "Paschasinus of Lilybaeum",
+      "verdict": "NOT SCORED",
+      "part": "Leo's legate; opened the first session against Dioscorus"
+    },
+    {
+      "name": "Flavian of Constantinople",
+      "verdict": "NOT SCORED",
+      "part": "Already dead (\"of blessed memory\" in the acts); declared orthodox, his condemnation turned back on those who made it"
+    }
+  ],
+  "briefLength": "about 2 minutes 30 seconds",
+  "uncertain": [
+    "The minutes are the record of the side that won. The losing side speaks through the Syriac chronicle known as Zachariah's, and through Timothy Aelurus's refutation, which is held only in Armenian.",
+    "The number of bishops: 520 in the council's letter to Leo, 567 in the chronicle known as Zachariah's, about 600 in Leo by Hefele's report, and 630 in the usual reckoning Hefele gives. Percival notes 350 signatures on the definition.",
+    "The months and days of the sessions are Hefele's, except Dioscorus's deposition, which the sentence itself dates to 13 October.",
+    "The Greek text of the definition now reads 'of two natures', the old Latin 'in two natures'. Hefele argues from Euthymius, Severus of Antioch, Evagrius and others that 'in two natures' was the original.",
+    "How far the Church of the East received Chalcedon: Chabot says it accepted the council in so far as it condemned Eutyches; W. A. Wigram, in 1910, found the Definition in its Syriac collection with 'blessed Cyril' changed to 'accursed', which he takes to be a later copyist's work.",
+    "When Armenia first rejected Chalcedon: Ormanian puts it at Dvin in 506, confirmed at Dvin in 554; the tree's Armenian entry dates the formal rejection to 554."
+  ],
+  "sources": {
+    "fromTheCouncil": [
+      {
+        "title": "The Fourth Ecumenical Council: extracts from the acts, the Definition of Faith, the decrees and the canons",
+        "author": "Council of Chalcedon, ed. Henry R. Percival",
+        "language": "English translation",
+        "file": "cic/texts/npnf214_seven-ecumenical-councils.xml"
+      },
+      {
+        "title": "Letter XCVIII, from the Synod of Chalcedon to Leo",
+        "author": "Council of Chalcedon",
+        "language": "English translation",
+        "file": "cic/texts/npnf212_leo-great-gregory-great.xml"
+      },
+      {
+        "title": "Sacrorum conciliorum collectio, tomus 6 (Chalcedon, Session I, with the acts of 449 read into it)",
+        "author": "Giovanni Domenico Mansi (ed.)",
+        "language": "Latin and Greek",
+        "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-6-441-451-lat_welter-facsimile1901.txt"
+      },
+      {
+        "title": "Sacrorum conciliorum collectio, tomus 7 (Chalcedon, Sessions V onward, the Definition and the canons)",
+        "author": "Giovanni Domenico Mansi (ed.)",
+        "language": "Latin and Greek",
+        "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-7-451-492-lat_welter-facsimile1901.txt"
+      }
+    ],
+    "fromThoseThere": [
+      {
+        "title": "Letters, including the Tome (Letter XXVIII) and Letter CV to Pulcheria",
+        "author": "Leo of Rome",
+        "language": "English translation",
+        "file": "cic/texts/npnf212_leo-great-gregory-great.xml"
+      },
+      {
+        "title": "The Second Synod of Ephesus, 449: the Syriac acts",
+        "author": "ed. S. G. F. Perry",
+        "language": "English translation from the Syriac",
+        "file": "cic/texts/council-of-ephesus-449_second-synod-of-ephesus-syriac-acts_perry1881.txt"
+      },
+      {
+        "title": "Akten der ephesinischen Synode vom Jahre 449",
+        "author": "ed. Johannes Flemming and Georg Hoffmann",
+        "language": "Syriac with German translation",
+        "file": "cic/texts/council-of-ephesus-449_akten-der-ephesinischen-synode-449-deu_flemming-hoffmann1917.txt"
+      }
+    ],
+    "writtenLater": [
+      {
+        "title": "The Syriac Chronicle known as that of Zachariah of Mitylene, Book III",
+        "author": "Zachariah Rhetor and a later Syriac compiler, trans. F. J. Hamilton and E. W. Brooks",
+        "language": "English translation",
+        "file": "cic/texts/zachariah-rhetor_chronicle_hamiltonbrooks1899.txt"
+      },
+      {
+        "title": "Refutation of the teaching of Chalcedon",
+        "author": "Timothy Aelurus",
+        "language": "Classical Armenian",
+        "file": "cic/texts/timothy-aelurus_widerlegung-der-lehre-von-chalcedon-xcl_ter-mekerttschian-ter-minassiantz1908.txt"
+      },
+      {
+        "title": "Ecclesiastical History, Book II",
+        "author": "Evagrius of Epiphania (Evagrius Scholasticus)",
+        "language": "English translation",
+        "file": "cic/texts/evagrius-scholasticus_ecclesiastical-history_walford1846.txt"
+      },
+      {
+        "title": "A History of the Councils of the Church, vol. 3",
+        "author": "Charles Joseph Hefele",
+        "language": "English translation",
+        "file": "cic/texts/hefele_history-of-the-councils-v3-431-451_clark1883.txt"
+      },
+      {
+        "title": "Synodicon orientale, ou recueil de synodes nestoriens",
+        "author": "ed. Jean-Baptiste Chabot",
+        "language": "Syriac with French translation",
+        "file": "cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt"
+      },
+      {
+        "title": "An Introduction to the History of the Assyrian Church, 100-640",
+        "author": "W. A. Wigram",
+        "language": "English",
+        "file": "cic/texts/wigram_introduction-to-the-history-of-the-assyrian-church-100-640_1910.txt"
+      },
+      {
+        "title": "The Church of Armenia",
+        "author": "Malachia Ormanian",
+        "language": "English translation",
+        "file": "cic/texts/ormanian_church-of-armenia_gregory1912.txt"
+      },
+      {
+        "title": "Select Letters, Book VI",
+        "author": "Severus of Antioch",
+        "language": "English translation",
+        "file": "cic/texts/severus-of-antioch_select-letters-book6-part2_brooks1904.txt"
+      }
+    ]
+  }
+}

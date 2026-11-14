@@ -1,0 +1,189 @@
+{
+  "id": "council-of-arles-314",
+  "kind": "major-council",
+  "kindLabel": "Major council",
+  "era": 2,
+  "name": "Council of Arles",
+  "shortName": "Arles, 314",
+  "informalName": "The first council of Arles",
+  "dates": "314",
+  "start": 314,
+  "end": 314,
+  "region": "Arles, in southern Gaul",
+  "placeLabel": "Arles",
+  "modernCountries": [
+    {
+      "country": "France",
+      "countryId": "Q142",
+      "place": "Arles"
+    }
+  ],
+  "rivers": [
+    "Latin West",
+    "Africa"
+  ],
+  "teaser": "Arles, 314. Bishops called by the emperor Constantine heard the African party's charges against Caecilian of Carthage, rejected them, and made rules on Easter, baptism and clergy.",
+  "knownFor": "The council the emperor Constantine called to Arles in Gaul to hear the African charges against Caecilian of Carthage, which turned the accusers away and set rules on Easter, rebaptism and clergy who had handed over the Scriptures.",
+  "datesNote": "Constantine's letters summon the bishops to arrive by 1 August; they give no year. The year 314, and the opening on 1 August, are Charles Joseph Hefele's dating; how long the council sat is not known",
+  "issue": [
+    "In the persecution the government had demanded the Christians' Scriptures to burn. After it, Caecilian was made bishop of Carthage. His opponents said that the bishop who ordained him, Felix of Aptunga, had consented to hand over the Scriptures, so the ordination was worthless (the accuser's speech in the Acts of the Vindication of Felix, in Optatus of Milevis's dossier; Arthur McGiffert's note to Eusebius of Caesarea, Church History X.5).",
+    "The opposing bishops petitioned Constantine for judges from Gaul, where his father had not persecuted (their petition, copied by Optatus of Milevis, Against the Donatists I.22).",
+    "A synod at Rome under its bishop, Miltiades, with three bishops from Gaul and fifteen from Italy, cleared Caecilian in 313 (Optatus I.23; Constantine's letter to Aelafius).",
+    "The accusers told Constantine that the case had not been fully heard, that the judges were few and hasty, and that they had shut themselves up and judged as suited them. The question was whether a larger council would confirm or reverse Rome (Constantine's letters to Aelafius and to Chrestus of Syracuse).",
+    "On one side stood Caecilian and the bishops in communion with him; on the other, the party of Majorinus, later called the party of Donatus, whose bishops Lucianus, Dignus, Nasutius, Capito and Fidentius signed the petition (Optatus I.22; Hefele)."
+  ],
+  "calledBy": "The emperor Constantine, by letters to his deputy in Africa, Aelafius, and to bishops such as Chrestus of Syracuse",
+  "attended": [
+    "Thirty-three bishops are named at the head of the council's letter to Silvester, bishop of Rome, led by Marinus of Arles and including Caecilian of Carthage.",
+    "Charles Joseph Hefele, from a list of those present printed in Mansi, places bishops of Trier, Aquileia, Capua, Lyons, Carthage, Autun, Reims, Milan, London, Cologne and Emerita in Spain, with many priests and deacons. He says Silvester was represented by two priests and two deacons.",
+    "Some old accounts and manuscripts give six hundred bishops; Baronius gave two hundred. Hefele says the two hundred rests on a false reading of Augustine; Arthur McGiffert calls the six hundred wild."
+  ],
+  "traditions": [
+    {
+      "id": "constantine-the-great",
+      "name": "Constantine the Great",
+      "part": "Gathered",
+      "note": "Constantine called the bishops to Arles and paid for their journey."
+    },
+    {
+      "id": "latin-pastoral-congregational-christianity",
+      "name": "Latin Pastoral-Congregational Christianity",
+      "part": "Gathered",
+      "note": "Caecilian of Carthage sat among the bishops at Arles, and the council turned his accusers away."
+    },
+    {
+      "id": "donatism",
+      "name": "Donatism",
+      "part": "Condemned",
+      "note": "The council said Caecilian's accusers were condemned or rejected. They appealed from it to the emperor."
+    }
+  ],
+  "decided": [
+    "Caecilian's accusers were \"either condemned or rejected\" (the council's letter to Silvester).",
+    "Easter was to be kept on the same day throughout the world, and Silvester was asked to write to all as was the custom (canon 1).",
+    "Clergy were to stay in the places where they were ordained (canons 2 and 21).",
+    "Those who throw down their arms in time of peace were to be kept from communion, as were charioteers and actors while they performed (canons 3 to 5).",
+    "The Africans' own law of baptizing again was set aside. A convert from heresy was to be questioned on the creed. If baptized in the Father, the Son and the Holy Spirit, he would receive only the laying on of hands (canon 8).",
+    "A cleric proved from public records, not bare words, to have handed over the Scriptures, the sacred vessels or the names of his brethren was to be removed. Those he had ordained were not to suffer for it. Accusers relying on bought witnesses were not to be heard (canon 13).",
+    "Those who falsely accused their brethren were to be kept from communion to the end of their lives (canon 14).",
+    "No bishop was to ordain another alone; seven should take part, and never fewer than three (canon 20)."
+  ],
+  "outcome": [
+    "Caecilian's opponents appealed to Constantine. He wrote to the bishops that the judgement of bishops should be taken as if the Lord himself were judging, asked them to wait a while longer, and ordered the stubborn brought to his court (Constantine's letter to the Catholic bishops).",
+    "In 315 the praetorian prefects let some of the Donatist bishops sail home from the port of Arles (their letter to Celsus, vicar of Africa, dated 315 by the English editor of Optatus).",
+    "By Hefele's account Constantine heard both sides himself at Milan in November 316 and declared Caecilian innocent. Augustine of Hippo says the emperor pronounced him innocent, without naming the place.",
+    "The schism did not end. Augustine was still reminding the Donatists that from the bishops sent to Arles they had appealed to the emperor himself, and in 411 he says they could not deny it at the Conference of Carthage."
+  ],
+  "record": [
+    {
+      "witness": "The council's letter to Silvester, bishop of Rome, with its canons",
+      "kind": "acts",
+      "note": "Names thirty-three bishops and gives the decisions. The English editor of Optatus says it came down through the archives of the church of Arles and its authenticity has never been contested. The full canons survive in Latin. The minutes of the hearing are lost. Written by the winning side."
+    },
+    {
+      "witness": "Constantine's letters to Aelafius, to Chrestus of Syracuse and to the Catholic bishops",
+      "kind": "participant",
+      "note": "Written by the emperor who called the council. Partisan: he speaks of Caecilian's opponents with open anger. The letter to Chrestus survives in Eusebius of Caesarea, Church History X.5; the others in Optatus's dossier."
+    },
+    {
+      "witness": "The petition of the opposing bishops to Constantine",
+      "kind": "participant",
+      "note": "The Donatist party's own words, from before the council. It survives only because Optatus of Milevis, their opponent, copied it."
+    },
+    {
+      "witness": "Optatus of Milevis, Against the Donatists, and its appendix of documents",
+      "kind": "later narrative",
+      "note": "Written decades later by a Catholic bishop against the Donatists. His editor notes that Optatus never mentions the council and puts Constantine's post-Arles words in the wrong place."
+    },
+    {
+      "witness": "Augustine of Hippo, Letters 43, 76 and 185",
+      "kind": "later narrative",
+      "note": "Written by the leading Catholic opponent of the Donatists, telling the sequence Rome, Arles, emperor."
+    },
+    {
+      "witness": "Charles Joseph Hefele, A History of the Councils, vol. 1, sec. 15; Arthur McGiffert's notes to Eusebius X.5",
+      "kind": "modern reconstruction",
+      "note": "Supply the year, the opening date, the sees of the bishops and the hearing at Milan in 316. Hefele wrote as a Roman Catholic bishop and historian."
+    }
+  ],
+  "people": [
+    {
+      "name": "Constantine the Great",
+      "id": "constantine-the-great",
+      "verdict": "WHO",
+      "part": "Called the council and heard the appeal from it"
+    },
+    {
+      "name": "Caecilian of Carthage",
+      "verdict": "LISTED",
+      "part": "The bishop whose ordination was disputed; he sat at the council and was cleared"
+    }
+  ],
+  "briefLength": "about 2 minutes 30 seconds",
+  "uncertain": [
+    "The minutes of the council are lost. What it decided reaches us through its letter to Silvester and its canons, and through the letters of Constantine, who called it. All come from the winning side.",
+    "The losing party's view reaches us through its opponents: its petition copied by Optatus of Milevis, its complaints reported by Constantine, and Augustine's later histories.",
+    "The year 314 and the opening on 1 August are Hefele's dating. Constantine's letters name 1 August as the day to arrive.",
+    "The number present is disputed. The letter names thirty-three bishops; some old accounts give six hundred, and Baronius two hundred.",
+    "Who presided is not certain. Marinus of Arles is named first in the letter to Silvester. McGiffert notes that Chrestus of Syracuse comes first in one list of those present, so some have thought he presided.",
+    "Arthur McGiffert says the genuineness of the canons is not universally admitted. Hefele calls the twenty-two canons certainly genuine.",
+    "What canon 3, on those who throw down their arms in peace, meant is disputed. Hefele gives four readings, from deserting in war to the gladiators' games.",
+    "Hefele rejects Baronius's view that Constantine was present at the council."
+  ],
+  "sources": {
+    "fromTheCouncil": [
+      {
+        "title": "Letter of the Council of Arles to Pope Silvester (Appendix IV)",
+        "author": "Marinus and the bishops gathered at Arles",
+        "language": "English translation",
+        "file": "cic/texts/optatus_against-the-donatists.txt"
+      },
+      {
+        "title": "Concilium Arelatense primum: the letter to Silvester and the twenty-two canons",
+        "author": "The bishops gathered at Arles",
+        "language": "Latin",
+        "file": "cic/texts/bruns_canones-apostolorum-et-conciliorum-pars-altera-lat_1839.txt"
+      }
+    ],
+    "fromThoseThere": [
+      {
+        "title": "Letters of Constantine to Aelafius and to the Catholic bishops; the petition of the Donatist bishops; the letter of the prefects to Celsus",
+        "author": "Constantine; the bishops of the party of Donatus",
+        "language": "English translation",
+        "file": "cic/texts/optatus_against-the-donatists.txt"
+      },
+      {
+        "title": "Church History, Book X, chapter 5 (Constantine's letters to Miltiades and to Chrestus of Syracuse)",
+        "author": "Constantine, quoted by Eusebius of Caesarea",
+        "language": "English translation",
+        "file": "cic/texts/npnf201_eusebius-church-history-life-of-constantine.xml"
+      }
+    ],
+    "writtenLater": [
+      {
+        "title": "Against the Donatists, Book I",
+        "author": "Optatus of Milevis",
+        "language": "English translation",
+        "file": "cic/texts/optatus_against-the-donatists.txt"
+      },
+      {
+        "title": "Letters 43 and 76",
+        "author": "Augustine of Hippo",
+        "language": "English translation",
+        "file": "cic/texts/npnf101_augustine-confessions-letters.xml"
+      },
+      {
+        "title": "The Correction of the Donatists (Letter 185)",
+        "author": "Augustine of Hippo",
+        "language": "English translation",
+        "file": "cic/texts/npnf104_augustine-anti-manichaean-anti-donatist.xml"
+      },
+      {
+        "title": "A History of the Councils of the Church, vol. 1, section 15",
+        "author": "Charles Joseph Hefele",
+        "language": "English translation",
+        "file": "cic/texts/hefele_history-of-the-councils-v1-to-nicaea_clark1872.txt"
+      }
+    ]
+  }
+}

@@ -1,0 +1,321 @@
+{
+  "id": "councils-of-ariminum-and-seleucia-359",
+  "kind": "major-council",
+  "kindLabel": "Major council",
+  "era": 2,
+  "name": "Councils of Ariminum and Seleucia",
+  "shortName": "Ariminum and Seleucia",
+  "informalName": "The Double Synod of Seleucia and Rimini",
+  "dates": "359",
+  "start": 359,
+  "end": 359,
+  "region": "Ariminum in Italy and Seleucia in Isauria",
+  "placeLabel": "Ariminum, and Seleucia in Isauria",
+  "modernCountries": [
+    {
+      "country": "Italy",
+      "countryId": "Q38",
+      "place": "Italy",
+      "placeId": "Q38"
+    },
+    {
+      "country": "Turkey",
+      "countryId": "Q43",
+      "place": "Asia Minor",
+      "placeId": "Q12824780"
+    }
+  ],
+  "rivers": [
+    "Greek East",
+    "Latin West",
+    "Non-Nicene"
+  ],
+  "teaser": "Ariminum in Italy and Seleucia in Isauria, 359. The emperor Constantius II split one council in two, and both halves were pressed into signing a creed that called the Son like the Father and set aside the word \"substance.\"",
+  "knownFor": "The paired councils of 359, of the Western bishops at Ariminum and the Eastern bishops at Seleucia, at which the emperor Constantius II pressed the whole church to sign a creed that called the Son like the Father according to the Scriptures and dropped the word \"substance.\"",
+  "datesNote": "359, by the consulate of Eusebius and Hypatius that Socrates of Constantinople and Sozomen give. The creed read at Ariminum was dated at Sirmium on the 11th of the Calends of June, which Archibald Robertson's edition of Athanasius reckons as 22 May; Socrates gives 23 May. Ariminum met from about May, by Charles Joseph Hefele's dating, and Sulpicius Severus has the bishops still shut in the city in the seventh month, in winter. Seleucia opened in September: Socrates gives the 27th, and Athanasius gives a day that Robertson's edition reckons as 14 September. The envoys of Ariminum signed at Nice in Thrace on 10 October, by a document of Restitutus of Carthage that Hefele cites. The envoys of Seleucia gave way at Constantinople on the eve of the emperor's consulship at the start of January, Sozomen says; Hefele dates the synod held there to 360.",
+  "issue": [
+    "Since the Council of Nicaea in 325 the word homoousios, \"of one substance,\" had troubled many bishops, because Scripture does not use it. The creed read at Ariminum says so in its own words (Athanasius, On the Councils 8; Socrates of Constantinople II.37).",
+    "The emperor Constantius II was troubled that the bishops still did not agree on the faith, Sulpicius Severus says, and he wanted one council to bring them to agreement (Sulpicius, Sacred History II.40 to 41; Socrates II.37).",
+    "In May 359, at Sirmium and in the emperor's presence, a small meeting drew up the Dated Creed. It called the Son like the Father \"in all things\" according to the Scriptures and said that \"substance\" should no longer be used of God (Athanasius, On the Councils 8; Socrates II.37).",
+    "Who stood where. Valens of Mursa, Ursacius of Singidunum and Germinius of Sirmium in the West, and Acacius of Caesarea and Eudoxius in the East, would say only that the Son is like the Father (Athanasius, On the Councils 1 and 8; Sozomen IV.17 and 22). Most Western bishops held to Nicaea (Athanasius; Sozomen IV.17). Most Eastern bishops, with George of Laodicea, Eleusius of Cyzicus and Basil of Ancyra, accepted Nicaea but distrusted the word homoousios (Athanasius, On the Councils 12; Socrates II.39). Sozomen says the emperor also meant the council to examine the teaching of Aetius of Antioch, who called the Son unlike the Father (Sozomen IV.16)."
+  ],
+  "calledBy": "The emperor Constantius II, by letters to the bishops (Athanasius, On the Councils 1; Socrates II.37). Athanasius and Sozomen say Ursacius, Valens, Acacius and their friends moved him to call it and to split it in two; Archibald Robertson, in his edition of Athanasius, thinks Athanasius probably mistaken and that Basil of Ancyra's party wanted the settlement.",
+  "attended": [
+    "At Ariminum, \"four hundred bishops and more,\" Athanasius writes; \"about four hundred,\" says Sozomen; \"four hundred and rather more,\" says Sulpicius Severus, from Illyria, Italy, Africa and the two Gauls, with bishops from Britain among them. Sulpicius puts the Arian party at no more than eighty. Philostorgius, a follower of Eunomius of Cyzicus, says three hundred. No list of their names is held.",
+    "At Seleucia, about a hundred and sixty (Athanasius; Socrates; Sozomen), with the officials Leonas and Lauricius present by the emperor's order (Socrates). Socrates puts about thirty-two bishops with the leaders of Acacius's party; Hefele reports other counts from Epiphanius and Hilary of Poitiers. Hilary, in exile in Phrygia, was sent there with the rest (Sulpicius).",
+    "At Constantinople at the start of the next year, about fifty, chiefly from Bithynia, among them Maris of Chalcedon and Ulfila, bishop of the Goths (Socrates II.41; Sozomen IV.24)."
+  ],
+  "traditions": [
+    {
+      "id": "homoian-arian-christianity",
+      "name": "Homoian ('Arian') Christianity",
+      "part": "Gathered",
+      "note": "Its creed, that the Son is like the Father according to the Scriptures, was read at Ariminum and in the end signed by the envoys of both councils."
+    },
+    {
+      "id": "danubian-latin-christianity",
+      "name": "Latin Christianity in the Danubian Provinces",
+      "part": "Gathered",
+      "note": "Valens of Mursa, Ursacius of Singidunum and Germinius of Sirmium led the minority at Ariminum, and the majority deposed them."
+    },
+    {
+      "id": "gallic-nicene-episcopate",
+      "name": "The Gallic Nicene Episcopate",
+      "part": "Gathered",
+      "note": "The bishops of Gaul and Aquitaine paid their own way to Ariminum, and Phoebadius and Servatius held out longest, Sulpicius Severus says; Hilary of Poitiers was at Seleucia."
+    },
+    {
+      "id": "anomoean-eunomian-christianity",
+      "name": "Anomoean (Eunomian) Christianity",
+      "part": "Condemned",
+      "note": "Acacius's creed at Seleucia anathematized the word \"unlike,\" and the synod at Constantinople deposed Aetius from the diaconate."
+    },
+    {
+      "id": "athanasius-of-alexandria",
+      "name": "Athanasius of Alexandria",
+      "part": "Refused",
+      "note": "Athanasius wrote On the Councils against the proceedings, and later told the bishops of Africa not to cite Ariminum against Nicaea."
+    },
+    {
+      "id": "luciferians",
+      "name": "The Luciferians",
+      "part": "Refused",
+      "note": "Lucifer of Cagliari cut himself off even from those who received the bishops of Ariminum after they repented, Sulpicius Severus says."
+    },
+    {
+      "id": "pneumatomachian-current",
+      "name": "Pneumatomachian ('Macedonian') Christianity",
+      "part": "Refused",
+      "note": "The Macedonian bishops, meeting at Lampsacus, confirmed the creed of Antioch and anathematized the creed of Ariminum, Socrates says."
+    }
+  ],
+  "decided": [
+    "At Ariminum the majority refused the Dated Creed, held that the faith of Nicaea was enough, and deposed Ursacius, Valens, Germinius, Auxentius, Gaius and Demophilus (the council's decree, in Athanasius, On the Councils 9 and 11; Socrates II.37).",
+    "They wrote to Constantius that nothing should be added to or taken from the creed of Nicaea, and asked that the bishops be let go home (the council's letter, in Athanasius, On the Councils 10; Socrates II.37; Sozomen IV.18; Theodoret II.15).",
+    "At Nice in Thrace the council's envoys signed a creed that called the Son like the Father according to the Scriptures, forbade the word \"substance,\" and forbade speaking of one hypostasis (Theodoret II.16; Socrates II.37). Hefele dates the signing to 10 October.",
+    "Back at Ariminum the remaining bishops signed one by one. Phoebadius and Servatius added statements condemning Arius, and Valens added that the Son was \"not a creature like the other creatures\" (Sulpicius II.43 to 44). Jerome, from the acts, tells how Valens read anathemas against Arian sayings to the bishops' applause (Dialogue against the Luciferians 18).",
+    "At Seleucia the majority confirmed the creed of Antioch. The smaller party of Acacius offered a creed that rejected both \"of one substance\" and \"of like substance\" and anathematized \"unlike.\" The majority deposed Acacius, George of Alexandria, Uranius of Tyre, Eudoxius and others (Socrates II.39 to 40; Athanasius, On the Councils 12).",
+    "At Constantinople the envoys of Seleucia accepted the creed of Ariminum, and a synod of about fifty confirmed it, forbade \"substance\" and \"hypostasis\" of God, and deposed Aetius, and then Macedonius, Eleusius, Basil of Ancyra and Cyril of Jerusalem (Sozomen IV.23 to 24; Socrates II.41 to 42)."
+  ],
+  "outcome": [
+    "Bishops who would not sign were sent away from their sees, Theodoret and Sulpicius Severus say.",
+    "Philostorgius says those deposed at Constantinople took back their signatures to the faith of Ariminum as they went into exile.",
+    "After Constantius died, the bishops of Ariminum gathered and said they had been deceived, Jerome reports. Hilary of Poitiers held councils in Gaul that condemned what was done at Ariminum (Sulpicius Severus).",
+    "A council at Rome under Damasus said the number of bishops at Ariminum prejudged nothing (Theodoret II.17), and Athanasius asked the bishops of Africa who could cite Ariminum against Nicaea (Letter to the Bishops of Africa).",
+    "Lucifer of Cagliari broke communion even with those who received the repentant bishops (Sulpicius Severus).",
+    "Ulfila, bishop of the Goths, signed the creed at Constantinople (Socrates II.41). Long afterwards, at Hippo, the bishop Maximinus told Augustine that he held the faith set out and signed at Ariminum (Augustine, Debate with Maximinus, in Latin)."
+  ],
+  "record": [
+    {
+      "witness": "The acts of Ariminum and of Seleucia",
+      "kind": "acts",
+      "note": "Lost. Jerome says he drew on the acts of Ariminum; Hefele says we no longer have them. Socrates points readers to Sabinus's collection for Seleucia, and Sozomen to its shorthand acts. Neither is held."
+    },
+    {
+      "witness": "The decree and letters of Ariminum, the Dated Creed and Acacius's creed",
+      "kind": "acts",
+      "note": "Kept in Greek by Athanasius in On the Councils and by Socrates, and in Latin in Hilary's historical dossier, which also holds a letter of the Arian party at Ariminum. Compiled by the Nicene side; the creeds are the Homoian side's own words."
+    },
+    {
+      "witness": "Hilary of Poitiers, Against Constantius",
+      "kind": "participant",
+      "note": "By a bishop who sat at Seleucia and went on to Constantinople. Nicene, and hostile to the emperor. Latin only in the Library."
+    },
+    {
+      "witness": "Athanasius of Alexandria, On the Councils of Ariminum and Seleucia",
+      "kind": "later narrative",
+      "note": "Written in 359, Robertson's edition says, before the end of the affair, with a part added after 361. Athanasius was not present. The leader of the Nicene side."
+    },
+    {
+      "witness": "Sulpicius Severus, Sacred History II.41 to 45",
+      "kind": "later narrative",
+      "note": "A Gallic writer firmly on the Nicene side, who writes of \"our friends\" and tells the Gallic bishops' conduct from what he heard. The fullest account of how Ariminum ended."
+    },
+    {
+      "witness": "Jerome, Dialogue against the Luciferians 17 to 19",
+      "kind": "later narrative",
+      "note": "Nicene. W. H. Fremantle, his English translator, dates it to 379. Jerome says he took the Ariminum scenes from the council's acts."
+    },
+    {
+      "witness": "Socrates of Constantinople II.37 to 43; Sozomen IV.16 to 24; Theodoret of Cyrrhus II.15 to 21",
+      "kind": "later narrative",
+      "note": "Fifth-century Nicene historians. They copy the letters and creeds. Socrates places the exile of Liberius of Rome after Ariminum, which Hefele's chronology rules out."
+    },
+    {
+      "witness": "Philostorgius, Church History IV.10 to 12 and V.1",
+      "kind": "later narrative",
+      "note": "A follower of Eunomius, so of the opposite side. His history survives only in a summary by Photius, a later patriarch of Constantinople who was hostile to it."
+    },
+    {
+      "witness": "Charles Joseph Hefele, A History of the Councils, vol. 2",
+      "kind": "modern reconstruction",
+      "note": "Supplies the May opening of Ariminum and the 10 October date at Nice, and gathers the scattered documents."
+    }
+  ],
+  "people": [
+    {
+      "name": "Constantius II",
+      "verdict": "LISTED",
+      "part": "Called both councils and pressed their envoys to sign"
+    },
+    {
+      "name": "Valens of Mursa and Ursacius of Singidunum",
+      "verdict": "LISTED",
+      "part": "Read the Dated Creed at Ariminum, were deposed there, and carried the day with the emperor"
+    },
+    {
+      "name": "Acacius of Caesarea",
+      "verdict": "NOT SCORED",
+      "part": "Led the smaller party at Seleucia and was deposed there"
+    },
+    {
+      "name": "Basil of Ancyra",
+      "verdict": "NOT SCORED",
+      "part": "Arrived late at Seleucia with the majority party; deposed at Constantinople"
+    },
+    {
+      "name": "Hilary of Poitiers",
+      "id": "hilary-of-poitiers",
+      "verdict": "WHO",
+      "part": "Sat at Seleucia from exile, then condemned Ariminum in councils in Gaul"
+    },
+    {
+      "name": "Cyril of Jerusalem",
+      "id": "cyril-of-jerusalem",
+      "verdict": "WHO",
+      "part": "His case came before Seleucia; deposed again at Constantinople"
+    },
+    {
+      "name": "Aetius of Antioch",
+      "id": "aetius-of-antioch",
+      "verdict": "WHO",
+      "part": "His teaching was a cause of the council; deposed at Constantinople"
+    },
+    {
+      "name": "Ulfila",
+      "id": "ulfila",
+      "verdict": "WHO",
+      "part": "Signed the creed at Constantinople"
+    },
+    {
+      "name": "Athanasius of Alexandria",
+      "id": "athanasius-of-alexandria",
+      "verdict": "WHO",
+      "part": "Not present; wrote On the Councils against the proceedings"
+    },
+    {
+      "name": "Liberius of Rome",
+      "id": "liberius-of-rome",
+      "verdict": "WHO",
+      "part": "Not present or represented, Hefele says"
+    },
+    {
+      "name": "Lucifer of Cagliari",
+      "id": "lucifer-of-cagliari",
+      "verdict": "WHO",
+      "part": "Not present; refused communion with those who received the signers"
+    },
+    {
+      "name": "Damasus of Rome",
+      "id": "damasus-of-rome",
+      "verdict": "WHO",
+      "part": "Not present; his council at Rome said the numbers at Ariminum prejudged nothing"
+    },
+    {
+      "name": "Jerome",
+      "id": "jerome",
+      "verdict": "WHO",
+      "part": "Not present; told its end from the acts"
+    }
+  ],
+  "briefLength": "about 2 minutes 30 seconds",
+  "uncertain": [
+    "The acts of both councils are lost. What they did reaches us through their letters, decrees and creeds, kept by the Nicene side, and through Nicene historians. The Homoian side speaks in its creeds and in Acacius's statement. Philostorgius, a Eunomian historian hostile to both sides, survives only in a hostile summary.",
+    "How many came to Ariminum. Athanasius and Sulpicius Severus say four hundred and more, Sozomen about four hundred, Philostorgius three hundred, and the later bishop Maximinus spoke of 330 who signed.",
+    "How many envoys went to the emperor from Ariminum. Sulpicius Severus says ten from each side; Sozomen, and the emperor's own reply in Socrates, say twenty.",
+    "Who wanted the double council. Athanasius and Sozomen blame Ursacius, Valens, Acacius and their friends; Archibald Robertson, in his edition of Athanasius, thinks Basil of Ancyra's party wanted it.",
+    "What Valens's clause meant. Sulpicius Severus and Jerome read \"not a creature like the other creatures\" as a trick; their reading is the Nicene one, and the Homoian reading of it is not held.",
+    "The months. May for the opening of Ariminum and 10 October for the signing at Nice are Hefele's datings. Seleucia's opening is 27 September in Socrates and a day reckoned as 14 September from Athanasius.",
+    "Socrates says Liberius of Rome was exiled for refusing the creed of Ariminum; Sozomen gives this only as what some say, and Hefele says Liberius had already been restored and was not at the council."
+  ],
+  "sources": {
+    "fromTheCouncil": [
+      {
+        "title": "The Dated Creed, the letter of the council of Ariminum to Constantius, and its decree (On the Councils 8 to 11); Acacius's creed at Seleucia (29)",
+        "author": "The councils, as kept by Athanasius of Alexandria",
+        "language": "English translation",
+        "file": "cic/texts/npnf204_athanasius-select-works-letters.xml"
+      },
+      {
+        "title": "Historical dossier (Fragmenta historica): the letter of Ariminum to Constantius, the letter of the Arian party at Ariminum, the emperor's letter, and extracts from the acts",
+        "author": "Hilary of Poitiers, compiler; Alfred Feder, editor",
+        "language": "Latin",
+        "file": "cic/texts/hilary_collectanea-antiariana-parisina-fragmenta-historica-lat_feder1916-csel65.txt"
+      },
+      {
+        "title": "Sacrorum conciliorum collectio, tome 3: the documents of Ariminum and Seleucia",
+        "author": "Giovanni Domenico Mansi",
+        "language": "Latin",
+        "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-3-347-409-lat_welter-facsimile1901.txt"
+      }
+    ],
+    "fromThoseThere": [
+      {
+        "title": "Against Constantius; Fragmenta historica (older edition)",
+        "author": "Hilary of Poitiers",
+        "language": "Latin",
+        "file": "cic/texts/hilary_opera-tomus-posterior-de-synodis-contra-constantium-fragmenta-historica-lat_migne-pl10-1844.txt"
+      }
+    ],
+    "writtenLater": [
+      {
+        "title": "On the Councils of Ariminum and Seleucia; Letter to the Bishops of Africa",
+        "author": "Athanasius of Alexandria",
+        "language": "English translation",
+        "file": "cic/texts/npnf204_athanasius-select-works-letters.xml"
+      },
+      {
+        "title": "Sacred History, Book II, chapters 41 to 45",
+        "author": "Sulpicius Severus",
+        "language": "English translation",
+        "file": "cic/texts/npnf211_sulpitius-severus-vincent-lerins-cassian.xml"
+      },
+      {
+        "title": "Dialogue against the Luciferians, sections 17 to 19",
+        "author": "Jerome",
+        "language": "English translation",
+        "file": "cic/texts/npnf206_jerome-principal-works.xml"
+      },
+      {
+        "title": "Church History, Book II, chapters 37 to 43 (Socrates); Book IV, chapters 16 to 24 (Sozomen)",
+        "author": "Socrates of Constantinople and Sozomen",
+        "language": "English translation",
+        "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
+      },
+      {
+        "title": "Church History, Book II, chapters 15 to 21",
+        "author": "Theodoret of Cyrrhus",
+        "language": "English translation",
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+      },
+      {
+        "title": "Church History, epitome of Books IV and V",
+        "author": "Philostorgius, in Photius's summary",
+        "language": "English translation",
+        "file": "cic/texts/philostorgius_ecclesiastical-history_walford1855.txt"
+      },
+      {
+        "title": "Debate with Maximinus",
+        "author": "Augustine of Hippo and Maximinus",
+        "language": "Latin",
+        "file": "cic/texts/augustine_arian-sermon-collatio-maximinum-pl42-lat_migne1886.txt"
+      },
+      {
+        "title": "A History of the Councils of the Church, vol. 2, section 82",
+        "author": "Charles Joseph Hefele",
+        "language": "English translation",
+        "file": "cic/texts/hefele_history-of-the-councils-v2-326-429_oxenham1876.txt"
+      }
+    ]
+  }
+}

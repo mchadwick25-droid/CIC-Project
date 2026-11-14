@@ -1,0 +1,279 @@
+{
+  "id": "council-of-ephesus-431",
+  "kind": "major-council",
+  "kindLabel": "Major council",
+  "era": 2,
+  "name": "Council of Ephesus",
+  "shortName": "Ephesus 431",
+  "informalName": "The Third Ecumenical Council",
+  "dates": "431",
+  "start": 431,
+  "end": 431,
+  "region": "Ephesus",
+  "placeLabel": "Ephesus",
+  "modernCountries": [
+    {
+      "country": "Turkey",
+      "countryId": "Q43",
+      "place": "Ephesus"
+    }
+  ],
+  "rivers": [
+    "Syriac East",
+    "Greek East",
+    "Africa"
+  ],
+  "teaser": "Ephesus, 431. Cyril of Alexandria's council deposed Nestorius of Constantinople before the bishops of Syria arrived; John of Antioch's rival assembly deposed Cyril in turn.",
+  "knownFor": "The council of 431 at Ephesus that deposed Nestorius over the name Theotokos for Mary, split into two rival assemblies under Cyril of Alexandria and John of Antioch, and was healed only by their peace two years later.",
+  "datesNote": "431. Called for Pentecost; Cyril's council first met on 22 June by Charles Joseph Hefele's dating, which turns the Egyptian date Cyril gives (28 Payni) into the Roman calendar. Socrates of Constantinople puts the deposition on 28 June. The council was dissolved later that year",
+  "issue": [
+    "At Constantinople, a presbyter close to its bishop, Nestorius, preached that no one should call Mary Theotokos, the one who gave birth to God. Socrates of Constantinople says Nestorius backed him and rejected the name (Socrates, Church History VII.32).",
+    "Nestorius, in his own later defence, says he found one party calling Mary Mother of God and another Mother of man, and urged them to use a word all could accept, Mother of Christ (Nestorius, Book of Heracleides).",
+    "Cyril, bishop of Alexandria, wrote to him that the holy Fathers had called the Virgin Mother of God, not because the Word began from her, but because of her was born the body to which the Word was united (Cyril's second letter to Nestorius, read at the council).",
+    "The question was whether Mary could rightly be called Theotokos, and so how God and a man are one in Christ. Cyril's side held that Nestorius split Christ in two; Nestorius denied it, and John of Antioch's bishops charged Cyril's anathemas with old heresies (acts; John's sentence as Hefele gives it).",
+    "Celestine, bishop of Rome, had already condemned Nestorius and asked Cyril to act on it (the council's decree against Nestorius cites his letter). The emperor then called a council, and everything was held over until it met (Bossuet's account, printed in the English edition of the canons; Hefele)."
+  ],
+  "calledBy": "The emperor Theodosius II, in his name and Valentinian III's, for Pentecost 431 (the council's letter to Celestine; Socrates of Constantinople). Count Candidian sat in the emperors' place as protector of the council (the emperor's edict, as Hefele summarises it)",
+  "attended": [
+    "Cyril's council: \"over two hundred bishops,\" its letter to Celestine says. Hefele counts 160 at the first session and 198 signatures on the deposition, rising to over 200. Cyril, in his letter home, says about two hundred.",
+    "Cyril came with fifty bishops, by Hefele's account and the chronology of G. R. Driver and Leonard Hodgson, the English editors of Nestorius. Juvenal of Jerusalem brought the bishops of Palestine, and Flavian of Philippi those of Macedonia (Driver and Hodgson).",
+    "Celestine's legates, the bishops Arcadius and Projectus and the presbyter Philip, arrived after the first session (acts, Session II).",
+    "Capreolus, bishop of Carthage, did not come and sent a letter excusing his absence, which was read and placed in the acts (acts, Session I).",
+    "John of Antioch's assembly: forty-three bishops, by Hefele from its signed sentence; Driver and Hodgson give the same. Cyril's council calls them \"a little more than thirty\" and names them, Theodoret of Cyrrhus among them.",
+    "Nestorius came with sixteen bishops by Hefele's count, ten by Driver and Hodgson's. He did not attend Cyril's sessions."
+  ],
+  "traditions": [
+    {
+      "id": "cyrilline-miaphysite-egyptian-christianity",
+      "name": "The Church of Alexandria and Miaphysite Egypt",
+      "part": "Gathered",
+      "note": "Cyril of Alexandria led the council that deposed Nestorius, with the bishops of Egypt."
+    },
+    {
+      "id": "antiochene-exegetical-christianity-chrysostom-ce",
+      "name": "Antiochene Exegetical Christianity (Chrysostom-centered)",
+      "part": "Gathered",
+      "note": "The bishops of the East under John of Antioch held their own assembly at Ephesus and deposed Cyril; in 433 John and Cyril made peace."
+    },
+    {
+      "id": "nestorius",
+      "name": "Nestorius",
+      "part": "Condemned",
+      "note": "Cyril's council deposed Nestorius from the see of Constantinople and from all priestly communion."
+    },
+    {
+      "id": "persian-church-of-the-east-early",
+      "name": "Persian Church of the East (early)",
+      "part": "Affected",
+      "note": "W. A. Wigram, its English historian, says the church took no corporate action on Ephesus at the time. George Percy Badger says the Eastern bishops were cut off by its decree."
+    },
+    {
+      "id": "the-church-of-the-east-under-persia",
+      "name": "The Church of the East under Persia",
+      "part": "Affected",
+      "note": "Its historian Barhadbeshabba, near the end of the sixth century by François Nau's dating, calls Nestorius the pious Mar Nestorius, and Cyril impious."
+    }
+  ],
+  "decided": [
+    "Cyril's second letter to Nestorius agreed with the creed of Nicaea; Nestorius's reply did not (acts, Session I).",
+    "Nestorius, having refused three summonses, was excluded \"from the episcopal dignity, and from all priestly communion\" (the decree against Nestorius).",
+    "No one may bring forward or compose \"a different\" faith from the one set out at Nicaea; the creed brought by the presbyter Charisius and the teachings of Nestorius were condemned (Canon VII).",
+    "John of Antioch and the bishops with him were cut off from communion and their priestly power, the final sentence left to Celestine (the council's letter to Celestine; its circular letter).",
+    "The council upheld Rome's earlier deposition of Pelagius, Caelestius and their followers (the council's letter to Celestine).",
+    "John's assembly, for its part, declared Cyril and Memnon of Ephesus deposed and excommunicated all who sided with them until they rejected Cyril's anathemas (John's sentence, as Hefele gives it)."
+  ],
+  "outcome": [
+    "The emperor's new commissioner, Count John, announced the deposition of Nestorius, Cyril and Memnon and put all three under arrest (chronology of Driver and Hodgson, from the acts).",
+    "Theodosius dissolved the council. Cyril returned to Alexandria and Memnon stayed bishop of Ephesus (the emperor's decree, as Hefele gives it). Nestorius went back to his monastery at Antioch, and Maximian was made bishop of Constantinople (Driver and Hodgson; Socrates of Constantinople).",
+    "In 433, by Hefele's dating, Cyril accepted a confession sent by John's side: \"there became a union of two natures. Wherefore we confess one Christ, one Son, one Lord\", with Mary confessed as Mother of God (Cyril's letter to John of Antioch).",
+    "In 435 imperial edicts ordered Nestorius's writings burned, and he was banished, ending in Egypt (Driver and Hodgson). Socrates says he was sent to the Oasis.",
+    "In 451 the Council of Chalcedon received Cyril's letters and kept the order of Ephesus, \"of which Celestine of Rome and Cyril of Alexandria, of holy memory, were the leaders\" (Definition of Chalcedon).",
+    "The Church of the East in Persia kept Nestorius's memory. Barhadbeshabba's history titles a chapter for the pious Mar Nestorius and calls Cyril impious (in Nau's French). Hefele says that after the emperor Zeno closed their last refuge, the school at Edessa, in 489, the followers of Nestorius had their home in the kingdom of Persia."
+  ],
+  "record": [
+    {
+      "witness": "The acts of Cyril's council (extracts in the English edition of the canons; Latin and Greek in Mansi, tomus 4)",
+      "kind": "acts",
+      "note": "The minutes, decree, canons and synodal letters of the council Cyril presided over. On Cyril's side. Its letter to Celestine calls John an enemy of the faith."
+    },
+    {
+      "witness": "The acts of John of Antioch's assembly (Mansi, tomus 5, the 'Conciliabulum Ephesinum')",
+      "kind": "acts",
+      "note": "The Eastern bishops' own documents, in Latin. On John's side. Hefele narrates them, with open hostility to John."
+    },
+    {
+      "witness": "Cyril of Alexandria, letters (his letter home to Alexandria in Mansi, tomus 4; his letters to Nestorius and to John)",
+      "kind": "participant",
+      "note": "The bishop who led the council. Partisan for it."
+    },
+    {
+      "witness": "Nestorius, The Book of Heracleides (Driver and Hodgson's English; Nau's French)",
+      "kind": "participant",
+      "note": "The deposed bishop's own account, written in exile and kept only in a Syriac translation. Hostile to Cyril and the council."
+    },
+    {
+      "witness": "Socrates of Constantinople, Church History VII.32 and 34",
+      "kind": "later narrative",
+      "note": "Written at Constantinople; his history stops with the year 439, A. C. Zenos notes. Critical of Cyril, and judges Nestorius ignorant rather than a heretic. His order of events differs from the acts."
+    },
+    {
+      "witness": "Barhadbeshabba, Ecclesiastical History, part 2 (Nau's French)",
+      "kind": "later narrative",
+      "note": "The Church of the East's own history of Nestorius and Ephesus, near the end of the sixth century by François Nau's dating. On Nestorius's side."
+    },
+    {
+      "witness": "W. A. Wigram, An Introduction to the History of the Assyrian Church (1910)",
+      "kind": "modern reconstruction",
+      "note": "An Anglican missionary historian of the Church of the East. Argues that it never accepted or formally rejected Ephesus."
+    },
+    {
+      "witness": "Charles Joseph Hefele, A History of the Councils, vol. 3",
+      "kind": "modern reconstruction",
+      "note": "Supplies the Roman-calendar dates, the counts of those present and the sequence. A Roman Catholic historian, openly on Cyril's side."
+    },
+    {
+      "witness": "G. R. Driver and Leonard Hodgson, introduction to The Bazaar of Heracleides",
+      "kind": "modern reconstruction",
+      "note": "A dated chronology of the controversy from the acts, keyed to Nestorius's book."
+    }
+  ],
+  "people": [
+    {
+      "name": "Cyril of Alexandria",
+      "id": "cyril-of-alexandria",
+      "verdict": "WHO",
+      "part": "Led the council that deposed Nestorius; deposed in turn by John's assembly; made peace with John in 433"
+    },
+    {
+      "name": "Nestorius",
+      "id": "nestorius",
+      "verdict": "WHO",
+      "part": "Bishop of Constantinople; refused to appear and was deposed; wrote his own account in exile"
+    },
+    {
+      "name": "Theodoret of Cyrrhus",
+      "id": "theodoret-of-cyrrhus",
+      "verdict": "WHO",
+      "part": "Sat with John of Antioch's assembly; named among those Cyril's council cut off"
+    },
+    {
+      "name": "Juvenal of Jerusalem",
+      "verdict": "LISTED",
+      "part": "Sat with Cyril; moved that Celestine's letter be read"
+    },
+    {
+      "name": "Pulcheria",
+      "verdict": "LISTED",
+      "part": "Not present; the emperor's sister, among the imperial ladies John's assembly wrote to (Hefele)"
+    },
+    {
+      "name": "John of Antioch",
+      "verdict": "NOT SCORED",
+      "part": "Arrived late and led the rival assembly that deposed Cyril and Memnon; made peace with Cyril in 433"
+    },
+    {
+      "name": "Memnon of Ephesus",
+      "verdict": "NOT SCORED",
+      "part": "Bishop of the city; sided with Cyril; deposed by John's assembly"
+    },
+    {
+      "name": "Theodosius II",
+      "verdict": "NOT SCORED",
+      "part": "Emperor; called the council and later dissolved it"
+    },
+    {
+      "name": "Celestine of Rome",
+      "verdict": "NOT SCORED",
+      "part": "Not present; had condemned Nestorius and sent legates"
+    },
+    {
+      "name": "Candidian",
+      "verdict": "NOT SCORED",
+      "part": "Count; the emperor's officer at the council; protested Cyril's opening and sat with John's assembly"
+    }
+  ],
+  "briefLength": "about 2 minutes 30 seconds",
+  "uncertain": [
+    "The minutes we have are those of Cyril's council, which he led. John of Antioch's assembly survives in its own documents in Latin, and Nestorius's side in his own book, written in exile.",
+    "The day of the first session: Cyril gives an Egyptian date, 28 Payni, which Hefele reckons as 22 June. Socrates of Constantinople says the deposition was done on 28 June.",
+    "The size of John's assembly: forty-three by Hefele and by Driver and Hodgson, from its signatures; Cyril's council says a little more than thirty, and in its letter to Celestine, about thirty.",
+    "The order of events: Socrates says Nestorius's party met and deposed Cyril before John arrived, and that John then condemned Cyril. The acts and Hefele have John's own assembly depose Cyril after he arrived.",
+    "Socrates says Nestorius at last cried out that Mary might be called Theotokos, and that no notice was taken. Hefele follows the acts in seeing no such retreat.",
+    "How the Church of the East stood to Ephesus is disputed. George Percy Badger, in 1852, says the Easterns were cut off by its decree. W. A. Wigram, in 1910, says they never accepted it, never formally rejected it, and were never asked to; he dates the real separation some fifty years later.",
+    "Whether Nestorius taught what Cyril's council condemned is still argued. Socrates, who read his works, judged he did not deny Christ's divinity. His own book denies the charge."
+  ],
+  "sources": {
+    "fromTheCouncil": [
+      {
+        "title": "The Third Ecumenical Council: extracts from the acts, the decree against Nestorius, the canons and the synodal letters",
+        "author": "Council of Ephesus, ed. Henry R. Percival",
+        "language": "English translation",
+        "file": "cic/texts/npnf214_seven-ecumenical-councils.xml"
+      },
+      {
+        "title": "Sacrorum conciliorum collectio, tomus 4 (the acts of Cyril's council)",
+        "author": "Giovanni Domenico Mansi (ed.)",
+        "language": "Latin and Greek",
+        "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-4-410-431-lat_welter-facsimile1901.txt"
+      },
+      {
+        "title": "Sacrorum conciliorum collectio, tomus 5 (the acts of John of Antioch's assembly and the reunion of 433)",
+        "author": "Giovanni Domenico Mansi (ed.)",
+        "language": "Latin and Greek",
+        "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-5-431-441-lat_welter-facsimile1901.txt"
+      }
+    ],
+    "fromThoseThere": [
+      {
+        "title": "The Bazaar of Heracleides",
+        "author": "Nestorius",
+        "language": "English translation from the Syriac",
+        "file": "cic/texts/nestorius_bazaar-of-heracleides_driver-hodgson1925.txt"
+      },
+      {
+        "title": "Le livre d'Héraclide de Damas",
+        "author": "Nestorius",
+        "language": "French translation from the Syriac",
+        "file": "cic/texts/nestorius_livre-d-heraclide-de-damas-fra_nau1910.txt"
+      },
+      {
+        "title": "Three Epistles",
+        "author": "Cyril of Alexandria",
+        "language": "Greek with English translation",
+        "file": "cic/texts/cyril-alexandria_three-epistles-grc-eng_pusey1872.txt"
+      },
+      {
+        "title": "Five Tomes against Nestorius",
+        "author": "Cyril of Alexandria",
+        "language": "English translation",
+        "file": "cic/texts/cyril-alexandria_five-tomes-against-nestorius-scholia-christ-is-one_pusey1881.txt"
+      }
+    ],
+    "writtenLater": [
+      {
+        "title": "Church History, Book VII, chapters 29 to 34",
+        "author": "Socrates of Constantinople",
+        "language": "English translation",
+        "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
+      },
+      {
+        "title": "Ecclesiastical History, part 2",
+        "author": "Barhadbeshabba 'Arbaya, ed. François Nau",
+        "language": "Syriac with French translation",
+        "file": "cic/texts/po09_barhadbeshabba-ecclesiastical-history-part2-and-others-fra_1913.txt"
+      },
+      {
+        "title": "A History of the Councils of the Church, vol. 3",
+        "author": "Charles Joseph Hefele",
+        "language": "English translation",
+        "file": "cic/texts/hefele_history-of-the-councils-v3-431-451_clark1883.txt"
+      },
+      {
+        "title": "An Introduction to the History of the Assyrian Church, 100-640",
+        "author": "W. A. Wigram",
+        "language": "English",
+        "file": "cic/texts/wigram_introduction-to-the-history-of-the-assyrian-church-100-640_1910.txt"
+      }
+    ]
+  }
+}
