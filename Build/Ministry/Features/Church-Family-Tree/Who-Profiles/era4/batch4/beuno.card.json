@@ -1,0 +1,54 @@
+{
+  "name": "Beuno",
+  "otherNames": [
+    "Beino",
+    "Beunonus"
+  ],
+  "knownFor": "Welsh clergyman and founder of churches, as the late Welsh Life tells him. A note in W. J. Rees's edition says he founded the religious house at Clynog Fawr in 616.",
+  "dates": "A note in W. J. Rees's edition, quoting a Professor Rees's Welsh Saints, puts his life in the sixth century and into the seventh. It says he founded Clynog Fawr in 616, and gives his festival as April 21. The Life sets his last vision on the seventh day after Easter, as his end drew near, and gives no year",
+  "place": "Caerwent, where he was taught; Berriew near the Severn; Meivod; Gwyddelwern; the river Dee; Gwaredauc and Kelynauc in Arvon",
+  "tradition": "British and Welsh Christianity",
+  "role": "Clergyman; founder of churches",
+  "briefLength": "about 2 minutes",
+  "legacy": {
+    "traces": [
+      "A note in W. J. Rees's edition names eleven churches dedicated to him in Montgomeryshire, Merionethshire, Caernarvonshire, Anglesey and Herefordshire.",
+      "Hugh Williams, in his notes on Gildas, cites the Ancient Laws of Wales for the phrase clas Beuno, the monastery of Beuno."
+    ],
+    "remembered": [
+      "The Latin Life of Saint Winefred, printed by W. J. Rees, makes Beuno her teacher, who raised her after she was killed. Each year, it says, she sent him a cloak she had made.",
+      "John Mirk's English sermon book, the Festial, tells the same story of a holy hermit called Bewnow.",
+      "The Life says he gave food to the hungry, drink to the thirsty and lodging to strangers, and visited the sick."
+    ]
+  },
+  "uncertain": [
+    "Every held account of him is late. The Welsh Life is from manuscripts W. J. Rees printed in 1853, and he thought such Lives were probably compiled about the twelfth century. No held witness is near his own time.",
+    "The year 616 and his centuries come from a note in W. J. Rees's edition quoting a Professor Rees's Welsh Saints. The Life itself gives no year.",
+    "His wonders. The Life says he raised Winefred and others from the dead, and that a king who killed her melted into a pool."
+  ],
+  "sources": {
+    "about": [
+      {
+        "title": "Lives of the Cambro British Saints: the Welsh Life of Saint Beuno with its English translation, and the Latin Life of Saint Winefred",
+        "author": "W. J. Rees (ed. and tr.)",
+        "date": "1853",
+        "language": "Welsh and Latin, with English translation",
+        "file": "cic/texts/rees_lives-of-the-cambro-british-saints-lat-eng_1853.txt"
+      },
+      {
+        "title": "De excidio Britanniae, with Hugh Williams's notes",
+        "author": "Hugh Williams (ed.)",
+        "date": "1899",
+        "language": "Latin, with English",
+        "file": "cic/texts/gildas_de-excidio-britanniae-lorica-penitential-lat-eng_williams1899.txt"
+      },
+      {
+        "title": "Mirk's Festial, the sermon for Saint Winefred",
+        "author": "John Mirk",
+        "date": "1905",
+        "language": "Middle English",
+        "file": "cic/texts/mirk_festial-enm_erbe1905.txt"
+      }
+    ]
+  }
+}
