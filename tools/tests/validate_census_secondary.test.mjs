@@ -20,7 +20,7 @@ function secondaryErrors(source) {
   const dir = mkdtempSync(join(tmpdir(), "census-secondary-"));
   const path = join(dir, "census.json");
   writeFileSync(path, JSON.stringify({ ...census, edges: [edge], retiredLinks: [] }));
-  const run = spawnSync("node", ["tools/validate-census.mjs", path], { encoding: "utf8" });
+  const run = spawnSync("node", ["tools/validate-census.mjs", "--skip-quotes", path], { encoding: "utf8" });
   return run.stdout.split("\n").filter(l => l.startsWith("ERROR") && l.includes("source[0]"));
 }
 

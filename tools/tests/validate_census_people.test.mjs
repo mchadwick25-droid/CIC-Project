@@ -23,7 +23,7 @@ function errorsFor(change) {
   const dir = mkdtempSync(join(tmpdir(), "census-people-"));
   const path = join(dir, "census.json");
   writeFileSync(path, JSON.stringify(c));
-  const run = spawnSync("node", ["tools/validate-census.mjs", path], { encoding: "utf8" });
+  const run = spawnSync("node", ["tools/validate-census.mjs", "--skip-quotes", path], { encoding: "utf8" });
   return run.stdout.split("\n").filter(l => l.startsWith("ERROR"));
 }
 

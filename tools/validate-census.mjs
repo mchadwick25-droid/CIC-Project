@@ -14,6 +14,10 @@ if (treeIdx >= 0) args.splice(treeIdx, 2);
 const atlasIdx = args.indexOf("--atlas");
 const atlasPath = atlasIdx >= 0 ? args[atlasIdx + 1] : null;
 if (atlasIdx >= 0) args.splice(atlasIdx, 2);
+// --skip-quotes leaves out the check of quotations against the Library files, which reads hundreds of megabytes.
+// The schema tests use it; CI and every census edit run the full check.
+const skipQuotes = args.includes("--skip-quotes");
+if (skipQuotes) args.splice(args.indexOf("--skip-quotes"), 1);
 const path = args[0] ?? "cic-website/data/world-census.json";
 const errs = [];
 const warn = [];
@@ -325,7 +329,7 @@ function checkQuotes(m) {
         if (f.length >= 8) pending.push({ piece, f });
       }
   }
-  quoteJobs.push({ id: m.id, files, left: pending });
+  if (!skipQuotes) quoteJobs.push({ id: m.id, files, left: pending });
 }
 // Each Library file is read and folded once for the whole census, one file at a time (the files are large).
 const quoteJobs = [];

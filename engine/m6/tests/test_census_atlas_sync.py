@@ -193,3 +193,17 @@ def test_people_fields_mirror_for_built_and_non_built_worlds():
     assert by_id["plain-b"]["peopleNote"] == "No one is named."
     assert by_id["p"]["toldWithin"] == "built-b"
     assert by_id["p"]["card"] == {"role": "Bishop"}
+
+
+def test_a_people_field_the_census_dropped_is_taken_out_of_the_atlas():
+    census = {"movements": [{"id": "a", "status": LIVE_STATUS, "people": [{"person": "p"}]}]}
+    atlas = [{"id": "a", "status": LIVE_STATUS, "people": [{"person": "p"}], "peopleNote": "No one is shown."}]
+    new_movements, changes = sync_atlas(census, atlas)
+    assert "peopleNote" not in new_movements[0]
+    assert changes == [{"id": "a", "field": "peopleNote", "old": "No one is shown.", "new": None, "removed": True}]
+
+
+def test_council_is_a_people_field():
+    census = {"movements": [{"id": "c", "status": "Major council", "council": {"knownFor": "A meeting."}}]}
+    new_movements, changes = sync_atlas(census, [{"id": "c", "status": "Major council"}])
+    assert new_movements[0]["council"] == {"knownFor": "A meeting."}
