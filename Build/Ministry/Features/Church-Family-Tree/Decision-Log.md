@@ -3138,3 +3138,30 @@ Round 2, a targeted recheck that also reread all six tightened briefs in full, f
 **What is still open.** Open-Gaps 262, "Era 4 Who batch 8" (2026-11-14).
 
 The approved files are in `Who-Profiles/era4/batch8/` in this folder, and the reviews are in `Build/Ministry/Operations/Audits/2026-11-14_who-profiles-era4-batch8/`. No census, record or site change is made, so there is no data release number. Approved to proceed (coordinator, 2026-11-14; Mark may overrule).
+
+## 2026-11-14 — Who re-score, eras 4 and 5: the WANTED rows the Library filled, 77 new WHO, majors and batches proposed (coordinator's brief, under Mark's ruling of 2026-11-14 that eras 4 to 7 are built in full)
+
+**The re-score.** The Library's era 4 and era 5 batches (PRs #1638 and #1640) filled most of the sources the era 4 and era 5 Who scans had marked WANTED. Those rows were re-scored under the scans' own rulings. The audit is `Build/Ministry/Operations/Audits/2026-11-14_who-rescore-eras4-5/Rescore.md`. Four Sonnet workers drafted it, citing the lines of each filled file that carry a life or the person's own words. One fresh Opus agent at full effort, which had not seen the drafting, opened every cited range for all 91 checked rows. It confirmed 63 rows and corrected 28, and found none unsupported (`Opus_Check_Notes.md`). No census, site, record or profile was changed. No paid calls were made.
+
+- **Era 4 (43 rows):** WHO 34 (two of them OUTSIDE WITNESS: al-Tabari and Ibn Ishaq), STORY 5, LISTED 3, still WANTED 1 (Ibn Hayyan).
+- **Era 5 (49 rows):** the scan's 43 rows, Peter Abelard from the supplement, and the four outside witnesses that had no row. The tally is WHO 43 (four OUTSIDE WITNESS: Ibn al-Athir, Usama ibn Munqidh, Ibn Jubayr, Benjamin of Tudela), STORY 1 (Innocent III), LISTED 2, still WANTED 3 (Walter Daniel, Hadewijch, Teodosije).
+
+**Worker and coordinator calls under settled rules (not Mark's words; Mark may overrule).**
+- Þorgeir is STORY: Ari, about 120 years later, counts as the early source on the Vladimir and Olga precedent, and Þorgeir has no own words. The alternative is LISTED.
+- Giorgi Merchule is WHO as a recorder, with a very thin life flagged. The alternative is LISTED.
+- The Domentijan and Teodosije pair is split. Domentijan is WHO as a recorder. Teodosije stays WANTED, and is probably era 6 by date of work.
+- Marco Polo loses the OUTSIDE WITNESS label, because a Christian writer is inside Christianity (the era 7 and era 8 calls).
+- Anna Komnene is WHO as a recorder, in Greek only, without the label, as the change order of Open-Gaps 230 left her. This treats her differently from Procopius.
+- Innocent III is STORY under the pope rule. No work of his own outside the chancery is held. He keeps his live entry, flagged, as Heraclius did.
+- Constantine-Silvanus, Sergius-Tychicus, Basil the Physician, Cyril III ibn Laqlaq and Berno are LISTED. The Paulician and Bogomil teaching has one witness, and Cyril III's only held life is a retelling of 1713.
+- Mark's rights rulings were held to. Hadewijch is used only in the 1875 dbnl edition, which is not vendored, so she stays WANTED. Anna Komnene is used in Greek only.
+
+**Major proposals (for Mark to confirm in each batch).**
+- **Era 4, yes:** John of Damascus, Theodore the Studite, Cyril and Methodius, Antony and Theodosius, Anskar. No tradition cap is passed. Era 4 already has 21 majors from batches 1 to 8. Greek East is at the river's five and Latin West at ten, so both river caps are passed. The proposal is for the era 4 Greek East river to show Maximus, John of Damascus, Theodore the Studite, Photius, and Cyril and Methodius.
+- **Era 5, yes:** Bernard, Dominic, Thomas Aquinas, Clare, Bruno, Norbert, Valdes, Joachim, Sava. Hugh de Payens is a judgment call. Robert of Molesme and Innocent III, carried as yes, are proposed no. The Latin West river cap is passed, and the proposal is for it to show Gregory VII, Bernard, Francis, Dominic and Thomas Aquinas.
+
+**Batch plan.** Era 4 has four batches of 8 or 9, numbered 9 to 12, with the majors in batch 9. Era 5 has eight batches covering all 62 era 5 WHO rows, with the majors in batches 1 and 2. The batches are listed in `Rescore.md`.
+
+**What is still open.** Open-Gaps, "Who re-score, eras 4 and 5" (2026-11-14).
+
+Approved to proceed (the re-score worker, under the coordinator's brief of 2026-11-14; Mark may overrule).
