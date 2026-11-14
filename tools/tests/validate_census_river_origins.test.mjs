@@ -19,7 +19,7 @@ function validate(data, rec = record) {
   const path = join(dir, "census.json"), atlas = join(dir, "index.html");
   writeFileSync(path, JSON.stringify(data));
   writeFileSync(atlas, page.slice(0, recStart) + JSON.stringify(rec, null, 1) + page.slice(recEnd));
-  const run = spawnSync("node", ["tools/validate-census.mjs", path, "--atlas", atlas], { encoding: "utf8" });
+  const run = spawnSync("node", ["tools/validate-census.mjs", "--skip-quotes", path, "--atlas", atlas], { encoding: "utf8" });
   return run.stdout.split("\n").filter(l => l.startsWith("ERROR") && l.includes("river origin"));
 }
 const link = (from, to, type) => ({ id: `${from}--${to}`, from, to, type, confidence: "Documented" });

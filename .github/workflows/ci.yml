@@ -179,6 +179,7 @@ jobs:
               - 'tools/tests/validate_census_people.test.mjs'
               - 'tools/tests/validate_census_online.test.mjs'
               - 'tools/tests/validate_census_river_origins.test.mjs'
+              - 'tools/tests/validate_census_council.test.mjs'
               - 'cic/texts/**'
               - 'cft-website/index.html'
               - 'engine/m6/**'
@@ -305,7 +306,7 @@ jobs:
           node-version: "20"
       - name: Fetch the vendored texts the census quotes
         run: |
-          node -e 'const d=require("./cic-website/data/world-census.json");const s=new Set();for(const e of d.edges??[])for(const x of e.sources??[])if(x.file)s.add(x.file);for(const m of d.movements??[])for(const p of m.people??[])if(p.source?.file)s.add(p.source.file);console.log([...s].join("\n"))' |
+          node -e 'const d=require("./cic-website/data/world-census.json");const s=new Set();for(const e of d.edges??[])for(const x of e.sources??[])if(x.file)s.add(x.file);for(const m of d.movements??[]){for(const p of m.people??[])if(p.source?.file)s.add(p.source.file);for(const g of Object.values((m.card??m.council)?.sources??{}))for(const x of g)if(x.file)s.add(x.file)}console.log([...s].join("\n"))' |
           while IFS= read -r f; do
             [ -n "$f" ] && git show "HEAD:$f" > "$f"
           done
@@ -314,7 +315,7 @@ jobs:
           git fetch --quiet --depth=1 --filter=blob:none origin "${{ github.base_ref || 'main' }}"
           git show "FETCH_HEAD:cic-website/data/world-census.json" > "$RUNNER_TEMP/census-base.json"
       - run: node tools/validate-census.mjs --base "$RUNNER_TEMP/census-base.json" --atlas cft-website/index.html --tree cft-website/tree cic-website/data/world-census.json
-      - run: node --test tools/tests/validate_census_outcome.test.mjs tools/tests/validate_census_secondary.test.mjs tools/tests/validate_census_kind.test.mjs tools/tests/validate_census_retired.test.mjs tools/tests/validate_census_people.test.mjs tools/tests/validate_census_online.test.mjs tools/tests/validate_census_river_origins.test.mjs
+      - run: node --test tools/tests/validate_census_outcome.test.mjs tools/tests/validate_census_secondary.test.mjs tools/tests/validate_census_kind.test.mjs tools/tests/validate_census_retired.test.mjs tools/tests/validate_census_people.test.mjs tools/tests/validate_census_online.test.mjs tools/tests/validate_census_river_origins.test.mjs tools/tests/validate_census_council.test.mjs
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"

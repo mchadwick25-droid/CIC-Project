@@ -108,7 +108,36 @@ def _reindent(value, base_indent: int) -> str:
     return lines[0] + "\n" + "\n".join(pad + l for l in lines[1:])
 
 
+REMOVE = object()  # as an update value: take the field out of the movement
+
+
+def _remove_field(obj_text: str, field: str) -> str:
+    found = _find_top_level_key(obj_text, field)
+    if found is None:
+        return obj_text
+    key_start, val_start = found
+    line_start = obj_text.rfind("\n", 0, key_start) + 1
+    val_end = _skip_value(obj_text, val_start)
+    tail = val_end
+    while tail < len(obj_text) and obj_text[tail] in " \t":
+        tail += 1
+    had_comma = tail < len(obj_text) and obj_text[tail] == ","
+    if had_comma:
+        tail += 1
+    line_end = obj_text.find("\n", tail)
+    line_end = len(obj_text) if line_end < 0 else line_end + 1
+    before = obj_text[:line_start]
+    if not had_comma:
+        # the last key: the previous line's comma goes with it
+        trimmed = before.rstrip()
+        if trimmed.endswith(","):
+            before = trimmed[:-1] + before[len(trimmed):]
+    return before + obj_text[line_end:]
+
+
 def _splice_field(obj_text: str, field: str, value) -> str:
+    if value is REMOVE:
+        return _remove_field(obj_text, field)
     found = _find_top_level_key(obj_text, field)
     if found is None:
         return _insert_field(obj_text, field, value)
