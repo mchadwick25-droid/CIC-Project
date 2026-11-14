@@ -1,6 +1,6 @@
 # Era 3 on the live tree (release 42): census text changed
 
-The Open-Gaps fixes to older census text, as built after review round 2. Each item gives the Open-Gaps entry it answers, the entry or link and field, the old text and the new text. The person and council entries themselves are built from the approved profiles and are not listed here; the profile lines this release changed are listed at the end.
+The Open-Gaps fixes to older census text, as built after review round 3. Each item gives the Open-Gaps entry it answers, the entry or link and field, the old text and the new text. The person and council entries themselves are built from the approved profiles and are not listed here; the profile lines this release changed are listed at the end.
 
 ## Open-Gaps 247: `british-welsh-christianity`, voices.2
 
@@ -105,12 +105,12 @@ The Open-Gaps fixes to older census text, as built after review round 2. Each it
 ## Open-Gaps 253: `the-church-of-the-east-under-persia`, documentedStories.1.text
 
 - Old: The school split. Barhadbshabba, writing the school’s own history, and the church’s synods of 585, 596 and 605 record the sequence: the catholicos Ishoyahb condemned Henana’s teaching without naming him; Henana kept his post under the protection of the Persian governor; and finally, by the traditional count, three hundred students walked out in a body rather than sit under him, leaving the school with a remnant.
-- New: The school split. Barhadbshabba, writing the school’s own history while Henana still taught, praises him. The church’s synods of 585 and 596 condemned teaching that Jérôme Labourt takes as aimed at Henana and his followers, though the acts never name him. The Chronicle of Seert tells it as a fight inside Nisibis. Gregory, metropolitan of the city, condemned Henana’s books, and Henana sought help from the king’s physicians. In the Chronicle the catholicos Sabrisho takes Henana’s side. Labourt finds the same odd turn: Sabrisho’s own synod of 596 spoke against the Henanians, yet he helped them against Gregory. Moved by Sabrisho’s decision, about three hundred students walked out, and only twenty people, and scarcely as many children, were left in the school.
+- New: The school split. Barhadbshabba, writing the school’s own history while Henana still taught, praises him. The church’s synods of 585 and 596 condemned teaching that Jérôme Labourt takes as aimed at Henana and his followers, though the acts never name him. The Chronicle of Seert tells it as a fight inside Nisibis. Gregory, metropolitan of the city, condemned Henana’s books, and Henana sought help from the king’s physicians. In the Chronicle the catholicos Sabrisho takes Henana’s side. Labourt finds the same odd turn: Sabrisho’s own synod of 596 spoke against the Henanians, yet he helped them against Gregory. Moved, the Chronicle says, by Sabrisho’s choice of Henana’s word over Gregory’s, about three hundred students walked out, and only twenty people, and scarcely as many children, were left in the school.
 
 ## Open-Gaps 253: `the-church-of-the-east-under-persia`, documentedStories.1.text
 
 - Old: Henana died in his post around 610, and Nisibis
-- New: When Henana died is told two ways in Addai Scher’s notes: under the catholicos Sabrisho, who died in 604, or still alive in 610. Nisibis
+- New: Addai Scher’s notes disagree on his death. One says he died under the catholicos Sabrisho, who died in 604; another says he was still alive in 610. Nisibis
 
 ## Open-Gaps 253: `the-church-of-the-east-under-persia`, documentedStories.1.caveat
 

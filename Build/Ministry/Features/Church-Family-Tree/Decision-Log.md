@@ -2835,7 +2835,7 @@ The approved files are in `Who-Profiles/era3/batch8/` in this folder, and the re
 
 **Wording changed (listed for the Opus recheck).** American spelling in the profiles' own prose, about 40 words; no quotation and no title of a work changed. "Catalogue of the Saints of Ireland", "Catalogue of writers" and "Catalogue of Abdisho" are now in the spelling check's list of names. The rendering marks and the card sentences above.
 
-**Review.** [REVIEW-ROUNDS] Every changed line of participant text was checked, including for AI tells and generic voice. Every quotation was checked against its vendored file. No paid calls were made.
+**Review.** Three rounds by fresh Opus agents that had not seen the drafting, at full effort in every round. Round 1, the full review, found 2 blocking points (Victor of Vita and Fulgentius in the Non-Nicene river; a governor's protection in the Nisibis story that no held line gives), 8 substantial and 10 minor. Round 2, a targeted recheck, found no blocking point, 4 substantial (a verb, Philoxenus's dates line, the Ladder's "him", and Labourt's reading set against the Chronicle) and 6 minor. Round 3 approved it to proceed, with 3 minor points taken as wording. Every changed line of participant text was checked, including for AI tells and generic voice. Every quotation was checked against its vendored file. No paid calls were made.
 
 **Also changed.** The data page and its citation examples show release 42 (14 November 2026). Release 42 follows release 41 (PR #1647).
 
