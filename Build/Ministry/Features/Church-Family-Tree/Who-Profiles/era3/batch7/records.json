@@ -167,6 +167,11 @@
         "formation_confidence": "Dominant Modern Reconstruction"
       },
       {
+        "claim": "Victor of Tunnuna enters Anastasius's death and Justin's reign under the year Mommsen heads 518: 'Anastasius imperator ... moritur' and 'Romanorum LI IVSTINVS regnavit an. VIII mens. VIIII'. With Peiper's correction of the Life's emperor to Justin ('immo Iustino', OCR 'iinmo lustino'), this is the README's ordering year, 518, which is also the Library header's",
+        "witness": "Victor of Tunnuna, Chronicle (chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894 l.18560, 18562-18565, 18567); Peiper (avitus-vienne_opera-mgh-aa-6-2-lat_peiper1883 l.18385)",
+        "formation_confidence": "Documented"
+      },
+      {
         "claim": "Peiper dates the latest letters 'a. 517/518' (ep. 61, to Apollinaris) and 'c. a. 518' (ep. 63)",
         "witness": "Peiper, table of letters (avitus-vienne_opera-mgh-aa-6-2-lat_peiper1883 l.43417, l.43420)",
         "formation_confidence": "Dominant Modern Reconstruction"
@@ -470,7 +475,7 @@
         "formation_confidence": "Documented"
       },
       {
-        "claim": "'in the second year of the reign of Justin, which was An. 830, he thrust out of Antioch Severus, and Xenaias from Mabug, and everybody that received not the four synods'; Budge reads 830 as 'A.D. 518 — 519'",
+        "claim": "'in the second year of the reign of Justin, which was An. 830, he thrust out of Antioch Severus, and Xenaias from Mabug, and everybody that received not the four synods'; Budge reads 830 as 'A.D. 518 — 519'. The 'he' is Justin, and the brief's 'the emperor Justin ... drove Severus from Antioch and Philoxenus from Mabbug' gives Xenaias the brief's one name for him",
         "witness": "Chronicle of Edessa, tr. Cowper (chronicle-of-edessa_cowper l.217); Latin in chronica-minora-pars-prior-versio-lat_guidi1903 l.1261-1262; Budge (philoxenus-of-mabbug_discourses_budge1894 l.722-724)",
         "formation_confidence": "Documented"
       },
@@ -748,8 +753,8 @@
         "formation_confidence": "Inferential-Thin"
       },
       {
-        "claim": "The Bollandists cite two catalogs by Ferrarius, who 'in Catalogo Sanctorum Italiae agit de S. Severino Boetio Martyre Ticini ... & in altero Catalogo eorum qui non sunt in Martyrologio Romano, Ticini S. Severini Boetii Martyris, sub Theodorico Gothorum Rege' (reading reconstructed from heavy OCR with the print's o/a and u/n swaps: 'Ptrrarint', 'Catalagaearamqainanfantia Alartpralogia Ramana', 'Seven ni Uoet II Manyris', 'Thcodorico Gnthorum Regej'). Two catalogs are named: one of the saints of Italy, which calls him a martyr at Pavia, and one of saints who are not in the Roman Martyrology, which adds 'under Theodoric'. Neither is a Roman Martyrology entry. The card's 'two catalogs of saints by Ferrarius' rests on this",
-        "witness": "acta-sanctorum_maii-tomus-6-lat_1739 l.16492-16497",
+        "claim": "The Bollandists cite two catalogs by Ferrarius, who 'in Catalogo Sanctorum Italiae agit de S. Severino Boetio Martyre Ticini ... & in altero Catalogo eorum qui non sunt in Martyrologio Romano, Ticini S. Severini Boetii Martyris, sub Theodorico Gothorum Rege' (reading reconstructed from heavy OCR with the print's o/a and u/n swaps: 'Ptrrarint', 'Catalagaearamqainanfantia Alartpralogia Ramana', 'Seven ni Uoet II Manyris', 'Thcodorico Gnthorum Regej'). Two catalogs are named: one of the saints of Italy, which calls him a martyr at Pavia, and one of saints who are not in the Roman Martyrology, which adds 'under Theodoric'. Neither is a Roman Martyrology entry. The card's 'two catalogs of saints by Philippus Ferrarius' rests on this. The full name and the post come from the Bollandists' March volume: 'Philippus Ferrarius in Catalogo. generali Sanctorum, quem Professor in Ticinensi gymnasio scrip- sit' (who wrote it as a professor in the school at Pavia), the source of the card's 'a professor at Pavia'. Taking the May volume's 'Ferrarius' for this man rests on both being Bollandist references to his catalogs of saints",
+        "witness": "acta-sanctorum_maii-tomus-6-lat_1739 l.16492-16497; acta-sanctorum_martii-tomus-3-lat-grc_palme1865 l.74388-74390",
         "formation_confidence": "Inferential-Thin"
       },
       {
@@ -896,8 +901,8 @@
         "formation_confidence": "Documented"
       },
       {
-        "claim": "Note (a) to the Life: P. Chifflet and others think it is by Ferrandus, deacon of Carthage, for reasons in his preface to Ferrandus's works, Dijon 1649 ('Divione edita anno 1649'); 'Alios tamen haec [OCR hx] non convincunt, cum Vitae auctor videatur a latere Fulgentii non discessisse, nec id de Ferrando possit affirmari. V. Bolland.'",
-        "witness": "Note in Migne's edition of the Life (fulgentius-ruspe_opera-contra-arianos-pl65-lat_migne1847 l.7961-7967); matches the approved Ferrandus profile (era3/batch2)",
+        "claim": "Note (a) to the Life: P. Chifflet and others think it is by Ferrandus, deacon of Carthage, for reasons in his preface to Ferrandus's works, Dijon 1649 ('Divione edita anno 1649'); 'Alios tamen haec [OCR hx] non convincunt, cum Vitae auctor videatur a latere Fulgentii non discessisse, nec id de Ferrando possit affirmari. V. Bolland.'. Note (b): 'in Vita a Chiffl. edita inter opera Ferrandi' (OCR 'iutcr'), so Chifflet edited the Life with Ferrandus's works. The brief's 'P. Chifflet, editor of Ferrandus in 1649' rests on note (a), 'praefatione ad opera Fulgentii Ferrandi Divione edita anno 1649', and on note (b)",
+        "witness": "Notes (a) and (b) in Migne's edition of the Life (fulgentius-ruspe_opera-contra-arianos-pl65-lat_migne1847 l.7961-7967, 7969-7970); matches the approved Ferrandus profile (era3/batch2)",
         "formation_confidence": "Documented"
       },
       {
@@ -1109,6 +1114,11 @@
         "claim": "Gallandi: 'Et Baronius quidem ait, summum illud Ecclesiae Africanae decus anno 529 supremum diem obiisse ipsis calendis Januarii. Pagius vero et Bollandus Baronium pene assectantur'",
         "witness": "Gallandi, Notitia on Ferrandus (facundus-ferrandus-caesarius-dionysius-pl67-lat_migne1865 l.68416-68420)",
         "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Gallandi is a scholar who edited the early Christian writers: PL 67 prints its notices 'ex Gallandii Bibliotheca', from his Bibliotheca veterum patrum, and Otto names its editor in full, 'curavit ANDREAS GALLANDI', with the title 'Bibliotheca veterum Patrum antiquorumque Scri- ptorum ecclesiasticorum'. The brief's 'The scholar Andrea Gallandi' rests on this",
+        "witness": "PL 67 (facundus-ferrandus-caesarius-dionysius-pl67-lat_migne1865 l.379); Otto (tatian_oratio-ad-graecos-grc-lat_otto1851 l.20101-20103)",
+        "formation_confidence": "Documented"
       },
       {
         "claim": "Baronius is a cardinal: 'Caesaris Baronii cardinalis' (OCR 'Csesaris')",
@@ -1349,8 +1359,8 @@
         "formation_confidence": "Documented"
       },
       {
-        "claim": "Cassiodorus as a statesman of Gothic Italy: Hodgkin, 'the statesman who, after spending thirty years at the Court of Theodoric and his daughter, spent thirty-three years more in the monastery which he had himself erected at Squillace'; the file describes the Variae as 'The chancery letters of Theoderic and his successors, the voice of the Ostrogothic Arian kingdom's government'. The brief's and card's 'Cassiodorus, a statesman of Gothic Italy' rests on these",
-        "witness": "Thomas Hodgkin, Introduction (cassiodorus_variae-letters-hodgkin1886 l.1119-1121; header l.1-2, 15-16)",
+        "claim": "Cassiodorus as a statesman of Gothic Italy: Hodgkin, 'the statesman who, after spending thirty years at the Court of Theodoric and his daughter, spent thirty-three years more in the monastery which he had himself erected at Squillace'; and 'he became what we should call the Prime Minister of the Ostrogothic King Theodoric'. The brief's and card's 'Cassiodorus, a statesman of Gothic Italy' rests on these",
+        "witness": "Thomas Hodgkin, Introduction (cassiodorus_variae-letters-hodgkin1886 l.1090-1091, 1119-1121)",
         "formation_confidence": "Documented"
       }
     ],
@@ -1504,7 +1514,7 @@
         "formation_confidence": "Documented"
       },
       {
-        "claim": "'many words had been spoken during the no small space of one year and more by the believing bishops who had come thither to the royal city by the king's command ... with whom was the learned John the archimandrite, the son of Aphthonia, (and he wrote a record of the discussions)'; Michael: 'L'archimandrite Jean Bar Aphthonia y était, et les mit par écrit'",
+        "claim": "'many words had been spoken during the no small space of one year and more by the believing bishops who had come thither to the royal city by the king's command ... with whom was the learned John the archimandrite, the son of Aphthonia, (and he wrote a record of the discussions)'; Michael: 'L'archimandrite Jean Bar Aphthonia y était, et les mit par écrit'. The card's keyWorks entry 'Record of the debates at Constantinople' rests on this. The brief's 'He wrote a record of them, which the chronicles mention but do not give' rests on these two lines, which report the record and quote none of it",
         "witness": "zachariah-rhetor_chronicle_hamiltonbrooks1899 IX.15 l.12547-12554; Michael (michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901 l.14768-14770)",
         "formation_confidence": "Documented"
       },
@@ -1514,7 +1524,7 @@
         "formation_confidence": "Documented"
       },
       {
-        "claim": "Pseudo-Dionysius / John of Asia extract: 'Saint Mar Sévère, patriarche d'Antioche, sortit de ce monde en l'an 849, le 8 février ... et Mar Jean Bar Aphthonia mourut le 4 novembre'",
+        "claim": "Pseudo-Dionysius / John of Asia extract: 'Saint Mar Sévère, patriarche d'Antioche, sortit de ce monde en l'an 849, le 8 février ... et Mar Jean Bar Aphthonia mourut le 4 novembre'. The card's 4 November (dates, and uncertain 'When the archimandrite died') rests on this; the brief does not give the day",
         "witness": "Extract printed by Kugener (zacharias-scholasticus_vie-de-severe-po2-syr-fra_kugener1903 l.19884-19886)",
         "formation_confidence": "Documented"
       },
@@ -1554,13 +1564,13 @@
         "formation_confidence": "Documented"
       },
       {
-        "claim": "Michael names the house 'le saint monastère de Bar Aphtonia, appelé de Qennésrîn' (hyphen break 'ap- pelé')",
+        "claim": "Michael names the house 'le saint monastère de Bar Aphtonia, appelé de Qennésrîn' (hyphen break 'ap- pelé'). The brief's l.7 'Michael the Syrian calls this house the monastery of Bar Aphthonia' rests on this, in the brief's spelling of the name",
         "witness": "Michael (michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901 l.29097-29098)",
         "formation_confidence": "Documented"
       },
       {
-        "claim": "Brooks's note: 'The monastery which John son of Aphthonia established at Kenneshre on the Euphrates after it had been expelled from Seleucia'; John of Ephesus also names 'Sergius from the monastery of Aphthonia in Charrhae'",
-        "witness": "John of Ephesus, Lives, tr. Brooks (john-ephesus_lives-eastern-saints-po19-mixed-issue_brooks1926 l.10643-10651, 10661-10662)",
+        "claim": "Brooks's note: 'The monastery which John son of Aphthonia established at Kenneshre on the Euphrates after it had been expelled from Seleucia'. The note is to 'Dimet from the monastery of Aphthonia in the eity [OCR] of Laodicea', made a metropolitan; the same list has 'Sergius from the monastery of Aphthonia in Charrhae'. In this list of consecrations each city is the see (Laodicea, Seleucia, Tarsus, Kenneshrin, Charrhae, Sura), so Charrhae is Sergius's see and the line names one monastery of Aphthonia, not two. Supports the card's uncertain item on Beth Aphthonia and Kenneshre",
+        "witness": "John of Ephesus, Lives of the Eastern Saints, tr. E. W. Brooks (john-ephesus_lives-eastern-saints-po19-mixed-issue_brooks1926 l.10639-10651, note 4 at l.10661-10663)",
         "formation_confidence": "Dominant Modern Reconstruction"
       },
       {
@@ -1590,7 +1600,7 @@
       },
       {
         "claim": "Whether Beith-Aphthonia is the Kenneshre house",
-        "sides": "Michael's name 'monastère de Bar Aphtonia, appelé de Qennésrîn' (michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901 l.29097-29098) and Brooks's note (john-ephesus_lives-eastern-saints-po19-mixed-issue_brooks1926 l.10661), and Bar Hebraeus's 'in monasterio Aphtonii seu Kenserinensi' for the house where Jacob of Edessa learned Greek (barhebraeus_chronicon-ecclesiasticum-vol1-lat_abbeloos-lamy1872 l.17306-17307), tie it to Kenneshre; John of Ephesus names another monastery of Aphthonia at Charrhae (john-ephesus_lives-eastern-saints-po19-mixed-issue_brooks1926 l.10650-10651)."
+        "sides": "Michael's name 'monastère de Bar Aphtonia, appelé de Qennésrîn' (michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901 l.29097-29098) and Brooks's note (john-ephesus_lives-eastern-saints-po19-mixed-issue_brooks1926 l.10661), and Bar Hebraeus's 'in monasterio Aphtonii seu Kenserinensi' for the house where Jacob of Edessa learned Greek (barhebraeus_chronicon-ecclesiasticum-vol1-lat_abbeloos-lamy1872 l.17306-17307), tie it to Kenneshre; against these, the heading of the Life gives no place for Beith-Aphthonia, and the tie rests on later names and Brooks's note. John of Ephesus's 'Sergius from the monastery of Aphthonia in Charrhae' (john-ephesus_lives-eastern-saints-po19-mixed-issue_brooks1926 l.10650-10651) gives Charrhae as Sergius's see, not a second monastery."
       }
     ],
     "absent_details": [
@@ -1698,8 +1708,8 @@
         "formation_confidence": "Widely Accepted"
       },
       {
-        "claim": "'Now Beoit, son of Olchan, of the Lathairn, of Mag Molt of Ulaid, was the earthly father of this Ciarán'; 'My father was Beoit, the wright'; he is 'the holy Ciarán, son of the wright'",
-        "witness": "Lismore Life (stokes_lives-of-saints-from-the-book-of-lismore-iri-eng_1890 l.22038-22046, l.21962)",
+        "claim": "'Now Beoit, son of Olchan, of the Lathairn, of Mag Molt of Ulaid, was the earthly father of this Ciarán'; 'My father was Beoit, the wright'; he is 'the holy Ciarán, son of the wright'; by earthly descent 'son of the wright who built chariots, and (practised) every art besides'. Tirechan calls him 'filium artificis' (the craftsman's son). The brief's 'a craftsman' and the card's 'or craftsman' rest on these",
+        "witness": "Lismore Life (stokes_lives-of-saints-from-the-book-of-lismore-iri-eng_1890 l.22038-22046, l.21962, l.21966-21967); Tirechan (stokes_tripartite-life-of-patrick-v2-lat-muirchu-tirechan-confession_1887 l.3471)",
         "formation_confidence": "Documented"
       },
       {
@@ -2051,7 +2061,7 @@
       },
       {
         "claim": "Cassiodorus: 'Nostris quoque temporibus Apocalypsis praedicta beati episcopi Primasii antistitis Africani studio minute ac diligenter quinque libris exposita est: quibus etiam liber unus, Quid faciat haereticum, cautissima disputatione subjunctus est'",
-        "witness": "Cassiodorus, Institutiones I.9 (cassiodorus_opera-institutiones-pl70-lat_migne1847 l.82379-82383; OCR 'Priraasii', 'niinuie', 'bbris'); in the chapter on the Apocalypse, after Augustine's City of God (l.82376-82378)",
+        "witness": "Cassiodorus, Institutiones I.9 (cassiodorus_opera-institutiones-pl70-lat_migne1847 l.82379-82383; OCR 'Priraasii', 'niinuie', 'bbris'); in the chapter on the Apocalypse, after Augustine's City of God (l.82376-82378). 'Nostris quoque temporibus' (in our own times too; OCR 'Noslris quoque teitiporibus') is the brief's and card's 'a writer of his own time'",
         "formation_confidence": "Documented"
       },
       {
@@ -2065,7 +2075,7 @@
         "formation_confidence": "Documented"
       },
       {
-        "claim": "The notice from Cave that Migne prints says the work on heresies is lost: 'Interiit jam dudum opus istud'. It then reports that the three books extant under the name Praedestinatus are, by an old manuscript Mabillon saw at Reichenau, given to Primasius: 'Opus sancti Primasii, discipuli Augustini, de Haeresibus numero XC', and doubts that note: 'quisquis hanc notulam codici Augiensi apposuit, forsan hallucinatus'. 'Lost' is the notice's view, not settled",
+        "claim": "The notice from Cave that Migne prints says the work on heresies is lost: 'Interiit jam dudum opus istud'. It then reports that the three books extant under the name Praedestinatus are, by an old manuscript Mabillon saw at Reichenau, given to Primasius: 'Opus sancti Primasii, discipuli Augustini, de Haeresibus numero XC', and doubts that note: 'quisquis hanc notulam codici Augiensi apposuit, forsan allucinatus'. 'Lost' is the notice's view, not settled",
         "witness": "Notitia/scripta ex Cave, PL 68 (liberatus-victor-tunnunensis-primasius-junillus-pl68-lat_migne1866 l.34982-34986, 35021-35031; OCR 'Inieriit', 'duduni', 'Prwdestinali', 'Maliillonius', 'Opussancti', 'Auijuslini', 'Ihrresibus', 'allucinalua')",
         "formation_confidence": "Contested"
       },
@@ -2119,7 +2129,7 @@
       },
       {
         "claim": "Whether his work on heresies is lost, or survives as the Praedestinatus",
-        "sides": "Lost: the notice from Cave that Migne prints, 'Interiit jam dudum opus istud' (liberatus-victor-tunnunensis-primasius-junillus-pl68-lat_migne1866 l.34982-34983; OCR 'Inieriit', 'duduni', 'isiud'), which ends by doubting the Reichenau title: 'quisquis hanc notulam codici Augiensi apposuit, forsan hallucinatus' (l.35030-35031; OCR 'allucinalua'). His: the title in the old Reichenau manuscript Mabillon saw, 'Opus sancti Primasii, discipuli Augustini, de Haeresibus numero XC' (l.35027-35028; OCR 'Opussancti', 'Auijuslini', 'Ihrresibus'), toward which the same notice first leans: 'Longe potiori jure tribuendi videntur Primasio nostro' (l.35020-35021; OCR 'videnlur', 'noslro'). Other authors the notice reports for the Praedestinatus: Hyginus, under whose name Hincmar of Reims cites it, which the notice calls a plain error (l.34999-35002); Sirmond's Arnobius the Younger (l.35002-35004); and Piccinardus's Vincentius (l.35004-35020)."
+        "sides": "Lost: the notice from Cave that Migne prints, 'Interiit jam dudum opus istud' (liberatus-victor-tunnunensis-primasius-junillus-pl68-lat_migne1866 l.34982-34983; OCR 'Inieriit', 'duduni', 'isiud'), which ends by doubting the Reichenau title: 'quisquis hanc notulam codici Augiensi apposuit, forsan allucinatus' (l.35030-35031; OCR 'allucinalua'). His: the title in the old Reichenau manuscript Mabillon saw, 'Opus sancti Primasii, discipuli Augustini, de Haeresibus numero XC' (l.35027-35028; OCR 'Opussancti', 'Auijuslini', 'Ihrresibus'), toward which the same notice first leans: 'Longe potiori jure tribuendi videntur Primasio nostro' (l.35020-35021; OCR 'videnlur', 'noslro'). Other authors the notice reports for the Praedestinatus: Hyginus, under whose name Hincmar of Reims cites it, which the notice calls a plain error (l.34999-35002); Sirmond's Arnobius the Younger (l.35002-35004); and Piccinardus's Vincentius (l.35004-35020)."
       }
     ],
     "absent_details": [
