@@ -82,9 +82,9 @@ Length. While round 1 ran, Mark ruled (2026-11-14, relayed by the coordinator) t
 
 | Brief | Words | FK | Flesch | Approx. time |
 |---|---|---|---|---|
-| eadburga-of-thanet | 350 | 6.7 | 71.0 | 2:10 |
-| abbess-bugga | 368 | 8.2 | 63.2 | 2:16 |
+| eadburga-of-thanet | 350 | 6.5 | 71.6 | 2:10 |
+| abbess-bugga | 368 | 8.2 | 63.1 | 2:16 |
 | yahya-ibn-said-of-antioch | 366 | 7.3 | 67.5 | 2:15 |
 | elias-of-nisibis | 365 | 6.2 | 72.5 | 2:15 |
 | adam-jingjing | 367 | 7.3 | 67.3 | 2:16 |
-| al-baladhuri | 363 | 7.9 | 66.3 | 2:14 |
+| al-baladhuri | 363 | 7.7 | 66.7 | 2:14 |
