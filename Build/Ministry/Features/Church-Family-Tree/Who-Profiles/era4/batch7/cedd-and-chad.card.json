@@ -1,0 +1,87 @@
+{
+  "name": "Cedd and Chad",
+  "otherNames": [
+    "Ceadda (Chad), the form of Bede's Latin",
+    "Cedda, a form later writers use for either brother"
+  ],
+  "knownFor": "Two English brothers whom Bede tells together, through Lastingham, the monastery Cedd founded and Chad ruled after him. Cedd was bishop of the East Saxons and stood with the Irish party at the synod of Whitby in 664. Chad was made bishop of York, then of the Mercians at Lichfield.",
+  "dates": "Seventh century. Bede gives no year of birth or death for either brother. Cedd was at the synod of Whitby, which Bede dates to 664, and died after it in a time of plague; Charles Plummer dates his death to 664, though a heading in J. A. Giles's English gives 659. Chad died on 2 March; Bede says he ruled the Mercians two and a half years, and the Bollandists put his death in 672",
+  "place": "Lastingham, among the Deiri in the north of England, their monastery; the East Saxons, with Ithancestir and Tilbury, Cedd's work; York and then Lichfield, Chad's sees; Ireland, where Chad lived as a monk in his youth, by Bede",
+  "tradition": "Anglo-Saxon Christianity",
+  "role": "Brothers, monks and bishops: Cedd, bishop of the East Saxons; Chad, bishop of York, then of the Mercians",
+  "briefLength": "about 2 minutes",
+  "legacy": {
+    "traces": [
+      "Bede says he learned how Cedd and Chad lived and died from the monks of Lastingham, the monastery they built.",
+      "Bede names a second informant on Chad: Trumbert, one of his own teachers, who had been a monk under Chad.",
+      "Lichfield, Bede says, remained the see of the bishops of the Mercians after Chad. His tomb there was a wooden house, and people took its dust to give in water to the sick.",
+      "The Roman Breviary keeps Chad's feast on 2 March, and the Bollandists give Cedd's on 7 January."
+    ],
+    "remembered": [
+      "Stephen, who wrote the Life of Wilfrid and takes Wilfrid's side, calls Chad a most religious servant of God and an admirable teacher, though he says Chad was ordained against the canons.",
+      "Egbert told of a man who saw the soul of Cedd come down with angels to take Chad's soul to heaven. Bede says he does not know whether Egbert meant himself or another.",
+      "Later writers often confuse the brothers. Henry of Huntingdon makes Chad succeed Cedd as bishop of the East Saxons, and the Bollandists note that the two names are often mixed up."
+    ]
+  },
+  "uncertain": [
+    "The year of Cedd's death. Bede gives none. He dates the synod of Whitby to 664, and says Cedd died later at Lastingham in a time of plague. Charles Plummer gives 664. A chapter heading in J. A. Giles's English gives 659, which cannot stand beside Bede's own account of Whitby.",
+    "The year Chad was made bishop of York. Bede's own summary of years gives 664, and a heading in J. A. Giles's English gives 665.",
+    "The year of Chad's death. Bede gives the day, 2 March, and says he ruled the Mercians two and a half years. The Bollandists give 672.",
+    "Chad's first consecration. Bede says Wini of the West Saxons consecrated him with two British bishops, and that Theodore later completed his ordination. Stephen, Wilfrid's biographer, says Chad was put into another man's see against the canons, that Theodore ordered him removed, and that Chad did penance before he was ordained in full for Lichfield.",
+    "Which brother was older. No held source says. The Bollandists call Cedd the elder, without a witness.",
+    "Cedd's see. Bede calls him bishop of the East Saxons and names no city as his see.",
+    "Two slips in J. A. Giles's English. Bede's teacher is Trumbert in the Latin, where Giles has Trumhere. Bede says the British bishops kept Easter contrary to the canonical custom, where Giles has according to it."
+  ],
+  "sources": {
+    "about": [
+      {
+        "title": "Ecclesiastical History, preface, III.21-28, IV.2-3 and V.19 (tr. J. A. Giles, ed. L. Cecil Jane)",
+        "author": "Bede",
+        "date": "1903",
+        "language": "English translation",
+        "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt"
+      },
+      {
+        "title": "Venerabilis Baedae Opera historica, volume 1: the Latin text, with Plummer's notes",
+        "author": "Bede; Charles Plummer (ed.)",
+        "date": "1896",
+        "language": "Latin",
+        "file": "cic/texts/bede_opera-historica-v1-historia-abbatum-lat_plummer1896.txt"
+      },
+      {
+        "title": "Life of Wilfrid, chapters 14 and 15, in Historians of the Church of York, volume 1",
+        "author": "Stephen; James Raine (ed.)",
+        "date": "1879",
+        "language": "Latin",
+        "file": "cic/texts/byrhtferth_vita-s-oswaldi-in-historians-of-the-church-of-york-v1-lat_raine1879.txt"
+      },
+      {
+        "title": "Acta Sanctorum, March, volume 1: on Saint Ceadda",
+        "author": "The Bollandists",
+        "date": "1735",
+        "language": "Latin",
+        "file": "cic/texts/acta-sanctorum_martii-tomus-1-lat_1735.txt"
+      },
+      {
+        "title": "Acta Sanctorum, March, volume 3",
+        "author": "The Bollandists",
+        "date": "1865",
+        "language": "Latin",
+        "file": "cic/texts/acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt"
+      },
+      {
+        "title": "Historia Anglorum, in Patrologia Latina 195",
+        "author": "Henry of Huntingdon",
+        "date": "1855",
+        "language": "Latin",
+        "file": "cic/texts/aelred-rievaulx_opera-pl195-lat_migne1855.txt"
+      },
+      {
+        "title": "The Roman Breviary (tr. John, Marquess of Bute)",
+        "date": "1908",
+        "language": "English translation",
+        "file": "cic/texts/roman-breviary_bute1908.txt"
+      }
+    ]
+  }
+}

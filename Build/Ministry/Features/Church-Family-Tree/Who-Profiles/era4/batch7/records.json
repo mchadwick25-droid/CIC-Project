@@ -1,0 +1,856 @@
+{
+ "symeon-the-new-theologian": {
+  "claims": [
+   {
+    "claim": "Ordination: \"sacerdos ordinatur a. Nicolao Chryso- berge patriarcha : Spiritus sancti, immensi luminis. specie, descensus in caput ordinati: visio cidem familiaris inter rem sacram per annos quadra- ginta octo sui sacerdotii\" (OCR); Combefis summarizing Niketas's Life",
+    "witness": "PG152 (calecas_opera-omnia-pg152-grc-lat_migne1866.txt) l.19615-19628",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Philokalia notice: \"νέος ἐπιχληθεὶς Θεολόγος, ἣν ἐπὶ τῆς βασιλείας Κωνσταντίνου τοῦ Пор- φυρογενήτου, περίπου τὸ χιλιο-- στὸν ἀπὸ Χριστοῦ ἔτος\" (OCR); disciple of \"Συμεὼν τοῦ ἐπιχαλουμένου Εὐῤλαῤοῦς\" (OCR)",
+    "witness": "PHIL2 (philokalia_ton-ieron-neptikon-v2-grc_tzelatis1893.txt) l.19937-19950",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Combefis: the Life \"fusissime scripta Niceta Silietato auctore, exstat in. cod. card. Maz.\" (OCR); \"Ex Vita itaque hxc summa habeto\"",
+    "witness": "PG152 (calecas_opera-omnia-pg152-grc-lat_migne1866.txt) l.19533-19562",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "\"Fuit Symeon Paplilago, oppido Galata (sic dicto)\"; at court \"spatbarocubicularii inunere inter senatores\"; Symeon the Studite, \"dicti Venerabilis\"; \"in Studiano monasterio tyronem indul\"; the superior \"e monasterio cjicit\"; sent to Antony of Saint Mamas (OCR)",
+    "witness": "PG152 (calecas_opera-omnia-pg152-grc-lat_migne1866.txt) l.19564-19601",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Chapters: the veil over the eyes, \"οὐχ ὄψεται ποτὲ τὸ νοητὸν φῶς τὸν Κύριον ἡμῶν ᾿Ιησοῦν Χριστόν\"; \"Ὁ ἐχ γενετῆς ὧν τυφλός, οὐ γνώσεται οὐδὲ πιστεύσει τῶν γραφομένων τὴν δύνα-- μιν\" ... \"συυ-- μαρτυρήσει εἶναι ἀληθῆ τὰ λεγόμενα\" (OCR); told in modern words",
+    "witness": "PHIL2 (philokalia_ton-ieron-neptikon-v2-grc_tzelatis1893.txt) l.20377-20409",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Feast and icon for Symeon the Pious; Sergius read the hymns and Life and praised them (\"Ἤκουσε ταῦτα καὶ ὁ Σέργιος πατριάρχης\"); sixteen years; Stephen \"ex mnetro- polita Nicomediensi , Sergii patriarche — syncel- lus\"; \"Totum Sthetatus ascri- bit invidiz\" (OCR)",
+    "witness": "PG152 (calecas_opera-omnia-pg152-grc-lat_migne1866.txt) l.19980-20031, 20084-20124",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Synods: \"Ὃ \\\"ATIOZ; abolita\" (OCR, the word saint removed); \"decreta synodice exsilii poena. Deportatus ad Clhrysopolim\"; recalled, \"oblati honores, metropolitica sedes\"; \"facta licentia colendi Patrem ut libuerit\" (OCR)",
+    "witness": "PG152 (calecas_opera-omnia-pg152-grc-lat_migne1866.txt) l.20267-20288",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Sergius to the nobles, as Niketas reports: \"οὐχ ὡς Ta- ρασφαλεὶ; ἐν τοῖς τῆς Ἐχκλησία; δόγμασι\" (OCR); Latin \"non eo irrogata est tanquam in ecclesiasticis dog- malis ... erraterit\"",
+    "witness": "PG152 (calecas_opera-omnia-pg152-grc-lat_migne1866.txt) l.20431-20462",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Le Quien: \"Hujus olim parens ſue- rat Simeon quidem monasterii Xyloxeri prepositus, quem juniorem Theologum appellant, cujus se $0- cium et vindicem præbuit Nicetas ille Stethatus\" (OCR)",
+    "witness": "PG94 (john-damascus_opera-omnia-t1-with-vita-pg94-grc-lat_migne1860.txt) l.15490-15495",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Combefis: \"/Egre fero, ul tantum vitrum pro ad- versariis sTare admittánt, vel Palamitárum fontera esse\" (OCR); and advised Henschen and Papebroch not to print the Life",
+    "witness": "PG152 (calecas_opera-omnia-pg152-grc-lat_migne1866.txt) l.19540-19544, 20252-20256",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Gregory of Sinai: \"τὰ τοῦ Νέου Θεολό- γου, τὰ τοῦ μαθητοῦ αὐτοῦ Στηθάτου\"",
+    "witness": "PHIL2 (philokalia_ton-ieron-neptikon-v2-grc_tzelatis1893.txt) l.37789-37800",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Symeon on those who mock: \"Τίς δὲ Θεὸν εἶδεν\" ... \"πολλοὶ μὲν εἶδον xal πρό- τερον * πλείους δὲ, οἶμαι, ὁρῶσι xal νῦν\" (OCR), from a discourse quoted by Combefis; told in modern words",
+    "witness": "PG152 (calecas_opera-omnia-pg152-grc-lat_migne1866.txt) l.20348-20379",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Niketas on Symeon: \"τὴν μὲν γλῶτταν αὐτοῦ χάλαμον ὀξυ- γράφου, τὴν δὲ διάνοιαν πηγὴν σοφίας Θεοῦ\"; \"ἁμαθὴς ὧν πάντη τῶν θύρα- θεν μαθημάτων\" (OCR)",
+    "witness": "PG152 (calecas_opera-omnia-pg152-grc-lat_migne1866.txt) l.19711-19717",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Combefis on the Messalians: \"videaturque ad Massalianos nonnihil inclinare\"; \"signum sensibile ejus przsentie\" (OCR)",
+    "witness": "PG152 (calecas_opera-omnia-pg152-grc-lat_migne1866.txt) l.19671-19681",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Method of prayer: printed in the Philokalia as his; Combefis could not find it in the Mazarin codex and doubts it",
+    "witness": "PHIL2 (philokalia_ton-ieron-neptikon-v2-grc_tzelatis1893.txt) l.70490-70536; PG152 (calecas_opera-omnia-pg152-grc-lat_migne1866.txt) l.21029-21046",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Paisius: \"отъ всея Цериве Новый Богословъ нареченный\" (OCR); Nil Sorsky quotes him on the light",
+    "witness": "PAISIUS (paisius-velichkovsky_zhitie-i-pisaniia-chu_optina1847.txt) l.9098-9106; NIL (nil-sorsky_predanie-i-ustav-chu_borovkova-maikova1912.txt) l.3135-3146",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Migne's index: \"SYMEON JUNIOR THEOLOGUS. Orationes 1-33\"; \"Divinorum amorum liber\"; \"Capitula practica et theologica\"",
+    "witness": "PG161 (bessarion_opera-omnia-pg161-grc-lat_migne1866.txt) l.122944-122948",
+    "formation_confidence": "Documented"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "Symeon as orthodox teacher or source of error",
+    "sides": [
+     "Combefis, the Philokalia compilers, Gregory of Sinai, Paisius: a true teacher (PG152 l.20252-20256; PHIL2 l.19937-19960, 37789-37800)",
+     "Le Quien: parent of the Palamite error; Combefis's own note (16) to Calecas reads Calecas's deluded monks as Symeon's disciples (PG94 l.15490-15495; PG152 l.29302-29320)"
+    ]
+   },
+   {
+    "claim": "Why he was exiled",
+    "sides": [
+     "Niketas: Stephen's envy (PG152 l.20122-20123); Sergius: not for doctrine but for persisting in the feast (PG152 l.20431-20462)",
+     "Combefis: a learned man could suspect two unlettered men who spoke as if inspired (PG152 l.20222-20228)"
+    ]
+   },
+   {
+    "claim": "Who wrote On the three methods of prayer",
+    "sides": [
+     "The Philokalia: Symeon (PHIL2 l.70536)",
+     "Combefis: doubts it (PG152 l.21029-21046, 21158, 21224-21230)"
+    ]
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "Birth, exile and death years, burial and relics",
+    "note": "No held source gives them. Searched all cic/texts for Symeon with junior/novus/new theologian forms, νέου Θεολόγου, Xerocerc-, Chrysoberg- and Slavonic Новый Богослов."
+   },
+   {
+    "detail": "Niketas's Life of Symeon in full",
+    "note": "Not held as a text. Combefis's summary with Greek extracts is held in PG 152."
+   },
+   {
+    "detail": "The Discourses and Hymns in full",
+    "note": "Not held; known through Combefis's extracts and Migne's index."
+   }
+  ]
+ },
+ "niketas-stethatos": {
+  "claims": [
+   {
+    "claim": "Recantation: \"ipso die nativi- tatis beati Ioannis Baptistae\" in the twelfth year of Constantine Monomachos; at Studios \"ante praesentiam praefati imperatoris et pro- eerum ejus insistentibus ipsis nuntiis Ro- manis anathematizavit quoddam scriptum sub suo nomine\" ... \"jussit idem ortho- doxus imperator praefatum incendi scriptum\" (OCR); Will dates it 1054",
+    "witness": "WILL (will_acta-et-scripta-de-controversiis-ecclesiae-graecae-et-latinae-saec-xi-grc-lat_1861.txt) l.14776-14834",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Next day: \"ultro adiit legatos ipsos intra palatium Pigi\"; \"accipiens per- fectam suarum propositionum solutionem iterum sponte anathematizavit\"; \"effectus est eorum familiaris amicus\" (envoys' record)",
+    "witness": "WILL (will_acta-et-scripta-de-controversiis-ecclesiae-graecae-et-latinae-saec-xi-grc-lat_1861.txt) l.14803-14812",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Philokalia notice: presbyter of Studios, \"Στηθᾶτος ἐπιχαλούμενος, Ἦν ἐν ἔτει ἀπὸ Χριστοῦ χιλιοστῷ τρια- χοστῷ, μαθητὴς χρηματίσας Συ - μεὼν τοῦ νέου Θεολόγου ὁ γνησι- ὦτατος\"; \"ἄλλον ἀτεχνῶς δεί-- χνυσθαι τοῦ διδασχάλου παρήλιον\" (OCR)",
+    "witness": "PHIL2 (philokalia_ton-ieron-neptikon-v2-grc_tzelatis1893.txt) l.23137-23153",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Tears and compunction: \"Οὐ γὰρ εἴτι δάκρυον, τοῦτο ха! κατάνυ - ξις\" ... \"ὡς ἀπὸ πυ- ρὸς χαὶ ζέοντος ὕδατος εἰς χάθαρσιν τῆς χαρδίας\" ... \"ἐκ θείας δρόσου\" (OCR); told in modern words",
+    "witness": "PHIL2 (philokalia_ton-ieron-neptikon-v2-grc_tzelatis1893.txt) l.25013-25026",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "\"ταύτης τῆς μαχαρίας ζωῆς, πρό-- ξενος ἡ ταπείνωσις\" ... \"μήτηρ, ἡ ἁγία κατάνυξις\" ... \"ἀδελφή, 1 τοῦ θείου φωτὸς θεωρία\" ... \"τέλος ἣ ᾿Αγία Τριὰς ὁ Θεός\" (OCR); told in modern words",
+    "witness": "PHIL2 (philokalia_ton-ieron-neptikon-v2-grc_tzelatis1893.txt) l.26819-26823",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Unceasing prayer: \"οὐκ ἐν ἐχτάσει χειρῶν, ἢ παραστάσει σώματος χαὶ γλώττης ἤχῳ\" ... \"ἐν νοερᾷ μελέτῃ τῆς τοῦ νοὺς ἐργασίας ха! τῆς τοῦ Θεοῦ μνήμης\" (OCR); told in modern words",
+    "witness": "PHIL2 (philokalia_ton-ieron-neptikon-v2-grc_tzelatis1893.txt) l.27644-27652",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The book: \"de azymis et sabbatorum jejuniis et muptiis sacerdotum\" (OCR); \"Azyma emim inanimata sunt\" (OCR)",
+    "witness": "WILL (will_acta-et-scripta-de-controversiis-ecclesiae-graecae-et-latinae-saec-xi-grc-lat_1861.txt) l.12207-12243",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Will: \"Nicetam Pectoratum scriptum adversus Latinos vehe- mentissimum edere jussit, ut videtur\" ... \"suspicari licet eum minus ex sua sententia\"",
+    "witness": "WILL (will_acta-et-scripta-de-controversiis-ecclesiae-graecae-et-latinae-saec-xi-grc-lat_1861.txt) l.4340-4344, 12261-12263",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Humbert's reply ends: \"Sed saltem aliquando disce tacere, qui nun- quam loqui didicisti\"; \"puer centum annorum maledictus\"",
+    "witness": "WILL (will_acta-et-scripta-de-controversiis-ecclesiae-graecae-et-latinae-saec-xi-grc-lat_1861.txt) l.13186-13197, 14752-14760",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Who wrote the reply: Wibert names Frederick the chancellor; Will argues for Humbert",
+    "witness": "WILL (will_acta-et-scripta-de-controversiis-ecclesiae-graecae-et-latinae-saec-xi-grc-lat_1861.txt) l.13142-13160",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Le Quien: \"Hoc etiam tempore Pectoratus sermonem contra Latinos edidit de processione Spiritus san- cti\" ... \"post discessum Humberti aliorumque legatorum\" (OCR)",
+    "witness": "PG94 (john-damascus_opera-omnia-t1-with-vita-pg94-grc-lat_migne1860.txt) l.13686-13708",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "A Latin writer: \"Cur Leonem Acri- danum episcopum et Nicetam abbatem de Studio de diptychis sacris non deletis?\"",
+    "witness": "WILL (will_acta-et-scripta-de-controversiis-ecclesiae-graecae-et-latinae-saec-xi-grc-lat_1861.txt) l.24527-24531",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Gregory of Sinai: \"τὰ τοῦ μαθητοῦ αὐτοῦ Στηθάτου\"",
+    "witness": "PHIL2 (philokalia_ton-ieron-neptikon-v2-grc_tzelatis1893.txt) l.37795-37797",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Combefis: Niketas wrote the Life, and \"adversus Latinos cum Micbaele Cerv- lario plurimum decertasse, ac Cerularii partea fo- visse\" (OCR)",
+    "witness": "PG152 (calecas_opera-omnia-pg152-grc-lat_migne1866.txt) l.19534-19558",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Paisius: only twenty-two chapters in Slavonic; translated the three hundred",
+    "witness": "PAISIUS (paisius-velichkovsky_zhitie-i-pisaniia-chu_optina1847.txt) l.10217-10218, 10487-10494",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Nil Sorsky on vainglory, \"яко купёль мала ве- личества моря\" (OCR)",
+    "witness": "NIL (nil-sorsky_predanie-i-ustav-chu_borovkova-maikova1912.txt) l.4344-4353",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Ligarides: \"Nicetas Pectoratus blames the Latins for saying masses during Lent\"",
+    "witness": "LIGARIDES (ligarides_history-of-the-condemnation-of-patriarch-nikon_palmer1873.txt) l.17402-17404",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Le Quien: among the \"schismatis auctores\" with Cerularius",
+    "witness": "PG94 (john-damascus_opera-omnia-t1-with-vita-pg94-grc-lat_migne1860.txt) l.15495-15497",
+    "formation_confidence": "Documented"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "Whether the book was his own conviction",
+    "sides": [
+     "Will and Combefis: Cerularius stood behind it (WILL l.4340-4344; PG152 l.19555-19558)",
+     "The book carries his own name, as the envoys' record says (WILL l.14809-14812)"
+    ]
+   },
+   {
+    "claim": "Whether his recantation lasted",
+    "sides": [
+     "The envoys' record: he became their close friend (WILL l.14803-14812)",
+     "Le Quien: he wrote against the Latins after they left; a Latin writer: the Greeks kept him in the diptychs (PG94 l.13686-13708; WILL l.24527-24531)"
+    ]
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "Birth, death and age",
+    "note": "No held source gives them. Searched all cic/texts for Stethat-, Pectorat-, Στηθ- and Slavonic Стифат/Пекторат forms."
+   },
+   {
+    "detail": "Niketas's own account of 1054",
+    "note": "Not held."
+   },
+   {
+    "detail": "The Greek of the book against the Latins",
+    "note": "Will says it is lost but for a small fragment kept by Leo Allatius (WILL l.14848-14849)."
+   }
+  ]
+ },
+ "cedd-and-chad": {
+  "claims": [
+   {
+    "claim": "Lastingham site and fast: \"among craggy and distant moun- tains, which looked more like lurking-places for robbers and retreats for wild beasts\"; \"desiring first to cleanse the place for the monastery from former crimes, by prayer and fasting\"; \"All which days, except Sundays, he fasted till the evening\" ... \"a little bread, one hen's egg, and a little milk mixed with water\"",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.7592-7636",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The four brothers: \"Cedd and Cynebil, Celin and Ceadda [Chad], which is a rare thing to be met with, were all celebrated priests of our Lord\"",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.7664-7667; PLUMMER (bede_opera-historica-v1-historia-abbatum-lat_plummer1896.txt) l.21016-21020",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Bede's source: \"how those fathers lived and died, we learned from the brethren of the monastery, which was built by them, and is called Lastingham\"",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.197-204",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Oswy sends Cedd to the East Saxons; Finan makes him bishop; churches, priests and deacons; Ithancestir and Tilaburg",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.7503-7528",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Whitby 664: Cedd for the Scots and \"a most careful interpreter for both parties\"; afterwards \"having submitted to the Catholic observance of Easter\"",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.7966-7970, 8233-8237",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Cedd \"came thither at a time when there was a mortality, and fell sick and died\"; \"The bishop left the monastery to be governed after him by his brother Chad\"",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.7647-7658",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Chad \"one of the disciples of Aidan\"; sent by Oswy to be ordained bishop of York while Wilfrid stayed overseas; consecrated by Wini with two British bishops; travels \"after the manner of the apostles, on foot\"",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.8446-8487",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "British bishops: \"secus morem canonicum a XIIII usque ad XX lunam celebrant\" (contrary to the canonical custom; Giles's \"according to the canonical manner\" reverses it)",
+    "witness": "PLUMMER (bede_opera-historica-v1-historia-abbatum-lat_plummer1896.txt) l.21943-21946",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Theodore \"upbraided Bishop Chad that he had not been duly consecrated\"; \"I willingly resign the office, for I never thought myself worthy of it\"; Theodore \"himself completed his ordination after the Cathohc manner\" (OCR)",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.8882-8893",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Stephen: Chad ordained by Quartodecimans into Wilfrid's see \"contra eanones\" (OCR); \"servum Dei religiosis- simum, et admirabilem doctorem\"; Theodore \"Ceaddam episcopum de sede aliena jussit deponi\"; \"servus Dei verus et mitissimus\" ... \"poenitentia humili\"; later ordained in full for Lichfield",
+    "witness": "RAINE (byrhtferth_vita-s-oswaldi-in-historians-of-the-church-of-york-v1-lat_raine1879.txt) l.5537-5545, 5624-5633, 5659-5666",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Theodore asks Oswy for Chad as bishop of the Mercians; \"he himself, with his hands, lifted him on the horse\"; see at Lichfield, \"in which he also died\"",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.8921-8952",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Chad's death: two years and a half in Mercia; \"a mortality sent from heaven\"; \"Chad died on the 2nd of March\"",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.8959-8966, 9155",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Trumbert: \"bred in his monastery, and under his direction\"; \"he closed his book, and prostrating himself on the ground, prayed still more earnestly\"; the name is \"Trum- berct\" in the Latin, where Giles prints Trumhere",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.9084-9092; PLUMMER (bede_opera-historica-v1-historia-abbatum-lat_plummer1896.txt) l.22704-22705",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Egbert's report of Cedd's soul, and Bede's doubt: \"Whether he said this of himself, or some other, we do not certainly know\"",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.9145-9151",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Plummer's margin: \"Death of Cedd, A. D. 664.\"; Giles's heading to III.23 \"[a.d. 659]\"",
+    "witness": "PLUMMER (bede_opera-historica-v1-historia-abbatum-lat_plummer1896.txt) l.20986-20987; GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.7587-7588",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Bollandists: Chad's death \"auno DCLXXM\" (OCR, for DCLXXII); the names \"sape confunduntur\" (OCR); Chad's feast in the Breviary on 2 March",
+    "witness": "AASS-M3 (acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt) l.32747-32748; AASS-M1 (acta-sanctorum_martii-tomus-1-lat_1735.txt) l.31139; BUTE (roman-breviary_bute1908.txt) l.1693",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Henry of Huntingdon makes Chad succeed Cedd as bishop: \"cui successit in episcopatu frater ejus Ceadda\"",
+    "witness": "PL195 (aelred-rievaulx_opera-pl195-lat_migne1855.txt) l.62335-62336",
+    "formation_confidence": "Documented"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "Chad's first consecration and its remedy",
+    "sides": [
+     "Bede: consecrated by Wini with two British bishops; Theodore completed his ordination (GILES l.8468-8477, 8882-8893)",
+     "Stephen, Wilfrid's partisan: ordained against the canons into another's see; Theodore ordered him removed; penance; full ordination for Lichfield (RAINE l.5537-5666)"
+    ]
+   },
+   {
+    "claim": "The year of Cedd's death",
+    "sides": [
+     "Plummer 664, after Whitby (PLUMMER l.20986-20987)",
+     "Giles's heading 659 (GILES l.7587-7588)"
+    ]
+   },
+   {
+    "claim": "The year of Chad's consecration for York",
+    "sides": [
+     "Bede's recapitulation 664 (GILES l.15326-15329)",
+     "Giles's heading 665 (GILES l.8440)"
+    ]
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "Births, parents and birth order",
+    "note": "No held source gives them. Bede says only that the four were full brothers and English. Searched all cic/texts for Cedd, Cedda, Ceadda, Chad, Cynebil, Caelin and Lastingham forms."
+   },
+   {
+    "detail": "Writings of either brother",
+    "note": "None is held. Cedd's own words are only his reported sentence on Sigebert and his account of the fast."
+   },
+   {
+    "detail": "The year of Chad's death in Bede",
+    "note": "Bede gives the day only."
+   }
+  ]
+ },
+ "elipandus-of-toledo-and-felix-of-urgell": {
+  "claims": [
+   {
+    "claim": "Letter V: \"exeunie Julio vestro scriplo accepi\"; \"Epi- )lam vestram coelitus quemadmodum milii iliapsam eunle Julio accepi, et Deo meo ulnis exlensis im- ensas gralias egi\"; \"Me tamen cognoscile senectute jam decrepila octua^esiino scaindo anno a die octavo Kalend. Aug. ingressus fuisse\" (OCR, two columns); still \"carnis adoptionem in Filio Dei, quem sancli Palres el nos ipsi credimus in sola forma serviiulis humanx\"",
+    "witness": "PL96 (ildefonsus-julian-toledo-pl96-lat_migne1862.txt) l.72649-72712",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Urgell: \"Orgellis est civitas in Pyrinei montis iugo sita\"; Felix \"ab Elipando Toleti episcopo per litteras consultus\" ... \"adoptivum non solum pronuntiavit\"",
+    "witness": "ARF (annales-regni-francorum_kurze1895.txt) l.6414-6428",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Frankfurt 794: \"de impia ac nefanda erese Elipandi Toletane sedis episcopi et Felicis Orgellitanae eorumque sequacibus qui male sentientes in Dei filio adserebant adoptionem\"",
+    "witness": "CAP (capitulatio-de-partibus-saxoniae_pertz1881.txt) l.5600-5604",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Elipandus to Alcuin: \"Ad- optivum dicimus in sola forma servilutis humanx, non in gloria v«I substanlia divinae nalurre.\" (OCR); \"quem credo adopiione non esse, sed genere, neque gralia, sed nalura Deum esse\"",
+    "witness": "PL96 (ildefonsus-julian-toledo-pl96-lat_migne1862.txt) l.72191-72193, 72545-72550",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The Toledo mass: \"In missa de Ccena Domini : Qni pcr adopiivi hominis passionem\" (OCR)",
+    "witness": "PL96 (ildefonsus-julian-toledo-pl96-lat_migne1862.txt) l.72205-72208",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Hadrian 785: \"Eliphandus et Ascarius\" ... \"Filium Dei adoptivum confiteri non erubescunt\"; \"perfidus ille Nestorius, qui purum hominem Dei confessus est Filium\"",
+    "witness": "DENZ (denzinger_enchiridion-symbolorum-lat_bannwart1911.txt) l.10792-10801",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Alcuin: Felix \"dividens Christum in duos filios, unum vocans proprium, alterum adoptivum\" (opponent)",
+    "witness": "ALC (alcuin_opera-omnia-letters_migne-pl100-101_1863.txt) l.9660-9670",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Elipandus to Alcuin: \"novo Ario\"; \"quae novum Arium, id est Albinum, genuisti\"; Beatus \"Antifrasius\"",
+    "witness": "PL96 (ildefonsus-julian-toledo-pl96-lat_migne1862.txt) l.71811-71814, 72598-72599, 71660, 71713-71714",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "ARF: Regensburg, \"Heresis Feliciana primo ibi condempnata est\"; Rome, \"ad praesentiam Adriani apostolici adduxit, et confessione facta suam heresim iterum abdicavit\"; Frankfurt, \"Ibi tertio condempnata est heresis Feliciana\"",
+    "witness": "ARF (annales-regni-francorum_kurze1895.txt) l.6363-6366, 6591-6592",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Alcuin: Felix \"advocatus voluntarie veniens ad Aquis Palatium\" ... \"rationabiliter auditus, et veraciter convictus\" ... \"in pacem catholicae unanimitatis reversus est cum suis discipulis\" (opponent, normalized)",
+    "witness": "ALC (alcuin_opera-omnia-letters_migne-pl100-101_1863.txt) l.18659-18667",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Felix's Confession: \"non qua- llbet simulatione, seu velumine falsitalis , sicut du- dum, quod Deus «cit\" ... \"pocnitudinem gerentes de pristino errore ct saerameoto , quam pro hac iotentione olim prsc> taricatus sum\" (OCR)",
+    "witness": "PL96 (ildefonsus-julian-toledo-pl96-lat_migne1862.txt) l.72845-72857",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Froben, reporting Agobard: Felix \"adhuc vivens nonnullos docuerit\"; Froben: \"simulatam conversionem eventus docuit\"; \"Felix obiisse creditur circa an. 818\"",
+    "witness": "ALC (alcuin_opera-omnia-letters_migne-pl100-101_1863.txt) l.24319-24331, 24385-24387",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Alcuin, 800, as Froben quotes: Elipandus \"in damnata synodali auctoritate et apostolica censura haeresi permanet\"",
+    "witness": "ALC (alcuin_opera-omnia-letters_migne-pl100-101_1863.txt) l.25289-25291",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Froben's dates: born \"717\"; \"Obiit ... anno 809 vel sequenti, post annos nimirum prope 50 regiminis episcopalis, quod adeptus est circa annum 780\" (the fifty does not fit his own dates)",
+    "witness": "ALC (alcuin_opera-omnia-letters_migne-pl100-101_1863.txt) l.25381-25402",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "The letter to Fidelis, \"mense Octobri in aera 823\"; the note: \"Anno 785\"",
+    "witness": "PL96 (ildefonsus-julian-toledo-pl96-lat_migne1862.txt) l.73654-73663, 73823-73824",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Elipandus on Felix: \"quem novimus ab ineunte aetate charitate summum, pudicum et moribus ornatum, quem tu persequeris in montibus et in speluncis\" (normalized from OCR)",
+    "witness": "PL96 (ildefonsus-julian-toledo-pl96-lat_migne1862.txt) l.71926-71934",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Férotin: the manuscript reads \"Qui per adoptionem natiuitatis sue\"; \"Istam sententiam citauit Elipandus, sed non qualis inuenitur in Codice nostro\"; \"Il n'y a rien là que de très orthodoxe\"",
+    "witness": "FEROTIN (ferotin_liber-mozarabicus-sacramentorum-lat-fra_1912.txt) l.25281-25296, 1672-1704",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Antonio's \"forsan\" on the Muslims: \"contagione forsan insidentium cervicibus aut e proximo blasphemantium Mahometanorum\"",
+    "witness": "PL96 (ildefonsus-julian-toledo-pl96-lat_migne1862.txt) l.70135-70137",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Alvarus: \"Eo tempore quo Elipandi lues vesano furore nostram vastabat provinciam\"",
+    "witness": "ALVARUS (paulus-alvarus_confessio-epistolae-indiculus-luminosus-pl121-lat_migne1852.txt) l.35281-35282",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Alcuin to Leidrad: \"longaeva gravem aetate et religiosae vitae multo tempore famosum\"; \"me falsarium clamans, atque per vices haereticum\" ... \"persecutorem Christianorum\"",
+    "witness": "ALC (alcuin_opera-omnia-letters_migne-pl100-101_1863.txt) l.17181-17197",
+    "formation_confidence": "Documented"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "What the adoption teaching meant",
+    "sides": [
+     "Elipandus: adoptive only in the form of a servant, not in the divine substance; one person in two natures (PL96 l.72191-72193, 72130-72133)",
+     "Hadrian and Alcuin: two sons, Nestorius revived (DENZ l.10799-10801; ALC l.9660-9670)"
+    ]
+   },
+   {
+    "claim": "Whether Felix's submission of 799 held",
+    "sides": [
+     "Felix's Confession, and Alcuin, who did not doubt him afterward, per Froben (PL96 l.72845-72857; ALC l.24303-24305)",
+     "Agobard via Froben, and Ado of Vienne via Antonio: he kept his errors (ALC l.24323-24331; PL96 l.70635-70636)"
+    ]
+   },
+   {
+    "claim": "Whether Elipandus quoted the Toledo prayers as they stood",
+    "sides": [
+     "Elipandus: \"adoptivi hominis\" (PL96 l.72205-72208)",
+     "Férotin's codex: \"adoptionem natiuitatis sue\" (FEROTIN l.25281-25296)"
+    ]
+   },
+   {
+    "claim": "Who first taught the view",
+    "sides": [
+     "Frankish annals: Elipandus asked, Felix answered adoptive (ARF l.6416-6428)",
+     "Late Life of Beatus: Felix taught Elipandus (PL96 l.73386-73394); Mabillon's note against Binius (PL96 l.73480-73481)"
+    ]
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "The deaths of both men",
+    "note": "No source of their own time gives them. Froben's 809 and 818 are reckonings. Searched all cic/texts for Elipand-, Helipand-, Felix with Urgel/Orgel, obiit and mortuus nearby."
+   },
+   {
+    "detail": "Agobard of Lyon and Paulinus of Aquileia against Felix",
+    "note": "Not held; known only through Froben and Nicolás Antonio."
+   },
+   {
+    "detail": "Felix's own book to Alcuin",
+    "note": "Not held; only Alcuin's quotations of it."
+   }
+  ]
+ },
+ "paul-the-deacon": {
+  "claims": [
+   {
+    "claim": "Lopichis: carried off with his brothers \"into the country of the Avars\"; \"carry- ing only a quiver and bow and a little food\"; \"a wolf came to him and became the companion of his journey and his guide\"; tried to kill it for food, \"the wolf, avoiding the stroke that he cast, slipped away\"; the house \"so deserted that not only did it have no roof but it was full of brambles and thorns\"; \"a large ash-tree, and hung his quiver v.pon it\" (OCR)",
+    "witness": "FOULKE (paul-the-deacon_history-of-the-langobards_foulke1907.txt) l.8676-8748",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "\"This man ... was my great-grandfather, and he begot my grandfather Arichis, and Arichis, my father Warnefrit, and Warnefrit, from Theudelinda his wife, begot me, Paul\"",
+    "witness": "FOULKE (paul-the-deacon_history-of-the-langobards_foulke1907.txt) l.8752-8757",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "\"Paul was born in Friuli somewhere between the years 720 and 73O\" (OCR); note: \"The precise date is unknown.\"",
+    "witness": "FOULKE (paul-the-deacon_history-of-the-langobards_foulke1907.txt) l.469-483",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "\"in all probability at the Benedictine monastery of Monte Cassino\"; \"Only this is cer- tain, that he became a monk before his journey to France, therefore before 782.\"",
+    "witness": "FOULKE (paul-the-deacon_history-of-the-langobards_foulke1907.txt) l.581-587",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "At Charlemagne's court: Greek for the clergy going with Rotrud; the homiliary \"by order of the king\"; the Gesta of the bishops of Metz for Angilram; \"the longing for his own cloister forced him, after a few years, to abandon France\"",
+    "witness": "FOULKE (paul-the-deacon_history-of-the-langobards_foulke1907.txt) l.744-748, 812-826, 856-857",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Theudelinda: \"the church of God ob- tained much that was serviceable\"; the king \"held the Catholic faith\"; Foulke: \"Paul is probably mistaken in this\"; Gregory sent Theudelinda his four books",
+    "witness": "FOULKE (paul-the-deacon_history-of-the-langobards_foulke1907.txt) l.7442-7475, 7496-7502",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Rothari: \"two bishops throughout almost all the cities of the kingdom, one a Catholic and the other an Arian\"; Foulke: \"This is doubtful.\"",
+    "witness": "FOULKE (paul-the-deacon_history-of-the-langobards_foulke1907.txt) l.9051-9061, 9084-9086",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Monte Cassino \"attacked at night by the Langobards\"; Petronax \"after the lapse of about a hundred and ten years\"",
+    "witness": "FOULKE (paul-the-deacon_history-of-the-langobards_foulke1907.txt) l.7805-7809, 12448-12462",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Death: \"The 1 3th day of April was the day of his death, but the year :s unknown.\" (OCR); Hodgkin, probably 790-800; \"before its completion, death carried the old man away\"",
+    "witness": "FOULKE (paul-the-deacon_history-of-the-langobards_foulke1907.txt) l.930-960",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The History ends with Liutprand, A. D. 744 by Foulke's note",
+    "witness": "FOULKE (paul-the-deacon_history-of-the-langobards_foulke1907.txt) l.13388-13404",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Benedict's bones: \"they bore away the bones of the reverend father and also of the revered Scolastica his sister\"; \"But it is certain that that venerable mouth, sweeter than all nectar, and the eyes beholding ever heavenly things, and the other members too have remained to us\"",
+    "witness": "FOULKE (paul-the-deacon_history-of-the-langobards_foulke1907.txt) l.11200-11212",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Roman History \"for nearly a thousand years a text-book\"; homiliary \"in use for a thousand years in the whole Catholic church\"; Hilderic's epitaph; \"No reproach has anywhere been made against him\"; \"properly a com- piler\"",
+    "witness": "FOULKE (paul-the-deacon_history-of-the-langobards_foulke1907.txt) l.542-543, 815-816, 888-890, 970-971, 1177-1191",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Court poem: a Homer in Greek, a Virgil in verse, a Philo in Hebrew",
+    "witness": "FOULKE (paul-the-deacon_history-of-the-langobards_foulke1907.txt) l.737-742",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Dahn and Tamassia on why he became a monk",
+    "witness": "FOULKE (paul-the-deacon_history-of-the-langobards_foulke1907.txt) l.601-611",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "The Moselle letter: \"take away from my prisoners the night of sorrow\"; Foulke: \"Probably this refers to the liberation of his brother, though the meaning is not clear\"",
+    "witness": "FOULKE (paul-the-deacon_history-of-the-langobards_foulke1907.txt) l.617-643",
+    "formation_confidence": "Inferential-Thin"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "His birth year",
+    "sides": [
+     "Bethmann 730; earlier commentators 720 (FOULKE l.480-481)",
+     "Waitz 720-725; Hodgkin about 725 (FOULKE l.481-482)"
+    ]
+   },
+   {
+    "claim": "When and why he became a monk",
+    "sides": [
+     "Dahn: a refuge after 774 (FOULKE l.601-606)",
+     "Tamassia: the exile is his detention at court (FOULKE l.606-611)"
+    ]
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "His brother's captivity and the petition to Charlemagne",
+    "note": "Foulke's introduction pages xx-xxi are missing from the held file (the jump at l.616)."
+   },
+   {
+    "detail": "His year of death",
+    "note": "No held source gives it."
+   },
+   {
+    "detail": "Paul's other works in their own text",
+    "note": "The Life of Gregory, the homiliary, the Roman History, the Metz history and the poems in Latin are not held."
+   }
+  ]
+ },
+ "paulus-emeritanus": {
+  "claims": [
+   {
+    "claim": "The boy Augustus: \"surrexit ille czeteris pulchrior Dominus de sua sede, apprehen- deusque manum meam, eduxit mein hortum amoenis- simum, ubi erat rivus, in quo erat aqua vitrei colo- ris\" (OCR); the deacon questions him (\"sciscitans dixi\") and reports \"abbati meo\"",
+    "witness": "PL80 (paulus-emeritanus-braulio-sisebut-pl80-lat_migne1863.txt) l.9127-9129, 9234-9235, 9265-9279",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "\"ad basilicam S. Mari: semper vir- ginis (qux:» quinque millibus ab urbe Emeritensi distat) gratia orationis properassem\" ... \"inde regressus jam vesperascente die, eum defun- ctum reperi\" (OCR); buried \"in basilica sanctissim:e virginis dominz: mex Eulalie\"",
+    "witness": "PL80 (paulus-emeritanus-braulio-sisebut-pl80-lat_migne1863.txt) l.9244, 9311-9330",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "\"Quamobrem ego indignus, et omnium\" ... \"peccatorum primus, Levita Christi\" ... \"scribere malui, verbis licet aliis, sensibus tamen ipsis\" (two-column OCR, lines apart)",
+    "witness": "PL80 (paulus-emeritanus-braulio-sisebut-pl80-lat_migne1863.txt) l.9278-9279, 9213, 9230-9231",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Titles: \"PAULUS EMERITANUS, DIACONCS.\"; \"PAULI EMERITANI DIACONI DE VITA PATRUM EMERITENSIUM\" (OCR); Tamayo's note: \"ipse Paulus hic se diaconatus honore illustrem praedicat cap. 1\"",
+    "witness": "PL80 (paulus-emeritanus-braulio-sisebut-pl80-lat_migne1863.txt) l.698-699, 8801-8807, 8858-8862",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "\"relatu multorum ad nos perlata sunt\"; \"Referunt multi\" ... \"Paulum, natione Greeum, € arte medicum, de Orientis partibus in Emeriten- sein urbem alvenisse\" (OCR)",
+    "witness": "PL80 (paulus-emeritanus-braulio-sisebut-pl80-lat_migne1863.txt) l.9838-9843",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Fidelis \"filius sororis Pauli episcopi\"; \"Massona successit Fideli\"",
+    "witness": "PL80 (paulus-emeritanus-braulio-sisebut-pl80-lat_migne1863.txt) l.10032, 10084, 10623",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Leovigild: \"ssvissimi atque eru- delissimi Wisigothorum Leovigildi regis\" (OCR)",
+    "witness": "PL80 (paulus-emeritanus-braulio-sisebut-pl80-lat_migne1863.txt) l.10798-10799",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Sunna in public debate; the faithful go to Eulalia's basilica \"una cum victore antistite Massona\" (normalized)",
+    "witness": "PL80 (paulus-emeritanus-braulio-sisebut-pl80-lat_migne1863.txt) l.10941-11048, 11042-11043",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Masona: \"tunicam domin: me: Eulaliz\" ... \"nunquam tradam\"; the king: \"Massonam ... exsilio relegari jubemus\" (OCR)",
+    "witness": "PL80 (paulus-emeritanus-braulio-sisebut-pl80-lat_migne1863.txt) l.11150-11155, 11262-11267",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Ends with Renovatus's death and the tombs near Eulalia's altar",
+    "witness": "PL80 (paulus-emeritanus-braulio-sisebut-pl80-lat_migne1863.txt) l.12580-12640",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Tamayo: \"In Renovato quiescente Paulus quiescit\"; Stephen, Renovatus's successor, signed the Fourth Council of Toledo \"regnante Sisenando\"; \"Paulum circa haec tempora obiisse\" (normalized)",
+    "witness": "PL80 (paulus-emeritanus-braulio-sisebut-pl80-lat_migne1863.txt) l.12652-12658",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Epilogue: \"precor, ut legant prius hujus codicis opuscula, et postea despiciant\"; \"amore Christi et dilectione sanctissimae Eulaliae impulsum\" ... \"vera proculdubio veraciter exposuisse\" (normalized)",
+    "witness": "PL80 (paulus-emeritanus-braulio-sisebut-pl80-lat_migne1863.txt) l.12669-12676",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Migne's placement \"ANNO DOMINI DCX\"; Antonio's notice \"Hujus temporis Paulus ille est Emeriten-is diaco- nus\" and \"ejus sancti pontifieis equalis\"; Tamayo's edition \"1658\"",
+    "witness": "PL80 (paulus-emeritanus-braulio-sisebut-pl80-lat_migne1863.txt) l.8606, 8611-8613, 8624-8627, 8650",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Bollandists: \"nec. videtur auctor diu post hunc Episcopum floruisse\"; Tamayo's edition \"anno MDCXXXVIII\"; \"Paulus Diacon, Emerita. Scriptor Vite S. Reno- vati\"",
+    "witness": "AASS-M3 (acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt) l.225994-226012, 241644-241645",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "John of Biclaro: \"Mausona Emeritensis eccle.siae episcopus in nostro dogmate clarus habetuv\" (OCR)",
+    "witness": "CHRONMIN2 (chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894.txt) l.19946",
+    "formation_confidence": "Documented"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "When the author lived",
+    "sides": [
+     "Tamayo de Vargas: died about the time of the Fourth Council of Toledo (PL80 l.12652-12658); the Bollandists: not long after Renovatus (AASS-M3 l.226011-226012)",
+     "Nicolás Antonio: a contemporary of Gregory the Great; Migne files him under 610 (PL80 l.8606, 8650)"
+    ]
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "His birth, death, family and ordination",
+    "note": "No held source gives them. Searched all cic/texts for Paulus with Emerit-, Emerita, Mérida, Masona/Massona/Mausona."
+   },
+   {
+    "detail": "A year in his own words",
+    "note": "No line of the book gives a year for the author or the writing."
+   },
+   {
+    "detail": "An English translation",
+    "note": "Not held."
+   }
+  ]
+ },
+ "pisentius-of-coptos-and-john-the-elder": {
+  "claims": [
+   {
+    "claim": "\"at the time when God brought the heathen, that is to say, the Persians,* upon us, for our sins, Apa Pisentius departed to the mountain of Djeme\"; \"at the time when the Persians were masters [of Egypt], though they had not as yet taken the city of Kebt\"; \"And at that time I John went with him, and I was with him in the capacity of a servant.\"",
+    "witness": "BUDGE13 (coptic-apocrypha-upper-egypt-life-of-pisentius_budge1913.txt) l.17095-17102",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Water: \"the very little water which remained to us came to an end\"; \"I think there is water in the water- vessels, in one of them which we have forgotten\"; \"which I myself saw with my own eyes\"; \"I found them filled with water up to their brims\"",
+    "witness": "BUDGE13 (coptic-apocrypha-upper-egypt-life-of-pisentius_budge1913.txt) l.17140-17240",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Title: \"WHICH JOHN THE PRESBYTER NARRATED ON THE DAY OF HIS COMMEMORATION, THAT IS TO SAY, ON THE THIRTEENTH DAY OF THE MONTH EPfiP\" (OCR); manuscript dated A. D. 1006",
+    "witness": "BUDGE13 (coptic-apocrypha-upper-egypt-life-of-pisentius_budge1913.txt) l.15724-15731, 1155-1162",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Coptos \"lay on the right or east bank of the Nile\", Budge's note; \"The ancient capital of the fifth nome of Upper Egypt\"",
+    "witness": "BUDGE13 (coptic-apocrypha-upper-egypt-life-of-pisentius_budge1913.txt) l.16159-16166",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "\"it is said concerning the holy man Apa Pisentius, that it came to pass on a time when he was young, while he was pasturing his father's sheep, that God opened his eyes, and he saw a pillar of fire\"",
+    "witness": "BUDGE13 (coptic-apocrypha-upper-egypt-life-of-pisentius_budge1913.txt) l.16340-16345",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Recited \"the beginning of the Book of Jeremiah\" and then Ezekiel while his brother and a companion sat outside his cell",
+    "witness": "BUDGE13 (coptic-apocrypha-upper-egypt-life-of-pisentius_budge1913.txt) l.15886-15926",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Election: \"he went and hid himself\"; found \"in a secret place in the region of Djeme\"; \"'O the life of peaceful contemplation ! I love it.'\"; \"Now it was not he who ran in pursuit of the honour, but it was the honour which ran in pursuit of him, even as those who discovered him confessed unto us\"",
+    "witness": "BUDGE13 (coptic-apocrypha-upper-egypt-life-of-pisentius_budge1913.txt) l.16712-16742",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Charity \"in every town and village [from Coptos] to Souan * (Syene)\"",
+    "witness": "BUDGE13 (coptic-apocrypha-upper-egypt-life-of-pisentius_budge1913.txt) l.16880-16896",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Letter: \"the Barbarians\"; \"[It is] a nation fierce of visage and cruel\"; Budge: \"This nation was, of course, the Persians\"",
+    "witness": "BUDGE13 (coptic-apocrypha-upper-egypt-life-of-pisentius_budge1913.txt) l.16917-16930, 1686-1690",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Death \"at the moment when the sun was about to set on the thirteenth day of the month of Epep of this fifth year [of the Indiction]\"; Epep 13 is \"July 7\" in Budge's note; the \"holokottinos\" kept since he was a monk, for his burial",
+    "witness": "BUDGE13 (coptic-apocrypha-upper-egypt-life-of-pisentius_budge1913.txt) l.18540-18573, 15800",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "\"whatsoever thou givest — everything — to the poor, the Lord will give unto us twofold.\"",
+    "witness": "BUDGE13 (coptic-apocrypha-upper-egypt-life-of-pisentius_budge1913.txt) l.18500-18509",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Budge's dates: \"probably born about A. D. 550\"; \"some year between 570 and 603\"; \"Between 514 and 520 the Persians actually invaded\"; note: Theophanes 616, \"modern authorities\" three or four years later",
+    "witness": "BUDGE13 (coptic-apocrypha-upper-egypt-life-of-pisentius_budge1913.txt) l.1536-1538, 1673-1674, 1694, 17116-17122",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Memphitic title names \"John, the disciple of Pisentius ... together with Moses, Bishop of Keft, as joint author\"; the speaking mummy \"we owe entirely to the Memphitic version\"",
+    "witness": "BUDGE13 (coptic-apocrypha-upper-egypt-life-of-pisentius_budge1913.txt) l.15754-15757, 1790-1792",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Moses charged with the parchment books; Budge: \"in fact Moses was the successor of Pisentius\"; Crum: \"? the suc- cessor of Pesenthius at Coptos\"",
+    "witness": "BUDGE13 (coptic-apocrypha-upper-egypt-life-of-pisentius_budge1913.txt) l.18437-18439, 1871-1872; CRUM (monastery-of-epiphanius-thebes-pt2-coptic-ostraca_crum1926.txt) l.28025-28028",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Letters addressed to \"Pesynthius, the bishop\" among the Epiphanius papers",
+    "witness": "CRUM (monastery-of-epiphanius-thebes-pt2-coptic-ostraca_crum1926.txt) l.24825, 30956, 31498",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Abu Salih: \"The monastery known by the name of Saint Pisentius, bishop of Kift ... to the west of Kus ; and it contains the tomb of Saint Pisentius\"",
+    "witness": "ABUSALIH (abu-salih_churches-and-monasteries-of-egypt_evetts1895.txt) l.11870-11873",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Ethiopic Synaxarium, 13 Hamle; Arabic Synaxary 13 Abib",
+    "witness": "ETHSYN (ethiopian-synaxarium_book-of-saints-ethiopian-church-v2-v4-microform_budge1928.txt) l.41015-41027; PO17 (john-ephesus_lives-eastern-saints-po17_brooks1923.txt) l.56921",
+    "formation_confidence": "Documented"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "Who wrote the Life",
+    "sides": [
+     "Sahidic title: John the Presbyter (BUDGE13 l.15724-15731)",
+     "Memphitic title, as Budge reports it: John with Moses, bishop of Keft (BUDGE13 l.15754-15757)"
+    ]
+   },
+   {
+    "claim": "When the Persians invaded Egypt",
+    "sides": [
+     "Budge's introduction: between 514 and 520 (BUDGE13 l.1694)",
+     "Budge's own note: 616 by Theophanes, or three or four years later (BUDGE13 l.17116-17122)"
+    ]
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "The year of Pisentius's death",
+    "note": "No held source gives it. The Library header's \"c. 632\" is metadata, not a held line. Searched all cic/texts for Pisentius, Pesynthius, Pesenthius, Pisenthius, Besendyos and Basandah."
+   },
+   {
+    "detail": "John's own life beyond the Life",
+    "note": "No held source tells it. The Life calls him disciple and servant, and the title a presbyter."
+   },
+   {
+    "detail": "Amélineau's Memphitic edition",
+    "note": "Not held; known through Budge's notes and appendix."
+   }
+  ]
+ }
+}

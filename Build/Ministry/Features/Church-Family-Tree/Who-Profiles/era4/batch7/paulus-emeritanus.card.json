@@ -1,0 +1,71 @@
+{
+  "name": "Paulus Emeritanus",
+  "otherNames": [
+    "Paul, deacon of Mérida",
+    "Paulus Diaconus Emeritensis"
+  ],
+  "knownFor": "A deacon of Mérida in Visigothic Spain who wrote the Lives of the Fathers of Mérida, the stories of the city's holy men and of its bishops from Paul the Greek to Renovatus. It tells of Bishop Masona's stand against the Arian king Leovigild.",
+  "dates": "Seventh century, by his book. No line of his gives a year. His book ends with the death of Bishop Renovatus. Tomás Tamayo de Vargas, his editor, reasons that he died about the time of the Fourth Council of Toledo, held under King Sisenand, which Renovatus's successor Stephen signed. The Bollandists say he seems not to have lived long after Renovatus. J.-P. Migne's volume places him under the year 610",
+  "place": "Mérida (Emerita), in Spain, with its basilica of Saint Eulalia and the basilica of Saint Mary five miles from the city",
+  "tradition": "Nicene Visigothic Iberia",
+  "role": "Deacon, writing under an abbot; recorder of the holy men and bishops of Mérida",
+  "briefLength": "about 2 minutes",
+  "keyWorks": [
+    {
+      "title": "Lives of the Fathers of Mérida (De vita et miraculis Patrum Emeritensium)",
+      "about": "the holy men of Mérida and its bishops Paul, Fidelis, Masona, Innocent and Renovatus, with Masona's contest with King Leovigild and the Arian bishop Sunna. Held in Latin in Patrologia Latina 80, with Tamayo de Vargas's notes"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "His book is the source the Acta Sanctorum use for Bishop Renovatus of Mérida: their life of Renovatus is by Paul the deacon of Mérida.",
+      "The Bollandists name five bishops as the book's chief subjects.",
+      "John of Biclaro, writing in his own time, also names Masona of Mérida as famous in the Catholic faith."
+    ],
+    "remembered": [
+      "Nicolás Antonio, as Migne's notice quotes him, names many writers who praised the book, among them Ambrosio de Morales, Cesare Baronius and Juan de Mariana.",
+      "Tamayo de Vargas reads Paul's words a Levite of Christ as his claim to the rank of deacon."
+    ]
+  },
+  "uncertain": [
+    "His name and rank. He never gives his name in the text. The book's titles call him Paul the deacon. He calls himself a Levite of Christ, which Tamayo de Vargas reads as a deacon.",
+    "When he wrote. No line of his gives a year. Tamayo de Vargas reasons that he died about the time of the Fourth Council of Toledo, since he names Renovatus's death and not his successor Stephen. The Bollandists say he seems not to have lived long after Renovatus. Nicolás Antonio makes him a contemporary of Gregory the Great.",
+    "His sources. He says he heard the boy Augustus's vision with his own ears. For the older bishops he relies, he writes, on the report of many.",
+    "His own life. He served under an abbot, questioned the dying boy himself, and went to pray at the basilica of Saint Mary five miles from the city. No held source tells more.",
+    "The date of Tamayo de Vargas's edition. The Bollandists give 1638, and the Migne notice prints 1658."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Lives of the Fathers of Mérida, in Patrologia Latina 80, with Tomás Tamayo de Vargas's notes",
+        "author": "Paulus Emeritanus; Tomás Tamayo de Vargas (ed.); J.-P. Migne",
+        "date": "1863",
+        "language": "Latin",
+        "file": "cic/texts/paulus-emeritanus-braulio-sisebut-pl80-lat_migne1863.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Notice on Paul of Mérida, from Nicolás Antonio's Bibliotheca Hispana Vetus, in Patrologia Latina 80",
+        "author": "Nicolás Antonio",
+        "date": "1863",
+        "language": "Latin",
+        "file": "cic/texts/paulus-emeritanus-braulio-sisebut-pl80-lat_migne1863.txt"
+      },
+      {
+        "title": "Acta Sanctorum, March, volume 3: Saint Renovatus",
+        "author": "The Bollandists",
+        "date": "1865",
+        "language": "Latin",
+        "file": "cic/texts/acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt"
+      },
+      {
+        "title": "Chronicle, in Chronica minora 2 (MGH Auctores antiquissimi 11)",
+        "author": "John of Biclaro; Theodor Mommsen (ed.)",
+        "date": "1894",
+        "language": "Latin",
+        "file": "cic/texts/chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894.txt"
+      }
+    ]
+  }
+}

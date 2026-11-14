@@ -1,0 +1,126 @@
+{
+  "name": "Elipandus of Toledo and Felix of Urgell",
+  "otherNames": [
+    "Elipandus Toletanus; Helipandus; Eliphandus, in Pope Hadrian's letter",
+    "Felix Urgellitanus or Orgellitanus"
+  ],
+  "knownFor": "Two bishops of Spain, Elipandus archbishop of Toledo and Felix bishop of Urgell, who taught that Christ in his humanity is the adoptive Son of God. The council of Frankfurt condemned the teaching in 794 as the heresy of both. Felix submitted at Aachen in 799; Elipandus, Alcuin says, still held it in 800.",
+  "dates": "Late eighth century. Heterius and Beatus date Elipandus's letter to the abbot Fidelis to October of the Spanish era 823, which a note in J.-P. Migne's volume reckons as 785. Elipandus says in a letter to Felix that he had entered his eighty-second year; the letter carries no year. Froben, Alcuin's editor, reckons his birth to 717 and his death to 809 or the year after, and says Felix is believed to have died about 818. The Frankish annals place Felix's first condemnation in 792",
+  "place": "Toledo, Elipandus's see; Urgell, on a ridge of the Pyrenees, Felix's see, by the Frankish annals; Regensburg, Rome, Frankfurt and Aachen, where Felix was heard; Lyon, where Froben says Felix was kept after 799",
+  "tradition": "Mozarabic Christianity; Carolingian Reform Christianity",
+  "role": "Bishops: Elipandus, archbishop of Toledo; Felix, bishop of Urgell. Condemned as Adoptionists by their opponents",
+  "briefLength": "about 2 minutes",
+  "keyWorks": [
+    {
+      "title": "Letters of Elipandus",
+      "about": "five letters: against Migetius, to the bishops of Gaul, to Charlemagne, to Alcuin and to Felix. Held in Latin in Patrologia Latina 96. His letter to Fidelis survives only as Heterius and Beatus quote it"
+    },
+    {
+      "title": "Confession of faith, by Felix",
+      "about": "written to the clergy of Urgell after he submitted at Aachen in 799, renouncing the adoption of the flesh. In Patrologia Latina 96"
+    },
+    {
+      "title": "Felix's book to Alcuin",
+      "about": "known only from the passages Alcuin quotes in his seven books against Felix, in Patrologia Latina 100-101"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "The council of Frankfurt in 794, in its first canon, condemned the impious and wicked heresy of Elipandus and Felix, and ordered it rooted out of the church.",
+      "Alcuin wrote seven books against Felix and four against Elipandus.",
+      "Ardo's Life of Benedict of Aniane says Benedict fought the teaching of Felix, which had spread through almost all that province, and won back bishops from it.",
+      "Paulus Alvarus of Córdoba, in the ninth century, recalls the time when the plague of Elipandus laid waste his province."
+    ],
+    "remembered": [
+      "Alcuin, writing to Leidrad of Lyon, calls Elipandus a man heavy with years and long famous for a religious life, and says Elipandus called him a forger, a heretic and a persecutor of Christians.",
+      "Elipandus called Beatus of Liébana Antiphrasius, as if his name, blessed, meant its opposite; Charlemagne's reply, as Nicolás Antonio quotes it, records the name.",
+      "Marius Férotin, who edited the Mozarabic sacramentary in 1912, holds that the old Toledo prayers mean by adoption the Son's taking of human nature, and that there is nothing in them but what is orthodox."
+    ]
+  },
+  "uncertain": [
+    "Much of what is held comes from their opponents: Alcuin, Pope Hadrian, Beatus and Heterius, the council of Frankfurt and the Frankish annals. Elipandus's letters and Felix's confession are their own words.",
+    "What adoptive meant. Elipandus says Christ is adoptive only in the form of a servant, not in the substance of his divinity, and that he is one person in two natures. Hadrian and Alcuin read the teaching as two sons and liken it to Nestorius.",
+    "The Toledo prayers. Elipandus cites the mass of the Lord's Supper for the passion of the adoptive man. Marius Férotin's manuscript reads instead the adoption of his birth, and he notes that Elipandus did not quote it as his codex has it.",
+    "Who taught whom. The Frankish annals say Elipandus asked Felix by letter and Felix answered adoptive. A late Life of Beatus has Felix teach Elipandus as a boy. Jean Mabillon names Dungal as calling Felix the master of the error.",
+    "Whether Felix's submission held. Felix writes that he returned without pretence, as he had not some time before, and repents of an oath he once broke. Froben says Alcuin did not doubt him afterward. Agobard of Lyon, in a book not held and known through Froben, says Felix went on teaching some of it, and Ado of Vienne, through Nicolás Antonio, says he died unrepentant.",
+    "Whether Elipandus repented. Only forged chronicles say so. Nicolás Antonio and Froben reject them, and Alcuin says he still held his view in 800.",
+    "The years of both men. Elipandus's eighty-second year depends on when his letter to Felix was written, which Madrisi put in 792 and Froben after 799. Froben's figure of nearly fifty years as bishop does not fit his own dates of about 780 to 809.",
+    "Whether the setting under Muslim rule shaped the teaching. Nicolás Antonio suggests it with a perhaps. No held text of their time says so."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Letters of Elipandus, and the Confession of faith of Felix, in Patrologia Latina 96",
+        "author": "Elipandus of Toledo; Felix of Urgell; J.-P. Migne (ed.)",
+        "date": "1862",
+        "language": "Latin",
+        "file": "cic/texts/ildefonsus-julian-toledo-pl96-lat_migne1862.txt"
+      },
+      {
+        "title": "Letter of the bishops of Spain to the bishops of Gaul, Aquitaine and Austria, in Patrologia Latina 101",
+        "author": "The bishops of Spain",
+        "date": "1863",
+        "language": "Latin",
+        "file": "cic/texts/alcuin_opera-omnia-letters_migne-pl100-101_1863.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Against Felix, Against Elipandus, and letters, in Patrologia Latina 100-101, with Froben's dissertation",
+        "author": "Alcuin of York; Froben (ed.)",
+        "date": "1863",
+        "language": "Latin",
+        "file": "cic/texts/alcuin_opera-omnia-letters_migne-pl100-101_1863.txt"
+      },
+      {
+        "title": "Against Elipandus, in Patrologia Latina 96",
+        "author": "Heterius and Beatus of Liébana",
+        "date": "1862",
+        "language": "Latin",
+        "file": "cic/texts/ildefonsus-julian-toledo-pl96-lat_migne1862.txt"
+      },
+      {
+        "title": "Annales regni Francorum, for 792 and 794",
+        "author": "Friedrich Kurze (ed.)",
+        "date": "1895",
+        "language": "Latin",
+        "file": "cic/texts/annales-regni-francorum_kurze1895.txt"
+      },
+      {
+        "title": "Capitulary of the council of Frankfurt, 794, in MGH Leges",
+        "author": "Georg Heinrich Pertz (ed.)",
+        "date": "1881",
+        "language": "Latin",
+        "file": "cic/texts/capitulatio-de-partibus-saxoniae_pertz1881.txt"
+      },
+      {
+        "title": "Enchiridion symbolorum: Hadrian I's letters and the Frankfurt synodal letter",
+        "author": "Heinrich Denzinger; Clemens Bannwart (ed.)",
+        "date": "1911",
+        "language": "Latin",
+        "file": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt"
+      },
+      {
+        "title": "Le Liber mozarabicus sacramentorum",
+        "author": "Marius Férotin (ed.)",
+        "date": "1912",
+        "language": "Latin and French",
+        "file": "cic/texts/ferotin_liber-mozarabicus-sacramentorum-lat-fra_1912.txt"
+      },
+      {
+        "title": "Life of Benedict of Aniane, in Patrologia Latina 103",
+        "author": "Ardo",
+        "date": "1851",
+        "language": "Latin",
+        "file": "cic/texts/benedict-aniane_concordia-regularum-with-ardo-vita-pl103-lat_migne1851.txt"
+      },
+      {
+        "title": "Letters, in Patrologia Latina 121",
+        "author": "Paulus Alvarus of Córdoba",
+        "date": "1852",
+        "language": "Latin",
+        "file": "cic/texts/paulus-alvarus_confessio-epistolae-indiculus-luminosus-pl121-lat_migne1852.txt"
+      }
+    ]
+  }
+}

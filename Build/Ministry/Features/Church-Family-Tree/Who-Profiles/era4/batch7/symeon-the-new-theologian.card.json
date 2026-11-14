@@ -1,0 +1,97 @@
+{
+  "name": "Symeon the New Theologian",
+  "otherNames": [
+    "Symeon, abbot of Saint Mamas",
+    "Symeon Junior Theologus, in J.-P. Migne's index"
+  ],
+  "knownFor": "Monk and abbot of Saint Mamas in Constantinople, about the year 1000, who taught that God's light can be seen and known in this life. He kept a feast for his own teacher, Symeon the Pious, and was exiled for it. The Philokalia prints his chapters, and later teachers of stillness read him.",
+  "dates": "About the year 1000, in the reign of Constantine Porphyrogennetos, say the compilers of the Philokalia. François Combefis's summary of Niketas's Life has him born under Basil and Constantine, and a priest for forty-eight years. No held source gives the year of his birth, exile or death",
+  "place": "Galata in Paphlagonia, where he was born, by Niketas's Life; the imperial court at Constantinople; the monasteries of Studios and Saint Mamas in Constantinople; a small town near Chrysopolis, where he was exiled and built a new monastery",
+  "tradition": "The Byzantine Imperial Church (Macedonian Era); Athonite & Comnenian Byzantine Monasticism",
+  "role": "Monk, priest and abbot of Saint Mamas; teacher and writer on prayer and the divine light",
+  "briefLength": "about 2 minutes 30 seconds",
+  "keyWorks": [
+    {
+      "title": "Practical and Theological Chapters",
+      "about": "short chapters on the passions, tears, prayer and the light of God, printed in the Philokalia, volume 2, in Greek. The same volume ends with three of his pieces put into simpler Greek, which are not his own wording"
+    },
+    {
+      "title": "Discourses and hymns",
+      "about": "sermons to his monks and hymns, among them hymns for his teacher Symeon the Pious. J.-P. Migne's index lists thirty-three orations and a book of divine loves in Patrologia Graeca 120. Only François Combefis's extracts are held"
+    },
+    {
+      "title": "On the three methods of prayer",
+      "about": "printed under his name in the Philokalia, in simpler Greek. Combefis doubts it is his"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "The compilers of the Philokalia print his chapters and call him a spring of theology.",
+      "Gregory of Sinai, in the Philokalia, tells readers to read the works of the New Theologian and of his disciple Stethatos, among the writings on stillness and prayer.",
+      "Paisius Velichkovsky and Nil Sorsky, in Slavonic, quote him on prayer and the light. Paisius says the whole church named him the New Theologian.",
+      "His disciple Niketas Stethatos wrote his Life, which François Combefis read in a manuscript once Cardinal Mazarin's and summarized with extracts."
+    ],
+    "remembered": [
+      "Niketas says grace made Symeon's tongue the pen of a swift scribe and his mind a spring of God's wisdom, though he had no worldly learning.",
+      "Michel Le Quien calls him the parent of the Palamite error. Combefis writes that he is wrongly counted a source of the Palamites, who twisted his words.",
+      "Combefis says he advised the Bollandists not to print the Life, because it was suspected of feeding the Palamite error."
+    ]
+  },
+  "uncertain": [
+    "The account of his life comes from his disciple Niketas Stethatos, known through François Combefis's summary and extracts. Combefis adds his own judgments, which are kept apart here.",
+    "His years. The Philokalia gives about the year 1000. No held source gives his birth, the year of his exile, or his death.",
+    "Why he was condemned. Niketas blames the envy of Stephen, Sergius's aide. Sergius, in the words Niketas reports, says Symeon did not err in the church's teaching but would not stop keeping the feast. Combefis thinks a learned man could fairly suspect two unlettered men who spoke of God as if by inspiration.",
+    "Whether his visions leaned toward the Messalians, a sect that claimed to see God. Combefis grants they seem to, and argues that Symeon saw a sign of the Spirit, not God's essence.",
+    "On the three methods of prayer. The Philokalia prints it as his. Combefis could not find it in the Mazarin manuscript and doubts he wrote it.",
+    "His monastery's district. Combefis writes Xerocercus, and Le Quien Xyloxerus.",
+    "The number of his chapters. The Philokalia's contents give 155, and the numbering in the held print reaches 152."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Practical and Theological Chapters, and three pieces in simpler Greek, in the Philokalia, volume 2",
+        "author": "Symeon the New Theologian; Macarius of Corinth and Nikodemos the Hagiorite (comp.); Panagiotes Tzelatis (ed.)",
+        "date": "1893",
+        "language": "Greek",
+        "file": "cic/texts/philokalia_ton-ieron-neptikon-v2-grc_tzelatis1893.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Preface to Manuel Calecas, On Essence and Operation, with the summary of Niketas Stethatos's Life of Symeon, in Patrologia Graeca 152",
+        "author": "François Combefis; Niketas Stethatos (the Life)",
+        "date": "1866",
+        "language": "Latin and Greek",
+        "file": "cic/texts/calecas_opera-omnia-pg152-grc-lat_migne1866.txt"
+      },
+      {
+        "title": "Notice on Symeon, and Gregory of Sinai's chapters on stillness, in the Philokalia, volume 2",
+        "author": "Macarius of Corinth and Nikodemos the Hagiorite; Gregory of Sinai",
+        "date": "1893",
+        "language": "Greek",
+        "file": "cic/texts/philokalia_ton-ieron-neptikon-v2-grc_tzelatis1893.txt"
+      },
+      {
+        "title": "Dissertationes Damascenicae, in Patrologia Graeca 94",
+        "author": "Michel Le Quien",
+        "date": "1860",
+        "language": "Latin",
+        "file": "cic/texts/john-damascus_opera-omnia-t1-with-vita-pg94-grc-lat_migne1860.txt"
+      },
+      {
+        "title": "Life and Writings of the Elder Paisius Velichkovsky",
+        "author": "Optina monastery (ed.)",
+        "date": "1847",
+        "language": "Church Slavonic and Russian",
+        "file": "cic/texts/paisius-velichkovsky_zhitie-i-pisaniia-chu_optina1847.txt"
+      },
+      {
+        "title": "Predanie and Ustav",
+        "author": "Nil Sorsky; M. S. Borovkova-Maikova (ed.)",
+        "date": "1912",
+        "language": "Church Slavonic",
+        "file": "cic/texts/nil-sorsky_predanie-i-ustav-chu_borovkova-maikova1912.txt"
+      }
+    ]
+  }
+}
