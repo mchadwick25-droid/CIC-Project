@@ -111525,19 +111525,19 @@ const gLabels=el('g',{id:'era-labels'}); gRoot.appendChild(gLabels);
 
 
 const WORLD_CONTEXT={
-  1:"This era starts where the map does, with the fall of the Jerusalem Temple in 70 CE. It runs to Constantine's Edict of Milan in 313, which gave Christians, and all others, freedom to follow the religion they chose. The Persian church east of Rome had the opposite experience. Persecution there grew worse after 312.",
+  1:"This era starts where the map does, with the fall of the Jerusalem Temple in 70 CE. It ends in 312. In 313 the Edict of Milan gave Christians, and all others, freedom to follow the religion they chose. The Persian church east of Rome had the opposite experience. Persecution there grew worse after 312.",
   2:"Historians call this the era of the 'imperial church'. Christianity moves from a persecuted minority to the empire's own religion. Its defining creeds, from Nicaea to Chalcedon, are settled because an emperor now has a stake in the outcome.",
-  3:"In this era the churches part into separate communions. Chalcedonian, miaphysite and East Syriac Christianity become distinct families, each with a sense of its own identity. The Latin West enters the post-Roman kingdoms. Monasticism becomes the force that shapes it everywhere.",
-  4:"Christianity becomes a minority faith across its old heartlands as Islam rises. It converts new peoples in the north and fights an internal war over religious images. It sends its longest missions east along the Silk Road.",
-  5:"In the Latin West, new religious orders and new lay movements appear. Women's religious life grows to a scale not seen before. Byzantium consolidates, and the Christian East comes under new pressures.",
+  3:"In this era the churches part into separate communions. Chalcedonian, miaphysite and East Syriac Christianity become distinct families, each with a sense of its own identity. The Latin West enters the post-Roman kingdoms. Monasticism becomes the force that shapes the churches everywhere.",
+  4:"As Islam rises, Christianity starts to become a minority faith across its old heartlands. It converts new peoples in the north and fights an internal war over religious images. It sends its longest missions east along the Silk Road.",
+  5:"In the Latin West, new religious orders and new lay movements appear. Women's religious life grows to a scale not seen before. The Christian East comes under new pressures.",
   6:"Plague, papal schism and institutional crisis mark this era. They are met by devotional writing more inward than any before it, and more often in everyday languages for lay people to read. The Black Death sweeps Europe from 1347 to 1351.",
   7:"The Western church is remade, several ways at once. This era holds the Reformation's many movements, often rivals, side by side. Most have direct descendants still living today.",
   8:"Established churches settle into place. Renewal moves into small groups, personal religious experience and revivals on both sides of the Atlantic. In this era, the spiritual life story told in the first person becomes a mass genre.",
-  9:"Christianity spreads around the world, both under empire and against it. Mission is tangled with colonialism, revival with respectability, and liberation with paternalism. None of these pairs is resolved in this era.",
-  10:"Christianity's center of gravity moves south and east. The Pentecostal and Spirit-movement family becomes the largest new form of Christianity since the Reformation. World War I (1914–18) breaks out early in this era."
+  9:"Christianity spreads around the world. It grows both under empire and against it. Mission is tangled with colonialism. Revival is tangled with respectability, and liberation with paternalism.",
+  10:"Christianity's center of gravity moves south and east. The Pentecostal and charismatic family becomes the largest new form of Christianity since the Reformation. World War I (1914–18) breaks out early in this era."
 };
 const ERA_CLOSE={
-  10:"The tree's history runs to 2010. Movements since then will be added as they become history."
+  10:"The map runs to about 2010. Traditions that began after that will be added once enough time has passed."
 };
 const RIVER_LORE={
   "Origin": {
@@ -113245,7 +113245,7 @@ function buildLegend(){
     [sv(house('var(--gold-leaf)')),'A tradition with a Representative','Conversations with its Representative are coming soon.'],
     [sv('<circle r="2.2" fill="var(--graphite)"/>'),'A tradition, zoomed out','Zoom in and its name appears.'],
     [sv(`<g fill="var(--iron-gall)">${fig}</g>`),'People of a tradition',`${coarsePointer?'Tap':'Click'} to see who they were.`],
-    [sv(`<rect x="-12" y="-6" width="24" height="12" rx="6" fill="none" stroke="#cf8a3a" stroke-width="1.2"/><g fill="var(--iron-gall)" transform="translate(-5 0) scale(.8)">${fig}</g><text x="1" y="3.2" font-size="8" font-weight="700" fill="var(--iron-gall)" font-family="Alegreya Sans,sans-serif">26</text>`,'-13 -7 26 14'),'People of a river','Everyone the map names on that river in that era, with the count.'],
+    [sv(`<rect x="-12" y="-6" width="24" height="12" rx="6" fill="none" stroke="#cf8a3a" stroke-width="1.2"/><g fill="var(--iron-gall)" transform="translate(-5 0) scale(.8)">${fig}</g><text x="1" y="3.2" font-size="8" font-weight="700" fill="var(--iron-gall)" font-family="Alegreya Sans,sans-serif">26</text>`,'-13 -7 26 14'),'People of a river','The people the map lists for that river in that era, with the count.'],
     [sv('<path d="M0,-4.2 C-2.6,-5.4 -5.2,-5.1 -6.8,-4.6 V3.8 C-5.2,3.3 -2.6,3.6 0,4.8 C2.6,3.6 5.2,3.3 6.8,3.8 V-4.6 C5.2,-5.1 2.6,-5.4 0,-4.2 Z M0,-4.2 V4.8" fill="var(--tyrian)" stroke="var(--vellum)" stroke-width=".4"/>','-8 -7 16 14'),'A story','Something that happened, told from the sources.'],
     [sv('<circle r="5.6" fill="none" stroke="var(--iron-gall)" stroke-width="1.3"/><circle cy="-2.4" r="1.1" fill="var(--iron-gall)"/><circle cx="-2.2" cy="1.7" r="1.1" fill="var(--iron-gall)"/><circle cx="2.2" cy="1.7" r="1.1" fill="var(--iron-gall)"/>'),'A major council','A meeting that touched more than one tradition.'],
     [sv('<circle r="5.6" fill="none" stroke="var(--gold-leaf)" stroke-width="1.3"/><path d="M0,-.6 V3.2" stroke="var(--gold-leaf)" stroke-width="1.5" stroke-linecap="round"/><circle cy="-2.9" r=".9" fill="var(--gold-leaf)"/>'),'About an era','Opens that era\'s card.'],
