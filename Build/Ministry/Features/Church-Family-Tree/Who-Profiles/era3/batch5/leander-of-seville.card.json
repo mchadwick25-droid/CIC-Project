@@ -1,0 +1,129 @@
+{
+  "name": "Leander of Seville",
+  "otherNames": [
+    "Leander Hispalensis"
+  ],
+  "knownFor": "Bishop of Seville and elder brother of Isidore of Seville, friend of Pope Gregory the Great, who addressed his Moralia on Job to him. Isidore says the Gothic people turned from Arian teaching to the Catholic faith through his faith and work.",
+  "dates": "Bishop of Seville under King Leovigild and King Reccared. John of Biclaro names him a famed bishop in Leovigild's seventeenth year, which Theodor Mommsen's margin gives as 585 with a query. Nicola Turchi gives his years as bishop as about 584 to 600 or 601. His death year is disputed; Isidore says only that he died in Reccared's time. No source used here gives his birth year",
+  "place": "Seville, in the province of Baetica; his father Severianus was of the province of Cartagena, Isidore says; Constantinople, on an embassy; exile abroad, at a place no source used here names",
+  "tradition": "Nicene Visigothic Iberia",
+  "role": "Monk; bishop of Seville, metropolitan of the province of Baetica; writer",
+  "briefLength": "about 2 minutes 30 seconds",
+  "keyWorks": [
+    {
+      "title": "Rule for his sister Florentina",
+      "about": "which Isidore names a book on the training of virgins and contempt of the world, set out under chapter headings; it urges her to keep her pact with Christ and not to look back to the world"
+    },
+    {
+      "title": "Homily in praise of the church, after the Third Council of Toledo",
+      "about": "a homily under his name on the conversion of the Goths, printed after the council's acts; it rejoices that the church has suddenly given birth to new peoples, and ends with a prayer for the kingdom and its people"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Pope Gregory the Great says that Leander, with Gregory's monks, pressed him at Constantinople to explain the book of Job; the finished Moralia opens with Gregory's letter to him.",
+      "John of Biclaro says the business of the Third Council of Toledo lay chiefly with Leander and the abbot Eutropius. Leander signed its acts as metropolitan bishop of Seville in the province of Baetica.",
+      "The Fourth Council of Toledo, held in 633 by Theodor Mommsen's year, quotes Gregory's answer to Leander's question on baptism by one immersion or three."
+    ],
+    "remembered": [
+      "His brother Isidore calls him sweet in speech, outstanding in mind, and famed for his life and learning.",
+      "The Roman Martyrology keeps his feast on 27 February and says his preaching and work turned the Visigoths to the Catholic faith, with Reccared their king helping.",
+      "Gregory the Great: \"I carry the image of thy countenance stamped within the bowels of my heart.\"",
+      "William Cave, whose notice Migne reprints, says he earned the name apostle of the Goths."
+    ]
+  },
+  "uncertain": [
+    "His life rests mainly on his younger brother Isidore of Seville, who writes as family and from the Catholic side, and on his friend Gregory the Great, who heard of Spanish events from travellers. O. M. Dalton calls Gregory's account of Hermenegild's martyrdom fictitious, and suggests Gregory may have had it from Leander.",
+    "The year of his death. Isidore says only that he died in Reccared's time. An epitaph gives 27 February, era 641, which Theodor Mommsen reckons as 603; Mommsen doubts the epitaph. The Observatio critica printed with the Rule in Migne gives 603. Nicola Turchi gives 600 or 601, and a note signed Perez in Migne's Isidore gives 600. Edmund Gardner gives 599, and the notes to the 1844 Oxford edition of the Moralia give 595. Paul Ewald and Ludwig Hartmann date a letter of Gregory to Leander to August 599.",
+    "His exile. Isidore says he wrote two books against the heretics in exile abroad, and gives no place or year. Gregory the Great says Leovigild had greatly persecuted him. William Cave says Leovigild exiled him after he came back from Constantinople, in a year the scan of Migne's print has damaged; Nicola Turchi gives about 584. O. M. Dalton says instead that Leander withdrew to Constantinople and did not return to Spain until Leovigild died.",
+    "The purpose of his embassy. Gregory says only that it touched the faith of the Visigoths. William Cave says he went to the emperor Tiberius for help for Hermenegild; the notes to the 1844 Oxford edition of the Moralia report the same view from Baronius, and an ancient Roman breviary that has him go to a council on the articles of the Trinity.",
+    "Who turned Hermenegild to the Catholic faith. Gregory the Great names Leander. Gregory of Tours credits Hermenegild's wife Ingund. O. M. Dalton thinks it was probably both, and notes that neither Isidore nor John of Biclaro records the conversion.",
+    "Whether Leovigild entrusted Reccared to him. Gregory the Great says so. O. M. Dalton reports Altamira's view that no record of the time proves it.",
+    "Whether he presided at the Third Council of Toledo. John of Biclaro gives the council's business to him and the abbot Eutropius. The notes to the 1844 Oxford edition of the Moralia say he perhaps presided, citing Baronius.",
+    "Whether he was Reccared's uncle. Late sources make his sister the mother of Hermenegild and Reccared: Lucas of Tuy's additions to Isidore's History of the Goths, a breviary notice the Bollandists print, and Edmund Gardner's note. Isidore, John of Biclaro and the two Gregories do not say it.",
+    "The lines on Leander in some copies of Isidore's History of the Goths are later additions, from certain manuscripts and from Lucas of Tuy, as Mommsen's edition shows; Isidore's own text there does not name him.",
+    "The homily. Its authorship rests on its heading. The Madrid editors of 1808 note that two of their manuscripts lack it."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Rule for Florentina (Regula, De institutione virginum), in Patrologia Latina 72",
+        "language": "Latin",
+        "file": "cic/texts/john-biclaro-leander-pl72-lat_migne1878.txt"
+      },
+      {
+        "title": "Homily in praise of the church after the Third Council of Toledo, with his signature to the acts, in Collectio canonum Ecclesiae Hispanae",
+        "language": "Latin",
+        "file": "cic/texts/collectio-canonum-ecclesiae-hispanae-toledo-iii-lat_1808.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "On famous men, chapter 41",
+        "author": "Isidore of Seville",
+        "language": "Latin",
+        "file": "cic/texts/isidore-seville_sententiae-eccl-officiis-historia-gothorum-pl83-lat_migne1860.txt"
+      },
+      {
+        "title": "Letter to Leander, prefixed to the Morals on the Book of Job (Library of the Fathers; translator unnamed)",
+        "author": "Gregory the Great",
+        "date": "1844",
+        "language": "English translation",
+        "file": "cic/texts/gregory-great_moralia-in-job-books-i-x_bliss1844.txt"
+      },
+      {
+        "title": "Letter to Leander, Register I.43, with James Barmby's note, in Nicene and Post-Nicene Fathers, second series, volume 12 (tr. James Barmby)",
+        "author": "Gregory the Great",
+        "language": "English translation",
+        "file": "cic/texts/npnf212_leo-great-gregory-great.xml"
+      },
+      {
+        "title": "Letter to Leander, Register IX.121, in Nicene and Post-Nicene Fathers, second series, volume 13 (tr. James Barmby)",
+        "author": "Gregory the Great",
+        "language": "English translation",
+        "file": "cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml"
+      },
+      {
+        "title": "Register IX.227, with the editors' dating (ed. Paul Ewald and Ludwig Hartmann)",
+        "author": "Gregory the Great",
+        "date": "1893",
+        "language": "Latin",
+        "file": "cic/texts/gregory-great_registrum-epistolarum-t2-pars1-libri-8-9-lat_ewald-hartmann1893.txt"
+      },
+      {
+        "title": "Dialogues III.31 (English of 1608 by P.W., ed. Edmund G. Gardner), with Gardner's notes",
+        "author": "Gregory the Great",
+        "date": "1911",
+        "language": "English translation",
+        "file": "cic/texts/gregory-great_dialogues_gardner1911.txt"
+      },
+      {
+        "title": "Chronicle, with Theodor Mommsen's notes, in Chronica minora 2",
+        "author": "John of Biclaro",
+        "date": "1894",
+        "language": "Latin",
+        "file": "cic/texts/chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894.txt"
+      },
+      {
+        "title": "History of the Franks, volume 2, with notes (tr. O. M. Dalton)",
+        "author": "Gregory of Tours",
+        "date": "1927",
+        "language": "English translation",
+        "file": "cic/texts/gregory-tours_history-of-the-franks-v2_dalton1927.txt"
+      },
+      {
+        "title": "Note on Leander, in Epistolae selectae",
+        "author": "Nicola Turchi",
+        "date": "1907",
+        "language": "Latin",
+        "file": "cic/texts/gregory-great_epistolae-selectae_turchi1907.txt"
+      },
+      {
+        "title": "Notice of Leander, reprinted in Patrologia Latina 72, with the Roman Martyrology and the epitaph",
+        "author": "William Cave",
+        "language": "Latin",
+        "file": "cic/texts/john-biclaro-leander-pl72-lat_migne1878.txt"
+      }
+    ]
+  }
+}
