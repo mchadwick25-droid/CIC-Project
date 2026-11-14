@@ -102,7 +102,7 @@
     {
       "witness": "James Issaverdens, Armenia and the Armenians, vol. 2 (Venice, 1875)",
       "kind": "modern reconstruction",
-      "note": "A priest of the Mekhitarist monastery of San Lazzaro in Venice, a house founded, Ormanian says, under the auspices of Catholicism; his book is a sketch for visitors. Favourable to Kyrion, whom he calls a most learned and pious man. The only held source for the letters, Kyrion's reply and the appeal to Maurice; he names no sources."
+      "note": "A priest of the Mekhitarist monastery of San Lazzaro in Venice, whose founder, Ormanian says, had to yield to the demands of the Roman Curia. Favourable to Kyrion, whom he calls a most learned and pious man. The only held source for the letters, Kyrion's reply and the appeal to Maurice; he names no sources."
     },
     {
       "witness": "Marie-Félicité Brosset, notes to the Georgian chronicle (1849) and to Samuel of Ani (1876)",
@@ -111,8 +111,8 @@
     },
     {
       "witness": "Gregory the Great, letter to Quiricus and the Catholic bishops in Hiberia (Register XI.52)",
-      "kind": "later narrative",
-      "note": "Dated 601 by its editors, who place it in the eastern, Pontic Iberia rather than Ireland or Spain but do not name Kyrion. It answers how returning Nestorians are to be received, and shows Rome in touch with a Catholic bishop of Iberia in Kyrion's time."
+      "kind": "participant",
+      "note": "A letter of the time, not an account of the council; the nearest of the four kinds. Dated 601 by its editors, who place it in the eastern, Pontic Iberia rather than Ireland or Spain but do not name Kyrion. It answers how returning Nestorians are to be received by the Catholic bishops of Iberia."
     }
   ],
   "people": [
@@ -139,7 +139,7 @@
   ],
   "briefLength": "about 2 minutes 20 seconds",
   "uncertain": [
-    "No record of the council and no letter between Abraham and Kyrion is held. The synod at Dvin is told only by modern writers: Issaverdens in 1875, Brosset in 1876 and Ormanian in 1912. Stephen of Taron, writing around 1000, tells Abraham's anathema but names no council and gives no year. Kyrion's own words reach us only through Issaverdens, who is favourable to him; the Georgian chronicle in Brosset's French does not name him.",
+    "No record of the council and no letter between Abraham and Kyrion is held. Among the writers held, the synod at Dvin is told only by modern ones: Issaverdens in 1875, Brosset in 1876 and Ormanian in 1912. Brosset cites the medieval Armenian historians Kirakos and Ukhtanes for it; neither is held. Stephen of Taron, writing around 1000, tells Abraham's anathema but names no council and gives no year. Kyrion's own words reach us only through Issaverdens, who is favourable to him; the Georgian chronicle in Brosset's French does not name him.",
     "The year: 609 for Ormanian, with Abraham elected on 30 April 607; 596 for Brosset in 1876, who calls the chronology of one edition of Samuel of Ani wholly wrong; no year for the synod in Issaverdens or Stephen of Taron, though both set Abraham's quarrel under the emperor Maurice, whose successor Phocas, by James Barmby's date, took the throne in November 602. Brosset in 1849 dates a letter of Abraham to 595, and Frédéric Macler's notes to Sebeos give Abraham's years in a garbled line.",
     "Kyrion's reply and the letters come only from Issaverdens, who names no source.",
     "The appeal to the emperor Maurice and the meeting at Constantinople come only from Issaverdens.",

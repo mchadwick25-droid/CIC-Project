@@ -156,6 +156,12 @@
         "witness": "Gregory, to Constantius (npnf212 l.40141-40151)",
         "witness_kind": "later narrative",
         "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Gregory 'in vain endeavoured, either by remonstrance or by trying to enlist the emperor's aid, to bring back the Istrian bishops to conformity'",
+        "witness": "Barmby's introduction (npnf212 l.22455-22462)",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Widely Accepted"
       }
     ],
     "contested_claims": [
@@ -530,8 +536,8 @@
         "formation_confidence": "Widely Accepted"
       },
       {
-        "claim": "Issaverdens calls Gurion a most learned and pious man (OCR 'tiod' for 'and'); the book is 'A Mechitarist's English sketch ... written for visitors to San Lazzaro'; Mekhitar founded his house at San Lazzaro under the auspices of Catholicism",
-        "witness": "Issaverdens (l.3652-3654; file header l.8); Ormanian (l.4483-4493)",
+        "claim": "Issaverdens calls Gurion a most learned and pious man (OCR 'tiod' for 'and'); his house, San Lazzaro, was founded by Mekhitar, who 'had to yield to the demands of the Roman Curia'",
+        "witness": "Issaverdens (l.3652-3654); Ormanian (l.4491-4495)",
         "witness_kind": "modern reconstruction",
         "formation_confidence": "Documented"
       },

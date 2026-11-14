@@ -215,6 +215,12 @@
       "part": "Not present; summoned to the capital in 551 and exiled for refusing to condemn the Chapters"
     },
     {
+      "name": "Gregory the Great",
+      "id": "gregory-the-great",
+      "verdict": "WHO",
+      "part": "Not present; as bishop of Rome tried to bring the Istrian bishops back to communion, by James Barmby's account, and venerated the council"
+    },
+    {
       "name": "Pelagius II of Rome",
       "verdict": "LISTED",
       "part": "Not present; pressed the bishops of Istria to give up the Chapters"
