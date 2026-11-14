@@ -1,0 +1,114 @@
+{
+  "name": "Willibrord",
+  "otherNames": [
+    "Clement",
+    "Wilbrord",
+    "Willebrord"
+  ],
+  "knownFor": "A Northumbrian monk who went to preach to the Frisians and became their archbishop. Pope Sergius consecrated him and named him Clement, and his see was at Utrecht, in Bede's account. Alcuin of York says he built the monastery of Echternach and was buried there.",
+  "dates": "His own note, printed by Louis Duchesne, says he crossed the sea to Francia in 690 and was ordained bishop in 695. He was writing it in 728. Bede gives 696 for the consecration. Alcuin gives 7 November as the day he died, where Mabillon's text reads 6 November, and gives no year. Edward Kylie gives 739 and the Roman Breviary 738",
+  "place": "Born in Northumbria, in northern England. Raised at Ripon, then twelve years in Ireland. Archbishop of the Frisians, with his see at a fort Bede says the French call Utrecht. Buried at Echternach",
+  "tradition": "Anglo-Saxon Christianity",
+  "role": "Missionary bishop; archbishop of the Frisians; founder of Echternach",
+  "briefLength": "about 2 minutes",
+  "keyWorks": [
+    {
+      "title": "Note in his calendar (728)",
+      "about": "a short Latin note in the margin of a calendar he used, now in Paris, which Louis Duchesne prints. It gives the years he came to Francia and was ordained bishop, and calls himself \"quamvis indignus\", though unworthy"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Bede says Pippin gave him a see at Utrecht, where he built a church, and that he founded churches and monasteries and made other bishops.",
+      "Alcuin says that on gifts of land he had churches built and set a priest over each. The new people then had a place to gather and learn.",
+      "Alcuin says he built the monastery of Echternach, where he was buried, and that his successors still held it when Alcuin wrote.",
+      "Stephen's Life of Wilfrid of Ripon says Willibrord, raised at Ripon, was building on the faith Wilfrid had first planted in Frisia.",
+      "Edward Kylie writes that Boniface of Mainz worked three years in Frisia under Willibrord. Later, Kylie says, Boniface sought Pope Sergius's letter, which had made Utrecht a lasting see.",
+      "Alcuin says he baptized Pippin, father of the Charles who ruled the Franks when Alcuin wrote. Willibrord foretold that the child would be greater than all the Frankish leaders before him."
+    ],
+    "remembered": [
+      "Alcuin of York wrote his Life in two books, one in prose and one in verse, with a sermon for his feast. Froben, abbot of Saint Emmeram, who edited Alcuin, says Beornrad, archbishop of Sens, asked for it.",
+      "The Roman Breviary, in the Marquess of Bute's English, keeps his feast on 29 November. Its Martyrology names him on 7 November, as the bishop who preached in Friesland and Denmark.",
+      "The calendar of the York Prymer, which Canon Wordsworth edited, keeps his feast on 7 November.",
+      "Adam of Bremen says the island the Life calls Fositesland is the one later called Heligoland."
+    ]
+  },
+  "uncertain": [
+    "Alcuin wrote his Life more than fifty years after his death, by Froben's reckoning, and much of it is miracle stories. Bede wrote of him while he was alive, in about 731.",
+    "The year of his consecration. Bede gives 696, on Saint Cecilia's day. His own note gives 695. Louis Duchesne says Bede's figures are wrong, and takes the 21 November his calendar marks, in 695.",
+    "Where he was consecrated. Bede says in the church of Saint Cecilia. Alcuin says in Saint Peter's.",
+    "Who sent him. Bede says Egbert, a priest living in Ireland, sent him with others, twelve in all. Alcuin has him decide to go himself, in his thirty-third year.",
+    "Who gave him Utrecht. Bede says Pippin. Alcuin says he was given the see under Pippin's son Charles, after Radbod, king of the Frisians, was beaten. L. Cecil Jane, in his notes to Bede, takes Bede's Wiltaburg for Wiltenburg, not Utrecht.",
+    "The year he died. No early source used here gives it. Bede says he was still living, thirty-six years a bishop, when he wrote. Edward Kylie gives 739, and the Roman Breviary 738, aged eighty-one.",
+    "His years at Ripon. Alcuin says his father gave him to the brothers of Ripon as soon as he was weaned. The Roman Breviary says he was taken there before he was seven and given to Wilfrid."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Note in his calendar, in Le Liber pontificalis, volume 1, note to the Life of Sergius",
+        "author": "Willibrord; Louis Duchesne (ed.)",
+        "date": "1886",
+        "language": "Latin, with French notes",
+        "file": "cic/texts/liber-pontificalis_texte-introduction-commentaire-t1-lat-fra_duchesne1886.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Life of Willibrord, two books, with the sermon for his feast, in Patrologia Latina 101",
+        "author": "Alcuin of York; Froben (ed.)",
+        "date": "1863",
+        "language": "Latin",
+        "file": "cic/texts/alcuin_opera-omnia-letters_migne-pl100-101_1863.txt"
+      },
+      {
+        "title": "Ecclesiastical History V.9-11 (tr. J. A. Giles, ed. L. Cecil Jane, with his notes)",
+        "author": "Bede",
+        "date": "1903",
+        "language": "English translation",
+        "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt"
+      },
+      {
+        "title": "Le Liber pontificalis, volume 1: the Life of Sergius, with notes",
+        "author": "Louis Duchesne (ed.)",
+        "date": "1886",
+        "language": "Latin, with French notes",
+        "file": "cic/texts/liber-pontificalis_texte-introduction-commentaire-t1-lat-fra_duchesne1886.txt"
+      },
+      {
+        "title": "Life of Wilfrid, chapter 26 (Raine's numbering), in The Historians of the Church of York, volume 1",
+        "author": "Stephen (Eddius Stephanus); James Raine (ed.)",
+        "date": "1879",
+        "language": "Latin",
+        "file": "cic/texts/byrhtferth_vita-s-oswaldi-in-historians-of-the-church-of-york-v1-lat_raine1879.txt"
+      },
+      {
+        "title": "The English Correspondence of Saint Boniface, introduction",
+        "author": "Edward Kylie",
+        "date": "1911",
+        "language": "English",
+        "file": "cic/texts/boniface_english-correspondence_kylie1911.txt"
+      },
+      {
+        "title": "The Roman Breviary, autumn volume: the Martyrology for 7 November and the office of 29 November",
+        "author": "tr. John, Marquess of Bute",
+        "date": "1908",
+        "language": "English translation",
+        "file": "cic/texts/roman-breviary_bute1908.txt"
+      },
+      {
+        "title": "Horae Eboracenses: the Prymer of the York Use, calendar",
+        "author": "Canon Wordsworth (ed.)",
+        "date": "1920",
+        "language": "Latin and English",
+        "file": "cic/texts/surtees-society_horae-eboracenses-prymer-of-york-use-lat-enm_wordsworth1920.txt"
+      },
+      {
+        "title": "Gesta Hammaburgensis ecclesiae pontificum IV.3",
+        "author": "Adam of Bremen; B. Schmeidler (ed.)",
+        "date": "1917",
+        "language": "Latin",
+        "file": "cic/texts/adam-bremen_gesta-hammaburgensis-ecclesiae-pontificum-lat_schmeidler1917.txt"
+      }
+    ]
+  }
+}

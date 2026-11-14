@@ -1,0 +1,136 @@
+{
+  "name": "Theodore of Tarsus",
+  "otherNames": [
+    "Theodorus"
+  ],
+  "knownFor": "Archbishop of Canterbury from 668 to 690, sent to the English by Pope Vitalian. Bede calls him the first archbishop whom all the English church obeyed. With Hadrian, an African abbot from near Naples, he taught pupils at Canterbury, and he presided at the synods of Hertford and Hatfield.",
+  "dates": "Bede says he was sixty-six when Pope Vitalian ordained him, on 26 March 668. He reached his church at Canterbury on 27 May of the next year. He died in 690, aged eighty-eight, in Bede's account, and his epitaph gives the day as 19 September. By those counts he was born about 602",
+  "place": "Born at Tarsus in Cilicia. A monk in Rome when he was chosen. Archbishop at Canterbury, where he was buried in the church of Saint Peter",
+  "tradition": "Anglo-Saxon Christianity",
+  "role": "Archbishop of Canterbury; teacher, with Abbot Hadrian; president of the synods of Hertford and Hatfield",
+  "briefLength": "about 2 minutes",
+  "keyWorks": [
+    {
+      "title": "Acts of the synod of Hertford (673)",
+      "about": "the acts as Bede gives them, in Theodore's own voice. He shows the bishops ten chapters he had marked in a book of canons. Among them are Easter, bishops keeping to their own dioceses, monks, wandering clergy, a yearly synod and marriage"
+    },
+    {
+      "title": "Acts of the synod of Hatfield (680)",
+      "about": "the faith set down by the bishops under his presidency, as Bede gives it, against what Bede calls the heresy of Eutyches. They received five councils and the synod held at Rome under Pope Martin"
+    },
+    {
+      "title": "Penitential of Theodore (Poenitentiale Theodori)",
+      "about": "rulings on penance gathered under his name. Its compiler calls himself a disciple of the Northumbrians and says most of it came from questions the priest Eoda put to Theodore. F. W. H. Wasserschleben edited it in 1851"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Bede says Theodore and Hadrian taught Scripture with church poetry, astronomy and arithmetic. Some of their pupils, still living when he wrote, knew Greek and Latin as well as their own tongue.",
+      "Bede names among those pupils Abbot Albinus and Tobias, bishop of Rochester. In his preface Bede calls Albinus, educated at Canterbury by Theodore and Hadrian, his principal authority.",
+      "Bede says that from this time all the English churches began to learn church music, known till then only in Kent.",
+      "Bede says he ordained Bosa, Eata and Edhed bishops at York after Wilfrid of Ripon was driven out in 678. He also says Theodore presided at Twyford, where Cuthbert of Lindisfarne was chosen bishop.",
+      "F. W. H. Wasserschleben says Theodore has always been praised as the author of the first English book of penance. He adds that such a book was long a main source for penitentials in France and Germany."
+    ],
+    "remembered": [
+      "Bede writes that the English churches received more advantage in his time than ever before. His epitaph at Canterbury, in Giles's verse, begins \"Here rests fam'd Theodore, a Grecian name\".",
+      "The Roman Breviary, in the Marquess of Bute's English, keeps his feast on 26 September. Its lessons say he published a book of penitentials. They also say Bede held that brighter times never shone on England than under Theodore.",
+      "Bede's own words in J. A. Giles's English are \"Nor were there ever happier times since the English came into Britain\".",
+      "Eadmer, in his Life of Archbishop Bregwin, writes of a learning handed down from Theodore and his disciples that watered the whole land.",
+      "Henry of Huntingdon writes that the archbishops of Canterbury had been Romans up to Theodore's death, and were English from then on."
+    ]
+  },
+  "uncertain": [
+    "Most of what is known of him comes from Bede, writing about forty years after his death. Stephen's Life of Wilfrid of Ripon, written from Wilfrid's side, adds more. Bede tells nothing of his life before he was a monk in Rome.",
+    "His part in Wilfrid's fall. Bede says Egfrid, king of the Northumbrians, drove Wilfrid out in 678, and that Theodore ordained new bishops for his diocese. Stephen says the king and queen won Theodore over with gifts.",
+    "Stephen tells that Theodore, old and ill, called Wilfrid to London and confessed he had wronged him. The later Lives by Fridegod and Eadmer, which draw on Stephen, tell it too. In Stephen's account he also wished Wilfrid to succeed him at Canterbury.",
+    "James Raine, who edited Stephen in 1879, writes that Theodore and King Egfrid divided the diocese without Wilfrid's assent.",
+    "The penitential. Its compiler gives most of it as Theodore's answers to the priest Eoda. Wasserschleben holds that Theodore wrote no penitential himself. He says a third man gathered sayings of Theodore, perhaps while Theodore still lived. Wasserschleben adds that Bede never mentions one. Charles Plummer notes the same silence, but still speaks of the penitential as Theodore's.",
+    "A note in the Liber pontificalis, the book of the popes' lives, says Theodore set down how many years each sin should be repented. Wasserschleben took it for part of the book's eighth-century text, repeated by Paul the Deacon. Louis Duchesne prints it as an added note borrowed from Paul the Deacon.",
+    "Chad. Bede says Theodore told Chad he had not been duly consecrated, kept him a bishop and completed his ordination. Stephen says Theodore had Chad removed from a see not his own, and that Chad was later ordained in full for Lichfield.",
+    "The four months. J. A. Giles's English has Hadrian wait four months for his hair to grow into the Roman tonsure. In Plummer's Latin the sentence names no one, and the next one, on the ordination, is Theodore's.",
+    "His years in office. Bede gives twenty-one years, three months and twenty-six days from his arrival at Canterbury, and also twenty-two years as bishop."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Acts of the synods of Hertford and Hatfield, in Ecclesiastical History IV.5 and IV.17 (tr. J. A. Giles, ed. L. Cecil Jane)",
+        "author": "Theodore of Tarsus and the English bishops, in Bede",
+        "date": "1903",
+        "language": "English translation",
+        "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt"
+      },
+      {
+        "title": "Poenitentiale Theodori, in Die Bussordnungen der abendländischen Kirche",
+        "author": "Theodore of Tarsus (attributed); F. W. H. Wasserschleben (ed.)",
+        "date": "1851",
+        "language": "Latin, with a German introduction",
+        "file": "cic/texts/wasserschleben_die-bussordnungen-der-abendlaendischen-kirche-lat-deu_1851.txt"
+      },
+      {
+        "title": "Letter to King Ethelred of Mercia, in Stephen's Life of Wilfrid, chapter 43 (Raine's numbering)",
+        "author": "Theodore of Tarsus, as Stephen gives it",
+        "date": "1879",
+        "language": "Latin",
+        "file": "cic/texts/byrhtferth_vita-s-oswaldi-in-historians-of-the-church-of-york-v1-lat_raine1879.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Ecclesiastical History, preface, IV.1-2, IV.5, IV.12, IV.17, IV.21, IV.27, V.8, V.23 (tr. J. A. Giles, ed. L. Cecil Jane)",
+        "author": "Bede",
+        "date": "1903",
+        "language": "English translation",
+        "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt"
+      },
+      {
+        "title": "Historia ecclesiastica IV.1, in Venerabilis Baedae Opera historica, volume 1, with Plummer's Introduction",
+        "author": "Bede; Charles Plummer (ed.)",
+        "date": "1896",
+        "language": "Latin, with English introduction",
+        "file": "cic/texts/bede_opera-historica-v1-historia-abbatum-lat_plummer1896.txt"
+      },
+      {
+        "title": "Life of Wilfrid, chapters 15, 24 and 43 (Raine's numbering), with Raine's preface, in The Historians of the Church of York, volume 1",
+        "author": "Stephen (Eddius Stephanus); James Raine (ed.)",
+        "date": "1879",
+        "language": "Latin, with English preface",
+        "file": "cic/texts/byrhtferth_vita-s-oswaldi-in-historians-of-the-church-of-york-v1-lat_raine1879.txt"
+      },
+      {
+        "title": "Die Bussordnungen der abendländischen Kirche, introduction",
+        "author": "F. W. H. Wasserschleben",
+        "date": "1851",
+        "language": "German",
+        "file": "cic/texts/wasserschleben_die-bussordnungen-der-abendlaendischen-kirche-lat-deu_1851.txt"
+      },
+      {
+        "title": "Le Liber pontificalis, volume 2, introduction",
+        "author": "Louis Duchesne",
+        "date": "1892",
+        "language": "French and Latin",
+        "file": "cic/texts/liber-pontificalis_texte-introduction-commentaire-t2-lat-fra_duchesne1892.txt"
+      },
+      {
+        "title": "The Roman Breviary, autumn volume: the Martyrology for 19 September and the office of 26 September",
+        "author": "tr. John, Marquess of Bute",
+        "date": "1908",
+        "language": "English translation",
+        "file": "cic/texts/roman-breviary_bute1908.txt"
+      },
+      {
+        "title": "Life of Bregwin, in Patrologia Latina 159",
+        "author": "Eadmer",
+        "date": "1903",
+        "language": "Latin",
+        "file": "cic/texts/anselm-canterbury_opera-with-eadmer-historia-novorum-pl159-lat_migne1903.txt"
+      },
+      {
+        "title": "Historia Anglorum, in Patrologia Latina 195",
+        "author": "Henry of Huntingdon",
+        "date": "1855",
+        "language": "Latin",
+        "file": "cic/texts/aelred-rievaulx_opera-pl195-lat_migne1855.txt"
+      }
+    ]
+  }
+}

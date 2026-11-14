@@ -2920,3 +2920,37 @@ Round 2, a targeted recheck in two parts, found 3 blocking and 19 minor points, 
 **What is still open.** Open-Gaps 256, "Era 4 Who batch 2" (2026-11-14).
 
 The approved files are in `Who-Profiles/era4/batch2/` in this folder, and the reviews are in `Build/Ministry/Operations/Audits/2026-11-14_who-profiles-era4-batch2/`. No census, record or site change is made, so there is no data release number. Approved to proceed (coordinator, 2026-11-14; Mark may overrule).
+
+## 2026-11-14 — Cap ruling: one check of two round 3 fixes, era 4 Who batch 3
+
+**Cap ruling (Mark's standing ruling of 2026-11-14, "Minor round 3 fixes to reader-facing text get one targeted check without asking Mark").** Round 3, the last review round of era 4 Who batch 3, found no blocking point in any of the eight profiles. Two of its four minor points were in participant text:
+- **Cuthbert of Lindisfarne, card.** The Ripon item now says Bede's prose Life has Eata and Cuthbert "driven home" for the Life's "domum repulsus est", and names "Bede's History", since "His History" could be heard as Cuthbert's.
+- **Cogitosus, brief and audio.** "Painted boards adorned it" became "Painted boards adorned the church", since "it" could be heard as the altar or a tomb.
+
+Both were applied as worded, with one targeted Opus check of only the changed strings, by an agent that had not seen the drafting or the earlier rounds. The check does not count toward the cap: `Build/Ministry/Operations/Audits/2026-11-14_who-profiles-era4-batch3/R4_cap-check.md`. Its verdict was CLEAR, with no blocking or minor point. The Life reads "repulsus", the Cogitosus sentence matches PL 72, and the brief runs 327 words, FK 7.85, Flesch 64.90. The cap ruling is met.
+
+## 2026-11-14 — Who profiles, era 4 batch 3: eight Insular profiles, no majors, Wilfrid of Ripon, Stephen's Life of Wilfrid found (coordinator, under Mark's ruling of 2026-11-14 that eras 4 to 7 are built in full)
+
+**The batch.** Eight Insular WHO rows. Six come from `Build/Ministry/Operations/Audits/2026-11-11_who-scan-era4/Who_Scan_Era4.md`: Theodore of Tarsus, Willibrord, Leoba, Muirchu maccu Machtheni, Tirechan and Cogitosus. Two come from `Build/Ministry/Operations/Audits/2026-11-12_who-scan-supplement/Who_Scan_Supplement.md`: Wilfrid and Cuthbert of Lindisfarne. None is a census person entry or was written before. Opus drafted every profile to `Who_Profile_Pattern.md`, per Mark's era 1 batch 1 ruling, "Opus for all".
+
+**Coordinator calls (not Mark's words; Mark may overrule).**
+- **No majors.** Anglo-Saxon Christianity already has four majors in Bede, Boniface, Aidan and Hild, and Medieval Irish Christianity has Adomnán of Iona. All eight run 327 to 346 words, about 2:01 to 2:08. Tirechan, Cogitosus and Muirchu are recorders and stay at standard length, by the rulings for Palladius, John of Ephesus and Gregory of Tours.
+- **Leoba**, whose record is thin, is written from her one letter, three letters to her and Edward Kylie's introduction. The brief says which part is Kylie's.
+- **Wilfrid of Ripon**, id `wilfrid-of-ripon`, against the supplement scan's "Wilfrid of York". The approved Hild of Whitby texts already call him so, and keep "Wilfrid of York" for Hild's pupil, Wilfrid II.
+- **Card traditions, the worker's calls, accepted.** Muirchu and Tirechan in Medieval Irish Christianity. Cogitosus in Medieval Irish Christianity and Insular / Irish Monastic Christianity, since his date is disputed. The five English figures are in Anglo-Saxon Christianity only.
+- **Two era 3 card readings** are logged for the era 4 map build and not changed here: the Brigid of Kildare card on Basnage's placing, and the Ciaran of Clonmacnois card on Tirechan's date.
+- **American spelling** in the new prose (Decision-Log 77); quotations keep their own spelling.
+
+**Review.** Three rounds by fresh Opus agents that had not seen the drafting, at full effort in every round (Mark, relayed by the coordinator: "dont sacrafice quality, expecially the quality of writing"). Round 1, the full checklist review in two parts, found 7 blocking and 56 minor points. The blocking points:
+- **False absences.** Stephen was said to be alone in telling Theodore's confession and Wilfrid's prison and Austerfield, where Fridegod's and Eadmer's Lives, in the same volume, tell them too. Bede's own year for Cuthbert's consecration, the year King Egfrid was killed, was missed.
+- **Witnesses on the wrong side.** Charles Plummer was counted against Theodore's authorship of the penitential, though he calls it Theodore's work. Stokes's index was read as listing Muirchu's father separately from Brigid's biographer.
+- **A namesake collision.** "Wilfrid of York" against the approved Hild texts.
+- **A contested point told one way.** Cuthbert's vision of Aidan was told only in Bede's timing, against the approved Aidan profile.
+
+Round 2, a targeted recheck, found 1 blocking and 14 minor points, all fixed. The blocking point came from a round 1 fix: the Cuthbert card said Bede does not put Cuthbert among the monks who left Ripon, where his prose Life does. Round 3, the last, found no blocking point and four minor points. Two were in the records and README and were applied. Two were in participant text, and the cap ruling above settles them. Every quotation was re-checked word for word against its vendored file. No paid calls were made.
+
+**Corrections to the scan found in drafting.** Stephen's Life of Wilfrid is held in Raine 1879, with Fridegod's and Eadmer's Lives, against the scan's "not held". Bede's prose Life of Cuthbert and the Lindisfarne monk's Life are held in Latin. Alcuin's Life of Willibrord is held, and so is Theodore's Penitential. Muirchu's preface is held only in White's English, since Stokes's pages are missing from the file. Details are in Open-Gaps 257.
+
+**What is still open.** Open-Gaps 257, "Era 4 Who batch 3" (2026-11-14).
+
+The approved files are in `Who-Profiles/era4/batch3/` in this folder, and the reviews are in `Build/Ministry/Operations/Audits/2026-11-14_who-profiles-era4-batch3/`. No census, record or site change is made, so there is no data release number. Approved to proceed (coordinator, 2026-11-14; Mark may overrule).
