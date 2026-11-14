@@ -3055,3 +3055,44 @@ Round 2, a targeted recheck in two parts, found 2 blocking and 21 minor points, 
 **What is still open.** Open-Gaps 260, "Era 4 Who batch 6" (2026-11-14).
 
 The approved files are in `Who-Profiles/era4/batch6/` in this folder, and the reviews are in `Build/Ministry/Operations/Audits/2026-11-14_who-profiles-era4-batch6/`. No census, record or site change is made, so there is no data release number. Approved to proceed (coordinator, 2026-11-14; Mark may overrule).
+
+## 2026-11-14 — Cap ruling: one check of two round 3 card fixes, era 4 Who batch 7
+
+**Cap ruling (Mark's standing ruling of 2026-11-14, "Minor round 3 fixes to reader-facing text get one targeted check without asking Mark").** Round 3, the last review round of era 4 Who batch 7, found no blocking point in any of the seven profiles and four minor points. Two were in participant text, both on cards:
+- **Symeon the New Theologian, card.** `legacy.remembered` 2 now reads "Manuel Calecas, a Dominican, wrote against the Palamites. In a note, Combefis reads the deluded monks that Calecas attacks as Symeon and his disciples.", so no clause sits between Calecas and his verb.
+- **Niketas Stethatos, card.** `legacy.traces` 2 is split at "Greek.", from 29 words into two sentences.
+
+The other two, a records witness and the README's word counts, were applied as worded. All four were applied as worded, with one targeted Opus check of only those strings, by an agent that had not seen the drafting or the earlier rounds. The check does not count toward the cap: `Build/Ministry/Operations/Audits/2026-11-14_who-profiles-era4-batch7/R4_cap-check.md`. Both card strings and the README counts passed. The check found one minor point in the records only: two of the Niketas skete claim's line ranges were off by a line or two, and Athos and the monk were not cited. It was applied as worded and confirmed by reading the six ranges in the file, as the check allowed. No participant text changed. The cap ruling is met.
+
+## 2026-11-14 — Who profile length: non-majors to 2:00 from the next batch, and era 4 batch 7 kept as written (Mark, 2026-11-14)
+
+**Decided (Mark, 2026-11-14, relayed by the coordinator, then in his own words to the batch 7 worker).** Mark first chose, from options, "Hold to 2:00 from now on (Recommended)". The option read: "From the next batch on, non-majors stop at 2:00 (about 325 words), as the pattern says. Profiles already written stay as they are." He then added: "hold to two without cutting off", so that a brief fits 2:00 by being written tighter, never by stopping a story halfway or dropping one of a pair. When the batch 7 worker had drafted 2:00 versions of its six non-major briefs, Mark said: "no stop, how much of the story will we loose, i would rather have a 2;15 good story than a 2;00 cramped but flat card". He was shown, for each brief, its length and what a 2:00 version would drop, and answered: "keep".
+
+**What follows.** Era 4 batch 7 keeps its lengths: the single non-majors at 348 to 365 words, about 2:09 to 2:15, and the three paired profiles at 392 to 400 words, about 2:25 to 2:28, under the 2:30 cap the coordinator allowed for pairs, since each tells two lives. The tightened drafts were never written into the profiles. For later batches, the coordinator reads Mark's words together: non-majors aim at 2:00, and a good story at about 2:15 is preferred to a cramped one at 2:00. Approved to proceed (Mark, 2026-11-14).
+
+## 2026-11-14 — Who profiles, era 4 batch 7: seven profiles, one major, three pairs, the summary of Niketas's Life of Symeon found in Migne 152 (coordinator, under Mark's ruling of 2026-11-14 that eras 4 to 7 are built in full)
+
+**The batch.** Seven era 4 WHO rows of `Build/Ministry/Operations/Audits/2026-11-12_who-scan-supplement/Who_Scan_Supplement.md`: Symeon the New Theologian; Niketas Stethatos; Cedd and Chad; Elipandus of Toledo and Felix of Urgell; Paul the Deacon; Paulus Emeritanus; and Pisentius of Coptos and John the Elder. Three are paired profiles under Mark's pairing rule of 2026-11-11, "if two people are tied together in their sources with similar identity its ok to make that a single who", and each says why the two share it. None is a census person entry or was written before. Opus drafted every profile to `Who_Profile_Pattern.md`, per Mark's era 1 batch 1 ruling, "Opus for all".
+
+**Coordinator and worker calls (not Mark's words; Mark may overrule).**
+- **Major.** Symeon the New Theologian, as the scan proposes: the Philokalia's teachers of stillness read him. His brief runs 404 words, about 2:30. The other six are not major.
+- **Lengths.** The pairs run to the 2:30 cap, the coordinator's call, which Mark then kept ("keep", in the entry above). Paul the Deacon and Paulus Emeritanus are recorders; Paulus's own life is thin, held only in the first chapter and the close of his book, and his card says so.
+- **Symeon's life** is told from François Combefis's summary of Niketas's Life, with Combefis's own judgments kept apart, beside Symeon's own chapters and the Philokalia's notice. The coordinator agreed to this use (2026-11-14). Where Symeon's own telling and the Life differ on his ordination, both are given.
+- **Elipandus and Felix.** Their view is told from Elipandus's letters and Felix's confession; Alcuin, Pope Hadrian I, the council of Frankfurt and the Frankish annals are given as the opponents they are, and the brief says early that much comes through them.
+- **Card traditions, the worker's calls, confirmed by the coordinator.** Symeon and Niketas in "The Byzantine Imperial Church (Macedonian Era); Athonite & Comnenian Byzantine Monasticism", since the scan's "Byzantine monastic and hesychast tradition" is no census name; Elipandus and Felix in "Mozarabic Christianity; Carolingian Reform Christianity", since the scan's Nicene Visigothic Iberia ends in 711; Paul the Deacon in "Carolingian Reform Christianity", since the scan's two entries end in 604 and 680; Pisentius and John in "The Church of Alexandria and Miaphysite Egypt". Cedd and Chad and Paulus Emeritanus stand as the scan places them.
+- **Words held only in Greek, Latin or Slavonic** are told in modern words with the source named. Quotation marks are kept for held English.
+- **American spelling** in the new prose (Decision-Log 77); quotations keep their own spelling.
+
+**Review.** Three rounds by fresh Opus agents that had not seen the drafting, at full effort in every round (Mark, relayed by the coordinator: "dont sacrafice quality, expecially the quality of writing"). Round 1, the full checklist review in two parts, found 14 blocking and 59 minor points. The blocking points:
+- **A held own-voice witness missed.** Symeon's own telling of his ordination vision, in the Philokalia, differs from the Life on who said the prayer, and his closing words had lost "of those who take up the cross".
+- **False absences.** Symeon's discourses "known only from Combefis", where Nil Sorsky quotes him; Agobard's book on Felix "known only from Froben"; "John gives no year", where he gives "this fifth year"; the README's Life as "the one source" for Pisentius.
+- **Sources misread or hedges dropped.** Le Quien's dating of Niketas's later treatise is his inference; the twenty-two chapters Paisius heard of were Greek, in a skete on Athos; Agobard's "nonnullos" is people, not "some of it"; Elipandus's Toledo prayers were told as settled against Férotin's manuscript.
+- **Wrong work or OCR told as fact.** The letter to the bishops of Gaul is in PL 101, not PL 96; Froben's "prope 50" and the Migne notice's "1658" are scan misreadings, not editors' slips; Felix was not heard at Frankfurt; "Paul Warnefried" is not Foulke's form.
+
+Round 2, a targeted recheck, found 1 blocking and 8 minor points, all fixed. The blocking point came from a round 1 fix: the Cedd and Chad card said Cynebil built Lastingham, where Bede's preface has it built by the two brothers and the Latin keeps Cedd as builder. Round 3, the last, found all seven clear, with four minor points, and the cap ruling above settles them. Every quotation was re-checked word for word against its vendored file. No paid calls were made.
+
+**Corrections to the scan found in drafting.** Niketas's Life of Symeon is not held as a text, but Combefis's long summary of it with Greek extracts is (PG 152). Pisentius's "d. c. 632" rests on no held line. Paul the Deacon's "died after 791" misreads Foulke. Paulus Emeritanus's "Levita Christi" is held. Details are in Open-Gaps 261.
+
+**What is still open.** Open-Gaps 261, "Era 4 Who batch 7" (2026-11-14).
+
+The approved files are in `Who-Profiles/era4/batch7/` in this folder, and the reviews are in `Build/Ministry/Operations/Audits/2026-11-14_who-profiles-era4-batch7/`. No census, record or site change is made, so there is no data release number. Approved to proceed (the batch worker, under the coordinator's brief of 2026-11-14; Mark kept the lengths).
