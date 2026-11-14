@@ -246,6 +246,11 @@
         "claim": "Jerusalem, the sequence: \"le patriarche lui avait donné tout ce qu'il lui avait demandé\"; the Pentecost demand refused, \"ne lui donna pas ce qu'il lui avait réclamé\"; \"ag-Canadji partit avec sa troupe\"; Basil II: \"Basile II\" (MAC), \"l'empereur Basile Bulgaroktonos\" (PO18)",
         "witness": "PO18 l.50321-50323, 50388-50395, 50446-50447, 44377; MAC l.13238",
         "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The campaign: \"toute cette ... campagne de Bulgarie qui ... dura ... quatre années entières\"; from \"l'hiver de 990 à 991\" to \"les premiers mois de l'année 995\"",
+        "witness": "MAC l.13276-13293, 13306-13314",
+        "formation_confidence": "Dominant Modern Reconstruction"
       }
     ],
     "contested_claims": [],
@@ -337,8 +342,8 @@
         "formation_confidence": "Documented"
       },
       {
-        "claim": "Ebedjesu, tract III: \"religiosissimo Eliae Sobensi, viro nempe accuratissimo et acutissimo visum fuerit praecipere, ut, omissis ceteris de divisione hereditatum tractatibus, omnes, qui veritatem amarent, hanc unam sequerentur semitam\"; \"quas religiosissimus Elias Sobensis diligenter et accurate collegit\"; Elias's words: \"Mar Eliae patriarchae, cuius animae requiem precamur\"; Mai: \"Hunc ergo tractatum composuit Elias Subensis post obitum Eliae patriarchae\"; \"ELIAS SOBENSIS DICIT\"; contents \"Elias Nisibis, auctor praefationis et capitum 24. in tractatu III\" (OCR cleaned)",
-        "witness": "MAI (mai_scriptorum-veterum-nova-collectio-tomus10-ebedjesu-synodus-timothei-lat_mai1838.txt) l.398, 7400-7412, 7454-7458, 7483, 8412",
+        "claim": "Ebedjesu, tract III: \"religiosissimo Eliae Sobensi, viro nempe accuratissimo et acutissimo visum fuerit praecipere, ut, omissis ceteris de divisione hereditatum tractatibus, omnes, qui veritatem amarent, hanc unam sequerentur semitam\"; \"quas religiosissimus Elias Sobensis diligenter et accurate collegit\"; Elias's words: \"Mar Eliae patriarchae, cuius animae requiem precamur\"; Mai: \"Hunc ergo tractatum composuit Elias Subensis post obitum Eliae patriarchae\"; \"ELIAS SOBENSIS DICIT\"; contents \"Elias Nisibis, auctor praefationis et capitum 24. in tractatu III\" (OCR cleaned); the definitions are those Elias of Soba collected from the patriarch Elias's work (l.7409-7412); Elias: \"praedictum Eliae tractatum huic meae lucubrationi velut fundamentum subieci\", \"Collegi itaque canones decretorios\" (l.7506-7508, 8414-8415)",
+        "witness": "MAI (mai_scriptorum-veterum-nova-collectio-tomus10-ebedjesu-synodus-timothei-lat_mai1838.txt) l.398, 7395-7412, 7454-7458, 7483, 7506-7508, 8412-8415",
         "formation_confidence": "Documented"
       },
       {
@@ -376,7 +381,8 @@
       {
         "claim": "When he died",
         "sides": [
-          "Soon after 1049: Assemani, from the preface that prays for the dead catholicos Elias I (ASS1 l.46204-46216; the preface itself, MAI l.7454-7458, with Mai's note l.7483); Chabot (SYN l.1733-1735)",
+          "After 1049: Assemani, from the preface that prays for the dead catholicos Elias I (ASS1 l.46200-46216; MAI l.7454-7458, 7483)",
+          "Soon after 1049: Chabot (SYN l.1733-1735)",
           "About 1056: Frédéric Macler (MAC l.617-618)"
         ]
       },
@@ -461,8 +467,8 @@
         "formation_confidence": "Documented"
       },
       {
-        "claim": "Kircher, as Assemani reports: \"ipse ubique legit Papa, & hunc tabulam illam lapideam erexisse affirmat: Constituit tabulam hanc Papa\" (OCR cleaned); other Adams in the name lists",
-        "witness": "ASS2 l.36778-36783, 36340; MAL l.13193-13194, 13201-13202",
+        "claim": "Kircher once read the Papa as setting up the tablet, \"Constituit tabulam hanc Papa\"; Assemani lists this seventh among Kircher's errors about Jazedbuzid (\"plurimum hallucinatur\") (OCR cleaned); other Adams in the name lists",
+        "witness": "ASS2 l.36746-36783, 36340; MAL l.13193-13194, 13201-13202",
         "formation_confidence": "Documented"
       }
     ],
@@ -479,7 +485,7 @@
         "claim": "Who set up the stone",
         "sides": [
           "Jazedbuzid, by the Syriac: Kircher in Malech (MAL l.14162-14165), Assemani (ASS2 l.36709-36711), Lamy via Chabot (CHAB l.1369-1370), Budge (BUDGE l.5232-5234)",
-          "Adam: Cordier, \"who erected the monument\" (YULE l.3000); Kircher, as Assemani reports him, \"Constituit tabulam hanc Papa\" (ASS2 l.36780-36783)"
+          "King-tsing (Adam): Cordier, \"Adam (King-tsing), who erected the monument\" (YULE l.3000)"
         ]
       }
     ],
