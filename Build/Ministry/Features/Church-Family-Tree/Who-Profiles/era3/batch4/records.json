@@ -146,8 +146,8 @@
       },
       {
         "claim": "Justinian offered him the civil governorship with the patriarchate if he would receive the Tome of Leo; he refused: 'The prince has no power except over my body; but the Lord Jesus Christ, the true and great prince, has power over my soul and body together'",
-        "witness": "History of the Patriarchs, tr. Evetts (severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt l.38467-38594)",
-        "formation_confidence": "Contested"
+        "witness": "History of the Patriarchs only, a later history of his own church (severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt l.38467-38594)",
+        "formation_confidence": "Inferential-Thin"
       },
       {
         "claim": "He went to Constantinople, would not accept Chalcedon, and was exiled at the sixth milestone near the basilica of Arisphoea",
@@ -218,6 +218,21 @@
         "claim": "Victor of Tunnuna calls him 'haereticus'",
         "witness": "Victor, Chronicle (chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894.txt l.18846, 18872)",
         "formation_confidence": "Documented"
+      },
+      {
+        "claim": "'Theodosius quoque Alexandrinus' among those anathematized",
+        "witness": "Sophronius, synodical letter (john-moschus_pratum-spirituale-sophronius-opera-grc-lat_migne-pg87-3.txt l.29642-29643)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "'Severum, Theodosium, Colluthum, Themistium' among the condemned",
+        "witness": "Lateran council of 649 (mansi_sacrorum-conciliorum-collectio-tomus-10-lat_welter-facsimile1901.txt l.114428-114430)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "A tome written by Theodosius to the empress Theodora, cited at the Lateran council: 'Reliquum est ut una sit operatio ex utrisque deifica'",
+        "witness": "Garnier's note to Liberatus (liberatus-victor-tunnunensis-primasius-junillus-pl68-lat_migne1866.txt l.81419-81428, OCR); Mansi 10 (l.111238, 111607-111618)",
+        "formation_confidence": "Documented"
       }
     ],
     "contested_claims": [
@@ -227,7 +242,7 @@
       },
       {
         "claim": "Where his long exile was",
-        "sides": "John of Ephesus: Dercus in Thrace (PO18 l.32353). Liberatus: six miles from Constantinople (PL68 l.81327-81331). Michael the Syrian: ten years in Theodora's palace (michael tome2 l.14043-14046). The Ethiopic and Arabic synaxaries: twenty-eight years in Upper Egypt (ethiopian-synaxarium l.37624-37626)."
+        "sides": "John of Ephesus: Dercus in Thrace (PO18 l.32353). Liberatus: six miles from Constantinople (PL68 l.81327-81331). Michael the Syrian: ten years in Theodora's palace (michael tome2 l.14043-14046). The Ethiopic Synaxarium: twenty-eight years in Upper Egypt (ethiopian-synaxarium_book-of-saints-ethiopian-church-v2-v4-microform_budge1928.txt l.37624-37626). The History of the Patriarchs: twenty-eight years in banishment and otherwise, four in Upper Egypt (l.39586-39587). Victor of Tunnuna: Sycae (Mommsen l.18841)."
       },
       {
         "claim": "When he died",
@@ -520,6 +535,31 @@
         "claim": "The longer Life of James is spurious (Kleyn); its colophon gives it to Theodosius of Fsiltha in Seleucid 1052, Brooks's 741",
         "witness": "Brooks (john-of-ephesus_lives-of-the-eastern-saints_brooks1923.txt l.682-684, 724-726)",
         "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "'Jacques répondit aux Alexandrins : « Nous nous disposons à nous rendre près de vous ; et nous ferons ce qui paraîtra bon à toute l'assemblée. »'",
+        "witness": "Michael the Syrian, as his report (michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt l.24984-24987)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Bishop of Edessa in 541, from Dionysius",
+        "witness": "Assemani (assemani_bibliotheca-orientalis-tomus1-de-scriptoribus-syris-orthodoxis-lat_1719.txt l.10058-10063)",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Consecrated bishop of Edessa in 541",
+        "witness": "Hefele, tr. Clark (hefele_history-of-the-councils-v3-431-451_clark1883.txt l.24187-24190)",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "'The same story is told of Simeon of Beth Arsham'",
+        "witness": "Brooks's note (john-ephesus_lives-eastern-saints-po18_brooks1924.txt l.39674, OCR)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "A report that their ship sank and all perished at sea, their bodies never found",
+        "witness": "John of Ephesus, Ecclesiastical History IV.58 (john-ephesus_ecclesiastical-history-part3_paynesmith1860.txt l.13985-13991)",
+        "formation_confidence": "Contested"
       }
     ],
     "contested_claims": [
@@ -543,7 +583,7 @@
     "absent_details": [
       {
         "detail": "Writings of his own",
-        "note": "No letter or treatise by him is held as text."
+        "note": "No letter or treatise of his survives whole. Michael the Syrian gives one sentence of his reply to the Alexandrians (l.24984-24987) and reports letters of his and the Easterners carried by Hereth (l.19424-19428)."
       },
       {
         "detail": "A year of birth",

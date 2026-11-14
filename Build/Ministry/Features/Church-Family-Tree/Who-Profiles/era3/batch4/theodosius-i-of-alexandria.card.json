@@ -34,8 +34,8 @@
     "Who was made patriarch first. The History of the Patriarchs says Theodosius, with Gaianus made two months later. Liberatus says Theodosius was ordained and then driven out during the funeral rite, and Gaianus held the see for 103 days. The chronicle under Zachariah's name has Gaianus there three months first. Victor of Tunnuna has both ordained on one day.",
     "How he was restored. Liberatus says Theodora's chamberlain Narses did it by force and fire. The History of the Patriarchs tells of an inquiry and Gaianus's confession. Michael the Syrian has a general with six thousand men.",
     "His witnesses. Liberatus and John of Ephesus wrote in his lifetime, Liberatus from the side of Chalcedon and John from his own. The History of the Patriarchs is a later Coptic history; Eusèbe Renaudot judged its account far from Liberatus's, whom he calls the most truthful historian.",
-    "His speeches before the emperor's envoys are the History of the Patriarchs' telling, not a document of his.",
-    "Where his exile was. John of Ephesus says the fortress of Dercus in Thrace; Liberatus, six miles from Constantinople; Michael the Syrian, ten years in Theodora's palace. The Coptic and Ethiopic notices give twenty-eight years in Upper Egypt.",
+    "His speeches before the emperor's envoys come only from the History of the Patriarchs.",
+    "Where his exile was. John of Ephesus says the fortress of Dercus in Thrace; Liberatus, six miles from Constantinople; Victor of Tunnuna, Sycae at Constantinople; Michael the Syrian, ten years in Theodora's palace. The Ethiopic Synaxarium gives twenty-eight years of exile in Upper Egypt. The History of the Patriarchs gives twenty-eight years \"in banishment and otherwise\", and four in Upper Egypt.",
     "When he died. John of Ephesus says nine months after Justinian, which Brooks puts in August 566, noting that 'Dionysius' gives 19 June. Jean Garnier, after Victor, gives 566; Evetts's heading and R. Payne Smith give 567. Brooks thinks John's sentence on the death was added later by the author."
   ],
   "sources": {
@@ -44,6 +44,11 @@
         "title": "Letters to Severus and to Anthimus, in the Syriac chronicle under the name of Zachariah Rhetor, Book IX (tr. F. J. Hamilton and E. W. Brooks)",
         "language": "English translation",
         "file": "cic/texts/zachariah-rhetor_chronicle_hamiltonbrooks1899.txt"
+      },
+      {
+        "title": "Fragment of his tome to the empress Theodora, cited at the Lateran council of 649, in Jean Garnier's notes to Liberatus",
+        "language": "Latin",
+        "file": "cic/texts/liberatus-victor-tunnunensis-primasius-junillus-pl68-lat_migne1866.txt"
       }
     ],
     "about": [
@@ -74,6 +79,48 @@
         "date": null,
         "language": "Latin",
         "file": "cic/texts/renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713.txt"
+      },
+      {
+        "title": "Chronique, tome 2 (tr. J.-B. Chabot)",
+        "author": "Michael the Syrian",
+        "date": null,
+        "language": "French translation",
+        "file": "cic/texts/michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt"
+      },
+      {
+        "title": "Chronicle (ed. Theodor Mommsen)",
+        "author": "Victor of Tunnuna",
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894.txt"
+      },
+      {
+        "title": "Ecclesiastical History, part 3 (tr. R. Payne Smith)",
+        "author": "John of Ephesus",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/john-of-ephesus_ecclesiastical-history-part3_paynesmith1860.txt"
+      },
+      {
+        "title": "Ethiopic Synaxarium (tr. E. A. W. Budge)",
+        "author": null,
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/ethiopian-synaxarium_book-of-saints-ethiopian-church-v2-v4-microform_budge1928.txt"
+      },
+      {
+        "title": "Synodical letter, in Patrologia Graeca 87",
+        "author": "Sophronius of Jerusalem",
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/john-moschus_pratum-spirituale-sophronius-opera-grc-lat_migne-pg87-3.txt"
+      },
+      {
+        "title": "Acts of the Lateran council of 649 (Mansi 10)",
+        "author": null,
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-10-lat_welter-facsimile1901.txt"
       }
     ]
   }
