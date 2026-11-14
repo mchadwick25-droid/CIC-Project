@@ -1,0 +1,35 @@
+## 2026-11-14 — The map, direction B: a quiet map and a Who list (Mark, 2026-11-14; data release 44)
+
+**Decided (Mark, 2026-11-14, with the design worker; his words as given).** Mark chose direction "B: Quiet map + list" and closed the design with "Converged, auto mode". The converged prototype is https://claude.ai/artifact/Vp2TQv8f99hAwsQGaHpHiV; the phase 1 review is https://claude.ai/artifact/1pwdng5BoZHRaCeuv5s9Dd. The full decision list (A1 to A33, B1 to B5, C1 to C6) is carried in the build brief and the prototype page. His own words on the points that set earlier rulings aside:
+- **A2, the Who control is a mark, not the word.** "now the who buttons are not working they dont fit anymore, lets go back to the profile icon", then "can we reduce the size of the profile so all icons are the same size and clean simple mark". This sets aside the 14 November change that made the word "Who" the one control on the map. The word stays in the list title, the chip and the card button.
+- **A3, river Who and tradition Who told apart.** "we need to somehow differentiate the river toble for the who and the tradition togle for the who. and make it clear they are apart of what tradition or river".
+- **A4, river Who placement.** "the river who should be under the top boundry line, one bubble for the entire river in the era. the traditions shold be clearly connected to the tradition of the river". This sets aside the 11 November placement of the river's Who button.
+- **A5 and A6, names tie to traditions.** "the whos need to be connected with the traditions if there is a connection, whether the tradition or river are showing. names not connected with a single tradition should be spaced next to the river in a gap close to the time they were active". This sets aside the 11 November ruling that river names sit at their own dates to the right of the river; names now sit in one column joined to their tradition, and only people told within no tradition sit at their year.
+- **A14, Representative pictures hidden.** "since the conversation is not working yet lets hide the representitive pictures, when we get them back we will use a switch option to bring them back."
+- **A16, overlaps.** "looks great but now review for overlaps and streatch to keep it clean".
+- **A21, the Movements switch removed.** Movements across churches show while a river they touch is on; the three with no river link always show. This sets aside the Movements switch of the earlier map.
+- **Era cards.** "Map now, cards later (Recommended)". **Major traditions (B3).** "Use the stand-in (Recommended)": a tradition is major if it is a built world or has a major person.
+
+**Mark's picks during the build (2026-11-14, relayed by the coordinator, verbatim).**
+- The people with no major call on record: "Worker proposes, you confirm (Recommended)".
+- The active year: "Best-known dated act (Recommended)". A person's active year is the year of their best-known dated act in the held lines; for an outside witness or recorder, the year of the writing that makes them a Who.
+- The round 1 wording page (https://claude.ai/artifact/DZ2gTEKeL5sXHaEVc1zTsq): "Take all recommended (Recommended)". Five Key lines, three river common names ("Greek and Latin" shows no common name until the Persecuted Church placement is settled; "Mar Thoma and churches of northeast India"; capitals and "other"), and the ten era notes.
+- The round 2 wording points: "Take all (Recommended)". Era notes 1, 3, 4, 5, 9 and 10, the era 10 closing line ("The map runs to about 2010. Traditions that began after that will be added once enough time has passed.", also on the method page, which must say it in the same words), and the Key's "People of a river" line.
+- The table of majors and active years (https://claude.ai/artifact/Vi1258rn3iDfoHpTXgdfZk): [MARK'S CONFIRMATION, VERBATIM].
+
+**Coordinator call (not Mark's words; Mark may overrule).** The era information mark opens a card with the era's own notes and data-only lists the map already holds: the era's major councils, the rivers that begin in it, its major people, and its stories, with the stories in its traditions' cards in a closed line. No era history is written. Mark saw these lists in the converged prototype and asked for the tradition-card stories in his own words.
+
+**What went in.**
+- The map's own functions changed in place (no overlay): label fitting, mark layout, the era warp, the council column, the Who marks, names and list, the switch bar, the Key, the era strip, the connections view, the cards.
+- Census: `major` and `activeYear` on every person entry, required by `tools/validate-census.mjs` and mirrored into the map by `engine/m6/census_atlas_sync.py`. Church and Empire on its own river (lane 3.4) with the imperial-church origin record; the Eastern Catholic river (3.5) takes its origin from the census's Documented "broke with" link (Ottoman Orthodoxy to the Union of Brest, 1596, Akty Zapadnoi Rossii vol. 4 nos. 103 and 111). The river colour #de6e29 was checked with the palette validator against its new neighbours.
+- C1: `personDates()` read every "c." as circa. "c." after an ordinal now reads "century" and before a number "about", through one shared `plainDates()` used for people, traditions, stories and eras.
+- C3: the unused light palette is removed. C4: "connection" throughout. C5: no picture switch.
+- The feedback bar sits at the foot of each card. A card for an entry records its feedback under the entry's own page key, `tree/<id>`.
+
+**Measured.** Map height 12,744. Overlaps 0 at zooms 0.2, 0.32, 0.39, 0.47, 0.58, 0.7, 0.9, 1.4, 1.8, 2.6, 4 and 7, and 0 with a Who open in all 25 river-eras on desktop and phone. The prototype's one overlap at 0.47 came from a guessed text height; the build measures the font.
+
+**Review.** Three rounds by fresh Opus agents at full effort: the code against the decision list, the participant-facing text against the reading bar, and the AI-tells check. [ROUND COUNTS]
+
+**Not tested here.** Real touch, a screen reader, speed on an older phone, and [OTHERS].
+
+Approved to proceed (Mark, [DATE]).
