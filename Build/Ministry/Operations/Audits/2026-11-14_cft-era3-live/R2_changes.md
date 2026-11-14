@@ -13,7 +13,7 @@ Each finding of `R2_review.md` and what was done. `Census_Text_Changes.md` now s
 
 - **M1.** "or still alive in 610".
 - **M2.** "scarcely as many children".
-- **M3.** The Nubian source note now reads "(Julian, then Longinus in the 560s to 580s)". The entry's dates (543-652) and its first story's years (543-545) are carried by name in Open-Gaps 254.
+- **M3.** The Nubian source note now reads "(Julian, then Longinus in the 560s to 580s)". The entry's dates (543-652) and its first story's years (543-545) are carried by name in Open-Gaps 255.
 - **M4.** The Decision-Log's quotation paragraph no longer sums to a wrong total. It names the 13 scan readings, the one card that needed sources, the 14 listed renderings and what happened to the six profiles.
 - **M5.** "The worker's recommendation on each of the preview's four questions stands as approved; the coordinator had accepted each one before Mark's approval." The Open-Gaps 247 closure now names the Benedict line.
 - **M6.** Mark's words, as the coordinator relayed them on 2026-11-14: "Approve", on preview version 2. The coordinator's message is the source of the Decision-Log wording.

@@ -2814,6 +2814,45 @@ Round 2, a targeted recheck, found all of them resolved, with 3 new blocking poi
 
 The approved files are in `Who-Profiles/era3/batch8/` in this folder, and the reviews are in `Build/Ministry/Operations/Audits/2026-11-14_who-profiles-era3-batch8/`. No census, record or site change is made, so there is no data release number. Approved to proceed (coordinator, 2026-11-14; Mark may overrule).
 
+<<<<<<< HEAD
+## 2026-11-14 — Eras 4 to 7 built in full: every Who row whose sources are held (Mark, 2026-11-14)
+
+**Decided (Mark, 2026-11-14, picked from options, relayed by the coordinator).** Eras 4 to 7 of the Church Family Tree are built in full. Every WHO row whose sources are held gets a Who profile, not only the majors. Mark's choice: "Full builds, 4-7 (Recommended)". The era scans for eras 4 to 7 are the lists the batches are drawn from, and a WANTED row waits until its named source is held. The first batch under this ruling is era 4 batch 1. Approved to proceed (Mark, 2026-11-14).
+
+## 2026-11-14 — Cap ruling: one check of three card fixes, era 4 Who batch 1
+
+**Cap ruling (2026-11-14, Mark: "Apply + one check (Recommended)", picked from options, relayed by the coordinator).** The third and last review round of era 4 Who batch 1 found all eight profiles clear, with no blocking point. Three of its minor fixes were in participant text, all on cards, with no brief or audio change: the Boniface of Mainz card's first key work split a 28-word sentence, keeping Kylie's quotation "We are of one blood and one bone." as it stands; the Nennius card's dates now say that Louis Duchesne calls the writer pseudo-Nennius before placing him in the ninth century; and the Adomnán of Iona card's Easter item puts back "Bede adds" on the "lover of peace" sentence, which a split had cut loose from its witness. Mark ordered the three applied as worded and one targeted Opus check of only those strings, by an agent that had not seen the drafting or the earlier rounds, which does not count toward the cap: `Build/Ministry/Operations/Audits/2026-11-14_who-profiles-era4-batch1/R4_cap-check.md`. Its verdict was CLEAR, with no blocking or minor point: Kylie's letter has the Saxons themselves say the words, and the quotation is word for word; Duchesne calls the writer "pseudo-Nennius" and dates him to the ninth century; and "Bede adds" ties the sentence to Bede V.15. Each string runs 21 words or fewer. The cap ruling is met.
+
+## 2026-11-14 — Who profiles, era 4 batch 1: eight profiles, eight majors, Cuthbert's letter on Bede's death found (coordinator, under Mark's ruling of 2026-11-14 that eras 4 to 7 are built in full)
+
+**The batch.** The first eight WHO rows of `Build/Ministry/Operations/Audits/2026-11-11_who-scan-era4/Who_Scan_Era4.md` whose Major column proposes yes: Bede, Boniface of Mainz, Aidan of Lindisfarne, Hild of Whitby, Adomnán of Iona, Alcuin of York, Dhuoda and Nennius. None was written before. Bede is a live census person entry; his profile keeps the census id `bede-of-jarrow`, and the census is not changed. Opus drafted every profile to `Who_Profile_Pattern.md`, per Mark's era 1 batch 1 ruling, "Opus for all".
+
+**Coordinator calls (not Mark's words; Mark may overrule).**
+- **Major marks.** All eight are major, as the scan proposed: these are river-level figures. Seven run 402 to 405 words, about 2:30. Nennius keeps the mark but is a recorder with a thin held life, so his brief runs near standard length, 340 words, about 2:06. Bede is also a recorder, but his own closing statement, his list of works and Cuthbert's letter on his death carry the full length. The 2:30 is a cap, not a target.
+- **Bede and the live entry.** The profile agrees with the live entry except where the held lines differ, and those points go to Open-Gaps for a census fix: the Gospel of John at the deathbed and the age at death are L. Cecil Jane's, the year 735 is disputed, the Biographical Notice is Jane's, and the "sell Christ" line comes from Arnold's Select English Works volume 3.
+- **Nennius.** His authorship of the Historia Brittonum is attributed, and the brief says so plainly in its second paragraph, with the witnesses on each side: the book's own prologue, Hugh Williams and W. H. Stevenson for him; Louis Duchesne and James Raine, who call the writer pseudo-Nennius, the heading that gives the book to Mark the anchorite, and copies that give it to Gildas. The card name is plain "Nennius"; the work's author line reads "Nennius (attributed)". The doubt is over who wrote the book, not over his name.
+- **Names and ids.** "Boniface of Mainz", `boniface-of-mainz`, since popes of the name are in the census; "Adomnán of Iona", as the census and the era 3 Columba card spell it.
+- **Card traditions, the worker's calls.** Aidan of Lindisfarne in "Anglo-Saxon Christianity; Insular / Irish Monastic Christianity", since both movements cover his years and name him. Adomnán of Iona in "Medieval Irish Christianity; Insular / Irish Monastic Christianity", Medieval Irish first by his years as abbot. Boniface of Mainz in "Anglo-Saxon Christianity", which lists him and covers his life.
+- **Dhuoda** stays a Who under the women ruling: she taught, in writing, through a handbook for her sons. The brief says plainly what she did.
+- **American spelling** in the new prose (Decision-Log 77); quotations keep their own spelling.
+
+**Review.** Three rounds by fresh Opus agents that had not seen the drafting, at full effort in every round (Mark, relayed by the coordinator: "dont sacrafice quality, expecially the quality of writing"). Round 1, the full checklist review in four parts, found 11 blocking and 68 minor points. The blocking points:
+- **False absences.** The census Lollard line on selling Christ was marked not held; it is in Arnold's Select English Works volume 3.
+- **Sources misread or softened.** Plummer's "sad" was tied to the wrong sentence of Bede (Aidan). Carloman's promise to correct "something" was told as a promise to set right the church's order (Boniface). Dhuoda's "if God wills" was dropped from her prayer.
+- **Contested claims told as settled.** The timing of Cuthbert's vision of Aidan's soul was told from one Life only.
+- **Witnesses wrong or missing.** Alcuin's "master" read as Charlemagne, where Mabillon names his teacher Ælberht. The Nennius card cited an edition no held line supports.
+- **Counts.** The Hild card miscounted Bede's chapters on her.
+- **Writing and form.** A Dhuoda sentence stated her classification and told nothing. The Nennius card carried process narration, and listed "pseudo-Nennius" as another form of his name.
+
+Round 2, a targeted recheck in two parts, found Boniface and Alcuin clean and the rest resolved but two partly, with 1 new blocking point (a Dhuoda sentence split so that her conditional prayer read as fact) and 13 minors, all fixed. Round 3, the last, found all eight clear, with no blocking point and seven minors. Four were in the README and notes and were applied; three were card strings, and Mark's cap ruling above settles them. Every quotation was re-checked word for word against its vendored file. No paid calls were made.
+
+**Corrections to the scan found in drafting.** Cuthbert's letter on Bede's death is held in Plummer 1896, against the scan's "not held". Adomnán's On the Holy Places is held in PL 88. Hild has a second witness in Stephen's Life of Wilfrid. The Alcuin file holds PL 101 only, without the letters. Several of the scan's years rest on Library file headers. Details are in Open-Gaps 254.
+
+**What is still open.** Open-Gaps 254, "Era 4 Who batch 1" (2026-11-14).
+
+The approved files are in `Who-Profiles/era4/batch1/` in this folder, and the reviews are in `Build/Ministry/Operations/Audits/2026-11-14_who-profiles-era4-batch1/`. No census, record or site change is made, so there is no data release number. Approved to proceed (coordinator, 2026-11-14; Mark may overrule).
+>>>>>>> origin/main
+
 ## 2026-11-14 — Era 3 on the live tree: 76 Who profiles and 3 major councils (Mark, 2026-11-14; data release 42)
 
 **Decided (Mark, 2026-11-14, through the coordinator).** He saw a local-build preview (https://claude.ai/artifact/A1K3p6vHGqX4om7mwrAXk4, version 2) and approved it: "Approve". The worker's recommendation on each of the preview's four questions stands as approved; the coordinator had accepted each one before Mark's approval. The job, as the coordinator gave it: era 3 on the live tree as data release 42, the same way as release 41, with Open-Gaps 247, 249, 251, 252 and 253 folded in.
@@ -2822,7 +2861,7 @@ The approved files are in `Who-Profiles/era3/batch8/` in this folder, and the re
 
 **Placings.** Approved on the preview's question 2, settling Open-Gaps 242 and 252. Boethius is told within no tradition, in the Latin West river: he died in 524, before Justinian's reign, which the scan's placing assumed, and no census tradition is the Catholic church of Ostrogothic Italy. Victor of Vita and Fulgentius of Ruspe are told within no tradition, in the Africa river: the Homoian entry of the Vandal kingdom, which their cards named, would set two Nicene bishops in the river labeled "Non-Nicene Traditions", which review round 1 found misleading. Procopius of Caesarea and Agathias, the two outside witnesses, are told within none in the Greek East river, as Ammianus Marcellinus is in the Latin West. Columbanus is told within Insular / Irish Monastic Christianity (Bangor, and the scan's first placing), Faustus of Riez within Gallic Monastic-Ascetic Christianity (abbot of Lérins), and Samson of Dol within British and Welsh Christianity (the census has no Breton movement). The worker's calls that follow the batch cards, which Mark may overrule: Constantius of Lyon in British and Welsh Christianity, as the writer of Germanus's British mission; Gennadius of Marseilles in Gallic Monastic-Ascetic Christianity, the Lérins and Marseilles line, though its census span ends at 450.
 
-**Short dates, map years and places.** The build wrote each person's short dates line from the card's own dates note, and the review checked each against it. Where the sources give no year, the map year is the Who scan's or the Library file's, as in release 41 (Open-Gaps 254). A place label names at most two places; ids are copied only from census rows, so many towns show their name with no "today in" country.
+**Short dates, map years and places.** The build wrote each person's short dates line from the card's own dates note, and the review checked each against it. Where the sources give no year, the map year is the Who scan's or the Library file's, as in release 41 (Open-Gaps 255). A place label names at most two places; ids are copied only from census rows, so many towns show their name with no "today in" country.
 
 **Quotations.** Of 36 quotation failures in the first run, none was a misquotation. Many were faults in old scans: misread letters, a dropped space, a word broken across lines without a hyphen, and running heads or footnotes inside a sentence. They are now written down as 13 readings, by file and line, in `tools/quote_scan_readings.json`, with what the printed page reads; a dropped range must hold exactly the lines it declares. One needed two held sources on the Victor of Tunnuna card, the notes in the Ante-Nicene and Nicene Fathers that call him "Victor of Tunis". Fourteen are the profiles' own English of a Latin or French line. Approved on the preview's question 1: they keep their quotation marks, with "in modern words" beside them. They are listed by entry, span and original in `tools/quote_renderings.json`; the check skips exactly those spans and fails when one no longer stands in its entry. Review round 1 checked each against its original, clause by clause. Six profiles had renderings with no such mark, or quotation marks on words that were not quotations. Babai's and John Moschus's renderings are now marked and listed. Victor of Vita's and Moses of Khoren's now quote the original ("nostrae civitatis", "nouveau Platon"); Zachariah's name form lost its quotation marks; and the Caesaria card now says plainly which letter greets her as a holy sister.
 
@@ -2839,6 +2878,7 @@ The approved files are in `Who-Profiles/era3/batch8/` in this folder, and the re
 
 **Also changed.** The data page and its citation examples show release 42 (14 November 2026). Release 42 follows release 41 (PR #1647).
 
-**What is still open.** Open-Gaps 254. Open-Gaps 217 (caps, major mark, placement) is carried.
+**What is still open.** Open-Gaps 255. Open-Gaps 217 (caps, major mark, placement) is carried.
 
 Approved to proceed (Mark, 2026-11-14).
+=======
