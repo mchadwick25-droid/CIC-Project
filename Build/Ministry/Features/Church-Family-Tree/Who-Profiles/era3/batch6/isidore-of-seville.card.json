@@ -27,12 +27,12 @@
   "legacy": {
     "traces": [
       "Braulio of Zaragoza says he divided the Etymologies into twenty books. Before his own copy came, he wrote to Isidore, many people already had it cut short and damaged.",
-      "The Fourth Council of Toledo, where Isidore signed first, ruled that no one should be forced to believe. Those already baptized by force under King Sisebut, it said, must keep the faith.",
+      "The Fourth Council of Toledo, where Isidore signed first, ruled that from then on no Jew should be forced to believe. Jews already baptized by force under King Sisebut, it said, must be made to keep the faith.",
       "Ildefonsus of Toledo carried on Isidore's book On Famous Men and gave Isidore a chapter of his own."
     ],
     "remembered": [
       "Braulio, in Ernest Brehaut's English: \"In him antiquity reasserted itself—or rather, our time laid in him a picture of the wisdom of antiquity.\"",
-      "Braulio applies to him Cicero's words to Varro, in Brehaut's English: \"your books brought us home, as it were, so that we could at last recognize who and where we were.\"",
+      "Braulio applies to him words of \"the philosopher\", which Ernest Brehaut traces to Cicero writing to Varro: \"your books brought us home, as it were, so that we could at last recognize who and where we were.\"",
       "In a letter signed in his own hand, Braulio calls him a burning lamp that does not fade.",
       "Ildefonsus says his speaking had such richness that it left his hearers struck with wonder."
     ]
@@ -40,9 +40,10 @@
   "uncertain": [
     "His life is known mostly from his friend Braulio of Zaragoza, from Ildefonsus of Toledo, from his own letters and from the acts of councils. Ernest Brehaut says surprisingly little is known of it. Brehaut calls the Lives by Lucas Tudensis and Rodericus Cerratensis, both of the thirteenth century, full of fables; they are not among the sources used here.",
     "When he became bishop. Ildefonsus says he followed his brother Leander and held the see for almost forty years. Theodor Mommsen puts his start in Reccared's last years or under King Liuva. Ernest Brehaut gives probably 600. The year of Leander's death is itself disputed.",
-    "The day of his death. Theodor Mommsen gives 4 April 636, from an epitaph and the martyrologies. He reports the account of his death by Redemptus, which has him die four days after a public penance. Mommsen thinks the 31 March given with that account is, it seems, an error. Ernest Brehaut gives April 636, from Redemptus. Redemptus's account is not among the sources used here.",
-    "Whether he presided at the Fourth Council of Toledo. Its acts give him the first signature. Ernest Brehaut says he probably presided there. Brehaut also says he presided at the Second Council of Seville in 619, whose acts name him first among the bishops.",
-    "To whom he sent the Etymologies. Braulio says Isidore wrote it at his request. Its covering letter is addressed to King Sisebut in W. M. Lindsay's edition, and to Braulio in the text Migne reprints from Flórez. Lindsay reports manuscripts that head the work to Braulio, to Sisebut, or to both.",
+    "The day of his death. Theodor Mommsen gives 4 April 636, from an epitaph and the martyrologies. He reports the account of his death by the cleric Redemptus, which has him die four days after a public penance. Mommsen thinks the 31 March given with that account is, it seems, an error. Ernest Brehaut gives April 636, from Redemptus. Bernhard Poschmann retells Redemptus's account and quotes its Latin. Isidore, he reports, had himself carried into the church of Saint Vincent and did public penance before the people and two bishops.",
+    "Whether he presided at the Fourth Council of Toledo. Its acts give him the first signature. Ernest Brehaut says he probably presided there. The preface to the Breviarium Gothicum in Migne's edition says he did. Brehaut also says he presided at the Second Council of Seville, whose acts name him first among the bishops.",
+    "The year of the Second Council of Seville. Its acts give the Spanish era 657, which is 619, and King Sisebut's ninth year. Pagi, in a note Mansi prints, says the two do not agree. He follows later Spanish chroniclers, who give Sisebut's seventh year, and sets it in 618. Ernest Brehaut gives 619.",
+    "To whom he sent the Etymologies. Braulio says Isidore wrote it at his request. Its covering letter is addressed to King Sisebut in W. M. Lindsay's edition, and to Braulio in the text Migne reprints from Enrique Flórez. Lindsay reports manuscripts that head the work to Braulio, to Sisebut, or to both. Ernest Brehaut calls the preface addressed to Braulio.",
     "The book's early copies. Isidore says he sent it from the road uncorrected, because of illness. Lindsay says the copy behind all the manuscripts was full of faults. It is often unclear, he says, whether a confusion is Isidore's own or a scribe's.",
     "His birth. A chronicle printed in Patrologia Latina 80 under the name of Maximus of Zaragoza sets his birth at Seville by the year 556. Nicolás Antonio, in the notice printed with it, treats the chronicles under Maximus's name as a later fable. Common report, he says, gives it to Jerónimo Román de la Higuera."
   ],
@@ -133,6 +134,13 @@
         "date": "1911",
         "language": "Latin",
         "file": "cic/texts/isidore-seville_etymologiae-origines-lat_lindsay1911.txt"
+      },
+      {
+        "title": "Die abendländische Kirchenbusse im Ausgang des christlichen Altertums, on Redemptus's account of Isidore's death",
+        "author": "Bernhard Poschmann",
+        "date": "1928",
+        "language": "German",
+        "file": "cic/texts/poschmann_abendlaendische-kirchenbusse-deu_1928.txt"
       }
     ]
   }
