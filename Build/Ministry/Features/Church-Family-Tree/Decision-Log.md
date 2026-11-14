@@ -3182,7 +3182,7 @@ Approved to proceed (the re-score worker, under the coordinator's brief of 2026-
 
 **Wording changed in approved profiles (listed for the Opus recheck).** Agathon's quotation; Timothy's "of Baghdad"; Moses bar Kepha's card holds three key works, the schema's limit, dropping the Old and New Testament commentaries, whose notice stays in its legacy traces; the Sophronius card's "No source used here from Sophronius's own time"; the al-Baladhuri brief's "Al-Baladhuri also gives"; the Adam card's "King-Tsing"; and American spelling in our own prose (traveling, traveled, meter, catalog). No title of a printed work was changed.
 
-REVIEW-PARA
+**Review.** Three rounds by fresh Opus agents that had not seen the drafting, at full effort in every round. Round 1, the full review, found 1 blocking point (a scan reading that added a word to Agathon's own words), 6 substantial (the spelling gate, Bede's teaser, the Verden story's silence on Alcuin's view, a dispute the Dhuoda story set up between two compatible notes, the Dionysius closer, and the release records) and 9 minor. Round 2, a targeted recheck, found no blocking point, 2 substantial (two Bagratid sentences that said more than the held lines) and 6 minor. Round 3 approved it to proceed, with 1 minor point on the Open-Gaps record, taken. Every changed line of participant text was checked, including for AI tells and generic voice. Every quotation was checked against its vendored file. No paid calls were made.
 
 **Also changed.** The data page and its citation examples show release 43 (14 November 2026), and so does the census license credit. Release 43 follows release 42 (PR #1653).
 
