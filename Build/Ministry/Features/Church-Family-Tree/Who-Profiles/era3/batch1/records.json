@@ -309,8 +309,8 @@
         "formation_confidence": "Documented"
       },
       {
-        "claim": "Proterius was killed by Alexandrians 'at the instigation of Timotheus' after fleeing to the baptistery",
-        "witness": "The petition of the Egyptian bishops and clergy of Alexandria to the emperor Leo, as Evagrius reports and quotes it (Walford l.3640-3664); hostile",
+        "claim": "Proterius was killed by Alexandrians 'at the instigation of Timotheus' after fleeing to the baptistery; the petition itself calls Timothy 'the guilty cause, and the skilful builder of the scheme of mischief'",
+        "witness": "Evagrius II.8, following the petition of the Egyptian bishops and clergy of Alexandria to the emperor Leo (Walford l.3641-3644); the petition's own words at l.3752-3754; hostile",
         "formation_confidence": "Contested"
       },
       {
@@ -344,7 +344,7 @@
         "formation_confidence": "Widely Accepted"
       },
       {
-        "claim": "Recalled by Basiliscus in the eighteenth year of his banishment",
+        "claim": "Recalled by Basiliscus: in the eighteenth year of his banishment (Evagrius); after eighteen years in banishment (Zachariah)",
         "witness": "Evagrius III.4 (Walford l.5394-5397); Zachariah V.1 (l.5219-5248)",
         "formation_confidence": "Documented"
       },
@@ -367,17 +367,17 @@
     "contested_claims": [
       {
         "claim": "Who killed Proterius",
-        "sides": "The Proterian petition quoted by Evagrius: Alexandrians at Timothy's instigation (Walford l.3640-3664). Zachariah: a Roman soldier (l.3380-3392). The Life of Peter, as Evagrius reports: a soldier (Walford l.3626-3628)."
+        "sides": "Evagrius, following the Proterian petition: Alexandrians at Timothy's instigation (Walford l.3641-3644); the petition: Timothy 'the guilty cause' (l.3752-3754). Zachariah: a Roman soldier (l.3380-3392). The Life of Peter, as Evagrius reports: a soldier (Walford l.3626-3628)."
       },
       {
         "claim": "The length of his exile",
-        "sides": "Evagrius and Zachariah: recalled in the eighteenth year (Walford l.5394-5397; l.5219). History of the Patriarchs: banished to Gangra with his brother Anatolius for seven years (Evetts l.35199-35201)."
+        "sides": "Evagrius: recalled in the eighteenth year of his banishment (Walford l.5394-5397). Zachariah: after eighteen years in banishment (l.5219-5220). History of the Patriarchs: banished to Gangra with his brother Anatolius for seven years (Evetts l.35202)."
       }
     ],
     "absent_details": [
       {
-        "detail": "Birth, family and the year of his death",
-        "note": "No ancient source used here gives them; Feltoe gives 457 and 460, and Evetts's heading gives his see as 458 to 480."
+        "detail": "Birth and the year of his death",
+        "note": "No ancient source used here gives them; the History of the Patriarchs names his brother Anatolius (Evetts l.35202). Feltoe gives 457 and 460, and Evetts's heading gives his see as 458 to 480."
       },
       {
         "detail": "The content of his Armenian refutation",
@@ -403,7 +403,7 @@
         "formation_confidence": "Documented"
       },
       {
-        "claim": "Disciple of Sahak and Mesrop, secretary to Vartan, grandson of Sahak; later bishop of the Amadunians, named in the list of the synod of Artashat in 450",
+        "claim": "Disciple of Sahak and Mesrop, secretary to Vartan, later bishop of the Amadunians, named in the list of the synod of Artashat in 450",
         "witness": "Neumann's preface (l.574-581); a translator's claim",
         "formation_confidence": "Inferential-Thin"
       },
