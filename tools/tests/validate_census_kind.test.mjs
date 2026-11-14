@@ -1,4 +1,4 @@
-// The `kind` field on census movements: absent for a church body, or "cross-church movement".
+// The `kind` field on census movements: absent for a church body, "cross-church movement", "person" or "major-council".
 // Run: node --test tools/tests/validate_census_kind.test.mjs
 import { test } from "node:test";
 import assert from "node:assert/strict";
@@ -13,7 +13,7 @@ function validate(data) {
   const dir = mkdtempSync(join(tmpdir(), "census-kind-"));
   const path = join(dir, "census.json");
   writeFileSync(path, JSON.stringify(data));
-  const run = spawnSync("node", ["tools/validate-census.mjs", path], { encoding: "utf8" });
+  const run = spawnSync("node", ["tools/validate-census.mjs", "--skip-quotes", path], { encoding: "utf8" });
   return run.stdout.split("\n").filter(l => l.startsWith("ERROR"));
 }
 
@@ -31,6 +31,10 @@ test("a movement with no kind is a church body and passes", () => {
 
 test("a cross-church movement passes", () => {
   assert.deepEqual(withKind("cross-church movement"), []);
+});
+
+test("a major council passes", () => {
+  assert.deepEqual(withKind("major-council"), []);
 });
 
 test("an unknown kind fails", () => {

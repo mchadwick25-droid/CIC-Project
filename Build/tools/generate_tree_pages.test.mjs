@@ -203,6 +203,7 @@ test('the map holds every tradition\'s people, every person\'s home tradition an
     assert.equal(h.peopleNote, m.peopleNote, `${m.id}: peopleNote`);
     assert.equal(h.toldWithin, m.toldWithin, `${m.id}: toldWithin`);
     assert.deepEqual(h.card, m.card, `${m.id}: card`);
+    assert.deepEqual(h.council, m.council, `${m.id}: council`);
   }
 });
 
@@ -358,4 +359,60 @@ test('the tree serves its own copy of the license page, with every section of th
   assert.ok(tree.includes('Ministry and Scholarship Permission'));
   assert.match(read(`tree/${open.id}.html`), /<a href="\.\.\/license.html">License<\/a>/);
   assert.ok(read('sitemap.xml').includes('<loc>https://www.churchfamilytree.com/license.html</loc>'));
+});
+
+test('a major council page shows its kind, its record, its traditions and its Who', () => {
+  const council = census.movements.find(m => m.id === 'council-of-nicaea-325');
+  const page = generate(census)(`tree/${council.id}.html`);
+  assert.match(page, /<p class="kind-label">Major council<\/p>/);
+  assert.match(page, /<h2>About This Council<\/h2>/);
+  for (const h of ['Why They Met', 'Who Came', 'What They Decided', 'What Came of It', 'Traditions It Touched', 'Who', 'Whose Account We Have', 'What Is Uncertain', 'Sources']) {
+    assert.match(page, new RegExp(`<h2>${h}</h2>`), h);
+  }
+  assert.match(page, /class="part-group">Gathered</);
+  assert.match(page, /class="part-group">Condemned</);
+  assert.match(page, /<a href="arius\.html">Arius<\/a> · /);
+  assert.match(page, /class="verdict">Not yet assessed<\/span>/);
+  assert.match(page, /<p class="source-group">From the council<\/p>/);
+  assert.doesNotMatch(page, /No sources recorded/);
+  assert.doesNotMatch(page, /<h2>In Its Own Record<\/h2>/);
+  assert.doesNotMatch(page, /class="told-within"/);
+});
+
+test('a person page shows the card: facts, key works, legacy, councils, what is uncertain and sources in two groups', () => {
+  const read = generate(census);
+  const page = read('tree/arius.html');
+  assert.match(page, /<dt>Known for<\/dt>/);
+  assert.match(page, /<h2>Key Works<\/h2>/);
+  assert.match(page, /<h2>Legacy<\/h2>/);
+  assert.match(page, /<h2>At Major Councils<\/h2>[\s\S]*council-of-nicaea-325\.html/);
+  assert.match(page, /<h2>What Is Uncertain<\/h2>/);
+  assert.match(page, /<p class="source-group">Their own words<\/p>/);
+  assert.match(page, /<p class="source-group">Written about them<\/p>/);
+  assert.doesNotMatch(page, /No sources recorded/);
+  assert.match(read('tree/josephus.html'), /<p class="kind-label">Outside witness<\/p>/);
+  assert.doesNotMatch(page, /<p class="kind-label">Outside witness<\/p>/);
+});
+
+test('a page with nothing in its own record leaves the record heading out', () => {
+  assert.doesNotMatch(generate(census)('tree/bede-of-jarrow.html'), /<h2>In Its Own Record<\/h2>/);
+});
+
+test('the map draws major councils in their own column, off the rivers, and a council opens its own card', () => {
+  const map = fs.readFileSync(path.join(root, 'cft-website/index.html'), 'utf8');
+  assert.match(map, /const councilEntries=DATA\.movements\.filter\(m=>m\.kind===COUNCIL_KIND\);/);
+  assert.match(map, /DATA\.movements=DATA\.movements\.filter\(m=>m\.kind!==COUNCIL_KIND\);/);
+  assert.match(map, /\[COUNCIL_KIND\]:'Major council'/);
+  assert.match(map, /if\(councilById\[m\.id\]\)\{openCouncilCard\(m\);return;\}/);
+  assert.match(map, /const x0=\(Number\.isFinite\(left\)\?left:70\)-COUNCIL_GAP;/);
+  assert.match(map, /cap\.textContent='Major councils';/);
+});
+
+test('Who has one control for each river in each era and one beside each tradition, and no separate profile control', () => {
+  const map = fs.readFileSync(path.join(root, 'cft-website/index.html'), 'utf8');
+  assert.match(map, /class:'who-pill river-pill'/);
+  assert.match(map, /class:'who-pill prof-pill'/);
+  const pill = map.slice(map.indexOf('function profilePill'), map.indexOf('const linkEnd='));
+  assert.match(pill, /label\.textContent='Who';/);
+  assert.doesNotMatch(pill, /personGlyph/);
 });
