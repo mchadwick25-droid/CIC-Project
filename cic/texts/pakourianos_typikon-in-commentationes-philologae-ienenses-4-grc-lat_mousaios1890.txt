@@ -1,11 +1,11 @@
-Title: Commentationes philologae Ienenses, vol. IV, containing the dissertation on Gregory Pakourianos and the Typikon of the monastery of the Mother of God Petritzonitissa (Georgius Musaeus)
+Title: Commentationes philologae Ienenses, vols. IV-VI (fascicle 1) bound together; vol. IV contains the dissertation on Gregory Pakourianos and the Typikon of the monastery of the Mother of God Petritzonitissa (Georgius Musaeus)
 Creator: Georgius Musaeus (Mousaios), dissertation and edition of the Typikon, in a volume of the Jena philological seminar; the Typikon is Gregory Pakourianos's
 Publisher: Leipzig: B. G. Teubner (title page)
-Publication Date: 1890 (title page, MDCCCXC)
-Rights: Public Domain (pd-us-by-date: published 1890); the archive.org record is tagged NOT_IN_COPYRIGHT
+Publication Date: 1890 (title page of vol. IV; the later volumes are dated 1893 and 1896)
+Rights: Public Domain (pd-us-by-date: published 1896); the archive.org record is tagged NOT_IN_COPYRIGHT
 Language: grc
 Source: archive.org item commentationesp01unkngoog, full text from the item's own djvu.txt. Fetched directly 2026-11-13 by the Library thread; the byte count of the downloaded file (2,214,761) equals the size archive.org lists for the djvu.txt.
-Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1890, out of US copyright by date. OCR quality: the Greek is fair, with slips. Line numbers cited in this header are lines of the host OCR; add 11 for this file's own line numbers.
+Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1896, out of US copyright by date. OCR quality: the Greek is fair, with slips. Line numbers cited in this header are lines of the host OCR; add 11 for this file's own line numbers.
 
 ______________________________________________________________________
 

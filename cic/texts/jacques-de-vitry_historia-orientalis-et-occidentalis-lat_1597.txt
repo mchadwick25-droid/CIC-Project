@@ -1,6 +1,6 @@
 Title: Iacobi de Vitriaco ... Libri duo, quorum prior Orientalis sive Hierosolymitanae, alter Occidentalis historiae nomine inscribitur
 Creator: Jacques de Vitry (Iacobus de Vitriaco)
-Publisher: Douai (host record)
+Publisher: Douai: Balthazar Beller (title page; the printer is also in the host record)
 Publication Date: 1597 (host record; the last digit of the title-page year is covered by a stamp and reads '159?')
 Rights: Public Domain (pd-us-by-date: published 1597); the archive.org record carries the Public Domain Mark (licenseurl http://creativecommons.org/publicdomain/mark/1.0/), and the imprint date agrees
 Language: lat

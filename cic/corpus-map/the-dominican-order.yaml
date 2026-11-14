@@ -7,7 +7,7 @@ works:
   work: Jordan of Saxony, Libellus de principiis (Life of Dominic) in the Acta Sanctorum,
     August I
   author: acta-sanctorum
-  locus: Dominic from about OCR line 61888, Jordan's Vita from about 92226; the rest of the
+  locus: Dominic from about OCR line 61888, Jordan's Vita from about 92224; the rest of the
     volume is other saints; add 12 to OCR line numbers
   role: tradition
   confidence: provisional
@@ -18,8 +18,8 @@ works:
   work: William of Tocco's Life of Thomas Aquinas and the canonization process, Acta Sanctorum
     March I
   author: acta-sanctorum
-  locus: Aquinas from about OCR line 109094, the process 113710-117887; the rest of the volume
-    is other saints; add 12 to OCR line numbers
+  locus: Aquinas from about OCR line 109094 (Tocco at about 109370), the process from 113710
+    to about 118100; the rest of the volume is other saints; add 12 to OCR line numbers
   role: context
   confidence: provisional
   note: A later hagiographer's Life of Thomas; written after the window and about it.
@@ -73,8 +73,8 @@ works:
   locus: the whole volume
   role: tradition
   confidence: provisional
-  note: The Summa theologiae in the Leonine text, inside this window. The tomus number is
-    the edition's; the part named is from the volume's own contents.
+  note: The Summa theologiae in Thomas's Latin, inside this window. The volume also carries
+    Cajetan's commentary, named on the title page, which is not shelved.
   source_file: thomas-aquinas_opera-omnia-t10-summa-theologiae-lat_leonine1899.txt
 - row_id: thomas-aquinas_opera-omnia-t11-summa-theologiae-lat_leonine1903--thomas-aquinas-opera-omnia-leonine-edition-tomus-11-summa-theolo
   work: Thomas Aquinas, Opera omnia, Leonine edition, tomus 11 (Summa theologiae, Tertia pars)
@@ -82,8 +82,8 @@ works:
   locus: the whole volume
   role: tradition
   confidence: provisional
-  note: The Summa theologiae in the Leonine text, inside this window. The tomus number is
-    the edition's; the part named is from the volume's own contents.
+  note: The Summa theologiae in Thomas's Latin, inside this window. The volume also carries
+    Cajetan's commentary, named on the title page, which is not shelved.
   source_file: thomas-aquinas_opera-omnia-t11-summa-theologiae-lat_leonine1903.txt
 - row_id: thomas-aquinas_opera-omnia-t12-summa-theologiae-lat_leonine1906--thomas-aquinas-opera-omnia-leonine-edition-tomus-12-summa-theolo
   work: Thomas Aquinas, Opera omnia, Leonine edition, tomus 12 (Summa theologiae, Tertia pars,
@@ -92,8 +92,9 @@ works:
   locus: the whole volume
   role: tradition
   confidence: provisional
-  note: The Summa theologiae in the Leonine text, inside this window. The tomus number is
-    the edition's; the part named is from the volume's own contents.
+  note: The Summa theologiae in Thomas's Latin, inside this window. The volume also carries
+    Cajetan's commentary, named on the title page, which is not shelved. Tomus 12 also holds
+    the Supplement to the Tertia pars.
   source_file: thomas-aquinas_opera-omnia-t12-summa-theologiae-lat_leonine1906.txt
 - row_id: thomas-aquinas_opera-omnia-t4-summa-theologiae-lat_leonine1888--thomas-aquinas-opera-omnia-leonine-edition-tomus-4-summa-theolog
   work: Thomas Aquinas, Opera omnia, Leonine edition, tomus 4 (Summa theologiae, Prima pars,
@@ -102,8 +103,8 @@ works:
   locus: the whole volume
   role: tradition
   confidence: provisional
-  note: The Summa theologiae in the Leonine text, inside this window. The tomus number is
-    the edition's; the part named is from the volume's own contents.
+  note: The Summa theologiae in Thomas's Latin, inside this window. The volume also carries
+    Cajetan's commentary, named on the title page, which is not shelved.
   source_file: thomas-aquinas_opera-omnia-t4-summa-theologiae-lat_leonine1888.txt
 - row_id: thomas-aquinas_opera-omnia-t5-summa-theologiae-lat_leonine1889--thomas-aquinas-opera-omnia-leonine-edition-tomus-5-summa-theolog
   work: Thomas Aquinas, Opera omnia, Leonine edition, tomus 5 (Summa theologiae, Prima pars,
@@ -112,8 +113,8 @@ works:
   locus: the whole volume
   role: tradition
   confidence: provisional
-  note: The Summa theologiae in the Leonine text, inside this window. The tomus number is
-    the edition's; the part named is from the volume's own contents.
+  note: The Summa theologiae in Thomas's Latin, inside this window. The volume also carries
+    Cajetan's commentary, named on the title page, which is not shelved.
   source_file: thomas-aquinas_opera-omnia-t5-summa-theologiae-lat_leonine1889.txt
 - row_id: thomas-aquinas_opera-omnia-t6-summa-theologiae-lat_leonine1891--thomas-aquinas-opera-omnia-leonine-edition-tomus-6-summa-theolog
   work: Thomas Aquinas, Opera omnia, Leonine edition, tomus 6 (Summa theologiae, Prima secundae,
@@ -122,8 +123,8 @@ works:
   locus: the whole volume
   role: tradition
   confidence: provisional
-  note: The Summa theologiae in the Leonine text, inside this window. The tomus number is
-    the edition's; the part named is from the volume's own contents.
+  note: The Summa theologiae in Thomas's Latin, inside this window. The volume also carries
+    Cajetan's commentary, named on the title page, which is not shelved.
   source_file: thomas-aquinas_opera-omnia-t6-summa-theologiae-lat_leonine1891.txt
 - row_id: thomas-aquinas_opera-omnia-t7-summa-theologiae-lat_leonine1892--thomas-aquinas-opera-omnia-leonine-edition-tomus-7-summa-theolog
   work: Thomas Aquinas, Opera omnia, Leonine edition, tomus 7 (Summa theologiae, Prima secundae,
@@ -132,8 +133,8 @@ works:
   locus: the whole volume
   role: tradition
   confidence: provisional
-  note: The Summa theologiae in the Leonine text, inside this window. The tomus number is
-    the edition's; the part named is from the volume's own contents.
+  note: The Summa theologiae in Thomas's Latin, inside this window. The volume also carries
+    Cajetan's commentary, named on the title page, which is not shelved.
   source_file: thomas-aquinas_opera-omnia-t7-summa-theologiae-lat_leonine1892.txt
 - row_id: thomas-aquinas_opera-omnia-t8-summa-theologiae-lat_leonine1895--thomas-aquinas-opera-omnia-leonine-edition-tomus-8-summa-theolog
   work: Thomas Aquinas, Opera omnia, Leonine edition, tomus 8 (Summa theologiae, Secunda secundae,
@@ -142,8 +143,8 @@ works:
   locus: the whole volume
   role: tradition
   confidence: provisional
-  note: The Summa theologiae in the Leonine text, inside this window. The tomus number is
-    the edition's; the part named is from the volume's own contents.
+  note: The Summa theologiae in Thomas's Latin, inside this window. The volume also carries
+    Cajetan's commentary, named on the title page, which is not shelved.
   source_file: thomas-aquinas_opera-omnia-t8-summa-theologiae-lat_leonine1895.txt
 - row_id: thomas-aquinas_opera-omnia-t9-summa-theologiae-lat_leonine1897--thomas-aquinas-opera-omnia-leonine-edition-tomus-9-summa-theolog
   work: Thomas Aquinas, Opera omnia, Leonine edition, tomus 9 (Summa theologiae, Secunda secundae,
@@ -152,6 +153,6 @@ works:
   locus: the whole volume
   role: tradition
   confidence: provisional
-  note: The Summa theologiae in the Leonine text, inside this window. The tomus number is
-    the edition's; the part named is from the volume's own contents.
+  note: The Summa theologiae in Thomas's Latin, inside this window. The volume also carries
+    Cajetan's commentary, named on the title page, which is not shelved.
   source_file: thomas-aquinas_opera-omnia-t9-summa-theologiae-lat_leonine1897.txt

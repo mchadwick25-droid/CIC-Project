@@ -1,7 +1,7 @@
-Title: Acta Sanctorum, Maii tomus VI (Venice), with the Life of Joachim of Fiore and Luke of Cosenza
-Creator: the Bollandists (Acta Sanctorum)
-Publisher: Venice (host record)
-Publication Date: 1739 (host record)
+Title: Acta Sanctorum, Maii tomus VI (Venice), with the Life of Joachim of Fiore and Luke of Cosenza's testimony
+Creator: the editors named on the title page (Henschen and Papebroch, with Baert and Janning)
+Publisher: Venice: Albrizzi and Coleti (title page)
+Publication Date: 1739 (title page, MDCCXXXIX)
 Rights: Public Domain (pd-us-by-date: published 1739); the archive.org record carries the Public Domain Mark (licenseurl http://creativecommons.org/publicdomain/mark/1.0/), and the imprint date agrees
 Language: lat
 Source: archive.org item bub_gb_qzgadEN6EcQC, full text from the item's own djvu.txt. Fetched directly 2026-11-13 by the Library thread; the byte count of the downloaded file (6,922,062) equals the size archive.org lists for the djvu.txt.

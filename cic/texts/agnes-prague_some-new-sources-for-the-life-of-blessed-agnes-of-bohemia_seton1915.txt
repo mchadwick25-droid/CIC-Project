@@ -3,7 +3,7 @@ Creator: Seton, editor (the volume prints the Latin Legend, Candor lucis eterne,
 Publisher: Aberdeen: Aberdeen University Press, British Society of Franciscan Studies (title page)
 Publication Date: 1915 (title page)
 Rights: Public Domain (pd-us-by-date: published 1915); the archive.org record is tagged NOT_IN_COPYRIGHT
-Language: lat
+Language: lat (with English, and German texts)
 Source: archive.org item somenewsourcesfo00setorich, full text from the item's own djvu.txt. Fetched directly 2026-11-13 by the Library thread; the byte count of the downloaded file (417,224) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1915, out of US copyright by date. OCR quality: fair. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
 Content note: the Latin Legend, 'Candor lucis eterne' at about OCR line 3396.

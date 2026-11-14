@@ -6,10 +6,10 @@ works:
 - row_id: domentijan_zivot-svetoga-simeuna-i-svetoga-save-chu_danicic1865--domentijan-life-of-st-simeon-and-life-of-st-sava-dani-i-1865
   work: Domentijan, Life of St Simeon and Life of St Sava (Daničić 1865)
   author: domentijan
-  locus: the Life of Simeon from about OCR line 760, the Life of Sava from about 6349; add
+  locus: the Life of Simeon from about OCR line 745, the Life of Sava from about 6315; add
     12 to OCR line numbers
   role: tradition
   confidence: provisional
-  note: The Hilandar monk's Life of Sava, the native royal-saint genre, inside this window.
-    Teodosije's Life (Daničić 1860) was not found.
+  note: The disciple of St Sava's Lives of Simeon and of Sava, the native royal-saint genre,
+    inside this window. Teodosije's Life (Daničić 1860) was not found.
   source_file: domentijan_zivot-svetoga-simeuna-i-svetoga-save-chu_danicic1865.txt

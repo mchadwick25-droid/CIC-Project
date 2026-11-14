@@ -3,7 +3,7 @@ assignments:
 - row_id: aelred-rievaulx_opera-pl195-lat_migne1855--aelred-of-rievaulx-opera-pl-195
   work: Aelred of Rievaulx, Opera (PL 195)
   author: aelred-rievaulx
-  locus: the whole volume
+  locus: Aelred's works only (Speculum charitatis at about OCR line 35978, De spirituali amicitia at 47409); the other authors in the volume are not shelved; add 12 to OCR line numbers
   atlas_ids:
   - cistercian-monasticism
   role: tradition

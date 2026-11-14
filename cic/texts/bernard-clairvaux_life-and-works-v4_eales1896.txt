@@ -1,7 +1,7 @@
 Title: Life and Works of Saint Bernard, Abbot of Clairvaux, vol. 4: eighty-six sermons on the Song of Songs
 Creator: Bernard of Clairvaux; edited by Dom John Mabillon, translated with additional notes by Samuel J. Eales (title page)
 Publisher: London: John Hodges (title page; Catholic Standard Library)
-Publication Date: 1896 (host record and the volume's own OCR)
+Publication Date: 1896 (title page; the host record gives 1893)
 Rights: Public Domain (pd-us-by-date: published 1896); the archive.org record carries the Public Domain Mark (licenseurl http://creativecommons.org/publicdomain/mark/1.0/), and the imprint date agrees
 Source: archive.org item LifeWorksOfSBernardClairvauxV4, full text from the item's own djvu.txt. Fetched directly 2026-11-13 by the Library thread; the byte count of the downloaded file (2,087,239) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1896, out of US copyright by date. OCR quality: fair. Line numbers cited in this header are lines of the host OCR; add 10 for this file's own line numbers.

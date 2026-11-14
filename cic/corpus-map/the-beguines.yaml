@@ -25,6 +25,16 @@ works:
 
     '
   source_file: mechthild_fliessende-licht-der-gottheit-gmh_morel1869.txt
+- row_id: mirror-of-simple-souls_english-version-kirchberger1927--the-mirror-of-simple-souls-english-version-of-an-anonymous-frenc
+  work: The Mirror of Simple Souls, English version of an anonymous French mystic (1927)
+  author: mirror-of-simple-souls
+  locus: the whole volume
+  role: tradition
+  confidence: needs-ruling
+  note: Scholars attribute the work to Marguerite Porete; the volume does not name her. It
+    prints the English version by M. N., first edited in 1927. The Old French and Latin texts
+    were not found in public-domain print.
+  source_file: mirror-of-simple-souls_english-version-kirchberger1927.txt
 - row_id: porete_marguerite-in-revue-historique-54-fra_langlois1894--langlois-marguerite-porete-revue-historique-54-1894
   work: Langlois, 'Marguerite Porete' (Revue historique 54, 1894)
   author: porete
@@ -35,12 +45,3 @@ works:
   note: A historian's article that prints the Paris proceedings of 1310 against her, a persecutors'
     record.
   source_file: porete_marguerite-in-revue-historique-54-fra_langlois1894.txt
-- row_id: porete_mirror-of-simple-souls_kirchberger1927--marguerite-porete-the-mirror-of-simple-souls-middle-english-1927
-  work: Marguerite Porete, The Mirror of Simple Souls, Middle English (1927)
-  author: porete
-  locus: the whole volume
-  role: tradition
-  confidence: provisional
-  note: Her own book in a Middle English translation; the Old French and Latin texts were
-    not found in public-domain print.
-  source_file: porete_mirror-of-simple-souls_kirchberger1927.txt

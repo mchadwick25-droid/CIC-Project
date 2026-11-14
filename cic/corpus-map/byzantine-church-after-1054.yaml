@@ -3,20 +3,10 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: byzantine-church-after-1054
 works:
-- row_id: anna-komnene_alexias-grc_reifferscheid1884--anna-komnene-alexias-greek-reifferscheid-1884
-  work: Anna Komnene, Alexias, Greek (Reifferscheid 1884)
-  author: anna-komnene
-  locus: the whole volume; the Bogomils and Basil in book XV, chapters 8-10, from about OCR
-    line 25040; add 12 to OCR line numbers
-  role: context
-  confidence: provisional
-  note: A Byzantine secular historian's account of Alexios and the Bogomils, written inside
-    this window; she is Orthodox and writes in praise of her father.
-  source_file: anna-komnene_alexias-grc_reifferscheid1884.txt
 - row_id: benjamin-tudela_itinerary-heb-eng_adler1907--benjamin-of-tudela-itinerary-hebrew-and-english-adler-1907
   work: Benjamin of Tudela, Itinerary, Hebrew and English (Adler 1907)
   author: benjamin-tudela
-  locus: the English from about OCR line 1100 (Constantinople 1343-1500, Antioch 1563-1627,
+  locus: the English from about OCR line 705 (Constantinople 1343-1500, Antioch 1563-1627,
     Acre 1788, Jerusalem 1957-2073); the Hebrew from 7952; add 12 to OCR line numbers
   role: context
   confidence: provisional

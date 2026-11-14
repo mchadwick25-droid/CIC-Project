@@ -18,11 +18,12 @@ works:
 - row_id: agnes-prague_some-new-sources-for-the-life-of-blessed-agnes-of-bohemia_seton1915--blessed-agnes-of-bohemia-the-latin-legend-and-german-texts-seton
   work: Blessed Agnes of Bohemia, the Latin Legend and German texts (Seton 1915)
   author: agnes-prague
-  locus: the Legend from about OCR line 3396; add 12 to OCR line numbers
+  locus: the Latin Legend from about OCR line 3396; add 12 to OCR line numbers
   role: context
-  confidence: provisional
-  note: The Legend is a later text (fourteenth century by its own heading), outside this window
-    and about it.
+  confidence: needs-ruling
+  note: The Legend's own heading gives no date. Seton dates its composition 1282-1328 and
+    the copy he prints to the fourteenth century; whether it falls inside this window is for
+    the tree to rule on.
   source_file: agnes-prague_some-new-sources-for-the-life-of-blessed-agnes-of-bohemia_seton1915.txt
 - row_id: bonaventure_tria-opuscula-breviloquium-itinerarium-de-reductione-lat_quaracchi1911--tria-opuscula
   work: Bonaventure, Breviloquium, Itinerarium mentis in Deum and De reductione artium ad
@@ -122,14 +123,14 @@ works:
   note: The writings attributed to Francis's companion Leo. Their date and attribution are
     for the tree to rule on.
   source_file: leo-assisi_scripta-fratris-leonis-lat_lemmens1901.txt
-- row_id: salimbene_from-st-francis-to-dante_coulton1907--salimbene-de-adam-extracts-from-the-chronicle-english-coulton-19
-  work: Salimbene de Adam, extracts from the Chronicle, English (Coulton 1907)
+- row_id: salimbene_from-st-francis-to-dante_coulton1907--salimbene-extracts-from-the-chronicle-english-coulton-1907
+  work: Salimbene, extracts from the Chronicle, English (Coulton 1907)
   author: salimbene
-  locus: the whole volume; excerpts only
+  locus: the translated extracts; much of the volume is Coulton's own notes and other medieval
+    sources around them
   role: tradition
   confidence: provisional
-  note: Extracts from the friar's first-person chronicle, written inside this window. The
-    Latin text (MGH SS 32) is a page-image viewer only.
+  note: Extracts from the friar's first-person chronicle, written inside this window.
   source_file: salimbene_from-st-francis-to-dante_coulton1907.txt
 - row_id: speculum-perfectionis_speculum-perfectionis-lat_sabatier1898--speculum-perfectionis-latin-sabatier-1898
   work: Speculum perfectionis, Latin (Sabatier 1898)

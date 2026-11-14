@@ -41,33 +41,33 @@ works:
   note: The canons' own rule of daily life, written in 1295-1296. Within this entry's window
     (1049-1300).
   source_file: barnwell-priory_observances-in-use-at-barnwell-lat-eng_clark1897.txt
-- row_id: innocent-iii_opera-with-gesta-innocentii-pl214-lat_migne1853--innocent-iii-gesta-innocentii-iii-and-registers-book-i-pl-214
-  work: Innocent III, Gesta Innocentii III and Registers, book I (PL 214)
+- row_id: innocent-iii_opera-with-gesta-innocentii-pl214-lat_migne1853--innocent-iii-gesta-innocentii-iii-and-registers-books-i-ii-pl-21
+  work: Innocent III, Gesta Innocentii III and Registers, books I-II (PL 214)
   author: innocent-iii
   locus: the whole volume
   role: tradition
   confidence: provisional
   note: The pope's own letters and the Gesta of his pontificate, inside these windows.
   source_file: innocent-iii_opera-with-gesta-innocentii-pl214-lat_migne1853.txt
-- row_id: mansi_sacrorum-conciliorum-collectio-tomus-21-lat_welter-facsimile1903--mansi-xxi-the-council-of-troyes-1129-and-the-latin-rule-of-the-t
-  work: Mansi XXI, the Council of Troyes (1129) and the Latin Rule of the Templars
+- row_id: mansi_sacrorum-conciliorum-collectio-tomus-21-lat_welter-facsimile1903--mansi-xxi-the-council-of-troyes-and-the-latin-rule-of-the-templa
+  work: Mansi XXI, the Council of Troyes and the Latin Rule of the Templars
   author: mansi
   locus: the council of Troyes from about OCR line 34360; add 12 to OCR line numbers
   role: tradition
   confidence: provisional
   note: The council that gave the Templars their Rule, printed from William of Tyre and the
-    Rule text. Mansi's own note dates it to 1127; the Library's council scan gives January
-    1129.
+    Rule text. Mansi's own note dates the Rule 1127; the date of the council is disputed (January
+    1129 in the Library's council scan).
   source_file: mansi_sacrorum-conciliorum-collectio-tomus-21-lat_welter-facsimile1903.txt
 - row_id: matthew-paris_chronica-majora-v4-rolls-series-57-lat_luard1877--matthew-paris-chronica-majora-iv-the-first-council-of-lyon-1245
   work: 'Matthew Paris, Chronica majora IV: the First Council of Lyon (1245)'
   author: matthew-paris
-  locus: the council of Lyon from about OCR line 28311, and the articles at about 34751; add
-    12 to OCR line numbers
+  locus: the council of Lyon from about OCR line 28311, the sentence deposing Frederick II
+    at about 29280, the articles at about 34751; add 12 to OCR line numbers
   role: context
   confidence: provisional
-  note: A St Albans monk's narrative of the council, from outside the curia. No decree text
-    of Lyon I was found.
+  note: A St Albans monk's narrative of the council, from outside the curia. It also prints
+    Innocent IV's sentence of deposition.
   source_file: matthew-paris_chronica-majora-v4-rolls-series-57-lat_luard1877.txt
 - row_id: mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911--quellen-zur-geschichte-des-papsttums-und-des-romischen
   work: Quellen zur Geschichte des Papsttums und des römischen Katholizismus (Mirbt, 3rd ed.),

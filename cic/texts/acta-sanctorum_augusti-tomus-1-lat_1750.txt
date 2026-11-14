@@ -1,7 +1,7 @@
-Title: Acta Sanctorum, Augusti tomus I (the Venice reprint), with the Life of Dominic: Jordan of Saxony's Libellus de principiis
-Creator: the Bollandists (Acta Sanctorum); Jordan of Saxony, Libellus (Vita) of Dominic
-Publisher: Venice: Joan. Baptista Albrizzi (title page)
-Publication Date: 1750 (host record)
+Title: Acta Sanctorum, Augusti tomus I (Venice), with the Life of Dominic: Jordan of Saxony's Libellus de principiis
+Creator: the Jesuit editors named on the title page (Sollerius, Pinius, Cuperus, Boschius); the Life of Dominic is headed as by Blessed Jordan
+Publisher: Venice: Jo. Baptista Albrizzi and Sebastianus Coleti (title page)
+Publication Date: 1750 (title page, MDCCL)
 Rights: Public Domain (pd-us-by-date: published 1750); the archive.org record carries the Public Domain Mark (licenseurl http://creativecommons.org/publicdomain/mark/1.0/), and the imprint date agrees
 Language: lat
 Source: archive.org item bub_gb_JKHCfGc1iy8C, full text from the item's own djvu.txt. Fetched directly 2026-11-13 by the Library thread; the byte count of the downloaded file (7,209,339) equals the size archive.org lists for the djvu.txt.

@@ -46,9 +46,10 @@ works:
   author: joachim-fiore
   locus: the whole volume
   role: tradition
-  confidence: provisional
-  note: One of Joachim's own works, inside this window. Published in 1930, the last year the
-    Library's date rule clears.
+  confidence: needs-ruling
+  note: One of Joachim's own works. The volume's series page files it under writers of the
+    twelfth century, before this entry's start; its date of writing is for the tree to rule
+    on. Published in 1930, the last year the Library's date rule clears.
   source_file: joachim-fiore_tractatus-super-quatuor-evangelia-lat_buonaiuti1930.txt
 - row_id: lea_history-of-the-inquisition-of-the-middle-ages-v3_1888--a-history-of-the-inquisition-of-the-middle-ages-vol-iii-lea-3
   work: 'A History of the Inquisition of the Middle Ages, vol. III (Lea, 1888): Joachim and
@@ -59,12 +60,12 @@ works:
   confidence: provisional
   note: Placed on the contents page. Secondary scholarship.
   source_file: lea_history-of-the-inquisition-of-the-middle-ages-v3_1888.txt
-- row_id: salimbene_from-st-francis-to-dante_coulton1907--salimbene-de-adam-extracts-from-the-chronicle-english-coulton-19
-  work: Salimbene de Adam, extracts from the Chronicle, English (Coulton 1907)
+- row_id: salimbene_from-st-francis-to-dante_coulton1907--salimbene-extracts-from-the-chronicle-english-coulton-1907
+  work: Salimbene, extracts from the Chronicle, English (Coulton 1907)
   author: salimbene
-  locus: the whole volume; excerpts only
+  locus: the translated extracts; much of the volume is Coulton's own notes and other medieval
+    sources around them
   role: tradition
   confidence: provisional
-  note: Extracts from the friar's first-person chronicle, written inside this window. The
-    Latin text (MGH SS 32) is a page-image viewer only.
+  note: Extracts from the friar's first-person chronicle, written inside this window.
   source_file: salimbene_from-st-francis-to-dante_coulton1907.txt

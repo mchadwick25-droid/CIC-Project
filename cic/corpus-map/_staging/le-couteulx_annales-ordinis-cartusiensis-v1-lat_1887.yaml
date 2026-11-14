@@ -1,18 +1,18 @@
 source_file: le-couteulx_annales-ordinis-cartusiensis-v1-lat_1887.txt
 assignments:
-- row_id: le-couteulx_annales-ordinis-cartusiensis-v1-lat_1887--bruno-of-cologne-letter-to-raoul-le-verd-annales-ordinis-cartusi
-  work: Bruno of Cologne, letter to Raoul le Verd (Annales Ordinis Cartusiensis I)
+- row_id: le-couteulx_annales-ordinis-cartusiensis-v1-lat_1887--bruno-of-cologne-an-excerpt-of-his-letter-to-raoul-le-verd-quote
+  work: Bruno of Cologne, an excerpt of his letter to Raoul le Verd, quoted in the Annales Ordinis Cartusiensis I
   author: le-couteulx
-  locus: the letter from about OCR line 27608; add 12 to OCR line numbers
+  locus: the excerpt from about OCR line 11727; add 12 to OCR line numbers
   atlas_ids:
   - carthusian-life
   role: tradition
   confidence: provisional
-  note: The founder's own letter, printed inside the Annals.
+  note: A quoted excerpt only; the volume sends the reader to Bruno's Opera for the whole letter.
 - row_id: le-couteulx_annales-ordinis-cartusiensis-v1-lat_1887--le-couteulx-annales-ordinis-cartusiensis-vol-i-1084-1151
   work: Le Couteulx, Annales Ordinis Cartusiensis, vol. I, 1084-1151
   author: le-couteulx
-  locus: the whole volume except the letter
+  locus: the whole volume
   atlas_ids:
   - carthusian-life
   role: context

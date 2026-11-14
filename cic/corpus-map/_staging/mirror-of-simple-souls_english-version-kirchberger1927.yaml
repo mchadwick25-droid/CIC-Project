@@ -1,0 +1,12 @@
+source_file: mirror-of-simple-souls_english-version-kirchberger1927.txt
+assignments:
+- row_id: mirror-of-simple-souls_english-version-kirchberger1927--the-mirror-of-simple-souls-english-version-of-an-anonymous-frenc
+  work: The Mirror of Simple Souls, English version of an anonymous French mystic (1927)
+  author: mirror-of-simple-souls
+  locus: the whole volume
+  atlas_ids:
+  - free-spirit-heresy
+  - the-beguines
+  role: tradition
+  confidence: needs-ruling
+  note: Scholars attribute the work to Marguerite Porete; the volume does not name her. It prints the English version by M. N., first edited in 1927. The Old French and Latin texts were not found in public-domain print.

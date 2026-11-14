@@ -1,11 +1,11 @@
 source_file: jacques-de-vitry_briefe-in-zeitschrift-fuer-kirchengeschichte-14-lat-deu_rohricht1894.txt
 assignments:
-- row_id: jacques-de-vitry_briefe-in-zeitschrift-fuer-kirchengeschichte-14-lat-deu_rohricht1894--jacques-de-vitry-letters-of-1216-1221-r-hricht-in-zeitschrift-f
-  work: Jacques de Vitry, letters of 1216-1221 (Röhricht, in Zeitschrift für Kirchengeschichte 14)
+- row_id: jacques-de-vitry_briefe-in-zeitschrift-fuer-kirchengeschichte-14-lat-deu_rohricht1894--jacques-de-vitry-letters-i-ii-1216-1217-r-hricht-in-zeitschrift
+  work: Jacques de Vitry, letters I-II, 1216-1217 (Röhricht, in Zeitschrift für Kirchengeschichte 14)
   author: jacques-de-vitry
-  locus: the article from about OCR line 5613 (pp. 97-118); add 12 to OCR line numbers
+  locus: 'the article from about OCR line 5613 (pp. 97-118): letter I at about 5844, letter II at about 6104; add 12 to OCR line numbers'
   atlas_ids:
   - latin-church-of-outremer
   role: tradition
   confidence: provisional
-  note: The bishop of Acre's own letters from the east, 1216-1221, inside this window. The rest of the volume is other articles.
+  note: The bishop of Acre's own first two letters from the east, inside this window. Röhricht's later instalments, with the letters of 1220-1221, are in other volumes. The rest of this volume is other articles.

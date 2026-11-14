@@ -1,6 +1,6 @@
 Title: Hamburgische Kirchengeschichte, nach der Ausgabe der Scriptores rerum Germanicarum (Adam of Bremen), in German
-Creator: Adam of Bremen; German translation by S. Steinberg (host record)
-Publisher: Leipzig (host record)
+Creator: Adam of Bremen; German translation by Sigfrid Steinberg (host record)
+Publisher: Leipzig: Verlag der Dykschen Buchhandlung (title page); series Die Geschichtschreiber der deutschen Vorzeit, Bd. 44
 Publication Date: 1926 (host record and title page)
 Rights: Public Domain (pd-us-by-date: published 1926); the archive.org record carries the Public Domain Mark (licenseurl http://creativecommons.org/publicdomain/mark/1.0/), and the imprint date agrees
 Language: deu

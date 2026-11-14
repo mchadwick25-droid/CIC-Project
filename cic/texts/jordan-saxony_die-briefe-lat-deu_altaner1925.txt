@@ -3,10 +3,10 @@ Creator: Jordan of Saxony, letters; edited by Altaner (title page)
 Publisher: Leipzig: Harrassowitz (title page)
 Publication Date: 1925 (title page)
 Rights: Public Domain (pd-us-by-date: published 1925); the archive.org record carries no rights field, so the imprint date is the basis
-Language: lat
+Language: lat (Latin letters with a German introduction and notes)
 Source: archive.org item altaner-die-briefe-jordans-von-sachsen, full text from the item's own djvu.txt. Fetched directly 2026-11-13 by the Library thread; the byte count of the downloaded file (363,606) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1925, out of US copyright by date. OCR quality: fair. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: the letters to Diana, first Latin letter at about OCR line 870.
+Content note: the first letter addressed to Diana by name at about OCR line 870.
 
 ______________________________________________________________________
 

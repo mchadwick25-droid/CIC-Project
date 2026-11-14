@@ -1,9 +1,9 @@
 Title: Die ursprüngliche Templerregel (Studien und Darstellungen aus dem Gebiete der Geschichte, III. Band, 1. und 2. Heft)
-Creator: the Latin Rule of the Templars with a German study; the OCR of the title page names the series editor as Hermann Grauer (OCR reading) and gives no author for the volume
+Creator: Gustav Schnürer, 'kritisch untersucht und herausgegeben' (title page); the series editor is Hermann Grauert (OCR 'Grauer')
 Publisher: Freiburg im Breisgau: Herdersche Verlagshandlung (title page)
-Publication Date: 1903 (host record; the year is read in the front matter)
+Publication Date: 1903 (title page)
 Rights: Public Domain (pd-us-by-date: published 1903); the archive.org record carries no rights field, so the imprint date is the basis
-Language: lat
+Language: lat (Latin text with a German study)
 Source: archive.org item dieursprnglichet00temp, full text from the item's own djvu.txt. Fetched directly 2026-11-13 by the Library thread; the byte count of the downloaded file (450,312) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1903, out of US copyright by date. OCR quality: the Latin text is Roman type and readable; the German study is Fraktur and garbled. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
 Content note: the Latin prologue of the Rule at about OCR line 7363.

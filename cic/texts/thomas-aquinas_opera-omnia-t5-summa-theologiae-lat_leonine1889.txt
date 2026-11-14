@@ -5,7 +5,7 @@ Publication Date: 1889 (title page)
 Rights: Public Domain (pd-us-by-date: published 1889); the archive.org record carries no rights field, so the imprint date is the basis
 Language: lat
 Source: archive.org item operaomniaiussui5thom, full text from the item's own djvu.txt. Fetched directly 2026-11-13 by the Library thread; the byte count of the downloaded file (3,765,717) equals the size archive.org lists for the djvu.txt.
-Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1889, out of US copyright by date. OCR quality: clean. Line numbers cited in this header are lines of the host OCR; add 11 for this file's own line numbers.
+Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1889, out of US copyright by date. OCR quality: clean to fair. Line numbers cited in this header are lines of the host OCR; add 11 for this file's own line numbers.
 
 ______________________________________________________________________
 

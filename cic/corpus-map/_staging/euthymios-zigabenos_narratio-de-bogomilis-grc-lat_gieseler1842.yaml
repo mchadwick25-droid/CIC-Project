@@ -3,9 +3,9 @@ assignments:
 - row_id: euthymios-zigabenos_narratio-de-bogomilis-grc-lat_gieseler1842--euthymios-zigabenos-narratio-de-bogomilis-gieseler-1842
   work: Euthymios Zigabenos, Narratio de Bogomilis (Gieseler 1842)
   author: euthymios-zigabenos
-  locus: the whole volume; Basil the physician from about OCR line 396; add 12 to OCR line numbers
+  locus: the whole volume; Basil as the questioned heresiarch from about OCR line 396; add 12 to OCR line numbers
   atlas_ids:
   - balkan-bogomil-continuation
   role: context
   confidence: provisional
-  note: The hostile Byzantine witness on the Bogomils and the burning of Basil, written inside this window.
+  note: The hostile Byzantine witness on the Bogomils, written inside this window.

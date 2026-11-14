@@ -1,7 +1,7 @@
 Title: Patrologiae cursus completus, series Latina, tomus CXC
-Creator: Thomas Becket's letters and the early Lives (Grim, Roger of Pontigny, William of Canterbury, Alan, John of Salisbury, Herbert of Bosham), after the edition of J. A. Giles (title page, 'Anno 1845 Oxonii datam')
-Publisher: Paris (Petit-Montrouge): J.-P. Migne (title page)
-Publication Date: 1893 (title page; the first digit is garbled in the OCR)
+Creator: Thomas Becket's letters and the early Lives (Grim, Roger of Pontigny, William of Canterbury, Alan, John of Salisbury, Herbert of Bosham), with the letters of Gilbert Foliot, Herbert of Bosham's Liber melorum and the letters of Alan of Tewkesbury, after the edition of J. A. Giles (title page, 'Anno 1845 Oxonii datam')
+Publisher: Paris: Garnier Frères, J.-P. Migne successors (title page)
+Publication Date: 1893 (title page)
 Rights: Public Domain (pd-us-by-date: published 1893); the archive.org record carries no rights field, so the imprint date is the basis
 Language: lat
 Source: archive.org item patrologiaecur190mign, full text from the item's own djvu.txt. Fetched directly 2026-11-13 by the Library thread; the byte count of the downloaded file (4,878,706) equals the size archive.org lists for the djvu.txt.

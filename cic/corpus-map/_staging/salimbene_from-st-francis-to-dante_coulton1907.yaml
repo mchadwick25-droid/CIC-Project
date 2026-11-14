@@ -1,12 +1,12 @@
 source_file: salimbene_from-st-francis-to-dante_coulton1907.txt
 assignments:
-- row_id: salimbene_from-st-francis-to-dante_coulton1907--salimbene-de-adam-extracts-from-the-chronicle-english-coulton-19
-  work: Salimbene de Adam, extracts from the Chronicle, English (Coulton 1907)
+- row_id: salimbene_from-st-francis-to-dante_coulton1907--salimbene-extracts-from-the-chronicle-english-coulton-1907
+  work: Salimbene, extracts from the Chronicle, English (Coulton 1907)
   author: salimbene
-  locus: the whole volume; excerpts only
+  locus: the translated extracts; much of the volume is Coulton's own notes and other medieval sources around them
   atlas_ids:
   - joachimite-current
   - the-franciscan-movement
   role: tradition
   confidence: provisional
-  note: Extracts from the friar's first-person chronicle, written inside this window. The Latin text (MGH SS 32) is a page-image viewer only.
+  note: Extracts from the friar's first-person chronicle, written inside this window.

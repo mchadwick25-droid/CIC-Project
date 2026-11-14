@@ -1,11 +1,11 @@
 Title: Patrologiae cursus completus, series Latina, tomus CLXXVIII
 Creator: Peter Abelard (Opera, with the Historia calamitatum as Epistola I; Ethica, Introductio ad theologiam, Theologia Christiana, Sic et non)
-Publisher: Paris: Garnier Frères, J.-P. Migne successors (title page)
-Publication Date: 1885 (title page)
+Publisher: Paris: Garnier Frères (typescript replacement title leaf supplied by the library; the printed title page is absent)
+Publication Date: 1885 (the same leaf)
 Rights: Public Domain (pd-us-by-date: published 1885); the archive.org record carries no rights field, so the imprint date is the basis
 Language: lat
 Source: archive.org item patrologiaecur178mign, full text from the item's own djvu.txt. Fetched directly 2026-11-13 by the Library thread; the byte count of the downloaded file (7,155,793) equals the size archive.org lists for the djvu.txt.
-Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1885, out of US copyright by date. OCR quality: fair: two columns. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
+Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1885, out of US copyright by date. OCR quality: fair: two columns; the host notes say pages were deleted during scanning, so there may be gaps. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
 Content note: Historia calamitatum (Epistola I) at about OCR line 7099; Ethica (Scito te ipsum) at about OCR line 47846; Sic et non, Prologus at about OCR line 102347.
 
 ______________________________________________________________________

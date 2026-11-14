@@ -24766,11 +24766,11 @@ queue:
     vendored_as: alfred-the-great_west-saxon-version-of-gregorys-pastoral-care-ang-eng_sweet1871.txt
   - title: Patrologiae cursus completus, series Latina, tomus CCXIV
     author: Innocent III
-    year: '1853'
+    year: '1855'
     world: innocent-iii
     why: Wanted Sources, era 5 row 55 (Innocent III).
     url: https://archive.org/details/patrologiaecurs202unkngoog
-    rights_basis: 'Public Domain (pd-us-by-date: published 1853); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    rights_basis: 'Public Domain (pd-us-by-date: published 1855); the archive.org record is tagged NOT_IN_COPYRIGHT'
     verified_by: 'Library thread, 2026-11-13: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 4,934,380 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: innocent-iii_opera-with-gesta-innocentii-pl214-lat_migne1853.txt
@@ -24865,7 +24865,7 @@ queue:
     status: downloaded
     vendored_as: jacques-de-vitry_historia-orientalis-et-occidentalis-lat_1597.txt
   - title: Zeitschrift für Kirchengeschichte, Band XIV, containing R. Röhricht, 'Briefe des Jacobus de Vitriaco (1216-1221)'
-    author: Jacobus de Vitriaco, letters, edited by R. Röhricht
+    author: Jacobus de Vitriaco, letters I-II
     year: '1894'
     world: latin-church-of-outremer
     why: Wanted Sources, era 5 row 87 (Jacques de Vitry).
@@ -25035,7 +25035,7 @@ queue:
     status: downloaded
     vendored_as: templars_la-regle-du-temple-fra-lat_curzon1886.txt
   - title: Die ursprüngliche Templerregel (Studien und Darstellungen aus dem Gebiete der Geschichte, III. Band, 1. und 2. Heft)
-    author: the Latin Rule of the Templars with a German study
+    author: Gustav Schnürer, 'kritisch untersucht und herausgegeben'
     year: '1903'
     world: military-religious-orders-templars-hospitallers
     why: Wanted Sources, era 5 row 66 (Hugh de Payens).
@@ -25043,7 +25043,7 @@ queue:
     rights_basis: 'Public Domain (pd-us-by-date: published 1903); the archive.org record carries no rights field, so the imprint date is the basis'
     verified_by: 'Library thread, 2026-11-13: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 450,312 equal to the listed size, the volume''s end read'
     status: downloaded
-    vendored_as: templars_die-urspruengliche-templerregel-lat-deu_1903.txt
+    vendored_as: templars_die-urspruengliche-templerregel-lat-deu_schnuerer1903.txt
   - title: S. Francisci Assisiensis Vita et Miracula additis opusculis liturgicis auctore Fr. Thoma de Celano (Vita prima, Vita secunda, Tractatus de miraculis)
     author: Thomas of Celano
     year: '1906'
@@ -25134,8 +25134,8 @@ queue:
     verified_by: 'Library thread, 2026-11-13: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 363,606 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: jordan-saxony_die-briefe-lat-deu_altaner1925.txt
-  - title: 'Acta Sanctorum, Augusti tomus I (the Venice reprint), with the Life of Dominic: Jordan of Saxony''s Libellus de principiis'
-    author: the Bollandists
+  - title: 'Acta Sanctorum, Augusti tomus I (Venice), with the Life of Dominic: Jordan of Saxony''s Libellus de principiis'
+    author: the Jesuit editors named on the title page
     year: '1750'
     world: the-dominican-order
     why: Wanted Sources, era 5 row 62 (Dominic de Guzman).
@@ -25255,7 +25255,7 @@ queue:
     status: downloaded
     vendored_as: thomas-aquinas_opera-omnia-t12-summa-theologiae-lat_leonine1906.txt
   - title: Acta Sanctorum, Martii tomus I (Venice), with the Life of Thomas Aquinas and the process of his canonization (William of Tocco)
-    author: the Bollandists
+    author: the editors named on the title page
     year: '1735'
     world: the-dominican-order
     why: Wanted Sources, era 5 row 63 (Thomas Aquinas).
@@ -25274,8 +25274,8 @@ queue:
     verified_by: 'Library thread, 2026-11-13: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,131,733 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: joachim-fiore_tractatus-super-quatuor-evangelia-lat_buonaiuti1930.txt
-  - title: Acta Sanctorum, Maii tomus VI (Venice), with the Life of Joachim of Fiore and Luke of Cosenza
-    author: the Bollandists
+  - title: Acta Sanctorum, Maii tomus VI (Venice), with the Life of Joachim of Fiore and Luke of Cosenza's testimony
+    author: the editors named on the title page
     year: '1739'
     world: joachimite-current
     why: Wanted Sources, era 5 row 64 (Joachim of Fiore).
@@ -25314,8 +25314,8 @@ queue:
     verified_by: 'Library thread, 2026-11-13: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 5,970,941 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: martene-durand_thesaurus-novus-anecdotorum-v5-lat_1717.txt
-  - title: 'From St. Francis to Dante: Translations from the Chronicle of the Franciscan Salimbene (1221-1288)'
-    author: Salimbene de Adam
+  - title: 'From St. Francis to Dante: Translations from the Chronicle of the Franciscan Salimbene (1221-1288), second edition, revised and enlarged, with notes and illustrations from other medieval sources'
+    author: Salimbene
     year: '1907'
     world: joachimite-current
     why: Wanted Sources, era 5 row 82 (Salimbene de Adam).
@@ -25344,8 +25344,8 @@ queue:
     verified_by: 'Library thread, 2026-11-13: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,435,514 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: porete_marguerite-in-revue-historique-54-fra_langlois1894.txt
-  - title: The Mirror of Simple Souls, a Middle English translation
-    author: Marguerite Porete
+  - title: The Mirror of Simple Souls, by an unknown French mystic of the thirteenth century, translated into English by M. N., now first edited from the MSS.
+    author: an unknown French mystic of the thirteenth century
     year: '1927'
     world: free-spirit-heresy
     why: Wanted Sources, era 5 row 75 (Marguerite Porete).
@@ -25353,7 +25353,7 @@ queue:
     rights_basis: 'Public Domain (pd-us-by-date: published 1927); the archive.org record carries no rights field, so the imprint date is the basis'
     verified_by: 'Library thread, 2026-11-13: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 462,895 equal to the listed size, the volume''s end read'
     status: downloaded
-    vendored_as: porete_mirror-of-simple-souls_kirchberger1927.txt
+    vendored_as: mirror-of-simple-souls_english-version-kirchberger1927.txt
   - title: Живот светога Симеуна и светога Саве (Life of St Simeon and St Sava), written by Domentijan, edited by Đ. Daničić
     author: Domentijan
     year: '1865'
@@ -25364,7 +25364,7 @@ queue:
     verified_by: 'Library thread, 2026-11-13: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 1,028,169 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: domentijan_zivot-svetoga-simeuna-i-svetoga-save-chu_danicic1865.txt
-  - title: Annae Comnenae Porphyrogenitae Alexias ex recensione Augusti Reifferscheidii, volumen I (the whole of the fifteen books)
+  - title: Annae Comnenae Porphyrogenitae Alexias ex recensione Augusti Reifferscheidii, volumen I and volumen II (bound together; all fifteen books)
     author: Anna Komnene
     year: '1884'
     world: balkan-bogomil-continuation
@@ -25374,7 +25374,7 @@ queue:
     verified_by: 'Library thread, 2026-11-13: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 2,324,761 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: anna-komnene_alexias-grc_reifferscheid1884.txt
-  - title: Euthymii Zygabeni Narratio de Bogomilis seu Panopliae dogmaticae titulus XXIII, edited by Jo. Car. Lud. Gieseler
+  - title: Euthymii Zygadeni Narratio de Bogomilis seu Panopliae dogmaticae titulus XXIII, edited by Jo. Car. Lud. Gieseler
     author: Euthymios Zigabenos
     year: '1842'
     world: balkan-bogomil-continuation
@@ -25384,13 +25384,13 @@ queue:
     verified_by: 'Library thread, 2026-11-13: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 195,383 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: euthymios-zigabenos_narratio-de-bogomilis-grc-lat_gieseler1842.txt
-  - title: Commentationes philologae Ienenses, vol. IV, containing the dissertation on Gregory Pakourianos and the Typikon of the monastery of the Mother of God Petritzonitissa (Georgius Musaeus)
+  - title: Commentationes philologae Ienenses, vols. IV-VI (fascicle 1) bound together; vol. IV contains the dissertation on Gregory Pakourianos and the Typikon of the monastery of the Mother of God Petritzonitissa (Georgius Musaeus)
     author: Georgius Musaeus
-    year: '1890'
+    year: '1896'
     world: the-georgian-golden-age
     why: Wanted Sources, era 5 row 91 (Gregory Pakourianos).
     url: https://archive.org/details/commentationesp01unkngoog
-    rights_basis: 'Public Domain (pd-us-by-date: published 1890); the archive.org record is tagged NOT_IN_COPYRIGHT'
+    rights_basis: 'Public Domain (pd-us-by-date: published 1896); the archive.org record is tagged NOT_IN_COPYRIGHT'
     verified_by: 'Library thread, 2026-11-13: archive.org metadata read, title page read, the wanted passages located, djvu.txt fetched, byte count 2,214,761 equal to the listed size, the volume''s end read'
     status: downloaded
     vendored_as: pakourianos_typikon-in-commentationes-philologae-ienenses-4-grc-lat_mousaios1890.txt

@@ -33,12 +33,13 @@ works:
   work: Gregory Pakourianos, Typikon of the Petritzonitissa monastery (Musaeus 1890, in Commentationes
     philologae Ienenses IV)
   author: pakourianos
-  locus: the Typikon from about OCR line 7893; the rest of the volume is other dissertations;
+  locus: the Typikon in vol. IV from about OCR line 7893; the rest of the item is other dissertations;
     add 11 to OCR line numbers
   role: tradition
   confidence: needs-ruling
-  note: The founder's own testament. The editor says in his own words that he prints the later
-    simplified Greek version, not the original, and no Georgian or Armenian version.
+  note: The founder's own testament. The rubric printed at the Typikon says it was rendered
+    into simple Greek, and the editor prints no Georgian or Armenian version; whether this
+    is the original is for the tree to rule on.
   source_file: pakourianos_typikon-in-commentationes-philologae-ienenses-4-grc-lat_mousaios1890.txt
 - row_id: peeters_histoires-monastiques-georgiennes-in-analecta-bollandiana-36-37-lat-fra_1917-1919--life-of-john-and-euthymius-life-of-george-the-hagiorite
   work: Life of John and Euthymius; Life of George the Hagiorite, Latin tr. Peeters

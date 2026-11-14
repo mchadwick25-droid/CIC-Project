@@ -6,7 +6,8 @@ works:
 - row_id: aelred-rievaulx_opera-pl195-lat_migne1855--aelred-of-rievaulx-opera-pl-195
   work: Aelred of Rievaulx, Opera (PL 195)
   author: aelred-rievaulx
-  locus: the whole volume
+  locus: Aelred's works only (Speculum charitatis at about OCR line 35978, De spirituali amicitia
+    at 47409); the other authors in the volume are not shelved; add 12 to OCR line numbers
   role: tradition
   confidence: provisional
   note: The abbot's own works, inside this window.
@@ -18,8 +19,8 @@ works:
   locus: the whole volume
   role: tradition
   confidence: provisional
-  note: Bernard's own letters and sermons in English (Mabillon's text, translated), inside
-    this window.
+  note: Bernard's own the general preface and the letters in English (Mabillon's text, translated),
+    inside this window.
   source_file: bernard-clairvaux_life-and-works-v1_eales1889.txt
 - row_id: bernard-clairvaux_life-and-works-v2_eales1889--bernard-of-clairvaux-life-and-works-eales-vol-2-letters-cxlvi-cc
   work: 'Bernard of Clairvaux, Life and Works (Eales), vol. 2: letters CXLVI-CCCLXXX'
@@ -27,8 +28,7 @@ works:
   locus: the whole volume
   role: tradition
   confidence: provisional
-  note: Bernard's own letters and sermons in English (Mabillon's text, translated), inside
-    this window.
+  note: Bernard's own letters in English (Mabillon's text, translated), inside this window.
   source_file: bernard-clairvaux_life-and-works-v2_eales1889.txt
 - row_id: bernard-clairvaux_life-and-works-v3_eales1896--bernard-of-clairvaux-life-and-works-eales-vol-3-letters-ccclxxxi
   work: 'Bernard of Clairvaux, Life and Works (Eales), vol. 3: letters CCCLXXXI-CDXC and sermons
@@ -37,8 +37,8 @@ works:
   locus: the whole volume
   role: tradition
   confidence: provisional
-  note: Bernard's own letters and sermons in English (Mabillon's text, translated), inside
-    this window.
+  note: Bernard's own letters and sermons de tempore in English (Mabillon's text, translated),
+    inside this window.
   source_file: bernard-clairvaux_life-and-works-v3_eales1896.txt
 - row_id: bernard-clairvaux_life-and-works-v4_eales1896--bernard-of-clairvaux-life-and-works-eales-vol-4-eighty-six-sermo
   work: 'Bernard of Clairvaux, Life and Works (Eales), vol. 4: eighty-six sermons on the Song
@@ -47,8 +47,8 @@ works:
   locus: the whole volume
   role: tradition
   confidence: provisional
-  note: Bernard's own letters and sermons in English (Mabillon's text, translated), inside
-    this window.
+  note: Bernard's own sermons on the Song of Songs in English (Mabillon's text, translated),
+    inside this window.
   source_file: bernard-clairvaux_life-and-works-v4_eales1896.txt
 - row_id: bernard-clairvaux_opera-t2-sermones-pl183-lat_migne1854--bernard-of-clairvaux-sermones-in-cantica-and-other-sermons-pl-18
   work: Bernard of Clairvaux, Sermones in Cantica and other sermons (PL 183)

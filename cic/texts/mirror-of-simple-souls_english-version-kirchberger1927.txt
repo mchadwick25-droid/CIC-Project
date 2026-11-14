@@ -1,6 +1,6 @@
-Title: The Mirror of Simple Souls, a Middle English translation
-Creator: Marguerite Porete; Kirchberger (editor; the print says first printed in 1927)
-Publisher: London: Burns Oates (host record)
+Title: The Mirror of Simple Souls, by an unknown French mystic of the thirteenth century, translated into English by M. N., now first edited from the MSS.
+Creator: an unknown French mystic of the thirteenth century (title page); translated into English by M. N.; edited by Clare Kirchberger (title page)
+Publisher: London: Burns Oates and Washbourne Ltd. (title page)
 Publication Date: 1927 ('First printed in 1927', title-page verso)
 Rights: Public Domain (pd-us-by-date: published 1927); the archive.org record carries no rights field, so the imprint date is the basis
 Source: archive.org item mirrorofsimpleso0000clar, full text from the item's own djvu.txt. Fetched directly 2026-11-13 by the Library thread; the byte count of the downloaded file (462,895) equals the size archive.org lists for the djvu.txt.
