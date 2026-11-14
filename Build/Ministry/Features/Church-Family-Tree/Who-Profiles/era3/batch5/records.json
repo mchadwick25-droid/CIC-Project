@@ -185,8 +185,8 @@
     "formation_confidence": "Dominant Modern Reconstruction"
    },
    {
-    "claim": "'Anno centesimo septuagesimo secundo post transitum beati Martini antestitis, Sigiberto gloriosissimo rege duodecimo anno regnante, post excessum sancti Eufroni ... onus episcopati indignus accepi', with '573' in the margin; Arndt: consecration 'cum anno tantum 573 convenit'",
-    "witness": "Gregory, Mir. Mart. II.1, Latin (gregory-tours_opera-mgh-srm-1-lat_arndt-krusch1885 l.46663-46669, OCR); Arndt's preface (l.410)",
+    "claim": "'Anno centesimo septuagesimo secundo post transitum beati Martini antestitis, Sigiberto gloriosissimo rege duodecimo anno regnante, post excessum sancti Eufroni ... onus episcopati indignus accepi', with '573' in the margin; Arndt: consecration 'cum anno tantum 573 convenit'; Arndt: 'Cum hac ratione Gregorius ipse non consentit… Quae computatio annum 569 efficit, qui sine dubio falsus est' (l.410-414); Krusch: 'In calculo sibi minime constat' (l.35416-35418)",
+    "witness": "Gregory, Mir. Mart. II.1, Latin (gregory-tours_opera-mgh-srm-1-lat_arndt-krusch1885 l.46663-46669, OCR); Arndt's preface (l.391-414); Krusch (l.35416-35418)",
     "formation_confidence": "Documented"
    },
    {
@@ -563,7 +563,7 @@
     "formation_confidence": "Contested"
    },
    {
-    "claim": "Huyshe holds the battle the cause of his exile: 'It was the cause of Columba's exile'; 'The tradition is a constant one that the strife and bloodshed of Cuil Dremhne had something to do with Columba's leaving Ireland'. Of the penance tale: 'Such are the legends and traditions which cluster about the exile of Columba. The Old Irish Life says nothing of them'",
+    "claim": "Huyshe's note holds the battle the cause of his exile: 'It was the cause of Columba's exile'; 'The tradition is a constant one that the strife and bloodshed of Cuil Dremhne had something to do with Columba's leaving Ireland'. His introduction is more reserved: 'It was this battle, according to tradition, that led to his exile'; of the tales: 'Such are the legends and traditions which cluster about the exile of Columba. The Old Irish Life says nothing of them', and its account is 'perfectly simple and probable'",
     "witness": "Huyshe (adomnan huyshe1905 l.542-543, 625-641, 1571-1574, 3022-3026)",
     "formation_confidence": "Contested"
    },
@@ -714,7 +714,7 @@
    {
     "claim": "Why he left Ireland",
     "sides": [
-     "Huyshe: the battle of Cooldrevny 'was the cause of Columba's exile', a constant tradition; the penance tales are legends (adomnan huyshe1905 l.625-627, 1571-1574, 3022-3026)",
+     "Huyshe: his note says the battle of Cooldrevny 'was the cause of Columba's exile', a constant tradition (adomnan huyshe1905 l.1571-1574, 3022-3026); his introduction gives it 'according to tradition' (l.542-543), counts the tales around the exile as legends (l.625-627) and calls the Old Irish Life's pilgrimage account 'perfectly simple and probable' (l.628-629)",
      "Old Irish Life quoted by Huyshe: a pilgrimage he had determined on from the beginning of his life (l.630-643)",
      "Adomnán: names the battle only to date the voyage (l.2219-2224); tells of a wrongful excommunication at Teltown without naming a cause (l.9318-9357); Reeves, as Huyshe reports him, thinks it possibly over the battle (l.9362-9368)"
     ]
@@ -863,8 +863,8 @@
     "formation_confidence": "Documented"
    },
    {
-    "claim": "Gregory sends Leander 'a pallium, to be used only in celebration of Mass'; 'Your Holiness writes of being afflicted with the pains of gout, by continual suffering from which I too am grievously worn down'; Ewald and Hartmann date IX.227 to August 599",
-    "witness": "Gregory, Register IX.121, tr. Barmby (npnf213 l.3830-3839); Ewald-Hartmann heading (ewald-hartmann1893 l.15112-15115, OCR '5!HI, Aug.'; running head l.15345)",
+    "claim": "Gregory sends Leander 'a pallium, to be used only in celebration of Mass'; 'Your Holiness writes of being afflicted with the pains of gout, by continual suffering from which I too am grievously worn down'; Ludwig M. Hartmann (editing after Paul Ewald's death) dates IX.227 to August 599",
+    "witness": "Gregory, Register IX.121, tr. Barmby (npnf213 l.3830-3839); Hartmann's heading (ewald-hartmann1893 l.15112-15115, OCR '5!HI, Aug.'; running head l.15345)",
     "formation_confidence": "Documented"
    },
    {
@@ -921,7 +921,7 @@
   "contested_claims": [
    {
     "claim": "The year of Leander's death",
-    "sides": "Epitaph: era 641, 27 Feb 603 in Mommsen's reckoning, which Mommsen doubts (PL72 l.66739-66740; mommsen1894 l.21985-21987); PL72 Observatio critica: 603 (l.65363). Turchi: 600 or 601 (turchi1907 l.2440-2442). Perez in PL83: 600 (l.122864-122870). Gardner: 599 (gardner1911 l.13057). Library of the Fathers note: 595 (bliss1844 l.420-421), against Gregory's letter IX.227 dated August 599 by Ewald and Hartmann (l.15112-15115). Isidore: in Reccared's time (PL72 l.65267-65269)."
+    "sides": "Epitaph: era 641, 27 Feb 603 in Mommsen's reckoning, which Mommsen doubts (PL72 l.66739-66740; mommsen1894 l.21985-21987); PL72 Observatio critica: 603 (l.65363). Turchi: 600 or 601 (turchi1907 l.2440-2442). Perez in PL83: 600 (l.122864-122870). Gardner: 599 (gardner1911 l.13057). Library of the Fathers note: 595 (bliss1844 l.420-421), against Gregory's letter IX.227 dated August 599 by Ludwig M. Hartmann (l.15112-15115). Isidore: in Reccared's time (PL72 l.65267-65269)."
    },
    {
     "claim": "Who turned Hermenegild to the Catholic faith",
@@ -951,7 +951,7 @@
    },
    {
     "detail": "The place and date of his exile",
-    "note": "Isidore gives neither (PL83 l.122776-122778). Cave's year is OCR-damaged ('anno 384', PL72 l.65149); Turchi gives no year for the exile (turchi1907 l.2438-2443). Searched PL72, PL83, Mommsen's Biclaro and Isidore, the Toledo acts, Gregory's letters (Barmby, Turchi, Ewald), Dalton, Gardner, Library of the Fathers notes."
+    "note": "Isidore gives neither (PL83 l.122776-122778). Cave's year is OCR-damaged ('anno 384', PL72 l.65149); Turchi gives no year for the exile (turchi1907 l.2438-2443). Searched PL72, PL83, Mommsen's Biclaro and Isidore, the Toledo acts, Gregory's letters (Barmby, Turchi, Hartmann), Dalton, Gardner, Library of the Fathers notes."
    },
    {
     "detail": "The census year 579",
@@ -1313,7 +1313,7 @@
     "formation_confidence": "Widely Accepted"
    },
    {
-    "claim": "Gregory to Reccared: 'I cannot express in words, most excellent son, how much I am delighted with thy work and thy life'; the whole nation of the Goths brought over 'from the error of Arian heresy to the firmness of a right faith', 'a new miracle in our days'; Ewald and Hartmann date the letter (IX.228) August 599; Barmby 598-9",
+    "claim": "Gregory to Reccared: 'I cannot express in words, most excellent son, how much I am delighted with thy work and thy life'; the whole nation of the Goths brought over 'from the error of Arian heresy to the firmness of a right faith', 'a new miracle in our days'; Ludwig M. Hartmann (editing after Paul Ewald's death) dates the letter (IX.228) August 599; Barmby 598-9",
     "witness": "Register IX.122, tr. Barmby (npnf213 l.3870-3876); ewald-hartmann1893 l.15375-15384",
     "formation_confidence": "Documented"
    },
@@ -1363,7 +1363,7 @@
     "formation_confidence": "Contested"
    },
    {
-    "claim": "Letter in Reccared's name to Gregory (Barmby IX.61; Ewald-Hartmann IX.227a, from the Hispana collection): Barmby, 'The genuineness of this letter is considered doubtful. It may have been a forgery founded on Epistle CXXII', adding that its bad Latin is what Reccared's 'was not unlikely to be'; Ewald and Hartmann report Gams calls it false and Mommsen agrees, thinking it made up from the next letter; they hold it carried 'sine dubio' by the priest Probinus, and think it 'male adservatam multisque locis corruptam', its rustic style fitting the time (the note's last word is cut off in the held lines)",
+    "claim": "Letter in Reccared's name to Gregory (Barmby IX.61; Hartmann IX.227a, from the Hispana collection): Barmby, 'The genuineness of this letter is considered doubtful. It may have been a forgery founded on Epistle CXXII', adding that its bad Latin is what Reccared's 'was not unlikely to be'; Ludwig M. Hartmann, editing after Paul Ewald's death, reports Gams calls it false and Mommsen agrees, thinking it made up from the next letter; he holds it carried 'sine dubio' by the priest Probinus, and think it 'male adservatam multisque locis corruptam', its rustic style fitting the time (the note's last word is cut off in the held lines)",
     "witness": "npnf213 l.2254-2258; ewald-hartmann1893 l.15296-15300, 15333-15337 (OCR regularized)",
     "formation_confidence": "Contested"
    }
@@ -1375,7 +1375,7 @@
    },
    {
     "claim": "Whose words the book of faith is",
-    "sides": "The acts: offered by the king, written in his voice, read by a notary (acts l.36628-36632); John of Biclaro: written 'manu sua' (mommsen1894 l.20393-20395). Dalton: the speech was composed by Leander, citing Labbe (dalton1927 l.29212-29215)."
+    "sides": "The acts: offered by the king, written in his voice, read by a notary (acts l.36628-36632); John of Biclaro: the confession 'tomo scriptam manu sua episcopis porrigens', which can be read as written by his own hand or handed over by his own hand (mommsen1894 l.20394-20396). Dalton: the speech was composed by Leander, citing Labbe (dalton1927 l.29212-29215)."
    },
    {
     "claim": "Whether Leovigild entrusted Reccared to Leander",
@@ -1387,7 +1387,7 @@
    },
    {
     "claim": "The letter in Reccared's name to Gregory",
-    "sides": "Doubted: Barmby, 'considered doubtful', perhaps a forgery founded on Ep. CXXII, though 'The Latin in the original is in many parts incorrect and ungrammatical; being such indeed Reccared's was not unlikely to be' (npnf213 l.2254-2258). Gams: false, its rustic style unfit for a letter to the pope; Mommsen agrees, thinking it made up from the next letter (both reported by Ewald and Hartmann, l.15334-15336). Genuine: Ewald and Hartmann head it 'translata sine dubio per Probinum presbyterum' (l.15333) and answer 'equidem credo et hanc ep. male adservatam multisque locis corruptam esse et rusticitatem stili huic tempori ...' (l.15337; the note's last words fall outside the held lines)."
+    "sides": "Doubted: Barmby, 'considered doubtful', perhaps a forgery founded on Ep. CXXII, though 'The Latin in the original is in many parts incorrect and ungrammatical; being such indeed Reccared's was not unlikely to be' (npnf213 l.2254-2258). Gams: false, its rustic style unfit for a letter to the pope; Mommsen agrees, thinking it made up from the next letter (both reported by Ludwig M. Hartmann, editing after Paul Ewald's death, l.15334-15336). Genuine: Hartmann heads it 'translata sine dubio per Probinum presbyterum' (l.15333) and answer 'equidem credo et hanc ep. male adservatam multisque locis corruptam esse et rusticitatem stili huic tempori ...' (l.15337; the note's last words fall outside the held lines)."
    },
    {
     "claim": "The year of his death",
@@ -1657,7 +1657,7 @@
    },
    {
     "claim": "'De hac epistula, an genuina sit, saepe disputatur'; '... non dubito, quin genuina sit'; Mommsen holds 'non integram epistulam, sed excerpta tantum nobis asservata esse'",
-    "witness": "MGH editors' note to Register XI.56a (gregory-great registrum t2 pars2 ewald-hartmann1895 l.12643, 12700-12706; OCR rough)",
+    "witness": "Ludwig Hartmann's note to Register XI.56a, in the volume he edited after Paul Ewald's death (title page gregory-great registrum t2 pars2 ewald-hartmann1895 l.103-106); the note is in his first person ('non dubito') and names Ewald in the third ('Ewald coniecit', l.12696-12697) (l.12643, 12700-12706; OCR rough)",
     "formation_confidence": "Contested"
    },
    {
@@ -1666,8 +1666,8 @@
     "formation_confidence": "Dominant Modern Reconstruction"
    },
    {
-    "claim": "Boniface, a. 735, writes to Nothelm that the letter 'in scrinio Romanae aecclesiae ... quaesita non inveniebatur'",
-    "witness": "MGH editors' introduction, quoting Boniface (gregory-great registrum t2 pars2 ewald-hartmann1895 l.195-203); Boniface's letter is not itself held",
+    "claim": "Boniface writes to Nothelm that the letter 'in scrinio Romanae aecclesiae ... quaesita non inveniebatur'; Hartmann dates the letter 'a. 735' in his preface and 'ante a. 741' in his note to XI.56a",
+    "witness": "Ludwig Hartmann's preface, quoting Boniface, in the volume he edited after Paul Ewald's death (title page gregory-great registrum t2 pars2 ewald-hartmann1895 l.103-106; preface l.195-203, signed by Hartmann l.178-181); his note to XI.56a (l.12690); Boniface's letter is not itself held",
     "formation_confidence": "Documented"
    },
    {
@@ -1717,7 +1717,7 @@
    },
    {
     "claim": "'Laurentius a. 606 Augustino episcopus successit'",
-    "witness": "MGH editors' note (gregory-great registrum t2 pars2 ewald-hartmann1895 l.10690-10693)",
+    "witness": "Ludwig Hartmann's note, in the volume he edited after Paul Ewald's death (title page gregory-great registrum t2 pars2 ewald-hartmann1895 l.103-106; note l.10690-10693)",
     "formation_confidence": "Dominant Modern Reconstruction"
    },
    {
@@ -1738,8 +1738,8 @@
    {
     "claim": "Whether the answers to Augustine's questions are genuine and whole",
     "sides": [
-     "MGH editors: often disputed, but genuine (ewald-hartmann1895 l.12643, 12703-12705)",
-     "Mommsen, reported by the editors: only extracts survive (l.12705-12706)",
+     "Ludwig Hartmann, editing after Paul Ewald's death: often disputed, but genuine (ewald-hartmann1895 title page l.103-106; note l.12643, 12703-12705)",
+     "Mommsen, reported by Hartmann: only extracts survive (l.12705-12706)",
      "Barmby: Bede's copy the most authentic; later copies add an interpolated question (npnf213 l.7292-7310, 7554-7557)"
     ]
    },
