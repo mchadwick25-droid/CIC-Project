@@ -1,0 +1,103 @@
+{
+  "name": "Johannes Tauler",
+  "otherNames": [
+    "John Tauler",
+    "Johann Tauler"
+  ],
+  "knownFor": "Dominican preacher of Strasbourg. Susanna Winkworth, his English translator in the nineteenth century, writes that his German sermons were compiled from notes taken by his hearers. In 1516 Martin Luther praised them.",
+  "dates": "Born at Strasbourg in 1290, Winkworth says. C. de B. Evans, an English translator of Eckhart in the 1920s, gives 1300, and an 1841 editor of Spener's Pia Desideria gives 1294. Winkworth alone gives the day of his death, 16 June 1361. Evans also gives the year 1361.",
+  "place": "Strasbourg, where Winkworth says he was born, joined the Dominicans and died. Basel, where his friend Henry of Nördlingen, a priest from Constance, found him. Cologne, where Winkworth says no details of his work survive.",
+  "tradition": "Rhineland Mysticism & the Friends of God",
+  "role": "Dominican friar and preacher. Winkworth, quoting Professor Schmidt of Strasbourg, says most of his surviving sermons were addressed to friars or nuns in convent chapels, with lay people present.",
+  "briefLength": "about 2 minutes 30 seconds",
+  "keyWorks": [
+    {
+      "title": "Sermons",
+      "about": "in Susanna Winkworth's English selection of twenty-five. She writes that they were compiled from his hearers' notes. She thinks eighty-four in the Strasbourg manuscripts probably had his own corrections. She reports that the Frankfort edition marks two of her twenty-five as Eckhart's or a disciple's."
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Martin Luther recommended Tauler's sermons in a letter of December 1516, which Winkworth quotes in Latin.",
+      "Winkworth lists printed editions of his sermons from Leipzig in 1498, Basel in 1521 and Cologne in 1543.",
+      "Rudolf Langenberg, writing in 1902, says Low German translations of his sermons are many, and that his fame passed from Cologne into the Netherlands.",
+      "Winkworth writes that the stone over his grave was set up again by the Protestants in his church."
+    ],
+    "remembered": [
+      "Henry of Nördlingen wrote of him as \"faithful Father Tauler\".",
+      "Luther wrote that he had seen no theology in Latin or German more wholesome, or closer to the Gospel, than Tauler's.",
+      "Henry Charles Lea, in his history of the Inquisition of 1888, writes that Tauler supported Louis of Bavaria, as did the nun Margaret Ebner.",
+      "Winkworth calls his care for the sick and dying in the Black Death, under the interdict, \"his noble act of disobedience\".",
+      "Nehemiah Curnock's edition of John Wesley's journal records that Wesley read \"Tauler's Life\"."
+    ]
+  },
+  "uncertain": [
+    "The History of the Master and the layman. Its text never names the Master; its title and Susanna Winkworth make him Tauler. Winkworth treats it as authentic. Heinrich Denifle, a Dominican scholar, argued in 1879 that the conversion story was invented, and in 1886 called the Friend of God a fiction.",
+    "His sermons. Winkworth writes that he did not write them down himself and that they come from his hearers' notes. She thinks the eighty-four in the Strasbourg manuscripts probably had his own corrections. She notes that the Frankfort edition marks one of her selection as Eckhart's and another as probably his disciple's.",
+    "When he was born. Winkworth gives 1290 and names no source. Evans gives 1300. A note in an 1841 edition of Spener's Pia Desideria gives 1294.",
+    "His last months. The move to his aged sister's convent, the day of his death and his burial in his own convent rest on Winkworth alone. She gives no source for them, and her eleven days of talk before his death follow the History.",
+    "Whether he heard Eckhart. Winkworth thinks he must have met Eckhart's teaching at Strasbourg, and was probably among his admirers at Cologne. Evans says he probably heard him at both. Neither shows the two men meeting."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Twenty-five of his sermons, compiled from his hearers' notes, in Susanna Winkworth's English",
+        "author": "Johannes Tauler, through his hearers' notes; Susanna Winkworth (tr.)",
+        "date": "1907",
+        "language": "English",
+        "file": "cic/texts/tauler_history-and-life-with-sermons_winkworth1907.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Notice of Tauler's life and times, and the History and Life of the Reverend Doctor John Tauler",
+        "author": "Susanna Winkworth",
+        "date": "1907",
+        "language": "English",
+        "file": "cic/texts/tauler_history-and-life-with-sermons_winkworth1907.txt"
+      },
+      {
+        "title": "Archiv für Litteratur- und Kirchengeschichte des Mittelalters 2, note on Taulers Bekehrung",
+        "author": "Heinrich Denifle",
+        "date": "1886",
+        "language": "German",
+        "file": "cic/texts/ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd2-deu-lat_1886.txt"
+      },
+      {
+        "title": "Meister Eckhart, volume 1, introduction",
+        "author": "C. de B. Evans",
+        "date": "1924",
+        "language": "English",
+        "file": "cic/texts/eckhart_meister-eckhart-vol1_evans1924.txt"
+      },
+      {
+        "title": "A History of the Inquisition of the Middle Ages, volume 3",
+        "author": "Henry Charles Lea",
+        "date": "1888",
+        "language": "English",
+        "file": "cic/texts/lea_history-of-the-inquisition-of-the-middle-ages-v3_1888.txt"
+      },
+      {
+        "title": "Pia Desideria, with an editor's notes",
+        "author": "Philipp Jakob Spener; unnamed editor",
+        "date": "1841",
+        "language": "German",
+        "file": "cic/texts/spener_pia-desideria-deu_koehler1841.txt"
+      },
+      {
+        "title": "Quellen und Forschungen zur Geschichte der deutschen Mystik",
+        "author": "Rudolf Langenberg",
+        "date": "1902",
+        "language": "German and Middle Low German",
+        "file": "cic/texts/langenberg_quellen-und-forschungen-niederdeutschen-mystik-gml_1902.txt"
+      },
+      {
+        "title": "The Journal of John Wesley, volume 1",
+        "author": "Nehemiah Curnock (ed.)",
+        "date": "1909",
+        "language": "English",
+        "file": "cic/texts/wesley-j_journal-v1_curnock1909.txt"
+      }
+    ]
+  }
+}

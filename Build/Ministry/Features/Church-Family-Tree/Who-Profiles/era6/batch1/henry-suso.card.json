@@ -1,0 +1,123 @@
+{
+  "name": "Henry Suso",
+  "otherNames": [
+    "Heinrich Seuse",
+    "Amandus"
+  ],
+  "knownFor": "Dominican friar of Constance whose Life tells his inner life in the third person. Elsbeth Stagel, a nun of Töss, wrote much of it down. He also wrote the Little Book of Eternal Wisdom.",
+  "dates": "Born on Saint Benedict's day, as his own Life says, in the account of Karl Bihlmeyer, who edited his German works in 1907. Thomas Francis Knox, his English translator of 1865, gives the year 1300. Bihlmeyer reckons about 1295. Bihlmeyer gives his death at Ulm on 25 January 1366. Knox gives the feast of Saint Paul's conversion, the same day, in 1365.",
+  "place": "Constance, where Knox says he entered the Dominican novitiate at thirteen. Cologne, where Knox says he studied. Töss, near Winterthur, Elsbeth Stagel's convent. Ulm, where he died. Knox gives Überlingen as his birthplace.",
+  "tradition": "Rhineland Mysticism & the Friends of God",
+  "role": "Dominican friar and preacher; spiritual father to Elsbeth Stagel and other nuns, in his Life's account; writer of devotional books in German",
+  "briefLength": "about 2 minutes 30 seconds",
+  "keyWorks": [
+    {
+      "title": "The Life (Knox's Life of Blessed Henry Suso, by Himself; Bihlmeyer's Vita)",
+      "about": "his life told in the third person, in Thomas Francis Knox's English of 1865 and Bihlmeyer's German text. Its prologue says Elsbeth Stagel wrote it down secretly, and that he added teaching after her death."
+    },
+    {
+      "title": "The Little Book of Eternal Wisdom",
+      "about": "a dialogue of the Servant and Eternal Wisdom, in an English printing of 1910. Its preface says he wrote it in German, because he had so received it from God."
+    },
+    {
+      "title": "Horologium Sapientiae",
+      "about": "a Latin book that Frances Comper, editor of early English tracts on death in 1917, says he made from the Little Book. She gives a chapter on dying in Middle English."
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Karl Bihlmeyer reports a letter of September 1339 from Henry of Nördlingen, a priest and friend of Tauler and Suso. In it Henry sent on Tauler's copy of the Horologium Sapientiae.",
+      "Rudolf Langenberg, writing in 1902, says Geert Grote and Florens Radewijns recommended his Horologium. He thinks the Little Book of Eternal Wisdom was the most read German devotional book of the 1400s.",
+      "Comper writes that by the close of the Middle Ages the Horologium was a favorite in cloisters in Germany, the Netherlands, France, Italy and England.",
+      "Johannes Busch's chronicle of the Windesheim canons says their prior, at the council of Constance, visited the cell of the friar who wrote the Horologium. Karl Grube, its editor in 1886, names him as Suso."
+    ],
+    "remembered": [
+      "An epitaph copied in a fifteenth-century hand, which Bihlmeyer prints, calls him a venerable father who fell asleep in the Lord.",
+      "Knox writes that the Dominicans keep his feast on 2 March, with the approval of Pope Gregory XVI in 1831.",
+      "Knox reports, after Henry Murer's Helvetia Sancta of 1648, that workmen found his body whole at Ulm in 1613."
+    ]
+  },
+  "uncertain": [
+    "Whose words the Life holds. Its prologue says Elsbeth Stagel wrote it down in secret and that most of it stayed as she wrote it. Suso added teaching after her death, in her name. Bihlmeyer writes that the extent of his reworking can no longer be fixed.",
+    "When he was born. Knox, Comper and C. de B. Evans, an English translator of Eckhart in the 1920s, give 1300. Bihlmeyer reckons about 1295 from dated events, such as Eckhart's help about 1324. He calls Murer's 1300 a slip of memory.",
+    "Where he was born. Knox and Comper give Überlingen. Bihlmeyer says it remains doubtful whether it was Constance or Überlingen, and leans to Constance.",
+    "His death and grave. Bihlmeyer gives 25 January 1366 at Ulm, from manuscript notes and an epitaph. He places the grave in the friars' church by the altar of Peter of Verona. He rejects the cloister, which Knox gives, with the year 1365.",
+    "The chapter that accused him. His Life says two men of high rank charged him at a chapter in the Netherlands. Bihlmeyer thinks it very probably Antwerp in 1327. Heinrich Denifle, a Dominican scholar, chose Bruges in 1336, Bihlmeyer reports. Bihlmeyer adds that Preger, in his history of German mysticism, and R. Seeberg, in an 1889 life of Suso, chose 's-Hertogenbosch in 1335."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "The Life of Blessed Henry Suso, by Himself, translated by Thomas Francis Knox",
+        "author": "Henry Suso; Thomas Francis Knox (tr.)",
+        "date": "1865",
+        "language": "English",
+        "file": "cic/texts/suso_life-of-blessed-henry-suso_knox1865.txt"
+      },
+      {
+        "title": "Heinrich Seuse, Deutsche Schriften",
+        "author": "Henry Suso; Karl Bihlmeyer (ed.)",
+        "date": "1907",
+        "language": "Middle High German, with German introduction",
+        "file": "cic/texts/suso_deutsche-schriften-gmh_bihlmeyer1907.txt"
+      },
+      {
+        "title": "Blessed Henry Suso's Little Book of Eternal Wisdom",
+        "author": "Henry Suso",
+        "date": "1910",
+        "language": "English",
+        "file": "cic/texts/suso_little-book-of-eternal-wisdom_1910.txt"
+      },
+      {
+        "title": "The Book of the Craft of Dying, with a chapter from the Horologium Sapientiae",
+        "author": "Henry Suso; Frances M. M. Comper (ed.)",
+        "date": "1917",
+        "language": "Middle English in modern spelling",
+        "file": "cic/texts/craft-of-dying_book-of-the-craft-of-dying-and-other-early-english-tracts_comper1917.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Introduction, Seuses Leben und Werke, in Heinrich Seuse, Deutsche Schriften",
+        "author": "Karl Bihlmeyer",
+        "date": "1907",
+        "language": "German",
+        "file": "cic/texts/suso_deutsche-schriften-gmh_bihlmeyer1907.txt"
+      },
+      {
+        "title": "Translator's preface to The Life of Blessed Henry Suso",
+        "author": "Thomas Francis Knox",
+        "date": "1865",
+        "language": "English",
+        "file": "cic/texts/suso_life-of-blessed-henry-suso_knox1865.txt"
+      },
+      {
+        "title": "Note on Suso in The Book of the Craft of Dying",
+        "author": "Frances M. M. Comper",
+        "date": "1917",
+        "language": "English",
+        "file": "cic/texts/craft-of-dying_book-of-the-craft-of-dying-and-other-early-english-tracts_comper1917.txt"
+      },
+      {
+        "title": "Quellen und Forschungen zur Geschichte der deutschen Mystik",
+        "author": "Rudolf Langenberg",
+        "date": "1902",
+        "language": "German",
+        "file": "cic/texts/langenberg_quellen-und-forschungen-niederdeutschen-mystik-gml_1902.txt"
+      },
+      {
+        "title": "Chronicon Windeshemense, with the editor's notes",
+        "author": "Johannes Busch; Karl Grube (ed.)",
+        "date": "1886",
+        "language": "Latin, with German notes",
+        "file": "cic/texts/busch_chronicon-windeshemense-lat_grube1886.txt"
+      },
+      {
+        "title": "Meister Eckhart, volume 1, introduction",
+        "author": "C. de B. Evans",
+        "date": "1924",
+        "language": "English",
+        "file": "cic/texts/eckhart_meister-eckhart-vol1_evans1924.txt"
+      }
+    ]
+  }
+}
