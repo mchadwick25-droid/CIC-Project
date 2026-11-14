@@ -1,0 +1,90 @@
+{
+  "name": "Marius of Avenches",
+  "otherNames": [
+    "Marius Aventicensis",
+    "Marius Aventicensis seu Lausannensis",
+    "Marius d'Avenches"
+  ],
+  "knownFor": "Bishop of Avenches who carried on the Chronicle of Prosper of Aquitaine from 455 to 581, with close notice of Burgundy, Agaune and the Valais.",
+  "dates": "No ancient source used here gives his birth or death year. He signed the acts of the council of Mâcon, held in King Guntram's twenty-fourth year, which Friedrich Maassen gives as 585. Theodor Mommsen reckons from his epitaph and from a church he dedicated that he became bishop in 574 and died in 594, aged sixty-three or sixty-four, and so was born in 530 or 531. Conon of Lausanne puts the start of his rule in 581, and a later hand in the annals of Lausanne puts his death in 601; Mommsen rejects both. Andrea Gallandi, after Pierre-François Chifflet, gives his death as 31 December 596",
+  "place": "Avenches, in the Burgundian lands; the see later moved to Lausanne, where Andrea Gallandi says he was buried. Conon of Lausanne heard that he came from the diocese of Autun, which Mommsen treats as doubtful",
+  "tradition": "Merovingian Gallic Christianity",
+  "role": "Bishop of Avenches; chronicler",
+  "briefLength": "about 2 minutes",
+  "keyWorks": [
+    {
+      "title": "Chronicle",
+      "about": "year-by-year notes from 455 to 581, carrying on Prosper of Aquitaine and dated by the consuls. It tells of the Burgundian and Frankish kings, the wars in Italy, plague and floods, and above all Agaune and the Valais. It survives in a single manuscript of the tenth century, which closes \"usque hic Marius aepiscopus\""
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Theodor Mommsen says Marius and his contemporary Gregory of Tours drew on the same Gallic annals, and prints Gregory's parallel passages beside the Chronicle.",
+      "Bruno Krusch thinks the annals behind the Chronicle called Fredegar's may have been written at Avenches, where Marius wrote, since both tell of the duke Theudefrid and of the Lombards breaking into Burgundy.",
+      "Pierre-François Chifflet first printed the Chronicle in 1636. Andrea Gallandi reports his view that anyone who set it beside Gregory of Tours's History, so poor in dates, would find great light shed on Gregory."
+    ],
+    "remembered": [
+      "His epitaph, which Conon of Lausanne gives, calls him a good judge, a model for priests and the glory of bishops.",
+      "Andrea Gallandi says he is held to have been enrolled among the saints on the day he died. He was buried at Lausanne in the church of Saint Thyrsus, which later took the name of Saint Marius.",
+      "A book of the dead from Lausanne cathedral, written about 1510, marks a procession on his day to the church of Saint Marius, Theodor Mommsen notes."
+    ]
+  },
+  "uncertain": [
+    "His years are disputed. Theodor Mommsen reckons 574 for his consecration and 594 for his death, from the epitaph and from the fourteenth year of his rule, in which Conon says he dedicated a church at Paterniacum. Conon gives 581 for the start of his rule and a later hand in the Lausanne annals gives 601 for his death; Mommsen thinks both come from an error about the year King Guntram died. Andrea Gallandi, after Chifflet, gives about 576 for his consecration and 596 for his death, and Charles Le Cointe about 532 for his birth.",
+    "His life comes almost wholly from late witnesses. His signature at Mâcon is from his own time. The epitaph and the years of his life come through Conon, provost of Lausanne, writing in 1235. Mommsen thinks the epitaph was copied from the tomb, though Conon may have taken it from the Lausanne cartulary.",
+    "His birthplace. Conon heard from trustworthy elders that he was born of noble family in the diocese of Autun. Mommsen calls the report of his origin from Autun doubtful. Gallandi, after Le Cointe, gives his birth among the Aedui.",
+    "When the see moved from Avenches to Lausanne. Mommsen says no one knows. Since Marius signs at Mâcon only for Avenches, Mommsen thinks it moved after him, and he leaves open whether Marius wrote at Avenches or at Lausanne. Gallandi reports Le Cointe's view, after Claude Robert, that Marius moved it himself under King Childebert.",
+    "The years of the Chronicle. Marius dates by consuls, and the years shown in the margin are Mommsen's. Mommsen finds his reckoning of the consulships of Justin the Younger and Tiberius his own and quite wrong. Mommsen thinks the Chronicle was first written up to 567 and finished to 581 when Marius was already bishop.",
+    "His name. He is a different man from the earlier Latin writer Marius Mercator."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Chronicle, in Chronica minora 2 (ed. Theodor Mommsen, MGH Auctores antiquissimi 11)",
+        "date": "1894",
+        "language": "Latin",
+        "file": "cic/texts/chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894.txt"
+      },
+      {
+        "title": "Chronicle, with Andrea Gallandi's notice, in Patrologia Latina 72",
+        "language": "Latin",
+        "file": "cic/texts/john-biclaro-leander-pl72-lat_migne1878.txt"
+      },
+      {
+        "title": "Signature to the acts of the council of Mâcon, in Concilia aevi Merovingici (ed. Friedrich Maassen)",
+        "date": "1893",
+        "language": "Latin",
+        "file": "cic/texts/concilia-aevi-merovingici-mgh-concilia-1-lat_maassen1893.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Preface to the Chronicle of Marius, with Conon of Lausanne's report and the epitaph, Chronica minora 2",
+        "author": "Theodor Mommsen",
+        "date": "1894",
+        "language": "Latin",
+        "file": "cic/texts/chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894.txt"
+      },
+      {
+        "title": "Notice of Marius, reprinted in Patrologia Latina 72",
+        "author": "Andrea Gallandi",
+        "language": "Latin",
+        "file": "cic/texts/john-biclaro-leander-pl72-lat_migne1878.txt"
+      },
+      {
+        "title": "Preface to the Chronicle called Fredegar's, MGH Scriptores rerum Merovingicarum 2",
+        "author": "Bruno Krusch",
+        "date": "1888",
+        "language": "Latin",
+        "file": "cic/texts/fredegar-liber-historiae-francorum-vitae-mgh-srm-2-lat_krusch1888.txt"
+      },
+      {
+        "title": "History of the Franks IV.31, with O. M. Dalton's notes (tr. O. M. Dalton)",
+        "author": "Gregory of Tours",
+        "date": "1927",
+        "language": "English translation",
+        "file": "cic/texts/gregory-tours_history-of-the-franks-v2_dalton1927.txt"
+      }
+    ]
+  }
+}
