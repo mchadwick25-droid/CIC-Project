@@ -9,7 +9,7 @@
   "place": "Seville, in the province of Baetica; his father Severianus was of the province of Cartagena, Isidore says; Toledo, for councils and the king's court",
   "tradition": "Nicene Visigothic Iberia",
   "role": "Bishop of Seville, metropolitan of the province of Baetica; writer",
-  "briefLength": "about 2 minutes 25 seconds",
+  "briefLength": "about 2 minutes 30 seconds",
   "keyWorks": [
     {
       "title": "Etymologies, or Origins",
@@ -32,7 +32,7 @@
     ],
     "remembered": [
       "Braulio, in Ernest Brehaut's English: \"In him antiquity reasserted itself—or rather, our time laid in him a picture of the wisdom of antiquity.\"",
-      "Braulio applies to him words of \"the philosopher\", which Ernest Brehaut traces to Cicero writing to Varro: \"your books brought us home, as it were, so that we could at last recognize who and where we were.\"",
+      "Braulio applies to him words of \"the philosopher\", which Ernest Brehaut traces to Cicero writing to Varro. In Brehaut's English they run: \"your books brought us home, as it were, so that we could at last recognize who and where we were.\"",
       "In a letter signed in his own hand, Braulio calls him a burning lamp that does not fade.",
       "Ildefonsus says his speaking had such richness that it left his hearers struck with wonder."
     ]
@@ -87,6 +87,7 @@
       {
         "title": "Letters to Isidore, in Patrologia Latina 80",
         "author": "Braulio of Zaragoza",
+        "date": null,
         "language": "Latin",
         "file": "cic/texts/paulus-emeritanus-braulio-sisebut-pl80-lat_migne1863.txt"
       },
@@ -100,17 +101,20 @@
       {
         "title": "On Famous Men, chapter 9, in Patrologia Latina 96",
         "author": "Ildefonsus of Toledo",
+        "date": null,
         "language": "Latin",
         "file": "cic/texts/ildefonsus-julian-toledo-pl96-lat_migne1862.txt"
       },
       {
         "title": "Rule for Florentina, in Patrologia Latina 72",
         "author": "Leander of Seville",
+        "date": null,
         "language": "Latin",
         "file": "cic/texts/john-biclaro-leander-pl72-lat_migne1878.txt"
       },
       {
         "title": "Acts of the Second Council of Seville and the Fourth Council of Toledo, in Collectio canonum Ecclesiae Hispanae",
+        "date": null,
         "language": "Latin",
         "file": "cic/texts/collectio-canonum-ecclesiae-hispanae-toledo-iii-lat_1808.txt"
       },

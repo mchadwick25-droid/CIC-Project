@@ -13,7 +13,7 @@
   "keyWorks": [
     {
       "title": "Chronicle",
-      "about": "year-by-year notes from the first year of the emperor Justin the Younger to King Reccared's fourth, on the empire, the Lombards, the Franks and the Visigoths; its last year tells of the Third Council of Toledo and a plot against Reccared"
+      "about": "year-by-year notes from the first year of the emperor Justin the Younger to King Reccared's fourth, on the empire, the Lombards, the Franks and the Visigoths. Its last year tells of the Third Council of Toledo and a plot against Reccared"
     }
   ],
   "legacy": {
@@ -31,7 +31,7 @@
     "His life is known mainly from Isidore of Seville's notice of him in On Famous Men, which Theodor Mommsen calls fuller than Isidore's usual. Mommsen says Isidore wrote it while John was still alive. The Chronicle does not tell of his own exile. Mommsen notes that it writes of Leovigild, the king who exiled him, with great admiration.",
     "How long he stayed at Constantinople. Isidore's text in Mommsen's edition gives seventeen years. Some copies read the seventh year. Mommsen holds to seventeen, since from 567 to about 576 the Chronicle reports embassies, triumphs, plots and plagues at Constantinople.",
     "When he became bishop of Gerona. Isidore gives no year. Andrea Gallandi, whose notice Migne reprints, reports Nicolás Antonio's view that Reccared recalled him from exile and raised him to Gerona in 592. At the Third Council of Toledo the bishop of Gerona who signs is Alicius. Mommsen takes the John of Gerona who signs at Barcelona and under Gundemar to be the chronicler.",
-    "When he died. Gallandi reports Juan de Mariana's view that he died after 621, under King Suinthila, leaving Gerona to Nonnitus, and Nicolás Antonio's that he lived to 620. Ildefonsus of Toledo names Nonnitus as his successor and gives no year. Nonnitus signs as bishop of Gerona at the Fourth Council of Toledo.",
+    "When he died. Gallandi reports Juan de Mariana's view that he died after 621, under King Suinthila, leaving Gerona to Nonnitus. He reports Nicolás Antonio's view that he lived to 620. Ildefonsus of Toledo says Nonnitus followed a John at Gerona, and gives no year. Nonnitus signs as bishop of Gerona at the Fourth Council of Toledo.",
     "Where Biclaro stood. Theodor Mommsen says it is unknown. He rejects the view of Spanish writers that it was at Vallclara near Tarragona, which he says rests only on a likeness of names. Gallandi says most writers after Mariana place it at the foot of the Pyrenees.",
     "His rule for Biclaro. Isidore names it. A note printed with Benedict of Aniane's Concordia of Rules says it could no longer be found. The note quotes Augustin Calmet, who places Biclaro at Valclara in Catalonia.",
     "The years. Mommsen wrote the years in his margin to his own scheme. He warns that it is not certain John counted them so, still less that each event fell in the year shown. If his reckoning holds, he says, the Chronicle was written in 590.",
@@ -60,6 +60,7 @@
       {
         "title": "On Famous Men, chapter 44, in Patrologia Latina 83",
         "author": "Isidore of Seville",
+        "date": null,
         "language": "Latin",
         "file": "cic/texts/isidore-seville_sententiae-eccl-officiis-historia-gothorum-pl83-lat_migne1860.txt"
       },
@@ -73,22 +74,26 @@
       {
         "title": "Notice of John, reprinted in Patrologia Latina 72",
         "author": "Andrea Gallandi",
+        "date": null,
         "language": "Latin",
         "file": "cic/texts/john-biclaro-leander-pl72-lat_migne1878.txt"
       },
       {
         "title": "On Famous Men, chapter 10, in Patrologia Latina 96",
         "author": "Ildefonsus of Toledo",
+        "date": null,
         "language": "Latin",
         "file": "cic/texts/ildefonsus-julian-toledo-pl96-lat_migne1862.txt"
       },
       {
         "title": "Acts of the Third and Fourth Councils of Toledo, in Collectio canonum Ecclesiae Hispanae",
+        "date": null,
         "language": "Latin",
         "file": "cic/texts/collectio-canonum-ecclesiae-hispanae-toledo-iii-lat_1808.txt"
       },
       {
         "title": "Note on the rule of John of Biclaro, in Benedict of Aniane's Concordia regularum, Patrologia Latina 103",
+        "date": null,
         "language": "Latin",
         "file": "cic/texts/benedict-aniane_concordia-regularum-with-ardo-vita-pl103-lat_migne1851.txt"
       }

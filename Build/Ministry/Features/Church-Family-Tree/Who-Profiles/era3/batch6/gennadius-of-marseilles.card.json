@@ -32,7 +32,7 @@
   },
   "uncertain": [
     "His own life is thin in the sources. Little is known of it beyond his work. The notice in the first person that closes the Lives, which names him a presbyter of Marseilles and lists his books, is in few manuscripts, and Ernest Cushing Richardson thinks it is by a later hand.",
-    "His years. The year 496 for his death is given in notes by Richardson and by Blomfield Jackson in the same English volume, with no reason given in the lines used here. Theodor Mommsen and the Acta Sanctorum place him at the end of the fifth century.",
+    "His years. The year 496 for his death is given in a note by Richardson and in Blomfield Jackson's prolegomena to Theodoret, in the same English volume, with no reason given in the lines used here. Theodor Mommsen and the Acta Sanctorum place him at the end of the fifth century.",
     "When the Lives were written. Richardson reports that some date them 492 to 495. He holds with Ebert, a historian of Latin Christian writing, that most of the work was written about 480, since it speaks of Timothy Aelurus, who died in 477, as still living. He thinks the last chapters were added within a few years, by Gennadius or more probably by two other hands.",
     "His view on grace. Richardson finds in him glimpses of a point of view he calls semi-Pelagian. Some editions add a line saying that Augustine's many words bore out Solomon's saying on sin; Richardson says it drew much comment on his bias and almost certainly is not what Gennadius wrote.",
     "The Timothy translation. The sentence saying he translated Timothy Aelurus's book and set a caveat before it is missing from Migne's and Herding's editions, Richardson notes.",
@@ -88,6 +88,13 @@
         "date": "1892",
         "language": "Latin",
         "file": "cic/texts/prosper_chronica-minora-1-lat_mommsen1892.txt"
+      },
+      {
+        "title": "Acta Sanctorum, March, volume 3",
+        "author": "Bollandists",
+        "date": "1865",
+        "language": "Latin",
+        "file": "cic/texts/acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt"
       }
     ]
   }
