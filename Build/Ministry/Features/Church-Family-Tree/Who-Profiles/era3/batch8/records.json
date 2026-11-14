@@ -147,13 +147,13 @@
     "formation_confidence": "Documented"
    },
    {
-    "claim": "Rader: 'Proinde vere Bellarminus anno 530 collocavit'",
+    "claim": "Rader, right after refuting Trithemius: 'Proinde vere Bellarminus anno 530 collocavit', endorsing Bellarmine's year",
     "witness": "PG88 l.41752",
     "formation_confidence": "Dominant Modern Reconstruction"
    },
    {
-    "claim": "Oliger prints Bartholomew of Pisa: 'loannem Climacum de graeco transtulit in latinum' (of Angelo of Cingoli); Bernardino of Aquila, Chronica Fratrum Min. Observantiae: 'Iste liber in nostra familia magnae reputationis habetur'; Mariano of Florence: 'librum Sancti lohannis Climaci traduxit'",
-    "witness": "clareno oliger1912 l.1788-1794, 1806-1830, 1841-1848",
+    "claim": "Oliger prints Bartholomew of Pisa: 'loannem Climacum de graeco transtulit in latinum' (of Angelo of Cingoli); Bernardino of Aquila, Chronica Fratrum Min. Observantiae: 'Iste liber in nostra familia magnae reputationis habetur'; Mariano of Florence: 'librum Sancti lohannis Climaci traduxit'; the chroniclers name Angelo (and Gentilis) 'de Cingulo'; '[Angelus de Clareno]' in Bernardino is a bracketed insertion; Oliger, after Wadding, identifies him with 'Clareno nostro'",
+    "witness": "clareno oliger1912 l.1788-1794, 1800-1810, 1816, 1827-1828, 1845-1848",
     "formation_confidence": "Documented"
    },
    {
@@ -181,7 +181,7 @@
      "Antonius Magister, as Labbe reports: died 605 or 606 (l.41376-41381)",
      "Bollandists: Labbe's 580 likely, or at least the end of the sixth century (AS Mar. 3 l.209545-209551)",
      "Barmby: he is said to have died early in the seventh century (NPNF2/13 l.5357-5363)",
-     "Bellarmine, as Rader reports: about 530 (PG88 l.41752)"
+     "Bellarmine, as Rader reports and endorses ('Proinde vere Bellarminus anno 530 collocavit'): in 530 (PG88 l.41752)"
     ]
    },
    {
@@ -583,6 +583,11 @@
     "claim": "Garnier, preface I: 'Liberatus Ecclesiae Carthaginensis diaconus, unus de Africanis trium Capitulorum defensoribus'",
     "witness": "PL68 l.74960-74962",
     "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Jean Garnier: 'Errores quosdam Nicephori chronologicos notat Jo. Garnerius, praef. ad Liberatum' (Harles); 'Joannes Garnerius, Dissert. 4, post Marium Mercatorem'",
+    "witness": "PG100 (nikephoros-cp pg100) l.435-436; PG50 (john-chrysostom pg50) l.7868",
+    "formation_confidence": "Documented"
    }
   ],
   "contested_claims": [
@@ -634,10 +639,6 @@
    {
     "detail": "The census's Liberatus 'ch. 24' as 'a second African account of Reparatus' deposition'",
     "note": "The Breviarium's text does not name Reparatus anywhere (searched PL68 l.75470-85500 for Repar*, Carthag*, Afric*): ch. 24 speaks only of bishops rewarded, deposed, exiled or hiding (l.82406-82413). Reparatus is named in Garnier's notes (l.75566, 81400, 82525) and in the preface (l.75122)."
-   },
-   {
-    "detail": "His first name of the editor Garnier",
-    "note": "The held lines give 'Garnerius', 'Patris Garnerii' (PL68 l.73068-73078, 75523); no held line gives his first name, so the brief and card say 'Garnier'."
    },
    {
     "detail": "English text of the Breviarium",
