@@ -67,6 +67,7 @@
       },
       {
         "title": "Letters, in Sacrorum conciliorum collectio 10 (ed. Giovanni Domenico Mansi)",
+        "date": "1901",
         "language": "Latin",
         "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-10-lat_welter-facsimile1901.txt"
       }
@@ -109,6 +110,7 @@
       {
         "title": "The council of Mâcon, with Jonas's account from the Life of Eustasius, in Sacrorum conciliorum collectio 10",
         "author": "Giovanni Domenico Mansi",
+        "date": "1901",
         "language": "Latin",
         "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-10-lat_welter-facsimile1901.txt"
       },
