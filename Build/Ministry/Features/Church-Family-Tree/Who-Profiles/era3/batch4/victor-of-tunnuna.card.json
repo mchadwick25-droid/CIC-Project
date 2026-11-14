@@ -1,0 +1,96 @@
+{
+  "name": "Victor of Tunnuna",
+  "otherNames": [
+    "Victor Tunnunensis",
+    "Victor Tonnennensis (Mommsen's form)",
+    "Victor Tununensis"
+  ],
+  "knownFor": "An African bishop who defended the Three Chapters against the emperor Justinian, was held in prisons and monasteries from Africa to Constantinople, and wrote a Latin chronicle, in exile as Mommsen thinks.",
+  "dates": "Exiled to Alexandria in the year Theodor Mommsen numbers 555, by his own chronicle; still held at Constantinople in the last years of Justinian, who died in 565 by Mommsen's introduction. Andrea Gallandi thinks he died shortly after 566, when the chronicle ends",
+  "place": "A bishop in Roman Africa, of a town whose name and site are uncertain, perhaps not far from Carthage in Mommsen's view; held at Mandracium, on the island of Aegimurus, at Alexandria, at Canopus and at Constantinople",
+  "tradition": "Latin African Christianity under Byzantium",
+  "role": "Bishop and chronicler",
+  "briefLength": "about 2 minutes",
+  "keyWorks": [
+    {
+      "title": "Chronicle (Chronica)",
+      "about": "a Latin chronicle by consuls and regnal years which, by Isidore of Seville's account, ran from the creation to the first year of Justin II; what survives runs from 444, where Prosper of Aquitaine ends, to the 560s"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "John of Biclaro carried the chronicle on from where Victor stopped, by his own heading, and Isidore of Seville compiled from it, as Mommsen says.",
+      "His year entries keep the African side of the Three Chapters quarrel: the African bishops' break with Vigilius of Rome, the sufferings of their bishops, and his own exile."
+    ],
+    "remembered": [
+      "Isidore of Seville praised the chronicle as most worthy of memory.",
+      "Joseph Mesnage, in his survey of the African sees, calls it very precious for the religious history of Africa in the sixth century."
+    ]
+  },
+  "uncertain": [
+    "He writes as a partisan. Theodor Mommsen calls him and his fellow African Liberatus fierce defenders of Chalcedon, embittered against Vigilius by a hatred Mommsen thinks just. Victor calls the empress Theodora the enemy of the council.",
+    "Nearly all that is known of his life comes from his own chronicle. Mommsen holds that Isidore of Seville drew his notice from the chronicle too.",
+    "His town. Mommsen says its true name is little known and adopts \"Tonnennensis\" by conjecture. Isidore's editors list other forms. English notes in the Ante-Nicene and Nicene Fathers call him \"Victor of Tunis\".",
+    "The order of his prisons. His own entry has Mandracium first and Aegimurus second. Mommsen's summary changes the order and adds the Balearic Islands, which rest on Mommsen's own correction. The manuscripts, and the text Migne prints, read \"Sala et Valericis\".",
+    "His years. Every year of our reckoning is Mommsen's, and those for 564 to 567 carry his question marks. Victor dates by consuls and by the emperor's years. Noris, as Andrea Gallandi quotes him, trusts his facts but finds the years in the chronicle full of errors, which he blames on a later copyist.",
+    "His death. Isidore says he died still a prisoner in a monastery of Constantinople, adding that this is what people say. No early source gives a year. Gallandi thinks shortly after 566; Thomas Hodgkin gives 569, and M.-A. Kugener about 569."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Chronicle of Victor of Tunnuna (ed. Theodor Mommsen, Chronica minora II)",
+        "language": "Latin",
+        "file": "cic/texts/chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894.txt"
+      },
+      {
+        "title": "Chronicle of Victor of Tunnuna (Patrologia Latina 68)",
+        "language": "Latin",
+        "file": "cic/texts/liberatus-victor-tunnunensis-primasius-junillus-pl68-lat_migne1866.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Introduction to the chronicle",
+        "author": "Theodor Mommsen",
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894.txt"
+      },
+      {
+        "title": "Notice on Victor, reprinted in Patrologia Latina 68",
+        "author": "Andrea Gallandi",
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/liberatus-victor-tunnunensis-primasius-junillus-pl68-lat_migne1866.txt"
+      },
+      {
+        "title": "On Famous Men, chapter 38",
+        "author": "Isidore of Seville",
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/isidore-seville_sententiae-eccl-officiis-historia-gothorum-pl83-lat_migne1860.txt"
+      },
+      {
+        "title": "L'Afrique chretienne",
+        "author": "Joseph Mesnage",
+        "date": null,
+        "language": "French",
+        "file": "cic/texts/mesnage_afrique-chretienne-eveches-ruines-fra_1912.txt"
+      },
+      {
+        "title": "Index to The Letters of Cassiodorus",
+        "author": "Thomas Hodgkin",
+        "date": null,
+        "language": "English",
+        "file": "cic/texts/cassiodorus_variae-letters-hodgkin1886.txt"
+      },
+      {
+        "title": "Notes to the Life of Severus",
+        "author": "M.-A. Kugener",
+        "date": null,
+        "language": "French",
+        "file": "cic/texts/zacharias-scholasticus_vie-de-severe-po2-syr-fra_kugener1903.txt"
+      }
+    ]
+  }
+}

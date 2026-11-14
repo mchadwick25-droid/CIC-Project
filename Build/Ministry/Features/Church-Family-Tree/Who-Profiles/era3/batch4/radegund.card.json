@@ -1,0 +1,84 @@
+{
+  "name": "Radegund",
+  "otherNames": [
+    "Radegundis",
+    "Radegunde",
+    "Saint Radegund of Poitiers"
+  ],
+  "knownFor": "A Thuringian princess taken captive and married by the Frankish king Lothar, who left him to become a nun and founded the monastery of Holy Cross at Poitiers.",
+  "dates": "Died in the twelfth year of King Childebert, on the thirteenth of August by Baudonivia's Life, a year the editors give as 587",
+  "place": "Born a princess of the Thuringians; queen of the Franks; consecrated at Noyon; founded her monastery at Poitiers, where she died",
+  "tradition": "Merovingian Gallic Christianity",
+  "role": "Queen; nun and founder of the monastery of Holy Cross at Poitiers",
+  "briefLength": "about 2 minutes",
+  "keyWorks": [
+    {
+      "title": "Letter to the bishops",
+      "about": "her letter, kept in Gregory of Tours's History, setting out the founding of her monastery, its Rule and its abbess, and asking the bishops to protect it"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Her monastery at Poitiers took the name of Holy Cross, Bruno Krusch says. Gregory of Tours tells how she sent to the East for wood of the True Cross.",
+      "She gave her community the Rule that Caesarius of Arles wrote for his sister Caesaria, as her letter says.",
+      "Venantius Fortunatus stayed at Poitiers because of her, he writes, and wrote poems to her and her Life."
+    ],
+    "remembered": [
+      "Two Lives were written of her: one by Fortunatus, her friend, after her death, and one by Baudonivia, a nun of her house, after 600, as Krusch dates them.",
+      "Gregory of Tours was at her burial and tells of it in his History and his book on the confessors."
+    ]
+  },
+  "uncertain": [
+    "Her own words. Her letter in Gregory's History is given as hers, and Dalton and Krusch take it so. Three poems in her voice, among them a lament for Thuringia, are printed with Fortunatus's works; Friedrich Leo, Bruno Krusch, M. A. Luchi and O. M. Dalton all treat them as Fortunatus's, written in her name.",
+    "Whether she went to Arles. Gregory says she went there with the abbess for the Rule. Krusch followed him in 1888, but in 1896 judged, after Arnold, that Gregory was wrong; Malnory, as Krusch reports him, kept to Gregory.",
+    "When she wrote the letter. Sirmond placed it at the founding of her community and linked the bishops' answer to the council of Tours of 567. Friedrich Maassen notes that the link rests on the names of the signers.",
+    "Her years. None of these sources gives a year of birth or of her capture. The year 587 for her death is the editors' reckoning from Gregory's year of King Childebert.",
+    "The scenes of her Lives come from friends and nuns of her house. Krusch says Baudonivia copied some passages word for word from the Life of Caesarius."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Letter of Radegund to the bishops, in Gregory of Tours, History of the Franks IX.42 (tr. O. M. Dalton)",
+        "language": "English translation",
+        "file": "cic/texts/gregory-tours_history-of-the-franks-v2_dalton1927.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "History of the Franks (tr. O. M. Dalton)",
+        "author": "Gregory of Tours",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/gregory-tours_history-of-the-franks-v2_dalton1927.txt"
+      },
+      {
+        "title": "Glory of the Confessors 104; Glory of the Martyrs 5 (ed. Arndt and Krusch)",
+        "author": "Gregory of Tours",
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/gregory-tours_opera-mgh-srm-1-lat_arndt-krusch1885.txt"
+      },
+      {
+        "title": "Life of Radegund, Book I (ed. Bruno Krusch)",
+        "author": "Venantius Fortunatus",
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/fredegar-liber-historiae-francorum-vitae-mgh-srm-2-lat_krusch1888.txt"
+      },
+      {
+        "title": "Life of Radegund, Book II (ed. Bruno Krusch)",
+        "author": "Baudonivia",
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/fredegar-liber-historiae-francorum-vitae-mgh-srm-2-lat_krusch1888.txt"
+      },
+      {
+        "title": "Poems, with the poems in Radegund's name (ed. Friedrich Leo)",
+        "author": "Venantius Fortunatus",
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/venantius-fortunatus_opera-mgh-aa-4-lat_leo-krusch1881.txt"
+      }
+    ]
+  }
+}

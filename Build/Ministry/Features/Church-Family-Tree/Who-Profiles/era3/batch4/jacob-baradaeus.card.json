@@ -1,0 +1,95 @@
+{
+  "name": "Jacob Baradaeus",
+  "otherNames": [
+    "James (in John of Ephesus)",
+    "James Burd'ana",
+    "Jacques Baradée",
+    "Jacob Zanzalus (in later Greek and Latin writers)"
+  ],
+  "knownFor": "The bishop of Edessa who, made bishop at the empress Theodora's order, travelled the eastern empire in secret ordaining bishops and clergy for the party that refused the council of Chalcedon, and after whom its people were called Jacobites.",
+  "dates": "Made bishop in the sixteenth year of Justinian, which E. W. Brooks gives as 542; died on the thirtieth of Tammuz, July, in the Seleucid year 889 by Michael the Syrian, which Brooks gives as 30 July 578",
+  "place": "Born at Tella, by John of Ephesus; a monk of Fsiltha; fifteen years in a cell at Constantinople; bishop for Edessa; died at the monastery of Cassianus on the border of Egypt",
+  "tradition": "Syriac Orthodox (West Syriac) Christianity",
+  "role": "Bishop of Edessa; ordaining bishop of the anti-Chalcedonian church",
+  "briefLength": "about 2 minutes 30 seconds",
+  "legacy": {
+    "traces": [
+      "John of Ephesus counts twenty-seven bishops and archbishops he ordained, besides two patriarchs, and many clergy, many of them in John's own presence. One of them was John himself, made bishop of Ephesus.",
+      "Michael the Syrian says those who stood with the old man in the quarrel over Paul were called Jacobites. Brooks thinks the name probably arose from that quarrel, set against the Paulites."
+    ],
+    "remembered": [
+      "John of Ephesus: if anyone says a hundred thousand were ordained by him, \"I do not think he will depart from the truth.\"",
+      "Michael the Syrian: he ordained up to a hundred thousand bishops, priests or deacons, by what was found in his papers."
+    ]
+  },
+  "uncertain": [
+    "Most of what is known comes from John of Ephesus, who wrote his Life in 566 by Brooks's year and was made a bishop by him. Brooks calls Jacob John's hero, and places John on the other side in the quarrel of 575. Michael the Syrian says John did not break with Jacob's party but rebuked both sides.",
+    "A longer Life of James, printed as John's, is later. Brooks, following Kleyn, holds it spurious; its colophon gives it to Theodosius of Fsiltha in the Seleucid year 1052, which Brooks gives as 741. Its parents and its eighty-seven bishops are not John's.",
+    "His birthplace. John says Tella. Michael the Syrian and Bar Hebraeus make him a priest of Fsiltha from the village of Gamoua on Mount Izla.",
+    "The years. John gives the sixteenth year of Justinian. Brooks makes it 542; Joseph Assemani, after the chronicle he calls Dionysius's, and Hefele make it 541. The sources give no year of birth. Elias of Nisibis puts his death ten years earlier than Michael and Bar Hebraeus.",
+    "How he died. John tells it two ways in his Church History. In one, four of the party died one after another at Cassianus within twelve days. In the other, the ship may have sunk, or they reached the monastery and four died there within three days. \"Which of these stories is true, God knows,\" he says. He also rejects a rumour that Paul's men stoned him.",
+    "His nickname. Brooks explains Burd'ana as \"the man of the patchwork garment\", from his cloak. A later manuscript of the spurious Life compares the cloak to a pack-saddle.",
+    "The escape from his pursuers. Brooks notes that the same story is told of Simeon of Beth Arsham.",
+    "The name Jacobites. Michael the Syrian ties it to the quarrel over Paul, and Brooks thinks so too. The spurious Life gives the cry \"We are of the faith of James\". Bar Hebraeus says it came from the priests he multiplied."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "His reply to the Alexandrians, in Michael the Syrian, Chronique, book X (tr. J.-B. Chabot)",
+        "language": "French translation",
+        "file": "cic/texts/michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Lives of the Eastern Saints, chapters 49 and 50 (tr. E. W. Brooks)",
+        "author": "John of Ephesus",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/john-ephesus_lives-eastern-saints-po18_brooks1924.txt"
+      },
+      {
+        "title": "Lives of the Eastern Saints, chapter 50 and the spurious Life of James (tr. E. W. Brooks)",
+        "author": "John of Ephesus; the spurious Life by a later writer",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/john-ephesus_lives-eastern-saints-po19-mixed-issue_brooks1926.txt"
+      },
+      {
+        "title": "Ecclesiastical History, part 3 (tr. R. Payne Smith)",
+        "author": "John of Ephesus",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/john-ephesus_ecclesiastical-history-part3_paynesmith1860.txt"
+      },
+      {
+        "title": "Chronique, tome 2 (tr. J.-B. Chabot)",
+        "author": "Michael the Syrian",
+        "date": null,
+        "language": "French translation",
+        "file": "cic/texts/michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt"
+      },
+      {
+        "title": "Chronicon ecclesiasticum (tr. Abbeloos and Lamy)",
+        "author": "Bar Hebraeus",
+        "date": null,
+        "language": "Latin translation",
+        "file": "cic/texts/barhebraeus_chronicon-ecclesiasticum-vol1-lat_abbeloos-lamy1872.txt"
+      },
+      {
+        "title": "Bibliotheca Orientalis, tome 1",
+        "author": "Joseph Assemani",
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/assemani_bibliotheca-orientalis-tomus1-de-scriptoribus-syris-orthodoxis-lat_1719.txt"
+      },
+      {
+        "title": "A History of the Councils, vol. 3 (tr. W. R. Clark)",
+        "author": "C. J. Hefele",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/hefele_history-of-the-councils-v3-431-451_clark1883.txt"
+      }
+    ]
+  }
+}
