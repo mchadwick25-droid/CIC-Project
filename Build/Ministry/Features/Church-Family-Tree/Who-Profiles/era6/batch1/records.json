@@ -77,7 +77,7 @@
         "formation_confidence": "Contested"
       },
       {
-        "claim": "Knighton a Leicester chronicler, hostile: a manuscript title, 'Compilatio Henrici de Knyghton Canonici Abbathiae Leycestrensis de eventibus Angliae'; Lumby: Knighton 'may be drawing from sources in the house to which he belonged' (Leicester). Hostility: 'evangelica margarita spargitur et a porcis conculcatur'; 'Hic multas dicitur introducere in ecclesia opiniones que a catholicis ecclesiae doctoribus reprobantur'.",
+        "claim": "The Leicester chronicle under Knighton's name, hostile: a manuscript title, 'Compilatio Henrici de Knyghton Canonici Abbathiae Leycestrensis de eventibus Angliae'; Lumby: Knighton 'may be drawing from sources in the house to which he belonged' (Leicester). Hostility: 'evangelica margarita spargitur et a porcis conculcatur'; 'Hic multas dicitur introducere in ecclesia opiniones que a catholicis ecclesiae doctoribus reprobantur'.",
         "witness": "KNIGHTON l.1427-1428 (OCR 'Abbathice', 'Anglice'), 1641-1643, 16940-16942, 16968-16969 (OCR 'conculeatur')",
         "formation_confidence": "Documented"
       },
@@ -333,7 +333,7 @@
         "claim": "His early Oxford years: Queen's commoner, Merton fellow, warden of Canterbury Hall",
         "sides": [
           "Vaughan and F&M: all three are his (VAUGHAN l.662-664, 745, 1270-1273; F&M l.953-962)",
-          "Shirley: no Queen's list exists; the Merton fellow and the Canterbury Hall warden were another John Wyclif (SHIRLEY l.737-805, 870-871, 972-977)"
+          "Shirley: no Queen's list exists; the Merton fellow and the Canterbury Hall warden were another John Wyclif (SHIRLEY l.737-805, 874-875, 972-977)"
         ]
       },
       {
@@ -396,7 +396,7 @@
         "formation_confidence": "Documented"
       },
       {
-        "claim": "1399, own words: 'In the year 1399, Indulgences were granted to the people of Zwolle by the Apostolic See, and Pope Boniface the Ninth granted these to be gained by all that were truly penitent at the Church of St. Michael'; 'In this same year, I, Thomas of Kempen, a scholar at Deventer and a native of the diocese of Cologne, came to Zwolle to gain indulgences. Then I went on, glad at heart, to Mount St. Agnes, and was instant to be allowed there to abide, and I was received with mercy.' The brief's 'pardons the pope had granted' tells 'Indulgences ... by the Apostolic See' in modern words.",
+        "claim": "1399, own words: 'In the year 1399, Indulgences were granted to the people of Zwolle by the Apostolic See, and Pope Boniface the Ninth granted these to be gained by all that were truly penitent at the Church of St. Michael'; 'In this same year, I, Thomas of Kempen, a scholar at Deventer and a native of the diocese of Cologne, came to Zwolle to gain indulgences. Then I went on, glad at heart, to Mount St. Agnes, and was instant to be allowed there to abide, and I was received with mercy.' The brief keeps 'indulgences' and glosses them as remissions of penance... by the Apostolic See' in modern words.",
         "witness": "CHRON l.1097-1106",
         "formation_confidence": "Documented"
       },
@@ -441,8 +441,8 @@
         "formation_confidence": "Contested"
       },
       {
-        "claim": "Brother John's death: Chronicle ch. XXIV, 'In the same year, on the fourth day of November, at midnight, died Brother John of Kempen ... being in the sixty-seventh year of his age'; 'I was with him and I closed his eyes, for I had been sent by the Visitors to bear him company, and I abode with him for a year and two months.' 'In the same year' follows ch. XXIII, headed 'In the year of our Lord 1422 (1432)'; the next entry is 1433. 'Aged' tells 'sixty-seventh year' and 'in a good old age'.",
-        "witness": "CHRON l.2012-2026, 1981, 2029",
+        "claim": "Brother John's death: Chronicle ch. XXIV, 'In the same year, on the fourth day of November, at midnight, died Brother John of Kempen ... being in the sixty-seventh year of his age'; 'I was with him and I closed his eyes, for I had been sent by the Visitors to bear him company, and I abode with him for a year and two months.' 'In the same year' follows ch. XXIII, headed 'In the year of our Lord 1422 (1432)'; the next entry is 1433. 'Aged' tells 'sixty-seventh year' and 'in a good old age'. Duthoit: John 'died in 1432 at one of them, the convent of Bethania near Arnheim'; Thomas 'sent to Bethania, to attend his brother'.",
+        "witness": "CHRON l.2012-2026, 1981, 2029; DUTHOIT l.761-763, 773",
         "formation_confidence": "Documented"
       },
       {
@@ -472,7 +472,7 @@
       },
       {
         "claim": "Birth year: Benham, 'Thomas Hemercker was born at Kempen, near Koln, about the year 1380'; Scully, 'he was born the same year, 1380'; Duthoit, 'He was born in 1380'. Ingram reports a 17th-century hand in the Dublin manuscript: 'Tho. e Kempis natus 1380 obyt 25 Julij 1471. aiio set : 92 :' (OCR). His own Chronicle, 1448: 'He was one of the elders, being sixty-seven years of age'.",
-        "witness": "BENHAM l.492-493; LYD (kempis_st-lydwine-of-schiedam_scully1912.txt) l.251; DUTHOIT (kempis_prayers-and-meditations-on-the-life-of-christ_duthoit1904.txt) l.578-579; INGRAM l.259-261; CHRON l.2378-2380",
+        "witness": "BENHAM l.492-493; LYD (kempis_st-lydwine-of-schiedam_scully1912.txt) l.251; DUTHOIT (kempis_prayers-and-meditations-on-the-life-of-christ_duthoit1904.txt) l.578-579; INGRAM l.259-261; CHRON l.2327, 2378-2380",
         "formation_confidence": "Contested"
       },
       {
@@ -516,8 +516,8 @@
         "formation_confidence": "Documented"
       },
       {
-        "claim": "Wesley: 'When I was about twenty-two, my father pressed me to enter into holy orders. At the same time, the providence of God directing me to Kempis's Christian Pattern, I began to see that true religion was seated in the heart'; 'I was, however, very angry at Kempis for being too strict'.",
-        "witness": "WESLEY (wesley-j_journal-v1_curnock1909.txt) l.961-965; the setting, Curnock: Wesley 'proceeded to review his religious experience from childhood onwards' (l.945-946)",
+        "claim": "Wesley: 'When I was about twenty-two, my father pressed me to enter into holy orders. At the same time, the providence of God directing me to Kempis's Christian Pattern, I began to see that true religion was seated in the heart'; 'I was, however, very angry at Kempis for being too strict'. 'Yet I had frequently much sensible comfort in reading him'; he read Kempis 'only in Dean Stanhope's translation'. Duthoit's preface names Dean Stanhope's version of the Imitation and 'Dr. Stanhope's words in his preface to the \"Christian Pattern\"', so the Christian Pattern is Stanhope's Imitation.",
+        "witness": "WESLEY (wesley-j_journal-v1_curnock1909.txt) l.961-968; the setting, Curnock: Wesley 'proceeded to review his religious experience from childhood onwards' (l.945-946); DUTHOIT (kempis_prayers-and-meditations-on-the-life-of-christ_duthoit1904.txt) l.927-930, 963-964",
         "formation_confidence": "Documented"
       },
       {
@@ -620,11 +620,11 @@
       },
       {
         "detail": "Census: Ignatius 'kept the Imitation on his desk'",
-        "note": "Held: Oliver Manare's reply to Lancicius says Ignatius kept on the table of his inner room no books but the New Testament and Thomas à Kempis, whom he called the partridge of spiritual books (IGN-SCR1 l.24338-24347). Told on the card. The census wording 'desk' is close enough; its source is now named."
+        "note": "Held: Oliver Manare's reply to Lancicius says Ignatius kept on the table of his inner room no books but the New Testament and Thomas à Kempis, whom he called the partridge of spiritual books (IGN-SCR1 l.24338-24347). Told on the card. The census's 'desk' is Manare's table."
       },
       {
         "detail": "The Imitation as 'the most copied' book",
-        "note": "The census says so; no line found says 'copied'. The nearest lines are Neale's 'read more widely' (NEALE l.4717-4719) and Benham's 'most popular' (BENHAM l.663-664). Neale adds that the Imitation 'has, it is said, gone through as many editions as there have been months since it first appeared' (NEALE l.4717-4721); no held line says 'copied'."
+        "note": "The census says so; no held line calls it the most copied book. The nearest lines are Neale's 'read more widely' (NEALE l.4717-4719) and Benham's 'most popular' (BENHAM l.663-664). Neale adds that it 'has, it is said, gone through as many editions as there have been months since it first appeared' (NEALE l.4719-4721)."
       },
       {
         "detail": "The day of the month of the 1424 visit and of John of Kempen's death year",

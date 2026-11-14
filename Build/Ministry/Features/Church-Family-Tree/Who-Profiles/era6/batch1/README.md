@@ -16,7 +16,7 @@ The coordinator marked all eight major on 2026-11-14, as the scan's Major column
 - **Grote** is told from Kempis's Life of him and from Busch. The brief names his disciple "Florens", as the Kempis profile does, and the bishop of Utrecht only by his office. Two readings of Arthur's English that cannot be checked against Kempis's Latin are marked on the card as Arthur's.
 
 Held witnesses beyond those the scan cites:
-- **Wyclif.** Shirley's introduction to the Fasciculi Zizaniorum, its Carmelite narrative and its Latin letter to Urban VI; Pollard's introduction and Thorpe's Examination; Mirbt on Inter cunctas; Foxe, with the Oxford testimonial of 1406; Poole's De Civili Dominio.
+- **Wyclif.** Shirley's introduction to the Fasciculi Zizaniorum, its Carmelite narrative and its Latin letter to Urban VI; Pollard's introduction and Thorpe's Examination; Mirbt on Inter cunctas; Foxe, with the Oxford testimonial of 1406.
 - **Kempis.** His own Chronicle and the Lives of the founders; Busch with Grube's notes; Ingram on Atkynson and the early English Imitation; Neale; Pohl; the Exercises of Ignatius and Oliver Manare's reply to Lancicius; Wesley's Journal; Scully's and Duthoit's introductions.
 - **Rolle.** The Office of Saint Richard in Comper; Misyn's prologue and closing note; Comper's preface and Underhill's introduction; Forshall and Madden's preface; Arnold; the wills in Testamenta Eboracensia; the York Hours.
 - **Julian.** Cressy's reprint of 1843, with Dodd's title; Dalgairns on Dame Julian Lampet; the Bury wills; Underhill in Comper.
@@ -54,7 +54,7 @@ Card traditions are the census's names. All eight fit the scan's placings:
 - Rolle and Julian read "The English Mystics and Devout" (c. 1330 to 1440). Both are among its voices. Rolle's death in 1349 and Misyn's English of 1434 to 1435 fall inside the entry; his birth and Oxford years fall before it. Julian's showings of 1373 and the copyist's 1413 fall inside it.
 - Eckhart, Tauler and Suso read "Rhineland Mysticism & the Friends of God" (c. 1300 to 1400). The entry names all three among its voices. Eckhart's trial, 1326 to 1329, and the deaths of Tauler in 1361 and Suso in 1365 or 1366 fall inside its years. Eckhart's birth falls before, and the Paris list of 1302 that first names him falls inside.
 
-Lines held only in Latin, German, Dutch or Middle English are told in modern words with the source named. Quotation marks are kept for held English: the Chronicle and the Lives in Arthur's English, Knox's Suso, Warrack's and Harford's Julian, Comper's Rolle, Winkworth's Tauler, Evans's Eckhart, Vaughan's, Pollard's, Shirley's and Foxe's Wyclif, Neale's Kempis. Quotations keep their own spelling, including "behoved", "holden" and "thy". Where an OCR slip or a footnote mark falls inside a quoted line, the quotation is given as the editor printed it.
+Lines held only in Latin, German, Dutch or Middle English are told in modern words with the source named. Quotation marks are kept only for lines held in English, among them the Chronicle and the Lives in Arthur's English, Knox's Suso, Warrack's and Harford's Julian, Comper's and Hodgson's Rolle, Winkworth's Tauler, Evans's Eckhart, and Vaughan's, Pollard's, Shirley's and Foxe's Wyclif. Quotations keep their own spelling, including "behoved", "holden" and "thy". Where an OCR slip or a footnote mark falls inside a quoted line, the quotation is given as the editor printed it.
 
 | File | Holds |
 |---|---|
