@@ -161,7 +161,7 @@
  "niketas-stethatos": {
   "claims": [
    {
-    "claim": "Recantation: \"ipso die nativi- tatis beati Ioannis Baptistae\" in the twelfth year of Constantine Monomachos; at Studios \"ante praesentiam praefati imperatoris et pro- eerum ejus insistentibus ipsis nuntiis Ro- manis anathematizavit quoddam scriptum sub suo nomine\" ... \"jussit idem ortho- doxus imperator praefatum incendi scriptum\" (OCR); Will dates it 1054 and notes copies reading \"undecimo\"",
+    "claim": "Recantation: \"ipso die nativi- tatis beati Ioannis Baptistae\" in the twelfth year of Constantine Monomachos; at Studios \"ante praesentiam praefati imperatoris et pro- eerum ejus insistentibus ipsis nuntiis Ro- manis anathematizavit quoddam scriptum sub suo nomine\" ... \"jussit idem ortho- doxus imperator praefatum incendi scriptum\" (OCR); Will dates it 1054 and notes copies reading \"undecimo\" (Will: \"non forte factum est, sed errore chronologico\", l.14797, 14832)",
     "witness": "WILL (will_acta-et-scripta-de-controversiis-ecclesiae-graecae-et-latinae-saec-xi-grc-lat_1861.txt) l.14776-14834",
     "formation_confidence": "Documented"
    },
@@ -231,7 +231,7 @@
     "formation_confidence": "Documented"
    },
    {
-    "claim": "A monk on Athos: only twenty-two chapters in Greek in his house; older Slavonic held parts; Paisius translated the three hundred",
+    "claim": "A monk in a skete on Athos: only twenty-two chapters in Greek in his skete; older Slavonic held parts; Paisius translated the three hundred",
     "witness": "PAISIUS (paisius-velichkovsky_zhitie-i-pisaniia-chu_optina1847.txt) l.10217-10218, 10487-10494",
     "formation_confidence": "Documented"
    },

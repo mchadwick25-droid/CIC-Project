@@ -11,7 +11,7 @@ The coordinator called Symeon the New Theologian major (2026-11-14), as the scan
 Each pair follows Mark's pairing rule of 2026-11-11: "if two people are tied together in their sources with similar identity its ok to make that a single who".
 - **Cedd and Chad.** Brothers, and both bishops. Bede tells their lives together, through Lastingham, the monastery Cedd founded and Chad ruled after him, and he names the monks of Lastingham as his source for both.
 - **Elipandus of Toledo and Felix of Urgell.** Two bishops condemned together. The council of Frankfurt in 794 names the heresy as both men's, and the sources tell them together. Their teaching is told from Elipandus's own letters and Felix's confession, and their opponents' reading of it is given as their opponents'.
-- **Pisentius of Coptos and John the Elder.** A bishop and the disciple who wrote his Life. John is both the author and a witness inside it. The Life is the one source for John; for Pisentius it is the main one, beside letters to him among the Epiphanius papers, the synaxaries and Abu Salih.
+- **Pisentius of Coptos and John the Elder.** A bishop and the disciple who wrote his Life. John is both the author and a witness inside it. The Life is the one source for John; for Pisentius it is the main one, beside letters to and from a bishop of his name among the Epiphanius papers, the synaxaries and Abu Salih.
 
 ## Sources found in drafting
 
