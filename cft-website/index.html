@@ -113478,7 +113478,7 @@ function labelFitRun(){
   svg.classList.toggle('simple',simple);
   if(simple!==labelFit.simple){
     labelFit.simple=simple;
-    gLabels.querySelectorAll('.era-label').forEach((t,j)=>t.setAttribute('aria-label',`${eras[j].num}. ${eras[j].title}, ${plainDates(eras[j].dates)}. ${simple?'Zooms in to this era.':'Opens this era's card.'}`));
+    gLabels.querySelectorAll('.era-label').forEach((t,j)=>t.setAttribute('aria-label',`${eras[j].num}. ${eras[j].title}, ${plainDates(eras[j].dates)}. ${simple?'Zooms in to this era.':'Opens this era\'s card.'}`));
   }
   syncDepth();
   sizeMarks(markU());

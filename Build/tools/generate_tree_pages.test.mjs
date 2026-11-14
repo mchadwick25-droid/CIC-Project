@@ -6,6 +6,7 @@ import os from 'node:os';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import crypto from 'node:crypto';
+import vm from 'node:vm';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..', '..');
 const census = JSON.parse(fs.readFileSync(path.join(root, 'cic-website/data/world-census.json'), 'utf8'));
@@ -416,4 +417,12 @@ test('Who is a mark: a group figure with a count for each river in each era, and
   const figure = map.slice(map.indexOf('function whoFigure'), map.indexOf('function setWhoMark'));
   assert.match(figure, /personGlyph/);
   assert.doesNotMatch(map.slice(map.indexOf('function renderWhoPills'), map.indexOf('function setWhoMark')), /textContent='Who'/);
+});
+
+test('the map\'s own script parses', () => {
+  const map = fs.readFileSync(path.join(root, 'cft-website/index.html'), 'utf8');
+  const open = map.indexOf('<script>\n"use strict";');
+  assert.ok(open > 0);
+  const code = map.slice(open + '<script>'.length, map.indexOf('</script>', open));
+  assert.doesNotThrow(() => new vm.Script(code));
 });
