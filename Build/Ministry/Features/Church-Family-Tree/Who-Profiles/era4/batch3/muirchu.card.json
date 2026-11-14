@@ -3,23 +3,23 @@
   "otherNames": [
     "Muirchu"
   ],
-  "knownFor": "An Irish writer who wrote a Latin Life of Saint Patrick at the command of Aed, bishop of Sletty. Newport White, who translated it in 1920, calls it the oldest Life of Patrick that survives. It tells of the Easter fire and the contest with King Loiguire's magicians.",
-  "dates": "Late seventh century. Newport White dates the first book before Aed's death in 699, and Louis Duchesne gives that death as 698. White says Muirchu and Aed both signed the acts of a synod at Birr, between 695 and 697. No source used here gives his birth or death",
-  "place": "Ireland. White makes him a Leinster man, from his father's tie to Kildare and his own to Aed of Sletty",
+  "knownFor": "An Irish author of a Latin Life of Saint Patrick, written at the command of Aedh, bishop of Sletty. Newport White, who translated it in 1920, calls it the oldest Life of Patrick that survives. It tells of the Easter fire and the contest with King Loiguire's magicians.",
+  "dates": "Late seventh century. Newport White dates at least the first book before Aedh's death in 699, and Louis Duchesne puts that death in 698. White says Muirchu and Aedh both signed the acts of Adomnán's synod at Birr, between 695 and 697. No source used here gives his birth or death",
+  "place": "Ireland. White makes him a Leinster man, from his father's tie to Kildare and his own to Aedh of Sletty",
   "tradition": "Medieval Irish Christianity",
   "role": "Hagiographer; writer of the Life of Patrick",
   "briefLength": "about 2 minutes",
   "keyWorks": [
     {
       "title": "Life of Saint Patrick",
-      "about": "a Latin Life in two books, dedicated to Aed of Sletty. It tells of Patrick's captivity, the Easter fire against the king's at Temoria, the contest with the magicians and his death and burial.. White says it comes down in two manuscripts, the Book of Armagh and one at Brussels"
+      "about": "a Latin Life in two books, dedicated to Aedh of Sletty. It tells of Patrick's captivity, the Easter fire lit before the king's at Temoria, the contest with the magicians, and his death and burial.. White says it comes down in two manuscripts, the Book of Armagh and one at Brussels"
     }
   ],
   "legacy": {
     "traces": [
-      "Newport White says three of the later Latin Lives of Patrick are largely based on Muirchu.",
+      "Newport White says three of the seven ancient Lives of Patrick that John Colgan printed in 1647 are largely based on Muirchu.",
       "The Life is copied in the Book of Armagh, which White says Ferdomnach, the scribe of Armagh, wrote between 807 and 846.",
-      "F. E. Warren, editor of the Antiphonary of Bangor, cites Muirchu on the blessed fire of Easter. He also thinks Muirchu had a stanza of the Hymn of Sechnall in mind."
+      "F. E. Warren, editor of the Antiphonary of Bangor, cites Muirchu on the blessed fire of Easter. He also thinks Muirchu had a stanza of the hymn of Saint Sechnall, or Secundinus, in mind."
     ],
     "remembered": [
       "White calls Muirchu the only ancient authority for any tie between Patrick and Bishop Amator, and his account of it \"confused and inaccurate\".",
@@ -28,13 +28,13 @@
     ]
   },
   "uncertain": [
-    "Little is told of his own life. White gives his name from a note at the end of the first book, and his father's name from the preface.",
+    "Little is told of his own life. White gives his name from a note to the first book's table of contents, which he prints at the end of that book. His father's name comes from the preface.",
     "His father. Muirchu writes of \"my father Cogitosus\". The name rests on Bishop Graves's correction of the Latin \"cognito si\", which White calls generally accepted. White takes this father for Cogitosus, who wrote the Life of Brigid of Kildare.",
-    "The year Aed died. White gives 699 and Louis Duchesne 698.",
-    "Leinster and Birr. White says Muirchu was a Leinster man, \"strongly suggested\" by his father's and his own ties, and places him at Birr. No source used here prints the acts of Birr.",
-    "His purpose. White says Aed made a formal submission to Armagh's claim to head the Irish church. He thinks the Life was meant as a tribute from Leinster to Armagh.",
-    "The Easter festival. Professor Bury, as White reports, held that Muirchu joined the features of two heathen festivals, on neither of which Easter could fall. R. A. S. Macalister defends Muirchu's account.",
-    "The place of the fire. Muirchu sets it at the Graves of the Men of Fecc. White's note places them near Slane."
+    "The year Aedh died. White gives 699 and Louis Duchesne 698.",
+    "Leinster and Birr. White says Muirchu was a Leinster man, \"strongly suggested\" by his father's and his own ties. He says Muirchu signed the acts of Adomnán's synod at Birr. No source used here prints those acts.",
+    "His purpose. White says Aedh made a formal submission to Armagh's claim to head the Irish church. He thinks it probable that the Life was meant as a tribute from Leinster to Armagh.",
+    "The Easter festival. Professor Bury, as White reports, held that Muirchu, or his source, joined the features of two heathen festivals, on neither of which Easter could fall. R. A. S. Macalister, in his study of Tara, defends Muirchu's account.",
+    "Whether Loiguire believed. Muirchu has him say it is better to believe than to die. Tirechan says he was unable to believe, and White finds Tirechan more credible."
   ],
   "sources": {
     "ownWords": [

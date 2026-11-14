@@ -1,7 +1,7 @@
 {
   "name": "Tirechan",
   "knownFor": "An Irish bishop whose Latin notes on Saint Patrick are kept in the Book of Armagh. They follow Patrick from place to place and list the churches he founded. Newport White reads them as a record of what belonged to Armagh. White says he drew mainly on his teacher, Bishop Ultan.",
-  "dates": "Seventh century. Newport White dates the work no earlier than 664, possibly about 670, and Professor Bury, as White reports, between 664 and 668. Whitley Stokes reads a plague it mentions as that of 683, \"apparently\". No source used here gives his birth or death",
+  "dates": "Seventh century. Newport White dates the work no earlier than 664, possibly about 670, and Professor Bury, as White reports, between 664 and 668. Whitley Stokes reads the latest plagues it mentions as those of 683, \"apparently\". No source used here gives his birth or death",
   "place": "Ireland. White makes him a native of Tirawley, in County Mayo, and his teacher Ultan bishop of Ardbraccan, in Meath",
   "tradition": "Medieval Irish Christianity",
   "role": "Bishop; recorder of Patrick's journeys and foundations",
@@ -14,23 +14,23 @@
   ],
   "legacy": {
     "traces": [
-      "White calls the book in Ultan's keeping, from which Tirechan drew, the earliest attempt at an account of Patrick known to us.",
+      "White says the book in Ultan's keeping, from which Tirechan drew, would be the earliest attempt at an account of Patrick known to us.",
       "White says Tirechan's work embodies the traditions of Meath and of Connaught.",
       "John O'Donovan, editor of the Annals of the Four Masters, uses Tirechan's notes to fix old boundaries, such as the plain of Eilne."
     ],
     "remembered": [
       "White writes that the book leaves \"the impression of an honest author who had no gift of composition\". He warns that Tirechan's silence is not always safe proof that something did not happen.",
       "White finds Tirechan's account of King Loiguire more credible than Muirchu's, and more creditable to the king.",
-      "Louis Duchesne, the French church historian, finds in it little but local traditions and the interests of Armagh. He says two centuries of telling had much embellished them."
+      "Louis Duchesne, the French church historian, finds in it little but local traditions. He says two centuries of telling had much embellished them, since they touched the national apostle and the interests of Armagh."
     ]
   },
   "uncertain": [
     "Of his own life little is told. A heading in the Book of Armagh says he wrote from the mouth or book of Bishop Ultan, whose pupil he was. Tirechan himself says Ultan fostered him.",
     "His date. White gives no earlier than 664, possibly about 670, and reports Bury's 664 to 668. Stokes reads the most recent plagues Tirechan mentions as those of 683, with \"apparently\".",
     "Ultan's death. White gives 657 and Louis Duchesne 656.",
-    "Where his work ends. White, after Dr. John Gwynn, gives the note on Pope Celestine sending Patrick to Ferdomnach, the scribe, not to Tirechan. White gives the note on Patrick's burial at Saul to Ferdomnach too. Duchesne credits Tirechan with nothing past page 331 of Stokes.",
+    "Where his work ends. White, after Dr. John Gwynn, gives the note on Pope Celestine sending Patrick to Ferdomnach, the scribe, not to Tirechan. White thinks the note on Patrick's burial at Saul probably Ferdomnach's too. Duchesne will not credit Tirechan with the last part of the text.",
     "Why it breaks off at Cashel. White suggests the author's death, lost leaves, or no further record of Munster.",
-    "The church that seized Patrick's places. Tirechan names the familia of \"Clono\". Stokes asks whether it is Cluain maccu Nois, with a question mark."
+    "The church that seized Patrick's places. Tirechan says the community of \"Clono\" holds many of them by force since the latest plagues. Stokes suggests Clonmacnois, with a question mark."
   ],
   "sources": {
     "ownWords": [

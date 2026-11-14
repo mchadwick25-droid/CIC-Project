@@ -72,8 +72,8 @@
     "formation_confidence": "Documented"
    },
    {
-    "claim": "Wilfrid's fall, Bede: \"a dissension broke out between King Egfrid and the most reverend prelate, Wilfrid, who was driven from his see, and two bishops substituted in his stead\"; \"Edhed, Bosa, and Eata, were ordained at York by Archbishop Theodore\"",
-    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.9865-9895",
+    "claim": "Wilfrid's fall, Bede: \"a dissension broke out between King Egfrid and the most reverend prelate, Wilfrid, who was driven from his see, and two bishops substituted in his stead\"; \"Edhed, Bosa, and Eata, were ordained at York by Archbishop Theodore\"; summary of years: \"Bishop Wilfrid was driven from his see by King Egfrid\"",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.9865-9895, 15351-15353",
     "formation_confidence": "Documented"
    },
    {
@@ -82,7 +82,7 @@
     "formation_confidence": "Contested"
    },
    {
-    "claim": "Stephen alone: in London Theodore confessed \"hoc maxime scrupulum me premit, quod in te, sanc- * tissime episcope, commisi, consentiens regibus\" and wished to make him his successor, \"in sedem meam archiepiscopalem superstitem et heere\"",
+    "claim": "Stephen, followed by the later Lives of Fridegod and Eadmer: in London Theodore confessed \"hoc maxime scrupulum me premit, quod in te, sanc- * tissime episcope, commisi, consentiens regibus\" and wished to make him his successor, \"in sedem meam archiepiscopalem superstitem et heere\"",
     "witness": "RAINE (byrhtferth_vita-s-oswaldi-in-historians-of-the-church-of-york-v1-lat_raine1879.txt) l.8150-8168",
     "formation_confidence": "Contested"
    },
@@ -92,8 +92,8 @@
     "formation_confidence": "Dominant Modern Reconstruction"
    },
    {
-    "claim": "Chad, Stephen: Theodore \"Ceaddam episcopum de sede aliena jussit deponi\"",
-    "witness": "RAINE (byrhtferth_vita-s-oswaldi-in-historians-of-the-church-of-york-v1-lat_raine1879.txt) l.5626-5628",
+    "claim": "Chad, Stephen: Theodore \"Ceaddam episcopum de sede aliena jussit deponi\"; afterwards Chad was ordained in full for Lichfield, \"Licitfelda\"",
+    "witness": "RAINE (byrhtferth_vita-s-oswaldi-in-historians-of-the-church-of-york-v1-lat_raine1879.txt) l.5626-5660",
     "formation_confidence": "Contested"
    },
    {
@@ -137,8 +137,8 @@
     "formation_confidence": "Contested"
    },
    {
-    "claim": "Plummer: \"Bede, who says so much about the work of Theodore, never even alludes to his penitential\"",
-    "witness": "PLUMMER (bede_opera-historica-v1-historia-abbatum-lat_plummer1896.txt) l.11097-11099",
+    "claim": "Plummer notes Bede's silence but calls the work Theodore's: \"Bede, who says so much about the work of Theodore, never even alludes to his penitential\"; \"extracts from earlier works including Theodore's\"; \"when Theodore's work was in existence\"",
+    "witness": "PLUMMER (bede_opera-historica-v1-historia-abbatum-lat_plummer1896.txt) l.11097-11108",
     "formation_confidence": "Documented"
    },
    {
@@ -160,28 +160,65 @@
     "claim": "Henry of Huntingdon: \"Theodorus archiepiscopus xxn anno episcopalus sui transiit\" (OCR \"xxn\", \"episcopalus\"); \"ad hoc usque tempus fuerunt Romani archiepiscopi\" ... \"exinde fuerunt Angli\"",
     "witness": "PL195 (aelred-rievaulx_opera-pl195-lat_migne1855.txt) l.62779-62785",
     "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Fridegod's verse Life, drawing on Stephen: heading \"Quomodo a Theodoro archiepiscopo Tevocatws\" (OCR)",
+    "witness": "RAINE (byrhtferth_vita-s-oswaldi-in-historians-of-the-church-of-york-v1-lat_raine1879.txt) l.13902",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Eadmer's Life, drawing on Stephen: Theodore \"qui delictum quod jam olim in\" ... \"famulum Dei commiserat\"",
+    "witness": "RAINE (byrhtferth_vita-s-oswaldi-in-historians-of-the-church-of-york-v1-lat_raine1879.txt) l.17912-17917",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Raine on their dependence: Fridegod's preface speaks of \"Excerptis de libro Vite ejus flosculis\"; Eadmer \"occasionally quotes from it\"",
+    "witness": "RAINE (byrhtferth_vita-s-oswaldi-in-historians-of-the-church-of-york-v1-lat_raine1879.txt) l.2132-2135, 2366-2368",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Wasserschleben on Bede's silence: \"Reiner seiner Zeitgenossen erwähnt ein solches auch nur mit einer Sylbe, ebenso wenig Beda\" (OCR \"Reiner\" for Keiner)",
+    "witness": "WASS (wasserschleben_die-bussordnungen-der-abendlaendischen-kirche-lat-deu_1851.txt) l.1663-1667",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Hadrian: \"an abbat, called Hadrian, by nation an African\"; \"not far from the city of Naples\"",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.8736-8740",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Egfrid: \"Egfrid, king of the Northumbrians\"",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.10285",
+    "formation_confidence": "Documented"
    }
   ],
   "contested_claims": [
    {
-    "claim": "Theodore's part in Wilfrid of York's removal in 678",
+    "claim": "Theodore's part in Wilfrid of Ripon's removal in 678",
     "sides": [
-     "Bede: King Egfrid drove Wilfrid out, and Theodore ordained the new bishops at York (GILES l.9865-9895)",
-     "Stephen, Wilfrid's biographer and partisan: the king and queen won Theodore over with gifts; later Theodore confessed in London that he had wronged Wilfrid (RAINE l.6569-6571, 8150-8168)"
+     "Bede: King Egfrid drove Wilfrid out, and Theodore ordained the new bishops at York (GILES l.9865-9895, 15351-15353)",
+     "Stephen, Wilfrid's biographer and partisan: the king and queen won Theodore over with gifts; later Theodore confessed in London that he had wronged Wilfrid (RAINE l.6569-6571, 8150-8168), as the later Lives of Fridegod and Eadmer also tell, drawing on Stephen (RAINE l.13902, 17912-17917)"
     ]
    },
    {
     "claim": "Whether Theodore wrote a penitential",
     "sides": [
-     "For: the Roman Breviary's lesson, \"He published a Book of Penitentials\" (BUTE l.71044-71045); the Liber pontificalis note, which Wasserschleben took for eighth-century text (WASS l.1673-1680)",
-     "Against: Wasserschleben, \"Theodor hat kein Beichtbuch geschrieben\"; the rulings were gathered by a third man (WASS l.1866-1872); Plummer, Bede never mentions it (PLUMMER l.11097-11099); Duchesne prints the Liber pontificalis note as an added note borrowed from Paul the Deacon (LP2 l.7105-7130)"
+     "For: the Roman Breviary's lesson, \"He published a Book of Penitentials\" (BUTE l.71044-71045); the Liber pontificalis note, which Wasserschleben took for eighth-century text (WASS l.1673-1680); Plummer, who notes Bede's silence but calls the penitential Theodore's work (PLUMMER l.11097-11108)",
+     "Against: Wasserschleben, \"Theodor hat kein Beichtbuch geschrieben\"; the rulings were gathered by a third man (WASS l.1866-1872), and Bede is silent (l.1663-1667); Duchesne prints the Liber pontificalis note as an added note borrowed from Paul the Deacon (LP2 l.7105-7130)"
     ]
    },
    {
     "claim": "Theodore and Chad",
     "sides": [
      "Bede: Theodore kept Chad a bishop and completed his ordination (GILES l.8881-8894)",
-     "Stephen: Theodore had Chad removed from a see not his own (RAINE l.5626-5628)"
+     "Stephen: Theodore had Chad removed from a see not his own; Chad was afterwards ordained in full for Lichfield (RAINE l.5626-5660)"
+    ]
+   },
+   {
+    "claim": "Who waited four months for the Roman tonsure",
+    "sides": [
+     "J. A. Giles's English: Hadrian (GILES l.8777-8779)",
+     "Plummer's Latin: the sentence names no one, and the next is Theodore's ordination (PLUMMER l.22320-22326)"
     ]
    }
   ],
@@ -340,6 +377,21 @@
     "claim": "Adam of Bremen on Heligoland: \"Hanc in\" ... \"Yita sancti Willebrordi^-^ Fosetisland** appellari^ discimns^\" (OCR)",
     "witness": "ADAM (adam-bremen_gesta-hammaburgensis-ecclesiae-pontificum-lat_schmeidler1917.txt) l.19267-19269",
     "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Radbod: \"regem Frisonum Radbodum\"",
+    "witness": "ALC (alcuin_opera-omnia-letters_migne-pl100-101_1863.txt) l.55199",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Charles, Pippin's son: \"et filium ejus Carolum regno patris\" ... \"potiri\"",
+    "witness": "ALC (alcuin_opera-omnia-letters_migne-pl100-101_1863.txt) l.55346-55347",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The homily's cities: Tours and \"sancti Martini\"; Paris with \"sancti Dionysii\" and \"sancti Germani\"; \"Mediolana olim civitas\"; \"Pictavia beati Hilarii\"; \"Nobis vero sanctissimi Willibrordi non iufima perdonavit\" ... \"ovile congregavit\" (OCR)",
+    "witness": "ALC (alcuin_opera-omnia-letters_migne-pl100-101_1863.txt) l.56100-56134",
+    "formation_confidence": "Documented"
    }
   ],
   "contested_claims": [
@@ -355,7 +407,8 @@
     "claim": "Who sent him to Frisia and who gave him Utrecht",
     "sides": [
      "Bede: Egbert sent him; Pippin gave the see (GILES l.12750-12872, 13036-13039)",
-     "Alcuin: he resolved to go himself; he was given the see at Utrecht under Charles, after Radbod was defeated (ALC l.54995-55009, 55344-55354)"
+     "Alcuin: he resolved to go himself; he was given the see at Utrecht under Charles, after Radbod was defeated (ALC l.54995-55009, 55344-55354)",
+     "L. Cecil Jane, in his notes to Bede: Wiltaburg is Wiltenburg, not Utrecht (GILES l.16031)"
     ]
    },
    {
@@ -363,6 +416,13 @@
     "sides": [
      "Edward Kylie: 739 (KYLIE l.1789-1790)",
      "The Roman Breviary: 738, in his eighty-first year (BUTE l.87042, 93920-93925)"
+    ]
+   },
+   {
+    "claim": "His age when given to Ripon",
+    "sides": [
+     "Alcuin: as soon as he was weaned (ALC l.54877-54879)",
+     "The Roman Breviary: before he was seven, and given to Wilfrid (BUTE l.93838-93841)"
     ]
    }
   ],
@@ -466,6 +526,11 @@
     "claim": "PL 96, Lul's letter in Latin: heading \"LOLLUS LEOBCITHyE.\" (OCR for Lullus Leobgithae), dated by the editor \"Circa annum D>mini 752\" (OCR); \"Sorori in Christo charisslma; Leobgyiha Lulhis\" (OCR)",
     "witness": "PL96 (ildefonsus-julian-toledo-pl96-lat_migne1862.txt) l.67962-67967",
     "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Lul at Mainz: \"Lul was to follow\" ... \"him in Mainz\"",
+    "witness": "KYLIE (boniface_english-correspondence_kylie1911.txt) l.1753-1754",
+    "formation_confidence": "Documented"
    }
   ],
   "contested_claims": [],
@@ -558,7 +623,7 @@
    {
     "claim": "Place of the fire: Muirchu names \"The Graves of the Men of Fecc\"; White's note places them near Slane",
     "witness": "WHITE (patrick_writings-and-life-with-muirchu-eng_white1920.txt) l.4343, 6740-6744",
-    "formation_confidence": "Contested"
+    "formation_confidence": "Dominant Modern Reconstruction"
    },
    {
     "claim": "Bury and Macalister: \"According to Prof. Bury\" ... \"Muirchu (or his source), by a clever literary device, unites the features of two heathen festivals, on neither of which Easter could fall\"; \"Prof. Macalister, however\" ... \"defends the accuracy of Muirchu\"; Macalister's initials \"Prof. R. A. S. Macalister\" at l.6550",
@@ -599,6 +664,31 @@
     "claim": "Two manuscripts: \"Muirchu's work has come down to us in two MSS.\"; \"The Book of Armagh, folios 2-8, 20\"; \"MS. No. 64 in the Royal Library of Brussels\"",
     "witness": "WHITE (patrick_writings-and-life-with-muirchu-eng_white1920.txt) l.3603-3612",
     "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Tirechan's Loiguire, as White gives it: \"he was unable to believe\"; Loiguire \"tolerated Christianity, though he did not embrace it himself\"",
+    "witness": "WHITE (patrick_writings-and-life-with-muirchu-eng_white1920.txt) l.6555-6557, 6915-6921",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Temoria: \"Temoria = Tara.\"; Macalister's study \"Temair Breg; a Study of the\" ... \"Remains and Traditions of Tara.\"",
+    "witness": "WHITE (patrick_writings-and-life-with-muirchu-eng_white1920.txt) l.6548-6553",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Colgan: \"A collection of seven ancient Lives of St. Patrick was published at Louvain in 1647 by John Colgan\"",
+    "witness": "WHITE (patrick_writings-and-life-with-muirchu-eng_white1920.txt) l.1478-1479",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Sechnall: \"This is generally accepted as referring to the Hymn of St. Secundinus\"",
+    "witness": "WARREN (antiphonary-of-bangor-pt2-lat_warren1895.txt) l.10589-10590",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Sletty in Leinster: \"^dh, bishop of Sleibte (Sletty), on the borders of Co. Carlow\"; \"a literary tribute from Leinster to Armagh\"",
+    "witness": "WHITE (patrick_writings-and-life-with-muirchu-eng_white1920.txt) l.3766-3777",
+    "formation_confidence": "Documented"
    }
   ],
   "contested_claims": [
@@ -614,6 +704,13 @@
     "sides": [
      "Professor Bury, as White reports: it joins two heathen festivals, on neither of which Easter could fall (WHITE l.6751-6756)",
      "R. A. S. Macalister, as White reports: he defends Muirchu's accuracy (WHITE l.6756-6757)"
+    ]
+   },
+   {
+    "claim": "Whether King Loiguire believed",
+    "sides": [
+     "Muirchu: \"It is better for me to believe than to die\", and he believed (WHITE l.4741-4744)",
+     "Tirechan, whom White finds more credible: he was unable to believe (WHITE l.6915-6921)"
     ]
    }
   ],
@@ -671,7 +768,7 @@
    {
     "claim": "Clono: \"sed quaerit familia Clono^\" ... \"quia per uim tcnent locos Patricii multos post morta- litates nouissimas\"; Stokes's notes \"of Cluain (maccu Nois?)\" and \"A.D. G83, apparently.\" (OCR \"G83\")",
     "witness": "STOKES (stokes_tripartite-life-of-patrick-v2-lat-muirchu-tirechan-confession_1887.txt) l.3187-3224",
-    "formation_confidence": "Contested"
+    "formation_confidence": "Inferential-Thin"
    },
    {
     "claim": "Simple and stricter: \"Omnia hantem quae scrips! ab initio libri huius sem- plicia sunt. Omne autem quod restat strictius erit.\" (OCR \"hantem\", \"scrips!\")",
@@ -757,6 +854,21 @@
     "claim": "Gwynn: \"Royal Irish Academy in 1913 by Dr. John Gwynn\"; Tirechan \"derived mainly from Ultan\" is White's wording: \"his information was derived mainly from Ultan, bishop of Ardbraccan\"",
     "witness": "WHITE (patrick_writings-and-life-with-muirchu-eng_white1920.txt) l.1391-1393, 1537",
     "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Duchesne on reworking: \"Les deux pièces que j'ai citées spécialement\" ... \"avaient déjà, à cette date, subi quelques retouches ou compléments\"; \"il s'a- gissait de l'apôtre national, et aussi des intérêts de l'église\"",
+    "witness": "DUCH3 (duchesne_histoire-ancienne-de-leglise-tome3-fra_2e-ed1910.txt) l.22841-22850",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Archrobbers and warriors: \"archiclocos\" ... \"et miiites Hiberniae\" (OCR \"miiites\")",
+    "witness": "STOKES (stokes_tripartite-life-of-patrick-v2-lat-muirchu-tirechan-confession_1887.txt) l.3008-3010",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Clonmacnois spelled so by White: \"Ciaran of Clonmacnois\"",
+    "witness": "WHITE (patrick_writings-and-life-with-muirchu-eng_white1920.txt) l.8554",
+    "formation_confidence": "Documented"
    }
   ],
   "contested_claims": [
@@ -772,6 +884,13 @@
     "sides": [
      "Newport White, after Gwynn: the Celestine and Saul notes are Ferdomnach's (WHITE l.1026-1031, 7411-7419)",
      "Louis Duchesne: nothing past Stokes p.331, l.9 is Tirechan's (DUCH3 l.22844-22846); Stokes prints those notes on pages headed with Tirechan's Collections, before his Additions (STOKES l.4374-4405, 4529)"
+    ]
+   },
+   {
+    "claim": "The year Ultan died",
+    "sides": [
+     "Newport White: 657 (WHITE l.1393-1394)",
+     "Louis Duchesne: 656 (DUCH3 l.22835)"
     ]
    }
   ],
@@ -875,7 +994,7 @@
    {
     "claim": "White: \"Bishop Graves' emendation, Coguitosi for cognito si, is now generally accepted\"; \"Cogitosus is known as the author of a Life of St. Brigid of Kildare ; and Muirchu claims that in his attempt to write the Life of a great saint, he is following in his father's footsteps\"",
     "witness": "WHITE (patrick_writings-and-life-with-muirchu-eng_white1920.txt) l.3742-3751",
-    "formation_confidence": "Contested"
+    "formation_confidence": "Dominant Modern Reconstruction"
    },
    {
     "claim": "Before about 700: computed from White's placing of Muirchu at Birr, 695 to 697, if the father is Brigid's biographer",
@@ -883,9 +1002,24 @@
     "formation_confidence": "Inferential-Thin"
    },
    {
-    "claim": "Stokes's index: \"Cogitosus (A.I). 800-835), 269.\" (OCR \"A.I).\" for A.D.); separately \"Coguitosus, 269.\"",
-    "witness": "STOKES (stokes_tripartite-life-of-patrick-v2-lat-muirchu-tirechan-confession_1887.txt) l.21226, 22198",
+    "claim": "Stokes's index: \"Cogitosus (A.I). 800-835), 269.\" (OCR \"A.I).\" for A.D.); separately \"Coguitosus, 269.\"; both point to p.269, where \"Muirchu Maccumachthcni, notes by, 269.\" begins (OCR); that page is not in the held file",
+    "witness": "STOKES (stokes_tripartite-life-of-patrick-v2-lat-muirchu-tirechan-confession_1887.txt) l.21226, 22198, 21487",
     "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Jacques Basnage and Canisius: \"This is found in the second edition of\" ... \"Canisius, by Jacques Basnage {Thesaurus Monumen-\" (OCR)",
+    "witness": "ROBINSON (eugippius_life-of-saint-severinus_robinson1914.txt) l.4383-4384",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Jurisdiction: Stokes's index \"Jurisdiction of Patrick (paruchia Patricii)\"",
+    "witness": "STOKES (stokes_tripartite-life-of-patrick-v2-lat-muirchu-tirechan-confession_1887.txt) l.20166",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Cogitosus writes \"parochia per tofam Hibernensom terram diffusa\" (OCR)",
+    "witness": "PL72 (john-biclaro-leander-pl72-lat_migne1878.txt) l.58508",
+    "formation_confidence": "Documented"
    }
   ],
   "contested_claims": [
@@ -893,16 +1027,9 @@
     "claim": "When Cogitosus wrote",
     "sides": [
      "Migne prints him under 591, \"EODEM TEMPORE\" as Aregius (PL72 l.58415-58436)",
-     "Basnage: much later than Brigid, not her contemporary, from the painted images and the style (PL72 l.58442-58479)",
+     "Jacques Basnage: much later than Brigid, not her contemporary, from the painted images and the style (PL72 l.58442-58479)",
      "Newport White: Muirchu's father, so before about 700 (WHITE l.3741-3751, 3768-3770)",
      "Whitley Stokes's index: 800 to 835 (STOKES l.21226)"
-    ]
-   },
-   {
-    "claim": "Whether he is the father Muirchu names",
-    "sides": [
-     "For: Graves's correction, which White calls generally accepted, and White's identification (WHITE l.3741-3751)",
-     "Against, by implication: Stokes's index date of 800 to 835 would make him too late; Stokes lists the father separately as Coguitosus (STOKES l.21226, 22198)"
     ]
    }
   ],
@@ -921,11 +1048,11 @@
    },
    {
     "detail": "Basnage's own placing",
-    "note": "Basnage says he puts Cogitosus \"here\" following others. The held lines do not show whether that placing in his own edition was at 591 or was Migne's."
+    "note": "Basnage says he puts Cogitosus \"hic\", here, following others. He wrote it for his own edition of Canisius, and the held lines do not show where that placing was, or whether Migne added the year 591. The approved Brigid of Kildare card says Basnage \"says that placing follows others\"; that reading is to be checked against this note."
    }
   ]
  },
- "wilfrid-of-york": {
+ "wilfrid-of-ripon": {
   "claims": [
    {
     "claim": "Rome, the reading: \"His acquittal was much forwarded by the reading of the synod of Pope Agatho\"; \"Wilfrid, the beloved of God, bishop of the city of York\"; \"the hearers were amazed, and the reader stopping, they began to ask of one another, who that Bishop Wilfrid was? Then Boniface, the pope's counsellor\"; \"a man of such great authority, who had exercised the episcopal function near forty years, ought not to be condemned\"",
@@ -968,19 +1095,19 @@
     "formation_confidence": "Contested"
    },
    {
-    "claim": "Bede on the removal: \"a dissension broke out between King Egfrid and the most reverend prelate, Wilfrid, who was driven from his see\"",
-    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.9865-9884",
+    "claim": "Bede on the removal: \"a dissension broke out between King Egfrid and the most reverend prelate, Wilfrid, who was driven from his see\"; summary of years: \"Bishop Wilfrid was driven from his see by King Egfrid\"",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.9865-9884, 15351-15353",
     "formation_confidence": "Documented"
    },
    {
-    "claim": "Stephen on the queen: \"Nam regis Ecfrithi regina, nomine Iurmenburg\" ... \"invidia tune temporis torquebatur\" (OCR \"tune\")",
-    "witness": "RAINE (byrhtferth_vita-s-oswaldi-in-historians-of-the-church-of-york-v1-lat_raine1879.txt) l.6528-6530",
+    "claim": "Stephen on the queen: \"Nam regis Ecfrithi regina, nomine Iurmenburg\" ... \"invidia tune temporis torquebatur\" (OCR \"tune\"); Fridegod: \"Quomodo Ermenburgis regine insidias passus est\" (RAINE l.12983); Eadmer: \"Ermenburgis vero regali est. copulata eonjugio\" (l.16806)",
+    "witness": "RAINE (byrhtferth_vita-s-oswaldi-in-historians-of-the-church-of-york-v1-lat_raine1879.txt) l.6528-6530, 12983, 16806",
     "formation_confidence": "Contested"
    },
    {
-    "claim": "Nine months in prison, Stephen: \"in custodiam ducere, et novem menses sine ullo honore\" ... \"custodire censuerunt\"",
+    "claim": "Nine months in prison, Stephen: \"in custodiam ducere, et novem menses sine ullo honore\" ... \"custodire censuerunt\"; told by Stephen and, drawing on him, by Fridegod and Eadmer; Bede does not tell it",
     "witness": "RAINE (byrhtferth_vita-s-oswaldi-in-historians-of-the-church-of-york-v1-lat_raine1879.txt) l.7515-7518",
-    "formation_confidence": "Contested"
+    "formation_confidence": "Documented"
    },
    {
     "claim": "Kept out by the king: \"though he could not, by reason of the enmity of the aforesaid king, be received into his own country or diocese, yet he could not be restrained from preaching the Gospel\"",
@@ -1098,14 +1225,14 @@
     "formation_confidence": "Documented"
    },
    {
-    "claim": "Eadmer's birth year: \"Anno igitur Incarnationis® Verbi Dei sexcente-\" ... \"simo tricesimo quarto\" (OCR)",
+    "claim": "Eadmer's birth year: \"Anno igitur Incarnationis® Verbi Dei sexcente-\" ... \"simo tricesimo quarto\" (OCR); Eadmer's year, which agrees with Stephen's seventy-sixth year at a death in 709",
     "witness": "RAINE (byrhtferth_vita-s-oswaldi-in-historians-of-the-church-of-york-v1-lat_raine1879.txt) l.15160-15161",
-    "formation_confidence": "Contested"
+    "formation_confidence": "Inferential-Thin"
    },
    {
-    "claim": "Austerfield, Stephen: \"Synodo in campo qui dicitur Ouestraefelda\" (OCR)",
+    "claim": "Austerfield, Stephen: \"Synodo in campo qui dicitur Ouestraefelda\" (OCR); told by Stephen and, drawing on him, by Fridegod and Eadmer; Bede does not tell it",
     "witness": "RAINE (byrhtferth_vita-s-oswaldi-in-historians-of-the-church-of-york-v1-lat_raine1879.txt) l.8463-8464",
-    "formation_confidence": "Contested"
+    "formation_confidence": "Documented"
    },
    {
     "claim": "Plummer's Latin has no day: \"Defunctus est autem in monasterio suo, quod habebat\" ... \"in prouincia Undalum\"",
@@ -1141,14 +1268,34 @@
     "claim": "Raine on the Oswald Life: \"the earliest and the best\" ... \"Life of Oswald\"; Archbishop Odo \"carried off from Ripon to Canterbury what he believed to be the body of the great Wilfrid\"",
     "witness": "RAINE (byrhtferth_vita-s-oswaldi-in-historians-of-the-church-of-york-v1-lat_raine1879.txt) l.2125-2131, 2421-2424",
     "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Fridegod and Eadmer: \"Quomodo in carcere lucem. promeruit.\"; \"Qualiter dolose ad concilium episcoporwm, vocatus\" (OCR); Eadmer: \"tenebroso in carcere vinctum detruserunt\"; \"in campo qui dicitur Eastre-\"",
+    "witness": "RAINE (byrhtferth_vita-s-oswaldi-in-historians-of-the-church-of-york-v1-lat_raine1879.txt) l.13626, 14067, 17385, 18189-18190",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Whitby in Stephen: \"Hec ratio\" ... \"discipline Apostolice sedis est,° et peene totius mundi\" (OCR); Hild \"presente\" ... \"ganctimoniale matre piissima Hilde\" (OCR \"ganctimoniale\")",
+    "witness": "RAINE (byrhtferth_vita-s-oswaldi-in-historians-of-the-church-of-york-v1-lat_raine1879.txt) l.5070-5082, 5148-5149",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Oswy and Egfrid: \"Oswy, king of the Northumbrians\"",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.8719",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "John VI: Duchesne \"Jean VI (701-706)\"",
+    "witness": "LP1 (liber-pontificalis_texte-introduction-commentaire-t1-lat-fra_duchesne1886.txt) l.4384",
+    "formation_confidence": "Documented"
    }
   ],
   "contested_claims": [
    {
     "claim": "What moved the removal of 678",
     "sides": [
-     "Bede: King Egfrid drove him out, with no cause given (GILES l.9865-9884)",
-     "Stephen, his partisan biographer: Queen Iurmenburg's envy, and Theodore won over with gifts (RAINE l.6528-6571)"
+     "Bede: King Egfrid drove him out, with no cause given (GILES l.9865-9884, 15351-15353)",
+     "Stephen, his partisan biographer: Queen Iurmenburg's envy, and Theodore won over with gifts (RAINE l.6528-6571); Fridegod and Eadmer repeat the queen's part, drawing on Stephen (l.12983, 16806)"
     ]
    },
    {
@@ -1177,6 +1324,13 @@
     "sides": [
      "Odo of Canterbury: he received them and placed them in his metropolitan church (RAINE l.11019-11025); Raine calls this a stubborn fact for Canterbury (l.2664-2665)",
      "The earliest Life of Oswald: Oswald found the bishop's limbs at Ripon (RAINE l.33985-33987), which Raine reads as the elder Wilfrid (l.2442-2443)"
+    ]
+   },
+   {
+    "claim": "The size of the Ripon monastery",
+    "sides": [
+     "Bede V.19 and Stephen: thirty families (GILES l.13995-13996; RAINE l.4943-4944)",
+     "Bede III.25: forty families (GILES l.7938-7940)"
     ]
    }
   ],
@@ -1254,7 +1408,7 @@
    {
     "claim": "Prose Life names no city: \"acta hyeme, quae imminebat\" ... \"expleta est\" (OCR \"acta\" for peracta; footnote mark k)",
     "witness": "AASS3 (acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt) l.36469-36470",
-    "formation_confidence": "Contested"
+    "formation_confidence": "Documented"
    },
    {
     "claim": "Return to Farne: \"Having spent two years in his bishopric, he re- turned to his island and monastery\"",
@@ -1370,6 +1524,31 @@
     "claim": "Miracles at the tomb: \"The miracles sometimes wrought in that place testify the merits of them both\"",
     "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.11960-11962",
     "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The Lindisfarne monk's Life: \"etenim post paucas\" ... \"dies, celeherrimum obitum sancti Episcopi nostri\" (OCR \"celeherrimum\")",
+    "witness": "AASS3 (acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt) l.38829-38831",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Bede's year: \"same year that King Egfrid departed this\" ... \"life, he (as has been said) promoted to the\" ... \"bishopric of the church of Lindisfarne the holy and\" ... \"venerable Cuthbert\"; \"In the year 685, Egfrid, king of the Northumbrians, was slain.\"",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.11559-11568, 15365-15366",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Ripon in Bede's prose Life: Eata took \"quosdam e Fratibus secum, in\" ... \"quibus et Cuthbertum\"; the Bollandists: \"SS. Eata,\" ... \"Cuthbertus aliique propter Pascha Catholicum ceteros-\" ... \"que ritus reliquerunt Riponense monasterium\"",
+    "witness": "AASS3 (acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt) l.33599-33601, 34606-34612",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Bede's History on Ripon's first holders: \"would rather quit the place than adopt the catholic Easter\"",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.13996-14001",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Eata: \"Eata was one of Aidan's twelve boys of the English nation\"",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.8263-8264",
+    "formation_confidence": "Documented"
    }
   ],
   "contested_claims": [
@@ -1381,10 +1560,10 @@
     ]
    },
    {
-    "claim": "Where and by whom he was consecrated",
+    "claim": "When Cuthbert learned that the soul he saw was Aidan's",
     "sides": [
-     "Bede's History: at York, with Theodore as primate among seven bishops (GILES l.11757-11762)",
-     "Bede's prose Life: no city or archbishop named, only that it was done after the winter (AASS3 l.36469-36470)"
+     "Bede's prose Life: the next morning (AASS3 l.34343-34352)",
+     "The Lindisfarne monk's Life: some days later (AASS3 l.38829-38831)"
     ]
    }
   ],
