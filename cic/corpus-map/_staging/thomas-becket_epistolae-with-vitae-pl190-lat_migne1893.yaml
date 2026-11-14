@@ -1,0 +1,11 @@
+source_file: thomas-becket_epistolae-with-vitae-pl190-lat_migne1893.txt
+assignments:
+- row_id: thomas-becket_epistolae-with-vitae-pl190-lat_migne1893--thomas-becket-letters-and-the-early-lives-of-thomas-pl-190
+  work: Thomas Becket, letters, and the early Lives of Thomas (PL 190)
+  author: thomas-becket
+  locus: the whole volume
+  atlas_ids:
+  - latin-papal-church-gregorian
+  role: tradition
+  confidence: provisional
+  note: 'The archbishop''s letters and the Lives by his own circle, inside this window (national churches: England).'

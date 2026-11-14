@@ -1,0 +1,12 @@
+source_file: innocent-iii_opera-with-gesta-innocentii-pl214-lat_migne1853.txt
+assignments:
+- row_id: innocent-iii_opera-with-gesta-innocentii-pl214-lat_migne1853--innocent-iii-gesta-innocentii-iii-and-registers-including-books
+  work: Innocent III, Gesta Innocentii III and Registers (including books I-III and V) (PL 214)
+  author: innocent-iii
+  locus: the whole volume
+  atlas_ids:
+  - innocent-iii
+  - latin-papal-church-gregorian
+  role: tradition
+  confidence: provisional
+  note: The pope's own letters and the Gesta of his pontificate, inside these windows.

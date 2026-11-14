@@ -191,6 +191,16 @@ works:
     from the trial records. Clean OCR. It is the public-domain English reading route into
     the record that the originals only give in Latin.'
   source_file: lea_history-of-the-inquisition-of-the-middle-ages-v3_1888.txt
+- row_id: speculum-perfectionis_speculum-perfectionis-lat_sabatier1898--speculum-perfectionis-latin-sabatier-1898
+  work: Speculum perfectionis, Latin (Sabatier 1898)
+  author: speculum-perfectionis
+  locus: the Latin text from about OCR line 12409; add 12 to OCR line numbers
+  role: tradition
+  confidence: needs-ruling
+  note: 'The Latin of the Speculum perfectionis, placed as the held English of Evans 1899
+    is: its date of writing and its attribution to Leo are contested, and it sits between
+    the Franciscan Movement entry (to 1300) and the Spirituals entries.'
+  source_file: speculum-perfectionis_speculum-perfectionis-lat_sabatier1898.txt
 - row_id: speculum-perfectionis_mirror-of-perfection_evans1899--the-mirror-of-perfection-speculum-perfectionis-english-by
   work: The Mirror of Perfection (Speculum perfectionis), English by Sebastian Evans (1899)
   author: speculum-perfectionis

@@ -334,3 +334,59 @@ should keep the two-witness caveat it already carries.
 ### Next action
 
 The era 5 wants (1054-1300, 44 person sources, 12 major) in a fresh session, the same way.
+
+## 2026-11-13 — Church Family Tree wants, era 5 (1054-1300)
+
+**Done.** Seventy-one archive.org files for the era 5 rows of the combined wanted list (Open-Gaps 220 and 222):
+42 of the 44 person sources have a held text (some in part, and two already held: Nestor and George the Hagiorite),
+the four outside witnesses, and three of the four councils. Walter Daniel and Hadewijch have none. Each file was checked the batch 4 way. The host record was
+re-read, the title page read, and the doubtful years were read on page images (PL 152 and PL 182, both 1879;
+Hefele-Leclercq V.2, 1913; Matthew Paris IV, 1877). Every body after its header is byte for byte the host text.
+Two Opus reviewers took 36 and 35 files, and a third rechecked their corrections. File by file: `CFT-Wants.md`, era 5.
+The search record is `Build/Ministry/Operations/Audits/2026-11-13_library-era5/Search_Log.md`.
+
+**Decided here.**
+- Every modern edition the audits named is in copyright (Powell, Matarasso, Waddell, Tugwell, Armstrong, Upton-Ward,
+  Duggan, Sewter, Tschan, Babcock and Krey, Brooke and the rest). Each was replaced by an older
+  public-domain edition of the same text, usually the Migne, Rolls Series, Acta Sanctorum or Recueil edition, or
+  reported not found.
+- Hostile and outside witnesses are shelved as `context` on the entry they write about: Stephen of Bourbon,
+  Rainerius, Döllinger's documents (the Waldensians and the Cathars), Anna Komnene and Zigabenos (the Bogomils),
+  William of Tyre on the Maronite union, the Muslim and Jewish travellers and historians on Outremer, Marco Polo on
+  the Church of the East under the Mongols.
+- A later hagiographer or annalist whose words fall after the window is `context` (Tocco, Le Couteulx,
+  Seton's Agnes Legend). A text whose date of writing the volume does not settle goes in as `needs-ruling`: the
+  Cistercian founding texts, the Speculum perfectionis (placed as the held Evans is), Joachim's Tractatus (the
+  volume's series page files it under the twelfth century), Pakourianos's Typikon (the editor prints a later Greek
+  version), Norbert's Life (the fit of the Premonstratensians to the canons regular entry), Brother Leo's Scripta.
+- The Mirror of Simple Souls is shelved as an anonymous work (`needs-ruling`). The 1927 volume does not name
+  Marguerite Porete, so the header does not either; the shelf note records that scholars attribute it to her.
+- Rows 68 (Nestor) and 90 (George the Hagiorite) are held already, so their wanted-list rows say HELD with the held
+  files' own lines. The Primary Chronicle and the Paterik now also sit on `kievan-rus-christianity-1054-1240`
+  (the chronicle as tradition, the Paterik as context). Nestor's authorship of the chronicle stays Contested.
+- No Language line was written for English files; mixed volumes name their languages after the code.
+
+**For Mark.** Two finds were not vendored because their rights are a real question.
+- Hadewijch (row 73): the editions of 1875, 1895 and 1924-25 are only on dbnl.org, which gives no per-item licence and
+  warns that books under 140 years old may be protected. The Library thread did not take them.
+- Anna Komnene in English (row 88): Dawes's 1928 translation is on archive.org as a transcription from the Internet
+  Medieval Sourcebook, whose notice says it is presented solely for non-commercial educational and research
+  purposes. The text is public domain by date, but the notice is not. The Greek (Reifferscheid 1884) is held.
+
+**Corrected after review.** The reviewers found these, and all were fixed and rechecked:
+- Bruno's letter to Raoul le Verd was cited at a line that is Guigo's letter; the volume prints only an excerpt of it
+  and sends the reader elsewhere for the whole.
+- The Mirror of Simple Souls was headed with Porete's name; the title page says "an unknown French mystic".
+- Two Migne headers (PL 159 and PL 190) said Petit-Montrouge where the title pages read Garnier, Avenue du Maine.
+- "Zygabeni" for the title page's "Zygadeni"; a note on the burning of Basil that the volume does not carry.
+- The Alexias scan binds volumes I and II; the Commentationes scan binds volumes IV to VI; Röhricht's article is the
+  first instalment (letters I-II); PL 195 and PL 170 are shared volumes.
+- About a dozen line citations pointed at running heads, chapter lists or footnotes.
+
+**For the tree, not the Library.** The Waldensians, the Cathars and the Bogomils remain known mostly through hostile
+writers; the choice of edition does not change that. The Library now holds both the Greek of Zigabenos and the
+Latin and Greek of Anna Komnene for the Bogomils, and Stephen of Bourbon, Rainerius and Döllinger for the sects.
+
+### Next action
+
+The era 6 wants (1300-1517, 14 person sources, 4 major) in a fresh session, the same way.

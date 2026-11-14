@@ -1,0 +1,11 @@
+source_file: leo-assisi_scripta-fratris-leonis-lat_lemmens1901.txt
+assignments:
+- row_id: leo-assisi_scripta-fratris-leonis-lat_lemmens1901--scripta-fratris-leonis-socii-s-p-francisci-lemmens-1901
+  work: Scripta fratris Leonis socii S. P. Francisci (Lemmens 1901)
+  author: leo-assisi
+  locus: the whole volume
+  atlas_ids:
+  - the-franciscan-movement
+  role: tradition
+  confidence: needs-ruling
+  note: The writings attributed to Francis's companion Leo. Their date and attribution are for the tree to rule on.

@@ -1,0 +1,11 @@
+source_file: marco-polo_book-of-ser-marco-polo-v2_yule-cordier1903.txt
+assignments:
+- row_id: marco-polo_book-of-ser-marco-polo-v2_yule-cordier1903--marco-polo-the-book-of-ser-marco-polo-vol-ii-yule-cordier-1903
+  work: Marco Polo, The Book of Ser Marco Polo, vol. II (Yule-Cordier 1903)
+  author: marco-polo
+  locus: the whole volume; the Christian monument at Si-ngan fu from about OCR line 2864; add 11 to OCR line numbers
+  atlas_ids:
+  - church-of-the-east-under-the-mongols
+  role: context
+  confidence: provisional
+  note: The second volume, with the Chinese cities and the Nestorians there.

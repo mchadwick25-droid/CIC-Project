@@ -26,6 +26,16 @@ works:
   note: The Coptic-Arabic Synaxarion, a 13th-century compilation, in a French translation.
     Placed on its date.
   source_file: john-ephesus_lives-eastern-saints-po17_brooks1923.txt
+- row_id: renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713--renaudot-historia-patriarcharum-alexandrinorum-jacobitarum-the-s
+  work: Renaudot, Historia patriarcharum Alexandrinorum Jacobitarum; the section on Cyril
+    III ibn Laqlaq
+  author: renaudot
+  locus: the whole volume; Cyril III from about OCR line 34564; add 12 to OCR line numbers
+  role: context
+  confidence: provisional
+  note: A Catholic orientalist's Latin narrative of the patriarchs from Arabic sources, written
+    after the window and about it. It is not Cyril's own record.
+  source_file: renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713.txt
 - row_id: synaxaire-arabe-jacobite_po1-thout-babeh-synaxaire-ethiopien-fra_basset-guidi1907--synaxaire-arabe-tout-babeh--voice
   work: Le Synaxaire arabe jacobite, I (months of Tout and Babeh), with French
   author: synaxaire-arabe-jacobite

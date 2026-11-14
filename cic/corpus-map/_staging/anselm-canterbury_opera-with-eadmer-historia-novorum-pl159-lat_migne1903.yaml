@@ -1,0 +1,11 @@
+source_file: anselm-canterbury_opera-with-eadmer-historia-novorum-pl159-lat_migne1903.txt
+assignments:
+- row_id: anselm-canterbury_opera-with-eadmer-historia-novorum-pl159-lat_migne1903--anselm-of-canterbury-letters-iii-iv-and-other-works-eadmer-histo
+  work: Anselm of Canterbury, letters III-IV and other works; Eadmer, Historia novorum (PL 159)
+  author: anselm-canterbury
+  locus: the whole volume
+  atlas_ids:
+  - latin-papal-church-gregorian
+  role: tradition
+  confidence: provisional
+  note: The rest of the archbishop's letters and Eadmer's own history of his times, inside this window.

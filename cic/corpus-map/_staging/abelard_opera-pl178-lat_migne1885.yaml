@@ -1,0 +1,11 @@
+source_file: abelard_opera-pl178-lat_migne1885.txt
+assignments:
+- row_id: abelard_opera-pl178-lat_migne1885--peter-abelard-opera-pl-178
+  work: Peter Abelard, Opera (PL 178)
+  author: abelard
+  locus: the whole volume
+  atlas_ids:
+  - latin-papal-church-gregorian
+  role: tradition
+  confidence: provisional
+  note: The master's own works and the account of his troubles in his own voice, inside this window.

@@ -1,0 +1,11 @@
+source_file: usama-ibn-munqidh_arab-syrian-gentleman-and-warrior_hitti1929.txt
+assignments:
+- row_id: usama-ibn-munqidh_arab-syrian-gentleman-and-warrior_hitti1929--usama-ibn-munqidh-kitab-al-i-tibar-english-hitti-1929
+  work: Usama ibn Munqidh, Kitab al-I'tibar, English (Hitti 1929)
+  author: usama-ibn-munqidh
+  locus: the whole volume; the Frankish character from about OCR line 8349; add 11 to OCR line numbers
+  atlas_ids:
+  - latin-church-of-outremer
+  role: context
+  confidence: provisional
+  note: A Syrian emir's memoir with his view of the Franks and the Templars, an outside witness written inside this window. Copyright renewal was not checked; the title page gives 1929.

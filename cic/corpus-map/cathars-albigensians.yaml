@@ -22,6 +22,25 @@ works:
   confidence: provisional
   note: Placed on the handbook's subject matter without a full read.
   source_file: bernard-gui_manuel-inquisiteur-t2-lat-fra_mollat1927.txt
+- row_id: doellinger_beitraege-zur-sektengeschichte-des-mittelalters-v2-lat-deu_1890--d-llinger-beitr-ge-zur-sektengeschichte-ii-documents-on-the-wald
+  work: 'Döllinger, Beiträge zur Sektengeschichte II: documents on the Waldensians and Cathars'
+  author: doellinger
+  locus: the whole volume
+  role: context
+  confidence: provisional
+  note: A collection of the inquisitors' and chroniclers' documents on both movements, edited
+    in 1890.
+  source_file: doellinger_beitraege-zur-sektengeschichte-des-mittelalters-v2-lat-deu_1890.txt
+- row_id: martene-durand_thesaurus-novus-anecdotorum-v5-lat_1717--rainerius-sacconi-summa-de-catharis-thesaurus-novus-anecdotorum
+  work: Rainerius Sacconi, Summa de Catharis (Thesaurus novus anecdotorum V)
+  author: martene-durand
+  locus: the Summa from about OCR line 133105; the rest of the volume is other texts; add
+    12 to OCR line numbers
+  role: context
+  confidence: provisional
+  note: A former Cathar turned inquisitor on the Cathars and the Waldensians, from outside
+    both.
+  source_file: martene-durand_thesaurus-novus-anecdotorum-v5-lat_1717.txt
 - row_id: perrin_histoire-des-vaudois-parties-2-3-fra_1618--histoire-des-chrestiens-albigeois-part-ii-of-perrin-s
   work: Histoire des Chrestiens Albigeois (Part II of Perrin's Histoire des Vaudois, 1618)
   author: perrin

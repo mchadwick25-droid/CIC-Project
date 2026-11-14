@@ -1,0 +1,11 @@
+source_file: templars_la-regle-du-temple-fra-lat_curzon1886.txt
+assignments:
+- row_id: templars_la-regle-du-temple-fra-lat_curzon1886--la-r-gle-du-temple-the-latin-rule-and-the-french-rule-curzon-188
+  work: La Règle du Temple, the Latin Rule and the French Rule (Curzon 1886)
+  author: templars
+  locus: the whole volume
+  atlas_ids:
+  - military-religious-orders-templars-hospitallers
+  role: tradition
+  confidence: provisional
+  note: The order's own Rule and statutes in the early texts, inside this window.

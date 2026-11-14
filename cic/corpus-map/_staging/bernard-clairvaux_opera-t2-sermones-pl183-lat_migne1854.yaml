@@ -1,0 +1,11 @@
+source_file: bernard-clairvaux_opera-t2-sermones-pl183-lat_migne1854.txt
+assignments:
+- row_id: bernard-clairvaux_opera-t2-sermones-pl183-lat_migne1854--bernard-of-clairvaux-sermones-in-cantica-and-other-sermons-pl-18
+  work: Bernard of Clairvaux, Sermones in Cantica and other sermons (PL 183)
+  author: bernard-clairvaux
+  locus: the whole volume
+  atlas_ids:
+  - cistercian-monasticism
+  role: tradition
+  confidence: provisional
+  note: The abbot's sermons on the Song of Songs and his other sermons, inside this window.
