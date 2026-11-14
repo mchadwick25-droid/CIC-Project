@@ -41,7 +41,7 @@
     "Whether Leovigild entrusted him to Leander. Gregory the Great says so. O. M. Dalton reports Altamira's view that no record of the time proves it.",
     "His brother Hermenegild's end. John of Biclaro says Sisbert killed him at Tarragona. Gregory of Tours says his father killed him. Gregory the Great says Leovigild had him killed in prison for refusing the Arian communion; Dalton calls that account fictitious.",
     "The opposition. John of Biclaro names the Arian bishop Sunna and one Segga (Siuma and Segga in Mommsen's text), and later Bishop Uldila and Queen Gosuintha, his father's widow, as plotters against him. Gregory of Tours says Reccared recognized Gosuintha as his mother.",
-    "A letter in his name to Gregory the Great survives in the Spanish canon collection. James Barmby says its genuineness is considered doubtful. Paul Ewald and Ludwig Hartmann report that Gams and Mommsen judged it false, and think it badly preserved and corrupt in many places, in a note the scan cuts short.",
+    "A letter in his name to Gregory the Great survives in the Spanish canon collection. James Barmby says its genuineness is considered doubtful, and that it may be a forgery based on Gregory's letter to Reccared; he adds that its rough Latin is what Reccared's might well have been. Paul Ewald and Ludwig Hartmann report that Gams judged it false and Mommsen agreed. They answer that the priest Probinus carried it, beyond doubt, and think it badly preserved and corrupt in many places.",
     "His queen. Baddo signs the council's acts after him as glorious queen. Isidore says the mother of his son Liuva was of humble birth, and does not name her.",
     "The years. Isidore gives eras and John gives regnal years; every year in AD is a modern reckoning. A note signed Perez in Migne's Isidore gives 600 for his death and 601 for Liuva's accession."
   ],
@@ -51,11 +51,6 @@
         "title": "Third Council of Toledo: the king's addresses, book of faith, signature and edict, in Collectio canonum Ecclesiae Hispanae",
         "language": "Latin",
         "file": "cic/texts/collectio-canonum-ecclesiae-hispanae-toledo-iii-lat_1808.txt"
-      },
-      {
-        "title": "Excursus on the words \"and the Son\", with canon II and an anathema of Toledo III in English (Henry Percival)",
-        "language": "English translation",
-        "file": "cic/texts/npnf214_seven-ecumenical-councils.xml"
       }
     ],
     "about": [
@@ -118,6 +113,12 @@
         "date": "1888",
         "language": "Latin",
         "file": "cic/texts/fredegar-liber-historiae-francorum-vitae-mgh-srm-2-lat_krusch1888.txt"
+      },
+      {
+        "title": "Excursus on the words \"and the Son\", with canon II and an anathema of Toledo III in English, in Nicene and Post-Nicene Fathers, second series, volume 14",
+        "author": "Henry Percival",
+        "language": "English",
+        "file": "cic/texts/npnf214_seven-ecumenical-councils.xml"
       }
     ]
   }

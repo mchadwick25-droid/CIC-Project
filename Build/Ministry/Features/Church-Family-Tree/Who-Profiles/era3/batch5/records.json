@@ -135,7 +135,7 @@
  "gregory-of-tours": {
   "claims": [
    {
-    "claim": "In the 160th year (Brehaut) after Martin, Eufronius's seventh year, Sigibert's second, 'I became ill with malignant pimples and fever, and being unable to eat or drink ... thought of nothing but of the details of my burial'; called on Martin; fell ill again in the forest; friends: 'Let us return home'; he: 'carry my dead body there and bury it'; 'The third night after arriving at the holy church we planned to keep watch'; after sleeping 'I woke up and found that all weakness and pain were gone'",
+    "claim": "In the 160th year (Brehaut) after Martin, Eufronius's seventh year, Sigibert's second, 'I became ill with malignant pimples and fever, and being unable to eat or drink ... thought of nothing but of the details of my burial'; called on Martin; fell ill again in the forest; friends: 'Let us return home'; he: 'if I have merit to see the holy Martin's church, I shall thank God; but if not, carry my dead body there and bury it, because I am determined not to return home'; 'The third night after arriving at the holy church we planned to keep watch'; after sleeping 'I woke up and found that all weakness and pain were gone'",
     "witness": "Gregory, Miracles of Martin I.32, tr. Brehaut (gregory-tours_history-of-the-franks-selections_brehaut1916 l.11570-11619)",
     "formation_confidence": "Documented"
    },
@@ -181,7 +181,7 @@
    },
    {
     "claim": "'Anno centesimo septuagesimo secundo post transitum beati Martini antestitis, Sigiberto gloriosissimo rege duodecimo anno regnante, post excessum sancti Eufroni ... onus episcopati indignus accepi', with '573' in the margin; Arndt: consecration 'cum anno tantum 573 convenit'",
-    "witness": "Gregory, Mir. Mart. II.1, Latin (gregory-tours_opera-mgh-srm-1-lat_arndt-krusch1885 l.46663-46669, OCR); Arndt's preface (l.407)",
+    "witness": "Gregory, Mir. Mart. II.1, Latin (gregory-tours_opera-mgh-srm-1-lat_arndt-krusch1885 l.46663-46669, OCR); Arndt's preface (l.410)",
     "formation_confidence": "Documented"
    },
    {
@@ -319,7 +319,7 @@
    },
    {
     "claim": "Whether the leading charge at the trial was true",
-    "sides": "Gregory's own account, the account of the accused party: he denied the words and cleared himself by oath (gregory-tours_history-of-the-franks-v2_dalton1927 l.10700-10719). Leudast's side survives only in Gregory's telling; Riculf's confession under torture is also told by Gregory (l.10775-10782)."
+    "sides": "Gregory's own account, the account of the accused party: he denied the words and cleared himself by oath (gregory-tours_history-of-the-franks-v2_dalton1927 l.10700-10719). Leudast's side survives only in Gregory's telling; Riculf's confession under torture is also told by Gregory (l.10775-10782). The one outside witness to the council, Venantius Fortunatus's poem 'Ad Chilpericum regem quando synodus Brinnaco habita est' (Carm. IX.1; venantius-fortunatus_opera-mgh-aa-4-lat_leo-krusch1881 l.17820, OCR), is silent on the charge: Dalton, 'He says nothing of the affair mentioned by Gregory' (gregory-tours_history-of-the-franks-v2_dalton1927 l.27121-27123)."
    }
   ],
   "absent_details": [
@@ -880,7 +880,7 @@
    },
    {
     "claim": "The exile: when, and whether Leander was exiled after Constantinople or withdrew there",
-    "sides": "Isidore: books written in exile abroad, no place or date (PL83 l.122776-122778). Cave: exiled by Leovigild after returning from Constantinople, year OCR-damaged (PL72 l.65149-65151); Turchi: about 584 (turchi1907 l.2442-2446). Dalton: withdrew to Constantinople to escape Leovigild and returned only after his death (dalton1927 l.26925-26926, 28853-28854, 29205-29208)."
+    "sides": "Isidore: books written in exile abroad, no place or date (PL83 l.122776-122778). Cave: exiled by Leovigild after returning from Constantinople, year OCR-damaged (PL72 l.65149-65151); Turchi: exiled by Leovigild for Hermenegild's conversion, no year given (turchi1907 l.2438-2443; his 'about 584' is the start of Leander's years as bishop, l.2436, 2446). Dalton: withdrew to Constantinople to escape Leovigild and returned only after his death (dalton1927 l.26925-26926, 28853-28854, 29205-29208)."
    },
    {
     "claim": "Whether Leander was Reccared's uncle",
@@ -898,7 +898,7 @@
    },
    {
     "detail": "The place and date of his exile",
-    "note": "Isidore gives neither (PL83 l.122776-122778). Cave's year is OCR-damaged ('anno 384', PL72 l.65149); Turchi gives about 584. Searched PL72, PL83, Mommsen's Biclaro and Isidore, the Toledo acts, Gregory's letters (Barmby, Turchi, Ewald), Dalton, Gardner, Library of the Fathers notes."
+    "note": "Isidore gives neither (PL83 l.122776-122778). Cave's year is OCR-damaged ('anno 384', PL72 l.65149); Turchi gives no year for the exile (turchi1907 l.2438-2443). Searched PL72, PL83, Mommsen's Biclaro and Isidore, the Toledo acts, Gregory's letters (Barmby, Turchi, Ewald), Dalton, Gardner, Library of the Fathers notes."
    },
    {
     "detail": "The census year 579",
@@ -1168,7 +1168,7 @@
     "formation_confidence": "Documented"
    },
    {
-    "claim": "Tomus: 'me quoque, ut re ipsa conspicitis calore fidei accensum in eo Dominus excitavit, ut ... populum, qui sub nomine religionis famulabatur errori, ad agnitionem fidei et ecclesiae catholicae consortium revocarem. Adest enim omnis gens Gothorum inclyta'; 'Suevorum gentis infinita multitudo, quam praesidio coelesti nostro regno subjecimus'; 'has nobilissimas gentes ... quasi sanctum et placabile sacrificium per vestras manus aeterno Deo offero'",
+    "claim": "Tomus: 'me quoque, ut re ipsa conspicitis calore fidei accensum in eo Dominus excitavit, ut ... populum, qui sub nomine religionis famulabatur errori, ad agnitionem fidei et ecclesiae catholicae consortium revocarem. Adest enim omnis gens Gothorum inclyta'; 'Nec enim sola Gothorum conversio ad cumulum nostrae mercedis accessit, quinimmo et Suevorum gentis infinita multitudo, quam praesidio coelesti nostro regno subjecimus ... ad veritatis originem studio revocavimus' (the Goths are said to be present; the Sueves' conversion is added, not their presence); 'has nobilissimas gentes ... quasi sanctum et placabile sacrificium per vestras manus aeterno Deo offero'",
     "witness": "acts l.36672-36685",
     "formation_confidence": "Documented"
    },
@@ -1298,8 +1298,8 @@
     "formation_confidence": "Contested"
    },
    {
-    "claim": "Letter in Reccared's name to Gregory (Barmby IX.61; Ewald-Hartmann IX.227a, from the Hispana collection): Barmby, 'The genuineness of this letter is considered doubtful. It may have been a forgery founded on Epistle CXXII'; Ewald and Hartmann report Gams calls it false and Mommsen agrees, thinking it made up from the next letter; they think it 'male adservatam multisque locis corruptam' (note cut short in the scan)",
-    "witness": "npnf213 l.2250-2256; ewald-hartmann1893 l.15296-15300, 15333-15338 (OCR regularized)",
+    "claim": "Letter in Reccared's name to Gregory (Barmby IX.61; Ewald-Hartmann IX.227a, from the Hispana collection): Barmby, 'The genuineness of this letter is considered doubtful. It may have been a forgery founded on Epistle CXXII', adding that its bad Latin is what Reccared's 'was not unlikely to be'; Ewald and Hartmann report Gams calls it false and Mommsen agrees, thinking it made up from the next letter; they hold it carried 'sine dubio' by the priest Probinus, and think it 'male adservatam multisque locis corruptam', its rustic style fitting the time (the note's last word is cut off in the held lines)",
+    "witness": "npnf213 l.2254-2258; ewald-hartmann1893 l.15296-15300, 15333-15337 (OCR regularized)",
     "formation_confidence": "Contested"
    }
   ],
@@ -1322,7 +1322,7 @@
    },
    {
     "claim": "The letter in Reccared's name to Gregory",
-    "sides": "Barmby: considered doubtful, perhaps a forgery from Ep. CXXII (npnf213 l.2250-2256). Gams: false; Mommsen agrees (reported by Ewald and Hartmann, l.15333-15336). Ewald and Hartmann: badly preserved and corrupt in many places (l.15336-15338)."
+    "sides": "Doubted: Barmby, 'considered doubtful', perhaps a forgery founded on Ep. CXXII, though 'The Latin in the original is in many parts incorrect and ungrammatical; being such indeed Reccared's was not unlikely to be' (npnf213 l.2254-2258). Gams: false, its rustic style unfit for a letter to the pope; Mommsen agrees, thinking it made up from the next letter (both reported by Ewald and Hartmann, l.15334-15336). Genuine: Ewald and Hartmann head it 'translata sine dubio per Probinum presbyterum' (l.15333) and answer 'equidem credo et hanc ep. male adservatam multisque locis corruptam esse et rusticitatem stili huic tempori ...' (l.15337; the note's last words fall outside the held lines)."
    },
    {
     "claim": "The year of his death",

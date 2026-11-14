@@ -5,7 +5,7 @@
     "Gregorius Turonensis"
   ],
   "knownFor": "Bishop of Tours under the Frankish kings and writer of the History of the Franks, the Miracles of Martin of Tours and the Lives of the Fathers, who stood against King Chilperic on the Trinity and cleared himself by oath when charged with slandering Queen Fredegund.",
-  "dates": "Born in 538 or 539 and died on 17 November 594, in W. Arndt's reckoning; Bruno Krusch, in the same edition, puts his death on 17 November 593. Bishop from 573, the year his editors set for his own count, the 172nd year after Martin's passing. No ancient source used here gives the year of his birth or death",
+  "dates": "Born in 538 or 539 and died on 17 November 594, in W. Arndt's reckoning; Bruno Krusch, in the same edition, puts his death on 17 November 593. Bishop from 573, the year W. Arndt sets for Gregory's own count, the 172nd year after Martin's passing. No ancient source used here gives the year of his birth or death",
   "place": "Clermont in Auvergne, where Ernest Brehaut says he was born and grew up; Tours, as its bishop",
   "tradition": "Merovingian Gallic Christianity",
   "role": "Bishop of Tours; historian and writer of saints' miracles and lives",
@@ -36,12 +36,12 @@
     ]
   },
   "uncertain": [
-    "The trial. His own History is the account of the accused party. Leudast's charge and the council are known only from Gregory. The council met at Brinnacum in the Latin, which is Berny in O. M. Dalton's English and Braine in Ernest Brehaut's. Dalton notes that Venantius Fortunatus's poem for the council says nothing of the affair. Brehaut warns that readers \"must allow largely for error and prejudice in his statements of fact\".",
+    "The trial. His own History is the account of the accused party, and Leudast's charge and the trial are known only from Gregory. The council met at Brinnacum in the Latin, which is Berny in O. M. Dalton's English and Braine in Ernest Brehaut's. Venantius Fortunatus wrote a poem to King Chilperic for it; Dalton notes that the poem praises Queen Fredegund and says nothing of the affair. Brehaut warns that readers \"must allow largely for error and prejudice in his statements of fact\".",
     "His years. No ancient source used here gives the year of his birth or death. W. Arndt reckons his birth in 538 or 539, from his mother's healing thirty-four years after it, and his death on 17 November 594. Bruno Krusch, in the same volume, puts the death on 17 November 593, from Gregory's twenty-first year as bishop and the unfinished fourth book of the Miracles of Martin. Brehaut gives 538 to 594, and a note in W. D. Foulke's translation of Paul the Deacon gives about 538 and 594 or 595. The Tours calendars give the day only.",
     "His consecration day. Krusch puts it on 20 August 573, Arndt on 23 August and Dalton on 24 August. Arndt thinks it likely that King Sigibert placed him at Tours, rather than the citizens choosing him.",
     "His great-grandfather. Gregory's Latin calls Gregory, bishop of Langres, \"proavum nostrum\", and Arndt and Krusch make that Gregory his mother Armentaria's grandfather. Brehaut says great-grandfather; Dalton translates \"our ancestor\" and calls him great-great-grandfather in a note.",
     "The year of his healing at Martin's tomb. His Latin gives the 163rd year after Martin's passing, which Arndt reckons as 563; Brehaut's English has the hundred and sixtieth. Arndt says Gregory was already a deacon then.",
-    "A journey to Rome. A Life of Gregory, which Arndt dates to the tenth century, says he went to Rome before his death; Arndt rejects it. That Life is not held.",
+    "A journey to Rome. A Life of Gregory, which Arndt dates to the tenth century, says he went to Rome before his death; Arndt rejects it. No copy of that Life is quoted here.",
     "His name. Arndt says it is doubtful whether he took the name Gregory only when ordained; Brehaut says he dropped the name Georgius Florentinus to honour his great-grandfather."
   ],
   "sources": {
@@ -94,7 +94,6 @@
       {
         "title": "Poems, book V.3, To the citizens of Tours, on Bishop Gregory",
         "author": "Venantius Fortunatus",
-        "date": null,
         "language": "Latin",
         "file": "cic/texts/venantius-fortunatus_opera-mgh-aa-4-lat_leo-krusch1881.txt"
       },
