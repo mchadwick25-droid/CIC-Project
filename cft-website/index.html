@@ -374,6 +374,7 @@ svg.strip-on #era-labels{display:none}
 #siteMenu a:focus-visible,#siteMenu button:focus-visible{outline:2px solid var(--madder);outline-offset:2px}
 #panel a{color:var(--tyrian)}
 #panel .formal{margin-top:-.1rem}
+#panel details.era-more summary{min-height:44px;display:flex;align-items:center;font-size:.95rem}
 #panel .page-feedback{margin:1.4rem 0 0;padding:.9rem 0 0;border-top:1px solid var(--rule);max-width:none}
 #panel .who-btn.conn-btn{background:none;color:var(--iron-gall);border-color:var(--rule)}
 #panel .who-btn.conn-btn:hover{border-color:var(--gold-leaf)}
@@ -113117,13 +113118,35 @@ function openPanelRiver(f,members){
 function openEraCard(i){
   hideTip(); pinMovement(null); clearConnections();
   const e=eras[i];
-  let h=`<h2 id="panelTitle">${e.num}. ${esc(e.title)}</h2>`;
-  if(e.academicName)h+=`<p class="meta formal">${esc(e.academicName)}</p>`;
-  h+=`<p class="meta">${esc(e.dates)} · ${eraCounts[i]} traditions on ${eraLaneCounts[i]} rivers</p>`;
-  if(e.tag)h+=`<p class="teaser">${esc(e.tag)}</p>`;
-  if(WORLD_CONTEXT[e.num])h+=`<p>${esc(WORLD_CONTEXT[e.num])}</p>`;
-  if(ERA_CLOSE[e.num])h+=`<p>${esc(ERA_CLOSE[e.num])}</p>`;
+  const councils=councilEntries.filter(c=>c.era===e.num).sort((a,b)=>a.start-b.start);
+  const born=laneKeys.filter(k=>k!==0&&eraIndexOfY(laneGenesisY[k]||0)===i).map(k=>famOf(k).name);
+  const people=[]; riverWho.forEach((list,key)=>{if(+key.split(':')[1]===i)list.forEach(a=>people.push(a));});
+  const majors=people.filter(a=>a.major).sort((a,b)=>a.year-b.year);
+  const mapStories=(DATA.stories||[]).filter(s=>eraOfYear(+s.year)===i).sort((a,b)=>a.year-b.year);
+  const tradStories=churchBodies.filter(m=>m.era===e.num&&m.documentedStories&&m.documentedStories.length).sort((a,b)=>a.start-b.start);
+  const nTrad=tradStories.reduce((n,m)=>n+m.documentedStories.length,0);
+  let h=`<h2 id="panelTitle">${e.num}. ${esc(e.title)}</h2><p class="meta">${esc(e.dates)} · ${eraCounts[i]} traditions on ${eraLaneCounts[i]} rivers</p>`;
+  if(WORLD_CONTEXT[e.num])h+=`<h3>How the era opens</h3><p>${esc(WORLD_CONTEXT[e.num])}</p>`;
+  if(councils.length)h+=`<h3>Major councils</h3><ul class="person-list">${councils.map(c=>`<li><button type="button" class="panel-link" data-id="${esc(c.id)}">${esc(c.shortName||c.name)}</button> <span class="meta">${esc(c.dates||'')}</span></li>`).join('')}</ul>`;
+  if(born.length)h+=`<h3>Rivers that begin here</h3><p>${born.map(esc).join(' · ')}</p>`;
+  if(majors.length){
+    h+=`<h3>People to meet</h3><ul class="person-list">${majors.slice(0,12).map(a=>`<li><button type="button" class="panel-link" data-person="${esc(a.P.key)}">${esc(a.P.entry.name)}</button>${a.m.gap?'':` <span class="meta">${esc(a.m.shortName||a.m.name)}</span>`}</li>`).join('')}</ul>`;
+    h+=`<p class="meta">${majors.length>12?`And ${majors.length-12} more major people. `:''}${people.length} ${people.length===1?'person':'people'} in all.</p>`;
+  }
+  if(mapStories.length||nTrad){
+    h+='<h3>Stories from this era</h3>';
+    if(mapStories.length)h+=`<p class="meta">On the map · ${mapStories.length}</p><ul class="person-list">${mapStories.map((s,j)=>`<li><button type="button" class="panel-link" data-era-story="${j}">${esc(s.title)}</button> <span class="meta">${esc(String(s.year))}</span></li>`).join('')}</ul>`;
+    if(nTrad)h+=`<details class="brief-text era-more"><summary>In the traditions' cards · ${nTrad} ${nTrad===1?'story':'stories'} in ${tradStories.length} ${tradStories.length===1?'tradition':'traditions'}</summary>${tradStories.map(m=>`<h4>${esc(m.shortName||m.name)}</h4><ul class="person-list">${m.documentedStories.map((s,j)=>`<li><button type="button" class="panel-link" data-era-trad="${esc(m.id)}" data-idx="${j}">${esc(s.title)}</button>${s.when?` <span class="meta">${esc(String(s.when))}</span>`:''}</li>`).join('')}</ul>`).join('')}</details>`;
+  }
+  if(ERA_CLOSE[e.num])h+=`<h3>How the era closes</h3><p>${esc(ERA_CLOSE[e.num])}</p>`;
   stopNarration(); panelBody.innerHTML=h;
+  wirePanelLinks();
+  panelBody.querySelectorAll('[data-era-story]').forEach(b=>b.addEventListener('click',()=>openPanelStory(mapStories[+b.dataset.eraStory])));
+  panelBody.querySelectorAll('[data-era-trad]').forEach(b=>b.addEventListener('click',()=>{
+    const m=byId[b.dataset.eraTrad], j=b.dataset.idx; openPanel(m);
+    const item=panelBody.querySelector(`details.docstory-item[data-story-idx="${j}"]`);
+    if(item){item.open=true;item.scrollIntoView({block:'start'});const sum=item.querySelector('summary');if(sum)sum.focus();}
+  }));
   showPanel(null);
   syncWorldURL(null);
 }
