@@ -1,0 +1,138 @@
+{
+  "name": "Isidore of Seville",
+  "otherNames": [
+    "Isidorus Hispalensis",
+    "Isidorus Iunior"
+  ],
+  "knownFor": "Bishop of Seville after his elder brother Leander of Seville, and author of the Etymologies. His friend Braulio of Zaragoza says it gathers well-nigh everything that ought to be known. He signed first at the Fourth Council of Toledo.",
+  "dates": "Bishop of Seville for almost forty years, from King Reccared's time to King Sisenand's, Ildefonsus of Toledo says. Theodor Mommsen sets his death in 636, from Braulio, Ildefonsus and an epitaph that gives 4 April. Mommsen puts the start of his time as bishop in Reccared's last years or under King Liuva; Ernest Brehaut gives probably 600. No source used here gives his birth year",
+  "place": "Seville, in the province of Baetica; his father Severianus was of the province of Cartagena, Isidore says; Toledo, for councils and the king's court",
+  "tradition": "Nicene Visigothic Iberia",
+  "role": "Bishop of Seville, metropolitan of the province of Baetica; writer",
+  "briefLength": "about 2 minutes 25 seconds",
+  "keyWorks": [
+    {
+      "title": "Etymologies, or Origins",
+      "about": "twenty books on the arts, medicine, law, the church, peoples, the earth and the things of daily life, explained through the origins of their names; Braulio says Isidore left it unfinished and that he divided it into books"
+    },
+    {
+      "title": "Sentences",
+      "about": "three books, which Braulio says Isidore adorned with passages from Pope Gregory the Great's Moralia"
+    },
+    {
+      "title": "History of the Goths, Vandals and Sueves",
+      "about": "a history of the Gothic kings down to King Suinthila's reign, with shorter histories of the Vandals and Sueves, opening with a praise of Spain; it says King Sisebut had zeal but not according to knowledge"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Braulio of Zaragoza says he divided the Etymologies into twenty books. Before his own copy came, he wrote to Isidore, many people already had it cut short and damaged.",
+      "The Fourth Council of Toledo, where Isidore signed first, ruled that no one should be forced to believe. Those already baptized by force under King Sisebut, it said, must keep the faith.",
+      "Ildefonsus of Toledo carried on Isidore's book On Famous Men and gave Isidore a chapter of his own."
+    ],
+    "remembered": [
+      "Braulio, in Ernest Brehaut's English: \"In him antiquity reasserted itself—or rather, our time laid in him a picture of the wisdom of antiquity.\"",
+      "Braulio applies to him Cicero's words to Varro, in Brehaut's English: \"your books brought us home, as it were, so that we could at last recognize who and where we were.\"",
+      "In a letter signed in his own hand, Braulio calls him a burning lamp that does not fade.",
+      "Ildefonsus says his speaking had such richness that it left his hearers struck with wonder."
+    ]
+  },
+  "uncertain": [
+    "His life is known mostly from his friend Braulio of Zaragoza, from Ildefonsus of Toledo, from his own letters and from the acts of councils. Ernest Brehaut says surprisingly little is known of it. Brehaut calls the Lives by Lucas Tudensis and Rodericus Cerratensis, both of the thirteenth century, full of fables; they are not among the sources used here.",
+    "When he became bishop. Ildefonsus says he followed his brother Leander and held the see for almost forty years. Theodor Mommsen puts his start in Reccared's last years or under King Liuva. Ernest Brehaut gives probably 600. The year of Leander's death is itself disputed.",
+    "The day of his death. Theodor Mommsen gives 4 April 636, from an epitaph and the martyrologies. He reports the account of his death by Redemptus, which has him die four days after a public penance. Mommsen thinks the 31 March given with that account is, it seems, an error. Ernest Brehaut gives April 636, from Redemptus. Redemptus's account is not among the sources used here.",
+    "Whether he presided at the Fourth Council of Toledo. Its acts give him the first signature. Ernest Brehaut says he probably presided there. Brehaut also says he presided at the Second Council of Seville in 619, whose acts name him first among the bishops.",
+    "To whom he sent the Etymologies. Braulio says Isidore wrote it at his request. Its covering letter is addressed to King Sisebut in W. M. Lindsay's edition, and to Braulio in the text Migne reprints from Flórez. Lindsay reports manuscripts that head the work to Braulio, to Sisebut, or to both.",
+    "The book's early copies. Isidore says he sent it from the road uncorrected, because of illness. Lindsay says the copy behind all the manuscripts was full of faults. It is often unclear, he says, whether a confusion is Isidore's own or a scribe's."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Etymologiarum sive Originum libri XX, with the letters between Isidore and Braulio (ed. W. M. Lindsay)",
+        "date": "1911",
+        "language": "Latin",
+        "file": "cic/texts/isidore-seville_etymologiae-origines-lat_lindsay1911.txt"
+      },
+      {
+        "title": "Extracts of the Etymologies, in An Encyclopedist of the Dark Ages (tr. Ernest Brehaut)",
+        "date": "1912",
+        "language": "English translation",
+        "file": "cic/texts/isidore-seville_encyclopedist-of-the-dark-ages-extracts_brehaut1912.txt"
+      },
+      {
+        "title": "Sentences, On the Offices of the Church, Synonyms, Rule for Monks, Letters, History of the Goths and On Famous Men, in Patrologia Latina 83",
+        "language": "Latin",
+        "file": "cic/texts/isidore-seville_sententiae-eccl-officiis-historia-gothorum-pl83-lat_migne1860.txt"
+      },
+      {
+        "title": "Chronicle and History of the Goths, Vandals and Sueves, in Chronica minora 2 (ed. Theodor Mommsen)",
+        "date": "1894",
+        "language": "Latin",
+        "file": "cic/texts/chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894.txt"
+      },
+      {
+        "title": "Letters to Braulio, in Patrologia Latina 80",
+        "language": "Latin",
+        "file": "cic/texts/paulus-emeritanus-braulio-sisebut-pl80-lat_migne1863.txt"
+      },
+      {
+        "title": "Signatures to the Second Council of Seville, the Fourth Council of Toledo and King Gundemar's decree, in Collectio canonum Ecclesiae Hispanae",
+        "language": "Latin",
+        "file": "cic/texts/collectio-canonum-ecclesiae-hispanae-toledo-iii-lat_1808.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Letters to Isidore, in Patrologia Latina 80",
+        "author": "Braulio of Zaragoza",
+        "language": "Latin",
+        "file": "cic/texts/paulus-emeritanus-braulio-sisebut-pl80-lat_migne1863.txt"
+      },
+      {
+        "title": "Account of Isidore and list of his works, in An Encyclopedist of the Dark Ages (tr. Ernest Brehaut)",
+        "author": "Braulio of Zaragoza",
+        "date": "1912",
+        "language": "English translation",
+        "file": "cic/texts/isidore-seville_encyclopedist-of-the-dark-ages-extracts_brehaut1912.txt"
+      },
+      {
+        "title": "On Famous Men, chapter 9, in Patrologia Latina 96",
+        "author": "Ildefonsus of Toledo",
+        "language": "Latin",
+        "file": "cic/texts/ildefonsus-julian-toledo-pl96-lat_migne1862.txt"
+      },
+      {
+        "title": "Rule for Florentina, in Patrologia Latina 72",
+        "author": "Leander of Seville",
+        "language": "Latin",
+        "file": "cic/texts/john-biclaro-leander-pl72-lat_migne1878.txt"
+      },
+      {
+        "title": "Acts of the Second Council of Seville and the Fourth Council of Toledo, in Collectio canonum Ecclesiae Hispanae",
+        "language": "Latin",
+        "file": "cic/texts/collectio-canonum-ecclesiae-hispanae-toledo-iii-lat_1808.txt"
+      },
+      {
+        "title": "Preface to Isidore's History of the Goths, in Chronica minora 2",
+        "author": "Theodor Mommsen",
+        "date": "1894",
+        "language": "Latin",
+        "file": "cic/texts/chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894.txt"
+      },
+      {
+        "title": "An Encyclopedist of the Dark Ages: Isidore of Seville",
+        "author": "Ernest Brehaut",
+        "date": "1912",
+        "language": "English",
+        "file": "cic/texts/isidore-seville_encyclopedist-of-the-dark-ages-extracts_brehaut1912.txt"
+      },
+      {
+        "title": "Preface to the Etymologies",
+        "author": "W. M. Lindsay",
+        "date": "1911",
+        "language": "Latin",
+        "file": "cic/texts/isidore-seville_etymologiae-origines-lat_lindsay1911.txt"
+      }
+    ]
+  }
+}

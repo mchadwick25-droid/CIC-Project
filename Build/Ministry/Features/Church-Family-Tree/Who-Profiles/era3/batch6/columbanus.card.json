@@ -1,0 +1,123 @@
+{
+  "name": "Columbanus",
+  "otherNames": [
+    "Columban",
+    "Columba",
+    "Columbanus Hibernus"
+  ],
+  "knownFor": "Irish monk who founded Luxeuil and other houses in Frankish Gaul and Bobbio in Lombard Italy, and wrote a monastic rule, a penitential and letters. Jonas of Bobbio says King Theuderic of Burgundy drove him out after he rebuked the king's way of life.",
+  "dates": "Died at Bobbio on 21 November, after a single year there, Jonas of Bobbio says. Dana Munro gives the year as probably 615. Andrea Gallandi gives 615, after Charles Le Cointe and Mabillon. No source used here gives his birth year. Gallandi reports that he is said to have been born about the middle of the sixth century. William Dudley Foulke's note to Paul the Deacon gives about 543",
+  "place": "Leinster in Ireland by birth, Jonas says; the monastery of Bangor; Anegray, Luxeuil and Fontaines in the Vosges; Bregenz among the Swabians; Bobbio in the Apennines",
+  "tradition": "Insular / Irish Monastic Christianity; Merovingian Gallic Christianity",
+  "role": "Monk; abbot and founder of Luxeuil and Bobbio; writer of a monastic rule, a penitential, sermons, letters and poems",
+  "briefLength": "about 2 minutes 30 seconds",
+  "keyWorks": [
+    {
+      "title": "Rule for monks",
+      "about": "ten chapters on obedience, silence, food, poverty, chastity, the psalms and discretion; it asks a monk to fast, pray, work and read each day"
+    },
+    {
+      "title": "Penitential",
+      "about": "a scale of penances for monks, clergy and lay people, which holds that different sins need different cures; F. W. H. Wasserschleben holds it was written on the Continent"
+    },
+    {
+      "title": "Letters",
+      "about": "six letters under his name, written to Pope Gregory the Great, to a council of Gallic bishops, twice to Pope Boniface IV, to his monks from Nantes and to a disciple. In several he names himself Columba, a dove"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Jonas of Bobbio names houses founded under his rule by people he had blessed. They include Donatus, bishop of Besançon, and his brother Ramelen, and the brothers Ado, at a house Dana Munro identifies as Jouarre, and Dado, on the little river Rebais.",
+      "Eustasius, his pupil and later abbot of Luxeuil, defended his Rule against the monk Agrestinus before a council at Mâcon. The account is from Jonas's Life of Eustasius, which Giovanni Domenico Mansi prints. Mansi dates the council to 627; Johann Albert Fabricius reports Mabillon's 624 and Charles Le Cointe's 625.",
+      "Laurence, who followed Augustine as archbishop in Kent, wrote with his fellow bishops to the Irish, in a letter Bede gives. They had learned from Abbot Columbanus in Gaul, they say, that the Irish in no way differ from the Britons in their behaviour."
+    ],
+    "remembered": [
+      "Jonas of Bobbio: \"If anyone wishes to learn of his activity, let him seek it in the saint's writings\", in Dana Munro's English.",
+      "Paul the Deacon, the Lombard historian, says he came into Italy from Luxeuil and was kindly received by the king of the Langobards. He built Bobbio, Paul says, and a great community of monks grew up there.",
+      "Andrea Gallandi judges his sermons most worthy of reading, full of piety joined to equal eloquence. He calls the letters written with burning zeal and Christian freedom."
+    ]
+  },
+  "uncertain": [
+    "His life comes mainly from Jonas of Bobbio, a monk of the house Columbanus founded. Jonas wrote after his death and names companions of the saint among his sources. Dana Munro, Jonas's translator, says Jonas came to Bobbio three years after Columbanus died. The Life is a saint's Life, full of miracles, and it takes his side. It calls Brunhild a second Jezebel and has the family of Theuderic destroyed as Columbanus foretold. The Chronicle called Fredegar's tells the quarrel with Theuderic and Brunhild. Bruno Krusch notes that the chapter is for the most part copied word for word from Jonas.",
+    "His age when he left Ireland. Jonas's text gives his twentieth year. Dana Munro notes that the manuscripts differ and thinks the thirtieth more likely; Andrea Gallandi gives the thirtieth.",
+    "The king who received him in Gaul. Jonas names King Sigibert as ruler of Austrasia and Burgundy. Dana Munro notes that Sigibert died in 575 and was king only of Austrasia. Andrea Gallandi places Luxeuil in the kingdom of Burgundy under King Guntram. He reports 590 for Columbanus's coming there, from Le Cointe and Mabillon, and adds that the time is not plainly settled.",
+    "His age at death. His poem to Fedolius says he had reached eighteen Olympiads. Ussher, as Andrea Gallandi reports, reckons seventy-two years if an Olympiad is four years, or ninety if five. Mabillon, as Gallandi quotes him, and Goldast, in his notes to the poems, take the five-year Olympiad and ninety years. Gallandi prefers seventy-two.",
+    "The year of his quarrel with Theuderic. The Chronicle called Fredegar's puts it in Theuderic's fourteenth year, which Bruno Krusch reckons as 608.",
+    "The dates of his letters. The Benedictine editors of Gregory's letters, as James Barmby reports, date the letter to Gregory to 598 or 599. Mabillon, as Gallandi reports, dates the letter to the Gallic bishops to 602, by its twelve years in the woods. A note in Mansi's tenth volume says it is not clear whether the twelve years count from his coming to Gaul or to Luxeuil. Gallandi dates the letter from Nantes to 610, after Mabillon. He dates the letter to Pope Boniface IV on the Three Chapters to 615.",
+    "Whether Gregory answered. James Barmby says no reply is extant and probably none was sent. In his later letter to Boniface IV, Columbanus says Satan twice hindered the bearers of his letters to Gregory.",
+    "His Penitential. F. W. H. Wasserschleben says it was written on the Continent, in Burgundy or northern Italy. Patrick Fleming first published it in 1667, he says, from a manuscript of Bobbio. Jonas says Columbanus wrote a learned work against the Arians at Milan; Johann Albert Fabricius lists it among his lost works."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Rule, Penitential, Sermons, Letters and Poems, with the notices of Johann Albert Fabricius and Andrea Gallandi, in Patrologia Latina 80",
+        "language": "Latin",
+        "file": "cic/texts/paulus-emeritanus-braulio-sisebut-pl80-lat_migne1863.txt"
+      },
+      {
+        "title": "Letter to Pope Gregory, in Nicene and Post-Nicene Fathers, second series, volume 13, with James Barmby's note (tr. James Barmby)",
+        "language": "English translation",
+        "file": "cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml"
+      },
+      {
+        "title": "Poenitentiale Columbani, in Die Bussordnungen der abendländischen Kirche (ed. F. W. H. Wasserschleben)",
+        "date": "1851",
+        "language": "Latin",
+        "file": "cic/texts/wasserschleben_die-bussordnungen-der-abendlaendischen-kirche-lat-deu_1851.txt"
+      },
+      {
+        "title": "Letters, in Sacrorum conciliorum collectio 10 (ed. Giovanni Domenico Mansi)",
+        "language": "Latin",
+        "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-10-lat_welter-facsimile1901.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Life of St. Columban (tr. Dana C. Munro), with Munro's introduction and notes",
+        "author": "Jonas of Bobbio",
+        "date": "1895",
+        "language": "English translation",
+        "file": "cic/texts/jonas-bobbio_life-of-st-columban_munro1895.txt"
+      },
+      {
+        "title": "Chronicle called Fredegar's, book IV.36, with Bruno Krusch's notes, in MGH Scriptores rerum Merovingicarum 2",
+        "author": "Fredegar",
+        "date": "1888",
+        "language": "Latin",
+        "file": "cic/texts/fredegar-liber-historiae-francorum-vitae-mgh-srm-2-lat_krusch1888.txt"
+      },
+      {
+        "title": "History of the Langobards IV.41, with William Dudley Foulke's notes (tr. W. D. Foulke)",
+        "author": "Paul the Deacon",
+        "date": "1907",
+        "language": "English translation",
+        "file": "cic/texts/paul-the-deacon_history-of-the-langobards_foulke1907.txt"
+      },
+      {
+        "title": "Ecclesiastical History of the English People II.4 (tr. J. A. Giles, rev. L. C. Jane)",
+        "author": "Bede",
+        "language": "English translation",
+        "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt"
+      },
+      {
+        "title": "The council of Mâcon, with Jonas's account from the Life of Eustasius, in Sacrorum conciliorum collectio 10",
+        "author": "Giovanni Domenico Mansi",
+        "language": "Latin",
+        "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-10-lat_welter-facsimile1901.txt"
+      },
+      {
+        "title": "Notices of Columbanus, reprinted in Patrologia Latina 80",
+        "author": "Johann Albert Fabricius; Andrea Gallandi",
+        "language": "Latin",
+        "file": "cic/texts/paulus-emeritanus-braulio-sisebut-pl80-lat_migne1863.txt"
+      },
+      {
+        "title": "Introduction on the penitentials, in Die Bussordnungen der abendländischen Kirche",
+        "author": "F. W. H. Wasserschleben",
+        "date": "1851",
+        "language": "German",
+        "file": "cic/texts/wasserschleben_die-bussordnungen-der-abendlaendischen-kirche-lat-deu_1851.txt"
+      }
+    ]
+  }
+}

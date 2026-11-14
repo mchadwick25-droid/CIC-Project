@@ -1,0 +1,65 @@
+{
+  "name": "Constantius of Lyon",
+  "knownFor": "A man of Lyon in Gaul, friend of Sidonius Apollinaris, who wrote the Life of Germanus of Auxerre at the order of Bishop Patiens of Lyon, the account of Germanus's life and journeys to Britain that Bede later copied.",
+  "dates": "Wilhelm Levison dates the Life of Germanus about 480 or a little later, and Constantius's peacemaking at Clermont about 473. No source used here gives the year of his birth or death",
+  "place": "Lyon, in Gaul",
+  "tradition": "British and Welsh Christianity",
+  "role": "Writer of the Life of Germanus of Auxerre; poet",
+  "briefLength": "about 2 minutes",
+  "keyWorks": [
+    {
+      "title": "Life of Germanus, bishop of Auxerre (Vita Germani)",
+      "about": "written at the order of Bishop Patiens of Lyon and sent with letters to Patiens and to Censurius, bishop of Auxerre; it tells Germanus's life as a lawyer, governor and bishop, his journeys to Britain against the Pelagians, and his death at Ravenna"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Bede copied large parts of the Life almost word for word into his History of the English, Wilhelm Levison shows.",
+      "Levison finds the Life used or imitated by Ennodius of Pavia in his Life of Epiphanius, by Venantius Fortunatus in his Life of Radegund and by Adomnán of Iona, who set Germanus's dangers at sea beside Columba's."
+    ],
+    "remembered": [
+      "Sidonius Apollinaris dedicated his collected letters to him. As Levison reports, he praised him as a man grave with age and venerable in religion, devoted to reading Scripture and outstanding in eloquence.",
+      "Isidore of Seville, in his book on famous men, writes that Constantius the bishop composed the Life of Germanus."
+    ]
+  },
+  "uncertain": [
+    "His own life is thin in the sources. No source used here gives his family, his birth, his death or his orders. What is known comes from his two dedicatory letters and from Sidonius Apollinaris's letters to and about him. Those letters are not among the sources used here and are known only through Wilhelm Levison's summary and quotations.",
+    "Whether he was a cleric. Levison cannot say whether he was a cleric or a layman given to the religious life. The headings of some manuscripts of an interpolated second Life of Germanus call him a priest. Isidore of Seville calls him a bishop, which Levison counts an error. Levison suggests the error may come from the copy Isidore used, since a Spanish manuscript also names him bishop, or from the word sinner after his name, a word bishops of that age often used.",
+    "His years. The date about 480 or a little later for the Life is Levison's reckoning. It rests on the long time Constantius says had passed since Germanus's death and on Patiens, bishop of Lyon from 449, who died some time before 494. The year about 473 for his peacemaking at Clermont is also Levison's date.",
+    "How far the Life can be trusted. Levison says Constantius wrote less as a biographer than as a writer of saints' Lives. Wonders of little weight fill much of the book, as in Sulpicius Severus's Life of Martin of Tours, and more than fifteen years of events are packed into a short span. Levison knows no other witness to the victory over the Saxons and Picts known as the Alleluia victory. Yet with so few witnesses, he holds, the book must not be scorned.",
+    "Who sent Germanus to Britain. Prosper of Aquitaine says Pope Celestine sent him. Constantius names no pope and says a synod of Gallic bishops chose him. Levison holds that any account of how the two fit together can only be a guess.",
+    "Whether Gregory of Tours knew the Life. Bruno Krusch says Gregory copied a whole chapter of his Miracles of Julian word for word from it without naming it. Levison holds that Gregory did not know it, since Gregory has Germanus die at Rome, where the Life has Ravenna."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Life of Germanus, with the letters to Patiens and Censurius (ed. Wilhelm Levison, Monumenta Germaniae Historica, Scriptores rerum Merovingicarum 7)",
+        "language": "Latin",
+        "file": "cic/texts/constantius-lyon_vita-germani_levison1920.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Prolegomena to the Life of Germanus",
+        "author": "Wilhelm Levison",
+        "date": "1920",
+        "language": "Latin",
+        "file": "cic/texts/constantius-lyon_vita-germani_levison1920.txt"
+      },
+      {
+        "title": "On Famous Men, 17 (Patrologia Latina 83)",
+        "author": "Isidore of Seville",
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/isidore-seville_sententiae-eccl-officiis-historia-gothorum-pl83-lat_migne1860.txt"
+      },
+      {
+        "title": "Introduction to the eight books of Miracles of Gregory of Tours",
+        "author": "Bruno Krusch",
+        "date": "1885",
+        "language": "Latin",
+        "file": "cic/texts/gregory-tours_opera-mgh-srm-1-lat_arndt-krusch1885.txt"
+      }
+    ]
+  }
+}

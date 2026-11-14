@@ -1,0 +1,72 @@
+{
+  "name": "John Moschus",
+  "otherNames": [
+    "Joannes Moschus",
+    "Joannes Eucrata",
+    "Joannes Eviratus"
+  ],
+  "knownFor": "Monk of Palestine who travelled with his disciple Sophronius, later patriarch of Jerusalem, and gathered the sayings and deeds of the monks they met into the Spiritual Meadow, which he dedicated to him.",
+  "dates": "No ancient line used here gives a year of his life. The old notice set before the Meadow ties his travels to the reigns of the emperors Tiberius and Maurice. Daniel Papebroch reckons the return of his body to Palestine in 620, and Johann Albert Fabricius reports 620 for his death from John Bolland. Aloysius Lipomanus says the time is not known for certain and guesses the book was written about 600",
+  "place": "The monastery of Saint Theodosius; the desert by the Jordan; the New Laura of Saint Sabas; travels to Antioch, Alexandria and Rome, where he died",
+  "tradition": "Chalcedonian Monasticism - Judean Desert & Gaza",
+  "role": "Priest and monk, as the old notice calls him; gatherer of monks' stories",
+  "briefLength": "about 2 minutes",
+  "keyWorks": [
+    {
+      "title": "The Spiritual Meadow (Pratum spirituale; in Greek, Leimon)",
+      "about": "short chapters of the sayings and deeds of monks, many told in the first person, often with Sophronius at his side. Papebroch counts 219 chapters in his day; Photius, as Papebroch quotes him, found up to 342 in some copies"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "The Second Council of Nicaea, in 787, heard a monk read out a whole chapter of the Meadow under Sophronius's name. In it a demon tells a hermit on the Mount of Olives to stop venerating his icon of Mary holding Christ, and the abbot Theodore, then at the Laura of Pharan, tells him it would be better to enter every brothel in the city than refuse to venerate Christ and his mother.",
+      "John the Deacon, writing the Life of Gregory the Great, put one of its stories, told by Abba John the Persian, into Latin, as Aloysius Lipomanus notes.",
+      "Daniel Papebroch thinks the book first spread under Sophronius's name because Sophronius carried it from Rome to Palestine with his master's body and made it known."
+    ],
+    "remembered": [
+      "John of Damascus quoted it in his defence of icons as the work of Sophronius.",
+      "Johann Albert Fabricius calls it a very well-known book, not without fabulous tales.",
+      "Aloysius Lipomanus, bishop of Verona, who printed it in Latin when it had been printed only in Italian, wrote that it seemed to have sprung from the delights of Paradise."
+    ]
+  },
+  "uncertain": [
+    "His own life is thin in the sources. It rests on the old notice set before the Meadow, which Daniel Papebroch prints in Latin and says Photius partly copied, and on what the Meadow itself tells. The notice gives no author or date. Photius's own notice of the book is not among the sources used here and is known through Papebroch and Lipomanus.",
+    "Whose book. John of Damascus, the Second Council of Nicaea and Nicephorus Callistus, as Fabricius quotes him, give it to Sophronius. Lipomanus answers that John wrote it, and that it carries Sophronius's name because it is addressed to him, because he walks through it, or because he may have helped to write it. Papebroch adds that Sophronius first made it known.",
+    "His years. Papebroch reckons from the notice that Moschus was sent to Egypt early in the reign of Tiberius, which he dates to the end of 579, and left Palestine after Maurice's murder, about the end of 602. He puts the arrival in Rome at the end of Pope Deusdedit's time or the start of Boniface's, and the return of the body to Palestine in 620. Fabricius found 620 for his death in John Bolland.",
+    "Where he wrote. The notice says he wrote down what he saw and heard as he travelled, and at Rome too. Papebroch thinks the book was finished at Rome.",
+    "His names. The old notice calls him John, priest and monk, surnamed Moschus. Migne's heading for the Greek title calls him John Eucrata, and Lipomanus's Latin calls him John Eviratus. Lipomanus says Photius gives the name Moschus, and thinks the Latin translator may have turned his surname into Eviratus.",
+    "No English translation of the Meadow is among the sources used here. The brief tells it from the Latin version printed beside the Greek."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "The Spiritual Meadow (Pratum spirituale), Latin version beside the Greek, in Patrologia Graeca 87.3",
+        "language": "Latin translation",
+        "file": "cic/texts/john-moschus_pratum-spirituale-sophronius-opera-grc-lat_migne-pg87-3.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Life of Sophronius, collected from various sources, with the old notice of John Moschus, from the Acta Sanctorum for March, in Patrologia Graeca 87.3",
+        "author": "Daniel Papebroch",
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/john-moschus_pratum-spirituale-sophronius-opera-grc-lat_migne-pg87-3.txt"
+      },
+      {
+        "title": "Notice on John Moschus, from the Bibliotheca Graeca as edited by Harles, in Patrologia Graeca 87.3",
+        "author": "Johann Albert Fabricius",
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/john-moschus_pratum-spirituale-sophronius-opera-grc-lat_migne-pg87-3.txt"
+      },
+      {
+        "title": "Letter to the reader, before the Spiritual Meadow, in Patrologia Graeca 87.3",
+        "author": "Aloysius Lipomanus, bishop of Verona",
+        "date": "1558",
+        "language": "Latin",
+        "file": "cic/texts/john-moschus_pratum-spirituale-sophronius-opera-grc-lat_migne-pg87-3.txt"
+      }
+    ]
+  }
+}

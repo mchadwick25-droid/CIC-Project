@@ -1,0 +1,97 @@
+{
+  "name": "John of Biclaro",
+  "otherNames": [
+    "Iohannes abbas Biclarensis",
+    "Joannes Gerundensis"
+  ],
+  "knownFor": "Gothic monk and chronicler who studied at Constantinople, founded the monastery of Biclaro and became bishop of Gerona. His Chronicle carries on from Victor of Tunnuna's and ends with King Reccared's fourth year and the Third Council of Toledo.",
+  "dates": "No source used here gives his birth year or a firm year of his death. Isidore of Seville says he came home from Constantinople after seventeen years, while King Leovigild was pressing the Arian teaching. Theodor Mommsen thinks the return likely about 576, and places the ten years of exile in 577 to 586. A John of Gerona signs a council at Barcelona in King Reccared's fourteenth year, which Mommsen gives as 599. He also signs a decree of King Gundemar, which Mommsen gives as 610",
+  "place": "Scallabis in Lusitania by birth, Isidore of Seville says; Constantinople; exile at Barcelona; Biclaro, at a place Theodor Mommsen calls unknown; Gerona",
+  "tradition": "Nicene Visigothic Iberia",
+  "role": "Monk, founder and abbot of Biclaro; bishop of Gerona; chronicler",
+  "briefLength": "about 2 minutes",
+  "keyWorks": [
+    {
+      "title": "Chronicle",
+      "about": "year-by-year notes from the first year of the emperor Justin the Younger to King Reccared's fourth, on the empire, the Lombards, the Franks and the Visigoths; it ends with the Third Council of Toledo"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Isidore of Seville drew on the Chronicle for his own chronicle and History of the Goths. Theodor Mommsen says Isidore plundered John as he did Victor of Tunnuna.",
+      "His account of the Third Council of Toledo says its business lay chiefly with Leander of Seville and Eutropius, abbot of the monastery of Servitanum. It likens Reccared to Constantine at Nicaea and Marcian at Chalcedon.",
+      "Ildefonsus of Toledo says Nonnitus followed a John in the see of Gerona."
+    ],
+    "remembered": [
+      "Isidore of Seville calls the Chronicle a very useful history, in a historical and well-ordered style.",
+      "Isidore says his rule for Biclaro was useful for the monastery and needful for all who fear God."
+    ]
+  },
+  "uncertain": [
+    "His life is known mainly from Isidore of Seville's short notice in On Famous Men. Theodor Mommsen says Isidore wrote it while John was still alive. The Chronicle does not tell of his own exile. Mommsen notes that it writes of Leovigild, the king who exiled him, with great admiration.",
+    "How long he stayed at Constantinople. Isidore's text in Mommsen's edition gives seventeen years. Some copies read the seventh year. Mommsen holds to seventeen, since from 567 to about 576 the Chronicle reports embassies, triumphs, plots and plagues at Constantinople.",
+    "When he became bishop of Gerona. Isidore gives no year. Andrea Gallandi, whose notice Migne reprints, reports Nicolás Antonio's view that Reccared recalled him from exile and raised him to Gerona in 592. At the Third Council of Toledo the bishop of Gerona who signs is Alicius. Mommsen takes the John of Gerona who signs at Barcelona and under Gundemar to be the chronicler.",
+    "When he died. Gallandi reports Mariana's view that he died after 621, under King Suinthila, leaving Gerona to Nonnitus, and Nicolás Antonio's that he lived to 620. Ildefonsus of Toledo names Nonnitus as his successor and gives no year. Nonnitus signs as bishop of Gerona at the Fourth Council of Toledo.",
+    "Where Biclaro stood. Theodor Mommsen says it is unknown. He rejects the view of Spanish writers that it was at Vallclara near Tarragona, which he says rests only on a likeness of names. Gallandi says most writers after Mariana place it at the foot of the Pyrenees.",
+    "His rule for Biclaro. Isidore names it. A note printed with Benedict of Aniane's Concordia of Rules says it could no longer be found. The note quotes Calmet, who places Biclaro at Valclara in Catalonia.",
+    "The years. Mommsen wrote the years in his margin to his own scheme. He warns that it is not certain John counted them so, still less that each event fell in the year shown. If his reckoning holds, he says, the Chronicle was written in 590.",
+    "The people he calls the Maccurritae, whose envoys brought gifts to Justin and who, he says, received the faith of Christ in these years. Mommsen suggests they may be the Makkourai of Mauretania that Ptolemy names. Isidore's chronicle calls them the Mascuritae."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Chronicle, with Theodor Mommsen's preface and notes, in Chronica minora 2",
+        "date": "1894",
+        "language": "Latin",
+        "file": "cic/texts/chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894.txt"
+      },
+      {
+        "title": "Chronicle, in Patrologia Latina 72",
+        "language": "Latin",
+        "file": "cic/texts/john-biclaro-leander-pl72-lat_migne1878.txt"
+      },
+      {
+        "title": "Signatures as John of Gerona to the Second Council of Barcelona and King Gundemar's decree, in Collectio canonum Ecclesiae Hispanae",
+        "language": "Latin",
+        "file": "cic/texts/collectio-canonum-ecclesiae-hispanae-toledo-iii-lat_1808.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "On Famous Men, chapter 44, in Patrologia Latina 83",
+        "author": "Isidore of Seville",
+        "language": "Latin",
+        "file": "cic/texts/isidore-seville_sententiae-eccl-officiis-historia-gothorum-pl83-lat_migne1860.txt"
+      },
+      {
+        "title": "Preface to the Chronicle of John of Biclaro, in Chronica minora 2",
+        "author": "Theodor Mommsen",
+        "date": "1894",
+        "language": "Latin",
+        "file": "cic/texts/chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894.txt"
+      },
+      {
+        "title": "Notice of John, reprinted in Patrologia Latina 72",
+        "author": "Andrea Gallandi",
+        "language": "Latin",
+        "file": "cic/texts/john-biclaro-leander-pl72-lat_migne1878.txt"
+      },
+      {
+        "title": "On Famous Men, chapter 10, in Patrologia Latina 96",
+        "author": "Ildefonsus of Toledo",
+        "language": "Latin",
+        "file": "cic/texts/ildefonsus-julian-toledo-pl96-lat_migne1862.txt"
+      },
+      {
+        "title": "Acts of the Third and Fourth Councils of Toledo, in Collectio canonum Ecclesiae Hispanae",
+        "language": "Latin",
+        "file": "cic/texts/collectio-canonum-ecclesiae-hispanae-toledo-iii-lat_1808.txt"
+      },
+      {
+        "title": "Note on the rule of John of Biclaro, in Benedict of Aniane's Concordia regularum, Patrologia Latina 103",
+        "language": "Latin",
+        "file": "cic/texts/benedict-aniane_concordia-regularum-with-ardo-vita-pl103-lat_migne1851.txt"
+      }
+    ]
+  }
+}

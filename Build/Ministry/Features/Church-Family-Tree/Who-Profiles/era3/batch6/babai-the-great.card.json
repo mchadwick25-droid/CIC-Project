@@ -1,0 +1,127 @@
+{
+  "name": "Babai the Great",
+  "otherNames": [
+    "Mar Babhai",
+    "Babai of Izla"
+  ],
+  "knownFor": "Abbot of the great monastery on Mount Izla who, while the Church of the East in the Persian empire had no head under King Khosrau Parwez, visited its monasteries to drive out teachings it judged heretical. He wrote against Henana of Adiabene and set out, in his Book of the Union, how Christ is both God and man.",
+  "dates": "No ancient line used here gives his birth year. The Chronicle of Seert says he died at seventy-five in the thirty-eighth year of Khosrau, and Addai Scher reckons from it a birth in 552 or 553 and a succession as abbot in 603 or 604. Thomas of Marga has him alive after Khosrau's murder, which E. A. Wallis Budge dates to 628; Budge puts his flourishing about 569 to 628",
+  "place": "Beth 'Ainatha in Beth Zabdai by origin; Nisibis; the great monastery on Mount Izla",
+  "tradition": "The Church of the East under Persia",
+  "role": "Abbot of the great monastery on Mount Izla; visitor of the monasteries; theologian",
+  "briefLength": "about 2 minutes 30 seconds",
+  "keyWorks": [
+    {
+      "title": "Book of the Union",
+      "about": "on the union of God and man in Christ, listed by the Chronicle of Seert and by Abdisho of Nisibis. Addai Scher says a manuscript survives; J. Labourt quotes passages in French from an unpublished copy that J.-B. Chabot lent him"
+    },
+    {
+      "title": "Life of the martyr George",
+      "about": "a monk of Izla, once a Magian named Mihramgushnasp, put to death under Khosrau. J.-B. Chabot translates two passages, among them the charges against Henana of Adiabene and George's arguments on the natures of Christ; Scher says Paul Bedjan published the Syriac"
+    },
+    {
+      "title": "Short commentary on the words of Evagrius",
+      "about": "listed by the Chronicle of Seert; Addai Scher says a manuscript is in the Vatican"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Thomas of Marga says eighty-four of his works were preserved in his day and held in honour by the church; Abdisho of Nisibis counts eighty-three.",
+      "J. Labourt judges that his writings, by their wide spread, helped the official teaching of his church on Christ to prevail.",
+      "Thomas tells that many monks who left Izla in the quarrel over the monk Jacob founded monasteries across the East, Jacob's Beth Abe among them.",
+      "In 612, the Chronicle of Seert says, he was too weak and old to join the bishops' debate before Khosrau, but helped them with his pen."
+    ],
+    "remembered": [
+      "Ishoyahb, a bishop who later became catholicos as Ishoyahb III, wrote to him praising the zeal that had brought the faith through many years of storms, and wrote to the monks of Izla on the death of their great and most illustrious leader.",
+      "Thomas of Marga calls him learned and wise, and leaves out the ban he laid on Jacob out of respect for him.",
+      "W. A. Wigram says that Babai, though not a bishop, acted as patriarch as far as authority went."
+    ]
+  },
+  "uncertain": [
+    "His life is told by later admirers. The Chronicle of Seert is a later Arabic history, and Thomas of Marga wrote about 840 by E. A. Wallis Budge's date, at Beth Abe, the house founded by the monk Jacob whom Babai drove out. The nearest witness is Ishoyahb, later catholicos as Ishoyahb III, whose letters to him and on his death survive in Rubens Duval's Latin.",
+    "The charges against Henana of Adiabene. They rest on Babai's own writings, the Life of George and, as J. Labourt reports it, the Book of the Union. Oskar Braun calls Babai passionate and speaks of his exaggerations and contradictions; Labourt calls him Henana's antagonist.",
+    "His end. The Chronicle of Seert says he died at seventy-five in Khosrau's thirty-eighth year, which its editor Addai Scher reads as before the king's death. Thomas of Marga says that after Khosrau's murder the fathers begged him to become catholicos and he refused. Labourt thinks the offer was made only for form.",
+    "His years as abbot. The Chronicle of Seert says he ruled the monastery twenty-four years, and Scher reckons he followed his predecessor Dadisho in 603 or 604. J. Labourt puts Dadisho's death between 615 and 620.",
+    "His part in the vacancy. Thomas says three metropolitans asked him to visit the monasteries; the angel in Thomas's story calls him the vicar of the catholicos. J.-B. Chabot says the archdeacon Mar Aba and Babai directed the church in those years.",
+    "Namesakes. He is not Babai the catholicos of 497 to 502 in J.-B. Chabot's dates, nor Rabban Babai of Gebilta, the singer and founder of schools whom Thomas places under the catholicos Selibha-zekha, nor Babai bar Nisibnaye, Babai of Nisibis or Babai the Scribe."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Life of the martyr George, two passages in the Synodicon orientale (French tr. J.-B. Chabot)",
+        "language": "French translation",
+        "file": "cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt"
+      },
+      {
+        "title": "Book of the Union, passages quoted in Le christianisme dans l'empire perse (French tr. J. Labourt)",
+        "language": "French translation",
+        "file": "cic/texts/labourt_le-christianisme-dans-l-empire-perse-sassanide-fra_1904.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "The Book of Governors, volume 2, Book I (English tr. E. A. Wallis Budge)",
+        "author": "Thomas of Marga",
+        "date": "1893",
+        "language": "English translation",
+        "file": "cic/texts/thomas-of-marga_book-of-governors-v2-english_budge1893.txt"
+      },
+      {
+        "title": "Chronicle of Seert, second part, chapter LXXXIV and others (French tr. Addai Scher)",
+        "author": "Anonymous",
+        "date": "1919",
+        "language": "French translation",
+        "file": "cic/texts/chronicle-of-seert_histoire-nestorienne-seconde-partie-po13-ara-fra_scher1919.txt"
+      },
+      {
+        "title": "Book of Letters, letters written while a bishop (Latin tr. Rubens Duval)",
+        "author": "Ishoyahb III",
+        "date": "1905",
+        "language": "Latin translation",
+        "file": "cic/texts/ishoyahb-iii_liber-epistularum-versio-lat_duval-csco1905.txt"
+      },
+      {
+        "title": "Catalogue of writers, in The Nestorians and their Rituals, volume 2 (English tr. George Percy Badger)",
+        "author": "Abdisho of Nisibis",
+        "date": "1852",
+        "language": "English translation",
+        "file": "cic/texts/badger_nestorians-and-their-rituals-v2_1852.txt"
+      },
+      {
+        "title": "Notes to The Book of Governors",
+        "author": "E. A. Wallis Budge",
+        "date": "1893",
+        "language": "English",
+        "file": "cic/texts/thomas-of-marga_book-of-governors-v2-english_budge1893.txt"
+      },
+      {
+        "title": "Le christianisme dans l'empire perse",
+        "author": "J. Labourt",
+        "date": "1904",
+        "language": "French",
+        "file": "cic/texts/labourt_le-christianisme-dans-l-empire-perse-sassanide-fra_1904.txt"
+      },
+      {
+        "title": "Synodicon orientale, notes and appendix",
+        "author": "J.-B. Chabot",
+        "date": "1902",
+        "language": "French",
+        "file": "cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt"
+      },
+      {
+        "title": "Das Buch der Synhados",
+        "author": "Oskar Braun",
+        "date": "1900",
+        "language": "German",
+        "file": "cic/texts/synodicon-orientale_das-buch-der-synhados-deu_braun1900.txt"
+      },
+      {
+        "title": "An Introduction to the History of the Assyrian Church",
+        "author": "W. A. Wigram",
+        "date": "1910",
+        "language": "English",
+        "file": "cic/texts/wigram_introduction-to-the-history-of-the-assyrian-church-100-640_1910.txt"
+      }
+    ]
+  }
+}

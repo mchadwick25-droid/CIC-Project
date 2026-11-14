@@ -1,0 +1,94 @@
+{
+  "name": "Gennadius of Marseilles",
+  "otherNames": [
+    "Gennadius Massiliensis",
+    "Gennadius presbyter Massiliensis"
+  ],
+  "knownFor": "Priest of Marseilles who carried on Jerome's Lives of Illustrious Men with notices of the church writers after Jerome, saying which of their books he had read and judging their teaching.",
+  "dates": "Ernest Cushing Richardson dates most of his Lives of Illustrious Men about 480. Richardson and Blomfield Jackson give 496 for his death, and Theodor Mommsen places him at the end of the fifth century. No ancient source used here gives the year of his birth or death",
+  "place": "Marseilles, in Gaul",
+  "tradition": "Gallic Monastic-Ascetic Christianity",
+  "role": "Priest; writer of the Lives of Illustrious Men",
+  "briefLength": "about 2 minutes",
+  "keyWorks": [
+    {
+      "title": "Lives of Illustrious Men (De viris illustribus)",
+      "about": "notices of Christian writers after Jerome, from James of Nisibis to the end of the fifth century, with what each wrote and what Gennadius had read of it"
+    },
+    {
+      "title": "Book of Church Dogmas (De ecclesiasticis dogmatibus)",
+      "about": "a short statement of the faith in numbered chapters, printed among the doubtful works of Augustine; Walafrid Strabo and later writers give it to Gennadius, and other manuscripts to other authors"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Ernest Cushing Richardson calls the joint work of Jerome and Gennadius unique and indispensable for early Christian writing, and of prime value for the years after Eusebius's Church History ends.",
+      "Later editors still lean on his notices: Theodor Mommsen on the writings of Prosper of Aquitaine, and Blomfield Jackson on the works of Theodoret of Cyrus."
+    ],
+    "remembered": [
+      "Alcuin cites the Book of Church Dogmas on the Holy Spirit as the work of Gennadius of Marseilles, whom he calls a bishop.",
+      "The theologians of Louvain, as an unsigned note in Migne's edition of Augustine reports, placed him in the party of the Gauls against whom Prosper and Hilary wrote to Augustine and the second Council of Orange met. They also warned of grave errors in his catalogue."
+    ]
+  },
+  "uncertain": [
+    "His own life is thin in the sources. Little is known of it beyond his work. The notice in the first person that closes the Lives, which names him a presbyter of Marseilles and lists his books, is in few manuscripts, and Ernest Cushing Richardson thinks it is by a later hand.",
+    "His years. The year 496 for his death is given in notes by Richardson and by Blomfield Jackson in the same English volume, with no reason given in the lines used here. Theodor Mommsen and the Acta Sanctorum place him at the end of the fifth century.",
+    "When the Lives were written. Richardson reports that some date them 492 to 495. He holds with Ebert, a historian of Latin Christian writing, that most of the work was written about 480, since it speaks of Timothy Aelurus, who died in 477, as still living. He thinks the last chapters were added within a few years, by Gennadius or more probably by two other hands.",
+    "His view on grace. Richardson finds in him glimpses of a point of view he calls semi-Pelagian. Some editions add a line saying that Augustine's many words bore out Solomon's saying on sin; Richardson says it drew much comment on his bias and almost certainly is not what Gennadius wrote.",
+    "The Timothy translation. The sentence saying he translated Timothy Aelurus's book and set a caveat before it is missing from Migne's and Herding's editions, Richardson notes.",
+    "The Book of Church Dogmas. Walafrid Strabo names Gennadius, priest of Marseilles, as its author. The unsigned note in Migne's Augustine reports that Ratramnus of Corbie gave it to a Gennadius of Constantinople, and that one manuscript gives it to a Faustus.",
+    "Priest or bishop. His own notice calls him a presbyter. Alcuin and some manuscript titles call him bishop of Marseilles; the note in Migne's Augustine says Platina called him bishop wrongly.",
+    "His name. He is a different man from Gennadius, patriarch of Constantinople, whose notice stands in the same Lives, and from the much later Gennadios Scholarios."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Lives of Illustrious Men (tr. Ernest Cushing Richardson, Nicene and Post-Nicene Fathers, second series, 3)",
+        "language": "English translation",
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+      },
+      {
+        "title": "Book of Church Dogmas, ascribed to Gennadius (Patrologia Latina 42)",
+        "language": "Latin",
+        "file": "cic/texts/augustine_arian-sermon-collatio-maximinum-pl42-lat_migne1886.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Introduction and notes to Jerome and Gennadius, Lives of Illustrious Men",
+        "author": "Ernest Cushing Richardson",
+        "date": null,
+        "language": "English",
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+      },
+      {
+        "title": "Prolegomena to Theodoret",
+        "author": "Blomfield Jackson",
+        "date": null,
+        "language": "English",
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+      },
+      {
+        "title": "Note to the Book of Church Dogmas (Patrologia Latina 42)",
+        "author": "Unsigned",
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/augustine_arian-sermon-collatio-maximinum-pl42-lat_migne1886.txt"
+      },
+      {
+        "title": "Letters (Patrologia Latina 100-101)",
+        "author": "Alcuin",
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/alcuin_opera-omnia-letters_migne-pl100-101_1863.txt"
+      },
+      {
+        "title": "Introduction to Prosper's chronicle, Chronica minora 1",
+        "author": "Theodor Mommsen",
+        "date": "1892",
+        "language": "Latin",
+        "file": "cic/texts/prosper_chronica-minora-1-lat_mommsen1892.txt"
+      }
+    ]
+  }
+}

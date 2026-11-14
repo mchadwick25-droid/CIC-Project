@@ -1,0 +1,63 @@
+{
+  "name": "Severinus of Noricum",
+  "otherNames": [
+    "Saint Severinus"
+  ],
+  "knownFor": "Monk who lived among the Danube towns of Riverside Noricum in the later 400s. Eugippius tells how he urged them to fasting, prayer and alms through barbarian raids, stood up to the Rugian king and queen, and foretold the Romans' removal to Italy, where his monks carried his body.",
+  "dates": "Died on 8 January, Eugippius says, but he gives no year. George W. Robinson puts the death about 482, and a note in W. D. Foulke's translation of Paul the Deacon gives 482, after Waitz. Eugippius says he came to Noricum about the time of Attila's death, which Robinson dates to 453",
+  "place": "Riverside Noricum, on the Danube: Asturis, Comagenis, and Favianis, near which he lived; buried at last in the Lucullan castle at Naples",
+  "tradition": "Early Benedictine / Italian Monasticism; Gothic, Vandal & Lombard Homoian Christianity",
+  "role": "Monk; head of a community of monks in Noricum",
+  "briefLength": "about 2 minutes",
+  "legacy": {
+    "traces": [
+      "His monks took his body to Italy when Odoacer's brother ordered the Romans out, and Bishop Victor laid it in the Lucullan castle at Naples, in a tomb built by the lady Barbaria, with the leave of Pope Gelasius.",
+      "Eugippius, a monk of his community, wrote his Life and sent it with a letter to the deacon Paschasius, about two years after the consulship of Importunus, which George W. Robinson dates to 509.",
+      "Paul the Deacon, writing the History of the Langobards, names his monastery in Noricum and his warnings to King Feletheus and Queen Gisa, and says Naples keeps his remains.",
+      "Pope Gregory the Great, writing to Anthemius, subdeacon of Campania, names Amandus, priest of the oratory of Saint Severinus in the Lucullan castle, chosen as bishop by the people of Sorrento."
+    ],
+    "remembered": [
+      "The deacon Paschasius would add nothing to Eugippius's account, since the virtues of teachers are more easily drawn by their pupils.",
+      "Albert Hauck, whom Robinson quotes on his title page, called Severinus a personality without parallel.",
+      "Robinson notes that the Life of Willibald, a Saxon pilgrim at Naples in 729, says Saint Severinus rests there, near the castle."
+    ]
+  },
+  "uncertain": [
+    "His life comes from a saint's Life, full of wonders, by Eugippius, a monk of his community, written from the elder brothers' daily stories some thirty years after the death by George W. Robinson's dates. Paul the Deacon's later account draws on it, W. D. Foulke says.",
+    "His country. Eugippius says no one knew it and Severinus would not say. From his speech Eugippius judged him of purest Latin stock, and understood that he had first gone to a desert place in the East. Robinson warns against Theo Sommerlad's detailed account of his early life. A note in Foulke's translation of Paul the Deacon says he was born in Southern Italy or in Africa, citing Waitz.",
+    "The year of his death. Eugippius gives the day only. The year 482 is Robinson's and Waitz's. Eugippius's own clue is relative. He says more than five years had passed when the grave was opened, after Odoacer's war on the Rugians, which Robinson dates to 487.",
+    "The Rugians' faith. Eugippius does not name Queen Giso's church when he says she tried to rebaptize Catholics, though he has Severinus tell her father-in-law, King Flaccitheus, that they are not united in the one Catholic faith. Robinson concludes that the Rugian rulers were Arians, and quotes Johann Adlzreitter, who speaks of the Arians' font."
+  ],
+  "sources": {
+    "about": [
+      {
+        "title": "The Life of Saint Severinus, with the letters of Eugippius and Paschasius (English tr. George W. Robinson)",
+        "author": "Eugippius",
+        "date": "1914",
+        "language": "English translation",
+        "file": "cic/texts/eugippius_life-of-saint-severinus_robinson1914.txt"
+      },
+      {
+        "title": "Preface, notes and chronological table to The Life of Saint Severinus",
+        "author": "George W. Robinson",
+        "date": "1914",
+        "language": "English",
+        "file": "cic/texts/eugippius_life-of-saint-severinus_robinson1914.txt"
+      },
+      {
+        "title": "History of the Langobards, I.19, with notes (tr. W. D. Foulke)",
+        "author": "Paul the Deacon",
+        "date": "1907",
+        "language": "English translation",
+        "file": "cic/texts/paul-the-deacon_history-of-the-langobards_foulke1907.txt"
+      },
+      {
+        "title": "Letter to Anthemius, subdeacon of Campania, in Mansi's Sacrorum conciliorum collectio 10",
+        "author": "Gregory the Great",
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-10-lat_welter-facsimile1901.txt"
+      }
+    ]
+  }
+}
