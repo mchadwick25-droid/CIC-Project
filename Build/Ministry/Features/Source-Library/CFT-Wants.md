@@ -327,6 +327,37 @@ Anna Komnene is held.
 
 **Not taken.** Every duplicate, garbled or secondary scan is listed in the search log.
 
+## Era 6 (1300-1517): the Who scan's wanted sources, queued
+
+The era 6 rows of `Build/Ministry/Operations/Audits/2026-11-12_wanted-sources-combined/Wanted_Sources.md`: person
+rows 99-112 (14 sources, 4 major) and the outside-witness rows 5-9. Mark, 2026-11-14: "add to the wanted list from
+other eras we will do a full wanted fill in after we get what in process done". The Library stays on hold until then,
+so every row is **queued** and none has been searched. Era 6 builds its held rows only. The named editions are the
+audits' and many were written from memory ("[suggested; to confirm]" in the audit); confirm each before acquiring.
+The two era 6 council records in the same file are not listed here: Mark lifted era 6 councils for a separate worker.
+
+| want (Wanted Sources row) | person | named source (the audit's) | state | would move to |
+|---|---|---|---|---|
+| era 6 row 99 | Joseph of Volotsk (Joseph of Volokolamsk), major | his Monastic Rule or the Prosvetitel (Enlightener); a Life by Savva Chernyi | queued | WHO |
+| era 6 row 100 | Jakoubek of Stříbro (Jacobellus de Misa), major | his tracts on the chalice (edition to be named by the Library thread) | queued | WHO |
+| era 6 row 101 | Zara Yaqob (emperor, r. 1434-1468), major | the Mashafa Berhan and Mashafa Milad; the chronicle of his reign in a usable translation (Perruchon 1893, named in the census) | queued | STORY |
+| era 6 row 102 | Ewostatewos, major | the Gadla Ewostatewos (the edition the audit suggests is doubtful; the era 6 scan names Turaev's Acta S. Eustathii, 1905, from memory, to confirm) | queued | WHO |
+| era 6 row 103 | Margery Kempe | the Book of Margery Kempe in a public-domain text (the audit names the EETS text, 1940, to confirm) | queued | STORY |
+| era 6 row 104 | Henry Pomerius | De origine monasterii Viridisvallis, with the Life of Ruusbroec, in Analecta Bollandiana 4 (1885) | queued | WHO (recorder) |
+| era 6 row 105 | Raymond of Capua | his Legenda maior of Catherine of Siena (Acta Sanctorum, April III) | queued | WHO (recorder) |
+| era 6 row 106 | John of Capistrano | the eyewitness Life by Nicholas of Fara (Acta Sanctorum, October X) | queued | WHO |
+| era 6 row 107 | Euthymius of Tarnovo | Gregory Tsamblak's Praise of Euthymius; his own Life of Hilarion of Moglena | queued | WHO |
+| era 6 row 108 | Teodosij of Trnovo | the Life by the patriarch Kallistos | queued | WHO |
+| era 6 row 109 | Stephen of Perm | the Life by Epiphanius the Wise | queued | WHO |
+| era 6 row 110 | Kirill of Beloozero | the Life by Pachomius the Logothete | queued | WHO |
+| era 6 row 111 | Zosima and Savvatii of Solovki (one paired row) | their Lives; the Solovki chronicles | queued | WHO |
+| era 6 row 112 | Estifanos of Gwendagwende | the Ge'ez Acts of Abba Estifanos (the audit names Getatchew Haile's CSCO edition of 2006, in copyright; a public-domain text is wanted) | queued | STORY |
+| outside-witness row 5 | Rashid al-Din | the full history (only a geography excerpt is held) | queued | WHO (OUTSIDE WITNESS) |
+| outside-witness row 6 | Ibn Battuta | his travels in his own text | queued | WHO (OUTSIDE WITNESS) |
+| outside-witness row 7 | Ibn Khaldun | his history in his own text | queued | WHO (OUTSIDE WITNESS) |
+| outside-witness row 8 | Abu'l-Fida | his history in his own text | queued | WHO (OUTSIDE WITNESS) |
+| outside-witness row 9 | al-Qalqashandi | his work in his own text | queued | WHO (OUTSIDE WITNESS) |
+
 ## Later — queued
 
 - ME-21 by a browser; Lang 1834 and the Peking mission after 1808; the
