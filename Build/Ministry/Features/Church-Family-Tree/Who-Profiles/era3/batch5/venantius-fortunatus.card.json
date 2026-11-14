@@ -1,0 +1,110 @@
+{
+  "name": "Venantius Fortunatus",
+  "otherNames": [
+    "Venantius Honorius Clementianus Fortunatus",
+    "Fortunatus"
+  ],
+  "knownFor": "Poet from northern Italy who came to Gaul for Martin of Tours, settled at Poitiers beside Radegund's monastery of the Holy Cross, and wrote verse for kings and bishops, Lives of saints, and hymns of the Cross.",
+  "dates": "No ancient source used here gives any year of his life. Born about 530 and died about 600 in W. D. Foulke's note to Paul the Deacon; M. A. Luchi also puts his birth about 530 and his death early in the seventh century; Hugh Williams says he died about 609. Bruno Krusch puts his coming to Gaul in 565; Friedrich Leo's index places it between 561 and 567",
+  "place": "Born near Ceneda and Treviso in northern Italy; trained at Ravenna; Poitiers",
+  "tradition": "Merovingian Gallic Christianity",
+  "role": "Poet; priest, and bishop of Poitiers in Paul the Deacon's account",
+  "briefLength": "about 2 minutes",
+  "keyWorks": [
+    {
+      "title": "Life of Saint Martin",
+      "about": "the life of Martin of Tours in four books of verse, as Gregory of Tours and Paul the Deacon both say; its fourth book names his birthplace and the healing of his eyes"
+    },
+    {
+      "title": "Poems",
+      "about": "verse for kings, bishops and friends, poems to Radegund and Agnes, and the hymns of the Cross, among them Pange lingua and Vexilla Regis prodeunt, held in Latin only"
+    },
+    {
+      "title": "Lives of saints in prose",
+      "about": "among them Hilary of Poitiers, Germanus of Paris, Marcellus of Paris and Radegund; Paul the Deacon says he wrote the deeds of many saints, part in prose and part in verse"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "His Life of Radegund is the first book of her Life; Baudonivia, a nun of Holy Cross, wrote the second to tell what he passed over.",
+      "O. M. Dalton says the arrival of the relic of the Cross at Radegund's monastery was celebrated by Fortunatus in several hymns, the most famous beginning Vexilla Regis prodeunt."
+    ],
+    "remembered": [
+      "Paul the Deacon calls him second to none of the poets in soft and fluent speech, and wrote his epitaph at Poitiers at the request of the abbot Aper.",
+      "Gregory of Tours calls him his venerable fellow servant, and in his book on Martin's miracles wishes that Fortunatus were there to write them.",
+      "An epitaph printed in Alcuin's works in Migne calls him an ornament of the Church who wrote many songs of the saints in verse."
+    ]
+  },
+  "uncertain": [
+    "Whether and when he was bishop. Paul the Deacon says he was ordained at Poitiers, first priest and then bishop, and Baudonivia calls him bishop. Gregory of Tours calls him a priest in every held mention. O. M. Dalton says he was consecrated only after Gregory's death, citing his own Introduction, which is not held; M. A. Luchi gives the same reason and says the year is hard to fix. No held source dates the bishopric. An unsigned note in Migne answers earlier scholars who struck him from the list of the bishops of Poitiers.",
+    "His years. No ancient source used here gives any year of his birth, his coming to Gaul or his death. The years on this card are W. D. Foulke's, M. A. Luchi's, Hugh Williams's, Bruno Krusch's and Friedrich Leo's. Paul the Deacon says only that he left Italy a little before the Lombards invaded it.",
+    "The healing of his eyes at Ravenna is told three ways. Paul the Deacon puts it at the church of Saint Paul and Saint John, at a lamp in a window by an altar of Martin. Gregory of Tours, who had it from Fortunatus, puts the lamp beneath a painted image of Martin. Fortunatus's own poem says Martin gave the light back to Felix of Treviso and to him. W. D. Foulke says Paul took the story from Fortunatus's poem.",
+    "His hymns. No English translation of them is held; the Latin is in Friedrich Leo's edition and, under his name, in Migne's volume of Alcuin. The count of 600 hymns is W. D. Foulke's, with no held source behind it.",
+    "Some Lives under his name. Bruno Krusch denies him the Life of Medard, and says the Life of Remigius is wrongly given to him; others gave the Life of Marcellus to another Fortunatus, which Krusch rejects.",
+    "Fortunatus of Grado, Fortunatus of Naples and Fortunatus of Fano are other men."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Opera poetica and Opera pedestria, Monumenta Germaniae Historica, Auctores antiquissimi 4 (ed. Friedrich Leo and Bruno Krusch)",
+        "language": "Latin",
+        "file": "cic/texts/venantius-fortunatus_opera-mgh-aa-4-lat_leo-krusch1881.txt"
+      },
+      {
+        "title": "Hymns of the Cross, Pange lingua and Vexilla Regis, in Alcuin's works, Patrologia Latina 101",
+        "language": "Latin",
+        "file": "cic/texts/alcuin_opera-omnia-letters_migne-pl100-101_1863.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "History of the Langobards, II.13, with notes (English tr. William Dudley Foulke)",
+        "author": "Paul the Deacon",
+        "date": "1907",
+        "language": "English translation",
+        "file": "cic/texts/paul-the-deacon_history-of-the-langobards_foulke1907.txt"
+      },
+      {
+        "title": "On the Miracles of Saint Martin, and other works (ed. Wilhelm Arndt and Bruno Krusch)",
+        "author": "Gregory of Tours",
+        "date": "1885",
+        "language": "Latin",
+        "file": "cic/texts/gregory-tours_opera-mgh-srm-1-lat_arndt-krusch1885.txt"
+      },
+      {
+        "title": "History of the Franks, volume 2, with notes (English tr. O. M. Dalton)",
+        "author": "Gregory of Tours",
+        "date": "1927",
+        "language": "English translation",
+        "file": "cic/texts/gregory-tours_history-of-the-franks-v2_dalton1927.txt"
+      },
+      {
+        "title": "Proemium to the prose works, and Index personarum",
+        "author": "Bruno Krusch and Friedrich Leo",
+        "date": "1881-1885",
+        "language": "Latin",
+        "file": "cic/texts/venantius-fortunatus_opera-mgh-aa-4-lat_leo-krusch1881.txt"
+      },
+      {
+        "title": "Life of Venantius Fortunatus, reprinted in Patrologia Latina 88",
+        "author": "M. A. Luchi",
+        "language": "Latin",
+        "file": "cic/texts/regula-magistri-cresconius-pl88-lat_migne1862.txt"
+      },
+      {
+        "title": "Life of Radegund, Book II, prologue (ed. Bruno Krusch)",
+        "author": "Baudonivia",
+        "date": "1888",
+        "language": "Latin",
+        "file": "cic/texts/fredegar-liber-historiae-francorum-vitae-mgh-srm-2-lat_krusch1888.txt"
+      },
+      {
+        "title": "Note in Gildas, De excidio Britanniae",
+        "author": "Hugh Williams",
+        "date": "1899",
+        "language": "English",
+        "file": "cic/texts/gildas_de-excidio-britanniae-lorica-penitential-lat-eng_williams1899.txt"
+      }
+    ]
+  }
+}
