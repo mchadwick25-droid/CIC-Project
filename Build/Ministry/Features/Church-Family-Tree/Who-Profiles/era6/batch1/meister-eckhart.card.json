@@ -1,0 +1,132 @@
+{
+  "name": "Meister Eckhart",
+  "otherNames": [
+    "Ekardus",
+    "Eckardus",
+    "Meister Eckehart",
+    "Master Eckart"
+  ],
+  "knownFor": "Dominican friar and master of theology who preached in German on the eternal birth of God in the soul. Tried at Cologne in 1326 and 1327, he appealed to the pope. In 1329 Pope John XXII condemned articles of his teaching, after his death.",
+  "dates": "His birth is not known. C. de B. Evans, his English translator of the 1920s, says neither its date nor its place is known. He adds that some argue for Strassburg in Saxony and others for Hochheim in Thuringia. Franz Pfeiffer, his editor of 1857, calls Strasbourg his home and birthplace. He finds its Alemannic dialect in the oldest manuscripts. Clemens Bannwart's 1911 edition of Denzinger's Enchiridion, a handbook of church decrees, puts it about the middle of the 1200s at Hochheim. The first known mention of his name, Evans says, is a Paris list of 1302. He last appears alive on 22 February 1327, when the Cologne judges refused his appeal. Heinrich Denifle, a Dominican scholar who printed the trial documents in 1886, says he died in 1327. The bull of 27 March 1329 speaks of his life as ended.",
+  "place": "Paris, where Evans says his name appears on a list of professors. Strasbourg, where Denifle places another friar with him in the convent between 1312 and 1321. Cologne, where the documents of 1327 place him in the Dominican house. Avignon, where the bull was given.",
+  "tradition": "Rhineland Mysticism & the Friends of God",
+  "role": "Dominican friar; master of theology; preacher; accused before the archbishop of Cologne's judges",
+  "briefLength": "about 2 minutes 30 seconds",
+  "keyWorks": [
+    {
+      "title": "German sermons and treatises",
+      "about": "in Franz Pfeiffer's edition of 1857 and in C. de B. Evans's English. A sermon on the eternal birth asks what good that birth does if it does not happen in him. The same sermon says none can touch the ground of the soul but God."
+    },
+    {
+      "title": "Latin defense before the Cologne judges, 1326",
+      "about": "edited by Augustinus Daniels in 1923 from a Soest manuscript. He answers forty-nine articles, says his order's privileges free him from appearing, and writes that he can err but cannot be a heretic."
+    },
+    {
+      "title": "Declaration in the Dominican church at Cologne, 13 February 1327",
+      "about": "read out article by article by Brother Conrad of Halberstadt, and explained by Eckhart in German. He takes back any error that might be found in his writing or preaching. Denifle printed the notary's record."
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Henry Suso's Life tells that Eckhart freed Suso from about ten years of dread. It also tells of a vision in which Eckhart, after his own death, appeared to Suso in glory.",
+      "In the Life, Suso writes to Elsbeth Stagel, a nun of Töss, of high thoughts she had gathered from Eckhart's teaching.",
+      "Franz Jostes, writing in 1895, reports that Nuremberg nuns still copied Eckhart in the mid-1400s. One scribe asked that the book not be shared widely, since it had been forbidden to her too.",
+      "Evans writes that his writings survived mostly under other names. A few sermons under his own name were added to the Basel edition of Tauler's sermons of 1521."
+    ],
+    "remembered": [
+      "Suso's Life calls him \"the holy Master Eckart\".",
+      "Henry Charles Lea's history of the Inquisition, of 1888, says the Dominicans were \"aggrieved by the sentence of heresy passed upon Master Eckart\".",
+      "Evans opens his introduction by noting that Eckhart has been called the father of the German mystics."
+    ]
+  },
+  "uncertain": [
+    "His life. C. de B. Evans writes that there is only \"the scantiest material for a biography\". He says his outline of the career comes chiefly from Preger's history of German mysticism and Lasson's book on Eckhart, both German studies he cites. The firm dates come from the Cologne documents and the bull, which Heinrich Denifle printed from the Vatican originals.",
+    "Whether he recanted. The bull says that at the end of his life he took back the twenty-six articles in any heretical sense. Denifle reads his declaration as a real submission to the pope. Evans says he \"never made any recantation of his teaching\". Susanna Winkworth, Tauler's English translator in the nineteenth century, also doubts that he recanted any of his doctrines.",
+    "His offices before 1326. Evans gives Saxony in 1303, Bohemia in 1307, Strasbourg in 1312 and Frankfurt in 1320. Winkworth also names his offices in Saxony and Bohemia. Pfeiffer places the Bohemian office about 1307. Denifle places him at Strasbourg between 1312 and 1321. Denifle thinks the Frankfurt prior named Eckhart in a letter was another man, and doubts that the Master was ever at Frankfurt.",
+    "Trouble before 1326. Winkworth thinks it not improbable that he was accused at Strasbourg. Denifle writes that not the smallest document shows any case against him before 1326.",
+    "His death. Neither the day nor the place is known. Denifle and Bannwart's Denzinger give 1327. Evans says he is last known alive in February 1327 and is thought to have died soon after."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Meister Eckhart, from Franz Pfeiffer's edition, volume 1 (English translation)",
+        "author": "C. de B. Evans (tr.)",
+        "date": "1924",
+        "language": "English",
+        "file": "cic/texts/eckhart_meister-eckhart-vol1_evans1924.txt"
+      },
+      {
+        "title": "Deutsche Mystiker des vierzehnten Jahrhunderts, volume 2: Meister Eckhart",
+        "author": "Franz Pfeiffer (ed.)",
+        "date": "1857",
+        "language": "Middle High German",
+        "file": "cic/texts/eckhart_deutsche-mystiker-bd2-gmh_pfeiffer1857.txt"
+      },
+      {
+        "title": "Eine lateinische Rechtfertigungsschrift des Meister Eckhart (his Latin defense of 1326)",
+        "author": "Augustinus Daniels (ed.)",
+        "date": "1923",
+        "language": "Latin, with German introduction",
+        "file": "cic/texts/eckhart_lateinische-rechtfertigungsschrift-lat_daniels1923.txt"
+      },
+      {
+        "title": "His appeal of 24 January 1327 and declaration of 13 February 1327, in Acten zum Processe Meister Eckeharts",
+        "author": "Heinrich Denifle (ed.)",
+        "date": "1886",
+        "language": "Latin",
+        "file": "cic/texts/ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd2-deu-lat_1886.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Acten zum Processe Meister Eckeharts, with the bull In agro dominico, in Archiv für Litteratur- und Kirchengeschichte des Mittelalters 2",
+        "author": "Heinrich Denifle",
+        "date": "1886",
+        "language": "German and Latin",
+        "file": "cic/texts/ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd2-deu-lat_1886.txt"
+      },
+      {
+        "title": "Introduction to Meister Eckhart, volume 1",
+        "author": "C. de B. Evans",
+        "date": "1924",
+        "language": "English",
+        "file": "cic/texts/eckhart_meister-eckhart-vol1_evans1924.txt"
+      },
+      {
+        "title": "Enchiridion symbolorum, eleventh edition, the errors of Eckhart",
+        "author": "Heinrich Denzinger; Clemens Bannwart (ed.)",
+        "date": "1911",
+        "language": "Latin",
+        "file": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt"
+      },
+      {
+        "title": "The Life of Blessed Henry Suso, translated by Thomas Francis Knox",
+        "author": "Henry Suso",
+        "date": "1865",
+        "language": "English",
+        "file": "cic/texts/suso_life-of-blessed-henry-suso_knox1865.txt"
+      },
+      {
+        "title": "Meister Eckhart und seine Jünger",
+        "author": "Franz Jostes (ed.)",
+        "date": "1895",
+        "language": "German and Middle High German",
+        "file": "cic/texts/eckhart_meister-eckhart-und-seine-juenger-gmh_jostes1895.txt"
+      },
+      {
+        "title": "A History of the Inquisition of the Middle Ages, volume 3",
+        "author": "Henry Charles Lea",
+        "date": "1888",
+        "language": "English",
+        "file": "cic/texts/lea_history-of-the-inquisition-of-the-middle-ages-v3_1888.txt"
+      },
+      {
+        "title": "The History and Life of the Reverend Doctor John Tauler, with Winkworth's notice of Tauler's life and times",
+        "author": "Susanna Winkworth",
+        "date": "1907",
+        "language": "English",
+        "file": "cic/texts/tauler_history-and-life-with-sermons_winkworth1907.txt"
+      }
+    ]
+  }
+}

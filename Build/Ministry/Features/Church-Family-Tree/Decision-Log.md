@@ -3165,3 +3165,73 @@ The approved files are in `Who-Profiles/era4/batch8/` in this folder, and the re
 **What is still open.** Open-Gaps, "Who re-score, eras 4 and 5" (2026-11-14).
 
 Approved to proceed (the re-score worker, under the coordinator's brief of 2026-11-14; Mark may overrule).
+
+## 2026-11-14 — The Venantius line kept, era 6 wants listed for a later fill, era 6 councils lifted, four workers (Mark, 2026-11-14)
+
+**Decided (Mark, 2026-11-14, relayed by the coordinator).** Mark's words: "1. keep it, add to the wanted list from other eras we will do a full wanted fill in after we get what in process done, yes to era 6 councils, keep going with four". The coordinator gave their meaning as four points:
+1. The Venantius Fortunatus brief (`Who-Profiles/era3/batch5/`) keeps "Dalton notes that Gregory never calls him bishop." There is no change and no recheck.
+2. Era 6's 14 WANTED people (4 major) and its 5 outside witnesses with no held source go on the wanted list, `Build/Ministry/Features/Source-Library/CFT-Wants.md`, beside the other eras' wants. Mark will run one full wanted fill across all eras once the work in process is done. Until then era 6 builds its held rows only and logs the rest, and the Library stays on hold. The rows are added, as queued, in the section "Era 6 (1300-1517): the Who scan's wanted sources, queued". They are the era 6 rows of `Build/Ministry/Operations/Audits/2026-11-12_wanted-sources-combined/Wanted_Sources.md`: person rows 99 to 112 and outside-witness rows 5 to 9.
+3. Era 6 councils are lifted: Constance, Basel, Florence and the other era 6 majors in the councils list. Only era 6 is lifted; the other councils from era 4 on stay held. A separate worker writes them.
+4. Four workers keep running.
+
+Approved to proceed (Mark, 2026-11-14).
+
+## 2026-11-14 — Cap ruling: one check of the round 3 fixes, era 6 Who batch 1
+
+**Cap ruling (Mark's standing ruling of 2026-11-14, "Minor round 3 fixes to reader-facing text get one targeted check without asking Mark").** Round 3, the last review round of era 6 Who batch 1, found no blocking point and 13 minor points. Seven were in the records and in Open-Gaps 264. Six were in reader-facing text:
+- **Geert Grote, card.** The first uncertain item now says that Busch alone tells "of" the talk with Florens Radewijns, and it keeps Kempis's qualifier on living in common, "as far as they could".
+- **Thomas à Kempis, card.** The place field reads "Bethany, where his brother John died, his Chronicle says", with William Duthoit placing the convent near Arnhem. Before, "his brother" could be heard as Duthoit's.
+- **Julian of Norwich, card.** Dalgairns's later note, citing Blomefield, "says all that is known is that she was alive in 1443".
+- **Henry Suso, card.** Preger and R. Seeberg are placed by their books, and Bihlmeyer is named as the witness.
+- **Johannes Tauler, brief and audio.** "Who put sermons of Meister Eckhart", since Evans translated one volume.
+- **README.** The Eckhart line keeps Evans's "known".
+
+They were applied as worded. One targeted Opus check of only those strings followed, by an agent that had not seen the drafting or the earlier rounds. The check does not count toward the cap: `Build/Ministry/Operations/Audits/2026-11-14_who-profiles-era6-batch1/R4_cap-check.md`. Its verdict was CLEAR, with no blocking or minor point. The Tauler brief is 404 words, FK 7.17, Flesch 68.00, and its audio matches. It made one remark outside the findings: the README's "the first known mention of him in Evans" could read as the first place Evans mentions him. The claim is true either way, and the line is not changed. The cap ruling is met.
+
+## 2026-11-14 — Who profiles, era 6 batch 1: eight profiles, eight majors, the two live entries checked, Ignatius's table found in Manare (coordinator, under Mark's ruling of 2026-11-14 that eras 4 to 7 are built in full)
+
+**The batch.** The first era 6 batch, eight WHO rows of `Build/Ministry/Operations/Audits/2026-11-12_who-scan-era6/Who_Scan_Era6.md`: John Wyclif, Thomas à Kempis, Richard Rolle, Julian of Norwich, Meister Eckhart, Johannes Tauler, Henry Suso and Geert Grote. None was written before. Wyclif and Kempis are the era's two live census person entries, and their profiles keep the census ids `john-wyclif` and `thomas-a-kempis`. Opus drafted every profile to `Who_Profile_Pattern.md`, per Mark's era 1 batch 1 ruling, "Opus for all".
+
+**Coordinator and worker calls (not Mark's words; Mark may overrule).**
+- **Major marks** (coordinator). All eight are major, as the scan's Major column proposes, within the map caps: The English Mystics and Devout 2, Rhineland Mysticism 3, Devotio Moderna 2, Lollardy 1. The briefs run 404 to 405 words, about 2:30. The 2:30 is a cap, not a target.
+- **The live entries.** Each profile agrees with its live entry except where the held lines differ. Those points are in Open-Gaps 264 for a census fix, and the census is not changed here.
+  - Wyclif: "as he gave out the bread at Mass" is Vaughan's "is said to have been", where Shirley has him hearing Mass. Lutterworth came in April 1374, before Bruges, by Shirley and Forshall and Madden. The June 1377 letters are 30 May in Shirley and 11 June in Forshall and Madden. "His 1845 editor" should name Robert Vaughan.
+  - Kempis: "most copied" has no held line. Benham argues for John Gersen of Vercelli, not that Thomas only copied the book. "Florentius sent him" is the death notice's account, where his own Chronicle has him come for the indulgences. "All his life in one small house" leaves out the exile at Lunenkerc and the stay at Bethany.
+  - The census's Ignatius at his desk is held after all, in Oliver Manare's reply to Lancicius, and the Kempis card now tells it.
+- **The Imitation** is told as Contested, in place, with Busch, Atkynson, Benham and Ingram named in the brief and the other claimants on the card. The profile rests on the Chronicle, the Lives and the death notice, not on the Imitation.
+- **The Wycliffite Bible** is told as the circle's work. Forshall and Madden thought the New Testament probably Wyclif's own translation, and an early note gives much of the Old Testament to Nicholas Hereford. Alfred Pollard writes that there is "substantially no evidence" for the rest.
+- **Tauler's sermons** are said plainly to survive as his hearers' notes, in Susanna Winkworth's words, with her view that the eighty-four Strasbourg sermons probably had his own corrections. The History of the Master is told as a story whose truth Heinrich Denifle disputes.
+- **Julian** is a Who under the women ruling: she taught through her book, which she wrote for her fellow Christians out of charity, while refusing to be called a teacher. No held line shows her teaching at her cell. Margery Kempe's visit is in no held file and is not told.
+- **Hostile and late witnesses** are named and marked: the Carmelite Fasciculi Zizaniorum, the Leicester chronicle under Henry Knighton's name and Walsingham against Wyclif; Rolle's Office as written for a hoped-for canonization; Kempis's Life of Grote as the work of his own movement.
+- **Names, ids and traditions.** `richard-rolle`, `julian-of-norwich`, `meister-eckhart`, `johannes-tauler`, `henry-suso`, `geert-grote`. The traditions are the census's names, and all fit the scan's placings: Lollardy; Devotio Moderna / Brethren of the Common Life; The English Mystics and Devout; Rhineland Mysticism & the Friends of God. Grote's life begins before his entry's c. 1380, but he is its first voice and founder.
+- **American spelling** in the new prose (Decision-Log 77); quotations keep their own spelling.
+
+**Review.** Three rounds by fresh Opus agents that had not seen the drafting, at full effort in every round (Mark, relayed by the coordinator: "dont sacrafice quality, expecially the quality of writing"). At the coordinator's request, round 1 also judged whether the briefs with the lowest grade scores read as flattened or choppy. It found none simplified in substance, and joined the choppy runs it found.
+
+Round 1, the full checklist review in four parts, found 8 blocking and 100 minor points. The blocking points:
+- **False absences and false "only".**
+  - Ignatius's table (held in Manare).
+  - A friendly account of Wyclif from his own day (the Oxford testimonial in Foxe).
+  - Eckhart's offices (Winkworth, Pfeiffer and Denifle, besides Evans).
+  - Tauler's last months (the History tells them).
+  - The form IHS on Suso's breast (Bihlmeyer's German).
+  - How the common life began (Kempis gives Grote's rule).
+- **A note misread.** A Foxe note on the Oxford testimonial of 1406 was read as one on the decree of 1425.
+- **The women ruling not shown.** Julian's answer to her own question was turned into an open question.
+
+Round 2, a targeted recheck in two parts, found 3 blocking and 33 minor points, all fixed. All three blocking points came from round 1's own fix wording:
+- a new "only" on the Grote card;
+- "Winkworth alone gives the year", which Evans and others also give;
+- "he gives no ground", where Dalgairns cites Blomefield.
+
+Round 3, the last, found no blocking point and 13 minor points. Under Mark's standing ruling of 2026-11-14, "Minor round 3 fixes to reader-facing text get one targeted check without asking Mark", they were applied as worded and checked once; the cap ruling above records the CLEAR verdict. Every quotation was re-checked word for word against its vendored file. No paid calls were made.
+
+**Corrections to the scan found in drafting.** These are in Open-Gaps 264:
+- Wyclif's c.1330 and Grote's 1340-1384 rest on Library headers; Wyclif's held year is his biographers' 1324.
+- Eckhart's acts and the full bull are held in Denifle's printing, and the bull does not excommunicate him.
+- Tauler's 16 June and Rolle's 29 September each rest on one witness.
+- The lay rule in Langenberg is Engelhusen's, not Grote's.
+
+**What is still open.** Open-Gaps 264, "Era 6 Who batch 1" (2026-11-14).
+
+The approved files are in `Who-Profiles/era6/batch1/` in this folder, and the reviews are in `Build/Ministry/Operations/Audits/2026-11-14_who-profiles-era6-batch1/`. No census, record or site change is made, so there is no data release number. Approved to proceed (coordinator, 2026-11-14; Mark may overrule).
