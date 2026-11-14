@@ -674,17 +674,17 @@
    },
    {
     "claim": "Mari: 'Proprio ilaque patriarcha occlosia oaruit ad annos docem ot septom, oius intoroa guberna- tionom gorontibus Mar Aba arcliidiacono alquo Mar Babaoo Magno e coe- nobio Mar Abraliam' (OCR for 'Proprio itaque patriarcha ecclesia caruit ad annos decem et septem, eius interea gubernationem gerentibus ... Mar Babaeo Magno'); 'Amr: 'Sedem itaque administravit [citra ordinationem ut vicarius] Mar A!ia archidiaconus una cum Mar iJabae-) ^lngno' (OCR for Mar Aba ... Mar Babaeo Magno; the bracket is Gismondi's)",
-    "witness": "Mari, tr. Gismondi (mari gismondi1899 l.13517-13519); 'Amr, tr. Gismondi (amr gismondi1896-1897 l.13424-13426); Chabot cites both (chabot1902 l.37359-37361)",
+    "witness": "Mari, tr. Gismondi (mari gismondi1899 l.13517-13520); 'Amr, tr. Gismondi (amr gismondi1896-1897 l.13424-13426); Chabot cites both (chabot1902 l.37359-37361)",
     "formation_confidence": "Documented"
    },
    {
-    "claim": "Babai's Life of George, whole in German: 'verfaßt vom heiligen Rabban Mär Bäbai, dem Abte auf dem Berge Izalä'; his preface: 'Vor ungefähr dreiund- dreißig Jahren schrieb ich die Geschichte des Abrahams von Kaschkar ... Später schrieb ich die Geschichte seines Nach- folgers Dädischö' aus Bet Däräje'; the charge 'Er leugnet die Auferstehung der Leiber und (lehrt), daß es eine Erlösung nur für die Seelen gebe'; Braun's heading dates George's death 14 January 615 and Babai's visitorship to the vacancy '608 — 628'",
+    "claim": "Babai's Life of George, in Braun's German (the introduction shortened and three passages passed over, braun1915 l.12442-12443, 13161-13162, 13319-13322, 13806-13807): 'verfaßt vom heiligen Rabban Mär Bäbai, dem Abte auf dem Berge Izalä'; his preface: 'Vor ungefähr dreiund- dreißig Jahren schrieb ich die Geschichte des Abrahams von Kaschkar ... Später schrieb ich die Geschichte seines Nach- folgers Dädischö' aus Bet Däräje'; the charge 'Er leugnet die Auferstehung der Leiber und (lehrt), daß es eine Erlösung nur für die Seelen gebe'; Braun's heading dates George's death 14 January 615 and Babai's visitorship to the vacancy '608 — 628'",
     "witness": "Babai, Life of George, tr. Oskar Braun (persian-martyr-acts bkv22 braun1915 l.852-860, 12419-12446, 13395-13396); Hoffmann's German extracts of the same passage (persian-martyr-acts hoffmann1880 l.5596-5612)",
     "formation_confidence": "Documented"
    },
    {
-    "claim": "Guidi's chronicle: among the monks from Izla, 'Màr Babhay filius Nisibenorum'; Satan 'iurgia multa magnasque contentiones excitavit inter duas illas firmissimas religionis turres, duo Babhay'; 'Asseclae, monachi, Mar Babhay magni (maioris) nemini permittebant ul in suum monasterium intraret, quin anathema diceret in exi- mium Maàr Babhay nisibenum quem Babhay parvum (minorem) cognominaverunt'; 'Seripsit autem. Mar. Babhay magnus (mator) libros multos, disputationes atque interpretaliones' (OCR as in the file; the parentheses are Guidi's)",
-    "witness": "Anonymous East Syrian chronicle, tr. Guidi (chronica-minora guidi1903 l.2032-2037, 2051-2058, 2067-2069); Labourt (labourt1904 l.13093-13096)",
+    "claim": "Guidi's chronicle: among the monks from Izla, 'Màr Babhay filius Nisibenorum' ; Satan stirred quarrels between the two; 'iurgia multa magnasque contentiones excitavit inter duas illas firmissimas religionis turres, duo Babhay, nec conquievit aut desiit usque ad finem agonis , vitae asceticae, eorum'; 'Asseclae, monachi, Mar Babhay magni (maioris) nemini permittebant ul in suum monasterium intraret, quin anathema diceret in exi- mium Maàr Babhay nisibenum quem Babhay parvum (minorem) cognominaverunt'; 'Seripsit autem. Mar. Babhay magnus (mator) libros multos, disputationes atque interpretaliones' (OCR as in the file; the parentheses are Guidi's)",
+    "witness": "Anonymous East Syrian chronicle, tr. Guidi (chronica-minora guidi1903 l.2032-2037, 2050-2064, 2069-2070); Labourt (labourt1904 l.13093-13096)",
     "formation_confidence": "Documented"
    }
   ],
@@ -707,13 +707,13 @@
    },
    {
     "claim": "Who Babai bar Nisibnaye was",
-    "sides": "Guidi's chronicle: Babai of Nisibis, son of the Nisibenes, a monk from Izla and Babai the Great's rival, called Babai the Little (guidi1903 l.2036-2058). Budge: Babhai bar-Nesibhnaye flourished under Selibha-zekha, 713-729, famous for his voice (budge1893 l.2071-2073), the time Thomas gives Rabban Babai of Gebilta (l.12888-12894)."
+    "sides": "Guidi's chronicle: Babai of Nisibis, son of the Nisibenes, a monk from Izla and Babai the Great's rival, called Babai the Little (guidi1903 l.2036-2064). Budge: Babhai bar-Nesibhnaye flourished under Selibha-zekha, 713-729, famous for his voice (budge1893 l.2071-2073), the time Thomas gives Rabban Babai of Gebilta (l.12888-12894)."
    }
   ],
   "absent_details": [
    {
     "detail": "A Syriac or English text of his own books",
-    "note": "The Book of the Union is held only as passages quoted in Labourt's French (labourt1904 l.15845-16120). The Life of George is held whole in Oskar Braun's German (persian-martyr-acts bkv22 braun1915 l.12419 ff., the introduction abridged, l.12442-12443), in Georg Hoffmann's German extracts (persian-martyr-acts hoffmann1880 l.5596-5612) and as two passages in Chabot's French (chabot1902 l.42080-42240). No Syriac or English text of his books is held. Searched all of cic/texts for Babai/Babaï/Bäbai/Babhai/Bàbhay/Babaeus/Babaeo."
+    "note": "The Book of the Union is held only as passages quoted in Labourt's French (labourt1904 l.15845-16120). The Life of George is held in Oskar Braun's German (persian-martyr-acts bkv22 braun1915 l.12419 ff.), which gives only the main points of the long introduction (l.12442-12443) and passes over two encomia and one passage he calls empty of content (l.13161-13162, 13319-13322, 13806-13807), in Georg Hoffmann's German extracts (persian-martyr-acts hoffmann1880 l.5596-5612) and as two passages in Chabot's French (chabot1902 l.42080-42240). No Syriac or English text of his books is held. Searched all of cic/texts for Babai/Babaï/Bäbai/Babhai/Bàbhay/Babaeus/Babaeo."
    },
    {
     "detail": "His birth year",
@@ -721,7 +721,7 @@
    },
    {
     "detail": "The scan row's Book III lead",
-    "note": "Thomas Book III ch. I-III (l.12841-13575) is Rabban Babai of Gebilta under Selibha-zekha, not Babai the Great. Budge puts a Babhai bar-Nesibhnaye, famous for his voice, under the same catholicos (budge1893 l.2071-2073); the anonymous chronicle Guidi edited makes bar Nisibnaye Babai the Great's contemporary (guidi1903 l.2036-2058); see the contested claim."
+    "note": "Thomas Book III ch. I-III (l.12841-13575) is Rabban Babai of Gebilta under Selibha-zekha, not Babai the Great. Budge puts a Babhai bar-Nesibhnaye, famous for his voice, under the same catholicos (budge1893 l.2071-2073); the anonymous chronicle Guidi edited makes bar Nisibnaye Babai the Great's contemporary (guidi1903 l.2036-2064); see the contested claim."
    }
   ]
  },
@@ -838,8 +838,8 @@
     "formation_confidence": "Dominant Modern Reconstruction"
    },
    {
-    "claim": "Preface to Migne's Breviarium Gothicum: 'concil. iv Tolet., praeside sancto Isidoro'",
-    "witness": "mozarabic-liturgy_breviarium-gothicum-pl86-lat_migne1862 l.474",
+    "claim": "Francisco Antonio Lorenzana, in his preface to the Breviarium Gothicum (ed. 1775, reprinted in PL 86): 'concil. iv Tolet., praeside sancto Isidoro'",
+    "witness": "mozarabic-liturgy_breviarium-gothicum-pl86-lat_migne1862 l.385-390 (Lorenzana's 'LECTORI SALUTEM'), l.474",
     "formation_confidence": "Contested"
    }
   ],
@@ -864,7 +864,7 @@
     "claim": "Whether he presided at Toledo IV",
     "sides": [
      "The acts: first signature, no presidency stated (Hispana l.40882-40884)",
-     "Brehaut: 'probably' presided (brehaut1912 l.702-703); the preface to the Breviarium Gothicum in PL 86: 'praeside sancto Isidoro' (l.474)"
+     "Brehaut: 'probably' presided (brehaut1912 l.702-703); Francisco Antonio Lorenzana, preface to the Breviarium Gothicum, reprinted in PL 86: 'praeside sancto Isidoro' (l.385-390, 474)"
     ]
    },
    {

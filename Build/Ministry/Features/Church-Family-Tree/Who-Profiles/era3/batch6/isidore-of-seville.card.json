@@ -41,8 +41,8 @@
     "His life is known mostly from his friend Braulio of Zaragoza, from Ildefonsus of Toledo, from his own letters and from the acts of councils. Ernest Brehaut says surprisingly little is known of it. Brehaut calls the Lives by Lucas Tudensis and Rodericus Cerratensis, both of the thirteenth century, full of fables; they are not among the sources used here.",
     "When he became bishop. Ildefonsus says he followed his brother Leander and held the see for almost forty years. Theodor Mommsen puts his start in Reccared's last years or under King Liuva. Ernest Brehaut gives probably 600. The year of Leander's death is itself disputed.",
     "The day of his death. Theodor Mommsen gives 4 April 636, from an epitaph and the martyrologies. He reports the account of his death by the cleric Redemptus, which has him die four days after a public penance. Mommsen thinks the 31 March given with that account is, it seems, an error. Ernest Brehaut gives April 636, from Redemptus. Bernhard Poschmann retells Redemptus's account and quotes its Latin. Isidore, he reports, had himself carried into the church of Saint Vincent and did public penance before the people and two bishops.",
-    "Whether he presided at the Fourth Council of Toledo. Its acts give him the first signature. Ernest Brehaut says he probably presided there. The preface to the Breviarium Gothicum in Migne's edition says he did. Brehaut also says he presided at the Second Council of Seville, whose acts name him first among the bishops.",
-    "The year of the Second Council of Seville. Its acts give the Spanish era 657, which is 619, and King Sisebut's ninth year. Pagi, in a note Mansi prints, says the two do not agree. He follows later Spanish chroniclers, who give Sisebut's seventh year, and sets it in 618. Ernest Brehaut gives 619.",
+    "Whether he presided at the Fourth Council of Toledo. Its acts give him the first signature. Ernest Brehaut says he probably presided there. Francisco Antonio Lorenzana, in his preface to the Breviarium Gothicum, says he did. Brehaut also says he presided at the Second Council of Seville, whose acts name him first among the bishops.",
+    "The year of the Second Council of Seville. Its acts give the Spanish era 657, which is 619, and King Sisebut's ninth year. Pagi, in a note Mansi prints, says the two do not agree. He follows later Spanish chroniclers, who give Sisebut's seventh year. That sets it in 618, he says, if it met in November or December, which is not clear. Ernest Brehaut gives 619.",
     "To whom he sent the Etymologies. Braulio says Isidore wrote it at his request. Its covering letter is addressed to King Sisebut in W. M. Lindsay's edition, and to Braulio in the text Migne reprints from Enrique Flórez. Lindsay reports manuscripts that head the work to Braulio, to Sisebut, or to both. Ernest Brehaut calls the preface addressed to Braulio.",
     "The book's early copies. Isidore says he sent it from the road uncorrected, because of illness. Lindsay says the copy behind all the manuscripts was full of faults. It is often unclear, he says, whether a confusion is Isidore's own or a scribe's.",
     "His birth. A chronicle printed in Patrologia Latina 80 under the name of Maximus of Zaragoza sets his birth at Seville by the year 556. Nicolás Antonio, in the notice printed with it, treats the chronicles under Maximus's name as a later fable. Common report, he says, gives it to Jerónimo Román de la Higuera."
@@ -145,6 +145,19 @@
         "date": "1928",
         "language": "German",
         "file": "cic/texts/poschmann_abendlaendische-kirchenbusse-deu_1928.txt"
+      },
+      {
+        "title": "Preface to the Breviarium Gothicum, in Patrologia Latina 86",
+        "author": "Francisco Antonio Lorenzana",
+        "date": "1775",
+        "language": "Latin",
+        "file": "cic/texts/mozarabic-liturgy_breviarium-gothicum-pl86-lat_migne1862.txt"
+      },
+      {
+        "title": "Note on the year of the Second Council of Seville, in Sacrorum conciliorum collectio 10 (ed. Giovanni Domenico Mansi)",
+        "author": "Pagi",
+        "language": "Latin",
+        "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-10-lat_welter-facsimile1901.txt"
       }
     ]
   }
