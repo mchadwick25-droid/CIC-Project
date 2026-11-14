@@ -10,3 +10,7 @@ Round 3, the last, found all seven profiles and the README clear, with no blocki
 | R3-M4 | Applied as worded (README word counts). |
 
 None was declined.
+
+## After the R4 cap check
+
+R4-M1, in the records only, was applied as worded: the Niketas skete claim's witness now reads l.10161-10162, 10170-10177, 10184-10185, 10216-10218, 10225-10226, 10487-10494. As the check allowed, the six ranges were confirmed by reading them in the file, and `records.json` loads. No participant text changed.
