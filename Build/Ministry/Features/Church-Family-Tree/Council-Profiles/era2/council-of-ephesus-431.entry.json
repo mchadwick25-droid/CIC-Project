@@ -65,7 +65,13 @@
       "id": "persian-church-of-the-east-early",
       "name": "Persian Church of the East (early)",
       "part": "Affected",
-      "note": "It never received Ephesus. W. A. Wigram, its English historian, says it neither accepted nor formally rejected the council and was never asked to; its own historian Barhadbeshabba, near the end of the sixth century by Nau's dating, honours Nestorius and calls Cyril impious."
+      "note": "W. A. Wigram, its English historian, says the church took no corporate action on Ephesus at the time. George Percy Badger says the Eastern bishops were cut off by its decree."
+    },
+    {
+      "id": "the-church-of-the-east-under-persia",
+      "name": "The Church of the East under Persia",
+      "part": "Affected",
+      "note": "Its historian Barhadbeshabba, near the end of the sixth century by François Nau's dating, calls Nestorius the pious Mar Nestorius, and Cyril impious."
     }
   ],
   "decided": [

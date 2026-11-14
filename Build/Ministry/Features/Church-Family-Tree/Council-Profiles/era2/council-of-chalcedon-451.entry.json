@@ -298,6 +298,12 @@
         "author": "Malachia Ormanian",
         "language": "English translation",
         "file": "cic/texts/ormanian_church-of-armenia_gregory1912.txt"
+      },
+      {
+        "title": "Select Letters, Book VI",
+        "author": "Severus of Antioch",
+        "language": "English translation",
+        "file": "cic/texts/severus-of-antioch_select-letters-book6-part2_brooks1904.txt"
       }
     ]
   }

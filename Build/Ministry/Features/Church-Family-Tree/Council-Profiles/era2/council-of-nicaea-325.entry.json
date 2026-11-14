@@ -259,6 +259,12 @@
         "author": "Eustathius of Antioch",
         "language": "English translation",
         "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+      },
+      {
+        "title": "Letter to Eusebius of Nicomedia, in Theodoret's Church History, Book I, chapter 4",
+        "author": "Arius, kept by Theodoret of Cyrrhus",
+        "language": "English translation",
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
       }
     ],
     "writtenLater": [

@@ -93,14 +93,14 @@
     "At Ariminum the majority refused the Dated Creed, held that the faith of Nicaea was enough, and deposed Ursacius, Valens, Germinius, Auxentius, Gaius and Demophilus (the council's decree, in Athanasius, On the Councils 9 and 11; Socrates II.37).",
     "They wrote to Constantius that nothing should be added to or taken from the creed of Nicaea, and asked that the bishops be let go home (the council's letter, in Athanasius, On the Councils 10; Socrates II.37; Sozomen IV.18; Theodoret II.15).",
     "At Nice in Thrace the council's envoys signed a creed that called the Son like the Father according to the Scriptures, forbade the word \"substance,\" and forbade speaking of one hypostasis (Theodoret II.16; Socrates II.37). Hefele dates the signing to 10 October.",
-    "Back at Ariminum the remaining bishops signed one by one. Phoebadius and Servatius added statements condemning Arius, and Valens added that the Son was \"not a creature like the other creatures\" (Sulpicius II.43 to 44). Jerome of Strido, from the acts, tells how Valens read anathemas against Arian sayings to the bishops' applause (Dialogue against the Luciferians 18).",
+    "Back at Ariminum the remaining bishops signed one by one. Phoebadius and Servatius added statements condemning Arius, and Valens added that the Son was \"not a creature like the other creatures\" (Sulpicius II.43 to 44). Jerome, from the acts, tells how Valens read anathemas against Arian sayings to the bishops' applause (Dialogue against the Luciferians 18).",
     "At Seleucia the majority confirmed the creed of Antioch. The smaller party of Acacius offered a creed that rejected both \"of one substance\" and \"of like substance\" and anathematized \"unlike.\" The majority deposed Acacius, George of Alexandria, Uranius of Tyre, Eudoxius and others (Socrates II.39 to 40; Athanasius, On the Councils 12).",
     "At Constantinople the envoys of Seleucia accepted the creed of Ariminum, and a synod of about fifty confirmed it, forbade \"substance\" and \"hypostasis\" of God, and deposed Aetius, and then Macedonius, Eleusius, Basil of Ancyra and Cyril of Jerusalem (Sozomen IV.23 to 24; Socrates II.41 to 42)."
   ],
   "outcome": [
     "Bishops who would not sign were sent away from their sees, Theodoret and Sulpicius Severus say.",
     "Philostorgius says those deposed at Constantinople took back their signatures to the faith of Ariminum as they went into exile.",
-    "After Constantius died, the bishops of Ariminum gathered and said they had been deceived, Jerome of Strido reports. Hilary of Poitiers held councils in Gaul that condemned what was done at Ariminum (Sulpicius Severus).",
+    "After Constantius died, the bishops of Ariminum gathered and said they had been deceived, Jerome reports. Hilary of Poitiers held councils in Gaul that condemned what was done at Ariminum (Sulpicius Severus).",
     "A council at Rome under Damasus said the number of bishops at Ariminum prejudged nothing (Theodoret II.17), and Athanasius asked the bishops of Africa who could cite Ariminum against Nicaea (Letter to the Bishops of Africa).",
     "Lucifer of Cagliari broke communion even with those who received the repentant bishops (Sulpicius Severus).",
     "Ulfila, bishop of the Goths, signed the creed at Constantinople (Socrates II.41). Long afterwards, at Hippo, the bishop Maximinus told Augustine that he held the faith set out and signed at Ariminum (Augustine, Debate with Maximinus, in Latin)."
@@ -132,7 +132,7 @@
       "note": "A Gallic writer firmly on the Nicene side, who writes of \"our friends\" and tells the Gallic bishops' conduct from what he heard. The fullest account of how Ariminum ended."
     },
     {
-      "witness": "Jerome of Strido, Dialogue against the Luciferians 17 to 19",
+      "witness": "Jerome, Dialogue against the Luciferians 17 to 19",
       "kind": "later narrative",
       "note": "Nicene. W. H. Fremantle, his English translator, dates it to 379. Jerome says he took the Ariminum scenes from the council's acts."
     },
@@ -222,7 +222,7 @@
       "part": "Not present; his council at Rome said the numbers at Ariminum prejudged nothing"
     },
     {
-      "name": "Jerome of Strido",
+      "name": "Jerome",
       "id": "jerome",
       "verdict": "WHO",
       "part": "Not present; told its end from the acts"
@@ -230,7 +230,7 @@
   ],
   "briefLength": "about 2 minutes 30 seconds",
   "uncertain": [
-    "The acts of both councils are lost. What they did reaches us through their letters, decrees and creeds, kept by the Nicene side, and through Nicene historians. The Homoian side speaks in its creeds; its one historian, Philostorgius, survives only in a hostile summary.",
+    "The acts of both councils are lost. What they did reaches us through their letters, decrees and creeds, kept by the Nicene side, and through Nicene historians. The Homoian side speaks in its creeds and in Acacius's statement. Philostorgius, a Eunomian historian hostile to both sides, survives only in a hostile summary.",
     "How many came to Ariminum. Athanasius and Sulpicius Severus say four hundred and more, Sozomen about four hundred, Philostorgius three hundred, and the later bishop Maximinus spoke of 330 who signed.",
     "How many envoys went to the emperor from Ariminum. Sulpicius Severus says ten from each side; Sozomen, and the emperor's own reply in Socrates, say twenty.",
     "Who wanted the double council. Athanasius and Sozomen blame Ursacius, Valens, Acacius and their friends; Archibald Robertson, in his edition of Athanasius, thinks Basil of Ancyra's party wanted it.",
@@ -282,7 +282,7 @@
       },
       {
         "title": "Dialogue against the Luciferians, sections 17 to 19",
-        "author": "Jerome of Strido",
+        "author": "Jerome",
         "language": "English translation",
         "file": "cic/texts/npnf206_jerome-principal-works.xml"
       },

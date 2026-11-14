@@ -388,6 +388,12 @@
         "witness": "Hefele as quoted by Percival (npnf214 l.5640-5661)",
         "witness_kind": "modern reconstruction",
         "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Arius wrote to Eusebius of Nicomedia that he and his friends were persecuted because they said the Son has a beginning; the letter survives because Theodoret of Cyrrhus kept it",
+        "witness": "Arius, letter to Eusebius of Nicomedia, in Theodoret, Church History I.4 (npnf203 l.6043-6046)",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
       }
     ],
     "contested_claims": [
