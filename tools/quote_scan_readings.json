@@ -1,5 +1,5 @@
 {
- "about": "Scan faults inside quoted spans that the quotation check in validate-census.mjs cannot see past by rule. Each reading names the file, the lines, the scan's text there and what the printed page reads. With drop, the lines are a running head, page number or footnote set inside the span, and are left out. The check fails when a reading no longer matches its file.",
+ "about": "Scan faults inside quoted spans that the quotation check in validate-census.mjs cannot see past by rule. Each reading names the file, the lines, the scan's text there and what the printed page reads. With drop, the lines are a running head, page number or footnote set inside the span, and are left out. When the check reads a file, it fails on a reading that no longer matches it.",
  "readings": [
   {"file": "cic/texts/dorotheus-gaza_doctrinae-barsanuphius-climacus-agathias-grc-lat_migne-pg88.txt", "lines": "94179", "scan": "Pr«copio", "reads": "Procopio", "kind": "OCR misread"},
   {"file": "cic/texts/john-biclaro-leander-pl72-lat_migne1878.txt", "lines": "59502", "scan": "culpabiH", "reads": "culpabili", "kind": "OCR misread"},
