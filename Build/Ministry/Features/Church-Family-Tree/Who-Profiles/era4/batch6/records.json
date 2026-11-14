@@ -323,7 +323,7 @@
    },
    {
     "claim": "Renaudot: demand 'centum aureorum millia'; reply 'ne centum quidem drachmas habere se'; the son 'diversae fidei, nam erat Jacobita'; death AH 67 = 686",
-    "witness": "REN (renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713.txt) l.12065-12067, 12084, 12096-12097, 12173-12178",
+    "witness": "REN (renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713.txt) l.12072-12074, 12092, 12096-12097, 12198 [OCR 'Semnudarus', 'Apthonis', 'Heg. ^7%']",
     "formation_confidence": "Documented"
    },
    {
@@ -637,8 +637,8 @@
     "formation_confidence": "Documented"
    },
    {
-    "claim": "John's monastery is Az-Zajaj ('the Monastery of Az-Zajaj, which is called in Greek To Enaton'); the synaxaria place the monastery where Saint Severus lies west of Alexandria (Basset 'au couvent ou se trouve le corps de saint Severe ... a l'ouest d'Alexandrie'; Budge), without naming Az-Zajaj",
-    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.1472; PO17 (john-ephesus_lives-eastern-saints-po17_brooks1923.txt; Basset's Arabic Synaxarium, Baounah to Mesore, bound in) l.58448-58450; BUDM (ethiopian-synaxarium_book-of-saints-ethiopian-church-v2-v4-microform_budge1928.txt) l.42750-42752",
+    "claim": "John's monastery is Az-Zajaj ('the Monastery of Az-Zajaj, which is called in Greek To Enaton'); the synaxaria place the monastery where Saint Severus lies west of Alexandria (Basset 'au couvent ou se trouve le corps de saint Severe ... a l'ouest d'Alexandrie'; Budge), without naming Az-Zajaj; the History says Saint Severus's body 'lies in a shrine in that monastery' (PO5 l.1540-1541); Budge names him 'Archbishop of the city of Antioch' and his resting place Dabra Zegag (BUDM l.3448-3451)",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.1472, 1536-1541; PO17 (john-ephesus_lives-eastern-saints-po17_brooks1923.txt; Basset's Arabic Synaxarium, Baounah to Mesore, bound in) l.58449-58450; BUDM (ethiopian-synaxarium_book-of-saints-ethiopian-church-v2-v4-microform_budge1928.txt) l.42752-42753, 3448-3451",
     "formation_confidence": "Documented"
    },
    {
@@ -682,7 +682,7 @@
     "formation_confidence": "Documented"
    },
    {
-    "claim": "Renaudot: 'annos septem, menses sex'; 'anno secundum Severum 415 Diocletiani'; 'Ita rem Severus narrat'; 'Memoriam Simonis celebrant Coptitae in suo Kalendario 24 mensis Abib'; George's history 'a Cyrillo usque ad Simonem'",
+    "claim": "Renaudot: 'annos septem, menses sex'; 'anno secundum Severum 415 Diocletiani'; 'Ita rem Severus narrat'; 'Memoriam Simonis celebrant Coptitae in suo Kalendario 24 mensis Abib'; the lives 'a Cyrillo usque ad Simonem' written 'a multis, atque praesertim a Georgio', who carried his account 'usque ad Solimanum'",
     "witness": "REN (renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713.txt) l.12475-12476, 12726-12737, 12778-12780, 13765-13770",
     "formation_confidence": "Documented"
    },
@@ -745,13 +745,6 @@
     "sides": [
      "Released at his plea: the History (PO5 l.1797-1798); Basset (PO17 l.58407-58500)",
      "Exiled: Budge (BUDM l.42820-42822); Renaudot (REN l.12545-12546)"
-    ]
-   },
-   {
-    "claim": "How far George's history ran",
-    "sides": [
-     "To the days of Alexander: John the deacon (PO5 l.4502-4503)",
-     "To Simon: Renaudot's reading (REN l.13765-13766)"
     ]
    }
   ],
@@ -1205,7 +1198,7 @@
    },
    {
     "claim": "Renaudot: the prefect's father sent 'in Ecclesiam'; Afshin ordered punishment and Joseph 'intercessit & obtinuit, ut illis parceretur'",
-    "witness": "REN (renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713.txt) l.18197-18206",
+    "witness": "REN (renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713.txt) l.18197-18215",
     "formation_confidence": "Documented"
    },
    {
@@ -1219,8 +1212,8 @@
     "formation_confidence": "Documented"
    },
    {
-    "claim": "The sword: Basset 'le sabre donna contre un pilier et se brisa'; 'L'emir envoya son frere'; Renaudot 'in columnam marmoream'; the prefect 'patrem suum ... misit'",
-    "witness": "BAS1 (synaxaire-arabe-jacobite_po1-thout-babeh-synaxaire-ethiopien-fra_basset-guidi1907.txt) l.20389-20433; REN (renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713.txt) l.18193-18211",
+    "claim": "The sword: Basset 'le sabre donna contre un pilier et se brisa'; 'L'emir envoya son frere'; Renaudot 'in columnam marmoream'; the prefect 'patrem suum ... misit'; Budge 'his sword struck a pillar, and broke'",
+    "witness": "BAS1 (synaxaire-arabe-jacobite_po1-thout-babeh-synaxaire-ethiopien-fra_basset-guidi1907.txt) l.20389-20433; REN (renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713.txt) l.18193-18211; BUD1 (ethiopian-synaxarium_book-of-saints-ethiopian-church-v1-maskaram-khedar_budge1928.txt) l.14697-14701",
     "formation_confidence": "Documented"
    },
    {
@@ -1472,8 +1465,8 @@
     "formation_confidence": "Documented"
    },
    {
-    "claim": "Wadih son of Raja: 'juvenis inter nobiliores urbis Misrae', raised 'in Muhamedana Religione', became a Christian; 'Scripsit quoque Vazah filius Reja, libros aliquot lingua Arabica'",
-    "witness": "REN (renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713.txt) l.23439-23441, 23446-23509, 23576-23577",
+    "claim": "Wadih son of Raja: 'juvenis inter nobiliores urbis Misrae', raised 'in Muhamedana Religione', became a Christian; baptised, 'baptismum petiit & obtinuit' (l.23526-23527); 'Scripsit quoque Vazah filius Reja, libros aliquot lingua Arabica'",
+    "witness": "REN (renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713.txt) l.23439-23442, 23446-23527, 23576-23577",
     "formation_confidence": "Documented"
    },
    {
