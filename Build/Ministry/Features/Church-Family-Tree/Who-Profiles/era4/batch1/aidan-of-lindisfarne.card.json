@@ -1,0 +1,121 @@
+{
+  "name": "Aidan of Lindisfarne",
+  "otherNames": [
+    "Aedan",
+    "Aidanus",
+    "Edanus"
+  ],
+  "knownFor": "Monk of Iona whom the Irish sent as bishop to King Oswald of Northumbria. He set his see on Lindisfarne and gave what he was given to the poor and to ransom people wrongly sold as slaves. He kept the Irish reckoning of Easter, which Bede faults.",
+  "dates": "No source used here gives the year of his birth. Bede says he died on 31 August, twelve days after King Oswin of Deira, in the seventeenth year of his time as bishop. Bede's annals put his death in 651. The Bollandists put the founding of the see of Lindisfarne in 635",
+  "place": "Iona, which Bede calls Hii, where he was a monk. Lindisfarne in Northumbria, his see. A royal estate near the royal city named after Queen Bebba, where he died; L. Cecil Jane identifies that city as Bamborough",
+  "tradition": "Anglo-Saxon Christianity; Insular / Irish Monastic Christianity",
+  "role": "Monk of Iona; first bishop of Lindisfarne",
+  "briefLength": "about 2 minutes 30 seconds",
+  "legacy": {
+    "traces": [
+      "Bede says that from Aidan's coming, many Scots, as Bede calls the Irish, came into Britain to preach in Oswald's lands. Churches were built, and the king gave lands for monasteries. Most of the preachers were monks.",
+      "Bede says the bishop of Lindisfarne lived there with his clergy, and the abbot with his monks under the bishop's care. He explains that Aidan, its first bishop, was a monk and brought monks there.",
+      "Bede says many religious men and women followed his example and fasted on Wednesdays and Fridays until the ninth hour. They kept this all year, except in the fifty days after Easter.",
+      "Eata, one of the twelve English boys Aidan took to teach, became abbot of Melrose and later bishop of Lindisfarne. Bede calls Chad, Cedd's brother, one of Aidan's disciples, who travelled on foot to preach.",
+      "Bede says Aidan called Hild of Whitby, whom Bede calls Hilda, home, and she received land on the north side of the Wear. He and other religious men often visited and taught her. Bede also says Aidan consecrated Heiu, said to be the first nun in Northumbria."
+    ],
+    "remembered": [
+      "Bede praises his love of peace and charity, his humility, and his authority in rebuking the proud and powerful. He praises his tenderness to the afflicted and the poor, and says he much loves and admires these things in him.",
+      "Bede says that while Aidan lived, all men bore the difference over Easter patiently. Even Bishop Honorius of Canterbury and Bishop Felix of the East Angles held him in veneration.",
+      "Charles Plummer calls Bede's account of him a \"beautiful sketch of the sweet and saintly character of Aidan\". He finds it sad that Bede stops in the middle to fault his Easter.",
+      "Alcuin of York, in his poem on the church of York, retells in verse how Aidan blessed King Oswald's right hand at an Easter meal. He calls him Edanus.",
+      "The Roman Breviary, in the Marquess of Bute's English, keeps his feast on 31 August with lessons from Bede. Its martyrology says Cuthbert of Lindisfarne, then a shepherd lad, saw his soul carried up into heaven."
+    ]
+  },
+  "uncertain": [
+    "Nearly all that is known of him comes from Bede's Ecclesiastical History. It describes Britain as it stood in 731, some eighty years after Aidan's death. Bede says he wrote as near as he could learn from those who knew him. He gives the council that chose Aidan as a report.",
+    "His Easter. Bede says Aidan kept Easter Sunday between the fourteenth and twentieth day of the moon, by the custom of the northern Irish and the Picts. Bede, who held to the Roman reckoning, says he detests it. He grants that Aidan always kept it on a Sunday, and could not go against the custom of those who sent him. Charles Plummer thinks the question had a place in Bede's mind far beyond its real importance.",
+    "His years as bishop. In one chapter Bede says he died after he had been bishop sixteen years, in the seventeenth year of his office. Later he says Aidan was bishop seventeen years. Bede's annals give 651 for his death. No source used here gives the year of his birth or his age.",
+    "The wonders. Bede tells of oil that stilled a storm, which the priest Cynemund heard from the priest Utta who used it. He tells of a fire turned back from the royal city at Aidan's prayer, which he says many told. He also tells of the post Aidan died against, which fire twice could not burn.",
+    "Cuthbert's vision. An unnamed monk of Lindisfarne, in a saint's Life of Cuthbert of Lindisfarne, says the shepherds heard of Aidan's death some days later. The Bollandists date that Life about 700. Bede's own prose Life of Cuthbert says Cuthbert learned it the next morning.",
+    "Bede does not name the first man sent to Oswald, who came home with no success.",
+    "His name. He is a different man from Aedan, king of the Scots in Britain, whom Bede and Adomnán of Iona name. He is also not the Aidan who was a disciple of David of Menevia in W. J. Rees's Lives of the Cambro-British Saints. The Welsh annals, the Annales Cambriae, do not name him."
+  ],
+  "sources": {
+    "about": [
+      {
+        "title": "Ecclesiastical History of the English People, Books I.34, III.3, III.5, III.14-17, III.25-26, III.28, IV.23, IV.27, V.23 and V.24 (English tr. J. A. Giles, rev. L. C. Jane)",
+        "author": "Bede",
+        "language": "English translation",
+        "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt"
+      },
+      {
+        "title": "Historia ecclesiastica gentis Anglorum, Books III and IV.23, ed. Charles Plummer",
+        "author": "Bede",
+        "language": "Latin",
+        "file": "cic/texts/bede_opera-historica-v1-historia-abbatum-lat_plummer1896.txt"
+      },
+      {
+        "title": "Introduction to Bede's Historical Works",
+        "author": "Charles Plummer",
+        "date": "1896",
+        "language": "English",
+        "file": "cic/texts/bede_opera-historica-v1-historia-abbatum-lat_plummer1896.txt"
+      },
+      {
+        "title": "Notes to Bede's Ecclesiastical History",
+        "author": "L. Cecil Jane",
+        "date": "1903",
+        "language": "English",
+        "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt"
+      },
+      {
+        "title": "Life of Cuthbert by a monk of Lindisfarne, in Acta Sanctorum, March, volume 3",
+        "author": "Anonymous monk of Lindisfarne",
+        "language": "Latin",
+        "file": "cic/texts/acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt"
+      },
+      {
+        "title": "Prose Life of Cuthbert, in Acta Sanctorum, March, volume 3",
+        "author": "Bede",
+        "language": "Latin",
+        "file": "cic/texts/acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt"
+      },
+      {
+        "title": "Commentary on Cuthbert, in Acta Sanctorum, March, volume 3",
+        "author": "The Bollandists",
+        "date": "1865",
+        "language": "Latin",
+        "file": "cic/texts/acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt"
+      },
+      {
+        "title": "Poem on the bishops and saints of the church of York, in Patrologia Latina 101",
+        "author": "Alcuin of York",
+        "language": "Latin",
+        "file": "cic/texts/alcuin_opera-omnia-letters_migne-pl100-101_1863.txt"
+      },
+      {
+        "title": "The Roman Breviary, 31 August: Aidan, Bishop of Lindisfarne",
+        "author": "John Patrick Crichton-Stuart, Marquess of Bute (translator)",
+        "date": "1908",
+        "language": "English translation",
+        "file": "cic/texts/roman-breviary_bute1908.txt"
+      },
+      {
+        "title": "The Life of Saint Columba (English tr. Wentworth Huyshe, 1905)",
+        "author": "Adomnán of Iona",
+        "language": "English translation",
+        "file": "cic/texts/adomnan_life-of-saint-columba_huyshe1905.txt"
+      },
+      {
+        "title": "Lives of the Cambro-British Saints, Life of Saint David",
+        "author": "W. J. Rees (editor and translator)",
+        "date": "1853",
+        "language": "Latin and Welsh with English translation",
+        "file": "cic/texts/rees_lives-of-the-cambro-british-saints-lat-eng_1853.txt"
+      },
+      {
+        "title": "Annales Cambriae (ed. John Williams ab Ithel)",
+        "author": "Anonymous Welsh annalists",
+        "date": "1860",
+        "language": "Latin",
+        "file": "cic/texts/annales-cambriae-rolls-series-20-lat_williams-ab-ithel1860.txt"
+      }
+    ]
+  }
+}
