@@ -17,8 +17,8 @@
         "formation_confidence": "Documented"
       },
       {
-        "claim": "Lazar places himself at the end of the fifth century or the start of the sixth",
-        "witness": "Ghesarian's introduction to Lazar (langlois t2 l.35066-35069); a translator's date",
+        "claim": "Victor Langlois places Lazar at the end of the fifth century or the start of the sixth",
+        "witness": "Langlois's introduction to Lazar, signed V. L. (langlois t2 l.35079-35081, 35357); an editor's date",
         "formation_confidence": "Widely Accepted"
       },
       {
@@ -37,7 +37,7 @@
         "formation_confidence": "Documented"
       },
       {
-        "claim": "In 451 the armies met near the village of Avarayr on the plain of the Deghmut",
+        "claim": "The armies met near the village of Avarayr on the plain of the Deghmut",
         "witness": "Lazar of Pharp (langlois t2 l.40208-40209); Elishe, river Dekhmud (l.4105)",
         "formation_confidence": "Documented"
       },
@@ -701,7 +701,7 @@
       {
         "claim": "Married a nun and made marriage lawful for bishops and priests",
         "witness": "Mari ibn Sulayman (l.14386-14387); Bar Hebraeus calls her a concubine (vol. III l.3758-3764)",
-        "formation_confidence": "Widely Accepted"
+        "formation_confidence": "Contested"
       },
       {
         "claim": "Quick mind; wrote many homilies; welcomed Narsai to Nisibis and helped him found the school",
@@ -710,7 +710,7 @@
       },
       {
         "claim": "Death year unknown, after 491; killed by nuns of Tur Abdin with the keys of their cells, or buried in the church of Mar Jacob at Nisibis",
-        "witness": "Chabot (l.20206-20212, 35643-35647); Bar Hebraeus's two reports (vol. III l.4546-4552)",
+        "witness": "Chabot (l.20206-20212, 35643-35647); Bar Hebraeus's two reports (vol. III l.4546-4552); Jérôme Labourt puts his death between 492 and 495 (l.8875)",
         "formation_confidence": "Inferential-Thin"
       }
     ],
@@ -721,7 +721,7 @@
       },
       {
         "claim": "Whether he caused Babai's death",
-        "sides": "Yes: Bar Hebraeus (l.3836-3847), hostile; Mari ibn Sulayman (l.14355-14364), with his regret; 'Amr, as Chabot reports (l.20206-20208). His own letters speak only of a quarrel (l.35397-35398)."
+        "sides": "Yes: Bar Hebraeus (vol. III l.3836-3847), hostile, giving without naming it the letter of Maruta of Tagrit, which Chabot says was written from oral tradition more than a century and a half later (Michael the Syrian, tr. Chabot, l.33474-33479); Labourt reports Maruta making Barsauma order Babai's tongue and head cut off (l.8081-8090); Mari ibn Sulayman (l.14355-14364), with a report of his regret; 'Amr: Barsauma sent Babai's letter to the king unopened and the physician Gabriel twisted it (Gismondi 1896-1897 l.14043-14061). His own letters speak only of a quarrel (l.35397-35398)."
       },
       {
         "claim": "His wife",
@@ -731,7 +731,7 @@
     "absent_details": [
       {
         "detail": "Birth, age and family",
-        "note": "Chabot's note gives only that he was first a slave of Mare of Qardu; no held line gives his birth or parents."
+        "note": "No ancient witness gives his birth; Jérôme Labourt places it about 415 to 420 (l.7738-7740). Chabot's note gives only that he was first a slave of Mare of Qardu; no held line names his parents."
       },
       {
         "detail": "Death",
