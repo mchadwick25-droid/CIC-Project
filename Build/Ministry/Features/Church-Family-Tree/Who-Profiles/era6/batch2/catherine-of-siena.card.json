@@ -1,0 +1,108 @@
+{
+  "name": "Catherine of Siena",
+  "otherNames": [
+    "Catherine Benincasa",
+    "Caterina da Siena",
+    "Catharina Senensis",
+    "Katherin of Senis"
+  ],
+  "knownFor": "A Dominican laywoman of Siena whose letters pressed Pope Gregory XI to bring the papacy back from Avignon to Rome. She went to Avignon for Florence in 1376 and later stood by Urban VI in the schism. Her book, the Dialogue, was dictated to her secretaries.",
+  "dates": "Vida Scudder's chronology of 1905 gives her birth at Siena on 25 March 1347 and her death in Rome on 30 April 1380. Her letter from Avignon is dated 28 June 1376. A Sienese copy of the Dialogue ends in October 1378. John Covel, writing in 1722, says Pius II canonized her about eighty years after her death, and gives no year.",
+  "place": "Siena, where Scudder says she was born in the Strada dell' Oca, near the fountain of Fontebranda. Pisa, in 1375. Avignon, from June to September 1376. Rome, where she lived from 28 November 1378 and died.",
+  "tradition": "The Latin Papal Church (Avignon to Fifth Lateran)",
+  "role": "Dominican tertiary, one of the Mantellate; letter writer and peacemaker; author of the Dialogue",
+  "briefLength": "about 2 minutes 30 seconds",
+  "keyWorks": [
+    {
+      "title": "Letters",
+      "about": "to popes, cities, rulers and followers, in Vida Scudder's English selection of 1905. Scudder says they were talked rather than written, and dictated to secretaries. Among them are her letters to Gregory XI on his return and the letter of 1376 from Avignon to the Eight of War of Florence."
+    },
+    {
+      "title": "The Dialogue (Libro della divina dottrina)",
+      "about": "a conversation between God the Father and her soul, dictated to her secretaries. Her secretary Cristofano Guidini gives the title the book was later given, The Book of Divine Doctrine. Algar Thorold put it into English in 1896, and Matilde Fiorilli edited the Italian in 1912."
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Stefano Maconi, one of her secretaries, says in testimony quoted by Matilde Fiorilli that he wrote down part of the Dialogue as she dictated it, and later put it into Latin. Raymond of Capua writes, in Fiorilli's Italian, that he too was laboring to turn it into Latin.",
+      "Edmund Gardner writes that the Dialogue reached English in 1519 as the Orcharde of Syon, made from Raymond's Latin version, and that Wynkyn de Worde printed an English Life of her from Raymond's Life about 1493.",
+      "Fiorilli lists many manuscripts and early printings of the Dialogue in Italian, the first in 1472.",
+      "Her disciples carried on her work. Fiorilli says Stefano Maconi became general of the Carthusians, and Tommaso Caffarini led the process for her canonization at Venice."
+    ],
+    "remembered": [
+      "Fiorilli calls Raymond of Capua's Life of her the most authoritative early document about Catherine.",
+      "Luciano Banchi, editing the sermons of Bernardino of Siena in 1880, notes that Bernardino was born in the year she died.",
+      "Henry Charles Lea writes that \"her constant theme is the corruption of every rank in the hierarchy and the immediate necessity for reform.\"",
+      "A note on Teresa of Ávila's manuscript, by Father Alvarez, names \"the books of St. Gertrude, St. Catharine of Siena, or St. Bridget of Sweden\" as a measure of true spirit."
+    ]
+  },
+  "uncertain": [
+    "How far she caused the pope's return. Scudder writes that Gregory, swayed by her representations, returned, and Consalvo Duranti says her letters handled the whole matter of the return. Bridget of Sweden's revelations made the same demand. Scudder also writes that Gregory, perhaps regretting his return, became alienated from her.",
+    "When the Dialogue was finished. Algar Thorold's title page of 1896 says it was completed in 1370. The Sienese copy Fiorilli prints, and a Florence copy, end in October 1378; a Barberini copy gives 1377. Scudder says it was dictated during 1378. Fiorilli reckons it was written in about three months, from July to October 1378.",
+    "The stigmata. Scudder's chronology says she received them at Pisa on 1 April 1375, invisible at her own request. A Bollandist commentary on Christina of Stommeln, in the Acta Sanctorum for June, reports a bull of Sixtus IV forbidding pictures that showed her with Christ's wounds.",
+    "Her birth day and her canonization. The day, 25 March 1347, comes from Scudder's chronology alone. The canonization by Pius II rests on John Covel, writing in 1722, who gives no year.",
+    "Whether she was summoned to Florence in 1374 to answer charges. Scudder says she was \"perhaps\" called there to answer charges made by some in her order."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Saint Catherine of Siena as seen in her Letters",
+        "author": "Catherine of Siena; Vida D. Scudder (trans. and ed.)",
+        "date": "1905",
+        "language": "English",
+        "file": "cic/texts/catherine-of-siena_selected-letters_scudder1905.txt"
+      },
+      {
+        "title": "The Dialogue of the Seraphic Virgin Catherine of Siena",
+        "author": "Catherine of Siena; Algar Thorold (trans.)",
+        "date": "1896",
+        "language": "English",
+        "file": "cic/texts/catherine-of-siena_dialogue_thorold1896.txt"
+      },
+      {
+        "title": "Libro della divina dottrina, with the editor's note",
+        "author": "Catherine of Siena; Matilde Fiorilli (ed.)",
+        "date": "1912",
+        "language": "Italian",
+        "file": "cic/texts/catherine-of-siena_libro-della-divina-dottrina-ita_fiorilli1912.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Life of St Catherine of Siena, extract, in Quellen zur Geschichte des Papsttums",
+        "author": "Raymond of Capua; Carl Mirbt (ed.)",
+        "date": "1911",
+        "language": "Latin",
+        "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt"
+      },
+      {
+        "title": "Revelationes S. Birgittae, with Duranti's notes",
+        "author": "Consalvo Duranti",
+        "date": "1628",
+        "language": "Latin",
+        "file": "cic/texts/birgitta_revelationes-lat_duranti1628.txt"
+      },
+      {
+        "title": "The Cell of Self-Knowledge, introduction",
+        "author": "Edmund G. Gardner (ed.)",
+        "date": "1910",
+        "language": "English",
+        "file": "cic/texts/cell-of-self-knowledge_seven-early-english-mystical-treatises_gardner1910.txt"
+      },
+      {
+        "title": "Some Account of the Present Greek Church",
+        "author": "John Covel",
+        "date": "1722",
+        "language": "English",
+        "file": "cic/texts/covel_some-account-of-the-present-greek-church_1722.txt"
+      },
+      {
+        "title": "Acta Sanctorum, June, volume 5: commentary on Christina of Stommeln",
+        "author": "the Bollandists",
+        "date": "1867",
+        "language": "Latin",
+        "file": "cic/texts/acta-sanctorum_junii-tomus-5-lat_palme1867.txt"
+      }
+    ]
+  }
+}

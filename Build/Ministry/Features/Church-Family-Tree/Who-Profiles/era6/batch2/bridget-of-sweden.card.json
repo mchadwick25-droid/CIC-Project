@@ -1,0 +1,105 @@
+{
+  "name": "Bridget of Sweden",
+  "otherNames": [
+    "Birgitta",
+    "Brigitta",
+    "Brigida",
+    "Brigittam de Suecia"
+  ],
+  "knownFor": "A Swedish noble widow whose revelations, written down in Latin by her confessors, called on the popes to return from Avignon to Rome and denounced the clergy. She founded the Order of St Saviour, which Urban V approved in 1370.",
+  "dates": "W. P. Cumming, her 1929 editor, says the earliest authorities differ on her birth year; his line reads 1302 or 1308. Her husband died in 1344, Cumming says. She left Sweden two or three years after a revelation of 1346. Cumming gives her death in Rome as 23 July 1373 in one place and 28 July in another; Boniface IX's bulls set her feast on 23 July. Boniface canonized her in 1391. His bulls are dated 7 October, and Cumming gives 8 October.",
+  "place": "Uppland in Sweden, where Cumming says she was born, at Finstad. Rome, where she lived from about 1349 and died. Naples and Jerusalem, on her last journey in 1372 and 1373. Vadstena, where her bones were carried and where her order had its house.",
+  "tradition": "The Latin Papal Church (Avignon to Fifth Lateran)",
+  "role": "Widow and visionary; founder of the Order of St Saviour",
+  "briefLength": "about 2 minutes 30 seconds",
+  "keyWorks": [
+    {
+      "title": "Revelationes (Heavenly Revelations)",
+      "about": "her visions, written in Swedish and put into Latin by her confessors, in eight books with later additions. Books one to five are given here in the Latin printed at Rome in 1628, with Juan de Torquemada's defense and Consalvo Duranti's notes. Book four holds the revelations sent to Urban V and Gregory XI."
+    },
+    {
+      "title": "The Revelations, in a fifteenth-century English version",
+      "about": "from the Garrett manuscript, edited by W. P. Cumming in 1929. In it Christ complains of the head of his church as \"a sleer of soules\"."
+    },
+    {
+      "title": "The Rule of the Order of St Saviour",
+      "about": "which her revelations present as dictated by Christ. Cumming says Urban V approved the order in 1370, after years of her entreaty."
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Her order spread from Vadstena. Cumming says Henry V laid the first stone of Syon in England in 1415, and that the Duchess of York left a book of her Revelations to her daughter, prioress of Syon, in 1495.",
+      "English wills of the 1400s left copies of her book, among them Henry lord Scrope's of 1415 and Elizabeth Sywardby's, proved in 1468, which names a book of her Revelations in English.",
+      "At the Council of Constance in February 1415, Ulrich Richental writes, learned men of Sweden, Denmark and Norway asked the council to make her a saint. Richental calls her a holy queen.",
+      "At the Council of Basel, Torquemada examined and defended her Revelations in 1435. Nicolaus Glassberger records a Basel ruling that her book is to be read with the qualifications of the theologians."
+    ],
+    "remembered": [
+      "A note on Teresa of Ávila's manuscript, by Father Alvarez, names \"the books of St. Gertrude, St. Catharine of Siena, or St. Bridget of Sweden\" as a measure of true spirit.",
+      "Duranti, in his notes, lists Catherine of Siena's letters beside her revelations in the matter of the popes' return.",
+      "Olavus Petri, the Swedish reformer, wrote that her revelations were too slight to carry authority in so weighty a matter. John Bale, an English Protestant writer quoted by Cumming, calls them dark dreams."
+    ]
+  },
+  "uncertain": [
+    "How close the Latin stands to her words. Cumming says she wrote in Swedish, and in one place that her confessors, in another that one of them, put her revelations into Latin, which was read back to her. Only two fragments in her own hand survive. Alphonso of Jaén edited them. Duranti quotes Johannes Vastovius giving the translation of all eight books to Peter Olafsson, a Cistercian. Torquemada treats Prior Peter and Peter Olavi as two men. C. A. Wilkens, in 1894, says Prior Peter and Alphonso made her Swedish into a rhetorical Latin that dimmed her images. Cumming notes signs of reordering in the fifth book.",
+    "When she was born. Cumming says the earliest authorities differ. His line reads 1302 or 1308.",
+    "Her death day and canonization day. Cumming gives 23 July 1373 and, later, 28 July. Boniface IX's bulls set her feast on 23 July. Cumming dates the canonization 8 October 1391, and the bulls are dated 7 October.",
+    "Who examined the Revelations, and when. Cumming says Gregory XI's commission was headed by Torquemada. Torquemada's own prologue names other members for Gregory's commission of 1377, and says he examined the Revelations himself at the Council of Basel in 1435.",
+    "Whether her canonization should stand. Cumming says it was questioned because of the schism, and confirmed by John XXIII in 1414 and Martin V in 1419. A tract printed among Jean Gerson's works asks whether she should be canonized, given the great number of saints.",
+    "The Fifteen O's. Cumming calls these prayers on the Passion attributed to her and popular in England. Duranti writes that they are not found among her works, and that none of her confessors mentions them."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Revelationes S. Birgittae, recognized by Cardinal Torquemada, with Consalvo Duranti's notes, books one to five",
+        "author": "Bridget of Sweden; Consalvo Duranti (ed.)",
+        "date": "1628",
+        "language": "Latin",
+        "file": "cic/texts/birgitta_revelationes-lat_duranti1628.txt"
+      },
+      {
+        "title": "The Revelations of Saint Birgitta, from the Garrett manuscript, with the editor's introduction",
+        "author": "Bridget of Sweden; W. P. Cumming (ed.)",
+        "date": "1929",
+        "language": "Middle English, with a modern English introduction",
+        "file": "cic/texts/birgitta_revelations-enm_cumming1929.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Prologue and defense of the Revelations, in the 1628 edition",
+        "author": "Juan de Torquemada",
+        "date": "1435",
+        "language": "Latin",
+        "file": "cic/texts/birgitta_revelationes-lat_duranti1628.txt"
+      },
+      {
+        "title": "Life of St Catherine of Sweden, her daughter, in the Acta Sanctorum for March",
+        "author": "Ulf, a monk of Vadstena; the Bollandists",
+        "date": "1865",
+        "language": "Latin",
+        "file": "cic/texts/acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt"
+      },
+      {
+        "title": "Review of studies of Birgitta, in Zeitschrift für Kirchengeschichte XIV",
+        "author": "C. A. Wilkens",
+        "date": "1894",
+        "language": "German",
+        "file": "cic/texts/jacques-de-vitry_briefe-in-zeitschrift-fuer-kirchengeschichte-14-lat-deu_rohricht1894.txt"
+      },
+      {
+        "title": "Chronik des Constanzer Concils",
+        "author": "Ulrich Richental; Michael Richard Buck (ed.)",
+        "date": "1882",
+        "language": "Middle High German",
+        "file": "cic/texts/richental_chronik-des-constanzer-concils-gmh_buck1882.txt"
+      },
+      {
+        "title": "A History of the Inquisition of the Middle Ages, volume III",
+        "author": "Henry Charles Lea",
+        "date": "1888",
+        "language": "English",
+        "file": "cic/texts/lea_history-of-the-inquisition-of-the-middle-ages-v3_1888.txt"
+      }
+    ]
+  }
+}

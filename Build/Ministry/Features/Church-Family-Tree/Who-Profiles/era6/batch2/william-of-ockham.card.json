@@ -1,0 +1,114 @@
+{
+  "name": "William of Ockham",
+  "otherNames": [
+    "Guilelmus de Okam",
+    "Gulielmus Ockam",
+    "Guillermus de Ocham",
+    "Wilhelmus de Occam",
+    "Occam"
+  ],
+  "knownFor": "An English Franciscan and master of theology who fled the papal court at Avignon in 1328 with Michael of Cesena, the head of his order. From Munich he wrote against Popes John XXII and Benedict XII. In Henry Charles Lea's summary, he argued that a pope can fall into heresy, and so can a council.",
+  "dates": "No witness gives his birth year. Pope John XXII's letters of 1328 say he was held at Avignon while a case of heresy against him was heard. Armando Carlini, writing in 1912, dates the flight to the night of 26 May 1328, after Nicolaus Minorita; he notes that Riezler and Müller give the 25th. The Munich friars' book of the dead, which Carlini prints, and Nicolaus Glassberger's chronicle give his death as 10 April 1347. Henry Charles Lea puts it between 1347 and 1350. The Quaracchi editors of Glassberger, citing Luke Wadding, say probably about 1350.",
+  "place": "England, which the papal letters and his tombstone give as his country. Avignon, where the pope held him under inquiry. Pisa, where he joined Michael of Cesena's appeal in 1328. Munich, where he witnessed Michael's protest in the Franciscan house in 1338, and where the house's book of the dead says he was buried.",
+  "tradition": "The Franciscan Order — Spirituals Crisis to the Great Division",
+  "role": "Franciscan friar; master of theology; writer against the Avignon popes; keeper of the order's seal after Michael of Cesena died, by Lea's account",
+  "briefLength": "about 2 minutes 30 seconds",
+  "keyWorks": [
+    {
+      "title": "Dialogus",
+      "about": "a long dialogue on the pope, the emperor and heresy. Richard Scholz printed the close of one chapter in 1914 from a Vatican manuscript. There William writes that the Christian religion takes no one's right from him. The Index of forbidden books of 1564 lists the Dialogues."
+    },
+    {
+      "title": "Against John XXII",
+      "about": "dated 1335 by Scholz. William argues that the retraction John XXII is said to have made on his deathbed, about the souls of the saints in heaven, does not clear him of heresy. He writes that he is ready to be corrected if he says anything against the truth."
+    },
+    {
+      "title": "On the Power of Emperors and Popes",
+      "about": "printed by Scholz from a British Museum manuscript. William offers to give an account before a judge of everything he has done, written or said since he took the rule of Francis. He writes that he withdrew from the Avignon church because it held open errors and heresies."
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Nicolaus Glassberger's chronicle, written by an Observant Franciscan, quotes Andrew, a canon of Regensburg. Andrew names William as the man after whom some logicians are called Ockhamists.",
+      "Jean Gerson wrote in 1418, at the close of the Council of Constance, that William built an argument in his Dialogus. Gerson calls him a distinguished theologian, though not one to lean on alone.",
+      "Martin Luther calls him \"Occam, my dear master\", in his Exhortation to the Clergy at Augsburg of 1530. Lea writes that William, with Marsilius of Padua, may have helped prepare the way for Wyclif and the councils of Constance and Basel, and he marks it as a guess.",
+      "The Index of forbidden books of 1564 lists his Work of Ninety Days, his Dialogues and all his writings against John XXII, as Heinrich Reusch printed it in 1886."
+    ],
+    "remembered": [
+      "Walter Shirley, who edited a Carmelite collection against Wyclif in 1858, calls him \"the glory and the reproach of his order\". Shirley adds that Wyclif always spoke of him with respect.",
+      "Bartholomew of Pisa, a Franciscan, in his book on the likeness of Francis's life to Christ's, lists him among the order's men of learning, as one who wrote many works in logic and philosophy.",
+      "Glassberger writes that the whole order returned to the pope except Michael, William, Bonagrazia and Francis Rubei. He wishes these learned men had given their minds to better studies.",
+      "Pope Clement VI, in a sermon that Konrad of Megenberg quotes against him, said that William taught errors against the power of the Roman see, and that Marsilius of Padua learned his errors from him."
+    ]
+  },
+  "uncertain": [
+    "Whether he died in 1347. The Munich friars' book of the dead and Glassberger's chronicle give 10 April 1347. Luke Wadding, quoted by the Quaracchi editors of Glassberger, read a papal letter of 1349 as showing him alive then, returning the old seal of the order and asking pardon. The editors conclude that when and where he died is uncertain, probably about 1350. Lea puts the death between 1347 and 1350.",
+    "Whether he made his peace with the pope. Wadding says he asked pardon in 1349. Armando Carlini reads a letter of Clement VI of that year as glad that he had given back the seal, yet concludes from later documents that he did not accept the terms. Lea calls the reconciliation \"more than doubtful\", since Jacob of the Marches counts him among three friars who died unrepentant under excommunication.",
+    "Whether he was the friar summoned from Bologna in 1323. The pope's letter names only an English friar called William. Conrad Eubel, editing the letter in 1898, names William of Alnwick as another possibility, and thinks Ockham more likely, as the church annalist Odoricus Raynaldus did. Lea and Carlini take the friar for Ockham.",
+    "Whether his writings were heretical. John XXII called him a leader of heretics, and wrote in 1330 that doctors examining his writings had found many articles heretical. No witness names the doctors or lists the articles. William calls himself falsely defamed. Wyclif, as Shirley quotes him, says that whoever calls the venerable inceptor a heretic cannot prove it.",
+    "His birth and early life. No witness of his time gives his birth year, his entry to the order or his studies. A note in Henri Cordier's 1914 edition of Henry Yule's Cathay and the Way Thither adds that he was born in Surrey. Robert Vaughan in 1845 and J. B. Dalgairns in 1908 connect him with Merton College at Oxford. No earlier held witness says either.",
+    "The date of the flight. Carlini gives the night of 26 May 1328, a Thursday, after Nicolaus Minorita, and so does Lea. Carlini notes that Riezler and Müller give 25 May."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Close of the Dialogus; Against John XXII; Against Benedict XII; On the Power of Emperors and Popes, in Unbekannte kirchenpolitische Streitschriften aus der Zeit Ludwigs des Bayern, part II",
+        "author": "William of Ockham; Richard Scholz (ed.)",
+        "date": "1914",
+        "language": "Latin, with German notes",
+        "file": "cic/texts/scholz_unbekannte-kirchenpolitische-streitschriften-v2-lat_1914.txt"
+      },
+      {
+        "title": "Michael of Cesena's protest of 1338 at Munich, with William's signature, in the appendix to Fra Michelino e la sua eresia",
+        "author": "Armando Carlini (ed.)",
+        "date": "1912",
+        "language": "Latin",
+        "file": "cic/texts/carlini_fra-michelino-e-la-sua-eresia-ita-lat_1912.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Bullarium Franciscanum, volume V: letters of John XXII on the flight, the orders to seize him and the inquiry",
+        "author": "Conrad Eubel (ed.)",
+        "date": "1898",
+        "language": "Latin",
+        "file": "cic/texts/bullarium-franciscanum_v5-lat_eubel1898.txt"
+      },
+      {
+        "title": "Fra Michelino e la sua eresia, with the Munich book of the dead",
+        "author": "Armando Carlini",
+        "date": "1912",
+        "language": "Italian",
+        "file": "cic/texts/carlini_fra-michelino-e-la-sua-eresia-ita-lat_1912.txt"
+      },
+      {
+        "title": "Chronica, in Analecta Franciscana II, with the editors' notes",
+        "author": "Nicolaus Glassberger; the Quaracchi editors",
+        "date": "1887",
+        "language": "Latin",
+        "file": "cic/texts/glassberger_chronica-analecta-franciscana-v2-lat_1887.txt"
+      },
+      {
+        "title": "A History of the Inquisition of the Middle Ages, volume III",
+        "author": "Henry Charles Lea",
+        "date": "1888",
+        "language": "English",
+        "file": "cic/texts/lea_history-of-the-inquisition-of-the-middle-ages-v3_1888.txt"
+      },
+      {
+        "title": "Treatise against William of Ockham, quoting a sermon of Clement VI, in Scholz's Streitschriften",
+        "author": "Konrad of Megenberg; Richard Scholz (ed.)",
+        "date": "1914",
+        "language": "Latin",
+        "file": "cic/texts/scholz_unbekannte-kirchenpolitische-streitschriften-v2-lat_1914.txt"
+      },
+      {
+        "title": "Fasciculi Zizaniorum, introduction",
+        "author": "W. W. Shirley (ed.)",
+        "date": "1858",
+        "language": "English, with Latin",
+        "file": "cic/texts/fasciculi-zizaniorum_shirley1858.txt"
+      }
+    ]
+  }
+}

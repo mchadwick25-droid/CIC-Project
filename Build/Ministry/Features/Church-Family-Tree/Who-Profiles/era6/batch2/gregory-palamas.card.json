@@ -1,0 +1,112 @@
+{
+  "name": "Gregory Palamas",
+  "otherNames": [
+    "Gregory of Thessalonica",
+    "Gregorius Palamas",
+    "Γρηγόριος ὁ Παλαμᾶς"
+  ],
+  "knownFor": "A monk of Mount Athos, later archbishop of Thessalonica, who defended the hesychasts, monks of stillness and prayer, against Barlaam of Calabria. Synods of 1341, 1347 and 1351 upheld him. His teaching that God's essence cannot be shared, while his uncreated grace can, was fought by Gregory Akindynos and Nikephoros Gregoras.",
+  "dates": "None of the early witnesses gives his birth year or the year of his death. Philotheos, his panegyrist, says he died at sixty-three. The editor of his homilies, printed at Jerusalem in 1857, writes that his feast was set in 1368, six years after his death. The synods that judged the dispute met in 1341, 1347 and 1351.",
+  "place": "Constantinople, where Philotheos says his family settled and where Kantakouzenos says he was raised at court. Mount Athos: Vatopedi, the Great Lavra and the hermitage of Glossia. The skete of Beroea. Thessalonica, his see, which at first shut him out. Lemnos, where he waited. Asia Minor, where the Turks held him for a year.",
+  "tradition": "Hesychasm & the Palamite Synthesis",
+  "role": "Monk of Mount Athos; archbishop of Thessalonica; theologian and defender of the hesychasts",
+  "briefLength": "about 2 minutes 30 seconds",
+  "keyWorks": [
+    {
+      "title": "Defenses of those who practice sacred quiet (the Triads)",
+      "about": "nine treatises in three sets of three, as Philotheos names them, written against Barlaam. An extract is printed in the Philokalia of 1893, where he calls the charge that the monks put the soul in the navel a slander and writes that the body is not evil."
+    },
+    {
+      "title": "One Hundred and Fifty Chapters",
+      "about": "in Migne's Patrologia Graeca 150 and in the Philokalia. One chapter names three things in God: his essence, his energy and the three divine persons, and says God cannot be shared in his essence."
+    },
+    {
+      "title": "Homilies",
+      "about": "forty-one sermons, printed at Jerusalem in 1857 and in Migne's Patrologia Graeca 151. One, on the Transfiguration, says the same light is also darkness, overshadowing by its surpassing brightness."
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Three synodal decisions in his favor, of 1341, 1347 and 1351, are printed in the patriarchal register of Franz Miklosich and Joseph Müller, in Mansi's collection of councils and in Migne.",
+      "The Synodikon of Orthodoxy, read on the first Sunday of Lent, acclaims him as archbishop of Thessalonica, the 1857 editor of his homilies notes.",
+      "The editor writes that his feast falls on the Sunday after the Sunday of Orthodoxy, and that Philotheos composed its hymns.",
+      "The Philokalia, compiled by Macarius of Corinth and Nikodemos the Hagiorite, carries his writings on prayer, and Paisius Velichkovsky put him on prayer into Slavonic."
+    ],
+    "remembered": [
+      "Philotheos and a later patriarch, Neilos, each wrote a speech in his praise.",
+      "Nikephoros Gregoras, the historian, wrote against him as one who set up many gods, and a metropolitan of Side wrote of the Palamites as worshipers of many gods.",
+      "Gennadios Scholarios calls him the blessed Palamas.",
+      "The Bollandists, after Leo Allatius, call him a heretic, and John Covel, writing in 1722, calls him another hot-headed monk."
+    ]
+  },
+  "uncertain": [
+    "When he was born and when he died. None of the early witnesses gives either year. Philotheos gives his age at death, sixty-three. The 1857 editor sets the feast of 1368 six years after his death, which points to 1362.",
+    "Whether his teaching made many gods. Gregoras, the metropolitan of Side and Akindynos's verses say it did. The synods of 1347 and 1351, with Kantakouzenos presiding at 1351, declared him sound. The 1341 record has the monks deny that they share in God's essence.",
+    "Why he was imprisoned. The patriarch John Kalekas, in a letter of November 1344, says he fled to Heraclea when summoned and was to be held. Gregoras first thought it was his friendship with Kantakouzenos, then wrote that the empress's letters showed it was for new teaching. Philotheos says he suffered for the truth.",
+    "Whether the 1341 synod judged the teaching. Kantakouzenos and Philotheos say Barlaam was refuted. François Combefis, in a note printed by Mansi, writes after Gregoras that no doctrine was debated at that synod.",
+    "How he was captured. Philotheos says he was taken while sailing to make peace and held a whole year. Gregoras, his enemy, says the pirates found gold and silver on him, threw his books into the sea and flogged him, and tells it as God's justice.",
+    "The month of the 1341 decision. Miklosich and Müller's register gives July; the Jassy text of 1698 in Migne gives August."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Forty-one homilies, with the Encomia by Philotheos and Neilos and the editor's prolegomena",
+        "author": "Gregory Palamas",
+        "date": "1857",
+        "language": "Greek",
+        "file": "cic/texts/palamas_homiliae-41-grc_jerusalem1857.txt"
+      },
+      {
+        "title": "Opera omnia, Patrologia Graeca 150: the Hagioritic Tome and the One Hundred and Fifty Chapters",
+        "author": "Gregory Palamas; J.-P. Migne (ed.)",
+        "date": "1865",
+        "language": "Greek and Latin",
+        "file": "cic/texts/palamas_opera-omnia-pg150-grc-lat_migne1865.txt"
+      },
+      {
+        "title": "Opera omnia, Patrologia Graeca 151: homilies and the synodal tomes",
+        "author": "Gregory Palamas; J.-P. Migne (ed.)",
+        "date": "1865",
+        "language": "Greek and Latin",
+        "file": "cic/texts/palamas_opera-omnia-pg151-grc-lat_migne1865.txt"
+      },
+      {
+        "title": "Philokalia, volume 2: To Xeni, the Defenses of the hesychasts in extract, the Chapters",
+        "author": "Gregory Palamas; Panagiotes Tzelatis (ed.)",
+        "date": "1893",
+        "language": "Greek",
+        "file": "cic/texts/philokalia_ton-ieron-neptikon-v2-grc_tzelatis1893.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Historiarum libri IV",
+        "author": "John Kantakouzenos; Ludwig Schopen (ed.)",
+        "date": "1828 to 1832",
+        "language": "Greek and Latin",
+        "file": "cic/texts/cantacuzenus_historiarum-libri-iv-v1-grc-lat_schopen1828.txt"
+      },
+      {
+        "title": "Byzantina historia, volumes 2 and 3",
+        "author": "Nikephoros Gregoras; Ludwig Schopen and Immanuel Bekker (eds.)",
+        "date": "1830 and 1855",
+        "language": "Greek and Latin",
+        "file": "cic/texts/gregoras_byzantina-historia-v2-grc-lat_schopen1830.txt"
+      },
+      {
+        "title": "Acta patriarchatus Constantinopolitani I",
+        "author": "Franz Miklosich and Joseph Müller (eds.)",
+        "date": "1860",
+        "language": "Greek, with Latin headings",
+        "file": "cic/texts/acta-et-diplomata-graeca_acta-patriarchatus-constantinopolitani-1315-1402-v1-grc-lat_miklosich-mueller1860.txt"
+      },
+      {
+        "title": "Sacrorum conciliorum collectio 26",
+        "author": "Giovanni Domenico Mansi (ed.)",
+        "date": "1901 facsimile",
+        "language": "Latin",
+        "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-26-1344-1409-lat_welter-facsimile1901.txt"
+      }
+    ]
+  }
+}
