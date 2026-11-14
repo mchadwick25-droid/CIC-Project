@@ -1,0 +1,138 @@
+{
+  "name": "Richard Rolle",
+  "otherNames": [
+    "Richard Rolle of Hampole",
+    "Richard Hampole",
+    "The hermit of Hampole"
+  ],
+  "knownFor": "A Yorkshire hermit who wrote in Latin and in English on the love of God. In his Fire of Love he tells of the heat, sweetness and song he felt in prayer. He wrote English guides for recluses, among them the Form of Living for a woman named Margaret.",
+  "dates": "Died 1349. Charles Horstman, who edited his English writings in 1895, gives the day as 29 September. Horstman puts his birth about or shortly before 1300. Evelyn Underhill, introducing Frances Comper's edition of the Fire of Love, gives probably about 1290. The Office of Saint Richard the hermit, written for his feast, says he left Oxford in his nineteenth year.",
+  "place": "Thornton, near Pickering, in Yorkshire, where the Office says he was born. Oxford. A cell given him by the squire John de Dalton, then Richmondshire. Last, Hampole, near Doncaster, beside a house of Cistercian nuns, where he died and was buried.",
+  "tradition": "The English Mystics and Devout",
+  "role": "Hermit; writer on the love of God in Latin and English; guide to recluses",
+  "briefLength": "about 2 minutes 30 seconds",
+  "keyWorks": [
+    {
+      "title": "The Fire of Love",
+      "about": "his Latin book on the love of God, in which he tells of the heat, sweetness and song he came to feel. Richard Misyn, prior of the Carmelite friars at Lincoln, put it into English in 1435. R. Harvey printed Misyn's English in 1896, and Frances Comper modernized its spelling"
+    },
+    {
+      "title": "The Form of Living",
+      "about": "an English letter of guidance for a recluse, which closes \"Lo, Margaret, I have told thee shortly the Form of Living\". Horstman says one manuscript names a Cecil instead. It is read here in Geraldine Hodgson's modern English of 1910"
+    },
+    {
+      "title": "The English Psalter",
+      "about": "his English commentary on the Psalms. Verses set before one copy say he wrote it for dame Margaret Kirkby, a recluse, as Josiah Forshall and Frederic Madden sum them up"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Richard Misyn put the Fire of Love and the Mending of Life into English. His closing Latin note, which Comper prints, says he made the Fire of Love in 1435 at the request of Margaret Heslyngton, a recluse. Comper notes that Rolle had died eighty-six years before.",
+      "Verses before a copy of his English Psalter say his own copy lay chained at his tomb in the nunnery at Hampole. Forshall and Madden date the verses and the copy to the reign of Henry VI.",
+      "The same verses say Lollards, followers of John Wyclif, copied the Psalter and grafted heresy into it. Thomas Arnold, editor of Wyclif's Select English Works, says Bishop John Bale's catalogue gave the commentary to Wyclif. Arnold dates the catalogue to 1548 and 1559.",
+      "Forshall and Madden report that Humphrey Wanley, an earlier scholar, gave the shorter commentary to Wyclif. They judge it substantially Rolle's original, and Arnold says they showed it to be his.",
+      "York wills leave his books. A will of 1440 leaves a Psalter of Richard Hampole's treatise. One proved in 1479 leaves a book of Richard of Hampole, with the Nine Lessons and the Dirige, a service for the dead.",
+      "Canon Wordsworth, editing the York Prymer in 1920, notes York books of Hours of 1516 and 1517-18. They give an Evensong of the Holy Name of Jesus as set out by the devout Richard of Hampole."
+    ],
+    "remembered": [
+      "The Office of Saint Richard the hermit was written for his feast. Its heading says his hours may not be sung in public until the Church canonizes him, but he may be honored in private prayer.",
+      "Comper says the nuns of Hampole prepared the Office in the hope of his canonization, and that it did not take place. Two of its miracles, she notes, are dated 1381 and 1383.",
+      "The English Martyrologe of 1608, which Comper quotes, keeps \"the Commemoration of Blessed Richard Confessour & Ermite\" at Hampole on 1 November.",
+      "Evelyn Underhill, introducing Walter Hilton's Scale of Perfection in 1923, calls him \"the most vital and individual of the English mystics\". She counts Hilton among his spiritual descendants.",
+      "Horstman, in 1895, counts the English letters he wrote for women among the pearls of Old English literature."
+    ]
+  },
+  "uncertain": [
+    "The story of his flight. It comes from the Office prepared for his hoped-for canonization, and Comper says the Office draws largely on his own writings. Horstman says its Life is made of traditions, probably passed on by Margaret Kirkby, and of extracts from his works.",
+    "Whether he was a priest. Horstman says he was not in holy orders, neither priest nor monk, and was not allowed to preach from the pulpit. Josiah Forshall and Frederic Madden call him a chantry priest at Hampole. The Office has him preach in a church after asking the priest's blessing.",
+    "When he was born. Horstman fixes about 1300, reasoning from the age of Thomas Neville, who kept him at Oxford, and from his earliest work. Underhill gives probably about 1290.",
+    "The day he died. Horstman gives 29 September 1349, probably of the plague. Comper and Underhill give 1349 with no day, and the English Martyrologe of 1608 says about 1349.",
+    "Which Margaret. The Office's Margaret was once a recluse at Anderby. His Form of Living is written to a Margaret, and the Psalter verses name dame Margaret Kirkby. Horstman takes all three for one woman. Forshall and Madden place Kirkby probably at Hampole.",
+    "The Dalton church. The Office says only a certain church. Horstman, quoting another writer, says probably at Topcliffe near Thirsk, and Underhill follows him.",
+    "The commentary on the Canticles. Thomas Arnold holds that the first seven, which follow the Psalter, are Rolle's, retouched in some copies by a Lollard hand. He thinks the last five were added by Wyclif or his school.",
+    "Why he was never canonized. Comper blames the unsettled state of the Church as Lollardy rose. Underhill says Lollard use of his writings caused the movement for his canonization to be dropped."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "The Fire of Love and The Mending of Life, in Richard Misyn's English, with the Office's Legenda in English (ed. and modernized by Frances M. M. Comper)",
+        "author": "Richard Rolle; Richard Misyn (tr.); Frances M. M. Comper (ed.)",
+        "date": "1914",
+        "language": "English, modernized from Middle English",
+        "file": "cic/texts/rolle_fire-of-love-and-mending-of-life_comper1914.txt"
+      },
+      {
+        "title": "The Fire of Love and The Mending of Life, in Richard Misyn's Middle English (ed. R. Harvey)",
+        "author": "Richard Rolle; Richard Misyn (tr.)",
+        "date": "1896",
+        "language": "Middle English",
+        "file": "cic/texts/rolle_fire-of-love-and-mending-of-life-enm_harvey1896.txt"
+      },
+      {
+        "title": "The Form of Perfect Living and other Prose Treatises (rendered by Geraldine E. Hodgson)",
+        "author": "Richard Rolle",
+        "date": "1910",
+        "language": "Modern English rendering",
+        "file": "cic/texts/rolle_form-of-perfect-living-and-other-prose-treatises_hodgson1910.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "The Office of Saint Richard the hermit: the Legenda, Mass prayers and Miracula, in Frances Comper's English",
+        "author": "Anonymous; Frances M. M. Comper (tr.)",
+        "date": "1914",
+        "language": "English translation",
+        "file": "cic/texts/rolle_fire-of-love-and-mending-of-life_comper1914.txt"
+      },
+      {
+        "title": "Introduction and preface to The Fire of Love and The Mending of Life, with the English Martyrologe of 1608",
+        "author": "Evelyn Underhill; Frances M. M. Comper",
+        "date": "1914",
+        "language": "English",
+        "file": "cic/texts/rolle_fire-of-love-and-mending-of-life_comper1914.txt"
+      },
+      {
+        "title": "Yorkshire Writers: Richard Rolle of Hampole and his Followers, introduction",
+        "author": "Charles Horstman",
+        "date": "1895",
+        "language": "English, with Latin and Middle English",
+        "file": "cic/texts/rolle_yorkshire-writers-enm_horstman1895.txt"
+      },
+      {
+        "title": "The Holy Bible in the Earliest English Versions made by John Wycliffe and his Followers, preface",
+        "author": "Josiah Forshall and Frederic Madden (eds.)",
+        "date": "1850",
+        "language": "English, with Middle English",
+        "file": "cic/texts/wycliffite-bible_forshall-madden1850.txt"
+      },
+      {
+        "title": "Select English Works of John Wyclif, volume 3, note on the Commentary on the Canticles",
+        "author": "Thomas Arnold (ed.)",
+        "date": "1871",
+        "language": "English, with Middle English",
+        "file": "cic/texts/wyclif_select-english-works-v3_arnold1871.txt"
+      },
+      {
+        "title": "The Scale of Perfection, introduction",
+        "author": "Evelyn Underhill",
+        "date": "1923",
+        "language": "English",
+        "file": "cic/texts/hilton_scale-of-perfection_underhill1923.txt"
+      },
+      {
+        "title": "Testamenta Eboracensia, volume 3: wills registered at York",
+        "author": "James Raine and John William Clay (eds.)",
+        "date": "1865",
+        "language": "Latin and Middle English",
+        "file": "cic/texts/york-registry_testamenta-eboracensia-v3-enm_raine1865.txt"
+      },
+      {
+        "title": "Horae Eboracenses: the Prymer of the York Use, notes",
+        "author": "Canon Wordsworth (ed.)",
+        "date": "1920",
+        "language": "Latin and English",
+        "file": "cic/texts/surtees-society_horae-eboracenses-prymer-of-york-use-lat-enm_wordsworth1920.txt"
+      }
+    ]
+  }
+}

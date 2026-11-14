@@ -1,0 +1,117 @@
+{
+  "name": "Geert Grote",
+  "otherNames": [
+    "Gerard Groote",
+    "Gerard the Great",
+    "Gerardus Magnus",
+    "Gerijt die Groete",
+    "Gherd de groet"
+  ],
+  "knownFor": "Citizen of Deventer and deacon of the diocese of Utrecht who gave up his church posts and preached against vice through the diocese of Utrecht. The devout men and women he gathered became the New Devotion. Johannes Busch, a canon of Windesheim writing in 1464, calls him its first father.",
+  "dates": "Died at Deventer in 1384, on the feast of St Bernard, after Vespers, in a time of plague, Thomas à Kempis records. Kempis, a canon of Mount St Agnes, wrote his Life. Johannes Busch gives the same day and year. Both put his death in about his forty-fourth year. J. P. Arthur, who translated Kempis's Lives in 1905, gives 1340 for his birth.",
+  "place": "Deventer, his city, where he was born, gave away his house, and died. Paris, where he studied. Monichuysen near Arnhem, the house of Carthusian monks where he stayed for a time. The diocese of Utrecht, where he preached. Grunthal near Brussels, where he visited John Ruysbroek.",
+  "tradition": "Devotio Moderna / Brethren of the Common Life",
+  "role": "Master of Arts of Paris; deacon of the diocese of Utrecht and preacher; translator; the founder, by Busch's account, of the New Devotion",
+  "briefLength": "about 2 minutes 30 seconds",
+  "keyWorks": [
+    {
+      "title": "Letters",
+      "about": "Latin letters to friends, clergy and his bishop, edited by J. G. R. Acquoy in 1857 as fourteen letters of Gerard the Great. They include his warning about the friar Bartholomew at Kampen and his letters from the years of his silence. Kempis quotes several in English in his Life"
+    },
+    {
+      "title": "Resolutions and Intentions",
+      "about": "his own notes for ordering his life, which Kempis gives in the last chapter of his Life. Kempis heads them as set forth \"in the name of the Lord, but not confirmed by vows\". J. P. Arthur says that chapter is taken from notes Gerard made himself"
+    },
+    {
+      "title": "Translations",
+      "about": "two books of John Ruysbroek turned into Latin from what Kempis calls the Teutonic tongue. He also turned the Hours of the Blessed Virgin and other Hours from Latin into that tongue, for unlearned lay people to pray"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Florens Radewijns, vicar of Deventer, and the clerks who copied books began the common life with his blessing, Johannes Busch says. They put their weekly earnings in a common purse.",
+      "Some of his disciples lived at Windesheim, Thomas à Kempis says. Others founded the house of Mount St Agnes near Zwolle, on the site Grote had chosen.",
+      "After his death, Kempis writes, many communities of devout men and women arose in Deventer, Zwolle, Kampen and the towns nearby, living in common.",
+      "The sisters in Master Gerard's house at Deventer lived by spinning and weaving, Busch says, and read the Hours in Dutch from his translation.",
+      "The sisters of Diepenveen tell, in Dutch, that Hermen Sticke heard Master Gerijt the Great preach, turned wholly to God, and gave up his knighthood. His daughter was Salome Sticken, whom the book calls mother."
+    ],
+    "remembered": [
+      "William of Salvarvilla, a Paris theologian who knew him, wrote that he was truly \"The Great\", second to no one in the world in learning. Kempis and Busch both copy this praise.",
+      "Busch reports a speech of John Vos of Heusden, prior of Windesheim. Vos calls Gerard the Great the first father of their reform and the true apostle of their land.",
+      "An old Latin epitaph, printed after Kempis's Life, says he did what he said and lived as he taught. J. P. Arthur thinks it probably by another hand than Kempis's.",
+      "Evelyn Underhill, who edited John Ruysbroek in English in 1916, calls him the founder of the Brothers of the Common Life. She calls him the \"spiritual ancestor of Thomas a Kempis\"."
+    ]
+  },
+  "uncertain": [
+    "What rests on his own movement's writers. Thomas à Kempis wrote his Life as a canon of the movement Grote began, and never saw him. Johannes Busch finished his Latin account in 1464, about eighty years after Grote's death. Busch alone tells how the common life began, and that Grote caught the plague from his friend Lambert Stuerman. Kempis says only that he was smitten.",
+    "When he was born. Kempis and Busch give only his age at death, in about his forty-fourth year. J. P. Arthur gives 1340, and so does W. R. E. H. Opzoomer, who edited the Diepenveen sisters' book in 1886.",
+    "When and why he turned from the world. Kempis tells of a hermit's prophecy at Cologne and the Carthusian prior's counsel, and gives no year. Karl Grube, who edited Busch in 1886, dates the turn to 1374.",
+    "Why his preaching was stopped. Kempis calls the ban an edict craftily obtained by his enemies. An unnamed friend wrote to the bishop of Utrecht that clergy living with concubines had procured it, as he supposed. Almost all the others it touched had been restored, he wrote. J. G. R. Acquoy, in a Latin note of 1857, says a decree barred all but priests from preaching.",
+    "Where he preached. In J. P. Arthur's English, Kempis lists Kempen and Ghent. Busch's Latin lists Kampen and Gouda, and Grote's own letters place his quarrel with Bartholomew at Kampen. The Latin of Kempis's Life is not among the sources used here.",
+    "Who went with him to John Ruysbroek. Kempis's Chronicle names John, a scholar from Zwolle. His Life names John Cele, head of the Zwolle school, and a layman, Gerard the shoemaker.",
+    "His last promise. In Kempis's Life he promises to cast down flowers from heaven on his disciples. Busch says he is reported to have promised roses into their laps.",
+    "The writings in Low German. Rudolf Langenberg, in 1902, printed a tract on simony in beguine houses under the heading Gherd de groet, and argues that it is his. The lay rule in the same book is Dietrich Engelhusen's, Langenberg found."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Gerardi Magni Epistolae XIV, with the editor's notes (ed. J. G. R. Acquoy)",
+        "author": "Geert Grote",
+        "date": "1857",
+        "language": "Latin",
+        "file": "cic/texts/groote_epistolae-xiv-lat_acquoy1857.txt"
+      },
+      {
+        "title": "Resolutions and Intentions, and letters, as Thomas à Kempis gives them in his Life of Gerard the Great (tr. J. P. Arthur)",
+        "author": "Geert Grote",
+        "date": "1905",
+        "language": "English translation",
+        "file": "cic/texts/kempis_founders-of-the-new-devotion_arthur1905.txt"
+      },
+      {
+        "title": "Tract on simony in beguine houses, in Quellen und Forschungen zur Geschichte der deutschen Mystik (ed. Rudolf Langenberg)",
+        "author": "Ascribed to Geert Grote by Langenberg",
+        "date": "1902",
+        "language": "Middle Low German, with German study",
+        "file": "cic/texts/langenberg_quellen-und-forschungen-niederdeutschen-mystik-gml_1902.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "The Life of Gerard the Great, in The Founders of the New Devotion, with the letter of an unnamed friend to the bishop and William of Salvarvilla's letter to Pope Urban VI (tr. J. P. Arthur)",
+        "author": "Thomas à Kempis",
+        "date": "1905",
+        "language": "English translation",
+        "file": "cic/texts/kempis_founders-of-the-new-devotion_arthur1905.txt"
+      },
+      {
+        "title": "The Chronicle of the Canons Regular of Mount St Agnes, the founding chapter and chapters III to V of the second part (tr. J. P. Arthur)",
+        "author": "Thomas à Kempis",
+        "date": "1906",
+        "language": "English translation",
+        "file": "cic/texts/kempis_chronicle-of-mount-st-agnes_arthur1906.txt"
+      },
+      {
+        "title": "Chronicon Windeshemense, on the origin of the New Devotion, with the editor's introduction and notes (ed. Karl Grube)",
+        "author": "Johannes Busch",
+        "date": "1886",
+        "language": "Latin, with German notes",
+        "file": "cic/texts/busch_chronicon-windeshemense-lat_grube1886.txt"
+      },
+      {
+        "title": "Het Klooster van Diepenveen, the life of Salome Sticken, with the editor's notes (ed. W. R. E. H. Opzoomer)",
+        "author": "The sisters of Diepenveen",
+        "date": "1886",
+        "language": "Middle Dutch, with Dutch notes",
+        "file": "cic/texts/diepenveen_het-klooster-van-diepenveen-dum_opzoomer1886.txt"
+      },
+      {
+        "title": "John of Ruysbroeck: The Adornment of the Spiritual Marriage, with the editor's introduction (ed. Evelyn Underhill)",
+        "author": "Evelyn Underhill",
+        "date": "1916",
+        "language": "English",
+        "file": "cic/texts/ruusbroec_adornment-spiritual-marriage-sparkling-stone-book-supreme-truth_wynschenk-dom1916.txt"
+      }
+    ]
+  }
+}
