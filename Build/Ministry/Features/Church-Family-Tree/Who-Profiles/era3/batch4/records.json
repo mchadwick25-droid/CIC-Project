@@ -62,12 +62,12 @@
         "formation_confidence": "Dominant Modern Reconstruction"
       },
       {
-        "claim": "Liberatus and Victor were of the same age and land and party, 'acerrimi orthodoxae fidei defensores', embittered against Vigilius",
-        "witness": "Mommsen's introduction (l.17574-17577)",
+        "claim": "Liberatus and Victor were of the same age and land and party, 'acerrimi orthodoxae fidei defensores', embittered against Vigilius, 'iusto odio exacerbati in Vigilium inter malos pontifices Romanos fortasse pessimum'",
+        "witness": "Mommsen's introduction (l.17574-17578)",
         "formation_confidence": "Widely Accepted"
       },
       {
-        "claim": "Victor is trustworthy on facts, but his chronicle is 'plenum mendis' in its years, through a corruptor rather than Victor",
+        "claim": "Victor is trustworthy on facts, but his chronicle is 'plenum mendis' in its years, 'non Victoris, ut arbitror, sed corruptoris cujuspiam ignorantia'",
         "witness": "Noris, quoted in Gallandi's notice (liberatus-victor-tunnunensis-primasius-junillus-pl68-lat_migne1866.txt l.73050-73058)",
         "formation_confidence": "Widely Accepted"
       },
@@ -573,7 +573,7 @@
         "formation_confidence": "Widely Accepted"
       },
       {
-        "claim": "He turned from his Daphniaca to history so that his life should bring some use to the public",
+        "claim": "He turned from his Daphniaca to history so that his life should bring some use to the public; he gathered new epigrams by others, in seven books by Niebuhr's account (l.94037)",
         "witness": "Agathias, preface, Latin version (l.94850-94859, 94884-94887)",
         "formation_confidence": "Documented"
       },
@@ -667,9 +667,9 @@
         "formation_confidence": "Widely Accepted"
       },
       {
-        "claim": "'Cassiodorus Senator ... Juvenis adeo, dum patris Cassiodori Patricii et Praefecti Praetorii Consiliarius fieret et laudes Theodorichi regis Gothorum facundissime recitasset, ab eo Quaestor est factus. Patricius et Consul Ordinarius, postmodum dehinc Magister Officiorum'",
-        "witness": "Anecdoton Holderi, printed by Hodgkin (l.3747-3752)",
-        "formation_confidence": "Documented"
+        "claim": "'Cassiodorus Senator ... Juvenis adeo, dum patris Cassiodori Patricii et Praefecti Praetorii Consiliarius fieret et laudes Theodorichi regis Gothorum facundissime recitasset, ab eo Quaestor est factus. Patricius et Consul Ordinarius, postmodum dehinc Magister Officiorum'; the fragment is excerpted by a later hand from a short tract by Cassiodorus on his family's literary history, and 'cannot consist of the very words of Cassiodorus'",
+        "witness": "Anecdoton Holderi, printed by Hodgkin (l.3747-3752); Hodgkin on the fragment (l.3757-3770)",
+        "formation_confidence": "Widely Accepted"
       },
       {
         "claim": "'Me etiam consule in vestrorum laude temporum adunato clero vel populo Romanae ecclesiae rediit optata concordia'; the year 514 is Mommsen's",
@@ -717,7 +717,7 @@
         "formation_confidence": "Documented"
       },
       {
-        "claim": "Mechanical lamps that 'appears to have made them self-trimming', sundials and water-clocks",
+        "claim": "Lamps 'conservatrices illuminantium flammarum, ipsas sibi nutrientes incendium'; one sundial and one water-clock; Hodgkin thinks the lamps were self-trimming",
         "witness": "Hodgkin (l.3233-3238), from 'Paravimus etiam nocturnis vigiliis mechanicas lucernas' (l.3240-3244; cassiodorus_opera-institutiones-pl70-lat_migne1847.txt l.84039-84060)",
         "formation_confidence": "Documented"
       },
@@ -727,7 +727,7 @@
         "formation_confidence": "Dominant Modern Reconstruction"
       },
       {
-        "claim": "Probably never formally abbot",
+        "claim": "Probably never formally abbot; Hodgkin allows Trithemius 'may preserve a genuine and accurate tradition'",
         "witness": "Hodgkin (l.3125-3128), against Trithemius 'abbas electus est' (l.3141-3147); the abbots Chalcedonius and Gerontius named in Institutiones ch. 32 (cassiodorus_opera-institutiones-pl70-lat_migne1847.txt l.84182-84183)",
         "formation_confidence": "Contested"
       },
@@ -1084,6 +1084,11 @@
         "claim": "Brooks's consecration date: probably 558",
         "witness": "Brooks's introduction (john-ephesus_lives-eastern-saints-po17_brooks1923.txt l.314-321)",
         "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "The bishop John, held in prison at Chalcedon for a year, refused communion and died on the day he had foretold",
+        "witness": "Michael the Syrian, tr. Chabot (michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt l.26282-26303), probably summarising John's lost chapters (Chabot's note, l.26296-26297); Brooks's source for 586 (john-ephesus_lives-eastern-saints-po17_brooks1923.txt l.359-360, note l.400)",
+        "formation_confidence": "Inferential-Thin"
       }
     ],
     "contested_claims": [
@@ -1093,21 +1098,21 @@
       },
       {
         "claim": "How many he converted",
-        "sides": "John's History: many thousands in the Tralles hills (EH l.10140-10141). Michael quoting John: seventy thousand, Chabot's correction of the manuscript's seven thousand (Michael l.20711, 20722-20723). Payne Smith: seventy thousand in four years (EH l.157-161)."
+        "sides": "John's History: many thousands in the Tralles hills (EH l.10140-10141). Michael quoting John: seventy thousand, Chabot's correction of the manuscript's seven thousand (Michael l.20711, 20722-20723). Payne Smith: seventy thousand in four years (EH l.157-161). Michael, in the same chapter: twenty-three thousand baptised later in Asia (l.20769-20772)."
       },
       {
         "claim": "When he was made bishop of Ephesus",
         "sides": "Brooks: probably 558 (PO17 l.320-321). Michael: forty years before the schism of the 570s (Michael l.25318-25320)."
+      },
+      {
+        "claim": "Where John stood in the schism of 575",
+        "sides": "Brooks: on the side opposed to James (PO17 l.355-357). Michael: he did not separate from James's partisans but rebuked both parties (Michael l.25318-25325)."
       }
     ],
     "absent_details": [
       {
         "detail": "His parents' names and family",
         "note": "John names neither; he speaks only of 'my parents' and 'my mother'."
-      },
-      {
-        "detail": "An ancient source for his last prison and death",
-        "note": "Brooks alone gives the year in prison at Chalcedon; no ancient source for it is held."
       },
       {
         "detail": "The date of his ordination as priest",
