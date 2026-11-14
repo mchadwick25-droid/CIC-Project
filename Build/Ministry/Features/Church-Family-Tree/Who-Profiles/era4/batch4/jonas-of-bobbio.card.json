@@ -4,8 +4,8 @@
     "Ionas"
   ],
   "knownFor": "Monk of Bobbio who wrote the Life of Columbanus, the Irish founder of Luxeuil and Bobbio. Later, as an abbot, he wrote the Life of John of Réomé.",
-  "dates": "Entered Bobbio three years after Columbanus's death, Dana Munro says. Wrote the Life of Columbanus about 640, by Bruno Krusch's date, before 642. An abbot by 659, the date Krusch gives for his stay at Réomé. No held source gives his birth or death",
-  "place": "Bobbio in Italy; the Scheldt and the marsh of the Elnone, with Bishop Amand; Réomé, on his way to Chalon",
+  "dates": "Entered Bobbio three years after Columbanus's death, Dana Munro says. Wrote the Life of Columbanus about 640, by Bruno Krusch's date, before 642. An abbot in the third year of King Clothar, which Krusch reckons as 659. No held source gives his birth year or his death",
+  "place": "Born at Susa in Italy, at the foot of the Alps, say the Acta Sanctorum editors G. Henschenius and D. Papebrochius. A monk of Bobbio; with Bishop Amand on the Scheldt and the marsh of the Elnone; at Réomé, on his way to Chalon",
   "tradition": "Insular / Irish Monastic Christianity",
   "role": "Monk and abbot; hagiographer",
   "briefLength": "about 2 minutes",
@@ -26,7 +26,7 @@
   "legacy": {
     "traces": [
       "Bruno Krusch says the later Lives of John of Réomé were built on Jonas's book. One forger claimed to have lived before Jonas. Another claimed he wrote from men who had often seen John.",
-      "Krusch finds in an old Life of Bibianus of Saintes a prologue like Jonas's, and a phrase Jonas often used."
+      "Krusch finds a prologue like Jonas's, and a phrase Jonas often used, in a Life of Bibianus of Saintes. He places its language in the Carolingian age."
     ],
     "remembered": [
       "Dana Munro, his translator, says almost all accounts of the Irish missionaries are lost, so this Life of Columbanus is of great value.",
@@ -35,8 +35,10 @@
     ]
   },
   "uncertain": [
-    "His own life is thin. It comes from his prefaces and the opening of his Life of John, and from Munro's and Krusch's notes.",
-    "Whether he wrote the older Life of Vedast, bishop of Arras. Krusch believes so, from its style and a wonder told in nearly the same words, and says Louis Duchesne agreed. The Life itself names no author.",
+    "Whether he wrote the older Life of Vedast, bishop of Arras. Krusch believes so, from its style and a wonder told in nearly the same words. He says Louis Duchesne agreed, and later G. Kurth. The Life itself names no author.",
+    "His own life is known mostly from his prefaces and the opening of his Life of John. Dana Munro, Bruno Krusch and the Acta Sanctorum editors add a little.",
+    "His origin. The Acta Sanctorum editors say he was Italian, not Irish, and born at Susa. They rest this on their Life of Attala, which is not held.",
+    "Whether he was abbot of Bobbio. The Acta Sanctorum editors list him after Bobolenus among its abbots, with a perhaps. The Réomé opening calls him abbot but names no house.",
     "Munro's translation leaves out the preface. Its Latin is held only in a hard-to-read copy of Vincentius Barralis's book of 1613."
   ],
   "sources": {
@@ -75,7 +77,15 @@
         "title": "The council of Mâcon, with Jonas's account from the Life of Eustasius, in Sacrorum conciliorum collectio 10",
         "author": "Giovanni Domenico Mansi (ed.)",
         "language": "Latin",
-        "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-10-lat_welter-facsimile1901.txt"
+        "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-10-lat_welter-facsimile1901.txt",
+        "date": "1901"
+      },
+      {
+        "title": "Commentary on Saint Eustasius, abbot of Luxeuil, in Acta Sanctorum, March, volume 3",
+        "author": "G. Henschenius and D. Papebrochius",
+        "date": "1865",
+        "language": "Latin",
+        "file": "cic/texts/acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt"
       }
     ]
   }

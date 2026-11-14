@@ -253,7 +253,7 @@
  "prudentius-of-troyes": {
   "claims": [
    {
-    "claim": "Scene, De praedestinatione contra Joannem Scotum, preface to Wenilo: 'misisti mihi quamdam schedulam decem et novem capitula continentem ex libro cujusdam Scoti selecta'; 'rogans et monens ut quaecunque in eis a vero exorbitantia comperissem ... responsa'; 'reperi in eis Pelagianae venena perfidiae, et aliquoties Origenis amentiam'; 'Intremui, fateor, et expavi tot olim errores cum suis auctoribus jam sopitos nostris denuo temporibus pullulare'. Told in modern words",
+    "claim": "Scene, De praedestinatione contra Joannem Scotum, preface to Wenilo: 'misisti mihi quamdam schedulam decem et novem capitula continentem ex libro cujusdam Scoti selecta'; 'rogans et monens ut quaecunque in eis a vero exorbitantia comperissem ... responsa'; 'reperi in eis Pelagianae venena perfidiae, et aliquoties Origenis amentiam' ('at times'); 'Intremui, fateor, et expavi tot olim errores cum suis auctoribus jam sopitos nostris denuo temporibus pullulare'. Told in modern words",
     "witness": "PL115 (eulogius-cordoba_opera-with-alvarus-vita-eulogii-pl115-lat_migne1852.txt) l.82822, 82839, 82855-82891 [two columns interleaved; OCR 'GuenLont', 'lutremni', 'expavyi', 'denno Llempori- bus']",
     "formation_confidence": "Documented"
    },
@@ -263,23 +263,23 @@
     "formation_confidence": "Documented"
    },
    {
-    "claim": "The poem: Antonio, 'Imo et ipse Prudentius in carmine quodam ad codicem Evangeliorum praevio Hispania genitum se, ac Celtas deductum, ibique alitum ait'",
-    "witness": "PL115 (eulogius-cordoba_opera-with-alvarus-vita-eulogii-pl115-lat_migne1852.txt) l.79304-79306 [OCR 'Prudentins', 'alium ail']",
+    "claim": "The poem: Antonio, 'Imo et ipse Prudentius in carmine quodam ad codicem Evangeliorum praevio Hispania genitum se, ac Celtas deductum, ibique alitum ait'; the verses themselves: 'Hinc ego devoto famulans Prudentius actu ... Hesperia genitus, Celtas deductus et altus'",
+    "witness": "PL115 (eulogius-cordoba_opera-with-alvarus-vita-eulogii-pl115-lat_migne1852.txt) l.79304-79306 [OCR 'Prudentins', 'alium ail']; PL115 l.114856-114869",
     "formation_confidence": "Documented"
    },
    {
-    "claim": "Authorship of the annals: Hincmar to Egilo, 'domnus Prudentius in annali gestorum nostrorum regum, quae composuit ... Ipsum autem annale quod dico, rex habet'; Waitz: Prudentius died 861 and could not carry the work beyond it; from 861 the author is Hincmar, 'extra dubium'; the first author ended in 835",
-    "witness": "BERT (prudentius-troyes_annales-bertiniani_waitz1883.txt) l.120-150, 205-207; l.98-100",
+    "claim": "Authorship of the annals: Hincmar to Egilo, 'domnus Prudentius in annali gestorum nostrorum regum, quae composuit ... Ipsum autem annale quod dico, rex habet'; Pertz (introduction signed 'G. H PERTZ.', l.249): Prudentius died 861 and could not carry the work beyond it; from 861 the author is Hincmar, 'extra dubium'; the first author ended in 835; Waitz: whether official annals 'alii contenderunt, alii in dubium vocaverunt'; Hincmar carried them 'fere usque ad vitae terminum'",
+    "witness": "BERT (prudentius-troyes_annales-bertiniani_waitz1883.txt) l.120-150, 205-207; l.98-100; Waitz l.250-263",
     "formation_confidence": "Documented"
    },
    {
-    "claim": "Lebeuf's signs, via Waitz: 'Prudentium ex Hispania oriundum, patrio more ... non epiphaniae sed apparitionis Domini festum dicere'; Roman city names 'Agedincum Senonum ... Tullum Leucorum'; eclipses, comets, aurora, floods, wolves; 'omnia, bona malave, animo pio et benigno divinae omnipotentiae libenter adscribere'",
-    "witness": "BERT (prudentius-troyes_annales-bertiniani_waitz1883.txt) l.152-194",
+    "claim": "Lebeuf's signs, via Pertz's introduction: 'Prudentium ex Hispania oriundum, patrio more ... non epiphaniae sed apparitionis Domini festum dicere'; Roman city names 'Agedincum Senonum ... Tullum Leucorum'; eclipses, comets, aurora, floods, wolves; 'omnia, bona malave, animo pio et benigno divinae omnipotentiae libenter adscribere'; Lebeuf's point is that the part from 861 is 'a prioribus plane diversa'; only the Epiphany usage is 'patrio more'",
+    "witness": "BERT (prudentius-troyes_annales-bertiniani_waitz1883.txt) l.152-194 (Pertz, signed l.249)",
     "formation_confidence": "Documented"
    },
    {
-    "claim": "849: Gottschalk 'publice flagellatus librosque suarum adsertionum igni cremare compulsus est'; Waitz's note: 'Doctissimus abbas Lebeuf ... hunc de Gothescalco locum ab Hincmaro interpolatum suspicatur'",
-    "witness": "BERT (prudentius-troyes_annales-bertiniani_waitz1883.txt) l.2457-2458; l.2495-2505",
+    "claim": "849: Gottschalk 'publice flagellatus librosque suarum adsertionum igni cremare compulsus est'; Bouquet's note (signed 'BOUQ.'), reprinted by Waitz: 'Doctissimus abbas Lebeuf ... hunc de Gothescalco locum ab Hincmaro interpolatum suspicatur'; Pertz: 'a Prudentio scribi non potuisse viri docti existimant'",
+    "witness": "BERT (prudentius-troyes_annales-bertiniani_waitz1883.txt) l.2457-2458; l.2495-2505; Pertz l.219-226",
     "formation_confidence": "Dominant Modern Reconstruction"
    },
    {
@@ -304,7 +304,7 @@
    },
    {
     "claim": "Card: councils: 'Parisiensi anno 846; Turonensi IV (alias Parisiensi ...) anno 849; Suessionensi II, 853'",
-    "witness": "PL115 (eulogius-cordoba_opera-with-alvarus-vita-eulogii-pl115-lat_migne1852.txt) l.79325-79330",
+    "witness": "PL115 (eulogius-cordoba_opera-with-alvarus-vita-eulogii-pl115-lat_migne1852.txt) l.79317-79330 [OCR '$35' for 853]",
     "formation_confidence": "Documented"
    },
    {
@@ -318,14 +318,19 @@
     "formation_confidence": "Documented"
    },
    {
-    "claim": "Card: manuscript note: 'compositor ejus Prudentius de quibusdam ecclesiasticis dogmatibus non sensit catholice'; Camusat answers, 'Nic. Camusat. Tricassinus, in Promptuario antiquitatum Tricassinae dioecesis'",
+    "claim": "Card: manuscript note: 'compositor ejus Prudentius de quibusdam ecclesiasticis dogmatibus non sensit catholice'; Camusat answers, 'Nic. Camusat. Tricassinus, in Promptuario antiquitatum Tricassinae dioecesis'; Camusat: 'ex alicujus fortasse capite'",
     "witness": "PL115 (eulogius-cordoba_opera-with-alvarus-vita-eulogii-pl115-lat_migne1852.txt) l.82847-82866",
     "formation_confidence": "Documented"
    },
    {
     "claim": "Card: Galindo: Antonio links the name to 'Galindus Aragoniae comes' and asks 'Quid vero impedit ex eadem progenie cum Galindo nostro Prudentium fuisse?'",
-    "witness": "PL115 (eulogius-cordoba_opera-with-alvarus-vita-eulogii-pl115-lat_migne1852.txt) l.79275-79290",
+    "witness": "PL115 (eulogius-cordoba_opera-with-alvarus-vita-eulogii-pl115-lat_migne1852.txt) l.79272-79278",
     "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Antonio on his teaching: 'Quosdam a Deo fuisse gratuito praedestinatos ad vitam, quosdam imperscrutabili justitia praedestinatos ad poenam'; 'Nicolao I'; Antonio writes after Mauguin's collection of 1650",
+    "witness": "PL115 l.79394-79396; l.79625; l.79553-79557",
+    "formation_confidence": "Widely Accepted"
    }
   ],
   "contested_claims": [
@@ -340,21 +345,21 @@
     "claim": "The 849 Gottschalk entry",
     "sides": [
      "As printed (BERT l.2457-2458)",
-     "Lebeuf, via Waitz: reworked by Hincmar (l.2495-2505)"
+     "Lebeuf, in Bouquet's note reprinted by Waitz (l.2495-2505), and Pertz (l.219-226): reworked by Hincmar"
     ]
    }
   ],
   "absent_details": [
    {
     "detail": "His birth year, his election as bishop and his family",
-    "note": "No held line gives them"
+    "note": "No held line gives his birth year or election; Antonio guesses kinship with Count Galindo of Aragon (Inferential-Thin, PL115 l.79275-79276)"
    }
   ]
  },
  "jonas-of-bobbio": {
   "claims": [
    {
-    "claim": "Scene, Jonas's preface (Surius, printed by Barralis): 'quamquam me et per triennium Oceani per ora vehit ... Scaldeus molles sulcando vias, madere facit saepe et lenta palus Elnonis plantas, ob venerabilis Amandi Pontificis ferendum suffragium: qui his constitutus in locis veteres Sicambrorum errores Evangelico mucrone coercet'. Told in modern words",
+    "claim": "Scene, Jonas's preface (Surius, printed by Barralis): 'quamquam me et per triennium Oceani per ora vehit ... Scaldeus molles sulcando vias, madere facit saepe et lenta palus Elnonis plantas, ob venerabilis Amandi Pontificis ferendum suffragium: qui his constitutus in locis veteres Sicambrorum errores Evangelico mucrone coercet'. Told in modern words. He was carried 'per ora' (along the shores)",
     "witness": "BARRALIS (barralis_chronologia-sanctorum-insulae-lerinensis-lat_1613.txt) l.36442-36444 [poor OCR: 'Oceani perora', 'Scalteus', 'Elnomis piant as', 'amandi Pottfiat']",
     "formation_confidence": "Documented"
    },
@@ -400,7 +405,7 @@
    },
    {
     "claim": "Krusch on Vedast: the author 'Ionae peculiare elocutionis genus ita subsecutus sit, ut apud utrumque idem miraculum legatur iisdem fere verbis enarratum'; 'utraque eodem fere tempore ab uno eodemque auctore condita est'; Duchesne 'approbavit'",
-    "witness": "SRM3 (passiones-vitaeque-sanctorum-merovingici-mgh-srm-3-lat_krusch1896.txt) l.31893-31903",
+    "witness": "SRM3 (passiones-vitaeque-sanctorum-merovingici-mgh-srm-3-lat_krusch1896.txt) l.31893-31903; Addenda l.58518 (G. Kurth)",
     "formation_confidence": "Dominant Modern Reconstruction"
    },
    {
@@ -409,8 +414,8 @@
     "formation_confidence": "Documented"
    },
    {
-    "claim": "Card: Surius's heading: 'ab eius aequali Iona Abbate, quem quidam vocant discipulum eius'",
-    "witness": "BARRALIS (barralis_chronologia-sanctorum-insulae-lerinensis-lat_1613.txt) l.36419-36420 [OCR 'aquali loM Abbate']",
+    "claim": "Card: Surius's heading: 'ab eius aequali Iona Abbate, quem quidam vocant discipulorum eius discipulum'",
+    "witness": "BARRALIS (barralis_chronologia-sanctorum-insulae-lerinensis-lat_1613.txt) l.36419-36420 [OCR 'aquali loM Abbate'] [OCR 'quem quidam vocat difiif alorum eim difci falam']",
     "formation_confidence": "Documented"
    },
    {
@@ -427,25 +432,36 @@
     "claim": "Card: Munro: 'his account reflects their feelings faithfully, and we may be certain that he has recorded the events accurately, and has often reproduced the saint's own words'; the preface 'has been omitted'",
     "witness": "MUNRO (jonas-bobbio_life-of-st-columban_munro1895.txt) l.79-81; l.96-97",
     "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Born at Segusium (Susa), Italian not Irish; a monk under Attala, Bertulf and Bobolenus: 'natione non Hibernus, sed Italus Segusii, vulgo Susae ... natus'",
+    "witness": "AASS-Mar3 (acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt) l.197480-197486 [OCR 'Susz', '.4ttala']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Perhaps abbot of Bobbio after Bobolenus: 'postea Bobolenus et forsan Jonas'; 'et forsan huic, quia Abbas appellatur, successit'",
+    "witness": "AASS-Mar3 l.197378-197382, 197482-197483",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Krusch's Addenda: 'Etiam G. Kurth ... opinioni meae nuper accessit'; the Réomé journey 'anno tercio regni domni Clotharii regis' (659 is Krusch's margin); the monks' 'per discipulos ... vel posteris eorum'",
+    "witness": "SRM3 l.58518; l.39928, 39931, 39933-39934",
+    "formation_confidence": "Documented"
    }
   ],
   "contested_claims": [
    {
     "claim": "Whether Jonas wrote the older Life of Vedast",
     "sides": [
-     "Bruno Krusch, with Louis Duchesne's approval: yes, from style and a shared miracle (SRM3 l.31893-31903)",
+     "Bruno Krusch, with Louis Duchesne's approval, and later G. Kurth's (SRM3 l.58518): yes, from style and a shared miracle (SRM3 l.31893-31903)",
      "The Life names no author; Krusch's case is from likeness only"
     ]
    }
   ],
   "absent_details": [
    {
-    "detail": "His birth, origin and death",
+    "detail": "His birth year and his death",
     "note": "No held line gives them. The Library header's 'd. c. 665' rests on no held text"
-   },
-   {
-    "detail": "The year he became abbot, and of which house",
-    "note": "The Réomé prologue calls him abbot in 659 but does not name his house"
    }
   ]
  },
