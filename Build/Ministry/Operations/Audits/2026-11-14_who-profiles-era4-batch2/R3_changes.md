@@ -15,3 +15,5 @@ The four fixes to participant text were made after the last round. They were app
 | R3-D-M2 (Benjamin I records and notes: a Coptic-list heading quoted from lines the citation does not cover; two OCR forms unmarked) | Applied: the heading is cited at l.123862, 123865 and 123953-123954, with "ad'vexit" and "Iu fol." flagged as OCR forms. |
 
 Both audio scripts took the same edit as their briefs. A script check confirms each equals its brief once the two tags are removed. Only the four strings changed in participant text. Mark's cap ruling ordered one targeted Opus check of them, which does not count toward the cap: `R4_cap-check.md`.
+
+**After R4.** The cap check was CLEAR, with one minor point in the Benjamin I brief: "He came from a rich family" followed the Evetts sentence, so "He" could point to Evetts. It was applied as worded in the brief and the audio. The Evetts sentence now comes straight after "So says the History of the Patriarchs of Alexandria, a later Arabic history of Benjamin's own church." No word changed. The brief is still 405 words, FK 8.23, Flesch 60.07, and the audio equals the brief once the two tags are removed.

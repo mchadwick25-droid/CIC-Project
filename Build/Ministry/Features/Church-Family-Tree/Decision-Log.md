@@ -2879,3 +2879,44 @@ The approved files are in `Who-Profiles/era4/batch1/` in this folder, and the re
 **What is still open.** Open-Gaps 255. Open-Gaps 217 (caps, major mark, placement) is carried.
 
 Approved to proceed (Mark, 2026-11-14).
+
+## 2026-11-14 — Minor round 3 fixes to reader-facing text get one targeted check without asking Mark (Mark, 2026-11-14)
+
+**Decided (Mark, 2026-11-14, picked from options, relayed by the coordinator).** Mark chose "Check, and make it standing (Recommended)". The option read: "Apply the four as worded, plus one targeted Opus check of only those strings. From now on, minor round 3 fixes to reader-facing text get the same treatment without asking you. A blocking point open after round 3 still comes to you." From now on, a Who batch whose third and last review round finds only minor points in reader-facing text applies them as worded. One targeted Opus check of only those strings follows, by an agent that has not seen the drafting or the earlier rounds. That check does not count toward the cap. A blocking point open after round 3 still goes to Mark for a cap ruling. Approved to proceed (Mark, 2026-11-14).
+
+## 2026-11-14 — Cap ruling: one check of four round 3 fixes, era 4 Who batch 2
+
+**Cap ruling (2026-11-14, Mark: "Check, and make it standing (Recommended)", picked from options, relayed by the coordinator).** Round 3, the last review round of era 4 Who batch 2, found no blocking point in any of the eight profiles. Four of its seven minor points were in participant text:
+- **Benjamin I of Alexandria, brief and audio.** "its translator" became "the History's translator", since a sentence had come between the History and "its".
+- **Gregory of Narek, brief and audio.** "of the same century" became "of Gregory's own century", since it could be heard as Serpos's eighteenth century.
+- **Martin I of Rome, card.** The decree item now places Theodore Calliopas as the governor who arrested Martin, and says Martin reports the decree rather than quotes it.
+- **Timothy I of Baghdad, card.** An item headed "His name." now opens 'Why he is called "of Baghdad".'
+
+Mark ordered the four applied as worded, and one targeted Opus check of only those strings by an agent that had not seen the drafting or the earlier rounds. The check does not count toward the cap: `Build/Ministry/Operations/Audits/2026-11-14_who-profiles-era4-batch2/R4_cap-check.md`. Its verdict was CLEAR, with no blocking point. Evetts is the translator on the History's title page, and the life is headed 622 to 661. Macler dates Stepanos of Taron to the late tenth and early eleventh century, and the Anania sentence is still his. Mansi has Calliopas as exarch, rendered governor, and Martin's letter reports the decree's "irregulariter & sine lege". The four witnesses on Timothy's name hold. One minor point was found and applied as worded: in the Benjamin brief, the Evetts sentence moved up one place, so that "He came from a rich family" points to Benjamin. No word changed, and the brief is still 405 words, FK 8.23, Flesch 60.07. The cap ruling is met.
+
+## 2026-11-14 — Who profiles, era 4 batch 2: eight profiles, eight majors, the Photian councils found in Mansi (coordinator, under Mark's ruling of 2026-11-14 that eras 4 to 7 are built in full)
+
+**The batch.** The eastern majors of `Build/Ministry/Operations/Audits/2026-11-11_who-scan-era4/Who_Scan_Era4.md`: Maximus the Confessor, Martin I of Rome, Photius of Constantinople, Timothy I of Baghdad, Dionysius of Tel Mahre, Jacob of Edessa and Gregory of Narek. Benjamin I of Alexandria is added, moved to era 4 by the date of his work (era 3 batch 6). His brother Mennas is a separate STORY row and is not written here. None of the eight is a census person entry or was written before. Opus drafted every profile to `Who_Profile_Pattern.md`, per Mark's era 1 batch 1 ruling, "Opus for all".
+
+**Coordinator calls (not Mark's words; Mark may overrule).**
+- **Major marks.** All eight are major, matching the scan's marks; Benjamin I is major because he led the Coptic church through the Arab conquest. Each brief runs 404 or 405 words, about 2:30. Dionysius of Tel Mahre is a recorder, but his held life carries the full length, as Bede's did in batch 1. In Bar Hebraeus he gives his election in his own words, two journeys to Egypt, a hearing before al-Ma'mun, and his death. The 2:30 is a cap, not a target.
+- **Martin I** is written from what the held lines say of his stand over the teaching of one will: the Lateran synod, his seizure, trial and exile, and his own letters from Cherson. The trial and stripping are told from the account by one of his clergy, and the seizure, the voyage and Cherson from his own letters.
+- **Ids, the worker's calls, accepted.** `martin-i-of-rome`, in the form of the era 3 bishops of Rome; `timothy-i-of-baghdad`, since "Timothy I" alone collides with Timothy I of Alexandria, Timothy II and Timothy Aelurus; `photius-of-constantinople`, since the census and the Library hold other men named Photius.
+- **Card traditions, the worker's calls, accepted.** Maximus in the Heraclian entry and Latin African Christianity under Byzantium, which lists him and covers the dispute with Pyrrhus in Africa. Martin in the Heraclian entry only, since no era 4 census movement is Roman. Benjamin in Coptic Christianity under Early Islam first and The Church of Alexandria and Miaphysite Egypt second, since his return under 'Amr and most of his patriarchate fall after 642.
+- **Own words in other languages.** Where a man's own words are held only in Latin, French or Italian, the brief tells them in modern words with the source named. It keeps quotation marks for held English.
+- **American spelling** in the new prose (Decision-Log 77); quotations keep their own spelling.
+
+**Review.** Three rounds by fresh Opus agents that had not seen the drafting, at full effort in every round (Mark, relayed by the coordinator: "dont sacrafice quality, expecially the quality of writing"). Round 1, the full checklist review in four parts, found 12 blocking and 69 minor points. The blocking points:
+- **False absences.** Benjamin's homily on the wedding at Cana is listed in Assemani's catalogue. Gregory of Narek is quoted twice in Parisot's Aphrahat. Jacob of Edessa's Chronicle is held in Brooks's Latin, and his canons in part in Bar Hebraeus's Nomocanon. The acts of Photius's council of 879 are in Mansi 17, and Cornelius Will gives his death year, 891.
+- **Witnesses wrong or missing.** Bar Hebraeus's editors were put on the wrong side of the question over the shorter chronicle credited to Dionysius. Elias of Nisibis was given Timothy's place of enthronement and the eight months of dispute, which are Chabot's, Bar Hebraeus's, Amr's and Mari's. Joseph Assemani's reading on the caliph al-Hadi was told as Amr's own.
+- **Unsupported.** Peter of Yaman was placed among the bishops made in Timothy's time.
+- **Context dropped.** The Maximus card said Macarius of Antioch's profession cursed Maximus at the council of 680-681, without saying the council anathematized and deposed Macarius.
+- **Contested told as settled.** The 105 bishops of Martin's synod, where Theophanes gives 150.
+
+Round 2, a targeted recheck in two parts, found 3 blocking and 19 minor points, all fixed. Two blocking points came from round 1 fixes: the Cana homily was given the date of the codex before it, and a Martin card item said "that council" before any council was named. The third was a false absence: Tel Mahre's place is held, in W. Wright citing Yaqut. Round 3, the last, found no blocking point and seven minor points. Three were in the records and notes and were applied. Four were in participant text, and Mark's cap ruling above settles them. Every quotation was re-checked word for word against its vendored file. No paid calls were made.
+
+**Corrections to the scan found in drafting.** Mansi 15, 16 and 17-18 are held, against the council row's "not held", so both Photian councils are in the Library. Photius's life is held, against "no life held". For every profile, the held witnesses go well past those the scan lists. Details are in Open-Gaps 256.
+
+**What is still open.** Open-Gaps 256, "Era 4 Who batch 2" (2026-11-14).
+
+The approved files are in `Who-Profiles/era4/batch2/` in this folder, and the reviews are in `Build/Ministry/Operations/Audits/2026-11-14_who-profiles-era4-batch2/`. No census, record or site change is made, so there is no data release number. Approved to proceed (coordinator, 2026-11-14; Mark may overrule).
