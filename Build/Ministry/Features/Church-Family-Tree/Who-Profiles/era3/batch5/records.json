@@ -1,0 +1,1854 @@
+{
+ "evagrius-scholasticus": {
+  "claims": [
+   {
+    "claim": "At an interval of four months from Gregory's return, in the year 637 of the era of Theopolis, about the third hour of the night, an earthquake shook the city 'at the time when I was celebrating my marriage with a young maiden, and the whole city was making rejoicings and holding a festival at the public cost'; it levelled 'by far the greater part of the buildings' and 'all the portions of the most holy church were thrown to the ground, with the exception of the hemisphere'",
+    "witness": "Evagrius, Ecclesiastical History VI.8, tr. Walford (evagrius-scholasticus walford1846 l.11452-11463; OCR 'Av an interval'); Greek Bidez-Parmentier l.20931-20940",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Walford's page heading dates the earthquake and wedding 'A.D. 589'; Evagrius gives only the era year 637",
+    "witness": "Walford's running head (evagrius-scholasticus walford1846 l.11467)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "'Evagrius was a native of Epiphania on the Orontes, and his birth may be fixed about a.p. [A.D.] 536. He was by profession a Scholasticus, or advocate, and by this title he is commonly distinguished from other persons of the same name'",
+    "witness": "Walford, Account of the Author (evagrius-scholasticus walford1846 l.327-331; OCR 'a.p.')",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Photius: 'Evagrius Scholasticus, an ex-praefect, born at Epiphania in Coele-Syria, in six books', beginning where Socrates and Theodoret end and going 'down to the twelfth year of the reign of the emperor Maurice'",
+    "witness": "Photius, Library cod. 29, tr. Freese (photius_library-v1_freese1920 l.2410-2413; OCR 'Histoi-y')",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "He is a different man from the monk Evagrius Ponticus, whose Praktikos is held separately",
+    "witness": "evagrius_praktikos_dysinger.txt l.1 ('EVAGRIUS PONTICUS (EVAGRIOS PONTIKOS), THE PRAKTIKOS'); Walford l.329-331 on the title distinguishing him from namesakes",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "When the Apameans heard Antioch had been burnt, Bishop Thomas displayed the wood of the cross; 'my parents visited it together with the rest, accompanied by myself, at that time a school-boy'; as Thomas made the circuit of the sanctuary 'there followed him a large body of fire, blazing but not consuming'",
+    "witness": "Evagrius IV.26, tr. Walford (evagrius-scholasticus walford1846 l.8786-8819); Greek B-P l.16156-16170",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Chosroes took and burned Antioch before the Apamea display",
+    "witness": "Evagrius IV.25-26, tr. Walford (evagrius-scholasticus walford1846 l.8722-8760, 8790-8791)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "'Two years after the capture of Antioch by the Persians, a pestilence broke out'; 'at the commencement of this calamity I was seized with what are termed buboes, while still a school-boy, and lost by its recurrence at different times several of my children, my wife, and many of my kin'; 'being now in the fifty-eighth year of my age ... I lost a daughter and her son'",
+    "witness": "Evagrius IV.29, tr. Walford (evagrius-scholasticus walford1846 l.8999-9001, 9034-9047); Greek B-P l.16562-16580 (γαμετὴν, no 'first')",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Walford calls the wife lost to plague his 'first wife'",
+    "witness": "Walford, Account of the Author (evagrius-scholasticus walford1846 l.355); an inference from the later marriage, not Evagrius's word",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "'On occasion also of my ponderings on the loss of my children, when I was perplexed with the suggestion, why such things did not befall heathens who had numerous offspring; although I had not disclosed my thoughts to any one, he wrote advising me to abandon such ideas as being displeasing to God' (Simeon the Stylite the Younger)",
+    "witness": "Evagrius VI.23, tr. Walford (evagrius-scholasticus walford1846 l.12108-12154); Greek B-P l.22020-22026",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "A banker charged Gregory, bishop of Theopolis, 'that he had had criminal intercourse with his own sister, married to another man'; Gregory went to the imperial city 'accompanied by myself as his adviser, and is victorious after a prolonged struggle' before the patriarchs, senate and metropolitans; the accuser was scourged, paraded and exiled",
+    "witness": "Evagrius VI.7, tr. Walford (evagrius-scholasticus walford1846 l.11386-11437); Greek B-P l.20872-20876",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Walford calls the charge 'a charge of incest'",
+    "witness": "Walford, Account of the Author (evagrius-scholasticus walford1846 l.361)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "His memorials, mostly in Gregory's name, won him 'questorian rank' from Tiberius Constantine and 'that of prefecture' from Maurice Tiberius, for what he wrote when Maurice became father of Theodosius",
+    "witness": "Evagrius VI.24, tr. Walford (evagrius-scholasticus walford1846 l.12220-12229)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "He compiled another volume of 'memorials, epistles, decrees, orations, and disputations'; Walford says the collection may be regarded as lost",
+    "witness": "Evagrius VI.24 (evagrius-scholasticus walford1846 l.12220-12222); Walford l.413-414",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "He writes for the side that held to Chalcedon: Nestorius is 'that God-assaulting tongue', whose 'impious blasphemy' prefaces the history; 'the impious Eutyches'",
+    "witness": "Evagrius I proem and I.9, tr. Walford (walford1846 l.1222-1236, 1721)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Photius: 'The style is not without charm, although somewhat diffuse; in matters of doctrine he is certainly more trustworthy than other historians. The work also contains some passages about images.'",
+    "witness": "Photius, Library cod. 29, tr. Freese (l.2413-2416); Photius as patriarch of Constantinople 858-867 and 878-886 in Freese's list (l.1025, 1284-1300)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "'Here let me close my history, in the twelfth year of the reign of Maurice Tiberius ... If any matter has been overlooked by me or has been treated without sufficient accuracy, let no one blame me'",
+    "witness": "Evagrius VI.24, tr. Walford (evagrius-scholasticus walford1846 l.12203-12209)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Walford: 'his style is frequently affected and redundant'; the credulity of his wonder stories 'ought therefore in no way to affect his reputation for honesty'; the work 'was used by Nicephorus Callisti' and noticed favourably by Photius",
+    "witness": "Walford, Account of the Author (evagrius-scholasticus walford1846 l.389-406)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Arndt and Krusch match stories of Gregory of Tours to Evagrius: 'de puero Iudaeo ... (= Evagrii Hist. eccl. IV, 2Q)' and 'Eadem Evagrius Schol., Hist. eccl. IV, 26 ... narravit'",
+    "witness": "gregory-tours_opera-mgh-srm-1-lat_arndt-krusch1885 l.35914, 38442 (OCR '2Q', 'Sclwl.')",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Gregory's years: Walford's headings give 571 for his election and 594 for his death; Gallandi gives 'anno 570 ... usque ad annum 593'",
+    "witness": "Walford running heads (evagrius-scholasticus walford1846 l.10153, 12173); Gallandi's notice in Migne PG 88 (dorotheus-gaza ... migne-pg88 l.142063)",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Walford's headings put the Apamea display in 540",
+    "witness": "Walford running head (evagrius-scholasticus walford1846 l.8774)",
+    "formation_confidence": "Widely Accepted"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "The years of Gregory of Antioch's patriarchate",
+    "sides": "Walford's running heads: elected 571, died 594 (walford1846 l.10153, 12173). Andrea Gallandi, notice reprinted in Migne PG 88: 570 to 593 (l.142063). Evagrius gives no year; he says Gregory died shortly before the twelfth year of Maurice, where he closes (l.12182-12204)."
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "His death year",
+    "note": "No held line gives it. Searched Walford (whole file, intro l.320-420), Bidez-Parmentier, Photius cod. 29 (Freese l.2410-2416), Gallandi's notice (Migne l.142035-142130). The Walford file header's 'c. 536-c. 594' is a cataloguer's line."
+   },
+   {
+    "detail": "His birth year in his own words",
+    "note": "Evagrius gives only that he was a schoolboy at the Apamea display and in his fifty-eighth year when writing IV.29 (walford1846 l.8804-8805, 9044-9045). 'About 536' is Walford's reckoning (l.327-328)."
+   },
+   {
+    "detail": "Names of his wives and children",
+    "note": "Not given in Walford or Bidez-Parmentier (searched 'wife', 'daughter', 'children' in Walford; l.9038-9046, 11455-11456, 12149-12150)."
+   },
+   {
+    "detail": "The year of Gregory's hearing at Constantinople",
+    "note": "No held year; Evagrius places it four months before the earthquake of era year 637 (l.11452-11454)."
+   }
+  ]
+ },
+ "gregory-of-tours": {
+  "claims": [
+   {
+    "claim": "In the 160th year (Brehaut) after Martin, Eufronius's seventh year, Sigibert's second, 'I became ill with malignant pimples and fever, and being unable to eat or drink ... thought of nothing but of the details of my burial'; called on Martin; fell ill again in the forest; friends: 'Let us return home'; he: 'carry my dead body there and bury it'; 'The third night after arriving at the holy church we planned to keep watch'; after sleeping 'I woke up and found that all weakness and pain were gone'",
+    "witness": "Gregory, Miracles of Martin I.32, tr. Brehaut (gregory-tours_history-of-the-franks-selections_brehaut1916 l.11570-11619)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The Latin reads 'Anno centesimo sexagesimo tertio post assumtionem sancti ... Martini' (163rd year), with '563' in the margin; Arndt: 'Anno 563. Gregorius Turonis ad tumulum beati Martini profectus' (OCR 'A^ino 563')",
+    "witness": "Gregory, Mir. Mart. I.32, Latin (gregory-tours_opera-mgh-srm-1-lat_arndt-krusch1885 l.46261-46263, OCR); Arndt's preface (l.766)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Gregory was already a deacon at the time of that journey: 'Illo tempore iam diaconum se ordinatum fuisse, ipse narravit'",
+    "witness": "Arndt's preface (gregory-tours_opera-mgh-srm-1-lat_arndt-krusch1885 l.479-480, OCR)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "'He was born and grew up at Clermont in Auvergne'",
+    "witness": "Brehaut's introduction (gregory-tours_history-of-the-franks-selections_brehaut1916 l.85-86, OCR '.Clermont')",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Gregory of Langres is 'proavum nostrum': 'secus sanctum Gregorium, proavum nostrum, sepelitur'; Krusch's note: 'S. Gregorius Lingonensis, proavus Gregorii Turonensis ... avus Armentariae, Gregorii nostri matris'",
+    "witness": "Gregory, History V.5, Latin (gregory-tours_opera-mgh-srm-1-lat_arndt-krusch1885 l.15699-15700, OCR 'sanctura', 'sopelitur'); Krusch's note (l.52425-52426)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Arndt counts Gregory's family 'Inter nobilissimos ergo Romanos in Galliis degentes'; his father Florentius was son of the senator Georgius; his mother Armentaria was of senatorial rank, granddaughter of Gregory of Langres",
+    "witness": "Arndt's preface (gregory-tours_opera-mgh-srm-1-lat_arndt-krusch1885 l.487-497, OCR)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Birth: 'a. 573. ex. mater sanata, a. 539, aut, si ante mensem Novembrem haec acta sunt, a. 538. Gregorius natus erat', reckoned from his mother's cure after 'triginta quatuor annos' (Mir. Mart. III.10)",
+    "witness": "Arndt's preface (gregory-tours_opera-mgh-srm-1-lat_arndt-krusch1885 l.447-455, OCR 'viater')",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "'Gregory's life covers the years from 538 to 594'",
+    "witness": "Brehaut's introduction (gregory-tours_history-of-the-franks-selections_brehaut1916 l.81, OCR 'JGlregory'sJife ... 538^0594')",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "A note in Foulke's translation, in quotation marks, gives: 'was born about 538 at Clermont Ferrand ... became bishop of Tours 573, died 594 or 595'",
+    "witness": "Foulke's notes to Paul the Deacon (paul-the-deacon_history-of-the-langobards_foulke1907 l.13859-13861); the source of the quoted note is not named in the held lines",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "'Anno centesimo septuagesimo secundo post transitum beati Martini antestitis, Sigiberto gloriosissimo rege duodecimo anno regnante, post excessum sancti Eufroni ... onus episcopati indignus accepi', with '573' in the margin; Arndt: consecration 'cum anno tantum 573 convenit'",
+    "witness": "Gregory, Mir. Mart. II.1, Latin (gregory-tours_opera-mgh-srm-1-lat_arndt-krusch1885 l.46663-46669, OCR); Arndt's preface (l.407)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Consecration day: Krusch 'Cum autem a. 573, d. 20. Augusti consecratus sit'; Arndt 'Gregorium die 23. mensis eiusdem' from Eufronius's feast on 4 August and the nineteen days' vacancy; Dalton 'Gregory became bishop on the 24th of August'",
+    "witness": "Krusch's prolegomena (gregory-tours_opera-mgh-srm-1-lat_arndt-krusch1885 l.35333, 35413); Arndt (l.394-396, 407); Dalton's note (gregory-tours_history-of-the-franks-v2_dalton1927 l.22693-22694)",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Arndt: 'Veri simile etiam est, Gregorium non a civibus Turonensibus electum, sed a rege intrusum esse'; Monod's other view: 'Quae nunc opinio recta sit, non definio'",
+    "witness": "Arndt's note (gregory-tours_opera-mgh-srm-1-lat_arndt-krusch1885 l.795-801, OCR)",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Fortunatus V.3, 'Ad cives Turonicos de Gregorio episcopo': 'Huic Sigibercthus ovans favet et Brunichildis honori'; 'Martino proprium mittit Iulianus alumnum'",
+    "witness": "Venantius Fortunatus, Carm. V.3 (venantius-fortunatus_opera-mgh-aa-4-lat_leo-krusch1881 l.10216-10236, OCR rough); quoted cleanly by Arndt (gregory-tours_opera-mgh-srm-1-lat_arndt-krusch1885 l.780-788)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Fortunatus was an Italian poet at Poitiers, a close friend of Gregory, who outlived him and 'vitam posteris tradere neglexit'; 'Venantius ille Fortunatus ... in vicina Pictavensi urbe versabatur ... ex Italia in Gallias adductus'",
+    "witness": "Arndt's preface (gregory-tours_opera-mgh-srm-1-lat_arndt-krusch1885 l.300-305, 977-980, OCR); MGH AA IV title 'presbyteri Italici' (venantius-fortunatus_opera-mgh-aa-4-lat_leo-krusch1881 l.66)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Chilperic held Tours: 'During these years Chilperic held Tours and the relations between him and Gregory were as a rule unfriendly'",
+    "witness": "Brehaut's introduction (gregory-tours_history-of-the-franks-selections_brehaut1916 l.416-418)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Chilperic's ordinance that in the Trinity 'we should make no distinction of Persons, but call it only God'; 'This is my will, that such be thy faith'; Gregory: 'know that in their Persons the Father is different from the Son, and the Son from the Holy Ghost'; the king: 'I will set forth these things to others wiser than thou'; Gregory: 'will never be a wise man, but a fool'; 'Thereat he gnashed his teeth, but held his peace'",
+    "witness": "Gregory, History V.44, tr. Dalton (gregory-tours_history-of-the-franks-v2_dalton1927 l.10361-10398)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Arndt dates the Trinity dispute and the Leudast affair to 580 and calls Chilperic's book 'erroribus Sabellianis infectum'",
+    "witness": "Arndt's preface (gregory-tours_opera-mgh-srm-1-lat_arndt-krusch1885 l.836-841)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Leudast to the king: 'he saith that thy queen liveth in adultery with Bishop Bertram'; Dalton's note: Leudast was 'Count of Tours'; Arndt: Leudast had been put out of the countship ('Leudastem ex comitatu depulit' (OCR 'pepidit')) before he went to the king",
+    "witness": "Gregory, History V.47, tr. Dalton (gregory-tours_history-of-the-franks-v2_dalton1927 l.10486-10491, note l.10480); Arndt (gregory-tours_opera-mgh-srm-1-lat_arndt-krusch1885 l.842-851)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "'The bishops assembled at Berny'; Bertram 'questioned me'; 'In all sincerity I denied having said anything of the kind'; 'it was settled that I should say Mass at three altars and clear myself of the accusation by an oath'",
+    "witness": "Gregory, History V.49, tr. Dalton (gregory-tours_history-of-the-franks-v2_dalton1927 l.10697-10719); the account of the accused party",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Brehaut: 'The bishops assembled at Braine'; the Latin 'in synodo apud Brinnacum villam habita' (Arndt)",
+    "witness": "Brehaut's translation (gregory-tours_history-of-the-franks-selections_brehaut1916 l.6579); Arndt (gregory-tours_opera-mgh-srm-1-lat_arndt-krusch1885 l.857)",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Dalton: Fortunatus's poem on the council 'says nothing of the affair mentioned by Gregory'",
+    "witness": "Dalton's note (gregory-tours_history-of-the-franks-v2_dalton1927 l.27121-27123)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Brehaut: 'we must allow largely for error and prejudice in his statements of fact'; the History is 'often the sole authority' for 'the perishing of the Roman Empire and the beginning of a great modern state'",
+    "witness": "Brehaut's introduction (gregory-tours_history-of-the-franks-selections_brehaut1916 l.66-73)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Arndt: 'Obiisse Gregorium anno 594, die 17. mensis Novembris, verisimile est'; most necrologies give 17 November; the Tours calendars 'XV. Kal. Decembris sancti Gregorii Turonensis', quoted from Ruinart",
+    "witness": "Arndt's preface (gregory-tours_opera-mgh-srm-1-lat_arndt-krusch1885 l.967, 1010-1017, OCR 'Ohiisse')",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Krusch: 'Gregorius, qui die 17. Novembris colitur, a. 593, Nov. 17. morti occubuisse videtur, neque a. 594, ut alii coniecerunt', from the 21st year of his consecration and the unfinished fourth book of the Miracles of Martin",
+    "witness": "Krusch's prolegomena (gregory-tours_opera-mgh-srm-1-lat_arndt-krusch1885 l.35412-35437)",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "'I adjure all of you, bishops of the Lord, who after me in this my lowliness shall govern the church of Tours ... never to let these books be destroyed or rewritten ... but to leave them all complete and intact in your time just as I myself have left them'",
+    "witness": "Gregory, History X.31, tr. Dalton (gregory-tours_history-of-the-franks-v2_dalton1927 l.22708-22719)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "'I am fain first to make profession of my own belief, that whoso reads may doubt not that I hold the catholic faith'",
+    "witness": "Gregory, History I preface, tr. Dalton (gregory-tours_history-of-the-franks-v2_dalton1927 l.338-340)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Paul the Deacon: 'which are written in the books of the reverend man Gregory, bishop of Tours'",
+    "witness": "Paul the Deacon, History of the Langobards III.1, tr. Foulke (paul-the-deacon_history-of-the-langobards_foulke1907 l.5073-5075)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Arndt rejects the Vita's journey to Rome: 'Quod ante mortem Romam urbem ipsum petiisse ... Vitae scriptor tradit, huic rei fides abrogata est'; the Vita was composed in the tenth century by Odo of Cluny or by clerics of Tours",
+    "witness": "Arndt's preface (gregory-tours_opera-mgh-srm-1-lat_arndt-krusch1885 l.968-971, 306-308, OCR)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Dalton translates 'proavum nostrum' as 'our ancestor' and his note calls Gregory of Langres 'great-great-grandfather of Gregory of Tours'; Brehaut's introduction: 'his great-grandfather Gregory, bishop of Langres, in honor of whom Gregory discarded the name of Georgius Florentinus'",
+    "witness": "Dalton (gregory-tours_history-of-the-franks-v2_dalton1927 l.8241-8242, note l.25237-25239); Brehaut (gregory-tours_history-of-the-franks-selections_brehaut1916 l.162-166)",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Arndt on the name: 'Num Gregorius tunc demum cognominatus sit, cum sacros ordines suscepit, dubium est'; Dalton prints the rubric 'GEORGIUS FLORENTIUS, OTHERWISE GREGORY, BISHOP OF TOURS'",
+    "witness": "Arndt's preface (gregory-tours_opera-mgh-srm-1-lat_arndt-krusch1885 l.352-353, OCR); Dalton (gregory-tours_history-of-the-franks-v2_dalton1927 l.226-229)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Book list in X.31: ten books of History, seven of Miracles, one on the Lives of the Fathers, one of commentaries on the Psalms, one on the Offices of the Church",
+    "witness": "Gregory, History X.31, tr. Dalton (gregory-tours_history-of-the-franks-v2_dalton1927 l.22705-22709)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Krusch on Mir. Mart. IV: 'Gregorium, quominus librum finiret, morte impeditum esse, luce clarius intelligitur'",
+    "witness": "Krusch's prolegomena (gregory-tours_opera-mgh-srm-1-lat_arndt-krusch1885 l.35412-35414)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Tradition placing: the census lists Gregory of Tours under Merovingian Gallic Christianity",
+    "witness": "cic-website/data/world-census.json, movements, 'Merovingian Gallic Christianity'",
+    "formation_confidence": "Documented"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "The year of Gregory's death",
+    "sides": "W. Arndt: 17 November 594, 'verisimile est' (gregory-tours_opera-mgh-srm-1-lat_arndt-krusch1885 l.967); Brehaut: 594 (gregory-tours_history-of-the-franks-selections_brehaut1916 l.81, 431); a quoted note in Foulke: 594 or 595 (paul-the-deacon_history-of-the-langobards_foulke1907 l.13861). Bruno Krusch, in the same volume: 17 November 593, 'neque a. 594, ut alii coniecerunt' (l.35435-35437). No held ancient source gives the year."
+   },
+   {
+    "claim": "The place of the council that tried Gregory",
+    "sides": "Dalton: Berny (gregory-tours_history-of-the-franks-v2_dalton1927 l.10697; Berny-Riviere, note l.9497). Brehaut: Braine (gregory-tours_history-of-the-franks-selections_brehaut1916 l.6579, note l.12316). The Latin has Brinnacum (gregory-tours_opera-mgh-srm-1-lat_arndt-krusch1885 l.857)."
+   },
+   {
+    "claim": "The day of his consecration in 573",
+    "sides": "Krusch: 20 August (gregory-tours_opera-mgh-srm-1-lat_arndt-krusch1885 l.35333, 35413); Arndt: 23 August, from Eufronius's feast on 4 August and the nineteen days' vacancy (l.392-396, 407); Dalton: 24 August (gregory-tours_history-of-the-franks-v2_dalton1927 l.22693-22694)."
+   },
+   {
+    "claim": "How Gregory of Langres was related to him",
+    "sides": "Gregory's own Latin: 'proavum nostrum' (gregory-tours_opera-mgh-srm-1-lat_arndt-krusch1885 l.15700); Krusch: grandfather of Armentaria, Gregory's mother (l.52425-52426); Brehaut: great-grandfather (gregory-tours_history-of-the-franks-selections_brehaut1916 l.163-164, 5379-5380). Dalton: 'our ancestor' in the text and 'great-great-grandfather' in a note (gregory-tours_history-of-the-franks-v2_dalton1927 l.8242, 25237-25239)."
+   },
+   {
+    "claim": "Whether the leading charge at the trial was true",
+    "sides": "Gregory's own account, the account of the accused party: he denied the words and cleared himself by oath (gregory-tours_history-of-the-franks-v2_dalton1927 l.10700-10719). Leudast's side survives only in Gregory's telling; Riculf's confession under torture is also told by Gregory (l.10775-10782)."
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "An ancient record of the years of his birth and death",
+    "note": "Searched Arndt's and Krusch's prefaces, Dalton, Brehaut, Fortunatus, Fredegar, Paul the Deacon and Loomis. Every year is an editor's reckoning. The Tours calendars, quoted by Arndt from Ruinart, give the day 17 November only (gregory-tours_opera-mgh-srm-1-lat_arndt-krusch1885 l.1013-1017)."
+   },
+   {
+    "detail": "A journey to Rome",
+    "note": "Only the tenth-century Vita reports it, through Arndt, who rejects it (gregory-tours_opera-mgh-srm-1-lat_arndt-krusch1885 l.968-971). The Vita, Odo of Cluny's in some manuscripts, is not held (PL 133 has only a notice)."
+   },
+   {
+    "detail": "Dalton's Introduction",
+    "note": "Volume I of Dalton, with his own chronology, is not held; his notes in volume II cite it. Nothing is told from it."
+   },
+   {
+    "detail": "A Life by a contemporary",
+    "note": "Arndt says Venantius Fortunatus, his friend, left no Life of him (gregory-tours_opera-mgh-srm-1-lat_arndt-krusch1885 l.300-305)."
+   },
+   {
+    "detail": "The year of the healing at Martin's tomb in Brehaut",
+    "note": "Brehaut's English 'hundred and sixtieth year' (gregory-tours_history-of-the-franks-selections_brehaut1916 l.11571) stands against the Latin 'centesimo sexagesimo tertio' (gregory-tours_opera-mgh-srm-1-lat_arndt-krusch1885 l.46262); the brief gives no year for the scene."
+   }
+  ]
+ },
+ "dorotheus-of-gaza": {
+  "claims": [
+   {
+    "claim": "'Cum essem aliquando apud abbatem Seridum, aegrotare contigit ministrum abbatis Joannis: quare mihi imperavit abbas seniori ut deservirem'; he revered the old man's cell door 'ut qui pretiosam crucem adorat'; each day after his service he bowed and left 'data venia et accepta benedictione'",
+    "witness": "Dorotheus, Doctrina IV §9, Latin of PG 88 (dorotheus-gaza_doctrinae-barsanuphius-climacus-agathias-grc-lat_migne-pg88 l.126276-126289, OCR 'Seriduw', 'oneri', 'cellule')",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "'Habuit autem senex quatuor verba in ore consueta, quorum unum recessuro mihi ad vesperam semper commemorabat'; before each he said 'Conservet, frater, Deus charitatem mutuam'; the third: 'Dixerunt Patres: Fuge humana haec, et salvaberis'; the fourth: 'Invicem si feramus onera nostra, ita Christi legem completuros'; 'Quas omnes in vitae meae custodiam servavi semper et tenui'",
+    "witness": "Doctrina IV §9, PG 88 (dorotheus-gaza_doctrinae-barsanuphius-climacus-agathias-grc-lat_migne-pg88 l.126287-126307, OCR 'hacc', 'mie', 'el'); the same Latin recurs at l.127169-127235",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "'Cum etiam annos novem in eo ministerio fuissem, nunquam in fratrem illum exspui verbum vel turpe vel molestum'",
+    "witness": "Doctrina IV §9, PG 88 (dorotheus-gaza_doctrinae-barsanuphius-climacus-agathias-grc-lat_migne-pg88 l.126320-126322, OCR 'anuos', 'fuiss m')",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The old man served in Doctrina IV §9 is 'abbatis Joannis', with no epithet; his identity with John called the Prophet, disciple of Barsanuphius, rests on Gallandi's notice and the heading of the Questions ('ad ejus discipulum abbatem Joannem, cognomento Prophetam', l.139574-139581)",
+    "witness": "PG 88 (dorotheus-gaza_doctrinae-barsanuphius-climacus-agathias-grc-lat_migne-pg88 l.126277, 121957-121958, 139574-139581)",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Migne heads the notice 'ANNO DOMINI DXCVI'; the notice is Gallandi's ('Galland., Veterum Patrum Biblioth., tom. XII, Proleg., p. xxvii, et p. 571', OCR 'Garcaxo.')",
+    "witness": "PG 88 (dorotheus-gaza_doctrinae-barsanuphius-climacus-agathias-grc-lat_migne-pg88 l.121943-121951)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "'Dorotheus archimandrita Palestinus, Joannem abbatem, illustrem Barsanuphii discipulum et Prophetae titulo clarum, magistrum habuit'",
+    "witness": "Gallandi's Notitia, reprinted in PG 88 (dorotheus-gaza_doctrinae-barsanuphius-climacus-agathias-grc-lat_migne-pg88 l.121957-121958)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "The disciple who wrote the Life of Saint Dositheus says Dorotheus knew the two great old men 'cum ad abbatis Seridi coenobium secessit'; Gallandi adds that he first professed the monastic life under Seridus ('sub cujus ductu monasticum institutum primitus professus est'), citing Doctr. I §15 and IV §9",
+    "witness": "Gallandi's Notitia (dorotheus-gaza_doctrinae-barsanuphius-climacus-agathias-grc-lat_migne-pg88 l.121958-121961; note (a) l.122002); Gallandi's inference from Dorotheus's own mentions",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "'sub finem seculi vi floruisse nostrum archimandritam arguunt Bollandiani, quibus accedit Fabricius, neque ab hac sententia longe recedere videtur Caveus'; 'Nihil vero moror Oudinum', who places him beyond the middle or at the start of the seventh century (OCR 'vu', 'moo'); 'Quo autem anno e vivis excesserit vir beatus, haud plane compertum habetur'",
+    "witness": "Gallandi's Notitia (dorotheus-gaza_doctrinae-barsanuphius-climacus-agathias-grc-lat_migne-pg88 l.121961-121969)",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "'Dorothée est né vers 540'; the monastery's heads 'au VIe siècle' were 'Barsanuphios, Séridos et enfin Dorothée?'",
+    "witness": "Nau, appendix to the Plerophories (po08_john-rufus-plerophories-and-others-fra_1912 l.11421-11424, 11524); Nau's own query mark",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Seridus's monastery was at Thabatha, in Nau's reading",
+    "witness": "Nau (po08_john-rufus-plerophories-and-others-fra_1912 l.11425-11500)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Seridus was hegumen 'τοῦ μεγάλου ἐκείνου κοινοβίου, τοῦ πλησίον τῆς Γάζης' (OCR 'Γόζης'), where Barsanuphius, John his disciple and abba Dorotheus were",
+    "witness": "Nikodemos the Hagiorite, Synaxaristes vol. 2, 13 August (nikodemos-hagiorite_synaxaristes-vol2-mar-aug-grc_1900 l.37908-37911, OCR)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Dorotheus 'ὁ ἀσκήσας πρότερον ἐν τῷ πλησίον τῆς Γάζης κοινοβίῳ τοῦ Ἀββᾶ Σερίδου, ὕστερον δὲ συστησάμενος μοναστήριον ἴδιον, μετὰ τὴν τελευτὴν τοῦ Ἀββᾶ Ἰωάννου τοῦ καλουμένου προφήτου, καὶ τὴν τελείαν σιωπὴν τοῦ μεγάλου Βαρσανουφίου' (cleaned reading; the OCR reads 'ϊσιεςιον ^ί ον-στησάι/ίκοί: μο>αστηγΐον ϊί1ιο^, αιτά τη^ τ(.ίίυζϊι>• τοϋ Αβ6ά Ιωάηον ... τη^ τ(^(^α^■ σιω.τψ•')",
+    "witness": "Nikodemos the Hagiorite, Synaxaristes vol. 2, 13 August (nikodemos-hagiorite_synaxaristes-vol2-mar-aug-grc_1900 l.37916-37921, OCR very rough; page head 'ΕΙΣ ΤΗΝ ΙΓ΄. ΤΟΥ ΑΥΓΟΥΣΤΟΥ' l.37850); a late compiler",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "The Synaxaristes for 13 August also commemorates Seridus and Dositheus, 'ὑποτακτικός ... ἐν τῷ κοινοβίῳ τοῦ Ἀββᾶ Σερίδου ὑπὸ τὴν προστασίαν τοῦ ἁγίου Δωροθέου'",
+    "witness": "Synaxaristes vol. 2 (nikodemos-hagiorite_synaxaristes-vol2-mar-aug-grc_1900 l.37853-37854, 37925-37928, OCR)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "'Hujus rei mirabile exemplar fuit beatus ille Dositheus, qui a vita deliciosissima et molli veniens, nullis divinarum rerum doctrinis imbutus, brevi tempore in summam perfectionem provectus est, dum obedientiam unicam amplectitur, et propriam voluntatem abscindit'; the passage opens on 'propriam abscindere voluntatem quantum conferat'",
+    "witness": "Dorotheus, Doctrina I §10, PG 88 (dorotheus-gaza_doctrinae-barsanuphius-climacus-agathias-grc-lat_migne-pg88 l.123809-123815, OCR 'exem- nlar', 'nuliis', 'cst')",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "A leading man of Gaza ('quidam ex Gazae principibus') hearing them speak of humility said he did not know how this could be; Dorotheus: 'quem te habes inter concives tuos?' - 'ut nobilem et principem civitatis meae'; at Caesarea 'Viliorem ... aliquanto principibus civitatis illius'; at Antioch 'Ut rusticum quemdam'; 'Si autem Byzantii apud regem' - 'Ut pauperem quemdam et mendicum'; 'Et sic sese habent sancti viri: quo enim Deo propiores fiunt, eo se inferiores putant'",
+    "witness": "Dorotheus, Doctrina II, PG 88 (dorotheus-gaza_doctrinae-barsanuphius-climacus-agathias-grc-lat_migne-pg88 l.124604-124640, OCR 'Gazz', 'babes', 'Ce- saream')",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "'Exstant insignis hujus archimandritae Dorothei Expositiones sive Doctrinae XXIV, opus egregium lectuque dignissimum, summopere probatum sancto Theodoro Studitae, qui propterea inter praestantissimos ascetas hujusce operis auctorem recenset'",
+    "witness": "Gallandi's Notitia (dorotheus-gaza_doctrinae-barsanuphius-climacus-agathias-grc-lat_migne-pg88 l.121971-121973, OCR 'Ezstaut')",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The Latin is Hilarion of Verona's, revised by Fronto Ducaeus",
+    "witness": "Gallandi's Notitia (dorotheus-gaza_doctrinae-barsanuphius-climacus-agathias-grc-lat_migne-pg88 l.121990-121991, 122097)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Brief sayings in the third person: 'Aiebat abbas Dorotheus eum qui proprii sensus et voluntatis esset, haud unquam parere posse'",
+    "witness": "Doctrina XIX, 'Ejusdem breves et compendiosae sententiae', PG 88 (dorotheus-gaza_doctrinae-barsanuphius-climacus-agathias-grc-lat_migne-pg88 l.139248-139254)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The 'Epistola ad fratrem qui petebat sibi mitti doctrinas inventas sancti Patris Dorothei', in a passage marked 'Sequentia non habentur in Graeco', calls him 'magnus intellectu, major in obsequio, sublimis in contemplatione, sublimior in humilitate'",
+    "witness": "Anonymous letter, PG 88 (dorotheus-gaza_doctrinae-barsanuphius-climacus-agathias-grc-lat_migne-pg88 l.122272-122273, 122467, 122484-122485)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "A preface printed as 'ANONYMI PRAEFATIO': 'Cum duo Dorothei, totidemque Barsanuphii fuerint, quorum alteri Severi errores defenderunt, alteri sanam doctrinam ... retinuerunt'",
+    "witness": "PG 88 (dorotheus-gaza_doctrinae-barsanuphius-climacus-agathias-grc-lat_migne-pg88 l.122103-122108, OCR 'Darsanuphii')",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Theodore the Studite, in his profession: 'Anathema Barsanuphio, Isaiae, Dorotheo, et Dositheo, quos sanctus Sophronius anathematizavit'",
+    "witness": "Theodore the Studite, Letters I, PG 99 (theodore-studite_opera-omnia-pg99-grc-lat_migne1860 l.85908-85910)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The Greek of the Doctrinae in PG 88 is garbled in the scan; the Latin is the readable witness",
+    "witness": "PG 88 (dorotheus-gaza_doctrinae-barsanuphius-climacus-agathias-grc-lat_migne-pg88, e.g. l.128991-129010)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Tradition placing: the census lists Dorotheus of Gaza under Chalcedonian Monasticism - Judean Desert & Gaza",
+    "witness": "cic-website/data/world-census.json, movements",
+    "formation_confidence": "Documented"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "When Dorotheus lived",
+    "sides": "Gallandi reports the Bollandists, Fabricius and Cave for the end of the sixth century and sets aside Oudin, who puts him in the seventh (dorotheus-gaza_doctrinae-barsanuphius-climacus-agathias-grc-lat_migne-pg88 l.121961-121965). Nau: born about 540 (po08 l.11524). Migne's heading: 596 (l.121943). No held ancient source gives a year."
+   },
+   {
+    "claim": "Whether the Dorotheus of the Teachings is the one condemned with the Acephali",
+    "sides": "The anonymous preface: two of each name, and the Teachings belong to the sound one (dorotheus-gaza_doctrinae-barsanuphius-climacus-agathias-grc-lat_migne-pg88 l.122103-122108); Theodore the Studite separates the condemned from those he accepts (l.122119-122131). Theodore's own profession anathematizes Barsanuphius, Isaiah, Dorotheus and Dositheus 'quos sanctus Sophronius anathematizavit' (PG 99 l.85908-85910). Already a contested claim for batch 3's Barsanuphius and John; no held modern scholar was found discussing it."
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "His birthplace, family and death",
+    "note": "Searched Gallandi's notice, the preface, the letter to a brother, Doctrinae I-IV, XI, the Questions, and the Synaxaristes for 13 August. None gives birthplace, parents or the manner of his death. Gallandi says the death year is not clearly known (dorotheus-gaza_doctrinae-barsanuphius-climacus-agathias-grc-lat_migne-pg88 l.121968-121969)."
+   },
+   {
+    "detail": "The Life of Dositheus",
+    "note": "Not held. Only Gallandi's mention of it (dorotheus-gaza_doctrinae-barsanuphius-climacus-agathias-grc-lat_migne-pg88 l.121958-121960), Dorotheus's own lines on Dositheus (l.123809-123815) and the Synaxaristes memorial are held. Conrad Janning's life in the Acta Sanctorum is not held."
+   },
+   {
+    "detail": "An early witness that he founded his own monastery",
+    "note": "The founding is told only by the Synaxaristes revised by Nikodemos the Hagiorite (l.37916-37921), in very rough OCR. Gallandi calls him archimandrite; Nau lists him, with a query mark, as a later head of Seridus's monastery."
+   },
+   {
+    "detail": "English of Dorotheus",
+    "note": "No English translation is held. The brief tells his Latin in modern words and names the source."
+   }
+  ]
+ },
+ "columba": {
+  "claims": [
+   {
+    "claim": "On the Sabbath day [Saturday] he and his attendant Diormit go to bless the granary; 'Greatly do I congratulate the monks of my household that this year, also, if I should perchance have to depart from you, you will have enough for the year without stint'; he tells Diormit in secret 'this day is truly a Sabbath day for me' and 'this night, at midnight ... I shall go the way of my fathers'",
+    "witness": "Adomnán, Life III.23, tr. Huyshe (adomnan huyshe1905 l.10688-10727; '[Saturday]' is Huyshe's bracket)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The white horse that carried the milk pails laid its head on his breast and shed tears; Diormit tried to drive it away; 'Let him alone, let him alone, for he loves me'",
+    "witness": "Adomnán, Life III.23 (adomnan huyshe1905 l.10735-10760)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Adomnán was ninth abbot of Iona, abbot 679-704, born 624, 'twenty-seven years after the death of Columba'",
+    "witness": "Huyshe's introduction and notes (adomnan huyshe1905 l.84-88, 1980-1983, 10424-10428)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Adomnán says he writes from 'what we have been able to find was committed to writing before our time' or from 'certain experienced and faithful ancients'",
+    "witness": "Adomnán, second preface (adomnan huyshe1905 l.2199-2210)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The Life is a saint's Life of prophecies, miracles and visions",
+    "witness": "Adomnán's three books, tr. Huyshe; the Library's own content note calls it an account of 'Columba's visions and miracles' (adomnan huyshe1905 header l.16-18)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Born of noble parentage; father Fedilmith son of Fergus, mother Aethne",
+    "witness": "Adomnán, second preface (adomnan huyshe1905 l.2211-2215)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "'In the second year after the battle of Culedrebina (Cooldrevny) and in the forty-second of his age, wishing to make a pilgrimage for Christ from Ireland to Britain, he sailed forth'",
+    "witness": "Adomnán, second preface (adomnan huyshe1905 l.2219-2224)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Huyshe dates the battle to 561 and the voyage to 563",
+    "witness": "Huyshe (adomnan huyshe1905 l.536-543, 2272-2276)",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Bede: 'In the year of our Lord 565 ... there came into Britain a famous priest and abbat ... whose name was Columba'; he came 'in the ninth year of the reign of Bridius'",
+    "witness": "Bede, HE III.4 (bede giles1903 l.5805-5838); the bracket [A.D. 565.] above is the edition's",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Huyshe: the battle, 'according to tradition', led to his exile; 'Such are the legends and traditions which cluster about the exile of Columba. The Old Irish Life says nothing of them'",
+    "witness": "Huyshe (adomnan huyshe1905 l.542-543, 625-641)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "King Brude did not open his gates; Columba traced the sign of the Cross, knocked, 'immediately the bolts are violently shot back'; the king came out 'to meet the blessed man with all reverence'",
+    "witness": "Adomnán, Life II.35 (adomnan huyshe1905 l.7866-7893)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Bede: 'he converted that nation to the faith of Christ, by his preaching and example, whereupon he also received of them the aforesaid island for a monastery'",
+    "witness": "Bede, HE III.4 (bede giles1903 l.5837-5842)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "'He could not pass the space even of a single hour without applying himself either to prayer, or reading, or writing, or also to some manual labour'",
+    "witness": "Adomnán, second preface (adomnan huyshe1905 l.2234-2238)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Before he went to Britain he built a monastery in Ireland called Dearm-ach, the Field of Oaks; from both monasteries many others had their beginning through his disciples",
+    "witness": "Bede, HE III.4 (bede giles1903 l.5849-5856)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The island has for ruler an abbot who is a priest, 'to whose direction all the province, and even the bishops, contrary to the usual method, are subject', after the example of their first teacher, a priest and monk",
+    "witness": "Bede, HE III.4 (bede giles1903 l.5858-5866)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "'they followed uncertain rules in their observance of the great festival, as having none to bring them the synodal decrees for the observance of Easter'",
+    "witness": "Bede, HE III.4 (bede giles1903 l.5869-5875); Bede writes from the Roman side of the Easter question",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Transcribing the Psalter, he stopped at the verse 'But they that seek the Lord shall not want any good thing': 'what follows let Baithene write'",
+    "witness": "Adomnán, Life III.23 (adomnan huyshe1905 l.10783-10790)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Last words: 'These my last words I commend to you, O my sons, that ye have mutual and unfeigned charity among yourselves, with peace'",
+    "witness": "Adomnán, Life III.23 (adomnan huyshe1905 l.10813-10818), Adomnán's report",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "He died before the altar; Diormit lifted his right hand and he moved it to bless the brethren",
+    "witness": "Adomnán, Life III.23 (adomnan huyshe1905 l.10855-10880), 'as we have learned from some who were there present'",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "He died 'at the age of seventy-seven, about thirty-two years after he came into Britain'",
+    "witness": "Bede, HE III.4 (bede giles1903 l.5846-5849)",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "'Forty-five years was he in Scotland, seventy-seven years was his full age'",
+    "witness": "Book of Lismore Life, tr. Stokes (stokes book-of-lismore 1890 l.17793-17794); a late Middle Irish life",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Huyshe's Old Irish Life: 'His age was forty-two when he went. He was thirty-four years in Alba'",
+    "witness": "Huyshe quoting an Old Irish Life (adomnan huyshe1905 l.641-646)",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Reeves: the birthday on 7 December, a Thursday, points to 517 and 523, but 521 is 'most likely to be the true period'",
+    "witness": "Stokes's note reporting Reeves (stokes book-of-lismore 1890 l.24008-24011); Reeves's edition is not held",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "The years 521-597 on the title and in the notes",
+    "witness": "Huyshe (adomnan huyshe1905 l.1, 11204-11208)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "The Irish annals say Conall, son of Comgill, king of Dalriada in Britain, granted Iona; Bede says Brude",
+    "witness": "Huyshe (adomnan huyshe1905 l.849-857); no annals held",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "The blessing of the island was 'one day in the month of May'; his death in the night after the Sabbath",
+    "witness": "Adomnán, Life III.23 (adomnan huyshe1905 l.10620-10625, 10701-10727)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "He died 'when the bell for nocturn was struck on the night of Pentecost Sunday'",
+    "witness": "Book of Lismore Life (stokes book-of-lismore 1890 l.17947)",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Feast of Saints Columba and Baithene, '[June 9]'",
+    "witness": "Huyshe's bracket and note (adomnan huyshe1905 l.8984-8988, 9057)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "His name reached 'even to triangular Spain, and to Gaul, and to Italy ... and also to the city of Rome itself'",
+    "witness": "Adomnán, quoted by Huyshe (adomnan huyshe1905 l.1855-1866)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "At Streaneshalch (Whitby) Colman spoke of 'our most reverend Father Columba'; Wilfrid: 'if that Columba of yours ... was a holy man and powerful in miracles, yet could he be preferred before the most blessed prince of the apostles'",
+    "witness": "Bede, HE III.25 (bede giles1903 l.8115-8125, 8180-8190); speeches in Bede's telling",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The authorship of the Altus Prosator 'is ascribed by an apparently unbroken tradition to Columba, and does not seem open to any serious doubt'",
+    "witness": "Huyshe reporting the Marquess of Bute (adomnan huyshe1905 l.1698-1703)",
+    "formation_confidence": "Widely Accepted"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "The year Columba came to Britain",
+    "sides": [
+     "Huyshe: 563, two years after the battle of Cooldrevny, which he dates to 561 (adomnan huyshe1905 l.536-543, 2272-2276), from Adomnán's 'second year after the battle'",
+     "Bede: 565, in the ninth year of Bridius (bede giles1903 l.5805-5838)"
+    ]
+   },
+   {
+    "claim": "His age and years in Britain",
+    "sides": [
+     "Bede: died at seventy-seven, about thirty-two years after coming to Britain (l.5846-5849)",
+     "Book of Lismore Life: forty-five years in Scotland, seventy-seven in all (l.17793-17794)",
+     "Old Irish Life quoted by Huyshe: forty-two when he went, thirty-four years in Alba (l.641-646); Huyshe's 521-597"
+    ]
+   },
+   {
+    "claim": "Who gave him Iona",
+    "sides": [
+     "Bede: the Picts (l.5840-5842)",
+     "Irish annals, as Huyshe reports them: Conall, son of Comgill (l.849-857)"
+    ]
+   },
+   {
+    "claim": "The day of his death",
+    "sides": [
+     "Adomnán: the night after a Saturday, after a day in May (l.10620-10727)",
+     "Book of Lismore Life: the night of Pentecost Sunday (l.17947)",
+     "Huyshe: feast on 9 June (l.8988, 9057)"
+    ]
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "Words of his own",
+    "note": "No writing of his is held. His sayings are Adomnán's report; the poems and hymns ascribed to him are held only in Huyshe's English of some stanzas."
+   },
+   {
+    "detail": "His years",
+    "note": "No ancient held source gives his birth or death year. 521 and 597 are Huyshe's (and Reeves's, through Stokes); Bede gives the age, seventy-seven, and the arrival year 565."
+   },
+   {
+    "detail": "Annals",
+    "note": "No Annals of Ulster or Tigernach are held; Huyshe's reports of them cannot be checked. Reeves's annotated edition is not held."
+   }
+  ]
+ },
+ "leander-of-seville": {
+  "claims": [
+   {
+    "claim": "Gregory remembers knowing Leander at Constantinople: 'When I knew you long since at Constantinople, my most blessed brother, at the time that I was kept there by the affairs of the Apostolical See, and that you had been brought thither by an embassage, with which you were charged, on counts touching the faith of the Wisigoths'",
+    "witness": "Gregory the Great, letter to Leander prefixed to the Moralia, Library of the Fathers English (moralia-in-job-books-i-x bliss1844 l.386-390, 452-454; Latin in PL72 l.65286-65305)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The brethren who followed Gregory from his monastery pressed him to set forth the book of Job, 'you too adding your influence, as you yourself remember'",
+    "witness": "Gregory, letter to Leander (bliss1844 l.640-655); Isidore, De viris illustribus 40, 'efflagitante Leandro episcopo' (PL83 l.122682-122684)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The letter stands at the head of the Moralia ('The Epistle', addressed 'To the Most Devout and Holy Brother, my fellow Bishop Leander'); Barmby: 'The whole, when finished, was addressed to Leander. All this appears from the Epistola Missoria prefixed to the completed treatise'",
+    "witness": "bliss1844 l.378-387; Barmby's note to Ep. I.43 (npnf212 l.32529-32541)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Leander, son of Severianus of the province of Carthaginiensis, a monk by profession, made from monk bishop of the church of Seville in the province of Baetica; 'vir suavis eloquio, ingenio praestantissimus; vita quoque tantum atque doctrina clarissimus, ut etiam fide ejus atque industria populi gentis Gothorum ab Ariana insania ad fidem catholicam reverterentur'",
+    "witness": "Isidore of Seville (his younger brother), De viris illustribus ch. 41 (PL83 l.122767-122776; 'cap. 28' in the PL72 Veterum testimonia, l.65250-65259; OCR regularized)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Isidore was Leander's younger brother and succeeded him at Seville",
+    "witness": "Leander's Rule, 'nec junioris fratris Isidori obliviscaris' (PL72 l.66699-66700); Mommsen, 'Leandri fratris, cui successit' (mommsen1894 l.21985); Ildefonsus, 'Isidorus post Leandrum fratrem' (PL96 l.16899, per dossier); Library of the Fathers note (bliss1844 l.438-440)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "'Hic namque in exsilii sui peregrinatione composuit duos adversus haereticorum dogmata libros'; Isidore gives no place or year for the exile",
+    "witness": "Isidore, DVI 41 (PL83 l.122776-122778; PL72 l.65257-65259)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Leovigild had 'greatly persecuted' Leander, and near death 'commended his son Recharedus ... unto Bishop Leander ... that by his counsel and exhortation, he might likewise make him a member of the Catholic Church'",
+    "witness": "Gregory the Great, Dialogues III.31, English of 1608 ed. Gardner (dialogues gardner1911 l.8073-8080)",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Altamira argued 'there is no evidence in contemporary documents to prove' that Leovigild commanded Leander to convert Recared",
+    "witness": "O. M. Dalton's note to Gregory of Tours VIII.46 (dalton1927 l.29043-29047)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Gregory learned 'of many which came from Spain' that Hermenegild 'was from Arian heresy lately converted to the Catholic faith by the most reverent man Leander, Bishop of Seville, with whom I was not long since familiarly acquainted'",
+    "witness": "Gregory the Great, Dialogues III.31 (gardner1911 l.8012-8017)",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Ingund 'began to enjoin upon her lord that he should forsake the errors of his heresy'; he 'was moved at length by her exhortation; he was converted to the Catholic law'",
+    "witness": "Gregory of Tours, History V.38, tr. Dalton (dalton1927 l.9975-9978, 9993-9995)",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Dalton: Hermangild 'was probably converted through the influence of Ingund, and by the teaching of Leander'; neither Isidore nor John of Biclar records the conversion; after it Leander withdrew to Constantinople",
+    "witness": "Dalton's note (dalton1927 l.26920-26928)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Dalton calls Gregory the Great's account of Hermenegild's martyrdom 'fictitious' and suggests 'Perhaps he derived his supposed facts from his friend Leander'; Leander 'dared not return to Spain until the death of Leuvigild'",
+    "witness": "Dalton's note (dalton1927 l.28849-28854); also l.29205-29208",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "At the Third Council of Toledo 'summa tamen synodalis negotii penes sanctum Leandrum Hispalensis ecclesiae episcopum et beatissimum Eutropium monasterii Servitani abbatem fuit'",
+    "witness": "John of Biclaro, Chronicle, Maurice VIII / Reccared IV, Mommsen margin '590?' (mommsen1894 l.20388-20399; PL72 l.65088-65091)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The council met in Reccared's fourth year, 'die viii iduum majarum era DCXXVII' (OCR 'viri', 'pcxxvir'); 589 is the year James Barmby and Henry Percival give",
+    "witness": "Toledo III acts (collectio 1808 l.36599-36601); Barmby (npnf212 l.32578-32584 note); Percival (npnf214 l.13698)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Leander signed: 'Leander in Christi nomine ecclesiae catholicae Hispalensis metropolitanus episcopus provinciae Baeticae his constitutionibus, quibus in urbe Toletana interfui, annuens subscripsi'",
+    "witness": "Toledo III acts (collectio 1808 l.38055-38063)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Homily headed 'Homilia Sancti Leandri in laudem ecclesiae ob conversionem gentis post concilium et confirmationem canonum edita'; opens 'Festivitatem hanc omnium esse solemniorem festivitatum novitas ipsa significat, quoniam sicut nova est conversio tantarum plebium causa'; 'repente novos ecclesiam parturisse populos intuemur, et quorum asperitatem quondam gemebamus, de eorum nunc gaudemus credulitate'; ends praying 'ut regnum et gens, quae Christum glorificavit in terris, glorificetur ab illo non solum in terris sed etiam in coelis'",
+    "witness": "collectio 1808 l.38309-38333, 38601-38607 (OCR 'hancomnium', 'comversionem'); reprinted PL72 l.66746-66760",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The 1808 editors: 'Deest haec homilia in A. et E. 3. desumpta est ex codice BR. cum variantibus reliquorum lectionibus'",
+    "witness": "collectio 1808 footnote 61 (l.38343, 38415)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Isidore lists among his works 'unum ad Florentinam sororem de Institutione virginum et contemptu mundi libellum, titulorum distinctionibus praenotatum'",
+    "witness": "Isidore, DVI 41 (PL83 l.122797-122800; PL72 l.65260-65262)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Rule opens 'Perquirenti mihi, soror charissima Florentina, quibus te divitiarum cumulis haeredem facerem'; gold and silver are of the earth and return to it; 'Quidquid enim sub sole conspexi, nihil te dignum, sorore [sic], arbitratus sum'; Christ 'Sponsus est, frater est, amicus est, pars haereditatis est'",
+    "witness": "Leander, Regula (PL72 l.65370-65386, 65413-65414; OCR regularized)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Florentina has made a pact with Christ: 'si pactum quod cum Christo pepigisti servaveris'; chapter XXI 'Ne velit virgo reverti ad Saeculum', 'cum uxore Loth non respicias retro'",
+    "witness": "Regula (PL72 l.66662-66674, 66712-66714; OCR regularized)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "'nec junioris fratris Isidori obliviscaris: quem quia sub Dei tuitione, et tribus germanis superstitibus parentes reliquerunt communes, laeti, et de ejus nihil formidantes infantia, ad Dominum commearunt'",
+    "witness": "Regula ch. XXI (PL72 l.66699-66702; OCR 'Isidoii obhviscaris', regularized)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Gregory to Leander: 'even though absent in the body, I behold thee always present with me; for I carry the image of thy countenance stamped within the bowels of my heart'; Turchi dates the letter (I.41; Barmby I.43) to April 591; Barmby gives 591 'if rightly placed'",
+    "witness": "Gregory, Register I.43, tr. Barmby (npnf212 l.32623-32627); Turchi (turchi1907 l.9918-9925)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Gregory sends Leander 'a pallium, to be used only in celebration of Mass'; 'Your Holiness writes of being afflicted with the pains of gout, by continual suffering from which I too am grievously worn down'; Ewald and Hartmann date IX.227 to August 599",
+    "witness": "Gregory, Register IX.121, tr. Barmby (npnf213 l.3830-3839); Ewald-Hartmann heading (ewald-hartmann1893 l.15112-15115, OCR '5!HI, Aug.'; running head l.15345)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Isidore: 'Floruit sub Reccaredo, viro religioso ac principe glorioso, cujus etiam temporibus mirabili obitu actualis vitae terminum clausit'",
+    "witness": "Isidore, DVI 41 as printed in the PL72 testimonia (PL72 l.65267-65269, OCR regularized); PL83 l.122809-122812 (column-broken)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Epitaph 'Crux haec alma': 'Obiit felicis memoriae Leander episcopus die III Kalend. Martias, aera DCXLI'; Mommsen reckons 27 Feb 603 and writes 'ei epitaphio codicibus nescio quibus propagato quatenus fides habenda sit, nescio'; the PL96 editor holds the poem 'neque Hildefonsi, nec alterius antiqui'",
+    "witness": "PL72 l.66726-66740 (OCR 'Ohiit felicis memoi ix'); Mommsen (mommsen1894 l.21985-21987); PL96 l.2083-2090",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Death year given variously: 603 (PL72 Observatio critica, 'ad annum 603', l.65363); 600 or 601 (Turchi, 'ab an. circ. 584 ad an. 600 vel 601', turchi1907 l.2440-2442); 600 (note signed PER[EZ] in PL83, 'Ego Leandrum anno Christi 600 mortuum colligo', l.122864-122870); 599 (Gardner, 'St. Leander died in 599', gardner1911 l.13056-13057); 595 (Library of the Fathers note, 'He died in 595', bliss1844 l.420-421)",
+    "witness": "as cited",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "John of Biclaro: 'Leander Hispalensis ecclesiae episcopus clarus habetur', in the year-block of Maurice III / Leovigild XVII, which Mommsen's margin gives as '585?'",
+    "witness": "mommsen1894 l.20240, 20255 (margin OCR '5b5?'); PL72 l.64897-64899",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Cave's notice (PL72, headed 'NOTITIA. (Ex Cave.)'): Leander went as envoy to the emperor Tiberius at Constantinople 'ut suppetias obtineret', after Leovigild's armed persecution of Hermenegild, and formed friendship with Gregory, then deacon and apocrisiarius; back in Spain, 'anno 384' (OCR-damaged), exiled by Leovigild; the year after, Leovigild commended Reccared to him; 'adeo ut Gothorum apostolus dici meruerit'",
+    "witness": "William Cave, reprinted by Migne (PL72 l.65123-65160)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Library of the Fathers note: Baronius says Leander went on an embassy to ask help for Hermenegild from the emperor; an ancient Roman Breviary says he went to Constantinople to attend a council 'Pro confirmandis capitulis Sanctae Trinitatis'; he 'took part (and perhaps presided, see Baronius ...) in the third Council of Toledo'",
+    "witness": "bliss1844 l.413-416, 472-476, 540-545",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Toledo IV quotes Gregory's answer to Leander: 'efflagitante sanctissimo Leandro episcopo de hac Hispaniae diversitate quid potius esset sequendum, inter cetera rescribens ei sic ait: De trina vero mersione baptismatis ...'; Mommsen dates Toledo IV to 633",
+    "witness": "collectio 1808 l.38918-38932; Mommsen (mommsen1894 l.21965)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Roman Martyrology, 27 February: 'Hispali in Hispania natalis sancti Leandri ejusdem civitatis episcopi, cujus praedicatione et industria Wisigothorum gens, adjuvante Reccaredo eorum rege, ab Ariana impietate ad catholicam fidem conversa est'",
+    "witness": "quoted in the PL72 testimonia (PL72 l.65235-65242)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Leander as brother of Leovigild's first wife and uncle of Hermenegild and Reccared appears in Lucas of Tuy's insertion into Isidore's History ('Theodosiam filiam Severiani ducis Carthaginensis ... ex qua Hermegildum et Reccaredum filios suscepit L'), in the breviary Elogium the Bollandists print ('Reccaredum ... filios sororis suae'), and in Gardner's note",
+    "witness": "mommsen1894 apparatus l.28133-28134; Acta Sanctorum Junii V (palme1867 l.6196-6206); gardner1911 l.13047-13050",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Leander lines in Isidore's History of the Goths (preaching to Hermenegild, recall from exile, the friendship with Gregory) are insertions of later manuscripts and of Lucas of Tuy (siglum L), recorded in Mommsen's apparatus; PL83's text of the History has no Leander",
+    "witness": "mommsen1894 l.28160, 28252, 28303, 28316-28330; PL83 l.119195-119345",
+    "formation_confidence": "Documented"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "The year of Leander's death",
+    "sides": "Epitaph: era 641, 27 Feb 603 in Mommsen's reckoning, which Mommsen doubts (PL72 l.66739-66740; mommsen1894 l.21985-21987); PL72 Observatio critica: 603 (l.65363). Turchi: 600 or 601 (turchi1907 l.2440-2442). Perez in PL83: 600 (l.122864-122870). Gardner: 599 (gardner1911 l.13057). Library of the Fathers note: 595 (bliss1844 l.420-421), against Gregory's letter IX.227 dated August 599 by Ewald and Hartmann (l.15112-15115). Isidore: in Reccared's time (PL72 l.65267-65269)."
+   },
+   {
+    "claim": "Who turned Hermenegild to the Catholic faith",
+    "sides": "Gregory the Great: Leander (gardner1911 l.8012-8017). Gregory of Tours: Ingund's urging (dalton1927 l.9975-9995). Dalton: probably both (l.26920-26922)."
+   },
+   {
+    "claim": "Whether Leovigild entrusted Reccared to Leander",
+    "sides": "Gregory the Great, Dialogues III.31 (gardner1911 l.8073-8080) and Cave after him (PL72 l.65151-65153). Altamira, reported by Dalton: no evidence in contemporary documents (dalton1927 l.29043-29047)."
+   },
+   {
+    "claim": "The exile: when, and whether Leander was exiled after Constantinople or withdrew there",
+    "sides": "Isidore: books written in exile abroad, no place or date (PL83 l.122776-122778). Cave: exiled by Leovigild after returning from Constantinople, year OCR-damaged (PL72 l.65149-65151); Turchi: about 584 (turchi1907 l.2442-2446). Dalton: withdrew to Constantinople to escape Leovigild and returned only after his death (dalton1927 l.26925-26926, 28853-28854, 29205-29208)."
+   },
+   {
+    "claim": "Whether Leander was Reccared's uncle",
+    "sides": "Late tradition says so: Lucas of Tuy's insertion (mommsen1894 l.28133-28134), the breviary Elogium (Acta Sanctorum Junii V l.6196-6206), Gardner (gardner1911 l.13047-13050). Isidore (DVI 41), John of Biclaro, Gregory the Great and Gregory of Tours do not say it."
+   },
+   {
+    "claim": "Whether Leander presided at Toledo III",
+    "sides": "John of Biclaro: the council's business lay with Leander and Eutropius (mommsen1894 l.20398-20399). Library of the Fathers note: 'perhaps presided', citing Baronius (bliss1844 l.413-416). The acts name no president; his signature comes after those of the king, Masona and Euphemius (collectio 1808 l.38029-38063)."
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "His birth year",
+    "note": "No source used here gives it. The PL72 file header gives 'c. 534-600' as a catalogue date; no held line supports it."
+   },
+   {
+    "detail": "The place and date of his exile",
+    "note": "Isidore gives neither (PL83 l.122776-122778). Cave's year is OCR-damaged ('anno 384', PL72 l.65149); Turchi gives about 584. Searched PL72, PL83, Mommsen's Biclaro and Isidore, the Toledo acts, Gregory's letters (Barmby, Turchi, Ewald), Dalton, Gardner, Library of the Fathers notes."
+   },
+   {
+    "detail": "The census year 579",
+    "note": "The census rows cite the Rule at PL72 l.65842-65843, which carries no date. The only held 579 near Leander is the OCR-damaged start year in the Observatio critica ('ab anno t>7a ad annum 603', PL72 l.65363). Mommsen's margin '579?' (mommsen1894 l.20108) is for Hermenegild's revolt, not Leander."
+   },
+   {
+    "detail": "An English translation of the Rule, the homily or De viris illustribus 41",
+    "note": "None held. The brief's tellings of the Rule and homily are paraphrases of the Latin."
+   },
+   {
+    "detail": "His two books against the heretics, the work against Arian customs, and his letters",
+    "note": "Isidore lists them (PL83 l.122776-122809); Cave says they are lost (PL72 l.65165-65170). None is held."
+   },
+   {
+    "detail": "His mother",
+    "note": "Cave names her Turtura (PL72 l.65129, OCR 'Turturaj'). The Rule's 'quae turture matre nata es' (PL72 l.66688-66692) may play on the name or figure the abbess. Not used in the brief or card."
+   }
+  ]
+ },
+ "venantius-fortunatus": {
+  "claims": [
+   {
+    "claim": "Fortunatus and Felix suffered 'a very grievous disease of the eyes'; 'they both proceeded to the church of the blessed Paul and John, which is situated within that city, and in which an altar, built in honor of St. Martin the Confessor, has a window near by in which a lamp was set to give light'; they touched their eyes with its oil; 'Instantly the disease was driven away'",
+    "witness": "Paul the Deacon, History of the Langobards II.13, tr. Foulke (paul-the-deacon foulke1907 l.4082-4091)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Felix was bishop of the church of Tarvisium (Treviso); Fortunatus 'had declared that this Felix was his colleague'",
+    "witness": "Paul II.13 (paul-the-deacon foulke1907 l.4050-4069)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Fortunatus's own verse: 'inlustrem socium Felicem quaeso require, / cui mecum lumen Martinus reddidit olim' and 'iam desperatum lumen niihi [OCR mihi] reddidit auctor'; 'est ulji [OCR ubi] basilicae culmeu Pauli atque lohaunis'",
+    "witness": "Fortunatus, Vita Martini IV (venantius-fortunatus leo-krusch1881 l.31286-31327)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Gregory's account, from Fortunatus: at Ravenna the light was restored to him and to 'socii sui Felicis' 'ex oleo, quod sub imagine picturae beati Martini in cicendile ardebat'",
+    "witness": "Gregory of Tours, De virtutibus S. Martini I.15 (gregory-tours arndt-krusch1885 l.46118-46120); kept on the card, not in the brief",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Paul took the birthplace, the healing of the eyes at Ravenna and the journey to Tours from Fortunatus's Vita Martini IV",
+    "witness": "Foulke's note (paul-the-deacon foulke1907 l.15709-15722)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Born 'in a place which is called Duplabilis, which place lies not far from the fortress of Ceneta (Ceneda) and the city of Tarvisium (Treviso)'; 'brought up and instructed at Ravenna' in 'the grammatical, the rhetorical and also the metrical art'",
+    "witness": "Paul II.13 (paul-the-deacon foulke1907 l.4074-4081); his own verse 'per Cenetam gradieus [OCR] et amicos Duplavenenses' (venantius-fortunatus leo-krusch1881 l.31289)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "'Fortunatus adored the blessed Martin so much that he abandoned his country a little before the Langobards invaded Italy, and set out for the sepulchre of that blessed man at Turones (Tours)'",
+    "witness": "Paul II.13 (paul-the-deacon foulke1907 l.4091-4095)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Krusch: 'haud multo postquam a. 565 in Gallias venit' (his coming to Gaul in 565)",
+    "witness": "Krusch, Proemium (venantius-fortunatus leo-krusch1881 l.41198-41199)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Leo's index: summoned from Italy by King Sigibert, between the year Sigibert succeeded his father and 567 (OCR damaged: 'inter ii. 50/, quo Sigi- htrethiu palri tueettiit, el 567'); read as 561-567",
+    "witness": "Leo, Index personarum (venantius-fortunatus leo-krusch1881 l.51727-51733)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "'after he had come to Turones (Tours), according to his own vow, passing on through Pictavi (Poitiers), he dwelt there and wrote at that place of the doings of many saints, part in prose and part in metrical fashion'",
+    "witness": "Paul II.13 (paul-the-deacon foulke1907 l.4110-4113)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Radegund, queen of the Thuringians, taken and married by Chlothar I, withdrew to the monastery of the Holy Cross at Poitiers, 'ibi Fortunato familiariter usa est'",
+    "witness": "Krusch, Proemium (venantius-fortunatus leo-krusch1881 l.41893-41897); Gregory HF IX.40 for her founding the monastery (gregory-tours dalton1927 l.19598-19599)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "To Agnes: 'Matcr lionore iiiilii , soror aiitciu diilcis aiiiorc' [OCR: Mater honore mihi, soror autem dulcis amore]; 'caclesti aftcctu , iion criniine corporis ullo: nou caro , scd lioc quod s|)iritas optat aino. tcstis adest Cliristus' [OCR: caelesti affectu, non crimine corporis ullo: non caro, sed hoc quod spiritus optat amo. testis adest Christus]",
+    "witness": "Fortunatus, Carm. XI.6 (venantius-fortunatus leo-krusch1881 l.22363-22369)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Poems for kings (Sigibert, Chilperic and his sons) and bishops; prose Lives of Hilary, Germanus, Albinus, Paternus, Radegund, Marcellus",
+    "witness": "Leo's index (venantius-fortunatus leo-krusch1881 l.51727-51760); Krusch, Proemium (venantius-fortunatus leo-krusch1881 l.41085-42900)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Martin's life in four books of verse: 'Fortunatus presbitcr omne opus vitac eius in quattuor libris vcrsu conscripsit'; Paul: 'Here he wrote the life of St. Martin in four books in heroic meter'",
+    "witness": "Gregory, Virt. Mart. I.2 (gregory-tours arndt-krusch1885 l.45245-45246); Paul II.13 (paul-the-deacon foulke1907 l.4117-4118)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Gregory: 'quod venerabilcm conservum meum Fortuna- tuni presbiteriim relulisse commemoro' [OCR: venerabilem conservum meum Fortunatum presbiterum]",
+    "witness": "Gregory, Virt. Mart. I.13, as quoted in Leo's index (venantius-fortunatus leo-krusch1881 l.51804-51806; scrambled OCR in gregory-tours arndt-krusch1885 l.46086)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Gregory, in a dream-dialogue with his mother: 'Utinam Severus aut Paulinus viverent, aut certe Fortunatus adesset, qui ista discriberent!'",
+    "witness": "Gregory, Virt. Mart. I prol. (gregory-tours arndt-krusch1885 l.45001-45004)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Dalton: the fragment of the True Cross sent to Radegund, 'the arrival of which at Poitiers was celebrated by Fortunatus in several hymns; of which the most familiar begin with the lines Pange lingua gloriosi praelium certaminis, and Vexilla Regis prodeunt'",
+    "witness": "Dalton's note (gregory-tours dalton1927 l.27596-27600; also l.29581-29583)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "'Vexilla Regis prodeunt , / Fulget crucis mysterium'; heading 'Hymnus ejusdem. Fortunati de éruce [OCR cruce] Salvatoris nostri Jesu Christi'; the brief's 'the banners of the King go forward' is the narrator's plain telling",
+    "witness": "Hymn printed in Alcuin's works, PL 101 (alcuin pl100-101 migne1863 l.110230-110238); Leo's edition, Carm. II.6, OCR rough (venantius-fortunatus leo-krusch1881 l.4419-4424)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Paul: 'he composed many other things, most of all hymns for particular festivals and especially little verses to particular friends, being second to none of the poets in soft and fluent speech'",
+    "witness": "Paul II.13 (paul-the-deacon foulke1907 l.4118-4121)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "'lastly in the same city he was ordained, first as a presbyter and then as a bishop, and in the same place he reposes buried with befitting honor'",
+    "witness": "Paul II.13 (paul-the-deacon foulke1907 l.4113-4116)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "'vir apostolicus Fortunatus episcopus'",
+    "witness": "Baudonivia, Life of Radegund II, prologue (fredegar ... mgh-srm-2 krusch1888 l.29493)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Gregory calls him presbyter in each held mention: HF V.8 'the book of his Life composed by the priest Fortunatus'; Virt. Mart. I.2 and I.13; Gl. Conf. 'a Fortunato presbytero conscriptam'",
+    "witness": "gregory-tours dalton1927 l.8393-8394; gregory-tours arndt-krusch1885 l.45245, 35573, 39955; the one 'Fortunatus Pictavensis episcopus' in gregory-tours arndt-krusch1885 (l.328) is a codex lemma the editors call false",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Dalton: 'Gregory never alludes to Fortunatus as bishop, because the latter was only consecrated to the see of Poitiers after his death (cf. Introduction, p. 83 n. i)'; the Introduction is not held",
+    "witness": "Dalton's note (gregory-tours dalton1927 l.26296-26299)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Luchi: Gregory calls him only presbyter because Fortunatus was made bishop of Poitiers only at the end of his life, when Gregory had died; 'Qiio vero aiiiio Forlunaius sedem Piciavien- sein consceiiilcrii, diflicile est defiiiire' [OCR: Quo vero anno Fortunatus sedem Pictaviensem conscenderit, difficile est definire]",
+    "witness": "Luchi (regula-magistri-cresconius pl88 migne1862 (Luchi's Vita) l.2916-2927)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "An unsigned note answers 'eos qui Foiiuna- tum es albo Pictavensium pontiflcum espunsunt' [OCR], citing Paul and 'Baudonivia Fortunato aequahs'",
+    "witness": "Note to the Life of Radegund, PL 72 (john-biclaro-leander pl72 migne1878 l.50772-50776)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Born about 530, died about 600",
+    "witness": "Foulke's note (paul-the-deacon foulke1907 l.15718-15720)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Born 'crediiur circ:i annum 530' [OCR: creditur circa annum 530]; died old at Poitiers early in the seventh century",
+    "witness": "Luchi (regula-magistri-cresconius pl88 migne1862 (Luchi's Vita) l.1101-1103)",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "'Venantius Fortunatus, bishop of Poictiers, who died about 609'",
+    "witness": "Hugh Williams's note (gildas williams1899 l.12820)",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Foulke: 'He was the author of 600 hymns'",
+    "witness": "Foulke's note (paul-the-deacon foulke1907 l.15719-15720); no held source behind the count",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Paul at the tomb: 'At his grave, when I came thither for the purpose of prayer, upon the request of Aper the abbot of that place I composed this epitaph'; the epitaph includes 'Famous in talent, quick to perceive and in speech ever gentle.'",
+    "witness": "Paul II.13, tr. Foulke (paul-the-deacon foulke1907 l.4122-4129); Foulke dates the visit 782-786 after Waitz (l.4145)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Epitaph 'Epitaphium Fortunati poete Christiani': 'presul requiescit ... Fortunatus enim vir, decus Ecclesiz [OCR Ecclesiae], Plurima qui fecit sanctorum carmina metro'",
+    "witness": "Poem XCVI in Alcuin's works, PL 101 (alcuin pl100-101 migne1863 l.59551-59559); authorship not stated in the lines read",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Krusch denies him the Life of Medard ('utruni Fortunati fucrit annon quacstio inanis cst' [OCR], of an older lost Life); Arndt and Krusch call the short Life of Remigius 'Fortunato male tributa'; Krusch rejects Tillemont's giving the Life of Marcellus to a Fortunatus of Vercelli",
+    "witness": "venantius-fortunatus leo-krusch1881 l.42459-42550, 42157-42175; gregory-tours arndt-krusch1885 l.60195-60196; Krusch, SRM 3 (passiones-vitaeque-sanctorum-merovingici krusch1896 l.19288-19293)",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Full name 'VENANTI HONORI CLEMENTIANI FORTVNATI PRESBYTERI ITALICI'",
+    "witness": "MGH title page (venantius-fortunatus leo-krusch1881 l.64-66); Leo's index (venantius-fortunatus leo-krusch1881 l.51717-51720)",
+    "formation_confidence": "Documented"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "Whether and when he was bishop of Poitiers",
+    "sides": [
+     "Paul the Deacon: ordained priest and then bishop at Poitiers (paul-the-deacon foulke1907 l.4113-4116); Baudonivia: 'vir apostolicus Fortunatus episcopus' (fredegar ... mgh-srm-2 krusch1888 l.29493); an unsigned PL 72 note uses both against those who struck him from the list (pl72 l.50772-50776)",
+     "Gregory of Tours calls him presbyter in each held mention (gregory-tours dalton1927 l.8393-8394; gregory-tours arndt-krusch1885 l.45245, 35573); Dalton (gregory-tours dalton1927 l.26296-26299) and Luchi (regula-magistri-cresconius pl88 migne1862 (Luchi's Vita) l.2916-2927) explain this by a consecration after Gregory's death; no held source gives the year"
+    ]
+   },
+   {
+    "claim": "Where at Ravenna the healing oil burned",
+    "sides": [
+     "Paul: a lamp in a window near an altar of Martin in the church of Paul and John (paul-the-deacon foulke1907 l.4085-4089)",
+     "Gregory, from Fortunatus: a lamp beneath a painted image of Martin (gregory-tours arndt-krusch1885 l.46118-46119)",
+     "Fortunatus's poem names the church of Paul and John and an image of the saint on its wall, and Martin's 'loculum' ({leo} l.31322-31328)"
+    ]
+   },
+   {
+    "claim": "His years",
+    "sides": [
+     "Foulke: about 530 to about 600 (paul-the-deacon foulke1907 l.15718-15720)",
+     "Luchi: born about 530, died early in the seventh century (regula-magistri-cresconius pl88 migne1862 (Luchi's Vita) l.1101-1103)",
+     "Hugh Williams: died about 609 (gildas williams1899 l.12820)",
+     "Coming to Gaul: Krusch 565 (venantius-fortunatus leo-krusch1881 l.41199); Leo's index between 561 and 567 (venantius-fortunatus leo-krusch1881 l.51727-51733); Paul: a little before the Lombards invaded (paul-the-deacon foulke1907 l.4091-4093)"
+    ]
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "Any year of his life in an ancient source",
+    "note": "Searched Paul II.13, every Fortunatus mention in Gregory (Dalton and Arndt-Krusch), Baudonivia, Leo's index entry, Krusch's Proemium and Luchi's Vita. All years are modern reckonings."
+   },
+   {
+    "detail": "The year of his bishopric",
+    "note": "Paul and Baudonivia call him bishop without a year; Luchi says the year is hard to fix; Dalton's Introduction, which he cites, is not held."
+   },
+   {
+    "detail": "An English translation of his hymns",
+    "note": "Searched all files for 'royal banners', 'banners of the King', 'Sing, my tongue' and English 'Vexilla'. None held; the Latin is in Leo's edition and in PL 101. The brief gives the first line in Latin with a plain modern telling."
+   },
+   {
+    "detail": "His parents' names",
+    "note": "Gregory reports Fortunatus said his father was healed by a remedy of Martin, without a name (gregory-tours arndt-krusch1885 l.46103-46104); his poem names a sister Titiana (venantius-fortunatus leo-krusch1881 l.22374); nothing names father or mother."
+   },
+   {
+    "detail": "Namesakes",
+    "note": "Fortunatus of Grado, Fortunatus of Naples, Fortunatus of Fano and the martyr Fortunatus of Aquileia are other men; the Felix of the healing is Felix of Treviso, not Felix of Nantes."
+   }
+  ]
+ },
+ "reccared": {
+  "claims": [
+   {
+    "claim": "After the three-day fast, on 'die octavo iduum majarum', 'ecce in medio eorum adfuit serenissimus princeps, seque cum Dei sacerdotibus orationi communicans ... sic ad loquendum exorsus est'",
+    "witness": "Toledo III acts (collectio-canonum-ecclesiae-hispanae 1808 l.36614-36620)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The king: 'non multos post discessus genitoris nostri dies quibus nos vestra beatitudo fidei catholicae sanctae cognovit esse sociatos'; what he had to say of his faith is 'in hunc tomum conscripta', to be read 'in medio vestri'",
+    "witness": "Toledo III acts (l.36620-36630)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "'Susceptus est autem ab omnibus Dei sacerdotibus offerente rege sacrosanctae fidei tomus, et pronuntiante notario clara voce recensitus est'",
+    "witness": "Toledo III acts (l.36631-36632)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The council is dated 'anno regnante quarto ... domino Recaredo rege, die viii iduum majarum era DCXXVII' (OCR 'viri', 'pcxxvir'); 589 is the year James Barmby and Henry Percival give",
+    "witness": "acts l.36598-36600; Barmby (npnf212 l.32578-32584 note; npnf213 l.3852-3856); Percival (npnf214 l.13698)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Tomus: 'Quamvis Deus omnipotens pro utilitatibus populorum regni nos culmen subire tribuerit, et moderamen gentium non paucarum regiae nostrae curae commiserit, meminimus tamen nos mortalium conditione praestringi'",
+    "witness": "acts l.36632-36635",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Tomus confesses the Father who begot the Son 'ex sua substantia ... coaequalem et coaeternum', and the Holy Spirit 'a Patre et Filio procedere et cum Patre et Filio unius esse substantiae'; it receives the four councils",
+    "witness": "acts l.36641-36665, 36700-36706",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Tomus: 'me quoque, ut re ipsa conspicitis calore fidei accensum in eo Dominus excitavit, ut ... populum, qui sub nomine religionis famulabatur errori, ad agnitionem fidei et ecclesiae catholicae consortium revocarem. Adest enim omnis gens Gothorum inclyta'; 'Suevorum gentis infinita multitudo, quam praesidio coelesti nostro regno subjecimus'; 'has nobilissimas gentes ... quasi sanctum et placabile sacrificium per vestras manus aeterno Deo offero'",
+    "witness": "acts l.36672-36685",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Tomus: 'anathematizo Arium cum omnibus dogmatibus et complicibus suis'",
+    "witness": "acts l.36698-36699",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Subscription: 'Ego Recaredus rex fidem hanc sanctam et veram confessionem, quam una per totum orbem catholica confitetur ecclesia; corde retinens, ore affirmans, mea dextera Deo protegente subscripsi'; then 'Ego Baddo gloriosa regina hanc fidem quam credidi et suscepi, mea manu de toto corde subscripsi'",
+    "witness": "acts l.36771-36782",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Acclamation: 'Cui a Deo aeternum meritum nisi vero catholico Recaredo regi? Cui a Deo aeterna corona nisi vero orthodoxo Recaredo regi?'",
+    "witness": "acts l.36783-36797",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Edict signed 'Flavius Recaredus rex hanc deliberationem quam cum sancta definivimus synodo confirmans subscripsi'; what was defined 'nulli contemnere liceat, nullus praeterire praesumat'",
+    "witness": "acts l.37905-37922, 38029-38031",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Canon II in Percival's English: 'the holy Synod enacts, with the advice of our most pious and most glorious Lord, King Recarede, that through all the churches of Spain and Gallæcia, the symbol of faith of the council of Constantinople ... should be recited according to the form of the Eastern Church'",
+    "witness": "Henry R. Percival, Excursus (npnf214 l.13736-13742)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Dalton: 'His speech on that occasion was composed by Leander (Labbe, Concilia, v, p. 997)'",
+    "witness": "O. M. Dalton's note to Gregory of Tours IX.15 (dalton1927 l.29212-29215)",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Leovigild made 'duosque filios suos ex amissa conjuge, Ermenegildum et Recaredum, consortes regni'",
+    "witness": "John of Biclaro (PL72 l.64718-64722; mommsen1894 l.19937, per dossier)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "John of Biclaro, a Goth, suffered under Leovigild for the Catholic faith and was exiled at Barcelona (Isidore, De viris illustribus, quoted by Mommsen; Mommsen: 'propter fidem catholicam iniurias regis Arianae addicti perpessus est et exilium Barcinonense'); his chronicle runs to Reccared's fourth year",
+    "witness": "mommsen1894 l.19395-19432; PL72 l.64436-64441",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "'Hoc anno Leovegildus rex diem clausit extremum et filius eius Reccaredus cum tranquillitate regni eius sumit sceptra'",
+    "witness": "John of Biclaro (mommsen1894 l.20270-20271; OCR regularized)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Isidore: 'Aera DCXXIIII ... Levvigildo defuncto filius eius Recaredus regno est coronatus'; Mommsen brackets Reccared's reign 'a. 586-601' and writes 'Reccaredi (†a. 601)'; Krusch's margin to Fredegar IV.6 gives 586; Dalton: 'Leuvigild really died in the preceding year, 586'; Gardner: 'Leovigild died in 586'",
+    "witness": "mommsen1894 l.28213-28214, 21946, 21955; fredegar krusch1888 l.9367-9368; dalton1927 l.17394; gardner1911 l.13054-13055",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "'Reccaredus primo regni sui anno mense X catholicus deo iuvante efficitur et sacerdotes sectae Arrianae sapienti colloquio aggressus ratione potius quam imperio converti ad catholicam fidem facit gentemque omnium Gothorum et Suevorum ad unitatem et pacem revocat Christianae ecclesiae'",
+    "witness": "John of Biclaro (mommsen1894 l.20312-20316; OCR regularized); Mommsen's margin '587?' for the year-block (l.20273)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Gregory of Tours: Recared convoked the bishops of his own church and proposed they meet the Catholic bishops: 'discuss the doctrines of both parties, and let us discover which are true'; after the debate he 'submitted to the Catholic law, and received the sign of the blessed Cross with unction of holy chrism'",
+    "witness": "Gregory of Tours, History IX.15, tr. Dalton (dalton1927 l.18168-18209)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Fredegar: 'Richarid rex Gotorum divino amplectens amore, prius secrecius baptizatur'; he had the Arian books burned at Toledo and 'omnes Gothos ad christianam legem baptizare fecit'; Krusch's margin 587",
+    "witness": "Fredegar IV.8 (krusch1888 l.9380-9385; OCR regularized)",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Gregory the Great: Leovigild commended Recharedus to Leander; after his father's death Rechared 'utterly renounced Arianism' and 'brought the whole nation of the Visegoths to the true faith'; 'he was the brother of a martyr, whose merits did help him'",
+    "witness": "Gregory the Great, Dialogues III.31 (gardner1911 l.8073-8098)",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Barmby: Reccared 'had declared himself a Catholic a.d. 587'; Gardner: Rechared 'became a Catholic in the following year' after 586; Dalton: 'the conversion of Recared in 587'",
+    "witness": "npnf212 l.32580-32583; gardner1911 l.13055-13056; dalton1927 l.22782, 24258",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Gregory to Reccared: 'I cannot express in words, most excellent son, how much I am delighted with thy work and thy life'; the whole nation of the Goths brought over 'from the error of Arian heresy to the firmness of a right faith', 'a new miracle in our days'; Ewald and Hartmann date the letter (IX.228) August 599; Barmby 598-9",
+    "witness": "Register IX.122, tr. Barmby (npnf213 l.3870-3876); ewald-hartmann1893 l.15375-15384",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Gregory, from the report of Probinus the presbyter: 'your Excellency having issued a certain ordinance against the perfidy of the Jews, those to whom it related attempted to bend the rectitude of your mind by offering a sum of money; which your Excellency scorned, and ... preferred innocence to gold'",
+    "witness": "npnf213 l.3928-3934",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Isidore: 'namque ille inreligiosus et bello promptissimus, hic fide pius et pace praeclarus'; 'Fuit autem placidus, mitis, egregiae bonitatis ... ut ... etiam malos ad affectum amoris sui adtraheret'; 'fidem enim rectae gloriae, quam initio regni percepit, novissime publica confessione paenitentiae cumulavit. Toleto fine pacifico transiit, qui regnauit annos XV'",
+    "witness": "Isidore, History of the Goths 52, 55-56 (mommsen1894 l.28264-28265, 28349-28368; OCR regularized)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Isidore: 'Aera DCXXXVIIII ... post Recaredum regem regnat Livva filius eius annis duobus, ignobili quidem matre progenitus'",
+    "witness": "mommsen1894 l.28369-28372; PL83 l.119347-119355",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Biclaro: at the council Reccared handed the bishops 'ordinem conversionis suae et omnium sacerdotum vel gentis Gothicae confessionem tomo scriptam manu sua', 'renovans temporibus nostris antiquum principem Constantinum Magnum' and Marcian",
+    "witness": "mommsen1894 l.20390-20406",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Biclaro: 'Reccaredus rex aliena a praecessoribus direpta et fisco sociata placabiliter restituit. ecclesiarum et monasteriorum conditor et ditator efficitur'",
+    "witness": "mommsen1894 l.20323-20324",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "In his father's time Reccared, sent against the Franks in Gallia Narbonensis, drove them out and took the fort 'qui Hodierno vocatur' on the Rhone",
+    "witness": "John of Biclaro, Maurice III (mommsen1894 l.20251-20256)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Plots: 'Siuma episcopus et Segga' (Sunna and Seggo in Migne's text) were found out, Siuma exiled and Segga's hands cut off; 'Uldida episcopus cum Gosuintha regina insidiantes Reccaredo manifestantur', Uldila exiled, and Gosuintha 'catholicis semper infesta vitae tunc terminum dedit'",
+    "witness": "mommsen1894 l.20329-20335, 20339-20342; PL72 l.64970-64972",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Gregory of Tours: 'Recared, his son, made covenant with Goiswinth, his father's widow, and recognized her as his mother'",
+    "witness": "Gregory of Tours IX.1, tr. Dalton (dalton1927 l.17554-17556)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Hermenegild's death: John, 'Hermenegildus in urbe Tarraconensi a Sisberto interficitur'; Gregory of Tours, 'Her lord Hermangild was slain by his father Leuvigild'; Gregory the Great, killed in prison by his father's officers after refusing an Arian bishop's communion; Dalton calls Gregory the Great's account 'fictitious'",
+    "witness": "mommsen1894 l.20246; dalton1927 l.16509-16510; gardner1911 l.8036-8057; dalton1927 l.28849-28851",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Letter in Reccared's name to Gregory (Barmby IX.61; Ewald-Hartmann IX.227a, from the Hispana collection): Barmby, 'The genuineness of this letter is considered doubtful. It may have been a forgery founded on Epistle CXXII'; Ewald and Hartmann report Gams calls it false and Mommsen agrees, thinking it made up from the next letter; they think it 'male adservatam multisque locis corruptam' (note cut short in the scan)",
+    "witness": "npnf213 l.2250-2256; ewald-hartmann1893 l.15296-15300, 15333-15338 (OCR regularized)",
+    "formation_confidence": "Contested"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "How and when Reccared became Catholic",
+    "sides": "Reccared, at the council: not many days after his father's death (acts l.36620-36623). John of Biclaro: tenth month of his first year, by wise talk with the Arian clergy (mommsen1894 l.20312-20316). Gregory of Tours: after a debate of the two sides' bishops, receiving chrism (dalton1927 l.18168-18209). Fredegar: first a secret baptism (krusch1888 l.9380-9381). Gregory the Great: through Leander's counsel and his martyred brother's merits (gardner1911 l.8073-8098). Barmby, Gardner and Dalton give 587."
+   },
+   {
+    "claim": "Whose words the book of faith is",
+    "sides": "The acts: offered by the king, written in his voice, read by a notary (acts l.36628-36632); John of Biclaro: written 'manu sua' (mommsen1894 l.20393-20395). Dalton: the speech was composed by Leander, citing Labbe (dalton1927 l.29212-29215)."
+   },
+   {
+    "claim": "Whether Leovigild entrusted Reccared to Leander",
+    "sides": "Gregory the Great says so (gardner1911 l.8073-8080). R. Altamira, reported by Dalton: no evidence in contemporary documents (dalton1927 l.29043-29047)."
+   },
+   {
+    "claim": "How Hermenegild died",
+    "sides": "John of Biclaro: killed by Sisbert at Tarragona (mommsen1894 l.20246). Gregory of Tours: slain by his father (dalton1927 l.16509-16510). Gregory the Great: put to death in prison on his father's order for refusing Arian communion (gardner1911 l.8036-8057), an account Dalton calls fictitious (l.28849-28851)."
+   },
+   {
+    "claim": "The letter in Reccared's name to Gregory",
+    "sides": "Barmby: considered doubtful, perhaps a forgery from Ep. CXXII (npnf213 l.2250-2256). Gams: false; Mommsen agrees (reported by Ewald and Hartmann, l.15333-15336). Ewald and Hartmann: badly preserved and corrupt in many places (l.15336-15338)."
+   },
+   {
+    "claim": "The year of his death",
+    "sides": "Isidore: fifteen years' reign, Liuva succeeding in era 639 (mommsen1894 l.28367-28372); Mommsen: 601 (l.21946); Brehaut: 'd. 601' (per dossier, brehaut1912 l.711). Perez in PL83: Reccared died 600 and Liuva succeeded era 639 = 601 (PL83 l.122864-122870), contradicting himself."
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "His birth year and place",
+    "note": "No usable held source gives them. The only birth place, 'Reccaredus Hispali nascitur', is in the PL80 chronicle under the name of Maximus of Saragossa, which the Bollandists class among deceptive later inventions ('nullius fidei ista apud nos sunt', Acta Sanctorum Junii V l.6385-6387); not used."
+   },
+   {
+    "detail": "A complete English translation of the Toledo III acts",
+    "note": "None held; the 1808 file header says no public-domain English exists. Percival (NPNF 14) translates only canon II and the anathema on the Universal Church (npnf214 l.13703-13741). The brief's telling of the tomus and subscription is a paraphrase of the Latin."
+   },
+   {
+    "detail": "An Arian-side account of his reign",
+    "note": "None used here. The witnesses (the acts, John of Biclaro, Isidore, Gregory of Tours, Gregory the Great, Fredegar) are Catholic."
+   },
+   {
+    "detail": "Who baptized, anointed or crowned him",
+    "note": "No usable held source names the minister. Gregory of Tours mentions chrism without a name (dalton1927 l.18207-18209). The crowning by Euphemius and Leander and anointing by Masona is only in the PL80 'Maximus' chronicle; not used. The PL96 epigrams are marked supposititious by their editor; not used."
+   },
+   {
+    "detail": "The mother of his son Liuva",
+    "note": "Isidore calls her of humble birth and does not name her (mommsen1894 l.28372). No held line identifies her with Queen Baddo."
+   }
+  ]
+ },
+ "henana-of-adiabene": {
+  "claims": [
+   {
+    "claim": "The students left the school 'distribuant les objets qu'ils avaient; ils emportaient des evangiles et des croix sur des voiles noirs, avec des encensoirs; et ils sortirent de la ville en prieres, et en chantant les hymnes des rogations; ils etaient environ trois cents'; they were moved by Sabrisho's accepting Hnana's word over the metropolitan's; 'Il ne resta dans l'Ecole que vingt personnes et a peine autant d'enfants'",
+    "witness": "Chronicle of Seert LXXIV, tr. Scher (chronicle-of-seert po13 scher1919 l.28671-28710; OCR 'TEcoIe', 'eiiviron'); a hostile account",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "'Le docteur de Nisibe etait alors Hnana d'Adiabene, disciple de Moise; depuis longtemps, il etait a l'Ecole, curieux de la lecture des ecrits heterodoxes; il avait explique des choses contrairement a Theodore l'interprete; il s'etait ecarte de la verite pour adherer a des doctrines heretiques'",
+    "witness": "Chronicle of Seert LXXIV (chronicle-of-seert po13 scher1919 l.28601-28606; OCR 'TEcole', 'rinterprete'); hostile",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Abdisho of Nisibis says of Henana that he 'alios plures libros edidit, qui propter Commentatorem repudiati sunt', which Assemani glosses as his departing from Theodore's sense in expounding Scripture",
+    "witness": "Assemani, Bibliotheca orientalis III.1 (l.15165-15171; OCR 'Sturarum', 'recellit'); Badger's English of the same entry, 'many other works condemned by Theodorus of Mopsuestia' (badger v2 l.17705-17706)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "He left Theodore of Mopsuestia's reading of Scripture: carried by two held witnesses, both hostile or of the opposing tradition within his church (the Chronicle of Seert; Abdisho)",
+    "witness": "Seert l.28603-28604; Assemani l.15165-15171. Scher: 'les Nestoriens ont toujours accusé Hnana d'avoir abandonné dans ses commentaires les sentences de Théodore' (barhadbeshabba cause po4 scher1908 l.21073-21075)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Scher: 'Hnana devint maitre de l'Ecole de Nisibe en 572'; 'Hnana succéda en 572 à Abraham'",
+    "witness": "Scher's notes (chronicle-of-seert po13 scher1919 l.28620-28621; barhadbeshabba cause po4 scher1908 l.21023)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Chabot: Henana d'Adiabène, 'le célèbre docteur de l'Ecole de Nisibe' who taught there under the patriarchate of Ezekiel 'vers 570'",
+    "witness": "Chabot's note to canon II of Ishoyahb I (synodicon-orientale chabot1902 l.26750-26757, two columns interleaved)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "When Gregory became metropolitan of Nisibis he reproached Hnana, 'alors Gregoire condamna les livres qu'il avait composes'; Gregory wrote to the catholicos Sabrisho; Hnana wrote to Sabrisho 'une lettre, dans laquelle il se jouait de lui'; the Fathers excommunicated Hnana, but 'le catholicos ... accueillit favorablement la lettre de Hnana'; Gregory, 'apres avoir secoue la poussiere de ses sandales a la porte de Nisibe, il quitta la ville'",
+    "witness": "Chronicle of Seert LXXIV (chronicle-of-seert po13 scher1919 l.28607-28666); hostile",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Gregory is Gregory of Kashkar ('B. Gregor (v. Kaskar)'), a native of Kashkar, ordained metropolitan of Nisibis by Sabrisho",
+    "witness": "Braun, Buch der Synhados (synodicon-orientale braun1900 l.13699, 13713-13716)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "In Babai's Life of George a monk says Henana is 'cet homme qui enseigne le fatalisme, prèche la fatalité', 'nie la résurrection des corps et [n'admet] le salut que pour les âmes'; Babai reports what 'leur maître Henana' said: 'Le sort et la fatalité sont cause de tout et tout est conduit par les étoiles', and calls him 'Henana l'hérétique, le chaldéen et l'origéniste'",
+    "witness": "Babai the Great, Life of George, extracts tr. Chabot (synodicon-orientale chabot1902 l.42093-42118); one hostile witness",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "The Life of George is 'composée par saint Rabban Mar Babai, supérieur du couvent qui est sur le mont Izala'",
+    "witness": "Chabot (synodicon-orientale chabot1902 l.42082-42083)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Braun: the only contemporary account is 'der leidenschaftliche Babai von Jzala'; 'Wenn wir dessen Uebertreibungen und Widersprüche zu berichtigen suchen, so scheinen die anstössigsten Punkte die Lehren über Astrologie (nach B. Chaldäertum) u. Apokatastasis'",
+    "witness": "Braun (synodicon-orientale braun1900 l.13690-13696)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Labourt calls Babai 'son antagoniste Babaï le Grand'; 'Est-ce calomnieusement que Babaï attribue à Henana l'opinion suivante ... ? Nous ne saurions le dire. Cette imputation n'est cependant pas invraisemblable'",
+    "witness": "Labourt, Le christianisme dans l'empire perse (labourt1904 l.15713-15714, 15747-15751)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "The synod acts never name Henana: 'Die Synodalacten erwähnen jedoch den H. ... nirgends'; Braun reads canon 2 of Ishoyahb's synod (585/6) as 'bereits deutlich gegen Hannana gerichtet, ohne ihn noch [zu nennen]'; the defence of Theodore 'gilt vor Allem den Theopaschiten'",
+    "witness": "Braun (braun1900 l.9484-9485, 13708-13728)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Chabot reads canon II of Ishoyahb's synod as 'très probablement' aimed at a commentary by Henana; Labourt reads the canon of 585 as aimed at those who 'à la suite du docteur Henana de Nisibe' refused Theodore's exegesis, and the anathema of Sabrisho as directed 'contre lui'",
+    "witness": "Chabot (synodicon-orientale chabot1902 l.26750-26757); Labourt (l.11616-11620, 15736-15745)",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Timothy I says the catholicos Sabrisho condemned 'Hanani Adiabeni scripta'",
+    "witness": "Abdisho, Collection of canons IX.6, quoting Timothy I, ed. Mai (mai1838 l.18708-18716, 18864-18866); Assemani l.14926-14931",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Mari: 'Floruerunt Nisibi inter doctores Jesujabus et Abrahamus Haddadi filius, et Hannanus qui auditores numerabat octingentos'",
+    "witness": "Mari ibn Sulayman, tr. Gismondi (gismondi1899 l.13822-13824; OCR 'numorabat oclingenlos')",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Barhadbeshabba: 'Il fut remplacé par Hnana d'Adiabène, homme orné d'humilité, et de tous les dons d'instruction qu'exige l'œuvre de l'interprétation'; 'il s'appliquait jour et nuit à la lecture et à l'interprétation des Écritures'; 'Nous prions tous Dieu de prolonger ses jours'; 'Il est doux, miséricordieux, patient et ne cherche pas sa propre gloire comme les autres'",
+    "witness": "Barhadbeshabba, Cause of the Foundation of the Schools, tr. Scher (barhadbeshabba cause po4 scher1908 l.21006-21007, 21043-21044, 21121, 21133-21134); a friendly witness; the later lines speak of 'lui' in the continuing passage on Hnana",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Barhadbeshabba wrote 'du vivant même de son maître Hnana'; he was among the students who left; he later became bishop of Halwan",
+    "witness": "Scher's introduction (barhadbeshabba cause po4 scher1908 l.16970-16975, 16994-17003)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Scher: 'Il est probable que l'auteur dissimule ici la vérité pour louer son maître auprès de ses coreligionnaires'; Gregory 'était ennemi acharné de Hnana'",
+    "witness": "Scher's note (barhadbeshabba cause po4 scher1908 l.21073-21079)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "New canons were added in 590, 'quando Simeone era metropolita di Nisibi, e maestro della scuola era Hannànà'",
+    "witness": "Guidi (statuti-della-scuola-di-nisibi guidi1890 l.9918-9921)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Aha, Isaiah of Tahal and Meskena 'Arbaya, 'disciples de Hnana', refused to go with Gregory's friends",
+    "witness": "Chronicle of Seert LXXIV (chronicle-of-seert po13 scher1919 l.28714-28716)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Abdisho lists commentaries on the Psalms, Genesis, Job, Proverbs, Ecclesiastes, the Song of Solomon, the Twelve Prophets, Mark and Paul, an exposition of the faith and sacraments, and treatises on feasts",
+    "witness": "Badger's English of Abdisho's catalogue (badger v2 l.17698-17706); Scher's note (barhadbeshabba cause po4 scher1908 l.21080-21086)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "His death: Scher says he died under Sabrisho (596-604) and elsewhere that he was alive in 610; Babai writes of 'la seconde mort' of Henana, which Chabot reads as already dead",
+    "witness": "Scher (barhadbeshabba cause po4 scher1908 l.21023-21024, 21734); Babai tr. Chabot (synodicon-orientale chabot1902 l.42221-42222, Chabot's note l.42237-42240)",
+    "formation_confidence": "Contested"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "What Henana taught",
+    "sides": "Babai the Great alone, in the Life of George: fatalism, astrology ('Chaldean'), Origenism, denial of bodily resurrection (chabot1902 l.42093-42118, 42218-42222). Braun calls Babai passionate and corrects for his exaggerations and contradictions (braun1900 l.13690-13696); Labourt calls Babai his antagonist and cannot say whether the charge is slander, though not implausible (labourt1904 l.15713, 15747-15751). His pupil Barhadbeshabba says nothing of heresy and praises his interpretation (scher1908 l.21006-21050); Scher thinks the pupil probably hid the truth (l.21073)."
+   },
+   {
+    "claim": "When Henana died",
+    "sides": "Scher: under Sabrisho, 596-604 (scher1908 l.21023-21024); Scher: still alive in 610, from the Chronicle of Seert (l.21734); Scher on Seert: alive in 612 by that author, though Babai seems to say he was already dead (seert l.29901-29904); Babai as read by Chabot: already dead (chabot1902 l.42221-42222, 42237-42240)."
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "Words of his own",
+    "note": "None held. His treatises on the Rogations and Golden Friday (PO 7) appear only in a publisher's advertisement (po09 l.41507). Guidi's Syriac statutes are not recovered by OCR and he quotes no canon of Henana's in Italian."
+   },
+   {
+    "detail": "His birth and death years",
+    "note": "No held ancient line gives either. 572 is Scher's reckoning; Chabot's is about 570; see the death contested_claim."
+   },
+   {
+    "detail": "Synods naming him",
+    "note": "The synods dated 585, 596 and 605 (Chabot l.26590-26712, 30464-31377, 31388-31700) do not name Henana; Braun says so (braun1900 l.13708-13728). Their reference to him is Chabot's, Braun's and Labourt's reading."
+   },
+   {
+    "detail": "A second witness to Babai's doctrinal charges",
+    "note": "None held. Babai's De Unione and Evagrius commentary are cited by Braun and Labourt but not held; the Chronicle of Seert speaks of 'doctrines heretiques' without naming them."
+   }
+  ]
+ },
+ "augustine-of-canterbury": {
+  "claims": [
+   {
+    "claim": "The king sat in the open air on Thanet 'lest, according to an ancient superstition, if they practised any magical arts, they might impose upon him'; they came 'bearing a silver cross for their banner, and the image of our Lord and Saviour painted on a board; and singing the litany'",
+    "witness": "Bede, HE I.25 (bede giles1903 l.1922-1965)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Ethelbert: 'Your words and promises are very fair, but as they are new to us, and of uncertain import, I cannot approve of them so far as to forsake that which I have so long followed with the whole English nation'; he let them stay and preach",
+    "witness": "Bede, HE I.25 (bede giles1903 l.1969-1985); the king's speech in Bede's telling",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Gregory calls him 'quondam monasterii mei praepositum, nunc fratrem et coepiscopum nostrum' and 'monasterii mei monachum'",
+    "witness": "Gregory to Syagrius, Register IX.222 (gregory-great registrum t2 pars1 ewald-hartmann1893 l.14758-14762); Gregory to Eulogius (gregory-great epistolae-selectae turchi1907 l.9306-9311)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "'In the year 596, Pope Gregory sent Augustine with monks into Britain'; 'In the year 597, the aforesaid teachers arrived in Britain'",
+    "witness": "Bede's chronicle summary (bede giles1903 l.15271-15277)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "On the journey they were 'seized with a sudden fear' of 'a barbarous, fierce, and unbelieving nation, to whose very language they were strangers', and sent Augustine back to Gregory",
+    "witness": "Bede, HE I.23 (bede giles1903 l.1813-1830)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Gregory's letter: 'When Augustine, your chief, returns, whom we also constitute your abbat, humbly obey him in all things'",
+    "witness": "Gregory, as Bede copies the letter (bede giles1903 l.1843-1848); Latin 'Augustino praeposito vestro, quem et abbatem vobis constituimus' (gregory-great epistolae-selectae turchi1907 l.9116-9119)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The king 'believed and was baptized'; 'he compelled none to embrace Christianity'; he gave his teachers a residence in Canterbury",
+    "witness": "Bede, HE I.26 (bede giles1903 l.2033-2056)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "'In solemnitate autem Dominicae nativitatis ... plusquam decem milia Angli ab eodem nuntiati sunt fratre et coepiscopo nostro baptizati'",
+    "witness": "Gregory to Eulogius of Alexandria (gregory-great epistolae-selectae turchi1907 l.9328-9333)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Augustine 'repaired to Arles, and ... was ordained archbishop of the English nation, by Aetherius, archbishop of that city'",
+    "witness": "Bede, HE I.27 (bede giles1903 l.2063-2066)",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "'Aetherius was really archbishop of Lyons'",
+    "witness": "L. Cecil Jane's note (bede giles1903 l.15827)",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Augustine, after baptizing Ethelbert with his people on Christmas 597, went to Gaul 'ut a Vergilio Arelatensi episcopus consecraretur'",
+    "witness": "Nicola Turchi's note 26 (gregory-great epistolae-selectae turchi1907 l.9318-9324)",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Second question: 'Whereas the faith is one and the same, why are there different customs in different churches? and why is one custom of masses observed in the holy Roman church, and another in the Galilean church?'",
+    "witness": "Augustine's question as Bede copies it (bede giles1903 l.2127-2132; 'Galilean' is the edition's word for Gallican)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Gregory: 'For things are not to be loved for the sake of places, but places for the sake of good things'",
+    "witness": "Gregory's answer, in Bede (bede giles1903 l.2136-2150)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "'De hac epistula, an genuina sit, saepe disputatur'; '... non dubito, quin genuina sit'; Mommsen holds 'non integram epistulam, sed excerpta tantum nobis asservata esse'",
+    "witness": "MGH editors' note to Register XI.56a (gregory-great registrum t2 pars2 ewald-hartmann1895 l.12643, 12700-12706; OCR rough)",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Bede's copy 'may be regarded as the most authentic'; Boniface asked Nothelm for a copy since none could be found at Rome",
+    "witness": "James Barmby's note (npnf213 l.7292-7310)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Boniface, a. 735, writes to Nothelm that the letter 'in scrinio Romanae aecclesiae ... quaesita non inveniebatur'",
+    "witness": "MGH editors' introduction, quoting Boniface (gregory-great registrum t2 pars2 ewald-hartmann1895 l.195-203); Boniface's letter is not itself held",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Gregory: 'as for all the bishops of Britain, we commit them to your care'",
+    "witness": "Gregory's answer to the seventh question, in Bede (bede giles1903 l.2334-2338)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The meeting at 'Augustine's Ac, that is, Augustine's Oak'; the hermit's test, 'if at your approach he shall rise up to you, hear him'; 'Augustine was sitting on a chair'; they refused him",
+    "witness": "Bede, HE II.2 (bede giles1903 l.3560-3672)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Augustine 'is said, in a threatening manner, to have foretold' that if they would not preach to the English 'they should at their hands undergo the vengeance of death'",
+    "witness": "Bede, HE II.2 (bede giles1903 l.3672-3682), with Bede's own hedge",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Bede calls the Britons 'that perfidious nation'",
+    "witness": "Bede, HE II.2 (bede giles1903 l.3683-3685); a hostile witness on the Britons",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "In 604 Augustine ordained Mellitus and Justus; 'After this, the beloved of God, Father Augustine, died'",
+    "witness": "Bede, HE II.3 (bede giles1903 l.3734-3765)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Epitaph: 'Here rests the Lord Augustine, first archbishop of Canterbury ... died the 26th day of May, in the reign of the same king'",
+    "witness": "Bede, HE II.3 (bede giles1903 l.3784-3791)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "'Laurentius a. 606 Augustino episcopus successit'",
+    "witness": "MGH editors' note (gregory-great registrum t2 pars2 ewald-hartmann1895 l.10690-10693)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Jane: 'Augustine was a Benedictine and trained under Gregory at the monastery of St. Anthony, Rome'",
+    "witness": "L. Cecil Jane's note (bede giles1903 l.15824-15825); no held letter of Gregory names the monastery",
+    "formation_confidence": "Inferential-Thin"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "Who ordained him in Gaul",
+    "sides": [
+     "Bede: Aetherius, archbishop of Arles (bede giles1903 l.2063-2066); Jane's note says Aetherius was really of Lyons (l.15827)",
+     "Nicola Turchi: Vergilius of Arles (turchi1907 l.9322-9324)",
+     "Gregory: only 'a Germaniarum episcopis' (turchi1907 l.9309-9311)"
+    ]
+   },
+   {
+    "claim": "Whether the answers to Augustine's questions are genuine and whole",
+    "sides": [
+     "MGH editors: often disputed, but genuine (ewald-hartmann1895 l.12643, 12703-12705)",
+     "Mommsen, reported by the editors: only extracts survive (l.12705-12706)",
+     "Barmby: Bede's copy the most authentic; later copies add an interpolated question (npnf213 l.7292-7310, 7554-7557)"
+    ]
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "The year of his death",
+    "note": "No held ancient source gives it. The epitaph gives 26 May; Bede tells the death after the ordinations he dates to 604. Searched Bede (Giles and Plummer), the two Register volumes, Turchi and Barmby."
+   },
+   {
+    "detail": "Letters or writings of his own",
+    "note": "None held beyond his questions, which survive inside Gregory's answers as Bede and the Register give them."
+   }
+  ]
+ },
+ "baudonivia": {
+  "claims": [
+   {
+    "claim": "'Dum* sub muro cum psallentio'' sanctum eius corpus portaretur, quia insti- tuerat, ut nulla vivens foras*^ monasterio*^ ianuara egrederetur +, tota congregatio supra murum lamentans, ita ut planctus eorum*^ superaret ipsum psallcntium, pro psalmo lacri- mas'\", pro cantico mugitum et gemitura pro alleluia reddebant' (OCR as in the file: 'ianuara' = ianuam, 'psallcntium', 'gemitura' = gemitum; apparatus marks kept); the brief tells it in plain modern words",
+    "witness": "Baudonivia, Life of Radegund II.24 (fredegar ... mgh-srm-2 krusch1888 l.30581-30585)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "'Transcuntibus autem nobis'- sub muro, iterum catcrva virginum per fencstras* turrium et ipsa'* quoque muri propugnacula voces proferre ac laraentarc desuper coepit' (OCR as in the file); a second witness to the scene, kept off the brief for length",
+    "witness": "Gregory of Tours, Glory of the Confessors 104 (gregory-tours arndt-krusch1885 l.61660-61662)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Salutation: 'DOMXNABUS\" SANCTIS MERITORUM GRATIA DECORATIS DEDI- MIAE-' ABBATISSAE VEL OMNI CONGREGATIONI GLORIOSP DOmNAE^ RADEGUNDIS BAUDONIVIA HUMILIS OMNIUM.' (OCR as in the file)",
+    "witness": "Baudonivia, prologue (fredegar ... mgh-srm-2 krusch1888 l.29433-29437)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Krusch: 'Baudonivia Pictaviensis monialis' who added the second book of Radegund's Life at the order of the abbess Dedimia and the whole community",
+    "witness": "Krusch, Proemium (venantius-fortunatus leo-krusch1881 l.41897-41899); Latin normalized from rough OCR (letters and apparatus marks), wording unchanged",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Dalton: 'Baudonivia, also a contemporary, and a nun of the queen's monastery of the Holy Cross'; 'Baudonivia the nun, who was in the monastery during Radegund's life'",
+    "witness": "Dalton's notes (gregory-tours dalton1927 l.24356-24358, 29583-29584)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Krusch: 'Dedimiae abbatissae nisi a Baudonivia mentio nulla fit'",
+    "witness": "Krusch's note 1 to the prologue (fredegar ... mgh-srm-2 krusch1888 l.29481); Latin normalized from rough OCR (letters and apparatus marks), wording unchanged",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Krusch: 'Haec Radegundis Vita post annum 600. a Baudonivia composita est', because Leifastus, bishop of Autun, whom she praises, could not have held the see before 600, his predecessor Siagrius still receiving a letter from Pope Gregory in July 599; also 'Neque vero multo post a. 600' from Mammezo and the priest Reovalis, whom she says are still living",
+    "witness": "Krusch, introduction (fredegar ... mgh-srm-2 krusch1888 l.28186-28200); Latin normalized from rough OCR (letters and apparatus marks), wording unchanged",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Dalton: Baudonivia's Life 'was written in the early years of the seventh century'",
+    "witness": "Dalton's note (gregory-tours dalton1927 l.24358-24359)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "'Non ea quae vir apostolicus Fortunatus episcopus de beatae vita conposuit iteramus, sed ea quae prolixitate praetermisit'",
+    "witness": "Baudonivia, prologue (fredegar ... mgh-srm-2 krusch1888 l.29493-29495); Latin normalized from rough OCR (letters and apparatus marks), wording unchanged",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Krusch: Fortunatus's Life 'ne sanctimonialibus quidem Pictavicis suffecit, quae translationem ligni sanctae crucis mortemque Radegundis praetermissas aegre tulisse videntur'",
+    "witness": "Krusch, introduction (fredegar ... mgh-srm-2 krusch1888 l.28176-28180); Latin normalized from rough OCR (letters and apparatus marks), wording unchanged",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "'Cum sim ego minima omnium minimarum'; 'quae sum minus docta, plus devota'; 'non polito, sed rustico ... sermone'",
+    "witness": "Baudonivia, prologue (fredegar ... mgh-srm-2 krusch1888 l.29449, 29493, 29498-29499); Latin normalized from rough OCR (letters and apparatus marks), wording unchanged",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Krusch: 'Prologi maximam partem Baudonivia ex iis exscripsit, quos Fortunatus Vitis Hilarii et Marcelli praemisit' (OCR 'purtem Itaudonivia ex m exscripmi'); he sets her prologue beside the Marcellus prologue and says she 'adiecit locum e prologo Vitae Hilarii petitum'",
+    "witness": "Krusch's note 2 (fredegar ... mgh-srm-2 krusch1888 l.29483-29484); Krusch, Proemium (venantius-fortunatus leo-krusch1881 l.42129-42157)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Her prologue: 'quam ab ipsis cunabulis ante sua vestigia peculiarem vernulam familiariter enutrivit' (OCR 'vp,'stigia'); the same words in Fortunatus's prologue to the Life of Hilary, of Hilary and the abbot Pascentius: 'qui te ab ipsis cunabulis ante sua vestigia quasi peculiarem vernulam familiaiiter [OCR] enutrivit'. A borrowed formula; it does not prove she was Radegund's foster-child",
+    "witness": "fredegar ... mgh-srm-2 krusch1888 l.29449-29450; venantius-fortunatus leo-krusch1881 l.43008-43009",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Marcellus is 'Parisiacae urbis episcopus' (Gregory, quoted by Krusch); Hilary is Hilary of Poitiers, the confessor of Fortunatus's Life",
+    "witness": "venantius-fortunatus leo-krusch1881 l.42126-42127, 43006-43008",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "'Quod fecit illa in orientali patria, hoc fecit beata Radegundis in Gallia', after Helena 'lignum salutare ... perquisivit'",
+    "witness": "Baudonivia II.16 (fredegar ... mgh-srm-2 krusch1888 l.30239-30245); Latin normalized from rough OCR (letters and apparatus marks), wording unchanged",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Radegund wrote to King Sigibert for leave to ask the cross 'ab imperatore'; 'transmisit imperator legatarios cum euangeliis ex auro et gemmis ornatis'; the cross 'ex auro et gemmis ornatum'",
+    "witness": "Baudonivia II.16 (fredegar ... mgh-srm-2 krusch1888 l.30246-30256); Latin normalized from rough OCR (letters and apparatus marks), wording unchanged",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "At Poitiers 'inimicus humani generis per satellites suos egit, ut pretium mundi repellerent nec in civitatem recipere vellent' (OCR); she does not name the bishop, saying 'pontifex loci'",
+    "witness": "Baudonivia II.16 (fredegar ... mgh-srm-2 krusch1888 l.30257-30259)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The king sent 'per ... virum inlustrem Iustinum comitem' to 'virum apostolicum domnum Eufronium Turonicae civitatis episcopum' to place the cross in the monastery, 'quod et factum est'",
+    "witness": "Baudonivia II.16 (fredegar ... mgh-srm-2 krusch1888 l.30308-30312); Latin normalized from rough OCR (letters and apparatus marks), wording unchanged",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Krusch's notes: 'Iustino scil.' and 'Maroveus lignum noluit excipere; cf. historiam translationis S. Crucis apud Greg., H. Fr. IX, 40'",
+    "witness": "Krusch's notes 2 and 3 to II.16 (fredegar ... mgh-srm-2 krusch1888 l.30295-30297); Latin normalized from rough OCR (letters and apparatus marks), wording unchanged",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Dalton: the relic came 'from the Emperor Justin and his consort Sophia', 'set in a gold triptych'; Baudonivia 'says that its direct arrival in Poitiers was prevented by the devil'",
+    "witness": "Dalton's note (gregory-tours dalton1927 l.29578-29586); 'Sophia' and the triptych are not in her text (searched fredegar ... mgh-srm-2 krusch1888 l.29640-30700)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Gregory: when Maroveus had the see, the bishop 'disregarded her proposal, mounting his horse, and going off to a country estate'; King Sigibert enjoined Eufronius of Tours",
+    "witness": "Gregory, HF IX.40, tr. Dalton (gregory-tours dalton1927 l.19600-19620)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "'Quarta feria mane primo Idus Agustas, quod fecit idem mensis dies 13, clausi sunt eius oculi, et obscurati sunt nostri'; 'Wednesday' is the narrator's rendering of 'quarta feria'",
+    "witness": "Baudonivia II.21 (fredegar ... mgh-srm-2 krusch1888 l.30521-30522); Latin normalized from rough OCR (letters and apparatus marks), wording unchanged",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The community speaks as 'we' at the death: 'Vae nobis, quia peccavimus ... flemus et plangimus'",
+    "witness": "Baudonivia II.22 (fredegar ... mgh-srm-2 krusch1888 l.30523-30525); Latin normalized from rough OCR (letters and apparatus marks), wording unchanged",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Gregory: 'She died on the thirteenth day of the sixth month, and was buried three days afterwards'; 'I myself was present at her burying'",
+    "witness": "Gregory, HF IX.2, tr. Dalton (gregory-tours dalton1927 l.17573-17577)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Krusch: 'Gregorius et Baudonivia inter se consentiunt, die 13. Augusti a. 587. eam obiisse'; the year is his, from Gregory's 'twelfth year of Childebert'",
+    "witness": "Krusch (fredegar ... mgh-srm-2 krusch1888 l.28170-28171; gregory-tours arndt-krusch1885 l.61607); Latin normalized from rough OCR (letters and apparatus marks), wording unchanged",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "'non erat ibi pontifex loci'; a messenger went to 'virum apostolicum domnum Gregorium Turonicae civitatis episcopum, et advenit'",
+    "witness": "Baudonivia II.23 (fredegar ... mgh-srm-2 krusch1888 l.30536-30538); Latin normalized from rough OCR (letters and apparatus marks), wording unchanged",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Hildebert of Le Mans: 'Fortunatum sequi disposui ... Quaedam tamen miracula, quorum Fortunatus quidem nullum attigit, sanctimonialis vero memoriae reperitur commendasse, superaddere disposui'",
+    "witness": "Quoted by Krusch (fredegar ... mgh-srm-2 krusch1888 l.28227-28231); Krusch's 'post annum 1197' may be OCR and is not used; Latin normalized from rough OCR (letters and apparatus marks), wording unchanged",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Krusch: 'Stilo mulier admodum rudi utitur ... quascumque legerat vitas sanctorum spoliavit ... Vitam S. Caesarii Arelatensis c. 8. 9. 19. 20. exscripsit. Tamen veniam Baudoniviae probae dabis, imbecillitatem suam confitenti'",
+    "witness": "Krusch, introduction (fredegar ... mgh-srm-2 krusch1888 l.28219-28224); Latin normalized from rough OCR (letters and apparatus marks), wording unchanged",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Radegund's vision of a young man a year before her death is copied from the Life of Caesarius: 'Quae sequuntur Baudonivia ex libro II. Vitae S. Caesarii ... ad verbum exscripsit' (OCR)",
+    "witness": "Krusch's note 1 to II.20 (fredegar ... mgh-srm-2 krusch1888 l.30493-30494)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "The vision of the tribune Domolenus on the day of Radegund's death is in Fortunatus's Life ('triliuuus fisci cogno- mento Domolenus' [OCR: tribunus]); Dalton wrongly credits it to Baudonivia",
+    "witness": "venantius-fortunatus leo-krusch1881 l.46387-46388; Dalton's note (gregory-tours dalton1927 l.28164-28168); no Domolen- or tribun- in fredegar ... mgh-srm-2 krusch1888 l.29640-30700",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "One manuscript heads the book 'DE VITA BEATAE RADEGUNDIS COMPOSITA AB UNA EX SANCTIS MONIALIBUS IUGITER CUM EA CONVERSANTIBUS', without the prologue",
+    "witness": "Krusch's apparatus (fredegar ... mgh-srm-2 krusch1888 l.29466-29467); Latin normalized from rough OCR (letters and apparatus marks), wording unchanged",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Name variants 'Al., Bandonivia, Bandomina'",
+    "witness": "PL 72 (john-biclaro-leander pl72 migne1878 l.50654)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "An unsigned note cites 'Baudonivia Fortunato aequalis' against those who struck Fortunatus from the list of the bishops of Poitiers",
+    "witness": "PL 72 note (john-biclaro-leander pl72 migne1878 l.50772-50776); Latin normalized from rough OCR (letters and apparatus marks), wording unchanged",
+    "formation_confidence": "Documented"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "Who would not receive the relic of the Cross at Poitiers",
+    "sides": [
+     "Baudonivia: the enemy of mankind worked through his agents; she names no one and calls the bishop only 'pontifex loci' (fredegar ... mgh-srm-2 krusch1888 l.30257-30259)",
+     "Gregory: Bishop Maroveus disregarded the request and rode off to a country estate (gregory-tours dalton1927 l.19600-19610); Krusch's note names Maroveus (fredegar ... mgh-srm-2 krusch1888 l.30297); Dalton says she has the devil seduce Maroveus and the people (gregory-tours dalton1927 l.29584-29586)"
+    ]
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "Her own life",
+    "note": "Searched every held file that names her (Krusch's SRM 2 and Proemium, Dalton, Arndt-Krusch, PL 72, Luchi in PL 88) for her family, age, origin, entry to the house and death. None. The profile rests on her book."
+   },
+   {
+    "detail": "Any year of her life",
+    "note": "None held. 'Soon after 600' for her book is Krusch's reasoning; Dalton's 'early years of the seventh century' agrees."
+   },
+   {
+    "detail": "Her naming the emperor, Sophia, the triptych or Maroveus",
+    "note": "Searched her text (fredegar ... mgh-srm-2 krusch1888 l.29640-30700) for Iustin-, Sophia, Maroveus; she names only 'Iustinum comitem', the king's envoy. The other names are Krusch's and Dalton's."
+   },
+   {
+    "detail": "An English translation of her book",
+    "note": "None held; every telling of her words in the brief and card is the narrator's plain modern telling of Krusch's Latin."
+   },
+   {
+    "detail": "Proof that Radegund raised her",
+    "note": "The only line is the borrowed formula from Fortunatus's Hilary prologue; no other held line says it."
+   }
+  ]
+ }
+}
