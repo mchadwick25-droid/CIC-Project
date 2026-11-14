@@ -1,0 +1,73 @@
+{
+  "name": "Paul the Deacon",
+  "otherNames": [
+    "Paul Warnefrid, in O. M. Dalton's notes to Gregory of Tours",
+    "Paulus Diaconus"
+  ],
+  "knownFor": "Lombard monk and historian of the eighth century. A monk of Monte Cassino, he spent some years at Charlemagne's court, and wrote the History of the Langobards, the story of his own people, their kings and their church.",
+  "dates": "Eighth century. W. D. Foulke says he was born between 720 and 730, and that the precise date is unknown. He was a monk before 782, at Charlemagne's court in the 780s, and back in Benevento in the summer of 787, by Foulke. He died on 13 April, in a year that is unknown; Foulke cites Thomas Hodgkin for probably between 790 and 800",
+  "place": "Friuli, where he was born, probably at Cividale, by Foulke; Benevento, at the court of Duke Arichis and Adelperga; Monte Cassino, his monastery; the court of Charlemagne in France, with Metz",
+  "tradition": "Carolingian Reform Christianity",
+  "role": "Monk and deacon; historian of the Lombards",
+  "briefLength": "about 2 minutes 15 seconds",
+  "keyWorks": [
+    {
+      "title": "History of the Langobards",
+      "about": "six books, from the Lombards' beginnings to the death of King Liutprand, written at Monte Cassino and left unfinished at his death. Held in W. D. Foulke's English of 1907"
+    },
+    {
+      "title": "Roman History",
+      "about": "a history in sixteen books, written for Adelperga, wife of the duke of Benevento, enlarging Eutropius. Foulke says it was a textbook for nearly a thousand years. Not held"
+    },
+    {
+      "title": "Homiliary",
+      "about": "a book of the church fathers' homilies for the church year, gathered by Charlemagne's order, Foulke says, possibly begun at court and finished at Monte Cassino. Not held"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Foulke says the homiliary has been in use for a thousand years in the whole Catholic church.",
+      "He also wrote a history of the bishops of Metz, at the request of Bishop Angilram, and he names it in the History."
+    ],
+    "remembered": [
+      "His pupil Hilderic's epitaph, as Foulke reports it, credits him with every good quality at one and the same time.",
+      "A poem at Charlemagne's court, Foulke says, calls him a Homer in Greek, a Virgil in verse and a Philo in Hebrew.",
+      "Foulke writes that no reproach has anywhere been made against him, and also that he was properly a compiler."
+    ]
+  },
+  "uncertain": [
+    "His birth year. Ludwig Bethmann gives 730, earlier commentators 720, Georg Waitz, who completed Bethmann's edition of the History, 720 to 725, and Thomas Hodgkin about 725, by Foulke's note. Foulke says the precise date is unknown.",
+    "When and why he became a monk. Felix Dahn thinks it was a refuge after the Lombard kingdom fell in 774; Tamassia reads Paul's word exile as his stay at Charlemagne's court. Foulke says only that it was before 782.",
+    "Why he went to Charlemagne. The pages of Foulke's introduction that tell of his brother Arichis and the journey to France are missing from the held file. Paul's letter from the Moselle speaks of his prisoners, which Foulke thinks probably means his brother, though the meaning is not clear.",
+    "His year of death. Foulke gives the day, 13 April, and says the year is unknown.",
+    "Two of his claims. Foulke thinks Paul is probably mistaken that King Agilulf took the Catholic faith, and calls doubtful his report of a Catholic and an Arian bishop in almost every city under Rothari.",
+    "His family. Paul calls Leupchis his great-great-grandfather and Lopichis his great-grandfather. Foulke and Hodgkin think he left out some generations."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "History of the Langobards (tr. William Dudley Foulke)",
+        "author": "Paul the Deacon",
+        "date": "1907",
+        "language": "English translation",
+        "file": "cic/texts/paul-the-deacon_history-of-the-langobards_foulke1907.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "History of the Langobards: introduction, Life and Writings of Paul the Deacon, and notes",
+        "author": "William Dudley Foulke",
+        "date": "1907",
+        "language": "English",
+        "file": "cic/texts/paul-the-deacon_history-of-the-langobards_foulke1907.txt"
+      },
+      {
+        "title": "History of the Franks, volume 2, notes (tr. O. M. Dalton)",
+        "author": "Gregory of Tours; O. M. Dalton",
+        "date": "1927",
+        "language": "English translation",
+        "file": "cic/texts/gregory-tours_history-of-the-franks-v2_dalton1927.txt"
+      }
+    ]
+  }
+}
