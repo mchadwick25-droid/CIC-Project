@@ -4,7 +4,7 @@
     "Lady Julian",
     "Mother Juliana"
   ],
-  "knownFor": "A recluse at Norwich who wrote down the showings she received in May 1373, in a sickness she thought would kill her. Her book survives in a shorter and a longer version. The longer one holds the words \"all shall be well\".",
+  "knownFor": "A recluse at Norwich who wrote down the showings she received in May 1373, in a sickness she thought would kill her. Her book survives in a shorter and a longer version. Both hold the words \"all shall be well\". She wrote it for her fellow Christians, \"for I would God were known\", while refusing to be called a teacher.",
   "dates": "Her book dates the showings to 13 May 1373, when she was \"thirty years old and a half\". Grace Warrack, who edited the long version in 1901, reckons her birth about the end of 1342. A copyist calls her still alive in 1413, as Dundas Harford, who first printed the short version, reads him. Francis Blomefield, an eighteenth-century historian of Norfolk, read 1442.",
   "place": "Norwich, where the copyist calls her a recluse. Harford places her cell at the church of St Julian, Norwich. Blomefield, quoted by Warrack, places an anchorage in the east part of its churchyard, in the parish of Conisford.",
   "tradition": "The English Mystics and Devout",
@@ -13,7 +13,7 @@
   "keyWorks": [
     {
       "title": "Revelations of Divine Love (the long version)",
-      "about": "the showings and her later thought on them. She writes of an answer that came \"fifteen years after, and more\". She also writes of teaching \"twenty years after the time of the Shewing, save three months\". Read here in Grace Warrack's modern spelling of the Sloane manuscript"
+      "about": "the showings and her later thought on them. She writes of an answer that came \"fifteen years after, and more\". She also writes that she was taught inwardly \"twenty years after the time of the Shewing, save three months\". Grace Warrack printed it in modern spelling from the Sloane manuscript in 1901"
     },
     {
       "title": "The short version (Comfortable Words for Christ's Lovers)",
@@ -29,18 +29,18 @@
       "Henry Collins published a modernized version from the Sloane manuscript in 1877, Warrack notes."
     ],
     "remembered": [
-      "Pierre Poiret, a writer on mystical theology, listed her book in his catalogue of mystical writers in 1702. Warrack says he marked her with his sign of greatness, and calls her taught by God, profound and ecstatic.",
+      "Pierre Poiret, a writer on mystical theology, listed her book in his catalogue of mystical writers in 1702. Warrack says he marked her name with his sign of greatness. In modern words, his Latin entry reads taught by God, profound, ecstatic.",
       "Cressy's title of 1670 calls her \"Mother Juliana\", an anchoress of Norwich. Warrack thinks Cressy probably began that name, and says the old name was Julian.",
       "Blomefield, quoted by Warrack, says the anchoress Lady Julian was a strict recluse in 1393, with two servants. She was \"esteemed one of the greatest holiness\", he writes.",
-      "Evelyn Underhill, who edited Walter Hilton's Scale of Perfection in 1923, calls her book \"perhaps the finest flower of English religious literature\".",
+      "Evelyn Underhill, introducing Frances Comper's edition of Rolle's Fire of Love in 1914, calls her book \"perhaps the finest flower of English religious literature\".",
       "Harford, the first editor of the short version, writes that she \"deserves to rank high amongst the great mystics of the world\"."
     ]
   },
   "uncertain": [
     "Her name and last trace. Her book never names her. A copyist's heading on the short version calls her Julian, a recluse at Norwich, still alive. Dundas Harford reads its year as 1413. Francis Blomefield read 1442, and Grace Warrack followed him in 1901. Harford calls this a curious mistake that misled all later writers.",
-    "Julian Lampet. Dame Julian Lampet was a different woman, an anchoress at Carrow, the Benedictine nunnery by Norwich. Wills listed by Walter Rye in 1889, whom Warrack cites, name her from 1427 to 1478. A Bury will of 1463 leaves her twenty pence. J. B. Dalgairns, a priest of the Oratory, took the two for one woman who lived to a hundred. Warrack calls that surely an impossibility.",
+    "Whether she was Julian Lampet. Dame Julian Lampet was an anchoress at Carrow, the Benedictine nunnery by Norwich. Wills listed by Walter Rye in 1889, whom Warrack cites, name her from 1427 to 1478. A Bury will of 1463 leaves her twenty pence. J. B. Dalgairns, a priest of the Oratory, writing in 1870, thought it most probable that the two were one woman, who lived to a hundred. Warrack calls that surely an impossibility.",
     "When she was born. Her book gives her age, thirty and a half, in May 1373. Warrack reckons the end of 1342 and Harford about 1342. Evelyn Underhill gives 1343.",
-    "When she died. J. B. Dalgairns says she appears to have died in 1443, on his view that she was Julian Lampet. Underhill, in her edition of Hilton's Scale of 1923, gives her years as 1343 to about 1413.",
+    "When she died. J. B. Dalgairns says she appears to have died in 1443, and so lived to be a hundred. He gives no ground for the year. Underhill, in her edition of Hilton's Scale of 1923, gives her years as 1343 to about 1413.",
     "How learned she was. In Warrack's text she calls herself \"a simple creature unlettered\". The Sloane manuscript says she knew no letter, which Warrack glosses as unskilled in letters. The Sloane copy's title calls her one \"who could not read a Letter\". In the short version she calls herself \"a woman unlearned\".",
     "Her schooling and vows. Warrack writes that she would probably be sent to the Benedictine nuns of Carrow for her schooling. She thinks it \"most likely\" that Julian was made a nun there. Harford says no outside evidence for her life can be relied on.",
     "Which version came first. Harford holds that the long version was expanded from the short one, over twenty years of thought. He notes that others had suggested the short one was cut down from the long."
@@ -90,6 +90,13 @@
         "date": "1914",
         "language": "English",
         "file": "cic/texts/rolle_fire-of-love-and-mending-of-life_comper1914.txt"
+      },
+      {
+        "title": "The Scale of Perfection, introduction",
+        "author": "Evelyn Underhill",
+        "date": "1923",
+        "language": "English",
+        "file": "cic/texts/hilton_scale-of-perfection_underhill1923.txt"
       }
     ]
   }

@@ -385,7 +385,7 @@
         "formation_confidence": "Documented"
       },
       {
-        "claim": "The dream of 1424 in the Chronicle (dreamer unnamed): 'In the year of the Lord 1424, on the Saturday following the Feast of St. Andrew, being the second of December, the venerable Father John Huesden, who was the second Prior of Windesem, died'; 'Now it came to pass a few days before his death, and within the Octave of St. Martin the Bishop, that two Brothers came from Mount St. Agnes to Windesem to commune with the Prior. And one of them had a dream after this wise, which vision did foretell the Prior's death'. The Chronicle spells him 'John Vos of Huesden' (heading) and 'Huesden'; the brief uses 'Heusden', Busch's and the scan's form ('lohannes Huesden' in Busch's OCR at 4803; 'Vos de Huesden').",
+        "claim": "The dream of 1424 in the Chronicle (dreamer unnamed): 'In the year of the Lord 1424, on the Saturday following the Feast of St. Andrew, being the second of December, the venerable Father John Huesden, who was the second Prior of Windesem, died'; 'Now it came to pass a few days before his death, and within the Octave of St. Martin the Bishop, that two Brothers came from Mount St. Agnes to Windesem to commune with the Prior. And one of them had a dream after this wise, which vision did foretell the Prior's death'. The Chronicle spells him 'John Vos of Huesden' (heading) and 'Huesden'; the brief and the Grote card use 'Heusden', the modern form of the town; the Chronicle and Busch both print 'Huesden' (CHRON l.1702, 1707; BUSCH l.2662, 4803).",
         "witness": "CHRON l.1702-1731",
         "formation_confidence": "Documented"
       },
@@ -445,8 +445,8 @@
         "formation_confidence": "Contested"
       },
       {
-        "claim": "Birth year: Benham, 'Thomas Hemercker was born at Kempen, near Koln, about the year 1380'; Scully, 'he was born the same year, 1380'; Duthoit, 'He was born in 1380'. Ingram reports a 17th-century hand in the Dublin manuscript: 'Tho. e Kempis natus 1380 obyt 25 Julij 1471. aiio set : 92 :' (OCR).",
-        "witness": "BENHAM l.492-493; LYD (kempis_st-lydwine-of-schiedam_scully1912.txt) l.251; DUTHOIT (kempis_prayers-and-meditations-on-the-life-of-christ_duthoit1904.txt) l.578-579; INGRAM l.259-261",
+        "claim": "Birth year: Benham, 'Thomas Hemercker was born at Kempen, near Koln, about the year 1380'; Scully, 'he was born the same year, 1380'; Duthoit, 'He was born in 1380'. Ingram reports a 17th-century hand in the Dublin manuscript: 'Tho. e Kempis natus 1380 obyt 25 Julij 1471. aiio set : 92 :' (OCR). His own Chronicle, 1448: 'He was one of the elders, being sixty-seven years of age'.",
+        "witness": "BENHAM l.492-493; LYD (kempis_st-lydwine-of-schiedam_scully1912.txt) l.251; DUTHOIT (kempis_prayers-and-meditations-on-the-life-of-christ_duthoit1904.txt) l.578-579; INGRAM l.259-261; CHRON l.2378-2380",
         "formation_confidence": "Contested"
       },
       {
@@ -470,8 +470,8 @@
         "formation_confidence": "Contested"
       },
       {
-        "claim": "Pohl: 'Puyol non Thomam Kempensem, sed suum Ioannem Gersen, quem ne fuisse quidem umquam persuasum habemus, praestantissimos De imitatione Christi libros scripsisse opinatus' (OCR 'Kem- pensem', 'loannem'). Pohl's editorship: Duthoit's title, 'translated from the text of the edition of Michael Joseph Pohl'; the file names him Josef Pohl.",
-        "witness": "POHL (kempis_opera-omnia-tractatus-lat_pohl1902.txt) l.18009-18015; DUTHOIT l.1",
+        "claim": "Pohl: 'Puyol non Thomam Kempensem, sed suum Ioannem Gersen, quem ne fuisse quidem umquam persuasum habemus, praestantissimos De imitatione Christi libros scripsisse opinatus' (OCR 'Kem- pensem', 'loannem'). Pohl's editorship: Duthoit's title, 'translated from the text of the edition of Michael Joseph Pohl'; the title page names him Michael Joseph Pohl.",
+        "witness": "POHL (kempis_opera-omnia-tractatus-lat_pohl1902.txt) l.18009-18015; POHL l.110; DUTHOIT l.47",
         "formation_confidence": "Contested"
       },
       {
@@ -598,6 +598,14 @@
       {
         "detail": "The day of the month of the 1424 visit and of John of Kempen's death year",
         "note": "The Chronicle dates the visit 'within the Octave of St. Martin' and Vos's death 2 December 1424 (CHRON l.1707-1709, 1727-1728). John's death year depends on the printed '1422 (1432)' (CHRON l.1981); neither the brief nor the card gives a year for it."
+      },
+      {
+        "detail": "Census: 'Florentius sent him'",
+        "note": "Census longDescription: 'When Thomas was twenty, Florentius sent him'. His own Chronicle has him come for the indulgences and ask to stay (CHRON l.1103-1106); the death notice says Florentius sent him (CHRON l.3419-3421). Told as contested."
+      },
+      {
+        "detail": "Census: 'stayed in that small house until he died' / 'all his life'",
+        "note": "The Chronicle has him in exile at Lunenkerc from 1429 for about three years (CHRON l.1885-1924) and with his brother at Bethany for 'a year and two months' (CHRON l.2023-2026)."
       }
     ]
   },
@@ -680,11 +688,11 @@
       },
       {
         "claim": "Margaret of Anderby, Office Lection VIII: 'this holy man ... had betaken himself to dwell in Richmondshire, it befell that the Lady Margaret, who had once been a recluse at Anderby in the diocese of York'; 'he was wont to instruct her in the art of loving God'; 'as long as I shall remain in this mortal life thou shalt never again suffer the torment of this illness'; 'when the courses of several years had passed, the same illness ... returned to her. Therefore the recluse sent for the goodman aforesaid, and asked him to hasten quickly on horseback to the house of the nuns at Hampole ... where the said Richard at that time led a solitary life'; 'he learnt that the saint was dead to this world; and after diligently inquiring the hour of his passing, he found that the aforesaid illness had returned to the recluse shortly after the hour of Richard's departure'; 'afterwards the recluse betook herself to Hampole where the holy body of the said hermit was given burial'. Told as the Office's account.",
-        "witness": "COMPER l.2038-2045, 2088-2111",
+        "witness": "COMPER l.2038-2052, 2088-2108",
         "formation_confidence": "Documented"
       },
       {
-        "claim": "Recluse gloss: Horstman calls the Form of Living's addressee 'Margareta anachorita'; Forshall-Madden 'dame Margaret Kirkby, a recluse'. The gloss 'a woman who lived shut in a cell' is the narrator's plain definition of recluse.",
+        "claim": "Recluse gloss: Horstman calls the Form of Living's addressee 'Margareta anachorita'; Forshall-Madden 'dame Margaret Kirkby, a recluse'. The gloss 'A recluse lived shut away in a cell' is the narrator's plain definition of recluse.",
         "witness": "HORST l.1995; FORSHALL-M l.629-630",
         "formation_confidence": "Widely Accepted"
       },
@@ -699,9 +707,14 @@
         "formation_confidence": "Documented"
       },
       {
-        "claim": "Day of death: Horstman 'He died on the 29th of September 1349'; 'He died, after several years' residence at Hampole, on the 29th of September 1349, probably of the pestilence'. The day and the cause are Horstman's.",
+        "claim": "Death in 1349: Horstman 'He died on the 29th of September 1349'.",
         "witness": "HORST l.134, 2160-2161",
         "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Day and cause of death, Horstman alone: 'He died, after several years' residence at Hampole, on the 29th of September 1349, probably of the pestilence'. No other line gives the day.",
+        "witness": "HORST l.2160-2161",
+        "formation_confidence": "Inferential-Thin"
       },
       {
         "claim": "Burial at Hampole: Horstman 'He was buried at Hampole, and by the nuns regarded as a saint and their patron'; the Office 'Hampole where the holy body of the said hermit was given burial'.",
@@ -1015,6 +1028,16 @@
         "claim": "Harford's edition is of 'the recently discovered manuscript (Brit. Mus. Addit. 37790)', per the file title; the in-text basis is l.198-202 (bought 1909 at Lord Amherst's sale).",
         "witness": "HARFORD (julian-of-norwich_comfortable-words-for-christs-lovers_harford1911.txt) l.198-202",
         "formation_confidence": "Documented"
+      },
+      {
+        "claim": "She teaches her readers by the book: Short Text, 'But God forbid that ye should say, or take it so, that I am a teacher ... For I am a woman unlearned, feeble and frail ... But truly charity stirs me to tell you it. For I would God were known, and my even-Christians sped'; 'But, because I am a woman, should I therefore leave [it alone], that I should not tell you the goodness of God, since I saw in the same time that it is His will that it be known?'; Long Text, 'I pray you all for God's sake, and counsel you for your own profit'. The footnote mark '13' after 'unlearned' is the edition's.",
+        "witness": "HARFORD (julian-of-norwich_comfortable-words-for-christs-lovers_harford1911.txt) l.1158-1168, 1177-1182; WARRACK (julian-of-norwich_revelations-of-divine-love_warrack1901.txt) l.2603-2608",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Her three gifts: 'Which creature [had] afore desired three gifts of God. The First was mind of His Passion; the Second was bodily sickness in youth, at thirty years of age; the Third was to have of God's gift three wounds.'",
+        "witness": "WARRACK l.2086-2090",
+        "formation_confidence": "Documented"
       }
     ],
     "contested_claims": [
@@ -1058,7 +1081,7 @@
     "absent_details": [
       {
         "detail": "Margery Kempe's visit to Julian",
-        "note": "Not in any held file. Searched all cic/texts, case-insensitive, for 'Margery Kempe', 'Margerie Kempe' and 'Book of Margery' (one file: GARDNER), and for 'jelyan', 'ielyan', 'dame julian', 'lady julian' (hits in WARRACK, HARFORD, COMPER and the Lanterne of Light are this Julian without Kempe; Koch and the Somerset accounts are other women). The one Kempe text held is the short printed extract in GARDNER (cell-of-self-knowledge_seven-early-english-mystical-treatises_gardner1910.txt), which does not mention Julian; Gardner says no traces of the Book could be found (l.544-547). Not told."
+        "note": "Not in any held file. Searched all cic/texts, case-insensitive, for 'Margery Kempe', 'Margerie Kempe' and 'Book of Margery' (one file: GARDNER), and for 'jelyan', 'ielyan', 'dame julian', 'lady julian' (hits in WARRACK, HARFORD, COMPER and the Lanterne of Light are this Julian without Kempe; Koch and the Somerset accounts are other women). The one Kempe text held is the short printed extract in GARDNER (cell-of-self-knowledge_seven-early-english-mystical-treatises_gardner1910.txt), which does not mention Julian; Gardner says no traces of the Book could be found (l.544-547). Not told. Gardner's introduction names her as 'Mother Juliana of Norwich' (l.255-256) and calls Kempe her 'precursor' (l.576-579); neither line tells a meeting. Searches added: 'juliana', 'juhana'."
       },
       {
         "detail": "Her family, birthplace and early life",
@@ -1779,9 +1802,14 @@
         "formation_confidence": "Widely Accepted"
       },
       {
-        "claim": "Common life, Busch alone among primary witnesses: Florentius Radewin, vicar of Deventer, said: 'Predilecte magister! Quid noceret, quod ego et clerici isti scriptores bone iam voluntatis ea, que septimanatim habemus expendere, in unum reponentes in communi pariter viveremus?' Gerard: 'Communia, communia? Isti de ordine mendicancium id nullatenus sustinebunt, sed totis suis viribus resistere et omnino se opponere temptabunt.' Florentius: 'Quid autem noceret, si tamen inciperemus?' Then Gerard 'parumper intra se deliberans ait: In nomine domini incipiatis! Ego ero defensor vester et protector fidelis adversus omnes'. The price of their labour was put 'in bursam communem'. (OCR cleaned: 'iani', 'habemuR', 'Comraunia', 'sustinebunty', 'toti«', 'tarnen', 'deiiberans', 'detensor', 'ad versus'.) Arthur's introduction tells the same with '(see Buschius Chr. of Windesheim)' (FOUNDERS 1173-1178), so it is not a second witness.",
+        "claim": "The Florens–Grote exchange that began the common life, Busch alone: Florentius asks 'Predilecte magister! Quid noceret, quod ego et clerici isti scriptores ... in commune poneremus et simul viveremus?' (what harm if I and these copyist clerks put our earnings in common and lived together); Grote fears the begging friars, then bids them begin. No other held line tells the exchange (FOUNDERS l.1173-1178 is Arthur citing Busch).",
         "witness": "BUSCH l.15349-15369; FOUNDERS l.1173-1178",
         "formation_confidence": "Inferential-Thin"
+      },
+      {
+        "claim": "Kempis's Life gives Grote's rule for the common life: 'he ordained that if any should wish to abide continually together, they should earn their own living by the labour of their hands, and, as far as might be, live in common under the discipline of the Church'; the Life of Florentius has the first brothers 'keep a Common table'.",
+        "witness": "FOUNDERS (kempis_founders-of-the-new-devotion_arthur1905.txt) l.3812-3822, 5984-5989",
+        "formation_confidence": "Documented"
       },
       {
         "claim": "Plague caught at Lambert Stuerman's pulse, Busch alone: 'contigit in omni circa regione maxime in Davantria gravem pestilencie regnare mortalitatem. Et quia medicine artis expers non erat, rogatus est obnixe, quendam suum fidelem amicum eadem infirmitate lecto decumbentem Lambertum Stuerman nomine ... visitare'; 'Eius ergo pulsum cum devotus Christi levita magister Gerardus tetigisset, persensit continuo pestilenticum illud venenum per nervos et venas digitorum suorum interius se hausisse' (OCR cleaned: 'nior- talitatem', 'suiuii', 'nervös'). Kempis: 'for he was smitten by the bolt that must fall upon all men'. Arthur names Stuerman's bequest only (FOUNDERS 1189-1191).",
@@ -1938,6 +1966,10 @@
       {
         "detail": "Papal approval of the Brotherhood in 1376",
         "note": "William Duthoit's note alone says Pope Gregory XI approved it in 1376 (kempis_prayers-and-meditations-on-the-life-of-christ_duthoit1904.txt l.593-595). Not told."
+      },
+      {
+        "detail": "Opzoomer's death year",
+        "note": "Opzoomer's note gives his death 'in r383' (OCR; 1383 as printed), against 1384 in Kempis (CHRON l.3783) and Busch (BUSCH l.15934-15935). Not told; the card cites Opzoomer for 1340 only (DIEP l.467-468)."
       }
     ]
   }
