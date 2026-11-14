@@ -334,12 +334,12 @@
       },
       {
         "claim": "Dorotheus had as master the abbot John, 'illustrem Barsanuphii discipulum et Prophetae titulo clarum'; the disciple who wrote the Life of Saint Dositheus says Dorotheus knew the two great old men when he withdrew to the coenobium of the abbot Seridus",
-        "witness": "Migne's Notitia on Dorotheus (l.121957-121961)",
+        "witness": "Gallandi's Notitia, reprinted in PG 88 on Dorotheus (l.121957-121961)",
         "formation_confidence": "Widely Accepted"
       },
       {
-        "claim": "Migne heads the notice 'ANNO DOMINI DXCVI'; the Bollandists, Fabricius and Cave place Dorotheus at the end of the sixth century; the year of his death is not known",
-        "witness": "Migne's Notitia (l.121945, 121961-121967)",
+        "claim": "Migne heads the notice 'ANNO DOMINI DXCVI'; the notice, Gallandi's (source line l.121947-121951), reports that the Bollandists, Fabricius and Cave place Dorotheus at the end of the sixth century and that the year of his death is not known",
+        "witness": "Gallandi's Notitia, reprinted in PG 88 (l.121945, 121961-121967)",
         "formation_confidence": "Dominant Modern Reconstruction"
       },
       {
@@ -374,13 +374,23 @@
       },
       {
         "claim": "Theodore the Studite numbers Barsanuphius and Dorotheus among the holy fathers whose lives and writings he receives",
-        "witness": "Migne's Notitia, quoting Theodore (l.121971-121978)",
+        "witness": "Gallandi's Notitia, reprinted in PG 88, quoting Theodore (l.121971-121978)",
         "formation_confidence": "Documented"
       },
       {
         "claim": "The Latin is Hilarion of Verona's version, revised by Fronto Ducaeus",
-        "witness": "Migne's Notitia (l.121990-121992, 122097)",
+        "witness": "Gallandi's Notitia, reprinted in PG 88 (l.121990-121992, 122097)",
         "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Barsanuphius, an Egyptian, lived 'in a certain seat of contemplation near the town of Gaza', believed still alive though unseen for fifty years and more; when Eustochius of Jerusalem tried to dig into the chamber, fire burst forth",
+        "witness": "Evagrius Scholasticus, Ecclesiastical History IV.33, tr. Walford (l.9256-9277); the fire told as a wonder",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Barsanuphius, Seridus and Dorotheus headed the monastery in turn 'au VIe siècle'; Dorotheus was born about 540",
+        "witness": "Nau (po08 l.11421-11424, 11524)",
+        "formation_confidence": "Dominant Modern Reconstruction"
       }
     ],
     "contested_claims": [
@@ -392,15 +402,15 @@
     "absent_details": [
       {
         "detail": "Their dates, origins and deaths",
-        "note": "No held source gives them. The scan's 'first half of the sixth century' rests on no held line; Migne's year 596 is for Dorotheus."
+        "note": "No held source gives their birth or death, or John's origin. Evagrius Scholasticus calls Barsanuphius an Egyptian and sets him in Justinian's reign (l.9256-9277); Nau puts the monastery's heads in the sixth century (po08 l.11423). The scan's 'first half of the sixth century' rests on no held line; Migne's year 596 is for Dorotheus."
       },
       {
         "detail": "The full correspondence",
-        "note": "Only Dorotheus's set of questions is held, in Latin. The census cites John Chryssavgis's English of about 850 letters, which is not held. The census line that Barsanuphius was an Egyptian walled into a cell around 520 was not found in any held file."
+        "note": "Only Dorotheus's set of questions is held, in Latin. The census cites John Chryssavgis's English of about 850 letters, which is not held. The census line that Barsanuphius was an Egyptian walled into a cell around 520: the Egyptian and the enclosed cell are in Evagrius Scholasticus (l.9256-9277); the year 520 is in no held line."
       },
       {
         "detail": "The name 'of Gaza'",
-        "note": "No held line calls them 'of Gaza'. The place rests on Nau's placing of Seridus's monastery near Thabatha and on Jerome's placing of Thabatha south of Gaza."
+        "note": "Evagrius Scholasticus places Barsanuphius 'near the town of Gaza' (l.9260-9261). For John, the place rests on the shared monastery: Nau places Seridus's monastery near Thabatha, and Jerome places Thabatha south of Gaza."
       }
     ]
   },
@@ -873,8 +883,8 @@
         "formation_confidence": "Documented"
       },
       {
-        "claim": "He later lived in a laura the Origenists had held, by leave of the solitary John, a bishop",
-        "witness": "Life of Euthymius, Latin (l.45535-45552); OCR rough, read in part",
+        "claim": "He later lived in a laura the Origenists had held, by leave of the solitary John, whom he calls a bishop ('solitarii Johannis, Episcopi inquam')",
+        "witness": "Life of Euthymius, Latin (l.45535-45552, 'hannis, Epifcopi inquam' at l.45547); OCR rough, read in part",
         "formation_confidence": "Inferential-Thin"
       },
       {
