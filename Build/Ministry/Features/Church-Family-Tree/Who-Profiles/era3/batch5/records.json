@@ -32,12 +32,17 @@
     "formation_confidence": "Documented"
    },
    {
-    "claim": "Chosroes took and burned Antioch before the Apamea display",
+    "claim": "The Persian king Chosroes took and burned Antioch before the Apamea display",
     "witness": "Evagrius IV.25-26, tr. Walford (evagrius-scholasticus walford1846 l.8722-8760, 8790-8791)",
     "formation_confidence": "Documented"
    },
    {
-    "claim": "'Two years after the capture of Antioch by the Persians, a pestilence broke out'; 'at the commencement of this calamity I was seized with what are termed buboes, while still a school-boy, and lost by its recurrence at different times several of my children, my wife, and many of my kin'; 'being now in the fifty-eighth year of my age ... I lost a daughter and her son'",
+    "claim": "Walford's page heading puts the Persian invasion and the capture of Antioch in 540",
+    "witness": "Walford running head (evagrius-scholasticus walford1846 l.8710)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "'Two years after the capture of Antioch by the Persians, a pestilence broke out'; 'at the commencement of this calamity I was seized with what are termed buboes, while still a school-boy, and lost by its recurrence at different times several of my children, my wife, and many of my kin'; 'not quite two years before my writing this, being now in the fifty-eighth year of my age ... I lost a daughter and her son'",
     "witness": "Evagrius IV.29, tr. Walford (evagrius-scholasticus walford1846 l.8999-9001, 9034-9047); Greek B-P l.16562-16580 (γαμετὴν, no 'first')",
     "formation_confidence": "Documented"
    },
@@ -53,7 +58,7 @@
    },
    {
     "claim": "A banker charged Gregory, bishop of Theopolis, 'that he had had criminal intercourse with his own sister, married to another man'; Gregory went to the imperial city 'accompanied by myself as his adviser, and is victorious after a prolonged struggle' before the patriarchs, senate and metropolitans; the accuser was scourged, paraded and exiled",
-    "witness": "Evagrius VI.7, tr. Walford (evagrius-scholasticus walford1846 l.11386-11437); Greek B-P l.20872-20876",
+    "witness": "Evagrius VI.7, tr. Walford (evagrius-scholasticus walford1846 l.11386-11437); Greek B-P l.20872-20876; Evagrius calls himself Gregory's adviser, not his friend",
     "formation_confidence": "Documented"
    },
    {
@@ -548,14 +553,29 @@
     "formation_confidence": "Contested"
    },
    {
+    "claim": "Annales Cambriae: 'cxviii. Annus. Columcille in Brittania exiit'",
+    "witness": "Annales Cambriae, ed. Williams ab Ithel (annales-cambriae williams-ab-ithel1860 l.2417); a tenth-century compilation of earlier entries (header l.2-3), counting by its own years",
+    "formation_confidence": "Documented"
+   },
+   {
     "claim": "Bede: 'In the year of our Lord 565 ... there came into Britain a famous priest and abbat ... whose name was Columba'; he came 'in the ninth year of the reign of Bridius'",
     "witness": "Bede, HE III.4 (bede giles1903 l.5805-5838); the bracket [A.D. 565.] above is the edition's",
     "formation_confidence": "Contested"
    },
    {
-    "claim": "Huyshe: the battle, 'according to tradition', led to his exile; 'Such are the legends and traditions which cluster about the exile of Columba. The Old Irish Life says nothing of them'",
-    "witness": "Huyshe (adomnan huyshe1905 l.542-543, 625-641)",
+    "claim": "Huyshe holds the battle the cause of his exile: 'It was the cause of Columba's exile'; 'The tradition is a constant one that the strife and bloodshed of Cuil Dremhne had something to do with Columba's leaving Ireland'. Of the penance tale: 'Such are the legends and traditions which cluster about the exile of Columba. The Old Irish Life says nothing of them'",
+    "witness": "Huyshe (adomnan huyshe1905 l.542-543, 625-641, 1571-1574, 3022-3026)",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Columba 'was excommunicated by a certain synod for some venial and quite excusable causes — not rightly, as afterwards in the end became clear'; 'This thing was done in Teilte [Teltown, Meath]'; Adomnán does not link it to the battle",
+    "witness": "Adomnán, Life III.3, tr. Huyshe (adomnan huyshe1905 l.9318-9357; '[Teltown, Meath]' is Huyshe's bracket)",
     "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Reeves, as Huyshe reports him: the synod was 'possibly in 561, after the battle of Cul Dreimhne, and Columba's action in bringing about that battle may have been the reason of his excommunication'",
+    "witness": "Huyshe's note reporting Reeves (adomnan huyshe1905 l.9362-9368); Reeves's edition is not held",
+    "formation_confidence": "Inferential-Thin"
    },
    {
     "claim": "King Brude did not open his gates; Columba traced the sign of the Cross, knocked, 'immediately the bolts are violently shot back'; the king came out 'to meet the blessed man with all reverence'",
@@ -628,8 +648,18 @@
     "formation_confidence": "Dominant Modern Reconstruction"
    },
    {
+    "claim": "Annales Cambriae: 'Lxxvii. Annus. Sanctus Columcille nascitur' and 'CLI. Annus. Columcille moritur'",
+    "witness": "Annales Cambriae, ed. Williams ab Ithel (annales-cambriae williams-ab-ithel1860 l.2399, 2516)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "John Williams ab Ithel's margin sets annus 77 at 521, annus 118 at 562 and annus 151 at 595",
+    "witness": "Editor's margin years (annales-cambriae williams-ab-ithel1860 l.2399, 2417, 2480; the margin column is displaced by OCR, and 595 agrees with the count 118 = 562)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
     "claim": "The Irish annals say Conall, son of Comgill, king of Dalriada in Britain, granted Iona; Bede says Brude",
-    "witness": "Huyshe (adomnan huyshe1905 l.849-857); no annals held",
+    "witness": "Huyshe (adomnan huyshe1905 l.849-857); the Irish annals he cites are not held",
     "formation_confidence": "Contested"
    },
    {
@@ -668,7 +698,8 @@
     "claim": "The year Columba came to Britain",
     "sides": [
      "Huyshe: 563, two years after the battle of Cooldrevny, which he dates to 561 (adomnan huyshe1905 l.536-543, 2272-2276), from Adomnán's 'second year after the battle'",
-     "Bede: 565, in the ninth year of Bridius (bede giles1903 l.5805-5838)"
+     "Bede: 565, in the ninth year of Bridius (bede giles1903 l.5805-5838)",
+     "Annales Cambriae: their year 118, set by their editor at 562 (williams-ab-ithel1860 l.2417)"
     ]
    },
    {
@@ -676,7 +707,16 @@
     "sides": [
      "Bede: died at seventy-seven, about thirty-two years after coming to Britain (l.5846-5849)",
      "Book of Lismore Life: forty-five years in Scotland, seventy-seven in all (l.17793-17794)",
-     "Old Irish Life quoted by Huyshe: forty-two when he went, thirty-four years in Alba (l.641-646); Huyshe's 521-597"
+     "Old Irish Life quoted by Huyshe: forty-two when he went, thirty-four years in Alba (l.641-646); Huyshe's 521-597",
+     "Annales Cambriae: birth in their year 77 and death in year 151, set by their editor at 521 and 595 (williams-ab-ithel1860 l.2399, 2516)"
+    ]
+   },
+   {
+    "claim": "Why he left Ireland",
+    "sides": [
+     "Huyshe: the battle of Cooldrevny 'was the cause of Columba's exile', a constant tradition; the penance tales are legends (adomnan huyshe1905 l.625-627, 1571-1574, 3022-3026)",
+     "Old Irish Life quoted by Huyshe: a pilgrimage he had determined on from the beginning of his life (l.630-643)",
+     "Adomnán: names the battle only to date the voyage (l.2219-2224); tells of a wrongful excommunication at Teltown without naming a cause (l.9318-9357); Reeves, as Huyshe reports him, thinks it possibly over the battle (l.9362-9368)"
     ]
    },
    {
@@ -702,7 +742,7 @@
    },
    {
     "detail": "His years",
-    "note": "No ancient held source gives his birth or death year. 521 and 597 are Huyshe's (and Reeves's, through Stokes); Bede gives the age, seventy-seven, and the arrival year 565."
+    "note": "No Irish annals are held; the Annales Cambriae give birth, voyage and death by their own count of years (williams-ab-ithel1860 l.2399, 2417, 2516), which their editor sets at 521, 562 and 595. 521 and 597 are Huyshe's (521 also Reeves's, through Stokes); Bede gives the age, seventy-seven, and the arrival year 565."
    },
    {
     "detail": "Annals",
@@ -1420,13 +1460,18 @@
     "formation_confidence": "Dominant Modern Reconstruction"
    },
    {
-    "claim": "In Babai's Life of George a monk says Henana is 'cet homme qui enseigne le fatalisme, prèche la fatalité', 'nie la résurrection des corps et [n'admet] le salut que pour les âmes'; Babai reports what 'leur maître Henana' said: 'Le sort et la fatalité sont cause de tout et tout est conduit par les étoiles', and calls him 'Henana l'hérétique, le chaldéen et l'origéniste'",
-    "witness": "Babai the Great, Life of George, extracts tr. Chabot (synodicon-orientale chabot1902 l.42093-42118); one hostile witness",
+    "claim": "In Babai's Life of George a monk says Henana is 'cet homme qui enseigne le fatalisme, prèche la fatalité', 'Il fait Dieu limité, passible, mortel, divisé en parties', 'nie la résurrection des corps et [n'admet] le salut que pour les âmes'; Babai reports what 'leur maître Henana' said: 'Le sort et la fatalité sont cause de tout et tout est conduit par les étoiles', and calls him 'Henana l'hérétique, le chaldéen et l'origéniste'; Babai sets out the 'doctrines impies qu'il partage avec les Sévériens, en professant qu'il y a dans le Christ une nature et une hypostase, et en introduisant la passibilité dans la divinité'",
+    "witness": "Babai the Great, Life of George, extracts tr. Chabot (synodicon-orientale chabot1902 l.42093-42118, 42142-42144); one hostile witness. Labourt counts three charges: 'il était chaldéen, origéniste et hérétique (au point de vue de l'Incarnation)' (labourt1904 l.15734-15736)",
     "formation_confidence": "Contested"
    },
    {
     "claim": "The Life of George is 'composée par saint Rabban Mar Babai, supérieur du couvent qui est sur le mont Izala'",
     "witness": "Chabot (synodicon-orientale chabot1902 l.42082-42083)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "George, born Mihramgouënasp, took the name George at baptism and made his profession in the convent of Dadisho on Mount Izla; Labourt names 'Georges le martyr' among the disciples of the Izla superiors",
+    "witness": "Chabot (synodicon-orientale chabot1902 l.42084-42088); Labourt (labourt1904 l.12224-12227)",
     "formation_confidence": "Documented"
    },
    {
@@ -1453,6 +1498,11 @@
     "claim": "Timothy I says the catholicos Sabrisho condemned 'Hanani Adiabeni scripta'",
     "witness": "Abdisho, Collection of canons IX.6, quoting Timothy I, ed. Mai (mai1838 l.18708-18716, 18864-18866); Assemani l.14926-14931",
     "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Labourt: 'Sabriso' se prononça cependant contre eux [the Henanians] dans le synode général qu'il tint au mois d'Yar ... (mai 596)'; Chabot: Henana's works 'furent condamnés à différentes reprises' by the patriarchs",
+    "witness": "Labourt (labourt1904 l.12231-12234); Chabot (synodicon-orientale chabot1902 l.26755-26761)",
+    "formation_confidence": "Dominant Modern Reconstruction"
    },
    {
     "claim": "Mari: 'Floruerunt Nisibi inter doctores Jesujabus et Abrahamus Haddadi filius, et Hannanus qui auditores numerabat octingentos'",
@@ -1490,6 +1540,11 @@
     "formation_confidence": "Documented"
    },
    {
+    "claim": "Scher: 'Il ne nous est parvenu de ces ouvrages que les traités sur les Rogations et le vendredi d'or'",
+    "witness": "Scher's note (barhadbeshabba cause po4 scher1908 l.21084-21086); the treatises are edited in Patrologia Orientalis 7, which is not held (advertised in po09 l.41505-41508)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
     "claim": "His death: Scher says he died under Sabrisho (596-604) and elsewhere that he was alive in 610; Babai writes of 'la seconde mort' of Henana, which Chabot reads as already dead",
     "witness": "Scher (barhadbeshabba cause po4 scher1908 l.21023-21024, 21734); Babai tr. Chabot (synodicon-orientale chabot1902 l.42221-42222, Chabot's note l.42237-42240)",
     "formation_confidence": "Contested"
@@ -1498,17 +1553,21 @@
   "contested_claims": [
    {
     "claim": "What Henana taught",
-    "sides": "Babai the Great alone, in the Life of George: fatalism, astrology ('Chaldean'), Origenism, denial of bodily resurrection (chabot1902 l.42093-42118, 42218-42222). Braun calls Babai passionate and corrects for his exaggerations and contradictions (braun1900 l.13690-13696); Labourt calls Babai his antagonist and cannot say whether the charge is slander, though not implausible (labourt1904 l.15713, 15747-15751). His pupil Barhadbeshabba says nothing of heresy and praises his interpretation (scher1908 l.21006-21050); Scher thinks the pupil probably hid the truth (l.21073)."
+    "sides": "Babai the Great alone, in the Life of George of Izla: fatalism, astrology ('Chaldean'), Origenism, denial of bodily resurrection, and one nature and one hypostasis in Christ with the Severians (chabot1902 l.42093-42118, 42142-42144, 42218-42222). Braun calls Babai passionate and corrects for his exaggerations and contradictions (braun1900 l.13690-13696); Labourt calls Babai his antagonist and cannot say whether the charge is slander, though not implausible (labourt1904 l.15713, 15747-15751). His pupil Barhadbeshabba says nothing of heresy and praises his interpretation (scher1908 l.21006-21050); Scher thinks the pupil probably hid the truth (l.21073)."
    },
    {
     "claim": "When Henana died",
     "sides": "Scher: under Sabrisho, 596-604 (scher1908 l.21023-21024); Scher: still alive in 610, from the Chronicle of Seert (l.21734); Scher on Seert: alive in 612 by that author, though Babai seems to say he was already dead (seert l.29901-29904); Babai as read by Chabot: already dead (chabot1902 l.42221-42222, 42237-42240)."
+   },
+   {
+    "claim": "Whether Sabrisho supported or condemned Henana",
+    "sides": "Chronicle of Seert: Sabrisho 'accueillit favorablement la lettre de Hnana' and would not confirm the Fathers' sentence (seert scher1919 l.28655-28660). Timothy I, quoted by Abdisho: Sabrisho condemned 'Hanani Adiabeni scripta' (mai1838 l.18862-18866). Labourt: Sabrisho's synod of May 596 pronounced against the Henanians (labourt1904 l.12231-12234). Chabot: his works were condemned more than once by the patriarchs (chabot1902 l.26755-26761)."
    }
   ],
   "absent_details": [
    {
     "detail": "Words of his own",
-    "note": "None held. His treatises on the Rogations and Golden Friday (PO 7) appear only in a publisher's advertisement (po09 l.41507). Guidi's Syriac statutes are not recovered by OCR and he quotes no canon of Henana's in Italian."
+    "note": "Scher says his treatises on the Rogations and Golden Friday survive (barhadbeshabba cause po4 scher1908 l.21084-21086); they are edited in Patrologia Orientalis 7, which is not held (advertised in po09 l.41505-41508). Guidi's Syriac statutes are not recovered by OCR and he quotes no canon of Henana's in Italian."
    },
    {
     "detail": "His birth and death years",
@@ -1567,6 +1626,11 @@
     "formation_confidence": "Documented"
    },
    {
+    "claim": "Gregory: 'Qui data a me licentia a Germaniarum episcopis episcopus factus cum eorum quoque solaciis ad praedictam gentem in finem mundi perductus est', before the Christmas baptisms by 'fratre et coepiscopo nostro'",
+    "witness": "Gregory to Eulogius of Alexandria (gregory-great epistolae-selectae turchi1907 l.9309-9326, 9331-9332)",
+    "formation_confidence": "Documented"
+   },
+   {
     "claim": "Augustine 'repaired to Arles, and ... was ordained archbishop of the English nation, by Aetherius, archbishop of that city'",
     "witness": "Bede, HE I.27 (bede giles1903 l.2063-2066)",
     "formation_confidence": "Contested"
@@ -1607,13 +1671,28 @@
     "formation_confidence": "Documented"
    },
    {
+    "claim": "Gregory sent Augustine the pall and directed him to 'ordain twelve bishops, who shall be subject to your jurisdiction', and a bishop for York who 'shall also ordain twelve bishops'",
+    "witness": "Gregory's letter, in Bede, HE I.29 (bede giles1903 l.2776-2828)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Gregory's letter on his miracles: 'it is necessary that you rejoice with fear, and tremble whilst you rejoice'",
+    "witness": "Gregory's letter, in Bede, HE I.31 (bede giles1903 l.2944-2958)",
+    "formation_confidence": "Documented"
+   },
+   {
     "claim": "Gregory: 'as for all the bishops of Britain, we commit them to your care'",
     "witness": "Gregory's answer to the seventh question, in Bede (bede giles1903 l.2334-2338)",
     "formation_confidence": "Documented"
    },
    {
-    "claim": "The meeting at 'Augustine's Ac, that is, Augustine's Oak'; the hermit's test, 'if at your approach he shall rise up to you, hear him'; 'Augustine was sitting on a chair'; they refused him",
-    "witness": "Bede, HE II.2 (bede giles1903 l.3560-3672)",
+    "claim": "With Ethelbert's help Augustine drew the British bishops to a conference 'at a place which is to this day called Augustine's Ac, that is, Augustine's Oak'; after a blind man was healed, the Britons 'desired that a second synod might be appointed'",
+    "witness": "Bede, HE II.2 (bede giles1903 l.3563-3617)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Before the second synod they consulted a hermit: 'if at your approach he shall rise up to you, hear him submissively'; 'when they came, Augustine was sitting on a chair'; they refused him; Bede does not name the place of this synod",
+    "witness": "Bede, HE II.2 (bede giles1903 l.3619-3672)",
     "formation_confidence": "Documented"
    },
    {
@@ -1662,6 +1741,14 @@
      "MGH editors: often disputed, but genuine (ewald-hartmann1895 l.12643, 12703-12705)",
      "Mommsen, reported by the editors: only extracts survive (l.12705-12706)",
      "Barmby: Bede's copy the most authentic; later copies add an interpolated question (npnf213 l.7292-7310, 7554-7557)"
+    ]
+   },
+   {
+    "claim": "Whether he was made bishop before or after reaching the English",
+    "sides": [
+     "Gregory to Eulogius: made bishop by the bishops of the Germanies and then brought to the English (turchi1907 l.9309-9326)",
+     "Bede: went to Arles after the king's baptism (bede giles1903 l.2033-2066)",
+     "Nicola Turchi's note follows Bede's order: after the Christmas baptism of 597 (turchi1907 l.9318-9324)"
     ]
    }
   ],
