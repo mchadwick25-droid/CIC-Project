@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Victor of Tunnuna — Church Family Tree</title>
+<meta name="description" content="Victor of Tunnuna wrote a chronicle. In it he tells how he was kept under guard and beaten, first in a monastery at Mandracium, then on the island of…">
+<meta property="og:title" content="Victor of Tunnuna">
+<meta property="og:description" content="Victor of Tunnuna wrote a chronicle. In it he tells how he was kept under guard and beaten, first in a monastery at Mandracium, then on the island of…">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.churchfamilytree.com/tree/victor-of-tunnuna">
+<meta property="og:image" content="https://churchinconversation.com/assets/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,700;1,400;1,500&family=Alegreya+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+:root{
+  --parchment:#F6F6F2; --vellum:#FFFFFF;
+  --ink:#2A2521; --ink-faded:#6C6257; --madder:#A13E2B; --madder-deep:#7E2F20;
+  --tyrian:#6B3FA0; --graphite:#8A837C; --rule:rgba(241,233,221,.16);
+  --ground:#17130F; --surface:#1E1913;
+  --text:#F1E9DD; --muted:#B8AEA1;
+  --action:#E08C74; --action-hover:#F0A98F;
+  --control:#A39B92;
+  --link-grow:#86cf9c; --link-influence:#c79a5e; --link-conflict:#f06a64; --link-contact:#a39a8c;
+  --btn-fill:#A13E2B; --btn-text:#F6EFE0; --btn-edge:#E08C74;
+  --serif:'Alegreya','Iowan Old Style',Georgia,serif;
+  --sans:'Alegreya Sans','Trebuchet MS',system-ui,sans-serif;
+  --wide:64rem; --col:44rem; --measure:38rem;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--ground);color:var(--text);font-family:var(--serif);font-size:1.0625rem;line-height:1.65}
+a{color:var(--action);text-decoration-thickness:1px;text-underline-offset:.16em}
+a:hover{color:var(--action-hover)}
+:focus-visible{outline:2px solid var(--action);outline-offset:3px;border-radius:2px}
+img{max-width:100%;height:auto;display:block}
+h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.15;margin:0;text-wrap:balance}
+h1{font-size:2rem;margin-bottom:1rem}
+h2{font-size:1.4rem;margin:1.5rem 0 .75rem}
+h3{font-size:1.1rem;margin:1rem 0 .5rem}
+p{margin:0 0 1rem}
+ul{padding-left:1.5rem}
+li{margin-bottom:.5rem}
+.vh{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.skip-link{position:absolute;left:-999px;top:auto;background:var(--ink);color:var(--parchment);padding:.6rem 1rem;z-index:100;font-family:var(--sans)}
+.skip-link:focus{position:fixed;left:1rem;top:1rem}
+.eyebrow{font-family:var(--sans);font-size:.8125rem;letter-spacing:.13em;text-transform:uppercase;color:var(--action);font-weight:600;margin:0 0 .6rem}
+.site-header{background:var(--surface);border-bottom:1px solid var(--rule)}
+.site-header .row{max-width:var(--wide);margin:0 auto;padding:.6rem 1.25rem;display:flex;flex-wrap:wrap;align-items:center;gap:.5rem 1rem}
+.wordmark{font-family:var(--serif);font-weight:700;font-size:1.2rem;letter-spacing:.01em;color:var(--text);text-decoration:none;white-space:nowrap;padding:.5rem 0;display:inline-block}
+.wordmark em{font-style:italic;font-weight:400}
+.page{max-width:var(--col);margin:0 auto;padding:2rem 1.25rem;overflow-wrap:break-word}
+.titleblock{margin-bottom:2rem}
+.ident{font-family:var(--sans);font-size:.9rem;color:var(--muted);margin:0 0 .5rem}
+.kind-label{display:inline-block;font-family:var(--sans);font-size:.9rem;color:var(--muted);border:1px dashed currentColor;border-radius:999px;padding:.1rem .7rem;margin:-.4rem 0 0}
+.lineage-section{margin:1.5rem 0;padding-left:.9rem;border-left:3px solid var(--link-contact)}
+.lineage-section.link-grow{border-left-color:var(--link-grow)}.lineage-section.link-grow h3{color:var(--link-grow)}
+.lineage-section.link-influence{border-left-color:var(--link-influence)}.lineage-section.link-influence h3{color:var(--link-influence)}
+.lineage-section.link-conflict{border-left-color:var(--link-conflict)}.lineage-section.link-conflict h3{color:var(--link-conflict)}
+.lineage-section.link-contact h3{color:var(--link-contact)}
+.lineage-list{list-style:none;padding:0}
+.lineage-list li{margin:0 0 .5rem;padding:0}
+.lineage-list a{color:var(--action)}
+.confidence-note{font-style:italic;color:var(--muted);font-size:.95rem}
+.lineage-major{font-family:var(--sans);font-size:.8rem;letter-spacing:.03em;font-weight:600;color:var(--action);white-space:nowrap}
+.lineage-outcome{display:block;font-size:.95rem;margin-top:.2rem}
+.lineage-confidence{font-family:var(--sans);font-size:.8rem;letter-spacing:.03em;color:var(--muted);border:1px solid currentColor;border-radius:3px;padding:0 4px;white-space:nowrap}
+.sources-list{list-style:none;padding:0}
+.sources-list li{margin:0 0 .75rem;padding:0}
+.sources-list a{font-weight:600}
+.source-type{font-family:var(--sans);font-size:.85rem;color:var(--muted)}
+.source-note{font-size:.95rem;color:var(--muted)}
+.narration{display:flex;align-items:center;gap:.6rem;flex-wrap:wrap;margin:1.5rem 0}
+.narration audio{display:block;height:2.2rem;max-width:220px;width:220px;flex:0 0 auto}
+.narration-disclosure{font-family:var(--sans);font-size:.85rem;color:var(--muted);margin:0}
+.action-links{margin:1.5rem 0;padding:1rem;background:var(--surface);border-radius:4px}
+.action-links p{margin:0 0 .8rem;font-family:var(--sans);font-size:.95rem}
+.action-links a{display:inline-block;padding:.6rem 1rem;background:var(--btn-fill);color:var(--btn-text);text-decoration:none;border-radius:4px;margin-right:.5rem;margin-bottom:.5rem}
+.action-links a:hover{background:var(--madder-deep)}
+.door-quiet{font-family:var(--sans);font-size:.92rem;color:var(--muted);margin:1.5rem 0}
+.told-within{font-family:var(--sans);font-size:.95rem;margin:.4rem 0 0}
+.people-list{list-style:none;padding:0;margin:0}
+.people-list li{margin:.4rem 0}
+.people-list .ident{display:inline;margin:0 0 0 .4rem}
+.people-note{color:var(--muted)}
+.facts{margin:0 0 1.5rem}
+.facts dt{font-family:var(--sans);font-size:.8rem;letter-spacing:.08em;text-transform:uppercase;color:var(--action);margin-top:.7rem}
+.facts dd{margin:.1rem 0 0}
+.part-group{font-family:var(--sans);font-size:.8rem;letter-spacing:.08em;text-transform:uppercase;color:var(--action);margin:1rem 0 .2rem}
+.verdict{font-family:var(--sans);font-size:.78rem;letter-spacing:.04em;color:var(--muted);border:1px dashed currentColor;border-radius:999px;padding:0 .5rem;margin-left:.4rem;white-space:nowrap}
+.source-group{font-family:var(--sans);font-weight:600;margin:1rem 0 .3rem}
+.review-status{font-family:var(--sans);font-size:.92rem;color:var(--muted);margin:2.5rem 0 0;padding-top:1rem;border-top:1px solid var(--rule)}
+.site-footer{border-top:1px solid var(--rule);background:var(--surface);font-family:var(--sans);font-size:.85rem;color:var(--muted);margin-top:3rem;padding:1.5rem 1.25rem}
+.site-footer .row{max-width:var(--wide);margin:0 auto}
+.site-header nav{display:flex;flex-wrap:wrap;gap:.4rem 1rem;align-items:center;margin-left:auto;font-family:var(--sans);font-size:.92rem}
+.site-header nav a{color:var(--action);text-decoration:none;display:inline-flex;align-items:center;min-height:44px}
+.site-header nav a:hover{color:var(--action-hover)}
+.site-header nav .feedback-toggle{min-height:44px}
+.site-footer nav{display:flex;flex-wrap:wrap;gap:.4rem 1.1rem;margin-top:.6rem}
+.site-footer nav a{display:inline-flex;align-items:center;min-height:44px}
+.site-footer a{color:var(--action)}
+.give{display:flex;flex-wrap:wrap;gap:.6rem;margin:1rem 0}
+.give a{display:inline-block;padding:.6rem 1.2rem;background:var(--btn-fill);color:var(--btn-text);text-decoration:none;border-radius:4px}
+.terms{margin:0 0 1rem}
+.terms dt{font-family:var(--sans);font-weight:600;margin-top:.9rem}
+.terms dd{margin:.2rem 0 0}
+.terms svg{display:inline-block;vertical-align:middle;margin-right:.5rem}
+.cite{margin:.4rem 0 1.2rem;padding:.6rem .9rem;border-left:3px solid var(--action);background:var(--surface);overflow-wrap:anywhere}
+.cite-label{font-family:var(--sans);font-weight:600;margin:1rem 0 .2rem}
+</style>
+<link rel="stylesheet" href="../assets/feedback.css">
+</head>
+<body>
+<a href="../" class="skip-link">Skip to the map</a>
+
+<header class="site-header">
+  <div class="row">
+    <a href="../" class="wordmark">Church Family Tree</a>
+    <nav aria-label="Site">
+      <a href="https://churchinconversation.com/">Church in Conversation &rarr;</a>
+      <a href="../support.html">Help us grow</a>
+      <button type="button" class="feedback-toggle" id="feedback-toggle" aria-haspopup="dialog" aria-expanded="false">Tell us what you think</button>
+    </nav>
+  </div>
+</header>
+
+<main class="page" id="content">
+  <div class="titleblock">
+    <p class="ident">The Age of Monks and Empires · exiled 555; died after 566 · Alexandria, Constantinople</p>
+    <p class="ident">Alexandria, today in Egypt · Constantinople, today in Turkey</p>
+    <h1>Victor of Tunnuna</h1>
+    <p class="told-within">A person. The tradition that tells their story: <a href="latin-africa-under-byzantium.html">Latin African Christianity under Byzantium</a>.</p>
+    
+    
+  </div>
+  <dl class="facts"><dt>Known for</dt><dd>An African bishop who defended the Three Chapters against the emperor Justinian, was held in prisons and monasteries from Africa to Constantinople, and wrote a Latin chronicle, in exile as Mommsen thinks.</dd><dt>Also called</dt><dd>Victor Tunnunensis, Victor Tonnennensis (Mommsen&#039;s form), Victor Tununensis</dd><dt>Dates</dt><dd>Exiled to Alexandria in the year Theodor Mommsen numbers 555, by his own chronicle; still held at Constantinople in the last years of Justinian, who died in 565 by Mommsen&#039;s introduction. Andrea Gallandi thinks he died shortly after 566, when the chronicle ends</dd><dt>Place</dt><dd>A bishop in Roman Africa, of a town whose name and site are uncertain, perhaps not far from Carthage in Mommsen&#039;s view; held at Mandracium, on the island of Aegimurus, at Alexandria, at Canopus and at Constantinople</dd><dt>Role</dt><dd>Bishop and chronicler</dd></dl>
+
+  
+
+  <section>
+    <h2>About This Person</h2>
+    
+    <div class="reading"><p>Victor of Tunnuna wrote a chronicle. In it he tells how he was kept under guard and beaten, first in a monastery at Mandracium, then on the island of Aegimurus. Then he was sent to Alexandria with Theodore, bishop of Cebarsussi in Africa, for defending the Three Chapters. There he was thrown into prison in the fort of Diocletian. Theodor Mommsen, who edited the chronicle, puts this in 555.</p><p>Victor was a bishop in Roman Africa. How the name of his town should be spelled is not clear, Mommsen says. He thinks it lay perhaps not far from Carthage.</p><p>The Three Chapters were writings of three earlier churchmen. The emperor Justinian condemned them. Victor stood with the African bishops who defended them. He writes that they cut off Vigilius, bishop of Rome, for condemning them, but left him room to repent.</p><p>After fifteen days of argument in the governor&#039;s court, Victor and Theodore were sent to a monastery at Canopus, twelve miles from Alexandria. Later the emperor called them to Constantinople. They stood before Justinian and Eutychius, the bishop of the city, and would not give way. They were split up and held in the city&#039;s monasteries. Theodore died, Victor writes, in the same month and on the same day as Justinian.</p><p>Isidore of Seville says the chronicle ran from the creation of the world to the first year of the emperor Justin the Younger.</p><p>Victor writes as a partisan. To him the empress Theodora was the enemy of the council of Chalcedon, and she died covered in a cancer. Mommsen calls him and Liberatus, another African, fierce defenders of Chalcedon.</p><p>Isidore says Victor died still a prisoner in a monastery of Constantinople, as people say, he adds. No early source gives the year.</p><p>Isidore praised the chronicle as most worthy of memory. Joseph Mesnage, a French scholar, calls it very precious for the church history of Africa in that century.</p></div>
+  </section>
+
+  
+  
+  <section><h2>Key Works</h2><ul><li><b>Chronicle (Chronica)</b>: a Latin chronicle by consuls and regnal years which, by Isidore of Seville&#039;s account, ran from the creation to the first year of Justin II; what survives runs from 444, where Prosper of Aquitaine ends, to the 560s</li></ul></section><section><h2>Legacy</h2><h3>What traces to them</h3><ul><li>John of Biclaro carried the chronicle on from where Victor stopped, by his own heading, and Isidore of Seville compiled from it, as Mommsen says.</li><li>His year entries keep the African side of the Three Chapters quarrel: the African bishops&#039; break with Vigilius of Rome, the sufferings of their bishops, and his own exile.</li></ul><h3>How they're remembered</h3><ul><li>Isidore of Seville praised the chronicle as most worthy of memory.</li><li>Joseph Mesnage, in his survey of the African sees, calls it very precious for the religious history of Africa in the sixth century.</li></ul></section><section><h2>At Major Councils</h2><ul><li><a href="second-council-of-constantinople-553.html">Second Council of Constantinople</a>, 553: Not present; African bishop exiled for defending the Chapters; chronicler of the resistance</li></ul></section><section><h2>What Is Uncertain</h2><ul><li>He writes as a partisan. Theodor Mommsen calls him and his fellow African Liberatus fierce defenders of Chalcedon, embittered against Vigilius by a hatred Mommsen thinks just. Victor calls the empress Theodora the enemy of the council.</li><li>Nearly all that is known of his life comes from his own chronicle. Mommsen holds that Isidore of Seville drew his notice from the chronicle too.</li><li>His town. Mommsen says its true name is little known and adopts &quot;Tonnennensis&quot; by conjecture. Isidore&#039;s editors list other forms. English notes in the Ante-Nicene and Nicene Fathers call him &quot;Victor of Tunis&quot;.</li><li>The order of his prisons. His own entry has Mandracium first and Aegimurus second. Mommsen&#039;s summary changes the order and adds the Balearic Islands, which rest on Mommsen&#039;s own correction. The manuscripts, and the text Migne prints, read &quot;Sala et Valericis&quot;.</li><li>His years. Every year of our reckoning is Mommsen&#039;s, and those for 564 to 567 carry his question marks. Victor dates by consuls and by the emperor&#039;s years. Noris, as Andrea Gallandi quotes him, trusts his facts but finds the years in the chronicle full of errors, which he blames on a later copyist.</li><li>His death. Isidore says he died still a prisoner in a monastery of Constantinople, adding that this is what people say. No early source gives a year. Gallandi thinks shortly after 566; Thomas Hodgkin gives 569, and M.-A. Kugener about 569.</li></ul></section>
+  
+
+  
+
+  <section>
+    <h2>Sources</h2>
+    <p class="source-group">Their own words</p><ul class="sources-list"><li>Chronicle of Victor of Tunnuna (ed. Theodor Mommsen, Chronica minora II) — <span class="source-note">Latin</span></li><li>Chronicle of Victor of Tunnuna (Patrologia Latina 68) — <span class="source-note">Latin</span></li></ul><p class="source-group">Written about them</p><ul class="sources-list"><li>Introduction to the chronicle — <span class="source-note">Theodor Mommsen · Latin</span></li><li>Notice on Victor, reprinted in Patrologia Latina 68 — <span class="source-note">Andrea Gallandi · Latin</span></li><li>On Famous Men, chapter 38 — <span class="source-note">Isidore of Seville · Latin</span></li><li>L&#039;Afrique chretienne — <span class="source-note">Joseph Mesnage · French</span></li><li>Index to The Letters of Cassiodorus — <span class="source-note">Thomas Hodgkin · English</span></li><li>Notes to the Life of Severus — <span class="source-note">M.-A. Kugener · French</span></li><li>Introductory notice to the works ascribed to Tertullian, in The Ante-Nicene Fathers, volume 3 — <span class="source-note">English</span></li><li>Endnote to the Life of Antony, in Nicene and Post-Nicene Fathers, second series, volume 4 — <span class="source-note">English</span></li></ul>
+  </section>
+
+  <p class="review-status"><b>Review:</b> checked with AI tools. No scholar or church partner has reviewed it yet. <a href="../data.html#review">Help review the tree</a></p>
+</main>
+
+<footer class="site-footer">
+  <div class="row">
+    <p>&copy; 2026 Faithways Studio, Inc., a Colorado public benefit corporation &middot; <a href="../license.html">License</a>. The same team makes <a href="https://churchinconversation.com/">Church in Conversation</a>.</p>
+    <nav aria-label="About the tree">
+      <a href="../about.html">About</a>
+      <a href="../method.html">Method</a>
+      <a href="../data.html">Data and citation</a>
+      <a href="../privacy.html">Privacy</a>
+      <a href="../terms.html">Terms</a>
+      <a href="../license.html">License</a>
+      <a href="../support.html">Help us grow</a>
+    </nav>
+  </div>
+</footer>
+<script src="../assets/feedback.js" defer></script>
+</body>
+</html>
