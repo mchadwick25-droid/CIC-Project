@@ -1,0 +1,76 @@
+{
+  "name": "Alexander II of Alexandria",
+  "knownFor": "Coptic patriarch of Alexandria under a run of hard governors. He was twice sent out to beg his own ransom, and died fleeing a branding.",
+  "dates": "B. Evetts heads his life 705 to 730. The History says he was consecrated on the feast of Saint Mark, the last day of Barmudah, in the year 420 of Diocletian. It gives him twenty-four and a half years but no date of death. The Arabic Synaxarium keeps him on the 7th of Amshir",
+  "place": "Alexandria. A monk of the monastery of Az-Zajaj, which a note in B. T. A. Evetts's 1895 English of Abu Salih places nine miles west of Alexandria. He died at Tarnut",
+  "tradition": "Coptic Christianity under Early Islam",
+  "role": "Patriarch of Alexandria, the forty-third in the History's count",
+  "briefLength": "about 2 minutes",
+  "legacy": {
+    "traces": [
+      "He accepted a synodical letter from Elias, whom the bishops of Antioch seated while the caliph al-Walid forbade a patriarch, the History says.",
+      "Later he wrote to Athanasius of Antioch blessing the caliph Hisham, who had let Athanasius be made patriarch.",
+      "He took in Onopes, a Chalcedonian physician who had been set up as patriarch, when the people drove him out."
+    ],
+    "remembered": [
+      "When he begged in Upper Egypt, the History says, people said they had not seen a patriarch there since Benjamin I.",
+      "The Arabic Synaxarium, the Coptic church's book of saints' days, keeps him on the 7th of Amshir in René Basset's French. The Ethiopic, in E. A. Wallis Budge's English, keeps him on the 7th of Yakatit.",
+      "Both synaxaria add a Melkite patriarch named Anastasius, who came over to him and asked only to be his disciple.",
+      "The History's life of Michael I recalls that the church of Alexandria lost its marble and fine woodwork in Alexander's time."
+    ]
+  },
+  "uncertain": [
+    "His life rests on the History of the Patriarchs, a later Arabic history of the Coptic church. A note in it says the writer called one emperor \"still reigning\" at the time he wrote.",
+    "Who wrote it. John the deacon, who wrote the History's life of Michael I, says the archdeacon George's history ran to the removal of the governor Usamah. No held line names the writer of Alexander's last years.",
+    "The monks under al-Asbagh. B. Evetts's English says they were mutilated and taxed. Eusèbe Renaudot, a Catholic scholar writing in Latin in 1713, says they were counted.",
+    "The brand. The History puts Usamah's ring brand on the left hand, and Renaudot on the right.",
+    "Ubaid Allah's marks. The History gives a leaden badge on the neck and a lion on the hand. Renaudot gives one leaden seal with a lion.",
+    "His dates. Renaudot calls the chronology of these patriarchs most confused, and says the vacancy before him lasted nearly five years. He reports Makrizi's date for his death, 724.",
+    "Onopes. Renaudot doubts the story, since Eutychius names no Melkite patriarch of Alexandria under al-Walid. The synaxaria tell of a Melkite named Anastasius instead.",
+    "His monastery. The History says Az-Zajaj. Basset's synaxarium says Babaroun, the monastery of the Fathers."
+  ],
+  "sources": {
+    "about": [
+      {
+        "title": "History of the Patriarchs of the Coptic Church of Alexandria, lives of Alexander II and Michael I, in Patrologia Orientalis 5 (tr. B. Evetts)",
+        "author": "Attributed to Severus ibn al-Muqaffa",
+        "date": "1910",
+        "language": "Arabic with English translation",
+        "file": "cic/texts/chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt"
+      },
+      {
+        "title": "Historia patriarcharum Alexandrinorum Jacobitarum",
+        "author": "Eusèbe Renaudot",
+        "date": "1713",
+        "language": "Latin",
+        "file": "cic/texts/renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713.txt"
+      },
+      {
+        "title": "Le Synaxaire arabe jacobite, Toubeh and Amchir, 7 Amchir, in Patrologia Orientalis 11 (tr. René Basset)",
+        "date": "1915",
+        "language": "Arabic with French translation",
+        "file": "cic/texts/synaxaire-arabe-jacobite_po11-toubeh-amshir-fra_basset1915.txt"
+      },
+      {
+        "title": "The Book of the Saints of the Ethiopian Church, volume 2, 7 Yakatit (tr. E. A. Wallis Budge)",
+        "date": "1928",
+        "language": "English translation",
+        "file": "cic/texts/ethiopian-synaxarium_book-of-saints-ethiopian-church-v2-takhshash-yakatit_budge1928.txt"
+      },
+      {
+        "title": "The Churches and Monasteries of Egypt (tr. B. T. A. Evetts, notes by Alfred J. Butler)",
+        "author": "Attributed to Abu Salih the Armenian",
+        "date": "1895",
+        "language": "English translation",
+        "file": "cic/texts/abu-salih_churches-and-monasteries-of-egypt_evetts1895.txt"
+      },
+      {
+        "title": "Chronique, tome 2, books VIII to XI (tr. J.-B. Chabot)",
+        "author": "Michael the Syrian",
+        "date": "1901",
+        "language": "French translation",
+        "file": "cic/texts/michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt"
+      }
+    ]
+  }
+}
