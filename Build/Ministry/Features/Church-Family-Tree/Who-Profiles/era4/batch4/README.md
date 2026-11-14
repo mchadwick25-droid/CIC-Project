@@ -22,7 +22,7 @@ Names and ids, the worker's calls:
 
 Card traditions are the census's names. Three are the worker's calls:
 - Humbert reads "The Latin Papal Church (Gregorian Reform to Innocent III); The Byzantine Imperial Church (Macedonian Era)". Both name him as a voice. The Latin Papal entry begins in 1049 and covers 1054 and 1059, and it is his own church. The Macedonian entry covers the city and the year of the break.
-- Beuno reads "British and Welsh Christianity". The scan places him in Medieval Welsh Christianity, but that movement begins in 768. The note in Rees puts his life in the sixth and seventh centuries, with Clynog Fawr founded in 616, which falls in British and Welsh Christianity (451 to 768).
+- Beuno reads "British and Welsh Christianity". The scan places him in Medieval Welsh Christianity, but that movement begins in 768. The note in W. J. Rees's edition puts his life in the sixth and seventh centuries, with Clynog Fawr founded in 616, which falls in British and Welsh Christianity (451 to 768).
 - Jonas of Bobbio reads "Insular / Irish Monastic Christianity". The scan also names Merovingian Gaul, but the census's Merovingian Gallic Christianity ends in 620, before his work of about 640. The Insular movement runs to 664 and covers the Columban houses he wrote of.
 
 The others: Hincmar and Prudentius in "Carolingian Reform Christianity"; Braulio, Ildefonsus and Julian in "Nicene Visigothic Iberia".
@@ -31,5 +31,5 @@ The others: Hincmar and Prudentius in "Carolingian Reform Christianity"; Braulio
 |---|---|
 | `<id>.brief.txt` | The brief as text, with no audio tags. Paragraphs are separated by a blank line. |
 | `<id>.card.json` | The card. Its fields are `name`, `otherNames`, `knownFor`, `dates`, `place`, `tradition`, `role`, `briefLength`, `keyWorks` (title, about), `legacy` (`traces`, `remembered`), `uncertain`, and `sources` (`ownWords`, `about`; each entry gives a title, an author where one applies, a language and its file under `cic/texts/`). A field with no content is left out. |
-| `audio/<id>.audio.txt` | The text sent to the voice: the brief with `[calmly]` at the start and `[warmly]` before the closing line. |
+| `audio/<id>.audio.txt` | The text sent to the voice: the brief with `[calmly]` at the start and `[warmly]` at the start of the last paragraph. |
 | `records.json` | For each id, `claims` (claim, witness, `formation_confidence`), `contested_claims` (claim, sides), and `absent_details` (detail, note) for the honest limits. |
