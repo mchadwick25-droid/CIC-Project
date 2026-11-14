@@ -3165,3 +3165,27 @@ The approved files are in `Who-Profiles/era4/batch8/` in this folder, and the re
 **What is still open.** Open-Gaps, "Who re-score, eras 4 and 5" (2026-11-14).
 
 Approved to proceed (the re-score worker, under the coordinator's brief of 2026-11-14; Mark may overrule).
+
+## 2026-11-14 — Era 4 on the live tree: 61 Who profiles (Mark, 2026-11-14; data release 43)
+
+**Decided (Mark, 2026-11-14, his words as given or relayed by the coordinator).** The job: "go live with what we have". On the local-build preview (https://claude.ai/artifact/JcsuA46GamCTmfDdExqvGA) he picked, on its four questions: al-Baladhuri, "Syriac East & Asia (Recommended)"; the rebuilt and retitled stories, "Publish, after Opus review (Recommended)"; the map years where the sources give none, "Keep and log (Recommended)"; John of Nikiu, "Remove name row (Recommended)". APPROVAL-LINE
+
+**What went in.** 60 new person entries from `Who-Profiles/era4/batch1-8`, and Bede's live entry rebuilt from his new profile: 61 profiles and 64 people, since Cedd and Chad, Elipandus and Felix, and Pisentius and John the Elder are paired entries, as Barsanuphius and John were in release 42. Each has the brief as its text, the card, a tree page and a place in its tradition's Who and its river's Who. 60 are told within a tradition. al-Baladhuri, the outside witness, is told within none, in the Syriac East & Asia river. Ten voice rows in the traditions that tell these people became links to the entries. No era 4 councils go in; Mark has not asked for them. There is no audio player on any of them (Open-Gaps 218). Every rule of releases 41 and 42 carries over: the schema, the controls, the validator, the quotation check and the spelling method. The further era 4 people being re-scored (Open-Gaps 263) come in a later release.
+
+**Bede.** His live entry keeps its id, its other names and its sourcing, why and legacy fields. The brief, the card, the dates, the place and the teaser are now the profile's. That folds in the six differences of Open-Gaps 254: what he was translating as he died, his death year and age, L. Cecil Jane as the Notice's editor, the Wycliffite tract behind "sell Christ", the two works called On the Times, and the remembered line that opened "Rome honors him."
+
+**Short dates, map years and places.** As in release 42, the build wrote each short dates line from the card's dates note, and the review checked each. Where the sources give no year, the map year is the scan's or the card's one anchor, logged in Open-Gaps 264 on Mark's pick. A place label names at most two places, and ids are copied only from census rows.
+
+**Quotations.** Of 12 quotation failures in the first run, none was a misquotation by the profiles; all were scan faults (misread letters, a running head, a signature mark, a word broken across lines without a hyphen). They are written down as 13 readings in `tools/quote_scan_readings.json`. Review round 1 found that one reading added a word: the Evetts file prints "the" as "I he", so Agathon's sentence begins "the sinner Agathon". The reading and the brief were corrected, and the brief now quotes only the words that stand on the page. Timothy's card dropped the quotation marks around the name form "of Baghdad".
+
+**Fixes folded in (old and new text in the audit's `Census_Text_Changes.md`).** Open-Gaps 254 and 256 to 262, and the 255 carry-overs: 110 changes to older census text, each resting on a held line. Seventeen stories were rebuilt and six retitled, among them the Oak at Geismar (pagans, not robbers, from Kylie and the annals), the Verden story (Alcuin's view from the held index of his volume), Pope Martin in the Crimea, Timothy before the caliphs ("Which Religion Does God Approve?"), the Xi'an stele (Syria, 635, 1625), the Dionysius, Kyriakos, Georgios and Two Patriarchs stories, the Book of Narek, and the deaths and exiles of Athanasios and Symeon. The era 3 Brigid and Ciarán card readings, Isidore's card on Braulio's notice and the Columbanus Mansi date were fixed in the census and the profile files. Open-Gaps 50 was not edited; its 635/636 finding is carried into the stele story.
+
+**Wording changed in approved profiles (listed for the Opus recheck).** Agathon's quotation; Timothy's "of Baghdad"; Moses bar Kepha's card holds three key works, the schema's limit, dropping the Old and New Testament commentaries, whose notice stays in its legacy traces; the Sophronius card's "No source used here from Sophronius's own time"; the al-Baladhuri brief's "Al-Baladhuri also gives"; the Adam card's "King-Tsing"; and American spelling in our own prose (traveling, traveled, meter, catalog). No title of a printed work was changed.
+
+REVIEW-PARA
+
+**Also changed.** The data page and its citation examples show release 43 (14 November 2026), and so does the census license credit. Release 43 follows release 42 (PR #1653).
+
+**What is still open.** Open-Gaps 264. Open-Gaps 217 (caps, major mark, placement) is carried.
+
+Approved to proceed (Mark, 2026-11-14).
