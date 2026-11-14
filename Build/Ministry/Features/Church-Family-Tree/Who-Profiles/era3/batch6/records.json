@@ -218,7 +218,7 @@
    },
    {
     "detail": "The date of Jonas's Life",
-    "note": "Foulke, citing Hodgkin, gives 'about 640' (paul-the-deacon foulke1907 l.15760); Munro says Jonas came to Bobbio three years after Columbanus's death and was 'soon employed' on the Life (jonas munro1895 l.76-78). The Library header's 'c. 640-642' is a catalogue date. Jonas names Dagobert after Chlotar (jonas munro1895 l.1420-1421) and Babolen as 'now abbot of Bobbio' (l.712-713). The brief says only that Jonas wrote after his death."
+    "note": "Foulke, citing Hodgkin, gives 'about 640' (paul-the-deacon foulke1907 l.15760); Munro says Jonas came to Bobbio three years after Columbanus's death and was 'soon employed' on the Life (jonas munro1895 l.76-78). The Library header's 'c. 640-642' is a catalog date. Jonas names Dagobert after Chlotar (jonas munro1895 l.1420-1421) and Babolen as 'now abbot of Bobbio' (l.712-713). The brief says only that Jonas wrote after his death."
    }
   ]
  },
@@ -1345,7 +1345,7 @@
    {
     "claim": "Whether Faustus was a semi-Pelagian",
     "sides": [
-     "Against him: the Life of Fulgentius (secretly favoured the Pelagians; PL 65 l.9687-9693); the African bishops in Sardinia (PL 65 l.28898-28906); Isidore (consented to Pelagian depravity; PL 83 l.122089-122092); John Maxentius, via Engelbrecht (faustus-riez engelbrecht1891 l.597-606); Warfield ('chief champion'; npnf105 l.954-958)",
+     "Against him: the Life of Fulgentius (secretly favored the Pelagians; PL 65 l.9687-9693); the African bishops in Sardinia (PL 65 l.28898-28906); Isidore (consented to Pelagian depravity; PL 83 l.122089-122092); John Maxentius, via Engelbrecht (faustus-riez engelbrecht1891 l.597-606); Warfield ('chief champion'; npnf105 l.954-958)",
      "For him: Gennadius ('an excellent work'; npnf203 l.43693-43697); Engelbrecht (neither semi-Pelagian nor held so by Caesarius; erred in good faith; faustus-riez engelbrecht1891 l.652-670); the 534 treatise ('Faustus episcopus sanctus'; faustus-riez engelbrecht1891 l.13819); Pope Hormisdas would not condemn him, per Engelbrecht (faustus-riez engelbrecht1891 l.596-598)"
     ]
    },
@@ -1467,7 +1467,7 @@
     "formation_confidence": "Documented"
    },
    {
-    "claim": "Book of Church Dogmas: Walafrid Strabo, 'Gennadius Massiliensis presbyter in Dogmate Ecclesiastico'; Platina calls him bishop 'perperam'; Ratramnus gives it to 'Gennadius ... Constantinopolitanus episcopus'; codex Padolironensis gives it to 'Fausti episcopi Ecclesiae Maxiliensis'; the Louvain theologians: 'Gennadii Massiliensis in Gallia presbyteri ... de factione Gallorum, contra quam scribunt Prosper et Hilarius Augustino, et contra quam congregatum fuit concilium Arausicanum secundum', with 'graves ... errores' in his catalogue (OCR '[actione', 'congregalwm')",
+    "claim": "Book of Church Dogmas: Walafrid Strabo, 'Gennadius Massiliensis presbyter in Dogmate Ecclesiastico'; Platina calls him bishop 'perperam'; Ratramnus gives it to 'Gennadius ... Constantinopolitanus episcopus'; codex Padolironensis gives it to 'Fausti episcopi Ecclesiae Maxiliensis'; the Louvain theologians: 'Gennadii Massiliensis in Gallia presbyteri ... de factione Gallorum, contra quam scribunt Prosper et Hilarius Augustino, et contra quam congregatum fuit concilium Arausicanum secundum', with 'graves ... errores' in his catalog (OCR '[actione', 'congregalwm')",
     "witness": "Unsigned admonition, PL 42 (augustine_arian-sermon-collatio-maximinum-pl42 l.97003-97058)",
     "formation_confidence": "Contested"
    },
