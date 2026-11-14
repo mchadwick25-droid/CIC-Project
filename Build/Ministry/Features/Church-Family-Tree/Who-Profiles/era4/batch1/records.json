@@ -1562,8 +1562,8 @@
     "formation_confidence": "Widely Accepted"
    },
    {
-    "claim": "Vortigern placed: 'Vortigern then reigned in Britain.'. Duchesne's Liber pontificalis, the lives of the popes (card source); Hugh Williams edits Gildas ('HUGH WILLIAMS'); Gildas the earlier writer: 'The author of the book of Nennius, who lived at a later period'",
-    "witness": "NEN l.629; GILDAS l.1-4, 76; ANN l.1101",
+    "claim": "Vortigern placed: 'Vortigern then reigned in Britain.'. Duchesne's Liber pontificalis, the lives of the popes (card source); Hugh Williams edits Gildas ('HUGH WILLIAMS'); Gildas the earlier writer: 'The author of the book of Nennius, who lived at a later period; Badon which is noticed by two contemporaries, Gildas and Taliesin.'",
+    "witness": "NEN l.629; GILDAS l.1-4, 76; ANN l.1084-1086, 1101",
     "formation_confidence": "Documented"
    }
   ],
@@ -1589,7 +1589,7 @@
     "claim": "Elbotus's see and dates",
     "sides": [
      "Giles's note: Elvod, bishop of Bangor, 755 (NEN l.46)",
-     "Annales Cambriae: Easter changed under Elbodug in 768; Elbodg, archbishop of Gwynedd, died 809; a variant has 'episcopus' (ANN l.2986-2988, 3102-3103, 3176)"
+     "Annales Cambriae: Easter changed under Elbodug in the editor's 768; Elbodg, archbishop of Gwynedd, died in the editor's 809; a variant has 'episcopus' (ANN l.2986-2988, 3102-3103, 3176)"
     ]
    }
   ],
