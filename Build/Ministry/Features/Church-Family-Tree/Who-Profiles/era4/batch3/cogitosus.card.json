@@ -1,0 +1,75 @@
+{
+  "name": "Cogitosus",
+  "knownFor": "Writer of a Latin Life of Brigid of Kildare. He describes her great church at Kildare and calls her house the head of almost all the Irish churches. Newport White takes him for the father whom Muirchu names in his Life of Patrick.",
+  "dates": "Disputed. Cogitosus gives no year. Migne prints him under the year 591. Jacques Basnage thought him much later. White's reading would place him before about 700, and Whitley Stokes's index gives 800 to 835",
+  "place": "Kildare, in Ireland, where he says he saw miracles in the monastery where Brigid's body lies",
+  "tradition": "Medieval Irish Christianity; Insular / Irish Monastic Christianity",
+  "role": "Hagiographer; biographer of Brigid of Kildare",
+  "briefLength": "about 2 minutes",
+  "keyWorks": [
+    {
+      "title": "Life of Saint Brigid (Vita sanctae Brigidae)",
+      "about": "a Latin Life written, he says, at the brothers' command, from what elders handed down. It is mostly miracles. It ends with a long account of her church at Kildare and the city around it"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "He says that Brigid called a hermit to rule the church at Kildare with her as bishop. When he wrote, an archbishop and an abbess still ruled it in unbroken succession.",
+      "He describes her church, with the tombs of Brigid and Bishop Conleath on either side of the altar. It had painted boards, and one door for the bishop and another for the abbess.",
+      "In his Life of Patrick, Muirchu says no boat but his father Cogitosus's had sailed the sea of sacred story before him."
+    ],
+    "remembered": [
+      "Basnage, whose note Migne prints, writes that the Life teems with miracles and that its style shows the barbarism of its age.",
+      "Basnage marvels that a virgin summoned a hermit to rule the church with her as bishop. He is astonished too that, as Cogitosus tells it, she sowed the word among all by custom, and says these things go against the laws."
+    ]
+  },
+  "uncertain": [
+    "His Life is a saint's Life, mostly miracles, and he gives no year for himself or for Brigid.",
+    "His date. Migne prints the Life under the year 591. Basnage writes that he places Cogitosus where he does following others, not on his own view, for he believes him much later.",
+    "Basnage argues that Cogitosus did not see Brigid alive, since he saw only the miracles in her church. He adds that painted images in an Irish church belong to later centuries.",
+    "Muirchu's father. The name in Muirchu's preface rests on Bishop Graves's correction of \"cognito si\". Newport White calls it generally accepted and takes the father for Brigid's biographer, which would place him before about 700.",
+    "Whitley Stokes, in an index to his Tripartite Life, dates Cogitosus 800 to 835. Both his index entries, \"Cogitosus\" and \"Coguitosus\", point to the page of Muirchu's preface. That page is missing from the copy used here, so his reasoning cannot be read.",
+    "Nepos. He signs himself \"nepote culpabili\". Basnage notes that he does not call himself Brigid's nepos. He says the sense is as uncertain to him as to Henricus Canisius, whose collection Basnage re-edited."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Vita sanctae Brigidae, with Basnage's note and Canisius's notes, in Patrologia Latina 72",
+        "author": "Cogitosus",
+        "date": "1878",
+        "language": "Latin",
+        "file": "cic/texts/john-biclaro-leander-pl72-lat_migne1878.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Note on Cogitosus, in Patrologia Latina 72",
+        "author": "Basnage",
+        "date": "1878",
+        "language": "Latin",
+        "file": "cic/texts/john-biclaro-leander-pl72-lat_migne1878.txt"
+      },
+      {
+        "title": "Life of Saint Patrick, preface, with White's introduction, in St. Patrick, His Writings and Life",
+        "author": "Muirchu maccu Machtheni; Newport J. D. White (tr.)",
+        "date": "1920",
+        "language": "English translation",
+        "file": "cic/texts/patrick_writings-and-life-with-muirchu-eng_white1920.txt"
+      },
+      {
+        "title": "The Tripartite Life of Patrick, volume 2, index",
+        "author": "Whitley Stokes (ed.)",
+        "date": "1887",
+        "language": "Latin, with English index",
+        "file": "cic/texts/stokes_tripartite-life-of-patrick-v2-lat-muirchu-tirechan-confession_1887.txt"
+      },
+      {
+        "title": "The Life of Saint Severinus, introduction",
+        "author": "George W. Robinson (tr.)",
+        "date": "1914",
+        "language": "English",
+        "file": "cic/texts/eugippius_life-of-saint-severinus_robinson1914.txt"
+      }
+    ]
+  }
+}
