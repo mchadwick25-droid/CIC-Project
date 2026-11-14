@@ -617,8 +617,8 @@
     "formation_confidence": "Documented"
    },
    {
-    "claim": "Card: the chronicle under Isidore Pacensis, quoted by Antonio: 'Huic sanctae synodo inter ceteros Braulio Caesaraugustanus episcopus claruit: cujus eloquentiam ... Roma ... per epistolare alloquium satis mirata est'; on Toledo VI: 'piam doctrinam Christianis mentibus decenter infundit, cujus et opus nunc usque Ecclesia relegit'; Mommsen prints it as the 'Continuatio Hispana a. DCCLIV', known 'sub nomine ficticio Isidori Pacensis'; 'piam doctrinam' rendered 'devout teaching'",
-    "witness": "PL80 (paulus-emeritanus-braulio-sisebut-pl80-lat_migne1863.txt) l.51545-51556; MGH11 (chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894.txt) l.16363, 31309, 32613-32626",
+    "claim": "Card: the chronicle under Isidore Pacensis, quoted by Antonio: 'Huic sanctae synodo inter ceteros Braulio Caesaraugustanus episcopus claruit: cujus eloquentiam ... Roma ... per epistolare alloquium satis mirata est'; on Toledo VI: 'piam doctrinam Christianis mentibus decenter infundit, cujus et opus nunc usque Ecclesia relegit'; Mommsen prints it as the 'Continuatio Hispana a. DCCLIV', known 'sub nomine ficticio Isidori Pacensis'; 'piam doctrinam' rendered 'devout teaching'; council numbers: Mommsen's note 5 for IV; Antonio's 'sextae, juxta nostrarum editionum ordinem, quam ipse tamen quintam vocat' for VI; 'opuscula' in Mommsen",
+    "witness": "PL80 (paulus-emeritanus-braulio-sisebut-pl80-lat_migne1863.txt) l.51545-51556; MGH11 (chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894.txt) l.16363, 31309, 32613-32626; MGH11 l.32609-32614, 32673-32675; PL80 l.51558-51560",
     "formation_confidence": "Documented"
    },
    {
@@ -642,7 +642,7 @@
     "claim": "Braulio's authorship of the Praenotatio librorum Isidori",
     "sides": [
      "Mayansius, as reported in a note to Antonio's notice: 'falso eam Praenotationem Braulioni tributam asserit' (PL80 l.52007-52008, 52036-52040)",
-     "The same note: the consensus of the old codices and nearly all bibliographers keeps it as Braulio's (PL80 l.52054-52061); Brehaut treats it as his (BREHAUT l.731-735)"
+     "The same note: the consensus of all the old codices its writer had seen and nearly all bibliographers keeps it as Braulio's (PL80 l.52054-52061); Brehaut treats it as his (BREHAUT l.731-735)"
     ]
    }
   ],
@@ -724,8 +724,8 @@
     "formation_confidence": "Inferential-Thin"
    },
    {
-    "claim": "Card: Antonio: 'Ordinatus igitur anno 659, ad superos abiit anno 669, die Januarii 25, ad quem diem refertur ejus memoria in Romano Martyrologio'",
-    "witness": "PL96 (ildefonsus-julian-toledo-pl96-lat_migne1862.txt) l.657-661",
+    "claim": "Card: Antonio: 'Ordinatus igitur anno 659, ad superos abiit anno 669, die Januarii 25, ad quem diem refertur ejus memoria in Romano Martyrologio'; Tamayo's martyrology at 25 January",
+    "witness": "PL96 (ildefonsus-julian-toledo-pl96-lat_migne1862.txt) l.657-661; l.724, 767, 862",
     "formation_confidence": "Dominant Modern Reconstruction"
    },
    {
@@ -754,7 +754,7 @@
     "claim": "His death day",
     "sides": [
      "Julian's Elogium: 'decimo Kalendas Februarii', 23 January (PL96 l.3720); the Mozarabic calendar in the Missale mixtum, 'X. Obitum domni Ildefonsi epi. Toleto.' (PL85, mozarabic-liturgy_missale-mixtum-pl85-lat_migne1862.txt l.93258)",
-     "Nicolás Antonio's notice prints 'die Januarii 25' (PL96 l.659), in a sentence quoting Julian's X Kal. Feb.; possibly OCR or a slip"
+     "Nicolás Antonio: 'die Januarii 25, ad quem diem refertur ejus memoria in Romano Martyrologio' (PL96 l.659-661), in a sentence quoting Julian's X Kal. Feb.; the notice cites Tamayo's martyrology at 25 January (l.724, 767, 862)"
     ]
    }
   ],
@@ -803,7 +803,7 @@
     "formation_confidence": "Documented"
    },
    {
-    "claim": "On the Proof of the Sixth Age, dedicated 'Inclyto et glorioso ... domino Ervigio regi'; the surgeon image 'Peritorum mos est iste medicorum, ubilibet vulnus serpit in corpore, ferro vulneris materiam praevenire'; 'Horum igitur membrorum evitandam putredinem linguas dixerim Judaeorum, qui promissum ex lege Christum Dei Filium necdum adhuc natum fuisse putant'; 'impositum mihi a vobis onus'; 'Hujus admirabilis medelae peritiam credo vestram ... voluisse imitari clementiam'; 'ne locus vulneris sana membra contingat'; 'sanis adhuc membris me praecipis impendere curam'; the Jews' argument that by the Hebrew books the world is in its fifth age",
+    "claim": "On the Proof of the Sixth Age, dedicated 'Inclyto et glorioso ... domino Ervigio regi'; the surgeon image 'Peritorum mos est iste medicorum, ubilibet vulnus serpit in corpore, ferro vulneris materiam praevenire'; 'Horum igitur membrorum evitandam putredinem linguas dixerim Judaeorum, qui promissum ex lege Christum Dei Filium necdum adhuc natum fuisse putant'; 'impositum mihi a vobis onus'; 'Hujus admirabilis medelae peritiam credo vestram ... voluisse imitari clementiam'; 'ne locus vulneris sana membra contingat'; 'sanis adhuc membris me praecipis impendere curam'; the Jews' argument that by the Hebrew books the world is in its fifth age. The fifth-age argument is told as Julian's report ('pestilentiosis objectibus garrientes'), l.45614-45619",
     "witness": "PL96 (ildefonsus-julian-toledo-pl96-lat_migne1862.txt) l.413, 45561-45569, 45611-45614, 45657-45660 [OCR 'Judacorum', 'lingnas']",
     "formation_confidence": "Documented"
    },
@@ -870,7 +870,8 @@
     "claim": "When he became bishop",
     "sides": [
      "Nicolás Antonio: Quiricus died in 681 (PL96 l.36887-36889)",
-     "The Toledo edition's note: consecrated 29 January 680, from Felix's count (l.37362-37389)"
+     "The Toledo edition's note: consecrated 29 January 680, from Felix's count (l.37362-37389)",
+     "Ambrosius Morales, as reported and rejected by the Toledo note: no fixed start, at most nine years, four months and five or six days (PL96 l.37392-37397)"
     ]
    }
   ],
