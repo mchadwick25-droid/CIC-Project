@@ -320,7 +320,7 @@
       },
       {
         "claim": "Zachariah's work ended in 491; the compiler followed him in books three to six only, and the name of Zachariah was wrongly attached to the compiler by later writers",
-        "witness": "Brooks, Introduction (l.310-321); Land ascribes book seven to him as well (note, l.330); Land as the first editor of the Syriac (1870): Kugener, Vie de Sévère (l.17146-17151)",
+        "witness": "Brooks, Introduction (l.310-321); Land ascribes book seven to him as well (note, l.330); Land as editor of the Syriac in 1870; Mai had published extracts in 1838 (Brooks l.255-259): Kugener, Vie de Sévère (l.17146-17151)",
         "formation_confidence": "Dominant Modern Reconstruction"
       },
       {
@@ -357,7 +357,7 @@
     "contested_claims": [
       {
         "claim": "Whether book seven of the chronicle is Zachariah's",
-        "sides": "Brooks: no; Zachariah ended in 491 and the compiler followed him in books three to six only (l.310-321). Land, the chronicle's first editor (Kugener l.17146-17151), as Brooks reports: book seven is Zachariah's too (l.330)."
+        "sides": "Brooks: no; Zachariah ended in 491 and the compiler followed him in books three to six only (l.310-321). Land, its editor of 1870 (Kugener l.17146-17151), as Brooks reports: book seven is Zachariah's too (l.330)."
       }
     ],
     "absent_details": [
@@ -507,7 +507,7 @@
         "formation_confidence": "Documented"
       },
       {
-        "claim": "Crowds of virgins came, renouncing goods and parents, and sought 'Caesarii patris, Caesariae matris' gremium; they were enclosed so that none might go out of the convent door until the day of her death",
+        "claim": "Crowds of virgins came, renouncing goods and parents, and sought 'Caesarii patris, Caesariae matris' gremium; they were enclosed so that none might go out of the convent door until the day of their death ('usque diem transitus earum')",
         "witness": "Life I,35 (krusch1896 l.37212-37218)",
         "formation_confidence": "Documented"
       },
@@ -550,11 +550,6 @@
         "claim": "Two of Caesarius's letters are headed to Caesaria, abbess ('Caesariae sanctae sorori abbatissae'); Migne's editors say they are reported as sent to his sister",
         "witness": "pl67 l.86506-86507, 86729-86732; Migne's preface (l.76990-76997: 'missae feruntur ad Caesariam sororem suam')",
         "formation_confidence": "Contested"
-      },
-      {
-        "claim": "Venantius Fortunatus more than once held up the pious sister Casaria as an example",
-        "witness": "Krusch's introduction (krusch1896 l.35667-35668); Fortunatus not held",
-        "formation_confidence": "Inferential-Thin"
       },
       {
         "claim": "The manuscripts spell her Caesaria and Casaria; Krusch would prefer Casaria",
