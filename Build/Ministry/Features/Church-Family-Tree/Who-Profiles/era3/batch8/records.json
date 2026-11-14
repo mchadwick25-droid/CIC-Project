@@ -1137,6 +1137,11 @@
     "claim": "Hugh Williams: 'Brendan, who founded Clonfert, and Kieran (Cieran) the founder of Clonmacnois, were brought up at Clonard'. A plain statement that a Brendan founded Clonfert; it says nothing of Adomnan's Brendan Mocu Alti",
     "witness": "gildas williams1899 l.9110-9112",
     "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Bollandist note: Cluain ferta founded by S. Brandano; says nothing of Adomnan's Brendan Mocu Alti",
+    "witness": "acta-sanctorum augusti-1 l.58935-58941 (OCR 'ttnditum', 'Cleiefart')",
+    "formation_confidence": "Widely Accepted"
    }
   ],
   "contested_claims": [
@@ -1145,7 +1150,7 @@
     "sides": [
      "Huyshe: yes, from the clan name (adomnan huyshe1905 l.3950, 10278-10279)",
      "Late Lives: son of Finnlug, of the Altraige / grandson of Altus, without naming Adomnan (stokes lismore1890 l.21207-21225; rees1853 l.11366)",
-     "Book of Lismore story: 'Brenainn maccu Altai was in Clonfert' (stokes lismore1890 l.878-881); Bollandist note: Cluain ferta founded by S. Brandano (acta-sanctorum augusti-1 l.58936-58941)",
+     "Book of Lismore story: 'Brenainn maccu Altai was in Clonfert' (stokes lismore1890 l.878-881)",
      "No held source near his time names Clonfert"
     ]
    },
