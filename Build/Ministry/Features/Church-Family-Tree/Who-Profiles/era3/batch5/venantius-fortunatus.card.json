@@ -5,7 +5,7 @@
     "Fortunatus"
   ],
   "knownFor": "Poet from northern Italy who came to Gaul for Martin of Tours, settled at Poitiers beside Radegund's monastery of the Holy Cross, and wrote verse for kings and bishops, Lives of saints, and hymns of the Cross.",
-  "dates": "No ancient source used here gives any year of his life. Born about 530 and died about 600 in W. D. Foulke's note to Paul the Deacon; M. A. Luchi also puts his birth about 530 and his death early in the seventh century; Hugh Williams says he died about 609. Bruno Krusch puts his coming to Gaul in 565; Friedrich Leo's index places it between 561 and 567",
+  "dates": "No ancient source used here gives any year of his life. Born about 530 and died about 600 in W. D. Foulke's note to Paul the Deacon; M. A. Luchi reports the belief that he was born about 530, and puts his death early in the seventh century; Hugh Williams says he died about 609. Bruno Krusch puts his coming to Gaul in 565; Friedrich Leo's index places it between 561 and 567",
   "place": "Born near Ceneda and Treviso in northern Italy; trained at Ravenna; Poitiers",
   "tradition": "Merovingian Gallic Christianity",
   "role": "Poet; priest, and bishop of Poitiers in Paul the Deacon's account",
@@ -36,9 +36,9 @@
     ]
   },
   "uncertain": [
-    "Whether and when he was bishop. Paul the Deacon says he was ordained at Poitiers, first priest and then bishop, and Baudonivia calls him bishop. Gregory of Tours calls him a priest in every held mention. O. M. Dalton says he was consecrated only after Gregory's death, citing his own Introduction, which is not held; M. A. Luchi gives the same reason and says the year is hard to fix. No held source dates the bishopric. An unsigned note in Migne answers earlier scholars who struck him from the list of the bishops of Poitiers.",
+    "Whether and when he was bishop. Paul the Deacon says he was ordained at Poitiers, first priest and then bishop, and Baudonivia calls him bishop. Gregory of Tours calls him a priest in every held mention. O. M. Dalton, Gregory's English translator, thinks he was consecrated only after Gregory's death, citing his own Introduction, which is not held; M. A. Luchi gives the same reason and says the year is hard to fix. No held source dates the bishopric. An unsigned note in Migne answers earlier scholars who struck him from the list of the bishops of Poitiers.",
     "His years. No ancient source used here gives any year of his birth, his coming to Gaul or his death. The years on this card are W. D. Foulke's, M. A. Luchi's, Hugh Williams's, Bruno Krusch's and Friedrich Leo's. Paul the Deacon says only that he left Italy a little before the Lombards invaded it.",
-    "The healing of his eyes at Ravenna is told three ways. Paul the Deacon puts it at the church of Saint Paul and Saint John, at a lamp in a window by an altar of Martin. Gregory of Tours, who had it from Fortunatus, puts the lamp beneath a painted image of Martin. Fortunatus's own poem says Martin gave the light back to Felix of Treviso and to him. W. D. Foulke says Paul took the story from Fortunatus's poem.",
+    "The healing of his eyes at Ravenna is told three ways. Paul the Deacon puts it at the church of Saint Paul and Saint John, at a lamp in a window by an altar of Martin. Gregory of Tours, who had it from Fortunatus, puts the lamp beneath a painted image of Martin. Fortunatus's own poem says Martin gave the light back to Felix of Treviso and to him. W. D. Foulke, citing R. Jacobi's study of Paul's sources, says Paul took the story from Fortunatus's poem.",
     "His hymns. No English translation of them is held; the Latin is in Friedrich Leo's edition and, under his name, in Migne's volume of Alcuin. The count of 600 hymns is W. D. Foulke's, with no held source behind it.",
     "Some Lives under his name. Bruno Krusch denies him the Life of Medard, and says the Life of Remigius is wrongly given to him; others gave the Life of Marcellus to another Fortunatus, which Krusch rejects.",
     "Fortunatus of Grado, Fortunatus of Naples and Fortunatus of Fano are other men."
@@ -88,6 +88,7 @@
       {
         "title": "Life of Venantius Fortunatus, reprinted in Patrologia Latina 88",
         "author": "M. A. Luchi",
+        "date": null,
         "language": "Latin",
         "file": "cic/texts/regula-magistri-cresconius-pl88-lat_migne1862.txt"
       },
