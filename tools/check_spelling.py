@@ -72,7 +72,7 @@ _QUOTED = re.compile(
 _NAMES = re.compile(
     r"Pontifical Institute of Mediaeval Studies|Mediaeval Academy|Encyclopaedia (?:Iranica|Britannica|of Islam)"
     r"|On the Catechising of the Uninstructed"
-    r"|Defence against the Arians|Defence of Dionysius|Refutation and Defence|On the Advent of Our Saviour|Liberian Catalogue"
+    r"|Defence against the Arians|Defence of Dionysius|Refutation and Defence|On the Advent of Our Saviour|Liberian Catalogue|Catalogue of (?:the Saints of Ireland|writers|Abdisho)"
     r"|(?:In )?Defence (?:of|Against|before) (?:the |his |His |Himself|Dionysius|Origen|Ries|English)[\w' ]*[A-Z]\w*"
     r"|Programme to Combat Racism"
     r"|African Civilisation|Carey\S{1,7}s Enquiry|An Enquiry into the Obligations|Le Theatre sacre des Cevennes"

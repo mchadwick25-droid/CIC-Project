@@ -90,6 +90,20 @@
         "date": null,
         "language": "French",
         "file": "cic/texts/zacharias-scholasticus_vie-de-severe-po2-syr-fra_kugener1903.txt"
+      },
+      {
+        "title": "Introductory Note to Part I, in The Ante-Nicene Fathers, volume 3",
+        "author": null,
+        "date": null,
+        "language": "English",
+        "file": "cic/texts/anf03_tertullian.xml"
+      },
+      {
+        "title": "Note to section 91 of the Life of Antony, in Nicene and Post-Nicene Fathers, second series, volume 4",
+        "author": null,
+        "date": null,
+        "language": "English",
+        "file": "cic/texts/npnf204_athanasius-select-works-letters.xml"
       }
     ]
   }

@@ -2814,6 +2814,7 @@ Round 2, a targeted recheck, found all of them resolved, with 3 new blocking poi
 
 The approved files are in `Who-Profiles/era3/batch8/` in this folder, and the reviews are in `Build/Ministry/Operations/Audits/2026-11-14_who-profiles-era3-batch8/`. No census, record or site change is made, so there is no data release number. Approved to proceed (coordinator, 2026-11-14; Mark may overrule).
 
+<<<<<<< HEAD
 ## 2026-11-14 — Eras 4 to 7 built in full: every Who row whose sources are held (Mark, 2026-11-14)
 
 **Decided (Mark, 2026-11-14, picked from options, relayed by the coordinator).** Eras 4 to 7 of the Church Family Tree are built in full. Every WHO row whose sources are held gets a Who profile, not only the majors. Mark's choice: "Full builds, 4-7 (Recommended)". The era scans for eras 4 to 7 are the lists the batches are drawn from, and a WANTED row waits until its named source is held. The first batch under this ruling is era 4 batch 1. Approved to proceed (Mark, 2026-11-14).
@@ -2850,3 +2851,34 @@ Round 2, a targeted recheck in two parts, found Boniface and Alcuin clean and th
 **What is still open.** Open-Gaps 254, "Era 4 Who batch 1" (2026-11-14).
 
 The approved files are in `Who-Profiles/era4/batch1/` in this folder, and the reviews are in `Build/Ministry/Operations/Audits/2026-11-14_who-profiles-era4-batch1/`. No census, record or site change is made, so there is no data release number. Approved to proceed (coordinator, 2026-11-14; Mark may overrule).
+>>>>>>> origin/main
+
+## 2026-11-14 — Era 3 on the live tree: 76 Who profiles and 3 major councils (Mark, 2026-11-14; data release 42)
+
+**Decided (Mark, 2026-11-14, through the coordinator).** He saw a local-build preview (https://claude.ai/artifact/A1K3p6vHGqX4om7mwrAXk4, version 2) and approved it: "Approve". The worker's recommendation on each of the preview's four questions stands as approved; the coordinator had accepted each one before Mark's approval. The job, as the coordinator gave it: era 3 on the live tree as data release 42, the same way as release 41, with Open-Gaps 247, 249, 251, 252 and 253 folded in.
+
+**What went in.** 76 person entries from `Who-Profiles/era3/batch1-8` and 3 major-council entries from `Council-Profiles/era3`. Each person has the brief as its text, the card, a tree page and a place in its tradition's Who and its river's Who; 71 are told within a tradition and 5 within none. 31 voice rows in the traditions that tell these people became links to the entries (Barsanuphius and John, two rows, became their one paired entry). Dioscorus of Alexandria now links from the Chalcedon council's Who, and Primasius of Hadrumetum from Constantinople 553's. There is no audio player on any of them (recording stays on hold, Open-Gaps 218). Every rule of release 41 carries over: the schema, the controls, the validator, the quotation check and the spelling method.
+
+**Placings.** Approved on the preview's question 2, settling Open-Gaps 242 and 252. Boethius is told within no tradition, in the Latin West river: he died in 524, before Justinian's reign, which the scan's placing assumed, and no census tradition is the Catholic church of Ostrogothic Italy. Victor of Vita and Fulgentius of Ruspe are told within no tradition, in the Africa river: the Homoian entry of the Vandal kingdom, which their cards named, would set two Nicene bishops in the river labeled "Non-Nicene Traditions", which review round 1 found misleading. Procopius of Caesarea and Agathias, the two outside witnesses, are told within none in the Greek East river, as Ammianus Marcellinus is in the Latin West. Columbanus is told within Insular / Irish Monastic Christianity (Bangor, and the scan's first placing), Faustus of Riez within Gallic Monastic-Ascetic Christianity (abbot of Lérins), and Samson of Dol within British and Welsh Christianity (the census has no Breton movement). The worker's calls that follow the batch cards, which Mark may overrule: Constantius of Lyon in British and Welsh Christianity, as the writer of Germanus's British mission; Gennadius of Marseilles in Gallic Monastic-Ascetic Christianity, the Lérins and Marseilles line, though its census span ends at 450.
+
+**Short dates, map years and places.** The build wrote each person's short dates line from the card's own dates note, and the review checked each against it. Where the sources give no year, the map year is the Who scan's or the Library file's, as in release 41 (Open-Gaps 255). A place label names at most two places; ids are copied only from census rows, so many towns show their name with no "today in" country.
+
+**Quotations.** Of 36 quotation failures in the first run, none was a misquotation. Many were faults in old scans: misread letters, a dropped space, a word broken across lines without a hyphen, and running heads or footnotes inside a sentence. They are now written down as 13 readings, by file and line, in `tools/quote_scan_readings.json`, with what the printed page reads; a dropped range must hold exactly the lines it declares. One needed two held sources on the Victor of Tunnuna card, the notes in the Ante-Nicene and Nicene Fathers that call him "Victor of Tunis". Fourteen are the profiles' own English of a Latin or French line. Approved on the preview's question 1: they keep their quotation marks, with "in modern words" beside them. They are listed by entry, span and original in `tools/quote_renderings.json`; the check skips exactly those spans and fails when one no longer stands in its entry. Review round 1 checked each against its original, clause by clause. Six profiles had renderings with no such mark, or quotation marks on words that were not quotations. Babai's and John Moschus's renderings are now marked and listed. Victor of Vita's and Moses of Khoren's now quote the original ("nostrae civitatis", "nouveau Platon"); Zachariah's name form lost its quotation marks; and the Caesaria card now says plainly which letter greets her as a holy sister.
+
+**Fixes folded in (old and new text in the audit's `Census_Text_Changes.md`).**
+- Open-Gaps 247: the David line of British and Welsh Christianity no longer gives a death "around 589" or the patron-saint title, which no held line carries; the annals give 588 or 601. The Gildas line no longer calls him "the only substantial contemporary British voice". The Julian and Benedict voices lines now agree with their new cards.
+- Open-Gaps 249: Dioscorus is a person entry, linked from Chalcedon.
+- Open-Gaps 251: John of Biclaro's "Maccurritae" are no longer read as the Makurians without question; Theodor Mommsen, his editor, thought them a people of Mauretania. Isidore no longer "presides" at Toledo IV; his name stands first among its signatures. Faustus is no longer "the first abbot of Lérins".
+- Open-Gaps 252: Boethius and Fulgentius, as above.
+- Open-Gaps 253: the Ladder is no longer said to be read every Lent; Liberatus is no longer cited for Reparatus's deposition; the Nisibis story of the Church of the East now gives each event to the witness that holds it, and drops a governor's protection no held line gives. The Dioscorus records note now names the Arabic and Ethiopic synaxaries.
+
+**Wording changed (listed for the Opus recheck).** American spelling in the profiles' own prose, about 40 words; no quotation and no title of a work changed. "Catalogue of the Saints of Ireland", "Catalogue of writers" and "Catalogue of Abdisho" are now in the spelling check's list of names. The rendering marks and the card sentences above.
+
+**Review.** Three rounds by fresh Opus agents that had not seen the drafting, at full effort in every round. Round 1, the full review, found 2 blocking points (Victor of Vita and Fulgentius in the Non-Nicene river; a governor's protection in the Nisibis story that no held line gives), 8 substantial and 10 minor. Round 2, a targeted recheck, found no blocking point, 4 substantial (a verb, Philoxenus's dates line, the Ladder's "him", and Labourt's reading set against the Chronicle) and 6 minor. Round 3 approved it to proceed, with 3 minor points taken as wording. Every changed line of participant text was checked, including for AI tells and generic voice. Every quotation was checked against its vendored file. No paid calls were made.
+
+**Also changed.** The data page and its citation examples show release 42 (14 November 2026). Release 42 follows release 41 (PR #1647).
+
+**What is still open.** Open-Gaps 255. Open-Gaps 217 (caps, major mark, placement) is carried.
+
+Approved to proceed (Mark, 2026-11-14).
+=======

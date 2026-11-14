@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Babai the Great — Church Family Tree</title>
+<meta name="description" content="A student fell asleep reading in the hospital at Nisibis. He heard a terrible voice, the Chronicle of Seert says, ordering him to go to Abraham, head of the…">
+<meta property="og:title" content="Babai the Great">
+<meta property="og:description" content="A student fell asleep reading in the hospital at Nisibis. He heard a terrible voice, the Chronicle of Seert says, ordering him to go to Abraham, head of the…">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.churchfamilytree.com/tree/babai-the-great">
+<meta property="og:image" content="https://churchinconversation.com/assets/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,700;1,400;1,500&family=Alegreya+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+:root{
+  --parchment:#F6F6F2; --vellum:#FFFFFF;
+  --ink:#2A2521; --ink-faded:#6C6257; --madder:#A13E2B; --madder-deep:#7E2F20;
+  --tyrian:#6B3FA0; --graphite:#8A837C; --rule:rgba(241,233,221,.16);
+  --ground:#17130F; --surface:#1E1913;
+  --text:#F1E9DD; --muted:#B8AEA1;
+  --action:#E08C74; --action-hover:#F0A98F;
+  --control:#A39B92;
+  --link-grow:#86cf9c; --link-influence:#c79a5e; --link-conflict:#f06a64; --link-contact:#a39a8c;
+  --btn-fill:#A13E2B; --btn-text:#F6EFE0; --btn-edge:#E08C74;
+  --serif:'Alegreya','Iowan Old Style',Georgia,serif;
+  --sans:'Alegreya Sans','Trebuchet MS',system-ui,sans-serif;
+  --wide:64rem; --col:44rem; --measure:38rem;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--ground);color:var(--text);font-family:var(--serif);font-size:1.0625rem;line-height:1.65}
+a{color:var(--action);text-decoration-thickness:1px;text-underline-offset:.16em}
+a:hover{color:var(--action-hover)}
+:focus-visible{outline:2px solid var(--action);outline-offset:3px;border-radius:2px}
+img{max-width:100%;height:auto;display:block}
+h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.15;margin:0;text-wrap:balance}
+h1{font-size:2rem;margin-bottom:1rem}
+h2{font-size:1.4rem;margin:1.5rem 0 .75rem}
+h3{font-size:1.1rem;margin:1rem 0 .5rem}
+p{margin:0 0 1rem}
+ul{padding-left:1.5rem}
+li{margin-bottom:.5rem}
+.vh{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.skip-link{position:absolute;left:-999px;top:auto;background:var(--ink);color:var(--parchment);padding:.6rem 1rem;z-index:100;font-family:var(--sans)}
+.skip-link:focus{position:fixed;left:1rem;top:1rem}
+.eyebrow{font-family:var(--sans);font-size:.8125rem;letter-spacing:.13em;text-transform:uppercase;color:var(--action);font-weight:600;margin:0 0 .6rem}
+.site-header{background:var(--surface);border-bottom:1px solid var(--rule)}
+.site-header .row{max-width:var(--wide);margin:0 auto;padding:.6rem 1.25rem;display:flex;flex-wrap:wrap;align-items:center;gap:.5rem 1rem}
+.wordmark{font-family:var(--serif);font-weight:700;font-size:1.2rem;letter-spacing:.01em;color:var(--text);text-decoration:none;white-space:nowrap;padding:.5rem 0;display:inline-block}
+.wordmark em{font-style:italic;font-weight:400}
+.page{max-width:var(--col);margin:0 auto;padding:2rem 1.25rem;overflow-wrap:break-word}
+.titleblock{margin-bottom:2rem}
+.ident{font-family:var(--sans);font-size:.9rem;color:var(--muted);margin:0 0 .5rem}
+.kind-label{display:inline-block;font-family:var(--sans);font-size:.9rem;color:var(--muted);border:1px dashed currentColor;border-radius:999px;padding:.1rem .7rem;margin:-.4rem 0 0}
+.lineage-section{margin:1.5rem 0;padding-left:.9rem;border-left:3px solid var(--link-contact)}
+.lineage-section.link-grow{border-left-color:var(--link-grow)}.lineage-section.link-grow h3{color:var(--link-grow)}
+.lineage-section.link-influence{border-left-color:var(--link-influence)}.lineage-section.link-influence h3{color:var(--link-influence)}
+.lineage-section.link-conflict{border-left-color:var(--link-conflict)}.lineage-section.link-conflict h3{color:var(--link-conflict)}
+.lineage-section.link-contact h3{color:var(--link-contact)}
+.lineage-list{list-style:none;padding:0}
+.lineage-list li{margin:0 0 .5rem;padding:0}
+.lineage-list a{color:var(--action)}
+.confidence-note{font-style:italic;color:var(--muted);font-size:.95rem}
+.lineage-major{font-family:var(--sans);font-size:.8rem;letter-spacing:.03em;font-weight:600;color:var(--action);white-space:nowrap}
+.lineage-outcome{display:block;font-size:.95rem;margin-top:.2rem}
+.lineage-confidence{font-family:var(--sans);font-size:.8rem;letter-spacing:.03em;color:var(--muted);border:1px solid currentColor;border-radius:3px;padding:0 4px;white-space:nowrap}
+.sources-list{list-style:none;padding:0}
+.sources-list li{margin:0 0 .75rem;padding:0}
+.sources-list a{font-weight:600}
+.source-type{font-family:var(--sans);font-size:.85rem;color:var(--muted)}
+.source-note{font-size:.95rem;color:var(--muted)}
+.narration{display:flex;align-items:center;gap:.6rem;flex-wrap:wrap;margin:1.5rem 0}
+.narration audio{display:block;height:2.2rem;max-width:220px;width:220px;flex:0 0 auto}
+.narration-disclosure{font-family:var(--sans);font-size:.85rem;color:var(--muted);margin:0}
+.action-links{margin:1.5rem 0;padding:1rem;background:var(--surface);border-radius:4px}
+.action-links p{margin:0 0 .8rem;font-family:var(--sans);font-size:.95rem}
+.action-links a{display:inline-block;padding:.6rem 1rem;background:var(--btn-fill);color:var(--btn-text);text-decoration:none;border-radius:4px;margin-right:.5rem;margin-bottom:.5rem}
+.action-links a:hover{background:var(--madder-deep)}
+.door-quiet{font-family:var(--sans);font-size:.92rem;color:var(--muted);margin:1.5rem 0}
+.told-within{font-family:var(--sans);font-size:.95rem;margin:.4rem 0 0}
+.people-list{list-style:none;padding:0;margin:0}
+.people-list li{margin:.4rem 0}
+.people-list .ident{display:inline;margin:0 0 0 .4rem}
+.people-note{color:var(--muted)}
+.facts{margin:0 0 1.5rem}
+.facts dt{font-family:var(--sans);font-size:.8rem;letter-spacing:.08em;text-transform:uppercase;color:var(--action);margin-top:.7rem}
+.facts dd{margin:.1rem 0 0}
+.part-group{font-family:var(--sans);font-size:.8rem;letter-spacing:.08em;text-transform:uppercase;color:var(--action);margin:1rem 0 .2rem}
+.verdict{font-family:var(--sans);font-size:.78rem;letter-spacing:.04em;color:var(--muted);border:1px dashed currentColor;border-radius:999px;padding:0 .5rem;margin-left:.4rem;white-space:nowrap}
+.source-group{font-family:var(--sans);font-weight:600;margin:1rem 0 .3rem}
+.review-status{font-family:var(--sans);font-size:.92rem;color:var(--muted);margin:2.5rem 0 0;padding-top:1rem;border-top:1px solid var(--rule)}
+.site-footer{border-top:1px solid var(--rule);background:var(--surface);font-family:var(--sans);font-size:.85rem;color:var(--muted);margin-top:3rem;padding:1.5rem 1.25rem}
+.site-footer .row{max-width:var(--wide);margin:0 auto}
+.site-header nav{display:flex;flex-wrap:wrap;gap:.4rem 1rem;align-items:center;margin-left:auto;font-family:var(--sans);font-size:.92rem}
+.site-header nav a{color:var(--action);text-decoration:none;display:inline-flex;align-items:center;min-height:44px}
+.site-header nav a:hover{color:var(--action-hover)}
+.site-header nav .feedback-toggle{min-height:44px}
+.site-footer nav{display:flex;flex-wrap:wrap;gap:.4rem 1.1rem;margin-top:.6rem}
+.site-footer nav a{display:inline-flex;align-items:center;min-height:44px}
+.site-footer a{color:var(--action)}
+.give{display:flex;flex-wrap:wrap;gap:.6rem;margin:1rem 0}
+.give a{display:inline-block;padding:.6rem 1.2rem;background:var(--btn-fill);color:var(--btn-text);text-decoration:none;border-radius:4px}
+.terms{margin:0 0 1rem}
+.terms dt{font-family:var(--sans);font-weight:600;margin-top:.9rem}
+.terms dd{margin:.2rem 0 0}
+.terms svg{display:inline-block;vertical-align:middle;margin-right:.5rem}
+.cite{margin:.4rem 0 1.2rem;padding:.6rem .9rem;border-left:3px solid var(--action);background:var(--surface);overflow-wrap:anywhere}
+.cite-label{font-family:var(--sans);font-weight:600;margin:1rem 0 .2rem}
+</style>
+<link rel="stylesheet" href="../assets/feedback.css">
+</head>
+<body>
+<a href="../" class="skip-link">Skip to the map</a>
+
+<header class="site-header">
+  <div class="row">
+    <a href="../" class="wordmark">Church Family Tree</a>
+    <nav aria-label="Site">
+      <a href="https://churchinconversation.com/">Church in Conversation &rarr;</a>
+      <a href="../support.html">Help us grow</a>
+      <button type="button" class="feedback-toggle" id="feedback-toggle" aria-haspopup="dialog" aria-expanded="false">Tell us what you think</button>
+    </nav>
+  </div>
+</header>
+
+<main class="page" id="content">
+  <div class="titleblock">
+    <p class="ident">The Age of Monks and Empires · died after 628 · Nisibis, Mount Izla</p>
+    <p class="ident">Nisibis, today in Turkey · Mount Izla</p>
+    <h1>Babai the Great</h1>
+    <p class="told-within">A person. The tradition that tells their story: <a href="the-church-of-the-east-under-persia.html">The Church of the East under Persia</a>.</p>
+    
+    
+  </div>
+  <dl class="facts"><dt>Known for</dt><dd>Abbot of the great monastery on Mount Izla who, while the Church of the East in the Persian empire had no head under King Khosrau Parwez, visited its monasteries to drive out teachings it judged heretical. He wrote against Henana of Adiabene and set out, in his Book of the Union, how Christ is both God and man.</dd><dt>Also called</dt><dd>Mar Babhai, Babai of Izla</dd><dt>Dates</dt><dd>No ancient line used here gives his birth year. The Chronicle of Seert says he died at seventy-five in the thirty-eighth year of Khosrau, and Addai Scher reckons from it a birth in 552 or 553 and a succession as abbot in 603 or 604. Thomas of Marga has him alive after Khosrau&#039;s murder, which E. A. Wallis Budge dates to 628; Budge puts his flourishing about 569 to 628</dd><dt>Place</dt><dd>Beth &#039;Ainatha in Beth Zabdai by origin; Nisibis; the great monastery on Mount Izla</dd><dt>Role</dt><dd>Abbot of the great monastery on Mount Izla; visitor of the monasteries; theologian</dd></dl>
+
+  
+
+  <section>
+    <h2>About This Person</h2>
+    
+    <div class="reading"><p>A student fell asleep reading in the hospital at Nisibis. He heard a terrible voice, the Chronicle of Seert says, ordering him to go to Abraham, head of the monks on Mount Izla. The student, Babai, later called the Great, gave away his wealth but sixty gold coins for the monks.</p><p>Babai was a monk of the Church of the East, in the Persian empire, in the late 500s and early 600s. His life comes from later admirers, in this Arabic chronicle and in the Book of Governors by Thomas of Marga, which E. A. Wallis Budge dates to 840.</p><p>After Abraham and Dadisho, Babai became the third head of the monastery on Izla. Thomas calls him learned and wise, but somewhat hasty of speech and harsh in command. He tells how Babai drove out a holy monk named Jacob, and the other fathers rebuked him. Many left and founded monasteries across the East, among them Jacob&#039;s Beth Abe, Thomas&#039;s own house.</p><p>When the church&#039;s head died, King Khosrau Parwez let no successor be chosen. Three metropolitans asked Babai to visit the monasteries and drive out heretics, Thomas says, and he did so until the king was murdered. Babai wrote against Henana of Adiabene, master of the school of Nisibis. His Life of the Izla martyr George charges Henana with teaching fate and denying the resurrection of the body. Those charges rest on Babai, whom the German scholar Oskar Braun calls passionate.</p><p>In his Book of the Union, which J. Labourt quotes, Babai wrote of how Christ is God and man. &quot;We say: Christ died, the Son died, through the Son all was created and made,&quot; he writes, in modern words. The death belongs to the humanity and the making to the divinity, he explains. Yet in the union there are not two Sons.</p><p>The chronicle says he died at seventy-five, in the king&#039;s thirty-eighth year, before the king&#039;s death, as its editor Addai Scher reads it. But Thomas says that after the king&#039;s murder the fathers begged him to lead the church, and he refused.</p><p>Thomas writes that an angel with a fiery sword came to his cell. It had served him as stand-in for the church&#039;s head, and must now serve the new one. &quot;If I had known that thou wast with me,&quot; Babai said, &quot;I would, with all care, have accepted this great work; but now depart in peace, and pray for me.&quot;</p></div>
+  </section>
+
+  
+  
+  <section><h2>Key Works</h2><ul><li><b>Book of the Union</b>: on the union of God and man in Christ, listed by the Chronicle of Seert and by Abdisho of Nisibis. Addai Scher says a manuscript survives; J. Labourt quotes passages in French from an unpublished copy that J.-B. Chabot made available to him</li><li><b>Life of the martyr George</b>: a monk of Izla, once a Magian named Mihramgushnasp, put to death under Khosrau. Oskar Braun translates the Life into German. He shortens its long introduction and leaves out or sums up several passages, two of which he calls of no substance. J.-B. Chabot gives two passages in French, among them the charges against Henana of Adiabene; Scher says Paul Bedjan published the Syriac</li><li><b>Short commentary on the words of Evagrius</b>: listed by the Chronicle of Seert; Addai Scher says a manuscript is in the Vatican</li></ul></section><section><h2>Legacy</h2><h3>What traces to them</h3><ul><li>Thomas of Marga says eighty-four of his works were preserved in his day and held in honor by the church; Abdisho of Nisibis counts eighty-three.</li><li>J. Labourt judges that his writings, by their wide spread, helped the official teaching of his church on Christ to prevail.</li><li>Thomas tells that many monks who left Izla in the quarrel over the monk Jacob founded monasteries across the East, Jacob&#039;s Beth Abe among them.</li><li>The Chronicle of Seert says he was too weak and old to join the bishops&#039; debate before Khosrau, but helped them with his pen. Addai Scher dates the debate to 612.</li></ul><h3>How they're remembered</h3><ul><li>Ishoyahb, a bishop who later became catholicos as Ishoyahb III, wrote to him praising the zeal that had brought the faith through many years of storms, and wrote to the monks of Izla on the death of their great and most illustrious leader.</li><li>Thomas of Marga calls him learned and wise, and leaves out the ban he laid on Jacob out of respect for him.</li><li>W. A. Wigram says that Babai, though not a bishop, acted as patriarch as far as authority went.</li></ul></section><section><h2>What Is Uncertain</h2><ul><li>His life is told by later admirers. An anonymous Syriac chronicle that Ignazio Guidi edited also praises him. It tells of a quarrel between him and Babai the Little that lasted to the end of their lives. The Chronicle of Seert is a later Arabic history, and Thomas of Marga wrote about 840 by E. A. Wallis Budge&#039;s date, at Beth Abe, the house founded by the monk Jacob whom Babai drove out. The nearest witness is Ishoyahb, later catholicos as Ishoyahb III, whose letters to him and on his death survive in Rubens Duval&#039;s Latin.</li><li>The charges against Henana of Adiabene. They rest on Babai&#039;s own writings, the Life of George and, as J. Labourt reports it, the Book of the Union. Oskar Braun calls Babai passionate and speaks of his exaggerations and contradictions; Labourt calls him Henana&#039;s antagonist.</li><li>His end. The Chronicle of Seert says he died at seventy-five in Khosrau&#039;s thirty-eighth year, which its editor Addai Scher reads as before the king&#039;s death. Thomas of Marga says that after Khosrau&#039;s murder the fathers begged him to become catholicos and he refused. Labourt thinks the offer was made only for form.</li><li>His years as abbot. The Chronicle of Seert says he ruled the monastery twenty-four years, and Scher reckons he followed his predecessor Dadisho in 603 or 604. J. Labourt puts Dadisho&#039;s death between 615 and 620; a word before the dates cannot be read in the Library&#039;s text of his page.</li><li>His part in the vacancy. Thomas says three metropolitans asked him to visit the monasteries; the angel in Thomas&#039;s story calls him the vicar of the catholicos. The Arabic histories of Mari and &#039;Amr survive here in Enrico Gismondi&#039;s Latin. They say the archdeacon Mar Aba and Mar Babai the Great governed the church while it had no head. Mari counts seventeen years. J.-B. Chabot follows them.</li><li>Namesakes. He is not Babai the catholicos of 497 to 502 in J.-B. Chabot&#039;s dates, nor Babai the Scribe, whom Abdisho of Nisibis lists. Nor is he his contemporary Babai of Nisibis, also called bar Nisibnaye, a monk who came out of Izla. The anonymous chronicle Ignazio Guidi edited says that monk was called Babai the Little. Babai the Great&#039;s followers, it says, let no one into their monastery who would not anathematize him. E. A. Wallis Budge instead puts a Babai bar Nesibhnaye, famous for his voice, under the catholicos Selibha-zekha. That is the time Thomas gives for Rabban Babai of Gebilta, the singer and founder of schools.</li></ul></section>
+  
+
+  
+
+  <section>
+    <h2>Sources</h2>
+    <p class="source-group">Their own words</p><ul class="sources-list"><li>Life of the martyr George (Mar Giwargis), in Ausgewählte Akten persischer Märtyrer (German tr. Oskar Braun) — <span class="source-note">German translation</span></li><li>Life of the martyr George, two passages in the Synodicon orientale (French tr. J.-B. Chabot) — <span class="source-note">French translation</span></li><li>Book of the Union, passages quoted in Le christianisme dans l&#039;empire perse (French tr. J. Labourt) — <span class="source-note">French translation</span></li></ul><p class="source-group">Written about them</p><ul class="sources-list"><li>The Book of Governors, volume 2, Book I (English tr. E. A. Wallis Budge) — <span class="source-note">Thomas of Marga · 1893 · English translation</span></li><li>Chronicle of Seert, second part, chapter LXXXIV and others (French tr. Addai Scher) — <span class="source-note">Anonymous · 1919 · French translation</span></li><li>On the patriarchs of the East, life of Gregory (Latin tr. Enrico Gismondi) — <span class="source-note">Mari ibn Sulayman · 1899 · Latin translation</span></li><li>On the patriarchs of the East, life of Gregory (Latin tr. Enrico Gismondi) — <span class="source-note">&#039;Amr ibn Matta · 1896-1897 · Latin translation</span></li><li>Anonymous chronicle, in Chronica minora, part 1 (Latin tr. Ignazio Guidi) — <span class="source-note">Anonymous East Syrian chronicler · 1903 · Latin translation</span></li><li>Book of Letters, letters written while a bishop (Latin tr. Rubens Duval) — <span class="source-note">Ishoyahb III · 1905 · Latin translation</span></li><li>Catalogue of writers, in The Nestorians and their Rituals, volume 2 (English tr. George Percy Badger) — <span class="source-note">Abdisho of Nisibis · 1852 · English translation</span></li><li>Notes to The Book of Governors — <span class="source-note">E. A. Wallis Budge · 1893 · English</span></li><li>Le christianisme dans l&#039;empire perse — <span class="source-note">J. Labourt · 1904 · French</span></li><li>Synodicon orientale, notes and appendix — <span class="source-note">J.-B. Chabot · 1902 · French</span></li><li>Das Buch der Synhados — <span class="source-note">Oskar Braun · 1900 · German</span></li><li>An Introduction to the History of the Assyrian Church — <span class="source-note">W. A. Wigram · 1910 · English</span></li></ul>
+  </section>
+
+  <p class="review-status"><b>Review:</b> checked with AI tools. No scholar or church partner has reviewed it yet. <a href="../data.html#review">Help review the tree</a></p>
+</main>
+
+<footer class="site-footer">
+  <div class="row">
+    <p>&copy; 2026 Faithways Studio, Inc., a Colorado public benefit corporation &middot; <a href="../license.html">License</a>. The same team makes <a href="https://churchinconversation.com/">Church in Conversation</a>.</p>
+    <nav aria-label="About the tree">
+      <a href="../about.html">About</a>
+      <a href="../method.html">Method</a>
+      <a href="../data.html">Data and citation</a>
+      <a href="../privacy.html">Privacy</a>
+      <a href="../terms.html">Terms</a>
+      <a href="../license.html">License</a>
+      <a href="../support.html">Help us grow</a>
+    </nav>
+  </div>
+</footer>
+<script src="../assets/feedback.js" defer></script>
+</body>
+</html>

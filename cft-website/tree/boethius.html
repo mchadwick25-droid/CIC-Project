@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Boethius — Church Family Tree</title>
+<meta name="description" content="Boethius stood before Theodoric, the Ostrogothic king of Italy, to defend a fellow senator, Albinus, accused of writing to the emperor Justin against the king.…">
+<meta property="og:title" content="Boethius">
+<meta property="og:description" content="Boethius stood before Theodoric, the Ostrogothic king of Italy, to defend a fellow senator, Albinus, accused of writing to the emperor Justin against the king.…">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.churchfamilytree.com/tree/boethius">
+<meta property="og:image" content="https://churchinconversation.com/assets/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,700;1,400;1,500&family=Alegreya+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+:root{
+  --parchment:#F6F6F2; --vellum:#FFFFFF;
+  --ink:#2A2521; --ink-faded:#6C6257; --madder:#A13E2B; --madder-deep:#7E2F20;
+  --tyrian:#6B3FA0; --graphite:#8A837C; --rule:rgba(241,233,221,.16);
+  --ground:#17130F; --surface:#1E1913;
+  --text:#F1E9DD; --muted:#B8AEA1;
+  --action:#E08C74; --action-hover:#F0A98F;
+  --control:#A39B92;
+  --link-grow:#86cf9c; --link-influence:#c79a5e; --link-conflict:#f06a64; --link-contact:#a39a8c;
+  --btn-fill:#A13E2B; --btn-text:#F6EFE0; --btn-edge:#E08C74;
+  --serif:'Alegreya','Iowan Old Style',Georgia,serif;
+  --sans:'Alegreya Sans','Trebuchet MS',system-ui,sans-serif;
+  --wide:64rem; --col:44rem; --measure:38rem;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--ground);color:var(--text);font-family:var(--serif);font-size:1.0625rem;line-height:1.65}
+a{color:var(--action);text-decoration-thickness:1px;text-underline-offset:.16em}
+a:hover{color:var(--action-hover)}
+:focus-visible{outline:2px solid var(--action);outline-offset:3px;border-radius:2px}
+img{max-width:100%;height:auto;display:block}
+h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.15;margin:0;text-wrap:balance}
+h1{font-size:2rem;margin-bottom:1rem}
+h2{font-size:1.4rem;margin:1.5rem 0 .75rem}
+h3{font-size:1.1rem;margin:1rem 0 .5rem}
+p{margin:0 0 1rem}
+ul{padding-left:1.5rem}
+li{margin-bottom:.5rem}
+.vh{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.skip-link{position:absolute;left:-999px;top:auto;background:var(--ink);color:var(--parchment);padding:.6rem 1rem;z-index:100;font-family:var(--sans)}
+.skip-link:focus{position:fixed;left:1rem;top:1rem}
+.eyebrow{font-family:var(--sans);font-size:.8125rem;letter-spacing:.13em;text-transform:uppercase;color:var(--action);font-weight:600;margin:0 0 .6rem}
+.site-header{background:var(--surface);border-bottom:1px solid var(--rule)}
+.site-header .row{max-width:var(--wide);margin:0 auto;padding:.6rem 1.25rem;display:flex;flex-wrap:wrap;align-items:center;gap:.5rem 1rem}
+.wordmark{font-family:var(--serif);font-weight:700;font-size:1.2rem;letter-spacing:.01em;color:var(--text);text-decoration:none;white-space:nowrap;padding:.5rem 0;display:inline-block}
+.wordmark em{font-style:italic;font-weight:400}
+.page{max-width:var(--col);margin:0 auto;padding:2rem 1.25rem;overflow-wrap:break-word}
+.titleblock{margin-bottom:2rem}
+.ident{font-family:var(--sans);font-size:.9rem;color:var(--muted);margin:0 0 .5rem}
+.kind-label{display:inline-block;font-family:var(--sans);font-size:.9rem;color:var(--muted);border:1px dashed currentColor;border-radius:999px;padding:.1rem .7rem;margin:-.4rem 0 0}
+.lineage-section{margin:1.5rem 0;padding-left:.9rem;border-left:3px solid var(--link-contact)}
+.lineage-section.link-grow{border-left-color:var(--link-grow)}.lineage-section.link-grow h3{color:var(--link-grow)}
+.lineage-section.link-influence{border-left-color:var(--link-influence)}.lineage-section.link-influence h3{color:var(--link-influence)}
+.lineage-section.link-conflict{border-left-color:var(--link-conflict)}.lineage-section.link-conflict h3{color:var(--link-conflict)}
+.lineage-section.link-contact h3{color:var(--link-contact)}
+.lineage-list{list-style:none;padding:0}
+.lineage-list li{margin:0 0 .5rem;padding:0}
+.lineage-list a{color:var(--action)}
+.confidence-note{font-style:italic;color:var(--muted);font-size:.95rem}
+.lineage-major{font-family:var(--sans);font-size:.8rem;letter-spacing:.03em;font-weight:600;color:var(--action);white-space:nowrap}
+.lineage-outcome{display:block;font-size:.95rem;margin-top:.2rem}
+.lineage-confidence{font-family:var(--sans);font-size:.8rem;letter-spacing:.03em;color:var(--muted);border:1px solid currentColor;border-radius:3px;padding:0 4px;white-space:nowrap}
+.sources-list{list-style:none;padding:0}
+.sources-list li{margin:0 0 .75rem;padding:0}
+.sources-list a{font-weight:600}
+.source-type{font-family:var(--sans);font-size:.85rem;color:var(--muted)}
+.source-note{font-size:.95rem;color:var(--muted)}
+.narration{display:flex;align-items:center;gap:.6rem;flex-wrap:wrap;margin:1.5rem 0}
+.narration audio{display:block;height:2.2rem;max-width:220px;width:220px;flex:0 0 auto}
+.narration-disclosure{font-family:var(--sans);font-size:.85rem;color:var(--muted);margin:0}
+.action-links{margin:1.5rem 0;padding:1rem;background:var(--surface);border-radius:4px}
+.action-links p{margin:0 0 .8rem;font-family:var(--sans);font-size:.95rem}
+.action-links a{display:inline-block;padding:.6rem 1rem;background:var(--btn-fill);color:var(--btn-text);text-decoration:none;border-radius:4px;margin-right:.5rem;margin-bottom:.5rem}
+.action-links a:hover{background:var(--madder-deep)}
+.door-quiet{font-family:var(--sans);font-size:.92rem;color:var(--muted);margin:1.5rem 0}
+.told-within{font-family:var(--sans);font-size:.95rem;margin:.4rem 0 0}
+.people-list{list-style:none;padding:0;margin:0}
+.people-list li{margin:.4rem 0}
+.people-list .ident{display:inline;margin:0 0 0 .4rem}
+.people-note{color:var(--muted)}
+.facts{margin:0 0 1.5rem}
+.facts dt{font-family:var(--sans);font-size:.8rem;letter-spacing:.08em;text-transform:uppercase;color:var(--action);margin-top:.7rem}
+.facts dd{margin:.1rem 0 0}
+.part-group{font-family:var(--sans);font-size:.8rem;letter-spacing:.08em;text-transform:uppercase;color:var(--action);margin:1rem 0 .2rem}
+.verdict{font-family:var(--sans);font-size:.78rem;letter-spacing:.04em;color:var(--muted);border:1px dashed currentColor;border-radius:999px;padding:0 .5rem;margin-left:.4rem;white-space:nowrap}
+.source-group{font-family:var(--sans);font-weight:600;margin:1rem 0 .3rem}
+.review-status{font-family:var(--sans);font-size:.92rem;color:var(--muted);margin:2.5rem 0 0;padding-top:1rem;border-top:1px solid var(--rule)}
+.site-footer{border-top:1px solid var(--rule);background:var(--surface);font-family:var(--sans);font-size:.85rem;color:var(--muted);margin-top:3rem;padding:1.5rem 1.25rem}
+.site-footer .row{max-width:var(--wide);margin:0 auto}
+.site-header nav{display:flex;flex-wrap:wrap;gap:.4rem 1rem;align-items:center;margin-left:auto;font-family:var(--sans);font-size:.92rem}
+.site-header nav a{color:var(--action);text-decoration:none;display:inline-flex;align-items:center;min-height:44px}
+.site-header nav a:hover{color:var(--action-hover)}
+.site-header nav .feedback-toggle{min-height:44px}
+.site-footer nav{display:flex;flex-wrap:wrap;gap:.4rem 1.1rem;margin-top:.6rem}
+.site-footer nav a{display:inline-flex;align-items:center;min-height:44px}
+.site-footer a{color:var(--action)}
+.give{display:flex;flex-wrap:wrap;gap:.6rem;margin:1rem 0}
+.give a{display:inline-block;padding:.6rem 1.2rem;background:var(--btn-fill);color:var(--btn-text);text-decoration:none;border-radius:4px}
+.terms{margin:0 0 1rem}
+.terms dt{font-family:var(--sans);font-weight:600;margin-top:.9rem}
+.terms dd{margin:.2rem 0 0}
+.terms svg{display:inline-block;vertical-align:middle;margin-right:.5rem}
+.cite{margin:.4rem 0 1.2rem;padding:.6rem .9rem;border-left:3px solid var(--action);background:var(--surface);overflow-wrap:anywhere}
+.cite-label{font-family:var(--sans);font-weight:600;margin:1rem 0 .2rem}
+</style>
+<link rel="stylesheet" href="../assets/feedback.css">
+</head>
+<body>
+<a href="../" class="skip-link">Skip to the map</a>
+
+<header class="site-header">
+  <div class="row">
+    <a href="../" class="wordmark">Church Family Tree</a>
+    <nav aria-label="Site">
+      <a href="https://churchinconversation.com/">Church in Conversation &rarr;</a>
+      <a href="../support.html">Help us grow</a>
+      <button type="button" class="feedback-toggle" id="feedback-toggle" aria-haspopup="dialog" aria-expanded="false">Tell us what you think</button>
+    </nav>
+  </div>
+</header>
+
+<main class="page" id="content">
+  <div class="titleblock">
+    <p class="ident">The Age of Monks and Empires · c. 480-524 · Rome, Pavia</p>
+    <p class="ident">Rome, today in Italy · Pavia</p>
+    <h1>Boethius</h1>
+    <p class="told-within">A person whose story no single tradition tells.</p>
+    
+    
+  </div>
+  <dl class="facts"><dt>Known for</dt><dd>Roman senator and consul under Theodoric, the Ostrogothic king of Italy, who put Greek philosophy and mathematics into Latin, wrote short books on the Trinity and on the person of Christ, and wrote the Consolation of Philosophy after he was condemned for treason.</dd><dt>Also called</dt><dd>Anicius Manlius Severinus Boethius, Boetius</dd><dt>Dates</dt><dd>Born about 480, in the reckoning of his editors H. F. Stewart and E. K. Rand and of Thomas Hodgkin, who says not earlier than that year. Consul in 510 and put to death in 524, in Stewart and Rand&#039;s dates and in the years Theodor Mommsen sets beside the consuls in his editions of the chronicles; Marius of Avenches dates the death by the consulship of Justin and Opilio. No ancient source used here gives the year of his birth</dd><dt>Place</dt><dd>Rome, where Stewart and Rand say he was born; Pavia, where they say he was imprisoned; the district of Milan, where Marius of Avenches says he was killed</dd><dt>Role</dt><dd>Senator, consul and master of offices; philosopher, translator and theologian</dd></dl>
+
+  
+
+  <section>
+    <h2>About This Person</h2>
+    
+    <div class="reading"><p>Boethius stood before Theodoric, the Ostrogothic king of Italy, to defend a fellow senator, Albinus, accused of writing to the emperor Justin against the king. A Latin chronicle, the Anonymus Valesianus, gives his answer, told here in modern words. The charge is false, he said, but if Albinus did it, then I and the whole Senate did it together. Its editor, Theodor Mommsen, calls its author a fierce enemy of the Arians.</p><p>Boethius was a Roman senator under Theodoric and was consul in 510. A letter Cassiodorus wrote in Theodoric&#039;s name praises him for putting Pythagoras, Ptolemy the astronomer, Euclid, Plato and Aristotle into Latin.</p><p>He also wrote short books on the faith. Writing against Eutyches and Nestorius, he defined a person as &quot;The individual substance of a rational nature.&quot; Christ, he argued, is two natures in one person, as the Catholic faith holds. He closed one with a plea: &quot;if possible, reconcile faith and reason.&quot; Thomas Hodgkin, who put Cassiodorus&#039;s letters into English, reports that scholars of his day doubted these books were his. Hodgkin answered them from a fragment drawn from a lost work of Cassiodorus, which names a book on the Holy Trinity and one against Nestorius.</p><p>In 522 his two sons were consuls together, and he praised the king in the Senate. Soon after, he fell. Condemned, he wrote the Consolation of Philosophy, in which Philosophy visits him as a woman. He set down the charges there: &quot;I am said to have desired the Senate&#039;s safety.&quot; &quot;Now being conveyed five hundred miles off, dumb and defenceless, I am condemned to death,&quot; he wrote.</p><p>Marius of Avenches says he was killed in the district of Milan, in the year Mommsen dates to 524. The Anonymus Valesianus has him tortured with a cord twisted on his forehead and clubbed to death. The Book of the Popes says the king killed him with the sword. Procopius of Caesarea writes that Theodoric later wept for the wrong he had done.</p><p>The Consolation never names Christ, Hodgkin notes, so some have read Boethius as a pagan. His English editors, H. F. Stewart and E. K. Rand, call him without doubt a Christian, and perhaps a martyr. The Bollandists, in their Acta Sanctorum of saints&#039; days, list him as a martyr at Pavia.</p><p>Of his own fall he wrote that &quot;it is the most unhappy kind of misfortune to have been happy.&quot;</p></div>
+  </section>
+
+  
+  
+  <section><h2>Key Works</h2><ul><li><b>The Consolation of Philosophy (Philosophiae Consolatio), in five books</b>: written after his condemnation, in prose and verse; Philosophy comes to him as a woman, hears his account of his fall and the charges, and leads him from Fortune&#039;s wheel to God, &quot;who beholdeth all things&quot;, in the English of I. T. (1609) revised by H. F. Stewart</li><li><b>Theological Tractates (Opuscula Sacra), five short books</b>: on the Trinity, on how substances are good, on the Catholic faith, and against Eutyches and Nestorius, where he defines a person and argues for two natures in one person in Christ; the first is addressed to his father-in-law Symmachus and three to John the Deacon</li><li><b>Latin translations and handbooks</b>: versions of Porphyry&#039;s Isagoge and Aristotle&#039;s logic, with commentaries, and handbooks on arithmetic and music, in Stewart and Rand&#039;s account; a letter of Theodoric&#039;s written by Cassiodorus names Pythagoras, Ptolemy, Nicomachus, Euclid, Plato, Aristotle and Archimedes among those he put into Latin</li></ul></section><section><h2>Legacy</h2><h3>What traces to them</h3><ul><li>Isidore of Seville names him, after Apuleius, as the translator of Nicomachus on arithmetic into Latin.</li><li>Alcuin of York cites his book on the unity of Father, Son and Holy Spirit as a witness that the Spirit proceeds from the Father and the Son.</li><li>Thomas Aquinas, in the Summa of Theology, opens his article on the definition of a person by testing the one Boethius gives: &quot;Persona est rationalis naturae individua substantia.&quot;</li></ul><h3>How they're remembered</h3><ul><li>Procopius of Caesarea says Symmachus and his son-in-law Boetius &quot;practised philosophy and were mindful of justice in a manner surpassed by no other men&quot;, and calls their deaths Theodoric&#039;s &quot;first and last act of injustice&quot; toward his subjects.</li><li>Stewart and Rand call him &quot;the last of the Roman philosophers, and the first of the scholastic theologians&quot;, and quote Gibbon calling the Consolation &quot;a golden volume&quot;, worthy of the leisure of Plato or Cicero.</li><li>The Bollandists, in the Acta Sanctorum of 1739, list him under 27 May, after Pope John I, as a martyr at Pavia. They also cite two catalogs of saints by Philippus Ferrarius, a professor at Pavia, one of the saints of Italy and one of saints who are not in the Roman Martyrology. Both name him a martyr at Pavia, the second under Theodoric.</li></ul></section><section><h2>What Is Uncertain</h2><ul><li>His fall and death. The scene before the king comes from the Anonymus Valesianus, whose author Theodor Mommsen calls a fierce enemy of the Arians, and Boethius&#039;s own account in the Consolation is the account of the accused man. The witnesses differ on his death. The Anonymus Valesianus says he was tortured with a cord on his forehead and clubbed to death at a place it calls the ager Calventianus. The Book of the Popes says the king killed him and Symmachus with the sword. Agnellus of Ravenna, in a passage Mommsen prints, says the two were beheaded with axes. Marius of Avenches puts it in the district of Milan. The Bollandists report one writer&#039;s doubt of the account of the Anonymus Valesianus, since others say the sword, and answer that the sword is not in Procopius.</li><li>The charges. Boethius says he was accused of wanting the Senate&#039;s safety, of hindering an accuser, of hoping for Roman liberty in forged letters, and of sacrilege. The Anonymus Valesianus says Cyprian, an official at the king&#039;s court, charged the patrician Albinus with sending letters against the king to the emperor Justin. Procopius says enemies slandered Symmachus and Boethius as plotting a revolution. Thomas Hodgkin reads a later letter of Cassiodorus to an Opilio, whom he takes to be the accuser of that name, as leaning toward the accusers.</li><li>The order of events. The Book of the Popes has him killed while Pope John I was at Constantinople. In the Anonymus Valesianus his death comes before the king sends for the pope.</li><li>The theological books. Thomas Hodgkin reports that recent scholars had grave doubts that the tractates were his, grown almost to certainty that he did not write them, and that Charles Jourdain gave them to an African bishop named Boethus. Hodgkin answers from a fragment that names a book on the Trinity, some dogmatic chapters and a book against Nestorius; he says it was excerpted by a later hand from a tract of Cassiodorus. Hodgkin also sets aside the fourth tractate, on the Catholic faith, since the earlier manuscripts do not give it to Boethius. Stewart and Rand accept all five, and say one of them had argued against the fourth before.</li><li>His faith. Hodgkin notes that the Consolation never names Christ and calls its tone that of a theist, yet says Boethius professed himself a Christian and died in full communion with the Catholic Church. Stewart and Rand say he was &quot;without doubt a Christian, a Doctor and perhaps a martyr&quot;. No ancient source used here calls him a martyr; the title comes from the Bollandists and the later catalogs they cite.</li><li>His family. Hodgkin makes the consul of 487 his father and names his sons Symmachus and Boethius; the consular lists give a consul Boethius for 487 and the pair Symmachus and Boethius for 522 without saying how they were related to him. Procopius names his wife Rusticiana, the daughter of Symmachus, and Boethius himself does not name her. Stewart and Rand call the tradition of a first wife named Elpis supposititious. Hodgkin&#039;s birth year rests chiefly on the Paraenesis of Ennodius, bishop of Pavia, which is not among the sources used here.</li><li>His name. Thomas Hodgkin thinks the name Severinus was given him in honor of Severinus of Noricum; G. W. Robinson repeats this as a conjecture.</li></ul></section>
+  
+
+  
+
+  <section>
+    <h2>Sources</h2>
+    <p class="source-group">Their own words</p><ul class="sources-list"><li>The Theological Tractates (Latin, with English tr. H. F. Stewart and E. K. Rand) — <span class="source-note">Latin, with English translation</span></li><li>The Consolation of Philosophy (Latin, with the English of I. T., 1609, revised by H. F. Stewart) — <span class="source-note">Latin, with English translation</span></li></ul><p class="source-group">Written about them</p><ul class="sources-list"><li>Introduction and notes to The Theological Tractates and The Consolation of Philosophy — <span class="source-note">H. F. Stewart and E. K. Rand · 1918 · English</span></li><li>Anonymus Valesianus, later part, with the editor&#039;s introduction, and the excerpts from Agnellus, in Chronica Minora 1 — <span class="source-note">Anonymous; Theodor Mommsen (ed.) · 1892 · Latin</span></li><li>Chronicle, year of Justin and Opilio, in Chronica Minora 2, with the consular lists of Marcellinus Comes, Victor of Tunnuna and Cassiodorus — <span class="source-note">Marius of Avenches · Latin</span></li><li>The Letters of Cassiodorus, with the translator&#039;s introduction (condensed tr. Thomas Hodgkin) — <span class="source-note">Cassiodorus; Thomas Hodgkin · 1886 · English translation</span></li><li>The Book of the Popes, Life of John I (tr. Louise Ropes Loomis) — <span class="source-note">Liber Pontificalis · 1916 · English translation</span></li><li>History of the Wars, books V and VI (tr. H. B. Dewing) — <span class="source-note">Procopius of Caesarea · English translation</span></li><li>History of the Wars, book VII (tr. H. B. Dewing) — <span class="source-note">Procopius of Caesarea · English translation</span></li><li>Acta Sanctorum, May, volume 6, 27 May — <span class="source-note">The Bollandists · 1739 · Latin</span></li><li>Etymologies, book III (tr. Ernest Brehaut) — <span class="source-note">Isidore of Seville · English translation</span></li><li>On the Procession of the Holy Spirit, in Patrologia Latina 100-101 — <span class="source-note">Alcuin of York · Latin</span></li><li>Summa of Theology, part I, question 29, article 1 (Leonine edition, volume 4) — <span class="source-note">Thomas Aquinas · Latin</span></li></ul>
+  </section>
+
+  <p class="review-status"><b>Review:</b> checked with AI tools. No scholar or church partner has reviewed it yet. <a href="../data.html#review">Help review the tree</a></p>
+</main>
+
+<footer class="site-footer">
+  <div class="row">
+    <p>&copy; 2026 Faithways Studio, Inc., a Colorado public benefit corporation &middot; <a href="../license.html">License</a>. The same team makes <a href="https://churchinconversation.com/">Church in Conversation</a>.</p>
+    <nav aria-label="About the tree">
+      <a href="../about.html">About</a>
+      <a href="../method.html">Method</a>
+      <a href="../data.html">Data and citation</a>
+      <a href="../privacy.html">Privacy</a>
+      <a href="../terms.html">Terms</a>
+      <a href="../license.html">License</a>
+      <a href="../support.html">Help us grow</a>
+    </nav>
+  </div>
+</footer>
+<script src="../assets/feedback.js" defer></script>
+</body>
+</html>

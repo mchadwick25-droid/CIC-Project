@@ -1,0 +1,131 @@
+{
+ "about": "Quotations that are the narrator's English of a non-English original, each marked \"in modern words\" in the prose and checked against its original by review. The quotation check skips exactly these spans in these entries, and fails when a listed span no longer stands in its entry.",
+ "renderings": [
+  {
+   "id": "faustus-of-riez",
+   "quote": "We walk the middle way, then, with Christ as our guide,",
+   "original": {
+    "file": "cic/texts/faustus-riez_de-gratia-and-collected-works_engelbrecht1891.txt",
+    "lines": "11049-11051",
+    "language": "Latin"
+   }
+  },
+  {
+   "id": "faustus-of-riez",
+   "quote": "After grace, without which we are nothing, we affirm the labor of dutiful service.",
+   "original": {
+    "file": "cic/texts/faustus-riez_de-gratia-and-collected-works_engelbrecht1891.txt",
+    "lines": "11049-11051",
+    "language": "Latin"
+   }
+  },
+  {
+   "id": "faustus-of-riez",
+   "quote": "We are owners without a home of our own, and rich without possessions.",
+   "original": {
+    "file": "cic/texts/faustus-riez_de-gratia-and-collected-works_engelbrecht1891.txt",
+    "lines": "13403-13404",
+    "language": "Latin"
+   }
+  },
+  {
+   "id": "constantius-of-lyon",
+   "quote": "And yet I call God, who knows what is hidden, to witness that I have left out many deeds of my lord Germanus that were known and proved.",
+   "original": {
+    "file": "cic/texts/constantius-lyon_vita-germani_levison1920.txt",
+    "lines": "4577-4579",
+    "language": "Latin"
+   }
+  },
+  {
+   "id": "ruricius-of-limoges",
+   "quote": "Infirmity did this, not will.",
+   "original": {
+    "file": "cic/texts/faustus-riez_de-gratia-and-collected-works_engelbrecht1891.txt",
+    "lines": "23186",
+    "language": "Latin"
+   }
+  },
+  {
+   "id": "ruricius-of-limoges",
+   "quote": "My soul has clung to you, outstanding teacher,",
+   "original": {
+    "file": "cic/texts/faustus-riez_de-gratia-and-collected-works_engelbrecht1891.txt",
+    "lines": "20044",
+    "language": "Latin"
+   }
+  },
+  {
+   "id": "ruricius-of-limoges",
+   "quote": "It is far better and far more distinguished for a city to become known by its bishop than a bishop by his city.",
+   "original": {
+    "file": "cic/texts/faustus-riez_de-gratia-and-collected-works_engelbrecht1891.txt",
+    "lines": "23199-23201",
+    "language": "Latin"
+   }
+  },
+  {
+   "id": "columbanus",
+   "quote": "Let Gaul, I pray, hold us together,",
+   "original": {
+    "file": "cic/texts/paulus-emeritanus-braulio-sisebut-pl80-lat_migne1863.txt",
+    "lines": "20763-20765",
+    "language": "Latin"
+   }
+  },
+  {
+   "id": "columbanus",
+   "quote": "whom the kingdom of heaven will hold, if our merits are good.",
+   "original": {
+    "file": "cic/texts/paulus-emeritanus-braulio-sisebut-pl80-lat_migne1863.txt",
+    "lines": "20763-20765",
+    "language": "Latin"
+   }
+  },
+  {
+   "id": "babai-the-great",
+   "quote": "We say: Christ died, the Son died, through the Son all was created and made,",
+   "original": {
+    "file": "cic/texts/labourt_le-christianisme-dans-l-empire-perse-sassanide-fra_1904.txt",
+    "lines": "15853-15854",
+    "language": "French"
+   }
+  },
+  {
+   "id": "john-moschus",
+   "quote": "Truly, Abba John, let us study no more today,",
+   "original": {
+    "file": "cic/texts/john-moschus_pratum-spirituale-sophronius-opera-grc-lat_migne-pg87-3.txt",
+    "lines": "10094-10095",
+    "language": "Latin"
+   }
+  },
+  {
+   "id": "john-moschus",
+   "quote": "We have been edified enough.",
+   "original": {
+    "file": "cic/texts/john-moschus_pratum-spirituale-sophronius-opera-grc-lat_migne-pg87-3.txt",
+    "lines": "10095",
+    "language": "Latin"
+   }
+  },
+  {
+   "id": "john-moschus",
+   "quote": "I offer it to you, and through you to all,",
+   "original": {
+    "file": "cic/texts/john-moschus_pratum-spirituale-sophronius-opera-grc-lat_migne-pg87-3.txt",
+    "lines": "3785",
+    "language": "Latin"
+   }
+  },
+  {
+   "id": "isidore-of-seville",
+   "quote": "Give back, give back what you owe,",
+   "original": {
+    "file": "cic/texts/paulus-emeritanus-braulio-sisebut-pl80-lat_migne1863.txt",
+    "lines": "52558",
+    "language": "Latin"
+   }
+  }
+ ]
+}
