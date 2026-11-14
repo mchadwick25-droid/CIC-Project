@@ -1,0 +1,1679 @@
+{
+ "maximus-the-confessor": {
+  "claims": [
+   {
+    "claim": "Arrival scene, the Record of the hearing (Relatio motionis), in the Latin of Migne PG 90: 'circa solis occasum, venientes, duo mandatores cum decem excubitoribus, tulerunt eos e navi nudos nudique pedes' ('tum scilicet domnus Maximus, tum socius ejus'). The Life has him led off 'nudis pedibus ... ac sine amiculo'. 'Without cloaks' renders 'nudos' with the Life's 'sine amiculo'",
+    "witness": "PG90 (maximus-confessor_relatio-motionis-disputatio-bizyae-grc-lat_migne-pg90.txt) l.6783-6790; Life l.4974-4977 [OCR forms: 'ſurore' later in the passage]",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "First hearing: 'post dies aliquot adducunt eos ad palatium, introque sistunt Senem, quo loco senatus aliaque multa turba convenerant'; 'ditit ei sacellarius cum multa ira ei ſurore, Christianus es? Et ait, Gratia Christi, universorum Dei, Christianus sum. Cui ille, Non est verum. Respondit Dei servus, Tu dicis; sed Deus scit esse me Christianum, et perseveranter esse.' The brief tells the exchange in modern words; 'the emperor's treasurer' renders 'sacellarius'",
+    "witness": "PG90 l.6791-6803 [OCR forms: 'ditit' for 'dixit', 'ei ſurore' for 'et furore']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The treason charge: 'Tu enim solus Egyptum et Alexandriam et Pentapolim et Tripolim et Africam Saracenis tradidisti.' The brief names three of the five places. Combefis's section head reads 'Majestatis crimen et depulsio'",
+    "witness": "PG90 l.6813-6815; heading l.6777-6779",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The record's title: 'Relatio motionis facte inter domnum abbatem Maximum el socium ejus atque principes in secretario'. Fabricius's notice, printed in PG 90: parts are given 'Latine ex Anastasii bibliothecarii versione'",
+    "witness": "PG90 l.6728-6747; l.289-293 [OCR forms: 'el' for 'et', 'lan- tum' for 'tantum']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Date of the hearing, 655: Louis Duchesne, 'ses apocrisiaires arrivèrent à Constantinople peu de temps avant la Pentecôte, 17 mai 655 ... comme il résulte des dates fournies par les interrogatoires de saint Maxime'; the record has Maximus told 'heri venerunt apocrisiarii Romani, et cras Dominico die communicabunt patriarche'. The admonition in Mansi 11: 'Rem anno 655. superstite adhuc Martino'. Duchesne dates the envoys; the hearing's year follows from the record's 'yesterday'",
+    "witness": "DUCHESNE LP1 (liber-pontificalis_texte-introduction-commentaire-t1-lat-fra_duchesne1886.txt) l.163416-163421; PG90 l.7646-7651; MANSI11 (mansi_sacrorum-conciliorum-collectio-tomus-11-lat_welter-facsimile1901.txt) l.808-812 [OCR forms: 'Gonstantinople', 'fuperftice']",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Greek Life (Vita ac Certamen, Combefis's Latin): born in Constantinople, 'patria quidem, primo exstitit urbium magnaque Constantinopolis'; 'Parentes, antiqua prosapia nobiles'; Heraclius 'eorum qui a seeretis imperatori essent, principem esse jubente'; left as 'Monothelitarum dogma consurgens' spread, for the monastery 'quod in adverso situm littore est, ac Chrysopolis dicitur'. Fabricius: 'ex protosecretario Heraclii imp., monachus'",
+    "witness": "PG90 l.3534-3538, 3710-3718, 3753-3766, 275-276 [OCR forms: 'seeretis', 'Chrysopolitaui']",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "The Life is a work in his honor: heading 'IN VITAM AC CERTAMEN SANCTI PATRIS NOSTRI AC CONFESSORIS MAXIMI'; it closes with the author's peroration to Maximus (section XLI, 'Auctoris ad Maximum peroratio', l.6603)",
+    "witness": "PG90 l.3371-3378; section list l.3400-6720",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Typos: Martin's speech, as copied into the Book of the Popes' Life of Martin (Mansi 10): 'nec unam, nec duas voluntates, aut operationes in Christo domino nostro definiens confiteri'; William Dudley Foulke, in his notes to Paul the Deacon: 'Finally, Constans in 648 ... issued his Type, forbidding controversy upon both sides.' Duchesne: the Life's passage is 'emprunté mot à mot au discours du pape Martin'",
+    "witness": "MANSI10 (mansi_sacrorum-conciliorum-collectio-tomus-10-lat_welter-facsimile1901.txt) l.81990-81996; FOULKE (paul-the-deacon_history-of-the-langobards_foulke1907.txt) l.9936-9939; DUCHESNE LP1 l.162719 [OCR forms: long s as 'f', 'fcilicer', 'noftro', 'con- troversy']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Debate with Pyrrhus in Africa: the Disputation's Latin heading has it held 'Gregorii patricii opera'; the editor's monitum, 'Fuisse habitam in Africa disputationem'; Fabricius dates it 645 ('cum Pyrrho, ex-patriarcha Constantinopol., disputationem habuisset a. 645'). In the record, Troilus and Sergius Eucrates ask about 'motionem dogmatum, quz facta est inter te et Pyrrhum in Africa et Rome: et quibus ei verbis persuaseris anathematizare proprium dogma'",
+    "witness": "PG91 (maximus-confessor_disputatio-cum-pyrrho-pg91-grc-lat_migne1860.txt) l.15117-15119, 15055-15060; PG90 l.279-281, 7499-7504 [OCR forms: 'Gregorit - pairicis', 'babuisset', 'Die nobis']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Why he would not take communion: 'Non communicas throno Constantinopolitano? Et dicit, Non communico.' ... 'quatuor concilia ejecerunt, per illa novem capitula, quæ facta sunt Alexandriæ; et per ecthesim, quæ in hac urbe Sergio auctore edita est; et per typum, qui nuper, id est, per sextam indictionem, promulgatus est' ... 'ipsique seipsos toties deposuerunt'. The brief names the Typos and 'an earlier statement by the patriarch Sergius' (the ecthesis issued 'Sergio auctore'); the card names all three",
+    "witness": "PG90 l.7510-7546 [OCR forms: 'communieas', 'Alexandriz', 'bac urbeSergio', 'se- ipsos']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Two wills and workings: 'Num ergo prorsus necesse est ut voluntates et operationes in Christo dicantur? Respondit : Plane necesse, si vere pie sentire volumus.' ... 'Nam Patres palam dicant, neque esse neque cognosci ullam quoquomodo naturam, absque substantiali sua operatione.' Told in modern words",
+    "witness": "PG90 l.7690-7698 [OCR forms: 'yolumus', 'dicant' for 'dicunt']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Own teaching: 'Ego dogma proprium non habeo, sed commune Ecclesiæ catholicæ.' Said to Troilus and Sergius Eucrates on the evening of the hearing. Told in modern words as the close",
+    "witness": "PG90 l.7497-7508 [OCR forms: 'habec', 'Ecclesiz catholieæ']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Theophanes the Confessor, in Migne's Latin: 'Tum vero Maximus ex Africa Romam transfretatus, Martini papæ sanctum in Deum ardorem accendit, qui centum et quinquaginta episcoporum synodo celebrata, Sergium et Pyrrhum, Cyrum et Paulum anathemate perculerunt.' Theophanes is 'ABBATIS AGRI ET CONFESSORIS' in PG 108",
+    "witness": "THEOPHANES (theophanes-confessor_chronographia-pg108-grc-lat_migne1863.txt) l.60747-60752, 138 [OCR forms: 'Matimus et Africa', 'ardorem-accendit', '8ynodo', 'Cyrum of Paulum', 'pervule- runt']",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Synod of 649: Lateran, Martin I, condemning Sergius and Pyrrhus with Cyrus and Paul (Book of the Popes in Mansi 10; Bede IV.17-18; the Roman Breviary)",
+    "witness": "MANSI10 l.82050-82082; GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.10330-10334, 10401-10405",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Bizya: 'sanctus quidem senex, Bizyæ, provinciæ Thraciæ castro, ejus autem discipulus Perberi'. Mansi 11: 'Disputatio Maximi cum Theodosio Cæsareæ in Bithynia episcopo'. Theodosius: 'Nos ... jubemus pro domino nostro imperatore, te communicante, sublatum iri Typum.' Maximus: 'Suscipiant horum damnationem, quæ Romæ per pia dogmata atque regulas synodice edita est'. Theodosius: 'Non habuit robur, quæ Romæ celebrata synodus est, ut quæ injussu imperatoris habita est.' Maximus: 'Si habitas synodos imperatorum jussiones firmant, non autem pia fides, etiam synodos contra homoousion habitas suscipiant'",
+    "witness": "PG90 l.8275-8278, 9566-9586; MANSI11 l.5565-5569 [OCR forms: 'provinciz', '(6) Typum', 'Rome', 'que', 'ut quem', 'ſides', 'Czfarez', 'epifcopoy']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "At Bizya he also said: 'his, qui hec recipiunt, nunquam sum communicaturus.' Kept to the records",
+    "witness": "PG90 l.9556-9559",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Condemnation and sentence: a synod anathematized 'sanctum Maximum, ejusque discipulum beatum Anastasium, necnon sanctissimum papam Martinum'; 'sententiam tulit præsens synodus'; the decree: 'Maximo ac utroque Anastasio, eorum flagris dorsa cædat ... linguam) ab imo intus abscindat ... dexteram ferro auferat ... urbis Augustæ regiones duodecim totas lustraverit, sempiterno exsilio ... Lazicem relegavit'",
+    "witness": "PG90 l.11469-11473, 11491-11493, 11518-11538 [OCR forms: 'exsecrati'', 'dexleram', 'auſe- rat']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Theophanes on the mutilation: Constans 'illam sancti linguam una cum illius dextera abscidit' (Migne's Latin)",
+    "witness": "THEOPHANES l.63016-63024 [OCR forms: 'saneti', 'eum illius']",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "The two Anastasii: the disciple Anastasius, and 'Anastasium alterum' who 'Romanæ Ecclesiæ apocrisiarius audiebat' (Life). The envoy writes as 'Anastasius exiguus misericordia Dei presbyter et monachus' to Theodosius of Gangra. 'The envoy' renders 'apocrisiarius'. The sentence calls only one of them 'discipulum' (PG90 l.11469-11473). François Combefis's notes ('FR. COMBEFISII NOTAE AD VITAM S. MAXIMI'): the envoy and Maximus were 'quasi sodales exstiterint, non alter alterius discipulus'; 'nunquam tamen ipse Maximus discipulum vocat' the envoy, 'sed honorificentiori nomine, dominum meum'. The brief says 'two companions'",
+    "witness": "PG90 l.4913-4924, 11657-11665 [OCR forms: 'Romane Ecclesiz', 'exiquus']; PG90 l.15515, 16351-16365",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Exile among the Lazi, the envoy's letter: arrived 'ad amicorum Christi regionem Lazorum vi Idus Junias, v Indict.'; Maximus, unable to ride, carried on a litter: 'plectentes virgulas ex eis quasi lectulum texuissent, bajulantes detulerunt, et incluserunt in castro Schemari vocitato, juxta gentem illorum qui dicuntur Alani'",
+    "witness": "PG90 l.11685-11704 [OCR forms: 'v1 Idus', 'plecten- tes', 'Sche- mari']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Death foretold and date: 'Tertio decimo die Augusti mensis hujus instantis, quintæ dictæ indictionis, feria septima assumet me Dominus, quod et factum est. Igitur tertio decimo die prædicti Augusti mensis præteritæ v indictionis'. The Life: 'tertia decima scilicet mensis Augusti'. Migne's running head: 'ANNUS 662.'. The brief gives the day only, with the envoy attached ('the envoy adds'); the year is on the card",
+    "witness": "PG90 l.11672-11674, 11748-11752, 6574-6576, 138-141 [OCR forms: 'quintz dictz (b)', 'ſeria se- ptima', 'SACULUM VI.']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Age: Fabricius, 'in Lazicos deportatus obiit in carcere a. C. [year lost in OCR] ætatis 82'",
+    "witness": "PG90 l.277-279 [OCR forms: '@latis 82' read as 'ætatis 82'; the year after 'a. C.' is not legible]",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "The tomb: 'tres lampades luciferæ per singulas noctes sanctum sancti illius martyris monumentum illustrant' (the envoy's letter); the Life, 'lucidæ tres faces'",
+    "witness": "PG90 l.11762-11765, 6579 [OCR forms: 'lampa- des luciſeræ', 'lucidz']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Lateran acts and Maximus: Severinus Binius, in Mansi 10, 'Quod in actis concilii nulla mentio reperiatur Maximi, mirum videri non debet', since abbots had 'non decidendi & subscribendi, sed tantum consulendi facultatem'. Among the Greek monks' signatures: 'Maximus monachus, similiter.', next to 'Anastasius monachus, similiter.'",
+    "witness": "MANSI10 l.117079-117081 (heading 'Notæ Severini Binii'), 117103-117112, 92670-92674 [OCR forms: long s as 'f', 'SEVERINi BiNil-', 'tantrum', 'Anattafius']",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Theophanes on the exile: Constans had 'Sanctissimum Martinum et Maximum Cpolim adduci jussit, eosque tormentis excruciatos in exsilium deportari ad Chersonesi plagas'",
+    "witness": "THEOPHANES l.60845-60849 [OCR forms: 'Sanclissimum', 'lormentis']",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Constantinople III (680-681), in Percival's English (NPNF 2.14): 'in him are two natural wills and two natural operations indivisibly ... And these two natural wills are not contrary the one to the other ... but his human will follows and that not as resisting and reluctant, but rather as subject to his divine and omnipotent will'. 'The Sixth Ecumenical Council met on November 7, 680'",
+    "witness": "NPNF14 (npnf214_seven-ecumenical-councils.xml) l.25862-25869, 24572-24575",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "At the same council, Macarius of Antioch's profession: 'eum qui nuper est exortus infaustum Maximum cum impiis ejus discipulis' among those he anathematizes; Macarius in NPNF: 'I do not say that there are two wills or two operations'. The council answered: 'To Macarius the heretic, anathema!' and 'with the best of cause we anathematize and depose Macarius, who was bishop of Antioch'",
+    "witness": "MANSI11 l.74364-74367; NPNF14 l.25675-25684 [OCR forms: 'infanftum', 'difcipulis']; NPNF14 l.25749, 25997",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Fabricius: 'Theologus et confessor a Græcis appellatur, sanctisque una cum Anastasio, discipulo, ab Ecclesia ascribitur'; he says Maximus took part in the Lateran synod of 649 ('concilio Lateranensi a. 649, sub Martino I papa, interfuisset')",
+    "witness": "PG90 l.275-281 (notice from 'Bibliotheca Græca, ed. Harles', l.264-266) [OCR forms: 'conſessor', 'Crœca, ed. Hartes', 'a, 649']",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Who wrote the Greek Life: Fabricius, 'legitur Vita ejus, scripta ab Anastasio, apocrisiario, discipulo'; 'Eamdem Vitam laudat Allatius ... ubi auctorem incertum prodit'. The Life itself cites '(Anastasius scilicet apocrisiarius) tradidit' for the other Anastasius's death. Its editor is 'Fr. Franciscus Combefis', Paris 1675",
+    "witness": "PG90 l.282-286, 6540-6542, 2786-2790, 2655-2660 [OCR forms: 'sjus', 'Ana- Stasio']",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Three years in the fort: the Life, 'Divino autem Maximo [triennium] jam in Alaniæ castro incluso', the word in brackets in the Latin; the envoy's letter dates the arrival to 8 June and the death to 13 August of the fifth indiction",
+    "witness": "PG90 l.6570-6576, 11685-11688, 11748-11752 [OCR forms: 'triennjum', 'Alaniz']",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Key works: Capita de charitate, to 'pater Elpidi', 'pari quatuor Evangeliis numero, centenis comprehensum capitibus', gathered 'perlustratis atque excussis sanctorum Patrum libris ac scriptis'; Quæstiones ad Thalassium, 'MAXIMI HUMILIS MONACHI ... AD SANCTISSIMUM PRESBYTERUM AC PRÆPOSITUM THALASSIUM DE SCRIPTURÆ SACRÆ QUÆSTIONIBUS AC DUBIIS'; the Disputation with Pyrrhus (PG 91). The card says 'set in hundreds to match the four Gospels', not a hundred to each Gospel",
+    "witness": "PG90 l.76062-76085, 17168-17180; PG91 l.15040-15120 [OCR forms: 'ganctitati', 'san- ctorum', 'PRESBYTELR UM AC PREPOSITUX THALASSIUNM', 'QUEASTIONIBUS AG']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Card traditions: the census lists Maximus in the people of both 'The Byzantine Imperial Church (Heraclian & Iconoclast Eras)' (year 628) and 'Latin African Christianity under Byzantium' (year 632; dates 533-c. 698)",
+    "witness": "cic-website/data/world-census.json, movements byzantine-imperial-church-heraclian-iconoclast and latin-africa-under-byzantium, people lists",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "His own side's record: the Relatio calls him 'Dei servus' (l.6802 and throughout) and 'sanctus ... senex' (l.8276). The brief says 'his own side's record'",
+    "witness": "PG90 l.6802, 8275-8276",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Fabricius's initials: 'J. A. Fabricius' is held, e.g. in the Antiphonary of Bangor volume; the card's first mention reads 'J. A. Fabricius'",
+    "witness": "antiphonary-of-bangor-pt2-lat_warren1895.txt (grep 'J. A. Fabricius'); PG90 l.264-266",
+    "formation_confidence": "Documented"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "Whether Maximus took part in the Lateran synod of 649",
+    "sides": [
+     "For: Fabricius, 'concilio Lateranensi a. 649, sub Martino I papa, interfuisset' (PG90 l.279-281); Theophanes, who has Maximus stir Martin to hold it (THEOPHANES l.60747-60752); a 'Maximus monachus' among the Greek monks' signatures, unidentified in the text (MANSI10 l.92672)",
+     "Against or unproved: Severinus Binius, 'in actis concilii nulla mentio reperiatur Maximi', abbots having only a right to advise (MANSI10 l.117103-117112)"
+    ]
+   },
+   {
+    "claim": "Who wrote the Greek Life (Vita ac Certamen)",
+    "sides": [
+     "Anastasius the envoy, his disciple: Fabricius's notice (PG90 l.282-284)",
+     "Author uncertain: Leo Allatius, as Fabricius reports (PG90 l.285-286); the Life cites Anastasius the envoy as its source (PG90 l.6540-6542)"
+    ]
+   },
+   {
+    "claim": "How long Maximus lived in his last prison",
+    "sides": [
+     "Three years: the Life's Latin, '[triennium]' in brackets (PG90 l.6570-6571)",
+     "One summer: the envoy's letter, arrival 'vi Idus Junias, v Indict.' and death on 13 August of the same fifth indiction (PG90 l.11685-11688, 11748-11752)"
+    ]
+   },
+   {
+    "claim": "Where Maximus was last exiled",
+    "sides": [
+     "Among the Lazi, at Schemaris near the Alans: the sentence and the envoy's letter (PG90 l.11537-11538, 11695-11704)",
+     "The region of Cherson, with Martin: Theophanes (THEOPHANES l.60845-60849)"
+    ]
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "His birth year",
+    "note": "No held source gives one. Fabricius gives his age at death as eighty-two, but the year in that line is not legible in the OCR (PG90 l.279). The Library header's 'c. 580' is not used."
+   },
+   {
+    "detail": "A held English translation of his works or of the record of his trials",
+    "note": "None found. The PG 90 and PG 91 files are Greek with Latin; the Greek OCR is unreadable, so every reading here is from the Latin. Mansi 11 reprints the Latin of the trials (l.740-8350)."
+   },
+   {
+    "detail": "Who set down the Record of the hearing",
+    "note": "The held text gives the title and Anastasius the Librarian's Latin (PG90 l.289-293, 6728-6747) but no author line was found. The census's 'written by a disciple who was present' is not used."
+   }
+  ]
+ },
+ "martin-i-of-rome": {
+  "claims": [
+   {
+    "claim": "The seizure, Martin's second letter to Theodore (Mansi 10, 'XV. AD THEODORUM'): 'ante altare ecclesiæ lectulum meum habebam in quo jacebam'; the soldiers 'tenentes lanceas & spathas suas, quin & arcus suos paratos una cum scutis suis'; 'Quemadmodum namque in hiemali tempore vento valide flante folia ex arboribus concussa cadunt, ita percutiebantur armis candelæ sanctæ ecclesiæ'. He had been ill 'ab Octobrio mense usque ad prædictum tempus'. Told in modern words",
+    "witness": "MANSI10 (mansi_sacrorum-conciliorum-collectio-tomus-10-lat_welter-facsimile1901.txt) l.87304-87306, 87327-87339, 87399-87401 [OCR forms: long s as 'f', 'alrare ecclefiz', 'fpathas', '{cu- tis', 'fanée', 'infrmus', 'Ofobrio']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The church is the Lateran: 'privatim mansi in ecclesia salvatoris nostri Jesu Christi, quæ cognominatur Constantiniana ... & est juxta episcopium'; the Book of the Popes holds the synod 'secundum ecclesiam salvatoris juxta episcopium Lateranense'",
+    "witness": "MANSI10 l.87369-87374, 82074-82077",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "He gave himself up rather than see blood shed: 'melius judicavi decies mori, quam unius cujuscumque sanguinem in terram fundi'; 'Eadem itaque hora dedi meipsum ad exhibendum imperatori, & non resistendum.' Told in modern words",
+    "witness": "MANSI10 l.87433-87447 [OCR forms: 'ptzparati', 'cujufcumque fanguinem', 'meipfum', 'refiftendum']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Theodore: the letters open 'Martinus Theodoro sincera affectione dilecto fratri' (XIV) and 'Martinus Theodoro' (XV). 'A dear friend' renders 'dilecto fratri'. Louis Duchesne: the second letter 'fut écrite quelque temps après son arrivée à Constantinople, en octobre ou en novembre 654'",
+    "witness": "MANSI10 l.87158-87162, 87304-87310; DUCHESNE LP1 (liber-pontificalis_texte-introduction-commentaire-t1-lat-fra_duchesne1886.txt) l.163411-163413 [OCR forms: 'dileéto', 'Gonstantinople']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "June 653: the Roman Breviary's bracketed date, 'treacherously taken [on the 17th day of June, 653,]'; William Dudley Foulke, in his notes to Paul the Deacon, Calliopas 'who in June, 653, coming to Rome with the army from Ravenna, seized the Pope'. Martin's letter: taken from the palace in the night before Wednesday 'tertiodecimo Kalendas Julias'",
+    "witness": "BREVIARY (roman-breviary_bute1908.txt) l.89160-89163; FOULKE (paul-the-deacon_history-of-the-langobards_foulke1907.txt) l.9966-9970; MANSI10 l.87469-87473",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Origin and year: the Book of the Popes, 'Martinus, de civitate Tudertina, provinciæ Tusciæ'; the Breviary, 'born at Todi in Tuscany. At the beginning of his Popedom, [in the year 649,]'; Binius in Mansi 10: 'Anno Christi 649. die prima mensis Julii'",
+    "witness": "MANSI10 l.81970-81976, 82248-82252; BREVIARY l.89110-89116 [OCR forms: 'Artinus', 'provia-']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The Typos and Paul: Martin's speech, copied into the Book of the Popes (Duchesne: 'Tout ce long passage est emprunté mot à mot au discours du pape Martin'): Paul of Constantinople sought 'ut & clementissimo Principi suaderet typum exponere', a Typos 'nec unam, nec duas voluntates, aut operationes in Christo domino nostro definiens confiteri'; 'altare ... sanctæ nostræ sedis, quod erat in domo Placidiæ sacratum in venerabili oraculo, subvertens, diriperet', so that the envoys could not offer Mass there",
+    "witness": "MANSI10 l.81980-82010; DUCHESNE LP1 l.162717-162740 (Duchesne's text: 'Altare enim sanctae nostrae sedis, in domo Placidiae sacratum') [OCR forms: 'Conftantinopoliranz', 'fuaderet', 'Placidiz facratum']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The synod: 'congregavit episcopos in urbem Romam numero centum & quinque'; 'condemnaverunt Cyrum Alexandrinum, Sergium, Pyrrhum, & Paulum, patriarchas Constantinopolitanos'; copies sent 'per omnes tractus orientis & occidentis'. Duchesne: 'Les cinq sessions du concile de Latran eurent lieu les 5, 8, 17, 19 et 31 octobre 649.' The Breviary: 'a council of one-hundred-and-five Bishops'. The brief no longer tells the count in its own voice; 'for teaching one will' rests on Bede, 'principally against those who taught but one will and operation in Christ' (GILES l.10403-10405)",
+    "witness": "MANSI10 l.82052-82090; DUCHESNE LP1 l.162757-162760; BREVIARY l.89125-89130",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Olympius, the Book of the Popes: the emperor sent 'Olympium cubicularium & exarchum' with orders 'jubemus teneri Martinum'; God 'non illum permisit'; the sword-bearer struck blind at Mass, 'excæcavit spatharium Olympii exarchi'. The Roman Breviary's fifth lesson repeats the blinding: the lictor 'was struck with blindness' (BREV l.89131-89152). Kept to the card's What is uncertain. Olympius was sent 'ad regendam omnem Italiam' (l.82124-82126), so the brief and card call him governor of Italy; after his death 'Deinde directus est ab imperatore Theodorus exarchus, qui cognomento Calliopa dicitur' (l.82111-82113), so Calliopas is 'his successor'",
+    "witness": "MANSI10 l.82122-82143, 82200-82206 [OCR forms: 'excecavit fpatharium']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Calliopas: 'directus est ab imperatore Theodorus exarchus, qui cognomento Calliopa dicitur ... Qui tollentes sanctissimum Martinum papam de ecclesia salvatoris ... perduxerunt Constantinopolim'",
+    "witness": "MANSI10 l.82110-82118 [OCR forms: 'cognomen- to', 'falyatoris']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Naxos, Martin's letter: 'excepto dumtaxat in insula Naxia, quoniam ibi annum fecimus'; 'quadraginta & septem dies sunt hodie, ex quo non merui calida nec frigida aqua rigare me'. Duchesne: 'Le voyage de Rome à Constantinople dura un an et trois mois'",
+    "witness": "MANSI10 l.87518-87525; DUCHESNE LP1 l.162997-163001 [OCR forms: 'Borne']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The account sent west: 'Commemoratio eorum quæ ... acta sunt ... in sanctum ... Martinum papam ... per epistolam cujusdam Christianissimi, directam his qui sunt in occidente, seu Romæ, & in Africa, orthodoxis patribus'; Duchesne, 'expédié en Occident par un des clercs de sa suite'. The writer calls himself 'humilis & peccator famulus vester'",
+    "witness": "MANSI10 l.87561-87568, 87588; DUCHESNE LP1 l.162992-162995 [OCR forms: 'Chriftianifiimi', 'diredham', 'few Rome', 'orthodoxss']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Arrival and prison: 'septimo decimo die Septembrii mensis'; held 'nonaginta tres dies'; brought to the trial 'in portatoria sella: erat enim penitus æger'",
+    "witness": "MANSI10 l.87653-87657, 87746-87755",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The trial: Dorotheus swore 're vera unius consilii fuit cum Olympio'; Martin began 'Si vultis audire veritatem, dico vobis sequentia ... Quando factus est typus, & directus Romam ab imperatore', and was cut off by Troilus: 'Non inferas nobis hic de fide, de duello nunc scrutaris'. 'Præfectus Troilus' at l.87763. 'Rebellion' renders 'duello'. Told in modern words",
+    "witness": "MANSI10 l.87818-87826, 87732-87744, 87760-87765 [OCR forms: 'fadus eft ty- pus', 'interas', 'nune {cru- taris', 'prefedtus']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Stripped and chained: the treasurer told the prefect 'continuo membratim incide illum'; 'exuerunt exterius ejus pallium sacerdotalis stolæ'; 'circumposuerunt ferrea vincula in sanctam ejus cervicem'; led 'dehonestantes per medium civitatis'",
+    "witness": "MANSI10 l.87940-87946, 87988-87996 [OCR forms: 'circumpofuerunr ter- rea', 'dehoneftantes']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Spared death: Binius, in Mansi 10, after Anastasius the Librarian, says he would have been martyred 'nisi Paulus Constantinopolitanus episcopus morti vicinus obstitisset'. The brief says only 'spared death'",
+    "witness": "MANSI10 l.82352-82360",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "To Cherson: 'Dictum est ergo, quia in Chersonam exulatur'; Martin, 'navigantes sancta quinta feria cenæ domini ... Idibus Maiis, & Chersonem pervenimus.' Duchesne: 'Martin fut embarqué à Hiéron, près Constantinople, le jeudi saint, 26 mars 655. Il arriva à Cherson (Sébastopol) le 15 mai suivant'. 'The next spring' (brief): the Commemoratio's counts, ninety-three days from 17 September and then 'octoginta quinque dies post primas nonaginta tres' (l.87653-87657, 87748, 88181-88182), with 'intolerabilis hiems' at the trial (l.87958)",
+    "witness": "MANSI10 l.88236-88240, 88440-88445; DUCHESNE LP1 l.163015-163018",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Hunger at Cherson, letter XVI: 'ut panis in ea tantum nominetur, non tamen penitus videatur'",
+    "witness": "MANSI10 l.88454-88458",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Forgotten, letter XVII: friends and kin 'sic funditus infelicitatis meæ obliti sunt, & nec scire volunt ... sive sim super terram, sive non sim'; and he wonders 'multo magis' at 'eos, qui sunt sanctissimi apostoli Petri ecclesiæ'. Duchesne: 'Il s'y plaint avec douceur d'être oublié de son église de Rome et prie Dieu pour elle et surtout pour son successeur'",
+    "witness": "MANSI10 l.88472-88490; DUCHESNE LP1 l.163019-163021",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "His prayer: 'stabiliat corda eorum in orthodoxa fide ... & immobiles custodiat, præcipue pastorem qui eis nunc præesse monstratur'",
+    "witness": "MANSI10 l.88526-88540 [OCR forms: 'pracipue', 'preeffe monttratur']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Closing words: 'De humili namque hoc corpore meo & ipse dominus curam erit, ut sibi gubernare placet, sive in tribulationibus indefinentibus, sive in modico refrigerio. Dominus enim prope est, & quid sollicitus sum?' Told in modern words",
+    "witness": "MANSI10 l.88548-88555 [OCR forms: 'hee', 'ipfi domine cura', 'retrigerio', 'Domi- mus', 'prope elt']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Death and burial, the Commemoratio: 'recens revera confessor & martyr'; 'mense Septembrio, die sextadecima ... indictione quartadecima'; 'in tumulis sanctorum extra muros Chersonitarum civitatis quasi stadio uno', in the church of Mary 'quæ cognominatur Blachernes'",
+    "witness": "MANSI10 l.88324-88357 [OCR forms: 'fextadecima', 'indi@ione', 'fanf&orum']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Bede, Giles's English: Hatfield, 'the synod held in the city of Rome, in the time oF the blessed Pope Martin, in the eighth indiction, and in the ninth year of the most pious Emperor Constantine, we receive'; John, 'abbat of the monastery of St. Martin, who came lately from Rome, by order of Pope Agatho', brought 'the decision of the synod of the blessed Pope Martin and 105 bishops, held not long before at Rome, principally against those who taught but one will and operation in Christ' and 'gave it to be transcribed in the aforesaid monastery' of Benedict, built 'at the mouth of the river Were'. Chapter heads: [a.d. 680.]. Bede dates Heathfield 'the seventeenth of October, the eighth indiction' (l.10284-10286); '[a.d. 680.]' is the edition's bracket in the chapter heads, so the brief and card give no year for it",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.10266-10269, 10329-10335, 10356-10362, 10366-10368, 10401-10408 [OCR forms: 'oF']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Agatho's letter to Constantinople III, as Henry R. Percival summarizes it in NPNF 2.14: the two-wills faith 'was set forth in a council over which Pope Martin presided'. Heading: 'The Letter of Agatho and of the Roman Synod of 125 Bishops which was to Serve as an Instruction to the Legates Sent to Attend the Sixth Synod', to 'Constantine, the great Emperor, and Heraclius and Tiberius, Augustuses'. The card names the council: 'the council of Constantinople in 680' (NPNF14 l.24572)",
+    "witness": "NPNF14 (npnf214_seven-ecumenical-councils.xml) l.25595-25599; NPNF14 l.25508-25526",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Martin's denial on the Saracens, letter XIV: 'Ego aliquando ad Saracenos nec literas misi, nec quem dicunt tomum ... aut pecunias unquam transmisi', except small alms to 'servis Dei'; and 'vivens & moriens salutis nostræ fidem defendam'. 'Illuc venientibus' gives no place they came from; the card says only that he gave 'a little alms to some servants of God, none of it sent to the Saracens'",
+    "witness": "MANSI10 l.87249-87287",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Martin's answer on Olympius at the trial: 'Quomodo habebam ego tali viro adversus stare ... an potius ego illum feci exarchum?' Duchesne: 'Martin fut accusé d'avoir trempé dans les tentatives que fit Olympius pour se rendre indépendant'; 'La période de bons rapports entre le pape et l'exarque parait avoir été plus longue que le récit ne le donne à entendre'. Foulke: 'the subsequent rebellion of Olympius which was supported by Pope Martin I'",
+    "witness": "MANSI10 l.87836-87844; DUCHESNE LP1 l.162826-162834; FOULKE l.12759-12761",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Death date: the Commemoratio, 16 September, fourteenth indiction (MANSI10 l.88332-88340); the Breviary's lesson, 'upon the 12th day of November,1 [in the same year 655.]', with its note 'He died on Sept. 16. Nov. 12 is the day of the translation of his reliques to Rome. (Alban Butler.)'; Binius in Mansi 10, 'Anno Christi 654. duodecimo die mensis Novembris'; Foulke, 'died in 655'",
+    "witness": "MANSI10 l.88332-88340, 82394-82396; BREVIARY l.89170-89174, 89250-89252; FOULKE l.9974-9977",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Year of the arrival at Constantinople: the Breviary's added dates, '[On the 17th of September in 655 he was] brought to Constantinople' and sent to the Crimea '[on the 15th of May, 645.]'; Duchesne's reading, second letter written 'en octobre ou en novembre 654', sailing 26 March 655",
+    "witness": "BREVIARY l.89163-89169; DUCHESNE LP1 l.163411-163413, 163015-163017",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Number of bishops: 105 in the Book of the Popes, Bede and the Breviary; Theophanes, in Migne's Latin, 'centum et quinquaginta episcoporum synodo celebrata'; Severinus Binius, quoting Theophanes in his note on the synod, 'synodo centum decem episcoporum collecta' (110). The brief gives 105 only inside Bede's quotation, with Bede named",
+    "witness": "MANSI10 l.82052-82056; GILES l.10401-10403; BREVIARY l.89125-89130; THEOPHANES (theophanes-confessor_chronographia-pg108-grc-lat_migne1863.txt) l.60749-60751; MANSI10 l.117104-117108 [OCR form: 'fynedo contum decem epifcoporum colletta']",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Successor: Duchesne, 'Cependant Eugène avait été ordonné le 10 août'; Theophanes, 'Martino demum in exsilium pulso, Agatho Romanus papa instituitur'",
+    "witness": "DUCHESNE LP1 l.163415-163417; THEOPHANES l.60849-60852 [OCR forms: 'paps instituilur']",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Election without the emperor: Foulke, 'Pope Martin I, whose appointment lacked the confirmation of the emperor'; Calliopas's decree, in Martin's letter, said 'quod irregulariter & sine lege episcopatum subripuissem'. The decree was handed by Calliopas: 'Jussio a Calliopa porrecta est presbyteris et diaconibus' (l.87345, 87423)",
+    "witness": "FOULKE l.9937-9942; MANSI10 l.87422-87426 (the decree passage of letter XV) [OCR forms: 'irreguiariter', 'ef fem']",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Remembered: the Breviary calendar, 'Martin, Pope of Rome, Martyr.'; its martyrology, 'worn out by his sufferings for the Catholic faith's sake. He was famous for miracles. His body was afterward brought to Rome and buried in the Church of SS. Sylvester and Martin.'; the 1843 Roman Missal, 'XII. St. MARTIN, p. m.'",
+    "witness": "BREVIARY l.2524-2526, 88983-89002; MISSAL (roman-missal_england1843.txt) l.35208-35210",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Healings at the tomb: Binius, in Mansi 10, quotes Gregory II's letter to Leo the Isaurian, that the city of Cherson where he was exiled, the whole north and its people flock to his tomb and receive healings; Duchesne gives the Greek and the same sense. Binius also cites Audoenus's Life of Eligius for a cure at Constantinople while Martin lived",
+    "witness": "MANSI10 l.82400-82425; DUCHESNE LP1 l.163033-163039 [OCR forms: 'sotus eptemtrie atgue incole']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Duchesne's heading for the Life: 'LXXVI. MARTINUS (649-653)'",
+    "witness": "DUCHESNE LP1 l.161772 [OCR form: '(649-rf53)']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Card tradition: the census names Martin I as a voice of 'The Byzantine Imperial Church (Heraclian & Iconoclast Eras)' (622-843) and in the Heraclius person entry; no era 4 census movement is a Roman or Latin papal tradition",
+    "witness": "cic-website/data/world-census.json, byzantine-imperial-church-heraclian-iconoclast voices; heraclius voices; the era 4 movement list",
+    "formation_confidence": "Documented"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "Whether Martin backed Olympius against the emperor",
+    "sides": [
+     "Yes: the accusers at his trial, in the Commemoratio (MANSI10 l.87818-87826); William Dudley Foulke, 'the subsequent rebellion of Olympius which was supported by Pope Martin I' (FOULKE l.12759-12761); Louis Duchesne thinks the good relations lasted longer than the Book of the Popes implies (DUCHESNE LP1 l.162826-162834)",
+     "No: Martin's own answer at the trial, that he could not stand against a man holding the arm of the whole Italian army, and had not made him exarch (MANSI10 l.87836-87844)"
+    ]
+   },
+   {
+    "claim": "The day and year of his death",
+    "sides": [
+     "16 September, fourteenth indiction: the Commemoratio (MANSI10 l.88332-88340); the Breviary's own note after Alban Butler (BREVIARY l.89250-89252)",
+     "12 November 655: the Breviary's lesson and martyrology (BREVIARY l.89170-89174, 88981-88994)",
+     "12 November 654: Binius's note in Mansi 10 (MANSI10 l.82394-82396)"
+    ]
+   },
+   {
+    "claim": "How many bishops met at the Lateran in 649",
+    "sides": [
+     "105: the Book of the Popes (MANSI10 l.82052-82056), Bede (GILES l.10401-10403), the Breviary (BREVIARY l.89125-89130)",
+     "150: Theophanes, in Migne's Latin (THEOPHANES l.60749-60751)",
+     "110: Severinus Binius, quoting Theophanes, 'synodo centum decem episcoporum collecta' (MANSI10 l.117104-117108; OCR 'fynedo contum decem epifcoporum colletta')"
+    ]
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "His birth year and age",
+    "note": "No held source gives them. The Book of the Popes and the Breviary give only Todi in Tuscany."
+   },
+   {
+    "detail": "A held English translation of his letters or of the Commemoratio",
+    "note": "None found. The letters and the account are held in Latin in Mansi 10; the Book of the Popes' Life in Latin in Mansi 10 and in Duchesne. Loomis's English Book of the Popes (v1) ends before him."
+   },
+   {
+    "detail": "The name of the clergyman who wrote the Commemoratio",
+    "note": "The text calls him only 'humilis & peccator famulus vester' (MANSI10 l.87588); Duchesne calls him 'un des clercs de sa suite' (DUCHESNE LP1 l.162994)."
+   },
+   {
+    "detail": "Who Theodore was",
+    "note": "The letters name him only as 'Theodoro'. Duchesne's note calls him 'Théodore de Sainte-Sophie' (DUCHESNE LP1 l.162988); the card does not use the title."
+   }
+  ]
+ },
+ "benjamin-i-of-alexandria": {
+  "claims": [
+   {
+    "claim": "Heading: 'BENJAMIN I, THE THIRTY- EIGHTH PATRIARCH. A. D. 622-661' (Evetts's heading; OCR 'THIRTY- EIGHTH')",
+    "witness": "HIST (severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt) l.42834",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The History is a later compilation in Benjamin's own church: Evetts's title page and the 1895 Abu Salih note, 'The patriarchal history compiled by Severus of Al-Ushmunain' (OCR 'Al-Ushmftnain'). The compiler is attributed, as the era 3 Theodosius card has it",
+    "witness": "HIST (severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt) l.1-8 (header, attribution only); ABUSALIH (abu-salih_churches-and-monasteries-of-egypt_evetts1895.txt) l.11738",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Origin: 'This brother Benjamin was a native of the province of Al-Buhairah, and came from a hamlet called Barshut'; parents 'very rich'; monk under 'a holy old man whose name was Theonas' at the 'Monastery of Canopus'",
+    "witness": "HIST (severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt) l.42838-42847",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Andronicus 'ordained him priest'; 'when his death drew near, charged them that Benjamin should be patriarch after him' (OCR 'he patriarch')",
+    "witness": "HIST (severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt) l.43225-43230",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Heraclius 'sent a governor to the land of Egypt, named Cyrus, to be prefect and patriarch at the same time'; Evetts's note: Mukaukas, 'Colchian', denotes 'Cyrus, bishop of Phasis' (OCR 'Pliasis')",
+    "witness": "HIST (severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt) l.43240-43241, 43588-43591",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The Colchian's aim: affliction brought on the orthodox 'in order that they might enter into the Chalcedonian faith' (OCR 'Clialcedonian')",
+    "witness": "HIST (severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt) l.43559-43562",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Angel bids him flee: 'this conflict will last only ten years. And write to all the bishops ... that they may hide themselves' (OCR 'onlv', 'thv'); he went 'by the road towards Mareotis, walking on foot by night' to Al-Muna and Wadi Habib, then 'remained hidden there in a small monastery in the wilderness' in Upper Egypt",
+    "witness": "HIST (severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt) l.43420-43447; ABUSALIH (abu-salih_churches-and-monasteries-of-egypt_evetts1895.txt) l.11741-11762 (quoting the same life)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Mennas: 'Heraclius seized the blessed Mennas, brother of the Father Benjamin ... caused lighted torches to be held to his sides ... drowned in the sea'; 'Say that the council of Chalcedon is good ... But Mennas would not do so' (OCR 'Ileraclius', 'Chalcodon'). Seven bowshots from land (l.43582). Ethiopic: 'drowned in the river'",
+    "witness": "HIST (severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt) l.43572-43582, 43750-43752; BASSET (synaxaire-arabe-jacobite_po11-toubeh-amshir-fra_basset1915.txt) l.40774-40776; BUDGE (ethiopian-synaxarium_book-of-saints-ethiopian-church-v2-takhshash-yakatit_budge1928.txt) l.8370-8373",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Sanutius 'made known to Amr the circumstances of that militant father, the patriarch Benjamin, and how he was a fugitive from the Romans'; 'Amr 'wrote to the provinces of Egypt a letter': 'let him come forth secure and tranquil, and administer the affairs of his Church' (OCR 'Homans', 'allairs ol Ins')",
+    "witness": "HIST (severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt) l.44462-44469, 44586-44588; BUDGE (ethiopian-synaxarium_book-of-saints-ethiopian-church-v2-takhshash-yakatit_budge1928.txt) l.8403-8406; BASSET (synaxaire-arabe-jacobite_po11-toubeh-amshir-fra_basset1915.txt) l.40823-40826; ABUSALIH (abu-salih_churches-and-monasteries-of-egypt_evetts1895.txt) l.11774-11785",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "To 'his companions and private friends': 'Verily in all the lands of which we have taken possession hitherto I have never seen a man of God like this man' (OCR '! have never seem')",
+    "witness": "HIST (severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt) l.44683-44685",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "John of Nikiu: 'Abba Benjamin, the patriarch of the Egyptians, returned to the city of Alexandria in the thirteenth year after his flight from the Romans'; 'This expulsion (of the Romans) and victory of the Moslem is due to the wickedness of the emperor Heraclius and his persecution of the Orthodox through the patriarch Cyrus'",
+    "witness": "NIKIU (john-nikiu_chronicle_charles1916.txt) l.12005-12012",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Charles: John of Nikiu 'was probably born about the time of the Mohammedan invasion of Egypt'; 'the Coptic bishop of Nikiu'",
+    "witness": "NIKIU (john-nikiu_chronicle_charles1916.txt) l.178-179",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Michael: 'nous avons trouvé dans des histoires, que Benjamin, patriarche des Orthodoxes, avait livré l'Egypte aux Taiyayê'; Benjamin 'promit de leur livrer Alexandrie, si seulement ils voulaient chasser Cyrus et lui rendre les'églises' (OCR); Taiyayê are the Arabs: 'L'empire des Arabes, appelés Taiyayê'",
+    "witness": "MICHAEL (michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt) l.33096-33099, 33123-33125, 31703",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Michael's date: title 'Chronique de Michel le Syrien, patriarche jacobite d'Antioche (1166-1199)'",
+    "witness": "MICHAEL (michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt) title, l.1 and the title page",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Return work: 'he drew to himself most of the people whom Heraclius, the heretical prince, had led astray; for he induced them to return to the right faith by his gentleness' (OCR 'lleraclius', 'bis'); of the bishops who denied, 'some of them returned with abundant tears'",
+    "witness": "HIST (severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt) l.44831-44844",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Agathon's account of the consecration of the church of Saint Macarius in Wadi Habib, with 'CANONS FOR THE MONASTERY OF SAINT MACARIUS', and Benjamin's words 'Think not, my brethren, that I have written these anathemas for this generation'",
+    "witness": "HIST (severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt) l.46143-48062 (canons l.47715-47910; quote l.48051-48052)",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Agathon: 'I the sinner Agathon, I was the son of the Father Benjamin' (OCR 'Agatbon'); Benjamin 'adopted Agathon as his son in the administration of the holy Church'; Agathon went disguised as a carpenter 'ten years until the time of the appearance of the Muslims' (OCR 'Agalhon', 'tlm')",
+    "witness": "HIST (severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt) l.46143-46144, 45701-45712",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Renaudot on the account: 'haec omnia a Coptitis recentioribus inventa esse non dubitamus, ut novo suo Monasterio D. Macarii dignitatem conciliarent'; 'Nihil porro in longa illa sub Agathonis nomine fabula dignum observatione legitur, nisi quod Ecclesiae illius novae consecratio facta est'; 'Illae vero comminationes non videntur aetati Benjamini convenire' (OCR long s as f: 'hxc', 'fub', 'xtati', 'ede')",
+    "witness": "RENAUDOT (renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713.txt) l.11541-11548",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Renaudot's own side: 'Orthodoxum qui vulgo Melchitarum appellatur; & haereticum, Jacobitarum'; Coptic rite kept 'a juratis Romanae fidei hostibus' (OCR 'Romanx')",
+    "witness": "RENAUDOT (renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713.txt) l.10992-10993, 11559",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Renaudot: the Copts 'Muslemanis ad Graecos debellandos auxilium praebuerunt ... Id etiam significare videtur Severus, dum Sanutium quemdam fidelem ... memorat, qui inter Amrum & Benjaminum sequester pacis fuisse dicitur' (OCR 'Muf- emanis', '(equefter', 'fuilTe')",
+    "witness": "RENAUDOT (renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713.txt) l.11427-11433",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Death: 'attacked by a disease in his feet ... sick for two years'; 'on the 8th of Tubah, when he had been patriarch thirty-nine years'. Ethiopic: 'suffered from a disease in his foot for twenty years', 'nine and thirty years'",
+    "witness": "HIST (severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt) l.45714-45716, 45954-45955; BUDGE (ethiopian-synaxarium_book-of-saints-ethiopian-church-v2-takhshash-yakatit_budge1928.txt) l.8453-8456",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Agathon: 'Such was the Father Benjamin, the patriarch, the teacher of the orthodox, who understood the interpretation of the scriptures, and dwelt in the desert, and grasped many mysteries'",
+    "witness": "HIST (severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt) l.45959-45964",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Agathon succeeds: 'AGATHON, THE THIRTY-NINTH PATRIARCH. A. D. 661-677' (OCR 'GG1-G77'); 'Agathon was the son of the patriarch Benjamin in the spirit'; Benjamin 'returned from banishment ... he restored that which had been overthrown by Heraclius'; the people 'took that God-fearing priest Agathon, and enthroned him'",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt, Evetts, History of the Patriarchs, Agathon to Michael I) l.336-352, 397-400",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Life of Alexander II ('A. D. 705-730'): 'Since the time of the Father Benjamin we have not seen a patriarch in Upper Egypt until this father'",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt, Evetts, History of the Patriarchs, Agathon to Michael I) l.2536, 3036-3038",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "'By his intercession began the rebuilding of the monasteries of Wadi Habib and of Al-Muna' (OCR 'Al-Muua'); 1895 note: the monasteries 'remained in a partly deserted condition until the Mahometan conquest in the time of the patriarch Benjamin, when they were restored'",
+    "witness": "HIST (severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt) l.45363-45364; ABUSALIH (abu-salih_churches-and-monasteries-of-egypt_evetts1895.txt) l.9662-9665",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Michael: 'depuis cette époque jusqu'aujourd'hui, les Chalcédoniens n'ont pu prospérer à Alexandrie et en Egypte, ni même y habiter, si ce n'est en petit nombre; et les Orthodoxes ont occupé les églises et les monastères jusqu'à ce jour'",
+    "witness": "MICHAEL (michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt) l.33128-33132",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Feasts: 'HUIT DU MOIS DE TOUBEH (3 janvier)': consecration at the monastery of Macaire and 'la mort du saint pere Benjamin'; Ethiopic 'VIII. TER': consecration and death; salutation 'so learned in the Scriptures that he was made Archbishop of Alexandria'; Renaudot: 'Commemoratio Benjamini Patriarchae Alexandrini: consecratio Ecclesiae S. Macarii', on the day '13 Januarii'",
+    "witness": "BASSET (synaxaire-arabe-jacobite_po11-toubeh-amshir-fra_basset1915.txt) l.40494-40497, 40726; BUDGE (ethiopian-synaxarium_book-of-saints-ethiopian-church-v2-takhshash-yakatit_budge1928.txt) l.8190-8197, 8332-8333, 8485-8486; RENAUDOT (renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713.txt) l.11577-11580",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Abu Salih names 'George, son of Mennas, the Mukaukis' as ruling with Heraclius during the ten years",
+    "witness": "ABUSALIH (abu-salih_churches-and-monasteries-of-egypt_evetts1895.txt) l.11731-11733",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Birthplace spellings: 'Barshut' (History), 'Farchout' (Basset), 'BARSET' (Budge)",
+    "witness": "HIST (severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt) l.42844; BASSET (synaxaire-arabe-jacobite_po11-toubeh-amshir-fra_basset1915.txt) l.40728; BUDGE (ethiopian-synaxarium_book-of-saints-ethiopian-church-v2-takhshash-yakatit_budge1928.txt) l.8333",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Assemani's list of the Coptic codices he brought from the East ('CODICES COPTICI, Quos Auctor ex Oriente advexit', split by the two-column OCR across l.123862, 123865 and 123953-123954; OCR 'ad'vexit') gives, as codex XVI, 'Benjamini Patriarchae Alexandrini Homilia de Nuptiis Canae Galilaeae' (l.124085-124089; OCR 'Patriarche', 'Canz Galilez'). The codex is 'In fol. membr. 139.' with no date (l.124101; OCR 'Iu fol.'). The date 1065 at l.124081-124084 closes codex XV.",
+    "witness": "ASSEMANI (assemani_bibliotheca-orientalis-tomus1-de-scriptoribus-syris-orthodoxis-lat_1719.txt) l.123862-123865, 123953-123954, 124081-124101",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Basset's text counts thirty-nine years: 'Il demeura patriarche pendant trente-neuf ans'; 'mourut apres avoir exerce le patriarcat pendant trente-neuf ans' (OCR 'exere@'). The '(630-648)' stands in parentheses after 'le trente-huitieme de la liste'",
+    "witness": "BASSET (synaxaire-arabe-jacobite_po11-toubeh-amshir-fra_basset1915.txt) l.40597, 40875-40876, 40726-40727",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Who wrote the unsigned Abu Salih notes: Butler's notes are initialled; the preface says his help went beyond them ('his contributions to the work are by no means limited to the notes which bear his initials'), so an unsigned note is the edition's and not surely Evetts's. The note on Wadi Habib is unsigned (l.9662-9665, 9700-9702)",
+    "witness": "ABUSALIH (abu-salih_churches-and-monasteries-of-egypt_evetts1895.txt) l.129-134",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Renaudot's witnesses: 'Canon Chronologicus Abulbircat an. 38. menses 10. Pontificatus numerat'; Elmacinus is 'Georgius filius Hamd, vulgo Elmacinus dictus', who wrote a history 'a creatione mundi' (OCR 'didbus', 'hiftoriam')",
+    "witness": "RENAUDOT l.11590-11591, 441-442",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Canons end in curses: III 'shall be anathema' (OCR 'anal hem a'), IV and V 'let him be anathema', VI 'the Lord Jesus Christ shall cast him out', VII 'be degraded'",
+    "witness": "HIST l.47893-47910",
+    "formation_confidence": "Documented"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "How Benjamin came back to Alexandria",
+    "sides": [
+     "After the conquest, on 'Amr's safe-conduct: the History of the Patriarchs (HIST l.44459-44593); John of Nikiu, in the thirteenth year after his flight (NIKIU l.12005-12008); both synaxaria (BASSET l.40823-40828; BUDGE l.8403-8406); Abu Salih (ABUSALIH l.11774-11785)",
+     "He promised the Arabs Alexandria if they drove out Cyrus and gave him the churches: Michael the Syrian, from 'des histoires' (MICHAEL l.33096-33128)",
+     "The Copts helped the Muslims against the Greeks, with Sanutius as go-between: Eusèbe Renaudot, reading the History (RENAUDOT l.11427-11433)",
+     "The Jacobites, persecuted by the Melkites, sided with the Saracens invading Egypt, naming Benjamin: Hiob Ludolf, 1691 (ludolf_commentarius-ad-historiam-aethiopicam-lat_1691.txt l.51953-51962)"
+    ]
+   },
+   {
+    "claim": "Whether Agathon's account of the Saint Macarius consecration is genuine",
+    "sides": [
+     "Told as Agathon's account of what Benjamin told him, within the History (HIST l.46143-48062); the Ethiopic Synaxarium tells the consecration and the Canon (BUDGE l.8195-8254)",
+     "A fable invented by later Copts for their new monastery, its threats unsuited to Benjamin's age: Renaudot (RENAUDOT l.11541-11548)"
+    ]
+   },
+   {
+    "claim": "His years as patriarch",
+    "sides": [
+     "622-661: Evetts's heading (HIST l.42834); 622 to 660 with a query: an unsigned note in B. T. A. Evetts's 1895 Abu Salih (ABUSALIH l.11741)",
+     "630-648 in parentheses in Basset's French of the Arabic Synaxarium, whose text counts thirty-nine years (BASSET l.40726-40727, 40597, 40875-40876)",
+     "Renaudot: al-Makrizi ('Makrizius') puts his death in A.H. 39 after 39 years; Abulbircat's 38 years 10 months and Martyrs' year 354 would put death in 648, 'toto decennio citius quam Elmacinus, & alii' (RENAUDOT l.11589-11597)"
+    ]
+   },
+   {
+    "claim": "Length of the hiding",
+    "sides": [
+     "Ten years foretold by the angel; hid 'until the accomplishment of the ten years' (HIST l.43429, 43447)",
+     "The thirteenth year after his flight (NIKIU l.12006-12007); thirteen years, ten under Heraclius and three under the Arabs (BASSET l.40826-40827)",
+     "Came out 'in the tenth (?) year of the reign of the Emperor HERACLIUS, and in the third year of the kingdom of the Muslims' (BUDGE l.8406-8408)"
+    ]
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "The text of any writing of Benjamin's beyond the canons and words in Agathon's account",
+    "note": "No text is held. Assemani's list of the Coptic codices he brought from the East names, as codex XVI, a homily of his on the wedding at Cana, in an undated parchment volume (ASSEMANI l.123862-123865, 123953-123954, 124085-124101). The date 1065 at l.124081-124084 belongs to codex XV."
+   },
+   {
+    "detail": "His birth year and his age at death",
+    "note": "No held source gives them. The History speaks only of 'the old age which had come upon him' (HIST l.45714-45715)."
+   }
+  ]
+ },
+ "jacob-of-edessa": {
+  "claims": [
+   {
+    "claim": "Burning of the canons, Michael: 'Avant de partir, il discuta avec le patriarche et les évêques au sujet de l'observation des canons ecclésiastiques : mais personne ne l'écouta ; tous lui conseillaient de s'accommoder au temps et aux événements. C'est pourquoi, il apporta le livre des canons ecclésiastiques et le fit brûler devant la porte du monastère du patriarche, en criant à haute voix : « Je brûle dans le feu, comme superflus et inutiles, les canons que vous foulez aux pieds et n'observez pas ».' (OCR 'ail temps', 'eccléslîxsûqvves et le fit brâlec devant la çovte du. ïaotvastère du p^ttviwYch^, [44(>] ei^ criant'); the patriarch is Julian: 'confia le siège au patriarche Mar Julianus'",
+    "witness": "MICHAEL2 (michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt) l.36392-36400",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Bar Hebraeus, the same: 'cum patriarcha Mar Juliano et episcopis pro canonum ecclesiasticorum observatione contendit. Nemo autem aures ei praebuit ; sed omnes ut res tempori accommodaret hortabantur ; idcirco canonum ecclesiasticorum codicem attulit et ante valvas monasterii ubi patriarcha habitabat igne concremavit, alta voce proclamans : « canones a vobis conculcatos et minime custoditos quasi superfluos et inutiles comburo.»' (OCR 'e/ cura', 'Juliana', 'concre- ... raavit', 'concultatos')",
+    "witness": "BH1 (barhebraeus_chronicon-ecclesiasticum-vol1-lat_abbeloos-lamy1872.txt) l.17320-17332; BH1 (barhebraeus_chronicon-ecclesiasticum-vol1-lat_abbeloos-lamy1872.txt) l.17407-17411",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Julian 'cognomine Romanus' (Bar Hebraeus's heading)",
+    "witness": "BH1 (barhebraeus_chronicon-ecclesiasticum-vol1-lat_abbeloos-lamy1872.txt) l.17535-17536",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Michael and Bar Hebraeus belong to Jacob's church: Michael 'PATRIARCHE JACORITE D'ANTIOCHE (II66-II99)' (title page, OCR); Bar Hebraeus's father passed from Judaism to Christianity 'in secta Jacobitica', the editors' conjecture, and Bar Hebraeus was born 1226",
+    "witness": "MICHAEL2 (michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt) l.39-41; BH1 (barhebraeus_chronicon-ecclesiasticum-vol1-lat_abbeloos-lamy1872.txt) l.232-239",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Life, Michael: 'A cette époque florissait Jacques le Rhéteur, surnommé d'Edesse, parce qu'il fut, par la suite, ordonné évêque pour Edesse, par les mains du patriarche Athanase, l'Interprète des Écritures, surnommé Baladaya.' 'Il était originaire de la région d'Antioche, du village appelé 'Ayndâbâ, dans le pays de Goumah. Dans sa jeunesse, il fut élevé près de Cyriacus, visiteur de ce lieu, homme pieux. Il lut tout l'Ancien et le Nouveau Testament et les Docteurs exactement. Ensuite, il alla au monastère d'Aphtonia et y prit l'habit monastique. Il y étudia soigneusement les Psaumes en langue grecque, la lecture des livres et la langue (grecque); de là, il se rendit à Alexandrie. Il y resta un certain temps et y amassa des connaissances; puis il s'en revint en Syrie, et arriva à Edesse.' (OCR 'surnomméd'Edesse', 'parce qu^il', 'Goumah^', 'monas-^ tère')",
+    "witness": "MICHAEL2 (michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt) l.36349-36370",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Bar Hebraeus on the same: 'ex Indaba castello regionis Gumiae in agro Antiocheno oriundus, in monasterio Aphtonii seu Kenserinensi graecam linguam et sacrorum librorum lectionem accurate didicit. Inde Alexandriam profectus ibique eruditus, in Syriam postliminio reversus est.' (OCR 'gracani', 'Alexan- driani')",
+    "witness": "BH1 (barhebraeus_chronicon-ecclesiasticum-vol1-lat_abbeloos-lamy1872.txt) l.17304-17313",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Athanasius of Balad: Bar Hebraeus's heading 'Post Athanasium Baladensem, Julianus'; editors' note 'Jacobus interpres circa an. 685, cui viventi postquam 4 annis sedisset suffectus fuit Habibus' (OCR 'iiitcrprea circa an. CS5', 'po&tqujin', 'sutTec* tus')",
+    "witness": "BH1 (barhebraeus_chronicon-ecclesiasticum-vol1-lat_abbeloos-lamy1872.txt) l.17533-17535; BH1 (barhebraeus_chronicon-ecclesiasticum-vol1-lat_abbeloos-lamy1872.txt) l.17427-17429",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Bishop four years, troubles, resignation, Kaisum: 'Il occupa son siège pendant quatre ans, et eut à supporter des difficultés de la part de ceux auxquels il avait interdit le ministère à cause de leurs dérèglements' (Chabot's note 8 allows 'de ceux qui l'empêchaient d'exercer le ministère'); 'il renonça à la charge pastorale'; 'il établit sa retraite dans le monastère de Mar Jacques de Kaisoum. Là, il composa deux traités de reproches : un contre les pasteurs de l'Église; l'autre contre ceux qui transgressent la loi et les canons ecclésiastiques'",
+    "witness": "MICHAEL2 (michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt) l.36374-36402",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Eusebona and Tell 'Ada: 'Les moines du monastère d'Eusebona demandèrent h Jacques de passer chez eux pour y enseigner et renouveler (l'étude de) la langue grecque, qui avait disparu. Durant 11 ans, il enseigna dans ce monastère les Psaumes en grec, la lecture des livres et la langue. Des frères qui jalousaient et détestaient les Grecs, lui suscitèrent des difficultés. Il abandonna (alors) ce lieu et passa au grand couvent de Tell 'Ada, avec sept de ses disciples ... Jacques habita en cet endroit pendant 9 ans. Il y corrigea l'Ancien Testament' (OCR 'h Jacques', 'chez eux^'); Bar Hebraeus: 'per undecim annos', 'per novennium commoratus vetus Testamentum emendavit'",
+    "witness": "MICHAEL2 (michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt) l.36406-36413; BH1 (barhebraeus_chronicon-ecclesiasticum-vol1-lat_abbeloos-lamy1872.txt) l.17415-17426",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Return and death: 'L'évêque Habib étant mort ... Ils lui demandèrent d'obliger Jacques à revenir chez eux. Il revint prendre possession de son siège et l'administra pendant quatre mois; puis il partit en Occident pour y reprendre ses livres et ses disciples, et revenir à son église. Il parvint au couvent, fit charger ses livres et les expédia devant lui. Mais sa dernière heure arriva; il termina sa vie dans ce couvent (de Tell 'Ada) et son corps y fut déposé, en l'an 1015, le 5 de haziran (juin). De nombreux miracles s'opèrent h son tombeau.' (OCR 'ïjabîb', '1015%', 'h son')",
+    "witness": "MICHAEL2 (michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt) l.36414-36424",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The books saved: 'Les bienheureux (moines) du couvent de Tell 'Ada, voyant que la fin de Mar Jacques était proche et qu'il n'y avait plus d'espoir, s'empressèrent de faire reprendre ses livres avant qu'ils ne passassent l'Euphrate et les firent ramener à leur monastère.' (OCR '[449j')",
+    "witness": "MICHAEL2 (michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt) l.36741-36753",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Bar Hebraeus on the death: 'Quum autem ad monasterium [Teleda] pervenisset, finem suum attigit ibique vitam finivit anno Graecorum millesimo decimo nono (Chr. 708) die quinta Haziran (Junii).' (OCR 'Tb/ecfAS', 'tinem', 'ibiijue', '{Chr. 708')",
+    "witness": "BH1 (barhebraeus_chronicon-ecclesiasticum-vol1-lat_abbeloos-lamy1872.txt) l.17515-17522",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Chabot's note: 'Le manuscrit porte bien ici 1015, et l'Ar. pareillement ... mais BH a ... 1019, qui est aussi, plus loin, la leçon de Michel'; Michael l.36743-36747: Julian died 1019, 'La même année mourut aussi Abbas Mar Jacques d'Edesse ... le 5 du mois de haziran'",
+    "witness": "MICHAEL2 (michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt) l.36433-36434; MICHAEL2 (michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt) l.36742-36747",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "A note in Michael on Jacob's tables: 'là oîi le bienheureux Mar Jacques termine la notation des computs, c^ est- à-dire en Vannée 1021 des Grecs ... Quoique le décès du vénérable Mar Jacques soit inscrit à l'année 1019, les années sont marquées dans le tableau chronologique ... jusqu'à l'an 1021. Il est à supposer ou que l'un de ses disciples a consigné, après sa mort, la mention de ces deux années ... ou que l'inscription de sa mort à V an 1019 s'écarte de l'exactitude.' (OCR as printed)",
+    "witness": "MICHAEL2 (michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt) l.37212-37224",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Assemani: 'Deceffit anno Grzcorum 1021. Chrifti 710. eodem Dionyfio tefle 1n Chronico'; bishop 'anno Grecorum 962, Chrifti 651. uti ex Chronico Dionyfiano' (OCR long s as f)",
+    "witness": "ASSEMANI1 (assemani_bibliotheca-orientalis-tomus1-de-scriptoribus-syris-orthodoxis-lat_1719.txt) l.97535-97540; ASSEMANI1 (assemani_bibliotheca-orientalis-tomus1-de-scriptoribus-syris-orthodoxis-lat_1719.txt) l.97591-97596",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Elias of Nisibis, year 89 of the Hijra, which began in the year 1019 of the Greeks: 'Et eo Iulianus patriarcha Iacobitarum mortuus est et Iacobus Edessenus K' (line broken)",
+    "witness": "ELIAS (elias-of-nisibis_opus-chronologicum-lat_brooks-chabot-csco1910.txt) l.6495-6503",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Chronicle preface (Jacob's own words, in Michael): 'Après Kusèhe, Mar Jacques fit des canons [chronologiques]. Il dit au commencement de sa Chronique : « Eusèbe Pamphile, évêque de Césarée ...'; 'Depuis cette époque jusqu'à présent, personne n'a pris soin d'ajouter au Canon rédige par lui les temps qui ont suivi, et j'ai pensé qu'il ne convenait pas que je laisse sans mention les événements survenus depuis lors jusqu'à présent'; Chabot: 'Ce qui suit forme la Préface de la Chronique de Jacques d'Edesse' (OCR 'Kusèhe', 'évoque')",
+    "witness": "MICHAEL1 (michael-the-syrian_chronique-tome1-livres-i-vii-fra_chabot1899.txt) l.56521-56522; MICHAEL1 (michael-the-syrian_chronique-tome1-livres-i-vii-fra_chabot1899.txt) l.56573-56576; MICHAEL1 (michael-the-syrian_chronique-tome1-livres-i-vii-fra_chabot1899.txt) l.56547-56547",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Chabot on its date: 'Jacques d'Edesse est mort en 708. Mais la Chronique a dû être écrite en 692'; Elias: 'Et anno 1003° Alexandri composuit Iacobus Edessenus chronicon ... In eo et in canone annorum quem composuit, demonstrat multis locis erravisse Eusebium in suo chronico' (OCR '^multis^ldcisi erraYisse Euse- 1; bium')",
+    "witness": "MICHAEL1 (michael-the-syrian_chronique-tome1-livres-i-vii-fra_chabot1899.txt) l.56636-56637; ELIAS (elias-of-nisibis_opus-chronologicum-lat_brooks-chabot-csco1910.txt) l.50077-50081",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Michael took his tables from it: Chabot, 'L'auteur nous prévient ... qu'il les a empruntés à la Chronique de Jacques d'Edesse ; mais il nous avertit en même temps qu'il n'a pas cru devoir accepter la correction de trois ans introduite par Jacques dans le canon d'Eusèbe'",
+    "witness": "MICHAEL2 (michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt) l.40776-40779",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Elias cites him year by year: 'Annus 660. - Canon annorum Iacobi Edesseni'; 'Annus 735. - Chronographia Iacobi Edesseni' and many more; 'Calendarium Georgii, discipuli Iacobi Edesseni'",
+    "witness": "ELIAS (elias-of-nisibis_opus-chronologicum-lat_brooks-chabot-csco1910.txt) l.4805-4805; ELIAS (elias-of-nisibis_opus-chronologicum-lat_brooks-chabot-csco1910.txt) l.5115-5115; ELIAS (elias-of-nisibis_opus-chronologicum-lat_brooks-chabot-csco1910.txt) l.60490-60490",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Grammar: Assemani, 'Grammaticam enim fermone Syro primus confecit, tefte Elia Epi- fcopo Nifibeno circa initium Infti- tutionis Grammaticae'; 'Gregorius Barhebraus in Praefatione Grammaticz fue metrice ... ubi Jacobum appellat ... Virum preflautiffuüum' (OCR long s as f)",
+    "witness": "ASSEMANI1 (assemani_bibliotheca-orientalis-tomus1-de-scriptoribus-syris-orthodoxis-lat_1719.txt) l.98794-98818",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Revision of Severus's homilies: Kugener and Triffaux, 'un interprete du debut du viii siecle, Jacques d'Edesse'; 'Une clausule nous apprend que la version du Vaticanus 141 a ete faite par Jacques d'Edesse, en l'an 1012 de l'ere des Seleucides, c'est-a-dire en l'an 700/1 de notre ere'; 'Jacques reproduit, en effet, litteralement la version de Paul chaque fois qu'il n'y a pas lieu de la remanier'; Assemani: 'Trauslatus hic Codex Greco in Syriacum à Mar Jacobo Edeffe Epif/co- po anuo Grecorum 1012, Chrifti 701' (OCR as printed: 'Tan 1012 de rero', 'Jacqucs reproduit, cn ciret, litteralcment')",
+    "witness": "PO16 (patrologia-orientalis-tomus16_synaxaire-arabe-jacobite-barmahat-bachons-synaxaire-armenien-tre-fra_graffin-nau1922.txt) l.45708-45712; PO16 (patrologia-orientalis-tomus16_synaxaire-arabe-jacobite-barmahat-bachons-synaxaire-armenien-tre-fra_graffin-nau1922.txt) l.45743-45745; ASSEMANI1 (assemani_bibliotheca-orientalis-tomus1-de-scriptoribus-syris-orthodoxis-lat_1719.txt) l.97906-97909",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The gloss (Jacob's own words, in Kugener and Triffaux's French): 'Traduction de la glose de Jacques d'Edesse'; 'Il faut savoir qu'il y a ici de grandes differences entre les habitudes de la langue grecque et celles de la langue syriaque'; 'Si donc quelqu'un lit ces mots avec amour du travail, il comprendra peut-etre la diversite des mots du maitre (Severe) en cet endroit.' (OCR 'Tr.vduction de l.\\ glose de .J.\\cques d'Edessk', 'diff^rences', 'peut-6tre', 'Sev6re')",
+    "witness": "PO16 (patrologia-orientalis-tomus16_synaxaire-arabe-jacobite-barmahat-bachons-synaxaire-armenien-tre-fra_graffin-nau1922.txt) l.49676-49680; PO16 (patrologia-orientalis-tomus16_synaxaire-arabe-jacobite-barmahat-bachons-synaxaire-armenien-tre-fra_graffin-nau1922.txt) l.49763-49765",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Twelve years and Kenneshre, in a passage of Kugener and Cumont (1912) that Kugener and Triffaux quote: 'Apres avoir etudie le grec au couvent de Kennesre ... il renova les etudes helleniques dans le couvent d'Eusebona ... oii pendant douze ans il expliqua les Ecritures d'apres le texte grec' (OCR heavily garbled: 'K.onnesr6', 'douze  ans  il  expliijua')",
+    "witness": "PO16 (patrologia-orientalis-tomus16_synaxaire-arabe-jacobite-barmahat-bachons-synaxaire-armenien-tre-fra_graffin-nau1922.txt) l.45728-45734",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "His faith: Assemani, 'Syri eum non modó ut Catholicum Scriptorem ... fed. etiam: ut Sanctum venerantur: quo titulo à Maronitis, Jacobitarum & Neftorianorum perpetuis hoftibus, paffim celebratur'; 'At Renaudotius ... feverè pronunciat, eum hereticum Monophyfitam fuiffe'; editors of Bar Hebraeus: 'patet praeclarum hunc scriptorem Monophysitarum sectae adhaesisse, quod ceteroqui constat ex ejus scriptis ... J. S. Assemanus, perlectis iis quae Barhebraeus de Jacobo Edesseno refert, retractavit, cum aliqua tamen haesitatione' (OCR 'patet preciarum', 'MunO' physitarum aecto; adheesisse', 'iissitationc')",
+    "witness": "ASSEMANI1 (assemani_bibliotheca-orientalis-tomus1-de-scriptoribus-syris-orthodoxis-lat_1719.txt) l.97955-97966; BH1 (barhebraeus_chronicon-ecclesiasticum-vol1-lat_abbeloos-lamy1872.txt) l.17441-17452",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Praised by later writers: Assemani, 'Mofes Barcepha, Dionyfius Barfalibeus, Gregorius Barhebreus, Stephanus Maronitarum Patriarcha, &alii, qui cum fumma doctrine & probitatis laude, ipfum commemorant'",
+    "witness": "ASSEMANI1 (assemani_bibliotheca-orientalis-tomus1-de-scriptoribus-syris-orthodoxis-lat_1719.txt) l.97855-97864",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Michael's report of the feigned conversion: 'celle que le roi Abgar fit traduire, et que Jacques d'Edesse révisa en employant l'artifice d'une conversion simulée au judaïsme, afin que les Juifs ne lui cachassent pas la vérité.' Kept to the card, told as Michael's report",
+    "witness": "MICHAEL1 (michael-the-syrian_chronique-tome1-livres-i-vii-fra_chabot1899.txt) l.295-297",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Bible manuscripts: editors of Bar Hebraeus, 'Ista Jacobi Edesseni emendatio V. T. exstat in codicibus Musei Britannici' (OCR 'Bdesseni', 'oistat', 'Mustei')",
+    "witness": "BH1 (barhebraeus_chronicon-ecclesiasticum-vol1-lat_abbeloos-lamy1872.txt) l.17435-17437",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Michael took Jacob's chronicle among his sources ('à l'aide du Livre du comput des années de saint Mar Jacques d'Edesse'), and Michael's prologue: 'Saint Jacques d'Edesse fît d'eux tous un abrégé.'",
+    "witness": "MICHAEL2 (michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt) l.27463-27464; MICHAEL1 (michael-the-syrian_chronique-tome1-livres-i-vii-fra_chabot1899.txt) l.277-277",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The Chronicle itself is held, in Brooks's Latin: 'CHRONICON IACOBI EDESSENI. INTERPRETATUS EST E.-W. BROOKS.'; 'Huius chronici fragmenta in Codice Musaei Britannici Add. 14,685 asservantur ... Auctor Iacobus Philoponus seu «laboris amans» appellatur, quem cum Iacobo Edesseno eundem fuisse, ut opinatus est Wright, ab excerptis Iacobi Edesseni operis apud Michaelem Syrum recitatis satis liquet' (OCR 'lacobus', 'lacobo'); preface from l.14528, 'Eusebius quidem Pamphili'; Elias's testimonia from l.19369",
+    "witness": "CHRONMIN (chronica-minora-pars-prior-versio-lat_guidi1903.txt) l.14453-14465",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Reach and continuation, Brooks: 'Fragmenta non ultra annum 942 Sel. — 631 p. Chr. protendunt, sed Canon, ut a Michaele discimus, usque ad annum 1021 Sel. continuatus erat. Iacobum duobus antea annis mortuum esse ipse Michael notat, unde duos ultimos annos ab aliquo discipulo eius adiectos esse suspicatur. Iacobum autem iam anno 1003 Sel. — 692 p. Chr. Chronicon scripsisse adfirmat Elias Nisibenus; quod si verum est, anni 18 continuatori adscribendi sunt.' (OCR '9/42\"*', '1003?', 'Ehas')",
+    "witness": "CHRONMIN (chronica-minora-pars-prior-versio-lat_guidi1903.txt) l.14472-14480",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Chabot dates the Chronicle from the reigns it names: 'la Chronique a dû être écrite en 692, sous le premier règne de Justinien II (685-095) et sous celui de 'Abd el-Mélik' (OCR '085-095' as printed)",
+    "witness": "MICHAEL1 (michael-the-syrian_chronique-tome1-livres-i-vii-fra_chabot1899.txt) l.56636-56639",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "His canons in Bar Hebraeus's Nomocanon (Mai's Latin; title 'ECCLESIAE ANTIOCHENAE SYRORUM NOMOCANON A GREGORIO ABULPHARAGIO BAR-HEBRAEO'): headings 'Iacobi Edessae' (OCR also 'lacobi', 'Tacobi', 'Edessac', 'Edessa', 'Edesseni', 'Edcisae'; the bare 'Iacobi.' headings at l.38949 and 39540 may be Jacob of Sarug and are not counted) at MAI10 l.38646, 38776, 39368, 39453, 39469, 39681, 39769, 39821, 40175, 40316, 40490, 40599, 40769, 40797, 40878, 41009, 41216, 41563, 41678, 41841, 42146, 42331, 42408, 43636, 43917, 44049, 44700, 44745; in the text at l.45749-45750 with Dionysius of Tel Mahre. Example, l.38646-38650: 'Xatam, quae superest ex oblatione, idest farinam, sine reprehensione sacerdotibus sociis suis vendere possunt sacerdotes'",
+    "witness": "MAI10 (mai_scriptorum-veterum-nova-collectio-tomus10-ebedjesu-synodus-timothei-lat_mai1838.txt) l.38227-38232; MAI10 (mai_scriptorum-veterum-nova-collectio-tomus10-ebedjesu-synodus-timothei-lat_mai1838.txt) l.38646-38650",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Kugener's student: 'avec la collaboration de mon élève, M. Edg. Triffaux' (OCR 'collaboratlon', 'eleve'); only 'Edg.' is held for his first name",
+    "witness": "PO16 (patrologia-orientalis-tomus16_synaxaire-arabe-jacobite-barmahat-bachons-synaxaire-armenien-tre-fra_graffin-nau1922.txt) l.44598-44599",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The twelve-years passage is from M.-A. Kugener and F. Cumont, Recherches sur le Manichéisme (Brussels, 1912): Kugener and Triffaux's note 1, 'KuGENER et CuMONT, Recherches sur le Manicheismc, p. 88', and the full title at l.44831",
+    "witness": "PO16 (patrologia-orientalis-tomus16_synaxaire-arabe-jacobite-barmahat-bachons-synaxaire-armenien-tre-fra_graffin-nau1922.txt) l.45768-45768; PO16 (patrologia-orientalis-tomus16_synaxaire-arabe-jacobite-barmahat-bachons-synaxaire-armenien-tre-fra_graffin-nau1922.txt) l.44831-44831",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "A reply of Jacob's in the Nomocanon: 'Iohannes Stylita interrogans religiosissimum Jacobum Edessae, responsum accepit: dixit ... haud ex necessitate fit hoc ieiunium' (OCR 'ieinnium', 'E.des- sae', 'n;.ai- rum', 'ie- iunium'); it closes 'Haec omnia verba sunt religiosissimi Iacobi' (l.41425; OCR 'Ilaec', 'reliziosissimi lacobi')",
+    "witness": "MAI10 (mai_scriptorum-veterum-nova-collectio-tomus10-ebedjesu-synodus-timothei-lat_mai1838.txt) l.41400-41425",
+    "formation_confidence": "Documented"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "The year of Jacob's death",
+    "sides": [
+     "1019 of the Greeks (the editors' 708), 5 June: Bar Hebraeus (BH1 l.17519-17522); Michael in his later notice (MICHAEL2 l.36742-36747); Elias of Nisibis, in the year of the Hijra that began in 1019 (ELIAS l.6495-6503); J.-B. Chabot, 'est mort en 708' (MICHAEL1 l.56636)",
+     "1015 of the Greeks: Michael's manuscript and the Arabic version at his Life of Jacob (MICHAEL2 l.36422, 36433)",
+     "1021 of the Greeks, 710: Joseph Assemani, from a chronicle he gives to Dionysius (ASSEMANI1 l.97591-97596); the note in Michael doubts 1019 because Jacob's tables run to 1021 (MICHAEL2 l.37212-37224)"
+    ]
+   },
+   {
+    "claim": "When Jacob became bishop of Edessa",
+    "sides": [
+     "Under Athanasius of Balad, the patriarch who received the see in the year 995 of the Greeks (MICHAEL2 l.36342-36355; BH1 l.17299-17302); the editors of Bar Hebraeus put Jacob about 685 (BH1 l.17427)",
+     "In the year 962 of the Greeks, 651: Joseph Assemani, from the chronicle he credits to Dionysius (ASSEMANI1 l.97535-97540)"
+    ]
+   },
+   {
+    "claim": "Jacob's confession",
+    "sides": [
+     "A Catholic writer: Joseph Assemani in 1719, against Renaudot (ASSEMANI1 l.97950-97966 and following)",
+     "A Monophysite: Renaudot, as Assemani reports him (ASSEMANI1 l.97962-97966); Abbeloos and Lamy, from Bar Hebraeus and Jacob's writings, adding that Assemani later retracted 'cum aliqua tamen haesitatione' (BH1 l.17441-17452)"
+    ]
+   },
+   {
+    "claim": "How long he taught at Eusebona",
+    "sides": [
+     "Eleven years: Michael (MICHAEL2 l.36407-36408), Bar Hebraeus (BH1 l.17415-17418)",
+     "Twelve years: M.-A. Kugener and F. Cumont, Recherches sur le Manichéisme (1912), quoted by Kugener and Triffaux (PO16 l.45728-45734; note l.45768; title l.44831), a modern summary"
+    ]
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "Jacob's birth year and family",
+    "note": "No held source gives his birth year or parents. Michael gives his village, 'Ayndaba in the land of Gumah, and his upbringing near Cyriacus (MICHAEL2 l.36357-36361)."
+   },
+   {
+    "detail": "The grammar, his letters and the Responses to Addai",
+    "note": "Not held as texts. His canons are held in part, quoted under his name in Bar Hebraeus's Nomocanon (MAI10 headings listed in the claims), and the Nomocanon reports one of his replies, to John the Stylite (MAI10 l.41400-41425). His letters are otherwise not held as texts. The grammar is known here only from Assemani's report of Elias of Nisibis (ASSEMANI1 l.98794-98800). Assemani names his Responses on canon law to the priest Addai, dated in a codex margin to the year 998 of the Greeks, 687 (ASSEMANI1 l.97910-97918); the census cites Vööbus's edition, not held."
+   },
+   {
+    "detail": "The census's 'first grammar', 'about 684', and 688 for the burning",
+    "note": "The grammar claim is held only through Assemani's report of Elias. The census years 684 and 688 are not in any held line; Bar Hebraeus's editors give about 685 for his bishopric (BH1 l.17427)."
+   }
+  ]
+ },
+ "timothy-i-of-baghdad": {
+  "claims": [
+   {
+    "claim": "Election, in Mari's Latin: 'Timotheus vero pecunias pollicitus Bairaui ac scholasticis astute ostendit saccos saxis ac lapidibus plenos velut nummis ac denariis refertos'; consecrated 'octo post menses'; afterwards 'pecuniam repetentibus respondit ille: « sacerdotium nequaquam pecuniis venditur », eisque ostendit saccos non nisi saxa lapidesque continere' (OCR 'pol- licitus', 'raenses', 'ilh')",
+    "witness": "MARI (mari-ibn-sulayman_..._gismondi1899.txt) l.13079-13086; the Latin pages run in descending file order [quoted as read: long s, OCR letter errors, footnote marks and line-break hyphens folded; the anchor strings were checked by script]",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Election, in Amr's Latin: 'versute egit cum archidiacono et scholasticis, et in suam domum introductis ostendit sacculos saxis et lapidibus repletos, suasitque pecuniam continere quam eis erogaturus esset'; consecrated at Madaina 'anno graecorum 1091 [sub Mahdi chalipha]' (OCR 'inlroductis', 'iapidibus')",
+    "witness": "AMR (amr-ibn-matta_..._gismondi1896-1897.txt) l.13008-13018; the Latin pages run in descending file order [quoted as read: long s, OCR letter errors, footnote marks and line-break hyphens folded; the anchor strings were checked by script]",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Thomas of Marga's chapter heading: 'OF HOW TIMOTHY OBTAINED POSSESSION OF THE PATRIARCHATE BY FRAUD, LIKE JACOB WHO OBTAINED BY FRAUD THE BLESSINGS OF ISAAC HIS FATHER'; 'since the Patriarchate was set apart for Timothy, truth acted with subtlety and performed its work'; Timothy promised Isho'-yahbh 'I will make thee Metropolitan of Adiabene'",
+    "witness": "THOMAS OF MARGA, tr. Budge (thomas-of-marga_book-of-governors-v2-english_budge1893.txt) l.17243-17246, 17292-17294, 17294-17304 [quoted as read: long s, OCR letter errors, footnote marks and line-break hyphens folded; the anchor strings were checked by script]",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Bar Hebraeus's version, in Budge's English note: Timothy 'having filled bags ... with copper money, he sealed them' and told the scholastics 'I wish to spend it upon [your] school'; in Abbeloos-Lamy's Latin: 'marsupia nummis aeneis implevit et sigillo munivit' (OCR 'nutn- mis', 'raunivit')",
+    "witness": "THOMAS OF MARGA, Budge's note, l.17341-17346; BH (barhebraeus_..._vol3...1877.txt) l.9598-9606 [quoted as read: long s, OCR letter errors, footnote marks and line-break hyphens folded; the anchor strings were checked by script]",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Chabot's note: 'Timothée, originaire de Hazza, dans l'Adiabène, évêque de Beit Bagas, fut élu et intronisé à Séleucie, après huit mois de violentes contestations ... 780, par les métropolitains de Beit Garmai, de Holwan, de Damas et de Merw qu'il avait, dit-on, séduits par ses promesses'; Ephrem 'ne consentit point à cette ordination'; 'de là naquit un schisme qui dura environ deux ans'. The day and month are lost in the OCR ('le dimanche 7 1 780'); the index reads 'Timothée I* (7 mai 780-9 janv. 825)'",
+    "witness": "CHABOT (synodicon-orientale_recueil-..._chabot1902.txt) l.40254-40271, 49679 [quoted as read: long s, OCR letter errors, footnote marks and line-break hyphens folded; the anchor strings were checked by script]",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Elias of Nisibis, who gives the day but no place: 'Institutus est Timotheus die dominica 7° iyyar anni 1091 Graecorum ... Et vixit in catholicatu 42 annos syriacos et 8 menses et 2 dies: et obiit die praeparationis 9° kanun II anni 1134 Graecorum' (OCR footnote marks '10911 r>', 'kanun n', '11341')",
+    "witness": "ELIAS (elias-of-nisibis_..._csco1910.txt) l.3716-3723 [quoted as read: long s, OCR letter errors, footnote marks and line-break hyphens folded; the anchor strings were checked by script]",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Chabot's note on the death: 'Il mourut le vendredi 9 janvier 823, à l'âge de 95 ans, après 43 ans et 7 mois de patriarcat. L'Église nestorienne fut prospère et se développa sous sa direction, surtout par les missions dans l'Extrême-Orient' (OCR 'Il mou-' l.40271, 'rut' l.40361)",
+    "witness": "CHABOT l.40271, 40361-40365 [quoted as read: long s, OCR letter errors, footnote marks and line-break hyphens folded; the anchor strings were checked by script]",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Bar Hebraeus: 'Eo tempore obiit Timotheus Nestorianorum catholicus, anno Arabum biscentesimo quarto (inchoato 28 Jun. 819)' (OCR 'Timqtheus', 'catbolicus'); Budge's note: 'died A. H., 204, or 205 — A. D. 819—820, or 820—821'; Amr: 'Obiit anno lunari 205'",
+    "witness": "BH l.10258-10261; THOMAS OF MARGA, Budge's note, l.17318-17319; AMR l.12959 [quoted as read: long s, OCR letter errors, footnote marks and line-break hyphens folded; the anchor strings were checked by script]",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Mari: 'Eodem anno quo Mamun Bagdadum ingressus est obiit Timotheus a suscepto primatu anno quadragesimotertio, aetatis suae nonagesimo quinto: vixit itaque dominantibus Mahdi, Hadi, Rasid, Amin, Mamun, nec fuit rex ad quem non scripserit aut quem ad fidem non perduxerit docueritque christiana instituta: sepultus est in coenobio Keliljesu quod ipse restauraverat, ibique sedem fixit' (OCR 'Mamiin', 'Tiraotheus', 'quadragesiraotertio', 'Maraun', 'quera' twice, 'dooueritque', 'sedera'; 'restaura- verat' is a line-break hyphen)",
+    "witness": "MARI l.12984-12990 [quoted as read: long s, OCR letter errors, footnote marks and line-break hyphens folded; the anchor strings were checked by script]",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Mari: 'Timotheus quidem coram hominibus orationes habere non valebat, sed plures de qualibet facultate scripsit tractatus, nec non librum de sideribus' (OCR 'vaiebat', 'facullate')",
+    "witness": "MARI l.12990-12992 [quoted as read: long s, OCR letter errors, footnote marks and line-break hyphens folded; the anchor strings were checked by script]",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Mari: 'Porro Timotheus Haqanum regni turcarum regesque alios ad fidem adduxit, a quibus epistolae ei adveniebant' (OCR 'Timofhcus', 'turcarura', 'rcgni', 'epistolac')",
+    "witness": "MARI l.13041-13043 [quoted as read: long s, OCR letter errors, footnote marks and line-break hyphens folded; the anchor strings were checked by script]",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Thomas of Marga: Timothy, nephew of George, bishop of Beth Beghash, sent 'to Rabban Mar Abraham the Expositor, when he was in Bashosh'; George 'resigned the priesthood. And the young man Timothy was appointed Bishop of the country of Beth Beghash'; Budge: 'Timothy I. was a native of Hazza in Adiabene'",
+    "witness": "THOMAS OF MARGA l.17166-17229, 17316 [quoted as read: long s, OCR letter errors, footnote marks and line-break hyphens folded; the anchor strings were checked by script]",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Thomas of Marga: Shubhhal-Isho' sent 'to the barbarian nations who had never received the bridle of the teaching concerning God, and into whose country none of the preachers and evangelists of the kingdom of heaven had gone since the time of the Apostles until the present'; Timothy 'anointed them both Metropolitans, Kardagh of Gilan and Yahbhlaha of the people of Dailom'; Budge: 'Gilan is the country by the Caspian Sea'",
+    "witness": "THOMAS OF MARGA l.21495-21505, 21958-21959, 21047 [quoted as read: long s, OCR letter errors, footnote marks and line-break hyphens folded; the anchor strings were checked by script]",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Timothy's letter, as Thomas quotes it: 'Inasmuch as the ordination of a Bishop doth not absolutely require [the presence of] three persons, and ye in your country are free from this [regulation] ... and in the place of the third [person who should be present], let the Book of the Gospels be laid on the [episcopal] throne on the right hand'; Thomas: 'For I have read the letter of Mar Timothy the Catholicus to Mar Yahbhlaha'",
+    "witness": "THOMAS OF MARGA l.21966-21985 [quoted as read: long s, OCR letter errors, footnote marks and line-break hyphens folded; the anchor strings were checked by script]",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Thomas of Marga's list of the bishops foretold for his monastery, not tied to Timothy's time: 'David was elected to be Metropolitan of Beth Sinaye — now I have learned concerning this man from the Epistles of Mar Timothy'; Budge's note 'i. e., China'; Peter 'held the office of Bishop of the country of Yaman and of San a when I was secretary to Mar Abraham'; Eliya 'elected Bishop of Mukan'",
+    "witness": "THOMAS OF MARGA l.20155-20165, 20186 [quoted as read: long s, OCR letter errors, footnote marks and line-break hyphens folded; the anchor strings were checked by script]",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Synod letter, Chabot's French: 'nous ne nous sommes point abstenus d'aller près de vous ... par orgueil ou par négligence, mais à cause de la reconstruction des églises détruites et pour d'autres motifs urgents. Car si le Dieu tout puissant a permis, et si le roi ... a consenti à la reconstruction des églises, nous avons [dû] néanmoins aller six fois en sa présence pour cette affaire' (OCR 'nous avons 1 néanmoins')",
+    "witness": "CHABOT l.40540-40546 [quoted as read: long s, OCR letter errors, footnote marks and line-break hyphens folded; the anchor strings were checked by script]",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Synod heading and date: 'SYNODE DE TIMOTHÉE I (A. D. 790)'; canons on the patriarch's election (Canon I) and against gifts (Canon II), 'De peur que quelque chose de semblable n'arrive'; Chabot: the Paris copyist's note 'dit que ce synode a été célébré en 786 ... c'est une erreur' from 'la traduction fautive d'Assemani'; Ebedjesu names two synods, 790 and 804 (year 189 AH from 8 Dec. 804); the second's 99 decisions 'en l'an 805'; Abbeloos-Lamy: 'prima anno Christi 786, altera anno 804'",
+    "witness": "CHABOT l.39904-39917, 39947-39958, 40283-40291, 40417-40471, 41143-41145; BH l.10412-10413 [quoted as read: long s, OCR letter errors, footnote marks and line-break hyphens folded; the anchor strings were checked by script]",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Ebedjesu's list, as Abbeloos-Lamy give it: 'Timotheus fecit librum de astris, et Disputationem cum Mohdio, et De judiciis ecclesiasticis, et tomos synodicos. Habet praeterea biscentum circiter epistolas in duos tomos distributas' (OCR 'Tmotheua', 'aatria', 'Dejudiciis', 'ettomos xynodicos', 'prater ea', 'biseenium', 'distributaa'); Budge: 'two hundred Letters arranged in two volumes'. Mai: 'Ebediesu Sobae, id est Nisibis, metropolitae'",
+    "witness": "BH l.10402-10405; THOMAS OF MARGA l.17405-17410; MAI l.171 [quoted as read: long s, OCR letter errors, footnote marks and line-break hyphens folded; the anchor strings were checked by script]",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Amr ibn Matta, as Assemani quotes him, with Assemani's own reading that Amr's al-Hadi is the caliph of the disputation: 'Hadius frequentissime Timotheum ad se venire jubebat, & pluribus de religione cum eo disputabat ... quas ille adeo apte atque perspicue expediebat, ut Hadius nihil contra posset excipere'; Amr in Gismondi: 'Saepe admodum eum accersebat Hadi chalipha ut cum eo colloqueretur de religione'. Assemani: 'Amrus ... Hadium pro Mohdio legit'. Amr himself does not name the disputation",
+    "witness": "ASSEMANI 3.1 (assemani_..._tomus3-pars1..._1725.txt) l.29814-29830; AMR l.13027-13029 [quoted as read: long s, OCR letter errors, footnote marks and line-break hyphens folded; the anchor strings were checked by script]",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Amr on Harun al-Rashid: 'responde mihi breviter, o pater christianorum, de hoc quod te interrogo: quaenam e religionibus ea est quam Deus probat?' Timothy: 'ea cuius leges et praecepta conformia sunt rationi quam servat Deus agens cum suis creaturis'. The caliph: 'responsionem dedit plenam cui opponi nequit exceptio' (OCR 'respoudc miiii', 'cliristianorum', 'le', 'ost', 'cl', 'praece- pta', 'conforinia', 'Dous', 'cuin', 'responsioncin', 'nc([uil excoptio')",
+    "witness": "AMR l.12941-12950 [quoted as read: long s, OCR letter errors, footnote marks and line-break hyphens folded; the anchor strings were checked by script]",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Bar Hebraeus on Fars; the whole report, to 'non paruisse', stands under 'Fertur' (it is said), as Mingana's English 'It is said that ... were not under the jurisdiction of the Catholicos of Seleucia' also has it: 'Fertur ad Timothei usque tempus episcopos regionis Persarum alba gestasse vestimenta, sicut presbyteri saeculares, carnem manducasse et duxisse uxores, et praeterea catholico Seleuciae non paruisse. Dicebant enim: « nos Thomae apostoli discipuli sumus, et nihil nobis cum sede Maris commune est. » Illos Timotheus sibi conciliavit ... metropolitam ordinavit aliquem nomine Simeonem'; Mingana: 'Assemani and Lamy have rendered the above sentence of Barhebraeus, which means: \"the province of Fars,\" by: \"the country of Persia.\"'",
+    "witness": "BH l.9750-9813 (text runs across a page break at l.9751-9802; OCR 'vestiraenta', 'sse- culares', 'praeterca', 'eniin', 'ThoQise apostuli', 'Seleu- cia> iiod paruissc'); MINGANA l.1719-1736 [quoted as read: long s, OCR letter errors, footnote marks and line-break hyphens folded; the anchor strings were checked by script]",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Mingana: 'Timothy I. (A.D. 779-823), who in his letter to the monks of Mar Maron, concerning the addition of the formula Crucifixus es pro nobis to the trisagion, writes as follows: \"... among the Indians, the Chinese, the Tibetans, the Turks, and in all the provinces under the jurisdiction of this Patriarchal See, there is no addition of Crucifixus es pro nobis\"'; note 2: 'This letter is not yet printed. I read the text in an unpublished MS. of my own collection'",
+    "witness": "MINGANA (mingana_early-spread..._1926.txt) l.1685-1704 [quoted as read: long s, OCR letter errors, footnote marks and line-break hyphens folded; the anchor strings were checked by script]",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Seat at Baghdad: Assemani, 'fixum Bagdadi domicilium nunc in coenobio Caliljesu, nunc in Aedibus Romaeorum ... Timotheus solitus in Caliljesu manere' (OCR 'Scjoftie' for 'solitus'); 'Caliljesu apud Bagdadum'; Amr: 'sepultus est in coenobio Kaliljesu Bagdadi'",
+    "witness": "ASSEMANI 3.2 (assemani_..._tomus3-pars2..._1728.txt) l.42424-42427, 1517-1518; AMR l.12960 [quoted as read: long s, OCR letter errors, footnote marks and line-break hyphens folded; the anchor strings were checked by script]",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Thomas of Marga, of his own monastery, Beth 'Abhe (TM l.234, 278): the old monk's prophecy, 'Forty and two years shalt thou stand at the head of all the pastures of Christ'; Timothy 'loved this monastery greatly, and honoured it with many gifts, because it was here pointed out to him that he should become Catholicus'",
+    "witness": "THOMAS OF MARGA l.17213-17215, 21413-21415 [quoted as read: long s, OCR letter errors, footnote marks and line-break hyphens folded; the anchor strings were checked by script]",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Joshua bar Nun: 'adolevit una cum Timotheo sub disciplina Abrahami claudi ... Timotheum aversabatur ac odio prosequebatur'; 'Libros scripsit in Timothei denigrationem'; 'Quando vero aegrotavit Josue ... suoque discipulo mandavit libellos cremare quos scripserat adversus Timotheum'; Bar Hebraeus: 'Timotheo Josue Bar-Nun ... successit'",
+    "witness": "MARI l.12955-12957, 12860-12861, 12882-12884; BH l.10344-10348 [quoted as read: long s, OCR letter errors, footnote marks and line-break hyphens folded; the anchor strings were checked by script]",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "'Abdisho cites the synod: Chabot, 'Elle est expressément citée par Ébedjésus sous le titre de synode de Timothée'",
+    "witness": "CHABOT l.40289-40291 [quoted as read: long s, OCR letter errors, footnote marks and line-break hyphens folded; the anchor strings were checked by script]",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Namesake: 'Timotheus B. v. Bet Bagäs' signs the synod of Isho'yahb I and, again, the synod of Gregory, in Braun's German: a different, earlier bishop",
+    "witness": "BRAUN (synodicon-orientale_das-buch-der-synhados-deu_braun1900.txt) l.11549-11564, 14870-14885 [quoted as read: long s, OCR letter errors, footnote marks and line-break hyphens folded; the anchor strings were checked by script]",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Place of enthronement: Chabot 'intronisé à Séleucie'; Bar Hebraeus 'deduxerunt Seleuciam et catholicum proclamarunt' (OCR 'assumption'); Amr 'eumque consecraverunt Modainae'. Elias gives the day only",
+    "witness": "CHABOT l.40258; BH l.9611-9613; AMR l.13016-13017; ELIAS l.3716-3718 [quoted as read: long s, OCR letter errors, footnote marks and line-break hyphens folded; the anchor strings were checked by script]",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Elijah of Mukan, ordained by Timothy: 'the blessed Bishop Mar Elijah, the men who were ordained by the pious Mar Timothy, the Catholicus and Patriarch, for the countries of the barbarians'",
+    "witness": "THOMAS OF MARGA l.21002-21006 [quoted as read: long s, OCR letter errors, footnote marks and line-break hyphens folded; the anchor strings were checked by script]",
+    "formation_confidence": "Documented"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "How Timothy won the election",
+    "sides": [
+     "Sacks of stones shown as money to the men of the school: Mari (MARI l.13079-13086) and Amr (AMR l.13008-13018)",
+     "Sealed bags of copper money promised to the school: Bar Hebraeus (BH l.9598-9613; Budge's note l.17341-17346)",
+     "Isho'yahbh talked into standing aside for a promise of Adiabene: Thomas of Marga (l.17292-17304)",
+     "Won the metropolitans 'dit-on' by promises: Chabot (l.40260-40262)"
+    ]
+   },
+   {
+    "claim": "The year of his death",
+    "sides": [
+     "Friday 9 Kanun II 1134 Gr., 823: Elias of Nisibis (EL l.3722-3723); Chabot's note (l.40361)",
+     "9 January 825: Chabot's index (l.49679)",
+     "AH 204 (from 28 June 819): Bar Hebraeus (BH l.10258-10261); Mari, the year al-Ma'mun entered Baghdad (MARI l.12983-12985)",
+     "AH 205: Amr (AMR l.12959)",
+     "780-820: Malech (malech_history-of-the-syrian-nation-and-old-evangelical-apostolic-church-of-the-east_1910.txt l.14435-14438)",
+     "779-823: Mingana (MINGANA l.1685-1686)",
+     "AH 204 or 205, 819 to 821: Budge (TM l.17318-17319)"
+    ]
+   },
+   {
+    "claim": "The year of the first synod",
+    "sides": [
+     "790: Chabot (l.39904-39917), from Ebedjesu's year 174 AH (l.40283-40286)",
+     "786: the Paris copyist's note, which Chabot calls an error (l.39947-39958); Abbeloos-Lamy (BH l.10412)"
+    ]
+   },
+   {
+    "claim": "Which caliph he disputed with",
+    "sides": [
+     "al-Mahdi: Ebedjesu's list (BH l.10402-10403; Budge l.17405-17406)",
+     "al-Hadi: Joseph Assemani's reading of Amr (ASSEMANI 3.1 l.29817); Amr himself says only that al-Hadi often called him to talk of religion (AMR l.13027-13029)"
+    ]
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "The text of the disputation with the caliph",
+    "note": "Only its title (Ebedjesu's list) and Amr's report of its occasion are used here. No edition of it was found among the files searched for this profile (Mari, Amr, Thomas of Marga, Bar Hebraeus vol. 3, Assemani 3.1 and 3.2, Chabot, Braun, Mingana, Mai)."
+   },
+   {
+    "detail": "Who ordained David of Beth Sinaye",
+    "note": "Thomas of Marga learned of him from Timothy's letters (TM l.20158-20161) but does not say who ordained him."
+   },
+   {
+    "detail": "Whether Gilan and Dailom were Timothy's first missions",
+    "note": "Not stated in the held lines."
+   }
+  ]
+ },
+ "dionysius-of-tel-mahre": {
+  "claims": [
+   {
+    "claim": "Audience in the garden: 'ipsi soli, absque episcopis qui cum ipso erant, permisit Calipha accedere ad se equo insidentem et in horto ambulantem'. (The participles most naturally describe the caliph, on horseback in the garden; the brief says only that he let Dionysius come to him alone in his garden.)",
+    "witness": "BH1 (barhebraeus_chronicon-ecclesiasticum-vol1-lat_abbeloos-lamy1872.txt) l.21491-21496",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Baghdad and the edict of ten men: 'Ob hanc igitur causam patriarcha descendit Bagdadum'; the edict 'ut si convenirent decem viri cujuscumque religionis ... et antistitem sibi constituere vellent, nemo eos impediret'; Lazarus, 'legaliter judicatus, condemnatus ac depositus auderet dicere : » nobis edictum datum est ut si decem e nobis convenerint licet nobis antistitem constituere.'",
+    "witness": "BH1 (barhebraeus_chronicon-ecclesiasticum-vol1-lat_abbeloos-lamy1872.txt) l.21384-21393; BH1 (barhebraeus_chronicon-ecclesiasticum-vol1-lat_abbeloos-lamy1872.txt) l.21500-21505",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Dionysius's answer: 'a quo tempore patres nostri civitates multas vobis tradiderunt, inter nos et vos exstare promissiones et pacta, de non immutandis contra nos legibus nostris; manifestum vero est legem absque legislatore non posse servari; una porro ex legibus nostris est principatus noster ecclesiasticus' (OCR 'scitsapientia tua.aquo', 'promis- siones')",
+    "witness": "BH1 (barhebraeus_chronicon-ecclesiasticum-vol1-lat_abbeloos-lamy1872.txt) l.21509-21518",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The jurists: Christians are not to be forced 'ad mutandam eorum fidei professionem eorumque consuetudines, modo servent subjectionem nobis debitam et tranquilli remaneant' (kept to the records)",
+    "witness": "BH1 (barhebraeus_chronicon-ecclesiasticum-vol1-lat_abbeloos-lamy1872.txt) l.21598-21603",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Al-Ma'mun's ruling: 'quod a gradu et dignitate removeatis et deponatis peccatorem non prohibemus vobis ; quod autem ejiciatis eum ab ecclesia et ab oratione prohibeatis fas vobis non judicamus; peccatores quippe praesertim oportet orare et petere a Deo remissionem delicti.' Dionysius 'discessit a Mamone ... laudatus a legisperitis (?) propter animi fortitudinem'. Date: 'mense Adar (Martio) anni 1140 (Chr. 829)' (OCR 'proliibcmus', 'ejiciatis cum', 'Adar (3/arf«o)', '{C/ir. 829)')",
+    "witness": "BH1 (barhebraeus_chronicon-ecclesiasticum-vol1-lat_abbeloos-lamy1872.txt) l.21700-21716",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Bar Hebraeus born 1226: 'Hanc lucem primum aspexit anno oerae Christianm 1226, in urbe Melitina' (OCR 'oerae Christianm')",
+    "witness": "BH1 (barhebraeus_chronicon-ecclesiasticum-vol1-lat_abbeloos-lamy1872.txt) l.238-239",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Monk of Kenneshre: Theodore of the monastery of Mar Jacob of Kaisum: 'Venit, inquit, ad nos frater Dionysius monachus, e coenobio Mar Joannis Bar-aphtonii, quod est monasterium Kenserinense, et duobus annis apud nos commoratus est' (OCR 'A^cnit', 'ctcnolho', 'Joanuis Bar- aphtonii', 'esst', 'Ken- serinense')",
+    "witness": "BH1 (barhebraeus_chronicon-ecclesiasticum-vol1-lat_abbeloos-lamy1872.txt) l.20401-20408",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "His own account of being seized, in Bar Hebraeus's Latin: 'Ait hic ipse Dionysius'; 'Eram quippe hominum minimus et maxime contemptibilis'; the fathers 'praemiserunt duos monachos cordatos ad monasterium Mar Jacobi, ubi commorabar, quia incolae Kenserinenses dispersi erant. Ingressi igitur ad me apprehenderunt me et custodierunt tanquam malefactorem, donec venirent episcopi'; 'quum assererem infirmitatem meam ac insufficientiam cum fletu et prostrationibus, irruerunt violenter in me' (OCR 'fletuet', 'custo- dierunt')",
+    "witness": "BH1 (barhebraeus_chronicon-ecclesiasticum-vol1-lat_abbeloos-lamy1872.txt) l.20416-20417; BH1 (barhebraeus_chronicon-ecclesiasticum-vol1-lat_abbeloos-lamy1872.txt) l.20517-20540",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Ordinations: 'die Veneris ordinarunt me diaconum in monasterio Estunse, et die sabbati presbyterum in coenobio Mar Zachaeae, et die dominica, prima Ab (Augusti) anni 1129 (Chr. 818) promoverunt me ad perfectum ordinem summi sacerdotii in ecclesia catholica urbis Callinici' (OCR 'Estunse*', 'Mar Zacli8e*', '{Augusti)', '(Chr. 818)'); 'Imposuit autem ei manum Theodosius Callinici'",
+    "witness": "BH1 (barhebraeus_chronicon-ecclesiasticum-vol1-lat_abbeloos-lamy1872.txt) l.20612-20628",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "First voyage to Egypt: 'Anno autem Graecorum 1136 (Chr. 823), quum Emirus Abdallah descendisset in Aegyptum, Mohammed, ejus frater, quaecumque invenit nova aedificia in ecclesiis Edessenis vastavit ... Quapropter accinxit se patriarcha in Aegyptum. Exorta est autem tempestas ... vix se recipere potuit ad portum urbis Tanis ... Occurrerunt ei christiani hujus urbis ad triginta prope millia. Venit etiam illuc ad eum Jacobus patriarcha, Alexandriae papa' (OCR '(CAr. 823)', 'jEgyptura', 'qumcumque', '.^i^ptum', 'Alexandri® papa')",
+    "witness": "BH1 (barhebraeus_chronicon-ecclesiasticum-vol1-lat_abbeloos-lamy1872.txt) l.21042-21075",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Dionysius's words at Tanis: 'Ait autem Mar Dionysius: «tunc commemoravimus eis verba Athanasii patriarchae cognomento Camelarii ... et agnovimus debilitatas esse recitationes ex eo quod neglecta fuerit apud eos scientia Scripturarum.»' (kept to the records)",
+    "witness": "BH1 (barhebraeus_chronicon-ecclesiasticum-vol1-lat_abbeloos-lamy1872.txt) l.21079-21084; BH1 (barhebraeus_chronicon-ecclesiasticum-vol1-lat_abbeloos-lamy1872.txt) l.21157-21158",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The emir: Abdallah, son of Tahir ('ad Abdallah, Tahiri filium'); in Egypt Dionysius 'ingressus est ad Tahirum. Quia porro Emiro gratissimus erat, reprehendit eum ... dicens : »quid cogebat te ut venires in Aegyptum, quum posses per epistolam significare mihi quid velles? »'; 'Tunc Emirus propria manu scripsit fratri suo eum reprehendens'; tax at Tanis: 'Quinque enim denarii exigebantur a quacumque persona sive divite sive paupere. Praecepit igitur Emirus ut a divitibus quadraginta et octo zuzae, a mediis viginti quatuor, a pauperibus vero duodecim, acciperentur.' (OCR '.lEgyptum', 'divito', 'zuz»')",
+    "witness": "BH1 (barhebraeus_chronicon-ecclesiasticum-vol1-lat_abbeloos-lamy1872.txt) l.20840-20841; BH1 (barhebraeus_chronicon-ecclesiasticum-vol1-lat_abbeloos-lamy1872.txt) l.21159-21181",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Second journey, with al-Ma'mun: 'Eodem anno venit Calipha Mamon Chisumam ... Mandavit autem Calipha patriarcham secum proficisci in Aegyptum, ut eum legatum mitteret ad Christianos Byamitas, in regione inferiore Aegypti habitantes, ut a rebellione reverterentur. Quumque profectus esset patriarcha noster cum patriarcha Aegypti Josepho ad eos reconciliandos, Apschinus, militiae praefectus, pacem noluit, sed villas eorum, vineas hortosque igne comburens, plurimos quidem interfecit, reliquos vero vinctos navibus Antiochiam misit, et exinde Bagdadum. Multi autem in via mortui sunt. Patriarcha ad Mamonem reversus ei denuntiavit Byamitas opprimi' (OCR 'patriarchm', 'cum lega- tum', '/Egyptum', 'Ap- schinus', 'Byaniitas')",
+    "witness": "BH1 (barhebraeus_chronicon-ecclesiasticum-vol1-lat_abbeloos-lamy1872.txt) l.21798-21822",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The editors on the rebels' names: 'Renaudotius eos [...]tas appellat ... Eosdem [...]anos vocat Lequien' (OCR 'Ilenaudotius eos Itschammiri* tas appellat'; 'Baammjfrilanos vocat Lequicn')",
+    "witness": "BH1 (barhebraeus_chronicon-ecclesiasticum-vol1-lat_abbeloos-lamy1872.txt) l.21828-21834",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "On the Coptic church: 'De papa Josepho et episcopis Aegypti patriarcha haec narrat : «eos esse invenimus populum pudicum, sincerum ... et tanto honore excepti fuimus ut omnem praerogativam papae in ditione sua debitam nobis tribuerent ... Sublatum enim eis erat studium Scripturarum sanctarum ... siquidem absque ducentis aut trecentis daricis non potest quis pervenire ad summum pontificatum' (OCR 'prscrogativam', 'pontitica- tura')",
+    "witness": "BH1 (barhebraeus_chronicon-ecclesiasticum-vol1-lat_abbeloos-lamy1872.txt) l.21905-21923",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The pyramids: 'Addit rursus patriarcha : « vidimus in Aegypto istas pyramides ... nec horrea sunt Josephi, ut quidam opinati sunt, sed admiranda aedificia, super sepulchra antiquorum regum exstructa, obliqua et solida, non cava et vacua' (OCR '/Egypto', 'ttsiiiicia')",
+    "witness": "BH1 (barhebraeus_chronicon-ecclesiasticum-vol1-lat_abbeloos-lamy1872.txt) l.22129-22136",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Ordained Thomas at Tagrit: 'primatu post patriarcham Antiochenum Maphriano remanente in toto Oriente. Quia porro Daniel Tagriti obierat, elegit et ordinavit Tagriti Thomam'; vol. 3: Thomas 'Ordinatus fuit a Dionysio Telmaharensi patriarcha'",
+    "witness": "BH1 (barhebraeus_chronicon-ecclesiasticum-vol1-lat_abbeloos-lamy1872.txt) l.22251-22255; BH3 (barhebraeus_chronicon-ecclesiasticum-vol3-lat_abbeloos-lamy1877.txt) l.11096-11098",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "History written for John of Dara and its closing letter: 'calamitates omnis generis multiplicatae sunt ab Arabibus in Christianos ubique locorum per exactiones intolerandas, de quibus sic scribit Dionysius ad Joannem Darae, cujus rogatu exaravit Chronicon suum : « necesse non habeo gravare intelligentiam tuam quantis in calamitatibus verser ita ut noctes absque somno, dies absque ulla quiete transeam ... Fleo igitur et lugeo vitam meam, quod infelix ego propter peccata mea relictus sim ad bibendum calicem istum, utque patiar et dolore prematur cor meum quando oculis meis video clades poenasque quas sufferunt filii Ecclesiae ... Unica igitur mihi superest a malis liberatio, mors scilicet, quam tanquam rem bonam faustamque appeto. » Hic absolvit beatus ille vir Chronicon suum.' (OCR 'Fico igitur', 'pocnasque', 'Ecclesim', 'Joannem Da- ra:*')",
+    "witness": "BH1 (barhebraeus_chronicon-ecclesiasticum-vol1-lat_abbeloos-lamy1872.txt) l.22334-22344; BH1 (barhebraeus_chronicon-ecclesiasticum-vol1-lat_abbeloos-lamy1872.txt) l.22449-22468",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Death and burial: 'Obiit autem vigesima secunda mensis Ab (Augusti) anni millesimi centesimi quinquagesimi sexti (Chr. 845) et sepultus est in monasterio Kenserinensi ... ordinavit centum episcopos' (OCR '(Auffusti)', '(<7>4r. 845)'). The count of years in office reads 'annis septem* decim' in the OCR and is not used",
+    "witness": "BH1 (barhebraeus_chronicon-ecclesiasticum-vol1-lat_abbeloos-lamy1872.txt) l.22468-22475",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Preface, in Michael: 'Comme à partir d'ici commence le patriarche Denys, surnommé de Tell Mahrê, voici que je place d'abord la Préface de ses écrits'; 'ô mon fils spirituel, Iwannis, métropolitain de Dara'; 'tu n'as pas considéré la vieillesse qui couvre ma tête ... mais que je passe de village en village, et me transporte d'un lieu à un autre (subissant) de longs et pénibles voyages, des stations et des prostrations à la porte des princes avec le mépris et l'humiliation qui y sont inhérents' (OCR 'patriaj^che', 'con- sidéré', 'autre^')",
+    "witness": "MICHAEL2 (michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt) l.27478-27508",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Theophilus of Edessa and Qura of Batna: 'L'un d'eux, Theophilus d'Edesse, qui était chalcédonien et regardait comme son héritage la haine des Orthodoxes, laissa frauduleusement de côté toutes les histoires dans lesquelles on faisait mémoire de l'un des nôtres. C'est pourquoi nous continuerons la série des premiers, et nous commencerons là où s'arrête Qourâ de Batna'",
+    "witness": "MICHAEL2 (michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt) l.27533-27540",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Michael's range for him: 'Denys le patriarche écrivit depuis Maurice jusqu'à Théophile, l'empereur des Grecs, et Haroun, l'émir des Arabes.'",
+    "witness": "MICHAEL1 (michael-the-syrian_chronique-tome1-livres-i-vii-fra_chabot1899.txt) l.278-279",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Michael's own times: title page 'PATRIARCHE JACORITE D'ANTIOCHE (II66-II99)' (OCR 'JACORITE', 'II66-II99')",
+    "witness": "MICHAEL2 (michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt) l.39-41",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The grandfather: 'Le patriarche Denys de Tell Mahré, qui rapporte ces choses, ajoute : « J'ai pris ces choses des histoires de Daniel, fils de Samuel, du Tour 'Abdîn, mon grand-père maternel. Pour moi, je crois que l'image était chez les Chalcédoniens d'Édesse ...' (census person-list quote verified at l.36788-36790)",
+    "witness": "MICHAEL2 (michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt) l.36788-36791",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Michael copies from him: 'Note marginale : Cette lettre du patriarche Petrus est écrite tout au long dans le livre de Denys de Tell Mahrê. Nous en avons placé ici des extraits' (OCR 'lis>re'); Peter is 'Petrus, patriarche d'Antioche' (l.28029)",
+    "witness": "MICHAEL2 (michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt) l.28658-28660; MICHAEL2 (michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt) l.28029-28029",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Chabot: 'Tout ce qui suit jusqu'à la fin de ce chap. est tiré de Denys de Tell Mahrê. C'est le seul chapitre de sa Chronique dont nous ayons le texte.'",
+    "witness": "MICHAEL2 (michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt) l.27771-27773",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The heading at the start of Michael's chronicle names 'Denys de Tell-Mahré' among its sources; Chabot: 'J'ai acquis la conviction que ce titre est apocryphe.'",
+    "witness": "MICHAEL1 (michael-the-syrian_chronique-tome1-livres-i-vii-fra_chabot1899.txt) l.63033-63041",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Church that refused Chalcedon (context for 'Syriac Orthodox'): Isaiah of Edessa to Heraclius, 'Si tu n'anathématises pas par écrit le synode de Chalcédoine et le Tome de Léon, je ne te laisserai pas toucher les mystères.'",
+    "witness": "MICHAEL2 (michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt) l.31955-31959",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Eutychius of Alexandria on the same revolt: 'Post haec tumultuati sunt Al Bimaidae ... in inferiore terrae Aegyptiacae parte ... Hi igitur rebelles facti vectigal et tributum pendere noluerunt. Quod cum Al Mamuni nuntiatum esset, misit ille Almotasemum copiis instructum in Aegyptum ... feminasque ipsorum et liberos Bagdadum captivos abduxit ... Tum et ipse Al Mamun comitante Al Motasemo in Aegyptum profectus est' (OCR 'Al Bimaid#', 'Xgypliacæ', 'ſacti', 'ſeminasque'). No patriarch is named. Bar Hebraeus's editors' 'totidem verbis' (BH1 l.21826-21828) overstates the match",
+    "witness": "PG111 (nicholas-mystikos_epistolae-with-eutychius-alexandrinus-pg111-grc-lat_migne1863.txt) l.87139-87158; BH1 (barhebraeus_chronicon-ecclesiasticum-vol1-lat_abbeloos-lamy1872.txt) l.21826-21826",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Renaudot, reporting Makrizi: 'rebellasse Coptitas, & anno Hegirae 216 Afschinum adversus eos copias duxisse, neque subactos, antequam Almamon in Aegyptum advenisset; qui causa cognita multos supplicio capitis condemnavit, foeminas & pueros vendi jussit' (OCR long s); and on the first voyage: 'Dionysius Patriarcha Jacobitarum Antiochenus, qui dudum fama Jacobi excitatus eum videre optabat, advenit, & dies multos apud illum cum mutua utriusque consolatione transegit' (OCR 'Jacobi- tamm', 'cum vi- opubat')",
+    "witness": "RENAUDOT (renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713.txt) l.17703-17710; RENAUDOT (renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713.txt) l.17620-17624",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Nomocanon: 'uti definiunt Dionysius patriarcha Telmaharensis, et religiosus Iacobus Edessae', on kinship through the sponsors at a wedding ('in sponsione coronarum'); title 'ECCLESIAE ANTIOCHENAE SYRORUM NOMOCANON A GREGORIO ABULPHARAGIO BAR-HEBRAEO' (OCR 'patriarcha. Telmaharensis , et. religiosus')",
+    "witness": "MAI10 (mai_scriptorum-veterum-nova-collectio-tomus10-ebedjesu-synodus-timothei-lat_mai1838.txt) l.45741-45750; MAI10 (mai_scriptorum-veterum-nova-collectio-tomus10-ebedjesu-synodus-timothei-lat_mai1838.txt) l.38227-38232",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Where Tel Mahre was: W. Wright's footnote on 'Dionysius of Tell-Mahré*': '... in Arabic [Arabic], a small town on the river Balikh, between ar-Rakkah and Hisn Maslamah, according to Yáküt in the Mujam al-Buldan' (OCR 'A ISS', 'Yáküàt')",
+    "witness": "WRIGHT (joshua-the-stylite_chronicle_wright1882.txt) l.294-294; WRIGHT (joshua-the-stylite_chronicle_wright1882.txt) l.314-316",
+    "formation_confidence": "Documented"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "Whether the shorter chronicle ending about 775 is Dionysius's",
+    "sides": [
+     "For Dionysius: Joseph Assemani, who took it for Dionysius's shorter chronicle ('Assemanus summarium Chronici brevioris Dionysii ... usque ad annum Graecorum 1086, Christi 775, describit', BH1 (barhebraeus_chronicon-ecclesiasticum-vol1-lat_abbeloos-lamy1872.txt) l.20440-20443); Bar Hebraeus's editors, who follow him: 'idque de prolixiori ejusdem Chronico intelligendum; nam Chronicon brevius, quod in Scetensi coenobio Assemanus nactus est, anno circiter 775 terminatur, idemque non Joanni Darensi, sed Georgio Amidae chorepiscopo ... nuncupatum est. Ita Assemanus' (BH1 (barhebraeus_chronicon-ecclesiasticum-vol1-lat_abbeloos-lamy1872.txt) l.22351-22366); W. Wright, who calls the Vatican chronicle Dionysius's 'own larger work' (WRIGHT (joshua-the-stylite_chronicle_wright1882.txt) l.292-298); Chabot in 1895, 'Quatrième partie de la Chronique de Denys de Tell-Mahré' (MICHAEL1 (michael-the-syrian_chronique-tome1-livres-i-vii-fra_chabot1899.txt) l.62784-62784)",
+     "Against: J.-B. Chabot by 1899, 'Pseudo-Denys' (MICHAEL1 (michael-the-syrian_chronique-tome1-livres-i-vii-fra_chabot1899.txt) l.13650-13650; MICHAEL1 (michael-the-syrian_chronique-tome1-livres-i-vii-fra_chabot1899.txt) l.59560-59560; MICHAEL2 (michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt) l.36430-36430); J. K. Fotheringham, 'chronica anonymi cuiusdam monachi olim per errorem Dionysio Telmaharensi tributa' (FOTHERINGHAM (jerome_eusebii-chronici-canones-lat_fotheringham1923.txt) l.189-191), title page 1923 (FOTHERINGHAM (jerome_eusebii-chronici-canones-lat_fotheringham1923.txt) l.54-54)"
+    ]
+   },
+   {
+    "claim": "Whether the al-Ma'mun hearing is Dionysius's own account",
+    "sides": [
+     "Bar Hebraeus tells it in narrative, without 'Ait Dionysius' (BH1 (barhebraeus_chronicon-ecclesiasticum-vol1-lat_abbeloos-lamy1872.txt) l.21478-21716)",
+     "The surrounding passages quote Dionysius directly ('Ait hic ipse Dionysius', 'Ait autem Mar Dionysius', 'Addit rursus patriarcha'), so Bar Hebraeus had his history before him; Inferential-Thin for this passage"
+    ]
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "His birth year and parents",
+    "note": "No held source gives his birth or his parents. His maternal grandfather, Daniel son of Samuel of the Tur Abdin, is named in the passage Michael quotes (MICHAEL2 l.36788-36791). Where Tel Mahre was: W. Wright, citing Yaqut's Mu'jam al-Buldan, makes it 'a small town on the river Balikh, between ar-Rakkah and Hisn Maslamah' (WRIGHT (joshua-the-stylite_chronicle_wright1882.txt) l.294-294; WRIGHT (joshua-the-stylite_chronicle_wright1882.txt) l.314-316). No held source says Dionysius was born there. Charon lists a see 'Tell-Mahrê (Macédonopolis ?)' in the province of Edessa (CHARON (charon_histoire-des-patriarcats-melkites-t2-t3-fra_1911.txt) l.33957-33957); no held line ties that see to Dionysius."
+   },
+   {
+    "detail": "Michael the Syrian, book XII",
+    "note": "The held Michael volumes are tomes 1 and 2 (books I-XI). Book XII, which the census cites for the 832 Egyptian journey, is not held; the second journey is told here from Bar Hebraeus only."
+   },
+   {
+    "detail": "The census's 'al-Ma'mun agreed and dismissed some of the officials' and the Delta reed houses",
+    "note": "Not in any held account. Bar Hebraeus says Dionysius reported the Byamites crushed (BH1 l.21820-21821); Eutychius and Makrizi (below) do not mention him. Not used."
+   }
+  ]
+ },
+ "photius-of-constantinople": {
+  "claims": [
+   {
+    "claim": "Fifth session, Anastasius's Latin, dated 'Basilii quidem anno tertio, Constantini vero filii ejus anno secundo ... indictione tertia, XIII. Kalendas Novembris' (20 October; the year 869 from Basil's third year and the third indiction, and from Mansi's heading of the acts as 869-870). Photius asked 'Suscipis constituta sanctorum patrum? Et non respondit'; 'Recipis constituta sanctorum pontificum Romanorum?'; 'Photius dixit: Vocem meam, etiam me tacente, Deus audit. Sanctissimi vicarii senioris Romae dixerunt: Per silentium non effugies manifestiorem damnationem. Photius dixit: Nec Jesus tacendo evasit damnationem' (OCR 'Vocemmeam, etiammeta- cente', 'NecJe- fus')",
+    "witness": "MANSI16 (mansi_..._tomus-16-lat_welter-facsimile1902.txt) l.7912-7922, 8221-8241 [quoted as read: long s, OCR letter errors, footnote marks and line-break hyphens folded; the anchor strings were checked by script]",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Fifth session in the Greek acts, Latin version: 'Ego sponte non venio, sed coactus'; 'Introductus ergo Photius ultimo constitit loco'; 'Interrogatus dein, an sanctorum patrum decreta reciperet, tacuit: secundo interrogatus respondit: Etiam tacente lingua Deus audit' (OCR 'fponte', 'conftitit'). Will: 'Demum in quinto consessu affuit Photius, verum non sua sponte, sed jussu imperatoris'",
+    "witness": "MANSI16 l.32656-32660, 32698, 32703-32706; WILL (will_acta-et-scripta..._1861.txt) l.3650 [quoted as read: long s, OCR letter errors, footnote marks and line-break hyphens folded; the anchor strings were checked by script]",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The Latin is Anastasius's: 'Anastasii versio cum ejusdem scholiis hoc loco praecedit'; Duchesne: 'Anastasio s. sedis ap. bibliothecario' and 'Il arriva à l'heure de se trouver à la dixième et dernière session du concile'",
+    "witness": "MANSI16 l.852-858; LP2 (liber-pontificalis_..._t2_..._duchesne1892.txt) l.55298-55304 [quoted as read: long s, OCR letter errors, footnote marks and line-break hyphens folded; the anchor strings were checked by script]",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Nicholas I to Photius, read at the fifth session: 'sed rectum vos ordinem minime continuisse doluimus, eo quod non per gradus ecclesiae ductus ad tantum honorem de laicali habitu vos prosilistis'",
+    "witness": "MANSI16 l.8241-8247; WILL l.3184 [quoted as read: long s, OCR letter errors, footnote marks and line-break hyphens folded; the anchor strings were checked by script]",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Nicholas I to Emperor Michael: 'nosse vos omnimodis volumus, nullatenus nos Photium recipere, vel Ignatium patriarcham damnare'; 'Photii, quem ex militia subito ad tanti culmen regiminis consecrastis' (OCR 'Ipnatium', 'fubito')",
+    "witness": "MANSI15 (mansi_..._tomus-15-..._1902.txt) l.18376-18379, 18491-18492 [quoted as read: long s, OCR letter errors, footnote marks and line-break hyphens folded; the anchor strings were checked by script]",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Nicetas David the Paphlagonian, Life of Ignatius: 'Photium protospatharium & primum a secretis, patriarcham urbis regiae designant'; learned in grammar, poetry, rhetoric, philosophy, medicine, 'ut aevi sui facile princeps haberetur, immo & cum veteribus jam certare posset'; 'opes, quibus sibi librorum omnium maximam copiam comparabat'; 'gloriae laudisque cupido, qua incensus totas noctes, ut lectioni assidue vacaret, ducebat insomnes'; 'intraque sex non amplius dies ... Nam primo die monachus ex laica, altero lector, tum hypodiaconus, ac diaconus & presbyter: sexto deinde, qui fuit Christi natalis, & ipse sacrum conscendens tribunal, pacem populo ... nuntiavit'. Title: 'Auctore Niceta servo Jesu Christi, cognomento Davide Paphlagone' (OCR 'Papblagone', 'wvi fui')",
+    "witness": "MANSI16 l.21723-21726, 23391-23415, 23526-23537 [quoted as read: long s, OCR letter errors, footnote marks and line-break hyphens folded; the anchor strings were checked by script]",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Nicetas is hostile: Photius 'per adulterium' took the church of a living man; 'concupitam ecclesiae cathedram invasit' (the editor's marginal 'improbi' and 'adulterium' glosses aside)",
+    "witness": "MANSI16 l.23514-23528 [quoted as read: long s, OCR letter errors, footnote marks and line-break hyphens folded; the anchor strings were checked by script]",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Chief secretary in the chronicle that continues Theophanes: 'Photio viro sapientiae laude claro, saeculari militia ac dignitate secretariorum principi, Cpolitanam sedem tribuit' (OCR 'sæculari', 'tril-uit')",
+    "witness": "PG109 (theophanes-continuatus_..._pg109_..._1863.txt) l.17962-17965 [quoted as read: long s, OCR letter errors, footnote marks and line-break hyphens folded; the anchor strings were checked by script]",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Freese's list of patriarchs: 'Photius . . . . 858-867'; 'Ignatius (re-elected) 867-878'; 'Photius (re-elected) 878-886'",
+    "witness": "FREESE (photius_library-v1_freese1920.txt) l.1260-1303 [quoted as read: long s, OCR letter errors, footnote marks and line-break hyphens folded; the anchor strings were checked by script]",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Encyclical, in Will's Latin: 'Imprimis ... contra ecclesiae canones illicite ad sabbatorum jejunia traducebant'; 'primam jejuniorum quadragesimalium scilicet septimanam a caetero jejunio discerpentes, in lactis potionem, casei esum ... traxerunt'; 'sacerdotes ... legitimo conjunctos matrimonio ... abominari et aversari docuerunt'; 'sanctum et sacrum symbolum ... sensibus spuriis, verbis adscititiis ... conabantur adulterare ... Spiritum sanctum novo more comminiscebantur, non solo Patre sed etiam Filio procedere'. Will: 'In encyclica epistola, quam Photius ad eos qui archiepiscopales thronos per Orientem obtinebant'; 'in encyclica a. 866 scripta'",
+    "witness": "WILL l.3452-3487 [quoted as read: long s, OCR letter errors, footnote marks and line-break hyphens folded; the anchor strings were checked by script]",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Mansi's note: 'Photii ejusdem epistola encyclica, data an. 866. ad patriarchales sedes orientis, adversus Nicolaum pontificem maximum'",
+    "witness": "MANSI16 l.48676-48678 [quoted as read: long s, OCR letter errors, footnote marks and line-break hyphens folded; the anchor strings were checked by script]",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Mystagogy: Will, 'Ultimum (885) et perfectissimum Photii opus esse videtur Liber de Spiritus Sancti mystagogia'; 'a posterioribus, qui schisma defenderunt, saepissime excerptus' (OCR 'Léber', 'nmwystagogta', 'schisma:')",
+    "witness": "WILL l.3485-3490 [quoted as read: long s, OCR letter errors, footnote marks and line-break hyphens folded; the anchor strings were checked by script]",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Council of 867 against Nicholas: Mansi's heading 'Conciliabulum Constantinopolitanum Photii, quo damnatur Nicolaus PP'; Will: 'Synodus a. 867 Constantinopoli habita'",
+    "witness": "MANSI15 l.85648-85651; WILL l.1501 [quoted as read: long s, OCR letter errors, footnote marks and line-break hyphens folded; the anchor strings were checked by script]",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Symeon the Logothete: 'Photius patriarcha imperatore ad ecclesiam veniente, ac cum sacra mysteria percepturus esset, latronem eum et parricidam ac divina indignum communione dicere ausus est. Qua ille re ira accensus ... Photium sede ejicit'; 'Ejectus ex ecclesia Photius, et in monasterio quod Scepae vocant exsulans' (OCR 'ecclesjam-', 'mySleria', 'egct', 'ae', 'indignem', 'jlernmque')",
+    "witness": "PG109 l.63686-63695 (SYMEONIS MAGISTRI AC LOGOTHETAE, heading l.56770) [quoted as read: long s, OCR letter errors, footnote marks and line-break hyphens folded; the anchor strings were checked by script]",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Symeon's hostile story of the forged genealogy of Basil 'quasi a Teridate magna Armeniae principe' and 'excepto duntaxat Photio neminem esse qui in illo scripta intelligere posset'; 'Hinc rursus Photii cum Basilio necessitudo coaluit'",
+    "witness": "PG109 l.63712-63750 [quoted as read: long s, OCR letter errors, footnote marks and line-break hyphens folded; the anchor strings were checked by script]",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Restoration, in the chronicle that continues Theophanes: after Ignatius died, Basil 'legitimeque ac canonice sapientissimum Photium in regiae urbis vacante sede constituit'; 'assignato ei in regia habitaculo liberorum suorum institutorem' (OCR 'institulorem')",
+    "witness": "PG109 l.25381-25397 [quoted as read: long s, OCR letter errors, footnote marks and line-break hyphens folded; the anchor strings were checked by script]",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "879: 'Synodus pro Photii restitutione in cathedra CPtana, anno 879 celebrata'; synodal letters read 'in conciliabulo Constantinopolitano Photii anno 879, adsistentibus Joannis VIII papae legatis'",
+    "witness": "MANSI17 (mansi_..._tomus-17-18-..._1902.txt) l.37996-38034 [quoted as read: long s, OCR letter errors, footnote marks and line-break hyphens folded; the anchor strings were checked by script]",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Nilus of Rhodes, as Mansi prints him ('Ex Nilo Rhodi metropol. schismatico'): the council 'manifeste profitentibus occidentalibus in haec verba: Nos ita legimus ac credimus ut & vos absque ulla additione symbolum sanctum'; 'Cumque sanctum symbolum absque adjectione, sicuti se habet, lectum fuisset'; 'si quis edat aliud symbolum, aut hanc definitionem commoveat, vel adjiciat detrahatve quidpiam huic sacro sanctoque symbolo ... anathema esto'; John VIII to Photius: 'invenit nos illud conservantes intemeratum prout antiquitus nobis traditum fuerat, neque quidquam adjicientes detrahentesve'",
+    "witness": "MANSI17 l.38859-38915 (OCR 'adyjicientes') [quoted as read: long s, OCR letter errors, footnote marks and line-break hyphens folded; the anchor strings were checked by script]",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Severinus Binius's notes ('Notae Severini Binii'): 'pseudo-octavam placuit appellare'; Bellarmine quoted, 'aut esse omnia conficta ... aut certe verum quidem esse, Photium a Joanne VIII per legatos restitutum in sedem Constantinopolitanam post mortem Ignatii: at cetera supposita & adulterina esse, & a Graecis conficta'; 'Photium a Joanne papa ... post obitum Ignatii, dignitati patriarchali restitutum fuisse nulla ratione negamus'; John's true letters kept 'in bibliotheca Vaticana'",
+    "witness": "MANSI17 l.38051, 38160-38242 (OCR 'pfeudoof&avam', 'pleadoog&avo') [quoted as read: long s, OCR letter errors, footnote marks and line-break hyphens folded; the anchor strings were checked by script]",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Leo VI: 'Photium vero patriarcham Ecclesia ejectum in Armeniacorum monasterium relegat, quod Gordonis vocant; ubi et moritur' (Symeon); Will: 'Leo VI, ubi ad imperium pervenit, Photium expellit, qui in monasterio moritur'; Symeon gives no year",
+    "witness": "PG109 l.64642-64646; WILL l.1512-1513 [quoted as read: long s, OCR letter errors, footnote marks and line-break hyphens folded; the anchor strings were checked by script]",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Lives of the Popes: Photius 'ex laicis et ex militia tonsoratum contra reverendorum canonum statuta neophitum subito'; Hadrian II: 'pervasorem Photium pepulit'; John, 'metropolita Cesareae Capadociae', sent by Basil; 'Egressus metropolita librum exhibuit et in terra precipitavit'; the spatharius: the book 'subscriptionem Basilii nostri imperatoris post subscriptionem Michaelis, quem ebriosissimum subscribere noctu suasit, falsissime continet' (OCR 'MichaeUs', 'noclu')",
+    "witness": "LP2 l.49593-49594, 53412, 53423, 53540-53546 [quoted as read: long s, OCR letter errors, footnote marks and line-break hyphens folded; the anchor strings were checked by script]",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Library dedication: 'Photius, to his beloved brother Tarasius'; 'After our appointment as ambassador to Assyria had been confirmed'; 'We believe that their number is exactly 279'; 'It is no easy matter to undertake to read each individual work, to grasp the argument, to remember and record it'; Freese's note: 'To the caliph of Bagdad ; according to others, to Persia, or one of the Eastern emirs (Bury)'",
+    "witness": "FREESE l.1698-1745, 1725-1726 [quoted as read: long s, OCR letter errors, footnote marks and line-break hyphens folded; the anchor strings were checked by script]",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The 879 acts, sixth session, Latin: 'Si quis praeter hoc sacrum symbolum ausit alterum ... conscribere vel proponere, aut detrahere, & definitionem appellare praesumpserit, sit condemnatus'; and 'Si quis igitur eo amentiae provehatur, ut ausit, quemadmodum superius dictum est, alterum exponere symbolum, & definitionem appellare, aut adjicere vel demere in tradito nobis a sancta & oecumenica Nicaeae primum magna synodo, anathema sit' (OCR 'aufit', 'Nicax', 'prove- hatur'). Will quotes the second 'In ultimo consessu'",
+    "witness": "MANSI17 l.53399-53432 (index of the sessions l.371-394); WILL l.3975-3979 [quoted as read: long s, OCR letter errors, footnote marks and line-break hyphens folded; the anchor strings were checked by script]",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "An unsigned note printed in the Latin column before the sixth session: 'Scire oportet, postremas istas duas actiones, nempe quae sexta & septima appellantur, confictas esse ab ipsomet Photio, nec vere factas fuisse'; he made them up to set out 'nihil videlicet esse adjiciendum symbolo' (the margin is OCR-garbled, 'Pofita de in- duftriaa Gree evle qucpiam adnoratioef#', so its owner is left unnamed)",
+    "witness": "MANSI17 l.52604-52628 [quoted as read: long s, OCR letter errors, footnote marks and line-break hyphens folded; the anchor strings were checked by script]",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Will on John VIII: 'Impudentissime autem Photius papam decepit de synodi decretis ... Quum vero quae revera in concilio acta et decreta erant, papa comperisset, palam anathemate Photium percussit, id quod a tribus sequentibus papis, Marino, Hadriano III., Stephano V., literis vehementibus identidem ad imperatorem datis, repetitum est' (OCR 'Hadriano 111.')",
+    "witness": "WILL l.3980-3987 [quoted as read: long s, OCR letter errors, footnote marks and line-break hyphens folded; the anchor strings were checked by script]",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Will on his death: Leo VI, 'revera autem ut Stephanum fratrem in sedem patriarchalem eveheret, ex dignitate expulsum in monasterium inclusit, ubi anno 891 decessit'",
+    "witness": "WILL l.3988-3992 [quoted as read: long s, OCR letter errors, footnote marks and line-break hyphens folded; the anchor strings were checked by script]",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Basil and Rome's ruling: Symeon, 'Romam misit, tomoque impetrato cum episcopis Latinis Photium sede ejicit'; Life of Hadrian II, 'secundum Romanae aecclesiae constitutum, pervasorem Photium pepulit'",
+    "witness": "PG109 l.63690-63691; LP2 l.53410-53412 [quoted as read: long s, OCR letter errors, footnote marks and line-break hyphens folded; the anchor strings were checked by script]",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Mystagogy used by both sides: Will, 'a posterioribus, qui schisma defenderunt, saepissime excerptus et ab unionis sociis ad suas sententias tuendas in usum conversus est'",
+    "witness": "WILL l.3488-3489 [quoted as read: long s, OCR letter errors, footnote marks and line-break hyphens folded; the anchor strings were checked by script]",
+    "formation_confidence": "Documented"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "Why Basil deposed him in 867",
+    "sides": [
+     "Photius called Basil a robber and murderer at communion: Symeon the Logothete (PG109 l.63686-63691)",
+     "Basil's accession and Rome's sentence: the Life of Hadrian II, 'secundum Romanae aecclesiae constitutum, pervasorem Photium pepulit' (LP2 l.53410-53412); Will (l.1501-1503)"
+    ]
+   },
+   {
+    "claim": "The standing of the council of 879",
+    "sides": [
+     "A council that restored Photius and forbade addition to the Creed: its own acts (MANSI17 l.53399-53432); Will (l.3975-3979); Nilus of Rhodes as Mansi prints him (MANSI17 l.38859-38915); the chronicle that continues Theophanes on the lawful restoration (PG109 l.25381-25390)",
+     "A false synod whose acts the Greeks forged in part: Severinus Binius and Bellarmine, as Binius quotes him (MANSI17 l.38140-38242); Mansi's heading 'conciliabulum'; the unsigned note that Photius made up the sixth and seventh sessions (MANSI17 l.52604-52628); John VIII's public anathema, as Will reports it (WILL l.3980-3987)"
+    ]
+   },
+   {
+    "claim": "How Photius regained Basil's favor",
+    "sides": [
+     "By a forged genealogy only he could read: Symeon the Logothete (PG109 l.63712-63750)",
+     "By Basil's own regard for his learning, with rooms at court and the care of his children: the chronicle that continues Theophanes (PG109 l.25390-25397)"
+    ]
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "His birth year",
+    "note": "None of the sources on the card gives it (Freese, Mansi 15-17, PG 109, Will, Liber Pontificalis 2). The Freese file's header and its library label (l.14209) are not witnesses."
+   },
+   {
+    "detail": "Whether Tarasius was his brother by birth",
+    "note": "Photius calls him 'our beloved brother' (FREESE l.1698-1703). No held line used here says more."
+   },
+   {
+    "detail": "The 867 homily on the apse mosaic of Hagia Sophia that the census names",
+    "note": "Not found in the files searched for this profile; a whole-Library search for Photius beside 'mosaic', 'apse' or 'homil' found only an index entry in Bessarion (PG 161). Not used."
+   }
+  ]
+ },
+ "gregory-of-narek": {
+  "claims": [
+   {
+    "claim": "The summons to Ani and the pigeons: 'it was found necessary to convene a meeting of the chiefs and clergy in the city of Ani. Messengers were dispatched to Gregorius Narekensis to summon him to appear before the assembly to examine his religious opinions'; 'ordered a repast to be prepared of roasted pigeons. The day being Friday'; 'arise ye, and depart, for this day is a fast!' 'The pigeons then, wonderful to relate, expanded their wings and flew away'. Told as a miracle story; legend",
+    "witness": "CHAMICH (chamich_history-of-armenia-v2_avdall1827.txt) l.4838-4856; ISSAV (issaverdens_armenia-and-the-armenians-v2-ecclesiastical-history_1875.txt) l.5281-5308",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Issaverdens: 'We, however, report this merely as an anecdote, as it shews the public esteem towards the holy man' (OCR line break 'anec- dote' absent; checked)",
+    "witness": "ISSAV (issaverdens_armenia-and-the-armenians-v2-ecclesiastical-history_1875.txt) l.5316-5319",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Chamich a Mekhitarist of Venice: 'the Mukhitharian society of Venice, of which Chamich was a member' (Avdall); 'Father Mikael Tchamtchian, of the Mekhitarists of Venice' (Ormanian). His History 'was printed in the year 1784' (Nurikhan)",
+    "witness": "CHAMICH (chamich_history-of-armenia-v2_avdall1827.txt) l.23413-23421; ORMANIAN (ormanian_church-of-armenia_gregory1912.txt) l.8838-8839; NURIKHAN (nurikhan_life-and-times-of-abbot-mechitar_mcquillan1915.txt) l.7504-7505",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Issaverdens of St. Lazaro: title page, 'member of the Armenian Institution and Academy of St. Lazaro at Venice'; Ormanian: Mekhitar settled at 'the island of San-Lazaro at Venice (1717)'",
+    "witness": "ISSAV (issaverdens_armenia-and-the-armenians-v2-ecclesiastical-history_1875.txt) title page (header l.2-3); ORMANIAN (ormanian_church-of-armenia_gregory1912.txt) l.4491-4492; NURIKHAN l.17930-17931, 18205-18206",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Ormanian: 'The congregations of the Mekhitarists and the Antonins ... gave a powerful impetus to the movement' of proselytisation, by which 'the Armeno-Catholics' formed a nationality; and Chamich's 'national history is unsatisfactory from the point of view of the critical spirit'",
+    "witness": "ORMANIAN (ormanian_church-of-armenia_gregory1912.txt) l.9124-9135, 8838-8843",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Raised at Narek and abbot: 'He had been brought up from his infancy in the convent of Narek, and in process of time became its abbot, from which circumstance he was surnamed Narekensis'; Narek 'in the province of the Rushtunians'",
+    "witness": "CHAMICH (chamich_history-of-armenia-v2_avdall1827.txt) l.4813-4817, 4026-4027; ISSAV (issaverdens_armenia-and-the-armenians-v2-ecclesiastical-history_1875.txt) l.5253-5272",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Tenth century: 'loth Century. — The learned doctor Grigor of Narek' (OCR 'loth'); 'flourished in the Xth century'",
+    "witness": "ORMANIAN (ormanian_church-of-armenia_gregory1912.txt) l.8582-8583; ISSRIT (issaverdens_armenian-ritual-parts1-4_1876.txt) l.848",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Death: 'St. Grigor of Narek (f 1003)' (OCR 'f' for dagger); Macler's note: 'Grégoire de Narek, né en 951, mort en 1003'; Chamich: 'On his attaining his fiftieth year he died'",
+    "witness": "ORMANIAN (ormanian_church-of-armenia_gregory1912.txt) l.7745-7746; MACLER (stepanos-taron_histoire-universelle-deuxieme-partie-fra_macler1917.txt) l.4005-4006; CHAMICH (chamich_history-of-armenia-v2_avdall1827.txt) l.4893",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Conybeare's heading 'The meditations of S. Gregory of Narek (circa 960), discourse xii' (OCR 'ἄγοα 960')",
+    "witness": "CONYBEARE (rituale-armenorum-lectionary_conybeare1905.txt) l.34475",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Serpos: Gregory 'discepolo, ed allievo del ... Dottore, ed Abbate di Narek Anania' (OCR 'fu dU tccpoio'); 'compose una serie di 95. orazioni'",
+    "witness": "SERPOS3 (serpos_compendio-storico-nazione-armena-t3-ita_1786.txt) l.17985-17998",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Stepanos of Taron on Narek and Anania: Narek built 'in der Provinz Rstunikh ... reichgeschmückt durch beim Gottesdienste hell (singende) Sänger und gebildete Gelehrte'; 'Anania, der grofse Philosoph, welcher auch Mönch zu Narek war. Dieser hat auch Schriften verfafst gegen die Sekte der Thondrakier'. Macler: 'Ce passage fait penser à Grégoire de Narek'. Stepanos does not name Gregory in either held translation (grep 'Narek','Grigor','Grégoire','Gregor')",
+    "witness": "GELZER (stepanos-taron_armenische-geschichte-deu_gelzer-burckhardt1907.txt) l.6327-6329, 6482-6485; MACLER (stepanos-taron_histoire-universelle-deuxieme-partie-fra_macler1917.txt) l.3918, 4004-4006, 4314-4316",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Stepanos on rebaptism: 'décidèrent que les personnes baptisées dans la foi de Chalcédoine recevraient une seconde fois ce sacrement'. Stepanos was at least twenty in 967 (Macler)",
+    "witness": "MACLER (stepanos-taron_histoire-universelle-deuxieme-partie-fra_macler1917.txt) l.4346-4354, 822-826",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Chalcedon, Chamich: 'This individual attempted to unite the Armenians and Greeks by persuading the former to accept the holy council of Chalcedon. In consequence of this, several intolerant persons stirred up the nation against him'; Issaverdens nearly the same",
+    "witness": "CHAMICH (chamich_history-of-armenia-v2_avdall1827.txt) l.4817-4842; ISSAV (issaverdens_armenia-and-the-armenians-v2-ecclesiastical-history_1875.txt) l.5273-5288",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Serpos: 'Molto si affaticò ancor egli nel sopire le fatali discordie, che dividevano gli animi di alcuni rapporto a' dubbj concernenti l'ortodossia de' Padri Calcedonensi'; seeing 'in molti perseverava una fissazione d'invincibil carattere, si ritirò a menar vita solitaria nel monastero Narekese'",
+    "witness": "SERPOS2 (serpos_compendio-storico-nazione-armena-t2-ita_1786.txt) l.1695-1712",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Macler's note on Lebeau: 'Grégoire de Narek, en 977, fut persécuté par ses coreligionnaires, pour avoir été soupçonné de tendre à une réconciliation avec les Grecs'",
+    "witness": "MACLER (stepanos-taron_histoire-universelle-deuxieme-partie-fra_macler1917.txt) l.7770-7774",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Vision and book: 'He long ardently prayed to behold, with his bodily senses, the holy Virgin with the Son of God in her arms; and at length was gratified with that glorious sight. Filled with the Holy Ghost, he composed that wonderful book of prayers called Narek, the like of which has never till this time appeared in the world'",
+    "witness": "CHAMICH (chamich_history-of-armenia-v2_avdall1827.txt) l.4877-4887",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Commentaries: Chamich, 'At the early age of twenty-six he wrote commentaries on the Songs of Solomon, and the thirty-eighth chapter of the book of Job'; Serpos, 'nel ventesimo anno di sua età compose ... un divotissimo commentario sopra la Cantica di Salomone a conforto d'un pio Re Bagratida' (OCR 'divo- £*S8Ìmo', 'Sa- mone'); Issaverdens, ordained priest at twenty-six",
+    "witness": "CHAMICH (chamich_history-of-armenia-v2_avdall1827.txt) l.4888-4893; SERPOS2 (serpos_compendio-storico-nazione-armena-t2-ita_1786.txt) l.1688-1693; ISSAV (issaverdens_armenia-and-the-armenians-v2-ecclesiastical-history_1875.txt) l.5258-5265",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Liturgy: 'The two following prayers were composed by the celebrated Doctor St. Gregory Naregatzi' (OCR 'Naregalzi'); said 'at the foot of the altar ... in a low voice ... addressed to the Holy Spirit'; 'we implore Thee with out-stretched arms and deep groans' (break 'im- plore'); second prayer to the 'Spirit of mercy'",
+    "witness": "ISSRIT (issaverdens_armenian-ritual-parts1-4_1876.txt) l.841-856, 907-915",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Breviary: 'In MS β the text after a break, intended to show that the rite proper is finished, continues as follows: § 181. The meditations of S. Gregory of Narek ... discourse xii. Incipit: Accept, O powerful Lord God, in thy loving-kindness the prayer of him that has turned again to thee.' Also 'Meditations of S. Gregory of Narek, discourse xli, incipit:—Sons of the living God' (OCR 'zucipit'). The office is the Hour of Rest, 'grant that we may pass through this night's rest in peace'",
+    "witness": "CONYBEARE (rituale-armenorum-lectionary_conybeare1905.txt) l.34460-34477, 34530-34531",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Treatise on the Breviary: 'The editor of 1730 adds ... short treatises on the Breviary written by Stephen of Siuniq in the ninth, and by Gregory of Narek in the tenth century. From the latter we learn that Armenians prayed erect with extended hands ... and Gregory exhorts his readers not to go to sleep during the reading'",
+    "witness": "CONYBEARE (rituale-armenorum-lectionary_conybeare1905.txt) l.35681-35688",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Adulteress: 'Gregor of Nareg of the X. century, quotes from that chapter as from holy Scripture'; the passage is 'found at the end of that gospel, written separately'",
+    "witness": "ISSRIT (issaverdens_armenian-ritual-parts1-4_1876.txt) l.16078-16083",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Body to Sebastia: Sennacherib transferred Vaspurakan and took 'about one-third of the inhabitants' to Sebastia, 'A. D. 1021'; 'several friars of Narek, who took with them the body of St. Gregorius Narekensis and afterwards erected a convent which they called Narek' (OCR 'Narekensisyrand')",
+    "witness": "CHAMICH (chamich_history-of-armenia-v2_avdall1827.txt) l.5670-5700",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Father: Khosrove Anzevazie 'married according to the custom of the laity. He had one son Gregorius Narekensis'; 'Khosrove retired to a convent ... and in the course of time became bishop of the Auzevazies' (OCR); Serpos, 'figliuolo di Cosroe magnate Armeno' and 'poscia vescovo di Anzevazia S. Cosroe'",
+    "witness": "CHAMICH (chamich_history-of-armenia-v2_avdall1827.txt) l.4562-4578; SERPOS2 (serpos_compendio-storico-nazione-armena-t2-ita_1786.txt) l.1683-1684; SERPOS3 (serpos_compendio-storico-nazione-armena-t3-ita_1786.txt) l.17984-17994",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Le Quien made him a bishop; Serpos: 'niuno degli scrittori Armeni ha giammai chiamato vescovo il Narekese, essendo a tutti noto, ch'egli fu solamente Abbate, o Superiore del monastero Narek'",
+    "witness": "SERPOS2 (serpos_compendio-storico-nazione-armena-t2-ita_1786.txt) l.1720-1740",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Ormanian on the book: 'For private prayers there is also used a book called Narek, composed by the monk St. Grigor of Narek (f 1003). This collection, which is written in a florid and sublime style, is regarded as a potent talisman against all kinds of dangers'",
+    "witness": "ORMANIAN (ormanian_church-of-armenia_gregory1912.txt) l.7744-7748",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Issaverdens: 'One of the greatest glories of the Armenian Church in this century was Gregor of Nareg'",
+    "witness": "ISSAV (issaverdens_armenia-and-the-armenians-v2-ecclesiastical-history_1875.txt) l.5251-5253",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Boré: 'Au milieu de la nuit du dixième siècle le génie de S. Grégoire de Nareg jette la plus vive lumière'; 'le placent, aux yeux des Arméniens, parmi les lyriques les plus estimés des autres peuples. Ses élégies sacrées ont une onction touchante' (OCR 'liuit','géoie')",
+    "witness": "BORE (bore_couvent-de-saint-lazare-a-venise-fra_1837.txt) l.2408-2416",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Nurikhan: 'the monastery of Naregh, rendered sacred by the name of the great St. Gregory of Naregh, (10th century) the study of sacred music was cultivated with brilliant results'",
+    "witness": "NURIKHAN (nurikhan_life-and-times-of-abbot-mechitar_mcquillan1915.txt) l.2386-2388",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Alishan: among writings of Nerses of Lambron 'que nous connaissons par les mentions qu'en ont faites les chroniqueurs de l'époque', 'la Vie de S. Grégoire de Nareg' (OCR 'Zambraun', 'Orégoire')",
+    "witness": "ALISHAN (alishan_leon-le-magnifique-et-table-chronologique-de-sissouan-fra_alishan1888.txt) l.15218-15225",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Ormanian names him in two places only (index: 'Narek, St. Grigor of, 177, 197'): the book at p.177 and the commemoration list at p.197",
+    "witness": "ORMANIAN (ormanian_church-of-armenia_gregory1912.txt) l.14832-14833, 7744-7748, 8582-8583",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Commentary on the Song of Songs, in Parisot's Latin: 'Ea praecipue apud nos quae de lingua graeca vel syriaca interpretata fuerunt, obscure versa sunt in linguam armeniacam' (Gregorius Narekensis, Explicatio Cantici Canticorum, Venetiis, 1789, pp. 27-28)",
+    "witness": "PARISOT (aphrahat_demonstrationes-1-22-syr-lat_parisot1894.txt) l.1881-1886",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "First panegyric on Jacob of Nisibis (Liber precum, Constantinopoli, 1726, p. 322), in Parisot's Latin: 'Ipse ... arianam haeresim gladio verbi destruxit et dissolvit'; Jacob wrote books 'salutares mundo, in quibus [fidem] definivit, maledicentium ora repressit, et indelebiles canones perpetuo stabilivit' (OCR 'lacobum', 'indelebilQS'). Parisot: Gregory, 'qui circa annum 1003 obiit', was 'primusque, ut videtur, e scriptoribus Armenis' to place Jacob among the writers",
+    "witness": "PARISOT (aphrahat_demonstrationes-1-22-syr-lat_parisot1894.txt) l.1660-1674, 1716-1721",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Issaverdens a Mekhitarist: 'Fr. Issaverdentz (Mechitarist), Armenia and the Armenians'; 'Fr. Issaverdenz, Mechitarist of Venice'",
+    "witness": "NURIKHAN l.17930-17931, 18205-18206",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Stepanos: the teachers listed, among them 'Anania, der grofse Philosoph, welcher auch Mönch zu Narek war', 'Diese alle ordneten ... auf den Befehl Ter Ananias hin, an, dafs die auf das Bekenntnis von Chalkedon getauften noch ein zweites Mal getauft werden sollten'. Macler takes the 'seigneur Anania' to be the catholicos, not the vardapet (l.4392-4394)",
+    "witness": "GELZER l.6482-6483, 6506-6510; MACLER l.4303-4316, 4346-4354, 4392-4394",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Second liturgy prayer introduced 'They then say this prayer on the same subject'",
+    "witness": "ISSRIT l.907-909",
+    "formation_confidence": "Documented"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "Whether Gregory sought union with the Greeks through Chalcedon",
+    "sides": [
+     "Yes, he tried to persuade the Armenians to accept Chalcedon and was summoned to Ani for it: Michael Chamich (CHAMICH l.4817-4840) and James Issaverdens (ISSAV l.5273-5288), both Mekhitarists of Venice, whose order Malachia Ormanian names in the movement that formed the Armeno-Catholics (ORMANIAN l.9124-9135)",
+     "He worked to calm the quarrels over the orthodoxy of the fathers of Chalcedon, then withdrew to Narek: Giovanni de Serpos (SERPOS2 l.1695-1712)",
+     "Suspected of leaning toward reconciliation with the Greeks and persecuted in 977: Charles Lebeau, as Frédéric Macler reports him (MACLER l.7770-7774)",
+     "Malachia Ormanian's held book names him only for the Narek and the saints' list (ORMANIAN l.7744-7748, 8582-8583)"
+    ]
+   },
+   {
+    "claim": "His age when he wrote the Song of Songs commentary",
+    "sides": [
+     "Twenty-six: Chamich (CHAMICH l.4888-4891); Issaverdens (ISSAV l.5331-5340)",
+     "Twenty, for a Bagratid king: Serpos (SERPOS2 l.1688-1693)"
+    ]
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "The text of the Narek",
+    "note": "The book itself is not held. Only the opening lines of discourses xii and xli (CONYBEARE l.34475-34477, 34530-34531) and two lines of the first panegyric on Jacob of Nisibis, in Parisot's Latin from the 1726 Book of Prayers (PARISOT l.1663-1672, 1720-1721), are held. The two liturgy prayers are given whole in Issaverdens's English (ISSRIT l.848-915), with no claim there that they come from the Narek."
+   },
+   {
+    "detail": "A held witness from Gregory's own lifetime",
+    "note": "Stepanos of Taron, who knew some of these teachers in his youth and wrote soon after 1004 (his third book runs 'de l'an 887 à l'an 1005', MACLER l.438-442; 'Dans notre jeunesse', l.4346-4347), describes Narek and its monk Anania but does not name Gregory in either held translation (GELZER, MACLER; grep for Narek, Grigor, Grégoire, Gregor). The held life rests on Chamich (1784), Serpos (1786), Issaverdens (1875) and Ormanian (1912)."
+   },
+   {
+    "detail": "The Book of Lamentations title and the 2015 Doctor of the Church",
+    "note": "No held source searched uses the title 'Book of Lamentations' for the Narek (grep 'Lamentation' in CHAMICH, ISSAV, ISSRIT, CONYBEARE, BORE, ORMANIAN). The 2015 declaration is later than every held source. Both stay census claims only."
+   },
+   {
+    "detail": "The Life by Nerses of Lambron",
+    "note": "Not held; known here only from Alishan (ALISHAN l.15218-15225)."
+   }
+  ]
+ }
+}
