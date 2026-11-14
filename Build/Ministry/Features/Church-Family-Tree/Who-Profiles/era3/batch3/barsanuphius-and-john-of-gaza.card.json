@@ -1,0 +1,76 @@
+{
+  "name": "Barsanuphius and John of Gaza",
+  "otherNames": [
+    "The Old Men",
+    "Barsanuphius the great old man",
+    "John the Prophet"
+  ],
+  "knownFor": "Two monks, a master and his disciple, whose written answers guided Dorotheus of Gaza and others; the questions Dorotheus put to them survive with their answers.",
+  "dates": "No held source gives their years. Migne heads his notice on their disciple Dorotheus with the year 596, and reports the Bollandists' view that Dorotheus flourished at the end of the sixth century",
+  "place": "The monastery of the abbot Seridus, which François Nau places near the village of Thabatha; Jerome puts Thabatha about five miles south of Gaza",
+  "tradition": "Chalcedonian Monasticism - Judean Desert & Gaza",
+  "role": "Monks and spiritual guides, answering questions by letter",
+  "briefLength": "about 2 minutes",
+  "keyWorks": [
+    {
+      "title": "Questions of Dorotheus to Barsanuphius and John, with their answers",
+      "about": "the set of questions Dorotheus of Gaza put to the two old men on restraint, mourning, patience and humility, printed with his Teachings in J.-P. Migne's Greek and Latin volume; the Library holds only this set, not their larger correspondence"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Dorotheus of Gaza, John's disciple, passed on their teaching to other monks in his Teachings, and tells how he took every thought to John.",
+      "Theodore the Studite counted Barsanuphius and Dorotheus among the holy fathers whose lives and writings he accepted, Migne's notice reports."
+    ],
+    "remembered": [
+      "Theodore the Studite: in his day Barsanuphius's image stood in the Great Church beside the holy fathers Antony and Ephrem.",
+      "Migne's heading: John was called the Prophet for the gift of insight he had from God."
+    ]
+  },
+  "uncertain": [
+    "Which old man gave each answer. Migne's heading sends the questions to both, and marks only the first as sent to John; the answers after it name no speaker.",
+    "Who they were. A preface Migne prints without an author's name says there were two men named Barsanuphius and two named Dorotheus, one pair defending the errors of Severus of Antioch and the other holding sound teaching. It quotes Theodore the Studite, who answers a Pamphilus from the East and says the Barsanuphius, Isaiah and Dorotheus condemned as leaders of the Acephali were other men.",
+    "Their monastery. François Nau reads a story of the abbot Seridus to place the monastery near Thabatha and names Barsanuphius, Seridus and Dorotheus as its heads in turn; the Life of Dositheus, as Migne's notice reports it, has Dorotheus meet the two old men when he entered Seridus's monastery.",
+    "Their life. The held text gives no birth, origin or death for either man.",
+    "The Latin. The Greek in Migne's volume does not survive the scan; every detail here follows the Latin translation Migne prints, which his notice gives to Hilarion of Verona, as revised by Fronto Ducaeus."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Questions of Dorotheus to Barsanuphius and John, with their answers, in Patrologia Graeca 88 (Latin tr. Hilarion of Verona, ed. J.-P. Migne)",
+        "language": "Latin translation",
+        "file": "cic/texts/dorotheus-gaza_doctrinae-barsanuphius-climacus-agathias-grc-lat_migne-pg88.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Teachings (Doctrinae), in Patrologia Graeca 88",
+        "author": "Dorotheus of Gaza",
+        "date": null,
+        "language": "Latin translation",
+        "file": "cic/texts/dorotheus-gaza_doctrinae-barsanuphius-climacus-agathias-grc-lat_migne-pg88.txt"
+      },
+      {
+        "title": "Notice on Dorotheus, and an anonymous preface, in Patrologia Graeca 88",
+        "author": "J.-P. Migne",
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/dorotheus-gaza_doctrinae-barsanuphius-climacus-agathias-grc-lat_migne-pg88.txt"
+      },
+      {
+        "title": "Appendix to the Plerophories of John Rufus, on the monastery of Seridus",
+        "author": "François Nau",
+        "date": null,
+        "language": "French",
+        "file": "cic/texts/po08_john-rufus-plerophories-and-others-fra_1912.txt"
+      },
+      {
+        "title": "Life of Saint Hilarion (tr. W. H. Fremantle)",
+        "author": "Jerome",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/npnf206_jerome-principal-works.xml"
+      }
+    ]
+  }
+}
