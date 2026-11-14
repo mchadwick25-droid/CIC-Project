@@ -1,19 +1,19 @@
 {
   "name": "Elipandus of Toledo and Felix of Urgell",
   "otherNames": [
-    "Elipandus Toletanus; Helipandus; Eliphandus, in Pope Hadrian's letter",
+    "Elipandus Toletanus; Helipandus; Eliphandus, in Pope Hadrian I's letter",
     "Felix Urgellitanus or Orgellitanus"
   ],
-  "knownFor": "Two bishops of Spain, Elipandus archbishop of Toledo and Felix bishop of Urgell, who taught that Christ in his humanity is the adoptive Son of God. The council of Frankfurt condemned the teaching in 794 as the heresy of both. Felix submitted at Aachen in 799; Elipandus, Alcuin says, still held it in 800.",
-  "dates": "Late eighth century. Heterius and Beatus date Elipandus's letter to the abbot Fidelis to October of the Spanish era 823, which a note in J.-P. Migne's volume reckons as 785. Elipandus says in a letter to Felix that he had entered his eighty-second year; the letter carries no year. Froben, Alcuin's editor, reckons his birth to 717 and his death to 809 or the year after, and says Felix is believed to have died about 818. The Frankish annals place Felix's first condemnation in 792",
-  "place": "Toledo, Elipandus's see; Urgell, on a ridge of the Pyrenees, Felix's see, by the Frankish annals; Regensburg, Rome, Frankfurt and Aachen, where Felix was heard; Lyon, where Froben says Felix was kept after 799",
+  "knownFor": "Two bishops of Spain, Elipandus archbishop of Toledo and Felix bishop of Urgell, who taught that Christ in his humanity is the adoptive Son of God. The council of Frankfurt condemned the teaching in 794 as the heresy of both. Felix submitted at Aachen in 799. Elipandus, Alcuin says in a letter Froben dates to 800, still held it.",
+  "dates": "Late eighth century. Heterius and Beatus date Elipandus's letter to the abbot Fidelis to October of the Spanish era 823, which a note in J.-P. Migne's volume reckons as 785. Elipandus says in a letter to Felix that he had entered his eighty-second year; the letter carries no year. Froben, Alcuin's editor, reckons his birth to 717, and with Madrisi places his death in 809 or the year after, and says Felix is believed to have died about 818. The Frankish annals place Felix's first condemnation in 792",
+  "place": "Toledo, Elipandus's see; Urgell, on a ridge of the Pyrenees, Felix's see, by the Frankish annals; Regensburg, Rome and Aachen, where Felix was heard; Frankfurt, where the council condemned the teaching; Lyon, where Froben says Felix was kept after 799",
   "tradition": "Mozarabic Christianity; Carolingian Reform Christianity",
   "role": "Bishops: Elipandus, archbishop of Toledo; Felix, bishop of Urgell. Condemned as Adoptionists by their opponents",
-  "briefLength": "about 2 minutes",
+  "briefLength": "about 2 minutes 30 seconds",
   "keyWorks": [
     {
       "title": "Letters of Elipandus",
-      "about": "five letters: against Migetius, to the bishops of Gaul, to Charlemagne, to Alcuin and to Felix. Held in Latin in Patrologia Latina 96. His letter to Fidelis survives only as Heterius and Beatus quote it"
+      "about": "four letters, against Migetius, to Charlemagne, to Alcuin and to Felix, held in Latin in Patrologia Latina 96. His letter to the abbot Fidelis survives only as Heterius and Beatus quote it. A letter of the bishops of Spain to the bishops of Gaul, which Froben gives to Elipandus and his fellow bishops, is in Patrologia Latina 101"
     },
     {
       "title": "Confession of faith, by Felix",
@@ -42,10 +42,10 @@
     "What adoptive meant. Elipandus says Christ is adoptive only in the form of a servant, not in the substance of his divinity, and that he is one person in two natures. Hadrian and Alcuin read the teaching as two sons and liken it to Nestorius.",
     "The Toledo prayers. Elipandus cites the mass of the Lord's Supper for the passion of the adoptive man. Marius Férotin's manuscript reads instead the adoption of his birth, and he notes that Elipandus did not quote it as his codex has it.",
     "Who taught whom. The Frankish annals say Elipandus asked Felix by letter and Felix answered adoptive. A late Life of Beatus has Felix teach Elipandus as a boy. Jean Mabillon names Dungal as calling Felix the master of the error.",
-    "Whether Felix's submission held. Felix writes that he returned without pretence, as he had not some time before, and repents of an oath he once broke. Froben says Alcuin did not doubt him afterward. Agobard of Lyon, in a book not held and known through Froben, says Felix went on teaching some of it, and Ado of Vienne, through Nicolás Antonio, says he died unrepentant.",
-    "Whether Elipandus repented. Only forged chronicles say so. Nicolás Antonio and Froben reject them, and Alcuin says he still held his view in 800.",
-    "The years of both men. Elipandus's eighty-second year depends on when his letter to Felix was written, which Madrisi put in 792 and Froben after 799. Froben's figure of nearly fifty years as bishop does not fit his own dates of about 780 to 809.",
-    "Whether the setting under Muslim rule shaped the teaching. Nicolás Antonio suggests it with a perhaps. No held text of their time says so."
+    "Whether Felix's submission held. Felix writes that he returned without pretense, as he had not some time before, and repents of an oath he once broke. Froben says Alcuin did not doubt him afterward. Agobard of Lyon, in a book that is not held, says Felix still taught some people his errors and held to them to the end; Froben reports it. Ado of Vienne, through Nicolás Antonio, says he died unrepentant.",
+    "Whether Elipandus repented. Only forged chronicles say so. Nicolás Antonio and Froben reject them, and Alcuin, in a letter Froben dates to 800, says he still held his view.",
+    "The years of both men. Elipandus's eighty-second year depends on when his letter to Felix was written, which Madrisi, the editor of Paulinus of Aquileia, put in 792 and Froben after 799.",
+    "Whether the setting under Muslim rule shaped the teaching. Nicolás Antonio puts the error down to the ignorance of a people under Saracen rule, and adds that the two bishops were perhaps touched by the Muslims around them. No held text of their time says so."
   ],
   "sources": {
     "ownWords": [

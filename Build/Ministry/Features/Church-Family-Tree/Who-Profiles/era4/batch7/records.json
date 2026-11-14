@@ -466,8 +466,8 @@
     "formation_confidence": "Documented"
    },
    {
-    "claim": "Elipandus to Alcuin: \"novo Ario\"; \"quae novum Arium, id est Albinum, genuisti\"; Beatus \"Antifrasius\"",
-    "witness": "PL96 (ildefonsus-julian-toledo-pl96-lat_migne1862.txt) l.71811-71814, 72598-72599, 71660, 71713-71714",
+    "claim": "Elipandus to Alcuin: \"novo Ario\"; \"quae novum Arium, id est Albinum, genuisti\"",
+    "witness": "PL96 (ildefonsus-julian-toledo-pl96-lat_migne1862.txt) l.71811-71814, 72598-72599",
     "formation_confidence": "Documented"
    },
    {
@@ -486,17 +486,17 @@
     "formation_confidence": "Documented"
    },
    {
-    "claim": "Froben, reporting Agobard: Felix \"adhuc vivens nonnullos docuerit\"; Froben: \"simulatam conversionem eventus docuit\"; \"Felix obiisse creditur circa an. 818\"",
+    "claim": "Froben, reporting Agobard: Felix \"adhuc vivens nonnullos docuerit\" (taught some people); a note he left showed he kept his errors to the end; Froben: \"simulatam conversionem eventus docuit\"; \"Felix obiisse creditur circa an. 818\"",
     "witness": "ALC (alcuin_opera-omnia-letters_migne-pl100-101_1863.txt) l.24319-24331, 24385-24387",
     "formation_confidence": "Contested"
    },
    {
-    "claim": "Alcuin, 800, as Froben quotes: Elipandus \"in damnata synodali auctoritate et apostolica censura haeresi permanet\"",
-    "witness": "ALC (alcuin_opera-omnia-letters_migne-pl100-101_1863.txt) l.25289-25291",
+    "claim": "Alcuin, in a letter Froben dates to 800 (\"Certe anno 800\"): Elipandus \"in damnata synodali auctoritate et apostolica censura haeresi permanet\"",
+    "witness": "ALC (alcuin_opera-omnia-letters_migne-pl100-101_1863.txt) l.25282-25291",
     "formation_confidence": "Documented"
    },
    {
-    "claim": "Froben's dates: born \"717\"; \"Obiit ... anno 809 vel sequenti, post annos nimirum prope 50 regiminis episcopalis, quod adeptus est circa annum 780\" (the fifty does not fit his own dates)",
+    "claim": "Froben's dates: born \"717\"; \"Obiit ... anno 809 vel sequenti, post annos nimirum prope 50 regiminis episcopalis, quod adeptus est circa annum 780\" (the OCR's \"50\" is likely \"30\"; the same pages misread 7 and 9; not used); 809 and 780 are Madrisi's, which Froben adopts",
     "witness": "ALC (alcuin_opera-omnia-letters_migne-pl100-101_1863.txt) l.25381-25402",
     "formation_confidence": "Dominant Modern Reconstruction"
    },
@@ -516,8 +516,8 @@
     "formation_confidence": "Contested"
    },
    {
-    "claim": "Antonio's \"forsan\" on the Muslims: \"contagione forsan insidentium cervicibus aut e proximo blasphemantium Mahometanorum\"",
-    "witness": "PL96 (ildefonsus-julian-toledo-pl96-lat_migne1862.txt) l.70135-70137",
+    "claim": "Antonio: \"ob ignorantiam gementis sub jugo Saracenorum Hispaniae gentis\"; then \"contagione forsan insidentium cervicibus aut e proximo blasphemantium Mahometanorum\"",
+    "witness": "PL96 (ildefonsus-julian-toledo-pl96-lat_migne1862.txt) l.70125-70137",
     "formation_confidence": "Inferential-Thin"
    },
    {
@@ -528,6 +528,41 @@
    {
     "claim": "Alcuin to Leidrad: \"longaeva gravem aetate et religiosae vitae multo tempore famosum\"; \"me falsarium clamans, atque per vices haereticum\" ... \"persecutorem Christianorum\"",
     "witness": "ALC (alcuin_opera-omnia-letters_migne-pl100-101_1863.txt) l.17181-17197",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Elipandus to Charlemagne: \"Antifrasii Beati\"; Felix \"partis nostrae defensorem\"",
+    "witness": "PL96 (ildefonsus-julian-toledo-pl96-lat_migne1862.txt) l.71660, 71705-71714",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Alcuin's seven books against Felix and four against Elipandus",
+    "witness": "ALC (alcuin_opera-omnia-letters_migne-pl100-101_1863.txt) l.113640-113644",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Ardo: Benedict against the \"Felicianum dogma\"",
+    "witness": "PL103 (benedict-aniane_concordia-regularum-with-ardo-vita-pl103-lat_migne1851.txt) l.29230-29235",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Charlemagne's reply, via Antonio: \"quem Antiphrasium cognominastis\"",
+    "witness": "PL96 (ildefonsus-julian-toledo-pl96-lat_migne1862.txt) l.70475-70483",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Forged chronicles of Elipandus's repentance, rejected by Antonio and Froben",
+    "witness": "ALC (alcuin_opera-omnia-letters_migne-pl100-101_1863.txt) l.25292-25300, 25403-25406; PL96 (ildefonsus-julian-toledo-pl96-lat_migne1862.txt) l.70636-70648",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The Spanish bishops' letter: \"Nos indigni et exigui Spaniae praesules\"; Froben gives it to Elipandus and his fellow bishops",
+    "witness": "ALC (alcuin_opera-omnia-letters_migne-pl100-101_1863.txt) l.103916-103925, 23507-23515",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Alcuin: Felix \"veraciter convictus\" (shown to be wrong)",
+    "witness": "ALC (alcuin_opera-omnia-letters_migne-pl100-101_1863.txt) l.18664",
     "formation_confidence": "Documented"
    }
   ],
@@ -563,12 +598,12 @@
   ],
   "absent_details": [
    {
-    "detail": "The deaths of both men",
+    "detail": "The year either man died",
     "note": "No source of their own time gives them. Froben's 809 and 818 are reckonings. Searched all cic/texts for Elipand-, Helipand-, Felix with Urgel/Orgel, obiit and mortuus nearby."
    },
    {
-    "detail": "Agobard of Lyon and Paulinus of Aquileia against Felix",
-    "note": "Not held; known only through Froben and Nicolás Antonio."
+    "detail": "Agobard of Lyon's book against Felix, and Paulinus of Aquileia",
+    "note": "Not held. Froben reports Agobard's content (ALC l.24319-24331, 29956-29959); Antonio names it (PL96 l.70399-70401); a note of Hilary's editors in PL 10 reports it (l.27383-27385). Paulinus is known only through Froben and Antonio."
    },
    {
     "detail": "Felix's own book to Alcuin",
@@ -652,6 +687,21 @@
     "claim": "The Moselle letter: \"take away from my prisoners the night of sorrow\"; Foulke: \"Probably this refers to the liberation of his brother, though the meaning is not clear\"",
     "witness": "FOULKE (paul-the-deacon_history-of-the-langobards_foulke1907.txt) l.617-643",
     "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Dalton: \"Paul the Deacon (Paul Warnefrid, deacon of Friuli)\"",
+    "witness": "DALTON (gregory-tours_history-of-the-franks-v2_dalton1927.txt) l.26793",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Bones: \"have remained to us, although decayed\"",
+    "witness": "FOULKE (paul-the-deacon_history-of-the-langobards_foulke1907.txt) l.11211-11213",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Homiliary \"possibly commenced about this time, though not completed until after his return to Monte Cassino\"",
+    "witness": "FOULKE (paul-the-deacon_history-of-the-langobards_foulke1907.txt) l.810-815",
+    "formation_confidence": "Dominant Modern Reconstruction"
    }
   ],
   "contested_claims": [
@@ -667,6 +717,20 @@
     "sides": [
      "Dahn: a refuge after 774 (FOULKE l.601-606)",
      "Tamassia: the exile is his detention at court (FOULKE l.606-611)"
+    ]
+   },
+   {
+    "claim": "Whether King Agilulf held the Catholic faith",
+    "sides": [
+     "Paul (FOULKE l.7457-7474)",
+     "Foulke, after Hodgkin: probably mistaken (FOULKE l.7496-7502)"
+    ]
+   },
+   {
+    "claim": "A Catholic and an Arian bishop in almost every city under Rothari",
+    "sides": [
+     "Paul (FOULKE l.9059-9061)",
+     "Foulke, after Hartmann: doubtful (FOULKE l.9084-9086)"
     ]
    }
   ],
@@ -748,7 +812,7 @@
     "formation_confidence": "Documented"
    },
    {
-    "claim": "Migne's placement \"ANNO DOMINI DCX\"; Antonio's notice \"Hujus temporis Paulus ille est Emeriten-is diaco- nus\" and \"ejus sancti pontifieis equalis\"; Tamayo's edition \"1658\"",
+    "claim": "Migne's placement \"ANNO DOMINI DCX\"; Antonio's notice \"Hujus temporis Paulus ille est Emeriten-is diaco- nus\" and \"ejus sancti pontifieis equalis\"; Tamayo's edition, OCR \"1658\" (the same notice's \"1051\" shows the scan misreads 3; the Bollandists print MDCXXXVIII)",
     "witness": "PL80 (paulus-emeritanus-braulio-sisebut-pl80-lat_migne1863.txt) l.8606, 8611-8613, 8624-8627, 8650",
     "formation_confidence": "Inferential-Thin"
    },
@@ -872,6 +936,11 @@
    {
     "claim": "Ethiopic Synaxarium, 13 Hamle; Arabic Synaxary 13 Abib",
     "witness": "ETHSYN (ethiopian-synaxarium_book-of-saints-ethiopian-church-v2-v4-microform_budge1928.txt) l.41015-41027; PO17 (john-ephesus_lives-eastern-saints-po17_brooks1923.txt) l.56921",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Pisentius \"uttered the words of the great John, the Archbishop of Constantinople, saying, 'O the life of peaceful contemplation ! I love it.'\"; Budge's appendix: the three episodes missing from his manuscript",
+    "witness": "BUDGE13 (coptic-apocrypha-upper-egypt-life-of-pisentius_budge1913.txt) l.16728-16731, 18596-18598",
     "formation_confidence": "Documented"
    }
   ],

@@ -4,14 +4,14 @@ Seven profiles, one id each: `symeon-the-new-theologian`, `niketas-stethatos`, `
 
 These are seven WHO rows of the era 4 table in `Build/Ministry/Operations/Audits/2026-11-12_who-scan-supplement/Who_Scan_Supplement.md`, built under Mark's ruling of 2026-11-14 that eras 4 to 7 are built in full. None is a live census person entry, and none was written before.
 
-The coordinator called Symeon the New Theologian major (2026-11-14), as the scan proposes: the hesychasts of the Philokalia read him. His brief runs 405 words, about 2:30. The other six are not major. Niketas Stethatos, Paul the Deacon and Paulus Emeritanus run 341 to 374 words, about 2:06 to 2:19. Paul the Deacon and Paulus Emeritanus are recorders and stay at standard length, as Palladius, John of Ephesus and Gregory of Tours did. Paulus Emeritanus is a recorder with a thin own life: he never names himself in his book, and everything held of his life is in its first chapter and its close. The three paired profiles run 365 to 397 words, about 2:15 to 2:27, since each tells two people.
+The coordinator called Symeon the New Theologian major (2026-11-14), as the scan proposes: the hesychasts of the Philokalia read him. His brief runs 405 words, about 2:30. The other six are not major. Niketas Stethatos, Paul the Deacon and Paulus Emeritanus run 348 to 363 words, about 2:09 to 2:14. Paul the Deacon and Paulus Emeritanus are recorders and stay at standard length, as Palladius, John of Ephesus and Gregory of Tours did. Paulus Emeritanus is a recorder with a thin own life: he never names himself in his book, and everything held of his life is in its first chapter and its close. The three paired profiles run 389 to 399 words, about 2:24 to 2:28, since each tells two people; the worker asked the coordinator to let pairs run to the 2:30 cap (2026-11-14).
 
 ## The pairs
 
 Each pair follows Mark's pairing rule of 2026-11-11: "if two people are tied together in their sources with similar identity its ok to make that a single who".
 - **Cedd and Chad.** Brothers, and both bishops. Bede tells their lives together, through Lastingham, the monastery Cedd founded and Chad ruled after him, and he names the monks of Lastingham as his source for both.
 - **Elipandus of Toledo and Felix of Urgell.** Two bishops condemned together. The council of Frankfurt in 794 names the heresy as both men's, and the sources tell them together. Their teaching is told from Elipandus's own letters and Felix's confession, and their opponents' reading of it is given as their opponents'.
-- **Pisentius of Coptos and John the Elder.** A bishop and the disciple who wrote his Life. John is both the author and a witness inside it, and the Life is the one source for both.
+- **Pisentius of Coptos and John the Elder.** A bishop and the disciple who wrote his Life. John is both the author and a witness inside it. The Life is the one source for John; for Pisentius it is the main one, beside letters to him among the Epiphanius papers, the synaxaries and Abu Salih.
 
 ## Sources found in drafting
 
@@ -37,7 +37,7 @@ The census's names. Four differ from the scan's placing, the worker's calls, to 
 - **Symeon** and **Niketas** read "The Byzantine Imperial Church (Macedonian Era); Athonite & Comnenian Byzantine Monasticism". The scan's "Byzantine monastic and hesychast tradition" is not a census name. The Macedonian entry, 843 to 1054, covers their years. The Athonite entry names Symeon as a voice and tells Niketas in its story, and its status note places Symeon's corpus in its Constantinople half, as batch 5 placed Athanasios the Athonite.
 - **Elipandus and Felix** read "Mozarabic Christianity; Carolingian Reform Christianity". The scan's "Nicene Visigothic Iberia" ends in 711, before their years. Elipandus held Toledo in the Mozarabic entry's years, and Felix was condemned by Frankish councils and kept at Lyon.
 - **Paul the Deacon** reads "Carolingian Reform Christianity". The scan's two entries, Early Benedictine Italian Monasticism (to 604) and the Gothic, Vandal and Lombard Homoian entry (to 680), end before he was born. He served at Charlemagne's court, and no era 4 entry covers Italy or Monte Cassino.
-- **Pisentius and John** read "The Church of Alexandria and Miaphysite Egypt", the census name for the scan's `cyrilline-miaphysite-egyptian-christianity`. Its window, 328 to 642, covers Pisentius's life.
+- **Pisentius and John** read "The Church of Alexandria and Miaphysite Egypt", the census name for the scan's `cyrilline-miaphysite-egyptian-christianity`. Its window, 328 to 642, covers his consecration, which Budge puts between 570 and 603, and the Persian years of the Life.
 
 Cedd and Chad read "Anglo-Saxon Christianity", and Paulus Emeritanus "Nicene Visigothic Iberia", as the scan places them.
 
