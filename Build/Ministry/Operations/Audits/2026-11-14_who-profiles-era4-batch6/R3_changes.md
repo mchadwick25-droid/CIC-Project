@@ -23,3 +23,14 @@ Round 3, the last review round, found one blocking point (R3-1-B1, the Simon I c
 Not taken, as the reviewers left them uncounted: "heads his life" in the Agathon and Isaac briefs (R3-1-M8 note), and "a later Arabic history" as a fleet wording point (R3-1-M3 note).
 
 After the fixes: Isaac 344 words, FK 6.96, Flesch 68.64; Simon 375 words, about 2:19, FK 5.93, Flesch 76.43; Joseph 362 words, FK 7.07, Flesch 66.65; Severus 350 words, FK 6.65, Flesch 71.48. The other four briefs are unchanged.
+
+## After the targeted check (R4)
+
+`R4_cap-check.md` found the fix for R3-1-B1 correct and no blocking point. It found 16 strings CLEAR and 5 minor points. It says the batch is clear once the minor points are applied as worded, with no further round. All were applied as worded, none changing a claim:
+- §5, Simon brief and audio: "The Amir gave him three days." after his answer (PO5 l.2173-2174). The brief is now 381 words, about 2:21, FK 5.80, Flesch 76.97.
+- §6, Simon card `place`: "The Ethiopic Synaxarium, in E. A. Wallis Budge's English, names him Severus of Antioch. Both synaxaria place the monastery west of Alexandria".
+- §7, Simon records: PO5 l.1541-1542 and l.1537-1542. The row now says that Dabra Zegag is read as the Ethiopic form of Az-Zajaj, from the name and from both lying outside, west of, Alexandria. No held line states the equation.
+- §20, Severus brief and audio: "while Severus, bishop of al-Ushmunain in Upper Egypt, stood before the chief judge"; "The bishop was Severus ibn al-Muqaffa, and Renaudot says he was famous for his mastery of Arabic." FK 6.58, Flesch 71.90.
+- §21, the change logs: the R1, R2 and R3 change logs describe the Evetts forms wrongly. Each card names "B. Evetts" at its first prose mention. Later mentions in the same card use "B. Evetts" or "Evetts" ("Evetts's 1895 English", "Evetts's English", "Evetts heads", "Evetts says", "Evetts said", "Evetts's volume"). "B. T. A. Evetts" stays only in the 1895 source title.
+
+Two unchanged-text points the check noted without counting were left as they are: the Simon card's `dates` "heads his life", and "the archdeacon George" in the Alexander card.
