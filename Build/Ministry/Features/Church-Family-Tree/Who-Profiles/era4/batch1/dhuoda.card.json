@@ -1,0 +1,88 @@
+{
+  "name": "Dhuoda",
+  "otherNames": [
+    "Dodana",
+    "Duodana",
+    "Dodane"
+  ],
+  "knownFor": "Frankish noblewoman who wrote at Uzès, from 841, a handbook of Christian conduct for her elder son William. It holds her own verses and her epitaph.",
+  "dates": "Married in 824, in Léopold Delisle's date. Édouard Bondurand reckons from her closing lines that she began the book on 30 November 841. He dates its completion to 2 February 843, where earlier scholars, as he reports, put it in 842. No source used here gives the year of her birth or death",
+  "place": "Uzès, where she wrote the book and where her second son was born; Aachen, where she married in the palace",
+  "tradition": "Carolingian Reform Christianity",
+  "role": "Noblewoman, wife of Bernard, duke of Septimania; author of a handbook of faith and conduct for her son",
+  "briefLength": "about 2 minutes 30 seconds",
+  "keyWorks": [
+    {
+      "title": "Liber manualis (Handbook for William)",
+      "about": "a handbook of Christian conduct in seventy-three chapters, by Léopold Delisle's count, written for her son William. It teaches the love and search for God, honor for his father and loyalty to King Charles the Bald. It also teaches respect for priests, the virtues and the Beatitudes, and prayer for the living and the dead. Édouard Bondurand finds in it quotations from Prudentius and Donatus, a passage of Pliny the Elder retold, and countless passages of the Bible"
+    },
+    {
+      "title": "Verses in the Handbook",
+      "about": "her own lines, which she says she dictated herself, with all the rest. Léopold Delisle found that the first letters of the opening verses spell, in Latin, a greeting from Dhuoda to her beloved son William. They end with a word telling him to read. The first letters of chapter 69 spell, in Latin, verses to William her son. Chapter 68 tells William to read the book and later give it to his younger brother"
+    },
+    {
+      "title": "Her epitaph (chapter 73)",
+      "about": "verses she asked William to have written on her tomb, whose first letters spell her name. They ask passers of every age and sex to pray for her"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Two manuscripts carry the book, Bondurand says. One is a Carolingian fragment from the papers of E. Germer-Durand, bought by the library of Nîmes in 1885. The other is a seventeenth-century copy at Paris, made from a lost manuscript of the abbey of La Grasse.",
+      "Léopold Delisle reports that Mabillon printed the preface, the table and thirteen chapters in 1677. Baluze printed the preface and the closing note in 1688.",
+      "Bondurand's edition of 1887 printed the whole book. Where the Nîmes fragments survive, he prints their text, with the Paris readings in his notes."
+    ],
+    "remembered": [
+      "The authors of the Histoire littéraire de la France, as Bondurand quotes them, called the book a monument of literature and piety. They regretted that only part of it had been printed.",
+      "Bondurand calls it the oldest writing to survive by a woman born on the soil of France.",
+      "John A. McHugh and Charles J. Callan wrote the introduction to their 1923 English Roman Catechism. There they list the manual of Dhuoda, explaining Christian faith and morality, among works of popular instruction from the ninth century on."
+    ]
+  },
+  "uncertain": [
+    "No source used here gives the year of Dhuoda's death. Bondurand thinks she died soon after the book was finished, before her husband and sons met their ends.",
+    "Her family. Léopold Delisle, as Bondurand quotes him, says her origin is unknown. Bondurand notes that she names none of her own kin, though she calls William's descent illustrious on both sides. Her name alone, he adds, would point to the nobility of Septimania. He gives two other women of the name, a Dodana who died before 813 and a Deda of 814. He says that is all that is known of her origin.",
+    "Outside her book, no source of her own time used here names her. Nithard and the Annals of Saint-Bertin name Bernard and William, but not Dhuoda.",
+    "Her birth. In her first chapter she calls herself small and of the lowest birth. Bondurand says it should not be taken literally, since she is hard on herself throughout the book. The words may mean the clay all people are made from.",
+    "A daughter of Charlemagne? The Paris copy has Dhuoda call the late emperor Louis her brother, and some writers made her Charlemagne's daughter. Baluze, Dom Vaissete and Dom Rivet rejected this. The Nîmes fragment reads the late emperor Louis instead, and Léopold Delisle says the idea must be given up.",
+    "When the book was finished. Its closing note gives 2 February with no year. Earlier scholars, Bondurand reports, took this as 842, sixty-four days after she began. Bondurand argues for 843, since the verses of chapter 69 were finished on 30 November 842, when William had turned sixteen.",
+    "Bernard's death. The Annals of Saint-Bertin say only that he was judged guilty of treason by the Franks and put to death on Charles's order. Bondurand gives a later chronicle's story that Charles stabbed him at Saint-Sernin in Toulouse, and calls it the work of popular imagination."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Liber manualis (Le Manuel de Dhuoda), ed. Édouard Bondurand",
+        "author": "Dhuoda",
+        "date": "1887",
+        "language": "Latin",
+        "file": "cic/texts/dhuoda_liber-manualis_bondurand1887.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Introduction, French summaries and Éclaircissements to Le Manuel de Dhuoda, quoting Léopold Delisle and the Histoire littéraire de la France",
+        "author": "Édouard Bondurand",
+        "date": "1887",
+        "language": "French",
+        "file": "cic/texts/dhuoda_liber-manualis_bondurand1887.txt"
+      },
+      {
+        "title": "Histories III.2",
+        "author": "Nithard",
+        "language": "Latin",
+        "file": "cic/texts/nithard_historiarum-libri-iv_pertz-muller1907.txt"
+      },
+      {
+        "title": "Annals of Saint-Bertin, years 844, 848 and 850, ed. Georg Waitz",
+        "author": "Prudentius of Troyes",
+        "language": "Latin",
+        "file": "cic/texts/prudentius-troyes_annales-bertiniani_waitz1883.txt"
+      },
+      {
+        "title": "Translators' introduction to the Catechism of the Council of Trent",
+        "author": "John A. McHugh and Charles J. Callan",
+        "date": "1923",
+        "language": "English",
+        "file": "cic/texts/council-of-trent_roman-catechism_mchugh-callan1923.txt"
+      }
+    ]
+  }
+}

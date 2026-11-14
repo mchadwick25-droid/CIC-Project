@@ -1,0 +1,137 @@
+{
+  "name": "Adomnán of Iona",
+  "otherNames": [
+    "Adamnan",
+    "Adamnanus",
+    "Adomnanus",
+    "Adamanus"
+  ],
+  "knownFor": "Abbot of Iona who wrote the Life of Columba, and a book on the holy places from what Arculf, a bishop from Gaul, told him. Bede says he took up the Roman Easter but could not bring the monks of Iona with him.",
+  "dates": "Born in 624 and abbot of Iona from 679, in Wentworth Huyshe's account. Huyshe says he seems to have stayed in Ireland until 704, then returned to Iona and died soon after. Bede says he died before the year came round after he kept the canonical Easter in Ireland. The Annales Cambriae record his falling asleep in a year their editor, John Williams ab Ithel, sets at 704",
+  "place": "Donegal in Ireland by birth, in Huyshe's account. Iona, as monk and abbot. Northumbria, as envoy to King Aldfrith. Ireland, which Huyshe says he visited in 692 and 697",
+  "tradition": "Medieval Irish Christianity; Insular / Irish Monastic Christianity",
+  "role": "Monk and abbot of Iona; writer of the Life of Columba and of a book on the holy places",
+  "briefLength": "about 2 minutes 30 seconds",
+  "keyWorks": [
+    {
+      "title": "Life of Columba (Vita Columbae), in three books",
+      "about": "a saint's Life of Columba, the founder of Iona. The first book tells his prophecies, the second his miracles, and the third his visions of angels and his death. Adomnán names many of his tellers. Wentworth Huyshe says the third book takes in an earlier book on Columba by Cummene the Fair, abbot of Iona"
+    },
+    {
+      "title": "On the Holy Places (De Locis Sanctis), in three books",
+      "about": "Jerusalem and other holy places as Arculf, a bishop from Gaul, described them. Adomnán's preface says Arculf stayed nine months in Jerusalem and dictated the account to him. Bede says Adomnán gave the book to King Aldfrith, and Bede drew passages from it into his History"
+    },
+    {
+      "title": "Canons under his name (Canones Adomnani)",
+      "about": "short rulings on what meat may be eaten, such as sea creatures cast ashore and beasts that fall from a rock. F. W. H. Wasserschleben says a Saint-Germain manuscript calls them Adomnán's canons. He adds that d'Achery printed them with the chapters of Theodore of Canterbury"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Bede says Adomnán brought many in Ireland to the canonical Easter, almost all who were not under Iona's rule.",
+      "Bede says Iona's own monks took the Catholic Easter after Adomnán's death, under Abbot Dunchad. They were taught by Egbert, an English priest who had long lived in Ireland. Bede's fifth book puts Egbert's coming in 716, and his third book gives 715.",
+      "Bede calls the book on the holy places useful to many readers, and copied passages from it into his History.",
+      "Newport White says Muirchu and Aedh of Sletty signed the acts of the synod Adomnán held at Birr, between 695 and 697.",
+      "A note in the Lebar Brecc, printed by Whitley Stokes, counts Adomnán's rule, not to slay women, among four rules of Ireland. Wentworth Huyshe says Columba, and Adomnán after him, freed women from having to fight beside their husbands and sons."
+    ],
+    "remembered": [
+      "Bede calls him a good and wise man, remarkably learned in Holy Scripture, and a great lover of peace and unity.",
+      "Ceolfrid, abbot of Wearmouth and Jarrow, writes that he found wonderful wisdom, humility and religion in Adomnán's words and behavior. He counts him among those who were holy and worthy of God though they wore that tonsure.",
+      "Alcuin of York wrote verses for an altar of Patrick and other Irish saints. They name Adomnán among its famous fathers, teachers of morals and of life.",
+      "Wentworth Huyshe reports Dr. William Reeves's view that the Life of Columba is one of the most important pieces of hagiology in existence. He also reports George Cormack's remark that Adomnán \"thought in Gaelic and wrote in Latin\"."
+    ]
+  },
+  "uncertain": [
+    "His years and kin come from Wentworth Huyshe's introduction of 1905, which gives them without naming its source. Huyshe reports the view that the Life of Columba was written between Adomnán's visits to Ireland in 692 and 697. The Life is a saint's Life, and its wonders are Adomnán's report.",
+    "The book on the holy places. Bede credits it to Adomnán, and its preface names him as the one Arculf dictated to. L. Cecil Jane, in his notes to Bede, calls it doubtful that Adomnán really wrote the book Bede quotes.",
+    "Adomnán's rule. The Lebar Brecc note calls it cain Adamnan, which Whitley Stokes renders as Adamnan's rule. Its text is not among the sources used here. Newport White ties a synod at Birr to Adomnán, but no source used here says what the synod decreed.",
+    "The canons under his name. F. W. H. Wasserschleben says one manuscript names them Canones Adomnani, and that d'Achery had printed them as chapters of Theodore of Canterbury.",
+    "His Easter. Bede, who held to the Roman reckoning, tells his change of mind as a turn to the truth. Bede says God so ordered it that he died before Easter came round again. So this lover of peace did not have to quarrel more seriously with those who would not follow him. Ceolfrid says he would also have changed his tonsure if his authority had reached that far.",
+    "The annals from the Book of Leinster, as Whitley Stokes prints them, say Adomnán brought the captives to Ireland. Stokes sets the entry at 693. No source used here says whose captives they were.",
+    "His name. He is a different man from Adamnan, the Irish monk of Coldingham whom Bede tells of in his fourth book."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "The Life of Saint Columba (English tr. Wentworth Huyshe, 1905)",
+        "author": "Adomnán of Iona",
+        "language": "English translation",
+        "file": "cic/texts/adomnan_life-of-saint-columba_huyshe1905.txt"
+      },
+      {
+        "title": "Life of Columba and On the Holy Places, from the account of Arculf, in Patrologia Latina 88",
+        "author": "Adomnán of Iona",
+        "language": "Latin",
+        "file": "cic/texts/regula-magistri-cresconius-pl88-lat_migne1862.txt"
+      },
+      {
+        "title": "Canones Adomnani (attributed), in Die Bussordnungen der abendländischen Kirche",
+        "author": "Adomnán of Iona (attributed)",
+        "language": "Latin",
+        "file": "cic/texts/wasserschleben_die-bussordnungen-der-abendlaendischen-kirche-lat-deu_1851.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Ecclesiastical History of the English People, Books V.15, V.21, with Ceolfrid's letter to King Naitan, and V.22 (English tr. J. A. Giles, rev. L. C. Jane)",
+        "author": "Bede",
+        "language": "English translation",
+        "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt"
+      },
+      {
+        "title": "Historia ecclesiastica gentis Anglorum, Book V.15, ed. Charles Plummer",
+        "author": "Bede",
+        "language": "Latin",
+        "file": "cic/texts/bede_opera-historica-v1-historia-abbatum-lat_plummer1896.txt"
+      },
+      {
+        "title": "Introduction and notes to the Life of Saint Columba",
+        "author": "Wentworth Huyshe",
+        "date": "1905",
+        "language": "English",
+        "file": "cic/texts/adomnan_life-of-saint-columba_huyshe1905.txt"
+      },
+      {
+        "title": "Notes to Bede's Ecclesiastical History",
+        "author": "L. Cecil Jane",
+        "date": "1903",
+        "language": "English",
+        "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt"
+      },
+      {
+        "title": "Introduction to Muirchu's Life, in St. Patrick, His Writings and Life",
+        "author": "Newport J. D. White",
+        "date": "1920",
+        "language": "English",
+        "file": "cic/texts/patrick_writings-and-life-with-muirchu-eng_white1920.txt"
+      },
+      {
+        "title": "Note from the Lebar Brecc and Annals from the Book of Leinster, in The Tripartite Life of Patrick, volume 2",
+        "author": "Whitley Stokes (editor and translator)",
+        "date": "1887",
+        "language": "Irish and Latin with English translation",
+        "file": "cic/texts/stokes_tripartite-life-of-patrick-v2-lat-muirchu-tirechan-confession_1887.txt"
+      },
+      {
+        "title": "Note on the Canones Adomnani, in Die Bussordnungen der abendländischen Kirche",
+        "author": "F. W. H. Wasserschleben",
+        "date": "1851",
+        "language": "German",
+        "file": "cic/texts/wasserschleben_die-bussordnungen-der-abendlaendischen-kirche-lat-deu_1851.txt"
+      },
+      {
+        "title": "Annales Cambriae (ed. John Williams ab Ithel)",
+        "author": "Anonymous Welsh annalists",
+        "date": "1860",
+        "language": "Latin",
+        "file": "cic/texts/annales-cambriae-rolls-series-20-lat_williams-ab-ithel1860.txt"
+      },
+      {
+        "title": "Verses for an altar of Patrick and other Irish saints, in Patrologia Latina 101",
+        "author": "Alcuin of York",
+        "language": "Latin",
+        "file": "cic/texts/alcuin_opera-omnia-letters_migne-pl100-101_1863.txt"
+      }
+    ]
+  }
+}

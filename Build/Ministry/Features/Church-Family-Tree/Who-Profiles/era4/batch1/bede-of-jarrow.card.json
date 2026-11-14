@@ -1,0 +1,140 @@
+{
+  "name": "Bede",
+  "otherNames": [
+    "The Venerable Bede",
+    "Beda",
+    "Baeda"
+  ],
+  "knownFor": "Monk and priest of Wearmouth and Jarrow who wrote the Ecclesiastical History of the English nation. He also wrote commentaries on many books of the Bible, drawn from the Fathers, and books on nature and the reckoning of time.",
+  "dates": "Born, Charles Plummer reckons, in 672 or 673; L. Cecil Jane gives about 673. Bede wrote the close of his History in his fifty-ninth year, he says, and its last annals reach 731. Plummer holds that he died on the eve of Ascension Day in 735; other chronicles give 734",
+  "place": "Wearmouth and Jarrow, the monastery of Saints Peter and Paul in Northumbria, on whose land he was born, he says. Plummer finds him also at Lindisfarne, and at York with Egbert of York in 733",
+  "tradition": "Anglo-Saxon Christianity",
+  "role": "Monk, priest, teacher and historian; writer on Scripture and on the reckoning of time",
+  "briefLength": "about 2 minutes 30 seconds",
+  "keyWorks": [
+    {
+      "title": "Ecclesiastical History of the English Nation",
+      "about": "five books on the church of Britain, and above all of the English, finished in 731 and sent to King Ceolwulf of Northumbria. In its preface Bede names the people who sent him his facts, among them Abbot Albinus of Canterbury and the London priest Nothelm"
+    },
+    {
+      "title": "Life of Cuthbert",
+      "about": "the monk and bishop of Lindisfarne, first in verse and then in prose, Bede's own list says"
+    },
+    {
+      "title": "On the Times",
+      "about": "his book on reckoning time. In the History he says he proved there that Aidan of Lindisfarne kept Easter wrongly. Plummer dates it to 703 and reports that a charge of heresy was later brought against Bede over it. The list of his works also names a larger book on the Times"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Alcuin of York, in his poem on the bishops and saints of York, says Bede's parents placed him at seven in the monastery of Jarrow. There, Alcuin says, he became a master and wrote on Scripture, on metre, on time and on history.",
+      "In his seven books against Felix of Urgel, Alcuin cites blessed Bede the priest on the Acts of the Apostles and on the Song of Songs.",
+      "The Welsh annals note his death in three words, \"Beda presbyter dormit\": Bede the priest falls asleep. John Williams ab Ithel, who edited them, says that one manuscript of the annals, under 735, credits Bede with compiling its chronicle year by year.",
+      "L. Cecil Jane says King Alfred paraphrased the History into Anglo-Saxon, and that it was first printed in England at Cambridge in 1643.",
+      "An English Lollard tract still leans on Bede. With him and with Gregory the Great, it says the signs of miracles were needed only at the church's beginning. We water plants until they have taken root, it says, and then stop."
+    ],
+    "remembered": [
+      "Rome honors him. The Roman Breviary keeps Bede the Venerable on 27 May as Confessor and Doctor of the Church. An English Roman Missal of 1843 gives, under 29 October, a prayer to God who enlightened his church by the learning of blessed Bede.",
+      "Charles Plummer says the name Venerable dates from the ninth century, and was a common title for priests. He retells two legends of how Bede earned it, one with angels answering his sermon and one with an angel finishing his epitaph.",
+      "Plummer notes that Dante places Bede beside Isidore of Seville in Paradise.",
+      "In the Breviary's lessons for Theodore of Tarsus, the Venerable Bede is quoted saying that brighter times never shone on England than under Theodore."
+    ]
+  },
+  "uncertain": [
+    "The year of his death. Charles Plummer holds to 735, which the earliest northern witnesses give. He says 734 is the date of all the manuscripts of the Saxon Chronicle and of several other chronicles. He sets aside the case of Lumby and Mayor for 742, and the earlier years some foreign chronicles give. The letter of Cuthbert, Bede's pupil, places the death on the Wednesday before Ascension Day, after a day of dictation. Its manuscripts differ on the day of the month.",
+    "What he was translating. L. Cecil Jane says he had just finished translating the Gospel of John. Plummer prints Cuthbert's letter from a manuscript at St. Gallen. In it, Bede translated the Gospel into English from the beginning to the words \"but what are they among so many?\" The ordinary text names the Gospel of John without that limit. Plummer finds the limit hard to square with the one chapter and one sentence left at the end.",
+    "His age and birth. Jane says he died at sixty-two. Plummer reckons his birth from Bede's own words as 672 or 673, and notes later chroniclers who put it in 674, 677 or 678.",
+    "The boy in the plague. The anonymous History of the Abbots does not name the small boy who sang the services with Ceolfrid. Plummer identifies him as Bede, noting that Bede, who takes much from that History, leaves the story out.",
+    "Travel. Plummer rejects the claim that Bede went to Rome, which rests on a doubtful reading in a letter of Pope Sergius. He finds Bede at Lindisfarne and at York. Jane says a tradition that made him a professor at Cambridge has no foundation.",
+    "The charge of heresy is known here only from Plummer, who quotes Bede's Letter to Plegwin. The letter itself is not among the sources used here.",
+    "Bede means to be fair but does not hide his side. He praises the peace, humility and care for the poor of Aidan of Lindisfarne, while rejecting his Easter, writing \"like an impartial historian.\" He defends Aidan against those who said he kept Easter on the fourteenth moon like the Jews. Of the Britons he writes that most of them, through innate hatred, oppose the English and the appointed Easter.",
+    "His name. The Cuthbert who wrote of his death was his pupil, later abbot of Wearmouth and Jarrow in Plummer's account. He is a different man from Cuthbert of Lindisfarne, the monk and bishop whose Life Bede wrote."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "The Ecclesiastical History of the English Nation, with Bede's own account of his life and list of his works (tr. J. A. Giles, ed. L. Cecil Jane)",
+        "author": "Bede",
+        "date": "1903",
+        "language": "English translation",
+        "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt"
+      },
+      {
+        "title": "Historia ecclesiastica gentis Anglorum, in Venerabilis Baedae Opera historica, volume 1",
+        "author": "Bede",
+        "language": "Latin",
+        "file": "cic/texts/bede_opera-historica-v1-historia-abbatum-lat_plummer1896.txt"
+      },
+      {
+        "title": "Life of Cuthbert, in prose, with its prologue to Bishop Eadfrith, in Acta Sanctorum, March, volume 3",
+        "author": "Bede",
+        "language": "Latin",
+        "file": "cic/texts/acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Letter on the death of Bede (De Obitu Baedae), to Cuthwin, in Latin in Plummer's Appendix II and in English in his Introduction",
+        "author": "Cuthbert, Bede's pupil",
+        "language": "Latin, with English translation",
+        "file": "cic/texts/bede_opera-historica-v1-historia-abbatum-lat_plummer1896.txt"
+      },
+      {
+        "title": "Introduction, Part I: Bede's Life and Works, and its appendices, in Venerabilis Baedae Opera historica, volume 1",
+        "author": "Charles Plummer",
+        "date": "1896",
+        "language": "English",
+        "file": "cic/texts/bede_opera-historica-v1-historia-abbatum-lat_plummer1896.txt"
+      },
+      {
+        "title": "Anonymous History of the Abbots, section 14, as Plummer translates it in his Introduction",
+        "author": "Anonymous",
+        "language": "English translation",
+        "file": "cic/texts/bede_opera-historica-v1-historia-abbatum-lat_plummer1896.txt"
+      },
+      {
+        "title": "Biographical Notice and Notes, at the close of the 1903 edition of the Ecclesiastical History",
+        "author": "L. Cecil Jane",
+        "date": "1903",
+        "language": "English",
+        "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt"
+      },
+      {
+        "title": "Poem on the bishops, kings and saints of the church of York, in Patrologia Latina 100-101",
+        "author": "Alcuin of York",
+        "language": "Latin",
+        "file": "cic/texts/alcuin_opera-omnia-letters_migne-pl100-101_1863.txt"
+      },
+      {
+        "title": "Seven books against Felix of Urgel, in Patrologia Latina 100-101",
+        "author": "Alcuin of York",
+        "language": "Latin",
+        "file": "cic/texts/alcuin_opera-omnia-letters_migne-pl100-101_1863.txt"
+      },
+      {
+        "title": "Annales Cambriae, with the editor's preface",
+        "author": "John Williams ab Ithel (ed.)",
+        "date": "1860",
+        "language": "Latin",
+        "file": "cic/texts/annales-cambriae-rolls-series-20-lat_williams-ab-ithel1860.txt"
+      },
+      {
+        "title": "The Roman Breviary, calendar for 27 May and lessons for Theodore of Tarsus (tr. the Marquess of Bute)",
+        "language": "English translation",
+        "file": "cic/texts/roman-breviary_bute1908.txt"
+      },
+      {
+        "title": "The Roman Missal, collect for the Venerable Bede (tr. John England)",
+        "date": "1843",
+        "language": "English translation",
+        "file": "cic/texts/roman-missal_england1843.txt"
+      },
+      {
+        "title": "An Apology for Lollard Doctrines",
+        "author": "Anonymous Lollard writer",
+        "language": "Middle English",
+        "file": "cic/texts/apology-for-lollard-doctrines_todd1842.txt"
+      }
+    ]
+  }
+}
