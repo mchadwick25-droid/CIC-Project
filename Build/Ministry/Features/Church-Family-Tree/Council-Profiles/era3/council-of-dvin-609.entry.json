@@ -4,8 +4,7 @@
   "kindLabel": "Major council",
   "era": 3,
   "name": "Council of Dvin",
-  "shortName": "Dvin, about 609",
-  "informalName": "The council of the Armenian–Georgian break",
+  "shortName": "Dvin, between 596 and 609",
   "dates": "c. 596–609",
   "start": 596,
   "end": 609,
@@ -21,14 +20,14 @@
   "rivers": [
     "Caucasus"
   ],
-  "teaser": "Dvin, about 609. The Armenian catholicos Abraham and his bishops cursed Kyrion, head of the Georgian church, and all who accepted the Council of Chalcedon, and the two churches parted.",
+  "teaser": "Dvin, between 596 and 609. The Armenian catholicos Abraham and his bishops cursed Kyrion, head of the Georgian church, and all who accepted the Council of Chalcedon, and the two churches parted.",
   "knownFor": "The synod at Dvin, dated 609 by Malachia Ormanian and 596 by Marie-Félicité Brosset, at which the Armenian church cursed the Georgian catholicos Kyrion for accepting Chalcedon, so that the two churches of the Caucasus parted.",
-  "datesNote": "The year is disputed and no ancient witness held gives it. Malachia Ormanian has Abraham elected catholicos on 30 April 607 and presiding at the council against the Georgians in 609. Marie-Félicité Brosset, in a note of 1876 to Samuel of Ani, puts the council in 596. James Issaverdens gives no year for the synod",
+  "datesNote": "The year is disputed and no ancient witness held gives it. Malachia Ormanian has Abraham elected catholicos on 30 April 607 and presiding at the council against the Georgians in 609. Marie-Félicité Brosset, in a note of 1876 to Samuel of Ani, puts the council in 596. James Issaverdens gives no year for the synod, but sets Abraham's accession in a year of the 590s whose last digit is lost in the print, and has Kyrion appeal to the emperor Maurice; Stephen of Taron also sets Abraham's quarrel under Maurice. James Barmby dates the accession of Maurice's successor, Phocas, to November 602",
   "issue": [
     "Kyrion, catholicos of the Iberians, had been consecrated by the Armenian catholicos Movses (Stephen of Taron). James Issaverdens says the Georgians, unable to agree on a successor, asked Movses to choose for them, and he chose Kyrion, a Georgian already a bishop in Armenia.",
     "Shortly before Movses died, Kyrion came to doubt the orthodox faith, as Stephen puts it, and accepted the Council of Chalcedon. Movses often rebuked him, without success (Stephen of Taron).",
     "Malachia Ormanian says Kyrion meant to secede from the Armenian see and join that of Constantinople \"in order to win the imperial favour\". Issaverdens says Kyrion had Chalcedon's acts and Leo's Tome brought from Constantinople and translated.",
-    "On one side stood the Armenian church under Vertanes, who ran it after Movses's death, and then Abraham; on the other, Kyrion and the Georgian church. Kyrion's view reaches us only in Issaverdens's report of his reply: \"I am astonished that you are at variance with all other churches of Christ, which declare that the creed of the Council of Chalcedon is precisely the same with that of the three other councils.\""
+    "On one side stood the Armenian church under Vertanes, who ran it after Movses's death, and then Abraham; on the other, Kyrion and the Georgian church. Kyrion's words reach us only in the report of James Issaverdens, who praises his learning and piety: \"I am astonished that you are at variance with all other churches of Christ, which declare that the creed of the Council of Chalcedon is precisely the same with that of the three other councils.\""
   ],
   "calledBy": "Abraham, catholicos of Armenia, by the account of James Issaverdens; Ormanian says Abraham presided",
   "attended": [
@@ -72,7 +71,7 @@
     "Stephen of Taron says the emperor Maurice set up a separate catholicos, Yohan, over the Greek part of Armenia, while Abraham resided at Dvin.",
     "Sebeos, an Armenian bishop of the 600s, tells of a debate before the Persian king Khosrow in which the catholicos of Georgia and Albania, with many bishops of the Greek region, took Chalcedon's side.",
     "Ormanian, from the Armenian side, says the event had \"unpleasant consequences for the Georgian Church\" under Russian rule in the nineteenth century, when that church was absorbed by the Russian one.",
-    "Brosset wrote in 1849 that the Georgians parted from the Armenians in religion for ever, dating the turn to the Greeks to about 580."
+    "Brosset, drawing on the Armenian historian Chamich, wrote in 1849 that from about 580 the Georgians drew near the Greeks and parted from the Armenians in religion for ever."
   ],
   "record": [
     {
@@ -91,6 +90,11 @@
       "note": "An Armenian historian writing around 1000; on the Armenian side. He tells Kyrion's consecration, his turn to Chalcedon and Abraham's anathema, with no council named and no date."
     },
     {
+      "witness": "Samuel of Ani, Chronological Tables, as quoted in Brosset's note",
+      "kind": "later narrative",
+      "note": "A twelfth-century Armenian chronicler, on the Armenian side: the Iberians, having adopted the heresy of Chalcedon, separated. Brosset calls the chronology of that entry wholly wrong."
+    },
+    {
       "witness": "Malachia Ormanian, The Church of Armenia (1912)",
       "kind": "modern reconstruction",
       "note": "A former Armenian patriarch of Constantinople; the Armenian church's own account. Gives 607 for Abraham's election and 609 for the council."
@@ -98,12 +102,17 @@
     {
       "witness": "James Issaverdens, Armenia and the Armenians, vol. 2 (Venice, 1875)",
       "kind": "modern reconstruction",
-      "note": "Of the Armenian academy of St Lazarus in Venice. The only held source for the letters, Kyrion's reply and the appeal to Maurice; he names no sources."
+      "note": "A priest of the Mekhitarist monastery of San Lazzaro in Venice, a house founded, Ormanian says, under the auspices of Catholicism; his book is a sketch for visitors. Favourable to Kyrion, whom he calls a most learned and pious man. The only held source for the letters, Kyrion's reply and the appeal to Maurice; he names no sources."
     },
     {
       "witness": "Marie-Félicité Brosset, notes to the Georgian chronicle (1849) and to Samuel of Ani (1876)",
       "kind": "modern reconstruction",
       "note": "The French historian of Georgia. Puts the council at Dvin in 596 and the Georgian turn to the Greeks about 580; the Georgian chronicle he translates does not name Kyrion."
+    },
+    {
+      "witness": "Gregory the Great, letter to Quiricus and the Catholic bishops in Hiberia (Register XI.52)",
+      "kind": "later narrative",
+      "note": "Dated 601 by its editors, who place it in the eastern, Pontic Iberia rather than Ireland or Spain but do not name Kyrion. It answers how returning Nestorians are to be received, and shows Rome in touch with a Catholic bishop of Iberia in Kyrion's time."
     }
   ],
   "people": [
@@ -128,13 +137,13 @@
       "part": "Ran the Armenian see after Movses's death; by Issaverdens, refused the Constantinople decision"
     }
   ],
-  "briefLength": "about 2 minutes 15 seconds",
+  "briefLength": "about 2 minutes 20 seconds",
   "uncertain": [
-    "No record of the council and no letter between Abraham and Kyrion is held. Every witness is Armenian or a modern historian; the Georgian side reaches us only through its opponents, and the Georgian chronicle in Brosset's French does not name Kyrion.",
-    "The year: 609 for Ormanian, with Abraham elected on 30 April 607; 596 for Brosset in 1876, who calls the chronology of one edition of Samuel of Ani wholly wrong; no year in Issaverdens or Stephen of Taron. Brosset in 1849 dates a letter of Abraham to 595, and Frédéric Macler's notes to Sebeos give Abraham's years in a garbled line.",
+    "No record of the council and no letter between Abraham and Kyrion is held. The synod at Dvin is told only by modern writers: Issaverdens in 1875, Brosset in 1876 and Ormanian in 1912. Stephen of Taron, writing around 1000, tells Abraham's anathema but names no council and gives no year. Kyrion's own words reach us only through Issaverdens, who is favourable to him; the Georgian chronicle in Brosset's French does not name him.",
+    "The year: 609 for Ormanian, with Abraham elected on 30 April 607; 596 for Brosset in 1876, who calls the chronology of one edition of Samuel of Ani wholly wrong; no year for the synod in Issaverdens or Stephen of Taron, though both set Abraham's quarrel under the emperor Maurice, whose successor Phocas, by James Barmby's date, took the throne in November 602. Brosset in 1849 dates a letter of Abraham to 595, and Frédéric Macler's notes to Sebeos give Abraham's years in a garbled line.",
     "Kyrion's reply and the letters come only from Issaverdens, who names no source.",
     "The appeal to the emperor Maurice and the meeting at Constantinople come only from Issaverdens.",
-    "Whether a letter of Gregory the Great to Quiricus, a bishop in Hiberia, concerns Kyrion: its editors do not say so, and incline to Pontic Iberia."
+    "Whether Gregory the Great's letter of 601 to Quiricus, a bishop in Hiberia, is to Kyrion: its editors do not name him, but place the letter in the eastern, Pontic Iberia rather than Ireland or Spain."
   ],
   "sources": {
     "writtenLater": [
@@ -179,6 +188,18 @@
         "author": "trans. F. J. Hamilton and E. W. Brooks",
         "language": "English translation",
         "file": "cic/texts/zachariah-rhetor_chronicle_hamiltonbrooks1899.txt"
+      },
+      {
+        "title": "Registrum epistolarum, Book XI, no. 52",
+        "author": "Gregory the Great, ed. Ewald and Hartmann",
+        "language": "Latin",
+        "file": "cic/texts/gregory-great_registrum-epistolarum-t2-pars2-libri-10-14-lat_ewald-hartmann1895.txt"
+      },
+      {
+        "title": "Letters (note on the accession of Phocas)",
+        "author": "Gregory the Great, trans. James Barmby",
+        "language": "English translation",
+        "file": "cic/texts/npnf212_leo-great-gregory-great.xml"
       }
     ]
   }

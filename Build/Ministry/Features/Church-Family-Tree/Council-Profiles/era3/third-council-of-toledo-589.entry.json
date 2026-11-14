@@ -27,17 +27,17 @@
   "datesNote": "589. The acts date the council to the eighth day before the Ides of May, era 627, in Reccared's fourth year. The year 589 is given by Henry Percival and James Barmby; no held ancient witness gives an anno Domini year",
   "issue": [
     "The Visigothic kings and their bishops held the Homoian faith, which the acts and every held witness call Arian. King Leovigild's envoy Agilan told Gregory of Tours that it \"was a wrong opinion of the ancient bishops which asserted the Son equal to the Father\" (Gregory of Tours, History V.43, a hostile report).",
-    "Under Leovigild a synod of his bishops at Toledo ruled that those coming over from the Roman religion to \"our catholic faith\", as they called their own, need not be baptized again, only receive the laying on of hands and communion (John of Biclaro, under Leovigild's twelfth year). The acts later condemn a booklet of that year, with its doxology \"Glory to the Father through the Son in the Holy Spirit\", as having drawn Romans to the Arian side.",
-    "Reccared became Catholic in the tenth month of his first year, John of Biclaro says. Gregory of Tours tells instead of a debate between the bishops of the two sides, after which the king received chrism. Reccared told the council it was \"not many days\" after his father's death (the acts).",
+    "Under Leovigild a synod of his bishops at Toledo ruled that those coming over from the Roman religion to what it called \"nostram catholicam fidem\", our catholic faith, need not be baptized again, only receive the laying on of hands and communion (John of Biclaro, under Leovigild's twelfth year). The acts later condemn a booklet of that year, with its doxology \"gloria Patri per Filium in Spiritu Sancto\", glory to the Father through the Son in the Holy Spirit, as having drawn Romans to the Arian side.",
+    "Reccared became Catholic in the tenth month of his first year, John of Biclaro says. Gregory of Tours tells instead of a debate between the bishops of the two sides, after which the king received chrism. Reccared told the council it was not many days after his father's death (the acts).",
     "On one side stood the king, the Catholic bishops of Spain and Gaul, and the Gothic bishops, clergy and nobles who turned with him; on the other, those who kept the Homoian faith. John of Biclaro tells of plots by the Arian bishops Sunna and Uldila, and by Leovigild's widow, Goswintha."
   ],
   "calledBy": "King Reccared. The acts say he had ordered all the bishops of his realm to meet, and John of Biclaro that the synod gathered \"praecepto principis\", at the king's command",
   "attended": [
     "Sixty-two bishops, by the heading of the held Latin text and by the text of John of Biclaro in Migne; Theodor Mommsen's text of John reads seventy-two.",
-    "In the held list, as counted for this profile, sixty-two bishops sign in person and five more through deputies, one bishop also signing for an absent colleague. The scan is damaged in two places.",
+    "The signed list has sixty-two bishops in person and five who signed through deputies; one bishop also signs for an absent colleague. Two places in the printed text are damaged.",
     "The bishops came from all Spain and Gaul, the acts say: the Gaul of the Visigothic kingdom, with Narbonne, Béziers and Agde among its sees.",
     "Masona of Mérida signs first after the king, then Euphemius of Toledo and Leander of Seville. Eight former Arian bishops sign the profession and the canons, among them Ugnas of Barcelona and Murila of Valencia.",
-    "Queen Baddo signs the king's book of faith; Gothic nobles sign the profession, and \"all the seniors of the Goths\" with them (the acts)."
+    "Queen Baddo signs the king's book of faith; Gothic nobles sign the profession, and all the elders of the Goths with them (the acts)."
   ],
   "traditions": [
     {
@@ -56,7 +56,7 @@
       "id": "homoian-arian-christianity",
       "name": "Homoian ('Arian') Christianity",
       "part": "Condemned",
-      "note": "The acts anathematize anyone who still desires to hold 'the faith and communion coming from Arius'; John of Biclaro says the Arian heresy, condemned at Nicaea with its roots left in, was cut out by the roots at Toledo."
+      "note": "The acts anathematize anyone who still desires to hold the faith and communion that came from Arius; John of Biclaro says the Arian heresy, condemned at Nicaea with its roots left in, was cut out by the roots at Toledo."
     },
     {
       "id": "roman-church-gregorian",
@@ -66,8 +66,8 @@
     }
   ],
   "decided": [
-    "The king's book of faith was received from him and read aloud by a notary. It confesses the Father, Son and Holy Spirit as one substance and the Holy Spirit as proceeding \"a Patre et Filio\", from the Father and the Son; it condemns Arius with all his teaching. Reccared and Queen Baddo signed it (the acts). O. M. Dalton, translating Gregory of Tours, says the speech was composed by Leander.",
-    "The Gothic bishops, clergy and nobles professed the Catholic faith and pronounced twenty-three anathemas. The first falls on anyone who still holds the faith and communion that came from Arius; the fifteenth on rebaptism; the sixteenth on the booklet of Leovigild's twelfth year; the nineteenth to the twenty-second receive Nicaea, Constantinople, Ephesus and Chalcedon (the acts).",
+    "The king's book of faith was received from him and read aloud by a notary. It confesses the Father, Son and Holy Spirit as one substance and the Holy Spirit as proceeding \"a Patre et Filio\", from the Father and the Son; it condemns Arius with all his teaching. Reccared and Queen Baddo signed it (the acts). O. M. Dalton, translating Gregory of Tours, says the king's speech at the council was composed by Leander.",
+    "The Gothic bishops, clergy and nobles professed the Catholic faith and pronounced twenty-three articles of condemnation, the last of them their closing subscription. The first falls on anyone who still holds the faith and communion that came from Arius; the fifteenth on rebaptism; the sixteenth on the booklet of Leovigild's twelfth year; the nineteenth to the twenty-second receive Nicaea, Constantinople, Ephesus and Chalcedon (the acts).",
     "Twenty-three canons. The second orders that the creed of the hundred and fifty bishops of Constantinople be recited by the people with a clear voice before the Lord's Prayer, in the manner of the Eastern churches; the ninth gives the churches that had been Arian to the Catholic bishop of the place; the fourteenth forbids Jews Christian wives or slaves; the sixteenth is against idolatry, which had grown up through almost all Spain and Gaul (the acts).",
     "The king confirmed the council by edict: what was defined in the holy council held at Toledo in his fourth year may be despised by none (the acts)."
   ],
@@ -88,12 +88,17 @@
     {
       "witness": "Reccared's book of faith, within the acts",
       "kind": "participant",
-      "note": "The king's own statement, offered by him and read by a notary; Dalton says Leander composed it."
+      "note": "The king's own statement, offered by him and read by a notary. Dalton says Leander composed the king's speech on that occasion."
     },
     {
       "witness": "Leander of Seville, sermon in praise of the church, printed with the acts",
       "kind": "participant",
       "note": "Attributed to Leander; the acts' note says two manuscripts lack it."
+    },
+    {
+      "witness": "Letter in Reccared's name to Gregory the Great (Barmby's English)",
+      "kind": "participant",
+      "note": "Tells the conversion in the king's voice; Barmby says its genuineness is considered doubtful."
     },
     {
       "witness": "John of Biclaro, Chronicle",
@@ -135,15 +140,14 @@
       "part": "Signed third; carried the council's business with Eutropius, by John of Biclaro's account; his sermon is printed with the acts"
     },
     {
-      "name": "Gregory the Great",
-      "id": "gregory-the-great",
-      "verdict": "WHO",
-      "part": "Not present; wrote to Leander and to Reccared welcoming the conversion"
-    },
-    {
       "name": "Masona of Mérida",
       "verdict": "NOT SCORED",
       "part": "Metropolitan bishop; signed first after the king"
+    },
+    {
+      "name": "Euphemius of Toledo",
+      "verdict": "NOT SCORED",
+      "part": "Bishop of the royal city; signed second"
     },
     {
       "name": "Eutropius, abbot of Servitanum",
@@ -166,8 +170,8 @@
     "Every witness is from the Catholic side. No Homoian text from Visigothic Spain is held; the Homoian view reaches us through the acts' anathemas, John of Biclaro and Gregory of Tours's report of the envoy Agilan.",
     "The number of bishops: sixty-two by the heading of the held text and Migne's John of Biclaro; seventy-two in Mommsen's text of John.",
     "Who presided: the acts name no president. John of Biclaro says the business lay with Leander and the abbot Eutropius; Masona signs first.",
-    "Whose words the king's book of faith is: the acts give it in the king's voice; Dalton, citing Labbe, says Leander composed it.",
-    "When and how Reccared became Catholic: in his first year's tenth month (John), after a debate of bishops (Gregory of Tours), 'not many days' after his father's death (the acts); 587 is Barmby's and Gardner's year.",
+    "Whose words the king's speech was: the acts give it in the king's voice; Dalton, citing Labbe, says Leander composed it.",
+    "When and how Reccared became Catholic: in his first year's tenth month (John), after a debate of bishops (Gregory of Tours), not many days after his father's death (the acts); 587 is Barmby's and Gardner's year.",
     "The year 589 is Percival's and Barmby's reckoning of era 627; no held ancient witness gives it."
   ],
   "sources": {
@@ -185,6 +189,12 @@
         "author": "Leander of Seville (attributed)",
         "language": "Latin",
         "file": "cic/texts/collectio-canonum-ecclesiae-hispanae-toledo-iii-lat_1808.txt"
+      },
+      {
+        "title": "Letter of Reccared to Gregory (Book IX, no. 61, genuineness doubted)",
+        "author": "Reccared (attributed)",
+        "language": "English translation",
+        "file": "cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml"
       }
     ],
     "writtenLater": [

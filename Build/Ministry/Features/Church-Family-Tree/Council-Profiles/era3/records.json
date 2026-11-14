@@ -50,10 +50,10 @@
         "formation_confidence": "Documented"
       },
       {
-        "claim": "Vigilius refused to attend: 'In vain we sent several commands to him to take part in the synod'",
-        "witness": "Emperor's letter (npnf214 l.23129-23130); Session VII (l.23214-23215); Evagrius IV.38 (walford1846 l.9556-9557)",
+        "claim": "Vigilius refused to attend: 'In vain we sent several commands to him to take part in the synod' (Hefele's condensed digest of the emperor's letter)",
+        "witness": "Emperor's letter, in Hefele's digest (npnf214 l.23069-23071, 23124-23130); Session VII (l.23214-23215); Evagrius IV.38 (walford1846 l.9556-9557); Michael the Syrian IX (chabot1901 l.19066-19075, 6757-6768)",
         "witness_kind": "acts",
-        "formation_confidence": "Documented"
+        "formation_confidence": "Widely Accepted"
       },
       {
         "claim": "Vigilius issued the Constitutum, dated 'prid. Iduum Maiarum' in Justinian's 27th year at Constantinople, refusing to condemn Theodore or let anyone else: 'eum nostra non audemus condemnare sententia sed nec ab alio quoquam condemnari concedimus'",
@@ -128,7 +128,7 @@
         "formation_confidence": "Documented"
       },
       {
-        "claim": "A synod of the Church of the East gave a canon in defence of the books and teaching of 'saint Théodore', the Interpreter",
+        "claim": "A synod of the Church of the East gave a canon in defence of the books and teaching of 'saint Théodore', the Interpreter, against men 'dans le temps actuel ... qui s'intitulent orthodoxes'; the canon names no council",
         "witness": "Synodicon orientale, synod of Ishoyahb I, canon on Theodore (chabot1902 l.26570-26600); Chabot dates the synod to the summer of 585 (l.26035-26071, 26550)",
         "witness_kind": "later narrative",
         "formation_confidence": "Documented"
@@ -138,18 +138,36 @@
         "witness": "Gregory, Letter I.25 (npnf212 l.31921-31925); to Constantius (npnf212 l.40144-40151)",
         "witness_kind": "later narrative",
         "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Labourt: Ishoyahb's creed of 585 argues 'contre tous les partisans byzantins ou persans du cinquième concile œcuménique'; the Theodore canon's opponents 'C'étaient les partisans de Henana d'Adiabène'",
+        "witness": "Labourt (labourt_le-christianisme-dans-l-empire-perse-sassanide-fra_1904.txt l.15582-15589, 15699-15719)",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "In the 26th year of Justinian, 864 of the Greeks, a synod called the Fifth met in the imperial city with three patriarchs, Eutychius, Apollinaris and Domninus; Vigilius was in the city but did not come; the synod confirmed the anathema on Origen, which Justinian had pronounced, and condemned Theodore, Theodoret and the letter of Ibas",
+        "witness": "Michael the Syrian, Chronicle IX, tr. Chabot (michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt l.19002-19095; also l.6757-6768)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Gregory wrote to Constantius of Milan, who had held back a letter to Queen Theodelinda because it named the fifth synod",
+        "witness": "Gregory, to Constantius (npnf212 l.40141-40151)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
       }
     ],
     "contested_claims": [
       {
         "claim": "Whether the council condemned Origen with fifteen special anathemas",
-        "sides": "Evagrius: Origen was condemned (walford1846 l.9623-9630; Percival l.24016). Hefele: the fifteen belong to a synod at Constantinople of 543 (npnf214 l.24040-24042). Percival: undecided on the fifteen (l.23989-23991), though Origen's name in anathema XI is not to be doubted (l.23985-23987).",
+        "sides": "Evagrius: Origen was condemned (walford1846 l.9623-9630; Percival l.24016). Michael the Syrian: the synod confirmed the anathema on Origen that Justinian had pronounced (chabot1901 l.19089-19091). Hefele: the fifteen belong to a synod at Constantinople of 543 (npnf214 l.24040-24042). Percival: undecided on the fifteen (l.23989-23991), though Origen's name in anathema XI is not to be doubted (l.23985-23987).",
         "formation_confidence": "Contested"
       },
       {
         "claim": "Whether Vigilius was present",
-        "sides": "The acts: he refused (npnf214 l.23129-23130, 23214-23215); Evagrius agrees (l.9556-9557). Victor of Tunnuna lists him among the patriarchs present (mommsen1894 l.19131).",
-        "formation_confidence": "Contested"
+        "sides": "The acts: he refused (npnf214 l.23129-23130, 23214-23215); Evagrius (l.9556-9557) and Michael the Syrian (chabot1901 l.19072-19075, 6757-6768) agree. Victor of Tunnuna lists him among the patriarchs present (mommsen1894 l.19131).",
+        "formation_confidence": "Widely Accepted"
       },
       {
         "claim": "How many bishops attended",
@@ -170,6 +188,16 @@
         "claim": "Who presided",
         "sides": "Hefele: Eutychius (npnf214 l.22879-22880). The editor's note in npnf212: the condemnation was forced on the church 'by the Emperor in the said Council under his presidency' (npnf212 l.22438-22439). The quaestor Constantine spoke for the emperor in Session VII (npnf214 l.23270-23276).",
         "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Whether Vigilius consented to the meeting",
+        "sides": "Hefele: opened without the assent of the Pope (npnf214 l.22877-22878). Evagrius: he gave his assent in writing to the assembling but declined attendance (walford1846 l.9556-9557). The sentence: he gave his consent in writing to be present (npnf214 l.23344-23346).",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Whether the Church of the East's synod of 585 answered the council",
+        "sides": "Labourt: Ishoyahb's creed argues against the fifth council's partisans (l.15582-15589). The Theodore canon names no council, and Labourt takes it as aimed at Henana's followers (l.15699-15719).",
+        "formation_confidence": "Inferential-Thin"
       }
     ],
     "absent_details": [
@@ -188,10 +216,6 @@
       {
         "detail": "Western and African bishops at the council",
         "note": "No held source counts them."
-      },
-      {
-        "detail": "A Miaphysite response to the council",
-        "note": "None found in John of Ephesus, the Syriac chronicle known as Zachariah's, or Procopius."
       },
       {
         "detail": "The Judicatum of 548",
@@ -256,7 +280,7 @@
         "formation_confidence": "Documented"
       },
       {
-        "claim": "Twenty-three anathemas by the converted bishops, clergy and nobles; the first on 'qui fidem et communionem ab Ario venientem, et hucusque a nobis retentam' still holds it; the fifteenth on rebaptism; the sixteenth on the 'libellum detestabilem duodecimo anno Leovigildi regis a nobis editum', with its 'gloria Patri per Filium in Spiritu Sancto'",
+        "claim": "Twenty-three articles of condemnation (the twenty-third the closing subscription) by the converted bishops, clergy and nobles; the first on 'qui fidem et communionem ab Ario venientem, et hucusque a nobis retentam' still holds it; the fifteenth on rebaptism; the sixteenth on the 'libellum detestabilem duodecimo anno Leovigildi regis a nobis editum', with its 'gloria Patri per Filium in Spiritu Sancto'",
         "witness": "acts l.36900-37017 (I at l.36900-36903; XV at l.36962-36964; XVI at l.36965-36971)",
         "witness_kind": "acts",
         "formation_confidence": "Documented"
@@ -356,6 +380,12 @@
         "witness": "Dalton's note to Gregory of Tours IX.15 (dalton1927 l.29212-29215)",
         "witness_kind": "modern reconstruction",
         "formation_confidence": "Inferential-Thin"
+      },
+      {
+        "claim": "A letter in Reccared's name to Gregory tells the conversion; Barmby: 'The genuineness of this letter is considered doubtful'",
+        "witness": "npnf213 l.2251-2262",
+        "witness_kind": "participant",
+        "formation_confidence": "Contested"
       }
     ],
     "contested_claims": [
@@ -375,8 +405,8 @@
         "formation_confidence": "Contested"
       },
       {
-        "claim": "Whose words the king's book of faith is",
-        "sides": "The acts: the king's, read by a notary (l.36628-36632). Dalton, citing Labbe: composed by Leander (dalton1927 l.29212-29215).",
+        "claim": "Whose words the king's speech at the council was",
+        "sides": "The acts: the king's, his book of faith read by a notary (l.36628-36632). Dalton, citing Labbe: 'His speech on that occasion was composed by Leander' (dalton1927 l.29212-29215).",
         "formation_confidence": "Contested"
       }
     ],
@@ -492,12 +522,30 @@
         "witness": "Ormanian (l.2902-2907), under the patriarch Eghia (703-717)",
         "witness_kind": "modern reconstruction",
         "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Samuel of Ani's table: 'Les Ibériens, ayant adopté l'hérésie de Chalcédoine, se séparèrent'; Brosset calls the chronology 'entièrement fausse'",
+        "witness": "Brosset's note (brosset1876 l.22668-22670)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Issaverdens calls Gurion a most learned and pious man (OCR 'tiod' for 'and'); the book is 'A Mechitarist's English sketch ... written for visitors to San Lazzaro'; Mekhitar founded his house at San Lazzaro under the auspices of Catholicism",
+        "witness": "Issaverdens (l.3652-3654; file header l.8); Ormanian (l.4483-4493)",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Brosset's statements on the Georgian turn to the Greeks about 580 are drawn from Tchamitch",
+        "witness": "Brosset 1849 (l.9695-9697)",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Documented"
       }
     ],
     "contested_claims": [
       {
         "claim": "The year of the council",
-        "sides": "Ormanian: 609, after Abraham's election on 30 April 607 (l.2737-2738, 9753-9755). Brosset 1876: 596 (l.22671). Issaverdens and Stephen of Taron: no year. Brosset 1849 dates a letter of Abraham to 595 (l.9690-9691). The census edge gives 596 to 609.",
+        "sides": "Ormanian: 609, after Abraham's election on 30 April 607 (l.2737-2738, 9753-9755). Brosset 1876: 596 (l.22671). Issaverdens and Stephen of Taron: no year. Brosset 1849 dates a letter of Abraham to 595 (l.9690-9691). The census edge gives 596 to 609. Stephen of Taron (gelzer-burckhardt1907 l.3103-3105) and Issaverdens (l.3688-3690, 3714-3717) set Abraham's quarrel under Maurice; Barmby dates Phocas's accession to November 602 (npnf212 l.23779-23781).",
         "formation_confidence": "Contested"
       },
       {
@@ -507,7 +555,7 @@
       },
       {
         "claim": "Whether Gregory the Great's letter to Quiricus, bishop in Hiberia, is to Kyrion",
-        "sides": "The census story says so. The editors of the Register do not identify him and incline to Pontic Iberia ('Equidem puto de Hiberia Pontica agi', ewald-hartmann1895 l.12167).",
+        "sides": "The census story says so. The editors of the Register date it 601 (l.12142) and, weighing Ireland, Pontic Iberia and Spain, write 'Equidem puto de Hiberia Pontica agi' (ewald-hartmann1895 l.12165-12170); they do not name Kyrion.",
         "formation_confidence": "Inferential-Thin"
       }
     ],
