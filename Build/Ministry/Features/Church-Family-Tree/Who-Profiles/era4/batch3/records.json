@@ -1536,7 +1536,7 @@
     "formation_confidence": "Documented"
    },
    {
-    "claim": "Ripon in Bede's prose Life: Eata took \"quosdam e Fratibus secum, in\" ... \"quibus et Cuthbertum\"; the Bollandists: \"SS. Eata,\" ... \"Cuthbertus aliique propter Pascha Catholicum ceteros-\" ... \"que ritus reliquerunt Riponense monasterium\"; and later \"Abbas Eata cum Cuthberto et ceteris, quos secum adduxerat, Fratribus domum repulsus est\"; the Bollandists alone join this to the History's Easter reason",
+    "claim": "Ripon in Bede's prose Life: Eata took \"quosdam e Fratibus secum, in\" ... \"quibus et Cuthbertum\"; the Bollandists: \"SS. Eata,\" ... \"Cuthbertus aliique propter Pascha Catholicum ceteros-\" ... \"que ritus reliquerunt Riponense monasterium\"; and later \"Abbas Eata cum Cuthberto et ceteris, quos secum adduxerat, Fratribus domum repulsus est\"; the Bollandists join this to the History's Easter reason; so does James Raine's note to Stephen's chapter 8, citing Bede's Life of Cuthbert (RAINE l.4986-4995, in the claim below)",
     "witness": "AASS3 (acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt) l.33599-33601, 34606-34612, 34679-34684",
     "formation_confidence": "Inferential-Thin"
    },
@@ -1549,6 +1549,11 @@
     "claim": "Eata: \"Eata was one of Aidan's twelve boys of the English nation\"",
     "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.8263-8264",
     "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Raine's note: \"When the Scottish party refused to give up their anti-catho- lic views, Alchfrid removed them\"; \"See Beda's Life of Cuthbert\"",
+    "witness": "RAINE (byrhtferth_vita-s-oswaldi-in-historians-of-the-church-of-york-v1-lat_raine1879.txt) l.4986-4995",
+    "formation_confidence": "Dominant Modern Reconstruction"
    }
   ],
   "contested_claims": [
