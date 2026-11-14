@@ -437,7 +437,7 @@
         "formation_confidence": "Documented"
       },
       {
-        "claim": "A longer History of Mar Aba, edited by Bedjan (1895) and held in Braun's German,, 'aurait besoin d'un examen critique minutieux' and lacks chronological data; Chabot's outline: born a Zoroastrian, baptized at Hira, studied at Nisibis, learned Greek at Edessa from his disciple Thomas, journeyed to Constantinople, taught at Nisibis, elected January 540, founded a school at Seleucia, worked to restore peace and discipline after the schism of Narses and Elisha, was persecuted after controversies with the magi, spent several years in prison and was exiled to Adherbaidjan",
+        "claim": "A longer History of Mar Aba, edited by Bedjan (1895) and held in Braun's German, 'aurait besoin d'un examen critique minutieux' and lacks chronological data; Chabot's outline: born a Zoroastrian, baptized at Hira, studied at Nisibis, learned Greek at Edessa from his disciple Thomas, journeyed to Constantinople, taught at Nisibis, elected January 540, founded a school at Seleucia, worked to restore peace and discipline after the schism of Narses and Elisha, was persecuted after controversies with the magi, spent several years in prison and was exiled to Adherbaidjan",
         "witness": "Chabot's note (l.20963-20995); the Bedjan Life is not held",
         "formation_confidence": "Dominant Modern Reconstruction"
       },
@@ -770,8 +770,13 @@
         "formation_confidence": "Contested"
       },
       {
-        "claim": "Vatican codex 1613 is the Menologion of the emperor Basil",
-        "witness": "Migne, PG 99, 'Ex Menologio Basilii imperatoris. Cod. Vatic. n. 1613' (theodore-studite_opera-omnia-pg99-grc-lat_migne1860.txt l.7839); the Bollandists, 'Menologio Graecorum, jussu Basilii Porphyrogeniti Imperatoris' (acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt l.180301-180302); Assemani (assemani_bibliotheca-orientalis-tomus3-pars2-de-syris-nestorianis-lat_1728.txt l.39715-39716); 'the menologion of Basilius II (976-1025) in the Vatican Library' (studia-biblica-et-ecclesiastica-v5-life-of-st-nino_wardrop1903.txt l.16382-16386)",
+        "claim": "PG 99 heads an extract 'Ex Menologio Basilii imperatoris. Cod. Vatic. n. 1613'",
+        "witness": "Migne, PG 99 (theodore-studite_opera-omnia-pg99-grc-lat_migne1860.txt l.7839)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "The Bollandists and Assemani cite a Menologion of the Greeks made by order of the emperor Basil Porphyrogenitus; the Studia Biblica essay names a menologion of Basil II in the Vatican Library; none gives the manuscript number",
+        "witness": "The Bollandists, 'Menologio Graecorum, jussu Basilii Porphyrogeniti Imperatoris' (acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt l.180301-180302); Assemani (assemani_bibliotheca-orientalis-tomus3-pars2-de-syris-nestorianis-lat_1728.txt l.39715-39716); 'the menologion of Basilius II (976-1025) in the Vatican Library' (studia-biblica-et-ecclesiastica-v5-life-of-st-nino_wardrop1903.txt l.16382-16386)",
         "formation_confidence": "Contested"
       },
       {
@@ -828,7 +833,7 @@
     "contested_claims": [
       {
         "claim": "Whose Menologion holds the notice",
-        "sides": "Pitra (l.6791): the Menologion of the emperor Constantine Porphyrogenitus, Vatican 1613. Migne, PG 99 (l.7839), the Bollandists (Acta Sanctorum Martii III l.180301-180302), Assemani (l.39715-39716) and the Studia Biblica essay (l.16382-16386): the Menologion of the emperor Basil."
+        "sides": "Pitra (l.6791): the Menologion of the emperor Constantine Porphyrogenitus, Vatican 1613. Migne, PG 99 (l.7839), the Bollandists (Acta Sanctorum Martii III l.180301-180302), Assemani (l.39715-39716) and the Studia Biblica essay (l.16382-16386): the Menologion of the emperor Basil (PG 99 names Vatican 1613; the others give no number)."
       },
       {
         "claim": "Which emperor Anastasius the Menologion notice means, and so when Romanos lived",
