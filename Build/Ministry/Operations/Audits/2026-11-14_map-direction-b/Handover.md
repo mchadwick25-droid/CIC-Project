@@ -25,15 +25,15 @@ The first build worker (session_01JMNsSDk6Sa1zM9c44FsCS1) hands over here becaus
 | Overlaps with a Who open, all 29 river-eras, desktop and phone | 0 |
 | Map height | 12,744 |
 
-The census test suite (the `node --test tools/tests/validate_census_*` line in ci.yml) was re-running at handover. Run it again.
+Census test suite (the `node --test tools/tests/validate_census_*` line in ci.yml): 65/65. Spelling (enforce): pass.
 
 ## Reviews
 
 All by fresh Opus agents at full effort.
 - **Round 1** (code, text, AI tells): all fixed. Mark-approved wording went to Mark, and he took all the recommendations.
 - **Round 2**: all fixed. Mark's eight wording picks were applied.
-- **Round 3**: the text review (`Review_r3-text.md`) found 2 BLOCKING and 4 MINOR points. All six are applied as worded, and one targeted Opus check of only those strings follows, under Mark's standing cap ruling. Its result is `Review_r3-targeted.md`, if it landed before handover.
-- **Round 3 code review**: `Review_r3-code.md`, if it landed. Code BLOCKING points still open after round 3 go to the coordinator for Mark.
+- **Round 3**: the text review (`Review_r3-text.md`) found 2 BLOCKING and 4 MINOR points. All six are applied as worded, and one targeted Opus check of only those strings follows, under Mark's standing cap ruling. Its result is `Review_r3-targeted.md`: all six pass.
+- **Round 3 code review**: `Review_r3-code.md`. Three new BLOCKING points: see step 1 below.
 
 ## Waiting on Mark (through the coordinator)
 
@@ -50,7 +50,7 @@ All by fresh Opus agents at full effort.
 
 ## Steps left, in order
 
-1. Read `Review_r3-code.md` and fix what it finds. A BLOCKING point that can't be fixed goes to the coordinator.
+1. `Review_r3-code.md` (round 3 code, the last round; copied at handover, and the reviewer may have added to it in its own scratchpad) found 3 BLOCKING and 1 MINOR, all new: pressing a Who control moves focus off it; zooming while a Who name has focus drops focus to the body; on tablets with a larger browser text size the Key runs off screen; one unused line (`const years=` in render's river loop). Round 2's finding 2 and round 1's item 8 are still partly open. Under the brief these BLOCKING points, open after round 3, went to the coordinator for Mark; fix them under his ruling, then run one targeted check.
 2. Build and publish the preview, then send the link to the coordinator.
 3. Open one draft pull request, pushed once after the local checks pass, then mark it ready.
 4. After Mark approves:
