@@ -19,7 +19,7 @@ Held witnesses beyond those the scans cite:
 - **Adam.** Henri Cordier's note in Yule's Marco Polo, joining King-tsing to Adam and reporting J. Takakusu on a Buddhist sutra; Assemani's reading of the Syriac lines; T. J. Lamy, as J.-B. Chabot quotes him.
 
 Corrections to the scans found in drafting:
-- **Elias's death year.** The Library header of the Chronography file gives 975-1046, and the supplement row repeats it. No held line gives 1046. Assemani puts his death after the catholicos Elias I, who died in 1049, and Chabot soon after; Frédéric Macler gives about 1056. The card gives both and tags the death year as contested.
+- **Elias's death year.** The Library header of the Chronography file gives 975-1046, and the supplement row repeats it. No held line gives 1046. Assemani puts his death after the catholicos Elias I, who died in 1049, and Chabot soon after; Frédéric Macler gives about 1056. The card gives all three and tags the death year as contested.
 - **Elias's own words.** Besides the Chronography, his preface and chapters on inheritance are held, in Mai's Latin of Ebedjesu's canons.
 - **Elias's life.** The supplement row says the editors place his life on pp. 228-229 of the file, not opened. Those pages are the note after the end of his canon, which E. W. Brooks marks as added later by others. It gives his birth in 975 and his ordinations in 994, 1002 and 1008, reckoned from its Greek and Arab years.
 - **Eadburga's Thanet.** "Abbess of Thanet" is in Kylie's headings and introduction, not in the letters themselves.

@@ -16,7 +16,7 @@ Every round 2 finding was applied, with the cited lines reopened first (ASS2 l.3
 - **R2-M8.** "From these, he writes, al-Baladhuri was Ahmad ibn Yahya ibn Jabir".
 - **R2-M9.** "as al-Baladhuri says himself", brief and card.
 
-Two small cuts in the Elias brief keep it near 365 words: "In 1020 Isho'yahb son of Ezekiel was made catholicos" and "Frédéric Macler gives about 1056".
+Two sentences in the Elias brief were reworded, not cut, to keep it near 365 words: "In 1020 Isho'yahb son of Ezekiel was made catholicos" and "Frédéric Macler gives about 1056". (An earlier wording of this line called them cuts; round 3 noted the error, and it is corrected here.)
 
 | Brief | Words | FK | Flesch |
 |---|---|---|---|
