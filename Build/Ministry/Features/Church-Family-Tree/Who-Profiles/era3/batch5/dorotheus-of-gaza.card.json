@@ -1,0 +1,88 @@
+{
+  "name": "Dorotheus of Gaza",
+  "otherNames": [
+    "Abbas Dorotheus",
+    "Dorotheus archimandrita"
+  ],
+  "knownFor": "Monk and archimandrite near Gaza, disciple of the abbot John, the disciple of Barsanuphius, whose twenty-four Teachings for monks pass on the counsel of the old men on obedience, humility and love of neighbour.",
+  "dates": "Born about 540, in François Nau's date. Andrea Gallandi reports that the Bollandists place him at the end of the sixth century and says the year of his death is not clearly known; J.-P. Migne heads Gallandi's notice with the year 596. No ancient source used here gives his years",
+  "place": "The community of the abbot Seridus, which a Greek book of saints revised by Nikodemos the Hagiorite puts near Gaza and François Nau places near Thabatha",
+  "tradition": "Chalcedonian Monasticism - Judean Desert & Gaza",
+  "role": "Monk and archimandrite; teacher of monks",
+  "briefLength": "about 2 minutes",
+  "keyWorks": [
+    {
+      "title": "Teachings (Doctrinae), twenty-four in number",
+      "about": "talks to monks on giving up one's own will, humility, patience with insult and love of neighbour, told through his own years under the abbot Seridus and the abbot John; Gallandi calls them an outstanding work, most worth reading"
+    },
+    {
+      "title": "Questions of Dorotheus to Barsanuphius and John, with their answers",
+      "about": "the set of questions he put to the two old men, printed with the Teachings"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Andrea Gallandi says Theodore the Studite approved the Teachings highly and counted their author among the foremost monks.",
+      "Sayings of his were also kept in the third person, as \"Aiebat abbas Dorotheus\", the abbot Dorotheus used to say, in the brief sayings printed as Teaching 19."
+    ],
+    "remembered": [
+      "An unnamed writer of a letter printed before the Teachings, in a passage found only in the Latin, calls him \"sublimis in contemplatione, sublimior in humilitate\", high in contemplation and higher in humility.",
+      "The Greek book of saints revised by Nikodemos the Hagiorite remembers him on 13 August, with the abbot Seridus and Dositheus."
+    ]
+  },
+  "uncertain": [
+    "His own monastery. A Greek book of saints revised by Nikodemos the Hagiorite says he founded a monastery of his own after the abbot John died; the scanned Greek there is rough. François Nau names Barsanuphius, Seridus and at last Dorotheus as heads in turn of Seridus's monastery. Andrea Gallandi calls him an archimandrite, the head of a monastery, without saying how he came to head one.",
+    "His first monastery. Gallandi takes the house of the abbot Seridus to be where he first became a monk, from Dorotheus's own mentions of Seridus. Dorotheus says only that he was with the abbot Seridus.",
+    "Which John. In the passage of his nine years' service the old man is the abbot John, with no epithet. Elsewhere in the Teachings Dorotheus calls the abbot John the disciple of blessed Barsanuphius, and the heading of the Questions and Gallandi's notice call John the Prophet.",
+    "His years. Gallandi reports the Bollandists, Fabricius and Cave for the end of the sixth century, and sets aside Oudin, who places him in the seventh. François Nau gives his birth about 540 without giving his reasons in the lines used here. Migne's heading gives 596.",
+    "The Life of Dositheus. Gallandi says the disciple who wrote it reports that Dorotheus came to know the two old men when he entered Seridus's monastery. The Life itself is not among the sources used here, so nothing more of Dositheus is told here than Dorotheus's own lines and the Greek of a letter printed before the Teachings, which calls Dositheus his first disciple.",
+    "His name. A preface Migne prints without an author's name says there were two men named Dorotheus, one defending the errors of Severus of Antioch. Theodore the Studite separates the condemned Dorotheus from the one he accepts. In another letter Theodore also curses a Dositheus with the condemned men; no line used here ties him to Dorotheus's Dositheus.",
+    "The language. No English of Dorotheus is among the sources used here, and the Greek in Migne's volume is hard to read in the scan. Every detail here follows the Latin Migne prints, which Gallandi gives to Hilarion of Verona, as revised by Fronto Ducaeus."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Teachings (Doctrinae), in Patrologia Graeca 88 (Latin tr. Hilarion of Verona, ed. J.-P. Migne)",
+        "language": "Latin translation",
+        "file": "cic/texts/dorotheus-gaza_doctrinae-barsanuphius-climacus-agathias-grc-lat_migne-pg88.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Notice on Dorotheus (reprinted in Patrologia Graeca 88)",
+        "author": "Andrea Gallandi",
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/dorotheus-gaza_doctrinae-barsanuphius-climacus-agathias-grc-lat_migne-pg88.txt"
+      },
+      {
+        "title": "Letter to a brother who asked for the teachings of Dorotheus, and an anonymous preface",
+        "author": "Anonymous",
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/dorotheus-gaza_doctrinae-barsanuphius-climacus-agathias-grc-lat_migne-pg88.txt"
+      },
+      {
+        "title": "Appendix to the Plerophories of John Rufus, on the monastery of Seridus",
+        "author": "François Nau",
+        "date": "1912",
+        "language": "French",
+        "file": "cic/texts/po08_john-rufus-plerophories-and-others-fra_1912.txt"
+      },
+      {
+        "title": "Synaxaristes, volume 2, 13 August",
+        "author": "Nikodemos the Hagiorite",
+        "date": null,
+        "language": "Greek",
+        "file": "cic/texts/nikodemos-hagiorite_synaxaristes-vol2-mar-aug-grc_1900.txt"
+      },
+      {
+        "title": "Letters, book I, and Testament",
+        "author": "Theodore the Studite",
+        "date": null,
+        "language": "Latin translation",
+        "file": "cic/texts/theodore-studite_opera-omnia-pg99-grc-lat_migne1860.txt"
+      }
+    ]
+  }
+}

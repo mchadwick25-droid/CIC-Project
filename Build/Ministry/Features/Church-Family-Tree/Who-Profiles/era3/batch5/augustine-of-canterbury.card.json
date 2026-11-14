@@ -1,0 +1,79 @@
+{
+  "name": "Augustine of Canterbury",
+  "otherNames": [
+    "Augustinus"
+  ],
+  "knownFor": "Monk of Gregory the Great's monastery sent by Gregory to the English, who baptized King Ethelbert's people of Kent and became the first archbishop of Canterbury.",
+  "dates": "Sent by Gregory in 596 and landed in Britain in 597, by Bede's own years. His epitaph gives his death on 26 May, with no year; Bede tells it after the ordinations he dates to 604",
+  "place": "Rome; Kent, with his see at Canterbury",
+  "tradition": "The Roman Church in the Age of Gregory the Great",
+  "role": "Monk and provost; missionary; first archbishop of Canterbury",
+  "briefLength": "about 2 minutes 30 seconds",
+  "keyWorks": [
+    {
+      "title": "Questions to Gregory the Great, with Gregory's answers",
+      "about": "nine questions on a bishop's life and income, the differing customs of the churches, theft from the church, marriage, ordaining bishops, the bishops of Gaul and Britain, and purity at baptism and communion; kept as Bede copied them, and in the Latin of Gregory's Register"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Bede says King Ethelbert believed and was baptized, and gave the monks a home at Canterbury; Gregory wrote that over ten thousand English were reported baptized one Christmas.",
+      "Gregory sent him the pallium and a plan for twelve bishops, and put all the bishops of Britain in his care. In 604, Bede says, he ordained Mellitus and Justus as bishops."
+    ],
+    "remembered": [
+      "His epitaph, which Bede copies, calls him the first archbishop of Canterbury, sent by Gregory and supported with miracles, who brought King Ethelbert and his nation from idols to the faith of Christ.",
+      "Bede calls him the beloved of God, Father Augustine. Gregory's letter to him on his miracles tells him to rejoice with fear."
+    ]
+  },
+  "uncertain": [
+    "Bede, the main witness, wrote his History long after the mission and is hostile to the Britons, whom he calls \"that perfidious nation\". He tells the second meeting with the British bishops, after the first at Augustine's Oak, with the hedge \"is said\" on Augustine's warning, and presents the later slaughter of the Bangor monks as its fulfilment.",
+    "Who ordained him at Arles. Bede names Aetherius, archbishop of that city; L. Cecil Jane's note to Bede says Aetherius was really archbishop of Lyons. Nicola Turchi's note to Gregory's letters names Vergilius of Arles. Gregory says only that he was made bishop by the bishops of the Germanies. Gregory's letter to Eulogius has him made bishop before he was brought to the English; Bede has him go to Arles after the king's baptism.",
+    "The questions and answers. Ludwig Hartmann edited this part of Gregory's Register in the Monumenta Germaniae Historica after Paul Ewald's death. He says they have often been doubted, and judges them genuine. He reports Theodor Mommsen's view that only extracts survive. James Barmby, translating the Register, holds Bede's copy the most authentic. Boniface reported that no copy could be found at Rome. Hartmann dates his letter to 735 in his preface and to before 741 in his note.",
+    "The year of his death. Bede tells it after the ordinations he dates to 604 and gives no year of his own; the epitaph gives 26 May, in King Ethelbert's reign. Ludwig Hartmann has Laurentius succeed him in 606.",
+    "The date of Ethelbert's baptism. Bede gives none. Turchi dates it to Christmas 597, from Gregory's letter to Eulogius, which reports the ten thousand baptized at Christmas without naming the king.",
+    "His monastery. Gregory calls him the former provost of his monastery and does not name it. L. Cecil Jane's note to Bede names the monastery of Saint Anthony at Rome and calls him a Benedictine; no letter of Gregory used here says either."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Questions of Augustine, in Bede, Ecclesiastical History I.27 (English tr. J. A. Giles, rev. L. C. Jane)",
+        "author": "Augustine of Canterbury, as Bede copies them",
+        "language": "English translation",
+        "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt"
+      },
+      {
+        "title": "Gregory to Augustine, Register XI.56a, with the questions (ed. Ludwig Hartmann, after Paul Ewald)",
+        "author": "Gregory the Great",
+        "language": "Latin",
+        "file": "cic/texts/gregory-great_registrum-epistolarum-t2-pars2-libri-10-14-lat_ewald-hartmann1895.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Ecclesiastical History of the English People, Books I.23-33 and II.2-3 (English tr. J. A. Giles, rev. L. C. Jane)",
+        "author": "Bede",
+        "language": "English translation",
+        "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt"
+      },
+      {
+        "title": "Letters to the monks of the mission, to Eulogius and to Augustine, in Epistolae selectae (ed. Nicola Turchi)",
+        "author": "Gregory the Great",
+        "date": "1907",
+        "language": "Latin",
+        "file": "cic/texts/gregory-great_epistolae-selectae_turchi1907.txt"
+      },
+      {
+        "title": "Letter to Syagrius of Autun, Register IX.222 (ed. Ludwig Hartmann, after Paul Ewald)",
+        "author": "Gregory the Great",
+        "language": "Latin",
+        "file": "cic/texts/gregory-great_registrum-epistolarum-t2-pars1-libri-8-9-lat_ewald-hartmann1893.txt"
+      },
+      {
+        "title": "Register of Gregory the Great, with notes, in Nicene and Post-Nicene Fathers, second series, volume 13 (tr. James Barmby)",
+        "author": "Gregory the Great",
+        "language": "English translation",
+        "file": "cic/texts/npnf213_gregory-great-ephraim-syrus-aphrahat.xml"
+      }
+    ]
+  }
+}
