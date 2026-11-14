@@ -1,0 +1,277 @@
+{
+  "id": "second-council-of-nicaea-787",
+  "kind": "major-council",
+  "kindLabel": "Major council",
+  "era": 4,
+  "name": "Second Council of Nicaea",
+  "shortName": "Nicaea 787",
+  "informalName": "The Seventh Council",
+  "dates": "787",
+  "start": 787,
+  "end": 787,
+  "region": "Nicaea, in the church of Holy Wisdom, with a closing session at the Magnaura palace in Constantinople",
+  "placeLabel": "Nicaea",
+  "modernCountries": [
+    {
+      "country": "Turkey",
+      "countryId": "Q43",
+      "place": "Nicaea",
+      "placeId": "Q739037",
+      "pleiadesId": "511268"
+    }
+  ],
+  "rivers": [
+    "Greek East",
+    "Latin West"
+  ],
+  "teaser": "Nicaea, 787. Called by the empress Irene and Constantine VI, under the patriarch Tarasius and with Pope Hadrian's envoys, the bishops restored the veneration of holy images; the Franks at Frankfurt rejected the council.",
+  "knownFor": "The council that ended the first ban on images and taught that the honor paid to an image passes to the one it shows, and that Charlemagne's bishops refused.",
+  "datesNote": "787, the year Henry Percival gives. Theophanes puts the first session in the church of Holy Wisdom at Nicaea on 11 October and a last reading of the decree at the Magnaura palace in Constantinople in November; Louis Duchesne gives eight sessions from 25 September to 22 October. The broken meeting at the Holy Apostles fell in August of the ninth indiction, on the 17th in Jacques Goar's Latin of Theophanes and the 7th in Anastasius the Librarian's",
+  "issue": [
+    "In 754 a council of 338 bishops at Hieria, called by Constantine V, had banned images (its decree; Theophanes). Its decree survives only in the acts of 787, read out in Session VI to be answered, and is held as Percival's English summary drawn mostly from Hefele.",
+    "The ban's case, in that summary: whoever makes an image of Christ \"either depicts the Godhead which cannot be depicted, and mingles it with the manhood (like the Monophysites), or he represents the body of Christ as not made divine and separate and as a person apart, like the Nestorians\"; and \"The only admissible figure of the humanity of Christ, however, is bread and wine in the holy Supper.\"",
+    "The case for images, in the decree of 787: images are to be set up and given \"due salutation and honourable reverence\", not the worship due to the divine nature alone, \"For the honour which is paid to the image passes on to that which the image represents\".",
+    "The emperors' letter says Tarasius accepted the patriarchate only on condition of a council with envoys from Rome and from the East, since the Christians of the East \"decline communion with us\"."
+  ],
+  "calledBy": "The empress Irene and her son Constantine VI. The decree says the council met \"by the will of the pious and Christ-loving Emperors, Constantine and Irene, his mother\"; their letter to Hadrian I asks him to come or send envoys. After the meeting at Constantinople was broken up, Theophanes says, Irene called the bishops to Nicaea. Tarasius led the council; the synodal letter is in his name",
+  "attended": [
+    "The Book of the Popes gives about 350 bishops (\"iuxta trecentorum quinquaginta\"), and Michael the Monk's Life of Theodore the Studite about 350, among them Plato, Theodore's uncle. Percival, and Edward Gibbon as he quotes him, give 350. Theophanes gives no number.",
+    "No list of signatures is held; Percival notes that the subscriptions close the acts of Session VII, which his extracts leave out.",
+    "Hadrian I sent the archpriest Peter and Peter, priest and abbot of Saint Sabas in Rome. For the East came John, monk and syncellus of the see of Antioch, and Thomas, priest and abbot. Theodore the Studite later wrote, as Percival quotes him through John Mason Neale, that the Eastern envoys were brought by Constantinople's own deputies, not sent by their patriarchs.",
+    "Monks sat and spoke, among them Sabbas, abbot of the Studium."
+  ],
+  "decided": [
+    "Session I: bishops who had opposed images, among them Basil of Ancyra and Theodore of Myra, read confessions and were received; Tarasius said, \"Those who formerly were the calumniators of orthodoxy, now are become the advocates of the truth.\"",
+    "Session II: Hadrian's letters were received: \"We follow, we receive, we admit them.\" Percival says, after Anastasius, that the passage objecting to Tarasius's title was never read to the council.",
+    "Session IV: after a passage was read in which Gregory of Nyssa tells how a painting of the sacrifice of Isaac moved him to tears, Tarasius asked, \"Shall we not weep when we see an image of our crucified Lord?\"",
+    "Session VI: the decree of Hieria was read and answered point by point.",
+    "The decree: images to be set up in churches, on vessels and vestments, in houses and by the roads, and given honorable reverence, not latria; clergy who reject it to be deposed, monks and laity cut off from communion. Twenty-two canons followed, among them one requiring relics in every consecrated church and one ordering the books against images handed in at Constantinople.",
+    "In November, Theophanes says, the decree was read at the Magnaura palace and signed by the emperor and his mother."
+  ],
+  "outcome": [
+    "Hadrian had the acts translated into Latin and kept in the papal library (the Book of the Popes). That translation, Louis Duchesne says, shocked the Frankish clergy and moved Charlemagne to fight the council.",
+    "At Frankfurt in 794, with Hadrian's envoys Theophylact and Stephen present, Charlemagne's bishops rejected the Greek synod. Their capitulary says it had anathematized anyone who would not give the images of the saints the service and adoration given to the Trinity, and places it at Constantinople. The Frankish royal annals call it a false synod that they falsely called the seventh.",
+    "Hefele, as Percival quotes him, says the Franks judged it through false translation and misunderstanding. The acts have Constantine of Constantia reserve \"the worship of adoration\" to \"the supersubstantial and life-giving Trinity\".",
+    "Charlemagne sent chapters against the council to Hadrian by Abbot Angilbert, and Hadrian answered them one by one, so the bishops at Paris in 825 report; they still held that the council had erred.",
+    "In the East, iconoclast emperors returned after Irene; in 843, under the patriarch Methodius, his Life says, the second council of Nicaea gained firm authority. Photius of Constantinople wrote of its acts that at its sessions \"the iconoclasts were defeated and the orthodox faith shone with increased brightness\"."
+  ],
+  "record": [
+    {
+      "witness": "The acts of the Seventh Council in English extracts: the emperors' letters, Sessions I to IV and VI, the decree, the canons and the synodal letter, with Henry Percival's notes (Nicene and Post-Nicene Fathers, series 2, vol. 14)",
+      "kind": "acts",
+      "note": "The record of the side that won. The full acts (Mansi, tomus 12-13) are not held. Percival holds the council ecumenical and argues for it."
+    },
+    {
+      "witness": "The decree of Hieria (754), in Percival's summary drawn mostly from Hefele",
+      "kind": "acts",
+      "note": "The condemned council's own decree, preserved only inside the acts of 787, which read it to refute it."
+    },
+    {
+      "witness": "Irene and Constantine VI, letters to Hadrian I and to the council",
+      "kind": "participant",
+      "note": "The rulers who called the council; partisan."
+    },
+    {
+      "witness": "Theophanes the Confessor, Chronographia (Goar's Latin, and Anastasius the Librarian's Latin version)",
+      "kind": "later narrative",
+      "note": "Greek, for the images, writing within a generation; the only narrative of the broken meeting of the year before."
+    },
+    {
+      "witness": "The Book of the Popes, life of Hadrian I (Duchesne's Latin)",
+      "kind": "later narrative",
+      "note": "Roman; gives about 350 bishops and the Latin translation of the acts."
+    },
+    {
+      "witness": "The capitulary of the synod of Frankfurt (794), in Alfred Boretius's edition, and the Frankish royal annals",
+      "kind": "acts",
+      "note": "The council that rejected Nicaea; Frankish."
+    },
+    {
+      "witness": "The bishops at Paris (825), report to Louis the Pious (Mansi, tomus 14)",
+      "kind": "later narrative",
+      "note": "Frankish; on Charlemagne's chapters and Hadrian's reply, neither held."
+    },
+    {
+      "witness": "Michael the Monk, Life of Theodore the Studite (Migne, PG 99)",
+      "kind": "later narrative",
+      "note": "For the images; gives about 350 fathers."
+    },
+    {
+      "witness": "Life of the patriarch Methodius (Migne, PG 100)",
+      "kind": "later narrative",
+      "note": "On the restoration of 843."
+    },
+    {
+      "witness": "Louis Duchesne, commentary on the Book of the Popes",
+      "kind": "modern reconstruction",
+      "note": "Gives eight sessions from 25 September to 22 October 787."
+    },
+    {
+      "witness": "Charles Joseph Hefele, as quoted by Henry Percival",
+      "kind": "modern reconstruction",
+      "note": "The summary of the Hieria decree, and the view that the Franks misread the council through false translation."
+    }
+  ],
+  "traditions": [
+    {
+      "id": "byzantine-imperial-church-heraclian-iconoclast",
+      "name": "The Byzantine Imperial Church (Heraclian & Iconoclast Eras)",
+      "part": "Gathered",
+      "note": "Irene and Constantine VI called it and Tarasius led it; the council condemned this church's own council of Hieria, and bishops who had opposed images read confessions and were received."
+    },
+    {
+      "id": "iconophile-byzantine-monasticism",
+      "name": "Iconophile Byzantine Monasticism",
+      "part": "Gathered",
+      "note": "Monks sat and spoke: Sabbas, abbot of the Studium, judged a repentant bishop worthy to be received back."
+    },
+    {
+      "id": "carolingian-reform-christianity",
+      "name": "Carolingian Reform Christianity",
+      "part": "Refused",
+      "note": "At Frankfurt in 794 Charlemagne's bishops rejected the Greek synod as one that demanded adoration of images; the royal annals call it a false synod."
+    },
+    {
+      "id": "byzantine-imperial-church-macedonian",
+      "name": "The Byzantine Imperial Church (Macedonian Era)",
+      "part": "Affected",
+      "note": "After the restoration of 843 the council gained firm authority, by the Life of Methodius; Photius wrote that at its sessions the iconoclasts were defeated."
+    }
+  ],
+  "people": [
+    {
+      "name": "Tarasius of Constantinople",
+      "verdict": "LISTED",
+      "part": "Patriarch; asked for the council and led it"
+    },
+    {
+      "name": "Irene",
+      "verdict": "LISTED",
+      "part": "Empress; called the council with her son and signed the decree"
+    },
+    {
+      "name": "Constantine VI",
+      "verdict": "NOT SCORED",
+      "part": "Emperor; called the council with his mother and signed the decree"
+    },
+    {
+      "name": "Hadrian I of Rome",
+      "verdict": "NOT SCORED",
+      "part": "Pope; sent envoys and letters; had the acts translated; answered Charlemagne's chapters"
+    },
+    {
+      "name": "Charlemagne",
+      "verdict": "STORY",
+      "part": "King of the Franks; his bishops rejected the council at Frankfurt"
+    },
+    {
+      "name": "Alcuin of York",
+      "id": "alcuin-of-york",
+      "verdict": "WHO",
+      "part": "Not at Nicaea; at Frankfurt in 794, by Boretius's note, as an envoy from Britain"
+    },
+    {
+      "name": "Photius of Constantinople",
+      "id": "photius-of-constantinople",
+      "verdict": "WHO",
+      "part": "Not present; later read and praised the acts"
+    },
+    {
+      "name": "Basil of Ancyra",
+      "verdict": "NOT SCORED",
+      "part": "Bishop who had opposed images; read his confession and was received"
+    },
+    {
+      "name": "Constantine of Constantia",
+      "verdict": "NOT SCORED",
+      "part": "Bishop in Cyprus; reserved adoration to the Trinity"
+    },
+    {
+      "name": "Sabbas of the Studium",
+      "verdict": "NOT SCORED",
+      "part": "Abbot; spoke in Session I"
+    },
+    {
+      "name": "Constantine V",
+      "verdict": "LISTED",
+      "part": "Long dead; had called the council of Hieria whose decree was condemned"
+    }
+  ],
+  "briefLength": "about 2 minutes 30 seconds",
+  "uncertain": [
+    "The full acts and the list of signatures are not held; the profile rests on Percival's English extracts, the winners' record. The Hieria decree survives only inside them, in a summary drawn mostly from Hefele.",
+    "The count: about 350, in the Book of the Popes and the Life of Theodore the Studite; Theophanes gives none.",
+    "The dates: Theophanes gives 11 October for the first session; Duchesne gives eight sessions from 25 September to 22 October. The broken meeting is dated 17 August in Goar's Latin of Theophanes and 7 August in Anastasius's.",
+    "Whether the Eastern envoys were sent by their patriarchs: the acts say they brought letters from the East; Theodore the Studite later wrote, as Percival quotes him, that they were not, and afterwards changed his view.",
+    "Whether the Franks misread the council: Frankfurt held that it demanded adoration of images as of the Trinity; Hefele and Boretius say the Franks judged wrongly, through a bad translation, in Hefele's view; the bishops at Paris in 825 still rejected adoring images.",
+    "Who wrote the Frankish books against the council (the Caroline Books): Percival inclines to Alcuin; Froben, Alcuin's editor, denies it. The books are not held."
+  ],
+  "sources": {
+    "fromTheCouncil": [
+      {
+        "title": "The Seventh Ecumenical Council: extracts from the acts, the decree, the canons and the synodal letter",
+        "author": "Second Council of Nicaea, ed. Henry R. Percival",
+        "language": "English translation",
+        "file": "cic/texts/npnf214_seven-ecumenical-councils.xml"
+      }
+    ],
+    "fromThoseThere": [
+      {
+        "title": "Letters of Constantine VI and Irene to Hadrian I and to the council",
+        "author": "Irene and Constantine VI, ed. Henry R. Percival",
+        "language": "English translation",
+        "file": "cic/texts/npnf214_seven-ecumenical-councils.xml"
+      }
+    ],
+    "writtenLater": [
+      {
+        "title": "Chronographia",
+        "author": "Theophanes the Confessor",
+        "language": "Greek and Latin",
+        "file": "cic/texts/theophanes-confessor_chronographia-pg108-grc-lat_migne1863.txt"
+      },
+      {
+        "title": "Le Liber Pontificalis, tome 1: life of Hadrian I, with commentary",
+        "author": "ed. Louis Duchesne",
+        "language": "Latin and French",
+        "file": "cic/texts/liber-pontificalis_texte-introduction-commentaire-t1-lat-fra_duchesne1886.txt"
+      },
+      {
+        "title": "Capitularia regum Francorum I: the synod of Frankfurt",
+        "author": "ed. Alfred Boretius",
+        "language": "Latin",
+        "file": "cic/texts/capitulatio-de-partibus-saxoniae_pertz1881.txt"
+      },
+      {
+        "title": "Annales regni Francorum",
+        "author": "ed. Friedrich Kurze",
+        "language": "Latin",
+        "file": "cic/texts/annales-regni-francorum_kurze1895.txt"
+      },
+      {
+        "title": "Sacrorum conciliorum collectio, tomus 14: the bishops at Paris, 825",
+        "author": "Giovanni Domenico Mansi",
+        "language": "Latin",
+        "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-14-lat_welter-facsimile1902.txt"
+      },
+      {
+        "title": "Life of Theodore the Studite",
+        "author": "Michael the Monk, in Migne, PG 99",
+        "language": "Latin",
+        "file": "cic/texts/theodore-studite_opera-omnia-pg99-grc-lat_migne1860.txt"
+      },
+      {
+        "title": "Life of the patriarch Methodius",
+        "author": "in Migne, PG 100",
+        "language": "Latin",
+        "file": "cic/texts/nikephoros-cp_opera-with-vita-stephani-iunioris-pg100-grc-lat_migne1860.txt"
+      },
+      {
+        "title": "The Library, codex 20",
+        "author": "Photius of Constantinople, trans. J. H. Freese",
+        "language": "English translation",
+        "file": "cic/texts/photius_library-v1_freese1920.txt"
+      }
+    ]
+  }
+}

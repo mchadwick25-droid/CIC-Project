@@ -1,0 +1,223 @@
+{
+  "id": "synod-of-whitby-664",
+  "kind": "major-council",
+  "kindLabel": "Major council",
+  "era": 4,
+  "name": "Synod of Whitby",
+  "shortName": "Whitby 664",
+  "dates": "664",
+  "start": 664,
+  "end": 664,
+  "region": "Northumbria, at the monastery of Streaneshalch (Whitby)",
+  "placeLabel": "Whitby",
+  "modernCountries": [
+    {
+      "country": "United Kingdom",
+      "countryId": "Q145",
+      "place": "Whitby"
+    }
+  ],
+  "rivers": [
+    "Latin West"
+  ],
+  "teaser": "Whitby, 664. Before King Oswy of Northumbria, Bishop Colman and his Irish clergy argued for their Easter, and the priest Wilfrid for the Easter of Rome; the king ruled for Peter, and Colman left.",
+  "knownFor": "The meeting of 664 at which King Oswy chose the Roman Easter over the Irish one kept at Lindisfarne, and after which Colman and the monks who would not change went back to Iona and Ireland.",
+  "datesNote": "664. Bede gives the year as 664, the twenty-second of Oswy's reign and the thirtieth of the Irish bishops among the English. Stephen's Life of Wilfrid gives no year. No held source gives a month or day",
+  "issue": [
+    "Easter was kept on different Sundays in Northumbria. Bede says those from Kent or Gaul held that the Scots, as he calls the Irish, kept Easter Sunday against the custom of the universal church, and that Easter was once kept twice in one year at Oswy's court: the king had kept the feast while Queen Eanfleda, who followed the custom of Kent with her priest Romanus, was still keeping Palm Sunday (Bede, History III.25).",
+    "The point in dispute, as Bede's Wilfrid puts it: Rome kept Easter Sunday between the fifteenth and the twenty-first day of the moon, the Irish from the fourteenth to the twentieth. Stephen frames the question the same way, with a variant reading in one manuscript (Stephen, Life of Wilfrid 10).",
+    "The tonsure was also in dispute. Bede names Easter, the tonsure and other church matters as the subjects of the synod, and says there was much controversy about the tonsure too.",
+    "Bede says the quarrel grew under Colman, the third Irish bishop of Lindisfarne. Oswy, taught and baptized by the Irish, \"thought nothing better than what they taught\"; his son Alfrid had been taught by Wilfrid and had given him Ripon, after the monks there who followed the Irish way left rather than change.",
+    "On the Irish side, by Bede's account: Colman with his Irish clergy, the abbess Hild and her followers, and Bishop Cedd. On the Roman side: Agilbert, bishop of the West Saxons, with the priests Agatho and Wilfrid, and James and Romanus. Stephen names only the two bishops, Colman and Agilbert, and Hild as present."
+  ],
+  "calledBy": "No ancient witness names who called it. Bede says only that \"it was agreed, that a synod should be held\" at Streaneshalch; Stephen that abbots, priests and all ranks of the church came together. King Oswy opened and closed it in both accounts. A heading in Mansi's collection of the councils says it was held at Hild's request; no ancient witness says so",
+  "attended": [
+    "Bede names Kings Oswy and Alfrid; Bishops Colman, Agilbert and Cedd; the priests Agatho and Wilfrid; James and Romanus; the abbess Hild and her followers; and Colman's Irish clergy. At the close he speaks of \"all present, both great and small\".",
+    "Stephen names the two kings, Hild, and the bishops Colman and Agilbert, with abbots, priests and all the ranks of the church.",
+    "No witness counts those present, and no list of names is held.",
+    "Cedd, Bede says, was \"a most careful interpreter for both parties\"."
+  ],
+  "decided": [
+    "No acts or canons are held; what was decided reaches us through Bede and Stephen.",
+    "Oswy ruled for Peter. In Bede, after Colman agrees that the keys of heaven were given to Peter and that he can show no such power given to Columba, the king says Peter \"is the door-keeper, whom I will not contradict, but will, as far as I know and am able, in all things obey his decrees\". Stephen gives the king a ruling to the same effect, in Latin.",
+    "In Bede, \"all present, both great and small, gave their assent\" and resolved to follow the better way. In Stephen, the king first asks the whole synod whether Columba or Peter is greater in heaven, and it answers with one voice.",
+    "Neither witness reports a ruling on the tonsure. Bede and Stephen both say Colman refused the Roman Easter and the tonsure."
+  ],
+  "outcome": [
+    "Agilbert went home. Colman took those who would not accept the Roman Easter and the tonsure and went back to the Irish, Bede says, \"to consult with his people what was to be done in this case\". Stephen says, from Wilfrid's side, that Colman left for fear of his own country, leaving his see to a better man.",
+    "Cedd gave up the Irish practice and returned to his see. Tuda, trained among the southern Irish with the Roman Easter and tonsure, became bishop of the Northumbrians, and Eata became abbot of Lindisfarne at Colman's request, \"for the king much loved Bishop Colman on account of his singular discretion\" (Bede III.26).",
+    "Colman took part of Aidan's bones. With the Irish of Lindisfarne and about thirty English monks he went to Iona, then founded a monastery on Inishbofin, an island west of Ireland, and another at Mayo for the English (Bede IV.4).",
+    "Wilfrid was chosen bishop, Stephen says, and was consecrated in Gaul (Stephen 11; Bede III.28).",
+    "The Roman Easter spread slowly. Bede tells of Adomnán of Iona keeping it in Ireland but failing to win his own monks; of the Pictish king Naitan taking it after a letter from Abbot Ceolfrid; and of Iona taking the catholic rites under Abbot Dunchad, about eighty years after it had sent Aidan (Bede V.15, V.21, V.22). In Bede's own day, he says, the Britons still kept their own Easter. The Welsh annals record its change among the Britons in the year their editor gives as 768.",
+    "The Welsh annals note the first Easter kept among the Saxons in the year their editor gives as 665."
+  ],
+  "record": [
+    {
+      "witness": "Bede, Ecclesiastical History of the English People III.25-26 (Giles's English, revised by Jane; Plummer's Latin)",
+      "kind": "later narrative",
+      "note": "Finished in 731, sixty-seven years after the synod. Openly on the Roman side. The fullest account and the only one with the long speeches, Cedd's interpreting and the year; Bede names no source for this chapter."
+    },
+    {
+      "witness": "Stephen, Life of Wilfrid 10-11 (Latin, in James Raine's Historians of the Church of York)",
+      "kind": "later narrative",
+      "note": "A priest of Wilfrid's household, writing for him; Raine dates the Life to within a few years of Wilfrid's death in 709, and says Stephen came north with Wilfrid in 669, after the synod. A shorter account, independent of Bede, that differs from him on Wilfrid's argument and on how the king's ruling came."
+    },
+    {
+      "witness": "Fridegod's verse Life and Eadmer's Life of Wilfrid (in Raine)",
+      "kind": "later narrative",
+      "note": "Tenth- and twelfth-century retellings that draw on Stephen and Bede; not independent."
+    },
+    {
+      "witness": "Annales Cambriae",
+      "kind": "later narrative",
+      "note": "A Welsh annal collection; notes the first Easter among the Saxons and, later, the change of Easter among the Britons. Years are its editor's."
+    },
+    {
+      "witness": "Mansi, Sacrorum conciliorum collectio, tomus 11, \"Synodus Pharensis\"",
+      "kind": "modern reconstruction",
+      "note": "Reprints Bede's chapters under a heading of its own, which says the synod was held at Hild's request; Severinus Binius's note there calls it a conference rather than a synod."
+    },
+    {
+      "witness": "Charles Plummer, introduction to Bede (1896)",
+      "kind": "modern reconstruction",
+      "note": "Places the southern Irish as already keeping the Roman Easter before Whitby, and dates the later changes in the north."
+    },
+    {
+      "witness": "James Raine, preface to the Historians of the Church of York (1879)",
+      "kind": "modern reconstruction",
+      "note": "Dates Stephen's Life and weighs Bede's and Stephen's accounts of the synod."
+    }
+  ],
+  "traditions": [
+    {
+      "id": "anglo-saxon-christianity",
+      "name": "Anglo-Saxon Christianity",
+      "part": "Gathered",
+      "note": "King Oswy's Northumbrian church, with Agilbert of the West Saxons and Wilfrid on the Roman side; the king ruled that Peter \"is the door-keeper, whom I will not contradict\" (Bede III.25)."
+    },
+    {
+      "id": "insular-irish-monastic-christianity",
+      "name": "Insular / Irish Monastic Christianity",
+      "part": "Refused",
+      "note": "Colman of Lindisfarne and his Irish clergy argued for the Easter of their elders and of Columba; Colman left with those \"such as would not comply with the Catholic Easter and the tonsure\" (Bede III.26)."
+    },
+    {
+      "id": "medieval-irish-christianity",
+      "name": "Medieval Irish Christianity",
+      "part": "Affected",
+      "note": "Colman took the monks who would not change to Iona and then to Inishbofin and Mayo in Ireland (Bede IV.4); Iona took the Roman Easter only under Abbot Dunchad, about eighty years after it had sent Aidan (Bede V.22)."
+    },
+    {
+      "id": "british-welsh-christianity",
+      "name": "British and Welsh Christianity",
+      "part": "Affected",
+      "note": "Bede's Wilfrid named the Britons with the Picts as the Irish party's \"accomplices in obstinacy\"; in Bede's day they still kept their own Easter, and the Welsh annals record its change in the year their editor gives as 768."
+    }
+  ],
+  "people": [
+    {
+      "name": "Hild of Whitby",
+      "id": "hild-of-whitby",
+      "verdict": "WHO",
+      "part": "Abbess of the house where the synod met; for the Irish side with her followers, by Bede's account; only present, in Stephen's"
+    },
+    {
+      "name": "Wilfrid of Ripon",
+      "id": "wilfrid-of-ripon",
+      "verdict": "WHO",
+      "part": "Priest; spoke for the Roman Easter in Agilbert's place; chosen bishop afterwards"
+    },
+    {
+      "name": "Cedd and Chad",
+      "id": "cedd-and-chad",
+      "verdict": "WHO",
+      "part": "Cedd, bishop of the East Saxons, stood with the Irish side and interpreted for both, then took the Roman Easter"
+    },
+    {
+      "name": "Colman of Lindisfarne",
+      "verdict": "STORY",
+      "part": "Bishop of Lindisfarne; spoke for the Irish Easter; left with those who would not change"
+    },
+    {
+      "name": "Aidan of Lindisfarne",
+      "id": "aidan-of-lindisfarne",
+      "verdict": "WHO",
+      "part": "Long dead; the first Irish bishop at Lindisfarne, whose Easter was tolerated in his lifetime, by Bede's account; Colman took part of his bones"
+    },
+    {
+      "name": "Oswy of Northumbria",
+      "verdict": "NOT SCORED",
+      "part": "King; opened the synod, questioned both sides and ruled for Peter"
+    },
+    {
+      "name": "Alfrid of Northumbria",
+      "verdict": "NOT SCORED",
+      "part": "Oswy's son and fellow king; on the Roman side; had given Ripon to Wilfrid"
+    },
+    {
+      "name": "Agilbert of the West Saxons",
+      "verdict": "NOT SCORED",
+      "part": "Frankish bishop; led the Roman side and asked Wilfrid to speak for him"
+    },
+    {
+      "name": "Eanfleda of Northumbria",
+      "verdict": "NOT SCORED",
+      "part": "Queen; kept the Easter of Kent at Oswy's court"
+    },
+    {
+      "name": "Tuda of Northumbria",
+      "verdict": "NOT SCORED",
+      "part": "Made bishop of the Northumbrians after Colman left"
+    },
+    {
+      "name": "Eata of Melrose",
+      "verdict": "NOT SCORED",
+      "part": "Made abbot of Lindisfarne at Colman's request"
+    }
+  ],
+  "briefLength": "about 2 minutes 30 seconds",
+  "uncertain": [
+    "No record of the synod survives. Both accounts, Bede's of 731 and Stephen's Life of Wilfrid, are from the winning, Roman side; the Irish case reaches us only as they report it.",
+    "The speeches are Bede's telling. He alone gives them at length, and names no source for the chapter. Stephen's Wilfrid argues from the 318 fathers of the Council of Nicaea and the nineteen-year cycle, not from Peter; in Stephen it is the king who raises Peter.",
+    "How the ruling came: in Bede, the king questions Colman and Wilfrid and then rules; in Stephen, the king, smiling, asks the whole synod whether Columba or Peter is greater, and it answers with one voice before he rules.",
+    "Hild's part: Bede puts her and her followers on the Irish side; Stephen names her only as present. A heading in Mansi says the synod was held at her request; no ancient witness says so.",
+    "Who called the synod: no ancient witness names anyone.",
+    "Why Colman left: Bede says he went to consult his people; Stephen, writing for Wilfrid, says he left for fear of his own country.",
+    "The year is Bede's, 664; Stephen gives none, and no held source gives a month.",
+    "The reach of the ruling: Bede shows Oswy's church changing; the northern Irish, the Picts, Iona and the Britons changed only later, by his own account and the Welsh annals."
+  ],
+  "sources": {
+    "writtenLater": [
+      {
+        "title": "Ecclesiastical History of the English People, III.25-28, IV.4, V.15, V.21-22",
+        "author": "Bede, trans. J. A. Giles, revised by L. C. Jane",
+        "language": "English translation",
+        "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt"
+      },
+      {
+        "title": "Historia ecclesiastica gentis Anglorum, III.25-26",
+        "author": "Bede, ed. Charles Plummer",
+        "language": "Latin",
+        "file": "cic/texts/bede_opera-historica-v1-historia-abbatum-lat_plummer1896.txt"
+      },
+      {
+        "title": "Vita Wilfridi episcopi, chapters 10-11, with Fridegod's and Eadmer's Lives",
+        "author": "Stephen, in James Raine, Historians of the Church of York, vol. 1",
+        "language": "Latin",
+        "file": "cic/texts/byrhtferth_vita-s-oswaldi-in-historians-of-the-church-of-york-v1-lat_raine1879.txt"
+      },
+      {
+        "title": "Annales Cambriae",
+        "author": "ed. John Williams ab Ithel",
+        "language": "Latin",
+        "file": "cic/texts/annales-cambriae-rolls-series-20-lat_williams-ab-ithel1860.txt"
+      },
+      {
+        "title": "Sacrorum conciliorum collectio, tomus 11 (Synodus Pharensis)",
+        "author": "Giovanni Domenico Mansi",
+        "language": "Latin",
+        "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-11-lat_welter-facsimile1901.txt"
+      }
+    ]
+  }
+}

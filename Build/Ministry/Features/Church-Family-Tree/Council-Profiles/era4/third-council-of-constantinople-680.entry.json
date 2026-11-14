@@ -1,0 +1,347 @@
+{
+  "id": "third-council-of-constantinople-680",
+  "kind": "major-council",
+  "kindLabel": "Major council",
+  "era": 4,
+  "name": "Third Council of Constantinople",
+  "shortName": "Constantinople 680-681",
+  "informalName": "The Sixth Council",
+  "dates": "680-681",
+  "start": 680,
+  "end": 681,
+  "region": "Constantinople, in the domed hall of the imperial palace called the Trullus",
+  "placeLabel": "Constantinople",
+  "modernCountries": [
+    {
+      "country": "Turkey",
+      "countryId": "Q43",
+      "place": "Constantinople",
+      "placeId": "Q16869",
+      "pleiadesId": "520998"
+    }
+  ],
+  "rivers": [
+    "Greek East",
+    "Latin West",
+    "Syriac East"
+  ],
+  "teaser": "Constantinople, 680-681. Under the emperor Constantine IV, with Pope Agatho's envoys, the bishops condemned the teaching of one will in Christ, deposed Macarius of Antioch and anathematized Pope Honorius.",
+  "knownFor": "The council that defined two wills and two operations in Christ, and among the teachers of one will anathematized a pope of Rome, Honorius.",
+  "datesNote": "680-681. The acts date the first session to 7 November in the ninth indiction, and the last to 16 September in the tenth; Henry Percival gives the years as 680 and 681 and the sessions as eighteen. The Book of the Popes gives 22 November for the opening; Louis Duchesne, its editor, says its session dates are nearly all wrong",
+  "issue": [
+    "The pope's envoys told the council that for forty-six years, more or less, bishops of Constantinople, Sergius, Paul, Pyrrhus and Peter, with Cyrus of Alexandria and Theodore of Pharan, had taught one will and one operation in Christ (Session I).",
+    "Macarius of Antioch and his party answered that they had invented no new terms, but held what they had received from the councils and fathers, and from Sergius, Paul, Pyrrhus, Peter, Honorius, who was pope of Old Rome, and Cyrus (Session I, in modern words from the Latin). His own profession, read in Session VIII, says \"one will and one theandric operation\"; it also curses Maximus.",
+    "Pope Agatho's letter called for two natural wills and operations, said the church of Rome \"has never erred from the path of the apostolic tradition\", and named those who erred as Cyrus, Theodore of Pharan, Sergius, Pyrrhus, Paul and Peter, without Honorius.",
+    "Michael the Syrian, a Syriac Orthodox patriarch of the 1100s and hostile to the council, says Macarius argued at length from the testimonies of Cyril that two wills are a heresy."
+  ],
+  "calledBy": "The emperor Constantine IV. His letter to Pope Donus, which Agatho received after Donus died, asked Rome for envoys and bishops and said he wished to compel no one (the acts, in Mansi). The definition says the council met by his decree, and he presided in person (the acts; Percival)",
+  "attended": [
+    "The Book of the Popes gives 150 bishops of the East with the papal envoys, as does Paul the Deacon after it. Theophanes gives 289, and so does Eutychius of Alexandria, a Melkite chronicler, by his own sum. Michael the Syrian gives 250, with Agatho's envoys.",
+    "Henry Percival says the number present was under three hundred and that the minutes of the last session have only 174 signatures. No count of the held list was made for this profile.",
+    "The acts of Session I name the Roman envoys, the priests Theodore and George and the deacon John; George of Constantinople; Peter, holding the place of Alexandria; Macarius of Antioch; George, for the vicar of Jerusalem; three bishops for the Roman synod; and Theodore for Ravenna. The emperor sat in the middle, the Roman envoys on his left and the patriarchs of Constantinople and Antioch on his right (Percival).",
+    "Before the council, a Roman synod of 125 bishops wrote to the emperors; Wilfrid of Ripon signed its letter for the synod of Britain (Mansi), and at Hatfield the English bishops confirmed their faith before John, archchanter of Saint Peter's (Bede IV.17)."
+  ],
+  "decided": [
+    "Session VIII, 7 March: George of Constantinople accepted Agatho's letters: \"Therefore I give my submission to them and thus I profess and believe.\" Macarius refused to speak of two natural wills even if he were cut limb from limb and thrown into the sea, and the bishops had him stripped of his pallium.",
+    "Session IX: Macarius and his disciple Stephen were deposed from all priestly rank.",
+    "Session XIII, 28 March: Sergius, Cyrus, Pyrrhus, Paul, Peter and Theodore of Pharan were anathematized, and \"with these ... Honorius who was some time Pope of Old Rome, because of what we found written by him to Sergius, that in all respects he followed his view and confirmed his impious doctrines\". Sophronius of Jerusalem's synodal letter was received as orthodox.",
+    "Session XV, 26 April: the monk Polychronius, who had failed to raise a dead man at the Zeuxippus baths by laying his statement of faith on the body, was condemned.",
+    "Session XVIII, 16 September 681: the definition declared \"two natural wills and two natural operations indivisibly, inconvertibly, inseparably, inconfusedly\", the human will \"subject to his divine and omnipotent will\", and named the condemned, Honorius among them. The council's letter to Agatho says the emperor signed the decrees with his own hand."
+  ],
+  "outcome": [
+    "Agatho had died during the council, on 10 January 681 by Duchesne's reckoning. Leo II accepted the council (the Book of the Popes). To the emperor he anathematized Honorius, who tried to overturn the spotless faith by profane betrayal; to the bishops of Spain he wrote that Honorius did not put out the flame of heresy as it began, but fed it by neglect (Leo's letters, in Mansi).",
+    "Macarius and his followers were exiled to Rome (the Book of the Popes); Michael the Syrian says he stayed there a prisoner to the end of his life.",
+    "In Spain, the fourteenth council of Toledo, in the fifth year of King Ervig, received the acts so far as they did not depart from the earlier councils, and set them after Chalcedon; its statement of faith drew questions from Rome that the fifteenth council answered.",
+    "The papal oath of the Liber Diurnus, which Percival says each new pope took from the fifth to the eleventh century, cursed Sergius and the others \"together with Honorius, because he assisted the base assertion of the heretics\", in Percival's English.",
+    "Michael the Syrian, from the losing side of Chalcedon, closes his account: this, he says, is how the pernicious heresy of Maximus came in.",
+    "Whether the Maronites held to one will after the council is disputed: Eutychius, William of Tyre and Michael the Syrian say so; Istifan al-Duwayhi, a Maronite patriarch, answers that the charge rests on Eutychius. The acts name no Maronites."
+  ],
+  "record": [
+    {
+      "witness": "The acts of the Sixth Council, Greek and Latin (Mansi, tomus 11)",
+      "kind": "acts",
+      "note": "The full record of the side that won, with dated sessions, the documents read and the signatures; the Greek column is poorly read in the file and the Latin is used."
+    },
+    {
+      "witness": "The acts in English extracts, with Henry Percival's introduction and excursus on Honorius (Nicene and Post-Nicene Fathers, series 2, vol. 14)",
+      "kind": "acts",
+      "note": "Percival, an Anglican editor, argues against the papal reading of the Honorius condemnation; his notes quote Hefele, Bossuet and others."
+    },
+    {
+      "witness": "Pope Agatho's letter to the emperors, and the letter of his Roman synod",
+      "kind": "participant",
+      "note": "Rome's case, sent with the envoys; partisan."
+    },
+    {
+      "witness": "Constantine IV's letter to Pope Donus",
+      "kind": "participant",
+      "note": "The emperor who called and led the council; partisan for it."
+    },
+    {
+      "witness": "Leo II's letters to the emperor and to the bishops of Spain (Mansi)",
+      "kind": "participant",
+      "note": "The pope who accepted the council; the two letters judge Honorius differently. Baronius held them spurious, Pagi genuine, as Binius and Pagi's notes in Mansi report."
+    },
+    {
+      "witness": "The Book of the Popes, lives of Agatho and Leo II (Duchesne's Latin)",
+      "kind": "later narrative",
+      "note": "Roman; Duchesne argues Agatho's life was written before July 682 and that its session dates are nearly all wrong."
+    },
+    {
+      "witness": "Theophanes the Confessor, Chronographia",
+      "kind": "later narrative",
+      "note": "Greek; gives 289 bishops."
+    },
+    {
+      "witness": "Michael the Syrian, Chronicle, Book XI (Chabot's French)",
+      "kind": "later narrative",
+      "note": "Syriac Orthodox patriarch of the 1100s; hostile to the council and to Chalcedon; says bishops signed under force."
+    },
+    {
+      "witness": "Eutychius of Alexandria, Annals (Latin, in Migne, PG 111)",
+      "kind": "later narrative",
+      "note": "Melkite; gives 289 bishops and calls Macarius a Maronite."
+    },
+    {
+      "witness": "Bede, Ecclesiastical History IV.17-18 and V.19",
+      "kind": "later narrative",
+      "note": "Hatfield, John the archchanter, and Wilfrid at Agatho's synod."
+    },
+    {
+      "witness": "Councils of Toledo XIV and XV (the Hispana collection)",
+      "kind": "acts",
+      "note": "The acts of the Spanish councils that received the Sixth Council."
+    },
+    {
+      "witness": "William of Tyre, History, and Istifan al-Duwayhi, History of the Maronites",
+      "kind": "later narrative",
+      "note": "William, a Latin of the 1180s, says the sixth synod was gathered against the Maronites' error; al-Duwayhi, a Maronite patriarch, answers him."
+    },
+    {
+      "witness": "Louis Duchesne, commentary on the Book of the Popes",
+      "kind": "modern reconstruction",
+      "note": "Dates Agatho's death and weighs the Book of the Popes against the acts."
+    }
+  ],
+  "traditions": [
+    {
+      "id": "byzantine-imperial-church-heraclian-iconoclast",
+      "name": "The Byzantine Imperial Church (Heraclian & Iconoclast Eras)",
+      "part": "Gathered",
+      "note": "Constantine IV called and led the council in the palace at Constantinople, and George of Constantinople accepted Agatho's letters. The council condemned this church's own former patriarchs, Sergius, Pyrrhus, Paul and Peter, and deposed Macarius of Antioch; the census entry already says it taught two wills without naming Maximus."
+    },
+    {
+      "id": "anglo-saxon-christianity",
+      "name": "Anglo-Saxon Christianity",
+      "part": "Affected",
+      "note": "At Hatfield the English bishops set out their faith before Agatho's envoy John, and Wilfrid signed the Roman synod's letter for Britain (Bede IV.17-18; Mansi)."
+    },
+    {
+      "id": "nicene-visigothic-iberia",
+      "name": "Nicene Visigothic Iberia",
+      "part": "Affected",
+      "note": "The fourteenth council of Toledo received the acts \"in quantum a praemissis conciliis non disciscunt\", so far as they do not depart from the earlier councils."
+    },
+    {
+      "id": "syriac-orthodox-under-islam",
+      "name": "Syriac Orthodox Christianity under Islam",
+      "part": "Refused",
+      "note": "Michael the Syrian tells the council from the side that rejected Chalcedon, and says it brought in the pernicious heresy of Maximus."
+    }
+  ],
+  "people": [
+    {
+      "name": "Maximus the Confessor",
+      "id": "maximus-the-confessor",
+      "verdict": "WHO",
+      "part": "Dead; his teaching of two wills was defined, though the definition does not name him; Macarius's profession cursed him"
+    },
+    {
+      "name": "Martin I of Rome",
+      "id": "martin-i-of-rome",
+      "verdict": "WHO",
+      "part": "Dead; the Roman synod of 680 and Hatfield cite his synod of 649"
+    },
+    {
+      "name": "Sophronius of Jerusalem",
+      "id": "sophronius-of-jerusalem",
+      "verdict": "WHO",
+      "part": "Dead; his synodal letter was received and his name ordered into the diptychs"
+    },
+    {
+      "name": "Theodore of Tarsus",
+      "id": "theodore-of-tarsus",
+      "verdict": "WHO",
+      "part": "Not present; presided at Hatfield, which set out the English faith for Rome before the council"
+    },
+    {
+      "name": "Wilfrid of Ripon",
+      "id": "wilfrid-of-ripon",
+      "verdict": "WHO",
+      "part": "Not present; signed the Roman synod's letter for the synod of Britain"
+    },
+    {
+      "name": "Julian of Toledo",
+      "id": "julian-of-toledo",
+      "verdict": "WHO",
+      "part": "Not present; signed first at the fourteenth council of Toledo, which received the acts"
+    },
+    {
+      "name": "Honorius I of Rome",
+      "verdict": "LISTED",
+      "part": "Long dead; anathematized for his letter to Sergius"
+    },
+    {
+      "name": "Sergius of Constantinople",
+      "verdict": "LISTED",
+      "part": "Long dead; anathematized"
+    },
+    {
+      "name": "Cyrus of Alexandria",
+      "verdict": "LISTED",
+      "part": "Long dead; anathematized"
+    },
+    {
+      "name": "Pyrrhus of Constantinople",
+      "verdict": "LISTED",
+      "part": "Dead; anathematized"
+    },
+    {
+      "name": "Paul of Constantinople",
+      "verdict": "LISTED",
+      "part": "Dead; anathematized"
+    },
+    {
+      "name": "Constantine IV",
+      "verdict": "NOT SCORED",
+      "part": "Emperor; called the council, presided and signed the decrees"
+    },
+    {
+      "name": "Agatho of Rome",
+      "verdict": "NOT SCORED",
+      "part": "Pope; sent envoys and a letter; died during the council"
+    },
+    {
+      "name": "Leo II of Rome",
+      "verdict": "NOT SCORED",
+      "part": "Pope; accepted the council and wrote on Honorius"
+    },
+    {
+      "name": "George I of Constantinople",
+      "verdict": "NOT SCORED",
+      "part": "Patriarch; accepted Agatho's letters"
+    },
+    {
+      "name": "Macarius of Antioch",
+      "verdict": "NOT SCORED",
+      "part": "Patriarch; spoke for one will; deposed and exiled to Rome"
+    },
+    {
+      "name": "Polychronius",
+      "verdict": "NOT SCORED",
+      "part": "Monk; tried to raise a dead man with his statement of faith; condemned"
+    }
+  ],
+  "briefLength": "about 2 minutes 30 seconds",
+  "uncertain": [
+    "The acts are the winners' record. Macarius and Polychronius reach us only inside them, and Michael the Syrian, who is hostile to the council, writes from outside both parties.",
+    "The count: 150 in the Book of the Popes and Paul the Deacon; 289 in Theophanes and Eutychius; 250 in Michael the Syrian; Percival says under three hundred, with 174 signatures on the last session.",
+    "The opening date: the acts give 7 November; the Book of the Popes 22 November, which Duchesne holds wrong.",
+    "Honorius: the acts condemn him in several sessions and letters. Whether he taught one will is disputed: Pope John IV in 641 and Maximus held that his letter meant only that Christ had no contrary wills; Agatho's letter leaves him out; Leo II wrote of betrayal to the emperor and of neglect to the Spanish bishops; Baronius later held the name inserted into the acts, and Percival answers him.",
+    "Whether George of Constantinople resisted: the acts say he accepted Agatho's letters; Michael the Syrian says he and the patriarch of Antioch refused and were deposed.",
+    "The Maronites: the acts do not name them; the link rests on Eutychius, William of Tyre and Michael the Syrian, and al-Duwayhi rejects it.",
+    "The date of Leo II's letter to the emperor: Carl Mirbt gives 682, Duchesne 683."
+  ],
+  "sources": {
+    "fromTheCouncil": [
+      {
+        "title": "Concilium Constantinopolitanum III: acts, definition, letters and subscriptions",
+        "author": "Third Council of Constantinople, in Giovanni Domenico Mansi, Sacrorum conciliorum collectio, tomus 11",
+        "language": "Greek and Latin",
+        "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-11-lat_welter-facsimile1901.txt"
+      },
+      {
+        "title": "The Sixth Ecumenical Council: extracts from the acts, the definition and the letters",
+        "author": "Third Council of Constantinople, ed. Henry R. Percival",
+        "language": "English translation",
+        "file": "cic/texts/npnf214_seven-ecumenical-councils.xml"
+      }
+    ],
+    "fromThoseThere": [
+      {
+        "title": "Letter to the emperors",
+        "author": "Agatho of Rome, ed. Henry R. Percival",
+        "language": "English translation",
+        "file": "cic/texts/npnf214_seven-ecumenical-councils.xml"
+      },
+      {
+        "title": "Letters to Constantine IV and to the bishops of Spain",
+        "author": "Leo II of Rome, in Mansi, tomus 11",
+        "language": "Latin",
+        "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-11-lat_welter-facsimile1901.txt"
+      }
+    ],
+    "writtenLater": [
+      {
+        "title": "Le Liber Pontificalis, tome 1: lives of Agatho and Leo II, with commentary",
+        "author": "ed. Louis Duchesne",
+        "language": "Latin and French",
+        "file": "cic/texts/liber-pontificalis_texte-introduction-commentaire-t1-lat-fra_duchesne1886.txt"
+      },
+      {
+        "title": "Chronographia",
+        "author": "Theophanes the Confessor",
+        "language": "Greek and Latin",
+        "file": "cic/texts/theophanes-confessor_chronographia-pg108-grc-lat_migne1863.txt"
+      },
+      {
+        "title": "Chronique, tome II (Book XI)",
+        "author": "Michael the Syrian, trans. Jean-Baptiste Chabot",
+        "language": "French translation",
+        "file": "cic/texts/michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt"
+      },
+      {
+        "title": "Annales",
+        "author": "Eutychius of Alexandria, in Migne, PG 111",
+        "language": "Latin",
+        "file": "cic/texts/nicholas-mystikos_epistolae-with-eutychius-alexandrinus-pg111-grc-lat_migne1863.txt"
+      },
+      {
+        "title": "Ecclesiastical History of the English People, IV.17-18",
+        "author": "Bede, trans. J. A. Giles, revised by L. C. Jane",
+        "language": "English translation",
+        "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt"
+      },
+      {
+        "title": "Councils of Toledo XIV and XV",
+        "author": "Collectio canonum ecclesiae Hispanae",
+        "language": "Latin",
+        "file": "cic/texts/collectio-canonum-ecclesiae-hispanae-toledo-iii-lat_1808.txt"
+      },
+      {
+        "title": "Historia rerum in partibus transmarinis gestarum",
+        "author": "William of Tyre",
+        "language": "Latin",
+        "file": "cic/texts/william-tyre_historia-rerum-in-partibus-transmarinis-gestarum-v2-lat-fra_rhc1844.txt"
+      },
+      {
+        "title": "Tarikh al-ta'ifa al-maruniyya",
+        "author": "Istifan al-Duwayhi",
+        "language": "Arabic",
+        "file": "cic/texts/duwayhi_tarikh-al-taifa-al-maruniyya-ara_shartuni189x.txt"
+      },
+      {
+        "title": "Enchiridion symbolorum: Honorius and John IV",
+        "author": "Heinrich Denzinger, ed. Clemens Bannwart",
+        "language": "Latin",
+        "file": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt"
+      },
+      {
+        "title": "Quellen zur Geschichte des Papsttums",
+        "author": "Carl Mirbt",
+        "language": "German and Latin",
+        "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt"
+      }
+    ]
+  }
+}

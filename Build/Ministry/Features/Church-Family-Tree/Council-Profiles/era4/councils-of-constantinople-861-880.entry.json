@@ -1,0 +1,322 @@
+{
+  "id": "councils-of-constantinople-861-880",
+  "kind": "major-council",
+  "kindLabel": "Major council",
+  "era": 4,
+  "name": "Councils of Constantinople in the Photian affair",
+  "shortName": "Constantinople 861-880",
+  "informalName": "The Photian councils",
+  "dates": "861-880",
+  "start": 861,
+  "end": 880,
+  "region": "Constantinople: the church of the Holy Apostles (861), the imperial palace and Hagia Sophia (869-870, 879-880)",
+  "placeLabel": "Constantinople",
+  "modernCountries": [
+    {
+      "country": "Turkey",
+      "countryId": "Q43",
+      "place": "Constantinople",
+      "placeId": "Q16869",
+      "pleiadesId": "520998"
+    }
+  ],
+  "rivers": [
+    "Greek East",
+    "Latin West"
+  ],
+  "teaser": "Constantinople, 861-880. Four councils over the patriarch Photius: one confirmed him, one under him condemned Pope Nicholas I, one deposed him with Rome's envoys, and one under him and Pope John VIII's envoys restored him.",
+  "knownFor": "The councils over Photius and Ignatius in which Rome and Constantinople contested Bulgaria and the creed, and which East and West came to count differently.",
+  "datesNote": "861, 867, 869-870 and 879-880. Antoine Pagi, in Mansi, puts the council of 861 in May, after Easter; no ancient held witness gives its month. The acts of 869-870 date the first session to 5 October and the eighth to the Nones of November, in Basil's third year; the ninth to the day before the Ides of February. The acts of 879-880 date the second session to 17 November and the seventh to 13 March; Binius, after Baronius, gives some days differently",
+  "issue": [
+    "Ignatius was removed as patriarch, and Photius, a layman, was made patriarch in six days (Nicetas, Life of Ignatius). The Life of Nicholas I in the Book of the Popes calls him a soldier tonsured against the canons.",
+    "Pope Nicholas I sent Radoald of Porto and Zacharias of Anagni to inquire, and not to take communion with Photius (the Book of the Popes); he wrote to the emperor Michael III that Rome would not receive Photius or condemn Ignatius (Nicholas's letter, in Mansi).",
+    "Bulgaria: its ruler Boris, newly baptized, asked Louis the German and then Nicholas for clergy (the annals of Saint-Bertin, by Hincmar of Reims). Photius wrote to the Eastern patriarchs that the Latins had fallen on Bulgaria like a wild boar on the Lord's vineyard, listing the Saturday fast, contempt of married priests, the repeated anointing of the baptized and the addition to the creed (his encyclical, in Will's Latin).",
+    "The creed: Photius charged that the Latins taught the Holy Spirit proceeds not from the Father alone but from the Son also (the encyclical). The council of 879-880 forbade any addition to the creed.",
+    "Rome's rank: a canon of 869-870 forbade anyone to write against the pope of Old Rome, as Photius had lately done, and Dioscorus long before (canon 21 in Denzinger's numbering)."
+  ],
+  "calledBy": "861: the emperor Michael III, who was present (Nicetas). 867: Photius, with the emperors (Metrophanes of Smyrna; Anastasius). 869-870: Basil I, at the request of Pope Hadrian II, who asked that his envoys preside (Hadrian's letter); Basil presided at the eighth session (the acts). 879-880: Photius presided, with Pope John VIII's envoys sitting with him (the acts); the emperors presided at the sixth session",
+  "attended": [
+    "861: Severinus Binius, the Roman editor in Mansi, gives 318 schismatic bishops, \"as they boasted\"; the Pedalion gives 318, citing Dositheos. Nicholas I says only that the Byzantines claimed nearly the number of Nicaea. Radoald and Zacharias sat (Nicetas). No list is held.",
+    "867: Anastasius says Photius forged about a thousand signatures, with only twenty-one bishops agreeing; Metrophanes says the emperors, vicars of the three Eastern patriarchates, the senate, bishops and clergy signed, and Anastasius that the vicars were false. No list is held.",
+    "869-870: the acts of the ninth session speak of more than a hundred bishops; Nicetas gives 102; Binius counts 101 signers. A list of signatures is held; no count of it was made for this profile. The Roman envoys were Donatus of Ostia, Stephen of Nepi and the deacon Marinus; Anastasius the Librarian came with the envoys of the emperor Louis II for the last session.",
+    "879-880: the Pedalion gives 383, as does Binius after Baronius; Nilus of Rhodes 380; a Greek tract printed in Mansi gives 380 and suspects Photius of inventing names. The first session's list is held and was not counted. John VIII's envoys were Paul of Ancona, Eugenius of Ostia and the cardinal priest Peter."
+  ],
+  "decided": [
+    "861 (no acts): Ignatius was deposed, by Nicetas's account under the apostolic canon against bishops made by the secular power, and Photius confirmed; Nicetas says seventy-two false witnesses spoke, Ignatius was stripped of his robe, and the papal envoys joined the cry \"Indignus\", unworthy. The Pedalion says the council issued canons but that its acts are not found.",
+    "867 (no acts): Photius's council condemned and anathematized Nicholas (Metrophanes; Anastasius). Hadrian II had every copy burned; one was burned at Rome in 869 and the rest by the council of 869-870 (the Book of the Popes; the acts).",
+    "869-870 (acts): canon 4 declares that Photius never was, and is not, a bishop, and voids his ordinations; Ignatius was restored; the council confirmed the Second Council of Nicaea; canon 21 forbids writing against the pope of Old Rome. In the eighth session the pledges Photius had taken and his books against Nicholas were burned.",
+    "Bulgaria, after 869-870: three days after the last session, at the palace, the vicars of the Eastern patriarchs assigned Bulgaria to Constantinople over the protest of Rome's envoys (the Book of the Popes; Anastasius's preface).",
+    "879-880 (acts): Photius was received; John VIII's instruction asked that the synod held against Photius in Hadrian's time, at Rome and Constantinople, be null and void; the question of Bulgaria was left to the emperor; the definition of the sixth session kept the creed \"nihil detrahentes, nihil adjicientes\", taking nothing away and adding nothing."
+  ],
+  "outcome": [
+    "Nicholas I, at a Roman synod, deposed Zacharias and condemned Radoald for exceeding their charge (the Book of the Popes; Hincmar says Radoald fled by night).",
+    "Basil I put Photius out on taking power, and the council of 869-870 restored Ignatius. Hincmar of Reims, in the annals of Saint-Bertin, says that council decreed on images against the orthodox doctors and against its own earlier synod, to please the pope.",
+    "Bulgaria went to Constantinople after 869-870 (the Book of the Popes).",
+    "After 879-880, by Binius's account after Baronius, John VIII learned Bulgaria would not be restored and anathematized Photius; Cornelius Will says Marinus, Hadrian III and Stephen V repeated it. No letter of John himself saying so is held.",
+    "Photius was later expelled under Leo VI and died, by Cornelius Will's dating, in 891.",
+    "The reckoning parted. The Pedalion says the Latins named the council against Photius the eighth ecumenical, and that the council for Photius rejected it. In 1053 or 1054 Leo IX wrote of seven councils; Will notes the Greeks put the council of 879 in place of 869's. At Florence in 1438, Mark of Ephesus said the council of 879, also called the eighth, had rescinded the acts against Photius, and that in the great church of Constantinople an anathema was still read on all written or said against the holy patriarchs Photius and Ignatius."
+  ],
+  "record": [
+    {
+      "witness": "The acts of 869-870, in Anastasius the Librarian's Latin, with a shorter Greek version (Mansi, tomus 16)",
+      "kind": "acts",
+      "note": "The record of the council that deposed Photius; Anastasius was present at its last session. Its canons are also in Denzinger, whose editor notes the two forms."
+    },
+    {
+      "witness": "The acts of 879-880, Greek and Latin (Mansi, tomus 17-18)",
+      "kind": "acts",
+      "note": "The record of the council that restored Photius, first printed from a Vatican Greek codex. An unsigned note in Mansi says its last two sessions were forged by Photius."
+    },
+    {
+      "witness": "Photius, encyclical to the Eastern patriarchs (Latin, in Cornelius Will's edition)",
+      "kind": "participant",
+      "note": "The convener of 867, in his own words: the charges against the Latins in Bulgaria and on the creed."
+    },
+    {
+      "witness": "Nicholas I, letter to Michael III; Hadrian II, letter to Basil I; John VIII, instruction to his envoys (Mansi)",
+      "kind": "participant",
+      "note": "The popes, each partisan for his side of the councils of his time."
+    },
+    {
+      "witness": "Anastasius the Librarian, preface to the acts of 869-870",
+      "kind": "participant",
+      "note": "Rome's translator, hostile to Photius; reports the council of 867 and the Bulgarian ruling."
+    },
+    {
+      "witness": "Nicetas the Paphlagonian, Life of Ignatius (Mansi, tomus 16)",
+      "kind": "later narrative",
+      "note": "For Ignatius and against Photius; the main account of 861."
+    },
+    {
+      "witness": "Metrophanes of Smyrna, letter to Manuel the patrician (Mansi, tomus 15)",
+      "kind": "later narrative",
+      "note": "An Ignatian bishop; hostile account of 867."
+    },
+    {
+      "witness": "The Book of the Popes, lives of Nicholas I and Hadrian II (Duchesne's Latin)",
+      "kind": "later narrative",
+      "note": "Roman; the envoys of 861, the burning of 867's acts, and Bulgaria."
+    },
+    {
+      "witness": "Hincmar of Reims, annals of Saint-Bertin",
+      "kind": "later narrative",
+      "note": "Frankish; Bulgaria, Nicholas's letters and a critical judgment of 869-870."
+    },
+    {
+      "witness": "Nilus of Rhodes, on the council of 879 (Mansi, tomus 17-18)",
+      "kind": "later narrative",
+      "note": "Fourteenth-century Greek; counts it the eighth ecumenical council, with 380 fathers."
+    },
+    {
+      "witness": "Mark of Ephesus at the Council of Florence, session VI (Mansi, tomus 31)",
+      "kind": "later narrative",
+      "note": "Greek; holds that the council of 879 undid that of 869."
+    },
+    {
+      "witness": "The Pedalion (Agapios and Nikodemos)",
+      "kind": "modern reconstruction",
+      "note": "The Orthodox canon-law collection; gives 318 for 861 and 383 for 879, and calls the councils after the seventh ecumenical only improperly."
+    },
+    {
+      "witness": "Severinus Binius and Antoine Pagi, notes in Mansi",
+      "kind": "modern reconstruction",
+      "note": "Roman editors, hostile to Photius; counts and dates."
+    },
+    {
+      "witness": "Cornelius Will, prolegomena (1861)",
+      "kind": "modern reconstruction",
+      "note": "Catholic editor; Photius's death in 891, and the two reckonings."
+    },
+    {
+      "witness": "Louis Duchesne, commentary on the Book of the Popes",
+      "kind": "modern reconstruction",
+      "note": "Says the Greek text of 861 is lost; dates the Roman synods."
+    }
+  ],
+  "traditions": [
+    {
+      "id": "byzantine-imperial-church-macedonian",
+      "name": "The Byzantine Imperial Church (Macedonian Era)",
+      "part": "Gathered",
+      "note": "All four councils met at Constantinople within it, two under Photius and two against him; the council of 879-880 kept the creed taking nothing away and adding nothing."
+    },
+    {
+      "id": "cyrillo-methodian-slavic-christianity",
+      "name": "Cyrillo-Methodian Slavic Christianity",
+      "part": "Affected",
+      "note": "Bulgaria, contested between Rome and Constantinople, was assigned to Constantinople after the council of 869-870 (the Book of the Popes; Anastasius)."
+    },
+    {
+      "id": "carolingian-reform-christianity",
+      "name": "Carolingian Reform Christianity",
+      "part": "Affected",
+      "note": "Nicholas I asked the Frankish bishops to answer the Greek charges, and Hincmar of Reims judged the council of 869-870 in his annals; the emperor Louis II's envoys came to its last session."
+    }
+  ],
+  "people": [
+    {
+      "name": "Photius of Constantinople",
+      "id": "photius-of-constantinople",
+      "verdict": "WHO",
+      "part": "Patriarch; confirmed in 861; called the council of 867; deposed in 869-870; restored and presiding in 879-880"
+    },
+    {
+      "name": "Hincmar of Reims",
+      "id": "hincmar-of-reims",
+      "verdict": "WHO",
+      "part": "Not present; asked by Nicholas to answer the Greek charges; judged the council of 869-870 in his annals"
+    },
+    {
+      "name": "Nicholas I of Rome",
+      "verdict": "LISTED",
+      "part": "Pope; disowned his envoys of 861; condemned by Photius's council of 867"
+    },
+    {
+      "name": "Boris of Bulgaria",
+      "verdict": "LISTED",
+      "part": "Ruler of Bulgaria; his envoys came to the council of 869-870 and the hearing on Bulgaria"
+    },
+    {
+      "name": "Ignatius of Constantinople",
+      "verdict": "NOT SCORED",
+      "part": "Patriarch; deposed in 861; restored in 869-870"
+    },
+    {
+      "name": "Hadrian II of Rome",
+      "verdict": "NOT SCORED",
+      "part": "Pope; asked for the council of 869-870 and had the acts of 867 burned"
+    },
+    {
+      "name": "John VIII of Rome",
+      "verdict": "NOT SCORED",
+      "part": "Pope; sent envoys to the council of 879-880"
+    },
+    {
+      "name": "Basil I",
+      "verdict": "NOT SCORED",
+      "part": "Emperor; put Photius out and called the council of 869-870; presided at its eighth session"
+    },
+    {
+      "name": "Michael III",
+      "verdict": "NOT SCORED",
+      "part": "Emperor; present at the council of 861"
+    },
+    {
+      "name": "Anastasius the Librarian",
+      "verdict": "NOT SCORED",
+      "part": "Rome's translator; at the last session of 869-870"
+    },
+    {
+      "name": "Radoald of Porto and Zacharias of Anagni",
+      "verdict": "NOT SCORED",
+      "part": "Nicholas's envoys in 861; condemned at Rome"
+    }
+  ],
+  "briefLength": "about 2 minutes 30 seconds",
+  "uncertain": [
+    "The councils of 861 and 867 have no held acts: the Greek of 861 is lost, by Duchesne's account, and the acts of 867 were burned by order. Both reach us through Photius's opponents, Nicetas, Metrophanes, Anastasius and the Book of the Popes; Photius's own case survives in his encyclical.",
+    "The counts: 318 for 861 (Binius, who says they boasted it; the Pedalion); about a thousand forged signatures for 867 (Anastasius); more than a hundred, 102 or 101 for 869-870 (the acts; Nicetas; Binius); 383 or 380 for 879-880 (the Pedalion and Baronius; Nilus), which a Greek tract in Mansi doubts.",
+    "Which council is the eighth: the Latins came to count 869-870; Nilus and Mark of Ephesus count 879-880; the Pedalion calls both only improperly ecumenical; Leo IX in 1053 or 1054 named seven.",
+    "Whether the last two sessions of 879-880 are genuine: an unsigned note in Mansi says Photius forged them; Nilus reports their definition.",
+    "Whether John VIII later anathematized Photius: so Binius after Baronius, and Will; no letter of John's own saying so is held.",
+    "The day dates of the sessions of 879-880 differ between the acts and Binius."
+  ],
+  "sources": {
+    "fromTheCouncil": [
+      {
+        "title": "Concilium Constantinopolitanum IV (869-870): acts, canons and subscriptions",
+        "author": "Council of 869-870, trans. Anastasius the Librarian, in Mansi, tomus 16",
+        "language": "Latin and Greek",
+        "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-16-lat_welter-facsimile1902.txt"
+      },
+      {
+        "title": "Synodus Photiana (879-880): acts",
+        "author": "Council of 879-880, in Mansi, tomus 17-18",
+        "language": "Greek and Latin",
+        "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-17-18-lat_welter-facsimile1902.txt"
+      },
+      {
+        "title": "Enchiridion symbolorum: the canons of 869-870",
+        "author": "Heinrich Denzinger, ed. Clemens Bannwart",
+        "language": "Latin and Greek",
+        "file": "cic/texts/denzinger_enchiridion-symbolorum-lat_bannwart1911.txt"
+      }
+    ],
+    "fromThoseThere": [
+      {
+        "title": "Encyclical to the Eastern patriarchs",
+        "author": "Photius of Constantinople, in Cornelius Will, Acta et scripta",
+        "language": "Latin translation",
+        "file": "cic/texts/will_acta-et-scripta-de-controversiis-ecclesiae-graecae-et-latinae-saec-xi-grc-lat_1861.txt"
+      },
+      {
+        "title": "Letter to Michael III",
+        "author": "Nicholas I of Rome, in Mansi, tomus 15",
+        "language": "Latin",
+        "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-15-lat_welter-facsimile1902.txt"
+      },
+      {
+        "title": "Preface to the acts of 869-870; letter of Hadrian II to Basil I",
+        "author": "Anastasius the Librarian; Hadrian II of Rome, in Mansi, tomus 16",
+        "language": "Latin",
+        "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-16-lat_welter-facsimile1902.txt"
+      },
+      {
+        "title": "Instruction to his envoys",
+        "author": "John VIII of Rome, in Mansi, tomus 17-18",
+        "language": "Latin",
+        "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-17-18-lat_welter-facsimile1902.txt"
+      }
+    ],
+    "writtenLater": [
+      {
+        "title": "Life of Ignatius",
+        "author": "Nicetas the Paphlagonian, in Mansi, tomus 16",
+        "language": "Latin and Greek",
+        "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-16-lat_welter-facsimile1902.txt"
+      },
+      {
+        "title": "Letter to Manuel the patrician",
+        "author": "Metrophanes of Smyrna, in Mansi, tomus 15",
+        "language": "Latin",
+        "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-15-lat_welter-facsimile1902.txt"
+      },
+      {
+        "title": "Le Liber Pontificalis, tome 2: lives of Nicholas I and Hadrian II, with commentary",
+        "author": "ed. Louis Duchesne",
+        "language": "Latin and French",
+        "file": "cic/texts/liber-pontificalis_texte-introduction-commentaire-t2-lat-fra_duchesne1892.txt"
+      },
+      {
+        "title": "Annales Bertiniani",
+        "author": "Prudentius of Troyes and Hincmar of Reims, ed. Georg Waitz",
+        "language": "Latin",
+        "file": "cic/texts/prudentius-troyes_annales-bertiniani_waitz1883.txt"
+      },
+      {
+        "title": "Life of Basil (Theophanes Continuatus, book V)",
+        "author": "Constantine VII, in Migne, PG 109",
+        "language": "Greek and Latin",
+        "file": "cic/texts/theophanes-continuatus_historiae-byzantinae-scriptores-post-theophanem-pg109-grc-lat_migne1863.txt"
+      },
+      {
+        "title": "Council of Florence, session VI",
+        "author": "Mark of Ephesus, in Mansi, tomus 31",
+        "language": "Latin and Greek",
+        "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-31-concilium-florentinum-lat_welter-facsimile1906.txt"
+      },
+      {
+        "title": "Pedalion",
+        "author": "Agapios and Nikodemos the Hagiorite",
+        "language": "Greek",
+        "file": "cic/texts/nikodemos-hagiorite_pedalion-canons-grc_1886.txt"
+      },
+      {
+        "title": "Acta et scripta de controversiis ecclesiae Graecae et Latinae saeculo XI",
+        "author": "ed. Cornelius Will",
+        "language": "Latin and Greek",
+        "file": "cic/texts/will_acta-et-scripta-de-controversiis-ecclesiae-graecae-et-latinae-saec-xi-grc-lat_1861.txt"
+      }
+    ]
+  }
+}

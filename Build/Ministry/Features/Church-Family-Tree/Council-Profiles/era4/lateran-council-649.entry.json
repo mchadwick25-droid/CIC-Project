@@ -1,0 +1,267 @@
+{
+  "id": "lateran-council-649",
+  "kind": "major-council",
+  "kindLabel": "Major council",
+  "era": 4,
+  "name": "Lateran Council of 649",
+  "shortName": "Lateran 649",
+  "informalName": "The Roman synod under Pope Martin",
+  "dates": "649",
+  "start": 649,
+  "end": 649,
+  "region": "Rome, in the church called the Constantinian, at the Lateran",
+  "placeLabel": "Rome",
+  "modernCountries": [
+    {
+      "country": "Italy",
+      "countryId": "Q38",
+      "place": "Rome",
+      "placeId": "Q220",
+      "pleiadesId": "423025"
+    }
+  ],
+  "rivers": [
+    "Greek East",
+    "Africa",
+    "Latin West"
+  ],
+  "teaser": "Rome, 649. Pope Martin I and 105 bishops condemned the teaching of one will in Christ, the patriarchs who taught it and the emperor's decrees, the Ekthesis and the Typos.",
+  "knownFor": "The synod at which Rome condemned the teaching of one will and the emperors' decrees without the emperor's order, for which Martin and Maximus were seized and exiled.",
+  "datesNote": "649. The acts date the five sessions by the Roman calendar, in the ninth year of Constans and the eighth indiction; Louis Duchesne reads them as 5, 8, 17, 19 and 31 October 649",
+  "issue": [
+    "The emperor Heraclius had issued the Ekthesis, read into the acts in session III, which forbids anyone to speak of one or two operations in Christ and confesses one will of our Lord Jesus Christ.",
+    "Paul of Constantinople wrote the same to Pope Theodore that he understood one will of our Lord Jesus Christ (his letter, read in session IV). The teaching of one will is thus held in two separate documents by different authors, both only inside the acts that condemn them.",
+    "Constans II, Heraclius's grandson (Theophanes), then issued the Typos, which forbade his subjects to raise any dispute about one will or operation or two (the Typos, read in session IV).",
+    "Martin told the synod that Paul had persuaded the emperor to issue the Typos to destroy the catholic teaching, and had torn down the altar of the Roman see in the house of Placidia (Martin's speech, session I). Letters to Rome from the councils of Africa and from Sergius of Cyprus were read in session II."
+  ],
+  "calledBy": "Pope Martin I. The acts say the synod met by his order and canonical care, and Martin wrote to Amandus that he had been bound to gather a general assembly of his fellow bishops in Rome. The emperor did not order it: at Bizya, Theodosius of Caesarea told Maximus the Roman synod had no force, being held without the emperor's order (the record of the hearing at Bizya)",
+  "attended": [
+    "The Book of the Popes and Bede count 105 bishops, as does the heading of the acts. The attendance list at the opening names 105 bishops and one priest besides Martin; the signatures at the end give the same 105 in the same order, the priest, and three bishops who signed afterward: John of Milan, Justinus of Cagliari and Malliodorus of Tortona.",
+    "Theophanes gives 150 in Jacques Goar's Latin; the Latin version of Theophanes by Anastasius the Librarian, printed in the same volume, gives 110.",
+    "Maurus of Ravenna sent Maurus of Cesena and the priest Deusdedit in his place, writing that the army and people had kept him home for fear of raids, in the exarch's absence.",
+    "Stephen of Dor, called in the acts the first bishop of the see of Jerusalem's jurisdiction, presented a petition. Greek abbots and monks asked to enter and were let in; they included John, abbot of the laura of Saint Sabas, Theodore of a laura in Africa, Thalassius of the Armenian monastery in Rome and George of the Cilician monastery at Aquae Salviae.",
+    "Whether Maximus the Confessor was present is disputed: Theophanes says he came from Africa and fired Martin's zeal; a \"Maximus monachus\" signs the monks' petition, beside a margin note that the Greek manuscript lacks these signatures; Severinus Binius, the seventeenth-century editor in Mansi, says the acts make no mention of Maximus."
+  ],
+  "decided": [
+    "Five sessions, in which the synod heard the Ekthesis, Paul's letter and the Typos read, with the letters of Cyrus and Sergius and a florilegium of the fathers (the acts).",
+    "On the Typos the synod said it was seen to have a good aim, but its force was at odds with that aim (session IV).",
+    "Twenty canons. The eighteenth anathematizes Theodore of Pharan, Cyrus of Alexandria, Sergius of Constantinople and his successors Pyrrhus and Paul, persisting in their error, with the most impious Ekthesis and the most wicked Typos, and names again Severus, Theodosius and others condemned before.",
+    "Martin signed the definition first, followed by the bishops (the subscriptions)."
+  ],
+  "outcome": [
+    "Martin sent the acts out. Louis Duchesne lists the covering letters held in Jaffé's register: to the emperor, to the bishop of Philadelphia in Arabia, to the bishop-elect of Carthage and to Amandus of Maastricht, with an encyclical. Martin asked Amandus to have King Sigebert send bishops to carry the acts to the emperor (Martin to Amandus, in Mansi).",
+    "Theophanes says Constans, on hearing of it, was furious, and had Martin and Maximus brought to Constantinople, tortured and exiled to Cherson, and many Western bishops punished. The Book of the Popes tells of the exarch Olympius sent to make the bishops of Italy sign the Typos, and of Theodore Calliopas, who later seized Martin.",
+    "At Bizya, Theodosius of Caesarea told Maximus the Roman synod had no force because the emperor had not ordered it; Maximus answered that if the emperors' orders confirm synods, then the synods against the homoousion must be received too (the record of the hearing at Bizya).",
+    "At Hatfield in England the bishops under Theodore of Tarsus received \"the synod held in the city of Rome, in the time of the blessed Pope Martin\", and John, archchanter of Saint Peter's, brought \"the decision of the synod of the blessed Pope Martin and 105 bishops\" to Wearmouth to be copied (Bede IV.17-18).",
+    "The Roman synod's letter of 680 to the Sixth Council speaks of the faith set forth in a council over which Pope Martin presided, as Henry Percival summarizes it."
+  ],
+  "record": [
+    {
+      "witness": "The acts of the Lateran synod: five sessions, the documents read, twenty canons and the subscriptions (Mansi, tomus 10, Latin and Greek)",
+      "kind": "acts",
+      "note": "The record of the side that won, taken from Hardouin's text; the Greek column is poorly read in the file, and the Latin is used. The condemned documents, the Ekthesis, Paul's letter and the Typos, are read into it in Latin translation."
+    },
+    {
+      "witness": "Martin I, speech in session I and letter to Amandus",
+      "kind": "participant",
+      "note": "The pope who called and led the synod; partisan for it."
+    },
+    {
+      "witness": "Maurus of Ravenna, letter to the synod",
+      "kind": "participant",
+      "note": "Read in session I; rejects the Ekthesis."
+    },
+    {
+      "witness": "The Book of the Popes, life of Martin (Duchesne's Latin)",
+      "kind": "later narrative",
+      "note": "Roman papal biography; Duchesne notes its passage on the Typos is copied from Martin's speech."
+    },
+    {
+      "witness": "Theophanes the Confessor, Chronographia (Goar's Latin, and Anastasius the Librarian's Latin version)",
+      "kind": "later narrative",
+      "note": "Greek, against the teaching of one will; files the affair under the wrong year; gives 150 or 110 bishops by the version."
+    },
+    {
+      "witness": "The record of Maximus's hearing at Bizya (Migne, PG 90)",
+      "kind": "later narrative",
+      "note": "From Maximus's side; gives the hostile bishop Theodosius's view that the synod lacked force."
+    },
+    {
+      "witness": "Bede, Ecclesiastical History IV.17-18",
+      "kind": "later narrative",
+      "note": "English reception at Hatfield and Wearmouth; written in 731."
+    },
+    {
+      "witness": "Louis Duchesne, commentary on the Book of the Popes",
+      "kind": "modern reconstruction",
+      "note": "Converts the session dates to 5 to 31 October 649 and lists the letters sending out the acts."
+    },
+    {
+      "witness": "Severinus Binius, notes in Mansi",
+      "kind": "modern reconstruction",
+      "note": "Seventeenth-century Catholic editor; says the acts do not mention Maximus, and quotes Theophanes's 110."
+    }
+  ],
+  "traditions": [
+    {
+      "id": "byzantine-imperial-church-heraclian-iconoclast",
+      "name": "The Byzantine Imperial Church (Heraclian & Iconoclast Eras)",
+      "part": "Condemned",
+      "note": "Its patriarchs Sergius, Pyrrhus and Paul, with Cyrus of Alexandria, and the emperors' Ekthesis and Typos, were anathematized in canon 18; Theophanes says Constans answered by seizing Martin and Maximus."
+    },
+    {
+      "id": "latin-africa-under-byzantium",
+      "name": "Latin African Christianity under Byzantium",
+      "part": "Gathered",
+      "note": "By letter: the councils of Numidia, Byzacena, Mauretania and Proconsularis and Victor of Carthage had written against the teaching of one will, and their letters were read in session II."
+    },
+    {
+      "id": "anglo-saxon-christianity",
+      "name": "Anglo-Saxon Christianity",
+      "part": "Affected",
+      "note": "At Hatfield the English bishops received the Roman synod under Martin, and a copy of its decision was made at Wearmouth (Bede IV.17-18)."
+    }
+  ],
+  "people": [
+    {
+      "name": "Martin I of Rome",
+      "id": "martin-i-of-rome",
+      "verdict": "WHO",
+      "part": "Called and presided; signed first; seized and exiled afterward"
+    },
+    {
+      "name": "Maximus the Confessor",
+      "id": "maximus-the-confessor",
+      "verdict": "WHO",
+      "part": "Fired Martin's zeal, by Theophanes's account; whether he sat in the synod is disputed; seized and exiled with Martin"
+    },
+    {
+      "name": "Sophronius of Jerusalem",
+      "id": "sophronius-of-jerusalem",
+      "verdict": "WHO",
+      "part": "Dead; had sent Stephen of Dor to Rome, as Stephen told the synod"
+    },
+    {
+      "name": "Heraclius",
+      "id": "heraclius",
+      "verdict": "STORY",
+      "part": "Dead; the Ekthesis issued in his name was condemned"
+    },
+    {
+      "name": "Severus of Antioch",
+      "id": "severus-of-antioch",
+      "verdict": "WHO",
+      "part": "Long dead; anathematized again in canon 18"
+    },
+    {
+      "name": "Theodosius I of Alexandria",
+      "id": "theodosius-i-of-alexandria",
+      "verdict": "WHO",
+      "part": "Long dead; anathematized again in canon 18"
+    },
+    {
+      "name": "Sergius of Constantinople",
+      "verdict": "LISTED",
+      "part": "Dead; anathematized in canon 18"
+    },
+    {
+      "name": "Pyrrhus of Constantinople",
+      "verdict": "LISTED",
+      "part": "Anathematized in canon 18"
+    },
+    {
+      "name": "Paul of Constantinople",
+      "verdict": "LISTED",
+      "part": "Patriarch; his letter read; anathematized in canon 18"
+    },
+    {
+      "name": "Cyrus of Alexandria",
+      "verdict": "LISTED",
+      "part": "Dead; his chapters read; anathematized in canon 18"
+    },
+    {
+      "name": "Constans II",
+      "verdict": "NOT SCORED",
+      "part": "Emperor; issued the Typos, which the synod condemned; seized Martin and Maximus, by Theophanes's account"
+    },
+    {
+      "name": "Stephen of Dor",
+      "verdict": "NOT SCORED",
+      "part": "Bishop under Jerusalem; presented a petition in session II"
+    },
+    {
+      "name": "Maurus of Ravenna",
+      "verdict": "NOT SCORED",
+      "part": "Archbishop; sent deputies and a letter"
+    },
+    {
+      "name": "Amandus of Maastricht",
+      "verdict": "NOT SCORED",
+      "part": "Not present; received the acts, with a request to King Sigebert"
+    },
+    {
+      "name": "Theodore of Tarsus",
+      "id": "theodore-of-tarsus",
+      "verdict": "WHO",
+      "part": "Not present; presided at Hatfield, which received the synod"
+    }
+  ],
+  "briefLength": "about 2 minutes 30 seconds",
+  "uncertain": [
+    "The acts are the record of the side that won. The teaching of one will survives only as it is read into them, in Latin translation; no account of the synod from the other side is held.",
+    "The count: the Book of the Popes, Bede and the acts give 105 bishops; Theophanes gives 150 in Goar's Latin and 110 in Anastasius's version.",
+    "Whether Maximus was present: Theophanes says he moved Martin to act; a monk Maximus signs the monks' petition, which the Greek manuscript lacks, by a margin note; Binius says the acts do not mention him.",
+    "The day dates are Duchesne's conversions of the acts' Roman calendar dates.",
+    "That the emperor did not order the synod rests on the hostile speaker Theodosius at Bizya, in a record from Maximus's side."
+  ],
+  "sources": {
+    "fromTheCouncil": [
+      {
+        "title": "Concilium Lateranense sub Martino I: acts, canons and subscriptions",
+        "author": "Lateran Council of 649, in Giovanni Domenico Mansi, Sacrorum conciliorum collectio, tomus 10",
+        "language": "Latin and Greek",
+        "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-10-lat_welter-facsimile1901.txt"
+      }
+    ],
+    "fromThoseThere": [
+      {
+        "title": "Letter to Amandus",
+        "author": "Martin I of Rome",
+        "language": "Latin",
+        "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-10-lat_welter-facsimile1901.txt"
+      }
+    ],
+    "writtenLater": [
+      {
+        "title": "Le Liber Pontificalis, tome 1: life of Martin, with commentary",
+        "author": "ed. Louis Duchesne",
+        "language": "Latin and French",
+        "file": "cic/texts/liber-pontificalis_texte-introduction-commentaire-t1-lat-fra_duchesne1886.txt"
+      },
+      {
+        "title": "Chronographia, with the Latin version of Anastasius the Librarian",
+        "author": "Theophanes the Confessor",
+        "language": "Greek and Latin",
+        "file": "cic/texts/theophanes-confessor_chronographia-pg108-grc-lat_migne1863.txt"
+      },
+      {
+        "title": "Relatio motionis and Disputatio Bizyae",
+        "author": "Record of Maximus the Confessor's hearings",
+        "language": "Greek and Latin",
+        "file": "cic/texts/maximus-confessor_relatio-motionis-disputatio-bizyae-grc-lat_migne-pg90.txt"
+      },
+      {
+        "title": "Ecclesiastical History of the English People, IV.17-18",
+        "author": "Bede, trans. J. A. Giles, revised by L. C. Jane",
+        "language": "English translation",
+        "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt"
+      },
+      {
+        "title": "The Sixth Ecumenical Council: the letter of the Roman synod of 680, summarized",
+        "author": "ed. Henry R. Percival",
+        "language": "English",
+        "file": "cic/texts/npnf214_seven-ecumenical-councils.xml"
+      }
+    ]
+  }
+}
