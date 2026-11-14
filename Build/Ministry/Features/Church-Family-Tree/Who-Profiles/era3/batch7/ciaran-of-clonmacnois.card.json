@@ -1,0 +1,104 @@
+{
+  "name": "Ciaran of Clonmacnois",
+  "otherNames": [
+    "Ciarán, son of the wright",
+    "Ciaran mac intsair",
+    "Ceranus",
+    "Kieran",
+    "Kieranus Cluanensis"
+  ],
+  "knownFor": "Founder of the monastery of Clonmacnois near the Shannon in Ireland, called the son of the wright, or craftsman, whose life is told almost wholly by an Irish Life that Whitley Stokes says was composed at Clonmacnois, kept in a book of the 1400s.",
+  "dates": "Sixth century. The Annales Cambriae set his death in their hundredth year, which their editor, John Williams ab Ithel, numbers 544; John O'Donovan, in a note to the Annals of the Four Masters, gives 549. The Irish Life in the Book of Lismore gives the day, the fifth of the ides of September, and says he died in his thirty-third year. No source used here gives the year of his birth or of the founding of Clonmacnois",
+  "place": "Clonmacnois, near the Shannon, which the Lismore Life says was called Ard Tiprat before him; Clonard, where it says he studied under Findian",
+  "tradition": "Insular / Irish Monastic Christianity",
+  "role": "Founder and abbot of Clonmacnois",
+  "briefLength": "about 2 minutes",
+  "legacy": {
+    "traces": [
+      "Adomnan of Iona tells how the brethren of \"the Clonoensian monastery of St. Ceran\", led by the Abbot Alither, came out of their fields to meet Columba and carried \"a canopy of poles\" over him.",
+      "Tirechan, writing for Patrick's churches, complains that the \"familia Clono\" holds many of Patrick's places by force since the recent plagues. Whitley Stokes reads the name, with a query, as the community of Clonmacnois, and dates the plagues to 683, apparently.",
+      "The Lismore Life says the rules and customs received from the master Ciaran were carried to all the monasteries of the saints of Ireland. The Four Masters, in John O'Donovan's English, call later abbots the \"successor of Kieran\"."
+    ],
+    "remembered": [
+      "The Lismore Life quotes Columba, Colum Cille in Irish, calling him the lamp of this island. Stokes finds the words in a hymn printed by Colgan, where they read \"Lucerna huius insulae\".",
+      "The Lismore Life says the saints of Ireland, envying his goodness, prayed that his life be shortened. A short Irish text Stokes prints counts the cutting off of Ciaran's life among \"the three wrong stories of Ireland's saints\".",
+      "The Roman Martyrology, in the Marquess of Bute's English of 1908, names \"the holy Abbat Ciaran\" on 9 September, and Bute's bracketed note adds that he was the founder of Clonmacnois. The Breviary's offices for Ireland keep his feast that day."
+    ]
+  },
+  "uncertain": [
+    "His story comes almost wholly from the Irish Life of Ciaran in the Book of Lismore. Whitley Stokes says the book was compiled in the latter half of the fifteenth century and that the Life was composed at Clonmacnois, so it is his own house's telling, written down long after him. It is hagiography. Apart from his baptism by the deacon Justus, which Tirechan also tells, its stories, the Dun cow among them, are told in no earlier source used here, and Stokes calls one of its wonders, a living stag's antlers used as a bookstand, a stock miracle of Celtic saints' Lives.",
+    "Tirechan's notice. The page is damaged, and Stokes prints his restorations in brackets. The first letters of the name in \"Cia)ranum filium artificis\", the words \"in meo\", in my sight, and part of the line on his birth are Stokes's. The words that name Ceranus, the deacon Justus and Patrick's book are read. The same notice says the reckoners put 140 years between Patrick's death and Ciaran's birth, and still makes Patrick's deacon his baptizer.",
+    "His death year. The Annales Cambriae say only the hundredth year; the 544 is John Williams ab Ithel's reckoning in the margin. John O'Donovan gives 549. The Bollandists, in their commentary on the Life of Enda, place the vision of his monastery near the end of King Tuathal's reign, in 544.",
+    "King Tuathal Maelgarb's death. The Lismore Life puts it on the night Ciaran planted the first stake, seven months before his own death. Gilla Coemain's chronological poem puts it \"a year before Ciaran's obit\", in Stokes's English. A note in Stokes's edition, following O'Conor, says the verses were probably made in 1072.",
+    "His age. The thirty-third year is the Lismore Life's alone, and the Life draws the likeness itself: \"Thirty and three years in the age of this man, as there are thirty and three years in the age of Christ.\"",
+    "His teachers. The Lismore Life makes Findian of Clonard his tutor. It has him visit Enda on Aran and Senan on Inis Cathaig, and lead a house on Inis Angin for three years before Clonmacnois. The Life of Enda that the Bollandists print makes Enda his master and gives him seven years threshing grain on Aran; the Bollandists think he may have begun monastic life under Enda before going to Senan. They say the compiler of that Life, Augustine Magraidin, patched it together from two older Lives with very little judgment. Hugh Williams says he was brought up at Clonard.",
+    "His namesakes. Ciaran of Saigir is another man. The Lismore Life meets the two in one scene, and Stokes points to a separate Latin Life of the saint of Saigir. The index to Stokes's Tripartite Life also lists a bishop Ciaran, son of Darerca, apart from this Ciaran, although the Lismore Life gives this Ciaran a mother named Darerca."
+  ],
+  "sources": {
+    "about": [
+      {
+        "title": "Life of Ciarán of Clonmacnois, from the Book of Lismore (ed. and tr. Whitley Stokes)",
+        "author": "Anonymous, of Clonmacnois",
+        "date": "the Book of Lismore, latter half of the fifteenth century, in Stokes's date",
+        "language": "Middle Irish with English translation",
+        "file": "cic/texts/stokes_lives-of-saints-from-the-book-of-lismore-iri-eng_1890.txt"
+      },
+      {
+        "title": "Introduction and notes to the Lives of Saints from the Book of Lismore",
+        "author": "Whitley Stokes",
+        "date": "1890",
+        "language": "English",
+        "file": "cic/texts/stokes_lives-of-saints-from-the-book-of-lismore-iri-eng_1890.txt"
+      },
+      {
+        "title": "Collections on Patrick, with Gilla Coemain's chronological poem and other texts (in The Tripartite Life of Patrick, volume 2, ed. Whitley Stokes)",
+        "author": "Tirechan; Gilla Coemain",
+        "date": "Tirechan after the plagues Stokes dates to 683",
+        "language": "Latin and Irish with English",
+        "file": "cic/texts/stokes_tripartite-life-of-patrick-v2-lat-muirchu-tirechan-confession_1887.txt"
+      },
+      {
+        "title": "Life of Saint Columba, book I, chapter 3, with notes (tr. Wentworth Huyshe)",
+        "author": "Adomnan of Iona",
+        "date": "between 679 and 704, in Huyshe's note",
+        "language": "English translation",
+        "file": "cic/texts/adomnan_life-of-saint-columba_huyshe1905.txt"
+      },
+      {
+        "title": "Annales Cambriae (ed. John Williams ab Ithel)",
+        "author": null,
+        "date": "1860",
+        "language": "Latin",
+        "file": "cic/texts/annales-cambriae-rolls-series-20-lat_williams-ab-ithel1860.txt"
+      },
+      {
+        "title": "Annals of the Kingdom of Ireland by the Four Masters, volume 3, with notes",
+        "author": "John O'Donovan",
+        "date": "1856",
+        "language": "Irish with English translation",
+        "file": "cic/texts/four-masters_annals-of-the-kingdom-of-ireland-v3-1172-1378-gle-eng_odonovan1856.txt"
+      },
+      {
+        "title": "Acta Sanctorum, March, tome 3: Life of Enda, with commentary",
+        "author": "The Bollandists",
+        "date": null,
+        "language": "Latin",
+        "file": "cic/texts/acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt"
+      },
+      {
+        "title": "Introduction to Gildas",
+        "author": "Hugh Williams",
+        "date": "1899",
+        "language": "English",
+        "file": "cic/texts/gildas_de-excidio-britanniae-lorica-penitential-lat-eng_williams1899.txt"
+      },
+      {
+        "title": "The Roman Breviary, autumn volume: the Martyrology for 9 September and the offices peculiar to Ireland (tr. the Marquess of Bute)",
+        "author": "John Patrick Crichton-Stuart, Marquess of Bute (translator)",
+        "date": "1908",
+        "language": "English translation",
+        "file": "cic/texts/roman-breviary_bute1908.txt"
+      }
+    ]
+  }
+}
