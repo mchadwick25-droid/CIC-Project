@@ -1,0 +1,137 @@
+{
+  "name": "Dionysius Exiguus",
+  "otherNames": [
+    "Dionysius monachus",
+    "Dionysius abbas Romanus",
+    "Denys le Petit"
+  ],
+  "knownFor": "Monk at Rome who put the church's canons into Latin from Greek copies and gathered the rulings of past popes. His Easter tables number the years from the Incarnation of Christ instead of from the emperor Diocletian.",
+  "dates": "No source used here gives the year of his birth or death. Cassiodorus writes of him as dead in his Institutions. William Cave, whose notice Migne reprints, says he died before 556, the year Cave gives for that book. The Easter rules printed with his letters take the consulship of Probus the Younger as their example year and count it as 525. Bede, as Migne's testimonia quote him, says his cycles begin with the year 532. Henry Percival dates his translation of the canons about 500",
+  "place": "Scythia by birth, Cassiodorus says; Rome, where Bede calls him an abbot of the city",
+  "tradition": "Early Benedictine / Italian Monasticism",
+  "role": "Monk, called abbot in some sources; translator from Greek; collector of church canons and papal rulings; maker of Easter tables",
+  "briefLength": "about 2 minutes 30 seconds",
+  "keyWorks": [
+    {
+      "title": "Collection of church canons",
+      "about": "the canons of the councils in Latin, made from Greek copies at the request of Bishop Stephen of Salona. It sets first the canons called the Apostles', which he says many did not readily accept. Then come the canons of Nicaea and of the councils before and after it up to the council of Constantinople. Those of Chalcedon follow, and last the Latin canons of Sardica and of Africa"
+    },
+    {
+      "title": "Collection of papal rulings",
+      "about": "the decrees of past bishops of Rome, gathered for Julian, priest of the church of Saint Anastasia. William Cave says it runs from Siricius to Anastasius II"
+    },
+    {
+      "title": "Two letters on the reckoning of Easter, with Easter tables",
+      "about": "to Bishop Petronius, and to Bonifatius, first of the notaries, and Bonus, the second. He followed the nineteen-year cycle he credits to the bishops of Nicaea. He set first the last cycle of Cyril of Alexandria, of which six years remained. Then he added five cycles of his own, numbering the years from the Incarnation"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Cassiodorus says the Roman church used his canons widely in his day, and he told the monks he wrote for to read them often.",
+      "Abbot Ceolfrid wrote a letter that Bede gives in his Ecclesiastical History. In it he says that after Cyril of Alexandria, Dionysius added as many cycles again, reaching down to Ceolfrid's own time.",
+      "Theodor Mommsen says the Easter table of Dionysius was received in Italy by common consent.",
+      "A treatise on the course of the moon, printed among Alcuin's works, quotes his letter to Bonifatius and Bonus.",
+      "Louis Duchesne writes that Pope Hadrian sent the collection of Dionysius to Charlemagne."
+    ],
+    "remembered": [
+      "Bede's On the Reckoning of Time is quoted in Migne's testimonia. There Bede calls him the venerable abbot of the city of Rome, learned in Greek and Latin. He repeats Dionysius's own reason for not counting from Diocletian.",
+      "Charles Plummer says Bede was the first chronicler to date events from Christ's birth, and so brought the Dionysian era into Western Europe. Papal documents did not use it until the eleventh century, Plummer adds.",
+      "Thomas Hodgkin says Dionysius fixed the era of Christ's birth wrongly, as it now appears. His reckoning, Hodgkin adds, was accepted by all the nations of Christendom."
+    ]
+  },
+  "uncertain": [
+    "Later writers differ over his part in the count of years from Christ. His own letter says only that he numbered his tables from the Incarnation. William Cave says Dionysius was the first to use it for reckoning years. Johann Wilhelm Janus holds the same, but notes that others think the era came later, by Bede's authority. Janus also reports Jean Hardouin's view that the era was in use across the Christian world early in the fifth century, before Dionysius. Janus argues against it. Charles Plummer credits Bede with bringing it into Western Europe. Ernest Brehaut says Isidore of Seville shows no sign of knowing the era, though he knew the Easter table.",
+    "The Nicene rule. Dionysius says the bishops of Nicaea fixed the nineteen-year cycle. Louis Duchesne, after Bruno Krusch, says Nicaea made no such ruling. Duchesne says Dionysius drew it from the letter of Proterius of Alexandria to Pope Leo. With Krusch, he calls it a pious fraud put to the service of a sound reckoning.",
+    "His life rests almost wholly on Cassiodorus, who knew him and wrote of him after his death. Johann Wilhelm Janus, in a letter printed in Migne's volume, says Cassiodorus was nearly the only one of his time to keep his memory. All later writers on his life followed him, Janus says. Cassiodorus adds that bad men set some things under his name to excuse their own errors.",
+    "His years. No source used here gives his birth or death. William Cave says he died before 556. Robert Bellarmine, as Migne's testimonia quote him, places him under King Theodoric and his successors. The Easter rules printed with his letters, which a manuscript title gives to Dionysius, take 525 as their example year. Johann Wilhelm Janus notes that Bede and others reworked them for later years.",
+    "Monk or abbot. Cassiodorus calls him a monk in the body of his chapter, and abbot in its heading. Bede and Cave call him abbot. Johann Wilhelm Janus reports that his monastery is unknown, and that Antoine Pagi denied him the rank, saying Bede first gave it. Janus answers that Felix, abbot of Gillitanum, called him abbot of the city of Rome in 616, and takes the title as one of honor.",
+    "His translations. William Cave lists Latin versions of Proclus of Constantinople under his name. He reports that Jean Garnier gave the sermon on the Mother of God to Marius Mercator instead. Dionysius presents his Latin version of the Alexandrian council's letter against Nestorius as the first and as his own. Louis Duchesne, after Friedrich Maassen, says it is copied from that of Marius Mercator.",
+    "His name. He is a different man from Dionysius of Alexandria and Dionysius of Rome, the bishops, and from Dionysius the Areopagite. No source used here ties him to the writings under the Areopagite's name."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Prefaces, letters on Easter, translations and collections, in Patrologia Latina 67",
+        "language": "Latin",
+        "file": "cic/texts/facundus-ferrandus-caesarius-dionysius-pl67-lat_migne1865.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Institutions I.23, in Patrologia Latina 70",
+        "author": "Cassiodorus",
+        "language": "Latin",
+        "file": "cic/texts/cassiodorus_opera-institutiones-pl70-lat_migne1847.txt"
+      },
+      {
+        "title": "Notice of Dionysius Exiguus, reprinted in Patrologia Latina 67",
+        "author": "William Cave",
+        "language": "Latin",
+        "file": "cic/texts/facundus-ferrandus-caesarius-dionysius-pl67-lat_migne1865.txt"
+      },
+      {
+        "title": "History of the Dionysian Cycle and letter to Benjamin Hoffmann, reprinted in Patrologia Latina 67",
+        "author": "Johann Wilhelm Janus",
+        "language": "Latin",
+        "file": "cic/texts/facundus-ferrandus-caesarius-dionysius-pl67-lat_migne1865.txt"
+      },
+      {
+        "title": "Testimonies on Dionysius Exiguus, quoting Bede, Bellarmine and others, in Patrologia Latina 67",
+        "language": "Latin",
+        "file": "cic/texts/facundus-ferrandus-caesarius-dionysius-pl67-lat_migne1865.txt"
+      },
+      {
+        "title": "Ecclesiastical History V.21, with Ceolfrid's letter",
+        "author": "Bede",
+        "language": "Latin",
+        "file": "cic/texts/bede_opera-historica-v1-historia-abbatum-lat_plummer1896.txt"
+      },
+      {
+        "title": "Introduction to Bede's Historical Works",
+        "author": "Charles Plummer",
+        "date": "1896",
+        "language": "English",
+        "file": "cic/texts/bede_opera-historica-v1-historia-abbatum-lat_plummer1896.txt"
+      },
+      {
+        "title": "Introduction to Cassiodorus's chronicle, Chronica minora 2",
+        "author": "Theodor Mommsen",
+        "date": "1894",
+        "language": "Latin",
+        "file": "cic/texts/chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894.txt"
+      },
+      {
+        "title": "Introduction to the Letters of Cassiodorus",
+        "author": "Thomas Hodgkin",
+        "date": "1886",
+        "language": "English",
+        "file": "cic/texts/cassiodorus_variae-letters-hodgkin1886.txt"
+      },
+      {
+        "title": "An Encyclopedist of the Dark Ages: Isidore of Seville",
+        "author": "Ernest Brehaut",
+        "date": "1912",
+        "language": "English",
+        "file": "cic/texts/isidore-seville_encyclopedist-of-the-dark-ages-extracts_brehaut1912.txt"
+      },
+      {
+        "title": "Introduction to the Canons, Nicene and Post-Nicene Fathers, second series, 14",
+        "author": "Henry Percival",
+        "language": "English",
+        "file": "cic/texts/npnf214_seven-ecumenical-councils.xml"
+      },
+      {
+        "title": "Le Liber pontificalis, volume 1",
+        "author": "Louis Duchesne",
+        "date": "1886",
+        "language": "French",
+        "file": "cic/texts/liber-pontificalis_texte-introduction-commentaire-t1-lat-fra_duchesne1886.txt"
+      },
+      {
+        "title": "On the Course and Leap of the Moon, printed among Alcuin's works, Patrologia Latina 100-101",
+        "language": "Latin",
+        "file": "cic/texts/alcuin_opera-omnia-letters_migne-pl100-101_1863.txt"
+      }
+    ]
+  }
+}

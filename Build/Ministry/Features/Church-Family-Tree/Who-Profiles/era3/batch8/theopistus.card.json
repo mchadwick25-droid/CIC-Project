@@ -1,0 +1,74 @@
+{
+  "name": "Theopistus, deacon of Dioscorus",
+  "knownFor": "Disciple and deacon of Dioscorus of Alexandria, named as the narrator and writer of a History of Dioscorus. It tells in the first person of the Council of Chalcedon and of the bishop's exile and death at Gangra. François Nau thinks the History as it survives is a reworking made after 512.",
+  "dates": "No source used here gives his birth or death. The History says he wrote it in hiding after Dioscorus died on the fourth of the month Elul, or September, and gives no year. François Nau gives 454 for that death. Nau dates the present form of the History after 512",
+  "place": "Alexandria; Constantinople and Chalcedon; Gangra in Paphlagonia, which the History calls an island; the city of Pentapolis, as the History names the place where he says he hid and wrote, which François Nau suggests is rather the Pentapolis of Cyrenaica",
+  "tradition": "The Church of Alexandria and Miaphysite Egypt",
+  "role": "Deacon and disciple of Dioscorus of Alexandria; named writer of the History of Dioscorus",
+  "briefLength": "about 1 minute 50 seconds",
+  "keyWorks": [
+    {
+      "title": "History of Dioscorus",
+      "about": "the story of Dioscorus of Alexandria from the summons to the Council of Chalcedon to his death in exile at Gangra. A narrator who names himself Theopistus tells it. François Nau calls it a panegyric, in which a few facts frame visions, speeches and wonders. It is held in Nau's French translation of the Syriac"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "François Nau thinks the History is the source of many Coptic texts published by Zoega, E. Revillout and Amélineau.",
+      "A Coptic sermon in praise of Macarius, bishop of Tkow, says in its heading that Dioscorus spoke it in exile. It names the deacons Peter and Theopistus as its writers. Nau holds that the sermon depends on the History, and that the two names were taken from it. Louis Duchesne reports that Amélineau showed the sermon to be apocryphal and of no value.",
+      "Nau later wrote that whoever reworked the History used the Plerophories of John Rufus, which he says were written in Greek soon after 512."
+    ],
+    "remembered": [
+      "François Nau thinks the History's facts may well be historical. He says its restraint in choosing wonders, and its sincerity in telling them, leave him fairly well disposed toward Theopistus.",
+      "Assemani, in the Vatican Library's catalogue, called it a fabulous tale made up by later writers of Dioscorus's party, Nau reports.",
+      "In a later note Nau calls it a legendary history of Dioscorus, kept in a Syriac version."
+    ]
+  },
+  "uncertain": [
+    "Who wrote the History as it stands. Its narrator names himself Theopistus and says he wrote it in hiding soon after Dioscorus died. François Nau thinks an account by Theopistus may have been among the stories in Dioscorus's favor written in Egypt soon after his death. He suggests this as the most likely answer for now. After 512, he thinks, a writer trained in rhetoric, of the school of Peter the Iberian, reworked it, probably in Greek. The Syriac comes from that Greek, in his view. Assemani held the book a later fiction. Nau rejects that. He says writers of Dioscorus's party wrote the lives of much lesser men as soon as they died, and even in their lifetimes.",
+    "When it was written. A vision in which a saint blesses a child named Severus puts the present text after 512, Nau says. Severus was patriarch of Antioch from 512 to 518. Nau also notes that the History calls the archdeacon Peter a priest by the time of writing. If that Peter is Peter Mongus, as E. Revillout wrote, the account would date from before 477, when Peter Mongus became patriarch of Alexandria.",
+    "Its first language. Nau thinks the Syriac seems to be translated from Greek. He cites Greek words carried over, the forms of some names, and Bible passages that seem translated from a Greek text. One passage follows the Syriac Peshitta instead, which he says only a Syrian could have put in. A note at the end of the translation reports that Crum found old Coptic fragments matching parts of the History. It says they will help in working out which text is the original.",
+    "An added ending. One London manuscript closes with a page in which the speaker says he has been told of the deaths of Marcian and Pulcheria. Nau prints it from a copy made by Brooks.",
+    "His life outside the book. No source used here tells of him apart from the History and the Coptic sermon on Macarius. François Nau's later notes name him only as the History's writer. The History of the Patriarchs of the Coptic Church says no biography of Dioscorus after his banishment was found. The Arabic and Ethiopic synaxaries tell of the exile with Macarius of Tkow and do not name him.",
+    "Namesakes. He is a different man from Theopistos, a deacon of Sne, who copied a Coptic manuscript dated 985, as E. A. Wallis Budge reports. He is also a different man from the martyr Theopistus, son of Eustathius. The archdeacon Peter, his companion in the History, is a different man from Peter the Iberian, bishop of Maiouma near Gaza. Nau explains that the History calls Peter the Iberian by his Iberian name, Nabarnougios."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "History of Dioscorus, in François Nau's French translation, Journal asiatique, tenth series, volume 1",
+        "date": "1903",
+        "language": "French translation",
+        "file": "cic/texts/theopistus_histoire-de-dioscore-journal-asiatique-1903-fra_nau1903.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Introduction and notes to the History of Dioscorus, Journal asiatique, tenth series, volume 1",
+        "author": "François Nau",
+        "date": "1903",
+        "language": "French",
+        "file": "cic/texts/theopistus_histoire-de-dioscore-journal-asiatique-1903-fra_nau1903.txt"
+      },
+      {
+        "title": "Introduction to the Plerophories of John Rufus, in Patrologia Orientalis 8",
+        "author": "François Nau",
+        "date": "1912",
+        "language": "French",
+        "file": "cic/texts/po08_john-rufus-plerophories-and-others-fra_1912.txt"
+      },
+      {
+        "title": "Notes to the monophysite texts (extracts of Timothy Aelurus), in Patrologia Orientalis 13",
+        "author": "François Nau",
+        "language": "French",
+        "file": "cic/texts/chronicle-of-seert_histoire-nestorienne-seconde-partie-po13-ara-fra_scher1919.txt"
+      },
+      {
+        "title": "Histoire ancienne de l'Église, volume 3",
+        "author": "Louis Duchesne",
+        "date": "1910",
+        "language": "French",
+        "file": "cic/texts/duchesne_histoire-ancienne-de-leglise-tome3-fra_2e-ed1910.txt"
+      }
+    ]
+  }
+}
