@@ -1,0 +1,137 @@
+{
+  "councils-of-rome-and-carthage-251": {
+    "claims": [
+      {
+        "claim": "Cyprian put off deciding the case of the lapsed until the bishops could meet, and the Roman clergy, without a bishop, agreed; Cyprian says Novatian wrote their letter",
+        "witness": "Cyprian, Letter to Antonianus 4-5 (anf05 l.33479-33499; Hartel Ep. 55)",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Felicissimus and five presbyters broke with Cyprian, and the party took up the charge that he was too strict with the lapsed",
+        "witness": "Hefele I, sec. 5 (hefele_history v1 l.6316-6358), citing Cyprian's letters",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Some of the lapsed were pressing to receive communion before any decision",
+        "witness": "Cyprian, Letter to Antonianus 4 (anf05 l.33466-33468)",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Cyprian returned to Carthage after Easter 251, after an absence from February 250",
+        "witness": "Hefele, History of the Councils I, sec. 5 (hefele_history v1 l.6309-6366)",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "The Carthage council met in 251, probably in May; the Rome council probably in October 251",
+        "witness": "Hefele I, sec. 5 (l.6366-6369, 6484); McGiffert's note to Eusebius VI.43 follows Hefele",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "A large number of African bishops met, weighed Scripture on both sides, and chose a middle course: hope not denied to the lapsed, long penance, each case examined",
+        "witness": "Cyprian, Letter to Antonianus 6 (anf05 l.33508-33524; Hartel l.7600-7616)",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Those who took certificates were to be admitted after examination; those who sacrificed were to be helped at death",
+        "witness": "Cyprian, Letter to Antonianus 17 (anf05 l.33781-33783; Hartel l.7978-7980)",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The decisions were collected in a little book, now lost",
+        "witness": "Cyprian, Letter to Antonianus 6; Leclercq's note in Hefele-Leclercq I.1 (fra slice l.144-145)",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Felicissimus and five presbyters were excommunicated by the African bishops",
+        "witness": "Cyprian, Letter to Cornelius on Fortunatus and Felicissimus 9 (anf05 l.34755-34766); Hefele I, sec. 5 (l.6369-6372) places it at this council",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Cornelius held a council at Rome that agreed with Carthage",
+        "witness": "Cyprian, Letter to Antonianus 6 (anf05 l.33525-33529; Hartel l.7614-7615)",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Sixty bishops and many more presbyters and deacons met at Rome; Novatian and his followers were declared strangers to the church; the fallen were to be healed with the medicines of repentance",
+        "witness": "Eusebius VI.43.2, from Cornelius's letters (npnf201 l.38270-38299)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Novatian wrote to the churches that those who had sacrificed should not be admitted to the mysteries, and their pardon left to God",
+        "witness": "Socrates IV.28, reporting Novatian's letters (npnf202 l.14083-14090)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Dionysius of Alexandria wrote to Novatian that it were better to suffer everything than divide the church",
+        "witness": "Eusebius VI.45, quoting the letter (npnf201 l.38922-38931)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Fabius of Antioch seemed to lean toward Novatian's party",
+        "witness": "Eusebius VI.44 (npnf201 l.38829)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The next year the African bishops granted peace to all the lapsed who had kept repenting, as a new persecution drew near",
+        "witness": "Synodal letter of the African bishops to Cornelius 1 (anf05 l.34280-34299, ANF Ep. 53); dated 252 by Hefele I, sec. 5 (l.6505-6507)",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Novatian's church kept its strict discipline in Phrygia and Paphlagonia in Socrates's day",
+        "witness": "Socrates IV.28 (npnf202 l.14057-14061)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      }
+    ],
+    "contested_claims": [
+      {
+        "claim": "Whether a synod at Antioch on the Novatians met",
+        "sides": "Eusebius VI.46 says Dionysius was invited to the synod at Antioch where some were trying to establish Novatian's schism; McGiffert (note to VI.46) thinks Eusebius took it to have met and that it probably did; Hefele, Dittrich and others doubt it; Hefele will not rely on the Libellus Synodicus when it stands alone",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Whether Novatus of Carthage was one of the five presbyters condemned with Felicissimus",
+        "sides": "Hefele I, sec. 5: not known, asserted by some and denied by others; Leclercq's note, after Paul Monceaux: he was one of the five",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "How many councils met in 251 on the lapsed",
+        "sides": "Hefele I, sec. 5: two, at Carthage and Rome; he says several editors of the acts and historians, misreading the documents, made them four",
+        "formation_confidence": "Widely Accepted"
+      }
+    ],
+    "absent_details": [
+      {
+        "detail": "The acts of either council",
+        "note": "The Carthage book of decisions is lost (Cyprian names it; Leclercq: nothing of this council remains). No acts of the Rome council are held; Eusebius summarises Cornelius's letters, which survive only through him."
+      },
+      {
+        "detail": "The names and number of the bishops at Carthage in 251",
+        "note": "Cyprian says only 'a large number'. The synodal letter of the next council, to Cornelius, names forty-two bishops, but it belongs to that later council."
+      },
+      {
+        "detail": "The exact months",
+        "note": "No source of the time gives them; May and October are Hefele's reconstruction."
+      },
+      {
+        "detail": "Novatian's own account of the councils",
+        "note": "No letter of Novatian's on the councils is held. His rule comes through Socrates, and the Roman clergy letter Cyprian says he wrote comes before the councils."
+      }
+    ]
+  }
+}

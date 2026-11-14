@@ -1,0 +1,2196 @@
+{
+  "council-of-arles-314": {
+    "claims": [
+      {
+        "claim": "Constantine ordered his vicar Aelafius to send Caecilian, three of those making a schism against him, and bishops from Byzacium, Tripolis, the Numidias and the Mauritanias, with clergy, by public conveyance through Africa and Mauritania to Spain and on to Arles, to arrive by August 1",
+        "witness": "Constantine, Letter to Aelafius (optatus_against-the-donatists l.7099; Appendix III)",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Constantine summoned Chrestus of Syracuse, with two presbyters and three servants, by public vehicle, to Arles before the kalends of August, so the dissension might be ended by the presence of many",
+        "witness": "Constantine to Chrestus, in Eusebius of Caesarea, Church History X.5.21-24 (npnf201 l.50627-50724)",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The year 314 and the opening of the council on 1 August",
+        "witness": "Hefele, History of the Councils I, sec. 14-15 (hefele_history v1 l.11698, l.11813-11814); McGiffert's note to Eusebius X.5.23 (npnf201 l.50689-50692) gathers 1 August 314 from Constantine's letter",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Caecilian's opponents charged that Felix, bishop of Autumna (Aptunga), who ordained him, had consented to hand over the Scriptures to be burned",
+        "witness": "Speech of the accuser Maximus in the Acts of the Vindication of Felix, Optatus Appendix II (optatus_against-the-donatists l.5535); McGiffert, note to Eusebius X.5 (npnf201 l.50479-50488, l.50599-50601)",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The opposing bishops petitioned Constantine for judges from Gaul, because his father had not persecuted and Gaul was free of this wickedness",
+        "witness": "Petition of Lucianus, Dignus, Nasutius, Capito, Fidentius and the rest, copied by Optatus, Against the Donatists I.22 (optatus_against-the-donatists l.265); Augustine, Letter 43.4 (npnf101 l.27631-27635)",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "A synod at Rome in the house of Fausta on the Lateran, on 2 October in the consulship of Constantine IV and Licinius III, with Miltiades, three Gallic bishops and fifteen Italians, cleared Caecilian",
+        "witness": "Optatus I.23-24 (optatus_against-the-donatists l.273-275); Constantine, Letter to Aelafius (l.7099); Augustine, Letter 43.4 (npnf101 l.27637-27647)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The accusers told Constantine that the whole case had not been heard and that the bishops had shut themselves up somewhere and judged as was most convenient to themselves; that the judges were few and too hasty",
+        "witness": "Constantine to Aelafius (optatus_against-the-donatists l.7099); Constantine to Chrestus, Eusebius X.5.22 (npnf201 l.50655-50662)",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The letter to Silvester is headed by thirty-three names, Marinus first and Caecilian ninth",
+        "witness": "Letter of the Council of Arles to Pope Silvester (optatus_against-the-donatists l.7113)",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The bishops say they were brought to Arles by the wish of the emperor, and that the troublesome men were either condemned or rejected; had Silvester been present, a more severe sentence would have been passed",
+        "witness": "Letter to Silvester (optatus_against-the-donatists l.7115; Latin, bruns pars altera l.7794-7800 opening only)",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The sees of the bishops (Trier, Aquileia, Capua, Lyons, Carthage, Autun, Reims, Milan, London, Cologne, Emerita) and Silvester's two priests and two deacons",
+        "witness": "Hefele I, sec. 15 (hefele_history v1 l.11741-11763), from the list of persons in Mansi II.476",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Easter to be kept on one day and at one time throughout the world, Silvester to send letters to all according to custom",
+        "witness": "Canon 1 (bruns pars altera l.7805-7807); letter to Silvester (optatus_against-the-donatists l.7115)",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Because the Africans use their own law of rebaptizing, a convert from heresy is to be questioned on the creed; if baptized in the Father, the Son and the Holy Spirit, hands are laid on him and no more; if not, he is baptized",
+        "witness": "Canon 8 (bruns pars altera l.7875-7881); letter to Silvester (optatus_against-the-donatists l.7119)",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Clergy shown from public acts, not bare words, to have handed over Scriptures, sacred vessels or the names of brethren are to be removed from the clergy; those they ordained are not harmed by the ordination; accusers with bought witnesses are not admitted unless they prove from public acts",
+        "witness": "Canon 13 (bruns pars altera l.7903-7948); Hefele I, sec. 15, discussing it (hefele_history v1 l.12431-12558)",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Other canons: clergy stay where ordained (2, 21); those who throw down arms in peace, charioteers and actors kept from communion (3-5); false accusers excommunicated to the end (14); deacons not to offer (15); no bishop to ordain alone, seven or at least three (20)",
+        "witness": "Canons 2-5, 14, 15, 20, 21 (bruns pars altera l.7809-7828, l.7951-7962, l.7983-7988, l.8006-8013)",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The Donatist party appealed to the emperor from the council; Constantine wrote that they ask judgement from him who awaits the judgement of Christ, that the judgement of bishops should be looked on as if the Lord were sitting in judgement, that they appealed as in the lawsuits of the pagans, and that he had ordered them brought to his court",
+        "witness": "Constantine, Letter to the Catholic Bishops (optatus_against-the-donatists l.7133-7139; Appendix V)",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "In 315 the praetorian prefects ordered post-horses for Lucian, Capito, Fidentius, Nasutius and the priest Mammarius to the port of Arles to sail home to Africa",
+        "witness": "Letter of the prefects to Celsus, vicar of Africa (optatus_against-the-donatists l.7161), dated 315 by the English editor (l.7156-7158)",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Constantine heard the case himself, both parties present, and pronounced Caecilian innocent",
+        "witness": "Augustine, Letter 43.4 (npnf101 l.27648-27653); Letter 53 (npnf101 l.29782-29787)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The hearing before Constantine was at Milan in November 316",
+        "witness": "Hefele I, sec. 15 (hefele_history v1 l.12980-12988); McGiffert, note to Eusebius X.5 (npnf201 l.50522-50523: Milan in 316)",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "From the bishops sent to Arles the Donatists appealed to the emperor himself",
+        "witness": "Augustine, Letter 76 To the Donatists (npnf101 l.34122-34123)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "At the Conference of Carthage the Donatists did not dare deny that their fathers had accused Caecilian before Constantine, after the bishops had judged at Rome and Arles",
+        "witness": "Augustine, The Correction of the Donatists (Letter 185) 2.6 (npnf104 l.19371-19379)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The letter to Silvester came down through the archives of the church of Arles and its authenticity has never been contested",
+        "witness": "English editor's introduction to Appendix IV (optatus_against-the-donatists l.7104)",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Widely Accepted"
+      }
+    ],
+    "contested_claims": [
+      {
+        "claim": "How many bishops attended",
+        "sides": "The letter to Silvester names thirty-three; some old accounts and the heading in some manuscripts give six hundred (Bruns, apparatus l.7844; Hefele l.11738-11739); Baronius gave two hundred from a false reading of Augustine (Hefele l.11739-11740; McGiffert, npnf201 l.50677-50685, who calls the six hundred wild and holds not more than thirty-three)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Who presided",
+        "sides": "Marinus of Arles stands first in the letter to Silvester, and Hefele and McGiffert take him as president; McGiffert notes that Chrestus of Syracuse stands first in the list in Routh and that some have thought he presided (npnf201 l.50627-50640; hefele_history v1 l.11752-11755)",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Whether the twenty-two canons are genuine",
+        "sides": "Hefele: certainly genuine (l.12826-12828); McGiffert: commonly so regarded but not universally admitted, citing Ffoulke's article (npnf201 l.50690-50695)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "What canon 3, on those who throw down their arms in peace, forbids",
+        "sides": "Hefele lists four readings: deserting in battle (Ivo of Chartres, a manuscript read by Surius); using arms except in war (Sirmond); the gladiators' games (München, which Hefele prefers); refusing military service now that the church is at peace (Aubespine, Ceillier) (hefele_history v1 l.12035-12110)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Whether Constantine was present at Arles",
+        "sides": "Baronius thought so from Eusebius, Life of Constantine I.44; Hefele says the passage refers to Nicaea and the view is not defensible (hefele_history v1 l.12276-12284)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Whether Arles agreed the rule that a reconciled Donatist bishop would share the see with the Catholic bishop",
+        "sides": "A letter of the African bishops read in 411 says this was offered from the beginning of the schism; Tillemont refers it to Arles; Hefele says it is not known whether Arles decided anything else on the Donatists (hefele_history v1 l.11880-11896)",
+        "formation_confidence": "Inferential-Thin"
+      }
+    ],
+    "absent_details": [
+      {
+        "detail": "The minutes of the hearing",
+        "note": "Hefele: we do not have the acts in full. Only the letter to Silvester and the canons survive; the letter says the accusers were condemned or rejected but gives no account of the hearing. The English editor of Optatus thinks a letter to the church of Carthage was probably also sent and is lost (l.7106)."
+      },
+      {
+        "detail": "The year in an ancient source",
+        "note": "Constantine's letters give 1 August as the day to arrive but no year. 314 is the modern dating (Hefele, McGiffert, the English editor of Optatus). Searched the letters in optatus_against-the-donatists and npnf201 X.5 for a consular date: none."
+      },
+      {
+        "detail": "The sees of most of the bishops in the held English letter",
+        "note": "The English letter to Silvester gives names only. The sees come from Hefele, using the list of persons in Mansi II.476, which is not held."
+      },
+      {
+        "detail": "A place id for Arles",
+        "note": "No census row carries a placeId or Pleiades id for Arles, so the entry gives only the country id copied from an existing French row."
+      },
+      {
+        "detail": "Optatus's own account of the council",
+        "note": "Optatus never mentions the council (English editor's note, l.701) and places Constantine's post-Arles words after the Rome synod (l.273, notes l.701, l.717)."
+      }
+    ]
+  },
+  "council-of-nicaea-325": {
+    "claims": [
+      {
+        "claim": "Constantine entered the palace hall at Nicaea in purple and gold; a low chair of wrought gold was set for him, and he sat only after the bishops beckoned",
+        "witness": "Eusebius, Life of Constantine III.10 (npnf201 l.64396-64429)",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Constantine called a general council, invited bishops from all quarters by letter, and let some use the public conveyance",
+        "witness": "Eusebius, Life of Constantine III.6 (npnf201 l.64281-64290); synodal letter (npnf214 l.6330-6333)",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Alexander put Arius and his adherents out of the church; Eusebius of Nicomedia asked that the sentence be lifted",
+        "witness": "Socrates I.6 (npnf202 l.2112, 2425-2440)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Constantine first sent Ossius to Alexandria with a letter urging peace",
+        "witness": "Socrates I.7 (npnf202 l.2449); Eusebius, Life of Constantine III.5 (npnf201 l.64267-64272) on the letter's failure",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "No acts of the council have been handed down",
+        "witness": "Henry Percival, historical introduction (npnf214 l.2376-2391)",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "The creed calls the Son of the substance of the Father, begotten not made, of one substance (homoousios) with the Father, and anathematizes those who say there was a time when he was not",
+        "witness": "The Nicene Creed (npnf214 l.2397-2429), as found in the acts of Ephesus and Chalcedon and Eusebius's letter; Eusebius, Letter to his church 4 (npnf204 l.19671-19697)",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Arius was anathematized for teaching that the Son is from things that are not and that there was a time when he was not; Theonas of Marmarica and Secundus of Ptolemais received the same sentence",
+        "witness": "Synodal letter (npnf214 l.6338-6355); in Socrates I.9 (npnf202 l.3186-3200)",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Eusebius of Caesarea read his church's creed; the emperor approved it and asked that 'One-in-essence' be inserted",
+        "witness": "Eusebius, Letter to his church 1-4 (npnf204 l.19560-19669)",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "When the bishops proposed scriptural terms for the Son, Eusebius of Nicomedia's party was caught whispering and winking that the terms could be shared by men",
+        "witness": "Athanasius, De decretis 20 (npnf204 l.27985-28005)",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "A written statement from the Eusebian party was read and torn up in the sight of all",
+        "witness": "Eustathius of Antioch in Theodoret I.8 (npnf203 l.6386-6396)",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Eusebius of Caesarea held back for a short time before signing",
+        "witness": "Socrates I.8 (npnf202 l.2971-2976); Athanasius, De decretis 3 (npnf204 l.26780-26782)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Constantine spoke in Latin, with an interpreter, and the debate began with accusations on both sides",
+        "witness": "Eusebius, Life of Constantine III.13 (npnf201 l.64499-64505)",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "More than 250 bishops attended",
+        "witness": "Eusebius, Life of Constantine III.8 (npnf201 l.64360-64361)",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "About 270 bishops attended, though Eustathius did not count exactly",
+        "witness": "Eustathius in Theodoret I.8 (npnf203 l.6386-6390)",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The bishops were three hundred more or less",
+        "witness": "Athanasius, De decretis 3 (npnf204 l.26763); Hefele I, sec. 25 (hefele v1 l.17738-17742) lists Athanasius's other passages",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Constantine's letter to the Alexandrians speaks of more than three hundred bishops",
+        "witness": "Socrates I.9 (npnf202 l.3307, 3320)",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Socrates gives more than three hundred and also 318; Theodoret 318; Sozomen about 320",
+        "witness": "Socrates I.8 (npnf202 l.2742, 2945-2946); Theodoret I.7 (npnf203 l.6244); Sozomen I.17 (npnf202 l.27751-27752)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The figure 318 was adopted by a later generation, perhaps on symbolical grounds; Ambrose compared it with Abraham's 318 servants",
+        "witness": "Archibald Robertson, prolegomena (npnf204 l.1847-1858); Hefele I, sec. 25 (hefele v1 l.17754-17758); Gelzer, Hilgenfeld and Cuntz, cap. VIII (patrum l.2515-2566)",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "The subscription lists name 218, 220 or 222 fathers, and their names were not taken from the original signatures",
+        "witness": "Gelzer, Hilgenfeld and Cuntz, cap. VIII-IX (patrum l.2566-2580)",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "A Persian bishop and a Scythian were present; bishops came from Syria, Cilicia, Egypt, Mesopotamia, Asia Minor, Thrace, Macedonia, Greece and Spain",
+        "witness": "Eusebius, Life of Constantine III.7 (npnf201 l.64318-64337)",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Among the Latins were Ossius of Cordoba, Caecilian of Carthage and the two Roman presbyters; the bishop of Rome was absent through age",
+        "witness": "Hefele I, sec. 25 (hefele v1 l.17759-17763); Robertson (npnf204 l.1859-1862); Socrates I.13 (npnf202 l.3901-3907); Theodoret I.7 (npnf203 l.6244-6246)",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Jacob of Nisibis appears in the subscription lists; the Syriac list names him and John of Bet Parsaye among five from Mesopotamia",
+        "witness": "Patrum Nicaenorum nomina (patrum l.6664, 6761); Braun's Syriac texts (maruta l.2218-2220)",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Melitius kept the bare title of bishop without power to ordain; his clergy were received after a new laying on of hands",
+        "witness": "Synodal letter (npnf214 l.6356-6393)",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Easter was to be kept on one day everywhere, with the Romans and Alexandrians",
+        "witness": "Synodal letter (npnf214 l.6400-6406); Eusebius, Life of Constantine III.14 (npnf201 l.64523-64525); Constantine's letter (npnf214 l.6426-6494)",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Twenty canons are genuine; canon 6 on Alexandria, Rome and Antioch; canon 8 on the Cathari",
+        "witness": "The canons (npnf214 l.2810-5540; canon 6 l.3404, canon 8 l.3768); Hefele as quoted by Percival (npnf214 l.5570-5590)",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Constantine summoned Acesius, the Novatian bishop, who accepted the creed but kept his strict rule",
+        "witness": "Socrates I.10 (npnf202 l.3681-3721)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Socrates gives the date from the record of the synod as the 20th of May, in the consulship of Paulinus and Julian",
+        "witness": "Socrates I.13 (npnf202 l.3911-3916)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Opened 20 May, creed 19 June, closed 25 August",
+        "witness": "Hefele I, sec. 26 (hefele v1 l.17907-18010)",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Five bishops would not at first receive the creed; Arius was exiled by edict, with Eusebius of Nicomedia and Theognis, who later recanted and were restored",
+        "witness": "Socrates I.8 (npnf202 l.2950-2968) and I.14 (l.3926-3945)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Constantine ordered Arius's books destroyed on pain of death",
+        "witness": "Sozomen I.21 (npnf202 l.28022-28030); Constantine's edict in Socrates I.9 (npnf202 l.3377-3385)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The struggle over the council's results lasted well nigh half a century",
+        "witness": "Robertson, prolegomena (npnf204 l.1844-1846)",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Marutha translated the canons of the synod of the 318 from Greek into Syriac at the request of Isaac, catholicos of Seleucia-Ctesiphon",
+        "witness": "Braun's Syriac texts, heading IV (maruta l.2636-2639); attribution discussed by Braun (l.270-331)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "A Persian synod under Isaac in 410 accepted the canons and had them written down and signed",
+        "witness": "Braun's introduction, from the synod's acts (maruta l.850-879, 4988)",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Under Pope Zosimus the African bishops consulted the copy of the canons Caecilian had brought to Carthage",
+        "witness": "Hefele as quoted by Percival (npnf214 l.5640-5661)",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Arius wrote to Eusebius of Nicomedia that he and his friends were persecuted because they said the Son has a beginning; the letter survives because Theodoret of Cyrrhus kept it",
+        "witness": "Arius, letter to Eusebius of Nicomedia, in Theodoret, Church History I.4 (npnf203 l.6043-6046)",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      }
+    ],
+    "contested_claims": [
+      {
+        "claim": "How many bishops attended",
+        "sides": "Eusebius of Caesarea: more than 250 (npnf201 l.64360); Eustathius: about 270 (npnf203 l.6387); Athanasius: three hundred more or less (npnf204 l.26763), and 318 in the letter to the Africans (npnf204 l.60549), which Gelzer, Hilgenfeld and Cuntz think a copyist's correction (patrum l.2515-2536); Constantine's letter: more than 300 (npnf202 l.3307); Socrates, Theodoret: 318; Sozomen: about 320; the lists: about 220 names. Hefele (v1 l.17749-17753) thinks numbers varied over the months",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Who presided",
+        "sides": "Hefele I (v1 l.2606-2700): Ossius, for the bishop of Rome, relying on Gelasius of Cyzicus, with Eustathius and Alexander prominent; Henry Percival (npnf214 l.786-793): no evidence that Ossius presided; Robertson (npnf204 l.2149-2166): must be left open, Theodoret's 'very prominent' the only weighty evidence; Athanasius asks over what synod Ossius did not preside",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "The order of the whispering scene and Eusebius of Caesarea's creed",
+        "sides": "Robertson, with Kolling (npnf204 l.2117-2123): the scene came first; Montfaucon and Gwatkin, as Robertson reports (l.2124-2127): after. Robertson: 'there is no real certainty' (l.2105-2106)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Whose statement was torn up",
+        "sides": "Eustathius (npnf203 l.6388-6396) names only 'Eusebius'; Theodoret and most moderns take it as Eusebius of Nicomedia; Robertson (npnf204 l.2048-2053) notes it may have been produced against him, perhaps his letter to Paulinus of Tyre; he rejects Montfaucon's view that it was Eusebius of Caesarea's (l.2115-2117)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "How many refused the creed",
+        "sides": "Synodal letter: Secundus and Theonas sentenced with Arius (npnf214 l.6353-6355); Socrates I.8: five refused at first, including Eusebius of Nicomedia, Theognis and Maris (npnf202 l.2950-2954); Robertson: in the end all but Secundus and Theonas signed (npnf204 l.2177-2180)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Why Eusebius of Nicomedia and Theognis were exiled",
+        "sides": "Socrates I.8: they would not accept the creed or the deposition of Arius (npnf202 l.2950-2968); Sozomen I.21: they assented to the creed but not to Arius's deposition (npnf202 l.28019-28022); A. C. Zenos, Socrates's English editor, says Socrates gives the wrong reason and dates the return to 328 (npnf202 l.3929-3936)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "The opening date",
+        "sides": "Socrates I.13: 20 May from the record (npnf202 l.3911-3916); the creed read at Chalcedon: 19 June; Valesius: the council began 19 June; Baronius's manuscript: 14 June to 25 August; Hefele reconciles them (v1 l.17907-18040). Richardson's note to Eusebius: probably 14 June to 25 August (npnf201 l.64400-64402)",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "How many canons the council made",
+        "sides": "Hefele, as Percival quotes him (npnf214 l.5570-5590): twenty only; Arabic collections give eighty or more, and a spurious letter of Athanasius speaks of seventy (npnf214 l.5541-5568)",
+        "formation_confidence": "Widely Accepted"
+      }
+    ],
+    "absent_details": [
+      {
+        "detail": "The minutes of the council",
+        "note": "Lost. Percival (npnf214 l.2376-2391): no acts of the first two councils survive; Coptic fragments Revillout took for part of them are of uncertain value."
+      },
+      {
+        "detail": "The original signatures",
+        "note": "The held lists name about 220 bishops and, by their editors' judgment, were not copied from the signatures (patrum l.2566-2580). Robertson calls the lists 'bad witnesses' (npnf204 l.2159)."
+      },
+      {
+        "detail": "Arius's own account of the council",
+        "note": "No account by Arius of the council is held. His teaching comes through the synodal letter and through letters kept by his opponents; Socrates and Sozomen give his later recantation."
+      },
+      {
+        "detail": "The Synodicon of Athanasius that Socrates used for the names",
+        "note": "Not extant, as Zenos notes (npnf202 l.3907-3910)."
+      }
+    ]
+  },
+  "council-of-sardica-343": {
+    "claims": [
+      {
+        "claim": "When the enemies of Athanasius came to the church where he stayed, Ossius challenged them to bring their charges, before the council or before him alone, and offered to take Athanasius to Spain if he were cleared and they still refused communion; Athanasius agreed and they refused",
+        "witness": "Ossius, Letter to Constantius, in Athanasius, History of the Arians 44 (npnf204 l.39262-39280)",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Constans wrote to Constantius, and the two determined that a council should be called at Sardica",
+        "witness": "Athanasius, History of the Arians 15 (npnf204 l.38245-38253); Socrates II.20 (npnf202 l.6824-6831)",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Sardica was a city of Illyricum",
+        "witness": "Socrates II.20 (npnf202 l.6828-6829); Sozomen III.11 (npnf202 l.31456)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Julius had decided to hold communion with Athanasius, having the testimony of eighty bishops",
+        "witness": "Western synodal letter to Alexandria, in Athanasius, Defence against the Arians 37 (npnf204 l.23720-23729)",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Socrates and Sozomen date the council to the consulship of Rufinus and Eusebius, eleven years after Constantine's death",
+        "witness": "Socrates II.20 (npnf202 l.6831-6837); Sozomen III.12 (npnf202 l.31572-31575)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The council probably began in the autumn of 343 and ran into the spring of 344",
+        "witness": "Hefele II, sec. 58 (hefele v2 l.5686-5730); in Percival (npnf214 l.30431-30546)",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "About 170 bishops came from East and West; the Westerners had Ossius for their father; the Easterners brought Count Musonianus and Hesychius",
+        "witness": "Athanasius, History of the Arians 15 (npnf204 l.38252-38259)",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The Eastern bishops call themselves eighty in their letter; seventy-three sign it",
+        "witness": "The Eastern letter (csel65 l.7659); Hefele II, sec. 60 (hefele v2 l.5962-5975)",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Socrates and Sozomen give about 300 Western and seventy-six Eastern bishops; Theodoret gives 250",
+        "witness": "Socrates II.20 (npnf202 l.6837-6852); Sozomen III.12 (npnf202 l.31578-31584); Theodoret II.6 (npnf203 l.8625)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Socrates and Sozomen counted bishops who signed later; the Western party at Sardica was about ninety-four to ninety-seven",
+        "witness": "Hefele II, sec. 60 (hefele v2 l.6015-6105); Robertson's note (npnf204 l.26276-26284)",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "The council met without counts or soldiers; it challenged the Eastern bishops to come forward and face the accused",
+        "witness": "Western synodal letter, in Athanasius, Defence against the Arians 36 (npnf204 l.23646-23663)",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The Eastern bishops found Athanasius and Marcellus sitting in the church with Ossius and Protogenes and celebrating the mysteries, and demanded that the condemned be shut out",
+        "witness": "The Eastern letter 14-15 (csel65 l.7633-7650); Hefele's English summary (hefele v2 l.6456-6480)",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The Eastern letter says Marcellus would set bounds to the perpetual, eternal and timeless kingdom of Christ",
+        "witness": "The Eastern letter 2 (csel65 l.7148-7154); English in Zenos's note to Socrates (npnf202 l.6706-6712)",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The Eastern bishops withdrew to Philippopolis in Thrace and held a separate council",
+        "witness": "Socrates II.20 (npnf202 l.6861-6867)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The Western bishops received Athanasius as falsely accused and deposed Theodore of Heraclea, Narcissus of Neronias, Acacius of Caesarea, Stephen of Antioch, Ursacius and Valens, Menophantus of Ephesus and George of Laodicea",
+        "witness": "Athanasius, Defence against the Arians 36 (npnf204 l.23665-23685); Sozomen III.12 (npnf202 l.31524-31545)",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The Western bishops cleared Marcellus and Asclepas as well",
+        "witness": "Sozomen III.12 (npnf202 l.31524-31530); Socrates II.20 (npnf202 l.6885-6887)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The Western bishops confirmed the Nicene creed",
+        "witness": "Socrates II.20 (npnf202 l.6874-6878)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Ossius proposed the canons; canon 1 forbids moving from a small see to a larger; canon 3 lets the case of a condemned bishop be referred to Julius of Rome, 'to honour the memory of Peter the Apostle'",
+        "witness": "The canons of Sardica (npnf214 l.30577-30610, 30712-30748)",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The canons were drawn up in both Greek and Latin, and were received by the Greeks through the Council in Trullo",
+        "witness": "Percival's note on the text (npnf214 l.30552-30567)",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "The Eastern bishops confirmed their sentences on Athanasius, Paul, Marcellus and Asclepas and deposed Julius, Ossius, Maximus of Trier, Protogenes and Gaudentius",
+        "witness": "Sozomen III.11 (npnf202 l.31472-31492); Hefele from the Eastern letter (hefele v2 l.10716-10731)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The Eastern creed is, but for a small addition, the fourth formula of Antioch, and does not contain the word 'unlike'",
+        "witness": "Hefele II (hefele v2 l.10731-10752)",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "After the council the Western church was severed from the Eastern, with communion bounded by the mountain Soucis between the Illyrians and the Thracians",
+        "witness": "Socrates II.22 (npnf202 l.7105-7125)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Constans threatened Constantius with war unless Athanasius and Paul were restored; Constantius then recalled Athanasius",
+        "witness": "Socrates II.22-23 (npnf202 l.7126-7167)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Athanasius returned to Alexandria in October 346",
+        "witness": "Robertson, from the index to the Easter letters (npnf204 l.5140-5147); Hefele in Percival (npnf214 l.30514-30515)",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Pope Zosimus quoted the fifth canon of Sardica to the African bishops as Nicene; they could not find it in their copies",
+        "witness": "Hefele as quoted by Percival (npnf214 l.5640-5661)",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Constantius refused to acknowledge the decrees, and no later authority declared Sardica a general council",
+        "witness": "Hefele as quoted by Percival (npnf214 l.32072-32076)",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Widely Accepted"
+      }
+    ],
+    "contested_claims": [
+      {
+        "claim": "The year of the council",
+        "sides": "Socrates II.20 and Sozomen III.12: the consulship of Rufinus and Eusebius, taken as 347 (npnf202 l.6831-6835, 31572-31575); Hefele II, sec. 58: autumn 343 into 344, from the Easter letters, their preface and the Historia Acephala, refuting 347 (hefele v2 l.5586-5730); Mansi, as Hefele reports: 344; Robertson: 343, the index giving the Egyptian year 342 to 343 (npnf204 l.9329-9334, 62161); Blomfield Jackson's note to Theodoret: 343 by Hefele, 344 by Mansi (npnf203 l.8625)",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "How many bishops attended",
+        "sides": "Athanasius: about 170 (npnf204 l.38252-38254) and more than 300 assenting (l.21920-21926); Socrates and Sozomen: about 300 West, 76 East; Theodoret: 250; the Eastern letter: eighty; Hefele: 76 East and 94 to 97 West, judging Socrates to have counted later signers (hefele v2 l.5962-6105)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Where the Eastern bishops met and wrote their letter",
+        "sides": "Socrates II.20: they withdrew to Philippopolis (npnf202 l.6861-6867); Sozomen III.11: they had gathered at Philippopolis before coming to Sardica (npnf202 l.31456-31462); the letter itself says it was written from Sardica, and Tillemont and Ceillier, as Hefele reports, call that a lie (hefele v2 l.10753-10762)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "What the Eastern creed said",
+        "sides": "Socrates II.20: they anathematized consubstantial and brought in 'unlike' (npnf202 l.6866-6873); Sozomen III.11: no mention of consubstantial, with anathemas on those who say the Son had a beginning (npnf202 l.31495-31502); Hefele: it is the fourth formula of Antioch, without 'unlike' (hefele v2 l.10731-10752)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Whether the Western council issued a new creed",
+        "sides": "Athanasius, as Hefele reports: it refused to draw up a new formula; Theodoret gives a Sardican creed; Sozomen III.12: Ossius and Protogenes wrote to Julius that they had expanded the Nicene faith (npnf202 l.31554-31570); Hefele, with the Ballerini: a draft by Ossius and Protogenes, not adopted (hefele v2 l.6784-6910)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Whether Ossius presided as the pope's legate",
+        "sides": "Hefele II, sec. 60: Ossius presided, perhaps with a commission from the pope (hefele v2 l.6187-6230); Van Espen, quoted by Percival: no trace of such a legation; Julius was represented by his two presbyters (npnf214 l.30620-30632). Athanasius calls Ossius president (npnf204 l.38319)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Why Constantius gave way",
+        "sides": "Socrates II.22-23: Constans's threat of war (npnf202 l.7126-7160); Hefele: the disgrace of Stephen of Antioch in 344 also turned Constantius against the Eastern party (npnf214 l.30496-30512)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Whether Sardica was a general council",
+        "sides": "Hefele, as Percival quotes him: not ecumenical; fewer than a hundred bishops and no later authority called it so (npnf214 l.32024-32076); Natalis Alexander held it was, and was censured for it (same passage)",
+        "formation_confidence": "Widely Accepted"
+      }
+    ],
+    "absent_details": [
+      {
+        "detail": "The full signatures of the council",
+        "note": "Lost, Hefele says, except one defective list of fifty-nine names in Hilary and later lists in the Verona documents (hefele v2 l.6055-6085)."
+      },
+      {
+        "detail": "The Greek original of the Eastern letter",
+        "note": "Only a Latin version survives, in Hilary's dossier; Hefele notes the Latin may have errors, such as the 'seventeen years' since Asclepas's deposition (npnf214 l.30529-30546)."
+      },
+      {
+        "detail": "The exact months",
+        "note": "No ancient source gives the month. Hefele's autumn 343 to spring 344 is reasoned from the Easter letters and the envoys' arrival at Antioch at Easter 344."
+      },
+      {
+        "detail": "An English version of the Eastern letter",
+        "note": "No full English translation is held; the Eastern side is told here from the Latin, from Hefele's summary and from the passage in Zenos's note."
+      }
+    ]
+  },
+  "councils-of-ariminum-and-seleucia-359": {
+    "claims": [
+      {
+        "claim": "At Ariminum the prefect Taurus pleaded with tears with the last bishops holding out, saying they had been shut in the city seven months, worn by winter and want",
+        "witness": "Sulpicius Severus, Sacred History II.44 (npnf211 l.11331-11345)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The bishops holding out at Ariminum were reduced to twenty",
+        "witness": "Sulpicius II.43 (npnf211 l.11320-11324)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Constantius ordered Taurus not to let the bishops part until they agreed on one faith, promising him the consulship",
+        "witness": "Sulpicius II.41 (npnf211 l.11196-11201)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The scene at Ariminum belongs to the winter of 359",
+        "witness": "Sulpicius II.44 gives winter and the seventh month (npnf211 l.11336-11339); the year is reckoned from Hefele's May opening (hefele v2 l.15637-15638)",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Constantius was troubled that the bishops did not agree on the faith, and meant the council to bring all to one opinion",
+        "witness": "Sulpicius II.40 (npnf211 l.11184-11189); Socrates II.37 (npnf202 l.8461-8471)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Constantius divided the council: the Western bishops to Ariminum, the Eastern to Seleucia in Isauria",
+        "witness": "Socrates II.37 and 39 (npnf202 l.8465-8474, 9177-9184); Athanasius, De synodis 1 (npnf204 l.56365-56368)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The Dated Creed was drawn up at Sirmium in the emperor's presence in May 359; it called the Son like the Father who begat him according to the Scriptures, like the Father in all things, and said no mention should be made of substance in reference to God",
+        "witness": "The creed itself, in Athanasius, De synodis 8 (npnf204 l.56617-56661) and Socrates II.37 (npnf202 l.8533-8591)",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The Dated Creed is dated the 11th of the Calends of June (reckoned 22 May) in Athanasius, and 23 May in Socrates",
+        "witness": "Athanasius, De synodis 8 (npnf204 l.56620-56624, the reckoning in the edition's note); Socrates II.37 (npnf202 l.8547-8548)",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Valens and Ursacius read the Sirmium creed at Ariminum and asked that it alone be accepted",
+        "witness": "Athanasius, De synodis 8 (npnf204 l.56605-56615); Socrates II.37 (npnf202 l.8510-8519); Sozomen IV.17 (npnf202 l.33826-33834)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Four hundred bishops and more met at Ariminum",
+        "witness": "Athanasius, De synodis 8 (npnf204 l.56605-56606); Sozomen IV.17, about four hundred (npnf202 l.33823); Sulpicius II.41, four hundred and rather more (npnf211 l.11204)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "They were summoned from Illyria, Italy, Africa and the two Gauls; the bishops of Aquitaine, Gaul and Britain refused the public supplies, except three from Britain",
+        "witness": "Sulpicius II.41 (npnf211 l.11202-11214)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The Arian party at Ariminum was no more than eighty",
+        "witness": "Sulpicius II.41 (npnf211 l.11225-11228); Hefele v2 follows (l.15659)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Philostorgius says three hundred bishops were at Rimini, and that they rejected 'substance' and signed that the Son is like the Father according to the Scriptures",
+        "witness": "Philostorgius IV.10, in Photius's epitome (philostorgius l.226)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The majority at Ariminum refused the creed, declared the Nicene faith enough, and deposed Ursacius, Valens, Germinius, Auxentius, Gaius and Demophilus",
+        "witness": "Athanasius, De synodis 9 and 11, with the council's decree (npnf204 l.56664-56692, 56801-56815); Socrates II.37 (npnf202 l.8709-8711); Sozomen IV.17 (npnf202 l.33874-33877)",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The council's 'Catholic definition' kept the word and meaning of substance",
+        "witness": "Hilary, Fragm. vii.3, quoted in the note to Athanasius, De synodis 11 (npnf204 l.56790-56798); the extracts from the acts in Feder's dossier, Series A IX (hilary csel65 l.1208)",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The council wrote to Constantius that nothing be added to or taken from Nicaea and that the bishops be let go home, and sent envoys",
+        "witness": "The letter, in Athanasius, De synodis 10 (npnf204 l.56694-56788); Socrates II.37 (npnf202 l.8728-8855); Sozomen IV.18 (npnf202 l.33902-34010); Theodoret II.15 (npnf203 l.9965-10070); Latin in Feder, Series A V (l.1188)",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Constantius delayed the envoys and ordered them to wait at Adrianople; the bishops wrote again asking to go home before winter",
+        "witness": "Constantius's letter and the bishops' reply, in Socrates II.37 (npnf202 l.8858-8915) and Theodoret II.15 (npnf203 l.10084-10109); Sozomen IV.19 (npnf202 l.34032-34062)",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "At Nice in Thrace the envoys signed a creed that removed 'substance', forbade naming one hypostasis, and called the Son like the Father according to the Scriptures; the town was chosen so its name would be mistaken for Nicaea",
+        "witness": "Theodoret II.16, with the creed (npnf203 l.10114-10193); Socrates II.37 (npnf202 l.8945-8953); Sozomen IV.19 (npnf202 l.34079-34109)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The signing at Nice took place on 10 October 359",
+        "witness": "Hefele v2, from a document of Restitutus of Carthage in Hilary's Fragm. viii (hefele v2 l.15976-15981)",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Back at Ariminum the bishops gave way by degrees until twenty were left; the prefect was to banish the obstinate if fewer than fifteen",
+        "witness": "Sulpicius II.43 (npnf211 l.11306-11324)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Phoebadius and Servatius drafted statements condemning Arius, and Valens added that the Son was not a creature like the other creatures",
+        "witness": "Sulpicius II.44 (npnf211 l.11360-11373)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Valens publicly read anathemas against Arian sayings and the bishops applauded with clapping and stamping, as told in the acts of Ariminum",
+        "witness": "Jerome, Dialogue against the Luciferians 18 (npnf206 l.32343-32396)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Jerome wrote that the whole world groaned, and was astonished to find itself Arian",
+        "witness": "Jerome, Dialogue against the Luciferians 19 (npnf206 l.32411-32413)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Jerome's Dialogue was written at Antioch in 379",
+        "witness": "W. H. Fremantle's chronology in npnf206 (l.1856)",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "About a hundred and sixty bishops met at Seleucia, with the officials Leonas and Lauricius present by the emperor's order",
+        "witness": "Athanasius, De synodis 12 (npnf204 l.56837); Socrates II.39 (npnf202 l.9194-9200); Sozomen IV.22 (npnf202 l.34261-34268)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Hilary of Poitiers, in exile in Phrygia, was sent to Seleucia and admitted to communion there",
+        "witness": "Sulpicius II.42 (npnf211 l.11251-11278)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "At Seleucia the majority confirmed the creed of Antioch; Acacius's party, with about thirty-two others, offered a creed rejecting homoousion and homoiousion and anathematizing anomoion",
+        "witness": "Socrates II.39 to 40, with Acacius's text (npnf202 l.9228-9355); Sozomen IV.22 (npnf202 l.34302-34378)",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Acacius answered that no author, ancient or modern, was ever condemned out of his own writings",
+        "witness": "Socrates II.40 (npnf202 l.9417-9419); Sozomen IV.22 (npnf202 l.34396-34397)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The majority at Seleucia deposed Acacius, George of Alexandria, Uranius of Tyre, Eudoxius and others, and excommunicated more",
+        "witness": "Socrates II.40 (npnf202 l.9459-9471); Athanasius, De synodis 12 (npnf204 l.56886-56896); Sozomen IV.22 (npnf202 l.34424-34430)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "At Constantinople, on the eve of the emperor's consulship in January, Constantius persuaded the envoys of Seleucia to accept the formulary of Ariminum",
+        "witness": "Sozomen IV.23 (npnf202 l.34526-34542)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "A synod of about fifty at Constantinople confirmed the creed of Ariminum, forbade 'substance' and 'hypostasis' of God, and deposed Aetius",
+        "witness": "Socrates II.41 (npnf202 l.9522-9577); Sozomen IV.24 (npnf202 l.34561-34575)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Ulfila, bishop of the Goths, assented to the creed of Constantinople",
+        "witness": "Socrates II.41 (npnf202 l.9606-9612); Sozomen IV.24 names him among those present (npnf202 l.34563)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The Acacians then deposed Macedonius, Eleusius, Basil of Ancyra, Cyril of Jerusalem and others",
+        "witness": "Socrates II.42 (npnf202 l.9621-9657); Sozomen IV.24 (npnf202 l.34579-34583)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Those who would not sign were banished",
+        "witness": "Theodoret II.16 (npnf203 l.10190-10193); Sulpicius II.45 (npnf211 l.11393-11398)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Those deposed in 360 revoked their signatures to the faith of Rimini as they went into exile",
+        "witness": "Philostorgius V.1, in Photius's epitome (philostorgius l.234)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "After Constantius's death the bishops of Ariminum said they had been deceived",
+        "witness": "Jerome, Dialogue 19 (npnf206 l.32420-32446)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Hilary held councils in Gaul that condemned the proceedings at Ariminum",
+        "witness": "Sulpicius II.45 (npnf211 l.11416-11434)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Lucifer of Cagliari separated himself even from those who received the bishops of Ariminum after penitence",
+        "witness": "Sulpicius II.45 (npnf211 l.11435-11440)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "A Roman council under Damasus said no prejudice could arise from the number of bishops at Ariminum",
+        "witness": "The synodal letter, in Theodoret II.17 (npnf203 l.10249-10304)",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Athanasius asked the bishops of Africa who could cite the synod of Ariminum against the Nicene",
+        "witness": "Athanasius, Letter to the Bishops of Africa (npnf204 l.60581)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The Macedonians at Lampsacus anathematized the creed of Ariminum",
+        "witness": "Socrates IV.4 (npnf202 l.12339-12355)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "At Hippo the Homoian bishop Maximinus told Augustine he held the faith set out at Ariminum and confirmed by the signatures of 330 bishops; Augustine answered that neither should press Nicaea or Ariminum, but argue from Scripture",
+        "witness": "Augustine, Collatio cum Maximino 2 and Contra Maximinum (augustine pl42 l.54499-54501, 59191-59196)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Ariminum opened in May 359",
+        "witness": "Hefele v2 (l.15637-15638)",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      }
+    ],
+    "contested_claims": [
+      {
+        "claim": "How many bishops met at Ariminum",
+        "sides": "Athanasius, De synodis 8: four hundred and more; Sozomen IV.17: about four hundred; Sulpicius II.41: four hundred and rather more, eighty of them Arian; Philostorgius IV.10 (Photius's epitome): three hundred; Maximinus, in Augustine's debate with him: 330 who signed",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "How many envoys Ariminum sent to the emperor",
+        "sides": "Sulpicius II.41: ten from each party; Sozomen IV.18: twenty, though the emperor had asked for ten (the note there); Constantius's reply in Socrates II.37: twenty bishops",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Who moved the emperor to call and to split the council",
+        "sides": "Athanasius, De synodis 1, and Sozomen IV.16: Ursacius, Valens, Acacius, Eudoxius and their friends, to escape condemnation together; Archibald Robertson, introduction to De synodis: Athanasius is probably mistaken, and the party of Basil of Ancyra wanted a doctrinal settlement",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "When Seleucia opened",
+        "sides": "Socrates II.39 and Acacius's statement in II.40: 27 September; Athanasius, De synodis 12: the 16th of Thoth, which the edition's note reckons as 14 September; Hefele: about the middle of September",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "How large Acacius's party was at Seleucia",
+        "sides": "Socrates II.39 and Sozomen IV.22: thirty-two others with its leaders; Hefele reports forty-three from Epiphanius and nineteen from Hilary",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Whether Liberius of Rome was exiled for refusing the creed of Ariminum",
+        "sides": "Socrates II.37: he refused and was exiled, and Felix put in his place; Sozomen IV.19: so some say; Hefele: Liberius had already been restored, and was neither present nor represented",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "What Valens's clause 'not a creature like the other creatures' meant",
+        "sides": "Sulpicius II.44 and Jerome, Dialogue 19: a hidden admission that the Son is a creature; no Homoian reading of the clause is held",
+        "formation_confidence": "Inferential-Thin"
+      }
+    ],
+    "absent_details": [
+      {
+        "detail": "The acts of Ariminum",
+        "note": "Jerome says he drew on them; Hefele says we no longer have them. Only the decree, letters and extracts kept by Athanasius and Hilary survive."
+      },
+      {
+        "detail": "The acts of Seleucia",
+        "note": "Socrates points to Sabinus's collection, and Sozomen to the shorthand acts. Neither is held."
+      },
+      {
+        "detail": "The acts of the synod of Constantinople that followed",
+        "note": "Philostorgius says Acacius arranged them and that they were many. They are not held."
+      },
+      {
+        "detail": "The names of the bishops at Ariminum",
+        "note": "The letter to Constantius says the envoys carried the signatures. No list is held."
+      },
+      {
+        "detail": "The Homoian side's own account of the councils in English",
+        "note": "The Library holds their creeds and Acacius's statement in English, a letter of the Arian party at Ariminum in Latin in Feder's dossier (Series A VI), and Philostorgius only in Photius's hostile epitome. The Latin letter was not read for this profile; the OCR is rough."
+      },
+      {
+        "detail": "Hilary's own account of Seleucia in English",
+        "note": "Against Constantius is held only in Latin (PL 10); his On the Councils in npnf209 was written before both councils."
+      },
+      {
+        "detail": "The month Ariminum opened",
+        "note": "No ancient witness in the files read gives it; May is Hefele's."
+      }
+    ]
+  },
+  "first-council-of-constantinople-381": {
+    "claims": [
+      {
+        "claim": "Gregory of Nazianzus gave his farewell before the hundred and fifty bishops, saying 'Farewell, my throne, envied and perilous height'",
+        "witness": "Gregory of Nazianzus, Oration 42, title and 26 (npnf207 l.40106-40110, 40877)",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Gregory called the small church where his flock first met his Anastasia",
+        "witness": "Oration 42.26 (npnf207 l.40853-40859); Socrates V.7 (npnf202 l.14983-14987)",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The Arians had held the churches of Constantinople for forty years; on 26 November 380 Theodosius drove out their bishop Demophilus, who would not accept the Nicene Creed",
+        "witness": "Socrates V.7 (npnf202 l.15016-15059)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Theodosius summoned the synod to establish the Nicene Creed and appoint a bishop of Constantinople, and invited the Macedonian leaders too",
+        "witness": "Socrates V.8 (npnf202 l.15068-15084); Sozomen VII.7 (npnf202 l.40775-40785)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Theodosius summoned only the bishops of his own half of the empire",
+        "witness": "Theodoret V.6 to 7 (npnf203 l.15722-15727, 15753-15755)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The letter of summons is lost, and Damasus of Rome was probably never invited",
+        "witness": "Hefele v2, sec. 95 (hefele v2 l.20965-20994)",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "No diocese of the West was present",
+        "witness": "Percival, historical introduction (npnf214 l.13246-13252)",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "The bishops met in May, in the consulate of Eucherius and Evagrius",
+        "witness": "Socrates V.8 (npnf202 l.15098-15103)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The canons are headed with the 7th of the Ides of July, reckoned 9 July",
+        "witness": "The canons' caption (npnf214 l.13958-13964), with Percival's and Hefele's note",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "A hundred and fifty bishops of the Nicene party were present, among them Timothy of Alexandria, Cyril of Jerusalem, Meletius of Antioch and Ascholius of Thessalonica",
+        "witness": "Socrates V.8 (npnf202 l.15084-15095); Sozomen VII.7 (npnf202 l.40785-40797); Theodoret V.7 (npnf203 l.15755); the canons' title (npnf214 l.13958)",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The Prisca's Latin list of signatures holds a hundred and forty-seven names",
+        "witness": "Hefele v2, sec. 95 note (hefele v2 l.21104-21110); Mansi t. 3",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Thirty-six Macedonian bishops, chiefly from the Hellespont, came under Eleusius of Cyzicus and Marcian of Lampsacus, refused the homoousion, and left",
+        "witness": "Socrates V.8 (npnf202 l.15095-15120); Sozomen VII.7 (npnf202 l.40786-40807)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Meletius of Antioch died during the council",
+        "witness": "Theodoret V.8 (npnf203 l.15833-15836); Gregory of Nyssa, Funeral Oration on Meletius, with the editor's note (npnf205 l.45711-45727, 46005-46006)",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Gregory of Nyssa said at the funeral: 'War, the war of heresy, encompasses us, and our Leader is no more.'",
+        "witness": "Funeral Oration on Meletius (npnf205 l.45726-45727)",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Meletius confirmed Gregory in the see of Constantinople",
+        "witness": "Theodoret V.8 (npnf203 l.15805-15813)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Meletius presided first, then Gregory of Nazianzus, then Nectarius",
+        "witness": "Hefele v2, sec. 95, from Gregory's poem on his life and the signature lists (hefele v2 l.21087-21089)",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Some bishops, particularly those of Egypt, objected to Gregory, and he withdrew",
+        "witness": "Sozomen VII.7 (npnf202 l.40815-40818)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Gregory had put the opponents' question: 'From whence are you bringing in upon us this strange God, of Whom Scripture is silent?', and said some called the Spirit an Activity, some a Creature, some God",
+        "witness": "Gregory of Nazianzus, Fifth Theological Oration 1 and 5 (npnf207 l.33918-33922, 34015-34017)",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The synod of 382 condemned the Eunomians, Arians and Pneumatomachi for giving the Trinity a created nature of a different substance",
+        "witness": "Synodal letter of 382, in Theodoret V.9 (npnf214 l.15250-15256)",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Theodosius chose Nectarius, a senator of Tarsus not yet baptized, from the bishops' lists; he was baptized and proclaimed bishop while yet in his initiatory robes",
+        "witness": "Sozomen VII.8 (npnf202 l.40848-40893); Socrates V.8 (npnf202 l.15127-15137)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Canon 1: the faith of Nicaea shall not be set aside but shall remain firm; the Eunomians or Anomoeans, Arians or Eudoxians, Semi-Arians or Pneumatomachi, Sabellians, Marcellians, Photinians and Apollinarians anathematized",
+        "witness": "Canon 1 (npnf214 l.13969-13976), with Percival's note on the readings (l.13981-13991)",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The creed calls the Holy Spirit the Lord and Giver-of-Life, who proceeds from the Father, worshipped and glorified with the Father and the Son",
+        "witness": "The creed of the 150 fathers (npnf214 l.13380-13399)",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The creed's text comes down in the acts of the Council of Chalcedon",
+        "witness": "Percival's heading note to the creed (npnf214 l.13343-13349)",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The Council of Ephesus did not mention the creed; Chalcedon had it recited after that of Nicaea and received it into its acts",
+        "witness": "Hefele v2, sec. 97 (hefele v2 l.21537-21540); the excursus in npnf214 (l.15089-15107)",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "The council issued a tome on the faith with an anathema against new heresies, now lost",
+        "witness": "Synodal letter of 382 (npnf214 l.15262-15269); Percival's note on the lost tome (l.13840-13863)",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Canon 2 kept bishops within their own dioceses; canon 3 gave the bishop of Constantinople the prerogative of honour after the bishop of Rome, because Constantinople is New Rome",
+        "witness": "Canons 2 and 3 (npnf214 l.14306-14321, 14398-14400); Socrates V.8 (npnf202 l.15154-15175)",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The council declared that Maximus the Cynic had never been a bishop",
+        "witness": "Sozomen VII.9 (npnf202 l.40935-40942); Hefele v2, sec. 96, on canon 4",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Socrates says Helladius and Gregory of Nyssa were given Pontus, and Nectarius the city and Thrace",
+        "witness": "Socrates V.8 (npnf202 l.15157-15175)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Theodosius confirmed the decrees and ordered the churches given to bishops in communion with Nectarius, Timothy, Diodorus, Pelagius, Amphilochius, Helladius, Gregory of Nyssa and others",
+        "witness": "Sozomen VII.9 (npnf202 l.40944-40966); the law itself named in Boyd, Ecclesiastical Edicts (boyd l.6355-6361)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Flavian was chosen to follow Meletius at Antioch, and the synod of 382 defended his ordination",
+        "witness": "Hefele v2, sec. 96 (hefele v2 l.21222-21240); synodal letter of 382 (npnf214 l.15284-15291)",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "A council of Latins censured the choice of Nectarius and the continued Antioch schism; the synod of 382 called the council ecumenical",
+        "witness": "Hefele, in the npnf214 excursus (l.15055-15066); synodal letter of 382 (npnf214 l.15264-15266, 15281-15282)",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Leo of Rome wrote that canon 3 was never brought to the apostolic see; Rome accepted the creed and not the canons; Gregory the Great counted the council among four he compared to the four Gospels",
+        "witness": "Hefele, in the npnf214 excursus (l.15070-15084, 15112-15131); Percival's introduction (l.13240-13242)",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "At Chalcedon the Roman legates protested when the third canon was renewed",
+        "witness": "Hefele, in the npnf214 excursus (l.15116-15124)",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "At Toledo in 589 the newly converted Goths were required to sign the creed with 'and the Son'",
+        "witness": "Percival's excursus, after Hefele (npnf214 l.13619-13626)",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Widely Accepted"
+      }
+    ],
+    "contested_claims": [
+      {
+        "claim": "Whether the council drew up the creed that bears its name",
+        "sides": "Henry Percival, its English editor: it did, and its title in the Chalcedon acts says so; Tillemont and Hefele: it reworked and shortened a creed already in use, like the one Epiphanius gives in the Ancoratus of 374; F. J. A. Hort: it set forth no creed, though it may have approved this one; Adolf Harnack: it did not accept this creed",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Who presided",
+        "sides": "Hefele: Meletius, then Gregory of Nazianzus, then Nectarius; Sozomen VII.7: Timothy of Alexandria, Meletius and Cyril led the Nicene party; Van Espen, cited by Hefele: Timothy presided once the Egyptians came; Hergenröther, cited by Hefele, doubts that Nectarius presided",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Why Gregory of Nazianzus withdrew",
+        "sides": "Socrates V.7: some murmured because he was a stranger; Sozomen VII.7: some bishops, chiefly of Egypt, objected; Theodoret V.8: he asked to be let go for the sake of peace; Hefele, from Gregory's poem on his life: also his grief when the council chose a successor to Meletius at Antioch",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Why the Macedonian bishops left",
+        "sides": "Socrates V.8 and Sozomen VII.7: they would not accept that the Son is of one substance with the Father; Hefele: Socrates forgets that the question of the Spirit was also at stake",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "How many canons belong to the council",
+        "sides": "The Greek codices, Zonaras and Balsamon: seven; the old Latin versions: four; Hefele, quoted by Percival: canons 5 and 6 probably belong to 382 and canon 7 is later",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      }
+    ],
+    "absent_details": [
+      {
+        "detail": "The council's minutes",
+        "note": "Not held; the decrees survive and the narrative comes from later historians."
+      },
+      {
+        "detail": "The council's tome",
+        "note": "Named in the synodal letter of 382 and lost; Percival says how it was lost is unknown."
+      },
+      {
+        "detail": "The emperor's letter of summons",
+        "note": "Lost, Hefele says."
+      },
+      {
+        "detail": "The Pneumatomachian side in its own words",
+        "note": "No text of the party was found in the files read; their position reaches us through Gregory of Nazianzus and the synod of 382."
+      },
+      {
+        "detail": "Gregory's poem on his own life in English",
+        "note": "Held only in Greek (PG 37, the poem at file line 85705); the vendored OCR is to be checked against the page image before quotation, and it was not quoted here."
+      },
+      {
+        "detail": "Whether the creed's text is attested before Chalcedon",
+        "note": "Percival says the text is found in the Chalcedon acts and Hefele that Ephesus did not mention it; neither says in so many words that Chalcedon is its first witness, so the brief says only that the text comes down in those acts."
+      }
+    ]
+  },
+  "conference-of-carthage-411": {
+    "claims": [
+      {
+        "claim": "The first session met at Carthage on the Kalends of June, the year after the consulship of Varanes, in the secretarium of the Gargilian baths, with imperial guards and officials present",
+        "witness": "Gesta collationis, first session, heading (mansi tomus 4 l.6141-6150)",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The words were taken down by exceptors of the proconsul, vicar and legate, and by notaries of the Catholic church (Januarius, Vitalis) and of the Donatist church (Victor, Crescon[ius])",
+        "witness": "Gesta, first session, heading (mansi tomus 4 l.6176-6186)",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "All the Donatist bishops present came in, and the Catholic delegates Aurelius, Alypius, Augustine, Vincentius, Fortunatianus and Possidius",
+        "witness": "Gesta I.2 (mansi tomus 4 l.6192-6198)",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Honorius's rescript, given at Ravenna the day before the Ides of October in the consulship of Varanes, granted a Catholic embassy's request that the Donatist bishops be assembled, so that clear reason might refute superstition, within four months, with Marcellinus as judge",
+        "witness": "Rescript of Honorius read into the Gesta (mansi tomus 4 l.6300-6385); Augustine, Breviculus I.1 (augustini_scripta-contra-donatistas l.62796-62798)",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Honorius sent the tribune and notary Marcellinus from his court to Africa as judge",
+        "witness": "Possidius, Life of Augustine 13 (possidius_vita-augustini l.2545-2550)",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Marcellinus's first edict returned basilicas to Donatists who promised to come, without the emperor's order, and offered them a second judge of their choosing to sit with him; he swore to judge as truth persuaded",
+        "witness": "Augustine, Breviculus I.2 (augustini_scripta-contra-donatistas l.62799-62810)",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Thirty-six were delegated, eighteen from each side: seven to dispute, seven for counsel, four to keep the record; the Donatists asked that all who had come be present so their number could be seen",
+        "witness": "Augustine, Breviculus I.4 (augustini_scripta-contra-donatistas l.62833-62848)",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The Catholic bishops promised that if the church were shown to be with the Donatists they would not seek episcopal office; if with themselves, the Donatist bishops would keep their honours, and where a people could not bear two bishops both would withdraw",
+        "witness": "Augustine, Breviculus I.5 (augustini_scripta-contra-donatistas l.62849-62866), summarising Letter 128",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The seven Catholic and seven Donatist disputants by name",
+        "witness": "Papire Masson's preface to the Gesta (mansi tomus 4 l.1413-1424); edition 1588 per Leclercq (hefele-leclercq tome2-1 l.5546-5548)",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "The clerk counted 266 signatures on the Catholic mandate; twenty Catholic bishops present had not signed and consented in person",
+        "witness": "Gesta I.58 and I.214-215 (mansi tomus 4 l.9033-9038, l.16574-16600)",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The Donatist subscription came to 279 names",
+        "witness": "Gesta I.213 (mansi tomus 4 l.16638-16648); Breviculus I.14 (augustini_scripta-contra-donatistas l.63411-63417), counting those absent for whom others signed and one who had died",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The names of all the Catholic bishops present came to 286",
+        "witness": "Augustine, Breviculus I.14 (augustini_scripta-contra-donatistas l.63417-63420)",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Petilian declined the offer of seats: since Christ stood before the governor, they did not blush or fear to stand while the judge sat",
+        "witness": "Gesta I.145, signed by Petilian (mansi tomus 4 l.13203-13226)",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "On the second day Marcellinus offered seats again; the Catholics sat, the Donatists refused, saying it was written that they should not sit with such men; the judge then said he would hear the case standing",
+        "witness": "Augustine, Breviculus II.1 (augustini_scripta-contra-donatistas l.63476-63486)",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The Donatists pressed to deal first with the time, the mandate, the persons and the cause before the merits, and argued the four months had expired",
+        "witness": "Augustine, Breviculus I.8 (augustini_scripta-contra-donatistas l.62943-62960)",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The second session was held on the third day before the Nones of June, the third on the sixth day before the Ides of June, again in the Gargilian baths",
+        "witness": "Gesta II (mansi tomus 4 l.18224); Gesta III heading (mansi tomus 4 l.18372-18380); Masson's preface (l.1432)",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "A large part of the third session is missing from the Gesta and must be supplied from Augustine's Breviculus",
+        "witness": "Masson's preface (mansi tomus 4 l.1445-1448); records/don story conference-of-carthage-411 (acts break off before the sentence)",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Marcellinus asked both sides to go out so a full sentence could be written, wrote it, recalled them and read it, declaring the Donatists refuted by the Catholics through the manifestation of all documents",
+        "witness": "Augustine, Breviculus III.25.43 (augustini_scripta-contra-donatistas l.66440-66477); printed in Mansi before the sentence (mansi tomus 4 l.26565-26584)",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Marcellinus's sentence edict forbade Donatist assemblies in all cities and places, ordered the churches he had granted them until the day of sentence handed to the Catholics, let each Donatist bishop return home unmolested to return to the church or satisfy the laws, threatened estates holding circumcellion bands with confiscation, and said the Catholic bishops' offer still stood; posted at Carthage on the sixth day before the Kalends of July",
+        "witness": "Sententia cognitoris (mansi tomus 4 l.26585-26685)",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "At the conference the Donatists said the true church is the one that suffers persecution, not the one inflicting it, and that they belonged to a church without spot or wrinkle",
+        "witness": "Augustine, The Correction of the Donatists (Letter 185) 2.10 and 9.38 (npnf104 l.19431, l.19745)",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The Donatists said the judge had been corrupted and that the sentence was given at night",
+        "witness": "Augustine, Contra partem Donati post gesta, sections 6 and 16 (augustini_scripta-contra-donatistas l.67062-67063, l.67522-67523); Hartranft's summary of Letter 141 (npnf104 l.10485)",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Some said the Donatist bishops were not allowed to say everything before the judge because he was of Catholic communion and favoured his own church",
+        "witness": "Possidius, Life of Augustine 14 (possidius_vita-augustini l.2598-2604)",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "After their appeal the Donatists were condemned as heretics by the emperor's rescript",
+        "witness": "Possidius, Life of Augustine 13 (possidius_vita-augustini l.2551-2554)",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "A law of 30 January 412 fined Donatists of every rank, from illustres to circumcellions, unless they returned to the Catholic church",
+        "witness": "Theodosian Code XVI.5.52 (codex-theodosianus_latinlibrary l.7186)",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "A law of 30 August 414 ordered what was done against the Donatists under Marcellinus, of distinguished memory, entered in the public records with lasting force, since public faith should not perish with the judge's death",
+        "witness": "Theodosian Code XVI.5.55 (codex-theodosianus_latinlibrary l.7220)",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Augustine made the abridgement because no one would read such a mass of writing",
+        "witness": "Augustine, Letter 139.3 to Marcellinus (npnf101 l.47746-47751)",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "After the conference many were brought to a right belief, while elsewhere resistance lasted longer",
+        "witness": "Augustine, The Correction of the Donatists 7.30 (npnf104 l.19664-19666)",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Later at Caesarea in Mauretania Augustine challenged Emeritus, the chief Donatist defender at the conference, to say what he had not been allowed to say; Emeritus said only that the records of what the bishops did at Carthage show whether they won or lost",
+        "witness": "Possidius, Life of Augustine 14 (possidius_vita-augustini l.2612-2673)",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Honorius invited the two parties on 14 October 410; the conference opened on 1 June 411 and sat on 1, 3 and 8 June",
+        "witness": "Leclercq's note in Hefele-Leclercq II.1 (hefele-leclercq tome2-1 l.5545, l.5559-5573)",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      }
+    ],
+    "contested_claims": [
+      {
+        "claim": "How many Catholic bishops took part",
+        "sides": "The clerk in the acts counts 266 who signed the mandate (Gesta I.58, I.214); Augustine's Breviculus I.14 gives 286, adding the twenty present who had not signed; the editor's summary in PL 11 and Leclercq give 286 against 279",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Whether the Donatists had a fair hearing",
+        "sides": "The Donatists, as reported by Augustine and Possidius, said the judge was bribed, favoured his own church, gave sentence at night and did not let them speak fully; Augustine (Post gesta; Letter 141 as summarised by Hartranft) and Possidius answer that they knew the judge was a Catholic and agreed to come",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Whether the Donatist count of 279 is sound",
+        "sides": "Augustine's Breviculus I.14 says the Donatist list included absent bishops signed for by others and a dead man, and that false entries were caught; the Donatists replied that many more of their bishops had stayed home and their sees were not empty (Breviculus I.14, l.63421-63468). Their reply reaches us through Augustine",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Whether the conference was a council",
+        "sides": "Leclercq: not properly a council, and left out of his history of the councils (hefele-leclercq tome2-1 l.5535-5539); the Councils scan of 2026-11-12 counts it a major council, as an imperial hearing between bishops",
+        "formation_confidence": "Widely Accepted"
+      }
+    ],
+    "absent_details": [
+      {
+        "detail": "The full acts of the third session",
+        "note": "Masson's preface says a large part of the third session is lost from the Gesta and must be sought in Augustine's Breviculus; the record of the sentence hearing reaches us through Augustine."
+      },
+      {
+        "detail": "An English translation of the acts",
+        "note": "The Gesta and the Breviculus are held only in Latin, in heavy OCR (Mansi's long-s facsimile; Migne PL 11). The brief quotes no Latin; it tells their content in paraphrase. Searched npnf101, npnf104 and Possidius for an English text of the Gesta or Breviculus: none."
+      },
+      {
+        "detail": "Augustine's Letter 141 (the council of Zerta's letter on the conference)",
+        "note": "Not held as text in English; npnf104 gives only Hartranft's summary (l.10485). Searched npnf101 for Letter CXLI: only a cross-reference (l.47752)."
+      },
+      {
+        "detail": "The date of Augustine's meeting with Emeritus at Caesarea",
+        "note": "Possidius says only 'a while later'. No held line read for this profile gives the year."
+      },
+      {
+        "detail": "The emperor's rescript rejecting the Donatist appeal",
+        "note": "Possidius reports it; its text was not found in the held Theodosian Code, whose nearest laws are XVI.5.52 (412) and XVI.5.55 (414)."
+      }
+    ]
+  },
+  "council-of-ephesus-431": {
+    "claims": [
+      {
+        "claim": "Cyril's council met in the great church of Ephesus, which bears the name of Mary",
+        "witness": "The council's letter to Celestine (npnf214 l.18598-18599); Hefele III, sec. 134 (hefele v3 l.2952-2956)",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The people of Ephesus waited from dawn to evening; when the sentence was known they led the bishops to their lodgings with torches, and women went before them with censers",
+        "witness": "Cyril, letter to the clergy and people of Alexandria (mansi tomus 4 l.109150-109190, Latin); Hefele III, sec. 134 (hefele v3 l.3271-3287) summarises it",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "A presbyter, Anastasius, preached that no one should call Mary Theotocos; Nestorius backed him and rejected the epithet",
+        "witness": "Socrates VII.32 (npnf202 l.20701-20739)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Nestorius says he found one party calling Mary Mother of God and another Mother of man, and urged a word useful toward agreement, Mother of Christ",
+        "witness": "Nestorius, Bazaar of Heracleides (driver-hodgson l.6927-6959)",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Cyril wrote that the Fathers ventured to call the Virgin Mother of God, not as if the Word began from her, but because of her was born the body to which the Word was united",
+        "witness": "Cyril, second letter to Nestorius, read in Session I (npnf214 l.15794-15799)",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The emperors summoned the bishops to Ephesus and fixed Pentecost for the meeting",
+        "witness": "The council's letter to Celestine (npnf214 l.18564-18573); Socrates VII.34 (npnf202 l.20877-20879)",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Pentecost 431 fell on 7 June",
+        "witness": "Hefele III, sec. 133 (hefele v3 l.2881-2882)",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Celestine of Rome had condemned Nestorius and committed the execution of the sentence to Cyril; all was held over until the council met",
+        "witness": "Bossuet, Defensio, printed as the historical introduction (npnf214 l.15374-15462); the decree against Nestorius cites Celestine's letter (npnf214 l.17269-17277)",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Count Candidian was appointed protector of the council in the emperors' place",
+        "witness": "Note on the emperor's edict, after Hefele (npnf214 l.15632-15660)",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "John of Antioch was late; the council waited sixteen days after Pentecost, and two of his metropolitans brought word not to put off the synod",
+        "witness": "The council's letter to Celestine (npnf214 l.18573-18593); Hefele III, sec. 134 (hefele v3 l.2935-2953)",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Cyril's council opened on 22 June 431, Hefele's reckoning of Cyril's date 28 Payni",
+        "witness": "Hefele III, sec. 134 (hefele v3 l.2951-2953); Cyril's letter gives 'vigesima octava mensis Pauni' (mansi tomus 4 l.109162-109164)",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Candidian appeared in the assembly, read the imperial decrees and protested against the opening; his request to wait four more days was disregarded",
+        "witness": "Hefele III, sec. 134 (hefele v3 l.2998-3003); Driver and Hodgson chronology (driver-hodgson l.929-933); Nestorius cites the Contestatio (driver-hodgson l.7677-7697)",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Nestorius was summoned three times and did not come; his house was surrounded with soldiers",
+        "witness": "The council's letter to Celestine (npnf214 l.18600-18606); Bossuet's account (npnf214 l.15485-15493)",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Cyril presided, described in the acts as holding the place of Celestine",
+        "witness": "Note to Session II (npnf214 l.17324-17330); Hefele (hefele v3 l.3003-3005)",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Cyril's second letter to Nestorius was judged in agreement with Nicaea; Nestorius's letter was judged contrary to it, and all the bishops cried out anathemas on Nestorius",
+        "witness": "Acts, Session I (npnf214 l.15814-15847)",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "A letter of Capreolus, bishop of Carthage, excusing his absence, was read and placed in the acts",
+        "witness": "Acts, Session I (npnf214 l.17236-17251)",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The council excluded Nestorius from the episcopal dignity and from all priestly communion, with many tears",
+        "witness": "Decree against Nestorius (npnf214 l.17263-17280)",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Over two hundred bishops took part",
+        "witness": "The council's letter to Celestine (npnf214 l.18567, l.18689); Cyril, letter home: about two hundred (mansi tomus 4 l.109168-109170)",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "160 bishops were present at the start of the first session and 198 signed the deposition; afterwards over 200 subscribed",
+        "witness": "Hefele III, sec. 134 (hefele v3 l.3004-3007, 3268-3270)",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Cyril arrived with fifty bishops; Nestorius with sixteen (Hefele) or ten (Driver and Hodgson)",
+        "witness": "Hefele III, sec. 133 (hefele v3 l.2882-2886); Driver and Hodgson chronology (driver-hodgson l.860, 873)",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Nestorius wrote that Cyril was the whole tribunal, judge and accuser",
+        "witness": "Nestorius, Bazaar of Heracleides (driver-hodgson l.8626-8647)",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Nestorius says the bishops far off had besought the council to wait for them",
+        "witness": "Nestorius, Bazaar of Heracleides (driver-hodgson l.8679-8688)",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "John of Antioch arrived on 26 or 27 June",
+        "witness": "Excursus after Hefele (npnf214 l.17807-17811)",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "John's assembly, with Candidian present, deposed Cyril and Memnon and excommunicated their adherents until they anathematized Cyril's propositions",
+        "witness": "Excursus after Hefele, giving John's sentence (npnf214 l.17834-17905); Driver and Hodgson chronology (driver-hodgson l.1039-1047)",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "John's assembly numbered forty-three, all of whom signed its decree",
+        "witness": "Hefele via the excursus (npnf214 l.17852-17853, 17904-17905); Driver and Hodgson (driver-hodgson l.1043-1044)",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Cyril's council described John's party as a little more than thirty and named them, Theodoret of Cyrus among them",
+        "witness": "The council's circular letter before the canons (npnf214 l.17710-17733)",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Cyril's council summoned John three times, then cut him and his party off from communion and priestly power, reserving the final sentence to Celestine",
+        "witness": "The council's letter to Celestine (npnf214 l.18688-18714)",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Canon VII forbids composing a different faith from that of Nicaea and condemns the creed of Charisius and the doctrines of Nestorius",
+        "witness": "Canon VII (npnf214 l.18158-18175)",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The council upheld the deposition of Pelagius, Caelestius and their followers",
+        "witness": "The council's letter to Celestine (npnf214 l.18748-18756)",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Celestine's legates Arcadius, Projectus and Philip arrived and took their seats at Session II",
+        "witness": "Acts, Session II (npnf214 l.17321-17324)",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Count John, the imperial commissioner, announced the deposition of Nestorius, Cyril and Memnon and put them under arrest",
+        "witness": "Driver and Hodgson chronology (driver-hodgson l.1136-1141)",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Theodosius dissolved the council, sent Cyril back to Alexandria and left Memnon at Ephesus",
+        "witness": "The emperor's decree as Hefele gives it, sec. 149 (hefele v3 l.6159-6199)",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Nestorius was sent back to his monastery at Antioch and Maximian consecrated bishop of Constantinople",
+        "witness": "Driver and Hodgson introduction (driver-hodgson l.264-268); Socrates VII.35 (npnf202 l.20964-20972)",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Cyril accepted the confession from John's side: a union of two natures, one Christ, one Son, one Lord, and the Virgin Mother of God",
+        "witness": "Cyril's letter to John of Antioch, read at Chalcedon (npnf214 l.19426-19491)",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The peace was made probably in 433",
+        "witness": "Hefele III, sec. 157, following Tillemont (hefele v3 l.7582-7588)",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Socrates says John and Cyril, having set aside their enmity, reinstated each other",
+        "witness": "Socrates VII.34 (npnf202 l.20949-20952)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "In 435 edicts ordered Nestorius's writings burned; he was banished and ended in Egypt",
+        "witness": "Driver and Hodgson introduction (driver-hodgson l.268-274)",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Socrates says Nestorius was banished to the Oasis",
+        "witness": "Socrates VII.34 (npnf202 l.20920-20921)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Nestorius's Book of Heracleides survives in a Syriac translation and was written in exile, in 451 or 452 by Bethune-Baker's reckoning",
+        "witness": "Driver and Hodgson introduction (driver-hodgson l.284-310)",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Chalcedon in 451 kept the order of Ephesus, led by Celestine and Cyril, and received Cyril's letters to Nestorius and the Easterns",
+        "witness": "Definition of Chalcedon (npnf214 l.20214-20217, 20258-20262)",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Barhadbeshabba, the Church of the East's historian, titles a chapter for the pious Mar Nestorius and another a reply to the accusations of the impious Cyril",
+        "witness": "Barhadbeshabba, chapter list (po09 l.31905-31911, French)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Barhadbeshabba wrote near the end of the sixth century; he was bishop of Halwan in 605",
+        "witness": "Nau's introduction (po09 l.31572-31580)",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "After Zeno closed the school at Edessa in 489, the followers of Nestorius had their home in the kingdom of Persia",
+        "witness": "Hefele III (hefele v3 l.8455-8466)",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Wigram says the Church of the East had not accepted Ephesus, nor formally rejected it, nor been asked to do either; its bishops warned against the perversion of the faith in the West, but the Church took no corporate action",
+        "witness": "Wigram, ch. VII and XI (wigram l.6735-6740, 9268-9274)",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "A later catholicos of the Church of the East, George, writes of the blessed Nestorius and Theodore, slandered by the impious, and calls Cyril the disturber of the churches",
+        "witness": "Letter of the catholicos George to Mina, Synodicon orientale (chabot l.32697-32701, 33283-33284, 33984-33985, French)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Socrates judged from Nestorius's works that he did not deny Christ's divinity, but was scared at the term Theotocos",
+        "witness": "Socrates VII.32 (npnf202 l.20748-20756, 20816-20831)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      }
+    ],
+    "contested_claims": [
+      {
+        "claim": "The day of the first session and of Nestorius's deposition",
+        "sides": "Hefele III, sec. 134: 22 June, from Cyril's Egyptian date 28 Payni (Cyril's letter, mansi tomus 4); Socrates VII.34: these things were done on 28 June",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "How many bishops sat in John of Antioch's assembly",
+        "sides": "Hefele and Driver and Hodgson: forty-three, from its signed sentence; Cyril's council's circular: a little more than thirty; its letter to Celestine: about thirty",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "The order in which the two assemblies acted",
+        "sides": "Socrates VII.34: Nestorius's partisans deposed Cyril and Memnon before John came, and John then censured Cyril; the acts and Hefele: John's own assembly deposed Cyril and Memnon on his arrival",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Whether Nestorius at last accepted the name Theotokos",
+        "sides": "Socrates VII.34: he cried out 'Let Mary be called Theotocos, if you will', and no notice was taken; Hefele, after the acts, treats him as obstinate to the end; Nestorius's own book argues the name could be used rightly but urged 'Mother of Christ'",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Whether Nestorius taught the division of Christ the council condemned",
+        "sides": "Cyril and his council: yes, he divided Christ; Nestorius, in the Book of Heracleides: no; Socrates: he did not deny Christ's divinity but feared the word; Tillemont, cited in the excursus: the Antiochenes did not share his heresy theologically",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "How many bishops came with Nestorius",
+        "sides": "Hefele: sixteen; Driver and Hodgson: ten",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Whether the Church of the East refused Ephesus",
+        "sides": "George Percy Badger (1852): the Easterns refused Cyril's anathemas and were cut off by the decree of Ephesus (badger v1 l.7672-7683); W. A. Wigram (1910): it had certainly not accepted Ephesus, nor formally rejected it, nor been asked to do either, and the Church took no corporate action at the time (wigram l.6735-6740, 9268-9274, 14586-14592); Hefele: the Nestorians' home became Persia after Zeno closed Edessa in 489 (hefele v3 l.8455-8466); the Church of the East's own later writers honour Nestorius and call Cyril impious (Barhadbeshabba, po09 l.31905-31911; the catholicos George's letter, Synodicon orientale, chabot l.33283-33284, 33984-33985)",
+        "formation_confidence": "Contested"
+      }
+    ],
+    "absent_details": [
+      {
+        "detail": "A full English text of the acts",
+        "note": "The English edition gives extracts only; the full acts are in Mansi, tomus 4 and 5, in Latin and Greek, in OCR that needs the page image for exact quotation."
+      },
+      {
+        "detail": "The acts of John of Antioch's assembly in English",
+        "note": "They are held only in Latin (Mansi, tomus 5, 'Conciliabulum Ephesinum', l.46711 ff.); Hefele narrates them in English, with hostility to John."
+      },
+      {
+        "detail": "The Roman-calendar dates",
+        "note": "The acts and Cyril's letter give Egyptian dates; 7 June for Pentecost, 22 June for the first session and 26 or 27 June for John's arrival are Hefele's."
+      },
+      {
+        "detail": "Persian bishops at Ephesus",
+        "note": "No held line was found naming a bishop from the Persian church at Ephesus; the Church of the East's stance comes through its later writers. Searched the English acts, Hefele v3, Labourt and the Synodicon orientale for Persian attendance."
+      },
+      {
+        "detail": "The year of Nestorius's death",
+        "note": "No held source gives the year Nestorius died; Bright, quoted in the note to Socrates VII.34, says it cannot be ascertained."
+      }
+    ]
+  },
+  "council-of-chalcedon-451": {
+    "claims": [
+      {
+        "claim": "The council met in the martyry of the martyr Euphemia at Chalcedon, metropolis of Bithynia, by command of Marcian and Valentinian",
+        "witness": "Definition of Faith (npnf214 l.20190-20194); sentence to Dioscorus (npnf214 l.20077-20081)",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Chalcedon was near enough to the capital for the emperor to attend; the council had first gathered at Nicaea",
+        "witness": "Hefele III, sec. 185, from Marcian's letters (hefele v3 l.14985-15027); Zachariah III.1 (zachariah l.2265-2270)",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "The first session was on 8 October 451; the sessions ran to 1 November",
+        "witness": "Hefele III, contents and sec. 189 (hefele v3 l.698-712, 15758-15760)",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Paschasinus, Leo's legate, stood up first and said Leo had directed that Dioscorus not be allowed a seat; let him be expelled or else we leave",
+        "witness": "Acts, Session I (npnf214 l.19159-19167); Hefele (hefele v3 l.15762-15770)",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Dioscorus sat down in the midst at the bidding of the judges; Lucentius objected that one come to be judged should not sit as judge",
+        "witness": "Acts, Session I (npnf214 l.19203-19220)",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "A synod at Constantinople under Flavian condemned Eutyches, who confessed two natures before the union and one after",
+        "witness": "Syriac acts of 449, the 448 minutes read back (perry1881 l.23844); Perry dates it to November 448 (perry1881 l.1456)",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The council of Ephesus in 449 under Dioscorus restored Eutyches to his monastery and grade and deposed Flavian, who protested",
+        "witness": "Syriac acts of 449 (perry1881 l.24020, 24138)",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Leo called the 449 meeting one not of judges but of robbers",
+        "witness": "Leo, letter to Pulcheria (npnf212 l.8640)",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Theodosius II died in 450 and Marcian succeeded",
+        "witness": "Driver and Hodgson introduction, after Bethune-Baker (driver-hodgson l.303-305); Zachariah II, end (zachariah l.2034-2036, 2053-2054)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The council was brought together by Leo's exertion and his letter to Marcian and Pulcheria",
+        "witness": "Zachariah III.1 (zachariah l.2078-2081)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Pulcheria ordered the governor of Bithynia to clear the city of disorderly clerics, monks and laymen",
+        "witness": "Hefele III, sec. 185 (hefele v3 l.14989-15000)",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "The council's letter to Leo speaks of 520 priests",
+        "witness": "Letter XCVIII, from the Synod to Leo (npnf212 l.8753); Hefele: only in the Greek text (hefele v3 l.15786)",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The chronicle known as Zachariah's counts 567 bishops",
+        "witness": "Zachariah II end and III preface (zachariah l.2038-2039, 2077-2078)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Leo speaks of about 600; the usual reckoning with representatives is 630; the lists of those present are incomplete",
+        "witness": "Hefele III, sec. 188 (hefele v3 l.15720-15748)",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "All present were Greeks and Easterns except the Roman legates and two Africans, Aurelius of Adrumetum and Rusticianus",
+        "witness": "Hefele III, sec. 188 (hefele v3 l.15749-15756)",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "The judges asked whether Flavian had kept the faith; the legates, Anatolius, Maximus and others said he had; the Illyrians cried, we all have erred, let us all be pardoned",
+        "witness": "Acts, Session I (npnf214 l.19224-19268)",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Dioscorus said, I receive the of two; the two I do not receive",
+        "witness": "Acts, Session I (npnf214 l.19254-19260)",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The bishops cried that no one makes another exposition; no new exposition in writing",
+        "witness": "Acts, Session II (npnf214 l.19316-19344)",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The creeds of Nicaea and Constantinople, Cyril's letters to Nestorius and to John, and Leo's Tome were read",
+        "witness": "Acts, Session II (npnf214 l.19360-19415, 19606-19630)",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "After the Tome the bishops cried, Peter has spoken thus through Leo; Leo and Cyril taught the same thing; these are the things Dioscorus hid away",
+        "witness": "Acts, Session II (npnf214 l.19996-20007)",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The Tome says each form does the acts which belong to it in communion with the other; the one shines out in miracles, the other succumbs to injuries",
+        "witness": "The Tome as read at Chalcedon (npnf214 l.19797-19801)",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Dioscorus, thrice summoned, did not come, and was deposed on 13 October",
+        "witness": "Sentence sent to Dioscorus, Session III (npnf214 l.20049-20052, 20082-20090)",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The legates' sentence says Leo, through them and the synod, with Peter, stripped Dioscorus of the episcopate",
+        "witness": "Acts, Session III (npnf214 l.20055-20064)",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "In Session IV, 161 bishops gave separate opinions that the Tome agreed with Nicaea and Constantinople, and the rest assented together",
+        "witness": "Acts, Session IV (npnf214 l.20123-20135)",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "In Session V the legates threatened to leave for a synod in the West if the bishops did not agree to Leo's letter; a committee was imposed by the emperor",
+        "witness": "Acts, Session V with Percival's summary (npnf214 l.20142-20153)",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The judges asked: which would you follow, the most holy Leo or Dioscorus? and ordered that two natures united unchangeably, inseparably, unconfusedly be added",
+        "witness": "Acts, Session V (npnf214 l.20165-20178)",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The Definition confesses one and the same Christ in two natures, unconfusedly, immutably, indivisibly, inseparably, united in one person and subsistence, and receives Cyril's letters and Leo's Tome",
+        "witness": "Definition of Faith (npnf214 l.20255-20298)",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The Definition forbids any different faith, on pain of deposition or anathema",
+        "witness": "Definition of Faith (npnf214 l.20299-20312)",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The original reading was 'in two natures'; the present Greek has 'of two natures'",
+        "witness": "Hefele, note to the Definition (npnf214 l.20359-20415)",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Marcian attended Session VI in person; the bishops acclaimed him and Pulcheria; he made Chalcedon a metropolis in name",
+        "witness": "Acts, Session VI (npnf214 l.20470-20491)",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Anatolius wrote that the bishops placed the definition on the altar of Euphemia and handed it to Marcian and Pulcheria",
+        "witness": "Anatolius to Leo, note to the Definition (npnf214 l.20322-20353)",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Session VII assigned the three Palestines to Jerusalem and the two Phoenicias and Arabia to Antioch, by agreement of Juvenal and Maximus",
+        "witness": "Decree, Session VII (npnf214 l.20500-20511)",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Theodoret was made to anathematize Nestorius and said he had subscribed the definition and Leo's letter",
+        "witness": "Acts as Blomfield Jackson quotes them (npnf203 l.3310-3337)",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Canon 28 gave Constantinople privileges equal to old Rome and rank next after her, and the ordination of the metropolitans of Pontus, Asia and Thrace",
+        "witness": "Canon XXVIII (npnf214 l.22216-22240)",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "In Session XVI the canon was read with 192 signatures; 350 had signed the definition a week before; Lucentius protested that the bishops had been circumvented",
+        "witness": "Acts, Session XVI with Percival's notes (npnf214 l.22578-22647)",
+        "witness_kind": "acts",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Leo wrote to Pulcheria that by Peter's authority he absolutely dis-annuls the bishops' assents against the Nicene canons",
+        "witness": "Leo, Letter CV (npnf212 l.9161-9165, 9257-9265)",
+        "witness_kind": "participant",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Dioscorus was sent to Gangra in Paphlagonia and Proterius appointed to Alexandria",
+        "witness": "Evagrius II.5 (walford l.3363-3367); Zachariah III.1 (zachariah l.2081-2083)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Priscus, quoted by Evagrius, says a crowd in Alexandria drove the troops into the old temple of Serapis and burned them alive",
+        "witness": "Evagrius II.5 (walford l.3372-3382)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Monks who had been at the council roused Palestine, and its opponents made Theodosius bishop of Jerusalem",
+        "witness": "Evagrius II.5 (walford l.3405-3420); Zachariah III, chapter list (zachariah l.2094-2107)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The chronicle known as Zachariah's says the council introduced the heresy of Nestorius and tore the robe of Christ into ten thousand rents",
+        "witness": "Zachariah III.1 (zachariah l.2176-2186)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Book III of the chronicle is drawn from Zachariah's Greek history, which ended in 491; the Syriac compiler is another man",
+        "witness": "Hamilton and Brooks, introduction (zachariah l.300-318)",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Evagrius copied the decree of Chalcedon somewhat more than a hundred years after the council",
+        "witness": "Hefele, note to the Definition (npnf214 l.20396-20399)",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Severus of Antioch anathematized the things done at Chalcedon",
+        "witness": "Severus, Select Letters VI, part 2 (severus book6 part2 l.1349-1350, 1518)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Timothy Aelurus's refutation of Chalcedon and of Leo's Tome is held only in Classical Armenian",
+        "witness": "timothy-aelurus file header (l.1-9)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The Church of the East's Synodicon includes the canons of the council at Chalcedon, Leo's letter to Flavian against Eutyches and the Fathers' testimonies appended to it; Mar Aba's synod of 544 cites the synod of the 567 bishops at Chalcedon",
+        "witness": "Synodicon orientale, Chabot's list and notes (chabot l.1083-1113, 36874-36877)",
+        "witness_kind": "later narrative",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Chabot says the Church of the East accepted Chalcedon in so far as it condemned Eutyches",
+        "witness": "Chabot, note (chabot l.36950-36951)",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Wigram found the Definition in the Mosul manuscript of the Synodicon, with blessed Cyril altered to accursed and the phrase on Nestorius's folly omitted, which he judges a later copyist's change",
+        "witness": "Wigram, ch. XI (wigram l.14620-14640)",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Chalcedon was rejected absolutely by Egypt and Palestine, by a large majority of the Christians of the Antiochene patriarchate and by the Armenian church; its problems remain causes of schism while Armenian, Copt and Jacobite remain unreconciled",
+        "witness": "Wigram, ch. VIII (wigram l.7126-7159)",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Armenia took no part: the councils on Eutyches met without her knowledge, and Chalcedon met after Avarayr, with her bishops imprisoned or exiled",
+        "witness": "Ormanian, ch. VIII (ormanian l.2444-2463)",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "A synod at Dvin in 506 under Babken rejected the acts of Chalcedon; a synod at Dvin in 554 under Nerses II confirmed it",
+        "witness": "Ormanian, ch. VIII (ormanian l.2499-2511, 2549-2556)",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "The Greek and Latin churches came to recognise Chalcedon as the fourth ecumenical council; the Armenian Church would have nothing to do with it",
+        "witness": "Ormanian, ch. VIII (ormanian l.2517-2522)",
+        "witness_kind": "modern reconstruction",
+        "formation_confidence": "Widely Accepted"
+      }
+    ],
+    "contested_claims": [
+      {
+        "claim": "How many bishops attended",
+        "sides": "The council's letter to Leo: 520 (Greek text only, Hefele); the chronicle known as Zachariah's: 567; Leo, by Hefele's report: about 600; the usual reckoning Hefele gives: 630; Percival: 350 signed the definition",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Whether the Definition said 'in two natures' or 'of two natures'",
+        "sides": "The present Greek text: 'of two natures'; the old Latin: 'in two natures'; Hefele argues from Euthymius, Severus of Antioch, Evagrius, the 553 conference and Leontius that 'in two natures' was original, and the Session V debate supports him",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Why Dioscorus was deposed",
+        "sides": "The sentence: for disregard of the canons, disobedience and other crimes, having thrice refused to come (acts); the chronicle known as Zachariah's: because he said Christ became incarnate from two natures and two natures should not be confessed after the union; it has Anatolius say he was deposed not for the faith but for refusing communion with Leo (zachariah l.2314-2325)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Whether the bishops signed canon 28 freely",
+        "sides": "Lucentius, Leo's legate: they were circumvented and forced to sign; the bishops: no one was forced; Aëtius of Constantinople: done openly and according to the canons",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Who brought the council about",
+        "sides": "The Definition: the command of Marcian and Valentinian; Hefele: Marcian, with Pulcheria; the chronicle known as Zachariah's: the exertion of Leo and his letter to Marcian and Pulcheria",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "How the Church of the East stood to Chalcedon",
+        "sides": "Chabot: it accepted the council in so far as it condemned Eutyches; Wigram: it received Chalcedon and the Tome as orthodox, though the Syriac Definition calls Cyril accursed, likely a copyist's change; Ormanian: the Nestorians prided themselves on Chalcedon's authority (ormanian l.2486-2490)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "When Armenia first rejected Chalcedon",
+        "sides": "Ormanian: at Dvin in 506, confirmed at Dvin in 554; the tree's Armenian census entry: formally at Dvin in 554",
+        "formation_confidence": "Contested"
+      }
+    ],
+    "absent_details": [
+      {
+        "detail": "A full English text of the acts",
+        "note": "The English edition gives extracts with editorial summaries in brackets; the full acts are in Mansi, tomus 6 (Session I from l.53711) and tomus 7 (Session V from l.9189, the Definition at l.10861), in OCR that needs the page image for exact quotation."
+      },
+      {
+        "detail": "The losing side's view in English, in its own words at the time",
+        "note": "The chronicle known as Zachariah's is a later Syriac compilation from Zachariah's Greek; Timothy Aelurus's refutation is held only in Armenian with no translation; Theopistus's History of Dioscorus is held in French. Dioscorus's own words at Chalcedon survive only in the acts the winning side kept."
+      },
+      {
+        "detail": "A complete list of those present",
+        "note": "Hefele says the catalogues of those present are not quite complete; no full list is held in English."
+      },
+      {
+        "detail": "Armenian sources of the time on the rejection",
+        "note": "The Book of Letters with the Dvin acts is not held; the rejection reaches us through Ormanian's 1912 history. Searched cic/texts for Dvin and Douine."
+      }
+    ]
+  }
+}

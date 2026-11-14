@@ -1,0 +1,297 @@
+{
+  "id": "first-council-of-constantinople-381",
+  "kind": "major-council",
+  "kindLabel": "Major council",
+  "era": 2,
+  "name": "First Council of Constantinople",
+  "shortName": "Constantinople I",
+  "informalName": "The Second Ecumenical Council",
+  "dates": "381",
+  "start": 381,
+  "end": 381,
+  "region": "Constantinople",
+  "placeLabel": "Constantinople",
+  "modernCountries": [
+    {
+      "country": "Turkey",
+      "countryId": "Q43",
+      "place": "Constantinople",
+      "placeId": "Q16869",
+      "pleiadesId": "520998"
+    }
+  ],
+  "rivers": [
+    "Greek East",
+    "Latin West",
+    "Non-Nicene"
+  ],
+  "teaser": "Constantinople, 381. A hundred and fifty Eastern bishops, summoned by the emperor Theodosius, confirmed the creed of Nicaea, filled out what it said of the Holy Spirit, and ranked Constantinople next after Rome.",
+  "knownFor": "The council of 381 at Constantinople, called by the emperor Theodosius, whose creed confirmed Nicaea and called the Holy Spirit Lord and giver of life, and whose canons condemned the Arian, Pneumatomachian and Apollinarian parties and ranked Constantinople second after Rome.",
+  "datesNote": "381. The bishops met in May, in the consulate of Eucherius and Evagrius, Socrates of Constantinople says. The canons are headed with the 7th of the Ides of July, which Henry Percival, the English editor, gives as 9 July, and Charles Joseph Hefele takes as the council's end.",
+  "issue": [
+    "The Arians had held the churches of Constantinople for forty years. In November 380 the emperor Theodosius drove out their bishop, Demophilus, when he would not accept the Nicene Creed (Socrates of Constantinople V.7).",
+    "The city needed a bishop. Gregory of Nazianzus led its Nicene flock from a small church he called the Anastasia, and Maximus the Cynic had been secretly ordained there by bishops from Egypt (Socrates V.7; Gregory, Oration 42; Sozomen VII.9; Theodoret of Cyrrhus V.8).",
+    "A newer question had grown up. Some who now called the Son fully God would not say the same of the Holy Spirit. Their view reaches us through opponents. Gregory put their question in his Fifth Theological Oration: \"From whence are you bringing in upon us this strange God, of Whom Scripture is silent?\" The synod of 382 condemned the Eunomians, the Arians and the Pneumatomachi together for giving the Trinity a nature created and of a different substance.",
+    "Who stood where. The bishops of the Nicene party, led by Meletius of Antioch, Timothy of Alexandria and Cyril of Jerusalem, stood on one side; thirty-six Macedonian bishops under Eleusius of Cyzicus and Marcian of Lampsacus on the other (Socrates V.8; Sozomen VII.7)."
+  ],
+  "calledBy": "The emperor Theodosius, for the bishops of his own half of the empire, to establish the Nicene Creed and appoint a bishop of Constantinople (Socrates V.8; Theodoret V.7). His letter of summons is lost, Hefele says, and he thinks Damasus of Rome was never invited.",
+  "attended": [
+    "A hundred and fifty bishops of the Nicene party, say Socrates, Sozomen and Theodoret, and the canons' own heading. A Latin list of signatures in the old collection called the Prisca gives a hundred and forty-seven names, Hefele says.",
+    "Thirty-six Macedonian bishops, most of them from the cities of the Hellespont, came and then left (Socrates V.8; Sozomen VII.7).",
+    "No bishop of the West came, Henry Percival notes. Theodoret says the emperor summoned only the bishops of his half of the empire."
+  ],
+  "traditions": [
+    {
+      "id": "cappadocian-nicene-pastoral-monastic-tradition",
+      "name": "Cappadocian Christianity",
+      "part": "Gathered",
+      "note": "Gregory of Nazianzus, Gregory of Nyssa and Helladius, Basil's successor at Caesarea, sat in it; Socrates says Helladius and Gregory of Nyssa were given the oversight of Pontus."
+    },
+    {
+      "id": "imperial-juridical-christianity",
+      "name": "Imperial and Juridical Christianity",
+      "part": "Gathered",
+      "note": "Theodosius summoned it, chose its bishop for the capital, and afterwards gave the churches by law to bishops in communion with those he named, Sozomen says."
+    },
+    {
+      "id": "jerusalem-liturgical-pilgrimage-christianity",
+      "name": "Jerusalem Liturgical-Pilgrimage Christianity",
+      "part": "Gathered",
+      "note": "Cyril of Jerusalem sat in it, and the synod of 382 declared him canonically bishop."
+    },
+    {
+      "id": "pneumatomachian-current",
+      "name": "Pneumatomachian ('Macedonian') Christianity",
+      "part": "Condemned",
+      "note": "Its bishops walked out, and the first canon anathematized the Semi-Arians or Pneumatomachi."
+    },
+    {
+      "id": "homoian-arian-christianity",
+      "name": "Homoian ('Arian') Christianity",
+      "part": "Condemned",
+      "note": "The first canon anathematized the Arians or Eudoxians, the party that had held Constantinople's churches."
+    },
+    {
+      "id": "anomoean-eunomian-christianity",
+      "name": "Anomoean (Eunomian) Christianity",
+      "part": "Condemned",
+      "note": "The first canon anathematized the Eunomians or Anomoeans."
+    },
+    {
+      "id": "apollinarian-christianity",
+      "name": "Apollinarian Christianity",
+      "part": "Condemned",
+      "note": "The first canon anathematized the Apollinarians."
+    },
+    {
+      "id": "nicene-visigothic-iberia",
+      "name": "Nicene Visigothic Iberia",
+      "part": "Affected",
+      "note": "At Toledo in 589 the newly converted Goths were required to sign this creed, with \"and the Son\" added, Henry Percival notes after Hefele."
+    }
+  ],
+  "decided": [
+    "The faith of Nicaea \"shall not be set aside, but shall remain firm,\" and the Eunomians or Anomoeans, the Arians or Eudoxians, the Semi-Arians or Pneumatomachi, the Sabellians, the Marcellians, the Photinians and the Apollinarians were anathematized (canon 1).",
+    "A creed that calls the Holy Spirit \"the Lord and Giver-of-Life, who proceedeth from the Father, who with the Father and the Son together is worshipped and glorified.\" Its text comes down in the acts of the Council of Chalcedon (the creed, in Percival's edition). Whether this council drew it up is disputed.",
+    "A tome setting out the faith at length, with an anathema against new heresies, which the synod of 382 cites. It is lost.",
+    "Bishops were not to act outside their own dioceses, and Alexandria, Antioch, Asia, Pontus and Thrace were each to keep to their own affairs (canon 2).",
+    "\"The Bishop of Constantinople, however, shall have the prerogative of honour after the Bishop of Rome; because Constantinople is New Rome\" (canon 3).",
+    "Maximus the Cynic had never been a bishop, and those he ordained were not clergy (Sozomen VII.9; canon 4).",
+    "Nectarius, an official not yet baptized, was chosen bishop of Constantinople after Gregory of Nazianzus withdrew (Socrates V.8; Sozomen VII.8)."
+  ],
+  "outcome": [
+    "Theodosius confirmed the decrees and ordered that the churches be given to bishops in communion with Nectarius, Timothy of Alexandria and others he named (Sozomen VII.9).",
+    "Flavian was chosen to follow Meletius at Antioch, and the next year's synod defended his ordination (Hefele; the synodal letter of 382, in Theodoret V.9).",
+    "A council of Latin bishops censured the choice of Nectarius and the continued split at Antioch. The synod of 382 sent them its faith and called the council of 381 ecumenical (Hefele; the synodal letter of 382).",
+    "The Council of Ephesus in 431 did not mention its creed. The Council of Chalcedon in 451 had it recited after that of Nicaea, and when Chalcedon renewed canon 3 the Roman legates protested (Hefele).",
+    "Rome accepted the creed and not the canons. Leo of Rome wrote that canon 3 had never been brought to the apostolic see, and around the year 600 Gregory the Great counted the council among the four he compared to the four Gospels (Hefele; Percival).",
+    "At Toledo in 589 the Goths of Spain were required to sign this creed with \"and the Son\" added (Percival, after Hefele)."
+  ],
+  "record": [
+    {
+      "witness": "The creed, the canons, and the council's letter to Theodosius",
+      "kind": "acts",
+      "note": "The council's own decrees. The creed's text comes down in the acts of the Council of Chalcedon, Henry Percival notes. The Greek codices give seven canons and the old Latin versions four; Hefele, quoted by Percival, thinks canons 5 and 6 belong to 382 and canon 7 is later."
+    },
+    {
+      "witness": "The Latin list of signatures in the Prisca",
+      "kind": "acts",
+      "note": "Hefele says it holds a hundred and forty-seven names, and that it is incomplete and in places wrong. Printed in Mansi, tome 3."
+    },
+    {
+      "witness": "The synodal letter of the bishops at Constantinople in 382",
+      "kind": "acts",
+      "note": "Written the next year by many of the same bishops to Damasus, Ambrose and the bishops at Rome. Kept by Theodoret. It is the only witness to the council's lost tome."
+    },
+    {
+      "witness": "Gregory of Nazianzus, The Last Farewell (Oration 42), and his poem on his own life",
+      "kind": "participant",
+      "note": "By the bishop of the city, who led the council for a time and then resigned. Partisan, and bitter about the bishops. The farewell is held in English; the poem only in Greek."
+    },
+    {
+      "witness": "Gregory of Nyssa, Funeral Oration on Meletius",
+      "kind": "participant",
+      "note": "Spoken at Constantinople when Meletius died during the council."
+    },
+    {
+      "witness": "Socrates of Constantinople V.7 to 8; Sozomen VII.7 to 9; Theodoret of Cyrrhus V.6 to 9",
+      "kind": "later narrative",
+      "note": "Fifth-century Nicene historians. Socrates and Sozomen give the counts and the Macedonians' walkout; Theodoret keeps the letter of 382."
+    },
+    {
+      "witness": "Charles Joseph Hefele, A History of the Councils, vol. 2, and Henry Percival's edition of the canons",
+      "kind": "modern reconstruction",
+      "note": "Hefele reconstructs the order of presidents, the reworking of an older creed, and the reception of the council. Percival, a defender of the council's creed, answers F. J. A. Hort and Adolf Harnack."
+    }
+  ],
+  "people": [
+    {
+      "name": "Theodosius I",
+      "verdict": "STORY",
+      "part": "Called the council and chose Nectarius"
+    },
+    {
+      "name": "Meletius of Antioch",
+      "verdict": "LISTED",
+      "part": "Led the council at first and died during it"
+    },
+    {
+      "name": "Gregory of Nazianzus",
+      "id": "gregory-of-nazianzus",
+      "verdict": "WHO",
+      "part": "Bishop of the city and for a time the council's president; resigned"
+    },
+    {
+      "name": "Gregory of Nyssa",
+      "id": "gregory-of-nyssa",
+      "verdict": "WHO",
+      "part": "Present; gave the funeral oration for Meletius"
+    },
+    {
+      "name": "Cyril of Jerusalem",
+      "id": "cyril-of-jerusalem",
+      "verdict": "WHO",
+      "part": "Present; Socrates says he now accepted the Nicene word"
+    },
+    {
+      "name": "Amphilochius of Iconium",
+      "verdict": "LISTED",
+      "part": "Present; named in the emperor's law that followed"
+    },
+    {
+      "name": "Diodore of Tarsus",
+      "verdict": "LISTED",
+      "part": "Present; put forward Nectarius, Sozomen says"
+    },
+    {
+      "name": "Timothy of Alexandria",
+      "verdict": "LISTED",
+      "part": "Bishop of Alexandria; one of the leaders Sozomen names, with Meletius and Cyril"
+    },
+    {
+      "name": "Nectarius of Constantinople",
+      "verdict": "NOT SCORED",
+      "part": "Chosen bishop of the city while still unbaptized"
+    },
+    {
+      "name": "Eleusius of Cyzicus",
+      "verdict": "NOT SCORED",
+      "part": "Led the Macedonian bishops, who left"
+    },
+    {
+      "name": "Macedonius of Constantinople",
+      "verdict": "LISTED",
+      "part": "Not present; the Macedonian party bore his name"
+    },
+    {
+      "name": "Apollinaris of Laodicea",
+      "id": "apollinaris-of-laodicea",
+      "verdict": "WHO",
+      "part": "Not present; his followers were condemned in canon 1"
+    },
+    {
+      "name": "Eunomius of Cyzicus",
+      "id": "eunomius-of-cyzicus",
+      "verdict": "WHO",
+      "part": "Not present; his followers were condemned in canon 1"
+    },
+    {
+      "name": "Marcellus of Ancyra",
+      "id": "marcellus-of-ancyra",
+      "verdict": "WHO",
+      "part": "Not present; the Marcellians were condemned in canon 1"
+    },
+    {
+      "name": "Damasus of Rome",
+      "id": "damasus-of-rome",
+      "verdict": "WHO",
+      "part": "Not present, and not invited by Hefele's reading; the synod of 382 wrote to him"
+    }
+  ],
+  "briefLength": "about 2 minutes 30 seconds",
+  "uncertain": [
+    "The council's minutes and its tome are lost. Its creed, canons and letter to the emperor survive, with the creed's text in the acts of Chalcedon. The rest reaches us through Nicene historians and through Gregory of Nazianzus, who was partisan.",
+    "The Pneumatomachian view reaches us only through opponents: Gregory of Nazianzus's Fifth Theological Oration and the synodal letter of 382. No text of the party in its own words was found in the files read.",
+    "Whether the council drew up the creed. Henry Percival holds that it did. Tillemont and Hefele think it reworked a creed already in use, close to one Epiphanius gives in 374. F. J. A. Hort argued that it set forth no creed, and Adolf Harnack that it did not accept this one.",
+    "Who presided. Hefele: Meletius, then Gregory of Nazianzus, then Nectarius. Sozomen names Timothy of Alexandria, Meletius and Cyril as the leaders. Van Espen thinks Timothy presided once the Egyptians came.",
+    "Why Gregory withdrew. Socrates says some murmured that he was a stranger; Sozomen that the Egyptian bishops objected; Hefele adds, from Gregory's poem, his grief at the choice of a successor to Meletius.",
+    "Why the Macedonians left. Socrates and Sozomen say they would not accept the Son's homoousion; Hefele says Socrates forgets the question of the Spirit.",
+    "How many canons are the council's. The Greek codices give seven and the old Latin versions four; Hefele thinks canons 5 and 6 belong to 382 and canon 7 is later."
+  ],
+  "sources": {
+    "fromTheCouncil": [
+      {
+        "title": "The creed of the 150 fathers, the letter to Theodosius, the canons, and the synodal letter of 382",
+        "author": "The council, edited by Henry Percival",
+        "language": "English translation",
+        "file": "cic/texts/npnf214_seven-ecumenical-councils.xml"
+      },
+      {
+        "title": "Sacrorum conciliorum collectio, tome 3: the First Council of Constantinople",
+        "author": "Giovanni Domenico Mansi",
+        "language": "Latin",
+        "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-3-347-409-lat_welter-facsimile1901.txt"
+      }
+    ],
+    "fromThoseThere": [
+      {
+        "title": "The Last Farewell in the Presence of the One Hundred and Fifty Bishops (Oration 42); the Fifth Theological Oration, On the Holy Spirit",
+        "author": "Gregory of Nazianzus",
+        "language": "English translation",
+        "file": "cic/texts/npnf207_cyril-jerusalem-gregory-nazianzen.xml"
+      },
+      {
+        "title": "The poem on his own life",
+        "author": "Gregory of Nazianzus",
+        "language": "Greek",
+        "file": "cic/texts/gregory-nazianzen_epistulae-carmina-pg37-grc-lat_migne1857.txt"
+      },
+      {
+        "title": "Funeral Oration on Meletius",
+        "author": "Gregory of Nyssa",
+        "language": "English translation",
+        "file": "cic/texts/npnf205_gregory-nyssa-dogmatic-treatises.txt"
+      }
+    ],
+    "writtenLater": [
+      {
+        "title": "Church History, Book V, chapters 7 and 8 (Socrates); Book VII, chapters 7 to 9 (Sozomen)",
+        "author": "Socrates of Constantinople and Sozomen",
+        "language": "English translation",
+        "file": "cic/texts/npnf202_socrates-sozomen-ecclesiastical-histories.xml"
+      },
+      {
+        "title": "Church History, Book V, chapters 6 to 9",
+        "author": "Theodoret of Cyrrhus",
+        "language": "English translation",
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+      },
+      {
+        "title": "A History of the Councils of the Church, vol. 2, sections 95 to 100",
+        "author": "Charles Joseph Hefele",
+        "language": "English translation",
+        "file": "cic/texts/hefele_history-of-the-councils-v2-326-429_oxenham1876.txt"
+      }
+    ]
+  }
+}
