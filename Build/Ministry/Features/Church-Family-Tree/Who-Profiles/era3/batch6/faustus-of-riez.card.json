@@ -1,0 +1,109 @@
+{
+  "name": "Faustus of Riez",
+  "otherNames": [
+    "Faustus Reiensis",
+    "Faustus Regiensis"
+  ],
+  "knownFor": "Monk and abbot of Lérins and bishop of Riez in Gaul, whose two books On Grace argued for a middle way between Pelagius and strict predestination, and were praised by Gennadius of Marseilles and attacked by Fulgentius of Ruspe and the Scythian monks.",
+  "dates": "Abbot of Lérins from 433, by August Engelbrecht's reckoning. Engelbrecht puts his birth not long before 410, finds him bishop by 462 and perhaps from 452, and dates On Grace about 473 to 474. If the Gothic king Euric exiled him, Engelbrecht thinks the exile ran from 477 to 485. He calls the year of Faustus's death wholly uncertain, and Ernest Cushing Richardson's note gives 490. No ancient source used here gives the year of his birth or death",
+  "place": "Britain, by August Engelbrecht's reading of Avitus of Vienne, who calls him a Briton by birth; the island monastery of Lérins; Riez, in Gaul, as its bishop",
+  "tradition": "Gallic Monastic-Ascetic Christianity; Merovingian Gallic Christianity",
+  "role": "Monk, abbot of Lérins and bishop of Riez; theologian of grace",
+  "briefLength": "about 2 minutes",
+  "keyWorks": [
+    {
+      "title": "On Grace (De gratia), in two books",
+      "about": "written at the request of a council at Arles under Bishop Leontius, with more added for a synod at Lyon; it opens against Pelagius and goes on against the view that God's will alone draws some to life and presses others down to death"
+    },
+    {
+      "title": "On the Holy Spirit (De spiritu sancto), in two books",
+      "about": "on the Spirit as of one substance with the Father and the Son; long printed under the name of the deacon Paschasius, it is Faustus's by the best manuscript and by Gennadius's notice, Engelbrecht shows"
+    },
+    {
+      "title": "Letters and sermons",
+      "about": "among them his letter to the priest Lucidus, letters to Ruricius of Limoges written in and after exile, and sermons for the feasts of the year"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "The Council of Orange of 529, under Caesarius of Arles, set out the teaching on grace and free will that Benjamin Warfield says put down semi-Pelagianism, of which he calls Faustus the chief champion.",
+      "A treatise sent to the bishops of Gaul in 534, which August Engelbrecht credits to Caesarius, cites the holy bishop Faustus as an authority on clergy and marriage.",
+      "A list of apocryphal books, which Wasserschleben's edition of Regino of Prüm calls the later part of the decree commonly given to Pope Gelasius, counts all the works of Faustus of Riez among the apocrypha. Engelbrecht holds that the entry on Faustus was added after Gelasius's time."
+    ],
+    "remembered": [
+      "Sidonius Apollinaris praised him in letters and a long poem, Engelbrecht reports, for keeping the strictness of Lérins as bishop and for his preaching at Riez, Lérins and Lyon.",
+      "Ruricius of Limoges, in his first letter to him, calls him an outstanding teacher whose writings had made him thirst to see him.",
+      "Vincentius Barralis, a monk of Lérins, wrote in 1613 that his feast was kept by the people of Riez."
+    ]
+  },
+  "uncertain": [
+    "The judgment on his teaching. Gennadius of Marseilles praises On Grace for teaching that God's grace always invites, precedes and helps our will. A Life of Fulgentius of Ruspe, hostile to him, says he secretly favored the Pelagians, and Isidore of Seville says he consented to Pelagian error. Benjamin Warfield calls him the chief champion of semi-Pelagianism. August Engelbrecht holds that he was not a semi-Pelagian and was not held one by Caesarius of Arles, and that where his books seem to lean that way they are the words of a man in error in good faith.",
+    "The condemnation in the list of apocrypha. Benjamin Warfield says Pope Gelasius condemned his writings in 496. Engelbrecht holds that the entry on Faustus was added later, since the bishops and popes who attacked his teaching a few years after never cite it.",
+    "Later attacks. Engelbrecht reports that about 520 the Scythian monks at Constantinople, led by John Maxentius, called his teaching heretical, while Pope Hormisdas would not condemn him. Fulgentius of Ruspe answered his two books in seven books, now lost. Ado of Vienne's chronicle says Avitus of Vienne wrote against him; Engelbrecht holds that Avitus answered only a letter of his on penance at the point of death.",
+    "His birthplace. Avitus of Vienne calls him a Briton by birth, and Sidonius Apollinaris speaks of the Britons as his people. Engelbrecht takes this to mean the island of Britain. Others he reports place his birth in Brittany, and an African bishop, Possessor, calls him a Gaul.",
+    "His years. Abbot of Lérins in 433 is Engelbrecht's date, from Faustus's sermon on his predecessor Maximus and from Sidonius's poem. The rest of his years are Engelbrecht's reckoning.",
+    "His exile. His own letters show that he was exiled in old age, in a monastery far from Arles. That the Gothic king Euric sent him is a scholars' guess that Engelbrecht accepts as likely.",
+    "His name. A later Faustus, bishop of Riez, sent a deacon to the Council of Orléans in 549. The Faustus who received the young Fulgentius in Africa is another man again."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "On Grace, On the Holy Spirit, Letters and Sermons (ed. August Engelbrecht, Corpus Scriptorum Ecclesiasticorum Latinorum 21)",
+        "language": "Latin",
+        "file": "cic/texts/faustus-riez_de-gratia-and-collected-works_engelbrecht1891.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Prolegomena to the works of Faustus and Ruricius",
+        "author": "August Engelbrecht",
+        "date": "1891",
+        "language": "Latin",
+        "file": "cic/texts/faustus-riez_de-gratia-and-collected-works_engelbrecht1891.txt"
+      },
+      {
+        "title": "Lives of Illustrious Men, 86 (tr. Ernest Cushing Richardson)",
+        "author": "Gennadius of Marseilles",
+        "language": "English translation",
+        "file": "cic/texts/npnf203_theodoret-jerome-gennadius-rufinus.xml"
+      },
+      {
+        "title": "Letter to King Gundobad on sudden penance (ed. Rudolf Peiper)",
+        "author": "Avitus of Vienne",
+        "language": "Latin",
+        "file": "cic/texts/avitus-vienne_opera-mgh-aa-6-2-lat_peiper1883.txt"
+      },
+      {
+        "title": "Life of Fulgentius, and the letter of the African bishops exiled in Sardinia (Patrologia Latina 65)",
+        "author": "Anonymous",
+        "language": "Latin",
+        "file": "cic/texts/fulgentius-ruspe_opera-contra-arianos-pl65-lat_migne1847.txt"
+      },
+      {
+        "title": "On Famous Men, 27 (Patrologia Latina 83)",
+        "author": "Isidore of Seville",
+        "language": "Latin",
+        "file": "cic/texts/isidore-seville_sententiae-eccl-officiis-historia-gothorum-pl83-lat_migne1860.txt"
+      },
+      {
+        "title": "Introduction to Augustin's Anti-Pelagian Writings",
+        "author": "Benjamin B. Warfield",
+        "language": "English",
+        "file": "cic/texts/npnf105_augustine-anti-pelagian-writings.xml"
+      },
+      {
+        "title": "Chronology of the saints of Lérins, with Sidonius's letter to Faustus",
+        "author": "Vincentius Barralis Salernus",
+        "date": "1613",
+        "language": "Latin",
+        "file": "cic/texts/barralis_chronologia-sanctorum-insulae-lerinensis-lat_1613.txt"
+      },
+      {
+        "title": "List of apocryphal books, in Regino of Prüm's Two Books on Synodal Cases (ed. Wasserschleben)",
+        "author": "Commonly attributed to Pope Gelasius",
+        "language": "Latin",
+        "file": "cic/texts/regino-pruem_libri-duo-de-synodalibus-causis-lat_wasserschleben1840.txt"
+      }
+    ]
+  }
+}

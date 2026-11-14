@@ -1,0 +1,84 @@
+{
+  "name": "Ruricius of Limoges",
+  "otherNames": [
+    "Ruricius Lemovicensis"
+  ],
+  "knownFor": "Gallic nobleman drawn to the religious life by Faustus of Riez, later bishop of Limoges, whose two books of letters to bishops, friends and family survive with letters written to him.",
+  "dates": "Bishop of Limoges from 485, by August Engelbrecht's reckoning from a letter of Faustus. Engelbrecht dates his marriage before 468 and his turn to the religious life before 479, and, with Bruno Krusch, puts his death not long after 507. No ancient source used here gives the year of his birth, his election or his death",
+  "place": "Gourdon, near Cahors, where Engelbrecht says he lived as a layman; Limoges, in Gaul, as its bishop",
+  "tradition": "Merovingian Gallic Christianity",
+  "role": "Bishop of Limoges; letter writer",
+  "briefLength": "about 2 minutes",
+  "keyWorks": [
+    {
+      "title": "Letters (Epistulae), in two books",
+      "about": "letters to Faustus of Riez, Sidonius Apollinaris, Caesarius of Arles and other bishops, to friends and to his sons and kin, printed with letters written to him by Faustus, Caesarius, Sedatus of Nîmes and others"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Venantius Fortunatus, in an epitaph for the two bishops named Ruricius, grandfather and grandson, says each founded a church at Limoges, one to Augustine and one to Peter. Engelbrecht takes the elder to be the founder of Augustine's.",
+      "August Engelbrecht edits his letters from a ninth-century manuscript at St Gall, which also keeps the letters Faustus of Riez wrote to him and to others."
+    ],
+    "remembered": [
+      "Faustus of Riez, writing from exile, calls Ruricius's turn to the religious life the first gift God gave him there.",
+      "Venantius Fortunatus joins the two Ruricii to the Anicii of Rome and says they sent their wealth ahead to heaven by giving it to the poor."
+    ]
+  },
+  "uncertain": [
+    "His life comes almost wholly from his letters and those written to him, as gathered by August Engelbrecht, and his years are Engelbrecht's reckoning. The year 485 for his election rests on Engelbrecht's reading of a letter Faustus wrote soon after returning from exile, to Ruricius newly made bishop, and on his guess that Faustus came home in 485, when King Euric died, if Euric had exiled him.",
+    "The council he missed. Caesarius's letter names Agde. Its acts date the council to the twenty-second year of King Alaric, and some copies add the consul Messala. August Engelbrecht reckons this as 506. The Spanish era printed with the acts, 644, does not fit that year. Engelbrecht and an unsigned prolegomenon in Migne's Caesarius tie Ruricius's answer, that infirmity kept him away, to that council; Jacques Basnage, as that prolegomenon reports, held that he stayed away on purpose, which it calls invented. Ruricius also missed the council of Toulouse planned for the next year, as Sedatus of Nîmes's letter shows.",
+    "His death. Engelbrecht, with Bruno Krusch, thinks he died not long after 507, since he was then too frail to travel. No line used here gives the year.",
+    "Exile. Some scholars, Engelbrecht reports, held that Ruricius was exiled as bishop, from a phrase in one of his letters. Engelbrecht rejects this, since no other letter mentions an exile.",
+    "Which Ruricius. His grandson, also named Ruricius, was later bishop of Limoges too, by Venantius Fortunatus's epitaph. The index to Fortunatus's works in the Monumenta edition names the grandson as the Ruricius who signs at the councils of Clermont in 535 and Orléans in 541, and through his archdeacon at Orléans in 549, which Friedrich Maassen's edition prints."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Letters, in two books, with letters written to him (ed. August Engelbrecht, Corpus Scriptorum Ecclesiasticorum Latinorum 21)",
+        "language": "Latin",
+        "file": "cic/texts/faustus-riez_de-gratia-and-collected-works_engelbrecht1891.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Prolegomena, chapter 3, on the life, writings and manuscripts of Ruricius",
+        "author": "August Engelbrecht",
+        "date": "1891",
+        "language": "Latin",
+        "file": "cic/texts/faustus-riez_de-gratia-and-collected-works_engelbrecht1891.txt"
+      },
+      {
+        "title": "Letters to Ruricius",
+        "author": "Faustus of Riez",
+        "language": "Latin",
+        "file": "cic/texts/faustus-riez_de-gratia-and-collected-works_engelbrecht1891.txt"
+      },
+      {
+        "title": "Letter to Ruricius on the council at Agde",
+        "author": "Caesarius of Arles",
+        "language": "Latin",
+        "file": "cic/texts/faustus-riez_de-gratia-and-collected-works_engelbrecht1891.txt"
+      },
+      {
+        "title": "Poems IV.5, epitaph of the bishops Ruricius of Limoges (ed. Friedrich Leo)",
+        "author": "Venantius Fortunatus",
+        "language": "Latin",
+        "file": "cic/texts/venantius-fortunatus_opera-mgh-aa-4-lat_leo-krusch1881.txt"
+      },
+      {
+        "title": "Council of Agde, 506 (ed. H. T. Bruns, Canones apostolorum et conciliorum, part 2)",
+        "author": null,
+        "date": "1839",
+        "language": "Latin",
+        "file": "cic/texts/bruns_canones-apostolorum-et-conciliorum-pars-altera-lat_1839.txt"
+      },
+      {
+        "title": "Prolegomenon to the works of Caesarius of Arles (Patrologia Latina 67)",
+        "author": "Unsigned",
+        "language": "Latin",
+        "file": "cic/texts/facundus-ferrandus-caesarius-dionysius-pl67-lat_migne1865.txt"
+      }
+    ]
+  }
+}
