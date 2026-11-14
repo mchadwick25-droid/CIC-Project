@@ -2616,3 +2616,38 @@ The approved files are in `Who-Profiles/era3/batch2/` in this folder, and the re
 **What is still open.** Open-Gaps 245, "Era 3 Who batch 3" (2026-11-14). The remaining era 3 WHO rows: 26 from the era 3 scan (36 after batch 2, less these ten) and 21 from the supplement scan, 47 in all.
 
 The approved files are in `Who-Profiles/era3/batch3/` in this folder, and the reviews are in `Build/Ministry/Operations/Audits/2026-11-14_who-profiles-era3-batch3/`. No census, record or site change is made, so there is no data release number. Approved to proceed (coordinator, 2026-11-14; Mark may overrule).
+
+## 2026-11-14 — Major councils, eras 1 and 2: the council pattern and nine profiles (Mark, 2026-11-14)
+
+**Decided (Mark, 2026-11-14, in the council thread; his words as given).** The scope: "lets write the counsils for era 1 and 2 only for now". The pattern and its worked example, the Councils of Carthage and Rome on the lapsed (251), were shown to him in an Artifact. He added one field: "for the card, we need to know the issues/contriversy that caused to meet". He then approved: "approved, go ahead with era 2".
+
+**The pattern.** `Council_Profile_Pattern.md`, adapted from `Who_Profile_Pattern.md`. A major council is an entry in the tradition-entry form, with `kind` `major-council`, its own icon and the title "Major council", under Mark's era 2 ruling, "counsels are treated like a tradition with a different icon and title. but people who are a part of it should be on the who click" ("The era 2 Who scan", 2026-11-11). Its people show under Who with their verdicts. What it adds to the Who pattern:
+- each witness is tagged with its kind: acts, participant, later narrative or modern reconstruction;
+- lost acts are said once, early;
+- the condemned party's view is given in its own words where held;
+- every count, and every date no ancient writer gives, names the historian it comes from;
+- the issue that brought the bishops together, the decision and the outcome are three separate fields;
+- sources fall into three groups.
+
+The spoken brief has a ceiling of 2:30, never a target.
+
+**Worker's calls under the pattern (not Mark's words; Mark may overrule).** A person in a council record whom no Who scan has scored shows as NOT SCORED, with no id, so the council profile makes no verdict. An id appears only where a Who profile or census entry already has one. Opus drafted every profile, as for Who profiles.
+
+**The nine councils.** Era 1: the Councils of Carthage and Rome on the lapsed (251). Era 2: Arles (314), Nicaea (325), Sardica (343), Ariminum and Seleucia (359), Constantinople (381), the Conference of Carthage (411), Ephesus (431) and Chalcedon (451). Every brief runs 393 to 400 words, about 2:30. FK runs 7.4 to 8.5 and reading ease 60.1 to 63.8.
+
+**Review.** Three rounds by fresh Opus agents that had not seen the drafting.
+- Round 1, the full review, found no blocking points, 6 substantial and 25 minor. The substantial points:
+  - Arius's teaching was told only through the council, although his own letter is held.
+  - Philostorgius was placed on the Homoian side; he was a Eunomian.
+  - Gregory of Nazianzus's farewell was told as coming before the council met.
+  - Timothy of Alexandria was marked NOT SCORED, although the supplement scan has him LISTED.
+  - The Carthage record was called full in one sentence and broken off in the next.
+  - The Zachariah chronicle was not dated as a later compilation.
+- Round 2, a targeted recheck, cleared eight councils. It found one new substantial point, Hefele named at Chalcedon without being introduced, and seven minors.
+- Round 3 cleared all nine, with four optional minors; three were fixed as wording.
+
+Every quotation was re-checked word for word against its vendored file. No paid calls were made.
+
+**What is still open.** Open-Gaps 246, "Major councils, eras 1 and 2" (2026-11-14). The councils of eras 3 to 10 are not started.
+
+The files are in `Council-Profiles/era1/` and `era2/` in this folder, and the reviews are in `Build/Ministry/Operations/Audits/2026-11-14_council-profiles-era1-2/`. No census, record or site change is made, so there is no data release number. Approved to proceed (Mark, 2026-11-14).
