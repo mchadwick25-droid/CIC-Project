@@ -1,0 +1,143 @@
+{
+  "name": "Timothy I of Baghdad",
+  "otherNames": [
+    "Mar Timothy",
+    "Timotheus"
+  ],
+  "knownFor": "Patriarch of the Church of the East from 780, under five caliphs. He sent monks as bishops to Gilan and Dailom, and set rules for choosing a patriarch.",
+  "dates": "Enthroned on Sunday 7 May 780, by Elias of Nisibis and J.-B. Chabot. Chabot places it at Seleucia, after eight months of dispute. Elias says he died on a Friday, 9 January 823. Bar Hebraeus puts his death in the Arab year 204, which began in June 819. Chabot's index gives 825. Mari ibn Sulayman says he died in his ninety-fifth year, in the forty-third year of his office",
+  "place": "Hazza in Adiabene, by birth; Bashosh, where he studied; Beth Beghash, his first see; Seleucia, where he was enthroned. Joseph Assemani says he lived at the monastery of Kelilisho at Baghdad. Amr ibn Matta says he was buried there, and Mari says he restored it",
+  "tradition": "The Church of the East on the Silk Road",
+  "role": "Catholicos and patriarch; writer of canons, letters and treatises",
+  "briefLength": "about 2 minutes 30 seconds",
+  "keyWorks": [
+    {
+      "title": "Synod of 790 and its letter to Ephrem of Elam",
+      "about": "canons on how a patriarch must be chosen, sent to Ephrem's province, in Syriac with J.-B. Chabot's French. Chabot says it may be only part of the decisions of his first synod. 'Abdisho of Nisibis names a second synod, in 804 or 805"
+    },
+    {
+      "title": "Letters",
+      "about": "'Abdisho counts about two hundred, in two volumes. Thomas of Marga read his letter to Yahbalaha of Dailom and cites it. Alphonse Mingana quotes the letter to the monks of Mar Maron from a manuscript of his own"
+    },
+    {
+      "title": "Disputation with the caliph al-Mahdi",
+      "about": "named in 'Abdisho's list of his works. Amr ibn Matta says the caliph al-Hadi often called Timothy to argue about religion. Joseph Assemani takes Amr to mean the same debate. Its text is not among the sources used here"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Thomas of Marga lists monks of his own monastery who became bishops. One was Elijah, bishop of Mukan, whom Thomas says Timothy ordained.",
+      "Bar Hebraeus reports it was said that the bishops of the Persians had worn white, eaten meat and married. It was also said that they had not obeyed the catholicos of Seleucia. They called themselves disciples of the apostle Thomas.",
+      "Timothy won them over, Bar Hebraeus says, and made a Simeon their metropolitan. Alphonse Mingana holds that the Syriac names the province of Fars, where Assemani and Lamy read the country of Persia.",
+      "'Abdisho of Nisibis cites the canons of his synod in his own collection, J.-B. Chabot notes.",
+      "Chabot writes that the Church of the East prospered under him, above all through its missions in the Far East."
+    ],
+    "remembered": [
+      "Thomas of Marga tells of an old monk of his own monastery, Beth 'Abhe, who met the boy Timothy on his way to school. The monk foretold that he would be patriarch for forty-two years.",
+      "Thomas says Timothy loved Beth 'Abhe and gave it many gifts, because there it was shown to him that he would be patriarch.",
+      "Mari says there was no king to whom he did not write, or whom he did not bring to the faith.",
+      "Mari says Joshua bar Nun, who studied with him under Abraham and later succeeded him, hated him and wrote against him. When Joshua fell ill, Mari says, he ordered those books burned.",
+      "Mari says Timothy was no public speaker, but wrote treatises in every field and a book on the stars."
+    ]
+  },
+  "uncertain": [
+    "How he won the election. Mari ibn Sulayman and Amr tell of sacks filled with stones. Bar Hebraeus tells of sealed bags of copper money, promised to the school.",
+    "Thomas of Marga, writing about 840, calls it gaining the office \"by fraud,\" though \"truth acted with subtlety\". He says Timothy talked the favored candidate, Isho'yahbh, into standing aside for a promise of Adiabene. J.-B. Chabot writes that, as is said, he won the metropolitans over by his promises.",
+    "The year of his death. Elias of Nisibis gives Friday 9 January 823, and so does Chabot's note, though Chabot's index gives 825. Bar Hebraeus gives the Arab year 204, which began in June 819, and Amr the Arab year 205.",
+    "E. A. Wallis Budge, in his notes to Thomas of Marga, gives the Arab years 204 or 205, which he reckons as 819 to 821. Mari ibn Sulayman says he died in the year al-Ma'mun entered Baghdad, which Mari puts in the Arab year 204.",
+    "The year of his first synod. Chabot gives 790 and calls the 786 of a Paris copy an error. The editors of Bar Hebraeus give 786 and 804.",
+    "The caliph of the disputation. 'Abdisho's list names al-Mahdi. Joseph Assemani takes Amr's report of debates with al-Hadi to be the same disputation, with al-Hadi in place of al-Mahdi.",
+    "The letter to the monks of Mar Maron is known here only from Alphonse Mingana. He says it was not yet printed, and that he read it in a manuscript of his own.",
+    "Beth Sinaye. Budge glosses it as China. Thomas of Marga learned of its metropolitan David from Timothy's letters, but does not say who ordained him.",
+    "His name. Chabot and Bar Hebraeus place his enthronement at Seleucia, and Amr ibn Matta at Madaina. Joseph Assemani says the patriarchs then lived at Baghdad, Timothy at the monastery of Kelilisho.",
+    "An earlier Timothy, bishop of Beth Bagash, signs the synods of the catholicoi Isho'yahb I and Gregory in Oskar Braun's German. He is a different man."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Synod of Mar Timothy I, with its letter to Ephrem of Elam, Appendix IV of the Synodicon Orientale (ed. and tr. J.-B. Chabot)",
+        "author": "Timothy I",
+        "date": "1902",
+        "language": "Syriac, with French translation",
+        "file": "cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt"
+      },
+      {
+        "title": "Letter to Yahbalaha and Kardagh, as Thomas of Marga quotes it in the Book of Governors, Book V (tr. E. A. Wallis Budge)",
+        "author": "Timothy I",
+        "language": "English translation",
+        "file": "cic/texts/thomas-of-marga_book-of-governors-v2-english_budge1893.txt"
+      },
+      {
+        "title": "Letter to the monks of Mar Maron, as Alphonse Mingana quotes it in The Early Spread of Christianity in India",
+        "author": "Timothy I",
+        "language": "English translation",
+        "file": "cic/texts/mingana_early-spread-of-christianity-in-india_mingana1926.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Lives of the patriarchs, in De patriarchis Nestorianorum commentaria (Latin tr. Henricus Gismondi)",
+        "author": "Mari ibn Sulayman",
+        "date": "1899",
+        "language": "Latin translation",
+        "file": "cic/texts/mari-ibn-sulayman_de-patriarchis-nestorianorum-commentaria-pars-prior-ara-lat_gismondi1899.txt"
+      },
+      {
+        "title": "Lives of the patriarchs, in De patriarchis Nestorianorum commentaria, pars altera (Latin tr. Henricus Gismondi)",
+        "author": "Amr ibn Matta",
+        "date": "1897",
+        "language": "Latin translation",
+        "file": "cic/texts/amr-ibn-matta_de-patriarchis-nestorianorum-commentaria-pars-altera-ara-lat_gismondi1896-1897.txt"
+      },
+      {
+        "title": "The Book of Governors, Books IV and V, with the translator's notes (tr. E. A. Wallis Budge)",
+        "author": "Thomas of Marga",
+        "date": "1893",
+        "language": "English translation",
+        "file": "cic/texts/thomas-of-marga_book-of-governors-v2-english_budge1893.txt"
+      },
+      {
+        "title": "Chronicon Ecclesiasticum, volume 3, on the catholicoi of the East, with the editors' notes (ed. and tr. J.-B. Abbeloos and T. J. Lamy)",
+        "author": "Bar Hebraeus",
+        "date": "1877",
+        "language": "Latin translation",
+        "file": "cic/texts/barhebraeus_chronicon-ecclesiasticum-vol3-lat_abbeloos-lamy1877.txt"
+      },
+      {
+        "title": "Opus chronologicum, list of the catholicoi (Latin tr. E. W. Brooks and J.-B. Chabot)",
+        "author": "Elias of Nisibis",
+        "date": "1910",
+        "language": "Latin translation",
+        "file": "cic/texts/elias-of-nisibis_opus-chronologicum-lat_brooks-chabot-csco1910.txt"
+      },
+      {
+        "title": "Notes and index to the Synodicon Orientale",
+        "author": "J.-B. Chabot",
+        "date": "1902",
+        "language": "French",
+        "file": "cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt"
+      },
+      {
+        "title": "Bibliotheca Orientalis, volume 3 part 1, on 'Abdisho's catalogue, with Amr's account",
+        "author": "Joseph Simon Assemani",
+        "date": "1725",
+        "language": "Latin",
+        "file": "cic/texts/assemani_bibliotheca-orientalis-tomus3-pars1-de-scriptoribus-syris-nestorianis-lat_1725.txt"
+      },
+      {
+        "title": "Bibliotheca Orientalis, volume 3 part 2, on the seats of the patriarchs",
+        "author": "Joseph Simon Assemani",
+        "date": "1728",
+        "language": "Latin",
+        "file": "cic/texts/assemani_bibliotheca-orientalis-tomus3-pars2-de-syris-nestorianis-lat_1728.txt"
+      },
+      {
+        "title": "The Early Spread of Christianity in India",
+        "author": "Alphonse Mingana",
+        "date": "1926",
+        "language": "English",
+        "file": "cic/texts/mingana_early-spread-of-christianity-in-india_mingana1926.txt"
+      }
+    ]
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "name": "Martin I of Rome",
+  "otherNames": [
+    "Pope Martin I",
+    "Martinus papa"
+  ],
+  "knownFor": "Bishop of Rome who held the Lateran synod of 649 against the teaching of one will in Christ and the emperor's Typos. He was seized, tried at Constantinople and exiled to Cherson, where he died.",
+  "dates": "Bishop of Rome from 649. Seized in June 653, by the Roman Breviary's added dates and William Dudley Foulke. Sailed for Cherson on Holy Thursday, 26 March 655, by Louis Duchesne's reading of his letters. Died on 16 September, by the account of one of his clergy",
+  "place": "Born at Todi in Tuscany. Bishop in Rome; held a year on the island of Naxos; tried at Constantinople. Exiled to Cherson, and buried outside its walls in a church of Mary called of Blachernae",
+  "tradition": "The Byzantine Imperial Church (Heraclian & Iconoclast Eras)",
+  "role": "Bishop of Rome",
+  "briefLength": "about 2 minutes 30 seconds",
+  "keyWorks": [
+    {
+      "title": "Two letters to Theodore",
+      "about": "written after his seizure. In the first he denies ever sending letters or money to the Saracens. He gave only a little alms to some servants of God, none of it sent to the Saracens. He will defend the faith living and dying, he says. The second tells of the soldiers in the Lateran church and the voyage"
+    },
+    {
+      "title": "Two letters from Cherson",
+      "about": "to a friend at Constantinople. They tell of hunger in the land and of friends and a church that had forgotten him. In the second he prays for the shepherd who now led Rome. Louis Duchesne dates them to about June and early September"
+    },
+    {
+      "title": "Acts of the Lateran synod of 649",
+      "about": "the synod that condemned Cyrus of Alexandria and Sergius, Pyrrhus and Paul of Constantinople. The Book of the Popes and Bede count 105 bishops. The Book of the Popes copies its account of the Typos from Martin's own speech there, Louis Duchesne says"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Bede says the bishops of Britain met at Heathfield under Theodore, archbishop of Canterbury, in the eighth indiction. They received the synod held at Rome in the time of the blessed Pope Martin.",
+      "John, archchanter of Saint Peter's and abbot of Saint Martin's, had lately come from Rome on Pope Agatho's orders. Bede says he brought the decision of Martin's synod to be copied at Wearmouth.",
+      "Pope Agatho and a Roman synod of 125 bishops wrote to the emperors, for the legates they sent to the council of Constantinople in 680. The letter calls the faith of two wills the faith set out in a council over which Pope Martin presided, as Henry R. Percival sums it up."
+    ],
+    "remembered": [
+      "The Roman Breviary keeps him on 12 November as \"Martin, Pope of Rome, Martyr\". Its martyrology says he died \"worn out by his sufferings for the Catholic faith's sake.\"",
+      "The Breviary says his body was later brought to Rome and buried in the Church of Saints Sylvester and Martin. An 1843 English Roman Missal gives a Mass for him on the same day.",
+      "The clergyman who wrote of his trial calls him a confessor and martyr of recent days. The Book of the Popes says that he works many wonders to this day.",
+      "Severinus Binius, in notes Mansi reprints, quotes Pope Gregory II on his tomb at Cherson. The city, the whole north and its people come to it, Gregory says, and are healed."
+    ]
+  },
+  "uncertain": [
+    "Most of his story comes from his own side: his letters, and the account sent west by one of his clergy. The charges against him are known through that account.",
+    "The Book of the Popes adds that the sword-bearer sent to kill him at Mass was struck blind. The Roman Breviary's lessons repeat the story.",
+    "The day and year of his death. The clergyman's account gives 16 September, in the fourteenth indiction. The Roman Breviary's lesson gives 12 November 655.",
+    "The Breviary's own note, after Alban Butler, says he died on 16 September and calls 12 November the day his relics came to Rome. Binius, in Mansi, gives 12 November 654.",
+    "The year he reached Constantinople. The Breviary's added dates give September 655, and send him to the Crimea in May \"645\". Louis Duchesne puts the arrival in 654 and the sailing for Cherson in March 655.",
+    "Whether he backed Olympius, the emperor's governor in Italy, against the emperor. The witnesses at his trial swore so, and William Dudley Foulke calls Olympius's rising one Martin supported.",
+    "Louis Duchesne thinks pope and governor stayed on good terms longer than the Book of the Popes implies. Martin answered at his trial that he could not have stood against a man who commanded the army of Italy. Nor had he made him governor, he said.",
+    "His election. Foulke says it lacked the emperor's confirmation. The decree Theodore Calliopas handed to the clergy, as Martin quotes it, said he had seized the see irregularly and without law.",
+    "The size of his synod. The Book of the Popes, Bede and the Breviary give 105 bishops. Theophanes the Confessor gives 150 in Migne's Latin; Severinus Binius, quoting him, reads 110.",
+    "Who followed him. Louis Duchesne names Eugene, and Foulke says Eugenius was chosen while Martin still lived. Theophanes says Agatho was made pope once Martin was exiled."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Letters XIV to XVII (two to Theodore, two from Cherson), in Mansi, Sacrorum conciliorum collectio, volume 10",
+        "author": "Martin I of Rome",
+        "date": "1901",
+        "language": "Latin",
+        "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-10-lat_welter-facsimile1901.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Account of his seizure, trial and exile (Commemoratio), sent to the West, in Mansi, volume 10",
+        "author": "One of his clergy",
+        "language": "Latin",
+        "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-10-lat_welter-facsimile1901.txt"
+      },
+      {
+        "title": "Life of Martin, in the Book of the Popes, with the notes of Severinus Binius, in Mansi, volume 10",
+        "language": "Latin",
+        "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-10-lat_welter-facsimile1901.txt"
+      },
+      {
+        "title": "Le Liber pontificalis, volume 1, the Life of Martin and its notes",
+        "author": "Louis Duchesne (ed.)",
+        "date": "1886",
+        "language": "Latin, with French notes",
+        "file": "cic/texts/liber-pontificalis_texte-introduction-commentaire-t1-lat-fra_duchesne1886.txt"
+      },
+      {
+        "title": "The Ecclesiastical History of the English Nation, Book IV.17-18 (tr. J. A. Giles, ed. L. Cecil Jane)",
+        "author": "Bede",
+        "date": "1903",
+        "language": "English translation",
+        "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt"
+      },
+      {
+        "title": "The Roman Breviary, calendar, martyrology and lessons for 12 November (tr. the Marquess of Bute)",
+        "language": "English translation",
+        "file": "cic/texts/roman-breviary_bute1908.txt"
+      },
+      {
+        "title": "The Roman Missal, Mass for Saint Martin, pope and martyr (tr. John England)",
+        "date": "1843",
+        "language": "English translation",
+        "file": "cic/texts/roman-missal_england1843.txt"
+      },
+      {
+        "title": "The Seven Ecumenical Councils, the Sixth Ecumenical Council (Nicene and Post-Nicene Fathers, second series, volume 14)",
+        "author": "Henry R. Percival (ed.)",
+        "language": "English translation",
+        "file": "cic/texts/npnf214_seven-ecumenical-councils.xml"
+      },
+      {
+        "title": "History of the Langobards, with the translator's notes",
+        "author": "William Dudley Foulke (tr.)",
+        "date": "1907",
+        "language": "English",
+        "file": "cic/texts/paul-the-deacon_history-of-the-langobards_foulke1907.txt"
+      },
+      {
+        "title": "Chronographia, in Patrologia Graeca 108",
+        "author": "Theophanes the Confessor",
+        "date": "1863",
+        "language": "Greek, with Latin translation",
+        "file": "cic/texts/theophanes-confessor_chronographia-pg108-grc-lat_migne1863.txt"
+      }
+    ]
+  }
+}

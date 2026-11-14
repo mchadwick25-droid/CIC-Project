@@ -1,0 +1,150 @@
+{
+  "name": "Gregory of Narek",
+  "otherNames": [
+    "Grigor of Narek",
+    "Gregorius Narekensis",
+    "Naregatzi"
+  ],
+  "knownFor": "Monk and abbot of the convent of Narek in tenth-century Armenia, who wrote the book of prayers called the Narek. Two of his prayers to the Holy Spirit stand in the Armenian Liturgy.",
+  "dates": "Malachia Ormanian gives his death as 1003. Frédéric Macler, in a note to Stepanos of Taron, gives 951 to 1003. Michael Chamich says he died on reaching fifty. F. C. Conybeare sets about 960 beside his name",
+  "place": "The convent of Narek, in the land of the Rushtunians, as Chamich has it, or the province of Rstunikh in Stepanos of Taron. Summoned, Chamich says, to an assembly at Ani",
+  "tradition": "Bagratid Armenian Christianity",
+  "role": "Monk and abbot of Narek; writer of prayers and commentaries",
+  "briefLength": "about 2 minutes 30 seconds",
+  "keyWorks": [
+    {
+      "title": "The Narek, or Book of Prayers",
+      "about": "the book of private prayer named after his convent, which Chamich calls \"that wonderful book of prayers called Narek\". Giovanni de Serpos says it holds ninety-five prayers. Of its text, F. C. Conybeare's Rituale Armenorum gives the first lines of two discourses"
+    },
+    {
+      "title": "Commentary on the Song of Songs",
+      "about": "written at twenty-six by Chamich's account, with one on the thirty-eighth chapter of Job. Serpos says he wrote the Song commentary at twenty, to comfort a pious Bagratid king. Joannes Parisot quotes one line of it in Latin, from a Venice printing of 1789. In it Gregory says that works translated from Greek or Syriac were put into Armenian obscurely"
+    },
+    {
+      "title": "Two prayers to the Holy Spirit in the Armenian Liturgy",
+      "about": "two prayers in James Issaverdens's English. The first is said in a low voice at the foot of the altar by the one leading the service. In it, the Spirit is implored \"with out-stretched arms and deep groans\""
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "In F. C. Conybeare's Rituale Armenorum, one manuscript adds the opening lines of two of his meditations after the prayers before sleep. These are discourses xii and xli. The second begins \"Sons of the living God.\"",
+      "Conybeare reports that the 1730 editor of the breviary printed a short treatise on it by Gregory. From it, Conybeare says, we learn that Armenians prayed standing with hands outstretched. Gregory urges his readers not to sleep during the reading at the Midnight Office.",
+      "Issaverdens notes that Gregory quotes the story of the woman taken in adultery, in John 8, as holy Scripture. Armenian manuscripts, he says, place it at the end of John's Gospel, written separately.",
+      "In 1021, Chamich says, King Sennacherib of Vaspurakan gave his land to the emperor and took about a third of its people to Sebastia. Monks of Narek went with him, carried Gregory's body, and built a new convent called Narek there.",
+      "Joannes Parisot finds that Gregory was, it seems, the first Armenian writer to count Jacob of Nisibis among the church's writers. His first panegyric on Jacob praises him for destroying the Arian heresy with the sword of the word.",
+      "Léon Alishan lists a Life of Saint Gregory of Narek among the writings of Nerses of Lambron that are known only from the chroniclers."
+    ],
+    "remembered": [
+      "Malachia Ormanian, a former Armenian patriarch of Constantinople, writes that the Narek is used for private prayer. It is, he says, \"regarded as a potent talisman against all kinds of dangers.\" His list of the saints the Armenian church commemorates gives, for the tenth century, \"The learned doctor Grigor of Narek.\"",
+      "Issaverdens calls him one of the greatest glories of the Armenian church in his century.",
+      "Eugène Boré, writing in 1837, says the Armenians rank him among the most esteemed lyric poets of any people. His sacred elegies, Boré writes, have a touching unction.",
+      "Minas Nurikhan, the biographer of Mechitar, writes of the monastery of Narek as \"rendered sacred by the name of the great St. Gregory of Naregh\", where sacred music was cultivated."
+    ]
+  },
+  "uncertain": [
+    "The pigeons. Chamich says many recorded the miracle and the monks of Narek wrote it down. Issaverdens retells it \"merely as an anecdote\", to show how people honored him.",
+    "His stand on Chalcedon. Chamich and Issaverdens, Mekhitarists of Venice, say he tried to bring the Armenians to accept the council of Chalcedon and unite them with the Greeks. Ormanian names the Mekhitarists among the orders that drew Armenians to the Catholic side, and judged Chamich's history weak in critical spirit.",
+    "Serpos says Gregory worked to calm quarrels over whether the fathers of Chalcedon were orthodox, and withdrew to Narek when many held firm. Macler notes that Charles Lebeau has him persecuted by his own people in 977, on suspicion of leaning toward reconciliation with the Greeks. Ormanian's two mentions of Gregory name only his book and his place among the saints.",
+    "His age at the Song commentary: twenty-six for Chamich and Issaverdens, twenty for Serpos. Issaverdens also has him ordained priest at twenty-six.",
+    "Bishop or abbot. Serpos reports that Father Le Quien made him bishop of a see of Narek. He answers that no Armenian writer ever called Gregory a bishop, and that he was only abbot of the monastery.",
+    "His family and teacher. Chamich names his father as Khosrove Anzevazie, who had married as a layman, became a monk after Gregory's birth and later a bishop. Serpos makes him a pupil of Anania, a learned abbot of Narek.",
+    "His life rests on late writers. Chamich and Issaverdens were Mekhitarists of Venice, Serpos wrote at Venice in 1786, and Boré belonged to its Armenian academy. Stepanos of Taron, of Gregory's own century, describes Narek and its monk Anania. In neither held translation does he name Gregory. Macler notes that one passage brings Gregory to mind.",
+    "The name of the book. The held sources call it the Narek or the book of prayers, and none calls it the Book of Lamentations."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "The Armenian Ritual, Part I: The Armenian Liturgy, two prayers to the Holy Spirit (tr. James Issaverdens)",
+        "author": "Gregory of Narek",
+        "language": "English translation",
+        "file": "cic/texts/issaverdens_armenian-ritual-parts1-4_1876.txt"
+      },
+      {
+        "title": "Rituale Armenorum, the opening lines of his meditations, discourses xii and xli (ed. F. C. Conybeare)",
+        "author": "Gregory of Narek",
+        "date": "1905",
+        "language": "English translation",
+        "file": "cic/texts/rituale-armenorum-lectionary_conybeare1905.txt"
+      },
+      {
+        "title": "Aphraatis Sapientis Persae Demonstrationes, preface: lines of the commentary on the Song of Songs and the first panegyric on Jacob of Nisibis, in Latin (ed. Joannes Parisot)",
+        "author": "Gregory of Narek",
+        "date": "1894",
+        "language": "Latin translation",
+        "file": "cic/texts/aphrahat_demonstrationes-1-22-syr-lat_parisot1894.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "History of Armenia, volume 2 (tr. Johannes Avdall)",
+        "author": "Michael Chamich",
+        "date": "1827",
+        "language": "English translation",
+        "file": "cic/texts/chamich_history-of-armenia-v2_avdall1827.txt"
+      },
+      {
+        "title": "Armenia and the Armenians, volume 2: Ecclesiastical History",
+        "author": "James Issaverdens",
+        "date": "1875",
+        "language": "English",
+        "file": "cic/texts/issaverdens_armenia-and-the-armenians-v2-ecclesiastical-history_1875.txt"
+      },
+      {
+        "title": "Compendio storico di memorie cronologiche concernenti la religione e la morale della nazione armena, volume 2",
+        "author": "Giovanni de Serpos",
+        "date": "1786",
+        "language": "Italian",
+        "file": "cic/texts/serpos_compendio-storico-nazione-armena-t2-ita_1786.txt"
+      },
+      {
+        "title": "Compendio storico di memorie cronologiche concernenti la religione e la morale della nazione armena, volume 3",
+        "author": "Giovanni de Serpos",
+        "date": "1786",
+        "language": "Italian",
+        "file": "cic/texts/serpos_compendio-storico-nazione-armena-t3-ita_1786.txt"
+      },
+      {
+        "title": "The Church of Armenia (tr. G. Marcar Gregory)",
+        "author": "Malachia Ormanian",
+        "date": "1912",
+        "language": "English translation",
+        "file": "cic/texts/ormanian_church-of-armenia_gregory1912.txt"
+      },
+      {
+        "title": "Histoire universelle, part 2, with the translator's notes (tr. Frédéric Macler)",
+        "author": "Stepanos of Taron",
+        "date": "1917",
+        "language": "French translation",
+        "file": "cic/texts/stepanos-taron_histoire-universelle-deuxieme-partie-fra_macler1917.txt"
+      },
+      {
+        "title": "Armenische Geschichte (tr. Heinrich Gelzer and August Burckhardt)",
+        "author": "Stepanos of Taron",
+        "date": "1907",
+        "language": "German translation",
+        "file": "cic/texts/stepanos-taron_armenische-geschichte-deu_gelzer-burckhardt1907.txt"
+      },
+      {
+        "title": "Le couvent de Saint-Lazare à Venise",
+        "author": "Eugène Boré",
+        "date": "1837",
+        "language": "French",
+        "file": "cic/texts/bore_couvent-de-saint-lazare-a-venise-fra_1837.txt"
+      },
+      {
+        "title": "Léon le Magnifique, premier roi de Sissouan",
+        "author": "Léon Alishan",
+        "date": "1888",
+        "language": "French",
+        "file": "cic/texts/alishan_leon-le-magnifique-et-table-chronologique-de-sissouan-fra_alishan1888.txt"
+      },
+      {
+        "title": "The Life and Times of the Servant of God Abbot Mechitar (tr. John McQuillan)",
+        "author": "Minas Nurikhan",
+        "date": "1915",
+        "language": "English translation",
+        "file": "cic/texts/nurikhan_life-and-times-of-abbot-mechitar_mcquillan1915.txt"
+      }
+    ]
+  }
+}
