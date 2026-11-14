@@ -54,7 +54,7 @@ body{margin:0;background:var(--parchment);color:var(--iron-gall);
 .chip:hover,.chip:focus-visible,.chip[aria-expanded="true"]{border-color:var(--gold-leaf);color:var(--gold-leaf)}
 .chip[aria-pressed]{display:inline-flex;align-items:center;gap:.6rem;min-height:44px}
 .chip[aria-pressed]:focus-visible{outline:2px solid var(--madder);outline-offset:2px}
-.chip-panel{position:absolute;top:calc(100% + .35rem);left:0;z-index:25;min-width:15rem;max-width:min(22rem,calc(100vw - 1.6rem));
+.chip-panel{position:absolute;top:calc(100% + .35rem);left:0;z-index:27;min-width:15rem;max-width:min(22rem,calc(100vw - 1.6rem));
   max-height:60vh;overflow:auto;background:var(--vellum);border:1px solid var(--rule);border-radius:4px;
   padding:.5rem .6rem;font-size:.9rem;box-shadow:0 4px 14px rgba(0,0,0,.25)}
 #stage{position:absolute;inset:0;overflow:hidden;touch-action:none;cursor:grab}
@@ -113329,6 +113329,8 @@ function buildLegend(){
     closeAll(c);
     p.hidden=!open;
     c.setAttribute('aria-expanded',String(open));
+    p.style.marginLeft='';
+    if(open&&!narrowScreen()){const r=p.getBoundingClientRect(), over=r.right-(window.innerWidth-8);if(over>0)p.style.marginLeft=(-Math.min(over,r.left-8))+'px';}
   }));
   wrap.querySelectorAll('.chip-panel').forEach(p=>p.addEventListener('click',ev=>ev.stopPropagation()));
   document.addEventListener('click',()=>closeAll(null));
