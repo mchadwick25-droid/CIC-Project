@@ -152,7 +152,7 @@
   "brigid-of-kildare": {
     "claims": [
       {
-        "claim": "In the church at Kildare the bodies of Bishop Conleath and Brigid lie to right and left of the altar in tombs adorned with gold, silver, gems and precious stone, with gold and silver crowns hanging above; a painted wall hung with linen crosses the church; the bishop with his clergy enters the sanctuary by one door, the abbess with her girls and faithful widows by another; men enter by the right-hand door and women by the left",
+        "claim": "In her great church the bodies of Bishop Conleath and Brigid lie to right and left of the altar in tombs adorned with gold, silver, gems and precious stone, with gold and silver crowns hanging above; a painted wall hung with linen crosses the church; the bishop with his clergy enters the sanctuary by one door, the abbess with her girls and faithful widows by another; men enter by the right-hand door and women by the left",
         "witness": "Cogitosus, Vita S. Brigidae, in PL 72 (l.59384-59460)",
         "formation_confidence": "Documented"
       },
@@ -164,6 +164,16 @@
       {
         "claim": "Cogitosus wrote at the brothers' command, setting out a few things of many handed down by elders and the most learned",
         "witness": "Cogitosus, prologue (l.58492-58500)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Cogitosus wrote long after her death: he writes from what elders handed down and describes her tomb and her feast; Basnage holds him not her contemporary but later; White makes him Muirchu's father (late seventh century); Stokes's index dates him 800-835",
+        "witness": "Cogitosus, prologue and ch. on the church (PL 72 l.58492-58500, 59384-59403, 59484-59493); Basnage (l.58466-58472); White (l.3741-3750, 3768-3770); Stokes, Tripartite Life index (l.21226)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Basnage: the Life Cogitosus wrote 'tota miraculis scatet', teems with miracles",
+        "witness": "Notitia ex Basnagio, PL 72 (l.58446; OCR 'descripsittotamiraculis scatet')",
         "formation_confidence": "Documented"
       },
       {
@@ -197,7 +207,7 @@
         "formation_confidence": "Contested"
       },
       {
-        "claim": "Basnage: Cogitosus is much later than Brigid; he saw miracles at her tomb and describes painted images that smell of later centuries; he heard of her living virtues only from elders; placing him here follows others; Brigid said to be born 439, died 518 (Sigebert) or 521 (Martinus Polonus); she is to be distinguished from the fourteenth-century Brigitta",
+        "claim": "Basnage: Cogitosus is much later than Brigid; he saw miracles worked in her church and describes painted images that smell of later centuries; he heard of her living virtues only from elders; placing him here follows others; Brigid said to be born 439, died 518 (Sigebert) or 521 (Martinus Polonus); she is to be distinguished from the fourteenth-century Brigitta",
         "witness": "Notitia ex Basnagio, reprinted in PL 72 (l.58436-58480)",
         "formation_confidence": "Dominant Modern Reconstruction"
       },
@@ -225,12 +235,17 @@
         "claim": "The Book of Lismore was compiled in the latter half of the fifteenth century",
         "witness": "Stokes, introduction (l.218-219)",
         "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "The church is Kildare: Cogitosus sets her monastery on the plains of the Liffey; the name Kildare is White's ('St. Brigid of Kildare') and the Lismore Life's",
+        "witness": "Cogitosus (l.58512-58513); White (l.3748-3749); Lismore Life (l.18604)",
+        "formation_confidence": "Widely Accepted"
       }
     ],
     "contested_claims": [
       {
-        "claim": "When Cogitosus wrote",
-        "sides": "Migne prints the Life under 591 (l.58417-58434), a placing Basnage says follows others. Basnage (l.58436-58480): much later than Brigid, not her contemporary. White (l.3741-3750, 3768-3770): Cogitosus is Muirchu's father, Muirchu at Birr 695-697, on Graves's emendation."
+        "claim": "How long after her Cogitosus wrote",
+        "sides": "Migne prints the Life under 591 (l.58417-58434), a placing Basnage says follows others. Basnage (l.58436-58480): much later than Brigid, not her contemporary. White (l.3741-3750, 3768-3770): Cogitosus is Muirchu's father, Muirchu at Birr 695-697, on Graves's emendation. Stokes, index to the Tripartite Life (l.21226): 'A.D. 800-835'. All put the Life well after her death."
       },
       {
         "claim": "Her parents",
@@ -238,7 +253,7 @@
       },
       {
         "claim": "The year of her death",
-        "sides": "Annales Cambriae (l.2399-2400): the year of Columba's birth, the editor's 521. Nennius extracts (l.13495-13496): four years after Columba's birth. Basnage (l.58471-58473): 518 by Sigebert or 521 by Martinus Polonus. Canisius's note (l.59368-59370): Marianus Scotus, under Justin the Elder."
+        "sides": "Annales Cambriae (l.2399-2400): the year of Columcille's birth, the editor's 521. Nennius extracts (l.13495-13496): four years after Columba's birth. Basnage (l.58471-58473): 518 by Sigebert or 521 by Martinus Polonus. Canisius's note (l.59368-59370): Marianus Scotus, under Justin the Elder."
       }
     ],
     "absent_details": [
@@ -535,6 +550,11 @@
         "claim": "The manuscripts spell her Caesaria and Casaria; Krusch would prefer Casaria",
         "witness": "Krusch's apparatus to Life I,35 (krusch1896 l.37238-37239) and introduction note (l.34741)",
         "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Venantius Fortunatus more than once held up Casaria, Caesarius's pious sister, as an example to follow; Krusch's note on her name cites Fortunatus's poems and a Gregory of Tours manuscript",
+        "witness": "Krusch, introduction, MGH SRM 3 (l.35667-35668; note 8, l.34757-34758); Fortunatus not held",
+        "formation_confidence": "Dominant Modern Reconstruction"
       }
     ],
     "contested_claims": [
