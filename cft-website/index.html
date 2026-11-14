@@ -110870,20 +110870,20 @@ const DATA = {
 
 const FAM=[
  {k:0,  lore:"Origin", name:"Origin", common:"The first churches", col:"#e86155"},
- {k:1,  lore:"Syriac East", name:"Syriac East", common:"Church of the East and Syriac churches", col:"#95455c"},
- {k:1.5,lore:"Syriac/Prot. bridge", name:"Syriac and Protestant", common:"Reformed churches of India", col:"#ac9000"},
+ {k:1,  lore:"Syriac East", name:"Syriac East", common:"Church of the East and other Syriac churches", col:"#95455c"},
+ {k:1.5,lore:"Syriac/Prot. bridge", name:"Syriac and Protestant", common:"Mar Thoma and churches of northeast India", col:"#ac9000"},
  {k:2,  lore:"Caucasus", name:"Caucasus", common:"Armenian and Georgian", col:"#357339"},
  {k:3,  lore:"Greek East", name:"Greek East", common:"Orthodox", col:"#4255c4"},
- {k:3.4,lore:null, name:"Church and Empire", common:"The church of the Roman empire", col:"#de6e29"},
- {k:3.5,lore:null, name:"Greek and Latin", common:"Eastern Catholic", col:"#a27adf"},
- {k:4,  lore:"Africa", name:"Africa", common:"Coptic, Ethiopian and African churches", col:"#12a5b1"},
+ {k:3.4,lore:null, name:"Church and Empire", common:"The church of the Roman Empire", col:"#de6e29"},
+ {k:3.5,lore:null, name:"Greek and Latin", common:"", col:"#a27adf"},
+ {k:4,  lore:"Africa", name:"Africa", common:"Coptic, Ethiopian and other African churches", col:"#12a5b1"},
  {k:4.5,lore:"Africa/Latin bridge", name:"Africa and Latin", common:"Catholics in Africa", col:"#65a30d"},
  {k:5,  lore:"Latin West", name:"Latin West", common:"Catholic", col:"#8b5500"},
  {k:5.5,lore:"Latin/Prot. bridge", name:"Latin and Protestant", common:"", col:"#7d43a7"},
  {k:6,  lore:"Protestant & Evangelical", name:"Protestant & Evangelical", common:"", col:"#2c93ff"},
  {k:7,  lore:"Global Revival & Pentecostal", name:"Global Revival & Pentecostal", common:"", col:"#e257a4"},
  {k:50, lore:"Cross-Family", name:"Across families", common:"", col:"#798224"},
- {k:80, lore:"Non-Nicene", name:"Non-Nicene", common:"Outside the Nicene creed", col:"#6c72bc"}
+ {k:80, lore:"Non-Nicene", name:"Non-Nicene", common:"Outside the Nicene Creed", col:"#6c72bc"}
 ];
 function famOf(laneOrder){let best=FAM[0],bd=1e9;FAM.forEach(f=>{const d=Math.abs(f.k-laneOrder);if(d<bd){bd=d;best=f;}});return best;}
 const famColor=f=>f.col;
@@ -111535,16 +111535,16 @@ const PORTRAIT_DATA={
 };
 
 const WORLD_CONTEXT={
-  1:"This band starts where the map does: the Jerusalem Temple falls in 70 CE, running to Constantine's Edict of Milan in 313 — the year the persecution these movements describe finally ends. For the Persian church east of Rome, that divide ran backwards: persecution only intensified after 312.",
-  2:"The era historians call the 'imperial church' — Christianity moves from persecuted minority to the empire's own religion, and the creeds that define it (Nicaea, then Chalcedon just after this band) get settled because an emperor now has a stake in the outcome.",
-  3:"The parting of the communions: Chalcedonian, miaphysite, and East Syriac Christianity become distinct, self-aware families here, while the Latin West enters the post-Roman kingdoms and monasticism becomes its formative engine everywhere. For scale: Rome itself falls to invasion in 476, partway through.",
-  4:"Christianity becomes a minority faith across its old heartlands under the rise of Islam, converts new northern peoples, fights an internal war over religious images, and sends its longest missions east along the Silk Road.",
-  5:"The Latin West's great creative explosion — new religious orders, new lay movements, and women's religious life at a scale not seen before — while Byzantium consolidates and the Christian East endures new pressures.",
-  6:"Plague, papal schism, and institutional crisis, met by the most interior, vernacular, lay-accessible devotional writing Christianity had yet produced. For scale: the Black Death sweeps Europe (1347–51) during this band.",
-  7:"The Western church remade, several ways at once: this band holds the Reformation's many, often-rival movements side by side, each with its own direct descendants still living today.",
-  8:"Established churches settle into place; renewal moves into small groups, personal religious experience, and transatlantic revival. This is the era first-person spiritual autobiography becomes a mass genre.",
-  9:"Christianity globalizes under empire's shadow and against it. The era's honest theme is entanglement: mission and colonialism, revival and respectability, liberation and paternalism, held together rather than resolved.",
-  10:"Christianity's center of gravity moves south and east, and the Pentecostal/Spirit-movement family becomes the largest new Christian reality since the Reformation. For scale: World War I (1914–18) breaks out early in this band."
+  1:"This era starts where the map does, with the fall of the Jerusalem Temple in 70 CE. It runs to Constantine's Edict of Milan in 313, which gave Christians, and all others, freedom to follow the religion they chose. The Persian church east of Rome had the opposite experience. Persecution there grew worse after 312.",
+  2:"Historians call this the era of the 'imperial church'. Christianity moves from a persecuted minority to the empire's own religion. Its defining creeds, from Nicaea to Chalcedon, are settled because an emperor now has a stake in the outcome.",
+  3:"In this era the churches part into separate communions. Chalcedonian, miaphysite and East Syriac Christianity become distinct families, each with a sense of its own identity. The Latin West enters the post-Roman kingdoms. Monasticism becomes the force that shapes it everywhere.",
+  4:"Christianity becomes a minority faith across its old heartlands as Islam rises. It converts new peoples in the north and fights an internal war over religious images. It sends its longest missions east along the Silk Road.",
+  5:"In the Latin West, new religious orders and new lay movements appear. Women's religious life grows to a scale not seen before. Byzantium consolidates, and the Christian East comes under new pressures.",
+  6:"Plague, papal schism and institutional crisis mark this era. They are met by devotional writing more inward than any before it, and more often in everyday languages for lay people to read. The Black Death sweeps Europe from 1347 to 1351.",
+  7:"The Western church is remade, several ways at once. This era holds the Reformation's many movements, often rivals, side by side. Most have direct descendants still living today.",
+  8:"Established churches settle into place. Renewal moves into small groups, personal religious experience and revivals on both sides of the Atlantic. In this era, the spiritual life story told in the first person becomes a mass genre.",
+  9:"Christianity spreads around the world, both under empire and against it. Mission is tangled with colonialism, revival with respectability, and liberation with paternalism. None of these pairs is resolved in this era.",
+  10:"Christianity's center of gravity moves south and east. The Pentecostal and Spirit-movement family becomes the largest new form of Christianity since the Reformation. World War I (1914–18) breaks out early in this era."
 };
 const ERA_CLOSE={
   10:"The tree's history runs to 2010. Movements since then will be added as they become history."
@@ -113247,17 +113247,17 @@ function buildLegend(){
   const fig='<circle cx="0" cy="-2" r="2.1"/><path d="M-3.6,3.6 C-3.6,0.9 -1.9,0.2 0,0.2 C1.9,0.2 3.6,0.9 3.6,3.6 Z"/>';
   const house=c=>`<path d="M0,-5.4 L5.6,-.5 L4.1,-.5 L4.1,5 L-4.1,5 L-4.1,-.5 L-5.6,-.5 Z" fill="${c}"/><path d="M-1.2,5 V1.4 H1.2 V5 Z" fill="var(--vellum)"/>`;
   const keyRows=[
-    [sv('<path d="M-3,-7 C1,-3 -5,1 -1,7" fill="none" stroke="#cf8a3a" stroke-width="4" stroke-linecap="round"/>'),'A river','A family of churches. It is wider where more traditions were active.'],
-    [sv(house('var(--iron-gall)')),'A tradition','Tap its name to open its card.'],
+    [sv('<path d="M-3,-7 C1,-3 -5,1 -1,7" fill="none" stroke="#cf8a3a" stroke-width="4" stroke-linecap="round"/>'),'A river','A family of churches, or a group the map keeps together. It is wider where more traditions were active.'],
+    [sv(house('var(--iron-gall)')),'A tradition',`${coarsePointer?'Tap':'Click'} its name to open its card.`],
     [sv(house('var(--gold-leaf)')),'A tradition with a Representative','Conversations with its Representative are coming soon.'],
     [sv('<circle r="2.2" fill="var(--graphite)"/>'),'A tradition, zoomed out','Zoom in and its name appears.'],
-    [sv(`<g fill="var(--iron-gall)">${fig}</g>`),'People of a tradition','Tap to see who they were.'],
-    [sv(`<rect x="-12" y="-6" width="24" height="12" rx="6" fill="none" stroke="#cf8a3a" stroke-width="1.2"/><g fill="var(--iron-gall)" transform="translate(-5 0) scale(.8)">${fig}</g><text x="1" y="3.2" font-size="8" font-weight="700" fill="var(--iron-gall)" font-family="Alegreya Sans,sans-serif">26</text>`,'-13 -7 26 14'),'People of a river','Everyone on that river in that era, with the count.'],
+    [sv(`<g fill="var(--iron-gall)">${fig}</g>`),'People of a tradition',`${coarsePointer?'Tap':'Click'} to see who they were.`],
+    [sv(`<rect x="-12" y="-6" width="24" height="12" rx="6" fill="none" stroke="#cf8a3a" stroke-width="1.2"/><g fill="var(--iron-gall)" transform="translate(-5 0) scale(.8)">${fig}</g><text x="1" y="3.2" font-size="8" font-weight="700" fill="var(--iron-gall)" font-family="Alegreya Sans,sans-serif">26</text>`,'-13 -7 26 14'),'People of a river','Everyone the map names on that river in that era, with the count.'],
     [sv('<path d="M0,-4.2 C-2.6,-5.4 -5.2,-5.1 -6.8,-4.6 V3.8 C-5.2,3.3 -2.6,3.6 0,4.8 C2.6,3.6 5.2,3.3 6.8,3.8 V-4.6 C5.2,-5.1 2.6,-5.4 0,-4.2 Z M0,-4.2 V4.8" fill="var(--tyrian)" stroke="var(--vellum)" stroke-width=".4"/>','-8 -7 16 14'),'A story','Something that happened, told from the sources.'],
     [sv('<circle r="5.6" fill="none" stroke="var(--iron-gall)" stroke-width="1.3"/><circle cy="-2.4" r="1.1" fill="var(--iron-gall)"/><circle cx="-2.2" cy="1.7" r="1.1" fill="var(--iron-gall)"/><circle cx="2.2" cy="1.7" r="1.1" fill="var(--iron-gall)"/>'),'A major council','A meeting that touched more than one tradition.'],
     [sv('<circle r="5.6" fill="none" stroke="var(--gold-leaf)" stroke-width="1.3"/><path d="M0,-.6 V3.2" stroke="var(--gold-leaf)" stroke-width="1.5" stroke-linecap="round"/><circle cy="-2.9" r=".9" fill="var(--gold-leaf)"/>'),'About an era','Opens a note on that era.'],
-    [sv('<path d="M-6,3 C-2,-5 2,5 6,-3" fill="none" stroke="var(--link-grow)" stroke-width="1.6"/><circle cx="-6" cy="3" r="1.7" fill="var(--link-grow)"/><circle cx="6" cy="-3" r="1.7" fill="var(--link-grow)"/>'),'A connection','A line between two traditions. Turn the lines on under Connections.'],
-    [sv('<path d="M0,-7 V7" stroke="#cf8a3a" stroke-width="1.6" stroke-dasharray="2.5 3"/>'),'A dashed river','Years with nothing on record.']
+    [sv('<path d="M-6,3 C-2,-5 2,5 6,-3" fill="none" stroke="var(--link-grow)" stroke-width="1.6"/><circle cx="-6" cy="3" r="1.7" fill="var(--link-grow)"/><circle cx="6" cy="-3" r="1.7" fill="var(--link-grow)"/>'),'A connection','A line between two traditions. To see a tradition\'s lines, open its card and choose Connections.'],
+    [sv('<path d="M0,-7 V7" stroke="#cf8a3a" stroke-width="1.6" stroke-dasharray="2.5 3"/>'),'A dashed river','Years when the map has no tradition on that river.']
   ];
   let key=`<dl class="key-list">${keyRows.map(r=>`<div class="key-row">${r[0]}<div><dt>${r[1]}</dt><dd>${r[2]}</dd></div></div>`).join('')}</dl>`;
   key+=`<p class="note">Zoom in to see more: first the major traditions, then every tradition and story, then places and people.</p><p class="note">Places are given with the country they lie in today.</p>`;
