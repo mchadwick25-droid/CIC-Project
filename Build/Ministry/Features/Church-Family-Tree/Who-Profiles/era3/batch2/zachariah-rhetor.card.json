@@ -1,0 +1,72 @@
+{
+  "name": "Zachariah Rhetor",
+  "otherNames": [
+    "Zachariah the Rhetorician",
+    "Zachariah Scholasticus",
+    "Zacharie le Scholastique",
+    "Zachariah of Mitylene"
+  ],
+  "knownFor": "Lawyer from the port of Gaza who wrote a Life of his fellow student Severus of Antioch and a Greek church history that a later Syriac chronicle used for four of its books.",
+  "dates": "Studied at Alexandria and Berytus in the emperor Zeno's reign and wrote his church history, which ends in 491, before his Life of Severus, by E. W. Brooks's account. Brooks takes him for the Zachariah of Mitylene at the synod of 536. No source used here gives his birth or death",
+  "place": "The port of Gaza; Alexandria and Berytus as a student; Constantinople as an advocate; by Brooks's identification, Mitylene as bishop",
+  "tradition": "Syriac Orthodox (West Syriac) Christianity",
+  "role": "Historian and biographer; advocate, and by Brooks's identification bishop of Mitylene",
+  "briefLength": "about 2 minutes",
+  "keyWorks": [
+    {
+      "title": "Life of Severus",
+      "about": "the student years of Severus of Antioch at Alexandria and Berytus, written to answer a pamphlet against him; written in Greek and kept in Syriac"
+    },
+    {
+      "title": "Ecclesiastical History",
+      "about": "a church history in Greek, written for Eupraxius of the imperial palace and ending in 491, by Brooks's account; books three to six of the Syriac chronicle known as that of Zachariah of Mitylene are drawn from it"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Books three to six of the Syriac chronicle known as that of Zachariah of Mitylene follow his history, Brooks says, and Evagrius of Epiphania cites a Zachariah the Rhetor whose citations agree closely with that text.",
+      "His Life of Severus is the main source for Severus's early life, as Brooks's introduction to Severus's letters says."
+    ],
+    "remembered": [
+      "Brooks says later writers wrongly gave the name of Zachariah to the compiler of the whole chronicle.",
+      "Brooks judges the Life's answer to the charge that Severus followed pagan rites \"a very lame one\"."
+    ]
+  },
+  "uncertain": [
+    "That the author of the Life and the history became bishop of Mitylene is Brooks's identification. It rests on the Greek heading of a dialogue by \"Zachariah Scholasticus\", later bishop of Mitylene, whose preface says he studied at Alexandria.",
+    "Brooks places a Zachariah of Mitylene at the synod of 536, and notes that his name is not among the signatures to its decree.",
+    "Brooks suggests, with a \"perhaps\", that he accepted Chalcedon when he became bishop. No held line of Zachariah's own says so.",
+    "How much of the chronicle is his: Brooks says the compiler followed him in books three to six only; the scholar Land, as Brooks reports, gives him book seven as well.",
+    "Zachariah says in the Life of Severus that he also wrote a Life of Peter the Iberian. Brooks says the Life of Peter that survives is not his. A Syriac manuscript ascribes to him a Life of Isaiah the monk."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Vie de Sévère (ed. and tr. M.-A. Kugener)",
+        "language": "French translation",
+        "file": "cic/texts/zacharias-scholasticus_vie-de-severe-po2-syr-fra_kugener1903.txt"
+      },
+      {
+        "title": "The Syriac Chronicle known as that of Zachariah of Mitylene, Books III to VI (tr. F. J. Hamilton and E. W. Brooks)",
+        "language": "English translation",
+        "file": "cic/texts/zachariah-rhetor_chronicle_hamiltonbrooks1899.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Introduction to the Syriac Chronicle known as that of Zachariah of Mitylene",
+        "author": "E. W. Brooks",
+        "date": null,
+        "language": "English",
+        "file": "cic/texts/zachariah-rhetor_chronicle_hamiltonbrooks1899.txt"
+      },
+      {
+        "title": "Introduction to the Select Letters of Severus",
+        "author": "E. W. Brooks",
+        "date": null,
+        "language": "English",
+        "file": "cic/texts/severus-of-antioch_select-letters-book6-part1_brooks1903.txt"
+      }
+    ]
+  }
+}

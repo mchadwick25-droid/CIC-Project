@@ -1,0 +1,83 @@
+{
+  "name": "Ferrandus of Carthage",
+  "otherNames": [
+    "Fulgentius Ferrandus"
+  ],
+  "knownFor": "Deacon of Carthage whom two Roman deacons consulted on condemning the dead in the Three Chapters dispute, and who answered that what councils had decided should not be reopened.",
+  "dates": "Sixth century. Victor of Tunnuna says he was held in high regard in the year Theodor Mommsen, his editor, gives as 546; Gallandi takes him to be dead by 547, when Facundus of Hermiane wrote. Gallandi reports Pagi and Natalis Alexander giving 548 without witnesses",
+  "place": "Carthage; by the Life of Fulgentius, if it is his, Sardinia",
+  "tradition": "Latin African Christianity under Byzantium",
+  "role": "Deacon of the church of Carthage; theologian and compiler of church law",
+  "briefLength": "about 2 minutes",
+  "keyWorks": [
+    {
+      "title": "Letter to Pelagius and Anatolius",
+      "about": "to two deacons of Rome, for the letter of Ibas of Edessa and so for the Three Chapters; it holds that what holy bishops decide in council must be followed and not reopened, and that the dead should be left to God's judgment"
+    },
+    {
+      "title": "Breviatio canonum",
+      "about": "a short digest of church laws, each rule with the council it comes from; Gallandi says the year it was made is unknown"
+    },
+    {
+      "title": "Letter to Count Reginus",
+      "about": "on how a religious commander should act in war, set out as seven rules of innocence"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "His letter to Pelagius and Anatolius was quoted in a short anonymous book on church writers printed with Isidore of Seville's; Gallandi says the quotation there is cut and corrupt, and gives it from the letter.",
+      "Other letters go to Eugippius, a priest, to Severus, a scholar at Constantinople, and to Anatolius on the two natures of Christ."
+    ],
+    "remembered": [
+      "Facundus of Hermiane, writing to the emperor Justinian, calls him a man of praiseworthy memory in Christ.",
+      "Victor of Tunnuna's chronicle gives him one line: Ferrandus, deacon of the church of Carthage, was held in high regard."
+    ]
+  },
+  "uncertain": [
+    "Whether he wrote the Life of Fulgentius of Ruspe is disputed. Chifflet, his editor of 1649, gave it to him, and Gallandi reports Pithou, Miraeus, Christianus Lupus and Natalis Alexander on the same side. A note in Migne's edition of Fulgentius says others doubt it, since the Life's author seems never to have left Fulgentius's side. Gallandi reports Noris, Pagi, Mangeant and Fontanini against it, argues that Noris later changed his mind, and prints the Life after Ferrandus's own works.",
+    "The story of his years as a monk with Fulgentius in Sardinia, and of his return to Africa when King Hilderic recalled the bishops, comes from Noris as Gallandi quotes him. Gallandi says Noris could have had the Sardinian years only from the Life of Fulgentius.",
+    "Chifflet thought he was a kinsman of Fulgentius, from his first name, Fulgentius, and from the way he speaks of the bishop's noble family. It is a guess.",
+    "Chifflet, as Gallandi quotes him, did not know whether he died in exile or at home, worn down by grief in the Three Chapters storm.",
+    "The year 546 is Theodor Mommsen's for Victor of Tunnuna's entry; Victor dates it by the years after the consulship of Basilius."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Epistolae et opuscula; Breviatio canonum",
+        "language": "Latin",
+        "file": "cic/texts/facundus-ferrandus-caesarius-dionysius-pl67-lat_migne1865.txt"
+      },
+      {
+        "title": "Letters to Fulgentius, among the works of Fulgentius of Ruspe",
+        "language": "Latin",
+        "file": "cic/texts/fulgentius-ruspe_opera-contra-arianos-pl65-lat_migne1847.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Pro defensione trium capitulorum",
+        "author": "Facundus of Hermiane",
+        "language": "Latin",
+        "file": "cic/texts/facundus-ferrandus-caesarius-dionysius-pl67-lat_migne1865.txt"
+      },
+      {
+        "title": "Notitia on Ferrandus",
+        "author": "Gallandi, as printed by Migne",
+        "language": "Latin",
+        "file": "cic/texts/facundus-ferrandus-caesarius-dionysius-pl67-lat_migne1865.txt"
+      },
+      {
+        "title": "Chronicle",
+        "author": "Victor of Tunnuna (ed. Theodor Mommsen)",
+        "language": "Latin",
+        "file": "cic/texts/chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894.txt"
+      },
+      {
+        "title": "Life of Fulgentius, and its editor's note",
+        "author": "Anonymous, given by some to Ferrandus",
+        "language": "Latin",
+        "file": "cic/texts/fulgentius-ruspe_opera-contra-arianos-pl65-lat_migne1847.txt"
+      }
+    ]
+  }
+}
