@@ -2,8 +2,8 @@
  "symeon-the-new-theologian": {
   "claims": [
    {
-    "claim": "Ordination: \"sacerdos ordinatur a. Nicolao Chryso- berge patriarcha : Spiritus sancti, immensi luminis. specie, descensus in caput ordinati: visio cidem familiaris inter rem sacram per annos quadra- ginta octo sui sacerdotii\" (OCR); Combefis summarizing Niketas's Life",
-    "witness": "PG152 (calecas_opera-omnia-pg152-grc-lat_migne1866.txt) l.19615-19628",
+    "claim": "Ordination: \"sacerdos ordinatur a. Nicolao Chryso- berge patriarcha : Spiritus sancti, immensi luminis. specie, descensus in caput ordinati: visio cidem familiaris inter rem sacram per annos quadra- ginta octo sui sacerdotii\" (OCR); Combefis summarizing Niketas's Life; the Life's Greek extract: \"ὡς περὶ ἄλλου τινὸς ἔλεγεν ἑαυτὸν ὑποχρύδων\" (OCR)",
+    "witness": "PG152 (calecas_opera-omnia-pg152-grc-lat_migne1866.txt) l.19615-19632",
     "formation_confidence": "Documented"
    },
    {
@@ -32,7 +32,7 @@
     "formation_confidence": "Documented"
    },
    {
-    "claim": "Synods: \"Ὃ \\\"ATIOZ; abolita\" (OCR, the word saint removed); \"decreta synodice exsilii poena. Deportatus ad Clhrysopolim\"; recalled, \"oblati honores, metropolitica sedes\"; \"facta licentia colendi Patrem ut libuerit\" (OCR)",
+    "claim": "Synods: \"Ὃ \\\"ATIOZ; abolita\" (OCR, \"oblini vox\", the word saint smeared over); \"decreta synodice exsilii poena. Deportatus ad Clhrysopolim\"; recalled, \"oblati honores, metropolitica sedes\"; \"facta licentia colendi Patrem ut libuerit\" (OCR)",
     "witness": "PG152 (calecas_opera-omnia-pg152-grc-lat_migne1866.txt) l.20267-20288",
     "formation_confidence": "Documented"
    },
@@ -54,11 +54,6 @@
    {
     "claim": "Gregory of Sinai: \"τὰ τοῦ Νέου Θεολό- γου, τὰ τοῦ μαθητοῦ αὐτοῦ Στηθάτου\"",
     "witness": "PHIL2 (philokalia_ton-ieron-neptikon-v2-grc_tzelatis1893.txt) l.37789-37800",
-    "formation_confidence": "Documented"
-   },
-   {
-    "claim": "Symeon on those who mock: \"Τίς δὲ Θεὸν εἶδεν\" ... \"πολλοὶ μὲν εἶδον xal πρό- τερον * πλείους δὲ, οἶμαι, ὁρῶσι xal νῦν\" (OCR), from a discourse quoted by Combefis; told in modern words",
-    "witness": "PG152 (calecas_opera-omnia-pg152-grc-lat_migne1866.txt) l.20348-20379",
     "formation_confidence": "Documented"
    },
    {
@@ -85,6 +80,36 @@
     "claim": "Migne's index: \"SYMEON JUNIOR THEOLOGUS. Orationes 1-33\"; \"Divinorum amorum liber\"; \"Capitula practica et theologica\"",
     "witness": "PG161 (bessarion_opera-omnia-pg161-grc-lat_migne1866.txt) l.122944-122948",
     "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Symeon's own telling, printed in the Philokalia: \"Ἔλεγε δὲ καὶ τοῦτο, ὡς περί τινος ἄλ-- λου, ἑαυτὸν ὑποχρύδων\" ... \"τὴν εὐχὴν ποῦ ᾿ἱερέως ὁ Μητροπολίτης ἔλεγε\" ... \"ἁπλοῦν μὲν хай ἀνείδεον. πλὴν ὡς φῶς\" (OCR); told in modern words",
+    "witness": "PHIL2 (philokalia_ton-ieron-neptikon-v2-grc_tzelatis1893.txt) l.23054-23085",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Combefis: Symeon \"videatur vixisse\" through Eustathius's time and reached Alexius's",
+    "witness": "PG152 (calecas_opera-omnia-pg152-grc-lat_migne1866.txt) l.20233-20237",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Clarke: \"He was tried for heresy on other counts\"",
+    "witness": "CLARKE (basil_ascetic-works-longer-shorter-rules_clarke1925.txt) l.4250-4256",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Paisius gives him the discourse on the three modes of prayer: \"сей въ словѣ своемъ еже о тріехъ образахъ молитвы\"",
+    "witness": "PAISIUS (paisius-velichkovsky_zhitie-i-pisaniia-chu_optina1847.txt) l.9103-9104",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Combefis's note 16: \"Syimeonem motat ejusque discipulos\" (OCR)",
+    "witness": "PG152 (calecas_opera-omnia-pg152-grc-lat_migne1866.txt) l.29300-29320",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "The close: \"ἐκ δὲ τῶν προαιρουμένων τὸν σταυρὸν ἆραι\" ... \"πολλοὶ μὲν εἶδον xal πρό- τερον * πλείους δὲ, οἶμαι, ὁρῶσι xal νῦν\" (normalized and OCR); told in modern words",
+    "witness": "PG152 (calecas_opera-omnia-pg152-grc-lat_migne1866.txt) l.20368-20378",
+    "formation_confidence": "Documented"
    }
   ],
   "contested_claims": [
@@ -99,7 +124,8 @@
     "claim": "Why he was exiled",
     "sides": [
      "Niketas: Stephen's envy (PG152 l.20122-20123); Sergius: not for doctrine but for persisting in the feast (PG152 l.20431-20462)",
-     "Combefis: a learned man could suspect two unlettered men who spoke as if inspired (PG152 l.20222-20228)"
+     "Combefis: a learned man could suspect two unlettered men who spoke as if inspired (PG152 l.20222-20228)",
+     "W. K. Lowther Clarke: tried for heresy on other counts (CLARKE l.4250-4256)"
     ]
    },
    {
@@ -107,6 +133,13 @@
     "sides": [
      "The Philokalia: Symeon (PHIL2 l.70536)",
      "Combefis: doubts it (PG152 l.21029-21046, 21158, 21224-21230)"
+    ]
+   },
+   {
+    "claim": "Who ordained him priest",
+    "sides": [
+     "Niketas's Life in Combefis's summary: the patriarch Nicholas Chrysoberges (PG152 l.19611-19616)",
+     "Symeon's own telling, as another monk's: a metropolitan said the prayer (PHIL2 l.23068-23072)"
     ]
    }
   ],
@@ -121,14 +154,14 @@
    },
    {
     "detail": "The Discourses and Hymns in full",
-    "note": "Not held; known through Combefis's extracts and Migne's index."
+    "note": "Not held in full; known through Combefis's extracts, Nil Sorsky's Slavonic quotation (NIL l.3139-3146), the Philokalia's simpler-Greek pieces and Migne's index."
    }
   ]
  },
  "niketas-stethatos": {
   "claims": [
    {
-    "claim": "Recantation: \"ipso die nativi- tatis beati Ioannis Baptistae\" in the twelfth year of Constantine Monomachos; at Studios \"ante praesentiam praefati imperatoris et pro- eerum ejus insistentibus ipsis nuntiis Ro- manis anathematizavit quoddam scriptum sub suo nomine\" ... \"jussit idem ortho- doxus imperator praefatum incendi scriptum\" (OCR); Will dates it 1054",
+    "claim": "Recantation: \"ipso die nativi- tatis beati Ioannis Baptistae\" in the twelfth year of Constantine Monomachos; at Studios \"ante praesentiam praefati imperatoris et pro- eerum ejus insistentibus ipsis nuntiis Ro- manis anathematizavit quoddam scriptum sub suo nomine\" ... \"jussit idem ortho- doxus imperator praefatum incendi scriptum\" (OCR); Will dates it 1054 and notes copies reading \"undecimo\"",
     "witness": "WILL (will_acta-et-scripta-de-controversiis-ecclesiae-graecae-et-latinae-saec-xi-grc-lat_1861.txt) l.14776-14834",
     "formation_confidence": "Documented"
    },
@@ -178,9 +211,9 @@
     "formation_confidence": "Contested"
    },
    {
-    "claim": "Le Quien: \"Hoc etiam tempore Pectoratus sermonem contra Latinos edidit de processione Spiritus san- cti\" ... \"post discessum Humberti aliorumque legatorum\" (OCR)",
+    "claim": "Le Quien: \"Hoc etiam tempore Pectoratus sermonem contra Latinos edidit de processione Spiritus san- cti\" ... \"post discessum Humberti aliorumque legatorum\" (OCR); the dating is Le Quien's inference, \"Putaverim ego\"",
     "witness": "PG94 (john-damascus_opera-omnia-t1-with-vita-pg94-grc-lat_migne1860.txt) l.13686-13708",
-    "formation_confidence": "Contested"
+    "formation_confidence": "Inferential-Thin"
    },
    {
     "claim": "A Latin writer: \"Cur Leonem Acri- danum episcopum et Nicetam abbatem de Studio de diptychis sacris non deletis?\"",
@@ -198,7 +231,7 @@
     "formation_confidence": "Documented"
    },
    {
-    "claim": "Paisius: only twenty-two chapters in Slavonic; translated the three hundred",
+    "claim": "A monk on Athos: only twenty-two chapters in Greek in his house; older Slavonic held parts; Paisius translated the three hundred",
     "witness": "PAISIUS (paisius-velichkovsky_zhitie-i-pisaniia-chu_optina1847.txt) l.10217-10218, 10487-10494",
     "formation_confidence": "Documented"
    },
@@ -216,13 +249,33 @@
     "claim": "Le Quien: among the \"schismatis auctores\" with Cerularius",
     "witness": "PG94 (john-damascus_opera-omnia-t1-with-vita-pg94-grc-lat_migne1860.txt) l.15495-15497",
     "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Second anathema: \"iterum sponte anathematizavit omnia dicta et facta veltentata adversus primam et *apostolicam sedem\" (OCR)",
+    "witness": "WILL (will_acta-et-scripta-de-controversiis-ecclesiae-graecae-et-latinae-saec-xi-grc-lat_1861.txt) l.14805-14807",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Martène: \"quod totis viribus tueri conatus est Nicetas Pectoratus, hoc est ab anno circiter 1050 ad 1100\"",
+    "witness": "WILL (will_acta-et-scripta-de-controversiis-ecclesiae-graecae-et-latinae-saec-xi-grc-lat_1861.txt) l.24280-24306",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Isaiah 65:20: \"the sinner being one hundred years old will be accursed\"",
+    "witness": "WEB (webbe_world-english-bible-british-edition.xml) l.45163",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Will: the book \"Verisimillimum est\" written after the envoys arrived",
+    "witness": "WILL (will_acta-et-scripta-de-controversiis-ecclesiae-graecae-et-latinae-saec-xi-grc-lat_1861.txt) l.12261",
+    "formation_confidence": "Dominant Modern Reconstruction"
    }
   ],
   "contested_claims": [
    {
     "claim": "Whether the book was his own conviction",
     "sides": [
-     "Will and Combefis: Cerularius stood behind it (WILL l.4340-4344; PG152 l.19555-19558)",
+     "Will: Cerularius had him write it, as it seems (WILL l.4340-4344, 12261-12263); Combefis: he took Cerularius's side (PG152 l.19554-19558)",
      "The book carries his own name, as the envoys' record says (WILL l.14809-14812)"
     ]
    },
@@ -230,7 +283,7 @@
     "claim": "Whether his recantation lasted",
     "sides": [
      "The envoys' record: he became their close friend (WILL l.14803-14812)",
-     "Le Quien: he wrote against the Latins after they left; a Latin writer: the Greeks kept him in the diptychs (PG94 l.13686-13708; WILL l.24527-24531)"
+     "Le Quien: he wrote against the Latins after they left; a Latin writer: the Greeks kept him in the diptychs (PG94 l.13686-13708; WILL l.24527-24531); Martène: he strove to defend the schism (WILL l.24280-24306)"
     ]
    }
   ],
@@ -348,7 +401,7 @@
    {
     "claim": "The year of Cedd's death",
     "sides": [
-     "Plummer 664, after Whitby (PLUMMER l.20986-20987)",
+     "Plummer 664, after Whitby (PLUMMER l.20986-20987); the Bollandists 664 (AASS-M3 l.32745-32746)",
      "Giles's heading 659 (GILES l.7587-7588)"
     ]
    },

@@ -45,5 +45,5 @@ Cedd and Chad read "Anglo-Saxon Christianity", and Paulus Emeritanus "Nicene Vis
 |---|---|
 | `<id>.brief.txt` | The brief as text, with no audio tags. Paragraphs are separated by a blank line. |
 | `<id>.card.json` | The card. Its fields are `name`, `otherNames`, `knownFor`, `dates`, `place`, `tradition`, `role`, `briefLength`, `keyWorks` (title, about), `legacy` (`traces`, `remembered`), `uncertain`, and `sources` (`ownWords`, `about`; each entry gives a title, an author where one applies, a date, a language and its file under `cic/texts/`). A field with no content is left out. |
-| `audio/<id>.audio.txt` | The text sent to the voice: the brief with `[calmly]` at the start and `[warmly]` before the closing line. |
+| `audio/<id>.audio.txt` | The text sent to the voice: the brief with `[calmly]` at the start and `[warmly]` at the start of the last paragraph. |
 | `records.json` | For each id, `claims` (claim, witness, `formation_confidence`), `contested_claims` (claim, sides), and `absent_details` (detail, note) for the honest limits. |

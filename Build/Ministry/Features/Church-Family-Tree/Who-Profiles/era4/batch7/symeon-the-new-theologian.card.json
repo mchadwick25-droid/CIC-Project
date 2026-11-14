@@ -17,7 +17,7 @@
     },
     {
       "title": "Discourses and hymns",
-      "about": "sermons to his monks and hymns, among them hymns for his teacher Symeon the Pious. J.-P. Migne's index lists thirty-three orations and a book of divine loves in Patrologia Graeca 120. Only François Combefis's extracts are held"
+      "about": "sermons to his monks and hymns, among them hymns for his teacher Symeon the Pious. J.-P. Migne's index lists thirty-three orations and a book of divine loves in Patrologia Graeca 120, which is not held. François Combefis prints extracts in Greek, Nil Sorsky quotes him in Slavonic, and the Philokalia retells some of his teaching in simpler Greek"
     },
     {
       "title": "On the three methods of prayer",
@@ -33,18 +33,19 @@
     ],
     "remembered": [
       "Niketas says grace made Symeon's tongue the pen of a swift scribe and his mind a spring of God's wisdom, though he had no worldly learning.",
-      "Michel Le Quien calls him the parent of the Palamite error. Combefis writes that he is wrongly counted a source of the Palamites, who twisted his words.",
-      "Combefis says he advised the Bollandists not to print the Life, because it was suspected of feeding the Palamite error."
+      "Michel Le Quien calls him the parent of the Palamite error. Combefis writes that he is wrongly counted a source of the Palamites, who twisted his words. In a note, Combefis reads the deluded monks that Manuel Calecas attacks as Symeon and his disciples.",
+      "Combefis says he advised the Jesuits Henschen and Papebroch, the Bollandists, not to print the Life in their volumes for March, because it was suspected of feeding the Palamite error."
     ]
   },
   "uncertain": [
-    "The account of his life comes from his disciple Niketas Stethatos, known through François Combefis's summary and extracts. Combefis adds his own judgments, which are kept apart here.",
-    "His years. The Philokalia gives about the year 1000. No held source gives his birth, the year of his exile, or his death.",
-    "Why he was condemned. Niketas blames the envy of Stephen, Sergius's aide. Sergius, in the words Niketas reports, says Symeon did not err in the church's teaching but would not stop keeping the feast. Combefis thinks a learned man could fairly suspect two unlettered men who spoke of God as if by inspiration.",
+    "The account of his life comes from his disciple Niketas Stethatos, known through François Combefis's summary and extracts. Combefis adds judgments of his own.",
+    "Who ordained him priest. Niketas's Life, in Combefis's summary, names the patriarch Nicholas Chrysoberges. Symeon's own telling in the Philokalia, given as another monk's story, has a metropolitan say the prayer.",
+    "His years. The Philokalia gives about the year 1000. No held source gives his birth, the year of his exile, or his death. Combefis reckons from the Life that he lived on into the time of the patriarch Alexius, once a monk of Studios.",
+    "Why he was condemned. Niketas blames the envy of Stephen, Sergius's aide. Sergius, in the words Niketas reports, says Symeon did not err in the church's teaching but would not stop keeping the feast. Combefis thinks a learned man could well suspect two unlettered men who spoke of God as if by inspiration. W. K. Lowther Clarke, writing in 1925, says he was tried for heresy.",
     "Whether his visions leaned toward the Messalians, a sect that claimed to see God. Combefis grants they seem to, and argues that Symeon saw a sign of the Spirit, not God's essence.",
-    "On the three methods of prayer. The Philokalia prints it as his. Combefis could not find it in the Mazarin manuscript and doubts he wrote it.",
+    "On the three methods of prayer. The Philokalia prints it as his, and Paisius Velichkovsky quotes it as his. Combefis could not find it in the Mazarin manuscript and doubts he wrote it.",
     "His monastery's district. Combefis writes Xerocercus, and Le Quien Xyloxerus.",
-    "The number of his chapters. The Philokalia's contents give 155, and the numbering in the held print reaches 152."
+    "The number of his chapters. The Philokalia's contents give 155. The last numbers in the held print are hard to read and run to 152 or 153."
   ],
   "sources": {
     "ownWords": [
@@ -91,6 +92,13 @@
         "date": "1912",
         "language": "Church Slavonic",
         "file": "cic/texts/nil-sorsky_predanie-i-ustav-chu_borovkova-maikova1912.txt"
+      },
+      {
+        "title": "The Ascetic Works of Saint Basil, introduction and notes",
+        "author": "W. K. Lowther Clarke",
+        "date": "1925",
+        "language": "English",
+        "file": "cic/texts/basil_ascetic-works-longer-shorter-rules_clarke1925.txt"
       }
     ]
   }
