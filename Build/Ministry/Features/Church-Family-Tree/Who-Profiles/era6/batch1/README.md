@@ -1,0 +1,64 @@
+# Who profiles: era 6, batch 1
+
+Eight profiles, one id each: `john-wyclif`, `thomas-a-kempis`, `richard-rolle`, `julian-of-norwich`, `meister-eckhart`, `johannes-tauler`, `henry-suso`, `geert-grote`.
+
+These are eight WHO rows of `Build/Ministry/Operations/Audits/2026-11-12_who-scan-era6/Who_Scan_Era6.md`, the first era 6 batch (1300 to 1517) under Mark's ruling of 2026-11-14 that eras 4 to 7 are built in full. None was written before. Wyclif and Kempis are the era's two live census person entries. Their ids are the census ids, and their profiles agree with the live entries except where the held lines differ; those points are logged in Open-Gaps for a census fix, and the census is not changed here. Many of the scan's years rest on a Library file header or an editor's reckoning, so the cards give the years the held sources give and say whose they are.
+
+The coordinator marked all eight major on 2026-11-14, as the scan's Major column says "yes". They stay within the map caps: The English Mystics and Devout 2 (Rolle, Julian), Rhineland Mysticism 3 (Eckhart, Tauler, Suso), Devotio Moderna 2 (Grote, Kempis) and Lollardy 1 (Wyclif). The briefs run 395 to 405 words, about 2:30; the 2:30 is a cap, not a target. `grade_text` scores them at grade 5.3 to 8.0 and Flesch Reading Ease 64.7 to 81.3.
+
+- **Wyclif** is told through the earthquake council of 1382, with Vaughan, an admiring biographer, and Shirley's edition of the Carmelite collection against him. The Wycliffite Bible is told as the circle's work: the 1850 editors' view that the New Testament is probably his, the early note giving much of the Old Testament to Nicholas Hereford, and Pollard's doubt about the rest. The Bible's authorship is tagged Contested. The card gives his birth year as his biographers' 1324, with Shirley's "vague conjecture". The brief ends on his own English tract on the pastor's office.
+- **Kempis** is told from his own Chronicle and his Lives of the founders. The Imitation's authorship is tagged Contested. The brief gives Busch's naming, Atkynson's Gerson, Benham's Gersen and Ingram's view, and settles none. No held line says what the census says about copies or about Ignatius's desk, so the profile does not.
+- **Rolle** rests on his own account of his three years, quoted from Comper's modern spelling of Misyn's English, and on the Office of Saint Richard, which the brief tells as the Office's account. The Hampole nuns prepared it in the hope of his canonization. The day of his death, 29 September, is Horstman's alone, and the card says so.
+- **Julian** is told from her own book. Her text never names her; the name comes from a copyist. The card sets 1413 and 1442 side by side and tags the question Contested. No held line shows her teaching at her cell, so the brief tells her teaching through the book, and the gap is in `absent_details`.
+- **Eckhart** rests on the 1327 trial acts and the bull of 1329, which are held in full in Denifle's printing. The bull condemns articles; it does not excommunicate him. His retraction is tagged Contested, as are the questions the card lists as uncertain.
+- **Tauler** is told with his History and Life, whose own text never names the Master, and with Denifle's argument that the conversion story is invented. His sermons are said plainly to survive as his hearers' notes, with Susanna Winkworth as witness and her view that the eighty-four Strasbourg sermons were probably corrected by him. His birth is tagged Contested (Winkworth 1290, Evans 1300, an 1841 editor 1294). His death day rests on Winkworth alone.
+- **Suso** is told through the prologue to his Life, in Knox's English: Elsbeth Stagel wrote it down by stealth, and he burned what he found. His birth year and death year, and the place of his grave, are tagged Contested.
+- **Grote** is told from Kempis's Life of him and from Busch. The brief names his disciple "Florens", as the Kempis profile does, and the bishop of Utrecht only by his office. Two readings of Arthur's English that cannot be checked against Kempis's Latin are marked on the card as Arthur's.
+
+Held witnesses beyond those the scan cites:
+- **Wyclif.** Shirley's introduction to the Fasciculi Zizaniorum and its Latin letter to Urban VI; Forshall and Madden's preface; Pollard's introduction; Knighton and Walsingham; the Trialogus and Lechler's prolegomena; Matthew's English works and Arnold's headnote; Hus's sermon in Workman and Pope; Schaff; Mansi and Mirbt on Constance; Foxe.
+- **Kempis.** His own Chronicle and the Lives of the founders; Busch with Grube's notes; Ingram on Atkynson and the early English Imitation; Neale; Pohl; the Exercises of Ignatius; Wesley's Journal; Scully's and Duthoit's introductions.
+- **Rolle.** The Office of Saint Richard in Comper; Misyn's prologue and closing note; Comper's preface and Underhill's introduction; Forshall and Madden's preface; Arnold; the wills in Testamenta Eboracensia; the York Hours.
+- **Julian.** Cressy's reprint of 1843, with Dodd's title; Dalgairns on Dame Julian Lampet; the Bury wills; Underhill in Comper.
+- **Eckhart.** Denifle's Beilage I, with the acts of 1327 and the full bull In agro dominico; Denzinger in Bannwart's edition; Lea; Jostes; Winkworth; Pfeiffer; Knox on Suso's Master Eckart.
+- **Tauler.** Denifle on the conversion; Winkworth on the History and the hearers' notes; Lea; Evans; the Spener volume of 1841; Langenberg; Wesley.
+- **Suso.** Bihlmeyer's critical edition and notes; Knox's prologue, chapters and letters; Comper in the Craft of Death; Langenberg; Busch.
+- **Grote.** Kempis's Chronicle and Lives; Busch, from the deacon's licence to the deathbed; Acquoy's notes to the letters; Langenberg on the tract and deeds; Opzoomer on Diepenveen; Underhill on Ruusbroec.
+
+Corrections to the scan found in drafting:
+- **Wyclif's birth.** The scan's c.1330 is the Library header's. No held line gives it. Vaughan and Forshall and Madden give 1324, and Shirley calls that a vague conjecture.
+- **Wyclif's death year.** Vaughan's year is OCR-garbled at l.4765. The year comes from Forshall and Madden, "the last day of December 1384". The scan's last illness "at Mass" is Shirley's; Vaughan says only that he is said to have been giving out the bread.
+- **Wyclif's Old Testament.** Forshall and Madden give Hereford the first Old Testament, which breaks off in Baruch. Pollard says his books ran as far as Daniel.
+- **Kempis.** The scan's own check corrects entry and profession to Benham. Busch's naming of him sits inside the dream before Prior John Vos's death in 1424, which the brief tells in place. Benham's case for Gersen runs to l.633, past the scan's lines.
+- **Rolle.** The scan's COMPER 2129-2131 is the Office quoting him. His own account of the three years is at COMPER l.5493-5541. No held line gives a year for the Fire of Love.
+- **Julian.** The scan's "alive 1413 (HARFORD 247)" is Harford's summary; the copyist's heading is at l.466-473. The scan's 1342 and 1442 lines are Warrack's own reckoning and her quotation of Blomefield. Margery Kempe's visit is in no held file.
+- **Eckhart.** The scan's dates and trial rest on Evans's sketch, "no second source opened". The acts and the bull are held in Denifle's Beilage I. The scan's "excommunicated by the bull of 27 Mar 1329" is not in the bull. Evans's "last date alive, 13 February" is contradicted by the act of 22 February.
+- **Tauler.** The 16 June 1361 death day, tagged Widely Accepted in the scan, rests on Winkworth alone, and the records tag it Inferential-Thin. The 1300 birth is the host header's; three held sides give 1290, 1294 and 1300.
+- **Suso.** The scan's 1295 comes from a library catalogue card and the header, not a witness; the held source is Bihlmeyer's reckoning. His burial, in the church or the cloister, is a Bihlmeyer and Knox difference the scan lacks.
+- **Grote.** The scan's 1340 is Arthur's and Opzoomer's, not a primary witness's. The lay rule is Dietrich Engelhusen's, not his, by Langenberg. The scan's "living at Zwolle" reads "wonende toe GroUe" in the file, a different town, and is not told.
+
+Names and ids, the worker's calls:
+- **John Wyclif**, `john-wyclif`, the census name and id. Other names are the forms the files spell: Wycliffe, John de Wycliffe, Johannes Wyclif, Wiclif, Wicleff, Wickliff. "Gospel Doctor" is on the card as Vaughan's and the manuscript's. The card gives the Merton fellow and the warden of Canterbury Hall to another man of the same name, after Shirley. Knighton is "a Leicester chronicler" in the brief, from his manuscript's title.
+- **Thomas à Kempis**, `thomas-a-kempis`, the census name and id. Thomas Hemerken of Kempen is the Chronicle's form. "Florens Radewijns" is the census form; Kempis's English calls him Florentius, and quotations keep that.
+- **Richard Rolle**, `richard-rolle`. Richard Misyn, who translated him in 1434 to 1435 and also called himself a hermit, is a different man. So is the Margaret of the Office, whom Horstman takes for the Form of Living's Margaret; Kirkby and Heslyngton are kept apart on the card.
+- **Julian of Norwich**, `julian-of-norwich`. Dame Julian Lampet, anchoress of Carrow, is a different woman by Warrack's account; Dalgairns merges them, and the card sets the two views out. "Mother Juliana" is Cressy's title, through Dodd.
+- **Meister Eckhart**, `meister-eckhart`, the census name. "Master Eckhart" is in no held file and is not used. The archbishop of Cologne is named only "Henry" in the held documents, so the card says "the archbishop of Cologne". The commissioners Benherus (1326) and Reynerus (1327) are kept apart.
+- **Johannes Tauler**, `johannes-tauler`, the census name. Henry of Nördlingen, his friend, and Henry Charles Lea, the historian, are named in full in the brief.
+- **Henry Suso**, `henry-suso`, the census name, with Seuse and Amandus as other names. Elsbeth Stagel is the census form; Knox's "Elizabeth Staglin" is recorded in the records only. His mother is not named, since no held medieval witness names her.
+- **Geert Grote**, `geert-grote`, the census name. Gerard Groote is Arthur's English form. Florens Radewijns is a separate Who row and appears here only as his disciple and named successor.
+
+Card traditions are the census's names. All eight fit the scan's placings:
+- Wyclif reads "Lollardy" (c. 1380 to 1520). The entry names him first among its voices and holds him as a person entry; his last years, 1380 to 1384, fall in its years, and the movement took its arguments from his writings.
+- Kempis reads "Devotio Moderna / Brethren of the Common Life" (c. 1380 to 1517). He is one of the entry's voices and a person entry; his life at Mount St Agnes, 1399 to 1471, falls inside its years.
+- Grote reads "Devotio Moderna / Brethren of the Common Life". His life, 1340 to 1384, begins before the entry's start, but he is the entry's first voice and its founder, and his conversion and preaching fall in its years.
+- Rolle and Julian read "The English Mystics and Devout" (c. 1330 to 1440). Both are among its voices. Rolle's death in 1349 and Misyn's English of 1434 to 1435 fall inside the entry; his birth and Oxford years fall before it. Julian's showings of 1373 and the copyist's 1413 fall inside it.
+- Eckhart, Tauler and Suso read "Rhineland Mysticism & the Friends of God" (c. 1300 to 1400). The entry names all three among its voices. Eckhart's trial, 1326 to 1329, and the deaths of Tauler in 1361 and Suso in 1365 or 1366 fall inside its years; Eckhart's birth and Paris years fall before.
+
+Lines held only in Latin, German or Dutch are told in modern words with the source named. Quotation marks are kept for held English: the Chronicle and the Lives in Arthur's English, Knox's Suso, Warrack's and Harford's Julian, Comper's Rolle, Winkworth's Tauler, Evans's Eckhart, Vaughan's and Pollard's Wyclif. Quotations keep their own spelling, including "behoved", "holden" and "thy". Where an OCR slip or a footnote mark falls inside a quoted line, the quotation is given as the editor printed it.
+
+| File | Holds |
+|---|---|
+| `<id>.brief.txt` | The brief as text, with no audio tags. Paragraphs are separated by a blank line. |
+| `<id>.card.json` | The card. Its fields are `name`, `otherNames`, `knownFor`, `dates`, `place`, `tradition`, `role`, `briefLength`, `keyWorks` (title, about), `legacy` (`traces`, `remembered`), `uncertain`, and `sources` (`ownWords`, `about`; each entry gives a title, an author where one applies, a date, a language and its file under `cic/texts/`). A field with no content is left out. |
+| `audio/<id>.audio.txt` | The text sent to the voice: the brief with `[calmly]` at the start and `[warmly]` at the start of the last paragraph. |
+| `records.json` | For each id, `claims` (claim, witness, `formation_confidence`), `contested_claims` (claim, sides), and `absent_details` (detail, note) for the honest limits. |
