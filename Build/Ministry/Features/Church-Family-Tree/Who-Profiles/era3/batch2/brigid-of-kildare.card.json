@@ -1,0 +1,68 @@
+{
+  "name": "Brigid of Kildare",
+  "otherNames": [
+    "Brigida",
+    "Brigit"
+  ],
+  "knownFor": "Founder of the monastery of Kildare in Ireland, which her Latin biographer Cogitosus calls the head of almost all the Irish churches.",
+  "dates": "Fifth to sixth century. Cogitosus gives no year, and says she died on the first of February. The Welsh annals set her birth in their tenth year and her death in the year Columcille was born; their editor, John Williams ab Ithel, reckons those 454 and 521. Basnage's note in Migne reports her birth as 439 and gives her death as 518, after Sigebert, or 521, after Martinus Polonus",
+  "place": "Kildare, Ireland",
+  "tradition": "Insular / Irish Monastic Christianity",
+  "role": "Founder and abbess of Kildare",
+  "briefLength": "about 2 minutes",
+  "legacy": {
+    "traces": [
+      "Cogitosus says her church was ruled together by a bishop and an abbess, and that its archbishop and abbess still ruled it in unbroken succession when he wrote.",
+      "Cogitosus describes her great church on the plains of the Liffey, with Brigid and Bishop Conleath buried on either side of the altar, and crowds coming to her feast on the first of February."
+    ],
+    "remembered": [
+      "A passage Whitley Stokes prints at the end of the Book of the Angel, an Armagh text, says Patrick and Brigid, the pillars of the Irish, shared such friendship that they had one heart and one counsel.",
+      "The later Irish Life in the Book of Lismore makes her mother a bondmaid named Broicsech, and says the form for ordaining a bishop was read over her when Bishop Mél gave her the veil."
+    ]
+  },
+  "uncertain": [
+    "Her life rests on Cogitosus's Life, written long after her death. It is hagiography and mostly miracles. Cogitosus says he wrote from what elders had handed down. He gives no year for her birth or death.",
+    "How long after her Cogitosus wrote is disputed. Migne prints the Life under the year 591. Basnage, in the note Migne prints with it, says that placing follows others, and thinks Cogitosus wrote much later, since he tells of painted images and of miracles in her church. In his Life of Patrick, Muirchu names his father Cogitosus. His editor Newport White places Muirchu at the synod of Birr, between 695 and 697, and takes this father for Brigid's biographer. That name rests on Bishop Graves's correction of the Latin, which White calls generally accepted. Whitley Stokes, in the index to his Tripartite Life, dates Cogitosus to between 800 and 835.",
+    "Cogitosus calls himself \"nepote culpabili\". Basnage notes that he does not call himself Brigid's nephew, and says that why he uses the word is as uncertain to him as to Canisius.",
+    "Her years differ between witnesses. The Welsh annals put her death in the year Columcille was born; the extracts from Nennius that Whitley Stokes prints put four years between Columba's birth and her death. Basnage gives 439 for her birth as a report, and takes 518 from Sigebert and 521 from Martinus Polonus. A note marked for Canisius prefers Marianus Scotus, with Baronius, to Sigebert, and places her death under the emperor Justin the Elder.",
+    "Her parents are told two ways. Cogitosus says she was born to noble Christian parents, Dubtach and Brocca. The later Irish Life in the Book of Lismore makes her mother Broicsech, a bondmaid Dubthach bought.",
+    "Cogitosus says she called a hermit to govern the church with her as bishop, and that she sowed the word among all. Basnage finds both surprising, and says the second goes against the laws."
+  ],
+  "sources": {
+    "about": [
+      {
+        "title": "Vita Sanctae Brigidae (in Patrologia Latina 72)",
+        "author": "Cogitosus",
+        "language": "Latin",
+        "file": "cic/texts/john-biclaro-leander-pl72-lat_migne1878.txt"
+      },
+      {
+        "title": "Notitia on Cogitosus, and notes",
+        "author": "Basnage, reprinted by J.-P. Migne",
+        "language": "Latin",
+        "file": "cic/texts/john-biclaro-leander-pl72-lat_migne1878.txt"
+      },
+      {
+        "title": "Annales Cambriae (ed. John Williams ab Ithel)",
+        "language": "Latin",
+        "file": "cic/texts/annales-cambriae-rolls-series-20-lat_williams-ab-ithel1860.txt"
+      },
+      {
+        "title": "The Book of the Angel, and extracts from Nennius (in The Tripartite Life of Patrick, ed. Whitley Stokes)",
+        "language": "Latin",
+        "file": "cic/texts/stokes_tripartite-life-of-patrick-v2-lat-muirchu-tirechan-confession_1887.txt"
+      },
+      {
+        "title": "Introduction to Muirchu's Life of Patrick, and Muirchu's Preface (tr. Newport J. D. White)",
+        "author": "Newport J. D. White; Muirchu",
+        "language": "English",
+        "file": "cic/texts/patrick_writings-and-life-with-muirchu-eng_white1920.txt"
+      },
+      {
+        "title": "Life of Brigit, from the Book of Lismore (ed. and tr. Whitley Stokes)",
+        "language": "Middle Irish with English translation",
+        "file": "cic/texts/stokes_lives-of-saints-from-the-book-of-lismore-iri-eng_1890.txt"
+      }
+    ]
+  }
+}

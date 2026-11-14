@@ -1,0 +1,54 @@
+{
+  "name": "Caesaria of Arles the Elder",
+  "otherNames": [
+    "Caesaria",
+    "Casaria"
+  ],
+  "knownFor": "Sister of Caesarius of Arles and first abbess of the convent he founded at Arles, trained beforehand in a convent at Marseille.",
+  "dates": "She led the convent at Arles from its founding and died before her brother, who buried her. Bruno Krusch, who edited his Life, dates the dedication of the convent to 26 August 512. No source used here gives her birth or the year of her death",
+  "place": "Marseille; Arles",
+  "tradition": "Merovingian Gallic Christianity",
+  "role": "Nun, then abbess",
+  "briefLength": "about 2 minutes",
+  "legacy": {
+    "traces": [
+      "The convent she led first had more than two hundred women under her successor, the second Caesaria, when Caesarius died, by the Life's account.",
+      "Caesarius's Rule for nuns is addressed to the sisters of the convent he founded, the house she led first."
+    ],
+    "remembered": [
+      "The Life of Caesarius: the women who came sought the care of \"Caesarii patris, Caesariae matris\", Caesarius their father and Caesaria their mother.",
+      "The Life calls her the mother of the convent, \"monasterii matrem\".",
+      "Bruno Krusch says that Venantius Fortunatus, the poet of Radegund's household, more than once held up Casaria, Caesarius's pious sister, as an example to follow."
+    ]
+  },
+  "uncertain": [
+    "Her story comes almost wholly from the Life of Caesarius of Arles, a saint's Life by his disciples: the bishops Cyprian of Toulon, Firminus and Viventius, the priest Messianus and the deacon Stephen. Bruno Krusch adds that Venantius Fortunatus held her up as an example. No words of her own survive.",
+    "Two abbesses named Caesaria led the convent one after the other. The Life was written for the second, who was still living. A Bollandist commentary printed in Jacques-Paul Migne's edition says some writers wrongly took the Life for one dedicated to the sister, and a note in the same edition says the Life's Caesaria is not the sister.",
+    "Two letters of Caesarius are headed to Caesaria, abbess, \"holy sister\". Migne's editors report that they are said to have been sent to his sister. The headings do not say which Caesaria is meant.",
+    "That the house at Marseille was the one John Cassian founded is Bruno Krusch's identification, after Gennadius of Marseilles. The Life says only that it was at Marseille.",
+    "The year 512 for the dedication of the convent is Krusch's. The Life gives no year.",
+    "The manuscripts spell her name both Caesaria and Casaria. Krusch prefers Casaria."
+  ],
+  "sources": {
+    "about": [
+      {
+        "title": "Life of Caesarius, bishop of Arles, book one, chapters 35 and 58",
+        "author": "Cyprian of Toulon, Firminus and Viventius",
+        "language": "Latin, ed. Bruno Krusch",
+        "file": "cic/texts/passiones-vitaeque-sanctorum-merovingici-mgh-srm-3-lat_krusch1896.txt"
+      },
+      {
+        "title": "Introduction and notes to the Life of Caesarius",
+        "author": "Bruno Krusch",
+        "language": "Latin",
+        "file": "cic/texts/passiones-vitaeque-sanctorum-merovingici-mgh-srm-3-lat_krusch1896.txt"
+      },
+      {
+        "title": "Life of Caesarius, with notes and the Bollandist commentary",
+        "author": "Jacques-Paul Migne, editor",
+        "language": "Latin",
+        "file": "cic/texts/facundus-ferrandus-caesarius-dionysius-pl67-lat_migne1865.txt"
+      }
+    ]
+  }
+}

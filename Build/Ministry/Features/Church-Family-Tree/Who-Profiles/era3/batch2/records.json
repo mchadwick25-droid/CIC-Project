@@ -1,0 +1,1066 @@
+{
+  "joshua-the-stylite": {
+    "claims": [
+      {
+        "claim": "In the year 812 the famine was sore; those in the city slept in the porticoes and streets, wailing night and day from hunger; their bodies wasted away and they began to die in the porticoes and streets",
+        "witness": "Joshua, ch. XLI, tr. Wright (l.2013-2027)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The year 812 is A.D. 500-1",
+        "witness": "Wright's bracket in the translation (l.2013); a translator's date",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Wrote at the request of Sergius, priest and abbot, a record of the locusts, the darkened sun, earthquake, famine, pestilence and the war between the Greeks and the Persians",
+        "witness": "Joshua, ch. I (l.424-430)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Sergius was abbot of a convent in the district of Edessa; of Joshua we know little more than he has told us",
+        "witness": "Wright's preface (l.335-337)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "A later copyist, who supplied a lacuna in the manuscript of Dionysius, wrote a note asking mercy on 'the priest Mar Yêshûa (Joshua) the stylite, from the convent of Züknin, who wrote this Chronicle of the evil times that are past'; the leaf is in the hand of Elisha of Züknin",
+        "witness": "Wright's preface, quoting the copyist's note (l.344-394, footnote l.367-371)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The last date in the Chronicle is 28 November A.D. 506; the work was composed that winter and the earlier part of the following year, which is also Noeldeke's opinion",
+        "witness": "Wright's preface (l.337-344); the year is Wright's reckoning (ch. C, l.4361-4362, Wright's bracket)",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Paulin Martin's first edition (1876) was titled 'Chronique de Josué le Stylite écrite vers l'an 515'",
+        "witness": "Wright's preface, footnote (l.197-198)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "'I am a plain man in speech, and I record in this book those things which all men that are in our country can testify to be true'; the chastisements were sent for our sins and should teach repentance",
+        "witness": "Joshua, ch. IV (l.592-610)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The Persians could not master Edessa because the promise of Christ to king Abgar, 'Thy city shall be blessed', could not be made void",
+        "witness": "Joshua, ch. V (l.657-660)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Preserved by Dionysius of Tell-Mahré, patriarch (died A.D. 845), who incorporated it in his larger work, in a single Vatican manuscript",
+        "witness": "Wright's preface (l.292-300); Wright's 1882 attribution",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Long known through Assemani's abridged Latin translation; 'generally acknowledged to be one of the most valuable authorities for the period with which it deals'; first complete edition by Martin, 1876",
+        "witness": "Wright's preface (l.164-173)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "The first sentence of the last chapter is a later addition, probably by the compiler Wright calls Dionysius of Tell-Mahré",
+        "witness": "Wright's notes (l.364-365, 4423-4424)",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Asks Sergius to pray for him and promises to write down what is worthy of record and send it, 'if I remain alive'",
+        "witness": "Joshua, ch. CI (l.4399-4406)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The Pseudo-Dionysius, whose compilation is in Vatican ms. syr. 162, wrote in the year 1086 of the Greeks (775 of our era)",
+        "witness": "François Nau, introduction to the Didascalia of Jacob (po08 l.48219-48226); Brooks's \"the so-called Dionysius\" (john-ephesus po17 l.714); Chabot: the authentic chronicle of Dionysius of Tell-Mahré is lost but for one chapter (Michael the Syrian, tome 1, l.63096-63099)",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      }
+    ],
+    "contested_claims": [
+      {
+        "claim": "Who compiled the chronicle that preserves Joshua's",
+        "sides": "Wright (1882): Dionysius of Tell-Mahré, patriarch, who died in 845 (l.292-297). Nau: the Pseudo-Dionysius, of the same Vatican ms. syr. 162, writing in 775 (po08 l.48219-48226); Brooks calls him \"the so-called Dionysius\" (po17 l.714); Chabot says the true chronicle of Dionysius of Tell-Mahré is lost but for one chapter (Michael, tome 1, l.63096-63099)."
+      }
+    ],
+    "absent_details": [
+      {
+        "detail": "His life, and whether he lived on a pillar",
+        "note": "Wright says we know little more of him than he tells; the Chronicle gives no life outline. The name, priesthood, the title stylite and the convent of Zuknin rest on the one later copyist's note Wright quotes. The Library's file header calls the attribution traditional; no held scholar argues against it."
+      },
+      {
+        "detail": "His side in the Chalcedonian quarrel",
+        "note": "The card's tradition, Syriac Orthodox (West Syriac) Christianity, is the era 3 scan's placing. The brief makes no claim about his party, and none was checked in the Chronicle."
+      }
+    ]
+  },
+  "john-rufus": {
+    "claims": [
+      {
+        "claim": "Walking from Siloam up the valley with a notable of the city, he saw a ruined monastery; his companion said it was the monastery of Juvenal, who lived there in peace until he became bishop and became desert when the council of Chalcedon took place; John answered that Juvenal was the companion of Judas, as Dioscorus had said ('Juvénal a été le compagnon de Judas')",
+        "witness": "John Rufus, Plerophories ch. XVI, tr. Nau (po08 l.2068-2145); Juvenal's episcopate, l.2136",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "An Arab of southern Palestine, probably from Ascalon; studied law at Beirut; ordained priest at Antioch (476 to 478) by the patriarch Peter the Fuller, whose syncellus he had been; left when Peter was driven out and went to Jerusalem and Palestine, where he knew the solitary Isaiah and Peter the Iberian",
+        "witness": "Nau's introduction, from the autobiographical chapters 16, 21, 22, 25, 88, 89 (po08 l.358-368); the ordination years from his note (l.3076-3080, 'Il semble donc')",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Peter the Iberian left heirs; the direction of the monastery went to Theodore with John the Canopite, and the altar was reserved for John called Rufus, who had studied law at Beirut with Theodore and left there a reputation for chastity and piety",
+        "witness": "Zachariah Rhetor, Life of Severus, tr. Kugener (l.5543-5560)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "He succeeded Peter the Iberian as bishop of Maiuma; he was in Jerusalem in 485",
+        "witness": "Nau's introduction (po08 l.372-376), an editor's inference ('Il semble dès lors… car il lui a succédé')",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "The text's heading names the author as one of Peter the Iberian's disciples, the priest John of Beit-Rufin, of Antioch, bishop of Maiuma of Gaza",
+        "witness": "Heading of the Plerophories, tr. Nau (po08 l.612-618)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Written in Greek soon after 512, while Severus was patriarch of Antioch (512-518); translated into Syriac; 89 short chapters",
+        "witness": "Nau's introduction (po08 l.307, 376-377, 434-436)",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "The sources are always oral, mostly stories of Peter the Iberian, some from his circle, some gathered by the author; a written witness very rarely; 'un recueil d'Apophthegmes d'un nouveau genre, qui a pour but, non d'édifier, mais de combattre le concile de Chalcédoine et ses défenseurs'",
+        "witness": "Nau's introduction (po08 l.491-499)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "In ch. XXI he says he checked the story's truth, having heard it told by those who had seen it",
+        "witness": "John Rufus, Plerophories ch. XXI (po08 l.2801-2804)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The first chapter opens with a story Peter the Iberian used to tell, 'Notre pére et évéque, le vénérable abba Pierre l'Ibére' (OCR accents as in the file)",
+        "witness": "John Rufus, Plerophories ch. I (po08 l.620)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The Life of Peter the Iberian names no author; the name was already unknown in Evagrius's time; Raabe asks whether the author of the Plerophories might be the same as the biographer, without deciding",
+        "witness": "Raabe's introduction (l.600-611, 667-672)",
+        "formation_confidence": "Inferential-Thin"
+      },
+      {
+        "claim": "Used by the writer of the History of Dioscorus by Theopistus; summarized by Michael the Syrian in his chronicle; the work shows how the anti-Chalcedonians, triumphant 512-518, saw the council",
+        "witness": "Nau's introduction (po08 l.348-350, 400-402, 442-445)",
+        "formation_confidence": "Widely Accepted"
+      }
+    ],
+    "contested_claims": [],
+    "absent_details": [
+      {
+        "detail": "Who wrote the Life of Peter the Iberian",
+        "note": "The Library's file header calls the Life traditionally attributed to John Rufus. No held scholar makes the attribution: Raabe says the author is unnamed and leaves open whether he is the author of the Plerophories."
+      },
+      {
+        "detail": "Birth, death and the end of his episcopate",
+        "note": "Nau gives no birth or death year, and no held source tells his later life."
+      }
+    ]
+  },
+  "brigid-of-kildare": {
+    "claims": [
+      {
+        "claim": "In her great church the bodies of Bishop Conleath and Brigid lie to right and left of the altar in tombs adorned with gold, silver, gems and precious stone, with gold and silver crowns hanging above; a painted wall hung with linen crosses the church; the bishop with his clergy enters the sanctuary by one door, the abbess with her girls and faithful widows by another; men enter by the right-hand door and women by the left",
+        "witness": "Cogitosus, Vita S. Brigidae, in PL 72 (l.59384-59460)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Her monastery is 'caput pene omnium Hiberniensium Ecclesiarum', its parochia spread over all Ireland from sea to sea, on the plains of the Liffey",
+        "witness": "Cogitosus, prologue (l.58503-58510; OCR 'caputpene')",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Cogitosus wrote at the brothers' command, setting out a few things of many handed down by elders and the most learned",
+        "witness": "Cogitosus, prologue (l.58492-58500)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Cogitosus wrote long after her death: he writes from what elders handed down and describes her tomb and her feast; Basnage holds him not her contemporary but later; White makes him Muirchu's father (late seventh century); Stokes's index dates him 800-835",
+        "witness": "Cogitosus, prologue and ch. on the church (PL 72 l.58492-58500, 59384-59403, 59484-59493); Basnage (l.58466-58472); White (l.3741-3750, 3768-3770); Stokes, Tripartite Life index (l.21226)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Basnage: the Life Cogitosus wrote 'tota miraculis scatet', teems with miracles",
+        "witness": "Notitia ex Basnagio, PL 72 (l.58446; OCR 'descripsittotamiraculis scatet')",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "She called a hermit from his solitary life to govern the church with her in episcopal dignity; the archbishop and the abbess rule it in perpetual succession",
+        "witness": "Cogitosus, prologue (l.58510-58516, 58526-58528)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Born of Christian and noble parents, father Dubtach and mother Brocca, of the Etech line",
+        "witness": "Cogitosus (l.58535-58539)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "She gave the poor the foreign vestments Bishop Conleath used at the altar on feasts, and at the feast gave him like garments brought in a two-wheeled chariot",
+        "witness": "Cogitosus (l.59171-59205); a miracle story",
+        "formation_confidence": "Inferential-Thin"
+      },
+      {
+        "claim": "She died on the Kalends of February, the feast to which crowds came for food, healing, the spectacle, and with gifts",
+        "witness": "Cogitosus (l.59484-59493)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Welsh annals: 'Brigida Sancta nascitur' in year X; 'Quies Sanctae Brigidae' in year LXXVII with Columcille's birth; the editor's A.D. margin gives 454 and 521",
+        "witness": "Annales Cambriae, ed. Williams ab Ithel (l.2352, 2399-2400)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "From the birth of Columba to the death of Brigid four years; from Patrick's death to hers sixty years",
+        "witness": "Extracts from Nennius, Harleian MS 3859, in Stokes, Tripartite Life v2 (l.13478-13496)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Basnage: Cogitosus is much later than Brigid; he saw miracles worked in her church and describes painted images that smell of later centuries; he heard of her living virtues only from elders; placing him here follows others; Brigid said to be born 439, died 518 (Sigebert) or 521 (Martinus Polonus); she is to be distinguished from the fourteenth-century Brigitta",
+        "witness": "Notitia ex Basnagio, reprinted in PL 72 (l.58436-58480)",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Canisius's note follows Marianus Scotus and Baronius, death under Justin the Elder, rather than Sigebert",
+        "witness": "Note marked 'Can.' in PL 72 (l.59368-59370; the OCR reads 'anno 321')",
+        "formation_confidence": "Inferential-Thin"
+      },
+      {
+        "claim": "Muirchu names 'my father Cogitosus' in his Preface; White takes him for the author of the Life of Brigid, on Bishop Graves's emendation 'now generally accepted', and places Muirchu at the synod of Birr, 695-697",
+        "witness": "Muirchu, Preface, tr. White (l.3805-3806); White's introduction (l.3741-3750, 3768-3770)",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Between Patrick and Brigid, pillars of the Irish, there was such friendship that they had one heart and one counsel",
+        "witness": "Passage at the end of the Book of the Angel, in Stokes, Tripartite Life v2 (l.5921-5924)",
+        "formation_confidence": "Inferential-Thin"
+      },
+      {
+        "claim": "Her mother was the bondmaid Broicsech, daughter of Dallbrónach, bought by Dubthach; at her veiling by Bishop Mél the form of ordaining a bishop was read over her",
+        "witness": "Life of Brigit, Book of Lismore, tr. Stokes (l.18019-18025, 18282-18292); a later anonymous Irish Life",
+        "formation_confidence": "Inferential-Thin"
+      },
+      {
+        "claim": "The Book of Lismore was compiled in the latter half of the fifteenth century",
+        "witness": "Stokes, introduction (l.218-219)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "The church is Kildare: Cogitosus sets her monastery on the plains of the Liffey; the name Kildare is White's ('St. Brigid of Kildare') and the Lismore Life's",
+        "witness": "Cogitosus (l.58512-58513); White (l.3748-3749); Lismore Life (l.18604)",
+        "formation_confidence": "Widely Accepted"
+      }
+    ],
+    "contested_claims": [
+      {
+        "claim": "How long after her Cogitosus wrote",
+        "sides": "Migne prints the Life under 591 (l.58417-58434), a placing Basnage says follows others. Basnage (l.58436-58480): much later than Brigid, not her contemporary. White (l.3741-3750, 3768-3770): Cogitosus is Muirchu's father, Muirchu at Birr 695-697, on Graves's emendation. Stokes, index to the Tripartite Life (l.21226): 'A.D. 800-835'. All put the Life well after her death."
+      },
+      {
+        "claim": "Her parents",
+        "sides": "Cogitosus (l.58535-58539): noble Christian parents, Dubtach and Brocca. Lismore Life (l.18019-18025): her mother the bondmaid Broicsech, bought by Dubthach."
+      },
+      {
+        "claim": "The year of her death",
+        "sides": "Annales Cambriae (l.2399-2400): the year of Columcille's birth, the editor's 521. Nennius extracts (l.13495-13496): four years after Columba's birth. Basnage (l.58471-58473): 518 by Sigebert or 521 by Martinus Polonus. Canisius's note (l.59368-59370): Marianus Scotus, under Justin the Elder."
+      }
+    ],
+    "absent_details": [
+      {
+        "detail": "Any writing of her own",
+        "note": "No words of Brigid are held. Her life comes through Cogitosus, the annals and later Lives."
+      },
+      {
+        "detail": "A year from Cogitosus",
+        "note": "Cogitosus gives the day of her death, the first of February, and no year."
+      },
+      {
+        "detail": "An English translation of Cogitosus",
+        "note": "The Life is held only in Migne's Latin; the brief tells it in modern words."
+      }
+    ]
+  },
+  "zachariah-rhetor": {
+    "claims": [
+      {
+        "claim": "Came to Berytus to study civil law expecting the teasing new students suffered, and feared Severus most; on his first day in the school of Leontius son of Eudoxius he found Severus there, who greeted him kindly",
+        "witness": "Zachariah Rhetor, Life of Severus, tr. Kugener (l.2902-2915)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Was with Severus from his first youth at Alexandria and in Phoenicia, hearing the same teachers",
+        "witness": "Zachariah Rhetor, Life of Severus, tr. Kugener (l.527-529)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "A native of the port of Gaza (\"comme moi originaire du port de Gaza\", said of Zenodore)",
+        "witness": "Zachariah Rhetor, Life of Severus, tr. Kugener (l.3535)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Native of Gaza, studied law with Severus at Alexandria and Berytus in the reign of Zeno, practised as an advocate at Constantinople, where he lived when he wrote the Life",
+        "witness": "E. W. Brooks, Introduction to the Chronicle (l.346-350), drawing on the Life",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "The Life opens with a friend come from the Royal Portico, where a bookseller gave him a pamphlet that defames and mocks Severus, now distinguished in the episcopate",
+        "witness": "Zachariah Rhetor, Life of Severus, tr. Kugener (l.375-389)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Zachariah wrote the Life to refute the charge that Severus followed heathen practices in his youth; \"it must be admitted that the answer is a very lame one\"",
+        "witness": "Brooks, Introduction to the Select Letters of Severus (l.89-93)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Wrote a church history in Greek to Eupraxius, who lived in the royal palace; book three of the Syriac chronicle is drawn for the most part from it, and book six likewise",
+        "witness": "The Syriac chronicle's own headings (l.2040-2044, 2064-2067, 2159-2163); Brooks, Introduction (l.300-310)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Zachariah's work ended in 491; the compiler followed him in books three to six only, and the name of Zachariah was wrongly attached to the compiler by later writers",
+        "witness": "Brooks, Introduction (l.310-321); Land ascribes book seven to him as well (note, l.330); Land as editor of the Syriac in 1870 (Kugener, Vie de Sévère, l.17146-17151); Mai had published extracts in 1838 (Brooks l.255-259)",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "The preface to Eupraxius says the council of Chalcedon \"tore into ten thousand rents the perfect Robe of Christ, woven from the top throughout\"",
+        "witness": "Zachariah, preface, in the Syriac chronicle Book III ch. 1 (l.2167-2182)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Identified with the author of a dialogue headed as by Zachariah Scholasticus, later bishop of Mitylene, who says he studied at Alexandria; Dionysius Bar Salibi's 'Zachariah the Rhetor and bishop of Melitene' is an error for Mitylene; a Zachariah of Mitylene was present at the synod of 536, though his name is not among the signatures to its decree, and he may possibly have been a nominee of Anthimus",
+        "witness": "Brooks, Introduction (l.256-264, 351-361 and note 4, l.385-386)",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Wrote the history between 491 and 518 and the Life between 511 and 518; later, \"conforming perhaps to the Chalcedonian faith\", was made bishop of Mitylene, and died or was deposed between 536 and 553",
+        "witness": "Brooks, Introduction (l.362-367); an editor's inference",
+        "formation_confidence": "Inferential-Thin"
+      },
+      {
+        "claim": "The Lives of Severus were written in Greek; the Greek is lost and a Syriac version survives",
+        "witness": "Kugener, preface (l.181-184)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Zachariah says in the Life of Severus that he also wrote a Life of Peter the Iberian; the Life of Peter edited by Raabe is not his; a manuscript ascribes to him a Life of Isaiah the monk",
+        "witness": "Brooks, Introduction (l.322-327; note 4, l.340-342 and 375-376)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Evagrius cites a Monophysite writer he calls Zachariah the Rhetor, whose citations agree closely with the chronicle's text",
+        "witness": "Brooks, Introduction (l.265-269)",
+        "formation_confidence": "Widely Accepted"
+      }
+    ],
+    "contested_claims": [
+      {
+        "claim": "Whether book seven of the chronicle is Zachariah's",
+        "sides": "Brooks: no; Zachariah ended in 491 and the compiler followed him in books three to six only (l.310-321). Land, its editor of 1870 (Kugener l.17146-17151), as Brooks reports: book seven is Zachariah's too (l.330)."
+      }
+    ],
+    "absent_details": [
+      {
+        "detail": "Birth and death",
+        "note": "No held line gives either. The Library's file note on Kugener's volume gives 'c. 465-after 536', a catalogue date. Brooks's bounds for his see (536 to 553) rest on his identification."
+      },
+      {
+        "detail": "A change of side",
+        "note": "Brooks's 'perhaps' (l.364) is the only held line; no text of Zachariah's says he accepted Chalcedon."
+      },
+      {
+        "detail": "The Plerophories notice",
+        "note": "Brooks's note that Zachariah gave up his secular career before 519, from John Rufus's Plerophories ch. 70, is withdrawn in Brooks's own corrigenda ('p. 3, note 5. Omit the second sentence', l.193) and is not used."
+      }
+    ]
+  },
+  "severus-of-antioch": {
+    "claims": [
+      {
+        "claim": "In the first year of his reign Justin ordered Severus arrested and punished, \"as some say, by having his tongue cut out\"; Irenaeus was to carry it out; some say Vitalian demanded his tongue; he fled his see in the month Gorpieus (September) of the year 567 of the era of Antioch",
+        "witness": "Evagrius of Epiphania, Ecclesiastical History IV.4, tr. Walford (l.7860-7898); a Chalcedonian historian",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Fled Antioch on 29 September 518; Evagrius seems to place the flight in 519, but the chronologically ordered homilies ending with Lent 518 settle the earlier date",
+        "witness": "E. W. Brooks, Introduction to the Select Letters (l.197-218); an editor's date",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "A native of Sozopolis in Pisidia",
+        "witness": "Zachariah Rhetor, Life of Severus, tr. Kugener (l.533); Evagrius III.32 (l.6983-6984)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "After his father's death his widowed mother sent him with his two older brothers to Alexandria to study grammar and rhetoric, Greek and Latin",
+        "witness": "Zachariah Rhetor, Life of Severus, tr. Kugener (l.590-594); a friend's defence",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Studied law at Berytus, where Zachariah found him in the school of Leontius son of Eudoxius",
+        "witness": "Zachariah Rhetor, Life of Severus, tr. Kugener (l.307, 2902-2914); Evagrius III.32 (l.6984-6985)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Zachariah wrote the Life to refute the charge that Severus had followed heathen practices in his youth; \"whether there was any truth in the accusation or not, it must be admitted that the answer is a very lame one\"",
+        "witness": "E. W. Brooks, Introduction to the Select Letters (l.89-93)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Baptized at the shrine of the martyr Leontius at Tripolis",
+        "witness": "Zachariah Rhetor, Life of Severus, tr. Kugener (l.5149-5150, 5225-5226). Evagrius III.32-33 (l.6986-7014) tells the same, from the author of the Life of Severus, which Brooks says Evagrius used (Select Letters intro, l.97); not a second witness. The sponsor Zachariah names, 'l'admirable Evagrios' (l.5226), is a Berytus companion, not the historian",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Became a monk in a monastery between Gaza and Majumas, where Peter the Iberian had passed through the same discipline; expelled by Nephalius, who had once held the single nature and then the two; went to the imperial city to plead his cause and those expelled with him, and gained the notice of Anastasius",
+        "witness": "Evagrius III.33 (l.6988-7013), citing the author of the Life of Severus",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Became a monk in Peter the Iberian's monastery between Gaza and Majuma; the so-called Zacharias Rhetor (VII.10) calls it the monastery of Theodore, Peter's successor",
+        "witness": "Brooks, Introduction (l.117-121 and note 4)",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Ordained bishop of Antioch in Flavian's place on 6 November 512",
+        "witness": "Brooks, Introduction (l.172-175); an editor's date. Evagrius III.32 gives the month Dius of the year 561 of the era of Antioch (l.6980-6982)",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "His synodical letters expressly anathematised the synod at Chalcedon; the letters to Alcison say they \"included an anathema, both on the synod and all others who affirmed two natures or persons in the Lord\", and that some bishops concurred only by force and compulsion",
+        "witness": "Evagrius III.33, quoting the letters to Alcison (l.7015-7041); a Chalcedonian report",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Lived for the rest of his life mostly in hiding in Egypt, still recognised as patriarch by his party; wrote there against Julian of Halicarnassus, who maintained the incorruptibility of Christ's body",
+        "witness": "Brooks, Introduction (l.200-206)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Theodora upheld those who maintained the single nature and persuaded Justinian to send for Severus",
+        "witness": "Evagrius IV.10 (l.8148-8169)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Theodora was devoted to Severus; he came to Constantinople after pressing summonses and was received in a friendly manner by the king",
+        "witness": "The Syriac Chronicle known as Zachariah's, Book IX ch. 19 (l.13160-13168), from its later compiler, not from Zachariah (Brooks, Introduction l.310-314)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "In March 536 Anthimus was deposed and he and Severus were expelled from the city; their final condemnation was decreed at the synod in May",
+        "witness": "Brooks, Introduction (l.238-240)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Justinian drew up a constitution in which he anathematised Severus, Anthimus and others",
+        "witness": "Evagrius IV.11 (l.8212-8215)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Died in Egypt on 8 February 538",
+        "witness": "Brooks, Introduction (l.240-241); an editor's date. A Syriac notice Kugener prints gives 8 February of the year 849 (l.19884-19885)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "To Misael the chamberlain: when raised to the bishopric it was his desire \"not to know even the very name\" of interest; seeing the church's debts, \"I forgot the spiritual laws\"; God \"alone is able to heal our church that is groaning under many wounds, and to change need into abundance\"",
+        "witness": "Severus, Select Letters I.17, tr. Brooks (l.2757-2790, 2826-2828); dated by Brooks to 513-518",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The collection of his letters cannot have held fewer than 3,759; the Syriac version of Athanasius of Nisibis, made in 669 at the instigation of the bishops Matthew of Berrhoea and Daniel of Edessa, holds 123",
+        "witness": "Brooks, Introduction (l.244-256, 276-280); an editor's reckoning",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "A second Life of Severus is by John, head of the monastery of Beth Aphthonia",
+        "witness": "Kugener, introduction to the second Life (l.12963, 12987-12988)",
+        "formation_confidence": "Documented"
+      }
+    ],
+    "contested_claims": [
+      {
+        "claim": "The year of his flight from Antioch",
+        "sides": "Brooks: 29 September 518, from the dated homilies ending with Lent 518 (l.200, 214-218). Evagrius: September of the year 567 of the era of Antioch (l.7894-7896), which Brooks says seems to place it in 519, as does Theophanes."
+      }
+    ],
+    "absent_details": [
+      {
+        "detail": "His birth year",
+        "note": "Neither Zachariah's Life as read here, Evagrius nor Brooks's introduction gives it. The Library's file note gives 'c. 459-538'; that is a catalogue date, not a held line, and is not used."
+      },
+      {
+        "detail": "His episcopate in detail",
+        "note": "Brooks says that outside the letters there is little evidence for it beyond what his enemies asserted at the synod of 536 (l.193-197)."
+      },
+      {
+        "detail": "His theological works",
+        "note": "The Philalethes and the works against Julian of Halicarnassus are named by Brooks (l.158-161, 203-206); they are not in the held translations, so their content is not told."
+      }
+    ]
+  },
+  "caesaria-of-arles-the-elder": {
+    "claims": [
+      {
+        "claim": "Caesarius built a convent for women beside the church and called his sister Caesaria from the monastery at Marseille, where he had sent her to learn what she would teach and be a pupil before a teacher; she entered the prepared rooms with two or three companions",
+        "witness": "Life of Caesarius I,35, by Cyprian of Toulon, Firminus and Viventius (krusch1896 l.37205-37212); the same passage in Migne (pl67 l.84953-84960, quoted as Cyprian's)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Crowds of virgins came, renouncing goods and parents, and sought 'Caesarii patris, Caesariae matris' gremium; they were enclosed so that none might go out of the convent door until the day of their death ('usque diem transitus earum')",
+        "witness": "Life I,35 (krusch1896 l.37212-37218)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Caesarius built a triple basilica with sarcophagi for the virgins' burial",
+        "witness": "Life I,57 (krusch1896 l.37990-37995)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Not long after, he buried his sister Caesaria, mother of the monastery, among those she had sent ahead, beside the burial place he had prepared for himself; she was succeeded by 'quae nunc superest Caesaria'",
+        "witness": "Life I,58 (krusch1896 l.38050-38054)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "At his death the second Caesaria was mother of more than two hundred girls",
+        "witness": "Life II,47 (krusch1896 l.39562-39563)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The Life was written at the request of the virgin Caesaria, still living, not of the sister",
+        "witness": "Life, prologue (krusch1896 l.36181-36183) with Life I,58 (l.38054); Migne's note (pl67 l.77109-77112); Bollandist commentary (pl67 l.96138-96145: 'ut per errorem scripserunt aliqui')",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "The convent was dedicated on 26 August 512",
+        "witness": "Krusch's introduction (krusch1896 l.34736-34737); an editor's date",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "The Marseille house was the women's monastery founded by Cassian",
+        "witness": "Krusch (krusch1896 l.34734, and note at l.37259 citing Gennadius c.62); an editor's identification",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Caesarius's Rule for nuns is addressed to the sisters in the monastery he founded",
+        "witness": "Regula ad virgines, prologue (pl67 l.85049-85052)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Two of Caesarius's letters are headed to Caesaria, abbess ('Caesariae sanctae sorori abbatissae'); Migne's editors say they are reported as sent to his sister",
+        "witness": "pl67 l.86506-86507, 86729-86732; Migne's preface (l.76990-76997: 'missae feruntur ad Caesariam sororem suam')",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "The manuscripts spell her Caesaria and Casaria; Krusch would prefer Casaria",
+        "witness": "Krusch's apparatus to Life I,35 (krusch1896 l.37238-37239) and introduction note (l.34741)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Venantius Fortunatus more than once held up Casaria, Caesarius's pious sister, as an example to follow; Krusch's note on her name cites Fortunatus's poems and a Gregory of Tours manuscript",
+        "witness": "Krusch, introduction, MGH SRM 3 (l.35667-35668; note 8, l.34757-34758); Fortunatus not held",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      }
+    ],
+    "contested_claims": [
+      {
+        "claim": "Which Caesaria the two letters of Caesarius address",
+        "sides": "Migne's preface: they are said to have been sent to his sister (pl67 l.76995-76997). The headings say only 'Caesaria, abbess' and 'holy sister abbess' (l.86506-86507, 86729-86732), and the Life names a second abbess Caesaria who outlived him (krusch1896 l.38054, 39563). No held line settles it."
+      }
+    ],
+    "absent_details": [
+      {
+        "detail": "Her birth, age and year of death",
+        "note": "The Life says only that she died not long after the burial church was built and before her brother. No held source gives a year."
+      },
+      {
+        "detail": "Her own words",
+        "note": "No writing of hers is held; the letters headed to an abbess Caesaria are Caesarius's, and their addressee is uncertain."
+      },
+      {
+        "detail": "Deeds of hers apart from her brother's",
+        "note": "The scan row notes that the deeds of the two Caesarias are not separable in the held text. The Life gives the Elder only her training, her entry, her title of mother and her burial; what it tells of the convent's later work belongs to the second Caesaria."
+      }
+    ]
+  },
+  "caesarius-of-arles": {
+    "claims": [
+      {
+        "claim": "After the siege of Arles was lifted, the Goths returned with a great crowd of captives and the churches filled with them",
+        "witness": "Life of Caesarius I,32 (krusch1896 l.37117-37118, rough OCR: 'Gothis cum captivorum inmensitate reversis, repletur baselica')",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "He gave the church's silver, including the vessels of the altar, to ransom the captives",
+        "witness": "Life I,32 (krusch1896 l.37118-37125, garbled OCR); Krusch's introduction summarises it as 'sacra ministeria vendens' (l.34711)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "He often said: 'Non credo contrarium esse Deo, de ministerio suo redemptionem dari, qui se ipsum pro hominis redemptione tradidit', addressed to clergy who would not give silver or gold of Christ's gifts for Christ's slaves",
+        "witness": "Life I,32 (krusch1896 l.37136-37146); the brief gives it in modern words",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Book one of the Life is by the bishops Cyprian, Firminus and Viventius; book two by the priest Messianus and the deacon Stephen",
+        "witness": "Manuscript incipit and explicit as Krusch reports them (krusch1896 l.36220-36221, l.39664-39665); contents (l.408-410); Krusch's introduction (l.35805-35843); Cyprian named 'Thelonensis episcopus' in Life I,60 (l.38080)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Krusch thinks Life I,60, which praises Cyprian, was written by Firminus or Viventius",
+        "witness": "Krusch's note (krusch1896 l.38107-38108)",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "The Life was written at the request of the virgin Caesaria and her community, for the convent he founded",
+        "witness": "Life, prologue (krusch1896 l.36181-36184)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The writers call him 'patris nostri'",
+        "witness": "Life I,14 (krusch1896 l.36579)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Said to be a native of the territory of Chalon, of parents noble in faith and morals",
+        "witness": "Life I,3 (krusch1896 l.36259-36262: 'Cabillonensis territorii fertur indigena')",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "In his eighteenth year, without his family knowing, he asked bishop Silvester of Chalon to tonsure him and take him into the church's service",
+        "witness": "Life I,4 (krusch1896 l.36274-36279)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "After two years or more he went to the monastery of Lérins, received by the abbot Porcarius",
+        "witness": "Life I,4-5 (krusch1896 l.36330-36343)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Austerity broke his health and his abbot sent him to Arles to recover",
+        "witness": "Life I,6-7 (krusch1896 l.36367-36422)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Bishop Eonius of Arles had him ordained deacon and priest and arranged for him to succeed",
+        "witness": "Life I,11-13 (krusch1896 l.36500-36575, rough OCR)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "When he learned he was to be made bishop he hid among tombs",
+        "witness": "Life I,14 (krusch1896 l.36579-36582)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Krusch dates his birth to 469/70 and his election to between 501 and 503",
+        "witness": "Krusch's notes (krusch1896 l.36313, l.35270); editor's dates",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "His notary Licinianus accused him before Alaric, king of the Visigoths, of wanting to put Arles under the Burgundians; condemned on false charges, he was exiled to Bordeaux",
+        "witness": "Life I,21 (krusch1896 l.36809-36824); the Life calls the charge false and devilish",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The Life calls Alaric 'Arriana barbarus perversitate subversus'",
+        "witness": "Life I,20 (krusch1896 l.36758-36761); the Life's polemic",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "He signed the canons of Agde in the twenty-second year of King Alaric",
+        "witness": "Council of Agde, preface and signature (hispana 1808 l.28237-28238, l.29444-29450); the collection's heading gives the Spanish era DXLIV",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Arles passed from the Visigoths to the Ostrogoths",
+        "witness": "Life I,34 (krusch1896 l.37198-37200)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Accused again, he was taken under guard to Ravenna to King Theodoric",
+        "witness": "Life I,36 (krusch1896 l.37219-37224)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Theodoric gave him a silver dish, which he sold to free many captives",
+        "witness": "Life I,37-38 (krusch1896 l.37286-37300, garbled OCR); Krusch's summary (l.34755-34757)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Pope Symmachus in Rome granted him the privilege of the pallium",
+        "witness": "Life I,42 (krusch1896 l.37430-37442, rough OCR)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Rivals opposed his teaching on grace; bishops met at Valence; Caesarius, ill, sent Cyprian of Toulon, who argued that no one can make progress in divine things by himself unless first called by God's prevenient grace; Pope Boniface confirmed Caesarius's position",
+        "witness": "Life I,60 (krusch1896 l.38073-38081, 38141-38152)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The acts of Valence are lost",
+        "witness": "Krusch's note (krusch1896 l.38106-38107)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "At the dedication of Liberius's basilica at Orange the bishops heard that some held wrong views on grace and free will, and signed chapters sent from the apostolic see; Caesarius signed first and kept the original in the church's archive",
+        "witness": "Council of Orange, preface and signatures (maassen1893 l.4232-4245, l.4784-4785, l.4799-4800)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The Orange acts are dated 3 July in the consulship of Decius the Younger; Maassen heads them 529 and says Caesarius presided",
+        "witness": "Maassen (maassen1893 l.4142, 4152-4153, 4800); the year is the editor's",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Whether Valence came before or after Orange is left open",
+        "witness": "Maassen (maassen1893 l.5240-5242)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "He sent through priests what they should preach in their churches to Francia, Gaul, Italy, Spain and other provinces",
+        "witness": "Life I,55 (krusch1896 l.37972-37976)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "He led the church of Arles for forty years",
+        "witness": "Life II (krusch1896 l.39316-39320: 'per istos quadraginta annos, quibus administravit')",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "He died on the sixth day before the Kalends of September, the third day after the feast of St Genesius; Krusch gives 542",
+        "witness": "Life II,48 (krusch1896 l.39577-39578); Krusch's introduction (l.35237-35239)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Rule for Nuns, prologue: he asks the sisters to pray that when they enter the kingdom with the wise virgins he may not be left outside with the foolish",
+        "witness": "Regula ad virgines, prologue (pl67 l.85049-85058, two-column OCR)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The Rule's first chapter: whoever renounces the world and enters is not to leave the monastery until death",
+        "witness": "Regula ad virgines I (pl67 l.85186-85192, rough OCR)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Sermons transmitted under Augustine's name are attributed to him by style and content",
+        "witness": "Library file header citing the PL 39 editorial notes (caesarius-arles_sermons-pseudo-augustinian_migne-pl39.txt l.3-7)",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Radegund brought his Rule into her convent at Poitiers",
+        "witness": "Migne's critical observation (pl67 l.85030-85036); Krusch (krusch1896 l.35654-35655)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Venantius Fortunatus: 'Qui fuit antistes Arelas de sorte Lerini, Et mansit monachus pontificale decus'",
+        "witness": "Krusch's introduction quoting Fortunatus (krusch1896 l.35663-35667); Fortunatus not held",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Through forty years, whenever he went to bless the font, 'semper in oculis omnium novus apparebat'",
+        "witness": "Life II (krusch1896 l.39313-39322)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The Testament in his name was forged by a cleric of the cathedral",
+        "witness": "Krusch (krusch1896 l.35677-35690)",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      }
+    ],
+    "contested_claims": [
+      {
+        "claim": "Whether the meeting at Valence came before or after the council of Orange",
+        "sides": "The Life tells Valence and does not name Orange (krusch1896 l.38073-38152). Maassen: 'Ambiguum igitur relinquitur, utrum concilio Arausicano a. 529 Valentinum prius an posterius habitum sit' (maassen1893 l.5240-5242). Krusch: the acts of Valence are lost (l.38106-38107)."
+      }
+    ],
+    "absent_details": [
+      {
+        "detail": "His year of birth and of election",
+        "note": "The Life gives ages (seventh year, eighteenth year) and forty years of office, not years. 469/70 and 501-503 are Krusch's (krusch1896 l.36313, 35270)."
+      },
+      {
+        "detail": "That he presided at Agde",
+        "note": "The scan row says he presided at Agde. The held acts show his signature (hispana l.29444-29450) but the lines opened do not say he presided; the brief and card say only that he signed. Not stated."
+      },
+      {
+        "detail": "The authorship of individual sermons",
+        "note": "The held PL 39 sermons are attributed by editors; no held line settles any single sermon."
+      }
+    ]
+  },
+  "julian-missionary-to-the-nobadae": {
+    "claims": [
+      {
+        "claim": "A presbyter named Julianus, an old man, among the clergy in attendance upon Theodosius, wished to christianize the people on the borders of the Thebais beyond Egypt, not subject to Rome and paid a subsidy not to raid Egypt; he spoke of them to Theodora",
+        "witness": "John of Ephesus, HE III.iv.6, tr. Payne Smith (l.12755-12768)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Justinian, hearing that Julian opposed the council of Chalcedon, wrote to the bishops of his own side in the Thebais to go and 'plant among them the name of the synod', and sent ambassadors with gold and baptismal robes",
+        "witness": "John of Ephesus, HE III.iv.6 (l.12775-12802)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Theodora's letter to the duke of the Thebais: 'your life shall answer for it; for I will immediately send and take off your head'; the duke delayed the emperor's ambassador on the pretext of finding beasts of burden and guides",
+        "witness": "John of Ephesus, HE III.iv.6-7, quoting the letter (l.12808-12857)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The king and princes of the Nobadae received Julian, abjured the error of their forefathers; Julian told them of Chalcedon and Theodosius; they accepted the emperor's present and refused his faith, saying they would 'walk after the example of pope Theodosius'",
+        "witness": "John of Ephesus, HE III.iv.7 (l.12860-12931)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Julian remained two years, suffering from the heat; he used to say that 'from nine o'clock until four in the afternoon' he sheltered in caverns full of water, girt with a linen garment; he taught and baptized the king, nobles and much people",
+        "witness": "John of Ephesus, HE III.iv.7, reporting Julian's words (l.12931-12944)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "He left them to Theodore, an old bishop from the Thebais, whom John later calls bishop of Philae; returned to Constantinople and was honourably received by the queen",
+        "witness": "John of Ephesus, HE III.iv.7 (l.12944-12962) and iv.49 (l.15446-15457)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Julian 'their teacher' died a very short time before Theodosius; Theodora had ordered that Longinus be made bishop there",
+        "witness": "John of Ephesus, HE III.iv.8 (l.12974-12985)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Julian taught 'both the king and his princes, and most of the tribes in his dominions, for a period of two years'",
+        "witness": "John of Ephesus, HE III.iv.49 (l.15446-15452)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "John of Ephesus was a Monophysite who refused the council of Chalcedon",
+        "witness": "Payne Smith, translator's preface (l.286-291)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Michael the Syrian retells the mission, abridged from John of Ephesus, and says Julian died in the imperial city after his return",
+        "witness": "Michael the Syrian, Chronicle IX.31, tr. Chabot (l.20271-20411); Chabot's note 3 (l.20293)",
+        "formation_confidence": "Documented"
+      }
+    ],
+    "contested_claims": [],
+    "absent_details": [
+      {
+        "detail": "Any year for the mission or for Julian's death",
+        "note": "John of Ephesus gives none; he places the mission under Justinian and Theodora and the death a very short time before that of Theodosius (l.12974-12978). The census's 543 rests on no held line."
+      },
+      {
+        "detail": "A second, independent witness",
+        "note": "Michael the Syrian's account is abridged from John (Chabot's note, l.20293). No held source tells the race from the emperor's side. Bar Hebraeus's Chronicon ecclesiasticum retells the mission (barhebraeus vol1 l.14057-14188); it is later and adds that Julian served Theodosius at Constantinople (l.14057-14060)."
+      },
+      {
+        "detail": "Julian's origin, birth and writings",
+        "note": "John gives none; he calls him only a presbyter and an old man among Theodosius's clergy."
+      },
+      {
+        "detail": "Where Julian died",
+        "note": "John does not say; Michael the Syrian says in the imperial city (l.20410-20411)."
+      }
+    ]
+  },
+  "ferrandus-of-carthage": {
+    "claims": [
+      {
+        "claim": "The Roman deacons Pelagius and Anatolius wrote to Ferrandus, deacon of Carthage, asking him to answer after careful discussion with the bishop of Carthage or others with zeal for the faith and knowledge of Scripture",
+        "witness": "Facundus of Hermiane, Pro defensione trium capitulorum IV (pl67 l.49117-49127)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Opponents of Chalcedon (the Acephali) sought to have condemned the letter of Ibas of Edessa, which the council judged catholic, Theodore of Mopsuestia and his teaching, and certain writings of Theodoret of Cyrrhus",
+        "witness": "Facundus, preface to the Defence (pl67 l.41870-41880); a partisan of the Three Chapters",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The Romans asked whether anyone may be condemned after death",
+        "witness": "The book on church writers printed with Isidore of Seville (pl83 l.121206-121290, as chapter 11 of Isidore's De viris illustribus in Arevalo's edition), quoted in a Migne note (pl67 l.49140-49150) and by Gallandi (l.68266-68291)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "What holy bishops decide in council is to be followed and not reopened; \"Quid prodest cum dormientibus habere certamen, aut pro dormienti bus Eeclesiam perturbare?\" (OCR as in the file); if God has given pardon, our severity does no harm; if he has prepared punishment, our kindness does no good",
+        "witness": "Ferrandus, Letter VI to Pelagius and Anatolius, §7 (pl67 l.71428-71451)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Letter VI is for the letter of Ibas and so for the three chapters of Chalcedon, against the Acephali",
+        "witness": "Heading of Letter VI (pl67 l.71087-71093); Chifflet, as Gallandi quotes him (l.68303-68311)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Wrote to Fulgentius, calling him his absent teacher ('absentem magistrum'), with five questions; another letter asks two questions on an Ethiopian catechumen baptized when illness had taken his mind, who died without receiving the eucharist",
+        "witness": "Ferrandus, Letters to Fulgentius (pl67 l.68749-68765, 'absentem magistrum' l.68761; pl65 l.24760-24763, heading of Epistola XI)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Made a digest of canons, each rule citing its council; the year is unknown",
+        "witness": "Breviatio canonum (pl67 l.73067-73080, 73432-73470); Gallandi (l.68564-68566)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Wrote to Count Reginus on how a religious commander should act, as seven rules of innocence",
+        "witness": "Heading of Letter VII (pl67 l.71557-71561)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Followed the African bishops exiled to Sardinia by King Thrasamund, became a monk in Fulgentius's monastery there, returned to Africa when Hilderic recalled the bishops in 525, and was made deacon by Boniface of Carthage",
+        "witness": "Noris, as Gallandi quotes him (pl67 l.67848-67866); Gallandi says Noris could have this only from the Life of Fulgentius (l.68650-68660)",
+        "formation_confidence": "Inferential-Thin"
+      },
+      {
+        "claim": "Perhaps a kinsman of Fulgentius",
+        "witness": "Chifflet, as Gallandi reports (pl67 l.67842-67846); a guess",
+        "formation_confidence": "Inferential-Thin"
+      },
+      {
+        "claim": "'Ferrandus Carthaginis ecclesiae diaconus clarus habetur' (OCR 'ccclesiae', 'habctur'), under the sixth year after the consulship of Basilius",
+        "witness": "Victor of Tunnuna, Chronicle (mommsen1894 l.18985-18989); the year 546 is Mommsen's margin",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Dead by 547, when Facundus wrote and called him 'laudabilis in Christo memoriae'",
+        "witness": "Gallandi (pl67 l.67896-67909), on Facundus (l.49121, OCR 'memori'); Chifflet as quoted (l.68326-68330)",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Lived to 548",
+        "witness": "Pagi and Natalis Alexander, as Gallandi reports them, 'absque testibus' (pl67 l.67895-67896)",
+        "formation_confidence": "Inferential-Thin"
+      }
+    ],
+    "contested_claims": [
+      {
+        "claim": "Ferrandus wrote the Life of Fulgentius of Ruspe",
+        "sides": "For: Chifflet (preface to Ferrandus, Dijon 1649; pl65 note l.7960-7963; his reasons as Gallandi quotes them, pl67 l.68593-68630), with Pithou, Miraeus, Christianus Lupus and Natalis Alexander as Gallandi lists them (l.68672-68678); Gallandi argues that Noris later changed his mind (l.68645-68660) and prints the Life after Ferrandus's undoubted works (l.68588-68592). Against: Noris, followed by Pagi, Mangeant and Fontanini (pl67 l.68678-68681); the note in Migne's Fulgentius: the Life's author seems never to have left Fulgentius's side, which cannot be said of Ferrandus (pl65 l.7963-7966)."
+      },
+      {
+        "claim": "The author of the book on church writers that quotes Ferrandus's letter",
+        "sides": "Unknown: Gallandi, 'incertus auctor libelli de xii Scriptoribus ecclesiasticis' (pl67 l.68268-68270, 68287); Miraeus, as Arevalo reports him, held the twelve chapters not Isidore's (pl83 l.120512-120514). Isidore: Baronius, as Gallandi reports him (pl67 l.68296-68297); Arevalo's edition, which prints the notice as chapter 11 of Isidore's De viris illustribus and sets 'Hactenus Isidorus' after chapter 46 (pl83 l.120512-120535, 121206)."
+      }
+    ],
+    "absent_details": [
+      {
+        "detail": "Birth, and the place and manner of his death",
+        "note": "No held source gives his birth. Chifflet, as Gallandi quotes him, did not know whether he died in exile or at home (pl67 l.68319-68323)."
+      },
+      {
+        "detail": "His life before Carthage",
+        "note": "Rests on the Life of Fulgentius, if it is his; otherwise only his own letters, which call Fulgentius his absent teacher."
+      }
+    ]
+  },
+  "benedict-of-nursia": {
+    "claims": [
+      {
+        "claim": "Lived three years in a narrow cave at Subiaco (Sublacum), almost forty miles from Rome, known only to the monk Romanus, who let down a loaf on a long rope with a little bell tied to it",
+        "witness": "Gregory, Dialogues II, tr. P.W. 1608, ed. Gardner (l.3488-3512)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Gregory could not learn all his acts and had what he reports from four of Benedict's disciples: Constantinus, Valentinianus, Simplicius and Honoratus",
+        "witness": "Gregory, Dialogues II, tr. P.W. 1608, ed. Gardner (l.3427-3441)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The Dialogues are a book of the life and miracles of the Italian fathers, written in 593",
+        "witness": "Gardner's Introduction (l.1022-1027); an editor's date",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Born in the province of Nursia of honourable parentage, brought up at Rome in study, and left his books and his father's house when he saw many fall into dissolute life",
+        "witness": "Gregory, Dialogues II, tr. P.W. 1608, ed. Gardner (l.3405-3425)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Born about 480",
+        "witness": "Gardner's notes (l.12628); Gasquet's Introduction, 'in the year 480' (benedict gasquet l.171-173); editors' dates",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "The monks of a nearby monastery made him abbot, poisoned his wine when he held them to regular life, and the glass broke at his sign of the cross; he told them, \"Go your ways, and seek ye out some other father suitable to your own conditions\"",
+        "witness": "Gregory, Dialogues II, tr. P.W. 1608, ed. Gardner (l.3640-3699)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Built twelve abbeys in the same place, with twelve monks in each; Roman nobles brought him their sons, Maurus and Placidus",
+        "witness": "Gregory, Dialogues II, tr. P.W. 1608, ed. Gardner (l.3843-3858)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "At Cassino broke the idol of Apollo, overthrew the altar, burned the woods, and built the oratories of St. Martin and St. John the Baptist",
+        "witness": "Gregory, Dialogues II, tr. P.W. 1608, ed. Gardner (l.4166-4183; St. John Baptist named at the burial, l.5612-5613)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Monte Cassino founded in 528 or 529",
+        "witness": "Gardner's notes (l.12691-12692); Gasquet, 'about the year 528' (benedict gasquet l.197-200); editors' dates",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Totila, king of the Goths, sent his guardsman Riggo in his robes to test him; Benedict saw through it and foretold the king's fate",
+        "witness": "Gregory, Dialogues II, tr. P.W. 1608, ed. Gardner (l.4412-4488); Gardner places the meeting probably in 542 (l.12720-12725)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "\"He wrote a rule for his monks, both excellent for discretion and also eloquent for the style\"; \"the holy man could not otherwise teach, than himself lived\"",
+        "witness": "Gregory, Dialogues II, tr. P.W. 1608, ed. Gardner (l.5555-5572)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "\"Listen, my son, and turn the ear of thine heart to the precepts of thy Master\"",
+        "witness": "Rule, Prologue, tr. Gasquet (l.626-627)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "\"We are therefore now about to institute a school for the service of God, in which we hope nothing harsh nor burdensome will be ordained\"",
+        "witness": "Rule, Prologue, tr. Gasquet (l.768-770); Latin 'Constituenda est ergo nobis Dominici' (hunter-blair l.1240)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Idleness is an enemy of the soul; set hours for manual labour and holy reading",
+        "witness": "Rule ch. 48, tr. Gasquet (l.3113-3116; OCR 'IpnLENEss')",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "All guests who come are to be received as Christ",
+        "witness": "Rule ch. 53, tr. Gasquet (l.3305-3310; OCR 'Ler all guests')",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The Rule calls itself \"this little Rule written for beginners\" and points to the Scriptures and the Fathers for those who seek perfection",
+        "witness": "Rule ch. 73, tr. Gasquet (l.4270-4300)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Probably conceived the Rule at Subiaco and compiled it finally at Monte Cassino",
+        "witness": "Gasquet's Introduction (benedict gasquet l.193-200); an editor's 'probably'",
+        "formation_confidence": "Inferential-Thin"
+      },
+      {
+        "claim": "Foretold his death, had his grave opened six days before, and died standing in the oratory, held up by his disciples, praying; buried in the oratory of St. John Baptist, where his sister Scholastica had been laid",
+        "witness": "Gregory, Dialogues II, tr. P.W. 1608, ed. Gardner (l.5428-5437, 5574-5613)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Died on 21 March 543, according to tradition",
+        "witness": "Gardner's notes (l.12776-12779); Gasquet, 'according to the tradition of the Benedictine Order' (benedict gasquet l.201-203)",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      }
+    ],
+    "contested_claims": [],
+    "absent_details": [
+      {
+        "detail": "A second early witness to his life",
+        "note": "Every fact of his life rests on Gregory's Dialogues II; the Library's file note calls it the only surviving Life. The Rule tells nothing of its author's life."
+      },
+      {
+        "detail": "Years in Gregory",
+        "note": "Gregory gives no year for any event. The years 480, 528 or 529, 542 and 543 are Gardner's and Gasquet's. The Library's file headers give 'c. 480-c. 547'; no held editor gives 547."
+      },
+      {
+        "detail": "The date he left Rome",
+        "note": "Gardner says it is disputed and was probably a few years before 500 (l.12628-12630); he names no sides."
+      }
+    ]
+  }
+}

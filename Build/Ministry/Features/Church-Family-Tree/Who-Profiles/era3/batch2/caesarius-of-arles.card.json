@@ -1,0 +1,97 @@
+{
+  "name": "Caesarius of Arles",
+  "otherNames": [
+    "Caesarius Arelatensis"
+  ],
+  "knownFor": "Bishop of Arles in Gaul who gave the church's silver to free captives, signed first at the council of Orange on grace and free will, and wrote rules for monks and for nuns.",
+  "dates": "Died on 27 August, the sixth day before the Kalends of September, as his Life gives it. Bruno Krusch, who edited the Life, gives the year 542, his birth about 469 or 470, and his election between 501 and 503. Friedrich Maassen dates the council of Orange to 529",
+  "place": "Born near Chalon, by his Life's account; the island monastery of Lérins; Arles; exile at Bordeaux; Ravenna",
+  "tradition": "Merovingian Gallic Christianity",
+  "role": "Monk of Lérins, then bishop of Arles",
+  "briefLength": "about 2 minutes 30 seconds",
+  "keyWorks": [
+    {
+      "title": "Rule for Nuns (Regula ad virgines)",
+      "about": "the rule for the convent he founded at Arles, addressed to its sisters; those who enter are not to leave the convent until death"
+    },
+    {
+      "title": "Rule for Monks (Regula ad monachos)",
+      "about": "his rule for men's communities, printed with the Rule for Nuns in Migne's Latin edition"
+    },
+    {
+      "title": "Sermons",
+      "about": "preaching he sent out for priests to use, by his Life's account as far as Italy and Spain; many came down under Augustine's name and are given to Caesarius by Migne's editors on grounds of style and content"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "The acts of the council of Orange, which he signed first, set out chapters on grace and free will sent from Rome. His own line in the acts says he issued the text and kept the original in the church's archive.",
+      "His Life says Boniface, bishop of Rome, upheld his teaching on grace against rivals in Gaul.",
+      "Migne's editors say Radegund brought his Rule for nuns into her convent at Poitiers."
+    ],
+    "remembered": [
+      "His disciples, in the Life: through the forty years he led the church, whenever he went out to bless the font he seemed new to all who saw him, \"semper in oculis omnium novus apparebat\".",
+      "Friedrich Maassen, editor of the Merovingian councils, calls him the bishop \"qui concilio Arausicano praesedit\", who presided at Orange.",
+      "Venantius Fortunatus, in verses Bruno Krusch quotes: he \"mansit monachus pontificale decus\", he stayed a monk and was the glory of bishops."
+    ]
+  },
+  "uncertain": [
+    "His life rests on the Life his disciples wrote, a saint's Life by men who called him father. The bishops Cyprian of Toulon, Firminus and Viventius wrote book one, and the priest Messianus and the deacon Stephen book two, by Bruno Krusch's reading and a manuscript's closing note. Krusch thinks chapter 60 of book one, which praises Cyprian, is by Firminus or Viventius.",
+    "The years are editors'. The Life gives the day of his death and says he led the church of Arles for forty years. Krusch gives 542, his birth about 469 or 470 and his election between 501 and 503.",
+    "The Life tells of a meeting of bishops at Valence on grace and does not name Orange. Maassen leaves open whether Valence came before or after Orange, and Krusch says the acts of Valence are lost.",
+    "The charge before Alaric, that he meant to hand Arles to the Burgundians, is told only by the Life, which calls it false and the work of the devil.",
+    "Many of his sermons came down under Augustine's name. Migne's editors give them to him on grounds of style and content.",
+    "The Life calls the Visigothic king Alaric a barbarian of Arian perversity. That is the Life's polemic.",
+    "A Testament in his name survives. Krusch holds it forged by a cleric of the cathedral of Arles, to secure the cathedral's freedom from taxes and to place the convent under its bishop."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Rule for Nuns and Rule for Monks, with letters to the abbess Caesaria",
+        "language": "Latin",
+        "file": "cic/texts/facundus-ferrandus-caesarius-dionysius-pl67-lat_migne1865.txt"
+      },
+      {
+        "title": "Sermons (transmitted under Augustine's name)",
+        "language": "Latin",
+        "file": "cic/texts/caesarius-arles_sermons-pseudo-augustinian_migne-pl39.txt"
+      },
+      {
+        "title": "His signatures in the acts of Orange and other Gallic councils",
+        "language": "Latin",
+        "file": "cic/texts/concilia-aevi-merovingici-mgh-concilia-1-lat_maassen1893.txt"
+      },
+      {
+        "title": "His signature in the acts of the council of Agde",
+        "language": "Latin",
+        "file": "cic/texts/collectio-canonum-ecclesiae-hispanae-toledo-iii-lat_1808.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Life of Caesarius, bishop of Arles, in two books",
+        "author": "Cyprian of Toulon, Firminus, Viventius, Messianus and Stephen",
+        "language": "Latin, ed. Bruno Krusch",
+        "file": "cic/texts/passiones-vitaeque-sanctorum-merovingici-mgh-srm-3-lat_krusch1896.txt"
+      },
+      {
+        "title": "Introduction and notes to the Life",
+        "author": "Bruno Krusch",
+        "language": "Latin",
+        "file": "cic/texts/passiones-vitaeque-sanctorum-merovingici-mgh-srm-3-lat_krusch1896.txt"
+      },
+      {
+        "title": "Notes to the council of Orange",
+        "author": "Friedrich Maassen",
+        "language": "Latin",
+        "file": "cic/texts/concilia-aevi-merovingici-mgh-concilia-1-lat_maassen1893.txt"
+      },
+      {
+        "title": "Commentary on Caesarius, from the Bollandists",
+        "author": "Bollandists, printed by Jacques-Paul Migne",
+        "language": "Latin",
+        "file": "cic/texts/facundus-ferrandus-caesarius-dionysius-pl67-lat_migne1865.txt"
+      }
+    ]
+  }
+}
