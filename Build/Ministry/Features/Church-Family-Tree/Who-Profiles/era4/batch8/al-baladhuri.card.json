@@ -1,0 +1,60 @@
+{
+  "name": "al-Baladhuri",
+  "label": "Outside witness",
+  "otherNames": [
+    "Ahmad ibn Yahya ibn Jabir al-Baladhuri (Philip Hitti)"
+  ],
+  "knownFor": "A Muslim historian of Baghdad whose Futuh al-Buldan tells how the Muslim conquests were won. It records the terms made with Christian peoples and the fate of churches such as Saint John's at Damascus.",
+  "dates": "Died in 892, the year 279 of the hijra, by Philip Hitti from the older Arab lives. No source used here gives his birth",
+  "place": "Baghdad",
+  "tradition": "Outside the church",
+  "role": "Historian of the Muslim conquests",
+  "briefLength": "about 2 minutes 15 seconds",
+  "keyWorks": [
+    {
+      "title": "Futuh al-Buldan",
+      "about": "the conquests, land by land, with the terms made with each people. Hitti says it is a digest of a larger work that is lost. Held in Hitti's English, volume 1"
+    },
+    {
+      "title": "Ansab al-Ashraf (Lineage of Nobles)",
+      "about": "of which Hitti says two volumes survive. Not held"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "His book keeps the terms made with Christian peoples, among them Najran, Damascus and the Nubians.",
+      "Hitti says the geographer Yakut reproduces a great part of the book, and that later historians drew freely on it."
+    ],
+    "remembered": [
+      "Al-Mas'udi, as Hitti quotes him: \"We know of no better work on the history of the Moslem conquests\".",
+      "Richard Gottheil, in his foreword to Hitti, calls the book one of the chief authorities for the forming of the Arab state."
+    ]
+  },
+  "uncertain": [
+    "He writes as a Muslim historian of the conquests, from reports passed down to him. His life is known from later Arab lives, as Hitti gives them.",
+    "How far to trust him. Hitti finds the book free from exaggeration and sincere in seeking the fact. He also says the author scarcely judges what he reports.",
+    "The shortened book. Hitti and Gottheil say the Futuh is a digest of a larger work, now lost. Hitti says some passages are mutilated and ambiguous.",
+    "His sources. Hitti says he mostly follows the tradition of Medina, and that many of his authorities' works are lost.",
+    "How he died. Hitti reports from the older lives that he lost his mind from drinking anacardia juice. That story also explains his name."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "The Origins of the Islamic State, volume 1 (Futuh al-Buldan, tr. Philip Khuri Hitti)",
+        "author": "al-Baladhuri; Philip Khuri Hitti (tr.)",
+        "date": "1916",
+        "language": "English translation",
+        "file": "cic/texts/baladhuri_origins-of-the-islamic-state-v1_hitti1916.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "The Origins of the Islamic State, introduction and foreword",
+        "author": "Philip Khuri Hitti; Richard Gottheil",
+        "date": "1916",
+        "language": "English",
+        "file": "cic/texts/baladhuri_origins-of-the-islamic-state-v1_hitti1916.txt"
+      }
+    ]
+  }
+}

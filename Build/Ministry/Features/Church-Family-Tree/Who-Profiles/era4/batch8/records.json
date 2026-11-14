@@ -430,5 +430,64 @@
         "note": "None found. The census also joins them."
       }
     ]
+  },
+  "al-baladhuri": {
+    "claims": [
+      {
+        "claim": "Saint John's at Damascus: Mu'awiyah \"desired to add the church of St. John to the mosque in Damascus; but the Christians refused\"; 'Abd al-Malik offered money; al-Walid: \"If ye do not agree, I will surely tear it down\"; \"He, 'Commander of the Believers', who tears down a church will lose his wits and be affected with some blight\"; \"ordered that a spade be brought and began demolishing the walls with his own hand, while he had a robe of yellow silk on him\"; workmen \"pulled the church down\"",
+        "witness": "BAL (baladhuri_origins-of-the-islamic-state-v1_hitti1916.txt) l.8130-8156",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "'Umar ibn 'Abd al-'Aziz ordered the part returned; the people of Damascus objected; the canonists proposed \"to turn over to them all the churches of al-Ghutah that had been taken by force and were in the hands of the Moslems, provided they give up the church of St. John\"; the Christians consented",
+        "witness": "BAL l.8156-8172",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Najran: \"security shall involve their persons, religion, lands and possessions\"; \"No attempt shall be made to turn a bishop from his office as a bishop, a monk from his office as a monk\"",
+        "witness": "BAL l.4552-4560",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Nubia: al-Laith ibn Sa'd, \"that they give slaves and we give them their value in terms of food\"; abu-l-Bukhturi, \"four hundred slaves per year ... for whom they shall receive food in exchange\"",
+        "witness": "BAL l.15235-15249",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Hitti's life: \"Ahmad ibn-Yahya ibn-Jabir al-Baladhuri was a native of Baghdad descended from Persian stock\"; \"an intimate friend of the caliphs al-Mutawakkil and al-Musta'in\"; \"The year 279/892 saw his death, mentally deranged as a result of drinking the juice of the anacardia (baladhur); hence his surname\"; sources al-Fihrist, Yakut, al-Kutubi",
+        "witness": "BAL l.731-746",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Hitti on method and trust: \"spares no pains in basing every fact, whenever possible, on an independent isnad, yet he sometimes resorts to the other method\"; \"It is free from exaggeration and the flaws of imagination\"; \"the sincere attempt of the author to get to the fact as it happened\"; \"Scarcely an opinion or remark is made\"; \"Certain passages are mutilated and ambiguous\"; the Madinah tradition \"forms the basis of his works\"",
+        "witness": "BAL l.626-629, 649-652, 768-790",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Futuh \"a digest of a larger work that has been lost\"; Ansab al-Ashraf, \"of which only two volumes are preserved\"; Gottheil: \"a shortened edition of a much larger one\"",
+        "witness": "BAL l.745-747, 177-179",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Al-Mas'udi: \"We know of no better work on the history of the Moslem conquests\"; Yakut \"reproduces a great part of the book\"; Gottheil: \"recognized as one of our chief authorities for the period during which the Arab state was in process of formation\"",
+        "witness": "BAL l.917-927, 172-175",
+        "formation_confidence": "Documented"
+      }
+    ],
+    "contested_claims": [],
+    "absent_details": [
+      {
+        "detail": "His birth year and family beyond his grandfather",
+        "note": "Hitti gives his grandfather Jabir, secretary in Egypt under ar-Rashid; no birth year is held."
+      },
+      {
+        "detail": "The Arabic text and volume 2 of Hitti",
+        "note": "Not held."
+      },
+      {
+        "detail": "Any work of his on the church as such",
+        "note": "None held; the church appears only in his conquest narratives."
+      }
+    ]
   }
 }
