@@ -42,7 +42,7 @@
         "formation_confidence": "Widely Accepted"
       },
       {
-        "claim": "The Life: 'Tempore Zenonis imperatoris beatus Avitus episcopus ... Viennensem ecclesiam post patrem Isicium aeque episcopum suscepit regendam'; Isicius 'vir primum fuit senatoriae dignitatis', with two sons, 'Apollinaris Valentiae episcopus miraculis insignis et Avitus, qui ... in Viennensi episcopatu patri successor extitit' (cleaned reading)",
+        "claim": "The Life: 'Tempore Zenonis imperatoris beatus Avitus episcopus ... Viennensem ecclesiam post patrem Isicium aeque episcopum suscepit regendam'; Isicius 'vir primum fuit senatoriae dignitatis', with two sons, 'Apollinaris Valentiae episcopus miraculis insignis et Avitus, qui ... in Viennensi episcopatu patri successor extitit' (cleaned reading). The card's 'his Life puts this in the time of the emperor Zeno' rests on 'Tempore Zenonis imperatoris'",
         "witness": "Anonymous Vita Aviti, in Peiper (avitus-vienne_opera-mgh-aa-6-2-lat_peiper1883 l.18084-18090; OCR very heavy: 'Zeucniis iiuperat(UMs', ']0st ]iatreiii Isiciiiii', 'A]iolliuaris Valentiae e])iscopus niiraeulis iusignis'); hagiography",
         "formation_confidence": "Documented"
       },
@@ -102,13 +102,13 @@
         "formation_confidence": "Widely Accepted"
       },
       {
-        "claim": "Agobard: 'Qui ipso Gundobado in sua perfidia perdito successorem eius Sigismundum regem ad fidem catholicam convertit' (OCR 'Sigisraundum', 'couvertit')",
+        "claim": "Agobard: 'Qui ipso Gundobado in sua perfidia perdito successorem eius Sigismundum regem ad fidem catholicam convertit' (OCR 'Sigisraundum', 'couvertit'): he turned Gundobad's successor Sigismund to the Catholic faith 'once Gundobad was lost in his unbelief', as the brief and card render 'in sua perfidia perdito'. Whether 'perdito' means after Gundobad's death or only once he was given up as lost the words do not settle, and Peiper's date for the conversion letter falls while Gundobad lived",
         "witness": "Agobard, Adversus legem Gundobadi c. 13 (avitus-vienne_opera-mgh-aa-6-2-lat_peiper1883 l.5548-5549); a ninth-century witness",
         "formation_confidence": "Contested"
       },
       {
-        "claim": "Against Agobard's order: the letter to the pope of Rome on Sigismund's conversion, 'epistulae ad papam urbis de conversione Sigismundi regis fragmentum', which Peiper dates 'intra a. 513 — 516?'; Peiper puts the Geneva letters and homilies 'intra annos 513 et 516', when Sigismund was proving 'fidem, quam professus erat nuper'",
-        "witness": "Peiper, apparatus to ep. 8 (avitus-vienne_opera-mgh-aa-6-2-lat_peiper1883 l.8102-8103, OCR 'iid piipam', 'reijis fraymentwn'); table of letters (avitus-vienne_opera-mgh-aa-6-2-lat_peiper1883 l.43288, OCR '510?'); prooemium (avitus-vienne_opera-mgh-aa-6-2-lat_peiper1883 l.3380-3383)",
+        "claim": "Against Agobard's order: the letter to the pope of Rome on Sigismund's conversion, 'epistulae ad papam urbis de conversione Sigismundi regis fragmentum', which Peiper dates, with a query, 'intra a. 513 — 516?'; Peiper puts the Geneva letters and homilies 'intra annos 513 et 516', when Sigismund was proving 'fidem, quam professus erat nuper'",
+        "witness": "Peiper, apparatus to ep. 8 (avitus-vienne_opera-mgh-aa-6-2-lat_peiper1883 l.8102-8103, OCR 'iid piipam', 'reijis fraymentwn'); table of letters (avitus-vienne_opera-mgh-aa-6-2-lat_peiper1883 l.43290, OCR '513 — 510?'); the query is why the brief says 'tentatively'; prooemium (avitus-vienne_opera-mgh-aa-6-2-lat_peiper1883 l.3380-3383)",
         "formation_confidence": "Dominant Modern Reconstruction"
       },
       {
@@ -160,6 +160,11 @@
         "claim": "The Life: 'Moritur Anastasio adhuc principe'; Peiper's apparatus 'stasio] immo Iustino'; in the prooemium Peiper calls the Anastasius an excusable error",
         "witness": "Vita Aviti c. VI (avitus-vienne_opera-mgh-aa-6-2-lat_peiper1883 l.18342, OCR 'Auastasio adbuc priuciiie'); apparatus (avitus-vienne_opera-mgh-aa-6-2-lat_peiper1883 l.18385, OCR 'iinmo lustino'); prooemium (avitus-vienne_opera-mgh-aa-6-2-lat_peiper1883 l.1641-1646)",
         "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Peiper's index, s.v. Avitus, after 'moritur Anastasio (immo Iustino) adhuc principe 181': 'incertum quo anno, sed post a. 525 ex. vel 526 in. quo tempore homiliam in dedicatione basilicae Genevensis dixit, ante a. 533, nam in concilio Aurelianensi Iulianus episcopus Viennensis subscripsit' (the year is uncertain, but after the end of 525 or the start of 526, when he gave the homily at the dedication of the church at Geneva, and before 533, for at the council of Orléans Julian signs as bishop of Vienne). The homily date is Binding's: 'non ante 525 ex. vel 526 in. putat Bindingius'; Peiper's prooemium puts all the Geneva letters and homilies 'intra annos 513 et 516'",
+        "witness": "Peiper, index of persons (avitus-vienne_opera-mgh-aa-6-2-lat_peiper1883 l.30143-30149, OCR '((wimo Iiistino)', '«.r.', 'conciUo', 'lulianus'); prooemium (l.3377-3378, OCR 'Bindiugiiis'; l.3380-3381)",
+        "formation_confidence": "Dominant Modern Reconstruction"
       },
       {
         "claim": "Peiper dates the latest letters 'a. 517/518' (ep. 61, to Apollinaris) and 'c. a. 518' (ep. 63)",
@@ -253,7 +258,8 @@
         "claim": "Under which emperor Avitus died",
         "sides": [
           "Vita Aviti: 'Anastasio adhuc principe' (l.18342)",
-          "Peiper: 'immo Iustino', the Life in error (l.18385, l.1641-1646)"
+          "Peiper: 'immo Iustino', the Life in error (l.18385, l.1641-1646)",
+          "Peiper's index: no year, but after late 525 or early 526 (Binding's date for a Geneva homily) and before 533, when Julian signs as bishop of Vienne at Orléans (l.30143-30149, 3377-3381)"
         ]
       },
       {
@@ -281,7 +287,7 @@
     "absent_details": [
       {
         "detail": "The year of Avitus's death",
-        "note": "Searched every held file that names Avitus of Vienne (Avitus/Aviti/Avito/Alcimus/Alchimus with Vienn*; grep across cic/texts .txt, whitespace-normalized, for Avit* within 250 characters of obiit/mort/died/death/decessit/excessit/starb/† and a year 500-539, in Peiper, Krusch MGH SRM 3, Maassen, Dalton, Arndt-Krusch, Duchesne, PL 65, 67, 72, 83, Mansi, Hefele, Poschmann, Isidore). Only the Life's 'under Anastasius', Peiper's 'rather Justin', and Peiper's letter dates (to 517/518, c. 518) were found. The 'c. 450-518' in the file header is the repository's, not a source's."
+        "note": "Searched every held file that names Avitus of Vienne (Avitus/Aviti/Avito/Alcimus/Alchimus with Vienn*; grep across cic/texts .txt, whitespace-normalized, for Avit* within 250 characters of obiit/mort/died/death/decessit/excessit/starb/† and a year 500-539, in Peiper, Krusch MGH SRM 3, Maassen, Dalton, Arndt-Krusch, Duchesne, PL 65, 67, 72, 83, Mansi, Hefele, Poschmann, Isidore). That search found only the Life's 'under Anastasius', Peiper's 'rather Justin', and Peiper's letter dates (to 517/518, c. 518). Read directly, Peiper's index gives a window and no year: 'incertum quo anno, sed post a. 525 ex. vel 526 in. quo tempore homiliam in dedicatione basilicae Genevensis dixit, ante a. 533, nam in concilio Aurelianensi Iulianus episcopus Viennensis subscripsit' (l.30143-30149, OCR '«.r.', 'conciUo', 'lulianus'); the late homily date is Binding's ('non ante 525 ex. vel 526 in. putat Bindingius', l.3377-3378), which Peiper's prooemium doubts ('intra annos 513 et 516 scripsisse puto Avitum', l.3380-3381). The 'c. 450-518' in the file header is the repository's, not a source's."
       },
       {
         "detail": "The year he became bishop of Vienne",
@@ -424,7 +430,7 @@
         "formation_confidence": "Documented"
       },
       {
-        "claim": "Michael: Thomas of Harkel revised 'le livre saint de l'Évangile et tous les autres livres du Nouveau Testament ... après la première interprétation qui avait été faite à Mabboug par les soins et du temps de l'évêque Philoxenus' (after the first translation made at Mabbug through the care and in the time of bishop Philoxenus); Bar Hebraeus the same: 'post primam versionem Mabugi cura Philoxeni elaboratam'",
+        "claim": "Michael: Thomas of Harkel revised 'le livre saint de l'Évangile et tous les autres livres du Nouveau Testament ... après la première interprétation qui avait été faite à Mabboug par les soins et du temps de l'évêque Philoxenus' (after the first translation made at Mabbug through the care and in the time of bishop Philoxenus); Bar Hebraeus the same: 'post primam versionem Mabugi cura Philoxeni elaboratam'. The 'first' is the earlier version that Thomas revised, not the first Syriac New Testament ever made (Budge says the Discourses quote the Peshitta, l.2806-2819); the brief's 'a Syriac version of the New Testament was made at Mabbug through his care' and the card's 'the earlier version' rest on this",
         "witness": "Michael (michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901 l.29478-29486); Bar Hebraeus I (barhebraeus_chronicon-ecclesiasticum-vol1-lat_abbeloos-lamy1872 l.16120-16127). Both speak of the New Testament",
         "formation_confidence": "Documented"
       },
@@ -445,7 +451,7 @@
       },
       {
         "claim": "'But the zeal of Akhs'noyo urged the monks again ... they assembled at Antioch against him. And some of them were wounded, and others were killed; but nevertheless Flavian was ejected from his See'",
-        "witness": "zachariah-rhetor_chronicle_hamiltonbrooks1899 VII.10 l.8895-8901. Friendly witness",
+        "witness": "zachariah-rhetor_chronicle_hamiltonbrooks1899 VII.10 l.8895-8901. Friendly witness, from his own side, as the brief and card mark it",
         "formation_confidence": "Documented"
       },
       {
@@ -697,7 +703,7 @@
         "formation_confidence": "Documented"
       },
       {
-        "claim": "Marius of Avenches, under the consuls 'Iustino et Opilione' (OCR 'lustino et Opihone'; margin 'a. 524' is the editor's): 'Eo anno interfectus est Boetius patricius in territorio Mediolanense.'",
+        "claim": "Marius of Avenches, under the consuls 'Iustino et Opilione' (OCR 'lustino et Opihone'; the margin 'a. 524' is Mommsen's, the volume's editor; the brief's 'in the year Mommsen dates to 524' rests on it): 'Eo anno interfectus est Boetius patricius in territorio Mediolanense.'",
         "witness": "Marius of Avenches, Chronicle (chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894 l.21303-21310; running head 'MARII EPISCOPI AVENTICENSIS' l.21140)",
         "formation_confidence": "Documented"
       },
@@ -737,13 +743,18 @@
         "formation_confidence": "Documented"
       },
       {
-        "claim": "Acta Sanctorum, 27 May ('DIES VIGESIMA SEPTIMA MAJI', l.8030): 'S. Severinus Boetius, Exconsul Romanus, Martyr Ticini apud Insubres' (OCR 'Exconlul. Romanos, Mattyi Xidni apud Inlubres'), listed after Pope John I; the Roman Martyrology entry they print: 'Ticini S. Severini Boetii Martyris, sub Theodorico Gothorum Rege' (OCR 'Seven ni Uoet II Manyris ... Thcodorico Gnthorum Regej'; reading reconstructed from heavy OCR). Ticinum is Pavia (Hodgkin 'TICINUM (PAVIA)', l.577)",
-        "witness": "The Bollandists, Acta Sanctorum Maii VI (acta-sanctorum_maii-tomus-6-lat_1739 l.8150-8155, 16492-16496)",
+        "claim": "Acta Sanctorum, 27 May ('DIES VIGESIMA SEPTIMA MAJI', l.8030), in the Bollandists' own list of the day's saints: 'S. Severinus Boetius, Exconsul Romanus, Martyr Ticini apud Insubres' (OCR 'Exconlul. Ro- manos , Mattyi Xidni apud Inlu- bres'), listed after 'S. JOANNES Primus, Pontifex Romanus Martyr' (OCR 'Roma- nus'). The brief's 'The Bollandists, in their Acta Sanctorum of saints' days, list him as a martyr at Pavia' rests on this. Ticinum is Pavia (Hodgkin 'TICINUM (PAVIA)', cassiodorus_variae-letters-hodgkin1886 l.577)",
+        "witness": "The Bollandists, Acta Sanctorum Maii VI (acta-sanctorum_maii-tomus-6-lat_1739 l.8030, 8150-8155)",
         "formation_confidence": "Inferential-Thin"
       },
       {
-        "claim": "The Bollandists, quoting the AV's death account, add that it is held suspect because others say the sword: 'Suspectam hanc habet narrationem ... quod gladio ... alii dixerint' (reading reconstructed from heavy OCR 'Snfpeilam hane haket narratianem ... quad gladia ... alii di-xerint')",
-        "witness": "acta-sanctorum_maii-tomus-6-lat_1739 l.16337-16341",
+        "claim": "The Bollandists quote Ferrarius, who 'in Catalogo Sanctorum Italiae agit de S. Severino Boetio Martyre Ticini ... & in altero Catalogo eorum qui non sunt in Martyrologio Romano, Ticini S. Severini Boetii Martyris, sub Theodorico Gothorum Rege' (reading reconstructed from heavy OCR with the print's o/a and u/n swaps: 'Ptrrarint', 'Catalagaearamqainanfantia Alartpralogia Ramana', 'Seven ni Uoet II Manyris', 'Thcodorico Gnthorum Regej'). The entry comes from a catalog of saints who are not in the Roman Martyrology; it is not a Roman Martyrology entry",
+        "witness": "acta-sanctorum_maii-tomus-6-lat_1739 l.16492-16497",
+        "formation_confidence": "Inferential-Thin"
+      },
+      {
+        "claim": "The Bollandists, after quoting the AV's death account, report one writer's doubt of it, from a manuscript he saw before it was published, because others say the sword: 'Suspectam hanc habet narrationem ... sibi ex MS. exhibitam prius quam vulgaretur ... quod gladio ... alii dixerint'; and they answer it: 'Sed hoc non legitur apud Procopium, vel apud Auctorem Catalogi Pontificum' (reading reconstructed from heavy OCR 'Snfpeilam hane haket narratianem ... fiki ith Mi. exhikitam priax quam valgarttar ... quad gladia ... alii di- xerint . Sed bat nan legitur apad Pracapiam , vtjapad AuUartm Catalagi PantificiU')",
+        "witness": "acta-sanctorum_maii-tomus-6-lat_1739 l.16339-16343",
         "formation_confidence": "Inferential-Thin"
       },
       {
@@ -805,7 +816,7 @@
     "contested_claims": [
       {
         "claim": "How and where Boethius was put to death",
-        "sides": "Anonymus Valesianus: cord twisted on the forehead, then clubbed, 'in agro Calventiano' (prosper_chronica-minora-1-lat_mommsen1892 l.41429-41432). Book of the Popes: with the sword, bodies concealed (liber-pontificalis_book-of-the-popes-v1_loomis1916 l.10496-10507). Agnellus: Symmachus and Boethius beheaded with axes (prosper_chronica-minora-1-lat_mommsen1892 l.42064-42067). Marius: 'in territorio Mediolanense' (chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894 l.21310). Stewart and Rand: imprisoned at Pavia (boethius_theological-tractates-consolation_stewart-rand1918 l.250). The Bollandists report the AV account held suspect (acta-sanctorum_maii-tomus-6-lat_1739 l.16337-16341)."
+        "sides": "Anonymus Valesianus: cord twisted on the forehead, then clubbed, 'in agro Calventiano' (prosper_chronica-minora-1-lat_mommsen1892 l.41429-41432). Book of the Popes: with the sword, bodies concealed (liber-pontificalis_book-of-the-popes-v1_loomis1916 l.10496-10507). Agnellus: Symmachus and Boethius beheaded with axes (prosper_chronica-minora-1-lat_mommsen1892 l.42064-42067). Marius: 'in territorio Mediolanense' (chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894 l.21310). Stewart and Rand: imprisoned at Pavia (boethius_theological-tractates-consolation_stewart-rand1918 l.250). The Bollandists report one writer's doubt of the AV account, since others say the sword, and answer that the sword is not in Procopius (acta-sanctorum_maii-tomus-6-lat_1739 l.16339-16343; reading reconstructed from heavy OCR)."
       },
       {
         "claim": "Whether the theological tractates, and the fourth in particular, are his",
@@ -813,7 +824,7 @@
       },
       {
         "claim": "Whether he died a Christian, and whether he is a martyr",
-        "sides": "Hodgkin: Christ never named in the Consolation, a theist's tone, yet professing Christian in full communion (cassiodorus_variae-letters-hodgkin1886 l.3999-4000, 4054-4058). Stewart and Rand: 'without doubt a Christian, a Doctor and perhaps a martyr' (boethius_theological-tractates-consolation_stewart-rand1918 l.336-337). The Bollandists and the Roman Martyrology they print: martyr at Pavia (acta-sanctorum_maii-tomus-6-lat_1739 l.8153-8155, 16492-16496). No ancient held text calls him a martyr."
+        "sides": "Hodgkin: Christ never named in the Consolation, a theist's tone, yet professing Christian in full communion (cassiodorus_variae-letters-hodgkin1886 l.3999-4000, 4054-4058). Stewart and Rand: 'without doubt a Christian, a Doctor and perhaps a martyr' (boethius_theological-tractates-consolation_stewart-rand1918 l.336-337). The Bollandists list him as a martyr at Pavia (acta-sanctorum_maii-tomus-6-lat_1739 l.8153-8155), and quote an Italian catalog of saints who are not in the Roman Martyrology, 'eorum qui non sunt in Martyrologio Romano', naming him a martyr at Pavia under Theodoric (l.16492-16497; reading reconstructed from heavy OCR). No ancient held text calls him a martyr."
       },
       {
         "claim": "Whether his death came before or during Pope John I's embassy to Constantinople",
@@ -831,7 +842,7 @@
       },
       {
         "detail": "Any ancient source calling him a martyr or saint",
-        "note": "Searched 'martyr|mattyi|manyris' within 80 characters of boethius/boetius/boetii/boethii/boctio across cic/texts: no hit, since the Bollandist lines are too corrupt for the pattern; read directly, only the Bollandists (1739, l.8153-8155) and the Roman Martyrology entry they print (l.16492-16496) call him martyr. Procopius, the AV, the Book of the Popes, Marius and Agnellus say nothing of martyrdom."
+        "note": "Searched 'martyr|mattyi|manyris' within 80 characters of boethius/boetius/boetii/boethii/boctio across cic/texts: no hit, since the Bollandist lines are too corrupt for the pattern; read directly, only the Bollandists' own list (1739, l.8153-8155) and the catalog of saints not in the Roman Martyrology that they quote (l.16492-16497) call him martyr. Procopius, the AV, the Book of the Popes, Marius and Agnellus say nothing of martyrdom."
       },
       {
         "detail": "Names of his father and sons in an ancient narrative",
@@ -875,7 +886,7 @@
         "formation_confidence": "Documented"
       },
       {
-        "claim": "The Life is headed 'S. Fulgentii episcopi Ruspensis Vita, a quodam ejus discipulo conscripta, ad Felicianum episcopum sancti Fulgentii successorem'; its author was raised with Felicianus under Fulgentius ('a quo simul nutriti sumus') and became a monk 'in illo parvissimo monasterio quod sibi apud Sardiniam ... effecerat', living 'ante eum positus'; he tells 'omnia quae memoriter nobis audientibus ipse referebat'",
+        "claim": "The Life is headed 'S. Fulgentii episcopi Ruspensis Vita, a quodam ejus discipulo conscripta, ad Felicianum episcopum sancti Fulgentii successorem'; its author was raised with Felicianus under Fulgentius ('a quo simul nutriti sumus') and became a monk 'in illo parvissimo monasterio quod sibi apud Sardiniam ... effecerat', living 'ante eum positus'; he tells 'omnia quae memoriter nobis audientibus ipse referebat'. The brief's 'by a Catholic monk who lived with him, tells this from what Fulgentius told him' rests on this, on 'sicut ipse nobis postea referebat' in the beating story (l.8501), and on the Life's Catholic side against the Arian king (ch. 21-22)",
         "witness": "The Life of Fulgentius, by a disciple, PL 65, title and prologue (fulgentius-ruspe_opera-contra-arianos-pl65-lat_migne1847 l.7909-7914, 7935, 7992-7999 col., 8003-8004)",
         "formation_confidence": "Documented"
       },
@@ -905,7 +916,7 @@
         "formation_confidence": "Documented"
       },
       {
-        "claim": "He was moved to make his vow public 'beati Augustini exponentis tricesimum sextum psalmum disputatione commonitus et compunctus'",
+        "claim": "He was moved to make his vow public 'beati Augustini exponentis tricesimum sextum psalmum disputatione commonitus et compunctus'. The Augustine is the bishop of Hippo, whom Fulgentius himself names 'Augustinum Hipponensem' (De veritate praedestinationis II, l.42467); hence the brief's and card's 'Augustine of Hippo'",
         "witness": "The Life of Fulgentius, by a disciple, PL 65, ch. 3 (fulgentius-ruspe_opera-contra-arianos-pl65-lat_migne1847 l.8192-8194)",
         "formation_confidence": "Documented"
       },
@@ -926,7 +937,7 @@
       },
       {
         "claim": "At Rome there was great joy 'Theoderici regis praesentia'; at the place called Palma Aurea, 'memorato Theoderico rege concionem faciente', he saw the Roman curia and heard the people's applause, and said: 'Fratres, Quam speciosa potest esse Hierusalem coelestis, si sic fulget Roma terrestris!'",
-        "witness": "The Life of Fulgentius, by a disciple, PL 65, ch. 13 §27 (fulgentius-ruspe_opera-contra-arianos-pl65-lat_migne1847 l.8712-8728 right col., 8778-8779)",
+        "witness": "The Life of Fulgentius, by a disciple, PL 65, ch. 13 §27 (fulgentius-ruspe_opera-contra-arianos-pl65-lat_migne1847 l.8712-8728 right col., 8778-8779); for 'Theodoric, the Ostrogothic king': Dalton's note, 'Theodoric the Great, king of the Ostrogoths' (gregory-tours_history-of-the-franks-v2_dalton1927 l.23889-23890)",
         "formation_confidence": "Documented"
       },
       {
@@ -1020,7 +1031,7 @@
         "formation_confidence": "Documented"
       },
       {
-        "claim": "Faustus Gallus 'a sanctae memoriae Fulgentio Ruspensi detectus atque convictus est'",
+        "claim": "Faustus Gallus 'a sanctae memoriae Fulgentio Ruspensi detectus atque convictus est'. Facundus names no seven books; the card says only that he says Faustus was exposed and refuted by Fulgentius",
         "witness": "Facundus of Hermiane, Pro defensione trium capitulorum (facundus-ferrandus-caesarius-dionysius-pl67-lat_migne1865 l.66179-66183, OCR 'memoriz', 'de- tectus')",
         "formation_confidence": "Documented"
       },
@@ -1157,7 +1168,7 @@
       },
       {
         "detail": "The seven books against Faustus of Riez and the ten against Fabianus",
-        "note": "Lost; named by the Life (fulgentius-ruspe_opera-contra-arianos-pl65-lat_migne1847 l.9686-9697, 9930), Letter XV (l.28904-28905), Isidore (isidore-seville_sententiae-eccl-officiis-historia-gothorum-pl83-lat_migne1860 l.122088-122092) and Facundus (facundus-ferrandus-caesarius-dionysius-pl67-lat_migne1865 l.66182-66183); Engelbrecht says lost (faustus-riez_de-gratia-and-collected-works_engelbrecht1891 l.628)."
+        "note": "Lost; named by the Life (fulgentius-ruspe_opera-contra-arianos-pl65-lat_migne1847 l.9686-9697, 9930), Letter XV (l.28904-28905), and Isidore (isidore-seville_sententiae-eccl-officiis-historia-gothorum-pl83-lat_migne1860 l.122088-122092); Facundus names no books, saying only that Faustus was exposed and refuted by Fulgentius (facundus-ferrandus-caesarius-dionysius-pl67-lat_migne1865 l.66179-66183); Engelbrecht says lost (faustus-riez_de-gratia-and-collected-works_engelbrecht1891 l.628)."
       },
       {
         "detail": "A year for his consecration, exiles and recall in the Life",
@@ -1173,7 +1184,7 @@
         "formation_confidence": "Documented"
       },
       {
-        "claim": "'When Count Pierius compelled all to depart, the venerable Lucillus, then our priest, was not unmindful of the command of Severinus. After he had ended singing with the monks the vesper psalms, he bade the place of burial to be opened. When it was uncovered, a fragrance of such sweetness surrounded us who stood by, that we fell on the earth for joy and wonder.' (the brief capitalizes the quote's first word 'a')",
+        "claim": "'When Count Pierius compelled all to depart, the venerable Lucillus, then our priest, was not unmindful of the command of Severinus. After he had ended singing with the monks the vesper psalms, he bade the place of burial to be opened. When it was uncovered, a fragrance of such sweetness surrounded us who stood by, that we fell on the earth for joy and wonder.' (the brief capitalizes the quote's first word 'a'). The brief's 'forced the Romans out of Noricum's Danube towns' keeps to Eugippius's own scope: Onoulf 'ordered all the Romans to migrate to Italy' (l.3927-3928, hyphen break 'or- dered'), and the provincials 'abandoned the towns on the banks of the Danube' (l.3976-3977). Robinson's note to that sentence: 'Julius Jung ... believes that the exodus was less general than the words of Eugippius would seem to imply ... it is obvious that there was no general withdrawal from Noricum Mediterraneum' (l.3979-3986)",
         "witness": "Eugippius, Life of Severinus ch. XLIV, tr. Robinson (eugippius_life-of-saint-severinus_robinson1914 l.3957-3963)",
         "formation_confidence": "Documented"
       },
@@ -1243,8 +1254,8 @@
         "formation_confidence": "Dominant Modern Reconstruction"
       },
       {
-        "claim": "First person at the deathbed: 'while we could hardly make the responses, he fell asleep in the Lord'; at the grave 'surrounded us who stood by'; 'Even in the lifetime of Saint Severinus, I never heard other particulars in regard to his native place'",
-        "witness": "Life ch. XLIII-XLIV and Letter (eugippius_life-of-saint-severinus_robinson1914 l.3836-3837, 3962-3963, 474-476)",
+        "claim": "First person at the deathbed: 'while we could hardly make the responses, he fell asleep in the Lord'; at the grave 'surrounded us who stood by'; 'Even in the lifetime of Saint Severinus, I never heard other particulars in regard to his native place than those I have related', having just related that his speech 'revealed a man of purest Latin stock' and that he went first 'into some desert place of the East' (l.446-448): he heard no more than that, not nothing",
+        "witness": "Life ch. XLIII-XLIV and Letter (eugippius_life-of-saint-severinus_robinson1914 l.3836-3837, 3962-3963, 446-448, 477-479)",
         "formation_confidence": "Documented"
       },
       {
@@ -1268,7 +1279,7 @@
         "formation_confidence": "Dominant Modern Reconstruction"
       },
       {
-        "claim": "Cassiodorus: 'Convenit etiam ut presbyteri Eugippii opera necessario legere debeatis, quem nos quoque vidimus, virum quidem non usque adeo saecularibus litteris eruditum, sed divinarum Scripturarum lectione plenissimum. Hic ad parentem nostram Probam virginem sacram ex operibus sancti Augustini valde altissimas quaestiones ac sententias, ac diversas res deflorans, in uno corpore ... et in trecentis triginta octo capitulis collocavit.' Clean wording from Gallandi's reprint (OCR 'mos', 'sv-eularibus', 'oruditum', 'tr ginta ccto ea-pitulis'); the PL 70 text is the same in broken two-column OCR, heading 'De abbate Eugipio et abbate Dionysio' (OCR 'abbatc liuyipio ei ubbWe Dionijaio')",
+        "claim": "Cassiodorus: 'Convenit etiam ut presbyteri Eugippii opera necessario legere debeatis, quem nos quoque vidimus, virum quidem non usque adeo saecularibus litteris eruditum, sed divinarum Scripturarum lectione plenissimum. Hic ad parentem nostram Probam virginem sacram ex operibus sancti Augustini valde altissimas quaestiones ac sententias, ac diversas res deflorans, in uno corpore ... et in trecentis triginta octo capitulis collocavit.' Sigebert, as Gallandi quotes him, calls the source 'libros Augustini episcopi Hipponensis' (PL 67 l.68093-68094, OCR 'fIip- pouensis'), hence 'Augustine of Hippo' in the brief and card. Clean wording from Gallandi's reprint (OCR 'mos', 'sv-eularibus', 'oruditum', 'tr ginta ccto ea-pitulis'); the PL 70 text is the same in broken two-column OCR, heading 'De abbate Eugipio et abbate Dionysio' (OCR 'abbatc liuyipio ei ubbWe Dionijaio')",
         "witness": "Cassiodorus, Institutiones I.23 (cassiodorus_opera-institutiones-pl70-lat_migne1847 l.83524-83531); Gallandi's reprint (facundus-ferrandus-caesarius-dionysius-pl67-lat_migne1865 l.68027-68031, 68065-68072)",
         "formation_confidence": "Documented"
       },
@@ -1288,8 +1299,13 @@
         "formation_confidence": "Documented"
       },
       {
-        "claim": "Paschasius: 'Thou hast sent me a memoir to which the eloquence of the trained writer can add nothing, and in a short compendium hast produced a work which the whole church can read'; 'The deeds of the good cannot perish with time'; 'I have thought it best not to try to make any addition to thy work'",
+        "claim": "Paschasius ('Paschasius, Roman deacon', Robinson's index, l.5838): 'Thou hast sent me a memoir to which the eloquence of the trained writer can add nothing, and in a short compendium hast produced a work which the whole church can read'; 'The deeds of the good cannot perish with time'; 'I have thought it best not to try to make any addition to thy work'",
         "witness": "Paschasius, Letter to Eugippius, Robinson (eugippius_life-of-saint-severinus_robinson1914 l.4222-4225, 4231, 4254-4255)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Paschasius, answering the memoir: 'it is one thing to relate what we have been told, quite another thing, to draw from the stores of our own experience. The virtues of teachers are particularly visible in their daily life, and consequently are more easily depicted by their pupils.' The brief's 'Paschasius answers that teachers are best portrayed by their pupils' tells this; it is Paschasius's reading of Eugippius as Severinus's pupil, the one ancient witness on the question",
+        "witness": "Paschasius, Letter to Eugippius, tr. Robinson (eugippius_life-of-saint-severinus_robinson1914 l.4255-4260)",
         "formation_confidence": "Documented"
       },
       {
@@ -1308,7 +1324,7 @@
         "formation_confidence": "Contested"
       },
       {
-        "claim": "Gallandi rejects 'commentum de duobus Eugippiis, quorum alter italus, Africanus alter fuerit' held by Miraeus, Bollandus and Cave, and blames Sigebert: 'Eugippius abbas hortatu Reudacis ... Fuit tempore Pelagii II et imperatoris Tiberii Constantini'; Gallandi: Sigebert 'bifariam errat'",
+        "claim": "Gallandi rejects 'commentum de duobus Eugippiis, quorum alter italus, Africanus alter fuerit' held by Miraeus, Bollandus and Cave, and blames Sigebert: 'Eugippius abbas hortatu Reudacis ... Fuit tempore Pelagii II et imperatoris Tiberii Constantini'; Gallandi: Sigebert 'bifariam errat'. Gallandi does not name Fabricius, so he answers a like view, not Arevalo's report; Sigebert is 'Sigeb. Gembl.' (l.67956), Sigebert of Gembloux",
         "witness": "Gallandi, PL 67 (facundus-ferrandus-caesarius-dionysius-pl67-lat_migne1865 l.68085-68104)",
         "formation_confidence": "Contested"
       },
@@ -1331,7 +1347,7 @@
     "contested_claims": [
       {
         "claim": "Whether Eugippius was an eyewitness disciple of Severinus",
-        "sides": "For: his first-person 'we' at the deathbed and the grave (eugippius_life-of-saint-severinus_robinson1914 l.3836, 3962) and 'Even in the lifetime of Saint Severinus' (l.474); Gallandi 'Severini ... discipulus' (facundus-ferrandus-caesarius-dionysius-pl67-lat_migne1865 l.68025); Foulke 'the pupil of St. Severinus' (paul-the-deacon_history-of-the-langobards_foulke1907 l.15637); Kihn 'Schüler' (l.11642). Caution: Eugippius says the memoir rests on 'the daily narrations of the elder brethren' (l.295-296) and names informants (l.1829-1831, 2235-2237); no held line gives his age or office at Severinus's death."
+        "sides": "For: his first-person 'we' at the deathbed and the grave (eugippius_life-of-saint-severinus_robinson1914 l.3836, 3962) and 'Even in the lifetime of Saint Severinus' (l.477); Paschasius, who received the memoir, reads him as a pupil: teachers' virtues 'are more easily depicted by their pupils' (eugippius_life-of-saint-severinus_robinson1914 l.4255-4260); Gallandi 'Severini ... discipulus' (facundus-ferrandus-caesarius-dionysius-pl67-lat_migne1865 l.68025); Foulke 'the pupil of St. Severinus' (paul-the-deacon_history-of-the-langobards_foulke1907 l.15637); Kihn 'Schüler' (l.11642). Caution: Eugippius says the memoir rests on 'the daily narrations of the elder brethren' (l.295-296) and names informants (l.1829-1831, 2235-2237); no held line gives his age or office at Severinus's death."
       },
       {
         "claim": "Whether the Eugippius Cassiodorus saw is the author of the Life",
@@ -1373,8 +1389,8 @@
         "formation_confidence": "Documented"
       },
       {
-        "claim": "Dometios found 'que nous sommes privés d'hommes sages et éloquents — ils ont quitté ce monde parce que l'iniquité a augmenté' and urged the writer, 'moi qui suis petit, et qui ne suis pas instruit dans les lettres. Tu as fait cela comme quelqu'un qui engagerait un plombier à fabriquer une couronne royale' (we lack wise and eloquent men, who have left this world ... me, who am small and not learned in letters ... like hiring a plumber to make a royal crown)",
-        "witness": "Life, tr. Kugener (zacharias-scholasticus_vie-de-severe-po2-syr-fra_kugener1903 l.13182-13188; OCR 'priv6s', 'plombier?')",
+        "claim": "Dometios found 'que nous sommes privés d'hommes sages et éloquents — ils ont quitté ce monde parce que l'iniquité a augmenté' and urged the writer, 'moi qui suis petit, et qui ne suis pas instruit dans les lettres. Tu as fait cela comme quelqu'un qui engagerait un plombier à fabriquer une couronne royale' (we lack wise and eloquent men, who have left this world ... me, who am small and not learned in letters ... like hiring a worker in lead to make a royal crown). Kugener's note to 'plombier' gives the Greek μολυβδουργός (OCR 'morußdoupyös', l.13196), a worker in lead; the brief's 'a worker in lead' renders that, since a modern 'plumber' fits pipes",
+        "witness": "Life, tr. Kugener (zacharias-scholasticus_vie-de-severe-po2-syr-fra_kugener1903 l.13182-13188, note 2 l.13196; OCR 'priv6s', 'plombier?')",
         "formation_confidence": "Documented"
       },
       {
@@ -1398,9 +1414,14 @@
         "formation_confidence": "Documented"
       },
       {
-        "claim": "The volume holds two Lives of Severus, by Zachariah and by John; the approved Severus card names both",
+        "claim": "The volume holds two Lives of Severus, by Zachariah and by John; the approved Severus card names both. The Library also holds a third, the Life of Severus by Athanasius of Antioch in an Ethiopic version, ed. Goodspeed and Crum (barhadbeshabba_cause-de-la-fondation-des-ecoles-po4-syr-fra_scher1908 l.663-665, 32888-32889), so the brief says only that Zachariah wrote 'another Life'",
         "witness": "zacharias-scholasticus_vie-de-severe-po2-syr-fra_kugener1903 l.1-8 (title of both fascicles); Who-Profiles/era3/batch2/severus-of-antioch.card.json, remembered",
         "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Zachariah Rhetor wrote another Life of Severus: Hamilton and Brooks infer 'that Zachariah, a rhetor or scholastic of Gaza ... between 511 and 518 wrote a Life of Severus'; Kugener edits it in the same volume: 'VIE DE SEVERE, PAR ZACHARIE LE SCHOLASTIQUE'",
+        "witness": "zachariah-rhetor_chronicle_hamiltonbrooks1899 l.362-365; zacharias-scholasticus_vie-de-severe-po2-syr-fra_kugener1903 l.76, 140",
+        "formation_confidence": "Widely Accepted"
       },
       {
         "claim": "Kugener: Add. 14.731, a manuscript 'du XIe siècle à peu près', 'l'attribue faussement à Jean bar Aphthonia', with the heading 'Voici également l'histoire de sa vie et de sa mort (de Sévère), qui a été composée par Jean bar Aphthonia'; it is 'le plus court' of three extracts; and in a note, 'l'extrait de l'add. 14,731, qui attribue faussement la présente Vie de Sévère à Jean bar Aphthonia'",
@@ -1408,7 +1429,7 @@
         "formation_confidence": "Contested"
       },
       {
-        "claim": "The Life tells the archimandrite's death in the third person: Severus wrote 'de sa propre main une longue lettre au saint et vénérable archimandrite Jean, surnommé Bar Aphthonia, et par son intermédiaire, à tous les moines de l'Orient, au sujet de l'union qu'il avait faite avec Théodose et Anthime'; 'Le vénérable Jean survécut quinze jours à cette lettre, puis fit route vers Jésus qu'il aimait'",
+        "claim": "The Life tells the archimandrite's death in the third person: Near death ('Il prévit dès lors que la fin de sa vie était proche', l.16604, OCR 'pr&vit des lors', 'etait'), Severus wrote 'de sa propre main une longue lettre au saint et vénérable archimandrite Jean, surnommé Bar Aphthonia, et par son intermédiaire, à tous les moines de l'Orient, au sujet de l'union qu'il avait faite avec Théodose et Anthime'; 'Le vénérable Jean survécut quinze jours à cette lettre, puis fit route vers Jésus qu'il aimait'",
         "witness": "Life, tr. Kugener (zacharias-scholasticus_vie-de-severe-po2-syr-fra_kugener1903 l.16605-16614, 16661, 16666-16667)",
         "formation_confidence": "Documented"
       },
@@ -1423,12 +1444,12 @@
         "formation_confidence": "Documented"
       },
       {
-        "claim": "Chabot: 'Notre fragment vient probablement de la vie rédigée par Jean Bar Aphtonia' (our fragment probably comes from the Life written by John Bar Aphtonia)",
+        "claim": "Chabot: 'Notre fragment vient probablement de la vie rédigée par Jean Bar Aphtonia' (our fragment probably comes from the Life written by John Bar Aphtonia). His 'probablement' is about where Michael's fragment comes from; of the Life itself he writes as bar Aphthonia's without a hedge, as the brief says ('write of the Life as John bar Aphthonia's')",
         "witness": "J.-B. Chabot, note to Michael's 'Extrait de l'histoire de saint Sévère' (michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901 l.14077-14079)",
         "formation_confidence": "Contested"
       },
       {
-        "claim": "R. Duval, reviewing Chabot's Michael: an 'extrait de l'histoire de Sévère d'Antioche, tiré probablement de la vie de ce patriarche écrite par Jean bar Aphtonia'. The review section 'Récentes publications syriaques' is signed 'R. Duval.' (it is not Nau's)",
+        "claim": "R. Duval, reviewing Chabot's Michael: an 'extrait de l'histoire de Sévère d'Antioche, tiré probablement de la vie de ce patriarche écrite par Jean bar Aphtonia'. The review section 'Récentes publications syriaques' is signed 'R. Duval.' (it is not Nau's). As with Chabot, 'probablement' is about where the extract comes from; the Life is named as bar Aphthonia's without a hedge. 'Rubens Duval' is the full name in a held note of Nau's ('Rubens Duval, La littérature syriaque', chronicle-of-seert_histoire-nestorienne-seconde-partie-po13-ara-fra_scher1919 l.10524)",
         "witness": "theopistus_histoire-de-dioscore-journal-asiatique-1903-fra_nau1903 l.33783-33790, 33829-33830, 34010",
         "formation_confidence": "Contested"
       },
@@ -1488,6 +1509,11 @@
         "formation_confidence": "Documented"
       },
       {
+        "claim": "The extract's years are years of the Greeks (the Seleucid count): the same extract dates the synod of Sidon 'En l'an 823' (OCR 'coneıle'), which the chronicle under Zachariah's name dates 'THE EIGHT HUNDRED AND TWENTY-THIRD YEAR OF THE GREEKS', translators' note '512'. Elias of Nisibis gives Severus's death under 'Annus 849', 'die 8° sabat' (OCR 'sdbat'; the eighth of Shebat, the Syriac February, as in the extract's '8 février'), so the card's 'the next year of that count' for Elias's 850 follows. E. W. Brooks: 'On Feb. 8, 538 Severus died in Egypt'; the card's 'which E. W. Brooks gives as 538' rests on this",
+        "witness": "zacharias-scholasticus_vie-de-severe-po2-syr-fra_kugener1903 l.19739, 19884; zachariah-rhetor_chronicle_hamiltonbrooks1899 l.8851-8855, note l.8888; elias-of-nisibis_opus-chronologicum-lat_brooks-chabot-csco1910 l.5368-5373; severus-of-antioch_select-letters-book6-part1_brooks1903 l.240-241",
+        "formation_confidence": "Documented"
+      },
+      {
         "claim": "Michael: 'En cette année mourut Mar Jean, fils de Cyriacus ... et aussi l'archimandrite Mar Jean Bar Aphtonia'",
         "witness": "Michael (michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901 l.18414-18417)",
         "formation_confidence": "Documented"
@@ -1508,7 +1534,7 @@
         "formation_confidence": "Documented"
       },
       {
-        "claim": "Michael: Jacob of Edessa 'alla au monastère d'Aphtonia et y prit l'habit monastique. Il y étudia soigneusement les Psaumes en langue grecque'; Bar Hebraeus: 'in monasterio Aphtonii seu Kenserinensi graecam linguam ... didicit'",
+        "claim": "Michael: Jacob of Edessa 'alla au monastère d'Aphtonia et y prit l'habit monastique. Il y étudia soigneusement les Psaumes en langue grecque' (OCR 'monas-^ tère', 'monas- tique'); he took the habit there and studied the Psalms there, which the brief tells as 'became a monk at the monastery of Aphthonia and studied the Psalms there in Greek'. That this is the writer's house is disputed (contested claim 'Whether Beith-Aphthonia is the Kenneshre house'); Bar Hebraeus: 'in monasterio Aphtonii seu Kenserinensi graecam linguam ... didicit'",
         "witness": "Michael (michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901 l.36363-36366); Bar Hebraeus I (barhebraeus_chronicon-ecclesiasticum-vol1-lat_abbeloos-lamy1872 l.17305-17308)",
         "formation_confidence": "Documented"
       },
@@ -1528,8 +1554,8 @@
         "formation_confidence": "Dominant Modern Reconstruction"
       },
       {
-        "claim": "Ostracon 81, Monastery of Epiphanius: 'From the Biography of Severus of Antioch, by John of Beth-Aphthonia'; note: 'Ryl. 99, another extract from this work'; 'a further fragt. in the Munich Library'",
-        "witness": "W. E. Crum (monastery-of-epiphanius-thebes-pt2-coptic-ostraca_crum1926 l.19898-19911; OCR columns interleaved)",
+        "claim": "Ostracon 81, Monastery of Epiphanius at Thebes: W. E. Crum's catalog heading, not the sherd's text, identifies the passage: 'From the Biography of Severus of Antioch, by John of Beth-Aphthonia. The passage corresponding in the Syriac version (ed. Kugener) is on p. 216'. Crum's English of the sherd itself opens 'From: the Life of the ....- Apa Severus' and names no author. Crum's note: 'Ryl. 99, another extract from this work, shows that ... it was familiar in Egypt'; 'a further fragt. in the Munich Library'. The card's 'a Life of Apa Severus, which W. E. Crum identifies as John of Beth-Aphthonia's' rests on this",
+        "witness": "W. E. Crum (monastery-of-epiphanius-thebes-pt2-coptic-ostraca_crum1926 l.19898-19900 heading, l.19903 the sherd's opening, l.19912-19914 note; OCR columns interleaved in the note)",
         "formation_confidence": "Documented"
       },
       {
@@ -1546,11 +1572,11 @@
     "contested_claims": [
       {
         "claim": "Whether the writer of the Life is the archimandrite John bar Aphthonia of Kenneshre",
-        "sides": "Distinct: Kugener calls the attribution in Add. 14,731 false (zacharias-scholasticus_vie-de-severe-po2-syr-fra_kugener1903 l.13050-13052, 16826-16828); the Life reports bar Aphthonia's death in the third person (l.16605-16667); Assemani names two Johns as abbots of the house (B.O. I l.101085-101088). Same man: Chabot, 'probablement' (michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901 l.14077-14079); R. Duval, 'probablement' of the extract (theopistus_histoire-de-dioscore-journal-asiatique-1903-fra_nau1903 l.33829-33830); Brooks, 'the later life by John archimandrite of Kenneshre' (Select Letters I l.191); the Library header (l.6-7). The approved Severus card names the writer 'John, head of the monastery of Beth Aphthonia' and does not equate him."
+        "sides": "Distinct: Kugener calls the attribution in Add. 14,731 false (zacharias-scholasticus_vie-de-severe-po2-syr-fra_kugener1903 l.13050-13052, 16826-16828); the Life reports bar Aphthonia's death in the third person (l.16605-16667); Assemani names two Johns as abbots of the house (B.O. I l.101085-101088). Same man: Chabot, who writes of 'la vie rédigée par Jean Bar Aphtonia', his 'probablement' being about the source of Michael's fragment (michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901 l.14077-14079); R. Duval, 'la vie de ce patriarche écrite par Jean bar Aphtonia', his 'probablement' likewise about the extract (theopistus_histoire-de-dioscore-journal-asiatique-1903-fra_nau1903 l.33829-33830); Brooks, 'the later life by John archimandrite of Kenneshre' (Select Letters I l.191); the Library header (l.6-7). The approved Severus card names the writer 'John, head of the monastery of Beth Aphthonia' and does not equate him."
       },
       {
         "claim": "The year of the archimandrite's death",
-        "sides": "The extract Kugener prints: 4 November, in the entry for Severus's death in 849 (zacharias-scholasticus_vie-de-severe-po2-syr-fra_kugener1903 l.19884-19886); Michael: 'en cette année' (michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901 l.18414-18417); Elias of Nisibis: 850, after Severus in 849 (l.5366-5373); the Life: fifteen days after Severus's last letter, before Severus's death (zacharias-scholasticus_vie-de-severe-po2-syr-fra_kugener1903 l.16666)."
+        "sides": "The extract Kugener prints: 4 November, in the entry for Severus's death in 849 of the Greeks, which Brooks gives as 538 (severus-of-antioch_select-letters-book6-part1_brooks1903 l.240-241) (zacharias-scholasticus_vie-de-severe-po2-syr-fra_kugener1903 l.19884-19886); Michael: 'en cette année' (michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901 l.18414-18417); Elias of Nisibis: 850 of the same count, after Severus in 849 (elias-of-nisibis_opus-chronologicum-lat_brooks-chabot-csco1910 l.5366-5373); the Life: fifteen days after Severus's last letter, before Severus's death (zacharias-scholasticus_vie-de-severe-po2-syr-fra_kugener1903 l.16666)."
       },
       {
         "claim": "Whether Beith-Aphthonia is the Kenneshre house",
@@ -1602,7 +1628,7 @@
         "formation_confidence": "Widely Accepted"
       },
       {
-        "claim": "Stokes's footnote to 'this place' in the Life: 'That is, Clonmacnois, where this Life of Ciarán was composed.'",
+        "claim": "Stokes's footnote to 'this city' in the Life ('Colombcille's household came from Hi to this city', l.22755-22756): 'That is, Clonmacnois, where this Life of Ciarán was composed.' This is Stokes's view; the card's 'that Whitley Stokes says was composed at Clonmacnois' gives it as his",
         "witness": "Stokes, footnote 2 (stokes_lives-of-saints-from-the-book-of-lismore-iri-eng_1890 l.22789)",
         "formation_confidence": "Dominant Modern Reconstruction"
       },
@@ -1612,7 +1638,7 @@
         "formation_confidence": "Inferential-Thin"
       },
       {
-        "claim": "The Life is hagiography: it calls him 'sanctus Ciaranus sacerdos et apostolus Christi' and makes him 'A man full of likeness in many ways to Jesus Christ'",
+        "claim": "The Life is hagiography, a saint's Life, as the brief says: it calls him 'sanctus Ciaranus sacerdos et apostolus Christi' and makes him 'A man full of likeness in many ways to Jesus Christ'",
         "witness": "Lismore Life (stokes_lives-of-saints-from-the-book-of-lismore-iri-eng_1890 l.21961-21962, OCR 'Chrish\\\\'; l.22914)",
         "formation_confidence": "Documented"
       },
@@ -1624,6 +1650,11 @@
       {
         "claim": "Tirechan: '[Iustus] diaconus Patricii ... in senectute sua bona babtitzauit Ciaranum filium artificis quando senex ac plenus dierum fuit. Interest hautem inter mortem Patricii et Cerani natiuitatem, ut peritissimi numerorum aestimant, cxl. annorum, et babtitzatus est Ceranus ex libro Patricii, a diacono Iusto in meo conspectu.' Round brackets in the file are Stokes's restorations of a damaged page: 'Cia)ranum', 'sen(ex)', '(et Cer)ani (na)tiuitatem (ut peri)tissimi', '(in meo)', 'd(iaco)n(us Patricii)'. The words 'filium artificis', 'babtitzatus est Ceranus ex libro Patricii, a diacono Iusto' and 'cxl. annorum' are read",
         "witness": "Tirechan, Collections, ed. Stokes (stokes_tripartite-life-of-patrick-v2-lat-muirchu-tirechan-confession_1887 l.3466-3477, OCR 'scncctutc', 'acstimant', 'lusto')",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The Lismore Life tells the same baptism as Tirechan: 'He was baptized by deacon Justus, for it was very meet that the righteous should be baptized by a righteous one'; and makes Justus his first tutor, 'his tutor, deacon Justus'. This is the one story of the Life that an earlier held source also tells (Tirechan, 'babtitzatus est Ceranus ex libro Patricii, a diacono Iusto', OCR 'lusto', stokes_tripartite-life-of-patrick-v2-lat-muirchu-tirechan-confession_1887 l.3476-3477)",
+        "witness": "Lismore Life (stokes_lives-of-saints-from-the-book-of-lismore-iri-eng_1890 l.22098-22100, l.22145)",
         "formation_confidence": "Documented"
       },
       {
@@ -1672,8 +1703,8 @@
         "formation_confidence": "Documented"
       },
       {
-        "claim": "The Life sends him on: 'Thereafter Ciarán went to Aran to commune with Enna'; then to Inis Cathaig 'to bid farewell to Senán'; to Isel; to Inis Angin 'Three years, then, and three months'; then to Ard Tiprat, 'Here then we will stay'",
-        "witness": "Lismore Life (stokes_lives-of-saints-from-the-book-of-lismore-iri-eng_1890 l.22541, l.22563-22564, l.22592-22594, l.22667-22674)",
+        "claim": "The Life sends him on: 'Thereafter Ciarán went to Aran to commune with Enna'; then to Inis Cathaig 'to bid farewell to Senán'; to Isel, where he 'dwelt along with the brethren'; to Inis Angin, where a priest 'gave the island up to him', Ciarán tells the brethren that a youth 'will be your abbot after me', and Enna Mac-Hui-Laigsi 'became abbot after Ciarán'; 'Three years, then, and three months dwelt Ciarán in Inis Angin'; then to Ard Tiprat, 'Here then we will stay'. The Life makes no one after Findian his teacher. The brief's 'The Life then takes him to Enda of Aran. Before Clonmacnois he led a house on the island of Inis Angin for three years' rests on this",
+        "witness": "Lismore Life (stokes_lives-of-saints-from-the-book-of-lismore-iri-eng_1890 l.22541, l.22563-22564, l.22592-22594, l.22640-22650, l.22667-22674)",
         "formation_confidence": "Documented"
       },
       {
@@ -1712,8 +1743,8 @@
         "formation_confidence": "Dominant Modern Reconstruction"
       },
       {
-        "claim": "Gilla Coemain's chronological poem, Stokes's English: 'TuathalMaelgarb's death with horror a year before Ciaran's obit'",
-        "witness": "Gilla Coemain's poem, ed. and tr. Stokes (stokes_tripartite-life-of-patrick-v2-lat-muirchu-tirechan-confession_1887 l.16366-16368; page heads 'GILLA COEMAIN'S CHRONOLOGICAL POEM' l.15903, l.16314, OCR)",
+        "claim": "Gilla Coemain's chronological poem, Stokes's English: 'TuathalMaelgarb's death with horror a year before Ciaran's obit'. A note in Stokes's edition dates the verses to 1072: 'the new moon fell in 1071 on the 25th Dec., and that therefore there were seven days thence to Jan. 1, 1072, the year in which these verses were made' (as O'Conor says; OCR '(yConor')",
+        "witness": "Gilla Coemain's poem, ed. and tr. Stokes (stokes_tripartite-life-of-patrick-v2-lat-muirchu-tirechan-confession_1887 l.16366-16368; note l.15790-15797; page heads 'GILLA COEMAIN'S CHRONOLOGICAL POEM' l.15903, l.16314, OCR)",
         "formation_confidence": "Contested"
       },
       {
@@ -1792,8 +1823,8 @@
         "formation_confidence": "Documented"
       },
       {
-        "claim": "He studied at Clonard under Findian, in the Life ('to go as a scholar to Findian of Clonard')",
-        "witness": "stokes_lives-of-saints-from-the-book-of-lismore-iri-eng_1890 l.22226-22227",
+        "claim": "He studied at Clonard under Findian, in the Life ('to go as a scholar to Findian of Clonard in order to learn wisdom'); leaving, he was 'bidding farewell to his tutor'",
+        "witness": "stokes_lives-of-saints-from-the-book-of-lismore-iri-eng_1890 l.22226-22227, l.22512",
         "formation_confidence": "Documented"
       },
       {
@@ -1831,7 +1862,8 @@
       {
         "claim": "His teachers and years before Clonmacnois",
         "sides": [
-          "Lismore Life: Findian of Clonard, Enda of Aran, Senan of Inis Cathaig, then Isel and Inis Angin (l.22226, 22541, 22563, 22592, 22667)",
+          "Lismore Life: Findian his tutor (stokes_lives-of-saints-from-the-book-of-lismore-iri-eng_1890 l.22226-22227, 22512); Enna and Senán visited (l.22541, 22563-22564); Isel (l.22592-22594); abbot on Inis Angin three years and three months (l.22640-22669)",
+          "Bollandists' Life of Enda: Enda his master ('suo magistro', 'sui Abbatis Endei', acta-sanctorum_martii-tomus-3-lat-grc_palme1865 l.76789, 76803)",
           "Bollandists' Life of Enda: seven years threshing for Enda on Aran (AS3 l.76780-76784); the Bollandists suggest he may have been Enda's novice before going to Senan (l.75805-75808, 'S. Kieranus Cluanensis, priusquam in S. Sennani disciplinam concederet, sub hoc S. Endeo monastica vitae potuisset tyrocinia')",
           "Hugh Williams: brought up at Clonard (gildas ... l.9111-9112)"
         ]
@@ -1898,13 +1930,13 @@
         "formation_confidence": "Documented"
       },
       {
-        "claim": "The Constitutum was signed with sixteen bishops, Primasius among them; the council opened on 5 May 553 (Hefele's dating) and Vigilius sent his ruling on 14 May",
-        "witness": "Council profile, Second Council of Constantinople, records.json and entry datesNote (Council-Profiles/era3/second-council-of-constantinople-553.*); Kihn, 'von sechzehn Bischöfen ... zwei Afrikanern ... Zu letzteren zählt Primasius' ({K} l.12653-12657)",
+        "claim": "The Constitutum was signed with sixteen bishops, Primasius among them; the council opened on 5 May 553 and Vigilius sent his ruling on 14 May",
+        "witness": "Heinrich Kihn: 'am 5. Mai 553 ... vom Kaiser eröffneten' and 'Bereits am 14. Mai hatte der Papst dem Kaiser ein Schriftstück über die drei Kapitel überreichen lassen, welches von sechzehn Bischöfen ... zwei Afrikanern, unterschrieben war. Zu letzteren zählt Primasius' (kihn_theodor-von-mopsuestia-junilius-africanus-instituta-lat-deu_1880 l.12603-12604, 12652-12657); cross-reference: council profile, Second Council of Constantinople (Council-Profiles/era3/second-council-of-constantinople-553.*)",
         "formation_confidence": "Documented"
       },
       {
         "claim": "The Three Chapters: writings tied to Theodore of Mopsuestia, Theodoret and Ibas that Justinian wanted condemned",
-        "witness": "Council profile, Second Council of Constantinople, issue (Council-Profiles/era3/second-council-of-constantinople-553.entry.json)",
+        "witness": "Heinrich Kihn: the council condemned propositions 'aus den Schriften des Theodor von Mopsuestia', 'die Streitschriften des Theodoret gegen Cyrill und ... den Brief des Ibas an den Perser Maris' (kihn_theodor-von-mopsuestia-junilius-africanus-instituta-lat-deu_1880 l.12648-12652); cross-reference: council profile, Second Council of Constantinople, issue (Council-Profiles/era3/second-council-of-constantinople-553.entry.json)",
         "formation_confidence": "Documented"
       },
       {
@@ -1918,7 +1950,7 @@
         "formation_confidence": "Dominant Modern Reconstruction"
       },
       {
-        "claim": "Victor: 'Primasius quoque Acoemetensi monasterio relegatur, sed Boethio primate Byzaceni concilii morte praevento, ut ei succederet, memoratae damnationi protinus assensit reversusque ad sua, quae prius defendebat, validissimis persecutionibus impugnavit fidelibusque calumnias generando eorumque substantias auferendo. sed in quibus peccavit, laetari non potuit, siquidem postquam a catholicis sui concilii antistibus pro suis est praevaricationibus condemnatus, infelici morte extinguitur'",
+        "claim": "Victor: 'Primasius quoque Acoemetensi monasterio relegatur, sed Boethio primate Byzaceni concilii morte praevento, ut ei succederet, memoratae damnationi protinus assensit reversusque ad sua, quae prius defendebat, validissimis persecutionibus impugnavit fidelibusque calumnias generando eorumque substantias auferendo. sed in quibus peccavit, laetari non potuit, siquidem postquam a catholicis sui concilii antistibus pro suis est praevaricationibus condemnatus, infelici morte extinguitur'. 'memoratae damnationi protinus assensit' (he at once agreed to the condemnation named above, that of the Three Chapters) is the brief's 'agreed to condemn the Three Chapters so that he might take his place'",
         "witness": "Victor of Tunnuna, Chronicle, under 'anno XII' after Basilius, Mommsen's 552 (chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894 l.19066, 19115-19121; OCR 'Byzaeeni', 'tidelibusque'); a hostile witness, writing for the Three Chapters; no second witness",
         "formation_confidence": "Contested"
       },
@@ -1938,8 +1970,8 @@
         "formation_confidence": "Documented"
       },
       {
-        "claim": "Kihn reads the monastery as 'Adrumetinus (Migne: Aquimetensis)' and places the relegation after the May 553 refusal: 'Hierher fällt nach meinem Erachten die Relegation in ein Kloster'",
-        "witness": "Kihn (kihn_theodor-von-mopsuestia-junilius-africanus-instituta-lat-deu_1880 l.12673-12675)",
+        "claim": "Kihn quotes Victor as 'Primasius quoque Adrumetinus (Migne: Aquimetensis) monasterio relegatus', where Adrumetinus goes with Primasius ('Primasius of Hadrumetum too was sent to a monastery'), and in his own telling says only 'wurde er in ein Kloster relegiert', naming no monastery; he places the relegation after the May 553 refusal: 'Hierher fällt nach meinem Erachten die Relegation in ein Kloster, welche Victor von Tununum ad ann. 552 berichtet'",
+        "witness": "Kihn (kihn_theodor-von-mopsuestia-junilius-africanus-instituta-lat-deu_1880 l.12673-12675, 12690)",
         "formation_confidence": "Inferential-Thin"
       },
       {
@@ -1988,7 +2020,7 @@
         "formation_confidence": "Inferential-Thin"
       },
       {
-        "claim": "Commentary: heading 'Commentariorum super Apocalypsim B. Joannis libri quinque'; prologue to 'vir illustris et religiose Castori'; 'si qua tamen a sancto quoque Augustino testimonia ... reperi, indubitanter adjunxi, sed etiam a Ticonio Donatista quondam certa, quae sano congruunt sensui, defloravi, et ... exundantia reprimens, importuna resecans, et impolita componens, catholico moderamine temperavi'",
+        "claim": "Commentary: heading 'Commentariorum super Apocalypsim B. Joannis libri quinque'; prologue to 'vir illustris et religiose Castori'; 'si qua tamen a sancto quoque Augustino testimonia ... reperi, indubitanter adjunxi, sed etiam a Ticonio Donatista quondam certa, quae sano congruunt sensui, defloravi, et ... exundantia reprimens, importuna resecans, et impolita componens, catholico moderamine temperavi'. The Augustine is the bishop of Hippo, whose unfinished book on heresies Isidore names in his notice of Primasius; hence 'Augustine of Hippo' in the brief and card",
         "witness": "Primasius, prologue to the Apocalypse commentary (liberatus-victor-tunnunensis-primasius-junillus-pl68-lat_migne1866 l.62636-62657; OCR 'QUIIVQUE', 'Casiori', 'Ticonio', 'olholico moderandne')",
         "formation_confidence": "Documented"
       },
@@ -1998,8 +2030,8 @@
         "formation_confidence": "Documented"
       },
       {
-        "claim": "'Sicut autem pretiosa in stercore gemma a prudente debet curari, colligi, et repetitae dignitati ingenuae revocari, ita undecunque veritas clareat, catholicae defendenda est unitati'",
-        "witness": "Prologue (liberatus-victor-tunnunensis-primasius-junillus-pl68-lat_migne1866 l.62678-62681; OCR 'aiitem', 'prudentc', 'repela', 'calliolicx def< ndenda')",
+        "claim": "'Sicut autem pretiosa in stercore gemma a prudente debet curari, colligi, et repetitae dignitati ingenuae revocari, ita undecunque veritas clareat, catholicae defendenda est unitati. Huic enim soli competit quidquid veritas foris etiam personarit ... cum verae matri fuerit redditum' (wherever truth shines, it is to be defended for the Catholic unity; to it alone belongs whatever truth has sounded even outside ... when it has been given back to the true mother). The brief's 'wherever truth shines, it should be won back for the Catholic Church' rests on this",
+        "witness": "Prologue (liberatus-victor-tunnunensis-primasius-junillus-pl68-lat_migne1866 l.62678-62685; OCR 'aiitem', 'prudentc', 'repela', 'calliolicx def< ndenda', 'Huic cnim', 'compctit quitlqiiid verilas foris ctiam pcrsonarit', 'rcdditum')",
         "formation_confidence": "Documented"
       },
       {
@@ -2023,9 +2055,9 @@
         "formation_confidence": "Documented"
       },
       {
-        "claim": "The work on heresies is lost: 'Interiit jam dudum opus istud'",
-        "witness": "Notitia/scripta ex Cave, PL 68 (liberatus-victor-tunnunensis-primasius-junillus-pl68-lat_migne1866 l.34982-34983; OCR 'Inieriit')",
-        "formation_confidence": "Widely Accepted"
+        "claim": "The notice from Cave that Migne prints says the work on heresies is lost: 'Interiit jam dudum opus istud'. It then reports that the three books extant under the name Praedestinatus are, by an old manuscript Mabillon saw at Reichenau, given to Primasius: 'Opus sancti Primasii, discipuli Augustini, de Haeresibus numero XC', and doubts that note: 'quisquis hanc notulam codici Augiensi apposuit, forsan hallucinatus'. 'Lost' is the notice's view, not settled",
+        "witness": "Notitia/scripta ex Cave, PL 68 (liberatus-victor-tunnunensis-primasius-junillus-pl68-lat_migne1866 l.34982-34986, 35021-35031; OCR 'Inieriit', 'duduni', 'Prwdestinali', 'Maliillonius', 'Opussancti', 'Auijuslini', 'Ihrresibus', 'allucinalua')",
+        "formation_confidence": "Contested"
       },
       {
         "claim": "Pauline commentaries printed under his name ('Commentaria in Epistolas S. Pauli, ex Hieronymi ...'); Bardenhewer counts 'ein ebensolcher Kommentar unter dem Namen des Primasius von Hadrumetum (Migne 68, 413-686)' among the later reworkings of Pelagius's commentary",
@@ -2065,7 +2097,7 @@
       },
       {
         "claim": "The monastery he was sent to",
-        "sides": "Acoemetensi, the Sleepless monks: Mommsen's correction (chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894 l.19115; 'aquimetensis libri', l.19164). Adrumetinus, his own city: Kihn (kihn_theodor-von-mopsuestia-junilius-africanus-instituta-lat-deu_1880 l.12675). Aquimetensis: Migne's text (liberatus-victor-tunnunensis-primasius-junillus-pl68-lat_migne1866 l.74709-74710)."
+        "sides": "Acoemetensi, the Sleepless monks: Mommsen's correction (chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894 l.19115; 'aquimetensis libri', l.19164). Kihn names no monastery (kihn_theodor-von-mopsuestia-junilius-africanus-instituta-lat-deu_1880 l.12675, 12690). Aquimetensis: Migne's text (liberatus-victor-tunnunensis-primasius-junillus-pl68-lat_migne1866 l.74709-74710)."
       },
       {
         "claim": "His see",

@@ -4,8 +4,8 @@
     "Eugipius",
     "Eugyppius"
   ],
-  "knownFor": "Priest and head of the monastery at the tomb of Severinus of Noricum, in the Lucullan castle at Naples, who wrote the Life of Severinus from the accounts of the elder monks and gathered a book of passages from Augustine for a holy woman named Proba.",
-  "dates": "Flourished after the consulship of Importunus, while Anastasius was emperor, in Isidore of Seville's words. G. W. Robinson puts that consulship in 509 and dates Eugippius's letter sending the Life to the deacon Paschasius to 511. No source used here gives the year of his birth or death",
+  "knownFor": "Priest and head of the monastery at the tomb of Severinus of Noricum, in the Lucullan castle at Naples, who wrote the Life of Severinus from the accounts of the elder monks and gathered a book of passages from Augustine of Hippo for a holy woman named Proba.",
+  "dates": "Flourished after the consulship of Importunus, while Anastasius was emperor, in Isidore of Seville's words. G. W. Robinson puts that consulship in 509 and dates Eugippius's letter sending the Life to the Roman deacon Paschasius to 511. No source used here gives the year of his birth or death",
   "place": "The Danube lands of Noricum, where G. W. Robinson says his earlier years were spent and where Eugippius tells of the monks opening Severinus's grave; the Lucullan castle at Naples, as head of the monastery there",
   "tradition": "Early Benedictine / Italian Monasticism",
   "role": "Priest and head of a monastery; writer of the Life of Severinus",
@@ -17,7 +17,7 @@
     },
     {
       "title": "Excerpts from the works of Augustine",
-      "about": "deep questions and sayings from Augustine set in 338 chapters for Proba, a consecrated virgin, in Cassiodorus's account; by Eugippius's own preface, as Andrea Gallandi quotes it, he made them at the urging of the abbot Marinus. No copy is among the sources used here"
+      "about": "deep questions and sayings from Augustine of Hippo set in 338 chapters for Proba, a consecrated virgin, in Cassiodorus's account; by Eugippius's own preface, as Andrea Gallandi quotes it, he made them at the urging of the abbot Marinus. No copy is among the sources used here"
     },
     {
       "title": "Rule for the monks of the monastery of Saint Severinus",
@@ -33,13 +33,13 @@
     "remembered": [
       "Paschasius answered the memoir: \"Thou hast sent me a memoir to which the eloquence of the trained writer can add nothing, and in a short compendium hast produced a work which the whole church can read.\"",
       "Isidore of Seville gives him a chapter in his book of famous men, as abbot of the Lucullan town at Naples.",
-      "G. W. Robinson opens his English translation with Teuffel's words, \"the incomparable biography of Saint Severinus\"."
+      "G. W. Robinson opens his English translation with the words of Teuffel's History of Roman Literature, \"the incomparable biography of Saint Severinus\"."
     ]
   },
   "uncertain": [
-    "How well he knew Severinus. Eugippius writes \"we\" at the deathbed and at the opening of the grave, and says he heard nothing of Severinus's homeland \"Even in the lifetime of Saint Severinus\". He also says he built the memoir from \"the daily narrations of the elder brethren\", and names those he heard stories from, among them Marcianus and the subdeacon Marcus. Andrea Gallandi, an editor of the 1700s, calls him a disciple of Severinus and of Pope Gelasius, and W. D. Foulke calls him Severinus's pupil. No source used here gives his age when Severinus died.",
-    "His years. No source used here gives the year of his birth or death. Eugippius dates his letter only as \"About two years ago, in the consulship of Importunus\". G. W. Robinson and Theodor Mommsen give 511 for the Life, and W. D. Foulke about 511.",
-    "One Eugippius or two. Faustino Arevalo's notes to Isidore report that Fabricius and others take the Eugippius whom Cassiodorus saw to be a different, younger man. Andrea Gallandi holds there was one, and blames the mistake on Sigebert, who placed an abbot Eugippius in the time of Pope Pelagius II and the emperor Tiberius.",
+    "How well he knew Severinus. Eugippius writes \"we\" at the deathbed and at the opening of the grave, and says that \"Even in the lifetime of Saint Severinus\" he heard no more of the saint's homeland than he tells. He also says he built the memoir from \"the daily narrations of the elder brethren\", and names those he heard stories from, among them Marcianus and the subdeacon Marcus. Paschasius, answering the memoir, writes that the virtues of teachers \"are more easily depicted by their pupils\". Andrea Gallandi, an editor of the 1700s, calls him a disciple of Severinus and of Pope Gelasius, and W. D. Foulke calls him Severinus's pupil. No source used here gives his age when Severinus died.",
+    "His years. No source used here gives the year of his birth or death. Eugippius's letter gives one time mark: he read the layman's letter \"About two years ago, in the consulship of Importunus\". G. W. Robinson and Theodor Mommsen give 511 for the Life, and W. D. Foulke about 511.",
+    "One Eugippius or two. Faustino Arevalo's notes to Isidore report that Fabricius and others take the Eugippius whom Cassiodorus saw to be a different, younger man. Andrea Gallandi rejects a like view, held by Miraeus, Bollandus and Cave, of two men named Eugippius, one Italian and one African. He blames it on Sigebert of Gembloux, who placed an abbot Eugippius in the time of Pope Pelagius II and the emperor Tiberius.",
     "His origin. Gallandi says he was Italian, and Foulke calls him an Italian monk. Robinson says his earlier years were spent in the Danube lands. No source used here gives his birthplace or family.",
     "The Lucullan castle. G. W. Robinson places it at what is now Pizzofalcone in Naples; Thomas Hodgkin's index puts it at the Castel dell'Ovo, and Heinrich Kihn between Naples and Pozzuoli."
   ],

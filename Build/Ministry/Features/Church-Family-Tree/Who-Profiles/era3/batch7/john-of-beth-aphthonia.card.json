@@ -1,11 +1,10 @@
 {
   "name": "John of Beth Aphthonia",
   "otherNames": [
-    "John of Beth-Aphthonia",
-    "Jean, supérieur du saint monastère de Beith-Aphthonia"
+    "John of Beth-Aphthonia"
   ],
   "knownFor": "Writer of a Life of Severus of Antioch, written in Greek at the request of Dometios and kept in a Syriac translation, whose heading calls him John, superior of the monastery of Beith-Aphthonia. M.-A. Kugener keeps him apart from the archimandrite John bar Aphthonia of Kenneshre, while J.-B. Chabot, R. Duval and E. W. Brooks give the Life to the archimandrite.",
-  "dates": "No source used here gives the years of the writer of the Life. The archimandrite John bar Aphthonia died on 4 November, in a Syriac chronicle extract that M.-A. Kugener prints in the same entry as Severus's death on 8 February of the year 849; Elias of Nisibis puts his death in the year 850. The chronicle under Zachariah's name dates the expulsion that brought his monks to Kenneshre from the year three to the year nine, which its translators read as 525 to 531",
+  "dates": "No source used here gives the years of the writer of the Life. The archimandrite John bar Aphthonia died on 4 November, in a Syriac chronicle extract that M.-A. Kugener prints in the same entry as Severus's death on 8 February of the year 849 of the Greeks, which E. W. Brooks gives as 538; Elias of Nisibis puts bar Aphthonia's death in the next year of that count. The chronicle under Zachariah's name dates the expulsion that brought his monks to Kenneshre from the year three to the year nine, which its translators read as 525 to 531",
   "place": "Beith-Aphthonia, by the heading of the Life; Peter the Iberian's monastery near Gaza, where the writer says he knew John the Canopite. The archimandrite John bar Aphthonia was a native of Edessa and settled the monks of Saint Thomas of Seleucia at Kenneshre on the Euphrates, a house Michael the Syrian calls the monastery of Bar Aphtonia",
   "tradition": "Syriac Orthodox (West Syriac) Christianity",
   "role": "Monastic superior; biographer of Severus of Antioch",
@@ -26,9 +25,9 @@
   ],
   "legacy": {
     "traces": [
-      "A pottery fragment from the Monastery of Epiphanius at Thebes carries a passage \"From the Biography of Severus of Antioch, by John of Beth-Aphthonia\", in W. E. Crum's English. Crum notes another extract of the work, Rylands 99, and a further fragment in the Munich Library.",
+      "A pottery fragment from the Monastery of Epiphanius at Thebes, in Egypt, holds a passage from a Life of Apa Severus, which W. E. Crum identifies as John of Beth-Aphthonia's. Crum says another extract, Rylands 99, shows the work was familiar in Egypt, and notes a further fragment in the Munich Library.",
       "The Syriac chronicle under the name of Dionysius of Tell-Mahre and Michael the Syrian copied passages of the Life into their chronicles, Kugener says.",
-      "The house at Kenneshre became a place of Greek learning. Bar Hebraeus says Thomas of Harkel was taught Greek as a boy in the Kenneshre monastery, and Michael the Syrian and Bar Hebraeus say Jacob of Edessa studied Greek at the monastery of Aphthonia, which Bar Hebraeus also calls the Kenneshre monastery."
+      "John bar Aphthonia's house at Kenneshre became a place of Greek learning. Bar Hebraeus says Thomas of Harkel was taught Greek as a boy in the Kenneshre monastery, and Michael the Syrian and Bar Hebraeus say Jacob of Edessa studied Greek at the monastery of Aphthonia, which Bar Hebraeus also calls the Kenneshre monastery."
     ],
     "remembered": [
       "Severus of Antioch, in a letter to Andrew the reader and notary, answers a question about \"the letter addressed to father John the son of Aphthonia\".",
@@ -37,9 +36,9 @@
     ]
   },
   "uncertain": [
-    "Which John wrote the Life. The heading names John, superior of the monastery of Beith-Aphthonia, and the writer calls himself small and not learned in letters. One manuscript of about the eleventh century, which holds a short extract, gives the Life to John bar Aphthonia, and Kugener calls that attribution false. The Life tells of the death of the archimandrite John bar Aphthonia as another man's. Assemani names two Johns as abbots of the Kenneshre house. J.-B. Chabot and R. Duval say a fragment in Michael the Syrian probably comes from the Life written by John bar Aphthonia, and E. W. Brooks calls the writer John, archimandrite of Kenneshre. Kugener promised an introduction on these questions, and it is not among the sources used here.",
+    "Which John wrote the Life. The heading names John, superior of the monastery of Beith-Aphthonia, and the writer calls himself small and not learned in letters. One manuscript of about the eleventh century, which holds a short extract, gives the Life to John bar Aphthonia, and Kugener calls that attribution false. The Life tells of the death of the archimandrite John bar Aphthonia as another man's. J. S. Assemani, in his Bibliotheca Orientalis, names two Johns as abbots of the Kenneshre house. J.-B. Chabot and R. Duval say a fragment in Michael the Syrian probably comes from the Life written by John bar Aphthonia, and E. W. Brooks calls the writer John, archimandrite of Kenneshre. Kugener promised an introduction on these questions, and it is not among the sources used here.",
     "Beth Aphthonia and Kenneshre. That the writer's Beith-Aphthonia is the Kenneshre house rests on Michael the Syrian's name for it, the monastery of Bar Aphtonia called of Qenneshre, and on E. W. Brooks's note on John of Ephesus. John of Ephesus also names a monastery of Aphthonia at Charrhae.",
-    "When the archimandrite died. The chronicle extract Kugener prints gives 4 November, in the entry for Severus's death in the year 849. Michael the Syrian says he died in the same year as John son of Cyriacus. Elias of Nisibis puts his death in 850, the year after Severus's. The Life puts it fifteen days after Severus's last letter, before Severus died.",
+    "When the archimandrite died. The chronicle extract Kugener prints gives 4 November, in the entry for Severus's death in the year 849 of the Greeks, which Brooks gives as 538. Michael the Syrian says he died in the same year as John son of Cyriacus. Elias of Nisibis puts his death in the next year of that count, the year after Severus's. The Life puts it fifteen days after Severus's last letter, before Severus died.",
     "His earlier work. The chronicle under Zachariah's name calls the archimandrite \"an ex-pleader (?)\", and its translators doubt the word suits the passage. Michael the Syrian calls him John the Rhetor.",
     "Dometios. The Life says he later became a bishop, and no source used here gives his see.",
     "The translator. The closing note of the Life names the abbot Mar Sergios, son of Charia, and Kugener marks the second name with a query."

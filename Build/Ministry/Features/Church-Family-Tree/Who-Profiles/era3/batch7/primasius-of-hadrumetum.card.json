@@ -4,8 +4,8 @@
     "Primasius Adrumetanus",
     "Primasius d'Hadrumète"
   ],
-  "knownFor": "Bishop of Hadrumetum in the African province of Byzacena, who wrote a commentary on the Revelation of John drawing on Augustine and the Donatist Tyconius, and who signed Pope Vigilius's ruling on the Three Chapters at Constantinople in 553.",
-  "dates": "His signature to Vigilius's ruling is dated the day before the Ides of May in Justinian's twenty-seventh year, which Otto Günther gives as 14 May 553. Victor of Tunnuna tells of his summons to Constantinople under the year Theodor Mommsen gives as 551, and of his fall and death under 552. No source used here gives the year of his birth or death",
+  "knownFor": "Bishop of Hadrumetum in the African province of Byzacena, who wrote a commentary on the Apocalypse of John drawing on Augustine of Hippo and the Donatist Tyconius, and who signed Pope Vigilius's ruling on the Three Chapters at Constantinople in 553.",
+  "dates": "Vigilius's ruling, which he signed, is dated the day before the Ides of May in Justinian's twenty-seventh year, which Otto Günther gives as 14 May 553. Victor of Tunnuna tells of his summons to Constantinople under the year Theodor Mommsen gives as 551. He tells of his fall and death under 552, an entry that runs past that year, since Primasius signed in May 553. No source used here gives the year of his birth or death",
   "place": "Hadrumetum, also called Justinianopolis, in Byzacena, as his own signature names it; Constantinople, on the business of the African church",
   "tradition": "Latin African Christianity under Byzantium",
   "role": "Bishop of Hadrumetum; commentator on Scripture",
@@ -17,7 +17,7 @@
     },
     {
       "title": "What Makes a Heretic (Quid faciat haereticum)",
-      "about": "lost; Cassiodorus names one book under this title, and Isidore of Seville names three books on heresies, sent to Bishop Fortunatus, to finish what Augustine's book on heresies had left undone at his death"
+      "about": "Cassiodorus names one book under this title, and Isidore of Seville names three books on heresies, sent to Bishop Fortunatus, to finish what Augustine's book on heresies had left undone at his death. The notice from Cave that Migne prints calls it long lost; it reports an old manuscript that gives the surviving Praedestinatus to Primasius, and doubts it."
     },
     {
       "title": "Commentaries on the letters of Paul",
@@ -36,13 +36,13 @@
   },
   "uncertain": [
     "His fall. What happened after he signed is told only by Victor of Tunnuna, who defended the Three Chapters and tells it as a betrayal. Victor says he was sent to a monastery, gave way so that he might succeed Boethius as head bishop of Byzacena, persecuted his former side at home, was condemned by his own province's bishops and died an unhappy death. No second witness tells it. Heinrich Kihn wrote in 1880 that how much truth the account holds is hard to say, and that it is not free of party coloring.",
-    "The monastery. The manuscripts of Victor read aquimetensis. Theodor Mommsen corrects it to Acoemetensi, the monastery of the Sleepless monks; Kihn reads Adrumetinus, a monastery of his own city, and places the sending after Primasius's refusal to attend the council in May 553, though Victor tells it under 552.",
+    "The monastery. The manuscripts of Victor read aquimetensis, and Migne prints Aquimetensis. Theodor Mommsen corrects it to Acoemetensi, the monastery of the Sleepless monks. Heinrich Kihn quotes the line with Adrumetinus, naming Primasius by his city, and names no monastery. He places the sending after Primasius's refusal to attend the council in May 553, though Victor tells it under 552.",
     "His refusal to attend. Heinrich Kihn reports from the council's acts, in Mansi's collection, that on 8 May 553 the council named Primasius first among the Western bishops still keeping away, and that he answered its envoys, \"Papa non praesente non venio\": with the pope not present, I will not come. The acts themselves are not among the sources used here. A notice Migne prints from Cave also says he would not attend though often called.",
     "His earlier stand. Kihn reports, again from Mansi, that Primasius signed Vigilius's sentence against Theodore Askidas on 14 August 551, and that he first appears at a synod of Byzacena in 541. Neither record is among the sources used here.",
     "Whether he became head bishop. Victor gives his aim, to succeed Boethius, and does not say that he did. A note to Liberatus of Carthage that Migne prints calls him primate of Byzacena.",
     "His see. Joannes Gagneius, a Paris theologian, in the dedication of his edition to King Francis I that Migne prints, calls him bishop of Utica. His own signature names Hadrumetum, and Kihn says Baronius had already set Utica aside.",
-    "Another Primasius. Primosus, deacon and later bishop of Carthage, is spelled Primasius in Migne's text of Victor; Heinrich Kihn warns that he is often confused with the bishop of Hadrumetum. The two are different men.",
-    "His age. Andrea Gallandi wonders whether Junillus calls him Father for his venerable grey hair. It is a guess."
+    "Another Primasius. Primosus, deacon and later bishop of Carthage, is spelled Primasius in Migne's text of Victor; Heinrich Kihn warns that he is often confused with the bishop of Hadrumetum.",
+    "His age. Andrea Gallandi wonders whether Junillus calls him Father for his venerable grey hair."
   ],
   "sources": {
     "ownWords": [
