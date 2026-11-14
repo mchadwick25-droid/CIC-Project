@@ -1,0 +1,109 @@
+{
+  "name": "Gregory of Tours",
+  "otherNames": [
+    "Georgius Florentius",
+    "Gregorius Turonensis"
+  ],
+  "knownFor": "Bishop of Tours under the Frankish kings and writer of the History of the Franks, the Miracles of Martin of Tours and the Lives of the Fathers, who stood against King Chilperic on the Trinity and cleared himself by oath when charged with slandering Queen Fredegund.",
+  "dates": "Born in 538 or 539 and died on 17 November 594, in W. Arndt's reckoning; Bruno Krusch, in the same edition, puts his death on 17 November 593. Bishop from 573, which W. Arndt reckons from Gregory's own date, the twelfth year of King Sigibert. Gregory also calls it the 172nd year after Martin's passing, a count Arndt says does not agree. No ancient source used here gives the year of his birth or death",
+  "place": "Clermont in Auvergne, where Ernest Brehaut says he was born and grew up; Tours, as its bishop",
+  "tradition": "Merovingian Gallic Christianity",
+  "role": "Bishop of Tours; historian and writer of saints' miracles and lives",
+  "briefLength": "about 2 minutes",
+  "keyWorks": [
+    {
+      "title": "History of the Franks (Historia Francorum), in ten books",
+      "about": "the Franks and the church of Gaul from the Creation to 591, in Brehaut's account, opening with Gregory's own creed and closing with his charge that the books be kept whole"
+    },
+    {
+      "title": "Miracles of Martin of Tours (De virtutibus sancti Martini), in four books",
+      "about": "the cures at Martin's tomb, his own among them; Bruno Krusch thinks Gregory died before finishing the fourth book"
+    },
+    {
+      "title": "Lives of the Fathers (Vita Patrum)",
+      "about": "Lives of saints of Gaul, among them his uncle Gallus of Clermont and his mother's uncle Nicetius of Lyons"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Ernest Brehaut says his History is often the sole authority for the events it tells, \"the perishing of the Roman Empire and the beginning of a great modern state\".",
+      "Paul the Deacon, writing the History of the Langobards, sends readers to \"the books of the reverend man Gregory, bishop of Tours\", in W. D. Foulke's English.",
+      "He set his own creed at the head of the History, \"that whoso reads may doubt not that I hold the catholic faith\", in O. M. Dalton's English."
+    ],
+    "remembered": [
+      "Venantius Fortunatus, an Italian poet at Poitiers and his close friend, wrote verses for his arrival at Tours, saying King Sigibert and Queen Brunhild favoured him. W. Arndt regrets that Fortunatus, who outlived him, left no Life of him.",
+      "The calendars of Tours keep his feast on 17 November, as Arndt quotes them from Ruinart's collection."
+    ]
+  },
+  "uncertain": [
+    "The trial. His own History is the account of the accused party, and Leudast's charge and the trial are known only from Gregory. The council met at Brinnacum in the Latin, which is Berny in O. M. Dalton's English and Braine in Ernest Brehaut's. Venantius Fortunatus wrote a poem to King Chilperic for it; Dalton notes that the poem praises Queen Fredegund and says nothing of the affair. Brehaut warns that readers \"must allow largely for error and prejudice in his statements of fact\".",
+    "His years. No ancient source used here gives the year of his birth or death. W. Arndt reckons his birth in 538 or 539, from his mother's healing thirty-four years after it, and his death on 17 November 594. Bruno Krusch, in the same volume, puts the death on 17 November 593, from Gregory's twenty-first year as bishop and the unfinished fourth book of the Miracles of Martin. Brehaut gives 538 to 594, and a note in W. D. Foulke's translation of Paul the Deacon gives about 538 and 594 or 595. The Tours calendars give the day only.",
+    "His consecration day. Krusch puts it on 20 August 573, Arndt on 23 August and Dalton on 24 August. Arndt thinks it likely that King Sigibert placed him at Tours, rather than the citizens choosing him.",
+    "His great-grandfather. Gregory's Latin calls Gregory, bishop of Langres, \"proavum nostrum\", and Arndt and Krusch make that Gregory his mother Armentaria's grandfather. Brehaut says great-grandfather; Dalton translates \"our ancestor\" and calls him great-great-grandfather in a note.",
+    "The year of his healing at Martin's tomb. His Latin gives the 163rd year after Martin's passing, which Arndt reckons as 563; Brehaut's English has the hundred and sixtieth. Arndt says Gregory was already a deacon then.",
+    "A journey to Rome. A Life of Gregory, which Arndt dates to the tenth century, says he went to Rome before his death; Arndt rejects it. No copy of that Life is quoted here.",
+    "His name. Arndt says it is doubtful whether he took the name Gregory only when ordained; Brehaut says he dropped the name Georgius Florentinus to honour his great-grandfather."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Historia Francorum and Miracula, Monumenta Germaniae Historica, Scriptores rerum Merovingicarum 1 (ed. W. Arndt and Bruno Krusch)",
+        "language": "Latin",
+        "file": "cic/texts/gregory-tours_opera-mgh-srm-1-lat_arndt-krusch1885.txt"
+      },
+      {
+        "title": "The History of the Franks, volume 2 (tr. O. M. Dalton)",
+        "language": "English translation",
+        "file": "cic/texts/gregory-tours_history-of-the-franks-v2_dalton1927.txt"
+      },
+      {
+        "title": "History of the Franks, selections, with selections from the Miracles (tr. Ernest Brehaut)",
+        "language": "English translation",
+        "file": "cic/texts/gregory-tours_history-of-the-franks-selections_brehaut1916.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Preface on the life of Gregory, to the Historia Francorum",
+        "author": "W. Arndt",
+        "date": "1885",
+        "language": "Latin",
+        "file": "cic/texts/gregory-tours_opera-mgh-srm-1-lat_arndt-krusch1885.txt"
+      },
+      {
+        "title": "Prolegomena to the Miracula",
+        "author": "Bruno Krusch",
+        "date": "1885",
+        "language": "Latin",
+        "file": "cic/texts/gregory-tours_opera-mgh-srm-1-lat_arndt-krusch1885.txt"
+      },
+      {
+        "title": "Introduction to the History of the Franks, selections",
+        "author": "Ernest Brehaut",
+        "date": "1916",
+        "language": "English",
+        "file": "cic/texts/gregory-tours_history-of-the-franks-selections_brehaut1916.txt"
+      },
+      {
+        "title": "Notes to the History of the Franks",
+        "author": "O. M. Dalton",
+        "date": "1927",
+        "language": "English",
+        "file": "cic/texts/gregory-tours_history-of-the-franks-v2_dalton1927.txt"
+      },
+      {
+        "title": "Poems, book V.3, To the citizens of Tours, on Bishop Gregory",
+        "author": "Venantius Fortunatus",
+        "language": "Latin",
+        "file": "cic/texts/venantius-fortunatus_opera-mgh-aa-4-lat_leo-krusch1881.txt"
+      },
+      {
+        "title": "History of the Langobards, with notes (tr. W. D. Foulke)",
+        "author": "Paul the Deacon",
+        "date": "1907",
+        "language": "English translation",
+        "file": "cic/texts/paul-the-deacon_history-of-the-langobards_foulke1907.txt"
+      }
+    ]
+  }
+}
