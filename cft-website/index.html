@@ -382,7 +382,7 @@ svg.strip-on #era-labels{display:none}
   .feature-bar .chip[aria-pressed] .sw{display:none}
   .feature-bar .chip{padding:.3rem .7rem}
   .feature-bar .chip[aria-pressed="true"]{border-color:var(--gold-leaf);color:var(--gold-leaf)}
-  .feature-bar .chip[aria-pressed="true"] .sw-name::after{content:" \2713"}
+  .feature-bar .chip[aria-pressed="true"] .sw-name::after{content:" \2713" / ""}
   .feature-bar .chip[aria-pressed="false"]{color:var(--ink-faded)}
   .feature-bar{gap:.4rem}
 }
@@ -474,7 +474,7 @@ svg.strip-on #era-labels{display:none}
   <span class="tag">an interactive map of Christian tradition, from the first house-churches to about 2010</span>
 </header>
 <nav id="siteMenu" aria-label="Site" hidden>
-  <p class="tag">an interactive map of Christian tradition, from the first house-churches to about 2010</p>
+  <p class="tag">An interactive map of Christian tradition, from the first house-churches to about 2010.</p>
   <a href="https://churchinconversation.com/">Church in Conversation</a>
   <a href="support.html">Help us grow</a>
   <button type="button" data-act="feedback">Tell us what you think</button>
@@ -501,7 +501,7 @@ svg.strip-on #era-labels{display:none}
   <div class="tray-sort" role="group" aria-label="Order of the list"><button type="button" data-sort="date" aria-pressed="true">By date</button><button type="button" data-sort="trad" aria-pressed="false">By tradition</button></div>
   <div class="tray-body"></div>
 </aside>
-<div id="connChip" hidden><button type="button" class="cc-x"><span class="cc-t"></span><span aria-hidden="true">&times;</span></button><ul class="cc-key"><li><i style="background:var(--link-grow)"></i>Grew out of</li><li><i style="background:var(--link-influence)"></i>Influenced</li><li><i style="background:var(--link-conflict)"></i>Broke with</li><li><i style="background:var(--link-contact)"></i>In contact</li></ul></div>
+<div id="connChip" hidden><button type="button" class="cc-x"><span class="cc-t"></span><span aria-hidden="true">&times;</span></button><ul class="cc-key"><li><i style="background:var(--link-grow)"></i>Grew out of, continued as</li><li><i style="background:var(--link-influence)"></i>Influenced</li><li><i style="background:var(--link-conflict)"></i>Argued against, broke with</li><li><i style="background:var(--link-contact)"></i>In contact with, member of</li></ul></div>
 <div id="barToast" aria-hidden="true"></div>
 <div id="zoomHint">Scroll to move &middot; Ctrl + scroll to zoom</div>
 
@@ -111756,15 +111756,15 @@ const gapAnchors=personEntries.filter(p=>!p.toldWithin).map(p=>{
   return a;
 });
 function personYear(P){return P.entry?+P.entry.start:Math.min(...P.rows.map(r=>r.row.year));}
-function personDates(P){
-  if(!P.entry)return `active about ${personYear(P)}`;
-  return String(P.entry.dates||'')
+function plainDates(s){
+  return String(s||'')
     .replace(/\b(\d+(?:st|nd|rd|th))\s+c\./g,'$1 century')
     .replace(/(\d)-c\.\s*/g,'$1 to about ')
     .replace(/\bc\.\s*(?=\d)/g,'about ')
     .replace(/(\d)-(?=[a-z])/g,'$1 to ')
     .replace(/(\d(?:st|nd|rd|th)?)-(?=\d)/g,'$1–');
 }
+function personDates(P){return P.entry?plainDates(P.entry.dates):`active about ${personYear(P)}`;}
 function voiceLine(home,row){
   const line=(home.voices||[])[row.voice];
   if(typeof line!=='string')return '';
@@ -111935,7 +111935,7 @@ function drawWhoNames(){
       const at=p&&p._at||[rows.length?rows[0].x:0,rows.length?rows[0].y-line*2:0];
       x=at[0]+((p&&p._w)||markU()*3)/2+markU()*.4; y=at[1];
     }else{const last=rows[rows.length-1];x=last?last.x:sc.m._x+8;y=last?last.y+line:sc.m._y+line;}
-    const g=el('g',{class:'who-name who-all',tabindex:'0',role:'button',transform:`translate(${x.toFixed(1)},${y.toFixed(1)})`,'aria-label':`${rest} more ${rest===1?'person':'people'}. Opens the full list.`});
+    const g=el('g',{class:'who-name who-all',tabindex:'0',role:'button',transform:`translate(${x.toFixed(1)},${y.toFixed(1)})`,'aria-label':`${rest} more ${rest===1?'person':'people'}. Shows the full list.`});
     const t=el('text',{class:'who-text',x:0,y:fu*.32});
     t.style.fontSize=fu+'px'; t.style.strokeWidth=(3*fu/11)+'px'; t.textContent=`+${rest} more`; g.appendChild(t); gWho.appendChild(g);
     const w=t.getComputedTextLength();
@@ -112013,7 +112013,7 @@ function syncWhoControls(){
   }
   document.querySelectorAll('[data-who]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.who===key)));
   const btn=panelBody.querySelector('.who-btn[data-who]');
-  if(btn){const on=btn.dataset.who===key;btn.querySelector('.who-state').textContent=on?'On the map ×':'Show on the map';}
+  if(btn){const on=btn.dataset.who===key;btn.querySelector('.who-state').innerHTML=on?'On the map <span aria-hidden="true">×</span>':'Show on the map';}
 }
 
 function renderWhoPills(){
@@ -112163,7 +112163,7 @@ function renderTray(){
   if(!whoScope)return;
   const n=whoPick.all.length, sc=whoScope, era=sc.type==='river'?eras[sc.era]:null;
   tray.querySelector('h2').textContent=`Who: ${whoScopeLabel(sc)}`;
-  tray.querySelector('.tray-sub').textContent=`${n} ${n===1?'person':'people'}${era?' · '+era.dates:''}`;
+  tray.querySelector('.tray-sub').textContent=`${n} ${n===1?'person':'people'}${era?' · '+plainDates(era.dates):''}`;
   tray.querySelector('.tray-sort').hidden=sc.type==='trad'||whoPick.trads.filter(m=>!m.gap).length<2;
   tray.querySelectorAll('.tray-sort button').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.sort===traySort)));
   let h='';
@@ -112319,7 +112319,7 @@ function render(){
     const dividerY=eraY0[i]+16;
     gBandFade.appendChild(el('rect',{x:BLEED_X,y:dividerY-9,width:BLEED_W,height:18,fill:'#F6F6F2',opacity:0.1}));
     gBandFade.appendChild(el('rect',{x:BLEED_X,y:dividerY,width:BLEED_W,height:1.5,fill:'#F6F6F2',opacity:0.85}));
-    const lbl=el('text',{x:24,y:dividerY+38,class:'era-label',tabindex:'0',role:'button','aria-label':`${e.num}. ${e.title}, ${e.dates}. Opens a note on this era.`});
+    const lbl=el('text',{x:24,y:dividerY+38,class:'era-label',tabindex:'0',role:'button'});
     lbl.textContent=`${e.num}. ${e.title}`;
     const act=()=>{if(svg.classList.contains('simple'))goIntoEra(i);else openEraCard(i);};
     lbl.addEventListener('click',ev=>{ev.stopPropagation();act();});
@@ -112334,7 +112334,7 @@ function render(){
     info.addEventListener('keydown',ev=>{if(ev.key==='Enter'||ev.key===' '){ev.preventDefault();ev.stopPropagation();openEraCard(i);}});
     gLabels.appendChild(info);
     const tag=el('text',{x:24,y:dividerY+64,class:'era-tag'});
-    tag.textContent=e.dates;
+    tag.textContent=plainDates(e.dates);
     gLabels.appendChild(tag);
   });
 
@@ -112345,9 +112345,9 @@ function render(){
     calm.dataset.lane=k; organic.dataset.lane=k;
     const members=churchBodies.filter(m=>m.laneOrder===k).sort((a,b)=>a.start-b.start);
     const years=members.map(m=>m.start);
-    const riverTip=tipForRiver(f,members.length,Math.min(...years),Math.max(...years));
+    const riverTip=tipForRiver(f,members.length,Math.min(...years),Math.max(...members.map(m=>m.end)));
     const group=el('g',{class:'river-group',tabindex:'0',role:'button',
-      'aria-label':`${f.name} river, ${members.length} movements`});
+      'aria-label':`${f.name} river, ${members.length} ${members.length===1?'tradition':'traditions'}`});
     group.dataset.lane=k;
     group.appendChild(calm); group.appendChild(organic);
     [['thread-calm',0],['thread-organic',1]].forEach(([cls,amp])=>{
@@ -112669,7 +112669,10 @@ function renderCouncils(){
   });
 }
 function esc(s){return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
-function statusLabel(m){const sm=DATA.statusMeta&&DATA.statusMeta[m.status];return (sm&&sm.shortWord)||m.status;}
+function statusLabel(m){
+  if(m.status==='Built & Live'&&!CONVERSATIONS_LIVE)return 'Conversations coming soon';
+  const sm=DATA.statusMeta&&DATA.statusMeta[m.status];return (sm&&sm.shortWord)||m.status;
+}
 function tipFor(m){
   if(m.kind===COUNCIL_KIND)return `<div class="n">${esc(m.shortName||m.name)}</div><div class="m">${esc(m.dates)} · ${esc(CFTPlace.formatPlace(m,{today:true})||m.region||'')}</div><div class="m">${esc(KIND_LABEL[m.kind])}</div>`;
   return `<div class="n">${esc(m.shortName||m.name)}</div><div class="m">${esc(m.dates)} · ${esc(CFTPlace.formatPlace(m,{today:true})||m.region||'')}</div>${KIND_LABEL[m.kind]?`<div class="m">${esc(KIND_LABEL[m.kind])}</div>`:''}<div class="s">${esc(statusLabel(m))}</div>`;
@@ -112693,7 +112696,7 @@ function tipForEdge(edg,a,b){
   return `<div class="n">${edgeHeading(edg,a,b)}</div><div class="m">${esc(edg.type)} · ${esc(edg.confidence)}</div><div class="s">${esc(edg.note.slice(0,140))}${edg.note.length>140?'…':''}</div>`;
 }
 function tipForRiver(f,count,minYear,maxYear){
-  return `<div class="n">${esc(f.name)}</div><div class="m">${count} movements · ${minYear}–${maxYear}</div>`;
+  return `<div class="n">${esc(f.name)}</div><div class="m">${count} ${count===1?'tradition':'traditions'} · ${minYear}–${maxYear}</div>`;
 }
 function tipForStory(s){
   return `<div class="n">${esc(s.title)}</div><div class="m">${esc(String(s.year))} · ${esc(CFTPlace.formatPlace(s,{today:true})||s.region||'')}</div><div class="s">Story — not its own movement</div>`;
@@ -112968,8 +112971,8 @@ function openPanel(m,opts){
   if(m.legacy)h+='<h3>Legacy</h3>'+m.legacy.split('\n\n').map(p=>`<p>${esc(p)}</p>`).join('')+sectionSources(m.legacySources);
   if(m.experienceToday&&m.experienceToday.length)h+=`<h3>Experience it today</h3><ul class="exptoday">${m.experienceToday.map(e=>`<li><a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.text)}</a></li>`).join('')}</ul>`;
   if(hasContent(m.relationsSummary))h+=`<h3>In its own record</h3><p><i>${esc(m.relationsSummary)}</i></p>`;
-  if(outbound.length){h+='<h3>Influenced / transmitted to</h3>';outbound.forEach(e=>{const t=entryById(e.to);h+=`<div class="edge"><span class="k">${esc(e.type)} · ${esc(e.confidence)}${isMajorEdge(e)?' · Major':''}</span><br><b>${esc(t?t.shortName||t.name:e.to)}</b><br>${esc(e.note)}${e.outcome?`<br><i>Lasting result:</i> ${esc(e.outcome)}`:''}</div>`;});}
-  if(inbound.length){h+='<h3>Influenced by</h3>';inbound.forEach(e=>{const f=entryById(e.from);h+=`<div class="edge"><span class="k">${esc(e.type)} · ${esc(e.confidence)}${isMajorEdge(e)?' · Major':''}</span><br><b>${esc(f?f.shortName||f.name:e.from)}</b><br>${esc(e.note)}${e.outcome?`<br><i>Lasting result:</i> ${esc(e.outcome)}`:''}</div>`;});}
+  if(outbound.length){h+='<h3>Connections from this tradition</h3>';outbound.forEach(e=>{const t=entryById(e.to);h+=`<div class="edge"><span class="k">${esc(e.type)} · ${esc(e.confidence)}${isMajorEdge(e)?' · Major':''}</span><br><b>${esc(t?t.shortName||t.name:e.to)}</b><br>${esc(e.note)}${e.outcome?`<br><i>Lasting result:</i> ${esc(e.outcome)}`:''}</div>`;});}
+  if(inbound.length){h+='<h3>Connections to this tradition</h3>';inbound.forEach(e=>{const f=entryById(e.from);h+=`<div class="edge"><span class="k">${esc(e.type)} · ${esc(e.confidence)}${isMajorEdge(e)?' · Major':''}</span><br><b>${esc(f?f.shortName||f.name:e.from)}</b><br>${esc(e.note)}${e.outcome?`<br><i>Lasting result:</i> ${esc(e.outcome)}`:''}</div>`;});}
   if(m.continuesAs&&byId[m.continuesAs]){
     const next=byId[m.continuesAs], link=continuesLink(m.id,next.id);
     h+=`<h3>Continues as</h3>`+(link
@@ -112997,7 +113000,6 @@ function openPanel(m,opts){
   }
   if(m.why){
     h+=`<h3>Where this tradition stands</h3><p>${esc(m.why)}</p>`;
-    h+=worldDoor(m);
   }
   stopNarration(); panelBody.innerHTML=h; showPanel(m.id); hideTip(); narrCardReady();
   wirePanelLinks();
@@ -113125,20 +113127,21 @@ function openEraCard(i){
   const mapStories=(DATA.stories||[]).filter(s=>eraOfYear(+s.year)===i).sort((a,b)=>a.year-b.year);
   const tradStories=churchBodies.filter(m=>m.era===e.num&&m.documentedStories&&m.documentedStories.length).sort((a,b)=>a.start-b.start);
   const nTrad=tradStories.reduce((n,m)=>n+m.documentedStories.length,0);
-  let h=`<h2 id="panelTitle">${e.num}. ${esc(e.title)}</h2><p class="meta">${esc(e.dates)} · ${eraCounts[i]} traditions on ${eraLaneCounts[i]} rivers</p>`;
-  if(WORLD_CONTEXT[e.num])h+=`<h3>How the era opens</h3><p>${esc(WORLD_CONTEXT[e.num])}</p>`;
-  if(councils.length)h+=`<h3>Major councils</h3><ul class="person-list">${councils.map(c=>`<li><button type="button" class="panel-link" data-id="${esc(c.id)}">${esc(c.shortName||c.name)}</button> <span class="meta">${esc(c.dates||'')}</span></li>`).join('')}</ul>`;
+  const nTraditions=churchBodies.filter(m=>m.era===e.num).length, nAcross=acrossMovements.filter(m=>m.era===e.num).length;
+  let h=`<h2 id="panelTitle">${e.num}. ${esc(e.title)}</h2><p class="meta">${esc(plainDates(e.dates))} · ${nTraditions} ${nTraditions===1?'tradition':'traditions'} on ${eraLaneCounts[i]} rivers${nAcross?` · ${nAcross} ${nAcross===1?'movement':'movements'} across churches`:''}</p>`;
+  if(WORLD_CONTEXT[e.num])h+=`<h3>About this era</h3><p>${esc(WORLD_CONTEXT[e.num])}</p>`;
+  if(councils.length)h+=`<h3>Major councils</h3><ul class="person-list">${councils.map(c=>`<li><button type="button" class="panel-link" data-id="${esc(c.id)}">${esc(c.shortName||c.name)}</button>${/\d{3}/.test(c.shortName||c.name)?'':` <span class="meta">${esc(plainDates(c.dates))}</span>`}</li>`).join('')}</ul>`;
   if(born.length)h+=`<h3>Rivers that begin here</h3><p>${born.map(esc).join(' · ')}</p>`;
   if(majors.length){
-    h+=`<h3>People to meet</h3><ul class="person-list">${majors.slice(0,12).map(a=>`<li><button type="button" class="panel-link" data-person="${esc(a.P.key)}">${esc(a.P.entry.name)}</button>${a.m.gap?'':` <span class="meta">${esc(a.m.shortName||a.m.name)}</span>`}</li>`).join('')}</ul>`;
+    h+=`<h3>Major people</h3><ul class="person-list">${majors.slice(0,12).map(a=>`<li><button type="button" class="panel-link" data-person="${esc(a.P.key)}">${esc(a.P.entry.name)}</button>${a.m.gap?'':` <span class="meta">${esc(a.m.shortName||a.m.name)}</span>`}</li>`).join('')}</ul>`;
     h+=`<p class="meta">${majors.length>12?`And ${majors.length-12} more major people. `:''}${people.length} ${people.length===1?'person':'people'} in all.</p>`;
   }
   if(mapStories.length||nTrad){
-    h+='<h3>Stories from this era</h3>';
-    if(mapStories.length)h+=`<p class="meta">On the map · ${mapStories.length}</p><ul class="person-list">${mapStories.map((s,j)=>`<li><button type="button" class="panel-link" data-era-story="${j}">${esc(s.title)}</button> <span class="meta">${esc(String(s.year))}</span></li>`).join('')}</ul>`;
-    if(nTrad)h+=`<details class="brief-text era-more"><summary>In the traditions' cards · ${nTrad} ${nTrad===1?'story':'stories'} in ${tradStories.length} ${tradStories.length===1?'tradition':'traditions'}</summary>${tradStories.map(m=>`<h4>${esc(m.shortName||m.name)}</h4><ul class="person-list">${m.documentedStories.map((s,j)=>`<li><button type="button" class="panel-link" data-era-trad="${esc(m.id)}" data-idx="${j}">${esc(s.title)}</button>${s.when?` <span class="meta">${esc(String(s.when))}</span>`:''}</li>`).join('')}</ul>`).join('')}</details>`;
+    h+='<h3>Stories</h3>';
+    if(mapStories.length)h+=`<p class="meta">On the map, from this era · ${mapStories.length}</p><ul class="person-list">${mapStories.map((s,j)=>`<li><button type="button" class="panel-link" data-era-story="${j}">${esc(s.title)}</button> <span class="meta">${esc(String(s.year))}</span></li>`).join('')}</ul>`;
+    if(nTrad)h+=`<details class="brief-text era-more"><summary>In the cards of this era's traditions · ${nTrad} ${nTrad===1?'story':'stories'} in ${tradStories.length} ${tradStories.length===1?'tradition':'traditions'}</summary>${tradStories.map(m=>`<h4>${esc(m.shortName||m.name)}</h4><ul class="person-list">${m.documentedStories.map((s,j)=>`<li><button type="button" class="panel-link" data-era-trad="${esc(m.id)}" data-idx="${j}">${esc(s.title)}</button>${s.when?` <span class="meta">${esc(String(s.when))}</span>`:''}</li>`).join('')}</ul>`).join('')}</details>`;
   }
-  if(ERA_CLOSE[e.num])h+=`<h3>How the era closes</h3><p>${esc(ERA_CLOSE[e.num])}</p>`;
+  if(ERA_CLOSE[e.num])h+=`<h3>Where the map stops</h3><p>${esc(ERA_CLOSE[e.num])}</p>`;
   stopNarration(); panelBody.innerHTML=h;
   wirePanelLinks();
   panelBody.querySelectorAll('[data-era-story]').forEach(b=>b.addEventListener('click',()=>openPanelStory(mapStories[+b.dataset.eraStory])));
@@ -113232,9 +113235,9 @@ function buildLegend(){
   const KEY_END={grow:'<path d="M20,1 L26,5 L20,9 z" fill="var(--link-grow)"/>',influence:'<path d="M17.5,5 L21.5,1.2 L25.5,5 L21.5,8.8 z" fill="none" stroke="var(--link-influence)" stroke-width="1.5"/>',conflict:'<path d="M24,0 L24,10" stroke="var(--link-conflict)" stroke-width="2.6"/>',contact:'<circle cx="4" cy="5" r="3" fill="var(--link-contact)"/><circle cx="22" cy="5" r="3" fill="var(--link-contact)"/>'};
   const colorKey=(f)=>`<svg class="linekey" viewBox="0 0 26 10" aria-hidden="true"><line x1="${f==='contact'?4:1}" y1="5" x2="${f==='contact'?22:f==='grow'?20:f==='influence'?17.5:24}" y2="5" stroke="var(--link-${f})" stroke-width="2.4"/>${KEY_END[f]}</svg>`;
   const nMajor=gEdges.querySelectorAll('.edge-line[data-major="1"]').length, nAll=gEdges.querySelectorAll('.edge-line').length;
-  let links=`<div class="note">Lines join traditions where the sources record a connection. The color and the mark at the end show the kind of connection. The line's pattern shows how sure the record is. Where a connection has a direction, the mark sits at the end it points to. Where a connection joins two movements equally, the mark sits at both ends. Hover or click a line to read the connection and its sources.</div>`;
-  links+=`<div class="conn-seg" role="group" aria-label="Which connections to show"><button type="button" data-mode="off">Off</button><button type="button" data-mode="major">Major<span>${nMajor}</span></button><button type="button" data-mode="all">All<span>${nAll}</span></button></div>`;
-  links+=`<div class="note">Major connections show one movement growing out of another, a recorded break, or an act of authority the sources record, such as a council condemning a group. Pick a movement to see all of its connections.</div>`;
+  let links=`<div class="note">Lines join traditions where the sources record a connection. The color and the mark at the end show the kind of connection. The line's pattern shows how sure the record is. Where a connection has a direction, the mark sits at the end it points to. Where a connection joins two traditions equally, the mark sits at both ends. Hover or click a line to read the connection and its sources.</div>`;
+  links+=`<div class="conn-seg" role="group" aria-label="Which connections to show"><button type="button" data-mode="off">Off</button><button type="button" data-mode="major">Major <span>${nMajor}</span></button><button type="button" data-mode="all">All <span>${nAll}</span></button></div>`;
+  links+=`<div class="note">Major connections show one tradition growing out of another, or a recorded break. They also show acts of authority the sources record, such as a council condemning a group. To see all of one tradition's connections, open its card and choose Connections.</div>`;
   links+='<span class="cap">Kind of connection</span>';
   Object.entries(LINK_FAMILY_LABEL).forEach(([f,lbl])=>{links+=`<button type="button" class="row" data-kind="${f}" aria-pressed="true">${colorKey(f)}<span class="sw-name">${lbl}</span><span class="sw" aria-hidden="true"></span></button>`;});
   const lineKey=(dash)=>`<svg class="linekey" viewBox="0 0 26 10" aria-hidden="true"><line x1="1" y1="5" x2="25" y2="5" stroke="var(--iron-gall)" stroke-width="1.6"${dash?` stroke-dasharray="${dash}"`:''}/></svg>`;
@@ -113259,7 +113262,7 @@ function buildLegend(){
   let key=`<dl class="key-list">${keyRows.map(r=>`<div class="key-row">${r[0]}<div><dt>${r[1]}</dt><dd>${r[2]}</dd></div></div>`).join('')}</dl>`;
   key+=`<p class="note">Zoom in to see more: first the major traditions, then every tradition and story, then places and people.</p><p class="note">Places are given with the country they lie in today.</p>`;
   key+=`<div class="foot">&copy; 2026 Faithways Studio, Inc., a Colorado public benefit corporation &middot; <a href="license.html">License</a>. The same team makes <a href="https://churchinconversation.com/">Church in Conversation</a>.<br><a href="about.html">About</a> · <a href="method.html">Method</a> · <a href="data.html">Data and citation</a> · <a href="privacy.html">Privacy</a> · <a href="https://churchinconversation.com/license">License</a> · <a href="terms.html">Terms</a> · <a href="support.html">Help us grow</a></div>`;
-  const group=(id,icon,label,body,extra)=>`<div class="chip-group grp-${id}"><button type="button" class="chip has-ico" aria-expanded="false" aria-controls="sw-${id}"${extra||''}>${barIcon(icon)}<span class="sw-name">${label}<span class="dn"> &#9662;</span></span></button><div class="chip-panel" id="sw-${id}" hidden>${body}</div></div>`;
+  const group=(id,icon,label,body,extra)=>`<div class="chip-group grp-${id}"><button type="button" class="chip has-ico" aria-expanded="false" aria-controls="sw-${id}"${extra||''}>${barIcon(icon)}<span class="sw-name">${label}<span class="dn" aria-hidden="true"> &#9662;</span></span></button><div class="chip-panel" id="sw-${id}" hidden>${body}</div></div>`;
   const layer=(id,label)=>`<button type="button" class="chip has-ico" data-toggle="${id}" aria-pressed="true">${barIcon(id)}<span class="sw-name">${label}</span><span class="sw" aria-hidden="true"></span></button>`;
   let bar=group('rivers','rivers','Rivers',rivers)+layer('people','People');
   if((DATA.stories||[]).length)bar+=layer('stories','Stories');
@@ -113312,7 +113315,8 @@ function buildLegend(){
   }));
   wrap.querySelectorAll('.conn-seg [data-mode]').forEach(b=>b.addEventListener('click',ev=>{
     ev.stopPropagation(); linkMode=b.dataset.mode; save(); applyToggles();
-    announce(linkMode==='off'?'Connections hidden.':linkMode==='major'?`${nMajor} major connections showing.`:`All ${nAll} connections showing.`);
+    const shown=gEdges.querySelectorAll('.edge-line:not(.is-off)').length;
+    announce(linkMode==='off'?'Connections hidden.':`${shown} ${linkMode==='major'?'major ':''}${shown===1?'connection':'connections'} showing.`);
   }));
   wrap.querySelectorAll('[data-kind]').forEach(b=>b.addEventListener('click',ev=>{
     ev.stopPropagation(); const k=b.dataset.kind; if(kindsOff.has(k))kindsOff.delete(k);else kindsOff.add(k); save(); applyToggles();
@@ -113364,10 +113368,10 @@ function showConnections(m){
   if((y1-y0)*scale>vh){y0=m._y-vh*.35/scale;y1=m._y+vh*.65/scale;}
   tx=20+vw/2-((x0+x1)/2)*scale; ty=top+vh/2-((y0+y1)/2)*scale;
   applyTransform(); applyDetail(); labelFitRun();
-  const n=document.querySelectorAll('.edge-line.conn-lit').length, name=m.shortName||m.name;
+  const n=document.querySelectorAll('.edge-line.conn-lit').length, name=m.shortName||m.name, cn=n===1?'connection':'connections';
   connChip.querySelector('.cc-t').textContent=`Connections: ${name} · ${n}`;
-  connChip.querySelector('.cc-x').setAttribute('aria-label',`${n} connections of ${name} are showing. Clear them.`);
-  connChip.hidden=false; announce(`${n} connections of ${name} showing.`);
+  connChip.querySelector('.cc-x').setAttribute('aria-label',`${n} ${cn} of ${name} ${n===1?'is':'are'} showing. Clear them.`);
+  connChip.hidden=false; announce(`${n} ${cn} of ${name} showing.`);
   connChip.querySelector('.cc-x').focus();
 }
 connChip.querySelector('.cc-x').addEventListener('click',clearConnections);
@@ -113409,13 +113413,13 @@ function syncEraStrip(){
   if(i===stripEra)return;
   stripEra=i; const e=eras[i];
   eraStrip.querySelector('.es-t').textContent=`${e.num} · ${e.title}`;
-  eraStrip.querySelector('.es-d').textContent=e.dates;
-  eraStrip.querySelector('button').setAttribute('aria-label',`You are in era ${e.num}, ${e.title}, ${e.dates}. Opens a note on this era.`);
+  eraStrip.querySelector('.es-d').textContent=plainDates(e.dates);
+  eraStrip.querySelector('button').setAttribute('aria-label',`You are in era ${e.num}, ${e.title}, ${plainDates(e.dates)}. Opens a note on this era.`);
 }
 eraStrip.querySelector('button').addEventListener('click',()=>{if(stripEra>=0)openEraCard(stripEra);});
 ['pointerdown','wheel','touchstart'].forEach(t=>eraStrip.addEventListener(t,ev=>ev.stopPropagation(),{passive:true}));
 const LABEL_MIN_PX=12, LABEL_MAX_PX=16, LABEL_BASE_PX=11;
-const labelFit={items:null,queued:false,grid:null,asc:0,desc:0};
+const labelFit={items:null,queued:false,grid:null,asc:0,desc:0,simple:null};
 function labelFitBuild(){
   const deg={};
   DATA.edges.forEach(e=>{deg[e.from]=(deg[e.from]||0)+1;deg[e.to]=(deg[e.to]||0)+1;});
@@ -113459,6 +113463,10 @@ function labelFitRun(){
   const focus=!!whoScope||!!connFocus;
   const simple=scale<Z_MAJOR&&!focus, mid=!simple&&scale<Z_ALL&&!focus;
   svg.classList.toggle('simple',simple);
+  if(simple!==labelFit.simple){
+    labelFit.simple=simple;
+    gLabels.querySelectorAll('.era-label').forEach((t,j)=>t.setAttribute('aria-label',`${eras[j].num}. ${eras[j].title}, ${plainDates(eras[j].dates)}. ${simple?'Zooms in to this era.':'Opens a note on this era.'}`));
+  }
   syncDepth();
   sizeMarks(markU());
   const grid=layoutGrid();
@@ -113810,7 +113818,7 @@ if(window.ResizeObserver){const ro=new ResizeObserver(positionFeatureBar);docume
 centerView();
 {
   const hint=document.getElementById('zoomHint');
-  if(scale<Z_MAJOR)hint.innerHTML=(narrowScreen()?'<b>A map of Christian tradition</b>, from the first house-churches to about 2010.<br>':'')+(coarsePointer?'Tap':'Click')+' an era or a river to go in.';
+  if(scale<Z_MAJOR)hint.innerHTML=(narrowScreen()?'<b>A map of Christian tradition</b>, from the first house-churches to about 2010.<br>':'')+(coarsePointer?'Tap':'Click')+' an era or a river to zoom in.';
   const hideHint=()=>hint.classList.add('gone');
   ['pointerdown','wheel','keydown'].forEach(t=>window.addEventListener(t,hideHint,{once:true,passive:true}));
   setTimeout(hideHint,narrowScreen()?14000:8000);
