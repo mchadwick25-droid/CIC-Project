@@ -40,3 +40,7 @@ All findings applied as proposed; the briefs are the reviewer's scored copies.
 | R2-2-M10 | "W. J. Rees" in brief and card. |
 
 After the fixes: Braulio 328 words, FK 6.86, Flesch 70.19; Julian 342, FK 6.63, Flesch 73.89; Beuno 346, FK 4.32, Flesch 82.63.
+
+## Mechanical check after the fixes
+
+Two card sentences ran past 25 words and were split, with no change of sense: the Humbert `uncertain` item on who forged what ("The edict says the pope never sent the envoys. They came on the advice of Argyrus, the Greek governor in Italy, it says, and their letters bore false seals."), and the Prudentius `uncertain` 2 ("Most of what is told of his life comes through Hincmar, his opponent, and the annals. The rest comes through defenders who answered them, such as Nicolás Antonio.").
