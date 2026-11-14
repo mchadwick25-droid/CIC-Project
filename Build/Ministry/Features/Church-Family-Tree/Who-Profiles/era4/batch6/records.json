@@ -323,7 +323,7 @@
    },
    {
     "claim": "Renaudot: demand 'centum aureorum millia'; reply 'ne centum quidem drachmas habere se'; the son 'diversae fidei, nam erat Jacobita'; death AH 67 = 686",
-    "witness": "REN (renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713.txt) l.12065-12067, 12084-12089, 12173-12178",
+    "witness": "REN (renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713.txt) l.12065-12067, 12084, 12096-12097, 12173-12178",
     "formation_confidence": "Documented"
    },
    {
@@ -347,7 +347,7 @@
     "claim": "What John said he lacked",
     "sides": [
      "'I have not out of that sum one hundred thousand drachmae': Evetts's English (PO5 l.924-925)",
-     "'ne centum quidem drachmas habere se', not even a hundred: Renaudot (REN l.12088-12089)"
+     "'ne centum quidem drachmas habere se', not even a hundred: Renaudot (REN l.12096-12097)"
     ]
    },
    {
@@ -597,8 +597,8 @@
     "formation_confidence": "Documented"
    },
    {
-    "claim": "John the deacon, narrator of Michael I's life, says the history from Cyril to the days of Alexander was by 'the archdeacon and companion and secretary of the Father Patriarch Abba Simon ... the monk, Abba George', written 'on the mountain of the holy Macarius in the Wadi Habib', down to Omar's removal of Usamah",
-    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.4501-4537 [OCR 'se- cretaryof', 'awa}^']",
+    "claim": "John the deacon, narrator of Michael I's life, says the history from Cyril to the days of Alexander was by 'the archdeacon and companion and secretary of the Father Patriarch Abba Simon ... the monk, Abba George', written 'on the mountain of the holy Macarius in the Wadi Habib', 'down to the time of Sulaiman, son of Abd al-Melik' (Omar's removal of Usamah is named only to place Omar); Renaudot: 'usque ad Solimanum ... quibus ipse autor adjecit quae usque ad Theodori mortem, sub Asama'",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.4501-4537 [OCR 'se- cretaryof', 'awa}^']; REN (renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713.txt) l.13766-13772",
     "formation_confidence": "Documented"
    },
    {
@@ -622,18 +622,23 @@
     "formation_confidence": "Documented"
    },
    {
+    "claim": "Abd al-Malik wrote to Abd al-Aziz that 'the patriarch of the Christians, who lives at Alexandria, has sent information of the affairs of Egypt to India'; 'Now this was at night'",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.2027-2031, 2118",
+    "formation_confidence": "Documented"
+   },
+   {
     "claim": "Gaianites ordained a man of Maryut bishop and two priests; Abd al-Malik 'cut off their hands and feet' (all three)",
     "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.1990-2035",
     "formation_confidence": "Documented"
    },
    {
-    "claim": "The Indian priest found on the second day; the Amir spared Theodore and the Indian priest 'for he had learnt that there was no deceit'",
+    "claim": "The Indian priest found 'at sunset on the second day' (l.2179); the Amir spared Theodore and the Indian priest 'for he had learnt that there was no deceit'",
     "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.2178-2262",
     "formation_confidence": "Documented"
    },
    {
-    "claim": "John's monastery is Az-Zajaj ('the Monastery of Az-Zajaj, which is called in Greek To Enaton'); placed west of Alexandria by Basset ('a l'ouest d'Alexandrie') and Budge",
-    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.1472; PO17 (john-ephesus_lives-eastern-saints-po17_brooks1923.txt; Basset's Arabic Synaxarium, Baounah to Mesore, bound in) l.58431-58432; BUDM (ethiopian-synaxarium_book-of-saints-ethiopian-church-v2-v4-microform_budge1928.txt) l.42751",
+    "claim": "John's monastery is Az-Zajaj ('the Monastery of Az-Zajaj, which is called in Greek To Enaton'); the synaxaria place the monastery where Saint Severus lies west of Alexandria (Basset 'au couvent ou se trouve le corps de saint Severe ... a l'ouest d'Alexandrie'; Budge), without naming Az-Zajaj",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.1472; PO17 (john-ephesus_lives-eastern-saints-po17_brooks1923.txt; Basset's Arabic Synaxarium, Baounah to Mesore, bound in) l.58448-58450; BUDM (ethiopian-synaxarium_book-of-saints-ethiopian-church-v2-v4-microform_budge1928.txt) l.42750-42752",
     "formation_confidence": "Documented"
    },
    {
@@ -732,7 +737,7 @@
     "claim": "How often his cup was poisoned before the figs",
     "sides": [
      "Twice: Evetts's English (PO5 l.1742-1748)",
-     "Three times: Renaudot (REN l.12467-12470); Basset (PO17 l.58440-58445); Budge (BUDM l.42778-42779)"
+     "Three times: Renaudot (REN l.12467-12470); Basset (PO17 l.58462-58463); Budge (BUDM l.42778-42779)"
     ]
    },
    {
@@ -788,8 +793,8 @@
     "formation_confidence": "Documented"
    },
    {
-    "claim": "John the deacon, narrator of Michael I's life, says the history from Cyril to the days of Alexander was by 'the archdeacon and companion and secretary of the Father Patriarch Abba Simon ... the monk, Abba George', written 'on the mountain of the holy Macarius in the Wadi Habib', down to Omar's removal of Usamah",
-    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.4501-4537 [OCR 'se- cretaryof', 'awa}^']",
+    "claim": "John the deacon, narrator of Michael I's life, says the history from Cyril to the days of Alexander was by 'the archdeacon and companion and secretary of the Father Patriarch Abba Simon ... the monk, Abba George', written 'on the mountain of the holy Macarius in the Wadi Habib', 'down to the time of Sulaiman, son of Abd al-Melik' (Omar's removal of Usamah is named only to place Omar); Renaudot: 'usque ad Solimanum ... quibus ipse autor adjecit quae usque ad Theodori mortem, sub Asama'",
+    "witness": "PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt; despite the name, Evetts's History of the Patriarchs, PO 5) l.4501-4537 [OCR 'se- cretaryof', 'awa}^']; REN (renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713.txt) l.13766-13772",
     "formation_confidence": "Documented"
    },
    {
@@ -1447,8 +1452,8 @@
     "formation_confidence": "Documented"
    },
    {
-    "claim": "Renaudot's source: an earlier patriarch of the family name 'cujus vitam Severus Aschmonin Episcopus scripsit, Ephrem scilicet'",
-    "witness": "REN (renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713.txt) l.32122-32125",
+    "claim": "Renaudot's source: an earlier patriarch of the family name 'cujus vitam Severus Aschmonin Episcopus scripsit, Ephrem scilicet', in the History's life of Mark son of Zaraa (heading l.32091)",
+    "witness": "REN (renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713.txt) l.32091, 32122-32125",
     "formation_confidence": "Documented"
    },
    {
@@ -1464,6 +1469,11 @@
    {
     "claim": "Abraham's heading: 'EPHRAEM SYRUS, FILIUS ZARAA'",
     "witness": "REN (renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713.txt) l.23003",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Wadih son of Raja: 'juvenis inter nobiliores urbis Misrae', raised 'in Muhamedana Religione', became a Christian; 'Scripsit quoque Vazah filius Reja, libros aliquot lingua Arabica'",
+    "witness": "REN (renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713.txt) l.23439-23441, 23446-23509, 23576-23577",
     "formation_confidence": "Documented"
    },
    {
