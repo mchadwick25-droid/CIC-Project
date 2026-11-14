@@ -22,28 +22,29 @@
     },
     {
       "title": "On the Times",
-      "about": "his book on reckoning time. In the History he says he proved there that Aidan of Lindisfarne kept Easter wrongly. Plummer dates it to 703 and reports that a charge of heresy was later brought against Bede over it. The list of his works also names a larger book on the Times"
+      "about": "his book on reckoning time, which Plummer dates to 703. Plummer reports that a charge of heresy was later brought against Bede over it. In the History, Bede says he proved in his book \"De Temporibus\" that Aidan of Lindisfarne kept Easter wrongly. Plummer notes that Bede also calls his larger book on time De Temporibus"
     }
   ],
   "legacy": {
     "traces": [
       "Alcuin of York, in his poem on the bishops and saints of York, says Bede's parents placed him at seven in the monastery of Jarrow. There, Alcuin says, he became a master and wrote on Scripture, on metre, on time and on history.",
-      "In his seven books against Felix of Urgel, Alcuin cites blessed Bede the priest on the Acts of the Apostles and on the Song of Songs.",
+      "In his seven books against Felix of Urgel, Alcuin cites blessed Bede the priest on the Acts of the Apostles and on the Song of Songs. Migne dates Alcuin's letter sending the books to Charlemagne to 800.",
       "The Welsh annals note his death in three words, \"Beda presbyter dormit\": Bede the priest falls asleep. John Williams ab Ithel, who edited them, says that one manuscript of the annals, under 735, credits Bede with compiling its chronicle year by year.",
       "L. Cecil Jane says King Alfred paraphrased the History into Anglo-Saxon, and that it was first printed in England at Cambridge in 1643.",
-      "An English Lollard tract still leans on Bede. With him and with Gregory the Great, it says the signs of miracles were needed only at the church's beginning. We water plants until they have taken root, it says, and then stop."
+      "An English Lollard tract still leans on Bede. With him and with Gregory the Great, it says the signs of miracles were needed only at the church's beginning. We water plants until they have taken root, it says, and then stop.",
+      "A Wycliffite English tract, The Great Sentence of Curse Expounded, warns priests who say Mass in pride and covetousness. It cites Saint Bede, who says we sell Christ when we forsake truth and take up falsehood and uphold it."
     ],
     "remembered": [
-      "Rome honors him. The Roman Breviary keeps Bede the Venerable on 27 May as Confessor and Doctor of the Church. An English Roman Missal of 1843 gives, under 29 October, a prayer to God who enlightened his church by the learning of blessed Bede.",
+      "The Roman Breviary keeps Bede the Venerable on 27 May as Confessor and Doctor of the Church. Its lessons also read his homilies and passages of his History. An English Roman Missal of 1843 gives, under 29 October, a prayer to God who enlightened his church by the learning of blessed Bede.",
       "Charles Plummer says the name Venerable dates from the ninth century, and was a common title for priests. He retells two legends of how Bede earned it, one with angels answering his sermon and one with an angel finishing his epitaph.",
       "Plummer notes that Dante places Bede beside Isidore of Seville in Paradise.",
       "In the Breviary's lessons for Theodore of Tarsus, the Venerable Bede is quoted saying that brighter times never shone on England than under Theodore."
     ]
   },
   "uncertain": [
-    "The year of his death. Charles Plummer holds to 735, which the earliest northern witnesses give. He says 734 is the date of all the manuscripts of the Saxon Chronicle and of several other chronicles. He sets aside the case of Lumby and Mayor for 742, and the earlier years some foreign chronicles give. The letter of Cuthbert, Bede's pupil, places the death on the Wednesday before Ascension Day, after a day of dictation. Its manuscripts differ on the day of the month.",
+    "The year of his death. Charles Plummer holds to 735, which the earliest northern witnesses give. He says 734 is the date of all the manuscripts of the Saxon Chronicle and of several other chronicles. He sets aside the case for 742 made by Mayor and Lumby, from whose edition he prints Cuthbert's letter. He also sets aside the earlier years some foreign chronicles give. The letter of Cuthbert, Bede's pupil, places the death on the Wednesday before Ascension Day, after a day of dictation. Its manuscripts differ on the day of the month.",
     "What he was translating. L. Cecil Jane says he had just finished translating the Gospel of John. Plummer prints Cuthbert's letter from a manuscript at St. Gallen. In it, Bede translated the Gospel into English from the beginning to the words \"but what are they among so many?\" The ordinary text names the Gospel of John without that limit. Plummer finds the limit hard to square with the one chapter and one sentence left at the end.",
-    "His age and birth. Jane says he died at sixty-two. Plummer reckons his birth from Bede's own words as 672 or 673, and notes later chroniclers who put it in 674, 677 or 678.",
+    "His age and birth. Jane says he died at sixty-two. Plummer reckons his birth from Bede's own words as 672 or 673. He notes that the Lindisfarne annals and Simeon of Durham put it in 677, and Florence of Worcester in 678. Stevenson, in his Church Historians, puts it in 674, on grounds Plummer calls very precarious.",
     "The boy in the plague. The anonymous History of the Abbots does not name the small boy who sang the services with Ceolfrid. Plummer identifies him as Bede, noting that Bede, who takes much from that History, leaves the story out.",
     "Travel. Plummer rejects the claim that Bede went to Rome, which rests on a doubtful reading in a letter of Pope Sergius. He finds Bede at Lindisfarne and at York. Jane says a tradition that made him a professor at Cambridge has no foundation.",
     "The charge of heresy is known here only from Plummer, who quotes Bede's Letter to Plegwin. The letter itself is not among the sources used here.",
@@ -119,7 +120,7 @@
         "file": "cic/texts/annales-cambriae-rolls-series-20-lat_williams-ab-ithel1860.txt"
       },
       {
-        "title": "The Roman Breviary, calendar for 27 May and lessons for Theodore of Tarsus (tr. the Marquess of Bute)",
+        "title": "The Roman Breviary, calendar for 27 May, homilies of Bede, lessons from his History and lessons for Theodore of Tarsus (tr. the Marquess of Bute)",
         "language": "English translation",
         "file": "cic/texts/roman-breviary_bute1908.txt"
       },
@@ -128,6 +129,12 @@
         "date": "1843",
         "language": "English translation",
         "file": "cic/texts/roman-missal_england1843.txt"
+      },
+      {
+        "title": "The Grete Sentence of Curs Expouned, in Select English Works of John Wyclif, volume 3 (ed. Thomas Arnold)",
+        "author": "Anonymous Wycliffite writer",
+        "language": "Middle English",
+        "file": "cic/texts/wyclif_select-english-works-v3_arnold1871.txt"
       },
       {
         "title": "An Apology for Lollard Doctrines",
