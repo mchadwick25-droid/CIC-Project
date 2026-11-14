@@ -1,0 +1,74 @@
+{
+  "name": "Eadburga of Thanet",
+  "otherNames": [
+    "Eadburga, abbess",
+    "Eadburge (in one of Edward Kylie's headings)",
+    "Eadburg (Charles Plummer)"
+  ],
+  "knownFor": "An English abbess of the eighth century who sent books and vestments to Boniface of Mainz in Germany. He asked her to copy the Epistles of Saint Peter in gold. She taught Leoba the art of verse.",
+  "dates": "Eighth century. Edward Kylie dates the letters to her from about 717 to the 740s. The Bollandists, who take her to be Bugga, give her death day as 27 December; the year cannot be read in the scan used here. No source used here gives her birth",
+  "place": "Thanet, in Edward Kylie's headings and introduction; the letters themselves do not name her house",
+  "tradition": "Anglo-Saxon Christianity",
+  "role": "Abbess; teacher of Leoba; supplier of books to the Boniface mission",
+  "briefLength": "about 2 minutes 10 seconds",
+  "legacy": {
+    "traces": [
+      "Boniface thanked her for gifts of books and vestments. He asked her to copy in gold the Epistles of Saint Peter, to honor the Scriptures before the heathen.",
+      "Leoba wrote that she had learned the art of verse from the teaching of Eadburga.",
+      "Kylie writes that Boniface trusted the gold letters of Saint Peter to her skilled hands. He adds that English convents sent him books, vestments and clothing.",
+      "Lul, Boniface's deacon, sent her a silver stylus, storax and cinnamon, and asked for her prayers and a letter."
+    ],
+    "remembered": [
+      "Boniface opened one letter to her: \"To the Abbess Eadburga, beloved sister, now long bound to him in the kinship of spiritual love.\"",
+      "Leoba remembered her as a woman \"who continues without ceasing to search into the divine law\".",
+      "Charles Plummer, in his edition of Bede, cites the gold letters to her as a sign that nuns as well as monks worked as copyists."
+    ]
+  },
+  "uncertain": [
+    "None of her own letters is in Kylie's book. She is known from letters written to her and from Leoba's letter.",
+    "Her house. Kylie heads the letters to her as letters to the abbess of Thanet, and says Leoba was sent to her there. The letters themselves name no place.",
+    "Whether she was also Bugga. The Bollandists, editors of the Acta Sanctorum, report a belief that Eadburga, also called Bugga, was an abbess in Kent. Kylie keeps Eadburga and Bugga apart.",
+    "A church at Thanet. A note in Migne's edition of Alcuin's poems guesses that a poem on an apse of Saint Peter is about the church at Thanet. It states that Eadburga built that church, and gives no source.",
+    "Her years. Kylie dates the letters to her from about 717 to the 740s. The Bollandists give her death day as 27 December, the day Bregwin of Canterbury gives for an abbess Bugga. That rests on their view that she was Bugga.",
+    "Who sent the silver stylus. Kylie, Charles Plummer and Louis Duchesne give the letter to Lul. A note in Patrologia Latina 103 gives it to Boniface."
+  ],
+  "sources": {
+    "about": [
+      {
+        "title": "The English Correspondence of Saint Boniface: letters XIII, XIV, XV, XXII, XXIII and XXVIII, and the introduction",
+        "author": "Boniface; Lul; Leoba; Edward Kylie (tr. and ed.)",
+        "date": "1911",
+        "language": "English translation",
+        "file": "cic/texts/boniface_english-correspondence_kylie1911.txt"
+      },
+      {
+        "title": "Acta Sanctorum, March, volume 3: commentary on Saint Hildelitha",
+        "author": "The Bollandists",
+        "date": "1865",
+        "language": "Latin",
+        "file": "cic/texts/acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt"
+      },
+      {
+        "title": "Venerabilis Baedae opera historica, volume 1, notes",
+        "author": "Charles Plummer (ed.)",
+        "date": "1896",
+        "language": "English and Latin",
+        "file": "cic/texts/bede_opera-historica-v1-historia-abbatum-lat_plummer1896.txt"
+      },
+      {
+        "title": "Alcuini opera omnia, editors' note on the poem on the apse of Saint Peter",
+        "author": "J.-P. Migne (compiler)",
+        "date": "1863",
+        "language": "Latin",
+        "file": "cic/texts/alcuin_opera-omnia-letters_migne-pl100-101_1863.txt"
+      },
+      {
+        "title": "Concordia regularum, editor's note on the stylus",
+        "author": "J.-P. Migne (compiler)",
+        "date": "1851",
+        "language": "Latin",
+        "file": "cic/texts/benedict-aniane_concordia-regularum-with-ardo-vita-pl103-lat_migne1851.txt"
+      }
+    ]
+  }
+}
