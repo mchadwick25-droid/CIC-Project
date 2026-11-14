@@ -4,8 +4,8 @@ Each R3 finding, applied as worded by the lead after opening the cited lines. Au
 
 | Finding | Done |
 |---|---|
-| R3-A-M1 (Columba: the "constant one" sentence is Huyshe's introduction, not his note) | Taken as worded in card  4, records claim 11 and contested claim 3. Huyshe l.1571-1574 ("The tradition is a constant one that the strife and bloodshed of Cuil Dremhne had something to do with Columba's leaving Ireland"), l.3022-3026, l.542-543, l.625-629 confirmed. Double quotation marks; longest sentence 25 words. |
-| R3-A-M2 (Augustine: two long card sentences) | Taken as worded in card  3; longest sentence 18 words. |
+| R3-A-M1 (Columba: the "constant one" sentence is Huyshe's introduction, not his note) | Taken as worded in card `uncertain` 4, records claim 11 and contested claim 3. Huyshe l.1571-1574 ("The tradition is a constant one that the strife and bloodshed of Cuil Dremhne had something to do with Columba's leaving Ireland"), l.3022-3026, l.542-543, l.625-629 confirmed. Double quotation marks; longest sentence 25 words. |
+| R3-A-M2 (Augustine: two long card sentences) | Taken as worded in card `uncertain` 3; longest sentence 18 words. |
 | R3-A-M3 (Henana: "their editors" for a named witness) | Taken as worded: "The synods that Chabot, their editor, dates to 585, 596 and 605". |
 | R3-B-M1 (Reccared card: "He answers" after Mommsen; "think") | Taken as worded: "Hartmann answers that the priest Probinus carried it, beyond doubt, and thinks it badly preserved and corrupt in many places." |
 | R3-B-M2 (Reccared records: two plural verbs) | "think" to "thinks" in the claim on the letter; "answer" to "answers" in its contested claim. |
