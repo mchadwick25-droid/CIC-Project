@@ -678,7 +678,7 @@
     "formation_confidence": "Documented"
    },
    {
-    "claim": "Babai's Life of George, in Braun's German (the introduction shortened and three passages passed over, braun1915 l.12442-12443, 13161-13162, 13319-13322, 13806-13807): 'verfaßt vom heiligen Rabban Mär Bäbai, dem Abte auf dem Berge Izalä'; his preface: 'Vor ungefähr dreiund- dreißig Jahren schrieb ich die Geschichte des Abrahams von Kaschkar ... Später schrieb ich die Geschichte seines Nach- folgers Dädischö' aus Bet Däräje'; the charge 'Er leugnet die Auferstehung der Leiber und (lehrt), daß es eine Erlösung nur für die Seelen gebe'; Braun's heading dates George's death 14 January 615 and Babai's visitorship to the vacancy '608 — 628'",
+    "claim": "Babai's Life of George, in Braun's German (the introduction shortened, four passages passed over and two given only as a note, braun1915 l.12442-12443, 13161-13162, 13270, 13319-13322, 13362-13363, 13806-13807, 14944-14947): 'verfaßt vom heiligen Rabban Mär Bäbai, dem Abte auf dem Berge Izalä'; his preface: 'Vor ungefähr dreiund- dreißig Jahren schrieb ich die Geschichte des Abrahams von Kaschkar ... Später schrieb ich die Geschichte seines Nach- folgers Dädischö' aus Bet Däräje'; the charge 'Er leugnet die Auferstehung der Leiber und (lehrt), daß es eine Erlösung nur für die Seelen gebe'; Braun's heading dates George's death 14 January 615 and Babai's visitorship to the vacancy '608 — 628'",
     "witness": "Babai, Life of George, tr. Oskar Braun (persian-martyr-acts bkv22 braun1915 l.852-860, 12419-12446, 13395-13396); Hoffmann's German extracts of the same passage (persian-martyr-acts hoffmann1880 l.5596-5612)",
     "formation_confidence": "Documented"
    },
@@ -713,7 +713,7 @@
   "absent_details": [
    {
     "detail": "A Syriac or English text of his own books",
-    "note": "The Book of the Union is held only as passages quoted in Labourt's French (labourt1904 l.15845-16120). The Life of George is held in Oskar Braun's German (persian-martyr-acts bkv22 braun1915 l.12419 ff.), which gives only the main points of the long introduction (l.12442-12443) and passes over two encomia and one passage he calls empty of content (l.13161-13162, 13319-13322, 13806-13807), in Georg Hoffmann's German extracts (persian-martyr-acts hoffmann1880 l.5596-5612) and as two passages in Chabot's French (chabot1902 l.42080-42240). No Syriac or English text of his books is held. Searched all of cic/texts for Babai/Babaï/Bäbai/Babhai/Bàbhay/Babaeus/Babaeo."
+    "note": "The Book of the Union is held only as passages quoted in Labourt's French (labourt1904 l.15845-16120). The Life of George is held in Oskar Braun's German (persian-martyr-acts bkv22 braun1915 l.12419 ff.), which gives only the main points of the long introduction (l.12442-12443) passes over two encomia, a reflection and one passage he calls empty of content (l.13161-13162, 13270, 13319-13322, 13806-13807), and gives a reflection on the times and the rest of George's prayer only as notes (l.13362-13363, 14944-14947), in Georg Hoffmann's German extracts (persian-martyr-acts hoffmann1880 l.5596-5612) and as two passages in Chabot's French (chabot1902 l.42080-42240). No Syriac or English text of his books is held. Searched all of cic/texts for Babai/Babaï/Bäbai/Babhai/Bàbhay/Babaeus/Babaeo."
    },
    {
     "detail": "His birth year",
