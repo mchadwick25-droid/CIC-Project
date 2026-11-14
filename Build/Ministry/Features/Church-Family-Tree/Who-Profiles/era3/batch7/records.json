@@ -748,7 +748,7 @@
         "formation_confidence": "Inferential-Thin"
       },
       {
-        "claim": "The Bollandists quote Ferrarius, who 'in Catalogo Sanctorum Italiae agit de S. Severino Boetio Martyre Ticini ... & in altero Catalogo eorum qui non sunt in Martyrologio Romano, Ticini S. Severini Boetii Martyris, sub Theodorico Gothorum Rege' (reading reconstructed from heavy OCR with the print's o/a and u/n swaps: 'Ptrrarint', 'Catalagaearamqainanfantia Alartpralogia Ramana', 'Seven ni Uoet II Manyris', 'Thcodorico Gnthorum Regej'). The entry comes from a catalog of saints who are not in the Roman Martyrology; it is not a Roman Martyrology entry",
+        "claim": "The Bollandists cite two catalogs by Ferrarius, who 'in Catalogo Sanctorum Italiae agit de S. Severino Boetio Martyre Ticini ... & in altero Catalogo eorum qui non sunt in Martyrologio Romano, Ticini S. Severini Boetii Martyris, sub Theodorico Gothorum Rege' (reading reconstructed from heavy OCR with the print's o/a and u/n swaps: 'Ptrrarint', 'Catalagaearamqainanfantia Alartpralogia Ramana', 'Seven ni Uoet II Manyris', 'Thcodorico Gnthorum Regej'). Two catalogs are named: one of the saints of Italy, which calls him a martyr at Pavia, and one of saints who are not in the Roman Martyrology, which adds 'under Theodoric'. Neither is a Roman Martyrology entry. The card's 'two catalogs of saints by Ferrarius' rests on this",
         "witness": "acta-sanctorum_maii-tomus-6-lat_1739 l.16492-16497",
         "formation_confidence": "Inferential-Thin"
       },
@@ -811,6 +811,11 @@
         "claim": "Name forms: 'ANICII MANLII SEVERINI BOETHII' (MS title, Tr. II) and 'Anicius Manlius Severinus Boethius' (Robinson); 'Boetius' in Procopius, the Variae and Marius",
         "witness": "boethius_theological-tractates-consolation_stewart-rand1918 l.1840; eugippius_life-of-saint-severinus_robinson1914 l.2549-2550; procopius_wars-5-6-gothic_dewing1919 l.221; cassiodorus_variae-letters-hodgkin1886 l.7591; chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894 l.21310",
         "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Theodoric as the Ostrogothic king of Italy: Hodgkin calls Cassiodorus 'the Prime Minister of the Ostrogothic King Theodoric' and names 'the Ostrogothic Kingdom of Italy'; Stewart and Rand: 'consul under Theodoric the Ostrogoth'. The brief's 'Theodoric, the Ostrogothic king of Italy' rests on these",
+        "witness": "Thomas Hodgkin, Introduction (cassiodorus_variae-letters-hodgkin1886 l.1090-1091, 4117-4118); H. F. Stewart and E. K. Rand, Introduction (boethius_theological-tractates-consolation_stewart-rand1918 l.242)",
+        "formation_confidence": "Documented"
       }
     ],
     "contested_claims": [
@@ -824,7 +829,7 @@
       },
       {
         "claim": "Whether he died a Christian, and whether he is a martyr",
-        "sides": "Hodgkin: Christ never named in the Consolation, a theist's tone, yet professing Christian in full communion (cassiodorus_variae-letters-hodgkin1886 l.3999-4000, 4054-4058). Stewart and Rand: 'without doubt a Christian, a Doctor and perhaps a martyr' (boethius_theological-tractates-consolation_stewart-rand1918 l.336-337). The Bollandists list him as a martyr at Pavia (acta-sanctorum_maii-tomus-6-lat_1739 l.8153-8155), and quote an Italian catalog of saints who are not in the Roman Martyrology, 'eorum qui non sunt in Martyrologio Romano', naming him a martyr at Pavia under Theodoric (l.16492-16497; reading reconstructed from heavy OCR). No ancient held text calls him a martyr."
+        "sides": "Hodgkin: Christ never named in the Consolation, a theist's tone, yet professing Christian in full communion (cassiodorus_variae-letters-hodgkin1886 l.3999-4000, 4054-4058). Stewart and Rand: 'without doubt a Christian, a Doctor and perhaps a martyr' (boethius_theological-tractates-consolation_stewart-rand1918 l.336-337). The Bollandists list him as a martyr at Pavia (acta-sanctorum_maii-tomus-6-lat_1739 l.8153-8155), and cite Ferrarius's two catalogs, of the saints of Italy and of saints 'qui non sunt in Martyrologio Romano', both naming him a martyr at Pavia, the second under Theodoric (l.16492-16497; reading reconstructed from heavy OCR). No ancient held text calls him a martyr."
       },
       {
         "claim": "Whether his death came before or during Pope John I's embassy to Constantinople",
@@ -842,7 +847,7 @@
       },
       {
         "detail": "Any ancient source calling him a martyr or saint",
-        "note": "Searched 'martyr|mattyi|manyris' within 80 characters of boethius/boetius/boetii/boethii/boctio across cic/texts: no hit, since the Bollandist lines are too corrupt for the pattern; read directly, only the Bollandists' own list (1739, l.8153-8155) and the catalog of saints not in the Roman Martyrology that they quote (l.16492-16497) call him martyr. Procopius, the AV, the Book of the Popes, Marius and Agnellus say nothing of martyrdom."
+        "note": "Searched 'martyr|mattyi|manyris' within 80 characters of boethius/boetius/boetii/boethii/boctio across cic/texts: no hit, since the Bollandist lines are too corrupt for the pattern; read directly, only the Bollandists' own list (1739, l.8153-8155) and Ferrarius's two catalogs that they cite, of the saints of Italy and of saints not in the Roman Martyrology (l.16492-16497) call him martyr. Procopius, the AV, the Book of the Popes, Marius and Agnellus say nothing of martyrdom."
       },
       {
         "detail": "Names of his father and sons in an ancient narrative",
@@ -1304,7 +1309,7 @@
         "formation_confidence": "Documented"
       },
       {
-        "claim": "Paschasius, answering the memoir: 'it is one thing to relate what we have been told, quite another thing, to draw from the stores of our own experience. The virtues of teachers are particularly visible in their daily life, and consequently are more easily depicted by their pupils.' The brief's 'Paschasius answers that teachers are best portrayed by their pupils' tells this; it is Paschasius's reading of Eugippius as Severinus's pupil, the one ancient witness on the question",
+        "claim": "Paschasius, answering the memoir: 'it is one thing to relate what we have been told, quite another thing, to draw from the stores of our own experience. The virtues of teachers are particularly visible in their daily life, and consequently are more easily depicted by their pupils.' The brief's 'Paschasius replies that teachers are more easily portrayed by their pupils' tells this; he replies to the memoir, explaining why he adds nothing; it is Paschasius's reading of Eugippius as Severinus's pupil, the one ancient witness on the question",
         "witness": "Paschasius, Letter to Eugippius, tr. Robinson (eugippius_life-of-saint-severinus_robinson1914 l.4255-4260)",
         "formation_confidence": "Documented"
       },
@@ -1314,7 +1319,7 @@
         "formation_confidence": "Documented"
       },
       {
-        "claim": "Severinus died 'on the eighth of January' with no year; the Life tells his deeds and miracles in Noricum; Paschasius: 'Saint Severinus, who dwelt in the provinces bordering on the Pannonias'. The brief's 'a holy man of the borderlands of the Danube' rests on this and on the Life's Danube towns ('They abandoned the towns on the banks of the Danube', l.3976-3977)",
+        "claim": "Severinus died 'on the eighth of January' with no year; the Life tells his deeds and miracles in Noricum; Paschasius: 'Saint Severinus, who dwelt in the provinces bordering on the Pannonias'. The brief's 'a holy man of the Danube borderlands' rests on this and on the Life's Danube towns ('They abandoned the towns on the banks of the Danube', l.3976-3977)",
         "witness": "Life (eugippius_life-of-saint-severinus_robinson1914 l.3835, 3976-3977, 4226-4227)",
         "formation_confidence": "Documented"
       },
@@ -1341,6 +1346,11 @@
       {
         "claim": "The Anonymus Valesianus is a Latin chronicle of Ostrogothic Italy: Mommsen's summary of its contents runs through Theodoric's reign (a. 519 Eutharicus consul ... a. 526)",
         "witness": "prosper_chronica-minora-1-lat_mommsen1892 l.33490-33497",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Cassiodorus as a statesman of Gothic Italy: Hodgkin, 'the statesman who, after spending thirty years at the Court of Theodoric and his daughter, spent thirty-three years more in the monastery which he had himself erected at Squillace'; the file describes the Variae as 'The chancery letters of Theoderic and his successors, the voice of the Ostrogothic Arian kingdom's government'. The brief's and card's 'Cassiodorus, a statesman of Gothic Italy' rests on these",
+        "witness": "Thomas Hodgkin, Introduction (cassiodorus_variae-letters-hodgkin1886 l.1119-1121; header l.1-2, 15-16)",
         "formation_confidence": "Documented"
       }
     ],
@@ -1414,7 +1424,7 @@
         "formation_confidence": "Documented"
       },
       {
-        "claim": "The volume holds two Lives of Severus, by Zachariah and by John; the approved Severus card names both. The Library also holds a third, the Life of Severus by Athanasius of Antioch in an Ethiopic version, ed. Goodspeed and Crum (barhadbeshabba_cause-de-la-fondation-des-ecoles-po4-syr-fra_scher1908 l.663-665, 32888-32889), so the brief says only that Zachariah wrote 'another Life'",
+        "claim": "The volume holds two Lives of Severus, by Zachariah and by John; the approved Severus card names both. The Library also holds a third, the Life of Severus by Athanasius of Antioch in an Ethiopic version, ed. Goodspeed and Crum (barhadbeshabba_cause-de-la-fondation-des-ecoles-po4-syr-fra_scher1908 l.663-665, 32888-32889), so the README speaks only of the two Lives that Kugener edits",
         "witness": "zacharias-scholasticus_vie-de-severe-po2-syr-fra_kugener1903 l.1-8 (title of both fascicles); Who-Profiles/era3/batch2/severus-of-antioch.card.json, remembered",
         "formation_confidence": "Documented"
       },
@@ -1534,8 +1544,8 @@
         "formation_confidence": "Documented"
       },
       {
-        "claim": "Michael: Jacob of Edessa 'alla au monastère d'Aphtonia et y prit l'habit monastique. Il y étudia soigneusement les Psaumes en langue grecque' (OCR 'monas-^ tère', 'monas- tique'); he took the habit there and studied the Psalms there, which the brief tells as 'became a monk at the monastery of Aphthonia and studied the Psalms there in Greek'. That this is the writer's house is disputed (contested claim 'Whether Beith-Aphthonia is the Kenneshre house'); Bar Hebraeus: 'in monasterio Aphtonii seu Kenserinensi graecam linguam ... didicit'",
-        "witness": "Michael (michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901 l.36363-36366); Bar Hebraeus I (barhebraeus_chronicon-ecclesiasticum-vol1-lat_abbeloos-lamy1872 l.17305-17308)",
+        "claim": "Michael: Jacob of Edessa 'alla au monastère d'Aphtonia et y prit l'habit monastique. Il y étudia soigneusement les Psaumes en langue grecque' (OCR 'monas-^ tère', 'monas- tique'); he took the habit there and studied the Psalms there, which the brief tells as 'became a monk at the monastery of Aphthonia and studied the Psalms there in Greek'. That this is the writer's house is disputed (contested claim 'Whether Beith-Aphthonia is the Kenneshre house'); Bar Hebraeus: 'in monasterio Aphtonii seu Kenserinensi graecam linguam et sacrorum librorum lectionem accurate didicit' (in the monastery of Aphtonius, or of Kenneshre, he learned Greek and the reading of the holy books with care; OCR 'Jacobiis', 'graccani', 'lectio- nem'). The brief's close 'Bar Hebraeus calls it the Kenneshre monastery' rests on this; 'Kenneshre' is the card's English form of his 'Kenserinensi'. Michael likewise calls the monastery of Bar Aphtonia 'appelé de Qennésrîn' (l.29097-29098)",
+        "witness": "Michael (michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901 l.36363-36366); Bar Hebraeus I (barhebraeus_chronicon-ecclesiasticum-vol1-lat_abbeloos-lamy1872 l.17304-17309)",
         "formation_confidence": "Documented"
       },
       {
@@ -1544,8 +1554,8 @@
         "formation_confidence": "Documented"
       },
       {
-        "claim": "Michael names the house 'le saint monastère de Bar Aphtonia, appelé de Qennésrîn'",
-        "witness": "Michael (michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901 l.29095-29097)",
+        "claim": "Michael names the house 'le saint monastère de Bar Aphtonia, appelé de Qennésrîn' (hyphen break 'ap- pelé')",
+        "witness": "Michael (michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901 l.29097-29098)",
         "formation_confidence": "Documented"
       },
       {
@@ -1580,7 +1590,7 @@
       },
       {
         "claim": "Whether Beith-Aphthonia is the Kenneshre house",
-        "sides": "Michael's name 'monastère de Bar Aphtonia, appelé de Qennésrîn' (michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901 l.29096-29097) and Brooks's note (john-ephesus_lives-eastern-saints-po19-mixed-issue_brooks1926 l.10661) tie it to Kenneshre; John of Ephesus names another monastery of Aphthonia at Charrhae (john-ephesus_lives-eastern-saints-po19-mixed-issue_brooks1926 l.10650-10651)."
+        "sides": "Michael's name 'monastère de Bar Aphtonia, appelé de Qennésrîn' (michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901 l.29097-29098) and Brooks's note (john-ephesus_lives-eastern-saints-po19-mixed-issue_brooks1926 l.10661), and Bar Hebraeus's 'in monasterio Aphtonii seu Kenserinensi' for the house where Jacob of Edessa learned Greek (barhebraeus_chronicon-ecclesiasticum-vol1-lat_abbeloos-lamy1872 l.17306-17307), tie it to Kenneshre; John of Ephesus names another monastery of Aphthonia at Charrhae (john-ephesus_lives-eastern-saints-po19-mixed-issue_brooks1926 l.10650-10651)."
       }
     ],
     "absent_details": [
@@ -1743,7 +1753,7 @@
         "formation_confidence": "Dominant Modern Reconstruction"
       },
       {
-        "claim": "Gilla Coemain's chronological poem, Stokes's English: 'TuathalMaelgarb's death with horror a year before Ciaran's obit'. A note in Stokes's edition dates the verses to 1072: 'the new moon fell in 1071 on the 25th Dec., and that therefore there were seven days thence to Jan. 1, 1072, the year in which these verses were made' (as O'Conor says; OCR '(yConor')",
+        "claim": "Gilla Coemain's chronological poem, Stokes's English: 'TuathalMaelgarb's death with horror a year before Ciaran's obit'. A note in Stokes's edition, following O'Conor, probably dates the verses to 1072: 'The meaning probably is (as O'Conor says) that the new moon fell in 1071 on the 25th Dec., and that therefore there were seven days thence to Jan. 1, 1072, the year in which these verses were made' (OCR 'moaning', '(yConor')",
         "witness": "Gilla Coemain's poem, ed. and tr. Stokes (stokes_tripartite-life-of-patrick-v2-lat-muirchu-tirechan-confession_1887 l.16366-16368; note l.15790-15797; page heads 'GILLA COEMAIN'S CHRONOLOGICAL POEM' l.15903, l.16314, OCR)",
         "formation_confidence": "Contested"
       },
@@ -2106,12 +2116,16 @@
       {
         "claim": "The Pauline commentaries under his name",
         "sides": "His: Migne's edition and Cave's list (liberatus-victor-tunnunensis-primasius-junillus-pl68-lat_migne1866 l.34963). A later reworking of Pelagius's commentary under his name: Bardenhewer (bardenhewer_geschichte-altkirchlichen-literatur-band4-augustinus-slice-deu_1924 l.4476-4482)."
+      },
+      {
+        "claim": "Whether his work on heresies is lost, or survives as the Praedestinatus",
+        "sides": "Lost: the notice from Cave that Migne prints, 'Interiit jam dudum opus istud' (liberatus-victor-tunnunensis-primasius-junillus-pl68-lat_migne1866 l.34982-34983; OCR 'Inieriit', 'duduni', 'isiud'), which ends by doubting the Reichenau title: 'quisquis hanc notulam codici Augiensi apposuit, forsan hallucinatus' (l.35030-35031; OCR 'allucinalua'). His: the title in the old Reichenau manuscript Mabillon saw, 'Opus sancti Primasii, discipuli Augustini, de Haeresibus numero XC' (l.35027-35028; OCR 'Opussancti', 'Auijuslini', 'Ihrresibus'), toward which the same notice first leans: 'Longe potiori jure tribuendi videntur Primasio nostro' (l.35020-35021; OCR 'videnlur', 'noslro'). Other authors the notice reports for the Praedestinatus: Hyginus, under whose name Hincmar of Reims cites it, which the notice calls a plain error (l.34999-35002); Sirmond's Arnobius the Younger (l.35002-35004); and Piccinardus's Vincentius (l.35004-35020)."
       }
     ],
     "absent_details": [
       {
         "detail": "His birth, family, age and ordination",
-        "note": "Searched all of cic/texts (txt and xml) for Primasi*, Primasio, Primasium, Prima5, Priraasii, Primasics, Piimasius, Adrumet*, Hadrumet*, Justinianopolis/Iustinianopolis, Junil*/Junill*, Castori*, Acoemet*/Aquimet*. None found. Gallandi's grey hair is a question (liberatus-victor-tunnunensis-primasius-junillus-pl68-lat_migne1866 l.821-824)."
+        "note": "Searched all of cic/texts (txt and xml) for Primasi*, Primasio, Primasium, Prima5, Priraasii, Primasics, Piimasius, Adrumet*, Hadrumet*, Justinianopolis/Iustinianopolis, Junil*/Junill*, Castori*, Acoemet*/Aquimet*. None found. Gallandi's gray hair is a question (liberatus-victor-tunnunensis-primasius-junillus-pl68-lat_migne1866 l.821-824)."
       },
       {
         "detail": "The year and place of his death",
