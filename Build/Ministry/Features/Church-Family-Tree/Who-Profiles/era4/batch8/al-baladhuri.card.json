@@ -1,0 +1,60 @@
+{
+  "name": "al-Baladhuri",
+  "label": "Outside witness",
+  "otherNames": [
+    "Ahmad ibn Yahya ibn Jabir al-Baladhuri (Philip Hitti)"
+  ],
+  "knownFor": "A Muslim historian of Baghdad whose Futuh al-Buldan tells how the Muslim conquests were won. It records terms made with Christian towns and the fate of churches such as Saint John's at Damascus.",
+  "dates": "Died in 892, the year 279 of the hijra, by Philip Hitti from the Arab lives he draws on, al-Fihrist, Yakut and al-Kutubi. No source used here gives his birth",
+  "place": "Baghdad",
+  "tradition": "Outside the church",
+  "role": "Historian of the Muslim conquests",
+  "briefLength": "about 2 minutes 15 seconds",
+  "keyWorks": [
+    {
+      "title": "Futuh al-Buldan",
+      "about": "the conquests, land by land, and whether each was taken by force or by terms, with many of the terms written out. Hitti says it is a digest of a larger work that is lost. Held in Hitti's English, volume 1"
+    },
+    {
+      "title": "Ansab al-Ashraf (Lineage of Nobles)",
+      "about": "of which Hitti says two volumes survive. Not held"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "His book keeps terms made with Christian towns, among them Najran and Damascus.",
+      "Hitti says the geographer Yakut reproduces a great part of the book, and that later historians drew freely on it."
+    ],
+    "remembered": [
+      "The later historian al-Mas'udi, as Hitti quotes him: \"We know of no better work on the history of the Moslem conquests\".",
+      "Richard Gottheil, in his foreword to Hitti, calls the book one of the chief authorities for the forming of the Arab state."
+    ]
+  },
+  "uncertain": [
+    "He writes as a Muslim historian of the conquests, well over a century after many of the events, from reports passed down to him. His life comes from the Arab lives Hitti draws on, al-Fihrist, Yakut and al-Kutubi.",
+    "How far to trust him. Hitti finds the book free from exaggeration and sincere in seeking the fact. He also says the author scarcely judges what he reports.",
+    "His method. Hitti says he rests each fact on its own chain of reporters wherever he can. Sometimes, as al-Baladhuri says himself, he pieces reports together. Where his authorities fail, he writes \"they said\". The Saint John's story opens only with \"It is reported\".",
+    "The shortened book. Hitti and Gottheil say the Futuh is a digest of a larger work, now lost. Hitti says some passages are mutilated and ambiguous.",
+    "His sources. Hitti says his works rest on the tradition of Medina, which Hitti judges the more reliable. Most of the works of his favorite authorities, Hitti adds, are unknown or lost."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "The Origins of the Islamic State, volume 1 (Futuh al-Buldan, tr. Philip Khuri Hitti)",
+        "author": "al-Baladhuri; Philip Khuri Hitti (tr.)",
+        "date": "1916",
+        "language": "English translation",
+        "file": "cic/texts/baladhuri_origins-of-the-islamic-state-v1_hitti1916.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "The Origins of the Islamic State, introduction and foreword",
+        "author": "Philip Khuri Hitti; Richard Gottheil",
+        "date": "1916",
+        "language": "English",
+        "file": "cic/texts/baladhuri_origins-of-the-islamic-state-v1_hitti1916.txt"
+      }
+    ]
+  }
+}

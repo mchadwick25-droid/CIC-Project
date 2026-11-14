@@ -1,0 +1,80 @@
+{
+  "name": "Adam (Jingjing)",
+  "otherNames": [
+    "King-Tsing (A. Wylie's English of the stele)",
+    "King-tsing (Henri Cordier)",
+    "Adamus (Joseph Assemani)"
+  ],
+  "knownFor": "The priest who composed the Chinese text of the Xi'an stele, set up in 781. The text sets out the faith of the Church of the East and tells its story in Tang China.",
+  "dates": "The stele was set up in 781, by A. Wylie's English of its Chinese date. No source used here gives his birth or death",
+  "place": "Tang China. No source used here says where he came from",
+  "tradition": "The Church of the East on the Silk Road",
+  "role": "Priest; author of the Chinese text of the Xi'an stele",
+  "briefLength": "about 2 minutes 15 seconds",
+  "keyWorks": [
+    {
+      "title": "The Chinese text of the Xi'an stele",
+      "about": "a preface and an ode. It sets out God, the cross, the Messiah, baptism and the church's ways, then tells of Alopen and the emperors who favored the church. Held in A. Wylie's English"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Every source used for Alopen's profile goes back to his text.",
+      "In his text the church names itself the Illustrious Religion."
+    ],
+    "remembered": [
+      "Henry Yule reads the Syriac on the stone as naming Adam, \"Bishop and Pope\" of China.",
+      "T. J. Lamy, as J.-B. Chabot quotes him, writes that Adam was bishop of China when the stone was engraved."
+    ]
+  },
+  "uncertain": [
+    "Everything the sources used here say of him comes from the stone, apart from one note of Henri Cordier's. No source used here gives his birth, his death or where he came from.",
+    "That King-Tsing is Adam. The Chinese names its author King-Tsing; the Syriac names Adam. Cordier, in his notes to Yule, joins the two names.",
+    "His rank. Assemani reads the Syriac as priest, chorepiscopus and papas of China. Kircher's reading, in Malech's English, has \"Deacon, Vicar-episcopal and Pope\". Assemani calls the deacon a misreading. Yule has bishop.",
+    "Who set up the stone. The Syriac, in Assemani's Latin and in Kircher's reading in Malech, says the priest Jazedbuzid set it up. Cordier says King-tsing erected it.",
+    "A Buddhist sutra. Cordier writes that it appears King-tsing also helped a Buddhist translate a sutra, the Satparamita, from a Hu text. He cites a paper by J. Takakusu, which is not among the sources used here.",
+    "Other Adams. The stone also names Adam the deacon, a son of Jazedbuzid, a different man. Its lists of names, in Malech and Assemani, include at least one more Adam.",
+    "The Chinese text. It is not legible in any file used here, so his words are read in Wylie's English."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Translation of the Nestorian Inscription (tr. A. Wylie), in History of the Syrian Nation and the Old Evangelical-Apostolic Church of the East",
+        "author": "King-Tsing (the stele); A. Wylie (tr.); George David Malech",
+        "date": "1910",
+        "language": "English translation",
+        "file": "cic/texts/malech_history-of-the-syrian-nation-and-old-evangelical-apostolic-church-of-the-east_1910.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "The Book of Ser Marco Polo, volume 2, note on the Christian monument at Si-ngan fu",
+        "author": "Henry Yule; Henri Cordier",
+        "date": "1903",
+        "language": "English",
+        "file": "cic/texts/marco-polo_book-of-ser-marco-polo-v2_yule-cordier1903.txt"
+      },
+      {
+        "title": "Bibliotheca Orientalis, volume 3, part 2, on the Syro-Chinese inscription",
+        "author": "Joseph Assemani",
+        "date": "1728",
+        "language": "Latin",
+        "file": "cic/texts/assemani_bibliotheca-orientalis-tomus3-pars2-de-syris-nestorianis-lat_1728.txt"
+      },
+      {
+        "title": "Histoire de Mar Jabalaha III et du moine Rabban Çauma, notes",
+        "author": "J.-B. Chabot",
+        "date": "1895",
+        "language": "French",
+        "file": "cic/texts/yahballaha-sauma_histoire-de-mar-jabalaha-iii-et-rabban-cauma-fra_chabot1895.txt"
+      },
+      {
+        "title": "The Monks of Kublai Khan, introduction",
+        "author": "E. A. Wallis Budge",
+        "date": "1928",
+        "language": "English",
+        "file": "cic/texts/yahballaha-sauma_monks-of-kublai-khan_budge1928.txt"
+      }
+    ]
+  }
+}
