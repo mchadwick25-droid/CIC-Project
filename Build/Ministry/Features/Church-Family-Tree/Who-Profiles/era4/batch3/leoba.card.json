@@ -1,0 +1,81 @@
+{
+  "name": "Leoba",
+  "otherNames": [
+    "Lioba"
+  ],
+  "knownFor": "An Englishwoman of Boniface of Mainz's circle, whose one letter to him survives among his letters. Edward Kylie, who translated them, calls her the mistress of a convent at Bischofsheim in Germany. Boniface wrote to her about a girl to be taught.",
+  "dates": "Eighth century. Edward Kylie dates her letter after 732. He dates Boniface's letter to her between 723 and 755, and one to her and her sisters between 742 and 746. No source used here gives the year she died",
+  "place": "In England, under Abbess Eadburga, whom Kylie places at Thanet. Then in Germany, at Bischofsheim, in Kylie's account",
+  "tradition": "Anglo-Saxon Christianity",
+  "role": "Abbess of Bischofsheim, by Kylie's heading; letter-writer and maker of verse",
+  "briefLength": "about 2 minutes",
+  "keyWorks": [
+    {
+      "title": "Letter to Boniface, with four lines of verse",
+      "about": "she asks him to pray for her dead father Dynne and her sick mother Aebbe, his kinswoman. She sends a small gift and asks him to correct the homely style of her letter. She adds verses made by the rules she learned from Eadburga.. Kylie gives it in English only"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Boniface wrote to her that the priest Torhthat had her consent for a certain girl to be taught for a time. Boniface gave his assent.",
+      "Kylie takes that letter as a sign that girls were given to the English women of the mission to be educated. He adds that they taught handicrafts and the fine arts.",
+      "Boniface wrote to her, Tecla, Cynehilda and their sisters, begging their prayers that he might not die without some fruit of the gospel.",
+      "Lul, who calls himself the servant of Boniface's pupils, wrote to her as a sister in Christ. He asked her to send word of her needs through the deacon Gundwin."
+    ],
+    "remembered": [
+      "The Roman Martyrology for 28 September, in the Marquess of Bute's English, names \"the holy Virgin Lioba, eminent for the gift of miracles\".",
+      "Kylie writes that among the women of Boniface's mission she shone \"like a rich jewel\". He quotes words calling her \"beautiful as the angels, fascinating in her speech, learned in the Holy Scriptures and the Canons\".",
+      "The Bollandists, editors of the Acta Sanctorum, write that they will print a Life of Lioba under 28 September. They say it shows that some of the women came from the monastery of Wimborne."
+    ]
+  },
+  "uncertain": [
+    "Her one letter is the only writing of hers in Kylie's book, and his introduction tells most of the rest. None of the letters in his book tells of her last charge or her burial.",
+    "Her early life. Her letter names her parents, Dynne and Aebbe, and her teacher Eadburga. Kylie adds that she was an only child of noble Wessex parents, sent to Thanet.",
+    "The words Kylie quotes to describe her are not named as anyone's in his book.",
+    "Boniface's last charge. Kylie writes that Boniface told her to stay at her work in Germany, and that she was to be buried beside him.",
+    "Her title. Kylie's heading to Boniface's letter calls her abbess of Bischofsheim; the letter itself calls her a handmaiden of Christ.",
+    "Her death. No source used here gives the year or the place. The Roman Martyrology puts her, in a bracket, in the eighth century.",
+    "Her verses. Kylie gives them in English only, so their Latin form cannot be read."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Letter XXIII, Lioba to Boniface, in The English Correspondence of Saint Boniface",
+        "author": "Leoba; Edward Kylie (tr.)",
+        "date": "1911",
+        "language": "English translation",
+        "file": "cic/texts/boniface_english-correspondence_kylie1911.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "The English Correspondence of Saint Boniface: introduction and letters XXI, XXIV and XXXVI",
+        "author": "Edward Kylie (tr. and ed.)",
+        "date": "1911",
+        "language": "English",
+        "file": "cic/texts/boniface_english-correspondence_kylie1911.txt"
+      },
+      {
+        "title": "The Roman Breviary, autumn volume: the Martyrology for 28 September",
+        "author": "tr. John, Marquess of Bute",
+        "date": "1908",
+        "language": "English translation",
+        "file": "cic/texts/roman-breviary_bute1908.txt"
+      },
+      {
+        "title": "Acta Sanctorum, March, volume 3: commentary on Saint Hildelitha",
+        "author": "The Bollandists",
+        "date": "1865",
+        "language": "Latin",
+        "file": "cic/texts/acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt"
+      },
+      {
+        "title": "Letter of Lul to Leobgytha, in Patrologia Latina 96",
+        "author": "Lul",
+        "date": "1862",
+        "language": "Latin",
+        "file": "cic/texts/ildefonsus-julian-toledo-pl96-lat_migne1862.txt"
+      }
+    ]
+  }
+}

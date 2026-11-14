@@ -1,0 +1,88 @@
+{
+  "name": "Cuthbert of Lindisfarne",
+  "otherNames": [
+    "Cuthbertus"
+  ],
+  "knownFor": "A Northumbrian monk of Melrose and Lindisfarne who lived as a hermit on the island of Farne and was made bishop of Lindisfarne. Bede wrote his Life in verse and in prose, and a monk of Lindisfarne wrote an earlier one. Eleven years after his burial his body was found whole, Bede says.",
+  "dates": "Seventh century. Bede says he was consecrated at Easter, after the synod at Twyford, and died on 20 March after two years as bishop. The Bollandists, who print his Lives, give the years as 685 and 687. Bede gives no year for his birth",
+  "place": "Northumbria, in northern England: Melrose, on the river Tweed; Ripon; Lindisfarne; the island of Farne, which Bede puts almost nine miles from Lindisfarne. Consecrated at York. Buried at Lindisfarne",
+  "tradition": "Anglo-Saxon Christianity",
+  "role": "Monk and prior of Melrose and Lindisfarne; hermit on Farne; bishop of Lindisfarne",
+  "briefLength": "about 2 minutes",
+  "legacy": {
+    "traces": [
+      "Bede wrote his Life first in verse and then in prose. He says the prose Life was read for two days before the elders of Lindisfarne, who found no word to change.",
+      "Bede says Eata moved him to Lindisfarne to teach the brothers the monks' rule. Some kept to their old custom, and Cuthbert would leave a stormy meeting calmly and give the same counsel next day.",
+      "Bede says Ethelwald, who became a priest at Ripon, followed him as the hermit of Farne.",
+      "James Raine says the Life of Wilfrid begins by borrowing the prologue of the Lindisfarne monk's Life of Cuthbert."
+    ],
+    "remembered": [
+      "Bede says miracles were done at his tomb on Lindisfarne, and tells several.",
+      "Alcuin of York wrote to Lindisfarne after the pagans sacked it. He asks what trust the churches of Britain can have, if Saint Cuthbert and so many saints did not defend their own.",
+      "The Roman Breviary, in the Marquess of Bute's English, keeps his feast on 20 March. Its Martyrology for 31 August tells that he saw the soul of Aidan carried into heaven.",
+      "The York Prymer, which Canon Wordsworth edited, keeps his feast on 20 March and calls on him in its litany."
+    ]
+  },
+  "uncertain": [
+    "His Lives are saints' Lives, full of miracles. The earliest is by a monk of Lindisfarne, which the Bollandists date about 700 and James Raine between 698 and 708. Bede's prose Life is later.",
+    "The order and date of Bede's Lives. Bede says verse first, then prose. Alcuin's poem on York says prose first, and Raine's note says the verse is now believed earlier. Charles Plummer dates the verse before 705 and the prose about 720.",
+    "Charles Plummer judges that Bede did not better the Lindisfarne monk's Life. He says Bede exaggerates the ascetic and miraculous, but that his account of the death, from an eye-witness, has real value.",
+    "The years. Bede gives the day of his death, 20 March, and two years as bishop after an Easter consecration. The years 685 and 687 are the Bollandists'.",
+    "The consecration. Bede's History says it was at York, with Archbishop Theodore of Tarsus as primate among seven bishops. Bede's prose Life names no city or archbishop.",
+    "Whitby. No source used here places Cuthbert at the meeting of 664. Bede says only that Eata became abbot of Lindisfarne when the Scots left.",
+    "The Bollandists, who print the prose Lives, left out Bede's verse Life because it was already in print."
+  ],
+  "sources": {
+    "about": [
+      {
+        "title": "Ecclesiastical History, preface, III.26, IV.27-32 and V.24 (tr. J. A. Giles, ed. L. Cecil Jane)",
+        "author": "Bede",
+        "date": "1903",
+        "language": "English translation",
+        "file": "cic/texts/bede_ecclesiastical-history-english-people_giles1903.txt"
+      },
+      {
+        "title": "Life of Saint Cuthbert, in prose, with the Bollandists' commentary and notes, in Acta Sanctorum, March, volume 3",
+        "author": "Bede",
+        "date": "1865",
+        "language": "Latin",
+        "file": "cic/texts/acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt"
+      },
+      {
+        "title": "Life of Saint Cuthbert, by a monk of Lindisfarne, in Acta Sanctorum, March, volume 3",
+        "author": "Anonymous monk of Lindisfarne",
+        "date": "1865",
+        "language": "Latin",
+        "file": "cic/texts/acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt"
+      },
+      {
+        "title": "Venerabilis Baedae Opera historica, volume 1, Introduction",
+        "author": "Charles Plummer",
+        "date": "1896",
+        "language": "English",
+        "file": "cic/texts/bede_opera-historica-v1-historia-abbatum-lat_plummer1896.txt"
+      },
+      {
+        "title": "The Historians of the Church of York, volume 1: preface and Alcuin's poem on York",
+        "author": "James Raine (ed.)",
+        "date": "1879",
+        "language": "Latin, with English preface",
+        "file": "cic/texts/byrhtferth_vita-s-oswaldi-in-historians-of-the-church-of-york-v1-lat_raine1879.txt"
+      },
+      {
+        "title": "The Roman Breviary, autumn volume: the calendar and the Martyrology for 31 August",
+        "author": "tr. John, Marquess of Bute",
+        "date": "1908",
+        "language": "English translation",
+        "file": "cic/texts/roman-breviary_bute1908.txt"
+      },
+      {
+        "title": "Horae Eboracenses: the Prymer of the York Use, calendar and litany",
+        "author": "Canon Wordsworth (ed.)",
+        "date": "1920",
+        "language": "Latin and English",
+        "file": "cic/texts/surtees-society_horae-eboracenses-prymer-of-york-use-lat-enm_wordsworth1920.txt"
+      }
+    ]
+  }
+}

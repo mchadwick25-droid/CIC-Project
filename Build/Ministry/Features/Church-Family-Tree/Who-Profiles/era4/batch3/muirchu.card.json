@@ -1,0 +1,80 @@
+{
+  "name": "Muirchu maccu Machtheni",
+  "otherNames": [
+    "Muirchu"
+  ],
+  "knownFor": "An Irish writer who wrote a Latin Life of Saint Patrick at the command of Aed, bishop of Sletty. Newport White, who translated it in 1920, calls it the oldest Life of Patrick that survives. It tells of the Easter fire and the contest with King Loiguire's magicians.",
+  "dates": "Late seventh century. Newport White dates the first book before Aed's death in 699, and Louis Duchesne gives that death as 698. White says Muirchu and Aed both signed the acts of a synod at Birr, between 695 and 697. No source used here gives his birth or death",
+  "place": "Ireland. White makes him a Leinster man, from his father's tie to Kildare and his own to Aed of Sletty",
+  "tradition": "Medieval Irish Christianity",
+  "role": "Hagiographer; writer of the Life of Patrick",
+  "briefLength": "about 2 minutes",
+  "keyWorks": [
+    {
+      "title": "Life of Saint Patrick",
+      "about": "a Latin Life in two books, dedicated to Aed of Sletty. It tells of Patrick's captivity, the Easter fire against the king's at Temoria, the contest with the magicians and his death and burial.. White says it comes down in two manuscripts, the Book of Armagh and one at Brussels"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Newport White says three of the later Latin Lives of Patrick are largely based on Muirchu.",
+      "The Life is copied in the Book of Armagh, which White says Ferdomnach, the scribe of Armagh, wrote between 807 and 846.",
+      "F. E. Warren, editor of the Antiphonary of Bangor, cites Muirchu on the blessed fire of Easter. He also thinks Muirchu had a stanza of the Hymn of Sechnall in mind."
+    ],
+    "remembered": [
+      "White calls Muirchu the only ancient authority for any tie between Patrick and Bishop Amator, and his account of it \"confused and inaccurate\".",
+      "White's notes on the Life point to two places, on chapters 21 and 23 of the Confession, where he says Muirchu misread Patrick.",
+      "White finds Tirechan's account of King Loiguire \"more credible than that of Muirchu\"."
+    ]
+  },
+  "uncertain": [
+    "Little is told of his own life. White gives his name from a note at the end of the first book, and his father's name from the preface.",
+    "His father. Muirchu writes of \"my father Cogitosus\". The name rests on Bishop Graves's correction of the Latin \"cognito si\", which White calls generally accepted. White takes this father for Cogitosus, who wrote the Life of Brigid of Kildare.",
+    "The year Aed died. White gives 699 and Louis Duchesne 698.",
+    "Leinster and Birr. White says Muirchu was a Leinster man, \"strongly suggested\" by his father's and his own ties, and places him at Birr. No source used here prints the acts of Birr.",
+    "His purpose. White says Aed made a formal submission to Armagh's claim to head the Irish church. He thinks the Life was meant as a tribute from Leinster to Armagh.",
+    "The Easter festival. Professor Bury, as White reports, held that Muirchu joined the features of two heathen festivals, on neither of which Easter could fall. R. A. S. Macalister defends Muirchu's account.",
+    "The place of the fire. Muirchu sets it at the Graves of the Men of Fecc. White's note places them near Slane."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Life of Saint Patrick, preface and books I-II, in St. Patrick, His Writings and Life",
+        "author": "Muirchu maccu Machtheni; Newport J. D. White (tr.)",
+        "date": "1920",
+        "language": "English translation",
+        "file": "cic/texts/patrick_writings-and-life-with-muirchu-eng_white1920.txt"
+      },
+      {
+        "title": "Notes by Muirchu Maccu-Machtheni, in The Tripartite Life of Patrick, volume 2",
+        "author": "Muirchu maccu Machtheni; Whitley Stokes (ed.)",
+        "date": "1887",
+        "language": "Latin",
+        "file": "cic/texts/stokes_tripartite-life-of-patrick-v2-lat-muirchu-tirechan-confession_1887.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "St. Patrick, His Writings and Life: introduction and notes",
+        "author": "Newport J. D. White",
+        "date": "1920",
+        "language": "English",
+        "file": "cic/texts/patrick_writings-and-life-with-muirchu-eng_white1920.txt"
+      },
+      {
+        "title": "Histoire ancienne de l'Église, volume 3",
+        "author": "Louis Duchesne",
+        "date": "1910",
+        "language": "French",
+        "file": "cic/texts/duchesne_histoire-ancienne-de-leglise-tome3-fra_2e-ed1910.txt"
+      },
+      {
+        "title": "The Antiphonary of Bangor, part 2",
+        "author": "F. E. Warren (ed.)",
+        "date": "1895",
+        "language": "Latin, with English notes",
+        "file": "cic/texts/antiphonary-of-bangor-pt2-lat_warren1895.txt"
+      }
+    ]
+  }
+}

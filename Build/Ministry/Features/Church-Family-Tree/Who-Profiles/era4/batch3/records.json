@@ -1,0 +1,1410 @@
+{
+ "theodore-of-tarsus": {
+  "claims": [
+   {
+    "claim": "Choice at Rome: Hadrian, abbot of \"the Niridian monastery, which is not far from the city of Naples\", \"by nation an African\", refused; \"There was at that time in Rome, a monk, called Theodore, well known to Hadrian, born at Tarsus in Cilicia, a man well instructed in worldly and Divine literature, as also in Greek and Latin\" and \"venerable for age, being sixty-six years old\"",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.8733-8763",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Condition: Hadrian \"iniglit take special care that Theodore should not, according to the custom of the Greeks, introduce anything contrary to the true faith into the cliurch where he presided\" (OCR \"iniglit\", \"cliurch\")",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.8773-8777",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Ordination: \"He was ordained by Pope Vitalian, in the year of our Lord 668, on Sunday, the 26th of March, and on the 27th of May was sent with Hadrian into Britain\"",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.8782-8785",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The four months, Giles: \"Hadrian, being ordained subdeacon, waited four months for his hair to grow\"",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.8777-8779",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "The four months, Plummer's Latin: \"subdiaconus ordinatus IIII exspectauit menses, donec illi conia cresceret\" (OCR \"(,)ui\", \"conia\") names no one; the next sentence, \"Qui ordinatus est a Uitaliano\", is the archbishop's ordination",
+    "witness": "PLUMMER (bede_opera-historica-v1-historia-abbatum-lat_plummer1896.txt) l.22320-22326",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Arrival and tenure: he \"arrived at his church the second year after his consecration, on Sunday, the 27th of May, and held the same twenty-one years, three months, and twenty-six days\" (OCR drop cap \"'HEODORE\")",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.8836-8840",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Visitation and Easter: \"he visited all the island, wherever the tribes of the Angles inhabited\"; \"he taught the right rule of life, and the canonical custom of celebrating Easter. This was the first archbishop whom all the English church obeyed\"",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.8840-8847",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "School: \"they also taught them the arts of ecclesiastical poetry, astronomy, and arithmetic\"; \"there are still living at this day some of their scholars, who are as well versed in the Greek and Latin tongues as in their own, in which they were born. Nor were there ever happier times since the English came into Britain\"",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.8846-8864",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Church music: \"From that time also they began in all the churches of the English to learn sacred music, which till then had been only known in Kent\"",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.8871-8873",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Albinus: \"My principal authority and aid in this work was the learned and reverend Abbot Albinus ; who, educated in the Church of Canterbury by those venerable and learned men. Archbishop Theodore of blessed memory, and the Abbot Adrian\"",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.152-156",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Tobias: \"Tobias, bishop of the church of Rochester, a most learned man\"; \"he was disciple to those teachers of blessed memory, Theodore, the archbishop, and Abbat Hadrian\"",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.15081-15085",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Hertford, in his own voice: \"We met on the 24th day of September, the first indiction, at a place called Hertford, myself, Theodore, the unworthy bishop of the see of Canterbury, appointed by the Apostolic See\"; \"I then produced the said book of canons, and publicly showed them ten chapters in the same, which I had marked in several places\"; \"I dictated to be written by Titillus our notary\"",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.9276-9378",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Hertford year: \"This synod was held in the year from the incaxnation of our Lord 673\" (OCR \"incaxnation\")",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.9390-9391",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Hatfield: \"Theodore being informed that the faith of the church at Constantinople was much perplexed by the heresy of Eutyches\"; he presided; year 680 in Bede's summary of years",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.10268-10273, 15358-15361",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Wilfrid's fall, Bede: \"a dissension broke out between King Egfrid and the most reverend prelate, Wilfrid, who was driven from his see, and two bishops substituted in his stead\"; \"Edhed, Bosa, and Eata, were ordained at York by Archbishop Theodore\"",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.9865-9895",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Wilfrid's fall, Stephen (from Wilfrid's side): the king and queen invited \"archiepiscopum Theodorum cum muneri-\" ... \"quse exceecant etiam sapientium oculos\" (OCR \"quse exceecant\"; Raine's side-note interleaved)",
+    "witness": "RAINE (byrhtferth_vita-s-oswaldi-in-historians-of-the-church-of-york-v1-lat_raine1879.txt) l.6569-6571",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Stephen alone: in London Theodore confessed \"hoc maxime scrupulum me premit, quod in te, sanc- * tissime episcope, commisi, consentiens regibus\" and wished to make him his successor, \"in sedem meam archiepiscopalem superstitem et heere\"",
+    "witness": "RAINE (byrhtferth_vita-s-oswaldi-in-historians-of-the-church-of-york-v1-lat_raine1879.txt) l.8150-8168",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "James Raine: \"In that year it was subdivided by archbishop Theodore and king Ecgfrid without Wilfrid's assent\"",
+    "witness": "RAINE (byrhtferth_vita-s-oswaldi-in-historians-of-the-church-of-york-v1-lat_raine1879.txt) l.1448-1451",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Chad, Stephen: Theodore \"Ceaddam episcopum de sede aliena jussit deponi\"",
+    "witness": "RAINE (byrhtferth_vita-s-oswaldi-in-historians-of-the-church-of-york-v1-lat_raine1879.txt) l.5626-5628",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Chad, Bede: Theodore \"upbraided Bishop Chad that he had not been duly consecrated\"; \"he should not resign the bishopric, and he himself completed his ordination\"",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.8881-8894",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Twyford: \"a great synod was assembled in the presence of King Egfrid, near the river Alne, at a place called Twyford ... in which Archbishop Theodore, of blessed memory, presided, Cuthbert was, by the unanimous consent of all, chosen bishop\"",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.11732-11739",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Death: \"690 after the incarnation of our Lord, Archbishop Theodore, of blessed memory, departed this life, old and full of days, for he was eighty-eight years of age; which number of years he had been ... wont long before to foretell to his friends that he should live, the same having been revealed to him in a dream. He held the bishopric twenty-two years, and was buried in St. Peter's church\"",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.12686-12700",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Verdict and epitaph: \"the English churches received more advantage during the time of his pontificate than ever they had done before\"; \"Here rests fam'd Theodore, a Grecian name\"; \"And now it was September's nineteenth day\"",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.12703-12718",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Birth about 602, computed from 66 years in 668 and 88 years in 690",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.8763, 12689-12690",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Penitential preface: \"INC1P1T PRAEFATIO LIBELLI QUEM PATER THEODORUS DIVER- S1S INTERROGANTIBUS AD REMEDIUM TEMPERAV1T\" (OCR \"INC1P1T\", \"S1S\", \"TEMPERAV1T\"); \"D1SCIPULUS UMBRENSIUM\"; \"Horum igitur maximam partem fertur famiue veriloquo beate memoriae Eoda praesbüer cognomento christianus a venerabili antistite Theodoro sciscitans accipisse\" (OCR)",
+    "witness": "WASS (wasserschleben_die-bussordnungen-der-abendlaendischen-kirche-lat-deu_1851.txt) l.11449-11517",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Wasserschleben: \"Von jeher hat man Theodor als den Verfasser des ersten angelsächsischen Beichtbuchs gepriesen\"; \"in Frankreich und Deutschland lange Zeit Hauptquelle und Vorbild für die Bussordnungen gewesen sei\"; \"kein einziger sicherer Anhaltpunkt dafür besteht, dass Theodor je ein Beichtbuch verfasst habe\"; on the Liber pontificalis note, \"dessen erste Redaktion in die 2te Hälfte des 8len Jahrhunderts fällt\", repeated by Paul the Deacon",
+    "witness": "WASS (wasserschleben_die-bussordnungen-der-abendlaendischen-kirche-lat-deu_1851.txt) l.1654-1680",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Wasserschleben's conclusion: \"Theodor hat kein Beichtbuch ge-schrieben, die zahlreichen Exzerpte, welche seinen Namen tragen, enthalten zwar ursprüngliche Aus-sprüche Theodor' s, sind aber von einem Dritten, viel-leicht noch bei Lebzeiten jenes, systematisch zusam-mengestellt worden\"",
+    "witness": "WASS (wasserschleben_die-bussordnungen-der-abendlaendischen-kirche-lat-deu_1851.txt) l.1866-1872",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Plummer: \"Bede, who says so much about the work of Theodore, never even alludes to his penitential\"",
+    "witness": "PLUMMER (bede_opera-historica-v1-historia-abbatum-lat_plummer1896.txt) l.11097-11099",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Duchesne: the bracketed note \"E quibus Theodorus archiepiscopus peccanlium iudicia, quantos scilicet annos pro unoquoque peccalo quis penitere debeal\" (OCR); \"Cette dernière note est empruntée à l'Histoire\" ... \"des Lombards de Paul Diacre, v, 30\"",
+    "witness": "LP2 (liber-pontificalis_texte-introduction-commentaire-t2-lat-fra_duchesne1892.txt) l.7105-7130, 7262-7263",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Breviary, feast: \"26. Theodore, Archbishop of Canterbury, Confessor. Double.\"; Martyrology 19 September: \"At Canterbury, holy Theodore, Archbishop of that city, who was sent into England by Pope Vitalian\"; lessons: \"Hence the Venerable Bede saith that brighter times never shone upon England than those wherein Theodore administered her Church\"; \"He published a Book of Penitentials\"",
+    "witness": "BUTE (roman-breviary_bute1908.txt) l.2367, 69066-69071, 71002-71044",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Eadmer, Life of Bregwin: \"quae ex beati Theodori poniificis Cantuario-rum ejusque discipulorum traditione tolam lerram magnifice irrigabant\" (OCR \"poniificis\", \"tolam lerram\")",
+    "witness": "PL159 (anselm-canterbury_opera-with-eadmer-historia-novorum-pl159-lat_migne1903.txt) l.58275-58278",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Henry of Huntingdon: \"Theodorus archiepiscopus xxn anno episcopalus sui transiit\" (OCR \"xxn\", \"episcopalus\"); \"ad hoc usque tempus fuerunt Romani archiepiscopi\" ... \"exinde fuerunt Angli\"",
+    "witness": "PL195 (aelred-rievaulx_opera-pl195-lat_migne1855.txt) l.62779-62785",
+    "formation_confidence": "Documented"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "Theodore's part in Wilfrid of York's removal in 678",
+    "sides": [
+     "Bede: King Egfrid drove Wilfrid out, and Theodore ordained the new bishops at York (GILES l.9865-9895)",
+     "Stephen, Wilfrid's biographer and partisan: the king and queen won Theodore over with gifts; later Theodore confessed in London that he had wronged Wilfrid (RAINE l.6569-6571, 8150-8168)"
+    ]
+   },
+   {
+    "claim": "Whether Theodore wrote a penitential",
+    "sides": [
+     "For: the Roman Breviary's lesson, \"He published a Book of Penitentials\" (BUTE l.71044-71045); the Liber pontificalis note, which Wasserschleben took for eighth-century text (WASS l.1673-1680)",
+     "Against: Wasserschleben, \"Theodor hat kein Beichtbuch geschrieben\"; the rulings were gathered by a third man (WASS l.1866-1872); Plummer, Bede never mentions it (PLUMMER l.11097-11099); Duchesne prints the Liber pontificalis note as an added note borrowed from Paul the Deacon (LP2 l.7105-7130)"
+    ]
+   },
+   {
+    "claim": "Theodore and Chad",
+    "sides": [
+     "Bede: Theodore kept Chad a bishop and completed his ordination (GILES l.8881-8894)",
+     "Stephen: Theodore had Chad removed from a see not his own (RAINE l.5626-5628)"
+    ]
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "His life before Rome",
+    "note": "No held source tells of his family, schooling or how he came to Rome. Searched all cic/texts for Tarsus, Tarso, Tharso, tarsensis and Theodore with Canterbury, Cantuar, Dorovern, Britann and Anglor. Peter Wilcock's footnote that he \"embraced a monastic life\" at Tarsus (bede_lives-of-the-first-five-abbots-of-wearmouth-and-jarrow_wilcock1910.txt l.2595-2596) gives no source and is not used."
+   },
+   {
+    "detail": "Writings of the Canterbury school",
+    "note": "No biblical commentary or glosses attributed to Theodore are held (searched laterculus and Theodori with comment). No Aldhelm file is held."
+   },
+   {
+    "detail": "Documents in his name not used",
+    "note": "Mansi XI prints a letter of Pope Vitalian to Theodore on Canterbury's primacy (MANSI11 l.2939-2960) and charters subscribed \"Ego Theodorus\" (l.18686, 106689). No held editor judges whether they are genuine, so they are not used."
+   },
+   {
+    "detail": "Boniface's letters",
+    "note": "No letter in Kylie's Boniface correspondence names Theodore; only Kylie's introduction does (KYLIE l.1393-1394)."
+   }
+  ]
+ },
+ "willibrord": {
+  "claims": [
+   {
+    "claim": "His note: \"In nomine Domini Clemem Willibrordus anno sexcentesimo nona- gesimo ab incarnatione Christi veniebat ultra mare in Francia et in Dei nomine anno sexcentesimo nonagesimo quinto ab incarnatione Domini, quamvis indignus fuit ordinatus in Romae episcopus ab apos- tolico viro domno Sergio papa; nunc vero in Dei nomine agens annum septengentesimum vigesimum octavum\" (OCR \"Clemem\"); Duchesne: \"Willibrord lui-môme a noté l'année de son ordination, à la marge d'un calendrier à son usage que nous avons à la Bibliothèque nationale\" (OCR \"lui-môme\")",
+    "witness": "LP1 (liber-pontificalis_texte-introduction-commentaire-t1-lat-fra_duchesne1886.txt) l.173618-173629",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Duchesne on the year: \"Il y a erreur dans les chiffres de Bède\"; \"Saint Willibrord n'a pu être ordonné le 22 novembre 696, qui était un mercredi\"; the calendar marks at 21 November \"Ordinatio domni nostri démentis\"; \"Or le 21 novembre 695 était un dimanche. C'est évidemment la vraie date\" (OCR \"démentis\")",
+    "witness": "LP1 (liber-pontificalis_texte-introduction-commentaire-t1-lat-fra_duchesne1886.txt) l.173613-173636",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Liber pontificalis, Life of Sergius: \"Hic ordinavit Bertoaldum\" ... \"atque Clementem\" ... \"in gentem Frisonum\"",
+    "witness": "LP1 (liber-pontificalis_texte-introduction-commentaire-t1-lat-fra_duchesne1886.txt) l.171565-171566",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Bede on the consecration: Pepin \"sent the venerable Wilbrord to Rome, where Sergius was still pope, desiring that he might be consecrated archbishop over the nation of the Prisons ; which was accordingly done, in the year of our Lord's incarnation 696. He was consecrated in the church of the Holy Martyr Cecilia, on her feast-day ; the pope gave him the name of Clement\" (OCR \"Prisons\")",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.13025-13033",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Utrecht: \"Pepin gave him a place for his episcopal see, in his famous castle, which in the ancient language of those people is called Wiltaburg, that is, the town of the Wilts ; but, in the French tongue, Utrecht\"; \"erected several churches and monasteries. For not long after he constituted other bishops\"",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.13036-13045",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Jane's note: \"Wiltenburg ; not Utrecht\"",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.16031",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Sent by Egbert: \"priest, Egbert\" who \"lived a stranger in Ireland\"; he \"still attempted to send some holy and industrious men to the work of the word, among whom was Wilbrord\"; \"They arrived there, twelve in number, and turning aside to Pepin, duke of the Franks\"",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.12750-12872",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Still living when Bede wrote: \"Wilbrord himself, surnamed Clement, is sull living, venerable for old age, having been thirty-six years a bishop\" (OCR \"sull\")",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.13052-13055",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Alcuin, his father: \"dam paterfamilias genere Saxo et nomine Wilgis\" in Northumbria (Migne's two columns interleaved); Ripon: \"statim ablactatum infantulum tradidit eum pater * Ripensis ecclesixe fratribus\" (OCR \"ecclesixe\")",
+    "witness": "ALC (alcuin_opera-omnia-letters_migne-pl100-101_1863.txt) l.54818-54879",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Alcuin, Ireland and Egbert: \"beatissimi Patris et episcopi Egberti\" and \"Wicberti venerabilis viri\"; \"ibique duodecim\" ... \"ammis\" (OCR \"ammis\")",
+    "witness": "ALC (alcuin_opera-omnia-letters_migne-pl100-101_1863.txt) l.54947-54987",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Alcuin, his own decision: \"Tricesimo itaque et tertio ztatis suz& anno\" (OCR); \"illas in partes navigare co- gitavit\"; \"Assumptisque secum duodecim [Mab., undeeirn] fratribus\" (OCR)",
+    "witness": "ALC (alcuin_opera-omnia-letters_migne-pl100-101_1863.txt) l.54995-55009",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Alcuin, consecration at Saint Peter's: \"publice in ecclesia beatissimi\" ... \"Petri * principis apostolorum\" ... \"eum ordinavit archiepiscopum; ac. ordinato nomen imposuit Clemens\"",
+    "witness": "ALC (alcuin_opera-omnia-letters_migne-pl100-101_1863.txt) l.55108-55113",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Alcuin, Fositesland: \"ad quamdam insulam, que a quodam deo suo Fosite, ab accolis. terri Fositesland * dicebatur\"; no one dared touch its beasts or draw water \"nisi tacens\"; \"tres homines in eo fente eum invocatione sancte Trinitatis baptizavit\"; \"animalia in ea terra pascentia, in cibaria suis mactare precepit\"; Radbod cast lots, \"nec nisi unus tantum ex sociis sorie monstratus, et martyrio coronatus est\"; \"Non est Deus, quem colis, sed disbolus\"; Radbod \"eum cum hopore remisit\" to Pippin (OCR forms kept)",
+    "witness": "ALC (alcuin_opera-omnia-letters_migne-pl100-101_1863.txt) l.55164-55319",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Alcuin, churches and priests: \"mox ecclesias in eis sedificare jussit, sta- tuitque per eas singulos presbyteros\"",
+    "witness": "ALC (alcuin_opera-omnia-letters_migne-pl100-101_1863.txt) l.55333-55338",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Alcuin, Utrecht under Charles: \"devicto Radbodo\" ... \"sedique episcopali in Trajecto ca- stello delegatus est\"",
+    "witness": "ALC (alcuin_opera-omnia-letters_migne-pl100-101_1863.txt) l.55344-55354",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Alcuin, Pippin: \"Baptizavit enim Pippinum filium Francorum fortis- simi ducis Caroli, patrem hujus nobilissimi Caroli\"; the prophecy \"quod iste infans sublimis erit valde et gloriosus, eL omnium preecedentium Francorum duci- bus major\" (OCR)",
+    "witness": "ALC (alcuin_opera-omnia-letters_migne-pl100-101_1863.txt) l.55702-55711",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Alcuin, Echternach: \"sancti viri monasterium, quod appellatur Esteruaco\" (OCR), \"in quo usque hodie sanctus ille requie- scit corpore, et ejus posteri ex legitima traditione\"",
+    "witness": "ALC (alcuin_opera-omnia-letters_migne-pl100-101_1863.txt) l.55637-55641",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Alcuin, death: \"Die septima mensis Novembris\" ... \"et sepultus est in monasterio Epternaco, quod ipse Deo, ut przefati su- mus, construxerat\" (OCR \"przefati\"); Mabillon's reading \"die sexto Nov.\"",
+    "witness": "ALC (alcuin_opera-omnia-letters_migne-pl100-101_1863.txt) l.55794-55798",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Alcuin, homily: \"Nobis vero sanctissimi Willibrordi non iufima perdonavit auxilia\" (OCR \"iufima\"), after naming Tours and Saint Martin, Paris with Saint Denis and Saint Germain, and Reims with Remigius",
+    "witness": "ALC (alcuin_opera-omnia-letters_migne-pl100-101_1863.txt) l.56112-56128",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Froben's foreword: \"Huic conscribend:e Alcuinus sese impendit circa annum 796, annis amplius quinquaginta post sancti viri obitum, rogatus a Beornredo seu Beornrado ex abbate Epternacensi, ut tradunt, archiepiscopo Senonensi\" (OCR)",
+    "witness": "ALC (alcuin_opera-omnia-letters_migne-pl100-101_1863.txt) l.52018-52027",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Two books and a homily: \"Vitam sancti Wil- librordi episcopi Trajectensis ad Rhenum, duobus libris, uno scilicet prosa, altero. metro comprehen- sam\"; \"In fine Vite prosaice additur homilia\"",
+    "witness": "ALC (alcuin_opera-omnia-letters_migne-pl100-101_1863.txt) l.52018-52029",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Edition: \"JUXTA EDITIONEM ILLUSTRISSIMI ET REVERENDISSIMI D. FROBENII, ABBATIS SANCTI ENMERAM\"",
+    "witness": "ALC (alcuin_opera-omnia-letters_migne-pl100-101_1863.txt) l.363",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Stephen: \"adhuc superedificat filius ejus in Hripis nutritus\" ... \"tia Dei Wilbrordus* episcopus\"",
+    "witness": "RAINE (byrhtferth_vita-s-oswaldi-in-historians-of-the-church-of-york-v1-lat_raine1879.txt) l.6719-6723",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Kylie: \"he had turned aside to work there for three years under his fellow-countryman, Willibrord\"; \"the bishopric of Utrecht, rendered vacant upon the death of Willibrord in 739\"; \"he applied to Rome for the letter of Pope Sergius which had made Utrecht a permanent bishopric\"; \"ordained bishop at Rome in 695\"",
+    "witness": "KYLIE (boniface_english-correspondence_kylie1911.txt) l.901-907, 1746-1798",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Breviary: Martyrology 7 November \"In Friesland, [in the year 738,] holy Willebrord, [first] Bishop of\" ... \"Utrecht, who was ordained Bishop by blessed Pope Sergius, and preached the Gospel in Friesland and Denmark, whose feast we keep upon the 29th\"; lesson \"Before he was seven years of age he was taken to the monastery of Ripon, and given in charge to blessed Wilfrid\"; \"upon the 7th day of November, in the year of salvation 738, and of his own age the eighty-first\"",
+    "witness": "BUTE (roman-breviary_bute1908.txt) l.87042-87055, 93838-93925",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "York Prymer calendar, November: \"sancti willibrordi epi et confes.\"",
+    "witness": "PRYMER (surtees-society_horae-eboracenses-prymer-of-york-use-lat-enm_wordsworth1920.txt) l.5365-5367",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Adam of Bremen on Heligoland: \"Hanc in\" ... \"Yita sancti Willebrordi^-^ Fosetisland** appellari^ discimns^\" (OCR)",
+    "witness": "ADAM (adam-bremen_gesta-hammaburgensis-ecclesiae-pontificum-lat_schmeidler1917.txt) l.19267-19269",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "The year and church of his consecration",
+    "sides": [
+     "Bede: 696, in the church of Saint Cecilia, on her feast (GILES l.13025-13033)",
+     "Willibrord's own note: 695 (LP1 l.173624-173629); Louis Duchesne takes 21 November 695 and says Bede's figures are wrong (LP1 l.173613-173636)",
+     "Alcuin: in the church of Saint Peter, with no year (ALC l.55108-55113)"
+    ]
+   },
+   {
+    "claim": "Who sent him to Frisia and who gave him Utrecht",
+    "sides": [
+     "Bede: Egbert sent him; Pippin gave the see (GILES l.12750-12872, 13036-13039)",
+     "Alcuin: he resolved to go himself; he was given the see at Utrecht under Charles, after Radbod was defeated (ALC l.54995-55009, 55344-55354)"
+    ]
+   },
+   {
+    "claim": "The year of his death",
+    "sides": [
+     "Edward Kylie: 739 (KYLIE l.1789-1790)",
+     "The Roman Breviary: 738, in his eighty-first year (BUTE l.87042, 93920-93925)"
+    ]
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "A year of death in an early source",
+    "note": "Alcuin gives the day, 7 November, but no year (ALC l.55794-55795). Bede wrote while he was alive (GILES l.13052-13055). The years 738 and 739 rest on the Roman Breviary and on Kylie. Froben's note quotes a letter of Boniface to Pope Stephen (\"per 50 annos\"), which is not held (ALC l.55862-55870)."
+   },
+   {
+    "detail": "His birth year",
+    "note": "No held line gives it. A year such as 658 can only be counted back from the Breviary's age of eighty-one."
+   },
+   {
+    "detail": "His own letters and the calendar itself",
+    "note": "No letter by Willibrord is held, and no letter in Kylie's Boniface correspondence names him; only Kylie's introduction does. The calendar is held only in Duchesne's transcription of its note. Searched all cic/texts for Willibrord, Wilbrord, Willebrord, Wilibrord, Uilbrord, Clemens with Fres- or Fris-, Fositesland, Epterna and Wilgis."
+   },
+   {
+    "detail": "Other Lives",
+    "note": "Theofrid of Echternach's Life, cited in Froben's notes (ALC l.55871-55872), is not held."
+   }
+  ]
+ },
+ "leoba": {
+  "claims": [
+   {
+    "claim": "Her letter, heading: \"Lioba asks Boniface to pray to God for her relatives and herseif. She sends a gift. After 732.\" (OCR \"herseif\")",
+    "witness": "KYLIE (boniface_english-correspondence_kylie1911.txt) l.4505-4509",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Greeting: \"To Boniface, revered master, endowed with the highest of dignities, dearly beloved in Christ, bound to me by ties of kinship, Lioba, lowliest servant among those who bear the easy yoke of Christ\"",
+    "witness": "KYLIE (boniface_english-correspondence_kylie1911.txt) l.4512-4515",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Parents: \"the friendship which thou didst form long ago, in the regions of the West, with my father Dynne, who .as taken from this light more than eight years since\" (OCR \".as\"); \"my mother, Aebbe, who 1s joined to thee as thou knowest weil, by ties of kinship; she still lives a toilsome life and has been long oppressed by infirmities\" (OCR \"1s\", \"weil\"); \"I am the only daughter of these my parents\"",
+    "witness": "KYLIE (boniface_english-correspondence_kylie1911.txt) l.4517-4525",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Gift: \"This small gitt Lam sending\" (OCR); \"that the bond of our love may hold firm for ever\"; \"deign to correct the homely style of this letter, and to send me for a model some words of thine\"",
+    "witness": "KYLIE (boniface_english-correspondence_kylie1911.txt) l.4528-4543",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Verses and Eadburga: \"These little verses below I tried to compose according to the rules of poetic art\"; \"The art I have learned from the teaching of Eadburga, who continues without ceasing to search into the divine law\"",
+    "witness": "KYLIE (boniface_english-correspondence_kylie1911.txt) l.4545-4550",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Verse close: \"Keep thee unharmed in His justice eternal.\"",
+    "witness": "KYLIE (boniface_english-correspondence_kylie1911.txt) l.4556-4563",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Boniface to her: heading \"Boniface grants permission to Lioba, Abbess of Bischop- sheim, to have a certain girl instructed, 723-755.\"; \"To Lioba, revered handmaiden of Christ\"; \"Torhthat by name, told us that he obtained thy consent to lay upon a certain girl for a time the task of receiving instruction, provided that our con- sent should be given to it\"; \"our will grants assent and approval\"",
+    "witness": "KYLIE (boniface_english-correspondence_kylie1911.txt) l.4569-4587",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Boniface to Lioba, Tecla and Cynehilda: heading \"Lioba, Tecla, Cynehilda and their sisters to pray for him. 742-746.\"; \"I may not die barren without some fruit of the gospel\"",
+    "witness": "KYLIE (boniface_english-correspondence_kylie1911.txt) l.5870-5905",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Lul to her: \"To Lioba, beloved sister in Christ, Lul, the humble servant of the pupils of our master Boniface\"; \"tell me of it through the deacon Gundwin\"; Kylie dates it \"732-754-\"",
+    "witness": "KYLIE (boniface_english-correspondence_kylie1911.txt) l.4388-4429",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Kylie's introduction: \"Among the women, like a rich jewel, shone Lioba\"; \"an only child of noble Wessex parents, Abbess Eadburga taught her the art of verses\"; \"beautiful as the angels, fascinating in her speech, learned in the Holy Scriptures and the Canons\"; \"Lioba, mistress of a convent at Bischofsheim\"",
+    "witness": "KYLIE (boniface_english-correspondence_kylie1911.txt) l.1187-1199",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Kylie on schooling: \"Girls were given them to be\" ... \"educated (XXIV). They taught handicrafts and the fine arts.\"",
+    "witness": "KYLIE (boniface_english-correspondence_kylie1911.txt) l.1201-1208",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Kylie on Boniface's last charge: \"To Lioba he gave the command that she should remain\" ... \"at her task in Germany\"; \"She was to be buried beside him\"",
+    "witness": "KYLIE (boniface_english-correspondence_kylie1911.txt) l.1758-1777",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Boniface in Germany at the end: \"he left the security and peace of Fulda, and for the last time took boat on the Rhine\"; \"Friesland had never been forgotten\"",
+    "witness": "KYLIE (boniface_english-correspondence_kylie1911.txt) l.1745-1750",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Roman Martyrology, 28 September: \"In Germany, [in the eighth century,] the holy Virgin Lioba, eminent for the gift of miracles.\"",
+    "witness": "BUTE (roman-breviary_bute1908.txt) l.71414-71416",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Bollandists: \"Lioba et Walpurgis soror Willibaldi et Wunibaldi\"; \"ex vita S. Liobe quam xxvm Septembris dabimus, constet aliquot ex monasterio Winburnensi venisse\" (OCR \"Liobe\", \"xxvm\")",
+    "witness": "AASS3 (acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt) l.126322-126328",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "PL 96, Lul's letter in Latin: heading \"LOLLUS LEOBCITHyE.\" (OCR for Lullus Leobgithae), dated by the editor \"Circa annum D>mini 752\" (OCR); \"Sorori in Christo charisslma; Leobgyiha Lulhis\" (OCR)",
+    "witness": "PL96 (ildefonsus-julian-toledo-pl96-lat_migne1862.txt) l.67962-67967",
+    "formation_confidence": "Documented"
+   }
+  ],
+  "contested_claims": [],
+  "absent_details": [
+   {
+    "detail": "A Life of Leoba",
+    "note": "Rudolf of Fulda's Life is not held, and no Acta Sanctorum September volume is held. The Bollandists' promise of a Life at 28 September (AASS3 l.126327-126328) and a manuscript note in Krusch's MGH SRM III (passiones-vitaeque-sanctorum-merovingici-mgh-srm-3-lat_krusch1896.txt l.4105-4106) are the only traces. Searched all cic/texts for Lioba, Leoba, Liobae, Leobae, Leobgyth, Leobgith, Leuba, Liuba, Rudolf with Fulda or vita, Bischofsheim, Biscofesheim, Tauberbischofsheim, Wimborne, Winburn, Dynne, Aebbe and Torhthat."
+   },
+   {
+    "detail": "Her death and burial",
+    "note": "No held line gives the year or place of her death. The burial beside Boniface is Kylie's statement of what was to be (KYLIE l.1775-1776)."
+   },
+   {
+    "detail": "Sources behind Kylie's introduction",
+    "note": "Kylie names no source for Wessex, Thanet, the words \"beautiful as the angels\", Thecla as her kinswoman or the last charge (searched his book for Rudolf, vita and life of). Every Lioba line in his book was read."
+   },
+   {
+    "detail": "Namesakes",
+    "note": "The Leuba of Gregory of Tours is a sixth-century matron, mother-in-law of Duke Bladast (gregory-tours_history-of-the-franks-v2_dalton1927.txt l.16556-16558). Sister Lioba Morgan is a sixteenth-century English nun. Neither is this Leoba."
+   }
+  ]
+ },
+ "muirchu": {
+  "claims": [
+   {
+    "claim": "Preface: \"Forasmuch as many, my Lord Mdh, have taken in hand\" (OCR \"Mdh\"); \"these writers never attained to one sure track of history\"; \"I have brought the infantile row- boat of my feeble brain into this most dangerous and deep ocean of sacred story\"; \"an ocean on which no boat has as yet ventured, save only that of my father Cogitosus\"; \"in obedience to the command of thy holiness and authority\"; \"My skill is small; my authorities are uncertain\"",
+    "witness": "WHITE (patrick_writings-and-life-with-muirchu-eng_white1920.txt) l.3790-3812",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Name note: \"These few particulars respecting the skill and the powers of St. Patrick did Muirchu-maccu-Machtheni draw up under the direction of -^dh. Bishop of the city of Slebte.\" (OCR \"-^dh.\")",
+    "witness": "WHITE (patrick_writings-and-life-with-muirchu-eng_white1920.txt) l.5232-5234",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "White on the name: \"The full name of the author of this Life, as given in the note appended to the Table of Contents of Book i.\" ... \"was Muirchu-maccu-Machtheni, i, e, Muirchu son of Machthene\"",
+    "witness": "WHITE (patrick_writings-and-life-with-muirchu-eng_white1920.txt) l.3738-3741",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "White on the father: \"In the Preface he gives his father's name as Cogitosus. Bishop Graves' emendation, Coguitosi for cognito si, is now generally accepted\"; \"Cogitosus is known as the author of a Life of St. Brigid of Kildare ; and Muirchu claims that in his attempt to write the Life of a great saint, he is following in his father's footsteps\"",
+    "witness": "WHITE (patrick_writings-and-life-with-muirchu-eng_white1920.txt) l.3741-3751",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "White: \"Muirchu was a Leinster man. This is strongly suggested\" ... \"by his father's association with Kildare, and his own intimate connexion with ^dh, bishop of Sleibte (Sletty)\"; \"Both -^dh and Muirchu subscribed the Acts of the Synod held at Birr, by Adamnan, a.d. 695- 697.\"",
+    "witness": "WHITE (patrick_writings-and-life-with-muirchu-eng_white1920.txt) l.3753-3770",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "White on purpose: \"^dh visited Armagh, and made a formal submission to the primatial claims of its bishop\"; the Life \"was inspired by a desire to offer a literary tribute from Leinster to Armagh\"",
+    "witness": "WHITE (patrick_writings-and-life-with-muirchu-eng_white1920.txt) l.3772-3777",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Aed and Armagh, in Stokes's Additions: \"Bishop Aed was in Slebtc, He went to Armagh\" (OCR \"Slebtc\")",
+    "witness": "STOKES (stokes_tripartite-life-of-patrick-v2-lat-muirchu-tirechan-confession_1887.txt) l.5344",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "White on date and rank: the Life \"is the most ancient Life of the Saint! now extant\" (OCR \"Saint!\"); \"The first book, at least, must have been pufettshett before A.D. 699 ; for Bishop ^Edh, to whom it is dedicated, died in that year\" (OCR \"pufettshett\")",
+    "witness": "WHITE (patrick_writings-and-life-with-muirchu-eng_white1920.txt) l.3591-3596",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Duchesne: \"la Vie de Patrice par Muirchu Maccu-Maohteni, dédiée à uu évèque qui mourut en 698\" (OCR \"Maohteni\", \"uu\")",
+    "witness": "DUCH3 (duchesne_histoire-ancienne-de-leglise-tome3-fra_2e-ed1910.txt) l.22836-22837",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Easter fire: no one might \"kindle a fire before one should have been lighted in the royal house, that is, in the palace of Temoria\"; Patrick \"kindled a divine fire, very bright and blessed, which as it shone forth at night, was seen by almost all the dwellers in the plain\"; the magicians: \"unless it be put out on this night on which it has been lighted up, it will not be put out for ever\"",
+    "witness": "WHITE (patrick_writings-and-life-with-muirchu-eng_white1920.txt) l.4383-4407",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Loiguire: \"It is better for me to believe than to die.\"",
+    "witness": "WHITE (patrick_writings-and-life-with-muirchu-eng_white1920.txt) l.4741-4742",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Patrick's death: \"on the 17th day of March, when the 120 years of his whole life had been completed, as it is celebrated in all parts of Ireland.\"",
+    "witness": "WHITE (patrick_writings-and-life-with-muirchu-eng_white1920.txt) l.5416-5419",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Burial at \"Dun-Lethglaisse, where Patrick was buried\"",
+    "witness": "WHITE (patrick_writings-and-life-with-muirchu-eng_white1920.txt) l.5513-5514",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Place of the fire: Muirchu names \"The Graves of the Men of Fecc\"; White's note places them near Slane",
+    "witness": "WHITE (patrick_writings-and-life-with-muirchu-eng_white1920.txt) l.4343, 6740-6744",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Bury and Macalister: \"According to Prof. Bury\" ... \"Muirchu (or his source), by a clever literary device, unites the features of two heathen festivals, on neither of which Easter could fall\"; \"Prof. Macalister, however\" ... \"defends the accuracy of Muirchu\"; Macalister's initials \"Prof. R. A. S. Macalister\" at l.6550",
+    "witness": "WHITE (patrick_writings-and-life-with-muirchu-eng_white1920.txt) l.6550, 6751-6757",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "White's judgments: \"Muirchu is the only ancient source-authority for any connexion between Amator and Patrick, and his account of the matter is, at best, confused and inaccurate\"; \"Sailed to Britain, This is a mistake, due to a misunderstanding of Conf. 23\"; \"Muirchu has misunderstood Conf. 21.\"",
+    "witness": "WHITE (patrick_writings-and-life-with-muirchu-eng_white1920.txt) l.884-886, 6342-6343, 6359",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Later Lives: \"Vita II, IV and V are largely based on Muirchu\"",
+    "witness": "WHITE (patrick_writings-and-life-with-muirchu-eng_white1920.txt) l.1527",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Book of Armagh: \"written sometime between a.d. 807 and A.D. 846, by Ferdomnach, the official scribe of Armagh\"",
+    "witness": "WHITE (patrick_writings-and-life-with-muirchu-eng_white1920.txt) l.1532-1536",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Warren: \"Muirchu Maccu-Machtheni probably had the fourth stanza of St. Sechnal's Hymn ia his mind\" (OCR \"ia\")",
+    "witness": "WARREN (antiphonary-of-bangor-pt2-lat_warren1895.txt) l.10595-10597",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Warren on the fire: \"Life of St. Patrick by\" ... \"Muirchu Maccu-Machtheni in Zoo£& of ArmagA\" (OCR for Book of Armagh)",
+    "witness": "WARREN (antiphonary-of-bangor-pt2-lat_warren1895.txt) l.9790-9798",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "White on Tirechan's Loiguire: \"both more credible than that of Muirchu, and more creditable to the King\"",
+    "witness": "WHITE (patrick_writings-and-life-with-muirchu-eng_white1920.txt) l.6915-6917",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Two manuscripts: \"Muirchu's work has come down to us in two MSS.\"; \"The Book of Armagh, folios 2-8, 20\"; \"MS. No. 64 in the Royal Library of Brussels\"",
+    "witness": "WHITE (patrick_writings-and-life-with-muirchu-eng_white1920.txt) l.3603-3612",
+    "formation_confidence": "Documented"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "The year Aed of Sletty died, which bounds the first book",
+    "sides": [
+     "Newport White: 699 (WHITE l.3594-3596)",
+     "Louis Duchesne: 698 (DUCH3 l.22836-22837)"
+    ]
+   },
+   {
+    "claim": "Whether Muirchu's Easter festival at Temoria is a literary device",
+    "sides": [
+     "Professor Bury, as White reports: it joins two heathen festivals, on neither of which Easter could fall (WHITE l.6751-6756)",
+     "R. A. S. Macalister, as White reports: he defends Muirchu's accuracy (WHITE l.6756-6757)"
+    ]
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "His Latin preface and name note",
+    "note": "Stokes's pages 269-271, with the preface, table and name note, are missing from the held file; it begins partway into the Life (STOKES l.213). The index points to them (l.21487, 23573). The preface is held only in White's English."
+   },
+   {
+    "detail": "The acts of Birr",
+    "note": "The Birr subscription list and the Law of Adomnan are not held (searched cain adamnain, cain adomnain, lex innocentium, law of adamnan, synod of birr). White's statement that Muirchu signed is not checkable here."
+   },
+   {
+    "detail": "His own life",
+    "note": "No held source gives his birth, death, office or burial. Searched all cic/texts for Muirchu, Murchu, Machtheni, Maccumacht and mac cu macht. The Four Masters' Muirchertachs are other men."
+   },
+   {
+    "detail": "Bury's and Graves's full names",
+    "note": "White calls them \"Prof. Bury\" and \"Bishop Graves\" and gives no first names; the brief and card keep his forms."
+   }
+  ]
+ },
+ "tirechan": {
+  "claims": [
+   {
+    "claim": "Heading in the Book of Armagh: \"Tirechan episcopus hacc scripsit ex ore ucl libro\" ... \"Ultani episcopi cuius ipsc alumpnus uel discipulus f uit.\" (OCR \"hacc\", \"ucl\", \"ipsc\", \"f uit\")",
+    "witness": "STOKES (stokes_tripartite-life-of-patrick-v2-lat-muirchu-tirechan-confession_1887.txt) l.2212-2213",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Four names: \"Inucni quatuor noraina in libro [adjscripta Patricio\" ... \"apud Ultanum episcopum Conchuburncnsium\" (OCR \"Inucni\", \"noraina\", \"Conchuburncnsium\")",
+    "witness": "STOKES (stokes_tripartite-life-of-patrick-v2-lat-muirchu-tirechan-confession_1887.txt) l.2214-2215",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Ultan as witness: \"mihi tcs- tantc Ultano cpiscopo\" (OCR)",
+    "witness": "STOKES (stokes_tripartite-life-of-patrick-v2-lat-muirchu-tirechan-confession_1887.txt) l.2235-2236",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "White's English of the same line: \"as Bishop Ultan assured me\"",
+    "witness": "WHITE (patrick_writings-and-life-with-muirchu-eng_white1920.txt) l.6385-6386",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "His sources and Ultan: \"a senioribus mul- tis ac ab illo Ultano episcopo Concliuburnensi f[ui\" ... \"nutriuit mo retulit sermo\" (OCR \"mo\" for \"me\")",
+    "witness": "STOKES (stokes_tripartite-life-of-patrick-v2-lat-muirchu-tirechan-confession_1887.txt) l.2972-2974",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "His heart and the complaint: \"Cor autcm meum cogitat\" ... \"in me de Patricii dilectionc, quia uideo dissertorcs\" ... \"archiclocos\" ... \"et miiites Hiberniae quod odio habent\" ... \"Patricii quia substraxerunt ab eo quod ip- sius erat, timentque quoniam, si quaereret heres Pat ricii pavuchiam illius, potest pene totam insolam sibi reddere in paruchiam\" (OCR forms kept)",
+    "witness": "STOKES (stokes_tripartite-life-of-patrick-v2-lat-muirchu-tirechan-confession_1887.txt) l.2974-3015",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Clono: \"sed quaerit familia Clono^\" ... \"quia per uim tcnent locos Patricii multos post morta- litates nouissimas\"; Stokes's notes \"of Cluain (maccu Nois?)\" and \"A.D. G83, apparently.\" (OCR \"G83\")",
+    "witness": "STOKES (stokes_tripartite-life-of-patrick-v2-lat-muirchu-tirechan-confession_1887.txt) l.3187-3224",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Simple and stricter: \"Omnia hantem quae scrips! ab initio libri huius sem- plicia sunt. Omne autem quod restat strictius erit.\" (OCR \"hantem\", \"scrips!\")",
+    "witness": "STOKES (stokes_tripartite-life-of-patrick-v2-lat-muirchu-tirechan-confession_1887.txt) l.3039-3040",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "White: the Memoir \"was written not earlier than a.d. 664, possibly about a.d. 670\"; \"Tirechdn indicates in his Memoir that he was a native of Tirawley in the Co. Mayo\"; \"Ultan, bishop of Ardbraccan, in Meath, whose pupil he was. Ultan died in A.D. 657\"",
+    "witness": "WHITE (patrick_writings-and-life-with-muirchu-eng_white1920.txt) l.1386-1394",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "White: \"The book in Ultan's keeping (Liber apud Ultanum) would be the earliest attempt to give an account of Patrick of which we have any knowledge\"; \"Tirechdn's Memoir thus embodies the traditions of Meath and of Connaught\"",
+    "witness": "WHITE (patrick_writings-and-life-with-muirchu-eng_white1920.txt) l.1396-1400",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "White on purpose: \"a formal record of the sphere of authority of the See of Armagh, the paruchia Patricii as against the rival claims and encroachments of other religious centres in Ireland\"; \"an enumeration, in the form of an itinerary, of all the churches founded, and clergy appointed, by Patrick\"",
+    "witness": "WHITE (patrick_writings-and-life-with-muirchu-eng_white1920.txt) l.1402-1408",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Course of Book II, White quoting Gwynn: \"him across the Shannon . . . through Connaught\"; \"to Cashel, at which point the Book breaks off abruptly, perhaps incomplete\"",
+    "witness": "WHITE (patrick_writings-and-life-with-muirchu-eng_white1920.txt) l.1423-1431",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "White's verdict: \"The Memoir produces on the reader the impression of an honest author who had no gift of composi- tion\"; \"it is not always safe to use the silence of Tirechan as an argument adverse to alleged happenings\"",
+    "witness": "WHITE (patrick_writings-and-life-with-muirchu-eng_white1920.txt) l.1439-1446",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Bury's date, via White: \"The Memoranda of Bishop Tirechan, dated by Prof. Bury between a.d. 664 and 668\"",
+    "witness": "WHITE (patrick_writings-and-life-with-muirchu-eng_white1920.txt) l.3596-3599",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Why it stops: \"Tirechan's itinerary leaves off abruptly when Patrick reaches Cashel: This may be explained by the sudden death of the author, or by the loss of leaves from the exemplar which Ferdomnach copied ; but it may also be due to the fact that Tirechan was unable to obtain any further record of Patrick's work in Munster\"",
+    "witness": "WHITE (patrick_writings-and-life-with-muirchu-eng_white1920.txt) l.1166-1172",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Celestine note: \"has been proved conclusively by Dr. Gwynn to be a note of the scribe Ferdomnach (a.d. 807-846) and not part of the Memoir of Tirechdn\"",
+    "witness": "WHITE (patrick_writings-and-life-with-muirchu-eng_white1920.txt) l.1026-1031",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Saul note: White says the burial note at Saul (\"in Sabhul Patrick\") \"b not part of the work of Tirechdn ; but was probably due to the scribe of A, Ferdomnach\" (OCR \"b\" for \"is\")",
+    "witness": "WHITE (patrick_writings-and-life-with-muirchu-eng_white1920.txt) l.7411-7419",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Mount Egli: \"And Patrick journeyed to Mount Egli to fast on it for forty days and forty nights, observing the discipline of Moses, and of Elijah, and of Christ.\"",
+    "witness": "WHITE (patrick_writings-and-life-with-muirchu-eng_white1920.txt) l.595-597",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The well: \"two daughters of King Loiguire, Ethne the fair and Fedelm the golden-haired, came to the fountain to wash in the morn- ing\"; \"The elder [prima] girl said, Who is God? And where is God?\"",
+    "witness": "WHITE (patrick_writings-and-life-with-muirchu-eng_white1920.txt) l.7100-7112",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The stone: \"and I have seen it with mine own eyes\" (White's English; the bracket \"[of Tara]\" is White's)",
+    "witness": "WHITE (patrick_writings-and-life-with-muirchu-eng_white1920.txt) l.6825-6828",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Loiguire: Tirechan's account \"is both more credible than that of Muirchu, and more creditable to the King\"",
+    "witness": "WHITE (patrick_writings-and-life-with-muirchu-eng_white1920.txt) l.6915-6917",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Duchesne: Ultan \"mort en 656\"; \"Au compte de Tirechan je ne saurais mettre ce qui dé- passe la p. 331, 1. 9\"; \"il n'y a guère que des traditions locales, déjà très embellies par deux siècles de conservation orale\"",
+    "witness": "DUCH3 (duchesne_histoire-ancienne-de-leglise-tome3-fra_2e-ed1910.txt) l.22833-22849",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "O'Donovan: \"we learn from Tirechan that the plain of Eilne was on the east side of the river\"",
+    "witness": "FOURM (four-masters_annals-of-the-kingdom-of-ireland-v3-1172-1378-gle-eng_odonovan1856.txt) l.5409-5410",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Gwynn: \"Royal Irish Academy in 1913 by Dr. John Gwynn\"; Tirechan \"derived mainly from Ultan\" is White's wording: \"his information was derived mainly from Ultan, bishop of Ardbraccan\"",
+    "witness": "WHITE (patrick_writings-and-life-with-muirchu-eng_white1920.txt) l.1391-1393, 1537",
+    "formation_confidence": "Documented"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "When Tirechan wrote",
+    "sides": [
+     "Newport White: not before 664, possibly about 670 (WHITE l.1388-1390); Professor Bury, as White reports: 664 to 668 (WHITE l.3597-3599)",
+     "Whitley Stokes: the latest plagues he mentions are those of 683, \"apparently\" (STOKES l.3189-3190, 3224)"
+    ]
+   },
+   {
+    "claim": "Where Tirechan's own work ends in the Book of Armagh",
+    "sides": [
+     "Newport White, after Gwynn: the Celestine and Saul notes are Ferdomnach's (WHITE l.1026-1031, 7411-7419)",
+     "Louis Duchesne: nothing past Stokes p.331, l.9 is Tirechan's (DUCH3 l.22844-22846); Stokes prints those notes on pages headed with Tirechan's Collections, before his Additions (STOKES l.4374-4405, 4529)"
+    ]
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "His own life",
+    "note": "No held source gives his see, birth, death or burial. Searched all cic/texts for Tirechan, Tírechán, Tirechanus and Tyrechan. Muiredach Tirech and other \"Tirech\" epithets are other men."
+   },
+   {
+    "detail": "A full English translation",
+    "note": "White translates passages only; the whole text is held in Stokes's Latin."
+   },
+   {
+    "detail": "Ultan's book",
+    "note": "The book Tirechan found in Ultan's keeping is lost; it is known only from his line (STOKES l.2214-2215)."
+   }
+  ]
+ },
+ "cogitosus": {
+  "claims": [
+   {
+    "claim": "Migne's placing: \"ANNO DOMINI DXCI.\" then \"EODEM TEJIPORE.\" (OCR) and \"COGITOSUS.\"; \"NOTITIA, EX BASNAGIO.\"",
+    "witness": "PL72 (john-biclaro-leander-pl72-lat_migne1878.txt) l.58415-58440",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Basnage: \"Cogitosuni hic repoiiinius, aliorum vestigiis insi-\" ... \"stentes potius,quam uostrffi sententiaj addicti.Ouippe\" ... \"multo recentiorem credimus illum scriptorem.\" (OCR; two columns interleaved)",
+    "witness": "PL72 (john-biclaro-leander-pl72-lat_migne1878.txt) l.58442-58446",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Basnage on nepos: \"Po- quam descripsittotamiraculis scatet\" (OCR, right column); \"Sed se Brigidte ncpotem non dicit\"; \"Iaverit,uobis a:que ac Canisio incerlum\" (OCR)",
+    "witness": "PL72 (john-biclaro-leander-pl72-lat_migne1878.txt) l.58446-58456",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Basnage on his age: \"probatque non cofevum,sed recen-\" ... \"tioremfuisseCogitosum\" (OCR); \"DescribitCogitosus parietes decoratos pictis tabulis,\" ... \"et imaginibus depictis, quae posteriora redolent SBe-\" (OCR); \"et stylus\" ... \"Barbariem sajculi quo vixit indicat\" (OCR)",
+    "witness": "PL72 (john-biclaro-leander-pl72-lat_migne1878.txt) l.58442-58479",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Basnage on the hermit-bishop: \"Mirare quod\" ... \"virgo virum eremiticum convocaverit, ut eccle-\" ... \"siam in episcopali dignitate cum ea gubernaret\"; \"Stupendum etiam, virginem saluberritna semina\" ... \"verbi dominici ex more consuetudinis omnibus semi-\" ... \"Haec enim legibus adversantur.\" (OCR, interleaved)",
+    "witness": "PL72 (john-biclaro-leander-pl72-lat_migne1878.txt) l.58452-58468",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Prologue: \"Cogisti me, fratres, ut sanctse et beatae memoriae Brigidae virginis virtutes et opera, more doctorum, me-\" (OCR); \"parvitatis et igno- rantiae mefe et lingu» niiniine couvenit\" (OCR); \"pauca de pluribus, a majoribus et peritissimis tradita\"; \"rusticus sermo ingenioli mei\"",
+    "witness": "PL72 (john-biclaro-leander-pl72-lat_migne1878.txt) l.58492-58501",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Headship: \"suummonasterium, caputpene omniura HiberniensiumEcclesiarum, et culmen preecellens omnia monasteria Scotorum, cujus\" ... \"parochia per tofam Hibernensom terram diffusa, a niari usque ad mare extensa est\" (OCR)",
+    "witness": "PL72 (john-biclaro-leander-pl72-lat_migne1878.txt) l.58506-58510",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Hermit made bishop: \"illustrem virum et solitarium\" ... \"couvocans eum de eremo et de sua vita solitaria\" ... \"ut Ecclesiam\" ... \"in episcopali dignitate cum ea gubernaret\" (OCR)",
+    "witness": "PL72 (john-biclaro-leander-pl72-lat_migne1878.txt) l.58513-58518",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Succession: \"Quam semper Archiepiscopus Hiberniensiura episcoporum et abbatissa, quam omnes abbatissse Scotorum\" ... \"venerantur, felici successione et ritu perpetuo dominantur.\" (OCR)",
+    "witness": "PL72 (john-biclaro-leander-pl72-lat_migne1878.txt) l.58526-58527",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Out of order: \"hcet praepostero ordine virtutum compendiose expLicare conabor\" (OCR)",
+    "witness": "PL72 (john-biclaro-leander-pl72-lat_migne1878.txt) l.58529",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Seen with his eyes: \"in suo monas- terio ubi ejus venerabile requiescit corpus, semper operari virtutes non cessat, quas nos virtutcs non solum audivimus, sed ctiam oculis nostris vidimus.\" (OCR)",
+    "witness": "PL72 (john-biclaro-leander-pl72-lat_migne1878.txt) l.59334-59338",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The church: \"episcopi Conleath\" and \"virginis sanctee Brigida\" (OCR); \"a dextris et a sinistris altaris\"; \"coro- nis aureis et argenteis desuper peudentibus\" (OCR); \"decorata pictis tabulatis\"; \"imaginibus depictus\"; \"summus pontifex cum sua regulari soola\" (OCR); \"ab- batissa cum suis puellis et viduis fidelibus\"; \"Et sic in una basilica maxima, populus grandis in ordine, et gra- dibus, et sexu\"; \"uno animo Domiuum omnipotentem orat\" (OCR)",
+    "witness": "PL72 (john-biclaro-leander-pl72-lat_migne1878.txt) l.59384-59460",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "City of refuge: \"Maxima bffic civitas et mctropolitana est\" (OCR); \"nuUus carnalis adversarius, nec cursus timetur hostium\" (OCR); \"civitas est refugii tutissima\"; \"in qua ser- vantur thesauri regum\"",
+    "witness": "PL72 (john-biclaro-leander-pl72-lat_migne1878.txt) l.59474-59482",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Feast: \"quai in die Kalendarum Februarii mensis dormiens secure sarcinam dejecit carnis\" (OCR)",
+    "witness": "PL72 (john-biclaro-leander-pl72-lat_migne1878.txt) l.59489-59491",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Signature: \"Orate pro me Cogitoso nepote culpabiH\" (OCR \"culpabiH\")",
+    "witness": "PL72 (john-biclaro-leander-pl72-lat_migne1878.txt) l.59502",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Muirchu's preface: \"an ocean on which no boat has as yet ventured, save only that of my father Cogitosus\"",
+    "witness": "WHITE (patrick_writings-and-life-with-muirchu-eng_white1920.txt) l.3803-3806",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "White: \"Bishop Graves' emendation, Coguitosi for cognito si, is now generally accepted\"; \"Cogitosus is known as the author of a Life of St. Brigid of Kildare ; and Muirchu claims that in his attempt to write the Life of a great saint, he is following in his father's footsteps\"",
+    "witness": "WHITE (patrick_writings-and-life-with-muirchu-eng_white1920.txt) l.3742-3751",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Before about 700: computed from White's placing of Muirchu at Birr, 695 to 697, if the father is Brigid's biographer",
+    "witness": "WHITE (patrick_writings-and-life-with-muirchu-eng_white1920.txt) l.3768-3770",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Stokes's index: \"Cogitosus (A.I). 800-835), 269.\" (OCR \"A.I).\" for A.D.); separately \"Coguitosus, 269.\"",
+    "witness": "STOKES (stokes_tripartite-life-of-patrick-v2-lat-muirchu-tirechan-confession_1887.txt) l.21226, 22198",
+    "formation_confidence": "Contested"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "When Cogitosus wrote",
+    "sides": [
+     "Migne prints him under 591, \"EODEM TEMPORE\" as Aregius (PL72 l.58415-58436)",
+     "Basnage: much later than Brigid, not her contemporary, from the painted images and the style (PL72 l.58442-58479)",
+     "Newport White: Muirchu's father, so before about 700 (WHITE l.3741-3751, 3768-3770)",
+     "Whitley Stokes's index: 800 to 835 (STOKES l.21226)"
+    ]
+   },
+   {
+    "claim": "Whether he is the father Muirchu names",
+    "sides": [
+     "For: Graves's correction, which White calls generally accepted, and White's identification (WHITE l.3741-3751)",
+     "Against, by implication: Stokes's index date of 800 to 835 would make him too late; Stokes lists the father separately as Coguitosus (STOKES l.21226, 22198)"
+    ]
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "An English translation",
+    "note": "No English of Cogitosus is held; the Life is held only in Migne's Latin, with two columns interleaved in the OCR."
+   },
+   {
+    "detail": "His own life",
+    "note": "No other work, office or death is held. Searched all cic/texts for Cogitosus, Cogitosi, Cogitoso, Cogitosum, Coguitosus, Coitosus and Cogidosus."
+   },
+   {
+    "detail": "Stokes's reasons",
+    "note": "Stokes's page 269, where he cites Cogitosus, is missing from the held file, so his reason for 800 to 835 cannot be read."
+   },
+   {
+    "detail": "Basnage's own placing",
+    "note": "Basnage says he puts Cogitosus \"here\" following others. The held lines do not show whether that placing in his own edition was at 591 or was Migne's."
+   }
+  ]
+ },
+ "wilfrid-of-york": {
+  "claims": [
+   {
+    "claim": "Rome, the reading: \"His acquittal was much forwarded by the reading of the synod of Pope Agatho\"; \"Wilfrid, the beloved of God, bishop of the city of York\"; \"the hearers were amazed, and the reader stopping, they began to ask of one another, who that Bishop Wilfrid was? Then Boniface, the pope's counsellor\"; \"a man of such great authority, who had exercised the episcopal function near forty years, ought not to be condemned\"",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.14096-14124",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Youth: \"At fourteen years of age he preferred the monastic to the secular hfe\" (OCR \"hfe\"); \"he came to the isle of Lindisfarne\"; \"he observed that the way to virtue taught by the Scots was not perfect, and he resolved to go to Rome\"",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.13895-13913",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Lyon: \"whom Wilfrid, his clerk, attended to the place where he was to be beheaded, being very desirous, though the bishop opposed it, to die with him ; but the executioners, understanding that he was a stranger, and of the English nation, spared him\"",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.13982-13989",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Ripon: Alfrid \"gave him land of ten families at the place called Stanford ; and not long after, the monastery, of thirty families, at the place called Ripon\"; Alfrid as Oswy's son: \"King Oswy and his son Alfrid\"",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.7924-7925, 13990-13997",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Ripon as forty families: \"a monastery of forty families, at a place called Rhypum\"",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.7938-7940",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Whitby, Bede: \"do you think that their small number, in a corner of the remotest island, is to be preferred before the uni- versal church of Christ throughout the world ?\"; Oswy: \"he is the door-keeper, whom I will not contradict\"; date \"the year of our Lord's incarnation 664\"",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.8180-8206, 8236-8238",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Whitby, Stephen: \"Hanc quzstionem olim in Nicea, Bithyniz civitate\" (OCR)",
+    "witness": "RAINE (byrhtferth_vita-s-oswaldi-in-historians-of-the-church-of-york-v1-lat_raine1879.txt) l.5143",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Hild's side at Whitby, Bede: \"the Abbess Hilda and her followers were for the Scots\"",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.7964-7967",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Bede on the removal: \"a dissension broke out between King Egfrid and the most reverend prelate, Wilfrid, who was driven from his see\"",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.9865-9884",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Stephen on the queen: \"Nam regis Ecfrithi regina, nomine Iurmenburg\" ... \"invidia tune temporis torquebatur\" (OCR \"tune\")",
+    "witness": "RAINE (byrhtferth_vita-s-oswaldi-in-historians-of-the-church-of-york-v1-lat_raine1879.txt) l.6528-6530",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Nine months in prison, Stephen: \"in custodiam ducere, et novem menses sine ullo honore\" ... \"custodire censuerunt\"",
+    "witness": "RAINE (byrhtferth_vita-s-oswaldi-in-historians-of-the-church-of-york-v1-lat_raine1879.txt) l.7515-7518",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Kept out by the king: \"though he could not, by reason of the enmity of the aforesaid king, be received into his own country or diocese, yet he could not be restrained from preaching the Gospel\"",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.9914-9919",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "South Saxons: \"no rain had fallen in that province in three years before his arrival\"; he \"taught them to get their food by fishing\"; \"The bishop's men having gathered eel-nets everywhere\"",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.9955-9982",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Restored and expelled again: \"in the second year of Alfrid, who reigned after Egfrid, was restored to his see\"; \"five years after, being again accused by that same king and several bishops, he was again expelled\"",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.14077-14081",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Death and burial: \"the celebrated prelate, Wilfrid, died in the province of Undalum, after he had been bishop forty-five years\"; \"carried to his monastery, called Ripon\"; Bede's recap: \"In the year 709, Coenred, king of the Mercians\" ... \"went to Rome\"",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.13878-13882, 15388-15389",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Day in Giles: \"He died on the 1 2th of October, in his monastery, which he had in the province of Undalum\" (OCR \"1 2th\")",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.14187-14189",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Stephen on his death: \"ad versiculum illum pervenerunt, in quo dicitur,\" ... \"matte spiritum. tuum, et creabuntur, et renovabis\" ... \"faciem terre. Tunc sanctus pontifex noster emisit\" (OCR \"matte\" for Emitte)",
+    "witness": "RAINE (byrhtferth_vita-s-oswaldi-in-historians-of-the-church-of-york-v1-lat_raine1879.txt) l.10575-10578",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Stephen on age and years: \"anno setatis suze septuagesimo\" ... \"sexto. Quantos vero per quadraginta sex annos epi-\" (OCR)",
+    "witness": "RAINE (byrhtferth_vita-s-oswaldi-in-historians-of-the-church-of-york-v1-lat_raine1879.txt) l.10652-10653",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Epitaph: \"Having sat bishop five and forty years\"",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.14238",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Bede on Eddi and the Catholic mode of life: \"the first singing-master in the churches of the Northumbrians was Eddi, sur- named Stephen, invited from Kent by the most reverend Wilfrid, who was the first of the bishops of the English nation that taught the churches of the English the Catholic mode of life\"",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.8874-8879",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Raine's verdicts: \"For forty years after the synod\" ... \"of Whitby Wilfrid was the greatest person in North-\" ... \"To\" ... \"describe him in one word, he was a reformer\"; \"Wilfrid never gave way\"",
+    "witness": "RAINE (byrhtferth_vita-s-oswaldi-in-historians-of-the-church-of-york-v1-lat_raine1879.txt) l.1495-1533",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Raine on Stephen: \"Like too many bio-\" ... \"graphers he was an enthusiastic partizan. He can see\" ... \"no fault in his hero\"",
+    "witness": "RAINE (byrhtferth_vita-s-oswaldi-in-historians-of-the-church-of-york-v1-lat_raine1879.txt) l.1880-1882",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Raine dates Stephen's Life: \"it must, I think, have been written within a very few years after Wilfrid's death\"",
+    "witness": "RAINE (byrhtferth_vita-s-oswaldi-in-historians-of-the-church-of-york-v1-lat_raine1879.txt) l.1769-1771",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Plummer on Bede's silence: \"The only point which creates a doubt is his suppression of certain incidents in the life of Wilfrid\"; \"Whether lie did this out of regard to the memory of Wilfrid or of the kings who opposed him, I cannot say\" (OCR \"lie\")",
+    "witness": "PLUMMER (bede_opera-historica-v1-historia-abbatum-lat_plummer1896.txt) l.3326-3333",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Pope John's letter: his accusers came \"a Theodoro veneramda memorie archiepiscopo\" ... \"et Hylde* religiose memorie abbatisse, ad ewm ac-\" (OCR)",
+    "witness": "RAINE (byrhtferth_vita-s-oswaldi-in-historians-of-the-church-of-york-v1-lat_raine1879.txt) l.9423-9425",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Petition to Agatho, on Theodore: \"accusare non audeo\"",
+    "witness": "RAINE (byrhtferth_vita-s-oswaldi-in-historians-of-the-church-of-york-v1-lat_raine1879.txt) l.7185-7187",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "York minster: \"per fenestras introi- tum avium et imbrium vitro prohibuit, per quod tamen intro lumen radiabat\"",
+    "witness": "RAINE (byrhtferth_vita-s-oswaldi-in-historians-of-the-church-of-york-v1-lat_raine1879.txt) l.5766-5768",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Ripon church: \"Nam in Hrypis basilicam polito lapide a fundamentis in terra usque ad summum edificatam\"",
+    "witness": "RAINE (byrhtferth_vita-s-oswaldi-in-historians-of-the-church-of-york-v1-lat_raine1879.txt) l.5827-5828",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Hexham: \"neque enim ullam domum aliam citra Alpes\" ... \"talem rzedificatam audivimus\" (OCR \"rzedificatam\")",
+    "witness": "RAINE (byrhtferth_vita-s-oswaldi-in-historians-of-the-church-of-york-v1-lat_raine1879.txt) l.6440-6444",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Frisia: \"adhuc superedificat filius ejus in Hripis nutritus\"",
+    "witness": "RAINE (byrhtferth_vita-s-oswaldi-in-historians-of-the-church-of-york-v1-lat_raine1879.txt) l.6719-6720",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Selsey: \"King Ethelwalch gave to the most reverend prelate, Wilfrid, land of eighty-seven fami- lies\"; \"which place is called Selsey\"",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.9995-9999",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Epitaph: \"Into these parts a numerous swarm of monks\" ... \"He brought, and strictly taught their founder's rules.\"",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.14228-14232",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Subscription: \"Vvuilfridus humilis epifcopus fan&z ec-\" ... \"clefiz Eboracene infule Britannia , legatus\" ... \"venerabilis fynodi per Britanniam conflitu-\" (long-s OCR)",
+    "witness": "MANSI11 (mansi_sacrorum-conciliorum-collectio-tomus-11-lat_welter-facsimile1901.txt) l.30615-30625",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Petition to John VI: \"Ebovace\" ... \"civitatis episcopatus cum ceteris quamplurimis mo-\" ... \"nastervis vn vestro pendeat arbitrio\"; \"Tantum ipsa duo monasteria,\" ... \"quod primum dicitur Hripis, et alterum, quod Augus-\" (OCR \"Ebovace\", \"nastervis vn\")",
+    "witness": "RAINE (byrhtferth_vita-s-oswaldi-in-historians-of-the-church-of-york-v1-lat_raine1879.txt) l.9015-9020",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Eadmer's birth year: \"Anno igitur Incarnationis® Verbi Dei sexcente-\" ... \"simo tricesimo quarto\" (OCR)",
+    "witness": "RAINE (byrhtferth_vita-s-oswaldi-in-historians-of-the-church-of-york-v1-lat_raine1879.txt) l.15160-15161",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Austerfield, Stephen: \"Synodo in campo qui dicitur Ouestraefelda\" (OCR)",
+    "witness": "RAINE (byrhtferth_vita-s-oswaldi-in-historians-of-the-church-of-york-v1-lat_raine1879.txt) l.8463-8464",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Plummer's Latin has no day: \"Defunctus est autem in monasterio suo, quod habebat\" ... \"in prouincia Undalum\"",
+    "witness": "PLUMMER (bede_opera-historica-v1-historia-abbatum-lat_plummer1896.txt) l.28657-28658",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Mabillon: \"tametsi hcec verba iritrusa sunt in textum Bedie\" (OCR); \"Dies certe prcedictus est translationis\" (OCR)",
+    "witness": "PL159 (anselm-canterbury_opera-with-eadmer-historia-novorum-pl159-lat_migne1903.txt) l.55040-55047",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Odo's preface: \"venerabillimas 5 beati confessoris Christi Wilfridi\" ... \"reliquias\"; \"reverenter excepi? atque intra ambitum metropolitans, cui gratia Dei preesideo, ecclesie collocavi\" (OCR); Raine: \"The testimony of Odo himself is doubtless a stubborn fact in favour of Canterbury\"",
+    "witness": "RAINE (byrhtferth_vita-s-oswaldi-in-historians-of-the-church-of-york-v1-lat_raine1879.txt) l.2664-2665, 11019-11025",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Earliest Life of Oswald: at Ripon \"Invenit autem presulis beata\" ... \"membra\"; Raine: \"in the opinion of the writer the bones were those of Wilfrid senior, the great bishop\"",
+    "witness": "RAINE (byrhtferth_vita-s-oswaldi-in-historians-of-the-church-of-york-v1-lat_raine1879.txt) l.2442-2443, 33985-33987",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Breviary: \"12. Wilfred, Archbishop [of York,] Confessor. Double.\"; lessons \"From Bede's History, v. 19.\"",
+    "witness": "BUTE (roman-breviary_bute1908.txt) l.2420, 77757-77758",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "York Prymer litany: \"Wilfride ora\"",
+    "witness": "PRYMER (surtees-society_horae-eboracenses-prymer-of-york-use-lat-enm_wordsworth1920.txt) l.11536",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Raine on the Oswald Life: \"the earliest and the best\" ... \"Life of Oswald\"; Archbishop Odo \"carried off from Ripon to Canterbury what he believed to be the body of the great Wilfrid\"",
+    "witness": "RAINE (byrhtferth_vita-s-oswaldi-in-historians-of-the-church-of-york-v1-lat_raine1879.txt) l.2125-2131, 2421-2424",
+    "formation_confidence": "Contested"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "What moved the removal of 678",
+    "sides": [
+     "Bede: King Egfrid drove him out, with no cause given (GILES l.9865-9884)",
+     "Stephen, his partisan biographer: Queen Iurmenburg's envy, and Theodore won over with gifts (RAINE l.6528-6571)"
+    ]
+   },
+   {
+    "claim": "The day of his death",
+    "sides": [
+     "J. A. Giles's English Bede: 12 October (GILES l.14187-14188)",
+     "Plummer's Latin Bede gives no day (PLUMMER l.28658-28659); Mabillon says the words were intruded and 12 October is a translation day (PL159 l.55041-55047)"
+    ]
+   },
+   {
+    "claim": "Years as bishop and age",
+    "sides": [
+     "Bede and the epitaph: forty-five years (GILES l.13880-13881, 14238)",
+     "Stephen: forty-six years, dying in his seventy-sixth year (RAINE l.10652-10653)"
+    ]
+   },
+   {
+    "claim": "The argument at Whitby",
+    "sides": [
+     "Bede: the practice of the whole church against a corner of the remotest island (GILES l.8180-8186)",
+     "Stephen: the council of Nicaea and the nineteen-year cycle (RAINE l.5143-5150)"
+    ]
+   },
+   {
+    "claim": "Where his relics lay",
+    "sides": [
+     "Odo of Canterbury: he received them and placed them in his metropolitan church (RAINE l.11019-11025); Raine calls this a stubborn fact for Canterbury (l.2664-2665)",
+     "The earliest Life of Oswald: Oswald found the bishop's limbs at Ripon (RAINE l.33985-33987), which Raine reads as the elder Wilfrid (l.2442-2443)"
+    ]
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "His parents and birthplace",
+    "note": "Neither Stephen, Bede, Eadmer nor the anonymous Life names them. Searched all cic/texts for wilfrid, wilfrith, uilfrid, wilfred, wylfrid and wilfrith."
+   },
+   {
+    "detail": "English of Stephen",
+    "note": "No English translation of Stephen's Life is held; the brief's Stephen lines are told in modern words from Raine's Latin."
+   },
+   {
+    "detail": "Other Lives not held",
+    "note": "William of Malmesbury's Gesta pontificum, Peter of Blois's Life and the Bollandists' April volume are not held; they are known only through Raine and Mabillon."
+   },
+   {
+    "detail": "Namesakes",
+    "note": "Wilfrid II, Hild's pupil and later bishop of York (GILES l.10973-10982, 12539-12541), and Winfrith of Lichfield, robbed by men who took him for Wilfrid (RAINE l.6648-6661), are other men."
+   }
+  ]
+ },
+ "cuthbert-of-lindisfarne": {
+  "claims": [
+   {
+    "claim": "Shepherd's vision, Bede's prose Life: \"contigit eum remotis in montibus commissoruni sibi pecorum agere custodiam\" (OCR); \"vidit subito fusum de ccelo lumen\" (OCR); \"in eoque coeles- tium choros agminum terram petisse\"; in the morning \"Antistitem Lindisfarnensis Ecclesiz d Aidanum\" ... \"per id temporis, quo viderat, raptum de corpore, coelestia regna petiisse : ac statim commendans suis pecora quae pascebat do- minis, monasterium petere decrevit\" (OCR)",
+    "witness": "AASS3 (acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt) l.34310-34352",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Melrose and Boisil: \"Mailros petere maluit\"; \"ipsum pariter equum et hastam, quam tenuerat manu, ministro dedisset\"; \"Boisilus ipse pre foribus monasterii consis- tens\"; \"hoc unum dixit adstantibus : Ecce servus Dei\" (OCR \"pre\")",
+    "witness": "AASS3 (acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt) l.34437-34446",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Bede's History, Melrose: \"the monastery of Melrose, which is on the bank of the river Tweed, and was then governed by the Abbat Eata\"; Boisil \"a priest of great virtue and of a prophetic spirit\"; \"from him received both the knowledge of the Holy Scriptures\"",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.11575-11586",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "After Boisil's death he took the office of prior: \"memoratum Przepositi officium Cuthbertus suscepit\" (OCR \"Przepositi\")",
+    "witness": "AASS3 (acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt) l.34909-34913",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "After Whitby: \"Eata, who was abbat of the monastery of Melrose, a most reverend and meek man, was appointed abbat over the brethren that stayed in the church of Lindisfarne, when the Scots went away\"",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.8254-8257",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "To Lindisfarne: \"his most reverend abbat, Eata, removed him to the isle of Lindisfarne, that he might there also, by the\" ... \"authority of a superior and his own example, instruct the brethren in the observance of regular discipline\"",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.11640-11646",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The brothers who preferred old custom: \"Erant autem quidam in monasterio Fratres\" ... \"qui priscze suze consuetudini, quam regulari, mallent\"; he \"exurgebat repente, et placido. vultu atque\" ... \"animo egrediens, dimittebat conventum\"; \"eadem, quae prius, monita eisdem dabat\" (OCR \"priscze suze\", \"placido.\")",
+    "witness": "AASS3 (acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt) l.35625-35641",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Farne: \"the mound which encompassed his habitation being so high, that he could from thence see nothing but heaven\"",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.11728-11732",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Twyford and Farne: \"a great synod was assembled in the presence of King Egfrid, near the river Alne, at a place called Twyford\"; \"in which Archbishop Theodore, of blessed memory, presided\"; \"at last the aforesaid king himself, with the most holy Bishop Trumwine\"; \"they all knelt, conjured him by our Lord, and with tears and entreaties, till they drew him, also in tears, from his retreat\"",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.11732-11748",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Consecration in the History: \"it was performed at Easter, in the city of York, and in the presence of the aforesaid King Egfrid ; seven bishops meeting on the occasion, among whom, Theodore, of blessed memory, was primate\"",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.11757-11762",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Prose Life names no city: \"acta hyeme, quae imminebat\" ... \"expleta est\" (OCR \"acta\" for peracta; footnote mark k)",
+    "witness": "AASS3 (acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt) l.36469-36470",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Return to Farne: \"Having spent two years in his bishopric, he re- turned to his island and monastery\"",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.11798-11799",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Herefrid as witness: \"Cujus obitum libet verbis illius, cujus relatione didici, describere. Herefridi\" ... \"videli cet devote religionis Presbyteri, qui etiam tunc Lindisfarnensi monasterio Abbatis jure preefuit.\" (OCR)",
+    "witness": "AASS3 (acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt) l.37455-37459",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Last words: \"Pacem, inquit, inter vos semper et caritatem custodite divi- nam\"; \"Cum illis autem, qui ab unitate Catho- licze pacis, vel Pascha non suo tempore celebrando vel perverse vivendo, aberrant, vobis sit nulla com- munio\"; \"multo plus diligo, ut eruentes de tumulo, tollentes- que vobiseum ossa mea, recedatis ab his locis\" ... \"quam ut ulla ratione consentientes iniquitati, schismati- chorum jugo colla subdatis\" (OCR)",
+    "witness": "AASS3 (acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt) l.37776-37796",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Breviary English of the bones sentence: \"I would much rather that ye took my bones with you and went hence\"; \"bow your necks under the yoke of the schismatics\"",
+    "witness": "BUTE (roman-breviary_bute1908.txt) l.106684-106691",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Day of death: \"on the very same day, that is, on the 20th of March\"",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.11861-11864",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Burial: \"he consented to be carried back to the isle of Lindisfarne, and there buried in the church\"",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.11876-11882",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Body whole: \"when he had been buried eleven years\"; \"found all the body whole, as if it had been alive, and the joints pliable, more like one asleep than a dead person\"",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.11905-11921",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Bollandists' year: \"lem hanc vitam exuit xx Martii anno DCUXXXVII\" (OCR for DCLXXXVII)",
+    "witness": "AASS3 (acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt) l.32813-32815",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Anonymous Life dated by the Bollandists: \"monachus Lindisfar- nensis, qui gesta ejus in quatuor libros digessit\"; \"Videtur autem hxc Vita conscripta, qut saltem. absoluta, circa annum pcc\" (OCR)",
+    "witness": "AASS3 (acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt) l.32844-32854",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Raine on the Anonymous Life: \"which was written by some nameless monk of Lindisfarne between A.D. 698 and 708\"; Eddi \"commences it by practically borrowing the prologue of the monk of Lindisfarne, merely altering the names\"",
+    "witness": "RAINE (byrhtferth_vita-s-oswaldi-in-historians-of-the-church-of-york-v1-lat_raine1879.txt) l.1741-1753",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Verse Life omitted: \"cogimur hanc Vitam omittere\"",
+    "witness": "AASS3 (acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt) l.38590-38591",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Bede's own order: \"I have written the Life of the Holy Father Cuthbert, who was both monk and prelate, first in heroic verse, and then in prose\"",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.15524-15527",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Alcuin's order: \"Prosaico primum scripsit sermone magister,\" ... \"Et post heroico cecinit miracula versu\"; Raine's note \"The contrary is now believed to be the fact, that the metrical life is\"",
+    "witness": "RAINE (byrhtferth_vita-s-oswaldi-in-historians-of-the-church-of-york-v1-lat_raine1879.txt) l.27458-27461, 27515-27516",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Plummer's dates: \"Before 705. Vita Metrica Cudbercti.\"; \"About 720. ViTA Sancti Cudbercti.\" (OCR); \"cannot be later than 7 2 1 as it is dedicated to Ead- frid\"",
+    "witness": "PLUMMER (bede_opera-historica-v1-historia-abbatum-lat_plummer1896.txt) l.10507-10624",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Plummer's judgment: \"it cannot, I think, be said that Bede has bettered his original\"; \"he shows a marked tendency to exaggerate the ascetic and miraculous ele- ment\"; \"his account of Cuthberfs death, derived from an eye-witness, is of real and independent vahie\" (OCR)",
+    "witness": "PLUMMER (bede_opera-historica-v1-historia-abbatum-lat_plummer1896.txt) l.3349-3364",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Bede's sources: \"what I have written concerning our most holy father, Bishop Cuthbert, either in this volume, or in my treatise on his life and actions, I partly took, and faithfully copied from what I found written of him by the brethren of the Church of Lindisfarne\"",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.223-228",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Alcuin to Lindisfarne after the sack: \"Quae est fiducia Ecclesiis Britannize, si S. Cuthber- tus eum tanto Sanctorum numero suam non defen- dit?\" (OCR \"Britannize\", \"eum\")",
+    "witness": "AASS3 (acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt) l.40836-40846",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Breviary: calendar \"20. Cuthbert, Bishop [of Lindisfarne,] Confessor. Double.\"; Martyrology 31 August: \"Holy Cuthbert, who was then a shepherd lad, saw the soul of Aidan carried up into heaven, and he thereupon left his sheep and became a monk.\"",
+    "witness": "BUTE (roman-breviary_bute1908.txt) l.1734, 61466-61473",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "York Prymer: calendar \"sancti cuthberti .ix. lee.\" (OCR); litany \"Cuthberte ora\"",
+    "witness": "PRYMER (surtees-society_horae-eboracenses-prymer-of-york-use-lat-enm_wordsworth1920.txt) l.3963, 11540",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Farne's distance: \"distant almost nine miles from that same church, in the ocean\"",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.11568-11571",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Ethelwald on Farne: \"succeeded the man of God, Cuthbert, in the exercise of a solitary life\"",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.12099-12105",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Prose Life read to the elders: \"coram senioribus ac doctioribus\" ... \"vestrae Congregationis libellus biduo legeretur\"; \"nullus omnimodis inventus est sermo, qui mu-\"",
+    "witness": "AASS3 (acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt) l.33667-33671",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Miracles at the tomb: \"The miracles sometimes wrought in that place testify the merits of them both\"",
+    "witness": "GILES (bede_ecclesiastical-history-english-people_giles1903.txt) l.11960-11962",
+    "formation_confidence": "Documented"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "Which of Bede's Lives of Cuthbert came first",
+    "sides": [
+     "Bede: verse, then prose (GILES l.15524-15527); Raine's note: the metrical Life is now believed the earlier (RAINE l.27515-27516); Plummer: verse before 705, prose about 720 (PLUMMER l.10507-10624)",
+     "Alcuin's poem on York: prose first, then verse (RAINE l.27458-27461)"
+    ]
+   },
+   {
+    "claim": "Where and by whom he was consecrated",
+    "sides": [
+     "Bede's History: at York, with Theodore as primate among seven bishops (GILES l.11757-11762)",
+     "Bede's prose Life: no city or archbishop named, only that it was done after the winter (AASS3 l.36469-36470)"
+    ]
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "Birth, birthplace and parents",
+    "note": "No held early Life gives them. Searched AASS3 l.33619-40262 and Giles for natus, parent, pater ejus, mater and born. Capgrave's tale of an Irish royal birth is rejected as a fable by the Bollandists (AASS3 l.32821-32822, 33039-33100) and is not used."
+   },
+   {
+    "detail": "English of the Lives",
+    "note": "No English translation of Bede's prose Life or of the Lindisfarne monk's Life is held. Bede's verse Life is not held (AASS3 l.38590)."
+   },
+   {
+    "detail": "Cuthbert at Whitby",
+    "note": "No held source places him at the meeting of 664; Giles's III.25 has no Cuthbert line."
+   },
+   {
+    "detail": "Namesakes",
+    "note": "Cuthbert, Bede's pupil, later abbot of Wearmouth, who wrote the letter on Bede's death (PLUMMER l.11214) and sent the Lives of Cuthbert to Lul (PL96 l.69416-69421), is a different man. So is Cuthbert, archbishop of Canterbury (PLUMMER l.30298)."
+   }
+  ]
+ }
+}
