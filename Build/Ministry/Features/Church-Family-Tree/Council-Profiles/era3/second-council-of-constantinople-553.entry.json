@@ -1,0 +1,349 @@
+{
+  "id": "second-council-of-constantinople-553",
+  "kind": "major-council",
+  "kindLabel": "Major council",
+  "era": 3,
+  "name": "Second Council of Constantinople",
+  "shortName": "Constantinople 553",
+  "informalName": "The Fifth Council",
+  "dates": "553",
+  "start": 553,
+  "end": 553,
+  "region": "Constantinople",
+  "placeLabel": "Constantinople",
+  "modernCountries": [
+    {
+      "country": "Turkey",
+      "countryId": "Q43",
+      "place": "Constantinople",
+      "placeId": "Q16869",
+      "pleiadesId": "520998"
+    }
+  ],
+  "rivers": [
+    "Greek East",
+    "Latin West",
+    "Africa",
+    "Syriac East"
+  ],
+  "teaser": "Constantinople, 553. Bishops called by the emperor Justinian condemned the Three Chapters, writings tied to Theodore of Mopsuestia, Theodoret and Ibas, while Pope Vigilius, in the city, refused to attend.",
+  "knownFor": "The council of 553 that condemned the Three Chapters against the ruling of Pope Vigilius, who later gave way, and that Africa, Milan and Istria long refused.",
+  "datesNote": "553. The emperor's letter to the council is dated the fourth day before the Nones of May in his twenty-seventh year. The opening on 5 May 553 is Charles Joseph Hefele's dating, which Louis Duchesne also gives. Vigilius's ruling, the Constitutum, is dated the day before the Ides of May, which its editor Otto Günther gives as 14 May 553. No held source gives the date of the closing session",
+  "issue": [
+    "Justinian wanted the Three Chapters condemned: Theodore of Mopsuestia with his writings, Theodoret of Cyrrhus's writings against Cyril of Alexandria, and the letter said to be by Ibas of Edessa to Maris the Persian (the council's sentence; Bossuet, as printed by Henry Percival).",
+    "The emperor's case: the followers of Nestorius were bringing their errors into the church through Theodore (the emperor's letter, Session I; the sentence).",
+    "Before the council, Evagrius of Epiphania says, the question was put whether it was right to anathematize the dead; Eutychius, then envoy of the bishop of Amasea, answered with King Josiah, who \"broke up the sepulchres of those who had long been dead\" (Evagrius IV.38).",
+    "The other side's case: Facundus of Hermiane says Chalcedon's attackers, the Acephali, were working to have the Chapters condemned, though Chalcedon had judged the letter of Ibas catholic and Theodoret had upheld Leo's Tome there (Facundus, preface). Bossuet says Vigilius and the Western bishops feared the authority of Chalcedon would be destroyed.",
+    "On one side stood Justinian, Eutychius and the Eastern bishops; on the other, Vigilius for a time, the African bishops and Facundus. Victor of Tunnuna says the African bishops cut Vigilius off from communion in 550, after he first condemned the Chapters (Victor, under the year his editor gives as 550)."
+  ],
+  "calledBy": "The emperor Justinian. The sentence says the bishops met \"called thither by the will of God and the bidding of the most religious Emperor\", and Victor of Tunnuna says the synod was gathered at the emperor's order. Whether Vigilius consented is disputed: Hefele says the council opened without his assent; Evagrius says he \"gave his assent in writing to the assembling of the synod but declined attendance\"",
+  "attended": [
+    "Hefele names Eutychius of Constantinople as president, with Apollinaris of Alexandria, Domninus of Antioch, three bishops for Eustochius of Jerusalem, and 145 other metropolitans and bishops. No ancient witness held gives a count.",
+    "A Vienna manuscript heads its canons \"of the 165 holy Fathers\"; Percival reports that Hefele and others distrust the figure.",
+    "Vigilius was in Constantinople and refused to attend (the emperor's letter, in Hefele's digest; Session VII; Evagrius). Michael the Syrian, a Syriac Orthodox patriarch of the twelfth century, says the same, and names the three patriarchs present. Victor of Tunnuna alone lists Vigilius among those present.",
+    "No list of those present is held. No held source counts the Western or African bishops there."
+  ],
+  "traditions": [
+    {
+      "id": "byzantine-imperial-church-justinianic",
+      "name": "The Byzantine Imperial Church (Justinianic)",
+      "part": "Gathered",
+      "note": "Justinian called the council; Eutychius of Constantinople presided, by Hefele's account, with the bishops of Alexandria and Antioch."
+    },
+    {
+      "id": "antiochene-exegetical-christianity-chrysostom-ce",
+      "name": "Antiochene Exegetical Christianity",
+      "part": "Condemned",
+      "note": "The census row ends about 430, but the council condemned its teachers long after, as the census edge from the Justinianic church already records: Theodore of Mopsuestia and his writings, Theodoret's writings against Cyril, and the letter said to be by Ibas, with all who defend them (the sentence; anathemas XII to XIV)."
+    },
+    {
+      "id": "latin-africa-under-byzantium",
+      "name": "Latin African Christianity under Byzantium",
+      "part": "Refused",
+      "note": "Victor of Tunnuna tells of African bishops exiled for defending the Three Chapters, himself among them, and of a Roman deacon and an African abbot sent to the Thebaid for opposing the decrees."
+    },
+    {
+      "id": "the-church-of-the-east-under-persia",
+      "name": "The Church of the East under Persia",
+      "part": "Affected",
+      "note": "Jérôme Labourt reads the creed of the synod of Ishoyahb I, which he and Chabot date to 585, as arguing against all the Byzantine or Persian partisans of the fifth council. The same synod's canon in defense of \"saint Théodore\" names no council; Labourt takes it as aimed at the followers of Henana of Adiabene within the Persian church."
+    },
+    {
+      "id": "syriac-orthodox-west-syriac-christianity",
+      "name": "Syriac Orthodox (West Syriac) Christianity",
+      "part": "Affected",
+      "note": "Michael the Syrian, the Syriac Orthodox patriarch, tells the council from his church's side: Vigilius stayed away out of what he calls arrogance, and the synod confirmed the anathema on Origen and condemned Theodore, Theodoret and the letter of Ibas."
+    },
+    {
+      "id": "roman-church-gregorian",
+      "name": "The Roman Church in the Age of Gregory the Great",
+      "part": "Affected",
+      "note": "Vigilius gave way after the council and Pelagius I confirmed it, Percival says. Gregory the Great venerated the fifth council but told Constantius of Milan it touched persons, not the faith."
+    }
+  ],
+  "decided": [
+    "The Three Chapters are anathematized: \"the impious Theodore of Mopsuestia, with his execrable writings, and those things which Theodoret impiously wrote, and the impious letter which is said to be of Ibas, and their defenders\" (the sentence, headed Collation VIII in the English extracts).",
+    "Fourteen anathemas set out the faith; I to X concern Christ as one person; XI anathematizes Arius, Eunomius, Macedonius, Apollinaris, Nestorius, Eutyches \"and Origen\"; XII to XIV condemn any who defend Theodore, Theodoret's writings or the letter of Ibas (the capitula; Evagrius counts fourteen chapters).",
+    "At the emperor's order the name of Vigilius was to be \"no more inserted in the holy diptychs\", while the bishops said they would \"preserve unity to (ad) the Apostolic See\" of Rome (Session VII, given in full only in the Paris manuscript).",
+    "Whether the council also passed fifteen anathemas against Origen is disputed: Evagrius says Origen was condemned; Hefele puts the fifteen at a synod of 543; Percival leaves it open."
+  ],
+  "outcome": [
+    "Vigilius gave way in a letter to Eutychius dated the sixth day before the Ides of December, condemning Theodore, Theodoret's writings and the letter of Ibas; its genuineness was doubted by Harduin, but \"the learned have not generally been of this mind\" (the decretal letter and its note, in Percival).",
+    "Vigilius died in Sicily on his way home (the Book of the Popes; Victor of Tunnuna, who says he died excommunicated by the whole African church). Pelagius, who as deacon had signed the Constitutum, returned from exile, condemned the Chapters and was made bishop of Rome (Victor).",
+    "In Africa, Victor of Tunnuna tells of exiles: Rusticus, a Roman deacon, and Felix, abbot of Gillitanum, to the Thebaid; Frontinus to Antinoe; and Victor himself to Egypt (Victor's chronicle).",
+    "Percival says the African opposition died out by 559, Milan was in schism until 571, and part of Istria until the Council of Aquileia in 700. Pope Pelagius II's letter to the Istrian bishops, held in Latin, presses them to give up the Chapters.",
+    "Jérôme Labourt, a French historian of the church in Persia, reads the creed of the synod of Ishoyahb I in 585 as arguing against the council's Byzantine and Persian partisans; the same synod defended the books and teaching of Theodore, against men Labourt takes to be Henana of Adiabene's followers.",
+    "Michael the Syrian, a Syriac Orthodox patriarch of the twelfth century, says Vigilius was in the city but did not come, on the pretext that he would be slighted if counted with the three patriarchs, which Michael calls the height of arrogance (Michael, Chronicle IX).",
+    "Gregory the Great wrote that he venerated the fifth council, and later told Constantius of Milan that the synod \"called by many the fifth\" did nothing \"with respect to the faith, but only with respect to persons\" (Gregory, Letters I.25 and to Constantius)."
+  ],
+  "record": [
+    {
+      "witness": "The acts of the Fifth Council: the emperor's letter, Sessions I and VII, the sentence and the fourteen anathemas, in English extracts",
+      "kind": "acts",
+      "note": "The record of the side that won. The full acts (Mansi, tomus 9) are not held. Percival notes that the Roman and Paris manuscripts differ, and that some of the most injurious things to Vigilius are only in the Paris one."
+    },
+    {
+      "witness": "Justinian, letter to the council (read in Session I)",
+      "kind": "participant",
+      "note": "The emperor who called the council; partisan for it. Parts of the English are Hefele's condensed digest, not a full translation."
+    },
+    {
+      "witness": "Vigilius, Constitutum on the Three Chapters (Collectio Avellana, letter 83), and his later letter to Eutychius",
+      "kind": "participant",
+      "note": "The pope's own ruling against condemning the dead, signed by sixteen bishops, one more by proxy and three Roman clergy; then his letter giving way."
+    },
+    {
+      "witness": "Facundus of Hermiane, In Defence of the Three Chapters",
+      "kind": "participant",
+      "note": "An African bishop at Constantinople during the dispute; the defenders' case in their own words, in Latin."
+    },
+    {
+      "witness": "Victor of Tunnuna, Chronicle",
+      "kind": "later narrative",
+      "note": "An African bishop exiled for the Three Chapters, writing year by year; hostile to Vigilius and to the council."
+    },
+    {
+      "witness": "Evagrius of Epiphania, Ecclesiastical History IV.38",
+      "kind": "later narrative",
+      "note": "Written in the 590s on Chalcedon's side; tells the Eutychius episode and counts fourteen chapters."
+    },
+    {
+      "witness": "The Book of the Popes, life of Vigilius (Loomis's English)",
+      "kind": "later narrative",
+      "note": "A papal biography Louise Loomis calls full of mistakes; on Vigilius's death in Sicily."
+    },
+    {
+      "witness": "Synodicon orientale (Chabot's French)",
+      "kind": "later narrative",
+      "note": "The Church of the East's own synods. Its synod of 585 has a canon defending Theodore that names no council; it is not an account of the fifth council."
+    },
+    {
+      "witness": "Michael the Syrian, Chronicle, Book IX (Chabot's French)",
+      "kind": "later narrative",
+      "note": "A Syriac Orthodox patriarch of Antioch, writing in the twelfth century from earlier sources; hostile to Vigilius and to Chalcedon, but tells the council's condemnations without rejecting them."
+    },
+    {
+      "witness": "Gregory the Great, letters (Barmby's English)",
+      "kind": "later narrative",
+      "note": "Rome's later reception: he venerates a fifth council, and tells Milan it touched persons, not the faith."
+    },
+    {
+      "witness": "Charles Joseph Hefele, with Bossuet and Fleury, as printed by Henry R. Percival (Nicene and Post-Nicene Fathers, series 2, vol. 14)",
+      "kind": "modern reconstruction",
+      "note": "Supplies the opening date, the president, the count of 145 bishops and the sequence. Percival's own notes weigh the manuscripts, the Origen question and what followed."
+    },
+    {
+      "witness": "Louis Duchesne, Liber Pontificalis commentary",
+      "kind": "modern reconstruction",
+      "note": "Gives 5 May 553 for the opening and, from a Verona catalog, 7 June 555 for Vigilius's death."
+    },
+    {
+      "witness": "Jérôme Labourt, Le christianisme dans l'empire perse (1904)",
+      "kind": "modern reconstruction",
+      "note": "A French historian of the church in Persia; reads the 585 creed as aimed at the fifth council's partisans, and the Theodore canon as aimed at Henana's followers."
+    }
+  ],
+  "people": [
+    {
+      "name": "Justinian I",
+      "id": "justinian-i",
+      "verdict": "WHO",
+      "part": "Emperor; called the council and wrote to it; ordered Vigilius's name struck from the diptychs"
+    },
+    {
+      "name": "Vigilius of Rome",
+      "id": "vigilius-of-rome",
+      "verdict": "WHO",
+      "part": "In the city but refused to attend; issued the Constitutum on 14 May; gave way in a later letter"
+    },
+    {
+      "name": "Theodoret of Cyrrhus",
+      "id": "theodoret-of-cyrrhus",
+      "verdict": "WHO",
+      "part": "Long dead; his writings against Cyril condemned"
+    },
+    {
+      "name": "Origen",
+      "id": "origen",
+      "verdict": "WHO",
+      "part": "Long dead; named in the eleventh anathema"
+    },
+    {
+      "name": "Victor of Tunnuna",
+      "id": "victor-of-tunnuna",
+      "verdict": "WHO",
+      "part": "Not present; African bishop exiled for defending the Chapters; chronicler of the resistance"
+    },
+    {
+      "name": "Primasius of Hadrumetum",
+      "verdict": "WHO",
+      "part": "African bishop; signed Vigilius's Constitutum"
+    },
+    {
+      "name": "Theodore of Mopsuestia",
+      "verdict": "LISTED",
+      "part": "Long dead; he and his writings condemned"
+    },
+    {
+      "name": "Facundus of Hermiane",
+      "verdict": "STORY",
+      "part": "African bishop at Constantinople; wrote twelve books in defense of the Chapters"
+    },
+    {
+      "name": "Reparatus of Carthage",
+      "verdict": "STORY",
+      "part": "Not present; summoned to the capital in 551 and exiled for refusing to condemn the Chapters"
+    },
+    {
+      "name": "Gregory the Great",
+      "id": "gregory-the-great",
+      "verdict": "WHO",
+      "part": "Not present; as bishop of Rome tried to bring the Istrian bishops back to communion, by James Barmby's account, and venerated the council"
+    },
+    {
+      "name": "Pelagius II of Rome",
+      "verdict": "LISTED",
+      "part": "Not present; pressed the bishops of Istria to give up the Chapters"
+    },
+    {
+      "name": "Eutychius of Constantinople",
+      "verdict": "NOT SCORED",
+      "part": "Bishop of the capital; presided, by Hefele's account; answered the question of cursing the dead"
+    },
+    {
+      "name": "Ibas of Edessa",
+      "verdict": "NOT SCORED",
+      "part": "Long dead; the letter said to be his condemned"
+    },
+    {
+      "name": "Pelagius I of Rome",
+      "verdict": "NOT SCORED",
+      "part": "As deacon signed the Constitutum; later condemned the Chapters and became bishop of Rome"
+    }
+  ],
+  "briefLength": "about 2 minutes 30 seconds",
+  "uncertain": [
+    "The Library holds only English extracts of the acts. The winners kept the record; the losing side speaks in Vigilius's Constitutum, in Facundus and in Victor of Tunnuna. Percival notes that the manuscripts differ and that the Constantinople copy was tampered with.",
+    "The opening date, 5 May 553, is Hefele's and Duchesne's; the emperor's letter itself is dated the fourth day before the Nones of May.",
+    "The count of bishops is Hefele's; a Vienna manuscript says 165, which Hefele and others distrust. No ancient witness held gives a count.",
+    "Who presided: Hefele names Eutychius. The editor of Gregory's letters in the same series writes of the council as held under the emperor's presidency. Justinian wrote to the council and sent his quaestor Constantine to speak for him in Session VII.",
+    "Whether Vigilius attended: the acts, Evagrius and Michael the Syrian say he stayed away; Victor of Tunnuna lists him among those present.",
+    "Whether the council passed fifteen anathemas against Origen: Evagrius says Origen was condemned with special anathemas, and Michael the Syrian that the synod confirmed the anathema on Origen that Justinian himself had pronounced; Hefele assigns the fifteen to a synod of 543; Percival leaves it open, though he holds Origen's name in the eleventh anathema to be genuine.",
+    "Whether Vigilius's letter giving way is genuine: Harduin doubted it; Percival says the learned have accepted it. Its date line gives a regnal year that does not match the emperor's letter.",
+    "When and where Vigilius died: Sicily, in the Book of the Popes and in Victor; Victor files it under the year his editor gives as 557; Percival gives the end of 554 or the start of 555; Duchesne, from a Verona catalog, 7 June 555.",
+    "Whether Vigilius consented to the meeting: Hefele says it opened without his assent; Evagrius says he assented in writing but would not attend; the council's sentence says he had given his consent in writing to be present.",
+    "Whether the Church of the East answered the council: its synod of 585 defends Theodore without naming the council; the link is Labourt's reading of the synod's creed."
+  ],
+  "sources": {
+    "fromTheCouncil": [
+      {
+        "title": "The Fifth Ecumenical Council: the emperor's letter, extracts from Sessions I and VII, the sentence and the capitula",
+        "author": "Second Council of Constantinople, ed. Henry R. Percival",
+        "language": "English translation",
+        "file": "cic/texts/npnf214_seven-ecumenical-councils.xml"
+      }
+    ],
+    "fromThoseThere": [
+      {
+        "title": "Constitutum de tribus capitulis (Collectio Avellana, letter 83)",
+        "author": "Vigilius of Rome",
+        "language": "Latin",
+        "file": "cic/texts/collectio-avellana_epistulae-imperatorum-pontificum-v1-lat_guenther1895.txt"
+      },
+      {
+        "title": "Decretal letter to Eutychius",
+        "author": "Vigilius of Rome",
+        "language": "English translation",
+        "file": "cic/texts/npnf214_seven-ecumenical-councils.xml"
+      },
+      {
+        "title": "Pro defensione trium capitulorum",
+        "author": "Facundus of Hermiane",
+        "language": "Latin",
+        "file": "cic/texts/facundus-ferrandus-caesarius-dionysius-pl67-lat_migne1865.txt"
+      }
+    ],
+    "writtenLater": [
+      {
+        "title": "Chronicle",
+        "author": "Victor of Tunnuna, ed. Theodor Mommsen",
+        "language": "Latin",
+        "file": "cic/texts/chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894.txt"
+      },
+      {
+        "title": "Chronique, tome II (Book IX)",
+        "author": "Michael the Syrian, trans. Jean-Baptiste Chabot",
+        "language": "French translation",
+        "file": "cic/texts/michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt"
+      },
+      {
+        "title": "Ecclesiastical History, Book IV",
+        "author": "Evagrius of Epiphania (Evagrius Scholasticus)",
+        "language": "English translation",
+        "file": "cic/texts/evagrius-scholasticus_ecclesiastical-history_walford1846.txt"
+      },
+      {
+        "title": "The Book of the Popes, life of Vigilius",
+        "author": "trans. Louise Ropes Loomis",
+        "language": "English translation",
+        "file": "cic/texts/liber-pontificalis_book-of-the-popes-v1_loomis1916.txt"
+      },
+      {
+        "title": "Le Liber Pontificalis, tome 1 (commentary on Vigilius)",
+        "author": "ed. Louis Duchesne",
+        "language": "Latin and French",
+        "file": "cic/texts/liber-pontificalis_texte-introduction-commentaire-t1-lat-fra_duchesne1886.txt"
+      },
+      {
+        "title": "Synodicon orientale, ou recueil de synodes nestoriens",
+        "author": "ed. Jean-Baptiste Chabot",
+        "language": "Syriac with French translation",
+        "file": "cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt"
+      },
+      {
+        "title": "Letters (Book I.25; to Constantius of Milan)",
+        "author": "Gregory the Great",
+        "language": "English translation",
+        "file": "cic/texts/npnf212_leo-great-gregory-great.xml"
+      },
+      {
+        "title": "Registrum epistolarum, Appendix III: Pelagius II to the bishops of Istria",
+        "author": "Pelagius II, ed. Ewald and Hartmann",
+        "language": "Latin",
+        "file": "cic/texts/gregory-great_registrum-epistolarum-t2-pars2-libri-10-14-lat_ewald-hartmann1895.txt"
+      },
+      {
+        "title": "Historical introduction, excursuses and notes to the Fifth Council",
+        "author": "Henry R. Percival, quoting Hefele, Bossuet and Fleury",
+        "language": "English",
+        "file": "cic/texts/npnf214_seven-ecumenical-councils.xml"
+      },
+      {
+        "title": "Le christianisme dans l'empire perse sous la dynastie sassanide",
+        "author": "Jérôme Labourt",
+        "language": "French",
+        "file": "cic/texts/labourt_le-christianisme-dans-l-empire-perse-sassanide-fra_1904.txt"
+      }
+    ]
+  }
+}
