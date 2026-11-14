@@ -1,0 +1,16 @@
+# Who profiles: era 3, batch 7
+
+Eight profiles, one id each: `avitus-of-vienne`, `philoxenus-of-mabbug`, `boethius`, `fulgentius-of-ruspe`, `eugippius`, `john-of-beth-aphthonia`, `ciaran-of-clonmacnois`, `primasius-of-hadrumetum`.
+
+They are the first eight of the fifteen remaining era 3 WHO rows of the supplement Who scan, `Build/Ministry/Operations/Audits/2026-11-12_who-scan-supplement/Who_Scan_Supplement.md`, in order of the best date the held sources give for death or last mention: Avitus of Vienne (518, by the Library header; no held source gives a year), Philoxenus of Mabbug (523, by the Library header and François Nau), Boethius (524, Marius of Avenches), Fulgentius of Ruspe (529 or 533, as Andrea Gallandi reports Baronius and Chifflet), Eugippius (about 535, by the Library header only), John of Beth Aphthonia (538, by the Library header), Ciaran of Clonmacnois (544, John Williams ab Ithel's margin to the Annales Cambriae) and Primasius of Hadrumetum (last seen in May 553, at his signature to Vigilius's Constitutum). None is a live person entry or was written before. The other seven, Dionysius Exiguus, Liberatus of Carthage, Brendan of Clonfert, Martin of Braga, Marius of Avenches, Barhadbeshabba 'Arbaya and John Climacus, go to batch 8. Many of the scan's years rest on no held line, so the cards give the years the held sources give and say whose they are.
+
+The coordinator confirmed the major marks on 2026-11-14: Boethius, Philoxenus of Mabbug and Fulgentius of Ruspe are major; Avitus of Vienne, Eugippius, John of Beth Aphthonia, Ciaran of Clonmacnois and Primasius of Hadrumetum are not. Eugippius and John of Beth Aphthonia are Whos as recorders. Ciaran of Clonmacnois is a founder known through a late Life, which the brief marks as the house's own telling. Primasius's surrender and death are known only from Victor of Tunnuna, who wrote against him, and the brief says so.
+
+John of Beth Aphthonia is the author of the second Life of Severus of Antioch. Whether he is the archimandrite John bar Aphthonia of Kenneshre is disputed: M.-A. Kugener calls that attribution false, and J.-B. Chabot and François Nau take the two as one. The brief and card state the dispute and keep the two men's facts apart.
+
+| File | Holds |
+|---|---|
+| `<id>.brief.txt` | The brief as text, with no audio tags. Paragraphs are separated by a blank line. |
+| `<id>.card.json` | The card. Its fields are `name`, `otherNames`, `knownFor`, `dates`, `place`, `tradition`, `role`, `briefLength`, `keyWorks` (title, about), `legacy` (`traces`, `remembered`), `uncertain`, and `sources` (`ownWords`, `about`; each entry gives a title, an author where one applies, a language and its file under `cic/texts/`). A field with no content is left out. |
+| `audio/<id>.audio.txt` | The text sent to the voice: the brief with `[calmly]` at the start and `[warmly]` before the closing line. |
+| `records.json` | For each id, `claims` (claim, witness, `formation_confidence`), `contested_claims` (claim, sides), and `absent_details` (detail, note) for the honest limits. |

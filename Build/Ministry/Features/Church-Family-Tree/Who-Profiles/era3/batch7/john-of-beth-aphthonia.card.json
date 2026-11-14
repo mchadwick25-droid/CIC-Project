@@ -1,0 +1,133 @@
+{
+  "name": "John of Beth Aphthonia",
+  "otherNames": [
+    "John of Beth-Aphthonia",
+    "Jean, supérieur du saint monastère de Beith-Aphthonia"
+  ],
+  "knownFor": "Writer of a Life of Severus of Antioch, written in Greek at the request of Dometios and kept in a Syriac translation, whose heading calls him John, superior of the monastery of Beith-Aphthonia. M.-A. Kugener keeps him apart from the archimandrite John bar Aphthonia of Kenneshre, while J.-B. Chabot, R. Duval and E. W. Brooks give the Life to the archimandrite.",
+  "dates": "No source used here gives the years of the writer of the Life. The archimandrite John bar Aphthonia died on 4 November, in a Syriac chronicle extract that M.-A. Kugener prints in the same entry as Severus's death on 8 February of the year 849; Elias of Nisibis puts his death in the year 850. The chronicle under Zachariah's name dates the expulsion that brought his monks to Kenneshre from the year three to the year nine, which its translators read as 525 to 531",
+  "place": "Beith-Aphthonia, by the heading of the Life; Peter the Iberian's monastery near Gaza, where the writer says he knew John the Canopite. The archimandrite John bar Aphthonia was a native of Edessa and settled the monks of Saint Thomas of Seleucia at Kenneshre on the Euphrates, a house Michael the Syrian calls the monastery of Bar Aphtonia",
+  "tradition": "Syriac Orthodox (West Syriac) Christianity",
+  "role": "Monastic superior; biographer of Severus of Antioch",
+  "briefLength": "about 2 minutes",
+  "keyWorks": [
+    {
+      "title": "Life of Severus",
+      "about": "written in Greek for Dometios, who later became a bishop, and translated into Syriac by the abbot Mar Sergios; it tells Severus's life from his birth at Sozopolis to his last letter and his death, and the writer says he has written no eulogy. Kugener edits it from a Berlin manuscript he dates probably to the ninth century and a London one that William Wright dates to the eleventh"
+    },
+    {
+      "title": "Hymns on Severus, by John bar Aphthonia",
+      "about": "three of the four hymns on Severus in Severus's own hymn book, the Octoechus, which a heading gives to John bar Aphthonia, the first abbot of Kenneshre; they survive in the abbot Paul's Syriac version as revised by Jacob of Edessa, in a manuscript of 675"
+    },
+    {
+      "title": "Record of the debates at Constantinople, by John bar Aphthonia",
+      "about": "his written account of the talks that the bishops who refused Chalcedon held in the capital for more than a year, at the emperor's command, which the chronicle under Zachariah's name and Michael the Syrian say he wrote; no copy is among the sources used here"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "A pottery fragment from the Monastery of Epiphanius at Thebes carries a passage \"From the Biography of Severus of Antioch, by John of Beth-Aphthonia\", in W. E. Crum's English. Crum notes another extract of the work, Rylands 99, and a further fragment in the Munich Library.",
+      "The Syriac chronicle under the name of Dionysius of Tell-Mahre and Michael the Syrian copied passages of the Life into their chronicles, Kugener says.",
+      "The house at Kenneshre became a place of Greek learning. Bar Hebraeus says Thomas of Harkel was taught Greek as a boy in the Kenneshre monastery, and Michael the Syrian and Bar Hebraeus say Jacob of Edessa studied Greek at the monastery of Aphthonia, which Bar Hebraeus also calls the Kenneshre monastery."
+    ],
+    "remembered": [
+      "Severus of Antioch, in a letter to Andrew the reader and notary, answers a question about \"the letter addressed to father John the son of Aphthonia\".",
+      "A line in a Syriac chronicle extract names John Bar Aphthonia among the famous men of his time; Kugener takes it for a note later slipped into the text.",
+      "Elias of Nisibis, in his chronicle, calls John son of Aphthonia a teacher of the Jacobites."
+    ]
+  },
+  "uncertain": [
+    "Which John wrote the Life. The heading names John, superior of the monastery of Beith-Aphthonia, and the writer calls himself small and not learned in letters. One manuscript of about the eleventh century, which holds a short extract, gives the Life to John bar Aphthonia, and Kugener calls that attribution false. The Life tells of the death of the archimandrite John bar Aphthonia as another man's. Assemani names two Johns as abbots of the Kenneshre house. J.-B. Chabot and R. Duval say a fragment in Michael the Syrian probably comes from the Life written by John bar Aphthonia, and E. W. Brooks calls the writer John, archimandrite of Kenneshre. Kugener promised an introduction on these questions, and it is not among the sources used here.",
+    "Beth Aphthonia and Kenneshre. That the writer's Beith-Aphthonia is the Kenneshre house rests on Michael the Syrian's name for it, the monastery of Bar Aphtonia called of Qenneshre, and on E. W. Brooks's note on John of Ephesus. John of Ephesus also names a monastery of Aphthonia at Charrhae.",
+    "When the archimandrite died. The chronicle extract Kugener prints gives 4 November, in the entry for Severus's death in the year 849. Michael the Syrian says he died in the same year as John son of Cyriacus. Elias of Nisibis puts his death in 850, the year after Severus's. The Life puts it fifteen days after Severus's last letter, before Severus died.",
+    "His earlier work. The chronicle under Zachariah's name calls the archimandrite \"an ex-pleader (?)\", and its translators doubt the word suits the passage. Michael the Syrian calls him John the Rhetor.",
+    "Dometios. The Life says he later became a bishop, and no source used here gives his see.",
+    "The translator. The closing note of the Life names the abbot Mar Sergios, son of Charia, and Kugener marks the second name with a query."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Vie de Sévère par Jean, supérieur du monastère de Beith-Aphthonia, in Patrologia Orientalis 2 (ed. and tr. M.-A. Kugener)",
+        "language": "French translation",
+        "file": "cic/texts/zacharias-scholasticus_vie-de-severe-po2-syr-fra_kugener1903.txt"
+      },
+      {
+        "title": "Poésies sur Sévère: hymns by John bar Aphthonia, in Patrologia Orientalis 2 (tr. M.-A. Kugener)",
+        "language": "French translation",
+        "file": "cic/texts/zacharias-scholasticus_vie-de-severe-po2-syr-fra_kugener1903.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Avertissement and notes to the Life of Severus by John",
+        "author": "M.-A. Kugener",
+        "date": "1903",
+        "language": "French",
+        "file": "cic/texts/zacharias-scholasticus_vie-de-severe-po2-syr-fra_kugener1903.txt"
+      },
+      {
+        "title": "The Syriac Chronicle known as that of Zachariah of Mitylene, Books VIII and IX (tr. F. J. Hamilton and E. W. Brooks)",
+        "author": "The chronicle's later compiler",
+        "date": "1899",
+        "language": "English translation",
+        "file": "cic/texts/zachariah-rhetor_chronicle_hamiltonbrooks1899.txt"
+      },
+      {
+        "title": "Chronique, tome 2, with notes (tr. J.-B. Chabot)",
+        "author": "Michael the Syrian",
+        "date": "1901",
+        "language": "French translation",
+        "file": "cic/texts/michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt"
+      },
+      {
+        "title": "Opus chronologicum (Latin tr. E. W. Brooks and J.-B. Chabot)",
+        "author": "Elias of Nisibis",
+        "date": "1910",
+        "language": "Latin translation",
+        "file": "cic/texts/elias-of-nisibis_opus-chronologicum-lat_brooks-chabot-csco1910.txt"
+      },
+      {
+        "title": "The Sixth Book of the Select Letters of Severus, part 1, Introduction (tr. E. W. Brooks)",
+        "author": "E. W. Brooks",
+        "date": "1903",
+        "language": "English",
+        "file": "cic/texts/severus-of-antioch_select-letters-book6-part1_brooks1903.txt"
+      },
+      {
+        "title": "The Sixth Book of the Select Letters of Severus, part 2, letter VIII.5 (tr. E. W. Brooks)",
+        "author": "Severus of Antioch",
+        "date": "1904",
+        "language": "English translation",
+        "file": "cic/texts/severus-of-antioch_select-letters-book6-part2_brooks1904.txt"
+      },
+      {
+        "title": "Lives of the Eastern Saints, with notes, in Patrologia Orientalis 19 (tr. E. W. Brooks)",
+        "author": "John of Ephesus",
+        "date": "1926",
+        "language": "English translation",
+        "file": "cic/texts/john-ephesus_lives-eastern-saints-po19-mixed-issue_brooks1926.txt"
+      },
+      {
+        "title": "The Monastery of Epiphanius at Thebes, part 2, ostracon 81",
+        "author": "W. E. Crum",
+        "date": "1926",
+        "language": "English",
+        "file": "cic/texts/monastery-of-epiphanius-thebes-pt2-coptic-ostraca_crum1926.txt"
+      },
+      {
+        "title": "Récentes publications syriaques, in Journal asiatique, 1903",
+        "author": "R. Duval",
+        "date": "1903",
+        "language": "French",
+        "file": "cic/texts/theopistus_histoire-de-dioscore-journal-asiatique-1903-fra_nau1903.txt"
+      },
+      {
+        "title": "Bibliotheca Orientalis, volume 1",
+        "author": "J. S. Assemani",
+        "date": "1719",
+        "language": "Latin",
+        "file": "cic/texts/assemani_bibliotheca-orientalis-tomus1-de-scriptoribus-syris-orthodoxis-lat_1719.txt"
+      }
+    ]
+  }
+}

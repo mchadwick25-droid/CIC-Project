@@ -1,0 +1,135 @@
+{
+  "name": "Boethius",
+  "otherNames": [
+    "Anicius Manlius Severinus Boethius",
+    "Boetius"
+  ],
+  "knownFor": "Roman senator and consul under Theodoric, the Ostrogothic king of Italy, who put Greek philosophy and mathematics into Latin, wrote short books on the Trinity and on the person of Christ, and wrote the Consolation of Philosophy after he was condemned for treason.",
+  "dates": "Born about 480, in the reckoning of his editors H. F. Stewart and E. K. Rand and of Thomas Hodgkin, who says not earlier than that year. Consul in 510 and put to death in 524, in Stewart and Rand's dates and in the years Theodor Mommsen sets beside the consuls in his editions of the chronicles; Marius of Avenches dates the death by the consulship of Justin and Opilio. No ancient source used here gives the year of his birth",
+  "place": "Rome, where Stewart and Rand say he was born; Pavia, where they say he was imprisoned; the district of Milan, where Marius of Avenches says he was killed",
+  "tradition": "The Byzantine Imperial Church (Justinianic)",
+  "role": "Senator, consul and master of offices; philosopher, translator and theologian",
+  "briefLength": "about 2.5 minutes",
+  "keyWorks": [
+    {
+      "title": "The Consolation of Philosophy (Philosophiae Consolatio), in five books",
+      "about": "written after his condemnation, in prose and verse; Philosophy comes to him as a woman, hears his account of his fall and the charges, and leads him from Fortune's wheel to God, \"who beholdeth all things\", in the English of I. T. (1609) revised by H. F. Stewart"
+    },
+    {
+      "title": "Theological Tractates (Opuscula Sacra), five short books",
+      "about": "on the Trinity, on how substances are good, on the Catholic faith, and against Eutyches and Nestorius, where he defines a person and argues for two natures in one person in Christ; the first is addressed to his father-in-law Symmachus and three to John the Deacon"
+    },
+    {
+      "title": "Latin translations and handbooks",
+      "about": "versions of Porphyry's Isagoge and Aristotle's logic, with commentaries, and handbooks on arithmetic and music, in Stewart and Rand's account; a letter of Theodoric's written by Cassiodorus names Pythagoras, Ptolemy, Nicomachus, Euclid, Plato, Aristotle and Archimedes among those he put into Latin"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Isidore of Seville names him, after Apuleius, as the translator of Nicomachus on arithmetic into Latin.",
+      "Alcuin of York cites his book on the unity of Father, Son and Holy Spirit as a witness that the Spirit proceeds from the Father and the Son.",
+      "Thomas Aquinas opens his article on the definition of a person in the Summa of Theology with the definition \"Boetius assignat\": \"Persona est rationalis naturae individua substantia.\""
+    ],
+    "remembered": [
+      "Procopius of Caesarea says Symmachus and his son-in-law Boetius \"practised philosophy and were mindful of justice in a manner surpassed by no other men\", and calls their deaths Theodoric's \"first and last act of injustice\" toward his subjects.",
+      "Stewart and Rand call him \"the last of the Roman philosophers, and the first of the scholastic theologians\", and quote Gibbon calling the Consolation \"a golden volume\", worthy of the leisure of Plato or Cicero.",
+      "The Bollandists, in the Acta Sanctorum of 1739, list him under 27 May with Pope John I as a martyr at Pavia, and print the Roman Martyrology's entry for him there."
+    ]
+  },
+  "uncertain": [
+    "His fall and death. The scene before the king comes from the Anonymus Valesianus, whose author Theodor Mommsen calls a fierce enemy of the Arians, and Boethius's own account in the Consolation is the account of the accused man. The witnesses differ on his death. The Anonymus Valesianus says he was tortured with a cord on his forehead and clubbed to death at a place it calls the ager Calventianus. The Book of the Popes says the king killed him and Symmachus with the sword. Agnellus of Ravenna, in a passage Mommsen prints, says the two were beheaded with axes. Marius of Avenches puts it in the district of Milan. The Bollandists report that the account of the Anonymus Valesianus is doubted, since others say the sword.",
+    "The charges. Boethius says he was accused of wanting the Senate's safety, of hindering an accuser, of hoping for Roman liberty in forged letters, and of sacrilege. The Anonymus Valesianus says Cyprian, an official at the king's court, charged the patrician Albinus with sending letters against the king to the emperor Justin. Procopius says enemies slandered Symmachus and Boethius as plotting a revolution. Thomas Hodgkin reads a later letter of Cassiodorus to an Opilio, whom he takes to be the accuser of that name, as leaning toward the accusers.",
+    "The order of events. The Book of the Popes has him killed while Pope John I was at Constantinople. In the Anonymus Valesianus his death comes before the king sends for the pope.",
+    "The theological books. Thomas Hodgkin reports that recent scholars had grave doubts that the tractates were his, grown almost to certainty that he did not write them, and that Charles Jourdain gave them to an African bishop named Boethus. Hodgkin answers from a fragment that names a book on the Trinity, some dogmatic chapters and a book against Nestorius; he says it was excerpted by a later hand from a tract of Cassiodorus. Hodgkin also sets aside the fourth tractate, on the Catholic faith, since the earlier manuscripts do not give it to Boethius. Stewart and Rand accept all five, and say one of them had argued against the fourth before.",
+    "His faith. Hodgkin notes that the Consolation never names Christ and calls its tone that of a theist, yet says Boethius professed himself a Christian and died in full communion with the Catholic Church. Stewart and Rand say he was \"without doubt a Christian, a Doctor and perhaps a martyr\". No ancient source used here calls him a martyr; the title comes from the Bollandists and the Roman Martyrology they print.",
+    "His family. Hodgkin makes the consul of 487 his father and names his sons Symmachus and Boethius; the consular lists give a consul Boethius for 487 and the pair Symmachus and Boethius for 522 without saying how they were related to him. Procopius names his wife Rusticiana, the daughter of Symmachus, and Boethius himself does not name her. Stewart and Rand call the tradition of a first wife named Elpis supposititious. Hodgkin's birth year rests chiefly on the Paraenesis of Ennodius, which is not among the sources used here.",
+    "His name. Thomas Hodgkin thinks the name Severinus was given him in honor of Severinus of Noricum; G. W. Robinson repeats this as a conjecture."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "The Theological Tractates (Latin, with English tr. H. F. Stewart and E. K. Rand)",
+        "language": "Latin, with English translation",
+        "file": "cic/texts/boethius_theological-tractates-consolation_stewart-rand1918.txt"
+      },
+      {
+        "title": "The Consolation of Philosophy (Latin, with the English of I. T., 1609, revised by H. F. Stewart)",
+        "language": "Latin, with English translation",
+        "file": "cic/texts/boethius_theological-tractates-consolation_stewart-rand1918.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Introduction and notes to The Theological Tractates and The Consolation of Philosophy",
+        "author": "H. F. Stewart and E. K. Rand",
+        "date": "1918",
+        "language": "English",
+        "file": "cic/texts/boethius_theological-tractates-consolation_stewart-rand1918.txt"
+      },
+      {
+        "title": "Anonymus Valesianus, later part, with the editor's introduction, and the excerpts from Agnellus, in Chronica Minora 1",
+        "author": "Anonymous; Theodor Mommsen (ed.)",
+        "date": "1892",
+        "language": "Latin",
+        "file": "cic/texts/prosper_chronica-minora-1-lat_mommsen1892.txt"
+      },
+      {
+        "title": "Chronicle, year of Justin and Opilio, in Chronica Minora 2, with the consular lists of Marcellinus Comes, Victor of Tunnuna and Cassiodorus",
+        "author": "Marius of Avenches",
+        "language": "Latin",
+        "file": "cic/texts/chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894.txt"
+      },
+      {
+        "title": "The Letters of Cassiodorus, with the translator's introduction (condensed tr. Thomas Hodgkin)",
+        "author": "Cassiodorus; Thomas Hodgkin",
+        "date": "1886",
+        "language": "English translation",
+        "file": "cic/texts/cassiodorus_variae-letters-hodgkin1886.txt"
+      },
+      {
+        "title": "The Book of the Popes, Life of John I (tr. Louise Ropes Loomis)",
+        "author": "Liber Pontificalis",
+        "date": "1916",
+        "language": "English translation",
+        "file": "cic/texts/liber-pontificalis_book-of-the-popes-v1_loomis1916.txt"
+      },
+      {
+        "title": "History of the Wars, books V and VI (tr. H. B. Dewing)",
+        "author": "Procopius of Caesarea",
+        "language": "English translation",
+        "file": "cic/texts/procopius_wars-5-6-gothic_dewing1919.txt"
+      },
+      {
+        "title": "History of the Wars, book VII (tr. H. B. Dewing)",
+        "author": "Procopius of Caesarea",
+        "language": "English translation",
+        "file": "cic/texts/procopius_wars-6-16-7-35-gothic-grc-eng_dewing1924.txt"
+      },
+      {
+        "title": "Acta Sanctorum, May, volume 6, 27 May",
+        "author": "The Bollandists",
+        "date": "1739",
+        "language": "Latin",
+        "file": "cic/texts/acta-sanctorum_maii-tomus-6-lat_1739.txt"
+      },
+      {
+        "title": "Etymologies, book III (tr. Ernest Brehaut)",
+        "author": "Isidore of Seville",
+        "language": "English translation",
+        "file": "cic/texts/isidore-seville_encyclopedist-of-the-dark-ages-extracts_brehaut1912.txt"
+      },
+      {
+        "title": "On the Procession of the Holy Spirit, in Patrologia Latina 100-101",
+        "author": "Alcuin of York",
+        "language": "Latin",
+        "file": "cic/texts/alcuin_opera-omnia-letters_migne-pl100-101_1863.txt"
+      },
+      {
+        "title": "Summa of Theology, part I, question 29, article 1 (Leonine edition, volume 4)",
+        "author": "Thomas Aquinas",
+        "language": "Latin",
+        "file": "cic/texts/thomas-aquinas_opera-omnia-t4-summa-theologiae-lat_leonine1888.txt"
+      }
+    ]
+  }
+}

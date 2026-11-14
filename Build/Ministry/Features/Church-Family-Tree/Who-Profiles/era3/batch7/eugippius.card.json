@@ -1,0 +1,122 @@
+{
+  "name": "Eugippius",
+  "otherNames": [
+    "Eugipius",
+    "Eugyppius"
+  ],
+  "knownFor": "Priest and head of the monastery at the tomb of Severinus of Noricum, in the Lucullan castle at Naples, who wrote the Life of Severinus from the accounts of the elder monks and gathered a book of passages from Augustine for a holy woman named Proba.",
+  "dates": "Flourished after the consulship of Importunus, while Anastasius was emperor, in Isidore of Seville's words. G. W. Robinson puts that consulship in 509 and dates Eugippius's letter sending the Life to the deacon Paschasius to 511. No source used here gives the year of his birth or death",
+  "place": "The Danube lands of Noricum, where G. W. Robinson says his earlier years were spent and where Eugippius tells of the monks opening Severinus's grave; the Lucullan castle at Naples, as head of the monastery there",
+  "tradition": "Early Benedictine / Italian Monasticism",
+  "role": "Priest and head of a monastery; writer of the Life of Severinus",
+  "briefLength": "about 2 minutes",
+  "keyWorks": [
+    {
+      "title": "Life of Severinus, with his letter to the deacon Paschasius",
+      "about": "the deeds, miracles and death of Severinus in Noricum, the monks' journey to Italy with his body and its burial in the Lucullan castle; Eugippius calls it a memoir and sent it to Paschasius to work up, and Paschasius chose to add nothing"
+    },
+    {
+      "title": "Excerpts from the works of Augustine",
+      "about": "deep questions and sayings from Augustine set in 338 chapters for Proba, a consecrated virgin, in Cassiodorus's account; by Eugippius's own preface, as Andrea Gallandi quotes it, he made them at the urging of the abbot Marinus. No copy is among the sources used here"
+    },
+    {
+      "title": "Rule for the monks of the monastery of Saint Severinus",
+      "about": "named by Isidore of Seville, who says Eugippius left it to them at his death as if by will. No copy is among the sources used here"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Cassiodorus, in his Institutions, tells his readers they ought to read the works of the priest Eugippius.",
+      "The Anonymus Valesianus, a Latin chronicle of Ostrogothic Italy, copies the Life on Severinus and King Odoacer, as Theodor Mommsen shows in his edition. W. D. Foulke says Paul the Deacon used the Life once, in his History of the Langobards.",
+      "Dionysius Exiguus put a book of Gregory of Nyssa on the making of man into Latin at Eugippius's request, and Ferrandus of Carthage wrote to him on the Trinity and the two natures of Christ, against a question an Arian count had raised."
+    ],
+    "remembered": [
+      "Paschasius answered the memoir: \"Thou hast sent me a memoir to which the eloquence of the trained writer can add nothing, and in a short compendium hast produced a work which the whole church can read.\"",
+      "Isidore of Seville gives him a chapter in his book of famous men, as abbot of the Lucullan town at Naples.",
+      "G. W. Robinson opens his English translation with Teuffel's words, \"the incomparable biography of Saint Severinus\"."
+    ]
+  },
+  "uncertain": [
+    "How well he knew Severinus. Eugippius writes \"we\" at the deathbed and at the opening of the grave, and says he heard nothing of Severinus's homeland \"Even in the lifetime of Saint Severinus\". He also says he built the memoir from \"the daily narrations of the elder brethren\", and names those he heard stories from, among them Marcianus and the subdeacon Marcus. Andrea Gallandi, an editor of the 1700s, calls him a disciple of Severinus and of Pope Gelasius, and W. D. Foulke calls him Severinus's pupil. No source used here gives his age when Severinus died.",
+    "His years. No source used here gives the year of his birth or death. Eugippius dates his letter only as \"About two years ago, in the consulship of Importunus\". G. W. Robinson and Theodor Mommsen give 511 for the Life, and W. D. Foulke about 511.",
+    "One Eugippius or two. Faustino Arevalo's notes to Isidore report that Fabricius and others take the Eugippius whom Cassiodorus saw to be a different, younger man. Andrea Gallandi holds there was one, and blames the mistake on Sigebert, who placed an abbot Eugippius in the time of Pope Pelagius II and the emperor Tiberius.",
+    "His origin. Gallandi says he was Italian, and Foulke calls him an Italian monk. Robinson says his earlier years were spent in the Danube lands. No source used here gives his birthplace or family.",
+    "The Lucullan castle. G. W. Robinson places it at what is now Pizzofalcone in Naples; Thomas Hodgkin's index puts it at the Castel dell'Ovo, and Heinrich Kihn between Naples and Pozzuoli."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "The Life of Saint Severinus, with the letters of Eugippius and Paschasius (tr. G. W. Robinson)",
+        "language": "English translation",
+        "file": "cic/texts/eugippius_life-of-saint-severinus_robinson1914.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Letter to Eugippius",
+        "author": "Paschasius the deacon",
+        "language": "English translation",
+        "file": "cic/texts/eugippius_life-of-saint-severinus_robinson1914.txt"
+      },
+      {
+        "title": "Institutions, book I, chapter 23, On the abbot Eugippius and the abbot Dionysius, in Patrologia Latina 70",
+        "author": "Cassiodorus",
+        "language": "Latin",
+        "file": "cic/texts/cassiodorus_opera-institutiones-pl70-lat_migne1847.txt"
+      },
+      {
+        "title": "On Famous Men, chapter 26, with Faustino Arevalo's notes, in Patrologia Latina 83",
+        "author": "Isidore of Seville",
+        "language": "Latin",
+        "file": "cic/texts/isidore-seville_sententiae-eccl-officiis-historia-gothorum-pl83-lat_migne1860.txt"
+      },
+      {
+        "title": "Letters to the priest Eugippius, from Dionysius Exiguus and Ferrandus of Carthage, with Andrea Gallandi's notice on Ferrandus, in Patrologia Latina 67",
+        "author": "Dionysius Exiguus; Ferrandus of Carthage; Andrea Gallandi",
+        "language": "Latin",
+        "file": "cic/texts/facundus-ferrandus-caesarius-dionysius-pl67-lat_migne1865.txt"
+      },
+      {
+        "title": "Letter 5, to Eugippius, on charity, in Patrologia Latina 65",
+        "author": "Fulgentius of Ruspe",
+        "language": "Latin",
+        "file": "cic/texts/fulgentius-ruspe_opera-contra-arianos-pl65-lat_migne1847.txt"
+      },
+      {
+        "title": "Preface and notes to The Life of Saint Severinus",
+        "author": "G. W. Robinson",
+        "date": "1914",
+        "language": "English",
+        "file": "cic/texts/eugippius_life-of-saint-severinus_robinson1914.txt"
+      },
+      {
+        "title": "Anonymus Valesianus, with the editor's introduction, in Chronica Minora 1",
+        "author": "Theodor Mommsen",
+        "date": "1892",
+        "language": "Latin",
+        "file": "cic/texts/prosper_chronica-minora-1-lat_mommsen1892.txt"
+      },
+      {
+        "title": "Notes to Paul the Deacon, History of the Langobards",
+        "author": "W. D. Foulke",
+        "date": "1907",
+        "language": "English",
+        "file": "cic/texts/paul-the-deacon_history-of-the-langobards_foulke1907.txt"
+      },
+      {
+        "title": "Index to The Letters of Cassiodorus",
+        "author": "Thomas Hodgkin",
+        "date": "1886",
+        "language": "English",
+        "file": "cic/texts/cassiodorus_variae-letters-hodgkin1886.txt"
+      },
+      {
+        "title": "Theodor von Mopsuestia und Junilius Africanus als Exegeten",
+        "author": "Heinrich Kihn",
+        "date": "1880",
+        "language": "German",
+        "file": "cic/texts/kihn_theodor-von-mopsuestia-junilius-africanus-instituta-lat-deu_1880.txt"
+      }
+    ]
+  }
+}

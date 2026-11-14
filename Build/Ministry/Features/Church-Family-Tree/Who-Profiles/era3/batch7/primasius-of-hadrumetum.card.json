@@ -1,0 +1,128 @@
+{
+  "name": "Primasius of Hadrumetum",
+  "otherNames": [
+    "Primasius Adrumetanus",
+    "Primasius d'Hadrumète"
+  ],
+  "knownFor": "Bishop of Hadrumetum in the African province of Byzacena, who wrote a commentary on the Revelation of John drawing on Augustine and the Donatist Tyconius, and who signed Pope Vigilius's ruling on the Three Chapters at Constantinople in 553.",
+  "dates": "His signature to Vigilius's ruling is dated the day before the Ides of May in Justinian's twenty-seventh year, which Otto Günther gives as 14 May 553. Victor of Tunnuna tells of his summons to Constantinople under the year Theodor Mommsen gives as 551, and of his fall and death under 552. No source used here gives the year of his birth or death",
+  "place": "Hadrumetum, also called Justinianopolis, in Byzacena, as his own signature names it; Constantinople, on the business of the African church",
+  "tradition": "Latin African Christianity under Byzantium",
+  "role": "Bishop of Hadrumetum; commentator on Scripture",
+  "briefLength": "about 2 minutes",
+  "keyWorks": [
+    {
+      "title": "Commentary on the Apocalypse of John, in five books",
+      "about": "dedicated to Castorius; his preface says he added what he found in Augustine and took from the Donatist Tyconius what agrees with sound sense, cutting and correcting the rest; Cassiodorus describes it as a careful exposition in five books"
+    },
+    {
+      "title": "What Makes a Heretic (Quid faciat haereticum)",
+      "about": "lost; Cassiodorus names one book under this title, and Isidore of Seville names three books on heresies, sent to Bishop Fortunatus, to finish what Augustine's book on heresies had left undone at his death"
+    },
+    {
+      "title": "Commentaries on the letters of Paul",
+      "about": "printed in Migne's volume under his name; Otto Bardenhewer counts the commentary under the name of Primasius of Hadrumetum among the later reworkings of Pelagius's commentary"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Junillus wrote his handbook on reading the Bible, On the Parts of Divine Law, at his urging, from the rules of Paul the Persian of Nisibis, and dedicated it to him.",
+      "F. C. Burkitt names him first among the writers who used Tyconius as their main authority on the Apocalypse. Paul Monceaux says Tyconius's commentary can be largely restored today through him and the Spanish priest Beatus, the two who copied it most systematically."
+    ],
+    "remembered": [
+      "Cassiodorus calls him the eloquent bishop of Justinianopolis and sets his commentary among the expositions of the Apocalypse in his Institutions.",
+      "Joseph Mesnage calls him one of the most learned bishops of his time. Paul Monceaux calls him an influential bishop, a party leader and an author famous in his day."
+    ]
+  },
+  "uncertain": [
+    "His fall. What happened after he signed is told only by Victor of Tunnuna, who defended the Three Chapters and tells it as a betrayal. Victor says he was sent to a monastery, gave way so that he might succeed Boethius as head bishop of Byzacena, persecuted his former side at home, was condemned by his own province's bishops and died an unhappy death. No second witness tells it. Heinrich Kihn wrote in 1880 that how much truth the account holds is hard to say, and that it is not free of party coloring.",
+    "The monastery. The manuscripts of Victor read aquimetensis. Theodor Mommsen corrects it to Acoemetensi, the monastery of the Sleepless monks; Kihn reads Adrumetinus, a monastery of his own city, and places the sending after Primasius's refusal to attend the council in May 553, though Victor tells it under 552.",
+    "His refusal to attend. Heinrich Kihn reports from the council's acts, in Mansi's collection, that on 8 May 553 the council named Primasius first among the Western bishops still keeping away, and that he answered its envoys, \"Papa non praesente non venio\": with the pope not present, I will not come. The acts themselves are not among the sources used here. A notice Migne prints from Cave also says he would not attend though often called.",
+    "His earlier stand. Kihn reports, again from Mansi, that Primasius signed Vigilius's sentence against Theodore Askidas on 14 August 551, and that he first appears at a synod of Byzacena in 541. Neither record is among the sources used here.",
+    "Whether he became head bishop. Victor gives his aim, to succeed Boethius, and does not say that he did. A note to Liberatus of Carthage that Migne prints calls him primate of Byzacena.",
+    "His see. Joannes Gagneius, a Paris theologian, in the dedication of his edition to King Francis I that Migne prints, calls him bishop of Utica. His own signature names Hadrumetum, and Kihn says Baronius had already set Utica aside.",
+    "Another Primasius. Primosus, deacon and later bishop of Carthage, is spelled Primasius in Migne's text of Victor; Heinrich Kihn warns that he is often confused with the bishop of Hadrumetum. The two are different men.",
+    "His age. Andrea Gallandi wonders whether Junillus calls him Father for his venerable grey hair. It is a guess."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Commentary on the Apocalypse, with its prologue, in Patrologia Latina 68 (ed. J.-P. Migne)",
+        "language": "Latin",
+        "file": "cic/texts/liberatus-victor-tunnunensis-primasius-junillus-pl68-lat_migne1866.txt"
+      },
+      {
+        "title": "Signature to the Constitutum of Vigilius, in the Collectio Avellana (ed. Otto Günther)",
+        "language": "Latin",
+        "file": "cic/texts/collectio-avellana_epistulae-imperatorum-pontificum-v1-lat_guenther1895.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Letter to Primasius, opening On the Parts of Divine Law",
+        "author": "Junillus",
+        "language": "Latin",
+        "file": "cic/texts/liberatus-victor-tunnunensis-primasius-junillus-pl68-lat_migne1866.txt"
+      },
+      {
+        "title": "Chronicle (ed. Theodor Mommsen)",
+        "author": "Victor of Tunnuna",
+        "language": "Latin",
+        "file": "cic/texts/chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894.txt"
+      },
+      {
+        "title": "Institutions, book I, and Exposition of the Psalms",
+        "author": "Cassiodorus",
+        "language": "Latin",
+        "file": "cic/texts/cassiodorus_opera-institutiones-pl70-lat_migne1847.txt"
+      },
+      {
+        "title": "De viris illustribus, chapter 22",
+        "author": "Isidore of Seville",
+        "language": "Latin",
+        "file": "cic/texts/isidore-seville_sententiae-eccl-officiis-historia-gothorum-pl83-lat_migne1860.txt"
+      },
+      {
+        "title": "Notitia on Primasius, and Notitia on Junillus, in Patrologia Latina 68",
+        "author": "Cave; Andrea Gallandi",
+        "language": "Latin",
+        "file": "cic/texts/liberatus-victor-tunnunensis-primasius-junillus-pl68-lat_migne1866.txt"
+      },
+      {
+        "title": "Theodor von Mopsuestia und Junilius Africanus als Exegeten, chapter on Bishop Primasius",
+        "author": "Heinrich Kihn",
+        "date": "1880",
+        "language": "German",
+        "file": "cic/texts/kihn_theodor-von-mopsuestia-junilius-africanus-instituta-lat-deu_1880.txt"
+      },
+      {
+        "title": "Histoire littéraire de l'Afrique chrétienne, volume 5",
+        "author": "Paul Monceaux",
+        "date": "1920",
+        "language": "French",
+        "file": "cic/texts/monceaux_histoire-litteraire-afrique-chretienne-tome5_1920.txt"
+      },
+      {
+        "title": "L'Afrique chrétienne: évêchés et ruines antiques",
+        "author": "Joseph Mesnage",
+        "date": "1912",
+        "language": "French",
+        "file": "cic/texts/mesnage_afrique-chretienne-eveches-ruines-antiques-fra_1912.txt"
+      },
+      {
+        "title": "The Book of Rules of Tyconius, introduction",
+        "author": "F. C. Burkitt",
+        "date": "1894",
+        "language": "English",
+        "file": "cic/texts/tyconius_liber-regularum_burkitt1894.txt"
+      },
+      {
+        "title": "Geschichte der altkirchlichen Literatur, volume 4",
+        "author": "Otto Bardenhewer",
+        "date": "1924",
+        "language": "German",
+        "file": "cic/texts/bardenhewer_geschichte-altkirchlichen-literatur-band4-augustinus-slice-deu_1924.txt"
+      }
+    ]
+  }
+}
