@@ -13,12 +13,7 @@
   --tyrian-wash:#241d30; --graphite:#8f8266; --shadow:0 2px 14px rgba(0,0,0,.55);
   --link-grow:#86cf9c; --link-influence:#c79a5e; --link-conflict:#f06a64; --link-contact:#a39a8c;
 }
-:root[data-theme="light"]{
-  --parchment:#F6F6F2; --vellum:#FBFBF9; --iron-gall:#2A2521; --ink-faded:#6C6257;
-  --rule:#E6DFD3; --madder:#A13E2B; --gold-leaf:#B45309; --tyrian:#6B3FA0;
-  --tyrian-wash:#F3EFFA; --graphite:#8A837C; --shadow:0 2px 10px rgba(42,37,33,.18);
-  --link-grow:#2F7A45; --link-influence:#8A5A2B; --link-conflict:#C0392B; --link-contact:#6E675F;
-}
+:root{color-scheme:dark}
 *{box-sizing:border-box}
 html,body{height:100%}
 body{margin:0;background:var(--parchment);color:var(--iron-gall);
@@ -59,13 +54,6 @@ body{margin:0;background:var(--parchment);color:var(--iron-gall);
 .chip:hover,.chip:focus-visible,.chip[aria-expanded="true"]{border-color:var(--gold-leaf);color:var(--gold-leaf)}
 .chip[aria-pressed]{display:inline-flex;align-items:center;gap:.6rem;min-height:44px}
 .chip[aria-pressed]:focus-visible{outline:2px solid var(--madder);outline-offset:2px}
-@media (max-width:480px){.feature-bar.switches{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:.4rem;padding:.5rem .6rem}
-  .feature-bar .chip-group{position:static;grid-column:span 3;display:flex}
-  .feature-bar .chip-group:last-child{grid-column:1/-1;margin-left:0}
-  .feature-bar .chip-group .chip{flex:1;justify-content:center;padding:.35rem .4rem;font-size:1rem}
-  .feature-bar .chip[aria-pressed]{grid-column:span 3;justify-content:space-between;padding:.35rem .5rem .35rem .8rem;font-size:1rem}
-  .feature-bar .who-chip{grid-column:1/-1}
-  .feature-bar .chip-panel{left:.6rem;right:.6rem;max-width:none}}
 .chip-panel{position:absolute;top:calc(100% + .35rem);left:0;z-index:25;min-width:15rem;max-width:min(22rem,calc(100vw - 1.6rem));
   max-height:60vh;overflow:auto;background:var(--vellum);border:1px solid var(--rule);border-radius:4px;
   padding:.5rem .6rem;font-size:.9rem;box-shadow:0 4px 14px rgba(0,0,0,.25)}
@@ -73,20 +61,15 @@ body{margin:0;background:var(--parchment);color:var(--iron-gall);
 #stage.grabbing{cursor:grabbing}
 #stage.pinching svg text{display:none!important}
 svg#world{display:block;overflow:visible}
-.era-label,.era-tag,.era-context{paint-order:stroke;stroke:var(--parchment);stroke-width:3px;stroke-linejoin:round}
+.era-label,.era-tag{paint-order:stroke;stroke:var(--parchment);stroke-width:3px;stroke-linejoin:round}
 .era-label{font-family:"Cinzel",serif;font-size:26px;letter-spacing:.06em;fill:var(--gold-leaf)}
 .era-tag{font-family:"Alegreya",Georgia,serif;font-style:italic;font-size:16px;fill:var(--ink-faded)}
-.era-context{font-family:"Alegreya",Georgia,serif;font-size:15px;fill:var(--iron-gall)}
-.era-close{font-style:italic;fill:var(--gold-leaf)}
 .lbl-cull{visibility:hidden}
 .lbl{display:none;font-family:"Alegreya Sans",sans-serif;font-size:0.6875rem;fill:var(--iron-gall);
   paint-order:stroke;stroke:var(--parchment);stroke-width:3px;stroke-linejoin:round;
   user-select:none}
-.portrait-plate{display:none;pointer-events:auto;cursor:pointer}
 .river-calm{transition:opacity .35s ease;mix-blend-mode:lighten}
 .river-organic{transition:opacity .35s ease;mix-blend-mode:lighten}
-:root[data-theme="light"] .river-calm,
-:root[data-theme="light"] .river-organic{mix-blend-mode:darken}
 .river-group{cursor:pointer}
 .river-group:focus-visible{outline:none}
 .river-group:hover .river-calm,.river-group:hover .river-organic,
@@ -259,28 +242,176 @@ svg#world{display:block;overflow:visible}
 [aria-pressed="true"]>.sw::after{transform:translateX(1.1rem)}
 @media (prefers-reduced-motion:reduce){.sw,.sw::after{transition:none}}
 .is-off{display:none}
-#who .who-name{cursor:pointer}
-#who .who-name:focus-visible{outline:none}
-#who .who-hit{fill:transparent}
+.who-name,.who-pill{cursor:pointer}
+.who-name:focus,.who-pill:focus,.era-info:focus{outline:none}
+.who-hit{fill:transparent}
 .who-text{font-family:"Alegreya",Georgia,serif;font-size:11px;fill:var(--iron-gall);
   paint-order:stroke;stroke:var(--parchment);stroke-width:3px;stroke-linejoin:round;user-select:none}
-#who .who-name:hover .who-text,#who .who-name:focus-visible .who-text{fill:var(--gold-leaf)}
-#who .who-more{font-style:italic;fill:var(--ink-faded)}
-#who .who-head{font-family:"Alegreya Sans",sans-serif;font-size:10px;font-weight:700;letter-spacing:.04em;fill:var(--ink-faded)}
-.who-tie{fill:none;stroke-width:1.3;stroke-dasharray:1 3;stroke-linecap:round}
+.who-name:hover .who-text,.who-name:focus-visible .who-text{fill:var(--gold-leaf)}
+.who-all .who-text{font-family:"Alegreya Sans",sans-serif;font-weight:700;fill:var(--gold-leaf);text-decoration:underline}
+.who-dates{font-family:"Alegreya Sans",sans-serif;font-weight:400;fill:var(--ink-faded)}
+.who-tick{fill:none;stroke-width:1;vector-effect:non-scaling-stroke;opacity:.9}
+.who-link{stroke-dasharray:1 3;stroke-linecap:round;stroke-width:1.6}
 svg.who-on .edge-line,svg.who-on .edge-hit,svg.who-on .continues{display:none!important}
-.who-pill{cursor:pointer}
-.who-pill:focus,#who .who-name:focus{outline:none}
-.who-pill rect{fill:var(--parchment);stroke-width:1.2}
-.who-pill text{font-family:"Alegreya Sans",sans-serif;font-size:9px;font-weight:700;user-select:none}
-.who-pill .who-hit{fill:transparent}
-.who-pill:hover rect,.who-pill:focus-visible rect{stroke:var(--gold-leaf);stroke-width:2}
-.who-pill[aria-pressed="true"] rect{fill:var(--tyrian-wash);stroke:var(--gold-leaf);stroke-width:2}
-#prof-pills{display:none}
-#who-pills{display:none}
-.node.who-under .lbl,.node.who-under .pl,.prof-pill.who-under,.node.who-own .pl{visibility:hidden}
+.who-pill .who-cap{fill:var(--parchment)}
+.who-pill .who-n{font-family:"Alegreya Sans",sans-serif;font-weight:700;fill:var(--iron-gall);text-anchor:start;user-select:none}
+.who-pill[aria-pressed="true"] .who-cap{fill:var(--tyrian-wash);stroke:var(--gold-leaf)}
+.who-pill[aria-pressed="true"] .who-n,.who-pill:hover .who-n{fill:var(--gold-leaf)}
+.who-pill .who-fig *{fill:var(--iron-gall);stroke:var(--parchment);stroke-width:.9;paint-order:stroke;stroke-linejoin:round}
+.who-pill:hover .who-fig *,.who-pill:focus-visible .who-fig *,.who-pill[aria-pressed="true"] .who-fig *{fill:var(--gold-leaf)}
+svg.who-on .who-pill:not([aria-pressed="true"]){display:none}
+.node.who-under .lbl,.node.who-under .pl,.node.auto-own .pl{visibility:hidden}
+svg#world #rivers .river-group,svg#world #nodes .node,svg#world #stories,svg#world #councils,svg#world #across,svg#world #era-labels{transition:opacity .25s}
+svg.who-on #rivers .river-group:not(.who-lit),svg.who-on #nodes .node:not(.who-lit),svg.who-on #stories,svg.who-on #councils,svg.who-on #across,svg.who-on #era-labels{opacity:.2}
+svg.who-on #nodes .node.who-lit .pl{visibility:hidden}
+@media (prefers-reduced-motion:reduce){svg#world *{transition:none!important}}
 .feature-bar .who-chip{border-color:var(--gold-leaf);color:var(--gold-leaf);display:inline-flex;align-items:center;gap:.4rem}
 .feature-bar .who-chip[hidden]{display:none}
+.trad-ico{display:none}
+svg.ico-on .trad-ico{display:inline}
+svg.ico-on #nodes .node>circle:not(.halo):not(.focus-ring){display:none}
+svg.ico-on #nodes .node.no-name .trad-ico{display:none}
+svg.ico-on #nodes .node.no-name>circle:not(.halo):not(.focus-ring){display:inline}
+svg.simple #nodes .node:not(.built){display:none}
+.node .pl,.story-title{font-size:var(--pl-fs,10px)!important}
+svg:not(.z-story) #stories,svg:not(.z-story) #across{display:none}
+svg:not(.z-story-title) .story-title{display:none}
+svg.z-story-title .story-title{display:block}
+svg:not(.z-council) #councils{display:none}
+svg:not(.z-council-name) #councils .council-lbl,svg:not(.z-council-name) #councils .council-cap{display:none}
+svg:not(.z-place) #nodes .node .pl{display:none}
+svg.z-place #nodes .node .pl{display:block}
+svg.no-people #who-pills,svg.no-people #prof-pills,svg.no-people #who-auto,svg.no-councils #councils{display:none!important}
+#rivers .river-group.is-off,#nodes .node.is-off,#stories .story.is-off{display:inline!important;opacity:.16;pointer-events:none}
+#nodes .node.is-off .lbl,#nodes .node.is-off .trad-ico,#nodes .node.is-off .pl,#stories .story.is-off .story-title{display:none!important}
+svg.ico-on #nodes .node.is-off>circle:not(.halo):not(.focus-ring){display:inline}
+#across .across.across-out{display:none!important}
+svg.conn-focus #nodes .node:not(.conn-end),svg.conn-focus #stories,svg.conn-focus #councils,svg.conn-focus #across,svg.conn-focus #rivers .river-group,svg.conn-focus #era-labels{opacity:.22}
+svg.conn-focus #nodes .node.conn-end{display:inline!important}
+svg.conn-focus .who-pill,svg.conn-focus #who-auto{display:none!important}
+svg.conn-focus .edge-line.conn-lit{opacity:1!important}
+.era-label{cursor:pointer}
+.era-label:hover,.era-label:focus-visible{fill:var(--iron-gall);outline:none}
+.era-info{cursor:pointer}
+.era-info-hit{fill:transparent}
+.era-info-ring{fill:var(--parchment);stroke:var(--gold-leaf);stroke-width:1.6}
+.era-info-i{stroke:var(--gold-leaf);stroke-width:2;stroke-linecap:round;fill:none}
+.era-info-dot{fill:var(--gold-leaf)}
+.era-info:hover .era-info-ring,.era-info:focus-visible .era-info-ring{fill:var(--tyrian-wash);stroke:var(--iron-gall)}
+.era-info:hover .era-info-i,.era-info:focus-visible .era-info-i{stroke:var(--iron-gall)}
+.era-info:hover .era-info-dot,.era-info:focus-visible .era-info-dot{fill:var(--iron-gall)}
+svg.strip-on #era-labels{display:none}
+#eraStrip{position:fixed;z-index:19;left:0;right:0;top:var(--map-top,8rem);background:var(--parchment);border-bottom:1px solid var(--rule)}
+#eraStrip[hidden]{display:none}
+#eraStripBtn{position:relative;display:flex;align-items:baseline;gap:.6rem;width:100%;min-height:36px;padding:.3rem .9rem;background:none;border:0;color:var(--gold-leaf);text-align:left;cursor:pointer;font:inherit}
+#eraStripBtn::after{content:"";position:absolute;left:0;right:0;top:0;bottom:-8px}
+#eraStripBtn .es-t{font-family:"Cinzel","Alegreya",serif;font-size:1rem;letter-spacing:.04em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0}
+#eraStripBtn .es-d{font-family:"Alegreya",serif;font-style:italic;font-size:.95rem;color:var(--ink-faded);white-space:nowrap}
+#eraStripBtn svg{flex:none;align-self:center;margin-left:auto}
+#eraStripBtn:hover,#eraStripBtn:focus-visible{color:var(--iron-gall);outline:none}
+#eraStripBtn:focus-visible{box-shadow:inset 0 0 0 2px var(--madder)}
+#whoTray{position:fixed;z-index:26;background:var(--vellum);color:var(--iron-gall);display:flex;flex-direction:column;
+  left:0;top:calc(var(--map-top,9rem) + var(--strip-h,0px));bottom:0;width:min(330px,42vw);border-right:2px solid var(--gold-leaf);box-shadow:var(--shadow)}
+#whoTray[hidden]{display:none}
+#whoTray .tray-head{display:flex;align-items:flex-start;gap:.4rem;padding:.7rem .6rem .5rem 1rem;border-bottom:1px solid var(--rule)}
+#whoTray .tray-title{flex:1;min-width:0}
+#whoTray h2{font-family:"Alegreya",serif;font-size:1.2rem;line-height:1.2;margin:0}
+#whoTray .tray-sub{font-size:.9rem;color:var(--ink-faded);margin:.15rem 0 0}
+#whoTray .tray-btn{flex:none;min-width:44px;min-height:44px;background:none;border:0;color:var(--ink-faded);font:inherit;font-size:1.4rem;line-height:1;cursor:pointer;border-radius:4px}
+#whoTray .tray-btn:hover{color:var(--gold-leaf)}
+#whoTray button:focus-visible{outline:2px solid var(--madder);outline-offset:-2px}
+#whoTray .tray-grip{display:none}
+#whoTray .tray-sort{display:flex;gap:.4rem;padding:.5rem 1rem;border-bottom:1px solid var(--rule)}
+#whoTray .tray-sort[hidden]{display:none}
+#whoTray .tray-sort button{min-height:44px;padding:0 .9rem;border:1px solid var(--rule);border-radius:999px;background:none;color:var(--iron-gall);font:700 .92rem "Alegreya Sans",sans-serif;cursor:pointer}
+#whoTray .tray-sort button[aria-pressed="true"]{border-color:var(--gold-leaf);color:var(--gold-leaf);background:var(--tyrian-wash)}
+#whoTray .tray-body{flex:1;overflow-y:auto;padding:0 0 1.2rem;overscroll-behavior:contain}
+#whoTray h3{font:700 .78rem/1.3 "Alegreya Sans",sans-serif;letter-spacing:.09em;text-transform:uppercase;color:var(--gold-leaf);margin:0;padding:.9rem 1rem .3rem}
+#whoTray h3.tray-loose{padding-top:1.2rem;padding-bottom:.6rem}
+#whoTray h3 button{font:inherit;letter-spacing:inherit;text-transform:inherit;color:inherit;background:none;border:0;padding:0;min-height:44px;cursor:pointer;text-align:left}
+#whoTray ul{list-style:none;margin:0;padding:0}
+#whoTray .tray-row{display:grid;grid-template-columns:1fr auto;align-items:center;column-gap:.6rem;width:100%;min-height:48px;padding:.35rem 1rem;background:none;border:0;border-top:1px solid var(--rule);color:inherit;font:inherit;text-align:left;cursor:pointer}
+#whoTray .tray-row:hover{background:var(--tyrian-wash)}
+#whoTray .nm{font-family:"Alegreya",serif;font-size:1.06rem;line-height:1.25}
+#whoTray .tray-row.on-map .nm{font-weight:700}
+#whoTray .dt{grid-column:1;font-size:.85rem;color:var(--ink-faded);line-height:1.3}
+#whoTray .mk{grid-row:1/span 2;grid-column:2;font:700 .75rem "Alegreya Sans",sans-serif;letter-spacing:.05em;color:var(--gold-leaf);white-space:nowrap}
+#connChip{position:fixed;z-index:22;left:.6rem;top:calc(var(--map-top,8rem) + var(--strip-h,0px) + .6rem);max-width:calc(100vw - 5rem);background:var(--vellum);border:1px solid var(--gold-leaf);border-radius:8px;box-shadow:var(--shadow);padding:.2rem .5rem .4rem}
+#connChip[hidden]{display:none}
+#connChip .cc-x{display:flex;align-items:center;gap:.6rem;min-height:44px;background:none;border:0;color:var(--gold-leaf);font:700 1rem "Alegreya Sans",sans-serif;cursor:pointer;padding:0 .2rem}
+#connChip .cc-x:focus-visible{outline:2px solid var(--madder);outline-offset:2px}
+#connChip .cc-key{list-style:none;margin:0;padding:0 .2rem;display:flex;flex-wrap:wrap;gap:.2rem .8rem;font:.85rem "Alegreya Sans",sans-serif;color:var(--iron-gall)}
+#connChip .cc-key i{display:inline-block;width:14px;height:3px;border-radius:2px;margin-right:.35rem;vertical-align:middle}
+.conn-seg{display:grid;grid-template-columns:1fr 1.3fr 1.3fr;gap:.3rem;margin:.6rem 0 .5rem}
+.conn-seg button{min-height:44px;border:1px solid var(--rule);border-radius:999px;background:none;color:var(--iron-gall);font:700 1rem "Alegreya Sans",sans-serif;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:.4rem}
+.conn-seg button span{font-weight:400;font-size:.85rem;color:var(--ink-faded)}
+.conn-seg button[aria-pressed="true"]{border-color:var(--gold-leaf);color:var(--gold-leaf);background:var(--tyrian-wash)}
+.conn-seg button:focus-visible{outline:2px solid var(--madder);outline-offset:2px}
+.switches button.row:disabled{opacity:.45;cursor:default}
+.feature-bar .chip.is-on{border-color:var(--gold-leaf);color:var(--gold-leaf)}
+.feature-bar .grp-key .chip-panel{left:auto;right:0}
+#sw-rivers .sw-name b{display:block;font-weight:700}
+#sw-rivers .sw-name small{display:block;font-size:.85rem;color:var(--ink-faded);line-height:1.25}
+.key-list{margin:.2rem 0 .4rem}
+.key-row{display:grid;grid-template-columns:28px 1fr;gap:.6rem;align-items:start;padding:.4rem 0;border-bottom:1px solid var(--rule)}
+.key-row:last-child{border-bottom:0}
+.key-ico{margin-top:.1rem}
+.key-row dt{font-weight:700;font-size:1rem;line-height:1.25}
+.key-row dd{margin:0;font-size:.9rem;line-height:1.35;color:var(--ink-faded)}
+.feature-bar .bar-ico{flex:none}
+.feature-bar .chip.has-ico{display:inline-flex;align-items:center;gap:.45rem}
+#barToast{position:fixed;z-index:60;left:50%;transform:translateX(-50%);bottom:calc(var(--bar-h,0px) + 1rem + env(safe-area-inset-bottom,0px));background:var(--iron-gall);color:var(--parchment);font:700 1rem "Alegreya Sans",sans-serif;padding:.45rem .9rem;border-radius:999px;opacity:0;transition:opacity .2s;pointer-events:none}
+#barToast.on{opacity:1}
+@media (prefers-reduced-motion:reduce){#barToast{transition:none}}
+#zoomHint{transition:opacity .4s}
+#zoomHint.gone{opacity:0;pointer-events:none}
+#zoomHint b{color:var(--iron-gall)}
+#menuBtn,#zoomResetBtn{display:none}
+#siteMenu{position:fixed;z-index:45;right:.6rem;top:3.2rem;width:min(19rem,calc(100vw - 1.2rem));background:var(--vellum);border:1px solid var(--gold-leaf);border-radius:6px;box-shadow:var(--shadow);padding:.7rem;display:flex;flex-direction:column;gap:.5rem}
+#siteMenu[hidden]{display:none}
+#siteMenu .tag{font-style:italic;color:var(--ink-faded);font-size:.95rem;margin:0 0 .2rem}
+#siteMenu a,#siteMenu button{display:flex;align-items:center;justify-content:center;min-height:44px;font:inherit;font-size:1rem;font-weight:700;color:var(--iron-gall);background:none;border:1px solid var(--rule);border-radius:4px;text-decoration:none;cursor:pointer;padding:.3rem .8rem}
+#siteMenu a:focus-visible,#siteMenu button:focus-visible{outline:2px solid var(--madder);outline-offset:2px}
+#panel a{color:var(--tyrian)}
+#panel .formal{margin-top:-.1rem}
+#panel .page-feedback{margin:1.4rem 0 0;padding:.9rem 0 0;border-top:1px solid var(--rule);max-width:none}
+#panel .who-btn.conn-btn{background:none;color:var(--iron-gall);border-color:var(--rule)}
+#panel .who-btn.conn-btn:hover{border-color:var(--gold-leaf)}
+@media (max-width:1180px){
+  .feature-bar .chip[aria-pressed] .sw{display:none}
+  .feature-bar .chip{padding:.3rem .7rem}
+  .feature-bar .chip[aria-pressed="true"]{border-color:var(--gold-leaf);color:var(--gold-leaf)}
+  .feature-bar .chip[aria-pressed="true"] .sw-name::after{content:" \2713"}
+  .feature-bar .chip[aria-pressed="false"]{color:var(--ink-faded)}
+  .feature-bar{gap:.4rem}
+}
+@media (min-width:641px) and (max-width:900px){.feature-bar .chip{padding:.3rem .55rem;font-size:.95rem}.feature-bar .chip.has-ico{gap:.3rem}}
+@media (max-width:640px){
+  .topbar{flex-wrap:nowrap;padding:.3rem .6rem}
+  .topbar h1{font-size:1.25rem;white-space:nowrap;margin-right:auto}
+  .topbar .tag,.topbar>.cic-link,.topbar>.support-link,.topbar>#feedback-toggle,.topbar>#resetBtn,.topbar>.spacer{display:none!important}
+  #menuBtn{display:inline-flex;flex:0 0 auto;align-items:center}
+  #zoomCtl #zoomResetBtn{display:block;font-size:1.35rem}
+  .feature-bar .who-chip{display:none!important}
+  .feature-bar.switches{top:auto!important;bottom:0;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:0;padding:.2rem .2rem calc(.2rem + env(safe-area-inset-bottom,0px));border-bottom:0;border-top:1px solid var(--rule)}
+  .feature-bar .chip-group,.feature-bar .chip-group:last-child,.feature-bar .chip[aria-pressed]{grid-column:auto;margin:0}
+  .feature-bar .chip-group{position:static;display:flex}
+  .feature-bar .chip-group.grp-links{display:none!important}
+  .feature-bar .chip,.feature-bar .chip.has-ico,.feature-bar .chip[aria-pressed]{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.1rem;min-height:52px;padding:.2rem 0;border:0;border-radius:6px;font-size:.75rem;font-weight:700;min-width:0}
+  .feature-bar .chip .sw-name{font-size:.75rem;white-space:nowrap}
+  .feature-bar .chip[aria-pressed="true"] .sw-name::after{content:""}
+  .feature-bar .chip[aria-pressed="true"]{box-shadow:inset 0 -3px 0 var(--gold-leaf)}
+  .feature-bar .chip[aria-pressed="false"] .bar-ico{opacity:.55}
+  .feature-bar .chip .dn{display:none}
+  .feature-bar .chip-panel{position:fixed;left:.5rem;right:.5rem;top:auto;bottom:calc(var(--bar-h,56px) + .4rem);max-width:none;max-height:60vh}
+  #whoTray{left:0;right:0;top:auto;bottom:var(--bar-h,56px);width:auto;height:auto;max-height:42vh;border-right:0;border-top:2px solid var(--gold-leaf);border-radius:14px 14px 0 0}
+  #whoTray.is-low .tray-sort,#whoTray.is-low .tray-body{display:none}
+  #whoTray .tray-grip{display:block}
+  #whoTray .tray-head{padding-left:.4rem}
+  body #zoomHint{left:.6rem;right:auto;bottom:calc(var(--bar-h,56px) + .6rem);max-width:calc(100vw - 1.2rem);text-align:left;font-size:.95rem;line-height:1.35;padding:.5rem .7rem}
+  #eraStripBtn{padding:.3rem .6rem}
+  #eraStripBtn .es-t{font-size:.9rem}
+}
 #panel .who-btn{display:flex;justify-content:space-between;align-items:center;gap:.6rem;width:100%;margin:.6rem 0 .4rem;
   padding:.6rem .9rem;border:1px solid var(--gold-leaf);border-radius:4px;background:var(--gold-leaf);color:var(--parchment);
   font-family:"Alegreya Sans",sans-serif;font-size:.95rem;font-weight:700;cursor:pointer;text-align:left}
@@ -338,10 +469,18 @@ svg.who-on .edge-line,svg.who-on .edge-hit,svg.who-on .continues{display:none!im
   <a class="support-link" href="support.html">Help us grow</a>
   <button type="button" class="feedback-toggle" id="feedback-toggle" aria-haspopup="dialog" aria-expanded="false">Tell us what you think</button>
   <button id="resetBtn" type="button">Reset view</button>
+  <button id="menuBtn" type="button" aria-expanded="false" aria-controls="siteMenu">Menu</button>
   <span class="tag">an interactive map of Christian tradition, from the first house-churches to about 2010</span>
 </header>
+<nav id="siteMenu" aria-label="Site" hidden>
+  <p class="tag">an interactive map of Christian tradition, from the first house-churches to about 2010</p>
+  <a href="https://churchinconversation.com/">Church in Conversation</a>
+  <a href="support.html">Help us grow</a>
+  <button type="button" data-act="feedback">Tell us what you think</button>
+</nav>
 <div class="feature-bar switches" id="switchbar" role="toolbar" aria-label="Show or hide parts of the map"></div>
 <div id="mapStatus" class="sr-only" role="status" aria-live="polite"></div>
+<div id="eraStrip" hidden><button type="button" id="eraStripBtn"><span class="es-t"></span><span class="es-d"></span><svg viewBox="-11 -11 22 22" width="22" height="22" aria-hidden="true" focusable="false"><circle r="9.5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M0,-1.2 V5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cy="-4.6" r="1.4" fill="currentColor"/></svg></button></div>
 
 <main id="stage" tabindex="-1" aria-label="Map of the Church Family Tree">
   <svg id="world" xmlns="http://www.w3.org/2000/svg" tabindex="-1" focusable="false"></svg>
@@ -352,7 +491,17 @@ svg.who-on .edge-line,svg.who-on .edge-hit,svg.who-on .continues{display:none!im
 <div id="zoomCtl" role="group" aria-label="Zoom the map">
   <button id="zoomInBtn" type="button" aria-label="Zoom in" title="Zoom in (plus key)">+</button>
   <button id="zoomOutBtn" type="button" aria-label="Zoom out" title="Zoom out (minus key)">&minus;</button>
+  <button id="zoomResetBtn" type="button" aria-label="Reset view" title="Reset view">&#10226;</button>
 </div>
+<aside id="whoTray" hidden aria-labelledby="trayTitle">
+  <div class="tray-head"><button type="button" class="tray-btn tray-grip" aria-expanded="true" aria-label="Make the list smaller">&#9662;</button>
+  <div class="tray-title"><h2 id="trayTitle"></h2><p class="tray-sub"></p></div>
+  <button type="button" class="tray-btn tray-close" aria-label="Close the Who list and clear the names">&times;</button></div>
+  <div class="tray-sort" role="group" aria-label="Order of the list"><button type="button" data-sort="date" aria-pressed="true">By date</button><button type="button" data-sort="trad" aria-pressed="false">By tradition</button></div>
+  <div class="tray-body"></div>
+</aside>
+<div id="connChip" hidden><button type="button" class="cc-x"><span class="cc-t"></span><span aria-hidden="true">&times;</span></button><ul class="cc-key"><li><i style="background:var(--link-grow)"></i>Grew out of</li><li><i style="background:var(--link-influence)"></i>Influenced</li><li><i style="background:var(--link-conflict)"></i>Broke with</li><li><i style="background:var(--link-contact)"></i>In contact</li></ul></div>
+<div id="barToast" aria-hidden="true"></div>
 <div id="zoomHint">Scroll to move &middot; Ctrl + scroll to zoom</div>
 
 <script src="assets/place-line.js"></script>
@@ -34895,7 +35044,9 @@ const DATA = {
     }
    ],
    "kind": "person",
-   "toldWithin": "latin-apologists"
+   "toldWithin": "latin-apologists",
+   "major": false,
+   "activeYear": 197
   },
   {
    "id": "marcion-marcionism",
@@ -37426,9 +37577,9 @@ const DATA = {
     "Asia Minor",
     "Mediterranean"
    ],
-   "lane": "3<->5 bridge (Greek East / Latin West)",
-   "laneLabel": "Greek East / Latin West — bridge",
-   "laneOrder": 3.5,
+   "lane": "3.4 Church and Empire",
+   "laneLabel": "Church and Empire",
+   "laneOrder": 3.4,
    "beyondFloor": false,
    "status": "Built & Live",
    "chip": "live",
@@ -80232,7 +80383,9 @@ const DATA = {
     "Possidius of Calama — Augustine's friend and fellow bishop, who wrote his biography and cataloged his works"
    ],
    "legacy": "Later churches kept coming back to him. Around 550, Facundus of Hermiane called him the 'most wise and most famous teacher of the churches of Christ'. In Geneva, Calvin wrote that he could fill a whole book with Augustine's words alone. Port-Royal took its view of grace from him, and Cornelius Jansen named his own book Augustinus. Rome condemned five propositions said to come from that book in 1653. People still argue over what Augustine taught on grace.",
-   "reviewStatus": "AI-checked"
+   "reviewStatus": "AI-checked",
+   "major": false,
+   "activeYear": 395
   },
   {
    "id": "cyprian-of-carthage",
@@ -80285,7 +80438,9 @@ const DATA = {
     "Pontius the Deacon — Cyprian's deacon, who wrote an account of his bishop's life and death"
    ],
    "legacy": "Both sides of a later split claimed him. The Donatists kept quoting his letters and his council to defend their break. Augustine asked them why. Augustine himself said Cyprian was wrong about baptism. But he never doubted the man. Around 550, Facundus still cited 'blessed Cyprian, bishop of Carthage and martyr'. In 533, Procopius reports, the people of Carthage loved Cyprian above all other holy men.",
-   "reviewStatus": "AI-checked"
+   "reviewStatus": "AI-checked",
+   "major": false,
+   "activeYear": 255
   },
   {
    "id": "irenaeus-of-lyon",
@@ -80336,7 +80491,9 @@ const DATA = {
     "The martyrs of Lyon and Vienne — the imprisoned Christians who sent him to Rome with their letter, around 177"
    ],
    "legacy": "His list of Rome's bishops became a starting point for later arguments about who holds the apostles' teaching. Historians still weigh it. Peter Lampe argues that Rome had no single bishop in charge until about 189 to 199. His account of the Valentinians and of Marcion remains a main witness to both, but it is the witness of an opponent.",
-   "reviewStatus": "AI-checked"
+   "reviewStatus": "AI-checked",
+   "major": false,
+   "activeYear": 177
   },
   {
    "id": "jovinian",
@@ -80389,7 +80546,9 @@ const DATA = {
     "Ambrose of Milan — whose synod joined the sentence passed on him at Rome"
    ],
    "legacy": "His book is lost, and his side lost the argument. Jerome's reply survives. Jerome himself later wrote to Pammachius that some thought he had gone too far in those books, praising virginity and running down marriage.",
-   "reviewStatus": "AI-checked"
+   "reviewStatus": "AI-checked",
+   "major": false,
+   "activeYear": 390
   },
   {
    "id": "ambrose-of-milan",
@@ -80440,7 +80599,9 @@ const DATA = {
     "Paulinus of Milan — who wrote his Life"
    ],
    "legacy": "Milan still keeps the rite that bears his name, though how much of it goes back to him is unclear. His rule that a Christian emperor stands within the church, not above it, was his lasting word to power. And by Augustine's own account, Ambrose's preaching helped bring Augustine to God.",
-   "reviewStatus": "AI-checked"
+   "reviewStatus": "AI-checked",
+   "major": false,
+   "activeYear": 374
   },
   {
    "id": "jerome",
@@ -80492,7 +80653,9 @@ const DATA = {
     "Rufinus of Aquileia — his friend from student days, and later his bitter opponent over Origen"
    ],
    "legacy": "His Latin Bible became the West's standard text, and in 1546 the Council of Trent declared the Vulgate authentic. His catalog, On Illustrious Men, keeps much of what is known about early Christian writers. It is how we know that Cyprian called Tertullian 'the master'.",
-   "reviewStatus": "AI-checked"
+   "reviewStatus": "AI-checked",
+   "major": false,
+   "activeYear": 391
   },
   {
    "id": "origen",
@@ -80728,7 +80891,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": false,
+   "activeYear": 231
   },
   {
    "id": "athanasius-of-alexandria",
@@ -80979,7 +81144,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": false,
+   "activeYear": 328
   },
   {
    "id": "gregory-of-nyssa",
@@ -81212,7 +81379,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": false,
+   "activeYear": 381
   },
   {
    "id": "ephrem-the-syrian",
@@ -81403,7 +81572,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": false,
+   "activeYear": 363
   },
   {
    "id": "john-chrysostom",
@@ -81715,7 +81886,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": false,
+   "activeYear": 398
   },
   {
    "id": "nestorius",
@@ -81776,7 +81949,9 @@ const DATA = {
     "Cyril of Alexandria — his chief opponent, whose five books against him the Library also holds"
    ],
    "legacy": "The Church of the East kept his book. Its Syriac version was made around 535, according to the scholar Bedjan, though the date is not certain. Only one damaged copy was left, in the library of the patriarch of the Church of the East at Kotchanes, in Kurdistan. It was harmed when the Kurdish chief Bedr Khan Bey massacred Christians there in 1843. Western scholars noticed it in the 1890s, and it was printed in 1910.",
-   "reviewStatus": "AI-checked"
+   "reviewStatus": "AI-checked",
+   "major": false,
+   "activeYear": 431
   },
   {
    "id": "simeon-of-beth-arsham",
@@ -81820,7 +81995,9 @@ const DATA = {
     "John of Ephesus — the bishop who wrote his life and inherited some of his letters"
    ],
    "legacy": "His letter outlived him in other men's books. A Syriac chronicle of the 560s copied it, and so did John of Ephesus. A Greek account of the same martyrs drew on it in part. So his letter is one of the main roads by which the story of Najran reached later readers.",
-   "reviewStatus": "AI-checked"
+   "reviewStatus": "AI-checked",
+   "major": false,
+   "activeYear": 524
   },
   {
    "id": "peter-the-iberian",
@@ -81872,7 +82049,9 @@ const DATA = {
     "John Rufus — his disciple and successor at Maiuma, who wrote down Peter the Iberian's memories in the Plerophories"
    ],
    "legacy": "His disciples kept his memory alive. John Rufus took his place as bishop of Maiuma. He wrote down Peter the Iberian's stories against Chalcedon. Severus of Antioch became a monk in Peter's house near Gaza, about two years after Peter died. Later, as patriarch, Severus held up Peter's practice as a rule to follow.",
-   "reviewStatus": "AI-checked"
+   "reviewStatus": "AI-checked",
+   "major": false,
+   "activeYear": 445
   },
   {
    "id": "gregory-the-great",
@@ -81925,7 +82104,9 @@ const DATA = {
    "documentedStories": [],
    "kind": "person",
    "toldWithin": "roman-church-gregorian",
-   "reviewStatus": "AI-checked"
+   "reviewStatus": "AI-checked",
+   "major": false,
+   "activeYear": 590
   },
   {
    "id": "william-tyndale",
@@ -81977,7 +82158,9 @@ const DATA = {
    "documentedStories": [],
    "kind": "person",
    "toldWithin": "the-english-reformation-and-elizabethan-settleme",
-   "reviewStatus": "AI-checked"
+   "reviewStatus": "AI-checked",
+   "major": false,
+   "activeYear": 1525
   },
   {
    "id": "thomas-a-kempis",
@@ -82023,7 +82206,9 @@ const DATA = {
    "documentedStories": [],
    "kind": "person",
    "toldWithin": "devotio-moderna-brethren-of-the-common-life",
-   "reviewStatus": "AI-checked"
+   "reviewStatus": "AI-checked",
+   "major": false,
+   "activeYear": 1406
   },
   {
    "id": "john-wyclif",
@@ -82075,7 +82260,9 @@ const DATA = {
    "documentedStories": [],
    "kind": "person",
    "toldWithin": "lollardy",
-   "reviewStatus": "AI-checked"
+   "reviewStatus": "AI-checked",
+   "major": false,
+   "activeYear": 1382
   },
   {
    "id": "martin-luther",
@@ -82127,7 +82314,9 @@ const DATA = {
    "documentedStories": [],
    "kind": "person",
    "toldWithin": "lutheran-wittenberg-and-its-congregations",
-   "reviewStatus": "AI-checked"
+   "reviewStatus": "AI-checked",
+   "major": false,
+   "activeYear": 1517
   },
   {
    "id": "john-calvin",
@@ -82180,7 +82369,9 @@ const DATA = {
    "documentedStories": [],
    "kind": "person",
    "toldWithin": "the-reformed-cities-zurich-and-geneva",
-   "reviewStatus": "AI-checked"
+   "reviewStatus": "AI-checked",
+   "major": false,
+   "activeYear": 1536
   },
   {
    "id": "ignatius-of-loyola",
@@ -82239,7 +82430,9 @@ const DATA = {
    "documentedStories": [],
    "kind": "person",
    "toldWithin": "the-society-of-jesus",
-   "reviewStatus": "AI-checked"
+   "reviewStatus": "AI-checked",
+   "major": false,
+   "activeYear": 1540
   },
   {
    "id": "john-wesley",
@@ -82292,7 +82485,9 @@ const DATA = {
    "documentedStories": [],
    "kind": "person",
    "toldWithin": "the-methodist-revival",
-   "reviewStatus": "AI-checked"
+   "reviewStatus": "AI-checked",
+   "major": false,
+   "activeYear": 1738
   },
   {
    "id": "polycarp-of-smyrna",
@@ -82344,7 +82539,9 @@ const DATA = {
     "Irenaeus of Lyon — who saw Polycarp in his youth and wrote down what he remembered of him"
    ],
    "legacy": "Two later traditions name him. The church historians Socrates of Constantinople and Sozomen tell of his Easter dispute with the bishop of Rome. Sozomen says that bishop was Victor I. The Library's note says it was Anicetus.\n\nThe Anabaptists' Martyrs' Mirror tells his death at length. It has him tell the governor, “I have now served my Lord Christ Jesus eighty-six years.”",
-   "reviewStatus": "AI-checked"
+   "reviewStatus": "AI-checked",
+   "major": false,
+   "activeYear": 155
   },
   {
    "id": "methodius-of-olympus",
@@ -82496,7 +82693,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": false,
+   "activeYear": 312
   },
   {
    "id": "lactantius",
@@ -82541,7 +82740,9 @@ const DATA = {
     "Jerome — who lists his books and says he taught the son of Constantine"
    ],
    "legacy": "Two later traditions name him. Jerome, in his letters, says Lactantius has “a flow of eloquence worthy of Tully”, meaning Cicero. He adds a wish that Lactantius had been as ready to teach Christian doctrines as to pull down those of others. His catalog of Christian writers lists his books.\n\nCalvin cites him too. In the Institutes he ends one argument “with Lactantius”, that no religion is genuine if it does not agree with truth. On images, he tells readers to read Lactantius and Eusebius of Caesarea. A letter in his collected letters calls Lactantius “an ancient doctor of the Church.”",
-   "reviewStatus": "AI-checked"
+   "reviewStatus": "AI-checked",
+   "major": false,
+   "activeYear": 312
   },
   {
    "id": "paula-of-rome",
@@ -82594,7 +82795,9 @@ const DATA = {
     "Eustochium — her daughter, who sailed with her and shared her vows"
    ],
    "legacy": "Later Catholic writers hold her up as a model. A Catholic Life of Lady Magdalen Montague, printed in English in 1627, cites Jerome on \"the most noble widdow S. Paula\" to show how its heroine mourned her husband.\n\nIn Mexico, the nun Sor Juana Ines de la Cruz calls her \"my most holy Mother Paula\" and names her as a woman learned in Hebrew, Greek and Latin. Sor Juana says that she, a nun and \"daughter of a St. Jerome and of a Santa Paula\", would fall short of such learned parents if she stayed ignorant.",
-   "reviewStatus": "AI-checked"
+   "reviewStatus": "AI-checked",
+   "major": false,
+   "activeYear": 386
   },
   {
    "id": "constantine-the-great",
@@ -82630,9 +82833,9 @@ const DATA = {
     "Asia Minor",
     "Mediterranean"
    ],
-   "lane": "3<->5 bridge (Greek East / Latin West)",
-   "laneLabel": "Greek East / Latin West — bridge",
-   "laneOrder": 3.5,
+   "lane": "3.4 Church and Empire",
+   "laneLabel": "Church and Empire",
+   "laneOrder": 3.4,
    "beyondFloor": false,
    "status": "Within Another World (A5)",
    "chip": "exc",
@@ -82736,7 +82939,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": false,
+   "activeYear": 325
   },
   {
    "id": "basil-of-caesarea",
@@ -82789,7 +82994,9 @@ const DATA = {
     "Gregory of Nazianzus — his friend, whom he made bishop of Sasima"
    ],
    "legacy": "Later churches call him \"the Great\". Mark of Ephesus cites what Basil the Great says in his own prayers, which were said each year at Pentecost. Dositheus and his synod at Jerusalem, in 1672, name \"Basil the Great\" too. They say he answered slander in one short letter.\n\nThe Second Council of Nicaea, in 787, told double monasteries to keep \"the rule of our holy Father Basil\". Benedict's Rule lists \"the Rule of our Holy Father St. Basil\" among the books for monks.\n\nGennadius says Rufinus put works of Basil into Latin.\n\nJerome says Ambrose's Six Days took more from Basil than from Origen.",
-   "reviewStatus": "AI-checked"
+   "reviewStatus": "AI-checked",
+   "major": false,
+   "activeYear": 370
   },
   {
    "id": "gregory-of-nazianzus",
@@ -82967,7 +83174,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": false,
+   "activeYear": 381
   },
   {
    "id": "patrick-of-ireland",
@@ -83024,7 +83233,9 @@ const DATA = {
     "Muirchu — the Irish writer, active about 697, whose Life of Patrick the Library holds beside the letters"
    ],
    "legacy": "Later churches kept his name. A Life of Patrick in the Irish Book of Lismore calls him chief apostle of the west of the world, and father of baptism and belief of the men of Ireland. The Welsh History of the Britons counts the years from the birth of Christ to the coming of Patrick among the Scots, that is, the Irish. A Welsh Life of Carannog says Carannog went to Ireland, Patrick having gone before him. A Welsh Life of David says angels told Patrick of David thirty years before David was born.\n\nThese writers add what his letters never say. The History of the Britons says Pope Celestine sent him. White, his editor, finds that the early evidence is against it. The History says he was a swineherd for seven years. His own letter, the earlier witness, says six.",
-   "reviewStatus": "AI-checked"
+   "reviewStatus": "AI-checked",
+   "major": false,
+   "activeYear": 432
   },
   {
    "id": "justinian-i",
@@ -83075,7 +83286,9 @@ const DATA = {
     "Justinian — emperor from 527 to 565, whose Novels, the laws issued in his name, the Library holds in Latin and Greek"
    ],
    "legacy": "Two later churches name him, and they disagree. In the Russian record of the case against Patriarch Nikon, a reply cites a Novel of his. It says the pope of the elder Rome is first of all the priests, and the bishop of Constantinople second.\n\nThe Coptic History of the Patriarchs calls him an evil man and a heretic. It says he tried to make the orthodox return to the faith of Chalcedon, and that he seized the patriarch Severus of Antioch. It says he was like Nestorius.",
-   "reviewStatus": "AI-checked"
+   "reviewStatus": "AI-checked",
+   "major": false,
+   "activeYear": 553
   },
   {
    "id": "bede-of-jarrow",
@@ -83212,7 +83425,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": true,
+   "activeYear": 731
   },
   {
    "id": "gregory-vii",
@@ -83264,7 +83479,9 @@ const DATA = {
     "Henry IV — the German king Gregory VII cut off from the church, whose oath at Canossa is recorded in the same source book"
    ],
    "legacy": "His name stayed on the reform. Later Protestants named him as the start of the papal claims. John Calvin wrote that Hildebrand, 'an impure and wicked man', won the popes the rank of emperors. The German Pietist Bengel called the beast of Revelation 'the Hildebrandine Papacy'. After 1660 English writers named him too. Barlow wrote that Pope Hildebrand deposed the Emperor Henry IV. These writers name him in blame. They do not claim him as a model.",
-   "reviewStatus": "AI-checked"
+   "reviewStatus": "AI-checked",
+   "major": false,
+   "activeYear": 1076
   },
   {
    "id": "innocent-iii",
@@ -83316,7 +83533,9 @@ const DATA = {
     "Francis of Assisi — whose first Rule says Innocent confirmed his way of life"
    ],
    "legacy": "The Roman Catechism names him. It says that a council at the Lateran, held under him, backed the church's ruling on the Eucharist.\n\nThe Anabaptist Martyrs Mirror says he was the first to set up the office of inquisition. It prints a letter he wrote to an archbishop.",
-   "reviewStatus": "AI-checked"
+   "reviewStatus": "AI-checked",
+   "major": false,
+   "activeYear": 1215
   },
   {
    "id": "hugo-grotius",
@@ -83447,7 +83666,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": false,
+   "activeYear": 1617
   },
   {
    "id": "pamphilus-of-caesarea",
@@ -83502,7 +83723,9 @@ const DATA = {
     "Rufinus — who put Book I into Latin and gave it under Pamphilus's name"
    ],
    "legacy": "Two later worlds in the Library name him. Eusebius of Caesarea, writing in the church of the Constantinian empire, calls him \"the great glory of the parish of Cæsarea.\" Eusebius was his friend, so this voice stands close to Pamphilus's own circle.\n\nJerome, in his ascetic and literary circle, calls him a copyist.\n\nHe calls him the founder of the library at Caesarea. He says he found six volumes of Eusebius's Apology there.\n\nHe wrote against Rufinus that Eusebius himself says \"Pamphilus wrote nothing except some short letters to his friends.\"",
-   "reviewStatus": "AI-checked"
+   "reviewStatus": "AI-checked",
+   "major": false,
+   "activeYear": 309
   },
   {
    "id": "bonaventure",
@@ -83561,7 +83784,9 @@ const DATA = {
     "Nicolaus Glassberger — the Observant chronicler who records Bonaventure's chapters and orders"
    ],
    "legacy": "Later Catholic writers name him. Liguori, in The Glories of Mary, writes that \"St. Bonaventure declares\" that those who publish Mary's glories are sure of paradise. The sentence names no work of his.\n\nGlassberger, a friar, tells of his chapters. In 1269, he says, Bonaventure held a general chapter at Assisi. It ordered that, out of reverence for the Virgin, a Mass be sung solemnly each Saturday, where this could fittingly be done.\n\nEnglish editors of the mystics name him too. In 1924 Justin McCann called him \"a disciple of Richard\" in his mystical teaching. This is Richard of St Victor. In 1914 Evelyn Underhill named him among three masters of Rolle. In 1923 she said Hilton depends on Bernard and Bonaventura, too.",
-   "reviewStatus": "AI-checked"
+   "reviewStatus": "AI-checked",
+   "major": false,
+   "activeYear": 1257
   },
   {
    "id": "heraclius",
@@ -83615,7 +83840,9 @@ const DATA = {
     "Martin I — the pope whose Lateran council of 649 condemned the Ecthesis"
    ],
    "legacy": "Armenian writers name him. Giovanni de Serpos, in his history of 1786, says the Armenian patriarch Yezr held the council at Karin to please the emperor Heraclius and the Greek curopalates. He also gives the clergy's answer. They say the Armenians gave way from a wish for peace, from respect for Heraclius, from joy at his victories, and from a wish to win him as their defender against the Persians.\n\nThe Church of the East names him too. The Chronicle of Seert tells how Heraclius, whom it calls son of the master of Egypt, sailed to Constantinople, and how Phocas fell. It also records his death. The editor, Addai Scher, notes that the printed year should read 952 of Alexander. These writers name Heraclius for his war and his church policy.",
-   "reviewStatus": "AI-checked"
+   "reviewStatus": "AI-checked",
+   "major": false,
+   "activeYear": 638
   },
   {
    "atlasId": "VII.34",
@@ -85693,7 +85920,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": true,
+   "activeYear": 69
   },
   {
    "id": "suetonius",
@@ -85786,7 +86015,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": false,
+   "activeYear": 121
   },
   {
    "id": "tacitus",
@@ -85906,7 +86137,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": false,
+   "activeYear": 100
   },
   {
    "id": "hermas",
@@ -86011,7 +86244,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": false,
+   "activeYear": 147
   },
   {
    "id": "ignatius-of-antioch",
@@ -86131,7 +86366,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": true,
+   "activeYear": 107
   },
   {
    "id": "pliny-the-younger",
@@ -86241,7 +86478,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": false,
+   "activeYear": 112
   },
   {
    "id": "valentinus",
@@ -86351,7 +86590,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": false,
+   "activeYear": 150
   },
   {
    "id": "marcion-of-pontus",
@@ -86464,7 +86705,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": true,
+   "activeYear": 150
   },
   {
    "id": "bardaisan-of-edessa",
@@ -86581,7 +86824,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": false,
+   "activeYear": 189
   },
   {
    "id": "justin-martyr",
@@ -86697,7 +86942,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": true,
+   "activeYear": 165
   },
   {
    "id": "tatian",
@@ -86828,7 +87075,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": true,
+   "activeYear": 172
   },
   {
    "id": "clement-of-alexandria",
@@ -86941,7 +87190,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": true,
+   "activeYear": 202
   },
   {
    "id": "polycrates-of-ephesus",
@@ -87052,7 +87303,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": false,
+   "activeYear": 198
   },
   {
    "id": "hippolytus-of-rome",
@@ -87165,7 +87418,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": true,
+   "activeYear": 235
   },
   {
    "id": "dionysius-of-alexandria",
@@ -87274,7 +87529,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": true,
+   "activeYear": 247
   },
   {
    "id": "novatian",
@@ -87384,7 +87641,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": true,
+   "activeYear": 251
   },
   {
    "id": "pontius-the-deacon",
@@ -87476,7 +87735,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": false,
+   "activeYear": 258
   },
   {
    "id": "eusebius-of-caesarea",
@@ -87595,7 +87856,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": true,
+   "activeYear": 325
   },
   {
    "id": "anatolius-of-alexandria-and-laodicea",
@@ -87719,7 +87982,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": false,
+   "activeYear": 270
   },
   {
    "id": "peter-of-alexandria",
@@ -87867,7 +88132,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": true,
+   "activeYear": 311
   },
   {
    "id": "antony-the-great",
@@ -87972,7 +88239,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": true,
+   "activeYear": 338
   },
   {
    "id": "hilarion-of-gaza",
@@ -88045,7 +88314,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": false,
+   "activeYear": 331
   },
   {
    "id": "pachomius",
@@ -88141,7 +88412,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": true,
+   "activeYear": 320
   },
   {
    "id": "hilary-of-poitiers",
@@ -88264,7 +88537,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": true,
+   "activeYear": 356
   },
   {
    "id": "melitius-of-lycopolis",
@@ -88372,7 +88647,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": false,
+   "activeYear": 306
   },
   {
    "id": "epiphanius-of-salamis",
@@ -88503,7 +88780,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": true,
+   "activeYear": 368
   },
   {
    "id": "ulfila",
@@ -88638,7 +88917,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": true,
+   "activeYear": 341
   },
   {
    "id": "alexander-of-alexandria",
@@ -88765,7 +89046,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": false,
+   "activeYear": 312
   },
   {
    "id": "cyril-of-jerusalem",
@@ -88871,7 +89154,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": true,
+   "activeYear": 348
   },
   {
    "id": "arius",
@@ -88994,7 +89279,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": true,
+   "activeYear": 325
   },
   {
    "id": "eusebius-of-nicomedia",
@@ -89125,7 +89412,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": true,
+   "activeYear": 325
   },
   {
    "id": "marcellus-of-ancyra",
@@ -89259,7 +89548,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": false,
+   "activeYear": 325
   },
   {
    "id": "ammianus-marcellinus",
@@ -89375,7 +89666,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": false,
+   "activeYear": 390
   },
   {
    "id": "frumentius",
@@ -89479,7 +89772,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": true,
+   "activeYear": 328
   },
   {
    "id": "ossius-of-cordoba",
@@ -89498,9 +89793,9 @@ const DATA = {
     "Asia Minor",
     "Mediterranean"
    ],
-   "lane": "3<->5 bridge (Greek East / Latin West)",
-   "laneLabel": "Greek East / Latin West — bridge",
-   "laneOrder": 3.5,
+   "lane": "3.4 Church and Empire",
+   "laneLabel": "Church and Empire",
+   "laneOrder": 3.4,
    "beyondFloor": false,
    "status": "Within Another World (A5)",
    "chip": "exc",
@@ -89596,7 +89891,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": false,
+   "activeYear": 357
   },
   {
    "id": "rufinus-of-aquileia",
@@ -89762,7 +90059,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": true,
+   "activeYear": 400
   },
   {
    "id": "evagrius-ponticus",
@@ -89903,7 +90202,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": true,
+   "activeYear": 381
   },
   {
    "id": "apollinaris-of-laodicea",
@@ -90049,7 +90350,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": true,
+   "activeYear": 381
   },
   {
    "id": "aetius-of-antioch",
@@ -90161,7 +90464,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": false,
+   "activeYear": 360
   },
   {
    "id": "didymus-the-blind",
@@ -90297,7 +90602,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": false,
+   "activeYear": 353
   },
   {
    "id": "liberius-of-rome",
@@ -90324,9 +90631,9 @@ const DATA = {
     "Mediterranean",
     "Asia Minor"
    ],
-   "lane": "3<->5 bridge (Greek East / Latin West)",
-   "laneLabel": "Greek East / Latin West — bridge",
-   "laneOrder": 3.5,
+   "lane": "3.4 Church and Empire",
+   "laneLabel": "Church and Empire",
+   "laneOrder": 3.4,
    "beyondFloor": false,
    "status": "Within Another World (A5)",
    "chip": "exc",
@@ -90441,7 +90748,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": false,
+   "activeYear": 352
   },
   {
    "id": "lucifer-of-cagliari",
@@ -90542,7 +90851,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": false,
+   "activeYear": 355
   },
   {
    "id": "eunomius-of-cyzicus",
@@ -90660,7 +90971,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": true,
+   "activeYear": 383
   },
   {
    "id": "john-cassian",
@@ -90775,7 +91088,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": true,
+   "activeYear": 399
   },
   {
    "id": "mesrop-mashtots",
@@ -90873,7 +91188,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": true,
+   "activeYear": 401
   },
   {
    "id": "sulpicius-severus",
@@ -90985,7 +91302,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": false,
+   "activeYear": 392
   },
   {
    "id": "philostorgius",
@@ -91099,7 +91418,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": false,
+   "activeYear": 425
   },
   {
    "id": "damasus-of-rome",
@@ -91126,9 +91447,9 @@ const DATA = {
     "Mediterranean",
     "Asia Minor"
    ],
-   "lane": "3<->5 bridge (Greek East / Latin West)",
-   "laneLabel": "Greek East / Latin West — bridge",
-   "laneOrder": 3.5,
+   "lane": "3.4 Church and Empire",
+   "laneLabel": "Church and Empire",
+   "laneOrder": 3.4,
    "beyondFloor": false,
    "status": "Within Another World (A5)",
    "chip": "exc",
@@ -91237,7 +91558,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": true,
+   "activeYear": 366
   },
   {
    "id": "olympias-of-constantinople",
@@ -91343,7 +91666,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": false,
+   "activeYear": 414
   },
   {
    "id": "sozomen",
@@ -91452,7 +91777,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": false,
+   "activeYear": 444
   },
   {
    "id": "paulinus-of-milan",
@@ -91581,7 +91908,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": false,
+   "activeYear": 417
   },
   {
    "id": "macrina-the-younger",
@@ -91669,7 +91998,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": false,
+   "activeYear": 379
   },
   {
    "id": "priscillian",
@@ -91792,7 +92123,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": true,
+   "activeYear": 385
   },
   {
    "id": "socrates-of-constantinople",
@@ -91898,7 +92231,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": false,
+   "activeYear": 439
   },
   {
    "id": "tyconius",
@@ -92025,7 +92360,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": false,
+   "activeYear": 380
   },
   {
    "id": "auxentius-of-durostorum",
@@ -92124,7 +92461,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": false,
+   "activeYear": 384
   },
   {
    "id": "palladius-of-helenopolis",
@@ -92254,7 +92593,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": false,
+   "activeYear": 419
   },
   {
    "id": "theodoret-of-cyrrhus",
@@ -92383,7 +92724,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": true,
+   "activeYear": 449
   },
   {
    "id": "fabiola-of-rome",
@@ -92468,7 +92811,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": false,
+   "activeYear": 395
   },
   {
    "id": "martin-of-tours",
@@ -92575,7 +92920,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": true,
+   "activeYear": 371
   },
   {
    "id": "melania-the-elder",
@@ -92679,7 +93026,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": false,
+   "activeYear": 397
   },
   {
    "id": "possidius-of-calama",
@@ -92799,7 +93148,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": false,
+   "activeYear": 411
   },
   {
    "id": "moses-the-black",
@@ -92892,7 +93243,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": false,
+   "activeYear": 419
   },
   {
    "id": "marcella-of-rome",
@@ -92967,7 +93320,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": false,
+   "activeYear": 410
   },
   {
    "id": "pelagius",
@@ -93114,7 +93469,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": true,
+   "activeYear": 415
   },
   {
    "id": "cyril-of-alexandria",
@@ -93251,7 +93608,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": true,
+   "activeYear": 431
   },
   {
    "id": "honoratus-of-arles",
@@ -93357,7 +93716,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": false,
+   "activeYear": 426
   },
   {
    "id": "germanus-of-auxerre",
@@ -93454,7 +93815,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": false,
+   "activeYear": 429
   },
   {
    "id": "hilary-of-arles",
@@ -93566,7 +93929,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": false,
+   "activeYear": 429
   },
   {
    "id": "marius-mercator",
@@ -93678,7 +94043,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": false,
+   "activeYear": 429
   },
   {
    "id": "prosper-of-aquitaine",
@@ -93797,7 +94164,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": false,
+   "activeYear": 429
   },
   {
    "id": "koriun",
@@ -93895,7 +94264,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": false,
+   "activeYear": 432
   },
   {
    "id": "leo-of-rome",
@@ -93922,9 +94293,9 @@ const DATA = {
     "Mediterranean",
     "Asia Minor"
    ],
-   "lane": "3<->5 bridge (Greek East / Latin West)",
-   "laneLabel": "Greek East / Latin West — bridge",
-   "laneOrder": 3.5,
+   "lane": "3.4 Church and Empire",
+   "laneLabel": "Church and Empire",
+   "laneOrder": 3.4,
    "beyondFloor": false,
    "status": "Within Another World (A5)",
    "chip": "exc",
@@ -94019,7 +94390,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": true,
+   "activeYear": 449
   },
   {
    "id": "eutyches",
@@ -94136,7 +94509,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": true,
+   "activeYear": 448
   },
   {
    "id": "eznik-of-kolb",
@@ -94241,7 +94616,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": false,
+   "activeYear": 450
   },
   {
    "id": "councils-of-rome-and-carthage-251",
@@ -96688,7 +97065,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": false,
+   "activeYear": 451
   },
   {
    "id": "faustus-of-riez",
@@ -96840,7 +97219,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": false,
+   "activeYear": 473
   },
   {
    "id": "dioscorus-of-alexandria",
@@ -96978,7 +97359,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": true,
+   "activeYear": 449
   },
   {
    "id": "barsauma-of-nisibis",
@@ -97130,7 +97513,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": true,
+   "activeYear": 484
   },
   {
    "id": "elishe",
@@ -97232,7 +97617,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": false,
+   "activeYear": 450
   },
   {
    "id": "vardan-mamikonian",
@@ -97316,7 +97703,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": true,
+   "activeYear": 451
   },
   {
    "id": "severinus-of-noricum",
@@ -97409,7 +97798,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": false,
+   "activeYear": 453
   },
   {
    "id": "theopistus",
@@ -97522,7 +97913,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": false,
+   "activeYear": 454
   },
   {
    "id": "brigid-of-kildare",
@@ -97629,7 +98022,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": false,
+   "activeYear": 487
   },
   {
    "id": "timothy-aelurus",
@@ -97759,7 +98154,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": true,
+   "activeYear": 457
   },
   {
    "id": "narsai",
@@ -97889,7 +98286,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": true,
+   "activeYear": 457
   },
   {
    "id": "avitus-of-vienne",
@@ -98032,7 +98431,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": false,
+   "activeYear": 517
   },
   {
    "id": "caesarius-of-arles",
@@ -98170,7 +98571,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": true,
+   "activeYear": 529
   },
   {
    "id": "constantius-of-lyon",
@@ -98286,7 +98689,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": false,
+   "activeYear": 480
   },
   {
    "id": "john-rufus",
@@ -98394,7 +98799,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": false,
+   "activeYear": 513
   },
   {
    "id": "gennadius-of-marseilles",
@@ -98525,7 +98932,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": false,
+   "activeYear": 480
   },
   {
    "id": "boethius",
@@ -98704,7 +99113,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": true,
+   "activeYear": 524
   },
   {
    "id": "benedict-of-nursia",
@@ -98805,7 +99216,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": true,
+   "activeYear": 529
   },
   {
    "id": "cassiodorus",
@@ -98938,7 +99351,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": true,
+   "activeYear": 514
   },
   {
    "id": "moses-of-khoren",
@@ -99042,7 +99457,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": false,
+   "activeYear": 481
   },
   {
    "id": "victor-of-vita",
@@ -99151,7 +99568,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": false,
+   "activeYear": 488
   },
   {
    "id": "lazar-parpetsi",
@@ -99270,7 +99689,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": false,
+   "activeYear": 486
   },
   {
    "id": "ruricius-of-limoges",
@@ -99388,7 +99809,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": false,
+   "activeYear": 485
   },
   {
    "id": "philoxenus-of-mabbug",
@@ -99552,7 +99975,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": true,
+   "activeYear": 485
   },
   {
    "id": "romanos-the-melodist",
@@ -99677,7 +100102,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": false,
+   "activeYear": 503
   },
   {
    "id": "zachariah-rhetor",
@@ -99787,7 +100214,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": false,
+   "activeYear": 491
   },
   {
    "id": "dionysius-exiguus",
@@ -99971,7 +100400,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": true,
+   "activeYear": 525
   },
   {
    "id": "gildas",
@@ -100116,7 +100547,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": true,
+   "activeYear": 543
   },
   {
    "id": "fulgentius-of-ruspe",
@@ -100275,7 +100708,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": true,
+   "activeYear": 504
   },
   {
    "id": "joshua-the-stylite",
@@ -100392,7 +100827,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": false,
+   "activeYear": 506
   },
   {
    "id": "john-of-ephesus",
@@ -100510,7 +100947,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": false,
+   "activeYear": 585
   },
   {
    "id": "eugippius",
@@ -100667,7 +101106,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": false,
+   "activeYear": 511
   },
   {
    "id": "caesaria-of-arles-the-elder",
@@ -100754,7 +101195,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": false,
+   "activeYear": 512
   },
   {
    "id": "severus-of-antioch",
@@ -100894,7 +101337,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": true,
+   "activeYear": 512
   },
   {
    "id": "marcellinus-comes",
@@ -100992,7 +101437,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": false,
+   "activeYear": 534
   },
   {
    "id": "samson-of-dol",
@@ -101104,7 +101551,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": false,
+   "activeYear": 521
   },
   {
    "id": "columba",
@@ -101220,7 +101669,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": true,
+   "activeYear": 563
   },
   {
    "id": "cyril-of-scythopolis",
@@ -101319,7 +101770,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": false,
+   "activeYear": 557
   },
   {
    "id": "cosmas-indicopleustes",
@@ -101421,7 +101874,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": false,
+   "activeYear": 547
   },
   {
    "id": "theodora-wife-of-justinian",
@@ -101559,7 +102014,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": true,
+   "activeYear": 527
   },
   {
    "id": "barsanuphius-and-john-of-gaza",
@@ -101671,7 +102128,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": false,
+   "activeYear": 546
   },
   {
    "id": "procopius-of-caesarea",
@@ -101799,7 +102258,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": false,
+   "activeYear": 527
   },
   {
    "id": "venantius-fortunatus",
@@ -101948,7 +102409,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": false,
+   "activeYear": 565
   },
   {
    "id": "theodosius-i-of-alexandria",
@@ -102120,7 +102583,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": true,
+   "activeYear": 535
   },
   {
    "id": "liberatus-of-carthage",
@@ -102267,7 +102732,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": false,
+   "activeYear": 561
   },
   {
    "id": "evagrius-scholasticus",
@@ -102389,7 +102856,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": false,
+   "activeYear": 594
   },
   {
    "id": "vigilius-of-rome",
@@ -102537,7 +103006,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": true,
+   "activeYear": 553
   },
   {
    "id": "john-of-beth-aphthonia",
@@ -102699,7 +103170,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": false,
+   "activeYear": 538
   },
   {
    "id": "gregory-of-tours",
@@ -102846,7 +103319,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": false,
+   "activeYear": 573
   },
   {
    "id": "mar-aba-i",
@@ -102973,7 +103448,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": true,
+   "activeYear": 540
   },
   {
    "id": "dorotheus-of-gaza",
@@ -103091,7 +103568,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": false,
+   "activeYear": 596
   },
   {
    "id": "jacob-baradaeus",
@@ -103224,7 +103703,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": true,
+   "activeYear": 542
   },
   {
    "id": "julian-missionary-to-the-nobadae",
@@ -103316,7 +103797,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": true,
+   "activeYear": 545
   },
   {
    "id": "columbanus",
@@ -103479,7 +103962,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": true,
+   "activeYear": 614
   },
   {
    "id": "ciaran-of-clonmacnois",
@@ -103613,7 +104098,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": false,
+   "activeYear": 544
   },
   {
    "id": "ferrandus-of-carthage",
@@ -103746,7 +104233,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": false,
+   "activeYear": 546
   },
   {
    "id": "martin-of-braga",
@@ -103908,7 +104397,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": false,
+   "activeYear": 572
   },
   {
    "id": "primasius-of-hadrumetum",
@@ -104080,7 +104571,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": false,
+   "activeYear": 553
   },
   {
    "id": "agathias",
@@ -104191,7 +104684,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": false,
+   "activeYear": 570
   },
   {
    "id": "victor-of-tunnuna",
@@ -104347,7 +104842,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": false,
+   "activeYear": 555
   },
   {
    "id": "brendan-of-clonfert",
@@ -104484,7 +104981,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": false,
+   "activeYear": 559
   },
   {
    "id": "john-climacus",
@@ -104642,7 +105141,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": true,
+   "activeYear": 580
   },
   {
    "id": "longinus-bishop-of-the-nobadae",
@@ -104740,7 +105241,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": false,
+   "activeYear": 580
   },
   {
    "id": "babai-the-great",
@@ -104931,7 +105434,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": true,
+   "activeYear": 612
   },
   {
    "id": "henana-of-adiabene",
@@ -105082,7 +105587,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": false,
+   "activeYear": 572
   },
   {
    "id": "marius-of-avenches",
@@ -105205,7 +105712,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": false,
+   "activeYear": 585
   },
   {
    "id": "john-of-biclaro",
@@ -105347,7 +105856,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": false,
+   "activeYear": 576
   },
   {
    "id": "leander-of-seville",
@@ -105518,7 +106029,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": true,
+   "activeYear": 589
   },
   {
    "id": "barhadbeshabba-arbaya",
@@ -105698,7 +106211,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": false,
+   "activeYear": 590
   },
   {
    "id": "reccared",
@@ -105857,7 +106372,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": true,
+   "activeYear": 589
   },
   {
    "id": "radegund",
@@ -105979,7 +106496,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": false,
+   "activeYear": 587
   },
   {
    "id": "david-of-wales",
@@ -106096,7 +106615,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": false,
+   "activeYear": 519
   },
   {
    "id": "augustine-of-canterbury",
@@ -106216,7 +106737,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": true,
+   "activeYear": 597
   },
   {
    "id": "baudonivia",
@@ -106344,7 +106867,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": false,
+   "activeYear": 601
   },
   {
    "id": "john-moschus",
@@ -106455,7 +106980,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": false,
+   "activeYear": 600
   },
   {
    "id": "isidore-of-seville",
@@ -106651,7 +107178,9 @@ const DATA = {
       }
      ]
     }
-   }
+   },
+   "major": true,
+   "activeYear": 633
   },
   {
    "id": "second-council-of-constantinople-553",
@@ -110339,32 +110868,30 @@ const DATA = {
 ;
 
 const FAM=[
- {k:0,  lbl:"Origin",      c:"#e15a4f", cd:"#e86155"},
- {k:1,  lbl:"Syriac East", c:"#883a51", cd:"#95455c"},
- {k:1.5,lbl:"Syriac/Prot. bridge", c:"#a58a00", cd:"#ac9000"},
- {k:2,  lbl:"Caucasus",    c:"#29672e", cd:"#357339"},
- {k:3,  lbl:"Greek East",  c:"#3849b6", cd:"#4255c4"},
- {k:3.5,lbl:"Greek/Latin bridge", c:"#9c74d9", cd:"#a27adf"},
- {k:3.6,lbl:"Greek East/Prot. bridge", c:"#d76821", cd:"#de6e29"},
- {k:4,  lbl:"Africa",      c:"#009fab", cd:"#12a5b1"},
- {k:4.5,lbl:"Africa/Latin bridge", c:"#4d7c0f", cd:"#65a30d"},
- {k:5,  lbl:"Latin West",  c:"#7c4b00", cd:"#8b5500"},
- {k:5.5,lbl:"Latin/Prot. bridge", c:"#71379a", cd:"#7d43a7"},
- {k:6,  lbl:"Protestant & Evangelical", c:"#1c8cfb", cd:"#2c93ff"},
- {k:7,  lbl:"Global Revival & Pentecostal", c:"#db509e", cd:"#e257a4"},
- {k:50, lbl:"Cross-Family", c:"#717918", cd:"#798224"},
- {k:80, lbl:"Non-Nicene",  c:"#6369b2", cd:"#6c72bc"}
+ {k:0,  lore:"Origin", name:"Origin", common:"The first churches", col:"#e86155"},
+ {k:1,  lore:"Syriac East", name:"Syriac East", common:"Church of the East and Syriac churches", col:"#95455c"},
+ {k:1.5,lore:"Syriac/Prot. bridge", name:"Syriac and Protestant", common:"Reformed churches of India", col:"#ac9000"},
+ {k:2,  lore:"Caucasus", name:"Caucasus", common:"Armenian and Georgian", col:"#357339"},
+ {k:3,  lore:"Greek East", name:"Greek East", common:"Orthodox", col:"#4255c4"},
+ {k:3.4,lore:null, name:"Church and Empire", common:"The church of the Roman empire", col:"#de6e29"},
+ {k:3.5,lore:null, name:"Greek and Latin", common:"Eastern Catholic", col:"#a27adf"},
+ {k:4,  lore:"Africa", name:"Africa", common:"Coptic, Ethiopian and African churches", col:"#12a5b1"},
+ {k:4.5,lore:"Africa/Latin bridge", name:"Africa and Latin", common:"Catholics in Africa", col:"#65a30d"},
+ {k:5,  lore:"Latin West", name:"Latin West", common:"Catholic", col:"#8b5500"},
+ {k:5.5,lore:"Latin/Prot. bridge", name:"Latin and Protestant", common:"", col:"#7d43a7"},
+ {k:6,  lore:"Protestant & Evangelical", name:"Protestant & Evangelical", common:"", col:"#2c93ff"},
+ {k:7,  lore:"Global Revival & Pentecostal", name:"Global Revival & Pentecostal", common:"", col:"#e257a4"},
+ {k:50, lore:"Cross-Family", name:"Across families", common:"", col:"#798224"},
+ {k:80, lore:"Non-Nicene", name:"Non-Nicene", common:"Outside the Nicene creed", col:"#6c72bc"}
 ];
 function famOf(laneOrder){let best=FAM[0],bd=1e9;FAM.forEach(f=>{const d=Math.abs(f.k-laneOrder);if(d<bd){bd=d;best=f;}});return best;}
-const isDark=()=>document.documentElement.getAttribute('data-theme')!=='light';
-const famColor=f=>isDark()?f.cd:f.c;
+const famColor=f=>f.col;
 
 const RIVER_CALM_OP=0.86, RIVER_ORGANIC_OP=0.94;
-const EDGE_CALM_OP=0.85, EDGE_ORGANIC_OP=0.7, EDGE_ACTIVE_OP=1;
-const EDGE_ORGANIC_OP_DARK=0.75;
+const EDGE_CALM_OP=0.85, EDGE_ORGANIC_OP=0.75, EDGE_ACTIVE_OP=1;
 
-const eraLight=['#F6F6F2','#F6F6F2','#F6F6F2'], eraDark=['#241A0C','#1E1C16','#151A1E'];
-function eraGround(i){return isDark()?eraDark[i%3]:eraLight[i%3];}
+const ERA_GROUND=['#241A0C','#1E1C16','#151A1E'];
+function eraGround(i){return ERA_GROUND[i%3];}
 
 const PERSON_IDS=new Set(DATA.movements.filter(m=>m.kind==='person').map(m=>m.id));
 const personEntries=DATA.movements.filter(m=>PERSON_IDS.has(m.id));
@@ -110401,10 +110928,6 @@ const hSum=eraH.reduce((a,b)=>a+b,0);
 eraH=eraH.map(h=>h/hSum*TOTAL_H);
 
 const HEADER_GUTTER=230;
-eraH=eraH.map(h=>h+HEADER_GUTTER);
-let eraY0=[]; {let y=40; eras.forEach((e,i)=>{eraY0.push(y); y+=eraH[i];});}
-const CANVAS_H=eraY0[eraY0.length-1]+eraH[eraH.length-1]+60;
-
 function yearRangeForEra(e){
   const m=/(\d+)\D+(\d+|present)/.exec(e.dates)||[];
   let a=e.num===1?70:parseInt(m[1]||e.num*100,10);
@@ -110412,11 +110935,52 @@ function yearRangeForEra(e){
   return [a,b];
 }
 const eraYearRange=eras.map(yearRangeForEra);
+function eraOfYear(y){for(let i=0;i<eras.length;i++)if(y<eraYearRange[i][1]||i===eras.length-1)return i;return 0;}
+const WARP_ROW=30;
+const eraWarp=eras.map((e,i)=>{
+  const [a,b]=eraYearRange[i], rate=eraH[i]/Math.max(1,b-a);
+  const at={};
+  const count=(year,lane)=>{
+    if(eraOfYear(year)!==i)return;
+    const y=Math.max(a,Math.min(b,year));
+    (at[y]=at[y]||{})[lane]=(at[y][lane]||0)+1;
+  };
+  churchBodies.forEach(m=>count(+m.start,m.laneOrder));
+  (DATA.stories||[]).forEach(s=>count(+s.year,s.laneOrder));
+  const years=Object.keys(at).map(Number).sort((p,q)=>p-q);
+  const xs=[a], ys=[0], last={};
+  years.forEach(y=>{
+    let Y=ys[ys.length-1]+(y-xs[xs.length-1])*rate;
+    Object.keys(at[y]).forEach(r=>{if(last[r])Y=Math.max(Y,last[r].Y+WARP_ROW*(last[r].n+at[y][r])/2);});
+    if(y===xs[xs.length-1])ys[ys.length-1]=Math.max(ys[ys.length-1],Y);else{xs.push(y);ys.push(Y);}
+    const Yk=ys[ys.length-1];
+    Object.keys(at[y]).forEach(r=>{last[r]={Y:Yk,n:at[y][r]};});
+  });
+  let end=ys[ys.length-1]+(b-xs[xs.length-1])*rate;
+  Object.values(last).forEach(l=>{end=Math.max(end,l.Y+WARP_ROW*l.n);});
+  if(b>xs[xs.length-1]){xs.push(b);ys.push(end);}
+  else{ys[ys.length-1]=Math.max(ys[ys.length-1],end);xs.push(b+1);ys.push(ys[ys.length-1]+WARP_ROW);}
+  return {xs,ys,total:ys[ys.length-1],a,b};
+});
+eraH=eraWarp.map(w=>w.total+HEADER_GUTTER);
+let eraY0=[]; {let y=40; eras.forEach((e,i)=>{eraY0.push(y); y+=eraH[i];});}
+const CANVAS_H=eraY0[eraY0.length-1]+eraH[eraH.length-1]+60;
+function warpT(i,t){
+  const w=eraWarp[i], yr=w.a+Math.max(0,Math.min(1,t))*(w.b-w.a);
+  let j=0; while(j<w.xs.length-2&&w.xs[j+1]<yr)j++;
+  return (w.ys[j]+(yr-w.xs[j])/Math.max(1e-6,w.xs[j+1]-w.xs[j])*(w.ys[j+1]-w.ys[j]))/w.total;
+}
+function unwarpT(i,u){
+  const w=eraWarp[i], v=Math.max(0,Math.min(1,u))*w.total;
+  let j=0; while(j<w.ys.length-2&&w.ys[j+1]<v)j++;
+  const yr=w.xs[j]+(v-w.ys[j])/Math.max(1e-6,w.ys[j+1]-w.ys[j])*(w.xs[j+1]-w.xs[j]);
+  return Math.max(0,Math.min(1,(yr-w.a)/Math.max(1,w.b-w.a)));
+}
 function yearToY(year){
   for(let i=0;i<eras.length;i++){
     const [a,b]=eraYearRange[i];
     if(year<b||i===eras.length-1){
-      const t=Math.max(0,Math.min(1,(year-a)/Math.max(1,(b-a))));
+      const t=warpT(i,Math.max(0,Math.min(1,(year-a)/Math.max(1,(b-a)))));
       return eraY0[i]+HEADER_GUTTER+t*(eraH[i]-HEADER_GUTTER);
     }
   }
@@ -110505,7 +111069,7 @@ const RIVER_ORIGINS = [
   ]
  },
  {
-  "lane": 3.5,
+  "lane": 3.4,
   "parent": 3,
   "basis": "declared",
   "confidence": "Inferential-Thin",
@@ -110521,6 +111085,12 @@ const RIVER_ORIGINS = [
     "license": "public-domain"
    }
   ]
+ },
+ {
+  "lane": 3.5,
+  "parent": 3,
+  "basis": "lineage",
+  "link": "orthodoxy-under-the-ottomans-parish-millet-and-n--the-union-of-brest-and-ruthenian-greek-catholic-"
  },
  {
   "lane": 4,
@@ -110701,7 +111271,7 @@ function smoothedCount(k,year){
 function yearAtY(y){
   for(let i=0;i<eras.length;i++){
     if(y>=eraY0[i] && y<eraY0[i]+eraH[i]+0.01){
-      const t=y<eraY0[i]+HEADER_GUTTER ? 0 : (y-eraY0[i]-HEADER_GUTTER)/(eraH[i]-HEADER_GUTTER);
+      const t=y<eraY0[i]+HEADER_GUTTER ? 0 : unwarpT(i,(y-eraY0[i]-HEADER_GUTTER)/(eraH[i]-HEADER_GUTTER));
       return eraYearRange[i][0]+t*(eraYearRange[i][1]-eraYearRange[i][0]);
     }
   }
@@ -110883,26 +111453,29 @@ const acrossColumns=eras.map((e,i)=>{
   });
   return {x0,top,bottom,movements:ms};
 }).filter(Boolean);
-const COUNCIL_GAP=40, COUNCIL_TRACK=14, COUNCIL_LABEL_GAP=13, COUNCIL_R=7;
-const councilColumns=eras.map((e,i)=>{
-  const cs=councilEntries.filter(c=>c.era===e.num).sort((a,b)=>a.start-b.start||a.id.localeCompare(b.id));
-  if(!cs.length)return null;
-  const top=eraY0[i]+HEADER_GUTTER, bottom=eraY0[i]+eraH[i];
-  const s0=Math.max(0,Math.floor(eraY0[i]/STEP)), s1=Math.min(SAMPLE_COUNT-1,Math.ceil(bottom/STEP));
-  let left=Infinity;
-  laneKeys.forEach(k=>[0,1].forEach(amp=>{
-    const g=laneGeometry[amp];
-    for(let j=s0;j<=s1;j++)if(g.half[k][j]>0)left=Math.min(left,g.own[k][j]-g.half[k][j]);
-  }));
-  const x0=(Number.isFinite(left)?left:70)-COUNCIL_GAP;
-  let lastLabel=-Infinity;
-  cs.forEach(c=>{
-    c._x=x0; c._y=yearToY(c.start);
-    c._labelY=Math.max(c._y+3.5,lastLabel+COUNCIL_LABEL_GAP);
-    lastLabel=c._labelY;
+const COUNCIL_GAP=40, COUNCIL_ROW=38, COUNCIL_R=7;
+const councilColumns=(()=>{
+  const cols=eras.map((e,i)=>{
+    const cs=councilEntries.filter(c=>c.era===e.num).sort((a,b)=>a.start-b.start||a.id.localeCompare(b.id));
+    if(!cs.length)return null;
+    const top=eraY0[i]+HEADER_GUTTER, bottom=eraY0[i]+eraH[i];
+    const s0=Math.max(0,Math.floor(eraY0[i]/STEP)), s1=Math.min(SAMPLE_COUNT-1,Math.ceil(bottom/STEP));
+    let left=Infinity;
+    laneKeys.forEach(k=>[0,1].forEach(amp=>{
+      const g=laneGeometry[amp];
+      for(let j=s0;j<=s1;j++)if(g.half[k][j]>0)left=Math.min(left,g.own[k][j]-g.half[k][j]);
+    }));
+    return {top,bottom,left:Number.isFinite(left)?left:70,councils:cs};
+  }).filter(Boolean);
+  const x0=Math.min(...cols.map(c=>c.left))-COUNCIL_GAP;
+  let lastY=-Infinity;
+  cols.forEach(col=>{
+    col.x0=x0;
+    col.councils.forEach(c=>{c._x=x0;c._y=Math.max(yearToY(c.start),lastY+COUNCIL_ROW);c._labelY=c._y+3.5;lastY=c._y;});
+    col.bottom=Math.max(col.bottom,lastY+20);
   });
-  return {x0,top,bottom,councils:cs};
-}).filter(Boolean);
+  return cols;
+})();
 function acrossPoint(m,y){return {x:m._x,y:Math.max(m._y,Math.min(m._y1,y))};}
 function markPoint(m,toward){return isAcross(m)?acrossPoint(m,toward.y):{x:m._x,y:m._y};}
 
@@ -110943,6 +111516,7 @@ const gStories=el('g',{id:'stories'}); gRoot.appendChild(gStories);
 const gWhoPills=el('g',{id:'who-pills'}); gRoot.appendChild(gWhoPills);
 const gProfPills=el('g',{id:'prof-pills'}); gRoot.appendChild(gProfPills);
 const gWho=el('g',{id:'who'}); gRoot.appendChild(gWho);
+const gAuto=el('g',{id:'who-auto'}); gRoot.appendChild(gAuto);
 const gLabels=el('g',{id:'era-labels'}); gRoot.appendChild(gLabels);
 
 const PORTRAIT_DATA={
@@ -110958,12 +111532,6 @@ const PORTRAIT_DATA={
   "lutheran-wittenberg-and-its-congregations":"data:image/jpeg;base64,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",
   "the-reformed-cities-zurich-and-geneva":"data:image/jpeg;base64,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",
 };
-const PORTRAIT_R=15, PORTRAIT_OFFSET=28;
-const defs=el('defs',{});
-const portraitClip=el('clipPath',{id:'portraitClip'});
-portraitClip.appendChild(el('circle',{cx:0,cy:0,r:PORTRAIT_R}));
-defs.appendChild(portraitClip);
-svg.appendChild(defs);
 
 const WORLD_CONTEXT={
   1:"This band starts where the map does: the Jerusalem Temple falls in 70 CE, running to Constantine's Edict of Milan in 313 — the year the persecution these movements describe finally ends. For the Persian church east of Rome, that divide ran backwards: persecution only intensified after 312.",
@@ -110977,7 +111545,6 @@ const WORLD_CONTEXT={
   9:"Christianity globalizes under empire's shadow and against it. The era's honest theme is entanglement: mission and colonialism, revival and respectability, liberation and paternalism, held together rather than resolved.",
   10:"Christianity's center of gravity moves south and east, and the Pentecostal/Spirit-movement family becomes the largest new Christian reality since the Reformation. For scale: World War I (1914–18) breaks out early in this band."
 };
-const ERA_CONTEXT_WRAP=65;
 const ERA_CLOSE={
   10:"The tree's history runs to 2010. Movements since then will be added as they become history."
 };
@@ -111082,21 +111649,18 @@ const RIVER_LORE={
   }
 };
 
-const LAYOUT_DY=80, LAYOUT_DX=24, LAYOUT_ITER=800, LAYOUT_PAD=2;
+const LAYOUT_DY=110, LAYOUT_DX=24, LAYOUT_ITER=800, LAYOUT_PAD=2;
 const NAME_CHAR=5.6, NAME_CHAR_BOLD=5.8, PLACE_CHAR=5.0, STORY_CHAR=5.0, PLACE_FONT=9;
 function nameSideLeft(x){return x>CANVAS_W-220;}
 function placeLine(m){return CFTPlace.formatPlace(m,{omitIn:m.shortName||m.name});}
 function markRects(item){
+  const left=nameSideLeft(item.x);
   if(item.story){
     const w=item.s.title.length*STORY_CHAR;
-    return [[-8,-7,8,7],nameSideLeft(item.x)?[-(11+w),-7,-9,6]:[9,-7,11+w,6]];
+    return [[-13,-13,13,13],left?[-(11+w),-13,-9,13]:[9,-13,11+w,13]];
   }
-  const m=item.m, built=m.status==='Built & Live';
-  const w=labelRun(m);
-  const rects=[[-5,-5,5,5]];
-  rects.push(nameSideLeft(item.x)?[-(7+w),-8,-5,7]:[5,-8,7+w,7]);
-  if(built&&PORTRAIT_DATA[m.id]&&m.entry)rects.push([-(PORTRAIT_R+4),-PORTRAIT_OFFSET-(PORTRAIT_R+4),PORTRAIT_R+4,-PORTRAIT_OFFSET+(PORTRAIT_R+4)]);
-  return rects;
+  const m=item.m, w=labelRun(m), fig=hasPeople(m)?36:12;
+  return [left?[-12,-13,fig,13]:[-fig,-13,12,13], left?[-(14+w*1.15),-13,-5,13]:[5,-13,14+w*1.15,13]];
 }
 function rectsOverlap(a,ax,ay,b,bx,by){
   let best=null;
@@ -111192,8 +111756,13 @@ const gapAnchors=personEntries.filter(p=>!p.toldWithin).map(p=>{
 });
 function personYear(P){return P.entry?+P.entry.start:Math.min(...P.rows.map(r=>r.row.year));}
 function personDates(P){
-  if(P.entry)return String(P.entry.dates||'').replace(/\bc\.\s*/g,'about ').replace(/(\d)-(\d)/g,'$1–$2');
-  return `active about ${personYear(P)}`;
+  if(!P.entry)return `active about ${personYear(P)}`;
+  return String(P.entry.dates||'')
+    .replace(/\b(\d+(?:st|nd|rd|th))\s+c\./g,'$1 century')
+    .replace(/(\d)-c\.\s*/g,'$1 to about ')
+    .replace(/\bc\.\s*(?=\d)/g,'about ')
+    .replace(/(\d)-(?=[a-z])/g,'$1 to ')
+    .replace(/(\d(?:st|nd|rd|th)?)-(?=\d)/g,'$1–');
 }
 function voiceLine(home,row){
   const line=(home.voices||[])[row.voice];
@@ -111202,22 +111771,21 @@ function voiceLine(home,row){
   return cut===line?'':cut;
 }
 
-const WHO_TRAD_MAX=6, WHO_RIVER_MAX=4, WHO_LINE=14, WHO_ICON=9, WHO_GAP=4, WHO_ROOM_PREF=90, WHO_ROOM_MIN=70, WHO_EDGE_PAD=5;
-const PILL_W=28, PILL_H=14, PILL_GAP=4;
+const Z_RIVER_WHO=0.30, Z_BUILT=0.34, Z_COUNCIL=0.45, Z_MAJOR=0.50, Z_COUNCIL_NAME=0.55, Z_STORY=0.65, Z_ALL=0.80,
+  Z_READ=0.9, Z_STORY_TITLE=1.3, Z_PLACE=1.6, Z_PEOPLE=2.2, Z_DATES=3.4;
+const RIVER_WHO_MAX=5, TRAD_WHO_MAX=4, WHO_FALLBACK=3;
+const MARK_PX=14, MARK_MAX_PX=18, MARK_MIN_U=10;
+function markU(){return Math.min(Math.max(MARK_MIN_U,MARK_PX/scale),MARK_MAX_PX/scale);}
+function nameU(){return Math.min(Math.max(11,13.5/scale),16/scale);}
+const narrowScreen=()=>window.innerWidth<=640;
 const hasPeople=m=>!!(peopleOf[m.id]&&peopleOf[m.id].length);
 function labelRun(m){
   if(m.gap)return 0;
-  const built=m.status==='Built & Live';
-  return (m.shortName||m.name).length*(built?NAME_CHAR_BOLD:NAME_CHAR)+(hasPeople(m)?PILL_GAP+PILL_W:0);
+  return (m.shortName||m.name).length*(m.status==='Built & Live'?NAME_CHAR_BOLD:NAME_CHAR);
 }
 function eraIndexOfY(y){
   for(let i=eras.length-1;i>=0;i--)if(y>=eraY0[i])return i;
   return 0;
-}
-const tradEra=m=>eraIndexOfY(yearToY(+m.start));
-function riverTraditions(k,i){
-  gapAnchors.forEach(a=>{if(a._y==null){a._y=yearToY(+a.start);a._x=laneCenterX(a.laneOrder,a._y);}});
-  return churchBodies.concat(gapAnchors).filter(m=>m.laneOrder===k&&tradEra(m)===i&&hasPeople(m)).sort((a,b)=>a._y-b._y);
 }
 function riverSpanAt(k,y,amp){
   const geo=laneGeometry[amp], i=Math.max(0,Math.min(SAMPLE_COUNT-1,Math.round(y/STEP)));
@@ -111229,212 +111797,206 @@ function riverSpanAt(k,y,amp){
   }
   return hw>0?[cx-hw,cx+hw]:null;
 }
-function otherSpans(k,y){
-  const out=[];
-  const a=lastOrganic===false?0:1;
-  [y-8,y,y+6].forEach(yy=>{
-    const own=riverSpanAt(k,yy,a);
-    laneKeys.forEach(o=>{
-      if(o===k)return;
-      const s=riverSpanAt(o,yy,a);
-      if(s&&!(own&&s[0]<own[1]&&s[1]>own[0]))out.push(s);
-    });
-  });
-  return out;
-}
-function roomRight(k,x0,y){
-  let lim=Math.min(CANVAS_W+40,x0+320);
-  otherSpans(k,y).forEach(s=>{if(s[1]>x0)lim=Math.min(lim,s[0]);});
-  return lim-WHO_EDGE_PAD-x0;
-}
-function roomLeft(k,x1,y){
-  let lim=Math.max(-40,x1-320);
-  otherSpans(k,y).forEach(s=>{if(s[0]<x1)lim=Math.max(lim,s[1]);});
-  return x1-WHO_EDGE_PAD-lim;
-}
-let whoMeasureEl=null;
-function whoTextWidth(s,bold){
-  if(!whoMeasureEl||!whoMeasureEl.isConnected){whoMeasureEl=el('text',{class:'who-text',visibility:'hidden','aria-hidden':'true'});gWho.appendChild(whoMeasureEl);}
-  whoMeasureEl.setAttribute('font-weight',bold?'700':'400');
-  whoMeasureEl.textContent=s;
-  const w=whoMeasureEl.getComputedTextLength();
-  return w>0?w:s.length*(bold?NAME_CHAR_BOLD:NAME_CHAR);
-}
-function fitName(s,maxW,bold){
-  if(whoTextWidth(s,bold)<=maxW)return s;
-  let lo=0, hi=s.length;
-  while(lo<hi){const mid=Math.ceil((lo+hi)/2);if(whoTextWidth(s.slice(0,mid).trimEnd()+'…',bold)<=maxW)lo=mid;else hi=mid-1;}
-  return lo?s.slice(0,lo).trimEnd()+'…':'…';
-}
-
-let whoScope=null, whoStacks=[];
-const whoLinks={saved:null,suspend(){},restore(){}};
-function whoScopeTraditions(scope){
-  return scope.type==='trad'?[scope.m]:riverTraditions(scope.lane,scope.era);
-}
-function whoScopeLabel(scope){
-  if(scope.type==='trad')return scope.m.shortName||scope.m.name;
-  return `${famOf(scope.lane).lbl}, era ${eras[scope.era].num}`;
-}
-function whoScopeKey(scope){return scope?(scope.type==='trad'?`t:${scope.m.id}`:`r:${scope.lane}:${scope.era}`):'';}
-function layoutWho(){
-  whoStacks=[];
-  if(!whoScope)return;
-  const max=whoScope.type==='trad'?WHO_TRAD_MAX:WHO_RIVER_MAX;
-  const bottom={right:-Infinity,left:-Infinity};
-  const trads=whoScopeTraditions(whoScope), shownIn=new Map();
-  trads.forEach(m=>(peopleOf[m.id]||[]).forEach(P=>{
-    const home=P.entry&&P.entry.toldWithin;
-    if(!shownIn.has(P)||(home===m.id))shownIn.set(P,m);
-  }));
-  trads.forEach(m=>{
-    const list=(peopleOf[m.id]||[]).filter(P=>shownIn.get(P)===m);
-    if(!list.length)return;
-    const shown=list.length>max?list.slice(0,max):list;
-    const more=list.length-shown.length;
-    let nRows=shown.length+(more?1:0);
-    const k=m.laneOrder, nearRight=nameSideLeft(m._x), run=labelRun(m);
-    const xRight=nearRight?m._x+8:m._x+5+run+6;
-    const xLeft=nearRight?m._x-5-run-6:m._x-8;
-    const xBelow=nearRight?m._x-6:m._x+6;
-    const at={right:xRight,left:xLeft,below:xBelow};
-    const dir={right:'right',left:'left',below:nearRight?'left':'right'};
-    const roomAt=(side,y)=>dir[side]==='right'?roomRight(k,at[side],y):roomLeft(k,at[side],y);
-    const startFor=side=>Math.max(side==='below'?m._y+WHO_LINE+3:m._y,bottom[dir[side]]+WHO_LINE);
-    const fit=side=>{const y0=startFor(side), n=nRows+(side!=='below'&&y0>m._y+0.5&&!m.gap?1:0);let r=Infinity;for(let j=0;j<n;j++)r=Math.min(r,roomAt(side,y0+j*WHO_LINE));return r;};
-    const rR=fit('right'), rL=fit('left');
-    let side=(rR>=WHO_ROOM_PREF||rR>=rL)?'right':'left', best=side==='right'?rR:rL;
-    if(best<WHO_ROOM_MIN){const rB=fit('below');if(rB>best){side='below';best=rB;}}
-    const y0=startFor(side), room=Math.max(24,best);
-    const tied=side!=='below'&&y0>m._y+0.5;
-    const head=side!=='below'&&y0>m._y+0.5&&!m.gap;
-    const rows=shown.map((P,j)=>({P,y:y0+(j+(head?1:0))*WHO_LINE,bold:!!P.entry}));
-    if(head)rows.unshift({head:true,y:y0});
-    if(more)rows.push({more,y:y0+(shown.length+(head?1:0))*WHO_LINE});
-    rows.forEach(r=>{
-      const full=r.head?(m.shortName||m.name):r.more?`+${r.more} more`:r.P.name;
-      const plain=r.head||r.more;
-      r.text=fitName(full,room-(plain?0:WHO_ICON+WHO_GAP),r.bold);
-      r.w=whoTextWidth(r.text,r.bold)+(plain?0:WHO_ICON+WHO_GAP);
-    });
-    if(head)nRows++;
-    const x=at[side];
-    const wMax=Math.max(...rows.map(r=>r.w));
-    side=dir[side];
-    const box=side==='right'?[x,y0-9,x+wMax,y0+(nRows-1)*WHO_LINE+6]:[x-wMax,y0-9,x,y0+(nRows-1)*WHO_LINE+6];
-    bottom[side]=y0+(nRows-1)*WHO_LINE;
-    whoStacks.push({m,side,x,y0,tied,rows,box,total:list.length});
-  });
-}
 function personGlyph(col,cx,cy){
   const g=el('g',{transform:`translate(${cx.toFixed(1)},${cy.toFixed(1)})`,'aria-hidden':'true'});
   g.appendChild(el('circle',{cx:0,cy:-2,r:2.1,fill:col}));
   g.appendChild(el('path',{d:'M-3.6,3.6 C-3.6,0.9 -1.9,0.2 0,0.2 C1.9,0.2 3.6,0.9 3.6,3.6 Z',fill:col}));
   return g;
 }
-function hideLabelsUnderWho(){
-  document.querySelectorAll('.node.who-under,.node.who-own').forEach(g=>g.classList.remove('who-under','who-own'));
-  if(!whoStacks.length)return;
-  document.querySelectorAll('.prof-pill.who-under').forEach(g=>g.classList.remove('who-under'));
-  const hit=(a,b)=>a[0]<b[2]&&a[2]>b[0]&&a[1]<b[3]&&a[3]>b[1];
-  const open=whoStacks.filter(s=>!laneHidden(s.m.laneOrder));
-  churchBodies.forEach(m=>{
-    const g=gNodes.querySelector(`.node[data-id="${CSS.escape(m.id)}"]`);
-    if(!g)return;
-    const left=nameSideLeft(m._x), run=labelRun(m);
-    const lab=left?[m._x-7-run,m._y-8,m._x-5,m._y+7]:[m._x+5,m._y-8,m._x+7+run,m._y+7];
-    const r=m._placeOffset;
-    const pl=m._placeShown&&r?[m._x+r[0],m._y+r[1],m._x+r[2],m._y+r[3]]:null;
-    open.forEach(s=>{
-      if(s.m===m){if(pl&&hit(pl,s.box))g.classList.add('who-own');return;}
-      if(hit(lab,s.box)||(pl&&hit(pl,s.box))){g.classList.add('who-under');const pill=gProfPills.querySelector(`.prof-pill[data-id="${CSS.escape(m.id)}"]`);if(pill)pill.classList.add('who-under');}
-    });
-  });
+function groupGlyph(){
+  const g=el('g',{class:'who-fig','aria-hidden':'true'});
+  [[-3.3,-1.2,1.5],[3.3,-1.2,1.5],[0,-2.6,1.9]].forEach(([x,y,r])=>g.appendChild(el('circle',{cx:x,cy:y,r})));
+  ['M-5.6,5 C-5.6,2 -4.5,1 -3.3,1 C-2.6,1 -2,1.3 -1.7,1.8 L-1.7,5 Z','M5.6,5 C5.6,2 4.5,1 3.3,1 C2.6,1 2,1.3 1.7,1.8 L1.7,5 Z','M-2.9,5 C-2.9,1.2 -1.5,.2 0,.2 C1.5,.2 2.9,1.2 2.9,5 Z'].forEach(d=>g.appendChild(el('path',{d})));
+  return g;
 }
 function laneHidden(k){return !!document.querySelector(`#switchbar button[data-toggle="lane:${k}"][aria-pressed="false"]`);}
-function renderWho(){
-  const focused=document.activeElement&&document.activeElement.closest&&document.activeElement.closest('#who .who-name');
-  const focusKey=focused?focused.dataset.key:null;
+
+const isMajorPerson=P=>!!(P.entry&&P.entry.major===true);
+const activeYear=P=>P.entry?+P.entry.activeYear:personYear(P);
+const isMajorTradition=m=>m.status==='Built & Live'||(peopleOf[m.id]||[]).some(isMajorPerson);
+function homeOf(P){
+  const e=P.entry, t=e&&e.toldWithin&&byId[e.toldWithin];
+  if(t)return t;
+  return gapAnchors.find(a=>a.person===e)||null;
+}
+const riverWho=new Map();
+Object.values(whoPeople).forEach(P=>{
+  if(!P.entry)return;
+  const m=homeOf(P); if(!m)return;
+  const year=activeYear(P), key=`${m.laneOrder}:${eraOfYear(year)}`;
+  if(!riverWho.has(key))riverWho.set(key,[]);
+  riverWho.get(key).push({P,m,year,major:isMajorPerson(P)});
+});
+riverWho.forEach(list=>list.sort((a,b)=>a.year-b.year||a.P.name.localeCompare(b.P.name)));
+function spreadAcross(majors,range,cap){
+  if(majors.length<=cap)return majors.slice();
+  const out=[], step=(range[1]-range[0])/cap;
+  for(let i=0;i<cap;i++){
+    const lo=range[0]+i*step, hi=lo+step;
+    const c=majors.find(a=>!out.includes(a)&&a.year>=lo&&(a.year<hi||i===cap-1));
+    if(c)out.push(c);
+  }
+  for(const a of majors){if(out.length>=cap)break;if(!out.includes(a))out.push(a);}
+  return out.sort((a,b)=>a.year-b.year);
+}
+function scopePeople(sc){
+  let all, trads, cap, range=null;
+  if(sc.type==='river'){
+    all=riverWho.get(`${sc.lane}:${sc.era}`)||[]; cap=RIVER_WHO_MAX; range=eraYearRange[sc.era];
+    trads=[...new Set(all.map(a=>a.m))].sort((a,b)=>(+a.start)-(+b.start));
+  }else{
+    trads=[sc.m]; cap=TRAD_WHO_MAX;
+    all=(peopleOf[sc.m.id]||[]).map(P=>({P,m:sc.m,year:activeYear(P),major:isMajorPerson(P)})).sort((a,b)=>a.year-b.year||a.P.name.localeCompare(b.P.name));
+  }
+  const majors=all.filter(a=>a.major);
+  const shown=majors.length?(range?spreadAcross(majors,range,cap):majors.slice(0,cap)):all.slice(0,Math.min(WHO_FALLBACK,cap));
+  return {all,shown,trads};
+}
+
+let whoScope=null, whoPick=null;
+function whoScopeLabel(scope){
+  if(scope.type==='trad')return scope.m.shortName||scope.m.name;
+  return `${famOf(scope.lane).name}, era ${eras[scope.era].num}`;
+}
+function whoScopeKey(scope){return scope?(scope.type==='trad'?`t:${scope.m.id}`:`r:${scope.lane}:${scope.era}`):'';}
+function whoNameRow(P,x,y,col,fu,line,withDates){
+  const U=markU();
+  const g=el('g',{class:'who-name is-entry',tabindex:'0',role:'button','data-key':P.key,transform:`translate(${x.toFixed(1)},${y.toFixed(1)})`,
+    'aria-label':`${P.entry?P.entry.name:P.name}, ${personDates(P)}. Opens their card.`});
+  const ic=el('g',{transform:`translate(${(U*.45).toFixed(2)},0) scale(${(U/8.4).toFixed(3)})`});
+  ic.appendChild(personGlyph(col,0,0)); g.appendChild(ic);
+  const t=el('text',{class:'who-text',x:U*1.15,y:fu*.32,'font-weight':'700'});
+  t.style.fontSize=fu+'px'; t.style.strokeWidth=(3*fu/11)+'px'; t.textContent=P.name; g.appendChild(t);
+  return {g,t,U,dates:withDates?(()=>{const d=el('text',{class:'who-text who-dates',x:U*1.15,y:fu*1.45});d.style.fontSize=(fu*.85)+'px';d.style.strokeWidth=(3*fu/11)+'px';d.textContent=personDates(P);g.appendChild(d);return d;})():null};
+}
+function wireWhoPerson(g,P,home){
+  const tipHtml=`<div class="n">${esc(P.entry?P.entry.name:P.name)}</div><div class="m">${esc(personDates(P))}${home&&!home.gap?' · '+esc(home.shortName||home.name):''}</div>`;
+  g.addEventListener('mouseenter',ev=>showTip(ev,tipHtml));
+  g.addEventListener('mousemove',ev=>positionTip(ev));
+  g.addEventListener('mouseleave',hideTip);
+  g.addEventListener('click',ev=>{ev.stopPropagation();openPersonCard(P);});
+  g.addEventListener('keydown',ev=>{if(ev.key==='Enter'||ev.key===' '){ev.preventDefault();ev.stopPropagation();openPersonCard(P);}});
+}
+function wireWhoMore(g,go){
+  g.addEventListener('click',ev=>{ev.stopPropagation();go();});
+  g.addEventListener('keydown',ev=>{if(ev.key==='Enter'||ev.key===' '){ev.preventDefault();ev.stopPropagation();go();}});
+}
+function drawWhoNames(){
   gWho.innerHTML='';
-  svg.classList.toggle('who-on',!!whoScope);
-  layoutWho();
-  whoStacks.forEach(s=>{
-    const m=s.m, col=famColor(famOf(m.laneOrder)), right=s.side==='right';
-    const stack=el('g',{class:'who-stack'+(laneHidden(m.laneOrder)?' is-off':''),'data-id':m.id,'data-lane':m.laneOrder});
-    if(s.tied){
-      const ex=right?s.x-2:s.x+2;
-      stack.appendChild(el('path',{class:'who-tie',d:`M ${m._x.toFixed(1)} ${m._y.toFixed(1)} L ${ex.toFixed(1)} ${(s.y0-3).toFixed(1)}`,stroke:col}));
-    }
-    s.rows.forEach(r=>{
-      const rowKey=`${m.id}|${r.head?'head':r.more?'more':r.P.key}`;
-      const g=el('g',{'data-key':rowKey,class:`who-name${r.bold?' is-entry':''}${r.more?' is-more':''}${r.head?' is-head':''}`,tabindex:'0',role:'button',
-        transform:`translate(${s.x.toFixed(1)},${r.y.toFixed(1)})`});
-      const hitW=r.w+4;
-      g.appendChild(el('rect',{class:'who-hit',x:right?-2:-hitW+2,y:-9,width:hitW,height:WHO_LINE,rx:2}));
-      let tx;
-      if(r.more||r.head){tx=0;}
-      else{
-        g.appendChild(personGlyph(col,right?WHO_ICON/2:-WHO_ICON/2,0));
-        tx=right?WHO_ICON+WHO_GAP:-(WHO_ICON+WHO_GAP);
-      }
-      const t=el('text',{class:`who-text${r.more?' who-more':''}${r.head?' who-head':''}`,x:tx,y:3.5,'text-anchor':right?'start':'end'});
-      if(r.bold)t.setAttribute('font-weight','700');
-      t.textContent=r.text;
-      g.appendChild(t);
-      if(r.head){
-        g.setAttribute('aria-label',`${m.name}: its people follow. Opens its card.`);
-        const open=()=>openPanel(m);
-        g.addEventListener('click',ev=>{ev.stopPropagation();open();});
-        g.addEventListener('keydown',ev=>{if(ev.key==='Enter'||ev.key===' '){ev.preventDefault();ev.stopPropagation();open();}});
-      } else if(r.more){
-        g.setAttribute('aria-label',`${r.more} more people of ${m.shortName||m.name}, on its card`);
-        const open=()=>openPanel(m,{people:true});
-        g.addEventListener('click',ev=>{ev.stopPropagation();open();});
-        g.addEventListener('keydown',ev=>{if(ev.key==='Enter'||ev.key===' '){ev.preventDefault();ev.stopPropagation();open();}});
-      } else {
-        const P=r.P, tipHtml=`<div class="n">${esc(P.entry?P.entry.name:P.name)}</div><div class="m">${esc(personDates(P))} · ${esc(m.shortName||m.name)}</div>`;
-        g.setAttribute('aria-label',`${P.entry?P.entry.name:P.name}, ${personDates(P)}. Opens their card.`);
-        g.addEventListener('mouseenter',ev=>showTip(ev,tipHtml));
-        g.addEventListener('mousemove',ev=>positionTip(ev));
-        g.addEventListener('mouseleave',hideTip);
-        g.addEventListener('click',ev=>{ev.stopPropagation();openPersonCard(P);});
-        g.addEventListener('keydown',ev=>{if(ev.key==='Enter'||ev.key===' '){ev.preventDefault();ev.stopPropagation();openPersonCard(P);}});
-      }
-      stack.appendChild(g);
+  document.querySelectorAll('.node.who-under,.node.who-lit,.river-group.who-lit').forEach(g=>g.classList.remove('who-under','who-lit'));
+  if(!whoScope||!whoPick)return;
+  const sc=whoScope, fu=nameU(), line=fu*1.55, amp=lastOrganic===false?0:1;
+  const lane=sc.type==='trad'?sc.m.laneOrder:sc.lane, col=famColor(famOf(lane));
+  document.querySelectorAll('.river-group').forEach(g=>{if(String(g.dataset.lane)===String(lane))g.classList.add('who-lit');});
+  const items=labelFit.items||[], rows=[];
+  if(sc.type==='river'){
+    const edgeAt=y=>{const sp=riverSpanAt(lane,y,amp)||riverSpanAt(lane,y,0);return sp?sp[1]:laneCenterX(lane,y);};
+    const tied=whoPick.shown.filter(a=>!a.m.gap).sort((p,q)=>p.m._y-q.m._y||p.year-q.year), loose=whoPick.shown.filter(a=>a.m.gap);
+    const litBoxes=[];
+    [...new Set(tied.map(a=>a.m))].forEach(m=>{
+      const node=gNodes.querySelector(`.node[data-id="${CSS.escape(m.id)}"]`); if(node)node.classList.add('who-lit');
+      const it=items.find(i=>i.id===m.id); if(it&&it.box)litBoxes.push({m,b:it.box});
     });
-    gWho.appendChild(stack);
+    const colX=Math.max(edgeAt(yearToY(eraYearRange[sc.era][0])),...litBoxes.map(l=>l.b.x1),...tied.map(a=>a.m._x+8))+fu*1.6;
+    tied.forEach(a=>{const lb=litBoxes.find(l=>l.m===a.m);rows.push({a,y:a.m._y,x:colX,from:[lb?lb.b.x1+fu*.3:a.m._x+6,a.m._y]});});
+    for(let i=1;i<rows.length;i++)if(rows[i].y<rows[i-1].y+line)rows[i].y=rows[i-1].y+line;
+    const busy=y=>litBoxes.some(l=>y+line/2>l.b.y0&&y-line/2<l.b.y1)||rows.some(r=>r.gapRow&&Math.abs(r.y-y)<line);
+    loose.sort((p,q)=>p.year-q.year).forEach(a=>{
+      const y0=yearToY(a.year); let y=y0;
+      for(const d of [0,1,-1,2,-2,3,-3,4,-4,5,-5,6,-6]){const t=y0+d*line*.75;if(!busy(t)){y=t;break;}}
+      rows.push({a,y0,y,gapRow:true,edge:edgeAt(y0),x:edgeAt(y)+fu*1.1});
+    });
+  }else{
+    const m=sc.m, node=gNodes.querySelector(`.node[data-id="${CSS.escape(m.id)}"]`);
+    if(node)node.classList.add('who-lit');
+    const it=items.find(i=>i.id===m.id);
+    const x=it&&it.box&&!it.end?it.box.nx0+2:m._x+8;
+    whoPick.shown.forEach((a,i)=>rows.push({a,y:m._y+line*(i+1)+fu*.2,x:x+fu*.9}));
+    if(whoPick.shown.length)gWho.appendChild(el('path',{class:'who-tick who-link',stroke:col,d:`M ${(x+fu*.2).toFixed(1)} ${(m._y+fu*.6).toFixed(1)} L ${(x+fu*.2).toFixed(1)} ${(m._y+line*whoPick.shown.length+fu*.2).toFixed(1)}`}));
+  }
+  const boxes=[];
+  rows.forEach(r=>{
+    const P=r.a.P;
+    if(r.y0!=null)gWho.appendChild(el('path',{class:'who-tick',stroke:col,d:`M ${r.edge.toFixed(1)} ${r.y0.toFixed(1)} L ${(r.x-fu*.25).toFixed(1)} ${r.y.toFixed(1)}`}));
+    if(r.from)gWho.appendChild(el('path',{class:'who-tick who-link',stroke:col,d:`M ${r.from[0].toFixed(1)} ${r.from[1].toFixed(1)} L ${(r.x-fu*.9).toFixed(1)} ${r.from[1].toFixed(1)} L ${(r.x-fu*.3).toFixed(1)} ${r.y.toFixed(1)}`}));
+    const {g,t,U}=whoNameRow(P,r.x,r.y,col,fu,line,false);
+    gWho.appendChild(g);
+    const w=t.getComputedTextLength()+U*1.15;
+    g.insertBefore(el('rect',{class:'who-hit',x:-3,y:-line/2,width:w+6,height:line,rx:2}),g.firstChild);
+    boxes.push([r.x-3,r.y-line/2,r.x+w+3,r.y+line/2]);
+    wireWhoPerson(g,P,r.a.m);
   });
-  hideLabelsUnderWho();
+  const rest=whoPick.all.length-whoPick.shown.length;
+  if(rest>0){
+    let x,y;
+    if(sc.type==='river'){
+      const p=gWhoPills.querySelector(`.river-pill[data-who="${whoScopeKey(sc)}"]`);
+      const at=p&&p._at||[rows.length?rows[0].x:0,rows.length?rows[0].y-line*2:0];
+      x=at[0]+((p&&p._w)||markU()*3)/2+markU()*.4; y=at[1];
+    }else{const last=rows[rows.length-1];x=last?last.x:sc.m._x+8;y=last?last.y+line:sc.m._y+line;}
+    const g=el('g',{class:'who-name who-all',tabindex:'0',role:'button',transform:`translate(${x.toFixed(1)},${y.toFixed(1)})`,'aria-label':`${rest} more ${rest===1?'person':'people'}. Opens the full list.`});
+    const t=el('text',{class:'who-text',x:0,y:fu*.32});
+    t.style.fontSize=fu+'px'; t.style.strokeWidth=(3*fu/11)+'px'; t.textContent=`+${rest} more`; g.appendChild(t); gWho.appendChild(g);
+    const w=t.getComputedTextLength();
+    g.insertBefore(el('rect',{class:'who-hit',x:-3,y:-line/2,width:w+6,height:line,rx:2}),g.firstChild);
+    boxes.push([x-3,y-line/2,x+w+3,y+line/2]);
+    wireWhoMore(g,()=>{tray.classList.remove('is-low');syncTrayGrip();const f=tray.querySelector('.tray-row');if(f)f.focus();});
+  }
+  whoPick.boxes=boxes;
+  const hit=(a,b)=>a[0]<b.x1&&a[2]>b.x0&&a[1]<b.y1&&a[3]>b.y0;
+  items.forEach(it=>{if(it.box&&!it.g.classList.contains('who-lit')&&boxes.some(b=>hit(b,it.box)))it.g.classList.add('who-under');});
+}
+function renderWho(){
+  svg.classList.toggle('who-on',!!whoScope);
+  whoPick=whoScope?scopePeople(whoScope):null;
+  labelFitRun();
+  drawWhoNames();
   syncWhoControls();
-  if(focusKey){const g=gWho.querySelector(`.who-name[data-key="${CSS.escape(focusKey)}"]`);if(g)g.focus();}
+  renderTray();
+  queueAutoWho();
 }
 function setWho(scope,opts){
-  whoScope=whoScopeKey(scope)===whoScopeKey(whoScope)?null:scope;
-  if(opts&&opts.on&&!whoScope)whoScope=scope;
-  if(whoScope)whoLinks.suspend();else whoLinks.restore();
+  clearConnections();
+  whoScope=whoScopeKey(scope)===whoScopeKey(whoScope)&&!(opts&&opts.on)?null:scope;
   renderWho();
-  if(whoScope&&opts&&opts.zoom)zoomToWho();
+  if(whoScope){
+    zoomToWho();
+    announce(`Who list open: ${whoPick.all.length} ${whoPick.all.length===1?'person':'people'}, ${whoPick.shown.length} named on the map.`);
+  }
 }
 function clearWho(){
   const chipFocused=document.activeElement&&document.activeElement.id==='who-chip';
-  whoScope=null;whoLinks.restore();renderWho();
+  whoScope=null; renderWho();
   if(chipFocused){const next=document.querySelector('#switchbar .chip:not([hidden])');if(next)next.focus();}
 }
 function zoomToWho(){
-  if(!whoStacks.length)return;
-  const narrow=window.innerWidth<=640;
-  if(narrow&&panel.classList.contains('open')){lastFocused=null;closePanel();const chip=document.getElementById('who-chip');if(chip&&!chip.hidden)chip.focus();}
-  const xs=whoStacks.flatMap(s=>[s.box[0],s.box[2],s.m._x]), ys=whoStacks.flatMap(s=>[s.box[1],s.box[3],s.m._y]);
-  const bx0=Math.min(...xs), bx1=Math.max(...xs), by0=Math.min(...ys), by1=Math.max(...ys);
-  const panelW=!narrow&&panel.classList.contains('open')?panel.offsetWidth:0;
-  const topbar=document.querySelector('.topbar'), featureBar=document.querySelector('.feature-bar');
-  const top=(topbar?topbar.offsetHeight:0)+(featureBar?featureBar.offsetHeight:0)+12;
-  const vw=window.innerWidth-panelW, vh=window.innerHeight-top;
-  const fitS=Math.min((vw-48)/Math.max(1,bx1-bx0),(vh-48)/Math.max(1,by1-by0));
-  scale=Math.max(MIN_S,Math.min(MAX_S,Math.max(Math.min(scale,1.4),Math.min(1,fitS))));
-  if(scale<0.9)scale=Math.min(0.9,MAX_S);
-  tx=vw/2-((bx0+bx1)/2)*scale;
-  ty=top+vh/2-((by0+by1)/2)*scale;
+  if(!whoPick||!whoPick.boxes||!whoPick.boxes.length)return;
+  const sc=whoScope, narrow=narrowScreen();
+  if(narrow&&panel.classList.contains('open')){lastFocused=null;closePanel();}
+  const fit=()=>{
+    const b=whoPick.boxes, p=sc.type==='river'&&gWhoPills.querySelector(`.river-pill[data-who="${whoScopeKey(sc)}"]`);
+    let x0=Math.min(...b.map(r=>r[0])), x1=Math.max(...b.map(r=>r[2])), y0=Math.min(...b.map(r=>r[1])), y1=Math.max(...b.map(r=>r[3]));
+    if(p&&p._at){const u=markU();x0=Math.min(x0,p._at[0]-u);y0=Math.min(y0,p._at[1]-u);y1=Math.max(y1,p._at[1]+u);}
+    if(sc.type==='trad'){x0=Math.min(x0,sc.m._x-30);y0=Math.min(y0,sc.m._y-50);}
+    return [x0,y0,x1,y1];
+  };
+  const trayW=narrow?0:tray.offsetWidth, trayH=narrow?tray.offsetHeight+barHeight():0;
+  const cardW=!narrow&&panel.classList.contains('open')?panel.offsetWidth:0;
+  const vw=window.innerWidth-trayW-cardW-(narrow?64:0);
+  let top=0, vh=0;
+  for(let pass=0;pass<3;pass++){
+    syncEraStrip(); top=topInset(); vh=window.innerHeight-top-trayH;
+    const [x0,y0,x1,y1]=fit();
+    const need=Math.min((vw-56)/Math.max(1,x1-x0),(vh-56)/Math.max(1,y1-y0));
+    const target=Math.max(0.85,Math.min(1.25,Math.max(scale,Z_READ),need));
+    const changed=Math.abs(target-scale)>0.005;
+    scale=target;
+    const [a0,b0,a1,b1]=changed?(applyDetail(),labelFitRun(),drawWhoNames(),fit()):[x0,y0,x1,y1];
+    tx=trayW+vw/2-((a0+a1)/2)*scale;
+    ty=(b1-b0)*scale>vh-40?top+24-b0*scale:top+vh/2-((b0+b1)/2)*scale;
+    if((a1-a0)*scale>vw-40)tx=trayW+24-a0*scale;
+    if(!changed)break;
+  }
   applyTransform(); applyDetail();
 }
 function whoCountText(m){
@@ -111452,49 +112014,32 @@ function syncWhoControls(){
   const btn=panelBody.querySelector('.who-btn[data-who]');
   if(btn){const on=btn.dataset.who===key;btn.querySelector('.who-state').textContent=on?'On the map ×':'Show on the map';}
 }
+
 function renderWhoPills(){
-  eras.forEach((e,i)=>{
-    laneKeys.forEach(k=>{
-      const trads=riverTraditions(k,i);
-      if(!trads.length)return;
-      const n=new Set(trads.flatMap(m=>peopleOf[m.id])).size;
-      const top=eraY0[i]+16+30, thick=laneGenesisY[k]+MERGE_WINDOW;
-      let y=Math.max(top,thick);
-      const first=trads[0], plate=first.status==='Built & Live'&&PORTRAIT_DATA[first.id]&&first.entry?PORTRAIT_OFFSET+PORTRAIT_R+6:0;
-      y=Math.min(y,first._y-20-plate);
-      if(y<eraY0[i]+24)y=eraY0[i]+24;
-      const span=riverSpanAt(k,y,1)||riverSpanAt(k,y,0), x=span?(span[0]+span[1])/2:laneCenterX(k,y);
-      const scope={type:'river',lane:k,era:i}, col=famColor(famOf(k));
-      const g=el('g',{class:'who-pill river-pill','data-lane':k,'data-who':whoScopeKey(scope),tabindex:'0',role:'button','aria-pressed':'false',
-        transform:`translate(${x.toFixed(1)},${y.toFixed(1)})`,'aria-label':`Who: ${famOf(k).lbl} in era ${e.num}, ${n} ${n===1?'person':'people'}`});
-      g.appendChild(el('circle',{class:'who-hit',r:0}));
-      g.appendChild(el('rect',{x:-14,y:-7,width:28,height:14,rx:7,stroke:col}));
-      const t=el('text',{x:0,y:3,'text-anchor':'middle',fill:col});
-      t.textContent='Who';
-      g.appendChild(t);
-      const go=()=>setWho(scope);
-      g.addEventListener('click',ev=>{ev.stopPropagation();go();});
-      g.addEventListener('keydown',ev=>{if(ev.key==='Enter'||ev.key===' '){ev.preventDefault();ev.stopPropagation();go();}});
-      g.addEventListener('mouseenter',ev=>showTip(ev,`<div class="n">Who: ${esc(famOf(k).lbl)}, era ${e.num}</div><div class="m">${n} ${n===1?'person':'people'}</div>`));
-      g.addEventListener('mousemove',ev=>positionTip(ev));
-      g.addEventListener('mouseleave',hideTip);
-      gWhoPills.appendChild(g);
-    });
+  riverWho.forEach((list,key)=>{
+    const [k,i]=key.split(':').map(Number), n=list.length, col=famColor(famOf(k)), scope={type:'river',lane:k,era:i};
+    const label=`Who: ${famOf(k).name}, era ${eras[i].num}, ${n} ${n===1?'person':'people'}`;
+    const g=el('g',{class:'who-pill river-pill','data-lane':k,'data-era':i,'data-who':whoScopeKey(scope),tabindex:'0',role:'button','aria-pressed':'false','aria-label':label});
+    g.appendChild(el('circle',{class:'who-hit',r:0}));
+    g.appendChild(el('rect',{class:'who-cap',stroke:col}));
+    if(n===1){const f=el('g',{class:'who-fig','aria-hidden':'true'});f.appendChild(personGlyph('currentColor',0,0));g.appendChild(f);}
+    else g.appendChild(groupGlyph());
+    const t=el('text',{class:'who-n','aria-hidden':'true'}); t.textContent=n===1?'':String(n); g.appendChild(t);
+    const go=()=>setWho(scope);
+    g.addEventListener('click',ev=>{ev.stopPropagation();go();});
+    g.addEventListener('keydown',ev=>{if(ev.key==='Enter'||ev.key===' '){ev.preventDefault();ev.stopPropagation();go();}});
+    g.addEventListener('mouseenter',ev=>showTip(ev,`<div class="n">Who: ${esc(famOf(k).name)}, era ${eras[i].num}</div><div class="m">${n} ${n===1?'person':'people'}</div>`));
+    g.addEventListener('mousemove',ev=>positionTip(ev));
+    g.addEventListener('mouseleave',hideTip);
+    gWhoPills.appendChild(g);
   });
 }
-function profilePill(m,col){
-  const left=nameSideLeft(m._x), built=m.status==='Built & Live';
-  const nameW=(m.shortName||m.name).length*(built?NAME_CHAR_BOLD:NAME_CHAR);
-  const x=left?m._x-(built?7:5)-nameW-PILL_GAP-PILL_W:m._x+(built?7:5)+nameW+PILL_GAP;
+function whoFigure(m){
   const n=peopleOf[m.id].length, scope={type:'trad',m};
   const g=el('g',{class:'who-pill prof-pill','data-id':m.id,'data-lane':m.laneOrder,'data-who':whoScopeKey(scope),tabindex:'0',role:'button','aria-pressed':'false',
-    transform:`translate(${x.toFixed(1)},${(m._y-PILL_H/2+0.5).toFixed(1)})`,
     'aria-label':`Who: ${m.shortName||m.name}, ${n} ${n===1?'person':'people'}`});
-  g.appendChild(el('circle',{class:'who-hit',cx:PILL_W/2,cy:PILL_H/2,r:0}));
-  g.appendChild(el('rect',{width:PILL_W,height:PILL_H,rx:PILL_H/2,stroke:col}));
-  const label=el('text',{x:PILL_W/2,y:PILL_H/2+3,'text-anchor':'middle',fill:col});
-  label.textContent='Who';
-  g.appendChild(label);
+  g.appendChild(el('circle',{class:'who-hit',r:0}));
+  const f=el('g',{class:'who-fig','aria-hidden':'true'}); f.appendChild(personGlyph('currentColor',0,0)); g.appendChild(f);
   const go=()=>setWho(scope);
   g.addEventListener('click',ev=>{ev.stopPropagation();go();});
   g.addEventListener('keydown',ev=>{if(ev.key==='Enter'||ev.key===' '){ev.preventDefault();ev.stopPropagation();go();}});
@@ -111503,6 +112048,145 @@ function profilePill(m,col){
   g.addEventListener('mouseleave',hideTip);
   return g;
 }
+function setWhoMark(p,cx,cy,U){
+  p.setAttribute('transform',`translate(${cx.toFixed(1)},${cy.toFixed(1)})`);
+  const cap=p.querySelector('.who-cap'), fig=p.querySelector('.who-fig');
+  if(cap){
+    const n=p.querySelector('.who-n'), one=!n.textContent, W=one?U*1.5:U*(1.9+.55*n.textContent.length), H=U*1.4;
+    cap.setAttribute('x',(-W/2).toFixed(1));cap.setAttribute('y',(-H/2).toFixed(1));cap.setAttribute('width',W.toFixed(1));cap.setAttribute('height',H.toFixed(1));cap.setAttribute('rx',(H/2).toFixed(1));
+    cap.style.strokeWidth=(U*.11)+'px';
+    fig.setAttribute('transform',`translate(${(one?0:-W/2+U*.85).toFixed(1)},${(-U*.05).toFixed(2)}) scale(${(U/(one?8.4:11.5)).toFixed(3)})`);
+    n.setAttribute('x',(-W/2+U*1.6).toFixed(1));n.setAttribute('y',(U*.3).toFixed(1));n.style.fontSize=(U*.88)+'px';
+    p._w=W;
+  }else fig.setAttribute('transform',`translate(0,${(U*.03).toFixed(2)}) scale(${(U/8.4).toFixed(3)})`);
+  const hit=p.querySelector('circle.who-hit'); if(hit)hit.style.r=(22/scale)+'px';
+}
+function placeWhoMarks(){
+  const showRiver=scale>=Z_RIVER_WHO||!!whoScope, showTrad=scale>=Z_ALL||!!whoScope;
+  gWhoPills.style.display=showRiver?'block':'none';
+  gProfPills.style.display=showTrad?'block':'none';
+  const grid=labelFit.grid, U=markU();
+  if(showRiver&&grid){
+    gWhoPills.querySelectorAll('.river-pill').forEach(p=>{
+      const era=+p.dataset.era, k=+p.dataset.lane, hw=U*1.6, hh=U*.75;
+      const spanAt=y=>riverSpanAt(k,y,1)||riverSpanAt(k,y,0), top=eraY0[era]+16+U*1.05, end=eraY0[era]+eraH[era]-U;
+      let y=top; while(y<end&&!spanAt(y))y+=6;
+      const mk=y=>{const sp=spanAt(y), x=sp?(sp[0]+sp[1])/2:laneCenterX(k,y);return [x,y,{id:'pill'+p.dataset.who,x0:x-hw,x1:x+hw,y0:y-hh,y1:y+hh}];};
+      let best=mk(y);
+      if(y<=top+1){for(const d of [0,1.5,3,4.5]){const c=mk(y+d*U);if(spanAt(c[1])&&!grid.hits(c[2])){best=c;break;}}}
+      else{
+        y+=U*.4; best=mk(y);
+        for(const d of [0,1,2,3,-1,4,5,-2,6,7,8]){const c=mk(y+d*U*.8);if(spanAt(c[1])&&!grid.hits(c[2])){best=c;break;}}
+      }
+      setWhoMark(p,best[0],best[1],U);
+      p._at=[best[0],best[1]];
+      grid.add(best[2]);
+    });
+  }
+  if(showTrad&&grid&&labelFit.items){
+    const byNode=new Map(labelFit.items.map(it=>[it.id,it]));
+    gProfPills.querySelectorAll('.prof-pill').forEach(p=>{
+      const it=byNode.get(p.dataset.id);
+      if(!it||!it.box){p.style.display='none';return;}
+      const cx=it.dx+(it.end?1:-1)*U*1.02, cy=it.dy;
+      p.style.display='';
+      setWhoMark(p,cx,cy,U);
+      grid.add({id:'pp'+it.id,x0:cx-U/2,x1:cx+U/2,y0:cy-U/2,y1:cy+U/2});
+    });
+  }
+}
+
+let autoKey='', autoRaf=0;
+function autoWho(){
+  autoRaf=0;
+  const off=()=>{if(autoKey){gAuto.innerHTML='';autoKey='';gNodes.querySelectorAll('.node.auto-own').forEach(g=>g.classList.remove('auto-own'));}};
+  if(whoScope||scale<Z_PEOPLE||!labelFit.items||svg.classList.contains('no-people'))return off();
+  const x0=-tx/scale, x1=(window.innerWidth-tx)/scale, y0=(topInset()-ty)/scale, y1=(window.innerHeight-ty)/scale, pad=14/scale;
+  const live=labelFit.items.filter(it=>!it.g.classList.contains('is-off'));
+  const list=live.filter(it=>it.box&&it.dx>x0+pad&&it.dx<x1-pad&&it.dy>y0+pad&&it.dy<y1-pad&&hasPeople(byId[it.id])).sort((a,b)=>a.dy-b.dy);
+  const key=list.map(i=>i.id).join('|')+'@'+scale.toFixed(2);
+  if(key===autoKey)return;
+  if(!list.length)return off();
+  autoKey=key; gAuto.innerHTML='';
+  gNodes.querySelectorAll('.node.auto-own').forEach(g=>g.classList.remove('auto-own'));
+  list.forEach(it=>it.g.classList.add('auto-own'));
+  const deep=scale>=Z_DATES, fu=nameU(), line=fu*(deep?2.7:1.55), U=markU(), used=[];
+  list.forEach(it=>{
+    const m=byId[it.id], sp=scopePeople({type:'trad',m}), col=famColor(famOf(m.laneOrder));
+    const from=it.end?it.dx+U*.7:it.box.nx1+fu*.3;
+    let x=from+fu*2.2;
+    const below=live.filter(o=>o!==it&&o.dy>it.dy&&Math.abs(o.dx-it.dx)<260).map(o=>o.dy-it.dy), gap=below.length?Math.min(...below):Infinity;
+    const room=Math.floor(gap/line);
+    const fit=Math.max(1,Math.min(sp.shown.length,room-(sp.all.length>room?1:0)));
+    const rows=sp.shown.slice(0,fit).map((a,i)=>({a,y:it.dy+i*line}));
+    const rest=sp.all.length-rows.length, n=rows.length+(rest>0?1:0), yb0=it.dy-line/2, yb1=it.dy+(n-.5)*line;
+    used.forEach(u=>{if(yb0<u[3]&&yb1>u[1]&&x<u[2])x=u[2]+fu*1.5;});
+    gAuto.appendChild(el('path',{class:'who-tick who-link',stroke:col,d:`M ${from.toFixed(1)} ${it.dy.toFixed(1)} L ${(x-fu*.4).toFixed(1)} ${it.dy.toFixed(1)}`+(n>1?` M ${(x-fu*.4).toFixed(1)} ${it.dy.toFixed(1)} L ${(x-fu*.4).toFixed(1)} ${(it.dy+(n-1)*line).toFixed(1)}`:'')}));
+    let wMax=0;
+    rows.forEach(r=>{
+      const P=r.a.P, {g,t,dates}=whoNameRow(P,x,r.y,col,fu,line,deep);
+      gAuto.appendChild(g);
+      const w=Math.max(t.getComputedTextLength(),dates?dates.getComputedTextLength():0)+U*1.15;
+      wMax=Math.max(wMax,w);
+      g.insertBefore(el('rect',{class:'who-hit',x:-3,y:-line/2,width:w+6,height:line,rx:2}),g.firstChild);
+      wireWhoPerson(g,P,m);
+    });
+    if(rest>0){
+      const g=el('g',{class:'who-name who-all',tabindex:'0',role:'button',transform:`translate(${x.toFixed(1)},${(it.dy+rows.length*line).toFixed(1)})`,'aria-label':`${rest} more ${rest===1?'person':'people'} of ${m.shortName||m.name}. Opens the full list.`});
+      const t=el('text',{class:'who-text',x:0,y:fu*.32}); t.style.fontSize=fu+'px'; t.style.strokeWidth=(3*fu/11)+'px'; t.textContent=`+${rest} more`; g.appendChild(t);
+      gAuto.appendChild(g);
+      const w=t.getComputedTextLength(); wMax=Math.max(wMax,w);
+      g.insertBefore(el('rect',{class:'who-hit',x:-3,y:-line/2,width:w+6,height:line,rx:2}),g.firstChild);
+      wireWhoMore(g,()=>setWho({type:'trad',m},{on:true}));
+    }
+    used.push([x,yb0,x+wMax+fu,yb1]);
+  });
+}
+function queueAutoWho(){if(!autoRaf)autoRaf=requestAnimationFrame(autoWho);}
+
+const tray=document.getElementById('whoTray');
+let traySort='date';
+function syncTrayGrip(){
+  const low=tray.classList.contains('is-low'), b=tray.querySelector('.tray-grip');
+  b.textContent=low?'▴':'▾'; b.setAttribute('aria-expanded',String(!low)); b.setAttribute('aria-label',low?'Open the list':'Make the list smaller');
+}
+function trayRowHTML(a,withTrad){
+  const onMap=whoPick.shown.includes(a), P=a.P;
+  const sub=[personDates(P),withTrad&&!a.m.gap&&(a.m.shortName||a.m.name)].filter(Boolean).join(' · ');
+  return `<li><button type="button" class="tray-row${onMap?' on-map':''}" data-key="${esc(P.key)}"><span class="nm">${esc(P.entry?P.entry.name:P.name)}</span><span class="dt">${esc(sub)}</span>${onMap?'<span class="mk">On the map</span>':''}</button></li>`;
+}
+function renderTray(){
+  document.body.classList.toggle('tray-open',!!whoScope);
+  tray.hidden=!whoScope;
+  pinEraCaptions();
+  if(!whoScope)return;
+  const n=whoPick.all.length, sc=whoScope, era=sc.type==='river'?eras[sc.era]:null;
+  tray.querySelector('h2').textContent=`Who: ${whoScopeLabel(sc)}`;
+  tray.querySelector('.tray-sub').textContent=`${n} ${n===1?'person':'people'}${era?' · '+era.dates:''}`;
+  tray.querySelector('.tray-sort').hidden=sc.type==='trad'||whoPick.trads.filter(m=>!m.gap).length<2;
+  tray.querySelectorAll('.tray-sort button').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.sort===traySort)));
+  let h='';
+  if(sc.type==='trad'||traySort==='date'||whoPick.trads.length<2)h=`<ul>${whoPick.all.map(a=>trayRowHTML(a,sc.type!=='trad')).join('')}</ul>`;
+  else{
+    whoPick.trads.filter(m=>!m.gap).forEach(m=>{
+      const list=whoPick.all.filter(a=>a.m===m); if(!list.length)return;
+      h+=`<h3><button type="button" data-trad="${esc(m.id)}">${esc(m.shortName||m.name)} · ${list.length}</button></h3><ul>${list.map(a=>trayRowHTML(a,false)).join('')}</ul>`;
+    });
+    const loose=whoPick.all.filter(a=>a.m.gap);
+    if(loose.length)h+=`<h3 class="tray-loose">Told within no tradition · ${loose.length}</h3><ul>${loose.map(a=>trayRowHTML(a,false)).join('')}</ul>`;
+  }
+  const body=tray.querySelector('.tray-body'); body.innerHTML=h; body.scrollTop=0;
+}
+tray.addEventListener('click',ev=>{
+  const row=ev.target.closest('.tray-row'), tr=ev.target.closest('[data-trad]'), so=ev.target.closest('[data-sort]');
+  if(row){const a=whoPick.all.find(a=>a.P.key===row.dataset.key);if(a)openPersonCard(a.P);}
+  else if(tr)openPanel(byId[tr.dataset.trad]);
+  else if(so){traySort=so.dataset.sort;renderTray();}
+  else if(ev.target.closest('.tray-close'))clearWho();
+  else if(ev.target.closest('.tray-grip')){tray.classList.toggle('is-low');syncTrayGrip();zoomToWho();}
+});
+tray.addEventListener('keydown',ev=>{if(ev.key==='Escape'){ev.preventDefault();clearWho();}});
+['pointerdown','wheel','touchstart'].forEach(t=>tray.addEventListener(t,ev=>ev.stopPropagation(),{passive:true}));
 const linkEnd=id=>{const t=traditionEnd(id);return t?t.id:id;};
 function traditionEnd(id){
   const p=personById[id];
@@ -111560,7 +112244,6 @@ function openPersonCard(P){
   else if(homes.length)facts+=`<dt>Tradition</dt><dd>${homes.map(m=>`<button type="button" class="panel-link" data-id="${esc(m.id)}">${esc(m.shortName||m.name)}</button>`).join(', ')}</dd>`;
   if(card.role)facts+=`<dt>Role</dt><dd>${esc(card.role)}</dd>`;
   h+=`<dl class="person-facts">${facts}</dl>`;
-  if(home)h+=worldDoor(home);
   if(p)h+=`<p class="tree-link"><a href="tree/${esc(p.id)}.html">${esc(p.name)}</a> in the Family Tree</p>`;
   if(p&&p.longDescription){
     const meta=treeAudioMeta[p.id], recorded=treeAudioCurrent.has(p.id)&&meta;
@@ -111591,7 +112274,7 @@ function openPersonCard(P){
   if(atCouncils.length)h+=`<h3>At major councils</h3><ul class="person-list">${atCouncils.map(c=>`<li><button type="button" class="panel-link" data-id="${esc(c.id)}">${esc(c.shortName||c.name)}</button>, ${esc(c.dates)}: ${esc(c.people.find(x=>x.person===p.id).part)}</li>`).join('')}</ul>`;
   if(card.uncertain&&card.uncertain.length)h+=`<h3>What is uncertain</h3>${listHTML(card.uncertain)}`;
   const links=p?personLinks(p):[];
-  if(links.length)h+=`<h3>Links on the map</h3>`+links.map((e,i)=>{
+  if(links.length)h+=`<h3>Connections on the map</h3>`+links.map((e,i)=>{
     const a=entryById(e.from), b=entryById(e.to);
     return `<div class="edge"><span class="k">${esc(e.type)} · ${esc(e.confidence)}${isMajorEdge(e)?' · Major':''}</span><br><button type="button" class="panel-link" data-edge="${i}">${esc(a?a.shortName||a.name:e.from)} → ${esc(b?b.shortName||b.name:e.to)}</button></div>`;
   }).join('');
@@ -111604,7 +112287,7 @@ function openPersonCard(P){
     if(about.length)h+=`<p class="source-group">Written about them</p>${about.join('')}`;
     h+='</details>';
   }
-  stopNarration(); panelBody.innerHTML=h; showPanel(); narrCardReady();
+  stopNarration(); panelBody.innerHTML=h; showPanel(p?p.id:null); narrCardReady();
   wirePanelLinks({links});
   syncWorldURL(p?p.id:null);
 }
@@ -111625,50 +112308,33 @@ function wirePanelLinks(ctx){
   syncWhoControls();
 }
 
-function wrapText(str,maxChars){
-  const words=str.split(' '); const lines=[]; let cur='';
-  words.forEach(w=>{
-    if((cur+' '+w).trim().length>maxChars){lines.push(cur.trim());cur=w;}
-    else cur=(cur+' '+w).trim();
-  });
-  if(cur)lines.push(cur.trim());
-  return lines;
-}
-
 function render(){
   layoutMarks();
   gBands.innerHTML=''; gRivers.innerHTML=''; gBandFade.innerHTML=''; gEdges.innerHTML=''; gAcross.innerHTML=''; gNodes.innerHTML=''; gStories.innerHTML=''; gLabels.innerHTML=''; gWhoPills.innerHTML=''; gProfPills.innerHTML=''; gWho.innerHTML='';
-  lastOrganic=null; lastPlace=null; labelFit.items=null;
+  lastOrganic=null; labelFit.items=null;
 
   eras.forEach((e,i)=>{
-    if(isDark())gBands.appendChild(el('rect',{x:BLEED_X,y:eraY0[i],width:BLEED_W,height:eraH[i],fill:eraGround(i),opacity:0.75}));
+    gBands.appendChild(el('rect',{x:BLEED_X,y:eraY0[i],width:BLEED_W,height:eraH[i],fill:eraGround(i),opacity:0.75}));
     const dividerY=eraY0[i]+16;
-    gBandFade.appendChild(el('rect',{x:BLEED_X,y:dividerY-9,width:BLEED_W,height:18,fill:isDark()?'#F6F6F2':'#2A2521',opacity:isDark()?0.1:0.06}));
-    gBandFade.appendChild(el('rect',{x:BLEED_X,y:dividerY,width:BLEED_W,height:1.5,fill:isDark()?'#F6F6F2':'#6B5D4A',opacity:isDark()?0.85:0.65}));
-    const lbl=el('text',{x:24,y:dividerY+38,class:'era-label'}); lbl.textContent=`${e.num}. ${e.title}`;
+    gBandFade.appendChild(el('rect',{x:BLEED_X,y:dividerY-9,width:BLEED_W,height:18,fill:'#F6F6F2',opacity:0.1}));
+    gBandFade.appendChild(el('rect',{x:BLEED_X,y:dividerY,width:BLEED_W,height:1.5,fill:'#F6F6F2',opacity:0.85}));
+    const lbl=el('text',{x:24,y:dividerY+38,class:'era-label',tabindex:'0',role:'button','aria-label':`${e.num}. ${e.title}, ${e.dates}. Opens a note on this era.`});
+    lbl.textContent=`${e.num}. ${e.title}`;
+    const act=()=>{if(svg.classList.contains('simple'))goIntoEra(i);else openEraCard(i);};
+    lbl.addEventListener('click',ev=>{ev.stopPropagation();act();});
+    lbl.addEventListener('keydown',ev=>{if(ev.key==='Enter'||ev.key===' '){ev.preventDefault();act();}});
     gLabels.appendChild(lbl);
+    const info=el('g',{class:'era-info',tabindex:'0',role:'button','aria-label':`About ${e.title}: opens a note on this era.`});
+    info.appendChild(el('circle',{class:'era-info-hit',r:22}));
+    info.appendChild(el('circle',{class:'era-info-ring',r:9.5}));
+    info.appendChild(el('path',{class:'era-info-i',d:'M0,-1.2 V5'}));
+    info.appendChild(el('circle',{class:'era-info-dot',cy:-4.6,r:1.4}));
+    info.addEventListener('click',ev=>{ev.stopPropagation();openEraCard(i);});
+    info.addEventListener('keydown',ev=>{if(ev.key==='Enter'||ev.key===' '){ev.preventDefault();ev.stopPropagation();openEraCard(i);}});
+    gLabels.appendChild(info);
     const tag=el('text',{x:24,y:dividerY+64,class:'era-tag'});
-    tag.textContent=`${e.dates} — ${eraCounts[i]} movements across ${eraLaneCounts[i]} lanes`;
+    tag.textContent=e.dates;
     gLabels.appendChild(tag);
-    if(WORLD_CONTEXT[e.num]){
-      const ctx=el('text',{x:24,y:dividerY+90,class:'era-context'});
-      wrapText(WORLD_CONTEXT[e.num],ERA_CONTEXT_WRAP).forEach((line,li)=>{
-        const tspan=el('tspan',{x:24,dy:li===0?0:19});
-        tspan.textContent=line;
-        ctx.appendChild(tspan);
-      });
-      gLabels.appendChild(ctx);
-    }
-    if(ERA_CLOSE[e.num]){
-      const ctxLines=WORLD_CONTEXT[e.num]?wrapText(WORLD_CONTEXT[e.num],ERA_CONTEXT_WRAP).length:0;
-      const close=el('text',{x:24,y:dividerY+90+ctxLines*19+(ctxLines?12:0),class:'era-context era-close'});
-      wrapText(ERA_CLOSE[e.num],ERA_CONTEXT_WRAP).forEach((line,li)=>{
-        const tspan=el('tspan',{x:24,dy:li===0?0:19});
-        tspan.textContent=line;
-        close.appendChild(tspan);
-      });
-      gLabels.appendChild(close);
-    }
   });
 
   laneKeys.forEach(k=>{
@@ -111680,7 +112346,7 @@ function render(){
     const years=members.map(m=>m.start);
     const riverTip=tipForRiver(f,members.length,Math.min(...years),Math.max(...years));
     const group=el('g',{class:'river-group',tabindex:'0',role:'button',
-      'aria-label':`${f.lbl} river, ${members.length} movements`});
+      'aria-label':`${f.name} river, ${members.length} movements`});
     group.dataset.lane=k;
     group.appendChild(calm); group.appendChild(organic);
     [['thread-calm',0],['thread-organic',1]].forEach(([cls,amp])=>{
@@ -111779,16 +112445,10 @@ function render(){
     drawEdge(edg,a,b,ga,gb);
   });
 
-  const labelYById={}, portraitOffsetById={};
-  churchBodies.forEach(m=>{
-    labelYById[m.id]=m._y+3.5;
-    if(m.status==='Built & Live'&&PORTRAIT_DATA[m.id])portraitOffsetById[m.id]=PORTRAIT_OFFSET;
-  });
-
   churchBodies.forEach(m=>{
     const built = m.status==='Built & Live';
     const f=famOf(m.laneOrder), col=famColor(f);
-    const g=el('g',{class:'node','data-id':m.id,'data-lane':m.laneOrder,tabindex:'0',role:'button',
+    const g=el('g',{class:`node${built?' built':''}${isMajorTradition(m)?' major':''}`,'data-id':m.id,'data-lane':m.laneOrder,tabindex:'0',role:'button',
       'aria-label':`${m.shortName||m.name}, ${m.dates}, ${statusLabel(m)}`});
     const halo=el('circle',{class:'halo',cx:m._x,cy:m._y,r:9,fill:col,opacity:0});
     const focusRing=el('circle',{class:'focus-ring',cx:m._x,cy:m._y,r:10,
@@ -111800,32 +112460,22 @@ function render(){
     const nearRightEdge=m._x>CANVAS_W-220;
     const lbl=el('text',{class:'lbl',
       x:m._x+(nearRightEdge?-(built?7:5):(built?7:5)),
-      y:labelYById[m.id],
+      y:m._y+3.5,
       'text-anchor':nearRightEdge?'end':'start'});
     lbl.textContent=m.shortName||m.name;
     if(built)lbl.setAttribute('font-weight','700');
-    let portrait=null;
-    if(built && PORTRAIT_DATA[m.id] && m.entry){
-      portrait=el('g',{class:'portrait-plate',
-        transform:`translate(${m._x.toFixed(1)},${(m._y-portraitOffsetById[m.id]).toFixed(1)})`});
-      portrait.appendChild(el('circle',{cx:0,cy:0,r:PORTRAIT_R+4,fill:m.entry.color}));
-      const img=el('image',{x:-PORTRAIT_R,y:-PORTRAIT_R,
-        width:PORTRAIT_R*2,height:PORTRAIT_R*2,'clip-path':'url(#portraitClip)'});
-      img.setAttributeNS('http://www.w3.org/1999/xlink','href',PORTRAIT_DATA[m.id]);
-      img.setAttribute('href',PORTRAIT_DATA[m.id]);
-      portrait.appendChild(img);
-      portrait.appendChild(el('circle',{cx:0,cy:0,r:PORTRAIT_R,fill:'none',
-        stroke:'var(--iron-gall)','stroke-width':1.5}));
-    }
-    g.appendChild(halo); g.appendChild(dot); g.appendChild(focusRing); g.appendChild(lbl);
-    if(hasPeople(m))gProfPills.appendChild(profilePill(m,col));
+    const house=el('g',{class:'trad-ico','aria-hidden':'true'});
+    const houseCol=built?'var(--gold-leaf)':'var(--iron-gall)';
+    house.appendChild(el('path',{d:'M0,-5.4 L5.6,-.5 L4.1,-.5 L4.1,5 L-4.1,5 L-4.1,-.5 L-5.6,-.5 Z',fill:houseCol,stroke:'var(--parchment)','stroke-width':1.1,'stroke-linejoin':'round','paint-order':'stroke'}));
+    house.appendChild(el('path',{d:'M-1.2,5 V1.4 H1.2 V5 Z',fill:'var(--parchment)'}));
+    g.appendChild(halo); g.appendChild(dot); g.appendChild(focusRing); g.appendChild(house); g.appendChild(lbl);
+    if(hasPeople(m))gProfPills.appendChild(whoFigure(m));
     if(m._placeShown){
       const r=m._placeOffset, inline=m._placeShown==='inline';
       const pl=el('text',{class:'pl',x:m._x+(nearRightEdge?r[2]:r[0]),y:m._y+(inline?3.5:16),'text-anchor':nearRightEdge?'end':'start'});
       pl.textContent=placeLine(m);
       g.appendChild(pl);
     }
-    if(portrait)g.appendChild(portrait);
     g.addEventListener('mouseenter',(ev)=>{
       halo.setAttribute('opacity','.35');showTip(ev,tipFor(m));
       litMovement(m.id,true);
@@ -111885,7 +112535,7 @@ function render(){
       tabindex:'0',role:'button','aria-label':`Story: ${s.title}, ${s.year}`});
     const halo=el('circle',{class:'halo',r:19,fill:'var(--tyrian)',opacity:0});
     const focusRing=el('circle',{class:'focus-ring',r:20,fill:'none',stroke:'var(--gold-leaf)','stroke-width':2,opacity:0});
-    const book=el('path',{
+    const book=el('path',{class:'story-book',
       d:'M0,-4.2 C-2.6,-5.4 -5.2,-5.1 -6.8,-4.6 V3.8 C-5.2,3.3 -2.6,3.6 0,4.8 C2.6,3.6 5.2,3.3 6.8,3.8 V-4.6 C5.2,-5.1 2.6,-5.4 0,-4.2 Z M0,-4.2 V4.8',
       fill:'var(--tyrian)', stroke:'var(--vellum)', 'stroke-width':0.4, 'stroke-linejoin':'round', transform:'scale(1.8)'});
     g.appendChild(halo); g.appendChild(book); g.appendChild(focusRing);
@@ -111992,10 +112642,9 @@ function litCouncil(c,on){
 function renderCouncils(){
   councilColumns.forEach(col=>{
     const frame=el('g',{class:'council-col','aria-hidden':'true'});
-    frame.appendChild(el('line',{x1:col.x0,y1:col.top,x2:col.x0,y2:col.bottom-8,
+    frame.appendChild(el('line',{x1:col.x0,y1:col.top-6,x2:col.x0,y2:col.bottom-8,
       stroke:'var(--iron-gall)','stroke-width':1,'stroke-dasharray':'2 5','stroke-opacity':0.45,'vector-effect':'non-scaling-stroke'}));
-    const cx=col.x0+16, cy=col.top+2;
-    const cap=el('text',{class:'council-cap',x:cx,y:cy,'text-anchor':'end',transform:`rotate(-90 ${cx.toFixed(1)} ${cy.toFixed(1)})`});
+    const cap=el('text',{class:'council-cap',x:col.x0+8,y:col.top-16,'text-anchor':'end'});
     cap.textContent='Major councils';
     frame.appendChild(cap);
     gCouncils.appendChild(frame);
@@ -112029,7 +112678,7 @@ const SYMMETRIC_EDGE_TYPES=new Set(['broke with','in contact with']);
 const linkMarks=(type,fam)=>({'marker-end':`url(#arrow-${fam})`,...(SYMMETRIC_EDGE_TYPES.has(type)?{'marker-start':`url(#arrow-${fam})`}:{})});
 function pairLinkNote(aId,bId){
   const other=DATA.edges.find(e=>(e.from===aId&&e.to===bId)||(e.from===bId&&e.to===aId));
-  return other?`The checked link between them is “${esc(other.type)}” (${esc(other.confidence)}), listed above.`:'No link between them has been drawn and checked yet.';
+  return other?`The checked connection between them is “${esc(other.type)}” (${esc(other.confidence)}), listed above.`:'No connection between them has been drawn and checked yet.';
 }
 function continuesLink(fromId,toId){return DATA.edges.find(e=>e.type==='continued as'&&e.from===fromId&&e.to===toId)||null;}
 function edgeSentence(edg,a,b){
@@ -112043,7 +112692,7 @@ function tipForEdge(edg,a,b){
   return `<div class="n">${edgeHeading(edg,a,b)}</div><div class="m">${esc(edg.type)} · ${esc(edg.confidence)}</div><div class="s">${esc(edg.note.slice(0,140))}${edg.note.length>140?'…':''}</div>`;
 }
 function tipForRiver(f,count,minYear,maxYear){
-  return `<div class="n">${esc(f.lbl)}</div><div class="m">${count} movements · ${minYear}–${maxYear}</div>`;
+  return `<div class="n">${esc(f.name)}</div><div class="m">${count} movements · ${minYear}–${maxYear}</div>`;
 }
 function tipForStory(s){
   return `<div class="n">${esc(s.title)}</div><div class="m">${esc(String(s.year))} · ${esc(CFTPlace.formatPlace(s,{today:true})||s.region||'')}</div><div class="s">Story — not its own movement</div>`;
@@ -112213,7 +112862,7 @@ async function loadBuiltWorldOrientation(censusId){
 let pinnedMovement=null;
 function litMovement(id,on){
   document.querySelectorAll(`.edge-line[data-from="${id}"],.edge-line[data-to="${id}"],.edge-hit[data-from="${id}"],.edge-hit[data-to="${id}"],.edge-line[data-via~="${id}"],.edge-hit[data-via~="${id}"],.tie[data-across~="${id}"],.across[data-id="${id}"]`)
-    .forEach(p=>p.classList.toggle('is-lit',on));
+    .forEach(p=>p.classList.toggle('is-lit',on||p.classList.contains('conn-lit')));
 }
 function pinMovement(id){
   if(pinnedMovement&&pinnedMovement!==id)litMovement(pinnedMovement,false);
@@ -112266,7 +112915,7 @@ function openCouncilCard(c){
     groups.forEach(([k,label])=>{const list=(co.sources&&co.sources[k])||[]; if(list.length)h+=`<p class="source-group">${esc(label)}</p>`+list.map(s=>personSourceItem('Library',s)).join('');});
     h+='</details>';
   }
-  stopNarration(); panelBody.innerHTML=h; showPanel();
+  stopNarration(); panelBody.innerHTML=h; showPanel(c.id);
   wirePanelLinks({links:[]});
   syncWorldURL(c.id);
 }
@@ -112279,12 +112928,14 @@ function openPanel(m,opts){
   const inbound=allLinks.filter(e=>linkEnd(e.to)===m.id), outbound=allLinks.filter(e=>linkEnd(e.from)===m.id);
   const isBuiltWorld=BUILT_WORLD_IDS.has(m.id);
   const entry=m.entry;
-  let h=`<h2 id="panelTitle">${esc(m.name)}</h2>`;
+  const short=m.shortName&&m.shortName!==m.name?m.shortName:null;
+  let h=`<h2 id="panelTitle">${esc(short||m.name)}</h2>`;
+  if(short)h+=`<p class="meta formal">${esc(m.name)}</p>`;
   if(KIND_LABEL[m.kind])h+=`<span class="statuspill kindpill">${esc(KIND_LABEL[m.kind])}</span>`;
   if(!isAcross(m))h+=whoButtonHTML(m);
+  h+=connButtonHTML(m);
   if(entry)h+=`<p class="repline"><b>${esc(entry.representativeName)}</b> — <i>${esc(entry.worldName)}</i>${entry.subtitle?` · ${esc(entry.subtitle)}`:''}</p>`+worldDoor(m);
-  h+=`<p class="meta">${esc(m.dates)} · ${esc(m.region||'')}</p>`;
-  if(m.placeLabel)h+=`<p class="meta">${esc(CFTPlace.formatPlace(m,{today:true}))}</p>`;
+  h+=`<p class="meta">${esc(m.dates)} · ${esc((m.placeLabel&&CFTPlace.formatPlace(m,{today:true}))||m.region||'')}</p>`;
   h+=`<p class="tree-link"><a href="tree/${m.id}.html">${esc(m.name)}</a> in the Family Tree</p>`;
   const lede=entry?entry.tile:m.teaser;
   if(lede)h+=`<p class="teaser">${esc(lede)}</p>`;
@@ -112347,8 +112998,9 @@ function openPanel(m,opts){
     h+=`<h3>Where this tradition stands</h3><p>${esc(m.why)}</p>`;
     h+=worldDoor(m);
   }
-  stopNarration(); panelBody.innerHTML=h; showPanel(); hideTip(); narrCardReady();
+  stopNarration(); panelBody.innerHTML=h; showPanel(m.id); hideTip(); narrCardReady();
   wirePanelLinks();
+  const cb=panelBody.querySelector('.conn-btn'); if(cb)cb.addEventListener('click',()=>showConnections(m));
   if(opts&&opts.people){const sec=panelBody.querySelector('#people-section');if(sec)sec.scrollIntoView({block:'start'});}
   panelBody.querySelectorAll('.docstory-item[data-story-idx]').forEach(item=>{
     const s=m.documentedStories[+item.dataset.storyIdx], summary=item.querySelector('summary'), tipHtml=tipForDocStory(s);
@@ -112403,25 +113055,26 @@ function openPanelStory(s){
   stopNarration(); panelBody.innerHTML=h;
   narrCardReady();
   wirePanelLinks();
-  showPanel();
+  showPanel(null);
   syncWorldURL(null);
 }
 function openPanelEdge(edg,a,b){
   hideTip();
   const sources=(edg.sources||[]).map(s=>`<li>${esc(s.work)}${s.locus?`, ${esc(s.locus)}`:''}</li>`).join('');
   stopNarration(); panelBody.innerHTML=`<h2 id="panelTitle">${edgeHeading(edg,a,b)}</h2>
-    <p class="meta">${esc(edgeSentence(edg,a,b))} · ${esc(edg.confidence)}${isMajorEdge(edg)?' · Major link':''}</p>
+    <p class="meta">${esc(edgeSentence(edg,a,b))} · ${esc(edg.confidence)}${isMajorEdge(edg)?' · Major connection':''}</p>
     <p>${esc(edg.note)}</p>${edg.outcome?`<p><i>Lasting result:</i> ${esc(edg.outcome)}</p>`:''}${sources?`<h3>Sources</h3><ul>${sources}</ul>`:''}`;
-  showPanel();
+  showPanel(null);
   syncWorldURL(null);
 }
 function openPanelRiver(f,members){
   hideTip();
   const k=members[0].laneOrder;
-  let h=`<h2 id="panelTitle">${esc(f.lbl)}</h2>`;
+  let h=`<h2 id="panelTitle">${esc(f.name)}</h2>`;
+  if(f.common)h+=`<p class="meta formal">${esc(f.common)}</p>`;
   const yearSpan=members.length===1?esc(members[0].dates):`${members[0].start}–${members[members.length-1].start}`;
   h+=`<p class="meta">${members.length} movement${members.length===1?'':'s'} · ${yearSpan}</p>`;
-  const lore=RIVER_LORE[f.lbl];
+  const lore=f.lore&&RIVER_LORE[f.lore];
   if(lore){
     h+=`<h3>Why it started</h3><p>${esc(lore.originStory)}</p>`;
     h+=`<h3>Theology &amp; doctrine</h3><p>${esc(lore.theology)}</p>`;
@@ -112441,7 +113094,7 @@ function openPanelRiver(f,members){
   const otherLaneCounts={};
   laneEdges.forEach(e=>{
     const otherId=ids.has(e.from)?e.to:e.from, other=byId[otherId];
-    if(other&&other.laneOrder!==k){const lbl=famOf(other.laneOrder).lbl; otherLaneCounts[lbl]=(otherLaneCounts[lbl]||0)+1;}
+    if(other&&other.laneOrder!==k){const lbl=famOf(other.laneOrder).name; otherLaneCounts[lbl]=(otherLaneCounts[lbl]||0)+1;}
   });
   const topOthers=Object.entries(otherLaneCounts).sort((a,b)=>b[1]-a[1]).slice(0,2).map(([lbl])=>lbl);
   const spanText=eraNums.length===10?`Present in every one of the map's ten eras.`
@@ -112458,12 +113111,37 @@ function openPanelRiver(f,members){
   ).join('')}</ul>`;
   stopNarration(); panelBody.innerHTML=h;
   wirePanelLinks();
-  showPanel();
+  showPanel(null);
   syncWorldURL(null);
 }
+function openEraCard(i){
+  hideTip(); pinMovement(null); clearConnections();
+  const e=eras[i];
+  let h=`<h2 id="panelTitle">${e.num}. ${esc(e.title)}</h2>`;
+  if(e.academicName)h+=`<p class="meta formal">${esc(e.academicName)}</p>`;
+  h+=`<p class="meta">${esc(e.dates)} · ${eraCounts[i]} traditions on ${eraLaneCounts[i]} rivers</p>`;
+  if(e.tag)h+=`<p class="teaser">${esc(e.tag)}</p>`;
+  if(WORLD_CONTEXT[e.num])h+=`<p>${esc(WORLD_CONTEXT[e.num])}</p>`;
+  if(ERA_CLOSE[e.num])h+=`<p>${esc(ERA_CLOSE[e.num])}</p>`;
+  stopNarration(); panelBody.innerHTML=h;
+  showPanel(null);
+  syncWorldURL(null);
+}
+function goIntoEra(i){
+  const cx=(window.innerWidth/2-tx)/scale;
+  scale=Z_READ; tx=window.innerWidth/2-cx*scale; ty=topInset()+18-eraY0[i]*scale;
+  applyTransform(); applyDetail();
+  announce(`${eras[i].title}. Names are showing.`);
+}
+function connButtonHTML(m){
+  const n=connectionCount(m.id);
+  if(!n)return '';
+  return `<button type="button" class="who-btn conn-btn"><span>Connections · ${n}</span><span class="who-state">Show on the map</span></button>`;
+}
 let lastFocused=null;
-function showPanel(){
+function showPanel(entryId){
   lastFocused=document.activeElement;
+  if(window.PageFeedback)window.PageFeedback.mount(panelBody,entryId?`tree/${entryId}`:'atlas-v3');
   panel.classList.add('open');
   panel.removeAttribute('inert');
   document.getElementById('panelClose').focus();
@@ -112502,111 +113180,132 @@ panel.addEventListener('keydown',(ev)=>{
   else if(!ev.shiftKey&&document.activeElement===last){ev.preventDefault();first.focus();}
 });
 
+const BAR_ICON={
+  rivers:'<path d="M3 2c3 3-3 6 0 9s-3 6 0 9M9 2c3 3-3 6 0 9s-3 6 0 9" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" transform="translate(4 -1) scale(.95)"/>',
+  people:'<circle cx="10" cy="6" r="3.6" fill="currentColor"/><path d="M3.4 17.5c0-4.6 3-6 6.6-6s6.6 1.4 6.6 6z" fill="currentColor"/>',
+  stories:'<path d="M10 4.6C7.6 3.4 5 3.7 3 4.4v10.8c2-.6 4.6-.3 7 1 2.4-1.3 5-1.6 7-1V4.4c-2-.7-4.6-1-7 .2zM10 4.6v11.6" fill="currentColor" stroke="var(--parchment)" stroke-width=".8"/>',
+  councils:'<circle cx="10" cy="10" r="7" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="10" cy="6.8" r="1.5" fill="currentColor"/><circle cx="7" cy="12" r="1.5" fill="currentColor"/><circle cx="13" cy="12" r="1.5" fill="currentColor"/>',
+  links:'<path d="M5 14 C8 6 12 14 15 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="5" cy="14" r="2.6" fill="currentColor"/><circle cx="15" cy="6" r="2.6" fill="currentColor"/>',
+  key:'<circle cx="10" cy="10" r="7.5" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M10 9v5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="10" cy="6.3" r="1.2" fill="currentColor"/>'
+};
+const barIcon=k=>`<svg class="bar-ico" viewBox="0 0 20 20" width="20" height="20" aria-hidden="true" focusable="false">${BAR_ICON[k]}</svg>`;
+const LINK_MODES=['off','major','all'];
+let linkMode='off', connFocus=null, connEnds=null;
+const kindsOff=new Set();
+const effectiveLinkMode=()=>narrowScreen()?'off':linkMode;
+function connectionCount(id){return gEdges.querySelectorAll(`.edge-line[data-via~="${CSS.escape(id)}"]`).length;}
+const acrossLanes={};
+acrossMovements.forEach(m=>{
+  const s=new Set();
+  DATA.edges.forEach(e=>{const o=e.from===m.id?byId[e.to]:e.to===m.id?byId[e.from]:null;if(o&&!isAcross(o))s.add(String(o.laneOrder));});
+  acrossLanes[m.id]=s;
+});
+let applyToggles=()=>{};
 function buildLegend(){
   const wrap=document.getElementById('switchbar');
-  const lanesAll=`<button type="button" class="row" data-toggle="lanes-all" aria-pressed="true"><i style="background:conic-gradient(${FAM.filter(f=>laneKeys.includes(f.k)).slice(0,6).map((f,i,a)=>`${famColor(f)} ${i/a.length}turn ${(i+1)/a.length}turn`).join(',')})"></i><span class="sw-name">All rivers</span><span class="sw" aria-hidden="true"></span></button>`;
-  let rivers=lanesAll;
-  FAM.filter(f=>laneKeys.includes(f.k)).forEach(f=>{rivers+=`<button type="button" class="row" data-toggle="lane:${f.k}" aria-pressed="true"><i style="background:${famColor(f)}"></i><span class="sw-name">${esc(f.lbl)}</span><span class="sw" aria-hidden="true"></span></button>`;});
+  const lanes=FAM.filter(f=>laneKeys.includes(f.k));
+  let rivers=`<button type="button" class="row" data-toggle="lanes-all" aria-pressed="true"><i style="background:conic-gradient(${lanes.slice(0,6).map((f,i,a)=>`${famColor(f)} ${i/a.length}turn ${(i+1)/a.length}turn`).join(',')})"></i><span class="sw-name">All rivers</span><span class="sw" aria-hidden="true"></span></button>`;
+  lanes.forEach(f=>{rivers+=`<button type="button" class="row" data-toggle="lane:${f.k}" aria-pressed="true"><i style="background:${famColor(f)}"></i><span class="sw-name"><b>${esc(f.name)}</b>${f.common?`<small>${esc(f.common)}</small>`:''}</span><span class="sw" aria-hidden="true"></span></button>`;});
   const KEY_END={grow:'<path d="M20,1 L26,5 L20,9 z" fill="var(--link-grow)"/>',influence:'<path d="M17.5,5 L21.5,1.2 L25.5,5 L21.5,8.8 z" fill="none" stroke="var(--link-influence)" stroke-width="1.5"/>',conflict:'<path d="M24,0 L24,10" stroke="var(--link-conflict)" stroke-width="2.6"/>',contact:'<circle cx="4" cy="5" r="3" fill="var(--link-contact)"/><circle cx="22" cy="5" r="3" fill="var(--link-contact)"/>'};
   const colorKey=(f)=>`<svg class="linekey" viewBox="0 0 26 10" aria-hidden="true"><line x1="${f==='contact'?4:1}" y1="5" x2="${f==='contact'?22:f==='grow'?20:f==='influence'?17.5:24}" y2="5" stroke="var(--link-${f})" stroke-width="2.4"/>${KEY_END[f]}</svg>`;
-  let links=`<div class="note">Lines join traditions where the sources record a link. The color and the mark at the end show the kind of link. The line's pattern shows how sure the record is. Where a link has a direction, the mark sits at the end it points to. Where a link joins two movements equally, the mark sits at both ends. Hover or click a line to read the link and its sources.</div>`;
-  links+=`<button type="button" class="row" data-toggle="major" aria-pressed="false"><svg class="linekey" viewBox="0 0 26 10"><line x1="1" y1="5" x2="25" y2="5" stroke="var(--iron-gall)" stroke-width="3.4"/></svg><span class="sw-name">Major links</span><span class="sw" aria-hidden="true"></span></button>`;
-  links+=`<div class="note">Major links show one movement growing out of another, a recorded break, or an act of authority the sources record, such as a council condemning a group. Pick a movement to see all of its links.</div>`;
-  links+='<span class="cap">Kind of link</span>';
-  Object.entries(LINK_FAMILY_LABEL).forEach(([f,lbl])=>{links+=`<button type="button" class="row" data-toggle="family:${f}" aria-pressed="true">${colorKey(f)}<span class="sw-name">${lbl}</span><span class="sw" aria-hidden="true"></span></button>`;});
-  const lineKey=(dash)=>`<svg class="linekey" viewBox="0 0 26 10"><line x1="1" y1="5" x2="25" y2="5" stroke="var(--iron-gall)" stroke-width="1.6"${dash?` stroke-dasharray="${dash}"`:''}/></svg>`;
+  const nMajor=gEdges.querySelectorAll('.edge-line[data-major="1"]').length, nAll=gEdges.querySelectorAll('.edge-line').length;
+  let links=`<div class="note">Lines join traditions where the sources record a connection. The color and the mark at the end show the kind of connection. The line's pattern shows how sure the record is. Where a connection has a direction, the mark sits at the end it points to. Where a connection joins two movements equally, the mark sits at both ends. Hover or click a line to read the connection and its sources.</div>`;
+  links+=`<div class="conn-seg" role="group" aria-label="Which connections to show"><button type="button" data-mode="off">Off</button><button type="button" data-mode="major">Major<span>${nMajor}</span></button><button type="button" data-mode="all">All<span>${nAll}</span></button></div>`;
+  links+=`<div class="note">Major connections show one movement growing out of another, a recorded break, or an act of authority the sources record, such as a council condemning a group. Pick a movement to see all of its connections.</div>`;
+  links+='<span class="cap">Kind of connection</span>';
+  Object.entries(LINK_FAMILY_LABEL).forEach(([f,lbl])=>{links+=`<button type="button" class="row" data-kind="${f}" aria-pressed="true">${colorKey(f)}<span class="sw-name">${lbl}</span><span class="sw" aria-hidden="true"></span></button>`;});
+  const lineKey=(dash)=>`<svg class="linekey" viewBox="0 0 26 10" aria-hidden="true"><line x1="1" y1="5" x2="25" y2="5" stroke="var(--iron-gall)" stroke-width="1.6"${dash?` stroke-dasharray="${dash}"`:''}/></svg>`;
   const confRow=(dash,lbl)=>`<div class="row">${lineKey(dash)}<span class="sw-name">${lbl}</span></div>`;
   links+='<span class="cap">How sure the record is</span>'+confRow('','Documented')+confRow('6,3','Widely accepted or a leading reconstruction')+confRow('2,3','Contested')+confRow('1,4','Thin evidence');
-  const builtSwatch=`conic-gradient(${famColor(FAM[1])} 0turn .25turn,${famColor(FAM[4])} .25turn .5turn,${famColor(FAM[6])} .5turn .75turn,${famColor(FAM[7])} .75turn 1turn)`;
-  let key=`<div class="row"><i style="background:var(--graphite);opacity:.78"></i>Not yet built (graphite)</div>`;
-  key+=`<div class="row"><i style="background:${builtSwatch};border:1px solid var(--iron-gall)"></i>Built &amp; Live (full pigment, in that world's own color)</div>`;
-  if(acrossMovements.length)key+=`<div class="row"><svg class="linekey" viewBox="0 0 26 10" aria-hidden="true"><line x1="4" y1="5" x2="25" y2="5" stroke="var(--iron-gall)" stroke-width="2" stroke-linecap="round" stroke-opacity=".7"/><circle cx="4" cy="5" r="3" fill="var(--iron-gall)"/></svg>A movement across churches</div><div class="note">The Movements switch shows movements that ran across churches as thin lines beside their era, for the years they lasted.</div>`;
-  key+=`<div class="note">Width shows how many recorded movements were active then. A dashed thread marks years with none on record. Rivers lean together or apart where the record shows a link. Hiding a river does not move the others.</div>`;
-  key+=`<div class="note">Places are given with the country they lie in today.</div>`;
-  key+=`<div class="note">Tap a switch to hide or show it. Your choices stay for your next visit.</div>`;
+  const sv=(inner,vb)=>`<svg class="key-ico" viewBox="${vb||'-7 -7 14 14'}" width="22" height="22" aria-hidden="true" focusable="false">${inner}</svg>`;
+  const fig='<circle cx="0" cy="-2" r="2.1"/><path d="M-3.6,3.6 C-3.6,0.9 -1.9,0.2 0,0.2 C1.9,0.2 3.6,0.9 3.6,3.6 Z"/>';
+  const house=c=>`<path d="M0,-5.4 L5.6,-.5 L4.1,-.5 L4.1,5 L-4.1,5 L-4.1,-.5 L-5.6,-.5 Z" fill="${c}"/><path d="M-1.2,5 V1.4 H1.2 V5 Z" fill="var(--vellum)"/>`;
+  const keyRows=[
+    [sv('<path d="M-3,-7 C1,-3 -5,1 -1,7" fill="none" stroke="#cf8a3a" stroke-width="4" stroke-linecap="round"/>'),'A river','A family of churches. It is wider where more traditions were active.'],
+    [sv(house('var(--iron-gall)')),'A tradition','Tap its name to open its card.'],
+    [sv(house('var(--gold-leaf)')),'A tradition with a Representative','Conversations with its Representative are coming soon.'],
+    [sv('<circle r="2.2" fill="var(--graphite)"/>'),'A tradition, zoomed out','Zoom in and its name appears.'],
+    [sv(`<g fill="var(--iron-gall)">${fig}</g>`),'People of a tradition','Tap to see who they were.'],
+    [sv(`<rect x="-12" y="-6" width="24" height="12" rx="6" fill="none" stroke="#cf8a3a" stroke-width="1.2"/><g fill="var(--iron-gall)" transform="translate(-5 0) scale(.8)">${fig}</g><text x="1" y="3.2" font-size="8" font-weight="700" fill="var(--iron-gall)" font-family="Alegreya Sans,sans-serif">26</text>`,'-13 -7 26 14'),'People of a river','Everyone on that river in that era, with the count.'],
+    [sv('<path d="M0,-4.2 C-2.6,-5.4 -5.2,-5.1 -6.8,-4.6 V3.8 C-5.2,3.3 -2.6,3.6 0,4.8 C2.6,3.6 5.2,3.3 6.8,3.8 V-4.6 C5.2,-5.1 2.6,-5.4 0,-4.2 Z M0,-4.2 V4.8" fill="var(--tyrian)" stroke="var(--vellum)" stroke-width=".4"/>','-8 -7 16 14'),'A story','Something that happened, told from the sources.'],
+    [sv('<circle r="5.6" fill="none" stroke="var(--iron-gall)" stroke-width="1.3"/><circle cy="-2.4" r="1.1" fill="var(--iron-gall)"/><circle cx="-2.2" cy="1.7" r="1.1" fill="var(--iron-gall)"/><circle cx="2.2" cy="1.7" r="1.1" fill="var(--iron-gall)"/>'),'A major council','A meeting that touched more than one tradition.'],
+    [sv('<circle r="5.6" fill="none" stroke="var(--gold-leaf)" stroke-width="1.3"/><path d="M0,-.6 V3.2" stroke="var(--gold-leaf)" stroke-width="1.5" stroke-linecap="round"/><circle cy="-2.9" r=".9" fill="var(--gold-leaf)"/>'),'About an era','Opens a note on that era.'],
+    [sv('<path d="M-6,3 C-2,-5 2,5 6,-3" fill="none" stroke="var(--link-grow)" stroke-width="1.6"/><circle cx="-6" cy="3" r="1.7" fill="var(--link-grow)"/><circle cx="6" cy="-3" r="1.7" fill="var(--link-grow)"/>'),'A connection','A line between two traditions. Turn the lines on under Connections.'],
+    [sv('<path d="M0,-7 V7" stroke="#cf8a3a" stroke-width="1.6" stroke-dasharray="2.5 3"/>'),'A dashed river','Years with nothing on record.']
+  ];
+  let key=`<dl class="key-list">${keyRows.map(r=>`<div class="key-row">${r[0]}<div><dt>${r[1]}</dt><dd>${r[2]}</dd></div></div>`).join('')}</dl>`;
+  key+=`<p class="note">Zoom in to see more: first the major traditions, then every tradition and story, then places and people.</p><p class="note">Places are given with the country they lie in today.</p>`;
   key+=`<div class="foot">&copy; 2026 Faithways Studio, Inc., a Colorado public benefit corporation &middot; <a href="license.html">License</a>. The same team makes <a href="https://churchinconversation.com/">Church in Conversation</a>.<br><a href="about.html">About</a> · <a href="method.html">Method</a> · <a href="data.html">Data and citation</a> · <a href="privacy.html">Privacy</a> · <a href="https://churchinconversation.com/license">License</a> · <a href="terms.html">Terms</a> · <a href="support.html">Help us grow</a></div>`;
-  const group=(id,label,body)=>`<div class="chip-group"><button type="button" class="chip" aria-expanded="false" aria-controls="sw-${id}">${label} &#9662;</button><div class="chip-panel" id="sw-${id}" hidden>${body}</div></div>`;
-  let bar=group('rivers','Rivers',rivers)+group('links','Connections',links);
-  if(acrossMovements.length)bar+=`<button type="button" class="chip" data-toggle="movements" aria-pressed="false"><span class="sw-name">Movements</span><span class="sw" aria-hidden="true"></span></button>`;
-  if((DATA.stories||[]).length)bar+=`<button type="button" class="chip" data-toggle="stories" aria-pressed="true"><span class="sw-name">Stories</span><span class="sw" aria-hidden="true"></span></button>`;
-  bar+=group('key','Key',key);
+  const group=(id,icon,label,body,extra)=>`<div class="chip-group grp-${id}"><button type="button" class="chip has-ico" aria-expanded="false" aria-controls="sw-${id}"${extra||''}>${barIcon(icon)}<span class="sw-name">${label}<span class="dn"> &#9662;</span></span></button><div class="chip-panel" id="sw-${id}" hidden>${body}</div></div>`;
+  const layer=(id,label)=>`<button type="button" class="chip has-ico" data-toggle="${id}" aria-pressed="true">${barIcon(id)}<span class="sw-name">${label}</span><span class="sw" aria-hidden="true"></span></button>`;
+  let bar=group('rivers','rivers','Rivers',rivers)+layer('people','People');
+  if((DATA.stories||[]).length)bar+=layer('stories','Stories');
+  bar+=layer('councils','Councils')+group('links','links','Connections',links)+group('key','key','Key',key,' aria-label="Key: what the marks mean"');
   wrap.innerHTML=`<button type="button" class="chip who-chip" id="who-chip" hidden><span class="who-chip-label"></span><span aria-hidden="true">&times;</span></button>`+bar;
   document.getElementById('who-chip').addEventListener('click',ev=>{ev.stopPropagation();clearWho();});
-  const familyKeys=Object.keys(LINK_FAMILY_LABEL).map(f=>`family:${f}`);
-  const hidden=new Set(familyKeys);
-  try{const saved=localStorage.getItem('tree-hidden');if(saved!==null){hidden.clear();JSON.parse(saved).filter(k=>!k.startsWith('conf:')).forEach(k=>hidden.add(k));}}catch(e){}
-  let majorOnly=false;
-  try{majorOnly=localStorage.getItem('tree-major')==='1';}catch(e){}
-  let movementsOn=false;
-  try{movementsOn=localStorage.getItem('tree-movements')==='1';}catch(e){}
-  const announceToggle=(b)=>{
-    const k=b.dataset.toggle, name=(b.querySelector('.sw-name')||b).textContent.trim();
-    const laneKeysAll=[...wrap.querySelectorAll('button[data-toggle^="lane:"]')].map(x=>x.dataset.toggle);
-    const riversShowing=laneKeysAll.filter(l=>!hidden.has(l)).length;
-    const riverCount=`${riversShowing} of ${laneKeysAll.length} rivers showing.`;
-    const kindsShowing=familyKeys.filter(f=>!hidden.has(f)).length;
-    const kindCount=`${kindsShowing} of ${familyKeys.length} kinds of link showing.`;
-    let msg;
-    if(k==='lanes-all')msg=(riversShowing?'All rivers shown. ':'All rivers hidden. ')+riverCount;
-    else if(k.startsWith('lane:'))msg=`${name} ${hidden.has(k)?'hidden':'shown'}. ${riverCount}`;
-    else if(k.startsWith('family:'))msg=`${name} links ${hidden.has(k)?'hidden':'shown'}. ${kindCount}`;
-    else if(k==='major')msg=(majorOnly?'Major links only. ':'All kinds of link shown. ')+kindCount;
-    else if(k==='movements')msg=`Movements ${movementsOn?'shown':'hidden'}.`;
-    else if(k==='stories')msg=`Stories ${hidden.has(k)?'hidden':'shown'}.`;
-    else return;
-    announce(msg);
-  };
-  const applyToggles=()=>{
-    const laneOff=l=>hidden.has(`lane:${l}`);
+  const hidden=new Set();
+  try{const saved=localStorage.getItem('tree-hidden');if(saved!==null)JSON.parse(saved).filter(k=>/^(lane:|stories$|people$|councils$)/.test(k)).forEach(k=>hidden.add(k));}catch(e){}
+  try{const m=localStorage.getItem('tree-links');if(LINK_MODES.includes(m))linkMode=m;}catch(e){}
+  try{const saved=localStorage.getItem('tree-kinds-off');if(saved!==null)JSON.parse(saved).filter(k=>k in LINK_FAMILY_LABEL).forEach(k=>kindsOff.add(k));}catch(e){}
+  const save=()=>{try{localStorage.setItem('tree-hidden',JSON.stringify([...hidden]));localStorage.setItem('tree-links',linkMode);localStorage.setItem('tree-kinds-off',JSON.stringify([...kindsOff]));}catch(e){}};
+  const laneButtons=[...wrap.querySelectorAll('button[data-toggle^="lane:"]')];
+  const label=b=>{const s=b.querySelector('.sw-name b')||b.querySelector('.sw-name')||b;return s.textContent.trim();};
+  const riverCount=()=>`${laneButtons.filter(b=>!hidden.has(b.dataset.toggle)).length} of ${laneButtons.length} rivers in full.`;
+  applyToggles=()=>{
+    const laneOff=l=>hidden.has(`lane:${l}`), mode=effectiveLinkMode();
     document.querySelectorAll('.edge-line,.edge-hit').forEach(p=>{
-      p.classList.toggle('is-off',hidden.has(`family:${p.dataset.family}`)||(p.dataset.lanes||'').split('|').some(laneOff)||(majorOnly&&p.dataset.major!=='1'));
+      p.classList.toggle('is-off',mode==='off'||kindsOff.has(p.dataset.family)||(p.dataset.lanes||'').split('|').some(laneOff)||(mode==='major'&&p.dataset.major!=='1'));
     });
-    document.querySelectorAll('.river-group,.node,.story,.who-stack,.river-pill,.prof-pill').forEach(g=>g.classList.toggle('is-off',laneOff(g.dataset.lane)));
-    hideLabelsUnderWho();
-    scheduleLabelFit();
-    document.querySelectorAll('.across,.across-col').forEach(g=>g.classList.toggle('is-off',!movementsOn));
+    document.querySelectorAll('.river-group,.node,.story,.river-pill,.prof-pill').forEach(g=>g.classList.toggle('is-off',laneOff(g.dataset.lane)));
+    gAcross.querySelectorAll('.across').forEach(g=>{const ls=acrossLanes[g.dataset.id]||new Set();g.classList.toggle('across-out',!!ls.size&&![...ls].some(k=>!laneOff(k)));});
     document.querySelectorAll('.tie').forEach(p=>p.classList.toggle('is-off',(p.dataset.lanes||'').split('|').filter(Boolean).some(laneOff)));
     document.querySelectorAll('.continues').forEach(g=>g.classList.toggle('is-off',g.dataset.lanes.split('|').some(laneOff)));
     gStories.classList.toggle('is-off',hidden.has('stories'));
-    const laneButtons=[...wrap.querySelectorAll('button[data-toggle^="lane:"]')];
+    svg.classList.toggle('no-people',hidden.has('people'));
+    svg.classList.toggle('no-councils',hidden.has('councils'));
     wrap.querySelectorAll('button[data-toggle]').forEach(b=>{
-      const on=b.dataset.toggle==='lanes-all'?laneButtons.some(x=>!hidden.has(x.dataset.toggle))
-        :b.dataset.toggle==='major'?(majorOnly&&familyKeys.some(k=>!hidden.has(k)))
-        :b.dataset.toggle==='movements'?movementsOn:!hidden.has(b.dataset.toggle);
+      const k=b.dataset.toggle, on=k==='lanes-all'?laneButtons.some(x=>!hidden.has(x.dataset.toggle)):!hidden.has(k);
       b.setAttribute('aria-pressed',String(on));
     });
+    wrap.querySelectorAll('.conn-seg [data-mode]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.mode===linkMode)));
+    wrap.querySelectorAll('[data-kind]').forEach(b=>{b.setAttribute('aria-pressed',String(!kindsOff.has(b.dataset.kind)));b.disabled=linkMode==='off';});
+    const linksChip=wrap.querySelector('.grp-links .chip'); if(linksChip)linksChip.classList.toggle('is-on',linkMode!=='off');
+    if(connFocus)lightConnections();
+    scheduleLabelFit();
   };
+  const toast=t=>{const el=document.getElementById('barToast');el.textContent=t;el.classList.add('on');clearTimeout(toast.t);toast.t=setTimeout(()=>el.classList.remove('on'),1600);};
   wrap.querySelectorAll('button[data-toggle]').forEach(b=>b.addEventListener('click',()=>{
     const k=b.dataset.toggle;
     if(k==='lanes-all'){
-      const lanes=[...wrap.querySelectorAll('button[data-toggle^="lane:"]')].map(x=>x.dataset.toggle);
-      const anyOn=lanes.some(l=>!hidden.has(l));
-      lanes.forEach(l=>anyOn?hidden.add(l):hidden.delete(l));
-    } else if(k==='major'){
-      const on=majorOnly&&familyKeys.some(f=>!hidden.has(f));
-      majorOnly=!on;
-      familyKeys.forEach(f=>on?hidden.add(f):hidden.delete(f));
-    } else if(k==='movements'){
-      movementsOn=!movementsOn;
-    } else if(hidden.has(k))hidden.delete(k);else hidden.add(k);
-    if(whoLinks.saved&&(k==='major'||k.startsWith('family:'))&&familyKeys.some(f=>!hidden.has(f))){whoLinks.saved=null;clearWho();}
-    const kept=whoLinks.saved, keptHidden=new Set(hidden);
-    if(kept){familyKeys.forEach(f=>keptHidden.delete(f));kept.fam.forEach(f=>keptHidden.add(f));}
-    try{localStorage.setItem('tree-hidden',JSON.stringify([...keptHidden]));localStorage.setItem('tree-major',(kept?kept.major:majorOnly)?'1':'0');localStorage.setItem('tree-movements',movementsOn?'1':'0');}catch(e){}
-    applyToggles();
-    announceToggle(b);
+      const anyOn=laneButtons.some(x=>!hidden.has(x.dataset.toggle));
+      laneButtons.forEach(x=>anyOn?hidden.add(x.dataset.toggle):hidden.delete(x.dataset.toggle));
+    }else if(hidden.has(k))hidden.delete(k);else hidden.add(k);
+    if(k==='people'&&hidden.has(k)&&whoScope)clearWho();
+    save(); applyToggles(); queueAutoWho();
+    const on=k==='lanes-all'?laneButtons.some(x=>!hidden.has(x.dataset.toggle)):!hidden.has(k);
+    if(k==='lanes-all')announce((on?'All rivers in full. ':'All rivers faint. ')+riverCount());
+    else if(k.startsWith('lane:'))announce(`${label(b)} ${on?'in full':'faint'}. ${riverCount()}`);
+    else{announce(`${label(b)} ${on?'showing':'hidden'}.`);toast(`${label(b)}: ${on?'on':'off'}`);}
+  }));
+  wrap.querySelectorAll('.conn-seg [data-mode]').forEach(b=>b.addEventListener('click',ev=>{
+    ev.stopPropagation(); linkMode=b.dataset.mode; save(); applyToggles();
+    announce(linkMode==='off'?'Connections hidden.':linkMode==='major'?`${nMajor} major connections showing.`:`All ${nAll} connections showing.`);
+  }));
+  wrap.querySelectorAll('[data-kind]').forEach(b=>b.addEventListener('click',ev=>{
+    ev.stopPropagation(); const k=b.dataset.kind; if(kindsOff.has(k))kindsOff.delete(k);else kindsOff.add(k); save(); applyToggles();
+    const shown=Object.keys(LINK_FAMILY_LABEL).filter(f=>!kindsOff.has(f)).length;
+    announce(`${label(b)} ${kindsOff.has(k)?'hidden':'shown'}. ${shown} of ${Object.keys(LINK_FAMILY_LABEL).length} kinds of connection showing.`);
   }));
   applyToggles();
-  whoLinks.suspend=()=>{if(whoLinks.saved)return;whoLinks.saved={fam:familyKeys.filter(f=>hidden.has(f)),major:majorOnly};familyKeys.forEach(f=>hidden.add(f));majorOnly=false;applyToggles();};
-  whoLinks.restore=()=>{const kept=whoLinks.saved;if(!kept)return;whoLinks.saved=null;familyKeys.forEach(f=>hidden.delete(f));kept.fam.forEach(f=>hidden.add(f));majorOnly=kept.major;applyToggles();};
+  window.addEventListener('resize',applyToggles);
   const chips=[...wrap.querySelectorAll('.chip[aria-controls]')];
   const closeAll=except=>chips.forEach(c=>{if(c===except)return;c.setAttribute('aria-expanded','false');document.getElementById(c.getAttribute('aria-controls')).hidden=true;});
   chips.forEach(c=>c.addEventListener('click',ev=>{
     ev.stopPropagation();
-    const panel=document.getElementById(c.getAttribute('aria-controls'));
-    const open=panel.hidden;
+    const p=document.getElementById(c.getAttribute('aria-controls'));
+    const open=p.hidden;
     closeAll(c);
-    panel.hidden=!open;
+    p.hidden=!open;
     c.setAttribute('aria-expanded',String(open));
   }));
   wrap.querySelectorAll('.chip-panel').forEach(p=>p.addEventListener('click',ev=>ev.stopPropagation()));
@@ -112614,18 +113313,86 @@ function buildLegend(){
   document.addEventListener('keydown',ev=>{if(ev.key==='Escape')closeAll(null);});
 }
 
+const connChip=document.getElementById('connChip');
+const connSel=id=>`.edge-line[data-via~="${CSS.escape(id)}"],.edge-hit[data-via~="${CSS.escape(id)}"]`;
+function lightConnections(){
+  document.querySelectorAll('.conn-lit').forEach(l=>l.classList.remove('is-lit','conn-lit'));
+  connEnds=new Set([connFocus.id]);
+  document.querySelectorAll(connSel(connFocus.id)).forEach(l=>{l.classList.add('is-lit','conn-lit');(l.dataset.via||'').split(' ').forEach(id=>connEnds.add(id));});
+  gNodes.querySelectorAll('.node').forEach(g=>g.classList.toggle('conn-end',connEnds.has(g.dataset.id)));
+}
+function clearConnections(){
+  if(!connFocus)return;
+  document.querySelectorAll('.conn-lit').forEach(l=>l.classList.remove('is-lit','conn-lit'));
+  gNodes.querySelectorAll('.node.conn-end').forEach(g=>g.classList.remove('conn-end'));
+  connFocus=null; connEnds=null; svg.classList.remove('conn-focus'); connChip.hidden=true;
+  scheduleLabelFit();
+}
+function showConnections(m){
+  clearConnections(); if(whoScope)clearWho();
+  lastFocused=null; closePanel();
+  connFocus=m; lightConnections();
+  svg.classList.add('conn-focus');
+  const narrow=narrowScreen();
+  const pts=[...connEnds].map(id=>byId[id]).filter(o=>o&&o._x!=null), xs=pts.map(o=>o._x), ys=pts.map(o=>o._y);
+  const top=topInset()+56, vw=window.innerWidth-(narrow?70:120), vh=window.innerHeight-top-(narrow?barHeight()+40:40);
+  let x0=Math.min(...xs)-30, x1=Math.max(...xs)+170, y0=Math.min(...ys)-20, y1=Math.max(...ys)+20;
+  scale=Math.max(0.4,Math.min(scale,1.1,vw/Math.max(1,x1-x0),vh/Math.max(1,y1-y0)));
+  if((y1-y0)*scale>vh){y0=m._y-vh*.35/scale;y1=m._y+vh*.65/scale;}
+  tx=20+vw/2-((x0+x1)/2)*scale; ty=top+vh/2-((y0+y1)/2)*scale;
+  applyTransform(); applyDetail(); labelFitRun();
+  const n=document.querySelectorAll('.edge-line.conn-lit').length, name=m.shortName||m.name;
+  connChip.querySelector('.cc-t').textContent=`Connections: ${name} · ${n}`;
+  connChip.querySelector('.cc-x').setAttribute('aria-label',`${n} connections of ${name} are showing. Clear them.`);
+  connChip.hidden=false; announce(`${n} connections of ${name} showing.`);
+  connChip.querySelector('.cc-x').focus();
+}
+connChip.querySelector('.cc-x').addEventListener('click',clearConnections);
+document.addEventListener('keydown',ev=>{if(ev.key==='Escape'&&connFocus&&!panel.classList.contains('open'))clearConnections();});
+['pointerdown','wheel','touchstart'].forEach(t=>connChip.addEventListener(t,ev=>ev.stopPropagation(),{passive:true}));
+
 const stage=document.getElementById('stage');
 let scale=Math.min(window.innerWidth/CANVAS_W, window.innerHeight/eraH[0]/2.6), tx=0, ty=0;
-const MIN_S=0.06, MAX_S=3.2, DETAIL_THRESHOLD=0.34, PLACE_THRESHOLD=1.1;
-let lastOrganic=null, lastPlace=null;
+const MIN_S=0.06, MAX_S=9, DETAIL_THRESHOLD=Z_BUILT;
+let lastOrganic=null;
 const BLEED_W=8000/MIN_S, BLEED_X=CANVAS_W/2-BLEED_W/2;
 const ERA_CAPTION_MARGIN=24;
+const eraStrip=document.getElementById('eraStrip');
+let stripEra=-1, eraTitleRatio=[];
 function pinEraCaptions(){
-  const x=((ERA_CAPTION_MARGIN-tx)/scale).toFixed(2);
-  gLabels.querySelectorAll('text,tspan').forEach(t=>t.setAttribute('x',x));
+  const left=(!narrowScreen()&&!tray.hidden?tray.offsetWidth:0)+(narrowScreen()?12:ERA_CAPTION_MARGIN);
+  const x=(left-tx)/scale;
+  const pl=Math.max(15,Math.min(22,26*scale)), pt=Math.max(12,Math.min(14,16*scale));
+  const titles=gLabels.querySelectorAll('.era-label'), tags=gLabels.querySelectorAll('.era-tag'), infos=gLabels.querySelectorAll('.era-info');
+  titles.forEach((t,i)=>{
+    const y=eraY0[i]+16+(pl+34)/scale;
+    t.setAttribute('x',x.toFixed(2)); t.setAttribute('y',y.toFixed(1));
+    t.style.fontSize=(pl/scale)+'px'; t.style.strokeWidth=(3/scale)+'px';
+    if(!eraTitleRatio[i])eraTitleRatio[i]=t.getComputedTextLength()/(pl/scale);
+    infos[i].setAttribute('transform',`translate(${(x+eraTitleRatio[i]*pl/scale+16/scale).toFixed(1)},${(y-pl*.36/scale).toFixed(1)}) scale(${(1/scale).toFixed(4)})`);
+    const tag=tags[i];
+    tag.setAttribute('x',x.toFixed(2)); tag.setAttribute('y',(eraY0[i]+16+(pl+41+pt)/scale).toFixed(1));
+    tag.style.fontSize=(pt/scale)+'px'; tag.style.strokeWidth=(3/scale)+'px';
+  });
 }
-const LABEL_MIN_PX=12, LABEL_BASE_PX=11;
-const labelFit={items:null,queued:false};
+function syncEraStrip(){
+  const on=scale>=Z_ALL;
+  if(eraStrip.hidden===on){
+    eraStrip.hidden=!on; svg.classList.toggle('strip-on',on);
+    document.documentElement.style.setProperty('--strip-h',on?eraStrip.offsetHeight+'px':'0px');
+  }
+  if(!on){stripEra=-1;return;}
+  const top=chromeTop()+eraStrip.offsetHeight, i=eraIndexOfY((top+(window.innerHeight-top)*.3-ty)/scale);
+  if(i===stripEra)return;
+  stripEra=i; const e=eras[i];
+  eraStrip.querySelector('.es-t').textContent=`${e.num} · ${e.title}`;
+  eraStrip.querySelector('.es-d').textContent=e.dates;
+  eraStrip.querySelector('button').setAttribute('aria-label',`You are in era ${e.num}, ${e.title}, ${e.dates}. Opens a note on this era.`);
+}
+eraStrip.querySelector('button').addEventListener('click',()=>{if(stripEra>=0)openEraCard(stripEra);});
+['pointerdown','wheel','touchstart'].forEach(t=>eraStrip.addEventListener(t,ev=>ev.stopPropagation(),{passive:true}));
+const LABEL_MIN_PX=12, LABEL_MAX_PX=16, LABEL_BASE_PX=11;
+const labelFit={items:null,queued:false,grid:null,asc:0,desc:0};
 function labelFitBuild(){
   const deg={};
   DATA.edges.forEach(e=>{deg[e.from]=(deg[e.from]||0)+1;deg[e.to]=(deg[e.to]||0)+1;});
@@ -112633,57 +113400,99 @@ function labelFitBuild(){
   svg.querySelectorAll('#nodes .node').forEach(g=>{
     const lbl=g.querySelector('.lbl'), m=byId[g.dataset.id];
     if(!lbl||!m)return;
-    const built=lbl.getAttribute('font-weight')==='700';
-    items.push({g,lbl,id:m.id,dx:m._x,dy:m._y,x:+lbl.getAttribute('x'),y:+lbl.getAttribute('y'),
-      end:lbl.getAttribute('text-anchor')==='end',w:0,
+    const built=m.status==='Built & Live';
+    items.push({g,lbl,ico:g.querySelector('.trad-ico'),id:m.id,dx:m._x,dy:m._y,bx:+lbl.getAttribute('x'),x:+lbl.getAttribute('x'),y:+lbl.getAttribute('y'),
+      end:lbl.getAttribute('text-anchor')==='end',w:0,people:hasPeople(m),
       prio:(built?1e6:0)+(deg[m.id]||0)*10-(m.start||0)/1e4});
   });
   items.sort((a,b)=>b.prio-a.prio);
   labelFit.items=items;
 }
-function labelFitRun(){
-  labelFit.queued=false;
-  if(!lastOrganic)return;
-  const fs=Math.max(LABEL_BASE_PX,LABEL_MIN_PX/scale), k=fs/LABEL_BASE_PX, enlarged=k>1.001;
-  if(!labelFit.items)labelFitBuild();
-  const items=labelFit.items;
-  if(!enlarged){
-    items.forEach(it=>{it.lbl.style.fontSize='';it.lbl.style.strokeWidth='';it.lbl.classList.remove('lbl-cull');});
-    return;
-  }
-  items.forEach(it=>{
-    if(it.w)return;
-    it.lbl.style.fontSize='';it.lbl.style.strokeWidth='';
-    it.w=it.lbl.getComputedTextLength();
-  });
+function layoutGrid(){
   const CELL=160, grid=new Map();
   const cells=r=>{const out=[];for(let cx=Math.floor(r.x0/CELL);cx<=Math.floor(r.x1/CELL);cx++)for(let cy=Math.floor(r.y0/CELL);cy<=Math.floor(r.y1/CELL);cy++)out.push(cx+','+cy);return out;};
-  const hits=r=>cells(r).some(c=>(grid.get(c)||[]).some(o=>o.id!==r.id&&o.x0<r.x1&&o.x1>r.x0&&o.y0<r.y1&&o.y1>r.y0));
-  const add=r=>cells(r).forEach(c=>{if(!grid.has(c))grid.set(c,[]);grid.get(c).push(r);});
-  const live=items.filter(it=>!it.g.classList.contains('is-off')&&!it.g.classList.contains('who-under'));
-  live.forEach(it=>add({id:it.id,x0:it.dx-5,x1:it.dx+5,y0:it.dy-5,y1:it.dy+5}));
-  items.forEach(it=>{it.lbl.style.fontSize=fs+'px';it.lbl.style.strokeWidth=(3*k)+'px';});
-  items.forEach(it=>{
-    if(!live.includes(it)){it.lbl.classList.remove('lbl-cull');return;}
-    const w=it.w*k, x0=it.end?it.x-w:it.x;
-    const r={id:'l'+it.id,x0:x0-2,x1:x0+w+2,y0:it.y-fs*0.8,y1:it.y+fs*0.28};
-    const clash=hits(r);
-    it.lbl.classList.toggle('lbl-cull',clash);
-    if(!clash)add(r);
+  return {
+    hits:r=>cells(r).some(c=>(grid.get(c)||[]).some(o=>o.id!==r.id&&o.x0<r.x1&&o.x1>r.x0&&o.y0<r.y1&&o.y1>r.y0)),
+    add:r=>cells(r).forEach(c=>{if(!grid.has(c))grid.set(c,[]);grid.get(c).push(r);})
+  };
+}
+function sizeMarks(U){
+  gStories.querySelectorAll('.story>.story-book').forEach(b=>b.setAttribute('transform',`scale(${(U*1.12/13.6).toFixed(3)})`));
+  const f=Math.max(12,12/scale);
+  gCouncils.querySelectorAll('.council').forEach(c=>{
+    c.querySelectorAll('.council-ring,.council-seat').forEach(k=>k.setAttribute('transform',`scale(${(U/14).toFixed(3)})`));
+    const l=c.querySelector('.council-lbl'); l.setAttribute('x',(-(U/2+5)).toFixed(1)); l.style.fontSize=f+'px'; l.style.strokeWidth=(3*f/11)+'px';
   });
+  gCouncils.querySelectorAll('.council-cap').forEach(t=>{t.style.fontSize=f+'px';t.style.strokeWidth=(3*f/12)+'px';});
+  svg.style.setProperty('--pl-fs',Math.min(10,13/scale)+'px');
+}
+function syncDepth(){
+  [['z-council',Z_COUNCIL],['z-council-name',Z_COUNCIL_NAME],['z-story',Z_STORY],['z-story-title',Z_STORY_TITLE],['z-place',Z_PLACE]].forEach(([c,t])=>svg.classList.toggle(c,scale>=t));
+}
+function labelFitRun(){
+  labelFit.queued=false;
+  const U=lastOrganic?markU():0;
+  svg.classList.toggle('ico-on',U>0);
+  const focus=!!whoScope||!!connFocus;
+  const simple=scale<Z_MAJOR&&!focus, mid=!simple&&scale<Z_ALL&&!focus;
+  svg.classList.toggle('simple',simple);
+  syncDepth();
+  sizeMarks(markU());
+  const grid=layoutGrid();
+  labelFit.grid=grid;
+  if(lastOrganic){
+    const fs=Math.min(Math.max(LABEL_BASE_PX,LABEL_MIN_PX/scale),LABEL_MAX_PX/scale), k=fs/LABEL_BASE_PX, enlarged=Math.abs(k-1)>0.001;
+    if(!labelFit.items)labelFitBuild();
+    const items=labelFit.items;
+    items.forEach(it=>{
+      if(it.w)return;
+      it.lbl.style.fontSize='';it.lbl.style.strokeWidth='';it.w=it.lbl.getComputedTextLength();
+      if(!labelFit.asc){const bb=it.lbl.getBBox(), y=+it.lbl.getAttribute('y');labelFit.asc=(y-bb.y)/LABEL_BASE_PX;labelFit.desc=(bb.y+bb.height-y)/LABEL_BASE_PX;}
+    });
+    const half=U/2, shift=Math.max(0,U/2-2.5);
+    items.forEach(it=>{
+      it.x=it.bx+(it.end?-shift:shift); it.lbl.setAttribute('x',it.x.toFixed(2));
+      it.y=it.dy+fs*.32; it.lbl.setAttribute('y',it.y.toFixed(2));
+      if(it.ico)it.ico.setAttribute('transform',`translate(${it.dx.toFixed(1)},${it.dy.toFixed(1)}) scale(${(U/11).toFixed(3)})`);
+      it.lbl.style.fontSize=enlarged?fs+'px':''; it.lbl.style.strokeWidth=enlarged?(3*k)+'px':'';
+    });
+    const live=items.filter(it=>!it.g.classList.contains('is-off')&&(!simple||it.g.classList.contains('built')));
+    live.forEach(it=>grid.add({id:it.id,x0:it.dx-4,x1:it.dx+4,y0:it.dy-4,y1:it.dy+4}));
+    if(scale>=Z_STORY&&!gStories.classList.contains('is-off')){const sh=U*.6;(DATA.stories||[]).forEach(s=>{if(s._x!=null)grid.add({id:'s'+s.id,x0:s._x-sh,x1:s._x+sh,y0:s._y-sh*.85,y1:s._y+sh*.85});});}
+    const boxOf=it=>{
+      const w=it.w*k, x0=it.end?it.x-w:it.x, fig=it.people?U*1.1:0;
+      return {id:it.id,x0:Math.min(x0-2,it.dx-half-(it.end?0:fig)),x1:Math.max(x0+w+2,it.dx+half+(it.end?fig:0)),
+        y0:Math.min(it.y-fs*labelFit.asc,it.dy-half),y1:Math.max(it.y+fs*labelFit.desc,it.dy+half),nx0:x0-2,nx1:x0+w+2};
+    };
+    const lit=new Set(whoPick?whoPick.shown.filter(a=>!a.m.gap).map(a=>a.m.id):[]);
+    if(connEnds)connEnds.forEach(id=>lit.add(id));
+    live.forEach(it=>{if(lit.has(it.id))grid.add(boxOf(it));});
+    items.forEach(it=>{
+      if(!live.includes(it)){it.lbl.classList.remove('lbl-cull');it.g.classList.remove('no-name');it.box=null;return;}
+      const r=boxOf(it);
+      const clash=lit.has(it.id)?false:(mid&&!it.g.classList.contains('major'))||grid.hits(r);
+      it.lbl.classList.toggle('lbl-cull',clash); it.g.classList.toggle('no-name',clash);
+      it.box=clash?null:r;
+      if(!clash&&!lit.has(it.id))grid.add(r);
+    });
+  }
+  placeWhoMarks();
 }
 function scheduleLabelFit(){if(labelFit.queued)return;labelFit.queued=true;requestAnimationFrame(labelFitRun);}
-if(document.fonts&&document.fonts.addEventListener)document.fonts.addEventListener('loadingdone',()=>{if(labelFit.items)labelFit.items.forEach(it=>{it.w=0;});scheduleLabelFit();});
+if(document.fonts&&document.fonts.addEventListener)document.fonts.addEventListener('loadingdone',()=>{if(labelFit.items)labelFit.items.forEach(it=>{it.w=0;});labelFit.asc=0;eraTitleRatio=[];pinEraCaptions();scheduleLabelFit();});
+let lastScale=null, whoRaf=0;
 function applyTransform(){
   gRoot.setAttribute('transform',`translate(${tx},${ty}) scale(${scale})`);
   if(!stage.classList.contains('pinching'))gRoot.style.setProperty('--zoom-scale',scale);
   pinEraCaptions();
+  syncEraStrip();
   scheduleLabelFit();
+  queueAutoWho();
+  if(whoScope&&scale!==lastScale&&!whoRaf)whoRaf=requestAnimationFrame(()=>{whoRaf=0;drawWhoNames();});
+  lastScale=scale;
 }
 function applyDetail(){
-  const organic = scale>DETAIL_THRESHOLD;
-  const placeOn = scale>PLACE_THRESHOLD;
-  if(placeOn!==lastPlace){lastPlace=placeOn;document.querySelectorAll('#nodes .pl, .story-title').forEach(t=>t.style.display=placeOn?'block':'none');}
+  const organic=scale>DETAIL_THRESHOLD;
   if(organic===lastOrganic)return;
   lastOrganic=organic;
   document.querySelectorAll('.river-calm').forEach(p=>{p.style.opacity=organic?0:RIVER_CALM_OP;p.style.pointerEvents=organic?'none':'auto';});
@@ -112691,23 +113500,20 @@ function applyDetail(){
   document.querySelectorAll('.thread-calm').forEach(p=>{p.style.opacity=organic?0:0.8;});
   document.querySelectorAll('.thread-organic').forEach(p=>{p.style.opacity=organic?0.8:0;});
   document.querySelectorAll('#nodes .lbl,.across-lbl').forEach(t=>t.style.display=organic?'block':'none');
-  gWhoPills.style.display=organic?'block':'none'; gProfPills.style.display=organic?'block':'none';
-  if(whoScope)renderWho();
-  document.querySelectorAll('#nodes .portrait-plate').forEach(t=>t.style.display=organic?'block':'none');
   document.querySelectorAll('.edge-line').forEach(p=>{
-    const base=organic?(isDark()?EDGE_ORGANIC_OP_DARK:EDGE_ORGANIC_OP):EDGE_CALM_OP;
+    const base=organic?EDGE_ORGANIC_OP:EDGE_CALM_OP;
     p.dataset.baseline=base;
     p.style.opacity=base;
   });
+  if(whoScope)drawWhoNames();
+  scheduleLabelFit();
 }
 function centerView(){
   scale=Math.min(window.innerWidth/(CANVAS_W*1.05), window.innerHeight/(CANVAS_H*0.14));
   scale=Math.max(scale,DETAIL_THRESHOLD*1.15);
   scale=Math.max(MIN_S,Math.min(MAX_S,scale));
   tx=(window.innerWidth-CANVAS_W*scale)/2;
-  const topbar=document.querySelector('.topbar'), featureBar=document.querySelector('.feature-bar');
-  const chrome=(topbar?topbar.offsetHeight:0)+(featureBar?featureBar.offsetHeight:0);
-  ty=Math.max(40,chrome+12);
+  ty=Math.max(40,chromeTop()+12);
   applyTransform(); applyDetail();
 }
 function zoomAt(mx,my,factor){
@@ -112780,10 +113586,12 @@ const ZOOM_STEP=1.25;
 function zoomCentre(factor){ zoomAt(window.innerWidth/2,window.innerHeight/2,factor); }
 document.getElementById('zoomInBtn').addEventListener('click',()=>zoomCentre(ZOOM_STEP));
 document.getElementById('zoomOutBtn').addEventListener('click',()=>zoomCentre(1/ZOOM_STEP));
-function topInset(){
+function chromeTop(){
   const topbar=document.querySelector('.topbar'), featureBar=document.querySelector('.feature-bar');
-  return (topbar?topbar.offsetHeight:0)+(featureBar?featureBar.offsetHeight:0)+12;
+  return (topbar?topbar.offsetHeight:0)+(featureBar&&!narrowScreen()?featureBar.offsetHeight:0);
 }
+function barHeight(){const featureBar=document.querySelector('.feature-bar');return narrowScreen()&&featureBar?featureBar.offsetHeight:0;}
+function topInset(){return chromeTop()+(eraStrip.hidden?0:eraStrip.offsetHeight)+12;}
 document.addEventListener('keydown',(ev)=>{
   if(ev.defaultPrevented||ev.ctrlKey||ev.metaKey||ev.altKey)return;
   if(panel.classList.contains('open'))return;
@@ -112869,9 +113677,8 @@ svg.addEventListener('keydown',(ev)=>{
   next.focus({preventScroll:true});
   revealInView(next);
 });
-if(window.matchMedia&&window.matchMedia('(any-pointer:coarse)').matches){
-  document.getElementById('zoomHint').textContent='Drag to move \u00b7 pinch to zoom';
-}
+const coarsePointer=!!(window.matchMedia&&window.matchMedia('(any-pointer:coarse)').matches);
+if(coarsePointer)document.getElementById('zoomHint').textContent='Drag to move \u00b7 pinch to zoom';
 
 let touches={}, pinched=false, glideRaf=0, flick=[];
 const reduceMotion=matchMedia('(prefers-reduced-motion:reduce)');
@@ -112944,20 +113751,47 @@ function releaseTouches(ev,canGlide){
 stage.addEventListener('touchend',(ev)=>releaseTouches(ev,true));
 stage.addEventListener('touchcancel',(ev)=>releaseTouches(ev,false));
 
-document.getElementById('resetBtn').addEventListener('click',()=>{stopGlide();centerView();});
+const resetView=()=>{stopGlide();centerView();};
+document.getElementById('resetBtn').addEventListener('click',resetView);
+document.getElementById('zoomResetBtn').addEventListener('click',resetView);
+{
+  const menuBtn=document.getElementById('menuBtn'), menu=document.getElementById('siteMenu');
+  const setMenu=on=>{menu.hidden=!on;menuBtn.setAttribute('aria-expanded',String(on));};
+  menuBtn.addEventListener('click',ev=>{ev.stopPropagation();setMenu(menu.hidden);});
+  menu.addEventListener('click',ev=>{
+    if(ev.target.closest('[data-act="feedback"]')){setMenu(false);document.getElementById('feedback-toggle').click();return;}
+    if(ev.target.closest('a'))setMenu(false);
+  });
+  document.addEventListener('click',ev=>{if(!menu.hidden&&!menu.contains(ev.target))setMenu(false);});
+  document.addEventListener('keydown',ev=>{if(ev.key==='Escape'&&!menu.hidden){setMenu(false);menuBtn.focus();}});
+}
+gRivers.addEventListener('click',ev=>{
+  if(!svg.classList.contains('simple'))return;
+  ev.stopPropagation(); ev.preventDefault(); hideTip();
+  const r=stage.getBoundingClientRect();
+  zoomAt(ev.clientX-r.left,ev.clientY-r.top,Z_READ/scale);
+},true);
 function positionFeatureBar(){
   const topbar=document.querySelector('.topbar'), featureBar=document.querySelector('.feature-bar');
-  if(featureBar)featureBar.style.top=(topbar?topbar.offsetHeight:0)+'px';
-  document.documentElement.style.setProperty('--map-top',((topbar?topbar.offsetHeight:0)+(featureBar?featureBar.offsetHeight:0))+'px');
+  if(featureBar)featureBar.style.top=narrowScreen()?'auto':(topbar?topbar.offsetHeight:0)+'px';
+  document.documentElement.style.setProperty('--map-top',chromeTop()+'px');
+  document.documentElement.style.setProperty('--bar-h',barHeight()+'px');
 }
 positionFeatureBar();
-window.addEventListener('resize',positionFeatureBar);
+window.addEventListener('resize',()=>{positionFeatureBar();pinEraCaptions();if(whoScope)zoomToWho();});
 
 render();
 buildLegend();
 positionFeatureBar();
 if(window.ResizeObserver){const ro=new ResizeObserver(positionFeatureBar);document.querySelectorAll('.topbar,.feature-bar').forEach(e=>ro.observe(e));}
 centerView();
+{
+  const hint=document.getElementById('zoomHint');
+  if(scale<Z_MAJOR)hint.innerHTML=(narrowScreen()?'<b>A map of Christian tradition</b>, from the first house-churches to about 2010.<br>':'')+(coarsePointer?'Tap':'Click')+' an era or a river to go in.';
+  const hideHint=()=>hint.classList.add('gone');
+  ['pointerdown','wheel','keydown'].forEach(t=>window.addEventListener(t,hideHint,{once:true,passive:true}));
+  setTimeout(hideHint,narrowScreen()?14000:8000);
+}
 {
   const deepLinkId=new URLSearchParams(location.search).get('world');
   const deepLinkM=deepLinkId&&entryById(deepLinkId);

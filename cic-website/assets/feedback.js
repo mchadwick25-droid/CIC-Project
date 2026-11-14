@@ -193,8 +193,6 @@
   var onAtlas = id === 'atlas-v3';
   if (!onTree && !onAtlas) { return; }
 
-  var PAGE = id.replace(/[^A-Za-z0-9\/_.:-]/g, '-').slice(0, 120);
-  var LIKE_KEY = 'cic-page-like:' + PAGE;
   var MAX_NOTE = 600;
 
   var isLocal = ['localhost', '127.0.0.1'].indexOf(window.location.hostname) !== -1;
@@ -210,7 +208,6 @@
     '<div class="pf-row">' +
       '<button type="button" class="pf-like" id="pf-like" aria-pressed="false">' + HEART + 'This helped</button>' +
       '<button type="button" class="pf-report" id="pf-report" aria-expanded="false" aria-controls="pf-card">Report a problem</button>' +
-      (onAtlas ? '<button type="button" class="pf-dismiss" id="pf-dismiss" aria-label="Hide this bar">&times;</button>' : '') +
     '</div>' +
     '<p class="pf-status" id="pf-status" role="status"></p>' +
     '<form class="pf-card" id="pf-card" role="dialog" aria-labelledby="pf-title" novalidate hidden>' +
@@ -239,31 +236,15 @@
       '</div>' +
     '</form>';
 
+  function mount(container, before, page) {
+  var PAGE = page.replace(/[^A-Za-z0-9\/_.:-]/g, '-').slice(0, 120);
+  var LIKE_KEY = 'cic-page-like:' + PAGE;
   var root = document.createElement('div');
-  root.className = 'page-feedback' + (onAtlas ? ' page-feedback--fixed' : '');
+  root.className = 'page-feedback';
   root.innerHTML = MARKUP;
-
-  var footer = document.querySelector('.site-footer');
-  if (onTree && footer) {
-    footer.parentNode.insertBefore(root, footer);
-  } else {
-    (document.querySelector('main') || document.body).appendChild(root);
-  }
+  container.insertBefore(root, before);
 
   var likeBtn = root.querySelector('#pf-like');
-  var dismissBtn = root.querySelector('#pf-dismiss');
-  if (dismissBtn) {
-    var DISMISS_KEY = 'cic-page-feedback-hidden';
-    try {
-      if (window.sessionStorage.getItem(DISMISS_KEY) === '1') { root.hidden = true; }
-    } catch (e) {  }
-    dismissBtn.addEventListener('click', function () {
-      root.hidden = true;
-      try { window.sessionStorage.setItem(DISMISS_KEY, '1'); } catch (e) {  }
-      var stage = document.getElementById('stage');
-      if (stage) { stage.focus(); }
-    });
-  }
   var reportBtn = root.querySelector('#pf-report');
   var status = root.querySelector('#pf-status');
   var card = root.querySelector('#pf-card');
@@ -359,4 +340,13 @@
       sendBtn.disabled = false;
     });
   });
+  }
+
+  if (onTree) {
+    var footer = document.querySelector('.site-footer');
+    if (footer) { mount(footer.parentNode, footer, id); }
+    else { var main = document.querySelector('main') || document.body; mount(main, null, id); }
+  } else {
+    window.PageFeedback = { mount: function (container, page) { mount(container, null, page); } };
+  }
 })();
