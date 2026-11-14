@@ -491,9 +491,14 @@
         "formation_confidence": "Documented"
       },
       {
-        "claim": "The manuscripts title him bishop of the patria Vitensis",
-        "witness": "Petschenig's apparatus to the titles (l.1000-1068)",
+        "claim": "Most manuscripts title him bishop of the patria Vitensis; one (p) reads Uticensis",
+        "witness": "Petschenig's apparatus to the titles (l.1000-1068); Halm's apparatus (Halm l.370); Mesnage (l.4246-4247)",
         "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "The Notitia of the Catholic bishops summoned to Carthage in 484 lists 'Uictor uitensis non occurrit' under Byzacena; Mesnage takes him for the historian, who fled into exile and wrote his History in 488",
+        "witness": "Notitia, printed by Halm (l.5156-5160, 5750; dated 484 in Halm's preface l.89-91); Joseph Mesnage (l.4244-4249)",
+        "formation_confidence": "Dominant Modern Reconstruction"
       },
       {
         "claim": "Pampinianus, venerable bishop of 'our city', was burned with red-hot iron plates; 'our city' is Vita",
@@ -526,9 +531,9 @@
         "formation_confidence": "Dominant Modern Reconstruction"
       },
       {
-        "claim": "At Tipasa in Mauretania the king had the tongues and right hands of those who refused the Arian bishop cut off, and they spoke as before; the subdeacon Reparatus could be found at Constantinople, honoured at the palace of Zeno",
+        "claim": "Victor reports that at Tipasa in Mauretania the king had the tongues and right hands of those who refused the Arian bishop cut off, and they spoke as before; the subdeacon Reparatus could be found at Constantinople, honoured at the palace of Zeno",
         "witness": "Victor III.29-30 (Petschenig l.5907-5961; Halm l.4084)",
-        "formation_confidence": "Contested"
+        "formation_confidence": "Documented"
       },
       {
         "claim": "Honoric cut out the tongues of many, who up to Procopius's time went about in Byzantium speaking",
@@ -546,16 +551,15 @@
         "formation_confidence": "Dominant Modern Reconstruction"
       }
     ],
-    "contested_claims": [
-      {
-        "claim": "That the Tipasa confessors spoke after their tongues were cut out",
-        "sides": "Victor (Petschenig l.5953-5961) tells it as a wonder and names Reparatus at Constantinople; Procopius of Caesarea (l.913-919) says such people still spoke in Byzantium in his day, two of them losing speech later. No held source denies it; both witnesses report it, and the brief tells it as their report."
-      }
-    ],
+    "contested_claims": [],
     "absent_details": [
       {
-        "detail": "His birth, family, career and death",
-        "note": "No source used here gives them; his life is known only from what his History says."
+        "detail": "His birth, family and death",
+        "note": "No held source gives them. Beyond his History, only Mesnage's reading of the 484 Notitia adds his exile and the History's date."
+      },
+      {
+        "detail": "A test of the Tipasa report",
+        "note": "Victor tells it of Tipasa and Procopius of Caesarea of many in Byzantium, two of whom later lost their speech (l.913-919); no held witness tests or denies the report."
       },
       {
         "detail": "A clean English translation",
@@ -602,7 +606,7 @@
       },
       {
         "claim": "Lived past a hundred, into Zeno's reign",
-        "witness": "Thomas Artsruni, as cited in Langlois's Introduction and note 4 (l.7876-7881, 7896-7897); Langlois says his age cannot be fixed exactly",
+        "witness": "Thomas Artsruni, as cited in Langlois's Introduction and note 4 (l.7876-7881, 7896-7897); Langlois says his age cannot be fixed exactly; the Mekhitarist preface gives a hundred and twenty years, citing Thomas Artsruni (ita l.163-164, footnote l.181)",
         "formation_confidence": "Inferential-Thin"
       },
       {
@@ -634,7 +638,7 @@
     "contested_claims": [
       {
         "claim": "When Moses of Khoren wrote",
-        "sides": "Fifth century: Langlois, Introduction (born in the later fourth century, l.7787-7790; patron's revolt of 481, l.7963-7965) and the Mekhitarist preface (ita l.122-165), both drawing his life from the History. A later date: argued by no work held in the Library; the Library file header of the Italian edition (l.4-5) and the era 3 scan note only that modern scholarship debates it. Macler (l.671-674): almost nothing precise is known of him."
+        "sides": "Fifth century: Langlois, Introduction (born in the later fourth century, l.7787-7790; patron's revolt of 481, l.7963-7965) and the Mekhitarist preface (ita l.122-165), both drawing his life from the History. A later date: argued by no work held in the Library; the Library file header of the Italian edition (l.4-5) and the era 3 scan note only that modern scholarship debates it. Macler (l.671-674): almost nothing precise is known of him. No held line itself says the date is disputed; the Contested tag is the coordinator's call under the era 3 ruling."
       }
     ],
     "absent_details": [
