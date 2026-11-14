@@ -136,6 +136,7 @@ def test_institution_and_work_names_are_left_alone():
     assert _words("The Defence of Dionysius is held in English.") == []
     assert _words("Peter wrote On the Advent of Our Saviour, and Loomis prints the Liberian Catalogue.") == []
     assert _words("Athanasius, Defence Against the Arians, is long.") == []
+    assert _words("The Catalogue of the Saints of Ireland lists him; the library's catalogue does not.") == ["catalogue"]
     assert _words("Mediaeval scholars read it.") == ["Mediaeval"]
     assert _words("The centre of the city.") == ["centre"]
 

@@ -315,6 +315,34 @@ function proseOf(x, out = []) {
   else if (isObj(x)) Object.entries(x).forEach(([k, v]) => { if (k !== "sources" && k !== "file") proseOf(v, out); });
   return out;
 }
+// A rendering the prose itself declares ("in modern words") is the narrator's English of a non-English original,
+// so its words are not in the file; the review checks it against the original. The declaration must stand within
+// a short reach of the quotation, in the same paragraph.
+const RENDERING = /in modern words/i;
+const RENDERING_REACH = 120;
+function declaredRendering(para, start, end) {
+  return RENDERING.test(para.slice(Math.max(0, start - RENDERING_REACH), end + RENDERING_REACH));
+}
+// Scan faults inside quoted spans, each named with its file, lines and the printed reading (tools/quote_scan_readings.json).
+const scanReadings = new Map();
+for (const r of JSON.parse(readFileSync(new URL("./quote_scan_readings.json", import.meta.url), "utf8")).readings) {
+  if (!scanReadings.has(r.file)) scanReadings.set(r.file, []);
+  scanReadings.get(r.file).push(r);
+}
+function withReadings(file, raw) {
+  const list = scanReadings.get(file);
+  if (!list) return raw;
+  const lines = raw.split("\n");
+  // Later lines first, so a reading that joins lines does not move the lines of the readings above it.
+  for (const r of [...list].sort((a, b) => parseInt(b.lines) - parseInt(a.lines))) {
+    const [a, b = a] = String(r.lines).split("-").map(Number);
+    const seg = lines.slice(a - 1, b).join("\n");
+    if (!seg.includes(r.scan)) { errs.push(`tools/quote_scan_readings.json: ${file} lines ${r.lines} no longer read "${r.scan}"`); continue; }
+    if (r.drop) { lines.fill("", a - 1, b); continue; }
+    lines.splice(a - 1, b - a + 1, ...seg.replace(r.scan, r.reads).split("\n"));
+  }
+  return lines.join("\n");
+}
 function checkQuotes(m) {
   const groups = (m.card ?? m.council)?.sources ?? {};
   const files = [...new Set(Object.values(groups).flat().map(s => s.file).filter(Boolean))];
@@ -323,11 +351,13 @@ function checkQuotes(m) {
   const pending = [];
   for (const para of prose.flatMap(t => t.split("\n"))) {
     if ((para.match(/"/g) ?? []).length % 2) { errs.push(`${m.id}: unbalanced quotation marks in "${para.slice(0, 60)}"`); continue; }
-    for (const q of para.matchAll(/"([^"]+)"/g))
+    for (const q of para.matchAll(/"([^"]+)"/g)) {
+      if (declaredRendering(para, q.index, q.index + q[0].length)) continue;
       for (const piece of q[1].split(/\.\.\.|…/)) {
         const f = fold(piece);
         if (f.length >= 8) pending.push({ piece, f });
       }
+    }
   }
   if (!skipQuotes) quoteJobs.push({ id: m.id, files, left: pending });
 }
@@ -343,7 +373,7 @@ function finishQuotes() {
     // A quotation may stand in the text proper (an editor's footnote not counted) or in a footnote the brief quotes.
     // In a plain-text scan, a page or section number can fall inside a quoted sentence, and a word can be broken
     // across lines with a hyphen; neither is part of the words.
-    const raw = readFileSync(file, "utf8");
+    const raw = withReadings(file, readFileSync(file, "utf8"));
     const xml = file.endsWith(".xml");
     const variants = xml
       ? [() => fold(raw.replace(/<[^>]+>/g, " ")), () => fold(raw.replace(/<[^>]+>/g, "")), () => fold(raw.replace(/<note[\s\S]*?<\/note>/g, " ").replace(/<[^>]+>/g, " "))]
