@@ -13,3 +13,7 @@ The answer to `R2_recheck.md`. The one substantial finding is fixed, and so are 
 ## After round 3
 
 `R3_recheck.md` cleared all three councils with no blocking or substantial point. Its three optional minors were taken as wording, with no brief changed: R3-1, the Dvin date's contested claim now cites Kirakos and Ukhtanes through Brosset; R3-2, the Register XI.52 letter is taken out of Dvin's `record` (it stays in `uncertain` and `sources`, since it bears on the council only if Quiricus is Kyrion); R3-3, Constantinople's Roman-church note reads "the fifth council".
+
+## Spelling, after merging main
+
+Main had moved to American spelling for the profiles' own prose (Decision-Log 77; the eras 1 and 2 live release). The era 3 files were brought into line: defence, catalogue, recognised, favourable in the entries and records; defence, honoured, favour and laboured in the briefs, with the audio scripts regenerated. Scores are unchanged (553: 400 words, FRE 60.22; 589: 400, FRE 68.71; Dvin: 371, FRE 61.77). Quotations keep their own spelling.

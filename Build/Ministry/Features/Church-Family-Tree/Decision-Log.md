@@ -2706,3 +2706,25 @@ The approved files are in `Who-Profiles/era3/batch5/` in this folder, and the re
 **What is still open.** Open-Gaps 249. Open-Gaps 217 (caps, major mark, placement) is carried. The 17 council people with no Who scan verdict stay "Not yet assessed" (246).
 
 Approved to proceed (Mark, 2026-11-14).
+
+## 2026-11-14 — Major councils, era 3: three profiles (Mark's instruction, through the coordinator)
+
+**Decided (Mark, 2026-11-14; his words as given).** The scope: "do the major counsils for era 3 also". The three are the era 3 rows of the councils scan (`Build/Ministry/Operations/Audits/2026-11-12_major-events-scan/Councils_Scan.md`): the Second Council of Constantinople (553), the Third Council of Toledo (589) and the Council of Dvin of the Armenian–Georgian break. Each is written to `Council_Profile_Pattern.md`, in the form of the era 1 and 2 councils.
+
+**The three councils.**
+- Constantinople 553: 400 words, FK 8.1, reading ease 60.2. The Library holds only English extracts of the acts; the losing side speaks in Vigilius's Constitutum and Facundus, both in Latin, and in Victor of Tunnuna.
+- Toledo 589: 400 words, FK 7.0, reading ease 68.7. The acts are held in Latin with the signatures; every witness is Catholic, and the Homoian view reaches us through the acts' anathemas, John of Biclaro and Gregory of Tours's report of the envoy Agilan.
+- Dvin: 371 words, FK 7.7, reading ease 61.8. No record of the council or letter of its two church heads is held; among the held writers only modern ones tell of a synod at Dvin, and the year is told as between 596 and 609, with Brosset's 596 and Ormanian's 609 named.
+
+**Worker's calls under the pattern (not Mark's words; Mark may overrule).** The Who click lists those who took part, those condemned, and those who acted on the council's decisions; writers who only report a council are in its record and sources. The Dvin id keeps 609, the year of the census and the scan, with the dispute told in the entry. American spelling in the profiles' own prose, as Decision-Log 77 and the eras 1 and 2 live release require; quotations keep their own spelling. Opus drafted every profile.
+
+**Review.** Three rounds by fresh Opus agents that had not seen the drafting.
+- Round 1, the full review, found no blocking points, 5 substantial and 21 minor. The substantial points: the Church of the East's synod of 585 was told as an answer to the council, a link that is only Jérôme Labourt's reading; Michael the Syrian's account was missed and an absence claimed; Kyrion's side was said to reach us only through foes, though his one witness, Issaverdens, favors him; the Dvin brief opened on Stephen of Taron's anathema as if it were the council's scene, without saying that only modern writers tell of a synod; and the editors of Gregory's letter to Quiricus were misread.
+- Round 2, a targeted recheck, cleared Constantinople and Toledo and found one new substantial point on Dvin, a second false absence (Brosset cites the medieval historians Kirakos and Ukhtanes for the council), with four minors.
+- Round 3 cleared all three, with three optional minors, taken as wording.
+
+Every quotation was re-checked word for word against its vendored file. No paid calls were made.
+
+**What is still open.** Open-Gaps 250, "Major councils, era 3" (2026-11-14). The councils of eras 4 to 10 are not started.
+
+The files are in `Council-Profiles/era3/` in this folder, and the reviews are in `Build/Ministry/Operations/Audits/2026-11-14_council-profiles-era3/`. No census, record or site change is made, so there is no data release number; councils reach the site through the map build.

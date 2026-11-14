@@ -128,7 +128,7 @@
         "formation_confidence": "Documented"
       },
       {
-        "claim": "A synod of the Church of the East gave a canon in defence of the books and teaching of 'saint Théodore', the Interpreter, against men 'dans le temps actuel ... qui s'intitulent orthodoxes'; the canon names no council",
+        "claim": "A synod of the Church of the East gave a canon in defense of the books and teaching of 'saint Théodore', the Interpreter, against men 'dans le temps actuel ... qui s'intitulent orthodoxes'; the canon names no council",
         "witness": "Synodicon orientale, synod of Ishoyahb I, canon on Theodore (chabot1902 l.26570-26600); Chabot dates the synod to the summer of 585 (l.26035-26071, 26550)",
         "witness_kind": "later narrative",
         "formation_confidence": "Documented"
@@ -187,7 +187,7 @@
       },
       {
         "claim": "When Vigilius died",
-        "sides": "Victor: under the year Mommsen gives as 557 (l.19213). Percival: end of 554 or start of 555 (npnf214 l.24512-24513). Duchesne, from a Verona catalogue: 7 June 555 (duchesne1886 l.152254-152255).",
+        "sides": "Victor: under the year Mommsen gives as 557 (l.19213). Percival: end of 554 or start of 555 (npnf214 l.24512-24513). Duchesne, from a Verona catalog: 7 June 555 (duchesne1886 l.152254-152255).",
         "formation_confidence": "Contested"
       },
       {
@@ -434,7 +434,7 @@
   "council-of-dvin-609": {
     "claims": [
       {
-        "claim": "Movses consecrated Kiurion, a priest of the catholicate's monastery, as catholicos of the Iberians; shortly before Movses's death Kiurion came to doubt the orthodox faith and recognised the Council of Chalcedon; Movses often rebuked him without success",
+        "claim": "Movses consecrated Kiurion, a priest of the catholicate's monastery, as catholicos of the Iberians; shortly before Movses's death Kiurion came to doubt the orthodox faith and recognized the Council of Chalcedon; Movses often rebuked him without success",
         "witness": "Stephen of Taron (stepanos-taron_armenische-geschichte-deu_gelzer-burckhardt1907.txt l.3000-3007)",
         "witness_kind": "later narrative",
         "formation_confidence": "Widely Accepted"
@@ -556,7 +556,7 @@
       },
       {
         "claim": "Why Kyrion accepted Chalcedon",
-        "sides": "Ormanian: to win the imperial favour (l.2723-2724). Stephen of Taron: he came to doubt the orthodox faith (l.3003-3005). Issaverdens: after examining Chalcedon's acts and Leo's Tome (l.3656-3665). Kyrion himself, in Issaverdens: Chalcedon's creed is the same as the three councils' (l.3695-3699).",
+        "sides": "Ormanian: 'in order to win the imperial favour' (l.2723-2724). Stephen of Taron: he came to doubt the orthodox faith (l.3003-3005). Issaverdens: after examining Chalcedon's acts and Leo's Tome (l.3656-3665). Kyrion himself, in Issaverdens: Chalcedon's creed is the same as the three councils' (l.3695-3699).",
         "formation_confidence": "Contested"
       },
       {
