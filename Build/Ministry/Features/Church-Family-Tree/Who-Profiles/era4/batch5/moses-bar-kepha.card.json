@@ -1,0 +1,139 @@
+{
+  "name": "Moses bar Kepha",
+  "otherNames": [
+    "Severus, his name as bishop (Bar Hebraeus)",
+    "Moses Bar-Cepha",
+    "Moses Barcepha"
+  ],
+  "knownFor": "Syriac Orthodox bishop of Beth Raman and commentator on the Scriptures. Bar Hebraeus says he interpreted the whole Bible and the books of logic. His book on paradise survives in Latin, and Bar Hebraeus lists his commentaries among the books read in the church.",
+  "dates": "Died on 12 Shebat, in February, in 903 by one part of Bar Hebraeus's chronicle and in 913 by another, as printed. J. B. Abbeloos and T. J. Lamy take 903. They report from an anonymous Syriac life that he lived about ninety years",
+  "place": "Beth Raman, Beth Ceno and Mosul, his sees, in the region of Nineveh, by the anonymous life; Tagrit, whose church he visited for ten years; the monastery of Mar Sergius, called Moallak, where he was buried. Abbeloos and Lamy place it by the Tigris opposite Balad, his mother's city",
+  "tradition": "Syriac Orthodox Christianity under Islam",
+  "role": "Bishop; commentator on the Scriptures and the liturgy",
+  "briefLength": "about 2 minutes",
+  "keyWorks": [
+    {
+      "title": "On Paradise",
+      "about": "a treatise in three parts on paradise, the fall and death, addressed to Ignatius. Held in the Latin of Andreas Masius, first printed in 1569 and reprinted in Patrologia Graeca 111"
+    },
+    {
+      "title": "Commentaries on the Old and New Testaments",
+      "about": "named by Bar Hebraeus, who says he interpreted the whole Bible. They are not among the sources used here"
+    },
+    {
+      "title": "Commentary on the liturgy",
+      "about": "named in the list of his works given by Abbeloos and Lamy. It is not among the sources used here"
+    },
+    {
+      "title": "On the Mysteries of Baptism",
+      "about": "a tract named by J. Rendel Harris and Alphonse Mingana, who quote one line of it in English, as a Mr. Aytoun gives it"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "In his book of church law, Bar Hebraeus lists the commentaries of Moses bar Kepha with those of Ephrem and Bar Salibi among the books of the teachers read in the church.",
+      "Dionysius Bar Salibi names him among the true and orthodox teachers, as E. A. Wallis Budge quotes him. J. Rendel Harris finds that Bar Salibi took a passage on baptism from him.",
+      "Eusèbe Renaudot, in the notice Migne prints before On Paradise, says a liturgy in his name is found in nearly all the books of the Syrian Jacobites.",
+      "Bar Hebraeus says Nasicha, a disciple of Moses, taught logic to 'Abdisho', catholicos of the Church of the East, as Joseph Assemani quotes him."
+    ],
+    "remembered": [
+      "Bar Hebraeus calls him most devout, and famous in church learning and in secular wisdom.",
+      "J. B. Abbeloos and T. J. Lamy say he is rightly counted among the most famous writers of his church.",
+      "Andreas Masius, who printed On Paradise in 1569, wrote that he knew nothing of his history and found nothing of him in church histories."
+    ]
+  },
+  "uncertain": [
+    "The year of his death. One part of Bar Hebraeus's chronicle, as printed, gives 903, and another 913. Abbeloos and Lamy follow 903 and call 913 a slip in the numeral. Andreas Masius gave 914 or 913, as Joseph Assemani reports him, and Assemani later wrote 903. F. C. Burkitt, introducing the second volume of C. W. Mitchell's edition of Ephrem, gives 903.",
+    "The day. Bar Hebraeus gives the twelfth of Shebat. Masius, as Assemani reports him, gives the thirteenth, a Saturday.",
+    "His life outside Bar Hebraeus. The three sees, the forty years, the ninety years and the ten years at Tagrit come from an anonymous Syriac life that Abbeloos and Lamy know through Assemani's second volume. That volume is not among the sources used here.",
+    "Ignatius, to whom On Paradise is addressed. Moses calls him his brother, and no source used here says whether by blood or as a monk.",
+    "His pupils. George David Malech makes 'Abdisho', catholicos of the Church of the East, Moses's own pupil. Bar Hebraeus, as Assemani quotes him, makes him a pupil of Moses's disciple Nasicha.",
+    "The anaphora under his name. Renaudot says it is given to him, and Abbeloos and Lamy say only one of the two survives. A book on the priesthood is given to him by one copy, and to others by two.",
+    "The held Latin of On Paradise breaks off in its third part.",
+    "Andreas Masius, in the preface Migne prints, thought him not much later than John Chrysostom. Eusèbe Renaudot calls this a great mistake, and Migne's heading puts him about the middle of the tenth century. Bar Hebraeus names him in the time of the patriarch Dionysius, ordained in 898, and of Athanasius, the maphrian, the church's head in the east.",
+    "Margarinus Binius, as Assemani and Renaudot call him, took him for Moses of Mardin, Masius's teacher. Both correct this."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Commentaria de Paradiso, in Patrologia Graeca 111 (Latin tr. Andreas Masius)",
+        "author": "Moses bar Kepha; Andreas Masius (tr.)",
+        "date": "1863",
+        "language": "Latin translation",
+        "file": "cic/texts/nicholas-mystikos_epistolae-with-eutychius-alexandrinus-pg111-grc-lat_migne1863.txt"
+      },
+      {
+        "title": "The Odes and Psalms of Solomon, volume 2: a line of his tract on baptism",
+        "author": "Moses bar Kepha, in English as Mr. Aytoun gives it; J. Rendel Harris and Alphonse Mingana (ed.)",
+        "date": "1920",
+        "language": "English translation",
+        "file": "cic/texts/odes-of-solomon_harris-mingana1920.txt"
+      },
+      {
+        "title": "S. Ephraim's Prose Refutations of Mani, Marcion and Bardaisan, volume 2: F. C. Burkitt's introductory essay, quoting Moses bar Kepha on Bardaisan",
+        "author": "Moses bar Kepha; F. C. Burkitt (English)",
+        "date": "1921",
+        "language": "English translation",
+        "file": "cic/texts/ephraim_prose-refutations_mitchell1912-1921.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Chronicon ecclesiasticum, volume 1, with the editors' notes (Latin tr. J. B. Abbeloos and T. J. Lamy)",
+        "author": "Bar Hebraeus",
+        "date": "1872",
+        "language": "Latin translation",
+        "file": "cic/texts/barhebraeus_chronicon-ecclesiasticum-vol1-lat_abbeloos-lamy1872.txt"
+      },
+      {
+        "title": "Chronicon ecclesiasticum, volume 3 (Latin tr. J. B. Abbeloos and T. J. Lamy)",
+        "author": "Bar Hebraeus",
+        "date": "1877",
+        "language": "Latin translation",
+        "file": "cic/texts/barhebraeus_chronicon-ecclesiasticum-vol3-lat_abbeloos-lamy1877.txt"
+      },
+      {
+        "title": "Nomocanon, in Scriptorum veterum nova collectio, volume 10 (ed. Angelo Mai)",
+        "author": "Bar Hebraeus",
+        "date": "1838",
+        "language": "Latin translation",
+        "file": "cic/texts/mai_scriptorum-veterum-nova-collectio-tomus10-ebedjesu-synodus-timothei-lat_mai1838.txt"
+      },
+      {
+        "title": "Bibliotheca Orientalis, volume 1",
+        "author": "Joseph Assemani",
+        "date": "1719",
+        "language": "Latin",
+        "file": "cic/texts/assemani_bibliotheca-orientalis-tomus1-de-scriptoribus-syris-orthodoxis-lat_1719.txt"
+      },
+      {
+        "title": "Bibliotheca Orientalis, volume 3, part 1",
+        "author": "Joseph Assemani",
+        "date": "1725",
+        "language": "Latin",
+        "file": "cic/texts/assemani_bibliotheca-orientalis-tomus3-pars1-de-scriptoribus-syris-nestorianis-lat_1725.txt"
+      },
+      {
+        "title": "The Discourses of Philoxenus, introduction",
+        "author": "E. A. Wallis Budge",
+        "date": "1894",
+        "language": "English",
+        "file": "cic/texts/philoxenus-of-mabbug_discourses_budge1894.txt"
+      },
+      {
+        "title": "The Odes and Psalms of Solomon",
+        "author": "J. Rendel Harris",
+        "date": "1911",
+        "language": "English",
+        "file": "cic/texts/harris_odes-and-psalms-of-solomon_harris1911.txt"
+      },
+      {
+        "title": "History of the Syrian Nation and the Old Evangelical-Apostolic Church of the East",
+        "author": "George David Malech",
+        "date": "1910",
+        "language": "English",
+        "file": "cic/texts/malech_history-of-the-syrian-nation-and-old-evangelical-apostolic-church-of-the-east_1910.txt"
+      }
+    ]
+  }
+}

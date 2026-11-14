@@ -1,0 +1,973 @@
+{
+ "sophronius-of-jerusalem": {
+  "claims": [
+   {
+    "claim": "Stephen of Dor: \"duxit me indignum, & itatuit in fan&o Calvariz lo- co\" ... \"& ibi alligavit me vincu- lis indiffolubilibus , dicens : Tu dabis ratio- nem\" ... \"fi diftuleris & poftpofueris fidem ejus pericli- tantem , licer ego hoc facere corporaliter , nt nofti, propter emerfam ex noftris pec- catis incurfionem Sarracenorum pr&pedior\" (OCR); then \"from end to end of the earth\" to the apostolic see; told in modern words",
+    "witness": "MANSI10 (mansi_sacrorum-conciliorum-collectio-tomus-10-lat_welter-facsimile1901.txt) l.91434-91463",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "His poem: \"Urbs quznam ? Damascus\" ... \"Dieta Myro mater, Plynthas pater audiit\" ... \"Et thalamo ei natis expers cum cælibe vita\" ... \"Amplitico in septo Theudosii eximii\" ... \"Hi ſuerant zgris quippe medela oculis\" (OCR), Mai's Latin verse",
+    "witness": "PG87.3 (john-moschus_pratum-spirituale-sophronius-opera-grc-lat_migne-pg87-3.txt) l.47785-47800",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Moschus's dedication \"SOPHRONIO SOPHISTR\" and \"dominus Sophista voluntatem sæeulo renuntiandi habet\" (OCR)",
+    "witness": "PG87.3 l.3757, 13342-13346",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Sergius to Honorius, as Papebroch quotes it: Sophronius \"adversatus est; et contra dixit ad unius operationis capitulum, duas omnino operationes Christi Dei nostri dignum inquiens censeri\"; asked for Fathers teaching \"dnas nominatim et ipsis verbis opera- tiones\", \"Ille autem hoe ſacere penitus non valuit\"; \"stetit ac placuit, quatenus predictus Sophro- nius venerabilis nullum sermonem de cztero, de una sive duabus operationibus movere debeat\" (OCR)",
+    "witness": "PG87.3 l.25657-25707",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Maximus on the scene at Alexandria and on Africa: \"Divinus ergo ma- gnufque Sophronius tunc Alexandriam veniens\" ... \"in pavi- mento ipfius veftigiis provolutus\"; \"in Afro- rum regione mecum & cum omnibus peregri- nis monachis moras agebat\" (OCR)",
+    "witness": "MANSI10 l.72545-72548, 72701-72716",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Synodal letter: \"Pape! papel Deo honorabiles,quam nune suavis est mihi pusillitas\" ... \"ex quo de stercore et humo ... ad solium pontificale ascendil\"; \"qui vio- lenta manu me compulerunt, et more tyrannico coegerunt\" (OCR); told in modern words",
+    "witness": "PG87.3 l.26236-26248, 26460-26465",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Christmas sermon: \"nullis sane corporis vinculis astricti, verum Saracenico metu absterriti et com- pediti\"; \"Saracenorum gladium extimescentes\"",
+    "witness": "PG87.3 l.30713-30715, 30723",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Theophanes: \"Sophronius autem Hierosoly- morum antistes ſidem ab eo pro totius P[alaestinae] incolumitate acceperat\" ... \"lemplum a Salomene constructum\" ... \"Hæc est vere, inquit, abominatio deso- latiouis a propheta Daniele pranuntiala, que modo stat in loco sancto\" (OCR); written in the early ninth century; the Greek \"Τοῦτον\" (l.61789, OCR \"Toiroy\") can take the temple, \"ναόν\" (l.61787), or Umar; the Latin \"Hunc\" (l.61824) takes Umar. The brief leaves it open",
+    "witness": "THEOPH (theophanes-confessor_chronographia-pg108-grc-lat_migne1863.txt) l.61787-61792, 61809-61828",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Eutychius: \"Porro mortuus est Sophronius patriare ha Hiero- solymitanus, postquam munere illo quatuor anus [annis] ſunctns esset\"; Jerusalem then without a patriarch for twenty-nine years (OCR)",
+    "witness": "EUTYCH (nicholas-mystikos_epistolae-with-eutychius-alexandrinus-pg111-grc-lat_migne1863.txt) l.84234-84252",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Constantinople III: \"We have also examined the synodal letter of Sophronius of holy memory\" ... \"Therefore we have received it as orthodox\" ... \"his name be inserted in the diptychs of the Holy Churches\"",
+    "witness": "NPNF14 (npnf214_seven-ecumenical-councils.xml) l.25716-25724",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Dates: Papebroch 634 for the election and March 638 for the death; Mansi's editor \"adhuc erat Monachus\" in May 633; Mai \"circa annum Christi 640\"; Fabricius-Harles \"ab a. C. 629 ad 638\"; Bibliotheca Patrum note 14 March 636",
+    "witness": "PG87.3 l.24200, 25527-25529, 26127-26143, 30436, 44131; MANSI10 l.68215-68270",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Symeon of Thessalonica, via Papebroch: \"Sophronius san- ctæ civilatis patriarcha studio laboreque restituit: et post eum rursus... Joannes Damascenus reno- vavit\" (OCR)",
+    "witness": "PG87.3 l.25507-25512",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Leontius, via Papebroch: \"Misit ei Deus viros saplen- tes et semper memorandos, Joannem et Sophro- nium : consiliarii enim erant veraciter boni\" (OCR)",
+    "witness": "PG87.3 l.25188-25191",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Renaudot: \"Illius cum laude meminerunt etiam Arabes Hiftorici\" (OCR)",
+    "witness": "RENAUDOT (renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713.txt) l.17086-17088",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Charon: \"L'identité de Sophrone, sophiste de Damas, avec Sophrone, patriarche de Jérusalem, paraît bien indiscutable\"",
+    "witness": "CHARON (charon_histoire-des-patriarcats-melkites-t2-t3-fra_1911.txt) l.21284-21286",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "The year he became patriarch",
+    "sides": [
+     "Fabricius and Harles: 629 (PG87.3 l.24200)",
+     "Mansi's editor: still a monk in May 633, the synod at the end of 633 or early 634 (MANSI10 l.68215-68270); Daniel Papebroch: 634 (PG87.3 l.25527-25529); Eutychius: the second year of Umar (EUTYCH l.83882)"
+    ]
+   },
+   {
+    "claim": "The year of his death",
+    "sides": [
+     "Daniel Papebroch: March 638, a few months after the surrender (PG87.3 l.26127-26143)",
+     "Angelo Mai: about 640 (PG87.3 l.44131); the Bibliotheca Patrum note: 14 March 636 (PG87.3 l.30436)"
+    ]
+   },
+   {
+    "claim": "Sophronius's words to Umar",
+    "sides": [
+     "Theophanes, early ninth century: he called it the abomination of desolation (THEOPH l.61824-61826)",
+     "No held text of the seventh century gives the words; Eutychius and Michael the Syrian tell the meeting without them (EUTYCH l.84122-84213; MICHSYR michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt l.32670-32689)"
+    ]
+   },
+   {
+    "claim": "What was agreed at Constantinople",
+    "sides": [
+     "Sergius: Sophronius accepted silence on one or two operations (PG87.3 l.25703-25707)",
+     "Eutychius: Sergius turned against him after gifts from Cyrus (EUTYCH l.83850-83853)"
+    ]
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "Birth year and burial",
+    "note": "No held source gives either. Searched all cic/texts for Sophronius and OCR forms with natus, ortus, sepult, tumul and Greek forms."
+   },
+   {
+    "detail": "His own account of the surrender",
+    "note": "The Anacreontic on the Persian sack breaks off after one line (PG87.3 l.75636-75637). No letter of his after the surrender is held."
+   },
+   {
+    "detail": "The Greek",
+    "note": "The Greek of PG87.3 is badly garbled in the scan; every quote rests on the Latin."
+   }
+  ]
+ },
+ "athanasios-the-athonite": {
+  "claims": [
+   {
+    "claim": "Crete and the letters, in his own Typikon: \"πλειστᾶχις ἐπέστειλεν ἡμῖν ἐν τῇ τῶν βαρβάρων νήσῳ περαιωβέντας ὡς αὐτὸν ἀφικέσμαι' ἡμῶν δὲ μὴ βουλευδέντων εἶξαι, γράμμασι πυχνοτέροις ἐκέχρητο\" (OCR \"περαιωβέντας\", \"ἀφικέσμαι\", \"βουλευδέντων\", \"πυχνοτέροις\"; Greek OCR is rough, a second witness only, per the file header)",
+    "witness": "MEYER (athos-monasteries_haupturkunden-fur-die-geschichte-der-athoskloster-ger-grc_meyer1894.txt) l.5393-5395",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Nikephoros asks for a lavra in his cell, so that he might become a monk on Athos after the city falls: \"παραδέξασσαι δομη»Ίναι λαύραν ἐν τῷ κελλίῳ τῆς ἡμῶν ταπεινώσεως\" ... \"γενέσθαι αὖτον ἐν τῷ ὄρει τοῦ \\\"ASwvog\" (OCR)",
+    "witness": "MEYER l.5398-5403",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "His reluctance: \"διὰ τὸ ἐλευσερίως χαὶ μεμονωμένως βιοῦν\" ... \"ἀγαπητὸν γὰρ ἐλογιζόμην el ἐμαυτὸν σώσαιμι, ἄλλους γὰρ σώζειν ἴσως οὐκ ἀπαιτού- μετα\" (OCR \"ἐλευσερίως\", \"el\", \"ἀπαιτού- μετα\"); told in the brief in modern words",
+    "witness": "MEYER l.5404-5408",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Michael, Nikephoros's uncle, his abbot, and his move from Kyminas to Athos: \"τοῦ µακαρίου Φείου αὐτοῦ λαύρᾳα Μιχαὴλ τοῦ ἁγιωτάτου μοναχοῦ, τοῦ ἐμοῦ χα»ηγουµένου\"; \"ἐμοῖ τε ἀπὸ τοῦ Κυμινᾶ μετανα- στεύσαντος ὄρους καὶ πρὸς τὸ τοῦ \\\"ATwvog µεταφοιτήσαντος\" (OCR)",
+    "witness": "MEYER l.5381-5382, 5389-5390",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Meyer's basis: the Bios \"von dem Lawrioten Athanasios verfasst ist, welcher unter dem Hegumenat des Eustratios, des Nachfolgers vom Gründer der Lawra lebte\"; known to him only \"nach der neugriechischen Uebersetzung des Lawrioten Agapios\" ... \"Venedig 1657\"",
+    "witness": "MEYER l.1225-1241",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "From the Bios, via Meyer: \"Abra- mios\", \"stammte aus Trapezunt\", orphaned, raised in Constantinople, \"zum Lehrer bestimmt\"; Michael \"ὁ Maxsivos\" (OCR for Maleinos) of Kyminas, uncle of Nikephoros; monk under him",
+    "witness": "MEYER l.1248-1266",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Flight to Athos when Michael wanted him as successor: \"Dieser aber hatte zu dem Posten keine Lust und entfloh nach dem Athos\" (Bios via Meyer)",
+    "witness": "MEYER l.1306-1308",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Birth year unknown: \"Das Geburtsjahr des Athan. ist unbekannt\"",
+    "witness": "MEYER l.1274",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Crete dated \"zwischen Juli 960 und März 961\"; the Hase manuscript (\"Leon Diak. notae S. 426\") has him only foretell the victory; Meyer: \"erscheint ... als eine Sage\"",
+    "witness": "MEYER l.1330, 1342-1347",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Meyer's reckoning: coronation 16 August 963; cells first, church begun after 1 May 963 and half built when the news came",
+    "witness": "MEYER l.1350-1368",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "The reproach, in his Typikon: \"καταλείψαντός µου τὸ τῆς ἐωιλησίας ἔργον Ἱ- μιτελὲς\" ... \"ὡς STIev ἄλλα διαλογιζοµένου σου καὶ μελετῶντος, ὡς ἀπέδειξε τὰ πράγµατα, ἄλλα διωρίζου ἡμῖν\" (OCR \"STIev\" for ἄνωθεν); told in modern words",
+    "witness": "MEYER l.5457-5461",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The emperor's oath and request: \"μόνον λέγων: μὴ χαδυφεὶς εἰς τὴν τῆς ἐκκλησίας οἰκοδομὴν ταύτην ἡμιτέλεστον καταλείψης\" (OCR); his death \"μαρτυρωιῷ τέλει\" (OCR)",
+    "witness": "MEYER l.5464-5476",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The Bios's different account: \"Der Bios lässt den Athanasios vor Schmerz über üie Nachricht aus dem Kloster fliehen und erst durch ein Wunder nach Constantinopel ge- leitet werden\" (OCR \"üie\")",
+    "witness": "MEYER l.1394-1395",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Nikephoros murdered: \"am 16. Dec. 969 ermordet\"; the Typikon perhaps early 970",
+    "witness": "MEYER l.15485-15486",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "The charter: \"sollte das Kloster eine λαύρα αὐτοδέσποτος sein ... nur unter dem Hegumenos stehend\"; 80 monks, raised to 120 after John enlarged the solemnion",
+    "witness": "MEYER l.1432-1440; Typikon l.6106-6111",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The complaint, from the Bios via Meyer: \"Athanasios wurde beim Kaiser Johannes (969 — 976) verklagt dass er die Sitten des Berges ändere\"",
+    "witness": "MEYER l.1404-1405",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "The Tzimiskes ruling of 972: the Protos Athanasios and the monk Paul charge \"σχάνδαλά τινα nal φιλονειχίας\" with \"᾿Αθανασίου ... τοῦ τῆς βασιλικής λαύρας τῆς οὕτω λεγοµένης τὰ Μελανὰ χαὺη- Ὑουμένου\"; signatures \"᾿Αθανάσιος μοναχὸς nal πρῶτος. ᾿Αν9ανάσιος μοναχὸς καὶ Ἡγού- µενος τῆς µεγίστης λαύρας\" (OCR); dated 972 by Meyer from the signature",
+    "witness": "MEYER l.7577-7583, 8152-8153, 1726-1728",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Rule as standard: \"deren Regel wiederum für die andern Athosklöster im Allgemeinen maassgebend geworden ist\"; first known user of the Studite rule; \"Can. 1—5 des Theodoros fast wörtlich mit den Eingangs- worten bei Athanasios\"",
+    "witness": "MEYER l.1005-1009, 1043-1047",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "\"Das erste grosse Kloster auf dem h. Berge war ein griechisches, die Lawra des Athanasios\"; \"Athanasios orga- nisirt die Weltflucht wie sein Vorbild Theodoros von Studion\"",
+    "witness": "MEYER l.4752-4753, 1613-1616",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Death, from the Bios via Meyer: \"Athanasios wollte mit 6 seiner Genossen den Schlussstein in das Gewölbe einer Kuppel einfügen. Die Kuppel stürzte ein und begrub die Mönche. Als Leichen wurden sie aus den Trümmern gezogen. Das muss zwischen 997 und 1011 geschehen sein\"; basis: alive 997, Eustratios successor named 1011",
+    "witness": "MEYER l.1410-1416, 1447-1450",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Testament: \"Μετὰ λύπης ὑπερβαλλούσης διήνυσα πᾶσας τὰς ημέρας τῆς ζωῆς µου, τὸ γὰρ πάντη ἀνίκανον τῆς ἀσὺενοῦς µου φυχῆς eis τὸ προϊΐστασδαι ἑτέρων\" (OCR \"ἀσὺενοῦς\", \"φυχῆς\", \"προϊΐστασδαι\"); told in modern words",
+    "witness": "MEYER l.6592-6594",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Testament names John the Iberian, then Euthymios \"τὸ πνευµατικόν µου τέχνον\", and the place \"τὰ Μελανὰ\"",
+    "witness": "MEYER l.6578, 6646, 6666",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "George the Hagiorite (c.1045, Peeters's Latin): John at the \"coenobium ... sancti Athanasii\", \"duos aut amplius annos in culinae ministerio transegit\"; \"ex consilio patris Athanasii, mille circiter passus procul a laura\" a church with cells; \"magno Athanasio\"; John's charge \"Patris nostri spiritalis Atha- nasi\" ... \"commemorationem singulis annis celebrate\"; nominative \"magnus Athanasius\" at l.2860",
+    "witness": "PEETERS (peeters_histoires-monastiques-georgiennes-in-analecta-bollandiana-36-37-lat-fra_1917-1919.txt) l.655-658, 1003-1007, 1057, 2860, 1068-1071, 1767-1769",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Meyer: John the Iberian founded his great monastery while Athanasios lived: \"Noch zu Lebzeiten des Athanasios gründete der Iberer sein grosses Kloster\"",
+    "witness": "MEYER l.4780-4790",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Peeters: \"S. Atha nasium Athonitam circa annum millesimum superstile Iohanne obiisse\" (OCR \"superstile\")",
+    "witness": "PEETERS l.1805-1806",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Lavra codices of Palamas: \"τῆς ἱερᾶς λαύρας τοῦ ἀγίου \\\"A0avaslou τοῦ iv τῷ τΆθῳ\" (OCR)",
+    "witness": "PALAMAS (palamas_opera-omnia-pg150-grc-lat_migne1865.txt) l.52597-52599, 52784-52786",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Typikon quoting the chrysobull: \"χαφθὼς αὐταῖς λέξεσιν οὑτωσὶ\" (OCR \"χαφθὼς\" for καθὼς)",
+    "witness": "MEYER l.5644",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Georgirenes: \"St. Laura y built by jithamfins\" (OCR); \"The Monks of the place have along Story, how this Aih4* nafitif , wanting Money to go on with the great Church of the Mo- naftry\" ... \"was met with by the Blefled Virgin\" ... \"Then ilic bid him take no care for ne* ceffarics, ilie would provide\" (OCR)",
+    "witness": "GEORGIRENES (georgirenes_present-state-samos-nicaria-patmos-athos_denton1678.txt) l.3966, 3993-4007",
+    "formation_confidence": "Inferential-Thin"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "Whether Athanasios went to Crete",
+    "sides": [
+     "His own Typikon (MEYER l.5393-5400) and the Bios as Meyer reports it (MEYER l.1323-1330): he went, at Nikephoros's repeated urging",
+     "A manuscript Hase brought to light, cited as Leo the Deacon, notes p.426: he did not go, but foretold the victory and received money from the spoils; Meyer calls it a legend (MEYER l.1342-1347)"
+    ]
+   },
+   {
+    "claim": "What he did on hearing of the coronation",
+    "sides": [
+     "His Typikon: he left the church half built, went to the capital and reproached the emperor (MEYER l.5457-5461; Meyer l.1372-1379)",
+     "The Bios, as Meyer reports it: he fled the monastery in grief and was brought to Constantinople by a miracle (MEYER l.1394-1395)"
+    ]
+   },
+   {
+    "claim": "When he died",
+    "sides": [
+     "Philipp Meyer: between 997 and 1011 (MEYER l.1416, 1447-1450)",
+     "Paul Peeters: about the year 1000, with John the Iberian still alive (PEETERS l.1805-1806)"
+    ]
+   },
+   {
+    "claim": "His origin",
+    "sides": [
+     "The Bios, as Meyer reports it: from Trebizond (MEYER l.1249)",
+     "Marie-Félicité Brosset: the house on Athos was founded \"par un certain Géorgien, Atbanasé\" (OCR), citing the Life of Euthymius (KARTLIS l.15412-15413); Frédéric Macler: \"la Laure de son compatriote Athanase\", John's countryman (STEPANOS-TARON 1917 l.14097-14098). George the Hagiorite's Life, in Peeters's Latin, does not call him Georgian"
+    ]
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "Birth year",
+    "note": "Meyer says it is unknown (MEYER l.1274). Searched all cic/texts for Athanasios, Athanasius, Ἀθανάσ and the OCR form ᾿Αδαν near Athos, Lavra, Trebizond and Kyminas. The census's c.920 rests on no held line."
+   },
+   {
+    "detail": "Burial place and feast day",
+    "note": "No held line gives either. Meyer cites the Acta Sanctorum for 5 July (MEYER l.1229), and that volume is not held."
+   },
+   {
+    "detail": "The Greek Life",
+    "note": "The Life by the Lavriot Athanasios, and the Modern Greek version by Agapios that Meyer used, are not held. Meyer gives only its opening and closing words (MEYER l.15426-15439)."
+   },
+   {
+    "detail": "The census death story",
+    "note": "The census entry athonite-and-comnenian-byzantine-monasticism tells the abbot found alive under the dome and speaks of two Lives. No held line supports it, and Meyer says all were pulled out dead (MEYER l.1415)."
+   }
+  ]
+ },
+ "sebeos": {
+  "claims": [
+   {
+    "claim": "The Cross in Jerusalem: \"11 y cut beaucoup d'all£gresse ce jour-la a leur entree a Jerusalem : bruit des pleurs et.des soupirs, larmes abondantes, une immense flamme dans les cceurs, un d£chirement des entrailles duroi, des princes, de tous les soldats et des habitants de la ville ; et personne ne pouvait chanter les hymnes du Seigneur a cause du grand et poignant altendrissement du roi et de toute la multitude. II r£ta~ blit [la croix] en son lieu\" (OCR forms kept); told in the brief in modern words",
+    "witness": "MACLER04 (sebeos_histoire-d-heraclius-fra_macler1904.txt) l.6116-6121, 6144-6153",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Title: \"HISTOIRE D'HERACLIUS PAR L'EVEQUE SEBEOS\"",
+    "witness": "MACLER04 l.166-167",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Macler: \"L'eveque Sebeos est le seul ecrivain armfoien du \\ne siecle qui raconte les premieres invasions des Arabes en Arm^nie\" ... \"un historien qui a assist^ a la plupart des eve- nements qu'il relate\" (OCR)",
+    "witness": "MACLER04 l.252-256",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Macler: wrote in the third quarter of the seventh century (\"Seb£os ecrivit son histoire dans le troisi&me quart du viie sifecle\", OCR); the story runs \"jusqu'a ravenementau trone du khalife Moavia (661)\"",
+    "witness": "MACLER04 l.300, 324-326 (two-column note)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Stephen of Taron: \"ferner die Geschichte des Herakl, die durch Bischof Sebeos geschrieben worden ist\"; Macler: \"Etienne de Taron est du xesi&cle\" (OCR)",
+    "witness": "STEPANOS-GELZER (stepanos-taron_armenische-geschichte-deu_gelzer-burckhardt1907.txt) l.200-201; MACLER04 l.376",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "One manuscript: \"faites sur un manuscrit unique de la bibliotheque d'Etchmiadzin\"; cited by Etienne Asolik, \"Giragos de Gandzak\" and \"Tchamtchean dans la preface de son histoire\" (OCR); second edition by Patkanian, 1879, the base of the translation",
+    "witness": "MACLER04 l.354-359, 420-423",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The three books: the first \"n'est manifestement pas de Sebeos\"; the second \"une compilation de Moise de Xoren et d'Etienne de Taron\" ... \"de trois siecles poslirieur a Sebeos\"; \"Le livre III constitue & lui seul l'histoire de Seb£os\" (OCR)",
+    "witness": "MACLER04 l.427-433, 480-483",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "His source: \"Nous avons appris ces fails de prisonniers [venus] d'Arabie\"), qui en out »He t6moins oculaires et nous les ont racontfa.\" (OCR \"fails\", \"out »He t6moins\")",
+    "witness": "MACLER04 l.6752-6753",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "\"Je continuerai en racontant les maux arrives en notre temps\" ... \"du simoun br&lant et mortel qui souffla sur nous et brftla les grands et beaux arbres, jeunes et feuillus, des jardins. Et nous 1'avions m6rit6, car nous avons p6ch6 contre le Seigneur\" (OCR)",
+    "witness": "MACLER04 l.8141-8145",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Macler's note: \"Bien qu'il ne le dise pas explicite- nient, Sebeos considere Pinvasion des Arabes comme un cb&timent envoys par Dieu contre les Grecs, parce qu'ils non I pas perseVc'rc' dans la communaute' de la foi avec les Armeniens\" (OCR); the note is marked on the Greek rout after the Jordan: \"Une frayeur inspire par le Seigneur s'empara de I'arm^e des Grecs\" (l.6482-6483, OCR)",
+    "witness": "MACLER04 l.6472-6484, 6510-6516",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Macler: \"son livre est lui-m£me une source k laquelle ses successeurs viendront recueiliir ieurs renseignements\"; \"il conte les ^v^nements au petit bonheur. suivant qu'ils se pr^sentent a sa m^moire\"; \"avant tout celle d'un pr£tre\" (OCR)",
+    "witness": "MACLER04 l.263-264, 270-271, 302",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Macler 1917: \"Sebéos a une valeur historique incontestable\" ... \"ni l’un ni l’autre ne donnent de dates\"",
+    "witness": "STEPANOS-MACLER1917 (stepanos-taron_histoire-universelle-deuxieme-partie-fra_macler1917.txt) l.1019-1021",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "His close: \"Or, bien que parlant vainement, je ferai d^filer mes paroles selon 1'ordre de cette histoire, suivant la faible pens6e de mon esprit, et non selon la dignity de la science\" (OCR)",
+    "witness": "MACLER04 l.9009-9011",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Hoffmann and Braun cite Sebeos for the assembly of bishops at Khosrau Parvez's court after the taking of Jerusalem and Alexandria",
+    "witness": "HOFFMANN (persian-martyr-acts_auszuge-aus-syrischen-akten-persischer-martyrer-deu_hoffmann1880.txt) l.6503-6510; BRAUN1900 (synodicon-orientale_das-buch-der-synhados-deu_braun1900.txt) l.14985-14988",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Macler 1917: \"Le n° 52 des manuscrits de la bibliothèque des PP. Mkhitharistes de Vienne (Autriche) renferme l'histoire de Sebéos et des extraits de Moïse de Khorèn et d'Étienne de Tarôn\"",
+    "witness": "STEPANOS-MACLER1917 l.361-364",
+    "formation_confidence": "Documented"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "What part of the history printed under his name is Sebeos's",
+    "sides": [
+     "The printed title and Stephen of Taron credit the History of Heraclius to Bishop Sebeos (MACLER04 l.166-167, 877; STEPANOS-GELZER l.200-201)",
+     "Frédéric Macler: book I \"n'est manifestement pas de Sebeos\" and book II compiles Moses of Khoren and Stephen of Taron; only book III is Sebeos's (MACLER04 l.427-433, 480-483). No held source argues against book III"
+    ]
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "His see, family and years",
+    "note": "No held source names his see or gives his birth or death. Searched all cic/texts for Sebeos, Sébéos, Sebêos, Sepeos and OCR forms, with évêque, Bagratuni, Dwin and 645 nearby."
+   },
+   {
+    "detail": "The modern debate over the author of book III",
+    "note": "No held source argues whether book III is by the Sebeos Stephen names. A modern study of the question is wanted."
+   },
+   {
+    "detail": "The Armenian text and an English translation",
+    "note": "Neither is held; only Macler's French of book III."
+   },
+   {
+    "detail": "The unnamed bishop at Dvin",
+    "note": "The bishop who refuses communion with Constans II (MACLER04 l.8520-8580) is not named, and no held source says he is the author."
+   }
+  ]
+ },
+ "antony-of-choziba": {
+  "claims": [
+   {
+    "claim": "\"Relictaque domo paterna a latenter, nemine meorum consclo, comite tantum uno ex co sortibus meis. Proposueramus in Raithum ire; quod us quia per vias publicas depreedabantur οἱ latrocinabantur Sarraceni. -Suadentibus igitur sanctis ; patribus, ivimus Chozibam ; ; ubi recepti t -fuimus ab hujus temporis | hegumeno et tonsi paulo post\" (OCR, Houze's Latin); the friend \"ingressus est illo inscio in -Raithum; ego vero dole- ¢ et merebam | carebam socio. meo\"",
+    "witness": "AB7 (antony-of-choziba_vita-georgii-chozibitae-analecta-bollandiana-7-grc_1888.txt) l.11934-11949",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "George's counsel: \"Georgii ... senior, qui ‘dominica venerat in coenobium\" ... \"me, seorsum abduct tum, , admonere coepit : Fili, putes, aiebat, locum e esse quem: in monacho queer ant: sat mor\" ... \"‘non pater mater aut -cognati aut amici, , sed voluntas. Nullus nobis ¢ assistet in die illa ἢ ma gna οἱ tr rremenda, 8 ed solum actiones cujusque\" (OCR); Greek \"ὁ τρόπος\" (l.11929)",
+    "witness": "AB7 l.11950-11962",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "His name: George to him \"Τέχ ἐκνον Ἀντώνιξ\" (OCR for Τέκνον Ἀντώνιε); heading \"Geor gius Antonio -calamitates nar ra t\"; at George's death \"rogat Ubi est Antonius\" ... \"in 60 enim sum ut mor iar\" (OCR); editor's heading \"ANTONIO HOZEBITA AUCTORE\"",
+    "witness": "AB7 l.35344-35348, 37865-37868, 38275",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Persian invasion: \"Quum supervenisset incursio Persarum\" ... \"alii in Arabiam fagerant\"; Stephen the Syrian killed, about a hundred (Greek \"περίπου ρ΄\"); George let go as poor and weak (OCR, fragmentary)",
+    "witness": "AB7 l.11781-11851, 11871",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Jericho: \"[post inv]asionem (the bracketed letters are a restoration; the file reads \\\"Acriter 886. asionem\\\") Persarum, constitissemus i in Hiericho in. xenodochio, fecerunt me cellerarium : tune ob ‘distractiones et -commercio versabar cum ‘mundanis et feminis, impugnatu[s] -violenter\" ... \"clam egressus: sanetam civitatem\" ... \"oravit super me, verboque et opere e me curavit ac retinuit\" (OCR)",
+    "witness": "AB7 l.12405-12417",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "End of the Miracles: \"cum non sim sapiens neque sermonis facultate valeam\" ... \"Deus autem di dives et Hheralis 1 ‘non -dedignatus est et super ‘me inutilem ac ‘insipientem\" ... \"exiguam hance guttulam effundere benedictionis\" (OCR)",
+    "witness": "AB7 l.39489-39500",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The Bollandist preface: \"Habet enim et ipsa plane — es sinceritatis characteres\"; \"addit[a v]ersione latina\"; \"in Antonii_ scripto adhibentur | gTeeco- -bar bare\" (OCR)",
+    "witness": "AB7 l.7941-7956",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Closing prayer: \"ut scilicet intercedatis pro. me ‘peceatore οἱ minimo\" (OCR)",
+    "witness": "AB7 l.38201",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Nikodemos's notice of George \"τοῦ Χοζεβᾶ\"; Horologion feast \"Γεωργίου τοῦ Χοζεβίτου\"",
+    "witness": "NIKODEMOS (nikodemos-hagiorite_synaxaristes-vol1-sep-feb-grc_1900.txt) l.48570-48610; HOROLOGION (horologion-to-mega_venice-edition-grc_koutloumousianos1851.txt) l.16458-16465",
+    "formation_confidence": "Documented"
+   }
+  ],
+  "contested_claims": [],
+  "absent_details": [
+   {
+    "detail": "His dates, origin and death",
+    "note": "No held source gives them. Searched all cic/texts for Antony, Antonius and Ἀντων near Choziba, Χοζιβ and Chozeb; the Horologion and Nikodemos name George only."
+   },
+   {
+    "detail": "Any witness besides himself",
+    "note": "No held source outside his two works names him."
+   },
+   {
+    "detail": "When he came to Choziba",
+    "note": "The held text does not fix it against the Persian invasion; the Saracen raids on the roads and the Jericho stay are the only anchors."
+   },
+   {
+    "detail": "A clean Greek text and an English translation",
+    "note": "The Greek OCR is badly damaged; the only English translation (Vivian and Athanassakis 1994) is in copyright and not held."
+   },
+   {
+    "detail": "The editor's name",
+    "note": "The file header names C. Houze; no line of the volume as held carries the name, so the card names the Bollandists."
+   }
+  ]
+ },
+ "moses-bar-kepha": {
+  "claims": [
+   {
+    "claim": "\"Sed querat aliquis, in quanam mundi regione positus sit paradisus : versus Orientem, an Occi- dentem, ad Meridiem, an Septentrionem ?\"; Basil: \"Ideo ad Orientem versi inter orandum stctimus, ut oculos nostros ad contemplandum paradisum assueſace- remus\"; \"Sunt etiam qui hinc constare existiment, paradisum in Oriente esse, quia qui templa aut des construere volunt ad Orientem spectantia, ita describuut, ut ad solem in mense Nisan Orientem obversa sit ſabrics, nimirum quia illo mense sol supra paradisi locum oriatur\"; Ephrem: \"paradisum universam ambire terram, atque ultra Oceanum\" ... \"non aliter atque lune orbis lunam cingit\" (OCR; Masius's Latin); told in modern words",
+    "witness": "PG111 (nicholas-mystikos_epistolae-with-eutychius-alexandrinus-pg111-grc-lat_migne1863.txt) l.38228-38284",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Bar Hebraeus, section I: \"Claruit ea aetate Severus episcopus Beth-Knman, qui ct Moses Bar-Cepha\" ... \"sanctanim Scripturarum commentator. Obiit autem episcopus ille duodecima Scliebat {Februarii), anno Graecorum 1234 (Chr. 913), in coenobio Mar Sergii sito in monte Sahia\" (OCR \"Beth-Knman\", \"sanctanim\", \"1234\")",
+    "witness": "BARHEB1 (barhebraeus_chronicon-ecclesiasticum-vol1-lat_abbeloos-lamy1872.txt) l.22837-22838, 23005-23010",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Bar Hebraeus, section II: \"claruit in ecclesiastica scientia ac profanorum sapientia reli- giosissimus Moyses Barcepha\" ... \"qui inter pretatus est totum volumen bibliorum antiqui et novi testamenti, necnon libros dia- lectical\"; \"Anno millesimo ducentesimo quarto [Chr. 903) decessit episcopus Moyses Bar- Cepha, die 12 schebat (Februarii), et in coenobio Mar Sergii in monte Sahia, quod Moallak appellant, sc- pultus est\" (OCR; \"quarto\" as printed in the scan, the editors read 1214)",
+    "witness": "BARHEB3 (barhebraeus_chronicon-ecclesiasticum-vol3-lat_abbeloos-lamy1877.txt) l.12459-12466, 12589-12594",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Editors' note: from the anonymous Syriac life in Assemani BO II: \"cum vixisse annos circiter nonaginta ; trium civitatum Kini* vitias ditionis sedes episcopales tenuisse per an- nos quadraginta, assumpto Severi nomine, nimi- rum Belh-Raman, Beth-Chinne sen Betb-Chiuc atque Mossolc; item fuisse per decennium Tagri* tensis ecclesiie, proprio tunc episcopo viduate, periodeutem seu visitatorem\" (OCR); Migne's heading and Assemani have \"Beth-Ceno\" (PG111 l.36957; ASSEMANI1 l.109579-109580)",
+    "witness": "BARHEB1 l.22847-22856",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Editors on the year: \"Obiisse porro dicitur anno 1214 {Ckr. 903)\" ... \"juxta manuscriptum Londinense non obierit ante annum 1224, ad qnem pariter ejus mortem Andreas Masius refert\" ... \"verum hic anuus mendum prodit in notatione numerali\"; burial at \"S. Sergii, seu de Moallak, quod situm erat juxta Ti- grim fluvium, e regione urbis Balad\" (OCR)",
+    "witness": "BARHEB1 l.22864-22880",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Title and address: \"COMMENTARIA DE PARADISO AD IGNATIUM FRATREM\"; \"sanete ſrater Ignati\" (OCR)",
+    "witness": "PG111 l.37059-37074",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "His aim: \"ut et accurata et clara sit oratio : et singula capita inter se dis- uncta particulatimque divisa habeantur, quo faci- ling lectores omnia inlelligant, neque per oblivio- nem aliquid de sua memoria amillant\" (OCR); told in modern words",
+    "witness": "PG111 l.37121-37126",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Masius 1569: editors \"quem latine cum erudita prefa- tioneanno 1569, typis PUntinianis, edidit Masius\" (OCR); Masius \"Mosis hujus historiam plane me neseire ſateor\" (OCR)",
+    "witness": "BARHEB1 l.22887-22889; PG111 l.36999",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Nomocanon: \"Et libri doctorum rursus , qui le- guntur in ecclesia sancta hi sunt.\" ... \"Commentaria mar Ephraemi, et mar Iohannis, et Moysis Barcephae, et Barsalibaei.\"",
+    "witness": "MAI10 (mai_scriptorum-veterum-nova-collectio-tomus10-ebedjesu-synodus-timothei-lat_mai1838.txt) l.44288-44290, 44342-44344",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Baptism, in Aytoun's English quoted by Harris and Mingana: \"thou goest down to baptism one person, and comest up another instead, the new instead of the old\"",
+    "witness": "HARRIS-MINGANA (odes-of-solomon_harris-mingana1920.txt) l.1173-1178",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Bar Salibi's list via Budge: \"true and orthodox doctors\" ... \"and Moses \\\"bar-Kepha\"; Harris: \"Bar Salibi has taken this passage from an earlier Syriac writer, Moses Bar Kepha\"",
+    "witness": "BUDGE-PHIL (philoxenus-of-mabbug_discourses_budge1894.txt) l.915-923; HARRIS1911 (harris_odes-and-psalms-of-solomon_harris1911.txt) l.1203-1205",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Renaudot: \"Vosis Bar-Cepha nomine Liturgia exstat in omnibus prope codicibus Syrorum Jacobilarum\"; Masius \"non longe post Joannem Chrysoslomum\"; Binius's confusion with \"Moses ille alter Meredinensis\" (OCR)",
+    "witness": "PG111 l.36967, 36979-36983",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Assemani on Masius's date: \"obiit- que azzo Grecorum 1224. die Sabato, qui Làm decimus tertius erat ejus men- fiss guem Syri Seboth\" (OCR); later \"Barcepha ver6 amio 903\"",
+    "witness": "ASSEMANI1 (assemani_bibliotheca-orientalis-tomus1-de-scriptoribus-syris-orthodoxis-lat_1719.txt) l.109574-109580; ASSEMANI3-1 l.90501-90503",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Nasicha: \"pr<eceptoremque in DiakHica habuerat\" ... \"Mo- fis Barcepb^ difcipulum\" (OCR), Bar Hebraeus quoted by Assemani on the catholicos Ebedjesu",
+    "witness": "ASSEMANI3-1 (assemani_bibliotheca-orientalis-tomus3-pars1-de-scriptoribus-syris-nestorianis-lat_1725.txt) l.35640-35644",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "F. C. Burkitt's introductory essay to volume 2: \"I will begin by quoting what Moses bar Kepha says about him.\" ... \"Bardaisan held about this world that it is composed of Five Entities (Ithye)\"; \"Moses bar Kepha died 903 A.D.\"",
+    "witness": "MITCHELL (ephraim_prose-refutations_mitchell1912-1921.txt) l.2585-2586, 2652-2656",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Malech on 'Abdisho': \"He was a pupil of Moses Bar Kepha\"",
+    "witness": "MALECH (malech_history-of-the-syrian-nation-and-old-evangelical-apostolic-church-of-the-east_1910.txt) l.15327",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Bar Hebraeus: Dionysius ordained patriarch \"(Chr. 898)\" from the monastery of Beth-Botin (OCR \"{C/ir. S98)\"); the maphrian Athanasius died the year after Moses: \"Anno insequente ... obiit Athanasius\"",
+    "witness": "BARHEB1 l.22830-22834; BARHEB3 l.12595-12598",
+    "formation_confidence": "Documented"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "The year of his death",
+    "sides": [
+     "903: Bar Hebraeus, section II as edited (BARHEB3 l.12589-12591); the Roman codex used by Assemani; Abbeloos and Lamy (BARHEB1 l.22864-22876); Assemani, volume 3 (ASSEMANI3-1 l.90502-90503); F. C. Burkitt (MITCHELL l.2585-2586, 2656)",
+     "913: Bar Hebraeus, section I as printed from the London manuscript (BARHEB1 l.23008); Andreas Masius, as Assemani reports him (ASSEMANI1 l.109577-109585)"
+    ]
+   },
+   {
+    "claim": "Whether the book on the priesthood is his",
+    "sides": [
+     "A Sharfeh manuscript of 1224 assigns it to Moses (BARHEB1 l.22988-22992)",
+     "Other copies give it to John Maron or to John of Dara; the editors leave it open: \"Litem banc dirimant alii\" (BARHEB1 l.22983-22993, OCR)"
+    ]
+   },
+   {
+    "claim": "Whose pupil 'Abdisho', catholicos of the Church of the East, was",
+    "sides": [
+     "George David Malech: a pupil of Moses bar Kepha (MALECH l.15327)",
+     "Bar Hebraeus, as Assemani quotes him: a pupil in dialectic of Nasicha, Moses's disciple (ASSEMANI3-1 l.35640-35644)"
+    ]
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "The anonymous Syriac life",
+    "note": "It is known only as reported by Abbeloos and Lamy from Assemani, Bibliotheca Orientalis II, which is not held."
+   },
+   {
+    "detail": "His commentaries on Scripture and the liturgy",
+    "note": "Not held. Connolly and Codrington's 1913 edition of the liturgy commentary is only advertised in held files."
+   },
+   {
+    "detail": "Birth year and family",
+    "note": "No held source gives his birth year. The editors' note says only that his mother came from Balad. Searched all cic/texts for Bar-Cepha, Barcepha, Bar Kepha, Kipha and OCR forms."
+   },
+   {
+    "detail": "The end of On Paradise",
+    "note": "The held Latin breaks off in part III, chapter VIII (PG111 about l.47004)."
+   }
+  ]
+ },
+ "alopen": {
+  "claims": [
+   {
+    "claim": "Stele, Wylie's English: \"the Most-virtuous Olopun, from the country of Syria. Observing the azure clouds, he bore the true sacred books; beholding the direction of the winds, he braved difficulties and dangers. In the year A. D. 635 he arrived at Chang-an; the Emperor sent his Prime Minister, Duke Fang Hiuen-ling; who, carrying the official staff to the west border, conducted his guest into the interior ) the sacred books were translated in the imperial library, the sovereign investigated the subject in his private apartments\" (OCR \")\"; a page header splits l.13684-13686)",
+    "witness": "MALECH-WYLIE (malech_history-of-the-syrian-nation-and-old-evangelical-apostolic-church-of-the-east_1910.txt) l.13681-13693",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Authorship and translator: \"Composed by King-Tsing, A Priest of the Syrian Church\"; contents \"Translation of the Syrian and Chinese Inscription, by Mr. A. Wylie\"; \"(Reprinted here with the permission of The Open Court Publ. Co.)\"",
+    "witness": "MALECH l.13562-13567, 770-771",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Decree of 638: \"Right principles have no invariable name, holy men have no invariable station\" ... \"The Greatly-virtuous Olopun, of the kingdom of Syria, has brought his sacred books and images from that distant part\" ... \"purely excellent and natural\" ... \"let the proper authority build a Syrian church in the capital in the I-ning May, which shall be governed by twenty-one priests.\" (OCR \"May\" for Fang, as in Yule-Cordier l.2967)",
+    "witness": "MALECH-WYLIE l.13694-13711",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Kautsung: \"In every province he caused Illustrious churches to be erected, and ratified the honor con- ferred upon Olopun, making him the great conservator of doctrine for the preservation of the State\"; \"Every city was full of churches\"",
+    "witness": "MALECH-WYLIE l.13738-13743",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "699 and 713: \"In the year A. D. 699 the Buddhists, gaining power, raised their voices in the eastern metropolis\"; \"in the year A. D. 713, some low fellows excited ridicule and spread slanders in the western capital\"; restoration of \"the felicitous edifice\"",
+    "witness": "MALECH-WYLIE l.13743-13757",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Ode: \"When the pure, bright Illustrious Religion / Was introduced to our Tang dynasty, / The Scriptures were translated, and churches built\"",
+    "witness": "MALECH-WYLIE l.14028-14031",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Erected \"in the 2d year of Kienchung, of the Tang dy- nasty (A. D. 781)\"",
+    "witness": "MALECH-WYLIE l.14141-14142",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Kircher's Latin via Assemani: \"honorans Olo puen titulo Epifeopi magnet legis, quee gubernat regnum Sinte\" (OCR); arrival \"annoClirifti 6^6\" (OCR, read 636 with l.55232-55233)",
+    "witness": "ASSEMANI3-2 (assemani_bibliotheca-orientalis-tomus3-pars2-de-syris-nestorianis-lat_1728.txt) l.35904-35905, 35966-35967, 55232-55233",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Name guesses: Yule \"Oi.opAn (probably a Chinese form of Rybban — Monk)\" (OCR); Hirth \"0-lo-pen = Ruben, Rupen?\"; Assemani \"ex Syriaco Jab-allaba formatum\" (OCR)",
+    "witness": "YULE (marco-polo_book-of-ser-marco-polo-v2_yule-cordier1903.txt) l.2939, 2944; ASSEMANI3-2 l.35913-35914",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Williams: found \"at Si-ngan fu in Shensi, in 1625\"; authenticity debated \"between the Jesuits and their opponents\" but \"the weight of evidence ... leaves no doubt regarding its ver- ity\"; Bridgman's hundred students; the 845 edict of Wu-tsung, \"no less than three thousand persons\"; the Bible \"in part or in whole translated by Olopun\" as \"the: tablet intimates\" (OCR)",
+    "witness": "MALECH-WILLIAMS l.14212-14217, 14229-14232, 14249-14252, 14277-14279",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Saeki via Budge: \"made A-lo-pén the Great Patron and Spiritual Lord of the Empire\"; index \"A-lo-pen, introducer of Chris- tianity into China\"",
+    "witness": "BUDGE1928 (yahballaha-sauma_monks-of-kublai-khan_budge1928.txt) l.5211-5214, 12436-12437",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Lamy via Chabot: \"apporté par un prêtre syrien nommé Olopen\" (OCR)",
+    "witness": "CHABOT1895 (yahballaha-sauma_histoire-de-mar-jabalaha-iii-et-rabban-cauma-fra_chabot1895.txt) l.1342-1344",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Ta T'sin: Yule \"Ta T'sin being the term applied in Chinese literature to the Roman Empire\"; \"a description of Ta-T'sin (here apparently implying Syria)\"; \"The Emperor's portrait was to be placed in the church\"",
+    "witness": "YULE l.2934-2935, 2967-2969",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Yule: \"accidentally found in 1625 by some workmen who were digging\"; Lamy via Chabot: \"Dès 635, il comptait dans La capitale une église et vingt et un prêtres\" (OCR); Wigram 1929: \"about the year 630\"",
+    "witness": "YULE l.2930; CHABOT1895 l.1344-1345; WIGRAM1929 (wigram_assyrians-and-their-neighbours_1929.txt) l.4183-4190",
+    "formation_confidence": "Documented"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "The year Alopen reached Chang-an",
+    "sides": [
+     "635: A. Wylie's English of the stele (MALECH l.13690); Henry Yule (YULE l.2939, 2964); Budge's Appendix B, after Saeki (BUDGE1928 l.5174-5175); T. J. Lamy via Chabot, for the church (CHABOT1895 l.1344)",
+     "636: Joseph Assemani (ASSEMANI3-2 l.35905, 55233); Abbeloos and Lamy (barhebraeus_chronicon-ecclesiasticum-vol3-lat_abbeloos-lamy1877.txt l.9523); Budge's introduction (BUDGE1928 l.1844, 1882)",
+     "About 630: W. A. Wigram, 1929 (WIGRAM1929 l.4184-4190)"
+    ]
+   },
+   {
+    "claim": "His title under Kautsung",
+    "sides": [
+     "Wylie: \"the great conservator of doctrine for the preservation of the State\" (MALECH l.13741)",
+     "Kircher via Assemani: bishop of the great law (ASSEMANI3-2 l.35966-35967); Saeki via Budge: \"the Great Patron and Spiritual Lord of the Empire\" (BUDGE1928 l.5213-5214)"
+    ]
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "Any witness besides the stele",
+    "note": "Searched all cic/texts for Alopen, Olopun, Olopen, Olopuen, A-lo-pen and OCR forms. Every held mention goes back to the stele; Bar Hebraeus's text, Thomas of Marga and Malech's list of China missions do not name him. The census cites the Tang huiyao, ch. 49, for the decree of 638; it is a second witness, but not held."
+   },
+   {
+    "detail": "His words, rank, sender, Syriac name, death and burial",
+    "note": "No held source gives them. The Tang huiyao, which the census cites for the decree, is not held."
+   },
+   {
+    "detail": "The Chinese text",
+    "note": "Not legible in any held file."
+   }
+  ]
+ },
+ "thomas-of-marga": {
+  "claims": [
+   {
+    "claim": "\"Now I came to this holy monastery when I was a young man,' in the two hundred and seventeenth year of the era of the dominion of the Arabs, [before any] of these histories had been written by me.^ And I used to listen to the histories of certain of the holy men, and by reason of the fervour which burned in me I used to make enquiries concerning them\" ... \"from the old men\" (footnote marks kept)",
+    "witness": "BUDGE (thomas-of-marga_book-of-governors-v2-english_budge1893.txt) l.11877-11884",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "\"inasmuch as I did not know that I should become the historian^ of the glorious deeds of the holy man I did not enquire beforehand\"",
+    "witness": "BUDGE l.20218-20221",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Budge's note: \"in 217 A. H. = 832 A. D.\" ... \"he entered the Monastery of Beth *Abhe, being at the time a young man\"; \"In A. H.' 222 == 837 A. D. he acted as secretary to the Patriarch Abraham, who sat from 837 to 850, by whom he was promoted to be Bishop of Marga, and afterwards Metropolitan of Beth Garmai\"; son of Jacob of Beth Shirwanaye or Beth Sharonaye, district of Salakh (OCR \"*Abhe\", \"Sharonayfi\")",
+    "witness": "BUDGE l.180-190",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "\"when in the days of my youth I was copying letters before the Patriarchal throne of the holy Mar Abraham,^ the Catholicus and Patriarch\"; \"when I was secretary to Mar Abraham\"",
+    "witness": "BUDGE l.4609-4611, 20163",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "'Abhd-Isho''s request and his refusal: \"it is many many years ago since thou\" ... \"Mar 'Abd-lsho', didst with all manner of wrestlings and supplications require of me\" ... \"But I was not* persuaded to do this, for two reasons, firstly because [the writing of] histories brings upon those who compose them severe labour, and secondly because of the cessation from daily work\" (OCR \"'Abd-lsho'\")",
+    "witness": "BUDGE l.11739-11750",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Title: \"THE EXCELLENT HISTORIES AND STORIES CONCERNING THE HOLY MEN AND MONKS WHO LIVED, GENERATION AFTER GENERATION, IN THE HOLY MONASTERY OF BETH ^^ 'aBHE, WHICH WERE COMPOSED BY THE PIOUS MAR THOMAS, BISHOP OF MARGA.\" (OCR)",
+    "witness": "BUDGE l.154-163",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Named informants: \"Now I learned these things from Rama, an old and venerable deacon of the church of the village of Shalmath\"; \"now I have learned concerning this man from the Epistles of Mar Timothy\"; \"Now M4r Abraham, the Catholicus, a holy man in very truth, related to me fully concerning all this matter\" (OCR \"M4r\")",
+    "witness": "BUDGE l.11842-11844, 20158-20160, 21529-21531",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "\"the things concerning holy men which my narrative recounts are not vain imagin- ations of my own, for I have collected the materials for them from the things which have been said concerning them in the living speech, and from the written state- ments which I have found\"",
+    "witness": "BUDGE l.1065-1071",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The harvest: \"I will go into the gardens of their victorious deeds as into a field, and, as it were, I will glean and gather up together the choice and well-filled ears of corn, and I will pile up into one sheaf the heap of their bundles\" (a footnote breaks the first line)",
+    "witness": "BUDGE l.980-990",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Budge's title: \"Thomas, Bishop of Marga, A.D. 840\"",
+    "witness": "BUDGE file header l.1",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Labourt: \"Thomas de Marga, qui écrit entre 832 et 850\"",
+    "witness": "LABOURT (labourt_le-christianisme-dans-l-empire-perse-sassanide-fra_1904.txt) l.17234-17235",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Mari: \"itaque carcerem toloravit ad triennium el sex menses; quo tempore ei adslilit ipsius frater Thomas Bagarmae metropolita omnia ei humanilalis ofliicia praostans\" (OCR forms kept); the passage falls in the life of Theodosius (pages out of order in the scan)",
+    "witness": "MARI (mari-ibn-sulayman_de-patriarchis-nestorianorum-commentaria-pars-prior-ara-lat_gismondi1899.txt) l.12742-12748, 12767",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Assemani, from Amr: \"quo fpatio Thomas , • ipfus frater metro- poli t a Bagermenfs sili omnia cbarita- tis officia exhibere non dejiitit\" (OCR); marginal note identifying him as author of the Historia Monastica",
+    "witness": "ASSEMANI3-1 (assemani_bibliotheca-orientalis-tomus3-pars1-de-scriptoribus-syris-nestorianis-lat_1725.txt) l.84556-84557, 84755-84759, 84769-84771",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Budge: \"His brother Theodosius was ordained Bishop of al-Anbar, Thomas being present at the ceremony, and subsequently became Metropolitan of Gunde-Shabhor as Catholicus in 852\" (OCR, wording as printed)",
+    "witness": "BUDGE l.191-194",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Colophon: \"composed by the divinely pious man and spiritual philosopher Mar Thomas, Bishop of Marg&\" (OCR \"Marg&\")",
+    "witness": "BUDGE l.30193-30195",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Assemani: the history \"plurimum enim ad univerlalem non monachorum mo- do , (ed etiani Clericorum Ie£Is Nc- dorians datus cognitionem confert\" (OCR)",
+    "witness": "ASSEMANI3-1 l.78727-78730",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Mingana: \"Timothy I. selected, as the historian Thomas of Marga informs us, ordained bishops and sent to all the countries of the East\"",
+    "witness": "MINGANA (mingana_early-spread-of-christianity-in-india_mingana1926.txt) l.3348-3349",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Assemani's Latin of the arrival line: \"Quoniam puer quum efiem , ad hoc J aerum monaflersum ( Beth-Abenle ) anno regni Arabum ducentefime de- cimo feptimo ttccejfi\" (OCR)",
+    "witness": "ASSEMANI3-1 l.78703-78706",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Wigram: \"Neither Theodoret nor Thomas of Marga, however, have any knowledge of Mar Augin\", with his existence not therefore questioned",
+    "witness": "WIGRAM1910 (wigram_introduction-to-the-history-of-the-assyrian-church-100-640_1910.txt) l.11310-11312",
+    "formation_confidence": "Documented"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "When he wrote the Book of Governors",
+    "sides": [
+     "E. A. Wallis Budge, in his title: 840 (BUDGE l.1)",
+     "Jérôme Labourt: between 832 and 850 (LABOURT l.17234-17235); Joseph Assemani: he flourished at the start of the ninth century (ASSEMANI3-1 l.78625-78626)"
+    ]
+   },
+   {
+    "claim": "Who raised him to Beth Garmai",
+    "sides": [
+     "Budge: promoted by Abraham to Marga, \"and afterwards Metropolitan of Beth Garmai\" (BUDGE l.189-190)",
+     "Assemani: his brother Theodosius seems to have raised him from Marga to Beth Garmai (ASSEMANI3-1 l.84827-84829)"
+    ]
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "Birth, death and burial",
+    "note": "No held source gives them. Searched all cic/texts for Thomas of Marga, Thomas Margensis and OCR forms, with obiit, died, buried, sepult and mort nearby."
+   },
+   {
+    "detail": "The years he became bishop and metropolitan",
+    "note": "No held line gives a year for either. Thomas says nothing of his own episcopate in the held English."
+   },
+   {
+    "detail": "Budge's introduction and the Syriac",
+    "note": "Budge's volume 1, with the Syriac and his introduction, is not held."
+   }
+  ]
+ },
+ "john-of-nikiu": {
+  "claims": [
+   {
+    "claim": "\"And thereupon the Moslem made their entry into Nakius, and took possession, and finding no soldiers (to offer resistance), they proceeded to put to the sword all whom they found in the streets and in the churches, men, women, and infants, and they showed mercy to none.\"; \"Let us now cease, for it is impossible to recount the iniquities perpetrated by the Moslem\"",
+    "witness": "CHARLES (john-nikiu_chronicle_charles1916.txt) l.11347-11358",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Charles: \"John of Nikiu was probably born about the time of the Mohammedan invasion of Egypt. He was the Coptic bishop of Nikiu and 'rector' of the bishops of Upper Egypt who took part in the election of the successor of John of Samntid in 690 A. d. In 696 he was appointed administrator general of the Monasteries, but was later deposed from these offices on the ground that he had abused his powers.\" (OCR \"Samntid\")",
+    "witness": "CHARLES l.179-185",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Transmission: \"John of Nikiu was written originally in Greek, but it is not improbable, as Zotenberg points out, that some chapters which dealt with purely Egyptian affairs were written in Coptic\"; \"From Greek the Chronicle was translated into Arabic, and from Arabic into Ethiopic in the year 1602. The Arabic version is wholly lost\"",
+    "witness": "CHARLES l.253-258, 280-282",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "History of the Patriarchs: \"And the writer of this history was with him, for he was his spiritual son\"; at John III's deathbed \"Abba John, bishop of Niciu\"; at the election, the bishops \"under the presidency of Gregory, the bishop of Al-Kais; and James, bishop of Arwat, and John, bishop of Niciu\"; B. Evetts's heading to Isaac's life in his English of the History: \"A. D. 686-689\"",
+    "witness": "HP-PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt) l.1229-1233, 1278, 1313-1315",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "\"Abba Simon committed to Abba John, bishop of Niciu, the nianagement of tlie affairs of the monasteries, because he was conversant with the life of the monks, and knew their rules\" (OCR)",
+    "witness": "HP-PO5 l.1801-1831",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "\"some of those who were given up to their appetites took a virgin out of her monastery\" ... \"the bishop took the monk who had committed the sin, and in- ilicted a painful beating upon him; and ten days after his punishment that monk died\" ... \"they condemned him to be deposed, because he had transgrcssed the limit of what humanity required in him. So they deposed him, and he was silent while they did so\" ... \"strangers to your sees until thc end of the time\"; Mennas of Saint Macarius appointed; \"this holy bishop\" (OCR forms kept)",
+    "witness": "HP-PO5 l.1832-1880",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Renaudot: \"joannem Efrifeopum Nikioufi praffteit MonaAeriis\" ... \"tam vehementer vet- erari juffic , ut decimo die mortuus fuerit\" ... \"quod ille impatienter tulit\" (OCR)",
+    "witness": "RENAUDOT (renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713.txt) l.12548-12561",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "\"And every one said : c This expulsion (of the Romans) and victory of the Moslem is due to the wickedness of the emperor Heraclius and his persecution of the Orthodox through the patriarch Cyrus.\" (OCR \"c\")",
+    "witness": "CHARLES l.12008-12011",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "'Amr: \"had no mercy on the Egyptians, and did not observe the covenant\"; \"but he took none of the property of the Churches, and he committed no act of spoliation or plunder\"",
+    "witness": "CHARLES l.11759, 12016-12017",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Preface: \"I am wanting in eloquence beyond 4 all authors and feeble in discourse\" (\"4\" a footnote mark); \"And I have been honest (in this work)\"",
+    "witness": "CHARLES l.1486-1492",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The author named in the book: \"John the ascetic and Maddabbar, 1 which is by interpretation, administrator, who was bishop of the town of Nakijus in Egypt, which is called Absai\"; \"John the rector bishop of Nikius\"",
+    "witness": "CHARLES l.688-690, 12091",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Butler via Charles: \"to write a history of the Arab conquest of Egypt\"; the thirty-year gap from 610 to 640",
+    "witness": "CHARLES l.187-201",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Renaudot sets John III's death in 686: \"obiiilc debuitan. Hcg. ^7% J. C. 686\" (OCR)",
+    "witness": "RENAUDOT l.12195-12197",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Evetts on Nakyus: \"The modern village of Ibshadi ... is probably on the site of the ancient Nakyus ; it is in the district of Manuf, in the province of Al-Manufiyah, and a little to the east of the Rosetta branch of the Nile.\"",
+    "witness": "EVETTS (abu-salih_churches-and-monasteries-of-egypt_evetts1895.txt) l.5902-5905",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Ethiopic translation of 1602 \"by Gabriel the Egyptian, son of John of Kaljub, at the order of the Abyssinian general Athanasius and of Mariara Sena (Malak Mogasa), the wife of Jacob, Malak\" Sagad (OCR \"Mariara\")",
+    "witness": "CHARLES l.332-336",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Benjamin's return also in the History of the Patriarchs",
+    "witness": "HP1 (severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt) l.44676-44680",
+    "formation_confidence": "Documented"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "The year of the election after John III",
+    "sides": [
+     "R. H. Charles: 690 (CHARLES l.182-183)",
+     "B. Evetts's heading to Isaac's life in his English of the History: 686-689 (HP-PO5 l.1278); Eusèbe Renaudot puts John III's death in 686 (RENAUDOT l.12195-12197)"
+    ]
+   },
+   {
+    "claim": "Why he was deposed, and how he took it",
+    "sides": [
+     "History of the Patriarchs: he went beyond what humanity required when the monk he had beaten died; he was silent, then cursed them (HP-PO5 l.1832-1874)",
+     "R. H. Charles: he abused his powers (CHARLES l.184-185); Eusèbe Renaudot: he bore it impatiently (RENAUDOT l.12561)"
+    ]
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "Birth, death and burial",
+    "note": "No held source gives them. Charles's \"probably born\" is his inference. Searched all cic/texts for Nikiu, Niciu, Nakius, Nakyus, Nikiou and OCR forms; no synaxary entry for him was found."
+   },
+   {
+    "detail": "When he wrote the Chronicle",
+    "note": "No held source gives a year. F. Nau puts it at the end of the seventh century (theopistus_histoire-de-dioscore-journal-asiatique-1903-fra_nau1903.txt l.13604-13605)."
+   },
+   {
+    "detail": "Charles's basis for 690, 696 and the Upper Egypt title",
+    "note": "Charles gives no source in that paragraph, and no held file carries them."
+   }
+  ]
+ }
+}

@@ -1,0 +1,83 @@
+{
+  "name": "Sebeos",
+  "knownFor": "The Armenian bishop to whom the History of Heraclius is credited. It tells of the wars of the Persians and the Greeks, the return of the Cross to Jerusalem, and the first Arab conquests. Frédéric Macler calls him the only Armenian writer of the seventh century who tells of the first Arab invasions of Armenia.",
+  "dates": "Seventh century. Frédéric Macler says he wrote in the third quarter of that century, and his history ends in 661, when the caliph Muawiya came to the throne. No source used here gives his birth or death",
+  "place": "Armenia. Macler names no see for him",
+  "tradition": "Armenian Christianity before the Bagratids",
+  "role": "Bishop; recorder of the wars of Heraclius and the first Arab conquests",
+  "briefLength": "about 2 minutes",
+  "keyWorks": [
+    {
+      "title": "History of Heraclius",
+      "about": "the third book of the history printed under his name, running from the late fifth century to 661. It is held in Frédéric Macler's French of 1904, made from K. Patkanian's Armenian edition of 1879. The two printed editions rest on one manuscript at Etchmiadzin"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Frédéric Macler says Sebeos named no written sources and that his book is itself a source, from which later writers drew.",
+      "Stephen of Taron, in the tenth century, lists the History of Heraclius among the Armenian histories. Macler says Giragos of Gandzak and Tchamtchean, in the preface to his history, cite it too.",
+      "Georg Hoffmann and Oskar Braun, editing Syriac texts, cite Sebeos for the debate on the faith held at the court of the Persian king Khosrau Parvez after Jerusalem and Alexandria fell."
+    ],
+    "remembered": [
+      "Macler calls the work above all a priest's, in its faults as in its virtues.",
+      "Macler writes that Sebeos tells events haphazardly, as they come to his memory, without discussing them, in the manner of the Byzantine writers.",
+      "In 1917 Macler wrote that Sebeos has undeniable historical value, though he gives no dates."
+    ]
+  },
+  "uncertain": [
+    "The history credited to him. Stephen of Taron, about three centuries later, lists it as written by Bishop Sebeos, and the printed editions carry that title. Frédéric Macler says the first of the three books printed under his name is plainly not his. The second copies Moses of Khoren and Stephen of Taron. In 1917 Macler listed another copy, manuscript 52 of the Mekhitarist library at Vienna, with extracts of Moses of Khoren and Stephen of Taron.",
+    "Macler takes the third book alone to be Sebeos's history, and translates only that. He does not argue the point, and no source used here argues against it.",
+    "His see, his family and his years. Macler names no see and gives no birth or death.",
+    "A bishop who refuses communion with the emperor Constans II at Dvin appears in the history unnamed. Macler does not say he is the author.",
+    "The chronology. Macler finds the dates of the Persian wars very obscure, and in 1917 he wrote that Sebeos gives no dates.",
+    "Macler's reading that Sebeos saw the Arab invasion as God's punishment of the Greeks is his own. He says Sebeos never states it outright."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Histoire d'Héraclius, par l'évêque Sebeos (French tr. Frédéric Macler)",
+        "author": "Sebeos; Frédéric Macler (tr.)",
+        "date": "1904",
+        "language": "French translation",
+        "file": "cic/texts/sebeos_histoire-d-heraclius-fra_macler1904.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Histoire d'Héraclius: introduction and notes",
+        "author": "Frédéric Macler",
+        "date": "1904",
+        "language": "French",
+        "file": "cic/texts/sebeos_histoire-d-heraclius-fra_macler1904.txt"
+      },
+      {
+        "title": "Des Stephanos von Taron armenische Geschichte (German tr. Heinrich Gelzer and August Burckhardt)",
+        "author": "Stephen of Taron",
+        "date": "1907",
+        "language": "German translation",
+        "file": "cic/texts/stepanos-taron_armenische-geschichte-deu_gelzer-burckhardt1907.txt"
+      },
+      {
+        "title": "Histoire universelle d'Étienne Asolik de Tarôn, part 2: introduction",
+        "author": "Frédéric Macler",
+        "date": "1917",
+        "language": "French",
+        "file": "cic/texts/stepanos-taron_histoire-universelle-deuxieme-partie-fra_macler1917.txt"
+      },
+      {
+        "title": "Auszüge aus syrischen Akten persischer Märtyrer, notes",
+        "author": "Georg Hoffmann",
+        "date": "1880",
+        "language": "German",
+        "file": "cic/texts/persian-martyr-acts_auszuge-aus-syrischen-akten-persischer-martyrer-deu_hoffmann1880.txt"
+      },
+      {
+        "title": "Das Buch der Synhados, notes",
+        "author": "Oskar Braun",
+        "date": "1900",
+        "language": "German",
+        "file": "cic/texts/synodicon-orientale_das-buch-der-synhados-deu_braun1900.txt"
+      }
+    ]
+  }
+}
