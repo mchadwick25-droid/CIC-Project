@@ -145,6 +145,11 @@
     "claim": "Letters: I to Gregory (Barmby: 'poor dove in Christ'); II to a Gallic synod, III and V to Boniface IV, IV to his monks, signed 'Columba peccator' in II-IV; V signed 'Palumbus'; VI 'Ad quemdam suum discipulum'",
     "witness": "npnf213 l.4298; PL80 l.20591-20597, 20942-20947, 21031-21036, 21355-21365, 22011-22012",
     "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Foulke: the Life was 'Written by Jonas, a monk of Bobbio, about 640 (Hodgkin, VI, 105)'; 'St. Columban was born in Leinster, Ireland about 543 ... died at Bobbio, Italy, 615', both citing Hodgkin",
+    "witness": "Foulke's notes to Paul the Deacon (paul-the-deacon foulke1907 l.15760-15762; also l.8977-8978, 9026); Hodgkin is not held",
+    "formation_confidence": "Dominant Modern Reconstruction"
    }
   ],
   "contested_claims": [
@@ -185,14 +190,14 @@
     "claim": "His birth year",
     "sides": [
      "Gallandi: 'in Lagenia, Hiberniae provincia, circa medium saeculi VI ortus traditur' (PL80 l.16138-16139; OCR 'cirea')",
-     "Foulke's note to Paul the Deacon: 'born ... in Ireland about 543' (paul-the-deacon foulke1907 l.8977-8978)"
+     "Foulke's notes to Paul the Deacon, citing Hodgkin: 'about 543' (paul-the-deacon foulke1907 l.8977-8978, 15761)"
     ]
    }
   ],
   "absent_details": [
    {
     "detail": "His birth year",
-    "note": "No held line gives it. Gallandi reports a tradition of about the mid-sixth century; Foulke's 'about 543' rests on no ancient line held. The scan's 'c.543-615' rests on Foulke's note and on editors' years."
+    "note": "No ancient line held gives it. Gallandi reports a tradition of about the mid-sixth century (PL80 l.16138-16139); Foulke's 'about 543' cites Hodgkin, who is not held. The scan's 'c.543-615' rests on Foulke's note and on editors' years."
    },
    {
     "detail": "His work against the Arians",
@@ -208,7 +213,7 @@
    },
    {
     "detail": "The date of Jonas's Life",
-    "note": "No held line dates it. The Library header's 'c. 640-642' is a catalogue date. Jonas names Dagobert after Chlotar (jonas munro1895 l.1420-1421) and Babolen as 'now abbot of Bobbio' (l.712-713)."
+    "note": "Foulke, citing Hodgkin, gives 'about 640' (paul-the-deacon foulke1907 l.15760); Munro says Jonas came to Bobbio three years after Columbanus's death and was 'soon employed' on the Life (jonas munro1895 l.76-78). The Library header's 'c. 640-642' is a catalogue date. Jonas names Dagobert after Chlotar (jonas munro1895 l.1420-1421) and Babolen as 'now abbot of Bobbio' (l.712-713). The brief says only that Jonas wrote after his death."
    }
   ]
  },
@@ -355,7 +360,7 @@
   "absent_details": [
    {
     "detail": "His birth year",
-    "note": "No held line gives it. The scan's 'c.560' is the Library file header's. The chronicle under the name of Maximus of Zaragoza in PL80 sets 'Isidorus Hispali nascitur' by the year 556 (PL80 l.50304); Nicolás Antonio's notice printed with it (PL80 l.48861-49012) rejects that chronicle as a fabrication and names Higuera as the inventor of the Dexter and Maximus chronicles. Not used."
+    "note": "No sound held line gives it. The scan's 'c.560' is the Library file header's. The chronicle under the name of Maximus of Zaragoza in PL80 sets 'Isidorus Hispali nascitur' by the year 556 (PL80 l.50304). Nicolás Antonio's notice printed with it (PL80 l.48861-49012) says all that the true Maximus wrote has perished (l.48904-48907), and that the chronicle under his name was built up by the forger of Pseudo-Dexter (l.48919-48923); common report makes Higuera the author of 'this many-headed fable' and 'primus inventor Chronicorum Dextri et Maximi' (l.49008-49011). Told on the card as Antonio's view; not used for a date."
    },
    {
     "detail": "Redemptus's account of his death",
@@ -519,7 +524,7 @@
    },
    {
     "detail": "Lists making him a monk of Agali",
-    "note": "PL80 l.49087, 49102 make 'Joannes monachus Agaliensis, postea Biclarensis' a participant at Toledo III; these come from the Higuera chronicles that Nicolás Antonio's notice in PL80 rejects (l.49000-49012). Not used."
+    "note": "PL80 l.49087, 49102 make 'Joannes monachus Agaliensis, postea Biclarensis' a participant at Toledo III. These lists are quoted inside Nicolás Antonio's notice from the Higuera material he rejects (PL80 l.49000-49012). Not used."
    }
   ]
  }
