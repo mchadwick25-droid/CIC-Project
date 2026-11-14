@@ -8,12 +8,13 @@ The coordinator marked none of the eight major. Coptic Christianity under Early 
 
 Whose account each life rests on:
 - **The History of the Patriarchs of Alexandria**, in B. Evetts's English (Patrologia Orientalis 1 and 5), for Agathon, John III, Isaac, Simon I, Alexander II and Michael I. The briefs call it a later Arabic history of the Coptic church and do not call its lives Severus's. Evetts holds that its lives from the seventh century are by writers of their own time.
-- **The writers inside it.** John III's life is told by an unnamed writer who calls himself John's spiritual son. Michael I's life is told by John the deacon, an eyewitness who names himself. John the deacon says the archdeacon George, Simon's secretary, wrote the history down to the days of Alexander II. No held line names the writer of the lives of Agathon or Simon, or of Alexander's last years.
+- **The writers inside it.** John III's life is told by an unnamed writer who calls himself John's spiritual son. Michael I's life is told by John the deacon, an eyewitness who names himself. He calls Moses, bishop of Wasim, his spiritual father. John says the archdeacon George, Simon's secretary, wrote the history down to the days of Alexander II, and that he himself told the rest of Alexander's chapter, down to the death of the patriarch Theodore. No held line names the writer of the lives of Agathon or Simon.
 - **Isaac** also has a long Coptic Life by Mina, held in E. Porcher's French. Porcher says it was written to edify.
 - **Joseph I.** The History's life of him is not held. His profile rests on Eusèbe Renaudot's Latin retelling of it, the Arabic and Ethiopic synaxaria, and Bar Hebraeus's quotation of Dionysius of Tel Mahre.
 - **Severus ibn al-Muqaffa.** His own voice is the History's third preface. The held lines show a dispute over how much of the History is his, and over his century. Both are tagged as contested.
 
 The held witnesses go past those the scan lists:
+- **Simon I.** Basset's Arabic synaxarium notice, 24 Abib, bound into the PO 17 John of Ephesus file.
 - **Agathon.** His own first-person account of Benjamin's consecration of the church of Saint Macarius, in Benjamin's life. A cleaner copy of that life is bound into the Basset Thout to Babeh synaxarium file.
 - **John III.** Budge's Ethiopic synaxarium, 1 Takhshash, and Abu Salih's monastery of the Brothers at Sailah.
 - **Isaac.** Mina's Life is held twice, in the Toubeh to Amshir synaxarium file and bound into the Evetts PO 1 file.
