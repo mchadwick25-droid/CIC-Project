@@ -1,0 +1,89 @@
+{
+  "name": "Baudonivia",
+  "otherNames": [
+    "Bandonivia",
+    "Bandomina"
+  ],
+  "knownFor": "Nun of Holy Cross at Poitiers who wrote the second book of Radegund's Life, telling the coming of the relic of the Cross and Radegund's death, which Venantius Fortunatus's Life had passed over.",
+  "dates": "No year of her life is held. Bruno Krusch dates her book soon after 600; O. M. Dalton puts it in the early years of the seventh century",
+  "place": "The monastery of the Holy Cross, Poitiers",
+  "tradition": "Merovingian Gallic Christianity",
+  "role": "Nun; writer of Radegund's Life",
+  "briefLength": "about 2 minutes",
+  "keyWorks": [
+    {
+      "title": "Life of Radegund, Book II",
+      "about": "written for the abbess Dedimia and the community of Holy Cross, to tell what Fortunatus passed over for length: Radegund's daily life in the monastery, the coming of the relic of the Cross, her death and burial, and miracles after it"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Her book is the second of the two books of Radegund's Life, after Fortunatus's, in the manuscripts Bruno Krusch edits and in Migne.",
+      "The abbess Dedimia is known only from her, Krusch notes.",
+      "An unsigned note in Migne cites her, as Fortunatus's contemporary, against scholars who struck him from the list of the bishops of Poitiers."
+    ],
+    "remembered": [
+      "Hildebert, bishop of Le Mans, rewrote Radegund's Life. He says he followed Fortunatus and added some miracles that Fortunatus had not touched and the nun had recorded.",
+      "Bruno Krusch judges her style very rough and says she took freely from the saints' Lives she had read; he adds that the reader will pardon good Baudonivia, who confesses her weakness."
+    ]
+  },
+  "uncertain": [
+    "Her own life is thin in the sources. No held source gives her family, her age, how she came to the house or her death, so this profile rests on her book. O. M. Dalton calls her a contemporary of Radegund who was in the monastery during Radegund's life.",
+    "Whether Radegund raised her. Her prologue says Radegund raised her from the cradle as her own household servant. Bruno Krusch notes that most of the prologue is copied from Fortunatus's prologues to his Lives of Hilary of Poitiers and Marcellus of Paris; this phrase comes from the Hilary prologue, where it is said of the abbot Pascentius. It does not prove she was Radegund's foster-child.",
+    "The names in her story of the Cross. She says only the emperor and the bishop of the place. Justin is Krusch's and Dalton's supplement; Maroveus is Krusch's and Dalton's, and Gregory of Tours names him in his own account. The empress Sophia and the gold triptych are Dalton's words, not hers.",
+    "The year of Radegund's death. Baudonivia gives a Wednesday, the thirteenth of August, and Gregory of Tours the thirteenth day of the sixth month. The year 587 is Bruno Krusch's.",
+    "The date of her book. Soon after 600 is Krusch's reasoning, from Leifastus, a bishop of Autun she names, and from people she says are still living.",
+    "What is hers. Krusch says she copied passages from the Life of Caesarius of Arles, among them Radegund's vision of a young man a year before her death. Dalton credits her with the vision of the tribune Domolenus on the day of Radegund's death; it is in Fortunatus's Life.",
+    "Her name. One manuscript gives the book without her name, as written by one of the holy nuns who lived with Radegund."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Life of Radegund, Book II, in Monumenta Germaniae Historica, Scriptores rerum Merovingicarum 2 (ed. Bruno Krusch)",
+        "language": "Latin",
+        "file": "cic/texts/fredegar-liber-historiae-francorum-vitae-mgh-srm-2-lat_krusch1888.txt"
+      },
+      {
+        "title": "Life of Radegund, Book II, in Patrologia Latina 72",
+        "language": "Latin",
+        "file": "cic/texts/john-biclaro-leander-pl72-lat_migne1878.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Introduction and notes to the Lives of Radegund",
+        "author": "Bruno Krusch",
+        "date": "1888",
+        "language": "Latin",
+        "file": "cic/texts/fredegar-liber-historiae-francorum-vitae-mgh-srm-2-lat_krusch1888.txt"
+      },
+      {
+        "title": "Proemium to the prose works of Fortunatus, on the Lives of Marcellus and Radegund",
+        "author": "Bruno Krusch",
+        "date": "1885",
+        "language": "Latin",
+        "file": "cic/texts/venantius-fortunatus_opera-mgh-aa-4-lat_leo-krusch1881.txt"
+      },
+      {
+        "title": "History of the Franks, IX.2 and IX.40, with notes (English tr. O. M. Dalton)",
+        "author": "Gregory of Tours",
+        "date": "1927",
+        "language": "English translation",
+        "file": "cic/texts/gregory-tours_history-of-the-franks-v2_dalton1927.txt"
+      },
+      {
+        "title": "Glory of the Confessors, 104 (ed. Wilhelm Arndt and Bruno Krusch)",
+        "author": "Gregory of Tours",
+        "date": "1885",
+        "language": "Latin",
+        "file": "cic/texts/gregory-tours_opera-mgh-srm-1-lat_arndt-krusch1885.txt"
+      },
+      {
+        "title": "Notes to the Life of Radegund, Patrologia Latina 72",
+        "author": "Unsigned",
+        "language": "Latin",
+        "file": "cic/texts/john-biclaro-leander-pl72-lat_migne1878.txt"
+      }
+    ]
+  }
+}
