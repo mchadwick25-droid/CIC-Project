@@ -835,7 +835,7 @@
    },
    {
     "claim": "John of Biclaro: 'In provincia Gallaeciae Miro post Theudemirum Suevorum rex efficitur'; under Mommsen's '585?': 'Leovegildus rex Gallaecias vastat, Audecanem regem comprehensum regno privat, Suevorum gentem, thesaurum et patriam in suam redigit potestatem et Gothorum provinciam facit'",
-    "witness": "mommsen1894 l.19852; l.20238-20244 (OCR '5b5?', 'rcdigit')",
+    "witness": "mommsen1894 l.19852; l.20238-20244 (OCR '5b5?', 'rcdigit'); Mommsen's margin carries a question mark ('585?')",
     "formation_confidence": "Documented"
    },
    {
@@ -952,6 +952,11 @@
     "claim": "Childebert II: Caspari 'im fünften Jahre Childeberts des Zweiten oder im Jahre 580'; Bollandists 'ad annum quintum Childeberti Regis Austrasiorum Francorum'",
     "witness": "caspari1883 l.287-289; acta-sanctorum martii-3 l.30861",
     "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Dumio and Mondonedo: note signed 'R.' in Arndt's HF V.37, 'Fuit episcopus, primo Dumiensis monasterii (Mondonedo), tum Bracarensis'; the Bollandists: monks of Dumio, fleeing the Moors, 'non longe a Mindoniensi urbe exstruxisse aliud monasterium, et Dumiense etiam appellasse'; Martin's body 'in ejus antiqua Dumiensi reconditum ecclesia', moved to Braga 'anno MDCVI'. No held source places Martin's Dumio at Mondonedo",
+    "witness": "arndt-krusch1885 l.18215; acta-sanctorum martii-3 l.31812-31821 (OCR 'exiruxisse', 'wpxct', 'Bracarum'), again l.32027-32030",
+    "formation_confidence": "Dominant Modern Reconstruction"
    }
   ],
   "contested_claims": [
@@ -987,13 +992,6 @@
      "Dalton: at Tours (dalton1927 l.26883-26885)",
      "Hieronymus de Prato, as Caspari reports: Tours (caspari1883 l.195-196)",
      "Mabillon, as Caspari reports: the Galician church of Martin at Dumio; Florez: at Orense (caspari1883 l.197-199)"
-    ]
-   },
-   {
-    "claim": "Where Dumio was",
-    "sides": [
-     "Caspari: close to Braga, after Gallandi 'vix uno milliari' (caspari1883 l.448-450, 487)",
-     "Note signed R. in Arndt's HF: 'Dumiensis monasterii (Mondonedo)' (arndt-krusch1885 l.18215)"
     ]
    },
    {
@@ -1050,7 +1048,7 @@
     "formation_confidence": "Documented"
    },
    {
-    "claim": "Annales Cambriae: 'cxxx. Annus. Brendan Byror dormitatio'; editor's introduction: 'the death of Brenda, abbot of Birre'",
+    "claim": "Annales Cambriae: 'cxxx. Annus. Brendan Byror dormitatio'; editor John Williams ab Ithel's introduction, glossing Byror as Birr: 'the death of Brenda, abbot of Birre'",
     "witness": "annales-cambriae williams-ab-ithel1860 l.2501 (OCR 'Brendan ^ Byror'), l.892; the only Brendan entries in the file (searched 'Brend', 'Clonfert', 'Cluain')",
     "formation_confidence": "Documented"
    },
@@ -1100,8 +1098,8 @@
     "formation_confidence": "Documented"
    },
    {
-    "claim": "Vita S. Brendani c.15, as Hugh Williams quotes it after Warren: Brendan at Gildas's monastery reads a missal 'scriptum Graecis litteris'; Williams: 'Brendan, who founded Clonfert'",
-    "witness": "gildas williams1899 l.24014-24024, 9111-9113",
+    "claim": "Vita S. Brendani c.15, as Hugh Williams quotes it after Warren: Brendan at Gildas's monastery reads a missal 'scriptum Graecis litteris'",
+    "witness": "gildas williams1899 l.24014-24024",
     "formation_confidence": "Inferential-Thin"
    },
    {
@@ -1133,6 +1131,11 @@
     "claim": "Second copy of Barre meeting Brendan on the sea creature, Life of David in the Acta Sanctorum",
     "witness": "acta-sanctorum martii-1 l.16355-16367",
     "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Hugh Williams: 'Brendan, who founded Clonfert, and Kieran (Cieran) the founder of Clonmacnois, were brought up at Clonard'. A plain statement that a Brendan founded Clonfert; it says nothing of Adomnan's Brendan Mocu Alti",
+    "witness": "gildas williams1899 l.9110-9112",
+    "formation_confidence": "Widely Accepted"
    }
   ],
   "contested_claims": [
@@ -1141,7 +1144,7 @@
     "sides": [
      "Huyshe: yes, from the clan name (adomnan huyshe1905 l.3950, 10278-10279)",
      "Late Lives: son of Finnlug, of the Altraige / grandson of Altus, without naming Adomnan (stokes lismore1890 l.21207-21225; rees1853 l.11366)",
-     "Book of Lismore story: 'Brenainn maccu Altai was in Clonfert' (stokes lismore1890 l.878-881); Hugh Williams: 'Brendan, who founded Clonfert' (gildas williams1899 l.9111); Bollandist note: Cluain ferta founded by S. Brandano (acta-sanctorum augusti-1 l.58936-58941)",
+     "Book of Lismore story: 'Brenainn maccu Altai was in Clonfert' (stokes lismore1890 l.878-881); Bollandist note: Cluain ferta founded by S. Brandano (acta-sanctorum augusti-1 l.58936-58941)",
      "No held source near his time names Clonfert"
     ]
    },
@@ -1166,7 +1169,7 @@
   "absent_details": [
    {
     "detail": "The Irish annals for his death and the founding of Clonfert",
-    "note": "Not held. The Annals of Ulster, Tigernach, Chronicum Scotorum and the early volumes of the Four Masters are not in cic/texts (searched file names for annal, ulster, tigern, scotorum, inisfallen, four-masters; only Four Masters vol. 3, 1172-1378, is held). The Annales Cambriae name only Brendan of Birr (l.2501)."
+    "note": "Not held. The Annals of Ulster, Tigernach, Chronicum Scotorum and the early volumes of the Four Masters are not in cic/texts (searched file names for annal, ulster, tigern, scotorum, inisfallen, four-masters; only Four Masters vol. 3, 1172-1378, is held). The Annales Cambriae record only 'Brendan Byror dormitatio' (l.2501); the gloss of Byror as Birr is the editor's ('Brenda, abbot of Birre', l.892-893)."
    },
    {
     "detail": "Any work of his own",
@@ -1253,7 +1256,7 @@
     "formation_confidence": "Dominant Modern Reconstruction"
    },
    {
-    "claim": "Chronicle of Seert: the students left the school ('Les etudiants furent fortement affectes de cette decision de Sabriso', qui avait repousse la parole du metropolitain pour accepter celle de Hnana ... ils sortirent de l'Ecole'), 'environ trois cents' (OCR 'eiiviron'); 'Parmi ceux qui sortirent de l'Ecole de Nisibe, il y avait Isoyahb de Gdala ... Hadbsabba 'Arbaya, [qui] fut fait metropolitain de Houlwan'; Scher's notes: 'Ou plutot Barhadbsabba' and 'C'est en cette qualite qu'en 605 il assista au synode de Gregoire'; the identification with the Cause's author is Scher's, and the brief says so",
+    "claim": "Chronicle of Seert: the students left the school ('Les etudiants furent fortement affectes de cette decision de Sabriso', qui avait repousse la parole du metropolitain pour accepter celle de Hnana ... ils sortirent de l'Ecole'), 'environ trois cents' (OCR 'eiiviron'); 'Parmi ceux qui sortirent de l'Ecole de Nisibe, il y avait Isoyahb de Gdala ... Hadbsabba 'Arbaya, [qui] fut fait metropolitain de Houlwan'; Scher's notes: 'Ou plutot Barhadbsabba' and 'C'est en cette qualite qu'en 605 il assista au synode de Gregoire'; the identification with the Cause's author is Scher's, and the brief says so; the brief names the school as Nisibis (R2-B-M6), as the chronicle's heading on Gregory, metropolitan of Nisibis, and 'Parmi ceux qui sortirent de l'Ecole de Nisibe' (l.28720) give it",
     "witness": "Chronicle of Seert, tr. Scher (chronicle-of-seert po13 scher1919 l.28671-28674, 28707, 28720-28721, 28731, 28756, 28774; OCR 'fureiit', 'TEcoIe', '»1111 fut fiiit metropolitain do lloulwan')",
     "formation_confidence": "Documented"
    },
@@ -1298,7 +1301,7 @@
     "formation_confidence": "Contested"
    },
    {
-    "claim": "Guidi's chronicle, after Gregory of Phorath's death and the long vacancy: 'Ea aetate claruerunt in ecclesia Ionadab adiabenus ... Nominis famam adeptus erat in libris conscribendis Bàr Hadhbésabba urbis Holwan; moribus autem vitae eximiis clarebat Subhhalémáran urbis Karkha dhé Beth Sélokh, et Afrahnoy(?) regionis ad fluvios Zabh, et Gabriel urbis Néhargul'. Nau's French of the line: 'Bar Hadbesabba de Halwan etait celebre dans la litterature et brillait dans les oeuvres de la perfection'. Braun's German of Guidi agrees with the Latin split ('Durch vorzüglichen Lebenswandel zeichneten sich aus:.... G. v. N.')",
+    "claim": "Guidi's chronicle, after Gregory of Phorath's death and the long vacancy: 'Ea aetate claruerunt in ecclesia Ionadab adiabenus ... Nominis famam adeptus erat in libris conscribendis Bàr Hadhbésabba urbis Holwan; moribus autem vitae eximiis clarebat Subhhalémáran urbis Karkha dhé Beth Sélokh, et Afrahnoy(?) regionis ad fluvios Zabh, et Gabriel urbis Néhargul'. Nau's French of the line: 'Bar Hadbesabba de Halwan etait celebre dans la litterature et brillait dans les oeuvres de la perfection'. Braun's German of Guidi agrees with the Latin split ('Durch vorzüglichen Lebenswandel zeichneten sich aus:.... G. v. N.'); the card says the chronicle names 'a Bar Hadbeshabba of Halwan', since joining him to the Cause's author is Scher's and Nau's (R2-B-M7)",
     "witness": "chronica-minora guidi1903 l.1954-1979 (OCR 'lonadab'); Nau (po09 l.31582-31587); Braun (braun1900 l.14934-14935)",
     "formation_confidence": "Documented"
    },
@@ -1473,7 +1476,7 @@
     "formation_confidence": "Dominant Modern Reconstruction"
    },
    {
-    "claim": "Nau's solution: 'Peu après la mort de Dioscore, on écrivit en Égypte un certain nombre de récits en sa faveur, parmi ceux-ci pouvait se trouver un récit, écrit par Théopiste, de la réunion du concile de Chalcédoine et de l'exil à Gangres. Après l'an 512, l'un des rhéteurs de l'école de Pierre l'Ibère reprit l'écrit de Théopiste et le compléta à l'aide de ses connaissances personnelles. Ce remaniement fut sans doute rédigé en grec ... et d'ailleurs le syriaque que nous publions semble être une traduction du grec. Enfin ce remaniement grec fut traduit en syriaque avec quelques nouvelles modifications et constitua enfin la présente histoire.' He calls it 'la solution suivante comme la plus probable pour l'instant'. The brief tells it as a suggestion: Theopistus 'may have written' an account, which may have been among the 'récits en sa faveur' (l.582); 'rhéteurs' is told as 'a writer trained in rhetoric'. Peter the Iberian is placed on the card as bishop of Maiouma near Gaza (Nau's note l.15346-15347).",
+    "claim": "Nau's solution: 'Peu après la mort de Dioscore, on écrivit en Égypte un certain nombre de récits en sa faveur, parmi ceux-ci pouvait se trouver un récit, écrit par Théopiste, de la réunion du concile de Chalcédoine et de l'exil à Gangres. Après l'an 512, l'un des rhéteurs de l'école de Pierre l'Ibère reprit l'écrit de Théopiste et le compléta à l'aide de ses connaissances personnelles. Ce remaniement fut sans doute rédigé en grec ... et d'ailleurs le syriaque que nous publions semble être une traduction du grec. Enfin ce remaniement grec fut traduit en syriaque avec quelques nouvelles modifications et constitua enfin la présente histoire.' He calls it 'la solution suivante comme la plus probable pour l'instant'. The brief tells it as a suggestion: Theopistus 'may have written' an account, which may have been among the 'récits en sa faveur' (l.582); 'rhéteurs' is told as 'a writer trained in rhetoric'. Peter the Iberian is placed on the card as bishop of Maiouma near Gaza (Nau's note l.15346-15347). The card's uncertain item 1 tells the same steps in short sentences: Theopistus's account 'may have been among the stories in Dioscorus's favor' ('récits en sa faveur', l.582), 'the most likely answer for now' ('la plus probable pour l'instant', l.578-579).",
     "witness": "Nau theopistus (theopistus_histoire-de-dioscore-journal-asiatique-1903-fra_nau1903) l.577-595, 636-637 (OCR '5 12', 'l'ibère')",
     "formation_confidence": "Dominant Modern Reconstruction"
    },
