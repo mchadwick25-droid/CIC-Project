@@ -1,0 +1,11 @@
+source_file: acta-sanctorum_maii-tomus-6-lat_1739.txt
+assignments:
+- row_id: acta-sanctorum_maii-tomus-6-lat_1739--luke-of-cosenza-s-memoir-and-the-life-of-joachim-acta-sanctorum
+  work: Luke of Cosenza's memoir and the Life of Joachim, Acta Sanctorum May VI
+  author: acta-sanctorum
+  locus: Joachim from about OCR line 78452, Luke at about 78868; the rest of the volume is other saints; add 12 to OCR line numbers
+  atlas_ids:
+  - joachimite-current
+  role: context
+  confidence: needs-ruling
+  note: The Life and the archbishop's testimony are printed with their editors' notes; their dates of writing are for the tree to rule on.

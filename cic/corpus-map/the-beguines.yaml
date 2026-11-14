@@ -3,6 +3,16 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: the-beguines
 works:
+- row_id: acta-sanctorum_junii-tomus-5-lat_palme1867--jacques-de-vitry-life-of-marie-d-oignies-acta-sanctorum-june-v
+  work: Jacques de Vitry, Life of Marie d'Oignies, Acta Sanctorum June V
+  author: acta-sanctorum
+  locus: Marie from about OCR line 120129, the Life 120900-127669; the rest of the volume
+    is other saints; add 12 to OCR line numbers
+  role: context
+  confidence: provisional
+  note: A sympathetic outside view in the idealizing frame of a saint's life, by a bishop
+    and preacher, written inside this window.
+  source_file: acta-sanctorum_junii-tomus-5-lat_palme1867.txt
 - row_id: mechthild_fliessende-licht-der-gottheit-gmh_morel1869--mechthild-von-magdeburg-the-flowing-light-of-the-godhead-2
   work: Mechthild von Magdeburg, The Flowing Light of the Godhead (Morel's edition, Middle
     High German)
@@ -15,3 +25,23 @@ works:
 
     '
   source_file: mechthild_fliessende-licht-der-gottheit-gmh_morel1869.txt
+- row_id: mirror-of-simple-souls_english-version-kirchberger1927--the-mirror-of-simple-souls-english-version-of-an-anonymous-frenc
+  work: The Mirror of Simple Souls, English version of an anonymous French mystic (1927)
+  author: mirror-of-simple-souls
+  locus: the whole volume
+  role: tradition
+  confidence: needs-ruling
+  note: Scholars attribute the work to Marguerite Porete; the volume does not name her. It
+    prints the English version by M. N., first edited in 1927. The Old French and Latin texts
+    were not found in public-domain print.
+  source_file: mirror-of-simple-souls_english-version-kirchberger1927.txt
+- row_id: porete_marguerite-in-revue-historique-54-fra_langlois1894--langlois-marguerite-porete-revue-historique-54-1894
+  work: Langlois, 'Marguerite Porete' (Revue historique 54, 1894)
+  author: porete
+  locus: the article from about OCR line 16038; the rest of the volume is other articles;
+    add 12 to OCR line numbers
+  role: context
+  confidence: provisional
+  note: A historian's article that prints the Paris proceedings of 1310 against her, a persecutors'
+    record.
+  source_file: porete_marguerite-in-revue-historique-54-fra_langlois1894.txt

@@ -1,0 +1,11 @@
+source_file: anselm-canterbury_opera-with-eadmer-vita-anselmi-pl158-lat_migne1864.txt
+assignments:
+- row_id: anselm-canterbury_opera-with-eadmer-vita-anselmi-pl158-lat_migne1864--anselm-of-canterbury-works-and-letters-pl-158-eadmer-vita-s-anse
+  work: Anselm of Canterbury, works and letters (PL 158); Eadmer, Vita S. Anselmi
+  author: anselm-canterbury
+  locus: the whole volume
+  atlas_ids:
+  - latin-papal-church-gregorian
+  role: tradition
+  confidence: provisional
+  note: 'The archbishop''s own works and letters, and Eadmer''s Life of him by his companion, inside this window (national churches: England).'

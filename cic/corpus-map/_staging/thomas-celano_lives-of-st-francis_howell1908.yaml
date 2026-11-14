@@ -1,0 +1,11 @@
+source_file: thomas-celano_lives-of-st-francis_howell1908.txt
+assignments:
+- row_id: thomas-celano_lives-of-st-francis_howell1908--thomas-of-celano-the-first-and-second-lives-of-st-francis-englis
+  work: Thomas of Celano, the First and Second Lives of St Francis, English (Howell 1908)
+  author: thomas-celano
+  locus: the whole volume; the translation has no Tractatus de miraculis
+  atlas_ids:
+  - the-franciscan-movement
+  role: tradition
+  confidence: provisional
+  note: An English translation of the first two Lives.

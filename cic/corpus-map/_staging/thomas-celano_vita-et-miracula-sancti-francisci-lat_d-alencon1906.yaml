@@ -1,0 +1,11 @@
+source_file: thomas-celano_vita-et-miracula-sancti-francisci-lat_d-alencon1906.txt
+assignments:
+- row_id: thomas-celano_vita-et-miracula-sancti-francisci-lat_d-alencon1906--thomas-of-celano-vita-prima-vita-secunda-and-tractatus-de-miracu
+  work: Thomas of Celano, Vita prima, Vita secunda and Tractatus de miraculis (d'Alençon 1906)
+  author: thomas-celano
+  locus: the whole volume
+  atlas_ids:
+  - the-franciscan-movement
+  role: tradition
+  confidence: provisional
+  note: The first Lives of Francis by his friar, written inside this window.

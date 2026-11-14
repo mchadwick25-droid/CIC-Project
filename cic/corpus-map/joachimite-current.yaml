@@ -3,6 +3,16 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: joachimite-current
 works:
+- row_id: acta-sanctorum_maii-tomus-6-lat_1739--luke-of-cosenza-s-memoir-and-the-life-of-joachim-acta-sanctorum
+  work: Luke of Cosenza's memoir and the Life of Joachim, Acta Sanctorum May VI
+  author: acta-sanctorum
+  locus: Joachim from about OCR line 78452, Luke at about 78868; the rest of the volume is
+    other saints; add 12 to OCR line numbers
+  role: context
+  confidence: needs-ruling
+  note: The Life and the archbishop's testimony are printed with their editors' notes; their
+    dates of writing are for the tree to rule on.
+  source_file: acta-sanctorum_maii-tomus-6-lat_1739.txt
 - row_id: ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd1-deu-lat_1885--archiv-fur-literatur-und-kirchengeschichte-des-mittelalters-2
   work: 'Archiv für Literatur- und Kirchengeschichte des Mittelalters, Bd 1 (1885): Denifle
     on the Eternal Gospel and the commission of Anagni'
@@ -31,6 +41,16 @@ works:
     OCR, so the documents are primary-grade once checked against the scan. No public-domain
     English translation found.
   source_file: ehrle-denifle_archiv-literatur-kirchengeschichte-mittelalters-bd3-deu-lat_1887.txt
+- row_id: joachim-fiore_tractatus-super-quatuor-evangelia-lat_buonaiuti1930--joachim-of-fiore-tractatus-super-quatuor-evangelia-buonaiuti-193
+  work: Joachim of Fiore, Tractatus super quatuor Evangelia (Buonaiuti 1930)
+  author: joachim-fiore
+  locus: the whole volume
+  role: tradition
+  confidence: needs-ruling
+  note: One of Joachim's own works. The volume's series page files it under writers of the
+    twelfth century, before this entry's start; its date of writing is for the tree to rule
+    on. Published in 1930, the last year the Library's date rule clears.
+  source_file: joachim-fiore_tractatus-super-quatuor-evangelia-lat_buonaiuti1930.txt
 - row_id: lea_history-of-the-inquisition-of-the-middle-ages-v3_1888--a-history-of-the-inquisition-of-the-middle-ages-vol-iii-lea-3
   work: 'A History of the Inquisition of the Middle Ages, vol. III (Lea, 1888): Joachim and
     the Eternal Gospel'
@@ -40,3 +60,12 @@ works:
   confidence: provisional
   note: Placed on the contents page. Secondary scholarship.
   source_file: lea_history-of-the-inquisition-of-the-middle-ages-v3_1888.txt
+- row_id: salimbene_from-st-francis-to-dante_coulton1907--salimbene-extracts-from-the-chronicle-english-coulton-1907
+  work: Salimbene, extracts from the Chronicle, English (Coulton 1907)
+  author: salimbene
+  locus: the translated extracts; much of the volume is Coulton's own notes and other medieval
+    sources around them
+  role: tradition
+  confidence: provisional
+  note: Extracts from the friar's first-person chronicle, written inside this window.
+  source_file: salimbene_from-st-francis-to-dante_coulton1907.txt

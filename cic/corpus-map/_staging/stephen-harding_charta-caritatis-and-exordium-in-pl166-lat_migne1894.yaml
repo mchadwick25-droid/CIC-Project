@@ -1,0 +1,11 @@
+source_file: stephen-harding_charta-caritatis-and-exordium-in-pl166-lat_migne1894.txt
+assignments:
+- row_id: stephen-harding_charta-caritatis-and-exordium-in-pl166-lat_migne1894--stephen-harding-charta-caritatis-usus-antiquiores-and-the-exordi
+  work: Stephen Harding, Charta caritatis, Usus antiquiores and the Exordium of Citeaux (PL 166)
+  author: stephen-harding
+  locus: from about OCR line 98988; the earlier part of the volume is other authors; add 12 to OCR line numbers
+  atlas_ids:
+  - cistercian-monasticism
+  role: tradition
+  confidence: needs-ruling
+  note: The founding texts of Citeaux. Their authorship and date are disputed in the census sources note; the volume prints them as the work of the third abbot.

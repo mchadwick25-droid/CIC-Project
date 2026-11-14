@@ -3,6 +3,34 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: latin-papal-church-gregorian
 works:
+- row_id: abelard_opera-pl178-lat_migne1885--peter-abelard-opera-pl-178
+  work: Peter Abelard, Opera (PL 178)
+  author: abelard
+  locus: the whole volume
+  role: tradition
+  confidence: provisional
+  note: The master's own works and the account of his troubles in his own voice, inside this
+    window.
+  source_file: abelard_opera-pl178-lat_migne1885.txt
+- row_id: anselm-canterbury_opera-with-eadmer-historia-novorum-pl159-lat_migne1903--anselm-of-canterbury-letters-iii-iv-and-other-works-eadmer-histo
+  work: Anselm of Canterbury, letters III-IV and other works; Eadmer, Historia novorum (PL
+    159)
+  author: anselm-canterbury
+  locus: the whole volume
+  role: tradition
+  confidence: provisional
+  note: The rest of the archbishop's letters and Eadmer's own history of his times, inside
+    this window.
+  source_file: anselm-canterbury_opera-with-eadmer-historia-novorum-pl159-lat_migne1903.txt
+- row_id: anselm-canterbury_opera-with-eadmer-vita-anselmi-pl158-lat_migne1864--anselm-of-canterbury-works-and-letters-pl-158-eadmer-vita-s-anse
+  work: Anselm of Canterbury, works and letters (PL 158); Eadmer, Vita S. Anselmi
+  author: anselm-canterbury
+  locus: the whole volume
+  role: tradition
+  confidence: provisional
+  note: 'The archbishop''s own works and letters, and Eadmer''s Life of him by his companion,
+    inside this window (national churches: England).'
+  source_file: anselm-canterbury_opera-with-eadmer-vita-anselmi-pl158-lat_migne1864.txt
 - row_id: barnwell-priory_observances-in-use-at-barnwell-lat-eng_clark1897--the-observances-in-use-at-barnwell-priory-1295-1296
   work: The Observances in use at Barnwell Priory (1295-1296)
   author: barnwell-priory
@@ -13,6 +41,35 @@ works:
   note: The canons' own rule of daily life, written in 1295-1296. Within this entry's window
     (1049-1300).
   source_file: barnwell-priory_observances-in-use-at-barnwell-lat-eng_clark1897.txt
+- row_id: innocent-iii_opera-with-gesta-innocentii-pl214-lat_migne1853--innocent-iii-gesta-innocentii-iii-and-registers-including-books
+  work: Innocent III, Gesta Innocentii III and Registers (including books I-III and V) (PL
+    214)
+  author: innocent-iii
+  locus: the whole volume
+  role: tradition
+  confidence: provisional
+  note: The pope's own letters and the Gesta of his pontificate, inside these windows.
+  source_file: innocent-iii_opera-with-gesta-innocentii-pl214-lat_migne1853.txt
+- row_id: mansi_sacrorum-conciliorum-collectio-tomus-21-lat_welter-facsimile1903--mansi-xxi-the-council-of-troyes-and-the-latin-rule-of-the-templa
+  work: Mansi XXI, the Council of Troyes and the Latin Rule of the Templars
+  author: mansi
+  locus: the council of Troyes from about OCR line 34360; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  note: The council that gave the Templars their Rule, printed from William of Tyre and the
+    Rule text. The volume's own heading dates the council 1127; the prologue of the Rule says
+    1128 (margin note 'Anno 1128').
+  source_file: mansi_sacrorum-conciliorum-collectio-tomus-21-lat_welter-facsimile1903.txt
+- row_id: matthew-paris_chronica-majora-v4-rolls-series-57-lat_luard1877--matthew-paris-chronica-majora-iv-the-first-council-of-lyon-1245
+  work: 'Matthew Paris, Chronica majora IV: the First Council of Lyon (1245)'
+  author: matthew-paris
+  locus: the council of Lyon from about OCR line 28311, the sentence deposing Frederick II
+    at about 29280, the articles at about 34751; add 12 to OCR line numbers
+  role: context
+  confidence: provisional
+  note: A St Albans monk's narrative of the council, from outside the curia. It also prints
+    Innocent IV's sentence of deposition.
+  source_file: matthew-paris_chronica-majora-v4-rolls-series-57-lat_luard1877.txt
 - row_id: mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911--quellen-zur-geschichte-des-papsttums-und-des-romischen
   work: Quellen zur Geschichte des Papsttums und des römischen Katholizismus (Mirbt, 3rd ed.),
     documents of 1300-1517
@@ -26,6 +83,15 @@ works:
     act. The documents before 1300 (the contents list reaches Gregory X at no. 304) serve
     the Gregorian entry.
   source_file: mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt
+- row_id: thomas-becket_epistolae-with-vitae-pl190-lat_migne1893--thomas-becket-letters-and-the-early-lives-of-thomas-pl-190
+  work: Thomas Becket, letters, and the early Lives of Thomas (PL 190)
+  author: thomas-becket
+  locus: the whole volume
+  role: tradition
+  confidence: provisional
+  note: 'The archbishop''s letters and the Lives by his own circle, inside this window (national
+    churches: England).'
+  source_file: thomas-becket_epistolae-with-vitae-pl190-lat_migne1893.txt
 - row_id: will_acta-et-scripta-de-controversiis-ecclesiae-graecae-et-latinae-saec-xi-grc-lat_1861--acta-et-scripta-de-controversiis-saec-xi-will-1861-the-latin
   work: 'Acta et scripta de controversiis saec. XI (Will 1861): the Latin side'
   author: will

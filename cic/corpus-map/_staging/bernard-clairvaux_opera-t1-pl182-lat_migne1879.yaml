@@ -1,0 +1,20 @@
+source_file: bernard-clairvaux_opera-t1-pl182-lat_migne1879.txt
+assignments:
+- row_id: bernard-clairvaux_opera-t1-pl182-lat_migne1879--bernard-of-clairvaux-letters-and-treatises-pl-182
+  work: Bernard of Clairvaux, letters and treatises (PL 182)
+  author: bernard-clairvaux
+  locus: the whole volume
+  atlas_ids:
+  - cistercian-monasticism
+  role: tradition
+  confidence: provisional
+  note: The abbot's own letters and treatises, inside this window.
+- row_id: bernard-clairvaux_opera-t1-pl182-lat_migne1879--bernard-of-clairvaux-de-laude-novae-militiae-pl-182
+  work: Bernard of Clairvaux, De laude novae militiae (PL 182)
+  author: bernard-clairvaux
+  locus: from about OCR line 91571; add 12 to OCR line numbers
+  atlas_ids:
+  - military-religious-orders-templars-hospitallers
+  role: context
+  confidence: provisional
+  note: A Cistercian abbot's praise of the new knighthood, written for the Templars from outside the order.
