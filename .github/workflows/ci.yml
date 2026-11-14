@@ -306,10 +306,14 @@ jobs:
           node-version: "20"
       - name: Fetch the vendored texts the census quotes
         run: |
-          node -e 'const d=require("./cic-website/data/world-census.json");const s=new Set();for(const e of d.edges??[])for(const x of e.sources??[])if(x.file)s.add(x.file);for(const m of d.movements??[]){for(const p of m.people??[])if(p.source?.file)s.add(p.source.file);for(const g of Object.values((m.card??m.council)?.sources??{}))for(const x of g)if(x.file)s.add(x.file)}console.log([...s].join("\n"))' |
+          node -e 'const d=require("./cic-website/data/world-census.json");const s=new Set();for(const e of d.edges??[])for(const x of e.sources??[])if(x.file)s.add(x.file);for(const m of d.movements??[]){for(const p of m.people??[])if(p.source?.file)s.add(p.source.file);for(const g of Object.values((m.card??m.council)?.sources??{}))for(const x of g)if(x.file)s.add(x.file)}console.log([...s].join("\n"))' > "$RUNNER_TEMP/census-texts.txt"
+          # The clone is blob:none, so each `git show` of a missing blob would be its own round trip
+          # to GitHub (over 600 files, most of the job's time limit). Fetch all the blobs in one request first.
+          xargs -a "$RUNNER_TEMP/census-texts.txt" -d '\n' git ls-tree HEAD -- | awk '{print $3}' |
+            git -c fetch.negotiationAlgorithm=noop fetch --quiet origin --no-tags --no-write-fetch-head --recurse-submodules=no --filter=blob:none --stdin
           while IFS= read -r f; do
             [ -n "$f" ] && git show "HEAD:$f" > "$f"
-          done
+          done < "$RUNNER_TEMP/census-texts.txt"
       - name: Published version to check permanence against
         run: |
           git fetch --quiet --depth=1 --filter=blob:none origin "${{ github.base_ref || 'main' }}"
