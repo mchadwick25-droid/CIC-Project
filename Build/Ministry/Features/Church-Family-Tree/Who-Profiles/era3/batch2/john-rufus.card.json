@@ -25,11 +25,11 @@
     ],
     "remembered": [
       "The heading of the Syriac text, in Nau's French, names the author as one of Peter the Iberian's disciples, the priest \"Jean de Beit-Rufin, d'Antioche\", bishop of \"Maiouma de Gaza\".",
-      "Zachariah of Mitylene, in his Life of Severus, says he had studied law at Beirut with Theodore and left a name there for chastity and piety."
+      "Zachariah Rhetor, in his Life of Severus, says he had studied law at Beirut with Theodore and left a name there for chastity and piety."
     ]
   },
   "uncertain": [
-    "His life rests on François Nau's reading of the few chapters where he speaks of himself, and on Zachariah of Mitylene's Life of Severus. Nau works out the dates of his ordination and of the book from the book itself.",
+    "His life rests on François Nau's reading of the few chapters where he speaks of himself, and on Zachariah Rhetor's Life of Severus. Nau works out the dates of his ordination and of the book from the book itself.",
     "Nau says he succeeded Peter the Iberian as bishop of Maiuma. Zachariah says only that the altar was kept for him after Peter died, while Theodore and John the Canopite led the monastery.",
     "The Life of Peter the Iberian names no author. Richard Raabe, its German editor, says the name was already unknown in the time of Evagrius of Epiphania, and leaves open whether the author of the Plerophories is the same man.",
     "The Plerophories are partisan. Nau calls them a new kind of collection of sayings, written to fight the council of Chalcedon and its defenders, and says their sources are oral, with a written witness very rarely cited.",
@@ -53,7 +53,7 @@
       },
       {
         "title": "Life of Severus (tr. M.-A. Kugener)",
-        "author": "Zachariah of Mitylene",
+        "author": "Zachariah Rhetor",
         "date": null,
         "language": "French translation",
         "file": "cic/texts/zacharias-scholasticus_vie-de-severe-po2-syr-fra_kugener1903.txt"

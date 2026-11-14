@@ -47,9 +47,9 @@
         "formation_confidence": "Documented"
       },
       {
-        "claim": "Preserved by Dionysius of Tell-Mahré, patriarch, who incorporated it in his larger work, in a single Vatican manuscript",
-        "witness": "Wright's preface (l.292-300)",
-        "formation_confidence": "Widely Accepted"
+        "claim": "Preserved by Dionysius of Tell-Mahré, patriarch (died A.D. 845), who incorporated it in his larger work, in a single Vatican manuscript",
+        "witness": "Wright's preface (l.292-300); Wright's 1882 attribution",
+        "formation_confidence": "Contested"
       },
       {
         "claim": "Long known through Assemani's abridged Latin translation; 'generally acknowledged to be one of the most valuable authorities for the period with which it deals'; first complete edition by Martin, 1876",
@@ -57,7 +57,7 @@
         "formation_confidence": "Widely Accepted"
       },
       {
-        "claim": "The first sentence of the last chapter is a later addition, probably by Dionysius of Tell-Mahré",
+        "claim": "The first sentence of the last chapter is a later addition, probably by the compiler Wright calls Dionysius of Tell-Mahré",
         "witness": "Wright's notes (l.364-365, 4423-4424)",
         "formation_confidence": "Dominant Modern Reconstruction"
       },
@@ -65,9 +65,19 @@
         "claim": "Asks Sergius to pray for him and promises to write down what is worthy of record and send it, 'if I remain alive'",
         "witness": "Joshua, ch. CI (l.4399-4406)",
         "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The Pseudo-Dionysius, whose compilation is in Vatican ms. syr. 162, wrote in the year 1086 of the Greeks (775 of our era)",
+        "witness": "François Nau, introduction to the Didascalia of Jacob (po08 l.48219-48226); Brooks's \"the so-called Dionysius\" (john-ephesus po17 l.714); Chabot: the authentic chronicle of Dionysius of Tell-Mahré is lost but for one chapter (Michael the Syrian, tome 1, l.63096-63099)",
+        "formation_confidence": "Dominant Modern Reconstruction"
       }
     ],
-    "contested_claims": [],
+    "contested_claims": [
+      {
+        "claim": "Who compiled the chronicle that preserves Joshua's",
+        "sides": "Wright (1882): Dionysius of Tell-Mahré, patriarch, who died in 845 (l.292-297). Nau: the Pseudo-Dionysius, of the same Vatican ms. syr. 162, writing in 775 (po08 l.48219-48226); Brooks calls him \"the so-called Dionysius\" (po17 l.714); Chabot says the true chronicle of Dionysius of Tell-Mahré is lost but for one chapter (Michael, tome 1, l.63096-63099)."
+      }
+    ],
     "absent_details": [
       {
         "detail": "His life, and whether he lived on a pillar",
@@ -82,8 +92,8 @@
   "john-rufus": {
     "claims": [
       {
-        "claim": "Walking from Siloam up the valley with a notable of the city, he saw a ruined monastery; his companion said it was Juvenal's and became desert when the council of Chalcedon took place; John answered that Juvenal was the companion of Judas, as Dioscorus had said ('Juvénal a été le compagnon de Judas')",
-        "witness": "John Rufus, Plerophories ch. XVI, tr. Nau (po08 l.2068-2145)",
+        "claim": "Walking from Siloam up the valley with a notable of the city, he saw a ruined monastery; his companion said it was the monastery of Juvenal, who lived there in peace until he became bishop and became desert when the council of Chalcedon took place; John answered that Juvenal was the companion of Judas, as Dioscorus had said ('Juvénal a été le compagnon de Judas')",
+        "witness": "John Rufus, Plerophories ch. XVI, tr. Nau (po08 l.2068-2145); Juvenal's episcopate, l.2136",
         "formation_confidence": "Documented"
       },
       {
@@ -93,13 +103,13 @@
       },
       {
         "claim": "Peter the Iberian left heirs; the direction of the monastery went to Theodore with John the Canopite, and the altar was reserved for John called Rufus, who had studied law at Beirut with Theodore and left there a reputation for chastity and piety",
-        "witness": "Zachariah of Mitylene, Life of Severus, tr. Kugener (l.5543-5560)",
+        "witness": "Zachariah Rhetor, Life of Severus, tr. Kugener (l.5543-5560)",
         "formation_confidence": "Documented"
       },
       {
         "claim": "He succeeded Peter the Iberian as bishop of Maiuma; he was in Jerusalem in 485",
-        "witness": "Nau's introduction (po08 l.372-376)",
-        "formation_confidence": "Widely Accepted"
+        "witness": "Nau's introduction (po08 l.372-376), an editor's inference ('Il semble dès lors… car il lui a succédé')",
+        "formation_confidence": "Dominant Modern Reconstruction"
       },
       {
         "claim": "The text's heading names the author as one of Peter the Iberian's disciples, the priest John of Beit-Rufin, of Antioch, bishop of Maiuma of Gaza",
@@ -310,7 +320,7 @@
       },
       {
         "claim": "Zachariah's work ended in 491; the compiler followed him in books three to six only, and the name of Zachariah was wrongly attached to the compiler by later writers",
-        "witness": "Brooks, Introduction (l.310-321); Land ascribes book seven to him as well (note, l.330)",
+        "witness": "Brooks, Introduction (l.310-321); Land ascribes book seven to him as well (note, l.330); Land as the first editor of the Syriac (1870): Kugener, Vie de Sévère (l.17146-17151)",
         "formation_confidence": "Dominant Modern Reconstruction"
       },
       {
@@ -319,8 +329,8 @@
         "formation_confidence": "Documented"
       },
       {
-        "claim": "Identified with the author of a dialogue headed as by Zachariah Scholasticus, later bishop of Mitylene, who says he studied at Alexandria; a Zachariah of Mitylene was present at the synod of 536, though his name is not among the signatures to its decree",
-        "witness": "Brooks, Introduction (l.351-361 and note 4, l.385-386)",
+        "claim": "Identified with the author of a dialogue headed as by Zachariah Scholasticus, later bishop of Mitylene, who says he studied at Alexandria; Dionysius Bar Salibi's 'Zachariah the Rhetor and bishop of Melitene' is an error for Mitylene; a Zachariah of Mitylene was present at the synod of 536, though his name is not among the signatures to its decree, and he may possibly have been a nominee of Anthimus",
+        "witness": "Brooks, Introduction (l.256-264, 351-361 and note 4, l.385-386)",
         "formation_confidence": "Dominant Modern Reconstruction"
       },
       {
@@ -347,7 +357,7 @@
     "contested_claims": [
       {
         "claim": "Whether book seven of the chronicle is Zachariah's",
-        "sides": "Brooks: no; Zachariah ended in 491 and the compiler followed him in books three to six only (l.310-321). Land, as Brooks reports: book seven is Zachariah's too (l.330)."
+        "sides": "Brooks: no; Zachariah ended in 491 and the compiler followed him in books three to six only (l.310-321). Land, the chronicle's first editor (Kugener l.17146-17151), as Brooks reports: book seven is Zachariah's too (l.330)."
       }
     ],
     "absent_details": [
@@ -399,7 +409,7 @@
       },
       {
         "claim": "Baptized at the shrine of the martyr Leontius at Tripolis",
-        "witness": "Zachariah Rhetor, Life of Severus, tr. Kugener (l.5149-5150, 5225-5226); Evagrius of Epiphania III.32 (l.6986-6988). The sponsor Zachariah names, 'l'admirable Evagrios' (l.5226), is a Berytus companion, not the historian",
+        "witness": "Zachariah Rhetor, Life of Severus, tr. Kugener (l.5149-5150, 5225-5226). Evagrius III.32-33 (l.6986-7014) tells the same, from the author of the Life of Severus, which Brooks says Evagrius used (Select Letters intro, l.97); not a second witness. The sponsor Zachariah names, 'l'admirable Evagrios' (l.5226), is a Berytus companion, not the historian",
         "formation_confidence": "Documented"
       },
       {
