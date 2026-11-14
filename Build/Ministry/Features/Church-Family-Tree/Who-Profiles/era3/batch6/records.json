@@ -1029,7 +1029,7 @@
   "absent_details": [
    {
     "detail": "His family, birth, death, orders",
-    "note": "Searched every held file that names him (Levison; Isidore PL 83; Kaniecka's note in the Paulinus of Milan file; Krusch in Arndt-Krusch; Rees, Cambro-British Saints l.17718, which calls him 'a priest of Lyons'; Marius Mercator PL 48, an unsigned dissertation calling him 'Constantius presbyter'; the Patrick volume's index) under Constanti- with whitespace-tolerant patterns. None gives family, birth or death. His orders: Levison says unknown; Rees and the PL 48 note call him priest, Isidore bishop."
+    "note": "Searched every held file that names him (Levison; Isidore PL 83; Kaniecka's note in the Paulinus of Milan file; Krusch in Arndt-Krusch; Rees, Cambro-British Saints l.17718, which calls him 'a priest of Lyons'; Marius Mercator PL 48, an unsigned dissertation calling him 'Constantius presbyter'; the Patrick volume's index) under Constanti- with whitespace-tolerant patterns. None gives family, birth or death. His orders: Levison says unknown; Rees and the PL 48 dissertation call him priest, Isidore bishop."
    },
    {
     "detail": "Sidonius's letters to Constantius",
@@ -1544,8 +1544,8 @@
     "formation_confidence": "Widely Accepted"
    },
    {
-    "claim": "Agde 506: the acts, 'Conc. Agath. viginti quinque episcoporum habitum era 644 ... Anno vicesimo secundo Alarici regis sub die tertio Idus Septembris', with 'Messala v. c. consule' in other codices (Bruns's note; OCR 'tertiq', 'Septenibris'); Engelbrecht cites the same dating; Ruricius 'neque venit neque procuratorem misit, sed litteras tantum per diaconum Veri episcopi Agathen direxit' (Engelbrecht) (the era figure as printed, 644, gives 606, not 506, and Bruns gives the variants 643 and 543; the year rests on the twenty-second year of Alaric and the consul Messala, which Engelbrecht reckons as 506, l.2933-2934)",
-    "witness": "Bruns, Canones II (bruns_canones-apostolorum-et-conciliorum-pars-altera-lat_1839 l.10498-10500, 13760); Engelbrecht (faustus-riez engelbrecht1891 l.2933-2942)",
+    "claim": "Agde 506: the acts, 'Conc. Agath. viginti quinque episcoporum habitum era 644 ... Anno vicesimo secundo Alarici regis sub die tertio Idus Septembris', with 'Messala v. c. consule' in other codices (Bruns's note; OCR 'tertiq', 'Septenibris'); Engelbrecht cites the same dating; Ruricius 'neque venit neque procuratorem misit, sed litteras tantum per diaconum Veri episcopi Agathen direxit' (Engelbrecht) (the era figure of the Spanish codices, 644, gives 606, not 506, and Bruns's codex JE. reads 643; the year rests on the twenty-second year of Alaric and the consul Messala, which Engelbrecht reckons as 506, l.2933-2934, as do Bruns's own table, 'Can. Conc. Agathensis . . a.506', and the PL 67 prolegomenon, 'Messala V. C. consule, id est anno Christi 506' (OCR 'Chiisti'))",
+    "witness": "Bruns, Canones II (bruns_canones-apostolorum-et-conciliorum-pars-altera-lat_1839 l.10498-10501; table of contents l.22833); Engelbrecht (faustus-riez engelbrecht1891 l.2933-2942); prolegomenon, PL 67 (facundus-ferrandus-caesarius-dionysius-pl67-lat_migne1865 l.96489-96496)",
     "formation_confidence": "Dominant Modern Reconstruction"
    },
    {
