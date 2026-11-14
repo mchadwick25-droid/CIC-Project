@@ -1,0 +1,102 @@
+{
+  "name": "Humbert of Silva Candida",
+  "otherNames": [
+    "Cardinal Humbert of Silva Candida",
+    "Humbertus"
+  ],
+  "knownFor": "Cardinal bishop and first-named envoy of Pope Leo IX to Constantinople in 1054. With Peter of Amalfi and Frederick the chancellor, he laid the sentence excommunicating Patriarch Michael Keroularios on the altar of Hagia Sophia.",
+  "dates": "In Constantinople from 24 June 1054, by the envoys' own account. The sentence was laid on 16 July and the synod answered on 20 July, by Cornelius Will's reckoning. Signed Pope Nicholas II's decree on papal elections in 1059. No held source gives his birth or death",
+  "place": "Bishop of Silva Candida. Envoy at Constantinople, where the envoys stayed at the palace called Pigi",
+  "tradition": "The Latin Papal Church (Gregorian Reform to Innocent III); The Byzantine Imperial Church (Macedonian Era)",
+  "role": "Cardinal bishop; papal envoy",
+  "briefLength": "about 2 minutes 30 seconds",
+  "keyWorks": [
+    {
+      "title": "Brief account of what the envoys of the Roman see did in the royal city",
+      "about": "a record of the 1054 embassy, told in the third person and headed with Humbert's name. Cornelius Will believes Humbert wrote it. Sigebert of Gembloux and Ekkehard say Humbert wrote these things down"
+    },
+    {
+      "title": "Sentence of excommunication against Michael Keroularios",
+      "about": "laid on the altar of Hagia Sophia in the names of Humbert, Peter of Amalfi and Frederick the chancellor. It likens the patriarch's party to the heretics of old and curses him, Leo of Ohrid and their followers"
+    },
+    {
+      "title": "Dialogue between a Roman and a man of Constantinople",
+      "about": "an answer to the Greek charges against the Latins. Wibert, Pope Leo's biographer, says Humbert wrote it in Latin at Constantinople in 1054, and the emperor had it put into Greek"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "The edict of Michael's synod says the envoys' paper was not burned. It was kept in the archive of the patriarch's record keeper, to the lasting shame of those who wrote it.",
+      "Michael Keroularios wrote twice to Peter, patriarch of Antioch, after the envoys had gone. Will says he repeated the old charges against the Roman church and added new ones.",
+      "In 1059 he signed Pope Nicholas II's decree on how popes were to be chosen, as bishop of Silva Candida."
+    ],
+    "remembered": [
+      "Sigebert of Gembloux and Ekkehard, in their chronicles, say Humbert wrote down these events and refuted the writings of Nicetas and of Leo of Ohrid.",
+      "Cornelius Will calls the envoys' account the source of most of the eleventh century's own tellings of the split. He holds that its truth cannot be shaken.",
+      "Will wrote that through this curse the separation of the churches was made complete, and that it has lasted.",
+      "Carl Mirbt's collection of papal sources prints the account and the sentence under the heading \"Bruch zwischen Rom und Byzanz\", the break between Rome and Byzantium."
+    ]
+  },
+  "uncertain": [
+    "Most of the story comes from the envoys' own account. The Greek side is known from the edict of Michael's synod. The two disagree, and Cornelius Will, who edited both, takes the Roman side.",
+    "Who forged what. The edict says the pope never sent the envoys, that they came on the advice of Argyrus, and that their letters bore false seals. The envoys' account says Michael falsified the Greek version of their sentence. Will calls the edict's charge a lie.",
+    "Who wrote the account. It speaks of the envoys in the third person. Will gives it to Humbert as head of the embassy, and Sigebert and Ekkehard say Humbert wrote these things down.",
+    "Who wrote the reply to Nicetas. Wibert, Pope Leo's biographer, gives it to Frederick the chancellor, and Will says others followed him. Will gives it to Humbert, since it points back to his earlier answer to Michael and Leo of Ohrid.",
+    "The day of the sentence. The account gives the seventeenth day before the Kalends of August, which Will reads as 16 July. Carl Mirbt's heading gives 13 July.",
+    "The year. Some copies of the account give the eleventh year of Emperor Constantine Monomachos, and Will reads the twelfth. Will says many put the embassy in 1053, but Pope Leo's letter that the envoys carried is dated January 1054.",
+    "The emperor's letter in the edict, blaming the interpreters and the men of Argyrus. Will notes that the envoys' account does not mention it. He thinks the emperor wrote it under pressure from the riot the patriarch had stirred up.",
+    "His life outside the embassy. No held source gives his birth, his death or his other writings, such as his books against the simoniacs."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Brief account of what the envoys did in the royal city; the sentence of excommunication; the Dialogue; the reply to Nicetas, in Acta et scripta quae de controversiis ecclesiae Graecae et Latinae saeculo undecimo composita extant",
+        "author": "Humbert of Silva Candida (the account and the reply attributed)",
+        "date": "1861",
+        "language": "Latin",
+        "file": "cic/texts/will_acta-et-scripta-de-controversiis-ecclesiae-graecae-et-latinae-saec-xi-grc-lat_1861.txt"
+      },
+      {
+        "title": "Quellen zur Geschichte des Papsttums und des römischen Katholizismus, nos. 227 to 229 (the account, the sentence, and the election decree of 1059)",
+        "author": "Carl Mirbt (ed.)",
+        "date": "1911",
+        "language": "Latin, with German headings",
+        "file": "cic/texts/mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Acta et scripta, Cornelius Will's prolegomena and notes",
+        "author": "Cornelius Will (ed.)",
+        "date": "1861",
+        "language": "Latin",
+        "file": "cic/texts/will_acta-et-scripta-de-controversiis-ecclesiae-graecae-et-latinae-saec-xi-grc-lat_1861.txt"
+      },
+      {
+        "title": "Edict of the synod of Michael Keroularios, July 1054, with the emperor's letter, in Acta et scripta",
+        "author": "Synod of Constantinople under Michael Keroularios",
+        "date": "1861",
+        "language": "Greek, with Latin translation",
+        "file": "cic/texts/will_acta-et-scripta-de-controversiis-ecclesiae-graecae-et-latinae-saec-xi-grc-lat_1861.txt"
+      },
+      {
+        "title": "Life of Leo IX, as quoted by Will",
+        "author": "Wibert, archdeacon of Toul",
+        "language": "Latin",
+        "file": "cic/texts/will_acta-et-scripta-de-controversiis-ecclesiae-graecae-et-latinae-saec-xi-grc-lat_1861.txt"
+      },
+      {
+        "title": "Chronicle of Monte Cassino, as quoted by Will",
+        "author": "Leo of Ostia",
+        "language": "Latin",
+        "file": "cic/texts/will_acta-et-scripta-de-controversiis-ecclesiae-graecae-et-latinae-saec-xi-grc-lat_1861.txt"
+      },
+      {
+        "title": "Chronicles, as quoted by Will",
+        "author": "Sigebert of Gembloux and Ekkehard",
+        "language": "Latin",
+        "file": "cic/texts/will_acta-et-scripta-de-controversiis-ecclesiae-graecae-et-latinae-saec-xi-grc-lat_1861.txt"
+      }
+    ]
+  }
+}

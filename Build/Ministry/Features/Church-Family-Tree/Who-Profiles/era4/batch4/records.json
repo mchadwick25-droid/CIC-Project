@@ -1,0 +1,822 @@
+{
+ "humbert-of-silva-candida": {
+  "claims": [
+   {
+    "claim": "Scene, the Commemoratio: 'praefati nuntii XVII Kal Augusti adierunt ecclesiam Sanctae Sophiae et super obstinatione illius conquesti clero ex more ad missas praeparato jam hora tertia diei sabbati chartam excommunicationis super principale altare posuerunt sub oculis praesentis cleri et populi. Inde mox egressi etiam pulverem pedum suorum excussere in testimonium illis juxta dictum evangelii proclamantes: Videat Deus et judicet'. Will reads XVII Kal. Aug. as 16 July (his note 80 to the Edict)",
+    "witness": "WILL (will_acta-et-scripta-de-controversiis-ecclesiae-graecae-et-latinae-saec-xi-grc-lat_1861.txt) l.14825-14827, 14872-14880; Will's note l.16294-16295 [two-column OCR interleaved; OCR forms 'Sic?ab', 'juxta*']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Envoys named: 'advenientibus a domino papa Leone nono apocrisiariis sanctae Romanae et Apostolicae sedis, Humberto scilicet cardinali episcopo Silvae Candidae et Petro Amalphitanorum archiepiscopo, Friderico quoque diacono et cancellario', on 'ipso die nativitatis beati Ioannis Baptistae' (24 June), 'Anno duodecimo imperii Constantini Monomachi indictione VII'",
+    "witness": "WILL (will_acta-et-scripta-de-controversiis-ecclesiae-graecae-et-latinae-saec-xi-grc-lat_1861.txt) l.14779-14783, 14803-14804; MIRBT (mirbt_quellen-zur-geschichte-des-papsttums-3e-aufl-deu-lat_1911.txt) l.9876-9879 [OCR 'scilicet' split as 'sci- licet' across columns; Mirbt OCR 'eardinali']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Will on authorship of the Commemoratio: 'Quum igitur Humbertus, ut ex multis indiciis apparet, legationis princeps fuerit, dubitari vix potest, quin hoc quoque scriptum ... ab eodem profectum sit'; Sigebert and Ekkehard: 'Humbertus episcopus Silvae candidae haec descripsit, et scripta Nicetae monachi et Leonis Achridani Bulgarum archiepiscopi confutavit'",
+    "witness": "WILL (will_acta-et-scripta-de-controversiis-ecclesiae-graecae-et-latinae-saec-xi-grc-lat_1861.txt) l.14792-14796 (note 1); l.4287-4289",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Leo of Ohrid's letter of 1053, at Keroularios's urging: 'Quo tempore (1053) instigante Michaéle Caerulario ... Leo, archiepiscopus Achridanus, incendium discordiae inopinato suscitavit epistola ad Ioannem, episcopum Tranensem'; the date is Will's",
+    "witness": "WILL (will_acta-et-scripta-de-controversiis-ecclesiae-graecae-et-latinae-saec-xi-grc-lat_1861.txt) l.4052-4054",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Humbert wrote the Dialogue at Constantinople: Will, 'Humbertus, princeps legatorum, per scripta cum eo agere cogeretur. Is tum Dialogum inter Romanum et Graecum ... composuit'; Wibert of Toul's Life of Leo IX, quoted by Will: 'Praedictus etiam frater Humbertus edidit contra eorum putida scripta responsionem instar dialogi, ab ipso Latine scriptam apocrisariatus sui tempore Constantinopoli, et jussu imperatoris ... Constantini Monomachi Graece editam, sub nominibus Constantinopolitani et Romani, anno Domini millesimo quinquagesimo quarto'",
+    "witness": "WILL (will_acta-et-scripta-de-controversiis-ecclesiae-graecae-et-latinae-saec-xi-grc-lat_1861.txt) l.4081-4084; l.8345-8348 [OCR 'JDialogum', 'Jlibertum', 'írater', 'responsiouem']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Nicetas: 'Niceta monachus, qui et Pectoratus, ante praesentiam praefati imperatoris ... anathematizavit quoddam scriptum sub suo nomine ... praetitulatum: De azymo, de sabbato et de nuptiis sacerdotum'; the emperor 'jussit ... praefatum incendi scriptum'; next day 'ultro adiit legatos ... Sic ab eis in communionem receptus et effectus est eorum familiaris amicus'. 'the bread of the Mass' renders 'De azymo'",
+    "witness": "WILL (will_acta-et-scripta-de-controversiis-ecclesiae-graecae-et-latinae-saec-xi-grc-lat_1861.txt) l.14805-14827 [two columns interleaved]",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The reply to Nicetas: 'stultior asino frontem leonis et murum adamantinum frangere tentasti ... potius dicendus Epicurus, quam monachus'. Authorship contested: see contested_claims",
+    "witness": "WILL (will_acta-et-scripta-de-controversiis-ecclesiae-graecae-et-latinae-saec-xi-grc-lat_1861.txt) l.13191-13197",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "The patriarch avoided them: 'Michaële praesentiam eorum et colloquium devitante' (Commemoratio); the sentence: 'praesentiam suam et colloquium denegavit'",
+    "witness": "WILL (will_acta-et-scripta-de-controversiis-ecclesiae-graecae-et-latinae-saec-xi-grc-lat_1861.txt) l.14823-14824; l.15031",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The sentence's charges: 'sicut Simoniaci donum Dei vendunt ... sicut Pneumatomachi vel Theumachi absciderunt a symbolo Spiritus sancti processionem a Filio'; curse: 'Michaël abusivus patriarcha ... atque cum eo Leo Achridanus episcopus dictus ... et omnes sequaces eorum ... sint anathema Maranatha'. 'Spirit's going forth from the Son' renders 'processionem a Filio'",
+    "witness": "WILL (will_acta-et-scripta-de-controversiis-ecclesiae-graecae-et-latinae-saec-xi-grc-lat_1861.txt) l.14969-14985, 15029-15046",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The Edict of the synod: 'homines e tenebris erumpentes, nam ex Hesperia originem ducunt' and 'veluti silvester porcus irruerunt' (Greek 'μονιὸς ἄγριος'); the envoys 'ipsi ex se advenerant nullo modo a papa missi' on 'consilis Argyri'; 'litterarum sigilla adulterata esse deprehensa sunt'. Argyrus: 'ad Argyroum catapanum graecum in Italiam' (Will's prolegomena). 'Greek governor' renders 'catapanum graecum'",
+    "witness": "WILL (will_acta-et-scripta-de-controversiis-ecclesiae-graecae-et-latinae-saec-xi-grc-lat_1861.txt) l.15269-15283; 15640-15657; prolegomena l.4151 [OCR 'consilis' for 'consiliis', 'Árgyroum']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The synod's anathema: 'Judicatum vero est ... vicesimo vero die praesentis mensis Julii ... anathemate feriendum esse rursum idem impium scriptum, et qui illud ediderunt et scripserunt et consensum aliquem, aut consilium, ut illud fieret, praestiterunt'; Will, note 80: 'die XX. mensis Julii Latini a Michaële anathemate subacti sunt'. 'its makers' compresses the list",
+    "witness": "WILL (will_acta-et-scripta-de-controversiis-ecclesiae-graecae-et-latinae-saec-xi-grc-lat_1861.txt) l.16279-16287; Will note l.16290-16296",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "The envoys' account: Michael wished to bring them to a council 'ut ostensa charta illorum, quam omnino corruperat transferendo, obruerentur ibidem a populo'",
+    "witness": "WILL (will_acta-et-scripta-de-controversiis-ecclesiae-graecae-et-latinae-saec-xi-grc-lat_1861.txt) l.14905-14909 [OCR 'eorruperat']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Will on the Edict: 'Hoc decretum omnia genera doli, astutiae, calliditatis, superbiae, mendacii manifestissime prodit ... mendacia mendaciis cumulantur'; on the charge that the pope did not send them: 'O impudentiam et dementiam!'",
+    "witness": "WILL (will_acta-et-scripta-de-controversiis-ecclesiae-graecae-et-latinae-saec-xi-grc-lat_1861.txt) l.15100-15102; l.15629",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Leo of Ostia, Chronicle of Monte Cassino, quoted by Will: 'Sed quum jam intra hos dies defuncto papa redire disponerent'; Will dates Leo IX's death 'XIII Cal. Maj. 1054'",
+    "witness": "WILL (will_acta-et-scripta-de-controversiis-ecclesiae-graecae-et-latinae-saec-xi-grc-lat_1861.txt) l.4138-4143; l.4111-4112",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "1059: 'Humbertus sanctae ecclesiae Silvae Candidae episcopus subscripsi', under Nicholas II's election decree (Mirbt no. 229, 'Papstwahlgesetz (1059)')",
+    "witness": "MIRBT l.9998, 10137-10140",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Close, Will on the sentence: 'inde separatio et perfecta et consummata est atque permanet'",
+    "witness": "WILL (will_acta-et-scripta-de-controversiis-ecclesiae-graecae-et-latinae-saec-xi-grc-lat_1861.txt) l.15004-15005",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Card: Keroularios's two letters to Peter of Antioch: 'binas literas ad Petrum Antiochenum dedit, in quibus quum crimina priora Romanae ecclesiae facta repetit tum alia nova addit'",
+    "witness": "WILL (will_acta-et-scripta-de-controversiis-ecclesiae-graecae-et-latinae-saec-xi-grc-lat_1861.txt) l.4154-4157",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Card: the paper kept: 'Prototypum vero ... combustum non est, sed in sacro chartophylacis secreto repositum, ad perpetuum eorum dedecus'",
+    "witness": "WILL (will_acta-et-scripta-de-controversiis-ecclesiae-graecae-et-latinae-saec-xi-grc-lat_1861.txt) l.4132-4136 (Will quoting the Edict)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Card: Will on the Commemoratio as source and its trust: 'fons plurimarum narrationum de separatione ambarum ecclesiarum ex undecimo saeculo ipso factus ... ut ejus fides ... infringi et debilitari non possit'",
+    "witness": "WILL (will_acta-et-scripta-de-controversiis-ecclesiae-graecae-et-latinae-saec-xi-grc-lat_1861.txt) l.14786-14789",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Card: the emperor's letter in the Edict; Will: 'Huius epistolae mentionem non facit Humbertus in Commem., quia ei ignota fuisse videtur'; 'Imperatorem vero non sponte sua, sed vulgi seditione, quam patriarcha excitaverat, coactum epistolam hanc ... dedisse verisimillimum est'",
+    "witness": "WILL (will_acta-et-scripta-de-controversiis-ecclesiae-graecae-et-latinae-saec-xi-grc-lat_1861.txt) l.16172-16175",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Card: year: 'C. undecimo' variant; Will: 'Multi enim legationem ad a. 1053 referunt, sed quum anno demum 1054 legati missi sint'; Leo's letter 'data est mense Januario (a. 1054), indictione VII'",
+    "witness": "WILL (will_acta-et-scripta-de-controversiis-ecclesiae-graecae-et-latinae-saec-xi-grc-lat_1861.txt) l.14783; l.14832-14834; l.4116-4118",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Card: Mirbt's heading '227. 3. Bruch zwischen Rom und Byzanz (13. Juli 1054)'",
+    "witness": "MIRBT l.9865",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Card: the palace Pigi: 'intra palatium Pigi'; 'diverterunt ad palatium Pigi'",
+    "witness": "WILL (will_acta-et-scripta-de-controversiis-ecclesiae-graecae-et-latinae-saec-xi-grc-lat_1861.txt) l.14805; l.14893",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Card: Wibert gives the reply to Nicetas to Frederick: 'Dominus quoque Fredericus tunc cancellarius ... invective respondit quibusdam objectionibus, quas ediderat Niceta'; Will: Höfler, Giesebrecht 'aliique recentiores secuti'; Will's case for Humbert from 'in superiori nostra narratione, ubi commentis complicum tuorum, Michaelis ... et Leonis Acridani voluimus obviare'",
+    "witness": "WILL (will_acta-et-scripta-de-controversiis-ecclesiae-graecae-et-latinae-saec-xi-grc-lat_1861.txt) l.13143-13147, 13153-13158 [OCR 'Hóffer']",
+    "formation_confidence": "Documented"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "Who wrote the reply to Nicetas",
+    "sides": [
+     "Wibert of Toul, Life of Leo IX II.9 (quoted by Will l.13143-13145), followed by Höfler and Giesebrecht (l.13146-13147): Frederick the chancellor",
+     "Cornelius Will (l.13148-13158): Humbert, from the reply's reference back to the Dialogue; Will's series lists it as 'Humberti responsio' (l.1537)"
+    ]
+   },
+   {
+    "claim": "Who forged what in July 1054",
+    "sides": [
+     "The Edict of Keroularios's synod (l.15640-15657): the envoys came on Argyrus's advice, not sent by the pope, with forged seals",
+     "The envoys' Commemoratio (l.14905-14909, 14924-14928): Michael corrupted the translation of their sentence; the emperor found he had falsified it",
+     "Cornelius Will (l.15100-15102, 15629): sides with the envoys"
+    ]
+   },
+   {
+    "claim": "The day of the sentence",
+    "sides": [
+     "The Commemoratio's 'XVII Kal Augusti', read by Will as 16 July (l.14825; note l.15736-15740)",
+     "Mirbt's heading, '13. Juli 1054' (l.9865)"
+    ]
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "His birth, death, origins and career outside the 1054 embassy and the 1059 decree",
+    "note": "No held line gives them. The scan's c.1000-1061 rests on no held text. His Adversus simoniacos is mentioned only in a Will note (l.9657), not held"
+   },
+   {
+    "detail": "Humbert's own words outside the 1054 texts",
+    "note": "The held own-words texts are the Commemoratio and the reply (both attributed), the sentence and the Dialogue, all in Will"
+   }
+  ]
+ },
+ "hincmar-of-reims": {
+  "claims": [
+   {
+    "claim": "Scene, Annals 882: the Northmen 'usque circa Laudunum castellum venerunt ... disponentes Remi venire'; 'Quod pro certo audiens Hincmarus episcopus ... vix noctu cum corpore sancti Remigii et ornamentis Remensis ecclesiae, sicut infirmitas corporis eius poscebat, sella gestatoria deportatus, et canonicis ac monachis atque sanctimonialibus hac illacque dispersis, ultra Matronam in quadam villa quae Sparnacus nominatur vix fuga lapsus pervenit'; 'civitatem, quam nec murus nec humana manus defendit, Dei potentia et sanctorum merita, ne illam ingrederentur, defenderunt'",
+    "witness": "BERT (prudentius-troyes_annales-bertiniani_waitz1883.txt) l.9067-9083",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The annals end in 882: the 882 entry is the last before Waitz's Emendanda",
+    "witness": "BERT (prudentius-troyes_annales-bertiniani_waitz1883.txt) l.9094-9100",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Authorship from 861: heading 'AUCTORE HINCMARO ARCHIEPISCOPO REMENSI'; Waitz: 'annalium inde ab a. 861. auctorem ipsum Hincmarum fuisse, extra dubium venit'; 'quaedam ab eo allata vix cuiquam praeter Hincmarum nota esse potuerunt'; Waitz: 'archiepiscopi illius, non solum in iure canonico, sed et in rebus ipsis suo tempore gestis versatissimi'",
+    "witness": "BERT (prudentius-troyes_annales-bertiniani_waitz1883.txt) l.3530; l.203-214",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "849: Gottschalk condemned at Quierzy 'ad Hincmarum tunc Remensem archiepiscopum fuit remissus, ut in custodia detineretur' (Nicolás Antonio)",
+    "witness": "PL115 (eulogius-cordoba_opera-with-alvarus-vita-eulogii-pl115-lat_migne1852.txt) l.79427-79432",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Prudentius quarrel: Hincmar's 861 notice ('heresis defensor acerrimus'); his letter to Egilo on the 859 entry",
+    "witness": "BERT (prudentius-troyes_annales-bertiniani_waitz1883.txt) l.3530-3539; l.131-146",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The nephew: 'Hincmarus Laudunensis nomine tantum episcopus, homo insolentiae singularis ... contra regem rebellans ... metropolitano suo se inde regulariter commonenti oboedire contempnens'; Douzy, August 871: 'de causis certissimis regulariter accusatus atque convictus, depositionis iudicium regulare suscepit'. Hostile witness (the uncle's annals)",
+    "witness": "BERT (prudentius-troyes_annales-bertiniani_waitz1883.txt) l.6939-6947, 6971-6977",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Nephew: Krusch, 'Hincmarus Laudunensis, nepos ipsius'; Mansi 16: 'pro nepote adversus vim externam pugnat avunculus' (Ludovicus Cellotius's preface to the opuscula of 868, 'Porrecta Carolo regi apud Pistas'); 'cum avunculo disceptat nepos'",
+    "witness": "SRM3 (passiones-vitaeque-sanctorum-merovingici-mgh-srm-3-lat_krusch1896.txt) l.19239; MANSI16 (mansi_sacrorum-conciliorum-collectio-tomus-16-lat_welter-facsimile1902.txt) l.75399-75418, 75454 [OCR long s: 'fe', 'pugnat avunculus']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Mansi's note on Douzy: 'Quo autem pacto ad synodum hanc perductus ... ab episcopali remotus sit officio, tum deinde in exilium missus, ferro vinctus, ac denique oculis caecatus, fuse narrat Hincmarus ipse in libello proclamationis quem Joanni papae postea oblatum'",
+    "witness": "MANSI16 l.53114-53133 [OCR 'oculis cacatus', 'Joanni pape']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Troyes 878: Pope John said 'Hincmarus caecus, si vellet, missam cantaret'; 'fautores Hincmari ... sine praeceptione papae, Hincmarum, vestimentis sacerdotalibus indutum, in praesentiam ipsius papae adduxerunt; indeque sublatum cantantes in ecclesiam illum duxerunt'",
+    "witness": "BERT (prudentius-troyes_annales-bertiniani_waitz1883.txt) l.8495-8512",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Chapters for priests: 'HINCMARI ARCHIEPISCOPI RHEMENSIS ... Ad presbyteros parochiae suae'; his letters 'HINCMARI RHEMENSIS EPISTOLAE ALIQUOT'",
+    "witness": "MANSI15 (mansi_sacrorum-conciliorum-collectio-tomus-15-lat_welter-facsimile1902.txt) l.50885-50900; l.81824 [OCR 'parochia fuz', 'EPISTOL ALIQUOT']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Krusch on Hincmar: 'Homo vanus fallaxque idem delicatissimus erat, fabulasque quas sibi excogitavit fallaciis deliciisque condivit. Sermone prolixo usus, periodos formavit, quae spiritum intercludunt neque sine angore legi possunt'",
+    "witness": "SRM3 l.19603-19605 [OCR 'vanas']",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Life of Remigius: 'VITA REMIGII EPISCOPI REMENSIS AUCTORE HINCMARO'",
+    "witness": "SRM3 l.19219, 19281",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Card: Douzy acts sent 'per Actardum venerabilem episcopum ... ad apostolicam sedem'; the synod at the king's petition",
+    "witness": "BERT (prudentius-troyes_annales-bertiniani_waitz1883.txt) l.6972-6977",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Card: Lebeuf on the 849 entry",
+    "witness": "BERT (prudentius-troyes_annales-bertiniani_waitz1883.txt) l.2495-2505",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "The conduct of Hincmar of Laon",
+    "sides": [
+     "Hincmar of Reims's annals: insolent, a rebel against the king, deposed by rule at Douzy (BERT l.6939-6977)",
+     "The nephew's own complaint to Pope John, as Mansi's note reports it: harshly treated, exiled, chained and blinded (MANSI16 l.53126-53133); his supporters at Troyes (BERT l.8504-8512)"
+    ]
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "His birth, family, election as archbishop and death",
+    "note": "No held line gives them. The annals stop in 882. Flodoard's History of the Church of Reims is not held"
+   },
+   {
+    "detail": "His letter to Pope Hadrian II",
+    "note": "Held in Mansi 16 (l.66960 on) but not drawn on here; its two-column OCR was not read through"
+   }
+  ]
+ },
+ "prudentius-of-troyes": {
+  "claims": [
+   {
+    "claim": "Scene, De praedestinatione contra Joannem Scotum, preface to Wenilo: 'misisti mihi quamdam schedulam decem et novem capitula continentem ex libro cujusdam Scoti selecta'; 'rogans et monens ut quaecunque in eis a vero exorbitantia comperissem ... responsa'; 'reperi in eis Pelagianae venena perfidiae, et aliquoties Origenis amentiam'; 'Intremui, fateor, et expavi tot olim errores cum suis auctoribus jam sopitos nostris denuo temporibus pullulare'. Told in modern words",
+    "witness": "PL115 (eulogius-cordoba_opera-with-alvarus-vita-eulogii-pl115-lat_migne1852.txt) l.82822, 82839, 82855-82891 [two columns interleaved; OCR 'GuenLont', 'lutremni', 'expavyi', 'denno Llempori- bus']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Hincmar, Annals 861: 'Galindo cognomento Prudentius Trecassinae civitatis episcopus, natione Hispanus; adprime litteris eruditus, qui ante aliquot annos Gotescalco praedestinatiano restiterat, post, felle commotus, contra quosdam episcopos secum heretico resistentes ipsius heresis defensor acerrimus ... moritur'. Hostile witness",
+    "witness": "BERT (prudentius-troyes_annales-bertiniani_waitz1883.txt) l.3530-3539",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The poem: Antonio, 'Imo et ipse Prudentius in carmine quodam ad codicem Evangeliorum praevio Hispania genitum se, ac Celtas deductum, ibique alitum ait'",
+    "witness": "PL115 (eulogius-cordoba_opera-with-alvarus-vita-eulogii-pl115-lat_migne1852.txt) l.79304-79306 [OCR 'Prudentins', 'alium ail']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Authorship of the annals: Hincmar to Egilo, 'domnus Prudentius in annali gestorum nostrorum regum, quae composuit ... Ipsum autem annale quod dico, rex habet'; Waitz: Prudentius died 861 and could not carry the work beyond it; from 861 the author is Hincmar, 'extra dubium'; the first author ended in 835",
+    "witness": "BERT (prudentius-troyes_annales-bertiniani_waitz1883.txt) l.120-150, 205-207; l.98-100",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Lebeuf's signs, via Waitz: 'Prudentium ex Hispania oriundum, patrio more ... non epiphaniae sed apparitionis Domini festum dicere'; Roman city names 'Agedincum Senonum ... Tullum Leucorum'; eclipses, comets, aurora, floods, wolves; 'omnia, bona malave, animo pio et benigno divinae omnipotentiae libenter adscribere'",
+    "witness": "BERT (prudentius-troyes_annales-bertiniani_waitz1883.txt) l.152-194",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "849: Gottschalk 'publice flagellatus librosque suarum adsertionum igni cremare compulsus est'; Waitz's note: 'Doctissimus abbas Lebeuf ... hunc de Gothescalco locum ab Hincmaro interpolatum suspicatur'",
+    "witness": "BERT (prudentius-troyes_annales-bertiniani_waitz1883.txt) l.2457-2458; l.2495-2505",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Sides: Antonio lists 'Hinc Rabanus Moguntinus, Hincmarus Remensis, Pardulus ... Joannes Scotus ... stetere. Hinc Prudentius noster ... Lupus ... Ratramnus ... Amolo ... Remigius ... Florus'",
+    "witness": "PL115 (eulogius-cordoba_opera-with-alvarus-vita-eulogii-pl115-lat_migne1852.txt) l.79485-79500",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "859: 'Nicolaus pontifex Romanus de gratia Dei et libero arbitrio, de veritate geminae praedestinationis et de sanguine Christi ... fideliter confirmat et catholice decernit'; Hincmar: 'quod per alium non audivimus, nec alibi legimus'",
+    "witness": "BERT (prudentius-troyes_annales-bertiniani_waitz1883.txt) l.3415-3418; l.136-140 [OCR 'Komanus', 'praedistinationis']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Antonio's answer: 'calumniose et inique dicta contra Prudentium'; 'Nec verum est Prudentium Gotescalcho obstitisse unquam, diversave aut Fidei contraria scripsisse, quod aiunt calumniosi Annales'",
+    "witness": "PL115 (eulogius-cordoba_opera-with-alvarus-vita-eulogii-pl115-lat_migne1852.txt) l.79391, 79628-79632",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Close: 'Trecensemque ipsam ejus quondam ecclesiam, quae in catalogis suorum praesulum sanctum vocat'",
+    "witness": "PL115 (eulogius-cordoba_opera-with-alvarus-vita-eulogii-pl115-lat_migne1852.txt) l.79612-79616",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Card: councils: 'Parisiensi anno 846; Turonensi IV (alias Parisiensi ...) anno 849; Suessionensi II, 853'",
+    "witness": "PL115 (eulogius-cordoba_opera-with-alvarus-vita-eulogii-pl115-lat_migne1852.txt) l.79325-79330",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Card: Letter to Hincmar and Pardulus 'scriptum anno 849'; Tractoria: Aeneas 'debere priusquam ordinaretur profiteri, et subscribere quatuor propositionibus'",
+    "witness": "PL115 (eulogius-cordoba_opera-with-alvarus-vita-eulogii-pl115-lat_migne1852.txt) l.79640-79645, 79666-79675",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Card: Hincmar's plea to Egilo: 'necesse est, ut taliter de hoc domno apostolico suggeratis, ne scandalum inde in ecclesia veniat'",
+    "witness": "BERT (prudentius-troyes_annales-bertiniani_waitz1883.txt) l.140-142",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Card: manuscript note: 'compositor ejus Prudentius de quibusdam ecclesiasticis dogmatibus non sensit catholice'; Camusat answers, 'Nic. Camusat. Tricassinus, in Promptuario antiquitatum Tricassinae dioecesis'",
+    "witness": "PL115 (eulogius-cordoba_opera-with-alvarus-vita-eulogii-pl115-lat_migne1852.txt) l.82847-82866",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Card: Galindo: Antonio links the name to 'Galindus Aragoniae comes' and asks 'Quid vero impedit ex eadem progenie cum Galindo nostro Prudentium fuisse?'",
+    "witness": "PL115 (eulogius-cordoba_opera-with-alvarus-vita-eulogii-pl115-lat_migne1852.txt) l.79275-79290",
+    "formation_confidence": "Inferential-Thin"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "Whether Prudentius first opposed Gottschalk and then became a defender of heresy",
+    "sides": [
+     "Hincmar, Annals 861 (BERT l.3534-3536): yes; hostile witness",
+     "Nicolás Antonio (PL115 l.79391, 79628-79632): a slander; he never opposed Gottschalk"
+    ]
+   },
+   {
+    "claim": "The 849 Gottschalk entry",
+    "sides": [
+     "As printed (BERT l.2457-2458)",
+     "Lebeuf, via Waitz: reworked by Hincmar (l.2495-2505)"
+    ]
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "His birth year, his election as bishop and his family",
+    "note": "No held line gives them"
+   }
+  ]
+ },
+ "jonas-of-bobbio": {
+  "claims": [
+   {
+    "claim": "Scene, Jonas's preface (Surius, printed by Barralis): 'quamquam me et per triennium Oceani per ora vehit ... Scaldeus molles sulcando vias, madere facit saepe et lenta palus Elnonis plantas, ob venerabilis Amandi Pontificis ferendum suffragium: qui his constitutus in locis veteres Sicambrorum errores Evangelico mucrone coercet'. Told in modern words",
+    "witness": "BARRALIS (barralis_chronologia-sanctorum-insulae-lerinensis-lat_1613.txt) l.36442-36444 [poor OCR: 'Oceani perora', 'Scalteus', 'Elnomis piant as', 'amandi Pottfiat']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Krusch: 'Cum autem constet, Ionam Amando episcopo ad fidem christianam praedicandam adiunctum non solum Scaldim fluvium, sed etiam Scarbeam rivum navigasse eo tempore, quo in Columbani Vita describenda occupatus erat, i. e. ante a. 642'",
+    "witness": "SRM3 (passiones-vitaeque-sanctorum-merovingici-mgh-srm-3-lat_krusch1896.txt) l.31897-31899",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Munro: 'Jonas ... became a monk at Bobbio, in northern Italy, three years after Columban's death ... obtained material, as he himself said, from the stories told by the saint's companions'",
+    "witness": "MUNRO (jonas-bobbio_life-of-st-columban_munro1895.txt) l.76-78",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Preface: 'Memini me ante hoc ferme triennium fratrum ... flagitante, vel Beati Bertulfi Abbatis imperio jubente ... fuisse pollicitum, ut almi patris Columbani meo studerem stylo texere gesta'; witnesses alive; 'per venerabiles viros Attalam et Eustasium didicimus'; addressed to Waldebert and Bobolenus",
+    "witness": "BARRALIS (barralis_chronologia-sanctorum-insulae-lerinensis-lat_1613.txt) l.36424-36436 [OCR 'Benulphi', 'Eutiachium', 'Faaldebtrto Boleno']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Munro: 'As is usual in such biographies, the miracles are numerous'; 'this biography of Columban is of great value', since 'almost all the accounts of the missionaries from Ireland have been lost'",
+    "witness": "MUNRO (jonas-bobbio_life-of-st-columban_munro1895.txt) l.73-74, 82-83",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Krusch dates the Life of Columbanus: 'quem Ionas c. a. 640 Vitae Columbani praemiserat'; 'ante a. 642'",
+    "witness": "SRM3 (passiones-vitaeque-sanctorum-merovingici-mgh-srm-3-lat_krusch1896.txt) l.7772; l.31899",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "'Theudegisil himself told us of this', in Munro's English",
+    "witness": "MUNRO (jonas-bobbio_life-of-st-columban_munro1895.txt) l.708-709 [line-break hyphen 'Theudegi- sil']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Réomé, 659: 'anno tercio regni domni Clotharii regis ... ex iusso ipsius principes vel genetrices suae praecelse domne Baltilde regine cum ad urbem Cabalonnensem ... Ionas abbas per Riomao sancti Iohannis monasterio preteriens, paucis diebus inibi pro labore itineris quievit, cumque victus precibus fratrum'; Krusch's margin: 659",
+    "witness": "SRM3 (passiones-vitaeque-sanctorum-merovingici-mgh-srm-3-lat_krusch1896.txt) l.39927-39935 [OCR 'orbem e Caba- lonnensem f']",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Krusch on the forgers: 'Aevo enim Carolingico liber Ionae in ipsius sancti monasterio a duobus falsariis retractatus est'; B claims 'se ipsum saeculo VI, ideoque ante Ionam, vixisse'; C, from men 'qui illum saepe vidissent'",
+    "witness": "SRM3 (passiones-vitaeque-sanctorum-merovingici-mgh-srm-3-lat_krusch1896.txt) l.39838-39844, 39855",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Krusch on Vedast: the author 'Ionae peculiare elocutionis genus ita subsecutus sit, ut apud utrumque idem miraculum legatur iisdem fere verbis enarratum'; 'utraque eodem fere tempore ab uno eodemque auctore condita est'; Duchesne 'approbavit'",
+    "witness": "SRM3 (passiones-vitaeque-sanctorum-merovingici-mgh-srm-3-lat_krusch1896.txt) l.31893-31903",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Close, preface: 'Et si me quempiam laudare repererint qui adhuc superis iunctus sit, non me adulatorem putent ... nec favere cuiquam panegyrico carmine sed digna memoriae commendare'. Told in modern words",
+    "witness": "BARRALIS (barralis_chronologia-sanctorum-insulae-lerinensis-lat_1613.txt) l.36455-36457 [OCR 'fupereft', 'fauere']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Card: Surius's heading: 'ab eius aequali Iona Abbate, quem quidam vocant discipulum eius'",
+    "witness": "BARRALIS (barralis_chronologia-sanctorum-insulae-lerinensis-lat_1613.txt) l.36419-36420 [OCR 'aquali loM Abbate']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Card: Krusch on Bibianus: 'Prologo enim cum eo similitudo quaedam subest, quem Ionas c. a. 640 Vitae Columbani praemiserat, eique ipsi elocutio superis iunctus familiaris est'",
+    "witness": "SRM3 (passiones-vitaeque-sanctorum-merovingici-mgh-srm-3-lat_krusch1896.txt) l.7771-7773",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Card: Life of Eustasius quoted in Mansi on Mâcon (Agrestinus)",
+    "witness": "MANSI10 (mansi_sacrorum-conciliorum-collectio-tomus-10-lat_welter-facsimile1901.txt) l.61320-61385 [OCR 'Agreftini']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Card: Munro: 'his account reflects their feelings faithfully, and we may be certain that he has recorded the events accurately, and has often reproduced the saint's own words'; the preface 'has been omitted'",
+    "witness": "MUNRO (jonas-bobbio_life-of-st-columban_munro1895.txt) l.79-81; l.96-97",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "Whether Jonas wrote the older Life of Vedast",
+    "sides": [
+     "Bruno Krusch, with Louis Duchesne's approval: yes, from style and a shared miracle (SRM3 l.31893-31903)",
+     "The Life names no author; Krusch's case is from likeness only"
+    ]
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "His birth, origin and death",
+    "note": "No held line gives them. The Library header's 'd. c. 665' rests on no held text"
+   },
+   {
+    "detail": "The year he became abbot, and of which house",
+    "note": "The Réomé prologue calls him abbot in 659 but does not name his house"
+   }
+  ]
+ },
+ "braulio-of-zaragoza": {
+  "claims": [
+   {
+    "claim": "Scene, Braulio to Chindaswinth (Letter XXXI): 'Nunc vero jussione gloriae vestrae aufertur pars animae meae, et quid in hac aetate jam agam, nescio. Lumine corporis caecutio ... ideoque preces dirigo ut non separes eum a me'; Eugenius 'mei archidiaconi'. Told in reported speech",
+    "witness": "PL80 (paulus-emeritanus-braulio-sisebut-pl80-lat_migne1863.txt) l.54483, 54510, 54521-54524 [OCR 'jussione glorie vestra»', 'cxcultio', 'archidiaconi']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The king's reply (Letter XXXII): 'si ista in Dei voluntate, ut confidimus, persistunt; aliud nos quam quod ipsi complacet facere non debemus'; 'quod ipse hinc exstiterit oriundus ubi nunc consecrandum speculatorem optamus'. 'a bishop' renders 'speculatorem'",
+    "witness": "PL80 (paulus-emeritanus-braulio-sisebut-pl80-lat_migne1863.txt) l.54540, 54566-54572 [OCR 'hine exstiterit oriundus']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Braulio sends him (Letter XXXIII): 'Etsi disrupto potius quam scisso societatis vinculo ... eum ad vestram ... misimus praesentiam'",
+    "witness": "PL80 (paulus-emeritanus-braulio-sisebut-pl80-lat_migne1863.txt) l.54591-54600 [OCR 'societaus vincule']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Ildefonsus, On Famous Men XIV: 'Eugenius alter post Eugenium pontifex subrogatur. Hic cum Ecclesiae regiae clericus esset egregius, vita monachi delectatus est. Qui sagaci fuga urbem Caesaraugustanam petens, illic martyrum sepulcris inhaesit ... unde principali violentia reductus, atque in pontificatum ascitus'",
+    "witness": "PL96 (ildefonsus-julian-toledo-pl96-lat_migne1862.txt) l.17051-17056, 17077-17079 [two columns interleaved; OCR 'Ecclcsiie rcgi« clericiis', 'Ciesaraugustanam']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Ildefonsus XII: 'Braulio frater Joannis in Caesaraugusta decedentis adeptus est locum ... Habuit sacerdotium ferme viginti annis ... Duravit in regimine temporibus Sisenandi, Chintilae, Tulganis et Chindasvinthi regum'",
+    "witness": "PL96 (ildefonsus-julian-toledo-pl96-lat_migne1862.txt) l.17072-17074, 17099-17100; also Nicolás Antonio's notice, PL80 (paulus-emeritanus-braulio-sisebut-pl80-lat_migne1863.txt) l.51524-51533 [OCR 'Craulio', 'Duravil']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Signatures: 'Braulio ecclesiae Caesaraugustanae episcopus subscripsi' at Toledo IV (era DCLXXI), V and VI (era 676)",
+    "witness": "HISP (collectio-canonum-ecclesiae-hispanae-toledo-iii-lat_1808.txt) l.41071, 41419, 42439; dates l.38628, 41558-41560 [OCR 'ERA! DCLXXI']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Braulio on the Etymologies, in Brehaut's English: 'the Etymologiae, a vast work which he left unfinished, and which I have divided into twenty books, since he wrote it at my request'",
+    "witness": "BREHAUT (isidore-seville_encyclopedist-of-the-dark-ages-extracts_brehaut1912.txt) l.822-825",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Letter XXI, to Honorius for the council: 'Domino reverendissimo ... papae Honorio universi episcopi per Hispaniam constituti'; the pope's decree, brought by the deacon Turninus, 'quo et robustiores pro fide et alacriores in perfidorum essemus rescindenda pernicie'",
+    "witness": "PL80 (paulus-emeritanus-braulio-sisebut-pl80-lat_migne1863.txt) l.53692-53697, 53731-53736 [OCR 'BAAULIONIS', 'Turnino deportante diaconc']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Toledo VI canon III, 'De custodia fidei judaeorum': the king 'nec sinit degere in regno suo eum qui non sit catholicus'; future kings must have 'pollicitus fuerit hanc se catholicam non permissurum eos violare fidem'. Dated 638 (era 676)",
+    "witness": "HISP (collectio-canonum-ecclesiae-hispanae-toledo-iii-lat_1808.txt) l.41728-41745, 41763-41768",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The bishops' way: 'artificioso temperamento agere voluimus, ut quos vix inclinari posse disciplina rigida cernebamus, Christianis blanditiis flecteremus'; 'illud non Ezechielis sed Isaiae testimonium ... Canes muti non valentes latrare, ad nos ... nullo modo pertinet'; rumor 'permissum esse Judaeis baptizatis reverti ad superstitionem suae religionis'",
+    "witness": "PL80 (paulus-emeritanus-braulio-sisebut-pl80-lat_migne1863.txt) l.53772-53775, 53783-53786, 53836-53838 [OCR 'Canes muli', 'Jud:eis']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "To Taio (Letter XI): Taio turned 'ad convicia et ad contumelias'; 'apud te habeas fixum me posse remordere si velim'; 'magis volumus sequi eum qui ait: Dorsum meum posui ad flagella ... Qui cum malediceretur, non remaledicebat'",
+    "witness": "PL80 (paulus-emeritanus-braulio-sisebut-pl80-lat_migne1863.txt) l.52855, 52864-52865, 52897-52898, 52906-52912 [OCR 'Ap TAJUM', 'lwsus']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Card: Life of Aemilian sent to his brother: 'Domino meo et germano Fronimiano presbytero, Braulio episcopus'; Ildefonsus: 'Scripsit Vitam Aemiliani cujusdam monachi, qui memoriam hujus et virtutem illius sancti viri suo tenore commendat pariter et illustrat'",
+    "witness": "PL80 (paulus-emeritanus-braulio-sisebut-pl80-lat_migne1863.txt) l.51634-51640; PL96 (ildefonsus-julian-toledo-pl96-lat_migne1862.txt) l.17096-17098",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Card: the chronicle under Isidore Pacensis, quoted by Antonio: 'Huic sanctae synodo inter ceteros Braulio Caesaraugustanus episcopus claruit: cujus eloquentiam ... Roma ... per epistolare alloquium satis mirata est'; on Toledo VI: 'piam doctrinam Christianis mentibus decenter infundit, cujus et opus nunc usque Ecclesia relegit'",
+    "witness": "PL80 (paulus-emeritanus-braulio-sisebut-pl80-lat_migne1863.txt) l.51545-51556",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Card: missing at Toledo VII, Taio at VIII: Antonio, 'deest Caesaraugustani episcopi nomen ... Taio episcopus Caesaraugustanus jam apparet'",
+    "witness": "PL80 (paulus-emeritanus-braulio-sisebut-pl80-lat_migne1863.txt) l.51536-51538 [OCR 'In vni sub Cindasvintho, anno 646', 'anno 6235' for 653]",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Card: letter to King Reccesvinth: 'BRAULIONIS AD RECESVINTUM REGEM'",
+    "witness": "PL80 (paulus-emeritanus-braulio-sisebut-pl80-lat_migne1863.txt) l.55020",
+    "formation_confidence": "Documented"
+   }
+  ],
+  "contested_claims": [],
+  "absent_details": [
+   {
+    "detail": "His birth and the year of his death",
+    "note": "No held line gives them. The Library header's 590-651 rests on no held text"
+   },
+   {
+    "detail": "That his archdeacon Eugenius is Eugenius II of Toledo",
+    "note": "Inference from two accounts: Braulio's letters (the king's 'born where we now wish to consecrate a bishop') and Ildefonsus XIV (a Toledo cleric who became a monk at Zaragoza and was brought back by royal force). No held line joins them in so many words"
+   },
+   {
+    "detail": "The pope's letter to the Spanish bishops",
+    "note": "Not held; known only through Braulio's reply"
+   }
+  ]
+ },
+ "ildefonsus-of-toledo": {
+  "claims": [
+   {
+    "claim": "Scene, Julian's Elogium: 'vita delectatus est monachorum, contemptisque parentum rerumque mundanarum affectibus, Agaliense monasterium petiit, cujus fugam rabido furore insequens pater, uno tantum maceriae impeditus est obice ... dum percitus in interiora praetenderet, latibulum quo hic vir occulebatur reliquit ... Armata deinde manu Agaliensem cellam impetens gladio, dum quaesitum non invenit, rediens in propriam, ut perditum deploravit'",
+    "witness": "PL96 (ildefonsus-julian-toledo-pl96-lat_migne1862.txt) l.3661, 3694-3716 [two columns interleaved; OCR 'Agalicnse', 'raaceriae', 'fugamrabido']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "After: 'Percognita igitur praefatus vir abstinentia parentali, Agaliense illico monasterium adiit, monachumque se in eo multis fere annis decenter exhibuit. Coenobium quoque virginum in Deibiensi villula construxit, ac propriis opibus decoravit. Rector deinde effectus Agaliensis coenobii'",
+    "witness": "PL96 (ildefonsus-julian-toledo-pl96-lat_migne1862.txt) l.3718-3726",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Julian lived in his time and later held the see: Antonio, 'Julianus ... post Quiricum Hildefonsi successorem Toletanus antistes ... qui eum descripsit coaevus'; the Elogium heading 'Ex sancto Juliano in appendice ad librum de Viris illustribus'",
+    "witness": "PL96 (ildefonsus-julian-toledo-pl96-lat_migne1862.txt) l.649-655; l.3663",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "'Principali post haec violentia Toletum reducitur, atque inibi post decessoris sui obitum pontifex subrogatur'; 'praesul post secundum Eugenium in sacerdotium consecratur'",
+    "witness": "PL96 (ildefonsus-julian-toledo-pl96-lat_migne1862.txt) l.3665-3671",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "'Ascitus autem in pontificatum nono gloriosi Reccesvinthi principis anno, novem annis et duobus fere mensibus clarus habitus fuit ... expletoque octavo decimo praedicti principis anno, sequenti die, decimo Kalendas Februarii, domicilio carnis exuitur, atque in ecclesia beatae Leocadiae tumulatur, ad pedes sui conditus decessoris'",
+    "witness": "PL96 (ildefonsus-julian-toledo-pl96-lat_migne1862.txt) l.3710-3722",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Signatures: 'Ildephonsus abbas' at Toledo VIII (era DCXCI) and IX (era DCXCIII); Antonio: 'Toletano X concilio interfuit anno 656 quo adhuc abbas Hildefonsus erat'",
+    "witness": "HISP (collectio-canonum-ecclesiae-hispanae-toledo-iii-lat_1808.txt) l.44645, 45659; dates l.43156-43165, 45078-45090; PL96 (ildefonsus-julian-toledo-pl96-lat_migne1862.txt) l.1333-1335 [OCR 'DCXCL', 'abbasHildefOnsus']",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Works: 'librum Prosopopoeiae imbecillitatis propriae, libellum de Virginitate sanctae Mariae contra tres infideles, opusculum de Proprietate personarum ... librum de Cognitione baptismi unum, et de Progressu spiritualis deserti alium'; 'Partem sane tertiam missarum esse voluit, hymnorum, atque sermonum'",
+    "witness": "PL96 (ildefonsus-julian-toledo-pl96-lat_migne1862.txt) l.3674-3698",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Antonio's note names the three: Jovinian, Helvidius, 'Judaeum tertio'",
+    "witness": "PL96 (ildefonsus-julian-toledo-pl96-lat_migne1862.txt) l.898-912",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "On Famous Men preface: Jerome, 'Hunc secutus Gennadius', then Isidore; 'Ast ego ... successorque sanctae memoriae alterius Eugenii factus in sede illa gloriosa Toletanae urbis ... ne incurrerem ex silentio damnum, si tam gloriosae sedis tamque gloriosorum virorum clarescentem memoriae lucem tenebrosa nube silentii contexissem'",
+    "witness": "PL96 (ildefonsus-julian-toledo-pl96-lat_migne1862.txt) l.16529-16566",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Cixila's Life: heading 'A Cixilano ejusdem urbis episcopo edita'; Antonio: Cixila 'sub Maurorum tyrannide, ejusdem Ecclesiae praefectus'. 'under Muslim rule' renders 'sub Maurorum tyrannide'",
+    "witness": "PL96 (ildefonsus-julian-toledo-pl96-lat_migne1862.txt) l.3733; l.653-655",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Cixila: Leocadia rises before Reccesvinth 'omnibus astantibus'; 'Deo gratias, vivit domina mea per vitam Hildefonsi'; the king's knife 'cultrum modicum'; 'cultrum ipsum una cum eisdem Reliquiis in thecis argenteis collocavit'",
+    "witness": "PL96 (ildefonsus-julian-toledo-pl96-lat_migne1862.txt) l.3812-3822, 3826-3847 [OCR 'vivit domim mea per vitani IIUdefonxi', 'cullrum niodicum']",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Card: Cixila on the Masses: 'missam superscriptam, quae in ejus laude decantaretur, perfecit, quae est septima'",
+    "witness": "PL96 (ildefonsus-julian-toledo-pl96-lat_migne1862.txt) l.3870-3873",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Card: Antonio: 'Ordinatus igitur anno 659, ad superos abiit anno 669, die Januarii 25, ad quem diem refertur ejus memoria in Romano Martyrologio'",
+    "witness": "PL96 (ildefonsus-julian-toledo-pl96-lat_migne1862.txt) l.657-661",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Card: lost or doubtful works: 'inter deperdita, imo et inter dubia Hildefonsi opera'",
+    "witness": "PL96 (ildefonsus-julian-toledo-pl96-lat_migne1862.txt) l.1325",
+    "formation_confidence": "Documented"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "His death day",
+    "sides": [
+     "Julian's Elogium: 'decimo Kalendas Februarii', 23 January (l.3720)",
+     "Nicolás Antonio: 'die Januarii 25' of 669 (l.659)"
+    ]
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "His birth year and family",
+    "note": "No held line gives them. The Library header's c.607 rests on no held text"
+   },
+   {
+    "detail": "Where Agali stood",
+    "note": "Julian names the monastery but not its place"
+   }
+  ]
+ },
+ "julian-of-toledo": {
+  "claims": [
+   {
+    "claim": "Scene, Julian's letter to Idalius before the Prognosticon: 'Sanctissimo ... Idalio, Barcinonensis sedis episcopo, Julianus indignus Toletanae cathedrae episcopus'; 'Diem illum ... quo praesenti anno pariter in urbe regia positi passionis Dominicae festum festivo ... suscepimus'; 'remotiorem secreti locum intraremus. Illic ... discretis ambo stratibus lectulorum excipimur'; the Passion read; 'quemdam lectionis desiderabilem locum, quem nunc recordari non valeo, concutimur, gemimus, suspiramus ... Obortae lacrymae'. Told in modern words",
+    "witness": "PL96 (ildefonsus-julian-toledo-pl96-lat_migne1862.txt) l.38216-38260 [two columns interleaved; OCR 'secreli locum', 'stratihiis', 'record iri', 'Obortse lacrymac']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Idalius: 'Eras enim tunc ... podagrici doloris contortionibus tabidus, sed multo amplius spe divinae contemplationis erectus'. 'contemplating God' renders 'divinae contemplationis'",
+    "witness": "PL96 (ildefonsus-julian-toledo-pl96-lat_migne1862.txt) l.38267-38269 [OCR 'po- da{;ilci dnloris']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "'coepimus inter nos quaerere quomodo se habeant animae defunctorum ante illam ultimam corporum resurrectionem'; 'accito notario, capitula de praemissis quaestiunculis eodem die in praesentia vestri'; finished when 'bellica profectio gloriosi principis ab urbe regia turbulentos cuneos populorum secum abegit'",
+    "witness": "PL96 (ildefonsus-julian-toledo-pl96-lat_migne1862.txt) l.38281-38284, 38303-38305, 38320-38322",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Felix's Life: 'Julianus discipulus Eugenii secundi ... post beatae memoriae Quiricum ... urbis regiae pontificale culmen adeptus est: cujus videlicet civitatis proprius civis exstitit, atque in ejusdem urbis principali ecclesia sacrosancti baptismatis fluentis est lotus'",
+    "witness": "PL96 (ildefonsus-julian-toledo-pl96-lat_migne1862.txt) l.37506-37515",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Felix is a contemporary and a later bishop of Toledo: monitum, 'cum a Felice conscriptum sit, Juliani coetaneo'; 'qui Juliano ipsi post Sisbertum in episcopatu successit'",
+    "witness": "PL96 (ildefonsus-julian-toledo-pl96-lat_migne1862.txt) l.38143-38145 [OCR 'cnm a Felice conscriplum', 'Sisbcrlum']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Gudila: 'sanctae memoriae collegae sui Gudilanis levitae ita sociali vinculo est innexus'; 'monasticae institutionis constringi repagulo. Sed quia aliter in superni numinis fuit judicio, eorum est nihilominus frustrata devotio'",
+    "witness": "PL96 (ildefonsus-julian-toledo-pl96-lat_migne1862.txt) l.37517-37520, 37548-37554",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Bishop after Quiricus; signs first at four councils: Antonio, 'post Quiricum, qui anno obiit 681, electus antistes'; 'Interfuit, et ante alios subscripsit quatuor conciliis Toletanis: duodecimo, anno 681, decimo tertio, anno 683, decimo quarto, anno 684 ... necnon decimo quinto ... 688'; Toledo XV: 'Ego Julianus urbis regiae metropolitanus'",
+    "witness": "PL96 (ildefonsus-julian-toledo-pl96-lat_migne1862.txt) l.36889-36899; HISP (collectio-canonum-ecclesiae-hispanae-toledo-iii-lat_1808.txt) l.52960",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "History of Wamba: contents 'Historia rebellionis Pauli adversus Wambam Gothorum regem'",
+    "witness": "PL96 (ildefonsus-julian-toledo-pl96-lat_migne1862.txt) l.423-424",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "On the Proof of the Sixth Age, dedicated 'Inclyto et glorioso ... domino Ervigio regi'; the surgeon image 'Peritorum mos est iste medicorum, ubilibet vulnus serpit in corpore, ferro vulneris materiam praevenire'; 'Horum igitur membrorum evitandam putredinem linguas dixerim Judaeorum, qui promissum ex lege Christum Dei Filium necdum adhuc natum fuisse putant'; 'impositum mihi a vobis onus'",
+    "witness": "PL96 (ildefonsus-julian-toledo-pl96-lat_migne1862.txt) l.413, 45561-45569, 45611-45614, 45657-45660 [OCR 'Judacorum', 'lingnas']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Toledo XV (688): 'beatae memoriae Romanus papa Benedictus nos litterarum suarum significatione monuerat'; heading 'De tribus substantiis in Christo manentibus domini Juliani assertio manifesta'; 'si post haec et ab ipsis dogmatibus patrum ... in quocumque dissentiunt, non jam cum illis est amplius contendendum ... responsio nostra sublimis, etiam si ab ignorantibus aemulis censeatur indocilis'",
+    "witness": "HISP (collectio-canonum-ecclesiae-hispanae-toledo-iii-lat_1808.txt) l.51783, 51989-51994, 52127-52129, 52571-52581",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Felix: 'Fuit enim vir timore Domini plenus ... eleemosynis nimium deditus ... in subvectione oppressorum devotus'",
+    "witness": "PL96 (ildefonsus-julian-toledo-pl96-lat_migne1862.txt) l.37666-37670 [OCR 'vir liinore Doiiini plciius', 'elccmosyuis', 'opprcssorum']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Card: Felix lists the Prognosticon and 'librum responsionum ... in defensionem canonum et legum, quibus prohibentur Christiana mancipia dominis infidelibus deservire', and an Apologeticum to Pope Benedict",
+    "witness": "PL96 (ildefonsus-julian-toledo-pl96-lat_migne1862.txt) l.37709-37724",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Card: editions: Leipzig 1536 (Cochlaeus), Douai 1564 (Boetius Epo), 'ut ... religionem ab haereticis impudenter impetitam defenderent'",
+    "witness": "PL96 (ildefonsus-julian-toledo-pl96-lat_migne1862.txt) l.38177-38182 [OCR 'Coohl.e{', 'Boetio Epoiie']",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Card: Prognosticon dated 'ad annum 688 vel 689', since Idalius came to Toledo only for Toledo XV",
+    "witness": "PL96 (ildefonsus-julian-toledo-pl96-lat_migne1862.txt) l.38168-38172",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Card: Antonio: 'Increbuit apud posteros fama, Julianum ex traduce Judaeorum, uti idem Rodericus Toletanus loquitur, productum fuisse ... Plures tamen Roderico credunt nec temere; cum Isidorus Pacensis iisdem verbis auctor rei fuerit'; Lorenzana's note: 'Caveat itaque lector, ut facile Isidoro Pacensi credat scribenti Julianum e Judaea gente ... e quibus enim monumentis illud acceperit, adhuc ignoramus'",
+    "witness": "PL96 (ildefonsus-julian-toledo-pl96-lat_migne1862.txt) l.36870-36876; l.37574-37580; edition followed, l.16518",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Card: feasts: 'in Breviario Toletano die 8 Martii' and Usuard '6 ejusdem'",
+    "witness": "PL96 (ildefonsus-julian-toledo-pl96-lat_migne1862.txt) l.36902-36904",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Card: monk: 'Qui S. Julianum monachis annumerarunt, ut Arnoldus Wion ... et Hugo Menardus in Menologio Benedictino'",
+    "witness": "PL96 (ildefonsus-julian-toledo-pl96-lat_migne1862.txt) l.37630-37637",
+    "formation_confidence": "Documented"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "Whether Julian came of a Jewish family",
+    "sides": [
+     "Rodericus of Toledo and Isidore Pacensis, reported by Nicolás Antonio, who thinks many believe it with reason (l.36870-36876)",
+     "The notes of Lorenzana's Toledo edition: the reader should not trust Isidore Pacensis, whose source is unknown; Felix is silent (l.37574-37580)"
+    ]
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "His birth year",
+    "note": "No held line gives it. The Library header's c.642 rests on no held text"
+   },
+   {
+    "detail": "His death date",
+    "note": "Antonio gives the third year of Egica, 690, as his last (l.36897-36899); Felix's death notice is not in the held lines read"
+   }
+  ]
+ },
+ "beuno": {
+  "claims": [
+   {
+    "claim": "Scene: 'as Beino was travelling near the river Severn, where was a ford, lo, he heard a voice on the other side of the river, inciting dogs to hunt a hare, being that of an Englishman, who spoke as loud as he could, \"Cergia\"'; 'he immediately returned'; '\"My sons, put on your clothes and your shoes, and let us leave this place, for the nation of this man has a strange language, and is abominable ... they have invaded this place, and it will be theirs, and they will keep it in their possession.\"'",
+    "witness": "REES (rees_lives-of-the-cambro-british-saints-lat-eng_1853.txt) l.13514-13537",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "The edition: 'From a MS. in the Library of the Earl of Macclesfield, collated with another MS. in the Library of Jesus College Oxford'; English translation pp. 299-308",
+    "witness": "REES (rees_lives-of-the-cambro-british-saints-lat-eng_1853.txt) l.13414-13415; l.640",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Rees: 'The time when these \"Lives\" were compiled, is not known, but it was probably about the twelfth century'",
+    "witness": "REES (rees_lives-of-the-cambro-british-saints-lat-eng_1853.txt) l.322-323",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Other held accounts are late: the Latin Life of Winefred in Rees (no date given); Mirk's Festial (Mirk active about 1403); the Ancient Laws of Wales cited by Hugh Williams",
+    "witness": "REES (rees_lives-of-the-cambro-british-saints-lat-eng_1853.txt) l.9203-9372; MIRK (mirk_festial-enm_erbe1905.txt) header, l.9392; GILDAS (gildas_de-excidio-britanniae-lorica-penitential-lat-eng_williams1899.txt) l.15568-15570",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Born to aged parents (summary 'when his parents were in advanced age'); taught by 'a Saint, who was at Caerwent. The name of that saint was Tangusius'",
+    "witness": "REES (rees_lives-of-the-cambro-british-saints-lat-eng_1853.txt) l.622; l.13434-13436",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Gwaredauc: 'the king gave to Beino, a place in Arvon, called Gwaredauc'; the woman: 'the land which you possess ... is a township of the father of the child'; '\"The child,\" said Beino, \"who is in that woman's arms owns that land, and is heir thereof\"'; 'the haughty king returned an arrogant answer'; 'Beino went away and left him under a curse'; Guideuit 'gave to God and Beino for ever, his township, called Kelynauc'",
+    "witness": "REES (rees_lives-of-the-cambro-british-saints-lat-eng_1853.txt) l.13640-13691",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Winefred: the king 'with his sword cut off her head'; restored; 'in the place, where the blood fell to the ground, a fountain arose ... called, after the name of the maiden, WINEFRED'S WELL'; footnote 'A celebrated and copious flowing fountain in Flintshire'",
+    "witness": "REES (rees_lives-of-the-cambro-british-saints-lat-eng_1853.txt) l.13611-13613, 13624-13636, 13658",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Note: 'He lived in the sixth century, and his life extended to the following, as it is recorded that he founded a religious society, at Clynog Fawr, in Caernarvonshire, in the year 616'; eleven churches named; 'Professor Rees's Welsh Saints, page 268'",
+    "witness": "REES (rees_lives-of-the-cambro-british-saints-lat-eng_1853.txt) l.13452-13462",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Card: death 'on the seventh day after Easter'; charity: 'meat and drink he gave to all whom he saw that were hungry and thirsty'",
+    "witness": "REES (rees_lives-of-the-cambro-british-saints-lat-eng_1853.txt) l.13776-13784",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Card: the Latin Life of Winefred: 'Beunonus'; the yearly cloak 'casulam'; summary: 'Saint Beino was engaged to be her instructor'",
+    "witness": "REES (rees_lives-of-the-cambro-british-saints-lat-eng_1853.txt) l.9240, 9355-9372; l.849",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Card: 'clas Beuno; that is, the monastery of ... Beuno', Hugh Williams citing Ancient Laws of Wales",
+    "witness": "GILDAS l.15569-15570",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Card: Mirk: 'a holy heremyt that was callet Bewnow'",
+    "witness": "MIRK l.9392 [OCR 'pat' for 'that']",
+    "formation_confidence": "Documented"
+   }
+  ],
+  "contested_claims": [],
+  "absent_details": [
+   {
+    "detail": "Any witness near his own time",
+    "note": "Every held account is late: the Welsh Life (probably compiled about the twelfth century, Rees thinks), the Latin Life of Winefred, Mirk's Festial (about 1403), and the Laws of Wales cited by Williams. The Annales Cambriae, Bede and Adomnan, searched, do not name him"
+   },
+   {
+    "detail": "The year of his death",
+    "note": "The Life gives only the day, the seventh after Easter"
+   }
+  ]
+ }
+}

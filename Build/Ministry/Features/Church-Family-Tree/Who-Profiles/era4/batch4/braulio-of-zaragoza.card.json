@@ -1,0 +1,91 @@
+{
+  "name": "Braulio of Zaragoza",
+  "otherNames": [
+    "Braulio of Saragossa",
+    "Braulio Caesaraugustanus"
+  ],
+  "knownFor": "Bishop of Zaragoza in Visigothic Spain, friend and editor of Isidore of Seville, and a letter writer. He wrote to Pope Honorius for the bishops of Spain in 638.",
+  "dates": "Bishop of Zaragoza for about twenty years, under Kings Sisenand, Chintila, Tulga and Chindaswinth, Ildefonsus of Toledo says. He signed the fourth, fifth and sixth councils of Toledo. The acts date the fourth and sixth to the Spanish eras 671 and 676, which are 633 and 638. No held source gives his birth or the year of his death",
+  "place": "Zaragoza, where he followed his brother John as bishop; the councils at Toledo",
+  "tradition": "Nicene Visigothic Iberia",
+  "role": "Bishop of Zaragoza",
+  "briefLength": "about 2 minutes",
+  "keyWorks": [
+    {
+      "title": "Letters",
+      "about": "among them letters to Isidore of Seville, to Kings Chindaswinth and Reccesvinth, and to the priest Taio. One, to Pope Honorius, he wrote for the bishops of Spain"
+    },
+    {
+      "title": "Life of Saint Aemilian",
+      "about": "the Life of a monk named Aemilian, sent to his brother Fronimian, a priest. Ildefonsus of Toledo says it commends the memory of the one and the virtue of the other"
+    },
+    {
+      "title": "List of Isidore's works",
+      "about": "his notice of Isidore of Seville and his books. In it he says he divided the Etymologies into twenty books, since Isidore wrote it at his request"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Isidore of Seville sent him the Etymologies, which Braulio says Isidore wrote at his request. Braulio divided the work into twenty books.",
+      "Ildefonsus of Toledo gives him a chapter in his book of famous church writers.",
+      "Eugenius, the archdeacon he gave up to King Chindaswinth, appears in Ildefonsus's book as Eugenius the second, bishop of Toledo."
+    ],
+    "remembered": [
+      "Nicolás Antonio quotes a later chronicle under the name of Isidore Pacensis. It says Braulio shone at the fourth council of Toledo, and that Rome marveled at his eloquence through his letter.",
+      "The same chronicle says that at the sixth council he poured sound teaching into Christian minds, and that the church still read his work."
+    ]
+  },
+  "uncertain": [
+    "His life is known from his own letters, from Ildefonsus's short chapter on him and from the acts of the councils he signed.",
+    "Whether his archdeacon Eugenius is the Eugenius whom Ildefonsus makes bishop of Toledo. Braulio's letters and the king's do not name the city. Ildefonsus tells of a Toledo cleric named Eugenius who became a monk at Zaragoza and was brought back by the king's force. The match rests on these two accounts.",
+    "Whom Pope Honorius meant by the faithless. Braulio's reply speaks of the faithless and of a rumor that baptized Jews had been allowed back to their old religion. It does not quote the pope's letter, which is not held.",
+    "His age and death. His letter to the king speaks of his age and his failing sight. No held source gives the year of his death. His name is missing from the acts of the seventh council of Toledo, Antonio notes, and by the eighth, Taio was bishop of Zaragoza."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Letters, the Life of Saint Aemilian and other works, in Patrologia Latina 80",
+        "author": "Braulio of Zaragoza",
+        "date": "1863",
+        "language": "Latin",
+        "file": "cic/texts/paulus-emeritanus-braulio-sisebut-pl80-lat_migne1863.txt"
+      },
+      {
+        "title": "An Encyclopedist of the Dark Ages: Isidore of Seville, with Braulio's notice of Isidore in English",
+        "author": "Ernest Brehaut (tr.)",
+        "date": "1912",
+        "language": "English translation",
+        "file": "cic/texts/isidore-seville_encyclopedist-of-the-dark-ages-extracts_brehaut1912.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "On Famous Men, chapters on Braulio and on Eugenius the second, in Patrologia Latina 96",
+        "author": "Ildefonsus of Toledo",
+        "date": "1862",
+        "language": "Latin",
+        "file": "cic/texts/ildefonsus-julian-toledo-pl96-lat_migne1862.txt"
+      },
+      {
+        "title": "Notice of Braulio, from the Bibliotheca Hispana vetus, in Patrologia Latina 80",
+        "author": "Nicolás Antonio",
+        "date": "1863",
+        "language": "Latin",
+        "file": "cic/texts/paulus-emeritanus-braulio-sisebut-pl80-lat_migne1863.txt"
+      },
+      {
+        "title": "Acts of the fourth, fifth and sixth councils of Toledo, in Collectio canonum Ecclesiae Hispanae",
+        "date": "1808",
+        "language": "Latin",
+        "file": "cic/texts/collectio-canonum-ecclesiae-hispanae-toledo-iii-lat_1808.txt"
+      },
+      {
+        "title": "Letters of King Chindaswinth to Braulio, in Patrologia Latina 80",
+        "author": "Chindaswinth",
+        "date": "1863",
+        "language": "Latin",
+        "file": "cic/texts/paulus-emeritanus-braulio-sisebut-pl80-lat_migne1863.txt"
+      }
+    ]
+  }
+}

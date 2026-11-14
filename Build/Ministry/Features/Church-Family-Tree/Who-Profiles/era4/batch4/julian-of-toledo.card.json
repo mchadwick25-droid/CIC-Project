@@ -1,0 +1,76 @@
+{
+  "name": "Julian of Toledo",
+  "otherNames": [
+    "Julianus"
+  ],
+  "knownFor": "Bishop of Toledo in Visigothic Spain, who signed first at four councils of Toledo. He wrote the Prognosticon, on death and what follows it, and a history of King Wamba's war.",
+  "dates": "Bishop after Quiricus, whom Nicolás Antonio has dying in 681, until the third year of King Egica, which Antonio reckons as 690. He signed the councils of Toledo of 681, 683, 684 and 688. No held source gives his birth year",
+  "place": "Born, baptized and brought up at Toledo, Felix of Toledo says; bishop of Toledo",
+  "tradition": "Nicene Visigothic Iberia",
+  "role": "Bishop of Toledo",
+  "briefLength": "about 2 minutes",
+  "keyWorks": [
+    {
+      "title": "Prognosticon of the World to Come",
+      "about": "three books, on the origin of death, on how the souls of the dead fare before the resurrection, and on the resurrection. His letter to Idalius, bishop of Barcelona, tells how it began"
+    },
+    {
+      "title": "On the Proof of the Sixth Age",
+      "about": "three books written at King Ervig's command, arguing against the Jews of his day that Christ had already come. The opening letter calls their tongues the rotting limbs a surgeon must cut away"
+    },
+    {
+      "title": "History of King Wamba",
+      "about": "the story of the rebellion of Paul against King Wamba, and of the king's war against him"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "The fifteenth council of Toledo, in 688, defended a statement of the Spanish faith against Pope Benedict's objections. One section of its reply bears Julian's name.",
+      "Felix of Toledo, a later bishop who lived in his time, added a Life of him to Ildefonsus's book of famous writers. It lists his books.",
+      "Johannes Cochlaeus printed the Prognosticon at Leipzig in 1536, and Boetius Epo at Douai in 1564. Both meant its witness to defend their faith against the heretics of their day, the preface in Patrologia Latina 96 says."
+    ],
+    "remembered": [
+      "Felix calls him a man full of the fear of the Lord, generous in alms and quick to help the oppressed.",
+      "Nicolás Antonio says the Breviary of Toledo keeps his feast on 8 March, and Usuard's martyrology on 6 March."
+    ]
+  },
+  "uncertain": [
+    "His life rests on his own letters and on Felix's short Life, a tribute by a later bishop of Toledo who lived in his time.",
+    "Whether he came from a Jewish family. Nicolás Antonio reports that Rodericus of Toledo and Isidore Pacensis say so, and that Felix does not. Antonio thinks many believe it with reason. The notes of Francisco Antonio Lorenzana's Toledo edition, which Migne follows, warn the reader not to trust it, since its source is unknown.",
+    "The year of the Prognosticon. The preface in Patrologia Latina 96 puts it in 688 or 689. Idalius is known to have come to Toledo only for the council of 688, it says.",
+    "Whether he was a monk. Felix says he and Gudila wished to be, but God judged otherwise. Lorenzana's notes reject later writers who counted him among the Benedictines."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Prognosticon, On the Proof of the Sixth Age, History of King Wamba and other works, in Patrologia Latina 96",
+        "author": "Julian of Toledo",
+        "date": "1862",
+        "language": "Latin",
+        "file": "cic/texts/ildefonsus-julian-toledo-pl96-lat_migne1862.txt"
+      },
+      {
+        "title": "Acts of the fifteenth council of Toledo, with the reply bearing his name, in Collectio canonum Ecclesiae Hispanae",
+        "date": "1808",
+        "language": "Latin",
+        "file": "cic/texts/collectio-canonum-ecclesiae-hispanae-toledo-iii-lat_1808.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Life of Julian, in Patrologia Latina 96",
+        "author": "Felix of Toledo",
+        "date": "1862",
+        "language": "Latin",
+        "file": "cic/texts/ildefonsus-julian-toledo-pl96-lat_migne1862.txt"
+      },
+      {
+        "title": "Notice of Julian, and the notes of the Toledo edition, in Patrologia Latina 96",
+        "author": "Nicolás Antonio; Francisco Antonio Lorenzana (ed.)",
+        "date": "1862",
+        "language": "Latin",
+        "file": "cic/texts/ildefonsus-julian-toledo-pl96-lat_migne1862.txt"
+      }
+    ]
+  }
+}

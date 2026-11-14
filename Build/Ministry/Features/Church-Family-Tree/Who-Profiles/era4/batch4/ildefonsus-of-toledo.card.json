@@ -1,0 +1,83 @@
+{
+  "name": "Ildefonsus of Toledo",
+  "otherNames": [
+    "Hildefonsus"
+  ],
+  "knownFor": "Monk and abbot of Agali, then bishop of Toledo in Visigothic Spain. He wrote On the Virginity of Holy Mary and carried on the list of famous church writers begun by Jerome.",
+  "dates": "Made bishop in the ninth year of King Reccesvinth and bishop for nine years and about two months, Julian of Toledo says. He died on the tenth day before the Kalends of February, which is 23 January, after the eighteenth year of the king. Nicolás Antonio reckons these as 659 and 669. An abbot Ildefonsus signed the eighth and ninth councils of Toledo. The acts date them to the Spanish eras 691 and 693, that is 653 and 655",
+  "place": "The monastery of Agali; Toledo, where he was bishop and was buried in the church of Saint Leocadia",
+  "tradition": "Nicene Visigothic Iberia",
+  "role": "Abbot; bishop of Toledo",
+  "briefLength": "about 2 minutes",
+  "keyWorks": [
+    {
+      "title": "On the Virginity of Holy Mary",
+      "about": "written, Julian of Toledo says, against three unbelievers. Nicolás Antonio's note names them as Jovinian, Helvidius and a Jew"
+    },
+    {
+      "title": "On Famous Men",
+      "about": "a list of church writers that carries on the lists of Jerome, Gennadius and Isidore of Seville. He wrote it, he says, so that silence would not hide the memory of his see's great men"
+    },
+    {
+      "title": "On the Knowledge of Baptism and On the Progress through the Spiritual Desert",
+      "about": "two books Julian names in his list, with the Prosopopoeia of his own weakness, letters, Masses, hymns and sermons"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Julian of Toledo, a later bishop of the city, added a chapter on him to his book On Famous Men.",
+      "Cixila says he composed Masses, among them a seventh for the feast of Mary, sung in her praise."
+    ],
+    "remembered": [
+      "Cixila, a bishop of Toledo under Muslim rule, wrote a later Life. In it Saint Leocadia rises from her tomb before King Reccesvinth and thanks God that her Lady lives through the life of Ildefonsus.",
+      "Cixila says the king offered his own knife to cut the saint's veil. Ildefonsus cut it, and kept the knife with the relics in silver cases.",
+      "Antonio says his memory is kept in the Roman Martyrology."
+    ]
+  },
+  "uncertain": [
+    "His life rests on Julian of Toledo's short tribute, written in his praise. Cixila's Life, written later under Muslim rule, adds wonders that Julian does not tell.",
+    "His death day. Julian gives the tenth day before the Kalends of February, 23 January. Nicolás Antonio, reckoning Julian's years, gives 25 January 669.",
+    "Whether the abbot Ildefonsus who signed the councils of 653 and 655 is he. Antonio says Ildefonsus was still an abbot at the council of 656.",
+    "Which of his books survive. Julian lists more than the volume prints, and Antonio's notes count some as lost or doubtful."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "On the Virginity of Holy Mary, On Famous Men and other works, in Patrologia Latina 96",
+        "author": "Ildefonsus of Toledo",
+        "date": "1862",
+        "language": "Latin",
+        "file": "cic/texts/ildefonsus-julian-toledo-pl96-lat_migne1862.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Tribute to Ildefonsus, added to his On Famous Men, in Patrologia Latina 96",
+        "author": "Julian of Toledo",
+        "date": "1862",
+        "language": "Latin",
+        "file": "cic/texts/ildefonsus-julian-toledo-pl96-lat_migne1862.txt"
+      },
+      {
+        "title": "Life of Ildefonsus, in Patrologia Latina 96",
+        "author": "Cixila of Toledo",
+        "date": "1862",
+        "language": "Latin",
+        "file": "cic/texts/ildefonsus-julian-toledo-pl96-lat_migne1862.txt"
+      },
+      {
+        "title": "Notice of Ildefonsus, with notes, in Patrologia Latina 96",
+        "author": "Nicolás Antonio",
+        "date": "1862",
+        "language": "Latin",
+        "file": "cic/texts/ildefonsus-julian-toledo-pl96-lat_migne1862.txt"
+      },
+      {
+        "title": "Acts of the eighth and ninth councils of Toledo, in Collectio canonum Ecclesiae Hispanae",
+        "date": "1808",
+        "language": "Latin",
+        "file": "cic/texts/collectio-canonum-ecclesiae-hispanae-toledo-iii-lat_1808.txt"
+      }
+    ]
+  }
+}

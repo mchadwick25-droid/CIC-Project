@@ -1,0 +1,79 @@
+{
+  "name": "Prudentius of Troyes",
+  "otherNames": [
+    "Galindo"
+  ],
+  "knownFor": "Spanish-born bishop of Troyes who kept the royal annals now called the Annals of Saint-Bertin until his death in 861. He took the side of double predestination against Hincmar of Reims.",
+  "dates": "Kept the annals from the 830s, after a first writer who stopped in 835, Georg Waitz says. Died in 861, by Hincmar's entry for that year. At councils at Paris in 846 and at Soissons in 853, Nicolás Antonio says. No held source gives his birth",
+  "place": "Born in Spain and brought to the land of the Celts, by his own poem as Antonio reports it; bishop of Troyes",
+  "tradition": "Carolingian Reform Christianity",
+  "role": "Bishop of Troyes; annalist",
+  "briefLength": "about 2 minutes",
+  "keyWorks": [
+    {
+      "title": "Annals of Saint-Bertin, from the 830s to 861",
+      "about": "the royal annals of the Frankish kings, which Hincmar calls the annals of the deeds of our kings that Prudentius composed. The king had the book, Hincmar says"
+    },
+    {
+      "title": "On Predestination, against John Scotus",
+      "about": "his answer to nineteen chapters taken from the book of John Scotus Eriugena, written at the request of Wenilo, archbishop of Sens"
+    },
+    {
+      "title": "Letter to Hincmar and Pardulus",
+      "about": "a letter on predestination to Hincmar of Reims and Pardulus of Laon, which Antonio dates to 849"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Hincmar took over the annals after his death and carried them on to 882, Georg Waitz says.",
+      "His entry under 859, that Pope Nicholas had confirmed a double predestination, made Hincmar write to Egilo of Sens. Hincmar asked that the pope be told, so that no scandal should come to the church.",
+      "Antonio says that in his Tractoria he held that Aeneas, chosen bishop of Paris, must sign four statements before he was ordained."
+    ],
+    "remembered": [
+      "Hincmar calls him learned, but says he turned in bitterness into a fierce defender of Gottschalk's heresy. Hincmar is the hostile witness of the predestination quarrel.",
+      "Nicolás Antonio calls Hincmar's verdict a slander, and says Prudentius never opposed Gottschalk.",
+      "A note in a manuscript of his treatise, printed in Patrologia Latina 115, warns that he did not think rightly on some teachings. Nicolas Camusat of Troyes answers that its writer could not follow him.",
+      "Antonio says the church of Troyes calls him a saint in its lists of bishops."
+    ]
+  },
+  "uncertain": [
+    "Little of his life is held beyond his writings. Most of it comes through Hincmar, his opponent, and through the defenders who answered Hincmar.",
+    "Whether he ever opposed Gottschalk. Hincmar says he first resisted him and then took his side. Antonio says he never opposed him.",
+    "The entry on Gottschalk under 849. Georg Waitz reports the abbé Lebeuf's view that Hincmar later reworked it, and prints the shorter form Lebeuf proposes.",
+    "His name. Hincmar calls him Galindo, surnamed Prudentius. Antonio links Galindo to Spanish names of the time, and only as a guess to a count of Aragon of that name."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Annales Bertiniani, the part from 835 to 861 (ed. Georg Waitz, MGH)",
+        "author": "Prudentius of Troyes",
+        "date": "1883",
+        "language": "Latin",
+        "file": "cic/texts/prudentius-troyes_annales-bertiniani_waitz1883.txt"
+      },
+      {
+        "title": "Letter to Hincmar and Pardulus; On Predestination, against John Scotus; and other works, in Patrologia Latina 115",
+        "author": "Prudentius of Troyes",
+        "date": "1852",
+        "language": "Latin",
+        "file": "cic/texts/eulogius-cordoba_opera-with-alvarus-vita-eulogii-pl115-lat_migne1852.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Annales Bertiniani, the entry for 861, and Waitz's introduction with Hincmar's letter to Egilo",
+        "author": "Hincmar of Reims; Georg Waitz (ed.)",
+        "date": "1883",
+        "language": "Latin",
+        "file": "cic/texts/prudentius-troyes_annales-bertiniani_waitz1883.txt"
+      },
+      {
+        "title": "Notice of Prudentius, from the Bibliotheca Hispana vetus, in Patrologia Latina 115",
+        "author": "Nicolás Antonio",
+        "date": "1852",
+        "language": "Latin",
+        "file": "cic/texts/eulogius-cordoba_opera-with-alvarus-vita-eulogii-pl115-lat_migne1852.txt"
+      }
+    ]
+  }
+}
