@@ -214,7 +214,7 @@
     "formation_confidence": "Widely Accepted"
    },
    {
-    "claim": "Prudentius quarrel: Hincmar's 861 notice ('heresis defensor acerrimus'); his letter to Egilo on the 859 entry",
+    "claim": "Prudentius quarrel: The 861 notice ('heresis defensor acerrimus'), Hincmar's by Pertz (BERT l.203-205) and an anonymous annalist's by Antonio (PL115 l.79267-79271, 79622-79623); his letter to Egilo on the 859 entry",
     "witness": "BERT (prudentius-troyes_annales-bertiniani_waitz1883.txt) l.3530-3539; l.131-146",
     "formation_confidence": "Documented"
    },
@@ -340,7 +340,7 @@
     "formation_confidence": "Documented"
    },
    {
-    "claim": "Hincmar, Annals 861: 'Galindo cognomento Prudentius Trecassinae civitatis episcopus, natione Hispanus; adprime litteris eruditus, qui ante aliquot annos Gotescalco praedestinatiano restiterat, post, felle commotus, contra quosdam episcopos secum heretico resistentes ipsius heresis defensor acerrimus ... moritur'. Hostile witness",
+    "claim": "Annals 861 (Hincmar's by Pertz, BERT l.203-205; the 'anonymus ... Bertinianus auctor' by Antonio, PL115 l.79267-79271, 79307): 'Galindo cognomento Prudentius Trecassinae civitatis episcopus, natione Hispanus; adprime litteris eruditus, qui ante aliquot annos Gotescalco praedestinatiano restiterat, post, felle commotus, contra quosdam episcopos secum heretico resistentes ipsius heresis defensor acerrimus ... moritur'. Hostile witness",
     "witness": "BERT (prudentius-troyes_annales-bertiniani_waitz1883.txt) l.3530-3539",
     "formation_confidence": "Documented"
    },
@@ -419,7 +419,7 @@
    {
     "claim": "Whether Prudentius first opposed Gottschalk and then became a defender of heresy",
     "sides": [
-     "Hincmar, Annals 861 (BERT l.3534-3536): yes; hostile witness",
+     "The annals for 861 (BERT l.3534-3536), Hincmar's by Pertz: yes; hostile witness",
      "Nicolás Antonio (PL115 l.79391, 79628-79632): a slander; he never opposed Gottschalk"
     ]
    },
@@ -434,7 +434,7 @@
     "claim": "Who wrote the 861 notice of Prudentius",
     "sides": [
      "G. H. Pertz: Hincmar, 'extra dubium' (BERT l.203-205)",
-     "Nicolás Antonio: an anonymous annalist on Hincmar's side (PL115 l.79379-79380, 79622-79627)"
+     "Nicolás Antonio: an anonymous annalist on Hincmar's side (PL115 l.79379-79380, 79622-79627); PL115 l.79267-79271, 79307 (Antonio's anonymous author is the one who carried the annals to 882)"
     ]
    }
   ],
