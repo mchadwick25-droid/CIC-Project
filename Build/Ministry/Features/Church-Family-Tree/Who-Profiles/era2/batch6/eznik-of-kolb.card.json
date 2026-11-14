@@ -62,6 +62,13 @@
         "date": null,
         "language": "French translation",
         "file": "cic/texts/langlois_collection-historiens-armenie-tome2-fra_1869.txt"
+      },
+      {
+        "title": "F. C. Burkitt's introduction, on Eznik's chapters against Marcion and the form \"Eznik of Kolb\", in S. Ephraim's Prose Refutations of Mani, Marcion, and Bardaisan, vol. 2",
+        "author": "F. C. Burkitt",
+        "date": null,
+        "language": "English",
+        "file": "cic/texts/ephraim_prose-refutations_mitchell1912-1921.txt"
       }
     ]
   }

@@ -69,13 +69,15 @@ STRUCTURAL_FIELDS = (
     "kind",
 )
 
-# A tradition's people, a person's home tradition and a person's card: the
-# map's Who stacks and person cards draw them for every movement, built or not.
+# A tradition's people, a person's home tradition, a person's card and a major
+# council's record: the map's Who stacks, person cards and council cards draw
+# them for every movement, built or not.
 PEOPLE_FIELDS = (
     "people",
     "peopleNote",
     "toldWithin",
     "card",
+    "council",
 )
 
 NON_BUILT_WORLD_FIELDS = (

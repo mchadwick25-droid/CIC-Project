@@ -52,7 +52,7 @@ const HEX = /^#[0-9A-Fa-f]{6}$/;
 // A movement's kind: absent means a church body; "cross-church movement" is a defined
 // movement that runs across church bodies rather than being one; "person" is a person
 // entry (Decision-Log 2026-11-06, ruling 14).
-const MOVEMENT_KINDS = new Set(["cross-church movement", "person"]);
+const MOVEMENT_KINDS = new Set(["cross-church movement", "person", "major-council"]);
 
 // --- eras ---
 if (!Array.isArray(d.eras) || d.eras.length === 0) errs.push("eras: missing/empty");
@@ -160,6 +160,8 @@ const edgeIds = new Set();
 // --- entry kinds, people and review status (Decision-Log 2026-11-06 rulings 14 and 18; 2026-11-09, "The gap sweep ruled") ---
 const REVIEW = new Set(["AI-checked", "partner-contributed", "scholar-reviewed"]);
 const isPerson = m => m?.kind === "person";
+const isCouncil = m => m?.kind === "major-council";
+const COUNCIL_VERDICTS = new Set(["WHO", "STORY", "LISTED", "NOT SCORED"]);
 const yearOf = item => item.person ? byId.get(item.person)?.start : item.year;
 // A held voice names a row on the movement's own Library shelf (cic/corpus-map/<id>.yaml) and that row's author.
 const shelfCache = new Map();
@@ -181,7 +183,8 @@ function shelfAuthor(movementId, rowId) {
   return shelfCache.get(movementId).get(rowId);
 }
 // A person card: one-line summary, role, up to three key works, legacy, open questions and the sources behind it.
-const CARD_KEYS = ["knownFor", "role", "keyWorks", "legacy", "uncertain", "sources"];
+const CARD_KEYS = ["otherNames", "label", "knownFor", "datesNote", "placeNote", "role", "keyWorks", "legacy", "uncertain", "sources"];
+const CARD_LABELS = new Set(["Outside witness"]);
 const plain = x => typeof x === "string" && x.trim() !== "";
 const isObj = x => x !== null && typeof x === "object" && !Array.isArray(x);
 function checkCard(m) {
@@ -197,7 +200,11 @@ function checkCard(m) {
   };
   const only = (obj, allowed, path) => Object.keys(obj).filter(k => !allowed.includes(k)).forEach(k => errs.push(`${at(`${path}.${k}`)} is not allowed (allowed: ${allowed.join(", ")})`));
   text(card, "knownFor", "knownFor");
+  text(card, "datesNote", "datesNote");
+  text(card, "placeNote", "placeNote");
   text(card, "role", "role");
+  if (card.otherNames !== undefined) strings(card.otherNames, "otherNames");
+  if (card.label !== undefined && !CARD_LABELS.has(card.label)) errs.push(`${at("label")} must be one of: ${[...CARD_LABELS].join(", ")}`);
   if (card.keyWorks !== undefined) {
     if (!Array.isArray(card.keyWorks)) errs.push(`${at("keyWorks")} must be a list`);
     else {
@@ -232,12 +239,118 @@ function checkCard(m) {
         if (key === "about" && s.author !== null && !plain(s.author)) errs.push(`${at(`${path}.author`)} must be a non-empty string, or null for a work with no named author`);
         if (plain(s.file) && !(s.file.startsWith("cic/texts/") && existsSync(s.file))) errs.push(`${at(`${path}.file`)} ${s.file} must be an existing file under cic/texts/`);
         if (s.disputed !== undefined && !plain(s.disputed)) errs.push(`${at(`${path}.disputed`)} must be a non-empty string`);
-        if (key === "about" && s.date !== null && !plain(s.date)) errs.push(`${at(`${path}.date`)} must be a string or null`);
+        if ((key === "about" || s.date !== undefined) && s.date !== null && !plain(s.date)) errs.push(`${at(`${path}.date`)} must be a string or null`);
+        if (key === "ownWords" && s.author !== undefined && s.author !== null && !plain(s.author)) errs.push(`${at(`${path}.author`)} must be a non-empty string, or null`);
       });
     };
-    listing("ownWords", ["title", "file", "language"], ["disputed"]);
+    listing("ownWords", ["title", "file", "language"], ["disputed", "author", "date"]);
     listing("about", ["title", "author", "language", "file"], ["date"]);
   }
+}
+// --- major councils (Decision-Log 2026-11-14, "Major councils, eras 1 and 2"; Council_Profile_Pattern.md) ---
+const COUNCIL_RIVERS = { "Origin": 0, "Syriac East": 1, "Caucasus": 2, "Greek East": 3, "Africa": 4, "Latin West": 5, "Non-Nicene": 80 };
+const WITNESS_KINDS = new Set(["acts", "participant", "later narrative", "modern reconstruction"]);
+const COUNCIL_PARTS = new Set(["Gathered", "Condemned", "Refused", "Affected"]);
+const COUNCIL_SOURCE_GROUPS = ["fromTheCouncil", "fromThoseThere", "writtenLater"];
+function checkCouncil(m) {
+  const at = p => `${m.id}: council.${p}`;
+  const c = m.council;
+  if (!isCouncil(m)) { errs.push(`${m.id}: council is only for a major council`); return; }
+  if (!isObj(c)) { errs.push(`${m.id}: council must be an object`); return; }
+  const allowed = ["rivers", "knownFor", "datesNote", "issue", "calledBy", "attended", "decided", "outcome", "record", "traditions", "uncertain", "sources"];
+  Object.keys(c).filter(k => !allowed.includes(k)).forEach(k => errs.push(`${at(k)} is not allowed (allowed: ${allowed.join(", ")})`));
+  const text = (key, required) => { if (c[key] === undefined) { if (required) errs.push(`${at(key)} is required`); } else if (!plain(c[key])) errs.push(`${at(key)} must be a non-empty string`); };
+  const list = (key, required) => {
+    if (c[key] === undefined) { if (required) errs.push(`${at(key)} is required`); return; }
+    if (!Array.isArray(c[key]) || (required && !c[key].length)) { errs.push(`${at(key)} must be a list of non-empty strings`); return; }
+    c[key].forEach((x, i) => { if (!plain(x)) errs.push(`${at(`${key}[${i}]`)} must be a non-empty string`); });
+  };
+  text("knownFor", true); text("datesNote", false); text("calledBy", false);
+  list("issue", true); list("decided", true); list("outcome", true); list("attended", false); list("uncertain", false);
+  if (!Array.isArray(c.rivers) || !c.rivers.length) errs.push(`${at("rivers")} must name at least one river`);
+  else c.rivers.forEach(r => { if (!(r in COUNCIL_RIVERS)) errs.push(`${at("rivers")} "${r}" is not a river (${Object.keys(COUNCIL_RIVERS).join(", ")})`); });
+  if (Array.isArray(c.rivers) && c.rivers[0] in COUNCIL_RIVERS && COUNCIL_RIVERS[c.rivers[0]] !== m.laneOrder) errs.push(`${m.id}: laneOrder ${m.laneOrder} is not the lane of its first river, ${c.rivers[0]}`);
+  if (!Array.isArray(c.record) || !c.record.length) errs.push(`${at("record")} must list the main witnesses`);
+  else c.record.forEach((w, i) => {
+    if (!isObj(w)) { errs.push(`${at(`record[${i}]`)} must be an object`); return; }
+    Object.keys(w).filter(k => !["witness", "kind", "side", "note"].includes(k)).forEach(k => errs.push(`${at(`record[${i}].${k}`)} is not allowed`));
+    ["witness", "note"].forEach(k => { if (!plain(w[k])) errs.push(`${at(`record[${i}].${k}`)} must be a non-empty string`); });
+    if (w.side !== undefined && !plain(w.side)) errs.push(`${at(`record[${i}].side`)} must be a non-empty string`);
+    if (!WITNESS_KINDS.has(w.kind)) errs.push(`${at(`record[${i}].kind`)} must be one of ${[...WITNESS_KINDS].join(", ")}`);
+  });
+  if (!Array.isArray(c.traditions) || !c.traditions.length) errs.push(`${at("traditions")} must list the traditions it touched`);
+  else c.traditions.forEach((t, i) => {
+    if (!isObj(t)) { errs.push(`${at(`traditions[${i}]`)} must be an object`); return; }
+    Object.keys(t).filter(k => !["id", "name", "part", "note"].includes(k)).forEach(k => errs.push(`${at(`traditions[${i}].${k}`)} is not allowed`));
+    const who = byId.get(t.id);
+    if (!who || isCouncil(who)) errs.push(`${at(`traditions[${i}]`)} ${t.id} is not an entry of the tree`);
+    else if (t.name !== who.name && t.name !== who.shortName) errs.push(`${at(`traditions[${i}]`)} name "${t.name}" is not the name of ${t.id} ("${who.name}")`);
+    if (!COUNCIL_PARTS.has(t.part)) errs.push(`${at(`traditions[${i}].part`)} must be one of ${[...COUNCIL_PARTS].join(", ")}`);
+    if (!plain(t.note)) errs.push(`${at(`traditions[${i}].note`)} must be one sourced line`);
+  });
+  if (!isObj(c.sources)) errs.push(`${at("sources")} must be an object with ${COUNCIL_SOURCE_GROUPS.join(", ")}`);
+  else {
+    Object.keys(c.sources).filter(k => !COUNCIL_SOURCE_GROUPS.includes(k)).forEach(k => errs.push(`${at(`sources.${k}`)} is not allowed (allowed: ${COUNCIL_SOURCE_GROUPS.join(", ")})`));
+    COUNCIL_SOURCE_GROUPS.forEach(g => (c.sources[g] ?? []).forEach((s, i) => checkSourceItem(`${m.id}: council.sources.${g}[${i}]`, s, ["title", "author", "language", "file"])));
+  }
+}
+// One source line of a card or council: title, language and an existing file under cic/texts/, with an author where one applies.
+function checkSourceItem(path, s, keys) {
+  if (!isObj(s)) { errs.push(`${path} must be an object`); return; }
+  Object.keys(s).filter(k => !keys.includes(k)).forEach(k => errs.push(`${path}.${k} is not allowed (allowed: ${keys.join(", ")})`));
+  ["title", "language", "file"].forEach(k => { if (!plain(s[k])) errs.push(`${path}.${k} must be a non-empty string`); });
+  if (s.author !== undefined && !plain(s.author)) errs.push(`${path}.author must be a non-empty string`);
+  if (plain(s.file) && !(s.file.startsWith("cic/texts/") && existsSync(s.file))) errs.push(`${path}.file ${s.file} must be an existing file under cic/texts/`);
+}
+// Every quotation in a person's or council's prose stands verbatim in a file the entry cites (case, punctuation and
+// spelling marks aside). A narrator's retelling in modern words carries no quotation marks and is not checked here.
+const fold = s => s.normalize("NFKD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/æ/g, "ae").replace(/œ/g, "oe").replace(/[^a-z0-9]+/g, " ").trim();
+function proseOf(x, out = []) {
+  if (typeof x === "string") out.push(x);
+  else if (Array.isArray(x)) x.forEach(y => proseOf(y, out));
+  else if (isObj(x)) Object.entries(x).forEach(([k, v]) => { if (k !== "sources" && k !== "file") proseOf(v, out); });
+  return out;
+}
+function checkQuotes(m) {
+  const groups = (m.card ?? m.council)?.sources ?? {};
+  const files = [...new Set(Object.values(groups).flat().map(s => s.file).filter(Boolean))];
+  if (!files.length) return;
+  const prose = [m.longDescription, ...proseOf(m.card ?? {}), ...proseOf({ ...(m.council ?? {}), sources: undefined }), ...(m.people ?? []).map(p => p.part)].filter(x => typeof x === "string");
+  const pending = [];
+  for (const para of prose.flatMap(t => t.split("\n"))) {
+    if ((para.match(/"/g) ?? []).length % 2) { errs.push(`${m.id}: unbalanced quotation marks in "${para.slice(0, 60)}"`); continue; }
+    for (const q of para.matchAll(/"([^"]+)"/g))
+      for (const piece of q[1].split(/\.\.\.|…/)) {
+        const f = fold(piece);
+        if (f.length >= 8) pending.push({ piece, f });
+      }
+  }
+  quoteJobs.push({ id: m.id, files, left: pending });
+}
+// Each Library file is read and folded once for the whole census, one file at a time (the files are large).
+const quoteJobs = [];
+function finishQuotes() {
+  const byFile = new Map();
+  quoteJobs.forEach(j => j.files.forEach(f => { if (!byFile.has(f)) byFile.set(f, []); byFile.get(f).push(j); }));
+  for (const [file, jobs] of byFile) {
+    if (!existsSync(file) || !jobs.some(j => j.left.length)) continue;
+    // Only an XML edition has markup to remove; a plain-text scan may hold a stray "<" that is not a tag.
+    // A page-break anchor can fall inside a word, so the markup is removed both as a space and as nothing.
+    // A quotation may stand in the text proper (an editor's footnote not counted) or in a footnote the brief quotes.
+    // In a plain-text scan, a page or section number can fall inside a quoted sentence, and a word can be broken
+    // across lines with a hyphen; neither is part of the words.
+    const raw = readFileSync(file, "utf8");
+    const xml = file.endsWith(".xml");
+    const variants = xml
+      ? [() => fold(raw.replace(/<[^>]+>/g, " ")), () => fold(raw.replace(/<[^>]+>/g, "")), () => fold(raw.replace(/<note[\s\S]*?<\/note>/g, " ").replace(/<[^>]+>/g, " "))]
+      : [() => fold(raw), () => fold(raw).replace(/\b\d+ /g, ""), () => fold(raw.replace(/-[ \t]*\r?\n\s*/g, ""))];
+    for (const make of variants) {
+      if (!jobs.some(j => j.left.length)) break;
+      const held = make();
+      jobs.forEach(j => { j.left = j.left.filter(q => !held.includes(q.f)); });
+    }
+  }
+  quoteJobs.forEach(j => j.left.forEach(q => errs.push(`${j.id}: quotation not found verbatim in the files it cites: "${q.piece.trim().slice(0, 90)}"`)));
 }
 (d.movements ?? []).forEach(m => {
   if (isPerson(m)) {
@@ -245,7 +358,7 @@ function checkCard(m) {
     else if (m.toldWithin !== null) {
       const home = byId.get(m.toldWithin);
       if (!home) errs.push(`${m.id}: toldWithin ${m.toldWithin} is not a movement`);
-      else if (isPerson(home)) errs.push(`${m.id}: toldWithin ${m.toldWithin} is a person, not a movement`);
+      else if (isPerson(home) || isCouncil(home)) errs.push(`${m.id}: toldWithin ${m.toldWithin} is a ${isPerson(home) ? "person" : "major council"}, not a movement`);
       else if (!(home.people ?? []).some(p => p.person === m.id)) errs.push(`${m.id}: missing from the people list of ${m.toldWithin}`);
     }
     if (m.people !== undefined) errs.push(`${m.id}: a person entry has no people list`);
@@ -257,6 +370,8 @@ function checkCard(m) {
   }
   if (isPerson(m) && m.peopleNote !== undefined) errs.push(`${m.id}: a person entry has no peopleNote`);
   if (m.card !== undefined) checkCard(m);
+  if (isCouncil(m) || m.council !== undefined) checkCouncil(m);
+  if (isPerson(m) || isCouncil(m)) checkQuotes(m);
   if (!REVIEW.has(m.reviewStatus)) errs.push(`${m.id}: reviewStatus must be "AI-checked", "partner-contributed" or "scholar-reviewed"`);
   if (m.livingEvidence?.descentConfidence !== undefined) {
     if (!CONFIDENCE.has(m.livingEvidence.descentConfidence)) errs.push(`${m.id}: livingEvidence.descentConfidence must be one of the five formation_confidence levels`);
@@ -286,6 +401,25 @@ function checkCard(m) {
   let last = -Infinity;
   (Array.isArray(m.people) ? m.people : []).forEach((p, j) => {
     const pt = `${m.id} people[${j}]`;
+    if (isCouncil(m)) {
+      // A major council's people are its Who click: a person entry with the part played, or a named line with a verdict.
+      const keys = Object.keys(p);
+      if (p.person !== undefined) {
+        if (!isPerson(byId.get(p.person))) errs.push(`${pt}: ${p.person} is not a person entry`);
+        if (keys.some(k => !["person", "part"].includes(k))) errs.push(`${pt}: a person entry is named by its ID and the part played`);
+      } else {
+        if (keys.some(k => !["name", "verdict", "part"].includes(k))) errs.push(`${pt}: a named person has name, verdict and part, nothing else`);
+        if (!plain(p.name)) errs.push(`${pt}: a named person needs a name`);
+        if (!COUNCIL_VERDICTS.has(p.verdict)) errs.push(`${pt}: verdict must be one of ${[...COUNCIL_VERDICTS].join(", ")}`);
+        const twin = [...byId.values()].find(w => isPerson(w) && plain(p.name) && w.name === p.name);
+        if (twin) errs.push(`${pt}: ${p.name} has the person entry ${twin.id}; list the entry`);
+      }
+      if (!plain(p.part)) errs.push(`${pt}: part must say what part this person played`);
+      const key = p.person ?? p.name;
+      if (seen.has(key)) errs.push(`${pt}: ${key} is listed twice`);
+      seen.add(key);
+      return;
+    }
     if (p.person !== undefined) {
       const who = byId.get(p.person);
       if (!isPerson(who)) errs.push(`${pt}: ${p.person} is not a person entry`);
@@ -324,6 +458,7 @@ function checkCard(m) {
     if (typeof y === "number") { if (y < last) errs.push(`${pt}: the people list is not in date order`); last = y; }
   });
 });
+finishQuotes();
 (d.edges ?? []).forEach((e, i) => {
   if (e.concerns === undefined) return;
   const tag = `edge[${i}] ${e.id}`;
