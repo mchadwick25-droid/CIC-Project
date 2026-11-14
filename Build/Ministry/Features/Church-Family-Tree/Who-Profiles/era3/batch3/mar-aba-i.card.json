@@ -1,0 +1,97 @@
+{
+  "name": "Mar Aba I",
+  "otherNames": [
+    "Mar Abba",
+    "Abas"
+  ],
+  "knownFor": "Catholicos of the Church of the East in the Persian empire, a convert from the old Persian religion, whose synod, dated by J.-B. Chabot to 544, records the end of a split between rival patriarchs.",
+  "dates": "Elected in January 540 and died in 552, in J.-B. Chabot's dates; Chabot dates the election from the synod's own dating and the death from the acts of the synod of his successor Joseph. The Latin editors of Bar Hebraeus, Jean-Baptiste Abbeloos and Thomas Lamy, give 538 to 552. Mari ibn Sulayman says he led the church for sixteen years. No source used here gives his birth year",
+  "place": "Seleucia-Ctesiphon, the seat of his church; Nisibis and Edessa in his early years; Adorbigan, in exile",
+  "tradition": "The Church of the East under Persia",
+  "role": "Catholicos and patriarch; teacher",
+  "briefLength": "about 2 minutes 30 seconds",
+  "keyWorks": [
+    {
+      "title": "The Synod of Mar Aba (dated by Chabot to 544)",
+      "about": "six documents issued under his name with his bishops, of which Chabot prints the first, third, fourth and fifth in full; they include the record of the end of the split, the bishops' journey through the dioceses, and the bishops' signatures"
+    },
+    {
+      "title": "Letter on the rule of conduct of the faithful",
+      "about": "one of the synod's documents, on Christian marriage, forbidding marriage to a second wife while the first lives and to close kin"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "The synod's record says the split between the rival patriarchs Narses and Elisha had wholly ended and the single rule of the see of Seleucia-Ctesiphon was restored.",
+      "Chabot says he founded a school at Seleucia. Mari ibn Sulayman says the same, and that a school he built stood until the patriarch Ezekiel, his disciple, restored it. J. Labourt doubts that the school at Seleucia existed so early."
+    ],
+    "remembered": [
+      "Chabot: the Church of the East honours him as a saint.",
+      "Mari ibn Sulayman calls him Mar Abba the Great and tells his conversion, his wonders, his trial before the king and his death.",
+      "J. W. McCrindle, the English translator of Cosmas Indicopleustes, takes Cosmas's teacher Patricius, who became Bishop Catholic of all Persia, for Mar Aba."
+    ]
+  },
+  "uncertain": [
+    "His life outside the synod's record rests on later accounts. His Life, by a disciple in J. Labourt's judgment, is held in Oskar Braun's German translation from Paul Bedjan's Syriac; Chabot says it needs careful critical study and lacks dates. Mari ibn Sulayman wrote in the 1100s and tells the conversion as a wonder.",
+    "How he died. The Life has him regain the king's favour and die of illness, near the church of Bet Narkos, as head of his church. Bar Hebraeus, writing for the rival Syriac Orthodox church, says he came back to Seleucia from exile, was chained and died in prison. Mari ibn Sulayman says he died of an illness after some days, grieving over what his clergy suffered.",
+    "Where he was baptized and buried. The Life puts his baptism in the village of Akda and his burial in the monastery of Seleucia. Mari ibn Sulayman puts both at Hira, and Chabot's outline follows him on the baptism.",
+    "How long he was held. Mari ibn Sulayman gives seven years in prison in Adorbigan; the Life speaks of nine years before he came back to his see.",
+    "The day of his death. The Life gives the Friday of the second week of Lent; Mari gives a Friday, the third day of Lent. J. Labourt gives 29 February 552.",
+    "His teacher of Greek. Chabot's outline says he learned Greek at Edessa from his disciple Thomas. Mari makes him a hearer of Thomas of Edessa and later counts Thomas among his disciples. Bar Hebraeus calls Thomas a Jacobite and says the two went on to Alexandria.",
+    "Whether Cosmas's teacher Patricius is Mar Aba. McCrindle says so, from the list of the patriarchs of his church. The Latin of Montfaucon, the Benedictine who first edited the Greek, which McCrindle rejects, reads the passage as making Thomas of Edessa the head of the church of Persia.",
+    "The year of his election: Chabot gives January 540; Abbeloos and Lamy give 538."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Synodicon orientale, ou recueil de synodes nestoriens: the Synod of Mar Aba (French tr. J.-B. Chabot)",
+        "language": "French translation",
+        "file": "cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Notes to the Synod of Mar Aba",
+        "author": "J.-B. Chabot",
+        "date": "1902",
+        "language": "French",
+        "file": "cic/texts/synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt"
+      },
+      {
+        "title": "History of the struggles of the holy witness Mar Aba (German tr. Oskar Braun)",
+        "author": "Anonymous disciple",
+        "date": "1915",
+        "language": "German translation",
+        "file": "cic/texts/persian-martyr-acts_ausgewahlte-akten-persischer-martyrer-bkv22-deu_braun1915.txt"
+      },
+      {
+        "title": "Le christianisme dans l'empire perse",
+        "author": "J. Labourt",
+        "date": "1904",
+        "language": "French",
+        "file": "cic/texts/labourt_le-christianisme-dans-l-empire-perse-sassanide-fra_1904.txt"
+      },
+      {
+        "title": "On the patriarchs of the East, from the Book of the Tower (Latin tr. Enrico Gismondi)",
+        "author": "Mari ibn Sulayman",
+        "date": "1899",
+        "language": "Latin translation",
+        "file": "cic/texts/mari-ibn-sulayman_de-patriarchis-nestorianorum-commentaria-pars-prior-ara-lat_gismondi1899.txt"
+      },
+      {
+        "title": "Chronicon ecclesiasticum, volume 3 (Latin tr. Jean-Baptiste Abbeloos and Thomas Lamy)",
+        "author": "Bar Hebraeus",
+        "date": "1877",
+        "language": "Latin translation",
+        "file": "cic/texts/barhebraeus_chronicon-ecclesiasticum-vol3-lat_abbeloos-lamy1877.txt"
+      },
+      {
+        "title": "Notes to the Christian Topography",
+        "author": "J. W. McCrindle",
+        "date": "1897",
+        "language": "English",
+        "file": "cic/texts/cosmas-indicopleustes_christian-topography_mccrindle1897.txt"
+      }
+    ]
+  }
+}

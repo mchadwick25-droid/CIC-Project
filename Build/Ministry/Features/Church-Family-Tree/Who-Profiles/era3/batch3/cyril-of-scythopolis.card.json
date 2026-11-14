@@ -1,0 +1,69 @@
+{
+  "name": "Cyril of Scythopolis",
+  "otherNames": [
+    "Cyrillus Scythopolitanus"
+  ],
+  "knownFor": "Monk and writer of the Lives of the desert fathers of Palestine, above all Euthymius the Great and Sabas, told from the side that accepted the Council of Chalcedon.",
+  "dates": "Born at Scythopolis in Galilee about 523 and died after 557, in M.-A. Kugener's dates. No other source used here gives his years",
+  "place": "Scythopolis in Galilee by birth; the monasteries of the Judean desert",
+  "tradition": "Chalcedonian Monasticism - Judean Desert & Gaza",
+  "role": "Monk; writer of saints' Lives",
+  "briefLength": "about 2 minutes",
+  "keyWorks": [
+    {
+      "title": "Life of Euthymius",
+      "about": "the life of the monk Euthymius the Great, from what old monks told Cyril, with his own account of the vision that let him begin"
+    },
+    {
+      "title": "Life of Sabas",
+      "about": "which Kugener calls a source of the greatest value for the church of Jerusalem and the monks of Palestine; only its passages on Severus of Antioch are used here, in Kugener's French"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "His Life of Sabas tells how the monks of Jerusalem, ten thousand by the count of those who reckoned them, held the city's church to Chalcedon against the emperor's duke.",
+      "Jean-Baptiste Cotelier calls him a most famous writer of Lives."
+    ],
+    "remembered": [
+      "Kugener: his Life of Sabas is a source of the greatest value for the history of the church of Jerusalem and of the monks of Palestine.",
+      "He tells that Euthymius and Sabas appeared to him and gave him the grace to begin."
+    ]
+  },
+  "uncertain": [
+    "He writes for the side that accepted the Council of Chalcedon. In the Life of Sabas passages he calls Severus of Antioch the leader of the Acephali.",
+    "His own life outside his books. Kugener gives his birth at Scythopolis about 523 and his death after 557. The Life of Euthymius tells his vision and how he gathered his stories, and says he later lived, by leave of the solitary John, whom he calls a bishop, in a laura the Origenists had held; the scan of Cotelier's Latin is rough there.",
+    "The form of the text. Cotelier says the Life was first written by Cyril, and notes that his copy lacks the opening letter that others cite as its beginning, though the passages the scholar Allatius quotes from Cyril's Life are found in it.",
+    "The language. Cyril wrote in Greek. The Life of Euthymius here follows Cotelier's Latin of 1681, and the Life of Sabas passages follow Kugener's French; the Life of Sabas as a whole is not held.",
+    "The anchorite Cyriacus is the source he names for some of the Euthymius stories."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Life of Euthymius, in Ecclesiae Graecae Monumenta, volume 2 (Latin tr. Jean-Baptiste Cotelier)",
+        "language": "Latin translation",
+        "file": "cic/texts/cyril-scythopolis_vita-euthymii-cotelier-monumenta-v2-grc-lat_1681.txt"
+      },
+      {
+        "title": "Life of Saint Sabas, passages on Severus (French tr. M.-A. Kugener)",
+        "language": "French translation",
+        "file": "cic/texts/zacharias-scholasticus_vie-de-severe-po2-syr-fra_kugener1903.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Note introducing the Life of Saint Sabas passages",
+        "author": "M.-A. Kugener",
+        "date": "1903",
+        "language": "French",
+        "file": "cic/texts/zacharias-scholasticus_vie-de-severe-po2-syr-fra_kugener1903.txt"
+      },
+      {
+        "title": "Notes to the Life of Euthymius",
+        "author": "Jean-Baptiste Cotelier",
+        "date": "1681",
+        "language": "Latin",
+        "file": "cic/texts/cyril-scythopolis_vita-euthymii-cotelier-monumenta-v2-grc-lat_1681.txt"
+      }
+    ]
+  }
+}
