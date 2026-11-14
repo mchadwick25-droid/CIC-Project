@@ -43,7 +43,7 @@
     ]
   },
   "uncertain": [
-    "The year of his death. One part of Bar Hebraeus's chronicle, as printed, gives 903, and another 913. Abbeloos and Lamy follow 903 and call 913 a slip in the numeral. Andreas Masius gave 914 or 913, as Joseph Assemani reports him, and Assemani later wrote 903. C. W. Mitchell gives 903.",
+    "The year of his death. One part of Bar Hebraeus's chronicle, as printed, gives 903, and another 913. Abbeloos and Lamy follow 903 and call 913 a slip in the numeral. Andreas Masius gave 914 or 913, as Joseph Assemani reports him, and Assemani later wrote 903. F. C. Burkitt, introducing the second volume of C. W. Mitchell's edition of Ephrem, gives 903.",
     "The day. Bar Hebraeus gives the twelfth of Shebat. Masius, as Assemani reports him, gives the thirteenth, a Saturday.",
     "His life outside Bar Hebraeus. The three sees, the forty years, the ninety years and the ten years at Tagrit come from an anonymous Syriac life that Abbeloos and Lamy know through Assemani's second volume. That volume is not among the sources used here.",
     "Ignatius, to whom On Paradise is addressed. Moses calls him his brother, and no source used here says whether by blood or as a monk.",
@@ -64,14 +64,14 @@
       },
       {
         "title": "The Odes and Psalms of Solomon, volume 2: a line of his tract on baptism",
-        "author": "Moses bar Kepha; Mr. Aytoun (tr.), as quoted by J. Rendel Harris and Alphonse Mingana (ed.)",
+        "author": "Moses bar Kepha, in English as Mr. Aytoun gives it; J. Rendel Harris and Alphonse Mingana (ed.)",
         "date": "1920",
         "language": "English translation",
         "file": "cic/texts/odes-of-solomon_harris-mingana1920.txt"
       },
       {
-        "title": "Prose Refutations of Mani, Marcion and Bardaisan, volume 2: introduction, quoting Moses bar Kepha on Bardaisan",
-        "author": "Moses bar Kepha; C. W. Mitchell (tr.)",
+        "title": "S. Ephraim's Prose Refutations of Mani, Marcion and Bardaisan, volume 2: F. C. Burkitt's introductory essay, quoting Moses bar Kepha on Bardaisan",
+        "author": "Moses bar Kepha; F. C. Burkitt (English)",
         "date": "1921",
         "language": "English translation",
         "file": "cic/texts/ephraim_prose-refutations_mitchell1912-1921.txt"

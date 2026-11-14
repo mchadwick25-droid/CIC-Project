@@ -75,6 +75,13 @@
         "date": "1895",
         "language": "English",
         "file": "cic/texts/abu-salih_churches-and-monasteries-of-egypt_evetts1895.txt"
+      },
+      {
+        "title": "History of the Patriarchs of the Coptic Church of Alexandria, Peter I to Benjamin I, in Patrologia Orientalis 1 (tr. B. Evetts)",
+        "author": "Attributed to Severus ibn al-Muqaffa",
+        "date": "1907",
+        "language": "English translation",
+        "file": "cic/texts/severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt"
       }
     ]
   }

@@ -37,8 +37,8 @@
     "formation_confidence": "Documented"
    },
    {
-    "claim": "Theophanes: \"Sophronius autem Hierosoly- morum antistes ſidem ab eo pro totius P[alaestinae] incolumitate acceperat\" ... \"lemplum a Salomene constructum\" ... \"Hæc est vere, inquit, abominatio deso- latiouis a propheta Daniele pranuntiala, que modo stat in loco sancto\" (OCR); written in the early ninth century; \"Hunc\" (masculine) is Umar, so the words are said of the caliph in the holy place",
-    "witness": "THEOPH (theophanes-confessor_chronographia-pg108-grc-lat_migne1863.txt) l.61809-61828",
+    "claim": "Theophanes: \"Sophronius autem Hierosoly- morum antistes ſidem ab eo pro totius P[alaestinae] incolumitate acceperat\" ... \"lemplum a Salomene constructum\" ... \"Hæc est vere, inquit, abominatio deso- latiouis a propheta Daniele pranuntiala, que modo stat in loco sancto\" (OCR); written in the early ninth century; the Greek \"Τοῦτον\" (l.61789, OCR \"Toiroy\") can take the temple, \"ναόν\" (l.61787), or Umar; the Latin \"Hunc\" (l.61824) takes Umar. The brief leaves it open",
+    "witness": "THEOPH (theophanes-confessor_chronographia-pg108-grc-lat_migne1863.txt) l.61787-61792, 61809-61828",
     "formation_confidence": "Contested"
    },
    {
@@ -226,7 +226,7 @@
    },
    {
     "claim": "Testament: \"Μετὰ λύπης ὑπερβαλλούσης διήνυσα πᾶσας τὰς ημέρας τῆς ζωῆς µου, τὸ γὰρ πάντη ἀνίκανον τῆς ἀσὺενοῦς µου φυχῆς eis τὸ προϊΐστασδαι ἑτέρων\" (OCR \"ἀσὺενοῦς\", \"φυχῆς\", \"προϊΐστασδαι\"); told in modern words",
-    "witness": "MEYER l.6585-6587",
+    "witness": "MEYER l.6592-6594",
     "formation_confidence": "Documented"
    },
    {
@@ -510,7 +510,7 @@
     "formation_confidence": "Documented"
    },
    {
-    "claim": "Editors' note: from the anonymous Syriac life in Assemani BO II: \"cum vixisse annos circiter nonaginta ; trium civitatum Kini* vitias ditionis sedes episcopales tenuisse per an- nos quadraginta, assumpto Severi nomine, nimi- rum Belh-Raman, Beth-Chinne sen Betb-Chiuc atque Mossolc; item fuisse per decennium Tagri* tensis ecclesiie, proprio tunc episcopo viduate, periodeutem seu visitatorem\" (OCR); Migne's heading and Assemani have \"Beth-Ceno\" (PG111 l.36955; ASSEMANI1 l.109574-109575)",
+    "claim": "Editors' note: from the anonymous Syriac life in Assemani BO II: \"cum vixisse annos circiter nonaginta ; trium civitatum Kini* vitias ditionis sedes episcopales tenuisse per an- nos quadraginta, assumpto Severi nomine, nimi- rum Belh-Raman, Beth-Chinne sen Betb-Chiuc atque Mossolc; item fuisse per decennium Tagri* tensis ecclesiie, proprio tunc episcopo viduate, periodeutem seu visitatorem\" (OCR); Migne's heading and Assemani have \"Beth-Ceno\" (PG111 l.36957; ASSEMANI1 l.109579-109580)",
     "witness": "BARHEB1 l.22847-22856",
     "formation_confidence": "Inferential-Thin"
    },
@@ -565,8 +565,8 @@
     "formation_confidence": "Documented"
    },
    {
-    "claim": "Mitchell: \"I will begin by quoting what Moses bar Kepha says about him.\" ... \"Bardaisan held about this world that it is composed of Five Entities (Ithye)\"; \"Moses bar Kepha died 903 A.D.\"",
-    "witness": "MITCHELL (ephraim_prose-refutations_mitchell1912-1921.txt) l.2652-2656",
+    "claim": "F. C. Burkitt's introductory essay to volume 2: \"I will begin by quoting what Moses bar Kepha says about him.\" ... \"Bardaisan held about this world that it is composed of Five Entities (Ithye)\"; \"Moses bar Kepha died 903 A.D.\"",
+    "witness": "MITCHELL (ephraim_prose-refutations_mitchell1912-1921.txt) l.2585-2586, 2652-2656",
     "formation_confidence": "Documented"
    },
    {
@@ -584,7 +584,7 @@
    {
     "claim": "The year of his death",
     "sides": [
-     "903: Bar Hebraeus, section II as edited (BARHEB3 l.12589-12591); the Roman codex used by Assemani; Abbeloos and Lamy (BARHEB1 l.22864-22876); Assemani, volume 3 (ASSEMANI3-1 l.90502-90503); C. W. Mitchell (MITCHELL l.2656)",
+     "903: Bar Hebraeus, section II as edited (BARHEB3 l.12589-12591); the Roman codex used by Assemani; Abbeloos and Lamy (BARHEB1 l.22864-22876); Assemani, volume 3 (ASSEMANI3-1 l.90502-90503); F. C. Burkitt (MITCHELL l.2585-2586, 2656)",
      "913: Bar Hebraeus, section I as printed from the London manuscript (BARHEB1 l.23008); Andreas Masius, as Assemani reports him (ASSEMANI1 l.109577-109585)"
     ]
    },
@@ -700,7 +700,8 @@
     "claim": "The year Alopen reached Chang-an",
     "sides": [
      "635: A. Wylie's English of the stele (MALECH l.13690); Henry Yule (YULE l.2939, 2964); Budge's Appendix B, after Saeki (BUDGE1928 l.5174-5175); T. J. Lamy via Chabot, for the church (CHABOT1895 l.1344)",
-     "636: Joseph Assemani (ASSEMANI3-2 l.35905, 55233); Abbeloos and Lamy (barhebraeus_chronicon-ecclesiasticum-vol3-lat_abbeloos-lamy1877.txt l.9523); Budge's introduction (BUDGE1928 l.1844, 1882); W. A. Wigram 1929: about 630 (WIGRAM1929 l.4183-4190)"
+     "636: Joseph Assemani (ASSEMANI3-2 l.35905, 55233); Abbeloos and Lamy (barhebraeus_chronicon-ecclesiasticum-vol3-lat_abbeloos-lamy1877.txt l.9523); Budge's introduction (BUDGE1928 l.1844, 1882)",
+     "About 630: W. A. Wigram, 1929 (WIGRAM1929 l.4184-4190)"
     ]
    },
    {
