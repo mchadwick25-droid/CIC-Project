@@ -4,7 +4,7 @@ Eight profiles, one id each: `bede-of-jarrow`, `boniface-of-mainz`, `aidan-of-li
 
 These are the first era 4 WHO rows of `Build/Ministry/Operations/Audits/2026-11-11_who-scan-era4/Who_Scan_Era4.md`, the first batch under Mark's ruling of 2026-11-14 that eras 4 to 7 are built in full. None was written before. Bede is a live census person entry. His id is the census id, and his profile agrees with the live entry except where the held lines differ; those points are logged in Open-Gaps for a census fix, and the census is not changed here. Many of the scan's years rest on a Library file header or an editor's reckoning, so the cards give the years the held sources give and say whose they are.
 
-The coordinator marked all eight major on 2026-11-14, as the scan proposed. Seven run 402 to 405 words, about 2:30; the 2:30 is a cap, not a target. Nennius is a recorder with a thin held life, so he keeps the major mark and runs at standard length, about 2:06, by the rulings for Palladius, John of Ephesus and Gregory of Tours (the coordinator's call, 2026-11-14). Bede is a recorder too, but his held life, his list of works and Cuthbert's letter on his death carry the full length.
+The coordinator marked all eight major on 2026-11-14, as the scan proposed. Seven run 402 to 405 words, about 2:30; the 2:30 is a cap, not a target. Nennius keeps the major mark, as the coordinator ruled. He is a recorder with a thin held life, so his brief is held near standard length, about 2:06. The recorders Palladius, John of Ephesus and Gregory of Tours were kept at standard length too, though they were not marked major (the coordinator's call, 2026-11-14). Bede is also a recorder, but his held life, his list of works and Cuthbert's letter on his death carry the full length.
 
 Names and ids, the worker's calls:
 - **Boniface of Mainz.** The card name carries the place, since popes of the name are in the census, and the id follows it: `boniface-of-mainz`. The Royal Frankish Annals call him archbishop of Mainz.
@@ -14,7 +14,7 @@ Names and ids, the worker's calls:
 Card traditions are the census's names. Three are the worker's calls, logged in Open-Gaps:
 - Aidan of Lindisfarne reads "Anglo-Saxon Christianity; Insular / Irish Monastic Christianity". His years, 635 to 651 by Bede's counts, fall in both movements, and both name him. His work was the founding of the Northumbrian see, so Anglo-Saxon Christianity goes first.
 - Adomnán of Iona reads "Medieval Irish Christianity; Insular / Irish Monastic Christianity". His years as abbot, 679 to 704, fall in Medieval Irish Christianity, which goes first. The Insular movement is kept second because it names him among its people and covers Iona.
-- Boniface of Mainz reads "Anglo-Saxon Christianity". His mission and synods fall before 751, when Carolingian Reform Christianity begins.
+- Boniface of Mainz reads "Anglo-Saxon Christianity". The census lists him among its people, and its years, 597 to 793, cover his whole life. His synods fall before 751, when Carolingian Reform Christianity begins, and that movement does not list him.
 
 | File | Holds |
 |---|---|
