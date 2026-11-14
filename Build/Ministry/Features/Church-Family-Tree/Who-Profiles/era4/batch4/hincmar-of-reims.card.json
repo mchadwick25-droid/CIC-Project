@@ -4,8 +4,8 @@
     "Hincmarus",
     "Ingmarus"
   ],
-  "knownFor": "Archbishop of Reims in Frankish Gaul who carried on the royal annals from 861 to 882. He fought his own nephew, Hincmar of Laon, through councils and letters to two popes.",
-  "dates": "Ordained archbishop of Reims in 845, by a table of dates in J. D. Mansi's council collection. In 849 the bishops at Quierzy sent him the condemned monk Gottschalk to hold, Nicolás Antonio says. His annals end in 882, the year Theodor Mommsen gives for his death. No held source gives his birth",
+  "knownFor": "Archbishop of Reims in Frankish Gaul who carried on the annals now called the Annals of Saint-Bertin from 861 to 882. He fought his own nephew, Hincmar of Laon, through councils and letters to two popes.",
+  "dates": "Ordained archbishop of Reims in 845, by a table of dates in J. D. Mansi's council collection. In 849 the bishops at Quierzy sent him the condemned monk Gottschalk to hold, says Nicolás Antonio, a Spanish scholar writing after 1650. His annals end in 882, the year Theodor Mommsen gives for his death. No held source gives his birth",
   "place": "Reims, where he was archbishop; Épernay, beyond the Marne, where he fled in 882",
   "tradition": "Carolingian Reform Christianity",
   "role": "Archbishop of Reims; annalist",
@@ -13,7 +13,7 @@
   "keyWorks": [
     {
       "title": "Annals of Saint-Bertin, from 861 to 882",
-      "about": "the royal annals he carried on after Prudentius of Troyes. G. H. Pertz, an earlier editor, says hardly anyone but Hincmar could have told some of what they hold, such as his flight to Épernay"
+      "about": "the annals he carried on after Prudentius of Troyes. Georg Waitz says some have held them to be official annals and others have doubted it. G. H. Pertz, an earlier editor, says hardly anyone but Hincmar could have told some of what they hold, such as his flight to Épernay"
     },
     {
       "title": "Chapters for the priests of his diocese",
@@ -27,7 +27,7 @@
   "legacy": {
     "traces": [
       "The council of Douzy deposed his nephew Hincmar of Laon in 871, at the request of King Charles the Bald. Pope Hadrian II rejected the deposition, a note in Mansi says, and Pope John VIII later called the judgment just.",
-      "Mansi's volumes print the writings of both Hincmars of 868. Cellotius, a Jesuit who wrote to the uncle's credit, says the uncle then fought for his nephew against outside force.",
+      "Mansi's volumes print the writings both Hincmars put before King Charles the Bald in August 868. Ludovicus Cellotius, a Jesuit who wrote to the uncle's credit, says the uncle then fought for his nephew against outside force.",
       "His notice of Prudentius's death, in the annals for 861, gives Prudentius's Spanish birth and his turn in the predestination quarrel."
     ],
     "remembered": [
@@ -38,7 +38,7 @@
   },
   "uncertain": [
     "Much of his story comes from his own annals. G. H. Pertz warns that they need care where his own affairs are concerned. His nephew's own complaint to Pope John survives in Mansi's collection.",
-    "What happened to his nephew after Douzy. In his own complaint to Pope John, the nephew says he was exiled, chained, and blinded after nearly two years. He does not say who blinded him. Ludovicus Cellotius, a Jesuit who took the uncle's side, says the nephew brought blindness and prison on himself by plotting against the king.",
+    "What happened to his nephew after Douzy. In his own complaint to Pope John, the nephew says he was exiled, chained, and blinded after nearly two years. He does not say who blinded him. Cellotius, the Jesuit who took the uncle's side, says the nephew brought blindness and prison on himself by plotting against the king.",
     "His part in the 849 entry on Gottschalk, in Prudentius's part of the annals. G. H. Pertz holds it plain that Hincmar reworked it. A note from Bouquet's edition says the abbé Lebeuf suspected so.",
     "His birth. No held source gives it. Theodor Mommsen gives 882, the year the annals end, as the year he died."
   ],
@@ -59,7 +59,7 @@
         "file": "cic/texts/mansi_sacrorum-conciliorum-collectio-tomus-15-lat_welter-facsimile1902.txt"
       },
       {
-        "title": "The council of Douzy, the bishops' letter to Pope Hadrian II, his own letter to Hadrian, and the writings of the two Hincmars, in Sacrorum conciliorum collectio 16",
+        "title": "Council of Douzy, letters to Pope Hadrian II, and writings of both Hincmars, in Sacrorum conciliorum collectio 16",
         "author": "Hincmar of Reims and others",
         "date": "1902",
         "language": "Latin",

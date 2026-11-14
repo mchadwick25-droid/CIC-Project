@@ -21,7 +21,7 @@
     },
     {
       "title": "Dialogue between a Roman and a man of Constantinople",
-      "about": "an answer to the Greek charges against the Latins. Wibert, Pope Leo's biographer, says Humbert wrote it in Latin at Constantinople in 1054, and the emperor had it put into Greek. Will reports that Gfrörer thought it was brought from Rome"
+      "about": "an answer to the Greek charges against the Latins. Wibert, Pope Leo's biographer, says Humbert wrote it in Latin at Constantinople in 1054, and the emperor had it put into Greek. Will reports that the church historian A. F. Gfrörer thought it was brought from Rome"
     }
   ],
   "legacy": {
@@ -39,7 +39,7 @@
   },
   "uncertain": [
     "Most of the story comes from the envoys' own account. The Greek side is known from the edict of Michael's synod. The two disagree, and Cornelius Will, who edited both, takes the Roman side.",
-    "Who forged what. The edict says the pope never sent the envoys, that they came on the advice of Argyrus, and that their letters bore false seals. The envoys' account says Michael falsified the Greek version of their sentence. Will calls the edict's charge a lie.",
+    "Who forged what. The edict says the pope never sent the envoys, that they came on the advice of Argyrus, the Greek governor in Italy, and that their letters bore false seals. The envoys' account says Michael falsified the Greek version of their sentence. Will calls the edict's charge a lie.",
     "Why they never met. The envoys' account says the patriarch avoided them. Michael wrote to Peter of Antioch that they would not greet him, bow, or sit below his metropolitans.",
     "Who wrote the account. It speaks of the envoys in the third person. Will gives it to Humbert as head of the embassy, and Sigebert and Ekkehard say Humbert wrote these things down.",
     "Who wrote the reply to Nicetas. Wibert, Pope Leo's biographer, gives it to Frederick the chancellor, and Will says others followed him. Will gives it to Humbert, since it points back to his earlier answer to Michael and Leo of Ohrid.",
@@ -90,18 +90,21 @@
       {
         "title": "Life of Leo IX, as quoted by Will",
         "author": "Wibert, archdeacon of Toul",
+        "date": "1861",
         "language": "Latin",
         "file": "cic/texts/will_acta-et-scripta-de-controversiis-ecclesiae-graecae-et-latinae-saec-xi-grc-lat_1861.txt"
       },
       {
         "title": "Chronicle of Monte Cassino, as quoted by Will",
         "author": "Leo of Ostia",
+        "date": "1861",
         "language": "Latin",
         "file": "cic/texts/will_acta-et-scripta-de-controversiis-ecclesiae-graecae-et-latinae-saec-xi-grc-lat_1861.txt"
       },
       {
         "title": "Chronicles, as quoted by Will",
         "author": "Sigebert of Gembloux and Ekkehard",
+        "date": "1861",
         "language": "Latin",
         "file": "cic/texts/will_acta-et-scripta-de-controversiis-ecclesiae-graecae-et-latinae-saec-xi-grc-lat_1861.txt"
       }

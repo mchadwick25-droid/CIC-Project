@@ -27,7 +27,7 @@
     "formation_confidence": "Documented"
    },
    {
-    "claim": "Nicetas: 'Niceta monachus, qui et Pectoratus, ante praesentiam praefati imperatoris ... anathematizavit quoddam scriptum sub suo nomine ... praetitulatum: De azymo, de sabbato et de nuptiis sacerdotum'; the emperor 'jussit ... praefatum incendi scriptum'; next day 'ultro adiit legatos ... Sic ab eis in communionem receptus et effectus est eorum familiaris amicus'. 'the bread of the Mass' renders 'De azymo'",
+    "claim": "Nicetas: 'Niceta monachus, qui et Pectoratus, ante praesentiam praefati imperatoris ... anathematizavit quoddam scriptum sub suo nomine ... praetitulatum: De azymo, de sabbato et de nuptiis sacerdotum'; the emperor 'jussit ... praefatum incendi scriptum'; next day 'ultro adiit legatos ... Sic ab eis in communionem receptus et effectus est eorum familiaris amicus'. 'unleavened bread at Mass' renders 'De azymo'",
     "witness": "WILL (will_acta-et-scripta-de-controversiis-ecclesiae-graecae-et-latinae-saec-xi-grc-lat_1861.txt) l.14805-14827 [two columns interleaved]",
     "formation_confidence": "Documented"
    },
@@ -67,7 +67,7 @@
     "formation_confidence": "Documented"
    },
    {
-    "claim": "Leo of Ostia, Chronicle of Monte Cassino, quoted by Will: 'Sed quum jam intra hos dies defuncto papa redire disponerent'; Will dates Leo IX's death 'XIII Cal. Maj. 1054'. The brief now gives Will's date for the death (19 April) instead of Leo of Ostia's line",
+    "claim": "Leo of Ostia, Chronicle of Monte Cassino, quoted by Will: 'Sed quum jam intra hos dies defuncto papa redire disponerent'; Will dates Leo IX's death 'XIII Cal. Maj. 1054'. Will's date for the death is used",
     "witness": "WILL (will_acta-et-scripta-de-controversiis-ecclesiae-graecae-et-latinae-saec-xi-grc-lat_1861.txt) l.4138-4143; l.4111-4112",
     "formation_confidence": "Documented"
    },
@@ -375,8 +375,8 @@
     "formation_confidence": "Documented"
    },
    {
-    "claim": "Antonio's answer: 'calumniose et inique dicta contra Prudentium'; 'Nec verum est Prudentium Gotescalcho obstitisse unquam, diversave aut Fidei contraria scripsisse, quod aiunt calumniosi Annales'",
-    "witness": "PL115 (eulogius-cordoba_opera-with-alvarus-vita-eulogii-pl115-lat_migne1852.txt) l.79391, 79628-79632",
+    "claim": "Antonio's answer: 'calumniose et inique dicta contra Prudentium'; 'Nec verum est Prudentium Gotescalcho obstitisse unquam, diversave aut Fidei contraria scripsisse, quod aiunt calumniosi Annales'; 'Sed Bertinianus Anonymus, Hincmari metropolitae ... velificatus partibus'; Antonio sets Hincmar's own honouring of Prudentius ('dominum Prudentium') against it",
+    "witness": "PL115 (eulogius-cordoba_opera-with-alvarus-vita-eulogii-pl115-lat_migne1852.txt) l.79391, 79628-79632; l.79616-79627",
     "formation_confidence": "Documented"
    },
    {
@@ -401,7 +401,7 @@
    },
    {
     "claim": "Card: manuscript note: 'compositor ejus Prudentius de quibusdam ecclesiasticis dogmatibus non sensit catholice'; Camusat answers, 'Nic. Camusat. Tricassinus, in Promptuario antiquitatum Tricassinae dioecesis'; Camusat: 'ex alicujus fortasse capite'",
-    "witness": "PL115 (eulogius-cordoba_opera-with-alvarus-vita-eulogii-pl115-lat_migne1852.txt) l.82847-82866",
+    "witness": "PL115 (eulogius-cordoba_opera-with-alvarus-vita-eulogii-pl115-lat_migne1852.txt) l.82847-82867",
     "formation_confidence": "Documented"
    },
    {
@@ -428,6 +428,13 @@
     "sides": [
      "As printed (BERT l.2457-2458)",
      "Lebeuf, in Bouquet's note reprinted by Waitz (l.2495-2505), and Pertz (l.219-226): reworked by Hincmar"
+    ]
+   },
+   {
+    "claim": "Who wrote the 861 notice of Prudentius",
+    "sides": [
+     "G. H. Pertz: Hincmar, 'extra dubium' (BERT l.203-205)",
+     "Nicolás Antonio: an anonymous annalist on Hincmar's side (PL115 l.79379-79380, 79622-79627)"
     ]
    }
   ],
