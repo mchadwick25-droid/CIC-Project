@@ -338,6 +338,21 @@
     "claim": "Moschus a monk of Palestine: of St Theodosius, the Jordan desert and the New Laura of St Sabas",
     "witness": "Fabricius (l.3378-3379) and the old notice (l.24932-24946), john-moschus pg87-3",
     "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "The notice's last words: the disciple 'reliquumque vitz suæ tempus in eodem cœnobio tran<egit'; Papebroch: 'cujus postrema verba, nisi alium a So- phronio Hierosolymitano Moschi socium fuisse velimus credere (contra totius pene Crece anti- quitatis congensum ...), necesse est benignius interpretemur de longe maxima vitz reliquæ parte' (OCR 'tran<egit' = transegit, 'Crece' = Graecae)",
+    "witness": "The old notice and Papebroch (john-moschus pg87-3 l.25464-25473)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "The Meadow gathers what he saw or heard: the dedication speaks of holy men 'qui temporibus no- stris claruere'; the notice, 'si quid de vita rebusque gestis virtute insigninm virorum audisset vel vidisset, id seriptis manda- ret'",
+    "witness": "Dedication and the old notice (john-moschus pg87-3 l.3776-3777, 24971-24973)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Identifiers: 'Photius patriarcha Constantinopolitanus' (Lipomanus); 'temporibus Tiberii II imp.'",
+    "witness": "john-moschus pg87-3 l.3630, 24460",
+    "formation_confidence": "Documented"
    }
   ],
   "contested_claims": [
@@ -357,7 +372,7 @@
    },
    {
     "detail": "An English translation of the Meadow",
-    "note": "None held. Whole-Library search for Moschus/Moschi/Moscho, Eucrat-, Evirat-, Limonar-, Leimon, 'Spiritual Meadow' and 'Pratum spirituale' finds only citations (e.g. Wardrop's Life of Nino l.16933-17002, PO 8, PO 16, Acta Sanctorum March III); the file header says no public-domain English exists."
+    "note": "None held. Whole-Library search for Moschus/Moschi/Moscho, Eucrat-, Evirat-, Limonar-, Leimon, 'Spiritual Meadow' and 'Pratum spirituale' finds no English. It finds Cotelier's Greek-Latin chapters (cyril-scythopolis_vita-euthymii-cotelier-monumenta-v2 l.46158-59653), which duplicate part of PG 87.3, John of Damascus's citations under Sophronius's name in PG 94 (john-damascus pg94 l.91844, 94857, 96433), and citations elsewhere (e.g. Wardrop's Life of Nino l.16933-17002, PO 8, PO 16, Acta Sanctorum March III). The file header says no public-domain English exists."
    },
    {
     "detail": "His birth, family and age",
@@ -649,12 +664,27 @@
    },
    {
     "claim": "Labourt: Dadisho 'mourut âgé de soixante-quinze ans, ... entre 615 et 620'",
-    "witness": "Labourt (labourt1904 l.17771-17772)",
+    "witness": "Labourt (labourt1904 l.17771-17772); the word before 'entre' is garbled in the OCR ('phone') and may be a hedge; the page image is not held",
     "formation_confidence": "Contested"
    },
    {
     "claim": "Book III, chapters I-III of Thomas (schools, books, death of 'Rabban Babhai') concern another man: 'He came from a family in the town of Gebhilta'; 'the period in which he lived was in the days of Selibha-zekha, Catholicus'",
     "witness": "Thomas, Book of Governors III.1 (thomas-of-marga book-of-governors-v2 budge1893 l.12888-12894)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Mari: 'Proprio ilaque patriarcha occlosia oaruit ad annos docem ot septom, oius intoroa guberna- tionom gorontibus Mar Aba arcliidiacono alquo Mar Babaoo Magno e coe- nobio Mar Abraliam' (OCR for 'Proprio itaque patriarcha ecclesia caruit ad annos decem et septem, eius interea gubernationem gerentibus ... Mar Babaeo Magno'); 'Amr: 'Sedem itaque administravit [citra ordinationem ut vicarius] Mar A!ia archidiaconus una cum Mar iJabae-) ^lngno' (OCR for Mar Aba ... Mar Babaeo Magno; the bracket is Gismondi's)",
+    "witness": "Mari, tr. Gismondi (mari gismondi1899 l.13517-13519); 'Amr, tr. Gismondi (amr gismondi1896-1897 l.13424-13426); Chabot cites both (chabot1902 l.37359-37361)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Babai's Life of George, whole in German: 'verfaßt vom heiligen Rabban Mär Bäbai, dem Abte auf dem Berge Izalä'; his preface: 'Vor ungefähr dreiund- dreißig Jahren schrieb ich die Geschichte des Abrahams von Kaschkar ... Später schrieb ich die Geschichte seines Nach- folgers Dädischö' aus Bet Däräje'; the charge 'Er leugnet die Auferstehung der Leiber und (lehrt), daß es eine Erlösung nur für die Seelen gebe'; Braun's heading dates George's death 14 January 615 and Babai's visitorship to the vacancy '608 — 628'",
+    "witness": "Babai, Life of George, tr. Oskar Braun (persian-martyr-acts bkv22 braun1915 l.852-860, 12419-12446, 13395-13396); Hoffmann's German extracts of the same passage (persian-martyr-acts hoffmann1880 l.5596-5612)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Guidi's chronicle: among the monks from Izla, 'Màr Babhay filius Nisibenorum'; Satan 'iurgia multa magnasque contentiones excitavit inter duas illas firmissimas religionis turres, duo Babhay'; 'Asseclae, monachi, Mar Babhay magni (maioris) nemini permittebant ul in suum monasterium intraret, quin anathema diceret in exi- mium Maàr Babhay nisibenum quem Babhay parvum (minorem) cognominaverunt'; 'Seripsit autem. Mar. Babhay magnus (mator) libros multos, disputationes atque interpretaliones' (OCR as in the file; the parentheses are Guidi's)",
+    "witness": "Anonymous East Syrian chronicle, tr. Guidi (chronica-minora guidi1903 l.2032-2037, 2051-2058, 2067-2069); Labourt (labourt1904 l.13093-13096)",
     "formation_confidence": "Documented"
    }
   ],
@@ -673,25 +703,25 @@
    },
    {
     "claim": "When Babai became abbot",
-    "sides": "Scher, from the Chronicle of Seert's 24 years: 603/4 (seert l.29695); Labourt puts Dadisho's death between 615 and 620 (labourt1904 l.17771-17772)."
+    "sides": "Scher, from the Chronicle of Seert's 24 years: 603/4 (seert l.29695); Labourt puts Dadisho's death between 615 and 620, after a word lost in the OCR (labourt1904 l.17771-17772)."
+   },
+   {
+    "claim": "Who Babai bar Nisibnaye was",
+    "sides": "Guidi's chronicle: Babai of Nisibis, son of the Nisibenes, a monk from Izla and Babai the Great's rival, called Babai the Little (guidi1903 l.2036-2058). Budge: Babhai bar-Nesibhnaye flourished under Selibha-zekha, 713-729, famous for his voice (budge1893 l.2071-2073), the time Thomas gives Rabban Babai of Gebilta (l.12888-12894)."
    }
   ],
   "absent_details": [
    {
     "detail": "A Syriac or English text of his own books",
-    "note": "The Book of the Union is held only as passages quoted in Labourt's French (l.15845-16120); the Life of George only as two passages in Chabot's French (l.42081-42240). Searched all of cic/texts for Babai/Babaï/Babhai/Babaeus."
+    "note": "The Book of the Union is held only as passages quoted in Labourt's French (labourt1904 l.15845-16120). The Life of George is held whole in Oskar Braun's German (persian-martyr-acts bkv22 braun1915 l.12419 ff., the introduction abridged, l.12442-12443), in Georg Hoffmann's German extracts (persian-martyr-acts hoffmann1880 l.5596-5612) and as two passages in Chabot's French (chabot1902 l.42080-42240). No Syriac or English text of his books is held. Searched all of cic/texts for Babai/Babaï/Bäbai/Babhai/Bàbhay/Babaeus/Babaeo."
    },
    {
     "detail": "His birth year",
     "note": "No held ancient line. 552/3 is Scher's reckoning; Budge gives fl. 569-628."
    },
    {
-    "detail": "Mari and Amr on Babai the Great",
-    "note": "Gismondi's Latin Mari and Amr, as OCR'd, name other Babais (the catholicos, Babai of Kashkar, Babai of Nisibis) but no line naming Babai the Great was found; Scher cites Mari p. 61 and Amr p. 52 (seert l.29692)."
-   },
-   {
     "detail": "The scan row's Book III lead",
-    "note": "Thomas Book III ch. I-III (l.12841-13575) is Rabban Babai of Gebilta under Selibha-zekha, not Babai the Great."
+    "note": "Thomas Book III ch. I-III (l.12841-13575) is Rabban Babai of Gebilta under Selibha-zekha, not Babai the Great. Budge puts a Babhai bar-Nesibhnaye, famous for his voice, under the same catholicos (budge1893 l.2071-2073); the anonymous chronicle Guidi edited makes bar Nisibnaye Babai the Great's contemporary (guidi1903 l.2036-2058); see the contested claim."
    }
   ]
  },
@@ -1111,6 +1141,11 @@
     "claim": "He lived near Favianis: 'Near this town, as I have related, Saint Severinus dwelt'",
     "witness": "Eugippius XLII (eugippius robinson1914 l.3663-3667)",
     "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Robinson: '488 ? Fredericus returns. He is again put to flight, this time by an army which Odoacer sends under his brother Onoiilfus'; Eugippius: 'the sixth year of his burial had already passed'",
+    "witness": "Robinson's table (eugippius robinson1914 l.4869-4871); Eugippius XLIV (l.3964-3966)",
+    "formation_confidence": "Dominant Modern Reconstruction"
    }
   ],
   "contested_claims": [
@@ -1126,7 +1161,7 @@
   "absent_details": [
    {
     "detail": "A second independent witness to his life",
-    "note": "None held. Paul the Deacon (foulke1907 l.2649-2659) draws on Eugippius (Foulke l.14530-14531). Whole-Library search for Severin* beside Noric-/Eugipp-/Favian-/Lucull-/Odoac- finds only citations and, in Mansi 10, Gregory the Great's letter naming his oratory in the Lucullan castle (l.23224-23229) (Mansi 7, Acta Sanctorum, MGH SRM 2 and 3, Duchesne's Liber Pontificalis note, PL 67 and 88)."
+    "note": "None held. Paul the Deacon (foulke1907 l.2649-2659) draws on Eugippius (Foulke l.14530-14531). Whole-Library search for Severin* beside Noric-/Eugipp-/Favian-/Lucull-/Odoac- finds only citations and, in Mansi 10, Gregory the Great's letter naming his oratory in the Lucullan castle (l.23224-23229) (Mansi 7, Acta Sanctorum, MGH SRM 2 and 3, Duchesne's Liber Pontificalis note, PL 67 and 88), and the Anonymus Valesianus, which quotes the Life on Odoacer: 'de quo ita invenitur in libris vitae beati Severini monachi intra Pannoniam' (chronica-minora-liber-genealogus mommsen1892 l.40428-40445; also prosper chronica-minora-1 l.40340-40357); Mommsen dates the Life 'editam a. 511' (l.33502)."
    },
    {
     "detail": "Words of his own in writing",
