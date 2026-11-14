@@ -4,7 +4,7 @@
     "Sophronius the Sophist (John Moschus)"
   ],
   "knownFor": "Monk of Theodosius and disciple of John Moschus, then patriarch of Jerusalem in the 630s. He opposed the teaching that Christ acted with one operation, and his synodal letter was received as true to the faith by the Third Council of Constantinople in 680-681. Later chroniclers say he was patriarch when Jerusalem surrendered to the caliph Umar.",
-  "dates": "Daniel Papebroch dates his election to 634 and his death to March 638. Mansi's editor says he was still a monk in May 633. Theophanes puts the surrender of Jerusalem after a two-year siege, and Eutychius of Alexandria says Sophronius died after four years in office. Angelo Mai gives about 640 for his death. No source used here gives his birth year",
+  "dates": "Daniel Papebroch dates his election to 634 and his death to March 638. A note in J. D. Mansi's collection of the councils says he was still a monk in May 633. Theophanes, writing in the early ninth century, puts the surrender of Jerusalem after a two-year siege, and Eutychius of Alexandria says Sophronius died after four years in office. Angelo Mai gives about 640 for his death. No source used here gives his birth year",
   "place": "Damascus, by his own poem; the monastery of Theodosius, near Jerusalem, where he was a monk; Alexandria, with John Moschus; Jerusalem, as patriarch",
   "tradition": "The Byzantine Imperial Church (Heraclian & Iconoclast Eras); Chalcedonian Monasticism - Judean Desert & Gaza",
   "role": "Monk and writer; patriarch of Jerusalem",
@@ -39,12 +39,12 @@
   },
   "uncertain": [
     "Theophanes's account of Umar at Jerusalem, with Sophronius's words on the abomination of desolation, was written in the early ninth century. No text of Sophronius's own time gives those words.",
-    "The year he became patriarch. Fabricius and Harles give 629. Mansi's editor says he was still a monk in May 633, and Daniel Papebroch gives 634. Eutychius of Alexandria puts it in the second year of Umar's rule.",
+    "The year he became patriarch. Johann Albert Fabricius, in Harles's edition of his Bibliotheca Graeca, gives 629. A note in J. D. Mansi's collection of the councils says he was still a monk in May 633, and Daniel Papebroch gives 634. Eutychius of Alexandria puts it in the second year of Umar's rule.",
     "The year of his death. Papebroch gives March 638, a few months after the city's surrender. Angelo Mai says about 640. A note in the Bibliotheca Patrum gives 14 March 636.",
-    "What happened at Constantinople. Sergius says Sophronius agreed to keep silent on one or two operations. Eutychius says Sergius turned against him after gifts came from Cyrus.",
-    "Whether the Sophist of John Moschus is the patriarch. Papebroch, Angelo Mai and Cyrille Charon hold that they are one man. The poem and the Miracles give the author as a monk of Theodosius from Damascus.",
-    "His monastery. His poem and the last of the Miracles say Theodosius. Fabricius and Harles say Saint Sabas, without a source.",
-    "The Life of Mary of Egypt is given to him by Nicephorus Callistus and the Greek service books. Papebroch says nothing in it settles whether it is his.",
+    "What happened at Constantinople. Sergius, patriarch of Constantinople, says Sophronius agreed to keep silent on one or two operations. Eutychius says Sergius turned against him after gifts came from Cyrus, patriarch of Alexandria.",
+    "Whether the Sophist of John Moschus is the patriarch. Papebroch and Angelo Mai hold that they are one man, and Cyrille Charon calls it hardly open to doubt. No held source says otherwise. The poem and the Miracles give the author as a monk of Theodosius from Damascus.",
+    "His monastery. His poem and the last of the Miracles say Theodosius. Fabricius says Saint Sabas, without a source.",
+    "The Life of Mary of Egypt is given to him by Nicephorus Callistus. Papebroch says nothing in it settles whether it is his.",
     "The Spiritual Meadow was cited under his name by John of Damascus and the Second Council of Nicaea. It is John Moschus's book, written for him."
   ],
   "sources": {
@@ -99,6 +99,20 @@
         "date": "1863",
         "language": "Latin translation",
         "file": "cic/texts/nicholas-mystikos_epistolae-with-eutychius-alexandrinus-pg111-grc-lat_migne1863.txt"
+      },
+      {
+        "title": "Historia patriarcharum Alexandrinorum Jacobitarum",
+        "author": "Eusèbe Renaudot",
+        "date": "1713",
+        "language": "Latin",
+        "file": "cic/texts/renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713.txt"
+      },
+      {
+        "title": "Histoire des patriarcats melkites, volumes 2 and 3",
+        "author": "Cyrille Charon",
+        "date": "1911",
+        "language": "French",
+        "file": "cic/texts/charon_histoire-des-patriarcats-melkites-t2-t3-fra_1911.txt"
       }
     ]
   }

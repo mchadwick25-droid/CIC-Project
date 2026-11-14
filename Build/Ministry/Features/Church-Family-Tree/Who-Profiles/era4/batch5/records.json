@@ -37,7 +37,7 @@
     "formation_confidence": "Documented"
    },
    {
-    "claim": "Theophanes: \"Sophronius autem Hierosoly- morum antistes ſidem ab eo pro totius P[alaestinae] incolumitate acceperat\" ... \"lemplum a Salomene constructum\" ... \"Hæc est vere, inquit, abominatio deso- latiouis a propheta Daniele pranuntiala, que modo stat in loco sancto\" (OCR); written in the early ninth century",
+    "claim": "Theophanes: \"Sophronius autem Hierosoly- morum antistes ſidem ab eo pro totius P[alaestinae] incolumitate acceperat\" ... \"lemplum a Salomene constructum\" ... \"Hæc est vere, inquit, abominatio deso- latiouis a propheta Daniele pranuntiala, que modo stat in loco sancto\" (OCR); written in the early ninth century; \"Hunc\" (masculine) is Umar, so the words are said of the caliph in the holy place",
     "witness": "THEOPH (theophanes-confessor_chronographia-pg108-grc-lat_migne1863.txt) l.61809-61828",
     "formation_confidence": "Contested"
    },
@@ -70,6 +70,11 @@
     "claim": "Renaudot: \"Illius cum laude meminerunt etiam Arabes Hiftorici\" (OCR)",
     "witness": "RENAUDOT (renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713.txt) l.17086-17088",
     "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Charon: \"L'identité de Sophrone, sophiste de Damas, avec Sophrone, patriarche de Jérusalem, paraît bien indiscutable\"",
+    "witness": "CHARON (charon_histoire-des-patriarcats-melkites-t2-t3-fra_1911.txt) l.21284-21286",
+    "formation_confidence": "Dominant Modern Reconstruction"
    }
   ],
   "contested_claims": [
@@ -226,12 +231,12 @@
    },
    {
     "claim": "Testament names John the Iberian, then Euthymios \"τὸ πνευµατικόν µου τέχνον\", and the place \"τὰ Μελανὰ\"",
-    "witness": "MEYER l.6573-6574, 6624, 6645-6646",
+    "witness": "MEYER l.6578, 6646, 6666",
     "formation_confidence": "Documented"
    },
    {
-    "claim": "George the Hagiorite (c.1045, Peeters's Latin): John at the \"coenobium ... sancti Athanasii\", \"duos aut amplius annos in culinae ministerio transegit\"; \"ex consilio patris Athanasii, mille circiter passus procul a laura\" a church with cells; \"magno Athanasio\"; John's charge \"Patris nostri spiritalis Atha- nasi\" ... \"commemorationem singulis annis celebrate\"",
-    "witness": "PEETERS (peeters_histoires-monastiques-georgiennes-in-analecta-bollandiana-36-37-lat-fra_1917-1919.txt) l.655-658, 1003-1007, 1057, 1068-1071, 1767-1769",
+    "claim": "George the Hagiorite (c.1045, Peeters's Latin): John at the \"coenobium ... sancti Athanasii\", \"duos aut amplius annos in culinae ministerio transegit\"; \"ex consilio patris Athanasii, mille circiter passus procul a laura\" a church with cells; \"magno Athanasio\"; John's charge \"Patris nostri spiritalis Atha- nasi\" ... \"commemorationem singulis annis celebrate\"; nominative \"magnus Athanasius\" at l.2860",
+    "witness": "PEETERS (peeters_histoires-monastiques-georgiennes-in-analecta-bollandiana-36-37-lat-fra_1917-1919.txt) l.655-658, 1003-1007, 1057, 2860, 1068-1071, 1767-1769",
     "formation_confidence": "Documented"
    },
    {
@@ -248,6 +253,16 @@
     "claim": "Lavra codices of Palamas: \"τῆς ἱερᾶς λαύρας τοῦ ἀγίου \\\"A0avaslou τοῦ iv τῷ τΆθῳ\" (OCR)",
     "witness": "PALAMAS (palamas_opera-omnia-pg150-grc-lat_migne1865.txt) l.52597-52599, 52784-52786",
     "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Typikon quoting the chrysobull: \"χαφθὼς αὐταῖς λέξεσιν οὑτωσὶ\" (OCR \"χαφθὼς\" for καθὼς)",
+    "witness": "MEYER l.5644",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Georgirenes: \"St. Laura y built by jithamfins\" (OCR); \"The Monks of the place have along Story, how this Aih4* nafitif , wanting Money to go on with the great Church of the Mo- naftry\" ... \"was met with by the Blefled Virgin\" ... \"Then ilic bid him take no care for ne* ceffarics, ilie would provide\" (OCR)",
+    "witness": "GEORGIRENES (georgirenes_present-state-samos-nicaria-patmos-athos_denton1678.txt) l.3966, 3993-4007",
+    "formation_confidence": "Inferential-Thin"
    }
   ],
   "contested_claims": [
@@ -303,7 +318,7 @@
   "claims": [
    {
     "claim": "The Cross in Jerusalem: \"11 y cut beaucoup d'all£gresse ce jour-la a leur entree a Jerusalem : bruit des pleurs et.des soupirs, larmes abondantes, une immense flamme dans les cceurs, un d£chirement des entrailles duroi, des princes, de tous les soldats et des habitants de la ville ; et personne ne pouvait chanter les hymnes du Seigneur a cause du grand et poignant altendrissement du roi et de toute la multitude. II r£ta~ blit [la croix] en son lieu\" (OCR forms kept); told in the brief in modern words",
-    "witness": "MACLER04 (sebeos_histoire-d-heraclius-fra_macler1904.txt) l.6116-6143",
+    "witness": "MACLER04 (sebeos_histoire-d-heraclius-fra_macler1904.txt) l.6116-6121, 6144-6153",
     "formation_confidence": "Documented"
    },
    {
@@ -347,8 +362,8 @@
     "formation_confidence": "Documented"
    },
    {
-    "claim": "Macler's note: \"Bien qu'il ne le dise pas explicite- nient, Sebeos considere Pinvasion des Arabes comme un cb&timent envoys par Dieu contre les Grecs, parce qu'ils non I pas perseVc'rc' dans la communaute' de la foi avec les Armeniens\" (OCR)",
-    "witness": "MACLER04 l.6510-6516",
+    "claim": "Macler's note: \"Bien qu'il ne le dise pas explicite- nient, Sebeos considere Pinvasion des Arabes comme un cb&timent envoys par Dieu contre les Grecs, parce qu'ils non I pas perseVc'rc' dans la communaute' de la foi avec les Armeniens\" (OCR); the note is marked on the Greek rout after the Jordan: \"Une frayeur inspire par le Seigneur s'empara de I'arm^e des Grecs\" (l.6482-6483, OCR)",
+    "witness": "MACLER04 l.6472-6484, 6510-6516",
     "formation_confidence": "Dominant Modern Reconstruction"
    },
    {
@@ -369,6 +384,11 @@
    {
     "claim": "Hoffmann and Braun cite Sebeos for the assembly of bishops at Khosrau Parvez's court after the taking of Jerusalem and Alexandria",
     "witness": "HOFFMANN (persian-martyr-acts_auszuge-aus-syrischen-akten-persischer-martyrer-deu_hoffmann1880.txt) l.6503-6510; BRAUN1900 (synodicon-orientale_das-buch-der-synhados-deu_braun1900.txt) l.14985-14988",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Macler 1917: \"Le n° 52 des manuscrits de la bibliothèque des PP. Mkhitharistes de Vienne (Autriche) renferme l'histoire de Sebéos et des extraits de Moïse de Khorèn et d'Étienne de Tarôn\"",
+    "witness": "STEPANOS-MACLER1917 l.361-364",
     "formation_confidence": "Documented"
    }
   ],
@@ -423,7 +443,7 @@
     "formation_confidence": "Documented"
    },
    {
-    "claim": "Jericho: \"[post inv]asionem Persarum, constitissemus i in Hiericho in. xenodochio, fecerunt me cellerarium : tune ob ‘distractiones et -commercio versabar cum ‘mundanis et feminis, impugnatu[s] -violenter\" ... \"clam egressus: sanetam civitatem\" ... \"oravit super me, verboque et opere e me curavit ac retinuit\" (OCR)",
+    "claim": "Jericho: \"[post inv]asionem (the bracketed letters are a restoration; the file reads \\\"Acriter 886. asionem\\\") Persarum, constitissemus i in Hiericho in. xenodochio, fecerunt me cellerarium : tune ob ‘distractiones et -commercio versabar cum ‘mundanis et feminis, impugnatu[s] -violenter\" ... \"clam egressus: sanetam civitatem\" ... \"oravit super me, verboque et opere e me curavit ac retinuit\" (OCR)",
     "witness": "AB7 l.12405-12417",
     "formation_confidence": "Documented"
    },
@@ -433,7 +453,7 @@
     "formation_confidence": "Documented"
    },
    {
-    "claim": "Houze: \"Habet enim et ipsa plane — es sinceritatis characteres\"; \"addit[a v]ersione latina\"; \"in Antonii_ scripto adhibentur | gTeeco- -bar bare\" (OCR)",
+    "claim": "The Bollandist preface: \"Habet enim et ipsa plane — es sinceritatis characteres\"; \"addit[a v]ersione latina\"; \"in Antonii_ scripto adhibentur | gTeeco- -bar bare\" (OCR)",
     "witness": "AB7 l.7941-7956",
     "formation_confidence": "Dominant Modern Reconstruction"
    },
@@ -443,8 +463,8 @@
     "formation_confidence": "Documented"
    },
    {
-    "claim": "Moschus on the cells of Choziba: \"Vita senis cujusdam habitantis in cellis Cuziba\"",
-    "witness": "PG87.3 (john-moschus_pratum-spirituale-sophronius-opera-grc-lat_migne-pg87-3.txt) l.5217-5218",
+    "claim": "Nikodemos's notice of George \"τοῦ Χοζεβᾶ\"; Horologion feast \"Γεωργίου τοῦ Χοζεβίτου\"",
+    "witness": "NIKODEMOS (nikodemos-hagiorite_synaxaristes-vol1-sep-feb-grc_1900.txt) l.48570-48610; HOROLOGION (horologion-to-mega_venice-edition-grc_koutloumousianos1851.txt) l.16458-16465",
     "formation_confidence": "Documented"
    }
   ],
@@ -465,6 +485,10 @@
    {
     "detail": "A clean Greek text and an English translation",
     "note": "The Greek OCR is badly damaged; the only English translation (Vivian and Athanassakis 1994) is in copyright and not held."
+   },
+   {
+    "detail": "The editor's name",
+    "note": "The file header names C. Houze; no line of the volume as held carries the name, so the card names the Bollandists."
    }
   ]
  },

@@ -4,7 +4,7 @@
     "Abramios, his name in the world (Philipp Meyer, from the Life)",
     "Athanasius"
   ],
-  "knownFor": "Founder of the Lavra on Mount Athos, the first great monastery of the Holy Mountain, with the help of his friend the emperor Nikephoros Phokas. He wrote its rule and his own testament for it. Philipp Meyer says that rule became the general standard for the other houses of Athos.",
+  "knownFor": "Founder of the Lavra on Mount Athos, with the help of his friend the emperor Nikephoros Phokas. Philipp Meyer calls it the first great monastery of the Holy Mountain. Athanasios wrote its rule and his own testament for it. Meyer says that rule became the general standard for the other houses of Athos.",
   "dates": "Philipp Meyer says his birth year is unknown. Meyer dates the visit to Crete between July 960 and March 961, and reckons the church of the Lavra begun in 963. Meyer places his death between 997 and 1011, since he was still alive in 997 and his successor Eustratios is named in 1011. Paul Peeters says he died about the year 1000",
   "place": "Trebizond, by the Life, and Constantinople, where it says he was raised; Mount Kyminas, where he became a monk under Michael Maleinos; Mount Athos, where he founded the Lavra. His testament calls the place Melana",
   "tradition": "The Byzantine Imperial Church (Macedonian Era); Athonite & Comnenian Byzantine Monasticism",
@@ -13,7 +13,7 @@
   "keyWorks": [
     {
       "title": "Rule of the Lavra (Typikon, or Kanonikon)",
-      "about": "his account of how the Lavra was founded, with Nikephoros's charter copied into it, and rules for the abbot and monks. In Greek, in Meyer's edition. Meyer dates it perhaps to early 970, after Nikephoros was murdered on 16 December 969"
+      "about": "his account of how the Lavra was founded, with passages of Nikephoros's charter quoted in it, and rules for the abbot and monks. In Greek, in Meyer's edition. Meyer dates it perhaps to early 970, after Nikephoros was murdered on 16 December 969"
     },
     {
       "title": "Testament (Diatyposis)",
@@ -30,7 +30,8 @@
     "remembered": [
       "Meyer says Athanasios organized flight from the world after the model of Theodore of Stoudios.",
       "George the Hagiorite calls him \"magnus Athanasius\", the great Athanasios, in Paul Peeters's Latin. He says John the Iberian, dying, told his monks to keep the memory of their spiritual father Athanasios every year.",
-      "Old copies of the works of Gregory Palamas, described in Migne's Greek Fathers, are marked as books of the holy Lavra of Saint Athanasios on Athos."
+      "Old copies of the works of Gregory Palamas, described in Migne's Greek Fathers, are marked as books of the holy Lavra of Saint Athanasios on Athos.",
+      "Joseph Georgirenes, archbishop of Samos, wrote in 1678 that the monks of Athos told a long story of how the Virgin met Athanasios when he lacked money to finish the great church, and promised to provide."
     ]
   },
   "uncertain": [
@@ -39,7 +40,7 @@
     "What he did when Nikephoros was crowned. His rule says he went straight to Constantinople and reproached him. The Life, as Meyer reports it, says he first fled the monastery in grief and reached the city by a miracle.",
     "The year of his death. Meyer gives 997 to 1011. Paul Peeters, editing the Georgian Life of John and Euthymius, says about the year 1000.",
     "How he died rests on the Life alone. Meyer reports that a dome fell on him and six monks as they set its keystone, and that they were pulled from the rubble dead.",
-    "His teacher. His own rule calls Michael, uncle of Nikephoros, \"my abbot\" at Mount Kyminas. The family name Maleinos comes from Meyer, who draws on Michael's own Life.",
+    "His teacher. His own rule calls Michael, uncle of Nikephoros, his abbot at Mount Kyminas. The family name Maleinos comes from Meyer, who draws on Michael's own Life.",
     "A third text, rules for the services and meals of the Lavra, is printed after the testament. Meyer says it is uncertain whether Athanasios wrote it in that form, since it first appears in the later of the two old copies.",
     "His origin. Marie-Félicité Brosset, citing the Georgian Life of Euthymius, calls the founder of the house on Athos a Georgian. Frédéric Macler calls the Lavra that of John the Iberian's countryman. The Life, as Meyer reports it, says Athanasios came from Trebizond, and George the Hagiorite's Life of John and Euthymius does not call him Georgian.",
     "The Athanasios who brought the complaint of 972 is a different man: Athanasios, chief of the monks of the Mountain. Both sign the ruling of John Tzimiskes."
@@ -89,6 +90,13 @@
         "date": "1865",
         "language": "Greek and Latin",
         "file": "cic/texts/palamas_opera-omnia-pg150-grc-lat_migne1865.txt"
+      },
+      {
+        "title": "A Description of the Present State of Samos, Nicaria, Patmos, and Mount Athos",
+        "author": "Joseph Georgirenes (English tr., translator not named)",
+        "date": "1678",
+        "language": "English translation",
+        "file": "cic/texts/georgirenes_present-state-samos-nicaria-patmos-athos_denton1678.txt"
       }
     ]
   }
