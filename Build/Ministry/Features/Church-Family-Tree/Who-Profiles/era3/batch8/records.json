@@ -1,0 +1,1608 @@
+{
+ "john-climacus": {
+  "claims": [
+   {
+    "claim": "Letter of John of Raithu: 'Ad sanctum Joannem virum admirandum, asceterio in monte Sina praefectum ... Joannes peccator Raithuni monasterii antistes'; asks 'uti nobis rudibus per litteras aperias quae ad veteris exemplum Mosis in eodem monte divino spectaculo dignatus inspexisti', tablets that lead those 'qui ad coelum enituntur, veluti per scalarum gradus'; 'Nam si Jacob ovium duntaxat custos, tremendum ejusmodi in scala spectaculum contemplatus est, quanto magis gregis ratione pollentis magister ... ad Deum iter omnibus [ostendet]'",
+    "witness": "PG88 l.43690-43697 (OCR 'Ad sancitum', 'pecca- tori ... anstites'), 43736-43741, 43810-43823 (OCR 'ascendet' for the last verb)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Reply: 'me nisi metus et ingens periculum, ne sanctae obedientiae, virtutum omnium parentis jugum et imperium abjicerem, coercuisset, tam temerarium nunquam futurum fuisse, ut onus, quod impar humeris vires meas excedit, vel susciperem, vel tentarem'",
+    "witness": "PG88 l.43833 (heading 'Respondet Climacus Joanni Raithuni cenobii antistiti'), 43869-43876",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Labbe's notice: 'Joannes Climacus, ob librum 30 capitum, quibus tanquam gradibus ... ascenditur, sic vulgo nuncupatus, idem quoque Joannes Sinaita, vel abbas sancti Montis Sina, cognomento Scholasticus'; 'Vixit extremo Christi seculo sexto circa annum 580, et si Menaeis Graecorum fides, pene centenarius obiit die 30 Martii'",
+    "witness": "PG88 l.41317-41331 (heading 'Phil. Labbe, Dissertatio historica de S. Joanne Climaco')",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Title of Rader's edition: 'Joannis Scholastici, vulgo Climaci, abbatis montis Sina, opera omnia, interprete Matthaeo Radero'; Rader, Isagoge cap. 1: 'Hic cognoscis eumdem esse S. Joannem abbatem montis Sina, cognomento Scholasticum, et Joannem Sinaitam, et Joannem Climacum'",
+    "witness": "PG88 l.353-368; 41596-41615 (OCR '8inaitam')",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Daniel's Life, title 'Vita compendio conscripta abbatis Joannis antistitis sancti montis Sina, cognomento Scholastici ... a Daniele monacho ... e coenobio Rhaitheno'; 'Quae patria nobilisve civitas heroem hunc progenuerit, et ante susceptam ... religiosae vitae palaestram, educarit, pro certo et explorato non habeo dicere'",
+    "witness": "PG88 l.42036-42056; AS Mar. 3 l.209592-209606",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Daniel: 'cum flos aevi ... sextum jam decimum aetatis annum agitaret ... seipsum ... Deo ... sacrificium obtulit; quando corpus quidem in hunc Sinaeum ... intulit'; 'cervicemque peritissimo animorum rectori ... submisit'; 'omnibus litterarum disciplinis esset initiatus'; Rader's note (g): 'Hinc sortitus est nomen Scholastici'",
+    "witness": "PG88 l.42154-42182 (OCR 'sexium', 'ziatis'), 42215, 42222-42223",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Daniel: 'Jam vicesimum annum exorsus, cum praemisso ad caelestem imperatorem suo praeside tanquam legato et patrono ... in stadium vitae quietae et solitariae ... ingreditur; locoque, cui Tholas nomen, certamini ad quintum ab aede sacra lapidem delecto, quadraginta ipsos annos inibi ... traduxit'",
+    "witness": "PG88 l.42287-42297; AS Mar. 3 l.209653-209660",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Daniel, the rock: Moses at noon in August ('sextilis enim ultimus in aestate mensium erat') sleeps under 'immane saxum'; John 'tantum pauxillum conniveret, aspicit virum humana specie augustiorem ... « Hem [OCR 'liane'], Joannes, tu securus hic stertis, et Moses vita periclitatur? »'; Moses that evening: 'Immane saxum ... dormitantem minimo minus oppressisset'",
+    "witness": "PG88 l.42609-42630",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Daniel: 'fuere qui invidiae oestro perciti garrulum nugatoremque appellitarent ... per totius anni spatium tam altum siluit, ut ipsi illius calumniatores supplices ad illum ... adirent, ne vellet perennem utilitatis fontem obturare'; 'omnes ... tanquam alterum quemdam Moysen ad coenobii praefecturam vi pertraxerunt'",
+    "witness": "PG88 l.42660, 42686, 42705-42716 (OCR 'garruluni nngatoremque', 'calumuma-tores')",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Ladder, step 1 'De abdicatione vitae saecularis'; step 30 ends 'Nunc autem manent haec tria, fides, spes, charitas; major autem horum est charitas'; 'Ascendite fratres, ascendite alacriter'; Christ 'qui cum esset, ut videbatur, triginta annorum baptizatus, tricesimum gradum in scala spirituali sortitus est: quandoquidem Deus est charitas'",
+    "witness": "PG88 l.44299-44300; 86343-86350; 86357; 86425-86433",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Book to the Shepherd: heading 'Coenobiarcha pastori, navarcho, medico, litteratori comparatur'; 'Pastor ille verus ... Gubernator ... Medicus ... Doctor est'",
+    "witness": "PG88 l.86685, 86739, 86767-86780",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Bollandists: Daniel wrote the Life 'mox ab ejusdem obitu ... cum hujus Abbas Joannes adhuc viveret'; the Menologium of Basil: 'cum sextum decimum annum ageret, ascendit in montem Sina ... post decimum nonum inde annum se solitudini tradidit in loco, cui Tholas nomen fuit, quinto lapide a basilica'; commemorated 'xxx Martii'",
+    "witness": "AS Mar. 3 l.209365-209404, 209519-209522",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Rader's epitome: 'Post decimum nonum inde annum ad stadium solitudinis (Tholas loco nomen fuit) quinto lapide a basilica remoto se contulit'; note '(a) Haec Vitae epitome est e Danielis vita extracta'",
+    "witness": "PG88 l.43087-43090, 43113",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Sinai monk's appendix (Rader: '(a) A monacho aliquo Sinaita synchrono haec'; Bollandists: 'Auctore monacho Sinaita, Synchrono'): Martyrius tonsured him; Anastasius foretold 'antistitem montis Sina'; 'post quadraginta annos Joannes creatus est praeses noster et abbas'; John the Sabaite washed his feet; Strategius at his tonsure 'cum annum aetatis vicesimum ageret'",
+    "witness": "PG88 l.42850-42892, 42962; AS Mar. 3 l.210071-210098",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Sinai monk on George: 'Sciendum Climaco fuisse germanum fratrem Georgium, quem sibi Climacus vivo successorem destinavit'; John: 'non patiar ut annum hunc absolvas, quin me sequaris. Quod et factum est; intra decimum enim mensem et ipse Georgius ad Dominum profectus est'",
+    "witness": "PG88 l.43008-43037 (Greek 'δέκα μηνῶν', OCR 'čéxa pnvov', l.43027); AS Mar. 3 l.210128-210145 reads 'Intra decimum enim annum'",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Labbe on Antonius Magister's reckoning: born 'anno circiter 525', monk at sixteen, died 'Christi 605 aut 606'; 'subductis rationibus peccasse Magistrum'",
+    "witness": "PG88 l.41334-41385",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Labbe: from the Sinai monk (as Magister reports him, 'sub finem capitis XV'), John died, George learned four months later that Peter, patriarch of Jerusalem, would die in six months, and both died 'decimo post transitum Joannis Climaci mense'; Theophanes gives Peter's end at 566; Evagrius and Nicephorus are set against it; so 'si vera narravit anonymus Sinaita monachus, Joannis Climaci mortem ... inter annos Christianae aerae 560 et 565 quaerendam esse, non vero in annum 586 rejiciendam'; 'vix certi quidquam de anno mortis Climaci, multoque minus de profectione ejus in coenobium, de tempore commorationis in eremo, de praefecturae Sinaiticae primordiis pronuntiari posse'; the tale as Rader and the Bollandists print it names no Peter (PG88 l.42850-43037; AS Mar. 3 l.210071-210145)",
+    "witness": "PG88 l.41392-41420, 41474-41495 (OCR '569' at l.41415, against the sequence the note gives; OCR 'zr» 560 ce 565', '5856')",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Bollandists: 'Philippus Labbe de Scriptoribus Ecclesiasticis S. Joannem Climacum scribit obiisse circa annum 580, quod verosimile nobis est, aut saltem sub finem istius seculi'",
+    "witness": "AS Mar. 3 l.209545-209551 (OCR 'pLxxx')",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Gregory to John, abbot of Mount Sinai: 'Sanctitatem vitae tuae humilitatis tuae testatur epistola'; beds and bedding for the 'hierocomium, quod a quodam illic Isauro constructum est'; Ewald-Hartmann head it '600, (Sept. 1.)' and note 'De Iohannis Climaci vita et operibus cf. M. Raderi editionem apud Migne, patrol. Gr. t. 88'",
+    "witness": "Ewald-Hartmann l.7718-7745, 7773 (OCR 'ahhati monti^ Sinai', 'Baderi'); the file header warns its OCR is second witness only",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Barmby: 'Gregory to John, Abbot of Mount Sina'; note: 'No doubt the John called Climacus, Scholasticus, and Sinaita ... he is said to have retired thence to live the life of an anchoret, to have been elected abbot at the age of 75, to have again after a time retired into solitude, and to have died early in the 7th century'; 'constructed by one Isaurus there'",
+    "witness": "NPNF2/13 l.5356-5366, 5387-5390",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Moschus, Spiritual Meadow 127 (index 'CXXVII. Vita abbatis Georgii sancti montis Sina'; the chapter head in the text reads 'CAPUT CXXVI'): George writes to the patriarch Peter 'post sex menses Christo Domino ac Deo nostro simul occursuri sumus'; both died after six months",
+    "witness": "PG87.3 l.14546-14553, 14681-14695; index l.106263",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Rader on the George of Moschus: 'Georgius quidam, haud scio an idem Climaci frater ... (diversum tamen crediderim), quem Joannes Eviratus seu Moschus in suo Viridario spirituali laudat'",
+    "witness": "PG88 l.43040-43044",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Trithemius dated him under Constantine's sons; Labbe: 'Errat Joannes Trithemius ... Certum quippe est vixisse post S. Sabbam ... qui e vita migravit quinto Decembris anni 532'; Rader and the Bollandists likewise",
+    "witness": "PG88 l.41429-41434, 43170-43177; AS Mar. 3 l.209535-209545",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Labbe: the Greeks held him in great value, 'ut ex Athanasii quaestionibus, Elia Cretensi, Theodoro Studita, Philippo Solitario, Joanne Zonara, aliisque constat'; Elias of Crete 'qui explanationes in Scalam scripsit'",
+    "witness": "PG88 l.41361-41366, 41434-41435",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Labbe: Ladder 'Latine primum reddita fuisse dicitur an. 1295, ab Angelo de Cingulo O. M. qui Clarenus cognominatus est'; Venice 1590 'in Graeco-barbaram seu vulgarem linguam translatus a Maximo [OCR 'Marzunio'] episcopo Citherorum'",
+    "witness": "PG88 l.41445-41462",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Baronius, quoted by Rader: 'Porro animi illius divina quaedam effigies multo clarius perspicitur in scriptis ejus'",
+    "witness": "PG88 l.43145-43147; AS Mar. 3 l.209384-209387",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Rader against Gerson: 'nihil falsum est in toto Climaco, nihil contra Ecclesiae decreta aut male explicatum, sed potius male intellectum'",
+    "witness": "PG88 l.43179-43188",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Labbe: another John, abbot of Sinai, named in manuscripts as author of Barlaam and Josaphat; Rader holds Climacus is not its author",
+    "witness": "PG88 l.41465-41470, 41747-41754 (OCR 'pen' for 'non'); PG94 l.8845-8846 ('Joannes Climacus historiae Barlaam et Josaphat auctor non est')",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Thomas à Kempis, Life of John Cacabus (Ketel), cook in the House of Florentius: 'Sometimes he read the book of John Climacus \"On perfect renunciation of the world and mortification of the Will,\" and expounded therefrom sentiments full of spiritual truth, so that wise men marvelled that he had so good an understanding of the book'",
+    "witness": "kempis arthur1905 l.11813-11831, 12186-12191 (OCR 'Climacusr', 'mor- tification')",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Rader: 'Proinde vere Bellarminus anno 530 collocavit'",
+    "witness": "PG88 l.41752",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Oliger prints Bartholomew of Pisa: 'loannem Climacum de graeco transtulit in latinum' (of Angelo of Cingoli); Bernardino of Aquila, Chronica Fratrum Min. Observantiae: 'Iste liber in nostra familia magnae reputationis habetur'; Mariano of Florence: 'librum Sancti lohannis Climaci traduxit'",
+    "witness": "clareno oliger1912 l.1788-1794, 1806-1830, 1841-1848",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Barmby: the name from 'Scala (κλὶμαξ) Paradisi, whence his name of Climacus'; gifts '15 cloaks, 30 rachanæ ... and 15 beds'; note: rachana 'usually supposed to mean some woollen article of dress, worn by monks. Others understand blankets'",
+    "witness": "npnf213 l.5363-5364, 5390-5398",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Raithu placed: 'De Raithu vicino monasterio versus Rubrum-mare'",
+    "witness": "AS Mar. 3 l.209523-209524",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Labbe: 'Vixit extremo Christi seculo sexto circa annum 580'; Bollandists: 'seculo Christi sexto floruit'",
+    "witness": "PG88 l.41330; AS Mar. 3 l.209389-209390",
+    "formation_confidence": "Widely Accepted"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "When he died",
+    "sides": [
+     "Library header of the PG88 file: c.579-649 (PG88 l.7); a header, not a source",
+     "Labbe: lived about 580 (PG88 l.41330); if the Sinai monk's tale, as Antonius Magister retells it (l.41392-41394), is true, died 560-565; hardly anything certain (l.41486-41495)",
+     "Antonius Magister, as Labbe reports: died 605 or 606 (l.41376-41381)",
+     "Bollandists: Labbe's 580 likely, or at least the end of the sixth century (AS Mar. 3 l.209545-209551)",
+     "Barmby: he is said to have died early in the seventh century (NPNF2/13 l.5357-5363)",
+     "Bellarmine, as Rader reports: about 530 (PG88 l.41752)"
+    ]
+   },
+   {
+    "claim": "Whether Gregory's John, abbot of Mount Sinai, in 600, is Climacus",
+    "sides": [
+     "Barmby: 'No doubt' (NPNF2/13 l.5357)",
+     "Ewald-Hartmann: point to Rader's edition for his life (l.7773)",
+     "Labbe's 560-565 would put his death at least 35 years before the letter (arithmetic on PG88 l.41489-41490 and Ewald-Hartmann l.7719)"
+    ]
+   },
+   {
+    "claim": "How long he lived in the monastery before going to Tholas",
+    "sides": [
+     "Rader's Latin of Daniel: 'Jam vicesimum annum exorsus' (PG88 l.42287-42288)",
+     "Rader's epitome and the Menologium of Basil: nineteen years after coming to Sinai (PG88 l.43087; AS Mar. 3 l.209402)",
+     "Sinai monk: tonsured at twenty (PG88 l.42888-42890); Rader's note (c): sixteen is his entry as a novice (l.42188-42194)"
+    ]
+   },
+   {
+    "claim": "How long George outlived him",
+    "sides": [
+     "Rader's Latin and Greek: within ten months (PG88 l.43027, 43036-43037)",
+     "Bollandists' Latin: within ten years (AS Mar. 3 l.210144)",
+     "Both texts share John's promise: 'non patiar ut annum hunc absolvas, quin me sequaris' (PG88 l.43034-43035; AS l.210142-210143); the brief tells only this"
+    ]
+   },
+   {
+    "claim": "Whether Moschus's George of Sinai is his brother",
+    "sides": [
+     "Labbe: Moschus tells nearly the same of George and Peter's death (PG88 l.41486-41489)",
+     "Rader: rather a different man (l.43040-43044)"
+    ]
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "His birthplace, family and birth year",
+    "note": "Daniel says he cannot say for sure where he was born (PG88 l.42052-42053). No held line gives his family or birth year; Antonius Magister's 'about 525' is a reckoning Labbe rejects."
+   },
+   {
+    "detail": "The census's 'Orthodox monks still read it aloud every Lent'",
+    "note": "The Judean Desert entry's legacy carries this with no held source. Searched all cic/texts for Climac*, Scala Paradisi, Κλίμακ*, Ladder near Lent, and quadragesim*/legitur/recitat near the PG88 Climacus material: no held line says the Ladder is read in Lent. The Bollandists mention canticles from the Menaea sung on his day (AS Mar. 3 l.209511-209514), which is not the same claim."
+   },
+   {
+    "detail": "Daniel's Greek",
+    "note": "The PG88 Greek is garbled OCR; the Latin columns are what is read. The Bollandists' Latin (AS Mar. 3) is a second witness to the Life."
+   },
+   {
+    "detail": "Evagrius Scholasticus, Photius, Nicephorus Callistus on John",
+    "note": "Evagrius names Gregory, later of Antioch, as abbot of Sinai under Justin (walford1846 l.10155-10166), a different man; Labbe uses Evagrius only for Peter and Macarius of Jerusalem. No held line of Photius names him. Nicephorus Callistus's PG147 volume carries hesychast tracts that quote him (l.29502), not a notice of his life. Not used."
+   },
+   {
+    "detail": "The name 'John of Sinai'",
+    "note": "The held forms are Joannes Climacus, Joannes Sinaita, Joannes Scholasticus (PG88 l.353-359, 41327-41329) and Barmby's 'Climacus, Scholasticus, and Sinaita'; 'John of Sinai' is not used."
+   }
+  ]
+ },
+ "dionysius-exiguus": {
+  "claims": [
+   {
+    "claim": "Cassiodorus: 'tanta Latinitatis et Graecitatis peritia fungebatur, ut quoscunque libros Graecos in manibus acciperet, Latine sine offensione transcurreret, iterumque Latinos Attico sermone relegeret; ut crederes hoc esse conscriptum, quod os ejus inoffensa velocitate fundebat' (normalized; OCR 'Grircos iii inaiijbus accipcret, Laliiie siiic ofl\"cnsit>ne Iniiscuiroicl, ilcrumi|»e La- tims Allico sermonc icli-gcrcl; iil (T dcvcs lioc cs>e coiiscripldin, quod os ojus inon'cii>a vclocilatc fun- dtbat'; right-hand column of col. 1138)",
+    "witness": "Cassiodorus, Institutions I.23 (cassiodorus_opera-institutiones-pl70 l.83504-83511)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Cassiodorus: chapter 'De abbate Eugipio et abbate Dionysio' (OCR 'De abbatc liuyipio ei ubbWe Dionijaio'); 'Fuit enim nostris temporibus et Dionysius monachus, Scytha natione, sed moribus omnino Romanus, in utraque lingua valde doctissimus' (OCR 'D.onvMus lOiiacUns, Scyilia nilione, sed moribus oniniii!; Ko- lanus, in utraquc lingiia valdedoclissi:iius'). The same passage is printed cleanly in PL 67's notice and testimonia (pl67 l.425-436, 11038-11080); the brief follows the PL 70 text.",
+    "witness": "Cassiodorus, Institutions I.23 (pl70 l.83524, 83555-83560)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Cassiodorus: 'Qui mecum dialecticam legit' (OCR 'Qiii ineoum dialeciicam legit'); 'ut in nullo se vel extremis famulis anteferret, cum dignus esset regum sine dubitatione colloquiis' (OCR 'ut in nullo se vel oxlremis fainulis anlefer- el, cum dignus ossei regiiin siiie dubiiaiione collo- |uii')",
+    "witness": "Cassiodorus, Institutions I.23 (pl70 l.83585, 83597-83601)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Cassiodorus: 'Qui petitus a Stephano episcopo Salonitano ex Graecis exemplaribus canones ecclesiasticos ... composuit, quos hodie usu celeberrimo Ecclesia Romana complectitur. Hos etiam oportet vos assidue legere ... Alia quoque multa ex Graeco transtulit in Latinum' (OCR 'lopli.iiio cpiscopo S .ionilaiio cx Cra^cis cxcmplari- )iis caii-.nes ... isu celeberrimo Eocu-sia Uomana coniplociiinr. IIos ^linu) opi rlet vos assidne lci:erc'). The Institutions are written for monks: 'ad fratres simplices et impolitos scripsimus instruendos' (OCR 'fraires simidices', pl70 l.83427, ch. XXI).",
+    "witness": "Cassiodorus, Institutions I.23 (pl70 l.83605-83621)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Cassiodorus writes of him as dead and asks his intercession: 'Interveniat pro nobis, qui nobiscum orare consueverat, ut cujus hic sumus oratione suffulti, ejus possimus nunc meritis adjuvari' (OCR 'Iniervenial pro nobis , qiii nobiscum orare :or,siieverai , iii cujis bic sumus oraliunc snlfulli, ■jiis possiinus nunc merilis adjuvari'); also 'jam saeculi perversitate derelicta ... in Ecclesiae pace susceptus' (l.83555-83559 right column)",
+    "witness": "Cassiodorus, Institutions I.23 (pl70 l.83601-83605)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Cassiodorus: 'Cujus nomini glorioso aliqua pravi homines calumniose nituntur ingerere, unde sua videantur errata aliquatenus excusare' (OCR 'Cujus noinini glorioso alupia pravi boniines calnmniose nltuntur iii;;erore, ... siia videanlur erraia aliqualenus excnsare')",
+    "witness": "Cassiodorus, Institutions I.23 (pl70 l.83549-83553)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Preface to Stephen: 'Quamvis charissimus frater noster Laurentius ... regulas ecclesiasticas de Graeco transferre pepulerit, confusione credo priscae translationis offensus'; 'In principio itaque canones qui dicuntur Apostolorum de Graeco transtulimus: quibus quia plurimi consensum non praebuere facilem, hoc ipsum vestram noluimus ignorare sanctitatem'; then Nicaea and all councils before and after to the 150 bishops at Constantinople, then Chalcedon, then Sardica and Africa 'quae Latine sunt edita'. The brief omits Laurentius for length.",
+    "witness": "Dionysius, preface to the Codex canonum (pl67 l.11135-11200)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Preface to Julian: 'Domino venerabili mihi Juliano presbytero tituli Sanctae Anastasiae, Dionysius Exiguus'; 'praeteritorum sedis apostolicae praesulum constituta ... collegi'; 'beatus papa Gelasius, et nos qui eum praesentia corporali non vidimus, per vos alumnos ejus facilius aestimamus'. Cave calls Julian 'presbyterum Romanum' and says the collection runs 'a Siricio ad Anastasium II' (OCR 'Anastesium IH'). The brief calls Julian 'a Roman priest' and leaves out the Gelasius line for length.",
+    "witness": "Dionysius, preface to the decretals (pl67 l.18475-18500); Cave (pl67 l.447-450)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Letter to Eugippius: 'beati Gregorii Nysseni episcopi librum De Conditione hominis e Graeca locutione converti'; 'Et quia sunt, ut dixi, aliqua quae possunt merito reprehendi, nullus lector in his meum putet obligatum esse consensum; quia officio translatoris explicui, non censoris judicio comprobavi' (OCR 'oflicio trauslaloris', 'comproba vi.' on the next line)",
+    "witness": "Dionysius, letter to Eugippius (pl67 l.27739-27775)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "First Easter letter, to Petronius: 'Paschalis festi rationem, quam multorum diu frequenter a nobis exposcit instantia, nunc adjuti precibus vestris explicare curavimus: sequentes per omnia venerabilium trecentorum et octodecim pontificum, qui apud Nicaeam ...'; 'Quia vero sanctus Cyrillus primum cyclum ab anno Diocletiani centesimo quinquagesimo tertio coepit ... nos a ducentesimo quadragesimo octavo anno ejusdem tyranni potius quam principis inchoantes, noluimus circulis nostris memoriam impii et persecutoris innectere; sed magis elegimus ab Incarnatione Domini nostri Jesu Christi annorum tempora praenotare: quatenus exordium spei nostrae notius nobis existeret, et causa reparationis humanae, id est passio Redemptoris nostri, evidentius eluceret.' The brief tells this in reported speech, keeping both purpose clauses. Round 1: the brief drops 'the cause of our renewal' for length and adds 'he wrote'; both purpose clauses stay.",
+    "witness": "Dionysius, Epistola I de ratione Paschae (pl67 l.1102-1165)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Second Easter letter: 'Dominis ... Bonifacio primicerio notariorum, et Bono secundicerio' (OCR 'Dono'); 'Observantiae paschalis regulam, diu sancto ac venerabili Petronio episcopo commonente, tandem stylo commendare compulsus'",
+    "witness": "Dionysius, Epistola II (pl67 l.1415-1421)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Tables: Cyril's fifth cycle placed first 'quia sex adhuc ex eo anni supererant', then 'quinque alios'",
+    "witness": "Epistola I (pl67 l.1210-1216)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Easter rules (argumenta), titled in a manuscript 'argumenta Graecorum de titulis paschalibus ... quae Dionysius ...': 'Si vis scire quota est indictio, ut puta, consulatu Probi junioris, sume annos ab incarnatione Domini nostri Jesu Christi DXXV' (OCR 'pxxv'). Migne's print heads letter I 'Scripta anno Christi 525. Probo consule, indictione 3' (l.1098-1100); the heading is not part of the letter text. Mommsen's Marius lists 'a. 525 Probo iuniore et Philoxeno. Ind. III.' (chron-min-2 l.21310).",
+    "witness": "pl67 l.39523-39526, 39553-39562",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Janus: 'argumenta, a Beda aliisque interpolata'",
+    "witness": "Janus, Historia cycli Dionysii (pl67 l.36681-36682)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Cave: 'Claruit anno 5 5. Obiit ante annum 556, quo Cassiodorus librum de Divinis Lectionibus scripsit'; the middle figure of the flourishing year is lost in the print The print-damage note is kept here and was removed from the card (R1 B-M7).",
+    "witness": "Cave, notice (pl67 l.412, 419-421)",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Cave: 'In hoc cyclo annos a Christi Incarnatione numeravit Dionysius: atque istam aeram primus omnium annis supputandis adhibuit' (OCR ':eram', 'adhibu.t')",
+    "witness": "Cave (pl67 l.497-502)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Janus: the cycle 'et aeram Christi, qua ad hunc usque diem utimur, Dionysianam invexit'; note (f): 'Quis auctor sit aerae qua hodienum utimur Christianae, non satis inter omnes convenit. Alii eam Dionysio juniorem faciunt, et Bedae auctoritate demum invectam putant'; 'Non igitur nos poenitet communis sententiae, qua Dionysius hanc consuetudinem primus invexisse creditur'. Authorship: Janus's letter to Benjamin Hoffmann (l.41268-41330) says Hoffmann asked for a subject for public disputation and helped arrange and pay for the edition; the brief names Janus.",
+    "witness": "Janus (pl67 l.36705-36730, 36823-36825)",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Plummer: 'In chronology Bede has the enormous merit of being the first chronicler who gave the date from Christ's birth, in addition to the year of the world; and thus introduced the use of the Dionysian Era into Western Europe ... It was not used in papal documents till the eleventh century' (two-column OCR, text re-joined)",
+    "witness": "Plummer, introduction (bede_opera-historica-v1 l.2666-2688)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Brehaut: 'Isidore shows no signs of being aware of the proposal of Dionysius Exiguus for an era beginning with the birth of Christ'; 'he was acquainted with the essentials of his Easter table'",
+    "witness": "Brehaut (brehaut1912 l.6743-6745, 7427-7429)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Hodgkin: 'the so-called Dionysius Exiguus, who fixed (erroneously, as it now appears) the era of the birth of Christ, and whose system of chronology founded on this event has been accepted by all the nations of Christendom'",
+    "witness": "Hodgkin (cassiodorus_variae-letters-hodgkin1886 l.3428-3434)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Ceolfrid's letter in Bede: 'post quem Dionysius Exiguus totidem alios ex ordine pari schemate subnexuit, qui ad nostra usque tempora pertingebant' (OCR 'Bionijsitis E.riguus'); Giles: 'Dionysius Exiguus added as many more, in the same manner, reaching down to our own time'",
+    "witness": "Bede, HE V.21 (plummer l.29186-29189; letter heading l.28824-28825); giles1903 l.14759-14762",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Bede, De temporum ratione, as quoted: 'sed Dionysius venerabilis abbas Romanae urbis, et utriusque linguae, Graecae videlicet et Latinae, non ignobili praeditus scientia, paschales scribens circulos, noluit eis, sicut ipse testatur, memoriam impii persecutoris innectere'; chronicle: 'Dionysius paschales scribit circulos incipiens ab anno dominicae Incarnationis 532'. Bede's own works are not held apart from the History; these lines are known through the PL 67 testimonia.",
+    "witness": "PL 67 testimonia (pl67 l.11085-11099)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Bellarmine, as quoted: 'vixit tempore Theodorici regis Italiae, et successorum ejus'",
+    "witness": "PL 67 testimonia (pl67 l.11111-11115)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Janus on Cassiodorus as sole witness: 'Inter aequales solus fere Cassiodorus virtutum illius memoriam conservavit, quem unum omnes qui hucdum aliquid de vita Dionysii tradiderunt, auctorem secuti sunt' (OCR 'colus fere'); on abbot: 'Abbatem plerique vocant, quem Cassiodorus monachum dixit. Sed monasterium cujus abbas fuerit ignorari'; Pagi 'abbatis dignitatem Dionysio plane derogat, eique a Beda primum afflictam fuisse contendit'; Felix abbot of Gillitanum's prologue of 616 calls him abbot of Rome; 'honoris potius quam muneris causa, abbas dictus est'",
+    "witness": "Janus, letter to Hoffmann (pl67 l.41276-41308)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Mommsen: 'Victorii Aquitani ea aetate ante editum alterum Dionysii Exigui in Italia communi consensu receptum'",
+    "witness": "Mommsen (chron-min-2 l.9390-9392)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Percival: 'Somewhere about the year 500 Dionysius Exiguus, who was Abbot of a Monastery in Rome, translated a collection of Greek Canons into Latin for Bishop Stephen of Salona'",
+    "witness": "Percival (npnf214 l.2198-2200)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Duchesne: 'La collection de Denys le Petit, telle qu'elle fut envoyée à Charlemagne par le pape Hadrien'",
+    "witness": "Duchesne (liber-pontificalis t1 l.34721-34723)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "De cursu et saltu lunae, printed with Alcuin: 'Inde Dionysius dicit: A primo anno, qui non habet epactas lunares...', footnote 'Dionysius Exiguus, epist. ad Bonifacium et Bonum'",
+    "witness": "alcuin_opera-omnia-letters PL 100-101 l.78417-78430 (heading l.78023)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Cave on Proclus: 'Oratio Procli de laudibus Deiparae (quam tamen non ab Exiguo, sed a Mario Mercatore, versam esse contendit Garnerius ...)'; 'Proclus Constantinopolitanus episcopus' identifies Proclus",
+    "witness": "Cave (pl67 l.470-480); alcuin l.11298",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "He signs himself 'Dionysius Exiguus' in the addresses of his prefaces and letters; not used in the brief",
+    "witness": "pl67 l.1103, 1416-1417, 11136, 18476, 27742",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Tradition placing: card reads 'Early Benedictine / Italian Monasticism' (an Italian monk; Cassiodorus pairs him with Eugippius in one chapter; his years at Rome fall under Theodoric, as Bellarmine says, before Justinian's reign). The scan's 'Latin canon law' is not a census tradition. To be confirmed by the coordinator and logged as a worker's call (R1 B-M10).",
+    "witness": "drafter's call; cic-website/data/world-census.json movements",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Duchesne: 'Cette décision n'a jamais existé ; c'est Denys qui l'a déduite, par une exégèse habile, de la lettre de Proterius d'Alexandrie au pape saint Léon sur la question pascale (Krusch, l. c. p. 107)'; 'il avance que le concile de Nicée avait prescrit l'usage du cycle de dix-neuf ans ... ses prédécesseurs sur le siège d'Alexandrie. Il y a évidemment ici, comme l'a fait remarquer M. B. Krusch ..., une pia fraus mise au service d'un bon comput' (OCR 'Imbile', 'unepia')",
+    "witness": "Duchesne, LP1 l.16343-16347, 30099-30152",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Duchesne: 'Sa version du concile alexandrin de l'année 430, qu'il présente comme la première qui en ait été faite et comme son œuvre personnelle, est tout simplement copiée sur celle de Marius Mercator (Maassen, Quellen, t. I, p. 132-135)' (OCR 'ceUe', 'Marins'); Cave lists the version among his works (pl67 l.457-458, 'Epistola synodica S. Cyrilli et concilii Alexandrini, adversus Nestorium, Latine versa')",
+    "witness": "Duchesne, LP1 l.30095-30099",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Duchesne: 'Ce fut l'œuvre de Denys le Petit, qui publia en 525 son fameux cycle pascal' (not used on the card)",
+    "witness": "Duchesne, LP1 l.16126-16127",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "Whether the count of years from the Incarnation spread from Dionysius",
+    "sides": [
+     "Cave: Dionysius 'primus omnium' used this era (pl67 l.500-502); Janus: his cycle brought in the era still used, and holds the common view (pl67 l.36705-36708, 36823-36825); Hodgkin: his chronology accepted by all Christendom (hodgkin l.3431-3434)",
+     "Janus's note: others make the era later than Dionysius and credit Bede's authority (pl67 l.36727-36730); Plummer: Bede introduced the Dionysian era into Western Europe, and papal documents did not use it till the eleventh century (plummer l.2666-2688); Brehaut: Isidore shows no sign of knowing it (brehaut l.6743-6745); Janus also reports Hardouin's view that the era was older than Dionysius, in use early in the fifth century, and argues against it (pl67 l.36730-36760)"
+    ]
+   },
+   {
+    "claim": "Monk or abbot",
+    "sides": [
+     "Monk: Cassiodorus's text (pl70 l.83557-83559); Pagi, as Janus reports, says Bede first gave him the rank (pl67 l.41286-41288)",
+     "Abbot: Cassiodorus's chapter heading (pl70 l.83524); Bede as quoted (pl67 l.11088); Cave (pl67 l.418); Felix of Gillitanum in 616, as Janus reports, with Janus taking it as an honorific (pl67 l.41289-41308)"
+    ]
+   },
+   {
+    "claim": "Who translated Proclus's sermon on the Mother of God",
+    "sides": [
+     "Dionysius: the PL 67 list of contents (pl67 l.338)",
+     "Marius Mercator: Garnier, as Cave reports (pl67 l.470-473)"
+    ]
+   },
+   {
+    "claim": "Whether the Council of Nicaea fixed the nineteen-year Easter cycle",
+    "sides": [
+     "Dionysius, letter I (pl67 l.1105-1151) and letter II (l.1421-1426)",
+     "Duchesne after Krusch: no such ruling; drawn from Proterius's letter to Leo; 'une pia fraus mise au service d'un bon comput' (LP1 l.16343-16347, 30099-30152)"
+    ]
+   },
+   {
+    "claim": "Whether the Latin version of the Alexandrian council's letter against Nestorius is his",
+    "sides": [
+     "Dionysius presents it as newly translated by him, so that the faith known to the Greeks might become known to the Latins (pl67 l.523-560); Cave lists it (pl67 l.457-458)",
+     "Duchesne after Maassen: copied from Marius Mercator's (LP1 l.30095-30099)"
+    ]
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "His birth, family, death year and monastery",
+    "note": "Searched cic/texts for Dionys* with Exig*, Scyth*, abbas Romanus, 'Denys le Petit' (about 60 files hit 'Exigu'). No held line gives birth, family or death year; Cave's 'before 556' rests on Cave's date for the Institutions. Janus says the monastery is unknown. The letter to Peter the bishop mentions 'sancta nutrimentorum vestrorum studia a parvulo mihi depensa' (pl67 l.523-531), care given him from childhood; Peter's see is not named in the held lines, so the brief leaves it out."
+   },
+   {
+    "detail": "Bede's De temporum ratione and his Chronicle",
+    "note": "Not held as texts; quoted only in the PL 67 testimonia (l.11085-11099) and by Janus. Searched all of cic/texts for 'memoriam impii', 'impii persecutoris', 'Diocletiani principis annis': hits only PL 67 and PL 80 (the latter unrelated, l.14838)."
+   },
+   {
+    "detail": "A link to Dionysius the Areopagite",
+    "note": "Searched for Areopag* within three lines of Exig* across all files that name Exiguus: only Plummer's index (l.3704-3705) lists both names, as separate entries. No held line ties him to the Areopagite writings."
+   },
+   {
+    "detail": "Year 525 in the letter text",
+    "note": "The letter body held does not state a year; the 525 is in Migne's heading and in the argumenta example (l.39553-39562)."
+   },
+   {
+    "detail": "Petronius's see",
+    "note": "Searched pl67 and all of cic/texts for Petroni* near Dionys*/Exigu*; no held line names it (pl67 l.1103, 1420; Janus l.36450). The brief gives him as 'Bishop Petronius'. To be logged in Open-Gaps."
+   }
+  ]
+ },
+ "liberatus-of-carthage": {
+  "claims": [
+   {
+    "claim": "Breviarium ch. 20: 'missi sunt ab imperatore Justiniano Hypatius Ephesiorum episcopus, et Demetrius a Philippis consulere sedem apostolicam, contra legatos Acumicorum [Garnier: Acoemetas] Cyrum et Eulogium, negantes esse confitendum beatam Mariam vere et proprie Dei genitricem; et unum de Trinitate incarnatum et carne passum. Sed papa Joannes, nobis ibi positis, hoc confitendum epistola sua firmavit, et imperatori direxit'; John 'cognomento Mercurius'",
+    "witness": "PL68 l.81226-81240 (OCR 'Jcannes', 'legaios'); Garnier's note l.81349-81350",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Agapetus to Reparatus: 'praeterea ad ea, quae Gaius atque Petrus fratres et coepiscopi nostri sed et Liberatus diaconus filius noster, ut apud nos agerent uerbo, a fraternitate tua sibi iniuncta dixerunt'; Günther: 'Dat. simul cum ep. S3 [OCR] die 9 Sept. 535'",
+    "witness": "Avellana (guenther1895) l.24974-24977, 24928 (ep. 87); the same text in Garnier's note, PL68 l.81401-81413",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Garnier: 'Aut haec falsa sunt, quod vix credam; aut Liberatum oportet bis venisse Romam, semel vivente Joanne, iterum post Agapeti ordinationem'; 'Liberatus ergo venit primum ad Joannem, nuntiaturus de Reparati ordinatione; deinde ad Agapetum, gratulaturus de assumptione, et res concilii Africani gesturus'; reason: 'non nisi tamen post obitum Joannis ... legati solverunt ex Africa'; PL11's notice of the Council of Carthage of 535: 'Legati erant Caius et Petrus cum Liberato Carthaginensi Ecclesiae diacono. Hos Joanne II mortuo appulsos'",
+    "witness": "PL68 l.81385-81398, 81413-81417; pl11 l.75113-75114",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Title: 'Breviarium causae Nestorianorum et Eutychianorum, collectum a Liberato archidiacono Ecclesiae Carthaginensis regionis sextae'; Migne's heading 'LIBERATUS CARTHAGINENSIS DIACONUS'; Garnier: 'Liberatus Ecclesiae Carthaginensis diaconus, unus de Africanis trium Capitulorum defensoribus'",
+    "witness": "PL68 l.75463-75467 (OCR 'sexicc'); 74951-74953 (OCR 'LIBEBATUS'); 74960-74962",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Prooemium: 'Peregrinationis necessitatibus defatigatus, et aliquatenus feriatus animo a curis temporalibus, duarum haereseon ... ex ecclesiastica historia nuper de Graeco in Latinum translata, et ex gestis synodalibus, vel sanctorum Patrum epistolis, hoc Breviarium collegi, nectens temporum curriculo illa quae in Graeco Alexandriae scripto accepi, vel gravissimorum hominum didici narratione fideli. Quod faciens pro mea eruditione et responsione contra falsiloquos utrarumque partium sectatores, qui consueto studio aliter loquuntur de suis auctoribus quam veritas habet, libenter offero catholicis fratribus'",
+    "witness": "PL68 l.75538-75564 (OCR 'Peregrinalionis', 'deundiix', 'luditione cl respdiisione')",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Garnier's notes: the journey is when he went with 'Reparato Carthaginensi episcopo, cujus erat diaconus, fidum se comitem, vel in exsilio, ita dedit, ut non nisi post episcopi mortem ab Euchayda recesserit'; 'Defatigatus ... Videri potest mendosa lectio'; the history 'Ab Epiphanio scholastico, Cassiodoro impellente'",
+    "witness": "PL68 l.75566-75586; preface XII l.75117-75124",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Victor of Tunnuna: 'Reparatus archiepiscopus plurimis calumniis impetitus pro eo, quod damnationi trium memoratorum capitulorum assensum non praebuit, officio sumptibusque privatus Euchaida exilio relegatur, et Primosus diaconus apocrisarius eius ... episcopus Carthaginensis ecclesiae ordinatur'; 'Reparatus archiepiscopus Carthaginensis ecclesiae exilio apud Euchaidam gloriosa confessione transit ad dominum die VII. idus Ianuarias' (Mommsen's 563)",
+    "witness": "mommsen1894 l.19068-19073, 19289-19291",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Breviarium ch. 24: 'Theodorus Caesareae Cappadociae episcopus, dilectus et familiaris principum, secta Acephalus, Origenis autem defensor acerrimus ... cognoscens Origenem fuisse damnatum, dolore damnationis ejus ... damnationem molitus est in Theodorum Mopsuestenum'; to the emperor: 'Quod si Theodorus cum dictis suis et hac epistola [Ibae] anathematizetur'; 'unum in damnationem trium capitulorum condidit librum, pro delictis nostris, nobis omnibus notissimum'",
+    "witness": "PL68 l.82326-82336, 82370-82388, 82401-82404",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Bossuet, in Percival's English: 'The three chapters were the point in question; that is, respecting Theodore of Mopsuestia, Theodoret's writings against Cyril, and the letter of Ibas of Edessa to Maris the Persian' (used in the brief and in the card's knownFor)",
+    "witness": "npnf214 l.22886-22888",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Breviarium ch. 24: 'quod etiam publice ipse Theodorus clamitavit se et Pelagium vivos incendendos, per quos hoc scandalum introivit in mundum'; Garnier: 'Fides sit penes auctorem iracundius scribentem'",
+    "witness": "PL68 l.82341-82343, 82556-82557",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Breviarium close: 'quomodo consentientes episcopi in trium damnationem capitulorum muneribus ditabantur, vel non consentientes depositi in exsilium missi sunt, vel aliqui fuga latitantes in angustiis felicem exitum susceperunt, quoniam nota sunt omnibus, puto nunc a me silenda'",
+    "witness": "PL68 l.82406-82413 (OCR 'diubautur', 'coiibcnlienies')",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Garnier's note on 'Muneribus ditabantur': 'De suis Africanis loquitur, Reparato Carthaginensis, Firmo Numidici, Primasio Byzaceni concilii primate, Verecundo Nicensi et Victore Tunonensi episcopo. Horum primus depositus est ac in exsilium missus Euchaidam. Tertius ad suam sedem cum muneribus remissus, post damnationem trium capitulorum ... Verecundus et Victor e carcere in carcerem traducti, et tandem in monasteria detrusi sunt'; Victor of Tunnuna: 'Firmus concilii Numidiae primas donis principis corruptus damnationi eorundem capitulorum assensum praebuit'",
+    "witness": "PL68 l.82524-82535 (OCR 'Iloriim primus', 'Teriiu»'); mommsen1894 l.19074-19075",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Garnier, preface III: 'Ut erat propensior erga Nestorium, aut certe erga Theodoretum Nestorii amicum, ita minus aequo fuit animo adversus Cyrillum Theodosiumque imperatorem'; II: the end aims to lead the reader to think 'synodum v non legitimum ... Ecclesiae judicium, sed politicam episcoporum imperatori adulantium coitionem'; X: 'Accusat Liberatum Baronius, quod imprudentius aliquando crediderit historicis Nestorio faventibus'",
+    "witness": "PL68 l.74969-74984, 75019-75022",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Garnier XIII-XIV: some praise 'brevitatem libri ... et argumenti amplitudinem'; others fault 'nimiam in fide hominibus non sincerissimis danda facilitatem' and 'nimium ... suarum partium studium, fuit enim schismate implicatus propter tria Capitula obstinatius defensa'; 'dictionis humilitas pene incredibilis' made up by 'varietate rerum ... nam monimenta unde plurima desumpsit magnam partem perierunt'",
+    "witness": "PL68 l.75138-75155",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Mommsen: Liberatus wrote 'inter annos 555 (nam meminit mortis Vigilii ...) et 567 (nam scripsit ... vivo Theodosio episcopo quondam Alexandreae ... item ... vivo Apollinare successore eius in ea sede mortuo a. 569)'; 'Liberatus et Victor et aequales et conterranei et eiusdem sectae ecclesiastici, acerrimi orthodoxae fidei defensores et impugnatores omnium eorum, qui a Calchedonensi synodo plus minus recederent'; both 'iusto odio exacerbati in Vigilium' give his letter to the eastern bishops 'sive vere ea a Vigilio scripta est sive ... ei supposita'; Victor did not use the Breviarium",
+    "witness": "mommsen1894 l.17566-17592, 'iusto odio exacerbati' at l.17576-17577 (OCR 'c. 213', 'ad a. 540')",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Garnier XII: written after Vigilius's death and Primosus's, while Apollinaris held Alexandria; note on 'vivitque usque nunc' (of Theodosius): 'Scripsit ergo Liberatus sub Justiniano imperatore'",
+    "witness": "PL68 l.75117-75135 (years garbled by OCR), 81329, 81430-81433",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Breviarium ch. 12: Eutyches 'refugiens ad imperatorem Theodosium, impetravit ab eo, ut fertur, per Chrysaphium eunuchum, quem Eutyches susceperat de sacro baptismate, ut cum patricio Florentio et Magno Silentiario concilium illud Flaviani ingrederetur'",
+    "witness": "PL68 l.78067, 78115, 78118-78121 (columns interleaved by OCR)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Zenos: 'It was certainly used by Liberatus, the Carthaginian deacon, in his Breviarium caussae Nestorianorum et Eutychianorum'; Hartranft: 'The deacon Liberatus, in his Historia Nestorianorum, used the Tripartita'",
+    "witness": "npnf202 l.1679-1680, 24905-24907",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Mommsen: 'Liberatus diaconus ecclesiae Africanae aetate Iustiniana in breviario causae Nestorianorum et Eutychianorum attulit ex chronicis Prosperi sub nomine Lucentii'; Breviarium ch. 2 headed 'Ex Epitome Chronicorum Lucentii'",
+    "witness": "mommsen1892 l.44890-44892; PL68 l.75616",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Günther: the epitome edited in his Appendix II was 'adhibitae a Liberato diacono (Breu. cap. 15, 16, 18)'",
+    "witness": "Avellana (guenther1895) l.31076-31077",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "A namesake: 'Liberatus diaconus, agens vicem domini mei Sinduitti ecclesiae Segobiensis episcopi' at Toledo XI",
+    "witness": "Hispana l.47917-47919 (council heading l.46615)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Garnier, preface I: 'Liberatus Ecclesiae Carthaginensis diaconus, unus de Africanis trium Capitulorum defensoribus'",
+    "witness": "PL68 l.74960-74962",
+    "formation_confidence": "Documented"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "How often he went to Rome",
+    "sides": [
+     "Liberatus: present when Pope John wrote (PL68 l.81238)",
+     "Agapetus's letter of 535 names him with Gaius and Petrus (Avellana l.24975-24976)",
+     "Garnier: either the words are false or he came twice, first to John, then to Agapetus (PL68 l.81385-81417)",
+     "PL11's council notice: the envoys arrived after John II's death (pl11 l.75113-75114)"
+    ]
+   },
+   {
+    "claim": "What journey his preface means",
+    "sides": [
+     "Liberatus: only 'peregrinationis necessitatibus defatigatus' (PL68 l.75538)",
+     "Garnier: Reparatus's exile at Euchaida, staying till his bishop's death; the reading may be corrupt (l.75566-75580)"
+    ]
+   },
+   {
+    "claim": "When he wrote",
+    "sides": [
+     "Mommsen: between 555 and 567 (mommsen1894 l.17567-17570)",
+     "Garnier: after Vigilius's and Primosus's deaths, under Justinian, with Theodosius alive (PL68 l.75117-75135, 81430-81433)"
+    ]
+   },
+   {
+    "claim": "His fairness",
+    "sides": [
+     "Garnier: partial to Nestorius or Theodoret, less fair to Cyril and Theodosius; aims to discredit the fifth council; Baronius's charge (PL68 l.74969-74984, 75019-75022)",
+     "Mommsen: with Victor, a fierce defender of the orthodox faith (mommsen1894 l.17574-17575)",
+     "Garnier on Theodore's outcry: credit rests with an author writing in anger (PL68 l.82556-82557)"
+    ]
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "His birth, death, family and ordination",
+    "note": "No held line gives them. The scan row's 'not in a held line' holds for dates; his title as deacon and archdeacon and his presence in Rome are held (PL68 l.74951-74953, 75463-75467, 81238; Avellana l.24975-24976)."
+   },
+   {
+    "detail": "Victor of Tunnuna naming him",
+    "note": "Searched mommsen1894 for Liberat*: only Mommsen's own notes and preface name him (l.891, 1849, 16922, 17173, 17568-17592, 17966, 18133). Victor's text does not."
+   },
+   {
+    "detail": "Facundus naming him",
+    "note": "Searched facundus PL67 for Liberat*: the two hits (l.11021, 42180) are editors' notes, not Facundus's text."
+   },
+   {
+    "detail": "The census's Liberatus 'ch. 24' as 'a second African account of Reparatus' deposition'",
+    "note": "The Breviarium's text does not name Reparatus anywhere (searched PL68 l.75470-85500 for Repar*, Carthag*, Afric*): ch. 24 speaks only of bishops rewarded, deposed, exiled or hiding (l.82406-82413). Reparatus is named in Garnier's notes (l.75566, 81400, 82525) and in the preface (l.75122)."
+   },
+   {
+    "detail": "His first name of the editor Garnier",
+    "note": "The held lines give 'Garnerius', 'Patris Garnerii' (PL68 l.73068-73078, 75523); no held line gives his first name, so the brief and card say 'Garnier'."
+   },
+   {
+    "detail": "English text of the Breviarium",
+    "note": "Not held; PL68 header: 'No public-domain English exists'. The rough OCR is the only witness used."
+   },
+   {
+    "detail": "The second denial of the Acoemetae envoys in the brief",
+    "note": "'et unum de Trinitate incarnatum et carne passum' (PL68 l.81236-81237) is on the card's record here but left out of the brief for length (R1 A-M11); the card does not narrate the scene."
+   }
+  ]
+ },
+ "marius-of-avenches": {
+  "claims": [
+   {
+    "claim": "'Hoc anno mons validus Tauretunensis in territorio Vallensi ita subito ruit, ut castrum, qui vicinus erat, et vicos cum omnibus ibidem habitantibus oppressisset, et lacum in longitudine LX milium et latitudine XX milium ita totum movit, ut egressus utraque ripa vicos antiquissimos cum hominibus et pecoribus vastasset, etiam multa sacrosancta loca cum eis servientibus demolisset: et pontem Genava cum molinas et homines per vim deiecit et Genavam civitatem ingressus plures homines interfecit.' (OCR 'nmns validus', 'Vnllonsi', 'torritorio'). Year: under 'p. c. Basili ann. XXII. Ind. XI.'; Mommsen's margin and preface give 563 ('a. 563. 574. 580', l.20926). The brief leaves out the holy places for length.",
+    "witness": "Marius, Chronicle (chron-min-2 l.21582-21590; margin l.21605-21609)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Gregory of Tours tells the Tauredunum fall (HF IV.31); Dalton: 'The event is also mentioned by Marius of Aventicum (Chron., year 563)'",
+    "witness": "gregory-tours_history-of-the-franks-v2_dalton1927 l.6697-6712, 25588-25597",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Heading 'MARII EPISCOPI AVENTICENSIS CHRONICA A. CCCCLV-DLXXXI'; manuscript: 'usque hic Prosper: quae secuntur Marius episcopus' and after 581 'usque hic Marius aepiscopus'; one codex, British Museum 16974, tenth century; Isidore's chronicle and an addition to 624 follow in the codex (l.20942-20944, 'his subiungitur chronicorum Isidorianorum pars extrema')",
+    "witness": "Mommsen (chron-min-2 l.20691-20697, 20936-20943; apparatus l.21788-21790)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Mâcon: acts headed 'habita in civitate Matescense anno XXIIII regni gloriosissimi Gunthramni regis'; Maassen dates it '585. (Oct. 23?)' and says the day is uncertain; subscription 'Marius episcopus ecclesiae Auentice subscripsi'",
+    "witness": "Maassen, Concilia 1 (concilia-aevi-merovingici l.13055, 13063-13066, 13745); Mommsen cites the Maurist edition (chron-min-2 l.20710-20711)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Conon, provost of Lausanne, Gesta episcoporum Lausannensium 'quae composuit a. 1235': 'suscepit autem episcopatum anno ab incarnatione domini DLXXXI et tenuit annis XX mensibus octo et vixit annis LXIIII' (elsewhere LXIII); 'natus de episcopatu Eduensi de nobili genere', heard 'ab antiquis fide dignis'; dedicated 'templum et villam Paterniacam in solo ... proprio ... indictione V, episcopatus vero sui anno XIV regnante domno Guntranno rege'",
+    "witness": "Conon, as Mommsen gives him (chron-min-2 l.20716-20728)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Epitaph: 'clericus officio, primaevis tonsus ab annis'; 'nobilitas generis radians et origo refulgens'; 'ecclesiae ornatus vasis fabricando sacratis / et manibus propriis praedia iusta colens'; 'iustitiae cultor ... norma sacerdotum pontificumque decus ... iusto bonus arbiter actu'; 'pascendo inopes se bene pavit ope, / ieiunando cibans alios, sibi parcus edendo' (OCR 'al> annis')",
+    "witness": "Epitaph, from Conon, in Mommsen (chron-min-2 l.20729-20768)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Mommsen: the epitaph probably copied from the tomb, though Conon may have taken it from the cartulary; the Autun origin 'fide sublesta'; bishop from 574, church dedicated 587, died 594, aged 63 or 64, born 530 or 531; 601 and Conon's 581 rejected as from an error over Guntram's death; chronicle first written to 567, finished by 581; at Mâcon in 585",
+    "witness": "Mommsen (chron-min-2 l.20769-20786)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Lausanne annals (late tenth century), later hand at 601: 'Marius Aventicensis seu Lausonensis obiit' (OCR 'Mnrins Avrnfirriisis srn Lausonrnsis ohiif') Mommsen: 'adscriptum est manu recentiore ad a. 601'; the brief says 'a later hand in the annals of Lausanne'.",
+    "witness": "Mommsen (chron-min-2 l.20712-20716)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Necrology c. 1510: '... Silvestri pape et Marii episcopi: hodie fit processio ad ecclesiam sancti Marii' (OCR damaged)",
+    "witness": "Mommsen (chron-min-2 l.20786-20790)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "See moved: 'Aventicense episcopium postea translatum esse Lausannam ut satis constat, ita quando translatum sit, ignoratur ... utrum Aventici Marius libellum scripserit an Lausannae: sed cum subscribens concilio illud solum nominet, verisimile est post eum episcopii sedem mutatam esse'",
+    "witness": "Mommsen (chron-min-2 l.20792-20795)",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Gallandi: 'In Aeduis nobili genere ortus est Marius ... circa annum Christi 532' (OCR '332') after Le Cointe and the Histoire littéraire following Chifflet; 'anno autem circiter 576' (OCR 'S76'), aged 44, bishop of Avenches; moved the see to Lausanne under Childebert 'ut ex Claudio Roberto tradit laudatus Cointius'; Mâcon 'anno Guntchramni regis 23, aerae Dionysianae 585' (OCR 'S83'); from Chifflet, 20 years 8 months, 64 years, died 'pridie Kalendas Januarias, anno videlicet 596' (OCR '396'); 'Sanctorum ordinibus ascriptus traditur'; buried 'Lausannae ... in aede sancti Thyrsi, quae postea sancti Marii nomen accepit'; 'Qua quidem die Sanctorum ordinibus ascriptus traditur' read as his feast falling on the day of his death (pl72 l.59570-59571)",
+    "witness": "Gallandi, notice (john-biclaro-leander-pl72 l.59527-59593)",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Gallandi, giving Chifflet's view: Gregory's History 'chronologicis notis satis destitutam' gains 'magnam lucem' if compared with Marius; Chifflet first edited the chronicle in Duchesne's collection, 1636",
+    "witness": "pl72 l.59600-59615, 59693-59697; Mommsen l.20955-20957",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Mommsen: 'Marius ipse scribens Aventici potissimum respexit res gestas Agauni (a. 515. 565. 574) et per universam Vallem Poeninam (a. 563. 574. 580)'",
+    "witness": "Mommsen (chron-min-2 l.20925-20927)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "'His consulibus monasterium Acauno a Sigimundo constructum est' (515); 'Hoc anno monachi Agaunensi iracundiae spiritu incitati noctis tempore episcopum suum Agricolam cum clero et cives, qui cum ipso erant, occidere nitentes ...' (565) The brief (R1) says the monks 'tried one night to kill their bishop, Agricola', for 'occidere nitentes'.",
+    "witness": "Marius, Chronicle (chron-min-2 l.21183, 21594-21597)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Mommsen: consular naming for Justin II and Tiberius 'Mario nostro propria est et omnino perversa'; Gregory of Tours 'videtur adhibuisse' the same Gallic annals as Marius (l.20909-20911), parallels noted in the margin",
+    "witness": "Mommsen (chron-min-2 l.20801-20833, 20903-20923)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Mommsen: 'Medio aevo Marii chronica non sunt adhibita'; not in Paul the Deacon, Sigebert, nor Bede",
+    "witness": "Mommsen (chron-min-2 l.20948-20950)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Krusch: the annals used in the Chronicle called Fredegar's may have been composed 'in eadem urbe Aventicensi, ubi Marius scripsit', since both note Theudefrid (Marius a. 573) and the Lombards in Burgundy (a. 574)",
+    "witness": "Krusch (fredegar-liber-historiae-francorum l.457-465)",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Dalton: 'here Sigismund, king of Burgundy, who had restored it, took refuge'; Marius says 'constructum'",
+    "witness": "dalton1927 l.30446-30447; chron-min-2 l.21183",
+    "formation_confidence": "Contested"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "His years as bishop and his death",
+    "sides": [
+     "Mommsen: bishop 574, died 594, born 530 or 531 (chron-min-2 l.20776-20780)",
+     "Conon: bishop from 581; Lausanne annals, later hand: died 601 (l.20714, 20718-20720); Gallandi after Chifflet and Le Cointe: born about 532, bishop about 576, died 31 December 596 (pl72 l.59539-59570)"
+    ]
+   },
+   {
+    "claim": "Who moved the see from Avenches to Lausanne, and when",
+    "sides": [
+     "Mommsen: unknown; likely after Marius (chron-min-2 l.20792-20795)",
+     "Le Cointe after Claude Robert, as Gallandi reports: Marius himself, under Childebert (pl72 l.59546-59551)"
+    ]
+   },
+   {
+    "claim": "His birthplace",
+    "sides": [
+     "Conon: the diocese of Autun, of noble family (chron-min-2 l.20720-20722); Gallandi: among the Aedui (pl72 l.59539)",
+     "Mommsen: the report 'fide sublesta' (l.20769-20770)"
+    ]
+   },
+   {
+    "claim": "Whether Sigismund built or restored the monastery at Agaune",
+    "sides": [
+     "Marius: 'monasterium Acauno a Sigimundo constructum est' (chron-min-2 l.21183)",
+     "Dalton: Sigismund 'had restored it' (dalton1927 l.30446-30447)"
+    ]
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "Lausanne cartulary, Conon's Gesta and Arndt's study",
+    "note": "Not held; Conon is known here only through Mommsen's preface. Searched cic/texts for 'Lausann', 'Lausonn', 'cartul' and file names: only the Lérins cartulary is held, which does not name Marius."
+   },
+   {
+    "detail": "Other witnesses",
+    "note": "Searched all files for Mari(us|i|o) near Aventic/Avenches/Lausann and 'Tauredun|Tauretun'. Hits: Mommsen (chron-min-1 and 2), Maassen (signature and index), Gallandi (PL 72), Krusch (Fredegar), Dalton's notes to Gregory, Duchesne (Liber pontificalis, as a source), Audollent. Gregory of Tours and Venantius Fortunatus do not name Marius in the held texts (gregory-tours_opera-mgh-srm-1 hits are Krusch's notes only; venantius-fortunatus_opera-mgh-aa-4 no hit). The Mâcon council is not in the held Mansi volumes (tomus 9 not held); Bruns has no hit."
+   },
+   {
+    "detail": "Birth year from an ancient source",
+    "note": "None; 530 or 531 is Mommsen's reckoning, about 532 Le Cointe's; the Library header 'c. 530-594' follows Mommsen."
+   },
+   {
+    "detail": "Agricola's see",
+    "note": "No held line gives it; the Chronicle says only 'episcopum suum' of the Agaune monks (chron-min-2 l.21594-21596). The brief says 'their bishop, Agricola'."
+   }
+  ]
+ },
+ "martin-of-braga": {
+  "claims": [
+   {
+    "claim": "Virtues of Saint Martin I.11: 'Chararici cuiusdam regis Galliciae filius graviter aegrotabat'; the king sends gold and silver 'ad filii sui pondus' to the tomb, then asks for relics; 'Tunc commonitus a Deo beatus Martinus de regione longinqua, qui ibidem nunc sacerdos habetur, advenit. Sed nec hoc credo sine divina fuisse providentia, quod ea die se commoveret de patria, qua beatae reliquiae de loco levatae sunt, et sic simul cum ipsis pignoribus Galliciae portum ingressus sit'; 'filius regis, amissa omni aegritudine, sanus properat ad occursum. Beatus autem Martinus sacerdotalis gratiae accepit principatum. Rex unitatem Patris et Filii et Spiritus sancti confessus, cum omni domo sua crysmatus est'",
+    "witness": "Gregory of Tours, Virtues of Martin I.11, arndt-krusch1885 l.45603-45605, 45941-45960 (OCR badly garbled: 'Pcnsato crgo auro'), 46021-46030; reprinted clean by the Bollandists, acta-sanctorum martii-3 l.30988-31024 ('quidam, nomine Martinus'; 'dimissa omni aegritudine')",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "History of the Franks V.37: 'Hoc tempore et beatus Martinus Galliciensis episcopus obiit, magnum populo illi faciens planctum. Nam hic Pannoniae ortus fuit; et exinde ad visitanda loca sancta in Oriente properans, in tantum se litteris imbuit, ut nulli secundus suis temporibus haberetur. Exinde Gallitiam venit, ubi cum beati Martini reliquiae portarentur, episcopus ordinatur. In quo sacerdotio impletis plus minus triginta annis, plenus virtutibus migravit ad Dominum. Versiculos, qui super ostium sunt a parte meridiana in basilica sancti Martini, ipse composuit'",
+    "witness": "arndt-krusch1885 l.18175-18181 (OCR 'planctura', 'Nara'); Dalton's English, dalton1927 l.9925-9932 and 9940-9941; Caspari numbers the chapter V.38 (caspari1883 l.267-269)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Gregory wrote the Virtues of Martin I.11 while Martin lived: 'qui ibidem nunc sacerdos habetur'; the Bollandists: 'Haec S. Gregorius scripsit ante annum DLXXX, quando scilicet in Gallicia S. Martinus vivebat Episcopus'",
+    "witness": "arndt-krusch1885 l.46022; acta-sanctorum martii-3 l.31010-31011, 31024-31026",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Epitaph: 'Pannoniis genitus, transcendens aequora vasta, Galliciae in gremium divinis nutibus actus, Confessor, Martine, tua hac dicatus in aula Antistes, cultum instituit ritumque sacrorum; Teque, patrone, sequens famulus Martinus eodem Nomine, non merito, hic in Christi pace quiesco'",
+    "witness": "PL72 l.3432-3439 (OCR 'geuitus', 'eqiiora', 'quieseo'); acta-sanctorum martii-3 l.31525-31535; caspari1883 l.786-789 ('hic in pace Christi quiesco'); first line also in Perez's note, PL83 l.122465-122472",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Fortunatus, Poems V.2: 'Martino servata novo, Gallicia, plaude: sortis apostolicae vir tuus iste fuit'; 'Pannoniae, ut perhibent, veniens e parte Quiritis est magis effectus Gallisueba salus'; V.1 heading 'Ad Martinum episcopum Galliciae', salutation '... in Christi regis exercitu post ducem Paulum primipilo Martino episcopo Fortunatus'",
+    "witness": "leo-krusch1881 l.10061-10069, 10135 (OCR 'MartiiK)', '1'annoniae', 'Gallisucha'); l.9810-9814",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Isidore, On Famous Men 35: 'Martinus, Dumiensis monasterii sanctissimus pontifex, ex Orientis partibus navigans, in Galleciam venit, ibique conversis ab Ariana impietate ad fidem catholicam Suevorum populis regulam fidei et sanctae religionis constituit, ecclesias confirmavit, monasteria condidit, copiosaque praecepta piae institutionis composuit. Cujus quidem ego ipse legi librum de Differentiis quatuor virtutum, et aliud volumen Epistolarum ... Floruit, regnante Theodemiro rege Suevorum'",
+    "witness": "PL83 l.122413-122429, 122440-122442 (CAPUT XXXV, nn.45-46; Caspari and the Bollandists cite it as c.22, caspari1883 l.392-395, acta-sanctorum martii-3 l.31039-31052)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Isidore, History of the Sueves 90-91: 'Multis deinde Suevorum regibus in Ariana haeresi permanentibus, tandem regni potestatem Theudemirus suscepit. Qui confestim, Arianae impietatis errore destructo, Suevos catholicae fidei reddidit, innitente Martino, monasterii Dumiensis episcopo, fide et scientia claro, cujus studio et pax Ecclesiae ampliata est'",
+    "witness": "PL83 l.120277-120286 (two columns interleaved in OCR); mommsen1894 l.29502-29507",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Isidore, Chronicle: 'Per idem tempus Martinus, Bracarensis episcopus, apud Galleciam prudentia et doctrina catholicae fidei clarus habetur'",
+    "witness": "PL83 l.117431-117433 (OCR 'Dracarensis'); variant reading cited mommsen1894 l.43733",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "John of Biclaro: 'In provincia Gallaeciae Miro post Theudemirum Suevorum rex efficitur'; under Mommsen's '585?': 'Leovegildus rex Gallaecias vastat, Audecanem regem comprehensum regno privat, Suevorum gentem, thesaurum et patriam in suam redigit potestatem et Gothorum provinciam facit'",
+    "witness": "mommsen1894 l.19852; l.20238-20244 (OCR '5b5?', 'rcdigit')",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "First Council of Braga: 'CONCILIUM BRACARENSE PRIMUM OCTO EPISCOPORUM HABITUM ERA DXCIX. ANNO TERTIO ARIAMIRI REGIS'; bishops 'Lucretius, Andreas, Martinus, Cottus, Ildericus, Lucetius, Timotheus, Maliosus'; 'Martinus episcopus subscripsi' third, with no see",
+    "witness": "Hispana l.56269-56279, 56887-56896",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Second Council of Braga, 'anno secundo regis Mironis ... era DCX': 'Martinus Bracarensis ecclesiae episcopus dixit' first; 'quia opitulante Christi gratia de unitate et rectitudine fidei in hac provincia nihil est dubium, illud modo nobis specialius est agendum, ut si quid ... reprehensibile invenitur in nobis, recurrentes ad testimonia sanctarum scripturarum vel antiquorum canonum instituta ... corrigamus'; 'Martinus Bracarensis metropolitanae ecclesiae episcopus his gestis subscripsi' first",
+    "witness": "Hispana l.56907-56920, 56949-56955 (OCR damaged: 'rid fO EE Iii est dubium'), 57238-57239; clean in acta-sanctorum martii-3 l.31097-31136",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Capitula Martini, preface to 'Nitigi episcopo vel universo concilio Lucensis ecclesiae': canons from the East 'graeco prius sermone conscripti ... postea ... in latinam linguam translati', translators and copyists left them obscure, so 'simpliciüs et emendatis restaurem' (OCR; read 'emendatius'), clergy and laity in separate parts",
+    "witness": "Hispana l.57283-57322",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Tenth Council of Toledo: 'testamentum gloriosae memoriae sancti Martini ecclesiae Bracarensis episcopi, qui et Dumiense monasterium visus est construxisse ... ut succedentibus per ordinem regibus ad complementum ejus ipsius testamenti constitutio commendata maneret'",
+    "witness": "Hispana l.46500-46515 (running head 'C. TOLETANUM X.' l.46455); quoted in full by Caspari l.751-757 and the Bollandists l.31252-31266",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Letter to Polemius: 'Epistolam tuae sanctae caritatis accepi, in qua scripsisti ad me, ut pro castigatione rusticorum, qui, adhuc pristina paganorum superstitione detenti, cultum uenerationis plus demoniis, quam deo persoluunt, aliqua de origine idolorum et sceleribus ipsorum uel pauca de multis ad te scripta dirigerem'; 'cibum rusticis rustico sermone condire. Ita ergo, opitulante tibi deo, erit tuae praedicationis exordium'; Polemius signs Braga II as 'Polimius Asturicensis ecclesiae episcopus'",
+    "witness": "caspari1883 l.3700-3712 (OCR 'tus sanct® caritatis', 'tus pradicationis'); Hispana l.57276; Caspari's note on Astorga l.3724-3726",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Sermon ch.15-16: 'Uos ergo, fideles, qui ... ad Christi baptismum accessistis'; 'quomodo aliqui ex uobis, qui abrenuntiauerunt diabolo et angelis eius et culturis eius et operibus eius malis, modo iterum ad culturas diaboli reuertuntur? Nam ad petras et ad arbores et ad fontes et per triuia cereolos incendere, quid est aliud, nisi cultura diaboli?'",
+    "witness": "caspari1883 l.4725-4726, 4881-4887 (OCR 'anpelis')",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Formula vitae honestae addressed 'Mironi regi Martinus humilis episcopus'; its opening 'Quatuor virtutum species ... prudentia, ... magnanimitas, ... continentia, ... justitia'; the Bollandists identify it with Isidore's book on the four virtues",
+    "witness": "PL72 l.1385-1396; acta-sanctorum martii-3 l.31288-31302",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Caspari: born 'etwa im zweiten Decennium des sechsten Jahrhunderts'; came to Galicia 'Um 550', by combining Gregory's passages; died 580; feast 20 March",
+    "witness": "caspari1883 l.255-261, 285-298, 717-720",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Caspari: Gregory's having him made bishop on arrival 'ist ein Irrthum Gregors'; Martin first founded Dumio and was its abbot",
+    "witness": "caspari1883 l.307-309; contents l.152-153",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Caspari: the ten Capitula and 'aller Wahrscheinlichkeit nach auch die Acten' of Braga II come from Martin; he presented the ten capitula, which he and the bishops signed",
+    "witness": "caspari1883 l.659-662, 694-697",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Caspari dates De correctione rusticorum 'in die Zeit zwischen 572 und 574'",
+    "witness": "caspari1883 l.2559-2560 (OCR '5/4')",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Paschasius's prologue as Caspari quotes it: 'Martinus episcopus transtulit per manum Paschasii diaconi interrogationes ... in Dumiensi coenobio'; 'sicut in dato mihi codice ea scripta, sic transtuli'",
+    "witness": "caspari1883 l.536-541, 832",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Caspari traces the sermon's use by Eligius, Pirminius, Aelfric's homily and an Old Norse (Icelandic) sermon",
+    "witness": "caspari1883 l.180-184",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "The Bollandists: Gregory's death notice falls in Childebert's fifth year, 'convenit in annum Christi DLXXX'; the thirty years 'errore quodam amanuensium intrusi sunt pro annis plus minus viginti'; the king converted 'Theodomirus sive Ariamirus, qui magis corrupte Chararicus appellatur a Gregorio'; his move to Braga 'at quo anno non liquet'; feast 'ad terium decimum Kalendas Aprilis', kept by Braga and Évora 'uti ex earum Breviariis liquet'",
+    "witness": "acta-sanctorum martii-3 l.30857-30878, 30879-30889, 31096, 30836-30851",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Note signed 'R.' in Arndt's HF V.37: 'Fuit episcopus, primo Dumiensis monasterii (Mondonedo), tum Bracarensis; qua dignitate non 30, sed 20 circiter annis potitus est. Festivitas eius recolitur die 20. Martii ... R.'; Dalton: 'About 580, on 20th March'; Krusch on VM I.11: 'Obiit a. 580'",
+    "witness": "arndt-krusch1885 l.18215-18217 (HF ed. Arndt, VM ed. Krusch: contents l.138, 140); dalton1927 l.9934; arndt-krusch1885 l.46065",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Krusch on VM I.11: 'Chararicum regem Gallaeciensem nemo laudavit nisi Gregorius ... plerique Chararicum eundem ac Theudemirum fuisse coniecerunt, qui in actis conciliorum constanter Ariamirus appellatus est ... verisimilius est, illum potius filium Chararici, non Chararicum ipsum fuisse'",
+    "witness": "arndt-krusch1885 l.45634-45640",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Perez's note in PL83: founded Dumio 'ut dicitur in decimo concil. Tolet.'; 'subscribit Martinus episcopus in concil. primo Bracar., anno Christi 561'; archbishop of Braga at Braga II",
+    "witness": "PL83 l.122479-122495 (signed 'PEREZ', l.122515)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Where the verses stood: Dalton 'i.e. at Tours'; Caspari reports Hieronymus de Prato for Tours, Florez and Mabillon for the Galician church of Martin, 'nach dem Letzteren in Dumio, nach dem Ersteren in Orense'",
+    "witness": "dalton1927 l.26883-26885; caspari1883 l.193-199",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Where the epitaph stood: Bollandists 'in ecclesia S. Martini Turonensis a Theodomiro Rege constructa'; Caspari 'in der von Chararich erbauten basilica sancti Martini'",
+    "witness": "acta-sanctorum martii-3 l.31519-31522; caspari1883 l.762",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Gallandi's notice quotes Mabillon: 'Martinum alii Pannonium a patria, alii Gallicensem a provincia ... Dumiensem et Bracarensem alii a sedibus quibus episcopus praefuit, cognominarunt'; Tamayo noted that Baronius 'de unico Martino tres conflasse'",
+    "witness": "PL72 l.1050-1070 (OCR interleaved)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Martin's verses in the basilica of Martin of Tours: 'Tua signa Suevus admirans didicit fidei quo tramite pergat ... teneat Gallaecia tota patronum'",
+    "witness": "PL72 l.3384-3410",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Caspari: Martin came to Galicia 'Um 550'; Dumio lay 'in der nächsten Nähe von Bracara'; Polemius sat at Braga II 'im Jahre 572'; Bollandists: Braga II 'Era DCX, sive anno Christi DLXXII'; Dalton: 'the Suevi settled in Spain'",
+    "witness": "caspari1883 l.261, 448-450, 3725-3726; acta-sanctorum martii-3 l.31096-31098; dalton1927 l.26871-26872",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Childebert II: Caspari 'im fünften Jahre Childeberts des Zweiten oder im Jahre 580'; Bollandists 'ad annum quintum Childeberti Regis Austrasiorum Francorum'",
+    "witness": "caspari1883 l.287-289; acta-sanctorum martii-3 l.30861",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "Which Suevic king turned to the Catholic faith",
+    "sides": [
+     "Gregory of Tours: Chararic, on the healing of his son (arndt-krusch1885 l.45603-45605, 46026-46028)",
+     "Isidore of Seville: Theudemir, with Martin's backing (PL83 l.120280-120284)",
+     "Braga I acts: the reigning king is Ariamir, in his third year (Hispana l.56276-56279)",
+     "Krusch: Chararic named by Gregory alone; Theudemir more likely Chararic's son (arndt-krusch1885 l.45634-45640)",
+     "Caspari: two different kings, Chararic the earlier, 'ohne jedoch in der Sache ganz sicher zu sein' (caspari1883 l.455-463)",
+     "Bollandists: Theodomir or Ariamir, called Chararic by Gregory in a corrupt form (acta-sanctorum martii-3 l.30887-30889)"
+    ]
+   },
+   {
+    "claim": "How long he was bishop",
+    "sides": [
+     "Gregory: 'plus minus triginta annis' (arndt-krusch1885 l.18180)",
+     "Bollandists: a copyist's thirty for about twenty (acta-sanctorum martii-3 l.30879-30883)",
+     "Note signed R. in Arndt's HF: 'non 30, sed 20 circiter' (arndt-krusch1885 l.18215-18216)"
+    ]
+   },
+   {
+    "claim": "When he became bishop",
+    "sides": [
+     "Gregory: ordained bishop when the relics came (arndt-krusch1885 l.18178-18179; l.46027)",
+     "Caspari: an error of Gregory's; first abbot of Dumio (caspari1883 l.307-309)"
+    ]
+   },
+   {
+    "claim": "Where his verses over the south door stood",
+    "sides": [
+     "Dalton: at Tours (dalton1927 l.26883-26885)",
+     "Hieronymus de Prato, as Caspari reports: Tours (caspari1883 l.195-196)",
+     "Mabillon, as Caspari reports: the Galician church of Martin at Dumio; Florez: at Orense (caspari1883 l.197-199)"
+    ]
+   },
+   {
+    "claim": "Where Dumio was",
+    "sides": [
+     "Caspari: close to Braga, after Gallandi 'vix uno milliari' (caspari1883 l.448-450, 487)",
+     "Note signed R. in Arndt's HF: 'Dumiensis monasterii (Mondonedo)' (arndt-krusch1885 l.18215)"
+    ]
+   },
+   {
+    "claim": "Who built the church where the epitaph was to stand",
+    "sides": [
+     "Caspari: Chararic (caspari1883 l.762)",
+     "Bollandists: Theodomir, whom they take to be Gregory's Chararic (acta-sanctorum martii-3 l.31521-31522, 30887-30889)"
+    ]
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "His birth year",
+    "note": "No early line gives it. The scan's 'c.515' rests on the Library file header (caspari1883 l.3); Caspari says only 'etwa im zweiten Decennium des sechsten Jahrhunderts' (l.256-257)."
+   },
+   {
+    "detail": "His death year in a source of his time",
+    "note": "Gregory gives 'hoc tempore' only (arndt-krusch1885 l.18175). The header's 579 is not in any held line found; Caspari, Krusch, Dalton and the Bollandists give 580 (caspari1883 l.717; arndt-krusch1885 l.46065; dalton1927 l.9934; acta-sanctorum martii-3 l.30876-30878)."
+   },
+   {
+    "detail": "His see at the First Council of Braga",
+    "note": "The acts name 'Martinus' third with no see (Hispana l.56276-56279, 56889). Searched Hispana and Bruns for 'Dumiens' near the Braga I acts: none."
+   },
+   {
+    "detail": "His letters",
+    "note": "Isidore read a volume of letters (PL83 l.122425-122428); Caspari says they are lost apart from short covering letters (caspari1883 l.776-779). Not held."
+   },
+   {
+    "detail": "An English translation of his works",
+    "note": "The Library header notes no public-domain English of De correctione rusticorum (caspari1883 l.20-23). Brehaut's Gregory selections give the chapter title of HF V.37 only (brehaut1916 l.5105), not its text."
+   }
+  ]
+ },
+ "brendan-of-clonfert": {
+  "claims": [
+   {
+    "claim": "Adomnan III.17 (Huyshe): 'four holy founders of monas-teries, coming over from Ireland to visit St. Columba, found him in Hinba island ... Comgell Mocu Aridi, Cainnech Mocu Dalan, Brendan Mocu Alti, Cormac-Ua-Liathain. These with one accord agreed that St. Columba should consecrate the sacred mysteries of the Eucharist in the church in their presence'; 'while the solemnity of the Mass was being celebrated, St. Brendan Mocu Alti, as he afterwards told Comgell and Cainnech, saw a certain blazing and most luminous globe of fire burning over St. Columba's head and rising up like a pillar as he stood before the altar consecrating the Holy Oblation until the same most holy ministrations were completed'",
+    "witness": "adomnan huyshe1905 l.10226-10251 (Huyshe's bracket on Hinba, '[Eilean-na-Naoimh, one of the Garveloch Isles?]', is his)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Adomnan I.26 (Huyshe): 'Aidan by name, son of Fergno, a most religious man who, as is said, ministered for twelve years to Brendan Mocualti'",
+    "witness": "adomnan huyshe1905 l.3929-3937",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Huyshe's notes: 'St. Brendan, of Clonfert. Mac-Ua-Alti was his clan name'; 'He was St. Brendan the famous voyager, founder of Clonfert, commemorated in the Calendar May 16. Kerry was the principal district of his race, the Kiarraighe. Born 482, founded Clonfert 559, died 577. His day is May 16'; introduction: 'In 577 died St. Brendan of Clonfert'",
+    "witness": "adomnan huyshe1905 l.3948-3951, 10277-10282, 1481-1486",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Adomnan III.3 and III.11 (Huyshe): 'St. Brendan, the founder of that monastery which is called in Irish Birra' kisses the excommunicated Columba; Columba sees angels meet 'the soul of the holy Brendan', founder of Birr; Huyshe: 'He must be distinguished from Brendan, founder of Clonfert ... St. Brendan of Birr died in 573'; 'He died c. 573 in the eightieth year of his age'",
+    "witness": "adomnan huyshe1905 l.9314-9345, 9370-9376, 9874-9905",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Annales Cambriae: 'cxxx. Annus. Brendan Byror dormitatio'; editor's introduction: 'the death of Brenda, abbot of Birre'",
+    "witness": "annales-cambriae williams-ab-ithel1860 l.2501 (OCR 'Brendan ^ Byror'), l.892; the only Brendan entries in the file (searched 'Brend', 'Clonfert', 'Cluain')",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Stokes: 'The Book of Lismore was compiled from the lost Book of Monaster-boice and other manuscripts, in the latter half of the fifteenth century'; its Lives are 'a mixed language, in which Old-Irish forms appear side by side with those belonging to the late Middle, and even Modern, periods'",
+    "witness": "stokes lismore1890 l.218-219, 3254-3257; contents 'Life of Brenainn, son of Finnlugh' l.134",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Lismore Life (Stokes's English): 'the seventh of the calends of June, was Brenainn, son of Finnlug, of the race of Ciar'; 'And as Noah raised up the ark over the wave-voice of the flood on high, so then will Brenainn raise up his monks and his households on high over the fire of Doom, so that neither smoke, nor mist, nor spark will reach them'; 'Of Ciarraige Luachra was he, of Altraige Caille'",
+    "witness": "stokes lismore1890 l.21207-21225",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Lismore Life: 'Brenainn remained five years with Ita'; the angel: 'God hath given thee what thou soughtest, even the Land of Promise'; 'three great vessels', 'three sails of hides'; 'five years on the ocean'; Easter 'to the end of seven years, on the back of the whale'; 'the Devil there revealed the gate of hell to Brenainn'; Ita: 'thou wilt never find it after those dead stained skins'; 'a great marvellous vessel is built by him' in Connaught; 'they reached the land which they had been seeking for the space of seven years, even the Land of Promise'",
+    "witness": "stokes lismore1890 l.21301, 21466-21467, 21491-21493, 21519, 21533-21534, 21569, 21686, 21700-21702, 21815-21817",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Book of Lismore story (Stokes's description of the manuscript): 'Story of S. Brenainn ... harper and the bird-like angel'; 'Once when Brenainn maccu Altai was in Clonfert, on Easter-day seven years before his obit'; 'it is now seven years since Brenainn smiled or heard a melody of the melodies of the world'",
+    "witness": "stokes lismore1890 l.836-837, 878-895",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Rees, Vita S. Brendani: 'filius Finloc, nepos Alti ... Hic erat vir magne abstinentie, et in virtutibus clarus, triumque millium fere monachorum pater fuit'; Barurchus tells of the Land of Promise of the Saints; Brendan chooses fourteen; Rees: 'The Manuscript here ends abruptly'; 'From the Cott. MSS ... Vespasian, A. XIV'",
+    "witness": "rees1853 l.11363-11372 (OCR 'monaclioriim'), 25214-25226, 25234, 25356-25386",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Rees: 'The time when these Lives were compiled, is not known, but it was probably about the twelfth century'; the appendix Lives 'were not of Cambro-British Saints, but were, notwithstanding, connected with Wales ... those of St. Aidus, St. Brendanus, and St. Tathan, the Saints, although natives of Ireland, had passed much of their time in the Welsh country'",
+    "witness": "rees1853 l.321-323, 446-464",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Rees, Life of David: 'apparuit ubi Sanctus Brendanus super marinum cetum miram ducebat vitam'; Barre rides David's horse over the sea",
+    "witness": "rees1853 l.6486-6498; English l.19400-19418",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "O'Donovan, notes to the Four Masters: 'Clonfert, a bishop's see in the south-east of the county of Galway'; 'Clonfert-Brendan ... The church of Clonfert ... county of Galway'; O'Flaherty: 'Enaghdun, dedicated to St. Brendan, the 16th of May, Anno Christi 577, there deceased'; Birr 'founded ... by St. Brendan, the son of Neman, who died on the 29th of November, A. D. 572'; annal entry 'Bishop of Clonfert-Brendan' under 1173",
+    "witness": "four-masters odonovan1856 l.969-970, 4501-4503, 4245-4251, 15938-15941, 927 (year head 'THE AGE OF CHRIST, 1173' l.760); the file header marks the volume a second witness, to be checked against the scan",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Catalogue of the Saints of Ireland, as Hugh Williams prints it: 'This anonymous catalogue dates from an early part of the eighth century [c. A.D. 730]'; second order: 'quorum nomina haec sunt: duo Finiani, duo Brendani'; Stowe Missal, 'may, in its present form, date from about A.D. 750': 'Item et sacerdotum ... Brendini, Brendini'",
+    "witness": "gildas williams1899 l.23790-23815, 24027-24034",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Vita S. Brendani c.15, as Hugh Williams quotes it after Warren: Brendan at Gildas's monastery reads a missal 'scriptum Graecis litteris'; Williams: 'Brendan, who founded Clonfert'",
+    "witness": "gildas williams1899 l.24014-24024, 9111-9113",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Huyshe quotes 'the Life of St. Brendan': 'fecerunt naviculam levissimam costatam et columnatam ex vimine ... et cooperuerunt eam coriis bovinis'",
+    "witness": "adomnan huyshe1905 l.8713-8720",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Mirk's Festial, sermon 'De Festo Sancti Mathie, Apostoli', Narracio, read through the OCR and normalized here (thorn and yogh as th, y): 'We reden that Seynt Brandan, as he schyppyd in the see, he sawe this Iudas syttyng on a stone yn the see'; Judas: 'I am Iudas, Godis traytour, that haue this place of Godys curtesy, for refreschyng of the gret hete that I suffred wythyn'; the times: 'Yche Sonenday from euensong to euensong' and certain feasts",
+    "witness": "mirk erbe1905 l.4583-4602, 4617-4620 (raw OCR: 'Sjiyiit Brandaii, as lie scliyppyd i« fie see', 'lutlas', 'ludas'); the file header marks it a second witness until checked against the page images; the 'about 1403' of the card's first draft rests only on the file header (l.2) and was removed",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Huyshe's title page: 'SAINT ADAMNAN a.d. 679-704 ninth abbot of the monastery of iona'; title 'A.D. 521-597' for Columba",
+    "witness": "adomnan huyshe1905 l.86-88 (OCR 'a.d.~\"679-704'), l.1",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "York prymer calendar, May 16: 'brandani episcopi'",
+    "witness": "surtees horae-eboracenses wordsworth1920 l.4183-4186",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Bollandist note: 'Cluain ferta canobium duplex ... hoc a S. Brandano conditum, in sedem exinde crevit episcopalem, vulgo Clonfert'",
+    "witness": "acta-sanctorum augusti-1 l.58936-58941 (OCR 'fanfti', 'Cleiefart', 'ttnditum')",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Second copy of Barre meeting Brendan on the sea creature, Life of David in the Acta Sanctorum",
+    "witness": "acta-sanctorum martii-1 l.16355-16367",
+    "formation_confidence": "Inferential-Thin"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "That Adomnan's Brendan Mocu Alti is the founder of Clonfert",
+    "sides": [
+     "Huyshe: yes, from the clan name (adomnan huyshe1905 l.3950, 10278-10279)",
+     "Late Lives: son of Finnlug, of the Altraige / grandson of Altus, without naming Adomnan (stokes lismore1890 l.21207-21225; rees1853 l.11366)",
+     "Book of Lismore story: 'Brenainn maccu Altai was in Clonfert' (stokes lismore1890 l.878-881); Hugh Williams: 'Brendan, who founded Clonfert' (gildas williams1899 l.9111); Bollandist note: Cluain ferta founded by S. Brandano (acta-sanctorum augusti-1 l.58936-58941)",
+     "No held source near his time names Clonfert"
+    ]
+   },
+   {
+    "claim": "His death year",
+    "sides": [
+     "Huyshe: 577, no source named (adomnan huyshe1905 l.10281, 1481)",
+     "O'Flaherty, as O'Donovan quotes him: 577, at Enaghdun (four-masters odonovan1856 l.4249-4251)",
+     "No held annal gives it"
+    ]
+   },
+   {
+    "claim": "His feast day",
+    "sides": [
+     "Huyshe: 16 May (adomnan huyshe1905 l.10280-10282)",
+     "York prymer calendar: 'brandani episcopi' on 16 May (surtees wordsworth1920 l.4183-4186)",
+     "O'Flaherty, as O'Donovan quotes him: died on the 16th of May (four-masters l.4248-4250); a death day, not stated as a feast",
+     "Lismore Life in Stokes's English: 'the seventh of the calends of June' = 26 May (stokes lismore1890 l.21207); not checked against the Irish (l.13632, OCR 'hi .uii. kl. luin')"
+    ]
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "The Irish annals for his death and the founding of Clonfert",
+    "note": "Not held. The Annals of Ulster, Tigernach, Chronicum Scotorum and the early volumes of the Four Masters are not in cic/texts (searched file names for annal, ulster, tigern, scotorum, inisfallen, four-masters; only Four Masters vol. 3, 1172-1378, is held). The Annales Cambriae name only Brendan of Birr (l.2501)."
+   },
+   {
+    "detail": "Any work of his own",
+    "note": "None held or named in a held line."
+   },
+   {
+    "detail": "Clonfert in a source near his time",
+    "note": "Adomnan does not name Clonfert; the identification and the year 559 are Huyshe's (l.10277-10282). Searched huyshe1905 for 'Clonfert', 'Mocu', 'Brend'."
+   },
+   {
+    "detail": "The Latin text of Adomnan",
+    "note": "Held only in Huyshe's English; the header notes Reeves's 1874 edition was verified and not vendored (huyshe1905 l.18-20)."
+   },
+   {
+    "detail": "The Navigatio Sancti Brendani",
+    "note": "No held file names it ('Navigatio' near 'Brend' searched across cic/texts). Rees's Vita covers only the opening, the Barurchus episode, and breaks off (rees1853 l.25386). Huyshe mentions 'the narrative of the voyage of St. Brendan' in a note (huyshe1905 l.5470-5471), without naming or holding it."
+   },
+   {
+    "detail": "His death and Clonfert in the Lismore Life",
+    "note": "The Life ends with the Land of Promise and a homily on Doom; it tells neither his death nor Clonfert (stokes lismore1890 l.21191-21915)."
+   }
+  ]
+ },
+ "barhadbeshabba-arbaya": {
+  "claims": [
+   {
+    "claim": "Synod of Gregory: 'Dans le mois de nisan de la 15° année de celui qui est et sera conservé par le secours céleste, le puissant, le philanthrope, notre bon et aimable maitre, Kosrau, Roi des rois'; Chabot's heading '[A. D. 605.]' and note 'Avril 605'",
+    "witness": "Synodicon orientale, tr. Chabot (synodicon-orientale chabot1902 l.31390-31392, 31402-31404, 31430; OCR '15°')",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "The king 'a, en effet, ordonné que les Pères directeurs de l'Église, c'est-à-dire les évèques de chaque diocèse, qui sont éloignés, viendraient sur les bêtes du roi, avec honneur et aux frais du royaume, à la vénérable Porte du Roi des rois ... pour y choisir le chef et gouverneur de l'Église catholique'",
+    "witness": "Synodicon orientale, tr. Chabot (chabot1902 l.31415-31420; OCR '165 Pères', 'évèques')",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The bishops chose 'Mar Grégoire' (OCR 'Mar Gré égoire'; 'Mar Grégoire, catholicos, patriarche'); Chabot's note: 'Grégoire, originaire de Pherat'; Guidi's chronicle: 'catholicus factus est Gregorius, Phoráth oriundus'",
+    "witness": "Chabot (chabot1902 l.31473, 31485, 31528); anonymous chronicle, Latin by Guidi (chronica-minora guidi1903 l.1954)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Signature no. 27: 'Bar HaDbsES4884, évêque de Holwän' (OCR; Chabot's index reads 'Bar Hadbesabba (605)'); Braun: 'Barhadbsabbä B. v. H(o)lwän'. No epithet 'Arbaia in the signature. Page 479 of Chabot's French (page header OCR '47!)')",
+    "witness": "Chabot (chabot1902 l.31917, 31930, 48154); Braun (synodicon-orientale braun1900 l.14917)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Scher identifies the signer with the author: 'il devint ensuite évêque de Halwan; et c'est en cette qualité qu'en 605 il assista au Synode de Grégoire patriarche'; Nau: 'un certain Bar Hadbesabba Arbaia, qui etait eveque de Halwan en 605, puisqu'il souscrivait a cette epoque le synode de Gregoire Ier, cf. Synodicon Orientale, Paris, 1902, p. 479' and 'Le meme eveque de Halwan a ecrit la Cause de la fondation des ecoles' (OCR 'svnode', 'Sijnodiro)!', and the last sentence badly garbled)",
+    "witness": "Scher, introduction (barhadbeshabba cause po4 scher1908 l.16973-16975); Nau, introduction (po09 l.31579-31581, 31598-31599)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "The Cause's title as printed: 'MAR BARHADBSABBA ‘ARBAYA / ÉVÊQUE DE HALW'AN (VIE SIÈCLE)' and 'COMPOSÉE PAR MAR BARHADBSABBA ‘ARBAYA, ÉVÊQUE DE HALWAN'",
+    "witness": "PO 4 (scher1908 l.16786-16790, 17169-17170; OCR for 'Barhadbšabba')",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Scher: 'L'auteur du traité, Barhadbšabba ‘Arbaya, était originaire de la région de Beith ‘Arbayé, ainsi que l'indique son surnom; il fit ses études dans l’école de Nisibe sous Hnana d’Adiabène (572-610 ?), ainsi qu'il le déclare lui-même dans son traité'",
+    "witness": "Scher, introduction (scher1908 l.16930-16934; OCR 'Barhadbéabba', '‘572-610 ?}')",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Assemani: 'Ba-Arbaja, oppidum in dioecesi Nisibena, unde Jesujabus Arzunita & Barhedbesciaba scriptores Sobensi in Catalogo laudati ortum duxere'; and on Abdisho's chapter: 'Beth-Arbaje, seu Ba-Arbaja pago apud Nisibin' (OCR 'Betb‘%Arba)e', 'Ni- fibio'); the card cites only BO III.1's 'near Nisibis' (R1 D-B3)",
+    "witness": "Assemani, BO III.2 (assemani tomus3-pars2 1728 l.49913-49916, OCR long s); BO III.1 (assemani tomus3-pars1 1725 l.30868-30870)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Nau on the name: 'Ce nom signifie « le fils du dimanche ». Il est analogue a Cyriaque et a Dominique'; Assemani: 'filius diei Dominicae'",
+    "witness": "Nau's note 2 (po09 l.31593); Assemani (tomus3-pars1 l.30854-30860, OCR 'Doroinies')",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Scher's summary: the treaty covers 'les différentes écoles, comme le dit l’auteur, par lesquelles Dieu a bien voulu instruire les anges et les hommes', the schools for the angels, Adam, Cain and Abel, Noah, Abraham, the Israelites, Solomon, the prophets, the philosophers, Jesus Christ, the apostles, Alexandria and Antioch; 'il fait enfin l’histoire des deux écoles syriaques d’Édesse et de Nisibe. Le récit de l’auteur sur ces deux écoles, surtout sur la dernière, est très précieux. C'est le premier ouvrage qui nous retrace l’histoire de la plus célèbre de toutes les écoles de la Chaldée'; the earlier part 'est d'une prolixité fastidieuse'",
+    "witness": "Scher, introduction (scher1908 l.16878-16894)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "The Cause on Henana: 'Il fut remplacé par Hnana d'Adiabène, homme orné d'humilité'; 'ayant vidé tout son carquois sur le parti du démon, celui-ci fit éclater contre lui de terribles agitations'; 'il s'appliquait jour et nuit à la lecture et à l'interprétation des Écritures'; 'Nous prions tous Dieu de prolonger ses jours'",
+    "witness": "Cause, tr. Scher (scher1908 l.21006, 21010-21012, 21062-21063, 21121)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Scher: 'Il est probable que l’auteur dissimule ici la vérité pour louer son maitre auprès de ses coreligionnaires. Car les Nestoriens ont toujours accusé Hnana d'avoir abandonné dans ses commentaires les sentences de Théodore de Mopsueste'",
+    "witness": "Scher's note 1 (scher1908 l.21073-21075)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Chronicle of Seert: the students left the school ('Les etudiants furent fortement affectes de cette decision de Sabriso', qui avait repousse la parole du metropolitain pour accepter celle de Hnana ... ils sortirent de l'Ecole'), 'environ trois cents' (OCR 'eiiviron'); 'Parmi ceux qui sortirent de l'Ecole de Nisibe, il y avait Isoyahb de Gdala ... Hadbsabba 'Arbaya, [qui] fut fait metropolitain de Houlwan'; Scher's notes: 'Ou plutot Barhadbsabba' and 'C'est en cette qualite qu'en 605 il assista au synode de Gregoire'; the identification with the Cause's author is Scher's, and the brief says so",
+    "witness": "Chronicle of Seert, tr. Scher (chronicle-of-seert po13 scher1919 l.28671-28674, 28707, 28720-28721, 28731, 28756, 28774; OCR 'fureiit', 'TEcoIe', '»1111 fut fiiit metropolitain do lloulwan')",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Scher: 'Mais pourquoi Barhadbšabba se serait-il séparé de son maître Hnana, lui qui, quelques années auparavant, s'était montré son admirateur et avait même appelé ses adversaires « ouailles de satan » ? On peut conjecturer qu'il suivit le parti le plus fort'; and he may have written 'surtout pour ramener la paix et la concorde dans la Congrégation'",
+    "witness": "Scher, introduction (scher1908 l.17025-17028, 17038-17044)",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Nau: the History's author 'etait « pretre et chef des surveillants (...) de la sainte ecole de la ville de Nisibe » d'apres le titre de l'ouvrage, et « originaire du Beit-Arbaie, pretre et interprete » d'apres la finale. Il semble donc identique a Barhadbesabba 'Arbaia ... mentionne par Ebedjesu'; its exact title is 'Histoire des saints Peres persecutes a cause de la verite'; it 'a donc toute chance d'avoir ete ecrite a la fin du vie siecle'. Nau's note 1 reports the word for 'overseers' rendered elsewhere as 'professeur' and 'professeur de philosophie'.",
+    "witness": "Nau, introduction (po09 l.31557-31561, 31569-31577, 31590-31591; OCR 'che!'', 'Rarbadbesabba'')",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Nau: 'Il n'est pas impossible que notre auteur de « l'Histoire des saints Peres », identique a l'auteur cite par Ebedjesu, soit encore identique a l'eveque de Halwan. Il suffit de supposer qu'il a ecrit « l'Histoire des saints Peres » dans sa jeunesse ... et qu'il a prononce ou ecrit le discours sur la Cause de la fondation des ecoles dans sa vieillesse'",
+    "witness": "Nau, introduction (po09 l.31601-31607; OCR 'lllisloire', 'pronouce')",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Abdisho's catalogue, ch. XCIII 'Barhadbesciaba Arabs': 'Scripsit librum Thesaurorum In tres tomos distributum: Et disputationes Adversus omnes sectas, earumque confutationem; Ecclesiasticam praeterea historiam; necnon de causa Sectatorum Mar Diodori; Commentarium denique in Marcum Evangelistam, & Davidem'; Nau gives the same list in French",
+    "witness": "Assemani, BO III.1 (tomus3-pars1 1725 l.30771-30794, OCR long s and 'ptretereif/^or/flw'); Nau (po09 l.31565-31567)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Scher gives this list to the Cause's author and notes 'qu Ebedjésus ne mentionne pas ici le traité de Barhadbšabba sur les écoles ... Ebedjésus n'aurait donc pas eu connaissance du traité'",
+    "witness": "Scher, introduction (scher1908 l.16980-16991)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Dating the Cause. Scher: 'postérieure à l’avènement de Išo‘yahb d'Arzoun, qui eut lieu en 581 ... aussi antérieure à 604'; the editors' note: 'un « discours d'ouverture de la session des écoles » à Nisibe vers l’an de grâce 590'; Connolly: 'It is probable then that the chronicle was written some little time after the year 585'",
+    "witness": "Scher (scher1908 l.17018-17023); 'Note des éditeurs' (l.17102, 17118-17131); Connolly (narsai connolly1909 l.308-314)",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "The editors' note is headed '[Note des éditeurs' (OCR 'Nore pes éprreurs'); the series editors are R. Graffin and F. Nau (file header); the card names the note's writers as 'the editors of the Patrologia Orientalis' and does not name them singly",
+    "witness": "scher1908 l.3-4, 17102",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Mingana and Chabot on the Cause: 'M. Mingana croit que ce document est une partie de l’histoire de Barhadbšabba. M. Chabot le croit être une juxtaposition mal coordonnée de deux ou plusieurs récits antérieurs'; Scher: 'Le traité ne fait nullement partie de l'histoire de Barhadbšabba'; 'Rien ne nous empêche d'accorder à cet ouvrage une entière confiance'; the troubling passages inserted 'par un copiste quelconque'",
+    "witness": "Scher, introduction (scher1908 l.17046-17058, 17086-17092)",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Guidi's chronicle, after Gregory of Phorath's death and the long vacancy: 'Ea aetate claruerunt in ecclesia Ionadab adiabenus ... Nominis famam adeptus erat in libris conscribendis Bàr Hadhbésabba urbis Holwan; moribus autem vitae eximiis clarebat Subhhalémáran urbis Karkha dhé Beth Sélokh, et Afrahnoy(?) regionis ad fluvios Zabh, et Gabriel urbis Néhargul'. Nau's French of the line: 'Bar Hadbesabba de Halwan etait celebre dans la litterature et brillait dans les oeuvres de la perfection'. Braun's German of Guidi agrees with the Latin split ('Durch vorzüglichen Lebenswandel zeichneten sich aus:.... G. v. N.')",
+    "witness": "chronica-minora guidi1903 l.1954-1979 (OCR 'lonadab'); Nau (po09 l.31582-31587); Braun (braun1900 l.14934-14935)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The vacancy: Nau 'entre les annees 609 et 628'; Scher 'pendant la vacance forcée du siège patriarcal (609-628)'; Chabot: Gregory died 'entre oct. 608 avril 609'",
+    "witness": "Nau (po09 l.31582); Scher (scher1908 l.16977-16978); Chabot (chabot1902 l.31485-31489)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Scher: 'Il mourut probablement dans la première moitié du vi[i]e siècle' (OCR 'vi siè-cle'; the sense must be the seventh century, since the next clause has him alive during the vacancy of 609-628); not used on the card after R1 (D-M6), since the scan reads 'vi'",
+    "witness": "Scher, introduction (scher1908 l.16976-16978)",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Labourt: 'Barhadbešabba de Holwan, écrivain distingué', with note 1: 'Cet évêque est peut-être celui que Sabrišo‘ avait désigné pour lui succéder'",
+    "witness": "Labourt (labourt1904 l.12681, 12702-12703; OCR '$' for 'š')",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Connolly's English of the Cause: 'Edessa was darkened, but Nisibis shone forth ; and the dominions of the Romans were filled with error, but those of Persia with the knowledge of true religion' (the brief closes the space before the semicolon); Scher's French: 'Édesse s’obscurcit; Nisibe s’illumina: l'empire des Romains s’emplit d'erreur, celui des Perses de la connaissance de la crainte de Dieu'",
+    "witness": "Connolly (narsai connolly1909 l.4494-4496, citing 'Barhadhbeshabba Chron. apud Mingana, Preface p. 35', l.4523); Cause, tr. Scher (scher1908 l.20743-20746)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Connolly: 'a fragment of a chronicle by Barhadhbeshabba (saec. VI—VII) which is of first-rate importance for the history of the Nestorian School of Nisibis'; 'If with Mingana we adopt this reckoning ... his death will fall in 502'",
+    "witness": "Connolly (narsai connolly1909 l.272-275, 298-301)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Scher trusts the Cause over later witnesses: on Elisha, 'Barhadbšabba, qui est beaucoup plus digne de foi, ayant écrit ce traité à la fin du VIe siècle, dit ici clairement qu'il n'a pas été évêque'; on Narsai's forty-five years, 'plus digne de foi que R. Sourin'",
+    "witness": "Scher's notes (scher1908 l.20826-20828, 21724-21726)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Nau on the History: 'la presente histoire parait etre la plus ancienne histoire ecclesiastique nestorienne et elle a ete utilisee par tous les auteurs posterieurs ... elle est encore la source de la legende syriaque de Nestorius'; its chapters XIX-XXXII run from Theodore of Mopsuestia and Nestorius through Ephesus to 'Mar Narses, pretre et docteur' and 'Mar Abraham, pretre et docteur'; Nau: 'Cette histoire des saints Peres, qui se termine avec Abraham (+ 569)'",
+    "witness": "Nau (po09 l.31575-31576, 31905-31969, 31999-32003; OCR 'etro', 'utiiisee')",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Namesake, the monk of Mount Sa'ran: Seert 'Celui-ci [Sabrisho] avait recommande aux fideles de choisir Barhadbsabba le moine qui habitait la montagne de Sa'ran'; Mari 'etsi Mar Sabarjesus mandavisset in patriarcham assumi Barhadbsabba monachum in monte Sa'aran habitantem' (OCR 'habilanlem'); Hoffmann 'Barhadhbsabbä, einem Mönche auf dem Gebirge Sa'rän'; Braun after Mari 'den Rabban Barhadbšabbā vom Gebel Saran'",
+    "witness": "Seert (scher1919 l.29180-29181); Mari, Latin by Gismondi (mari-ibn-sulayman gismondi1899 l.13591-13592, OCR 'nmnte'); Hoffmann (hoffmann1880 l.6298-6299); Braun (braun1900 l.14496-14497)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Assemani: 'Diversus proinde ab eo Barhadbesciaba videtur, qui Jacobo Beth-Abensis coenobii fundatori aequalis fuit, teste Margensi'",
+    "witness": "Assemani, BO III.1 (tomus3-pars1 1725 l.30871-30875, OCR 'Diverfua croinde', '£qualis', 'tefie')",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Other namesakes: 'Barhadbešabba, diacre d’Arbel' (a martyr under Shapur); 'un certain Barhadbešabba de Qardu'; 'Bar Hadbsaba, archimandritae et fratribus' in Ishoyahb III's letters",
+    "witness": "Labourt (labourt1904 l.4839, 7834); Ishoyahb III, Latin by Duval (ishoyahb-iii duval1905 l.5517, 11494)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Card framing after R1 (coordinator's ruling): the History is filed as the work of Barhadbeshabba 'Arbaia of the school of Nisibis, not as this bishop's; it appears on the card only in `uncertain` and in Nau's introduction under `about`. Display name 'Barhadbeshabba 'Arbaia of Halwan' keeps him apart from the History's writer of batch 1.",
+    "witness": "Nau (po09 l.31557-31561, 31601-31607); batch 1 narsai and barsauma-of-nisibis cards",
+    "formation_confidence": "Contested"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "Whether the author of the History and the author of the Cause are one man",
+    "sides": [
+     "Nau: the History is by Barhadbeshabba 'Arbaia, priest and head of the overseers of the school of Nisibis, and it is 'pas impossible' that he is the bishop of Halwan who wrote the Cause, young for the History and old for the Cause (po09 l.31557-31561, 31601-31607)",
+     "Scher treats them as one, giving the Cause's author Abdisho's list of books with its history, and speaking of 'l'histoire de Barhadbšabba' as the same author's (scher1908 l.16980-16984, 17054, 17088-17093); the PO 9 and PO 4 file headers also name the History's author 'bishop of Halwan', a Library metadata choice"
+    ]
+   },
+   {
+    "claim": "When the Cause was written",
+    "sides": [
+     "Scher: after Ishoyahb of Arzun's accession (581 by Scher) and before 604 (scher1908 l.17018-17023)",
+     "Connolly: a little after 585 (connolly1909 l.308-314)",
+     "The PO editors' note: about 590, as an opening address (scher1908 l.17118-17131)"
+    ]
+   },
+   {
+    "claim": "Bishop or metropolitan of Halwan",
+    "sides": [
+     "Bishop: the synod's signature (chabot1902 l.31930; braun1900 l.14917) and the Cause's title (scher1908 l.17169-17170)",
+     "Metropolitan: the Chronicle of Seert, 'fut fait metropolitain de Houlwan' (scher1919 l.28756)"
+    ]
+   },
+   {
+    "claim": "What Guidi's chronicle says of him",
+    "sides": [
+     "Guidi's Latin and Braun's German: fame for writing books, with excellence of life given to Subhalmaran and others (guidi1903 l.1975-1978; braun1900 l.14934-14935)",
+     "Nau's French: celebrated in literature and shining in works of perfection (po09 l.31586-31587)"
+    ]
+   },
+   {
+    "claim": "Whether the bishop of Holwan is the monk of Mount Sa'ran whom Sabrisho wanted as successor",
+    "sides": [
+     "Labourt: 'peut-être' (labourt1904 l.12702-12703)",
+     "Seert, Mari, Hoffmann and Braun name the monk with no link to Holwan, and the Cause's author was a student at Nisibis by Scher's account (scher1919 l.29180-29181; gismondi1899 l.13592; scher1908 l.16930-16934)"
+    ]
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "His birth, family, ordination and death",
+    "note": "Searched all of cic/texts for Hadb, Hadhb, Hadbe, dbsab, dbefc/dbelc/dbcfc (Assemani's long-s forms), Halwan, Holwan, Hulwan, Houlwan, Arbai, Arbay, Beth Arbaye. No held line gives his birth, family, the year of his consecration or of his death. Scher's 'first half of the seventh century' is an inference from the 605 signature and Guidi's chronicle."
+   },
+   {
+    "detail": "His other books",
+    "note": "The Treasures, the controversies against all sects, the work on the followers of Diodore and the commentary on Mark and the Psalms, listed by Abdisho, are not held. Of the History only the second part (chapters XIX-XXXII, Nau, PO 9) is held; Nau's promised first part (chapters I-XVIII) is not. Mingana's Syriac edition of the Cause is not held; Connolly's English gives a few passages of it only."
+   },
+   {
+    "detail": "The History's closing line naming its author 'originaire du Beit-Arbaie, pretre et interprete'",
+    "note": "Known only from Nau's introduction (po09 l.31558-31559); the OCR of the History's end in the held file does not recover it (searched 'Beit', 'Arba', 'interprete' in the History's range)."
+   },
+   {
+    "detail": "A held English translation of the Cause or the History",
+    "note": "None held. The census lists a modern English translation of the Cause (Liverpool UP) as a source note, not as a held file. Connolly's English covers a few passages."
+   }
+  ]
+ },
+ "theopistus": {
+  "claims": [
+   {
+    "claim": "§4: 'Quand ils apportèrent cette lettre à Alexandrie et que le (subactor ? ) la faisait lire au lecteur, je vins par derrière et la regardai, j'y lus les noms de ces mauvais conseillers. Je retournai alors près de notre père Dioscore, puis je lui dis avec les paroles des fils des prophètes : « La mort est dans cette lettre, ô homme de Dieu »'; the counsellors are Ibas of Edessa, 'Théodore de Cyr' and Andrew of Samosata, whom Marcian 'louait et les exaltait comme ses conseillers'; Nau's note: 'Cf. IV, Rois, iv, 40'. The brief tells it in reported speech. The brief says he 'came up from behind and looked at it' (je vins par derrière et la regardai) and names the counselors as the men the emperor praised as his counselors (l.13928-13930).",
+    "witness": "theopistus (theopistus_histoire-de-dioscore-journal-asiatique-1903-fra_nau1903) l.13925-13930, 13950-13956 (OCR 'celte' for cette, 'fds' for fils, '6' for ô); note l.13980",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Title of the translation: 'Histoire du saint divin mar Dioscore, patriarche de tous les orthodoxes et archevêque d'Alexandrie, écrite par son disciple Théopiste'; §1 opens 'Mes amis, j'apprends à votre affection quels rudes combats nous avons soutenus, moi et mon père saint Dioscore l'archevêque'. Told as the book's account: the narrator names himself.",
+    "witness": "theopistus (theopistus_histoire-de-dioscore-journal-asiatique-1903-fra_nau1903) l.13482-13489",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The narrator names himself: §11 'Alors moi Théopiste, je portai cette lettre au concile'; §20 Dioscorus says 'Théopiste, mon fils, après ma mort laisse Pierre près de mon corps et sauve-toi, car un grand danger te menacera'.",
+    "witness": "theopistus (theopistus_histoire-de-dioscore-journal-asiatique-1903-fra_nau1903) l.15582-15583; 16921-16925",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Deacon: §14 the brother he sends to beg says 'Le diacre de Dioscore, l'archevêque d'Alexandrie, te demande une petite aumône'; the merchant answers him 'Seigneur diacre n'aie pas honte'; §16 the healed man cries 'Vive le Dieu de ce diacre d'Alexandrie !'. Nau: 'l'histoire de Dioscore nous apprend qu'il avait avec lui l'archidiacre Pierre et le diacre Théopiste'. The card name 'Theopistus, deacon of Dioscorus' rests on these lines.",
+    "witness": "theopistus (theopistus_histoire-de-dioscore-journal-asiatique-1903-fra_nau1903) l.16048-16049, 16073-16074, 16395; Nau's note l.878-880 (OCR 'Tbéopiste' l.878)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Nau: 'A partir de la convocation du concile, Théopiste prétend n'avoir plus quitté Dioscore. A la mort de celui-ci, et pour éviter une arrestation, il se réfugie dans la ville de Pentapolis (la Pentapole?) et y écrit aussitôt la présente histoire (§20). D'ailleurs, il se met parfois en scène (§4 et 11), raconte, de manière assez simple, comment il reçut un soufflet de celui qui devait les conduire en exil (§10); comment il en fut réduit à mendier pour vivre (§14) et comment il opéra un miracle avec le sang de Dioscore (§16).' The brief names the council as Chalcedon (Nau l.178-179) and the bishop's death in exile from the History: 'c'est pour elle que je meurs en exil' (l.17012-17013).",
+    "witness": "Nau's introduction, theopistus (theopistus_histoire-de-dioscore-journal-asiatique-1903-fra_nau1903) l.441-471 (OCR '$ 20', 'S 4', 'S 10', '5 1 6'); l.178-179; l.17012-17013",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "§10, the slap: the envoy mocks Dioscorus; 'Quand je vis qu'ils interpellaient ce saint vieillard, je pleurai et dis à cet envoyé maudit : « Je te prie de ne pas te moquer de lui, car il est peu robuste... » — Quand l'un des hérétiques m'entendit parler, il courut sur moi, me donna un soufflet'. The History has 'one of the heretics' slap him; Nau's summary (l.448-449) gives it to the man who was to take them into exile. The brief follows the History.",
+    "witness": "theopistus (theopistus_histoire-de-dioscore-journal-asiatique-1903-fra_nau1903) l.15229-15238 (OCR 'k' for à, 'u' for «)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "§20: 'Et deux mois après sa mort saint Pierre m'envoya une lettre : « Va, fuis et cache-toi ». — Car lorsque les hérétiques apprirent la mort de notre saint père Dioscore le patriarche, ils dirent de moi à l'empereur que l'or et l'argent des églises étaient cachés chez moi... Aussitôt j'allai à la ville de Pentépolis, m'y cachai et y écrivis cette histoire'; Nau's note: 'Ou plutôt : Dans la Pentapole (Cyrénaïque).' The brief calls this Peter 'the archdeacon Peter': §20 names 'l'archidiacre Pierre' a few lines before (l.16922-16923), and he is the only Peter with them in the narrative; the line itself says 'saint Pierre'. The brief keeps 'two months after' and tells the hiding and writing as the narrator's own statement ('He says he hid'), since Nau's reworking view disputes it.",
+    "witness": "theopistus (theopistus_histoire-de-dioscore-journal-asiatique-1903-fra_nau1903) l.17022-17031 (OCR 'Pen- tépolis'); note l.17034 (OCR 'On plutôt')",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Death date in the History: 'Il dit et rendit son âme à Dieu à onze heures de la nuit du quatre du mois d'Elul « septembre »'; no year. Nau: Dioscorus 'mourut le 4 septembre 454'. Duchesne: 'Dioscore mourait à Gangres, le 4 septembre 454, après trois années d'exil'.",
+    "witness": "theopistus (theopistus_histoire-de-dioscore-journal-asiatique-1903-fra_nau1903) l.17015-17016; Nau l.178-180; duchesne_histoire-ancienne-de-leglise-tome3 l.17631-17632",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Gangra an island: 'on nous conduisit dans l'île appelée Gangara (Gangra)'; 'l'île de Gangara'.",
+    "witness": "theopistus (theopistus_histoire-de-dioscore-journal-asiatique-1903-fra_nau1903) l.15930-15931, 16041",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Close: 'Je témoigne devant Dieu que j'ai écrit la vérité, et maintenant croyez, mes frères, que je n'ai pas écrit tous les prodiges, toutes les guérisons et tous les miracles que Dieu opéra par les mains de ce saint martyr de la vérité parce qu'il y en a trop.' A prayer follows, then 'Fin de l'histoire'; hence 'near the end'.",
+    "witness": "theopistus (theopistus_histoire-de-dioscore-journal-asiatique-1903-fra_nau1903) l.17052-17063",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Nau: 'Cependant, Dioscore, dans une vision, apprend que Sévère sera patriarche d'Antioche (§19), ce qui place la composition de la présente rédaction après l'an 512'; note 'Sévère fut patriarche de 512 à 518'. The vision itself (§19): Cyril asks Ignatius to bless 'mon fils', and Ignatius places his hand 'sur la tête d'un petit enfant' and says 'Sévère, viens voir tes pères et imite leurs actions'. The brief tells the vision and gives the patriarchate as Nau's reading. The vision is Dioscorus's own ('J'ai vu cette nuit', l.16865-16866); the brief gives 512 as the year Severus took the see, from Nau's note (l.498).",
+    "witness": "Nau theopistus (theopistus_histoire-de-dioscore-journal-asiatique-1903-fra_nau1903) l.484-487, 498 (OCR '5 ia', '5i2 à 5 i 8'); the vision l.16871-16916",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Nau's solution: 'Peu après la mort de Dioscore, on écrivit en Égypte un certain nombre de récits en sa faveur, parmi ceux-ci pouvait se trouver un récit, écrit par Théopiste, de la réunion du concile de Chalcédoine et de l'exil à Gangres. Après l'an 512, l'un des rhéteurs de l'école de Pierre l'Ibère reprit l'écrit de Théopiste et le compléta à l'aide de ses connaissances personnelles. Ce remaniement fut sans doute rédigé en grec ... et d'ailleurs le syriaque que nous publions semble être une traduction du grec. Enfin ce remaniement grec fut traduit en syriaque avec quelques nouvelles modifications et constitua enfin la présente histoire.' He calls it 'la solution suivante comme la plus probable pour l'instant'. The brief tells it as a suggestion: Theopistus 'may have written' an account, which may have been among the 'récits en sa faveur' (l.582); 'rhéteurs' is told as 'a writer trained in rhetoric'. Peter the Iberian is placed on the card as bishop of Maiouma near Gaza (Nau's note l.15346-15347).",
+    "witness": "Nau theopistus (theopistus_histoire-de-dioscore-journal-asiatique-1903-fra_nau1903) l.577-595, 636-637 (OCR '5 12', 'l'ibère')",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Nau's grounds for Greek: Greek words transcribed, the forms of some names (Paphnutios for Coptic Paphnuti), and the Palestinian passages, which 'n'ont aucune chance d'avoir été rédigés en copte'; scripture 'semblent traduits directement sur un texte grec', but one passage (§15; I Peter v, 3) is 'cité d'après la Peschito' and 'n'a donc pu être introduit que par un Syrien'.",
+    "witness": "Nau theopistus (theopistus_histoire-de-dioscore-journal-asiatique-1903-fra_nau1903) l.544-554, 577; note l.597-620 (Greek and Syriac OCR garbled)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Peter 'now a priest': §6 'Quand mon père eut lu cette lettre, il me dit ainsi qu'à l'archidiacre Pierre, lequel est maintenant prêtre'; Nau: 'si donc on admet, comme l'a écrit M. Révillout, que l'archidiacre Pierre est Pierre Monge, le présent récit aurait été écrit avant son élection au patriarchat d'Alexandrie, c'est-à-dire avant 477'; note: 'Ce détail semble indiquer que cette biographie fut écrite peu après ... D'après Liberatus, Pierre Monge avait été archidiacre.' Duchesne's first initial 'M. E. Revillont' (OCR) gives 'E. Revillout'.",
+    "witness": "theopistus (theopistus_histoire-de-dioscore-journal-asiatique-1903-fra_nau1903) l.14230-14232; Nau l.471-477, notes l.14245-14251; duchesne tome3 l.15900",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Assemani, Bibl. vatic. catal. t. III p. 497: 'Fabulosa narratio a jacobitis recentioribus excogitata', as Nau quotes it; Nau: 'Il semblerait donc assez naturel de supposer avec Assémani que le présent ouvrage est un faux littéraire rédigé de toutes pièces à une date relativement récente'; then 'Mais il nous semble peu probable a priori que les monophysites aient attendu longtemps pour rédiger à leur manière « les actes » de Dioscore, car ils écrivaient la vie d'hommes bien moins marquants dès leur mort et même durant leur vie'. The card says 'writers of Dioscorus's party' for Nau's 'monophysites'. The card renders 'a jacobitis recentioribus' as 'by later writers of Dioscorus's party', avoiding the undefined term.",
+    "witness": "Nau theopistus (theopistus_histoire-de-dioscore-journal-asiatique-1903-fra_nau1903) l.493-505, 525-534",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Nau's judgment: 'la présente histoire est un panégyrique, c'est-à-dire une composition oratoire dans laquelle quelques faits servent de cadre à des visions, à des discours et à des prodiges. Les faits ont chance d'être historiques'; 'cette réserve dans le choix des prodiges et cette sincérité dans leur récit nous impressionnent assez favorablement envers le panégyriste Théopiste'; 'nous n'avons aucun autre écrit ancien consacré à Dioscore'. Also 'Nous sommes loin de nous porter garants de l'authenticité de bien des détails' and 'Théopiste ne fabrique pas de toutes pièces les discours qu'il prête à Dioscore'.",
+    "witness": "Nau theopistus (theopistus_histoire-de-dioscore-journal-asiatique-1903-fra_nau1903) l.639-647, 712-718, 419-437",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Nau: the History 'est la source, croyons-nous, de nombreuses publications coptes faites par MM. Zoega, Revillout et Amélineau'.",
+    "witness": "Nau theopistus (theopistus_histoire-de-dioscore-journal-asiatique-1903-fra_nau1903) l.364-369",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "The Coptic panegyric of Macarius of Tkow, in Nau's French from Amélineau (M.A.F.C. IV p. 92-93): 'Pierre et Théopiste, les diacres qui l'avaient suivi ont écrit cet (éloge)'; Nau: 'nous croyons que ce panégyrique dépend de notre histoire'; on the two authors: 'Nous ne voyons pas d'autre explication à cette attribution'. Note to the translation's title: 'Théopiste est cité comme l'un des deux rédacteurs du panégyrique de Macaire de Tkôou ... Son nom est écrit :' followed by a Greek-letter form garbled by OCR ('oeomcToc').",
+    "witness": "Nau theopistus (theopistus_histoire-de-dioscore-journal-asiatique-1903-fra_nau1903) l.739-742, 798-809, 877-883; note l.13496-13500",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Duchesne on the Macarius panegyric: 'Il n'y a rien à faire du panégyrique de Macaire de Tkôou (Anteopolis), censé prononcé à Gangres par Dioscore exilé ... M. Amelineau ... a démontré (ibid., p. xv et suiv.) que c'est un document apocryphe et de nulle valeur.'",
+    "witness": "duchesne_histoire-ancienne-de-leglise-tome3-fra_2e-ed1910 l.15897-15907",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Nau 1912: John Rufus wrote the Plerophories 'en grec peu après l'année 512'; 'Les Plérophories ont été utilisées aussi par le rédacteur de l'Histoire de Dioscore, écrite par son disciple Théopiste (Paris, 1903)', naming the shared stories of Juvenal and Peter the Iberian (Nabarnougios), Basil of Seleucia, Leontius of Ascalon and Panopropios.",
+    "witness": "po08_john-rufus-plerophories-and-others-fra_1912 l.434-435, 442-454 (OCR 'aprés', 'V /7istorre', 'Dasile')",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Nau's later note, in his Textes monophysites (extracts of Timothy Aelurus, XI): 'Une histoire légendaire de Dioscore est conservée dans une version syriaque, cf. F. Nau, Histoire de Dioscore, écrite par son disciple Théopiste, Paris, 1903 (Extrait du Journal Asiatique). Cette légende a été romancée encore dans plusieurs récits coptes'. The line is in the PO 13 file named for the Chronicle of Seert, but in Nau's fascicle (title l.7852-7870), not in the Chronicle.",
+    "witness": "chronicle-of-seert_histoire-nestorienne-seconde-partie-po13-ara-fra_scher1919 l.12638-12640 (OCR heavily garbled: 'Viw liisloiio li^soi\\il<iiio ilo Uloscore esl cooservt^io daiis iine versiun syri(i(|uo'); section heading l.12185-12212",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Nabarnougios: §11 the narrator asks Juvenal 'Où sont les paroles que t'adressait Nabarnougios ?'; Nau's note: 'C'est le nom Ibérien de Pierre, évêque de Maiouma, près de Gaza'.",
+    "witness": "theopistus (theopistus_histoire-de-dioscore-journal-asiatique-1903-fra_nau1903) l.15334-15335; note l.15346-15352",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Added ending: Nau: 'Le premier de ces deux manuscrits de Londres présente à la fin une addition d'une page que nous reproduisons d'après la copie qu'en a faite M. Brooks'; the ending of add. 14631 (A): 'Car on m'a annoncé la mort de l'impur Marcien ... (on m'a annoncé) aussi la mort de l'impie Pulchérie'.",
+    "witness": "Nau theopistus (theopistus_histoire-de-dioscore-journal-asiatique-1903-fra_nau1903) l.926-933; the ending l.17073-17103 (OCR 'Palchérie')",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Crum note: 'M. Crum a trouvé des fragments coptes anciens qui correspondent aux paragraphes 7, 13, 18, 19 (?) et 20 de la présente histoire; ils serviront à rechercher avec plus de sûreté quel est le texte original et à préciser l'ordre de filiation des versions.' The note is unsigned, in Nau's article; the card does not give it to Nau by name, and says only that 'it says' the fragments will help in working out which text is the original ('serviront à rechercher avec plus de sûreté').",
+    "witness": "theopistus (theopistus_histoire-de-dioscore-journal-asiatique-1903-fra_nau1903) l.17171-17178",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The History of the Patriarchs: 'In this way no biography of the holy patriarch Dioscorus after his banishment has been found'; it says Mennas wrote 'of what the Father Dioscorus after him suffered in the council of Chalcedon'. It does not name Theopistus.",
+    "witness": "severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904 l.35102-35108 (OCR 'Pioscorus', 'l)ioscorus')",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The synaxaries' entries on Dioscorus tell of the exile with Macarius and do not name Theopistus: Arabic Jacobite (Basset), 7 Tout: 'il partit et avec lui Macaire évêque d'Edkou'; Ethiopic (Budge): 'with him was Abba MACARIUS, bishop of the city of KAw'.",
+    "witness": "synaxaire-arabe-jacobite_po1-thout-babeh-synaxaire-ethiopien-fra_basset-guidi1907 l.14421-14437; ethiopian-synaxarium_book-of-saints-ethiopian-church-v1-maskaram-khedar_budge1928 l.7429-7431",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Namesake, kept apart: 'Remember me, even me, Theopistos, the feeble one, the deacon, the son of Severus the archpresbyter of Saint Mercurius of the city of Sne. I wrote this book with my own hand', in the colophon of Brit. Mus. MS. Oriental 7024, which Budge dates 'a. d. 985'.",
+    "witness": "coptic-apocrypha-upper-egypt-life-of-pisentius_budge1913 l.1925-1931, 1969-1973",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Namesake, kept apart: 'Theopistus, filius divi Eustathii, martir' (index); the Roman Breviary's 'Eustace, Agapitus, Theopistus, and Theopista, Martyrs'.",
+    "witness": "nicephorus-callistus_historia-ecclesiastica-with-hesychast-tracts-pg147-grc-lat_migne1865 l.50496 (OCR 'tilius', 'Eustitlni'); roman-breviary_bute1908 l.2349",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Later notes by Nau name him only as the History's writer: 'l'Histoire de Dioscore, écrite par son disciple Théopiste (Paris, 1903)' (1912); 'F. Nau, Histoire de Dioscore, écrite par son disciple Théopiste' (PO 13 note).",
+    "witness": "po08_john-rufus-plerophories-and-others-fra_1912 l.447-448; chronicle-of-seert_histoire-nestorienne-seconde-partie-po13-ara-fra_scher1919 l.12638-12639 (OCR garbled)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Gangra in Paphlagonia: the Coptic panegyric, as Nau quotes it, 'exilé à Gangres, île de la Paphlagonie'.",
+    "witness": "Nau theopistus_histoire-de-dioscore-journal-asiatique-1903-fra_nau1903 l.801",
+    "formation_confidence": "Documented"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "Who wrote the History of Dioscorus as it survives",
+    "sides": "The book itself: its narrator names himself Theopistus, the disciple of Dioscorus, and says he wrote it in hiding at Pentapolis two months after the death (title l.13482-13485; §11 l.15582; §20 l.17022-17031). Nau, in his view 'la plus probable pour l'instant': an account by Theopistus 'pouvait se trouver' among accounts written in Egypt soon after the death; after 512 a rhetor of Peter the Iberian's school reworked and completed it, probably in Greek; the Greek was then put into Syriac with further changes (l.577-595, 636-637); in 1912 he adds that the reviser used the Plerophories (po08 l.442). Nau also notes the line making the archdeacon Peter 'maintenant prêtre', which would put the account before 477 if Peter is Peter Mongus, as Revillout wrote (l.471-477). Assemani, as Nau quotes him: 'Fabulosa narratio a jacobitis recentioribus excogitata' (l.503-504); Nau rejects the later-forgery view (l.530-542)."
+   },
+   {
+    "claim": "Whether the Coptic panegyric of Macarius of Tkow was written by Peter and Theopistus",
+    "sides": "Its own title, in Nau's French: 'Pierre et Théopiste, les diacres qui l'avaient suivi ont écrit cet (éloge)' (l.807-808). Nau: the panegyric depends on the History and took the two names from it (l.739-742, 877-883). Duchesne reports that Amélineau showed it to be apocryphal and of no value (duchesne tome3 l.15897-15907)."
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "His birth, death, family or origin",
+    "note": "Not held. Searched all of cic/texts for Theopist, Théopiste, Tbéopiste, Theopistos, Theopif(t), θεόπιστ and hyphen-broken forms. Outside Nau's 1903 file, the only lines naming this Theopistus are Nau's own later notes (po08 l.442-448; PO 13 file l.12638-12639). The other hits are namesakes or unrelated (Budge's Sne scribe, the martyr son of Eustathius, Theopista and Theopiste, an Armenian work against a Greek 'Théopiste', rhc-armeniens l.81602; nurikhan l.18510). No witness tells of him apart from the History and the Coptic sermon on Macarius; Nau's later notes (po08 l.447-448; PO 13 file l.12638-12639) name him only as the History's writer."
+   },
+   {
+    "detail": "The Syriac text",
+    "note": "Not recovered: the file header says the OCR found no Syriac script; the History is held only in Nau's French translation."
+   },
+   {
+    "detail": "The Coptic panegyric of Macarius of Tkow and its Greek spelling of his name",
+    "note": "Amélineau's edition (M.A.F.C. IV) is not held; the panegyric is held only as Nau quotes and summarizes it (l.739-900), and the Greek-letter form of the name in Nau's note (l.13499-13500) is garbled by OCR, so no original-language form is put on the card."
+   },
+   {
+    "detail": "Crum's Coptic fragments",
+    "note": "Not held; known only from the note at l.17171-17178, which says they were to be printed in the Proceedings of the S.B.A."
+   },
+   {
+    "detail": "Assemani's Vatican catalogue",
+    "note": "Not held; his view is known here only as Nau quotes it (l.503-504)."
+   },
+   {
+    "detail": "A place of origin for the card name",
+    "note": "No held line gives his city. The role marker 'deacon of Dioscorus' rests on the History's own lines (l.16048-16049, 16074, 16395)."
+   }
+  ]
+ }
+}
