@@ -6,7 +6,7 @@
     "Eadburg (Charles Plummer)"
   ],
   "knownFor": "An English abbess of the eighth century who sent books and vestments to Boniface of Mainz in Germany. He asked her to copy the Epistles of Saint Peter in gold. She taught Leoba the art of verse.",
-  "dates": "Eighth century. Edward Kylie dates the letters to her from about 717 to the 740s. No source used here gives her birth or death",
+  "dates": "Eighth century. Edward Kylie dates the letters to her from about 717 to the 740s. The Bollandists, who take her to be Bugga, give her death day as 27 December; the year cannot be read in the scan used here. No source used here gives her birth",
   "place": "Thanet, in Edward Kylie's headings and introduction; the letters themselves do not name her house",
   "tradition": "Anglo-Saxon Christianity",
   "role": "Abbess; teacher of Leoba; supplier of books to the Boniface mission",
@@ -28,8 +28,9 @@
     "None of her own letters is in Kylie's book. She is known from letters written to her and from Leoba's letter.",
     "Her house. Kylie heads the letters to her as letters to the abbess of Thanet, and says Leoba was sent to her there. The letters themselves name no place.",
     "Whether she was also Bugga. The Bollandists, editors of the Acta Sanctorum, report a belief that Eadburga, also called Bugga, was an abbess in Kent. Kylie keeps Eadburga and Bugga apart.",
-    "A church at Thanet. A note in Migne's edition of Alcuin's poems suggests that a poem on an apse of Saint Peter may be about the church at Thanet. It says Eadburga built that church, and marks the whole as a guess.",
-    "Her years. Kylie dates the letters to her, from about 717 to the 740s. Neither her birth nor her death is in the sources used here."
+    "A church at Thanet. A note in Migne's edition of Alcuin's poems guesses that a poem on an apse of Saint Peter is about the church at Thanet. It states that Eadburga built that church, and gives no source.",
+    "Her years. Kylie dates the letters to her from about 717 to the 740s. The Bollandists give her death day as 27 December, the day Bregwin of Canterbury gives for an abbess Bugga. That rests on their view that she was Bugga.",
+    "Who sent the silver stylus. Kylie, Charles Plummer and Louis Duchesne give the letter to Lul. A note in Patrologia Latina 103 gives it to Boniface."
   ],
   "sources": {
     "about": [
@@ -60,6 +61,13 @@
         "date": "1863",
         "language": "Latin",
         "file": "cic/texts/alcuin_opera-omnia-letters_migne-pl100-101_1863.txt"
+      },
+      {
+        "title": "Concordia regularum, editor's note on the stylus",
+        "author": "J.-P. Migne (compiler)",
+        "date": "1851",
+        "language": "Latin",
+        "file": "cic/texts/benedict-aniane_concordia-regularum-with-ardo-vita-pl103-lat_migne1851.txt"
       }
     ]
   }

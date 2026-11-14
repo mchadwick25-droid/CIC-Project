@@ -37,13 +37,13 @@
         "formation_confidence": "Dominant Modern Reconstruction"
       },
       {
-        "claim": "Kylie's index lists Bugga and Eadburga as separate entries; letter VII names \"her only daughter Heaburg, called Bugga\"",
-        "witness": "BONI l.8029, 8056, 2876",
+        "claim": "Kylie's index lists Bugga and Eadburga as separate entries; letter VIII (headed \"14 VII\" in the OCR; letter VII is Egburg's, l.2694; contents l.250-256; intro l.1073-1076 \"(VIII, IX)\") names \"her only daughter Heaburg, called Bugga\"",
+        "witness": "BONI l.8029, 8056, 2862-2876",
         "formation_confidence": "Documented"
       },
       {
-        "claim": "Bollandists, on Hildelitha: \"Creditur Eadburga, cognomento Buggan, Abbatissa fuisse in Cantio\" (it is believed that Eadburga, surnamed Bugga, was an abbess in Kent), with a death day in December whose figures the OCR garbles (\"γι Kalendas Januarii anno. Dccurx\")",
-        "witness": "AASS3 (acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt) l.126352, 126368-126371",
+        "claim": "Bollandists, on Hildelitha: \"Creditur Eadburga, cognomento Buggan, Abbatissa fuisse in Cantio, et mortua γι [vi] Kalendas Januarii anno Dccurx [garbled], et inscripta variis Martyrologiis ad xvi Julii\" (it is believed that Eadburga, surnamed Bugga, was an abbess in Kent, and died on the sixth day before the Kalends of January, 27 December); said of the Eadburga of Boniface's vision letter, quoted just before",
+        "witness": "AASS3 (acta-sanctorum_martii-tomus-3-lat-grc_palme1865.txt) l.126352-126371",
         "formation_confidence": "Contested"
       },
       {
@@ -60,6 +60,11 @@
         "claim": "Duchesne: \"Eadburge, abbesse du monastère de Thanet, recevait du diacre Lullus, le futur évêque de Mayence, un cadeau de storax et de cannelle\"",
         "witness": "LP1 (liber-pontificalis_texte-introduction-commentaire-t1-lat-fra_duchesne1886.txt) l.38292-38295",
         "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Note on the stylus: \"S. Bonifacius praesul Moguntinus epist. ad Eadburgam abbatissam: 'Parva munuscula tuae venerandae dilectioni transmisi, id est, unum graphium argenteum.'\" (OCR cleaned); against Kylie's heading of letter XXII as Lul's",
+        "witness": "PL103 (benedict-aniane_concordia-regularum-with-ardo-vita-pl103-lat_migne1851.txt) l.93286-93289; BONI l.4464-4470",
+        "formation_confidence": "Documented"
       }
     ],
     "contested_claims": [
@@ -67,7 +72,14 @@
         "claim": "Whether Eadburga and Bugga are one woman",
         "sides": [
           "One woman: the Bollandists report the belief that Eadburga was surnamed Bugga, an abbess in Kent (AASS3 l.126368-126370)",
-          "Two women: Kylie heads and indexes them separately (BONI l.8029, 8056), and letter VII gives Bugga's own name as Heaburg, daughter of the abbess Eangyth (BONI l.2874-2876)"
+          "Two women: Kylie heads and indexes them separately (BONI l.8029, 8056), and letter VIII gives Bugga's own name as Heaburg, daughter of the abbess Eangyth (BONI l.2874-2876)"
+        ]
+      },
+      {
+        "claim": "Who sent the silver stylus",
+        "sides": [
+          "Lul: Kylie (BONI l.4464-4482), Plummer (PLUM l.5862-5868), Duchesne (LP1 l.38292-38295)",
+          "Boniface: the note in PL103 (l.93286-93289)"
         ]
       }
     ],
@@ -77,8 +89,8 @@
         "note": "Every Eadburga line in Kylie's book was read; all are letters to her, Leoba's line and Kylie's own account. No other held file gives a letter of hers."
       },
       {
-        "detail": "Her birth, death, family and the founding of her house",
-        "note": "Not in the held lines. The Bollandists' death day belongs to their merged Eadburga-Bugga, and the OCR garbles it."
+        "detail": "Her birth, family and the founding of her house; the year of her death",
+        "note": "Not in the held lines. The Bollandists give a death day, 27 December, for their merged Eadburga-Bugga; the year is garbled in the OCR."
       },
       {
         "detail": "The place of her house in the letters themselves",
@@ -99,7 +111,7 @@
         "formation_confidence": "Documented"
       },
       {
-        "claim": "Letter VII, 719-722: \"Eangyth, unworthy handmaid among the Lord's handmaidens, who, though undeserving, holds the place of abbess, and her only daughter Heaburg, called Bugga\"; \"thought on the souls of all those of different sex and age committed to us\"; \"poverty and the scarcity of temporal things\"; \"the hostility of the king\"; \"my only daughter was still in the years of her youth, and could not feel the same longing\"",
+        "claim": "Letter VIII (headed \"14 VII\" in the OCR), 719-722: \"Eangyth, unworthy handmaid among the Lord's handmaidens, who, though undeserving, holds the place of abbess, and her only daughter Heaburg, called Bugga\"; \"thought on the souls of all those of different sex and age committed to us\"; \"poverty and the scarcity of temporal things\"; \"the hostility of the king\"; \"my only daughter was still in the years of her youth, and could not feel the same longing\"",
         "witness": "BONI l.2865-2876, 2921-2923, 2947-2950, 3029-3038",
         "formation_confidence": "Documented"
       },
@@ -142,6 +154,16 @@
         "claim": "Alcuin index: \"Bugga filia regis [OCR res] Eutwini ... Pulchro molimine templum struxit ... An eadem, cujus exstat epistola ad S. Bonifacium\"; list of spurious poems: \"carmen seu epigramma 3 de Bugga, quod scriptum est regnante Ina Westsaxonum rege\" (two-column OCR)",
         "witness": "ALC (alcuin_opera-omnia-letters_migne-pl100-101_1863.txt) l.116659-116661, 115017-115023, 118132",
         "formation_confidence": "Inferential-Thin"
+      },
+      {
+        "claim": "Rathbod: \"Their King, Rathbod\" (of the Frisians)",
+        "witness": "BONI l.788-795",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Boniface's advice: \"I cannot presume either to forbid or to urge strongly upon thee a journey abroad\"; \"It seems to me better that ... thou shouldst ... seek liberty for contemplation by going abroad\"; \"this I think myself to be the best plan. And so thou shouldst prepare the necessaries for the journey\"",
+        "witness": "BONI l.3133-3166",
+        "formation_confidence": "Documented"
       }
     ],
     "contested_claims": [
@@ -218,6 +240,11 @@
       {
         "claim": "Vasiliev: Krumbacher's history of Byzantine literature, \"où d'autres chroniqueurs arabes chrétiens, comme Yahya d'Antioche et al-Makin, ont trouvé leur place\"",
         "witness": "PO5A (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt) l.29408-29412",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Jerusalem, the sequence: \"le patriarche lui avait donné tout ce qu'il lui avait demandé\"; the Pentecost demand refused, \"ne lui donna pas ce qu'il lui avait réclamé\"; \"ag-Canadji partit avec sa troupe\"; Basil II: \"Basile II\" (MAC), \"l'empereur Basile Bulgaroktonos\" (PO18)",
+        "witness": "PO18 l.50321-50323, 50388-50395, 50446-50447, 44377; MAC l.13238",
         "formation_confidence": "Documented"
       }
     ],
@@ -308,32 +335,67 @@
         "claim": "Malech: \"Elias Bar Shinaji\" among the Syrian writers; \"Elias of Nisibis wrote a book about Jews and Jacobites, but he did not affix his name to the book\"",
         "witness": "MAL (malech_history-of-the-syrian-nation-and-old-evangelical-apostolic-church-of-the-east_1910.txt) l.1136, 15604-15605",
         "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Ebedjesu, tract III: \"religiosissimo Eliae Sobensi, viro nempe accuratissimo et acutissimo visum fuerit praecipere, ut, omissis ceteris de divisione hereditatum tractatibus, omnes, qui veritatem amarent, hanc unam sequerentur semitam\"; \"quas religiosissimus Elias Sobensis diligenter et accurate collegit\"; Elias's words: \"Mar Eliae patriarchae, cuius animae requiem precamur\"; Mai: \"Hunc ergo tractatum composuit Elias Subensis post obitum Eliae patriarchae\"; \"ELIAS SOBENSIS DICIT\"; contents \"Elias Nisibis, auctor praefationis et capitum 24. in tractatu III\" (OCR cleaned)",
+        "witness": "MAI (mai_scriptorum-veterum-nova-collectio-tomus10-ebedjesu-synodus-timothei-lat_mai1838.txt) l.398, 7400-7412, 7454-7458, 7483, 8412",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Mai on a Vatican codex: \"epistola mar Eliae metropolitae Nisibis ad episcopos provinciae magnae, ad cives bagdadenses in causa Iesuiabi catholici\", followed by a canon of the synod of Beth Lapat \"de iis qui pecunia emunt impositionem manus sacerdotalis\"",
+        "witness": "MAI l.16354-16360",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Chabot: \"Élias bar Sinaya, métrop. de Nisibe, mort peu de temps après son homonyme, le patriarche Élias Ier (1049), composa « quatre tomes de décisions ecclésiastiques »\"",
+        "witness": "SYN (synodicon-orientale_recueil-de-synodes-nestoriens-syr-fra_chabot1902.txt) l.1733-1735",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Macler: \"Elie bar-Sinaya ..., né en 975 J.-C, mort vers 1056\"",
+        "witness": "MAC (stepanos-taron_histoire-universelle-deuxieme-partie-fra_macler1917.txt) l.617-618",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Kugener: \"La Chronique d'Elie de Nisibe date de 1008, et nous est parvenue dans un manuscrit contemporain de l'auteur, l'add. 7.197 du British Museum\"",
+        "witness": "PO2 (zacharias-scholasticus_vie-de-severe-po2-syr-fra_kugener1903.txt) l.20047-20048",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "The AH 397 entry ends \"et Pascha hoc anno in gumada II incidit\"; ordained bishop of Beth Nuhadra in 1313 Greek, metropolitan in 1320, so in 1006 he was not yet at Nisibis",
+        "witness": "ELI l.8473, 8576-8583",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Malech: among \"our own honorable Syrian ancestors\" whose writings tell of the generations of Shem",
+        "witness": "MAL l.1133-1137",
+        "formation_confidence": "Documented"
       }
     ],
     "contested_claims": [
       {
         "claim": "When he died",
         "sides": [
-          "After 1049: Assemani, from a preface that prays for the dead catholicos Elias I (ASS1 l.46204-46216)",
-          "The Library header of the Chronography file gives 1046 (ELI header l.2); it cites no source, and no held line was found for it"
+          "Soon after 1049: Assemani, from the preface that prays for the dead catholicos Elias I (ASS1 l.46204-46216; the preface itself, MAI l.7454-7458, with Mai's note l.7483); Chabot (SYN l.1733-1735)",
+          "About 1056: Frédéric Macler (MAC l.617-618)"
         ]
       },
       {
-        "claim": "Where he was a monk",
+        "claim": "When he wrote the Chronography",
         "sides": [
-          "Ordained priest at the monastery of Father Simeon in the region of Senn: the later-hand note (ELI l.8573-8574)",
-          "A monk at Saint Michael's near Mosul: Assemani, from Elias's own words (ASS1 l.46184-46186)"
+          "1019: E. W. Brooks (ELI l.90-92)",
+          "1008: M.-A. Kugener (PO2 l.20047-20048)"
         ]
       }
     ],
     "absent_details": [
       {
         "detail": "A held source for the death year 1046",
-        "note": "The file header gives 975-1046. Searched ELI, ASS1, BH3, MARI and Malech; none gives 1046. Assemani puts the death after 1049."
+        "note": "The Library header of the Chronography file gives 975-1046. No held line gives 1046; Assemani, Chabot and Mai put his death after 1049, Macler about 1056. A Library correction, not a side."
       },
       {
-        "detail": "His letter against Isho'yahb, his Sessions and his other works",
-        "note": "Not held; Assemani names them."
+        "detail": "The text of his letter against Isho'yahb, and his Sessions",
+        "note": "Not held. Mai describes the letter in a Vatican codex (MAI l.16356-16358), and Assemani names both."
       },
       {
         "detail": "The Syriac and Arabic text of the Chronography",
@@ -397,6 +459,11 @@
         "claim": "Budge: \"A paragraph in Syriac says that it was set up by Yazdbizid, a priest of Kimdan, son of Milio\"",
         "witness": "BUDGE (yahballaha-sauma_monks-of-kublai-khan_budge1928.txt) l.5224-5236",
         "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Kircher, as Assemani reports: \"ipse ubique legit Papa, & hunc tabulam illam lapideam erexisse affirmat: Constituit tabulam hanc Papa\" (OCR cleaned); other Adams in the name lists",
+        "witness": "ASS2 l.36778-36783, 36340; MAL l.13193-13194, 13201-13202",
+        "formation_confidence": "Documented"
       }
     ],
     "contested_claims": [
@@ -412,7 +479,7 @@
         "claim": "Who set up the stone",
         "sides": [
           "Jazedbuzid, by the Syriac: Kircher in Malech (MAL l.14162-14165), Assemani (ASS2 l.36709-36711), Lamy via Chabot (CHAB l.1369-1370), Budge (BUDGE l.5232-5234)",
-          "Adam: Cordier, \"who erected the monument\" (YULE l.3000)"
+          "Adam: Cordier, \"who erected the monument\" (YULE l.3000); Kircher, as Assemani reports him, \"Constituit tabulam hanc Papa\" (ASS2 l.36780-36783)"
         ]
       }
     ],
@@ -449,18 +516,23 @@
         "formation_confidence": "Documented"
       },
       {
-        "claim": "Nubia: al-Laith ibn Sa'd, \"that they give slaves and we give them their value in terms of food\"; abu-l-Bukhturi, \"four hundred slaves per year ... for whom they shall receive food in exchange\"",
-        "witness": "BAL l.15235-15249",
+        "claim": "Damascus terms: the bishop asked Khalid, \"let us make terms for this city\"; Khalid \"promises to give them security for their lives, property and churches\"; al-Ghutah, Hitti's note, \"A place in Damascus noted for its orchards\"; \"Al-Ghutah and its churches the Moslems took by force\"",
+        "witness": "BAL l.7926-7938, 7491, 7895",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Saint John's story opens \"It is reported\", with no chain of reporters; Mu'awiyah caliph 661-680 (Hitti's note)",
+        "witness": "BAL l.8130, 674",
         "formation_confidence": "Documented"
       },
       {
         "claim": "Hitti's life: \"Ahmad ibn-Yahya ibn-Jabir al-Baladhuri was a native of Baghdad descended from Persian stock\"; \"an intimate friend of the caliphs al-Mutawakkil and al-Musta'in\"; \"The year 279/892 saw his death, mentally deranged as a result of drinking the juice of the anacardia (baladhur); hence his surname\"; sources al-Fihrist, Yakut, al-Kutubi",
-        "witness": "BAL l.731-746",
+        "witness": "BAL l.729-747",
         "formation_confidence": "Widely Accepted"
       },
       {
-        "claim": "Hitti on method and trust: \"spares no pains in basing every fact, whenever possible, on an independent isnad, yet he sometimes resorts to the other method\"; \"It is free from exaggeration and the flaws of imagination\"; \"the sincere attempt of the author to get to the fact as it happened\"; \"Scarcely an opinion or remark is made\"; \"Certain passages are mutilated and ambiguous\"; the Madinah tradition \"forms the basis of his works\"",
-        "witness": "BAL l.626-629, 649-652, 768-790",
+        "claim": "Hitti on method and trust: \"spares no pains in basing every fact, whenever possible, on an independent isnad, yet he sometimes resorts to the other method as he himself acknowledges\"; \"abridged and pieced up together into one whole\"; \"they said\"; \"It is free from exaggeration and the flaws of imagination\"; \"the sincere attempt of the author to get to the fact as it happened\"; \"Scarcely an opinion or remark is made\"; \"Certain passages are mutilated and ambiguous\"; the Madinah tradition \"forms the basis of his works\"",
+        "witness": "BAL l.626-643, 649-652, 768-790, 904-909",
         "formation_confidence": "Dominant Modern Reconstruction"
       },
       {
