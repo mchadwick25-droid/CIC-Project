@@ -1,0 +1,89 @@
+{
+  "name": "Lazar Parpetsi",
+  "otherNames": [
+    "Lazar of Pharp",
+    "Lazarus of Parpi",
+    "Lazar the Rhetor"
+  ],
+  "knownFor": "An Armenian historian who wrote, at the order of Vahan Mamikonian, a History of Armenia from the time of Sahak the Great and Mesrop Mashtots through the war of Vardan Mamikonian to the day Vahan took the government of Armenia.",
+  "dates": "Victor Langlois places him at the end of the fifth century or the start of the sixth. His History ends with Vahan made governor of Armenia, which a note in the French edition dates to 486 and Charles Neumann, in the preface to his English Elishe, to 485. No source used here gives his birth or death",
+  "place": "Armenia: the monastery of Pharp in Ararat; Etchmiadzin; Tigranocerta",
+  "tradition": "Armenian Christianity after Avarayr",
+  "role": "Historian; by Langlois's account, in charge of the mother church at Etchmiadzin",
+  "briefLength": "about 2 minutes",
+  "keyWorks": [
+    {
+      "title": "History of Armenia",
+      "about": "from the partition of Armenia and the deaths of Sahak the Great and Mesrop Mashtots, through the war of 451 and the captivity of the princes, to Vahan Mamikonian's revolt and his appointment; in Samuel Ghesarian's French"
+    },
+    {
+      "title": "Letter to Vahan Mamikonian",
+      "about": "his defence against the charges that drove him from Etchmiadzin; known here only from Victor Langlois's account, since the Library does not hold it"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "With Elishe's History, it is one of the two full Armenian accounts of the war of 451 that the Library holds, and it carries the story on through Vahan Mamikonian's revolt.",
+      "Victor Langlois's notes to Moses of Khoren and Elishe in the same volume cite Lazar again and again."
+    ],
+    "remembered": [
+      "Victor Langlois: he closes the series of writers of the golden age of Armenian letters, and his Letter to Vahan is rightly held a masterpiece of style.",
+      "Malachia Ormanian, a former Armenian patriarch of Constantinople, names \"Lazarus of Parpi\" among the churchmen whose histories show the learning of the Armenian clergy."
+    ]
+  },
+  "uncertain": [
+    "Most of his life comes from Victor Langlois's introduction, which leans on Lazar's Letter to Vahan Mamikonian. The Library does not hold the letter. Langlois says only that the letter seems to have won Vahan back, and he thinks it probable that Lazar then wrote the History in Vahan's palace.",
+    "Langlois's dates for him are broad: the end of the fifth century or the start of the sixth. The notes in the French edition date Vahan's rule as governor from 486 to 511. Charles Neumann has the History run from 428 to 485.",
+    "That he was Vahan's childhood companion, studied in Greece with leave from Sahak the Great and Mesrop Mashtots, and lived two years with a hermit in Siunik all rest on Langlois's introduction.",
+    "Langlois says Vahan put him in charge of the mother church at Etchmiadzin. Stephen of Taron, an Armenian historian of about the year 1000, says instead that Vahan made him head of the monks of Surenay-Anapat.",
+    "Lazar wrote at Vahan's order and tells his patron's story, though he also tells that Vahan weakened in his faith at the Persian court.",
+    "Langlois says a tomb of Lazar is said to stand at Pharp still, and he gives it as hearsay.",
+    "Langlois says Samuel Ghesarian translated from the only printed text, the Venice edition, and that this text is faulty."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "History of Armenia (tr. Samuel Ghesarian)",
+        "language": "French translation",
+        "file": "cic/texts/langlois_collection-historiens-armenie-tome2-fra_1869.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Introduction to Lazar's History; Preliminary discourse",
+        "author": "Victor Langlois",
+        "date": null,
+        "language": "French",
+        "file": "cic/texts/langlois_collection-historiens-armenie-tome2-fra_1869.txt"
+      },
+      {
+        "title": "Preface to Elishe's History of Vartan",
+        "author": "Charles Neumann",
+        "date": null,
+        "language": "English",
+        "file": "cic/texts/eghishe_history-of-vartan-and-the-armenian-war_neumann1830.txt"
+      },
+      {
+        "title": "Universal History (tr. Heinrich Gelzer and August Burckhardt)",
+        "author": "Stephen of Taron",
+        "date": null,
+        "language": "German translation",
+        "file": "cic/texts/stepanos-taron_armenische-geschichte-deu_gelzer-burckhardt1907.txt"
+      },
+      {
+        "title": "The Church of Armenia",
+        "author": "Malachia Ormanian",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/ormanian_church-of-armenia_gregory1912.txt"
+      },
+      {
+        "title": "Rituale Armenorum (the form \"Lazar of Pharp\")",
+        "author": "F. C. Conybeare",
+        "date": null,
+        "language": "English",
+        "file": "cic/texts/rituale-armenorum-lectionary_conybeare1905.txt"
+      }
+    ]
+  }
+}

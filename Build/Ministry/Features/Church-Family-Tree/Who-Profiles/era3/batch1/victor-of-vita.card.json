@@ -1,0 +1,70 @@
+{
+  "name": "Victor of Vita",
+  "otherNames": [
+    "Victor, bishop of Vita",
+    "Victor Vitensis"
+  ],
+  "knownFor": "A Catholic churchman of Vandal Africa whose History of the Persecution is the main account of how the Vandal kings Geiseric and Huneric treated the Catholic church.",
+  "dates": "Wrote, he says, in the sixtieth year since the Vandals crossed into Africa. Huneric's edict, which he copies, is dated at Carthage six days before the Kalends of March; Michael Petschenig puts it in 484. Joseph Mesnage dates the History to 488. No source used here gives his birth or death",
+  "place": "Africa under the Vandals; Carthage; Vita",
+  "tradition": "Gothic, Vandal & Lombard Homoian Christianity",
+  "role": "Bishop and historian",
+  "briefLength": "about 2 minutes",
+  "keyWorks": [
+    {
+      "title": "History of the Persecution in Africa",
+      "about": "three books on the Vandal kings Geiseric and Huneric and the Catholic church, with Huneric's edicts copied in"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "He keeps the texts of Huneric's edicts against the Catholic church.",
+      "He keeps the Book of Faith the Catholic bishops gave in to the king; Michael Petschenig thinks it likely that Victor put it into his history himself."
+    ],
+    "remembered": [
+      "Procopius of Caesarea, on the tongues Huneric (his Honoric) cut out: \"even up to my time were going about in Byzantium having their speech uninjured.\""
+    ]
+  },
+  "uncertain": [
+    "Victor is a victim and an enemy of the Vandal church, and his book is polemic. He calls the Vandals a cruel and savage people and their faith the Arian heresy.",
+    "That he was bishop of Vita rests on most manuscripts of his book; one reads Utica. The list of Catholic bishops called to Carthage in 484, which Karl Halm prints with the History, names a Victor of Vita who did not come; Joseph Mesnage takes him for the historian. Victor calls Pampinianus the bishop of \"our city\"; Halm takes that to mean Vita.",
+    "That Catholics still spoke after their tongues were cut out rests on Victor, who tells it of Tipasa and names the subdeacon Reparatus at Constantinople, and on Procopius of Caesarea, who names no town but says such people were still in Byzantium in his own day.",
+    "Michael Petschenig prints the prologue that opens the History in brackets, and discusses it beside the spurious additions to the text as very obscure.",
+    "Beyond his History, Joseph Mesnage says he did not come to Carthage in 484, fled into exile and wrote his History there in 488. No source used here gives his birth or death. He is not Victor of Tunnuna, the later African chronicler."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "Historia persecutionis Africanae provinciae (ed. Michael Petschenig)",
+        "language": "Latin",
+        "file": "cic/texts/victor-of-vita_historia-persecutionis-africanae-provinciae-lat_petschenig1881.txt"
+      },
+      {
+        "title": "Historia persecutionis Wandalicae (ed. Karl Halm)",
+        "language": "Latin",
+        "file": "cic/texts/mgh-aa-3_victor-vitensis-corippus-halm1879.txt"
+      },
+      {
+        "title": "The memorable and tragical history of the persecution in Africke (England, 1605)",
+        "language": "English translation",
+        "file": "cic/texts/victor-of-vita_memorable-and-tragical-history-persecution-eng_1605.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "History of the Wars III, the Vandalic War (tr. H. B. Dewing)",
+        "author": "Procopius of Caesarea",
+        "date": null,
+        "language": "English translation",
+        "file": "cic/texts/procopius_wars-3-4-vandalic_dewing1916.txt"
+      },
+      {
+        "title": "L'Afrique chrétienne: évêchés et ruines antiques",
+        "author": "Joseph Mesnage",
+        "date": null,
+        "language": "French",
+        "file": "cic/texts/mesnage_afrique-chretienne-eveches-ruines-antiques-fra_1912.txt"
+      }
+    ]
+  }
+}

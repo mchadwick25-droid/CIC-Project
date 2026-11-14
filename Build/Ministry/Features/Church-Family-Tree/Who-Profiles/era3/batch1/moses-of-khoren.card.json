@@ -1,0 +1,74 @@
+{
+  "name": "Moses of Khoren",
+  "otherNames": [
+    "Moïse de Khorène",
+    "Mosè Corenese"
+  ],
+  "knownFor": "Armenian writer whose History of Armenia, written for Sahak Bagratuni, tells his nation's story from its first ancestors to the deaths of his teachers Sahak the Great and Mesrop Mashtots, and closes with a lament for them.",
+  "dates": "Victor Langlois has him born in the second half of the fourth century and places his patron's revolt in 481; Langlois cites Thomas Artsruni for a life running into the reign of Zeno. Modern work argues for a later date, but the Library holds none of it",
+  "place": "Armenia; Edessa; Palestine; Alexandria; Athens; Byzantium, by his own account; Bagrevand, by Langlois's account of tradition",
+  "tradition": "Armenian Christianity after Avarayr",
+  "role": "Historian and recorder",
+  "briefLength": "about 2 minutes",
+  "keyWorks": [
+    {
+      "title": "History of Armenia",
+      "about": "three books, from the first ancestors of the Armenians to the deaths of Sahak the Great and Mesrop Mashtots, ending with a lament; Langlois reports that Thomas Artsruni knew a fourth book, of which only fragments are known"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Langlois says the History, with its range of sources and its author's skill as a writer, earned Moses his place at the head of the historians of his nation.",
+      "Langlois lists translations of the History into Latin, French, Italian and Russian, among them the Whiston brothers' Latin, printed in London, and the Mekhitarist Italian, which he calls excellent."
+    ],
+    "remembered": [
+      "Victor Langlois places him at the head \"des historiens de sa nation\".",
+      "The Mekhitarist monks of Venice: \"Pio davvero Mosè: e di cuore umile\"."
+    ]
+  },
+  "uncertain": [
+    "Langlois and the Mekhitarist monks of Venice place him in the fifth century and draw his life from his own History. Modern work argues for a later date, but the Library holds none of it. Frédéric Macler, writing in 1917, says almost nothing precise is known of him.",
+    "Apart from the History itself, his life comes from Langlois's account of tradition: ten years apart and poor, then bishop of Bagrevand under the patriarch Kiud after Eznik of Kolb died. Langlois warns that tradition has wrapped his life in details history has not kept.",
+    "That his patron was the Bagratid prince made governor in the revolt of 481 is Langlois's identification. The History names him only as Sahak Bagratuni.",
+    "The \"new Plato\" he says taught at Alexandria is Cyril of Alexandria by Langlois's note, which says \"sans doute\"; the Mekhitarist preface says \"forse\".",
+    "Thomas Artsruni's report that he lived past a hundred, into Zeno's reign, comes through Langlois's note; the Mekhitarist preface, citing the same writer, gives him a hundred and twenty years. Langlois says his age cannot be fixed with exactness.",
+    "Other works under his name are doubted. Langlois reports that some critics deny him the Geography and that the Book of Chreiai has been thought apocryphal, and he defends both. The Mekhitarist preface thinks the rhetorical treatises may be the work of another Moses of the eighth century."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "History of Armenia, in Victor Langlois, Collection des historiens de l'Arménie, vol. II",
+        "language": "French translation",
+        "file": "cic/texts/langlois_collection-historiens-armenie-tome2-fra_1869.txt"
+      },
+      {
+        "title": "Storia di Mosè Corenese, tr. the Mekhitarist monks of San Lazzaro",
+        "language": "Italian translation",
+        "file": "cic/texts/moses-khoren_history-of-armenians-ita_mechitaristi1850.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "Introduction to Moses of Khoren, and notes",
+        "author": "Victor Langlois",
+        "date": null,
+        "language": "French",
+        "file": "cic/texts/langlois_collection-historiens-armenie-tome2-fra_1869.txt"
+      },
+      {
+        "title": "Preface to the Storia di Mosè Corenese",
+        "author": "The Mekhitarist monks of San Lazzaro",
+        "date": null,
+        "language": "Italian",
+        "file": "cic/texts/moses-khoren_history-of-armenians-ita_mechitaristi1850.txt"
+      },
+      {
+        "title": "Introduction to Stephen of Taron, Histoire universelle, part 2",
+        "author": "Frédéric Macler",
+        "date": null,
+        "language": "French",
+        "file": "cic/texts/stepanos-taron_histoire-universelle-deuxieme-partie-fra_macler1917.txt"
+      }
+    ]
+  }
+}
