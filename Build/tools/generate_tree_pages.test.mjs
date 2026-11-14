@@ -250,7 +250,7 @@ test('a movement retired into another loses its page and redirects permanently',
 });
 
 test('the method page and the era 10 band say where the history ends, in the same words', () => {
-  const line = "The tree's history runs to 2010. Movements since then will be added as they become history.";
+  const line = "The map runs to about 2010. Traditions that began after that will be added once enough time has passed.";
   const page = generate(census)('method.html').replace(/&#039;/g, "'");
   assert.ok(page.includes(`<p>${line}</p>`));
   assert.ok(page.includes('<p>Nothing after 2010 is mapped yet.</p>'));
