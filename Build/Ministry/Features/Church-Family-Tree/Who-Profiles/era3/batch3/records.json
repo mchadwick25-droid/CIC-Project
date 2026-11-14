@@ -1,0 +1,984 @@
+{
+  "theodora-wife-of-justinian": {
+    "claims": [
+      {
+        "claim": "Mare bishop of Amida, exiled at Petra, sent his deacon and notary Stephen to the royal city; God 'directed the virtuous Stephen to Theodora who came from the brothel (πορνεῖον), who was at that time a patrician, but eventually became queen also with King Justinian'; she made entreaty 'even with tears' to Justinian her husband, the king's nephew, to inform his uncle; an order went out for them to come to Alexandria",
+        "witness": "John of Ephesus, Lives of the Eastern Saints, tr. Brooks (combined file l.10440-10475; PO17 file l.10990-11005); a friendly witness",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Brooks dates Mare's expulsion probably to 521, and notes that Justinian's marriage followed a law dated 520-524",
+        "witness": "Brooks's notes (PO17 l.11012-11016)",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "John of Ephesus 'was a Monophysite' and his party 'refused to receive the council of Chalcedon'",
+        "witness": "R. Payne Smith's preface (john-of-ephesus EH l.286-291)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Her father Acacius, of the Green faction at Byzantium, was keeper of the wild beasts, 'called the Bear-keeper'; her mother sent the daughters on the stage; the rest is told as scandal",
+        "witness": "Procopius, Secret History IX (l.1829-1870); a hostile, private polemic",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Dewing on the Secret History's account of her early years: 'both shocking and disgusting, but which, happily, we are not forced to regard as true'",
+        "witness": "Dewing's introduction to the Wars (wars-1-2 l.155-158)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Theodora was from Daman, a town above Callinicus; her father was a priest; she grew up 'dans la chasteté et la foi orthodoxe'; Justinian, sent as general, asked her parents for her; elsewhere Michael has Justinian take her as wife at Mabboug, the daughter of an orthodox priest, on an oath not to force the Synod on her",
+        "witness": "Michael the Syrian, Chronicle, tr. Chabot (tome 2 l.32343-32398, 13518-13522); twelfth century, from the anti-Chalcedonian side",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Chabot: 'Ce récit paraît inventé par les Monophysites. Selon Evagrius et Niceph. Call., Theodora était originaire de Chypre'",
+        "witness": "Chabot's note 5 (tome 2 l.13545-13547); the held English Evagrius has no Cyprus line",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "In the Nika revolt the emperor and his court deliberated whether to flee in the ships; the Empress Theodora spoke, ending 'I approve a certain ancient saying that royalty is a good burial-shroud'",
+        "witness": "Procopius, Wars I.xxiv (wars-1-2 l.3102-3122). The speech is Procopius's composition, not her own recorded words (coordinator ruling 2026-11-14); Dewing notes his sounding phrases in speeches (l.196-199)",
+        "formation_confidence": "Inferential-Thin"
+      },
+      {
+        "claim": "The Nika insurrection was in 532",
+        "witness": "Dewing's introduction (wars-1-2 l.131-132)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Justinian upheld Chalcedon and Theodora 'those who maintained the single nature: either because such were their real sentiments ... or by mutual understanding'; 'Our people she treated with the warmest kindness'; 'She also persuades Justinian to send for Severus'",
+        "witness": "Evagrius IV.10, tr. Walford (l.8149-8167); a later Chalcedonian historian",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Their disagreement 'was seen to have been purposely arranged between them'; 'they split up the Christians into two parties'",
+        "witness": "Procopius, Secret History X (l.2069-2076); hostile",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "The king received Severus at Constantinople, 'disposed and incited thereto by Theodora the queen, who was devoted to Severus'",
+        "witness": "Syriac chronicle printed as Zachariah's, book IX ch. XIX (zachariah-rhetor l.13161-13169). Brooks: Zachariah's own work ended in 491 and the compiler followed him in books 3-6 only (l.300-314); so this is the compiler's, not Zachariah's",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "When she saw the king's wrath against Anthimus, who had laid his pall on the altar and departed, she hid him in a chamber in her palace, known only to her and two chamberlains, until the time of her death",
+        "witness": "John of Ephesus, Lives, tr. Brooks (combined l.25960-26003)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Length of Anthimus's hiding: about ten years in the Lives; Brooks notes she lived 12 years after his deprivation, and the Church History says 7",
+        "witness": "John of Ephesus, Lives (l.26001); Brooks's note (l.26025-26026)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "She gathered in the palace of Hormisdas a community of persecuted men 'who did not fall short of the number of five hundred'; she made cells for them; 'would regularly once in every two or three days come down to them to be blessed by them'; even after her death 'she laid an injunction upon the king about it, and it was preserved'",
+        "witness": "John of Ephesus, Lives ch. 47 (combined l.25497-25655)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "In the sixteenth year of Justinian's reign, at the request of 'Hereth Bar Gabala, the great king of the Saracens', she gave orders and James and Theodore were instituted, Theodore for Hirtha of the Saracens and James for Edessa",
+        "witness": "John of Ephesus, Lives ch. 50 (combined l.26697-26732)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "She died in the twentieth year of Justinian, the year 859 of the Greeks",
+        "witness": "Michael the Syrian, tr. Chabot (tome 2 l.18175-18177); also quoted from Michael's Arabic in a note of Hamilton and Brooks (zachariah-rhetor l.15920-15925)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Her death in 548",
+        "witness": "Brooks's introduction to the Lives (combined l.248-249); an editor's year",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "'the Christ-loving Theodora, who was perhaps appointed queen by God to be a support for the persecuted against the cruelty of the times'",
+        "witness": "John of Ephesus, Lives (combined l.17536-17538; OCR 'Fheodora', 'à support', 'eruelty')",
+        "formation_confidence": "Documented"
+      }
+    ],
+    "contested_claims": [
+      {
+        "claim": "Theodora's origins",
+        "sides": "Procopius, Secret History IX: daughter of Acacius the bear-keeper at Byzantium, on the stage and in a brothel as a girl (hostile; Dewing: 'we are not forced to regard as true'). John of Ephesus, a friend: 'Theodora who came from the brothel'. Michael the Syrian (12th c.): a priest's daughter from Daman near Callinicus, raised in chastity. Chabot, on the Mabboug version: the story seems invented by the Monophysites; Evagrius and Nicephorus Callistus make her a native of Cyprus (not found in the held Walford Evagrius)."
+      },
+      {
+        "claim": "Why Justinian and Theodora backed opposite sides on Chalcedon",
+        "sides": "Evagrius IV.10: either real conviction or a mutual understanding; he does not decide. Procopius, Secret History X: a disagreement purposely arranged to divide their subjects (hostile)."
+      }
+    ],
+    "absent_details": [
+      {
+        "detail": "Her birth year",
+        "note": "The era 3 scan's 'c.497' rests on no held line. No held source gives a birth year."
+      },
+      {
+        "detail": "Words of her own",
+        "note": "No letter or writing of hers is held. The Nika speech is Procopius's composition. Mark's named ruling 'Theodora: Who' (era 3 scan, 2026-11-11), confirmed by the coordinator 2026-11-14, makes her a Who without them."
+      },
+      {
+        "detail": "The scan's citation of 'Zachariah' for her death",
+        "note": "The death line at zachariah-rhetor l.15923 is a note quoting Michael the Syrian's Arabic, not the chronicle; and the chronicle's book IX is the compiler's, not Zachariah's (Brooks l.300-314)."
+      }
+    ]
+  },
+  "marcellinus-comes": {
+    "claims": [
+      {
+        "claim": "On the Lord's day, at the order of Anastasius, Marinus and Plato in the church pulpit added to the hymn of the Trinity 'deipassianorum quaternitas'; many orthodox singing the old words and shouting down the 'perfidos praecones' were cut down in the church and died in prison",
+        "witness": "Marcellinus, Chronicle, year of the consuls Paulus and Moschianus (Mommsen l.8299-8306)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The next day a greater slaughter in the atrium of St Theodore; the crowds met in the forum of Constantine, cried for Areobindus as emperor, threw down Anastasius's images and statues; on the third day Anastasius sent them home 'solitis periuriis simulatisque vocibus, sese facturum cuncta promittens' and 'sine ullo rerum effectu'",
+        "witness": "Marcellinus (Mommsen l.8306-8355); a partisan account by a writer hostile to the change",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The year of the hymn riot is 512",
+        "witness": "Mommsen's year heading (l.8299); an editor's date",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "'ego vero vir clarissimus Marcellinus comes ... Orientale tantum secutus imperium' carried on Eusebius and Jerome from the consulship of Ausonius and Olybrius (379) to 518, then added sixteen years to Justinian's fourth consulship (534); 'meum rusticum opus'",
+        "witness": "Marcellinus's preface (Mommsen l.4703-4720)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Cassiodorus: 'Marcellinus Illyricianus, qui adhuc patricii Iustiniani fertur egisse cancellos', who carried his work 'usque ad fores imperii triumphalis Augusti Iustiniani'; named after Eusebius and Jerome among the chroniclers; also four books on Constantinople and Jerusalem",
+        "witness": "Cassiodorus, Institutions I.17 and 25, quoted in Mommsen's preface (l.3049-3061, 3093-3098); also in Migne PL70 (l.83209-83228, 83696-83699)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Latin was his native language; he wrote at Constantinople",
+        "witness": "Mommsen's preface (l.3100-3104, 3162)",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "He became a cleric after leaving public service, before 527, reading Cassiodorus's 'meliore condicione devotus'",
+        "witness": "Mommsen's preface (l.3169-3172), Mommsen's inference",
+        "formation_confidence": "Inferential-Thin"
+      },
+      {
+        "claim": "'orthodoxum odium quaevis pagina apud Marcellinum spirat cum adversus haereticos omnes tum maxime adversus Nestorianos'; the author's zeal for Justinian",
+        "witness": "Mommsen's preface (l.3173-3175, 3184-3186)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "The first edition ended at 518 and was issued under Justin, before 527; the second ran to 534",
+        "witness": "Marcellinus's preface; Mommsen's dating of the first edition (l.3176-3184)",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "The continuation 534-548, found in one of the two archetypes, is not by Marcellinus: Cassiodorus does not know it and the preface does not mention it; probably written in the East",
+        "witness": "Mommsen's preface (l.3187-3194, 3717-3721)",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      }
+    ],
+    "contested_claims": [],
+    "absent_details": [
+      {
+        "detail": "Birth, death and family",
+        "note": "No held source gives them. Mommsen says his birth was not splendid, from Cassiodorus's notice of his post (l.3110-3111); this stays off the brief."
+      },
+      {
+        "detail": "The four books on Constantinople and Jerusalem",
+        "note": "Named by Cassiodorus (Institutions I.25); not held."
+      }
+    ]
+  },
+  "cosmas-indicopleustes": {
+    "claims": [
+      {
+        "claim": "Sailing for Further India and almost across to Barbaria, near the mouth of the ocean, he saw a great flight of the birds called Souspha; all were in alarm, and the men of experience called out to the pilot: 'Steer the ship to port and make for the gulf, or we shall be swept along by the currents and be carried into the ocean and be lost.'",
+        "witness": "Cosmas, Book II, tr. McCrindle (cosmas mccrindle1897 l.3289-3340)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Made voyages for commercial purposes in three gulfs, the Roman, the Arabian and the Persian",
+        "witness": "Cosmas, Book II (l.3281-3283)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Most probably a native of Alexandria; a merchant in his earlier life; later retired to a cloister",
+        "witness": "McCrindle's introduction (l.578-586, 736-741); McCrindle's inference",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Surnamed Indicopleustes, or the Indian Navigator",
+        "witness": "McCrindle's introduction (l.443-445)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Whether he reached India: Cosmas does not say whether the voyage got there; McCrindle holds that Book XI shows personal knowledge; Freese says it is doubtful whether he deserves the title",
+        "witness": "McCrindle (l.626-638); Freese's note to Photius cod. 36 (photius freese1920 l.2605-2607)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Whether 'Cosmas' was his own name: Voss and Fabricius held he was named for his work on the kosmos; McCrindle: 'this must remain an open question'",
+        "witness": "McCrindle (l.563-574)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "At Adulis some five and twenty years before, at the beginning of Justin's reign, while Elesbaan, king of the Axomites, prepared an expedition against the Homerites, the governor asked him and the merchant Menas, later a monk at Rhaithu, to copy the inscriptions on the Chair and the tablet",
+        "witness": "Cosmas, Book II (l.4069-4112)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The visit was in 525 and the writing about 547; Book X was written in the year before 536",
+        "witness": "McCrindle (l.695-698, 839-862); McCrindle's reckoning, with Salt's dates (l.4117-4119)",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "He explained the tabernacle as 'a type and copy of the whole world', learned from the divine scriptures and 'from the living voice of that most divine man and great teacher Patricius', who set out from Chaldaea with his disciple Thomas of Edessa and was appointed 'Bishop Catholic' of Persia",
+        "witness": "Cosmas, Book II (l.2526-2545)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Patricius 'was a Magian and was called by the Syrians Abas or Mar-Abas'; Montfaucon's Latin makes Patricius die at Byzantium and Thomas become Primate, which McCrindle rejects",
+        "witness": "McCrindle's note (l.2557-2563)",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Most probably a Nestorian, by De La Croze's arguments and one of McCrindle's own; against this he calls Mary the Mother of God, 'an expression abhorrent to the Nestorians'",
+        "witness": "McCrindle (l.781-832)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Photius: neither sky nor earth is spherical; the sky is a vault and the earth a rectangular plane; the style poor; 'he may fairly be regarded as a fabulist rather than a trustworthy authority'",
+        "witness": "Photius, Library cod. 36, tr. Freese (l.2591-2641)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "In Taprobane 'there is a Church of Christians, with clergy and a body of believers'; in Male, where the pepper grows, a church; at Calliana 'a bishop, who is appointed from Persia'; on the island of Dioscorides clergy ordained in Persia; churches with bishops throughout Persia",
+        "witness": "Cosmas, Book III (l.7191-7212, 7243-7246)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "'This I avouch to be the veritable fact, from what I have seen and heard in the many places which I have visited.'",
+        "witness": "Cosmas, Book III (l.7187-7189)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Photius's verdict 'has not been endorsed by modern opinion'",
+        "witness": "McCrindle (l.886-888)",
+        "formation_confidence": "Widely Accepted"
+      }
+    ],
+    "contested_claims": [
+      {
+        "claim": "Whether Cosmas belonged to the Church of the East",
+        "sides": "De La Croze, followed by McCrindle: most probably (l.781-810). McCrindle himself notes the passage calling Mary the Mother of God, against it (l.811-832). Photius and Montfaucon do not raise it (l.786-788)."
+      },
+      {
+        "claim": "Whether Cosmas reached India",
+        "sides": "McCrindle: Book XI shows personal knowledge (l.629-636). Freese: doubtful whether he deserves the title Indian Navigator (photius l.2605-2607)."
+      }
+    ],
+    "absent_details": [
+      {
+        "detail": "His birth, death and monastery",
+        "note": "No held source names them. McCrindle says the Topography is the source for his life; the Library holds no other."
+      },
+      {
+        "detail": "His other works",
+        "note": "McCrindle says only the Topography survives of his works on geography, cosmography and Scripture (l.741-743); Photius reports a commentary on the Song of Songs (l.2645-2647)."
+      }
+    ]
+  },
+  "barsanuphius-and-john-of-gaza": {
+    "claims": [
+      {
+        "claim": "The questions are headed as Dorotheus's 'Ad magnum senem sanctum Barsanuphium, et ad ejus discipulum abbatem Joannem, cognomento Prophetam, ob perspicaciae donum quod habuit a Deo'; Interrogatio I is headed 'Abbatis Dorothei ad abbatem Joannem'",
+        "witness": "Migne, PG 88 (dorotheus-gaza migne-pg88 l.139571-139581)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Q1: how can I restrain too great freedom and govern my tongue? A: 'Per luctum.' Q2: how can I keep mourning while dealing daily with people of the world? A: 'Non fletus per lacrymas, sed per fletum lacrymae'",
+        "witness": "Interrogatio 1 and 2, Latin of PG 88 (l.139588-139589, 139700-139714)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "No later question or answer in the set is marked by speaker",
+        "witness": "Read through PG 88 l.139581-142030; only the first heading names John",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Dorotheus had as master the abbot John, 'illustrem Barsanuphii discipulum et Prophetae titulo clarum'; the disciple who wrote the Life of Saint Dositheus says Dorotheus knew the two great old men when he withdrew to the coenobium of the abbot Seridus",
+        "witness": "Migne's Notitia on Dorotheus (l.121957-121961)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Migne heads the notice 'ANNO DOMINI DXCVI'; the Bollandists, Fabricius and Cave place Dorotheus at the end of the sixth century; the year of his death is not known",
+        "witness": "Migne's Notitia (l.121945, 121961-121967)",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Dorotheus took everything to the abbot John; when his thought said 'Quid nunc turbare senem pergas? hoc tibi dicturus est quod ego', he answered 'Anathema tibi' and went to the father, and often the old man answered just as the thought had foreseen",
+        "witness": "Dorotheus, Doctrina, PG 88 (l.127966-127978)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Feeling no tribulation though Scripture speaks of many, he asked the abbot John, disciple of Barsanuphius, by letter; the old man answered that whoever gives himself to the obedience of the fathers gains this rest and security from God",
+        "witness": "Dorotheus, Doctrina I, PG 88 (l.124095-124108, 128013-128017); Benedict of Aniane reports the same from Dorotheus (benedict-aniane pl103 l.69675-69688)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The successive heads of the monastery were Barsanuphius, Seridus and Dorotheus; Seridus's monastery was at Thabatha, which Nau places towards Choubana, not far from the sea",
+        "witness": "Nau, appendix to the Plerophories (po08 l.11422-11500); Nau's reading",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Thabatha is 'about five miles to the south of Gaza, a city of Palestine'",
+        "witness": "Jerome, Life of Hilarion, NPNF 2.6 (npnf206 l.30129-30130)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "There were two Dorotheuses and two Barsanuphiuses, one pair defending the errors of Severus, the other holding sound doctrine; Theodore the Studite is cited as witness",
+        "witness": "Anonymous preface, Latin of PG 88 (l.122100-122119); Migne prints it as 'ANONYMI PRAEFATIO'",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Theodore, answering the 'pernicious teaching of Pamphilus who came from the East', separates the Barsanuphius, Isaiah and Dorotheus who led the Acephali and were anathematized by Sophronius from the holy men he accepts, and says 'Barsanuphii imago in Magna ecclesia juxta sanctos Patres Antonium, Ephraim aliosque rite dicata et collocata visitur'",
+        "witness": "Theodore the Studite, quoted in the anonymous preface (l.122119-122131, 122182-122207; Greek l.122160-122170)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Theodore the Studite numbers Barsanuphius and Dorotheus among the holy fathers whose lives and writings he receives",
+        "witness": "Migne's Notitia, quoting Theodore (l.121971-121978)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The Latin is Hilarion of Verona's version, revised by Fronto Ducaeus",
+        "witness": "Migne's Notitia (l.121990-121992, 122097)",
+        "formation_confidence": "Documented"
+      }
+    ],
+    "contested_claims": [
+      {
+        "claim": "Whether the Barsanuphius of these answers is the one condemned with the Acephali",
+        "sides": "The anonymous preface and Theodore the Studite: there were two of each name, and the condemned ones were others (l.122100-122131, 122182-122207). The 'Pamphilus from the East' whom Theodore answers attacked Barsanuphius, Isaiah and Dorotheus as Acephali (l.122127-122131). No held modern scholar was found discussing it."
+      }
+    ],
+    "absent_details": [
+      {
+        "detail": "Their dates, origins and deaths",
+        "note": "No held source gives them. The scan's 'first half of the sixth century' rests on no held line; Migne's year 596 is for Dorotheus."
+      },
+      {
+        "detail": "The full correspondence",
+        "note": "Only Dorotheus's set of questions is held, in Latin. The census cites John Chryssavgis's English of about 850 letters, which is not held. The census line that Barsanuphius was an Egyptian walled into a cell around 520 was not found in any held file."
+      },
+      {
+        "detail": "The name 'of Gaza'",
+        "note": "No held line calls them 'of Gaza'. The place rests on Nau's placing of Seridus's monastery near Thabatha and on Jerome's placing of Thabatha south of Gaza."
+      }
+    ]
+  },
+  "mar-aba-i": {
+    "claims": [
+      {
+        "claim": "Mar Aba, patriarch, and his bishops went into the land of Kashkar; at the town of Zizwarda all the people of Kashkar agreed and chose Mar Samuel as bishop; the two rival bishops of the time of discord were stripped of every episcopal title and submitted 'avec grande joie' to Samuel, serving as priests",
+        "witness": "Synod of Mar Aba, tr. Chabot (synodicon-orientale chabot1902 l.21159-21180)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The synod's record opens by saying that the duality of the patriarchate introduced by Mar Elisha and Mar Narses had wholly ceased and the single patriarchal rule of Seleucia-Ctesiphon was restored",
+        "witness": "Synod of Mar Aba, tr. Chabot (l.20909-20923, 21014-21016)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The first document is dated in the month Shahrir of the 13th year of Kosrau and the 5th year of Aba's patriarchate; Chabot reckons December 543 to January 544 and concludes he was elected in January 540",
+        "witness": "Chabot's heading [A.D. 544] and note (l.20903-20915, 20945-20953, 20979-20980); Chabot's reckoning",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "The documents under the title 'Synod of Mar Aba' were six; the first, fourth and fifth are in the manuscripts here, Chabot adds the third, and puts fragments of the second and sixth in appendices",
+        "witness": "Chabot's note (l.21137-21142)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "A longer History of Mar Aba, edited by Bedjan (1895), 'aurait besoin d'un examen critique minutieux' and lacks chronological data; Chabot's outline: born a Zoroastrian, baptized at Hira, studied at Nisibis, learned Greek at Edessa from his disciple Thomas, journeyed to Constantinople, taught at Nisibis, elected January 540, founded a school at Seleucia, worked to restore peace and discipline after the schism of Narses and Elisha, was persecuted after controversies with the magi, spent several years in prison and was exiled to Adherbaidjan",
+        "witness": "Chabot's note (l.20963-20995); the Bedjan Life is not held",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "According to the author of his Life he regained the king's favour and died in peace on his see; according to Bar Hebraeus, having returned to Seleucia against the king's ban, he was imprisoned and died there; death on the second Friday of Lent (per the Life), in 552 (per the acts of the synod of Mar Joseph); the Nestorians honour him as a saint",
+        "witness": "Chabot's note (l.20995-20998, 20929-20935)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Mar Abba the Great had been a magus, most tenacious of his religion; refusing the scholar Joseph a place in his boat on the Tigris, he was held back by winds each time until he took him aboard; Joseph showed him he was a Christian and taught him",
+        "witness": "Mari ibn Sulayman, tr. Gismondi (mari gismondi1899 l.14092-14100, 14003-14006); a twelfth-century account told as a wonder",
+        "formation_confidence": "Inferential-Thin"
+      },
+      {
+        "claim": "Baptized, he went to Nisibis to learn sacred doctrine, then into Roman territory, a hearer of Thomas of Edessa, from whom he learned Greek; the two went to Constantinople, refused to anathematize 'tres illos patres', were nearly killed and fled to Nisibis, where he taught; after the death of Paul he was given the primacy; he founded a school at Madain",
+        "witness": "Mari, tr. Gismondi (l.14006-14016)",
+        "formation_confidence": "Inferential-Thin"
+      },
+      {
+        "claim": "The magi envied him because he was of their race and had changed their customs and allowed each man only one wife; with Anushirvan's favour he was held seven years in prison in Adorbigan, not ceasing to care for his flock; he told the king, 'si meam vis necem occide me' (OCR 'nocem occido')",
+        "witness": "Mari, tr. Gismondi (l.14016-14025)",
+        "formation_confidence": "Inferential-Thin"
+      },
+      {
+        "claim": "In the time of Narses and Elisha each ordained a bishop in every region, so that two altars rose in every church",
+        "witness": "Mari, tr. Gismondi (l.14049-14052)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Grieving over the afflictions of clergy and churches, he died of an illness after some days, on a Friday, the third day of Lent; his disciple Qyura carried him to Hira and built a monastery over the tomb; he led the church sixteen years; his disciples included the patriarch Ezekiel and Thomas of Edessa",
+        "witness": "Mari, tr. Gismondi (l.13990-14000)",
+        "formation_confidence": "Inferential-Thin"
+      },
+      {
+        "claim": "A school he built on the site of a fire temple stood until the patriarch Ezekiel restored it",
+        "witness": "Mari, tr. Gismondi (l.13955-13977), told with a fire-walking wonder",
+        "formation_confidence": "Inferential-Thin"
+      },
+      {
+        "claim": "Abas, once a magus, was baptized and went to Nisibis; at Edessa his Greek teacher was Thomas, a Jacobite, with whom he went to Alexandria; expelled from Seleucia he stayed in Adorbigana, returned to Seleucia thinking himself forgotten, was chained by the king and died in prison",
+        "witness": "Bar Hebraeus, Chronicon ecclesiasticum, tr. Abbeloos and Lamy (barhebraeus vol3 l.5226-5240, 5512-5525); a hostile West Syriac witness of the 1200s",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Sat from 538 to 552",
+        "witness": "Abbeloos and Lamy's note to Bar Hebraeus (vol3 l.5254)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "God established marriage 'comme un lien d'amour de l'union chaste et légitime de l'homme et de la femme'; the letter forbids taking a second wife while the first lives and marriage to a father's wife and other close kin 'comme les mages'",
+        "witness": "Letter of Mar Aba on the rule of the faithful, tr. Chabot (l.22100-22101, 22273-22297; OCR 'Funion', 'Fhomme')",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Patricius, Cosmas's teacher, who became Bishop Catholic of all Persia, 'was a Magian and was called by the Syrians Abas or Mar-Abas'",
+        "witness": "McCrindle's note to Cosmas Book II (cosmas mccrindle1897 l.2557-2563); McCrindle's identification",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      }
+    ],
+    "contested_claims": [
+      {
+        "claim": "How Mar Aba died",
+        "sides": "The Life (Bedjan, not held), as Chabot reports it: he regained the king's favour and died in peace on his see (l.20994-20995). Bar Hebraeus: returned to Seleucia against the king's ban, chained and died in prison (vol3 l.5519-5525; reported by Chabot l.20995-20998, 20929-20931). Mari ibn Sulayman: died of an illness after some days, grieving (l.13991-13997)."
+      },
+      {
+        "claim": "The year of his election",
+        "sides": "Chabot: January 540, from the synod's dating (l.20945-20953, 20979). Abbeloos and Lamy: 538 (vol3 l.5254). Mari's sixteen years of rule (l.13999) fit neither with 552."
+      }
+    ],
+    "absent_details": [
+      {
+        "detail": "The Life of Mar Aba",
+        "note": "Paul Bedjan's edition (1895) is not held; everything from it comes through Chabot's summary. The census entry also cites Oskar Braun's German and Richard Payne's English excerpts; neither was checked here."
+      },
+      {
+        "detail": "His birth year and family",
+        "note": "No held source gives them."
+      }
+    ]
+  },
+  "vigilius-of-rome": {
+    "claims": [
+      {
+        "claim": "Theodora sent Anthemius the scribe to Rome; he found Vigilius in the church of Saint Cecilia on 22 November, her feast, while he was distributing gifts, took him to the Tiber and set him on a ship; the people threw stones and sticks and cried 'Your hunger go with you!'",
+        "witness": "Book of the Popes, tr. Loomis (liber-pontificalis_book-of-the-popes-v1_loomis1916.txt l.11699-11721)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The Romans accuse Vigilius of murder ('We declare him to be a murderer')",
+        "witness": "Book of the Popes, tr. Loomis (liber-pontificalis_book-of-the-popes-v1_loomis1916.txt l.11655-11660); the Book of the Popes' report, hostile to him",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The life of Vigilius in the Book of the Popes is full of inaccuracies and mistakes; Duchesne argues its author wrote no earlier than the time of Pelagius II",
+        "witness": "Loomis's note, citing Duchesne (Book of the Popes, tr. Loomis (liber-pontificalis_book-of-the-popes-v1_loomis1916.txt l.11536-11546); Pelagius II's dates 579-590 from Loomis's contents (l.474)",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "The circumstances of his departure from Rome are described nowhere else; Facundus alone adds that all Rome drove him out",
+        "witness": "Loomis's note (Book of the Popes, tr. Loomis (liber-pontificalis_book-of-the-popes-v1_loomis1916.txt l.11734-11738)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Vigilius left Rome in 544 or 545",
+        "witness": "Loomis's note, citing Duchesne and Jaffé (Book of the Popes, tr. Loomis (liber-pontificalis_book-of-the-popes-v1_loomis1916.txt l.11743-11746)",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Vigilius was a Roman, son of John the consul, and a deacon who had been delegate to Constantinople",
+        "witness": "Book of the Popes, tr. Loomis (liber-pontificalis_book-of-the-popes-v1_loomis1916.txt l.11524, 11314)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "A suspicion arose that Silverius was dealing treasonably with the Goths; Belisarius sent him to Greece and 'a little later appointed another man, Vigilius by name, to the office of chief priest'",
+        "witness": "Procopius, Wars V.xxv, tr. Dewing (procopius_wars-5-6-gothic_dewing1919.txt l.3473-3477)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "In 537 Belisarius removed Silverius and ordained the deacon Vigilius in his place",
+        "witness": "Continuation of Marcellinus's chronicle, year 537 (chronica-minora-2 (Mommsen 1894) l.8959-8961)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Theodora had Vigilius promise in secret that as pope he would annul Chalcedon and approve the faith of Theodosius, Anthemius and Severus, and offered an order to Belisarius and seven hundred thousand sesterces",
+        "witness": "Liberatus, Breviarium 22, as quoted in English by Loomis (Book of the Popes, tr. Loomis (liber-pontificalis_book-of-the-popes-v1_loomis1916.txt l.11389-11400); hostile to Vigilius by Mommsen's judgment",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Theodora drew from Vigilius, before his ordination, a secret written pledge to condemn the Three Chapters; Antonina compelled him to write to Theodosius, Anthimus and Severus as Catholics; Victor copies the letter",
+        "witness": "Victor of Tunnuna, year 542 (chronica-minora-2 (Mommsen 1894) l.18888-18910)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Liberatus and Victor, of the same party and stern defenders of Chalcedon, embittered 'iusto odio' against Vigilius, 'perhaps the worst' of bad popes, both bring forward the letter to the Eastern bishops, whether truly his or, as others think, forged; it was certainly published at the time and eagerly received",
+        "witness": "Mommsen's introduction to Victor (chronica-minora-2 (Mommsen 1894) l.17574-17582)",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Unless Vigilius was an absolutely unscrupulous double-dealer, the letter to Anthemius must be classed as a forgery",
+        "witness": "Loomis's note, citing Duchesne (Book of the Popes, tr. Loomis (liber-pontificalis_book-of-the-popes-v1_loomis1916.txt l.11667-11690)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "The Three Chapters were the writings of Theodore of Mopsuestia, Theodoret's writings against Cyril, and the letter of Ibas of Edessa to Maris",
+        "witness": "Bossuet, as printed by Percival (npnf214_seven-ecumenical-councils.xml l.22886-22889); Theodoret 'Cyri episcopi' in Victor (chronica-minora-2 (Mommsen 1894) l.18898)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "In 548 Vigilius issued the Judicatum, anathematizing the Three Chapters but maintaining his adherence to Chalcedon",
+        "witness": "Loomis's note (Book of the Popes, tr. Loomis (liber-pontificalis_book-of-the-popes-v1_loomis1916.txt l.11787-11791); 11 April 548 in Bossuet's account as printed by Percival (npnf214_seven-ecumenical-councils.xml l.22951-22953)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "In 550 the African bishops cut Vigilius off from Catholic communion, leaving him a place for repentance",
+        "witness": "Victor of Tunnuna, year 550 (chronica-minora-2 (Mommsen 1894) l.19047-19049); also Bossuet in Percival (npnf214_seven-ecumenical-councils.xml l.22955-22958)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The council opened on 5 May 553 by the emperor's command, without the pope's assent",
+        "witness": "Hefele, as printed by Percival (npnf214_seven-ecumenical-councils.xml l.22877-22878)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "The Constitutum is dated 'prid. Iduum Maiarum', in Justinian's 27th year, at Constantinople: 14 May 553",
+        "witness": "Avellana ep. 83, ed. Guenther (collectio-avellana_..._v1-lat_guenther1895.txt l.24223-24225; Guenther's date l.18303)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Of Theodore of Mopsuestia: 'eum nostra non audemus condemnare sententia sed nec ab alio quoquam condemnari concedimus'",
+        "witness": "Constitutum (Avellana v1, l.22362-22363)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The council, after the Constitutum, condemned the Three Chapters and those who defended them",
+        "witness": "Bossuet, as printed by Percival (npnf214_seven-ecumenical-councils.xml l.22976-22986); Percival's excursus (l.24497-24501)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Letter to Eutychius, dated 'VI. Id. Dec.', which Percival gives as A.D. 553: Vigilius condemns the Three Chapters and annuls whatever he or others said in their defence",
+        "witness": "Decretal letter, tr. Percival (npnf214_seven-ecumenical-councils.xml l.24465-24478, 24490-24492)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Some doubted the decretal's genuineness (Harduin, after Garnerius), but the learned have generally accepted it as genuine",
+        "witness": "Percival's note (npnf214_seven-ecumenical-councils.xml l.24339-24343)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "'there ought to be no shame when what was at first omitted is made public after it is discovered by a further study of the truth'; Augustine retracted and corrected some of his own writings",
+        "witness": "Decretal letter, tr. Percival (npnf214_seven-ecumenical-councils.xml l.24385-24393)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "He died at Syracuse in Sicily of the stone and was buried at Saint Marcellus on the Via Salaria",
+        "witness": "Book of the Popes, tr. Loomis (liber-pontificalis_book-of-the-popes-v1_loomis1916.txt l.11916-11920)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "A contemporary record gives his death as 7 June 555",
+        "witness": "Loomis's note, citing Duchesne (Book of the Popes, tr. Loomis (liber-pontificalis_book-of-the-popes-v1_loomis1916.txt l.11934-11937)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "He died at the end of 554 or the beginning of 555",
+        "witness": "Percival (npnf214_seven-ecumenical-councils.xml l.24512-24513)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "The account of his maltreatment at Constantinople is partly legendary",
+        "witness": "Loomis's note (Book of the Popes, tr. Loomis (liber-pontificalis_book-of-the-popes-v1_loomis1916.txt l.11834-11839)",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "The Three Chapters quarrel brought a new schism between East and West, which lasted seventy years",
+        "witness": "Loomis's note (Book of the Popes, tr. Loomis (liber-pontificalis_book-of-the-popes-v1_loomis1916.txt l.11796-11798)",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Liberatus says Silverius was handed to Vigilius's guards and died of starvation on Palmaria; the guilt seems to rest partly on Antonina and partly on Vigilius",
+        "witness": "Liberatus as quoted by Loomis; Loomis's judgment (Book of the Popes, tr. Loomis (liber-pontificalis_book-of-the-popes-v1_loomis1916.txt l.11477-11493)",
+        "formation_confidence": "Contested"
+      }
+    ],
+    "contested_claims": [
+      {
+        "claim": "How Vigilius became pope",
+        "sides": "Procopius (Wars V.xxv, l.3473-3477): Belisarius appointed him after sending Silverius away, with no word of a bargain. Liberatus (Breviarium 22, via Loomis l.11389-11400) and Victor of Tunnuna (year 542, Mommsen l.18888-18902): Theodora won a secret promise from him first. Mommsen (l.17574-17578) calls Liberatus and Victor bitterly hostile to Vigilius."
+      },
+      {
+        "claim": "Whether Vigilius wrote the letter to Theodosius, Anthimus and Severus",
+        "sides": "Liberatus and Victor copy it as his. Loomis, citing Duchesne (l.11683-11690): a forgery unless he was a shameless double-dealer. Mommsen (l.17578-17580): leaves it open, noting that others think it forged, and says it was published and received at the time."
+      },
+      {
+        "claim": "Whether the letter to Eutychius is genuine",
+        "sides": "Harduin, after Garnerius: forged. Percival (l.24339-24343): the learned have generally accepted it."
+      },
+      {
+        "claim": "The date of his death",
+        "sides": "A contemporary record cited by Duchesne, via Loomis (l.11934-11937): 7 June 555. Percival (l.24512-24513): the end of 554 or the start of 555."
+      }
+    ],
+    "absent_details": [
+      {
+        "detail": "His birth year and age",
+        "note": "No source used here gives them."
+      },
+      {
+        "detail": "The Judicatum itself",
+        "note": "Reported by Loomis and by Bossuet in Percival; its text is not in the sources used here."
+      },
+      {
+        "detail": "Liberatus's own Latin",
+        "note": "Liberatus is cited through Loomis's English quotations; the Latin Breviarium is in liberatus-victor-tunnunensis-primasius-junillus-pl68-lat_migne1866.txt but chapter 22 was not located in its OCR."
+      }
+    ]
+  },
+  "romanos-the-melodist": {
+    "claims": [
+      {
+        "claim": "On the feast of Christ's nativity the Mother of God appeared to Romanos in sleep and gave him a roll of paper, saying 'Accipe chartam et comede eam'; he seemed to swallow it, woke, went up the ambo and sang 'Virgo parit hodie supersubstantialem Filium'",
+        "witness": "Menologion notice, in Pitra's Latin (Pitra, romanos-melodist_cantica-grc_pitra1888.txt l.6811-6833); a saint's story",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The notice comes from the Menologion of the emperor Constantine Porphyrogenitus (Vatican codex 1613); it is a very short eulogy, and almost nothing more is recorded of Romanos elsewhere",
+        "witness": "Pitra's note (Pitra, romanos-melodist_cantica-grc_pitra1888.txt l.6791-6797)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Constantine Porphyrogenitus reigned 944-959",
+        "witness": "Samuel H. Cross (russian-primary-chronicle_cross1930.txt l.6708)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Romanos came from Syria, was a deacon of the church of Berytus, came to Constantinople in the time of the emperor Anastasius, stayed at the church of the Mother of God in the quarter of Cyrus, kept vigil at Blachernae, wrote about a thousand kontakia for other feasts, and died",
+        "witness": "Menologion notice, in Pitra's Latin (Pitra, romanos-melodist_cantica-grc_pitra1888.txt l.6811-6833)",
+        "formation_confidence": "Inferential-Thin"
+      },
+      {
+        "claim": "The roll in the dream gave the kontakion its name",
+        "witness": "Pitra's note 5 (Pitra, romanos-melodist_cantica-grc_pitra1888.txt l.6845-6849)",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Whether the first or the second emperor Anastasius is meant is open; Pitra looks to the third poem for marks of time, sets out events of Anastasius I's reign (earthquakes of 494 and 503, the Persian war of 502-504) and of Anastasius II's (713-716), and says it is not at all clear whether Romanos flourished then",
+        "witness": "Pitra's notes (Pitra, romanos-melodist_cantica-grc_pitra1888.txt l.6808-6811 and the notes to Canticum III, l.8230-8250)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Pitra printed three poems, selected from many sent from the monastery of Saint John on Patmos, with Latin prose renderings: on Stephen the protomartyr, on Joseph the chaste, on the ten virgins",
+        "witness": "Pitra (Pitra, romanos-melodist_cantica-grc_pitra1888.txt l.6923, 6965-6973, 7399, 8079)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Acrostics, per Pitra's headings: 'Humilis Romani' (Stephen; ten virgins), 'Alphabetum Romani' (Joseph)",
+        "witness": "Pitra's headings (Pitra, romanos-melodist_cantica-grc_pitra1888.txt l.6926-6929, 7400, 8082)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The ten virgins refrain, in Pitra's Latin: 'Ne foris maneamus, clamantes: Aperi nobis!'",
+        "witness": "Pitra (Pitra, romanos-melodist_cantica-grc_pitra1888.txt l.8085-8086)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Pitra titles Romanos 'veterum melodorum princeps'",
+        "witness": "Pitra's title page (Pitra, romanos-melodist_cantica-grc_pitra1888.txt l.309)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The Greek of the kontakia is not recoverable from the scanned file; only Pitra's Latin and apparatus can be read",
+        "witness": "The Library file's own content note (l.27-36), checked: no Greek-script characters",
+        "formation_confidence": "Documented"
+      }
+    ],
+    "contested_claims": [
+      {
+        "claim": "Which emperor Anastasius the Menologion notice means, and so when Romanos lived",
+        "sides": "Pitra (l.6808-6811, 8230-8250) asks whether Anastasius I or Anastasius II (713-716) is meant and sets out events of both reigns; he says it is not at all clear that Romanos flourished under the second. The Library file header's 'c. 490-c. 556' and the era 3 scan's dates rest on no held scholar's argument."
+      }
+    ],
+    "absent_details": [
+      {
+        "detail": "His years of birth and death",
+        "note": "Neither the notice nor Pitra gives them. The scan's c.490-c.556 comes from the Library file header and is not used."
+      },
+      {
+        "detail": "Romanos's own Greek",
+        "note": "Printed in Pitra's volume but unreadable in the scanned copy; the brief quotes only Pitra's Latin."
+      },
+      {
+        "detail": "A second witness to his life",
+        "note": "Pitra says almost nothing more is recorded of him; no other held file was found that tells his life (the Akathist file header names him only as a possible author)."
+      }
+    ]
+  },
+  "cyril-of-scythopolis": {
+    "claims": [
+      {
+        "claim": "Anastasius son of Pamphilus, at the head of the duchy of Palestine, was sent to make John communicate with Severus and anathematize Chalcedon, or else remove him; released, the archbishop brought all the monks into the holy city by night, 'au dire de ceux qui ont compté cette multitude', ten thousand; on Sunday in the church of the protomartyr Stephen he mounted the ambo with Theodosius and Sabas; the people shouted for long hours 'Anathématise les hérétiques et confirme le concile'; the three anathematized Nestorius, Eutyches, Severus and Soterichus and whoever did not receive Chalcedon; the duke, fearing the monks, fled to Caesarea",
+        "witness": "Cyril, Life of Sabas, extract tr. Kugener (zacharias-scholasticus vie-de-severe-po2 kugener1903 l.25076-25079, 25095-25111, 25188-25206)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "In his narration Cyril calls Severus 'le chef des Acéphales'",
+        "witness": "Life of Sabas extract, tr. Kugener (l.24740, 24821); a partisan Chalcedonian account",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "'Cyrille né à Scythopolis en Galilée vers 523, et mourut après 557'; his Life of Sabas is 'une source du plus grand prix pour l'histoire de l'Église de Jérusalem et du monachisme palestinien'",
+        "witness": "Kugener's note (l.24697-24699; OCR 'Cyrille n rh a Scythopolis en Galilee')",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "He saw Euthymius's coffin continually flowing with miracles and wondered how he gained such confidence with God; he met many old men of the desert who had heard of Euthymius, some from Sabas, and wrote down what each told him",
+        "witness": "Cyril, Life of Euthymius, Latin tr. Cotelier (cyril-scythopolis cotelier1681 l.45445-45475; OCR rough)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "He names the anchorite Cyriacus as his informant: 'Haec mihi Anachoreta Cyriacus narravit'",
+        "witness": "Life of Euthymius, Latin (l.31776-31777; OCR 'Hzc mihi')",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Euthymius and Sabas appeared to him; Sabas said Cyril, Euthymius's son, held the paper but could not even begin; Euthymius drew a silver alabaster jar of honey from his breast, dipped a probe and put it in his mouth; on waking the sweetness remained in his mouth; so he began the present work and was eager to write the deeds of Sabas in another",
+        "witness": "Life of Euthymius, Latin (l.45586-45700)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "He later lived in a laura the Origenists had held, by leave of the solitary John, a bishop",
+        "witness": "Life of Euthymius, Latin (l.45535-45552); OCR rough, read in part",
+        "formation_confidence": "Inferential-Thin"
+      },
+      {
+        "claim": "The Life was first written by Cyril, monk of Scythopolis, 'clarissimo Vitarum scriptore' (OCR 'clariffimo V itarum feri- ptore'); Cotelier's copy lacks the opening letter cited elsewhere, though Allatius's quotations from Cyril's Life occur in it",
+        "witness": "Cotelier's notes (l.72939-72971)",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      }
+    ],
+    "contested_claims": [],
+    "absent_details": [
+      {
+        "detail": "His years",
+        "note": "The scan's c.525-c.559 rests only on the Library's file header. Kugener gives about 523 to after 557; no other held source gives years."
+      },
+      {
+        "detail": "The Life of Sabas and his other Lives",
+        "note": "Only Kugener's extracts on Severus from the Life of Sabas are held; the full Life of Sabas, in Cotelier's volume 3, is not, and no other Life by Cyril is held."
+      },
+      {
+        "detail": "His monastery and career",
+        "note": "The held texts give his vision, his informants and the move to a laura; they give no family, ordination or the monastery of his first profession beyond 'the Cenobium' he says he left."
+      }
+    ]
+  },
+  "procopius-of-caesarea": {
+    "claims": [
+      {
+        "claim": "Envoys Hypatius, priest of Ephesus, and Demetrius came from Byzantium to the chief priest of Rome about a tenet of faith 'which is a subject of disagreement and controversy among the Christians'; 'although I know them well, I shall by no means make mention of them; for I consider it a sort of insane folly to investigate the nature of God'; God 'is altogether good and has all things in His power'",
+        "witness": "Procopius, Wars V.iii, tr. Dewing (wars-5-6 l.403-416)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Born late in the fifth century at Caesarea in Palestine; studied for the law; came young to Constantinople; in 527 legal adviser and private secretary to Belisarius; with him in Mesopotamia 527, Africa 533, Italy 536; an eyewitness",
+        "witness": "Dewing's introduction (wars-1-2 l.68-92)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "'It was at that time that Procopius, who wrote this history, was chosen as his adviser' (Belisarius made commander at Daras); the year 527 is Dewing's bracket",
+        "witness": "Procopius, Wars I.xiii (wars-1-2 l.1510-1512)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Belisarius, suspecting Silverius, chief priest of Rome, of treason with the Goths, sent him to Greece and appointed Vigilius",
+        "witness": "Procopius, Wars V.xxv (wars-5-6 l.3473-3476)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Hagia Sophia's dome 'does not appear to rest upon a solid foundation, but to cover the place beneath as though it were suspended from heaven by the fabled golden chain'",
+        "witness": "Procopius, Buildings I.i, tr. Stewart (l.493-496)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The History has a calm tone; the Buildings is 'written in the empty style of the fawning flatterer' yet 'a storehouse of information concerning the internal administration of the empire'",
+        "witness": "Dewing's introduction (wars-1-2 l.164, 181-191)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "The Secret History attacks the emperor and empress and even Belisarius and Antonina; 'the very extravagance of the calumny makes it impossible to be believed'; 'very few contradictions in statements of fact'; not published until after Justinian's death in 565",
+        "witness": "Dewing's introduction (wars-1-2 l.141-160)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "The Secret History 'on the whole gives a faithful picture of the Byzantine Court of the period', though details may be exaggerated",
+        "witness": "Athenian Society translator's preface (l.183-186)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "The Secret History is Procopius's work",
+        "witness": "Dewing: 'now believed to be highly probable at least' (wars-1-2 l.162-170); the 1896 translator: 'Direct proofs of authenticity are wanting', the first to attribute it, Suidas and Nicephorus Callistus, 'lived centuries later' (l.155-158)",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "He writes 'at times as a Christian, and at times as one imbued with the ideas of the ancient religion of Greece'",
+        "witness": "Dewing's introduction (wars-1-2 l.205-211)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Of a sceptical turn of mind, indifferent, he 'affected the forms and language of Christianity' under an orthodox emperor; his writings do not decide the question",
+        "witness": "Athenian Society translator's preface (l.94-102)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Made senator and Prefect of Byzantium in 562; died shortly before or after 565",
+        "witness": "Athenian Society translator's preface (l.76-84); the Palestine Pilgrims' Text Society preface (Buildings l.96-110: 'is supposed to have died in 565')",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      }
+    ],
+    "contested_claims": [
+      {
+        "claim": "Procopius's religion",
+        "sides": "Dewing: he writes at times as a Christian and at times as one imbued with the old Greek religion, perhaps unconsciously from his study of the classics; it was politic to espouse the religion of the state (wars-1-2 l.205-211). The 1896 translator: a sceptic, indifferent, who affected Christian forms (l.94-102). Neither settles it; the translator says his writings do not."
+      },
+      {
+        "claim": "How far the Secret History can be believed",
+        "sides": "Dewing: overdone, its calumny 'impossible to be believed', though with few contradictions in fact (wars-1-2 l.141-155). The 1896 translator: founded 'sometimes upon fact, sometimes upon vague rumours', but on the whole 'a faithful picture' (l.150-186)."
+      }
+    ],
+    "absent_details": [
+      {
+        "detail": "The points of faith the envoys carried",
+        "note": "Procopius says he knew them and would not record them (Wars V.iii). The brief does not supply them."
+      },
+      {
+        "detail": "His birth year and death year",
+        "note": "No held source gives a firm year. Dewing says late in the fifth century; the 1896 translator 'towards the beginning of the sixth century'; the Pilgrims' Text Society preface 'early in the sixth or at the end of the fifth century'. The death in or near 565 is given as supposed."
+      }
+    ]
+  },
+  "samson-of-dol": {
+    "claims": [
+      {
+        "claim": "In the district called Tricurius he found men worshipping an idol with a play, an image on a hilltop; with two brothers he admonished them; the writer says he has been on that hill and traced with his hand the cross Samson carved with an iron instrument on a standing stone",
+        "witness": "Life I.48 (Taylor, samson-of-dol_life-of-st-samson_taylor1925.txt l.3874-3897)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Tricurius is the Hundred of Trigg in Cornwall",
+        "witness": "Taylor's note (Taylor, samson-of-dol_life-of-st-samson_taylor1925.txt l.3900)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "His parents brought him as a boy to the school of Eltut, of all the Britons the most accomplished in the Scriptures and learning; at five, by Taylor's summary",
+        "witness": "Life I.7 (Taylor, samson-of-dol_life-of-st-samson_taylor1925.txt l.2339-2347); Taylor's sketch (l.455-457)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Career: Piro's monastery, abbot on Piro's death, a visit to Ireland, ordained bishop, Cornwall, Brittany, founded Dol, died and was buried there",
+        "witness": "Taylor's sketch from the Life (l.458-495); Life I.52, I.61 (l.4040-4048, 4286-4293)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "He went to King Hiltbert on behalf of the captive Judual; Taylor identifies Hiltbert as Childebert",
+        "witness": "Life I.53-59 (l.4063-4074, 4250-4260); Taylor's introduction and index (l.609-611, 5373)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The Life tells miracles, among them the dove at his ordination as deacon and serpents driven out",
+        "witness": "Life (l.2595-2622, 3938-3960, 4262-4268); Taylor: the biographer accepted the miracles as authentic (l.497-502)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The writer wrote at the request of Bishop Tigernomalus, from what an old man, a cousin of Samson and a deacon, told him, and from accounts the deacon Henoc had brought",
+        "witness": "Life, prologue (l.1916-1918, 1981-2006)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The writer is anonymous",
+        "witness": "Taylor ('our anonymous writer', l.537-538; 'The anonymous author', l.1615)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Duine found no trace of any literary composition later than the end of the sixth century; Taylor takes this as a convincing argument for 610-615",
+        "witness": "Taylor's introduction (l.725-743, 1651-1652)",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Fawtier charged the author with untruthfulness, declared the work spurious, and did not accept its statements on authorship and provenance; Duine and Loth answered him",
+        "witness": "Taylor's introduction (l.567-575, 1652-1654)",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "Taylor reckons his consecration probably in 521 and his birth in 486, assuming he was then thirty-five",
+        "witness": "Taylor's sketch (l.448-455)",
+        "formation_confidence": "Inferential-Thin"
+      },
+      {
+        "claim": "A Samson signed the council of Paris: 'Samson subscripsi et consensi in nomine Christi'; Maassen dates the council 556-573",
+        "witness": "Maassen, Concilia aevi Merovingici (concilia-aevi-merovingici-mgh-concilia-1-lat_maassen1893.txt l.11857; heading l.11525, 11838)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The signature names no see; Maassen's note gives 'Dolensis (?)' with Duchesne, and his index lists Samson as bishop of Dol",
+        "witness": "Maassen (l.11857, 11870, 18844, 20493)",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "Taylor: Samson attended a council at Paris and signed among the bishops between 556 and 573",
+        "witness": "Taylor's introduction (l.1247-1250)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Later Lives rivalled this one's miracles; it 'actually furnished the mould into which many of them were cast'",
+        "witness": "Taylor's introduction (l.535-542)",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "A later Life of Illtud counts Samson, Paulinus, Gildas and Dewi among Illtud's pupils",
+        "witness": "Vita Iltuti, ed. Rees (rees_lives-of-the-cambro-british-saints-lat-eng_1853.txt l.7949-7951)",
+        "formation_confidence": "Inferential-Thin"
+      }
+    ],
+    "contested_claims": [
+      {
+        "claim": "When the Life of Samson was written, and whether its account of its sources is true",
+        "sides": "Taylor (l.742-743, 1651-1652, 1708-1715), following Abbé Duine (l.725-731): 610-615, by a truthful writer. Fawtier, as Taylor reports him (l.567-575, 1652-1654): spurious, its statements on authorship and provenance rejected. Duine and Loth answered Fawtier (l.574-575). Fawtier's own date is not given in the held file."
+      }
+    ],
+    "absent_details": [
+      {
+        "detail": "His year of death",
+        "note": "The Life gives none; Taylor gives none. The scan's 565 rests on no held line."
+      },
+      {
+        "detail": "His words",
+        "note": "No writing of his own is held beyond the council signature."
+      },
+      {
+        "detail": "Fawtier's own dating of the Life",
+        "note": "Taylor reports Fawtier's objections but not his date; Fawtier's book is not held."
+      }
+    ]
+  }
+}
