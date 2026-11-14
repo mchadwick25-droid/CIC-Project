@@ -307,7 +307,7 @@ function checkSourceItem(path, s, keys) {
   if (plain(s.file) && !(s.file.startsWith("cic/texts/") && existsSync(s.file))) errs.push(`${path}.file ${s.file} must be an existing file under cic/texts/`);
 }
 // Every quotation in a person's or council's prose stands verbatim in a file the entry cites (case, punctuation and
-// spelling marks aside). A narrator's retelling in modern words carries no quotation marks and is not checked here.
+// spelling marks aside), unless it is a listed rendering (tools/quote_renderings.json).
 const fold = s => s.normalize("NFKD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/æ/g, "ae").replace(/œ/g, "oe").replace(/[^a-z0-9]+/g, " ").trim();
 function proseOf(x, out = []) {
   if (typeof x === "string") out.push(x);
@@ -315,13 +315,13 @@ function proseOf(x, out = []) {
   else if (isObj(x)) Object.entries(x).forEach(([k, v]) => { if (k !== "sources" && k !== "file") proseOf(v, out); });
   return out;
 }
-// A rendering the prose itself declares ("in modern words") is the narrator's English of a non-English original,
-// so its words are not in the file; the review checks it against the original. The declaration must stand within
-// a short reach of the quotation, in the same paragraph.
-const RENDERING = /in modern words/i;
-const RENDERING_REACH = 120;
-function declaredRendering(para, start, end) {
-  return RENDERING.test(para.slice(Math.max(0, start - RENDERING_REACH), end + RENDERING_REACH));
+// A rendering is the narrator's English of a non-English original, marked "in modern words" in the prose. Its words
+// are not in the file, so each one is listed by entry, with its original, in tools/quote_renderings.json after review
+// against that original. The check skips exactly the listed spans, and a listing whose span is gone is an error.
+const renderings = new Map();
+for (const r of JSON.parse(readFileSync(new URL("./quote_renderings.json", import.meta.url), "utf8")).renderings) {
+  if (!existsSync(r.original.file)) errs.push(`tools/quote_renderings.json: ${r.id}: original ${r.original.file} not found`);
+  renderings.set(`${r.id}\u0000${r.quote}`, false);
 }
 // Scan faults inside quoted spans, each named with its file, lines and the printed reading (tools/quote_scan_readings.json).
 const scanReadings = new Map();
@@ -338,7 +338,12 @@ function withReadings(file, raw) {
     const [a, b = a] = String(r.lines).split("-").map(Number);
     const seg = lines.slice(a - 1, b).join("\n");
     if (!seg.includes(r.scan)) { errs.push(`tools/quote_scan_readings.json: ${file} lines ${r.lines} no longer read "${r.scan}"`); continue; }
-    if (r.drop) { lines.fill("", a - 1, b); continue; }
+    if (r.drop) {
+      // A dropped range holds only the declared lines (a running head, page number or footnote) and blank lines.
+      const held = lines.slice(a - 1, b).map(x => x.trim()).filter(Boolean);
+      if (JSON.stringify(held) !== JSON.stringify(r.lines_held)) { errs.push(`tools/quote_scan_readings.json: ${file} lines ${r.lines} hold more or other than the declared lines`); continue; }
+      lines.fill("", a - 1, b); continue;
+    }
     lines.splice(a - 1, b - a + 1, ...seg.replace(r.scan, r.reads).split("\n"));
   }
   return lines.join("\n");
@@ -352,7 +357,8 @@ function checkQuotes(m) {
   for (const para of prose.flatMap(t => t.split("\n"))) {
     if ((para.match(/"/g) ?? []).length % 2) { errs.push(`${m.id}: unbalanced quotation marks in "${para.slice(0, 60)}"`); continue; }
     for (const q of para.matchAll(/"([^"]+)"/g)) {
-      if (declaredRendering(para, q.index, q.index + q[0].length)) continue;
+      const rk = `${m.id}\u0000${q[1]}`;
+      if (renderings.has(rk)) { renderings.set(rk, true); continue; }
       for (const piece of q[1].split(/\.\.\.|…/)) {
         const f = fold(piece);
         if (f.length >= 8) pending.push({ piece, f });
@@ -384,6 +390,7 @@ function finishQuotes() {
       jobs.forEach(j => { j.left = j.left.filter(q => !held.includes(q.f)); });
     }
   }
+  if (!skipQuotes) for (const [k, used] of renderings) if (!used) errs.push(`tools/quote_renderings.json: "${k.split("\u0000")[1].slice(0, 60)}" no longer stands in ${k.split("\u0000")[0]}`);
   quoteJobs.forEach(j => j.left.forEach(q => errs.push(`${j.id}: quotation not found verbatim in the files it cites: "${q.piece.trim().slice(0, 90)}"`)));
 }
 (d.movements ?? []).forEach(m => {

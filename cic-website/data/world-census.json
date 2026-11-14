@@ -7094,15 +7094,15 @@
    "to": "makurian-nubian-christianity",
    "type": "continued as",
    "confidence": "Widely Accepted",
-   "note": "John of Biclaro says the Maccurritae took up the Christian faith in the third year of Justin II, about 569, but whether he means the Makurians is not settled: Theodor Mommsen, his editor, took them for a people of Mauretania. Al-Baladhuri shows the Nubians still bound by their treaty in the 770s and 780s, under the caliph al-Mahdi. Modern histories treat Christian Nubia as one church that ran on through these centuries.",
+   "note": "John of Biclaro says the Maccurritae took up the Christian faith in the third year of Justin II, about 569; whether he means the Makurians is not settled. Al-Baladhuri shows the Nubians still bound by their treaty in the 770s and 780s, under the caliph al-Mahdi. Modern histories treat Christian Nubia as one church that ran on through these centuries.",
    "sources": [
     {
      "kind": "primary",
      "source_id": null,
-     "work": "John of Biclarum, Chronicle, s.a. 569 (Mommsen, MGH AA 11, 1894)",
+     "work": "John of Biclaro, Chronicle, s.a. 569 (Mommsen, MGH AA 11, 1894)",
      "file": "cic/texts/chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894.txt",
      "lines": "19834",
-     "locus": "John of Biclarum, Chronicle, anno III Iustini, 3",
+     "locus": "John of Biclaro, Chronicle, anno III Iustini, 3",
      "quote": "Maccurritarum gens his temporibus Christi fidem recepit.",
      "license": "public-domain"
     },
@@ -38691,7 +38691,7 @@
      "tier": "2",
      "verification": "from reference summaries; primary text not yet read",
      "teaser": "The greatest theological school in Asia empties when its head departs from the tradition of Theodore of Mopsuestia, and the students who leave found the schools that replace it.",
-     "text": "The School of Nisibis had statutes governing its students\u2019 day, its examinations and its discipline, and for a century it had trained the clergy of the Church of the East in one exegetical tradition: that of Theodore of Mopsuestia, \u2018the Interpreter\u2019, whose commentaries were the school\u2019s curriculum. Around 572 Henana of Adiabene became its head. He was, on all accounts, brilliant, and he began to teach differently \u2014 leaning on Chrysostom rather than Theodore, admitting allegory, and adopting positions on the will and on Christ that his opponents said came from the Greeks. The school split. Barhadbshabba, writing the school\u2019s own history while Henana still taught, praises him. The church\u2019s synods of 585, 596 and 605, and the Chronicle of Seert, record the sequence: the catholicos Ishoyahb condemned Henana\u2019s teaching without naming him; Henana kept his post under the protection of the Persian governor; and finally, by the Chronicle of Seert\u2019s count, about three hundred students walked out in a body rather than sit under him, leaving the school with a remnant. The exiles founded or strengthened schools elsewhere \u2014 at Balad, at Seleucia, and above all the monastery of Izla under Babai the Great, who wrote the church\u2019s definitive Christology partly against Henana. The synod of 605 formally bound the church to Theodore. Henana died in his post around 610, and Nisibis never fully recovered its standing. The episode is the Church of the East\u2019s own account of how it settled its teaching: not by council alone but by students voting with their feet.",
+     "text": "The School of Nisibis had statutes governing its students\u2019 day, its examinations and its discipline, and for a century it had trained the clergy of the Church of the East in one exegetical tradition: that of Theodore of Mopsuestia, \u2018the Interpreter\u2019, whose commentaries were the school\u2019s curriculum. Around 572 Henana of Adiabene became its head. He was, on all accounts, brilliant, and he began to teach differently \u2014 leaning on Chrysostom rather than Theodore, admitting allegory, and adopting positions on the will and on Christ that his opponents said came from the Greeks. The school split. Barhadbshabba, writing the school\u2019s own history while Henana still taught, praises him. The church\u2019s synods of 585 and 596 condemned teaching that J\u00e9r\u00f4me Labourt takes as aimed at Henana and his followers, though the acts never name him. The Chronicle of Seert tells it as a fight inside Nisibis. Gregory, metropolitan of the city, condemned Henana\u2019s books, and Henana sought help from the king\u2019s physicians. In the Chronicle the catholicos Sabrisho takes Henana\u2019s side, though Labourt reads Sabrisho\u2019s own synod as against the Henanians. Moved by Sabrisho\u2019s decision, about three hundred students walked out, and only twenty people, and scarcely as many boys, were left in the school. The exiles founded or strengthened schools elsewhere \u2014 at Balad, at Seleucia, and above all the monastery of Izla under Babai the Great, who wrote the church\u2019s definitive Christology partly against Henana. The synod of 605 formally bound the church to Theodore. When Henana died is told two ways in Addai Scher\u2019s notes: under the catholicos Sabrisho, who died in 604, or after 610. Nisibis never fully recovered its standing. The episode is the Church of the East\u2019s own account of how it settled its teaching: not by council alone but by students voting with their feet.",
      "caveat": "The synodal acts and the Chronicle of Seert are the winning side\u2019s record; Barhadbshabba, writing while Henana was still master, praises him; Henana\u2019s own works survive only in fragments and hostile summary. The figure of about three hundred is the Chronicle of Seert\u2019s. The chronology of the walkout is uncertain within a decade.",
      "sources": [
       {
@@ -38702,7 +38702,7 @@
       {
        "work": "Chronicle of Seert, second part, ch. LXXIV",
        "type": "primary",
-       "note": "The students\u2019 walk-out from Nisibis, about three hundred of them; French in Addai Scher, Patrologia Orientalis 13."
+       "note": "Gregory\u2019s condemnation of Henana\u2019s books, Sabrisho\u2019s support for Henana, and the students\u2019 walk-out; French in Addai Scher, Patrologia Orientalis 13."
       },
       {
        "work": "Synodicon Orientale, synods of 585, 596 and 605",
@@ -39053,7 +39053,7 @@
     "Dorotheus of Gaza \u2014 their disciple, whose teaching on humility and bearing with others became standard reading in later monasteries",
     "John Moschus \u2014 who traveled the Palestinian and Sinai monasteries around 600, collecting the stories the monks told about one another"
    ],
-   "legacy": "Much of what Eastern Orthodox monks still do draws on these houses. A book of services named after Sabas, the Typikon of Saint Sabas, was printed at Venice from 1515. Parts of it entered the Orthodox service books. John Climacus wrote the Ladder of Divine Ascent at Sinai, in the later 500s or about 600, though his years are disputed. Dorotheus of Gaza is still standard reading for the spiritual life. Two of the houses from this period still have monks living in them: Mar Saba in the Judean desert and Saint Catherine's at Sinai. They are among the oldest Christian houses anywhere to have been lived in without a break.",
+   "legacy": "Much of what Eastern Orthodox monks still do draws on these houses. A book of services named after Sabas, the Typikon of Saint Sabas, was printed at Venice from 1515. Parts of it entered the Orthodox service books. John Climacus wrote the Ladder of Divine Ascent at Sinai, in the later 500s or about 600. The Greeks held it in great value, Philippe Labbe says, and Elias of Crete wrote explanations of it. Dorotheus of Gaza is still standard reading for the spiritual life. Two of the houses from this period still have monks living in them: Mar Saba in the Judean desert and Saint Catherine's at Sinai. They are among the oldest Christian houses anywhere to have been lived in without a break.",
    "experienceToday": [
     {
      "text": "Mar Saba, in the Kidron valley between Bethlehem and the Dead Sea \u2014 founded by Sabas in 483 and inhabited by monks almost continuously since",
@@ -39243,7 +39243,7 @@
    "longDescription": "Benedict of Nursia left Rome for a cave at Subiaco. Around 529 he ended up founding a monastery on the hill of Monte Cassino. Italy was being torn apart, first by the Gothic wars and then by the Lombard invasions. What he left behind was a rule: seventy-three short chapters on prayer, work, sleep, food, guests, discipline and the election of an abbot. Much of it, most scholars now think, was drawn from an older and harsher text, the anonymous Rule of the Master. Benedict cut it down and softened it, with an eye for what ordinary people could actually keep up. A generation later Gregory the Great, a monk before he was a pope, wrote the only account we have of Benedict's life. He also governed the Italian church through more than 850 letters, which show the same world from the other side. They tell of famine, plague, refugees, Lombard armies, and the daily running of a church trying to hold itself together.",
    "teaser": "Italy, c. 500 to 604 CE \u2014 a short, practical rule for a single household of monks, written while the peninsula was being fought over, that ended up organizing Western monastic life for fifteen centuries.",
    "voices": [
-    "Benedict of Nursia \u2014 author of the Rule and founder of Subiaco and Monte Cassino, died around 547",
+    "Benedict of Nursia \u2014 author of the Rule and founder of Subiaco and Monte Cassino; his order's tradition gives his death as 543",
     "Scholastica \u2014 Benedict's sister, remembered in Gregory the Great's account as leading a community of women nearby",
     "Gregory the Great \u2014 pope from 590 to 604, monk, the only narrator of Benedict's life, and the writer of more than 850 surviving letters",
     "The anonymous author of the Rule of the Master \u2014 the longer, older rule Benedict abbreviated; the writer's name is unknown"
@@ -40381,7 +40381,7 @@
    "c2": null,
    "sourcing": "Thin for inside voice: substantially archaeological (Faras murals, Qasr Ibrim texts)",
    "floorNote": "No question",
-   "relationsSummary": "Two rival missions sent from Constantinople brought the faith here in the 540s. Nobadia took the faith of the Miaphysite patriarch of Alexandria, then in exile. It turned down the faith that Justinian's envoys brought. A chronicle written on the other side of the split says a people it calls the Maccurritae became Christian around 569. Theodor Mommsen, its editor, took them for a people of Mauretania, not the Makurians of Nubia.",
+   "relationsSummary": "Two rival missions sent from Constantinople brought the faith here in the 540s. Nobadia took the faith of the Miaphysite patriarch of Alexandria, then in exile. It turned down the faith that Justinian's envoys brought. A chronicle written on the other side of the split says a people it calls the Maccurritae became Christian around 569. Whether they are the Makurians of Nubia is not settled; Theodor Mommsen, its editor, thought them a people of Mauretania.",
    "why": "Christianity reached the Nubian kingdoms south of Egypt through rival missions in the 540s, one Miaphysite and one Chalcedonian, and the story survives only because a Syrian bishop wrote it down from the winning side. Nubia itself left walls rather than words: the painted bishops, kings and saints of the cathedral at Faras, and the archers who held an invading Arab army at Dongola until both sides signed the Baqt treaty in 652.",
    "entry": null,
    "continuesAs": "makurian-nubian-christianity",
@@ -40389,7 +40389,7 @@
     {
      "work": "John of Ephesus, Ecclesiastical History, Part III, bk 4 (trans. R. Payne Smith, 1860; online tertullian.org)",
      "type": "primary",
-     "note": "The near-contemporary narrative of Nobadia's conversion (Julian 543, Longinus 569-80s), told from the Miaphysite mission's side \u2014 an outside (Syrian) voice, not an inside one. Compare John of Biclaro's Chalcedonian note on the Maccurritae, whom Theodor Mommsen took for a people of Mauretania.",
+     "note": "The near-contemporary narrative of Nobadia's conversion (Julian 543, Longinus 569-80s), told from the Miaphysite mission's side \u2014 an outside (Syrian) voice, not an inside one. Compare John of Biclaro's Chalcedonian note on the Maccurritae (see the first story's caveat).",
      "url": "https://www.tertullian.org/fathers/ephesus_0_preface.htm"
     },
     {
@@ -40416,7 +40416,7 @@
    "longDescription": "Christianity reached the Nubian kingdoms south of Egypt in the 540s, through two competing missions. A Miaphysite priest named Julian went with the empress Theodora's backing, and a Chalcedonian effort went with Justinian's. The story of that race survives only because a Syrian bishop, John of Ephesus, wrote it down from the winning side. What Nubia itself left is not stories but walls. Built a few generations later, the cathedral at Faras lay buried in sand until it was rescued before the Aswan dam flooded the region. It gave up a list of its bishops and more than a hundred painted figures: Nubian bishops, kings and queens, and saints. Some have dark faces and some pale, in a style nobody had seen before. When Arab armies pushed south after taking Egypt, Nubian archers held them at Dongola. In 652 the two sides signed the Baqt, a treaty of exchange rather than of conquest, and it left Christian Nubia standing on its own terms.",
    "teaser": "The Nile in what is now Sudan, 543 to 652 CE \u2014 three Christian kingdoms whose clearest surviving face comes from a cathedral's painted walls, from the centuries just after this one, which stopped an Arab army and then negotiated their own terms.",
    "voices": [
-    "Julian \u2014 the Miaphysite missionary who reached Nobadia in 543; his mission is known only through John of Ephesus's account",
+    "Julian \u2014 the Miaphysite missionary to the Nobadae under Justinian and Theodora; his mission is known only through John of Ephesus's account",
     "Longinus \u2014 his successor, consecrated bishop for Nubia, who went on to bring Christianity to the southern kingdom of Alodia around 580",
     "John of Ephesus \u2014 the Syrian bishop who recorded these missions; he is an outside voice, and Nubia left no narrative of its own conversion",
     "The bishops of Faras \u2014 a list of their names and a wall of their portraits survive from the cathedral, though almost nothing they said or wrote does"
@@ -40436,7 +40436,7 @@
      "verification": "from reference summaries; primary text not yet read",
      "teaser": "The Syrian bishop who tells the story of Nubia\u2019s conversion also tells how its first missionary survived the heat: standing in a flooded cave from nine in the morning until four, dressed only in a linen shift.",
      "text": "John of Ephesus is the only narrative source for how the Nubian kingdoms became Christian, and he tells it as a story of court intrigue. A priest named Julian, an old man in the entourage of the exiled Alexandrian patriarch at Constantinople, conceived a desire to convert the Nobadae, the people south of the First Cataract, and got the empress Theodora\u2019s backing. Justinian, hearing of it, sent a rival mission of his own, Chalcedonian, with gold and baptismal robes. The Nobadian king received Julian, heard both cases, and, having been told that the emperor\u2019s own wife had sent the first party, chose the Miaphysite faith and sent the imperial envoy home. What follows is the detail John cannot resist. The heat in Nubia was such, he writes, that Julian \u2018used to say that from the third to the tenth hour he sat in caves full of water, naked except for a linen garment, and taught the people from there\u2019, and that the only way to bear it was to keep still. He stayed two years, baptized the king and his nobles, left a bishop of Philae in charge, and went back to Constantinople. Nubia was Christian for nine hundred years. Its own account of the beginning was never written, or has not survived; the cave full of water comes from a Syrian who heard Julian tell it.",
-     "caveat": "John of Ephesus is a Miaphysite writing to credit his own party; the \u2018race\u2019 with Justinian\u2019s mission may be shaped by that. John of Biclaro, a Chalcedonian, records that the Maccurritae took up the faith around 569; whether he means the Makurians is not settled, since Theodor Mommsen, his editor, took them for a people of Mauretania. Julian\u2019s own words about the caves are reported speech at one remove.",
+     "caveat": "John of Ephesus is a Miaphysite writing to credit his own party; the \u2018race\u2019 with Justinian\u2019s mission may be shaped by that. John of Biclaro, a Chalcedonian, records that the Maccurritae took up the faith around 569. Whether he means the Makurians is not settled; Theodor Mommsen, his editor, thought them a people of Mauretania. Julian\u2019s own words about the caves are reported speech at one remove.",
      "sources": [
       {
        "work": "John of Ephesus, Ecclesiastical History, Part III, book IV.6\u20138 and 49\u201353",
@@ -40444,9 +40444,9 @@
        "note": "Julian\u2019s mission, the caves, Longinus\u2019 journey (Payne Smith\u2019s translation)."
       },
       {
-       "work": "John of Biclarum, Chronicle, s.a. 569",
+       "work": "John of Biclaro, Chronicle, s.a. 569",
        "type": "primary",
-       "note": "The Chalcedonian notice of the conversion of the Maccurritae, whom Theodor Mommsen took for a people of Mauretania, not the Makurians; English in Kenneth Baxter Wolf, Conquerors and Chroniclers of Early Medieval Spain (Liverpool, 1990)."
+       "note": "The Chalcedonian notice of the Maccurritae (see the caveat); English in Kenneth Baxter Wolf, Conquerors and Chroniclers of Early Medieval Spain (Liverpool, 1990)."
       },
       {
        "work": "Derek A. Welsby, The Medieval Kingdoms of Nubia (British Museum, 2002), ch. 2",
@@ -40654,7 +40654,11 @@
      }
     },
     {
-     "person": "victor-of-vita"
+     "name": "Victor of Vita",
+     "year": 484,
+     "voice": 4,
+     "author": "victor-of-vita",
+     "held": "victor-of-vita_historia-persecutionis-africanae-provinciae-lat_petschenig1881--persecution-homoian-view"
     },
     {
      "name": "Theodoric the Great",
@@ -40666,9 +40670,6 @@
       "lines": "8300-8301",
       "quote": "Why do ye desire what ye ought to shun? In truth we give the permission which you craved"
      }
-    },
-    {
-     "person": "fulgentius-of-ruspe"
     },
     {
      "name": "Reccared",
@@ -41003,7 +41004,7 @@
      "verification": "from reference summaries; primary text not yet read",
      "teaser": "An African bishop keeps a year-by-year chronicle of the empire. When the emperor deposes his primate and jails the bishops who will not sign, he enters himself in the list.",
      "text": "Victor, bishop of Tunnuna in the province of Byzacena, wrote a chronicle continuing Prosper\u2019s, one entry a year, in the flat annalistic Latin of the genre. Under the year 551 he records that the emperor Justinian summoned the African bishops to Constantinople over the Three Chapters \u2014 the writings of Theodore, Theodoret and Ibas that the emperor wanted condemned to please the Miaphysites and the Africans refused to condemn because Chalcedon had not. Reparatus, archbishop of Carthage and primate of Africa, went and would not sign; Victor records his deposition on a trumped-up charge of treason, his exile to Euchaita in Pontus, and the installation in his place of his own deacon Primosus, \u2018who had promised to consent\u2019. Under 555: \u2018Victor, bishop of the church of Tunnuna, and Theodore of Cebarsussa, are sent into exile to the Balearic islands for defending the Three Chapters.\u2019 Under 564: \u2018Victor, Theodore, and other African bishops are summoned to Constantinople, and having disputed with the emperor and the patriarch in the palace, are confined in various monasteries of the city.\u2019 Under 565 he notes the death of Justinian and, under 566, of the archbishop Reparatus in his exile, \u2018worthy of memory\u2019. He is one of only two African bishops of the period whose own words survive on the affair, and his method \u2014 putting his imprisonment in the same tone as a consul\u2019s election \u2014 is itself the record of a church that regarded resisting the emperor on doctrine as ordinary duty.",
-     "caveat": "Victor of Tunnuna\u2019s chronicle is contemporary and first-hand but written from the losing side and in exile; the treason charge against Reparatus is his characterization. The African resistance and its suppression are confirmed by Facundus and the conciliar acts. Liberatus of Carthage tells of African bishops deposed and exiled for refusing to condemn the Three Chapters, without naming Reparatus.",
+     "caveat": "Victor of Tunnuna\u2019s chronicle is contemporary and first-hand but written from the losing side and in exile; the treason charge against Reparatus is his characterization. The African resistance and its suppression are confirmed by Facundus and the conciliar acts. Liberatus of Carthage mentions bishops rewarded, deposed, exiled or in hiding over the Three Chapters, but passes over the details as well known. His editor, Jean Garnier, takes him to mean the Africans, Reparatus among them.",
      "sources": [
       {
        "work": "Victor of Tunnuna, Chronicle, s.a. 551\u2013566",
@@ -41018,7 +41019,7 @@
       {
        "work": "Liberatus of Carthage, Breviarium causae Nestorianorum et Eutychianorum, ch. 24",
        "type": "primary",
-       "note": "An African account of the bishops deposed, exiled or in hiding; it does not name Reparatus. Latin in ACO II.5."
+       "note": "An African writer on the bishops deposed, exiled or in hiding; he does not name Reparatus. Latin in ACO II.5."
       },
       {
        "work": "Averil Cameron, \u2018Byzantine Africa: The Literary Evidence\u2019, in Excavations at Carthage 1978 (Michigan, 1982)",
@@ -41150,8 +41151,8 @@
      "when": "633",
      "tier": "1",
      "verification": "from reference summaries; primary text not yet read",
-     "teaser": "A council whose acts Isidore of Seville signs first declares forced baptism wrong \u2014 and rules that the Jews King Sisebut forced to the font twenty years earlier must remain Christians, on pain of the law.",
-     "text": "Around 615 King Sisebut had ordered the Jews of his kingdom to be baptized or leave, and the sources say that tens of thousands were baptized under threat of flogging and confiscation. In 633 the bishops of Spain met at Toledo in the fourth of the great councils, with Isidore of Seville's name first among the signatures, to legislate for church and kingdom together. It begins as a statement of principle that the later church would quote for centuries: \u2018Concerning the Jews, the holy synod has decreed that henceforth no one is to be brought to belief by force; for God has mercy on whom he will, and hardens whom he will. Such people are not to be saved against their will but willingly, that the form of justice may be whole.\u2019 Then the canon turns. Those who were already baptized under Sisebut, \u2018because it is now established that they have received the divine sacraments, the grace of baptism, the chrism and the body and blood of the Lord\u2019, must be compelled to keep the faith they took, \u2018lest the name of the Lord be blasphemed and the faith be held vile\u2019. The following canons forbade the forcibly baptized to keep the Sabbath, to circumcise their sons, to hold office, to own Christian slaves, or to keep their children, who were to be taken and raised by Christians. The principle in the first sentence and the practice in the second have both been part of the tradition since, and the same document contains them.",
+     "teaser": "The bishops of Spain, with Isidore of Seville's name first on their acts, declare forced baptism wrong \u2014 and rules that the Jews King Sisebut forced to the font twenty years earlier must remain Christians, on pain of the law.",
+     "text": "Around 615 King Sisebut had ordered the Jews of his kingdom to be baptized or leave, and the sources say that tens of thousands were baptized under threat of flogging and confiscation. In 633 the bishops of Spain met at Toledo in the fourth of the great councils, to legislate for church and kingdom together. Isidore of Seville's name stands first among their signatures. It begins as a statement of principle that the later church would quote for centuries: \u2018Concerning the Jews, the holy synod has decreed that henceforth no one is to be brought to belief by force; for God has mercy on whom he will, and hardens whom he will. Such people are not to be saved against their will but willingly, that the form of justice may be whole.\u2019 Then the canon turns. Those who were already baptized under Sisebut, \u2018because it is now established that they have received the divine sacraments, the grace of baptism, the chrism and the body and blood of the Lord\u2019, must be compelled to keep the faith they took, \u2018lest the name of the Lord be blasphemed and the faith be held vile\u2019. The following canons forbade the forcibly baptized to keep the Sabbath, to circumcise their sons, to hold office, to own Christian slaves, or to keep their children, who were to be taken and raised by Christians. The principle in the first sentence and the practice in the second have both been part of the tradition since, and the same document contains them.",
      "caveat": "The acts of Toledo IV are authentic and were incorporated into the Hispana canon collection; the scale of Sisebut\u2019s baptisms is reported by Isidore of Seville and later sources without precise figures. The canon\u2019s two halves are as summarized.",
      "sources": [
       {
@@ -96554,7 +96555,7 @@
    "c2": null,
    "entry": null,
    "teaser": "Monk and abbot of L\u00e9rins and bishop of Riez in Gaul, whose two books On Grace argued for a middle way between Pelagius and strict predestination, and were praised by Gennadius of Marseilles and attacked by Fulgentius of Ruspe and the Scythian monks.",
-   "longDescription": "Riochatus, a bishop and monk, was carrying books by Faustus of Riez to the Britons. Unrest among the peoples held him at Clermont, where he kept the books hidden. When he left, the bishop there, Sidonius Apollinaris, rode after him and read them. August Engelbrecht, who edited Faustus, takes them to be his work On Grace.\n\nFaustus was a Briton by birth, Avitus of Vienne says. He was a monk of the island monastery of L\u00e9rins and its abbot from 433, by Engelbrecht's reckoning. Then he became bishop of Riez.\n\nA priest named Lucidus drew Faustus into the dispute over grace. Lucidus later retracted the view that some are set apart for death and others predestined to life. \"We walk the middle way, with Christ as our guide,\" Faustus wrote to him, in modern words. \"After grace, without which we are nothing, we affirm the labor of dutiful service.\" At the request of a council at Arles he wrote two books On Grace, ready by about 474 in Engelbrecht's reckoning. They open against Pelagius, who, Faustus says, foolishly believed that human weakness could do without grace. Gennadius of Marseilles praised them for teaching \"that the grace of God always invites, precedes and helps our will\".\n\nA Life of Fulgentius of Ruspe, hostile to Faustus, says he secretly favored the Pelagians, and that Fulgentius answered him in seven books. The Princeton scholar Benjamin Warfield calls Faustus the chief champion of what he names semi-Pelagianism. He says the Council of Orange put it down in 529. Engelbrecht holds that Faustus was no semi-Pelagian and erred in good faith. A treatise of 534, which Engelbrecht credits to Caesarius of Arles, who led that council, calls him the holy bishop Faustus.\n\nIn old age Faustus was exiled by the Gothic king Euric, Engelbrecht thinks. From exile he wrote to Ruricius of Limoges, in modern words, \"We are owners without a home of our own, and rich without possessions.\"",
+   "longDescription": "Riochatus, a bishop and monk, was carrying books by Faustus of Riez to the Britons. Unrest among the peoples held him at Clermont, where he kept the books hidden. When he left, the bishop there, Sidonius Apollinaris, rode after him and read them. August Engelbrecht, who edited Faustus, takes them to be his work On Grace.\n\nFaustus was a Briton by birth, Avitus of Vienne says. He was a monk of the island monastery of L\u00e9rins and its abbot from 433, by Engelbrecht's reckoning. Then he became bishop of Riez.\n\nA priest named Lucidus drew Faustus into the dispute over grace. Lucidus later retracted the view that some are set apart for death and others predestined to life. \"We walk the middle way, then, with Christ as our guide,\" Faustus wrote to him, in modern words. \"After grace, without which we are nothing, we affirm the labor of dutiful service.\" At the request of a council at Arles he wrote two books On Grace, ready by about 474 in Engelbrecht's reckoning. They open against Pelagius, who, Faustus says, foolishly believed that human weakness could do without grace. Gennadius of Marseilles praised them for teaching \"that the grace of God always invites, precedes and helps our will\".\n\nA Life of Fulgentius of Ruspe, hostile to Faustus, says he secretly favored the Pelagians, and that Fulgentius answered him in seven books. The Princeton scholar Benjamin Warfield calls Faustus the chief champion of what he names semi-Pelagianism. He says the Council of Orange put it down in 529. Engelbrecht holds that Faustus was no semi-Pelagian and erred in good faith. A treatise of 534, which Engelbrecht credits to Caesarius of Arles, who led that council, calls him the holy bishop Faustus.\n\nIn old age Faustus was exiled by the Gothic king Euric, Engelbrecht thinks. From exile he wrote to Ruricius of Limoges, in modern words, \"We are owners without a home of our own, and rich without possessions.\"",
    "reviewStatus": "AI-checked",
    "card": {
     "otherNames": [
@@ -97155,8 +97156,8 @@
    "dates": "in Noricum from c. 453; died c. 482",
    "start": 453,
    "end": 482,
-   "region": "Noricum, Naples",
-   "placeLabel": "Noricum \u00b7 Naples",
+   "region": "Noricum",
+   "placeLabel": "Noricum",
    "modernCountries": [],
    "regions": [
     "Mediterranean"
@@ -98036,7 +98037,7 @@
    "c2": null,
    "entry": null,
    "teaser": "A man of Lyon in Gaul, friend of Sidonius Apollinaris, who wrote the Life of Germanus of Auxerre at the order of Bishop Patiens of Lyon, the account of Germanus's life and journeys to Britain, parts of which Bede later copied.",
-   "longDescription": "Bishop Patiens of Lyon built a new church, and verses were written for its walls beside the altar. Constantius of Lyon wrote some of them. Wilhelm Levison, who edited Constantius's work, reports this from the letters of Sidonius Apollinaris, bishop of Clermont.\n\nConstantius lived at Lyon in Gaul in the later fifth century, and little else is known of his own life. Levison cannot say whether he was a cleric or a layman given to the religious life. Constantius had urged Sidonius to publish his letters, and Sidonius dedicated them to him. About 473, by Levison's date, Constantius helped make peace in a quarrel at Clermont. Sidonius praised him as a man grave with age and venerable in religion.\n\nPatiens, Constantius writes, ordered him again and again to set down the Life of Germanus, bishop of Auxerre. So much time had passed, he says, that what was known of it could scarcely be gathered. He sent it to Patiens and to Censurius, a later bishop of Auxerre. When Censurius ordered it sent beyond a close circle, it made him, Constantius says, the accuser and the betrayer of his own fault. Levison dates the Life about 480 or a little later.\n\nLevison judges Constantius wrote less as a biographer than as a writer of saints' Lives. Wonders of little weight fill much of the book, as in the Life of Martin of Tours by Sulpicius Severus, which Constantius knew. With so few other witnesses, Levison holds that the book should be used with care and must not be scorned. Bede copied large parts of it almost word for word into his History of the English.\n\nAt its close Constantius asks the reader's pardon for his rough words and for the book's length. Then he writes, in modern words, \"I call God, who knows what is hidden, to witness that I have left out many deeds of my lord Germanus that were known and proved.\"",
+   "longDescription": "Bishop Patiens of Lyon built a new church, and verses were written for its walls beside the altar. Constantius of Lyon wrote some of them. Wilhelm Levison, who edited Constantius's work, reports this from the letters of Sidonius Apollinaris, bishop of Clermont.\n\nConstantius lived at Lyon in Gaul in the later fifth century, and little else is known of his own life. Levison cannot say whether he was a cleric or a layman given to the religious life. Constantius had urged Sidonius to publish his letters, and Sidonius dedicated them to him. About 473, by Levison's date, Constantius helped make peace in a quarrel at Clermont. Sidonius praised him as a man grave with age and venerable in religion.\n\nPatiens, Constantius writes, ordered him again and again to set down the Life of Germanus, bishop of Auxerre. So much time had passed, he says, that what was known of it could scarcely be gathered. He sent it to Patiens and to Censurius, a later bishop of Auxerre. When Censurius ordered it sent beyond a close circle, it made him, Constantius says, the accuser and the betrayer of his own fault. Levison dates the Life about 480 or a little later.\n\nLevison judges Constantius wrote less as a biographer than as a writer of saints' Lives. Wonders of little weight fill much of the book, as in the Life of Martin of Tours by Sulpicius Severus, which Constantius knew. With so few other witnesses, Levison holds that the book should be used with care and must not be scorned. Bede copied large parts of it almost word for word into his History of the English.\n\nAt its close Constantius asks the reader's pardon for his rough words and for the book's length. Then he writes, in modern words, \"And yet I call God, who knows what is hidden, to witness that I have left out many deeds of my lord Germanus that were known and proved.\"",
    "reviewStatus": "AI-checked",
    "card": {
     "knownFor": "A man of Lyon in Gaul, friend of Sidonius Apollinaris, who wrote the Life of Germanus of Auxerre at the order of Bishop Patiens of Lyon, the account of Germanus's life and journeys to Britain, parts of which Bede later copied.",
@@ -98125,8 +98126,8 @@
    "dates": "ordained 476-478; wrote after 512",
    "start": 476,
    "end": 512,
-   "region": "Antioch, Jerusalem",
-   "placeLabel": "Antioch \u00b7 Jerusalem",
+   "region": "Antioch, Maiuma",
+   "placeLabel": "Antioch \u00b7 Maiuma",
    "modernCountries": [
     {
      "country": "Turkey",
@@ -98641,7 +98642,7 @@
    "kind": "person",
    "toldWithin": "roman-church-gregorian",
    "name": "Cassiodorus",
-   "dates": "c. 480-575",
+   "dates": "c. 480-c. 575",
    "start": 480,
    "end": 575,
    "region": "Ravenna, Vivarium",
@@ -98828,7 +98829,7 @@
      "Langlois and the Mekhitarist monks of Venice place him in the fifth century and draw his life from his own History. Modern work argues for a later date, but the Library holds none of it. Fr\u00e9d\u00e9ric Macler, writing in 1917, says almost nothing precise is known of him.",
      "Apart from the History itself, his life comes from Langlois's account of tradition: ten years apart and poor, then bishop of Bagrevand under the patriarch Kiud after Eznik of Kolb died. Langlois warns that tradition has wrapped his life in details history has not kept.",
      "That his patron was the Bagratid prince made governor in the revolt of 481 is Langlois's identification. The History names him only as Sahak Bagratuni.",
-     "The new Plato he says taught at Alexandria is Cyril of Alexandria by Langlois's note, which says \"sans doute\"; the Mekhitarist preface says \"forse\".",
+     "The \"nouveau Platon\", new Plato, he says taught at Alexandria is Cyril of Alexandria by Langlois's note, which says \"sans doute\"; the Mekhitarist preface says \"forse\".",
      "Thomas Artsruni's report that he lived past a hundred, into Zeno's reign, comes through Langlois's note; the Mekhitarist preface, citing the same writer, gives him a hundred and twenty years. Langlois says his age cannot be fixed with exactness.",
      "Other works under his name are doubted. Langlois reports that some critics deny him the Geography and that the Book of Chreiai has been thought apocryphal, and he defends both. The Mekhitarist preface thinks the rhetorical treatises may be the work of another Moses of the eighth century."
     ],
@@ -98876,7 +98877,7 @@
    "atlasId": "II.45",
    "era": 3,
    "kind": "person",
-   "toldWithin": "gothic-and-vandal-homoian-christianity",
+   "toldWithin": null,
    "name": "Victor of Vita",
    "dates": "wrote c. 484-488",
    "start": 484,
@@ -98896,9 +98897,9 @@
     "Africa",
     "Mediterranean"
    ],
-   "lane": "8 Beyond the Floor (researched & explained)",
-   "laneLabel": "Non-Nicene Traditions",
-   "laneOrder": 80,
+   "lane": "4 Africa",
+   "laneLabel": "Africa",
+   "laneOrder": 4,
    "beyondFloor": false,
    "status": "Within Another World (A5)",
    "chip": "exc",
@@ -98910,7 +98911,7 @@
    "c2": null,
    "entry": null,
    "teaser": "A Catholic churchman of Vandal Africa whose History of the Persecution is the main account of how the Vandal kings Geiseric and Huneric treated the Catholic church.",
-   "longDescription": "Felix, bishop of Abbir, had been a bishop for forty-four years when King Huneric sent him into exile. He was paralyzed and could neither feel nor speak. Victor of Vita writes that he and others asked that the dying man be left at Carthage. The king, Victor reports, answered that wild oxen should be yoked to drag him with ropes. So they carried Felix the whole way, Victor says, tied across a mule like a log.\n\nVictor wrote the History of the Persecution in Africa under the Vandal kings Geiseric and Huneric. Most manuscripts of his book call him a bishop of Vita; one reads Utica. He calls Pampinianus the bishop \"nostrae civitatis\", of our city, and Karl Halm, who edited the Latin, takes that to mean Vita.\n\nHe wrote in the sixtieth year since the Vandals crossed from Spain. He calls them a cruel and savage people, and their faith the Arian heresy. His book is the polemic of a victim and an enemy of their church.\n\nSome of it he lived through. Four thousand nine hundred and sixty-six bishops, priests, deacons and other church members were sent into the desert, he writes. At Sicca and Lares they shouted that they were Christians and Catholics. Victor and others were let in to encourage them and celebrate the liturgy.\n\nAt Tipasa, Victor says, the king had the tongues and right hands of Catholics cut off, and they still spoke. Anyone who doubts it, he adds, can find one of them, the subdeacon Reparatus, at Constantinople. Procopius of Caesarea, the Greek historian of the Vandal War, also writes of many whose tongues Huneric cut out. They \"even up to my time were going about in Byzantium having their speech uninjured.\"\n\nNear the end he calls on the angels of God to look at Africa. Once it was held up by so many churches, he says, and now it sits a widow, cast down.",
+   "longDescription": "Felix, bishop of Abbir, had been a bishop for forty-four years when King Huneric sent him into exile. He was paralyzed and could neither feel nor speak. Victor of Vita writes that he and others asked that the dying man be left at Carthage. The king, Victor reports, answered that wild oxen should be yoked to drag him with ropes. So they carried Felix the whole way, Victor says, tied across a mule like a log.\n\nVictor wrote the History of the Persecution in Africa under the Vandal kings Geiseric and Huneric. Most manuscripts of his book call him a bishop of Vita; one reads Utica. He calls Pampinianus the bishop \"nostrae civitatis\" (of our city), and Karl Halm, who edited the Latin, takes that to mean Vita.\n\nHe wrote in the sixtieth year since the Vandals crossed from Spain. He calls them a cruel and savage people, and their faith the Arian heresy. His book is the polemic of a victim and an enemy of their church.\n\nSome of it he lived through. Four thousand nine hundred and sixty-six bishops, priests, deacons and other church members were sent into the desert, he writes. At Sicca and Lares they shouted that they were Christians and Catholics. Victor and others were let in to encourage them and celebrate the liturgy.\n\nAt Tipasa, Victor says, the king had the tongues and right hands of Catholics cut off, and they still spoke. Anyone who doubts it, he adds, can find one of them, the subdeacon Reparatus, at Constantinople. Procopius of Caesarea, the Greek historian of the Vandal War, also writes of many whose tongues Huneric cut out. They \"even up to my time were going about in Byzantium having their speech uninjured.\"\n\nNear the end he calls on the angels of God to look at Africa. Once it was held up by so many churches, he says, and now it sits a widow, cast down.",
    "reviewStatus": "AI-checked",
    "card": {
     "otherNames": [
@@ -98938,7 +98939,7 @@
     },
     "uncertain": [
      "Victor is a victim and an enemy of the Vandal church, and his book is polemic. He calls the Vandals a cruel and savage people and their faith the Arian heresy.",
-     "That he was bishop of Vita rests on most manuscripts of his book; one reads Utica. The list of Catholic bishops called to Carthage in 484, which Karl Halm prints with the History, names a Victor of Vita who did not come; Joseph Mesnage takes him for the historian. Victor calls Pampinianus the bishop \"nostrae civitatis\", of our city; Halm takes that to mean Vita.",
+     "That he was bishop of Vita rests on most manuscripts of his book; one reads Utica. The list of Catholic bishops called to Carthage in 484, which Karl Halm prints with the History, names a Victor of Vita who did not come; Joseph Mesnage takes him for the historian. Victor calls Pampinianus the bishop \"nostrae civitatis\" (of our city); Halm takes that to mean Vita.",
      "That Catholics still spoke after their tongues were cut out rests on Victor, who tells it of Tipasa and names the subdeacon Reparatus at Constantinople, and on Procopius of Caesarea, who names no town but says such people were still in Byzantium in his own day.",
      "Michael Petschenig prints the prologue that opens the History in brackets, and discusses it beside the spurious additions to the text as very obscure.",
      "Beyond his History, Joseph Mesnage says he did not come to Carthage in 484, fled into exile and wrote his History there in 488. No source used here gives his birth or death. He is not Victor of Tunnuna, the later African chronicler."
@@ -99224,7 +99225,7 @@
    "kind": "person",
    "toldWithin": "syriac-orthodox-west-syriac-christianity",
    "name": "Philoxenus of Mabbug",
-   "dates": "bishop from 485; died c. 523",
+   "dates": "bishop 485 to 518 or 519",
    "start": 485,
    "end": 523,
    "region": "Mabbug, Gangra",
@@ -99623,7 +99624,7 @@
    "kind": "person",
    "toldWithin": "early-benedictine-italian-monasticism",
    "name": "Dionysius Exiguus",
-   "dates": "c. 500-525; dead by 556",
+   "dates": "at work c. 500-525; dead by 556",
    "start": 500,
    "end": 556,
    "region": "Rome",
@@ -99950,7 +99951,7 @@
    "atlasId": "II.53",
    "era": 3,
    "kind": "person",
-   "toldWithin": "gothic-and-vandal-homoian-christianity",
+   "toldWithin": null,
    "name": "Fulgentius of Ruspe",
    "dates": "died 529 or 533",
    "start": 504,
@@ -99962,9 +99963,9 @@
     "Africa",
     "Mediterranean"
    ],
-   "lane": "8 Beyond the Floor (researched & explained)",
-   "laneLabel": "Non-Nicene Traditions",
-   "laneOrder": 80,
+   "lane": "4 Africa",
+   "laneLabel": "Africa",
+   "laneOrder": 4,
    "beyondFloor": false,
    "status": "Within Another World (A5)",
    "chip": "exc",
@@ -100228,7 +100229,7 @@
    "kind": "person",
    "toldWithin": "syriac-orthodox-west-syriac-christianity",
    "name": "John of Ephesus",
-   "dates": "c. 507-586",
+   "dates": "c. 507-c. 586",
    "start": 507,
    "end": 586,
    "region": "Amida, Constantinople",
@@ -100551,7 +100552,7 @@
     "uncertain": [
      "Her story comes almost wholly from the Life of Caesarius of Arles, a saint's Life by his disciples: the bishops Cyprian of Toulon, Firminus and Viventius, the priest Messianus and the deacon Stephen. Bruno Krusch adds that Venantius Fortunatus held her up as an example. No words of her own survive.",
      "Two abbesses named Caesaria led the convent one after the other. The Life was written for the second, who was still living. A Bollandist commentary printed in Jacques-Paul Migne's edition says some writers wrongly took the Life for one dedicated to the sister, and a note in the same edition says the Life's Caesaria is not the sister.",
-     "Two letters of Caesarius are written to an abbess Caesaria. The heading of the second calls her a holy sister, and the first calls her a venerable sister in its opening words. Migne's editors report that they are said to have been sent to his sister. The headings do not say which Caesaria is meant.",
+     "Two letters of Caesarius are written to an abbess, Caesaria. The second greets her as a holy sister, and the first calls her a venerable sister in its opening words. Migne's editors report that they are said to have been sent to his sister. The headings do not say which Caesaria is meant.",
      "That the house at Marseille was the one John Cassian founded is Bruno Krusch's identification, after Gennadius of Marseilles. The Life says only that it was at Marseille.",
      "The year 512 for the dedication of the convent is Krusch's. The Life gives no year.",
      "The manuscripts spell her name both Caesaria and Casaria. Krusch prefers Casaria."
@@ -101784,7 +101785,7 @@
    "kind": "person",
    "toldWithin": "cyrilline-miaphysite-egyptian-christianity",
    "name": "Theodosius I of Alexandria",
-   "dates": "patriarch 535-566",
+   "dates": "patriarch 535-566 or 567",
    "start": 535,
    "end": 566,
    "region": "Alexandria, Constantinople",
@@ -103063,8 +103064,8 @@
    "dates": "6th c., under Justinian",
    "start": 543,
    "end": 545,
-   "region": "Constantinople",
-   "placeLabel": "Constantinople",
+   "region": "Constantinople, the land of the Nobadae",
+   "placeLabel": "Constantinople \u00b7 the land of the Nobadae",
    "modernCountries": [
     {
      "country": "Turkey",
@@ -103152,7 +103153,7 @@
    "kind": "person",
    "toldWithin": "insular-irish-monastic-christianity",
    "name": "Columbanus",
-   "dates": "c. 543-615",
+   "dates": "c. 543-c. 615",
    "start": 543,
    "end": 615,
    "region": "Luxeuil, Bobbio",
@@ -103449,7 +103450,7 @@
    "kind": "person",
    "toldWithin": "latin-africa-under-byzantium",
    "name": "Ferrandus of Carthage",
-   "dates": "6th c.; praised in 546",
+   "dates": "6th c.; esteemed in 546",
    "start": 546,
    "end": 547,
    "region": "Carthage",
@@ -104159,14 +104160,14 @@
        "file": "cic/texts/zacharias-scholasticus_vie-de-severe-po2-syr-fra_kugener1903.txt"
       },
       {
-       "title": "Introductory notice to the works ascribed to Tertullian, in The Ante-Nicene Fathers, volume 3",
+       "title": "Introductory Note to Part I, in The Ante-Nicene Fathers, volume 3",
        "author": null,
        "date": null,
        "language": "English",
        "file": "cic/texts/anf03_tertullian.xml"
       },
       {
-       "title": "Endnote to the Life of Antony, in Nicene and Post-Nicene Fathers, second series, volume 4",
+       "title": "Note to section 91 of the Life of Antony, in Nicene and Post-Nicene Fathers, second series, volume 4",
        "author": null,
        "date": null,
        "language": "English",
@@ -104481,8 +104482,8 @@
    "dates": "consecrated after 566; with the Alodaei 580",
    "start": 566,
    "end": 580,
-   "region": "Constantinople",
-   "placeLabel": "Constantinople",
+   "region": "Constantinople, the land of the Nobadae",
+   "placeLabel": "Constantinople \u00b7 the land of the Nobadae",
    "modernCountries": [
     {
      "country": "Turkey",
@@ -104918,7 +104919,7 @@
    "kind": "person",
    "toldWithin": "merovingian-gallic-christianity",
    "name": "Marius of Avenches",
-   "dates": "bishop 574-594",
+   "dates": "bishop c. 574-594",
    "start": 574,
    "end": 594,
    "region": "Avenches, Lausanne",
@@ -105041,7 +105042,7 @@
    "kind": "person",
    "toldWithin": "nicene-visigothic-iberia",
    "name": "John of Biclaro",
-   "dates": "home c. 576; signs in 610",
+   "dates": "home c. 576; a John of Gerona signs in 610",
    "start": 576,
    "end": 610,
    "region": "Constantinople, Gerona",

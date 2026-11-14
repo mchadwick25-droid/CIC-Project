@@ -1,18 +1,111 @@
 {
- "about": "Scan faults inside quoted spans that the quotation check in validate-census.mjs cannot see past by rule. Each reading names the file, the lines, the scan's text there and what the printed page reads. With drop, the lines are a running head, page number or footnote set inside the span, and are left out. When the check reads a file, it fails on a reading that no longer matches it.",
+ "about": "Scan faults inside quoted spans that the quotation check in validate-census.mjs cannot see past by rule. Each reading names the file, the lines, the scan's text there and what the printed page reads. With drop, the lines are a running head, page number or footnote set inside the span, listed in lines_held, and are left out. When the check reads a file, it fails on a reading that no longer matches it.",
  "readings": [
-  {"file": "cic/texts/dorotheus-gaza_doctrinae-barsanuphius-climacus-agathias-grc-lat_migne-pg88.txt", "lines": "94179", "scan": "Pr«copio", "reads": "Procopio", "kind": "OCR misread"},
-  {"file": "cic/texts/john-biclaro-leander-pl72-lat_migne1878.txt", "lines": "59502", "scan": "culpabiH", "reads": "culpabili", "kind": "OCR misread"},
-  {"file": "cic/texts/passiones-vitaeque-sanctorum-merovingici-mgh-srm-3-lat_krusch1896.txt", "lines": "37214", "scan": "Caesanae matnsx", "reads": "Caesariae matris", "kind": "OCR misread, with a footnote letter run into the word"},
-  {"file": "cic/texts/jonas-bobbio_life-of-st-columban_munro1895.txt", "lines": "1707", "scan": "of hia activity", "reads": "of his activity", "kind": "OCR misread"},
-  {"file": "cic/texts/gildas_de-excidio-britanniae-lorica-penitential-lat-eng_williams1899.txt", "lines": "4135", "scan": "KlNGS", "reads": "KINGS", "kind": "OCR misread"},
-  {"file": "cic/texts/gildas_de-excidio-britanniae-lorica-penitential-lat-eng_williams1899.txt", "lines": "4760", "scan": "island clragon", "reads": "island dragon", "kind": "OCR misread"},
-  {"file": "cic/texts/john-ephesus_lives-eastern-saints-po18_brooks1924.txt", "lines": "39663", "scan": "news ofthat deceiver", "reads": "news of that deceiver", "kind": "OCR dropped a space"},
-  {"file": "cic/texts/john-ephesus_lives-eastern-saints-po18_brooks1924.txt", "lines": "39744", "scan": "from tlie truth", "reads": "from the truth", "kind": "OCR misread"},
-  {"file": "cic/texts/severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt", "lines": "39586", "scan": "in hanislnncnt and otherwise", "reads": "in banishment and otherwise", "kind": "OCR misread"},
-  {"file": "cic/texts/rees_lives-of-the-cambro-british-saints-lat-eng_1853.txt", "lines": "18593-18594", "scan": "and per \nform the small", "reads": "and perform the small", "kind": "word broken across lines without a hyphen"},
-  {"file": "cic/texts/council-of-ephesus-449_second-synod-of-ephesus-syriac-acts_perry1881.txt", "lines": "24124-24128", "scan": "IN THE DAYS OF DIOSCORUS. 430", "drop": true, "kind": "running head"},
-  {"file": "cic/texts/cosmas-indicopleustes_christian-topography_mccrindle1897.txt", "lines": "7193-7206", "scan": "COSMAS INDICOPLEUSTES. — BOOK III.", "drop": true, "kind": "footnotes, running head and page number"},
-  {"file": "cic/texts/john-of-ephesus_ecclesiastical-history-part3_paynesmith1860.txt", "lines": "13034-13042", "scan": "258 ECCLESIASTICAL HISTORY", "drop": true, "kind": "signature mark, section mark and running head"}
+  {
+   "file": "cic/texts/dorotheus-gaza_doctrinae-barsanuphius-climacus-agathias-grc-lat_migne-pg88.txt",
+   "lines": "94179",
+   "scan": "Pr«copio",
+   "reads": "Procopio",
+   "kind": "OCR misread"
+  },
+  {
+   "file": "cic/texts/john-biclaro-leander-pl72-lat_migne1878.txt",
+   "lines": "59502",
+   "scan": "culpabiH",
+   "reads": "culpabili",
+   "kind": "OCR misread"
+  },
+  {
+   "file": "cic/texts/passiones-vitaeque-sanctorum-merovingici-mgh-srm-3-lat_krusch1896.txt",
+   "lines": "37214",
+   "scan": "Caesanae matnsx",
+   "reads": "Caesariae matris",
+   "kind": "OCR misread, with a footnote letter run into the word"
+  },
+  {
+   "file": "cic/texts/jonas-bobbio_life-of-st-columban_munro1895.txt",
+   "lines": "1707",
+   "scan": "of hia activity",
+   "reads": "of his activity",
+   "kind": "OCR misread"
+  },
+  {
+   "file": "cic/texts/gildas_de-excidio-britanniae-lorica-penitential-lat-eng_williams1899.txt",
+   "lines": "4135",
+   "scan": "KlNGS",
+   "reads": "KINGS",
+   "kind": "OCR misread"
+  },
+  {
+   "file": "cic/texts/gildas_de-excidio-britanniae-lorica-penitential-lat-eng_williams1899.txt",
+   "lines": "4760",
+   "scan": "island clragon",
+   "reads": "island dragon",
+   "kind": "OCR misread"
+  },
+  {
+   "file": "cic/texts/john-ephesus_lives-eastern-saints-po18_brooks1924.txt",
+   "lines": "39663",
+   "scan": "news ofthat deceiver",
+   "reads": "news of that deceiver",
+   "kind": "OCR dropped a space"
+  },
+  {
+   "file": "cic/texts/john-ephesus_lives-eastern-saints-po18_brooks1924.txt",
+   "lines": "39744",
+   "scan": "from tlie truth",
+   "reads": "from the truth",
+   "kind": "OCR misread"
+  },
+  {
+   "file": "cic/texts/severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt",
+   "lines": "39586",
+   "scan": "in hanislnncnt and otherwise",
+   "reads": "in banishment and otherwise",
+   "kind": "OCR misread"
+  },
+  {
+   "file": "cic/texts/rees_lives-of-the-cambro-british-saints-lat-eng_1853.txt",
+   "lines": "18593-18594",
+   "scan": "and per \nform the small",
+   "reads": "and perform the small",
+   "kind": "word broken across lines without a hyphen"
+  },
+  {
+   "file": "cic/texts/council-of-ephesus-449_second-synod-of-ephesus-syriac-acts_perry1881.txt",
+   "lines": "24124-24128",
+   "scan": "IN THE DAYS OF DIOSCORUS. 430",
+   "drop": true,
+   "kind": "running head",
+   "lines_held": [
+    "IN THE DAYS OF DIOSCORUS. 430"
+   ]
+  },
+  {
+   "file": "cic/texts/cosmas-indicopleustes_christian-topography_mccrindle1897.txt",
+   "lines": "7193-7206",
+   "scan": "COSMAS INDICOPLEUSTES. — BOOK III.",
+   "drop": true,
+   "kind": "footnotes, running head and page number",
+   "lines_held": [
+    "1 Matt, xxiv, 2. 2 3 John xvi, 33.",
+    "3 Matt, xvi, 18. 4 Matt, xxiv, 14.",
+    "5 For a description of Taprobane (Ceylon) see Book xi.",
+    "COSMAS INDICOPLEUSTES. — BOOK III.",
+    "1 19"
+   ]
+  },
+  {
+   "file": "cic/texts/john-of-ephesus_ecclesiastical-history-part3_paynesmith1860.txt",
+   "lines": "13034-13042",
+   "scan": "258 ECCLESIASTICAL HISTORY",
+   "drop": true,
+   "kind": "signature mark, section mark and running head",
+   "lines_held": [
+    "S",
+    "IV. 9.",
+    "258 ECCLESIASTICAL HISTORY"
+   ]
+  }
  ]
 }
