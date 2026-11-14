@@ -2,11 +2,12 @@
   "name": "Alopen",
   "otherNames": [
     "Olopun (A. Wylie's English of the Xi'an stele)",
+    "Olopan (Henry Yule)",
     "Olopen",
     "Olopuen (Joseph Assemani)",
     "A-lo-pen (E. A. Wallis Budge)"
   ],
-  "knownFor": "The man from Syria who, by the Xi'an stele, brought the Church of the East's sacred books to the Tang capital, Chang-an, in 635. The emperor had them translated and ordered the religion spread. A decree of 638 ordered a church built in the capital for twenty-one priests.",
+  "knownFor": "The man from Syria who, by the Xi'an stele, brought the Church of the East's sacred books to the Tang capital, Chang-an, in 635. The books were translated in the imperial library, and the emperor ordered the religion spread. A decree of 638 ordered a church built in the capital for twenty-one priests.",
   "dates": "Reached Chang-an in 635, by A. Wylie's English of the stele and by Henry Yule. Joseph Assemani gives 636. The stele names the decree of 638 and the honor he received under the next emperor, Kautsung. No source used here gives his birth or death",
   "place": "Syria, as A. Wylie renders the stele's Ta-ts'in, which Henry Yule says Chinese writers used of the Roman Empire, here apparently Syria; Chang-an, the Tang capital",
   "tradition": "The Church of the East on the Silk Road",
@@ -25,14 +26,14 @@
     ]
   },
   "uncertain": [
-    "Everything about him comes from one witness, the Xi'an stele of 781, set up by his own church nearly a century and a half after he came. Its Chinese text names King-Tsing, a priest, as its author. No words of his own are held, and nothing of his death.",
-    "The year he came. A. Wylie's English of the stele, Henry Yule and Budge's appendix give 635. Joseph Assemani gives 636, and so do the editors of Bar Hebraeus, J. B. Abbeloos and T. J. Lamy, and Budge's own introduction.",
-    "His name. Yule takes Olopan for a Chinese form of Rabban, meaning monk. F. Hirth suggests Ruben. Assemani guesses the Syriac Jaballaha. No source used here gives his Syriac name from a Syriac text.",
-    "His title under Kautsung. Wylie renders it great conservator of doctrine for the preservation of the State. Kircher's Latin, as Assemani gives it, has bishop of the great law that governs China. Saeki, as Budge gives him, has Great Patron and Spiritual Lord of the Empire.",
+    "Everything the sources used here say of him goes back to one witness, the Xi'an stele of 781, set up by his own church nearly a century and a half after he came. Its Chinese text names King-Tsing, a priest, as its author. The Tang court's own record of the 638 decree is not among the sources used here. No words of his own are held, and nothing of his death.",
+    "The year he came. A. Wylie's English of the stele, Henry Yule and Budge's appendix give 635, and T. J. Lamy, as J.-B. Chabot quotes him, puts the church and its twenty-one priests in 635. Joseph Assemani gives 636, and so do the notes of J. B. Abbeloos and T. J. Lamy to Bar Hebraeus, and Budge's own introduction. W. A. Wigram, in 1929, says about 630.",
+    "His name. Henry Yule thinks Olopan probably a Chinese form of Rabban, meaning monk. F. Hirth suggests Ruben. Assemani guesses the Syriac Jaballaha. No source used here gives his Syriac name from a Syriac text.",
+    "His title under Kautsung. Wylie renders it great conservator of doctrine for the preservation of the State. Athanasius Kircher's Latin, as Assemani gives it, has bishop of the great law that governs China. P. Y. Saeki, as Budge gives him, has Great Patron and Spiritual Lord of the Empire.",
     "Whose portrait hung in the church. Wylie and Yule say the emperor's. Assemani's Latin summary can be read as Alopen's.",
     "Who translated the books. The stele says only that they were translated in the imperial library. S. Wells Williams reads it as Alopen's work, in part or in whole.",
-    "Who sent him, and his rank. No source used here says. Monk is Yule's and Budge's word, bishop Assemani's, and priest Lamy's.",
-    "The stone. S. Wells Williams says it was found at Si-ngan fu in 1625, and that the Jesuits and their opponents argued warmly over whether it is genuine. The weight of evidence, he writes, leaves no doubt. He quotes Dr. Bridgman: a hundred Chinese students would each read some parts differently."
+    "Who sent him, and his rank. No source used here says. Monk is Budge's word, and Yule reads it in his name. Bishop is Assemani's word, and priest Lamy's.",
+    "The stone. Henry Yule says workmen found it by chance in 1625. S. Wells Williams says the Jesuits and their opponents argued warmly over whether it is genuine, and that the weight of evidence leaves no doubt. He quotes E. C. Bridgman: a hundred Chinese students would each read some parts differently."
   ],
   "sources": {
     "about": [
@@ -77,6 +78,20 @@
         "date": "1895",
         "language": "French",
         "file": "cic/texts/yahballaha-sauma_histoire-de-mar-jabalaha-iii-et-rabban-cauma-fra_chabot1895.txt"
+      },
+      {
+        "title": "Chronicon ecclesiasticum, volume 3, editors' notes (Latin tr. J. B. Abbeloos and T. J. Lamy)",
+        "author": "J. B. Abbeloos and T. J. Lamy",
+        "date": "1877",
+        "language": "Latin",
+        "file": "cic/texts/barhebraeus_chronicon-ecclesiasticum-vol3-lat_abbeloos-lamy1877.txt"
+      },
+      {
+        "title": "The Assyrians and their Neighbours",
+        "author": "W. A. Wigram",
+        "date": "1929",
+        "language": "English",
+        "file": "cic/texts/wigram_assyrians-and-their-neighbours_1929.txt"
       }
     ]
   }

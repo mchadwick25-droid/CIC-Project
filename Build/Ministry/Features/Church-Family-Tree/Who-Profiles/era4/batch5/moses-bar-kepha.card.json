@@ -7,7 +7,7 @@
   ],
   "knownFor": "Syriac Orthodox bishop of Beth Raman and commentator on the Scriptures. Bar Hebraeus says he interpreted the whole Bible and the books of logic. His book on paradise survives in Latin, and Bar Hebraeus lists his commentaries among the books read in the church.",
   "dates": "Died on 12 Shebat, in February, in 903 by one part of Bar Hebraeus's chronicle and in 913 by another, as printed. J. B. Abbeloos and T. J. Lamy take 903. They report from an anonymous Syriac life that he lived about ninety years",
-  "place": "Beth Raman, Beth Kiyonaye and Mosul, his sees, in the region of Nineveh, by the anonymous life; Tagrit, whose church he visited for ten years; the monastery of Mar Sergius, called Moallak, where he was buried. Abbeloos and Lamy place it by the Tigris opposite Balad, his mother's city",
+  "place": "Beth Raman, Beth Ceno and Mosul, his sees, in the region of Nineveh, by the anonymous life; Tagrit, whose church he visited for ten years; the monastery of Mar Sergius, called Moallak, where he was buried. Abbeloos and Lamy place it by the Tigris opposite Balad, his mother's city",
   "tradition": "Syriac Orthodox Christianity under Islam",
   "role": "Bishop; commentator on the Scriptures and the liturgy",
   "briefLength": "about 2 minutes",
@@ -22,7 +22,11 @@
     },
     {
       "title": "Commentary on the liturgy",
-      "about": "named in the list of his works given by Abbeloos and Lamy. J. Rendel Harris and Alphonse Mingana quote a line from it in English"
+      "about": "named in the list of his works given by Abbeloos and Lamy. It is not among the sources used here"
+    },
+    {
+      "title": "On the Mysteries of Baptism",
+      "about": "a tract named by J. Rendel Harris and Alphonse Mingana, who quote one line of it in English, as a Mr. Aytoun gives it"
     }
   ],
   "legacy": {
@@ -39,13 +43,14 @@
     ]
   },
   "uncertain": [
-    "The year of his death. One part of Bar Hebraeus's chronicle, as printed, gives 903, and another 913. Abbeloos and Lamy follow 903 and call 913 a slip in the numeral. Andreas Masius gave 913, as Joseph Assemani reports him, and Assemani later wrote 903.",
+    "The year of his death. One part of Bar Hebraeus's chronicle, as printed, gives 903, and another 913. Abbeloos and Lamy follow 903 and call 913 a slip in the numeral. Andreas Masius gave 914 or 913, as Joseph Assemani reports him, and Assemani later wrote 903. C. W. Mitchell gives 903.",
     "The day. Bar Hebraeus gives the twelfth of Shebat. Masius, as Assemani reports him, gives the thirteenth, a Saturday.",
     "His life outside Bar Hebraeus. The three sees, the forty years, the ninety years and the ten years at Tagrit come from an anonymous Syriac life that Abbeloos and Lamy know through Assemani's second volume. That volume is not among the sources used here.",
     "Ignatius, to whom On Paradise is addressed. Moses calls him his brother, and no source used here says whether by blood or as a monk.",
+    "His pupils. George David Malech makes 'Abdisho', catholicos of the Church of the East, Moses's own pupil. Bar Hebraeus, as Assemani quotes him, makes him a pupil of Moses's disciple Nasicha.",
     "The anaphora under his name. Renaudot says it is given to him, and Abbeloos and Lamy say only one of the two survives. A book on the priesthood is given to him by one copy, and to others by two.",
     "The held Latin of On Paradise breaks off in its third part.",
-    "Andreas Masius at first placed him not long after John Chrysostom, as Eusèbe Renaudot reports, and Migne's heading puts him about the middle of the tenth century. Bar Hebraeus names him in the time of the patriarch Dionysius and the maphrian Athanasius.",
+    "Andreas Masius, in the preface Migne prints, thought him not much later than John Chrysostom. Eusèbe Renaudot calls this a great mistake, and Migne's heading puts him about the middle of the tenth century. Bar Hebraeus names him in the time of the patriarch Dionysius, ordained in 898, and of Athanasius, the maphrian, the church's head in the east.",
     "Margarinus Binius, as Assemani and Renaudot call him, took him for Moses of Mardin, Masius's teacher. Both correct this."
   ],
   "sources": {
@@ -59,10 +64,17 @@
       },
       {
         "title": "The Odes and Psalms of Solomon, volume 2: a line of his tract on baptism",
-        "author": "Moses bar Kepha; J. Rendel Harris and Alphonse Mingana (ed.)",
+        "author": "Moses bar Kepha; Mr. Aytoun (tr.), as quoted by J. Rendel Harris and Alphonse Mingana (ed.)",
         "date": "1920",
         "language": "English translation",
         "file": "cic/texts/odes-of-solomon_harris-mingana1920.txt"
+      },
+      {
+        "title": "Prose Refutations of Mani, Marcion and Bardaisan, volume 2: introduction, quoting Moses bar Kepha on Bardaisan",
+        "author": "Moses bar Kepha; C. W. Mitchell (tr.)",
+        "date": "1921",
+        "language": "English translation",
+        "file": "cic/texts/ephraim_prose-refutations_mitchell1912-1921.txt"
       }
     ],
     "about": [
@@ -114,6 +126,13 @@
         "date": "1911",
         "language": "English",
         "file": "cic/texts/harris_odes-and-psalms-of-solomon_harris1911.txt"
+      },
+      {
+        "title": "History of the Syrian Nation and the Old Evangelical-Apostolic Church of the East",
+        "author": "George David Malech",
+        "date": "1910",
+        "language": "English",
+        "file": "cic/texts/malech_history-of-the-syrian-nation-and-old-evangelical-apostolic-church-of-the-east_1910.txt"
       }
     ]
   }

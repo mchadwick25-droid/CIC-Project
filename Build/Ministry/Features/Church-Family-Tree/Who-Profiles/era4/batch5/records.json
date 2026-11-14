@@ -486,7 +486,7 @@
     "formation_confidence": "Documented"
    },
    {
-    "claim": "Editors' note: from the anonymous Syriac life in Assemani BO II: \"cum vixisse annos circiter nonaginta ; trium civitatum Kini* vitias ditionis sedes episcopales tenuisse per an- nos quadraginta, assumpto Severi nomine, nimi- rum Belh-Raman, Beth-Chinne sen Betb-Chiuc atque Mossolc; item fuisse per decennium Tagri* tensis ecclesiie, proprio tunc episcopo viduate, periodeutem seu visitatorem\" (OCR)",
+    "claim": "Editors' note: from the anonymous Syriac life in Assemani BO II: \"cum vixisse annos circiter nonaginta ; trium civitatum Kini* vitias ditionis sedes episcopales tenuisse per an- nos quadraginta, assumpto Severi nomine, nimi- rum Belh-Raman, Beth-Chinne sen Betb-Chiuc atque Mossolc; item fuisse per decennium Tagri* tensis ecclesiie, proprio tunc episcopo viduate, periodeutem seu visitatorem\" (OCR); Migne's heading and Assemani have \"Beth-Ceno\" (PG111 l.36955; ASSEMANI1 l.109574-109575)",
     "witness": "BARHEB1 l.22847-22856",
     "formation_confidence": "Inferential-Thin"
    },
@@ -539,13 +539,28 @@
     "claim": "Nasicha: \"pr<eceptoremque in DiakHica habuerat\" ... \"Mo- fis Barcepb^ difcipulum\" (OCR), Bar Hebraeus quoted by Assemani on the catholicos Ebedjesu",
     "witness": "ASSEMANI3-1 (assemani_bibliotheca-orientalis-tomus3-pars1-de-scriptoribus-syris-nestorianis-lat_1725.txt) l.35640-35644",
     "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Mitchell: \"I will begin by quoting what Moses bar Kepha says about him.\" ... \"Bardaisan held about this world that it is composed of Five Entities (Ithye)\"; \"Moses bar Kepha died 903 A.D.\"",
+    "witness": "MITCHELL (ephraim_prose-refutations_mitchell1912-1921.txt) l.2652-2656",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Malech on 'Abdisho': \"He was a pupil of Moses Bar Kepha\"",
+    "witness": "MALECH (malech_history-of-the-syrian-nation-and-old-evangelical-apostolic-church-of-the-east_1910.txt) l.15327",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Bar Hebraeus: Dionysius ordained patriarch \"(Chr. 898)\" from the monastery of Beth-Botin (OCR \"{C/ir. S98)\"); the maphrian Athanasius died the year after Moses: \"Anno insequente ... obiit Athanasius\"",
+    "witness": "BARHEB1 l.22830-22834; BARHEB3 l.12595-12598",
+    "formation_confidence": "Documented"
    }
   ],
   "contested_claims": [
    {
     "claim": "The year of his death",
     "sides": [
-     "903: Bar Hebraeus, section II as edited (BARHEB3 l.12589-12591); the Roman codex used by Assemani; Abbeloos and Lamy (BARHEB1 l.22864-22876); Assemani, volume 3 (ASSEMANI3-1 l.90502-90503)",
+     "903: Bar Hebraeus, section II as edited (BARHEB3 l.12589-12591); the Roman codex used by Assemani; Abbeloos and Lamy (BARHEB1 l.22864-22876); Assemani, volume 3 (ASSEMANI3-1 l.90502-90503); C. W. Mitchell (MITCHELL l.2656)",
      "913: Bar Hebraeus, section I as printed from the London manuscript (BARHEB1 l.23008); Andreas Masius, as Assemani reports him (ASSEMANI1 l.109577-109585)"
     ]
    },
@@ -554,6 +569,13 @@
     "sides": [
      "A Sharfeh manuscript of 1224 assigns it to Moses (BARHEB1 l.22988-22992)",
      "Other copies give it to John Maron or to John of Dara; the editors leave it open: \"Litem banc dirimant alii\" (BARHEB1 l.22983-22993, OCR)"
+    ]
+   },
+   {
+    "claim": "Whose pupil 'Abdisho', catholicos of the Church of the East, was",
+    "sides": [
+     "George David Malech: a pupil of Moses bar Kepha (MALECH l.15327)",
+     "Bar Hebraeus, as Assemani quotes him: a pupil in dialectic of Nasicha, Moses's disciple (ASSEMANI3-1 l.35640-35644)"
     ]
    }
   ],
@@ -642,14 +664,19 @@
     "claim": "Ta T'sin: Yule \"Ta T'sin being the term applied in Chinese literature to the Roman Empire\"; \"a description of Ta-T'sin (here apparently implying Syria)\"; \"The Emperor's portrait was to be placed in the church\"",
     "witness": "YULE l.2934-2935, 2967-2969",
     "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Yule: \"accidentally found in 1625 by some workmen who were digging\"; Lamy via Chabot: \"Dès 635, il comptait dans La capitale une église et vingt et un prêtres\" (OCR); Wigram 1929: \"about the year 630\"",
+    "witness": "YULE l.2930; CHABOT1895 l.1344-1345; WIGRAM1929 (wigram_assyrians-and-their-neighbours_1929.txt) l.4183-4190",
+    "formation_confidence": "Documented"
    }
   ],
   "contested_claims": [
    {
     "claim": "The year Alopen reached Chang-an",
     "sides": [
-     "635: A. Wylie's English of the stele (MALECH l.13690); Henry Yule (YULE l.2939, 2964); Budge's Appendix B, after Saeki (BUDGE1928 l.5174-5175)",
-     "636: Joseph Assemani (ASSEMANI3-2 l.35905, 55233); Abbeloos and Lamy (barhebraeus_chronicon-ecclesiasticum-vol3-lat_abbeloos-lamy1877.txt l.9523); Budge's introduction (BUDGE1928 l.1844, 1882)"
+     "635: A. Wylie's English of the stele (MALECH l.13690); Henry Yule (YULE l.2939, 2964); Budge's Appendix B, after Saeki (BUDGE1928 l.5174-5175); T. J. Lamy via Chabot, for the church (CHABOT1895 l.1344)",
+     "636: Joseph Assemani (ASSEMANI3-2 l.35905, 55233); Abbeloos and Lamy (barhebraeus_chronicon-ecclesiasticum-vol3-lat_abbeloos-lamy1877.txt l.9523); Budge's introduction (BUDGE1928 l.1844, 1882); W. A. Wigram 1929: about 630 (WIGRAM1929 l.4183-4190)"
     ]
    },
    {
@@ -663,7 +690,7 @@
   "absent_details": [
    {
     "detail": "Any witness besides the stele",
-    "note": "Searched all cic/texts for Alopen, Olopun, Olopen, Olopuen, A-lo-pen and OCR forms. Every held mention goes back to the stele; Bar Hebraeus's text, Thomas of Marga and Malech's list of China missions do not name him."
+    "note": "Searched all cic/texts for Alopen, Olopun, Olopen, Olopuen, A-lo-pen and OCR forms. Every held mention goes back to the stele; Bar Hebraeus's text, Thomas of Marga and Malech's list of China missions do not name him. The census cites the Tang huiyao, ch. 49, for the decree of 638; it is a second witness, but not held."
    },
    {
     "detail": "His words, rank, sender, Syriac name, death and burial",
@@ -761,6 +788,16 @@
     "claim": "Mingana: \"Timothy I. selected, as the historian Thomas of Marga informs us, ordained bishops and sent to all the countries of the East\"",
     "witness": "MINGANA (mingana_early-spread-of-christianity-in-india_mingana1926.txt) l.3348-3349",
     "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Assemani's Latin of the arrival line: \"Quoniam puer quum efiem , ad hoc J aerum monaflersum ( Beth-Abenle ) anno regni Arabum ducentefime de- cimo feptimo ttccejfi\" (OCR)",
+    "witness": "ASSEMANI3-1 l.78703-78706",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Wigram: \"Neither Theodoret nor Thomas of Marga, however, have any knowledge of Mar Augin\", with his existence not therefore questioned",
+    "witness": "WIGRAM1910 (wigram_introduction-to-the-history-of-the-assyrian-church-100-640_1910.txt) l.11310-11312",
+    "formation_confidence": "Documented"
    }
   ],
   "contested_claims": [
@@ -812,7 +849,7 @@
     "formation_confidence": "Dominant Modern Reconstruction"
    },
    {
-    "claim": "History of the Patriarchs: \"And the writer of this history was with him, for he was his spiritual son\"; at John III's deathbed \"Abba John, bishop of Niciu\"; at the election, the bishops \"under the presidency of Gregory, the bishop of Al-Kais; and James, bishop of Arwat, and John, bishop of Niciu\"; Isaac's chapter headed \"A. D. 686-689\"",
+    "claim": "History of the Patriarchs: \"And the writer of this history was with him, for he was his spiritual son\"; at John III's deathbed \"Abba John, bishop of Niciu\"; at the election, the bishops \"under the presidency of Gregory, the bishop of Al-Kais; and James, bishop of Arwat, and John, bishop of Niciu\"; B. Evetts's heading to Isaac's life in his English of the History: \"A. D. 686-689\"",
     "witness": "HP-PO5 (chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt) l.1229-1233, 1278, 1313-1315",
     "formation_confidence": "Documented"
    },
@@ -870,6 +907,11 @@
     "claim": "Ethiopic translation of 1602 \"by Gabriel the Egyptian, son of John of Kaljub, at the order of the Abyssinian general Athanasius and of Mariara Sena (Malak Mogasa), the wife of Jacob, Malak\" Sagad (OCR \"Mariara\")",
     "witness": "CHARLES l.332-336",
     "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Benjamin's return also in the History of the Patriarchs",
+    "witness": "HP1 (severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt) l.44676-44680",
+    "formation_confidence": "Documented"
    }
   ],
   "contested_claims": [
@@ -877,7 +919,7 @@
     "claim": "The year of the election after John III",
     "sides": [
      "R. H. Charles: 690 (CHARLES l.182-183)",
-     "The History of the Patriarchs heads Isaac's life 686-689 (HP-PO5 l.1278); Eusèbe Renaudot puts John III's death in 686 (RENAUDOT l.12195-12197)"
+     "B. Evetts's heading to Isaac's life in his English of the History: 686-689 (HP-PO5 l.1278); Eusèbe Renaudot puts John III's death in 686 (RENAUDOT l.12195-12197)"
     ]
    },
    {
@@ -895,7 +937,7 @@
    },
    {
     "detail": "When he wrote the Chronicle",
-    "note": "No held source dates it. F. Nau says the end of the seventh century."
+    "note": "No held source gives a year. F. Nau puts it at the end of the seventh century (theopistus_histoire-de-dioscore-journal-asiatique-1903-fra_nau1903.txt l.13604-13605)."
    },
    {
     "detail": "Charles's basis for 690, 696 and the Upper Egypt title",
