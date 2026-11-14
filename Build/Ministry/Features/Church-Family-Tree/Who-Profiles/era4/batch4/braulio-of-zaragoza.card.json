@@ -17,7 +17,7 @@
     },
     {
       "title": "Life of Saint Aemilian",
-      "about": "the Life of a monk named Aemilian, sent to his brother Fronimian, a priest. Ildefonsus of Toledo says it commends the memory of the one and the virtue of the other"
+      "about": "the Life of a monk named Aemilian, sent to his brother Fronimian, a priest. Ildefonsus of Toledo says it keeps Braulio's own memory and makes the holy man's virtue known"
     },
     {
       "title": "List of Isidore's works",
@@ -31,15 +31,17 @@
       "Eugenius, the archdeacon he gave up to King Chindaswinth, appears in Ildefonsus's book as Eugenius the second, bishop of Toledo."
     ],
     "remembered": [
-      "Nicolás Antonio quotes a later chronicle under the name of Isidore Pacensis. It says Braulio shone at the fourth council of Toledo, and that Rome marveled at his eloquence through his letter.",
-      "The same chronicle says that at the sixth council he poured sound teaching into Christian minds, and that the church still read his work."
+      "Nicolás Antonio, in his Bibliotheca Hispana vetus, quotes a chronicle he gives to Isidore, bishop of Pax. Theodor Mommsen, who edits it, dates it to 754 and calls the name false.",
+      "It says Braulio shone at the fourth council of Toledo, and that Rome later marveled at his eloquence through a letter.",
+      "The same chronicle says that at the sixth council he poured devout teaching into Christian minds, and that the church still read his short works."
     ]
   },
   "uncertain": [
     "His life is known from his own letters, from Ildefonsus's short chapter on him and from the acts of the councils he signed.",
     "Whether his archdeacon Eugenius is the Eugenius whom Ildefonsus makes bishop of Toledo. Braulio's letters and the king's do not name the city. Ildefonsus tells of a Toledo cleric named Eugenius who became a monk at Zaragoza and was brought back by the king's force. The match rests on these two accounts.",
-    "Whom Pope Honorius meant by the faithless. Braulio's reply speaks of the faithless and of a rumor that baptized Jews had been allowed back to their old religion. It does not quote the pope's letter, which is not held.",
-    "His age and death. His letter to the king speaks of his age and his failing sight. No held source gives the year of his death. His name is missing from the acts of the seventh council of Toledo, Antonio notes, and by the eighth, Taio was bishop of Zaragoza."
+    "Whom Pope Honorius meant by the faithless. Braulio's reply speaks of the faithless. It also denies a rumor that a ruling of the Roman prince let baptized Jews return to what it calls their superstition. The pope's letter is not held.",
+    "His age and death. His letter to the king speaks of his age and his failing sight. No held source gives the year of his death. Theodor Mommsen, from Ildefonsus's list of kings, puts it under Chindaswinth, between 641 and 652. His name is missing from the acts of the seventh council of Toledo, Antonio notes, and by the eighth, Taio was bishop of Zaragoza.",
+    "Whether Braulio wrote the notice of Isidore's works. A note printed with Nicolás Antonio's notice says Gregorius Mayansius denied it. The note keeps it as his, as the old manuscripts and nearly all bibliographers agree."
   ],
   "sources": {
     "ownWords": [
@@ -85,6 +87,13 @@
         "date": "1863",
         "language": "Latin",
         "file": "cic/texts/paulus-emeritanus-braulio-sisebut-pl80-lat_migne1863.txt"
+      },
+      {
+        "title": "Chronicle of 754 (Continuatio Hispana), in Chronica minora II, MGH Auctores antiquissimi XI",
+        "author": "Theodor Mommsen (ed.)",
+        "date": "1894",
+        "language": "Latin",
+        "file": "cic/texts/chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894.txt"
       }
     ]
   }

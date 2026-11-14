@@ -4,15 +4,15 @@
     "Hildefonsus"
   ],
   "knownFor": "Monk and abbot of Agali, then bishop of Toledo in Visigothic Spain. He wrote On the Virginity of Holy Mary and carried on the list of famous church writers begun by Jerome.",
-  "dates": "Made bishop in the ninth year of King Reccesvinth and bishop for nine years and about two months, Julian of Toledo says. He died on the tenth day before the Kalends of February, which is 23 January, after the eighteenth year of the king. Nicolás Antonio reckons these as 659 and 669. An abbot Ildefonsus signed the eighth and ninth councils of Toledo. The acts date them to the Spanish eras 691 and 693, that is 653 and 655",
-  "place": "The monastery of Agali; Toledo, where he was bishop and was buried in the church of Saint Leocadia",
+  "dates": "Made bishop in the ninth year of King Reccesvinth and bishop for nine years and about two months, Julian of Toledo says. He died on the tenth day before the Kalends of February, which is 23 January, after the eighteenth year of the king. Nicolás Antonio, in his Bibliotheca Hispana vetus, reckons these as 659 and 669. An abbot Ildefonsus signed the eighth and ninth councils of Toledo. The acts date them to the Spanish eras 691 and 693, that is 653 and 655",
+  "place": "The monastery of Agali, which Nicolás Antonio and a thirteenth-century Life call the monastery of Saints Cosmas and Damian, near Toledo; Toledo, where he was bishop and was buried in the church of Saint Leocadia",
   "tradition": "Nicene Visigothic Iberia",
   "role": "Abbot; bishop of Toledo",
   "briefLength": "about 2 minutes",
   "keyWorks": [
     {
       "title": "On the Virginity of Holy Mary",
-      "about": "written, Julian of Toledo says, against three unbelievers. Nicolás Antonio's note names them as Jovinian, Helvidius and a Jew"
+      "about": "written, Julian of Toledo says, against three unbelievers. Nicolás Antonio names them as Jovinian, Helvidius and a Jew"
     },
     {
       "title": "On Famous Men",
@@ -25,8 +25,8 @@
   ],
   "legacy": {
     "traces": [
-      "Julian of Toledo, a later bishop of the city, added a chapter on him to his book On Famous Men.",
-      "Cixila says he composed Masses, among them a seventh for the feast of Mary, sung in her praise."
+      "Julian of Toledo, a later bishop of the city, added a chapter on him to Ildefonsus's own On Famous Men.",
+      "Cixila says he composed Masses, among them one to be sung in Mary's praise on her feast, which Cixila counts as the seventh."
     ],
     "remembered": [
       "Cixila, a bishop of Toledo under Muslim rule, wrote a later Life. In it Saint Leocadia rises from her tomb before King Reccesvinth and thanks God that her Lady lives through the life of Ildefonsus.",
@@ -35,10 +35,11 @@
     ]
   },
   "uncertain": [
-    "His life rests on Julian of Toledo's short tribute, written in his praise. Cixila's Life, written later under Muslim rule, adds wonders that Julian does not tell.",
-    "His death day. Julian gives the tenth day before the Kalends of February, 23 January. Nicolás Antonio, reckoning Julian's years, gives 25 January 669.",
-    "Whether the abbot Ildefonsus who signed the councils of 653 and 655 is he. Antonio says Ildefonsus was still an abbot at the council of 656.",
-    "Which of his books survive. Julian lists more than the volume prints, and Antonio's notes count some as lost or doubtful."
+    "His life rests on Julian of Toledo's short tribute to him. Cixila's Life, written later under Muslim rule, adds wonders that Julian does not tell.",
+    "His birth and family. Report has it, Nicolás Antonio says, that he was born at Toledo in 607, to noble parents named Stephen and Lucia. Lucia is said to have been the sister of Eugenius, the bishop before him.",
+    "His death day. Julian gives the tenth day before the Kalends of February, 23 January, as does the Mozarabic calendar in the Missale mixtum. Nicolás Antonio quotes Julian's day, but the held copy of his notice prints 25 January.",
+    "Whether he is the abbot Ildefonsus who signed the councils of 653 and 655. The acts give only the name and the title abbot. Nicolás Antonio takes the signatures as his, and puts the ninth council about 657.",
+    "Which of his books survive. Julian lists more than the volume prints. Nicolás Antonio counts several as lost, and a note to his notice counts one as lost or doubtful."
   ],
   "sources": {
     "ownWords": [
@@ -77,6 +78,19 @@
         "date": "1808",
         "language": "Latin",
         "file": "cic/texts/collectio-canonum-ecclesiae-hispanae-toledo-iii-lat_1808.txt"
+      },
+      {
+        "title": "Missale mixtum, the Mozarabic calendar, in Patrologia Latina 85",
+        "language": "Latin",
+        "file": "cic/texts/mozarabic-liturgy_missale-mixtum-pl85-lat_migne1862.txt",
+        "date": "1862"
+      },
+      {
+        "title": "Life of Ildefonsus, in Patrologia Latina 96",
+        "author": "Rodericus Cerratensis",
+        "date": "1862",
+        "language": "Latin",
+        "file": "cic/texts/ildefonsus-julian-toledo-pl96-lat_migne1862.txt"
       }
     ]
   }

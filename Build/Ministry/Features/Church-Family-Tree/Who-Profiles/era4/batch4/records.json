@@ -484,7 +484,7 @@
    {
     "claim": "Braulio on the Etymologies, in Brehaut's English: 'the Etymologiae, a vast work which he left unfinished, and which I have divided into twenty books, since he wrote it at my request'",
     "witness": "BREHAUT (isidore-seville_encyclopedist-of-the-dark-ages-extracts_brehaut1912.txt) l.822-825",
-    "formation_confidence": "Documented"
+    "formation_confidence": "Widely Accepted"
    },
    {
     "claim": "Letter XXI, to Honorius for the council: 'Domino reverendissimo ... papae Honorio universi episcopi per Hispaniam constituti'; the pope's decree, brought by the deacon Turninus, 'quo et robustiores pro fide et alacriores in perfidorum essemus rescindenda pernicie'",
@@ -512,8 +512,8 @@
     "formation_confidence": "Documented"
    },
    {
-    "claim": "Card: the chronicle under Isidore Pacensis, quoted by Antonio: 'Huic sanctae synodo inter ceteros Braulio Caesaraugustanus episcopus claruit: cujus eloquentiam ... Roma ... per epistolare alloquium satis mirata est'; on Toledo VI: 'piam doctrinam Christianis mentibus decenter infundit, cujus et opus nunc usque Ecclesia relegit'",
-    "witness": "PL80 (paulus-emeritanus-braulio-sisebut-pl80-lat_migne1863.txt) l.51545-51556",
+    "claim": "Card: the chronicle under Isidore Pacensis, quoted by Antonio: 'Huic sanctae synodo inter ceteros Braulio Caesaraugustanus episcopus claruit: cujus eloquentiam ... Roma ... per epistolare alloquium satis mirata est'; on Toledo VI: 'piam doctrinam Christianis mentibus decenter infundit, cujus et opus nunc usque Ecclesia relegit'; Mommsen prints it as the 'Continuatio Hispana a. DCCLIV', known 'sub nomine ficticio Isidori Pacensis'; 'piam doctrinam' rendered 'devout teaching'",
+    "witness": "PL80 (paulus-emeritanus-braulio-sisebut-pl80-lat_migne1863.txt) l.51545-51556; MGH11 (chronica-minora-2_marcellinus-victor-tunnunensis-biclaro-isidore-mgh-aa-11-lat_mommsen1894.txt) l.16363, 31309, 32613-32626",
     "formation_confidence": "Documented"
    },
    {
@@ -525,13 +525,26 @@
     "claim": "Card: letter to King Reccesvinth: 'BRAULIONIS AD RECESVINTUM REGEM'",
     "witness": "PL80 (paulus-emeritanus-braulio-sisebut-pl80-lat_migne1863.txt) l.55020",
     "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Hedges and framing: the king 'si ista in Dei voluntate, ut confidimus, persistunt'; the rebuke 'quae in objurgationem nostri vestra sanctitas indebite protulit ... ad nos ... nullo modo pertinet'; Taio's insults answered Braulio's joke, 'me causa joci ... de illo asino'; the rumor 'oraculis venerabilis Romani principis ... ad superstitionem suae religionis'",
+    "witness": "PL80 l.54565-54566; 53781-53787; 52863-52866; 53835-53839",
+    "formation_confidence": "Documented"
    }
   ],
-  "contested_claims": [],
+  "contested_claims": [
+   {
+    "claim": "Braulio's authorship of the Praenotatio librorum Isidori",
+    "sides": [
+     "Mayansius, as reported in a note to Antonio's notice: 'falso eam Praenotationem Braulioni tributam asserit' (PL80 l.52007-52008, 52036-52040)",
+     "The same note: the consensus of the old codices and nearly all bibliographers keeps it as Braulio's (PL80 l.52054-52061); Brehaut treats it as his (BREHAUT l.731-735)"
+    ]
+   }
+  ],
   "absent_details": [
    {
     "detail": "His birth and the year of his death",
-    "note": "No held line gives them. The Library header's 590-651 rests on no held text"
+    "note": "No held line gives them. The Library header's 590-651 rests on no held text. Mommsen's range 641-652, from Ildefonsus XII (MGH11 l.21948-21949)"
    },
    {
     "detail": "That his archdeacon Eugenius is Eugenius II of Toledo",
@@ -571,7 +584,7 @@
     "formation_confidence": "Documented"
    },
    {
-    "claim": "Signatures: 'Ildephonsus abbas' at Toledo VIII (era DCXCI) and IX (era DCXCIII); Antonio: 'Toletano X concilio interfuit anno 656 quo adhuc abbas Hildefonsus erat'",
+    "claim": "Signatures: 'Ildephonsus abbas' at Toledo VIII (era DCXCI) and IX (era DCXCIII)",
     "witness": "HISP (collectio-canonum-ecclesiae-hispanae-toledo-iii-lat_1808.txt) l.44645, 45659; dates l.43156-43165, 45078-45090; PL96 (ildefonsus-julian-toledo-pl96-lat_migne1862.txt) l.1333-1335 [OCR 'DCXCL', 'abbasHildefOnsus']",
     "formation_confidence": "Widely Accepted"
    },
@@ -596,7 +609,7 @@
     "formation_confidence": "Documented"
    },
    {
-    "claim": "Cixila: Leocadia rises before Reccesvinth 'omnibus astantibus'; 'Deo gratias, vivit domina mea per vitam Hildefonsi'; the king's knife 'cultrum modicum'; 'cultrum ipsum una cum eisdem Reliquiis in thecis argenteis collocavit'",
+    "claim": "Cixila: Leocadia rises before Reccesvinth 'omnibus astantibus'; 'talia fertur depromere vota ... Deo gratias, vivit domina mea per vitam Hildefonsi'; the king's knife 'cultrum modicum'; 'cultrum ipsum una cum eisdem Reliquiis in thecis argenteis collocavit'",
     "witness": "PL96 (ildefonsus-julian-toledo-pl96-lat_migne1862.txt) l.3812-3822, 3826-3847 [OCR 'vivit domim mea per vitani IIUdefonxi', 'cullrum niodicum']",
     "formation_confidence": "Inferential-Thin"
    },
@@ -614,27 +627,33 @@
     "claim": "Card: lost or doubtful works: 'inter deperdita, imo et inter dubia Hildefonsi opera'",
     "witness": "PL96 (ildefonsus-julian-toledo-pl96-lat_migne1862.txt) l.1325",
     "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Report has it (fama fert), Antonio says, that he was born at Toledo to noble parents Stephen and Lucia, in 607 under Witteric; Lucia is said (dicitur) to be the sister of Eugenius, his predecessor",
+    "witness": "PL96 l.704-708, 725; Cerratensis l.4126-4127 (Toledo, noble parents)",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Agali was the monastery of Saints Cosmas and Damian in the suburb of Toledo, Antonio and Cerratensis say; Julian gives no place; Cerratensis is of the thirteenth century by the volume's monitum",
+    "witness": "PL96 l.715-718; l.4200-4203; Cixila l.3747-3750; monitum l.3651-3653",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Antonio takes the signatures as his: 'inde Toletano concilio viii, anno quinquagesimo tertio, necnon et ix, circa annum 657, ut e subscriptionibus constat'; Antonio counts lost works (§21-22)",
+    "witness": "PL96 l.731-734; l.1264-1290",
+    "formation_confidence": "Widely Accepted"
    }
   ],
   "contested_claims": [
    {
     "claim": "His death day",
     "sides": [
-     "Julian's Elogium: 'decimo Kalendas Februarii', 23 January (l.3720)",
-     "Nicolás Antonio: 'die Januarii 25' of 669 (l.659)"
+     "Julian's Elogium: 'decimo Kalendas Februarii', 23 January (PL96 l.3720); the Mozarabic calendar in the Missale mixtum, 'X. Obitum domni Ildefonsi epi. Toleto.' (PL85, mozarabic-liturgy_missale-mixtum-pl85-lat_migne1862.txt l.93258)",
+     "Nicolás Antonio's notice prints 'die Januarii 25' (PL96 l.659), in a sentence quoting Julian's X Kal. Feb.; possibly OCR or a slip"
     ]
    }
   ],
-  "absent_details": [
-   {
-    "detail": "His birth year and family",
-    "note": "No held line gives them. The Library header's c.607 rests on no held text"
-   },
-   {
-    "detail": "Where Agali stood",
-    "note": "Julian names the monastery but not its place"
-   }
-  ]
+  "absent_details": []
  },
  "julian-of-toledo": {
   "claims": [
