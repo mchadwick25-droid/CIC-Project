@@ -2814,7 +2814,6 @@ Round 2, a targeted recheck, found all of them resolved, with 3 new blocking poi
 
 The approved files are in `Who-Profiles/era3/batch8/` in this folder, and the reviews are in `Build/Ministry/Operations/Audits/2026-11-14_who-profiles-era3-batch8/`. No census, record or site change is made, so there is no data release number. Approved to proceed (coordinator, 2026-11-14; Mark may overrule).
 
-<<<<<<< HEAD
 ## 2026-11-14 — Eras 4 to 7 built in full: every Who row whose sources are held (Mark, 2026-11-14)
 
 **Decided (Mark, 2026-11-14, picked from options, relayed by the coordinator).** Eras 4 to 7 of the Church Family Tree are built in full. Every WHO row whose sources are held gets a Who profile, not only the majors. Mark's choice: "Full builds, 4-7 (Recommended)". The era scans for eras 4 to 7 are the lists the batches are drawn from, and a WANTED row waits until its named source is held. The first batch under this ruling is era 4 batch 1. Approved to proceed (Mark, 2026-11-14).
@@ -2851,7 +2850,6 @@ Round 2, a targeted recheck in two parts, found Boniface and Alcuin clean and th
 **What is still open.** Open-Gaps 254, "Era 4 Who batch 1" (2026-11-14).
 
 The approved files are in `Who-Profiles/era4/batch1/` in this folder, and the reviews are in `Build/Ministry/Operations/Audits/2026-11-14_who-profiles-era4-batch1/`. No census, record or site change is made, so there is no data release number. Approved to proceed (coordinator, 2026-11-14; Mark may overrule).
->>>>>>> origin/main
 
 ## 2026-11-14 — Era 3 on the live tree: 76 Who profiles and 3 major councils (Mark, 2026-11-14; data release 42)
 
@@ -2881,4 +2879,3 @@ The approved files are in `Who-Profiles/era4/batch1/` in this folder, and the re
 **What is still open.** Open-Gaps 255. Open-Gaps 217 (caps, major mark, placement) is carried.
 
 Approved to proceed (Mark, 2026-11-14).
-=======
