@@ -32,6 +32,7 @@
       "Another brother of Mount St Agnes carried his Chronicle on from 1471 to 1477, J. P. Arthur says, and wrote the notice of his death into it.",
       "Ignatius of Loyola, telling the story of his life to Consalvius de Cámara, said in Spanish that at Manresa he first saw the Gerconzito, the little Gerson. After it he wanted no other devotional book. The Jesuit editors of his Spiritual Exercises identify it as the Imitation of Christ.",
       "From the second week on, the Spiritual Exercises of Ignatius advise reading devout little books at times. They name the Imitation of Christ, the Gospels and the lives of the saints. The Spanish edition printed at Burgos in 1516 gives the book to John Gerson.",
+      "Oliver Manare, a Jesuit from 1551, answered questions about Ignatius. He writes in Latin that Ignatius kept no books on the table of his inner room but the New Testament and Thomas à Kempis. He called Thomas, Manare says, the partridge of spiritual books.",
       "William Atkynson put the first three books into English for Margaret, Countess of Richmond and Derby, John Ingram says. She was the mother of King Henry the Seventh. Wynkyn de Worde printed it in 1504.",
       "Reviewing his life in his Journal, John Wesley wrote that at about twenty-two he read the Imitation as \"Kempis's Christian Pattern\". He began to see \"that true religion was seated in the heart\". He was \"very angry at Kempis for being too strict\", yet often found \"much sensible comfort in reading him\"."
     ],
@@ -44,7 +45,7 @@
   },
   "uncertain": [
     "Who wrote the Imitation of Christ. Johannes Busch, a canon of Windesheim in Thomas's day, names him as its author, in the story of the dream of 1424. Thomas's own Chronicle tells that dream without naming the dreamer. A copy in his hand is dated 1441, and John Mason Neale quotes its closing note. Neale holds that this note is the only ground for giving him the book. The same reason, he says, might make him the author of the Bible.",
-    "Other claimants to the Imitation. William Atkynson's English version of 1504 calls it the book of John Gerson, chancellor of Paris. William Benham, who translated it in 1886, argues for John Gersen, an abbot of Vercelli, though he grants that the ground grows uncertain. J. P. Arthur, who translated the Lives in 1905, saw a manuscript of the first book from about 1423 that gives it to a Carthusian monk. Francis Lee, an English translator of Thomas in the early 1700s, asked whether Walter Hilton, the English author of the Scale of Perfection, wrote it, John Ingram reports.",
+    "Other claimants to the Imitation. William Atkynson's English version of 1504 calls it the book of John Gerson, chancellor of Paris. William Benham, who translated it in 1886, argues for John Gersen, an abbot of Vercelli, though he grants that the ground grows uncertain. J. P. Arthur, who translated the Lives in 1905, saw a manuscript of the first book from about 1423 that gives it to a Carthusian monk. John Ingram reports that Francis Lee, an English translator of Thomas in the early 1700s, asked whether Walter Hilton wrote it. Hilton was the English author of the Scale of Perfection.",
     "Scholars on Thomas's side. John Ingram, who edited the early English versions in 1893, is convinced the book is Thomas's, and says Gersen \"appears to be an apocryphal person\". Michael Joseph Pohl, who edited Thomas's Latin works from 1902, is persuaded that Gersen never existed. Arthur holds that Thomas wrote at least the first part in the early years of his priesthood.",
     "Who sent him to Mount St Agnes. In his own Chronicle Thomas came to Zwolle for the indulgences of 1399, went on to Mount St Agnes and asked to stay. The brother who wrote his death notice says Florens Radewijns sent him, at twenty, to his own brother the prior.",
     "The year he came. His Chronicle puts it in 1399, and William Benham says he entered as a novice that year. John Mason Neale gives 1400.",
@@ -143,6 +144,13 @@
         "date": "1909",
         "language": "English",
         "file": "cic/texts/wesley-j_journal-v1_curnock1909.txt"
+      },
+      {
+        "title": "Scripta de Sancto Ignatio, volume 1, with Oliver Manare's reply to Lancicius",
+        "author": "Oliver Manare",
+        "date": "1904",
+        "language": "Latin",
+        "file": "cic/texts/ignatius-loyola_scripta-de-sancto-ignatio-tomus01-lat-spa-ita_1904.txt"
       }
     ]
   }

@@ -5,7 +5,7 @@
     "Johann Tauler"
   ],
   "knownFor": "Dominican preacher of Strasbourg. Susanna Winkworth, his English translator in the nineteenth century, writes that his German sermons were compiled from notes taken by his hearers. In 1516 Martin Luther praised them.",
-  "dates": "Born at Strasbourg in 1290, Winkworth says. C. de B. Evans, writing in the 1920s, gives 1300, and an 1841 editor of Spener's Pia Desideria gives 1294. Winkworth alone gives the day of his death, 16 June 1361. Evans also gives the year 1361.",
+  "dates": "Born at Strasbourg in 1290, Winkworth says. C. de B. Evans, an English translator of Eckhart in the 1920s, gives 1300, and an 1841 editor of Spener's Pia Desideria gives 1294. Winkworth alone gives the day of his death, 16 June 1361. Evans also gives the year 1361.",
   "place": "Strasbourg, where Winkworth says he was born, joined the Dominicans and died. Basel, where his friend Henry of Nördlingen, a priest from Constance, found him. Cologne, where Winkworth says no details of his work survive.",
   "tradition": "Rhineland Mysticism & the Friends of God",
   "role": "Dominican friar and preacher. Winkworth, quoting Professor Schmidt of Strasbourg, says most of his surviving sermons were addressed to friars or nuns in convent chapels, with lay people present.",
@@ -13,13 +13,13 @@
   "keyWorks": [
     {
       "title": "Sermons",
-      "about": "in Susanna Winkworth's English selection of twenty-five. She writes that they were compiled from his hearers' notes. She thinks eighty-four in the Strasbourg manuscripts probably had his own corrections, and marks some of her twenty-five as doubtful."
+      "about": "in Susanna Winkworth's English selection of twenty-five. She writes that they were compiled from his hearers' notes. She thinks eighty-four in the Strasbourg manuscripts probably had his own corrections. She reports that the Frankfort edition marks two of her twenty-five as Eckhart's or a disciple's."
     }
   ],
   "legacy": {
     "traces": [
       "Martin Luther recommended Tauler's sermons in a letter of December 1516, which Winkworth quotes in Latin.",
-      "Winkworth lists printed editions of his sermons from Basel in 1521 and Cologne in 1543.",
+      "Winkworth lists printed editions of his sermons from Leipzig in 1498, Basel in 1521 and Cologne in 1543.",
       "Rudolf Langenberg, writing in 1902, says Low German translations of his sermons are many, and that his fame passed from Cologne into the Netherlands.",
       "Winkworth writes that the stone over his grave was set up again by the Protestants in his church."
     ],
@@ -33,16 +33,16 @@
   },
   "uncertain": [
     "The History of the Master and the layman. Its text never names the Master; its title and Susanna Winkworth make him Tauler. Winkworth treats it as authentic. Heinrich Denifle, a Dominican scholar, argued in 1879 that the conversion story was invented, and in 1886 called the Friend of God a fiction.",
-    "His sermons. Winkworth writes that he did not write them down himself and that they come from his hearers' notes. She thinks the eighty-four in the Strasbourg manuscripts probably had his own corrections. She notes that one of her selection is marked as Eckhart's in an older edition.",
-    "When he was born. Winkworth gives 1290 and names no source. Evans, writing in the 1920s, gives 1300. A note in an 1841 edition of Spener's Pia Desideria gives 1294.",
+    "His sermons. Winkworth writes that he did not write them down himself and that they come from his hearers' notes. She thinks the eighty-four in the Strasbourg manuscripts probably had his own corrections. She notes that the Frankfort edition marks one of her selection as Eckhart's and another as probably his disciple's.",
+    "When he was born. Winkworth gives 1290 and names no source. Evans gives 1300. A note in an 1841 edition of Spener's Pia Desideria gives 1294.",
     "His last months. The move to his aged sister's convent, the day of his death and his burial in his own convent rest on Winkworth alone. She gives no source for them, and her eleven days of talk before his death follow the History.",
-    "Whether he heard Eckhart. Winkworth says he was probably among Eckhart's admirers at Cologne. Evans also says probably. No source used here shows them meeting."
+    "Whether he heard Eckhart. Winkworth thinks he must have met Eckhart's teaching at Strasbourg, and was probably among his admirers at Cologne. Evans says he probably heard him at both. No source used here shows them meeting."
   ],
   "sources": {
     "ownWords": [
       {
-        "title": "The History and Life of the Reverend Doctor John Tauler, with Twenty-Five of his Sermons, translated by Susanna Winkworth",
-        "author": "Johannes Tauler; Susanna Winkworth (tr.)",
+        "title": "Twenty-five of his sermons, compiled from his hearers' notes, in Susanna Winkworth's English",
+        "author": "Johannes Tauler, through his hearers' notes; Susanna Winkworth (tr.)",
         "date": "1907",
         "language": "English",
         "file": "cic/texts/tauler_history-and-life-with-sermons_winkworth1907.txt"

@@ -22,7 +22,7 @@
         "formation_confidence": "Documented"
       },
       {
-        "claim": "Trialogus on the earthquake council and the earth crying out (Latin, told in modern words): 'fratres ... in suo concilio terraemotus Londoniis intoxicaverunt regnum nostrum'; 'sic in ista damnatione, ad ostendendum defectum attestationis humanae fuit insolite motus terrae. Quando enim membra Christi deficiunt ad reclamandum contra tales haereticos, terra clamat.' The 'heretici' are those who condemned his teaching on the sacrament ('isti haeretici tam expresse Christo contrarii', 'huius damnationis'), hence 'he wrote of his judges'. 'Trialogus' is a dialogue: Lechler quotes the colophon 'Explicit dyalogus'.",
+        "claim": "Trialogus on the earthquake council and the earth crying out (Latin, told in modern words): 'fratres ... in suo concilio terraemotus Londoniis intoxicaverunt regnum nostrum'; 'sic in ista damnatione, ad ostendendum defectum attestationis humanae fuit insolite motus terrae. Quando enim membra Christi deficiunt ad reclamandum contra tales haereticos, terra clamat.' The 'heretici' are those who condemned his teaching on the sacrament ('isti haeretici tam expresse Christo contrarii', 'huius damnationis'), so the brief has him call his judges the heretics. 'Trialogus' is a dialogue: Lechler quotes the colophon 'Explicit dyalogus'.",
         "witness": "TRIALOGUS (wyclif_trialogus-lat_lechler1869.txt) l.22406-22410, 22500-22517 (OCR 'conciHo', 'haereticos^'); l.1572",
         "formation_confidence": "Documented"
       },
@@ -187,8 +187,8 @@
         "formation_confidence": "Documented"
       },
       {
-        "claim": "Foxe: 'he himself, forty-one years after his death, was taken out of his grave and burned'; 'which ashes they also took and threw into the river'; 'for though they digged up his body, burnt his bones, and drowned his ashes, yet the word of God ... they could not burn'; heading 'TO BE BURNED FORTY-ONE YEARS AFTER HE WAS BURIED IN HIS OWN PARISH AT LUTTERWORTH. A. D. 1425.' Editors' notes: 'See the edition of 1563, p. 105, and the Latin edition of 1559, p. 23'; 'The bones of Wickliff were not yet commanded by the council of Constance to be burned.' Edition title page MDCCCXXXVII.",
-        "witness": "FOXE3 (foxe_acts-and-monuments-v3_cattley-townsend1837.txt) l.7915-7923, 7962, 7988-7992, 8028-8044 (OCR 'M-ord'), 4990-4991 (OCR 'Wicklitf'), 122",
+        "claim": "Foxe: 'he himself, forty-one years after his death, was taken out of his grave and burned'; 'which ashes they also took and threw into the river'; 'for though they digged up his body, burnt his bones, and drowned his ashes, yet the word of God ... they could not burn'; heading 'TO BE BURNED FORTY-ONE YEARS AFTER HE WAS BURIED IN HIS OWN PARISH AT LUTTERWORTH. A. D. 1425.' Editors' notes: 'See the edition of 1563, p. 105, and the Latin edition of 1559, p. 23' Edition title page MDCCCXXXVII. The decree in Foxe's English orders his body and bones 'taken out of the ground, and thrown away far from the burial of any church'; Mansi, 'exhumari, & procul ab ecclesiastica sepultura' (OCR 'provul ab ecm'). The 'not yet commanded ... to be burned' note (FOXE3 l.4990-4991) annotates the Oxford testimonial of 1406 and is not used.",
+        "witness": "FOXE3 (foxe_acts-and-monuments-v3_cattley-townsend1837.txt) l.7915-7923, 7962, 7988-7992, 8028-8044 (OCR 'M-ord'), 7946-7948; MANSI27 l.65559-65561, 122",
         "formation_confidence": "Documented"
       },
       {
@@ -203,7 +203,7 @@
       },
       {
         "claim": "Shirley on the early Oxford claims: Queen's, 'No such list, however, can be discovered'; the Merton fellow 'was, almost certainly, another man of the same name, who died rector of a living in Sussex in 1383'; Canterbury Hall 'fuller evidence compels us now to surrender as belonging, of historical right, to another'. Vaughan: 'At the age of sixteen, we find him entered as a commoner in Queen's College, Oxford. This was in 1340'; 'Merton, to which he shortly afterwards removed'; 'four years later we find the name of John de Wycliffe as that of the person filling the office of warden in Canterbury Hall'. F&M: Queen's, Merton, and 'In December 1365 he was appointed by abp. Islip warden of Canterbury Hall'.",
-        "witness": "SHIRLEY l.737-805, 870-871, 972-977 (OCR 'histoiical', 'suiTender'); VAUGHAN l.662-664, 745, 1270-1273; F&M l.953-962",
+        "witness": "SHIRLEY l.737-805, 874-875, 972-977 (OCR 'histoiical', 'suiTender'); VAUGHAN l.662-664, 745, 1270-1273; F&M l.953-962",
         "formation_confidence": "Contested"
       },
       {
@@ -240,6 +240,31 @@
         "claim": "Knighton, hostile, on the English gospel: 'Hic magister Johannes Wyclif Evangelium ... transtulit de Latino in Anglicam linguam non angelicam, unde per ipsum fit vulgare et magis apertum laicis, et mulieribus legere scientibus ... et sic evangelica margarita spargitur et a porcis conculeatur [OCR, conculcatur]' (made it common and more open to lay people and to women who can read; the gospel pearl is scattered and trodden by swine)",
         "witness": "KNIGHTON l.16948-16969",
         "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Matthew on his birth: 'The date and place of Wyclif's birth are alike uncertain. Of the date all we know is that he died in 1384, and that he was then an old man ... We may place it somewhere about 1320.'",
+        "witness": "MATTHEW l.380-390",
+        "formation_confidence": "Contested"
+      },
+      {
+        "claim": "William Courtenay: Lumby, 'William Courtenay, Archbishop of Canterbury'.",
+        "witness": "KNIGHTON l.6014-6015",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Foxe's book of the martyrs, its Latin of 1559 and English of 1563: the editors' note 'See the edition of 1563, p. 105, and the Latin edition of 1559, p. 23.— Ed.'; running head 'MARTYRS AND EXILES FOR THE TRUTH' (OCR 'MAKTYRS').",
+        "witness": "FOXE3 l.7962, 8023",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "His title and parish at the 1382 scene: Knighton, 'magister Johannes Wyclyfe, rector ecclesiae de Lutturworthe in comitatu Leycestriae, doctor in theologia eminentissimus in diebus illis' (OCR 'ecclesiz', 'Leyces triz').",
+        "witness": "KNIGHTON l.16932-16934",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Vaughan on the rising: Wyclif 'was not the man to become the agent of insurrection, after the fashion of John Ball and Wat Tyler, as some of his ingenuous opponents have insinuated'.",
+        "witness": "VAUGHAN l.7262-7264",
+        "formation_confidence": "Documented"
       }
     ],
     "contested_claims": [
@@ -263,7 +288,8 @@
         "claim": "Birth year",
         "sides": [
           "Vaughan and F&M: his biographers give 1324 (VAUGHAN l.576-577; F&M l.933-953)",
-          "Shirley: a 'vague conjecture' of Lewis; his writings suggest greater age (SHIRLEY l.654-660, 727-728)"
+          "Shirley: a 'vague conjecture' of Lewis; his writings suggest greater age (SHIRLEY l.654-660, 727-728)",
+          "About 1320: F. D. Matthew, 1880, who calls date and place alike uncertain (MATTHEW l.380-384)"
         ]
       },
       {
@@ -325,15 +351,15 @@
       },
       {
         "detail": "A birth year of 1330",
-        "note": "The census year c.1330 appears only in Library file headers (VAUGHAN l.3; TRIALOGUS l.2; MATTHEW l.2); no text line gives it. Not used."
+        "note": "The scan's year c.1330 appears only in Library file headers (VAUGHAN l.3; TRIALOGUS l.2; MATTHEW l.2); no text line gives it. Not used."
       },
       {
         "detail": "The year and place of the burning of his bones beyond Foxe",
         "note": "Foxe gives 'forty-one years after his death', the heading 'A.D. 1425' and 'the river' (FOXE3 l.7915-7923, 7990-7992, 8031-8034); the dossier's searches for '1428', 'Fleming' and 'Swift' across cic/texts found nothing. The card gives Foxe's words only."
       },
       {
-        "detail": "A contemporary friendly account of his life",
-        "note": "Shirley: 'No friendly hand has left us any, even the slightest, memorial of the life and death of the great reformer' (SHIRLEY l.2753-2755). Walsingham's volume I, which covered 1377-78, is not held."
+        "detail": "A friendly account of his life from his own day",
+        "note": "Shirley writes that no friendly hand left any memorial (SHIRLEY l.2753-2755). Foxe prints an Oxford testimonial of 5 October 1406 praising his learning and life, whose authenticity his enemies have disputed, his editors note (FOXE3 l.4902-4964, 4914, 4982-4986). Thorpe's 1407 tribute is in POLLARD l.7204-7208. Not told in the brief."
       }
     ]
   },
@@ -518,6 +544,11 @@
         "claim": "Busch a canon of Windesheim: he professed at Windesheim on 6 January 1420 in Grube's account ('am 6. Januar 1419 eingekleidet und am gleichen Tage des folgenden Jahres zur Profess zugelassen').",
         "witness": "BUSCH l.1560-1561",
         "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Manare on Ignatius's table: 'nam in cubiculo suo secretiori ordinarie super mensam alios libros non habebat, quam nouum Testamentum et Thomam de Kempis, quem solebat appellare perdicem librorum spiritualium' (OCR 's^cretiori', 'libroruro'). Manare's reply to Lancicius; the volume's note gives his birth in 1523 and entry into the Society.",
+        "witness": "IGN-SCR1 (ignatius-loyola_scripta-de-sancto-ignatio-tomus01-lat-spa-ita_1904.txt) l.24338-24347, 10068",
+        "formation_confidence": "Documented"
       }
     ],
     "contested_claims": [
@@ -588,12 +619,12 @@
         "note": "Duthoit alone says 'moved thereto by a dream' (DUTHOIT l.715-716). His own entry (CHRON l.1103-1106) gives the indulgences and no dream. Not told."
       },
       {
-        "detail": "Ignatius keeping the Imitation on his desk",
-        "note": "The census entry says so; no line in the Ignatius volume or elsewhere was found for it. What is told instead is Ignatius's Manresa line (IGN l.2604-2605) and the Exercises' reading advice (IGN l.25087-25092)."
+        "detail": "Census: Ignatius 'kept the Imitation on his desk'",
+        "note": "Held: Oliver Manare's reply to Lancicius says Ignatius kept on the table of his inner room no books but the New Testament and Thomas à Kempis, whom he called the partridge of spiritual books (IGN-SCR1 l.24338-24347). Told on the card. The census wording 'desk' is close enough; its source is now named."
       },
       {
         "detail": "The Imitation as 'the most copied' book",
-        "note": "The census says so; no line found says 'copied'. The nearest lines are Neale's 'read more widely' (NEALE l.4717-4719) and Benham's 'most popular' (BENHAM l.663-664)."
+        "note": "The census says so; no line found says 'copied'. The nearest lines are Neale's 'read more widely' (NEALE l.4717-4719) and Benham's 'most popular' (BENHAM l.663-664). Neale adds that the Imitation 'has, it is said, gone through as many editions as there have been months since it first appeared' (NEALE l.4717-4721); no held line says 'copied'."
       },
       {
         "detail": "The day of the month of the 1424 visit and of John of Kempen's death year",
@@ -1157,7 +1188,7 @@
         "formation_confidence": "Documented"
       },
       {
-        "claim": "Forty-nine articles answered in his Latin defense; Daniels a Benedictine; edition 1923; a copy in Soest MS 33b of what he handed his judges at Cologne in 1326. DANIELS l.898-899: «Hiis premissis respondeo ad articulos michi inpositos. Seien- dum quod predicti articuli, cum sint 49, quadrifariam partiuntur:» ; DANIELS l.653-654: «Maria Laach. P. Augustinus Daniels O. S. B.» ; DANIELS l.43: «» ; DANIELS l.660-662: «Das Manuskript 33b der Soester Stadtbibliothek ist die Abschrift einer Urkunde!, die Eckhart seinen Glaubensrichtern zu Kóln im Jahr 1326 zur Selbstverteidigung überreichte. Es»",
+        "claim": "Forty-nine articles answered in his Latin defense; Daniels a Benedictine; edition 1923; a copy in Soest MS 33b of what he handed his judges at Cologne in 1326. DANIELS l.898-899: «Hiis premissis respondeo ad articulos michi inpositos. Seien- dum quod predicti articuli, cum sint 49, quadrifariam partiuntur:» ; DANIELS l.653-654: «Maria Laach. P. Augustinus Daniels O. S. B.» ; DANIELS l.51: «» ; DANIELS l.660-662: «Das Manuskript 33b der Soester Stadtbibliothek ist die Abschrift einer Urkunde!, die Eckhart seinen Glaubensrichtern zu Kóln im Jahr 1326 zur Selbstverteidigung überreichte. Es»",
         "witness": "DANIELS (eckhart_lateinische-rechtfertigungsschrift-lat_daniels1923.txt) l.898-899, 653-654, 43, 660-662",
         "formation_confidence": "Documented"
       },
@@ -1242,9 +1273,9 @@
         "formation_confidence": "Widely Accepted"
       },
       {
-        "claim": "Card uncertain: Evans alone gives Saxony 1303, Bohemia 1307, Paris 1311, Strasbourg 1312, Frankfurt 1320. EVANS l.498-504: «Tutonicus, licentiates per Bonifavium, 1302. In 1303 he was Provincial of the Order in Saxony, with its sixty convents, men’s and women’s. To this title he added in 1307 that of V^icar-General of Bohemia where he refonned the religious liouses. In 1311 he returned to Paris University and in 1312 began his long sojourn as head of the Order at Strassburg. Eight years later (1320) he is Prior of Frankfu rt. There is now some suspicion of his orthodoxy»",
-        "witness": "EVANS l.498-504",
-        "formation_confidence": "Inferential-Thin"
+        "claim": "Card uncertain: Evans gives Saxony 1303, Bohemia 1307, Paris 1311, Strasbourg 1312, Frankfurt 1320. EVANS l.498-504: «Tutonicus, licentiates per Bonifavium, 1302. In 1303 he was Provincial of the Order in Saxony, with its sixty convents, men’s and women’s. To this title he added in 1307 that of V^icar-General of Bohemia where he refonned the religious liouses. In 1311 he returned to Paris University and in 1312 began his long sojourn as head of the Order at Strassburg. Eight years later (1320) he is Prior of Frankfu rt. There is now some suspicion of his orthodoxy» Winkworth: 'after having filled the important offices of Provincial in Saxony and Vicar-General in Bohemia, had returned to Strasburg'. Pfeiffer: 'vielleicht während seines generalvicariats in Böhmen (um 1307) gehaltenen predigten'. Denifle: Johannes de Grifenstein 'welcher 1312 — 21 wenigstens mehrere Jahre mit Eckehart im Convente zu Strassburg weilte'. Frankfurt stays Contested (Denifle doubts it).",
+        "witness": "EVANS l.498-504; WINK (tauler_history-and-life-with-sermons_winkworth1907.txt) l.4251-4254; PFEIFFER (eckhart_deutsche-mystiker-bd2-gmh_pfeiffer1857.txt) l.368-369; DENIFLE-II l.35268-35269",
+        "formation_confidence": "Widely Accepted"
       },
       {
         "claim": "Card uncertain: Denifle doubts the Frankfurt prior 'frater Ekardus' is the Master and doubts he was ever at Frankfurt. DENIFLE-II l.34604-34606: «Prioren von Worms und Mainz erschliessen zu können‘). Der- selbe schreibt unter anderm: ‘Habui etiam delationes graves de fratre Ekardo nostro priore apud Franckefort, et de fratre Theo-» ; DENIFLE-II l.34805-34813: «unser Eckehart derselbe mit dem Prior von Frankfurt sein? Es ist sehr unwahrscheinlich und zwar um so mehr, als jener Prior einfach frater Ekardus genannt wird, wührend, würe unser Meister Eckehart gemeint gewesen, der Titel und Charakter ma- gister oder magister sacre theologie schwerlich gefehlt hütte?). Und da man für Eckeharts Aufenthalt in Frankfurt kein anderes Document vorzuweisen vermag, als den genannten Brief des Her- veus, so wird es in gleicher Weise äusserst zweifelhaft, ob Ecke- hart überhaupt in Frankfurt war‘).»",
@@ -1314,7 +1345,9 @@
         "claim": "His birth",
         "sides": [
           "Evans: neither date nor place known (EVANS l.494)",
-          "Bannwart's Denzinger: about the middle of the 13th century at Hochheim (DENZ l.15217-15218)"
+          "Bannwart's Denzinger: about the middle of the 13th century at Hochheim (DENZ l.15217-15218)",
+          "Evans also reports that some argue for Strassburg in Saxony, others for Hochheim in Thuringia (EVANS l.495-496; the year there reads '1200' in the OCR and is not used)",
+          "Pfeiffer, in Evans's English of his 1857 preface: 'consistently with Eckhart's home and birthplace, Strassburg' (EVANS l.377-378)"
         ]
       },
       {
@@ -1399,7 +1432,7 @@
         "formation_confidence": "Contested"
       },
       {
-        "claim": "Card: an 1841 Leipzig editor of Spener gives born 1294, died 1361. SPENER l.5376: «56) Johann Tauler, geb. 1294, geſt. 1361, er war Dominkcaner⸗» ; SPENER l.116: «»",
+        "claim": "Card: an 1841 Leipzig editor of Spener gives born 1294, died 1361. SPENER l.5376: «56) Johann Tauler, geb. 1294, geſt. 1361, er war Dominkcaner⸗» ; SPENER l.126: «»",
         "witness": "SPENER (spener_pia-desideria-deu_koehler1841.txt) l.5376, 116",
         "formation_confidence": "Contested"
       },
@@ -1548,7 +1581,7 @@
         "formation_confidence": "Documented"
       },
       {
-        "claim": "A later chapter names the woman: spiritual daughter of the Order of Friars Preachers at Töss, Elizabeth Staglin (Knox's spelling; the brief uses the census form Elsbeth Stagel); 'She drew from him secretly ... and she wrote it down, as has been already related'; Töss near Winterthur. KNOX l.5342-5345: «ter (Matt. ix. 22). The Servitor had at this time a spiritual daughter, of the Order of Friars Preachers, in an enclosed convent at Tosse.* Her name was Elizabeth Staglin, and she lived» ; KNOX l.5365: «» ; KNOX l.5380-5384: «spired her with great devotion to his manner of life and teaching. She drew from him secretly the way in which he broke through created things to arrive at God, and she wrote it down, as has been already related.»",
+        "claim": "A later chapter names the woman: spiritual daughter of the Order of Friars Preachers at Töss, Elizabeth Staglin (Knox's spelling; the brief uses the census form Elsbeth Stagel); 'She drew from him secretly ... and she wrote it down, as has been already related'; Töss near Winterthur. KNOX l.5342-5345: «ter (Matt. ix. 22). The Servitor had at this time a spiritual daughter, of the Order of Friars Preachers, in an enclosed convent at Tosse.* Her name was Elizabeth Staglin, and she lived» ; KNOX l.5366: «» ; KNOX l.5380-5384: «spired her with great devotion to his manner of life and teaching. She drew from him secretly the way in which he broke through created things to arrive at God, and she wrote it down, as has been already related.»",
         "witness": "KNOX l.5342-5345, 5365, 5380-5384",
         "formation_confidence": "Documented"
       },
@@ -1583,8 +1616,13 @@
         "formation_confidence": "Documented"
       },
       {
-        "claim": "IHS only on the cloths: the holy maiden (his spiritual daughter, 'her spiritual father') 'marked the Name of Jesus in red silk on a little piece of cloth, in the following form: IHS'. KNOX l.8410-8422: «THE NAME OF JESUS. 251 When this holy maiden, of whom mention has been made above, perceived that her spirit- ual father was so devout to, and had such firm faith in, the loving Name of Jesus, which he bore upon his breast over his heart, she con- ceived a great and peculiar love for it, and out of devotion she marked the Name of Jesus in red silk on a little piece of cloth, in the following form: IHS — and wore it secretly upon her- self. She also made an almost countless number of similar Names, and persuaded the Servitor to»",
+        "claim": "IHS on the cloths, in Knox: the holy maiden (his spiritual daughter, 'her spiritual father') 'marked the Name of Jesus in red silk on a little piece of cloth, in the following form: IHS'. KNOX l.8410-8422: «THE NAME OF JESUS. 251 When this holy maiden, of whom mention has been made above, perceived that her spirit- ual father was so devout to, and had such firm faith in, the loving Name of Jesus, which he bore upon his breast over his heart, she con- ceived a great and peculiar love for it, and out of devotion she marked the Name of Jesus in red silk on a little piece of cloth, in the following form: IHS — and wore it secretly upon her- self. She also made an almost countless number of similar Names, and persuaded the Servitor to»",
         "witness": "KNOX l.8410-8422",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Bihlmeyer's German text of the same chapter writes the Name cut over his heart as IHS: 'unz er den namen IHS eben uf sin herz gezeichent'; 'beleib der nam IHS eben uf dem herzen stende'.",
+        "witness": "BIHL (suso_deutsche-schriften-gmh_bihlmeyer1907.txt) l.11132-11133, 11145-11146",
         "formation_confidence": "Documented"
       },
       {
@@ -1716,8 +1754,8 @@
         "note": "No held medieval witness names her. Johannes Meier's 15th-century piece leaves her unnamed ('der nam geschriben sei in dem puch des lebens', STAGEL (stagel_leben-der-schwestern-zu-toess-gmh_vetter1906.txt) l.7670-7671); Knox (l.57-58) and Bihlmeyer, from the 1512 preface and 17th-century writers (BIHL l.5023-5039), give only a family name. Not used."
       },
       {
-        "detail": "IHS cut on his breast",
-        "note": "The Life says 'the Name of Jesus' (KNOX l.1028, 1051); the form IHS appears only on the cloths (KNOX l.8417-8419)."
+        "detail": "How the Name on his breast is written",
+        "note": "Knox's English says 'the Name of Jesus' (KNOX l.1028, 1051); Bihlmeyer's German text of the same chapter writes it IHS (BIHL l.11133, 11145). Knox has IHS only on the cloths (KNOX l.8417-8420)."
       },
       {
         "detail": "The amount of the gift at his entry",
