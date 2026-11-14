@@ -31,8 +31,8 @@
       "Bede says Adomnán brought many in Ireland to the Roman Easter, almost all who were not under Iona's rule.",
       "Bede says Iona's own monks took the Roman Easter after Adomnán's death, under Abbot Dunchad. They were taught by Egbert, an English priest who had long lived in Ireland. Bede's fifth book puts Egbert's coming in 716, and his third book gives 715.",
       "Bede calls the book on the holy places useful to many readers, and copied passages from it into his History.",
-      "Newport White says Muirchu, who wrote a Life of Patrick, and Aedh of Sletty signed the acts of the synod Adomnán held at Birr, between 695 and 697.",
-      "A note in the Lebar Brecc, printed by Whitley Stokes, counts Adomnán's rule, not to slay women, among four rules of Ireland. Wentworth Huyshe says Columba, and Adomnán after him, freed women from having to fight beside their husbands and sons."
+      "Newport White, who translated Patrick's writings, says Muirchu and Aedh of Sletty signed the acts of Adomnán's synod at Birr. Muirchu wrote a Life of Patrick, and White dates the synod 695 to 697.",
+      "A note in the Lebar Brecc, a late medieval Irish manuscript, which Whitley Stokes prints, counts Adomnán's rule, not to slay women, among four rules of Ireland. Wentworth Huyshe says Columba, and Adomnán after him, freed women from having to fight beside their husbands and sons."
     ],
     "remembered": [
       "Bede calls him a good and wise man, remarkably learned in Holy Scripture, and a great lover of peace and unity.",
@@ -44,7 +44,7 @@
   "uncertain": [
     "His years and kin come from Wentworth Huyshe's introduction of 1905, which gives them without naming its source. Huyshe reports the view that the Life of Columba was written between Adomnán's visits to Ireland in 692 and 697. The Life is a saint's Life, and its wonders are Adomnán's report.",
     "The book on the holy places. Bede credits it to Adomnán, and its preface names him as the one Arculf dictated to. L. Cecil Jane, in his notes to Bede, calls it doubtful that Adomnán really wrote the book Bede quotes.",
-    "Adomnán's rule. The Lebar Brecc note calls it cain Adamnan, which Whitley Stokes renders as Adamnan's rule. Wentworth Huyshe calls the Lebar Brecc a fifteenth-century manuscript. The text of the rule is not among the sources used here. Newport White ties a synod at Birr to Adomnán, but no source used here says what the synod decreed.",
+    "Adomnán's rule. The Lebar Brecc note calls it cain Adamnan, which Whitley Stokes renders as Adamnan's rule. Wentworth Huyshe calls the Lebar Brecc a fifteenth-century manuscript. The held edition of the Antiphonary of Bangor says it was compiled about the end of the fourteenth century. The text of the rule is not among the sources used here. Newport White ties a synod at Birr to Adomnán, but no source used here says what the synod decreed.",
     "The canons under his name. F. W. H. Wasserschleben says one manuscript names them Canones Adomnani, and that d'Achery had printed them as chapters of Theodore of Canterbury.",
     "His Easter. Bede, who held to the Roman reckoning, tells his change of mind as a turn to the truth. Bede says God so ordered it that he died before Easter came round again. So this lover of peace did not have to quarrel more seriously with those who would not follow him. Ceolfrid says he would also have changed his tonsure if his authority had reached that far.",
     "The annals from the Book of Leinster, as Whitley Stokes prints them, say Adomnán brought the captives to Ireland. Stokes sets the entry at 693. No source used here says whose captives they were.",
@@ -131,6 +131,12 @@
         "author": "Alcuin of York",
         "language": "Latin",
         "file": "cic/texts/alcuin_opera-omnia-letters_migne-pl100-101_1863.txt"
+      },
+      {
+        "title": "The Antiphonary of Bangor, part II, Henry Bradshaw Society 10",
+        "date": "1895",
+        "language": "English and Latin",
+        "file": "cic/texts/antiphonary-of-bangor-pt2-lat_warren1895.txt"
       }
     ]
   }
