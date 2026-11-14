@@ -1,0 +1,78 @@
+{
+  "name": "John III of Samannud",
+  "otherNames": [
+    "John of Samannud",
+    "John of Samnud"
+  ],
+  "knownFor": "Coptic patriarch of Alexandria after Agathon. The History tells how a governor pressed him for a hundred thousand denarii in Holy Week, and how he rebuilt the church of Saint Mark.",
+  "dates": "B. Evetts heads his life 677 to 686. The History says he sat nine years and died on the 1st of the Coptic month Kiahk. R. H. Charles, who translated John of Nikiu, puts the election of his successor in 690",
+  "place": "Alexandria. A native of Samannud, the History says. A book on the churches of Egypt goes under the name of Abu Salih. It places him at the monastery of the Brothers at Sailah, in the Faiyum",
+  "tradition": "Coptic Christianity under Early Islam",
+  "role": "Patriarch of Alexandria, the fortieth in the History's count",
+  "briefLength": "about 2 minutes",
+  "legacy": {
+    "traces": [
+      "He rebuilt the church of Saint Mark in Alexandria in three years, the History says, and was buried in it.",
+      "In his time the people of Agharwah and of the Xoite nome, who had been Chalcedonians, joined his church, the History says.",
+      "He chose Isaac, a monk of Saint Macarius, made him his partner in governing the church, and named him to follow him."
+    ],
+    "remembered": [
+      "The History calls him a saint and \"a virgin in soul and body\". It says none could look on his face, as with Moses.",
+      "The Ethiopic Synaxarium, a book of saints' days, keeps him on the 1st of Takhshash in E. A. Wallis Budge's English. It names churches built in his time, and the famine in which he fed the poor.",
+      "The book under the name of Abu Salih says the governor Abd al-Aziz had a church founded for \"the patriarch Jonas\". Its translator's note reads Jonas as John."
+    ]
+  },
+  "uncertain": [
+    "His life rests on the History of the Patriarchs, a later Arabic history of the Coptic church. Its writer says he was John's spiritual son and was with him at the end, but gives no name.",
+    "The sum. The History has the Amir demand a hundred thousand denarii. In B. Evetts's English, John answers that he has not a hundred thousand drachmae of it. Eusèbe Renaudot, a Catholic scholar writing in Latin in 1713, gives the answer as not even a hundred drachmas.",
+    "Theodore's son. The History says the son of Theodore, the Chalcedonian governor of Alexandria, followed him and loved John like a son. Renaudot adds that he was a Jacobite, which Evetts's English does not say.",
+    "When his successor was chosen. Evetts heads Isaac's life from 686, and Renaudot puts John's death in 686. R. H. Charles puts the election in 690.",
+    "The order after him. Michael the Syrian, a twelfth-century patriarch of the Syriac Orthodox church, puts Simon next and then Isaac. The History puts Isaac first.",
+    "Whom he named. After his death some bishops chose George, a deacon of Sakha. They planned to tell the Amir that John had named him. The Amir found from the documents that he had named Isaac, the History says."
+  ],
+  "sources": {
+    "about": [
+      {
+        "title": "History of the Patriarchs of the Coptic Church of Alexandria, lives of Agathon, John III and Isaac, in Patrologia Orientalis 5 (tr. B. Evetts)",
+        "author": "Attributed to Severus ibn al-Muqaffa",
+        "date": "1910",
+        "language": "Arabic with English translation",
+        "file": "cic/texts/chronicle-of-seert_histoire-nestorienne-premiere-partie-fasc2-patrologia-orientalis-5-ara-fra_scher-dib1910.txt"
+      },
+      {
+        "title": "Historia patriarcharum Alexandrinorum Jacobitarum",
+        "author": "Eusèbe Renaudot",
+        "date": "1713",
+        "language": "Latin",
+        "file": "cic/texts/renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713.txt"
+      },
+      {
+        "title": "The Book of the Saints of the Ethiopian Church, volume 2, 1 Takhshash (tr. E. A. Wallis Budge)",
+        "date": "1928",
+        "language": "English translation",
+        "file": "cic/texts/ethiopian-synaxarium_book-of-saints-ethiopian-church-v2-takhshash-yakatit_budge1928.txt"
+      },
+      {
+        "title": "The Churches and Monasteries of Egypt (tr. B. T. A. Evetts, notes by Alfred J. Butler)",
+        "author": "Attributed to Abu Salih the Armenian",
+        "date": "1895",
+        "language": "English translation",
+        "file": "cic/texts/abu-salih_churches-and-monasteries-of-egypt_evetts1895.txt"
+      },
+      {
+        "title": "The Chronicle of John, Bishop of Nikiu, introduction (tr. R. H. Charles)",
+        "author": "R. H. Charles",
+        "date": "1916",
+        "language": "English",
+        "file": "cic/texts/john-nikiu_chronicle_charles1916.txt"
+      },
+      {
+        "title": "Chronique, tome 2, books VIII to XI (tr. J.-B. Chabot)",
+        "author": "Michael the Syrian",
+        "date": "1901",
+        "language": "French translation",
+        "file": "cic/texts/michael-the-syrian_chronique-tome2-livres-viii-xi-fra_chabot1901.txt"
+      }
+    ]
+  }
+}

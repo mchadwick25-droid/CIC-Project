@@ -1,0 +1,104 @@
+{
+  "name": "Severus ibn al-Muqaffa",
+  "otherNames": [
+    "Sawiros",
+    "Severus of al-Ushmunain"
+  ],
+  "knownFor": "Coptic bishop of al-Ushmunain, famous for his Arabic. His name is joined to the History of the Patriarchs of Alexandria, and one of its prefaces speaks in his voice.",
+  "dates": "No held source gives his birth or death. Eusèbe Renaudot places him under the caliph al-Mu'izz, in the time of the patriarch Abraham the Syrian. B. Evetts placed him in the ninth century in 1895, and near the end of the tenth in 1904",
+  "place": "Bishop of al-Ushmunain in Upper Egypt, between Minya and Asyut, B. Evetts says",
+  "tradition": "Coptic Christianity under Early Islam",
+  "role": "Bishop of al-Ushmunain; named as compiler of the History of the Patriarchs",
+  "briefLength": "about 2 minutes",
+  "keyWorks": [
+    {
+      "title": "History of the Patriarchs of Alexandria, first part",
+      "about": "the lives of the patriarchs from Saint Mark, gathered from Coptic and Greek documents and put into Arabic with helpers, his preface says. How far his part reaches is disputed"
+    },
+    {
+      "title": "Refutation of Eutychius",
+      "about": "against Eutychius, also called Said ibn Batriq, a Melkite patriarch of Alexandria and historian. B. Evetts and Eusèbe Renaudot name it. The text is not held"
+    },
+    {
+      "title": "History of the first four councils",
+      "about": "a short history of the councils, named in Renaudot's list and in Joseph Assemani's catalogue. The text is not held"
+    }
+  ],
+  "legacy": {
+    "traces": [
+      "Mauhub, son of Mansur, a deacon of Alexandria, gathered more lives in 1088. He set those Severus had collected first, Renaudot says.",
+      "His tract on Easter and the Eucharist was valued so much that it is in most manuscripts on preparing for communion, Renaudot says.",
+      "Joseph Assemani's catalogue of Vatican manuscripts lists his history of the first four councils and a tract against the Armenians, in Arabic."
+    ],
+    "remembered": [
+      "The Ethiopic Synaxarium, a book of saints' days, names him beside the patriarch Abraham at the debate before the caliph. In E. A. Wallis Budge's English, they win it.",
+      "Renaudot says Eastern writers praise him and list his works, but few recall his work on the History.",
+      "The History's life of the patriarch Philotheus, as Renaudot gives it, praises his learning, shown in many books.",
+      "Renaudot says Severus was a close friend of Wadih, son of Raja, a Muslim of Misr who became a Christian and wrote books in Arabic. Wadih wrote down a miracle story Severus told him."
+    ]
+  },
+  "uncertain": [
+    "Little of his life is recorded. No held source gives his birth, his consecration as bishop or his death.",
+    "How much of the History is his. A preface in his voice says he had Coptic and Greek histories put into Arabic. B. Evetts says no one can know how far that work reaches.",
+    "Evetts says the lives from the seventh century were written by men of their own time, such as John the deacon and the archdeacon George.",
+    "Renaudot names later writers who carried the History on, among them Michael, bishop of Tanis, and Mauhub, son of Mansur. He doubts that Severus knew Greek, against the preface's own claim.",
+    "Renaudot cites the History under Severus's name, as in his life of Simon I. In his life of Philotheus he keeps Severus apart from the History's author.",
+    "His century. Evetts said the ninth in 1895 and near the end of the tenth in 1904. Renaudot places him under al-Mu'izz and says he lived past a hundred.",
+    "The debate before al-Mu'izz. Renaudot says it went no further. The Ethiopic Synaxarium says they argued with the man and beat him.",
+    "The History's life of the patriarch Mark, son of Zaraa, as Renaudot gives it, says Severus wrote the life of the patriarch Abraham.",
+    "The story of the dog, and the debate, come through Renaudot, who tells them as others told them."
+  ],
+  "sources": {
+    "ownWords": [
+      {
+        "title": "History of the Patriarchs of the Coptic Church of Alexandria, third preface, in Patrologia Orientalis 1 (tr. B. Evetts)",
+        "author": "Severus ibn al-Muqaffa",
+        "date": "1904",
+        "language": "Arabic with English translation",
+        "file": "cic/texts/severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt"
+      }
+    ],
+    "about": [
+      {
+        "title": "History of the Patriarchs of the Coptic Church of Alexandria, first preface and the editor's notice, in Patrologia Orientalis 1",
+        "author": "B. Evetts (ed.)",
+        "date": "1904",
+        "language": "Arabic with English translation; notice in French",
+        "file": "cic/texts/severus-al-muqaffa_history-patriarchs-coptic-church-v1_evetts1904.txt"
+      },
+      {
+        "title": "Historia patriarcharum Alexandrinorum Jacobitarum",
+        "author": "Eusèbe Renaudot",
+        "date": "1713",
+        "language": "Latin",
+        "file": "cic/texts/renaudot_historia-patriarcharum-alexandrinorum-jacobitarum-lat_1713.txt"
+      },
+      {
+        "title": "The Book of the Saints of the Ethiopian Church, volume 2, 6 Takhshash (tr. E. A. Wallis Budge)",
+        "date": "1928",
+        "language": "English translation",
+        "file": "cic/texts/ethiopian-synaxarium_book-of-saints-ethiopian-church-v2-takhshash-yakatit_budge1928.txt"
+      },
+      {
+        "title": "Le Synaxaire éthiopien, mois de Tahschasch, in Patrologia Orientalis 15 (tr. Sylvain Grébaut)",
+        "date": "1927",
+        "language": "Ethiopic with French translation",
+        "file": "cic/texts/patrologia-orientalis-tomus15_petit-documents-concile-de-florence-purgatoire-grc-fra_graffin-nau1927.txt"
+      },
+      {
+        "title": "Bibliotheca Orientalis Clementino-Vaticana, volume 1",
+        "author": "Joseph Simonius Assemani",
+        "date": "1719",
+        "language": "Latin",
+        "file": "cic/texts/assemani_bibliotheca-orientalis-tomus1-de-scriptoribus-syris-orthodoxis-lat_1719.txt"
+      },
+      {
+        "title": "The Churches and Monasteries of Egypt (tr. B. T. A. Evetts, notes by Alfred J. Butler)",
+        "author": "Attributed to Abu Salih the Armenian",
+        "date": "1895",
+        "language": "English translation",
+        "file": "cic/texts/abu-salih_churches-and-monasteries-of-egypt_evetts1895.txt"
+      }
+    ]
+  }
+}
