@@ -845,5 +845,95 @@
         "note": "Connolly reports 360 credited by Ebedjesu and 47 printed by Mingana (l.261-263); the Library holds four in English."
       }
     ]
+  },
+  "lazar-parpetsi": {
+    "claims": [
+      {
+        "claim": "Saw some of the captive Armenian princes with his own eyes; they set up schools to learn the church's teaching, even in the camp, and recited psalms in their minds as they took up arms",
+        "witness": "Lazar, History ch.53 (langlois t2 l.43182-43198)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Lived at the end of the fifth century or the start of the sixth",
+        "witness": "Victor Langlois's introduction to Lazar (langlois t2 l.35079-35080; signed V. L., l.35357); an editor's date",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      },
+      {
+        "claim": "The name Pharbetzi came from a long stay at the monastery of the village of Pharbe or Pharbi in Ararat, not from his birthplace; also called the Rhetor",
+        "witness": "Langlois's introduction (l.35074-35085, 35154-35157)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "A childhood companion of Vahan Mamikonian; studied with Aghan Artsruni, then in Greece with leave from Sahak and Mesrop",
+        "witness": "Langlois's introduction (l.35121-35157), drawing partly on Lazar's Letter to Vahan (l.35103-35106), not held",
+        "formation_confidence": "Inferential-Thin"
+      },
+      {
+        "claim": "Vahan, made governor by the Persian court, restored Etchmiadzin and put Lazar in charge of the mother church (\"métropole\") with the consent of the patriarch John Mandakuni; Lazar restored discipline among the monks",
+        "witness": "Langlois's introduction (l.35172-35209)",
+        "formation_confidence": "Inferential-Thin"
+      },
+      {
+        "claim": "Jealous clergy accused his teaching of being against the true faith; John Mandakuni refused to hear him; his enemies drove him out and kept his Greek books",
+        "witness": "Langlois's introduction (l.35216-35246)",
+        "formation_confidence": "Inferential-Thin"
+      },
+      {
+        "claim": "From Tigranocerta he wrote Vahan a long letter answering each charge; it seems to have worked, and Vahan called him back; probably he then wrote the History in Vahan's palace",
+        "witness": "Langlois's introduction (l.35246-35263): 'Il paraît', 'il est probable'",
+        "formation_confidence": "Inferential-Thin"
+      },
+      {
+        "claim": "Vahan Mamikonian ordered him to write the History",
+        "witness": "Lazar, History ch.3 (langlois t2 l.35730-35735); title line (l.35382); ch.1, 'par ordre des princes' (l.35415-35416)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "His work is the third part of the annals after Agathangelos and Faustus of Byzantium, 'oeuvre de notre faiblesse', and ends on the day Vahan took the government of Armenia",
+        "witness": "Lazar, History ch.1 (langlois t2 l.35386-35448; OCR 'fiiiblesse', l.35413)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "The History tells of the deaths of Sahak and Mesrop, the war of the Vardanians and Vahan's revolt",
+        "witness": "Lazar, History chapter heads ch.18 (l.37805), ch.33-36 (l.40120-40433), ch.59 (l.44111), ch.85 (l.48918)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Doubted stories in Faustus, suspecting another writer had interpolated them or an incapable copyist had altered the work",
+        "witness": "Lazar, History ch.3 (langlois t2 l.35708-35724)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Vahan, worn by slander, went to the Persian court and weakened in his faith there",
+        "witness": "Lazar, History ch.58 (langlois t2 l.43779-43804)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Closes the series of writers of the golden age; his Letter to Vahan is rightly held a masterpiece of style",
+        "witness": "Langlois, Discours préliminaire (langlois t2 l.2638-2645)",
+        "formation_confidence": "Widely Accepted"
+      },
+      {
+        "claim": "Named 'Lazarus of Parpi' among the churchmen whose histories show the clergy's learning",
+        "witness": "Ormanian (l.8738-8742)",
+        "formation_confidence": "Documented"
+      },
+      {
+        "claim": "Vahan governor of Armenia from 486 to 511",
+        "witness": "Notes in the French edition (langlois t2 l.35473-35475, 48958-48962); editor's dates",
+        "formation_confidence": "Dominant Modern Reconstruction"
+      }
+    ],
+    "contested_claims": [],
+    "absent_details": [
+      {
+        "detail": "His birth, death and family",
+        "note": "No held line gives his years. Langlois infers a noble family from the Letter to Vahan (l.35103-35106), which is not held; the census year 485 rests on no held line."
+      },
+      {
+        "detail": "The Letter to Vahan Mamikonian",
+        "note": "Not held. Langlois cites the Armenian edition by J. B. Emin, Moscow (l.35290-35292; l.2663-2664)."
+      }
+    ]
   }
 }
