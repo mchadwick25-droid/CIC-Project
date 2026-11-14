@@ -6,7 +6,7 @@ Rights: Public Domain (pd-us-by-date: published 1872); the archive.org record ca
 Language: fra
 Source: archive.org item recueildeshistor01acad, full text from the item's own djvu.txt. Fetched directly 2026-11-13 by the Library thread; the byte count of the downloaded file (3,933,477) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1872, out of US copyright by date. OCR quality: clean in the French; the Arabic text is not captured as Arabic script. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: Ibn al-Athir, 'Kamel-altevarykh' at about OCR line 54826.
+Content note: Ibn al-Athir, 'Kamel-altevarykh' at about OCR line 24620.
 
 ______________________________________________________________________
 

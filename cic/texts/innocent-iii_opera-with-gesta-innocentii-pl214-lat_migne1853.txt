@@ -5,7 +5,7 @@ Publication Date: 1855 (Opera omnia title page and host record; an earlier serie
 Rights: Public Domain (pd-us-by-date: published 1855); the archive.org record is tagged NOT_IN_COPYRIGHT
 Language: lat
 Source: archive.org item patrologiaecurs202unkngoog, full text from the item's own djvu.txt. Fetched directly 2026-11-13 by the Library thread; the byte count of the downloaded file (4,934,380) equals the size archive.org lists for the djvu.txt.
-Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1855, out of US copyright by date. OCR quality: fair: two columns; a stray two-page fragment of another work (cols 241-242, OCR about lines 166-260) sits between the title pages. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
+Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1855, out of US copyright by date. OCR quality: fair: two columns; a stray two-page fragment of another work (cols 241-242, OCR about lines 166-330) sits between the title pages. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
 Content note: the Gesta Innocentii III at about OCR line 1064; the Registers (letters), book I at about OCR line 18369.
 
 ______________________________________________________________________

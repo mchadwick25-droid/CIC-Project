@@ -12,6 +12,16 @@ works:
   note: The Life of the Carthusian bishop of Lincoln by his own chaplain, written inside this
     window.
   source_file: adam-eynsham_magna-vita-sancti-hugonis-lat_dimock1864.txt
+- row_id: le-couteulx_annales-ordinis-cartusiensis-v1-lat_1887--bruno-of-cologne-an-excerpt-of-his-letter-to-raoul-le-verd-quote
+  work: Bruno of Cologne, an excerpt of his letter to Raoul le Verd, quoted in the Annales
+    Ordinis Cartusiensis I
+  author: bruno-cologne
+  locus: the excerpt at about OCR lines 11802-11822; add 12 to OCR line numbers
+  role: tradition
+  confidence: provisional
+  note: A quoted excerpt only; the volume sends the reader to Bruno's Opera for the whole
+    letter.
+  source_file: le-couteulx_annales-ordinis-cartusiensis-v1-lat_1887.txt
 - row_id: bruno-cologne_opera-omnia-with-acta-pl152-lat_migne1879--bruno-acta-s-brunonis-and-commentarium-in-psalmos-pl-152
   work: Bruno, Acta S. Brunonis and Commentarium in Psalmos (PL 152)
   author: bruno-cologne
@@ -21,16 +31,6 @@ works:
   note: The Acta are a later compilation of the saint's life; the Psalm commentary is printed
     under Bruno's name. The letters themselves are not in this volume.
   source_file: bruno-cologne_opera-omnia-with-acta-pl152-lat_migne1879.txt
-- row_id: le-couteulx_annales-ordinis-cartusiensis-v1-lat_1887--bruno-of-cologne-an-excerpt-of-his-letter-to-raoul-le-verd-quote
-  work: Bruno of Cologne, an excerpt of his letter to Raoul le Verd, quoted in the Annales
-    Ordinis Cartusiensis I
-  author: le-couteulx
-  locus: the excerpt from about OCR line 11727; add 12 to OCR line numbers
-  role: tradition
-  confidence: provisional
-  note: A quoted excerpt only; the volume sends the reader to Bruno's Opera for the whole
-    letter.
-  source_file: le-couteulx_annales-ordinis-cartusiensis-v1-lat_1887.txt
 - row_id: le-couteulx_annales-ordinis-cartusiensis-v1-lat_1887--le-couteulx-annales-ordinis-cartusiensis-vol-i-1084-1151
   work: Le Couteulx, Annales Ordinis Cartusiensis, vol. I, 1084-1151
   author: le-couteulx

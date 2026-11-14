@@ -3,8 +3,9 @@
 # overwrites it. The filename is the census movement id; that is the join.
 atlas_id: innocent-iii
 works:
-- row_id: innocent-iii_opera-with-gesta-innocentii-pl214-lat_migne1853--innocent-iii-gesta-innocentii-iii-and-registers-books-i-ii-pl-21
-  work: Innocent III, Gesta Innocentii III and Registers, books I-II (PL 214)
+- row_id: innocent-iii_opera-with-gesta-innocentii-pl214-lat_migne1853--innocent-iii-gesta-innocentii-iii-and-registers-including-books
+  work: Innocent III, Gesta Innocentii III and Registers (including books I-III and V) (PL
+    214)
   author: innocent-iii
   locus: the whole volume
   role: tradition

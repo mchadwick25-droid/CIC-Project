@@ -3,7 +3,7 @@ Creator: Jacobus de Vitriaco, letters I-II (1216-1217), edited by R. Röhricht (
 Publisher: Gotha: F. A. Perthes (title page)
 Publication Date: 1894 (title page)
 Rights: Public Domain (pd-us-by-date: published 1894); the archive.org record is tagged NOT_IN_COPYRIGHT
-Language: deu
+Language: lat (Latin letters inside a German-language volume)
 Source: archive.org item zeitschriftfrki17unkngoog, full text from the item's own djvu.txt. Fetched directly 2026-11-13 by the Library thread; the byte count of the downloaded file (1,714,967) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1894, out of US copyright by date. OCR quality: fair. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
 Content note: Röhricht's article, the letters at about OCR line 5613.

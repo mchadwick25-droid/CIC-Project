@@ -41,8 +41,9 @@ works:
   note: The canons' own rule of daily life, written in 1295-1296. Within this entry's window
     (1049-1300).
   source_file: barnwell-priory_observances-in-use-at-barnwell-lat-eng_clark1897.txt
-- row_id: innocent-iii_opera-with-gesta-innocentii-pl214-lat_migne1853--innocent-iii-gesta-innocentii-iii-and-registers-books-i-ii-pl-21
-  work: Innocent III, Gesta Innocentii III and Registers, books I-II (PL 214)
+- row_id: innocent-iii_opera-with-gesta-innocentii-pl214-lat_migne1853--innocent-iii-gesta-innocentii-iii-and-registers-including-books
+  work: Innocent III, Gesta Innocentii III and Registers (including books I-III and V) (PL
+    214)
   author: innocent-iii
   locus: the whole volume
   role: tradition
@@ -56,8 +57,8 @@ works:
   role: tradition
   confidence: provisional
   note: The council that gave the Templars their Rule, printed from William of Tyre and the
-    Rule text. Mansi's own note dates the Rule 1127; the date of the council is disputed (January
-    1129 in the Library's council scan).
+    Rule text. The volume's own heading dates the council 1127; the prologue of the Rule says
+    1128 (margin note 'Anno 1128').
   source_file: mansi_sacrorum-conciliorum-collectio-tomus-21-lat_welter-facsimile1903.txt
 - row_id: matthew-paris_chronica-majora-v4-rolls-series-57-lat_luard1877--matthew-paris-chronica-majora-iv-the-first-council-of-lyon-1245
   work: 'Matthew Paris, Chronica majora IV: the First Council of Lyon (1245)'

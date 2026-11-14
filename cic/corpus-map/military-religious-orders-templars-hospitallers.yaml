@@ -19,8 +19,8 @@ works:
   role: tradition
   confidence: provisional
   note: The council that gave the Templars their Rule, printed from William of Tyre and the
-    Rule text. Mansi's own note dates the Rule 1127; the date of the council is disputed (January
-    1129 in the Library's council scan).
+    Rule text. The volume's own heading dates the council 1127; the prologue of the Rule says
+    1128 (margin note 'Anno 1128').
   source_file: mansi_sacrorum-conciliorum-collectio-tomus-21-lat_welter-facsimile1903.txt
 - row_id: templars_die-urspruengliche-templerregel-lat-deu_schnuerer1903--die-urspr-ngliche-templerregel-the-latin-rule-1903
   work: Die ursprüngliche Templerregel, the Latin Rule (1903)

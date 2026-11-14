@@ -6,7 +6,7 @@ Rights: Public Domain (pd-us-by-date: published 1887); the archive.org record ca
 Language: lat
 Source: archive.org item annalesordinisca01leco, full text from the item's own djvu.txt. Fetched directly 2026-11-13 by the Library thread; the byte count of the downloaded file (1,311,064) equals the size archive.org lists for the djvu.txt.
 Provenance note: Extracted unaltered: the item's own djvu.txt is reproduced whole after this header; nothing was stripped, normalized or corrected. Rights basis: published 1887, out of US copyright by date. OCR quality: fair. Line numbers cited in this header are lines of the host OCR; add 12 for this file's own line numbers.
-Content note: an excerpt of Bruno's letter, the description of Calabria at about OCR line 11727.
+Content note: an excerpt of Bruno's letter, the description of Calabria at about OCR line 11805.
 
 ______________________________________________________________________
 
