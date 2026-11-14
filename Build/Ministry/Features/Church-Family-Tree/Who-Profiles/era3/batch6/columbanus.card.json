@@ -28,8 +28,8 @@
   "legacy": {
     "traces": [
       "Jonas of Bobbio names houses founded under his rule by people he had blessed. They include Donatus, bishop of Besançon, and his brother Ramelen, and the brothers Ado, at a house Dana Munro identifies as Jouarre, and Dado, on the little river Rebais.",
-      "Eustasius, his pupil and later abbot of Luxeuil, defended his Rule against the monk Agrestinus before a council at Mâcon. The account is from Jonas's Life of Eustasius, which Giovanni Domenico Mansi prints. Mansi dates the council to 627; Johann Albert Fabricius reports Mabillon's 624 and Charles Le Cointe's 625.",
-      "Laurence, who followed Augustine as archbishop in Kent, wrote with his fellow bishops to the Irish, in a letter Bede gives. They had learned from Abbot Columbanus in Gaul, they say, that the Irish in no way differ from the Britons in their behaviour."
+      "Eustasius, his pupil and later abbot of Luxeuil, defended his Rule against the monk Agrestinus before a council at Mâcon. The account is from Jonas's Life of Eustasius, which Giovanni Domenico Mansi quotes. Mansi dates the council to 627; Johann Albert Fabricius reports Mabillon's 624 and Charles Le Cointe's 625.",
+      "Laurence, who followed Augustine of Canterbury as archbishop, wrote with his fellow bishops to the Irish, in a letter Bede gives. They had learned from Abbot Columbanus in Gaul, they say, that the Irish in no way differ from the Britons in their behaviour."
     ],
     "remembered": [
       "Jonas of Bobbio: \"If anyone wishes to learn of his activity, let him seek it in the saint's writings\", in Dana Munro's English.",
@@ -38,7 +38,7 @@
     ]
   },
   "uncertain": [
-    "His life comes mainly from Jonas of Bobbio, a monk of the house Columbanus founded. Jonas wrote after his death and names companions of the saint among his sources. Dana Munro, Jonas's translator, says Jonas came to Bobbio three years after Columbanus died. William Dudley Foulke, citing Hodgkin, dates the Life about 640. The Life is a saint's Life, full of miracles, and it takes his side. It calls Brunhild a second Jezebel and has the family of Theuderic destroyed as Columbanus foretold. The Chronicle called Fredegar's tells the quarrel with Theuderic and Brunhild. Bruno Krusch notes that the chapter is for the most part copied word for word from Jonas.",
+    "His life comes mainly from Jonas of Bobbio, a monk of the house Columbanus founded. Jonas wrote after his death. In his preface he says many who saw the deeds were still alive to tell them, and that he learned more from Attala and Eustasius, abbots after Columbanus of Bobbio and Luxeuil. Dana Munro, Jonas's translator, says Jonas came to Bobbio three years after Columbanus died. William Dudley Foulke, citing Hodgkin, dates the Life about 640. The Life is a saint's Life, full of miracles, and it takes his side. It calls Brunhild a second Jezebel and has the family of Theuderic destroyed as Columbanus foretold. The Chronicle called Fredegar's tells the quarrel with Theuderic and Brunhild. Bruno Krusch notes that the chapter is for the most part copied word for word from Jonas.",
     "His age when he left Ireland. Jonas's text gives his twentieth year. Dana Munro notes that the manuscripts differ and thinks the thirtieth more likely; Andrea Gallandi gives the thirtieth.",
     "The king who received him in Gaul. Jonas names King Sigibert as ruler of Austrasia and Burgundy. Dana Munro notes that Sigibert died in 575 and was king only of Austrasia. Andrea Gallandi places Luxeuil in the kingdom of Burgundy under King Guntram. He reports 590 for Columbanus's coming there, from Le Cointe and Mabillon, and adds that the time is not plainly settled.",
     "His age at death. His poem to Fedolius says he had reached eighteen Olympiads. Ussher, as Andrea Gallandi reports, reckons seventy-two years if an Olympiad is four years, or ninety if five. Mabillon, as Gallandi quotes him, and Goldast, in his notes to the poems, take the five-year Olympiad and ninety years. Gallandi prefers seventy-two.",
@@ -78,6 +78,13 @@
         "date": "1895",
         "language": "English translation",
         "file": "cic/texts/jonas-bobbio_life-of-st-columban_munro1895.txt"
+      },
+      {
+        "title": "Life of Columbanus in Latin, with Jonas's preface, from Laurentius Surius, in Chronologia sanctorum insulae Lerinensis (poor OCR)",
+        "author": "Jonas of Bobbio; Vincentius Barralis",
+        "date": "1613",
+        "language": "Latin",
+        "file": "cic/texts/barralis_chronologia-sanctorum-insulae-lerinensis-lat_1613.txt"
       },
       {
         "title": "Chronicle called Fredegar's, book IV.36, with Bruno Krusch's notes, in MGH Scriptores rerum Merovingicarum 2",

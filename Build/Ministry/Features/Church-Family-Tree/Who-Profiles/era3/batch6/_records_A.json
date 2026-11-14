@@ -27,6 +27,11 @@
     "formation_confidence": "Dominant Modern Reconstruction"
    },
    {
+    "claim": "Jonas's preface: about three years before, at the brothers' urging and Abbot Bertulf's command, he promised to write the deeds of 'almi patris Columbani', since many who saw them are still alive 'qui nobis non audita sed visa narrent', and he learned more 'per venerabiles viros Attalam et Eustasium', successors at Bobbio and Luxeuil",
+    "witness": "Jonas, preface, in Barralis 1613 from Surius (barralis_chronologia-sanctorum-insulae-lerinensis-lat_1613 l.36424-36436; poor OCR, e.g. 'Benulphi', 'Eutiachium' for Eustasium; the Library header asks that the scan be checked before quoting); Surius's heading calls Jonas 'eius aequali' (l.36418-36419)",
+    "formation_confidence": "Documented"
+   },
+   {
     "claim": "Jonas calls Brunhild 'a second Jezebel' and has Theuderic's line destroyed within three years as Columbanus foretold",
     "witness": "Jonas, Life ch. 31, 43, 58 (jonas munro1895 l.900-901, 1258-1261, 1611-1637)",
     "formation_confidence": "Documented"
@@ -204,8 +209,8 @@
     "note": "Jonas says he wrote it at Milan (jonas munro1895 l.1644-1648); Fabricius lists the 'Liber contra Arianos' among works that are 'desiderantur' (PL80 l.16099-16112). Not held."
    },
    {
-    "detail": "Jonas's preface and Latin text",
-    "note": "Munro omits the preface (jonas munro1895 l.96-98). The Latin Life (Krusch, MGH SRG 37) is not held; Fredegar IV.36 preserves much of the conflict chapters in Latin."
+    "detail": "Jonas's Latin text",
+    "note": "Munro omits the preface (jonas munro1895 l.96-98). The Latin Life with the preface is held in Barralis 1613, copied from Surius, in poor OCR (barralis_chronologia-sanctorum-insulae-lerinensis-lat_1613 l.36414 ff.; e.g. 'vigesimum aetatis annum agens', l.36689). Krusch's MGH SRG 37 edition is not held. Fredegar IV.36 preserves the conflict chapters in Latin."
    },
    {
     "detail": "Gregory of Tours",

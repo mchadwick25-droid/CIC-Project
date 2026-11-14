@@ -1,0 +1,592 @@
+{
+ "constantius-of-lyon": {
+  "claims": [
+   {
+    "claim": "Levison: Constantius 'versus hexametros eonv posuit una cum carmine Secundini parietibus basilicae altari vicinis inscribendos' when 'Patiens episcopus Lugduni ecclesiam aedificasset' (OCR 'eonv to / posuit' = composuit; the 'to' is a margin line number); from Sidonius, ep. II.10, his note 16",
+    "witness": "Levison, prolegomena (constantius-lyon levison1920 l.371-372; note l.389)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Levison: 'Constantium virum Lugdu- sive clericum sive absque ordinibus sacris vitae religiosae deditum amicum Sidonii' (OCR 'vitat'; the line break drops part of 'Lugdunensem'); 'De ordinibus eius ecclesiasticis non constat' (OCR 'no» constat')",
+    "witness": "Levison (constantius-lyon levison1920 l.364-365, 391)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Sidonius 'ei et singulas epistulas inscripsit et octo libros earum collectos dedicavit, quas ut ederet Constantius ei suaserat' (OCR 'insaipsit')",
+    "witness": "Levison, from Sidonius ep. I.1 and others (constantius-lyon levison1920 l.366-367)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "About 473 Constantius worked to restore concord among the Arverni 'in civica simultate'; Sidonius calls him 'persona aetate gravis, infirmitate fragilis, nobilitate sublimis, religione venerabilis' (OCR 'dviea', 'aciale', 'rdigione'), and 'deditus lectioni sacrae Scripturae, summa facundia excellens' (OCR 'Scriplttrae', 'execllens')",
+    "witness": "Levison, from Sidonius ep. III.2 (constantius-lyon levison1920 l.368-370)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Sidonius was bishop of Clermont: on the death of Eparchius 'he was succeeded by Sidonius, the ex-prefect' (Dalton's English); Gennadius's bracketed chapter calls him 'bishop of the Arverni'",
+    "witness": "Gregory of Tours, HF II.23, tr. Dalton (gregory-tours dalton1927 l.2963-2967); Gennadius ch. XCII (npnf203 l.43818-43833, a chapter Richardson says has no place in the text)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Patiens, bishop of Lyon from 449, died some time before 494: 'inde ab a. 449 ecclesiae Lugdunensi praefuit, aliquanto tempore ante a. 494 defunctus' (OCR 'o. 449', 'defunclus')",
+    "witness": "Levison (constantius-lyon levison1920 l.375-376; note l.1768-1770)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Constantius to Patiens: 'imperasti saepissime, ut vitam sancti Germani episcopi obumbratam silentio qualicumque stilo vel praesentibus vel posteris traderem' (OCR as in the file, apparatus marks dropped)",
+    "witness": "Constantius, letter to Patiens (constantius-lyon levison1920 l.1789-1791)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "'tanta enim iam temporum fluxere curricula, ut obscurata per silentium vix colligatur agnitio' (OCR 'tauta', 'nt')",
+    "witness": "Constantius, preface (constantius-lyon levison1920 l.1965-1966)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Constantius to Censurius: 'praecepistis iubendo, ut paenula, quae adhuc intra secreti vicinia tenebatur, longius me auctore procederet essemque ipse reatus mei quodammodo et accusator et proditor' (OCR 'ipae'); Boschius, quoted by Levison, reads 'intra secreti vicinia' as shared only with a few friends at Lyon",
+    "witness": "Constantius, letter to Censurius (constantius-lyon levison1920 l.1880-1885); Levison's note 2 (constantius-lyon levison1920 l.1932-1934)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "The Life is dedicated to Patiens and to 'Censurio episcopo Autissiodorensi', who 'tertio loco post Germanum sedisse dicitur'",
+    "witness": "Levison (constantius-lyon levison1920 l.377, 1866, 1924)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Levison: 'Vitam c. 480. aut paulo post compositam esse statuens' (OCR 'o. 480. ou^')",
+    "witness": "Levison (constantius-lyon levison1920 l.432)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Levison: 'Constantius non tam biographi quam hagiographi munere fungens' (OCR 'Consioniius non <am liographi quam kagiographi'); 'miracula exigui momenti magnam partem operis efficiant aeque atque in Vita Martini a Sulpicio Severo composita, quam Constantio notam fuisse loci complures ... demonstrant'",
+    "witness": "Levison (constantius-lyon levison1920 l.455-458)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Levison: Constantius packed 'res per plus quindecim annos gestas in breve tempus' (OCR 'quituiecim'); yet 'in tanta penuria testium minime omnino spernendum est', though 'caute adhibendae sint'",
+    "witness": "Levison (constantius-lyon levison1920 l.521, 529-531)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Levison on the Alleluia victory: 'cui narrationi quid veri insit ne divinare quidem licet, aliis testibus deficientibus' (OCR 'AUduialiea' for Alleluiatica)",
+    "witness": "Levison (constantius-lyon levison1920 l.466-468)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Prosper says Celestine sent Germanus in 429; 'Constantius, pontificis Romani mentione non facta' refers the mission to a Gallic synod (OCR 'Ilontani')",
+    "witness": "Levison (constantius-lyon levison1920 l.471-476)",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Bede copied 'Vitam Germani c. 12-18. et 25-27. magna ex parte ad verbum fere' into HE I.17-21 (OCR 'c. 12-^16. st 25 — 27'; the first chapter range is unclear in the scan)",
+    "witness": "Levison (constantius-lyon levison1920 l.587-589)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Ennodius, bishop of Pavia ('episcopus Ticinensis'), imitated passages in his Life of Epiphanius, written between 501 and 504; Venantius Fortunatus used the example of Germanus in his Life of Radegund; Adomnán set Germanus's sea perils beside Columba's",
+    "witness": "Levison (constantius-lyon levison1920 l.536-538, 585-587)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Isidore, De viris illustribus 17: 'Siquidem et Constantius episcopus Germani vitam contexuit' (OCR 'episco-: tun / pus', 'vitain.')",
+    "witness": "Isidore (isidore-seville ... pl83 l.121540-121541)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Levison: Isidore called him bishop in error ('auctori temere dignitatem episcopalem attribuit'); the error may lie in Isidore's exemplar, since the Spanish codex A 4 also has 'Constantius episcopus', or in his reading of 'peccator', a word bishops of that age used often; the headings of some manuscripts of the interpolated Vita II call him presbyter",
+    "witness": "Levison (constantius-lyon levison1920 l.391-402, 583-584)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Constantius's close: 'Ego duplicem veniam a te, lector, exposco, primum quod soloecismis et abiectione verborum aures tuas vulnero, deinde quod prolixior pagina videtur parare fastidium' (OCR 'Teniam', 'videtor', 'fastidiam'); 'Et tamen Deum testor conscium secretorum, me plura de domni mei Germani factis agnita et probata tacuisse' (OCR, apparatus marks dropped); the brief and card give this in Opus's modern English",
+    "witness": "Constantius, epilogue (constantius-lyon levison1920 l.4574-4579)",
+    "formation_confidence": "Documented"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "Whether Gregory of Tours knew the Life of Germanus",
+    "sides": [
+     "Bruno Krusch: Gregory copied the whole of chapter 29 of the Miracles of Julian word for word from Constantius's Life without naming its author, and used it also in the Glory of the Confessors 40 ('E Constantii Vita S. Germani Autisiodorensis (I, 1) totum caput 29. M. S. Iuliani ad verbum exscripsit neque vero auctorem nominavit') (gregory-tours arndt-krusch1885 l.35826-35829)",
+     "Wilhelm Levison: Gregory did not have the Life ('eam compertam non haberet'), so that he believed Germanus died at Rome and not at Ravenna (constantius-lyon levison1920 l.539-541; note l.383-385)"
+    ]
+   },
+   {
+    "claim": "Who sent Germanus to Britain",
+    "sides": [
+     "Prosper of Aquitaine, as Levison reports him: Pope Celestine in 429 (constantius-lyon levison1920 l.471-474)",
+     "Constantius: a Gallic synod, with no pope named; Levison holds any joining of the two only a wholly uncertain guess (constantius-lyon levison1920 l.474-478)"
+    ]
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "His family, birth, death, orders",
+    "note": "Searched every held file that names him (Levison; Isidore PL 83; Kaniecka's note in the Paulinus of Milan file; Krusch in Arndt-Krusch; Rees, Cambro-British Saints l.17718, which calls him 'a priest of Lyons'; Marius Mercator PL 48, an unsigned note calling him 'Constantius presbyter'; the Patrick volume's index) under Constanti- with whitespace-tolerant patterns. None gives family, birth or death. His orders: Levison says unknown; Rees and the PL 48 note call him priest, Isidore bishop."
+   },
+   {
+    "detail": "Sidonius's letters to Constantius",
+    "note": "No held file prints Sidonius's letters to Constantius (searched whole Library for Sidonius openings 'Sidonius Domino ...', 'Constantio', 'Conftantio'; Barralis prints Sidonius letters to Faustus and Leontius only). Everything from Sidonius here comes through Levison's summary and quotations."
+   },
+   {
+    "detail": "The end of the Life",
+    "note": "The held file ends at l.4580 in mid-sentence ('Et ideo in scribendo succinctum'), though the header says it runs to the EXPLICIT on p. 283. The quoted lines are complete; the rest of the epilogue is not in the file. For the lead: a possible truncation in the vendored file."
+   },
+   {
+    "detail": "An English translation",
+    "note": "None held; every telling of his words is Opus's modern English from Levison's Latin."
+   }
+  ]
+ },
+ "gennadius-of-marseilles": {
+  "claims": [
+   {
+    "claim": "'Timotheus ... when Proterius had been put to death by the Alexandrians, in response to popular clamour, willingly or unwillingly allowed himself to be made bishop by a single bishop'; he 'wrote a very persuasive book to the Emperor Leo' to show 'that Leo of Rome, pontiff of the city, and the synod of Chalcedon, and all the Western bishops were fundamentally Nestorians'; 'This book of his for learning’s sake, I translated by request of the brethren into Latin and prefixed a caveat.'",
+    "witness": "Gennadius, ch. LXXIII, tr. Richardson (npnf203 l.43441-43460)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Richardson's note: the sentence 'This book…caveat' is in A T 25 30 31 a e 21 Fabr.; omitted by Migne and Herding ('omit Migne. Her.')",
+    "witness": "Richardson's endnote 2700 (npnf203 l.43460-43461)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Richardson's chapter note to Timothy reads 'Bishop of Alexandria 380, died 385', which seems to fit an earlier Timothy of Alexandria (the drafter's inference); Richardson's introduction names 'Timotheus Aelurus who died in 477'. The brief follows the introduction.",
+    "witness": "Richardson (npnf203 l.43442-43443; l.38477)",
+    "formation_confidence": "Inferential-Thin"
+   },
+   {
+    "claim": "Gennadius translated Evagrius: 'This work I have, under instructions, translated into Latin'; 'which I first translated into Latin'; he restored the older version 'because I saw that the translation was vitiated and confused by time'; Evagrius is 'the intimate disciple of the above mentioned Macarius', and Macarius is 'the Egyptian monk' (ch. X)",
+    "witness": "Gennadius, chs. X-XI, tr. Richardson (npnf203 l.42308-42343)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Richardson: 'This combined work of Jerome and Gennadius is unique and indispensable'; 'For the period after the end of Eusebius’ Church History it is of prime value'",
+    "witness": "Richardson, introduction (npnf203 l.38421-38425)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Richardson: the work 'was written about 430 according to some, or 492 to 495 according to others' (so printed; the card reports only the 492-495 view); Ebert argues for the earlier date because Gennadius speaks of Timotheus Aelurus, died 477, as living; 'The bulk of the work at least was composed about 480 (probably chapters 1–90) and the remainder added perhaps within a few years by Gennadius or more probably two other hands'",
+    "witness": "Richardson, introduction (npnf203 l.38473-38487)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Richardson: Ebert's argument 'compels the rejection of the paragraph on Gennadius himself as by a later hand but this should probably be done at any rate, on other grounds'; the chapters from Gelasius to the end are bracketed, and 'Gelasius and Gennadius are contained in 25 30 e²' of his manuscripts",
+    "witness": "Richardson (npnf203 l.38477-38479; l.43860-43864)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Richardson: Gennadius 'more frequently expresses a critical judgment and gives more interesting glimpses of his own—the semi-Pelagian—point of view'",
+    "witness": "Richardson, introduction (npnf203 l.38488-38491)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "On Prosper: 'I regard as his also an anonymous book against certain works of Cassianus, which the church of God finds salutary, but which he brands as injurious, and in fact, some of the opinions of Cassian and Prosper on the grace of God and on free will are at variance with one another.' The brief says 'unsigned book' for 'anonymous book' and 'John Cassian' for 'Cassianus' outside the quotation.",
+    "witness": "Gennadius, ch. LXXXV, tr. Richardson (npnf203 l.43661-43672)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Richardson's note on Augustine: manuscripts '25 Fabr.' add 'wherefore on account of his much speaking Solomon’s saying came true that ‘In the multitude of words there wanteth not sin.’' 'This expression in the editions has been the ground of much comment on Gennadius’ Semi-pelagian bias, but it almost certainly does not represent the original form of the text.'",
+    "witness": "Richardson's note to ch. XXXIX (npnf203 l.42851-42865)",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "'I Gennadius, a presbyter of Marseilles, have written eight books Against all heresies, five books Against Nestorius, ten books Against Eutyches, three books Against Pelagius, also treatises On the Millennium and On the Apocalypse of Saint John, also an epistle On my creed, sent to the blessed Gelasius, bishop of Rome.]' (the closing bracket is Richardson's)",
+    "witness": "ch. XCIX, tr. Richardson (npnf203 l.43968-43975)",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Death 496: Richardson's endnote 'Died 496.'; Blomfield Jackson: 'Gennadius, presbyter of Marseilles, who died in 496'",
+    "witness": "Richardson's endnote 2753 (npnf203 l.43968); Jackson, prolegomena to Theodoret (npnf203 l.3611-3612)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Mommsen: 'Gennadius presbyter Massiliensis saec. V exeunte'; the Acta Sanctorum: 'Gennadius Presbyter Massiliensis, qui sub finem dicti seculi quinti floruit'",
+    "witness": "Mommsen (prosper_chronica-minora-1-lat_mommsen1892 l.42784-42785); Acta Sanctorum Martii III (acta-sanctorum_martii-tomus-3 l.180635-180636)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "On Faustus: 'There are still other works by him, but as I have not read, I do not care to mention them.'",
+    "witness": "Gennadius, ch. LXXXVI, tr. Richardson (npnf203 l.43711-43712)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Book of Church Dogmas: Walafrid Strabo, 'Gennadius Massiliensis presbyter in Dogmate Ecclesiastico'; Platina calls him bishop 'perperam'; Ratramnus gives it to 'Gennadius ... Constantinopolitanus episcopus'; codex Padolironensis gives it to 'Fausti episcopi Ecclesiae Maxiliensis'; the Louvain theologians: 'Gennadii Massiliensis in Gallia presbyteri ... de factione Gallorum, contra quam scribunt Prosper et Hilarius Augustino, et contra quam congregatum fuit concilium Arausicanum secundum', with 'graves ... errores' in his catalogue (OCR '[actione', 'congregalwm')",
+    "witness": "Unsigned admonition, PL 42 (augustine_arian-sermon-collatio-maximinum-pl42 l.97003-97058)",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Alcuin: 'Gennadius quoque Massiliensis episcopus in libello, quem De Ecclesiastico conscripsit Dogmate'; manuscript titles in Brewer: 'dogma ecclesiastica Gennadii episcopi massiliensis'",
+    "witness": "Alcuin (alcuin_opera-omnia-letters_migne-pl100-101 l.5649-5652); Brewer (brewer_kommodian-von-gaza-deu_1906 l.10738, 10779)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Barralis prints a Roman censure saying 'Gennadius constat, cum haec scriberet, favisse plurimum semipelagianis' (OCR 'fauifle', 'fcmipclagianis'); not used in the card, scan rough",
+    "witness": "Barralis (barralis_chronologia-sanctorum-insulae-lerinensis-lat_1613 l.5350-5352)",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Namesake: 'Gennadius a Patriarch of the church of Constantinople' (ch. XC), with Richardson's note 'Bishop (or “Pontiff”) 458, died 471'",
+    "witness": "Gennadius, ch. XC (npnf203 l.43779-43785)",
+    "formation_confidence": "Documented"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "Whether the first-person notice 'I Gennadius' is his",
+    "sides": [
+     "It stands at the end of the Lives in manuscripts 25, 30 and e² and in the editions, and the card's name and see rest on it (npnf203 l.43968-43975)",
+     "Richardson: rejected 'as by a later hand', on Ebert's dating and other grounds (npnf203 l.38477-38479)"
+    ]
+   },
+   {
+    "claim": "Whether Gennadius wrote the Book of Church Dogmas",
+    "sides": [
+     "Walafrid Strabo and the Louvain theologians: Gennadius of Marseilles; Alcuin and manuscript titles in Brewer too (PL 42 l.97022-97023, 97052-97053; Alcuin l.5649; Brewer l.10738)",
+     "Ratramnus: Gennadius of Constantinople; codex Padolironensis: a Faustus; many codices: Augustine, which the PL 42 note rejects (PL 42 l.97003-97024)"
+    ]
+   },
+   {
+    "claim": "Priest or bishop",
+    "sides": [
+     "Presbyter: his notice, Walafrid, Mommsen, the Acta Sanctorum (npnf203 l.43968; PL 42 l.97022; Mommsen l.42784)",
+     "Bishop: Alcuin, Brewer's manuscript titles, Platina, whom the PL 42 note says erred (Alcuin l.5649; Brewer l.10738; PL 42 l.97021-97022)"
+    ]
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "His birth, family, teachers, death",
+    "note": "Searched every held file that names Gennadius of Marseilles (G\\s*e\\s*n\\s*n\\s*a\\s*d\\s*i with Massil-, Marseil-, presbyt-), about 30 files. None gives birth, family or teachers. The year 496 is an editor's note (Richardson; Jackson), with no reason given in the held lines; Will's 1861 volume prints '(† 495)' beside his name inside a quoted text, an editorial insertion not used here (will_acta-et-scripta l.3051)."
+   },
+   {
+    "detail": "His own other works",
+    "note": "Against all heresies, Against Nestorius, Against Eutyches, Against Pelagius, On the Millennium and the letter to Gelasius are not held; only the Lives (English) and the Book of Church Dogmas (Latin, ascribed) are."
+   }
+  ]
+ },
+ "faustus-of-riez": {
+  "claims": [
+   {
+    "claim": "Sidonius to Faustus: 'Legi volumina tua quae Riochatus antistes ac monachus, atque istius mundi bis peregrinus, tuis Britannis pro te reportat'; Riochatus stayed 'apud oppidum nostrum ... donec gentium concitatarum procella defremeret'; Sidonius was left 'tuis libris insalutatus', the books passing the Arvernian territory 'non solum moenia mea verum etiam latera radentibus' (Latin normalized from very rough 1613 OCR with long s: 'qux', 'Antides', 'inlalutatus', 'Aruernum ciim priterirent'; Barralis's header says to quote only after checking the scan, so the brief tells it in modern words)",
+    "witness": "Sidonius ep. IX.9, printed by Barralis (barralis_chronologia-sanctorum-insulae-lerinensis-lat_1613 l.4712-4756); Engelbrecht's summary (faustus-riez engelbrecht1891 l.566-572)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Engelbrecht: 'uolumina illa intellegimus libros de gratia cum Baronio aliisque'; the letter written shortly before Sidonius's exile in 475",
+    "witness": "Engelbrecht (faustus-riez engelbrecht1891 l.569-574)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Avitus to Gundobad: 'citeriorem hunc, quem etiam gloria vestra noverat, ortu Britannum habitaculo Regiensem' (OCR 'citeriovem liimc', 'Britauuum', 'Kegien-sem'); Engelbrecht: 'Faustum in Britannia insula natum esse pro certo habemus', noting others who place his birth in Brittany and Possessor, who calls him 'natione Gallo'",
+    "witness": "Avitus, ep. 4 (avitus-vienne_opera-mgh-aa-6-2-lat_peiper1883 l.7378-7379); Engelbrecht (faustus-riez engelbrecht1891 l.133-154)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "'anno enim 433 eum abbatem Lerinensem factum esse' (OCR 'al)l)atem'); 'itaque a. 433 Faustum abbatem Lerinensem factum esse constat', from Faustus's homily on Maximus (seven full years as abbot to 433) and Sidonius, carm. XVI 112, 'antistes et abbas bis successor agis'; Richardson's note: 'Abbot of Lerins 433–4, bishop of Riez 462, exiled 477–84, died 490'",
+    "witness": "Engelbrecht (faustus-riez engelbrecht1891 l.159, 229-240); Richardson's endnote 2724 (npnf203 l.43683-43684)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Engelbrecht: born 'non multo ante annum 410'; bishop of Riez by 462 (Roman council on Hermes), and 'libenter adstipulemur iis, qui eum anno 452 episcopum factum esse contendunt'",
+    "witness": "Engelbrecht (faustus-riez engelbrecht1891 l.163, 266-279)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Gennadius: 'Faustus, first abbot of the monastery at Lerins, and then made bishop of Riez in Gaul'",
+    "witness": "Gennadius, ch. LXXXVI, tr. Richardson (npnf203 l.43683-43686)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Faustus to Lucidus: 'cum te praesens multa et blanda et humili conlocutione numquam potuerim ad viam veritatis adtrahere' (OCR 'blauda'); 'nos ergo per medium Christo duce gradientes post gratiam, sine qua nihil sumus, laborem officiosae servitutis adserimus' (OCR 'seruitutis'); the brief gives the second in Opus's modern English",
+    "witness": "Faustus, ep. 1 to Lucidus (faustus-riez engelbrecht1891 l.10956-10957, 11049-11051)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Faustus keeps a copy of the letter 'in conuentu sanctorum antestitum, si ita necesse fuerit, proferendum', asking Lucidus to sign or reply",
+    "witness": "Faustus, ep. 1 (faustus-riez engelbrecht1891 l.11098-11103; OCR heavy)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Lucidus's retraction, 'iuxta praedicandi recentia statuta concilii', condemns him 'qui dicit alios deputatos ad mortem, alios ad vitam praedestinatos' (OCR 'mortoiii', 'uitani')",
+    "witness": "Lucidus to the bishops (faustus-riez engelbrecht1891 l.11167, 11205-11206)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "De gratia prologue to Leontius: Leontius gathered 'in condemnando praedestinationis errore concilium summorum antistitum' and charged Faustus with setting it out; 'post Arelatensis concilii subscriptionem nouis erroribus deprehensis adici aliqua synodus Lugdunensis exegit' (OCR rough); its title: against those who say 'per solam dei uoluntatem alios ... ad uitam adtrahi, alios in mortem deprimi'",
+    "witness": "Faustus, De gratia, prologue (faustus-riez engelbrecht1891 l.3550-3567, 3626-3629)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "De gratia, prologue: 'Pelagius ... humanam ... infirmitatem sine gratia sibi posse sufficere stulte credidit' (OCR 'stulte eredidit'); Book I, ch. 1: 'Quod Pelagii sensus, qui gratiam negauit, primo loco necesse sit destrui'",
+    "witness": "Faustus, De gratia (faustus-riez engelbrecht1891 l.3602-3604, 3718-3719)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Engelbrecht: the council at Arles 'anno fere 473' and the Lyon synod soon after; the books 'anno 474 iam editi esse poterant'",
+    "witness": "Engelbrecht (faustus-riez engelbrecht1891 l.555-562)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Gennadius: 'He published also an excellent work, On the grace of God, through which we are saved, in which he teaches that the grace of God always invites, precedes and helps our will'",
+    "witness": "Gennadius, ch. LXXXVI, tr. Richardson (npnf203 l.43693-43697)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Life of Fulgentius: 'illi duo libri quos Faustus episcopus Galliarum contra gratiam subdolo sermone composuit, favens occulte Pelagianis, sed catholicus tamen volens videri' were sent to Fulgentius, 'Quibus ... septem libris ipse respondit' (two-column OCR, words reassembled from alternate lines)",
+    "witness": "Life of Fulgentius, PL 65 (fulgentius-ruspe_opera-contra-arianos-pl65-lat_migne1847 l.9687-9693)",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "The African bishops exiled in Sardinia: one of them 'adversus duos libros Fausti Galli septem libros edidit', showing 'memorati Fausti commenta veritati contraria, catholicae fidei penitus inimica'",
+    "witness": "PL 65, Ep. XV (fulgentius-ruspe ... pl65 l.28460-28465, 28898-28906)",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Isidore: Fulgentius wrote seven books of responses 'in quibus Fausto, Galliae Regiensis urbis episcopo, Pelagianae pravitati consentienti, respondens, obnititur ejus profundam destruere calliditatem' (OCR 'fesponsionum', 'Galli&', 'Pelagians')",
+    "witness": "Isidore, De viris illustribus 27 (isidore-seville ... pl83 l.122083-122092)",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Engelbrecht: Fulgentius's seven books 'nunc deperditi sunt'",
+    "witness": "Engelbrecht (faustus-riez engelbrecht1891 l.622-628)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Engelbrecht: about 520 the Scythian monks at Constantinople disputed Faustus's views; Possessor consulted; 'ne papa quidem Faustum damnauit'; John Maxentius, 'ducis monachorum illorum Scythicorum', called his teaching heretical",
+    "witness": "Engelbrecht (faustus-riez engelbrecht1891 l.590-606)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Warfield: 'its chief champion at a somewhat later day was Faustus of Rhegium (Riez)'; 'in 496 Pope Gelasius condemned the writings of Faustus in the first index of forbidden books'; at Orange, 3 July 529, under Caesarius, 'so far as a formal condemnation could reach, semi-Pelagianism was suppressed'",
+    "witness": "Warfield, introduction (npnf105 l.954-958)",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Engelbrecht: 'Faustum neque Semipelagianum fuisse neque a Caesario, acerbissimo huius haereseos adversario, ceterisque Galliae episcopis habitum esse'; what smells of semi-Pelagian doctrine in his works is 'non haeretici pervicacis sed hominis bona fide errantis verba' (OCR 'acerbissinio', 'Semipelagianani', 'uerija'); the council 'Arausicano a. 520' is OCR for 529 (Engelbrecht then counts 534 as five years after it)",
+    "witness": "Engelbrecht (faustus-riez engelbrecht1891 l.652-670)",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "534 treatise, appended to Pope John II's letter to Caesarius on a deposed bishop of Riez: 'de quibus et Faustus episcopus sanctus in epistula sua dicit: Perdit gratiam consecrati, qui adhuc officium uult exercere mariti'; Engelbrecht says Caesarius used Faustus's authority in it",
+    "witness": "Engelbrecht's fragment (faustus-riez engelbrecht1891 l.13805-13821); Engelbrecht (faustus-riez engelbrecht1891 l.659-664)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "List of apocrypha in Regino: 'Opuscula omnia Fausti Regiensis Galliarum apocr.'; Wasserschleben's note: 'Hoc caput posterior est pars decreti, quod vulgo Gelasio ... tribuitur' (OCR 'GetaHo')",
+    "witness": "Regino of Prüm, App. III c. 58, ed. Wasserschleben (regino-pruem_libri-duo-de-synodalibus-causis-lat_wasserschleben1840 l.29621, 29638-29639, 29717-29718)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Engelbrecht: the Gelasian entry 'interpolatum esse et postea demum additum', since bishops and popes who attacked Faustus a few years later 'silentio praetermittunt anathema illud'",
+    "witness": "Engelbrecht (faustus-riez engelbrecht1891 l.582-589)",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Ado's chronicle: 'contra Faustum scribit lucidissima fide beatissimus Avitus Viennensis episcopus eius redarguens errorem'; Engelbrecht: Avitus did not dispute the books on grace, only refuted Faustus's letter to Paulinus in his letter to Gundobad",
+    "witness": "Ado, quoted by Engelbrecht (faustus-riez engelbrecht1891 l.630-646) and by Peiper (avitus ... peiper1883 l.18404-18407)",
+    "formation_confidence": "Contested"
+   },
+   {
+    "claim": "Avitus answers Faustus's letter to Paulinus of Bordeaux on penance at death: the view that it profits nothing is 'adversa veritati et admodum cruda definitio' (OCR 'nibil aut nulli i^rodesse adversa veritati')",
+    "witness": "Avitus, ep. 4 (avitus ... peiper1883 l.7330-7385)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Exile: 'Faustum senem in exsilium missum esse ex ipsius Fausti epistulis comperimus'; 'neque improbabilis est coniectura virorum doctorum ab Eurico Gothorum rege' (477); return after Euric's death, 485, 'veri simile'; 'in aliquo monasterio exsulem degisse'",
+    "witness": "Engelbrecht (faustus-riez engelbrecht1891 l.322-360)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Faustus from exile to Ruricius: 'in secreto religionis congruo et tranquillissimo in silentio constituti ... praesenti insultamus exilio et patriam nos non amisisse, sed commutasse cognoscimus ... sine sede propria possessores, sine possessione divites sumus' (OCR 'diuites'); the brief gives the last clause in Opus's modern English",
+    "witness": "Faustus, ep. 9 (faustus-riez engelbrecht1891 l.13391-13404)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Death: 'Quo anno mortuus sit Faustus, prorsus incertum est'; by 500, from Avitus, dead some years",
+    "witness": "Engelbrecht (faustus-riez engelbrecht1891 l.365-395)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Sidonius's praise, as Engelbrecht gathers it: Faustus kept the rigor of Lérins as bishop ('neque novae dignitatis obtentu rigorem veteris disciplinae Lerinensis relaxatum'), preached at Lérins, very often at Riez, and at Lyon in the church Patiens built",
+    "witness": "Engelbrecht, from Sidonius (faustus-riez engelbrecht1891 l.290-310)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Barralis: 'De Faustio Episcopo Regiensi, ex Abbate Lerinensi, cuius dies festus colitur a Regiensibus' (OCR 'Fauiio Epifeo^o RegienR', 'feSUuus')",
+    "witness": "Barralis 1613 (barralis_chronologia ... l.4535-4536)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "De spiritu sancto, long printed under Paschasius the deacon's name, is Faustus's by 'codicis optimi auctoritas et Gennadii ... diserta testimonia'",
+    "witness": "Engelbrecht (faustus-riez engelbrecht1891 l.427-434)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Namesakes: 'Claudianus diaconus directus a domno meo Fausto episcopo ecclesiae Regensis' at Orléans 549; the Faustus who received Fulgentius in Africa ('Faustus Praesidiensis in V. S. Fulgentii', Krusch)",
+    "witness": "Maassen (concilia-aevi-merovingici-mgh-concilia-1-lat_maassen1893 l.9332, 9369); Life of Fulgentius (fulgentius-ruspe ... pl65 l.8187-8298); Krusch's note (gregory-tours arndt-krusch1885 l.51448)",
+    "formation_confidence": "Documented"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "Whether Faustus was a semi-Pelagian",
+    "sides": [
+     "Against him: the Life of Fulgentius (secretly favoured the Pelagians; PL 65 l.9687-9693); the African bishops in Sardinia (PL 65 l.28898-28906); Isidore (consented to Pelagian depravity; PL 83 l.122089-122092); John Maxentius, via Engelbrecht (faustus-riez engelbrecht1891 l.597-606); Warfield ('chief champion'; npnf105 l.954-958)",
+     "For him: Gennadius ('an excellent work'; npnf203 l.43693-43697); Engelbrecht (neither semi-Pelagian nor held so by Caesarius; erred in good faith; faustus-riez engelbrecht1891 l.652-670); the 534 treatise ('Faustus episcopus sanctus'; faustus-riez engelbrecht1891 l.13819); Pope Hormisdas would not condemn him, per Engelbrecht (faustus-riez engelbrecht1891 l.596-598)"
+    ]
+   },
+   {
+    "claim": "Whether Pope Gelasius condemned his works",
+    "sides": [
+     "Warfield: Gelasius condemned them in 496 in the first index of forbidden books (npnf105 l.956); the list in Regino counts all his works apocryphal (regino l.29717-29718)",
+     "Engelbrecht: the entry was interpolated later; Wasserschleben notes some think the decree itself apocryphal (faustus-riez engelbrecht1891 l.582-589; regino l.29639-29641)"
+    ]
+   },
+   {
+    "claim": "His birthplace",
+    "sides": [
+     "The island of Britain: Avitus 'ortu Britannum'; Sidonius on the Britons as his people; Engelbrecht 'pro certo' (avitus l.7378; faustus-riez engelbrecht1891 l.133-154)",
+     "Armorican Brittany, by scholars Engelbrecht reports (Stilting); 'natione Gallus', Possessor; 'Faustus Gallus', Facundus (faustus-riez engelbrecht1891 l.138-148)"
+    ]
+   },
+   {
+    "claim": "Whether the anathema on 'the books of Faustus' is papal",
+    "sides": [
+     "Kaltenbrunner, as Maassen quotes him: Pope Felix IV's capitula end by condemning 'praecipue librorum Fausti Galliarum episcopi' (maassen1893 l.4182-4188)",
+     "Maassen: the anathemas are Peter the Deacon's and his companions' own definition, written 520 or 521 (maassen1893 l.4140-4148, 4195-4203); the text is in Peter's book in PL 65 (fulgentius-ruspe ... pl65 l.29450-29458)"
+    ]
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "Faustus named in the canons of Orange 529",
+    "note": "Searched Maassen's Orange 529 text and notes (maassen1893 l.4140-4400) for F\\s*a\\s*u\\s*s\\s*t-: he appears only in Kaltenbrunner's and Maassen's notes, not in the canons. The brief says only that Warfield ties Orange to semi-Pelagianism."
+   },
+   {
+    "detail": "An English translation",
+    "note": "None of Faustus's works is held in English; every telling of his words is Opus's modern English from Engelbrecht's Latin."
+   },
+   {
+    "detail": "Sidonius's letters to Faustus in a modern edition",
+    "note": "No Sidonius edition is held. Letter IX.9 is held only in Barralis's 1613 print (rough OCR, second witness); the rest of Sidonius's praise comes through Engelbrecht. Searched whole Library for Sidonius openings."
+   },
+   {
+    "detail": "The place of exile",
+    "note": "Engelbrecht: unknown, a monastery far from Arles ('quo loco exsul vixerit, nescimus', OCR 'noscimus', faustus-riez engelbrecht1891 l.350-359). No held line names it."
+   },
+   {
+    "detail": "Ages and family",
+    "note": "Engelbrecht reads 'mother' in Sidonius as his natural mother and 'brother'/'son' in Faustus's letters as spiritual; no held line gives his family beyond this. Not used in the brief."
+   }
+  ]
+ },
+ "ruricius-of-limoges": {
+  "claims": [
+   {
+    "claim": "Caesarius to Ruricius: 'Dum nimium tribularetur animus meus, quare ad synodum vestram praesentiam non meruimus obtinere, sanctus et domnus meus Verus episcopus mihi dignatus est dicere, quod per suum diaconum mihi Agate vestras litteras destinasset, quas ego nescio quo casu aut qua neglegentia me non retineo suscepisse'; 'dignissimum fuerat, ut personam dirigeretis, quae ad vicem vestram subscriberet' (OCR 'uimium', 'reteiieo')",
+    "witness": "Caesarius, letter to Ruricius (faustus-riez engelbrecht1891 l.24680-24694)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Verus was bishop of Tours: 'Leo diaconus missus a domino meo Vero episcopo Turonicae civitatis', from the acts of Agde",
+    "witness": "Engelbrecht's note (faustus-riez engelbrecht1891 l.2959-2960)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Engelbrecht: 'anno enim 506 (sub d. III Idus Septembris Messala v. c. consule ...) Caesario Arelatensi praesidente concilium Agathense habitum est'; Ruricius 'neque venit neque procuratorem misit, sed litteras tantum per diaconum Veri episcopi Agathen direxit'",
+    "witness": "Engelbrecht (faustus-riez engelbrecht1891 l.2933-2942)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Ruricius to Caesarius: 'quod vero scribitis, cur ad synodum, sicut conlocutio habuit nostra, non venerim, fecit hoc infirmitas, non voluntas. ipsi etenim recolere potestis, quam fessum me Burdigala videritis et hoc hieme, quando esse soleo fortior solito' (OCR 'nou'); Engelbrecht ties this letter (II.33) to Agde",
+    "witness": "Ruricius, ep. II.33 (faustus-riez engelbrecht1891 l.23173-23188); Engelbrecht (faustus-riez engelbrecht1891 l.2941-2942)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Ruricius to Caesarius: 'si aliis nomen urbium praestat auctoritas, nobis auctoritatem demere non debet urbis humilitas, siquidem multo melius multoque eminentius est civitatem de sacerdote, quam sacerdotem de civitate notescere' (OCR 'umltoque eminontius'); Engelbrecht: 'erat autem Lemovicum civitas ... exigua atque infirma'",
+    "witness": "Ruricius, ep. II.33 (faustus-riez engelbrecht1891 l.23197-23200); Engelbrecht (faustus-riez engelbrecht1891 l.2904-2908)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "'Eodem anno, quo Faustus ex exsilio reuertit, a. 485 Ruricius episcopus Lemouicensis factus est', from Faustus's letter written 'nuper demum reverso ad Ruricium modo episcopum factum'",
+    "witness": "Engelbrecht (faustus-riez engelbrecht1891 l.2901-2903; l.953-959)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "'nobili genere Gallico natus erat'; married Iberia, daughter of Ommatius, for whom Sidonius wrote an epithalamium; before 468 by Engelbrecht's reasoning; lived at Gourdon near Cahors",
+    "witness": "Engelbrecht (faustus-riez engelbrecht1891 l.2822, 2837-2863)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Fortunatus's epitaph of the Ruricii, bishops of Limoges: 'Ruricii gemini flores, quibus Aniciorum iuncta parentali culmine Roma fuit'; 'hinc avus, inde nepos'; 'tempore quisque suo fundans pia templa patroni iste Augustini, condidit ille Petri'; 'plurima pauperibus tribuentes divite censu misere ad caelos quas sequerentur opes' (OCR heavy: 'Kuricii gemini Horcs', 'Iiiiic avus, inde neiius'); Engelbrecht takes the elder to have built St Augustine's",
+    "witness": "Venantius Fortunatus, carm. IV.5 (venantius-fortunatus_opera-mgh-aa-4-lat_leo-krusch1881 l.8290-8311); Engelbrecht (faustus-riez engelbrecht1891 l.2976-2982)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Faustus drew him to the religious life ('Fausto imprimis auctore'), before 479",
+    "witness": "Engelbrecht (faustus-riez engelbrecht1891 l.2883-2896)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Ruricius to Faustus: 'Olim te, domine mi venerande ac beatissime sacerdos, fama celeberrima praedicante cognovi' (OCR 'ae' for 'ac'); 'adhaesit, doctor eximie, anima mea post te' (Ps. 62:9); asks for 'non ... delicatos et dulces cibos, sed austeriores et aegritudini meae congruos', 'sicut nunc fecistis adhuc meae infirmitatis ignari'",
+    "witness": "Ruricius, ep. I.1 (faustus-riez engelbrecht1891 l.20027-20044, 20070-20074)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Faustus from exile: 'hanc primam munificentiam domino largiente percepi, quod piissimus meus Ruricius post vitae huius iactationes ad portum religionis proram salutis excelsi manu gubernante convertit' (OCR 'Kuricius')",
+    "witness": "Faustus, ep. 9 (faustus-riez engelbrecht1891 l.13409-13412)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Two books of letters, with letters to him (Graecus, Taurentius, Sedatus, Caesarius and others), from codex Sangallensis 190, ninth century",
+    "witness": "Engelbrecht's edition (faustus-riez engelbrecht1891 l.20007-20016, 24416-24680)",
+    "formation_confidence": "Documented"
+   },
+   {
+    "claim": "Poor health: Eufrasius shares his infirmity; in summer he can scarcely bear his usual weakness; Sedatus wished he had come to Toulouse; Ruricius II.35 says weakness kept him away",
+    "witness": "Engelbrecht (faustus-riez engelbrecht1891 l.2926-2932, 2944-2958)",
+    "formation_confidence": "Widely Accepted"
+   },
+   {
+    "claim": "Death: 'non multo post eum diem supremum obiisse veri simile esse cum Kruschio statuimus'",
+    "witness": "Engelbrecht (faustus-riez engelbrecht1891 l.2971-2974)",
+    "formation_confidence": "Dominant Modern Reconstruction"
+   },
+   {
+    "claim": "Engelbrecht rejects the view that Ruricius was exiled as bishop, from 'per talem viam ... ad exsilium', since he mentions exile nowhere else",
+    "witness": "Engelbrecht (faustus-riez engelbrecht1891 l.2915-2921)",
+    "formation_confidence": "Contested"
+   }
+  ],
+  "contested_claims": [
+   {
+    "claim": "Whether Ruricius was exiled",
+    "sides": [
+     "Some scholars, as Engelbrecht reports, from a phrase in a letter at p. 370 of the edition ('per talem viam nos iter egisse cognoscite, per quam nec ad paradisum, non dicam ad exsilium quisquam ire desideret') (faustus-riez engelbrecht1891 l.2915-2918)",
+     "Engelbrecht: the words do not mean his exile; no other letter mentions one (faustus-riez engelbrecht1891 l.2918-2921)"
+    ]
+   },
+   {
+    "claim": "His years",
+    "sides": [
+     "The Library header: 'c. 440 - c. 507' (faustus-riez engelbrecht1891 l.2)",
+     "Engelbrecht: bishop 485 from Faustus's letter; died not long after 507 with Krusch; no birth year argued in the lines read (faustus-riez engelbrecht1891 l.2901-2903, 2971-2974)"
+    ]
+   }
+  ],
+  "absent_details": [
+   {
+    "detail": "Ruricius in other held witnesses",
+    "note": "Searched whole Library for R\\s*u\\s*r\\s*i\\s*c\\s*i, Roric-, Kuric-, Huric- (OCR): Venantius Fortunatus's epitaph (held); Gregory of Tours names no Ruricius in his own text (Krusch's note at gregory-tours arndt-krusch1885 l.61481 quotes the Life of Junian); Dalton and Brehaut none; Maassen's councils have a Ruricius at Clermont 535 (l.6019) and Orléans 541 (l.8139, 'Lemouice civitatis'), and his archdeacon at Orléans 549 (l.9442), who cannot be this man on Engelbrecht's dating; Krusch's SRM 3 notes; Avitus's index; PL 67 notes on Caesarius's letter. No Sidonius edition is held, so Sidonius's three letters to him come only through Engelbrecht."
+   },
+   {
+    "detail": "A year of birth",
+    "note": "None held beyond the Library file header's 'c. 440'; Engelbrecht's chapter argues none in the lines read (l.2818-3090)."
+   },
+   {
+    "detail": "An English translation",
+    "note": "None held; all of his words in the brief are Opus's modern English from Engelbrecht's Latin."
+   }
+  ]
+ }
+}
